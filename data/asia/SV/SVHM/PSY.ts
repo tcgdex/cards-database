@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVHM"
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "基本【超】能量",
-		th: "พลังงานพื้นฐาน[พลังจิต]",
-		id: "Energi Dasar Psychic"
+		'th-th': "พลังงานพื้นฐาน[พลังจิต]",
+		'id-id': "Energi Dasar Psychic"
 	},
 
 	category: "Energy",

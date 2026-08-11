@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ランドロス",
+		'ja-jp': "ランドロス",
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ランドロスが 訪れる 土地は 作物が たくさん 実るため 畑の神様 と 言われている。",
+		'ja-jp': "ランドロスが 訪れる 土地は 作物が たくさん 実るため 畑の神様 と 言われている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Fighting"],
 			effect: {
-				ja: "自分のトラッシュからエネルギーを1枚選び、このポケモンにつける。",
+				'ja-jp': "自分のトラッシュからエネルギーを1枚選び、このポケモンにつける。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。",
 			},
 		},
 	],

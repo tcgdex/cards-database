@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "鍋型頭盔",
-		ja: "なべメット"
+		'ja-jp': "なべメット"
 	},
 
 	illustrator: "Toyste Beach",
@@ -14,7 +14,7 @@ const card: Card = {
 
 	effect: {
 		'zh-tw': "寶可夢道具卡，附於自己的寶可夢使用。1隻寶可夢只可附上1張寶可夢道具卡，並且保持附加狀態。",
-		ja: "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。"
+		'ja-jp': "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。"
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Umbreon",
-		fr: "Noctali",
-		de: "Nachtara"
+		'en-us': "Umbreon",
+		'fr-fr': "Noctali",
+		'de-de': "Nachtara"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Evoli",
+		'en-us': "Eevee",
+		'fr-fr': "Evoli",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Moonlight Veil",
-				fr: "Voile lunaire",
-				de: "Mondschleier"
+				'en-us': "Moonlight Veil",
+				'fr-fr': "Voile lunaire",
+				'de-de': "Mondschleier"
 			},
 			effect: {
-				en: "Each of your Pokémon that evolves from Eevee has no Weakness, and that Pokémon's Retreat Cost is 0.",
-				fr: "Chacun de vos Pokémon évoluant d'Evoli ne possède pas de Faiblesse et a un Coût de retraite de 0.",
-				de: "Jedes deiner Pokémon, das sich aus Evoli entwickelt hat, hat keine Schwäche mehr, und Rückzugskosten 0."
+				'en-us': "Each of your Pokémon that evolves from Eevee has no Weakness, and that Pokémon's Retreat Cost is 0.",
+				'fr-fr': "Chacun de vos Pokémon évoluant d'Evoli ne possède pas de Faiblesse et a un Coût de retraite de 0.",
+				'de-de': "Jedes deiner Pokémon, das sich aus Evoli entwickelt hat, hat keine Schwäche mehr, und Rückzugskosten 0."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde folie",
-				de: "Konfusstrahl"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde folie",
+				'de-de': "Konfusstrahl"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
-				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 50,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The light of the moon changed Eevee's genetic structure. It lurks in darkness for prey.",
+		'en-us': "The light of the moon changed Eevee's genetic structure. It lurks in darkness for prey.",
 	},
 
 	thirdParty: {

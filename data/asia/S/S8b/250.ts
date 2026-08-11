@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ザシアンV",
+		'ja-jp': "ザシアンV",
 	},
 
 	illustrator: "aoki",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ふとうのつるぎ" },
 			effect: {
-				ja: "自分の番に1回使えて、使ったなら、自分の番は終わる。自分の山札を上から3枚見て、その中から[鋼]エネルギーを好きなだけ選び、このポケモンにつける。残りのカードは手札に加える。",
+				'ja-jp': "自分の番に1回使えて、使ったなら、自分の番は終わる。自分の山札を上から3枚見て、その中から[鋼]エネルギーを好きなだけ選び、このポケモンにつける。残りのカードは手札に加える。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 230,
 			cost: ["Metal", "Metal", "Metal"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],

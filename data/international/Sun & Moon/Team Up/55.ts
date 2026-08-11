@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Nidorina",
-		fr: "Nidorina",
-		es: "Nidorina",
-		it: "Nidorina",
-		pt: "Nidorina",
-		de: "Nidorina"
+		'en-us': "Nidorina",
+		'fr-fr': "Nidorina",
+		'es-es': "Nidorina",
+		'it-it': "Nidorina",
+		'pt-br': "Nidorina",
+		'de-de': "Nidorina"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidoran♀",
-		fr: "Nidoran♀",
+		'en-us': "Nidoran♀",
+		'fr-fr': "Nidoran♀",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Family Rescue",
-				fr: "Sauvetage Familial",
-				es: "Rescate Familiar",
-				it: "Salva Famiglia",
-				pt: "Resgatar a Família",
-				de: "Familienrettung"
+				'en-us': "Family Rescue",
+				'fr-fr': "Sauvetage Familial",
+				'es-es': "Rescate Familiar",
+				'it-it': "Salva Famiglia",
+				'pt-br': "Resgatar a Família",
+				'de-de': "Familienrettung"
 			},
 			effect: {
-				en: "Shuffle 5 Psychic Pokémon from your discard pile into your deck.",
-				fr: "Mélangez 5 Pokémon Psychic de votre pile de défausse avec votre deck.",
-				es: "Pon 5 Pokémon Psychic de tu pila de descartes en tu baraja y baraja todas las cartas.",
-				it: "Rimischia cinque Pokémon Psychic dalla tua pila degli scarti nel tuo mazzo.",
-				pt: "Embaralhe 5 Pokémon Psychic da sua pilha de descarte no seu baralho.",
-				de: "Mische 5 Psychic-Pokémon aus deinem Ablagestapel in dein Deck."
+				'en-us': "Shuffle 5 Psychic Pokémon from your discard pile into your deck.",
+				'fr-fr': "Mélangez 5 Pokémon Psychic de votre pile de défausse avec votre deck.",
+				'es-es': "Pon 5 Pokémon Psychic de tu pila de descartes en tu baraja y baraja todas las cartas.",
+				'it-it': "Rimischia cinque Pokémon Psychic dalla tua pila degli scarti nel tuo mazzo.",
+				'pt-br': "Embaralhe 5 Pokémon Psychic da sua pilha de descarte no seu baralho.",
+				'de-de': "Mische 5 Psychic-Pokémon aus deinem Ablagestapel in dein Deck."
 			},
 
 		},
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 30,
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The female has a gentle temperament. It emits ultrasonic cries that have the power to befuddle foes.",
+		'en-us': "The female has a gentle temperament. It emits ultrasonic cries that have the power to befuddle foes.",
 	},
 
 	thirdParty: {

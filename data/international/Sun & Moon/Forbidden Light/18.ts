@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Litleo",
-		fr: "Hélionceau",
-		es: "Litleo",
-		it: "Litleo",
-		pt: "Litleo",
-		de: "Leufeo"
+		'en-us': "Litleo",
+		'fr-fr': "Hélionceau",
+		'es-es': "Litleo",
+		'it-it': "Litleo",
+		'pt-br': "Litleo",
+		'de-de': "Leufeo"
 	},
 
 	illustrator: "Yuka Morii",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d’Boule",
-				es: "Golpe Cabeza",
-				it: "Bottintesta",
-				pt: "Cabeçada",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d’Boule",
+				'es-es': "Golpe Cabeza",
+				'it-it': "Bottintesta",
+				'pt-br': "Cabeçada",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 20,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They set off on their own from their pride and live by themselves to become stronger. These hot-blooded Pokémon are quick to fight.",
+		'en-us': "They set off on their own from their pride and live by themselves to become stronger. These hot-blooded Pokémon are quick to fight.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lokix",
-		fr: "Gambex",
-		es: "Lokix",
-		it: "Lokix",
-		pt: "Lokix",
-		de: "Lextremo"
+		'en-us': "Lokix",
+		'fr-fr': "Gambex",
+		'es-es': "Lokix",
+		'it-it': "Lokix",
+		'pt-br': "Lokix",
+		'de-de': "Lextremo"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Nymble",
-		fr: "Lilliterelle",
-		es: "Nymble",
-		it: "Nymble",
-		pt: "Nymble",
-		de: "Micrick"
+		'en-us': "Nymble",
+		'fr-fr': "Lilliterelle",
+		'es-es': "Nymble",
+		'it-it': "Nymble",
+		'pt-br': "Nymble",
+		'de-de': "Micrick"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Spiral Kick",
-			fr: "Coup'd Pied en Spirale",
-			es: "Patada Espiral",
-			it: "Spiralcalcio",
-			pt: "Chute Espiral",
-			de: "Drehtritt"
+			'en-us': "Spiral Kick",
+			'fr-fr': "Coup'd Pied en Spirale",
+			'es-es': "Patada Espiral",
+			'it-it': "Spiralcalcio",
+			'pt-br': "Chute Espiral",
+			'de-de': "Drehtritt"
 		},
 
 		damage: 50

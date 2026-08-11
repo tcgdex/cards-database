@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Garganacl",
-		fr: "Gigansel",
-		de: "Saltigant",
-		it: "Garganacl",
-		es: "Garganacl",
-		pt: "Garganacl",
+		'en-us': "Garganacl",
+		'fr-fr': "Gigansel",
+		'de-de': "Saltigant",
+		'it-it': "Garganacl",
+		'es-es': "Garganacl",
+		'pt-br': "Garganacl",
 		'es-mx': "Garganacl"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 180,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Naclstack",
-		fr: "Amassel",
-		de: "Sedisal",
-		it: "Naclstack",
-		es: "Naclstack",
-		pt: "Naclstack",
+		'en-us': "Naclstack",
+		'fr-fr': "Amassel",
+		'de-de': "Sedisal",
+		'it-it': "Naclstack",
+		'es-es': "Naclstack",
+		'pt-br': "Naclstack",
 		'es-mx': "Naclstack"
 	},
 	stage: "Stage2",
@@ -35,22 +35,22 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Powerful a-Salt",
-			fr: "Puissance Univer-Sel",
-			de: "Kräftig versalzen",
-			it: "Sale Portentoso",
-			es: "A-Sal-to Poderoso",
-			pt: "Agressal Potente",
+			'en-us': "Powerful a-Salt",
+			'fr-fr': "Puissance Univer-Sel",
+			'de-de': "Kräftig versalzen",
+			'it-it': "Sale Portentoso",
+			'es-es': "A-Sal-to Poderoso",
+			'pt-br': "Agressal Potente",
 			'es-mx': "A-sal-to Poderoso"
 		},
 
 		effect: {
-			en: "Attacks used by your {F} Pokémon do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
-			fr: "Les attaques utilisées par vos Pokémon {F} infligent 30 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
-			de: "Die von deinen {F}-Pokémon eingesetzten Attacken fügen dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden).",
-			it: "Gli attacchi usati dai tuoi Pokémon {F} infliggono 30 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
-			es: "Los ataques usados por tus Pokémon {F} hacen 30 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
-			pt: "Os ataques usados pelos seus Pokémon {F} causam 30 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
+			'en-us': "Attacks used by your {F} Pokémon do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+			'fr-fr': "Les attaques utilisées par vos Pokémon {F} infligent 30 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
+			'de-de': "Die von deinen {F}-Pokémon eingesetzten Attacken fügen dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden).",
+			'it-it': "Gli attacchi usati dai tuoi Pokémon {F} infliggono 30 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
+			'es-es': "Los ataques usados por tus Pokémon {F} hacen 30 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
+			'pt-br': "Os ataques usados pelos seus Pokémon {F} causam 30 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
 			'es-mx': "Los ataques usados por tus Pokémon {F} hacen 30 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia)."
 		}
 	}],
@@ -59,12 +59,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			de: "Einhämmern",
-			it: "Martello",
-			es: "Martillear",
-			pt: "Martelada",
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'de-de': "Einhämmern",
+			'it-it': "Martello",
+			'es-es': "Martillear",
+			'pt-br': "Martelada",
 			'es-mx': "Martillar"
 		},
 

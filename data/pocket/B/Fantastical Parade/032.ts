@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [225],
 
 	name: {
-		en: "Delibird"
+		'en-us': "Delibird"
 	},
 
 	illustrator: "USGMEN",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It always carries its food with it, wherever it goes.\nIf attacked, it throws its food at the opponent."
+		'en-us': "It always carries its food with it, wherever it goes.\nIf attacked, it throws its food at the opponent."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Box of Surprises"
+			'en-us': "Box of Surprises"
 		},
 
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 70 damage to your opponent's Active Pokémon. If tails, heal 30 damage from your opponent's Active Pokémon."
+			'en-us': "Flip a coin. If heads, this attack does 70 damage to your opponent's Active Pokémon. If tails, heal 30 damage from your opponent's Active Pokémon."
 		}
 	}],
 

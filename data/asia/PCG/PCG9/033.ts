@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キラバ（デルタ種）",
+		'ja-jp': "キラバ（デルタ種）",
 	},
 
 	rarity: "Uncommon",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "スマッシュキック",
+				'ja-jp': "スマッシュキック",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Psychic", "Colorless", "Colorless"],
 			name: {
-				ja: "クイック攻撃",
+				'ja-jp': "クイック攻撃",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は30ダメージに加えて20ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は30ダメージに加えて20ダメージを与えます。",
 			},
 		},
 	],

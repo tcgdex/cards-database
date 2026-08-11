@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Aerodactyl GX",
-		fr: "Ptéra GX",
-		es: "Aerodactyl GX",
-		it: "Aerodactyl GX",
-		pt: "Aerodactyl GX",
-		de: "Aerodactyl GX"
+		'en-us': "Aerodactyl GX",
+		'fr-fr': "Ptéra GX",
+		'es-es': "Aerodactyl GX",
+		'it-it': "Aerodactyl GX",
+		'pt-br': "Aerodactyl GX",
+		'de-de': "Aerodactyl GX"
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Unidentified Fossil",
-		fr: "Fossile Inconnu",
+		'en-us': "Unidentified Fossil",
+		'fr-fr': "Fossile Inconnu",
 	},
 
 	suffix: "GX",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Primal Winds",
-				fr: "Vents Primaires",
-				es: "Vientos Primigenios",
-				it: "Venti Primordiali",
-				pt: "Ventos Primitivos",
-				de: "Urzeitwinde"
+				'en-us': "Primal Winds",
+				'fr-fr': "Vents Primaires",
+				'es-es': "Vientos Primigenios",
+				'it-it': "Venti Primordiali",
+				'pt-br': "Ventos Primitivos",
+				'de-de': "Urzeitwinde"
 			},
 			effect: {
-				en: "As long as this Pokémon is your Active Pokémon, your opponent’s Basic Pokémon’s attacks cost Colorless more.",
-				fr: "Tant que ce Pokémon est votre Pokémon Actif, les attaques des Pokémon de base de votre adversaire coûtent Colorless de plus.",
-				es: "Mientras este Pokémon sea tu Pokémon Activo, los ataques de los Pokémon Básicos de tu rival cuestan Colorless más.",
-				it: "Fintanto che questo Pokémon è il tuo Pokémon attivo, gli attacchi dei Pokémon Base del tuo avversario costano Colorless in più.",
-				pt: "Enquanto este Pokémon for o seu Pokémon Ativo, o custo dos ataques dos Pokémon Básicos do seu oponente será Colorless a mais.",
-				de: "Solang dieses Pokémon dein Aktives Pokémon ist, erhöhen sich die Kosten der Attacken der Basis-Pokémon deines Gegners um Colorless."
+				'en-us': "As long as this Pokémon is your Active Pokémon, your opponent’s Basic Pokémon’s attacks cost Colorless more.",
+				'fr-fr': "Tant que ce Pokémon est votre Pokémon Actif, les attaques des Pokémon de base de votre adversaire coûtent Colorless de plus.",
+				'es-es': "Mientras este Pokémon sea tu Pokémon Activo, los ataques de los Pokémon Básicos de tu rival cuestan Colorless más.",
+				'it-it': "Fintanto che questo Pokémon è il tuo Pokémon attivo, gli attacchi dei Pokémon Base del tuo avversario costano Colorless in più.",
+				'pt-br': "Enquanto este Pokémon for o seu Pokémon Ativo, o custo dos ataques dos Pokémon Básicos do seu oponente será Colorless a mais.",
+				'de-de': "Solang dieses Pokémon dein Aktives Pokémon ist, erhöhen sich die Kosten der Attacken der Basis-Pokémon deines Gegners um Colorless."
 			},
 		},
 	],
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Boulder Crush",
-				fr: "Rocher Écrasant",
-				es: "Alud de Rocas",
-				it: "Macignata",
-				pt: "Rocha Esmagadora",
-				de: "Felsenquetscher"
+				'en-us': "Boulder Crush",
+				'fr-fr': "Rocher Écrasant",
+				'es-es': "Alud de Rocas",
+				'it-it': "Macignata",
+				'pt-br': "Rocha Esmagadora",
+				'de-de': "Felsenquetscher"
 			},
 
 			damage: 120,
@@ -79,20 +79,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Wild Dive GX",
-				fr: "Piqué Fou GX",
-				es: "Picado Salvaje GX",
-				it: "Picchiata Irrefrenabile GX",
-				pt: "Mergulho Selvagem GX",
-				de: "Wilder Sturzflug"
+				'en-us': "Wild Dive GX",
+				'fr-fr': "Piqué Fou GX",
+				'es-es': "Picado Salvaje GX",
+				'it-it': "Picchiata Irrefrenabile GX",
+				'pt-br': "Mergulho Selvagem GX",
+				'de-de': "Wilder Sturzflug"
 			},
 			effect: {
-				en: "This attack does 50 damage times the amount of Energy attached to your opponent’s Active Pokémon. (You can’t use more than 1 GX attack in a game.)",
-				fr: "Cette attaque inflige 50 dégâts multipliés par le nombre d’Énergies attachées au Pokémon Actif de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-				es: "Este ataque hace 50 puntos de daño por cada Energía unida al Pokémon Activo de tu rival. (No puedes usar más de 1 ataque GX en una partida).",
-				it: "Questo attacco infligge 50 danni per ogni Energia assegnata al Pokémon attivo del tuo avversario. Non puoi usare più di un attacco GX a partita.",
-				pt: "Este ataque causa 50 pontos de dano vezes a quantidade de Energia ligada ao Pokémon Ativo do seu oponente (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der an das Aktive Pokémon deines Gegners angelegten Energien zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				'en-us': "This attack does 50 damage times the amount of Energy attached to your opponent’s Active Pokémon. (You can’t use more than 1 GX attack in a game.)",
+				'fr-fr': "Cette attaque inflige 50 dégâts multipliés par le nombre d’Énergies attachées au Pokémon Actif de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'es-es': "Este ataque hace 50 puntos de daño por cada Energía unida al Pokémon Activo de tu rival. (No puedes usar más de 1 ataque GX en una partida).",
+				'it-it': "Questo attacco infligge 50 danni per ogni Energia assegnata al Pokémon attivo del tuo avversario. Non puoi usare più di un attacco GX a partita.",
+				'pt-br': "Este ataque causa 50 pontos de dano vezes a quantidade de Energia ligada ao Pokémon Ativo do seu oponente (você não pode usar mais de 1 ataque GX por partida).",
+				'de-de': "Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der an das Aktive Pokémon deines Gegners angelegten Energien zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: "50×",
 

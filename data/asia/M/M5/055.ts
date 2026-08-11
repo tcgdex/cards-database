@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オラチフ",
+		'ja-jp': "オラチフ",
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "発達した あごと キバは 岩を 噛み砕く 力強さ。 厚い 脂肪は 防御力 抜群。",
+		'ja-jp': "発達した あごと キバは 岩を 噛み砕く 力強さ。 厚い 脂肪は 防御力 抜群。",
 	},
 
 	stage: "Basic",

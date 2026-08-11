@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Chétiflor",
+		'fr-fr': "Chétiflor",
 	},
 
 	rarity: "None",
@@ -29,11 +29,11 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				fr: "Pâté"
+				'fr-fr': "Pâté"
 			},
 			damage: 20,
 			effect: {
-				fr: "Soignez 10 dégâts à ce Pokémon."
+				'fr-fr': "Soignez 10 dégâts à ce Pokémon."
 			}
 		},
 	],

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Elesa",
+		'en-us': "Elesa",
 	},
 
 	illustrator: "Yusuke Ohmura",
@@ -13,7 +13,7 @@ const card: Card = {
 	trainerType: "Supporter",
 
 	effect: {
-		en: "Search your deck for 3 Pokémon Tool cards, reveal them, and put them into your hand. Shuffle your deck afterward. You may play only 1 Supporter card during your turn (before your attack).",
+		'en-us': "Search your deck for 3 Pokémon Tool cards, reveal them, and put them into your hand. Shuffle your deck afterward. You may play only 1 Supporter card during your turn (before your attack).",
 	},
 
 	thirdParty: {

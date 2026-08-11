@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "なみのりビーチ"
+		'ja-jp': "なみのりビーチ"
 	},
 	illustrator: "AYUMI ODASHIMA",
 	category: "Trainer",
@@ -20,7 +20,7 @@ const card: Card = {
 
 	trainerType: "Item",
 	effect: {
-		ja: "おたがいのプレイヤーは、自分の番ごとに1回、自分のバトル場の水ポケモンを、ベンチの水ポケモンと入れ替えてよい。",
+		'ja-jp': "おたがいのプレイヤーは、自分の番ごとに1回、自分のバトル場の水ポケモンを、ベンチの水ポケモンと入れ替えてよい。",
 	},
 	regulationMark: "I",
 	rarity: "Uncommon"

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サマヨール",
+		'ja-jp': "サマヨール",
 	},
 
 	illustrator: "Aya Kusube",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "体の中で 燃えている 真っ赤な ひとつ目が サマヨールの 本体と いわれるが 誰も 見ていない。",
+		'ja-jp': "体の中で 燃えている 真っ赤な ひとつ目が サマヨールの 本体と いわれるが 誰も 見ていない。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "カースドボム" },
 			effect: {
-				ja: "自分の番に1回使えて、使ったなら、このポケモンをきぜつさせる。相手のポケモン1匹に、ダメカンを5個のせる。",
+				'ja-jp': "自分の番に1回使えて、使ったなら、このポケモンをきぜつさせる。相手のポケモン1匹に、ダメカンを5個のせる。",
 			},
 		},
 	],
@@ -62,7 +62,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヨマワル",
+		'ja-jp': "ヨマワル",
 	},
 
 	retreat: 2,

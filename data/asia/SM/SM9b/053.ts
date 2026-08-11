@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "鋼鉄のフライパン",
+		'ja-jp': "鋼鉄のフライパン",
 	},
 
 	illustrator: "Ryo Ueda",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけているポケモンは、相手のポケモンから受けるワザのダメージが「-30」され、弱点もなくなる。",
+		'ja-jp': "このカードをつけているポケモンは、相手のポケモンから受けるワザのダメージが「-30」され、弱点もなくなる。",
 	},
 
 	variants: [

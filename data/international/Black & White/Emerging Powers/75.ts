@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Klang",
-		fr: "Clic",
-		es: "Klang",
-		it: "Klang",
-		pt: "Klang",
-		de: "Kliklak"
+		'en-us': "Klang",
+		'fr-fr': "Clic",
+		'es-es': "Klang",
+		'it-it': "Klang",
+		'pt-br': "Klang",
+		'de-de': "Kliklak"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Klink",
-		fr: "Tic",
+		'en-us': "Klink",
+		'fr-fr': "Tic",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Sound",
-				fr: "Strido-Son",
+				'en-us': "Metal Sound",
+				'fr-fr': "Strido-Son",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
 			},
 
 		},
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Guard Press",
-				fr: "Pression de Garde",
+				'en-us': "Guard Press",
+				'fr-fr': "Pression de Garde",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'en-us': "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 			},
 			damage: 60,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Spinning minigears are rotated at high speed and repeatedly fired away. It is dangerous if the gears don't return.",
+		'en-us': "Spinning minigears are rotated at high speed and repeatedly fired away. It is dangerous if the gears don't return.",
 	},
 
 	thirdParty: {

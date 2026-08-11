@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サーナイト",
+		'ja-jp': "サーナイト",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "トレーナーを 守るためなら サイコパワーを 使いきり 小さな ブラックホールを つくりだす。",
+		'ja-jp': "トレーナーを 守るためなら サイコパワーを 使いきり 小さな ブラックホールを つくりだす。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "アルカナシャイン" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札を上から2枚見て、その中から基本エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。残りのカードは手札に加える。",
+				'ja-jp': "自分の番に1回使える。自分の山札を上から2枚見て、その中から基本エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。残りのカードは手札に加える。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[超]エネルギーの数×30ダメージ追加。",
+				'ja-jp': "このポケモンについている[超]エネルギーの数×30ダメージ追加。",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "キルリア",
+		'ja-jp': "キルリア",
 	},
 
 	retreat: 2,

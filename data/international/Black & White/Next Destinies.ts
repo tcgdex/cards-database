@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Black & White'
 
 const bw4: Set = {
 	id: "bw4",
 
 	name: {
-		en: "Next Destinies",
-		fr: "Destinées Futures",
-		es: "Próximos Destinos",
-		it: "Destini Futuri",
-		de: "Kommende Schicksale",
-		pt: "Próximos Destinos"
+		'en-us': "Next Destinies",
+		'fr-fr': "Destinées Futures",
+		'es-es': "Próximos Destinos",
+		'it-it': "Destini Futuri",
+		'de-de': "Kommende Schicksale",
+		'pt-br': "Próximos Destinos"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const bw4: Set = {
 
 	abbreviations: {
 		official: "NXD",
-		fr: "DFU"
+		'fr-fr': "DFU"
 	},
 
 	thirdParty: {

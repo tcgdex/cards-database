@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zweilous",
-		fr: "Diamat",
-		es: "Zweilous",
-		it: "Zweilous",
-		pt: "Zweilous",
-		de: "Duodino"
+		'en-us': "Zweilous",
+		'fr-fr': "Diamat",
+		'es-es': "Zweilous",
+		'it-it': "Zweilous",
+		'pt-br': "Zweilous",
+		'de-de': "Duodino"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Deino",
-		fr: "Solochi",
-		es: "Deino",
-		it: "Deino",
-		pt: "Deino",
-		de: "Kapuno"
+		'en-us': "Deino",
+		'fr-fr': "Solochi",
+		'es-es': "Deino",
+		'it-it': "Deino",
+		'pt-br': "Deino",
+		'de-de': "Kapuno"
 	},
 	stage: "Stage1",
 
@@ -32,32 +32,32 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Stomp Off",
-			fr: "Tohu-Bohu",
-			es: "Pisotear",
-			it: "Pestatura",
-			pt: "Sair Irritado",
-			de: "Davonstapfen"
+			'en-us': "Stomp Off",
+			'fr-fr': "Tohu-Bohu",
+			'es-es': "Pisotear",
+			'it-it': "Pestatura",
+			'pt-br': "Sair Irritado",
+			'de-de': "Davonstapfen"
 		},
 
 		effect: {
-			en: "Discard the top 2 cards of your opponent's deck.",
-			fr: "Défaussez les 2 cartes du dessus du deck de votre adversaire.",
-			es: "Descarta las 2 primeras cartas de la baraja de tu rival.",
-			it: "Scarta le prime due carte del mazzo del tuo avversario.",
-			pt: "Descarte as 2 cartas de cima do baralho do seu oponente.",
-			de: "Lege die obersten 2 Karten des Decks deines Gegners auf seinen Ablagestapel."
+			'en-us': "Discard the top 2 cards of your opponent's deck.",
+			'fr-fr': "Défaussez les 2 cartes du dessus du deck de votre adversaire.",
+			'es-es': "Descarta las 2 primeras cartas de la baraja de tu rival.",
+			'it-it': "Scarta le prime due carte del mazzo del tuo avversario.",
+			'pt-br': "Descarte as 2 cartas de cima do baralho do seu oponente.",
+			'de-de': "Lege die obersten 2 Karten des Decks deines Gegners auf seinen Ablagestapel."
 		}
 	}, {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			en: "Darkness Fang",
-			fr: "Croc Obscur",
-			es: "Colmillo de Oscuridad",
-			it: "Oscurizanna",
-			pt: "Presa Sombria",
-			de: "Fänge der Dunkelheit"
+			'en-us': "Darkness Fang",
+			'fr-fr': "Croc Obscur",
+			'es-es': "Colmillo de Oscuridad",
+			'it-it': "Oscurizanna",
+			'pt-br': "Presa Sombria",
+			'de-de': "Fänge der Dunkelheit"
 		},
 
 		damage: 60

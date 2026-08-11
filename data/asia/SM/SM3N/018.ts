@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハブネーク",
+		'ja-jp': "ハブネーク",
 	},
 
 	illustrator: "Eri Yamaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "猛毒が 染み出している 鋭い 切れ味の 尻尾で 素早い ザングースに 立ち向かう。",
+		'ja-jp': "猛毒が 染み出している 鋭い 切れ味の 尻尾で 素早い ザングースに 立ち向かう。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ポイズンアップ" },
 			effect: {
-				ja: "このポケモンがいるかぎり、相手のバトルポケモンは、どくでのせるダメカンの数が1個多くなる。",
+				'ja-jp': "このポケモンがいるかぎり、相手のバトルポケモンは、どくでのせるダメカンの数が1個多くなる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 			},
 		},
 	],

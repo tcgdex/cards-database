@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガヤンマ",
+		'ja-jp': "メガヤンマ",
 		'zh-tw': "遠古巨蜓",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "６本の 脚で 大人を 抱えて 楽々と 飛ぶ ことが できる。 尻尾の 羽で バランスを とる。",
+		'ja-jp': "６本の 脚で 大人を 抱えて 楽々と 飛ぶ ことが できる。 尻尾の 羽で バランスを とる。",
 		'zh-tw': "能以６隻腳攫住成年人並輕鬆地飛行。以尾部的翅膀保持平衡。",
 	},
 
@@ -23,25 +23,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "つきぬける",
+				'ja-jp': "つきぬける",
 				'zh-tw': "穿通",
 			},
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 				'zh-tw': "對手的1隻備戰寶可夢也受到20點傷害。[在備戰區不計算弱點・抵抗力。]",
 			},
 		},
 		{
 			name: {
-				ja: "ジェットウイング",
+				'ja-jp': "ジェットウイング",
 				'zh-tw': "噴射之翼",
 			},
 			damage: 160,
 			cost: ["Grass", "Grass", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
 			},
 		},
@@ -68,7 +68,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤンヤンマ",
+		'ja-jp': "ヤンヤンマ",
 	},
 
 	retreat: 0,

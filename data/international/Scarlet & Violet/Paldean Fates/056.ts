@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Haunter",
-		fr: "Spectrum",
-		es: "Haunter",
-		it: "Haunter",
-		pt: "Haunter",
-		de: "Alpollo"
+		'en-us': "Haunter",
+		'fr-fr': "Spectrum",
+		'es-es': "Haunter",
+		'it-it': "Haunter",
+		'pt-br': "Haunter",
+		'de-de': "Alpollo"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 80,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Gastly",
-		fr: "Fantominus",
-		es: "Gastly",
-		it: "Gastly",
-		pt: "Gastly",
-		de: "Nebulak"
+		'en-us': "Gastly",
+		'fr-fr': "Fantominus",
+		'es-es': "Gastly",
+		'it-it': "Gastly",
+		'pt-br': "Gastly",
+		'de-de': "Nebulak"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Dark Slumber",
-			fr: "Sommeil Obscur",
-			es: "Letargo Oscuro",
-			it: "Sonno Oscuro",
-			pt: "Sono Sombrio",
-			de: "Dunkler Schlummer"
+			'en-us': "Dark Slumber",
+			'fr-fr': "Sommeil Obscur",
+			'es-es': "Letargo Oscuro",
+			'it-it': "Sonno Oscuro",
+			'pt-br': "Sono Sombrio",
+			'de-de': "Dunkler Schlummer"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 		},
 
 		damage: 40
@@ -83,7 +83,7 @@ const card: Card = {
 	illustrator: "DOM",
 
 	description: {
-		en: "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
+		'en-us': "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
 	},
 
 }

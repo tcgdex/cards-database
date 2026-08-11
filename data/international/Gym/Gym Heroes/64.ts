@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Tauros"
+		'en-us': "Blaine's Tauros"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "3-Pronged Tail"
+				'en-us': "3-Pronged Tail"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10x",
 
@@ -42,10 +42,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Full Speed Charge"
+				'en-us': "Full Speed Charge"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 20 damage times the number of heads to the Defending Pokémon and 20 damage times the number of tails to Blaine's Tauros."
+				'en-us': "Flip 4 coins. This attack does 20 damage times the number of heads to the Defending Pokémon and 20 damage times the number of tails to Blaine's Tauros."
 			},
 			damage: "20x",
 

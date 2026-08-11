@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Feebas"
+		'id-id': "Feebas"
 	},
 
 	illustrator: "Kuroimori",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Pokémon yang paling lusuh. Feebas berkumpul dalam jumlah besar dan tinggal di dasar sungai yang banyak tanaman airnya."
+		'id-id': "Pokémon yang paling lusuh. Feebas berkumpul dalam jumlah besar dan tinggal di dasar sungai yang banyak tanaman airnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Lompat Kabur"
+			'id-id': "Lompat Kabur"
 		},
 
 		effect: {
-			id: "Tukar Pokémon ini dengan Pokémon Cadangan."
+			'id-id': "Tukar Pokémon ini dengan Pokémon Cadangan."
 		},
 
 		cost: ["Colorless"]

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Lightning Energy",
-		fr: "Énergie Électrique",
-		de: "Elektroenergie"
+		'en-us': "Lightning Energy",
+		'fr-fr': "Énergie Électrique",
+		'de-de': "Elektroenergie"
 	},
 
 	illustrator: undefined,

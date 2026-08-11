@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マッギョ",
+		'ja-jp': "マッギョ",
 	},
 
 	illustrator: "MAHOU",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "皮膚が 硬いので 相撲取りに 踏まれても 平気。 電気を 流すとき 笑い顔に なる。",
+		'ja-jp': "皮膚が 硬いので 相撲取りに 踏まれても 平気。 電気を 流すとき 笑い顔に なる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Fighting"],
 			effect: {
-				ja: "相手のバトルポケモンの残りHPが、このポケモンの残りHPより多いなら、30ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンの残りHPが、このポケモンの残りHPより多いなら、30ダメージ追加。",
 			},
 		},
 	],

@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [262],
 
 	name: {
-		en: "Mightyena",
-		fr: "Grahyèna",
-		es: "Mightyena",
-		it: "Mightyena",
-		pt: "Mightyena",
-		de: "Magnayen"
+		'en-us': "Mightyena",
+		'fr-fr': "Grahyèna",
+		'es-es': "Mightyena",
+		'it-it': "Mightyena",
+		'pt-br': "Mightyena",
+		'de-de': "Magnayen"
 	},
 
 	illustrator: "Aya Kusube",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Poochyena",
-		fr: "Medhyèna",
-		es: "Poochyena",
-		it: "Poochyena",
-		pt: "Poochyena",
-		de: "Fiffyen"
+		'en-us': "Poochyena",
+		'fr-fr': "Medhyèna",
+		'es-es': "Poochyena",
+		'it-it': "Poochyena",
+		'pt-br': "Poochyena",
+		'de-de': "Fiffyen"
 	},
 
 	attacks: [
@@ -38,20 +38,20 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Ferocious Bellow",
-				fr: "Grognement Féroce",
-				es: "Gruñido Feroz",
-				it: "Ruggitorvo",
-				pt: "Rugido Feroz",
-				de: "Wildes Kläffen"
+				'en-us': "Ferocious Bellow",
+				'fr-fr': "Grognement Féroce",
+				'es-es': "Gruñido Feroz",
+				'it-it': "Ruggitorvo",
+				'pt-br': "Rugido Feroz",
+				'de-de': "Wildes Kläffen"
 			},
 			effect: {
-				en: "During your opponent's next turn, the Defending Pokémon's attacks do 50 less damage (before applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, les attaques du Pokémon Défenseur infligent 50 dégâts de moins (avant application de la Faiblesse et de la Résistance).",
-				es: "Durante el próximo turno de tu rival, los ataques del Pokémon Defensor hacen 50 puntos de daño menos (antes de aplicar Debilidad y Resistencia).",
-				it: "Durante il prossimo turno del tuo avversario, gli attacchi del Pokémon difensore infliggono 50 danni in meno, prima di aver applicato debolezza e resistenza.",
-				pt: "Durante o próximo turno do seu oponente, os ataques do Pokémon Defensor causarão 50 pontos de dano a menos (antes de aplicar Fraqueza e Resistência).",
-				de: "Während des nächsten Zuges deines Gegners fügen die Attacken des Verteidigenden Pokémon 50 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "During your opponent's next turn, the Defending Pokémon's attacks do 50 less damage (before applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, les attaques du Pokémon Défenseur infligent 50 dégâts de moins (avant application de la Faiblesse et de la Résistance).",
+				'es-es': "Durante el próximo turno de tu rival, los ataques del Pokémon Defensor hacen 50 puntos de daño menos (antes de aplicar Debilidad y Resistencia).",
+				'it-it': "Durante il prossimo turno del tuo avversario, gli attacchi del Pokémon difensore infliggono 50 danni in meno, prima di aver applicato debolezza e resistenza.",
+				'pt-br': "Durante o próximo turno do seu oponente, os ataques do Pokémon Defensor causarão 50 pontos de dano a menos (antes de aplicar Fraqueza e Resistência).",
+				'de-de': "Während des nächsten Zuges deines Gegners fügen die Attacken des Verteidigenden Pokémon 50 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 			damage: 20,
 
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pitch-Black Fangs",
-				fr: "Crocs Nuit Noire",
-				es: "Colmillos Azabaches",
-				it: "Zanne Buiopesto",
-				pt: "Presas do Breu",
-				de: "Pechschwarze Fänge"
+				'en-us': "Pitch-Black Fangs",
+				'fr-fr': "Crocs Nuit Noire",
+				'es-es': "Colmillos Azabaches",
+				'it-it': "Zanne Buiopesto",
+				'pt-br': "Presas do Breu",
+				'de-de': "Pechschwarze Fänge"
 			},
 
 			damage: 100,
@@ -90,7 +90,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It chases down prey in a pack of around ten. They defeat foes with perfectly coordinated teamwork."
+		'en-us': "It chases down prey in a pack of around ten. They defeat foes with perfectly coordinated teamwork."
 	},
 
 	variants: [

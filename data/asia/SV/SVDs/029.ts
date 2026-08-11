@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โวลเคเนียน",
-		id: "Volcanion"
+		'th-th': "โวลเคเนียน",
+		'id-id': "Volcanion"
 	},
 
 	illustrator: "Nisota Niso",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		th: "พ่นไอน้ำในร่างกายออกมาจากแขนกลางหลัง มีพลังทำลายล้างขนาดสามารถเป่าภูเขาลูกนึงให้ปลิวได้",
-		id: "Volcanion menembakkan uap air di dalam tubuhnya menggunakan lengan di punggungnya. Kekuatannya mampu menghempaskan sebuah gunung."
+		'th-th': "พ่นไอน้ำในร่างกายออกมาจากแขนกลางหลัง มีพลังทำลายล้างขนาดสามารถเป่าภูเขาลูกนึงให้ปลิวได้",
+		'id-id': "Volcanion menembakkan uap air di dalam tubuhnya menggunakan lengan di punggungnya. Kekuatannya mampu menghempaskan sebuah gunung."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ดูอัลเทอร์โบ",
-			id: "Dual Turbo"
+			'th-th': "ดูอัลเทอร์โบ",
+			'id-id': "Dual Turbo"
 		},
 
 		effect: {
-			th: "เลือกโปเกมอนบนเบนช์ฝ่ายเราได้สูงสุด 2 ตัว นำการ์ด [พลังงานพื้นฐาน[ไฟ]] จากตำแหน่งทิ้งการ์ดมาติดตัวละ 1 ใบ",
-			id: "Pilih paling banyak 2 Pokémon Cadangan sendiri, lalu kenakan Energi Dasar {Api} masing-masing 1 lembar dari Trash."
+			'th-th': "เลือกโปเกมอนบนเบนช์ฝ่ายเราได้สูงสุด 2 ตัว นำการ์ด [พลังงานพื้นฐาน[ไฟ]] จากตำแหน่งทิ้งการ์ดมาติดตัวละ 1 ใบ",
+			'id-id': "Pilih paling banyak 2 Pokémon Cadangan sendiri, lalu kenakan Energi Dasar {Api} masing-masing 1 lembar dari Trash."
 		},
 
 		damage: 20,
 		cost: ["Fire"]
 	}, {
 		name: {
-			th: "เฮฟวีอิมแพกต์",
-			id: "Heavy Impact"
+			'th-th': "เฮฟวีอิมแพกต์",
+			'id-id': "Heavy Impact"
 		},
 
 		damage: 120,

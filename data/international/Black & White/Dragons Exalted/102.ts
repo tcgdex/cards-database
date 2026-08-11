@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Vigoroth",
-		fr: "Vigoroth",
-		es: "Vigoroth",
-		it: "Vigoroth",
-		pt: "Vigoroth",
-		de: "Muntier"
+		'en-us': "Vigoroth",
+		'fr-fr': "Vigoroth",
+		'es-es': "Vigoroth",
+		'it-it': "Vigoroth",
+		'pt-br': "Vigoroth",
+		'de-de': "Muntier"
 	},
 
 	illustrator: "match",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Slakoth",
-		fr: "Parecool",
+		'en-us': "Slakoth",
+		'fr-fr': "Parecool",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ambush",
-				fr: "Embuscade",
+				'en-us': "Ambush",
+				'fr-fr': "Embuscade",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 40 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 40 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its heart beats at a tenfold tempo, so it cannot sit still for even a moment.",
+		'en-us': "Its heart beats at a tenfold tempo, so it cannot sit still for even a moment.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [412],
 
 	name: {
-		en: "Burmy"
+		'en-us': "Burmy"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "If its cloak is broken in battle, it quickly remakes\nthe cloak with materials nearby."
+		'en-us': "If its cloak is broken in battle, it quickly remakes\nthe cloak with materials nearby."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Hang Down"
+			'en-us': "Hang Down"
 		},
 
 		damage: 30,

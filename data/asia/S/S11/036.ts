@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ランターン",
+		'ja-jp': "ランターン",
 		'zh-tw': "電燈怪",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "ランターンのだす 光は ５０００メートルの 深さ からでも 水面まで 届くほど 明るい。",
+		'ja-jp': "ランターンのだす 光は ５０００メートルの 深さ からでも 水面まで 届くほど 明るい。",
 		'zh-tw': "電燈怪發出的光有著極高的亮度，甚至可以從５０００公尺 深的水底照亮水面。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶつかる",
+				'ja-jp': "ぶつかる",
 				'zh-tw': "衝撞",
 			},
 			damage: 30,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ストロングボルト",
+				'ja-jp': "ストロングボルト",
 				'zh-tw': "強力伏特",
 			},
 			damage: 160,
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを2個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。",
 				'zh-tw': "選擇2個這隻寶可夢身上附加的能量，將其丟棄。",
 			},
 		},
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チョンチー",
+		'ja-jp': "チョンチー",
 	},
 
 	retreat: 2,

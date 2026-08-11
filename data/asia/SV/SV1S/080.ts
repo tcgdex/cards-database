@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "グレンアルマ"
+		'ja-jp': "グレンアルマ"
 	},
 
 	illustrator: "nagimiso",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "多くの 武勲を 立てた 戦士の 鎧によって 進化した 姿。 忠誠心の 厚い ポケモン。"
+		'ja-jp': "多くの 武勲を 立てた 戦士の 鎧によって 進化した 姿。 忠誠心の 厚い ポケモン。"
 	},
 
 	stage: "Stage1",
@@ -24,11 +24,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ひおくり"
+			'ja-jp': "ひおくり"
 		},
 
 		effect: {
-			ja: "自分の番に何回でも使える。自分のベンチポケモンについているエネルギーを1個選び、バトルポケモンにつけ替える。"
+			'ja-jp': "自分の番に何回でも使える。自分のベンチポケモンについているエネルギーを1個選び、バトルポケモンにつけ替える。"
 		}
 	}],
 
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			ja: "フレイムキャノン"
+			'ja-jp': "フレイムキャノン"
 		},
 
 		damage: 90,
 
 		effect: {
-			ja: "相手のバトルポケモンをやけどにする。"
+			'ja-jp': "相手のバトルポケモンをやけどにする。"
 		}
 	}],
 

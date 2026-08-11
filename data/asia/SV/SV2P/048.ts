@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "オラチフ",
+		'ja-jp': "オラチフ",
 		'zh-tw': "偶叫獒",
-		th: "โอราทิฟ",
-		id: "Maschiff"
+		'th-th': "โอราทิฟ",
+		'id-id': "Maschiff"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "相手に 嘗められないように いつも しかめっ面をしているが 泣いている 子どもは その顔で 笑いだす。",
+		'ja-jp': "相手に 嘗められないように いつも しかめっ面をしているが 泣いている 子どもは その顔で 笑いだす。",
 		'zh-tw': "為了不被對手看扁而總是皺著的那張臉，卻反而會 讓哭泣的孩子破涕為笑。",
-		th: "มักจะทำหน้านิ่วคิ้วขมวดเพื่อไม่ให้โดนอีกฝ่ายดูถูก แต่เด็กที่ร้องไห้จะหัวเราะเมื่อเห็นใบหน้านั้น",
-		id: "Agar tidak diremehkan oleh musuhnya, Maschiff selalu memasang wajah seram, tetapi anak-anak yang menangis malah tertawa melihatnya."
+		'th-th': "มักจะทำหน้านิ่วคิ้วขมวดเพื่อไม่ให้โดนอีกฝ่ายดูถูก แต่เด็กที่ร้องไห้จะหัวเราะเมื่อเห็นใบหน้านั้น",
+		'id-id': "Agar tidak diremehkan oleh musuhnya, Maschiff selalu memasang wajah seram, tetapi anak-anak yang menangis malah tertawa melihatnya."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "けとばす",
+			'ja-jp': "けとばす",
 			'zh-tw': "踢飛",
-			th: "ดีด",
-			id: "Tendangan Penghempas"
+			'th-th': "ดีด",
+			'id-id': "Tendangan Penghempas"
 		},
 
 		damage: 20
@@ -42,10 +42,10 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			ja: "するどいキバ",
+			'ja-jp': "するどいキバ",
 			'zh-tw': "銳利之牙",
-			th: "เขี้ยวคม",
-			id: "Taring Tajam"
+			'th-th': "เขี้ยวคม",
+			'id-id': "Taring Tajam"
 		},
 
 		damage: 50

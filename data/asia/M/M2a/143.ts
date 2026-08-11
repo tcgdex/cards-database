@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホップのウッウ",
+		'ja-jp': "ホップのウッウ",
 	},
 
 	illustrator: "Saboteri",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "なんでも 丸飲みする 習性。 大きすぎる 獲物を 詰まらせて 困っている ウッウほど 手強い。",
+		'ja-jp': "なんでも 丸飲みする 習性。 大きすぎる 獲物を 詰まらせて 困っている ウッウほど 手強い。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のサイドの残り枚数が4枚・3枚でないなら、このワザは失敗。",
+				'ja-jp': "相手のサイドの残り枚数が4枚・3枚でないなら、このワザは失敗。",
 			},
 		},
 	],

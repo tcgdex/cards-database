@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Vaporeon",
-		fr: "Aquali",
-		de: "Aquana"
+		'en-us': "Vaporeon",
+		'fr-fr': "Aquali",
+		'de-de': "Aquana"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Aqua Supply",
-				fr: "Source aqua",
-				de: "Aqua Supply"
+				'en-us': "Aqua Supply",
+				'fr-fr': "Source aqua",
+				'de-de': "Aqua Supply"
 			},
 			effect: {
-				en: "You may attach a basic Energy card from your hand to 1 of your Pokémon.",
-				fr: "Vous pouvez attacher une carte Énergie de base de votre main à 1 de vos Pokémon.",
-				de: "You may attach a basic Energy card from your hand to 1 of your Pokémon."
+				'en-us': "You may attach a basic Energy card from your hand to 1 of your Pokémon.",
+				'fr-fr': "Vous pouvez attacher une carte Énergie de base de votre main à 1 de vos Pokémon.",
+				'de-de': "You may attach a basic Energy card from your hand to 1 of your Pokémon."
 			},
 			damage: 20,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Multi Bubble",
-				fr: "Multi-bulles",
-				de: "Multi Bubble"
+				'en-us': "Multi Bubble",
+				'fr-fr': "Multi-bulles",
+				'de-de': "Multi Bubble"
 			},
 			effect: {
-				en: "If Vaporeon has 3 or more different types of basic Energy cards attached to it, this attack does 40 damage plus 20 more damage and the Defending Pokémon is now Asleep.",
-				fr: "Si Aquali possède au moins 3 types de cartes Énergie de base différents, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Endormi.",
-				de: "If Vaporeon has 3 more different types of basic Energy attached to it, this attack does 40 damage plus 20 more damage and the defending Pokémon is now Asleep."
+				'en-us': "If Vaporeon has 3 or more different types of basic Energy cards attached to it, this attack does 40 damage plus 20 more damage and the Defending Pokémon is now Asleep.",
+				'fr-fr': "Si Aquali possède au moins 3 types de cartes Énergie de base différents, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "If Vaporeon has 3 more different types of basic Energy attached to it, this attack does 40 damage plus 20 more damage and the defending Pokémon is now Asleep."
 			},
 			damage: "40+",
 

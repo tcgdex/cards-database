@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Croagunk",
-		fr: "Cradopaud",
-		es: "Croagunk",
-		it: "Croagunk",
-		pt: "Croagunk",
-		de: "Glibunkel"
+		'en-us': "Croagunk",
+		'fr-fr': "Cradopaud",
+		'es-es': "Croagunk",
+		'it-it': "Croagunk",
+		'pt-br': "Croagunk",
+		'de-de': "Glibunkel"
 	},
 
 	illustrator: "otumami",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stampede",
-				fr: "Ruée",
-				es: "Estampida",
-				it: "Fuggi Fuggi",
-				pt: "Estouro",
-				de: "Zertrampeln"
+				'en-us': "Stampede",
+				'fr-fr': "Ruée",
+				'es-es': "Estampida",
+				'it-it': "Fuggi Fuggi",
+				'pt-br': "Estouro",
+				'de-de': "Zertrampeln"
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lunge Out",
-				fr: "Allonger",
-				es: "Arremeter",
-				it: "Affondo Lungo",
-				pt: "Bote",
-				de: "Sprungangriff"
+				'en-us': "Lunge Out",
+				'fr-fr': "Allonger",
+				'es-es': "Arremeter",
+				'it-it': "Affondo Lungo",
+				'pt-br': "Bote",
+				'de-de': "Sprungangriff"
 			},
 
 			damage: 30,
@@ -77,7 +77,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It makes frightening noises with its poison-filled cheek sacs. When opponents flinch, Croagunk hits them with a poison jab."
+		'en-us': "It makes frightening noises with its poison-filled cheek sacs. When opponents flinch, Croagunk hits them with a poison jab."
 	},
 
 	dexId: [453],

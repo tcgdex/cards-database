@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Buizel",
-		fr: "Mustébouée",
-		de: "Bamelin"
+		'en-us': "Buizel",
+		'fr-fr': "Mustébouée",
+		'de-de': "Bamelin"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,9 +29,9 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 10,
@@ -43,9 +43,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
-				de: "Surfer"
+				'en-us': "Surf",
+				'fr-fr': "Surf",
+				'de-de': "Surfer"
 			},
 
 			damage: 30,
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has a flotation sac that is like an inflatable collar. It floats on water with its head out.",
+		'en-us': "It has a flotation sac that is like an inflatable collar. It floats on water with its head out.",
 	},
 
 	thirdParty: {

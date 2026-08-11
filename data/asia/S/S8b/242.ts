@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガラル ファイヤーV",
+		'ja-jp': "ガラル ファイヤーV",
 	},
 
 	illustrator: "Jiro Sasumo",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "じゃえんのつばさ" },
 			effect: {
-				ja: "自分の番に1回使える。自分のトラッシュから[悪]エネルギーを1枚選び、このポケモンにつける。この番、すでに別の「じゃえんのつばさ」を使っていたなら、この特性は使えない。",
+				'ja-jp': "自分の番に1回使える。自分のトラッシュから[悪]エネルギーを1枚選び、このポケモンにつける。この番、すでに別の「じゃえんのつばさ」を使っていたなら、この特性は使えない。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 190,
 			cost: ["Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 			},
 		},
 	],

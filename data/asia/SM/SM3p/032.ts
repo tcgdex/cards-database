@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マルマイン",
+		'ja-jp': "マルマイン",
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "少しの 刺激に 反応して 爆発する。 バクダンボールという あだ名で 怖がられている。",
+		'ja-jp': "少しの 刺激に 反応して 爆発する。 バクダンボールという あだ名で 怖がられている。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Lightning"],
 			effect: {
-				ja: "このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ビリリダマ",
+		'ja-jp': "ビリリダマ",
 	},
 
 	retreat: 0,

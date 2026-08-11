@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Carnivine",
-		fr: "Vortente",
-		de: "Venuflibis"
+		'en-us': "Carnivine",
+		'fr-fr': "Vortente",
+		'de-de': "Venuflibis"
 	},
 
 	illustrator: "Satoshi Ohta",
@@ -30,9 +30,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vine Whip",
-				fr: "Fouet lianes",
-				de: "Rankenhieb"
+				'en-us': "Vine Whip",
+				'fr-fr': "Fouet lianes",
+				'de-de': "Rankenhieb"
 			},
 
 			damage: 20,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swallow",
-				fr: "Avale",
-				de: "Verschlucken"
+				'en-us': "Swallow",
+				'fr-fr': "Avale",
+				'de-de': "Verschlucken"
 			},
 			effect: {
-				en: "Flip a coin. If heads, remove from Carnivine the number of damage counters equal to the damage you did to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, retirez à Vortente autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" entferne Schadensmarken von Venuflibis entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon durch diesen Angriff zugefügt wurden."
+				'en-us': "Flip a coin. If heads, remove from Carnivine the number of damage counters equal to the damage you did to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, retirez à Vortente autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" entferne Schadensmarken von Venuflibis entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon durch diesen Angriff zugefügt wurden."
 			},
 			damage: 30,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down."
+		'en-us': "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down."
 	},
 
 	variants: [

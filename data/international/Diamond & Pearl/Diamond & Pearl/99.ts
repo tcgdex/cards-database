@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Skorupi",
-		fr: "Rapion",
-		de: "Pionskora"
+		'en-us': "Skorupi",
+		'fr-fr': "Rapion",
+		'de-de': "Pionskora"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Poison Sting",
-				fr: "Dard-venin",
-				de: "Giftstachel"
+				'en-us': "Poison Sting",
+				'fr-fr': "Dard-venin",
+				'de-de': "Giftstachel"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pin Missile",
-				fr: "Dard-nuée",
-				de: "Nadelrakete"
+				'en-us': "Pin Missile",
+				'fr-fr': "Dard-nuée",
+				'de-de': "Nadelrakete"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 10 damage time the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				'en-us': "Flip 4 coins. This attack does 10 damage time the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 4 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
 			damage: "10x",
 
@@ -72,8 +72,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It grips prey with its tail claws and injects poison. It tenaciously hangs on until the poison takes.",
-		fr: "Il saisit sa proie avec les pinces de sa queue, lui injecte un poison et la retient jusqu'à ce qu'il agisse."
+		'en-us': "It grips prey with its tail claws and injects poison. It tenaciously hangs on until the poison takes.",
+		'fr-fr': "Il saisit sa proie avec les pinces de sa queue, lui injecte un poison et la retient jusqu'à ce qu'il agisse."
 	},
 
 	thirdParty: {

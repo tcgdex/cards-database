@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラティアス&ラティオスGX",
+		'ja-jp': "ラティアス&ラティオスGX",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -20,14 +20,14 @@ const card: Card = {
 			damage: 240,
 			cost: ["Water", "Psychic", "Psychic", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、3個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、3個トラッシュする。",
 			},
 		},
 		{
 			name: { ja: "エアロユニットGX" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分のトラッシュにある基本エネルギーを5枚、自分のポケモンに好きなようにつける。追加でエネルギーが1個ついているなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分のトラッシュにある基本エネルギーを5枚、自分のポケモンに好きなようにつける。追加でエネルギーが1個ついているなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

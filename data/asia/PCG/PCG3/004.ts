@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Koffing",
+		'ja-jp': "Koffing",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ノックアウトガス",
+				'ja-jp': "ノックアウトガス",
 			},
 			effect: {
-				ja: "Koffingがあなたのアクティブなポカモンであり、相手の攻撃によってノックアウトされている場合、攻撃するポケモンは混乱し、毒されます。",
+				'ja-jp': "Koffingがあなたのアクティブなポカモンであり、相手の攻撃によってノックアウトされている場合、攻撃するポケモンは混乱し、毒されます。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "gnaw",
+				'ja-jp': "gnaw",
 			},
 			damage: 10,
 		},

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Primeape",
-		fr: "Colossinge",
-		es: "Primeape",
-		it: "Primeape",
-		pt: "Primeape",
-		de: "Rasaff"
+		'en-us': "Primeape",
+		'fr-fr': "Colossinge",
+		'es-es': "Primeape",
+		'it-it': "Primeape",
+		'pt-br': "Primeape",
+		'de-de': "Rasaff"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Mankey",
-		fr: "Férosinge",
-		es: "Mankey",
-		it: "Mankey",
-		pt: "Mankey",
-		de: "Menki"
+		'en-us': "Mankey",
+		'fr-fr': "Férosinge",
+		'es-es': "Mankey",
+		'it-it': "Mankey",
+		'pt-br': "Mankey",
+		'de-de': "Menki"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Sweep the Leg",
-			fr: "Balayage Jambier",
-			es: "Poner la Zancadilla",
-			it: "Spazzata",
-			pt: "Pernada",
-			de: "Fußfeger"
+			'en-us': "Sweep the Leg",
+			'fr-fr': "Balayage Jambier",
+			'es-es': "Poner la Zancadilla",
+			'it-it': "Spazzata",
+			'pt-br': "Pernada",
+			'de-de': "Fußfeger"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
-			fr: "Lancez une pièce. Si c'est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
-			es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
-			it: "Lancia una moneta. Se esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
-			pt: "Jogue uma moeda. Se sair cara, descarte uma Energia do Pokémon Ativo do seu oponente.",
-			de: "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+			'en-us': "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
+			'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			'es-es': "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
+			'it-it': "Lancia una moneta. Se esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			'pt-br': "Jogue uma moeda. Se sair cara, descarte uma Energia do Pokémon Ativo do seu oponente.",
+			'de-de': "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 30
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Mega Punch",
-			fr: "Ultimapoing",
-			es: "Megapuño",
-			it: "Megapugno",
-			pt: "Megassoco",
-			de: "Megahieb"
+			'en-us': "Mega Punch",
+			'fr-fr': "Ultimapoing",
+			'es-es': "Megapuño",
+			'it-it': "Megapugno",
+			'pt-br': "Megassoco",
+			'de-de': "Megahieb"
 		},
 
 		damage: 70

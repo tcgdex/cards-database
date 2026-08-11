@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Metapod",
+		'en-us': "Metapod",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Caterpie",
+		'en-us': "Caterpie",
 	},
 
 	stage: "Stage1",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stiffen",
+				'en-us': "Stiffen",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Metapod during your opponent's next turn. (Any other effects of attacks still happen.)",
+				'en-us': "Flip a coin. If heads, prevent all damage done to Metapod during your opponent's next turn. (Any other effects of attacks still happen.)",
 			},
 
 		},
@@ -47,10 +47,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Stun Spore",
+				'en-us': "Stun Spore",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 20,
 
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It is vulnerable to attack because its shell is soft, exposing its weak and tender body.",
+		'en-us': "It is vulnerable to attack because its shell is soft, exposing its weak and tender body.",
 	},
 
 

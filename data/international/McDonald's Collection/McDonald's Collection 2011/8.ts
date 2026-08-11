@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2011'
 
 const card: Card = {
@@ -9,28 +9,28 @@ const card: Card = {
 	dexId: [551],
 
 	description: {
-		en: "It moves along below the sand’s surface, except for its nose and eyes. A dark membrane shields its eyes from the sun."
+		'en-us': "It moves along below the sand’s surface, except for its nose and eyes. A dark membrane shields its eyes from the sun."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Sand Tomb",
-			fr: "Tourbi-Sable"
+			'en-us': "Sand Tomb",
+			'fr-fr': "Tourbi-Sable"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
-			fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire."
+			'en-us': "The Defending Pokémon can’t retreat during your opponent’s next turn.",
+			'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire."
 		}
 	}],
 
 	name: {
-		en: "Sandile",
-		fr: "Mascaïman"
+		'en-us': "Sandile",
+		'fr-fr': "Mascaïman"
 	},
 
 	rarity: "None",

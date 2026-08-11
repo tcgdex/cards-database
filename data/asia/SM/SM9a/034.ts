@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トゲピー",
+		'ja-jp': "トゲピー",
 	},
 
 	illustrator: "Sekio",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "殻の中に 幸せが たくさん つまっているらしく 優しくされると 幸運を 分け与える という。",
+		'ja-jp': "殻の中に 幸せが たくさん つまっているらしく 優しくされると 幸運を 分け与える という。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-30」される。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-30」される。",
 			},
 		},
 	],

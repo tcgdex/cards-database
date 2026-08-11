@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クヌギダマ",
+		'ja-jp': "クヌギダマ",
 		'zh-tw': "名偵探皮卡丘",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "木の 皮を 重ね合わせて 殻を 分厚くするのが 大好き。 重くなっても 気にしない。",
+		'ja-jp': "木の 皮を 重ね合わせて 殻を 分厚くするのが 大好き。 重くなっても 気にしない。",
 		'zh-tw': "調查工作需要毅力。憑著不屈不撓的調查，找出案件的線索！",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ころがる",
+				'ja-jp': "ころがる",
 				'zh-tw': "徹底調查",
 			},
 			damage: 30,

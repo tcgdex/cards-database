@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Electrode",
-		fr: "Électrode"
+		'en-us': "Electrode",
+		'fr-fr': "Électrode"
 	},
 
 	illustrator: "Scav",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Voltorb"
+		'en-us': "Voltorb"
 	},
 
 	description: {
-		en: "The more energy it charges up, the faster\nit gets. But this also makes it more likely\nto explode.",
-		fr: "Plus il accumule de l'énergie de type Électrik, plus il est rapide. Mais il a aussi davantage de chances d'exploser."
+		'en-us': "The more energy it charges up, the faster\nit gets. But this also makes it more likely\nto explode.",
+		'fr-fr': "Plus il accumule de l'énergie de type Électrik, plus il est rapide. Mais il a aussi davantage de chances d'exploser."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Rolling Attack",
-			fr: "Attaque Qui Roule"
+			'en-us': "Rolling Attack",
+			'fr-fr': "Attaque Qui Roule"
 		},
 
 		damage: 50,

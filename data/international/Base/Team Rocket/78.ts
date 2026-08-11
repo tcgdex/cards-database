@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Goop Gas Attack",
-		fr: "Attaque au gaz gluant",
-		de: "Uhu-Gasangriff"
+		'en-us': "Goop Gas Attack",
+		'fr-fr': "Attaque au gaz gluant",
+		'de-de': "Uhu-Gasangriff"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "All Pokémon Powers stop working until the end of your opponent's next turn.",
-		fr: "Tous les Pouvoirs Pokémon cessent de fonctionner jusqu'à la fin du prochain tour de votre adversaire.",
-		de: "All Pokémon Powers stop working until end of your opponent's next turn."
+		'en-us': "All Pokémon Powers stop working until the end of your opponent's next turn.",
+		'fr-fr': "Tous les Pouvoirs Pokémon cessent de fonctionner jusqu'à la fin du prochain tour de votre adversaire.",
+		'de-de': "All Pokémon Powers stop working until end of your opponent's next turn."
 	},
 
 

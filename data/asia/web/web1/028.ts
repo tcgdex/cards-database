@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../web1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "暗いスローブロ",
+		'ja-jp': "暗いスローブロ",
 	},
 
 	rarity: "Uncommon",
@@ -17,10 +17,10 @@ const card: Card = {
 	abilities: [
 		{
 			name: {
-				ja: "リールイン",
+				'ja-jp': "リールイン",
 			},
 			effect: {
-				ja: "このポケモンを手から演奏してポケモンを1つ進化させると、捨てられた山から3個のポケモンを手に入れることができます。",
+				'ja-jp': "このポケモンを手から演奏してポケモンを1つ進化させると、捨てられた山から3個のポケモンを手に入れることができます。",
 			},
 		}],
 
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Psychic"],
 			name: {
-				ja: "気まぐれな攻撃",
+				'ja-jp': "気まぐれな攻撃",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
 			},
 			damage: 40,
 		},

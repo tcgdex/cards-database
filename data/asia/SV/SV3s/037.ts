@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Wimpod"
+		'id-id': "Wimpod"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Wimpod selalu hidup bersama kelompoknya dan berjaga-jaga atas bahaya di sekelilingnya. Begitu merasakan kehadiran musuh, mereka segera kabur dan tercerai berai."
+		'id-id': "Wimpod selalu hidup bersama kelompoknya dan berjaga-jaga atas bahaya di sekelilingnya. Begitu merasakan kehadiran musuh, mereka segera kabur dan tercerai berai."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Bersembunyi"
+			'id-id': "Bersembunyi"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, pada giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan dan efek akibat serangan."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, pada giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan dan efek akibat serangan."
 		},
 
 		cost: ["Water"]
 	}, {
 		name: {
-			id: "Menggerogot"
+			'id-id': "Menggerogot"
 		},
 
 		damage: 20,

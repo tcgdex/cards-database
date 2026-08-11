@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dragonite ex",
-		fr: "Dracolosse-ex"
+		'en-us': "Dragonite ex",
+		'fr-fr': "Dracolosse-ex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	evolveFrom: {
-		en: "Dragonair"
+		'en-us': "Dragonair"
 	},
 
 	stage: "Stage2",
@@ -26,16 +26,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Giga Impact",
-			fr: "Giga Impact"
+			'en-us': "Giga Impact",
+			'fr-fr': "Giga Impact"
 		},
 
 		damage: 180,
 		cost: ["Water", "Lightning", "Colorless"],
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
 		}
 	}],
 

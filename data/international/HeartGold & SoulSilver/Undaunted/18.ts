@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Metagross",
-		fr: "Metalosse",
-		de: "Metagross"
+		'en-us': "Metagross",
+		'fr-fr': "Metalosse",
+		'de-de': "Metagross"
 	},
 
 	illustrator: "TOKIYA",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Metang",
-		fr: "Metang"
+		'en-us': "Metang",
+		'fr-fr': "Metang"
 	},
 
 	stage: "Stage2",
@@ -36,9 +36,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strength",
-				fr: "Force",
-				de: "Stärke"
+				'en-us': "Strength",
+				'fr-fr': "Force",
+				'de-de': "Stärke"
 			},
 
 			damage: 70,
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quad Smash",
-				fr: "Quadruple destruction",
-				de: "Vierfacher Schlag"
+				'en-us': "Quad Smash",
+				'fr-fr': "Quadruple destruction",
+				'de-de': "Vierfacher Schlag"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 50 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 4 coins. This attack does 50 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
+				'de-de': "Wirf 4 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "50×",
 
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It folds its four legs when flying. Its four brains are said to be superior to a supercomputer."
+		'en-us': "It folds its four legs when flying. Its four brains are said to be superior to a supercomputer."
 	},
 
 	variants: [

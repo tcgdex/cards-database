@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Caterpie",
-		fr: "Chenipan",
+		'en-us': "Caterpie",
+		'fr-fr': "Chenipan",
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Adaptive Evolution",
-				fr: "Évolution Adaptative",
+				'en-us': "Adaptive Evolution",
+				'fr-fr': "Évolution Adaptative",
 			},
 			effect: {
-				en: "This Pokémon can evolve during your first turn or the turn you play it.",
-				fr: "Ce Pokémon peut évoluer pendant votre premier tour ou pendant le tour où vous le jouez.",
+				'en-us': "This Pokémon can evolve during your first turn or the turn you play it.",
+				'fr-fr': "Ce Pokémon peut évoluer pendant votre premier tour ou pendant le tour où vous le jouez.",
 			},
 		},
 	],
@@ -44,8 +44,8 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Bug Bite",
-				fr: "Piqûre",
+				'en-us': "Bug Bite",
+				'fr-fr': "Piqûre",
 			},
 
 			damage: 10,
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "For protection, it releases a horrible stench from the antennae on its head to drive away enemies.",
+		'en-us': "For protection, it releases a horrible stench from the antennae on its head to drive away enemies.",
 	},
 
 	thirdParty: {

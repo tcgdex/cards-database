@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [8],
 
 	name: {
-		en: "Wartortle"
+		'en-us': "Wartortle"
 	},
 
 	illustrator: "Taiga Kasai",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Squirtle"
+		'en-us': "Squirtle"
 	},
 
 	description: {
-		en: "It cleverly controls its furry ears and tail to\nmaintain its balance while swimming."
+		'en-us': "It cleverly controls its furry ears and tail to\nmaintain its balance while swimming."
 	},
 
 	stage: "Stage1",
@@ -30,17 +30,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Shell Shield"
+			'en-us': "Shell Shield"
 		},
 
 		effect: {
-			en: "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks."
+			'en-us': "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Waterfall"
+			'en-us': "Waterfall"
 		},
 
 		damage: 60,

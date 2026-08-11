@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルージュラex",
+		'ja-jp': "ルージュラex",
 		'zh-tw': "迷唇姐ex",
-		th: "รูจูลาex",
-		id: "Jynx ex",
+		'th-th': "รูจูลาex",
+		'id-id': "Jynx ex",
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -20,33 +20,33 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ズッキュンキッス",
+				'ja-jp': "ズッキュンキッス",
 				'zh-tw': "動心之吻",
-				th: "จุ๊บโดนใจ",
-				id: "Ciuman Meluluhkan",
+				'th-th': "จุ๊บโดนใจ",
+				'id-id': "Ciuman Meluluhkan",
 			},
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンがねむりなら、そのポケモンをきぜつさせる。",
+				'ja-jp': "相手のバトルポケモンがねむりなら、そのポケモンをきぜつさせる。",
 				'zh-tw': "若對手的戰鬥寶可夢【睡眠】，則將那隻寶可夢【昏厥】。",
-				th: "ถ้าโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[หลับ] จะทำให้โปเกมอนนั้น[หมดสภาพ]",
-				id: "Jika Pokémon Bertarung lawan mengalami kondisi Tidur, Pokémon tersebut KO.",
+				'th-th': "ถ้าโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[หลับ] จะทำให้โปเกมอนนั้น[หมดสภาพ]",
+				'id-id': "Jika Pokémon Bertarung lawan mengalami kondisi Tidur, Pokémon tersebut KO.",
 			},
 		},
 		{
 			name: {
-				ja: "こごえるかぜ",
+				'ja-jp': "こごえるかぜ",
 				'zh-tw': "冰凍之風",
-				th: "สายลมเยือกแข็ง",
-				id: "Angin Dingin",
+				'th-th': "สายลมเยือกแข็ง",
+				'id-id': "Angin Dingin",
 			},
 			damage: 120,
 			cost: ["Water", "Water", "Water"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【睡眠】。",
-				th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[หลับ]",
-				id: "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur.",
+				'th-th': "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[หลับ]",
+				'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur.",
 			},
 		},
 	],

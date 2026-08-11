@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナカヌチャン",
+		'ja-jp': "ナカヌチャン",
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "大きくて 頑丈な ハンマーを 作るために キリキザンの 群れを 襲って 金属を 集める。",
+		'ja-jp': "大きくて 頑丈な ハンマーを 作るために キリキザンの 群れを 襲って 金属を 集める。",
 	},
 
 	stage: "Stage1",
@@ -28,7 +28,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "カヌチャン",
+		'ja-jp': "カヌチャン",
 	},
 
 	retreat: 2,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Sandslash δ",
-		fr: "Sablaireau δ",
-		de: "Sandamer"
+		'en-us': "Sandslash δ",
+		'fr-fr': "Sablaireau δ",
+		'de-de': "Sandamer"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -25,8 +25,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sandshrew",
-		fr: "Sabelette"
+		'en-us': "Sandshrew",
+		'fr-fr': "Sabelette"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Delta Storm",
-				fr: "Tempête Delta",
-				de: "Delta-Sturm"
+				'en-us': "Delta Storm",
+				'fr-fr': "Tempête Delta",
+				'de-de': "Delta-Sturm"
 			},
 			effect: {
-				en: "As long as Sandslash is your Active Pokémon, put 1 damage counter on each of your opponent's Pokémon-ex between turns.",
-				fr: "Tant que Sablaireau est votre Pokémon Actif, placez 1 marqueur de dégât sur chacun des Pokémon-ex de votre adversaire entre deux tours.",
-				de: "Solange Sandamer dein Aktives Pokémon ist, lege zwischen den Zügen eine Schadensmarke auf alle Pokémon-ex deines Gegners."
+				'en-us': "As long as Sandslash is your Active Pokémon, put 1 damage counter on each of your opponent's Pokémon-ex between turns.",
+				'fr-fr': "Tant que Sablaireau est votre Pokémon Actif, placez 1 marqueur de dégât sur chacun des Pokémon-ex de votre adversaire entre deux tours.",
+				'de-de': "Solange Sandamer dein Aktives Pokémon ist, lege zwischen den Zügen eine Schadensmarke auf alle Pokémon-ex deines Gegners."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rend",
-				fr: "Déchirer",
-				de: "Reißer"
+				'en-us': "Rend",
+				'fr-fr': "Déchirer",
+				'de-de': "Reißer"
 			},
 			effect: {
-				en: "If the Defending Pokémon already has any damage counters on it, this attack does 20 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wenn bereits Schadensmarken auf dem Verteidigenden Pokémon liegen, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "If the Defending Pokémon already has any damage counters on it, this attack does 20 damage plus 20 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wenn bereits Schadensmarken auf dem Verteidigenden Pokémon liegen, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -73,9 +73,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 50,

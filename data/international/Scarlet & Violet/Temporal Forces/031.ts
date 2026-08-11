@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Heatmor",
-		fr: "Aflamanoir",
-		es: "Heatmor",
-		it: "Heatmor",
-		pt: "Heatmor",
-		de: "Furnifraß"
+		'en-us': "Heatmor",
+		'fr-fr': "Aflamanoir",
+		'es-es': "Heatmor",
+		'it-it': "Heatmor",
+		'pt-br': "Heatmor",
+		'de-de': "Furnifraß"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Live Coal",
-			fr: "Charbon Mutant",
-			es: "Carbón Activado",
-			it: "Carboni Ardenti",
-			pt: "Carvão Vivo",
-			de: "Glühende Kohlen"
+			'en-us': "Live Coal",
+			'fr-fr': "Charbon Mutant",
+			'es-es': "Carbón Activado",
+			'it-it': "Carboni Ardenti",
+			'pt-br': "Carvão Vivo",
+			'de-de': "Glühende Kohlen"
 		},
 
 		damage: 20
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Licking Flames",
-			fr: "Flammes Effleurantes",
-			es: "Lengüetazo en Llamas",
-			it: "Fiammalingua",
-			pt: "Lambidas Flamejantes",
-			de: "Schleckende Flammen"
+			'en-us': "Licking Flames",
+			'fr-fr': "Flammes Effleurantes",
+			'es-es': "Lengüetazo en Llamas",
+			'it-it': "Fiammalingua",
+			'pt-br': "Lambidas Flamejantes",
+			'de-de': "Schleckende Flammen"
 		},
 
 		effect: {
-			en: "Flip 3 coins. For each tails, discard an Energy from this Pokémon.",
-			fr: "Lancez 3 pièces. Pour chaque côté pile, défaussez une Énergie de ce Pokémon.",
-			es: "Lanza 3 monedas. Por cada cruz, descarta 1 Energía de este Pokémon.",
-			it: "Lancia tre volte una moneta. Ogni volta che esce croce, scarta un'Energia da questo Pokémon.",
-			pt: "Jogue 3 moedas. Para cada coroa, descarte uma Energia deste Pokémon.",
-			de: "Wirf 3 Münzen. Lege pro Zahl 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Flip 3 coins. For each tails, discard an Energy from this Pokémon.",
+			'fr-fr': "Lancez 3 pièces. Pour chaque côté pile, défaussez une Énergie de ce Pokémon.",
+			'es-es': "Lanza 3 monedas. Por cada cruz, descarta 1 Energía de este Pokémon.",
+			'it-it': "Lancia tre volte una moneta. Ogni volta che esce croce, scarta un'Energia da questo Pokémon.",
+			'pt-br': "Jogue 3 moedas. Para cada coroa, descarte uma Energia deste Pokémon.",
+			'de-de': "Wirf 3 Münzen. Lege pro Zahl 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 130
@@ -67,7 +67,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "There's a hole in its tail that allows it to draw in the air it needs to keep its fire burning. If the hole gets blocked, this Pokémon will fall ill.",
+		'en-us': "There's a hole in its tail that allows it to draw in the air it needs to keep its fire burning. If the hole gets blocked, this Pokémon will fall ill.",
 	},
 
 	variants: [

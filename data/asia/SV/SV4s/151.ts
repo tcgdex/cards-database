@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Steelix"
+		'id-id': "Steelix"
 	},
 
 	illustrator: "nisimono",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Ada pemikiran bahwa perubahan pada tubuh Steelix terjadi akibat bertumpuknya unsur besi yang ditelan olehnya bersama tanah."
+		'id-id': "Ada pemikiran bahwa perubahan pada tubuh Steelix terjadi akibat bertumpuknya unsur besi yang ditelan olehnya bersama tanah."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Gempa"
+			'id-id': "Gempa"
 		},
 
 		effect: {
-			id: "Serangan ini juga memberikan kerusakan masing-masing sejumlah 30 kepada semua Pokémon Cadangan sendiri. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
+			'id-id': "Serangan ini juga memberikan kerusakan masing-masing sejumlah 30 kepada semua Pokémon Cadangan sendiri. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
 		},
 
 		damage: 130,
 		cost: ["Metal"]
 	}, {
 		name: {
-			id: "Heavy Impact"
+			'id-id': "Heavy Impact"
 		},
 
 		damage: 180,

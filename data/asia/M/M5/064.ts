@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ツツケラ",
+		'ja-jp': "ツツケラ",
 	},
 
 	illustrator: "Koji Nakata",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "頭を 激しく 揺さぶっても 首の 筋肉が 強いおかげで ダメージは まったく ない。",
+		'ja-jp': "頭を 激しく 揺さぶっても 首の 筋肉が 強いおかげで ダメージは まったく ない。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10×",
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数×10ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数×10ダメージ。",
 			},
 		},
 	],

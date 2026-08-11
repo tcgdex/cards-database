@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タイラニター",
+		'ja-jp': "タイラニター",
 	},
 
 	rarity: "Holo Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "スラム",
+				'ja-jp': "スラム",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
 			},
 		},
 		{
 			cost: ["Darkness", "Darkness", "Colorless", "Colorless"],
 			name: {
-				ja: "トランプ",
+				'ja-jp': "トランプ",
 			},
 			effect: {
-				ja: "遊びのベンチポケモン（あなたと相手）について、コインをひっくり返します。頭の場合、この攻撃はそのポケモンに30のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "遊びのベンチポケモン（あなたと相手）について、コインをひっくり返します。頭の場合、この攻撃はそのポケモンに30のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 50,
 		},

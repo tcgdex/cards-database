@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Snover",
-		fr: "Blizzi",
-		es: "Snover",
-		it: "Snover",
-		pt: "Snover",
-		de: "Shnebedeck"
+		'en-us': "Snover",
+		'fr-fr': "Blizzi",
+		'es-es': "Snover",
+		'it-it': "Snover",
+		'pt-br': "Snover",
+		'de-de': "Shnebedeck"
 	},
 
 	illustrator: "Naoki Saito",
@@ -22,12 +22,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Whap Down",
-			fr: "Assommer",
-			es: "Zurrar",
-			it: "Bastonata",
-			pt: "Golpe Ligeiro",
-			de: "Verdreschen"
+			'en-us': "Whap Down",
+			'fr-fr': "Assommer",
+			'es-es': "Zurrar",
+			'it-it': "Bastonata",
+			'pt-br': "Golpe Ligeiro",
+			'de-de': "Verdreschen"
 		},
 
 		damage: 60,
@@ -46,7 +46,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The berries that grow around its belly are like ice pops. Galarian Darumaka absolutely love these berries."
+		'en-us': "The berries that grow around its belly are like ice pops. Galarian Darumaka absolutely love these berries."
 	},
 
 	variants: [

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Cerulean City Gym"
+		'en-us': "Cerulean City Gym"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -12,7 +12,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Each player pays Colorless less to retreat his or her Pokémon if it has Misty in its name."
+		'en-us': "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Each player pays Colorless less to retreat his or her Pokémon if it has Misty in its name."
 	},
 	variants: [
 		{

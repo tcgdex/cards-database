@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カラマネロ",
+		'ja-jp': "カラマネロ",
 		'zh-tw': "烏賊王",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "発光体の 光を 見つめると たちまち 催眠状態になり カラマネロに 操られてしまう。",
+		'ja-jp': "発光体の 光を 見つめると たちまち 催眠状態になり カラマネロに 操られてしまう。",
 		'zh-tw': "要是盯著牠的發光體看，就會馬上陷入催眠狀態， 並且受到牠的控制。",
 	},
 
@@ -23,19 +23,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "シンクロキネシス",
+				'ja-jp': "シンクロキネシス",
 				'zh-tw': "同步強念",
 			},
 			damage: "30+",
 			cost: ["Psychic"],
 			effect: {
-				ja: "おたがいの手札を見せ合い、その中にそれぞれ同じ名前のカードがあるなら、90ダメージ追加。",
+				'ja-jp': "おたがいの手札を見せ合い、その中にそれぞれ同じ名前のカードがあるなら、90ダメージ追加。",
 				'zh-tw': "互看雙方手牌，若其中有名稱相同的卡，則增加90點傷害。",
 			},
 		},
 		{
 			name: {
-				ja: "ねんどうだん",
+				'ja-jp': "ねんどうだん",
 				'zh-tw': "念動彈",
 			},
 			damage: 80,
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マーイーカ",
+		'ja-jp': "マーイーカ",
 	},
 
 	retreat: 2,

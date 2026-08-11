@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホッピップ",
+		'ja-jp': "ホッピップ",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ホップ",
+				'ja-jp': "ホップ",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "芽",
+				'ja-jp': "芽",
 			},
 			effect: {
-				ja: "デッキを検索して、ホッピップという名前の基本的なポケモンを探して、ベンチに置きます。その後、デッキをシャッフルします。 （ベンチがいっぱいの場合、この攻撃を使用できません。）",
+				'ja-jp': "デッキを検索して、ホッピップという名前の基本的なポケモンを探して、ベンチに置きます。その後、デッキをシャッフルします。 （ベンチがいっぱいの場合、この攻撃を使用できません。）",
 			},
 		},
 	],

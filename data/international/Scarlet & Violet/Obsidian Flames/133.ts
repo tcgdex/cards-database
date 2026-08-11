@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Démolosse",
-		en: "Houndoom",
-		es: "Houndoom",
-		it: "Houndoom",
-		pt: "Houndoom",
-		de: "Hundemon"
+		'fr-fr': "Démolosse",
+		'en-us': "Houndoom",
+		'es-es': "Houndoom",
+		'it-it': "Houndoom",
+		'pt-br': "Houndoom",
+		'de-de': "Hundemon"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Darkness"],
 	evolveFrom: {
-		fr: "Malosse",
-		en: "Houndour",
-		es: "Houndour",
-		it: "Houndour",
-		pt: "Houndour",
-		de: "Hunduster"
+		'fr-fr': "Malosse",
+		'en-us': "Houndour",
+		'es-es': "Houndour",
+		'it-it': "Houndour",
+		'pt-br': "Houndour",
+		'de-de': "Hunduster"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			fr: "Frappe Audacieuse",
-			en: "Daring Strike",
-			es: "Golpe Intrépido",
-			it: "Colpo Temerario",
-			pt: "Golpe Ousado",
-			de: "Gewagter Angriff"
+			'fr-fr': "Frappe Audacieuse",
+			'en-us': "Daring Strike",
+			'es-es': "Golpe Intrépido",
+			'it-it': "Colpo Temerario",
+			'pt-br': "Golpe Ousado",
+			'de-de': "Gewagter Angriff"
 		},
 
 		effect: {
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 70 dégâts supplémentaires.",
-			en: "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 70 more damage.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 70 puntos de daño más.",
-			it: "Se il Pokémon attivo del tuo avversario è un Pokémon Evoluzione, questo attacco infligge 70 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon de Evolução, este ataque causará 70 pontos de dano a mais.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 70 Schadenspunkte mehr zu."
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 70 dégâts supplémentaires.",
+			'en-us': "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 70 more damage.",
+			'es-es': "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 70 puntos de daño más.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon Evoluzione, questo attacco infligge 70 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon de Evolução, este ataque causará 70 pontos de dano a mais.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 70 Schadenspunkte mehr zu."
 		},
 
 		damage: "50+"
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Tranche Ombre",
-			en: "Shadow Slash",
-			es: "Tajo Sombrío",
-			it: "Lacerombra",
-			pt: "Talho das Sombras",
-			de: "Schattenschlitzer"
+			'fr-fr': "Tranche Ombre",
+			'en-us': "Shadow Slash",
+			'es-es': "Tajo Sombrío",
+			'it-it': "Lacerombra",
+			'pt-br': "Talho das Sombras",
+			'de-de': "Schattenschlitzer"
 		},
 
 		effect: {
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			en: "Discard an Energy from this Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'en-us': "Discard an Energy from this Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte uma Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 130
@@ -84,7 +84,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "If you are burned by the flames it shoots from its mouth, the pain will never go away.",
+		'en-us': "If you are burned by the flames it shoots from its mouth, the pain will never go away.",
 	},
 
 	variants: [

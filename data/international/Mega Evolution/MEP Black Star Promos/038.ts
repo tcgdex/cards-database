@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charmander",
-		fr: "Salamèche",
-		de: "Glumanda",
-		it: "Charmander",
-		es: "Charmander",
-		pt: "Charmander",
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche",
+		'de-de': "Glumanda",
+		'it-it': "Charmander",
+		'es-es': "Charmander",
+		'pt-br': "Charmander",
 		'es-mx': "Charmander"
 	},
 
@@ -26,24 +26,24 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Ember",
-			fr: "Flammèche",
-			de: "Glut",
-			it: "Braciere",
-			es: "Ascuas",
-			pt: "Brasa",
+			'en-us': "Ember",
+			'fr-fr': "Flammèche",
+			'de-de': "Glut",
+			'it-it': "Braciere",
+			'es-es': "Ascuas",
+			'pt-br': "Brasa",
 			'es-mx': "Ascuas"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon.",
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'pt-br': "Descarte uma Energia deste Pokémon.",
 			'es-mx': "Descarta 1 Energía de este Pokémon."
 		}
 	}],

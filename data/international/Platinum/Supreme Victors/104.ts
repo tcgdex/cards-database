@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Feebas",
-		fr: "Barpau",
-		de: "Barschwa"
+		'en-us': "Feebas",
+		'fr-fr': "Barpau",
+		'de-de': "Barschwa"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Surprise Attack",
-				fr: "Attaque surprise",
-				de: "Überraschungsangriff"
+				'en-us': "Surprise Attack",
+				'fr-fr': "Attaque surprise",
+				'de-de': "Überraschungsangriff"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -44,14 +44,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Count and Draw",
-				fr: "Compter et piocher",
-				de: "Zählen und Ziehen"
+				'en-us': "Count and Draw",
+				'fr-fr': "Compter et piocher",
+				'de-de': "Zählen und Ziehen"
 			},
 			effect: {
-				en: "Draw a card for each of your opponent's Pokémon that isn't an Evolved Pokémon.",
-				fr: "Piochez une carte pour chaque Pokémon de votre adversaire qui n'est pas un Pokémon Évolué.",
-				de: "Ziehe 1 Karte für jedes Pokémon deines Gegners, das kein entwickeltes Pokémon ist."
+				'en-us': "Draw a card for each of your opponent's Pokémon that isn't an Evolved Pokémon.",
+				'fr-fr': "Piochez une carte pour chaque Pokémon de votre adversaire qui n'est pas un Pokémon Évolué.",
+				'de-de': "Ziehe 1 Karte für jedes Pokémon deines Gegners, das kein entwickeltes Pokémon ist."
 			},
 
 		},
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water."
+		'en-us': "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water."
 	},
 
 	variants: [

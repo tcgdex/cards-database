@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Spheal",
-		fr: "Obalie",
-		de: "Seemops"
+		'en-us': "Spheal",
+		'fr-fr': "Obalie",
+		'de-de': "Seemops"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Freezing Breath",
-				fr: "Souffle glacial",
-				de: "Freezinh Breath"
+				'en-us': "Freezing Breath",
+				'fr-fr': "Souffle glacial",
+				'de-de': "Freezinh Breath"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Asleep.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, le Pokémon Défenseur est maintenant Endormi.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Asleep."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Asleep.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Asleep."
 			},
 
 		},

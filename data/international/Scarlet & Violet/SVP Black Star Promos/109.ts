@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ampharos",
-		fr: "Pharamp",
-		es: "Ampharos",
-		it: "Ampharos",
-		pt: "Ampharos",
-		de: "Ampharos"
+		'en-us': "Ampharos",
+		'fr-fr': "Pharamp",
+		'es-es': "Ampharos",
+		'it-it': "Ampharos",
+		'pt-br': "Ampharos",
+		'de-de': "Ampharos"
 	},
 
 	rarity: "Promo",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 160,
 	types: ["Lightning"],
 	evolveFrom: {
-		en: "Flaaffy",
-		fr: "Lainergie",
-		es: "Flaaffy",
-		it: "Flaaffy",
-		pt: "Flaaffy",
-		de: "Waaty"
+		'en-us': "Flaaffy",
+		'fr-fr': "Lainergie",
+		'es-es': "Flaaffy",
+		'it-it': "Flaaffy",
+		'pt-br': "Flaaffy",
+		'de-de': "Waaty"
 	},
 	stage: "Stage2",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Electric Ball",
-			fr: "Boule de Foudre",
-			es: "Bola Eléctrica",
-			it: "Lamposfera",
-			pt: "Bola de Eletricidade",
-			de: "Stromball"
+			'en-us': "Electric Ball",
+			'fr-fr': "Boule de Foudre",
+			'es-es': "Bola Eléctrica",
+			'it-it': "Lamposfera",
+			'pt-br': "Bola de Eletricidade",
+			'de-de': "Stromball"
 		},
 
 		damage: 110

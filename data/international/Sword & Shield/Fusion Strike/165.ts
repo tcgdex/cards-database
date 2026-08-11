@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Croagunk",
-		fr: "Cradopaud",
-		es: "Croagunk",
-		it: "Croagunk",
-		pt: "Croagunk",
-		de: "Glibunkel"
+		'en-us': "Croagunk",
+		'fr-fr': "Cradopaud",
+		'es-es': "Croagunk",
+		'it-it': "Croagunk",
+		'pt-br': "Croagunk",
+		'de-de': "Glibunkel"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Nagomi Nijo",
 
 	description: {
-		en: "Once diluted, its poison becomes medicinal. This Pokémon came into popularity after a pharmaceutical company chose it as a mascot."
+		'en-us': "Once diluted, its poison becomes medicinal. This Pokémon came into popularity after a pharmaceutical company chose it as a mascot."
 	},
 
 	attacks: [{
 		cost: ["Darkness"],
 
 		name: {
-			en: "Corkscrew Punch",
-			fr: "Poing Tire-Bouchon",
-			de: "Korkenzieherhieb",
-			es: "Puño Tirabuzón",
-			pt: "Soco Saca-rolha",
-			it: "Pugno Rotante"
+			'en-us': "Corkscrew Punch",
+			'fr-fr': "Poing Tire-Bouchon",
+			'de-de': "Korkenzieherhieb",
+			'es-es': "Puño Tirabuzón",
+			'pt-br': "Soco Saca-rolha",
+			'it-it': "Pugno Rotante"
 		},
 
 		damage: 20

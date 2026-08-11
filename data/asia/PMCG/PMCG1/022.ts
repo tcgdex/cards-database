@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キュウコン",
+		'ja-jp': "キュウコン",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ルアー",
+				'ja-jp': "ルアー",
 			},
 			effect: {
-				ja: "対戦相手がベンチポケモンを持っている場合は、それらの1つを選択し、防御ポケモンで切り替えます。",
+				'ja-jp': "対戦相手がベンチポケモンを持っている場合は、それらの1つを選択し、防御ポケモンで切り替えます。",
 			},
 
 		},
 		{
 			cost: ["Fire", "Fire", "Fire", "Fire"],
 			name: {
-				ja: "火の爆発",
+				'ja-jp': "火の爆発",
 			},
 			effect: {
-				ja: "Ninetalesに取り付けられた1つの消防エネルギーカードを廃棄するか、この攻撃は何もしません。",
+				'ja-jp': "Ninetalesに取り付けられた1つの消防エネルギーカードを廃棄するか、この攻撃は何もしません。",
 			},
 			damage: 80,
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チラーミィ",
+		'ja-jp': "チラーミィ",
 	},
 
 	illustrator: "Natsumi Yoshida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "尻尾で お互いの 体を なでて あいさつ。 尻尾の 手入れを 欠かさず いつも きれいにしている。",
+		'ja-jp': "尻尾で お互いの 体を なでて あいさつ。 尻尾の 手入れを 欠かさず いつも きれいにしている。",
 	},
 
 	stage: "Basic",

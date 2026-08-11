@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Klang",
-		fr: "Clic",
-		es: "Klang",
-		it: "Klang",
-		pt: "Klang",
-		de: "Kliklak"
+		'en-us': "Klang",
+		'fr-fr': "Clic",
+		'es-es': "Klang",
+		'it-it': "Klang",
+		'pt-br': "Klang",
+		'de-de': "Kliklak"
 	},
 
 	illustrator: "Hataya",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Klink",
-		fr: "Tic",
-		es: "Klink",
-		it: "Klink",
-		pt: "Klink",
-		de: "Klikk"
+		'en-us': "Klink",
+		'fr-fr': "Tic",
+		'es-es': "Klink",
+		'it-it': "Klink",
+		'pt-br': "Klink",
+		'de-de': "Klikk"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			en: "Beam",
-			fr: "Rayon",
-			es: "Transmisión",
-			it: "Raggio",
-			pt: "Feixe",
-			de: "Strahl"
+			'en-us': "Beam",
+			'fr-fr': "Rayon",
+			'es-es': "Transmisión",
+			'it-it': "Raggio",
+			'pt-br': "Feixe",
+			'de-de': "Strahl"
 		},
 
 		damage: 20
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		name: {
-			en: "Guard Press",
-			fr: "Pression de Garde",
-			es: "Presión de Guardia",
-			it: "Pressadifesa",
-			pt: "Aperto Protetor",
-			de: "Schutzdruck"
+			'en-us': "Guard Press",
+			'fr-fr': "Pression de Garde",
+			'es-es': "Presión de Guardia",
+			'it-it': "Pressadifesa",
+			'pt-br': "Aperto Protetor",
+			'de-de': "Schutzdruck"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
-			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			es: "Durante el próximo turno de tu rival, los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-			it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-			pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
-			de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+			'en-us': "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			'es-es': "Durante el próximo turno de tu rival, los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			'it-it': "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+			'pt-br': "Durante o próximo turno do seu oponente, este Pokémon receberá 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
+			'de-de': "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 		},
 
 		damage: 70
@@ -85,7 +85,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When Klang goes all out, the minigear links up perfectly with the outer part of the big gear, and this Pokémon's rotation speed increases sharply.",
+		'en-us': "When Klang goes all out, the minigear links up perfectly with the outer part of the big gear, and this Pokémon's rotation speed increases sharply.",
 	},
 
 	variants: [

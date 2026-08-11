@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Spoink",
-		fr: "Spoink",
-		de: "Spoink"
+		'en-us': "Spoink",
+		'fr-fr': "Spoink",
+		'de-de': "Spoink"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psybeam",
-				fr: "Rafale psy",
-				de: "Psystrahl"
+				'en-us': "Psybeam",
+				'fr-fr': "Rafale psy",
+				'de-de': "Psystrahl"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
-				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bounce",
-				fr: "Faire des bonds",
-				de: "Sprungfeder"
+				'en-us': "Bounce",
+				'fr-fr': "Faire des bonds",
+				'de-de': "Sprungfeder"
 			},
 			effect: {
-				en: "You may switch Spoink with 1 of your Benched Pokémon.",
-				fr: "Vous pouvez échanger Spoink avec 1 des Pokémon de votre Banc.",
-				de: "Du kannst Spoink gegen 1 Pokémon auf deiner Bank austauschen."
+				'en-us': "You may switch Spoink with 1 of your Benched Pokémon.",
+				'fr-fr': "Vous pouvez échanger Spoink avec 1 des Pokémon de votre Banc.",
+				'de-de': "Du kannst Spoink gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 			damage: 20,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It bounces constantly, using its tail like a spring. The shock of bouncing keeps its heart beating.",
+		'en-us': "It bounces constantly, using its tail like a spring. The shock of bouncing keeps its heart beating.",
 	},
 
 	thirdParty: {

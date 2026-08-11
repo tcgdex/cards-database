@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [830],
 
 	name: {
-		en: "Eldegoss"
+		'en-us': "Eldegoss"
 	},
 
 	illustrator: "kodama",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Gossifleur"
+		'en-us': "Gossifleur"
 	},
 
 	description: {
-		en: "The cotton on the head of this Pokémon can be\nspun into a glossy, gorgeous yarn—a Galar\nregional specialty."
+		'en-us': "The cotton on the head of this Pokémon can be\nspun into a glossy, gorgeous yarn—a Galar\nregional specialty."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Float Up"
+			'en-us': "Float Up"
 		},
 
 		damage: 40,
 		cost: ["Grass"],
 
 		effect: {
-			en: "You may shuffle this Pokémon and all attached cards into your deck."
+			'en-us': "You may shuffle this Pokémon and all attached cards into your deck."
 		}
 	}],
 

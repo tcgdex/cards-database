@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Murkrow",
-		fr: "Cornèbre",
-		de: "Kramurx"
+		'en-us': "Murkrow",
+		'fr-fr': "Cornèbre",
+		'de-de': "Kramurx"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Night Song",
-				fr: "Chanson nocturne",
-				de: "Night Song"
+				'en-us': "Night Song",
+				'fr-fr': "Chanson nocturne",
+				'de-de': "Night Song"
 			},
 			effect: {
-				en: "Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. The new Defending Pokémon is now Asleep.",
-				fr: "Échangez 1 des Pokémon de Banc de votre adversaire avec 1 des Pokémon Défenseurs. Votre adversaire choisit le Pokémon Défenseur à échanger. Le nouveau Pokémon Défenseur est maintenant Endormi.",
-				de: "Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. The new Defending Pokémon is now Asleep."
+				'en-us': "Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. The new Defending Pokémon is now Asleep.",
+				'fr-fr': "Échangez 1 des Pokémon de Banc de votre adversaire avec 1 des Pokémon Défenseurs. Votre adversaire choisit le Pokémon Défenseur à échanger. Le nouveau Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. The new Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Plunder",
-				fr: "Pillage",
-				de: "Plunder"
+				'en-us': "Plunder",
+				'fr-fr': "Pillage",
+				'de-de': "Plunder"
 			},
 			effect: {
-				en: "Before doing damage, discard all Trainer cards attached to the Defending Pokémon.",
-				fr: "Avant d'infliger des dégâts, défaussez toutes les cartes Dresseur attachées au Pokémon Défenseur.",
-				de: "Before doing damage, discard all Trainer cards attached to the Defending Pokémon."
+				'en-us': "Before doing damage, discard all Trainer cards attached to the Defending Pokémon.",
+				'fr-fr': "Avant d'infliger des dégâts, défaussez toutes les cartes Dresseur attachées au Pokémon Défenseur.",
+				'de-de': "Before doing damage, discard all Trainer cards attached to the Defending Pokémon."
 			},
 			damage: 20,
 

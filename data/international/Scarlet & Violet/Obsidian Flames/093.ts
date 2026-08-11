@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Solaroc",
-		en: "Solrock",
-		es: "Solrock",
-		it: "Solrock",
-		pt: "Solrock",
-		de: "Sonnfel"
+		'fr-fr': "Solaroc",
+		'en-us': "Solrock",
+		'es-es': "Solrock",
+		'it-it': "Solrock",
+		'pt-br': "Solrock",
+		'de-de': "Sonnfel"
 	},
 
 	rarity: "Uncommon",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Appel à la Famille",
-			en: "Call for Family",
-			es: "Llamar a la Familia",
-			it: "Cerca Famiglia",
-			pt: "Chamar a Família",
-			de: "Familienruf"
+			'fr-fr': "Appel à la Famille",
+			'en-us': "Call for Family",
+			'es-es': "Llamar a la Familia",
+			'it-it': "Cerca Famiglia",
+			'pt-br': "Chamar a Família",
+			'de-de': "Familienruf"
 		},
 
 		effect: {
-			fr: "Cherchez dans votre deck jusqu'à 2 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
-			en: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
-			es: "Busca en tu baraja hasta 2 Pokémon Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo fino a due Pokémon Base e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por até 2 Pokémon Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
+			'fr-fr': "Cherchez dans votre deck jusqu'à 2 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
+			'en-us': "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
+			'es-es': "Busca en tu baraja hasta 2 Pokémon Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo fino a due Pokémon Base e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por até 2 Pokémon Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			fr: "Lance-Soleil",
-			en: "Solar Beam",
-			es: "Rayo Solar",
-			it: "Solarraggio",
-			pt: "Raio Solar",
-			de: "Solarstrahl"
+			'fr-fr': "Lance-Soleil",
+			'en-us': "Solar Beam",
+			'es-es': "Rayo Solar",
+			'it-it': "Solarraggio",
+			'pt-br': "Raio Solar",
+			'de-de': "Solarstrahl"
 		},
 
 		damage: 50
@@ -71,7 +71,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Solar energy is the source of its power, so it is strong during the daytime. When it spins, its body shines.",
+		'en-us': "Solar energy is the source of its power, so it is strong during the daytime. When it spins, its body shines.",
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "阿爾宙斯V",
-		ja: "アルセウスV"
+		'ja-jp': "アルセウスV"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -19,19 +19,19 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "三重蓄能",
-			ja: "トリニティチャージ"
+			'ja-jp': "トリニティチャージ"
 		},
 
 		effect: {
 			'zh-tw': "從自己的牌庫選擇最多3張基本能量卡，以任意方式附於自己的「寶可夢【V】」身上。並且重洗牌庫。",
-			ja: "自分の山札から基本エネルギーを3枚まで選び、自分の「ポケモンV」に好きなようにつける。そして山札を切る。"
+			'ja-jp': "自分の山札から基本エネルギーを3枚まで選び、自分の「ポケモンV」に好きなようにつける。そして山札を切る。"
 		},
 
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
 			'zh-tw': "力量刀鋒",
-			ja: "パワーエッジ"
+			'ja-jp': "パワーエッジ"
 		},
 
 		damage: 130,

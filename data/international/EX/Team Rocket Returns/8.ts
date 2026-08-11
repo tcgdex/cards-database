@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Dark Octillery",
-		de: "Dunkles Octillery"
+		'en-us': "Dark Octillery",
+		'de-de': "Dunkles Octillery"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Remoraid",
+		'en-us': "Remoraid",
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Black Suction Cups",
-				de: "Black Suction Cups"
+				'en-us': "Black Suction Cups",
+				'de-de': "Black Suction Cups"
 			},
 			effect: {
-				en: "Does 10 damage to each Defending Pokémon. Flip a coin. If heads, each Defending Pokémon is now Paralyzed.",
-				de: "Does 10 damage to each Defending Pokémon. Flip a coin. If heads, each Defending Pokémon is now Paralyzed."
+				'en-us': "Does 10 damage to each Defending Pokémon. Flip a coin. If heads, each Defending Pokémon is now Paralyzed.",
+				'de-de': "Does 10 damage to each Defending Pokémon. Flip a coin. If heads, each Defending Pokémon is now Paralyzed."
 			},
 
 		},
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ink Blast",
-				de: "Ink Blast"
+				'en-us': "Ink Blast",
+				'de-de': "Ink Blast"
 			},
 			effect: {
-				en: "Does 30 damage plus 10 more damage for each Energy attached to Dark Octillery but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
-				de: "Does 30 damage plus 10 more damage for each Energy attached to Dark Octillery but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+				'en-us': "Does 30 damage plus 10 more damage for each Energy attached to Dark Octillery but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+				'de-de': "Does 30 damage plus 10 more damage for each Energy attached to Dark Octillery but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
 			},
 			damage: "30+",
 

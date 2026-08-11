@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Empoleon",
-		fr: "Pingoléon",
-		es: "Empoleon",
-		it: "Empoleon",
-		pt: "Empoleon",
-		de: "Impoleon"
+		'en-us': "Empoleon",
+		'fr-fr': "Pingoléon",
+		'es-es': "Empoleon",
+		'it-it': "Empoleon",
+		'pt-br': "Empoleon",
+		'de-de': "Impoleon"
 	},
 
 	illustrator: "nagimiso",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Prinplup",
-		fr: "Prinplouf",
+		'en-us': "Prinplup",
+		'fr-fr': "Prinplouf",
 	},
 
 	stage: "Stage2",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Total Command",
-				fr: "Commande Totale",
-				es: "Orden Total",
-				it: "Comando Assoluto",
-				pt: "Comando Total",
-				de: "Absolutes Gebot"
+				'en-us': "Total Command",
+				'fr-fr': "Commande Totale",
+				'es-es': "Orden Total",
+				'it-it': "Comando Assoluto",
+				'pt-br': "Comando Total",
+				'de-de': "Absolutes Gebot"
 			},
 			effect: {
-				en: "This attack does 20 damage for each Benched Pokémon (both yours and your opponent’s).",
-				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre de Pokémon de Banc (les vôtres et ceux de votre adversaire).",
-				es: "Este ataque hace 20 puntos de daño por cada Pokémon en Banca (tanto tuyos como de tu rival).",
-				it: "Questo attacco infligge 20 danni per ogni Pokémon in panchina, sia tuo che del tuo avversario.",
-				pt: "Este ataque causa 20 pontos de dano para cada Pokémon no Banco (seus e do seu oponente).",
-				de: "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl der Pokémon auf der Bank (deiner und der deines Gegners) zu."
+				'en-us': "This attack does 20 damage for each Benched Pokémon (both yours and your opponent’s).",
+				'fr-fr': "Cette attaque inflige 20 dégâts multipliés par le nombre de Pokémon de Banc (les vôtres et ceux de votre adversaire).",
+				'es-es': "Este ataque hace 20 puntos de daño por cada Pokémon en Banca (tanto tuyos como de tu rival).",
+				'it-it': "Questo attacco infligge 20 danni per ogni Pokémon in panchina, sia tuo che del tuo avversario.",
+				'pt-br': "Este ataque causa 20 pontos de dano para cada Pokémon no Banco (seus e do seu oponente).",
+				'de-de': "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl der Pokémon auf der Bank (deiner und der deines Gegners) zu."
 			},
 			damage: "20×",
 
@@ -65,20 +65,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlpool",
-				fr: "Siphon",
-				es: "Torbellino",
-				it: "Mulinello",
-				pt: "Redemoinho",
-				de: "Whirlpool"
+				'en-us': "Whirlpool",
+				'fr-fr': "Siphon",
+				'es-es': "Torbellino",
+				'it-it': "Mulinello",
+				'pt-br': "Redemoinho",
+				'de-de': "Whirlpool"
 			},
 			effect: {
-				en: "Discard an Energy from your opponent’s Active Pokémon.",
-				fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
-				es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-				it: "Scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
-				de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard an Energy from your opponent’s Active Pokémon.",
+				'fr-fr': "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+				'es-es': "Descarta 1 Energía del Pokémon Activo de tu rival.",
+				'it-it': "Scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 90,
 
@@ -102,7 +102,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The three horns that extend from its beak attest to its power. The leader has the biggest horns.",
+		'en-us': "The three horns that extend from its beak attest to its power. The leader has the biggest horns.",
 	},
 
 	thirdParty: {

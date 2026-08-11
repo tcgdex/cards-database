@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Kirlia",
-		fr: "Kirlia",
-		de: "Kirlia"
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia",
+		'de-de': "Kirlia"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ralts",
-		fr: "Tarsal"
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dazzle Dance",
-				fr: "Danse éblouissante",
-				de: "Verwirrender Tanz"
+				'en-us': "Dazzle Dance",
+				'fr-fr': "Danse éblouissante",
+				'de-de': "Verwirrender Tanz"
 			},
 			effect: {
-				en: "Flip a coin. If heads, each Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, chaque Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei 'Kopf' sind alle Verteidigenden Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, each Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, chaque Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' sind alle Verteidigenden Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -50,14 +50,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Life Drain",
-				fr: "Perte d'énergie",
-				de: "Lebensentzug"
+				'en-us': "Life Drain",
+				'fr-fr': "Perte d'énergie",
+				'de-de': "Lebensentzug"
 			},
 			effect: {
-				en: "Flip a coin. If heads, put damage counters on the Defending Pokémon until it is 10 HP away from being Knocked Out.",
-				fr: "Lancez une pièce. Si c'est face, placez des marqueurs de dégât sur le Pokémon Défenseur jusqu'à ce qu'il ne lui reste plus que 10 PV.",
-				de: "Wirf eine Münze. Bei 'Kopf' legst du so viele Schadensmarken auf das Verteidigende Pokémon, dass es nur noch 10 Schadenspunkte davon entfernt ist, kampfunfähig zu werden."
+				'en-us': "Flip a coin. If heads, put damage counters on the Defending Pokémon until it is 10 HP away from being Knocked Out.",
+				'fr-fr': "Lancez une pièce. Si c'est face, placez des marqueurs de dégât sur le Pokémon Défenseur jusqu'à ce qu'il ne lui reste plus que 10 PV.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' legst du so viele Schadensmarken auf das Verteidigende Pokémon, dass es nur noch 10 Schadenspunkte davon entfernt ist, kampfunfähig zu werden."
 			},
 
 		},

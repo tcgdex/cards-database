@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キャタピー",
+		'ja-jp': "キャタピー",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "スピンタックル",
+				'ja-jp': "スピンタックル",
 			},
 			effect: {
-				ja: "Caterpieはそれ自体に10ダメージを与えます。",
+				'ja-jp': "Caterpieはそれ自体に10ダメージを与えます。",
 			},
 			damage: 20,
 		},

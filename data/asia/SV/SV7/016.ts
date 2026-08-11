@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "炎兔兒",
 		'zh-cn': "炎兔兒",
-		ja: "ヒバニー"
+		'ja-jp': "ヒバニー"
 	},
 
 	illustrator: "Cona Nitanda",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "聚集了火之能量的 腳底肉球會升至高溫， 帶給對手巨大的傷害。",
 		'zh-cn': "聚集了火之能量的 腳底肉球會升至高溫， 帶給對手巨大的傷害。",
-		ja: "炎エネルギーが 集まる 足の 肉球は 高温になり 相手に 大ダメージを 与える。"
+		'ja-jp': "炎エネルギーが 集まる 足の 肉球は 高温になり 相手に 大ダメージを 与える。"
 	},
 
 	stage: "Basic",
@@ -27,13 +27,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "電光一閃",
 			'zh-cn': "電光一閃",
-			ja: "でんこうせっか"
+			'ja-jp': "でんこうせっか"
 		},
 
 		effect: {
 			'zh-tw': "擲1次硬幣若為正面，則增加10點傷害。",
 			'zh-cn': "擲1次硬幣若為正面，則增加10點傷害。",
-			ja: "コインを1回投げオモテなら、10ダメージ追加。"
+			'ja-jp': "コインを1回投げオモテなら、10ダメージ追加。"
 		},
 
 		damage: "10＋",

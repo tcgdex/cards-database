@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Toxapex"
+		'en-us': "Toxapex"
 	},
 
 	illustrator: "Ligton",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Mareanie"
+		'en-us': "Mareanie"
 	},
 
 	description: {
-		en: "Toxapex gets into fierce battles with Bruxish over\nareas where warm ocean currents flow, but the\nodds are always against it."
+		'en-us': "Toxapex gets into fierce battles with Bruxish over\nareas where warm ocean currents flow, but the\nodds are always against it."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Venoshock"
+			'en-us': "Venoshock"
 		},
 
 		damage: 50,
 		cost: ["Darkness", "Darkness"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon is Poisoned, this attack does 70 more damage."
+			'en-us': "If your opponent's Active Pokémon is Poisoned, this attack does 70 more damage."
 		}
 	}],
 

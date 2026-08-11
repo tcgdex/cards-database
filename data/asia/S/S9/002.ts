@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "椰蛋樹",
-		ja: "ナッシー"
+		'ja-jp': "ナッシー"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "３顆頭都想著不同的事。對自己以外的事情 似乎都沒什麼興趣。",
-		ja: "３つの 頭は べつのことを 考えている。 自分以外は あまり 興味がない ようだ。"
+		'ja-jp': "３つの 頭は べつのことを 考えている。 自分以外は あまり 興味がない ようだ。"
 	},
 
 	stage: "Stage1",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "超級吸取",
-			ja: "メガドレイン"
+			'ja-jp': "メガドレイン"
 		},
 
 		effect: {
 			'zh-tw': "將這隻寶可夢恢復「30」HP。",
-			ja: "このポケモンのHPを「30」回復する。"
+			'ja-jp': "このポケモンのHPを「30」回復する。"
 		},
 
 		damage: 70,
@@ -37,7 +37,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "種子炸彈",
-			ja: "タネばくだん"
+			'ja-jp': "タネばくだん"
 		},
 
 		damage: 130,

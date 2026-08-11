@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Meditite",
-		fr: "Méditikka",
-		es: "Meditite",
-		it: "Meditite",
-		pt: "Meditite",
-		de: "Meditie"
+		'en-us': "Meditite",
+		'fr-fr': "Méditikka",
+		'es-es': "Meditite",
+		'it-it': "Meditite",
+		'pt-br': "Meditite",
+		'de-de': "Meditie"
 	},
 
 	illustrator: "sui",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Smack",
-				fr: "Claque",
-				es: "Palmetazo",
-				it: "Schiaffo",
-				pt: "Estalo",
-				de: "Klatscher"
+				'en-us': "Smack",
+				'fr-fr': "Claque",
+				'es-es': "Palmetazo",
+				'it-it': "Schiaffo",
+				'pt-br': "Estalo",
+				'de-de': "Klatscher"
 			},
 
 			damage: 20,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It eats just one berry a day. By enduring hunger, its spirit is tempered and made sharper.",
+		'en-us': "It eats just one berry a day. By enduring hunger, its spirit is tempered and made sharper.",
 	},
 
 	thirdParty: {

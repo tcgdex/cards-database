@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Chikorita",
-		fr: "Germignon",
-		de: "Endivie"
+		'en-us': "Chikorita",
+		'fr-fr': "Germignon",
+		'de-de': "Endivie"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -44,14 +44,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Deflector",
-				fr: "Protection",
-				de: "Deflector"
+				'en-us': "Deflector",
+				'fr-fr': "Protection",
+				'de-de': "Deflector"
 			},
 			effect: {
-				en: "During your opponent's next turn, whenever Chikorita takes damage, divide that damage in half (rounded down to the nearest 10). (Any other effects still happen.)",
-				fr: "Pendant le prochain tour de votre adversaire, à chaque fois que Germignon reçoit des dégâts, divisez ces dégâts par deux (arrondis à la dizaine la plus proche). (Tout autre effet reste actif.)",
-				de: "During your opponent's next turn, whenever Chikorita takes damage, divide that damage in half (rounded down to the nearest 10). (Any other effects still happen.)"
+				'en-us': "During your opponent's next turn, whenever Chikorita takes damage, divide that damage in half (rounded down to the nearest 10). (Any other effects still happen.)",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, à chaque fois que Germignon reçoit des dégâts, divisez ces dégâts par deux (arrondis à la dizaine la plus proche). (Tout autre effet reste actif.)",
+				'de-de': "During your opponent's next turn, whenever Chikorita takes damage, divide that damage in half (rounded down to the nearest 10). (Any other effects still happen.)"
 			},
 
 		},
@@ -67,8 +67,8 @@ const card: Card = {
 
 
 	description: {
-		en: "A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up the sun's rays.",
-		fr: "Un doux parfum s'élève des feuilles du sommet de sa tête. Il est doux et adore absorber les rayons du soleil."
+		'en-us': "A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up the sun's rays.",
+		'fr-fr': "Un doux parfum s'élève des feuilles du sommet de sa tête. Il est doux et adore absorber les rayons du soleil."
 	},
 
 

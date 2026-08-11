@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブーバー",
+		'ja-jp': "ブーバー",
 	},
 
 	illustrator: "Yumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "怒ると 全身から 灼熱の 炎を 噴き上げる。 相手を 炭に するまで 収まらない。",
+		'ja-jp': "怒ると 全身から 灼熱の 炎を 噴き上げる。 相手を 炭に するまで 収まらない。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "のやき" },
 			cost: ["Fire"],
 			effect: {
-				ja: "相手の山札を上から1枚トラッシュする。",
+				'ja-jp': "相手の山札を上から1枚トラッシュする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 	],

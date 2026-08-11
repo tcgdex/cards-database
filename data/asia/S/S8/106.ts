@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミュウV",
+		'ja-jp': "ミュウV",
 	},
 
 	illustrator: "Naoki Saito",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "エナジーミックス" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分の山札からエネルギーを1枚選び、自分の「フュージョン」のポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札からエネルギーを1枚選び、自分の「フュージョン」のポケモンにつける。そして山札を切る。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "のぞむなら、このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
+				'ja-jp': "のぞむなら、このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
 			},
 		},
 	],

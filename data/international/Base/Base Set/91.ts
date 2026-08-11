@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Bill",
-		fr: "Léo",
-		de: "Bill",
-		it: "Bill"
+		'en-us': "Bill",
+		'fr-fr': "Léo",
+		'de-de': "Bill",
+		'it-it': "Bill"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -15,10 +15,10 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Draw 2 cards.",
-		fr: "Piochez 2 cartes.",
-		de: "Ziehe 2 Karten.",
-		it: "Pesca 2 carte."
+		'en-us': "Draw 2 cards.",
+		'fr-fr': "Piochez 2 cartes.",
+		'de-de': "Ziehe 2 Karten.",
+		'it-it': "Pesca 2 carte."
 	},
 
 	variants: [

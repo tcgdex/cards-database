@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グランブル",
+		'ja-jp': "グランブル",
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "本当は 臆病で 怖がり。 襲われると 必死に 手足を 振って 敵を 追い払おうとする。",
+		'ja-jp': "本当は 臆病で 怖がり。 襲われると 必死に 手足を 振って 敵を 追い払おうとする。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "90+",
 			cost: ["Psychic", "Psychic", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンにダメカンがのっているなら、90ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンにダメカンがのっているなら、90ダメージ追加。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ブルー",
+		'ja-jp': "ブルー",
 	},
 
 	retreat: 2,

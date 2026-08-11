@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Swalot",
-		fr: "Avaltout",
-		de: "Schlukwech"
+		'en-us': "Swalot",
+		'fr-fr': "Avaltout",
+		'de-de': "Schlukwech"
 	},
 
 	illustrator: "Yuka Morii",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gulpin",
-		fr: "Gloupti"
+		'en-us': "Gulpin",
+		'fr-fr': "Gloupti"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Amnesia",
-				fr: "Amnésie",
-				de: "Amnesia"
+				'en-us': "Amnesia",
+				'fr-fr': "Amnésie",
+				'de-de': "Amnesia"
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
-				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire.",
-				de: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn."
+				'en-us': "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
+				'fr-fr': "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire.",
+				'de-de': "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn."
 			},
 			damage: 10,
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swallow Up",
-				fr: "Engloutir",
-				de: "Swallow Up"
+				'en-us': "Swallow Up",
+				'fr-fr': "Engloutir",
+				'de-de': "Swallow Up"
 			},
 			effect: {
-				en: "Before doing damage, count the remaining HP of the Defending Pokémon and Swalot. If the Defending Pokémon has fewer remaining HP than Swalot's, this attack does 50 damage plus 30 more damage.",
-				fr: "Avant d'infliger des dégâts, comptabilisez le nombre de Points de Vie restant au Pokémon Défenseur et à Avaltout. Si le Pokémon Défenseur possède moins de Points de Vie qu'Avaltout, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
-				de: "Before doing damage, count the remaining HP of the Defending Pokémon and Swalot. If the Defending Pokémon has fewer remaining HP than Swalot's, this attack does 50 damage plus 30 more damage."
+				'en-us': "Before doing damage, count the remaining HP of the Defending Pokémon and Swalot. If the Defending Pokémon has fewer remaining HP than Swalot's, this attack does 50 damage plus 30 more damage.",
+				'fr-fr': "Avant d'infliger des dégâts, comptabilisez le nombre de Points de Vie restant au Pokémon Défenseur et à Avaltout. Si le Pokémon Défenseur possède moins de Points de Vie qu'Avaltout, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "Before doing damage, count the remaining HP of the Defending Pokémon and Swalot. If the Defending Pokémon has fewer remaining HP than Swalot's, this attack does 50 damage plus 30 more damage."
 			},
 			damage: "50+",
 

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Electabuzz",
+		'en-us': "Electabuzz",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thundershock",
+				'en-us': "Thundershock",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 10,
 
@@ -43,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunderpunch",
+				'en-us': "Thunderpunch",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage and Electabuzz does 10 damage to itself.",
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage and Electabuzz does 10 damage to itself.",
 			},
 			damage: 30,
 
@@ -63,7 +63,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Normally found near power plants, it can wander away and cause major blackouts in cities.",
+		'en-us': "Normally found near power plants, it can wander away and cause major blackouts in cities.",
 	},
 
 

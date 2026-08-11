@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Snorunt",
-		fr: "Stalgamin",
-		es: "Snorunt",
-		it: "Snorunt",
-		pt: "Snorunt",
-		de: "Schneppke"
+		'en-us': "Snorunt",
+		'fr-fr': "Stalgamin",
+		'es-es': "Snorunt",
+		'it-it': "Snorunt",
+		'pt-br': "Snorunt",
+		'de-de': "Schneppke"
 	},
 
 	rarity: "Illustration rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Ice Shard",
-			fr: "Éclats Glace",
-			es: "Esquirla Helada",
-			it: "Geloscheggia",
-			pt: "Caco de Gelo",
-			de: "Eissplitter"
+			'en-us': "Ice Shard",
+			'fr-fr': "Éclats Glace",
+			'es-es': "Esquirla Helada",
+			'it-it': "Geloscheggia",
+			'pt-br': "Caco de Gelo",
+			'de-de': "Eissplitter"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a {F} Pokémon, this attack does 30 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon {F}, cette attaque inflige 30 dégâts supplémentaires.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon {F}, este ataque hace 30 puntos de daño más.",
-			it: "Se il Pokémon attivo del tuo avversario è un Pokémon {F}, questo attacco infligge 30 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon {F}, este ataque causará 30 pontos de dano a mais.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein {F}-Pokémon ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
+			'en-us': "If your opponent's Active Pokémon is a {F} Pokémon, this attack does 30 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon {F}, cette attaque inflige 30 dégâts supplémentaires.",
+			'es-es': "Si el Pokémon Activo de tu rival es un Pokémon {F}, este ataque hace 30 puntos de daño más.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon {F}, questo attacco infligge 30 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon {F}, este ataque causará 30 pontos de dano a mais.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners ein {F}-Pokémon ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It is said that several Snorunt gather under giant leaves and live together in harmony.",
+		'en-us': "It is said that several Snorunt gather under giant leaves and live together in harmony.",
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Nincada",
-		fr: "Ningale",
-		de: "Nincada"
+		'en-us': "Nincada",
+		'fr-fr': "Ningale",
+		'de-de': "Nincada"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Dig Under",
-				fr: "Terrassement",
-				de: "Dig Under"
+				'en-us': "Dig Under",
+				'fr-fr': "Terrassement",
+				'de-de': "Dig Under"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
-				de: "Choose 1 of your opponent´s Pokémon. this attack does 10 damge to tha Pokémon. This attack´s damage isn´t affacted by Weakness or Resistance."
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				'de-de': "Choose 1 of your opponent´s Pokémon. this attack does 10 damge to tha Pokémon. This attack´s damage isn´t affacted by Weakness or Resistance."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Scratch"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Scratch"
 			},
 
 			damage: 20,

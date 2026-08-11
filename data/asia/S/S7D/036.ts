@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エアームド",
+		'ja-jp': "エアームド",
 		'zh-tw': "盔甲鳥",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "鋼の 鎧を 身に まとう。 重そうに 見えるが 最大 ３００キロの 速度で 飛べるぞ。",
+		'ja-jp': "鋼の 鎧を 身に まとう。 重そうに 見えるが 最大 ３００キロの 速度で 飛べるぞ。",
 		'zh-tw': "全身披著鋼鐵鎧甲。看起來很重，但牠能以最高３００公里的時速飛行。",
 	},
 
@@ -23,19 +23,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "はがねのつばさ",
+				'ja-jp': "はがねのつばさ",
 				'zh-tw': "鋼翼",
 			},
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
 				'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-30」點。",
 			},
 		},
 		{
 			name: {
-				ja: "スライスブレード",
+				'ja-jp': "スライスブレード",
 				'zh-tw': "利刃切割",
 			},
 			damage: 110,

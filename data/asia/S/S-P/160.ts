@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガラル バリヤード",
+		'ja-jp': "ガラル バリヤード",
 		'zh-tw': "冰伊布V",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "足の 裏から 冷気を 出す。 凍らせた 床の 上で １日 タップダンスに 励んでいる。",
+		'ja-jp': "足の 裏から 冷気を 出す。 凍らせた 床の 上で １日 タップダンスに 励んでいる。",
 	},
 
 	stage: "Basic",
@@ -22,7 +22,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "はたく",
+				'ja-jp': "はたく",
 				'zh-tw': "冰霜充能",
 			},
 			damage: 10,
@@ -30,12 +30,12 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "さぐりあてる",
+				'ja-jp': "さぐりあてる",
 				'zh-tw': "凍凝之風",
 			},
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の山札からグッズを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札からグッズを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 	],

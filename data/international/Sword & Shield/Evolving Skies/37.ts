@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Feebas",
-		fr: "Barpau",
-		es: "Feebas",
-		it: "Feebas",
-		pt: "Feebas",
-		de: "Barschwa"
+		'en-us': "Feebas",
+		'fr-fr': "Barpau",
+		'es-es': "Feebas",
+		'it-it': "Feebas",
+		'pt-br': "Feebas",
+		'de-de': "Barschwa"
 	},
 
 	rarity: "Common",
@@ -23,21 +23,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Flail Around",
-			fr: "Fléau Bougeant",
-			es: "Aleteo Frenético",
-			it: "Flagellamento",
-			pt: "Flail Around",
-			de: "Rumrudern"
+			'en-us': "Flail Around",
+			'fr-fr': "Fléau Bougeant",
+			'es-es': "Aleteo Frenético",
+			'it-it': "Flagellamento",
+			'pt-br': "Flail Around",
+			'de-de': "Rumrudern"
 		},
 
 		effect: {
-			en: "Flip 3 coins. This attack does 10 damage for each heads.",
-			fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
-			es: "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
-			it: "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
-			pt: "Flip 3 coins. This attack does 10 damage for each heads.",
-			de: "Wirf 3 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip 3 coins. This attack does 10 damage for each heads.",
+			'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
+			'es-es': "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+			'it-it': "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
+			'pt-br': "Flip 3 coins. This attack does 10 damage for each heads.",
+			'de-de': "Wirf 3 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "10×",
@@ -52,7 +52,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water."
+		'en-us': "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water."
 	},
 
 	dexId: [349],

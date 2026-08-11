@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Vigoroth",
-		fr: "Vigoroth",
-		es: "Vigoroth",
-		it: "Vigoroth",
-		pt: "Vigoroth",
-		de: "Muntier"
+		'en-us': "Vigoroth",
+		'fr-fr': "Vigoroth",
+		'es-es': "Vigoroth",
+		'it-it': "Vigoroth",
+		'pt-br': "Vigoroth",
+		'de-de': "Muntier"
 	},
 
 	rarity: "Uncommon",
@@ -23,33 +23,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Shatter",
-			fr: "Fracas",
-			es: "Fragmentar",
-			it: "Frantumare",
-			pt: "Shatter",
-			de: "Zertrümmern"
+			'en-us': "Shatter",
+			'fr-fr': "Fracas",
+			'es-es': "Fragmentar",
+			'it-it': "Frantumare",
+			'pt-br': "Shatter",
+			'de-de': "Zertrümmern"
 		},
 
 		effect: {
-			en: "Discard a Stadium in play.",
-			fr: "Défaussez un Stade en jeu.",
-			es: "Descarta un Estadio en juego.",
-			it: "Scarta una carta Stadio in gioco.",
-			pt: "Discard a Stadium in play.",
-			de: "Lege 1 Stadionkarte im Spiel auf den Ablagestapel."
+			'en-us': "Discard a Stadium in play.",
+			'fr-fr': "Défaussez un Stade en jeu.",
+			'es-es': "Descarta un Estadio en juego.",
+			'it-it': "Scarta una carta Stadio in gioco.",
+			'pt-br': "Discard a Stadium in play.",
+			'de-de': "Lege 1 Stadionkarte im Spiel auf den Ablagestapel."
 		},
 
 		damage: 20,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Slash",
-			fr: "Tranche",
-			es: "Cuchillada",
-			it: "Lacerazione",
-			pt: "Slash",
-			de: "Schlitzer"
+			'en-us': "Slash",
+			'fr-fr': "Tranche",
+			'es-es': "Cuchillada",
+			'it-it': "Lacerazione",
+			'pt-br': "Slash",
+			'de-de': "Schlitzer"
 		},
 
 		damage: 50,
@@ -65,16 +65,16 @@ const card: Card = {
 	dexId: [288],
 
 	evolveFrom: {
-		en: "Slakoth",
-		fr: "Parecool",
-		es: "Slakoth",
-		it: "Slakoth",
-		pt: "Slakoth",
-		de: "Bummelz"
+		'en-us': "Slakoth",
+		'fr-fr': "Parecool",
+		'es-es': "Slakoth",
+		'it-it': "Slakoth",
+		'pt-br': "Slakoth",
+		'de-de': "Bummelz"
 	},
 
 	description: {
-		en: "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick."
+		'en-us': "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick."
 	},
 
 	regulationMark: "E",

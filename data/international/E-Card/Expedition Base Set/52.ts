@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Magby",
-		fr: "Magby",
-		de: "Magby"
+		'en-us': "Magby",
+		'fr-fr': "Magby",
+		'de-de': "Magby"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -41,14 +41,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Energy Catch",
-				fr: "Attrape-énergie",
-				de: "Energieschnapper"
+				'en-us': "Energy Catch",
+				'fr-fr': "Attrape-énergie",
+				'de-de': "Energieschnapper"
 			},
 			effect: {
-				en: "Flip a coin. If heads, put a basic Energy card from your discard pile into your hand.",
-				fr: "Lancez une pièce. Si c'est face, ajoutez une carte Énergie de votre pile de défausse à votre main.",
-				de: "Wirf eine Münze. Nimm bei 'Kopf' eine Basis-Energiekarte von deinem Ablagestapel auf deine Hand."
+				'en-us': "Flip a coin. If heads, put a basic Energy card from your discard pile into your hand.",
+				'fr-fr': "Lancez une pièce. Si c'est face, ajoutez une carte Énergie de votre pile de défausse à votre main.",
+				'de-de': "Wirf eine Münze. Nimm bei 'Kopf' eine Basis-Energiekarte von deinem Ablagestapel auf deine Hand."
 			},
 
 		},

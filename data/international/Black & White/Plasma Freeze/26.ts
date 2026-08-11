@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Seismitoad",
-		fr: "Crapustule",
-		es: "Seismitoad",
-		it: "Seismitoad",
-		pt: "Seismitoad",
-		de: "Branawarz"
+		'en-us': "Seismitoad",
+		'fr-fr': "Crapustule",
+		'es-es': "Seismitoad",
+		'it-it': "Seismitoad",
+		'pt-br': "Seismitoad",
+		'de-de': "Branawarz"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Palpitoad",
-		fr: "Batracné",
+		'en-us': "Palpitoad",
+		'fr-fr': "Batracné",
 	},
 
 	stage: "Stage2",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Seismic Punch",
-				fr: "Poing Sismique",
+				'en-us': "Seismic Punch",
+				'fr-fr': "Poing Sismique",
 			},
 			effect: {
-				en: "Does 30 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 30 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire). (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "Does 30 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 30 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire). (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 30,
 
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Splashing Turn",
-				fr: "Tour Éclaboussant",
+				'en-us': "Splashing Turn",
+				'fr-fr': "Tour Éclaboussant",
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
 			},
 			damage: 80,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "By putting power into its bumps, it creates vibrations and increases the power of its punches.",
+		'en-us': "By putting power into its bumps, it creates vibrations and increases the power of its punches.",
 	},
 
 	thirdParty: {

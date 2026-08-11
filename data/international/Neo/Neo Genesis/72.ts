@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Shuckle",
-		fr: "Caratroc",
-		de: "Pottrott"
+		'en-us': "Shuckle",
+		'fr-fr': "Caratroc",
+		'de-de': "Pottrott"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Withdraw",
-				fr: "Repli",
-				de: "Withdraw"
+				'en-us': "Withdraw",
+				'fr-fr': "Repli",
+				'de-de': "Withdraw"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Shuckle during your opponent's next turn. (Any other effects of attacks still happen.)",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Caratroc pendant le prochain tour de votre adversaire (Tous les autres effets ou attaques sont toujours valides.)",
-				de: "Flip a coin. If heads, prevent all damage done to Shuckle during your opponent's next turn. (Any other effects of attacks still happen.)"
+				'en-us': "Flip a coin. If heads, prevent all damage done to Shuckle during your opponent's next turn. (Any other effects of attacks still happen.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Caratroc pendant le prochain tour de votre adversaire (Tous les autres effets ou attaques sont toujours valides.)",
+				'de-de': "Flip a coin. If heads, prevent all damage done to Shuckle during your opponent's next turn. (Any other effects of attacks still happen.)"
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Wrap",
-				fr: "Ligotage",
-				de: "Wrap"
+				'en-us': "Wrap",
+				'fr-fr': "Ligotage",
+				'de-de': "Wrap"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 
@@ -72,8 +72,8 @@ const card: Card = {
 
 
 	description: {
-		en: "The Berries it stores in its vaselike shell decompose and become a gooey liquid.",
-		fr: "Les baies qu'il transporte dans sa coquille en forme de vase se décomposent et deviennent un liquide gluant."
+		'en-us': "The Berries it stores in its vaselike shell decompose and become a gooey liquid.",
+		'fr-fr': "Les baies qu'il transporte dans sa coquille en forme de vase se décomposent et deviennent un liquide gluant."
 	},
 
 

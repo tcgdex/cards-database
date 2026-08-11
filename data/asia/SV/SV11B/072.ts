@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オノノクス",
+		'ja-jp': "オノノクス",
 	},
 
 	illustrator: "Taiga Kasai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "優しい 性格だが 縄張りを 荒らす 者には 容赦しない。 鉄を 切る キバで 挑みかかる。",
+		'ja-jp': "優しい 性格だが 縄張りを 荒らす 者には 容赦しない。 鉄を 切る キバで 挑みかかる。",
 	},
 
 	stage: "Stage2",
@@ -24,14 +24,14 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが進化ポケモンなら、80ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが進化ポケモンなら、80ダメージ追加。",
 			},
 		},
 		{
 			name: { ja: "アックスボンバー" },
 			cost: ["Fighting", "Metal", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンがたねポケモンなら、そのポケモンをきぜつさせる。",
+				'ja-jp': "相手のバトルポケモンがたねポケモンなら、そのポケモンをきぜつさせる。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "オノンド",
+		'ja-jp': "オノンド",
 	},
 
 	retreat: 3,

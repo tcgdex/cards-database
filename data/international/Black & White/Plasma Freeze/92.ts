@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Noctowl",
-		fr: "Noarfang",
-		es: "Noctowl",
-		it: "Noctowl",
-		pt: "Noctowl",
-		de: "Noctuh"
+		'en-us': "Noctowl",
+		'fr-fr': "Noarfang",
+		'es-es': "Noctowl",
+		'it-it': "Noctowl",
+		'pt-br': "Noctowl",
+		'de-de': "Noctuh"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Hoothoot",
-		fr: "Hoothoot",
+		'en-us': "Hoothoot",
+		'fr-fr': "Hoothoot",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Powerful Vision",
-				fr: "Vision Puissante",
+				'en-us': "Powerful Vision",
+				'fr-fr': "Vision Puissante",
 			},
 			effect: {
-				en: "Does 10 damage times the number of cards in your opponent's hand.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de cartes dans la main de votre adversaire.",
+				'en-us': "Does 10 damage times the number of cards in your opponent's hand.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de cartes dans la main de votre adversaire.",
 			},
 			damage: 10,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fly",
-				fr: "Vol",
+				'en-us': "Fly",
+				'fr-fr': "Vol",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
+				'en-us': "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
 			},
 			damage: 50,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
+		'en-us': "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
 	},
 
 	thirdParty: {

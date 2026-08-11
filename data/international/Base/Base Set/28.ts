@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Growlithe",
-		fr: "Caninos",
-		de: "Fukano",
-		it: "Growlithe"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos",
+		'de-de': "Fukano",
+		'it-it': "Growlithe"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare",
-				fr: "Intimidation",
-				de: "Flackern",
-				it: "Fiammata"
+				'en-us': "Flare",
+				'fr-fr': "Intimidation",
+				'de-de': "Flackern",
+				'it-it': "Fiammata"
 			},
 
 			damage: 20,
@@ -54,9 +54,9 @@ const card: Card = {
 
 
 	description: {
-		en: "Very protective of its territory. It will bark and bite to repel intruders from its space.",
-		fr: "Pour protéger son territoire, il aboie et mord jusqu'à ce que les intrus s'enfuient.",
-		it: "Difende con tenacia il suo territorio. Abbaia e morde per cacciare gli intrusi che osano avvicinarsi. LIV 18 N.58"
+		'en-us': "Very protective of its territory. It will bark and bite to repel intruders from its space.",
+		'fr-fr': "Pour protéger son territoire, il aboie et mord jusqu'à ce que les intrus s'enfuient.",
+		'it-it': "Difende con tenacia il suo territorio. Abbaia e morde per cacciare gli intrusi che osano avvicinarsi. LIV 18 N.58"
 	},
 
 	variants: [

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Lampent",
-		fr: "Mélancolux",
-		es: "Lampent",
-		it: "Lampent",
-		pt: "Lampent",
-		de: "Laternecto"
+		'en-us': "Lampent",
+		'fr-fr': "Mélancolux",
+		'es-es': "Lampent",
+		'it-it': "Lampent",
+		'pt-br': "Lampent",
+		'de-de': "Laternecto"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Litwick",
-		fr: "Funécire",
+		'en-us': "Litwick",
+		'fr-fr': "Funécire",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fireworks",
-				fr: "Feu d’Artifice",
-				es: "Fuegos Artificiales",
-				it: "Fuochi d’Artificio",
-				pt: "Fogos de Artifício",
-				de: "Feuerwerk"
+				'en-us': "Fireworks",
+				'fr-fr': "Feu d’Artifice",
+				'es-es': "Fuegos Artificiales",
+				'it-it': "Fuochi d’Artificio",
+				'pt-br': "Fogos de Artifício",
+				'de-de': "Feuerwerk"
 			},
 			effect: {
-				en: "Discard an Energy from this Pokémon.",
-				fr: "Défaussez une Énergie de ce Pokémon.",
-				es: "Descarta 1 Energía de este Pokémon.",
-				it: "Scarta un’Energia assegnata a questo Pokémon.",
-				pt: "Descarte 1 Energia deste Pokémon.",
-				de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard an Energy from this Pokémon.",
+				'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+				'es-es': "Descarta 1 Energía de este Pokémon.",
+				'it-it': "Scarta un’Energia assegnata a questo Pokémon.",
+				'pt-br': "Descarte 1 Energia deste Pokémon.",
+				'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 40,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The spirits it absorbs fuel its baleful fire. It hangs around hospitals waiting for people to pass on.",
+		'en-us': "The spirits it absorbs fuel its baleful fire. It hangs around hospitals waiting for people to pass on.",
 	},
 
 	thirdParty: {

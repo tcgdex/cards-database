@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モジャンボ"
+		'ja-jp': "モジャンボ"
 	},
 	illustrator: "REND",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Grass"],
 	description: {
-		ja: "暖かい土地で暮らすものほど、ツルの伸びが早い。伸びると自ら切って短くする。"
+		'ja-jp': "暖かい土地で暮らすものほど、ツルの伸びが早い。伸びると自ら切って短くする。"
 	},
 	stage: "Stage1",
 	variants: [
@@ -25,24 +25,24 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モンジャラ"
+		'ja-jp': "モンジャラ"
 	},
 	attacks: [{
 		name: {
-			ja: "すいとる"
+			'ja-jp': "すいとる"
 		},
 		damage: 30,
 		effect: {
-			ja: "このポケモンのHPを「30」回復する。"
+			'ja-jp': "このポケモンのHPを「30」回復する。"
 		},
 		cost: ["Grass", "Colorless"]
 	}, {
 		name: {
-			ja: "ムキムキウィップ"
+			'ja-jp': "ムキムキウィップ"
 		},
 		damage: "120+",
 		effect: {
-			ja: "このワザを使うためのエネルギーより、2個多くのエネルギーがついているなら、140ダメージ追加。"
+			'ja-jp': "このワザを使うためのエネルギーより、2個多くのエネルギーがついているなら、140ダメージ追加。"
 		},
 		cost: ["Grass", "Grass", "Colorless", "Colorless"]
 	}],

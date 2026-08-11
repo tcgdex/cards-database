@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Blastoise EX",
-		fr: "Tortank-EX",
+		'en-us': "Blastoise EX",
+		'fr-fr': "Tortank-EX",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Whirlpool",
-				fr: "Hyper Tourbillon",
+				'en-us': "Hyper Whirlpool",
+				'fr-fr': "Hyper Tourbillon",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				'en-us': "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 60,
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Press",
-				fr: "Hydro Presse",
+				'en-us': "Hydro Press",
+				'fr-fr': "Hydro Presse",
 			},
 			effect: {
-				en: "This attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 20 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "This attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 20 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 100,
 

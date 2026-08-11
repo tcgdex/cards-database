@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2015'
 
 const card: Card = {
@@ -7,8 +7,8 @@ const card: Card = {
 	],
 	set: Set,
 	name: {
-		en: "Skitty",
-		fr: "Skitty",
+		'en-us': "Skitty",
+		'fr-fr': "Skitty",
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -23,12 +23,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Charm",
-				fr: "Charme",
+				'en-us': "Charm",
+				'fr-fr': "Charme",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying weakness and resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance).",
+				'en-us': "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying weakness and resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance).",
 			},
 		},
 		{
@@ -37,8 +37,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Smack",
-				fr: "Coup de Queue",
+				'en-us': "Tail Smack",
+				'fr-fr': "Coup de Queue",
 			},
 			damage: "20",
 		},

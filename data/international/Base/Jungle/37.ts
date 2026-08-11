@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Jungle'
 
 const card: Card = {
 	name: {
-		en: "Gloom",
-		fr: "Ortide",
-		de: "Duflor"
+		'en-us': "Gloom",
+		'fr-fr': "Ortide",
+		'de-de': "Duflor"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Oddish",
-		fr: "Mystherbe"
+		'en-us': "Oddish",
+		'fr-fr': "Mystherbe"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poisonpowder",
-				fr: "Poudre toxik",
-				de: "Giftpuder"
+				'en-us': "Poisonpowder",
+				'fr-fr': "Poudre toxik",
+				'de-de': "Giftpuder"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das verteidigende Pokémon ist jetzt vergiftet."
 			}
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Foul Odor",
-				fr: "Odeur fétide",
-				de: "Fäulnisgeruch"
+				'en-us': "Foul Odor",
+				'fr-fr': "Odeur fétide",
+				'de-de': "Fäulnisgeruch"
 			},
 			effect: {
-				en: "Both the Defending Pokémon and Gloom are now Confused (after doing damage).",
-				fr: "Le Pokémon Défenseur et Ortide sont maintenant tous deux Confus (après le calcul des dégâts).",
-				de: "Sowohl das verteidigende Pokémon als auch Duflor sind jetzt verwirrt (nach der Schadensverteilung)."
+				'en-us': "Both the Defending Pokémon and Gloom are now Confused (after doing damage).",
+				'fr-fr': "Le Pokémon Défenseur et Ortide sont maintenant tous deux Confus (après le calcul des dégâts).",
+				'de-de': "Sowohl das verteidigende Pokémon als auch Duflor sind jetzt verwirrt (nach der Schadensverteilung)."
 			},
 			damage: 20,
 
@@ -77,8 +77,8 @@ const card: Card = {
 
 
 	description: {
-		en: "The fluid that oozes from its mouth isn't drool; it is a nectar that is used to attract prey.",
-		fr: "Le liquide qui s'écoule de sa bouche est comestible. Il sert à appâter sa proie."
+		'en-us': "The fluid that oozes from its mouth isn't drool; it is a nectar that is used to attract prey.",
+		'fr-fr': "Le liquide qui s'écoule de sa bouche est comestible. Il sert à appâter sa proie."
 	},
 
 

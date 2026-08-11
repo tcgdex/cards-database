@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Virevorreur",
-		en: "Brambleghast",
-		es: "Brambleghast",
-		it: "Brambleghast",
-		pt: "Brambleghast",
-		de: "Horrerba"
+		'fr-fr': "Virevorreur",
+		'en-us': "Brambleghast",
+		'es-es': "Brambleghast",
+		'it-it': "Brambleghast",
+		'pt-br': "Brambleghast",
+		'de-de': "Horrerba"
   },
   illustrator: "KEIICHIRO ITO",
   rarity: "Two Diamond",
@@ -18,12 +18,12 @@ const card: Card = {
   types: ["Grass"],
   dexId: [947],
   evolveFrom: {
-		fr: "Virovent",
-		en: "Bramblin",
-		es: "Bramblin",
-		it: "Bramblin",
-		pt: "Bramblin",
-		de: "Weherba"
+		'fr-fr': "Virovent",
+		'en-us': "Bramblin",
+		'es-es': "Bramblin",
+		'it-it': "Bramblin",
+		'pt-br': "Bramblin",
+		'de-de': "Weherba"
   },
   description: {
     en: "Brambleghast wanders around arid regions. On rare occasions, mass outbreaks of these Pokémon will bury an entire town.",
@@ -32,22 +32,22 @@ const card: Card = {
   attacks: [
     {
       name: {
-				en: "Continuous Tumble",
-				fr: "Roulade Continue",
-				es: "Avalancha Continua",
-				it: "Capriole",
-				pt: "Tombo Contínuo",
-				de: "Dauerrollen"
+				'en-us': "Continuous Tumble",
+				'fr-fr': "Roulade Continue",
+				'es-es': "Avalancha Continua",
+				'it-it': "Capriole",
+				'pt-br': "Tombo Contínuo",
+				'de-de': "Dauerrollen"
       },
       damage: "60×",
       cost: ["Grass", "Colorless"],
       effect: {
         en: "Flip a coin until you get tails. This attack does 60 damage for each heads.",
-				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 60 dégâts pour chaque côté face.",
-				es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 60 puntos de daño por cada cara.",
-				it: "Lancia una moneta finché non esce croce. Questo attacco infligge 60 danni ogni volta che esce testa.",
-				pt: "Jogue 1 moeda até sair coroa. Este ataque causa 60 pontos de dano para cada cara.",
-				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 60 Schadenspunkte pro Kopf zu."
+				'fr-fr': "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 60 dégâts pour chaque côté face.",
+				'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 60 puntos de daño por cada cara.",
+				'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 60 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 1 moeda até sair coroa. Este ataque causa 60 pontos de dano para cada cara.",
+				'de-de': "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 60 Schadenspunkte pro Kopf zu."
       },
     },
   ],

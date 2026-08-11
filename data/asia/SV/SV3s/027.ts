@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Snorunt"
+		'id-id': "Snorunt"
 	},
 
 	illustrator: "satoma",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Dikabarkan beberapa Snorunt berkumpul dan hidup bersama di bawah daun besar."
+		'id-id': "Dikabarkan beberapa Snorunt berkumpul dan hidup bersama di bawah daun besar."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Beling Es"
+			'id-id': "Beling Es"
 		},
 
 		effect: {
-			id: "Jika Pokémon Bertarung lawan adalah Pokémon {Petarung}, kerusakan yang diberikan bertambah sejumlah 30."
+			'id-id': "Jika Pokémon Bertarung lawan adalah Pokémon {Petarung}, kerusakan yang diberikan bertambah sejumlah 30."
 		},
 
 		damage: "10+",

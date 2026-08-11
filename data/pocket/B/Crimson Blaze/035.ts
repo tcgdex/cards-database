@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [682],
 
 	name: {
-		en: "Spritzee"
+		'en-us': "Spritzee"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "The scent its body gives off enraptures those\nwho smell it. Noble ladies had no shortage of\nlove for Spritzee."
+		'en-us': "The scent its body gives off enraptures those\nwho smell it. Noble ladies had no shortage of\nlove for Spritzee."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Sweet Scent"
+			'en-us': "Sweet Scent"
 		},
 
 		cost: ["Psychic"],
 
 		effect: {
-			en: "Heal 20 damage from 1 of your Pokémon."
+			'en-us': "Heal 20 damage from 1 of your Pokémon."
 		}
 	}],
 

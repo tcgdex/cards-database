@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Barboach",
-		fr: "Barloche",
-		de: "Schmerbe"
+		'en-us': "Barboach",
+		'fr-fr': "Barloche",
+		'de-de': "Schmerbe"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Waterfall",
-				fr: "Cascade",
-				de: "Kaskade"
+				'en-us': "Waterfall",
+				'fr-fr': "Cascade",
+				'de-de': "Kaskade"
 			},
 
 			damage: 10,
@@ -44,14 +44,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Flail",
-				fr: "Fléau",
-				de: "Dreschflegel"
+				'en-us': "Flail",
+				'fr-fr': "Fléau",
+				'de-de': "Dreschflegel"
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on Barboach.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Barloche.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Schmerbe zu."
+				'en-us': "Does 10 damage times the number of damage counters on Barboach.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Barloche.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Schmerbe zu."
 			},
 			damage: "10x",
 

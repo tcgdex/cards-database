@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Flaaffy",
-		fr: "Lainergie",
-		es: "Flaaffy",
-		it: "Flaaffy",
-		pt: "Flaaffy",
-		de: "Waaty"
+		'en-us': "Flaaffy",
+		'fr-fr': "Lainergie",
+		'es-es': "Flaaffy",
+		'it-it': "Flaaffy",
+		'pt-br': "Flaaffy",
+		'de-de': "Waaty"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mareep",
-		fr: "Wattouat",
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Electric Punch",
-				fr: "Poing Électrique",
-				es: "Puño Eléctrico",
-				it: "Pugno Elettrico",
-				pt: "Murro Elétrico",
-				de: "Elektroschlag"
+				'en-us': "Electric Punch",
+				'fr-fr': "Poing Électrique",
+				'es-es': "Puño Eléctrico",
+				'it-it': "Pugno Elettrico",
+				'pt-br': "Murro Elétrico",
+				'de-de': "Elektroschlag"
 			},
 
 			damage: 30,
@@ -56,20 +56,20 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Shock Bolt",
-				fr: "Choc’Éclair",
-				es: "Rayo Impacto",
-				it: "Lamposhock",
-				pt: "Raio de Choque",
-				de: "Schock-Blitz"
+				'en-us': "Shock Bolt",
+				'fr-fr': "Choc’Éclair",
+				'es-es': "Rayo Impacto",
+				'it-it': "Lamposhock",
+				'pt-br': "Raio de Choque",
+				'de-de': "Schock-Blitz"
 			},
 			effect: {
-				en: "Discard all Lightning Energy from this Pokémon.",
-				fr: "Défaussez toute l’Énergie Lightning de ce Pokémon.",
-				es: "Descarta todas las Energías Lightning de este Pokémon.",
-				it: "Scarta tutte le Energie Lightning assegnate a questo Pokémon.",
-				pt: "Descarte todas as Energias Lightning deste Pokémon.",
-				de: "Lege alle Lightning-Energien von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard all Lightning Energy from this Pokémon.",
+				'fr-fr': "Défaussez toute l’Énergie Lightning de ce Pokémon.",
+				'es-es': "Descarta todas las Energías Lightning de este Pokémon.",
+				'it-it': "Scarta tutte le Energie Lightning assegnate a questo Pokémon.",
+				'pt-br': "Descarte todas as Energias Lightning deste Pokémon.",
+				'de-de': "Lege alle Lightning-Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 60,
 
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "If its coat becomes fully charged with electricity, its tail lights up. It fires hair that zaps on impact.",
+		'en-us': "If its coat becomes fully charged with electricity, its tail lights up. It fires hair that zaps on impact.",
 	},
 
 	thirdParty: {

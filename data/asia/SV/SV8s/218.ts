@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Tatsugiri ex"
+		'id-id': "Tatsugiri ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,22 +17,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Pompa Mendadak"
+			'id-id': "Pompa Mendadak"
 		},
 
 		effect: {
-			id: "Kerusakan akibat serangan ini tidak terpengaruh oleh efek yang sedang dialami Pokémon Bertarung lawan."
+			'id-id': "Kerusakan akibat serangan ini tidak terpengaruh oleh efek yang sedang dialami Pokémon Bertarung lawan."
 		},
 
 		damage: 100,
 		cost: ["Fire", "Water"]
 	}, {
 		name: {
-			id: "Cinnabar Lure"
+			'id-id': "Cinnabar Lure"
 		},
 
 		effect: {
-			id: "Lihat 10 kartu dari atas Deck sendiri, pilih sesukanya Pokémon di antaranya, lalu masukkan ke Cadangan. Kocok kembali sisa kartu ke Deck."
+			'id-id': "Lihat 10 kartu dari atas Deck sendiri, pilih sesukanya Pokémon di antaranya, lalu masukkan ke Cadangan. Kocok kembali sisa kartu ke Deck."
 		},
 
 		cost: ["Fire", "Water", "Darkness"]

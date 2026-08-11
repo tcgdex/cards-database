@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Flygon",
-		fr: "Libégon",
-		es: "Flygon",
-		it: "Flygon",
-		pt: "Flygon",
-		de: "Libelldra"
+		'en-us': "Flygon",
+		'fr-fr': "Libégon",
+		'es-es': "Flygon",
+		'it-it': "Flygon",
+		'pt-br': "Flygon",
+		'de-de': "Libelldra"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Vibrava",
-		fr: "Vibraninf",
-		es: "Vibrava",
-		it: "Vibrava",
-		pt: "Vibrava",
-		de: "Vibrava"
+		'en-us': "Vibrava",
+		'fr-fr': "Vibraninf",
+		'es-es': "Vibrava",
+		'it-it': "Vibrava",
+		'pt-br': "Vibrava",
+		'de-de': "Vibrava"
 	},
 
 	stage: "Stage2",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Desert Pillar",
-			fr: "Pilier du Désert",
-			es: "Columna del Desierto",
-			it: "Pilastro del Deserto",
-			pt: "Coluna do Deserto",
-			de: "Wüstensäule"
+			'en-us': "Desert Pillar",
+			'fr-fr': "Pilier du Désert",
+			'es-es': "Columna del Desierto",
+			'it-it': "Pilastro del Deserto",
+			'pt-br': "Coluna do Deserto",
+			'de-de': "Wüstensäule"
 		},
 
 		effect: {
-			en: "This attack does 50 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
-			fr: "Cette attaque inflige 50 dégâts pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
-			es: "Este ataque hace 50 puntos de daño por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
-			it: "Questo attacco infligge 50 danni per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
-			pt: "Este ataque causa 50 pontos de dano para cada Colorless no custo de Recuo do Pokémon Ativo do seu oponente.",
-			de: "Diese Attacke fügt für jedes Colorless in den Rückzugskosten des Aktiven Pokémon deines Gegners 50 Schadenspunkte zu."
+			'en-us': "This attack does 50 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
+			'fr-fr': "Cette attaque inflige 50 dégâts pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
+			'es-es': "Este ataque hace 50 puntos de daño por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
+			'it-it': "Questo attacco infligge 50 danni per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
+			'pt-br': "Este ataque causa 50 pontos de dano para cada Colorless no custo de Recuo do Pokémon Ativo do seu oponente.",
+			'de-de': "Diese Attacke fügt für jedes Colorless in den Rückzugskosten des Aktiven Pokémon deines Gegners 50 Schadenspunkte zu."
 		},
 
 		damage: "50×"
@@ -57,12 +57,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Blasting Wind",
-			fr: "Vent Impitoyable",
-			es: "Vientos Explosivos",
-			it: "Vento Distruttivo",
-			pt: "Vendaval Avassalador",
-			de: "Peitschender Wind"
+			'en-us': "Blasting Wind",
+			'fr-fr': "Vent Impitoyable",
+			'es-es': "Vientos Explosivos",
+			'it-it': "Vento Distruttivo",
+			'pt-br': "Vendaval Avassalador",
+			'de-de': "Peitschender Wind"
 		},
 
 		damage: 110
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon hides in the heart of sandstorms it creates and seldom appears where people can see it.",
+		'en-us': "This Pokémon hides in the heart of sandstorms it creates and seldom appears where people can see it.",
 	},
 
 	variants: [

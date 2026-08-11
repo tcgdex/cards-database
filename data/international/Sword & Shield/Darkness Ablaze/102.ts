@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [167],
 
 	name: {
-		en: "Spinarak",
-		fr: "Mimigal",
-		es: "Spinarak",
-		it: "Spinarak",
-		pt: "Spinarak",
-		de: "Webarak"
+		'en-us': "Spinarak",
+		'fr-fr': "Mimigal",
+		'es-es': "Spinarak",
+		'it-it': "Spinarak",
+		'pt-br': "Spinarak",
+		'de-de': "Webarak"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Hang Down",
-				fr: "Suspension",
-				es: "Prender",
-				it: "Tirar Giù",
-				pt: "Dependurar",
-				de: "Herunterhängen"
+				'en-us': "Hang Down",
+				'fr-fr': "Suspension",
+				'es-es': "Prender",
+				'it-it': "Tirar Giù",
+				'pt-br': "Dependurar",
+				'de-de': "Herunterhängen"
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sting",
-				fr: "Dard",
-				es: "Aguijonazo",
-				it: "Puntura",
-				pt: "Ferroada",
-				de: "Einstich"
+				'en-us': "Sting",
+				'fr-fr': "Dard",
+				'es-es': "Aguijonazo",
+				'it-it': "Puntura",
+				'pt-br': "Ferroada",
+				'de-de': "Einstich"
 			},
 
 			damage: 20,
@@ -73,7 +73,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web."
+		'en-us': "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web."
 	},
 
 	variants: [

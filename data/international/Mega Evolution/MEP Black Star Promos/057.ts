@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mudkip",
-		fr: "Gobou",
-		es: "Mudkip",
-		it: "Mudkip",
-		pt: "Mudkip",
-		de: "Hydropi"
+		'en-us': "Mudkip",
+		'fr-fr': "Gobou",
+		'es-es': "Mudkip",
+		'it-it': "Mudkip",
+		'pt-br': "Mudkip",
+		'de-de': "Hydropi"
 	},
 
 	illustrator: "Saboteri",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			en: "Mud-Slap",
-			fr: "Coud'Boue",
-			es: "Bofetón Lodo",
-			it: "Fangosberla",
-			pt: "Tapa de Lama",
-			de: "Lehmschelle"
+			'en-us': "Mud-Slap",
+			'fr-fr': "Coud'Boue",
+			'es-es': "Bofetón Lodo",
+			'it-it': "Fangosberla",
+			'pt-br': "Tapa de Lama",
+			'de-de': "Lehmschelle"
 		},
 
 		damage: 40

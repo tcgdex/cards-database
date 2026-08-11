@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Togepi",
-		fr: "Togepi",
-		es: "Togepi",
-		it: "Togepi",
-		pt: "Togepi",
-		de: "Togepi"
+		'en-us': "Togepi",
+		'fr-fr': "Togepi",
+		'es-es': "Togepi",
+		'it-it': "Togepi",
+		'pt-br': "Togepi",
+		'de-de': "Togepi"
 	},
 
 	illustrator: "HiRON",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sweet Kiss",
-				fr: "Doux Baiser",
-				es: "Beso Dulce",
-				it: "Dolcebacio",
-				pt: "Beijo Doce",
-				de: "Bitterkuss"
+				'en-us': "Sweet Kiss",
+				'fr-fr': "Doux Baiser",
+				'es-es': "Beso Dulce",
+				'it-it': "Dolcebacio",
+				'pt-br': "Beijo Doce",
+				'de-de': "Bitterkuss"
 			},
 			effect: {
-				en: "Your opponent draws a card.",
-				fr: "Votre adversaire pioche une carte.",
-				es: "Tu rival roba 1 carta.",
-				it: "Il tuo avversario pesca una carta.",
-				pt: "Seu oponente compra um card.",
-				de: "Dein Gegner zieht 1 Karte."
+				'en-us': "Your opponent draws a card.",
+				'fr-fr': "Votre adversaire pioche une carte.",
+				'es-es': "Tu rival roba 1 carta.",
+				'it-it': "Il tuo avversario pesca una carta.",
+				'pt-br': "Seu oponente compra um card.",
+				'de-de': "Dein Gegner zieht 1 Karte."
 			},
 			damage: 10,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up.",
+		'en-us': "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up.",
 	},
 
 	thirdParty: {

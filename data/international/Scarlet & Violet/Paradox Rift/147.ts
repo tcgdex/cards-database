@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Miltank",
-		fr: "Écrémeuh",
-		es: "Miltank",
-		it: "Miltank",
-		pt: "Miltank",
-		de: "Miltank"
+		'en-us': "Miltank",
+		'fr-fr': "Écrémeuh",
+		'es-es': "Miltank",
+		'it-it': "Miltank",
+		'pt-br': "Miltank",
+		'de-de': "Miltank"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Lively Tackle",
-			fr: "Charge Enjouée",
-			es: "Placaje Animado",
-			it: "Vispazione",
-			pt: "Investida Animada",
-			de: "Aufpäppelnder Tackle"
+			'en-us': "Lively Tackle",
+			'fr-fr': "Charge Enjouée",
+			'es-es': "Placaje Animado",
+			'it-it': "Vispazione",
+			'pt-br': "Investida Animada",
+			'de-de': "Aufpäppelnder Tackle"
 		},
 
 		effect: {
-			en: "If this Pokémon was healed during this turn, this attack does 90 more damage.",
-			fr: "Si ce Pokémon a été soigné pendant ce tour, cette attaque inflige 90 dégâts supplémentaires.",
-			es: "Si este Pokémon ha sido curado durante este turno, este ataque hace 90 puntos de daño más.",
-			it: "Se questo Pokémon è stato curato durante questo turno, questo attacco infligge 90 danni in più.",
-			pt: "Se este Pokémon tiver sido curado durante este turno, este ataque causará 90 pontos de dano a mais.",
-			de: "Wenn dieses Pokémon während dieses Zuges geheilt wurde, fügt diese Attacke 90 Schadenspunkte mehr zu."
+			'en-us': "If this Pokémon was healed during this turn, this attack does 90 more damage.",
+			'fr-fr': "Si ce Pokémon a été soigné pendant ce tour, cette attaque inflige 90 dégâts supplémentaires.",
+			'es-es': "Si este Pokémon ha sido curado durante este turno, este ataque hace 90 puntos de daño más.",
+			'it-it': "Se questo Pokémon è stato curato durante questo turno, questo attacco infligge 90 danni in più.",
+			'pt-br': "Se este Pokémon tiver sido curado durante este turno, este ataque causará 90 pontos de dano a mais.",
+			'de-de': "Wenn dieses Pokémon während dieses Zuges geheilt wurde, fügt diese Attacke 90 Schadenspunkte mehr zu."
 		},
 
 		damage: "60+"
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "This Pokémon needs to be milked every day, or else it will fall ill. The flavor of Miltank milk changes with the seasons.",
+		'en-us': "This Pokémon needs to be milked every day, or else it will fall ill. The flavor of Miltank milk changes with the seasons.",
 	},
 
 	variants: [

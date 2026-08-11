@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Pikachu"
+		'en-us': "Pikachu"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -28,10 +28,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Spark"
+				'en-us': "Spark"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 20,
 
@@ -48,7 +48,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When several of these Pokémon gather, their electricity can build and cause lightning storms."
+		'en-us': "When several of these Pokémon gather, their electricity can build and cause lightning storms."
 	},
 
 	variants: [

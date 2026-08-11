@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Drowzee",
-		fr: "Soporifik",
-		de: "Traumato"
+		'en-us': "Drowzee",
+		'fr-fr': "Soporifik",
+		'de-de': "Traumato"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Disable",
-				fr: "Entrave",
-				de: "Disable"
+				'en-us': "Disable",
+				'fr-fr': "Entrave",
+				'de-de': "Disable"
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
-				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Il ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire.",
-				de: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn."
+				'en-us': "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
+				'fr-fr': "Choisissez 1 des attaques du Pokémon Défenseur. Il ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire.",
+				'de-de': "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Headbutt"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Headbutt"
 			},
 
 			damage: 20,

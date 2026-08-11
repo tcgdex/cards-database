@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チュリネ",
+		'ja-jp': "チュリネ",
 		'zh-tw': "百合根娃娃",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "頭の 葉は 薬として 重宝されたり。 天日で 乾かし 煎じて 飲むと 苦けれども 疲労回復に 効果抜群。",
+		'ja-jp': "頭の 葉は 薬として 重宝されたり。 天日で 乾かし 煎じて 飲むと 苦けれども 疲労回復に 効果抜群。",
 		'zh-tw': "頭上的葉片是人們愛用的藥材。在太陽下曬乾後煎煮服用，雖然味苦但能有效地消除疲勞。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶつかる",
+				'ja-jp': "ぶつかる",
 				'zh-tw': "衝撞",
 			},
 			damage: 10,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "はねまわる",
+				'ja-jp': "はねまわる",
 				'zh-tw': "活蹦亂跳",
 			},
 			damage: 20,

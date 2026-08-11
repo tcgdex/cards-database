@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イイネイヌ",
+		'ja-jp': "イイネイヌ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "すぐ 頭に 血が 上ってしまう 荒くれもの。 首の 鎖を 振り回し なんでも 叩き潰す。",
+		'ja-jp': "すぐ 頭に 血が 上ってしまう 荒くれもの。 首の 鎖を 振り回し なんでも 叩き潰す。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "前の相手の番に、相手がとったサイドの枚数×60ダメージ追加。",
+				'ja-jp': "前の相手の番に、相手がとったサイドの枚数×60ダメージ追加。",
 			},
 		},
 	],

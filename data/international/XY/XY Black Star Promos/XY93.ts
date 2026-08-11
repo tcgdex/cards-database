@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Celebi",
-		fr: "Celebi",
+		'en-us': "Celebi",
+		'fr-fr': "Celebi",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Leap Through Time",
-				fr: "Bond Temporel"
+				'en-us': "Leap Through Time",
+				'fr-fr': "Bond Temporel"
 			},
 			effect: {
-				en: "When this Pokémon is Knocked Out, flip a coin. If heads, your opponent can't take a Prize card. Shuffle this Pokémon and all cards attached to it into your deck.",
-				fr: "Lorsque ce Pokémon est mis K.O., lancez une pièce. Si c'est face, mélangez ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck, et votre adversaire ne peut pas récupérer de carte Récompense pour cette carte."
+				'en-us': "When this Pokémon is Knocked Out, flip a coin. If heads, your opponent can't take a Prize card. Shuffle this Pokémon and all cards attached to it into your deck.",
+				'fr-fr': "Lorsque ce Pokémon est mis K.O., lancez une pièce. Si c'est face, mélangez ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck, et votre adversaire ne peut pas récupérer de carte Récompense pour cette carte."
 			},
 		},
 	],
@@ -44,12 +44,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sparkle Mine",
-				fr: "Stop Θ",
+				'en-us': "Sparkle Mine",
+				'fr-fr': "Stop Θ",
 			},
 			effect: {
-				en: "Put 1 damage counter on each of your opponent's Pokémon.",
-				fr: "Placez 1 marqueur de dégâts sur chacun des Pokémon de votre adversaire."
+				'en-us': "Put 1 damage counter on each of your opponent's Pokémon.",
+				'fr-fr': "Placez 1 marqueur de dégâts sur chacun des Pokémon de votre adversaire."
 			},
 
 		},
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has the power to travel across time, but it is said to appear only in peaceful times.",
+		'en-us': "It has the power to travel across time, but it is said to appear only in peaceful times.",
 	},
 
 	thirdParty: {

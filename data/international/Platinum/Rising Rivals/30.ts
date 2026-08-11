@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Nidoqueen",
-		fr: "Nidoqueen Niv. 54",
-		de: "Nidoqueen"
+		'en-us': "Nidoqueen",
+		'fr-fr': "Nidoqueen Niv. 54",
+		'de-de': "Nidoqueen"
 	},
 
 	illustrator: "Midori Harada",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidorina",
-		fr: "Nidorina"
+		'en-us': "Nidorina",
+		'fr-fr': "Nidorina"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Maternal Comfort",
-				fr: "Réconfort maternel",
-				de: "Mütterlicher Trost"
+				'en-us': "Maternal Comfort",
+				'fr-fr': "Réconfort maternel",
+				'de-de': "Mütterlicher Trost"
 			},
 			effect: {
-				en: "At any times between turns, remove 1 damage counter from each of your Pokémon. You can't use more than 1 Maternal Comfort Poké-Body between turns.",
-				fr: "N'importe quand entre deux tours, retirez à chacun de vos Pokémon 1 marqueur de dégât. Vous ne pouvez pas utiliser plus d'1 Poké-Body Réconfort maternel entre deux tours.",
-				de: "Entferne zu einem beliebigen Zeitpunkt zwischen zwei Zügen 1 Schadensmarke von jedem deiner Pokémon. Du kannst nicht mehr als 1 Mütterlicher Trost Poké-Body zwischen zwei Zügen benutzen."
+				'en-us': "At any times between turns, remove 1 damage counter from each of your Pokémon. You can't use more than 1 Maternal Comfort Poké-Body between turns.",
+				'fr-fr': "N'importe quand entre deux tours, retirez à chacun de vos Pokémon 1 marqueur de dégât. Vous ne pouvez pas utiliser plus d'1 Poké-Body Réconfort maternel entre deux tours.",
+				'de-de': "Entferne zu einem beliebigen Zeitpunkt zwischen zwei Zügen 1 Schadensmarke von jedem deiner Pokémon. Du kannst nicht mehr als 1 Mütterlicher Trost Poké-Body zwischen zwei Zügen benutzen."
 			}
 		},
 	],
@@ -50,9 +50,9 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Mega Punch",
-				fr: "Ultimapoing",
-				de: "Megahieb"
+				'en-us': "Mega Punch",
+				'fr-fr': "Ultimapoing",
+				'de-de': "Megahieb"
 			},
 
 			damage: 40,
@@ -65,14 +65,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ruthless Tail",
-				fr: "Queue sans pitié",
-				de: "Rabiater Schwanzhieb"
+				'en-us': "Ruthless Tail",
+				'fr-fr': "Queue sans pitié",
+				'de-de': "Rabiater Schwanzhieb"
 			},
 			effect: {
-				en: "Does 50 damage plus 10 more damage for each of your opponent's Benched Pokémon.",
-				fr: "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chacun des Pokémon de Banc de votre adversaire.",
-				de: "Dieser Angriff fügt 50 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Pokémon auf der Bank deines Gegners zu."
+				'en-us': "Does 50 damage plus 10 more damage for each of your opponent's Benched Pokémon.",
+				'fr-fr': "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chacun des Pokémon de Banc de votre adversaire.",
+				'de-de': "Dieser Angriff fügt 50 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Pokémon auf der Bank deines Gegners zu."
 			},
 			damage: "50+",
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒスイ ガーディ",
+		'ja-jp': "ヒスイ ガーディ",
 		'zh-tw': "洗翠 卡蒂狗",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "対になりて 縄張りを 哨戒す。 体毛に 火成岩なる 成分 混ざるは 火山活動の 影響と 推察す。",
+		'ja-jp': "対になりて 縄張りを 哨戒す。 体毛に 火成岩なる 成分 混ざるは 火山活動の 影響と 推察す。",
 		'zh-tw': "兩隻一組共同負責地盤的警戒工作。體毛中混有火成岩的成分，可以 推想這是受到火山活動的影響。",
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "こがす",
+				'ja-jp': "こがす",
 				'zh-tw': "灼熱",
 			},
 			cost: [],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【灼傷】。",
 			},
 		},

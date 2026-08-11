@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Wingull",
-		fr: "Goelise",
-		de: "Wingull"
+		'en-us': "Wingull",
+		'fr-fr': "Goelise",
+		'de-de': "Wingull"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Supersonic",
-				fr: "Ultrason",
-				de: "Superschall"
+				'en-us': "Supersonic",
+				'fr-fr': "Ultrason",
+				'de-de': "Superschall"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},

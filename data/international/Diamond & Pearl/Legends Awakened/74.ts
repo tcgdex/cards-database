@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Tauros",
-		fr: "Tauros",
-		de: "Tauros"
+		'en-us': "Tauros",
+		'fr-fr': "Tauros",
+		'de-de': "Tauros"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Herd Charge",
-				fr: "Charge de troupeau",
-				de: "Anstürmende Herde"
+				'en-us': "Herd Charge",
+				'fr-fr': "Charge de troupeau",
+				'de-de': "Anstürmende Herde"
 			},
 			effect: {
-				en: "Flip a coin for each Tauros you have in play. This attack does 20 damage times the number of heads.",
-				fr: "Lancez une pièce pour chaque Tauros que vous avez en jeu. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf für jedes Tauros, das du im Spiel hast, 1 Münze. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip a coin for each Tauros you have in play. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce pour chaque Tauros que vous avez en jeu. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf für jedes Tauros, das du im Spiel hast, 1 Münze. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "20x",
 
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thrash",
-				fr: "Mania",
-				de: "Fuchtler"
+				'en-us': "Thrash",
+				'fr-fr': "Mania",
+				'de-de': "Fuchtler"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 40 damage plus 20 more damage. If tails, Tauros does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires. Si c'est pile, Tauros s'inflige 10 dégâts.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu. Bei \"Zahl\" fügt Tauros sich selbst 10 Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 40 damage plus 20 more damage. If tails, Tauros does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires. Si c'est pile, Tauros s'inflige 10 dégâts.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu. Bei \"Zahl\" fügt Tauros sich selbst 10 Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -75,8 +75,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Once it takes aim at its foe, it makes a headlong charge. It is famous for its violent nature.",
-		fr: "Après avoir choisi sa cible, il fonce dessus tête baissée. Il est réputé pour sa nature violente."
+		'en-us': "Once it takes aim at its foe, it makes a headlong charge. It is famous for its violent nature.",
+		'fr-fr': "Après avoir choisi sa cible, il fonce dessus tête baissée. Il est réputé pour sa nature violente."
 	},
 
 	thirdParty: {

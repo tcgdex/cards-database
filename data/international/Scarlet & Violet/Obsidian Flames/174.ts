@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Frison",
-		en: "Bouffalant",
-		es: "Bouffalant",
-		it: "Bouffalant",
-		pt: "Bouffalant",
-		de: "Bisofank"
+		'fr-fr': "Frison",
+		'en-us': "Bouffalant",
+		'es-es': "Bouffalant",
+		'it-it': "Bouffalant",
+		'pt-br': "Bouffalant",
+		'de-de': "Bisofank"
 	},
 
 	rarity: "Uncommon",
@@ -24,21 +24,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			fr: "Touffe Protectrice",
-			en: "Bouffer",
-			es: "Amortiguación",
-			it: "Ammortizzatore",
-			pt: "Bouffer",
-			de: "Bisopuffer"
+			'fr-fr': "Touffe Protectrice",
+			'en-us': "Bouffer",
+			'es-es': "Amortiguación",
+			'it-it': "Ammortizzatore",
+			'pt-br': "Bouffer",
+			'de-de': "Bisopuffer"
 		},
 
 		effect: {
-			fr: "Ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			en: "This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
-			es: "Los ataques hacen 20 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-			it: "Questo Pokémon subisce 20 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-			pt: "Este Pokémon recebe 20 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
-			de: "Diesem Pokémon werden durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+			'fr-fr': "Ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			'en-us': "This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
+			'es-es': "Los ataques hacen 20 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			'it-it': "Questo Pokémon subisce 20 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+			'pt-br': "Este Pokémon recebe 20 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
+			'de-de': "Diesem Pokémon werden durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 		}
 	}],
 
@@ -46,21 +46,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Charge Destructrice",
-			en: "Damage Rush",
-			es: "Embestida Dañina",
-			it: "Sfuriadanni",
-			pt: "Fúria Destruidora",
-			de: "Schadensrausch"
+			'fr-fr': "Charge Destructrice",
+			'en-us': "Damage Rush",
+			'es-es': "Embestida Dañina",
+			'it-it': "Sfuriadanni",
+			'pt-br': "Fúria Destruidora",
+			'de-de': "Schadensrausch"
 		},
 
 		effect: {
-			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
-			en: "Flip a coin until you get tails. This attack does 30 more damage for each heads.",
-			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 30 puntos de daño más por cada cara.",
-			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 30 danni in più ogni volta che esce testa.",
-			pt: "Jogue uma moeda até sair coroa. Este ataque causa 30 pontos de dano a mais para cada cara.",
-			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 30 Schadenspunkte mehr pro Kopf zu."
+			'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
+			'en-us': "Flip a coin until you get tails. This attack does 30 more damage for each heads.",
+			'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 30 puntos de daño más por cada cara.",
+			'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 30 danni in più ogni volta che esce testa.",
+			'pt-br': "Jogue uma moeda até sair coroa. Este ataque causa 30 pontos de dano a mais para cada cara.",
+			'de-de': "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 30 Schadenspunkte mehr pro Kopf zu."
 		},
 
 		damage: "50+"
@@ -76,7 +76,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "These Pokémon live in herds of about 20 individuals. Bouffalant that betray the herd will lose the hair on their heads for some reason.",
+		'en-us': "These Pokémon live in herds of about 20 individuals. Bouffalant that betray the herd will lose the hair on their heads for some reason.",
 	},
 
 	variants: [

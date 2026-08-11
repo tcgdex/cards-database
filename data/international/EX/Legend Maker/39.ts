@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legend Maker'
 
 const card: Card = {
 	name: {
-		en: "Machoke",
-		fr: "Machopeur",
-		de: "Maschock"
+		'en-us': "Machoke",
+		'fr-fr': "Machopeur",
+		'de-de': "Maschock"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Machop",
-		fr: "Machoc"
+		'en-us': "Machop",
+		'fr-fr': "Machoc"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Paranoid",
-				fr: "Paranoïaque",
-				de: "Verfolgungswahn"
+				'en-us': "Paranoid",
+				'fr-fr': "Paranoïaque",
+				'de-de': "Verfolgungswahn"
 			},
 			effect: {
-				en: "As long as Machoke is Confused, Machoke's attacks do 50 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
-				fr: "Tant que Machopeur est Confus, ses attaques infligent au Pokémon Défenseur 50 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
-				de: "Solange Maschock verwirrt ist, fügen Maschocks Angriffe dem Verteidigendem Pokémon 50 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "As long as Machoke is Confused, Machoke's attacks do 50 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Tant que Machopeur est Confus, ses attaques infligent au Pokémon Défenseur 50 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "Solange Maschock verwirrt ist, fügen Maschocks Angriffe dem Verteidigendem Pokémon 50 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Split Kick",
-				fr: "Coup en deux temps",
-				de: "Verteilter Tritt"
+				'en-us': "Split Kick",
+				'fr-fr': "Coup en deux temps",
+				'de-de': "Verteilter Tritt"
 			},
 			effect: {
-				en: "Does 20 damage to each Defending Pokémon.",
-				fr: "Inflige 20 dégâts à chacun des Pokémon Défenseurs.",
-				de: "Dieser Angriff fügt jedem Verteidigendem Pokémon 20 Schadenspunkte zu."
+				'en-us': "Does 20 damage to each Defending Pokémon.",
+				'fr-fr': "Inflige 20 dégâts à chacun des Pokémon Défenseurs.",
+				'de-de': "Dieser Angriff fügt jedem Verteidigendem Pokémon 20 Schadenspunkte zu."
 			},
 
 		},
@@ -70,9 +70,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnum Punch",
-				fr: "Poing magnum",
-				de: "Magnum-Schlag"
+				'en-us': "Magnum Punch",
+				'fr-fr': "Poing magnum",
+				'de-de': "Magnum-Schlag"
 			},
 
 			damage: 40,

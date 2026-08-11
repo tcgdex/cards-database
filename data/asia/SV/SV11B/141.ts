@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メグロコ",
+		'ja-jp': "メグロコ",
 	},
 
 	illustrator: "Fujimoto Gold",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "砂漠の 砂の 中で 生活。 太陽に 暖められた 砂が 体温の 低下を 防ぐのだ。",
+		'ja-jp': "砂漠の 砂の 中で 生活。 太陽に 暖められた 砂が 体温の 低下を 防ぐのだ。",
 	},
 
 	stage: "Basic",

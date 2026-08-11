@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Goélise",
-		en: "Wingull",
-		es: "Wingull",
-		it: "Wingull",
-		pt: "Wingull",
-		de: "Wingull"
+		'fr-fr': "Goélise",
+		'en-us': "Wingull",
+		'es-es': "Wingull",
+		'it-it': "Wingull",
+		'pt-br': "Wingull",
+		'de-de': "Wingull"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Tornade",
-			en: "Gust",
-			es: "Tornado",
-			it: "Raffica",
-			pt: "Lufada de Vento",
-			de: "Windstoß"
+			'fr-fr': "Tornade",
+			'en-us': "Gust",
+			'es-es': "Tornado",
+			'it-it': "Raffica",
+			'pt-br': "Lufada de Vento",
+			'de-de': "Windstoß"
 		},
 
 		damage: 30
@@ -72,7 +72,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill.",
+		'en-us': "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill.",
 	},
 }
 

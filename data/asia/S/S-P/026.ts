@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨルノズク",
+		'ja-jp': "ヨルノズク",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ものごとを 考えだすと 首を １８０度 回転 させて 頭の 働きを 高める。",
+		'ja-jp': "ものごとを 考えだすと 首を １８０度 回転 させて 頭の 働きを 高める。",
 	},
 
 	stage: "Stage1",
@@ -28,7 +28,7 @@ const card: Card = {
 			name: { ja: "やまにつれさる" },
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンと、相手のベンチポケモンを1匹選び、それぞれのポケモンと、ついているすべてのカードを、山札にもどして切る。相手のベンチポケモンがいないなら、このワザは失敗。",
+				'ja-jp': "このポケモンと、相手のベンチポケモンを1匹選び、それぞれのポケモンと、ついているすべてのカードを、山札にもどして切る。相手のベンチポケモンがいないなら、このワザは失敗。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ホーホー",
+		'ja-jp': "ホーホー",
 	},
 
 	retreat: 1,

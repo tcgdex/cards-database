@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Onix",
-		de: "Onix"
+		'en-us': "Onix",
+		'de-de': "Onix"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Rush",
-				de: "Horn Rush"
+				'en-us': "Horn Rush",
+				'de-de': "Horn Rush"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'de-de': "Flip a coin. If tails, this attack does nothing."
 			},
 			damage: 10,
 
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Granite Head",
-				de: "Granite Head"
+				'en-us': "Granite Head",
+				'de-de': "Granite Head"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Onix by attacks is reduced by 10 (after applying Weakness and Resistance).",
-				de: "During your opponent's next turn, any damage done to Onix by attacks is reduced by 10 (after applying Weakness an Resistance)."
+				'en-us': "During your opponent's next turn, any damage done to Onix by attacks is reduced by 10 (after applying Weakness and Resistance).",
+				'de-de': "During your opponent's next turn, any damage done to Onix by attacks is reduced by 10 (after applying Weakness an Resistance)."
 			},
 			damage: 20,
 

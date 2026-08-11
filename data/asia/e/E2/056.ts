@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒットモントップ",
+		'ja-jp': "ヒットモントップ",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ダブルキック",
+				'ja-jp': "ダブルキック",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "トリプルスピン",
+				'ja-jp': "トリプルスピン",
 			},
 			effect: {
-				ja: "3コインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。 2つ以上のヘッドを手に入れた場合は、ベンチ付きポケモンを1つ持ってHitMontopを切り替えます。",
+				'ja-jp': "3コインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。 2つ以上のヘッドを手に入れた場合は、ベンチ付きポケモンを1つ持ってHitMontopを切り替えます。",
 			},
 		},
 	],

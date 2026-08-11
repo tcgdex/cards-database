@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Delibird",
+		'ja-jp': "Delibird",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "限られた配達",
+				'ja-jp': "限られた配達",
 			},
 			effect: {
-				ja: "テクニカルマシンまたはポケモンツールカードを検索し、相手に見せて、手に入れてください。その後、デッキをシャッフルします。",
+				'ja-jp': "テクニカルマシンまたはポケモンツールカードを検索し、相手に見せて、手に入れてください。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "蹴ってください",
+				'ja-jp': "蹴ってください",
 			},
 			effect: {
-				ja: "対戦相手は、ベンチ付きポケモンの1つで防御ポケモンを切り替えます。 （ポケモンを切り替える前にダメージを与えます。）",
+				'ja-jp': "対戦相手は、ベンチ付きポケモンの1つで防御ポケモンを切り替えます。 （ポケモンを切り替える前にダメージを与えます。）",
 			},
 			damage: 20,
 		},

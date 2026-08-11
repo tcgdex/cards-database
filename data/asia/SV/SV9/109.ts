@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "Nのレシラム"
+		'ja-jp': "Nのレシラム"
 	},
 
 	illustrator: "Bun Toujo",
@@ -16,7 +16,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "人が 真実を 蔑ろにして 欲に まみれると 炎で 国を 焼きつくすと 神話に 描かれた。"
+		'ja-jp': "人が 真実を 蔑ろにして 欲に まみれると 炎で 国を 焼きつくすと 神話に 描かれた。"
 	},
 
 	stage: "Basic",
@@ -25,19 +25,19 @@ const card: Card = {
 		cost: ["Fire", "Lightning"],
 
 		name: {
-			ja: "パワーレイジ"
+			'ja-jp': "パワーレイジ"
 		},
 
 		damage: "20×",
 
 		effect: {
-			ja: "このポケモンにのっているダメカンの数×20ダメージ。"
+			'ja-jp': "このポケモンにのっているダメカンの数×20ダメージ。"
 		}
 	}, {
 		cost: ["Fire", "Fire", "Lightning", "Colorless"],
 
 		name: {
-			ja: "イノセントフレイム"
+			'ja-jp': "イノセントフレイム"
 		},
 
 		damage: 170

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Ledyba",
-		fr: "Coxy",
-		de: "Ledyba"
+		'en-us': "Ledyba",
+		'fr-fr': "Coxy",
+		'de-de': "Ledyba"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swift",
-				fr: "Météores",
-				de: "Swift"
+				'en-us': "Swift",
+				'fr-fr': "Météores",
+				'de-de': "Swift"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Pouvoirs Pokémon ou tout autre effet en action sur le Pokémon Défenseur.",
-				de: "This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon."
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Pouvoirs Pokémon ou tout autre effet en action sur le Pokémon Défenseur.",
+				'de-de': "This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon."
 			},
 			damage: 20,
 
@@ -61,8 +61,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Sensitive to cold, Ledyba gather in groups to share warmth when the temperature drops.",
-		fr: "Sensibles au froid, les Coxy se rassemblent en groupes pour partager leur chaleur quand la température descend dangereusement."
+		'en-us': "Sensitive to cold, Ledyba gather in groups to share warmth when the temperature drops.",
+		'fr-fr': "Sensibles au froid, les Coxy se rassemblent en groupes pour partager leur chaleur quand la température descend dangereusement."
 	},
 
 

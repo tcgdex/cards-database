@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Moltres",
-		fr: "Sulfura",
-		es: "Moltres",
-		it: "Moltres",
-		pt: "Moltres",
-		de: "Lavados"
+		'en-us': "Moltres",
+		'fr-fr': "Sulfura",
+		'es-es': "Moltres",
+		'it-it': "Moltres",
+		'pt-br': "Moltres",
+		'de-de': "Lavados"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Searing Flame",
-				fr: "Flammes Calcinantes",
+				'en-us': "Searing Flame",
+				'fr-fr': "Flammes Calcinantes",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				'en-us': "The Defending Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé.",
 			},
 			damage: 50,
 
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Blast",
-				fr: "Déflagration",
+				'en-us': "Fire Blast",
+				'fr-fr': "Déflagration",
 			},
 			effect: {
-				en: "Discard a Fire Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie Fire attachée à ce Pokémon.",
+				'en-us': "Discard a Fire Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie Fire attachée à ce Pokémon.",
 			},
 			damage: 90,
 
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "One of the legendary bird Pokémon. It is said that its appearance indicates the coming of spring.",
+		'en-us': "One of the legendary bird Pokémon. It is said that its appearance indicates the coming of spring.",
 	},
 
 	thirdParty: {

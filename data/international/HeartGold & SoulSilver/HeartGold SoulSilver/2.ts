@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Azumarill",
-		fr: "Azumarill",
-		de: "Azumarill"
+		'en-us': "Azumarill",
+		'fr-fr': "Azumarill",
+		'de-de': "Azumarill"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Marill",
-		fr: "Marill"
+		'en-us': "Marill",
+		'fr-fr': "Marill"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Waterfall",
-				fr: "Cascade",
-				de: "Kaskade"
+				'en-us': "Waterfall",
+				'fr-fr': "Cascade",
+				'de-de': "Kaskade"
 			},
 
 			damage: 40,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bubblebeam",
-				fr: "Bulles d’o",
-				de: "Blubbstrahl"
+				'en-us': "Bubblebeam",
+				'fr-fr': "Bulles d’o",
+				'de-de': "Blubbstrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 60,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When it plays in water, it rolls up its elongated ears to prevent their insides from getting wet."
+		'en-us': "When it plays in water, it rolls up its elongated ears to prevent their insides from getting wet."
 	},
 
 	variants: [

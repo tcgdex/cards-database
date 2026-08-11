@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../SV'
 
 const set: Set = {
 	id: 'SV5M',
 
 	name: {
-		ja: 'サイバージャッジ',
-		ko: '사이버저지',
+		'ja-jp': 'サイバージャッジ',
+		'ko-kr': '사이버저지',
 		'zh-tw': '異度審判',
-		th: 'ตุลาการไซเบอร์'
+		'th-th': 'ตุลาการไซเบอร์'
 	},
 
 	serie: serie,
@@ -18,9 +18,9 @@ const set: Set = {
 	},
 
 	releaseDate: {
-		ja: '2024-01-26',
+		'ja-jp': '2024-01-26',
 		'zh-tw': '2024-02-02',
-		th: '2024-02-23'
+		'th-th': '2024-02-23'
 	},
 
 	thirdParty: {

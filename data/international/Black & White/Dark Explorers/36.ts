@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Swanna",
-		fr: "Lakmécygne",
-		es: "Swanna",
-		it: "Swanna",
-		pt: "Swanna",
-		de: "Swaroness"
+		'en-us': "Swanna",
+		'fr-fr': "Lakmécygne",
+		'es-es': "Swanna",
+		'it-it': "Swanna",
+		'pt-br': "Swanna",
+		'de-de': "Swaroness"
 	},
 
 	illustrator: "Mizue",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ducklett",
-		fr: "Couaneton"
+		'en-us': "Ducklett",
+		'fr-fr': "Couaneton"
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Healing Pirouette",
-				fr: "Pirouette Apaisante"
+				'en-us': "Healing Pirouette",
+				'fr-fr': "Pirouette Apaisante"
 			},
 			effect: {
-				en: "Heal 30 damage from each of your Pokémon.",
-				fr: "Soignez 30 dégâts à chacun de vos Pokémon."
+				'en-us': "Heal 30 damage from each of your Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à chacun de vos Pokémon."
 			},
 
 		},
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Incessant Peck",
-				fr: "Rafal'Bec"
+				'en-us': "Incessant Peck",
+				'fr-fr': "Rafal'Bec"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 20 more damage for each heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face."
+				'en-us': "Flip a coin until you get tails. This attack does 20 more damage for each heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face."
 			},
 			damage: 60,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.",
+		'en-us': "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.",
 	},
 
 	thirdParty: {

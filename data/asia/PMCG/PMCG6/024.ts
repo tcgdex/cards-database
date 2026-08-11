@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サカキのカイロス",
+		'ja-jp': "サカキのカイロス",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "スナップピンパー",
+				'ja-jp': "スナップピンパー",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は20回以上のダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は20回以上のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Grass", "Colorless", "Colorless"],
 			name: {
-				ja: "オーバーヘッドトス",
+				'ja-jp': "オーバーヘッドトス",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、この攻撃はベンチポケモンの1つに20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃はベンチポケモンの1つに20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 40,
 		},

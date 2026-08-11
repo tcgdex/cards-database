@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スワンナ",
+		'ja-jp': "スワンナ",
 	},
 
 	illustrator: "Yukiko Baba",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "優雅な みかけに よらず 翼で 力強く 羽ばたき 数千キロ 飛び続けられる。",
+		'ja-jp': "優雅な みかけに よらず 翼で 力強く 羽ばたき 数千キロ 飛び続けられる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "おいかぜ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の手札にあるエネルギーを1枚、自分のポケモンにつける。",
+				'ja-jp': "自分の手札にあるエネルギーを1枚、自分のポケモンにつける。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コアルヒー",
+		'ja-jp': "コアルヒー",
 	},
 
 	retreat: 1,

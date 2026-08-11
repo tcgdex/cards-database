@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Channeler",
-		fr: "Exorciste",
-		es: "Exorcista",
-		it: "Medium",
-		pt: "Exorcista",
-		de: "Exorzistin"
+		'en-us': "Channeler",
+		'fr-fr': "Exorciste",
+		'es-es': "Exorcista",
+		'it-it': "Medium",
+		'pt-br': "Exorcista",
+		'de-de': "Exorzistin"
 	},
 
 	illustrator: "TOKIYA",
@@ -17,12 +17,12 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Retirez tous les effets d’attaques sur vous et sur chacun de vos Pokémon.",
-		en: "Remove all effects of attacks on you and each of your Pokémon.",
-		es: "Elimina todos los efectos de los ataques en ti y en cada uno de tus Pokémon.",
-		it: "Rimuovi tutti gli effetti degli attacchi che si applicano a te e a ciascuno dei tuoi Pokémon.",
-		pt: "Remova todos os efeitos de ataques em você e em cada um dos seus Pokémon.",
-		de: "Entferne alle Effekte von Attacken auf dir und jedem deiner Pokémon."
+		'fr-fr': "Retirez tous les effets d’attaques sur vous et sur chacun de vos Pokémon.",
+		'en-us': "Remove all effects of attacks on you and each of your Pokémon.",
+		'es-es': "Elimina todos los efectos de los ataques en ti y en cada uno de tus Pokémon.",
+		'it-it': "Rimuovi tutti gli effetti degli attacchi che si applicano a te e a ciascuno dei tuoi Pokémon.",
+		'pt-br': "Remova todos os efeitos de ataques em você e em cada um dos seus Pokémon.",
+		'de-de': "Entferne alle Effekte von Attacken auf dir und jedem deiner Pokémon."
 	},
 
 	trainerType: "Supporter",

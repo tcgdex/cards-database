@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Froakie",
-		fr: "Grenousse",
-		es: "Froakie",
-		it: "Froakie",
-		pt: "Froakie",
-		de: "Froxy"
+		'en-us': "Froakie",
+		'fr-fr': "Grenousse",
+		'es-es': "Froakie",
+		'it-it': "Froakie",
+		'pt-br': "Froakie",
+		'de-de': "Froxy"
 	},
 
 	illustrator: "Saboteri",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Pound",
-			fr: "Écras’Face",
-			es: "Destructor",
-			it: "Botta",
-			pt: "Pancada",
-			de: "Pfund"
+			'en-us': "Pound",
+			'fr-fr': "Écras’Face",
+			'es-es': "Destructor",
+			'it-it': "Botta",
+			'pt-br': "Pancada",
+			'de-de': "Pfund"
 		},
 
 		damage: 20

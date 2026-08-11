@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Skarmory",
-		fr: "Airmure",
-		de: "Panzaeron"
+		'en-us': "Skarmory",
+		'fr-fr': "Airmure",
+		'de-de': "Panzaeron"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		fr: "Airmure",
+		'fr-fr': "Airmure",
 	},
 
 	stage: "Basic",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-attaque",
-				de: "Ruckzuckhieb"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-attaque",
+				'de-de': "Ruckzuckhieb"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mach Blade",
-				fr: "Mach-lame",
-				de: "Tempoklinge"
+				'en-us': "Mach Blade",
+				'fr-fr': "Mach-lame",
+				'de-de': "Tempoklinge"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts à 1 des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 1 Pokémon auf der Bank deines Gegners 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Flip a coin. If heads, this attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts à 1 des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 1 Pokémon auf der Bank deines Gegners 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -84,8 +84,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Despite being clad entirely in iron-hard armor, it flies at speeds over 180 mph.",
-		fr: "Son corps est prisonnier d'une armure dure comme l'acier, mais il vole à plus de 300 km/h."
+		'en-us': "Despite being clad entirely in iron-hard armor, it flies at speeds over 180 mph.",
+		'fr-fr': "Son corps est prisonnier d'une armure dure comme l'acier, mais il vole à plus de 300 km/h."
 	},
 
 	thirdParty: {

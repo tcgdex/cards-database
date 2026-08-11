@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		fr: "Pikachu",
+		'fr-fr': "Pikachu",
 	},
 
 	stage: "Basic",
@@ -36,9 +36,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pika Punch",
-				fr: "Pika-poing",
-				de: "Pikahieb"
+				'en-us': "Pika Punch",
+				'fr-fr': "Pika-poing",
+				'de-de': "Pikahieb"
 			},
 
 			damage: 20,
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Speed Bolt",
-				fr: "Boulon vitesse",
-				de: "Tempoblitz"
+				'en-us': "Speed Bolt",
+				'fr-fr': "Boulon vitesse",
+				'de-de': "Tempoblitz"
 			},
 			effect: {
-				en: "If Pikachu evolved from Pichu during this turn, prevent all effects of an attack, including damage, done to Pikachu during your opponent's next turn.",
-				fr: "Si Pikachu a évolué de Pichu lors de ce tour, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Pikachu lors du prochain tour de votre adversaire.",
-				de: "Wenn Pikachu sich in diesem Zug aus Pichu entwickelt hat, verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Pikachu zugefügt würden."
+				'en-us': "If Pikachu evolved from Pichu during this turn, prevent all effects of an attack, including damage, done to Pikachu during your opponent's next turn.",
+				'fr-fr': "Si Pikachu a évolué de Pichu lors de ce tour, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Pikachu lors du prochain tour de votre adversaire.",
+				'de-de': "Wenn Pikachu sich in diesem Zug aus Pichu entwickelt hat, verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Pikachu zugefügt würden."
 			},
 			damage: 40,
 
@@ -82,8 +82,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It lives in forests with others. It stores electricity in the pouches on its cheeks.",
-		fr: "Il vit en forêt avec ses pairs. Il accumule l'électricité dans les poches de ses joues."
+		'en-us': "It lives in forests with others. It stores electricity in the pouches on its cheeks.",
+		'fr-fr': "Il vit en forêt avec ses pairs. Il accumule l'électricité dans les poches de ses joues."
 	},
 
 	thirdParty: {

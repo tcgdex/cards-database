@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フラダリラボ",
+		'ja-jp': "フラダリラボ",
 	},
 
 	illustrator: "Ryo Ueda",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいの場にある「ポケモンのどうぐ」の効果は、すべてなくなる。",
+		'ja-jp': "おたがいの場にある「ポケモンのどうぐ」の効果は、すべてなくなる。",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ツンデツンデ",
+		'ja-jp': "ツンデツンデ",
 	},
 
 	illustrator: "nagimiso",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ウルトラホールから 出現した。 複数の 生命が 積み上がり １匹を 形成している ようだ。",
+		'ja-jp': "ウルトラホールから 出現した。 複数の 生命が 積み上がり １匹を 形成している ようだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ストーンフェンス" },
 			effect: {
-				ja: "相手のサイドの残り枚数が3枚以下なら、このポケモンの最大HPは「200」になる。",
+				'ja-jp': "相手のサイドの残り枚数が3枚以下なら、このポケモンの最大HPは「200」になる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 110,
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数ぶん、相手の山札を上からトラッシュする。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数ぶん、相手の山札を上からトラッシュする。",
 			},
 		},
 	],

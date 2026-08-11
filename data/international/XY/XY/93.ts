@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Aromatisse",
-		fr: "Cocotine",
-		es: "Aromatisse",
-		it: "Aromatisse",
-		pt: "Aromatisse",
-		de: "Parfinesse"
+		'en-us': "Aromatisse",
+		'fr-fr': "Cocotine",
+		'es-es': "Aromatisse",
+		'it-it': "Aromatisse",
+		'pt-br': "Aromatisse",
+		'de-de': "Parfinesse"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spritzee",
-		fr: "Fluvetin",
-		es: "Spritzee",
-		it: "Spritzee",
-		pt: "Spritzee",
-		de: "Parfi"
+		'en-us': "Spritzee",
+		'fr-fr': "Fluvetin",
+		'es-es': "Spritzee",
+		'it-it': "Spritzee",
+		'pt-br': "Spritzee",
+		'de-de': "Parfi"
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Fairy Transfer",
-				fr: "Transfert Féérique",
-				es: "Traspaso Hada",
-				it: "Transferfatato",
-				pt: "Transferência de Fada",
-				de: "Feentransfer"
+				'en-us': "Fairy Transfer",
+				'fr-fr': "Transfert Féérique",
+				'es-es': "Traspaso Hada",
+				'it-it': "Transferfatato",
+				'pt-br': "Transferência de Fada",
+				'de-de': "Feentransfer"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may move a Fairy Energy attached to 1 of your Pokémon to another of your Pokémon.",
-				fr: "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez déplacer une Énergie Fairy attachée à l'un de vos Pokémon vers un autre de vos Pokémon.",
-				es: "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes mover 1 Energía Fairy unida a 1 de tus Pokémon a otro de tus Pokémon.",
-				it: "Durante il tuo turno, prima di attaccare, puoi spostare a piacimento le carte Energia Fairy assegnate ai tuoi Pokémon.",
-				pt: "Tantas vezes quanto desejar durante sua vez de jogar (antes de atacar), você pode mover uma Energia Fairy ligada a 1 dos seus Pokémon para outro dos seus Pokémon.",
-				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 Fairy-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon verschieben."
+				'en-us': "As often as you like during your turn (before your attack), you may move a Fairy Energy attached to 1 of your Pokémon to another of your Pokémon.",
+				'fr-fr': "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez déplacer une Énergie Fairy attachée à l'un de vos Pokémon vers un autre de vos Pokémon.",
+				'es-es': "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes mover 1 Energía Fairy unida a 1 de tus Pokémon a otro de tus Pokémon.",
+				'it-it': "Durante il tuo turno, prima di attaccare, puoi spostare a piacimento le carte Energia Fairy assegnate ai tuoi Pokémon.",
+				'pt-br': "Tantas vezes quanto desejar durante sua vez de jogar (antes de atacar), você pode mover uma Energia Fairy ligada a 1 dos seus Pokémon para outro dos seus Pokémon.",
+				'de-de': "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 Fairy-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon verschieben."
 			},
 		},
 	],
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fairy Wind",
-				fr: "Vent Féérique",
-				es: "Viento Feérico",
-				it: "Vento di Fata",
-				pt: "Vento de Fada",
-				de: "Feenbrise"
+				'en-us': "Fairy Wind",
+				'fr-fr': "Vent Féérique",
+				'es-es': "Viento Feérico",
+				'it-it': "Vento di Fata",
+				'pt-br': "Vento de Fada",
+				'de-de': "Feenbrise"
 			},
 
 			damage: 60,
@@ -97,7 +97,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It devises various scents, pleasant and unpleasant, and emits scents that its enemies dislike in order to gain an edge in battle.",
+		'en-us': "It devises various scents, pleasant and unpleasant, and emits scents that its enemies dislike in order to gain an edge in battle.",
 	},
 
 	thirdParty: {

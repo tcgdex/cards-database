@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Charbambin",
-		en: "Charcadet",
-		es: "Charcadet",
-		it: "Charcadet",
-		pt: "Charcadet",
-		de: "Knarbon"
+		'fr-fr': "Charbambin",
+		'en-us': "Charcadet",
+		'es-es': "Charcadet",
+		'it-it': "Charcadet",
+		'pt-br': "Charcadet",
+		'de-de': "Knarbon"
   },
   illustrator: "Souichirou Gunjima",
   rarity: "One Diamond",

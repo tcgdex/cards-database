@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Gible",
-		fr: "Griknot",
-		es: "Gible",
-		it: "Gible",
-		pt: "Gible",
-		de: "Kaumalat"
+		'en-us': "Gible",
+		'fr-fr': "Griknot",
+		'es-es': "Gible",
+		'it-it': "Gible",
+		'pt-br': "Gible",
+		'de-de': "Kaumalat"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Rock Hiding",
-				fr: "Cachette Roche",
-				es: "Escondido entre Rocas",
-				it: "Nascondiglio Roccioso",
-				pt: "Esconder nas Pedras",
-				de: "Steinversteck"
+				'en-us': "Rock Hiding",
+				'fr-fr': "Cachette Roche",
+				'es-es': "Escondido entre Rocas",
+				'it-it': "Nascondiglio Roccioso",
+				'pt-br': "Esconder nas Pedras",
+				'de-de': "Steinversteck"
 			},
 			effect: {
-				en: "If this Pokémon has any Fighting Energy attached to it, it has no Retreat Cost.",
-				fr: "Si de l’Énergie Fighting est attachée à ce Pokémon, il n’a pas de coût de Retraite.",
-				es: "Si este Pokémon tiene alguna Energía Fighting unida a él, no tiene ningún Coste de Retirada.",
-				it: "Se questo Pokémon ha delle Energie Fighting assegnate, non ha costo di ritirata.",
-				pt: "Se este Pokémon tiver alguma Energia Fighting ligada a ele, não terá custo de Recuo.",
-				de: "Wenn an dieses Pokémon mindestens 1 Fighting-Energie angelegt ist, hat es keine Rückzugskosten."
+				'en-us': "If this Pokémon has any Fighting Energy attached to it, it has no Retreat Cost.",
+				'fr-fr': "Si de l’Énergie Fighting est attachée à ce Pokémon, il n’a pas de coût de Retraite.",
+				'es-es': "Si este Pokémon tiene alguna Energía Fighting unida a él, no tiene ningún Coste de Retirada.",
+				'it-it': "Se questo Pokémon ha delle Energie Fighting assegnate, non ha costo di ritirata.",
+				'pt-br': "Se este Pokémon tiver alguma Energia Fighting ligada a ele, não terá custo de Recuo.",
+				'de-de': "Wenn an dieses Pokémon mindestens 1 Fighting-Energie angelegt ist, hat es keine Rückzugskosten."
 			},
 		},
 	],
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Ronge",
-				es: "Roer",
-				it: "Rosicchiamento",
-				pt: "Roída",
-				de: "Nagen"
+				'en-us': "Gnaw",
+				'fr-fr': "Ronge",
+				'es-es': "Roer",
+				'it-it': "Rosicchiamento",
+				'pt-br': "Roída",
+				'de-de': "Nagen"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It skulks in caves, and when prey or an enemy passes by, it leaps out and chomps them. The force of its attack sometimes chips its teeth.",
+		'en-us': "It skulks in caves, and when prey or an enemy passes by, it leaps out and chomps them. The force of its attack sometimes chips its teeth.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケンタロス",
+		'ja-jp': "ケンタロス",
 	},
 
 	illustrator: "Tsuyoshi Nagano",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ツノを つきあわせて 戦う。 群れを守る 強い ケンタロスは キズだらけの ツノを 自慢する。",
+		'ja-jp': "ツノを つきあわせて 戦う。 群れを守る 強い ケンタロスは キズだらけの ツノを 自慢する。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "むれでねらう" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のポケモンを1匹選び、自分の場の、名前に「ケンタロス」とつくポケモンの数ぶんコインを投げる。選んだポケモンに、オモテの数×50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモンを1匹選び、自分の場の、名前に「ケンタロス」とつくポケモンの数ぶんコインを投げる。選んだポケモンに、オモテの数×50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

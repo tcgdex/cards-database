@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Dewgong",
-		fr: "Lamantine",
-		es: "Dewgong",
-		it: "Dewgong",
-		pt: "Dewgong",
-		de: "Jugong"
+		'en-us': "Dewgong",
+		'fr-fr': "Lamantine",
+		'es-es': "Dewgong",
+		'it-it': "Dewgong",
+		'pt-br': "Dewgong",
+		'de-de': "Jugong"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Seel",
-		fr: "Otaria",
+		'en-us': "Seel",
+		'fr-fr': "Otaria",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Whap",
-				fr: "Queue Battoir",
-				es: "Coletón",
-				it: "Codabotta",
-				pt: "Surra de Cauda",
-				de: "Schweifvertrimmer"
+				'en-us': "Tail Whap",
+				'fr-fr': "Queue Battoir",
+				'es-es': "Coletón",
+				'it-it': "Codabotta",
+				'pt-br': "Surra de Cauda",
+				'de-de': "Schweifvertrimmer"
 			},
 
 			damage: 60,
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dual Blizzard",
-				fr: "Double Blizzard",
-				es: "Ventisca Doble",
-				it: "Doppia Bora",
-				pt: "Nevasca Dupla",
-				de: "Doppelsturm"
+				'en-us': "Dual Blizzard",
+				'fr-fr': "Double Blizzard",
+				'es-es': "Ventisca Doble",
+				'it-it': "Doppia Bora",
+				'pt-br': "Nevasca Dupla",
+				'de-de': "Doppelsturm"
 			},
 			effect: {
-				en: "Discard 2 Energy from this Pokémon. This attack does 60 damage to 2 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Défaussez 2 Énergies de ce Pokémon. Cette attaque inflige 60 dégâts à 2 des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				es: "Descarta 2 Energías de este Pokémon. Este ataque hace 60 puntos de daño a 2 de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-				it: "Scarta due Energie assegnate a questo Pokémon. Questo attacco infligge 60 danni a due dei Pokémon del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
-				pt: "Descarte 2 Energias deste Pokémon. Este ataque causa 60 pontos de dano a 2 dos Pokémon do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
-				de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 2 Pokémon deines Gegners 60 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Discard 2 Energy from this Pokémon. This attack does 60 damage to 2 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Défaussez 2 Énergies de ce Pokémon. Cette attaque inflige 60 dégâts à 2 des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'es-es': "Descarta 2 Energías de este Pokémon. Este ataque hace 60 puntos de daño a 2 de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+				'it-it': "Scarta due Energie assegnate a questo Pokémon. Questo attacco infligge 60 danni a due dei Pokémon del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
+				'pt-br': "Descarte 2 Energias deste Pokémon. Este ataque causa 60 pontos de dano a 2 dos Pokémon do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
+				'de-de': "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 2 Pokémon deines Gegners 60 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It swims through the ocean at a speed of eight knots, searching for Pokémon that will become its prey. It's especially fond of Wishiwashi.",
+		'en-us': "It swims through the ocean at a speed of eight knots, searching for Pokémon that will become its prey. It's especially fond of Wishiwashi.",
 	},
 
 	thirdParty: {

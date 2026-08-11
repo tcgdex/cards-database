@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "チョボマキ",
+		'ja-jp': "チョボマキ",
 	},
 
 	illustrator: "Saboteri",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "敵に 襲われると 殻の ふたを 閉じて 防御。 ふたの すきまから ベトベトした 毒液を 飛ばす。",
+		'ja-jp': "敵に 襲われると 殻の ふたを 閉じて 防御。 ふたの すきまから ベトベトした 毒液を 飛ばす。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "しげきしんか" },
 			effect: {
-				ja: "自分の場に「カブルモ」がいるなら、このポケモンは、最初の自分の番や、出したばかりの番でも進化できる。",
+				'ja-jp': "自分の場に「カブルモ」がいるなら、このポケモンは、最初の自分の番や、出したばかりの番でも進化できる。",
 			},
 		},
 	],

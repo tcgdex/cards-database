@@ -1,28 +1,28 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤクデ"
+		'ja-jp': "ヤクデ"
 	},
 	illustrator: "GIDORA",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fire"],
 	description: {
-		ja: "発熱した体で獲物を締め上げる。こんがり焼けたら むしゃむしゃ いただくのだ。"
+		'ja-jp': "発熱した体で獲物を締め上げる。こんがり焼けたら むしゃむしゃ いただくのだ。"
 	},
 	stage: "Basic",
 	attacks: [{
 		name: {
-			ja: "ぶつかる"
+			'ja-jp': "ぶつかる"
 		},
 		damage: 10,
 		cost: ["Fire"]
 	}, {
 		name: {
-			ja: "かえん"
+			'ja-jp': "かえん"
 		},
 		damage: 50,
 		cost: ["Fire", "Fire", "Colorless"]

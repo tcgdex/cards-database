@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Stunky",
-		fr: "Moufouette",
-		es: "Stunky",
-		it: "Stunky",
-		pt: "Stunky",
-		de: "Skunkapuh"
+		'en-us': "Stunky",
+		'fr-fr': "Moufouette",
+		'es-es': "Stunky",
+		'it-it': "Stunky",
+		'pt-br': "Stunky",
+		'de-de': "Skunkapuh"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Acid Spray",
-				fr: "Bombe Acide",
+				'en-us': "Acid Spray",
+				'fr-fr': "Bombe Acide",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 10,
 
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It sprays a foul fluid from its rear. Its stench spreads over a mile radius, driving Pokémon away.",
+		'en-us': "It sprays a foul fluid from its rear. Its stench spreads over a mile radius, driving Pokémon away.",
 	},
 
 	thirdParty: {

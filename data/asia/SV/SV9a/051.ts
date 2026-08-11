@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ペパーのオラチフ",
+		'ja-jp': "ペパーのオラチフ",
 		'zh-tw': "<派帕的>偶叫獒",
 		'zh-cn': "<派帕的>偶叫獒"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "相手に 嘗められないように いつも しかめっ面をしているが 泣いている 子どもは その顔で 笑いだす。",
+		'ja-jp': "相手に 嘗められないように いつも しかめっ面をしているが 泣いている 子どもは その顔で 笑いだす。",
 		'zh-tw': "為了不被對手看扁而總是 皺著的那張臉，卻反而會 讓哭泣的孩子破涕為笑。",
 		'zh-cn': "為了不被對手看扁而總是 皺著的那張臉，卻反而會 讓哭泣的孩子破涕為笑。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ふむ",
+			'ja-jp': "ふむ",
 			'zh-tw': "踩",
 			'zh-cn': "踩"
 		},
@@ -39,7 +39,7 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "がちんこ",
+			'ja-jp': "がちんこ",
 			'zh-tw': "正面對決",
 			'zh-cn': "正面對決"
 		},

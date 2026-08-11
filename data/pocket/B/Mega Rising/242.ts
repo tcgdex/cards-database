@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Archeops"
+		'en-us': "Archeops"
 	},
 
 	illustrator: "OKUBO",
@@ -17,24 +17,24 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Archen"
+		'en-us': "Archen"
 	},
 
 	description: {
-		en: "Though capable of flight, Archeops was\napparently better at hunting on the ground."
+		'en-us': "Though capable of flight, Archeops was\napparently better at hunting on the ground."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Wild Spin"
+			'en-us': "Wild Spin"
 		},
 
 		cost: ["Fighting"],
 
 		effect: {
-			en: "This attack does 20 damage to each of your opponent's Pokémon. During your next turn, this Pokémon's Wild Spin attack does +20 damage to each of your opponent's Pokémon."
+			'en-us': "This attack does 20 damage to each of your opponent's Pokémon. During your next turn, this Pokémon's Wild Spin attack does +20 damage to each of your opponent's Pokémon."
 		}
 	}],
 

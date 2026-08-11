@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "勒克貓",
-		ja: "ルクシオ"
+		'ja-jp': "ルクシオ"
 	},
 
 	illustrator: "kurumitsu",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "如果與夥伴尾巴牽尾巴，就能借用對方的電能， 然後發出更強的電擊。",
-		ja: "しっぽを つなげて 仲間から 電気エネルギーを 分けてもらうと より 強い 電撃を 放てる。"
+		'ja-jp': "しっぽを つなげて 仲間から 電気エネルギーを 分けてもらうと より 強い 電撃を 放てる。"
 	},
 
 	stage: "Stage1",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "電擊",
-			ja: "でんきショック"
+			'ja-jp': "でんきショック"
 		},
 
 		effect: {
 			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。",
-			ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。"
+			'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。"
 		},
 
 		damage: 30,

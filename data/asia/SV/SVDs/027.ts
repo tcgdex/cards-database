@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เมลาร์วา",
-		id: "Larvesta"
+		'th-th': "เมลาร์วา",
+		'id-id': "Larvesta"
 	},
 
 	illustrator: "Yuka Morii",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		th: "เคยถูกเรียกว่าตัวอ่อนแมลงที่ขโมยพระอาทิตย์ไป ไฟที่พ่นออกมาจากเขาสามารถเผาได้กระทั่งแผ่นเหล็ก",
-		id: "Larvesta dikenal sebagai larva pencuri matahari. Api yang dikeluarkan dari tanduknya dapat memotong pelat besi."
+		'th-th': "เคยถูกเรียกว่าตัวอ่อนแมลงที่ขโมยพระอาทิตย์ไป ไฟที่พ่นออกมาจากเขาสามารถเผาได้กระทั่งแผ่นเหล็ก",
+		'id-id': "Larvesta dikenal sebagai larva pencuri matahari. Api yang dikeluarkan dari tanduknya dapat memotong pelat besi."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ไฟ",
-			id: "Api"
+			'th-th': "ไฟ",
+			'id-id': "Api"
 		},
 
 		damage: 10,
 		cost: ["Fire"]
 	}, {
 		name: {
-			th: "พุ่งเข้าใส่",
-			id: "Menerjang"
+			'th-th': "พุ่งเข้าใส่",
+			'id-id': "Menerjang"
 		},
 
 		effect: {
-			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
-			id: "Pokémon ini juga menerima kerusakan sejumlah 10."
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10."
 		},
 
 		damage: 40,

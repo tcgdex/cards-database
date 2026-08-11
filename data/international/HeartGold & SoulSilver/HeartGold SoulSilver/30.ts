@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Smoochum",
-		fr: "Lippouti",
-		de: "Kussilla"
+		'en-us': "Smoochum",
+		'fr-fr': "Lippouti",
+		'de-de': "Kussilla"
 	},
 
 	illustrator: "Midori Harada",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Sweet Sleeping Face",
-				fr: "Joli visage endormi",
-				de: "Niedliches Schlafgesicht"
+				'en-us': "Sweet Sleeping Face",
+				'fr-fr': "Joli visage endormi",
+				'de-de': "Niedliches Schlafgesicht"
 			},
 			effect: {
-				en: "As long as Smoochum is Asleep, prevent all damage done to Smoochum by attacks.",
-				fr: "Tant que Lippouti reste Endormi, prévenez tous les dégâts qui peuvent lui être infligés par des attaques.",
-				de: "Solange Kussilla schläft, verhindere allen Schaden, der Kussilla durch Angriffe zugefügt wird."
+				'en-us': "As long as Smoochum is Asleep, prevent all damage done to Smoochum by attacks.",
+				'fr-fr': "Tant que Lippouti reste Endormi, prévenez tous les dégâts qui peuvent lui être infligés par des attaques.",
+				'de-de': "Solange Kussilla schläft, verhindere allen Schaden, der Kussilla durch Angriffe zugefügt wird."
 			}
 		},
 	],
@@ -43,14 +43,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Energy Antics",
-				fr: "Singénergies",
-				de: "Energiepossen"
+				'en-us': "Energy Antics",
+				'fr-fr': "Singénergies",
+				'de-de': "Energiepossen"
 			},
 			effect: {
-				en: "Move an Energy card attached to 1 of your opponent's Pokémon to another of your opponent's Pokémon. Smoochum is now Asleep.",
-				fr: "Déplacez une carte Énergie attachée à l’un des Pokémon de votre adversaire sur un autre de ses Pokémon. Lippouti est maintenant Endormi.",
-				de: "Lege eine an 1 Pokémon deines Gegners angelegte Energiekarte an 1 anderes Pokémon deines Gegners an. Kussilla schläft jetzt."
+				'en-us': "Move an Energy card attached to 1 of your opponent's Pokémon to another of your opponent's Pokémon. Smoochum is now Asleep.",
+				'fr-fr': "Déplacez une carte Énergie attachée à l’un des Pokémon de votre adversaire sur un autre de ses Pokémon. Lippouti est maintenant Endormi.",
+				'de-de': "Lege eine an 1 Pokémon deines Gegners angelegte Energiekarte an 1 anderes Pokémon deines Gegners an. Kussilla schläft jetzt."
 			},
 
 		},
@@ -59,7 +59,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Its lips are the most sensitive part of its body. It always uses its lips first to examine things."
+		'en-us': "Its lips are the most sensitive part of its body. It always uses its lips first to examine things."
 	},
 
 	variants: [

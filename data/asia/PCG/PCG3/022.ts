@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "馬",
+		'ja-jp': "馬",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "水工場",
+				'ja-jp': "水工場",
 			},
 			effect: {
-				ja: "廃棄の山を検索して、最大2枚の水エネルギーカードを獲得し、相手に見せて、手に入れてください。",
+				'ja-jp': "廃棄の山を検索して、最大2枚の水エネルギーカードを獲得し、相手に見せて、手に入れてください。",
 			},
 		},
 		{
 			cost: ["Water", "Water"],
 			name: {
-				ja: "迅速",
+				'ja-jp': "迅速",
 			},
 			effect: {
-				ja: "この攻撃の損傷は、脱力感、抵抗、ポケの提唱、ポケボディ、または防御ポケモンに対するその他の影響の影響を受けません。",
+				'ja-jp': "この攻撃の損傷は、脱力感、抵抗、ポケの提唱、ポケボディ、または防御ポケモンに対するその他の影響の影響を受けません。",
 			},
 			damage: 30,
 		},

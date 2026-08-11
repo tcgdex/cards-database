@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Emboar",
-		fr: "Roitiflam",
+		'en-us': "Emboar",
+		'fr-fr': "Roitiflam",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Fire",
 	],
 	evolveFrom: {
-		en: "Pignite",
-		fr: "Grotichon",
+		'en-us': "Pignite",
+		'fr-fr': "Grotichon",
 	},
 	stage: "Stage2",
 
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Inferno Fandango",
+				'en-us': "Inferno Fandango",
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may attach a Fire Energy card from your hand to 1 of your Pokémon.",
+				'en-us': "As often as you like during your turn (before your attack), you may attach a Fire Energy card from your hand to 1 of your Pokémon.",
 			},
 		},
 	],
@@ -44,8 +44,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Crash",
-				fr: "Tacle Feu",
+				'en-us': "Heat Crash",
+				'fr-fr': "Tacle Feu",
 			},
 
 			damage: 80,
@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
+		'en-us': "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
 	},
 }
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヌケニン",
+		'ja-jp': "ヌケニン",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "ツチニンが 進化する ときに いつの間にか モンスターボールに 入っている 不思議な ポケモンだ。",
+		'ja-jp': "ツチニンが 進化する ときに いつの間にか モンスターボールに 入っている 不思議な ポケモンだ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "いのちのうつわ" },
 			effect: {
-				ja: "自分の番に1回使える。このポケモンについているカードをすべてトラッシュし、このポケモンを「ポケモンのどうぐ」として、自分のポケモンにつける。このカードをつけているポケモンがきぜつしたとき、相手がとるサイドは1枚少なくなる。",
+				'ja-jp': "自分の番に1回使える。このポケモンについているカードをすべてトラッシュし、このポケモンを「ポケモンのどうぐ」として、自分のポケモンにつける。このカードをつけているポケモンがきぜつしたとき、相手がとるサイドは1枚少なくなる。",
 			},
 		},
 	],
@@ -33,7 +33,7 @@ const card: Card = {
 			name: { ja: "のろう" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンに、ダメカンを3個のせる。",
+				'ja-jp': "相手のバトルポケモンに、ダメカンを3個のせる。",
 			},
 		},
 	],
@@ -51,7 +51,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ツチニン",
+		'ja-jp': "ツチニン",
 	},
 
 	retreat: 1,

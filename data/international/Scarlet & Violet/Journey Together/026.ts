@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "N's Darumaka",
-		fr: "Darumarond de N",
-		es: "Darumaka de N",
-		de: "Ns Flampion",
-		it: "Darumaka di N",
-		pt: "Darumaka do N",
+		'en-us': "N's Darumaka",
+		'fr-fr': "Darumarond de N",
+		'es-es': "Darumaka de N",
+		'de-de': "Ns Flampion",
+		'it-it': "Darumaka di N",
+		'pt-br': "Darumaka do N",
 		'es-mx': "Darumaka de N"
 	},
 
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Rolling Tackle",
-			fr: "Roulé-Boulé",
-			es: "Placaje Giro",
-			de: "Rolltackle",
-			it: "Rollazione",
-			pt: "Golpe de Colisão Rolante",
+			'en-us': "Rolling Tackle",
+			'fr-fr': "Roulé-Boulé",
+			'es-es': "Placaje Giro",
+			'de-de': "Rolltackle",
+			'it-it': "Rollazione",
+			'pt-br': "Golpe de Colisão Rolante",
 			'es-mx': "Tacleada Rodante"
 		},
 
@@ -39,12 +39,12 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Flare",
-			fr: "Flamboiement",
-			es: "Llama",
-			de: "Flackern",
-			it: "Fiammata",
-			pt: "Chama",
+			'en-us': "Flare",
+			'fr-fr': "Flamboiement",
+			'es-es': "Llama",
+			'de-de': "Flackern",
+			'it-it': "Fiammata",
+			'pt-br': "Chama",
 			'es-mx': "Llama"
 		},
 

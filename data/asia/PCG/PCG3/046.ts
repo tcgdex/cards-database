@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "onix",
+		'ja-jp': "onix",
 	},
 
 	rarity: "Uncommon",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ホーンラッシュ",
+				'ja-jp': "ホーンラッシュ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "花崗岩の頭",
+				'ja-jp': "花崗岩の頭",
 			},
 			effect: {
-				ja: "対戦相手の次のターン中に、攻撃によってOnixに与えられた損害は10増加します（脱力感と抵抗を適用した後）。",
+				'ja-jp': "対戦相手の次のターン中に、攻撃によってOnixに与えられた損害は10増加します（脱力感と抵抗を適用した後）。",
 			},
 			damage: 20,
 		},

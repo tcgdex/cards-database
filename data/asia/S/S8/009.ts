@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビリジオン",
+		'ja-jp': "ビリジオン",
 		'zh-tw': "畢力吉翁",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "素早い 身のこなしで 相手を 翻弄して ポケモンを 守ると 伝説で 伝えられている。",
+		'ja-jp': "素早い 身のこなしで 相手を 翻弄して ポケモンを 守ると 伝説で 伝えられている。",
 		'zh-tw': "傳說中，牠會以輕快的動作戲弄對手，並保護寶可夢。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "すくいだす",
+				'ja-jp': "すくいだす",
 				'zh-tw': "救出",
 			},
 			cost: ["Grass"],
 			effect: {
-				ja: "自分のトラッシュからポケモンを2枚まで選び、相手に見せて、手札に加える。",
+				'ja-jp': "自分のトラッシュからポケモンを2枚まで選び、相手に見せて、手札に加える。",
 				'zh-tw': "從自己的棄牌區選擇最多2張寶可夢卡，在給對手看過後加入手牌。",
 			},
 		},
 		{
 			name: {
-				ja: "ソーラービーム",
+				'ja-jp': "ソーラービーム",
 				'zh-tw': "日光束",
 			},
 			damage: 90,

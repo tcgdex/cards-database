@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Magnezone",
-		fr: "Magnézone",
-		de: "Magnezone"
+		'en-us': "Magnezone",
+		'fr-fr': "Magnézone",
+		'de-de': "Magnezone"
 	},
 
 	illustrator: "Noriko Hotta",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magneton",
-		fr: "Magneton"
+		'en-us': "Magneton",
+		'fr-fr': "Magneton"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Magnetic Draw",
-				fr: "Pioche magnétique",
-				de: "Magnet-Zieher"
+				'en-us': "Magnetic Draw",
+				'fr-fr': "Pioche magnétique",
+				'de-de': "Magnet-Zieher"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may draw cards until you have 6 cards in your hand. This power can't be used if Magnezone is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez piocher jusqu’à ce que vous ayez 6 cartes en main. Ce Poké-Power ne peut pas être utilisé si Magnézone est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du so viele Karten ziehen, bis du 6 Karten auf der Hand hast. Diese Poké-Power kann nicht benutzt werden, wenn Magnezone von einem Speziellen Zustand betroffen ist."
+				'en-us': "Once during your turn (before your attack), you may draw cards until you have 6 cards in your hand. This power can't be used if Magnezone is affected by a Special Condition.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez piocher jusqu’à ce que vous ayez 6 cartes en main. Ce Poké-Power ne peut pas être utilisé si Magnézone est affecté par un État Spécial.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du so viele Karten ziehen, bis du 6 Karten auf der Hand hast. Diese Poké-Power kann nicht benutzt werden, wenn Magnezone von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lost Burn",
-				fr: "Brûlure perdue",
-				de: "Brennendes Nirgendwo"
+				'en-us': "Lost Burn",
+				'fr-fr': "Brûlure perdue",
+				'de-de': "Brennendes Nirgendwo"
 			},
 			effect: {
-				en: "Put as many Energy cards attached to your Pokémon as you like in the Lost Zone. This attack does 50 damage times the number of Energy cards put in the Lost Zone in this way.",
-				fr: "Placez autant de cartes Énergie attachées à vos Pokémon que vous le souhaitez dans la Zone Perdue. Cette attaque inflige 50 dégâts multipliés par le nombre de cartes Énergie que vous avez ainsi placées dans la Zone Perdue.",
-				de: "Lege beliebig viele Energiekarten, die an deinen Pokémon angelegt sind, ins Nirgendwo. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl aller so ins Nirgendwo gelegten Energiekarten zu."
+				'en-us': "Put as many Energy cards attached to your Pokémon as you like in the Lost Zone. This attack does 50 damage times the number of Energy cards put in the Lost Zone in this way.",
+				'fr-fr': "Placez autant de cartes Énergie attachées à vos Pokémon que vous le souhaitez dans la Zone Perdue. Cette attaque inflige 50 dégâts multipliés par le nombre de cartes Énergie que vous avez ainsi placées dans la Zone Perdue.",
+				'de-de': "Lege beliebig viele Energiekarten, die an deinen Pokémon angelegt sind, ins Nirgendwo. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl aller so ins Nirgendwo gelegten Energiekarten zu."
 			},
 			damage: "50×",
 

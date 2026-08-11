@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [359],
 
 	name: {
-		en: "Absol",
-		fr: "Absol",
-		es: "Absol",
-		it: "Absol",
-		pt: "Absol",
-		de: "Absol"
+		'en-us': "Absol",
+		'fr-fr': "Absol",
+		'es-es': "Absol",
+		'it-it': "Absol",
+		'pt-br': "Absol",
+		'de-de': "Absol"
 	},
 
 	illustrator: "kodama",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Dark Cutter",
-				fr: "Tranch'Obscur",
-				es: "Cuchilla Oscura",
-				it: "Oscurotaglio",
-				pt: "Cortador de Escuridão",
-				de: "Dunkler Zerschneider"
+				'en-us': "Dark Cutter",
+				'fr-fr': "Tranch'Obscur",
+				'es-es': "Cuchilla Oscura",
+				'it-it': "Oscurotaglio",
+				'pt-br': "Cortador de Escuridão",
+				'de-de': "Dunkler Zerschneider"
 			},
 
 			damage: 70,
@@ -63,7 +63,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The elderly call it the disaster Pokémon and detest it, but interest in its power to predict disasters is on the rise."
+		'en-us': "The elderly call it the disaster Pokémon and detest it, but interest in its power to predict disasters is on the rise."
 	},
 
 	thirdParty: {

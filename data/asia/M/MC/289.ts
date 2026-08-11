@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団のスリーパー",
+		'ja-jp': "ロケット団のスリーパー",
 	},
 
 	illustrator: "Yuya Oka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "相手と 目が 合ったときに 催眠術など 数々の 超能力を 使うという。",
+		'ja-jp': "相手と 目が 合ったときに 催眠術など 数々の 超能力を 使うという。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "80×",
 			cost: ["Psychic", "Psychic", "Psychic"],
 			effect: {
-				ja: "相手は相手自身のベンチポケモンの数ぶんコインを投げる。相手のバトルポケモンに、ウラの数×80ダメージ。このワザのダメージは弱点・抵抗力を計算しない。",
+				'ja-jp': "相手は相手自身のベンチポケモンの数ぶんコインを投げる。相手のバトルポケモンに、ウラの数×80ダメージ。このワザのダメージは弱点・抵抗力を計算しない。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ロケット団のスリープ",
+		'ja-jp': "ロケット団のスリープ",
 	},
 
 	retreat: 2,

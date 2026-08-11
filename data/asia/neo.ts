@@ -1,8 +1,8 @@
-import { Serie } from '../interfaces'
+import { Serie } from 'models/database/serie'
 
 const serie: Serie = {
 	name: {
-		ja: 'ポケモンカード★neo'
+		'ja-jp': 'ポケモンカード★neo'
 	},
 	id: 'neo'
 }

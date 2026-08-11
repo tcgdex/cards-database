@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Marowak",
-		fr: "Ossatueur",
-		es: "Marowak",
-		it: "Marowak",
-		pt: "Marowak",
-		de: "Knogga"
+		'en-us': "Marowak",
+		'fr-fr': "Ossatueur",
+		'es-es': "Marowak",
+		'it-it': "Marowak",
+		'pt-br': "Marowak",
+		'de-de': "Knogga"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cubone",
-		fr: "Osselait",
+		'en-us': "Cubone",
+		'fr-fr': "Osselait",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Bone Lock",
-				fr: "Piège Osseux",
+				'en-us': "Bone Lock",
+				'fr-fr': "Piège Osseux",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 			damage: 30,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vortex Chop",
-				fr: "Coupe-Tourbillon",
+				'en-us': "Vortex Chop",
+				'fr-fr': "Coupe-Tourbillon",
 			},
 			effect: {
-				en: "If the Defending Pokémon has any Resistance, this attack does 30 more damage.",
-				fr: "Si le Pokémon Défenseur a une Résistance, cette attaque inflige 30 dégâts supplémentaires.",
+				'en-us': "If the Defending Pokémon has any Resistance, this attack does 30 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur a une Résistance, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: 60,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "From its birth, this savage Pokémon constantly holds bones. It is skilled in using them as weapons.",
+		'en-us': "From its birth, this savage Pokémon constantly holds bones. It is skilled in using them as weapons.",
 	},
 
 	thirdParty: {

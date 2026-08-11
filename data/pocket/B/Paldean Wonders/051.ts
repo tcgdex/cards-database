@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Espathra",
-		fr: "Cléopsytra",
-		es: "Espathra",
-		it: "Espathra",
-		pt: "Espathra",
-		de: "Psiopatra"
+		'en-us': "Espathra",
+		'fr-fr': "Cléopsytra",
+		'es-es': "Espathra",
+		'it-it': "Espathra",
+		'pt-br': "Espathra",
+		'de-de': "Psiopatra"
   },
   illustrator: "Sanosuke Sakuma",
   rarity: "Two Diamond",
@@ -18,12 +18,12 @@ const card: Card = {
   types: ["Psychic"],
   dexId: [956],
   evolveFrom: {
-		en: "Flittle",
-		fr: "Flotillon",
-		es: "Flittle",
-		it: "Flittle",
-		pt: "Flittle",
-		de: "Flattutu"
+		'en-us': "Flittle",
+		'fr-fr': "Flotillon",
+		'es-es': "Flittle",
+		'it-it': "Flittle",
+		'pt-br': "Flittle",
+		'de-de': "Flattutu"
   },
   description: {
     en: "It emits psychic power from the gaps between its multicolored frills and sprints at speeds greater than 120 mph.",

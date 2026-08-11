@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Giovanni's Pinsir"
+		'en-us': "Giovanni's Pinsir"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -28,10 +28,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Snapping Pincers"
+				'en-us': "Snapping Pincers"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage."
 			},
 			damage: "10+",
 
@@ -43,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Overhead Toss"
+				'en-us': "Overhead Toss"
 			},
 			effect: {
-				en: "If you have any Benched Pokémon, flip a coin. If tails, choose 1 of your Benched Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "If you have any Benched Pokémon, flip a coin. If tails, choose 1 of your Benched Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 40,
 

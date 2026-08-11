@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アーボック",
+		'ja-jp': "アーボック",
 	},
 
 	illustrator: "Minato",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "お腹の 模様が 怖い 顔に 見える。 弱い 敵は その模様を 見ただけで 逃げ出してしまう。",
+		'ja-jp': "お腹の 模様が 怖い 顔に 見える。 弱い 敵は その模様を 見ただけで 逃げ出してしまう。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "パニックどく" },
 			cost: ["Darkness"],
 			effect: {
-				ja: "相手のバトルポケモンをどくとやけどとこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをどくとやけどとこんらんにする。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アーボ",
+		'ja-jp': "アーボ",
 	},
 
 	retreat: 2,

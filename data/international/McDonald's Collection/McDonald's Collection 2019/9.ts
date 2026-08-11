@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2019'
 
 const card: Card = {
@@ -9,33 +9,33 @@ const card: Card = {
 	dexId: [95],
 
 	description: {
-		en: "It usually lives underground. It searches for food while boring its way through the ground at 50 miles per hour."
+		'en-us': "It usually lives underground. It searches for food while boring its way through the ground at 50 miles per hour."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Screech"
+			'en-us': "Screech"
 		},
 
 		effect: {
-			en: "During your next turn, the Defending Pokémon takes 20 more damage from attacks (after applying Weakness and Resistance)."
+			'en-us': "During your next turn, the Defending Pokémon takes 20 more damage from attacks (after applying Weakness and Resistance)."
 		}
 	}, {
 		name: {
-			en: "Rage"
+			'en-us': "Rage"
 		},
 
 		damage: "10+",
 
 		effect: {
-			en: "This attack does 10 more damage for each damage counter on this Pokémon."
+			'en-us': "This attack does 10 more damage for each damage counter on this Pokémon."
 		}
 	}],
 
 	name: {
-		en: "Onix"
+		'en-us': "Onix"
 	},
 
 	rarity: "None",

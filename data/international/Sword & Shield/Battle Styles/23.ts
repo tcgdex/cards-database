@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tepig",
-		fr: "Gruikui",
-		es: "Tepig",
-		it: "Tepig",
-		pt: "Tepig",
-		de: "Floink"
+		'en-us': "Tepig",
+		'fr-fr': "Gruikui",
+		'es-es': "Tepig",
+		'it-it': "Tepig",
+		'pt-br': "Tepig",
+		'de-de': "Floink"
 	},
 
 	illustrator: "You Iribi",
@@ -22,24 +22,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 20,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Combustion",
-			fr: "Fournaise",
-			es: "Combustión",
-			it: "Fuoco Continuo",
-			pt: "Combustão",
-			de: "Glühen"
+			'en-us': "Combustion",
+			'fr-fr': "Fournaise",
+			'es-es': "Combustión",
+			'it-it': "Fuoco Continuo",
+			'pt-br': "Combustão",
+			'de-de': "Glühen"
 		},
 
 		damage: 50,
@@ -58,7 +58,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It loves to eat roasted berries, but sometimes it gets too excited and burns them to a crisp."
+		'en-us': "It loves to eat roasted berries, but sometimes it gets too excited and burns them to a crisp."
 	},
 
 	variants: [

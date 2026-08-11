@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Maushold",
-		fr: "Famignol",
-		es: "Maushold",
-		it: "Maushold",
-		pt: "Maushold",
-		de: "Famieps"
+		'en-us': "Maushold",
+		'fr-fr': "Famignol",
+		'es-es': "Maushold",
+		'it-it': "Maushold",
+		'pt-br': "Maushold",
+		'de-de': "Famieps"
 	},
 
 	rarity: "Uncommon",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Tandemaus",
-		fr: "Compagnol"
+		'en-us': "Tandemaus",
+		'fr-fr': "Compagnol"
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Slap",
-			fr: "Gifle",
-			es: "Bofetón",
-			it: "Sberla",
-			pt: "Tapa",
-			de: "Hieb"
+			'en-us': "Slap",
+			'fr-fr': "Gifle",
+			'es-es': "Bofetón",
+			'it-it': "Sberla",
+			'pt-br': "Tapa",
+			'de-de': "Hieb"
 		},
 
 		damage: 40
@@ -43,21 +43,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Family Attack",
-			fr: "Attaque en Famille",
-			es: "Ataque en Familia",
-			it: "Attacco di Famiglia",
-			pt: "Ataque em Família",
-			de: "Familienangriff"
+			'en-us': "Family Attack",
+			'fr-fr': "Attaque en Famille",
+			'es-es': "Ataque en Familia",
+			'it-it': "Attacco di Famiglia",
+			'pt-br': "Ataque em Família",
+			'de-de': "Familienangriff"
 		},
 
 		effect: {
-			en: "This attack does 70 damage for each of your Maushold in play.",
-			fr: "Cette attaque inflige 70 dégâts pour chacun de vos Famignol en jeu.",
-			es: "Este ataque hace 70 puntos de daño por cada uno de tus Maushold en juego.",
-			it: "Questo attacco infligge 70 danni per ogni tuo Maushold in gioco.",
-			pt: "Este ataque causa 70 pontos de dano para cada um dos seus Maushold em jogo.",
-			de: "Diese Attacke fügt für jedes deiner Famieps im Spiel 70 Schadenspunkte zu."
+			'en-us': "This attack does 70 damage for each of your Maushold in play.",
+			'fr-fr': "Cette attaque inflige 70 dégâts pour chacun de vos Famignol en jeu.",
+			'es-es': "Este ataque hace 70 puntos de daño por cada uno de tus Maushold en juego.",
+			'it-it': "Questo attacco infligge 70 danni per ogni tuo Maushold in gioco.",
+			'pt-br': "Este ataque causa 70 pontos de dano para cada um dos seus Maushold em jogo.",
+			'de-de': "Diese Attacke fügt für jedes deiner Famieps im Spiel 70 Schadenspunkte zu."
 		},
 
 		damage: "70×"
@@ -84,7 +84,7 @@ const card: Card = {
 	illustrator: "KIYOTAKA OSHIYAMA",
 
 	description: {
-		en: "The larger pair protects the little ones during battles. When facing strong opponents, the whole group will join the fight.",
+		'en-us': "The larger pair protects the little ones during battles. When facing strong opponents, the whole group will join the fight.",
 	},
 
 	thirdParty: {

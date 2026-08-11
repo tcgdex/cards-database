@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Togetic",
-		fr: "Togetic"
+		'en-us': "Togetic",
+		'fr-fr': "Togetic"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Togepi"
+		'en-us': "Togepi"
 	},
 
 	description: {
-		en: "They say that it will appear before kindhearted,\ncaring people and shower them with happiness.",
-		fr: "On dit qu'il se montre aux personnes dotées d'un cœur pur pour leur apporter joie et bonheur."
+		'en-us': "They say that it will appear before kindhearted,\ncaring people and shower them with happiness.",
+		'fr-fr': "On dit qu'il se montre aux personnes dotées d'un cœur pur pour leur apporter joie et bonheur."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Speed Dive",
-			fr: "Plongée Rapide"
+			'en-us': "Speed Dive",
+			'fr-fr': "Plongée Rapide"
 		},
 
 		damage: 30,

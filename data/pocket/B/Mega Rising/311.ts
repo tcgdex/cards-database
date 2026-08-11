@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Alolan Diglett"
+		'en-us': "Alolan Diglett"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "The metal-rich geology of this Pokémon's habitat\ncaused it to develop steel whiskers on its head."
+		'en-us': "The metal-rich geology of this Pokémon's habitat\ncaused it to develop steel whiskers on its head."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Headbutt"
+			'en-us': "Headbutt"
 		},
 
 		damage: 20,

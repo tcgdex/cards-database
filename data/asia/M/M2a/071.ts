@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガサーナイトex",
+		'ja-jp': "メガサーナイトex",
 	},
 
 	illustrator: "takuyoa",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "あふれるねがい" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分のベンチポケモン全員に、山札から「基本[P]エネルギー」を1枚ずつつける。そして山札を切る。",
+				'ja-jp': "自分のベンチポケモン全員に、山札から「基本[P]エネルギー」を1枚ずつつける。そして山札を切る。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分のポケモン全員についている[P]エネルギーの数×50ダメージ。",
+				'ja-jp': "自分のポケモン全員についている[P]エネルギーの数×50ダメージ。",
 			},
 		},
 	],
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "キルリア",
+		'ja-jp': "キルリア",
 	},
 
 	retreat: 2,

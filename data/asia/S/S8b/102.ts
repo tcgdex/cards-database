@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デルビル",
+		'ja-jp': "デルビル",
 		'zh-tw': "戴魯比",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "夜明け前に 不気味な 遠吠えを 繰り返し 自分たちの 群れの 存在を アピール している。",
+		'ja-jp': "夜明け前に 不気味な 遠吠えを 繰り返し 自分たちの 群れの 存在を アピール している。",
 		'zh-tw': "會在天亮前反覆發出令人不寒而慄的長嚎，藉此強調 自己群體的存在。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かみつく",
+				'ja-jp': "かみつく",
 				'zh-tw': "咬住",
 			},
 			damage: 20,

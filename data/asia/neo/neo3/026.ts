@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラントン",
+		'ja-jp': "ラントン",
 	},
 
 	rarity: "Uncommon",
@@ -17,10 +17,10 @@ const card: Card = {
 	abilities: [
 		{
 			name: {
-				ja: "水没",
+				'ja-jp': "水没",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前）</em> </em>、ターンの終わりまでLanturnのタイプを水に変更することができます。 Lanturnが眠ったり、混乱したり、麻痺している場合、この力は使用できません。このパワーを使用した後にラントンが眠り、混乱し、麻痺した場合、そのタイプは稲妻に戻ります。",
+				'ja-jp': "ターン中に（攻撃の前）</em> </em>、ターンの終わりまでLanturnのタイプを水に変更することができます。 Lanturnが眠ったり、混乱したり、麻痺している場合、この力は使用できません。このパワーを使用した後にラントンが眠り、混乱し、麻痺した場合、そのタイプは稲妻に戻ります。",
 			},
 		}],
 
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless", "Colorless"],
 			name: {
-				ja: "盲目の光",
+				'ja-jp': "盲目の光",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
 			},
 			damage: 30,
 		},

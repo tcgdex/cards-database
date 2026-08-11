@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Jigglypuff",
-		fr: "Rondoudou",
+		'en-us': "Jigglypuff",
+		'fr-fr': "Rondoudou",
 	},
 	illustrator: "MAHOU",
 	rarity: "Common",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Continuous Tumble",
-				fr: "Roulade Continue",
+				'en-us': "Continuous Tumble",
+				'fr-fr': "Roulade Continue",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 10,
 
@@ -52,7 +52,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When it wavers its big, round eyes, it begins singing a lullaby that makes everyone drowsy.",
+		'en-us': "When it wavers its big, round eyes, it begins singing a lullaby that makes everyone drowsy.",
 	},
 }
 

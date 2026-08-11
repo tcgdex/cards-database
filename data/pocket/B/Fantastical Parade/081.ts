@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [68],
 
 	name: {
-		en: "Machamp"
+		'en-us': "Machamp"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Machoke"
+		'en-us': "Machoke"
 	},
 
 	description: {
-		en: "With four arms that react more quickly than it\ncan think, it can execute many punches at once."
+		'en-us': "With four arms that react more quickly than it\ncan think, it can execute many punches at once."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Knocking Hammer"
+			'en-us': "Knocking Hammer"
 		},
 
 		damage: 80,
 		cost: ["Fighting", "Fighting"],
 
 		effect: {
-			en: "Discard the top card of your opponent's deck."
+			'en-us': "Discard the top card of your opponent's deck."
 		}
 	}],
 

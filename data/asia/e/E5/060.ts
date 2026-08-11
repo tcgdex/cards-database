@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウィグリティフ",
+		'ja-jp': "ウィグリティフ",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "良い隣人",
+				'ja-jp': "良い隣人",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前に）一度、Wigglytuffがベンチにある場合、コインをひっくり返すことができます。ヘッドの場合、各プレイヤーはアクティブなPokmonから最大2つのダメージカウンターを削除します。このターンを既に別のWigglytuffのGood Neighbor Pok-Powerを使用している場合、このパワーは使用できません。",
+				'ja-jp': "ターン中（攻撃の前に）一度、Wigglytuffがベンチにある場合、コインをひっくり返すことができます。ヘッドの場合、各プレイヤーはアクティブなPokmonから最大2つのダメージカウンターを削除します。このターンを既に別のWigglytuffのGood Neighbor Pok-Powerを使用している場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "波をします",
+				'ja-jp': "波をします",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は、あなたがプレイしているポケモンの数を10回ダメージします。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は、あなたがプレイしているポケモンの数を10回ダメージします。",
 			},
 		},
 	],

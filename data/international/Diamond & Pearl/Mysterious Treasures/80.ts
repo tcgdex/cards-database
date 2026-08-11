@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Doduo",
-		fr: "Doduo",
-		de: "Dodu"
+		'en-us': "Doduo",
+		'fr-fr': "Doduo",
+		'de-de': "Dodu"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Stab",
-				fr: "Coup double",
-				de: "Doppelstich"
+				'en-us': "Double Stab",
+				'fr-fr': "Coup double",
+				'de-de': "Doppelstich"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "10x",
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Accelerating Stab",
-				fr: "Poignard accélérateur",
-				de: "Beschleunigter Stich"
+				'en-us': "Accelerating Stab",
+				'fr-fr': "Poignard accélérateur",
+				'de-de': "Beschleunigter Stich"
 			},
 			effect: {
-				en: "Doduo can't use Accelerating Stab during your next turn.",
-				fr: "Doduo ne peut pas utiliser Coup de poignard accélérateur lors de votre prochain tour.",
-				de: "Dodu kann Beschleunigter Stich in deinem nächsten Zug nicht einsetzen."
+				'en-us': "Doduo can't use Accelerating Stab during your next turn.",
+				'fr-fr': "Doduo ne peut pas utiliser Coup de poignard accélérateur lors de votre prochain tour.",
+				'de-de': "Dodu kann Beschleunigter Stich in deinem nächsten Zug nicht einsetzen."
 			},
 			damage: 30,
 
@@ -80,8 +80,8 @@ const card: Card = {
 
 
 	description: {
-		en: "The brains in its two heads appear to communicate emotions to each other with a telepathic power.",
-		fr: "Ses deux cerveaux semblent communiquer leurs émotions grâce à un lien télépathique."
+		'en-us': "The brains in its two heads appear to communicate emotions to each other with a telepathic power.",
+		'fr-fr': "Ses deux cerveaux semblent communiquer leurs émotions grâce à un lien télépathique."
 	},
 
 	thirdParty: {

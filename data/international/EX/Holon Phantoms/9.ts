@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Kabutops δ",
-		fr: "Kabutops δ",
-		de: "Kabutops"
+		'en-us': "Kabutops δ",
+		'fr-fr': "Kabutops δ",
+		'de-de': "Kabutops"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kabuto",
-		fr: "Kabuto"
+		'en-us': "Kabuto",
+		'fr-fr': "Kabuto"
 	},
 
 	stage: "Stage2",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vital Drain",
-				fr: "Évacuation vitale",
-				de: "Lebensentzieher"
+				'en-us': "Vital Drain",
+				'fr-fr': "Évacuation vitale",
+				'de-de': "Lebensentzieher"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Knocked Out by this attack, remove all Special Conditions and 7 damage counters from Kabutops (all if there are less than 7).",
-				fr: "Si le Pokémon Défenseur est mis K.O par cette attaque, retirez à Kabutops tous ses États Spéciaux ainsi que 7 marqueurs de dégât (retirez-les lui tous s'il en a moins de 7).",
-				de: "Wenn das Verteidigende Pokémon durch diesen Angriff kampfunfähig wird, entferne alle Speziellen Zustände und 7 Schadensmarken von Kabutops (alle, wenn weniger als 7 Schadensmarken auf Kabutops liegen)."
+				'en-us': "If the Defending Pokémon is Knocked Out by this attack, remove all Special Conditions and 7 damage counters from Kabutops (all if there are less than 7).",
+				'fr-fr': "Si le Pokémon Défenseur est mis K.O par cette attaque, retirez à Kabutops tous ses États Spéciaux ainsi que 7 marqueurs de dégât (retirez-les lui tous s'il en a moins de 7).",
+				'de-de': "Wenn das Verteidigende Pokémon durch diesen Angriff kampfunfähig wird, entferne alle Speziellen Zustände und 7 Schadensmarken von Kabutops (alle, wenn weniger als 7 Schadensmarken auf Kabutops liegen)."
 			},
 			damage: 30,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunderous Blow",
-				fr: "Coup tonitruant",
-				de: "Donnerknall"
+				'en-us': "Thunderous Blow",
+				'fr-fr': "Coup tonitruant",
+				'de-de': "Donnerknall"
 			},
 			effect: {
-				en: "Does 40 damage plus 10 more damage for each Lightning Energy attached to Kabutops.",
-				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Kabutops.",
-				de: "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Kabutops angelegte -Energie zu."
+				'en-us': "Does 40 damage plus 10 more damage for each Lightning Energy attached to Kabutops.",
+				'fr-fr': "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Kabutops.",
+				'de-de': "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Kabutops angelegte -Energie zu."
 			},
 			damage: "40+",
 

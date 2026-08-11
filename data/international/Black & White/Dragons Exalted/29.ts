@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Spheal",
-		fr: "Obalie",
-		es: "Spheal",
-		it: "Spheal",
-		pt: "Spheal",
-		de: "Seemops"
+		'en-us': "Spheal",
+		'fr-fr': "Obalie",
+		'es-es': "Spheal",
+		'it-it': "Spheal",
+		'pt-br': "Spheal",
+		'de-de': "Seemops"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Unstoppable Roll",
-				fr: "Roulade Obstinée",
+				'en-us': "Unstoppable Roll",
+				'fr-fr': "Roulade Obstinée",
 			},
 			effect: {
-				en: "Flip 2 coins. If both of them are heads, this attack does 30 more damage.",
-				fr: "Lancez 2 pièces. Si vous obtenez 2 côtés face, cette attaque inflige 30 dégâts supplémentaires.",
+				'en-us': "Flip 2 coins. If both of them are heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez 2 côtés face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: 10,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It rolls across ice floes to reach shore because its body is poorly shaped for swimming.",
+		'en-us': "It rolls across ice floes to reach shore because its body is poorly shaped for swimming.",
 	},
 
 	thirdParty: {

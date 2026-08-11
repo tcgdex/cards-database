@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Squirtle",
-		fr: "Carapuce",
-		de: "Schiggy"
+		'en-us': "Squirtle",
+		'fr-fr': "Carapuce",
+		'de-de': "Schiggy"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Biss"
 			},
 
 			damage: 10,
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Skull Bash",
-				fr: "Coud'krane",
-				de: "Schädelwumme"
+				'en-us': "Skull Bash",
+				'fr-fr': "Coud'krane",
+				'de-de': "Schädelwumme"
 			},
 
 			damage: 30,

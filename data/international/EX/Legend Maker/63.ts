@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legend Maker'
 
 const card: Card = {
 	name: {
-		en: "Shuppet",
-		fr: "Polichombr",
-		de: "Shuppet"
+		'en-us': "Shuppet",
+		'fr-fr': "Polichombr",
+		'de-de': "Shuppet"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 10,
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Will-o'-the-wisp",
-				fr: "Feu follet",
-				de: "Irrlicht"
+				'en-us': "Will-o'-the-wisp",
+				'fr-fr': "Feu follet",
+				'de-de': "Irrlicht"
 			},
 
 			damage: 20,

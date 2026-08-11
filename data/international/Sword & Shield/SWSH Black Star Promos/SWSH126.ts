@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
@@ -7,18 +7,18 @@ const card: Card = {
 	category: "Pokemon",
 
 	description: {
-		en: "Because Galarian Slowpoke eat the seeds of a plant that grows only in Galar, their tails have developed a spicy flavor."
+		'en-us': "Because Galarian Slowpoke eat the seeds of a plant that grows only in Galar, their tails have developed a spicy flavor."
 	},
 
 	stage: "Basic",
 
 	name: {
-		en: "Galarian Slowpoke",
-		fr: "Ramoloss de Galar",
-		de: "Galar-Flegmon",
-		es: "Slowpoke de Galar",
-		pt: "Slowpoke de Galar",
-		it: "Slowpoke di Galar"
+		'en-us': "Galarian Slowpoke",
+		'fr-fr': "Ramoloss de Galar",
+		'de-de': "Galar-Flegmon",
+		'es-es': "Slowpoke de Galar",
+		'pt-br': "Slowpoke de Galar",
+		'it-it': "Slowpoke di Galar"
 	},
 
 	rarity: "Promo",
@@ -30,32 +30,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Everyone Laze Around",
-			fr: "Flânerie Générale",
-			de: "Faules Rumhängen",
-			es: "Todos a Vaguear",
-			pt: "Preguiça Coletiva",
-			it: "Dolce Far Nulla"
+			'en-us': "Everyone Laze Around",
+			'fr-fr': "Flânerie Générale",
+			'de-de': "Faules Rumhängen",
+			'es-es': "Todos a Vaguear",
+			'pt-br': "Preguiça Coletiva",
+			'it-it': "Dolce Far Nulla"
 		},
 
 		effect: {
-			en: "Heal 10 damage from each of your Pokémon.",
-			fr: "Soignez 10 dégâts de chacun de vos Pokémon.",
-			de: "Heile 10 Schadenspunkte bei jedem deiner Pokémon.",
-			es: "Cura 10 puntos de daño a cada uno de tus Pokémon.",
-			pt: "Cure 10 pontos de dano de cada um dos seus Pokémon.",
-			it: "Cura ciascuno dei tuoi Pokémon da 10 danni."
+			'en-us': "Heal 10 damage from each of your Pokémon.",
+			'fr-fr': "Soignez 10 dégâts de chacun de vos Pokémon.",
+			'de-de': "Heile 10 Schadenspunkte bei jedem deiner Pokémon.",
+			'es-es': "Cura 10 puntos de daño a cada uno de tus Pokémon.",
+			'pt-br': "Cure 10 pontos de dano de cada um dos seus Pokémon.",
+			'it-it': "Cura ciascuno dei tuoi Pokémon da 10 danni."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Tail Whap",
-			fr: "Queue Battoir",
-			de: "Schweifvertrimmer",
-			es: "Coletón",
-			pt: "Surra de Cauda",
-			it: "Codabotta"
+			'en-us': "Tail Whap",
+			'fr-fr': "Queue Battoir",
+			'de-de': "Schweifvertrimmer",
+			'es-es': "Coletón",
+			'pt-br': "Surra de Cauda",
+			'it-it': "Codabotta"
 		},
 
 		damage: 30

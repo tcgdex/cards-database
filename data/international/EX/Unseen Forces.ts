@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../EX'
 
 const ex10: Set = {
 	id: "ex10",
 
 	name: {
-		en: "Unseen Forces",
-		fr: "EX Forces Cachées",
-		es: "EX Fuerzas Ocultas",
-		it: "EX Forze Segrete",
-		de: "EX Verborgene Mächte",
-		pt: "EX Forças Ocultas"
+		'en-us': "Unseen Forces",
+		'fr-fr': "EX Forces Cachées",
+		'es-es': "EX Fuerzas Ocultas",
+		'it-it': "EX Forze Segrete",
+		'de-de': "EX Verborgene Mächte",
+		'pt-br': "EX Forças Ocultas"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const ex10: Set = {
 
 	abbreviations: {
 		official: "UF",
-		fr: "FCH"
+		'fr-fr': "FCH"
 	},
 
 	thirdParty: {

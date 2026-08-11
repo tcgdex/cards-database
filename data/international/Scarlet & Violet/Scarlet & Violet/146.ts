@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zangoose",
-		fr: "Mangriff",
-		es: "Zangoose",
-		it: "Zangoose",
-		pt: "Zangoose",
-		de: "Sengo"
+		'en-us': "Zangoose",
+		'fr-fr': "Mangriff",
+		'es-es': "Zangoose",
+		'it-it': "Zangoose",
+		'pt-br': "Zangoose",
+		'de-de': "Sengo"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Slash",
-			fr: "Tranche",
-			es: "Cuchillada",
-			it: "Lacerazione",
-			pt: "Talho",
-			de: "Schlitzer"
+			'en-us': "Slash",
+			'fr-fr': "Tranche",
+			'es-es': "Cuchillada",
+			'it-it': "Lacerazione",
+			'pt-br': "Talho",
+			'de-de': "Schlitzer"
 		},
 
 		damage: 40
@@ -56,7 +56,7 @@ const card: Card = {
 	illustrator: "Yuya Oka",
 
 	description: {
-		en: "The eggs it lays are filled with happiness. Eating even one bite will bring a smile to anyone.",
+		'en-us': "The eggs it lays are filled with happiness. Eating even one bite will bring a smile to anyone.",
 	},
 
 	thirdParty: {

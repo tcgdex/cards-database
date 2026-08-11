@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Magby"
+		'id-id': "Magby"
 	},
 
 	illustrator: "Mina Nakai",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Magby tinggal di sekitar gunung berapi. Saat hari berakhir, Pokémon ini berendam di magma untuk menyembuhkan kelelahannya."
+		'id-id': "Magby tinggal di sekitar gunung berapi. Saat hari berakhir, Pokémon ini berendam di magma untuk menyembuhkan kelelahannya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Pemanas Berangsur-angsur"
+			'id-id': "Pemanas Berangsur-angsur"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, saat Pokémon ini menerima kerusakan akibat serangan, letakkan 6 Token Kerusakan pada Pokémon yang telah menggunakan serangan."
+			'id-id': "Pada giliran lawan berikutnya, saat Pokémon ini menerima kerusakan akibat serangan, letakkan 6 Token Kerusakan pada Pokémon yang telah menggunakan serangan."
 		}
 	}],
 

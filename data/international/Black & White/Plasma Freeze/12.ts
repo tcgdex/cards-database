@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Flareon",
-		fr: "Pyroli",
-		es: "Flareon",
-		it: "Flareon",
-		pt: "Flareon",
-		de: "Flamara"
+		'en-us': "Flareon",
+		'fr-fr': "Pyroli",
+		'es-es': "Flareon",
+		'it-it': "Flareon",
+		'pt-br': "Flareon",
+		'de-de': "Flamara"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vengeance",
-				fr: "Rétorsion",
+				'en-us': "Vengeance",
+				'fr-fr': "Rétorsion",
 			},
 			effect: {
-				en: "Does 10 more damage for each Pokémon in your discard pile.",
-				fr: "Inflige 10 dégâts supplémentaires pour chaque Pokémon dans votre pile de défausse.",
+				'en-us': "Does 10 more damage for each Pokémon in your discard pile.",
+				'fr-fr': "Inflige 10 dégâts supplémentaires pour chaque Pokémon dans votre pile de défausse.",
 			},
 			damage: 20,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Tackle",
-				fr: "Charge Énergétique",
+				'en-us': "Heat Tackle",
+				'fr-fr': "Charge Énergétique",
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				'en-us': "This Pokémon does 10 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 10 dégâts.",
 			},
 			damage: 90,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Inhaled air is carried to its flame sac, heated, and exhaled as fire that reaches over 3,000 degrees F.",
+		'en-us': "Inhaled air is carried to its flame sac, heated, and exhaled as fire that reaches over 3,000 degrees F.",
 	},
 
 	thirdParty: {

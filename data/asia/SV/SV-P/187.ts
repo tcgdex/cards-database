@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カバルドン",
+		'ja-jp': "カバルドン",
 	},
 
 	illustrator: "Minahamu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "大きく 口を 開けて 自分の 強さを アピール。 大量の 砂を 巻き上げて 攻撃する。",
+		'ja-jp': "大きく 口を 開けて 自分の 強さを アピール。 大量の 砂を 巻き上げて 攻撃する。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "ダメカンがのっているおたがいのベンチポケモン全員にも、それぞれ40ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "ダメカンがのっているおたがいのベンチポケモン全員にも、それぞれ40ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒポポタス",
+		'ja-jp': "ヒポポタス",
 	},
 
 	retreat: 4,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Galarian Perrserker V",
-		fr: "Berserkatt de Galar V",
-		es: "Perrserker de Galar V",
-		it: "Perrserker di Galar V",
-		pt: "Perrserker de Galar V",
-		de: "Galar-Mauzinger V"
+		'en-us': "Galarian Perrserker V",
+		'fr-fr': "Berserkatt de Galar V",
+		'es-es': "Perrserker de Galar V",
+		'it-it': "Perrserker di Galar V",
+		'pt-br': "Perrserker de Galar V",
+		'de-de': "Galar-Mauzinger V"
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -26,41 +26,41 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Feelin' Fine",
-			fr: "Mode Cool",
-			es: "Buen Rollito",
-			it: "Tuttobene",
-			pt: "Sensação Boa",
-			de: "Wohl fühlen"
+			'en-us': "Feelin' Fine",
+			'fr-fr': "Mode Cool",
+			'es-es': "Buen Rollito",
+			'it-it': "Tuttobene",
+			'pt-br': "Sensação Boa",
+			'de-de': "Wohl fühlen"
 		},
 
 		effect: {
-			en: "Draw 3 cards.",
-			fr: "Piochez 3 cartes.",
-			es: "Roba 3 cartas.",
-			it: "Pesca tre carte.",
-			pt: "Compre 3 cartas.",
-			de: "Ziehe 3 Karten."
+			'en-us': "Draw 3 cards.",
+			'fr-fr': "Piochez 3 cartes.",
+			'es-es': "Roba 3 cartas.",
+			'it-it': "Pesca tre carte.",
+			'pt-br': "Compre 3 cartas.",
+			'de-de': "Ziehe 3 Karten."
 		}
 	}, {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			en: "Treasure Rush",
-			fr: "Ruée au Trésor",
-			es: "Embestida Tesoro",
-			it: "Sfrecciatesoro",
-			pt: "Corrida ao Tesouro",
-			de: "Schatzhatz"
+			'en-us': "Treasure Rush",
+			'fr-fr': "Ruée au Trésor",
+			'es-es': "Embestida Tesoro",
+			'it-it': "Sfrecciatesoro",
+			'pt-br': "Corrida ao Tesouro",
+			'de-de': "Schatzhatz"
 		},
 
 		effect: {
-			en: "This attack does 20 damage for each card in your hand.",
-			fr: "Cette attaque inflige 20 dégâts pour chaque carte dans votre main.",
-			es: "Este ataque hace 20 puntos de daño por cada carta en tu mano.",
-			it: "Questo attacco infligge 20 danni per ogni carta nella tua mano.",
-			pt: "Este ataque causa 20 pontos de dano para cada carta na sua mão.",
-			de: "Diese Attacke fügt für jede Karte auf deiner Hand 20 Schadenspunkte zu."
+			'en-us': "This attack does 20 damage for each card in your hand.",
+			'fr-fr': "Cette attaque inflige 20 dégâts pour chaque carte dans votre main.",
+			'es-es': "Este ataque hace 20 puntos de daño por cada carta en tu mano.",
+			'it-it': "Questo attacco infligge 20 danni per ogni carta nella tua mano.",
+			'pt-br': "Este ataque causa 20 pontos de dano para cada carta na sua mão.",
+			'de-de': "Diese Attacke fügt für jede Karte auf deiner Hand 20 Schadenspunkte zu."
 		},
 
 		damage: "20×"

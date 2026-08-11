@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カラカラ",
+		'ja-jp': "カラカラ",
 	},
 
 	illustrator: "sowsow",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "頭に 被った 頭がい骨は 死んだ 母親。 死の 悲しみを 乗り越えたとき 進化する という。",
+		'ja-jp': "頭に 被った 頭がい骨は 死んだ 母親。 死の 悲しみを 乗り越えたとき 進化する という。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],

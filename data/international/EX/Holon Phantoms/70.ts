@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Mankey δ",
-		fr: "Férosinge δ",
-		de: "Menki"
+		'en-us': "Mankey δ",
+		'fr-fr': "Férosinge δ",
+		'de-de': "Menki"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Paralyzing Gaze",
-				fr: "Regard paralysant",
-				de: "Lähmender Blick"
+				'en-us': "Paralyzing Gaze",
+				'fr-fr': "Regard paralysant",
+				'de-de': "Lähmender Blick"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage",
-				de: "Fußkick"
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage",
+				'de-de': "Fußkick"
 			},
 
 			damage: 20,

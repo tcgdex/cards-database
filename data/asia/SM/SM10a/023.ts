@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガバイト",
+		'ja-jp': "ガバイト",
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "光るものが 大好き。 メレシーを 狙う ヤミラミを 見つけると 激しく 怒って 襲いかかる。",
+		'ja-jp': "光るものが 大好き。 メレシーを 狙う ヤミラミを 見つけると 激しく 怒って 襲いかかる。",
 	},
 
 	stage: "Stage1",
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "フカマル",
+		'ja-jp': "フカマル",
 	},
 
 	retreat: 1,

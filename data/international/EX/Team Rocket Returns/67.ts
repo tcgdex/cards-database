@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Mareep",
-		de: "Voltilamm"
+		'en-us': "Mareep",
+		'de-de': "Voltilamm"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Minor Errand-Running",
-				de: "Minor Errand-Running"
+				'en-us': "Minor Errand-Running",
+				'de-de': "Minor Errand-Running"
 			},
 			effect: {
-				en: "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				de: "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+				'en-us': "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'de-de': "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
 			},
 
 		},
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				de: "Quick Attack"
+				'en-us': "Quick Attack",
+				'de-de': "Quick Attack"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
-				de: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				'de-de': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
 			},
 			damage: "10+",
 

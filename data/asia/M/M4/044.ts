@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴマゾウ",
+		'ja-jp': "ゴマゾウ",
 	},
 
 	illustrator: "Akino Fukuji",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "見た目より ずっと 力持ち。 振りまわす 鼻に ぶつかると 腕の 骨が もっていかれる。",
+		'ja-jp': "見た目より ずっと 力持ち。 振りまわす 鼻に ぶつかると 腕の 骨が もっていかれる。",
 	},
 
 	stage: "Basic",

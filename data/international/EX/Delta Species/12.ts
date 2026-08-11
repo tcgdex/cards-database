@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo δ",
-		fr: "Mewtwo δ",
-		de: "Mewtu"
+		'en-us': "Mewtwo δ",
+		'fr-fr': "Mewtwo δ",
+		'de-de': "Mewtu"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -30,14 +30,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Delta Switch",
-				fr: "Échange Delta",
-				de: "Delta Switch"
+				'en-us': "Delta Switch",
+				'fr-fr': "Échange Delta",
+				'de-de': "Delta Switch"
 			},
 			effect: {
-				en: "Once during your turn, when you put Mewtwo from your hand onto your Bench, you may move any number of basic Energy cards attached to your Pokémon to your other Pokémon (excluding Mewtwo) in any way you like.",
-				fr: "Une seule fois lors de votre tour, lorsque vous placez Mewtwo de votre main sur votre Banc, vous pouvez déplacer autant de cartes Énergie de base attachées à vos Pokémon que vous voulez sur vos autres Pokémon (Mewtwo excepté) de la façon que vous voulez.",
-				de: "Once during your turn, when you put Mewtwo from your hand onto your Bench, you may move any number of basic Energy cards attached to your Pokémon to your other Pokémon (excluding Mewtwo) in any way you like."
+				'en-us': "Once during your turn, when you put Mewtwo from your hand onto your Bench, you may move any number of basic Energy cards attached to your Pokémon to your other Pokémon (excluding Mewtwo) in any way you like.",
+				'fr-fr': "Une seule fois lors de votre tour, lorsque vous placez Mewtwo de votre main sur votre Banc, vous pouvez déplacer autant de cartes Énergie de base attachées à vos Pokémon que vous voulez sur vos autres Pokémon (Mewtwo excepté) de la façon que vous voulez.",
+				'de-de': "Once during your turn, when you put Mewtwo from your hand onto your Bench, you may move any number of basic Energy cards attached to your Pokémon to your other Pokémon (excluding Mewtwo) in any way you like."
 			},
 		},
 	],
@@ -49,14 +49,14 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Energy Burst",
-				fr: "Explosion d'énergie",
-				de: "Energieausbruch"
+				'en-us': "Energy Burst",
+				'fr-fr': "Explosion d'énergie",
+				'de-de': "Energieausbruch"
 			},
 			effect: {
-				en: "Does 10 damage times the total amount of Energy attached to Mewtwo and the Defending Pokémon.",
-				fr: "Inflige 10 dégâts multipliés par le nombre total d'Énergie attachées à Mewtwo et au Pokémon Défenseur.",
-				de: "Dieser Angriff fügt für jede Energie, die an Mewtu und dem Verteidigenden Pokémon angelegt ist, 10 Schadenspunkte zu."
+				'en-us': "Does 10 damage times the total amount of Energy attached to Mewtwo and the Defending Pokémon.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre total d'Énergie attachées à Mewtwo et au Pokémon Défenseur.",
+				'de-de': "Dieser Angriff fügt für jede Energie, die an Mewtu und dem Verteidigenden Pokémon angelegt ist, 10 Schadenspunkte zu."
 			},
 			damage: "10x",
 

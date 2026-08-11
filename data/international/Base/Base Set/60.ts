@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Ponyta",
-		fr: "Ponyta",
-		de: "Ponita",
-		it: "Ponyta"
+		'en-us': "Ponyta",
+		'fr-fr': "Ponyta",
+		'de-de': "Ponita",
+		'it-it': "Ponyta"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Kick",
-				fr: "Ruade",
-				de: "Schmetterkick",
-				it: "Calcio esplosivo"
+				'en-us': "Smash Kick",
+				'fr-fr': "Ruade",
+				'de-de': "Schmetterkick",
+				'it-it': "Calcio esplosivo"
 			},
 
 			damage: 20,
@@ -48,10 +48,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flame Tail",
-				fr: "Queue de flamme",
-				de: "Flammenpfad",
-				it: "Coda-fiamma"
+				'en-us': "Flame Tail",
+				'fr-fr': "Queue de flamme",
+				'de-de': "Flammenpfad",
+				'it-it': "Coda-fiamma"
 			},
 
 			damage: 30,
@@ -69,9 +69,9 @@ const card: Card = {
 
 
 	description: {
-		en: "Its hooves are 10 times harder than diamonds. It can trample anything flat in moments.",
-		fr: "Ses sabots sont plus résistants que le diamant. Il peut aplatir n'importe quoi en le piétinant.",
-		it: "I suoi zoccoli sono più duri dei diamanti e schiacciano qualsiasi ostacolo in pochi secondi. LIV 10 N.77"
+		'en-us': "Its hooves are 10 times harder than diamonds. It can trample anything flat in moments.",
+		'fr-fr': "Ses sabots sont plus résistants que le diamant. Il peut aplatir n'importe quoi en le piétinant.",
+		'it-it': "I suoi zoccoli sono più duri dei diamanti e schiacciano qualsiasi ostacolo in pochi secondi. LIV 10 N.77"
 	},
 
 	variants: [

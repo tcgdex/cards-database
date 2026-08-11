@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2016'
 
 const card: Card = {
@@ -9,7 +9,7 @@ const card: Card = {
 	dexId: [255],
 
 	description: {
-		en: "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees Fahrenheit."
+		'en-us': "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees Fahrenheit."
 	},
 
 	hp: 60,
@@ -19,21 +19,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Ember",
-			fr: "Flammèche"
+			'en-us': "Ember",
+			'fr-fr': "Flammèche"
 		},
 
 		damage: 20,
 
 		effect: {
-			en: "Flip a coin. If tails, discard a Fire Energy attached to this Pokémon.",
-			fr: "Lancez une pièce. Si c'est pile défaussez une Énergie  attachée à ce Pokémon."
+			'en-us': "Flip a coin. If tails, discard a Fire Energy attached to this Pokémon.",
+			'fr-fr': "Lancez une pièce. Si c'est pile défaussez une Énergie  attachée à ce Pokémon."
 		}
 	}],
 
 	name: {
-		en: "Torchic",
-		fr: "Poussifeu"
+		'en-us': "Torchic",
+		'fr-fr': "Poussifeu"
 	},
 
 	rarity: "None",

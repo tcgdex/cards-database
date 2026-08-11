@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サンダース",
+		'ja-jp': "サンダース",
 	},
 
 	illustrator: "Yuu Nishida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "怒ったり 驚いたりすると 全身の 毛が 針の ように 逆立って 相手を つらぬく。",
+		'ja-jp': "怒ったり 驚いたりすると 全身の 毛が 針の ように 逆立って 相手を つらぬく。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "たいでん" },
 			cost: ["Lightning"],
 			effect: {
-				ja: "自分のトラッシュから[雷]エネルギーを1枚選び、このポケモンにつける。",
+				'ja-jp': "自分のトラッシュから[雷]エネルギーを1枚選び、このポケモンにつける。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 0,

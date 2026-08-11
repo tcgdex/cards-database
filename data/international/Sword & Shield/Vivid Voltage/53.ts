@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [522],
 
 	name: {
-		en: "Blitzle",
-		fr: "Zébibron",
-		es: "Blitzle",
-		it: "Blitzle",
-		pt: "Blitzle",
-		de: "Elezeba"
+		'en-us': "Blitzle",
+		'fr-fr': "Zébibron",
+		'es-es': "Blitzle",
+		'it-it': "Blitzle",
+		'pt-br': "Blitzle",
+		'de-de': "Elezeba"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Zap Kick",
-				fr: "Coup de Pied Ravageur",
-				es: "Electropatada",
-				it: "Dinamocalcio",
-				pt: "Chute Zap",
-				de: "Stromtritt"
+				'en-us': "Zap Kick",
+				'fr-fr': "Coup de Pied Ravageur",
+				'es-es': "Electropatada",
+				'it-it': "Dinamocalcio",
+				'pt-br': "Chute Zap",
+				'de-de': "Stromtritt"
 			},
 
 			damage: 20,
@@ -56,7 +56,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate."
+		'en-us': "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate."
 	},
 
 	variants: [

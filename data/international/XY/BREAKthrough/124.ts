@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Swablu",
-		fr: "Tylton",
-		es: "Swablu",
-		it: "Swablu",
-		pt: "Swablu",
-		de: "Wablu"
+		'en-us': "Swablu",
+		'fr-fr': "Tylton",
+		'es-es': "Swablu",
+		'it-it': "Swablu",
+		'pt-br': "Swablu",
+		'de-de': "Wablu"
 	},
 
 	illustrator: "Mizue",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bind Wound",
-				fr: "Blessure Pansée",
-				es: "Vendar Herida",
-				it: "Cura Ferite",
-				pt: "Ligar Ferida",
-				de: "Wunden verbinden"
+				'en-us': "Bind Wound",
+				'fr-fr': "Blessure Pansée",
+				'es-es': "Vendar Herida",
+				'it-it': "Cura Ferite",
+				'pt-br': "Ligar Ferida",
+				'de-de': "Wunden verbinden"
 			},
 			effect: {
-				en: "Heal 20 damage from 1 of your Pokémon.",
-				fr: "Soignez 20 dégâts à l'un de vos Pokémon.",
-				es: "Cura 20 puntos de daño a 1 de tus Pokémon.",
-				it: "Cura uno dei tuoi Pokémon da 20 danni.",
-				pt: "Cure 20 de danos de 1 dos seus Pokémon.",
-				de: "Heile 20 Schadenspunkte bei 1 deiner Pokémon."
+				'en-us': "Heal 20 damage from 1 of your Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à l'un de vos Pokémon.",
+				'es-es': "Cura 20 puntos de daño a 1 de tus Pokémon.",
+				'it-it': "Cura uno dei tuoi Pokémon da 20 danni.",
+				'pt-br': "Cure 20 de danos de 1 dos seus Pokémon.",
+				'de-de': "Heile 20 Schadenspunkte bei 1 deiner Pokémon."
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty.",
+		'en-us': "It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty.",
 	},
 
 	thirdParty: {

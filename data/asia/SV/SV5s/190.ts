@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Raging Bolt ex"
+		'id-id': "Raging Bolt ex"
 	},
 
 	illustrator: "Teeziro",
@@ -17,21 +17,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Letusan Raungan"
+			'id-id': "Letusan Raungan"
 		},
 
 		effect: {
-			id: "Buang semua Kartu Pegangan sendiri ke Trash, lalu ambil 6 kartu dari atas Deck."
+			'id-id': "Buang semua Kartu Pegangan sendiri ke Trash, lalu ambil 6 kartu dari atas Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Guntur Membahana Ekstrem"
+			'id-id': "Guntur Membahana Ekstrem"
 		},
 
 		effect: {
-			id: "Buang sesukanya Energi Dasar yang dikenakan pada Pokémon di Arena sendiri ke Trash, serangan ini memberikan kerusakan sejumlah 70 untuk tiap lembarnya."
+			'id-id': "Buang sesukanya Energi Dasar yang dikenakan pada Pokémon di Arena sendiri ke Trash, serangan ini memberikan kerusakan sejumlah 70 untuk tiap lembarnya."
 		},
 
 		damage: "70×",

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "凍原熊",
-		ja: "ツンベアー"
+		'ja-jp': "ツンベアー"
 	},
 
 	illustrator: "Rianti Hidayat",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "吐出的氣息凍結而成的冰牙比鋼鐵還硬。為了尋找食物， 會在寒冷的海裡游動徘徊。",
-		ja: "吐息を 凍らせ つくった キバは 鋼より 硬い。 寒い 海を エサを 探して 泳ぎまわる。"
+		'ja-jp': "吐息を 凍らせ つくった キバは 鋼より 硬い。 寒い 海を エサを 探して 泳ぎまわる。"
 	},
 
 	stage: "Stage1",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "絕對零度",
-			ja: "ぜったいれいど"
+			'ja-jp': "ぜったいれいど"
 		},
 
 		effect: {
 			'zh-tw': "在下個對手的回合，受到這個招式的寶可夢無法使用招式。",
-			ja: "次の相手の番、このワザを受けたポケモンは、ワザが使えない。"
+			'ja-jp': "次の相手の番、このワザを受けたポケモンは、ワザが使えない。"
 		},
 
 		damage: 40,
@@ -37,7 +37,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "冰霜粉碎",
-			ja: "フロストスマッシュ"
+			'ja-jp': "フロストスマッシュ"
 		},
 
 		damage: 130,

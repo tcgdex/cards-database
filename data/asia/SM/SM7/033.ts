@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラクライ",
+		'ja-jp': "ラクライ",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "静電気を 体毛に たくわえて 放電する。 嵐が 近づくと 全身から 火花を 散らす。",
+		'ja-jp': "静電気を 体毛に たくわえて 放電する。 嵐が 近づくと 全身から 火花を 散らす。",
 	},
 
 	stage: "Basic",

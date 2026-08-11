@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポケモンいれかえ",
+		'ja-jp': "ポケモンいれかえ",
 		'zh-tw': "迷你芙",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のバトルポケモンをベンチポケモンと入れ替える。",
+		'ja-jp': "自分のバトルポケモンをベンチポケモンと入れ替える。",
 	},
 
 	variants: [

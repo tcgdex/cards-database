@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hau",
-		fr: "Tili"
+		'en-us': "Hau",
+		'fr-fr': "Tili"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -14,8 +14,8 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "During this turn, attacks used by your Decidueye ex, Incineroar ex, or Primarina ex do +30 damage to your opponent's Active Pokémon.",
-		fr: "Pendant ce tour, les attaques de votre , votre  ou votre  infligent + 30 dégâts au Pokémon Actif de votre adversaire."
+		'en-us': "During this turn, attacks used by your Decidueye ex, Incineroar ex, or Primarina ex do +30 damage to your opponent's Active Pokémon.",
+		'fr-fr': "Pendant ce tour, les attaques de votre , votre  ou votre  infligent + 30 dégâts au Pokémon Actif de votre adversaire."
 	},
 
 	trainerType: "Supporter"

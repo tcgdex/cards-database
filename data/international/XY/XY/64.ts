@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Solrock",
-		fr: "Solaroc",
-		es: "Solrock",
-		it: "Solrock",
-		pt: "Solrock",
-		de: "Sonnfel"
+		'en-us': "Solrock",
+		'fr-fr': "Solaroc",
+		'es-es': "Solrock",
+		'it-it': "Solrock",
+		'pt-br': "Solrock",
+		'de-de': "Sonnfel"
 	},
 
 	illustrator: "kawayoo",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cosmic Spin",
-				fr: "Pirouette Cosmique",
-				es: "Giro Cósmico",
-				it: "Cosmogiro",
-				pt: "Giro Cósmico",
-				de: "Kosmischer Dreher"
+				'en-us': "Cosmic Spin",
+				'fr-fr': "Pirouette Cosmique",
+				'es-es': "Giro Cósmico",
+				'it-it': "Cosmogiro",
+				'pt-br': "Giro Cósmico",
+				'de-de': "Kosmischer Dreher"
 			},
 			effect: {
-				en: "If Lunatone is on your Bench, this attack does 30 more damage.",
-				fr: "Si Séléroc est sur votre Banc, cette attaque inflige 30 dégâts supplémentaires.",
-				es: "Si Lunatone está en tu Banca, este ataque hace 30 puntos de daño más.",
-				it: "Se Lunatone è nella tua panchina, questo attacco infligge 30 danni in più.",
-				pt: "Se Lunatone estiver em seu Banco, esse ataque causará 30 de danos adicionais.",
-				de: "Wenn sich Lunastein auf deiner Bank befindet, fügt dieser Angriff 30 weitere Schadenspunkte zu."
+				'en-us': "If Lunatone is on your Bench, this attack does 30 more damage.",
+				'fr-fr': "Si Séléroc est sur votre Banc, cette attaque inflige 30 dégâts supplémentaires.",
+				'es-es': "Si Lunatone está en tu Banca, este ataque hace 30 puntos de daño más.",
+				'it-it': "Se Lunatone è nella tua panchina, questo attacco infligge 30 danni in più.",
+				'pt-br': "Se Lunatone estiver em seu Banco, esse ataque causará 30 de danos adicionais.",
+				'de-de': "Wenn sich Lunastein auf deiner Bank befindet, fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Solar Beam",
-				fr: "Lance-Soleil",
-				es: "Rayo Solar",
-				it: "Solarraggio",
-				pt: "Raio Solar",
-				de: "Solarstrahl"
+				'en-us': "Solar Beam",
+				'fr-fr': "Lance-Soleil",
+				'es-es': "Rayo Solar",
+				'it-it': "Solarraggio",
+				'pt-br': "Raio Solar",
+				'de-de': "Solarstrahl"
 			},
 
 			damage: 60,
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Solar energy is the source of its power, so it is strong during the daytime. When it spins, its body shines.",
+		'en-us': "Solar energy is the source of its power, so it is strong during the daytime. When it spins, its body shines.",
 	},
 
 	thirdParty: {

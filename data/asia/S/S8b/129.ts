@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤレユータン",
+		'ja-jp': "ヤレユータン",
 		'zh-tw': "智揮猩",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "森の 隅々まで 知り尽くし 傷ついた ポケモンが いると 薬草を 探して 治療する。",
+		'ja-jp': "森の 隅々まで 知り尽くし 傷ついた ポケモンが いると 薬草を 探して 治療する。",
 		'zh-tw': "對森林的各個角落都瞭若指掌。如果有寶可夢受傷了，就會去尋找藥草為牠們治療。",
 	},
 
@@ -24,11 +24,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "さるぢえ",
+				'ja-jp': "さるぢえ",
 				'zh-tw': "小聰明",
 			},
 			effect: {
-				ja: "自分の番に1回使える。自分の手札を1枚選び、山札の上のカードと入れ替える。",
+				'ja-jp': "自分の番に1回使える。自分の手札を1枚選び、山札の上のカードと入れ替える。",
 				'zh-tw': "在自己的回合時，可使用1次。選擇1張自己的手牌，與牌庫上方的卡互換。",
 			},
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "はりたおす",
+				'ja-jp': "はりたおす",
 				'zh-tw': "擊倒",
 			},
 			damage: 70,

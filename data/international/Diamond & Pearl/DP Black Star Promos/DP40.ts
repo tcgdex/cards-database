@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../DP Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Regigigas",
-		fr: "Regigigas",
-		de: "Regigigas"
+		'en-us': "Regigigas",
+		'fr-fr': "Regigigas",
+		'de-de': "Regigigas"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -33,14 +33,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drag Off",
-				fr: "Traîne",
-				de: "Wegzerren"
+				'en-us': "Drag Off",
+				'fr-fr': "Traîne",
+				'de-de': "Wegzerren"
 			},
 			effect: {
-				en: "Before doing damage, you may choose 1 of your opponent's Benched Pokémon and switch it with 1 of the Defending Pokémon.",
-				fr: "Avant d'infliger des dégâts, vous pouvez choisir 1 des Pokémon de Banc de votre adversaire et l'échanger avec le Pokémon Défenseur.",
-				de: "Bevor der Schaden zugefügt wird, kannst du 1 Pokémon auf der Bank deines Gegners wählen und es gegen das Verteidigende Pokémon austauschen."
+				'en-us': "Before doing damage, you may choose 1 of your opponent's Benched Pokémon and switch it with 1 of the Defending Pokémon.",
+				'fr-fr': "Avant d'infliger des dégâts, vous pouvez choisir 1 des Pokémon de Banc de votre adversaire et l'échanger avec le Pokémon Défenseur.",
+				'de-de': "Bevor der Schaden zugefügt wird, kannst du 1 Pokémon auf der Bank deines Gegners wählen und es gegen das Verteidigende Pokémon austauschen."
 			},
 			damage: 30,
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giga Hammer",
-				fr: "Giga marteau",
-				de: "Gigahammer"
+				'en-us': "Giga Hammer",
+				'fr-fr': "Giga marteau",
+				'de-de': "Gigahammer"
 			},
 			effect: {
-				en: "Regigigas can't use Giga Hammer during your next turn.",
-				fr: "Regigigas ne peut pas utiliser Giga marteau lors de votre prochain tour.",
-				de: "Regigigas kann Gigahammer in deinem nächsten Zug nicht einsetzen."
+				'en-us': "Regigigas can't use Giga Hammer during your next turn.",
+				'fr-fr': "Regigigas ne peut pas utiliser Giga marteau lors de votre prochain tour.",
+				'de-de': "Regigigas kann Gigahammer in deinem nächsten Zug nicht einsetzen."
 			},
 			damage: 80,
 
@@ -77,8 +77,8 @@ const card: Card = {
 
 
 	description: {
-		en: "There is an enduring legend that states this Pokémon towed continents with ropes.",
-		fr: "Une légende tenace veut que ce Pokémon ait traîné les continents en les attachant à des cordes."
+		'en-us': "There is an enduring legend that states this Pokémon towed continents with ropes.",
+		'fr-fr': "Une légende tenace veut que ce Pokémon ait traîné les continents en les attachant à des cordes."
 	},
 
 	variants: [

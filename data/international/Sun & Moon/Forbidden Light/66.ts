@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Binacle",
-		fr: "Opermine",
-		es: "Binacle",
-		it: "Binacle",
-		pt: "Binacle",
-		de: "Bithora"
+		'en-us': "Binacle",
+		'fr-fr': "Opermine",
+		'es-es': "Binacle",
+		'it-it': "Binacle",
+		'pt-br': "Binacle",
+		'de-de': "Bithora"
 	},
 
 	illustrator: "Yuka Morii",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Allotment",
-				fr: "Attribution",
-				es: "Asignación",
-				it: "Assegnazione",
-				pt: "Atribuição",
-				de: "Anteil"
+				'en-us': "Allotment",
+				'fr-fr': "Attribution",
+				'es-es': "Asignación",
+				'it-it': "Assegnazione",
+				'pt-br': "Atribuição",
+				'de-de': "Anteil"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				es: "Roba 1 carta.",
-				it: "Pesca una carta.",
-				pt: "Compre 1 carta.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'es-es': "Roba 1 carta.",
+				'it-it': "Pesca una carta.",
+				'pt-br': "Compre 1 carta.",
+				'de-de': "Ziehe 1 Karte."
 			},
 			damage: 10,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "They stretch and then contract, yanking their rocks along with them in bold hops. They eat seaweed that washes up on the shoreline.",
+		'en-us': "They stretch and then contract, yanking their rocks along with them in bold hops. They eat seaweed that washes up on the shoreline.",
 	},
 
 	thirdParty: {

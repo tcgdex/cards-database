@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ふりそで",
+		'ja-jp': "ふりそで",
 	},
 
 	illustrator: "saino misaki",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。のぞむなら、出したポケモンとバトルポケモンを入れ替える。",
+		'ja-jp': "自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。のぞむなら、出したポケモンとバトルポケモンを入れ替える。",
 	},
 
 	variants: [

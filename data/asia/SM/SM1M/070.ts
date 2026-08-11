@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケンタロスGX",
+		'ja-jp': "ケンタロスGX",
 	},
 
 	illustrator: "",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数x10ダメージ追加。",
+				'ja-jp': "このポケモンにのっているダメカンの数x10ダメージ追加。",
 			},
 		},
 		{
@@ -33,7 +33,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数x30ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "このポケモンにのっているダメカンの数x30ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

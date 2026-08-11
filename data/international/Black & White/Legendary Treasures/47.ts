@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Plusle",
+		'en-us': "Plusle",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tag Draw",
+				'en-us': "Tag Draw",
 			},
 			effect: {
-				en: "Shuffle your hand into your deck. Then, draw 4 cards. If Minun is on your Bench, draw 4 more cards.",
+				'en-us': "Shuffle your hand into your deck. Then, draw 4 cards. If Minun is on your Bench, draw 4 more cards.",
 			},
 
 		},
@@ -41,10 +41,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Positive Ion",
+				'en-us': "Positive Ion",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 more damage.",
+				'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
 			},
 			damage: 20,
 
@@ -61,7 +61,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It cheers on friends with pom-poms made of sparks. It drains power from telephone poles.",
+		'en-us': "It cheers on friends with pom-poms made of sparks. It drains power from telephone poles.",
 	},
 
 	thirdParty: {

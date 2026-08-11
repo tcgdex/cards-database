@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [303],
 
 	name: {
-		en: "Mega Mawile ex"
+		'en-us': "Mega Mawile ex"
 	},
 
 	illustrator: "NC Empire",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "Its two sets of jaws thrash about violently as if\nthey each had a will of their own. One gnash from\nthem can turn a boulder to dust."
+		'en-us': "Its two sets of jaws thrash about violently as if\nthey each had a will of their own. One gnash from\nthem can turn a boulder to dust."
 	},
 
 	stage: "Basic",
@@ -25,14 +25,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Heat-Up Crunch"
+			'en-us': "Heat-Up Crunch"
 		},
 
 		damage: 60,
 		cost: ["Metal", "Colorless"],
 
 		effect: {
-			en: "Until this Pokémon leaves the Active Spot, this Pokémon's Heat-Up Crunch attack does +30 damage. This effect stacks."
+			'en-us': "Until this Pokémon leaves the Active Spot, this Pokémon's Heat-Up Crunch attack does +30 damage. This effect stacks."
 		}
 	}],
 

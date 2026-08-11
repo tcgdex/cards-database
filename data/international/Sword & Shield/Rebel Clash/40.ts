@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [130],
 
 	name: {
-		en: "Gyarados",
-		fr: "Léviator",
-		es: "Gyarados",
-		it: "Gyarados",
-		pt: "Gyarados",
-		de: "Garados"
+		'en-us': "Gyarados",
+		'fr-fr': "Léviator",
+		'es-es': "Gyarados",
+		'it-it': "Gyarados",
+		'pt-br': "Gyarados",
+		'de-de': "Garados"
 	},
 
 	illustrator: "hatachu",
@@ -19,12 +19,12 @@ const card: Card = {
 	set: Set,
 
 	evolveFrom: {
-		en: "Magikarp",
-		fr: "Magicarpe",
-		es: "Magikarp",
-		it: "Magikarp",
-		pt: "Magikarp",
-		de: "Karpador"
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe",
+		'es-es': "Magikarp",
+		'it-it': "Magikarp",
+		'pt-br': "Magikarp",
+		'de-de': "Karpador"
 	},
 
 	attacks: [
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wrack Down",
-				fr: "Réduire en Poussière",
-				es: "Desmoronar",
-				it: "Abbattere",
-				pt: "Desmoronar",
-				de: "Niederschleudern"
+				'en-us': "Wrack Down",
+				'fr-fr': "Réduire en Poussière",
+				'es-es': "Desmoronar",
+				'it-it': "Abbattere",
+				'pt-br': "Desmoronar",
+				'de-de': "Niederschleudern"
 			},
 
 			damage: 90,
@@ -55,20 +55,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Big Storm",
-				fr: "Forte Tempête",
-				es: "Gran Tempestad",
-				it: "Fortempesta",
-				pt: "Tempestade Enorme",
-				de: "Großer Sturm"
+				'en-us': "Big Storm",
+				'fr-fr': "Forte Tempête",
+				'es-es': "Gran Tempestad",
+				'it-it': "Fortempesta",
+				'pt-br': "Tempestade Enorme",
+				'de-de': "Großer Sturm"
 			},
 			effect: {
-				en: "Discard any Stadium in play.",
-				fr: "Défaussez tout Stade en jeu.",
-				es: "Descarta cualquier Estadio en juego.",
-				it: "Scarta una carta Stadio qualsiasi in gioco.",
-				pt: "Descarte qualquer Estádio em jogo.",
-				de: "Lege 1 beliebige Stadionkarte im Spiel auf den Ablagestapel."
+				'en-us': "Discard any Stadium in play.",
+				'fr-fr': "Défaussez tout Stade en jeu.",
+				'es-es': "Descarta cualquier Estadio en juego.",
+				'it-it': "Scarta una carta Stadio qualsiasi in gioco.",
+				'pt-br': "Descarte qualquer Estádio em jogo.",
+				'de-de': "Lege 1 beliebige Stadionkarte im Spiel auf den Ablagestapel."
 			},
 			damage: 200,
 
@@ -91,7 +91,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It has an extremely aggressive nature. The Hyper Beam it shoots from its mouth totally incinerates all targets."
+		'en-us': "It has an extremely aggressive nature. The Hyper Beam it shoots from its mouth totally incinerates all targets."
 	},
 
 	variants: [

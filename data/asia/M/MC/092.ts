@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブーバーン",
+		'ja-jp': "ブーバーン",
 	},
 
 	illustrator: "Tonji Matsuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "腕の先から 摂氏２０００度の 火の玉を 撃ちだすとき 体は 熱のため ほのかに 白くなる。",
+		'ja-jp': "腕の先から 摂氏２０００度の 火の玉を 撃ちだすとき 体は 熱のため ほのかに 白くなる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "マグマのはどう" },
 			effect: {
-				ja: "このポケモンがいるかぎり、相手のやけどのポケモンは、やけどでのせるダメカンの数が3個多くなる。",
+				'ja-jp': "このポケモンがいるかぎり、相手のやけどのポケモンは、やけどでのせるダメカンの数が3個多くなる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをやけどにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをやけどにする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ブーバー",
+		'ja-jp': "ブーバー",
 	},
 
 	retreat: 2,

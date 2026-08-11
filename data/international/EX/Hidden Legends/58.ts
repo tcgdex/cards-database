@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Clamperl",
-		fr: "Coquiperl",
-		de: "Perlu"
+		'en-us': "Clamperl",
+		'fr-fr': "Coquiperl",
+		'de-de': "Perlu"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Exoskeleton",
-				fr: "Exosquelette",
-				de: "Exoskeleton"
+				'en-us': "Exoskeleton",
+				'fr-fr': "Exosquelette",
+				'de-de': "Exoskeleton"
 			},
 			effect: {
-				en: "Any damage done to Clamperl by attacks is reduced by 10 (after applying Weakness and Resistance).",
-				fr: "Tous dégâts infligés à Coquiperl par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
-				de: "Any damage done to Clamperl by attacks is reduced by 10 (after applying Weakness and Resistance)."
+				'en-us': "Any damage done to Clamperl by attacks is reduced by 10 (after applying Weakness and Resistance).",
+				'fr-fr': "Tous dégâts infligés à Coquiperl par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Any damage done to Clamperl by attacks is reduced by 10 (after applying Weakness and Resistance)."
 			}
 		},
 	],
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bubble",
-				fr: "Écume",
-				de: "Bubble"
+				'en-us': "Bubble",
+				'fr-fr': "Écume",
+				'de-de': "Bubble"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Xerneas",
-		fr: "Yveltal",
+		'en-us': "Xerneas",
+		'fr-fr': "Yveltal",
 	},
 
 	illustrator: "5ban Graphics",
@@ -31,13 +31,13 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Geomancy",
-				fr: "Géo-Contrôle",
+				'en-us': "Geomancy",
+				'fr-fr': "Géo-Contrôle",
 			},
 
 			effect: {
-				en: "Choose 2 of your Benched Pokémon. For each of those Pokémon, search your deck for a Fairy Energy card and attach it to that Pokémon. Shuffle your deck afterward.",
-				fr: "Choisissez 2 de vos Pokémon de Banc. Pour chacun de ces Pokémon, cherchez une carte Énergie Fairy dans votre deck et attachez-la au Pokémon choisi. Mélangez ensuite votre deck.",
+				'en-us': "Choose 2 of your Benched Pokémon. For each of those Pokémon, search your deck for a Fairy Energy card and attach it to that Pokémon. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez 2 de vos Pokémon de Banc. Pour chacun de ces Pokémon, cherchez une carte Énergie Fairy dans votre deck et attachez-la au Pokémon choisi. Mélangez ensuite votre deck.",
 			}
 		},
 		{
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rainbow Spear",
-				fr: "Javelot Arc-En-Ciel",
+				'en-us': "Rainbow Spear",
+				'fr-fr': "Javelot Arc-En-Ciel",
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon.",
 			},
 			damage: 100,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
+		'en-us': "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
 	},
 
 	thirdParty: {

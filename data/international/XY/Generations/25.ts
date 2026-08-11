@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Articuno",
-		fr: "Artikodin",
+		'en-us': "Articuno",
+		'fr-fr': "Artikodin",
 	},
 
 	illustrator: "Ryo Ueda",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Find Ice",
-				fr: "Chercheur de Glace",
+				'en-us': "Find Ice",
+				'fr-fr': "Chercheur de Glace",
 			},
 			effect: {
-				en: "Search your deck for up to 3 Water Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez jusqu'à 3 cartes Énergie Water dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for up to 3 Water Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez jusqu'à 3 cartes Énergie Water dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -47,8 +47,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Freezing Wind",
-				fr: "Vent Glaçant",
+				'en-us': "Freezing Wind",
+				'fr-fr': "Vent Glaçant",
 			},
 
 			damage: 100,
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
+		'en-us': "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
 	},
 
 	thirdParty: {

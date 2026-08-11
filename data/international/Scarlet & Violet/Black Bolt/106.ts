@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tirtouga",
-		fr: "Carapagos",
-		de: "Galapaflos",
-		it: "Tirtouga",
-		pt: "Tirtouga",
-		es: "Tirtouga",
+		'en-us': "Tirtouga",
+		'fr-fr': "Carapagos",
+		'de-de': "Galapaflos",
+		'it-it': "Tirtouga",
+		'pt-br': "Tirtouga",
+		'es-es': "Tirtouga",
 		'es-mx': "Tirtouga"
 	},
 
@@ -21,12 +21,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Antique Cover Fossil",
-		fr: "Fossile Plaque Ancien",
-		de: "Antikes Schildfossil",
-		it: "Vecchio Fossiltappo",
-		pt: "Fóssil Casca Arcaico",
-		es: "Fósil Tapa Antiguo",
+		'en-us': "Antique Cover Fossil",
+		'fr-fr': "Fossile Plaque Ancien",
+		'de-de': "Antikes Schildfossil",
+		'it-it': "Vecchio Fossiltappo",
+		'pt-br': "Fóssil Casca Arcaico",
+		'es-es': "Fósil Tapa Antiguo",
 		'es-mx': "Fósil Cubierta Antiguo"
 	},
 	stage: "Stage1",
@@ -35,22 +35,22 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Ancient Seaweed",
-			fr: "Algue Ancestrale",
-			de: "Uralter Seetang",
-			it: "Alghe Antiche",
-			pt: "Alga Ancestral",
-			es: "Alga Ancestral",
+			'en-us': "Ancient Seaweed",
+			'fr-fr': "Algue Ancestrale",
+			'de-de': "Uralter Seetang",
+			'it-it': "Alghe Antiche",
+			'pt-br': "Alga Ancestral",
+			'es-es': "Alga Ancestral",
 			'es-mx': "Alga Antigua"
 		},
 
 		effect: {
-			en: "This attack does 30 damage for each Item card in your opponent's discard pile.",
-			fr: "Cette attaque inflige 30 dégâts pour chaque carte Objet dans la pile de défausse de votre adversaire.",
-			de: "Diese Attacke fügt für jede Itemkarte im Ablagestapel deines Gegners 30 Schadenspunkte zu.",
-			it: "Questo attacco infligge 30 danni per ogni carta Strumento nella pila degli scarti del tuo avversario.",
-			pt: "Este ataque causa 30 pontos de dano para cada carta de Item na pilha de descarte do seu oponente.",
-			es: "Este ataque hace 30 puntos de daño por cada carta de Objeto en la pila de descartes de tu rival.",
+			'en-us': "This attack does 30 damage for each Item card in your opponent's discard pile.",
+			'fr-fr': "Cette attaque inflige 30 dégâts pour chaque carte Objet dans la pile de défausse de votre adversaire.",
+			'de-de': "Diese Attacke fügt für jede Itemkarte im Ablagestapel deines Gegners 30 Schadenspunkte zu.",
+			'it-it': "Questo attacco infligge 30 danni per ogni carta Strumento nella pila degli scarti del tuo avversario.",
+			'pt-br': "Este ataque causa 30 pontos de dano para cada carta de Item na pilha de descarte do seu oponente.",
+			'es-es': "Este ataque hace 30 puntos de daño por cada carta de Objeto en la pila de descartes de tu rival.",
 			'es-mx': "Este ataque hace 30 puntos de daño por cada carta de Objeto en la pila de descartes de tu rival."
 		},
 
@@ -59,12 +59,12 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Surf",
-			fr: "Surf",
-			de: "Surfer",
-			it: "Surf",
-			pt: "Surfar",
-			es: "Surf",
+			'en-us': "Surf",
+			'fr-fr': "Surf",
+			'de-de': "Surfer",
+			'it-it': "Surf",
+			'pt-br': "Surfar",
+			'es-es': "Surf",
 			'es-mx': "Surf"
 		},
 

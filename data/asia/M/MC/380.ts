@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルカリオex",
+		'ja-jp': "ルカリオex",
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -40,7 +40,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "リオル",
+		'ja-jp': "リオル",
 	},
 
 	retreat: 2,

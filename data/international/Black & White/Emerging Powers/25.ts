@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Basculin",
-		fr: "Bargantua",
-		es: "Basculin",
-		it: "Basculin",
-		pt: "Basculin",
-		de: "Barschuft"
+		'en-us': "Basculin",
+		'fr-fr': "Bargantua",
+		'es-es': "Basculin",
+		'it-it': "Basculin",
+		'pt-br': "Basculin",
+		'de-de': "Barschuft"
 	},
 
 	illustrator: "Akira Komayama",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
 			},
 
 			damage: 10,
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Splatter",
-				fr: "Crépitement",
+				'en-us': "Splatter",
+				'fr-fr': "Crépitement",
 			},
 			effect: {
-				en: "Does 30 damage to one of your oppoent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 30 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "Does 30 damage to one of your oppoent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 30 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Red and blue Basculin usually do not get along, but sometimes members of one school mingle with the other's school.",
+		'en-us': "Red and blue Basculin usually do not get along, but sometimes members of one school mingle with the other's school.",
 	},
 
 	thirdParty: {

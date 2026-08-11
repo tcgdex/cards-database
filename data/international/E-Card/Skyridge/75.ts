@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Magikarp",
-		de: "Karpador"
+		'en-us': "Magikarp",
+		'de-de': "Karpador"
 	},
 
 	illustrator: "Keiko Fukuyama",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Signs of Evolution",
-				de: "Evolutionsanzeichen"
+				'en-us': "Signs of Evolution",
+				'de-de': "Evolutionsanzeichen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your deck for a card that evolves from Magikarp, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				de: "Wirf eine Münze. Durchsuche bei 'Kopf' dein Deck nach einer Karte, die aus Karpador entsteht, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
+				'en-us': "Flip a coin. If heads, search your deck for a card that evolves from Magikarp, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'de-de': "Wirf eine Münze. Durchsuche bei 'Kopf' dein Deck nach einer Karte, die aus Karpador entsteht, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -42,8 +42,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Splash",
-				de: "Platscher"
+				'en-us': "Splash",
+				'de-de': "Platscher"
 			},
 
 			damage: 10,

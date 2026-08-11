@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Sneasel",
-		fr: "Farfuret",
-		de: "Sniebel"
+		'en-us': "Sneasel",
+		'fr-fr': "Farfuret",
+		'de-de': "Sniebel"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Swipe",
-				fr: "Griffe",
-				de: "Swipe"
+				'en-us': "Swipe",
+				'fr-fr': "Griffe",
+				'de-de': "Swipe"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard all Trainer cards attached to your opponent's Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez toutes les cartes Dresseur attachées au Pokémon de votre adversaire.",
-				de: "Flip a coin. If heads, discard all Trainer cards attached to your opponent´s Pokémon."
+				'en-us': "Flip a coin. If heads, discard all Trainer cards attached to your opponent's Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez toutes les cartes Dresseur attachées au Pokémon de votre adversaire.",
+				'de-de': "Flip a coin. If heads, discard all Trainer cards attached to your opponent´s Pokémon."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-attaque",
-				de: "Quick Attack"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-attaque",
+				'de-de': "Quick Attack"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
 			},
 			damage: "10+",
 
@@ -70,8 +70,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Its paws conceal sharp claws. If attacked, it suddenly extends the claws and startles its enemy.",
-		fr: "Ses pattes cachent des griffes aiguisées. S'il est attaqué, il sort ses griffes et surprend son ennemi."
+		'en-us': "Its paws conceal sharp claws. If attacked, it suddenly extends the claws and startles its enemy.",
+		'fr-fr': "Ses pattes cachent des griffes aiguisées. S'il est attaqué, il sort ses griffes et surprend son ennemi."
 	},
 
 

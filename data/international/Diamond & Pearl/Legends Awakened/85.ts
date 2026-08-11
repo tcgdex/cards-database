@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Bellsprout",
-		fr: "Chetiflor",
-		de: "Knofensa"
+		'en-us': "Bellsprout",
+		'fr-fr': "Chetiflor",
+		'de-de': "Knofensa"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vine Bind",
-				fr: "Liane enroulante",
-				de: "Fesselranke"
+				'en-us': "Vine Bind",
+				'fr-fr': "Liane enroulante",
+				'de-de': "Fesselranke"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can't use any Poké-Powers during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas utiliser de Poké-Powers lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon während des nächsten Zuges deines Gegners keine Poké-Power benutzen."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon can't use any Poké-Powers during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas utiliser de Poké-Powers lors du prochain tour de votre adversaire.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon während des nächsten Zuges deines Gegners keine Poké-Power benutzen."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Careless Tackle",
-				fr: "Plaquage imprudent",
-				de: "Unvorsichtiger Tackle"
+				'en-us': "Careless Tackle",
+				'fr-fr': "Plaquage imprudent",
+				'de-de': "Unvorsichtiger Tackle"
 			},
 			effect: {
-				en: "Bellsprout does 10 damage to itself.",
-				fr: "Chetiflor s'inflige 10 dégâts.",
-				de: "Knofensa fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Bellsprout does 10 damage to itself.",
+				'fr-fr': "Chetiflor s'inflige 10 dégâts.",
+				'de-de': "Knofensa fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -71,8 +71,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It prefers hot and humid environments. It is quick at capturing prey with its vines.",
-		fr: "Il préfère les climats chauds et humides. Ses lianes peuvent capturer une proie en un clin d'œil."
+		'en-us': "It prefers hot and humid environments. It is quick at capturing prey with its vines.",
+		'fr-fr': "Il préfère les climats chauds et humides. Ses lianes peuvent capturer une proie en un clin d'œil."
 	},
 
 	thirdParty: {

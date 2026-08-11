@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グランブル",
+		'ja-jp': "グランブル",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "ブルー 以上に 臆病。 見た目との ギャップが うけて 若い 女性に 大人気。",
+		'ja-jp': "ブルー 以上に 臆病。 見た目との ギャップが うけて 若い 女性に 大人気。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Fairy"],
 			effect: {
-				ja: "自分の手札が1枚もないなら、130ダメージ追加。",
+				'ja-jp': "自分の手札が1枚もないなら、130ダメージ追加。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ブルー",
+		'ja-jp': "ブルー",
 	},
 
 	retreat: 3,

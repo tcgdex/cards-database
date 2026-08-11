@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニダンギル",
+		'ja-jp': "ニダンギル",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "進化して ２本に 分裂した。 テレパシーで 会話して 連携攻撃で 敵を 切り刻む。",
+		'ja-jp': "進化して ２本に 分裂した。 テレパシーで 会話して 連携攻撃で 敵を 切り刻む。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "holo"}],
 
 	evolveFrom: {
-		ja: "ヒトツキ",
+		'ja-jp': "ヒトツキ",
 	},
 
 	retreat: 2,

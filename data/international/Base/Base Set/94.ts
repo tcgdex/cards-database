@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Potion",
-		fr: "Potion",
-		de: "Trank",
-		it: "Pozione Magica"
+		'en-us': "Potion",
+		'fr-fr': "Potion",
+		'de-de': "Trank",
+		'it-it': "Pozione Magica"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,10 +15,10 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Remove up to 2 damage counters from 1 of your Pokémon.",
-		fr: "Retirez jusqu'à 2 marqueurs de dégâts d'1 de vos Pokémon.",
-		de: "Entferne bis zu 2 Schadensmarken von einem Deiner Pokémon.",
-		it: "Togli al massimo 2 segnalini danno da uno dei tuoi Pokémon."
+		'en-us': "Remove up to 2 damage counters from 1 of your Pokémon.",
+		'fr-fr': "Retirez jusqu'à 2 marqueurs de dégâts d'1 de vos Pokémon.",
+		'de-de': "Entferne bis zu 2 Schadensmarken von einem Deiner Pokémon.",
+		'it-it': "Togli al massimo 2 segnalini danno da uno dei tuoi Pokémon."
 	},
 
 	variants: [

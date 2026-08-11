@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マチスのラッタ",
+		'ja-jp': "マチスのラッタ",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "フォーカスエネルギー",
+				'ja-jp': "フォーカスエネルギー",
 			},
 			effect: {
-				ja: "次のターン中に、SurgeのRaticateのダブルエッジ攻撃の損傷（基本的な損傷とそれ自体への損傷）が2倍になります。",
+				'ja-jp': "次のターン中に、SurgeのRaticateのダブルエッジ攻撃の損傷（基本的な損傷とそれ自体への損傷）が2倍になります。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ダブルエッジ",
+				'ja-jp': "ダブルエッジ",
 			},
 			effect: {
-				ja: "SurgeのRaticate中tはそれ自体に20のダメージを与えます。",
+				'ja-jp': "SurgeのRaticate中tはそれ自体に20のダメージを与えます。",
 			},
 			damage: 40,
 		},

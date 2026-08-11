@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Shellos East Sea",
-		fr: "Sancoki Mer Orient",
-		de: "Schalellos Östliches Meer"
+		'en-us': "Shellos East Sea",
+		'fr-fr': "Sancoki Mer Orient",
+		'de-de': "Schalellos Östliches Meer"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
-				de: "Surfer"
+				'en-us': "Surf",
+				'fr-fr': "Surf",
+				'de-de': "Surfer"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Muddy Water",
-				fr: "Ocroupi",
-				de: "Lehmbrühe"
+				'en-us': "Muddy Water",
+				'fr-fr': "Ocroupi",
+				'de-de': "Lehmbrühe"
 			},
 			effect: {
-				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 20,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It lives along bodies of water. Its body shape changed to suit its habitat.",
+		'en-us': "It lives along bodies of water. Its body shape changed to suit its habitat.",
 	},
 
 	thirdParty: {

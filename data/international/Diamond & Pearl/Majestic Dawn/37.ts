@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Grotle",
-		fr: "Boskara",
-		de: "Chelcarain"
+		'en-us': "Grotle",
+		'fr-fr': "Boskara",
+		'de-de': "Chelcarain"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Turtwig",
-		fr: "Tortipouss",
+		'en-us': "Turtwig",
+		'fr-fr': "Tortipouss",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Planting",
-				fr: "Plantations",
-				de: "Anpflanzen"
+				'en-us': "Planting",
+				'fr-fr': "Plantations",
+				'de-de': "Anpflanzen"
 			},
 			effect: {
-				en: "Attach a Grass Energy card from your hand to 1 of your Pokémon.",
-				fr: "Attachez une carte Énergie Grass de votre main à 1 de vos Pokémon.",
-				de: "Lege 1 -Energiekarte von deiner Hand an 1 deiner Pokémon an."
+				'en-us': "Attach a Grass Energy card from your hand to 1 of your Pokémon.",
+				'fr-fr': "Attachez une carte Énergie Grass de votre main à 1 de vos Pokémon.",
+				'de-de': "Lege 1 -Energiekarte von deiner Hand an 1 deiner Pokémon an."
 			},
 			damage: 20,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam",
-				fr: "Plaquage",
-				de: "Bodyslam"
+				'en-us': "Body Slam",
+				'fr-fr': "Plaquage",
+				'de-de': "Bodyslam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 40,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "The shell is hardened soil. Some Pokémon come to peck the berries growing on the trees on its back.",
+		'en-us': "The shell is hardened soil. Some Pokémon come to peck the berries growing on the trees on its back.",
 	},
 
 	thirdParty: {

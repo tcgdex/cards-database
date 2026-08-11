@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Magcargo ex",
-		fr: "Volcaropod ex",
-		de: "Magcargo ex"
+		'en-us': "Magcargo ex",
+		'fr-fr': "Volcaropod ex",
+		'de-de': "Magcargo ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Slugma",
-		fr: "Limagma"
+		'en-us': "Slugma",
+		'fr-fr': "Limagma"
 	},
 
 	suffix: "ex",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Melting Mountain",
-				fr: "Montagne fondante",
-				de: "Melting Mountain"
+				'en-us': "Melting Mountain",
+				'fr-fr': "Montagne fondante",
+				'de-de': "Melting Mountain"
 			},
 			effect: {
-				en: "Discard the top card from your deck. If that card is a basic Energy card, attach it to Magcargo ex.",
-				fr: "Défaussez la première carte de votre deck. Si cette carte est une carte Énergie de base, attachez-la à Volcaropod ex.",
-				de: "Discard the top card from your deck. If that card is a basic Energy card, attach it to Magcargo ex."
+				'en-us': "Discard the top card from your deck. If that card is a basic Energy card, attach it to Magcargo ex.",
+				'fr-fr': "Défaussez la première carte de votre deck. Si cette carte est une carte Énergie de base, attachez-la à Volcaropod ex.",
+				'de-de': "Discard the top card from your deck. If that card is a basic Energy card, attach it to Magcargo ex."
 			},
 			damage: 20,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lava Flow",
-				fr: "Torrent de lave",
-				de: "Lava Flow"
+				'en-us': "Lava Flow",
+				'fr-fr': "Torrent de lave",
+				'de-de': "Lava Flow"
 			},
 			effect: {
-				en: "You may discard any number of basic Energy cards attached to Magcargo ex when you use this attack. If you do, this attack does 40 damage plus 20 more damage for each basic Energy card you discarded.",
-				fr: "Vous pouvez défausser autant de cartes Énergie de base attachées à Volcaropod ex que vous le voulez lorsque vous utilisez cette attaque. Cette attaque inflige alors 40 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie de base que vous défaussez.",
-				de: "You may discard any number of basic Energy card attached to Magcargo ex when you use this attack. If you do, this attack does 40 damage plus 20 more damage for each basic Energy card you discarded."
+				'en-us': "You may discard any number of basic Energy cards attached to Magcargo ex when you use this attack. If you do, this attack does 40 damage plus 20 more damage for each basic Energy card you discarded.",
+				'fr-fr': "Vous pouvez défausser autant de cartes Énergie de base attachées à Volcaropod ex que vous le voulez lorsque vous utilisez cette attaque. Cette attaque inflige alors 40 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie de base que vous défaussez.",
+				'de-de': "You may discard any number of basic Energy card attached to Magcargo ex when you use this attack. If you do, this attack does 40 damage plus 20 more damage for each basic Energy card you discarded."
 			},
 			damage: "40+",
 

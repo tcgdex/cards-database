@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Guzzlord",
-		fr: "Engloutyran",
+		'en-us': "Guzzlord",
+		'fr-fr': "Engloutyran",
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Shiny rare",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Lord's Valley",
-				fr: "Vallée du Tyran",
+				'en-us': "Lord's Valley",
+				'fr-fr': "Vallée du Tyran",
 			},
 			effect: {
-				en: "If you have exactly 2, 4, or 6 Prize cards remaining, discard the top 10 cards of your deck.",
-				fr: "S’il vous reste exactement 2, 4 ou 6 cartes Récompense, défaussez les 10 cartes du dessus de votre deck.",
+				'en-us': "If you have exactly 2, 4, or 6 Prize cards remaining, discard the top 10 cards of your deck.",
+				'fr-fr': "S’il vous reste exactement 2, 4 ou 6 cartes Récompense, défaussez les 10 cartes du dessus de votre deck.",
 			},
 			damage: 160,
 
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A dangerous Ultra Beast, it appears to be eating constantly, but for some reason its droppings have never been found.",
+		'en-us': "A dangerous Ultra Beast, it appears to be eating constantly, but for some reason its droppings have never been found.",
 	},
 }
 

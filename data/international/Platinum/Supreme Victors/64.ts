@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Loudred",
-		fr: "Ramboum",
-		de: "Krakeelo"
+		'en-us': "Loudred",
+		'fr-fr': "Ramboum",
+		'de-de': "Krakeelo"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Whismur",
-		fr: "Chuchmur"
+		'en-us': "Whismur",
+		'fr-fr': "Chuchmur"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Kick",
-				fr: "Coud'pattes",
-				de: "Schmetterkick"
+				'en-us': "Smash Kick",
+				'fr-fr': "Coud'pattes",
+				'de-de': "Schmetterkick"
 			},
 
 			damage: 30,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stomp Off",
-				fr: "Trépignement",
-				de: "Davonstapfen"
+				'en-us': "Stomp Off",
+				'fr-fr': "Trépignement",
+				'de-de': "Davonstapfen"
 			},
 			effect: {
-				en: "Discard the top card from your opponent's deck.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-				de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard the top card from your opponent's deck.",
+				'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+				'de-de': "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 50,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The shock waves from its cries can tip over trucks. It stamps its feet to power up."
+		'en-us': "The shock waves from its cries can tip over trucks. It stamps its feet to power up."
 	},
 
 	variants: [

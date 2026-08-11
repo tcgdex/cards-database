@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポケモンいれかえ",
+		'ja-jp': "ポケモンいれかえ",
 	},
 
 	illustrator: "Hiromichi Sugiyama",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のバトルポケモンをベンチポケモンと入れ替える。",
+		'ja-jp': "自分のバトルポケモンをベンチポケモンと入れ替える。",
 	},
 
 	variants: [

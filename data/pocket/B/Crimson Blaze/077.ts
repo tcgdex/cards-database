@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [6],
 
 	name: {
-		en: "Mega Charizard Y ex"
+		'en-us': "Mega Charizard Y ex"
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Charmeleon"
+		'en-us': "Charmeleon"
 	},
 
 	description: {
-		en: "Its bond with its Trainer is the source of\nits power. It boasts speed and maneuverability\ngreater than that of a jet."
+		'en-us': "Its bond with its Trainer is the source of\nits power. It boasts speed and maneuverability\ngreater than that of a jet."
 	},
 
 	stage: "Stage2",
@@ -29,14 +29,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Crimson Dive"
+			'en-us': "Crimson Dive"
 		},
 
 		damage: 250,
 		cost: ["Fire", "Fire", "Fire", "Colorless"],
 
 		effect: {
-			en: "This Pokémon also does 50 damage to itself."
+			'en-us': "This Pokémon also does 50 damage to itself."
 		}
 	}],
 

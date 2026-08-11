@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Nのバイバニラ",
+		'ja-jp': "Nのバイバニラ",
 	},
 
 	illustrator: "imoniii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "２つの 頭が 同時に 怒ると ツノから 猛吹雪を 噴き出す。 あたりを 大雪で 埋めてしまう。",
+		'ja-jp': "２つの 頭が 同時に 怒ると ツノから 猛吹雪を 噴き出す。 あたりを 大雪で 埋めてしまう。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "かさねゆき" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のポケモン全員に、それぞれのっているダメカンの数が2倍になるように、ダメカンをのせる。",
+				'ja-jp': "相手のポケモン全員に、それぞれのっているダメカンの数が2倍になるように、ダメカンをのせる。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -63,7 +63,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "Nのバニリッチ",
+		'ja-jp': "Nのバニリッチ",
 	},
 
 	retreat: 2,

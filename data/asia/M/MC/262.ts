@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デンヂムシ",
+		'ja-jp': "デンヂムシ",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "頑丈な 殻で 身を 守る。 顎の 先端から 電気を 流して 反撃する。",
+		'ja-jp': "頑丈な 殻で 身を 守る。 顎の 先端から 電気を 流して 反撃する。",
 	},
 
 	stage: "Stage1",
@@ -39,7 +39,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アゴジムシ",
+		'ja-jp': "アゴジムシ",
 	},
 
 	retreat: 2,

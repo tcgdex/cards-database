@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ledyba",
-		fr: "Coxy",
-		es: "Ledyba",
-		it: "Ledyba",
-		pt: "Ledyba",
-		de: "Ledyba"
+		'en-us': "Ledyba",
+		'fr-fr': "Coxy",
+		'es-es': "Ledyba",
+		'it-it': "Ledyba",
+		'pt-br': "Ledyba",
+		'de-de': "Ledyba"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -22,32 +22,32 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			es: "Coleccionar",
-			it: "Tassa",
-			pt: "Coleta",
-			de: "Sammeln"
+			'en-us': "Collect",
+			'fr-fr': "Collecte",
+			'es-es': "Coleccionar",
+			'it-it': "Tassa",
+			'pt-br': "Coleta",
+			'de-de': "Sammeln"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			es: "Roba 1 carta.",
-			it: "Pesca una carta.",
-			pt: "Compre 1 carta.",
-			de: "Ziehe 1 Karte."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'es-es': "Roba 1 carta.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre 1 carta.",
+			'de-de': "Ziehe 1 Karte."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Punch",
-			fr: "Koud'Poing",
-			es: "Puño",
-			it: "Pugno",
-			pt: "Soco",
-			de: "Boxhieb"
+			'en-us': "Punch",
+			'fr-fr': "Koud'Poing",
+			'es-es': "Puño",
+			'it-it': "Pugno",
+			'pt-br': "Soco",
+			'de-de': "Boxhieb"
 		},
 
 		damage: 20,
@@ -66,7 +66,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "These very cowardly Pokémon join together and use Reflect to protect their nest."
+		'en-us': "These very cowardly Pokémon join together and use Reflect to protect their nest."
 	},
 
 	variants: [

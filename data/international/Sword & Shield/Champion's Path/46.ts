@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [827],
 
 	name: {
-		en: "Nickit",
-		fr: "Goupilou",
-		es: "Nickit",
-		it: "Nickit",
-		pt: "Nickit",
-		de: "Kleptifux"
+		'en-us': "Nickit",
+		'fr-fr': "Goupilou",
+		'es-es': "Nickit",
+		'it-it': "Nickit",
+		'pt-br': "Nickit",
+		'de-de': "Kleptifux"
 	},
 
 	illustrator: "Naoki Saito",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Filch",
-				fr: "Maraudage",
-				es: "Birlar",
-				it: "Furtarello",
-				pt: "Furtar",
-				de: "Mopsen"
+				'en-us': "Filch",
+				'fr-fr': "Maraudage",
+				'es-es': "Birlar",
+				'it-it': "Furtarello",
+				'pt-br': "Furtar",
+				'de-de': "Mopsen"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				es: "Roba 1 carta.",
-				it: "Pesca una carta.",
-				pt: "Compre 1 carta.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'es-es': "Roba 1 carta.",
+				'it-it': "Pesca una carta.",
+				'pt-br': "Compre 1 carta.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Smack",
-				fr: "Coup de Queue",
-				es: "Bofetón Cola",
-				it: "Codasberla",
-				pt: "Ataque de Cauda",
-				de: "Schweifschlag"
+				'en-us': "Tail Smack",
+				'fr-fr': "Coup de Queue",
+				'es-es': "Bofetón Cola",
+				'it-it': "Codasberla",
+				'pt-br': "Ataque de Cauda",
+				'de-de': "Schweifschlag"
 			},
 
 			damage: 30,
@@ -85,7 +85,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Aided by the soft pads on its feet, it silently raids the food stores of other Pokémon. It survives off its ill-gotten gains."
+		'en-us': "Aided by the soft pads on its feet, it silently raids the food stores of other Pokémon. It survives off its ill-gotten gains."
 	},
 
 	thirdParty: {

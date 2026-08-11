@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Elgyem",
-		fr: "Lewsor",
-		de: "Pygraulon",
-		it: "Elgyem",
-		pt: "Elgyem",
-		es: "Elgyem",
+		'en-us': "Elgyem",
+		'fr-fr': "Lewsor",
+		'de-de': "Pygraulon",
+		'it-it': "Elgyem",
+		'pt-br': "Elgyem",
+		'es-es': "Elgyem",
 		'es-mx': "Elgyem"
 	},
 
@@ -26,34 +26,34 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Slight Shift",
-			fr: "Léger Déplacement",
-			de: "Leichte Bewegung",
-			it: "Lieve Spostamento",
-			pt: "Deslocamento Discreto",
-			es: "Pequeño Cambio",
+			'en-us': "Slight Shift",
+			'fr-fr': "Léger Déplacement",
+			'de-de': "Leichte Bewegung",
+			'it-it': "Lieve Spostamento",
+			'pt-br': "Deslocamento Discreto",
+			'es-es': "Pequeño Cambio",
 			'es-mx': "Movidita"
 		},
 
 		effect: {
-			en: "Move an Energy from 1 of your opponent's Pokémon to another of their Pokémon.",
-			fr: "Déplacez une Énergie de l'un des Pokémon de votre adversaire vers un autre de ses Pokémon.",
-			de: "Verschiebe 1 Energie von 1 Pokémon deines Gegners auf 1 anderes seiner Pokémon.",
-			it: "Sposta un'Energia da uno dei Pokémon del tuo avversario a un altro dei suoi Pokémon.",
-			pt: "Mova uma Energia de 1 dos Pokémon do seu oponente para outro Pokémon dele.",
-			es: "Mueve 1 Energía de uno de los Pokémon de tu rival a otro de sus Pokémon.",
+			'en-us': "Move an Energy from 1 of your opponent's Pokémon to another of their Pokémon.",
+			'fr-fr': "Déplacez une Énergie de l'un des Pokémon de votre adversaire vers un autre de ses Pokémon.",
+			'de-de': "Verschiebe 1 Energie von 1 Pokémon deines Gegners auf 1 anderes seiner Pokémon.",
+			'it-it': "Sposta un'Energia da uno dei Pokémon del tuo avversario a un altro dei suoi Pokémon.",
+			'pt-br': "Mova uma Energia de 1 dos Pokémon do seu oponente para outro Pokémon dele.",
+			'es-es': "Mueve 1 Energía de uno de los Pokémon de tu rival a otro de sus Pokémon.",
 			'es-mx': "Mueve 1 Energía de 1 de los Pokémon de tu rival a otro de sus Pokémon."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Beam",
-			fr: "Rayon",
-			de: "Strahl",
-			it: "Raggio",
-			pt: "Feixe",
-			es: "Transmisión",
+			'en-us': "Beam",
+			'fr-fr': "Rayon",
+			'de-de': "Strahl",
+			'it-it': "Raggio",
+			'pt-br': "Feixe",
+			'es-es': "Transmisión",
 			'es-mx': "Rayo"
 		},
 

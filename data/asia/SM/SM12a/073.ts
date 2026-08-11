@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニューラ",
+		'ja-jp': "ニューラ",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "チームプレイで とりポケモンの 巣穴から タマゴを 盗み出すが 誰が 食うかで ケンカになるのだ。",
+		'ja-jp': "チームプレイで とりポケモンの 巣穴から タマゴを 盗み出すが 誰が 食うかで ケンカになるのだ。",
 	},
 
 	stage: "Basic",

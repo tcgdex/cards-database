@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Impidimp"
+		'en-us': "Impidimp"
 	},
 
 	illustrator: "Rianti Hidayat",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "They live in groups, pestering and playing pranks\non each other to polish their troublemaking skills."
+		'en-us': "They live in groups, pestering and playing pranks\non each other to polish their troublemaking skills."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Bite"
+			'en-us': "Bite"
 		},
 
 		damage: 20,

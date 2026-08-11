@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Lugia-EX",
+		'en-us': "Lugia-EX",
 	},
 
 	illustrator: "Toyste Beach",
@@ -27,10 +27,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Overflow",
+				'en-us': "Overflow",
 			},
 			effect: {
-				en: "If your opponent’s Pokémon is Knocked Out by damage from an attack of this Pokémon, take 1 more Prize card.",
+				'en-us': "If your opponent’s Pokémon is Knocked Out by damage from an attack of this Pokémon, take 1 more Prize card.",
 			},
 		},
 	],
@@ -44,10 +44,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Plasma Gale",
+				'en-us': "Plasma Gale",
 			},
 			effect: {
-				en: "Discard a Plasma Energy attached to this Pokémon. If you can't discard a Plasma Energy, this attack does nothing.",
+				'en-us': "Discard a Plasma Energy attached to this Pokémon. If you can't discard a Plasma Energy, this attack does nothing.",
 			},
 			damage: 120,
 

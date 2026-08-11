@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "パオジアンex"
+		'ja-jp': "パオジアンex"
 	},
 
 	illustrator: "kodama",
@@ -19,11 +19,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "わななくれいき"
+			'ja-jp': "わななくれいき"
 		},
 
 		effect: {
-			ja: "このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札から「基本エネルギー」を2枚まで選び、相手に見せて、手札に加える。そして山札を切る。"
+			'ja-jp': "このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札から「基本エネルギー」を2枚まで選び、相手に見せて、手札に加える。そして山札を切る。"
 		}
 	}],
 
@@ -31,13 +31,13 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			ja: "ヘイルブレード"
+			'ja-jp': "ヘイルブレード"
 		},
 
 		damage: "60×",
 
 		effect: {
-			ja: "自分の場のポケモンについているエネルギーを好きなだけトラッシュし、その枚数×60ダメージ。"
+			'ja-jp': "自分の場のポケモンについているエネルギーを好きなだけトラッシュし、その枚数×60ダメージ。"
 		}
 	}],
 

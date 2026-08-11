@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "feraligatr",
+		'ja-jp': "feraligatr",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "恐ろしい牙",
+				'ja-jp': "恐ろしい牙",
 			},
 			effect: {
-				ja: "FeraligatrがアクティブなPokã©Monである限り、相手の攻撃によって与えられた損害は10増加します（脱力感と抵抗を適用する前）。",
+				'ja-jp': "FeraligatrがアクティブなPokã©Monである限り、相手の攻撃によって与えられた損害は10増加します（脱力感と抵抗を適用する前）。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "引き離します",
+				'ja-jp': "引き離します",
 			},
 			effect: {
-				ja: "相手が手に5枚以上のカードを持っている場合、対戦相手が4枚のカードが残っているまで、相手は多数のカードを破棄します。",
+				'ja-jp': "相手が手に5枚以上のカードを持っている場合、対戦相手が4枚のカードが残っているまで、相手は多数のカードを破棄します。",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				ja: "トン数",
+				'ja-jp': "トン数",
 			},
 			effect: {
-				ja: "50ダメージに加えて30ダメージを与えることができます。もしそうなら、Feraligatrはそれ自体に30のダメージを与えます。",
+				'ja-jp': "50ダメージに加えて30ダメージを与えることができます。もしそうなら、Feraligatrはそれ自体に30のダメージを与えます。",
 			},
 		},
 	],

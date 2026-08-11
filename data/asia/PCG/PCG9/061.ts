@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レディバ（デルタ種）",
+		'ja-jp': "レディバ（デルタ種）",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "取り組む",
+				'ja-jp': "取り組む",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Metal"],
 			name: {
-				ja: "超音速",
+				'ja-jp': "超音速",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
 			},
 		},
 	],

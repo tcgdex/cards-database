@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Metang",
-		fr: "Metang",
-		de: "Metang"
+		'en-us': "Metang",
+		'fr-fr': "Metang",
+		'de-de': "Metang"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Beldum",
-		fr: "Terhal",
+		'en-us': "Beldum",
+		'fr-fr': "Terhal",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psyshock",
-				fr: "Choc psy",
-				de: "Psychoschock"
+				'en-us': "Psyshock",
+				'fr-fr': "Choc psy",
+				'de-de': "Psychoschock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bullet Punch",
-				fr: "Pisto-Poing",
-				de: "Patronenhieb"
+				'en-us': "Bullet Punch",
+				'fr-fr': "Pisto-Poing",
+				'de-de': "Patronenhieb"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 40 damage plus 20 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires pour chaque face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte plus 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 40 damage plus 20 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires pour chaque face.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte plus 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "40+",
 
@@ -87,8 +87,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is formed by two Beldum joining together. Its steel body won't be scratched if it collides with a jet.",
-		fr: "Il est formé de deux Terhal soudés. Son corps de fer résiste à un choc avec un avion à réaction."
+		'en-us': "It is formed by two Beldum joining together. Its steel body won't be scratched if it collides with a jet.",
+		'fr-fr': "Il est formé de deux Terhal soudés. Son corps de fer résiste à un choc avec un avion à réaction."
 	},
 
 	thirdParty: {

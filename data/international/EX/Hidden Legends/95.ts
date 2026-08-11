@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Metagross ex",
-		fr: "Metalosse ex",
-		de: "Metagross ex"
+		'en-us': "Metagross ex",
+		'fr-fr': "Metalosse ex",
+		'de-de': "Metagross ex"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Metang",
-		fr: "Metang"
+		'en-us': "Metang",
+		'fr-fr': "Metang"
 	},
 
 	suffix: "ex",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Reversal",
-				fr: "Inversion métallique",
-				de: "Metal Reversal"
+				'en-us': "Metal Reversal",
+				'fr-fr': "Inversion métallique",
+				'de-de': "Metal Reversal"
 			},
 			effect: {
-				en: "Before doing damage, you may choose 1 of your opponent's Benched Pokémon and switch it with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. If you do, this attack does 40 damage to the new Defending Pokémon.",
-				fr: "Avant d'infliger des dégâts, vous pouvez choisir 1 des Pokémon de votre adversaire et l'échanger avec 1 des Pokémon Défenseurs. Votre adversaire choisit le Pokémon Défenseur à échanger. Cette attaque inflige alors 40 dégâts au nouveau Pokémon Défenseur.",
-				de: "Before doing damage, you may choose 1 of your opponent's Benched Pokémon and switch it with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. If you do, this attack does 40 damage to the new Defending Pokémon."
+				'en-us': "Before doing damage, you may choose 1 of your opponent's Benched Pokémon and switch it with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. If you do, this attack does 40 damage to the new Defending Pokémon.",
+				'fr-fr': "Avant d'infliger des dégâts, vous pouvez choisir 1 des Pokémon de votre adversaire et l'échanger avec 1 des Pokémon Défenseurs. Votre adversaire choisit le Pokémon Défenseur à échanger. Cette attaque inflige alors 40 dégâts au nouveau Pokémon Défenseur.",
+				'de-de': "Before doing damage, you may choose 1 of your opponent's Benched Pokémon and switch it with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. If you do, this attack does 40 damage to the new Defending Pokémon."
 			},
 			damage: 40,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Extra Comet Punch",
-				fr: "Poing meteor",
-				de: "Extra Comet Punch"
+				'en-us': "Extra Comet Punch",
+				'fr-fr': "Poing meteor",
+				'de-de': "Extra Comet Punch"
 			},
 			effect: {
-				en: "During your next turn, Extra Comet Punch does 50 damage plus 50 more damage.",
-				fr: "Lors de votre prochain tour, Extra poing comète inflige 50 dégâts plus 50 dégâts supplémentaires.",
-				de: "During your next turn, Extra Comet Punch does 50 damage plus 50 more damage"
+				'en-us': "During your next turn, Extra Comet Punch does 50 damage plus 50 more damage.",
+				'fr-fr': "Lors de votre prochain tour, Extra poing comète inflige 50 dégâts plus 50 dégâts supplémentaires.",
+				'de-de': "During your next turn, Extra Comet Punch does 50 damage plus 50 more damage"
 			},
 			damage: "50+",
 

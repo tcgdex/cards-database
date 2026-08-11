@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Exeggcute",
-		fr: "Noeufnoeuf",
-		de: "Owei"
+		'en-us': "Exeggcute",
+		'fr-fr': "Noeufnoeuf",
+		'de-de': "Owei"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psybeam",
-				fr: "Rafale psy",
-				de: "Psybeam"
+				'en-us': "Psybeam",
+				'fr-fr': "Rafale psy",
+				'de-de': "Psybeam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. if heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Flip a coin. if heads, the Defending Pokémon is now Confused."
 			},
 			damage: 10,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Spin",
-				fr: "Double tour",
-				de: "Double Spin"
+				'en-us': "Double Spin",
+				'fr-fr': "Double tour",
+				'de-de': "Double Spin"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 20 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 20 damage times the number of heads."
 			},
 			damage: "20x",
 

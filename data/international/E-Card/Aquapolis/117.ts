@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Wooper",
-		fr: "Axoloto",
-		de: "Felino"
+		'en-us': "Wooper",
+		'fr-fr': "Axoloto",
+		'de-de': "Felino"
 	},
 
 	illustrator: "Keiko Fukuyama",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Bubble",
-				fr: "Écume",
-				de: "Blubber"
+				'en-us': "Bubble",
+				'fr-fr': "Écume",
+				'de-de': "Blubber"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse vague",
-				de: "Wellenplatscher"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse vague",
+				'de-de': "Wellenplatscher"
 			},
 
 			damage: 20,

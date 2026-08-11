@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プクリン",
+		'ja-jp': "プクリン",
 	},
 
 	illustrator: "miki kudo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "弾力の ある ボディーと キメ細やかな 毛皮が 人気。 抱きしめて 寝ると 気持ちいい。",
+		'ja-jp': "弾力の ある ボディーと キメ細やかな 毛皮が 人気。 抱きしめて 寝ると 気持ちいい。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "たまをみがく" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュにあるエネルギーを3枚、相手に見せてから、手札に加える。",
+				'ja-jp': "自分のトラッシュにあるエネルギーを3枚、相手に見せてから、手札に加える。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "プリン",
+		'ja-jp': "プリン",
 	},
 
 	retreat: 1,

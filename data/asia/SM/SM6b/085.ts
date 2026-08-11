@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポケナビ",
+		'ja-jp': "ポケナビ",
 	},
 
 	illustrator: "",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札を上から3枚見る。その中にあるポケモンまたはエネルギーを1枚、相手に見せてから、手札に加えてよい。残りのカードは、好きな順番に入れ替えて、山札の上にもどす。",
+		'ja-jp': "自分の山札を上から3枚見る。その中にあるポケモンまたはエネルギーを1枚、相手に見せてから、手札に加えてよい。残りのカードは、好きな順番に入れ替えて、山札の上にもどす。",
 	},
 
 	variants: [

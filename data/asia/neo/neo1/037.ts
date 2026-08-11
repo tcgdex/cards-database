@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チンチョウ",
+		'ja-jp': "チンチョウ",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "超音速",
+				'ja-jp': "超音速",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
 			},
 		},
 		{
 			cost: ["Water"],
 			name: {
-				ja: "フレイル",
+				'ja-jp': "フレイル",
 			},
 			effect: {
-				ja: "ダメージ数はチンチョウのダメージ数を10回ダメージします。",
+				'ja-jp': "ダメージ数はチンチョウのダメージ数を10回ダメージします。",
 			},
 		},
 	],

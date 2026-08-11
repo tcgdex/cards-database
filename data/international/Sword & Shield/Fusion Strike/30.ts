@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ninetales",
-		fr: "Feunard",
-		es: "Ninetales",
-		it: "Ninetales",
-		pt: "Ninetales",
-		de: "Vulnona"
+		'en-us': "Ninetales",
+		'fr-fr': "Feunard",
+		'es-es': "Ninetales",
+		'it-it': "Ninetales",
+		'pt-br': "Ninetales",
+		'de-de': "Vulnona"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Vulpix",
-		fr: "Goupix",
-		es: "Vulpix",
-		it: "Vulpix",
-		pt: "Vulpix",
-		de: "Vulpix"
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix",
+		'es-es': "Vulpix",
+		'it-it': "Vulpix",
+		'pt-br': "Vulpix",
+		'de-de': "Vulpix"
 	},
 
 	stage: "Stage1",
@@ -40,19 +40,19 @@ const card: Card = {
 	illustrator: "kirisAki",
 
 	description: {
-		en: "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse."
+		'en-us': "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse."
 	},
 
 	attacks: [{
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Supernatural Flames",
-			fr: "Flammes Surnaturelles",
-			de: "Übernatürliche Flammen",
-			es: "Llamas Sobrenaturales",
-			pt: "Chamas Sobrenaturais",
-			it: "Fiamme Soprannaturali"
+			'en-us': "Supernatural Flames",
+			'fr-fr': "Flammes Surnaturelles",
+			'de-de': "Übernatürliche Flammen",
+			'es-es': "Llamas Sobrenaturales",
+			'pt-br': "Chamas Sobrenaturais",
+			'it-it': "Fiamme Soprannaturali"
 		},
 
 		damage: 70

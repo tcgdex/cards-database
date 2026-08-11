@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Steelix",
-		de: "Stahlos"
+		'en-us': "Steelix",
+		'de-de': "Stahlos"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Onix",
+		'en-us': "Onix",
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Rare Metal",
-				de: "Seltenes Metall"
+				'en-us': "Rare Metal",
+				'de-de': "Seltenes Metall"
 			},
 			effect: {
-				en: "All basic Energy cards attached to Steelix provide Metal Energy instead of their usual types.",
-				de: "Alle an Stahlos angelegten Basis-Energiekarten produzieren -Energie statt ihrer normalen Energien."
+				'en-us': "All basic Energy cards attached to Steelix provide Metal Energy instead of their usual types.",
+				'de-de': "Alle an Stahlos angelegten Basis-Energiekarten produzieren -Energie statt ihrer normalen Energien."
 			},
 		},
 	],
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Squeeze",
-				de: "Quetschen"
+				'en-us': "Squeeze",
+				'de-de': "Quetschen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage and the Defending Pokémon is now Paralyzed.",
-				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu und das verteidigende Pokémon ist jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage and the Defending Pokémon is now Paralyzed.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu und das verteidigende Pokémon ist jetzt gelähmt."
 			},
 			damage: "20+",
 
@@ -67,13 +67,13 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Metal Tail",
-				de: "Metallschweif"
+				'en-us': "Metal Tail",
+				'de-de': "Metallschweif"
 			},
 
 			effect: {
-				en: "Before doing damage, you may flip a coin. If heads, this attack does 80 damage. If tails, this attack does nothing.",
-				de: "Bevor der Schaden zugefügt wird, kannst du eine Münze werfen. Bei 'Kopf' fügt dieser Angriff 80 Schadenspunkte zu. Bei 'Zahl' hat dieser Angriff keine Wirkung."
+				'en-us': "Before doing damage, you may flip a coin. If heads, this attack does 80 damage. If tails, this attack does nothing.",
+				'de-de': "Bevor der Schaden zugefügt wird, kannst du eine Münze werfen. Bei 'Kopf' fügt dieser Angriff 80 Schadenspunkte zu. Bei 'Zahl' hat dieser Angriff keine Wirkung."
 			},
 
 			damage: 40,

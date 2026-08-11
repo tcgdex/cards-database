@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SLD"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "基本惡能量",
-		ja: "基本悪エネルギー"
+		'ja-jp': "基本悪エネルギー"
 	},
 
 	category: "Energy",

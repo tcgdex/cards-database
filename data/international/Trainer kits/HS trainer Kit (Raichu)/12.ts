@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HS trainer Kit (Raichu)'
 
 const card: Card = {
 	name: {
-		en: "Meowth",
+		'en-us': "Meowth",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,10 +22,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pay Day",
+				'en-us': "Pay Day",
 			},
 			effect: {
-				en: "Draw a card.",
+				'en-us': "Draw a card.",
 			},
 			damage: 10,
 		},
@@ -35,7 +35,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dig Claws",
+				'en-us': "Dig Claws",
 			},
 			damage: 20,
 		},

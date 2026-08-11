@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サメハダー",
+		'ja-jp': "サメハダー",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "抜けた キバを 持っていると 海で 事故に 遭わないと 信じられており アクセサリーなどに 加工 される。",
+		'ja-jp': "抜けた キバを 持っていると 海で 事故に 遭わないと 信じられており アクセサリーなどに 加工 される。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ごうよくしんか" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札を上から6枚見て、その中にある[悪]エネルギーを好きなだけ、このポケモンにつける。残りのカードは山札にもどして切る。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札を上から6枚見て、その中にある[悪]エネルギーを好きなだけ、このポケモンにつける。残りのカードは山札にもどして切る。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[悪]エネルギーの数x20ダメージ追加。",
+				'ja-jp': "このポケモンについている[悪]エネルギーの数x20ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "キバニア",
+		'ja-jp': "キバニア",
 	},
 
 	retreat: 1,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Keldeo V",
-		fr: "Keldeo V",
-		es: "Keldeo V",
-		it: "Keldeo V",
-		pt: "Keldeo V",
-		de: "Keldeo V"
+		'en-us': "Keldeo V",
+		'fr-fr': "Keldeo V",
+		'es-es': "Keldeo V",
+		'it-it': "Keldeo V",
+		'pt-br': "Keldeo V",
+		'de-de': "Keldeo V"
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse Vague",
-				es: "Chapoteo Ondulante",
-				it: "Schizzi d'Onda",
-				pt: "Onda Borrifante",
-				de: "Wellenplatscher"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse Vague",
+				'es-es': "Chapoteo Ondulante",
+				'it-it': "Schizzi d'Onda",
+				'pt-br': "Onda Borrifante",
+				'de-de': "Wellenplatscher"
 			},
 
 			damage: 40,
@@ -52,20 +52,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Secret Sword",
-				fr: "Lame Ointe",
-				es: "Sable Místico",
-				it: "Spadamistica",
-				pt: "Espada Secreta",
-				de: "Mystoschwert"
+				'en-us': "Secret Sword",
+				'fr-fr': "Lame Ointe",
+				'es-es': "Sable Místico",
+				'it-it': "Spadamistica",
+				'pt-br': "Espada Secreta",
+				'de-de': "Mystoschwert"
 			},
 			effect: {
-				en: "This attack does 30 more damage for each Water Energy attached to this Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
-				es: "Este ataque hace 30 puntos de daño más por cada Energía Water unida a este Pokémon.",
-				it: "Questo attacco infligge 30 danni in più per ogni Energia Water assegnata a questo Pokémon.",
-				pt: "Este ataque causa 30 pontos de dano a mais para cada Energia Water ligada a este Pokémon.",
-				de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Water-Energie 30 Schadenspunkte mehr zu."
+				'en-us': "This attack does 30 more damage for each Water Energy attached to this Pokémon.",
+				'fr-fr': "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+				'es-es': "Este ataque hace 30 puntos de daño más por cada Energía Water unida a este Pokémon.",
+				'it-it': "Questo attacco infligge 30 danni in più per ogni Energia Water assegnata a questo Pokémon.",
+				'pt-br': "Este ataque causa 30 pontos de dano a mais para cada Energia Water ligada a este Pokémon.",
+				'de-de': "Diese Attacke fügt für jede an dieses Pokémon angelegte Water-Energie 30 Schadenspunkte mehr zu."
 			},
 			damage: "50+",
 

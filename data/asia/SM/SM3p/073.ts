@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エンテイGX",
+		'ja-jp': "エンテイGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -25,14 +25,14 @@ const card: Card = {
 			damage: 100,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 		{
 			name: { ja: "ブレイブバーンGX" },
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン1匹に、150ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のベンチポケモン1匹に、150ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

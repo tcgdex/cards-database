@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [116],
 
 	name: {
-		en: "Horsea"
+		'en-us': "Horsea"
 	},
 
 	illustrator: "Taiga Kasai",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "Horsea makes its home in oceans with gentle\ncurrents. If this Pokémon is under attack, it spits\nout pitch-black ink and escapes."
+		'en-us': "Horsea makes its home in oceans with gentle\ncurrents. If this Pokémon is under attack, it spits\nout pitch-black ink and escapes."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Hook"
+			'en-us': "Hook"
 		},
 
 		damage: 30,

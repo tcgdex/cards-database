@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ออนเวิร์น",
-		id: "Noivern"
+		'th-th': "ออนเวิร์น",
+		'id-id': "Noivern"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -15,8 +15,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "สามารถปล่อยคลื่นเสียงความถี่สูงที่ทำให้หินขนาดมหึมาแตกเป็นผุยผง ได้ เป็นโปเกมอนที่มีนิสัยโหดร้าย",
-		id: "Noivern mengeluarkan gelombang ultrasonik yang dapat menghancurkan batu raksasa hingga berkeping-keping. Pokémon yang bersifat kejam."
+		'th-th': "สามารถปล่อยคลื่นเสียงความถี่สูงที่ทำให้หินขนาดมหึมาแตกเป็นผุยผง ได้ เป็นโปเกมอนที่มีนิสัยโหดร้าย",
+		'id-id': "Noivern mengeluarkan gelombang ultrasonik yang dapat menghancurkan batu raksasa hingga berkeping-keping. Pokémon yang bersifat kejam."
 	},
 
 	stage: "Stage1",
@@ -25,25 +25,25 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			th: "จูนนิงเอคโค",
-			id: "Tuning Echo"
+			'th-th': "จูนนิงเอคโค",
+			'id-id': "Tuning Echo"
 		},
 
 		effect: {
-			th: "ถ้าจำนวนการ์ดบนมือฝ่ายเราเท่ากับจำนวนการ์ดบนมือฝ่ายตรงข้าม พลังงาน สำหรับใช้ [แพนิกฮาวล์] ของโปเกมอนนี้ ทั้งหมดจะหายไป",
-			id: "Jika jumlah Kartu Pegangan sendiri dan jumlah Kartu Pegangan lawan sama, Pokémon ini menjadi tidak membutuhkan Energi untuk menggunakan Panic Howl."
+			'th-th': "ถ้าจำนวนการ์ดบนมือฝ่ายเราเท่ากับจำนวนการ์ดบนมือฝ่ายตรงข้าม พลังงาน สำหรับใช้ [แพนิกฮาวล์] ของโปเกมอนนี้ ทั้งหมดจะหายไป",
+			'id-id': "Jika jumlah Kartu Pegangan sendiri dan jumlah Kartu Pegangan lawan sama, Pokémon ini menjadi tidak membutuhkan Energi untuk menggunakan Panic Howl."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			th: "แพนิกฮาวล์",
-			id: "Panic Howl"
+			'th-th': "แพนิกฮาวล์",
+			'id-id': "Panic Howl"
 		},
 
 		effect: {
-			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[สับสน]",
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
+			'th-th': "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[สับสน]",
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
 		},
 
 		damage: 110,

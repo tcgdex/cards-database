@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Delibird",
-		fr: "Cadoizo",
-		de: "Botogel"
+		'en-us': "Delibird",
+		'fr-fr': "Cadoizo",
+		'de-de': "Botogel"
 	},
 
 	illustrator: "sui",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Snowy Present",
-				fr: "Cadeau enneigé",
-				de: "Schneepräsent"
+				'en-us': "Snowy Present",
+				'fr-fr': "Cadeau enneigé",
+				'de-de': "Schneepräsent"
 			},
 			effect: {
-				en: "Draw a card for each Water Energy attached to all of your Pokémon.",
-				fr: "Piochez une carte pour chaque carte Énergie Water attachée à l’ensemble de vos Pokémon.",
-				de: "Ziehe eine Karte für jede -Energie, die an allen deinen Pokémon angelegt ist."
+				'en-us': "Draw a card for each Water Energy attached to all of your Pokémon.",
+				'fr-fr': "Piochez une carte pour chaque carte Énergie Water attachée à l’ensemble de vos Pokémon.",
+				'de-de': "Ziehe eine Karte für jede -Energie, die an allen deinen Pokémon angelegt ist."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hail",
-				fr: "Grêle",
-				de: "Hagelsturm"
+				'en-us': "Hail",
+				'fr-fr': "Grêle",
+				'de-de': "Hagelsturm"
 			},
 			effect: {
-				en: "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
-				de: "Dieser Angriff fügt jedem Pokémon deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
+				'de-de': "Dieser Angriff fügt jedem Pokémon deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It nests at the edge of sharp cliffs. It spends all day carrying food to its awaiting chicks."
+		'en-us': "It nests at the edge of sharp cliffs. It spends all day carrying food to its awaiting chicks."
 	},
 
 	variants: [

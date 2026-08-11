@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [766],
 
 	name: {
-		en: "Passimian",
-		fr: "Quartermac",
-		es: "Passimian",
-		it: "Passimian",
-		pt: "Passimian",
-		de: "Quartermak"
+		'en-us': "Passimian",
+		'fr-fr': "Quartermac",
+		'es-es': "Passimian",
+		'it-it': "Passimian",
+		'pt-br': "Passimian",
+		'de-de': "Quartermak"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la Famille",
-				es: "Llamar a la Familia",
-				it: "Cerca Famiglia",
-				pt: "Chamar a Família",
-				de: "Familienruf"
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la Famille",
+				'es-es': "Llamar a la Familia",
+				'it-it': "Cerca Famiglia",
+				'pt-br': "Chamar a Família",
+				'de-de': "Familienruf"
 			},
 			effect: {
-				en: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
-				fr: "Cherchez dans votre deck jusqu'à 2 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja hasta 2 Pokémon Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
-				it: "Cerca nel tuo mazzo fino a due Pokémon Base e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure por até 2 Pokémon Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
+				'en-us': "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
+				'fr-fr': "Cherchez dans votre deck jusqu'à 2 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja hasta 2 Pokémon Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo fino a due Pokémon Base e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por até 2 Pokémon Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
 			},
 
 		},
@@ -53,20 +53,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Hurl",
-				fr: "Lance-Pierre",
-				es: "Lanzamiento de Rocas",
-				it: "Scaglia Pietre",
-				pt: "Lançamento de Pedras",
-				de: "Steinschleuderer"
+				'en-us': "Rock Hurl",
+				'fr-fr': "Lance-Pierre",
+				'es-es': "Lanzamiento de Rocas",
+				'it-it': "Scaglia Pietre",
+				'pt-br': "Lançamento de Pedras",
+				'de-de': "Steinschleuderer"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				es: "El daño de este ataque no se ve afectado por Resistencia.",
-				it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-				pt: "O dano deste ataque não é afetado por Resistência.",
-				de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+				'it-it': "I danni di questo attacco non sono influenzati dalla resistenza.",
+				'pt-br': "O dano deste ataque não é afetado por Resistência.",
+				'de-de': "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
 			},
 			damage: 70,
 
@@ -87,7 +87,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Displaying amazing teamwork, they follow the orders of their boss as they all help out in the search for their favorite berries."
+		'en-us': "Displaying amazing teamwork, they follow the orders of their boss as they all help out in the search for their favorite berries."
 	},
 
 	variants: [

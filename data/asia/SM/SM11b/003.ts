@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラフレシアGX",
+		'ja-jp': "ラフレシアGX",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かおるはなぞの" },
 			effect: {
-				ja: "自分の番に1回使える。自分のポケモン全員のHPを、それぞれ「30」回復する。",
+				'ja-jp': "自分の番に1回使える。自分のポケモン全員のHPを、それぞれ「30」回復する。",
 			},
 		},
 	],
@@ -29,7 +29,7 @@ const card: Card = {
 			name: { ja: "だいかいか 180-" },
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数×10ダメージぶん、このワザのダメージは小さくなる。",
+				'ja-jp': "このポケモンにのっているダメカンの数×10ダメージぶん、このワザのダメージは小さくなる。",
 			},
 		},
 		{
@@ -37,7 +37,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Grass"],
 			effect: {
-				ja: "相手のバトルポケモンをどくとやけどとマヒにする。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のバトルポケモンをどくとやけどとマヒにする。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "クサイハナ",
+		'ja-jp': "クサイハナ",
 	},
 
 	retreat: 2,

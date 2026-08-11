@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Seaking",
-		fr: "Poissoroy",
-		es: "Seaking",
-		it: "Seaking",
-		pt: "Seaking",
-		de: "Golking"
+		'en-us': "Seaking",
+		'fr-fr': "Poissoroy",
+		'es-es': "Seaking",
+		'it-it': "Seaking",
+		'pt-br': "Seaking",
+		'de-de': "Golking"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Goldeen",
-		fr: "Poissirène",
-		es: "Goldeen",
-		it: "Goldeen",
-		pt: "Goldeen",
-		de: "Goldini"
+		'en-us': "Goldeen",
+		'fr-fr': "Poissirène",
+		'es-es': "Goldeen",
+		'it-it': "Goldeen",
+		'pt-br': "Goldeen",
+		'de-de': "Goldini"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Soaking Horn",
-				fr: "Corne Trempage",
-				es: "Cuerno Anegador",
-				it: "Inondacorno",
-				pt: "Chifre Encharcador",
-				de: "Triefendes Horn"
+				'en-us': "Soaking Horn",
+				'fr-fr': "Corne Trempage",
+				'es-es': "Cuerno Anegador",
+				'it-it': "Inondacorno",
+				'pt-br': "Chifre Encharcador",
+				'de-de': "Triefendes Horn"
 			},
 			effect: {
-				en: "If this Pokémon was healed during this turn, this attack does 80 more damage.",
-				fr: "Si ce Pokémon a été soigné pendant ce tour, cette attaque inflige 80 dégâts supplémentaires.",
-				es: "Si este Pokémon ha sido curado durante este turno, este ataque hace 80 puntos de daño más.",
-				it: "Se questo Pokémon è stato curato durante questo turno, questo attacco infligge 80 danni in più.",
-				pt: "Se este Pokémon foi curado durante esta vez de jogar, este ataque causará 80 de danos adicionais.",
-				de: "Wenn dieses Pokémon während dieses Zuges geheilt wurde, fügt dieser Angriff 80 weitere Schadenspunkte zu."
+				'en-us': "If this Pokémon was healed during this turn, this attack does 80 more damage.",
+				'fr-fr': "Si ce Pokémon a été soigné pendant ce tour, cette attaque inflige 80 dégâts supplémentaires.",
+				'es-es': "Si este Pokémon ha sido curado durante este turno, este ataque hace 80 puntos de daño más.",
+				'it-it': "Se questo Pokémon è stato curato durante questo turno, questo attacco infligge 80 danni in più.",
+				'pt-br': "Se este Pokémon foi curado durante esta vez de jogar, este ataque causará 80 de danos adicionais.",
+				'de-de': "Wenn dieses Pokémon während dieses Zuges geheilt wurde, fügt dieser Angriff 80 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -66,20 +66,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reckless Charge",
-				fr: "Attaque Imprudente",
-				es: "Carga Descuidada",
-				it: "Carica Avventata",
-				pt: "Carga Indomável",
-				de: "Waghalsiger Sturmangriff"
+				'en-us': "Reckless Charge",
+				'fr-fr': "Attaque Imprudente",
+				'es-es': "Carga Descuidada",
+				'it-it': "Carica Avventata",
+				'pt-br': "Carga Indomável",
+				'de-de': "Waghalsiger Sturmangriff"
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s'inflige 10 dégâts.",
-				es: "Este Pokémon se hace 10 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 10 danni a se stesso.",
-				pt: "Este Pokémon causa 10 de danos a si mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "This Pokémon does 10 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 10 dégâts.",
+				'es-es': "Este Pokémon se hace 10 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 10 danni a se stesso.",
+				'pt-br': "Este Pokémon causa 10 de danos a si mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 40,
 
@@ -96,7 +96,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It makes its nest by hollowing out boulders in streams with its horn. It defends its eggs with its life.",
+		'en-us': "It makes its nest by hollowing out boulders in streams with its horn. It defends its eggs with its life.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブリッシー",
+		'ja-jp': "ブリッシー",
 	},
 
 	rarity: "Holo Rare",
@@ -17,10 +17,10 @@ const card: Card = {
 	abilities: [
 		{
 			name: {
-				ja: "ソフトボイルド",
+				'ja-jp': "ソフトボイルド",
 			},
 			effect: {
-				ja: "手からブリッシーをプレイすると、コインをひっくり返すことができます。頭の場合は、Blisseyから8つのダメージカウンターを削除します。尾の場合、Blisseyから4つのダメージカウンターを削除します。いずれにせよ、Blisseyのダメージカウンターがそれよりも少ない場合、それらすべてを削除します。",
+				'ja-jp': "手からブリッシーをプレイすると、コインをひっくり返すことができます。頭の場合は、Blisseyから8つのダメージカウンターを削除します。尾の場合、Blisseyから4つのダメージカウンターを削除します。いずれにせよ、Blisseyのダメージカウンターがそれよりも少ない場合、それらすべてを削除します。",
 			},
 		}],
 
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "ボディスラム",
+				'ja-jp': "ボディスラム",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 30,
 		},

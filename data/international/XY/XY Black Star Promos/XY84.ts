@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Pikachu EX",
-		fr: "Pikachu EX",
+		'en-us': "Pikachu EX",
+		'fr-fr': "Pikachu EX",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Iron Tail",
-				fr: "Queue de Fer",
+				'en-us': "Iron Tail",
+				'fr-fr': "Queue de Fer",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: "30×",
 
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Overspark",
-				fr: "Max'Étincelle"
+				'en-us': "Overspark",
+				'fr-fr': "Max'Étincelle"
 			},
 			effect: {
-				en: "Discard all Lightning Energy attached to this Pokémon. This attack does 50 damage times the number of Energy cards you discarded.",
-				fr: "Défaussez toutes les Énergies  attachées à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de cartes Énergies que vous avez défaussées."
+				'en-us': "Discard all Lightning Energy attached to this Pokémon. This attack does 50 damage times the number of Energy cards you discarded.",
+				'fr-fr': "Défaussez toutes les Énergies  attachées à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de cartes Énergies que vous avez défaussées."
 			},
 			damage: "50×",
 

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Salamèche",
+		'fr-fr': "Salamèche",
 	},
 
 	rarity: "None",
@@ -29,11 +29,11 @@ const card: Card = {
 		{
 			cost: ["Fire", "Colorless"],
 			name: {
-				fr: "Crocs Feu"
+				'fr-fr': "Crocs Feu"
 			},
 			damage: 20,
 			effect: {
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
 			}
 		},
 	],

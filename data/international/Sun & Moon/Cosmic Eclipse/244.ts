@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Gallade",
-		fr: "Gallame",
-		es: "Gallade",
-		it: "Gallade",
-		pt: "Gallade",
-		de: "Galagladi"
+		'en-us': "Gallade",
+		'fr-fr': "Gallame",
+		'es-es': "Gallade",
+		'it-it': "Gallade",
+		'pt-br': "Gallade",
+		'de-de': "Galagladi"
 	},
 
 	illustrator: "Huang Tzu En",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kirlia",
-		fr: "Kirlia",
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia",
 	},
 
 	stage: "Stage2",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Double Type",
-				fr: "Type Double",
-				es: "Doble Tipo",
-				it: "Doppio Tipo",
-				pt: "Tipo Duplo",
-				de: "Doppeltyp"
+				'en-us': "Double Type",
+				'fr-fr': "Type Double",
+				'es-es': "Doble Tipo",
+				'it-it': "Doppio Tipo",
+				'pt-br': "Tipo Duplo",
+				'de-de': "Doppeltyp"
 			},
 			effect: {
-				en: "As long as this Pokémon is in play, it is Psychic and Fighting type.",
-				fr: "Tant que ce Pokémon est en jeu, il est de type Psychic et Fighting.",
-				es: "Mientras este Pokémon esté en juego, es de tipo Psychic y Fighting.",
-				it: "Fintanto che questo Pokémon è in gioco, è di tipo Psychic e Fighting.",
-				pt: "Enquanto este Pokémon estiver em jogo, é do tipo Psychic e Fighting.",
-				de: "Solang dieses Pokémon im Spiel ist, ist es vom Typ Psychic und Fighting."
+				'en-us': "As long as this Pokémon is in play, it is Psychic and Fighting type.",
+				'fr-fr': "Tant que ce Pokémon est en jeu, il est de type Psychic et Fighting.",
+				'es-es': "Mientras este Pokémon esté en juego, es de tipo Psychic y Fighting.",
+				'it-it': "Fintanto che questo Pokémon è in gioco, è di tipo Psychic e Fighting.",
+				'pt-br': "Enquanto este Pokémon estiver em jogo, é do tipo Psychic e Fighting.",
+				'de-de': "Solang dieses Pokémon im Spiel ist, ist es vom Typ Psychic und Fighting."
 			},
 		},
 	],
@@ -62,20 +62,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Power Cyclone",
-				fr: "Cyclone d’Énergie",
-				es: "Ciclón Poderoso",
-				it: "Ciclone Potente",
-				pt: "Ciclone Poderoso",
-				de: "Kraftwirbel"
+				'en-us': "Power Cyclone",
+				'fr-fr': "Cyclone d’Énergie",
+				'es-es': "Ciclón Poderoso",
+				'it-it': "Ciclone Potente",
+				'pt-br': "Ciclone Poderoso",
+				'de-de': "Kraftwirbel"
 			},
 			effect: {
-				en: "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
-				fr: "Déplacez une Énergie de ce Pokémon vers l’un de vos Pokémon de Banc.",
-				es: "Mueve 1 Energía de este Pokémon a 1 de tus Pokémon en Banca.",
-				it: "Sposta un’Energia da questo Pokémon a uno di quelli nella tua panchina.",
-				pt: "Mova 1 Energia deste Pokémon para 1 dos seus Pokémon no Banco.",
-				de: "Verschiebe 1 Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
+				'en-us': "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
+				'fr-fr': "Déplacez une Énergie de ce Pokémon vers l’un de vos Pokémon de Banc.",
+				'es-es': "Mueve 1 Energía de este Pokémon a 1 de tus Pokémon en Banca.",
+				'it-it': "Sposta un’Energia da questo Pokémon a uno di quelli nella tua panchina.",
+				'pt-br': "Mova 1 Energia deste Pokémon para 1 dos seus Pokémon no Banco.",
+				'de-de': "Verschiebe 1 Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
 			},
 			damage: 120,
 
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Because it can sense what its foe is thinking, its attacks burst out first, fast, and fierce.",
+		'en-us': "Because it can sense what its foe is thinking, its attacks burst out first, fast, and fierce.",
 	},
 
 	thirdParty: {

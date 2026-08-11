@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pidove",
-		fr: "Poichigeon",
-		es: "Pidove",
-		it: "Pidove",
-		pt: "Pidove",
-		de: "Dusselgurr"
+		'en-us': "Pidove",
+		'fr-fr': "Poichigeon",
+		'es-es': "Pidove",
+		'it-it': "Pidove",
+		'pt-br': "Pidove",
+		'de-de': "Dusselgurr"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Emergency Evolution",
-			fr: "Évolution d'Urgence",
-			es: "Evolución de Emergencia",
-			it: "Evoluzione di Emergenza",
-			pt: "Evolução Emergencial",
-			de: "Notfall-Entwicklung"
+			'en-us': "Emergency Evolution",
+			'fr-fr': "Évolution d'Urgence",
+			'es-es': "Evolución de Emergencia",
+			'it-it': "Evoluzione di Emergenza",
+			'pt-br': "Evolução Emergencial",
+			'de-de': "Notfall-Entwicklung"
 		},
 
 		effect: {
-			en: "Once during your turn, if this Pokémon's remaining HP is 30 or less, you may search your deck for an Unfezant or Unfezant ex and put it onto this Pidove to evolve it. Then, shuffle your deck.",
-			fr: "Une fois pendant votre tour, s'il reste 30 PV ou moins à ce Pokémon, vous pouvez chercher dans votre deck un Déflaisan ou un Déflaisan-ex et le placer sur ce Poichigeon pour le faire évoluer. Mélangez ensuite votre deck.",
-			es: "Una vez durante tu turno, si a este Pokémon le quedan 30 PS o menos, puedes buscar en tu baraja 1 Unfezant o Unfezant ex y ponerlo sobre este Pidove para hacerlo evolucionar. Después, baraja las cartas de tu baraja.",
-			it: "Una sola volta durante il tuo turno, se i PS rimanenti di questo Pokémon sono 30 o meno, puoi cercare nel tuo mazzo un Unfezant o un Unfezant-ex e metterlo sopra questo Pidove per farlo evolvere. Poi rimischia le carte del tuo mazzo.",
-			pt: "Uma vez durante o seu turno, se o PS restante deste Pokémon for 30 ou menos, você poderá procurar por um Unfezant ou Unfezant ex no seu baralho e colocá-lo sobre este Pidove para evoluí-lo. Em seguida, embaralhe o seu baralho.",
-			de: "Einmal während deines Zuges, wenn dieses Pokémon 30 oder weniger verbleibende KP hat, kannst du dein Deck nach 1 Fasasnob oder Fasasnob-ex durchsuchen und es auf dieses Dusselgurr legen, um es zu entwickeln. Mische anschließend dein Deck."
+			'en-us': "Once during your turn, if this Pokémon's remaining HP is 30 or less, you may search your deck for an Unfezant or Unfezant ex and put it onto this Pidove to evolve it. Then, shuffle your deck.",
+			'fr-fr': "Une fois pendant votre tour, s'il reste 30 PV ou moins à ce Pokémon, vous pouvez chercher dans votre deck un Déflaisan ou un Déflaisan-ex et le placer sur ce Poichigeon pour le faire évoluer. Mélangez ensuite votre deck.",
+			'es-es': "Una vez durante tu turno, si a este Pokémon le quedan 30 PS o menos, puedes buscar en tu baraja 1 Unfezant o Unfezant ex y ponerlo sobre este Pidove para hacerlo evolucionar. Después, baraja las cartas de tu baraja.",
+			'it-it': "Una sola volta durante il tuo turno, se i PS rimanenti di questo Pokémon sono 30 o meno, puoi cercare nel tuo mazzo un Unfezant o un Unfezant-ex e metterlo sopra questo Pidove per farlo evolvere. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Uma vez durante o seu turno, se o PS restante deste Pokémon for 30 ou menos, você poderá procurar por um Unfezant ou Unfezant ex no seu baralho e colocá-lo sobre este Pidove para evoluí-lo. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Einmal während deines Zuges, wenn dieses Pokémon 30 oder weniger verbleibende KP hat, kannst du dein Deck nach 1 Fasasnob oder Fasasnob-ex durchsuchen und es auf dieses Dusselgurr legen, um es zu entwickeln. Mische anschließend dein Deck."
 		}
 	}],
 
@@ -46,12 +46,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Gust",
-			fr: "Tornade",
-			es: "Tornado",
-			it: "Raffica",
-			pt: "Lufada de Vento",
-			de: "Windstoß"
+			'en-us': "Gust",
+			'fr-fr': "Tornade",
+			'es-es': "Tornado",
+			'it-it': "Raffica",
+			'pt-br': "Lufada de Vento",
+			'de-de': "Windstoß"
 		},
 
 		damage: 10
@@ -73,7 +73,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Where people go, these Pokémon follow. If you're scattering food for them, be careful— several hundred of them can gather at once.",
+		'en-us': "Where people go, these Pokémon follow. If you're scattering food for them, be careful— several hundred of them can gather at once.",
 	},
 
 	variants: [

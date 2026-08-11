@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "テッカニン"
+		'ja-jp': "テッカニン"
 	},
 	illustrator: "Apios",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Grass"],
 	description: {
-		ja: "どんな攻撃でも避けてしまうと いわれるほど素早い ポケモン。甘い樹液が大好物。"
+		'ja-jp': "どんな攻撃でも避けてしまうと いわれるほど素早い ポケモン。甘い樹液が大好物。"
 	},
 	stage: "Stage1",
 	variants: [
@@ -25,24 +25,24 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ツチニン"
+		'ja-jp': "ツチニン"
 	},
 	abilities: [{
 		type: "Ability",
 		name: {
-			ja: "からぬけ"
+			'ja-jp': "からぬけ"
 		},
 		effect: {
-			ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。山札から「ヌケニン」を1枚選び、ベンチに出す。そして山札を切る。"
+			'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。山札から「ヌケニン」を1枚選び、ベンチに出す。そして山札を切る。"
 		}
 	}],
 	attacks: [{
 		name: {
-			ja: "とんぼがえり"
+			'ja-jp': "とんぼがえり"
 		},
 		damage: 90,
 		effect: {
-			ja: "このポケモンをベンチポケモンと入れ替える。"
+			'ja-jp': "このポケモンをベンチポケモンと入れ替える。"
 		},
 		cost: ["Grass", "Colorless"]
 	}],

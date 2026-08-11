@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Sawsbuck"
+		'id-id': "Sawsbuck"
 	},
 
 	illustrator: "Akira Komayama",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Sawsbuck wujud musim gugur dikenal bersifat sangat kasar. Pertengkaran antara yang jantan tidak pernah berakhir."
+		'id-id': "Sawsbuck wujud musim gugur dikenal bersifat sangat kasar. Pertengkaran antara yang jantan tidak pernah berakhir."
 	},
 
 	stage: "Stage1",
@@ -23,17 +23,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Perubahan Empat Musim"
+			'id-id': "Perubahan Empat Musim"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri. Pilih 1 lembar Stadium dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri. Pilih 1 lembar Stadium dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Tanduk Tenaga Super"
+			'id-id': "Tanduk Tenaga Super"
 		},
 
 		damage: 110,

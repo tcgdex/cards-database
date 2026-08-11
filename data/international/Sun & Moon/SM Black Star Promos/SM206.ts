@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		es: "Pikachu",
-		it: "Pikachu",
-		pt: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'es-es': "Pikachu",
+		'it-it': "Pikachu",
+		'pt-br': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	illustrator: "Akira Komayama",
@@ -36,20 +36,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thundershock",
-				fr: "Éclair",
-				es: "Impactrueno",
-				it: "Tuonoshock",
-				pt: "Trovoada de Choques",
-				de: "Donnerschock"
+				'en-us': "Thundershock",
+				'fr-fr': "Éclair",
+				'es-es': "Impactrueno",
+				'it-it': "Tuonoshock",
+				'pt-br': "Trovoada de Choques",
+				'de-de': "Donnerschock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
-				es: "Lanza una moneda. Si sale cara, el Pokémon Defensor pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon difensore viene paralizzato.",
-				pt: "Jogue uma moeda. Se sair cara, o Pokémon Defensor será Paralisado.",
-				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'es-es': "Lanza una moneda. Si sale cara, el Pokémon Defensor pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon difensore viene paralizzato.",
+				'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Defensor será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 40,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its nature is to store up electricity. Forests where nests of Pikachu live are dangerous, since the trees are so often struck by lightning.",
+		'en-us': "Its nature is to store up electricity. Forests where nests of Pikachu live are dangerous, since the trees are so often struck by lightning.",
 	},
 }
 

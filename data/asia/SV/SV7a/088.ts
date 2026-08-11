@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ブリジュラスex"
+		'ja-jp': "ブリジュラスex"
 	},
 
 	illustrator: "Shinya Mizuno",
@@ -19,11 +19,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ごうきんビルド"
+			'ja-jp': "ごうきんビルド"
 		},
 
 		effect: {
-			ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のトラッシュから「基本エネルギー」を2枚まで選び、自分のポケモンに好きなようにつける。"
+			'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のトラッシュから「基本エネルギー」を2枚まで選び、自分のポケモンに好きなようにつける。"
 		}
 	}],
 
@@ -31,13 +31,13 @@ const card: Card = {
 		cost: ["Metal", "Metal", "Metal"],
 
 		name: {
-			ja: "メタルディフェンダー"
+			'ja-jp': "メタルディフェンダー"
 		},
 
 		damage: 220,
 
 		effect: {
-			ja: "次の相手の番、このポケモンの弱点は、すべてなくなる。"
+			'ja-jp': "次の相手の番、このポケモンの弱点は、すべてなくなる。"
 		}
 	}],
 

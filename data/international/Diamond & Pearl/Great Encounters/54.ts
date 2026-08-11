@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Slowbro",
-		fr: "Flagadoss",
-		de: "Lahmus"
+		'en-us': "Slowbro",
+		'fr-fr': "Flagadoss",
+		'de-de': "Lahmus"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Slowpoke",
-		fr: "Ramoloss",
+		'en-us': "Slowpoke",
+		'fr-fr': "Ramoloss",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Amnesia",
-				fr: "Amnésie",
-				de: "Amnesie"
+				'en-us': "Amnesia",
+				'fr-fr': "Amnésie",
+				'de-de': "Amnesie"
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
-				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Il ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire.",
-				de: "Wähle 1 Angriff des Verteidigenden Pokémon. Dieses Pokémon kann im nächsten Zug deines Gegners den gewählten Angriff nicht einsetzen."
+				'en-us': "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
+				'fr-fr': "Choisissez 1 des attaques du Pokémon Défenseur. Il ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire.",
+				'de-de': "Wähle 1 Angriff des Verteidigenden Pokémon. Dieses Pokémon kann im nächsten Zug deines Gegners den gewählten Angriff nicht einsetzen."
 			},
 			damage: 20,
 
@@ -56,9 +56,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Zen Headbutt",
-				fr: "Psykoud'Boul",
-				de: "Zen-Kopfstoß"
+				'en-us': "Zen Headbutt",
+				'fr-fr': "Psykoud'Boul",
+				'de-de': "Zen-Kopfstoß"
 			},
 
 			damage: 60,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Though usually dim witted, it seems to become inspired if the SHELLDER on its tail bites down.",
+		'en-us': "Though usually dim witted, it seems to become inspired if the SHELLDER on its tail bites down.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Trevenant",
-		fr: "Desséliande"
+		'en-us': "Trevenant",
+		'fr-fr': "Desséliande"
 	},
 
 	illustrator: "Midori Harada",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Phantump",
-		fr: "Brocélôme"
+		'en-us': "Phantump",
+		'fr-fr': "Brocélôme"
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Nervous Seed",
-				fr: "Graine Angoisse"
+				'en-us': "Nervous Seed",
+				'fr-fr': "Graine Angoisse"
 			},
 			effect: {
-				en: "As long as this Pokémon is your Active Pokémon, your opponent's Basic Pokémon's attacks cost Colorless more.",
-				fr: "Tant que ce Pokémon est votre Pokémon Actif, les attaques des Pokémon de base de votre adversaire coûtent  de plus."
+				'en-us': "As long as this Pokémon is your Active Pokémon, your opponent's Basic Pokémon's attacks cost Colorless more.",
+				'fr-fr': "Tant que ce Pokémon est votre Pokémon Actif, les attaques des Pokémon de base de votre adversaire coûtent  de plus."
 			},
 		},
 	],
@@ -60,7 +60,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Using its roots as a nervous system, it controls the trees in the forest. It's kind to the Pokémon that reside in its body.",
+		'en-us': "Using its roots as a nervous system, it controls the trees in the forest. It's kind to the Pokémon that reside in its body.",
 	},
 
 	thirdParty: {

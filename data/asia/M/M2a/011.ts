@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スボミー",
+		'ja-jp': "スボミー",
 	},
 
 	illustrator: "Yoriyuki Ikegami",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "毒を 含んだ 花粉を まく。 きれいな 水で 育てるほど 毒の 成分は 高まる。",
+		'ja-jp': "毒を 含んだ 花粉を まく。 きれいな 水で 育てるほど 毒の 成分は 高まる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: [],
 			effect: {
-				ja: "次の相手の番、相手は手札からグッズを出して使えない。",
+				'ja-jp': "次の相手の番、相手は手札からグッズを出して使えない。",
 			},
 		},
 	],

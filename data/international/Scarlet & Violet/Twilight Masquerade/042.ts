@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Poliwhirl",
-		fr: "Têtarte",
-		es: "Poliwhirl",
-		it: "Poliwhirl",
-		pt: "Poliwhirl",
-		de: "Quaputzi"
+		'en-us': "Poliwhirl",
+		'fr-fr': "Têtarte",
+		'es-es': "Poliwhirl",
+		'it-it': "Poliwhirl",
+		'pt-br': "Poliwhirl",
+		'de-de': "Quaputzi"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Poliwag",
-		fr: "Ptitard",
-		es: "Poliwag",
-		it: "Poliwag",
-		pt: "Poliwag",
-		de: "Quapsel"
+		'en-us': "Poliwag",
+		'fr-fr': "Ptitard",
+		'es-es': "Poliwag",
+		'it-it': "Poliwag",
+		'pt-br': "Poliwag",
+		'de-de': "Quapsel"
 	},
 	stage: "Stage1",
 
@@ -32,41 +32,41 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Hypnosis",
-			fr: "Hypnose",
-			es: "Hipnosis",
-			it: "Ipnosi",
-			pt: "Hipnose",
-			de: "Hypnose"
+			'en-us': "Hypnosis",
+			'fr-fr': "Hypnose",
+			'es-es': "Hipnosis",
+			'it-it': "Ipnosi",
+			'pt-br': "Hipnose",
+			'de-de': "Hypnose"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Double Slap",
-			fr: "Torgnoles",
-			es: "Doble Bofetón",
-			it: "Doppiasberla",
-			pt: "Tapa Duplo",
-			de: "Duplexhieb"
+			'en-us': "Double Slap",
+			'fr-fr': "Torgnoles",
+			'es-es': "Doble Bofetón",
+			'it-it': "Doppiasberla",
+			'pt-br': "Tapa Duplo",
+			'de-de': "Duplexhieb"
 		},
 
 		effect: {
-			en: "Flip 2 coins. This attack does 30 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
-			es: "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 30 pontos de dano para cada cara.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip 2 coins. This attack does 30 damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 30 pontos de dano para cada cara.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "30×"
@@ -82,7 +82,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Its skin is moist all over its body. The skin on its belly spiral also feels smooth.",
+		'en-us': "Its skin is moist all over its body. The skin on its belly spiral also feels smooth.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アブソル",
+		'ja-jp': "アブソル",
 		'zh-tw': "阿勃梭魯",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "風のように 野山を 駆けぬける。 弓なりの ツノは 自然災害の 予兆を 敏感に 感じとる。",
+		'ja-jp': "風のように 野山を 駆けぬける。 弓なりの ツノは 自然災害の 予兆を 敏感に 感じとる。",
 		'zh-tw': "如風般地奔馳在山野中。 形狀如弓的角能夠敏銳 感應到自然災害的預兆。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "バッドフォール",
+				'ja-jp': "バッドフォール",
 				'zh-tw': "惡棍墜落",
 			},
 			damage: "20+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の場に[D]エネルギーが3個以上あるなら、50ダメージ追加。",
+				'ja-jp': "自分の場に[D]エネルギーが3個以上あるなら、50ダメージ追加。",
 				'zh-tw': "若自己的場上的【惡】能量有3個以上，則增加50點傷害。",
 			},
 		},

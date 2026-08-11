@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Bisharp",
-		fr: "Scalproie",
-		es: "Bisharp",
-		it: "Bisharp",
-		pt: "Bisharp",
-		de: "Caesurio"
+		'en-us': "Bisharp",
+		'fr-fr': "Scalproie",
+		'es-es': "Bisharp",
+		'it-it': "Bisharp",
+		'pt-br': "Bisharp",
+		'de-de': "Caesurio"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pawniard",
-		fr: "Scalpion",
+		'en-us': "Pawniard",
+		'fr-fr': "Scalpion",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Corner",
-				fr: "Coinçage",
-				es: "Arrinconar",
-				it: "Trappola",
-				pt: "Quina",
-				de: "Bedrängen"
+				'en-us': "Corner",
+				'fr-fr': "Coinçage",
+				'es-es': "Arrinconar",
+				'it-it': "Trappola",
+				'pt-br': "Quina",
+				'de-de': "Bedrängen"
 			},
 			effect: {
-				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
-				es: "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
-				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-				pt: "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
-				de: "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can’t retreat during your opponent’s next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'es-es': "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
+				'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+				'pt-br': "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
+				'de-de': "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 30,
 
@@ -63,20 +63,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slashing Strike",
-				fr: "Coup Déchirant",
-				es: "Golpe Cuchillazo",
-				it: "Lacerattacco",
-				pt: "Ataque Cortante",
-				de: "Schlitzender Schlag"
+				'en-us': "Slashing Strike",
+				'fr-fr': "Coup Déchirant",
+				'es-es': "Golpe Cuchillazo",
+				'it-it': "Lacerattacco",
+				'pt-br': "Ataque Cortante",
+				'de-de': "Schlitzender Schlag"
 			},
 			effect: {
-				en: "This Pokémon can’t use Slashing Strike during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Coup Déchirant pendant votre prochain tour.",
-				es: "Este Pokémon no puede usar Golpe Cuchillazo durante tu próximo turno.",
-				it: "Durante il tuo prossimo turno, questo Pokémon non può usare Lacerattacco.",
-				pt: "Este Pokémon não poderá usar Ataque Cortante durante a sua próxima vez de jogar.",
-				de: "Dieses Pokémon kann Schlitzender Schlag während deines nächsten Zuges nicht einsetzen."
+				'en-us': "This Pokémon can’t use Slashing Strike during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Coup Déchirant pendant votre prochain tour.",
+				'es-es': "Este Pokémon no puede usar Golpe Cuchillazo durante tu próximo turno.",
+				'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Lacerattacco.",
+				'pt-br': "Este Pokémon não poderá usar Ataque Cortante durante a sua próxima vez de jogar.",
+				'de-de': "Dieses Pokémon kann Schlitzender Schlag während deines nächsten Zuges nicht einsetzen."
 			},
 			damage: 80,
 
@@ -100,7 +100,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "No matter how strong the Bisharp, it's said that if the blade on its head is chipped, it will retire from its position as the boss.",
+		'en-us': "No matter how strong the Bisharp, it's said that if the blade on its head is chipped, it will retire from its position as the boss.",
 	},
 
 	thirdParty: {

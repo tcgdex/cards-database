@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Cyndaquil",
-		fr: "Héricendre",
-		de: "Feurigel"
+		'en-us': "Cyndaquil",
+		'fr-fr': "Héricendre",
+		'de-de': "Feurigel"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Beat",
-				fr: "Bataille",
-				de: "Verprügler"
+				'en-us': "Beat",
+				'fr-fr': "Bataille",
+				'de-de': "Verprügler"
 			},
 
 			damage: 10,
@@ -43,9 +43,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare",
-				fr: "Intimidation",
-				de: "Flackern"
+				'en-us': "Flare",
+				'fr-fr': "Intimidation",
+				'de-de': "Flackern"
 			},
 
 			damage: 20,
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It usually stays hunched over. If it is angry or surprised, it shoots flames out of its back."
+		'en-us': "It usually stays hunched over. If it is angry or surprised, it shoots flames out of its back."
 	},
 
 	variants: [

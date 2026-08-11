@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 8'
 
 const card: Card = {
 	name: {
-		en: "Piplup",
+		'en-us': "Piplup",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,7 +27,7 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Peck",
+				'en-us': "Peck",
 			},
 
 			damage: 10,
@@ -39,10 +39,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Splash",
+				'en-us': "Water Splash",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
 			},
 			damage: "20+",
 
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold."
+		'en-us': "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold."
 	},
 
 	retreat: 1,

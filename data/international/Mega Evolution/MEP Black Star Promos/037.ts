@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bulbasaur",
-		fr: "Bulbizarre",
-		de: "Bisasam",
-		it: "Bulbasaur",
-		es: "Bulbasaur",
-		pt: "Bulbasaur",
+		'en-us': "Bulbasaur",
+		'fr-fr': "Bulbizarre",
+		'de-de': "Bisasam",
+		'it-it': "Bulbasaur",
+		'es-es': "Bulbasaur",
+		'pt-br': "Bulbasaur",
 		'es-mx': "Bulbasaur"
 	},
 
@@ -26,24 +26,24 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Leech Seed",
-			fr: "Vampigraine",
-			de: "Egelsamen",
-			it: "Parassiseme",
-			es: "Drenadoras",
-			pt: "Semente Sanguessuga",
+			'en-us': "Leech Seed",
+			'fr-fr': "Vampigraine",
+			'de-de': "Egelsamen",
+			'it-it': "Parassiseme",
+			'es-es': "Drenadoras",
+			'pt-br': "Semente Sanguessuga",
 			'es-mx': "Drenadoras"
 		},
 
 		damage: 10,
 
 		effect: {
-			en: "Heal 10 damage from this Pokémon.",
-			fr: "Soignez 10 dégâts de ce Pokémon.",
-			de: "Heile 10 Schadenspunkte bei diesem Pokémon.",
-			it: "Cura questo Pokémon da 10 danni.",
-			es: "Cura 10 puntos de daño a este Pokémon.",
-			pt: "Cure 10 pontos de dano deste Pokémon.",
+			'en-us': "Heal 10 damage from this Pokémon.",
+			'fr-fr': "Soignez 10 dégâts de ce Pokémon.",
+			'de-de': "Heile 10 Schadenspunkte bei diesem Pokémon.",
+			'it-it': "Cura questo Pokémon da 10 danni.",
+			'es-es': "Cura 10 puntos de daño a este Pokémon.",
+			'pt-br': "Cure 10 pontos de dano deste Pokémon.",
 			'es-mx': "Cura 10 puntos de daño a este Pokémon."
 		}
 	}],

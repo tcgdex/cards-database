@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "げんきのハチマキ",
+		'ja-jp': "げんきのハチマキ",
 		'zh-tw': "波加曼",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけているポケモンが使うワザの、相手のバトルポケモンへのダメージは「＋10」される。",
+		'ja-jp': "このカードをつけているポケモンが使うワザの、相手のバトルポケモンへのダメージは「＋10」される。",
 	},
 
 	variants: [

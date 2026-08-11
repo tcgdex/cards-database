@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Grotle",
-		fr: "Boskara",
-		de: "Chelcarain"
+		'en-us': "Grotle",
+		'fr-fr': "Boskara",
+		'de-de': "Chelcarain"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Turtwig",
-		fr: "Tortipouss",
+		'en-us': "Turtwig",
+		'fr-fr': "Tortipouss",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Synthesis",
-				fr: "Synthèse",
-				de: "Synthese"
+				'en-us': "Synthesis",
+				'fr-fr': "Synthèse",
+				'de-de': "Synthese"
 			},
 			effect: {
-				en: "Search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck une carte Énergie Grass, et attachez-la à 1 de vos Pokémon. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach einer -Energiekarte und lege sie an 1 deiner Pokémon an. Mische dein Deck danach."
+				'en-us': "Search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez dans votre deck une carte Énergie Grass, et attachez-la à 1 de vos Pokémon. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach einer -Energiekarte und lege sie an 1 deiner Pokémon an. Mische dein Deck danach."
 			},
 
 		},
@@ -54,9 +54,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cut",
-				fr: "Coupe",
-				de: "Zerschneider"
+				'en-us': "Cut",
+				'fr-fr': "Coupe",
+				'de-de': "Zerschneider"
 			},
 
 			damage: 50,
@@ -81,8 +81,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.",
-		fr: "Il vit en forêt près de l'eau. En journée, il la quitte pour dorer sa carapace feuillue au soleil."
+		'en-us': "It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.",
+		'fr-fr': "Il vit en forêt près de l'eau. En journée, il la quitte pour dorer sa carapace feuillue au soleil."
 	},
 
 	thirdParty: {

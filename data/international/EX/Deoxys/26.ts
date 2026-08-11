@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Skarmory",
-		fr: "Airmure",
-		de: "Panzaeron"
+		'en-us': "Skarmory",
+		'fr-fr': "Airmure",
+		'de-de': "Panzaeron"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Metallic Lift",
-				fr: "Élévation métallique",
-				de: "Metallic Lift"
+				'en-us': "Metallic Lift",
+				'fr-fr': "Élévation métallique",
+				'de-de': "Metallic Lift"
 			},
 			effect: {
-				en: "If Skarmory has any Metal Energy attached to it, the Retreat Cost for Skarmory is 0.",
-				fr: "Si Airmure possède une Énergie , son Coût de retraite est de 0.",
-				de: "If Skarmory has nay  Energy attached to it, the Retreat Cost for Skarmory is 0."
+				'en-us': "If Skarmory has any Metal Energy attached to it, the Retreat Cost for Skarmory is 0.",
+				'fr-fr': "Si Airmure possède une Énergie , son Coût de retraite est de 0.",
+				'de-de': "If Skarmory has nay  Energy attached to it, the Retreat Cost for Skarmory is 0."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spearhead",
-				fr: "Meneur",
-				de: "Spearhead"
+				'en-us': "Spearhead",
+				'fr-fr': "Meneur",
+				'de-de': "Spearhead"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Draw a card."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Draw a card."
 			},
 
 		},
@@ -64,14 +64,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heavy Metal",
-				fr: "Heavy Métal",
-				de: "Heavy Metal"
+				'en-us': "Heavy Metal",
+				'fr-fr': "Heavy Métal",
+				'de-de': "Heavy Metal"
 			},
 			effect: {
-				en: "Flip a coin for each Metal Energy attached to Skarmory. This attack does 10 damage plus 20 more damage for each heads.",
-				fr: "Lancez une pièce pour chaque Énergie  attachée à Airmure. Cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires multipliés par le nombre de faces.",
-				de: "Flip a coin for each  Energy attached to Skarmory. This attack does 10 damage plus 20 more danage for each heads."
+				'en-us': "Flip a coin for each Metal Energy attached to Skarmory. This attack does 10 damage plus 20 more damage for each heads.",
+				'fr-fr': "Lancez une pièce pour chaque Énergie  attachée à Airmure. Cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires multipliés par le nombre de faces.",
+				'de-de': "Flip a coin for each  Energy attached to Skarmory. This attack does 10 damage plus 20 more danage for each heads."
 			},
 			damage: "10+",
 

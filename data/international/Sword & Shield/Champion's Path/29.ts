@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [744],
 
 	name: {
-		en: "Rockruff",
-		fr: "Rocabot",
-		es: "Rockruff",
-		it: "Rockruff",
-		pt: "Rockruff",
-		de: "Wuffels"
+		'en-us': "Rockruff",
+		'fr-fr': "Rocabot",
+		'es-es': "Rockruff",
+		'it-it': "Rockruff",
+		'pt-br': "Rockruff",
+		'de-de': "Wuffels"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collecte",
-				es: "Coleccionar",
-				it: "Tassa",
-				pt: "Coleta",
-				de: "Sammeln"
+				'en-us': "Collect",
+				'fr-fr': "Collecte",
+				'es-es': "Coleccionar",
+				'it-it': "Tassa",
+				'pt-br': "Coleta",
+				'de-de': "Sammeln"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				es: "Roba 1 carta.",
-				it: "Pesca una carta.",
-				pt: "Compre 1 carta.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'es-es': "Roba 1 carta.",
+				'it-it': "Pesca una carta.",
+				'pt-br': "Compre 1 carta.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 20,
@@ -85,7 +85,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "When it rubs the rocks on its neck against you, that's proof of its love for you. However, the rocks are sharp, so the gesture is quite painful!"
+		'en-us': "When it rubs the rocks on its neck against you, that's proof of its love for you. However, the rocks are sharp, so the gesture is quite painful!"
 	},
 
 	thirdParty: {

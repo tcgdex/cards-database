@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "forretress",
+		'ja-jp': "forretress",
 	},
 
 	rarity: "Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "スピニングブロー",
+				'ja-jp': "スピニングブロー",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。両方のコインがヘッドである場合は、ベンチ付きポケモンの1つを使用してforretressを切り替えます。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。両方のコインがヘッドである場合は、ベンチ付きポケモンの1つを使用してforretressを切り替えます。",
 			},
 		},
 		{
 			cost: ["Metal", "Colorless", "Colorless"],
 			name: {
-				ja: "散布骨",
+				'ja-jp': "散布骨",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。各ヘッドについて、相手のベンチポケモンのそれぞれに10ダメージを与えます。各尾で、自分のベンチポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "2つのコインをフリップします。各ヘッドについて、相手のベンチポケモンのそれぞれに10ダメージを与えます。各尾で、自分のベンチポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 40,
 		},

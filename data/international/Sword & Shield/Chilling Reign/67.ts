@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Swirlix",
-		fr: "Sucroquin",
-		es: "Swirlix",
-		it: "Swirlix",
-		pt: "Swirlix",
-		de: "Flauschling"
+		'en-us': "Swirlix",
+		'fr-fr': "Sucroquin",
+		'es-es': "Swirlix",
+		'it-it': "Swirlix",
+		'pt-br': "Swirlix",
+		'de-de': "Flauschling"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Draining Kiss",
-			fr: "Vampibaiser",
-			es: "Beso Drenaje",
-			it: "Assorbibacio",
-			pt: "Beijo Drenante",
-			de: "Diebeskuss"
+			'en-us': "Draining Kiss",
+			'fr-fr': "Vampibaiser",
+			'es-es': "Beso Drenaje",
+			'it-it': "Assorbibacio",
+			'pt-br': "Beijo Drenante",
+			'de-de': "Diebeskuss"
 		},
 
 		effect: {
-			en: "Heal 10 damage from this Pokémon.",
-			fr: "Soignez 10 dégâts de ce Pokémon.",
-			es: "Cura 10 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 10 danni.",
-			pt: "Cure 10 pontos de dano deste Pokémon.",
-			de: "Heile 10 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 10 damage from this Pokémon.",
+			'fr-fr': "Soignez 10 dégâts de ce Pokémon.",
+			'es-es': "Cura 10 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 10 danni.",
+			'pt-br': "Cure 10 pontos de dano deste Pokémon.",
+			'de-de': "Heile 10 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 20,
@@ -55,7 +55,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The sweet smell of cotton candy perfumes Swirlix's fluffy fur. This Pokémon spits out sticky string to tangle up its enemies."
+		'en-us': "The sweet smell of cotton candy perfumes Swirlix's fluffy fur. This Pokémon spits out sticky string to tangle up its enemies."
 	},
 
 	variants: [

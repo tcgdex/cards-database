@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バルジーナ",
+		'ja-jp': "バルジーナ",
 		'zh-tw': "禿鷹娜",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "拾った 骨で 身を 飾る。 まとう 骨の 形には 流行が あるらしい。",
+		'ja-jp': "拾った 骨で 身を 飾る。 まとう 骨の 形には 流行が あるらしい。",
 		'zh-tw': "把撿來的骨頭裝飾在身上。在骨頭形狀這方面似乎也是有流行趨勢的。",
 	},
 
@@ -23,19 +23,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ほねふうじ",
+				'ja-jp': "ほねふうじ",
 				'zh-tw': "骨之封鎖",
 			},
 			damage: 20,
 			cost: ["Darkness"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、手札からポケモンを出して進化できない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、手札からポケモンを出して進化できない。",
 				'zh-tw': "在下個對手的回合，無法從手牌使出寶可夢將受到這個招式的寶可夢進化。",
 			},
 		},
 		{
 			name: {
-				ja: "ダークカッター",
+				'ja-jp': "ダークカッター",
 				'zh-tw': "暗黑利刃",
 			},
 			damage: 70,
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "バルチャイ",
+		'ja-jp': "バルチャイ",
 	},
 
 	retreat: 2,

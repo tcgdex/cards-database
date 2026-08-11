@@ -1,17 +1,17 @@
-import { Set } from '../../interfaces'
-import serie from '../Pokémon TCG Pocket'
+import { Set } from 'models/database/set'
+import serie from '../A'
 
 const set: Set = {
 	id: "A1",
 
 	name: {
-		de: "Unschlagbare Gene",
-		en: "Genetic Apex",
-		es: "Genes Formidables",
-		fr: "Puissance Génétique",
-		it: "Geni Supremi",
+		'de-de': "Unschlagbare Gene",
+		'en-us': "Genetic Apex",
+		'es-es': "Genes Formidables",
+		'fr-fr': "Puissance Génétique",
+		'it-it': "Geni Supremi",
 		'pt-br': "Dominação Genética",
-		ko: '최강의 유전자'
+		'ko-kr': '최강의 유전자'
 	},
 
 	serie: serie,
@@ -23,34 +23,34 @@ const set: Set = {
 	boosters: {
 		mewtwo: {
 			name: {
-				de: 'Mewtu',
-				en: 'Mewtwo',
-				fr: 'Mewtwo',
-				es: 'Mewtwo',
-				it: 'Mewtwo',
+				'de-de': 'Mewtu',
+				'en-us': 'Mewtwo',
+				'fr-fr': 'Mewtwo',
+				'es-es': 'Mewtwo',
+				'it-it': 'Mewtwo',
 				'pt-br': 'Mewtwo',
-				ko: '뮤츠'
+				'ko-kr': '뮤츠'
 			}
 		},
 		charizard: {
 			name: {
-				de: 'Glurak',
-				en: 'Charizard',
-				fr: 'Dracaufeu',
-				es: 'Charizard',
-				it: 'Charizard',
+				'de-de': 'Glurak',
+				'en-us': 'Charizard',
+				'fr-fr': 'Dracaufeu',
+				'es-es': 'Charizard',
+				'it-it': 'Charizard',
 				'pt-br': 'Charizard',
-				ko: '리자몽'
+				'ko-kr': '리자몽'
 			}
 		},
 		pikachu: {
 			name: {
-				en: 'Pikachu',
-				fr: 'Pikachu',
-				es: 'Pikachu',
-				it: 'Pikachu',
+				'en-us': 'Pikachu',
+				'fr-fr': 'Pikachu',
+				'es-es': 'Pikachu',
+				'it-it': 'Pikachu',
 				'pt-br': 'Pikachu',
-				ko: '피카츄'
+				'ko-kr': '피카츄'
 			}
 		}
 	},

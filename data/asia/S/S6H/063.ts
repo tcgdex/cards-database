@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "耐火グローブ",
+		'ja-jp': "耐火グローブ",
 		'zh-tw': "防火手套",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけているポケモンが使うワザの、相手のバトル場の[炎]ポケモンへのダメージは「+30」される。",
+		'ja-jp': "このカードをつけているポケモンが使うワザの、相手のバトル場の[炎]ポケモンへのダメージは「+30」される。",
 		'zh-tw': "附有這張卡的寶可夢使用的招式，對對手的戰鬥場的【火】寶可夢造成的傷害「+30」點。",
 	},
 

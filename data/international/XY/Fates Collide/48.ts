@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Hawlucha",
-		fr: "Brutalibré",
-		es: "Hawlucha",
-		it: "Hawlucha",
-		pt: "Hawlucha",
-		de: "Resladero"
+		'en-us': "Hawlucha",
+		'fr-fr': "Brutalibré",
+		'es-es': "Hawlucha",
+		'it-it': "Hawlucha",
+		'pt-br': "Hawlucha",
+		'de-de': "Resladero"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Backflip",
-				fr: "Salto Arrière",
-				es: "Voltereta Atrás",
-				it: "Capovolta",
-				pt: "Cambalhota para Trás",
-				de: "Rückwärtssalto"
+				'en-us': "Backflip",
+				'fr-fr': "Salto Arrière",
+				'es-es': "Voltereta Atrás",
+				'it-it': "Capovolta",
+				'pt-br': "Cambalhota para Trás",
+				'de-de': "Rückwärtssalto"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				es: "Roba 1 carta.",
-				it: "Pesca una carta.",
-				pt: "Compre um card.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'es-es': "Roba 1 carta.",
+				'it-it': "Pesca una carta.",
+				'pt-br': "Compre um card.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wicked Jab",
-				fr: "Piqûre Infernale",
-				es: "Puya Perversa",
-				it: "Stoccata Burbera",
-				pt: "Golpe Enfeitiçado",
-				de: "Arglistiger Hieb"
+				'en-us': "Wicked Jab",
+				'fr-fr': "Piqûre Infernale",
+				'es-es': "Puya Perversa",
+				'it-it': "Stoccata Burbera",
+				'pt-br': "Golpe Enfeitiçado",
+				'de-de': "Arglistiger Hieb"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 30,
 
@@ -94,7 +94,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "With its wings, it controls its position in the air. It likes to attack from above, a maneuver that is difficult to defend against.",
+		'en-us': "With its wings, it controls its position in the air. It likes to attack from above, a maneuver that is difficult to defend against.",
 	},
 
 	thirdParty: {

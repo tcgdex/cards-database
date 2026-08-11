@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カミツルギ",
+		'ja-jp': "カミツルギ",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "巨大な 鉄塔を 一刀の もとに 切り捨てる 姿が 目撃された ビーストの 一種。",
+		'ja-jp': "巨大な 鉄塔を 一刀の もとに 切り捨てる 姿が 目撃された ビーストの 一種。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "40+",
 			cost: ["Metal", "Metal"],
 			effect: {
-				ja: "相手のサイドの残り枚数が6枚なら、90ダメージ追加。",
+				'ja-jp': "相手のサイドの残り枚数が6枚なら、90ダメージ追加。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カプ・ブルルGX",
+		'ja-jp': "カプ・ブルルGX",
 	},
 
 	illustrator: "PLANETA",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: "120+",
 			cost: ["Grass", "Grass", "Colorless"],
 			effect: {
-				ja: "のぞむなら、このポケモンについているエネルギーを、すべてトラッシュする。その場合、60ダメージ追加。",
+				'ja-jp': "のぞむなら、このポケモンについているエネルギーを、すべてトラッシュする。その場合、60ダメージ追加。",
 			},
 		},
 		{
@@ -33,7 +33,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Grass", "Grass", "Colorless"],
 			effect: {
-				ja: "このポケモンのHPを、すべて回復する。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "このポケモンのHPを、すべて回復する。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

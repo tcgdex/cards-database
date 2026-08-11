@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Oranguru",
-		fr: "Gouroutan",
-		es: "Oranguru",
-		it: "Oranguru",
-		pt: "Oranguru",
-		de: "Kommandutan"
+		'en-us': "Oranguru",
+		'fr-fr': "Gouroutan",
+		'es-es': "Oranguru",
+		'it-it': "Oranguru",
+		'pt-br': "Oranguru",
+		'de-de': "Kommandutan"
 	},
 
 	illustrator: "Yoshinobu Saito",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Fixer of the Forest",
-				fr: "Réparateur de la Forêt",
-				es: "Manitas del Bosque",
-				it: "Tuttofare della Foresta",
-				pt: "Reparador da Floresta",
-				de: "Wart des Waldes"
+				'en-us': "Fixer of the Forest",
+				'fr-fr': "Réparateur de la Forêt",
+				'es-es': "Manitas del Bosque",
+				'it-it': "Tuttofare della Foresta",
+				'pt-br': "Reparador da Floresta",
+				'de-de': "Wart des Waldes"
 			},
 			effect: {
-				en: "Put 3 Pokémon Tool cards from your discard pile into your hand.",
-				fr: "Ajoutez 3 cartes Outil Pokémon de votre pile de défausse à votre main.",
-				es: "Pon 3 cartas de Herramienta Pokémon de tu pila de descartes en tu mano.",
-				it: "Prendi tre carte Oggetto Pokémon dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
-				pt: "Coloque 3 cartas de Ferramenta Pokémon da sua pilha de descarte na sua mão.",
-				de: "Nimm 3 Pokémon-Ausrüstungen aus deinem Ablagestapel auf deine Hand."
+				'en-us': "Put 3 Pokémon Tool cards from your discard pile into your hand.",
+				'fr-fr': "Ajoutez 3 cartes Outil Pokémon de votre pile de défausse à votre main.",
+				'es-es': "Pon 3 cartas de Herramienta Pokémon de tu pila de descartes en tu mano.",
+				'it-it': "Prendi tre carte Oggetto Pokémon dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
+				'pt-br': "Coloque 3 cartas de Ferramenta Pokémon da sua pilha de descarte na sua mão.",
+				'de-de': "Nimm 3 Pokémon-Ausrüstungen aus deinem Ablagestapel auf deine Hand."
 			},
 
 		},
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Zen Headbutt",
-				fr: "Psykoud’Boul",
-				es: "Cabezazo Zen",
-				it: "Cozzata Zen",
-				pt: "Cabeçada Zen",
-				de: "Zen-Kopfstoß"
+				'en-us': "Zen Headbutt",
+				'fr-fr': "Psykoud’Boul",
+				'es-es': "Cabezazo Zen",
+				'it-it': "Cozzata Zen",
+				'pt-br': "Cabeçada Zen",
+				'de-de': "Zen-Kopfstoß"
 			},
 
 			damage: 70,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Known for its extreme intelligence, this Pokémon will look down on inexperienced Trainers, so it's best suited to veteran Trainers.",
+		'en-us': "Known for its extreme intelligence, this Pokémon will look down on inexperienced Trainers, so it's best suited to veteran Trainers.",
 	},
 
 	thirdParty: {

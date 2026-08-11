@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Klefki",
-		fr: "Trousselin",
-		es: "Klefki",
-		it: "Klefki",
-		pt: "Klefki",
-		de: "Clavion"
+		'en-us': "Klefki",
+		'fr-fr': "Trousselin",
+		'es-es': "Klefki",
+		'it-it': "Klefki",
+		'pt-br': "Klefki",
+		'de-de': "Clavion"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Key of Secrets",
-				fr: "Clé des Secrets",
-				es: "Llave de Secretos",
-				it: "Chiave dei Segreti",
-				pt: "Chave de Segredos",
-				de: "Schlüssel der Geheimnisse"
+				'en-us': "Key of Secrets",
+				'fr-fr': "Clé des Secrets",
+				'es-es': "Llave de Secretos",
+				'it-it': "Chiave dei Segreti",
+				'pt-br': "Chave de Segredos",
+				'de-de': "Schlüssel der Geheimnisse"
 			},
 			effect: {
-				en: "Each of your Metal Pokémon’s Resistance is now -40.",
-				fr: "La Résistance de chacun de vos Pokémon Metal est maintenant -40.",
-				es: "La Resistencia de cada uno de tus Pokémon Metal pasa a ser -40.",
-				it: "La resistenza di ciascuno dei tuoi Pokémon Metal è -40.",
-				pt: "A Resistência de cada um dos seus Pokémon Metal agora é - 40.",
-				de: "Die Resistenz jedes deiner Metal-Pokémon ist jetzt -40."
+				'en-us': "Each of your Metal Pokémon’s Resistance is now -40.",
+				'fr-fr': "La Résistance de chacun de vos Pokémon Metal est maintenant -40.",
+				'es-es': "La Resistencia de cada uno de tus Pokémon Metal pasa a ser -40.",
+				'it-it': "La resistenza di ciascuno dei tuoi Pokémon Metal è -40.",
+				'pt-br': "A Resistência de cada um dos seus Pokémon Metal agora é - 40.",
+				'de-de': "Die Resistenz jedes deiner Metal-Pokémon ist jetzt -40."
 			},
 		},
 	],
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 30,
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It never lets go of a key that it likes, so people give it the keys to vaults and safes as a way to prevent crime.",
+		'en-us': "It never lets go of a key that it likes, so people give it the keys to vaults and safes as a way to prevent crime.",
 	},
 
 	thirdParty: {

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Audino",
+		'en-us': "Audino",
 	},
 
 	illustrator: "MAHOU",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Relaxed Roll",
+				'en-us': "Relaxed Roll",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
+				'en-us': "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
 			},
 			damage: 30,
 
@@ -51,7 +51,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Using the feelers on its ears, it can tell how someone is feeling or when an egg might hatch.",
+		'en-us': "Using the feelers on its ears, it can tell how someone is feeling or when an egg might hatch.",
 	},
 
 	thirdParty: {

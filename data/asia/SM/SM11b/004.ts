@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグマッグ",
+		'ja-jp': "マグマッグ",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "火山地帯に 多く 発生。 暖かい ところを 探して のろのろ はいずり回っている。",
+		'ja-jp': "火山地帯に 多く 発生。 暖かい ところを 探して のろのろ はいずり回っている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "こがす" },
 			cost: ["Fire"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 	],

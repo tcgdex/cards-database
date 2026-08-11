@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Pidove",
-		fr: "Poichigeon",
-		es: "Pidove",
-		it: "Pidove",
-		pt: "Pidove",
-		de: "Dusselgurr"
+		'en-us': "Pidove",
+		'fr-fr': "Poichigeon",
+		'es-es': "Pidove",
+		'it-it': "Pidove",
+		'pt-br': "Pidove",
+		'de-de': "Dusselgurr"
 	},
 
 	illustrator: "MAHOU",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scout",
-				fr: "Espionnage",
+				'en-us': "Scout",
+				'fr-fr': "Espionnage",
 			},
 			effect: {
-				en: "Your opponent reveals his or her hand.",
-				fr: "Votre adversaire montre sa main.",
+				'en-us': "Your opponent reveals his or her hand.",
+				'fr-fr': "Votre adversaire montre sa main.",
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gust",
-				fr: "Tornade",
+				'en-us': "Gust",
+				'fr-fr': "Tornade",
 			},
 
 			damage: 20,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "These Pokémon live in cities. They are accustomed to people. Flocks often gather in parks and plazas.",
+		'en-us': "These Pokémon live in cities. They are accustomed to people. Flocks often gather in parks and plazas.",
 	},
 
 	thirdParty: {

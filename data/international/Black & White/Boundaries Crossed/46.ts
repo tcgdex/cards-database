@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Cryogonal",
-		fr: "Hexagel",
-		es: "Cryogonal",
-		it: "Cryogonal",
-		pt: "Cryogonal",
-		de: "Frigometri"
+		'en-us': "Cryogonal",
+		'fr-fr': "Hexagel",
+		'es-es': "Cryogonal",
+		'it-it': "Cryogonal",
+		'pt-br': "Cryogonal",
+		'de-de': "Frigometri"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Edge",
-				fr: "Lame de Givre",
+				'en-us': "Ice Edge",
+				'fr-fr': "Lame de Givre",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They are born in snow clouds. They use chains made of ice crystals to capture prey.",
+		'en-us': "They are born in snow clouds. They use chains made of ice crystals to capture prey.",
 	},
 
 	thirdParty: {

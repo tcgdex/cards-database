@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Zapdos",
-		fr: "Électhor",
-		es: "Zapdos",
-		it: "Zapdos",
-		pt: "Zapdos",
-		de: "Zapdos"
+		'en-us': "Zapdos",
+		'fr-fr': "Électhor",
+		'es-es': "Zapdos",
+		'it-it': "Zapdos",
+		'pt-br': "Zapdos",
+		'de-de': "Zapdos"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Random Spark",
-				fr: "Étincelle Surprise",
+				'en-us': "Random Spark",
+				'fr-fr': "Étincelle Surprise",
 			},
 			effect: {
-				en: "This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 50 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 50 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thundering Hurricane",
-				fr: "Rafale d'Éclairs",
+				'en-us': "Thundering Hurricane",
+				'fr-fr': "Rafale d'Éclairs",
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 50 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 4 coins. This attack does 50 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 50,
 
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts.",
+		'en-us': "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts.",
 	},
 
 	thirdParty: {

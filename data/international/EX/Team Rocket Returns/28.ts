@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Yanma",
-		de: "Yanma"
+		'en-us': "Yanma",
+		'de-de': "Yanma"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Charge",
-				de: "Quick Charge"
+				'en-us': "Quick Charge",
+				'de-de': "Quick Charge"
 			},
 			effect: {
-				en: "Search your deck for up to 4 different types of basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
-				de: "Search your deck for up 4 different types of basic Energy cards, show then to your opponent, and put them into your hand. Shuffle your deck afterward."
+				'en-us': "Search your deck for up to 4 different types of basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+				'de-de': "Search your deck for up 4 different types of basic Energy cards, show then to your opponent, and put them into your hand. Shuffle your deck afterward."
 			},
 
 		},
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swift",
-				de: "Swift"
+				'en-us': "Swift",
+				'de-de': "Swift"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				de: "This attack's damage isn't affected by Weakness, resistance, Poke-Powers, Poke-Bodies, or any other effects on the Defending Pokémon."
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'de-de': "This attack's damage isn't affected by Weakness, resistance, Poke-Powers, Poke-Bodies, or any other effects on the Defending Pokémon."
 			},
 			damage: 20,
 

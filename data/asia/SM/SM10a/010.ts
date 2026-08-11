@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラライチュウ",
+		'ja-jp': "アローラライチュウ",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "サイコパワーを 集中させた シッポに乗り 滑るように 移動。 陸サーファーの 異名を 持つ。",
+		'ja-jp': "サイコパワーを 集中させた シッポに乗り 滑るように 移動。 陸サーファーの 異名を 持つ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "エレキレイン" },
 			cost: ["Lightning"],
 			effect: {
-				ja: "このポケモンについている[雷]エネルギーを好きなだけトラッシュし、その数ぶん、相手のポケモンを選ぶ（1匹を2回以上選べる）。その後、選んだポケモン全員に、弱点・抵抗力を計算せず、選んだ回数×30ダメージ。",
+				'ja-jp': "このポケモンについている[雷]エネルギーを好きなだけトラッシュし、その数ぶん、相手のポケモンを選ぶ（1匹を2回以上選べる）。その後、選んだポケモン全員に、弱点・抵抗力を計算せず、選んだ回数×30ダメージ。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ピカチュウ",
+		'ja-jp': "ピカチュウ",
 	},
 
 	retreat: 1,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hisuian Braviary",
-		fr: "Gueriaigle de Hisui",
-		es: "Braviary de Hisui",
-		it: "Braviary di Hisui",
-		pt: "Braviary de Hisui",
-		de: "Hisui-Washakwil"
+		'en-us': "Hisuian Braviary",
+		'fr-fr': "Gueriaigle de Hisui",
+		'es-es': "Braviary de Hisui",
+		'it-it': "Braviary di Hisui",
+		'pt-br': "Braviary de Hisui",
+		'de-de': "Hisui-Washakwil"
 	},
 
 	illustrator: "Jiro Sasumo",
@@ -21,53 +21,53 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Rufflet",
-		fr: "Furaiglon",
-		es: "Rufflet",
-		it: "Rufflet",
-		pt: "Rufflet",
-		de: "Geronimatz"
+		'en-us': "Rufflet",
+		'fr-fr': "Furaiglon",
+		'es-es': "Rufflet",
+		'it-it': "Rufflet",
+		'pt-br': "Rufflet",
+		'de-de': "Geronimatz"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Eerie Cry",
-			fr: "Cri Inquiétant",
-			es: "Llanto Escalofriante",
-			it: "Grido Inquietante",
-			pt: "Brado Bizarro",
-			de: "Schauriger Schrei"
+			'en-us': "Eerie Cry",
+			'fr-fr': "Cri Inquiétant",
+			'es-es': "Llanto Escalofriante",
+			'it-it': "Grido Inquietante",
+			'pt-br': "Brado Bizarro",
+			'de-de': "Schauriger Schrei"
 		},
 
 		effect: {
-			en: "Put 3 damage counters on each of your opponent's Pokémon that has any damage counters on it.",
-			fr: "Placez 3 marqueurs de dégâts sur chacun des Pokémon de votre adversaire ayant au moins un marqueur de dégâts.",
-			es: "Pon 3 contadores de daño en cada uno de los Pokémon de tu rival que tenga algún contador de daño sobre él.",
-			it: "Metti tre segnalini danno su ciascuno dei Pokémon del tuo avversario che ha dei segnalini danno.",
-			pt: "Coloque 3 contadores de dano em cada um dos Pokémon do seu oponente que tiver algum contador de dano nele.",
-			de: "Lege 3 Schadensmarken auf jedes Pokémon deines Gegners, auf dem mindestens 1 Schadensmarke liegt."
+			'en-us': "Put 3 damage counters on each of your opponent's Pokémon that has any damage counters on it.",
+			'fr-fr': "Placez 3 marqueurs de dégâts sur chacun des Pokémon de votre adversaire ayant au moins un marqueur de dégâts.",
+			'es-es': "Pon 3 contadores de daño en cada uno de los Pokémon de tu rival que tenga algún contador de daño sobre él.",
+			'it-it': "Metti tre segnalini danno su ciascuno dei Pokémon del tuo avversario che ha dei segnalini danno.",
+			'pt-br': "Coloque 3 contadores de dano em cada um dos Pokémon do seu oponente que tiver algum contador de dano nele.",
+			'de-de': "Lege 3 Schadensmarken auf jedes Pokémon deines Gegners, auf dem mindestens 1 Schadensmarke liegt."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Mind Bend",
-			fr: "Contrôleur d'Esprit",
-			es: "Fusión Mental",
-			it: "Fusione Mentale",
-			pt: "Dobra Mentes",
-			de: "Gedankenverbiegung"
+			'en-us': "Mind Bend",
+			'fr-fr': "Contrôleur d'Esprit",
+			'es-es': "Fusión Mental",
+			'it-it': "Fusione Mentale",
+			'pt-br': "Dobra Mentes",
+			'de-de': "Gedankenverbiegung"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
 		damage: 80
@@ -90,7 +90,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Screaming a bloodcurdling battle cry, this huge and ferocious bird Pokémon goes out on the hunt. It blasts lakes with shock waves, then scoops up any prey that float to the water's surface.",
+		'en-us': "Screaming a bloodcurdling battle cry, this huge and ferocious bird Pokémon goes out on the hunt. It blasts lakes with shock waves, then scoops up any prey that float to the water's surface.",
 	},
 
 	variants: [

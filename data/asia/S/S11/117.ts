@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キュレムVMAX",
+		'ja-jp': "キュレムVMAX",
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "はくぎんせかい" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札を上から1枚トラッシュし、そのカードが[W]エネルギーなら、自分のポケモンにつける。",
+				'ja-jp': "自分の番に1回使える。自分の山札を上から1枚トラッシュし、そのカードが[W]エネルギーなら、自分のポケモンにつける。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "120+",
 			cost: ["Water", "Water", "Water"],
 			effect: {
-				ja: "このポケモンについている[W]エネルギーを好きなだけトラッシュし、その枚数×50ダメージ追加。",
+				'ja-jp': "このポケモンについている[W]エネルギーを好きなだけトラッシュし、その枚数×50ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "キュレムV",
+		'ja-jp': "キュレムV",
 	},
 
 	retreat: 3,

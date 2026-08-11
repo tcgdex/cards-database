@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Sizzlipede",
-		th: "ยาคุเดะ"
+		'id-id': "Sizzlipede",
+		'th-th': "ยาคุเดะ"
 	},
 
 	illustrator: "Minahamu",
@@ -15,24 +15,24 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Sizzlipede memancarkan panas menggunakan gas mudah terbakar yang dihimpun dalam tubuhnya. Bagian perutnya yang berwarna kuning merupakan bagian yang paling panas.",
-		th: "ปล่อยความร้อนจากแก๊สเผาไหม้ที่กักไว้ในร่าง โดยเฉพาะส่วน สีเหลืองตรงท้องนั้นร้อนมาก"
+		'id-id': "Sizzlipede memancarkan panas menggunakan gas mudah terbakar yang dihimpun dalam tubuhnya. Bagian perutnya yang berwarna kuning merupakan bagian yang paling panas.",
+		'th-th': "ปล่อยความร้อนจากแก๊สเผาไหม้ที่กักไว้ในร่าง โดยเฉพาะส่วน สีเหลืองตรงท้องนั้นร้อนมาก"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Nyala Api",
-			th: "เชื้อไฟ"
+			'id-id': "Nyala Api",
+			'th-th': "เชื้อไฟ"
 		},
 
 		damage: 10,
 		cost: ["Fire"]
 	}, {
 		name: {
-			id: "Mengait",
-			th: "จับแขวน"
+			'id-id': "Mengait",
+			'th-th': "จับแขวน"
 		},
 
 		damage: 30,

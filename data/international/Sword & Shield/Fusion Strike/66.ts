@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Huntail",
-		fr: "Serpang",
-		es: "Huntail",
-		it: "Huntail",
-		pt: "Huntail",
-		de: "Aalabyss"
+		'en-us': "Huntail",
+		'fr-fr': "Serpang",
+		'es-es': "Huntail",
+		'it-it': "Huntail",
+		'pt-br': "Huntail",
+		'de-de': "Aalabyss"
 	},
 
 	rarity: "Rare",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Clamperl",
-		fr: "Coquiperl",
-		es: "Clamperl",
-		it: "Clamperl",
-		pt: "Clamperl",
-		de: "Perlu"
+		'en-us': "Clamperl",
+		'fr-fr': "Coquiperl",
+		'es-es': "Clamperl",
+		'it-it': "Clamperl",
+		'pt-br': "Clamperl",
+		'de-de': "Perlu"
 	},
 
 	stage: "Stage1",
@@ -34,28 +34,28 @@ const card: Card = {
 	illustrator: "otumami",
 
 	description: {
-		en: "Deep seas are their habitat. According to tradition, when Huntail wash up onshore, something unfortunate will happen."
+		'en-us': "Deep seas are their habitat. According to tradition, when Huntail wash up onshore, something unfortunate will happen."
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			en: "Single Strike Jammer",
-			fr: "Bloqueur de Poing Final",
-			es: "Inhibidor de Golpe Brusco",
-			it: "Blocco Colpo Singolo",
-			de: "Fokussierter-Angriff-Störer",
-			pt: "Bloqueador Golpe Decisivo"
+			'en-us': "Single Strike Jammer",
+			'fr-fr': "Bloqueur de Poing Final",
+			'es-es': "Inhibidor de Golpe Brusco",
+			'it-it': "Blocco Colpo Singolo",
+			'de-de': "Fokussierter-Angriff-Störer",
+			'pt-br': "Bloqueador Golpe Decisivo"
 		},
 
 		effect: {
-			en: "Your opponent's Single Strike Pokémon's attacks cost {C} more.",
-			fr: "Les attaques des Pokémon Poing Final de votre adversaire coûtent {C} de plus.",
-			es: "Los ataques de los Pokémon Golpe Brusco de tu rival cuestan {C} más.",
-			it: "Il costo degli attacchi dei Pokémon Colpo Singolo del tuo avversario aumenta di {C}.",
-			de: "Die Kosten der Attacken der Fokussierter-Angriff-Pokémon deines Gegners erhöhen sich um {C}.",
-			pt: "Os ataques dos Pokémon Golpe Decisivo do seu oponente custam {C} a mais."
+			'en-us': "Your opponent's Single Strike Pokémon's attacks cost {C} more.",
+			'fr-fr': "Les attaques des Pokémon Poing Final de votre adversaire coûtent {C} de plus.",
+			'es-es': "Los ataques de los Pokémon Golpe Brusco de tu rival cuestan {C} más.",
+			'it-it': "Il costo degli attacchi dei Pokémon Colpo Singolo del tuo avversario aumenta di {C}.",
+			'de-de': "Die Kosten der Attacken der Fokussierter-Angriff-Pokémon deines Gegners erhöhen sich um {C}.",
+			'pt-br': "Os ataques dos Pokémon Golpe Decisivo do seu oponente custam {C} a mais."
 		}
 	}],
 
@@ -63,12 +63,12 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Cavernous Chomp",
-			fr: "Mâchoire Caverneuse",
-			es: "Mordisco Cavernoso",
-			it: "Mandibola Cavernosa",
-			de: "Riesiger Biss",
-			pt: "Mastigada Cavernosa"
+			'en-us': "Cavernous Chomp",
+			'fr-fr': "Mâchoire Caverneuse",
+			'es-es': "Mordisco Cavernoso",
+			'it-it': "Mandibola Cavernosa",
+			'de-de': "Riesiger Biss",
+			'pt-br': "Mastigada Cavernosa"
 		},
 
 		damage: 80

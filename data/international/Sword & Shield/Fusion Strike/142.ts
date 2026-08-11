@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Makuhita",
-		fr: "Makuhita",
-		es: "Makuhita",
-		it: "Makuhita",
-		pt: "Makuhita",
-		de: "Makuhita"
+		'en-us': "Makuhita",
+		'fr-fr': "Makuhita",
+		'es-es': "Makuhita",
+		'it-it': "Makuhita",
+		'pt-br': "Makuhita",
+		'de-de': "Makuhita"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Oswaldo KATO",
 
 	description: {
-		en: "There's a rumor of a traditional recipe for stew that Trainers can use to raise strong Makuhita."
+		'en-us': "There's a rumor of a traditional recipe for stew that Trainers can use to raise strong Makuhita."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Lunge Out",
-			fr: "Allonger",
-			de: "Sprungangriff",
-			es: "Arremeter",
-			pt: "Bote",
-			it: "Affondo Lungo"
+			'en-us': "Lunge Out",
+			'fr-fr': "Allonger",
+			'de-de': "Sprungangriff",
+			'es-es': "Arremeter",
+			'pt-br': "Bote",
+			'it-it': "Affondo Lungo"
 		},
 
 		damage: 10
@@ -50,12 +50,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			de: "Einhämmern",
-			es: "Martillear",
-			pt: "Martelada",
-			it: "Martello"
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'de-de': "Einhämmern",
+			'es-es': "Martillear",
+			'pt-br': "Martelada",
+			'it-it': "Martello"
 		},
 
 		damage: 60

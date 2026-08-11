@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Machoke",
-		fr: "Machopeur",
-		de: "Maschock"
+		'en-us': "Machoke",
+		'fr-fr': "Machopeur",
+		'de-de': "Maschock"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Machop",
-		fr: "Machoc"
+		'en-us': "Machop",
+		'fr-fr': "Machoc"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steady Punch",
-				fr: "Poing énergétique",
-				de: "Ruhiger Schlag"
+				'en-us': "Steady Punch",
+				'fr-fr': "Poing énergétique",
+				'de-de': "Ruhiger Schlag"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -55,9 +55,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Kick",
-				fr: "Ultimawashi",
-				de: "Megakick"
+				'en-us': "Mega Kick",
+				'fr-fr': "Ultimawashi",
+				'de-de': "Megakick"
 			},
 
 			damage: 50,

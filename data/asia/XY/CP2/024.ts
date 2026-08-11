@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アルセウス",
+		'ja-jp': "アルセウス",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "ひかりをあつめる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のベンチポケモンについているエネルギーを好きなだけ選び、このポケモンにつけ替える。",
+				'ja-jp': "自分のベンチポケモンについているエネルギーを好きなだけ選び、このポケモンにつけ替える。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている基本エネルギーのタイプの数x30ダメージを追加。",
+				'ja-jp': "このポケモンについている基本エネルギーのタイプの数x30ダメージを追加。",
 			},
 		},
 	],

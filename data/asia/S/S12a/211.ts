@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リザードンV",
+		'ja-jp': "リザードンV",
 		'zh-tw': "噴火龍V",
 	},
 
@@ -18,19 +18,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "やきつくす",
+				'ja-jp': "やきつくす",
 				'zh-tw': "燒盡",
 			},
 			damage: 90,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。",
+				'ja-jp': "ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。",
 				'zh-tw': "在造成傷害前，將對手的戰鬥寶可夢身上附加的「寶可夢道具」丟棄。",
 			},
 		},
 		{
 			name: {
-				ja: "ヒートブラスト",
+				'ja-jp': "ヒートブラスト",
 				'zh-tw': "高溫爆破",
 			},
 			damage: 180,

@@ -1,18 +1,18 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVK"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "森の封印石"
+		'ja-jp': "森の封印石"
 	},
 
 	illustrator: "AYUMI ODASHIMA",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけている「ポケモンV」は、このVSTARパワーを使える。"
+		'ja-jp': "このカードをつけている「ポケモンV」は、このVSTARパワーを使える。"
 	},
 
 	trainerType: "Tool",

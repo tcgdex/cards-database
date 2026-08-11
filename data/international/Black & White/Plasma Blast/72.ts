@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Porygon",
-		fr: "Porygon",
-		es: "Porygon",
-		it: "Porygon",
-		pt: "Porygon",
-		de: "Porygon"
+		'en-us': "Porygon",
+		'fr-fr': "Porygon",
+		'es-es': "Porygon",
+		'it-it': "Porygon",
+		'pt-br': "Porygon",
+		'de-de': "Porygon"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
 			},
 
 			damage: 10,
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A man-made Pokémon created using advanced scientific means. It can move freely in cyberspace.",
+		'en-us': "A man-made Pokémon created using advanced scientific means. It can move freely in cyberspace.",
 	},
 
 	thirdParty: {

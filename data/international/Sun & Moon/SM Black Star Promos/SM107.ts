@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Dusk Mane Necrozma",
-		fr: "Necrozma Crinière du Couchant",
-		es: "Necrozma Melena Crepuscular",
-		it: "Necrozma Criniera del Vespro",
-		pt: "Necrozma Juba Crepúsculo",
-		de: "Abendmähne-Necrozma"
+		'en-us': "Dusk Mane Necrozma",
+		'fr-fr': "Necrozma Crinière du Couchant",
+		'es-es': "Necrozma Melena Crepuscular",
+		'it-it': "Necrozma Criniera del Vespro",
+		'pt-br': "Necrozma Juba Crepúsculo",
+		'de-de': "Abendmähne-Necrozma"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Promo",
@@ -32,20 +32,20 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Dusk Shot",
-				fr: "Tir au Couchant",
-				es: "Disparo Crepuscular",
-				it: "Colpo del Vespro",
-				pt: "Tiro Crepúsculo",
-				de: "Abendgeschoss"
+				'en-us': "Dusk Shot",
+				'fr-fr': "Tir au Couchant",
+				'es-es': "Disparo Crepuscular",
+				'it-it': "Colpo del Vespro",
+				'pt-br': "Tiro Crepúsculo",
+				'de-de': "Abendgeschoss"
 			},
 			effect: {
-				en: "This attack does 60 damage to 1 of your opponent’s Pokémon-GX or Pokémon-EX. This damage isn’t affected by Weakness or Resistance.",
-				fr: "Cette attaque inflige 60 dégâts à l’un des Pokémon-GX ou Pokémon-EX de votre adversaire. Ces dégâts ne sont pas affectés par la Faiblesse ou la Résistance.",
-				es: "Este ataque hace 60 puntos de daño a 1 de los Pokémon-GX o Pokémon-EX de tu rival. Este daño no se ve afectado por Debilidad o Resistencia.",
-				it: "Questo attacco infligge 60 danni a uno dei Pokémon-GX o Pokémon-EX del tuo avversario. Questi danni non sono influenzati dalla debolezza o dalla resistenza.",
-				pt: "Este ataque causa 60 pontos de dano a 1 dos Pokémon-GX ou Pokémon-EX do seu oponente. Este dano não é afetado por Fraqueza ou Resistência.",
-				de: "Diese Attacke fügt 1 Pokémon-GX oder Pokémon-EX deines Gegners 60 Schadenspunkte zu. Der Schaden dieser Attacke wird durch Schwäche und Resistenz nicht verändert."
+				'en-us': "This attack does 60 damage to 1 of your opponent’s Pokémon-GX or Pokémon-EX. This damage isn’t affected by Weakness or Resistance.",
+				'fr-fr': "Cette attaque inflige 60 dégâts à l’un des Pokémon-GX ou Pokémon-EX de votre adversaire. Ces dégâts ne sont pas affectés par la Faiblesse ou la Résistance.",
+				'es-es': "Este ataque hace 60 puntos de daño a 1 de los Pokémon-GX o Pokémon-EX de tu rival. Este daño no se ve afectado por Debilidad o Resistencia.",
+				'it-it': "Questo attacco infligge 60 danni a uno dei Pokémon-GX o Pokémon-EX del tuo avversario. Questi danni non sono influenzati dalla debolezza o dalla resistenza.",
+				'pt-br': "Este ataque causa 60 pontos de dano a 1 dos Pokémon-GX ou Pokémon-EX do seu oponente. Este dano não é afetado por Fraqueza ou Resistência.",
+				'de-de': "Diese Attacke fügt 1 Pokémon-GX oder Pokémon-EX deines Gegners 60 Schadenspunkte zu. Der Schaden dieser Attacke wird durch Schwäche und Resistenz nicht verändert."
 			},
 
 		},
@@ -56,20 +56,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rusty Claws",
-				fr: "Griffes Rouillées",
-				es: "Garras Herrumbrosas",
-				it: "Artigli Ferrosi",
-				pt: "Garras Enferrujadas",
-				de: "Rostige Krallen"
+				'en-us': "Rusty Claws",
+				'fr-fr': "Griffes Rouillées",
+				'es-es': "Garras Herrumbrosas",
+				'it-it': "Artigli Ferrosi",
+				'pt-br': "Garras Enferrujadas",
+				'de-de': "Rostige Krallen"
 			},
 			effect: {
-				en: "If your opponent has exactly 1 Prize card remaining, this attack does 100 more damage.",
-				fr: "S’il reste exactement 1 carte Récompense à votre adversaire, cette attaque inflige 100 dégâts supplémentaires.",
-				es: "Si a tu rival le queda exactamente 1 carta de Premio, este ataque hace 100 puntos de daño más.",
-				it: "Se al tuo avversario è rimasta esattamente una carta Premio, questo attacco infligge 100 danni in più.",
-				pt: "Se o seu oponente tiver exatamente 1 carta de Prêmio restante, este ataque causará 100 pontos de dano a mais.",
-				de: "Wenn dein Gegner genau 1 verbleibende Preiskarte hat, fügt diese Attacke 100 Schadenspunkte mehr zu."
+				'en-us': "If your opponent has exactly 1 Prize card remaining, this attack does 100 more damage.",
+				'fr-fr': "S’il reste exactement 1 carte Récompense à votre adversaire, cette attaque inflige 100 dégâts supplémentaires.",
+				'es-es': "Si a tu rival le queda exactamente 1 carta de Premio, este ataque hace 100 puntos de daño más.",
+				'it-it': "Se al tuo avversario è rimasta esattamente una carta Premio, questo attacco infligge 100 danni in più.",
+				'pt-br': "Se o seu oponente tiver exatamente 1 carta de Prêmio restante, este ataque causará 100 pontos de dano a mais.",
+				'de-de': "Wenn dein Gegner genau 1 verbleibende Preiskarte hat, fügt diese Attacke 100 Schadenspunkte mehr zu."
 			},
 			damage: "100+",
 
@@ -93,7 +93,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This is its form with it is devouring the light of Solgaleo. It pounces on its foes and then slashes them with the claws on its four limbs and back.",
+		'en-us': "This is its form with it is devouring the light of Solgaleo. It pounces on its foes and then slashes them with the claws on its four limbs and back.",
 	},
 }
 

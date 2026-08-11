@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Revavroom",
-		fr: "Vrombotor",
-		es: "Revavroom",
-		it: "Revavroom",
-		de: "Knattatox",
+		'en-us': "Revavroom",
+		'fr-fr': "Vrombotor",
+		'es-es': "Revavroom",
+		'it-it': "Revavroom",
+		'de-de': "Knattatox",
 		'pt-br': "Revavroom",
-		ko: "부르르룸"
+		'ko-kr': "부르르룸"
   },
   illustrator: "Anesaki Dynamic",
   rarity: "Two Diamond",
@@ -19,12 +19,12 @@ const card: Card = {
   types: ["Metal"],
   dexId: [966],
   evolveFrom: {
-		en: "Varoom",
-		fr: "Vrombi",
-		es: "Varoom",
-		it: "Varoom",
-		pt: "Varoom",
-		de: "Knattox"
+		'en-us': "Varoom",
+		'fr-fr': "Vrombi",
+		'es-es': "Varoom",
+		'it-it': "Varoom",
+		'pt-br': "Varoom",
+		'de-de': "Knattox"
   },
   description: {
     en: "Revavroom viciously threatens others with the sound of its exhaust. It sticks its tongue out from its cylindrical mouth and sprays toxic fluids.",

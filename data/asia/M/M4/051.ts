@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハリーセン",
+		'ja-jp': "ハリーセン",
 	},
 
 	illustrator: "nisimono",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "毒針を 撃ち出した 直後の 無防備な 状態を 狙うと ベテランの 漁師は 語る。",
+		'ja-jp': "毒針を 撃ち出した 直後の 無防備な 状態を 狙うと ベテランの 漁師は 語る。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "どくのトゲ" },
 			effect: {
-				ja: "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンをどくにする。",
+				'ja-jp': "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンをどくにする。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Darkness"],
 			effect: {
-				ja: "相手のバトルポケモンがどくなら、50ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンがどくなら、50ダメージ追加。",
 			},
 		},
 	],

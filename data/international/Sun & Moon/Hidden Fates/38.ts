@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Clefairy",
-		fr: "Mélofée",
+		'en-us': "Clefairy",
+		'fr-fr': "Mélofée",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lead",
-				fr: "Mentor",
+				'en-us': "Lead",
+				'fr-fr': "Mentor",
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.",
-				fr: "Lancez une pièce. Si c’est face, cherchez une carte Supporter dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+				'en-us': "Flip a coin. If heads, search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cherchez une carte Supporter dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -44,8 +44,8 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras’Face",
+				'en-us': "Pound",
+				'fr-fr': "Écras’Face",
 			},
 
 			damage: 10,
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They're popular, but they're rare. Trainers who show them off recklessly may be targeted by thieves.",
+		'en-us': "They're popular, but they're rare. Trainers who show them off recklessly may be targeted by thieves.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Aggron",
-		fr: "Galeking",
-		de: "Stolloss"
+		'en-us': "Aggron",
+		'fr-fr': "Galeking",
+		'de-de': "Stolloss"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lairon",
-		fr: "Galegon"
+		'en-us': "Lairon",
+		'fr-fr': "Galegon"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Retaliate",
-				fr: "Représailles",
-				de: "Retaliate"
+				'en-us': "Retaliate",
+				'fr-fr': "Représailles",
+				'de-de': "Retaliate"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage times the number of damage counters on Aggron.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts pour chaque marqueur de dégât sur Galeking.",
-				de: "Flip a coin. If heads, this attack does 10 damage times the numer of damage counters on Aggron"
+				'en-us': "Flip a coin. If heads, this attack does 10 damage times the number of damage counters on Aggron.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts pour chaque marqueur de dégât sur Galeking.",
+				'de-de': "Flip a coin. If heads, this attack does 10 damage times the numer of damage counters on Aggron"
 			},
 			damage: "10×",
 
@@ -53,9 +53,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Punch",
-				fr: "Ultimapoing",
-				de: "Mega Punch"
+				'en-us': "Mega Punch",
+				'fr-fr': "Ultimapoing",
+				'de-de': "Mega Punch"
 			},
 
 			damage: 40,
@@ -70,14 +70,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Lariat",
-				fr: "Double lasso",
-				de: "Double Lariat"
+				'en-us': "Double Lariat",
+				'fr-fr': "Double lasso",
+				'de-de': "Double Lariat"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 70 damage times the number of heads.",
-				fr: "Lancez deux pièces. Cette attaque inflige 70 dégâts multipliés par le nombre de face.",
-				de: "Flip 2 coins. This attack does 70 damage times the numer of heads."
+				'en-us': "Flip 2 coins. This attack does 70 damage times the number of heads.",
+				'fr-fr': "Lancez deux pièces. Cette attaque inflige 70 dégâts multipliés par le nombre de face.",
+				'de-de': "Flip 2 coins. This attack does 70 damage times the numer of heads."
 			},
 			damage: "70×",
 

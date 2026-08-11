@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Blissey ex"
+		'id-id': "Blissey ex"
 	},
 
 	illustrator: "Iwamoto05",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Happy Switch"
+			'id-id': "Happy Switch"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri. Pilih 1 Energi Dasar yang dikenakan pada Pokémon di Arena sendiri, lalu pindahkan ke Pokémon sendiri lainnya."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri. Pilih 1 Energi Dasar yang dikenakan pada Pokémon di Arena sendiri, lalu pindahkan ke Pokémon sendiri lainnya."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Membalas Budi"
+			'id-id': "Membalas Budi"
 		},
 
 		effect: {
-			id: "Pemain dapat mengambil kartu dari atas Deck hingga jumlah Kartu Pegangan sendiri menjadi 6 lembar."
+			'id-id': "Pemain dapat mengambil kartu dari atas Deck hingga jumlah Kartu Pegangan sendiri menjadi 6 lembar."
 		},
 
 		damage: 180,

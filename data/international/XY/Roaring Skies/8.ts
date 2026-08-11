@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Dustox",
-		fr: "Papinox",
-		es: "Dustox",
-		it: "Dustox",
-		pt: "Dustox",
-		de: "Pudox"
+		'en-us': "Dustox",
+		'fr-fr': "Papinox",
+		'es-es': "Dustox",
+		'it-it': "Dustox",
+		'pt-br': "Dustox",
+		'de-de': "Pudox"
 	},
 
 	illustrator: "match",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cascoon",
-		fr: "Blindalys",
-		es: "Cascoon",
-		it: "Cascoon",
-		pt: "Cascoon",
-		de: "Panekon"
+		'en-us': "Cascoon",
+		'fr-fr': "Blindalys",
+		'es-es': "Cascoon",
+		'it-it': "Cascoon",
+		'pt-br': "Cascoon",
+		'de-de': "Panekon"
 	},
 
 	stage: "Stage2",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ancient Trait",
 			name: {
-				fr: "Plus Δ",
-				en: "Δ Plus",
-				es: "{title}:",
-				it: "{title}:",
-				pt: "{title}:",
-				de: "{title}:"
+				'fr-fr': "Plus Δ",
+				'en-us': "Δ Plus",
+				'es-es': "{title}:",
+				'it-it': "{title}:",
+				'pt-br': "{title}:",
+				'de-de': "{title}:"
 			},
 			effect: {
-				fr: "Si le Pokémon de votre adversaire est mis K.O. par les dégâts d'une attaque de ce Pokémon, récupérez une carte Récompense supplémentaire.",
-				en: "If your opponent's Pokémon is Knocked Out by damage from an attack of this Pokémon, take 1 more Prize card.",
-				es: "{title}: Si el Pokémon de tu rival queda Fuera de Combate por el daño de un ataque de este Pokémon, coge 1 carta de Premio más.",
-				it: "{title}: Se un Pokémon del tuo avversario viene messo KO dai danni di un attacco di questo Pokémon, prendi una carta Premio in più.",
-				pt: "{title}: Se o Pokémon de seu oponente for Nocauteado por danos causados por um ataque deste Pokémon, pegue mais 1 card de Prêmio.",
-				de: "{title}: Wenn das Pokémon deines Gegners durch Schaden eines Angriffs dieses Pokémon kampfunfähig wird, nimm 1 zusätzliche Preiskarte."
+				'fr-fr': "Si le Pokémon de votre adversaire est mis K.O. par les dégâts d'une attaque de ce Pokémon, récupérez une carte Récompense supplémentaire.",
+				'en-us': "If your opponent's Pokémon is Knocked Out by damage from an attack of this Pokémon, take 1 more Prize card.",
+				'es-es': "{title}: Si el Pokémon de tu rival queda Fuera de Combate por el daño de un ataque de este Pokémon, coge 1 carta de Premio más.",
+				'it-it': "{title}: Se un Pokémon del tuo avversario viene messo KO dai danni di un attacco di questo Pokémon, prendi una carta Premio in più.",
+				'pt-br': "{title}: Se o Pokémon de seu oponente for Nocauteado por danos causados por um ataque deste Pokémon, pegue mais 1 card de Prêmio.",
+				'de-de': "{title}: Wenn das Pokémon deines Gegners durch Schaden eines Angriffs dieses Pokémon kampfunfähig wird, nimm 1 zusätzliche Preiskarte."
 			},
 		},
 	],
@@ -65,12 +65,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Flap",
-				fr: "Battement",
-				es: "Aleteo",
-				it: "Alabattito",
-				pt: "Asa",
-				de: "Flattern"
+				'en-us': "Flap",
+				'fr-fr': "Battement",
+				'es-es': "Aleteo",
+				'it-it': "Alabattito",
+				'pt-br': "Asa",
+				'de-de': "Flattern"
 			},
 
 			damage: 20,
@@ -83,20 +83,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wind Shard",
-				fr: "Éclat Volant",
-				es: "Esquirla al Viento",
-				it: "Ventoscheggia",
-				pt: "Caco de Vento",
-				de: "Windscherbe"
+				'en-us': "Wind Shard",
+				'fr-fr': "Éclat Volant",
+				'es-es': "Esquirla al Viento",
+				'it-it': "Ventoscheggia",
+				'pt-br': "Caco de Vento",
+				'de-de': "Windscherbe"
 			},
 			effect: {
-				en: "This attack does 50 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 50 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				es: "Este ataque hace 50 puntos de daño a 1 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-				it: "Questo attacco infligge 50 danni a uno dei Pokémon nella panchina del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
-				pt: "Este ataque causa 50 de danos a 1 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência a Pokémon no Banco.)",
-				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "This attack does 50 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 50 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'es-es': "Este ataque hace 50 puntos de daño a 1 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+				'it-it': "Questo attacco infligge 50 danni a uno dei Pokémon nella panchina del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
+				'pt-br': "Este ataque causa 50 de danos a 1 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência a Pokémon no Banco.)",
+				'de-de': "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -112,7 +112,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It violently flutters its wings to scatter toxic dust when attacked. It becomes active after sunset.",
+		'en-us': "It violently flutters its wings to scatter toxic dust when attacked. It becomes active after sunset.",
 	},
 
 	thirdParty: {

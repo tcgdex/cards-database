@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2017'
 
 const card: Card = {
@@ -7,8 +7,8 @@ const card: Card = {
 	],
 	set: Set,
 	name: {
-		en: "Cutiefly",
-		fr: "Bombydou",
+		'en-us': "Cutiefly",
+		'fr-fr': "Bombydou",
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -23,13 +23,13 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Fly Around",
-				fr: "Papillonnement",
+				'en-us': "Fly Around",
+				'fr-fr': "Papillonnement",
 			},
 			damage: "10",
 			effect: {
-				en: "If any damage is done to this Pokémon by attacks during your opponent's next turn, flip a coin. If heads, prevent that damage.",
-				fr: "Si des dégâts sont infligés à ce Pokémon par des attaques pendant le prochain tour de votre adversaire, lancez une pièce. Si c'est face, évitez ces dégâts.",
+				'en-us': "If any damage is done to this Pokémon by attacks during your opponent's next turn, flip a coin. If heads, prevent that damage.",
+				'fr-fr': "Si des dégâts sont infligés à ce Pokémon par des attaques pendant le prochain tour de votre adversaire, lancez une pièce. Si c'est face, évitez ces dégâts.",
 			},
 		},
 	],

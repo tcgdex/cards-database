@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Gaze"
+		'en-us': "Sabrina's Gaze"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -12,7 +12,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Each player shuffles his or her hand into his or her deck and draws a new hand of the same number of cards."
+		'en-us': "Each player shuffles his or her hand into his or her deck and draws a new hand of the same number of cards."
 	},
 	variants: [
 		{

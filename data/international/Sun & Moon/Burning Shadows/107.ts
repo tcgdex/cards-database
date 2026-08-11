@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Noctowl",
-		fr: "Noarfang",
-		es: "Noctowl",
-		it: "Noctowl",
-		pt: "Noctowl",
-		de: "Noctuh"
+		'en-us': "Noctowl",
+		'fr-fr': "Noarfang",
+		'es-es': "Noctowl",
+		'it-it': "Noctowl",
+		'pt-br': "Noctowl",
+		'de-de': "Noctuh"
 	},
 
 	illustrator: "Sekio",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Hoothoot",
-		fr: "Hoothoot",
+		'en-us': "Hoothoot",
+		'fr-fr': "Hoothoot",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnoblast",
-				fr: "Hypnoblast",
-				es: "Hipnorrayo",
-				it: "Ipnobomba",
-				pt: "Borrifada Hipnótica",
-				de: "Hypnoschuss"
+				'en-us': "Hypnoblast",
+				'fr-fr': "Hypnoblast",
+				'es-es': "Hipnorrayo",
+				'it-it': "Ipnobomba",
+				'pt-br': "Borrifada Hipnótica",
+				'de-de': "Hypnoschuss"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent’s Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 30,
 
@@ -64,20 +64,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Night Raid",
-				fr: "Raid Nocturne",
-				es: "Incursión Nocturna",
-				it: "Incursione Notturna",
-				pt: "Incursão Noturna",
-				de: "Nachtplünderung"
+				'en-us': "Night Raid",
+				'fr-fr': "Raid Nocturne",
+				'es-es': "Incursión Nocturna",
+				'it-it': "Incursione Notturna",
+				'pt-br': "Incursão Noturna",
+				'de-de': "Nachtplünderung"
 			},
 			effect: {
-				en: "Your opponent reveals their hand. Discard a Pokémon from it.",
-				fr: "Votre adversaire dévoile sa main. Défaussez-en un Pokémon.",
-				es: "Tu rival enseña las cartas de su mano. Descarta 1 Pokémon de su mano.",
-				it: "Il tuo avversario mostra le carte che ha in mano. Scarta un Pokémon tra esse.",
-				pt: "Seu oponente revela a própria mão. Descarte 1 Pokémon que estiver lá.",
-				de: "Dein Gegner zeigt dir seine Handkarten. Lege 1 Pokémon aus der Hand deines Gegners auf seinen Ablagestapel."
+				'en-us': "Your opponent reveals their hand. Discard a Pokémon from it.",
+				'fr-fr': "Votre adversaire dévoile sa main. Défaussez-en un Pokémon.",
+				'es-es': "Tu rival enseña las cartas de su mano. Descarta 1 Pokémon de su mano.",
+				'it-it': "Il tuo avversario mostra le carte che ha in mano. Scarta un Pokémon tra esse.",
+				'pt-br': "Seu oponente revela a própria mão. Descarte 1 Pokémon que estiver lá.",
+				'de-de': "Dein Gegner zeigt dir seine Handkarten. Lege 1 Pokémon aus der Hand deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 70,
 
@@ -101,7 +101,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark.",
+		'en-us': "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark.",
 	},
 
 	thirdParty: {

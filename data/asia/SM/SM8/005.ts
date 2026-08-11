@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガニウム",
+		'ja-jp': "メガニウム",
 	},
 
 	illustrator: "nagimiso",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "メガニウムが 吐き出す 息には 枯れた 草木を よみがえらせる 力が 秘められている。",
+		'ja-jp': "メガニウムが 吐き出す 息には 枯れた 草木を よみがえらせる 力が 秘められている。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "そうじゅくハーブ" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札にある2進化ポケモンを1枚、そのポケモンへと進化する自分の場のたねポケモンにのせて進化させる。",
+				'ja-jp': "自分の番に1回使える。自分の手札にある2進化ポケモンを1枚、そのポケモンへと進化する自分の場のたねポケモンにのせて進化させる。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ベイリーフ",
+		'ja-jp': "ベイリーフ",
 	},
 
 	retreat: 2,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カスミのタッツー",
+		'ja-jp': "カスミのタッツー",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Water", "Water"],
 			name: {
-				ja: "インクスパート",
+				'ja-jp': "インクスパート",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御するポケモンが攻撃しようとするたびに、相手はコインをひっくり返します。尾の場合、その攻撃は何もしません。 （この効果は、防御するポケモンが進化するか、ベンチになるまで続きます。）",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御するポケモンが攻撃しようとするたびに、相手はコインをひっくり返します。尾の場合、その攻撃は何もしません。 （この効果は、防御するポケモンが進化するか、ベンチになるまで続きます。）",
 			},
 			damage: 20,
 		},

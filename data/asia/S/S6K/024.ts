@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゼラオラV",
+		'ja-jp': "ゼラオラV",
 		'zh-tw': "捷拉奧拉V",
 	},
 
@@ -18,13 +18,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "クロスフィスト",
+				'ja-jp': "クロスフィスト",
 				'zh-tw': "十字拳",
 			},
 			damage: 100,
 			cost: ["Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "前の自分の番、このポケモン以外の「れんげき」のポケモンがワザを使っていたなら、相手のベンチポケモン1匹にも、160ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "前の自分の番、このポケモン以外の「れんげき」のポケモンがワザを使っていたなら、相手のベンチポケモン1匹にも、160ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 				'zh-tw': "在上個自己的回合，若這隻寶可夢以外的「連擊」寶可夢使用了招式，則對手的1隻備戰寶可夢也受到160點傷害。[在備戰區不計算弱點・抵抗力。]",
 			},
 		},

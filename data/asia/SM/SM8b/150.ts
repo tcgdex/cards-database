@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユニットエネルギー闘悪妖",
+		'ja-jp': "ユニットエネルギー闘悪妖",
 	},
 
 	illustrator: "",
@@ -12,7 +12,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		ja: "このカードは、ポケモンについているかぎり、[闘][悪][妖]の3つのタイプのエネルギー1個ぶんとしてはたらく。ポケモンについていないなら、[無]エネルギー1個ぶんとしてはたらく。",
+		'ja-jp': "このカードは、ポケモンについているかぎり、[闘][悪][妖]の3つのタイプのエネルギー1個ぶんとしてはたらく。ポケモンについていないなら、[無]エネルギー1個ぶんとしてはたらく。",
 	},
 
 	variants: [

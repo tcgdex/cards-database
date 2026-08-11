@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "シロナのパワーウエイト",
+		'ja-jp': "シロナのパワーウエイト",
 		'zh-tw': "竹蘭的力量負重",
 		'zh-cn': "竹蘭的力量負重"
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけている「シロナのポケモン」の最大HPは「＋70」される。",
+		'ja-jp': "このカードをつけている「シロナのポケモン」の最大HPは「＋70」される。",
 		'zh-tw': "附有這張卡的「竹蘭的寶可夢」的最大HP「+70」。",
 		'zh-cn': "附有這張卡的「竹蘭的寶可夢」的最大HP「+70」。"
 	},

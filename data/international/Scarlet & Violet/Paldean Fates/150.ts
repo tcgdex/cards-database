@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cleffa",
-		fr: "Mélo",
-		es: "Cleffa",
-		it: "Cleffa",
-		pt: "Cleffa",
-		de: "Pii"
+		'en-us': "Cleffa",
+		'fr-fr': "Mélo",
+		'es-es': "Cleffa",
+		'it-it': "Cleffa",
+		'pt-br': "Cleffa",
+		'de-de': "Pii"
 	},
 
 	rarity: "Shiny rare",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Grasping Draw",
-			fr: "Pioche Happante",
-			es: "Robo Avaricioso",
-			it: "Pesca Smaniosa",
-			pt: "Compra Gananciosa",
-			de: "Beherzt zugreifen"
+			'en-us': "Grasping Draw",
+			'fr-fr': "Pioche Happante",
+			'es-es': "Robo Avaricioso",
+			'it-it': "Pesca Smaniosa",
+			'pt-br': "Compra Gananciosa",
+			'de-de': "Beherzt zugreifen"
 		},
 
 		effect: {
-			en: "Draw cards until you have 7 cards in your hand.",
-			fr: "Piochez des cartes jusqu'à en avoir 7 en main.",
-			es: "Roba cartas hasta que tengas 7 cartas en tu mano.",
-			it: "Pesca fino ad avere sette carte in mano.",
-			pt: "Compre cartas até ter 7 cartas na sua mão.",
-			de: "Ziehe so lange Karten, bis du 7 Karten auf deiner Hand hast."
+			'en-us': "Draw cards until you have 7 cards in your hand.",
+			'fr-fr': "Piochez des cartes jusqu'à en avoir 7 en main.",
+			'es-es': "Roba cartas hasta que tengas 7 cartas en tu mano.",
+			'it-it': "Pesca fino ad avere sette carte in mano.",
+			'pt-br': "Compre cartas até ter 7 cartas na sua mão.",
+			'de-de': "Ziehe so lange Karten, bis du 7 Karten auf deiner Hand hast."
 		}
 	}],
 
@@ -63,7 +63,7 @@ const card: Card = {
 	illustrator: "Mizue",
 
 	description: {
-		en: "Because of its unusual, starlike silhouette, people believe that it came here on a meteor.",
+		'en-us': "Because of its unusual, starlike silhouette, people believe that it came here on a meteor.",
 	},
 
 }

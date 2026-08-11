@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Breloom",
-		fr: "Chapignon",
-		de: "Kapilz"
+		'en-us': "Breloom",
+		'fr-fr': "Chapignon",
+		'de-de': "Kapilz"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shroomish",
-		fr: "Balignon"
+		'en-us': "Shroomish",
+		'fr-fr': "Balignon"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Poison Breath",
-				fr: "Super haleine empoisonnée",
-				de: "Super Poison Breath"
+				'en-us': "Super Poison Breath",
+				'fr-fr': "Super haleine empoisonnée",
+				'de-de': "Super Poison Breath"
 			},
 			effect: {
-				en: "Each Defending Pokémon is now Poisoned.",
-				fr: "Chaque Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Each Defending Pokémon is now Poisoned."
+				'en-us': "Each Defending Pokémon is now Poisoned.",
+				'fr-fr': "Chaque Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Each Defending Pokémon is now Poisoned."
 			},
 
 		},
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sky Uppercut",
-				fr: "Stratopercut",
-				de: "Sky Uppercut"
+				'en-us': "Sky Uppercut",
+				'fr-fr': "Stratopercut",
+				'de-de': "Sky Uppercut"
 			},
 			effect: {
-				en: "This attack's damage is not affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				de: "This attack's damage is not affected by Resistance."
+				'en-us': "This attack's damage is not affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'de-de': "This attack's damage is not affected by Resistance."
 			},
 			damage: 50,
 

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Slakoth"
+		'id-id': "Slakoth"
 	},
 
 	illustrator: "Mékayu",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Sosok Slakoth yang bermalas-malasan merangsang rasa malas orang yang melihatnya."
+		'id-id': "Sosok Slakoth yang bermalas-malasan merangsang rasa malas orang yang melihatnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Bersantai"
+			'id-id': "Bersantai"
 		},
 
 		effect: {
-			id: "Pulihkan HP Pokémon ini sejumlah 60. Pada giliran sendiri berikutnya, Pokémon ini tidak dapat Mundur."
+			'id-id': "Pulihkan HP Pokémon ini sejumlah 60. Pada giliran sendiri berikutnya, Pokémon ini tidak dapat Mundur."
 		},
 
 		cost: ["Colorless"]

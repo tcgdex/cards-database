@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 4'
 
 const card: Card = {
 	name: {
-		en: "Chimecho δ",
-		fr: "Eoko δ"
+		'en-us': "Chimecho δ",
+		'fr-fr': "Eoko δ"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wrap",
-				fr: "Ligotage"
+				'en-us': "Wrap",
+				'fr-fr': "Ligotage"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 
 		},
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sonicboom",
-				fr: "Sonicboom"
+				'en-us': "Sonicboom",
+				'fr-fr': "Sonicboom"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance."
+				'en-us': "This attack's damage isn't affected by Weakness or Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance."
 			},
 			damage: 30,
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Joltik",
-		fr: "Statitik",
-		es: "Joltik",
-		it: "Joltik",
-		pt: "Joltik",
-		de: "Wattzapf"
+		'en-us': "Joltik",
+		'fr-fr': "Statitik",
+		'es-es': "Joltik",
+		'it-it': "Joltik",
+		'pt-br': "Joltik",
+		'de-de': "Wattzapf"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Stun Needle",
-				fr: "Para-Dard",
+				'en-us': "Stun Needle",
+				'fr-fr': "Para-Dard",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch.",
+		'en-us': "They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch.",
 	},
 
 	thirdParty: {

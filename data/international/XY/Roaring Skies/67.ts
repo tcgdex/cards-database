@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Meowth",
-		fr: "Miaouss",
-		es: "Meowth",
-		it: "Meowth",
-		pt: "Meowth",
-		de: "Mauzi"
+		'en-us': "Meowth",
+		'fr-fr': "Miaouss",
+		'es-es': "Meowth",
+		'it-it': "Meowth",
+		'pt-br': "Meowth",
+		'de-de': "Mauzi"
 	},
 
 	illustrator: "Akira Komayama",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Feelin' Fine",
-				fr: "Mode Cool",
-				es: "Buen Rollito",
-				it: "Tuttobene",
-				pt: "Sensação Boa",
-				de: "Wohl fühlen"
+				'en-us': "Feelin' Fine",
+				'fr-fr': "Mode Cool",
+				'es-es': "Buen Rollito",
+				'it-it': "Tuttobene",
+				'pt-br': "Sensação Boa",
+				'de-de': "Wohl fühlen"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				es: "Roba 1 carta.",
-				it: "Pesca una carta.",
-				pt: "Compre um card.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'es-es': "Roba 1 carta.",
+				'it-it': "Pesca una carta.",
+				'pt-br': "Compre um card.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Swipes",
-				fr: "Combo-Griffe",
-				es: "Golpes Furia",
-				it: "Sfuriate",
-				pt: "Golpes de Fúria",
-				de: "Kratzfurie"
+				'en-us': "Fury Swipes",
+				'fr-fr': "Combo-Griffe",
+				'es-es': "Golpes Furia",
+				'it-it': "Sfuriate",
+				'pt-br': "Golpes de Fúria",
+				'de-de': "Kratzfurie"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
-				es: "Lanza 3 monedas. Este ataque hace 20 puntos de daño por cada cara.",
-				it: "Lancia tre volte una moneta. Questo attacco infligge 20 danni ogni volta che esce testa.",
-				pt: "Jogue 3 moedas. Este ataque causa 20 de danos vezes o número de caras.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 3 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 3 monedas. Este ataque hace 20 puntos de daño por cada cara.",
+				'it-it': "Lancia tre volte una moneta. Questo attacco infligge 20 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 3 moedas. Este ataque causa 20 de danos vezes o número de caras.",
+				'de-de': "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "20×",
 
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change.",
+		'en-us': "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change.",
 	},
 
 	thirdParty: {

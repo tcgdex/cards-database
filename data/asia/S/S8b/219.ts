@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マルヤクデVMAX",
+		'ja-jp': "マルヤクデVMAX",
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "40+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[炎]エネルギーの数×40ダメージ追加。のぞむなら、ダメージを与えたあとに、自分のトラッシュから[炎]エネルギーを1枚選び、このポケモンにつける。",
+				'ja-jp': "このポケモンについている[炎]エネルギーの数×40ダメージ追加。のぞむなら、ダメージを与えたあとに、自分のトラッシュから[炎]エネルギーを1枚選び、このポケモンにつける。",
 			},
 		},
 	],
@@ -39,7 +39,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マルヤクデV",
+		'ja-jp': "マルヤクデV",
 	},
 
 	retreat: 3,

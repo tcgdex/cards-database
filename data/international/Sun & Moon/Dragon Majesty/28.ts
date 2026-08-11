@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Majesty'
 
 const card: Card = {
 	name: {
-		en: "Feebas",
-		fr: "Barpau",
-		es: "Feebas",
-		it: "Feebas",
-		pt: "Feebas",
-		de: "Barschwa"
+		'en-us': "Feebas",
+		'fr-fr': "Barpau",
+		'es-es': "Feebas",
+		'it-it': "Feebas",
+		'pt-br': "Feebas",
+		'de-de': "Barschwa"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Submerge",
-				fr: "Submerger",
-				es: "Hundir",
-				it: "Immergersi",
-				pt: "Submergir",
-				de: "Untertauchen"
+				'en-us': "Submerge",
+				'fr-fr': "Submerger",
+				'es-es': "Hundir",
+				'it-it': "Immergersi",
+				'pt-br': "Submergir",
+				'de-de': "Untertauchen"
 			},
 			effect: {
-				en: "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s).",
-				fr: "Tant que ce Pokémon est sur votre Banc, évitez tous les dégâts infligés à ce Pokémon par des attaques (les vôtres et celles de votre adversaire).",
-				es: "Mientras este Pokémon esté en tu Banca, evita todo el daño infligido a este Pokémon por ataques (tanto tuyos como de tu rival).",
-				it: "Fintanto che questo Pokémon è nella tua panchina, previeni tutti i danni inflitti a questo Pokémon dagli attacchi, sia tuoi che del tuo avversario.",
-				pt: "Desde que este Pokémon esteja em seu Banco, previne todos os danos causados a este Pokémon por ataques (seus e do seu oponente).",
-				de: "Solang sich dieses Pokémon auf deiner Bank befindet, verhindere allen Schaden, der diesem Pokémon durch Angriffe (deine und die deines Gegners) zugefügt wird."
+				'en-us': "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s).",
+				'fr-fr': "Tant que ce Pokémon est sur votre Banc, évitez tous les dégâts infligés à ce Pokémon par des attaques (les vôtres et celles de votre adversaire).",
+				'es-es': "Mientras este Pokémon esté en tu Banca, evita todo el daño infligido a este Pokémon por ataques (tanto tuyos como de tu rival).",
+				'it-it': "Fintanto che questo Pokémon è nella tua panchina, previeni tutti i danni inflitti a questo Pokémon dagli attacchi, sia tuoi che del tuo avversario.",
+				'pt-br': "Desde que este Pokémon esteja em seu Banco, previne todos os danos causados a este Pokémon por ataques (seus e do seu oponente).",
+				'de-de': "Solang sich dieses Pokémon auf deiner Bank befindet, verhindere allen Schaden, der diesem Pokémon durch Angriffe (deine und die deines Gegners) zugefügt wird."
 			},
 		},
 	],
@@ -56,12 +56,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Rain Splash",
-				fr: "Pluie Éclaboussante",
-				es: "Golpe de Lluvia",
-				it: "Spruzzapioggia",
-				pt: "Chuva Borrifante",
-				de: "Regenplatscher"
+				'en-us': "Rain Splash",
+				'fr-fr': "Pluie Éclaboussante",
+				'es-es': "Golpe de Lluvia",
+				'it-it': "Spruzzapioggia",
+				'pt-br': "Chuva Borrifante",
+				'de-de': "Regenplatscher"
 			},
 
 			damage: 10,
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Although unattractive and unpopular, this Pokémon's marvelous vitality has made it a subject of research.",
+		'en-us': "Although unattractive and unpopular, this Pokémon's marvelous vitality has made it a subject of research.",
 	},
 
 	thirdParty: {

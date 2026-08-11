@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Cloyster",
-		fr: "Crustabri",
-		es: "Cloyster",
-		it: "Cloyster",
-		pt: "Cloyster",
-		de: "Austos"
+		'en-us': "Cloyster",
+		'fr-fr': "Crustabri",
+		'es-es': "Cloyster",
+		'it-it': "Cloyster",
+		'pt-br': "Cloyster",
+		'de-de': "Austos"
 	},
 
 	illustrator: "MAHOU",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shellder",
-		fr: "Kokiyas",
-		es: "Shellder",
-		it: "Shellder",
-		pt: "Shellder",
-		de: "Muschas"
+		'en-us': "Shellder",
+		'fr-fr': "Kokiyas",
+		'es-es': "Shellder",
+		'it-it': "Shellder",
+		'pt-br': "Shellder",
+		'de-de': "Muschas"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shell Grab",
-				fr: "Carap'Attrape",
-				es: "Agarre Caparazón",
-				it: "Acchiappaguscio",
-				pt: "Concha Agarradora",
-				de: "Schnappmuschel"
+				'en-us': "Shell Grab",
+				'fr-fr': "Carap'Attrape",
+				'es-es': "Agarre Caparazón",
+				'it-it': "Acchiappaguscio",
+				'pt-br': "Concha Agarradora",
+				'de-de': "Schnappmuschel"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
-				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 30,
 
@@ -68,12 +68,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tidal Wave",
-				fr: "Raz-de-Marée",
-				es: "Maremoto",
-				it: "Mareggiata",
-				pt: "Maremoto",
-				de: "Flutwelle"
+				'en-us': "Tidal Wave",
+				'fr-fr': "Raz-de-Marée",
+				'es-es': "Maremoto",
+				'it-it': "Mareggiata",
+				'pt-br': "Maremoto",
+				'de-de': "Flutwelle"
 			},
 
 			damage: 100,
@@ -99,7 +99,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its shell is extremely hard. It cannot be shattered, even with a bomb. The shell opens only when it is attacking."
+		'en-us': "Its shell is extremely hard. It cannot be shattered, even with a bomb. The shell opens only when it is attacking."
 	},
 
 	thirdParty: {

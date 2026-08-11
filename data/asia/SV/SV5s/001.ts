@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Scyther"
+		'id-id': "Scyther"
 	},
 
 	illustrator: "Dsuke",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Sabit tajam pada kedua tangan Scyther akan makin meningkat ketajamannya jika makin banyak memotong benda keras."
+		'id-id': "Sabit tajam pada kedua tangan Scyther akan makin meningkat ketajamannya jika makin banyak memotong benda keras."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Potong"
+			'id-id': "Potong"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Slash Down"
+			'id-id': "Slash Down"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan Slash Down."
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan Slash Down."
 		},
 
 		damage: 60,

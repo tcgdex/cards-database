@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Platinum'
 
 const pl2: Set = {
 	id: "pl2",
 
 	name: {
-		en: "Rising Rivals",
-		fr: "Rivaux Émergeants",
-		it: "L'Ascesa dei Rivali",
-		de: "Aufstieg der Rivalen"
+		'en-us': "Rising Rivals",
+		'fr-fr': "Rivaux Émergeants",
+		'it-it': "L'Ascesa dei Rivali",
+		'de-de': "Aufstieg der Rivalen"
 	},
 
 	serie: serie,
@@ -22,7 +22,7 @@ const pl2: Set = {
 
 	abbreviations: {
 		official: "RR",
-		fr: "REM"
+		'fr-fr': "REM"
 	},
 
 	thirdParty: {

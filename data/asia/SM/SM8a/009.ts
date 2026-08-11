@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エモンガ",
+		'ja-jp': "エモンガ",
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "電撃で 木の実や むしポケモンを こんがり 焼いて 喰う。 ツツケラが 空けた 木の穴が 主な 巣だ。",
+		'ja-jp': "電撃で 木の実や むしポケモンを こんがり 焼いて 喰う。 ツツケラが 空けた 木の穴が 主な 巣だ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ほっぺのつどい" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札にあるワザ「ほっぺすりすり」を持つポケモンを1枚、相手に見せてから、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の番に1回使える。自分の山札にあるワザ「ほっぺすりすり」を持つポケモンを1枚、相手に見せてから、手札に加える。そして山札を切る。",
 			},
 		},
 	],
@@ -33,7 +33,7 @@ const card: Card = {
 			name: { ja: "ほっぺすりすり" },
 			cost: ["Lightning"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVLN"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "マリルリ"
+		'ja-jp': "マリルリ"
 	},
 
 	illustrator: "Orca",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "じっと 耳を すますと 激しい 流れの 川の 中に なにが いるのか 聞き分けられる。"
+		'ja-jp': "じっと 耳を すますと 激しい 流れの 川の 中に なにが いるのか 聞き分けられる。"
 	},
 
 	stage: "Stage1",
@@ -24,11 +24,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "きらきらシャボン"
+			'ja-jp': "きらきらシャボン"
 		},
 
 		effect: {
-			ja: "自分の場に「テラスタル」のポケモンがいるなら、このポケモンが「すてみタックル」を使うためのエネルギーは、エネルギー1個になる。"
+			'ja-jp': "自分の場に「テラスタル」のポケモンがいるなら、このポケモンが「すてみタックル」を使うためのエネルギーは、エネルギー1個になる。"
 		}
 	}],
 
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Psychic", "Psychic"],
 
 		name: {
-			ja: "すてみタックル"
+			'ja-jp': "すてみタックル"
 		},
 
 		damage: 230,
 
 		effect: {
-			ja: "このポケモンにも50ダメージ。"
+			'ja-jp': "このポケモンにも50ダメージ。"
 		}
 	}],
 

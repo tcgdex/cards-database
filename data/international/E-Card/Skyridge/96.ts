@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Shuckle",
-		de: "Pottrott"
+		'en-us': "Shuckle",
+		'de-de': "Pottrott"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -26,12 +26,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Vase Body",
-				de: "Vasenkörper"
+				'en-us': "Vase Body",
+				'de-de': "Vasenkörper"
 			},
 			effect: {
-				en: "All damage done by attacks to Shuckle is reduced by 20 (after applying Weakness and Resistance).",
-				de: "Jeder Schaden, der Pottrott durch Angriffe zugefügt wird, wird um 20 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "All damage done by attacks to Shuckle is reduced by 20 (after applying Weakness and Resistance).",
+				'de-de': "Jeder Schaden, der Pottrott durch Angriffe zugefügt wird, wird um 20 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poisonous Saliva",
-				de: "Giftiger Speichel"
+				'en-us': "Poisonous Saliva",
+				'de-de': "Giftiger Speichel"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				de: "Das verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'de-de': "Das verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 10,
 

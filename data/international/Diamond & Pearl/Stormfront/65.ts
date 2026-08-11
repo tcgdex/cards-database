@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Magikarp",
-		fr: "Magicarpe",
-		de: "Karpador"
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe",
+		'de-de': "Karpador"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		fr: "Magicarpe",
+		'fr-fr': "Magicarpe",
 	},
 
 	stage: "Basic",
@@ -33,14 +33,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Sea Spray",
-				fr: "Spray de mer",
-				de: "Gischt"
+				'en-us': "Sea Spray",
+				'fr-fr': "Spray de mer",
+				'de-de': "Gischt"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. For each heads, draw a card.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, piochez une carte.",
-				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Ziehe pro \"Kopf\" 1 Karte."
+				'en-us': "Flip a coin until you get tails. For each heads, draw a card.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, piochez une carte.",
+				'de-de': "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Ziehe pro \"Kopf\" 1 Karte."
 			},
 
 		},
@@ -49,9 +49,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Splash",
-				fr: "Trempette",
-				de: "Platscher"
+				'en-us': "Splash",
+				'fr-fr': "Trempette",
+				'de-de': "Platscher"
 			},
 
 			damage: 10,
@@ -69,8 +69,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is said to be the world's weakest Pokémon. No one knows why it has managed to survive.",
-		fr: "Ce Pokémon est réputé pour être le plus faible au monde. Nul ne sait comment son espèce perdure."
+		'en-us': "It is said to be the world's weakest Pokémon. No one knows why it has managed to survive.",
+		'fr-fr': "Ce Pokémon est réputé pour être le plus faible au monde. Nul ne sait comment son espèce perdure."
 	},
 
 	thirdParty: {

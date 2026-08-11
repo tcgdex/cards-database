@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Doublade"
+		'id-id': "Doublade"
 	},
 
 	illustrator: "Bun Toujo",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Doublade menggunakan strategi mengganti posisi menyerang dan bertahan kedua bilah pedang secara terus menerus untuk menghabisi mangsanya."
+		'id-id': "Doublade menggunakan strategi mengganti posisi menyerang dan bertahan kedua bilah pedang secara terus menerus untuk menghabisi mangsanya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Menyayat"
+			'id-id': "Menyayat"
 		},
 
 		damage: 20,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Slash Down"
+			'id-id': "Slash Down"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan Slash Down."
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan Slash Down."
 		},
 
 		damage: 80,

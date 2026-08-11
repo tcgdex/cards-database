@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Glameow",
-		fr: "Chaglam",
-		de: "Charmian"
+		'en-us': "Glameow",
+		'fr-fr': "Chaglam",
+		'de-de': "Charmian"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -35,19 +35,19 @@ const card: Card = {
 	retreat: 1,
 
 	effect: {
-		en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
-		fr: "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+		'en-us': "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
+		'fr-fr': "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
 	},
 
 	attacks: [
 		{
 			name: {
-				de: "Familienruf",
-				fr: "Appel à la famille",
+				'de-de': "Familienruf",
+				'fr-fr': "Appel à la famille",
 			},
 			effect: {
-				de: "Durchsuche dein Deck nach 1 Basis-Pokémon-Karte und lege sie auf diene Bank. Mische dein Deck danach.",
-				fr: "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach 1 Basis-Pokémon-Karte und lege sie auf diene Bank. Mische dein Deck danach.",
+				'fr-fr': "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
 			},
 			cost: [
 				"Colorless",
@@ -55,13 +55,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				de: "Reißklaue",
-				fr: "Griffe déchirante",
+				'de-de': "Reißklaue",
+				'fr-fr': "Griffe déchirante",
 			},
 			damage: 10,
 			effect: {
-				de: "Wirf 1 Münze. Bei 'Kopf' entferne 1 Energie, die an das Verteidigende Pokémon angelegt ist, und lege sie auf den Ablagestapel deines Gegners.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' entferne 1 Energie, die an das Verteidigende Pokémon angelegt ist, und lege sie auf den Ablagestapel deines Gegners.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			cost: [
 				"Colorless",
@@ -71,7 +71,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "With its sharp glare, it puts foes in a mild hypnotic state. It is a very fickle Pokémon.",
+		'en-us': "With its sharp glare, it puts foes in a mild hypnotic state. It is a very fickle Pokémon.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Maskadra",
-		en: "Masquerain",
-		es: "Masquerain",
-		it: "Masquerain",
-		pt: "Masquerain",
-		de: "Maskeregen"
+		'fr-fr': "Maskadra",
+		'en-us': "Masquerain",
+		'es-es': "Masquerain",
+		'it-it': "Masquerain",
+		'pt-br': "Masquerain",
+		'de-de': "Maskeregen"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Grass"],
 	evolveFrom: {
-		fr: "Arakdo",
-		en: "Surskit",
-		es: "Surskit",
-		it: "Surskit",
-		pt: "Surskit",
-		de: "Gehweiher"
+		'fr-fr': "Arakdo",
+		'en-us': "Surskit",
+		'es-es': "Surskit",
+		'it-it': "Surskit",
+		'pt-br': "Surskit",
+		'de-de': "Gehweiher"
 	},
 	stage: "Stage1",
 
@@ -32,32 +32,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Motif Affolant",
-			en: "Panic-Prompting Pattern",
-			es: "Patrón del Pánico",
-			it: "Motivo Terrificante",
-			pt: "Padrão de Pânico",
-			de: "Panikmuster"
+			'fr-fr': "Motif Affolant",
+			'en-us': "Panic-Prompting Pattern",
+			'es-es': "Patrón del Pánico",
+			'it-it': "Motivo Terrificante",
+			'pt-br': "Padrão de Pânico",
+			'de-de': "Panikmuster"
 		},
 
 		effect: {
-			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Pour chaque côté face, défaussez au hasard une carte de la main de votre adversaire.",
-			en: "Flip a coin until you get tails. For each heads, discard a random card from your opponent's hand.",
-			es: "Lanza 1 moneda hasta que salga cruz. Por cada cara, descarta 1 carta aleatoria de la mano de tu rival.",
-			it: "Lancia una moneta finché non esce croce. Ogni volta che esce testa, scarta una carta a caso dalla mano del tuo avversario.",
-			pt: "Jogue uma moeda até sair coroa. Para cada cara, descarte uma carta aleatória da mão do seu oponente.",
-			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Lege pro Kopf 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
+			'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Pour chaque côté face, défaussez au hasard une carte de la main de votre adversaire.",
+			'en-us': "Flip a coin until you get tails. For each heads, discard a random card from your opponent's hand.",
+			'es-es': "Lanza 1 moneda hasta que salga cruz. Por cada cara, descarta 1 carta aleatoria de la mano de tu rival.",
+			'it-it': "Lancia una moneta finché non esce croce. Ogni volta che esce testa, scarta una carta a caso dalla mano del tuo avversario.",
+			'pt-br': "Jogue uma moeda até sair coroa. Para cada cara, descarte uma carta aleatória da mão do seu oponente.",
+			'de-de': "Wirf so lange 1 Münze, bis sie Zahl zeigt. Lege pro Kopf 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			fr: "Bourdon",
-			en: "Bug Buzz",
-			es: "Zumbido",
-			it: "Ronzio",
-			pt: "Zumbido de Inseto",
-			de: "Käfergebrumm"
+			'fr-fr': "Bourdon",
+			'en-us': "Bug Buzz",
+			'es-es': "Zumbido",
+			'it-it': "Ronzio",
+			'pt-br': "Zumbido de Inseto",
+			'de-de': "Käfergebrumm"
 		},
 
 		damage: 70
@@ -73,7 +73,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It flaps its four wings to hover and fly freely in any direction—to and fro and sideways.",
+		'en-us': "It flaps its four wings to hover and fly freely in any direction—to and fro and sideways.",
 	},
 
 	variants: [

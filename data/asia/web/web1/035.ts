@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../web1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Magikarp",
+		'ja-jp': "Magikarp",
 	},
 
 	rarity: "Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "トリクル",
+				'ja-jp': "トリクル",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Water", "Water"],
 			name: {
-				ja: "ドラゴンレイジ",
+				'ja-jp': "ドラゴンレイジ",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。どちらかが尾の場合、この攻撃は何もしません。",
+				'ja-jp': "2つのコインをフリップします。どちらかが尾の場合、この攻撃は何もしません。",
 			},
 			damage: 50,
 		},

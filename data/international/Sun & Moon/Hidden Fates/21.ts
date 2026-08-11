@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Voltorb",
-		fr: "Voltorbe",
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe",
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Lightning Ball",
-				fr: "Boule Éclair",
+				'en-us': "Lightning Ball",
+				'fr-fr': "Boule Éclair",
 			},
 
 			damage: 20,
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It was discovered when Poké Balls were introduced. It is said that there is some connection.",
+		'en-us': "It was discovered when Poké Balls were introduced. It is said that there is some connection.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Bonsly"
+		'id-id': "Bonsly"
 	},
 
 	illustrator: "Mizue",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Bonsly terlihat seperti sedang menangis karena ia mengalirkan air dari matanya untuk mengatur kadar air berlebih dalam tubuhnya."
+		'id-id': "Bonsly terlihat seperti sedang menangis karena ia mengalirkan air dari matanya untuk mengatur kadar air berlebih dalam tubuhnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menangis Meraung-raung"
+			'id-id': "Menangis Meraung-raung"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
 		},
 
 		damage: 10

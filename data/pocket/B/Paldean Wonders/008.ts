@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Dolliv",
-		fr: "Olivado",
-		de: "Olivinio",
-		it: "Dolliv",
-		es: "Dolliv",
-		pt: "Dolliv",
+		'en-us': "Dolliv",
+		'fr-fr': "Olivado",
+		'de-de': "Olivinio",
+		'it-it': "Dolliv",
+		'es-es': "Dolliv",
+		'pt-br': "Dolliv",
 		'es-mx': "Dolliv"
   },
   illustrator: "Mizue",
@@ -19,12 +19,12 @@ const card: Card = {
   types: ["Grass"],
   dexId: [929],
   evolveFrom: {
-		en: "Smoliv",
-		fr: "Olivini",
-		de: "Olini",
-		it: "Smoliv",
-		es: "Smoliv",
-		pt: "Smoliv",
+		'en-us': "Smoliv",
+		'fr-fr': "Olivini",
+		'de-de': "Olini",
+		'it-it': "Smoliv",
+		'es-es': "Smoliv",
+		'pt-br': "Smoliv",
 		'es-mx': "Smoliv"
   },
   description: {

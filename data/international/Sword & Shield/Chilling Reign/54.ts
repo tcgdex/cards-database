@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Galarian Slowpoke",
-		fr: "Ramoloss de Galar",
-		es: "Slowpoke de Galar",
-		it: "Slowpoke di Galar",
-		pt: "Slowpoke de Galar",
-		de: "Galar-Flegmon"
+		'en-us': "Galarian Slowpoke",
+		'fr-fr': "Ramoloss de Galar",
+		'es-es': "Slowpoke de Galar",
+		'it-it': "Slowpoke di Galar",
+		'pt-br': "Slowpoke de Galar",
+		'de-de': "Galar-Flegmon"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -22,24 +22,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Sharpness",
-			fr: "Intellection",
-			es: "Agudeza",
-			it: "Acume",
-			pt: "Espertinho",
-			de: "Schärfe"
+			'en-us': "Sharpness",
+			'fr-fr': "Intellection",
+			'es-es': "Agudeza",
+			'it-it': "Acume",
+			'pt-br': "Espertinho",
+			'de-de': "Schärfe"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			es: "Golpe Cabeza",
-			it: "Bottintesta",
-			pt: "Cabeçada",
-			de: "Kopfnuss"
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'es-es': "Golpe Cabeza",
+			'it-it': "Bottintesta",
+			'pt-br': "Cabeçada",
+			'de-de': "Kopfnuss"
 		},
 
 		damage: 20,
@@ -63,7 +63,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Because Galarian Slowpoke eat the seeds of a plant that grows only in Galar, their tails have developed a spicy flavor."
+		'en-us': "Because Galarian Slowpoke eat the seeds of a plant that grows only in Galar, their tails have developed a spicy flavor."
 	},
 
 	variants: [

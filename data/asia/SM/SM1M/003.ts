@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アメモース",
+		'ja-jp': "アメモース",
 	},
 
 	illustrator: "miki kudo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "羽や 触角は 湿気が 苦手。 雨上がりには 太陽の ほうを 向いて 身体を 乾かす。",
+		'ja-jp': "羽や 触角は 湿気が 苦手。 雨上がりには 太陽の ほうを 向いて 身体を 乾かす。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーを1個、ベンチポケモンにつけ替える。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーを1個、ベンチポケモンにつけ替える。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アメタマ",
+		'ja-jp': "アメタマ",
 	},
 
 	retreat: 0,

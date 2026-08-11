@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S12"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "レジエレキVMAX"
+		'ja-jp': "レジエレキVMAX"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -18,11 +18,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "トランジスタ"
+			'ja-jp': "トランジスタ"
 		},
 
 		effect: {
-			ja: "このポケモンがいるかぎり、自分のタイプのたねポケモンが使うワザの、相手のバトルポケモンへのダメージは「+30」される。"
+			'ja-jp': "このポケモンがいるかぎり、自分のタイプのたねポケモンが使うワザの、相手のバトルポケモンへのダメージは「+30」される。"
 		}
 	}],
 
@@ -30,13 +30,13 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ダイライデン"
+			'ja-jp': "ダイライデン"
 		},
 
 		damage: 220,
 
 		effect: {
-			ja: "次の自分の番、このポケモンはワザが使えない。"
+			'ja-jp': "次の自分の番、このポケモンはワザが使えない。"
 		}
 	}],
 

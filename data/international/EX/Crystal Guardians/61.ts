@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Spearow",
-		fr: "Piafabec",
-		de: "Habitak"
+		'en-us': "Spearow",
+		'fr-fr': "Piafabec",
+		'de-de': "Habitak"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spearhead",
-				fr: "Meneur",
-				de: "Speerspitze"
+				'en-us': "Spearhead",
+				'fr-fr': "Meneur",
+				'de-de': "Speerspitze"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez 1 carte.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez 1 carte.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},

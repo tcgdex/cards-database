@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Umbreon",
-		de: "Nachtara"
+		'en-us': "Umbreon",
+		'de-de': "Nachtara"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
+		'en-us': "Eevee",
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Dark Gaze",
-				de: "Finsterer Blick"
+				'en-us': "Dark Gaze",
+				'de-de': "Finsterer Blick"
 			},
 			effect: {
-				en: "As long as Umbreon is your Active Pokémon, Benched Pokémon (yours and your opponent's) can't use Poké-Powers.",
-				de: "Solange Nachtara dein aktives Pokémon ist, können Pokémon auf der Bank (deine und die deines Gegners) keine Poke-Power verwenden."
+				'en-us': "As long as Umbreon is your Active Pokémon, Benched Pokémon (yours and your opponent's) can't use Poké-Powers.",
+				'de-de': "Solange Nachtara dein aktives Pokémon ist, können Pokémon auf der Bank (deine und die deines Gegners) keine Poke-Power verwenden."
 			},
 		},
 	],
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharp Claws",
-				de: "Scharfe Klaue"
+				'en-us': "Sharp Claws",
+				'de-de': "Scharfe Klaue"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 30 more damage.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 30 more damage.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 

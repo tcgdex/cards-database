@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イワンコ",
+		'ja-jp': "イワンコ",
 	},
 
 	illustrator: "Naoki Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "よく なつくので 初心者に お勧めのポケモンと いわれるが 育つと 気性は 荒くなる。",
+		'ja-jp': "よく なつくので 初心者に お勧めのポケモンと いわれるが 育つと 気性は 荒くなる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "おいつめる" },
 			cost: ["Fighting"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
 			},
 		},
 	],

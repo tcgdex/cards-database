@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Beldum",
-		fr: "Terhal",
+		'en-us': "Beldum",
+		'fr-fr': "Terhal",
 	},
 	illustrator: "Mizue",
 	rarity: "Shiny rare",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Core Beam",
-				fr: "Faisceau Central",
+				'en-us': "Core Beam",
+				'fr-fr': "Faisceau Central",
 			},
 			effect: {
-				en: "Discard a Metal Energy from this Pokémon.",
-				fr: "Défaussez une Énergie Metal de ce Pokémon.",
+				'en-us': "Discard a Metal Energy from this Pokémon.",
+				'fr-fr': "Défaussez une Énergie Metal de ce Pokémon.",
 			},
 			damage: 20,
 
@@ -57,7 +57,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its cells are all magnets. It uses magnetism to communicate with others of its kind.",
+		'en-us': "Its cells are all magnets. It uses magnetism to communicate with others of its kind.",
 	},
 }
 

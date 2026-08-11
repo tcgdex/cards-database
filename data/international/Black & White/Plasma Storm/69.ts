@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Elgyem",
-		fr: "Lewsor",
-		es: "Elgyem",
-		it: "Elgyem",
-		pt: "Elgyem",
-		de: "Pygraulon"
+		'en-us': "Elgyem",
+		'fr-fr': "Lewsor",
+		'es-es': "Elgyem",
+		'it-it': "Elgyem",
+		'pt-br': "Elgyem",
+		'de-de': "Pygraulon"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reflect",
-				fr: "Protection",
+				'en-us': "Reflect",
+				'fr-fr': "Protection",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'en-us': "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Punch",
-				fr: "Poing Écrasant",
+				'en-us': "Smash Punch",
+				'fr-fr': "Poing Écrasant",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 			},
 			damage: 30,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Rumors of its origin are linked to a UFO crash site in the desert 50 years ago.",
+		'en-us': "Rumors of its origin are linked to a UFO crash site in the desert 50 years ago.",
 	},
 
 	thirdParty: {

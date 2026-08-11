@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Flareon",
-		fr: "Pyroli",
-		es: "Flareon",
-		it: "Flareon",
-		pt: "Flareon",
-		de: "Flamara"
+		'en-us': "Flareon",
+		'fr-fr': "Pyroli",
+		'es-es': "Flareon",
+		'it-it': "Flareon",
+		'pt-br': "Flareon",
+		'de-de': "Flamara"
 	},
 
 	illustrator: "sui",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
-		es: "Eevee",
-		it: "Eevee",
-		pt: "Eevee",
-		de: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
+		'es-es': "Eevee",
+		'it-it': "Eevee",
+		'pt-br': "Eevee",
+		'de-de': "Evoli"
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Flare Effect",
-				fr: "Effet Flamboyant",
-				es: "Efecto Ígneo",
-				it: "Fuocoeffetto",
-				pt: "Efeito de Labareda",
-				de: "Feuer-Effekt"
+				'en-us': "Flare Effect",
+				'fr-fr': "Effet Flamboyant",
+				'es-es': "Efecto Ígneo",
+				'it-it': "Fuocoeffetto",
+				'pt-br': "Efeito de Labareda",
+				'de-de': "Feuer-Effekt"
 			},
 			effect: {
-				en: "Each of your Stage 1 Pokémon in play is now a Fire Pokémon in addition to its existing types.",
-				fr: "Chacun de vos Pokémon de Niveau 1 en jeu est maintenant un Pokémon Fire en plus de ses types existants.",
-				es: "Cada uno de tus Pokémon de Fase 1 en juego pasa a ser un Pokémon Fire además de sus tipos actuales.",
-				it: "Ciascuno dei tuoi Pokémon di Fase 1 in gioco diventa di tipo Fire in aggiunta ai suoi tipi originari.",
-				pt: "Cada um dos seus Pokémon Estágio 1 em jogo é agora um Pokémon Fire, além dos seus tipos existentes.",
-				de: "Jedes deiner Phase-1-Pokémon im Spiel ist jetzt zusätzlich zu seinen bereits vorhandenen Typen ein Fire-Pokémon."
+				'en-us': "Each of your Stage 1 Pokémon in play is now a Fire Pokémon in addition to its existing types.",
+				'fr-fr': "Chacun de vos Pokémon de Niveau 1 en jeu est maintenant un Pokémon Fire en plus de ses types existants.",
+				'es-es': "Cada uno de tus Pokémon de Fase 1 en juego pasa a ser un Pokémon Fire además de sus tipos actuales.",
+				'it-it': "Ciascuno dei tuoi Pokémon di Fase 1 in gioco diventa di tipo Fire in aggiunta ai suoi tipi originari.",
+				'pt-br': "Cada um dos seus Pokémon Estágio 1 em jogo é agora um Pokémon Fire, além dos seus tipos existentes.",
+				'de-de': "Jedes deiner Phase-1-Pokémon im Spiel ist jetzt zusätzlich zu seinen bereits vorhandenen Typen ein Fire-Pokémon."
 			},
 		},
 	],
@@ -67,20 +67,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Breath",
-				fr: "Souffle Ardent",
-				es: "Aliento Ardiente",
-				it: "Alitorovente",
-				pt: "Bafo de Calor",
-				de: "Heißer Atem"
+				'en-us': "Heat Breath",
+				'fr-fr': "Souffle Ardent",
+				'es-es': "Aliento Ardiente",
+				'it-it': "Alitorovente",
+				'pt-br': "Bafo de Calor",
+				'de-de': "Heißer Atem"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-				pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+				'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 20 de danos adicionais.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: "60+",
 
@@ -97,7 +97,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has a flame bag inside its body. After inhaling deeply, it blows out flames of nearly 3,000 degrees Fahrenheit.",
+		'en-us': "It has a flame bag inside its body. After inhaling deeply, it blows out flames of nearly 3,000 degrees Fahrenheit.",
 	},
 
 	thirdParty: {

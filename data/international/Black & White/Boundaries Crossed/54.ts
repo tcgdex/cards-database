@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Electivire",
-		fr: "Élekable",
-		es: "Electivire",
-		it: "Electivire",
-		pt: "Electivire",
-		de: "Elevoltek"
+		'en-us': "Electivire",
+		'fr-fr': "Élekable",
+		'es-es': "Electivire",
+		'it-it': "Electivire",
+		'pt-br': "Electivire",
+		'de-de': "Elevoltek"
 	},
 
 	illustrator: "BERUBURI",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Electabuzz",
-		fr: "Élektek",
+		'en-us': "Electabuzz",
+		'fr-fr': "Élektek",
 	},
 
 	stage: "Stage1",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electriwave",
-				fr: "Vague Électrique",
+				'en-us': "Electriwave",
+				'fr-fr': "Vague Électrique",
 			},
 			effect: {
-				en: "This attack does 30 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 30 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "This attack does 30 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 30 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shock Wave",
-				fr: "Onde de Choc",
+				'en-us': "Shock Wave",
+				'fr-fr': "Onde de Choc",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 80,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "The instant it presses the tips of its tails onto an opponent, it sends over 20,000 volts of electricity into the foe.",
+		'en-us': "The instant it presses the tips of its tails onto an opponent, it sends over 20,000 volts of electricity into the foe.",
 	},
 
 	thirdParty: {

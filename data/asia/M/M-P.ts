@@ -4,7 +4,7 @@ import serie from "../M";
 const set: Set = {
 	id: "M-P",
 	name: {
-		ja: "メガ プロモカード",
+		'ja-jp': "メガ プロモカード",
 	},
 
 	serie: serie,
@@ -13,7 +13,7 @@ const set: Set = {
 		official: 0,
 	},
 	releaseDate: {
-		ja: "2025-07-28",
+		'ja-jp': "2025-07-28",
 	},
 };
 

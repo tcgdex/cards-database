@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Doduo",
-		fr: "Doduo",
-		de: "Dodu",
-		it: "Doduo"
+		'en-us': "Doduo",
+		'fr-fr': "Doduo",
+		'de-de': "Dodu",
+		'it-it': "Doduo"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -32,16 +32,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Attack",
-				fr: "Furie",
-				de: "Furienschlag",
-				it: "Furia"
+				'en-us': "Fury Attack",
+				'fr-fr': "Furie",
+				'de-de': "Furienschlag",
+				'it-it': "Furia"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze \"Kopf\" zeigt, 10 Schadenspunkte zu.",
-				it: "Lancia 2 volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze \"Kopf\" zeigt, 10 Schadenspunkte zu.",
+				'it-it': "Lancia 2 volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa."
 			},
 			damage: "10x",
 
@@ -63,9 +63,9 @@ const card: Card = {
 	],
 
 	description: {
-		en: "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.",
-		fr: "Cet oiseau vole très mal mais court très vite. Il laisse de gigantesques empreintes de pas.",
-		it: "Uccello non molto abile nel volo, ma imbattibile nella corsa. Le sue orme giganteschene segnalano il passaggio. LIV 10 N.84"
+		'en-us': "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.",
+		'fr-fr': "Cet oiseau vole très mal mais court très vite. Il laisse de gigantesques empreintes de pas.",
+		'it-it': "Uccello non molto abile nel volo, ma imbattibile nella corsa. Le sue orme giganteschene segnalano il passaggio. LIV 10 N.84"
 	},
 
 	variants: [

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เด็นจิมูชิ",
-		id: "Charjabug"
+		'th-th': "เด็นจิมูชิ",
+		'id-id': "Charjabug"
 	},
 
 	illustrator: "Makura Tami",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		th: "เมื่อย่อยใบไม้ร่วงที่กินเข้าไป จะผลิตไฟฟ้าออกมาและกักเก็บไว้ มันสามารถปล่อยไฟฟ้าออกมาจากส่วนปลายของขากรรไกรได้",
-		id: "Ketika mencerna daun jatuh yang telah dimakan, Pokémon ini menghasilkan listrik dan menghimpunnya. Ia mengeluarkan listrik dari ujung rahangnya."
+		'th-th': "เมื่อย่อยใบไม้ร่วงที่กินเข้าไป จะผลิตไฟฟ้าออกมาและกักเก็บไว้ มันสามารถปล่อยไฟฟ้าออกมาจากส่วนปลายของขากรรไกรได้",
+		'id-id': "Ketika mencerna daun jatuh yang telah dimakan, Pokémon ini menghasilkan listrik dan menghimpunnya. Ia mengeluarkan listrik dari ujung rahangnya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "เรียงขนาน",
-			id: "Berbaris Paralel"
+			'th-th': "เรียงขนาน",
+			'id-id': "Berbaris Paralel"
 		},
 
 		effect: {
-			th: "เลือกการ์ด [เด็นจิมูชิ] ได้สูงสุด 3 ใบจากสำรับการ์ดฝ่ายเรา วางบนเบนช์ แล้วสับสำรับการ์ด",
-			id: "Pilih paling banyak 3 lembar Charjabug dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
+			'th-th': "เลือกการ์ด [เด็นจิมูชิ] ได้สูงสุด 3 ใบจากสำรับการ์ดฝ่ายเรา วางบนเบนช์ แล้วสับสำรับการ์ด",
+			'id-id': "Pilih paling banyak 3 lembar Charjabug dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
 		},
 
 		cost: ["Lightning"]

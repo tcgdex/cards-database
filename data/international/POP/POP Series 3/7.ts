@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 3'
 
 const card: Card = {
 	name: {
-		en: "Combusken",
-		fr: "Galifeu"
+		'en-us': "Combusken",
+		'fr-fr': "Galifeu"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe"
 			},
 
 			damage: 10,
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-flamme"
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-flamme"
 			},
 			effect: {
-				en: "Discard a Fire Energy attached to Combusken.",
-				fr: "Défaussez une Énergie  attachée à Galifeu."
+				'en-us': "Discard a Fire Energy attached to Combusken.",
+				'fr-fr': "Défaussez une Énergie  attachée à Galifeu."
 			},
 			damage: 50,
 

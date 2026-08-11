@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Volcanion",
-		fr: "Volcanion"
+		'en-us': "Volcanion",
+		'fr-fr': "Volcanion"
 	},
 
 	illustrator: "TOKIYA",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Concentrated Fire",
-				fr: "Feu Concentré"
+				'en-us': "Concentrated Fire",
+				'fr-fr': "Feu Concentré"
 			},
 			effect: {
-				en: "Flip a coin for each Fire Energy attached to this Pokémon. This attack does 50 damage times the number of heads.",
-				fr: "Lancez une pièce pour chaque Énergie  attachée à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face."
+				'en-us': "Flip a coin for each Fire Energy attached to this Pokémon. This attack does 50 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce pour chaque Énergie  attachée à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face."
 			},
 			damage: 50,
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Combustion Impact",
-				fr: "Impact de Combustion"
+				'en-us': "Combustion Impact",
+				'fr-fr': "Impact de Combustion"
 			},
 			effect: {
-				en: "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc."
+				'en-us': "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc."
 			},
 			damage: 100,
 
@@ -72,7 +72,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain.",
+		'en-us': "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain.",
 	},
 
 	thirdParty: {

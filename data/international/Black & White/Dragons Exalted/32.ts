@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Buizel",
-		fr: "Mustébouée",
-		es: "Buizel",
-		it: "Buizel",
-		pt: "Buizel",
-		de: "Bamelin"
+		'en-us': "Buizel",
+		'fr-fr': "Mustébouée",
+		'es-es': "Buizel",
+		'it-it': "Buizel",
+		'pt-br': "Buizel",
+		'de-de': "Bamelin"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse Vague",
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse Vague",
 			},
 
 			damage: 10,
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It spins its two tails like a screw to propel itself through the water. The tails also slice clinging seaweed.",
+		'en-us': "It spins its two tails like a screw to propel itself through the water. The tails also slice clinging seaweed.",
 	},
 
 	thirdParty: {

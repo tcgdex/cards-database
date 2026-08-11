@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ココドラ",
+		'ja-jp': "ココドラ",
 	},
 
 	illustrator: "TOKIYA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "普段は 山奥で 暮らしているが お腹が すくと ふもとに 現われ 線路や 車を 食べてしまう。",
+		'ja-jp': "普段は 山奥で 暮らしているが お腹が すくと ふもとに 現われ 線路や 車を 食べてしまう。",
 	},
 
 	stage: "Basic",

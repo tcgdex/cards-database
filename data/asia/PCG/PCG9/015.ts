@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミュースター（デルタ種）",
+		'ja-jp': "ミュースター（デルタ種）",
 	},
 
 	rarity: "Shiny rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "模倣",
+				'ja-jp': "模倣",
 			},
 			effect: {
-				ja: "プレイ中の対戦相手のポケモンの1人の攻撃を選択してください。模倣はその攻撃をコピーします。 Mew {{Star | This Pokemon}}がその攻撃を使用するのに必要なエネルギーがない場合、この攻撃は何もしません。 （その攻撃に必要な他のことをまだしなければなりません。）Mew {{Star | This Pokemon}）はその攻撃を実行します。",
+				'ja-jp': "プレイ中の対戦相手のポケモンの1人の攻撃を選択してください。模倣はその攻撃をコピーします。 Mew {{Star | This Pokemon}}がその攻撃を使用するのに必要なエネルギーがない場合、この攻撃は何もしません。 （その攻撃に必要な他のことをまだしなければなりません。）Mew {{Star | This Pokemon}）はその攻撃を実行します。",
 			},
 		},
 		{
 			cost: ["Water"],
 			name: {
-				ja: "虹の波",
+				'ja-jp': "虹の波",
 			},
 			effect: {
-				ja: "mew {{star | this pokemon}}に添付された1つの基本エネルギーカードを選択します。この攻撃は、あなたが選んだ基本エネルギーカードと同じタイプの相手のポケモンに20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "mew {{star | this pokemon}}に添付された1つの基本エネルギーカードを選択します。この攻撃は、あなたが選んだ基本エネルギーカードと同じタイプの相手のポケモンに20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG7"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オッディッシュ（デルタ種）",
+		'ja-jp': "オッディッシュ（デルタ種）",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "取り組む",
+				'ja-jp': "取り組む",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Water"],
 			name: {
-				ja: "ブロット",
+				'ja-jp': "ブロット",
 			},
 			effect: {
-				ja: "Oddishから2つのダメージカウンターを削除します。",
+				'ja-jp': "Oddishから2つのダメージカウンターを削除します。",
 			},
 			damage: 10,
 		},

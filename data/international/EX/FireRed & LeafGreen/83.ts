@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Squirtle",
-		fr: "Carapuce",
-		de: "Schiggy"
+		'en-us': "Squirtle",
+		'fr-fr': "Carapuce",
+		'de-de': "Schiggy"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bubble",
-				fr: "Écume",
-				de: "Bubble"
+				'en-us': "Bubble",
+				'fr-fr': "Écume",
+				'de-de': "Bubble"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Turn",
-				fr: "Tour fracassant",
-				de: "Smash Turn"
+				'en-us': "Smash Turn",
+				'fr-fr': "Tour fracassant",
+				'de-de': "Smash Turn"
 			},
 			effect: {
-				en: "After your attack, you may switch Squirtle with 1 of your Benched Pokémon.",
-				fr: "Après votre attaque, vous pouvez échanger Carapuce avec 1 des Pokémon de votre Banc.",
-				de: "After your attack, you may switch Squirtle with 1 of your Benched Pokémon."
+				'en-us': "After your attack, you may switch Squirtle with 1 of your Benched Pokémon.",
+				'fr-fr': "Après votre attaque, vous pouvez échanger Carapuce avec 1 des Pokémon de votre Banc.",
+				'de-de': "After your attack, you may switch Squirtle with 1 of your Benched Pokémon."
 			},
 			damage: 20,
 

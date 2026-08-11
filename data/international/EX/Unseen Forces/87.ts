@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Poké Ball",
-		fr: "Poké Ball",
-		de: "Poké Ball"
+		'en-us': "Poké Ball",
+		'fr-fr': "Poké Ball",
+		'de-de': "Poké Ball"
 	},
 
 	illustrator: "Shin-ichi Yoshikawa",
@@ -15,9 +15,9 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		en: "Flip a coin. If heads, search your deck for a Basic Pokémon or Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-		fr: "Lancez une pièce. Si c'est face, choisissez dans votre deck un Pokémon de base ou une carte Évolution, montrez-le (ou la) à votre adversaire et placez-le (ou la) dans votre main. Ensuite, mélangez votre deck.",
-		de: "Flip a coin. If heads, search your deck for a Basic Pokémon or Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+		'en-us': "Flip a coin. If heads, search your deck for a Basic Pokémon or Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+		'fr-fr': "Lancez une pièce. Si c'est face, choisissez dans votre deck un Pokémon de base ou une carte Évolution, montrez-le (ou la) à votre adversaire et placez-le (ou la) dans votre main. Ensuite, mélangez votre deck.",
+		'de-de': "Flip a coin. If heads, search your deck for a Basic Pokémon or Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
 	},
 
 

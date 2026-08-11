@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [680],
 
 	name: {
-		en: "Doublade",
-		fr: "Dimoclès",
-		es: "Doublade",
-		it: "Doublade",
-		pt: "Doublade",
-		de: "Duokles"
+		'en-us': "Doublade",
+		'fr-fr': "Dimoclès",
+		'es-es': "Doublade",
+		'it-it': "Doublade",
+		'pt-br': "Doublade",
+		'de-de': "Duokles"
 	},
 
 	illustrator: "Aya Kusube",
@@ -19,12 +19,12 @@ const card: Card = {
 	set: Set,
 
 	evolveFrom: {
-		en: "Honedge",
-		fr: "Monorpale",
-		es: "Honedge",
-		it: "Honedge",
-		pt: "Honedge",
-		de: "Gramokles"
+		'en-us': "Honedge",
+		'fr-fr': "Monorpale",
+		'es-es': "Honedge",
+		'it-it': "Honedge",
+		'pt-br': "Honedge",
+		'de-de': "Gramokles"
 	},
 
 	attacks: [
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				es: "Cuchillada",
-				it: "Lacerazione",
-				pt: "Talho",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'es-es': "Cuchillada",
+				'it-it': "Lacerazione",
+				'pt-br': "Talho",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 30,
@@ -52,20 +52,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Slash",
-				fr: "Double Lame",
-				es: "Cuchillada Doble",
-				it: "Doppia Lacerazione",
-				pt: "Talho Duplo",
-				de: "Doppelschlitzer"
+				'en-us': "Double Slash",
+				'fr-fr': "Double Lame",
+				'es-es': "Cuchillada Doble",
+				'it-it': "Doppia Lacerazione",
+				'pt-br': "Talho Duplo",
+				'de-de': "Doppelschlitzer"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 80 damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 80 dégâts pour chaque côté face.",
-				es: "Lanza 2 monedas. Este ataque hace 80 puntos de daño por cada cara.",
-				it: "Lancia due volte una moneta. Questo attacco infligge 80 danni ogni volta che esce testa.",
-				pt: "Jogue 2 moedas. Este ataque causa 80 pontos de dano para cada cara.",
-				de: "Wirf 2 Münzen. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu."
+				'en-us': "Flip 2 coins. This attack does 80 damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 80 dégâts pour chaque côté face.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 80 puntos de daño por cada cara.",
+				'it-it': "Lancia due volte una moneta. Questo attacco infligge 80 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 2 moedas. Este ataque causa 80 pontos de dano para cada cara.",
+				'de-de': "Wirf 2 Münzen. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu."
 			},
 			damage: "80×",
 
@@ -95,7 +95,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Honedge evolves into twins. The two blades rub together to emit a metallic sound that unnerves opponents."
+		'en-us': "Honedge evolves into twins. The two blades rub together to emit a metallic sound that unnerves opponents."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミカルゲ",
+		'ja-jp': "ミカルゲ",
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "５００年前に 悪さをしたため 要石の ひび割れに 体を つなぎとめられてしまった。",
+		'ja-jp': "５００年前に 悪さをしたため 要石の ひび割れに 体を つなぎとめられてしまった。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ソウルコンプレッサー" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にあるポケモンを4枚まで、トラッシュする。そして山札を切る。",
+				'ja-jp': "自分の山札にあるポケモンを4枚まで、トラッシュする。そして山札を切る。",
 			},
 		},
 		{

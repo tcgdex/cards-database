@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Corsola",
-		fr: "Corayon",
-		de: "Corasonn"
+		'en-us': "Corsola",
+		'fr-fr': "Corayon",
+		'de-de': "Corasonn"
 	},
 
 	illustrator: "TOKIYA",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Recover",
-				fr: "Soin",
-				de: "Genesung"
+				'en-us': "Recover",
+				'fr-fr': "Soin",
+				'de-de': "Genesung"
 			},
 			effect: {
-				en: "Discard a Water Energy attached to Corsola and remove all damage counters from Corsola.",
-				fr: "Défaussez une carte Énergie Water attachée à Corayon et retirez tous les marqueurs de dégâts sur Corayon.",
-				de: "Lege 1 an Corasonn angelegte -Energie auf deinen Ablagestapel und entferne alle Schadensmarken von Corasonn."
+				'en-us': "Discard a Water Energy attached to Corsola and remove all damage counters from Corsola.",
+				'fr-fr': "Défaussez une carte Énergie Water attachée à Corayon et retirez tous les marqueurs de dégâts sur Corayon.",
+				'de-de': "Lege 1 an Corasonn angelegte -Energie auf deinen Ablagestapel und entferne alle Schadensmarken von Corasonn."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Cannon",
-				fr: "Hyper canon",
-				de: "Hyperkanone"
+				'en-us': "Hyper Cannon",
+				'fr-fr': "Hyper canon",
+				'de-de': "Hyperkanone"
 			},
 			effect: {
-				en: "Flip 2 coins. If both of them are heads, this attack does 20 damage plus 50 more damage.",
-				fr: "Lancez 2 pièces. Si les deux pièces tombent sur face, cette attaque inflige 20 dégâts plus 50 dégâts supplémentaires.",
-				de: "Wirf 2 Münzen. Wenn beide \"Kopf\" zeigen, fügt dieser Angriff 20 Schadenspunkte plus 50 weitere Schadenspunkte zu."
+				'en-us': "Flip 2 coins. If both of them are heads, this attack does 20 damage plus 50 more damage.",
+				'fr-fr': "Lancez 2 pièces. Si les deux pièces tombent sur face, cette attaque inflige 20 dégâts plus 50 dégâts supplémentaires.",
+				'de-de': "Wirf 2 Münzen. Wenn beide \"Kopf\" zeigen, fügt dieser Angriff 20 Schadenspunkte plus 50 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It continuously sheds and grows. The tip of its head is prized as a treasure because of its beauty."
+		'en-us': "It continuously sheds and grows. The tip of its head is prized as a treasure because of its beauty."
 	},
 
 	variants: [

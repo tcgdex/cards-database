@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Garchomp-EX",
-		fr: "Carchacrok-EX"
+		'en-us': "Garchomp-EX",
+		'fr-fr': "Carchacrok-EX"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Promo",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Shred",
-				fr: "Déchiquetage"
+				'en-us': "Shred",
+				'fr-fr': "Déchiquetage"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire."
+				'en-us': "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire."
 			},
 			damage: 30,
 
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Beam",
-				fr: "Ultralaser"
+				'en-us': "Hyper Beam",
+				'fr-fr': "Ultralaser"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire."
+				'en-us': "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire."
 			},
 			damage: 100,
 

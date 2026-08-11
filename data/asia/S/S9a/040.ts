@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "古空棘魚",
-		ja: "ジーランス"
+		'ja-jp': "ジーランス"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "如岩石般堅硬的鱗片以及裝滿了油脂的鰾囊， 讓牠能承受深海的水壓。",
-		ja: "岩のように 硬い ウロコと 脂の 詰まった 浮袋で 深海の 水圧に 耐える。"
+		'ja-jp': "岩のように 硬い ウロコと 脂の 詰まった 浮袋で 深海の 水圧に 耐える。"
 	},
 
 	stage: "Basic",
@@ -24,19 +24,19 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "深潛",
-			ja: "ふかもぐり"
+			'ja-jp': "ふかもぐり"
 		},
 
 		effect: {
 			'zh-tw': "從自己的棄牌區選擇最多2張基本能量卡，在給對手看過後加入手牌。",
-			ja: "自分のトラッシュから基本エネルギーを2枚まで選び、相手に見せて、手札に加える。"
+			'ja-jp': "自分のトラッシュから基本エネルギーを2枚まで選び、相手に見せて、手札に加える。"
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
 			'zh-tw': "撞擊",
-			ja: "たいあたり"
+			'ja-jp': "たいあたり"
 		},
 
 		damage: 80,

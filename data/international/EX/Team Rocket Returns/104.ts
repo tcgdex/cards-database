@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Rocket's Snorlax ex",
-		de: "Rockets Relaxo ex"
+		'en-us': "Rocket's Snorlax ex",
+		'de-de': "Rockets Relaxo ex"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Dark Healer",
-				de: "Dark Healer"
+				'en-us': "Dark Healer",
+				'de-de': "Dark Healer"
 			},
 			effect: {
-				en: "As long as Rocket's Snorlax ex has any Darkness Energy attached to it, remove 1 damage counter from Rocket's Snorlax ex between turns.\"",
-				de: "As long as Rocket's Snorlax ex has any  Energy attached to it, remove 1 damage counter from Rocket's Snorlax ex between turns."
+				'en-us': "As long as Rocket's Snorlax ex has any Darkness Energy attached to it, remove 1 damage counter from Rocket's Snorlax ex between turns.\"",
+				'de-de': "As long as Rocket's Snorlax ex has any  Energy attached to it, remove 1 damage counter from Rocket's Snorlax ex between turns."
 			},
 		},
 	],
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Claws",
-				de: "Poison Claws"
+				'en-us': "Poison Claws",
+				'de-de': "Poison Claws"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
 			damage: 20,
 
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collapse",
-				de: "Collapse"
+				'en-us': "Collapse",
+				'de-de': "Collapse"
 			},
 			effect: {
-				en: "Rocket's Snorlax ex is now Asleep.",
-				de: "Rocket's Snorlax ex is now Asleep."
+				'en-us': "Rocket's Snorlax ex is now Asleep.",
+				'de-de': "Rocket's Snorlax ex is now Asleep."
 			},
 			damage: 60,
 

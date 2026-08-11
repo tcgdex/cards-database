@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プレシャスボール",
+		'ja-jp': "プレシャスボール",
 		'zh-tw': "洗翠 野蠻鱸魚",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札にある「ポケモンGX」を1枚、相手に見せてから、手札に加える。そして山札を切る。",
+		'ja-jp': "自分の山札にある「ポケモンGX」を1枚、相手に見せてから、手札に加える。そして山札を切る。",
 	},
 
 	variants: [

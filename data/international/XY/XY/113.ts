@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Fletchling",
-		fr: "Passerouge",
-		es: "Fletchling",
-		it: "Fletchling",
-		pt: "Fletchling",
-		de: "Dartiri"
+		'en-us': "Fletchling",
+		'fr-fr': "Passerouge",
+		'es-es': "Fletchling",
+		'it-it': "Fletchling",
+		'pt-br': "Fletchling",
+		'de-de': "Dartiri"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Me First",
-				fr: "Moi d'Abord",
-				es: "Yo Primero",
-				it: "Precedenza",
-				pt: "Primeiro Eu",
-				de: "Egotrip"
+				'en-us': "Me First",
+				'fr-fr': "Moi d'Abord",
+				'es-es': "Yo Primero",
+				'it-it': "Precedenza",
+				'pt-br': "Primeiro Eu",
+				'de-de': "Egotrip"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				es: "Roba 1 carta.",
-				it: "Pesca una carta.",
-				pt: "Compre um card.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'es-es': "Roba 1 carta.",
+				'it-it': "Pesca una carta.",
+				'pt-br': "Compre um card.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				es: "Picotazo",
-				it: "Beccata",
-				pt: "Bicada",
-				de: "Schnabel"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'es-es': "Picotazo",
+				'it-it': "Beccata",
+				'pt-br': "Bicada",
+				'de-de': "Schnabel"
 			},
 
 			damage: 20,
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "These friendly Pokémon send signals to one another with beautiful chirps and tail-feather movements.",
+		'en-us': "These friendly Pokémon send signals to one another with beautiful chirps and tail-feather movements.",
 	},
 
 	thirdParty: {

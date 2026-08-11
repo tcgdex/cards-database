@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Mew",
-		fr: "Mew",
-		es: "Mew",
-		it: "Mew",
-		pt: "Mew",
-		de: "Mew"
+		'en-us': "Mew",
+		'fr-fr': "Mew",
+		'es-es': "Mew",
+		'it-it': "Mew",
+		'pt-br': "Mew",
+		'de-de': "Mew"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Neutral Shield",
-				fr: "Bouclier Neutre",
-				es: "Escudo Neutral",
-				it: "Scudo Neutralizzante",
-				pt: "Escudo Neutro",
-				de: "Neutralisierendes Schild"
+				'en-us': "Neutral Shield",
+				'fr-fr': "Bouclier Neutre",
+				'es-es': "Escudo Neutral",
+				'it-it': "Scudo Neutralizzante",
+				'pt-br': "Escudo Neutro",
+				'de-de': "Neutralisierendes Schild"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, including damage, done to this Pokémon by your opponent's Evolution Pokémon.",
-				fr: "Évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon par les Pokémon Évolutifs de votre adversaire.",
-				es: "Evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon por los Pokémon Evolución de tu rival.",
-				it: "Previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon dai Pokémon Evoluzione del tuo avversario.",
-				pt: "Previne todos os efeitos de ataques, inclusive danos, causados a este Pokémon pelo Pokémon de Evolução do seu oponente.",
-				de: "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon durch Entwicklungs-Pokémon deines Gegners zugefügt werden."
+				'en-us': "Prevent all effects of attacks, including damage, done to this Pokémon by your opponent's Evolution Pokémon.",
+				'fr-fr': "Évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon par les Pokémon Évolutifs de votre adversaire.",
+				'es-es': "Evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon por los Pokémon Evolución de tu rival.",
+				'it-it': "Previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon dai Pokémon Evoluzione del tuo avversario.",
+				'pt-br': "Previne todos os efeitos de ataques, inclusive danos, causados a este Pokémon pelo Pokémon de Evolução do seu oponente.",
+				'de-de': "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon durch Entwicklungs-Pokémon deines Gegners zugefügt werden."
 			},
 		},
 	],
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psy Bolt",
-				fr: "Choc Mental",
-				es: "Rayo Psi",
-				it: "Psico",
-				pt: "Raio Psíquico",
-				de: "Konfusion"
+				'en-us': "Psy Bolt",
+				'fr-fr': "Choc Mental",
+				'es-es': "Rayo Psi",
+				'it-it': "Psico",
+				'pt-br': "Raio Psíquico",
+				'de-de': "Konfusion"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 30,
 
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.",
+		'en-us': "So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.",
 	},
 
 	thirdParty: {

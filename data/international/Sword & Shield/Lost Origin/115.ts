@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Honchkrow",
-		fr: "Corboss",
-		es: "Honchkrow",
-		it: "Honchkrow",
-		pt: "Honchkrow",
-		de: "Kramshef"
+		'en-us': "Honchkrow",
+		'fr-fr': "Corboss",
+		'es-es': "Honchkrow",
+		'it-it': "Honchkrow",
+		'pt-br': "Honchkrow",
+		'de-de': "Kramshef"
 	},
 
 	illustrator: "Shiburingaru",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Murkrow",
-		fr: "Cornèbre",
-		es: "Murkrow",
-		it: "Murkrow",
-		pt: "Murkrow",
-		de: "Kramurx"
+		'en-us': "Murkrow",
+		'fr-fr': "Cornèbre",
+		'es-es': "Murkrow",
+		'it-it': "Murkrow",
+		'pt-br': "Murkrow",
+		'de-de': "Kramurx"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Peck",
-			fr: "Picpic",
-			es: "Picotazo",
-			it: "Beccata",
-			pt: "Bicada",
-			de: "Pikser"
+			'en-us': "Peck",
+			'fr-fr': "Picpic",
+			'es-es': "Picotazo",
+			'it-it': "Beccata",
+			'pt-br': "Bicada",
+			'de-de': "Pikser"
 		},
 
 		damage: 20
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Night Cyclone",
-			fr: "Cyclone Nocturne",
-			es: "Ciclón Nocturno",
-			it: "Ciclone Notturno",
-			pt: "Ciclone Noturno",
-			de: "Nachtsturm"
+			'en-us': "Night Cyclone",
+			'fr-fr': "Cyclone Nocturne",
+			'es-es': "Ciclón Nocturno",
+			'it-it': "Ciclone Notturno",
+			'pt-br': "Ciclone Noturno",
+			'de-de': "Nachtsturm"
 		},
 
 		effect: {
-			en: "Move all Energy from this Pokémon to your Benched Pokémon in any way you like.",
-			fr: "Déplacez toute les Énergies de ce Pokémon vers vos Pokémon de Banc comme il vous plaît.",
-			es: "Mueve todas las Energías de este Pokémon a tus Pokémon en Banca de la manera que desees.",
-			it: "Sposta tutte le Energie da questo Pokémon a quelli nella tua panchina nel modo che preferisci.",
-			pt: "Mova todas as Energias deste Pokémon para os seus Pokémon no Banco como desejar.",
-			de: "Verschiebe alle Energien von diesem Pokémon beliebig auf die Pokémon auf deiner Bank."
+			'en-us': "Move all Energy from this Pokémon to your Benched Pokémon in any way you like.",
+			'fr-fr': "Déplacez toute les Énergies de ce Pokémon vers vos Pokémon de Banc comme il vous plaît.",
+			'es-es': "Mueve todas las Energías de este Pokémon a tus Pokémon en Banca de la manera que desees.",
+			'it-it': "Sposta tutte le Energie da questo Pokémon a quelli nella tua panchina nel modo che preferisci.",
+			'pt-br': "Mova todas as Energias deste Pokémon para os seus Pokémon no Banco como desejar.",
+			'de-de': "Verschiebe alle Energien von diesem Pokémon beliebig auf die Pokémon auf deiner Bank."
 		},
 
 		damage: 160

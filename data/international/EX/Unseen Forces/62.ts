@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Mareep",
-		fr: "Wattouat",
-		de: "Voltilamm"
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat",
+		'de-de': "Voltilamm"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,

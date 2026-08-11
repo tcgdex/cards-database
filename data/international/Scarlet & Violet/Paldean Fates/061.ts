@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scrafty",
-		fr: "Baggaïd",
-		es: "Scrafty",
-		it: "Scrafty",
-		pt: "Scrafty",
-		de: "Irokex"
+		'en-us': "Scrafty",
+		'fr-fr': "Baggaïd",
+		'es-es': "Scrafty",
+		'it-it': "Scrafty",
+		'pt-br': "Scrafty",
+		'de-de': "Irokex"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Scraggy",
-		fr: "Baggiguane",
-		es: "Scraggy",
-		it: "Scraggy",
-		pt: "Scraggy",
-		de: "Zurrokex"
+		'en-us': "Scraggy",
+		'fr-fr': "Baggiguane",
+		'es-es': "Scraggy",
+		'it-it': "Scraggy",
+		'pt-br': "Scraggy",
+		'de-de': "Zurrokex"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Lambaste",
-			fr: "Étrillage",
-			es: "Vapuleo",
-			it: "Strigliata",
-			pt: "Desancar",
-			de: "Zurechtweisen"
+			'en-us': "Lambaste",
+			'fr-fr': "Étrillage",
+			'es-es': "Vapuleo",
+			'it-it': "Strigliata",
+			'pt-br': "Desancar",
+			'de-de': "Zurechtweisen"
 		},
 
 		effect: {
-			en: "If the Defending Pokémon is a Basic Pokémon, it can't attack during your opponent's next turn.",
-			fr: "Si le Pokémon Défenseur est un Pokémon de base, il ne peut pas attaquer pendant le prochain tour de votre adversaire.",
-			es: "Si el Pokémon Defensor es un Pokémon Básico, no puede atacar durante el próximo turno de tu rival.",
-			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può attaccare se è un Pokémon Base.",
-			pt: "Se o Pokémon Defensor for um Pokémon Básico, ele não poderá atacar durante o próximo turno do seu oponente.",
-			de: "Wenn das Verteidigende Pokémon ein Basis-Pokémon ist, kann es während des nächsten Zuges deines Gegners nicht angreifen."
+			'en-us': "If the Defending Pokémon is a Basic Pokémon, it can't attack during your opponent's next turn.",
+			'fr-fr': "Si le Pokémon Défenseur est un Pokémon de base, il ne peut pas attaquer pendant le prochain tour de votre adversaire.",
+			'es-es': "Si el Pokémon Defensor es un Pokémon Básico, no puede atacar durante el próximo turno de tu rival.",
+			'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può attaccare se è un Pokémon Base.",
+			'pt-br': "Se o Pokémon Defensor for um Pokémon Básico, ele não poderá atacar durante o próximo turno do seu oponente.",
+			'de-de': "Wenn das Verteidigende Pokémon ein Basis-Pokémon ist, kann es während des nächsten Zuges deines Gegners nicht angreifen."
 		},
 
 		damage: 30
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Headbang",
-			fr: "Frappe de Tête",
-			es: "Cabecear",
-			it: "Scuotitesta",
-			pt: "Baque de Cabeça",
-			de: "Headbangen"
+			'en-us': "Headbang",
+			'fr-fr': "Frappe de Tête",
+			'es-es': "Cabecear",
+			'it-it': "Scuotitesta",
+			'pt-br': "Baque de Cabeça",
+			'de-de': "Headbangen"
 		},
 
 		damage: 130
@@ -96,7 +96,7 @@ const card: Card = {
 	illustrator: "Mousho",
 
 	description: {
-		en: "While mostly known for having the temperament of an aggressive ruffian, this Pokémon takes very good care of its family, friends, and territory.",
+		'en-us': "While mostly known for having the temperament of an aggressive ruffian, this Pokémon takes very good care of its family, friends, and territory.",
 	},
 
 }

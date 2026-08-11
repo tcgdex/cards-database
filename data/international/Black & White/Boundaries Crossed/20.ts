@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Charizard",
-		fr: "Dracaufeu",
-		es: "Charizard",
-		it: "Charizard",
-		pt: "Charizard",
-		de: "Glurak"
+		'en-us': "Charizard",
+		'fr-fr': "Dracaufeu",
+		'es-es': "Charizard",
+		'it-it': "Charizard",
+		'pt-br': "Charizard",
+		'de-de': "Glurak"
 	},
 
 	illustrator: "hatachu",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmeleon",
-		fr: "Reptincel",
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel",
 	},
 
 	stage: "Stage2",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Split Bomb",
-				fr: "Bombe Fendante",
+				'en-us': "Split Bomb",
+				'fr-fr': "Bombe Fendante",
 			},
 			effect: {
-				en: "This attack does 40 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 40 dégâts à 2 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "This attack does 40 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 40 dégâts à 2 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scorching Fire",
-				fr: "Feu Infernal",
+				'en-us': "Scorching Fire",
+				'fr-fr': "Feu Infernal",
 			},
 			effect: {
-				en: "Discard a Fire Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie Fire attachée à ce Pokémon.",
+				'en-us': "Discard a Fire Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie Fire attachée à ce Pokémon.",
 			},
 			damage: 150,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It is said that Charizard's fire burns hotter if it has experienced harsh battles.",
+		'en-us': "It is said that Charizard's fire burns hotter if it has experienced harsh battles.",
 	},
 
 	thirdParty: {

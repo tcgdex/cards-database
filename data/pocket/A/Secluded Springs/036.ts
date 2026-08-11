@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Latias",
-		fr: "Latias"
+		'en-us': "Latias",
+		'fr-fr': "Latias"
 	},
 
 	illustrator: "rika",
@@ -18,24 +18,24 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "It communicates using telepathy. Its body is\ncovered in down that refracts light to make\nit invisible.",
-		fr: "Il est doué d'empathie. Le duvet qui recouvre son corps réfléchit la lumière et le rend invisible."
+		'en-us': "It communicates using telepathy. Its body is\ncovered in down that refracts light to make\nit invisible.",
+		'fr-fr': "Il est doué d'empathie. Le duvet qui recouvre son corps réfléchit la lumière et le rend invisible."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Crossing Flights",
-			fr: "Vols Croisés"
+			'en-us': "Crossing Flights",
+			'fr-fr': "Vols Croisés"
 		},
 
 		damage: 20,
 		cost: ["Psychic"],
 
 		effect: {
-			en: "If Latios is on your Bench, this attack does 20 more damage.",
-			fr: "Si  est sur votre Banc, cette attaque inflige 20 dégâts supplémentaires."
+			'en-us': "If Latios is on your Bench, this attack does 20 more damage.",
+			'fr-fr': "Si  est sur votre Banc, cette attaque inflige 20 dégâts supplémentaires."
 		}
 	}],
 

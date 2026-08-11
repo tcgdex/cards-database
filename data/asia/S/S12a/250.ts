@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ボスの指令",
+		'ja-jp': "ボスの指令",
 		'zh-tw': "老大的指令（赤日）",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+		'ja-jp': "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
 		'zh-tw': "選擇1隻對手的備戰寶可夢，與戰鬥寶可夢互換。",
 	},
 

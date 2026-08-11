@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Mustéflott",
-		en: "Floatzel",
-		es: "Floatzel",
-		it: "Floatzel",
-		pt: "Floatzel",
-		de: "Bojelin"
+		'fr-fr': "Mustéflott",
+		'en-us': "Floatzel",
+		'es-es': "Floatzel",
+		'it-it': "Floatzel",
+		'pt-br': "Floatzel",
+		'de-de': "Bojelin"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -21,18 +21,18 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		fr: "Mustébouée",
-		en: "Buizel"
+		'fr-fr': "Mustébouée",
+		'en-us': "Buizel"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Surf",
-			en: "Surf",
-			es: "Surf",
-			it: "Surf",
-			pt: "Surfar",
-			de: "Surfer"
+			'fr-fr': "Surf",
+			'en-us': "Surf",
+			'es-es': "Surf",
+			'it-it': "Surf",
+			'pt-br': "Surfar",
+			'de-de': "Surfer"
 		},
 
 		damage: 50,
@@ -51,7 +51,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Its flotation sac developed as a result of pursuing aquatic prey. It can double as a rubber raft."
+		'en-us': "Its flotation sac developed as a result of pursuing aquatic prey. It can double as a rubber raft."
 	},
 
 	variants: [

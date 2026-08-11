@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Bill's Teleporter",
-		fr: "Téléporteur de Léo",
-		de: "Bills Teleporter"
+		'en-us': "Bill's Teleporter",
+		'fr-fr': "Téléporteur de Léo",
+		'de-de': "Bills Teleporter"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Flip a coin. If heads, draw 4 cards.",
-		fr: "Lancez une pièce. Si c'est face, piochez 4 cartes.",
-		de: "Flip a coin. If heads, draw 4 cards."
+		'en-us': "Flip a coin. If heads, draw 4 cards.",
+		'fr-fr': "Lancez une pièce. Si c'est face, piochez 4 cartes.",
+		'de-de': "Flip a coin. If heads, draw 4 cards."
 	},
 
 

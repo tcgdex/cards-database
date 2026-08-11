@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Zapdos-EX",
-		fr: "Électhor-EX",
-		es: "Zapdos-EX",
-		it: "Zapdos-EX",
-		pt: "Zapdos-EX",
-		de: "Zapdos-EX"
+		'en-us': "Zapdos-EX",
+		'fr-fr': "Électhor-EX",
+		'es-es': "Zapdos-EX",
+		'it-it': "Zapdos-EX",
+		'pt-br': "Zapdos-EX",
+		'de-de': "Zapdos-EX"
 	},
 	illustrator: "Eske Yoshinob",
 	rarity: "Rare",
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Agility",
-				fr: "Hâte",
+				'en-us': "Agility",
+				'fr-fr': "Hâte",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
+				'en-us': "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
 			},
 			damage: 30,
 
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Powervolt",
-				fr: "Méga Voltage",
+				'en-us': "Powervolt",
+				'fr-fr': "Méga Voltage",
 			},
 			effect: {
-				en: "If this Pokémon has any Plasma Energy attached to it, this attack does 40 more damage.",
-				fr: "Si de l'Énergie Plasma est attachée à ce Pokémon, cette attaque inflige 40 dégâts supplémentaires.",
+				'en-us': "If this Pokémon has any Plasma Energy attached to it, this attack does 40 more damage.",
+				'fr-fr': "Si de l'Énergie Plasma est attachée à ce Pokémon, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: 80,
 

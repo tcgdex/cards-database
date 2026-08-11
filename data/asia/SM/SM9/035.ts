@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラゴローニャ",
+		'ja-jp': "アローラゴローニャ",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "気難しくて 頑固。 機嫌を 損ねると 全身から 放電し 雷鳴の ような 声で ほえる。",
+		'ja-jp': "気難しくて 頑固。 機嫌を 損ねると 全身から 放電し 雷鳴の ような 声で ほえる。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20×",
 			cost: [],
 			effect: {
-				ja: "自分のベンチポケモンについている[雷]エネルギーを好きなだけ、このポケモンにつけ替え、その枚数x20ダメージ。",
+				'ja-jp': "自分のベンチポケモンについている[雷]エネルギーを好きなだけ、このポケモンにつけ替え、その枚数x20ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 190,
 			cost: ["Lightning", "Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、2個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、2個トラッシュする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アローラゴローン",
+		'ja-jp': "アローラゴローン",
 	},
 
 	retreat: 4,

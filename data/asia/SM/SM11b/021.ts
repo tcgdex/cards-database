@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドガース",
+		'ja-jp': "ドガース",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "薄い バルーン状の 体に 猛毒の ガスが つまっている。 近くに 来ると くさい。",
+		'ja-jp': "薄い バルーン状の 体に 猛毒の ガスが つまっている。 近くに 来ると くさい。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ぶっとびボム" },
 			effect: {
-				ja: "自分の番に、このカードが「ホミカ」の効果でトラッシュされたとき、1回使える。相手のポケモン全員に、それぞれダメカンを1個のせる。（ダメカンをのせるのは「ホミカ」の効果のあと。）",
+				'ja-jp': "自分の番に、このカードが「ホミカ」の効果でトラッシュされたとき、1回使える。相手のポケモン全員に、それぞれダメカンを1個のせる。（ダメカンをのせるのは「ホミカ」の効果のあと。）",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 			},
 		},
 	],

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Machop"
+		'en-us': "Machop"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -28,7 +28,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Punch"
+				'en-us': "Punch"
 			},
 
 			damage: 20,
@@ -41,7 +41,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Kick"
+				'en-us': "Kick"
 			},
 
 			damage: 30,
@@ -59,7 +59,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It's said that not even pro wrestlers can take down a Machop."
+		'en-us': "It's said that not even pro wrestlers can take down a Machop."
 	},
 
 	variants: [

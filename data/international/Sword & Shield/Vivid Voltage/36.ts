@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	name: {
-		en: "Galarian Darmanitan V",
-		fr: "Darumacho de Galar V",
-		es: "Darmanitan de Galar V",
-		it: "Darmanitan di Galar V",
-		pt: "Darmanitan de Galar V",
-		de: "Galar-Flampivian V"
+		'en-us': "Galarian Darmanitan V",
+		'fr-fr': "Darumacho de Galar V",
+		'es-es': "Darmanitan de Galar V",
+		'it-it': "Darmanitan di Galar V",
+		'pt-br': "Darmanitan de Galar V",
+		'de-de': "Galar-Flampivian V"
 	},
 
 	illustrator: "5ban Graphics",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Freezing Headbutt",
-				fr: "Coup d'Boule Gelant",
-				es: "Cabezazo Paralizante",
-				it: "Bottintesta Congelante",
-				pt: "Cabeçada Congelante",
-				de: "Frostige Kopfnuss"
+				'en-us': "Freezing Headbutt",
+				'fr-fr': "Coup d'Boule Gelant",
+				'es-es': "Cabezazo Paralizante",
+				'it-it': "Bottintesta Congelante",
+				'pt-br': "Cabeçada Congelante",
+				'de-de': "Frostige Kopfnuss"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
-				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 50,
 
@@ -54,20 +54,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Frozen Slice",
-				fr: "Tranche Gelée",
-				es: "Tajo Congelado",
-				it: "Tagliaghiaccio",
-				pt: "Corte Congelado",
-				de: "Frostschneide"
+				'en-us': "Frozen Slice",
+				'fr-fr': "Tranche Gelée",
+				'es-es': "Tajo Congelado",
+				'it-it': "Tagliaghiaccio",
+				'pt-br': "Corte Congelado",
+				'de-de': "Frostschneide"
 			},
 			effect: {
-				en: "This Pokémon also does 30 damage to itself.",
-				fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-				es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-				pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+				'en-us': "This Pokémon also does 30 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+				'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+				'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+				'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 			},
 			damage: 190,
 

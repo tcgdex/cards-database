@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slakoth",
-		fr: "Parecool",
-		es: "Slakoth",
-		it: "Slakoth",
-		pt: "Slakoth",
-		de: "Bummelz"
+		'en-us': "Slakoth",
+		'fr-fr': "Parecool",
+		'es-es': "Slakoth",
+		'it-it': "Slakoth",
+		'pt-br': "Slakoth",
+		'de-de': "Bummelz"
 	},
 
 	rarity: "Illustration rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Take It Easy",
-			fr: "Relax",
-			es: "Tranqui",
-			it: "Prenditela Comoda",
-			pt: "De Boaça",
-			de: "Eile mit Weile"
+			'en-us': "Take It Easy",
+			'fr-fr': "Relax",
+			'es-es': "Tranqui",
+			'it-it': "Prenditela Comoda",
+			'pt-br': "De Boaça",
+			'de-de': "Eile mit Weile"
 		},
 
 		effect: {
-			en: "Heal 60 damage from this Pokémon. During your next turn, this Pokémon can't retreat.",
-			fr: "Soignez 60 dégâts de ce Pokémon. Pendant votre prochain tour, ce Pokémon ne peut pas battre en retraite.",
-			es: "Cura 60 puntos de daño a este Pokémon. Durante tu próximo turno, este Pokémon no puede retirarse.",
-			it: "Cura questo Pokémon da 60 danni. Durante il tuo prossimo turno, questo Pokémon non può ritirarsi.",
-			pt: "Cure 60 pontos de dano deste Pokémon. Durante o seu próximo turno, este Pokémon não poderá recuar.",
-			de: "Heile 60 Schadenspunkte bei diesem Pokémon. Während deines nächsten Zuges kann sich dieses Pokémon nicht zurückziehen."
+			'en-us': "Heal 60 damage from this Pokémon. During your next turn, this Pokémon can't retreat.",
+			'fr-fr': "Soignez 60 dégâts de ce Pokémon. Pendant votre prochain tour, ce Pokémon ne peut pas battre en retraite.",
+			'es-es': "Cura 60 puntos de daño a este Pokémon. Durante tu próximo turno, este Pokémon no puede retirarse.",
+			'it-it': "Cura questo Pokémon da 60 danni. Durante il tuo prossimo turno, questo Pokémon non può ritirarsi.",
+			'pt-br': "Cure 60 pontos de dano deste Pokémon. Durante o seu próximo turno, este Pokémon não poderá recuar.",
+			'de-de': "Heile 60 Schadenspunkte bei diesem Pokémon. Während deines nächsten Zuges kann sich dieses Pokémon nicht zurückziehen."
 		}
 	}],
 

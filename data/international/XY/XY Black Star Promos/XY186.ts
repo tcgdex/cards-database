@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Magearna",
-		fr: "Magearna"
+		'en-us': "Magearna",
+		'fr-fr': "Magearna"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Entertain",
-				fr: "Distraction"
+				'en-us': "Entertain",
+				'fr-fr': "Distraction"
 			},
 			effect: {
-				en: "Heal 40 damage from 1 of your Benched Pokémon.",
-				fr: "Soignez 40 dégâts à l'un de vos Pokémon de Banc."
+				'en-us': "Heal 40 damage from 1 of your Benched Pokémon.",
+				'fr-fr': "Soignez 40 dégâts à l'un de vos Pokémon de Banc."
 			},
 
 		},
@@ -44,12 +44,12 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Prismatic Wave",
-				fr: "Onde Irisée"
+				'en-us': "Prismatic Wave",
+				'fr-fr': "Onde Irisée"
 			},
 			effect: {
-				en: "This attack does 20 damage times the number of different types of Pokémon on your opponent's Bench.",
-				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre de types de Pokémon différents sur le Banc de votre adversaire."
+				'en-us': "This attack does 20 damage times the number of different types of Pokémon on your opponent's Bench.",
+				'fr-fr': "Cette attaque inflige 20 dégâts multipliés par le nombre de types de Pokémon différents sur le Banc de votre adversaire."
 			},
 			damage: 20,
 
@@ -73,7 +73,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Magearna, with its metallic body, is an artificial Pokémon created 500 years ago by humans.",
+		'en-us': "Magearna, with its metallic body, is an artificial Pokémon created 500 years ago by humans.",
 	},
 
 	thirdParty: {

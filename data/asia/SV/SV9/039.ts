@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "メタグロス",
+		'ja-jp': "メタグロス",
 		'zh-tw': "巨金怪",
 		'zh-cn': "巨金怪"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "４本脚を 折りたたんで 飛ぶ。 ４つの 脳は スーパーコンピュータ よりも 優れていると いわれる。",
+		'ja-jp': "４本脚を 折りたたんで 飛ぶ。 ４つの 脳は スーパーコンピュータ よりも 優れていると いわれる。",
 		'zh-tw': "會收起４隻腳飛行。 據說４個大腦比 超級電腦更優秀。",
 		'zh-cn': "會收起４隻腳飛行。 據說４個大腦比 超級電腦更優秀。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "たたきつぶす",
+			'ja-jp': "たたきつぶす",
 			'zh-tw': "砸碎",
 			'zh-cn': "砸碎"
 		},
@@ -39,7 +39,7 @@ const card: Card = {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			ja: "ジョイントビーム",
+			'ja-jp': "ジョイントビーム",
 			'zh-tw': "結合光束",
 			'zh-cn': "結合光束"
 		},
@@ -47,7 +47,7 @@ const card: Card = {
 		damage: "130+",
 
 		effect: {
-			ja: "自分のベンチに「ダンバル」「メタング」がいるなら、150ダメージ追加。",
+			'ja-jp': "自分のベンチに「ダンバル」「メタング」がいるなら、150ダメージ追加。",
 			'zh-tw': "若自己的備戰區有「鐵啞鈴」「金屬怪」，則增加150點傷害。",
 			'zh-cn': "若自己的備戰區有「鐵啞鈴」「金屬怪」，則增加150點傷害。"
 		}

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 1'
 
 const card: Card = {
 	name: {
-		en: "Metagross",
-		fr: "Metalosse"
+		'en-us': "Metagross",
+		'fr-fr': "Metalosse"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Metang",
-		fr: "Métang"
+		'en-us': "Metang",
+		'fr-fr': "Métang"
 	},
 
 	stage: "Stage2",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Claw",
-				fr: "Griffe acier"
+				'en-us': "Metal Claw",
+				'fr-fr': "Griffe acier"
 			},
 
 			damage: 30,
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Beam",
-				fr: "Ultralaser"
+				'en-us': "Hyper Beam",
+				'fr-fr': "Ultralaser"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard 1 Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez 1 Énergie attachée au Pokémon Défenseur."
+				'en-us': "Flip a coin. If heads, discard 1 Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez 1 Énergie attachée au Pokémon Défenseur."
 			},
 			damage: 50,
 

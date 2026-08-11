@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Hoopa",
-		fr: "Hoopa",
+		'en-us': "Hoopa",
+		'fr-fr': "Hoopa",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Summoning Draw",
-				fr: "Pioche Invocatoire",
+				'en-us': "Summoning Draw",
+				'fr-fr': "Pioche Invocatoire",
 			},
 			effect: {
-				en: "If Pikachu is on your Bench, draw 3 cards.",
-				fr: "Si Pikachu est sur votre Banc, piochez 3 cartes.",
+				'en-us': "If Pikachu is on your Bench, draw 3 cards.",
+				'fr-fr': "Si Pikachu est sur votre Banc, piochez 3 cartes.",
 			},
 
 		},
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Spin",
-				fr: "Double Tour"
+				'en-us': "Double Spin",
+				'fr-fr': "Double Tour"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
 			},
 			damage: "30×",
 
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It gathers things it likes and pushes them through its loop to teleport them to a secret place.",
+		'en-us': "It gathers things it likes and pushes them through its loop to teleport them to a secret place.",
 	},
 
 	thirdParty: {

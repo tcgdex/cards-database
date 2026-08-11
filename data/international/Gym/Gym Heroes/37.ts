@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Magmar"
+		'en-us': "Blaine's Magmar"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magby"
+		'en-us': "Magby"
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Firebreathing"
+				'en-us': "Firebreathing"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage."
 			},
 			damage: "10+",
 
@@ -46,10 +46,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Lava Burst"
+				'en-us': "Lava Burst"
 			},
 			effect: {
-				en: "Discard the top 5 cards of your deck. (If there are fewer than 5 cards in your deck, discard all of them.) This attack does 20 damage for each Fire Energy card you discarded in this way."
+				'en-us': "Discard the top 5 cards of your deck. (If there are fewer than 5 cards in your deck, discard all of them.) This attack does 20 damage for each Fire Energy card you discarded in this way."
 			},
 
 		},

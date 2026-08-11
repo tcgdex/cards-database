@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "คามิชชู",
-		id: "Dipplin"
+		'th-th': "คามิชชู",
+		'id-id': "Dipplin"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		th: "เป็นร่างที่วิวัฒนาการด้วยแอปเปิลพิเศษที่ปลูกในพื้นที่แห่งหนึ่งเท่านั้น เป็นโปเกมอน 2 ตัวที่รวมกันเป็น 1 ตัว",
-		id: "Pokémon yang berevolusi dari apel khusus yang hanya dibudidayakan di daerah tertentu. Duo ini adalah satu Pokémon."
+		'th-th': "เป็นร่างที่วิวัฒนาการด้วยแอปเปิลพิเศษที่ปลูกในพื้นที่แห่งหนึ่งเท่านั้น เป็นโปเกมอน 2 ตัวที่รวมกันเป็น 1 ตัว",
+		'id-id': "Pokémon yang berevolusi dari apel khusus yang hanya dibudidayakan di daerah tertentu. Duo ini adalah satu Pokémon."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "เอนเนอร์จี้ลูป",
-			id: "Energy Loop"
+			'th-th': "เอนเนอร์จี้ลูป",
+			'id-id': "Energy Loop"
 		},
 
 		effect: {
-			th: "‌เลือกพลังงานที่ติดอยู่กับโปเกมอนนี้ 1 ลูก นำกลับขึ้นมือ",
-			id: "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu kembalikan ke Kartu Pegangan."
+			'th-th': "‌เลือกพลังงานที่ติดอยู่กับโปเกมอนนี้ 1 ลูก นำกลับขึ้นมือ",
+			'id-id': "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu kembalikan ke Kartu Pegangan."
 		},
 
 		damage: 50,

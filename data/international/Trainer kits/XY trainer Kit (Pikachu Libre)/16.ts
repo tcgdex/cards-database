@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY trainer Kit (Pikachu Libre)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Fletchling",
-		fr: "Passerouge",
-		es: "Fletchling",
-		it: "Fletchling",
-		pt: "Fletchling",
-		de: "Dartiri"
+		'en-us': "Fletchling",
+		'fr-fr': "Passerouge",
+		'es-es': "Fletchling",
+		'it-it': "Fletchling",
+		'pt-br': "Fletchling",
+		'de-de': "Dartiri"
 	},
 
 	rarity: "None",
@@ -23,20 +23,20 @@ const card: Card = {
 	illustrator: "Kanako Eo",
 
 	description: {
-		en: "Despite the beauty of its lilting voice, it’s merciless to intruders that enter its territory."
+		'en-us': "Despite the beauty of its lilting voice, it’s merciless to intruders that enter its territory."
 	},
 
 	attacks: [{
 		name: {
-			en: "Acrobatics",
-			fr: "Acrobatie"
+			'en-us': "Acrobatics",
+			'fr-fr': "Acrobatie"
 		},
 
 		damage: "10+",
 
 		effect: {
-			en: "Flip 2 coins. This attack does 10 more damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts supplémentaires pour chaque côté face."
+			'en-us': "Flip 2 coins. This attack does 10 more damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts supplémentaires pour chaque côté face."
 		}
 	}],
 

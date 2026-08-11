@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Psyduck",
-		fr: "Psykokwak",
-		de: "Enton"
+		'en-us': "Psyduck",
+		'fr-fr': "Psykokwak",
+		'de-de': "Enton"
 	},
 
 	illustrator: "Yuka Morii",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Flipper Splash",
-				fr: "Koud'palme",
-				de: "Flipper Splash"
+				'en-us': "Flipper Splash",
+				'fr-fr': "Koud'palme",
+				'de-de': "Flipper Splash"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Migraine",
-				fr: "Maud'krâne",
-				de: "Migraine"
+				'en-us': "Migraine",
+				'fr-fr': "Maud'krâne",
+				'de-de': "Migraine"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, Psyduck is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus. Si c'est pile, Psykokwak est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, Psyduck is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, Psyduck is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus. Si c'est pile, Psykokwak est maintenant Confus.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, Psyduck is now Confused."
 			},
 			damage: 20,
 
@@ -69,8 +69,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Although possessed of great mental powers, it doesn't know how to use them.",
-		fr: "Bien que possédant d'immenses pouvoirs mentaux, il ne sait pas les utiliser."
+		'en-us': "Although possessed of great mental powers, it doesn't know how to use them.",
+		'fr-fr': "Bien que possédant d'immenses pouvoirs mentaux, il ne sait pas les utiliser."
 	},
 
 

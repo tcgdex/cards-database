@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Gloom",
-		fr: "Ortide",
-		de: "Duflor"
+		'en-us': "Gloom",
+		'fr-fr': "Ortide",
+		'de-de': "Duflor"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Oddish",
-		fr: "Mystherbe"
+		'en-us': "Oddish",
+		'fr-fr': "Mystherbe"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poisonpowder",
-				fr: "Poudre Toxik",
-				de: "Poisonpowder"
+				'en-us': "Poisonpowder",
+				'fr-fr': "Poudre Toxik",
+				'de-de': "Poisonpowder"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "The Defending Pokémon is now Poisoned."
 			},
 			damage: 20,
 

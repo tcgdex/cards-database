@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団のフリーザー",
+		'ja-jp': "ロケット団のフリーザー",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "氷を 自在に 操る 力を もつ。 永久凍土の 雪山に 棲んでいるという。",
+		'ja-jp': "氷を 自在に 操る 力を もつ。 永久凍土の 雪山に 棲んでいるという。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "レジストヴェール" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分の場のたねポケモンの「ロケット団のポケモン」全員は、相手のポケモンが使うワザの効果を受けない。（すでに受けている効果は、なくならない。）",
+				'ja-jp': "このポケモンがいるかぎり、自分の場のたねポケモンの「ロケット団のポケモン」全員は、相手のポケモンが使うワザの効果を受けない。（すでに受けている効果は、なくならない。）",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンに「ロケット団エネルギー」がついているなら、60ダメージ追加。",
+				'ja-jp': "このポケモンに「ロケット団エネルギー」がついているなら、60ダメージ追加。",
 			},
 		},
 	],

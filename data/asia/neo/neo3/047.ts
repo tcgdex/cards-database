@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "aipom",
+		'ja-jp': "aipom",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "掴む",
+				'ja-jp': "掴む",
 			},
 			effect: {
-				ja: "対戦相手のポケモンの1つに添付されたトレーナーカードを選択します。あなたの対戦相手はそのカードを彼または彼女のデッキにシャッフルします。",
+				'ja-jp': "対戦相手のポケモンの1つに添付されたトレーナーカードを選択します。あなたの対戦相手はそのカードを彼または彼女のデッキにシャッフルします。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "テールパンチ",
+				'ja-jp': "テールパンチ",
 			},
 			damage: 20,
 		},

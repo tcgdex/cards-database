@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポチエナ",
+		'ja-jp': "ポチエナ",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "しつこい 性格の ポケモン。 目をつけた 獲物が ヘトヘトに 疲れるまで 追いかけ回す。",
+		'ja-jp': "しつこい 性格の ポケモン。 目をつけた 獲物が ヘトヘトに 疲れるまで 追いかけ回す。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、20ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、20ダメージ追加。",
 			},
 		},
 	],

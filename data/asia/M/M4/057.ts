@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダンバル",
+		'ja-jp': "ダンバル",
 	},
 
 	illustrator: "toi8",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "磁力の 波長で 仲間と 交信。 群れになった ダンバルは 一糸乱れぬ 動きを する。",
+		'ja-jp': "磁力の 波長で 仲間と 交信。 群れになった ダンバルは 一糸乱れぬ 動きを する。",
 	},
 
 	stage: "Basic",

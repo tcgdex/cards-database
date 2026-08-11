@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Stunky",
-		fr: "Moufouette",
-		de: "Skunkapuh"
+		'en-us': "Stunky",
+		'fr-fr': "Moufouette",
+		'de-de': "Skunkapuh"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Poison Gas",
-				fr: "Gaz toxik",
-				de: "Giftwolke"
+				'en-us': "Poison Gas",
+				'fr-fr': "Gaz toxik",
+				'de-de': "Giftwolke"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 20,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It sprays a nose-curling, stinky fluid from its rear to repel attackers.",
+		'en-us': "It sprays a nose-curling, stinky fluid from its rear to repel attackers.",
 	},
 
 	thirdParty: {

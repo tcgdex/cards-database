@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Tynamo",
-		fr: "Anchwatt",
-		es: "Tynamo",
-		it: "Tynamo",
-		pt: "Tynamo",
-		de: "Zapplardin"
+		'en-us': "Tynamo",
+		'fr-fr': "Anchwatt",
+		'es-es': "Tynamo",
+		'it-it': "Tynamo",
+		'pt-br': "Tynamo",
+		'de-de': "Zapplardin"
 	},
 
 	illustrator: "Midori Harada",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Charge Beam",
-				fr: "Rayon Chargé"
+				'en-us': "Charge Beam",
+				'fr-fr': "Rayon Chargé"
 			},
 			effect: {
-				en: "Flip a coin. If heads, attach an Energy card from your discard pile to this Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, attachez une carte Énergie de votre pile de défausse à ce Pokémon."
+				'en-us': "Flip a coin. If heads, attach an Energy card from your discard pile to this Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, attachez une carte Énergie de votre pile de défausse à ce Pokémon."
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "These Pokémon move in schools. They have an electricity-generating organ, so they discharge electricity if in danger.",
+		'en-us': "These Pokémon move in schools. They have an electricity-generating organ, so they discharge electricity if in danger.",
 	},
 
 	thirdParty: {

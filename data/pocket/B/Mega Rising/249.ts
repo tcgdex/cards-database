@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Stoutland"
+		'en-us': "Stoutland"
 	},
 
 	illustrator: "Whisker",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Herdier"
+		'en-us': "Herdier"
 	},
 
 	description: {
-		en: "Stoutland is immensely proud of its impressive\nmoustache. It's said that moustache length is what\ndetermines social standing among this species."
+		'en-us': "Stoutland is immensely proud of its impressive\nmoustache. It's said that moustache length is what\ndetermines social standing among this species."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Dangerous Bite"
+			'en-us': "Dangerous Bite"
 		},
 
 		damage: 70,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a Basic Pokémon, this attack does 70 more damage."
+			'en-us': "If your opponent's Active Pokémon is a Basic Pokémon, this attack does 70 more damage."
 		}
 	}],
 

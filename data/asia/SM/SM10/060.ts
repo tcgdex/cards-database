@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワルビル",
+		'ja-jp': "ワルビル",
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "体が 冷えるのが とても 苦手。 気温が 下がる 晩には 砂漠の 砂の 奥深くに 潜っている。",
+		'ja-jp': "体が 冷えるのが とても 苦手。 気温が 下がる 晩には 砂漠の 砂の 奥深くに 潜っている。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "メグロコ",
+		'ja-jp': "メグロコ",
 	},
 
 	retreat: 2,

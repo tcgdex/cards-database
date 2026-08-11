@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ゾウドウ",
+		'ja-jp': "ゾウドウ",
 		'zh-tw': "銅象",
-		th: "โซโด",
-		id: "Cufant"
+		'th-th': "โซโด",
+		'id-id': "Cufant"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "尖った 鼻先で 硬い 岩を 削り取って 食べる。 温厚で 人の 力仕事を 手伝う。",
+		'ja-jp': "尖った 鼻先で 硬い 岩を 削り取って 食べる。 温厚で 人の 力仕事を 手伝う。",
 		'zh-tw': "尖尖的鼻尖能削斷堅硬的岩石來作為糧食。性情溫馴， 會幫助人類做粗重的工作。",
-		th: "ใช้ปลายจมูกที่แหลมคมในการขูดก้อนหินแข็ง ๆ แล้วนำมากิน มีนิสัยอ่อนโยนมักช่วยมนุษย์ทำงานที่ใช้แรง",
-		id: "Cufant menggunakan ujung hidung lancipnya untuk mengikis batu dan memakannya. Sifatnya lemah lembut dan membantu pekerjaan berat manusia."
+		'th-th': "ใช้ปลายจมูกที่แหลมคมในการขูดก้อนหินแข็ง ๆ แล้วนำมากิน มีนิสัยอ่อนโยนมักช่วยมนุษย์ทำงานที่ใช้แรง",
+		'id-id': "Cufant menggunakan ujung hidung lancipnya untuk mengikis batu dan memakannya. Sifatnya lemah lembut dan membantu pekerjaan berat manusia."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			ja: "ふむ",
+			'ja-jp': "ふむ",
 			'zh-tw': "踩",
-			th: "เหยียบ",
-			id: "Menginjak"
+			'th-th': "เหยียบ",
+			'id-id': "Menginjak"
 		},
 
 		damage: 50

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chewtle"
+		'en-us': "Chewtle"
 	},
 
 	illustrator: "Nurikabe",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "A popular game among children is to lift up sticks\nthat Chewtle have bitten onto to see whose\nChewtle can hang on the longest."
+		'en-us': "A popular game among children is to lift up sticks\nthat Chewtle have bitten onto to see whose\nChewtle can hang on the longest."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Wave Splash"
+			'en-us': "Wave Splash"
 		},
 
 		damage: 40,

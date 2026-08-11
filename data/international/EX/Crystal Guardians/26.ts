@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Pelipper δ",
-		fr: "Bekipan δ",
-		de: "Pelipper"
+		'en-us': "Pelipper δ",
+		'fr-fr': "Bekipan δ",
+		'de-de': "Pelipper"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wingull",
-		fr: "Goélise"
+		'en-us': "Wingull",
+		'fr-fr': "Goélise"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Delta Transport",
-				fr: "Transport Delta",
-				de: "Delta-Transport"
+				'en-us': "Delta Transport",
+				'fr-fr': "Transport Delta",
+				'de-de': "Delta-Transport"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Pelipper is on your Bench, you may switch 1 of your Active Pokémon that has δ on its card with 1 of your Benched Pokémon.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), si Bekipan se trouve sur votre Banc, vous pouvez échanger 1 de vos Pokémon Actifs possédant le symbole δ avec 1 des Pokémon de votre Banc.",
-				de: "Ein Mal während deines Zuges (vor deinem Angriff), wenn Pelipper auf deiner Bank liegt, kannst du 1 deiner Aktiven Pokémon, auf dem δ zu sehen ist, gegen 1 Pokémon auf deiner Bank austauschen."
+				'en-us': "Once during your turn (before your attack), if Pelipper is on your Bench, you may switch 1 of your Active Pokémon that has δ on its card with 1 of your Benched Pokémon.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), si Bekipan se trouve sur votre Banc, vous pouvez échanger 1 de vos Pokémon Actifs possédant le symbole δ avec 1 des Pokémon de votre Banc.",
+				'de-de': "Ein Mal während deines Zuges (vor deinem Angriff), wenn Pelipper auf deiner Bank liegt, kannst du 1 deiner Aktiven Pokémon, auf dem δ zu sehen ist, gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Supersonic",
-				fr: "Ultrason",
-				de: "Superschall"
+				'en-us': "Supersonic",
+				'fr-fr': "Ultrason",
+				'de-de': "Superschall"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
-				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -72,9 +72,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-aile",
-				de: "Flügelschlag"
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-aile",
+				'de-de': "Flügelschlag"
 			},
 
 			damage: 40,

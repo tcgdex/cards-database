@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Carabaffe",
-		en: "Wartortle",
-		es: "Wartortle",
-		it: "Wartortle",
-		pt: "Wartortle",
-		de: "Schillok"
+		'fr-fr': "Carabaffe",
+		'en-us': "Wartortle",
+		'es-es': "Wartortle",
+		'it-it': "Wartortle",
+		'pt-br': "Wartortle",
+		'de-de': "Schillok"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Water"],
 	evolveFrom: {
-		fr: "Carapuce",
-		en: "Squirtle",
-		es: "Squirtle",
-		it: "Squirtle",
-		pt: "Squirtle",
-		de: "Schiggy"
+		'fr-fr': "Carapuce",
+		'en-us': "Squirtle",
+		'es-es': "Squirtle",
+		'it-it': "Squirtle",
+		'pt-br': "Squirtle",
+		'de-de': "Schiggy"
 	},
 	stage: "Stage1",
 
@@ -32,32 +32,32 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			fr: "Plongée en Apnée",
-			en: "Free Diving",
-			es: "Buceo Libre",
-			it: "Tuffo Libero",
-			pt: "Mergulho Livre",
-			de: "Freitauchen"
+			'fr-fr': "Plongée en Apnée",
+			'en-us': "Free Diving",
+			'es-es': "Buceo Libre",
+			'it-it': "Tuffo Libero",
+			'pt-br': "Mergulho Livre",
+			'de-de': "Freitauchen"
 		},
 
 		effect: {
-			fr: "Ajoutez jusqu'à 3 cartes Énergie {W} de base de votre pile de défausse à votre main.",
-			en: "Put up to 3 Basic {W} Energy cards from your discard pile into your hand.",
-			es: "Pon hasta 3 cartas de Energía {W} Básica de tu pila de descartes en tu mano.",
-			it: "Prendi fino a tre carte Energia base {W} dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
-			pt: "Coloque até 3 cartas de Energia {W} Básica da sua pilha de descarte na sua mão.",
-			de: "Nimm bis zu 3 Basis-{W}-Energiekarten aus deinem Ablagestapel auf deine Hand."
+			'fr-fr': "Ajoutez jusqu'à 3 cartes Énergie {W} de base de votre pile de défausse à votre main.",
+			'en-us': "Put up to 3 Basic {W} Energy cards from your discard pile into your hand.",
+			'es-es': "Pon hasta 3 cartas de Energía {W} Básica de tu pila de descartes en tu mano.",
+			'it-it': "Prendi fino a tre carte Energia base {W} dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
+			'pt-br': "Coloque até 3 cartas de Energia {W} Básica da sua pilha de descarte na sua mão.",
+			'de-de': "Nimm bis zu 3 Basis-{W}-Energiekarten aus deinem Ablagestapel auf deine Hand."
 		}
 	}, {
 		cost: ["Water", "Water"],
 
 		name: {
-			fr: "Attaque Tournante",
-			en: "Spinning Attack",
-			es: "Ataque Giratorio",
-			it: "Attacco Rotante",
-			pt: "Ataque Giratório",
-			de: "Rundumangriff"
+			'fr-fr': "Attaque Tournante",
+			'en-us': "Spinning Attack",
+			'es-es': "Ataque Giratorio",
+			'it-it': "Attacco Rotante",
+			'pt-br': "Ataque Giratório",
+			'de-de': "Rundumangriff"
 		},
 
 		damage: 50
@@ -73,7 +73,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It cleverly controls its furry ears and tail to maintain its balance while swimming.",
+		'en-us': "It cleverly controls its furry ears and tail to maintain its balance while swimming.",
 	},
 
 	variants: [

@@ -1,15 +1,15 @@
-import { Serie } from 'models/serie'
+import { Serie } from 'models/database/serie'
 
 const serie: Serie = {
 	id: "sv",
 	name: {
-		de: "Karmesin & Purpur",
-		en: "Scarlet & Violet",
-		es: "Escarlata y Púrpura",
+		'de-de': "Karmesin & Purpur",
+		'en-us': "Scarlet & Violet",
+		'es-es': "Escarlata y Púrpura",
 		"es-mx": "Escarlata y Púrpura",
-		fr: "Écarlate et Violet",
-		it: "Scarlatto e Violetto",
-		pt: "Escarlate e Violeta"
+		'fr-fr': "Écarlate et Violet",
+		'it-it': "Scarlatto e Violetto",
+		'pt-br': "Escarlate e Violeta"
 	},
 
 	energies: [

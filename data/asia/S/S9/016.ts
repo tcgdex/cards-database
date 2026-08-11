@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "鴨嘴火獸",
-		ja: "ブーバー"
+		'ja-jp': "ブーバー"
 	},
 
 	illustrator: "Shinji Kanda",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "會用火焰解決獵物。但是一不留神就會把獵物 燒得太焦，然後才後悔。",
-		ja: "炎で 獲物を しとめる。 ついつい 焼きすぎて 黒コゲに してしまい 後悔する。"
+		'ja-jp': "炎で 獲物を しとめる。 ついつい 焼きすぎて 黒コゲに してしまい 後悔する。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "踢倒",
-			ja: "けたぐり"
+			'ja-jp': "けたぐり"
 		},
 
 		damage: 20,
@@ -32,7 +32,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "火拳",
-			ja: "ほのおパンチ"
+			'ja-jp': "ほのおパンチ"
 		},
 
 		damage: 70,

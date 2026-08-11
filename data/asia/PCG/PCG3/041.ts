@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドロージー",
+		'ja-jp': "ドロージー",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "不眠症",
+				'ja-jp': "不眠症",
 			},
 			effect: {
-				ja: "Drowzeeは眠ることができません。",
+				'ja-jp': "Drowzeeは眠ることができません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "なだめる波",
+				'ja-jp': "なだめる波",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御するポケモンはそれぞれ眠っています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御するポケモンはそれぞれ眠っています。",
 			},
 			damage: 10,
 		},

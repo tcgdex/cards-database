@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Yanmega",
-		fr: "Yanmega"
+		'en-us': "Yanmega",
+		'fr-fr': "Yanmega"
 	},
 
 	illustrator: "Uta",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Yanma"
+		'en-us': "Yanma"
 	},
 
 	description: {
-		en: "It prefers to battle by biting apart foes' heads\ninstantly while flying by at high speed.",
-		fr: "Il excelle dans l'art de mordre ses ennemis en plein vol, et à grande vitesse."
+		'en-us': "It prefers to battle by biting apart foes' heads\ninstantly while flying by at high speed.",
+		'fr-fr': "Il excelle dans l'art de mordre ses ennemis en plein vol, et à grande vitesse."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Bug Buzz",
-			fr: "Bourdon"
+			'en-us': "Bug Buzz",
+			'fr-fr': "Bourdon"
 		},
 
 		damage: 60,

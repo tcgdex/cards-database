@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルカリオ",
+		'ja-jp': "ルカリオ",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "精神を 集中して 放つ 波動と 呼ばれる 不思議な 波は 大岩をも 粉々に 砕く。",
+		'ja-jp': "精神を 集中して 放つ 波動と 呼ばれる 不思議な 波は 大岩をも 粉々に 砕く。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "タッグコーチ" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分のTAG TEAMのポケモン全員が、相手のポケモンから受けるワザのダメージは「-20」される。",
+				'ja-jp': "このポケモンがいるかぎり、自分のTAG TEAMのポケモン全員が、相手のポケモンから受けるワザのダメージは「-20」される。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "リオル",
+		'ja-jp': "リオル",
 	},
 
 	retreat: 2,

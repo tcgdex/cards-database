@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Swinub",
-		fr: "Marcacrin",
-		es: "Swinub",
-		it: "Swinub",
-		pt: "Swinub",
-		de: "Quiekel"
+		'en-us': "Swinub",
+		'fr-fr': "Marcacrin",
+		'es-es': "Swinub",
+		'it-it': "Swinub",
+		'pt-br': "Swinub",
+		'de-de': "Quiekel"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Headbutt",
-				fr: "Double Coup d'Boule",
+				'en-us': "Double Headbutt",
+				'fr-fr': "Double Coup d'Boule",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 20,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Rooting the tip of its snout into the ground, it searches for food. Sometimes, it even digs up a hot spring.",
+		'en-us': "Rooting the tip of its snout into the ground, it searches for food. Sometimes, it even digs up a hot spring.",
 	},
 
 	thirdParty: {

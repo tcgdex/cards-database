@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [863],
 
 	name: {
-		en: "Galarian Perrserker",
-		fr: "Berserkatt de Galar",
-		es: "Perrserker de Galar",
-		it: "Perrserker di Galar",
-		pt: "Perrserker de Galar",
-		de: "Galar-Mauzinger"
+		'en-us': "Galarian Perrserker",
+		'fr-fr': "Berserkatt de Galar",
+		'es-es': "Perrserker de Galar",
+		'it-it': "Perrserker di Galar",
+		'pt-br': "Perrserker de Galar",
+		'de-de': "Galar-Mauzinger"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Galarian Meowth",
-		fr: "Miaouss de Galar",
-		es: "Meowth de Galar",
-		it: "Meowth di Galar",
-		pt: "Meowth de Galar",
-		de: "Galar-Mauzi"
+		'en-us': "Galarian Meowth",
+		'fr-fr': "Miaouss de Galar",
+		'es-es': "Meowth de Galar",
+		'it-it': "Meowth di Galar",
+		'pt-br': "Meowth de Galar",
+		'de-de': "Galar-Mauzi"
 	},
 
 	attacks: [
@@ -38,20 +38,20 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Stealy Claws",
-				fr: "Griffes Chapardeuses",
-				es: "Garras Ladronzuelas",
-				it: "Sgraffignartigli",
-				pt: "Garras de Larápio",
-				de: "Stehlklauen"
+				'en-us': "Stealy Claws",
+				'fr-fr': "Griffes Chapardeuses",
+				'es-es': "Garras Ladronzuelas",
+				'it-it': "Sgraffignartigli",
+				'pt-br': "Garras de Larápio",
+				'de-de': "Stehlklauen"
 			},
 			effect: {
-				en: "Flip 3 coins. If any of them are heads, your opponent reveals their hand. Then, for each heads, discard a Trainer card from your opponent's hand.",
-				fr: "Lancez 3 pièces. Si vous obtenez au moins un côté face, votre adversaire dévoile sa main. Puis, pour chaque côté face, défaussez une carte Dresseur de la main de votre adversaire.",
-				es: "Lanza 3 monedas. Si sale cara en alguna de ellas, tu rival enseña las cartas de su mano. Después, por cada cara, descarta 1 carta de Entrenador de la mano de tu rival.",
-				it: "Lancia tre volte una moneta. Se esce almeno una volta testa, il tuo avversario mostra le carte che ha in mano. Poi, ogni volta che esce testa, scarta una carta Allenatore dalla mano del tuo avversario.",
-				pt: "Jogue 3 moedas. Se qualquer uma delas sair cara, seu oponente revelará a própria mão. Em seguida, para cada cara, descarte 1 carta de Treinador da mão do seu oponente.",
-				de: "Wirf 3 Münzen. Zeigt mindestens 1 Kopf, zeigt dir dein Gegner seine Handkarten. Lege anschließend pro Kopf 1 Trainerkarte aus der Hand deines Gegners auf seinen Ablagestapel."
+				'en-us': "Flip 3 coins. If any of them are heads, your opponent reveals their hand. Then, for each heads, discard a Trainer card from your opponent's hand.",
+				'fr-fr': "Lancez 3 pièces. Si vous obtenez au moins un côté face, votre adversaire dévoile sa main. Puis, pour chaque côté face, défaussez une carte Dresseur de la main de votre adversaire.",
+				'es-es': "Lanza 3 monedas. Si sale cara en alguna de ellas, tu rival enseña las cartas de su mano. Después, por cada cara, descarta 1 carta de Entrenador de la mano de tu rival.",
+				'it-it': "Lancia tre volte una moneta. Se esce almeno una volta testa, il tuo avversario mostra le carte che ha in mano. Poi, ogni volta che esce testa, scarta una carta Allenatore dalla mano del tuo avversario.",
+				'pt-br': "Jogue 3 moedas. Se qualquer uma delas sair cara, seu oponente revelará a própria mão. Em seguida, para cada cara, descarte 1 carta de Treinador da mão do seu oponente.",
+				'de-de': "Wirf 3 Münzen. Zeigt mindestens 1 Kopf, zeigt dir dein Gegner seine Handkarten. Lege anschließend pro Kopf 1 Trainerkarte aus der Hand deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 20,
 
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Claw Slash",
-				fr: "Tranch'Griffe",
-				es: "Cuchillada Garra",
-				it: "Lacerartiglio",
-				pt: "Golpe de Garra",
-				de: "Klauenschlitzer"
+				'en-us': "Claw Slash",
+				'fr-fr': "Tranch'Griffe",
+				'es-es': "Cuchillada Garra",
+				'it-it': "Lacerartiglio",
+				'pt-br': "Golpe de Garra",
+				'de-de': "Klauenschlitzer"
 			},
 
 			damage: 90,
@@ -97,7 +97,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle."
+		'en-us': "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle."
 	},
 
 	variants: [

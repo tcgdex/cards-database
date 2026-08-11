@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Remoraid",
-		fr: "Rémoraid",
-		es: "Remoraid",
-		it: "Remoraid",
-		pt: "Remoraid",
-		de: "Remoraid"
+		'en-us': "Remoraid",
+		'fr-fr': "Rémoraid",
+		'es-es': "Remoraid",
+		'it-it': "Remoraid",
+		'pt-br': "Remoraid",
+		'de-de': "Remoraid"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -22,24 +22,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Water Gun",
-			fr: "Pistolet à O",
-			es: "Pistola Agua",
-			it: "Pistolacqua",
-			pt: "Revólver d'Água",
-			de: "Aquaknarre"
+			'en-us': "Water Gun",
+			'fr-fr': "Pistolet à O",
+			'es-es': "Pistola Agua",
+			'it-it': "Pistolacqua",
+			'pt-br': "Revólver d'Água",
+			'de-de': "Aquaknarre"
 		},
 
 		damage: 10,
 		cost: ["Water"]
 	}, {
 		name: {
-			en: "Sharp Fin",
-			fr: "Aileron Aiguisé",
-			es: "Cortaleta",
-			it: "Pinnaffilata",
-			pt: "Barbatana Afiada",
-			de: "Schneidige Flosse"
+			'en-us': "Sharp Fin",
+			'fr-fr': "Aileron Aiguisé",
+			'es-es': "Cortaleta",
+			'it-it': "Pinnaffilata",
+			'pt-br': "Barbatana Afiada",
+			'de-de': "Schneidige Flosse"
 		},
 
 		damage: 20,
@@ -58,7 +58,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers."
+		'en-us': "Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers."
 	},
 
 	variants: [

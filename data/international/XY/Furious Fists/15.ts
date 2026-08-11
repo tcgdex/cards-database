@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Poliwag",
-		fr: "Ptitard",
-		es: "Poliwag",
-		it: "Poliwag",
-		pt: "Poliwag",
-		de: "Quapsel"
+		'en-us': "Poliwag",
+		'fr-fr': "Ptitard",
+		'es-es': "Poliwag",
+		'it-it': "Poliwag",
+		'pt-br': "Poliwag",
+		'de-de': "Quapsel"
 	},
 
 	illustrator: "MAHOU",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Rain Splash",
-				fr: "Pluie Éclaboussante",
-				es: "Golpe de Lluvia",
-				it: "Spruzzapioggia",
-				pt: "Chuva Borrifante",
-				de: "Regenplatscher"
+				'en-us': "Rain Splash",
+				'fr-fr': "Pluie Éclaboussante",
+				'es-es': "Golpe de Lluvia",
+				'it-it': "Spruzzapioggia",
+				'pt-br': "Chuva Borrifante",
+				'de-de': "Regenplatscher"
 			},
 
 			damage: 10,
@@ -52,20 +52,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spiral Current",
-				fr: "Courant Tourbillonnant",
-				es: "Corriente Espiral",
-				it: "Corrente a Spirale",
-				pt: "Corrente Espiral",
-				de: "Spiralsog"
+				'en-us': "Spiral Current",
+				'fr-fr': "Courant Tourbillonnant",
+				'es-es': "Corriente Espiral",
+				'it-it': "Corrente a Spirale",
+				'pt-br': "Corrente Espiral",
+				'de-de': "Spiralsog"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused. That Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus. Ce dernier ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido. Ese Pokémon no puede retirarse durante el próximo turno de tu rival.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso. Durante il prossimo turno del tuo avversario, quel Pokémon non può ritirarsi.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso. Esse Pokémon não poderá recuar durante a próxima vez de jogar do seu oponente.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt. Es kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+				'en-us': "Your opponent's Active Pokémon is now Confused. That Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus. Ce dernier ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido. Ese Pokémon no puede retirarse durante el próximo turno de tu rival.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso. Durante il prossimo turno del tuo avversario, quel Pokémon non può ritirarsi.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso. Esse Pokémon não poderá recuar durante a próxima vez de jogar do seu oponente.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt. Es kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 20,
 
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its slick black skin is thin and damp. A part of its internal organs can be seen through the skin as a spiral pattern.",
+		'en-us': "Its slick black skin is thin and damp. A part of its internal organs can be seen through the skin as a spiral pattern.",
 	},
 
 	thirdParty: {

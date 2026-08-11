@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Linoone"
+		'id-id': "Linoone"
 	},
 
 	illustrator: "Nagomi Nijo",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Linoone menghabisi mangsa dengan kecepatan seketikanya yang luar biasa dan kukunya yang tajam. Tidak ahli dalam berlari di jalan berbelok."
+		'id-id': "Linoone menghabisi mangsa dengan kecepatan seketikanya yang luar biasa dan kukunya yang tajam. Tidak ahli dalam berlari di jalan berbelok."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Jet Head"
+			'id-id': "Jet Head"
 		},
 
 		damage: 40,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Menyerang"
+			'id-id': "Menyerang"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 30."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 30."
 		},
 
 		damage: 150,

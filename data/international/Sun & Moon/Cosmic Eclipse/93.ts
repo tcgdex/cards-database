@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Phantump",
-		fr: "Brocélôme",
-		es: "Phantump",
-		it: "Phantump",
-		pt: "Phantump",
-		de: "Paragoni"
+		'en-us': "Phantump",
+		'fr-fr': "Brocélôme",
+		'es-es': "Phantump",
+		'it-it': "Phantump",
+		'pt-br': "Phantump",
+		'de-de': "Paragoni"
 	},
 
 	illustrator: "miki kudo",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mumble",
-				fr: "Murmure",
-				es: "Farfullar",
-				it: "Borbottio",
-				pt: "Resmungo",
-				de: "Grummeln"
+				'en-us': "Mumble",
+				'fr-fr': "Murmure",
+				'es-es': "Farfullar",
+				'it-it': "Borbottio",
+				'pt-br': "Resmungo",
+				'de-de': "Grummeln"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spooky Shot",
-				fr: "Tir Effrayant",
-				es: "Disparo Embrujado",
-				it: "Colpomistero",
-				pt: "Tiro Assustador",
-				de: "Spukschuss"
+				'en-us': "Spooky Shot",
+				'fr-fr': "Tir Effrayant",
+				'es-es': "Disparo Embrujado",
+				'it-it': "Colpomistero",
+				'pt-br': "Tiro Assustador",
+				'de-de': "Spukschuss"
 			},
 
 			damage: 20,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "By imitating the voice of a child, it causes people to get hopelessly lost deep in the forest. It's trying to make friends with them.",
+		'en-us': "By imitating the voice of a child, it causes people to get hopelessly lost deep in the forest. It's trying to make friends with them.",
 	},
 
 	thirdParty: {

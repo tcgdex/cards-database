@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Wo-Chien"
+		'id-id': "Wo-Chien"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Wo-Chien mengisap energi tumbuhan. Hutan sekeliling Pokémon ini langsung tandus dan sawah-sawah menjadi gersang."
+		'id-id': "Wo-Chien mengisap energi tumbuhan. Hutan sekeliling Pokémon ini langsung tandus dan sawah-sawah menjadi gersang."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Leaf Bring"
+			'id-id': "Leaf Bring"
 		},
 
 		effect: {
-			id: "Pilih paling banyak 2 lembar Energi Dasar {Daun} dari Trash sendiri, lalu kenakan pada 1 Pokémon sendiri."
+			'id-id': "Pilih paling banyak 2 lembar Energi Dasar {Daun} dari Trash sendiri, lalu kenakan pada 1 Pokémon sendiri."
 		},
 
 		cost: ["Grass"]
 	}, {
 		name: {
-			id: "Ketamakan Mengikat"
+			'id-id': "Ketamakan Mengikat"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, Energi yang dibutuhkan oleh Pokémon yang menerima serangan ini untuk menggunakan serangan bertambah 2 Energi {Bening}."
+			'id-id': "Pada giliran lawan berikutnya, Energi yang dibutuhkan oleh Pokémon yang menerima serangan ini untuk menggunakan serangan bertambah 2 Energi {Bening}."
 		},
 
 		damage: 140,

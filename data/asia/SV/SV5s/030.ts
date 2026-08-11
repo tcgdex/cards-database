@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Torracat"
+		'id-id': "Torracat"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Saat bertarung, kantong api di pangkal leher Torracat daya apinya meningkat dan menghasilkan bunyi yang seperti lonceng."
+		'id-id': "Saat bertarung, kantong api di pangkal leher Torracat daya apinya meningkat dan menghasilkan bunyi yang seperti lonceng."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Menggigit"
+			'id-id': "Menggigit"
 		},
 
 		damage: 30,
 		cost: ["Fire"]
 	}, {
 		name: {
-			id: "Flare Strike"
+			'id-id': "Flare Strike"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan Flare Strike."
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan Flare Strike."
 		},
 
 		damage: 80,

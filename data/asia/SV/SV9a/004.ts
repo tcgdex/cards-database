@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "シロナのロゼリア",
+		'ja-jp': "シロナのロゼリア",
 		'zh-tw': "<竹蘭的>毒薔薇",
 		'zh-cn': "<竹蘭的>毒薔薇"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "右手と 左手で ２種類の 毒を 使いわけて 攻撃する。 香りが 強いほど 元気だ。",
+		'ja-jp': "右手と 左手で ２種類の 毒を 使いわけて 攻撃する。 香りが 強いほど 元気だ。",
 		'zh-tw': "會用右手和左手分別施放 ２種不同的毒來進行攻擊。 香氣越濃越有活力。",
 		'zh-cn': "會用右手和左手分別施放 ２種不同的毒來進行攻擊。 香氣越濃越有活力。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "トゲでさす",
+			'ja-jp': "トゲでさす",
 			'zh-tw': "針刺",
 			'zh-cn': "針刺"
 		},

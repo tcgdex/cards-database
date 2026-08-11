@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラサンド",
+		'ja-jp': "アローラサンド",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "雪山に 棲む。 鋼の甲羅は とても 頑丈だが 硬すぎて 身体を 丸めることが できない。",
+		'ja-jp': "雪山に 棲む。 鋼の甲羅は とても 頑丈だが 硬すぎて 身体を 丸めることが できない。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "まるくなる" },
 			cost: [],
 			effect: {
-				ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。",
+				'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。",
 			},
 		},
 		{

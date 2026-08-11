@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Pokémon Rumble'
 
 const card: Card = {
 	name: {
-		en: "Skuntank"
+		'en-us': "Skuntank"
 	},
 
 	illustrator: undefined,
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Stunky"
+		'en-us': "Stunky"
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rage"
+				'en-us': "Rage"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each damage counter on Skuntank."
+				'en-us': "Does 20 damage plus 10 more damage for each damage counter on Skuntank."
 			},
 			damage: "20+",
 

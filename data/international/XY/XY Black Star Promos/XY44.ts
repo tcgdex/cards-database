@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "M Diancie EX",
-		fr: "M Diancie EX",
+		'en-us': "M Diancie EX",
+		'fr-fr': "M Diancie EX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Promo",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Fairy",
 	],
 	evolveFrom: {
-		en: "Diancie-EX",
-		fr: "Diancie-EX",
+		'en-us': "Diancie-EX",
+		'fr-fr': "Diancie-EX",
 	},
 	stage: "MEGA",
 
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Diamond Force",
-				fr: "Force Diamant",
+				'en-us': "Diamond Force",
+				'fr-fr': "Force Diamant",
 			},
 			effect: {
-				en: "During your opponent's next turn, prevent all damage done to each of your Pokémon by attacks from your opponent's Pokémon-EX. (If this Pokémon is no longer your Active Pokémon, this effect ends.)",
-				fr: "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à chacun de vos Pokémon par les attaques des Pokémon-EX de votre adversaire. (Si ce Pokémon n'est plus votre Pokémon Actif, cet effet se termine.)"
+				'en-us': "During your opponent's next turn, prevent all damage done to each of your Pokémon by attacks from your opponent's Pokémon-EX. (If this Pokémon is no longer your Active Pokémon, this effect ends.)",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à chacun de vos Pokémon par les attaques des Pokémon-EX de votre adversaire. (Si ce Pokémon n'est plus votre Pokémon Actif, cet effet se termine.)"
 			},
 			damage: 100,
 

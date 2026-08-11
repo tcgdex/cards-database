@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Meganium ex",
-		fr: "Meganium ex",
-		de: "Meganie ex"
+		'en-us': "Meganium ex",
+		'fr-fr': "Meganium ex",
+		'de-de': "Meganie ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bayleef",
-		fr: "Macronium"
+		'en-us': "Bayleef",
+		'fr-fr': "Macronium"
 	},
 
 	suffix: "ex",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Nurture and Heal",
-				fr: "Nourrir-guérir",
-				de: "Nurture and Heal"
+				'en-us': "Nurture and Heal",
+				'fr-fr': "Nourrir-guérir",
+				'de-de': "Nurture and Heal"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may attach a Grass Energy card from your hand to 1 of your Pokémon. If you do, remove 1 damage counter from that Pokémon. This power can't be used if Meganium ex is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez attacher à 1 de vos Pokémon une carte Énergie  de votre main. Retirez alors à ce Pokémon 1 marqueur de dégât. Ce pouvoir ne peut pas être utilisé si Meganium ex est affecté par un État Spécial.",
-				de: "Once during your turn (before your attack), you may attach a  Energy card from your hand to 1 of your Pokémon. If you do, remove 1 damage counter from that Pokémon. This power can't be used if Meganium ex is affected by a Special Condition"
+				'en-us': "Once during your turn (before your attack), you may attach a Grass Energy card from your hand to 1 of your Pokémon. If you do, remove 1 damage counter from that Pokémon. This power can't be used if Meganium ex is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez attacher à 1 de vos Pokémon une carte Énergie  de votre main. Retirez alors à ce Pokémon 1 marqueur de dégât. Ce pouvoir ne peut pas être utilisé si Meganium ex est affecté par un État Spécial.",
+				'de-de': "Once during your turn (before your attack), you may attach a  Energy card from your hand to 1 of your Pokémon. If you do, remove 1 damage counter from that Pokémon. This power can't be used if Meganium ex is affected by a Special Condition"
 			},
 		},
 	],
@@ -54,9 +54,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'herbe",
-				de: "Razor Leaf"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'herbe",
+				'de-de': "Razor Leaf"
 			},
 
 			damage: 50,
@@ -72,15 +72,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Power Poison",
-				fr: "Poison puissant",
-				de: "Power Poison"
+				'en-us': "Power Poison",
+				'fr-fr': "Poison puissant",
+				'de-de': "Power Poison"
 			},
 
 			effect: {
-				en: "Discard 1 Energy attached to Meganium ex. The Defending Pokémon is now Poisoned.",
-				fr: "Défaussez 1 Énergie attachée à Meganium ex. Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Discard an Energy attached to Meganium ex. The Defending Pokémon is now Poisoned."
+				'en-us': "Discard 1 Energy attached to Meganium ex. The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Défaussez 1 Énergie attachée à Meganium ex. Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Discard an Energy attached to Meganium ex. The Defending Pokémon is now Poisoned."
 			},
 
 			damage: 90

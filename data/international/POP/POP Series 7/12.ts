@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 7'
 
 const card: Card = {
 	name: {
-		en: "Burmy Sandy Cloak",
-		fr: "Burmy Sandy Cloak"
+		'en-us': "Burmy Sandy Cloak",
+		'fr-fr': "Burmy Sandy Cloak"
 	},
 
 	illustrator: "Midori Harada",
@@ -26,12 +26,12 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Wear Cloak",
-				fr: "Cape"
+				'en-us': "Wear Cloak",
+				'fr-fr': "Cape"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Burmy Sandy Cloak is your Active Pokémon, you may search your discard pile for a basic Fighting Energy card and attach it to Burmy Sandy Cloak.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), si Cheniti Cape Sable est votre Pokémon Actif, vous pouvez choisir dans votre pile de défausse une carte Énergie de base  et l'attacher à Cheniti Cape Sable."
+				'en-us': "Once during your turn (before your attack), if Burmy Sandy Cloak is your Active Pokémon, you may search your discard pile for a basic Fighting Energy card and attach it to Burmy Sandy Cloak.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), si Cheniti Cape Sable est votre Pokémon Actif, vous pouvez choisir dans votre pile de défausse une carte Énergie de base  et l'attacher à Cheniti Cape Sable."
 			},
 		},
 	],
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sandy Cloak Tackle",
-				fr: "Charge cape sable"
+				'en-us': "Sandy Cloak Tackle",
+				'fr-fr': "Charge cape sable"
 			},
 			effect: {
-				en: "If Burmy Sandy Cloak has any Fighting Energy attached to it, this attack does 10 damage plus 10 more damage.",
-				fr: "Si Cheniti Cape Sable possède de l'Énergie , cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+				'en-us': "If Burmy Sandy Cloak has any Fighting Energy attached to it, this attack does 10 damage plus 10 more damage.",
+				'fr-fr': "Si Cheniti Cape Sable possède de l'Énergie , cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
 			},
 			damage: "10+",
 
@@ -61,7 +61,7 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves."
+		'en-us': "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves."
 	},
 
 	retreat: 1,

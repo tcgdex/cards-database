@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Nidoran♀",
-		en: "Nidoran♀",
-		es: "Nidoran♀",
-		it: "Nidoran♀",
-		pt: "Nidoran♀",
-		de: "Nidoran♀"
+		'fr-fr': "Nidoran♀",
+		'en-us': "Nidoran♀",
+		'es-es': "Nidoran♀",
+		'it-it': "Nidoran♀",
+		'pt-br': "Nidoran♀",
+		'de-de': "Nidoran♀"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			fr: "Corne Empoisonnée",
-			en: "Poison Horn",
-			es: "Cuerno Veneno",
-			it: "Velencorno",
-			pt: "Chifre Venenoso",
-			de: "Gifthorn"
+			'fr-fr': "Corne Empoisonnée",
+			'en-us': "Poison Horn",
+			'es-es': "Cuerno Veneno",
+			'it-it': "Velencorno",
+			'pt-br': "Chifre Venenoso",
+			'de-de': "Gifthorn"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		},
 
 		damage: 20
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It uses its hard incisor teeth to crush and eat berries. The tip of a female Nidoran's horn is a bit more rounded than the tip of a male's horn.",
+		'en-us': "It uses its hard incisor teeth to crush and eat berries. The tip of a female Nidoran's horn is a bit more rounded than the tip of a male's horn.",
 	},
 
 	variants: [

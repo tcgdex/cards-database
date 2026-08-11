@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マタドガス",
+		'ja-jp': "マタドガス",
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "どちらかが ふくらむと 片方は しぼむ 双子の ドガース。 いつも 体内の 毒ガスを 混ぜている。",
+		'ja-jp': "どちらかが ふくらむと 片方は しぼむ 双子の ドガース。 いつも 体内の 毒ガスを 混ぜている。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ホワイトホール" },
 			effect: {
-				ja: "自分の番に、このカードが「ムサシとコジロウ」の効果でトラッシュされたとき、1回使える。相手は相手自身の手札を、1枚トラッシュする。（トラッシュするのは「ムサシとコジロウ」の効果のあと。）",
+				'ja-jp': "自分の番に、このカードが「ムサシとコジロウ」の効果でトラッシュされたとき、1回使える。相手は相手自身の手札を、1枚トラッシュする。（トラッシュするのは「ムサシとコジロウ」の効果のあと。）",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ドガース",
+		'ja-jp': "ドガース",
 	},
 
 	retreat: 3,

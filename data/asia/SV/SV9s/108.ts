@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เรชิรัม <ของ N>",
-		id: "Reshiram <N>"
+		'th-th': "เรชิรัม <ของ N>",
+		'id-id': "Reshiram <N>"
 	},
 
 	illustrator: "rika",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		th: "ถูกเล่าขานในเทพนิยายว่า เมื่อมนุษย์เพิกเฉยต่อความเป็นจริงและจม อยู่ในความละโมบ มันจะใช้เปลวเพลิงแผดเผาดินแดนให้สิ้น",
-		id: "Terlukiskan pada kisah mitos dirinya yang membumihanguskan suatu negeri ketika orang-orangnya mengabaikan kebenaran dan dipenuhi oleh nafsu."
+		'th-th': "ถูกเล่าขานในเทพนิยายว่า เมื่อมนุษย์เพิกเฉยต่อความเป็นจริงและจม อยู่ในความละโมบ มันจะใช้เปลวเพลิงแผดเผาดินแดนให้สิ้น",
+		'id-id': "Terlukiskan pada kisah mitos dirinya yang membumihanguskan suatu negeri ketika orang-orangnya mengabaikan kebenaran dan dipenuhi oleh nafsu."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "พาวเวอร์เรจ",
-			id: "Power Rage"
+			'th-th': "พาวเวอร์เรจ",
+			'id-id': "Power Rage"
 		},
 
 		effect: {
-			th: "แดเมจจะเท่ากับจำนวนตัวนับแดเมจที่วางอยู่บนโปเกมอนนี้ x20",
-			id: "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap Token Kerusakan yang dimiliki Pokémon ini."
+			'th-th': "แดเมจจะเท่ากับจำนวนตัวนับแดเมจที่วางอยู่บนโปเกมอนนี้ x20",
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap Token Kerusakan yang dimiliki Pokémon ini."
 		},
 
 		damage: "20×",
 		cost: ["Fire", "Lightning"]
 	}, {
 		name: {
-			th: "อินโนเซนต์เฟลม",
-			id: "Innocent Flame"
+			'th-th': "อินโนเซนต์เฟลม",
+			'id-id': "Innocent Flame"
 		},
 
 		damage: 170,

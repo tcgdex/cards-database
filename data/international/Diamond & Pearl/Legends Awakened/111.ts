@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Oddish",
-		fr: "Mystherbe",
-		de: "Myrapla"
+		'en-us': "Oddish",
+		'fr-fr': "Mystherbe",
+		'de-de': "Myrapla"
 	},
 
 	illustrator: "Hiroki Fuchino",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stun Spore",
-				fr: "Para-spore",
-				de: "Stachelspore"
+				'en-us': "Stun Spore",
+				'fr-fr': "Para-spore",
+				'de-de': "Stachelspore"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Blot",
-				fr: "Pâté",
-				de: "Klecks"
+				'en-us': "Blot",
+				'fr-fr': "Pâté",
+				'de-de': "Klecks"
 			},
 			effect: {
-				en: "Remove 1 damage counter from Oddish.",
-				fr: "Retirez à Mystherbe 1 marqueur de dégât.",
-				de: "Entferne 1 Schadensmarke von Myrapla."
+				'en-us': "Remove 1 damage counter from Oddish.",
+				'fr-fr': "Retirez à Mystherbe 1 marqueur de dégât.",
+				'de-de': "Entferne 1 Schadensmarke von Myrapla."
 			},
 			damage: 10,
 
@@ -71,8 +71,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It often plants its root feet in the ground during the day and sows seeds as it walks about at night.",
-		fr: "En journée, il plante ses piedsracines dans le sol. La nuit, il se promène en semant des graines."
+		'en-us': "It often plants its root feet in the ground during the day and sows seeds as it walks about at night.",
+		'fr-fr': "En journée, il plante ses piedsracines dans le sol. La nuit, il se promène en semant des graines."
 	},
 
 	thirdParty: {

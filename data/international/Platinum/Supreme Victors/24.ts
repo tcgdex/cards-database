@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Dewgong",
-		fr: "Lamantine",
-		de: "Jugong"
+		'en-us': "Dewgong",
+		'fr-fr': "Lamantine",
+		'de-de': "Jugong"
 	},
 
 	illustrator: "Kanako Eo",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Seel",
-		fr: "Otaria"
+		'en-us': "Seel",
+		'fr-fr': "Otaria"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Thick Fat",
-				fr: "Isograisse",
-				de: "Speckschicht"
+				'en-us': "Thick Fat",
+				'fr-fr': "Isograisse",
+				'de-de': "Speckschicht"
 			},
 			effect: {
-				en: "Any damage done to Dewgong by attacks from Fire Pokémon and Water Pokémon is reduced by 30 (after applying Weakness and Resistance).",
-				fr: "Tous les dégâts infligés à Lamantine par des attaques de Pokémon Fire et Water sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
-				de: "Schaden, der Jugong durch Angriffe von - und -Pokémon zugefügt wird, wird um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "Any damage done to Dewgong by attacks from Fire Pokémon and Water Pokémon is reduced by 30 (after applying Weakness and Resistance).",
+				'fr-fr': "Tous les dégâts infligés à Lamantine par des attaques de Pokémon Fire et Water sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Schaden, der Jugong durch Angriffe von - und -Pokémon zugefügt wird, wird um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			}
 		},
 	],
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Shard",
-				fr: "Éclats glace",
-				de: "Eissplitter"
+				'en-us': "Ice Shard",
+				'fr-fr': "Éclats glace",
+				'de-de': "Eissplitter"
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Fighting Pokémon, this attack's base damage is 80 instead of 30.",
-				fr: "Si le Pokémon Défenseur est un Pokémon Fighting, les dégâts de base de cette attaque sont de 80 au lieu de 30.",
-				de: "Wenn das Verteidigende Pokémon ein -Pokémon ist, beträgt der Grundschaden dieses Angriffs 80 Schadenspunkte anstelle von 30 Schadenspunkten."
+				'en-us': "If the Defending Pokémon is a Fighting Pokémon, this attack's base damage is 80 instead of 30.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon Fighting, les dégâts de base de cette attaque sont de 80 au lieu de 30.",
+				'de-de': "Wenn das Verteidigende Pokémon ein -Pokémon ist, beträgt der Grundschaden dieses Angriffs 80 Schadenspunkte anstelle von 30 Schadenspunkten."
 			},
 			damage: 30,
 
@@ -71,9 +71,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aurora Beam",
-				fr: "Onde boréale",
-				de: "Aurorastrahl"
+				'en-us': "Aurora Beam",
+				'fr-fr': "Onde boréale",
+				'de-de': "Aurorastrahl"
 			},
 
 			damage: 70,

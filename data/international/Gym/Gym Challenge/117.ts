@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Max Revive"
+		'en-us': "Max Revive"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -12,7 +12,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Discard 2 Energy cards from your hand in order to put 1 Basic Pokémon from your discard pile onto your Bench. (You can't play Max Revive if your Bench is full.)"
+		'en-us': "Discard 2 Energy cards from your hand in order to put 1 Basic Pokémon from your discard pile onto your Bench. (You can't play Max Revive if your Bench is full.)"
 	},
 	variants: [
 		{

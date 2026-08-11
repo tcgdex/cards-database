@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Dark Celebi",
-		fr: "Celebi Obscur",
-		de: "Dunkles Celebi"
+		'en-us': "Dark Celebi",
+		'fr-fr': "Celebi Obscur",
+		'de-de': "Dunkles Celebi"
 	},
 
 	illustrator: "Ken Ikuji",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Provide",
-				fr: "Fournisseur d'obscurité",
-				de: "Dark Provide"
+				'en-us': "Dark Provide",
+				'fr-fr': "Fournisseur d'obscurité",
+				'de-de': "Dark Provide"
 			},
 			effect: {
-				en: "Attach up to 1 Grass or Darkness Energy card from your hand to your Pokémon.",
-				fr: "Attachez à votre Pokémon jusqu'à 1 carte Énergie  ou  de votre main.",
-				de: "Attack up to 1  or  Energy card from your hand to your Pokémon."
+				'en-us': "Attach up to 1 Grass or Darkness Energy card from your hand to your Pokémon.",
+				'fr-fr': "Attachez à votre Pokémon jusqu'à 1 carte Énergie  ou  de votre main.",
+				'de-de': "Attack up to 1  or  Energy card from your hand to your Pokémon."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Leaf Poison",
-				fr: "Feuille-poison",
-				de: "Leaf Poison"
+				'en-us': "Leaf Poison",
+				'fr-fr': "Feuille-poison",
+				'de-de': "Leaf Poison"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisened."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "The Defending Pokémon is now Poisened."
 			},
 			damage: 20,
 

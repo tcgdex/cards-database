@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Kubfu",
-		fr: "Wushours",
-		es: "Kubfu",
-		it: "Kubfu",
-		pt: "Kubfu",
-		de: "Dakuma"
+		'en-us': "Kubfu",
+		'fr-fr': "Wushours",
+		'es-es': "Kubfu",
+		'it-it': "Kubfu",
+		'pt-br': "Kubfu",
+		'de-de': "Dakuma"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,32 +22,32 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Training",
-			fr: "Entraînement",
-			es: "Entrenamiento",
-			it: "Allenamento",
-			pt: "Treinamento",
-			de: "Training"
+			'en-us': "Training",
+			'fr-fr': "Entraînement",
+			'es-es': "Entrenamiento",
+			'it-it': "Allenamento",
+			'pt-br': "Treinamento",
+			'de-de': "Training"
 		},
 
 		effect: {
-			en: "Search your deck for a basic Energy card and attach it to this Pokémon. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck une carte Énergie de base, puis attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja 1 carta de Energía Básica y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo una carta Energia base e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por 1 carta de Energia básica no seu baralho e ligue-a a este Pokémon. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach 1 Basis-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+			'en-us': "Search your deck for a basic Energy card and attach it to this Pokémon. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck une carte Énergie de base, puis attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja 1 carta de Energía Básica y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo una carta Energia base e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por 1 carta de Energia básica no seu baralho e ligue-a a este Pokémon. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach 1 Basis-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Elbow Strike",
-			fr: "Coup de Coude",
-			es: "Codazo",
-			it: "Colpogomito",
-			pt: "Golpe de Cotovelo",
-			de: "Ellbogenstoß"
+			'en-us': "Elbow Strike",
+			'fr-fr': "Coup de Coude",
+			'es-es': "Codazo",
+			'it-it': "Colpogomito",
+			'pt-br': "Golpe de Cotovelo",
+			'de-de': "Ellbogenstoß"
 		},
 
 		damage: 60,
@@ -66,7 +66,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "If Kubfu pulls the long white hair on its head, its fighting spirit heightens and power wells up from the depths of its belly."
+		'en-us': "If Kubfu pulls the long white hair on its head, its fighting spirit heightens and power wells up from the depths of its belly."
 	},
 
 	variants: [

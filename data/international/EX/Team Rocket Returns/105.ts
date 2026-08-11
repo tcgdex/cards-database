@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Rocket's Suicune ex",
-		de: "Rockets Suicune ex"
+		'en-us': "Rocket's Suicune ex",
+		'de-de': "Rockets Suicune ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Dark and Clear",
-				de: "Dark and Clear"
+				'en-us': "Dark and Clear",
+				'de-de': "Dark and Clear"
 			},
 			effect: {
-				en: "As long as Rocket's Suicune ex has any Darkness Energy attached to it, Rocket's Suicune ex can't be affected by any Special Conditions.\"",
-				de: "As long as Rocket's Suicune ex has any  Energy attached to it, Rocket's Suicune ex can't be affected by any Special Conditions."
+				'en-us': "As long as Rocket's Suicune ex has any Darkness Energy attached to it, Rocket's Suicune ex can't be affected by any Special Conditions.\"",
+				'de-de': "As long as Rocket's Suicune ex has any  Energy attached to it, Rocket's Suicune ex can't be affected by any Special Conditions."
 			},
 		},
 	],
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Icy Wind",
-				de: "Icy Wind"
+				'en-us': "Icy Wind",
+				'de-de': "Icy Wind"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -61,12 +61,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Splash",
-				de: "Hyper Splash"
+				'en-us': "Hyper Splash",
+				'de-de': "Hyper Splash"
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Stage 2 Evolved Pokémon, this attack does 50 damage plus 40 more damage.",
-				de: "If the Defending Pokémon is a Stage 2 Evolved Pokémon this attack does 50 damage plus 40 more damage."
+				'en-us': "If the Defending Pokémon is a Stage 2 Evolved Pokémon, this attack does 50 damage plus 40 more damage.",
+				'de-de': "If the Defending Pokémon is a Stage 2 Evolved Pokémon this attack does 50 damage plus 40 more damage."
 			},
 			damage: "50+",
 

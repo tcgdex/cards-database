@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2019'
 
 const card: Card = {
@@ -9,25 +9,25 @@ const card: Card = {
 	dexId: [103],
 
 	description: {
-		en: "As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon."
+		'en-us': "As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Tropical Shake"
+			'en-us': "Tropical Shake"
 		},
 
 		damage: "20+",
 
 		effect: {
-			en: "This attack does 20 more damage for each type of basic Energy card in your discard pile. You can’t add more than 100 damage in this way."
+			'en-us': "This attack does 20 more damage for each type of basic Energy card in your discard pile. You can’t add more than 100 damage in this way."
 		}
 	}],
 
 	name: {
-		en: "Alolan Exeggutor"
+		'en-us': "Alolan Exeggutor"
 	},
 
 	rarity: "None",

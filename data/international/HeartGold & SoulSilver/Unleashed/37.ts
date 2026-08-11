@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Poliwhirl",
-		fr: "Tetarte",
-		de: "Quaputzi"
+		'en-us': "Poliwhirl",
+		'fr-fr': "Tetarte",
+		'de-de': "Quaputzi"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Poliwag",
-		fr: "Ptitard"
+		'en-us': "Poliwag",
+		'fr-fr': "Ptitard"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Hypnoblast",
-				fr: "Hypnoblast",
-				de: "Hypnoschuss"
+				'en-us': "Hypnoblast",
+				'fr-fr': "Hypnoblast",
+				'de-de': "Hypnoschuss"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -52,9 +52,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Light Punch",
-				fr: "Poing léger",
-				de: "Leichter Hieb"
+				'en-us': "Light Punch",
+				'fr-fr': "Poing léger",
+				'de-de': "Leichter Hieb"
 			},
 
 			damage: 30,
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The skin on most of its body is moist. However, the skin on its belly spiral feels smooth."
+		'en-us': "The skin on most of its body is moist. However, the skin on its belly spiral feels smooth."
 	},
 
 	variants: [

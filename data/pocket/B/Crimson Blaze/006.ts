@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [168],
 
 	name: {
-		en: "Ariados"
+		'en-us': "Ariados"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Spinarak"
+		'en-us': "Spinarak"
 	},
 
 	description: {
-		en: "It spews threads from its mouth to catch its\nprey. When night falls, it leaves its web to go\nhunt aggressively."
+		'en-us': "It spews threads from its mouth to catch its\nprey. When night falls, it leaves its web to go\nhunt aggressively."
 	},
 
 	stage: "Stage1",
@@ -30,17 +30,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Trap Territory"
+			'en-us': "Trap Territory"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon's Retreat Cost is 1 more."
+			'en-us': "Your opponent's Active Pokémon's Retreat Cost is 1 more."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Pierce"
+			'en-us': "Pierce"
 		},
 
 		damage: 30,

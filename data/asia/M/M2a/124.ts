@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミニリュウ",
+		'ja-jp': "ミニリュウ",
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "脱皮を 繰り返しては どんどん 大きくなる 生命力 あふれる ポケモン。",
+		'ja-jp': "脱皮を 繰り返しては どんどん 大きくなる 生命力 あふれる ポケモン。",
 	},
 
 	stage: "Basic",

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Carvanha",
-		fr: "Carvanha de Team Aqua",
-		de: "Team Aquas Kanivanha"
+		'en-us': "Team Aqua's Carvanha",
+		'fr-fr': "Carvanha de Team Aqua",
+		'de-de': "Team Aquas Kanivanha"
 	},
 
 	illustrator: "Mt. TBT",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Dark Lift",
-				fr: "Sombre élévation",
-				de: "Dark Lift"
+				'en-us': "Dark Lift",
+				'fr-fr': "Sombre élévation",
+				'de-de': "Dark Lift"
 			},
 			effect: {
-				en: "If Team Aqua's Carvanha has any Darkness Energy attached to it, the Retreat Cost for Team Aqua's Carvanha is 0.",
-				fr: "Si Carvanha de Team Aqua possède des Énergies , son coût de retraite est de 0.",
-				de: "If Team Aqua's Carvanha has any  Energy attached to it, the Retreat Cost for Team Aqua's Carvanha is 0."
+				'en-us': "If Team Aqua's Carvanha has any Darkness Energy attached to it, the Retreat Cost for Team Aqua's Carvanha is 0.",
+				'fr-fr': "Si Carvanha de Team Aqua possède des Énergies , son coût de retraite est de 0.",
+				'de-de': "If Team Aqua's Carvanha has any  Energy attached to it, the Retreat Cost for Team Aqua's Carvanha is 0."
 			}
 		},
 	],
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slow-Acting Poison",
-				fr: "Poison à effet retardé",
-				de: "Slow-Acting Poison"
+				'en-us': "Slow-Acting Poison",
+				'fr-fr': "Poison à effet retardé",
+				'de-de': "Slow-Acting Poison"
 			},
 			effect: {
-				en: "At the end of your opponent's next turn, the Defending Pokémon is now Poisoned.",
-				fr: "À la fin du prochain tour de votre adversaire, le Pokémon Défenseur est Empoisonné.",
-				de: "At the end of your opponent's next turn, the Defending Pokémon is now Poisoned."
+				'en-us': "At the end of your opponent's next turn, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "À la fin du prochain tour de votre adversaire, le Pokémon Défenseur est Empoisonné.",
+				'de-de': "At the end of your opponent's next turn, the Defending Pokémon is now Poisoned."
 			},
 			damage: 20,
 

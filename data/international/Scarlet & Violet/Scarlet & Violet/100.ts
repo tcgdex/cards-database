@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Flittle",
-		fr: "Flotillon",
-		es: "Flittle",
-		it: "Flittle",
-		pt: "Flittle",
-		de: "Flattutu"
+		'en-us': "Flittle",
+		'fr-fr': "Flotillon",
+		'es-es': "Flittle",
+		'it-it': "Flittle",
+		'pt-br': "Flittle",
+		'de-de': "Flattutu"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 10
@@ -59,7 +59,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Flittle's toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon's belly.",
+		'en-us': "Flittle's toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon's belly.",
 	},
 
 	thirdParty: {

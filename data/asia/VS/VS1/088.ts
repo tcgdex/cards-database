@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カレンのマグマー",
+		'ja-jp': "カレンのマグマー",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ビート",
+				'ja-jp': "ビート",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fire", "Colorless"],
 			name: {
-				ja: "ember",
+				'ja-jp': "ember",
 			},
 			effect: {
-				ja: "この攻撃を使用するために、カレンのマグマーに取り付けられた消防剤カードを捨ててください。",
+				'ja-jp': "この攻撃を使用するために、カレンのマグマーに取り付けられた消防剤カードを捨ててください。",
 			},
 			damage: 30,
 		},

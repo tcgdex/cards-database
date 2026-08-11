@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Medicham",
-		fr: "Charmina"
+		'en-us': "Medicham",
+		'fr-fr': "Charmina"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Meditite"
+		'en-us': "Meditite"
 	},
 
 	description: {
-		en: "Through yoga training, it gained the psychic\npower to predict its foe's next move.",
-		fr: "Ses pouvoirs psychiques, renforcés par la pratique du yoga, lui permettent de prédire les mouvements de ses adversaires."
+		'en-us': "Through yoga training, it gained the psychic\npower to predict its foe's next move.",
+		'fr-fr': "Ses pouvoirs psychiques, renforcés par la pratique du yoga, lui permettent de prédire les mouvements de ses adversaires."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "High Jump Kick",
-			fr: "Pied Voltige"
+			'en-us': "High Jump Kick",
+			'fr-fr': "Pied Voltige"
 		},
 
 		damage: 50,

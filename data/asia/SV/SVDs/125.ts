@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "มูแลนด์",
-		id: "Stoutland"
+		'th-th': "มูแลนด์",
+		'id-id': "Stoutland"
 	},
 
 	illustrator: "Keisin",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "เป็นโปเกมอนที่ภาคภูมิใจกับหนวดของตนเอง ว่ากันว่าความเด่นด้อยระหว่างพวกพ้องจะตัดสินกันจากความยาวของหนวดนั้น",
-		id: "Pokémon ini bangga atas kumisnya yang gagah. Kabarnya panjang kumis tersebut menentukan siapa yang lebih unggul di antara sesama Stoutland."
+		'th-th': "เป็นโปเกมอนที่ภาคภูมิใจกับหนวดของตนเอง ว่ากันว่าความเด่นด้อยระหว่างพวกพ้องจะตัดสินกันจากความยาวของหนวดนั้น",
+		'id-id': "Pokémon ini bangga atas kumisnya yang gagah. Kabarnya panjang kumis tersebut menentukan siapa yang lebih unggul di antara sesama Stoutland."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			th: "ง่ำ ๆ ตระหนกตกใจ",
-			id: "Panik Keriuk Keriuk"
+			'th-th': "ง่ำ ๆ ตระหนกตกใจ",
+			'id-id': "Panik Keriuk Keriuk"
 		},
 
 		effect: {
-			th: "แดเมจจะเท่ากับจำนวนพลังงานสำหรับ[หนี]ของโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม x50",
-			id: "Serangan ini memberikan kerusakan sejumlah 50 untuk tiap Energi yang dibutuhkan oleh Pokémon Bertarung lawan untuk Mundur."
+			'th-th': "แดเมจจะเท่ากับจำนวนพลังงานสำหรับ[หนี]ของโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม x50",
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 50 untuk tiap Energi yang dibutuhkan oleh Pokémon Bertarung lawan untuk Mundur."
 		},
 
 		damage: "50×",
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "เขี้ยวคม",
-			id: "Taring Tajam"
+			'th-th': "เขี้ยวคม",
+			'id-id': "Taring Tajam"
 		},
 
 		damage: 140,

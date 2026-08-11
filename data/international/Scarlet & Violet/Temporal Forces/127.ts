@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Noctowl",
-		fr: "Noarfang",
-		es: "Noctowl",
-		it: "Noctowl",
-		pt: "Noctowl",
-		de: "Noctuh"
+		'en-us': "Noctowl",
+		'fr-fr': "Noarfang",
+		'es-es': "Noctowl",
+		'it-it': "Noctowl",
+		'pt-br': "Noctowl",
+		'de-de': "Noctuh"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Hoothoot",
-		fr: "Hoothoot",
-		es: "Hoothoot",
-		it: "Hoothoot",
-		pt: "Hoothoot",
-		de: "Hoothoot"
+		'en-us': "Hoothoot",
+		'fr-fr': "Hoothoot",
+		'es-es': "Hoothoot",
+		'it-it': "Hoothoot",
+		'pt-br': "Hoothoot",
+		'de-de': "Hoothoot"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Talon Hunt",
-			fr: "Serres Chasseuses",
-			es: "Garra Cazadora",
-			it: "Artiglio Cacciatore",
-			pt: "Grifas de Caça",
-			de: "Klauenjagd"
+			'en-us': "Talon Hunt",
+			'fr-fr': "Serres Chasseuses",
+			'es-es': "Garra Cazadora",
+			'it-it': "Artiglio Cacciatore",
+			'pt-br': "Grifas de Caça",
+			'de-de': "Klauenjagd"
 		},
 
 		effect: {
-			en: "You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
-			fr: "Vous pouvez chercher dans votre deck jusqu'à 2 cartes, puis les ajouter à votre main. Mélangez ensuite votre deck.",
-			es: "Puedes buscar en tu baraja hasta 2 cartas y ponerlas en tu mano. Después, baraja las cartas de tu baraja.",
-			it: "Puoi cercare nel tuo mazzo fino a due carte e aggiungerle a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			pt: "Você pode procurar por até 2 cartas no seu baralho e colocá-las na sua mão. Em seguida, embaralhe o seu baralho.",
-			de: "Du kannst dein Deck nach bis zu 2 Karten durchsuchen und sie auf deine Hand nehmen. Mische anschließend dein Deck."
+			'en-us': "You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
+			'fr-fr': "Vous pouvez chercher dans votre deck jusqu'à 2 cartes, puis les ajouter à votre main. Mélangez ensuite votre deck.",
+			'es-es': "Puedes buscar en tu baraja hasta 2 cartas y ponerlas en tu mano. Después, baraja las cartas de tu baraja.",
+			'it-it': "Puoi cercare nel tuo mazzo fino a due carte e aggiungerle a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Você pode procurar por até 2 cartas no seu baralho e colocá-las na sua mão. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Du kannst dein Deck nach bis zu 2 Karten durchsuchen und sie auf deine Hand nehmen. Mische anschließend dein Deck."
 		},
 
 		damage: 70
@@ -68,7 +68,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
+		'en-us': "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
 	},
 
 	variants: [

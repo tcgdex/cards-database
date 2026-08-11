@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Torkoal",
-		fr: "Chartor",
-		de: "Qurtel"
+		'en-us': "Torkoal",
+		'fr-fr': "Chartor",
+		'de-de': "Qurtel"
 	},
 
 	illustrator: "Hideaki Hakozaki",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Hot Snort",
-				fr: "Grognement ardent",
-				de: "Hitzeschnauber"
+				'en-us': "Hot Snort",
+				'fr-fr': "Grognement ardent",
+				'de-de': "Hitzeschnauber"
 			},
 			effect: {
-				en: "Once during your turn, when you put Torkoal from your hand onto your Bench, you may flip a coin. If heads, the Defending Pokémon is now Burned.",
-				fr: "Une seule fois pendant votre tour, lorsque vous placez Chartor de votre main sur votre Banc, vous pouvez lancer une pièce. Si c’est face, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Einmal während deines Zuges kannst du, wenn du Qurtel von deiner Hand auf deine Bank legst, 1 Münze werfen. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt."
+				'en-us': "Once during your turn, when you put Torkoal from your hand onto your Bench, you may flip a coin. If heads, the Defending Pokémon is now Burned.",
+				'fr-fr': "Une seule fois pendant votre tour, lorsque vous placez Chartor de votre main sur votre Banc, vous pouvez lancer une pièce. Si c’est face, le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "Einmal während deines Zuges kannst du, wenn du Qurtel von deiner Hand auf deine Bank legst, 1 Münze werfen. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt."
 			}
 		},
 	],
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare",
-				fr: "Intimidation",
-				de: "Flackern"
+				'en-us': "Flare",
+				'fr-fr': "Intimidation",
+				'de-de': "Flackern"
 			},
 
 			damage: 30,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "You find abandoned coal mines full of them. They dig tirelessly in search of coal."
+		'en-us': "You find abandoned coal mines full of them. They dig tirelessly in search of coal."
 	},
 
 	variants: [

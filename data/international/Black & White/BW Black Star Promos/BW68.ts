@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Meloetta",
-		fr: "Meloetta",
+		'en-us': "Meloetta",
+		'fr-fr': "Meloetta",
 	},
 	illustrator: "Naoki Saito",
 	rarity: "Common",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Sing",
-				fr: "Berceuse",
+				'en-us': "Sing",
+				'fr-fr': "Berceuse",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
 			},
 
 		},
@@ -44,8 +44,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psyburn",
-				fr: "Brûlure Psy",
+				'en-us': "Psyburn",
+				'fr-fr': "Brûlure Psy",
 			},
 
 			damage: 50,
@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.",
+		'en-us': "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.",
 	},
 }
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Kingdra EX",
-		fr: "Hyporoi EX",
-		es: "Kingdra EX",
-		it: "Kingdra EX",
-		pt: "Kingdra EX",
-		de: "Seedraking EX"
+		'en-us': "Kingdra EX",
+		'fr-fr': "Hyporoi EX",
+		'es-es': "Kingdra EX",
+		'it-it': "Kingdra EX",
+		'pt-br': "Kingdra EX",
+		'de-de': "Seedraking EX"
 	},
 
 	illustrator: "hatachu",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Big Storm",
-				fr: "Forte Tempête",
-				es: "Gran Tempestad",
-				it: "Fortempesta",
-				pt: "Tempestade Enorme",
-				de: "Großer Sturm"
+				'en-us': "Big Storm",
+				'fr-fr': "Forte Tempête",
+				'es-es': "Gran Tempestad",
+				'it-it': "Fortempesta",
+				'pt-br': "Tempestade Enorme",
+				'de-de': "Großer Sturm"
 			},
 			effect: {
-				en: "Discard any Stadium card in play.",
-				fr: "Défaussez toute carte Stade en jeu.",
-				es: "Descarta cualquier carta de Estadio en juego.",
-				it: "Scarta una carta Stadio in gioco.",
-				pt: "Descarte qualquer card de Estádio em jogo.",
-				de: "Lege 1 beliebige Stadionkarte im Spiel auf den Ablagestapel."
+				'en-us': "Discard any Stadium card in play.",
+				'fr-fr': "Défaussez toute carte Stade en jeu.",
+				'es-es': "Descarta cualquier carta de Estadio en juego.",
+				'it-it': "Scarta una carta Stadio in gioco.",
+				'pt-br': "Descarte qualquer card de Estádio em jogo.",
+				'de-de': "Lege 1 beliebige Stadionkarte im Spiel auf den Ablagestapel."
 			},
 			damage: 20,
 
@@ -60,20 +60,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Trail",
-				fr: "Draco-Traînée",
-				es: "Rastro de Dragón",
-				it: "Dragotraccia",
-				pt: "Trilha do Dragão",
-				de: "Drachenspur"
+				'en-us': "Dragon Trail",
+				'fr-fr': "Draco-Traînée",
+				'es-es': "Rastro de Dragón",
+				'it-it': "Dragotraccia",
+				'pt-br': "Trilha do Dragão",
+				'de-de': "Drachenspur"
 			},
 			effect: {
-				en: "This attack does 30 more damage for each basic Lightning Energy attached to this Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Lightning de base attachée à ce Pokémon.",
-				es: "Este ataque hace 30 puntos de daño más por cada Energía Básica Lightning unida a este Pokémon.",
-				it: "Questo attacco infligge 30 danni in più per ogni Energia base Lightning assegnata a questo Pokémon.",
-				pt: "Este ataque causa 30 de danos adicionais para cada Energia básica Lightning ligada a este Pokémon.",
-				de: "Dieser Angriff fügt 30 weitere Schadenspunkte mal der Anzahl der an dieses Pokémon angelegten Lightning-Basis-Energien zu."
+				'en-us': "This attack does 30 more damage for each basic Lightning Energy attached to this Pokémon.",
+				'fr-fr': "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Lightning de base attachée à ce Pokémon.",
+				'es-es': "Este ataque hace 30 puntos de daño más por cada Energía Básica Lightning unida a este Pokémon.",
+				'it-it': "Questo attacco infligge 30 danni in più per ogni Energia base Lightning assegnata a questo Pokémon.",
+				'pt-br': "Este ataque causa 30 de danos adicionais para cada Energia básica Lightning ligada a este Pokémon.",
+				'de-de': "Dieser Angriff fügt 30 weitere Schadenspunkte mal der Anzahl der an dieses Pokémon angelegten Lightning-Basis-Energien zu."
 			},
 			damage: "60+",
 

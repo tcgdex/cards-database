@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Magnemite"
+		'en-us': "Magnemite"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunder Wave"
+				'en-us': "Thunder Wave"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 
@@ -41,10 +41,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Selfdestruct"
+				'en-us': "Selfdestruct"
 			},
 			effect: {
-				en: "Does 10 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magnemite does 40 damage to itself."
+				'en-us': "Does 10 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magnemite does 40 damage to itself."
 			},
 			damage: 40,
 
@@ -61,7 +61,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Uses anti-gravity to stay suspended. Appears without warning and uses attacks like Thunder Wave."
+		'en-us': "Uses anti-gravity to stay suspended. Appears without warning and uses attacks like Thunder Wave."
 	},
 
 	variants: [

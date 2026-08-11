@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2024'
 
 const card: Card = {
 	name: {
-		en: "Rayquaza",
-		fr: "Rayquaza",
-		es: "Rayquaza",
-		it: "Rayquaza",
-		pt: "Rayquaza",
-		de: "Rayquaza"
+		'en-us': "Rayquaza",
+		'fr-fr': "Rayquaza",
+		'es-es': "Rayquaza",
+		'it-it': "Rayquaza",
+		'pt-br': "Rayquaza",
+		'de-de': "Rayquaza"
 	},
 
 	illustrator: "so-taro",
@@ -28,26 +28,26 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				en: "Jaw Lock",
-				fr: "Croque Fort",
-				es: "Bloqueo de Mandíbulas",
-				it: "Serrafauci",
-				pt: "Travamento de Mandíbula",
-				de: "Kiefersperre"
+				'en-us': "Jaw Lock",
+				'fr-fr': "Croque Fort",
+				'es-es': "Bloqueo de Mandíbulas",
+				'it-it': "Serrafauci",
+				'pt-br': "Travamento de Mandíbula",
+				'de-de': "Kiefersperre"
 			},
 			damage: 30,
 			effect: {
-				en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
+				'en-us': "During your opponent's next turn, the Defending Pokémon can't retreat.",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				en: "Power Blast",
+				'en-us': "Power Blast",
 			},
 			damage: 120,
 			effect: {
-				en: "Discard an Energy from this Pokémon.",
+				'en-us': "Discard an Energy from this Pokémon.",
 			},
 		},
 	],

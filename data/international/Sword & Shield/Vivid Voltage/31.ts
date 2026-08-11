@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [320],
 
 	name: {
-		en: "Wailmer",
-		fr: "Wailmer",
-		es: "Wailmer",
-		it: "Wailmer",
-		pt: "Wailmer",
-		de: "Wailmer"
+		'en-us': "Wailmer",
+		'fr-fr': "Wailmer",
+		'es-es': "Wailmer",
+		'it-it': "Wailmer",
+		'pt-br': "Wailmer",
+		'de-de': "Wailmer"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -31,20 +31,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Pump",
-				fr: "Hydrocanon",
-				es: "Hidrobomba",
-				it: "Idropompa",
-				pt: "Jato d'Água",
-				de: "Hydropumpe"
+				'en-us': "Hydro Pump",
+				'fr-fr': "Hydrocanon",
+				'es-es': "Hidrobomba",
+				'it-it': "Idropompa",
+				'pt-br': "Jato d'Água",
+				'de-de': "Hydropumpe"
 			},
 			effect: {
-				en: "This attack does 20 more damage for each Water Energy attached to this Pokémon.",
-				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
-				es: "Este ataque hace 20 puntos de daño más por cada Energía Water unida a este Pokémon.",
-				it: "Questo attacco infligge 20 danni in più per ogni Energia Water assegnata a questo Pokémon.",
-				pt: "Este ataque causa 20 pontos de dano a mais para cada Energia Water ligada a este Pokémon.",
-				de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Water-Energie 20 Schadenspunkte mehr zu."
+				'en-us': "This attack does 20 more damage for each Water Energy attached to this Pokémon.",
+				'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+				'es-es': "Este ataque hace 20 puntos de daño más por cada Energía Water unida a este Pokémon.",
+				'it-it': "Questo attacco infligge 20 danni in più per ogni Energia Water assegnata a questo Pokémon.",
+				'pt-br': "Este ataque causa 20 pontos de dano a mais para cada Energia Water ligada a este Pokémon.",
+				'de-de': "Diese Attacke fügt für jede an dieses Pokémon angelegte Water-Energie 20 Schadenspunkte mehr zu."
 			},
 			damage: "10+",
 
@@ -65,7 +65,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It shows off by spraying jets of seawater from the nostrils above its eyes. It eats a solid ton of Wishiwashi every day."
+		'en-us': "It shows off by spraying jets of seawater from the nostrils above its eyes. It eats a solid ton of Wishiwashi every day."
 	},
 
 	variants: [

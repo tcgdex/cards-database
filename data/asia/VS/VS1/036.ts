@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チャックのタウロス",
+		'ja-jp': "チャックのタウロス",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "取り組む",
+				'ja-jp': "取り組む",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "降ろす",
+				'ja-jp': "降ろす",
 			},
 			effect: {
-				ja: "チャックのタウロスはそれ自体に20のダメージを与えます。",
+				'ja-jp': "チャックのタウロスはそれ自体に20のダメージを与えます。",
 			},
 			damage: 40,
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Monferno",
-		fr: "Chimpenfeu",
-		de: "Panpyro"
+		'en-us': "Monferno",
+		'fr-fr': "Chimpenfeu",
+		'de-de': "Panpyro"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Chimchar",
-		fr: "Ouisticram"
+		'en-us': "Chimchar",
+		'fr-fr': "Ouisticram"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fire Tail Slap",
-				fr: "Coup de queue enflammé",
-				de: "Fire Tail Slap"
+				'en-us': "Fire Tail Slap",
+				'fr-fr': "Coup de queue enflammé",
+				'de-de': "Fire Tail Slap"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Fire Energy attached to Monferno.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Chimpenfeu.",
-				de: "Flip a coin. If tails, discard a  Energy attached to Monferno."
+				'en-us': "Flip a coin. If tails, discard a Fire Energy attached to Monferno.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Chimpenfeu.",
+				'de-de': "Flip a coin. If tails, discard a  Energy attached to Monferno."
 			},
 			damage: 40,
 
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Paralyzing Gaze",
-				fr: "Regard paralysant",
-				de: "Paralyzing Gaze"
+				'en-us': "Paralyzing Gaze",
+				'fr-fr': "Regard paralysant",
+				'de-de': "Paralyzing Gaze"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It skillfully control the intensity of the fire on its tail to keep its foes at an ideal distance."
+		'en-us': "It skillfully control the intensity of the fire on its tail to keep its foes at an ideal distance."
 	},
 
 	variants: [

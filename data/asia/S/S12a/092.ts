@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クスネ",
+		'ja-jp': "クスネ",
 		'zh-tw': "偷兒狐",
-		th: "คุสุเนะ",
+		'th-th': "คุสุเนะ",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -15,9 +15,9 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "ほかの ポケモンが みつけた 餌を 掠めて 暮らしている。 ふかふかの 肉球は 足音を たてない。",
+		'ja-jp': "ほかの ポケモンが みつけた 餌を 掠めて 暮らしている。 ふかふかの 肉球は 足音を たてない。",
 		'zh-tw': "靠搶奪其他寶可夢找到的食物為生。腳上長著軟乎乎的肉球， 走路時不會發出絲毫聲響。",
-		th: "มีชีวิตอยู่โดยขโมยเหยื่อที่โปเกมอนตัวอื่นหามาได้ เนื้อเท้านุ่มนิ่มจึงเดินไม่มีเสียง",
+		'th-th': "มีชีวิตอยู่โดยขโมยเหยื่อที่โปเกมอนตัวอื่นหามาได้ เนื้อเท้านุ่มนิ่มจึงเดินไม่มีเสียง",
 	},
 
 	stage: "Basic",
@@ -25,9 +25,9 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "うしろげり",
+				'ja-jp': "うしろげり",
 				'zh-tw': "後踢",
-				th: "เตะกลับหลัง",
+				'th-th': "เตะกลับหลัง",
 			},
 			damage: 10,
 			cost: ["Colorless"],

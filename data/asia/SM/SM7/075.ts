@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エネコ",
+		'ja-jp': "エネコ",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "自分の 尻尾を 追いかけて 遊んでいると 目を 回すといった 可愛らしい 一面を みせる。",
+		'ja-jp': "自分の 尻尾を 追いかけて 遊んでいると 目を 回すといった 可愛らしい 一面を みせる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],

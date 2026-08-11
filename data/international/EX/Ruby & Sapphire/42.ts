@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Mightyena",
-		fr: "Grahyena",
-		de: "Magnayen"
+		'en-us': "Mightyena",
+		'fr-fr': "Grahyena",
+		'de-de': "Magnayen"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Poochyena",
-		fr: "Medhyèna"
+		'en-us': "Poochyena",
+		'fr-fr': "Medhyèna"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Biss"
 			},
 
 			damage: 20,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ambush",
-				fr: "Embuscade",
-				de: "Hinterhalt"
+				'en-us': "Ambush",
+				'fr-fr': "Embuscade",
+				'de-de': "Hinterhalt"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts.",
-				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 

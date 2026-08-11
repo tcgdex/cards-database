@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダイノーズ",
+		'ja-jp': "ダイノーズ",
 	},
 
 	illustrator: "Yoshinobu Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "強い 磁力を 放っているので 近くにある 電化製品は 使いものに ならなくなってしまう。",
+		'ja-jp': "強い 磁力を 放っているので 近くにある 電化製品は 使いものに ならなくなってしまう。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Metal"],
 			effect: {
-				ja: "自分のトラッシュにあるエネルギーを1枚、このポケモンにつける。",
+				'ja-jp': "自分のトラッシュにあるエネルギーを1枚、このポケモンにつける。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ノズパス",
+		'ja-jp': "ノズパス",
 	},
 
 	retreat: 4,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Omastar",
-		fr: "Amonistar",
-		es: "Omastar",
-		it: "Omastar",
-		pt: "Omastar",
-		de: "Amoroso"
+		'en-us': "Omastar",
+		'fr-fr': "Amonistar",
+		'es-es': "Omastar",
+		'it-it': "Omastar",
+		'pt-br': "Omastar",
+		'de-de': "Amoroso"
 	},
 
 	illustrator: "kirisAki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Omanyte",
-		fr: "Amonita",
+		'en-us': "Omanyte",
+		'fr-fr': "Amonita",
 	},
 
 	stage: "Stage2",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Fossil Bind",
-				fr: "Lien Fossile",
-				es: "Atadura Fósil",
-				it: "Legame Fossile",
-				pt: "Atadura de Fóssil",
-				de: "Fossiler Griff"
+				'en-us': "Fossil Bind",
+				'fr-fr': "Lien Fossile",
+				'es-es': "Atadura Fósil",
+				'it-it': "Legame Fossile",
+				'pt-br': "Atadura de Fóssil",
+				'de-de': "Fossiler Griff"
 			},
 			effect: {
-				en: "As long as you have fewer Pokémon in play than your opponent, they can’t play any Item cards from their hand.",
-				fr: "Tant que vous avez moins de Pokémon en jeu que votre adversaire, celui-ci ne peut pas jouer de cartes Objet de sa main.",
-				es: "Mientras tengas menos Pokémon en juego que tu rival, este no puede jugar ninguna carta de Objeto de su mano.",
-				it: "Fintanto che hai meno Pokémon in gioco del tuo avversario, questi non può giocare le carte Strumento che ha in mano.",
-				pt: "Enquanto você tiver menos Pokémon em jogo do que seu oponente, ele(a) não pode jogar nenhuma carta de Item da própria mão.",
-				de: "Solang du weniger Pokémon im Spiel hast als dein Gegner, kann dein Gegner keine Itemkarten aus seiner Hand spielen."
+				'en-us': "As long as you have fewer Pokémon in play than your opponent, they can’t play any Item cards from their hand.",
+				'fr-fr': "Tant que vous avez moins de Pokémon en jeu que votre adversaire, celui-ci ne peut pas jouer de cartes Objet de sa main.",
+				'es-es': "Mientras tengas menos Pokémon en juego que tu rival, este no puede jugar ninguna carta de Objeto de su mano.",
+				'it-it': "Fintanto che hai meno Pokémon in gioco del tuo avversario, questi non può giocare le carte Strumento che ha in mano.",
+				'pt-br': "Enquanto você tiver menos Pokémon em jogo do que seu oponente, ele(a) não pode jogar nenhuma carta de Item da própria mão.",
+				'de-de': "Solang du weniger Pokémon im Spiel hast als dein Gegner, kann dein Gegner keine Itemkarten aus seiner Hand spielen."
 			},
 		},
 	],
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 60,
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its heavy shell is thought to be the reason this ancient Pokémon died out. It's apparently a distant ancestor of Octillery.",
+		'en-us': "Its heavy shell is thought to be the reason this ancient Pokémon died out. It's apparently a distant ancestor of Octillery.",
 	},
 
 	thirdParty: {

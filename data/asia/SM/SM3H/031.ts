@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナゲツケサル",
+		'ja-jp': "ナゲツケサル",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "２０匹前後の グループを つくる。 その結束は 非常に 固く 絶対 仲間を 見捨てない。",
+		'ja-jp': "２０匹前後の グループを つくる。 その結束は 非常に 固く 絶対 仲間を 見捨てない。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Fighting", "Fighting"],
 			effect: {
-				ja: "自分の手札にある「ポケモンのどうぐ」を、1枚トラッシュする。トラッシュできないなら、このワザは失敗。",
+				'ja-jp': "自分の手札にある「ポケモンのどうぐ」を、1枚トラッシュする。トラッシュできないなら、このワザは失敗。",
 			},
 		},
 	],

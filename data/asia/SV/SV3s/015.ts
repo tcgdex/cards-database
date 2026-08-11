@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Vulpix"
+		'id-id': "Vulpix"
 	},
 
 	illustrator: "0313",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Seiring pertumbuhannya, keenam ekor Vulpix menjadi makin cantik dan bulunya makin lembut. Jika dipeluk, Pokémon ini terasa agak hangat."
+		'id-id': "Seiring pertumbuhannya, keenam ekor Vulpix menjadi makin cantik dan bulunya makin lembut. Jika dipeluk, Pokémon ini terasa agak hangat."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Lidah Api"
+			'id-id': "Lidah Api"
 		},
 
 		damage: 10,
 		cost: ["Fire"]
 	}, {
 		name: {
-			id: "Cahaya Membingungkan"
+			'id-id': "Cahaya Membingungkan"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
 		},
 
 		damage: 20,

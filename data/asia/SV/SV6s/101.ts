@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Nosepass"
+		'id-id': "Nosepass"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Ketika terpojok, adakalanya ia melindungi dirinya dengan meningkatkan kekuatan magnetnya dan menarik bongkahan besi yang ada di sekitarnya."
+		'id-id': "Ketika terpojok, adakalanya ia melindungi dirinya dengan meningkatkan kekuatan magnetnya dan menarik bongkahan besi yang ada di sekitarnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Power Rush"
+			'id-id': "Power Rush"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi belakang, pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi belakang, pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 60,

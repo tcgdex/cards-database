@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マルマインGX",
+		'ja-jp': "マルマインGX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "エネエネボンバー" },
 			effect: {
-				ja: "自分の番に1回使えて、使ったなら、このポケモンをきぜつさせる。自分のトラッシュにあるエネルギーを5枚、自分のポケモン（「ポケモンGX・EX」をのぞく）に好きなようにつける。",
+				'ja-jp': "自分の番に1回使えて、使ったなら、このポケモンをきぜつさせる。自分のトラッシュにあるエネルギーを5枚、自分のポケモン（「ポケモンGX・EX」をのぞく）に好きなようにつける。",
 			},
 		},
 	],
@@ -35,7 +35,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "自分の場のポケモンについているエネルギーを好きなだけトラッシュし、その枚数x50ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分の場のポケモンについているエネルギーを好きなだけトラッシュし、その枚数x50ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ビリリダマ",
+		'ja-jp': "ビリリダマ",
 	},
 
 	retreat: 1,

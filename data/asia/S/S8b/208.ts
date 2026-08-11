@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドータクン",
+		'ja-jp': "ドータクン",
 	},
 
 	illustrator: "Hataya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "体の模様 から 本来 ガラルには いない ポケモンと 考える 学者も 多い。",
+		'ja-jp': "体の模様 から 本来 ガラルには いない ポケモンと 考える 学者も 多い。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "メタルトランス" },
 			effect: {
-				ja: "自分の番に何回でも使える。自分の場のポケモンについている[鋼]エネルギーを1個選び、自分の別のポケモンにつけ替える。",
+				'ja-jp': "自分の番に何回でも使える。自分の場のポケモンについている[鋼]エネルギーを1個選び、自分の別のポケモンにつけ替える。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ドーミラー",
+		'ja-jp': "ドーミラー",
 	},
 
 	retreat: 3,

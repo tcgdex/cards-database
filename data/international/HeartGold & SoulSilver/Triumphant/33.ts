@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Electabuzz",
-		fr: "Elektek",
-		de: "Elektek"
+		'en-us': "Electabuzz",
+		'fr-fr': "Elektek",
+		'de-de': "Elektek"
 	},
 
 	illustrator: "TOKIYA",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Light Punch",
-				fr: "Poing léger",
-				de: "Leichter Hieb"
+				'en-us': "Light Punch",
+				'fr-fr': "Poing léger",
+				'de-de': "Leichter Hieb"
 			},
 
 			damage: 10,
@@ -44,14 +44,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shock Bolt",
-				fr: "Choc’éclair",
-				de: "Schock-Blitz"
+				'en-us': "Shock Bolt",
+				'fr-fr': "Choc’éclair",
+				'de-de': "Schock-Blitz"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard all Lightning Energy attached to Electabuzz.",
-				fr: "Lancez une pièce. Si c’est pile, défaussez toutes les cartes Énergie Lightning attachées à Elektek.",
-				de: "Wirf eine Münze. Bei \"Zahl\" lege alle an Elektek angelegten -Energien auf deinen Ablagestapel."
+				'en-us': "Flip a coin. If tails, discard all Lightning Energy attached to Electabuzz.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, défaussez toutes les cartes Énergie Lightning attachées à Elektek.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" lege alle an Elektek angelegten -Energien auf deinen Ablagestapel."
 			},
 			damage: 60,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its body constantly discharges electricity. Getting close to it will make your hair stand on end."
+		'en-us': "Its body constantly discharges electricity. Getting close to it will make your hair stand on end."
 	},
 
 	variants: [

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ฮาซึเบรโร",
-		id: "Lombre"
+		'th-th': "ฮาซึเบรโร",
+		'id-id': "Lombre"
 	},
 
 	illustrator: "Mousho",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		th: "ในตำนานเก่าแก่ของคิตาคามิกล่าวว่า เด็กที่ซุกซนได้ไปเกิดใหม่เป็น โปเกมอน",
-		id: "Terdapat legenda kuno dari Kitakami yang mencatat bahwa ia merupakan Pokémon reinkarnasi anak kecil yang suka jahil."
+		'th-th': "ในตำนานเก่าแก่ของคิตาคามิกล่าวว่า เด็กที่ซุกซนได้ไปเกิดใหม่เป็น โปเกมอน",
+		'id-id': "Terdapat legenda kuno dari Kitakami yang mencatat bahwa ia merupakan Pokémon reinkarnasi anak kecil yang suka jahil."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "อควาสแลช",
-			id: "Aqua Slash"
+			'th-th': "อควาสแลช",
+			'id-id': "Aqua Slash"
 		},
 
 		effect: {
-			th: "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'th-th': "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 70,

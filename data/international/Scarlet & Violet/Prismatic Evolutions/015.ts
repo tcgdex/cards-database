@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Litleo",
-		fr: "Hélionceau",
-		es: "Litleo",
-		pt: "Litleo",
-		it: "Litleo",
-		de: "Leufeo"
+		'en-us': "Litleo",
+		'fr-fr': "Hélionceau",
+		'es-es': "Litleo",
+		'pt-br': "Litleo",
+		'it-it': "Litleo",
+		'de-de': "Leufeo"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Combustion",
-			fr: "Fournaise",
-			es: "Combustión",
-			pt: "Combustão",
-			it: "Fuoco Continuo",
-			de: "Glühen"
+			'en-us': "Combustion",
+			'fr-fr': "Fournaise",
+			'es-es': "Combustión",
+			'pt-br': "Combustão",
+			'it-it': "Fuoco Continuo",
+			'de-de': "Glühen"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			es: "Golpe Cabeza",
-			pt: "Cabeçada",
-			it: "Bottintesta",
-			de: "Kopfnuss"
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'es-es': "Golpe Cabeza",
+			'pt-br': "Cabeçada",
+			'it-it': "Bottintesta",
+			'de-de': "Kopfnuss"
 		},
 
 		damage: 50

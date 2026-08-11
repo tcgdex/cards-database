@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Liepard",
-		fr: "Léopardus",
-		es: "Liepard",
-		it: "Liepard",
-		pt: "Liepard",
-		de: "Kleoparda"
+		'en-us': "Liepard",
+		'fr-fr': "Léopardus",
+		'es-es': "Liepard",
+		'it-it': "Liepard",
+		'pt-br': "Liepard",
+		'de-de': "Kleoparda"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Purrloin",
-		fr: "Chacripan",
-		es: "Purrloin",
-		it: "Purrloin",
-		pt: "Purrloin",
-		de: "Felilou"
+		'en-us': "Purrloin",
+		'fr-fr': "Chacripan",
+		'es-es': "Purrloin",
+		'it-it': "Purrloin",
+		'pt-br': "Purrloin",
+		'de-de': "Felilou"
 	},
 	stage: "Stage1",
 
@@ -32,32 +32,32 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Dishonest Swap",
-			fr: "Échange Malhonnête",
-			es: "Intercambio Deshonesto",
-			it: "Scambio Sleale",
-			pt: "Troca Desonesta",
-			de: "Unredlicher Tausch"
+			'en-us': "Dishonest Swap",
+			'fr-fr': "Échange Malhonnête",
+			'es-es': "Intercambio Deshonesto",
+			'it-it': "Scambio Sleale",
+			'pt-br': "Troca Desonesta",
+			'de-de': "Unredlicher Tausch"
 		},
 
 		effect: {
-			en: "Move all damage counters from 1 of your Benched Pokémon to your opponent's Active Pokémon.",
-			fr: "Déplacez tous les marqueurs de dégâts de l'un de vos Pokémon de Banc vers le Pokémon Actif de votre adversaire.",
-			es: "Mueve todos los contadores de daño de uno de tus Pokémon en Banca al Pokémon Activo de tu rival.",
-			it: "Sposta tutti i segnalini danno da uno dei tuoi Pokémon in panchina al Pokémon attivo del tuo avversario.",
-			pt: "Mova todos os contadores de dano de 1 dos seus Pokémon no Banco para o Pokémon Ativo do seu oponente.",
-			de: "Verschiebe alle Schadensmarken von 1 Pokémon auf deiner Bank auf das Aktive Pokémon deines Gegners."
+			'en-us': "Move all damage counters from 1 of your Benched Pokémon to your opponent's Active Pokémon.",
+			'fr-fr': "Déplacez tous les marqueurs de dégâts de l'un de vos Pokémon de Banc vers le Pokémon Actif de votre adversaire.",
+			'es-es': "Mueve todos los contadores de daño de uno de tus Pokémon en Banca al Pokémon Activo de tu rival.",
+			'it-it': "Sposta tutti i segnalini danno da uno dei tuoi Pokémon in panchina al Pokémon attivo del tuo avversario.",
+			'pt-br': "Mova todos os contadores de dano de 1 dos seus Pokémon no Banco para o Pokémon Ativo do seu oponente.",
+			'de-de': "Verschiebe alle Schadensmarken von 1 Pokémon auf deiner Bank auf das Aktive Pokémon deines Gegners."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Slash",
-			fr: "Tranche",
-			es: "Cuchillada",
-			it: "Lacerazione",
-			pt: "Talho",
-			de: "Schlitzer"
+			'en-us': "Slash",
+			'fr-fr': "Tranche",
+			'es-es': "Cuchillada",
+			'it-it': "Lacerazione",
+			'pt-br': "Talho",
+			'de-de': "Schlitzer"
 		},
 
 		damage: 60
@@ -73,7 +73,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "This stealthy Pokémon sneaks up behind prey without making any sound at all. It competes with Thievul for territory.",
+		'en-us': "This stealthy Pokémon sneaks up behind prey without making any sound at all. It competes with Thievul for territory.",
 	},
 
 	variants: [

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Ferrothorn",
-		fr: "Noacier",
-		es: "Ferrothorn",
-		it: "Ferrothorn",
-		pt: "Ferrothorn",
-		de: "Tentantel"
+		'en-us': "Ferrothorn",
+		'fr-fr': "Noacier",
+		'es-es': "Ferrothorn",
+		'it-it': "Ferrothorn",
+		'pt-br': "Ferrothorn",
+		'de-de': "Tentantel"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ferroseed",
-		fr: "Grindur",
+		'en-us': "Ferroseed",
+		'fr-fr': "Grindur",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Iron Defense",
-				fr: "Mur de Fer",
+				'en-us': "Iron Defense",
+				'fr-fr': "Mur de Fer",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
+				'en-us': "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
 			},
 
 		},
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Power Whip",
-				fr: "Mégafouet",
+				'en-us': "Power Whip",
+				'fr-fr': "Mégafouet",
 			},
 			effect: {
-				en: "Does 10 damage for each Energy attached to this Pokémon to one of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts pour chaque Énergie attachée à ce Pokémon à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "Does 10 damage for each Energy attached to this Pokémon to one of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts pour chaque Énergie attachée à ce Pokémon à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It fights by swinging around its three spiky feelers. A hit from these steel spikes can reduce a boulder to rubble.",
+		'en-us': "It fights by swinging around its three spiky feelers. A hit from these steel spikes can reduce a boulder to rubble.",
 	},
 
 	thirdParty: {

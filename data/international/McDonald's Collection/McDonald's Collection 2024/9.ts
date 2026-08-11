@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2024'
 
 const card: Card = {
 	name: {
-		en: "Umbreon",
-		fr: "Noctali",
-		es: "Umbreon",
-		it: "Umbreon",
-		pt: "Umbreon",
-		de: "Nachtara"
+		'en-us': "Umbreon",
+		'fr-fr': "Noctali",
+		'es-es': "Umbreon",
+		'it-it': "Umbreon",
+		'pt-br': "Umbreon",
+		'de-de': "Nachtara"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -25,31 +25,31 @@ const card: Card = {
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
-		es: "Eevee",
-		it: "Eevee",
-		pt: "Eevee",
-		de: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
+		'es-es': "Eevee",
+		'it-it': "Eevee",
+		'pt-br': "Eevee",
+		'de-de': "Evoli"
 	},
 
 	attacks: [
 		{
 			cost: ["Darkness"],
 			name: {
-				en: "Blindside",
+				'en-us': "Blindside",
 			},
 			effect: {
-				en: "This attack does 60 damage to 1 of your opponent's Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "This attack does 60 damage to 1 of your opponent's Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 		},
 		{
 			cost: ["Darkness", "Colorless", "Colorless"],
 			name: {
-				en: "Moon Mirage",
+				'en-us': "Moon Mirage",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused."
+				'en-us': "Your opponent's Active Pokémon is now Confused."
 			},
 			damage: 80,
 		},

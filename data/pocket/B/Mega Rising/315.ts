@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dodrio"
+		'en-us': "Dodrio"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Doduo"
+		'en-us': "Doduo"
 	},
 
 	description: {
-		en: "An enemy that takes its eyes off any of the\nthree heads—even for a second—will get\npecked severely."
+		'en-us': "An enemy that takes its eyes off any of the\nthree heads—even for a second—will get\npecked severely."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Drill Peck"
+			'en-us': "Drill Peck"
 		},
 
 		damage: 40,

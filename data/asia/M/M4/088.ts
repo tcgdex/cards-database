@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デンリュウ",
+		'ja-jp': "デンリュウ",
 	},
 
 	illustrator: "saino misaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "尻尾の 先が 光り輝く。 光は はるか 遠くまで 届き 迷った者の 道標となる。",
+		'ja-jp': "尻尾の 先が 光り輝く。 光は はるか 遠くまで 届き 迷った者の 道標となる。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "シンクロパルス" },
 			effect: {
-				ja: "自分の手札と相手の手札が同じ枚数なら、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+80」される。",
+				'ja-jp': "自分の手札と相手の手札が同じ枚数なら、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+80」される。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 140,
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「フラッシュボルト」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「フラッシュボルト」が使えない。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モココ",
+		'ja-jp': "モココ",
 	},
 
 	retreat: 2,

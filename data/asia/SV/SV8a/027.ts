@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ウガツホムラex",
-		id: "Gouging Fire ex",
-		th: "เพลิงทะลวงex",
+		'ja-jp': "ウガツホムラex",
+		'id-id': "Gouging Fire ex",
+		'th-th': "เพลิงทะลวงex",
 		'zh-tw': "破空焰ex",
 		'zh-cn': "破空焰ex"
 	},
@@ -24,9 +24,9 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			ja: "ヒートブラスト",
-			id: "Heat Blast",
-			th: "ฮีทบลาสต์",
+			'ja-jp': "ヒートブラスト",
+			'id-id': "Heat Blast",
+			'th-th': "ฮีทบลาสต์",
 			'zh-tw': "高溫爆破",
 			'zh-cn': "高溫爆破"
 		},
@@ -36,9 +36,9 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			ja: "れっかばくしん",
-			id: "Maju Pesat Api Berkobar",
-			th: "ไฟลุกบุกทะลวง",
+			'ja-jp': "れっかばくしん",
+			'id-id': "Maju Pesat Api Berkobar",
+			'th-th': "ไฟลุกบุกทะลวง",
 			'zh-tw': "烈火爆進",
 			'zh-cn': "烈火爆進"
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 		damage: 260,
 
 		effect: {
-			ja: "このワザを使ったなら、このポケモンは、バトル場をはなれるまで「れっかばくしん」が使えない。",
-			id: "Jika Pokémon ini telah menggunakan serangan ini, Pokémon ini tidak dapat menggunakan Maju Pesat Api Berkobar hingga meninggalkan Arena Bertarung.",
-			th: "ถ้าใช้ท่าต่อสู้นี้แล้ว โปเกมอนนี้ จะใช้ [ไฟลุกบุกทะลวง] ไม่ได้จนกว่าจะออกจากตำแหน่งต่อสู้",
+			'ja-jp': "このワザを使ったなら、このポケモンは、バトル場をはなれるまで「れっかばくしん」が使えない。",
+			'id-id': "Jika Pokémon ini telah menggunakan serangan ini, Pokémon ini tidak dapat menggunakan Maju Pesat Api Berkobar hingga meninggalkan Arena Bertarung.",
+			'th-th': "ถ้าใช้ท่าต่อสู้นี้แล้ว โปเกมอนนี้ จะใช้ [ไฟลุกบุกทะลวง] ไม่ได้จนกว่าจะออกจากตำแหน่งต่อสู้",
 			'zh-tw': "若使用了這個招式，則這隻寶可夢離開戰鬥場前無法使用「烈火爆進」。",
 			'zh-cn': "若使用了這個招式，則這隻寶可夢離開戰鬥場前無法使用「烈火爆進」。"
 		}

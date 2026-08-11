@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Serperior",
+		'en-us': "Serperior",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Servine",
+		'en-us': "Servine",
 	},
 
 	stage: "Stage2",
@@ -31,10 +31,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Royal Garden",
+				'en-us': "Royal Garden",
 			},
 			effect: {
-				en: "If this Pokémon has any Grass Energy attached to it, this Pokémon has no Retreat Cost.",
+				'en-us': "If this Pokémon has any Grass Energy attached to it, this Pokémon has no Retreat Cost.",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Solar Beam",
+				'en-us': "Solar Beam",
 			},
 
 			damage: 80,
@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It only gives its all against strong opponents who are not fazed by the glare from Serperior's noble eyes.",
+		'en-us': "It only gives its all against strong opponents who are not fazed by the glare from Serperior's noble eyes.",
 	},
 
 	thirdParty: {

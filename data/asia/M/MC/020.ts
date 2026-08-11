@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レディアン",
+		'ja-jp': "レディアン",
 	},
 
 	illustrator: "Natsumi Yoshida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "夜空に 星が 瞬くとき 輝く 粉を 振りまきながら ひらひらと 飛んでいく。",
+		'ja-jp': "夜空に 星が 瞬くとき 輝く 粉を 振りまきながら ひらひらと 飛んでいく。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "きらぼしもよう" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のベンチの残りHPが「90」以下のポケモンを1匹選び、バトルポケモンと入れ替える。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のベンチの残りHPが「90」以下のポケモンを1匹選び、バトルポケモンと入れ替える。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "レディバ",
+		'ja-jp': "レディバ",
 	},
 
 	retreat: 0,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドリュウズ",
+		'ja-jp': "ドリュウズ",
 	},
 
 	illustrator: "Yuya Oka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "鋼に 進化した ドリルは 鉄板を 貫く 破壊力。 トンネル工事で 大活躍する。",
+		'ja-jp': "鋼に 進化した ドリルは 鉄板を 貫く 破壊力。 トンネル工事で 大活躍する。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手の山札を上から1枚トラッシュする。",
+				'ja-jp': "相手の山札を上から1枚トラッシュする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "自分のベンチに[M]ポケモンがいるなら、80ダメージ追加。",
+				'ja-jp': "自分のベンチに[M]ポケモンがいるなら、80ダメージ追加。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モグリュー",
+		'ja-jp': "モグリュー",
 	},
 
 	retreat: 2,

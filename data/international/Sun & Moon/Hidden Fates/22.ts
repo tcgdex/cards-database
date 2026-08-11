@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Electrode",
-		fr: "Électrode",
+		'en-us': "Electrode",
+		'fr-fr': "Électrode",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Voltorb",
-		fr: "Voltorbe",
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe",
 	},
 
 	stage: "Stage1",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Lightning Ball",
-				fr: "Boule Éclair",
+				'en-us': "Lightning Ball",
+				'fr-fr': "Boule Éclair",
 			},
 
 			damage: 30,
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electroblast",
-				fr: "Électro-Explosion",
+				'en-us': "Electroblast",
+				'fr-fr': "Électro-Explosion",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
+				'en-us': "Flip 2 coins. This attack does 30 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
 			},
 			damage: "60+",
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It explodes in response to even minor stimuli. It is feared, with the nickname of \"The Bomb Ball.\"",
+		'en-us': "It explodes in response to even minor stimuli. It is feared, with the nickname of \"The Bomb Ball.\"",
 	},
 
 	thirdParty: {

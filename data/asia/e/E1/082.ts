@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピチュ",
+		'ja-jp': "ピチュ",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "エネルギーパッチ",
+				'ja-jp': "エネルギーパッチ",
 			},
 			effect: {
-				ja: "ポケモンの1つに取り付けられた基本的なエネルギーカードを取り、ポケモンのもう1つに取り付けます。",
+				'ja-jp': "ポケモンの1つに取り付けられた基本的なエネルギーカードを取り、ポケモンのもう1つに取り付けます。",
 			},
 		},
 	],

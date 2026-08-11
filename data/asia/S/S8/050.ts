@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドロンチ",
+		'ja-jp': "ドロンチ",
 		'zh-tw': "多龍奇",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "世話をする ドラメシヤを 頭に 乗せていないと 落ち着かないので ほかの ポケモンを 乗せようとする。",
+		'ja-jp': "世話をする ドラメシヤを 頭に 乗せていないと 落ち着かないので ほかの ポケモンを 乗せようとする。",
 		'zh-tw': "要是沒讓自己在照顧的多龍梅西亞乘在頭上就靜不下心來，甚至會因此試圖把別的寶可夢放到頭上。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ホロウショット",
+				'ja-jp': "ホロウショット",
 				'zh-tw': "陰森射擊",
 			},
 			damage: 20,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "とんぼがえり",
+				'ja-jp': "とんぼがえり",
 				'zh-tw': "急速折返",
 			},
 			damage: 30,
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "このポケモンをベンチポケモンと入れ替える。",
 				'zh-tw': "將這隻寶可夢與備戰寶可夢互換。",
 			},
 		},
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ドラメシヤ",
+		'ja-jp': "ドラメシヤ",
 	},
 
 	retreat: 1,

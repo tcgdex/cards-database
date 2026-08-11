@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "オオタチ"
+		'ja-jp': "オオタチ"
 	},
 
 	illustrator: "REND",
@@ -16,7 +16,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "細長い 巣穴で 子育て。 子供が 育つと 巣穴の 外で 独り立ちの 準備を させる。"
+		'ja-jp': "細長い 巣穴で 子育て。 子供が 育つと 巣穴の 外で 独り立ちの 準備を させる。"
 	},
 
 	stage: "Stage1",
@@ -25,7 +25,7 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ひっかく"
+			'ja-jp': "ひっかく"
 		},
 
 		damage: 40
@@ -33,7 +33,7 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ジェットヘッド"
+			'ja-jp': "ジェットヘッド"
 		},
 
 		damage: 70

@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Call of Legends'
 
 const col1: Set = {
 	id: "col1",
 
 	name: {
-		en: "Call of Legends",
-		fr: "L'appel des Légendes",
-		it: "Richiamo delle Leggende",
-		de: "Ruf der Legenden",
-		pt: "Chamado das Lendas",
-		es: "Llamada de las Leyendas" // NOTE: only went out in the TCGO
+		'en-us': "Call of Legends",
+		'fr-fr': "L'appel des Légendes",
+		'it-it': "Richiamo delle Leggende",
+		'de-de': "Ruf der Legenden",
+		'pt-br': "Chamado das Lendas",
+		'es-es': "Llamada de las Leyendas" // NOTE: only went out in the TCGO
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const col1: Set = {
 
 	abbreviations: {
 		official: "COL",
-		fr: "LDL"
+		'fr-fr': "LDL"
 	},
 
 	thirdParty: {

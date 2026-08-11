@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Glaceon",
-		fr: "Givrali",
-		es: "Glaceon",
-		it: "Glaceon",
-		pt: "Glaceon",
-		de: "Glaziola"
+		'en-us': "Glaceon",
+		'fr-fr': "Givrali",
+		'es-es': "Glaceon",
+		'it-it': "Glaceon",
+		'pt-br': "Glaceon",
+		'de-de': "Glaziola"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Freeze Zone",
-				fr: "Zone de Gel",
-				es: "Congelar Zona",
-				it: "Freddezza",
-				pt: "Zona de Congelamento",
-				de: "Frostzone"
+				'en-us': "Freeze Zone",
+				'fr-fr': "Zone de Gel",
+				'es-es': "Congelar Zona",
+				'it-it': "Freddezza",
+				'pt-br': "Zona de Congelamento",
+				'de-de': "Frostzone"
 			},
 			effect: {
-				en: "The Retreat Cost of each of your Team Plasma Pokémon in play is ColorlessColorless less.",
-				fr: "Le coût de Retraite de chacun de vos Pokémon de la Team Plasma en jeu est diminué de ColorlessColorless.",
-				es: "El Coste de Retirada de cada uno de tus Pokémon del Equipo Plasma en juego es de ColorlessColorless menos.",
-				it: "Il costo di ritirata di ciascun Pokémon Team Plasma in gioco scende di ColorlessColorless.",
-				pt: "O Custo para Recuar de cada um de seus Pokémon da Equipe Plasma em jogo será de Colorless Colorless a menos.",
-				de: "Die Rückzugskosten aller Team-Plasma-Pokémon im Spiel verringern sich um Colorless Colorless."
+				'en-us': "The Retreat Cost of each of your Team Plasma Pokémon in play is ColorlessColorless less.",
+				'fr-fr': "Le coût de Retraite de chacun de vos Pokémon de la Team Plasma en jeu est diminué de ColorlessColorless.",
+				'es-es': "El Coste de Retirada de cada uno de tus Pokémon del Equipo Plasma en juego es de ColorlessColorless menos.",
+				'it-it': "Il costo di ritirata di ciascun Pokémon Team Plasma in gioco scende di ColorlessColorless.",
+				'pt-br': "O Custo para Recuar de cada um de seus Pokémon da Equipe Plasma em jogo será de Colorless Colorless a menos.",
+				'de-de': "Die Rückzugskosten aller Team-Plasma-Pokémon im Spiel verringern sich um Colorless Colorless."
 			},
 		},
 	],
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Icy Wind",
-				fr: "Vent Glace",
+				'en-us': "Icy Wind",
+				'fr-fr': "Vent Glace",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
 			},
 			damage: 60,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It lowers its body heat to freeze its fur. The hairs then become like needles it can fire.",
+		'en-us': "It lowers its body heat to freeze its fur. The hairs then become like needles it can fire.",
 	},
 
 	thirdParty: {

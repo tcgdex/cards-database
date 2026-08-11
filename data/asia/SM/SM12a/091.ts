@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジラーチ",
+		'ja-jp': "ジラーチ",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "１０００年間で ７日だけ 目を 覚まし どんな 願い事でも かなえる 力を 使うという。",
+		'ja-jp': "１０００年間で ７日だけ 目を 覚まし どんな 願い事でも かなえる 力を 使うという。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ほしにねがいを" },
 			effect: {
-				ja: "自分の番に、ウラになっている自分のサイドからこのカードをとったとき、自分のベンチに空きがあるなら、手札に加える前に使える。このポケモンを自分のベンチに出し、さらにサイドを1枚とる。",
+				'ja-jp': "自分の番に、ウラになっている自分のサイドからこのカードをとったとき、自分のベンチに空きがあるなら、手札に加える前に使える。このポケモンを自分のベンチに出し、さらにサイドを1枚とる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンをねむりにする。次の相手の番の終わりに、このワザを受けた相手のポケモンはきぜつする。",
+				'ja-jp': "このポケモンをねむりにする。次の相手の番の終わりに、このワザを受けた相手のポケモンはきぜつする。",
 			},
 		},
 	],

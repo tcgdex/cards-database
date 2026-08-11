@@ -1,30 +1,30 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミミロル"
+		'ja-jp': "ミミロル"
 	},
 	illustrator: "ryoma uratsuka",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Colorless"],
 	description: {
-		ja: "まるめた耳を伸ばす勢いで攻撃する技はトレーニングをするほど威力が増していく。"
+		'ja-jp': "まるめた耳を伸ばす勢いで攻撃する技はトレーニングをするほど威力が増していく。"
 	},
 	stage: "Basic",
 	attacks: [{
 		name: {
-			ja: "あまえる"
+			'ja-jp': "あまえる"
 		},
 		effect: {
-			ja: "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-20」される。"
+			'ja-jp': "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-20」される。"
 		},
 		cost: ["Colorless"]
 	}, {
 		name: {
-			ja: "スキップ"
+			'ja-jp': "スキップ"
 		},
 		damage: 10,
 		cost: ["Colorless"]

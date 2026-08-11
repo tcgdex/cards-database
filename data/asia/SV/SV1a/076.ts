@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ニャローテ"
+		'ja-jp': "ニャローテ"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "長い 体毛の下に 隠した ツタを 器用に 操り 硬い つぼみを 敵に 叩きつける。"
+		'ja-jp': "長い 体毛の下に 隠した ツタを 器用に 操り 硬い つぼみを 敵に 叩きつける。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "タネばくだん"
+			'ja-jp': "タネばくだん"
 		},
 
 		damage: 30
@@ -32,13 +32,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "マジックウィップ"
+			'ja-jp': "マジックウィップ"
 		},
 
 		damage: 50,
 
 		effect: {
-			ja: "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］"
+			'ja-jp': "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］"
 		}
 	}],
 

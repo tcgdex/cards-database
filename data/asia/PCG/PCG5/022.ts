@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラプラス",
+		'ja-jp': "ラプラス",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "サポートナビゲーション",
+				'ja-jp': "サポートナビゲーション",
 			},
 			effect: {
-				ja: "ターン中にラプラスを手からベンチに置いたら、デッキをサポーターカードで検索し、相手に見せて、手に置くことができます。その後、デッキをシャッフルします。",
+				'ja-jp': "ターン中にラプラスを手からベンチに置いたら、デッキをサポーターカードで検索し、相手に見せて、手に置くことができます。その後、デッキをシャッフルします。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "サーフィン",
+				'ja-jp': "サーフィン",
 			},
 			damage: 30,
 		},

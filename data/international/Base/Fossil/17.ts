@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fossil'
 
 const card: Card = {
 	name: {
-		en: "Articuno",
-		fr: "Artikodin",
-		de: "Arktos"
+		'en-us': "Articuno",
+		'fr-fr': "Artikodin",
+		'de-de': "Arktos"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -33,14 +33,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Freeze Dry",
-				fr: "Blocage glacial",
-				de: "Gefriertrocknung"
+				'en-us': "Freeze Dry",
+				'fr-fr': "Blocage glacial",
+				'de-de': "Gefriertrocknung"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Blizzard",
-				fr: "Blizzard",
-				de: "Blizzard"
+				'en-us': "Blizzard",
+				'fr-fr': "Blizzard",
+				'de-de': "Blizzard"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chacun des Pokémon du Banc de votre adversaire. Si c'est pile, cette attaque inflige 10 dégâts à chacun des Pokémon de votre Banc. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon qui sont sur un Banc.)",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff jedem gegnerischen Pokémon auf der Bank 10 Schadenspunkte zu. Bei \"Zahl\" fügt dieser Angriff jedem deiner eigenen Pokémon auf der Bank 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht verwenden.)"
+				'en-us': "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chacun des Pokémon du Banc de votre adversaire. Si c'est pile, cette attaque inflige 10 dégâts à chacun des Pokémon de votre Banc. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon qui sont sur un Banc.)",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff jedem gegnerischen Pokémon auf der Bank 10 Schadenspunkte zu. Bei \"Zahl\" fügt dieser Angriff jedem deiner eigenen Pokémon auf der Bank 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht verwenden.)"
 			},
 			damage: 50,
 
@@ -77,8 +77,8 @@ const card: Card = {
 
 
 	description: {
-		en: "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
-		fr: "Le légendaire oiseau des glaces. On dit qu'il apparaît aux gens perdus dans les sommets."
+		'en-us': "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
+		'fr-fr': "Le légendaire oiseau des glaces. On dit qu'il apparaît aux gens perdus dans les sommets."
 	},
 
 

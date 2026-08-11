@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Glameow",
-		fr: "Chaglam",
-		de: "Charmian"
+		'en-us': "Glameow",
+		'fr-fr': "Chaglam",
+		'de-de': "Charmian"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Captivate",
-				fr: "Séduction",
-				de: "Liebreiz"
+				'en-us': "Captivate",
+				'fr-fr': "Séduction",
+				'de-de': "Liebreiz"
 			},
 			effect: {
-				en: "Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon.",
-				fr: "Échangez 1 des Pokémon de Banc de votre adversaire avec 1 des Pokémon Défenseurs.",
-				de: "Tausche 1 Verteidigendes Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus."
+				'en-us': "Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon.",
+				'fr-fr': "Échangez 1 des Pokémon de Banc de votre adversaire avec 1 des Pokémon Défenseurs.",
+				'de-de': "Tausche 1 Verteidigendes Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 20,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It claws if displeased and purrs when affectionate. Its fickleness is very popular among some.",
+		'en-us': "It claws if displeased and purrs when affectionate. Its fickleness is very popular among some.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Pupitar",
-		fr: "Ymphect",
-		de: "Pupitar"
+		'en-us': "Pupitar",
+		'fr-fr': "Ymphect",
+		'de-de': "Pupitar"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Larvitar",
-		fr: "Embrylex"
+		'en-us': "Larvitar",
+		'fr-fr': "Embrylex"
 	},
 
 	stage: "Stage1",
@@ -34,9 +34,9 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 20,

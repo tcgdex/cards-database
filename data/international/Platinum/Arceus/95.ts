@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Arceus LV.X",
-		fr: "Arceus",
-		de: "Arceus"
+		'en-us': "Arceus LV.X",
+		'fr-fr': "Arceus",
+		'de-de': "Arceus"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare Holo LV.X",
@@ -26,14 +26,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Multitype",
-				fr: "Multi-Type",
-				de: "Variabilität"
+				'en-us': "Multitype",
+				'fr-fr': "Multi-Type",
+				'de-de': "Variabilität"
 			},
 			effect: {
-				en: "Arceus LV.X's type is the same as its previous Level.",
-				fr: "Le type d'Arceus NIV.X est le même qu'au tour précédent.",
-				de: "Arceus LV.X hat denselben Typ wie sein vorheriges Level."
+				'en-us': "Arceus LV.X's type is the same as its previous Level.",
+				'fr-fr': "Le type d'Arceus NIV.X est le même qu'au tour précédent.",
+				'de-de': "Arceus LV.X hat denselben Typ wie sein vorheriges Level."
 			}
 		},
 	],
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Meteor Blast",
-				fr: "Explosion de météores",
-				de: "Meteorexplosion"
+				'en-us': "Meteor Blast",
+				'fr-fr': "Explosion de météores",
+				'de-de': "Meteorexplosion"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack's base damage is 50 instead of 100.",
-				fr: "Lancez une pièce. Si c'est pile, les dégâts de base de cette attaque sont de 50 au lieu de 100.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" beträgt der Grundschaden dieses Angriffs 50 Schadenspunkte anstelle von 100 Schadenspunkten."
+				'en-us': "Flip a coin. If tails, this attack's base damage is 50 instead of 100.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, les dégâts de base de cette attaque sont de 50 au lieu de 100.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" beträgt der Grundschaden dieses Angriffs 50 Schadenspunkte anstelle von 100 Schadenspunkten."
 			},
 			damage: 100,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワニノコ",
+		'ja-jp': "ワニノコ",
 	},
 
 	illustrator: "TOKIYA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "小さいながらも 暴れん坊。 目の前で 動くものが あれば とにかく かみついてくる。",
+		'ja-jp': "小さいながらも 暴れん坊。 目の前で 動くものが あれば とにかく かみついてくる。",
 	},
 
 	stage: "Basic",

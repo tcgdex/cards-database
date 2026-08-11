@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Slowpoke"
+		'en-us': "Sabrina's Slowpoke"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -28,10 +28,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lazy Attack"
+				'en-us': "Lazy Attack"
 			},
 			effect: {
-				en: "Sabrina's Slowpoke is now Asleep (after doing damage)."
+				'en-us': "Sabrina's Slowpoke is now Asleep (after doing damage)."
 			},
 			damage: 30,
 

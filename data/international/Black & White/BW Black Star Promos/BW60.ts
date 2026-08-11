@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Keldeo",
-		fr: "Keldeo",
+		'en-us': "Keldeo",
+		'fr-fr': "Keldeo",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Common",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swords Dance",
-				fr: "Danse-Lames",
+				'en-us': "Swords Dance",
+				'fr-fr': "Danse-Lames",
 			},
 			effect: {
-				en: "During your next turn, this Pokémon's Aqua Blade attack's base damage is 120.",
-				fr: "Pendant votre prochain tour, les dégâts de base de l'attaque Hydrolame de ce Pokémon sont de 120.",
+				'en-us': "During your next turn, this Pokémon's Aqua Blade attack's base damage is 120.",
+				'fr-fr': "Pendant votre prochain tour, les dégâts de base de l'attaque Hydrolame de ce Pokémon sont de 120.",
 			},
 
 		},
@@ -44,8 +44,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Blade",
-				fr: "Hydrolame",
+				'en-us': "Aqua Blade",
+				'fr-fr': "Hydrolame",
 			},
 
 			damage: 60,
@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
+		'en-us': "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
 	},
 }
 

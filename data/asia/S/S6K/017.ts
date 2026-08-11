@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウオチルドンV",
+		'ja-jp': "ウオチルドンV",
 		'zh-tw': "鰓魚海獸V",
 	},
 
@@ -18,13 +18,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "げんしれいとう",
+				'ja-jp': "げんしれいとう",
 				'zh-tw': "終極衝擊",
 			},
 			damage: 80,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けた「ポケモンV・GX」は、ワザが使えない。",
+				'ja-jp': "次の相手の番、このワザを受けた「ポケモンV・GX」は、ワザが使えない。",
 				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
 			},
 		},
@@ -33,7 +33,7 @@ const card: Card = {
 			damage: 220,
 			cost: ["Water", "Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],

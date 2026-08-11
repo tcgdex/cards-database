@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Aspicot",
-		en: "Weedle",
-		es: "Weedle",
-		it: "Weedle",
-		pt: "Weedle",
-		de: "Hornliu"
+		'fr-fr': "Aspicot",
+		'en-us': "Weedle",
+		'es-es': "Weedle",
+		'it-it': "Weedle",
+		'pt-br': "Weedle",
+		'de-de': "Hornliu"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			fr: "Collision",
-			en: "Ram",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'fr-fr': "Collision",
+			'en-us': "Ram",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Piqûre",
-			en: "Bug Bite",
-			es: "Picadura",
-			it: "Coleomorso",
-			pt: "Picada",
-			de: "Käferbiss"
+			'fr-fr': "Piqûre",
+			'en-us': "Bug Bite",
+			'es-es': "Picadura",
+			'it-it': "Coleomorso",
+			'pt-br': "Picada",
+			'de-de': "Käferbiss"
 		},
 
 		damage: 20
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",
+		'en-us': "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",
 	},
 
 	variants: [

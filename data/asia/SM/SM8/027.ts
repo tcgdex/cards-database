@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マンタイン",
+		'ja-jp': "マンタイン",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "悠然と 海を 泳ぐうちに 食べ残しを ねらった テッポウオが ヒレに くっつくが 気にしていない。",
+		'ja-jp': "悠然と 海を 泳ぐうちに 食べ残しを ねらった テッポウオが ヒレに くっつくが 気にしていない。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "マンタインサーフ" },
 			effect: {
-				ja: "このポケモンにエネルギーがついているなら、このポケモンのにげるためのエネルギーは、すべてなくなる。",
+				'ja-jp': "このポケモンにエネルギーがついているなら、このポケモンのにげるためのエネルギーは、すべてなくなる。",
 			},
 		},
 	],

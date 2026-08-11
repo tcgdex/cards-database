@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Brionne",
-		fr: "Otarlette",
-		es: "Brionne",
-		it: "Brionne",
-		pt: "Brionne",
-		de: "Marikeck"
+		'en-us': "Brionne",
+		'fr-fr': "Otarlette",
+		'es-es': "Brionne",
+		'it-it': "Brionne",
+		'pt-br': "Brionne",
+		'de-de': "Marikeck"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Popplio",
-		fr: "Otaquin",
+		'en-us': "Popplio",
+		'fr-fr': "Otaquin",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Captivate",
-				fr: "Séduction",
-				es: "Seducción",
-				it: "Incanto",
-				pt: "Cativar",
-				de: "Liebreiz"
+				'en-us': "Captivate",
+				'fr-fr': "Séduction",
+				'es-es': "Seducción",
+				'it-it': "Incanto",
+				'pt-br': "Cativar",
+				'de-de': "Liebreiz"
 			},
 			effect: {
-				en: "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.",
-				fr: "Échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
-				es: "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
-				it: "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
-				pt: "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
-				de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
+				'en-us': "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.",
+				'fr-fr': "Échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
+				'es-es': "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
+				'it-it': "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
+				'pt-br': "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
+				'de-de': "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
 			},
 
 		},
@@ -61,12 +61,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
-				es: "Pistola Agua",
-				it: "Pistolacqua",
-				pt: "Revólver d’Água",
-				de: "Aquaknarre"
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
+				'es-es': "Pistola Agua",
+				'it-it': "Pistolacqua",
+				'pt-br': "Revólver d’Água",
+				'de-de': "Aquaknarre"
 			},
 
 			damage: 20,
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It cares deeply for its companions. When its Trainer is feeling down, it performs a cheery dance to try and help.",
+		'en-us': "It cares deeply for its companions. When its Trainer is feeling down, it performs a cheery dance to try and help.",
 	},
 
 	thirdParty: {

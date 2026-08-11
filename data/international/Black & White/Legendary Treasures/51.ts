@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Zekrom",
+		'en-us': "Zekrom",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Outrage",
+				'en-us': "Outrage",
 			},
 			effect: {
-				en: "Does 10 more damage for each damage counter on this Pokémon.",
+				'en-us': "Does 10 more damage for each damage counter on this Pokémon.",
 			},
 			damage: 20,
 
@@ -45,10 +45,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bolt Strike",
+				'en-us': "Bolt Strike",
 			},
 			effect: {
-				en: "This Pokémon does 40 damage to itself.",
+				'en-us': "This Pokémon does 40 damage to itself.",
 			},
 			damage: 120,
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity.",
+		'en-us': "This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity.",
 	},
 
 	thirdParty: {

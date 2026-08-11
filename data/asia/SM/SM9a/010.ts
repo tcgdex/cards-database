@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アズマオウ",
+		'ja-jp': "アズマオウ",
 	},
 
 	illustrator: "Midori Harada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ツノは ドリルのように 回転して 硬い 岩も グングン くり貫く。 オスの方が 鮮やかな 色合い。",
+		'ja-jp': "ツノは ドリルのように 回転して 硬い 岩も グングン くり貫く。 オスの方が 鮮やかな 色合い。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Water"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x30ダメージ。このポケモンに「ポケモンのどうぐ」がついているなら、このワザで投げるコインの数は6回になる。",
+				'ja-jp': "コインを2回投げ、オモテの数x30ダメージ。このポケモンに「ポケモンのどうぐ」がついているなら、このワザで投げるコインの数は6回になる。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "トサキント",
+		'ja-jp': "トサキント",
 	},
 
 	retreat: 1,

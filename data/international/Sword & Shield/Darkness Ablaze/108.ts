@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [633],
 
 	name: {
-		en: "Deino",
-		fr: "Solochi",
-		es: "Deino",
-		it: "Deino",
-		pt: "Deino",
-		de: "Kapuno"
+		'en-us': "Deino",
+		'fr-fr': "Solochi",
+		'es-es': "Deino",
+		'it-it': "Deino",
+		'pt-br': "Deino",
+		'de-de': "Kapuno"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 10,
@@ -56,7 +56,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "When it encounters something, its first urge is usually to bite it. If it likes what it tastes, it will commit the associated scent to memory."
+		'en-us': "When it encounters something, its first urge is usually to bite it. If it likes what it tastes, it will commit the associated scent to memory."
 	},
 
 	variants: [

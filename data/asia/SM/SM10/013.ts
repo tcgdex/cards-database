@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニャビー",
+		'ja-jp': "ニャビー",
 	},
 
 	illustrator: "0313",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "しつこく 付きまとわれると 心を 開かなくなる。 懐いてきても 過剰な スキンシップは 禁物。",
+		'ja-jp': "しつこく 付きまとわれると 心を 開かなくなる。 懐いてきても 過剰な スキンシップは 禁物。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "こがす" },
 			cost: ["Fire"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 	],

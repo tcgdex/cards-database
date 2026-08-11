@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リグレー",
+		'ja-jp': "リグレー",
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "凄まじい サイコパワーを 操る。 宇宙人 目撃情報の 多くは リグレーの 見間違いだ。",
+		'ja-jp': "凄まじい サイコパワーを 操る。 宇宙人 目撃情報の 多くは リグレーの 見間違いだ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 	],

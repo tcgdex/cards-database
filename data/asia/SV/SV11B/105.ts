@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒヤップ",
+		'ja-jp': "ヒヤップ",
 	},
 
 	illustrator: "Hoshino KURO",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "頭の ふさに ためた 水は 栄養 たっぷり。 植物に かけると 大きく 育つのだ。",
+		'ja-jp': "頭の ふさに ためた 水は 栄養 たっぷり。 植物に かけると 大きく 育つのだ。",
 	},
 
 	stage: "Basic",

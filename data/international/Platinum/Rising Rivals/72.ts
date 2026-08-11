@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Nidoran ♂",
-		fr: "Nidoran♂ Niv. 9",
-		de: "Nidoran m"
+		'en-us': "Nidoran ♂",
+		'fr-fr': "Nidoran♂ Niv. 9",
+		'de-de': "Nidoran m"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -27,14 +27,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leer",
-				fr: "Groz'yeux",
-				de: "Silberblick"
+				'en-us': "Leer",
+				'fr-fr': "Groz'yeux",
+				'de-de': "Silberblick"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon im nächsten Zug deines Gegners nicht angreifen."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer lors du prochain tour de votre adversaire.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon im nächsten Zug deines Gegners nicht angreifen."
 			},
 
 		},
@@ -44,14 +44,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Hazard",
-				fr: "Chanc'korne",
-				de: "Gefährliches Horn"
+				'en-us': "Horn Hazard",
+				'fr-fr': "Chanc'korne",
+				'de-de': "Gefährliches Horn"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 40,
 
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It scans its surroundings by raising its ears out of the grass. Its toxic horn is for protection."
+		'en-us': "It scans its surroundings by raising its ears out of the grass. Its toxic horn is for protection."
 	},
 
 	variants: [

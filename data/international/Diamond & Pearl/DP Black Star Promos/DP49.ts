@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../DP Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Dialga",
-		de: "Dialga"
+		'en-us': "Dialga",
+		'de-de': "Dialga"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Time Call",
-				de: "Time Call"
+				'en-us': "Time Call",
+				'de-de': "Time Call"
 			},
 			effect: {
-				en: "Search your deck for a card that evolves from 1 of your Pokémon and put it on that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward.",
-				de: "Search your deck for a card that evolves from 1 of your Pokémon and put it onto that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward."
+				'en-us': "Search your deck for a card that evolves from 1 of your Pokémon and put it on that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward.",
+				'de-de': "Search your deck for a card that evolves from 1 of your Pokémon and put it onto that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward."
 			},
 
 		},
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Time Wager",
-				de: "Time Wager"
+				'en-us': "Time Wager",
+				'de-de': "Time Wager"
 			},
 			effect: {
-				en: "Flip 2 coins. If either of them is tails, this attack's base damage is 50 instead of 100.",
-				de: "Flip 2 coins. If either of them is tails, this attack's base damage is 50 instead of 100."
+				'en-us': "Flip 2 coins. If either of them is tails, this attack's base damage is 50 instead of 100.",
+				'de-de': "Flip 2 coins. If either of them is tails, this attack's base damage is 50 instead of 100."
 			},
 			damage: 100,
 
@@ -71,7 +71,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
+		'en-us': "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
 	},
 
 	variants: [

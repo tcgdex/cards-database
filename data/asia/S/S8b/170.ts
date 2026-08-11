@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "みずの塔",
+		'ja-jp': "みずの塔",
 		'zh-tw': "水之塔",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいの「れんげき」のポケモン全員のにげるためのエネルギーは、それぞれ2個ぶん少なくなる。",
+		'ja-jp': "おたがいの「れんげき」のポケモン全員のにげるためのエネルギーは、それぞれ2個ぶん少なくなる。",
 		'zh-tw': "雙方的所有「連擊」寶可夢【撤退】所需的能量各減少2個。",
 	},
 

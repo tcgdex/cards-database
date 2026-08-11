@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パンプジン",
+		'ja-jp': "パンプジン",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "新月の 夜に 不気味な 声で 歌いながら 街中を さまよう。 その歌を 聞くと のろわれる。",
+		'ja-jp': "新月の 夜に 不気味な 声で 歌いながら 街中を さまよう。 その歌を 聞くと のろわれる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "あやしいひかり" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "ダメージを与える前に、自分の場にある「ポケモンのどうぐ」を好きなだけトラッシュし、その枚数x40ダメージ追加。",
+				'ja-jp': "ダメージを与える前に、自分の場にある「ポケモンのどうぐ」を好きなだけトラッシュし、その枚数x40ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "バケッチャ",
+		'ja-jp': "バケッチャ",
 	},
 
 	retreat: 3,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クレセリア",
+		'ja-jp': "クレセリア",
 	},
 
 	illustrator: "chibi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "クレセリアの 羽を 持って 寝ると 楽しい 夢が 見られると いう。 三日月の化身と 呼ばれている。",
+		'ja-jp': "クレセリアの 羽を 持って 寝ると 楽しい 夢が 見られると いう。 三日月の化身と 呼ばれている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "みかづきがえし" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、1個トラッシュする。その後、おたがいのバトルポケモンにのっているダメカンを、すべてのせ替える。",
+				'ja-jp': "このポケモンについているエネルギーを、1個トラッシュする。その後、おたがいのバトルポケモンにのっているダメカンを、すべてのせ替える。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数x20ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数x20ダメージ追加。",
 			},
 		},
 	],

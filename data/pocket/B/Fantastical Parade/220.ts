@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [140],
 
 	name: {
-		en: "Kabuto"
+		'en-us': "Kabuto"
 	},
 
 	illustrator: "Krgc",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Dome Fossil"
+		'en-us': "Dome Fossil"
 	},
 
 	description: {
-		en: "This species is almost entirely extinct. Kabuto\nmolt every three days, making their shells harder\nand harder."
+		'en-us': "This species is almost entirely extinct. Kabuto\nmolt every three days, making their shells harder\nand harder."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Shell Attack"
+			'en-us': "Shell Attack"
 		},
 
 		damage: 40,

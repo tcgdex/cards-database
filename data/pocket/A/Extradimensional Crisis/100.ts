@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arcanine ex",
-		fr: "Arcanin-ex"
+		'en-us': "Arcanine ex",
+		'fr-fr': "Arcanin-ex"
 	},
 
 	illustrator: "PLANETA Saito",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Growlithe"
+		'en-us': "Growlithe"
 	},
 
 	stage: "Stage1",
@@ -25,16 +25,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Inferno Onrush",
-			fr: "Torrent d'Enfer"
+			'en-us': "Inferno Onrush",
+			'fr-fr': "Torrent d'Enfer"
 		},
 
 		damage: 120,
 		cost: ["Fire", "Fire", "Colorless"],
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 20 dégâts."
+			'en-us': "This Pokémon also does 20 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 20 dégâts."
 		}
 	}],
 

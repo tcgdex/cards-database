@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Altaria",
-		fr: "Altaria",
-		de: "Altaria"
+		'en-us': "Altaria",
+		'fr-fr': "Altaria",
+		'de-de': "Altaria"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Swablu",
-		fr: "Tylton"
+		'en-us': "Swablu",
+		'fr-fr': "Tylton"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Midnight Eyes",
-				fr: "Yeux de minuit",
-				de: "Mitternachtsaugen"
+				'en-us': "Midnight Eyes",
+				'fr-fr': "Yeux de minuit",
+				'de-de': "Mitternachtsaugen"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stadium Power",
-				fr: "Stade puissant",
-				de: "Stadionpower"
+				'en-us': "Stadium Power",
+				'fr-fr': "Stade puissant",
+				'de-de': "Stadionpower"
 			},
 			effect: {
-				en: "If there is any Stadium card in play, this attack does 40 damage plus 30 more damage.",
-				fr: "Si une carte Stade est en jeu, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wenn sich eine Stadion-Karte im Spiel befindet, fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "If there is any Stadium card in play, this attack does 40 damage plus 30 more damage.",
+				'fr-fr': "Si une carte Stade est en jeu, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "Wenn sich eine Stadion-Karte im Spiel befindet, fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It flies gracefully through the sky. Its melodic humming makes you feel like you’re in a dream."
+		'en-us': "It flies gracefully through the sky. Its melodic humming makes you feel like you’re in a dream."
 	},
 
 	variants: [		{

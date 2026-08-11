@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゾロアークGX",
+		'ja-jp': "ゾロアークGX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "とりひき" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札を1枚トラッシュする。その後、山札を2枚引く。",
+				'ja-jp': "自分の番に1回使える。自分の手札を1枚トラッシュする。その後、山札を2枚引く。",
 			},
 		},
 	],
@@ -30,14 +30,14 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の場のポケモンの数x20ダメージ。",
+				'ja-jp': "自分の場のポケモンの数x20ダメージ。",
 			},
 		},
 		{
 			name: { ja: "トリックスターGX" },
 			cost: ["Darkness", "Darkness"],
 			effect: {
-				ja: "相手の場のポケモンが持っているワザを1つ選び、このワザとして使う。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手の場のポケモンが持っているワザを1つ選び、このワザとして使う。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゾロア",
+		'ja-jp': "ゾロア",
 	},
 
 	retreat: 2,

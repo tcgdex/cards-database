@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒビキのホウオウex",
+		'ja-jp': "ヒビキのホウオウex",
 	},
 
 	illustrator: "aky CG Works",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "こんじきのほのお" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札から「基本[R]エネルギー」を2枚まで選び、ベンチの「ヒビキのポケモン」1匹につける。",
+				'ja-jp': "自分の番に1回使える。自分の手札から「基本[R]エネルギー」を2枚まで選び、ベンチの「ヒビキのポケモン」1匹につける。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Fire", "Fire", "Fire", "Fire"],
 			effect: {
-				ja: "自分のポケモン全員のHPを、それぞれ「50」回復する。",
+				'ja-jp': "自分のポケモン全員のHPを、それぞれ「50」回復する。",
 			},
 		},
 	],

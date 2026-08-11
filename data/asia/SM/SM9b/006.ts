@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モジャンボ",
+		'ja-jp': "モジャンボ",
 	},
 
 	illustrator: "kodama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "植物の ツルで できた 腕を 伸ばして 獲物を 絡め取る。 腕を 食べられても へっちゃら。",
+		'ja-jp': "植物の ツルで できた 腕を 伸ばして 獲物を 絡め取る。 腕を 食べられても へっちゃら。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Grass"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンに[草]エネルギーが2個ついているなら、このポケモンのHPを「60」回復する。",
+				'ja-jp': "このポケモンに[草]エネルギーが2個ついているなら、このポケモンのHPを「60」回復する。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モンジャラ",
+		'ja-jp': "モンジャラ",
 	},
 
 	retreat: 3,

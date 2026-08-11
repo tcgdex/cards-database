@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Espurr",
-		fr: "Psystigri",
-		es: "Espurr",
-		it: "Espurr",
-		pt: "Espurr",
-		de: "Psiau"
+		'en-us': "Espurr",
+		'fr-fr': "Psystigri",
+		'es-es': "Espurr",
+		'it-it': "Espurr",
+		'pt-br': "Espurr",
+		'de-de': "Psiau"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				es: "Arañazo",
-				it: "Graffio",
-				pt: "Arranhão",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'es-es': "Arañazo",
+				'it-it': "Graffio",
+				'pt-br': "Arranhão",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has enough psychic energy to blast everything within 300 feet of itself, but it has no control over its power.",
+		'en-us': "It has enough psychic energy to blast everything within 300 feet of itself, but it has no control over its power.",
 	},
 
 	thirdParty: {

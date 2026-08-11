@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sableye"
+		'en-us': "Sableye"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Materials from gems it has eaten float to the\nsurface of its body and can form an infinite\nnumber of patterns among individuals."
+		'en-us': "Materials from gems it has eaten float to the\nsurface of its body and can form an infinite\nnumber of patterns among individuals."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Dirty Throw"
+			'en-us': "Dirty Throw"
 		},
 
 		damage: 70,
 		cost: ["Psychic", "Psychic"],
 
 		effect: {
-			en: "Discard a card from your hand. If you can't, this attack does nothing."
+			'en-us': "Discard a card from your hand. If you can't, this attack does nothing."
 		}
 	}],
 

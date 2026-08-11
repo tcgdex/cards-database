@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Ralts",
-		fr: "Tarsal",
-		es: "Ralts",
-		it: "Ralts",
-		pt: "Ralts",
-		de: "Trasla"
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal",
+		'es-es': "Ralts",
+		'it-it': "Ralts",
+		'pt-br': "Ralts",
+		'de-de': "Trasla"
 	},
 
 	illustrator: "Yuka Morii",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Beckon",
-				fr: "Invite",
-				es: "Hacer Señas",
-				it: "Appello",
-				pt: "Aceno",
-				de: "Herbeiwinken"
+				'en-us': "Beckon",
+				'fr-fr': "Invite",
+				'es-es': "Hacer Señas",
+				'it-it': "Appello",
+				'pt-br': "Aceno",
+				'de-de': "Herbeiwinken"
 			},
 			effect: {
-				en: "Put a Supporter card from your discard pile into your hand.",
-				fr: "Ajoutez une carte Supporter de votre pile de défausse à votre main.",
-				es: "Pon 1 carta de Partidario de tu pila de descartes en tu mano.",
-				it: "Prendi una carta Aiuto dalla tua pila degli scarti e aggiungila alle carte che hai in mano.",
-				pt: "Coloque 1 carta de Apoiador da sua pilha de descarte na sua mão.",
-				de: "Nimm 1 Unterstützerkarte aus deinem Ablagestapel auf deine Hand."
+				'en-us': "Put a Supporter card from your discard pile into your hand.",
+				'fr-fr': "Ajoutez une carte Supporter de votre pile de défausse à votre main.",
+				'es-es': "Pon 1 carta de Partidario de tu pila de descartes en tu mano.",
+				'it-it': "Prendi una carta Aiuto dalla tua pila degli scarti e aggiungila alle carte che hai in mano.",
+				'pt-br': "Coloque 1 carta de Apoiador da sua pilha de descarte na sua mão.",
+				'de-de': "Nimm 1 Unterstützerkarte aus deinem Ablagestapel auf deine Hand."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beat",
-				fr: "Bataille",
-				es: "Toque",
-				it: "Battuta",
-				pt: "Pulso",
-				de: "Verprügler"
+				'en-us': "Beat",
+				'fr-fr': "Bataille",
+				'es-es': "Toque",
+				'it-it': "Battuta",
+				'pt-br': "Pulso",
+				'de-de': "Verprügler"
 			},
 
 			damage: 20,
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is highly attuned to the emotions of people and Pokémon. It hides if it senses hostility.",
+		'en-us': "It is highly attuned to the emotions of people and Pokémon. It hides if it senses hostility.",
 	},
 
 	thirdParty: {

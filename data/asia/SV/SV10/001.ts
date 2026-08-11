@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クヌギダマ",
+		'ja-jp': "クヌギダマ",
 		'zh-tw': "榛果球",
 		'zh-cn': "榛果球",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "木の 皮を 重ね合わせて 殻を 分厚くするのが 大好き。 重くなっても 気にしない。",
+		'ja-jp': "木の 皮を 重ね合わせて 殻を 分厚くするのが 大好き。 重くなっても 気にしない。",
 		'zh-tw': "最喜歡把樹皮 疊在身上加厚外殼。 就算因此變重也毫不在意。",
 		'zh-cn': "最喜歡把樹皮 疊在身上加厚外殼。 就算因此變重也毫不在意。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶらさがる",
+				'ja-jp': "ぶらさがる",
 				'zh-tw': "垂吊",
 				'zh-cn': "垂吊",
 			},

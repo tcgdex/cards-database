@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Golbat",
-		fr: "Nosferalto",
-		es: "Golbat",
-		it: "Golbat",
-		pt: "Golbat",
-		de: "Golbat"
+		'en-us': "Golbat",
+		'fr-fr': "Nosferalto",
+		'es-es': "Golbat",
+		'it-it': "Golbat",
+		'pt-br': "Golbat",
+		'de-de': "Golbat"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Zubat",
-		fr: "Nosferapti",
-		es: "Zubat",
-		it: "Zubat",
-		pt: "Zubat",
-		de: "Zubat"
+		'en-us': "Zubat",
+		'fr-fr': "Nosferapti",
+		'es-es': "Zubat",
+		'it-it': "Zubat",
+		'pt-br': "Zubat",
+		'de-de': "Zubat"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			es: "Mordisco",
-			it: "Morso",
-			pt: "Mordida",
-			de: "Biss"
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'es-es': "Mordisco",
+			'it-it': "Morso",
+			'pt-br': "Mordida",
+			'de-de': "Biss"
 		},
 
 		damage: 30
@@ -57,7 +57,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It loves to drink other creatures' blood. It's said that if it finds others of its kind going hungry, it sometimes shares the blood it's gathered.",
+		'en-us': "It loves to drink other creatures' blood. It's said that if it finds others of its kind going hungry, it sometimes shares the blood it's gathered.",
 	},
 
 	variants: [

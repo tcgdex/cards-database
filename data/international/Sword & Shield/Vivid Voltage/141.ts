@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	name: {
-		en: "Togekiss VMAX",
-		fr: "Togekiss VMAX",
-		es: "Togekiss VMAX",
-		it: "Togekiss VMAX",
-		pt: "Togekiss VMAX",
-		de: "Togekiss VMAX"
+		'en-us': "Togekiss VMAX",
+		'fr-fr': "Togekiss VMAX",
+		'es-es': "Togekiss VMAX",
+		'it-it': "Togekiss VMAX",
+		'pt-br': "Togekiss VMAX",
+		'de-de': "Togekiss VMAX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -23,12 +23,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Togekiss V",
-		fr: "Togekiss-V",
-		es: "Togekiss V",
-		it: "Togekiss-V",
-		pt: "Togekiss V",
-		de: "Togekiss-V"
+		'en-us': "Togekiss V",
+		'fr-fr': "Togekiss-V",
+		'es-es': "Togekiss V",
+		'it-it': "Togekiss-V",
+		'pt-br': "Togekiss V",
+		'de-de': "Togekiss-V"
 	},
 
 	attacks: [
@@ -38,20 +38,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Max Glide",
-				fr: "Glissomax",
-				es: "Maxiplaneo",
-				it: "Dynaliante",
-				pt: "Planeio Max",
-				de: "Dyna-Gleiten"
+				'en-us': "Max Glide",
+				'fr-fr': "Glissomax",
+				'es-es': "Maxiplaneo",
+				'it-it': "Dynaliante",
+				'pt-br': "Planeio Max",
+				'de-de': "Dyna-Gleiten"
 			},
 			effect: {
-				en: "You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
-				fr: "Vous pouvez chercher dans votre deck jusqu'à 2 cartes, puis les ajouter à votre main. Mélangez ensuite votre deck.",
-				es: "Puedes buscar en tu baraja hasta 2 cartas y ponerlas en tu mano. Después, baraja las cartas de tu baraja.",
-				it: "Puoi cercare nel tuo mazzo fino a due carte e aggiungerle alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-				pt: "Você pode procurar por até 2 cartas no seu baralho e colocá-las na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Du kannst dein Deck nach bis zu 2 Karten durchsuchen und sie auf deine Hand nehmen. Mische anschließend dein Deck."
+				'en-us': "You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
+				'fr-fr': "Vous pouvez chercher dans votre deck jusqu'à 2 cartes, puis les ajouter à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Puedes buscar en tu baraja hasta 2 cartas y ponerlas en tu mano. Después, baraja las cartas de tu baraja.",
+				'it-it': "Puoi cercare nel tuo mazzo fino a due carte e aggiungerle alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Você pode procurar por até 2 cartas no seu baralho e colocá-las na sua mão. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Du kannst dein Deck nach bis zu 2 Karten durchsuchen und sie auf deine Hand nehmen. Mische anschließend dein Deck."
 			},
 			damage: 120,
 

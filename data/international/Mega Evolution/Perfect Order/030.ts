@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
@@ -7,13 +7,13 @@ const card: Card = {
 	dexId: [35],
 
 	name: {
-		en: "Clefairy",
-		fr: "Mélofée",
-		es: "Clefairy",
+		'en-us': "Clefairy",
+		'fr-fr': "Mélofée",
+		'es-es': "Clefairy",
 		'es-mx': "Clefairy",
-		de: "Piepi",
-		it: "Clefairy",
-		pt: "Clefairy"
+		'de-de': "Piepi",
+		'it-it': "Clefairy",
+		'pt-br': "Clefairy"
 	},
 
 	illustrator: "Natsumi Yoshida",
@@ -27,35 +27,35 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Follow Me",
-			fr: "Par Ici",
-			es: "Señuelo",
+			'en-us': "Follow Me",
+			'fr-fr': "Par Ici",
+			'es-es': "Señuelo",
 			'es-mx': "Señuelo",
-			de: "Spotlight",
-			it: "Sonoqui",
-			pt: "Isca-viva"
+			'de-de': "Spotlight",
+			'it-it': "Sonoqui",
+			'pt-br': "Isca-viva"
 		},
 
 		effect: {
-			en: "Switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
-			fr: "Envoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif.",
-			es: "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
+			'en-us': "Switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
+			'fr-fr': "Envoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif.",
+			'es-es': "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
 			'es-mx': "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
-			de: "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein.",
-			it: "Sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva.",
-			pt: "Mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo."
+			'de-de': "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein.",
+			'it-it': "Sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva.",
+			'pt-br': "Mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo."
 		}
 	}, {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			en: "Flop",
-			fr: "Flop",
-			es: "Vuelta",
+			'en-us': "Flop",
+			'fr-fr': "Flop",
+			'es-es': "Vuelta",
 			'es-mx': "Desplome",
-			de: "Plumps",
-			it: "Tonfo",
-			pt: "Baque"
+			'de-de': "Plumps",
+			'it-it': "Tonfo",
+			'pt-br': "Baque"
 		},
 
 		damage: 30

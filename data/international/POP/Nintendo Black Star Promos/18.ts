@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Nintendo Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Mudkip",
+		'en-us': "Mudkip",
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -27,7 +27,7 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Surf",
+				'en-us': "Surf",
 			},
 
 			damage: 10,
@@ -39,10 +39,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlpool",
+				'en-us': "Whirlpool",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
+				'en-us': "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
 			},
 			damage: 10,
 

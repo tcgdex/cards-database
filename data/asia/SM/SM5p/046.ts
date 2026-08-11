@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マキシ",
+		'ja-jp': "マキシ",
 	},
 
 	illustrator: "Ken Sugimori",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードは、自分の手札にある[水]エネルギーを2枚トラッシュしなければ使えない。自分の山札にある好きなカードを2枚まで、手札に加える。そして山札を切る。",
+		'ja-jp': "このカードは、自分の手札にある[水]エネルギーを2枚トラッシュしなければ使えない。自分の山札にある好きなカードを2枚まで、手札に加える。そして山札を切る。",
 	},
 
 	variants: [

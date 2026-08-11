@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メェークル",
+		'ja-jp': "メェークル",
 	},
 
 	illustrator: "Naoki Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "人と 暮らすようになった 最初の ポケモンと 言われる。 穏やかな 性格の ポケモン。",
+		'ja-jp': "人と 暮らすようになった 最初の ポケモンと 言われる。 穏やかな 性格の ポケモン。",
 	},
 
 	stage: "Basic",

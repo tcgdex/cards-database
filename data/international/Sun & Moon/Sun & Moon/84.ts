@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Krokorok",
-		fr: "Escroco",
-		es: "Krokorok",
-		it: "Krokorok",
-		pt: "Krokorok",
-		de: "Rokkaiman"
+		'en-us': "Krokorok",
+		'fr-fr': "Escroco",
+		'es-es': "Krokorok",
+		'it-it': "Krokorok",
+		'pt-br': "Krokorok",
+		'de-de': "Rokkaiman"
 	},
 
 	illustrator: "kawayoo",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sandile",
-		fr: "Mascaïman",
+		'en-us': "Sandile",
+		'fr-fr': "Mascaïman",
 	},
 
 	stage: "Stage1",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Off",
-				fr: "Sabotage",
-				es: "Desarme",
-				it: "Privazione",
-				pt: "Derrubar",
-				de: "Abschlag"
+				'en-us': "Knock Off",
+				'fr-fr': "Sabotage",
+				'es-es': "Desarme",
+				'it-it': "Privazione",
+				'pt-br': "Derrubar",
+				'de-de': "Abschlag"
 			},
 			effect: {
-				en: "Discard a random card from your opponent’s hand.",
-				fr: "Défaussez au hasard une carte de la main de votre adversaire.",
-				es: "Descarta 1 carta aleatoria de la mano de tu rival.",
-				it: "Scarta una carta a caso dalla mano del tuo avversario.",
-				pt: "Descarte 1 carta aleatória da mão do seu oponente.",
-				de: "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard a random card from your opponent’s hand.",
+				'fr-fr': "Défaussez au hasard une carte de la main de votre adversaire.",
+				'es-es': "Descarta 1 carta aleatoria de la mano de tu rival.",
+				'it-it': "Scarta una carta a caso dalla mano del tuo avversario.",
+				'pt-br': "Descarte 1 carta aleatória da mão do seu oponente.",
+				'de-de': "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 20,
 
@@ -65,12 +65,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Darkness Fang",
-				fr: "Croc Obscur",
-				es: "Colmillo de Oscuridad",
-				it: "Oscurizanna",
-				pt: "Presa Sombria",
-				de: "Fänge der Dunkelheit"
+				'en-us': "Darkness Fang",
+				'fr-fr': "Croc Obscur",
+				'es-es': "Colmillo de Oscuridad",
+				'it-it': "Oscurizanna",
+				'pt-br': "Presa Sombria",
+				'de-de': "Fänge der Dunkelheit"
 			},
 
 			damage: 60,
@@ -95,7 +95,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They move in groups of a few individuals. A female is often the leader of the group, and the males will gather food.",
+		'en-us': "They move in groups of a few individuals. A female is often the leader of the group, and the males will gather food.",
 	},
 
 	thirdParty: {

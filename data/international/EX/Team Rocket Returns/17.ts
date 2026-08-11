@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Dark Raticate",
-		de: "Dunkles Rattikarl"
+		'en-us': "Dark Raticate",
+		'de-de': "Dunkles Rattikarl"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -23,7 +23,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rattata",
+		'en-us': "Rattata",
 	},
 
 	stage: "Stage1",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Dark Seed",
-				de: "Dark Seed"
+				'en-us': "Dark Seed",
+				'de-de': "Dark Seed"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn. Put 5 damage counters on the Defending Pokémon at the end of your opponent's next turn.",
-				de: "The Defending Pokémon can't retreat during opponent's next turn. Put 5 damage counters on the Defending Pokémon at the end of your opponent's next turn."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn. Put 5 damage counters on the Defending Pokémon at the end of your opponent's next turn.",
+				'de-de': "The Defending Pokémon can't retreat during opponent's next turn. Put 5 damage counters on the Defending Pokémon at the end of your opponent's next turn."
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spread Poison",
-				de: "Spread Poison"
+				'en-us': "Spread Poison",
+				'de-de': "Spread Poison"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned. This attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				de: "The Defending Pokémon is now Poisoned. This attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "The Defending Pokémon is now Poisoned. This attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'de-de': "The Defending Pokémon is now Poisoned. This attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 10,
 

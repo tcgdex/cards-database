@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジェット",
+		'ja-jp': "ジェット",
 	},
 
 	illustrator: "GIDORA",
 	category: "Trainer",
 
 	effect: {
-		ja: "相手の場の「メガシンカex」の数ぶん、自分の山札を引く。",
+		'ja-jp': "相手の場の「メガシンカex」の数ぶん、自分の山札を引く。",
 	},
 
 	variants: [

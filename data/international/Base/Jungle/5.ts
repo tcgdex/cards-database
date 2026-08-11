@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Jungle'
 
 const card: Card = {
 	name: {
-		en: "Kangaskhan",
-		fr: "Kangourex",
-		de: "Kangama"
+		'en-us': "Kangaskhan",
+		'fr-fr': "Kangourex",
+		'de-de': "Kangama"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fetch",
-				fr: "Rapporte",
-				de: "Apportieren"
+				'en-us': "Fetch",
+				'fr-fr': "Rapporte",
+				'de-de': "Apportieren"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Ziehe eine Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Ziehe eine Karte."
 			},
 
 		},
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Comet Punch",
-				fr: "Poing comète",
-				de: "Kometenhieb"
+				'en-us': "Comet Punch",
+				'fr-fr': "Poing comète",
+				'de-de': "Kometenhieb"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze \"Kopf\" zeigt, 20 Schadenspunkte zu."
+				'en-us': "Flip 4 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 4 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze \"Kopf\" zeigt, 20 Schadenspunkte zu."
 			},
 			damage: "20x",
 
@@ -81,8 +81,8 @@ const card: Card = {
 
 
 	description: {
-		en: "The infant rarely ventures out of its mother's protective pouch until it is three years old.",
-		fr: "Son enfant ne quitte la poche ventrale protectrice qu'à l'âge de 3 ans."
+		'en-us': "The infant rarely ventures out of its mother's protective pouch until it is three years old.",
+		'fr-fr': "Son enfant ne quitte la poche ventrale protectrice qu'à l'âge de 3 ans."
 	},
 
 

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 6'
 
 const card: Card = {
 	name: {
-		en: "Turtwig",
-		fr: "Turtwig"
+		'en-us': "Turtwig",
+		'fr-fr': "Turtwig"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -26,8 +26,8 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Tackle",
-				fr: "Charge"
+				'en-us': "Tackle",
+				'fr-fr': "Charge"
 			},
 
 			damage: 10,
@@ -38,8 +38,8 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'herbe"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'herbe"
 			},
 
 			damage: 20,
@@ -60,7 +60,7 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "Made from soil, the shell on its back hardens when it drinks water. It lives along lakes."
+		'en-us': "Made from soil, the shell on its back hardens when it drinks water. It lives along lakes."
 	},
 
 	retreat: 2,

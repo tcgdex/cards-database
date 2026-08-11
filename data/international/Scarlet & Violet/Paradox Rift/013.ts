@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Nymble",
-		fr: "Lilliterelle",
-		es: "Nymble",
-		it: "Nymble",
-		pt: "Nymble",
-		de: "Micrick"
+		'en-us': "Nymble",
+		'fr-fr': "Lilliterelle",
+		'es-es': "Nymble",
+		'it-it': "Nymble",
+		'pt-br': "Nymble",
+		'de-de': "Micrick"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Gnaw",
-			fr: "Ronge",
-			es: "Roer",
-			it: "Rosicchiamento",
-			pt: "Roída",
-			de: "Nagen"
+			'en-us': "Gnaw",
+			'fr-fr': "Ronge",
+			'es-es': "Roer",
+			'it-it': "Rosicchiamento",
+			'pt-br': "Roída",
+			'de-de': "Nagen"
 		},
 
 		damage: 10
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It has its third set of legs folded up. When it's in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs.",
+		'en-us': "It has its third set of legs folded up. When it's in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs.",
 	},
 
 	variants: [

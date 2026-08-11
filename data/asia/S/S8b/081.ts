@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マホイップ",
+		'ja-jp': "マホイップ",
 		'zh-tw': "霜奶仙",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "手から 生みだす クリームは マホイップが 幸せなとき 甘味と コクが 深まる。",
+		'ja-jp': "手から 生みだす クリームは マホイップが 幸せなとき 甘味と コクが 深まる。",
 		'zh-tw': "當牠感到幸福的時候，手中產生出的鮮奶油會變得更加香濃甜美。",
 	},
 
@@ -24,11 +24,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ついかオーダー",
+				'ja-jp': "ついかオーダー",
 				'zh-tw': "追加點餐",
 			},
 			effect: {
-				ja: "このポケモンがバトル場にいるかぎり、自分の「マスター」を使っても、自分の番は終わらない。",
+				'ja-jp': "このポケモンがバトル場にいるかぎり、自分の「マスター」を使っても、自分の番は終わらない。",
 				'zh-tw': "只要這隻寶可夢在戰鬥場上，就算使用了自己的「老闆」，自己的回合也不會結束。",
 			},
 		},
@@ -37,13 +37,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "レインボーフレーバー",
+				'ja-jp': "レインボーフレーバー",
 				'zh-tw': "彩虹口味",
 			},
 			damage: "10+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の場のポケモンについている基本エネルギーのタイプの数×40ダメージ追加。",
+				'ja-jp': "自分の場のポケモンについている基本エネルギーのタイプの数×40ダメージ追加。",
 				'zh-tw': "增加自己的場上寶可夢身上附加的基本能量的屬性種類的數量×40點傷害。",
 			},
 		},
@@ -69,7 +69,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マホミル",
+		'ja-jp': "マホミル",
 	},
 
 	retreat: 1,

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 8'
 
 const card: Card = {
 	name: {
-		en: "Riolu",
+		'en-us': "Riolu",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,10 +27,10 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Inner Focus",
+				'en-us': "Inner Focus",
 			},
 			effect: {
-				en: "Riolu can’t be Paralyzed.",
+				'en-us': "Riolu can’t be Paralyzed.",
 			},
 		},
 	],
@@ -41,10 +41,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Quick Attack",
+				'en-us': "Quick Attack",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
 			},
 			damage: "10+",
 
@@ -59,7 +59,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Its body is lithe yet powerful. It can crest three mountains and cross two canyons in one night."
+		'en-us': "Its body is lithe yet powerful. It can crest three mountains and cross two canyons in one night."
 	},
 
 	retreat: 1,

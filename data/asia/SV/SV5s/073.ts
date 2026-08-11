@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Drilbur"
+		'id-id': "Drilbur"
 	},
 
 	illustrator: "Kariya",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Drilbur merapatkan cakar di kedua tangannya, berputar dengan kecepatan tinggi, dan menabrakkan diri ke arah mangsanya."
+		'id-id': "Drilbur merapatkan cakar di kedua tangannya, berputar dengan kecepatan tinggi, dan menabrakkan diri ke arah mangsanya."
 	},
 
 	stage: "Basic",
@@ -23,17 +23,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Menggali Terus"
+			'id-id': "Menggali Terus"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan ke Cadangan. Pilih paling banyak 3 lembar Energi Dasar {Petarung} dari Deck sendiri, lalu buang ke Trash. Kemudian, kocok Deck."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan ke Cadangan. Pilih paling banyak 3 lembar Energi Dasar {Petarung} dari Deck sendiri, lalu buang ke Trash. Kemudian, kocok Deck."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Semburan Pasir"
+			'id-id': "Semburan Pasir"
 		},
 
 		damage: 20,

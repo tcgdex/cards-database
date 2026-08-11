@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Lapras",
-		fr: "Lokhlass",
-		de: "Lapras"
+		'en-us': "Lapras",
+		'fr-fr': "Lokhlass",
+		'de-de': "Lapras"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Beam",
-				fr: "Laser glace",
-				de: "Eisstrahl"
+				'en-us': "Ice Beam",
+				'fr-fr': "Laser glace",
+				'de-de': "Eisstrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -48,14 +48,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Ice Blade",
-				fr: "Lame de glace",
-				de: "Eisklinge"
+				'en-us': "Ice Blade",
+				'fr-fr': "Lame de glace",
+				'de-de': "Eisklinge"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez l’un des Pokémon de votre adversaire. Cette attaque inflige 30 dégâts à ce Pokémon. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
-				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez l’un des Pokémon de votre adversaire. Cette attaque inflige 30 dégâts à ce Pokémon. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
+				'de-de': "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They have gentle hearts. Because they rarely fight, many have been caught. Their number has dwindled."
+		'en-us': "They have gentle hearts. Because they rarely fight, many have been caught. Their number has dwindled."
 	},
 
 	variants: [

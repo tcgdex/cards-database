@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pokémon GO"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Natu",
-		fr: "Natu",
-		es: "Natu",
-		it: "Natu",
-		pt: "Natu",
-		de: "Natu"
+		'en-us': "Natu",
+		'fr-fr': "Natu",
+		'es-es': "Natu",
+		'it-it': "Natu",
+		'pt-br': "Natu",
+		'de-de': "Natu"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -25,32 +25,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Nap",
-			fr: "Tit'Sieste",
-			es: "Siesta",
-			it: "Pausa",
-			pt: "Soneca",
-			de: "Nickerchen"
+			'en-us': "Nap",
+			'fr-fr': "Tit'Sieste",
+			'es-es': "Siesta",
+			'it-it': "Pausa",
+			'pt-br': "Soneca",
+			'de-de': "Nickerchen"
 		},
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon.",
-			fr: "Soignez 20 dégâts de ce Pokémon.",
-			es: "Cura 20 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 20 danni.",
-			pt: "Cure 20 pontos de dano deste Pokémon.",
-			de: "Heile 20 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 20 damage from this Pokémon.",
+			'fr-fr': "Soignez 20 dégâts de ce Pokémon.",
+			'es-es': "Cura 20 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 20 danni.",
+			'pt-br': "Cure 20 pontos de dano deste Pokémon.",
+			'de-de': "Heile 20 Schadenspunkte bei diesem Pokémon."
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Peck",
-			fr: "Picpic",
-			es: "Picotazo",
-			it: "Beccata",
-			pt: "Bicada",
-			de: "Pikser"
+			'en-us': "Peck",
+			'fr-fr': "Picpic",
+			'es-es': "Picotazo",
+			'it-it': "Beccata",
+			'pt-br': "Bicada",
+			'de-de': "Pikser"
 		},
 
 		damage: 20
@@ -73,7 +73,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It is extremely good at climbing tree trunks and likes to eat the new sprouts on the trees.",
+		'en-us': "It is extremely good at climbing tree trunks and likes to eat the new sprouts on the trees.",
 	},
 
 	

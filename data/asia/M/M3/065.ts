@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤヤコマ",
+		'ja-jp': "ヤヤコマ",
 	},
 
 	illustrator: "sowsow",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "さえずる 声は 美しいが 縄張りに 入った 相手は 容赦しない 荒々しさだ。",
+		'ja-jp': "さえずる 声は 美しいが 縄張りに 入った 相手は 容赦しない 荒々しさだ。",
 	},
 
 	stage: "Basic",

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Roucoups",
-		en: "Pidgeotto",
-		es: "Pidgeotto",
-		it: "Pidgeotto",
-		pt: "Pidgeotto",
-		de: "Tauboga"
+		'fr-fr': "Roucoups",
+		'en-us': "Pidgeotto",
+		'es-es': "Pidgeotto",
+		'it-it': "Pidgeotto",
+		'pt-br': "Pidgeotto",
+		'de-de': "Tauboga"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Colorless"],
 	evolveFrom: {
-		fr: "Roucool",
-		en: "Pidgey",
-		es: "Pidgey",
-		it: "Pidgey",
-		pt: "Pidgey",
-		de: "Taubsi"
+		'fr-fr': "Roucool",
+		'en-us': "Pidgey",
+		'es-es': "Pidgey",
+		'it-it': "Pidgey",
+		'pt-br': "Pidgey",
+		'de-de': "Taubsi"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Cru-Ailes",
-			en: "Wing Attack",
-			es: "Ataque Ala",
-			it: "Attacco d'Ala",
-			pt: "Ataque de Asa",
-			de: "Flügelschlag"
+			'fr-fr': "Cru-Ailes",
+			'en-us': "Wing Attack",
+			'es-es': "Ataque Ala",
+			'it-it': "Attacco d'Ala",
+			'pt-br': "Ataque de Asa",
+			'de-de': "Flügelschlag"
 		},
 
 		damage: 40
@@ -59,7 +59,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Very protective of its sprawling territorial area, this Pokémon will fiercely peck at any intruder.",
+		'en-us': "Very protective of its sprawling territorial area, this Pokémon will fiercely peck at any intruder.",
 	},
 
 	variants: [

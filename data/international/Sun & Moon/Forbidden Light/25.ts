@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Clauncher",
-		fr: "Flingouste",
-		es: "Clauncher",
-		it: "Clauncher",
-		pt: "Clauncher",
-		de: "Scampisto"
+		'en-us': "Clauncher",
+		'fr-fr': "Flingouste",
+		'es-es': "Clauncher",
+		'it-it': "Clauncher",
+		'pt-br': "Clauncher",
+		'de-de': "Scampisto"
 	},
 
 	illustrator: "Midori Harada",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
-				es: "Pistola Agua",
-				it: "Pistolacqua",
-				pt: "Revólver d’Água",
-				de: "Aquaknarre"
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
+				'es-es': "Pistola Agua",
+				'it-it': "Pistolacqua",
+				'pt-br': "Revólver d’Água",
+				'de-de': "Aquaknarre"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Through controlled expulsions of internal gas, it can expel water like a pistol shot. At close distances, it can shatter rock.",
+		'en-us': "Through controlled expulsions of internal gas, it can expel water like a pistol shot. At close distances, it can shatter rock.",
 	},
 
 	thirdParty: {

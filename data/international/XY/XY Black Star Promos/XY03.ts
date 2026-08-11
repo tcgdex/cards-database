@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Froakie",
-		fr: "Grenousse",
+		'en-us': "Froakie",
+		'fr-fr': "Grenousse",
 	},
 
 	illustrator: "5ban Graphics",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'Face",
+				'en-us': "Pound",
+				'fr-fr': "Écras'Face",
 			},
 
 			damage: 10,
@@ -43,8 +43,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Drip",
-				fr: "Goutte à Goutte",
+				'en-us': "Water Drip",
+				'fr-fr': "Goutte à Goutte",
 			},
 
 			damage: 20,
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked.",
+		'en-us': "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked.",
 	},
 
 	thirdParty: {

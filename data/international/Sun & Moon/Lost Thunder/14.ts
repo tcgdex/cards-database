@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Jumpluff",
-		fr: "Cotovol",
-		es: "Jumpluff",
-		it: "Jumpluff",
-		pt: "Jumpluff",
-		de: "Papungha"
+		'en-us': "Jumpluff",
+		'fr-fr': "Cotovol",
+		'es-es': "Jumpluff",
+		'it-it': "Jumpluff",
+		'pt-br': "Jumpluff",
+		'de-de': "Papungha"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Skiploom",
-		fr: "Floravol",
+		'en-us': "Skiploom",
+		'fr-fr': "Floravol",
 	},
 
 	stage: "Stage2",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Lost March",
-				fr: "Marche Perdue",
-				es: "Marcha Perdida",
-				it: "Marcia Perduta",
-				pt: "Marcha Perdida",
-				de: "Nirgendwo-Marsch"
+				'en-us': "Lost March",
+				'fr-fr': "Marche Perdue",
+				'es-es': "Marcha Perdida",
+				'it-it': "Marcia Perduta",
+				'pt-br': "Marcha Perdida",
+				'de-de': "Nirgendwo-Marsch"
 			},
 			effect: {
-				en: "This attack does 20 damage for each of your Pokémon, except {*} (Prism Star) Pokémon, in the Lost Zone.",
-				fr: "Cette attaque inflige 20 dégâts pour chacun de vos Pokémon dans la Zone Perdue, à l’exception des Pokémon {*} (Prisme Étoile).",
-				es: "Este ataque hace 20 puntos de daño por cada uno de tus Pokémon en la Zona Perdida, excepto los Pokémon de {*} (Estrella Prisma).",
-				it: "Questo attacco infligge 20 danni per ogni tuo Pokémon nell’area perduta, a eccezione dei Pokémon {*} (stella prisma).",
-				pt: "Este ataque causa 20 pontos de dano para cada um dos seus Pokémon na Zona Perdida, exceto por seus Pokémon {*} (Estrela Prisma).",
-				de: "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl deiner Pokémon, außer {*}-Pokémon (Prisma-Stern-Pokémon), im Nirgendwo zu."
+				'en-us': "This attack does 20 damage for each of your Pokémon, except {*} (Prism Star) Pokémon, in the Lost Zone.",
+				'fr-fr': "Cette attaque inflige 20 dégâts pour chacun de vos Pokémon dans la Zone Perdue, à l’exception des Pokémon {*} (Prisme Étoile).",
+				'es-es': "Este ataque hace 20 puntos de daño por cada uno de tus Pokémon en la Zona Perdida, excepto los Pokémon de {*} (Estrella Prisma).",
+				'it-it': "Questo attacco infligge 20 danni per ogni tuo Pokémon nell’area perduta, a eccezione dei Pokémon {*} (stella prisma).",
+				'pt-br': "Este ataque causa 20 pontos de dano para cada um dos seus Pokémon na Zona Perdida, exceto por seus Pokémon {*} (Estrela Prisma).",
+				'de-de': "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl deiner Pokémon, außer {*}-Pokémon (Prisma-Stern-Pokémon), im Nirgendwo zu."
 			},
 			damage: "20×",
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Even in the fiercest wind, it can control its fluff to make its way to any place in the world it wants.",
+		'en-us': "Even in the fiercest wind, it can control its fluff to make its way to any place in the world it wants.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リザード",
+		'ja-jp': "リザード",
 		'zh-tw': "火恐龍",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "燃える しっぽを 振りまわし するどい ツメで 相手を 切り裂く 荒々しい 性格。",
+		'ja-jp': "燃える しっぽを 振りまわし するどい ツメで 相手を 切り裂く 荒々しい 性格。",
 		'zh-tw': "揮動燃燒著火焰的尾巴，用鋒利的爪子撕裂對手。性情十分粗暴。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "きりさく",
+				'ja-jp': "きりさく",
 				'zh-tw': "劈開",
 			},
 			damage: 20,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "やまかじ",
+				'ja-jp': "やまかじ",
 				'zh-tw': "森林火災",
 			},
 			damage: 60,
 			cost: ["Fire", "Fire"],
 			effect: {
-				ja: "自分の山札を上から3枚トラッシュする。",
+				'ja-jp': "自分の山札を上から3枚トラッシュする。",
 				'zh-tw': "將自己的牌庫上方3張卡丟棄。",
 			},
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒトカゲ",
+		'ja-jp': "ヒトカゲ",
 	},
 
 	retreat: 2,

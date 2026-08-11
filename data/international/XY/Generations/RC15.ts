@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Meowstic",
-		fr: "Mistigrix",
+		'en-us': "Meowstic",
+		'fr-fr': "Mistigrix",
 	},
 
 	illustrator: "sui",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Espurr",
-		fr: "Psystigri",
+		'en-us': "Espurr",
+		'fr-fr': "Psystigri",
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Ear Influence",
-				fr: "Influence Otique",
+				'en-us': "Ear Influence",
+				'fr-fr': "Influence Otique",
 			},
 			effect: {
-				en: "Move as many damage counters on your opponent's Pokémon as you like to any of your opponent's other Pokémon in any way you like.",
-				fr: "Déplacez autant de marqueurs de dégâts que vous voulez des Pokémon de votre adversaire vers les autres Pokémon de votre adversaire, de la manière que vous voulez.",
+				'en-us': "Move as many damage counters on your opponent's Pokémon as you like to any of your opponent's other Pokémon in any way you like.",
+				'fr-fr': "Déplacez autant de marqueurs de dégâts que vous voulez des Pokémon de votre adversaire vers les autres Pokémon de votre adversaire, de la manière que vous voulez.",
 			},
 
 		},
@@ -51,12 +51,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psychic",
-				fr: "Psyko",
+				'en-us': "Psychic",
+				'fr-fr': "Psyko",
 			},
 			effect: {
-				en: "This attack does 10 more damage for each Energy attached to your opponent's Active Pokémon.",
-				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
+				'en-us': "This attack does 10 more damage for each Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: "60+",
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Intense silence. Two lamplights. Keep waiting for night to end.",
+		'en-us': "Intense silence. Two lamplights. Keep waiting for night to end.",
 	},
 
 	thirdParty: {

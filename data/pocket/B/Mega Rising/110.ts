@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Yamask"
+		'en-us': "Yamask"
 	},
 
 	illustrator: "Aya Kusube",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "The spirit of a person from a bygone age became\nthis Pokémon. It rambles through ruins, searching\nfor someone who knows its face."
+		'en-us': "The spirit of a person from a bygone age became\nthis Pokémon. It rambles through ruins, searching\nfor someone who knows its face."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Mumble"
+			'en-us': "Mumble"
 		},
 
 		damage: 20,

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "พลังงานพื้นฐาน[น้ำ]",
-		id: "Energi Dasar Air"
+		'th-th': "พลังงานพื้นฐาน[น้ำ]",
+		'id-id': "Energi Dasar Air"
 	},
 
 	category: "Energy",

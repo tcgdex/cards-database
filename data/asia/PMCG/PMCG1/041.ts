@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エレブー",
+		'ja-jp': "エレブー",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "サンダーショック",
+				'ja-jp': "サンダーショック",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "サンダーパンチ",
+				'ja-jp': "サンダーパンチ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は30ダメージに加えて10ダメージを与えます。尾の場合、ElectaBuzzはそれ自体に10ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は30ダメージに加えて10ダメージを与えます。尾の場合、ElectaBuzzはそれ自体に10ダメージを与えます。",
 			},
 
 		},

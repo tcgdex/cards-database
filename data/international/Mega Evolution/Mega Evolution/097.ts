@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tinkatuff",
-		fr: "Forgella",
-		de: "Tafforgita",
-		it: "Tinkatuff",
-		es: "Tinkatuff",
-		pt: "Tinkatuff",
+		'en-us': "Tinkatuff",
+		'fr-fr': "Forgella",
+		'de-de': "Tafforgita",
+		'it-it': "Tinkatuff",
+		'es-es': "Tinkatuff",
+		'pt-br': "Tinkatuff",
 		'es-mx': "Tinkatuff"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Metal"],
 	evolveFrom: {
-		en: "Tinkatink",
-		fr: "Forgerette",
-		de: "Forgita",
-		it: "Tinkatink",
-		es: "Tinkatink",
-		pt: "Tinkatink",
+		'en-us': "Tinkatink",
+		'fr-fr': "Forgerette",
+		'de-de': "Forgita",
+		'it-it': "Tinkatink",
+		'es-es': "Tinkatink",
+		'pt-br': "Tinkatink",
 		'es-mx': "Tinkatink"
 	},
 	stage: "Stage1",
@@ -35,22 +35,22 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Haphazard Hammer",
-			fr: "Marteau Hasardeux",
-			de: "Ungestümer Hammer",
-			it: "Martello Imprevedibile",
-			es: "Martillo Súbito",
-			pt: "Martelo Aleatório",
+			'en-us': "Haphazard Hammer",
+			'fr-fr': "Marteau Hasardeux",
+			'de-de': "Ungestümer Hammer",
+			'it-it': "Martello Imprevedibile",
+			'es-es': "Martillo Súbito",
+			'pt-br': "Martelo Aleatório",
 			'es-mx': "Martillo Abrupto"
 		},
 
 		effect: {
-			en: "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
-			fr: "Une fois pendant votre tour, lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon, vous pouvez utiliser ce talent. Lancez une pièce. Si c'est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
-			de: "Einmal während deines Zuges, wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du diese Fähigkeit einsetzen. Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
-			it: "Una sola volta durante il tuo turno, quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi usare questa abilità. Lancia una moneta. Se esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
-			es: "Una vez durante tu turno, cuando juegas este Pokémon de tu mano para hacer evolucionar a uno de tus Pokémon, puedes usar esta habilidad. Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
-			pt: "Uma vez durante o seu turno, quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon, você poderá usar esta Habilidade. Jogue uma moeda. Se sair cara, descarte uma Energia do Pokémon Ativo do seu oponente.",
+			'en-us': "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
+			'fr-fr': "Une fois pendant votre tour, lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon, vous pouvez utiliser ce talent. Lancez une pièce. Si c'est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			'de-de': "Einmal während deines Zuges, wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du diese Fähigkeit einsetzen. Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+			'it-it': "Una sola volta durante il tuo turno, quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi usare questa abilità. Lancia una moneta. Se esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			'es-es': "Una vez durante tu turno, cuando juegas este Pokémon de tu mano para hacer evolucionar a uno de tus Pokémon, puedes usar esta habilidad. Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
+			'pt-br': "Uma vez durante o seu turno, quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon, você poderá usar esta Habilidade. Jogue uma moeda. Se sair cara, descarte uma Energia do Pokémon Ativo do seu oponente.",
 			'es-mx': "Una vez durante tu turno, cuando juegas este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon, puedes usar esta Habilidad. Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival."
 		}
 	}],
@@ -59,12 +59,12 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			en: "Light Punch",
-			fr: "Poing Léger",
-			de: "Leichter Hieb",
-			it: "Pugnetto",
-			es: "Puño Ligero",
-			pt: "Soco de Luz",
+			'en-us': "Light Punch",
+			'fr-fr': "Poing Léger",
+			'de-de': "Leichter Hieb",
+			'it-it': "Pugnetto",
+			'es-es': "Puño Ligero",
+			'pt-br': "Soco de Luz",
 			'es-mx': "Puño Ligero"
 		},
 

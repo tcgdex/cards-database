@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Draco",
-		en: "Dragonair",
-		es: "Dragonair",
-		it: "Dragonair",
-		pt: "Dragonair",
-		de: "Dragonir"
+		'fr-fr': "Draco",
+		'en-us': "Dragonair",
+		'es-es': "Dragonair",
+		'it-it': "Dragonair",
+		'pt-br': "Dragonair",
+		'de-de': "Dragonir"
 	},
 
 	rarity: "Illustration rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Dragon"],
 	evolveFrom: {
-		fr: "Minidraco",
-		en: "Dratini",
-		es: "Dratini",
-		it: "Dratini",
-		pt: "Dratini",
-		de: "Dratini"
+		'fr-fr': "Minidraco",
+		'en-us': "Dratini",
+		'es-es': "Dratini",
+		'it-it': "Dratini",
+		'pt-br': "Dratini",
+		'de-de': "Dratini"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			fr: "Bataille",
-			en: "Beat",
-			es: "Toque",
-			it: "Battuta",
-			pt: "Pulso",
-			de: "Verprügler"
+			'fr-fr': "Bataille",
+			'en-us': "Beat",
+			'es-es': "Toque",
+			'it-it': "Battuta",
+			'pt-br': "Pulso",
+			'de-de': "Verprügler"
 		},
 
 		damage: 20
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Water", "Lightning"],
 
 		name: {
-			fr: "Aqua Slash",
-			en: "Aqua Slash",
-			es: "Cuchillada Acuática",
-			it: "Idrosquarcio",
-			pt: "Aqua Corte",
-			de: "Aquaschlag"
+			'fr-fr': "Aqua Slash",
+			'en-us': "Aqua Slash",
+			'es-es': "Cuchillada Acuática",
+			'it-it': "Idrosquarcio",
+			'pt-br': "Aqua Corte",
+			'de-de': "Aquaschlag"
 		},
 
 		effect: {
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			en: "During your next turn, this Pokémon can't attack.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 90
@@ -69,7 +69,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "They say that if it emits an aura from its whole body, the weather will begin to change instantly.",
+		'en-us': "They say that if it emits an aura from its whole body, the weather will begin to change instantly.",
 	},
 
 	variants: [

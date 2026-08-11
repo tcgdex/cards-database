@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tangrowth",
-		fr: "Bouldeneu",
-		es: "Tangrowth",
-		it: "Tangrowth",
-		pt: "Tangrowth",
-		de: "Tangoloss"
+		'en-us': "Tangrowth",
+		'fr-fr': "Bouldeneu",
+		'es-es': "Tangrowth",
+		'it-it': "Tangrowth",
+		'pt-br': "Tangrowth",
+		'de-de': "Tangoloss"
 	},
 
 	illustrator: "zig",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Tangela",
-		fr: "Saquedeneu",
-		es: "Tangela",
-		it: "Tangela",
-		pt: "Tangela",
-		de: "Tangela"
+		'en-us': "Tangela",
+		'fr-fr': "Saquedeneu",
+		'es-es': "Tangela",
+		'it-it': "Tangela",
+		'pt-br': "Tangela",
+		'de-de': "Tangela"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Suctioning Vines",
-			fr: "Lianes Sangsues",
-			es: "Lianas Succionadoras",
-			it: "Liane Aspiranti",
-			pt: "Vinhas de Sucção",
-			de: "Saugranken"
+			'en-us': "Suctioning Vines",
+			'fr-fr': "Lianes Sangsues",
+			'es-es': "Lianas Succionadoras",
+			'it-it': "Liane Aspiranti",
+			'pt-br': "Vinhas de Sucção",
+			'de-de': "Saugranken"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 50
@@ -57,12 +57,12 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			es: "Martillear",
-			it: "Martello",
-			pt: "Martelada",
-			de: "Einhämmern"
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'es-es': "Martillear",
+			'it-it': "Martello",
+			'pt-br': "Martelada",
+			'de-de': "Einhämmern"
 		},
 
 		damage: 130
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Tangrowth has two arms that it can extend as it pleases. Recent research has shown that these arms are, in fact, bundles of vines.",
+		'en-us': "Tangrowth has two arms that it can extend as it pleases. Recent research has shown that these arms are, in fact, bundles of vines.",
 	},
 
 	

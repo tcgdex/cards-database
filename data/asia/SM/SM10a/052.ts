@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ネストボール",
+		'ja-jp': "ネストボール",
 	},
 
 	illustrator: "Ryo Ueda",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札にあるたねポケモンを1枚、ベンチに出す。そして山札を切る。",
+		'ja-jp': "自分の山札にあるたねポケモンを1枚、ベンチに出す。そして山札を切る。",
 	},
 
 	variants: [

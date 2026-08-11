@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Armarouge ex"
+		'id-id': "Armarouge ex"
 	},
 
 	illustrator: "takuyoa",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Rouge Armor"
+			'id-id': "Rouge Armor"
 		},
 
 		effect: {
-			id: "Jika HP Pokémon ini masih penuh, kerusakan akibat serangan dari Pokémon lawan yang diterima Pokémon ini berkurang sejumlah 80."
+			'id-id': "Jika HP Pokémon ini masih penuh, kerusakan akibat serangan dari Pokémon lawan yang diterima Pokémon ini berkurang sejumlah 80."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Bazoka Berpijar"
+			'id-id': "Bazoka Berpijar"
 		},
 
 		effect: {
-			id: "Kerusakan yang diberikan bertambah sejumlah 40 untuk tiap Energi {Api} yang dikenakan pada Pokémon ini."
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 40 untuk tiap Energi {Api} yang dikenakan pada Pokémon ini."
 		},
 
 		damage: "40+",

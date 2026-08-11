@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Magnemite"
+		'en-us': "Lt. Surge's Magnemite"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Removal Pulse"
+				'en-us': "Removal Pulse"
 			},
 			effect: {
-				en: "If the Defending Pokémon has any Energy cards attached to it, flip a coin. If heads, choose 1 of those Energy cards and discard it."
+				'en-us': "If the Defending Pokémon has any Energy cards attached to it, flip a coin. If heads, choose 1 of those Energy cards and discard it."
 			},
 			damage: 10,
 
@@ -41,10 +41,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Confusion Pulse"
+				'en-us': "Confusion Pulse"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 20,
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Sceptile ex δ",
-		fr: "Jungko ex δ",
-		de: "Gewaldro ex"
+		'en-us': "Sceptile ex δ",
+		'fr-fr': "Jungko ex δ",
+		'de-de': "Gewaldro ex"
 	},
 
 	suffix: "ex",
@@ -25,8 +25,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Grovyle",
-		fr: "Massko"
+		'en-us': "Grovyle",
+		'fr-fr': "Massko"
 	},
 
 	stage: "Stage2",
@@ -35,14 +35,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Extra Liquid",
-				fr: "Liquide supplémentaire",
-				de: "Extraflüssigkeit"
+				'en-us': "Extra Liquid",
+				'fr-fr': "Liquide supplémentaire",
+				'de-de': "Extraflüssigkeit"
 			},
 			effect: {
-				en: "Each player's Pokémon-ex can't use any Poké-Powers and pays Colorless more Energy to use its attacks. Each Pokémon can't be affected by more than 1 Extra Liquid Poké-Body.",
-				fr: "Le Pokémon-ex de chaque joueur ne peut pas utiliser de Poké-Powers et paye une Énergie  de plus pour utiliser ses attaques. Chaque Pokémon ne peut pas être affecté par plus d'1 Poké-Body Liquide supplémentaire.",
-				de: "Die Pokémon-ex aller Spieler können keine Poké-Power einsetzen und ihre Angriffe kosten 1  mehr. Jedes Pokémon kann nur von 1 Extraflüssigkeit Poké-Body betroffen sein."
+				'en-us': "Each player's Pokémon-ex can't use any Poké-Powers and pays Colorless more Energy to use its attacks. Each Pokémon can't be affected by more than 1 Extra Liquid Poké-Body.",
+				'fr-fr': "Le Pokémon-ex de chaque joueur ne peut pas utiliser de Poké-Powers et paye une Énergie  de plus pour utiliser ses attaques. Chaque Pokémon ne peut pas être affecté par plus d'1 Poké-Body Liquide supplémentaire.",
+				'de-de': "Die Pokémon-ex aller Spieler können keine Poké-Power einsetzen und ihre Angriffe kosten 1  mehr. Jedes Pokémon kann nur von 1 Extraflüssigkeit Poké-Body betroffen sein."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Power Revenge",
-				fr: "Vengeance puissante",
-				de: "Powerrache"
+				'en-us': "Power Revenge",
+				'fr-fr': "Vengeance puissante",
+				'de-de': "Powerrache"
 			},
 			effect: {
-				en: "Does 60 damage plus 10 more damage for each Prize card your opponent has taken.",
-				fr: "Inflige 60 dégâts plus 10 dégâts supplémentaires pour chaque carte Récompense récoltée par votre adversaire.",
-				de: "Dieser Angriff fügt 60 Schadenspunkte plus 10 weitere Schadenspunkte für jeden Preis, den dein Gegner bereits genommen hat, zu."
+				'en-us': "Does 60 damage plus 10 more damage for each Prize card your opponent has taken.",
+				'fr-fr': "Inflige 60 dégâts plus 10 dégâts supplémentaires pour chaque carte Récompense récoltée par votre adversaire.",
+				'de-de': "Dieser Angriff fügt 60 Schadenspunkte plus 10 weitere Schadenspunkte für jeden Preis, den dein Gegner bereits genommen hat, zu."
 			},
 			damage: "60+",
 

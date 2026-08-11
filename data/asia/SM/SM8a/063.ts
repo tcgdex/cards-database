@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エレキチャージャー",
+		'ja-jp': "エレキチャージャー",
 	},
 
 	illustrator: "",
 	category: "Trainer",
 
 	effect: {
-		ja: "コインを2回投げ、オモテの数ぶん、自分のトラッシュにある「エレキパワー」を、相手に見せてから、山札にもどして切る。",
+		'ja-jp': "コインを2回投げ、オモテの数ぶん、自分のトラッシュにある「エレキパワー」を、相手に見せてから、山札にもどして切る。",
 	},
 
 	variants: [

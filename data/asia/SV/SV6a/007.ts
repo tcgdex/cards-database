@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デルビル",
+		'ja-jp': "デルビル",
 		'zh-tw': "戴魯比",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "仲間に 連絡するときと 獲物を 追いつめるときでは 鳴き声の 種類が 違うのだ。",
+		'ja-jp': "仲間に 連絡するときと 獲物を 追いつめるときでは 鳴き声の 種類が 違うのだ。",
 		'zh-tw': "聯絡夥伴和追趕獵物 的時候，會分別發出 不同種類的叫聲。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かじる",
+				'ja-jp': "かじる",
 				'zh-tw': "咬",
 			},
 			damage: 20,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "うしろげり",
+				'ja-jp': "うしろげり",
 				'zh-tw': "後踢",
 			},
 			damage: 50,

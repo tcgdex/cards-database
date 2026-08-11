@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Altaria"
+		'en-us': "Altaria"
 	},
 
 	illustrator: "sui",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Swablu"
+		'en-us': "Swablu"
 	},
 
 	description: {
-		en: "On sunny days, it flies freely through the sky and\nblends into the clouds. It sings in a beautiful\nsoprano."
+		'en-us': "On sunny days, it flies freely through the sky and\nblends into the clouds. It sings in a beautiful\nsoprano."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Do the Wave"
+			'en-us': "Do the Wave"
 		},
 
 		damage: 20,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "This attack does 20 more damage for each of your Benched Pokémon."
+			'en-us': "This attack does 20 more damage for each of your Benched Pokémon."
 		}
 	}],
 

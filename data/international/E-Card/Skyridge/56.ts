@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Forretress",
-		de: "Forstellka"
+		'en-us': "Forretress",
+		'de-de': "Forstellka"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pineco",
+		'en-us': "Pineco",
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Exoskeleton",
-				de: "Exoskelett"
+				'en-us': "Exoskeleton",
+				'de-de': "Exoskelett"
 			},
 			effect: {
-				en: "All damage done by attacks to Forretress is reduced by 10 (after applying Weakness and Resistance).",
-				de: "Jeder Schaden der Frostellka durch Angriff zugefügt wird, wird um 10 reduziert (nachdem Schwäche udn resistenz verrechnet wurden)."
+				'en-us': "All damage done by attacks to Forretress is reduced by 10 (after applying Weakness and Resistance).",
+				'de-de': "Jeder Schaden der Frostellka durch Angriff zugefügt wird, wird um 10 reduziert (nachdem Schwäche udn resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shell Rupture",
-				de: "Schalenbruch"
+				'en-us': "Shell Rupture",
+				'de-de': "Schalenbruch"
 			},
 			effect: {
-				en: "This attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				de: "Dieser Angriff fügt jedem Pokémon auf der gegnerischen Bank 10 Schadenspunkte zu. (Wende keine Schwäche oder Resistenz bei Pokémon auf der Bank an.)"
+				'en-us': "This attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'de-de': "Dieser Angriff fügt jedem Pokémon auf der gegnerischen Bank 10 Schadenspunkte zu. (Wende keine Schwäche oder Resistenz bei Pokémon auf der Bank an.)"
 			}
 
 		},
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Spin",
-				de: "Doppeldreher"
+				'en-us': "Double Spin",
+				'de-de': "Doppeldreher"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 40 damage times the number of heads.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "40×",
 

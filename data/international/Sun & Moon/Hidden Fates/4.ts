@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Paras",
-		fr: "Paras",
+		'en-us': "Paras",
+		'fr-fr': "Paras",
 	},
 
 	illustrator: "OOYAMA",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
 			},
 
 			damage: 10,
@@ -43,8 +43,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
 			},
 
 			damage: 20,
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Whether it's due to a lack of moisture or a lack of nutrients, in Alola the mushrooms on Paras don't grow up quite right.",
+		'en-us': "Whether it's due to a lack of moisture or a lack of nutrients, in Alola the mushrooms on Paras don't grow up quite right.",
 	},
 
 	thirdParty: {

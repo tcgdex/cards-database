@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダブラン",
+		'ja-jp': "ダブラン",
 	},
 
 	illustrator: "Nelnal",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "２つの 脳みその 意見が 一致したときの 念力は 周囲１キロに およぶと いう。",
+		'ja-jp': "２つの 脳みその 意見が 一致したときの 念力は 周囲１キロに およぶと いう。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン1匹に、ダメカンを2個のせる。",
+				'ja-jp': "相手のベンチポケモン1匹に、ダメカンを2個のせる。",
 			},
 		},
 	],
@@ -43,7 +43,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ユニラン",
+		'ja-jp': "ユニラン",
 	},
 
 	retreat: 2,

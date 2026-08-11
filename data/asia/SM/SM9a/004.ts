@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウツドン",
+		'ja-jp': "ウツドン",
 	},
 
 	illustrator: "otumami",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "葉っぱの 部分は カッターになって 相手を 切り裂く。 口からは なんでも 溶かす 液体を 吐く。",
+		'ja-jp': "葉っぱの 部分は カッターになって 相手を 切り裂く。 口からは なんでも 溶かす 液体を 吐く。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "やけつくどく" },
 			cost: ["Grass"],
 			effect: {
-				ja: "相手のバトルポケモンをどくとやけどにする。",
+				'ja-jp': "相手のバトルポケモンをどくとやけどにする。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マダツボミ",
+		'ja-jp': "マダツボミ",
 	},
 
 	retreat: 2,

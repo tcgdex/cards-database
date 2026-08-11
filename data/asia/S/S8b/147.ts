@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メモリーカプセル",
+		'ja-jp': "メモリーカプセル",
 		'zh-tw': "回憶膠囊",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけているポケモンは、進化前に持っていたワザを、すべて使える。［ワザを使うためのエネルギーは必要。］",
+		'ja-jp': "このカードをつけているポケモンは、進化前に持っていたワザを、すべて使える。［ワザを使うためのエネルギーは必要。］",
 		'zh-tw': "寶可夢道具卡，附於自己的寶可夢使用。1隻寶可夢只可附上1張寶可夢道具卡，並且保持附加狀態。",
 	},
 

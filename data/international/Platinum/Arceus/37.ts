@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Graveler",
-		de: "Georok"
+		'en-us': "Graveler",
+		'de-de': "Georok"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Geodude"
+		'en-us': "Geodude"
 	},
 
 	stage: "Stage1",
@@ -33,8 +33,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'de-de': "Tackle"
 			},
 
 			damage: 30,
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-edge",
-				de: "Risikotackle"
+				'en-us': "Double-edge",
+				'de-de': "Risikotackle"
 			},
 			effect: {
-				en: "Graveler does 10 damage to itself.",
-				de: "Georok fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Graveler does 10 damage to itself.",
+				'de-de': "Georok fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 70,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It rolls on mountain paths to move. Once it builds momentum, no Pokémon can stop it without difficulty."
+		'en-us': "It rolls on mountain paths to move. Once it builds momentum, no Pokémon can stop it without difficulty."
 	},
 
 	variants: [

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chinchou",
-		fr: "Loupio"
+		'en-us': "Chinchou",
+		'fr-fr': "Loupio"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "Its antennae, which evolved from a fin, have both\npositive and negative charges flowing through them.",
-		fr: "Ses antennes proviennent d'anciennes nageoires et sont chargées d'énergies positive et négative."
+		'en-us': "Its antennae, which evolved from a fin, have both\npositive and negative charges flowing through them.",
+		'fr-fr': "Ses antennes proviennent d'anciennes nageoires et sont chargées d'énergies positive et négative."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Lightning Ball",
-			fr: "Boule Éclair"
+			'en-us': "Lightning Ball",
+			'fr-fr': "Boule Éclair"
 		},
 
 		damage: 10,

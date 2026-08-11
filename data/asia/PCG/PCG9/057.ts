@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Xatu（デルタ種）",
+		'ja-jp': "Xatu（デルタ種）",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "余分な羽",
+				'ja-jp': "余分な羽",
 			},
 			effect: {
-				ja: "ステージ2Pokã©Mon-Exのそれぞれは、防御するPokã©Monに10個のダメージを与えます（脱力感と抵抗を適用する前）。",
+				'ja-jp': "ステージ2Pokã©Mon-Exのそれぞれは、防御するPokã©Monに10個のダメージを与えます（脱力感と抵抗を適用する前）。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Darkness", "Colorless"],
 			name: {
-				ja: "レイを混乱させます",
+				'ja-jp': "レイを混乱させます",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
 			},
 			damage: 20,
 		},

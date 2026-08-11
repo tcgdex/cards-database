@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガルーラ",
+		'ja-jp': "ガルーラ",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "お腹の 子どもは およそ ３年で 親離れする。 母親が 大声で 鳴くのは その時だけ。",
+		'ja-jp': "お腹の 子どもは およそ ３年で 親離れする。 母親が 大声で 鳴くのは その時だけ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "こどものおつかい" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を1枚引く。",
+				'ja-jp': "自分の山札を1枚引く。",
 			},
 		},
 		{
@@ -36,7 +36,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、30ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、30ダメージ追加。",
 			},
 		},
 	],

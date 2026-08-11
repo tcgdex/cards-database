@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lickitung",
-		fr: "Excelangue",
-		es: "Lickitung",
-		it: "Lickitung",
-		pt: "Lickitung",
-		de: "Schlurp"
+		'en-us': "Lickitung",
+		'fr-fr': "Excelangue",
+		'es-es': "Lickitung",
+		'it-it': "Lickitung",
+		'pt-br': "Lickitung",
+		'de-de': "Schlurp"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -22,24 +22,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Tongue Slap",
-			fr: "Gros Coup de Langue",
-			es: "Bofetón Lengua",
-			it: "Linguasberla",
-			pt: "Tapa de Língua",
-			de: "Zungenschelle"
+			'en-us': "Tongue Slap",
+			'fr-fr': "Gros Coup de Langue",
+			'es-es': "Bofetón Lengua",
+			'it-it': "Linguasberla",
+			'pt-br': "Tapa de Língua",
+			'de-de': "Zungenschelle"
 		},
 
 		damage: 50,
 		cost: ["Colorless", "Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			es: "Martillear",
-			it: "Martello",
-			pt: "Martelada",
-			de: "Einhämmern"
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'es-es': "Martillear",
+			'it-it': "Martello",
+			'pt-br': "Martelada",
+			'de-de': "Einhämmern"
 		},
 
 		damage: 80,
@@ -58,7 +58,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It licks filth clean with its tongue. Whatever it licks always stinks afterward, so whether it's really clean is…questionable."
+		'en-us': "It licks filth clean with its tongue. Whatever it licks always stinks afterward, so whether it's really clean is…questionable."
 	},
 
 	variants: [

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Meowth",
-		fr: "Miaouss",
-		es: "Meowth",
-		it: "Meowth",
-		pt: "Meowth",
-		de: "Mauzi"
+		'en-us': "Meowth",
+		'fr-fr': "Miaouss",
+		'es-es': "Meowth",
+		'it-it': "Meowth",
+		'pt-br': "Meowth",
+		'de-de': "Mauzi"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fake Out",
-				fr: "Bluff",
+				'en-us': "Fake Out",
+				'fr-fr': "Bluff",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 20,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.",
+		'en-us': "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.",
 	},
 
 	thirdParty: {

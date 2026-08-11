@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Black & White'
 
 const bw3: Set = {
 	id: "bw3",
 
 	name: {
-		en: "Noble Victories",
-		fr: "Nobles Victoires",
-		es: "Nobles Victorias",
-		it: "Vittorie Regali",
-		de: "Königliche Siege",
-		pt: "Vitórias Nobres"
+		'en-us': "Noble Victories",
+		'fr-fr': "Nobles Victoires",
+		'es-es': "Nobles Victorias",
+		'it-it': "Vittorie Regali",
+		'de-de': "Königliche Siege",
+		'pt-br': "Vitórias Nobres"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const bw3: Set = {
 
 	abbreviations: {
 		official: "NVI",
-		fr: "NVI"
+		'fr-fr': "NVI"
 	},
 
 	thirdParty: {

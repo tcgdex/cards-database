@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コノヨザルex",
+		'ja-jp': "コノヨザルex",
 		'zh-tw': "棄世猴ex",
-		th: "โคโนะโยซารุex",
-		id: "Annihilape ex"
+		'th-th': "โคโนะโยซารุex",
+		'id-id': "Annihilape ex"
 	},
 
 	illustrator: "PLANETA Hiiragi",
@@ -23,28 +23,28 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "アンガーグラッジ",
+			'ja-jp': "アンガーグラッジ",
 			'zh-tw': "憤懣恨怨",
-			th: "พิโรธโกรธแค้น",
-			id: "Anger Grudge"
+			'th-th': "พิโรธโกรธแค้น",
+			'id-id': "Anger Grudge"
 		},
 
 		damage: "20×",
 
 		effect: {
-			ja: "このポケモンにダメカンを12個までのせ、のせた数×20ダメージ。",
+			'ja-jp': "このポケモンにダメカンを12個までのせ、のせた数×20ダメージ。",
 			'zh-tw': "在這隻寶可夢身上放置最多12個傷害指示物，造成放置的數量×20點傷害。",
-			th: "วางตัวนับแดเมจได้สูงสุด 12 ตัวบนโปเกมอนนี้ แดเมจจะเท่ากับจำนวนที่วาง x20",
-			id: "Letakkan paling banyak 12 Token Kerusakan pada Pokémon ini, serangan ini memberikan kerusakan sejumlah 20 untuk tiap Token Kerusakan yang diletakkan."
+			'th-th': "วางตัวนับแดเมจได้สูงสุด 12 ตัวบนโปเกมอนนี้ แดเมจจะเท่ากับจำนวนที่วาง x20",
+			'id-id': "Letakkan paling banyak 12 Token Kerusakan pada Pokémon ini, serangan ini memberikan kerusakan sejumlah 20 untuk tiap Token Kerusakan yang diletakkan."
 		}
 	}, {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			ja: "ちきゅうなげ",
+			'ja-jp': "ちきゅうなげ",
 			'zh-tw': "地球上投",
-			th: "ขว้างใส่โลก",
-			id: "Bantingan Keras"
+			'th-th': "ขว้างใส่โลก",
+			'id-id': "Bantingan Keras"
 		},
 
 		damage: 150

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Totodile"
+		'id-id': "Totodile"
 	},
 
 	illustrator: "MINAMINAMI Take",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Meskipun kecil, Totodile itu perusuh. Jika ada sesuatu yang bergerak di hadapannya, ia akan langsung menggigitnya."
+		'id-id': "Meskipun kecil, Totodile itu perusuh. Jika ada sesuatu yang bergerak di hadapannya, ia akan langsung menggigitnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menggerogoti Erat-erat"
+			'id-id': "Menggerogoti Erat-erat"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
+			'id-id': "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
 		},
 
 		damage: 10,

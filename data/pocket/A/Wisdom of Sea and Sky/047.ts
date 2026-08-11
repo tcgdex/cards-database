@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Croconaw",
-		fr: "Crocrodil"
+		'en-us': "Croconaw",
+		'fr-fr': "Crocrodil"
 	},
 
 	illustrator: "Naoki Saito",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Totodile"
+		'en-us': "Totodile"
 	},
 
 	description: {
-		en: "If it loses a fang, a new one grows back in its\nplace. There are always 48 fangs lining its mouth.",
-		fr: "Quand il perd un croc, il en repousse un autre. Sa bouche est en permanence composée de 48 dents."
+		'en-us': "If it loses a fang, a new one grows back in its\nplace. There are always 48 fangs lining its mouth.",
+		'fr-fr': "Quand il perd un croc, il en repousse un autre. Sa bouche est en permanence composée de 48 dents."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Bite",
-			fr: "Morsure"
+			'en-us': "Bite",
+			'fr-fr': "Morsure"
 		},
 
 		damage: 40,

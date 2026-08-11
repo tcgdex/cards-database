@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エアームド",
+		'ja-jp': "エアームド",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "いばらの 中に 巣を作る。 トゲで 傷つきながら 育てられた ヒナの 羽は 硬くなる。",
+		'ja-jp': "いばらの 中に 巣を作る。 トゲで 傷つきながら 育てられた ヒナの 羽は 硬くなる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "40×",
 			cost: ["Metal"],
 			effect: {
-				ja: "自分の手札から「基本[M]エネルギー」を2枚までトラッシュし、その枚数×40ダメージ。",
+				'ja-jp': "自分の手札から「基本[M]エネルギー」を2枚までトラッシュし、その枚数×40ダメージ。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒコザル",
+		'ja-jp': "ヒコザル",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "お腹で 作られた ガスが お尻で 燃えている。 体調が 悪いと 炎が 弱くなる。",
+		'ja-jp': "お腹で 作られた ガスが お尻で 燃えている。 体調が 悪いと 炎が 弱くなる。",
 	},
 
 	stage: "Basic",

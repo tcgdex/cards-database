@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Rattata",
-		fr: "Rattata",
-		de: "Rattfratz",
-		it: "Rattata"
+		'en-us': "Rattata",
+		'fr-fr': "Rattata",
+		'de-de': "Rattfratz",
+		'it-it': "Rattata"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Biss",
-				it: "Morso"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Biss",
+				'it-it': "Morso"
 			},
 
 			damage: 20,
@@ -58,9 +58,9 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Bites anything when it attacks. Small and very quick, it is a common sight in many places.",
-		fr: "Sa morsure est très puissante. Petit et rapide, on en voit un peu partout.",
-		it: "Morde quasiasi cosa quando attacca. Piccolo e velocissimo, è una presenza comune in molti luoghi. LIV 9 N.19"
+		'en-us': "Bites anything when it attacks. Small and very quick, it is a common sight in many places.",
+		'fr-fr': "Sa morsure est très puissante. Petit et rapide, on en voit un peu partout.",
+		'it-it': "Morde quasiasi cosa quando attacca. Piccolo e velocissimo, è una presenza comune in molti luoghi. LIV 9 N.19"
 	},
 
 	variants: [

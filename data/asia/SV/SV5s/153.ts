@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Cutiefly"
+		'id-id': "Cutiefly"
 	},
 
 	illustrator: "REND",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Serbuk sari dan nektar adalah makanan favoritnya. Cutiefly beterbangan di sekitar Gossifleur untuk mendapatkan serbuk sari Pokémon tersebut."
+		'id-id': "Serbuk sari dan nektar adalah makanan favoritnya. Cutiefly beterbangan di sekitar Gossifleur untuk mendapatkan serbuk sari Pokémon tersebut."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Serapan Mini"
+			'id-id': "Serapan Mini"
 		},
 
 		effect: {
-			id: "Pulihkan HP Pokémon ini sejumlah 10."
+			'id-id': "Pulihkan HP Pokémon ini sejumlah 10."
 		},
 
 		damage: 10,

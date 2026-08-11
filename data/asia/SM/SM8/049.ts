@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウソッキー",
+		'ja-jp': "ウソッキー",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "お年寄りを 中心に 人気。 緑の 部分が 大きいほど マニアの 評価は あがるらしい。",
+		'ja-jp': "お年寄りを 中心に 人気。 緑の 部分が 大きいほど マニアの 評価は あがるらしい。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Fighting"],
 			effect: {
-				ja: "前の相手の番に、このポケモンがバトル場でワザのダメージを受けていたなら、80ダメージ追加。",
+				'ja-jp': "前の相手の番に、このポケモンがバトル場でワザのダメージを受けていたなら、80ダメージ追加。",
 			},
 		},
 	],

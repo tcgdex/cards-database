@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "คิรินริกิ",
-		id: "Girafarig"
+		'th-th': "คิรินริกิ",
+		'id-id': "Girafarig"
 	},
 
 	illustrator: "kirisAki",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "สมองที่หางเล็กมากก็จริง แต่เป็นอวัยวะสำคัญที่ใช้ในการสำแดงพลังจิตอันทรงพลัง",
-		id: "Meskipun sangat kecil, otak pada ekor Girafarig adalah organ penting yang menghasilkan kekuatan psikokinesis yang kuat."
+		'th-th': "สมองที่หางเล็กมากก็จริง แต่เป็นอวัยวะสำคัญที่ใช้ในการสำแดงพลังจิตอันทรงพลัง",
+		'id-id': "Meskipun sangat kecil, otak pada ekor Girafarig adalah organ penting yang menghasilkan kekuatan psikokinesis yang kuat."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "จิตตานุภาพ",
-			id: "Psikokinesis"
+			'th-th': "จิตตานุภาพ",
+			'id-id': "Psikokinesis"
 		},
 
 		effect: {
-			th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว จะทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ชา]",
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
+			'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกหัว จะทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ชา]",
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
 		},
 
 		damage: 30,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			th: "เฮดแบงก์",
-			id: "Hantaman Kepala"
+			'th-th': "เฮดแบงก์",
+			'id-id': "Hantaman Kepala"
 		},
 
 		damage: 70,

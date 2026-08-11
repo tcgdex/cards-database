@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pancham",
-		fr: "Pandespiègle",
-		es: "Pancham",
-		it: "Pancham",
-		pt: "Pancham",
-		de: "Pam-Pam"
+		'en-us': "Pancham",
+		'fr-fr': "Pandespiègle",
+		'es-es': "Pancham",
+		'it-it': "Pancham",
+		'pt-br': "Pancham",
+		'de-de': "Pam-Pam"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Leer",
-			fr: "Groz'Yeux",
-			es: "Malicioso",
-			it: "Fulmisguardo",
-			pt: "Encarar",
-			de: "Silberblick"
+			'en-us': "Leer",
+			'fr-fr': "Groz'Yeux",
+			'es-es': "Malicioso",
+			'it-it': "Fulmisguardo",
+			'pt-br': "Encarar",
+			'de-de': "Silberblick"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Low Kick",
-			fr: "Balayage",
-			es: "Patada Baja",
-			it: "Colpo Basso",
-			pt: "Rasteira",
-			de: "Fußkick"
+			'en-us': "Low Kick",
+			'fr-fr': "Balayage",
+			'es-es': "Patada Baja",
+			'it-it': "Colpo Basso",
+			'pt-br': "Rasteira",
+			'de-de': "Fußkick"
 		},
 
 		damage: 20

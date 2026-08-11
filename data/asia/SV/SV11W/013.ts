@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "エンブオー",
+		'ja-jp': "エンブオー",
 	},
 
 	illustrator: "Teeziro",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "アゴの 炎で こぶしを 燃やして 炎の パンチを 繰り出す。 とても 仲間思いの ポケモン。",
+		'ja-jp': "アゴの 炎で こぶしを 燃やして 炎の パンチを 繰り出す。 とても 仲間思いの ポケモン。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "れっからんぶ" },
 			effect: {
-				ja: "自分の番に何回でも使える。自分の手札から「基本エネルギー」を1枚選び、自分のポケモンにつける。",
+				'ja-jp': "自分の番に何回でも使える。自分の手札から「基本エネルギー」を1枚選び、自分のポケモンにつける。",
 			},
 		},
 	],
@@ -54,7 +54,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チャオブー",
+		'ja-jp': "チャオブー",
 	},
 
 	retreat: 4,

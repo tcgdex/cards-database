@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クズモー",
+		'ja-jp': "クズモー",
 	},
 
 	illustrator: "Mina Nakai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "腐った 海藻に そっくり。 敵の 目を ごまかしながら 進化する 力を 蓄える。",
+		'ja-jp': "腐った 海藻に そっくり。 敵の 目を ごまかしながら 進化する 力を 蓄える。",
 	},
 
 	stage: "Basic",

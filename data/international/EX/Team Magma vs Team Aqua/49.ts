@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Chinchou",
-		fr: "Loupio de Team Aqua",
-		de: "Team Aquas Lampi"
+		'en-us': "Team Aqua's Chinchou",
+		'fr-fr': "Loupio de Team Aqua",
+		'de-de': "Team Aquas Lampi"
 	},
 
 	illustrator: "Kazuo Yazawa",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde folie",
-				de: "Confuse Ray"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde folie",
+				'de-de': "Confuse Ray"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse vague",
-				de: "Wave Splash"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse vague",
+				'de-de': "Wave Splash"
 			},
 
 			damage: 20,

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magcargo",
-		fr: "Volcaropod"
+		'en-us': "Magcargo",
+		'fr-fr': "Volcaropod"
 	},
 
 	illustrator: "Eri Yamaki",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Slugma"
+		'en-us': "Slugma"
 	},
 
 	description: {
-		en: "Its brittle shell occasionally spouts intense flames\nthat circulate throughout its body.",
-		fr: "Sa coquille, très fragile, projette régulièrement des flammes qui circulent dans son corps."
+		'en-us': "Its brittle shell occasionally spouts intense flames\nthat circulate throughout its body.",
+		'fr-fr': "Sa coquille, très fragile, projette régulièrement des flammes qui circulent dans son corps."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Heat Blast",
-			fr: "Explosion de Chaleur"
+			'en-us': "Heat Blast",
+			'fr-fr': "Explosion de Chaleur"
 		},
 
 		damage: 90,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Porygon",
-		fr: "Porygon",
-		es: "Porygon",
-		it: "Porygon",
-		pt: "Porygon",
-		de: "Porygon"
+		'en-us': "Porygon",
+		'fr-fr': "Porygon",
+		'es-es': "Porygon",
+		'it-it': "Porygon",
+		'pt-br': "Porygon",
+		'de-de': "Porygon"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Code Check",
-				fr: "Vérification de Codes",
-				es: "Comprobación de Código",
-				it: "Controllo Codice",
-				pt: "Verificar Código",
-				de: "Code-Check"
+				'en-us': "Code Check",
+				'fr-fr': "Vérification de Codes",
+				'es-es': "Comprobación de Código",
+				'it-it': "Controllo Codice",
+				'pt-br': "Verificar Código",
+				'de-de': "Code-Check"
 			},
 			effect: {
-				en: "Look at 1 of your opponent’s face-down Prize cards.",
-				fr: "Regardez l’une des cartes Récompense de votre adversaire (actuellement face cachée).",
-				es: "Mira 1 de las cartas de Premio que están boca abajo de tu rival.",
-				it: "Guarda una delle carte Premio coperte del tuo avversario.",
-				pt: "Olhe 1 das cartas de Prêmio viradas para baixo do seu oponente.",
-				de: "Schau dir 1 der verdeckten Preiskarten deines Gegners an."
+				'en-us': "Look at 1 of your opponent’s face-down Prize cards.",
+				'fr-fr': "Regardez l’une des cartes Récompense de votre adversaire (actuellement face cachée).",
+				'es-es': "Mira 1 de las cartas de Premio que están boca abajo de tu rival.",
+				'it-it': "Guarda una delle carte Premio coperte del tuo avversario.",
+				'pt-br': "Olhe 1 das cartas de Prêmio viradas para baixo do seu oponente.",
+				'de-de': "Schau dir 1 der verdeckten Preiskarten deines Gegners an."
 			},
 
 		},
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beam",
-				fr: "Rayon",
-				es: "Transmisión",
-				it: "Raggio",
-				pt: "Feixe",
-				de: "Strahl"
+				'en-us': "Beam",
+				'fr-fr': "Rayon",
+				'es-es': "Transmisión",
+				'it-it': "Raggio",
+				'pt-br': "Feixe",
+				'de-de': "Strahl"
 			},
 
 			damage: 10,
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Roughly 20 years ago, it was artificially created, utilizing the latest technology of the time.",
+		'en-us': "Roughly 20 years ago, it was artificially created, utilizing the latest technology of the time.",
 	},
 
 	thirdParty: {

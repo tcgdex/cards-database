@@ -1,17 +1,17 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Scarlet & Violet'
 
 const set: Set = {
 	id: "sv10.5b",
 
 	name: {
-		de: "Schwarze Blitze",
-		en: "Black Bolt",
-		es: "Fulgor Negro",
+		'de-de': "Schwarze Blitze",
+		'en-us': "Black Bolt",
+		'es-es': "Fulgor Negro",
 		"es-mx": "Fulgor Negro",
-		fr: "Foudre Noire",
-		it: "Luce Nera",
-		pt: "Raio Preto"
+		'fr-fr': "Foudre Noire",
+		'it-it': "Luce Nera",
+		'pt-br': "Raio Preto"
 	},
 
 	serie: serie,

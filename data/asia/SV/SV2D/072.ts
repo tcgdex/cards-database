@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヘラクロス"
+		'ja-jp': "ヘラクロス"
 	},
 
 	illustrator: "Kurata So",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "甘いミツが 大好きで 独り占め するため 自慢のツノを 使って 相手を ぶん投げる。"
+		'ja-jp': "甘いミツが 大好きで 独り占め するため 自慢のツノを 使って 相手を ぶん投げる。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			ja: "たいあたり"
+			'ja-jp': "たいあたり"
 		},
 
 		damage: 50
@@ -32,13 +32,13 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Grass"],
 
 		name: {
-			ja: "スマッシュホーン"
+			'ja-jp': "スマッシュホーン"
 		},
 
 		damage: 110,
 
 		effect: {
-			ja: "このワザのダメージは抵抗力を計算しない。"
+			'ja-jp': "このワザのダメージは抵抗力を計算しない。"
 		}
 	}],
 

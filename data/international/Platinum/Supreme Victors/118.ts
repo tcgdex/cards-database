@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Pachirisu",
-		fr: "Pachirisu",
-		de: "Pachirisu"
+		'en-us': "Pachirisu",
+		'fr-fr': "Pachirisu",
+		'de-de': "Pachirisu"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Slap",
-				fr: "Coud'Keu",
-				de: "Schweifschlag"
+				'en-us': "Tail Slap",
+				'fr-fr': "Coud'Keu",
+				'de-de': "Schweifschlag"
 			},
 
 			damage: 10,
@@ -42,14 +42,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Pachi",
-				fr: "Pachi",
-				de: "Brzzzl"
+				'en-us': "Pachi",
+				'fr-fr': "Pachi",
+				'de-de': "Brzzzl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity."
+		'en-us': "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity."
 	},
 
 	variants: [

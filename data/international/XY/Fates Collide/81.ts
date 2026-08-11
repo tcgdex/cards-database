@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Loudred",
-		fr: "Ramboum",
-		es: "Loudred",
-		it: "Loudred",
-		pt: "Loudred",
-		de: "Krakeelo"
+		'en-us': "Loudred",
+		'fr-fr': "Ramboum",
+		'es-es': "Loudred",
+		'it-it': "Loudred",
+		'pt-br': "Loudred",
+		'de-de': "Krakeelo"
 	},
 
 	illustrator: "TOKIYA",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Whismur",
-		fr: "Chuchmur",
-		es: "Whismur",
-		it: "Whismur",
-		pt: "Whismur",
-		de: "Flurmel"
+		'en-us': "Whismur",
+		'fr-fr': "Chuchmur",
+		'es-es': "Whismur",
+		'it-it': "Whismur",
+		'pt-br': "Whismur",
+		'de-de': "Flurmel"
 	},
 
 	stage: "Stage1",
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Kick",
-				fr: "Coud'Pattes",
-				es: "Patada Destrucción",
-				it: "Calcio Esplosivo",
-				pt: "Chute Poderoso",
-				de: "Schmetterkick"
+				'en-us': "Smash Kick",
+				'fr-fr': "Coud'Pattes",
+				'es-es': "Patada Destrucción",
+				'it-it': "Calcio Esplosivo",
+				'pt-br': "Chute Poderoso",
+				'de-de': "Schmetterkick"
 			},
 
 			damage: 10,
@@ -61,20 +61,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stomp",
-				fr: "Écrasement",
-				es: "Pisotón",
-				it: "Pestone",
-				pt: "Pisotear",
-				de: "Stampfer"
+				'en-us': "Stomp",
+				'fr-fr': "Écrasement",
+				'es-es': "Pisotón",
+				'it-it': "Pestone",
+				'pt-br': "Pisotear",
+				'de-de': "Stampfer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 40 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 40 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 40 danni in più.",
-				pt: "Jogue uma moeda. Se sair cara, este ataque causará 40 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 40 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 40 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 40 danni in più.",
+				'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 40 de danos adicionais.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -91,7 +91,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The shock waves from its cries can tip over trucks. It stamps its feet to power up.",
+		'en-us': "The shock waves from its cries can tip over trucks. It stamps its feet to power up.",
 	},
 
 	thirdParty: {

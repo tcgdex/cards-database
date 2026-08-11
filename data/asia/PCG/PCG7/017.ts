@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG7"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピッジット（デルタ種）",
+		'ja-jp': "ピッジット（デルタ種）",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "旋風",
+				'ja-jp': "旋風",
 			},
 			effect: {
-				ja: "対戦相手は、ディフェンディングポケモンを1匹のベンチポケモンで切り替えます。",
+				'ja-jp': "対戦相手は、ディフェンディングポケモンを1匹のベンチポケモンで切り替えます。",
 			},
 			damage: 30,
 		},

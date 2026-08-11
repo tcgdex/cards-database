@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハンター",
+		'ja-jp': "ハンター",
 	},
 
 	rarity: "Common",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "レイを混乱させます",
+				'ja-jp': "レイを混乱させます",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Psychic", "Colorless", "Colorless"],
 			name: {
-				ja: "影の手",
+				'ja-jp': "影の手",
 			},
 			effect: {
-				ja: "手から最大2枚のカードを捨てることができます。もしそうなら、その多くのカードを描きます。",
+				'ja-jp': "手から最大2枚のカードを捨てることができます。もしそうなら、その多くのカードを描きます。",
 			},
 			damage: 30,
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Nidorina",
-		fr: "Nidorina",
-		de: "Nidorina"
+		'en-us': "Nidorina",
+		'fr-fr': "Nidorina",
+		'de-de': "Nidorina"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidoran♀",
-		fr: "Nidoran"
+		'en-us': "Nidoran♀",
+		'fr-fr': "Nidoran"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rescue",
-				fr: "Rescousse",
-				de: "Bergen"
+				'en-us': "Rescue",
+				'fr-fr': "Rescousse",
+				'de-de': "Bergen"
 			},
 			effect: {
-				en: "Search your discard pile for up to 2 Pokémon, show them to your opponent, and put them into your hand.",
-				fr: "Choisissez dans votre pile de défausse jusqu'à 2 Pokémon, montrez-les à votre adversaire et placez-les dans votre main.",
-				de: "Durchsuche deinen Ablagestapel nach bis zu 2 Pokémon-Karten, zeige sie deinem Gegner und nimm sie auf die Hand."
+				'en-us': "Search your discard pile for up to 2 Pokémon, show them to your opponent, and put them into your hand.",
+				'fr-fr': "Choisissez dans votre pile de défausse jusqu'à 2 Pokémon, montrez-les à votre adversaire et placez-les dans votre main.",
+				'de-de': "Durchsuche deinen Ablagestapel nach bis zu 2 Pokémon-Karten, zeige sie deinem Gegner und nimm sie auf die Hand."
 			},
 
 		},
@@ -53,9 +53,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Kratzer"
 			},
 
 			damage: 30,
@@ -73,8 +73,8 @@ const card: Card = {
 
 
 	description: {
-		en: "When it senses danger, it raises all the barbs on its body. These barbs grow slower than NIDORINO's.",
-		fr: ":Ce Pokémon dresse ses piquants en cas de danger. Ils poussent moins vite que ceux de Nidorino."
+		'en-us': "When it senses danger, it raises all the barbs on its body. These barbs grow slower than NIDORINO's.",
+		'fr-fr': ":Ce Pokémon dresse ses piquants en cas de danger. Ils poussent moins vite que ceux de Nidorino."
 	},
 
 	thirdParty: {

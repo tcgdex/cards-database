@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Spinda",
-		fr: "Spinda",
-		es: "Spinda",
-		it: "Spinda",
-		pt: "Spinda",
-		de: "Pandir"
+		'en-us': "Spinda",
+		'fr-fr': "Spinda",
+		'es-es': "Spinda",
+		'it-it': "Spinda",
+		'pt-br': "Spinda",
+		'de-de': "Pandir"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whimsy Tackle",
-				fr: "Charge Bizarre",
+				'en-us': "Whimsy Tackle",
+				'fr-fr': "Charge Bizarre",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 			},
 			damage: 30,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "No two Spinda have the same pattern of spots. Its tottering step fouls the aim of foes.",
+		'en-us': "No two Spinda have the same pattern of spots. Its tottering step fouls the aim of foes.",
 	},
 
 	thirdParty: {

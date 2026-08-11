@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Haunter"
+		'en-us': "Sabrina's Haunter"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gastly"
+		'en-us': "Gastly"
 	},
 
 	stage: "Stage1",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Night Spirits"
+				'en-us': "Night Spirits"
 			},
 			effect: {
-				en: "Flip a number of coins equal to the total number of Sabrina's Gastlys, Sabrina's Haunters, and Sabrina's Gengars you have in play. This attack does 30 damage times the number of heads."
+				'en-us': "Flip a number of coins equal to the total number of Sabrina's Gastlys, Sabrina's Haunters, and Sabrina's Gengars you have in play. This attack does 30 damage times the number of heads."
 			},
 			damage: "30x",
 

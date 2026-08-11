@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Shaymin-EX",
-		fr: "Shaymin-EX",
-		es: "Shaymin-EX",
-		it: "Shaymin-EX",
-		pt: "Shaymin-EX",
-		de: "Shaymin-EX"
+		'en-us': "Shaymin-EX",
+		'fr-fr': "Shaymin-EX",
+		'es-es': "Shaymin-EX",
+		'it-it': "Shaymin-EX",
+		'pt-br': "Shaymin-EX",
+		'de-de': "Shaymin-EX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Synthesis",
-				fr: "Synthèse",
+				'en-us': "Synthesis",
+				'fr-fr': "Synthèse",
 			},
 			effect: {
-				en: "Search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
-				fr: "Cherchez une carte Énergie Grass dans votre deck et attachez-la à 1 de vos Pokémon. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez une carte Énergie Grass dans votre deck et attachez-la à 1 de vos Pokémon. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Revenge Blast",
-				fr: "Explo-Vengeance",
+				'en-us': "Revenge Blast",
+				'fr-fr': "Explo-Vengeance",
 			},
 			effect: {
-				en: "Does 30 more damage for each Prize card your opponent has taken.",
-				fr: "Inflige 30 dégâts supplémentaires pour chaque carte Récompense que votre adversaire a récupérée.",
+				'en-us': "Does 30 more damage for each Prize card your opponent has taken.",
+				'fr-fr': "Inflige 30 dégâts supplémentaires pour chaque carte Récompense que votre adversaire a récupérée.",
 			},
 			damage: 30,
 

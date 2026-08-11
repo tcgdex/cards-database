@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Arcanine",
-		fr: "Arcanin",
-		es: "Arcanine",
-		it: "Arcanine",
-		pt: "Arcanine",
-		de: "Arkani"
+		'en-us': "Arcanine",
+		'fr-fr': "Arcanin",
+		'es-es': "Arcanine",
+		'it-it': "Arcanine",
+		'pt-br': "Arcanine",
+		'de-de': "Arkani"
 	},
 
 	illustrator: "kodama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Growlithe",
-		fr: "Caninos",
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos",
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Searing Flame",
-				fr: "Flammes Calcinantes",
-				es: "Llama Abrasadora",
-				it: "Fiamme Ustionanti",
-				pt: "Chama Cauterizante",
-				de: "Sengende Flammen"
+				'en-us': "Searing Flame",
+				'fr-fr': "Flammes Calcinantes",
+				'es-es': "Llama Abrasadora",
+				'it-it': "Fiamme Ustionanti",
+				'pt-br': "Chama Cauterizante",
+				'de-de': "Sengende Flammen"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+				'en-us': "Your opponent’s Active Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 			},
 			damage: 60,
 
@@ -67,20 +67,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Firestorm",
-				fr: "Orage de Flammes",
-				es: "Tormenta de Fuego",
-				it: "Tempesta di Fuoco",
-				pt: "Tempestade de Fogo",
-				de: "Brandsturm"
+				'en-us': "Firestorm",
+				'fr-fr': "Orage de Flammes",
+				'es-es': "Tormenta de Fuego",
+				'it-it': "Tempesta di Fuoco",
+				'pt-br': "Tempestade de Fogo",
+				'de-de': "Brandsturm"
 			},
 			effect: {
-				en: "Discard 3 Fire Energy from this Pokémon.",
-				fr: "Défaussez 3 Énergies Fire de ce Pokémon.",
-				es: "Descarta 3 Energías Fire de este Pokémon.",
-				it: "Scarta tre Energie Fire assegnate a questo Pokémon.",
-				pt: "Descarte 3 Energias Fire deste Pokémon.",
-				de: "Lege 3 Fire-Energien von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard 3 Fire Energy from this Pokémon.",
+				'fr-fr': "Défaussez 3 Énergies Fire de ce Pokémon.",
+				'es-es': "Descarta 3 Energías Fire de este Pokémon.",
+				'it-it': "Scarta tre Energie Fire assegnate a questo Pokémon.",
+				'pt-br': "Descarte 3 Energias Fire deste Pokémon.",
+				'de-de': "Lege 3 Fire-Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 190,
 
@@ -97,7 +97,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Overflowing with beauty and majesty, this strong Pokémon appears in ancient Eastern folklore.",
+		'en-us': "Overflowing with beauty and majesty, this strong Pokémon appears in ancient Eastern folklore.",
 	},
 
 	thirdParty: {

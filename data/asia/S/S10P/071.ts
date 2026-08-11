@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オリジンパルキアV",
+		'ja-jp': "オリジンパルキアV",
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "りょういきしはい" },
 			cost: ["Water"],
 			effect: {
-				ja: "自分の山札からスタジアムを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札からスタジアムを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],

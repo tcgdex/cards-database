@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Zarude",
-		th: "ซารู้ด"
+		'id-id': "Zarude",
+		'th-th': "ซารู้ด"
 	},
 
 	illustrator: "GOSSAN",
@@ -15,34 +15,34 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Zarude hidup dalam hutan belantara secara berkelompok. Sangat agresif sehingga ditakuti oleh Pokémon lainnya yang tinggal di hutan.",
-		th: "สร้างฝูงอาศัยอยู่ในป่าทึบ มีนิสัยก้าวร้าวมากและเป็นที่หวาดกลัวของ เหล่าโปเกมอนที่อาศัยอยู่ในป่า"
+		'id-id': "Zarude hidup dalam hutan belantara secara berkelompok. Sangat agresif sehingga ditakuti oleh Pokémon lainnya yang tinggal di hutan.",
+		'th-th': "สร้างฝูงอาศัยอยู่ในป่าทึบ มีนิสัยก้าวร้าวมากและเป็นที่หวาดกลัวของ เหล่าโปเกมอนที่อาศัยอยู่ในป่า"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Leaf Drain",
-			th: "ลีฟเดรน"
+			'id-id': "Leaf Drain",
+			'th-th': "ลีฟเดรน"
 		},
 
 		effect: {
-			id: "Pulihkan HP Pokémon ini sejumlah 20.",
-			th: "ฟื้นฟู HP ของโปเกมอนนี้ [20]"
+			'id-id': "Pulihkan HP Pokémon ini sejumlah 20.",
+			'th-th': "ฟื้นฟู HP ของโปเกมอนนี้ [20]"
 		},
 
 		damage: 20,
 		cost: ["Grass"]
 	}, {
 		name: {
-			id: "Jungle Whip",
-			th: "จังเกิลวิป"
+			'id-id': "Jungle Whip",
+			'th-th': "จังเกิลวิป"
 		},
 
 		effect: {
-			id: "Pemain dapat mengembalikan semua Energi yang dikenakan pada Pokémon ini ke Kartu Pegangan, kerusakan yang diberikan bertambah sejumlah 80.",
-			th: "หากต้องการ นำพลังงานที่ติดอยู่กับโปเกมอนนี้ทั้งหมดกลับขึ้นมือ การโจมตีนี้จะ เพิ่มแดเมจอีก 80"
+			'id-id': "Pemain dapat mengembalikan semua Energi yang dikenakan pada Pokémon ini ke Kartu Pegangan, kerusakan yang diberikan bertambah sejumlah 80.",
+			'th-th': "หากต้องการ นำพลังงานที่ติดอยู่กับโปเกมอนนี้ทั้งหมดกลับขึ้นมือ การโจมตีนี้จะ เพิ่มแดเมจอีก 80"
 		},
 
 		damage: "80+",

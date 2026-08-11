@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラゴローン",
+		'ja-jp': "アローラゴローン",
 	},
 
 	illustrator: "match",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "ドラバイトを 好んで 喰らう。 喰った 成分が 結晶になり 身体の一部に 浮きだしているぞ。",
+		'ja-jp': "ドラバイトを 好んで 喰らう。 喰った 成分が 結晶になり 身体の一部に 浮きだしているぞ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、20ダメージ追加。ウラなら、このポケモンにも20ダメージ。",
+				'ja-jp': "コインを1回投げオモテなら、20ダメージ追加。ウラなら、このポケモンにも20ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Lightning", "Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アローライシツブテ",
+		'ja-jp': "アローライシツブテ",
 	},
 
 	retreat: 4,

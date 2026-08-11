@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カラカラ",
+		'ja-jp': "カラカラ",
 	},
 
 	illustrator: "otumami",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "亡くした 母親を 思い 夜に 泣き叫ぶが そのせいで 天敵の バルジーナに 見つかってしまう。",
+		'ja-jp': "亡くした 母親を 思い 夜に 泣き叫ぶが そのせいで 天敵の バルジーナに 見つかってしまう。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "なきごえ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-20」される。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-20」される。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数×20ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数×20ダメージ。",
 			},
 		},
 	],

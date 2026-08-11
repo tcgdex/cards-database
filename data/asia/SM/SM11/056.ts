@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドラピオン",
+		'ja-jp': "ドラピオン",
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "自慢の パワーで 相手を ばらばらに できるのに さらに 猛毒で とどめを 刺すのだ。",
+		'ja-jp': "自慢の パワーで 相手を ばらばらに できるのに さらに 猛毒で とどめを 刺すのだ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを4回投げ、オモテの数×50ダメージ。オモテが2回以上なら、相手のバトルポケモンをどくにする。",
+				'ja-jp': "コインを4回投げ、オモテの数×50ダメージ。オモテが2回以上なら、相手のバトルポケモンをどくにする。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "スコルピ",
+		'ja-jp': "スコルピ",
 	},
 
 	retreat: 4,

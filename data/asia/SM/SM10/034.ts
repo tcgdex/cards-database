@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドガース",
+		'ja-jp': "ドガース",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "薄い バルーン状の 体に 猛毒の ガスが つまっている。 近くに 来ると くさい。",
+		'ja-jp': "薄い バルーン状の 体に 猛毒の ガスが つまっている。 近くに 来ると くさい。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "くさいにおい" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "おたがいのバトルポケモンをそれぞれこんらんにする。",
+				'ja-jp': "おたがいのバトルポケモンをそれぞれこんらんにする。",
 			},
 		},
 	],

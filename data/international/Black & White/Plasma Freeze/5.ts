@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Exeggutor",
-		fr: "Noadkoko",
-		es: "Exeggutor",
-		it: "Exeggutor",
-		pt: "Exeggutor",
-		de: "Kokowei"
+		'en-us': "Exeggutor",
+		'fr-fr': "Noadkoko",
+		'es-es': "Exeggutor",
+		'it-it': "Exeggutor",
+		'pt-br': "Exeggutor",
+		'de-de': "Kokowei"
 	},
 
 	illustrator: "match",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Exeggcute",
-		fr: "Noeunoeuf",
+		'en-us': "Exeggcute",
+		'fr-fr': "Noeunoeuf",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blockade",
-				fr: "Blocus",
+				'en-us': "Blockade",
+				'fr-fr': "Blocus",
 			},
 			effect: {
-				en: "Your opponent can't play any Supporter cards from his or her hand during his or her next turn.",
-				fr: "Votre adversaire ne peut pas jouer de cartes Supporter de sa main pendant son prochain tour.",
+				'en-us': "Your opponent can't play any Supporter cards from his or her hand during his or her next turn.",
+				'fr-fr': "Votre adversaire ne peut pas jouer de cartes Supporter de sa main pendant son prochain tour.",
 			},
 			damage: 10,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stomp",
-				fr: "Écrasement",
+				'en-us': "Stomp",
+				'fr-fr': "Écrasement",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: 60,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is called \"The Walking Jungle.\" If a head grows too big, it falls off and becomes an Exeggcute.",
+		'en-us': "It is called \"The Walking Jungle.\" If a head grows too big, it falls off and becomes an Exeggcute.",
 	},
 
 	thirdParty: {

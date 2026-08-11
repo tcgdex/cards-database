@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Mareep",
-		fr: "Wattouat",
-		de: "Voltilamm"
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat",
+		'de-de': "Voltilamm"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Static Shock",
-				fr: "Choc statique",
-				de: "Statischer Schock"
+				'en-us': "Static Shock",
+				'fr-fr': "Choc statique",
+				'de-de': "Statischer Schock"
 			},
 
 			damage: 10,
@@ -54,7 +54,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.",
+		'en-us': "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.",
 	},
 
 	variants: [

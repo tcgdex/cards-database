@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Doublade"
+		'id-id': "Doublade"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Doublade menggunakan strategi mengganti posisi menyerang dan bertahan kedua bilah pedang secara terus menerus untuk menghabisi mangsanya."
+		'id-id': "Doublade menggunakan strategi mengganti posisi menyerang dan bertahan kedua bilah pedang secara terus menerus untuk menghabisi mangsanya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Tarian Pedang"
+			'id-id': "Tarian Pedang"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, kerusakan akibat Slicing Blade Pokémon ini bertambah sejumlah 80."
+			'id-id': "Pada giliran sendiri berikutnya, kerusakan akibat Slicing Blade Pokémon ini bertambah sejumlah 80."
 		},
 
 		cost: ["Metal"]
 	}, {
 		name: {
-			id: "Slicing Blade"
+			'id-id': "Slicing Blade"
 		},
 
 		damage: 40,

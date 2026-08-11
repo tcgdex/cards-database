@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリカのナゾノクサ",
+		'ja-jp': "エリカのナゾノクサ",
 	},
 
 	illustrator: "Yoriyuki Ikegami",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "月の光を 浴びて 目覚めると あちこち 動きまわる。 昼間は 地面の中で じっとしている。",
+		'ja-jp': "月の光を 浴びて 目覚めると あちこち 動きまわる。 昼間は 地面の中で じっとしている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Grass"],
 			effect: {
-				ja: "このポケモンにも10ダメージ。",
+				'ja-jp': "このポケモンにも10ダメージ。",
 			},
 		},
 	],

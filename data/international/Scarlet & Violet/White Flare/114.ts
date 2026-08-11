@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Blitzle",
-		fr: "Zébibron",
-		de: "Elezeba",
-		it: "Blitzle",
-		pt: "Blitzle",
-		es: "Blitzle",
+		'en-us': "Blitzle",
+		'fr-fr': "Zébibron",
+		'de-de': "Elezeba",
+		'it-it': "Blitzle",
+		'pt-br': "Blitzle",
+		'es-es': "Blitzle",
 		'es-mx': "Blitzle"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Smash Kick",
-			fr: "Coud'Pattes",
-			de: "Schmetterkick",
-			it: "Calcio Esplosivo",
-			pt: "Chute Poderoso",
-			es: "Patada Destrucción",
+			'en-us': "Smash Kick",
+			'fr-fr': "Coud'Pattes",
+			'de-de': "Schmetterkick",
+			'it-it': "Calcio Esplosivo",
+			'pt-br': "Chute Poderoso",
+			'es-es': "Patada Destrucción",
 			'es-mx': "Patada Devastadora"
 		},
 
@@ -40,12 +40,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Zap Kick",
-			fr: "Coup de Pied Ravageur",
-			de: "Stromtritt",
-			it: "Dinamocalcio",
-			pt: "Chute Zap",
-			es: "Electropatada",
+			'en-us': "Zap Kick",
+			'fr-fr': "Coup de Pied Ravageur",
+			'de-de': "Stromtritt",
+			'it-it': "Dinamocalcio",
+			'pt-br': "Chute Zap",
+			'es-es': "Electropatada",
 			'es-mx': "Electropatada"
 		},
 

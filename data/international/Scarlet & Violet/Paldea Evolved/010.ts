@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Blizzi",
-		en: "Snover",
-		es: "Snover",
-		it: "Snover",
-		pt: "Snover",
-		de: "Shnebedeck"
+		'fr-fr': "Blizzi",
+		'en-us': "Snover",
+		'es-es': "Snover",
+		'it-it': "Snover",
+		'pt-br': "Snover",
+		'de-de': "Shnebedeck"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			fr: "Poing Tire-Bouchon",
-			en: "Corkscrew Punch",
-			es: "Puño Tirabuzón",
-			it: "Pugno Rotante",
-			pt: "Soco Saca-rolha",
-			de: "Korkenzieherhieb"
+			'fr-fr': "Poing Tire-Bouchon",
+			'en-us': "Corkscrew Punch",
+			'es-es': "Puño Tirabuzón",
+			'it-it': "Pugno Rotante",
+			'pt-br': "Soco Saca-rolha",
+			'de-de': "Korkenzieherhieb"
 		},
 
 		damage: 30
@@ -66,7 +66,7 @@ const card: Card = {
 	illustrator: "Taira Akitsu",
 
 	description: {
-		en: "During cold seasons, it migrates to the mountain's lower reaches. It returns to the snow-covered summit in the spring.",
+		'en-us': "During cold seasons, it migrates to the mountain's lower reaches. It returns to the snow-covered summit in the spring.",
 	},
 }
 

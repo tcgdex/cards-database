@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Starly",
-		fr: "Étourmi",
-		es: "Starly",
-		it: "Starly",
-		pt: "Starly",
-		de: "Staralili"
+		'en-us': "Starly",
+		'fr-fr': "Étourmi",
+		'es-es': "Starly",
+		'it-it': "Starly",
+		'pt-br': "Starly",
+		'de-de': "Staralili"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
 			},
 
 			damage: 10,
@@ -60,7 +60,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Because they are weak individually, they form groups. However, they bicker if the group grows too big.",
+		'en-us': "Because they are weak individually, they form groups. However, they bicker if the group grows too big.",
 	},
 
 	thirdParty: {

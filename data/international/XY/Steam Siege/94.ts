@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Fletchling",
-		fr: "Passerouge",
-		es: "Fletchling",
-		it: "Fletchling",
-		pt: "Fletchling",
-		de: "Dartiri"
+		'en-us': "Fletchling",
+		'fr-fr': "Passerouge",
+		'es-es': "Fletchling",
+		'it-it': "Fletchling",
+		'pt-br': "Fletchling",
+		'de-de': "Dartiri"
 	},
 
 	illustrator: "TOKIYA",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				es: "Picotazo",
-				it: "Beccata",
-				pt: "Bicada",
-				de: "Schnabel"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'es-es': "Picotazo",
+				'it-it': "Beccata",
+				'pt-br': "Bicada",
+				'de-de': "Schnabel"
 			},
 
 			damage: 20,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Despite the beauty of its lilting voice, it's merciless to intruders that enter its territory.",
+		'en-us': "Despite the beauty of its lilting voice, it's merciless to intruders that enter its territory.",
 	},
 
 	thirdParty: {

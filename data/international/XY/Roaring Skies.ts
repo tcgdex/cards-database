@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../XY'
 
 const xy6: Set = {
 	id: "xy6",
 
 	name: {
-		en: "Roaring Skies",
-		fr: "Ciel Rugissant",
-		es: "Cielos Rugientes",
-		it: "Furie Volanti",
-		de: "Drachenleuchten",
-		pt: "Céus Estrondosos",
+		'en-us': "Roaring Skies",
+		'fr-fr': "Ciel Rugissant",
+		'es-es': "Cielos Rugientes",
+		'it-it': "Furie Volanti",
+		'de-de': "Drachenleuchten",
+		'pt-br': "Céus Estrondosos",
 		ru: "Грохочущие Небеса"
 	},
 
@@ -25,7 +25,7 @@ const xy6: Set = {
 
 	abbreviations: {
 		official: "ROS",
-		fr: "CRU"
+		'fr-fr': "CRU"
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Jolteon",
-		de: "Blitza"
+		'en-us': "Jolteon",
+		'de-de': "Blitza"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
+		'en-us': "Eevee",
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Self-healing",
-				de: "Selbstheilung"
+				'en-us': "Self-healing",
+				'de-de': "Selbstheilung"
 			},
 			effect: {
-				en: "Whenever you attach a Lightning Energy card from your hand to Jolteon, remove all Special Conditions affecting Jolteon.",
-				de: "Immer wenn du eine -Energiekarte aus deiner Hand an Blitza anlegst, entferne alle speziellen Zustände, die Blitza betreffen."
+				'en-us': "Whenever you attach a Lightning Energy card from your hand to Jolteon, remove all Special Conditions affecting Jolteon.",
+				'de-de': "Immer wenn du eine -Energiekarte aus deiner Hand an Blitza anlegst, entferne alle speziellen Zustände, die Blitza betreffen."
 			},
 		},
 	],
@@ -46,12 +46,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thundershock",
-				de: "Donnerschock"
+				'en-us': "Thundershock",
+				'de-de': "Donnerschock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunderspark",
-				de: "Donnerfunken"
+				'en-us': "Thunderspark",
+				'de-de': "Donnerfunken"
 			},
 			effect: {
-				en: "This attack does 10 damage to each Benched Pokémon with at least 1 Energy card attached to it (yours and your opponent's).",
-				de: "Dieser Angriff fügt allen Pokémon auf der Bank (deinen und denen deines Gegners), an die mindestens 1 Energiekarte angelegt ist, 10 Schadenspunkte zu."
+				'en-us': "This attack does 10 damage to each Benched Pokémon with at least 1 Energy card attached to it (yours and your opponent's).",
+				'de-de': "Dieser Angriff fügt allen Pokémon auf der Bank (deinen und denen deines Gegners), an die mindestens 1 Energiekarte angelegt ist, 10 Schadenspunkte zu."
 			},
 			damage: 40,
 

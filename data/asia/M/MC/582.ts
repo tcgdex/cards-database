@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤルキモノ",
+		'ja-jp': "ヤルキモノ",
 	},
 
 	illustrator: "Kurata So",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "いつも 暴れているので すぐに お腹が 空いてしまうが 食事の ときも じっとして いられない。",
+		'ja-jp': "いつも 暴れているので すぐに お腹が 空いてしまうが 食事の ときも じっとして いられない。",
 	},
 
 	stage: "Stage1",
@@ -39,7 +39,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ナマケロ",
+		'ja-jp': "ナマケロ",
 	},
 
 	retreat: 2,

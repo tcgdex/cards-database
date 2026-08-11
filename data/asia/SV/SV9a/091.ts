@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "シロナのガブリアスex",
+		'ja-jp': "シロナのガブリアスex",
 		'zh-tw': "<竹蘭的>烈咬陸鯊ex",
 		'zh-cn': "<竹蘭的>烈咬陸鯊ex"
 	},
@@ -22,7 +22,7 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "スクリューダイブ",
+			'ja-jp': "スクリューダイブ",
 			'zh-tw': "螺旋俯衝",
 			'zh-cn': "螺旋俯衝"
 		},
@@ -30,7 +30,7 @@ const card: Card = {
 		damage: 100,
 
 		effect: {
-			ja: "のぞむなら、自分の手札が6枚になるように、山札を引く。",
+			'ja-jp': "のぞむなら、自分の手札が6枚になるように、山札を引く。",
 			'zh-tw': "若希望，從牌庫抽卡直到自己的手牌滿6張為止。",
 			'zh-cn': "若希望，從牌庫抽卡直到自己的手牌滿6張為止。"
 		}
@@ -38,7 +38,7 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			ja: "リューノバスター",
+			'ja-jp': "リューノバスター",
 			'zh-tw': "龍之爆發",
 			'zh-cn': "龍之爆發"
 		},
@@ -46,7 +46,7 @@ const card: Card = {
 		damage: 260,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを、すべてトラッシュする。",
+			'ja-jp': "このポケモンについているエネルギーを、すべてトラッシュする。",
 			'zh-tw': "將這隻寶可夢身上附加的能量卡全部丟棄。",
 			'zh-cn': "將這隻寶可夢身上附加的能量卡全部丟棄。"
 		}

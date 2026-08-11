@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Camerupt",
-		fr: "Camerupt",
-		de: "Camerupt"
+		'en-us': "Camerupt",
+		'fr-fr': "Camerupt",
+		'de-de': "Camerupt"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Numel",
-		fr: "Chamallot"
+		'en-us': "Numel",
+		'fr-fr': "Chamallot"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Extra Flame",
-				fr: "Flamme supplémentaire",
-				de: "Extra Flame"
+				'en-us': "Extra Flame",
+				'fr-fr': "Flamme supplémentaire",
+				'de-de': "Extra Flame"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Pokémon-ex, this attack does 20 damage plus 30 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 20 dégâts plus 30 dégâts supplémentaires.",
-				de: "If the Defending Pokémon is Pokémon-ex, this attack does 20 plus 30 more damage."
+				'en-us': "If the Defending Pokémon is Pokémon-ex, this attack does 20 damage plus 30 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 20 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon is Pokémon-ex, this attack does 20 plus 30 more damage."
 			},
 			damage: "20+",
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Singe",
-				fr: "Ça sent le roussi !",
-				de: "Super Singe"
+				'en-us': "Super Singe",
+				'fr-fr': "Ça sent le roussi !",
+				'de-de': "Super Singe"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
-				de: "The Defending Pokémon is now Burned."
+				'en-us': "The Defending Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "The Defending Pokémon is now Burned."
 			},
 			damage: 40,
 

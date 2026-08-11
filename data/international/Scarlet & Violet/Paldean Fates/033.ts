@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Swoobat",
-		fr: "Rhinolove",
-		es: "Swoobat",
-		it: "Swoobat",
-		pt: "Swoobat",
-		de: "Fletiamo"
+		'en-us': "Swoobat",
+		'fr-fr': "Rhinolove",
+		'es-es': "Swoobat",
+		'it-it': "Swoobat",
+		'pt-br': "Swoobat",
+		'de-de': "Fletiamo"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Woobat",
-		fr: "Chovsourir",
-		es: "Woobat",
-		it: "Woobat",
-		pt: "Woobat",
-		de: "Fleknoil"
+		'en-us': "Woobat",
+		'fr-fr': "Chovsourir",
+		'es-es': "Woobat",
+		'it-it': "Woobat",
+		'pt-br': "Woobat",
+		'de-de': "Fleknoil"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Attraction Wave",
-			fr: "Onde Attirante",
-			es: "Onda Atracción",
-			it: "Fascinonda",
-			pt: "Onda de Atração",
-			de: "Anziehungswelle"
+			'en-us': "Attraction Wave",
+			'fr-fr': "Onde Attirante",
+			'es-es': "Onda Atracción",
+			'it-it': "Fascinonda",
+			'pt-br': "Onda de Atração",
+			'de-de': "Anziehungswelle"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused. Put 6 damage counters instead of 3 on that Pokémon for this Special Condition.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus. Placez 6 marqueurs de dégâts au lieu de 3 sur ce Pokémon-là pour cet État Spécial.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido. Pon 6 contadores de daño en vez de 3 en ese Pokémon por esta Condición Especial.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso. Metti sei segnalini danno invece di tre su quel Pokémon per effetto di questa condizione speciale.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso. Coloque 6 contadores de dano ao invés de 3 naquele Pokémon para esta Condição Especial.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt. Lege für diesen Speziellen Zustand 6 Schadensmarken anstelle von 3 Schadensmarken auf jenes Pokémon."
+			'en-us': "Your opponent's Active Pokémon is now Confused. Put 6 damage counters instead of 3 on that Pokémon for this Special Condition.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus. Placez 6 marqueurs de dégâts au lieu de 3 sur ce Pokémon-là pour cet État Spécial.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido. Pon 6 contadores de daño en vez de 3 en ese Pokémon por esta Condición Especial.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso. Metti sei segnalini danno invece di tre su quel Pokémon per effetto di questa condizione speciale.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso. Coloque 6 contadores de dano ao invés de 3 naquele Pokémon para esta Condição Especial.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt. Lege für diesen Speziellen Zustand 6 Schadensmarken anstelle von 3 Schadensmarken auf jenes Pokémon."
 		},
 
 		damage: 30
@@ -89,7 +89,7 @@ const card: Card = {
 	illustrator: "Narumi Sato",
 
 	description: {
-		en: "The auspicious shape of this Pokémon's nose apparently led some regions to consider Swoobat a symbol of good luck.",
+		'en-us': "The auspicious shape of this Pokémon's nose apparently led some regions to consider Swoobat a symbol of good luck.",
 	},
 
 }

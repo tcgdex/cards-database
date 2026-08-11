@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "N's Vanillish",
-		fr: "Sorboul de N",
-		es: "Vanillish de N",
+		'en-us': "N's Vanillish",
+		'fr-fr': "Sorboul de N",
+		'es-es': "Vanillish de N",
 		'es-mx': "Vanillish de N",
-		de: "Ns Gelatroppo",
-		it: "Vanillish di N",
-		pt: "Vanillish do N"
+		'de-de': "Ns Gelatroppo",
+		'it-it': "Vanillish di N",
+		'pt-br': "Vanillish do N"
 	},
 
 	evolveFrom: {
-		en: "N's Vanillite",
-		fr: "Sorbébé de N",
-		es: "Vanillite de N",
+		'en-us': "N's Vanillite",
+		'fr-fr': "Sorbébé de N",
+		'es-es': "Vanillite de N",
 		'es-mx': "Vanillite de N",
-		de: "Ns Gelatini",
-		it: "Vanillite di N",
-		pt: "Vanillite do N",
+		'de-de': "Ns Gelatini",
+		'it-it': "Vanillite di N",
+		'pt-br': "Vanillite do N",
 	},
 
 	illustrator: "kirisAki",
@@ -35,13 +35,13 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Flop",
-			fr: "Flop",
-			es: "Vuelta",
+			'en-us': "Flop",
+			'fr-fr': "Flop",
+			'es-es': "Vuelta",
 			'es-mx': "Desplome",
-			de: "Plumps",
-			it: "Tonfo",
-			pt: "Baque"
+			'de-de': "Plumps",
+			'it-it': "Tonfo",
+			'pt-br': "Baque"
 		},
 
 		damage: 20
@@ -49,23 +49,23 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Sheer Cold",
-			fr: "Glaciation",
-			es: "Frío Polar",
+			'en-us': "Sheer Cold",
+			'fr-fr': "Glaciation",
+			'es-es': "Frío Polar",
 			'es-mx': "Frío Extremo",
-			de: "Eiseskälte",
-			it: "Purogelo",
-			pt: "Frio Extremo"
+			'de-de': "Eiseskälte",
+			'it-it': "Purogelo",
+			'pt-br': "Frio Extremo"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, the Defending Pokémon can't use attacks.",
-			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas utiliser d'attaques.",
-			es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede usar ataques.",
+			'en-us': "During your opponent's next turn, the Defending Pokémon can't use attacks.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas utiliser d'attaques.",
+			'es-es': "Durante el próximo turno de tu rival, el Pokémon Defensor no puede usar ataques.",
 			'es-mx': "Durante el próximo turno de tu rival, el Pokémon Defensor no puede usar ataques.",
-			de: "Während des nächsten Zuges deines Gegners kann das Verteidigende Pokémon keine Attacken einsetzen.",
-			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può usare attacchi.",
-			pt: "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá usar ataques."
+			'de-de': "Während des nächsten Zuges deines Gegners kann das Verteidigende Pokémon keine Attacken einsetzen.",
+			'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può usare attacchi.",
+			'pt-br': "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá usar ataques."
 		},
 
 		damage: 60
@@ -81,7 +81,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "They cool down the surrounding air and create ice particles, which they use to freeze their foes.",
+		'en-us': "They cool down the surrounding air and create ice particles, which they use to freeze their foes.",
 	},
 
 	variants: [

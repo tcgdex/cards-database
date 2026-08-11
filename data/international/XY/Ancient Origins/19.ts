@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Magikarp",
-		fr: "Magicarpe",
-		es: "Magikarp",
-		it: "Magikarp",
-		pt: "Magikarp",
-		de: "Karpador"
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe",
+		'es-es': "Magikarp",
+		'it-it': "Magikarp",
+		'pt-br': "Magikarp",
+		'de-de': "Karpador"
 	},
 
 	illustrator: "Akira Komayama",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Epic Splash",
-				fr: "Trempette Épique",
-				es: "Salpicadura Épica",
-				it: "Epicosplash",
-				pt: "Esguicho Épico",
-				de: "Irrer Platscher"
+				'en-us': "Epic Splash",
+				'fr-fr': "Trempette Épique",
+				'es-es': "Salpicadura Épica",
+				'it-it': "Epicosplash",
+				'pt-br': "Esguicho Épico",
+				'de-de': "Irrer Platscher"
 			},
 			effect: {
-				en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
-				fr: "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien.",
-				es: "Lanza 2 monedas. Si sale cruz en alguna de ellas, este ataque no hace nada.",
-				it: "Lancia due volte una moneta. Se esce almeno una volta croce, questo attacco non ha effetto.",
-				pt: "Jogue 2 moedas. Se uma delas for coroa, este ataque não fará nada.",
-				de: "Wirf 2 Münzen. Wenn eine oder beide Münzen \"Zahl\" zeigen, hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip 2 coins. If either of them is tails, this attack does nothing.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien.",
+				'es-es': "Lanza 2 monedas. Si sale cruz en alguna de ellas, este ataque no hace nada.",
+				'it-it': "Lancia due volte una moneta. Se esce almeno una volta croce, questo attacco non ha effetto.",
+				'pt-br': "Jogue 2 moedas. Se uma delas for coroa, este ataque não fará nada.",
+				'de-de': "Wirf 2 Münzen. Wenn eine oder beide Münzen \"Zahl\" zeigen, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today.",
+		'en-us': "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today.",
 	},
 
 	thirdParty: {

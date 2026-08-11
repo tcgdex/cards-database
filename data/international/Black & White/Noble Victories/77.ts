@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Deino",
-		fr: "Solochi",
-		es: "Deino",
-		it: "Deino",
-		pt: "Deino",
-		de: "Kapuno"
+		'en-us': "Deino",
+		'fr-fr': "Solochi",
+		'es-es': "Deino",
+		'it-it': "Deino",
+		'pt-br': "Deino",
+		'de-de': "Kapuno"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'Boule",
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'Boule",
 			},
 
 			damage: 10,
@@ -47,8 +47,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
 			},
 
 			damage: 20,
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They cannot see, so they tackle and bite to learn about their surroundings. Their bodies are covered in wounds.",
+		'en-us': "They cannot see, so they tackle and bite to learn about their surroundings. Their bodies are covered in wounds.",
 	},
 
 	thirdParty: {

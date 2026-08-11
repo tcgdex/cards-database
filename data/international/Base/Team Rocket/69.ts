@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Voltorb",
-		fr: "Voltorbe",
-		de: "Voltobal"
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe",
+		'de-de': "Voltobal"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Speed Ball",
-				fr: "Balle rapide",
-				de: "Geschwindigkeitsball"
+				'en-us': "Speed Ball",
+				'fr-fr': "Balle rapide",
+				'de-de': "Geschwindigkeitsball"
 			},
 
 			damage: 20,
@@ -51,8 +51,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Usually seen only in power plants, it is sometimes seen in towns, apparently using the power lines to travel.",
-		fr: "Bien qu'on en trouve normalement que dans les centrales, on en aperçoit parfois en ville, utilisant apparemment les lignes électriques pour voyager."
+		'en-us': "Usually seen only in power plants, it is sometimes seen in towns, apparently using the power lines to travel.",
+		'fr-fr': "Bien qu'on en trouve normalement que dans les centrales, on en aperçoit parfois en ville, utilisant apparemment les lignes électriques pour voyager."
 	},
 
 

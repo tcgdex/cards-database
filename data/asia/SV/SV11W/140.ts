@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゾロア",
+		'ja-jp': "ゾロア",
 	},
 
 	illustrator: "Naoki Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "相手の 姿に 化けてみせて 驚かせる。 無口な 子供に 化けている ことが 多いらしい。",
+		'ja-jp': "相手の 姿に 化けてみせて 驚かせる。 無口な 子供に 化けている ことが 多いらしい。",
 	},
 
 	stage: "Basic",

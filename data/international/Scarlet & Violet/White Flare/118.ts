@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Stunfisk",
-		fr: "Limonde",
-		de: "Flunschlik",
-		it: "Stunfisk",
-		pt: "Stunfisk",
-		es: "Stunfisk",
+		'en-us': "Stunfisk",
+		'fr-fr': "Limonde",
+		'de-de': "Flunschlik",
+		'it-it': "Stunfisk",
+		'pt-br': "Stunfisk",
+		'es-es': "Stunfisk",
 		'es-mx': "Stunfisk"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Muddy Bolt",
-			fr: "Éclair Boueux",
-			de: "Schlammblitz",
-			it: "Fangofulmine",
-			pt: "Raio Lamacento",
-			es: "Rayo Lodoso",
+			'en-us': "Muddy Bolt",
+			'fr-fr': "Éclair Boueux",
+			'de-de': "Schlammblitz",
+			'it-it': "Fangofulmine",
+			'pt-br': "Raio Lamacento",
+			'es-es': "Rayo Lodoso",
 			'es-mx': "Rayo Lodoso"
 		},
 
 		effect: {
-			en: "If this Pokémon has any {F} Energy attached, this attack does 20 more damage.",
-			fr: "Si au moins une Énergie {F} est attachée à ce Pokémon, cette attaque inflige 20 dégâts supplémentaires.",
-			de: "Wenn an dieses Pokémon mindestens 1 {F}-Energie angelegt ist, fügt diese Attacke 20 Schadenspunkte mehr zu.",
-			it: "Se questo Pokémon ha delle Energie {F} assegnate, questo attacco infligge 20 danni in più.",
-			pt: "Se este Pokémon tiver alguma Energia {F} ligada a ele, este ataque causará 20 pontos de dano a mais.",
-			es: "Si este Pokémon tiene alguna Energía {F} unida, este ataque hace 20 puntos de daño más.",
+			'en-us': "If this Pokémon has any {F} Energy attached, this attack does 20 more damage.",
+			'fr-fr': "Si au moins une Énergie {F} est attachée à ce Pokémon, cette attaque inflige 20 dégâts supplémentaires.",
+			'de-de': "Wenn an dieses Pokémon mindestens 1 {F}-Energie angelegt ist, fügt diese Attacke 20 Schadenspunkte mehr zu.",
+			'it-it': "Se questo Pokémon ha delle Energie {F} assegnate, questo attacco infligge 20 danni in più.",
+			'pt-br': "Se este Pokémon tiver alguma Energia {F} ligada a ele, este ataque causará 20 pontos de dano a mais.",
+			'es-es': "Si este Pokémon tiene alguna Energía {F} unida, este ataque hace 20 puntos de daño más.",
 			'es-mx': "Si este Pokémon tiene alguna Energía {F} unida, este ataque hace 20 puntos de daño más."
 		},
 
@@ -50,12 +50,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Flop",
-			fr: "Flop",
-			de: "Plumps",
-			it: "Tonfo",
-			pt: "Baque",
-			es: "Vuelta",
+			'en-us': "Flop",
+			'fr-fr': "Flop",
+			'de-de': "Plumps",
+			'it-it': "Tonfo",
+			'pt-br': "Baque",
+			'es-es': "Vuelta",
 			'es-mx': "Desplome"
 		},
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arcanine",
-		fr: "Arcanin",
-		es: "Arcanine",
-		it: "Arcanine",
-		pt: "Arcanine",
-		de: "Arkani"
+		'en-us': "Arcanine",
+		'fr-fr': "Arcanin",
+		'es-es': "Arcanine",
+		'it-it': "Arcanine",
+		'pt-br': "Arcanine",
+		'de-de': "Arkani"
 	},
 
 	rarity: "Rare",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Growlithe",
-		fr: "Caninos",
-		es: "Growlithe",
-		it: "Growlithe",
-		pt: "Growlithe",
-		de: "Fukano"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos",
+		'es-es': "Growlithe",
+		'it-it': "Growlithe",
+		'pt-br': "Growlithe",
+		'de-de': "Fukano"
 	},
 
 	stage: "Stage1",
@@ -40,19 +40,19 @@ const card: Card = {
 	illustrator: "Yuu Nishida",
 
 	description: {
-		en: "A Pokémon that has long been admired for its beauty. It runs agilely as if on wings."
+		'en-us': "A Pokémon that has long been admired for its beauty. It runs agilely as if on wings."
 	},
 
 	attacks: [{
 		cost: ["Fire"],
 
 		name: {
-			en: "Fire Claws",
-			fr: "Griffes Enflammées",
-			de: "Feuerkrallen",
-			es: "Garras de Fuego",
-			pt: "Garras de Fogo",
-			it: "Artigli Infuocati"
+			'en-us': "Fire Claws",
+			'fr-fr': "Griffes Enflammées",
+			'de-de': "Feuerkrallen",
+			'es-es': "Garras de Fuego",
+			'pt-br': "Garras de Fogo",
+			'it-it': "Artigli Infuocati"
 		},
 
 		damage: 40
@@ -60,23 +60,23 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Heat Tackle",
-			fr: "Charge Énergétique",
-			de: "Hitze-Tackle",
-			es: "Placaje Ardiente",
-			pt: "Golpe de Colisão Aquecido",
-			it: "Calorazione"
+			'en-us': "Heat Tackle",
+			'fr-fr': "Charge Énergétique",
+			'de-de': "Hitze-Tackle",
+			'es-es': "Placaje Ardiente",
+			'pt-br': "Golpe de Colisão Aquecido",
+			'it-it': "Calorazione"
 		},
 
 		damage: 160,
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso."
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso."
 		}
 	}],
 

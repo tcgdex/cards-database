@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pitch Black"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Grubbin",
-		fr: "Larvibule",
-		es: "Grubbin",
+		'en-us': "Grubbin",
+		'fr-fr': "Larvibule",
+		'es-es': "Grubbin",
 		'es-mx': "Grubbin",
-		de: "Mabula",
-		it: "Grubbin",
-		pt: "Grubbin"
+		'de-de': "Mabula",
+		'it-it': "Grubbin",
+		'pt-br': "Grubbin"
 	},
 
 	illustrator: "Mina Nakai",
@@ -24,25 +24,25 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "String Shot",
-			fr: "Sécrétion",
-			es: "Disparo Demora",
+			'en-us': "String Shot",
+			'fr-fr': "Sécrétion",
+			'es-es': "Disparo Demora",
 			'es-mx': "Disparo de Seda",
-			de: "Fadenschuss",
-			it: "Millebave",
-			pt: "Estilingada"
+			'de-de': "Fadenschuss",
+			'it-it': "Millebave",
+			'pt-br': "Estilingada"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 			'es-mx': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival ahora está Paralizado.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado."
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado."
 		},
 
 		damage: 10

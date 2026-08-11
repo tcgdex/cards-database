@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Chimecho"
+		'id-id': "Chimecho"
 	},
 
 	illustrator: "sui",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Chimecho memiliki suara bergelombang ultrasonik. Pokémon ini berpetualang ke tempat jauh dengan melayang menaiki angin."
+		'id-id': "Chimecho memiliki suara bergelombang ultrasonik. Pokémon ini berpetualang ke tempat jauh dengan melayang menaiki angin."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Mengundang Kantuk"
+			'id-id': "Mengundang Kantuk"
 		},
 
 		effect: {
-			id: "Pilih 1 Pokémon Cadangan lawan, lalu tukar dengan Pokémon Bertarung. Setelah itu, ubah kondisi Pokémon Bertarung yang baru menjadi Tidur."
+			'id-id': "Pilih 1 Pokémon Cadangan lawan, lalu tukar dengan Pokémon Bertarung. Setelah itu, ubah kondisi Pokémon Bertarung yang baru menjadi Tidur."
 		},
 
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Psyshot"
+			'id-id': "Psyshot"
 		},
 
 		damage: 70,

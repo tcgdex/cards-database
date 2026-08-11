@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo ex",
-		fr: "Mewtwo ex",
-		de: "Mewtu ex"
+		'en-us': "Mewtwo ex",
+		'fr-fr': "Mewtwo ex",
+		'de-de': "Mewtu ex"
 	},
 
 	illustrator: "Katsura Tabata",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Energy Absorption",
-				fr: "Absorption d'énergie",
-				de: "Energieaufnahme"
+				'en-us': "Energy Absorption",
+				'fr-fr': "Absorption d'énergie",
+				'de-de': "Energieaufnahme"
 			},
 			effect: {
-				en: "Attach up to 2 Energy cards from your discard pile to Mewtwo ex.",
-				fr: "Vous pouvez attacher à Mewtwo Ex jusqu'à deux cartes Énergie de votre pile de défausse.",
-				de: "Wähle bis zu 2 Energiekarten aus deinem Ablagestapel und lege sie an Mewtu ex an."
+				'en-us': "Attach up to 2 Energy cards from your discard pile to Mewtwo ex.",
+				'fr-fr': "Vous pouvez attacher à Mewtwo Ex jusqu'à deux cartes Énergie de votre pile de défausse.",
+				'de-de': "Wähle bis zu 2 Energiekarten aus deinem Ablagestapel und lege sie an Mewtu ex an."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psyburn",
-				fr: "Brûlure psy",
-				de: "Psychoverbrennung"
+				'en-us': "Psyburn",
+				'fr-fr': "Brûlure psy",
+				'de-de': "Psychoverbrennung"
 			},
 
 			damage: 60,

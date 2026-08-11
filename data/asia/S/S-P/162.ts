@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドードリオV",
+		'ja-jp': "ドードリオV",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+80」される。",
+				'ja-jp': "次の自分の番、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+80」される。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 			},
 		},
 	],

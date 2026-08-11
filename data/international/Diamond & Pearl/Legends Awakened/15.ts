@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Regigigas",
-		fr: "Regigigas",
-		de: "Regigigas"
+		'en-us': "Regigigas",
+		'fr-fr': "Regigigas",
+		'de-de': "Regigigas"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Slow Start",
-				fr: "Début Calme",
-				de: "Saumselig"
+				'en-us': "Slow Start",
+				'fr-fr': "Début Calme",
+				'de-de': "Saumselig"
 			},
 			effect: {
-				en: "Regigigas can't attack until your opponent has 3 or less Prize cards left.",
-				fr: "Regigigas ne peut attaquer que s'il ne reste plus à votre adversaire qu'un maximum de 3 cartes Récompense.",
-				de: "Regigigas kann nicht angreifen, solange dein Gegner mehr als 3 Preise übrig hat."
+				'en-us': "Regigigas can't attack until your opponent has 3 or less Prize cards left.",
+				'fr-fr': "Regigigas ne peut attaquer que s'il ne reste plus à votre adversaire qu'un maximum de 3 cartes Récompense.",
+				'de-de': "Regigigas kann nicht angreifen, solange dein Gegner mehr als 3 Preise übrig hat."
 			},
 		},
 	],
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crush Grip",
-				fr: "Presse",
-				de: "Quetschgriff"
+				'en-us': "Crush Grip",
+				'fr-fr': "Presse",
+				'de-de': "Quetschgriff"
 			},
 			effect: {
-				en: "If the Defending Pokémon already has any damage counters on it, this attack's base damage is 40 instead of 120.",
-				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, les dégâts de base de cette attaque sont de 40 au lieu de 120.",
-				de: "Wenn auf dem Verteidigenden Pokémon mindestens 1 Schadensmarke liegt, beträgt der Grundschaden dieses Angriffs 40 Schadenspunkte."
+				'en-us': "If the Defending Pokémon already has any damage counters on it, this attack's base damage is 40 instead of 120.",
+				'fr-fr': "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, les dégâts de base de cette attaque sont de 40 au lieu de 120.",
+				'de-de': "Wenn auf dem Verteidigenden Pokémon mindestens 1 Schadensmarke liegt, beträgt der Grundschaden dieses Angriffs 40 Schadenspunkte."
 			},
 			damage: 120,
 
@@ -74,8 +74,8 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "There is an enduring legend that states this Pokémon towed continents with ropes.",
-		fr: "Une légende tenace veut que ce Pokémon ait traîné les continents en les attachant à des cordes."
+		'en-us': "There is an enduring legend that states this Pokémon towed continents with ropes.",
+		'fr-fr': "Une légende tenace veut que ce Pokémon ait traîné les continents en les attachant à des cordes."
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Charge",
-				fr: "Chargeur"
+				'en-us': "Charge",
+				'fr-fr': "Chargeur"
 			},
 			effect: {
-				en: "Search your deck for a Lightning Energy card and attach it to this Pokémon. Shuffle your deck afterward.",
-				fr: "Cherchez une carte Énergie  dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck."
+				'en-us': "Search your deck for a Lightning Energy card and attach it to this Pokémon. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez une carte Énergie  dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck."
 			},
 
 		},
@@ -46,12 +46,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunderbolt",
-				fr: "Tonnerre"
+				'en-us': "Thunderbolt",
+				'fr-fr': "Tonnerre"
 			},
 			effect: {
-				en: "Discard all Energy attached to this Pokémon.",
-				fr: "Défaussez toutes les Énergies attachées à ce Pokémon."
+				'en-us': "Discard all Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez toutes les Énergies attachées à ce Pokémon."
 			},
 			damage: 70,
 
@@ -75,7 +75,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When several of these Pokémon gather, their electricity can build and cause lightning storms.",
+		'en-us': "When several of these Pokémon gather, their electricity can build and cause lightning storms.",
 	},
 
 	thirdParty: {

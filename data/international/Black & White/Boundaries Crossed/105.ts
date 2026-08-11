@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Raticate",
-		fr: "Rattatac",
-		es: "Raticate",
-		it: "Raticate",
-		pt: "Raticate",
-		de: "Rattikarl"
+		'en-us': "Raticate",
+		'fr-fr': "Rattatac",
+		'es-es': "Raticate",
+		'it-it': "Raticate",
+		'pt-br': "Raticate",
+		'de-de': "Rattikarl"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rattata",
-		fr: "Rattata",
+		'en-us': "Rattata",
+		'fr-fr': "Rattata",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw Through",
-				fr: "Grignotage",
+				'en-us': "Gnaw Through",
+				'fr-fr': "Grignotage",
 			},
 			effect: {
-				en: "Discard a Pokémon Tool card attached to the Defending Pokémon.",
-				fr: "Défaussez une carte Outil Pokémon attachée au Pokémon Défenseur.",
+				'en-us': "Discard a Pokémon Tool card attached to the Defending Pokémon.",
+				'fr-fr': "Défaussez une carte Outil Pokémon attachée au Pokémon Défenseur.",
 			},
 
 		},
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Fang",
-				fr: "Croc Fatal",
+				'en-us': "Super Fang",
+				'fr-fr': "Croc Fatal",
 			},
 			effect: {
-				en: "Put damage counters on the Defending Pokémon until its remaining HP is 10.",
-				fr: "Placez des marqueurs de dégâts sur le Pokémon Défenseur jusqu'à ce qu'il ait 10 PV.",
+				'en-us': "Put damage counters on the Defending Pokémon until its remaining HP is 10.",
+				'fr-fr': "Placez des marqueurs de dégâts sur le Pokémon Défenseur jusqu'à ce qu'il ait 10 PV.",
 			},
 
 		},
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "With its long fangs, this surprisingly violent Pokémon can gnaw away even thick concrete with ease.",
+		'en-us': "With its long fangs, this surprisingly violent Pokémon can gnaw away even thick concrete with ease.",
 	},
 
 	thirdParty: {

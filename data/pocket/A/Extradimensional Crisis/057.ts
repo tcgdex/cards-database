@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Stufful",
-		fr: "Nounourson"
+		'en-us': "Stufful",
+		'fr-fr': "Nounourson"
 	},
 
 	illustrator: "Sekio",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Its fluffy fur is a delight to pet, but carelessly reaching out\nto touch this Pokémon could result in painful retaliation.",
-		fr: "Sa fourrure duveteuse est très agréable à caresser, mais ceux qui la touchent sans prévenir s'exposent à une correction brutale."
+		'en-us': "Its fluffy fur is a delight to pet, but carelessly reaching out\nto touch this Pokémon could result in painful retaliation.",
+		'fr-fr': "Sa fourrure duveteuse est très agréable à caresser, mais ceux qui la touchent sans prévenir s'exposent à une correction brutale."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Ram",
-			fr: "Collision"
+			'en-us': "Ram",
+			'fr-fr': "Collision"
 		},
 
 		damage: 40,

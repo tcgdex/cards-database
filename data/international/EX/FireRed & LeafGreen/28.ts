@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Primeape",
-		fr: "Colossinge",
-		de: "Rasaff"
+		'en-us': "Primeape",
+		'fr-fr': "Colossinge",
+		'de-de': "Rasaff"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mankey",
-		fr: "Férosinge"
+		'en-us': "Mankey",
+		'fr-fr': "Férosinge"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Toss",
-				fr: "Pile ou face",
-				de: "Toss"
+				'en-us': "Toss",
+				'fr-fr': "Pile ou face",
+				'de-de': "Toss"
 			},
 			effect: {
-				en: "You may discard from your hand as many Technical Machine and Pokémon Tool cards as you like. This attack does 30 damage times the number of cards you discarded.",
-				fr: "Vous pouvez défausser de votre main autant de cartes Machine technique et Outil Pokémon que vous voulez. Cette attaque inflige 30 dégâts multipliés par le nombre de cartes défaussées.",
-				de: "You may discard from your hand as many Technical Machine and Pokémon Tool cards as you like. This attack does 30 damage times the number of cards you discarded."
+				'en-us': "You may discard from your hand as many Technical Machine and Pokémon Tool cards as you like. This attack does 30 damage times the number of cards you discarded.",
+				'fr-fr': "Vous pouvez défausser de votre main autant de cartes Machine technique et Outil Pokémon que vous voulez. Cette attaque inflige 30 dégâts multipliés par le nombre de cartes défaussées.",
+				'de-de': "You may discard from your hand as many Technical Machine and Pokémon Tool cards as you like. This attack does 30 damage times the number of cards you discarded."
 			},
 			damage: "30x",
 
@@ -55,9 +55,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage",
-				de: "Low Kick"
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage",
+				'de-de': "Low Kick"
 			},
 
 			damage: 40,

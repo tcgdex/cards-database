@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Yamask",
-		fr: "Tutafeh",
-		de: "Makabaja",
-		it: "Yamask",
-		pt: "Yamask",
-		es: "Yamask",
+		'en-us': "Yamask",
+		'fr-fr': "Tutafeh",
+		'de-de': "Makabaja",
+		'it-it': "Yamask",
+		'pt-br': "Yamask",
+		'es-es': "Yamask",
 		'es-mx': "Yamask"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Focused Wish",
-			fr: "Vœu Fervent",
-			de: "Gezielter Wunsch",
-			it: "Intensiderio",
-			pt: "Desejo Direcionado",
-			es: "Intenso Deseo",
+			'en-us': "Focused Wish",
+			'fr-fr': "Vœu Fervent",
+			'de-de': "Gezielter Wunsch",
+			'it-it': "Intensiderio",
+			'pt-br': "Desejo Direcionado",
+			'es-es': "Intenso Deseo",
 			'es-mx': "Deseo Enfocado"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 20 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+			'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
 			'es-mx': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más."
 		},
 

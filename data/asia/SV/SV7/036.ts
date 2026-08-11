@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "托戈德瑪爾",
 		'zh-cn': "托戈德瑪爾",
-		ja: "トゲデマル"
+		'ja-jp': "トゲデマル"
 	},
 
 	illustrator: "Rianti Hidayat",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "用背上的長毛來接收 閃電和電氣寶可夢釋放的電擊， 然後將之儲存在電囊中。",
 		'zh-cn': "用背上的長毛來接收 閃電和電氣寶可夢釋放的電擊， 然後將之儲存在電囊中。",
-		ja: "背中の 長い 毛で 雷や でんきポケモンの 電撃を 受けて 電気袋に 充電する。"
+		'ja-jp': "背中の 長い 毛で 雷や でんきポケモンの 電撃を 受けて 電気袋に 充電する。"
 	},
 
 	stage: "Basic",
@@ -27,13 +27,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "麻麻時機",
 			'zh-cn': "麻麻時機",
-			ja: "ビリビリチャンス"
+			'ja-jp': "ビリビリチャンス"
 		},
 
 		effect: {
 			'zh-tw': "若自己剩餘獎賞卡的張數為1張，則將對手的戰鬥寶可夢【麻痺】。",
 			'zh-cn': "若自己剩餘獎賞卡的張數為1張，則將對手的戰鬥寶可夢【麻痺】。",
-			ja: "自分のサイドの残り枚数が1枚なら、相手のバトルポケモンをマヒにする。"
+			'ja-jp': "自分のサイドの残り枚数が1枚なら、相手のバトルポケモンをマヒにする。"
 		},
 
 		damage: 30,

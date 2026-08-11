@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モーティの催眠",
+		'ja-jp': "モーティの催眠",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ポンド",
+				'ja-jp': "ポンド",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Psychic", "Psychic", "Colorless"],
 			name: {
-				ja: "暗い心",
+				'ja-jp': "暗い心",
 			},
 			effect: {
-				ja: "対戦相手がベンチでポケモンを持っている場合は、1つを選択すると、この攻撃は10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "対戦相手がベンチでポケモンを持っている場合は、1つを選択すると、この攻撃は10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 30,
 		},

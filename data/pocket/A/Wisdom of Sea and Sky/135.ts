@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Porygon",
-		fr: "Porygon"
+		'en-us': "Porygon",
+		'fr-fr': "Porygon"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "State-of-the-art technology was used to create\nPorygon. It was the first artificial Pokémon to be\ncreated via computer programming.",
-		fr: "C'est le premier Pokémon au monde à avoir été créé à partir de programmes informatiques, grâce à une technologie de pointe."
+		'en-us': "State-of-the-art technology was used to create\nPorygon. It was the first artificial Pokémon to be\ncreated via computer programming.",
+		'fr-fr': "C'est le premier Pokémon au monde à avoir été créé à partir de programmes informatiques, grâce à une technologie de pointe."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Ram",
-			fr: "Collision"
+			'en-us': "Ram",
+			'fr-fr': "Collision"
 		},
 
 		damage: 20,

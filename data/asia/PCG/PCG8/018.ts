@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "squirtle",
+		'ja-jp': "squirtle",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "固体シェル",
+				'ja-jp': "固体シェル",
 			},
 			effect: {
-				ja: "攻撃によってスカートルに与えられた損傷は10倍に減少します（脱力と抵抗を適用した後）。",
+				'ja-jp': "攻撃によってスカートルに与えられた損傷は10倍に減少します（脱力と抵抗を適用した後）。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "バブルビーム",
+				'ja-jp': "バブルビーム",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 10,
 		},

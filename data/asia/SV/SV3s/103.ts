@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Paldean Wooper"
+		'id-id': "Paldean Wooper"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Membran beracun melindungi tubuh Wooper yang hidup di darat setelah kalah dalam pertarungan perebutan wilayah teritorial."
+		'id-id': "Membran beracun melindungi tubuh Wooper yang hidup di darat setelah kalah dalam pertarungan perebutan wilayah teritorial."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Melompat Berkeliling"
+			'id-id': "Melompat Berkeliling"
 		},
 
 		damage: 30,

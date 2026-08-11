@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガブリアス",
+		'ja-jp': "ガブリアス",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "音速で 飛び 獲物を 探す。 エサを 巡り ボーマンダと 空中戦を 繰り広げる。",
+		'ja-jp': "音速で 飛び 獲物を 探す。 エサを 巡り ボーマンダと 空中戦を 繰り広げる。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ぎゃくしゅうのオーラ" },
 			effect: {
-				ja: "自分のサイドの残り枚数が、相手より多いなら、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+80」される。",
+				'ja-jp': "自分のサイドの残り枚数が、相手より多いなら、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+80」される。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "のぞむなら、このポケモンについているエネルギーを、1個トラッシュする。その場合、40ダメージ追加。",
+				'ja-jp': "のぞむなら、このポケモンについているエネルギーを、1個トラッシュする。その場合、40ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ガバイト",
+		'ja-jp': "ガバイト",
 	},
 
 	retreat: 0,

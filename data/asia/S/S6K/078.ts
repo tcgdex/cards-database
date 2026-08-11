@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハピナスV",
+		'ja-jp': "ハピナスV",
 	},
 
 	illustrator: "Saki Hayashiro",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "しぜんかいふく" },
 			effect: {
-				ja: "自分の手札からこのポケモンにエネルギーをつけるたび、このポケモンの特殊状態をすべて回復する。",
+				'ja-jp': "自分の手札からこのポケモンにエネルギーをつけるたび、このポケモンの特殊状態をすべて回復する。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーの数×30ダメージ追加。のぞむなら、ダメージを与えたあとに、トラッシュからエネルギーを3枚まで選び、このポケモンにつける。",
+				'ja-jp': "このポケモンについているエネルギーの数×30ダメージ追加。のぞむなら、ダメージを与えたあとに、トラッシュからエネルギーを3枚まで選び、このポケモンにつける。",
 			},
 		},
 	],

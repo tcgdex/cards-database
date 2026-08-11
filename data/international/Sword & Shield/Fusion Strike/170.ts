@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zorua",
-		fr: "Zorua",
-		es: "Zorua",
-		it: "Zorua",
-		pt: "Zorua",
-		de: "Zorua"
+		'en-us': "Zorua",
+		'fr-fr': "Zorua",
+		'es-es': "Zorua",
+		'it-it': "Zorua",
+		'pt-br': "Zorua",
+		'de-de': "Zorua"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "nagimiso",
 
 	description: {
-		en: "If a normally talkative child suddenly stops talking, it may have been replaced by Zorua."
+		'en-us': "If a normally talkative child suddenly stops talking, it may have been replaced by Zorua."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			de: "Ramme",
-			es: "Apisonar",
-			pt: "Aríete",
-			it: "Carica"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'de-de': "Ramme",
+			'es-es': "Apisonar",
+			'pt-br': "Aríete",
+			'it-it': "Carica"
 		},
 
 		damage: 10
@@ -50,12 +50,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Rear Kick",
-			fr: "Ruade",
-			de: "Rückwärtskick",
-			es: "Patada Trasera",
-			pt: "Chute Traseiro",
-			it: "Retrocalcio"
+			'en-us': "Rear Kick",
+			'fr-fr': "Ruade",
+			'de-de': "Rückwärtskick",
+			'es-es': "Patada Trasera",
+			'pt-br': "Chute Traseiro",
+			'it-it': "Retrocalcio"
 		},
 
 		damage: 20

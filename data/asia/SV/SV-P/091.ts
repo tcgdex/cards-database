@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エレズン",
+		'ja-jp': "エレズン",
 		'zh-tw': "巢穴球",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "汚れた 水を 飲んでも 平気。 体内の 器官で 自分には 無害の 毒液に ろ過するぞ。",
+		'ja-jp': "汚れた 水を 飲んでも 平気。 体内の 器官で 自分には 無害の 毒液に ろ過するぞ。",
 	},
 
 	stage: "Basic",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Lightning"],
 			effect: {
-				ja: "このポケモンにも10ダメージ。",
+				'ja-jp': "このポケモンにも10ダメージ。",
 			},
 		},
 	],

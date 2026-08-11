@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミライドンex",
+		'ja-jp': "ミライドンex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: "120+",
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが「ポケモンex」なら、120ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが「ポケモンex」なら、120ダメージ追加。",
 			},
 		},
 	],

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sandygast",
-		fr: "Bacabouh",
-		es: "Sandygast",
-		it: "Sandygast",
-		pt: "Sandygast",
-		de: "Sankabuh"
+		'en-us': "Sandygast",
+		'fr-fr': "Bacabouh",
+		'es-es': "Sandygast",
+		'it-it': "Sandygast",
+		'pt-br': "Sandygast",
+		'de-de': "Sankabuh"
 	},
 
 	rarity: "Common",
@@ -36,19 +36,19 @@ const card: Card = {
 	illustrator: "KIYOTAKA OSHIYAMA",
 
 	description: {
-		en: "If you build sand mounds when you're playing, destroy them before you go home, or they may get possessed and become Sandygast."
+		'en-us': "If you build sand mounds when you're playing, destroy them before you go home, or they may get possessed and become Sandygast."
 	},
 
 	attacks: [{
 		cost: ["Psychic"],
 
 		name: {
-			en: "Vibration",
-			fr: "Vibration",
-			de: "Schwingung",
-			es: "Vibración",
-			pt: "Vibração",
-			it: "Vibrazione"
+			'en-us': "Vibration",
+			'fr-fr': "Vibration",
+			'de-de': "Schwingung",
+			'es-es': "Vibración",
+			'pt-br': "Vibração",
+			'it-it': "Vibrazione"
 		},
 
 		damage: 10
@@ -56,12 +56,12 @@ const card: Card = {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			en: "Spooky Shot",
-			fr: "Tir Effrayant",
-			de: "Spukschuss",
-			es: "Disparo Embrujado",
-			pt: "Tiro Assustador",
-			it: "Colpomistero"
+			'en-us': "Spooky Shot",
+			'fr-fr': "Tir Effrayant",
+			'de-de': "Spukschuss",
+			'es-es': "Disparo Embrujado",
+			'pt-br': "Tiro Assustador",
+			'it-it': "Colpomistero"
 		},
 
 		damage: 30

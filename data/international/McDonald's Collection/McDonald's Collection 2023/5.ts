@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2023'
 
 const card: Card = {
 	name: {
-		en: "Cetitan",
-		fr: "Balbalèze",
-		es: "Cetitan",
-		it: "Cetitan",
-		pt: "Cetitan",
-		de: "Kolowal"
+		'en-us': "Cetitan",
+		'fr-fr': "Balbalèze",
+		'es-es': "Cetitan",
+		'it-it': "Cetitan",
+		'pt-br': "Cetitan",
+		'de-de': "Kolowal"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -25,30 +25,30 @@ const card: Card = {
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Cetoddle",
-		fr: "Piétacé",
-		es: "Cetoddle",
-		it: "Cetoddle",
-		pt: "Cetoddle",
-		de: "Flaniwal"
+		'en-us': "Cetoddle",
+		'fr-fr': "Piétacé",
+		'es-es': "Cetoddle",
+		'it-it': "Cetoddle",
+		'pt-br': "Cetoddle",
+		'de-de': "Flaniwal"
 	},
 
 	attacks: [
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				en: "Hammer In",
+				'en-us': "Hammer In",
 			},
 			damage: 50,
 		},
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				en: "Sweeping Tackle",
+				'en-us': "Sweeping Tackle",
 			},
 			damage: "200-",
 			effect: {
-				en: "This attack does 20 less damage for each damage counter on this",
+				'en-us': "This attack does 20 less damage for each damage counter on this",
 			},
 		},
 	],

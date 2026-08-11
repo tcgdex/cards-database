@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "暗闇",
+		'ja-jp': "暗闇",
 	},
 
 	rarity: "Uncommon",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "かみそりの葉",
+				'ja-jp': "かみそりの葉",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Grass", "Colorless", "Colorless"],
 			name: {
-				ja: "ファウル臭",
+				'ja-jp': "ファウル臭",
 			},
 			effect: {
-				ja: "防御するポケモンと暗闇の両方が混乱しています（ダメージを受けた後）。",
+				'ja-jp': "防御するポケモンと暗闇の両方が混乱しています（ダメージを受けた後）。",
 			},
 			damage: 30,
 		},

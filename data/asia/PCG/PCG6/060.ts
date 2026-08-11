@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ペルシャ語",
+		'ja-jp': "ペルシャ語",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "うろつき",
+				'ja-jp': "うろつき",
 			},
 			effect: {
-				ja: "ターン中に、Perianを手から演奏してPokã©Monの1つを進化させると、デッキを1枚のカードで検索して手に入れることができます。その後、デッキをシャッフルします。",
+				'ja-jp': "ターン中に、Perianを手から演奏してPokã©Monの1つを進化させると、デッキを1枚のカードで検索して手に入れることができます。その後、デッキをシャッフルします。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "スナップテール",
+				'ja-jp': "スナップテール",
 			},
 			effect: {
-				ja: "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに30のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに30のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 		},
 	],

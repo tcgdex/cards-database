@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mimikyu",
-		fr: "Mimiqui",
-		es: "Mimikyu",
-		it: "Mimikyu",
-		pt: "Mimikyu",
-		de: "Mimigma"
+		'en-us': "Mimikyu",
+		'fr-fr': "Mimiqui",
+		'es-es': "Mimikyu",
+		'it-it': "Mimikyu",
+		'pt-br': "Mimikyu",
+		'de-de': "Mimigma"
 	},
 
 	illustrator: "Ligton",
@@ -25,41 +25,41 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Perplex",
-			fr: "Affolement",
-			es: "Desconcierto",
-			it: "Sconcerto",
-			pt: "Perplexo",
-			de: "Perplex"
+			'en-us': "Perplex",
+			'fr-fr': "Affolement",
+			'es-es': "Desconcierto",
+			'it-it': "Sconcerto",
+			'pt-br': "Perplexo",
+			'de-de': "Perplex"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Worst Gift",
-			fr: "Pire Cadeau",
-			es: "Regalo Pésimo",
-			it: "Dono Peggiore",
-			pt: "Pior Presente",
-			de: "Schlimmstes Geschenk"
+			'en-us': "Worst Gift",
+			'fr-fr': "Pire Cadeau",
+			'es-es': "Regalo Pésimo",
+			'it-it': "Dono Peggiore",
+			'pt-br': "Pior Presente",
+			'de-de': "Schlimmstes Geschenk"
 		},
 
 		effect: {
-			en: "This attack does 10 damage for each damage counter on all of your opponent's Pokémon.",
-			fr: "Cette attaque inflige 10 dégâts pour chaque marqueur de dégâts placé sur tous les Pokémon de votre adversaire.",
-			es: "Este ataque hace 10 puntos de daño por cada contador de daño en todos los Pokémon de tu rival.",
-			it: "Questo attacco infligge 10 danni per ogni segnalino danno presente sui Pokémon del tuo avversario.",
-			pt: "Este ataque causa 10 pontos de dano para cada contador de dano em todos os Pokémon do seu oponente.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf allen Pokémon deines Gegners 10 Schadenspunkte zu."
+			'en-us': "This attack does 10 damage for each damage counter on all of your opponent's Pokémon.",
+			'fr-fr': "Cette attaque inflige 10 dégâts pour chaque marqueur de dégâts placé sur tous les Pokémon de votre adversaire.",
+			'es-es': "Este ataque hace 10 puntos de daño por cada contador de daño en todos los Pokémon de tu rival.",
+			'it-it': "Questo attacco infligge 10 danni per ogni segnalino danno presente sui Pokémon del tuo avversario.",
+			'pt-br': "Este ataque causa 10 pontos de dano para cada contador de dano em todos os Pokémon do seu oponente.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf allen Pokémon deines Gegners 10 Schadenspunkte zu."
 		},
 
 		damage: "10×"

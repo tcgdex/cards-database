@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVLN"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "イーブイ"
+		'ja-jp': "イーブイ"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "不規則な 遺伝子を 持つ。 石から出る 放射線によって 体が 突然変異を 起こす。"
+		'ja-jp': "不規則な 遺伝子を 持つ。 石から出る 放射線によって 体が 突然変異を 起こす。"
 	},
 
 	stage: "Basic",
@@ -24,11 +24,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ブーストしんか"
+			'ja-jp': "ブーストしんか"
 		},
 
 		effect: {
-			ja: "このポケモンは、バトル場にいるかぎり、最初の自分の番や、出したばかりの番でも進化できる。"
+			'ja-jp': "このポケモンは、バトル場にいるかぎり、最初の自分の番や、出したばかりの番でも進化できる。"
 		}
 	}],
 
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "とつげき"
+			'ja-jp': "とつげき"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "このポケモンにも10ダメージ。"
+			'ja-jp': "このポケモンにも10ダメージ。"
 		}
 	}],
 

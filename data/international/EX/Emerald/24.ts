@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Claydol",
-		fr: "Kaorine",
-		de: "Lepumentas"
+		'en-us': "Claydol",
+		'fr-fr': "Kaorine",
+		'de-de': "Lepumentas"
 	},
 
 	illustrator: "Yuka Morii",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Baltoy",
-		fr: "Balbuto"
+		'en-us': "Baltoy",
+		'fr-fr': "Balbuto"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Levitate",
-				fr: "Lévitation",
-				de: "Levitate"
+				'en-us': "Levitate",
+				'fr-fr': "Lévitation",
+				'de-de': "Levitate"
 			},
 			effect: {
-				en: "As long as Claydol has any Energy attached to it, the Retreat Cost for Claydol is 0.",
-				fr: "Tant que Kaorine possède une Énergie, son Coût de retraite est de 0.",
-				de: "As long as Claydol has any Energy attached to it, the Retreat Cost for Claydol is 0."
+				'en-us': "As long as Claydol has any Energy attached to it, the Retreat Cost for Claydol is 0.",
+				'fr-fr': "Tant que Kaorine possède une Énergie, son Coût de retraite est de 0.",
+				'de-de': "As long as Claydol has any Energy attached to it, the Retreat Cost for Claydol is 0."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Smash",
-				fr: "Éclate-roc",
-				de: "Rock Smash"
+				'en-us': "Rock Smash",
+				'fr-fr': "Éclate-roc",
+				'de-de': "Rock Smash"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Flip a coin. If heads, this attack does 30 damage plus 10 more damage."
 			},
 			damage: "30+",
 

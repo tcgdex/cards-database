@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Archaludon ex"
+		'id-id': "Archaludon ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Konstruksi Aloi"
+			'id-id': "Konstruksi Aloi"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan untuk melakukan evolusi. Pilih paling banyak 2 lembar Energi Dasar {Logam} dari Trash sendiri, lalu kenakan sesukanya pada Pokémon {Logam} sendiri."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan untuk melakukan evolusi. Pilih paling banyak 2 lembar Energi Dasar {Logam} dari Trash sendiri, lalu kenakan sesukanya pada Pokémon {Logam} sendiri."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Metal Defender"
+			'id-id': "Metal Defender"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, Pokémon ini menjadi tidak memiliki Kelemahan."
+			'id-id': "Pada giliran lawan berikutnya, Pokémon ini menjadi tidak memiliki Kelemahan."
 		},
 
 		damage: 220,

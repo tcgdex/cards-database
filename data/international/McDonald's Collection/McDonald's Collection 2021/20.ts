@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2021'
 
 const card: Card = {
 	name: {
-		en: "Piplup",
-		fr: "Tiplouf",
+		'en-us': "Piplup",
+		'fr-fr': "Tiplouf",
 	},
 
 	illustrator: "Shibuzoh.",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
 			},
 
 			damage: 10,
@@ -43,8 +43,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse Vague",
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse Vague",
 			},
 
 			damage: 20,
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold."
+		'en-us': "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold."
 	},
     variants: [
           {

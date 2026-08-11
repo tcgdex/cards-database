@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Cobalion",
+		'en-us': "Cobalion",
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Press",
+				'en-us': "Energy Press",
 			},
 			effect: {
-				en: "Does 20 more damage for each Energy attached to the Defending Pokémon.",
+				'en-us': "Does 20 more damage for each Energy attached to the Defending Pokémon.",
 			},
 			damage: 20,
 
@@ -45,10 +45,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Iron Breaker",
+				'en-us': "Iron Breaker",
 			},
 			effect: {
-				en: "The Defending Pokémon can't attack during your opponent's next turn.",
+				'en-us': "The Defending Pokémon can't attack during your opponent's next turn.",
 			},
 			damage: 80,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has a body and heart of steel. Its glare is sufficient to make even an unruly Pokémon obey it.",
+		'en-us': "It has a body and heart of steel. Its glare is sufficient to make even an unruly Pokémon obey it.",
 	},
 
 	thirdParty: {

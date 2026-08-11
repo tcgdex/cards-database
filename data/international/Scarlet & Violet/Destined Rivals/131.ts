@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Marnie's Liepard",
-		fr: "Léopardus de Rosemary",
-		de: "Marys Kleoparda",
-		it: "Liepard di Mary",
-		es: "Liepard de Roxy",
-		pt: "Liepard da Marine",
+		'en-us': "Marnie's Liepard",
+		'fr-fr': "Léopardus de Rosemary",
+		'de-de': "Marys Kleoparda",
+		'it-it': "Liepard di Mary",
+		'es-es': "Liepard de Roxy",
+		'pt-br': "Liepard da Marine",
 		'es-mx': "Liepard de Marnie"
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Marnie's Purrloin",
-		fr: "Chacripan de Rosemary",
-		de: "Marys Felilou",
-		it: "Purrloin di Mary",
-		es: "Purrloin de Roxy",
-		pt: "Purrloin da Marine",
+		'en-us': "Marnie's Purrloin",
+		'fr-fr': "Chacripan de Rosemary",
+		'de-de': "Marys Felilou",
+		'it-it': "Purrloin di Mary",
+		'es-es': "Purrloin de Roxy",
+		'pt-br': "Purrloin da Marine",
 		'es-mx': "Purrloin de Marnie"
 	},
 	stage: "Stage1",
@@ -37,22 +37,22 @@ const card: Card = {
 		cost: ["Darkness", "Darkness"],
 
 		name: {
-			en: "Pointy Claws",
-			fr: "Griffes Pointues",
-			de: "Spitze Krallen",
-			it: "Artigli Appuntiti",
-			es: "Garras Puntiagudas",
-			pt: "Garras Pontiagudas",
+			'en-us': "Pointy Claws",
+			'fr-fr': "Griffes Pointues",
+			'de-de': "Spitze Krallen",
+			'it-it': "Artigli Appuntiti",
+			'es-es': "Garras Puntiagudas",
+			'pt-br': "Garras Pontiagudas",
 			'es-mx': "Garras Puntiagudas"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a Pokémon ex, this attack does 70 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-ex, cette attaque inflige 70 dégâts supplémentaires.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Pokémon-ex ist, fügt diese Attacke 70 Schadenspunkte mehr zu.",
-			it: "Se il Pokémon attivo del tuo avversario è un Pokémon-ex, questo attacco infligge 70 danni in più.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon ex, este ataque hace 70 puntos de daño más.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon ex, este ataque causará 70 pontos de dano a mais.",
+			'en-us': "If your opponent's Active Pokémon is a Pokémon ex, this attack does 70 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon-ex, cette attaque inflige 70 dégâts supplémentaires.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners ein Pokémon-ex ist, fügt diese Attacke 70 Schadenspunkte mehr zu.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon-ex, questo attacco infligge 70 danni in più.",
+			'es-es': "Si el Pokémon Activo de tu rival es un Pokémon ex, este ataque hace 70 puntos de daño más.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon ex, este ataque causará 70 pontos de dano a mais.",
 			'es-mx': "Si el Pokémon Activo de tu rival es un Pokémon ex, este ataque hace 70 puntos de daño más."
 		},
 

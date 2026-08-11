@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lilligant"
+		'en-us': "Lilligant"
 	},
 
 	illustrator: "Kanako Eo",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Petilil"
+		'en-us': "Petilil"
 	},
 
 	description: {
-		en: "No matter how much time and money is spent\nraising it, its flowers are the most beautiful when\nthey bloom in the wild."
+		'en-us': "No matter how much time and money is spent\nraising it, its flowers are the most beautiful when\nthey bloom in the wild."
 	},
 
 	stage: "Stage1",
@@ -30,17 +30,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Toughness Aroma"
+			'en-us': "Toughness Aroma"
 		},
 
 		effect: {
-			en: "Each of your {G} Pokémon gets +20 HP."
+			'en-us': "Each of your {G} Pokémon gets +20 HP."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Smack"
+			'en-us': "Smack"
 		},
 
 		damage: 50,

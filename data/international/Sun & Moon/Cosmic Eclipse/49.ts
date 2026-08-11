@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Spheal",
-		fr: "Obalie",
-		es: "Spheal",
-		it: "Spheal",
-		pt: "Spheal",
-		de: "Seemops"
+		'en-us': "Spheal",
+		'fr-fr': "Obalie",
+		'es-es': "Spheal",
+		'it-it': "Spheal",
+		'pt-br': "Spheal",
+		'de-de': "Seemops"
 	},
 
 	illustrator: "sui",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				es: "Desenrollar",
-				it: "Rotolamento",
-				pt: "Rolagem",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'es-es': "Desenrollar",
+				'it-it': "Rotolamento",
+				'pt-br': "Rolagem",
+				'de-de': "Walzer"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Icy Snow",
-				fr: "Verglas",
-				es: "Nieve Helada",
-				it: "Geloneve",
-				pt: "Neve Congelada",
-				de: "Eisiger Schnee"
+				'en-us': "Icy Snow",
+				'fr-fr': "Verglas",
+				'es-es': "Nieve Helada",
+				'it-it': "Geloneve",
+				'pt-br': "Neve Congelada",
+				'de-de': "Eisiger Schnee"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They can't swim well yet, and they move much faster by rolling. When they're happy, they clap fins.",
+		'en-us': "They can't swim well yet, and they move much faster by rolling. When they're happy, they clap fins.",
 	},
 
 	thirdParty: {

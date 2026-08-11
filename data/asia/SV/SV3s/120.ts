@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Jirachi"
+		'id-id': "Jirachi"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Dikatakan bahwa Jirachi bangun hanya 7 hari dalam 1000 tahun dan menggunakan kekuatan yang dapat mewujudkan harapan apa pun."
+		'id-id': "Dikatakan bahwa Jirachi bangun hanya 7 hari dalam 1000 tahun dan menggunakan kekuatan yang dapat mewujudkan harapan apa pun."
 	},
 
 	stage: "Basic",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Tudung Bintang"
+			'id-id': "Tudung Bintang"
 		},
 
 		effect: {
-			id: "Selama Pokémon ini ada di Arena, semua Pokémon Cadangan sendiri tidak menerima efek untuk meletakkan Token Kerusakan akibat serangan yang digunakan oleh Pokémon Basic lawan."
+			'id-id': "Selama Pokémon ini ada di Arena, semua Pokémon Cadangan sendiri tidak menerima efek untuk meletakkan Token Kerusakan akibat serangan yang digunakan oleh Pokémon Basic lawan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Energy Charge"
+			'id-id': "Energy Charge"
 		},
 
 		effect: {
-			id: "Pilih paling banyak 2 lembar Energi Dasar dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
+			'id-id': "Pilih paling banyak 2 lembar Energi Dasar dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
 		},
 
 		cost: ["Colorless"]

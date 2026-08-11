@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Eelektrik",
-		fr: "Lampéroie",
-		es: "Eelektrik",
-		it: "Eelektrik",
-		pt: "Eelektrik",
-		de: "Zapplalek"
+		'en-us': "Eelektrik",
+		'fr-fr': "Lampéroie",
+		'es-es': "Eelektrik",
+		'it-it': "Eelektrik",
+		'pt-br': "Eelektrik",
+		'de-de': "Zapplalek"
 	},
 
 	illustrator: "OOYAMA",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tynamo",
-		fr: "Anchwatt",
+		'en-us': "Tynamo",
+		'fr-fr': "Anchwatt",
 	},
 
 	stage: "Stage1",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Small Appetite",
-				fr: "Petit Appétit",
-				es: "Pequeño Apetito",
-				it: "Scarso Appetito",
-				pt: "Apetite Pequeno",
-				de: "Kleiner Hunger"
+				'en-us': "Small Appetite",
+				'fr-fr': "Petit Appétit",
+				'es-es': "Pequeño Apetito",
+				'it-it': "Scarso Appetito",
+				'pt-br': "Apetite Pequeno",
+				'de-de': "Kleiner Hunger"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon’s maximum HP is 100 or more, this attack does nothing.",
-				fr: "Si les PV maximum du Pokémon Actif de votre adversaire sont de 100 ou plus, cette attaque ne fait rien.",
-				es: "Si los PS máximos del Pokémon Activo de tu rival son 100 o más, este ataque no hace nada.",
-				it: "Se i PS massimi del Pokémon attivo del tuo avversario sono 100 o più, questo attacco non ha effetto.",
-				pt: "Se o PS máximo do Pokémon Ativo do seu oponente for 100 ou mais, este ataque não fará nada.",
-				de: "Wenn die maximalen KP des Aktiven Pokémon deines Gegners 100 oder mehr betragen, hat diese Attacke keine Auswirkungen."
+				'en-us': "If your opponent’s Active Pokémon’s maximum HP is 100 or more, this attack does nothing.",
+				'fr-fr': "Si les PV maximum du Pokémon Actif de votre adversaire sont de 100 ou plus, cette attaque ne fait rien.",
+				'es-es': "Si los PS máximos del Pokémon Activo de tu rival son 100 o más, este ataque no hace nada.",
+				'it-it': "Se i PS massimi del Pokémon attivo del tuo avversario sono 100 o più, questo attacco non ha effetto.",
+				'pt-br': "Se o PS máximo do Pokémon Ativo do seu oponente for 100 ou mais, este ataque não fará nada.",
+				'de-de': "Wenn die maximalen KP des Aktiven Pokémon deines Gegners 100 oder mehr betragen, hat diese Attacke keine Auswirkungen."
 			},
 			damage: 50,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It wraps itself around its prey and paralyzes it with electricity from the round spots on its sides. Then it chomps.",
+		'en-us': "It wraps itself around its prey and paralyzes it with electricity from the round spots on its sides. Then it chomps.",
 	},
 
 	thirdParty: {

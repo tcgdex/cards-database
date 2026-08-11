@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Gastly",
-		fr: "Fantominus",
-		es: "Gastly",
-		it: "Gastly",
-		pt: "Gastly",
-		de: "Nebulak"
+		'en-us': "Gastly",
+		'fr-fr': "Fantominus",
+		'es-es': "Gastly",
+		'it-it': "Gastly",
+		'pt-br': "Gastly",
+		'de-de': "Nebulak"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Sleep Poison",
-				fr: "Poison Dodo",
-				es: "Veneno Somnífero",
-				it: "Sonnoveleno",
-				pt: "Veneno Sonífero",
-				de: "Schlafgift"
+				'en-us': "Sleep Poison",
+				'fr-fr': "Poison Dodo",
+				'es-es': "Veneno Somnífero",
+				'it-it': "Sonnoveleno",
+				'pt-br': "Veneno Sonífero",
+				'de-de': "Schlafgift"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Asleep and Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Endormi et Empoisonné.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Dormido y Envenenado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene addormentato e avvelenato.",
-				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Adormecido e Envenenado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" schläft das Aktive Pokémon deines Gegners jetzt und ist vergiftet."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Asleep and Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Endormi et Empoisonné.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Dormido y Envenenado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene addormentato e avvelenato.",
+				'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Adormecido e Envenenado.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" schläft das Aktive Pokémon deines Gegners jetzt und ist vergiftet."
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison.",
+		'en-us': "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison.",
 	},
 
 	thirdParty: {

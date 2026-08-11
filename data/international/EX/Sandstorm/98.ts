@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Raichu ex",
-		fr: "Raichu ex",
-		de: "Raichu ex"
+		'en-us': "Raichu ex",
+		'fr-fr': "Raichu ex",
+		'de-de': "Raichu ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pikachu",
-		fr: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu"
 	},
 
 	suffix: "ex",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Dazzle Blast",
-				fr: "Explosion de lumière",
-				de: "Dazzle Blast"
+				'en-us': "Dazzle Blast",
+				'fr-fr': "Explosion de lumière",
+				'de-de': "Dazzle Blast"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 20,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Thunderbolt",
-				fr: "Méga tonnerre",
-				de: "Mega Thunderbolt"
+				'en-us': "Mega Thunderbolt",
+				'fr-fr': "Méga tonnerre",
+				'de-de': "Mega Thunderbolt"
 			},
 			effect: {
-				en: "Discard all Energy cards attached to Raichu ex.",
-				fr: "Défaussez toutes les cartes Énergie attachées à Raichu ex.",
-				de: "Discard all Energy cards attacked to Raichu ex."
+				'en-us': "Discard all Energy cards attached to Raichu ex.",
+				'fr-fr': "Défaussez toutes les cartes Énergie attachées à Raichu ex.",
+				'de-de': "Discard all Energy cards attacked to Raichu ex."
 			},
 			damage: 120,
 

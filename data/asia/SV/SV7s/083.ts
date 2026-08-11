@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "มาเค็นคานิ",
-		id: "Crabrawler"
+		'th-th': "มาเค็นคานิ",
+		'id-id': "Crabrawler"
 	},
 
 	illustrator: "Scav",
@@ -15,24 +15,24 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		th: "ถึงก้ามจะหักไป ก็จะงอกใหม่อย่างรวดเร็ว ที่กระดองจะมีน้ำสต็อกไหลออกมา นิยมนำไปใช้ทำปาเอยา",
-		id: "Capit Crabrawler langsung tumbuh meskipun patah. Karena menghasilkan kaldu yang bagus, cangkang Pokémon ini populer sebagai bahan untuk membuat Paella."
+		'th-th': "ถึงก้ามจะหักไป ก็จะงอกใหม่อย่างรวดเร็ว ที่กระดองจะมีน้ำสต็อกไหลออกมา นิยมนำไปใช้ทำปาเอยา",
+		'id-id': "Capit Crabrawler langsung tumbuh meskipun patah. Karena menghasilkan kaldu yang bagus, cangkang Pokémon ini populer sebagai bahan untuk membuat Paella."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "หนีบ",
-			id: "Capitan Keras"
+			'th-th': "หนีบ",
+			'id-id': "Capitan Keras"
 		},
 
 		damage: 20,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			th: "ค้อนก้ามปู",
-			id: "Crabhammer"
+			'th-th': "ค้อนก้ามปู",
+			'id-id': "Crabhammer"
 		},
 
 		damage: 50,

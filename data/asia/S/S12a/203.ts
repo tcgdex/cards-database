@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨマワル",
+		'ja-jp': "ヨマワル",
 		'zh-tw': "夜巡靈",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "いいつけを 守らない 子供を 見つけると 夜中に どこかへ 連れていくと いわれている。",
+		'ja-jp': "いいつけを 守らない 子供を 見つけると 夜中に どこかへ 連れていくと いわれている。",
 		'zh-tw': "據說一旦發現不聽話的孩子，牠就會在深夜裡把那個孩子帶去某個不知名的地方。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "まどわす",
+				'ja-jp': "まどわす",
 				'zh-tw': "蠱惑",
 			},
 			damage: 10,
 			cost: ["Psychic"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをこんらんにする。",
 				'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【混亂】。",
 			},
 		},

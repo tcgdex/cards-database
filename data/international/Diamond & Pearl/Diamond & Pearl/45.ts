@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Cherrim",
-		fr: "Ceriflor",
-		de: "Kinoso"
+		'en-us': "Cherrim",
+		'fr-fr': "Ceriflor",
+		'de-de': "Kinoso"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cherubi",
-		fr: "Ceribou",
+		'en-us': "Cherubi",
+		'fr-fr': "Ceribou",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Worry Seed",
-				fr: "Soucigraine",
-				de: "Sorgensamen"
+				'en-us': "Worry Seed",
+				'fr-fr': "Soucigraine",
+				'de-de': "Sorgensamen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Magical Leaf",
-				fr: "Feuillemagik",
-				de: "Zauberblatt"
+				'en-us': "Magical Leaf",
+				'fr-fr': "Feuillemagik",
+				'de-de': "Zauberblatt"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage and remove 3 damage counters from Cherrim.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires et retirez à Ceriflor 3 marqueurs de dégât.",
-				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu und entferne 3 Schadensmarken von Kinoso."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 20 more damage and remove 3 damage counters from Cherrim.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires et retirez à Ceriflor 3 marqueurs de dégât.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu und entferne 3 Schadensmarken von Kinoso."
 			},
 			damage: "20+",
 
@@ -85,8 +85,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It blooms during times of strong sunlight. It tries to make up for everything it endured as a bud.",
-		fr: "Il fleurit lorsque le soleil est au beau fixe. Il cherche à prendre sa revanche sur une vie de bourgeon."
+		'en-us': "It blooms during times of strong sunlight. It tries to make up for everything it endured as a bud.",
+		'fr-fr': "Il fleurit lorsque le soleil est au beau fixe. Il cherche à prendre sa revanche sur une vie de bourgeon."
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Hippopotas",
-		fr: "Hippopotas",
-		es: "Hippopotas",
-		it: "Hippopotas",
-		pt: "Hippopotas",
-		de: "Hippopotas"
+		'en-us': "Hippopotas",
+		'fr-fr': "Hippopotas",
+		'es-es': "Hippopotas",
+		'it-it': "Hippopotas",
+		'pt-br': "Hippopotas",
+		'de-de': "Hippopotas"
 	},
 
 	illustrator: "Akira Komayama",
@@ -36,20 +36,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nose Jet",
-				fr: "Jet d'Nez",
-				es: "Propulsión Nasal",
-				it: "Nasogetto",
-				pt: "Jato de Nariz",
-				de: "Nasenströmung"
+				'en-us': "Nose Jet",
+				'fr-fr': "Jet d'Nez",
+				'es-es': "Propulsión Nasal",
+				'it-it': "Nasogetto",
+				'pt-br': "Jato de Nariz",
+				'de-de': "Nasenströmung"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c'est pile, son attaque ne fait rien.",
-				es: "Si el Pokémon Defensor intenta atacar durante el próximo turno de tu rival, este lanza 1 moneda. Si sale cruz, ese ataque no hace nada.",
-				it: "Se durante il prossimo turno del tuo avversario il Pokémon difensore prova ad attaccare, il tuo avversario lancia una moneta. Se esce croce, quell'attacco non ha effetto.",
-				pt: "Se o Pokémon Defensor tentar atacar durante a próxima vez de jogar do seu oponente, seu oponente jogará uma moeda. Se sair coroa, o ataque não fará nada.",
-				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c'est pile, son attaque ne fait rien.",
+				'es-es': "Si el Pokémon Defensor intenta atacar durante el próximo turno de tu rival, este lanza 1 moneda. Si sale cruz, ese ataque no hace nada.",
+				'it-it': "Se durante il prossimo turno del tuo avversario il Pokémon difensore prova ad attaccare, il tuo avversario lancia una moneta. Se esce croce, quell'attacco non ha effetto.",
+				'pt-br': "Se o Pokémon Defensor tentar atacar durante a próxima vez de jogar do seu oponente, seu oponente jogará uma moeda. Se sair coroa, o ataque não fará nada.",
+				'de-de': "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It enshrouds itself with sand to protect itself from germs. It does not enjoy getting wet.",
+		'en-us': "It enshrouds itself with sand to protect itself from germs. It does not enjoy getting wet.",
 	},
 
 	thirdParty: {

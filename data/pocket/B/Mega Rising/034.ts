@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Combusken"
+		'en-us': "Combusken"
 	},
 
 	illustrator: "GOSSAN",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Torchic"
+		'en-us': "Torchic"
 	},
 
 	description: {
-		en: "During a battle, the hot flame in its body increases.\nIts kicks have outstanding destructive power."
+		'en-us': "During a battle, the hot flame in its body increases.\nIts kicks have outstanding destructive power."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "High Jump Kick"
+			'en-us': "High Jump Kick"
 		},
 
 		damage: 50,

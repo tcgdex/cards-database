@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Claydol",
-		fr: "Kaorine",
-		es: "Claydol",
-		it: "Claydol",
-		pt: "Claydol",
-		de: "Lepumentas"
+		'en-us': "Claydol",
+		'fr-fr': "Kaorine",
+		'es-es': "Claydol",
+		'it-it': "Claydol",
+		'pt-br': "Claydol",
+		'de-de': "Lepumentas"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -22,12 +22,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Baltoy",
-		fr: "Balbuto",
-		es: "Baltoy",
-		it: "Baltoy",
-		pt: "Baltoy",
-		de: "Puppance"
+		'en-us': "Baltoy",
+		'fr-fr': "Balbuto",
+		'es-es': "Baltoy",
+		'it-it': "Baltoy",
+		'pt-br': "Baltoy",
+		'de-de': "Puppance"
 	},
 
 	stage: "Stage1",
@@ -38,20 +38,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psybeam",
-				fr: "Rafale Psy",
-				es: "Psicorrayo",
-				it: "Psicoraggio",
-				pt: "Feixe Psíquico",
-				de: "Psystrahl"
+				'en-us': "Psybeam",
+				'fr-fr': "Rafale Psy",
+				'es-es': "Psicorrayo",
+				'it-it': "Psicoraggio",
+				'pt-br': "Feixe Psíquico",
+				'de-de': "Psystrahl"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent's Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -62,20 +62,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Explosion",
-				fr: "Explosion",
-				es: "Explosión",
-				it: "Esplosione",
-				pt: "Explosão",
-				de: "Explosion"
+				'en-us': "Explosion",
+				'fr-fr': "Explosion",
+				'es-es': "Explosión",
+				'it-it': "Esplosione",
+				'pt-br': "Explosão",
+				'de-de': "Explosion"
 			},
 			effect: {
-				en: "This Pokémon also does 120 damage to itself.",
-				fr: "Ce Pokémon s'inflige aussi 120 dégâts.",
-				es: "Este Pokémon también se hace 120 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge anche 120 danni a se stesso.",
-				pt: "Este Pokémon também causa 120 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt auch sich selbst 120 Schadenspunkte zu."
+				'en-us': "This Pokémon also does 120 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige aussi 120 dégâts.",
+				'es-es': "Este Pokémon también se hace 120 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge anche 120 danni a se stesso.",
+				'pt-br': "Este Pokémon também causa 120 pontos de dano a si mesmo.",
+				'de-de': "Dieses Pokémon fügt auch sich selbst 120 Schadenspunkte zu."
 			},
 			damage: 200,
 
@@ -100,7 +100,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This mysterious Pokémon started life as an ancient clay figurine made over 20,000 years ago."
+		'en-us': "This mysterious Pokémon started life as an ancient clay figurine made over 20,000 years ago."
 	},
 
 	dexId: [344],

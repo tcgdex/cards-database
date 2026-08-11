@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Poliwrath",
-		de: "Quappo"
+		'en-us': "Poliwrath",
+		'de-de': "Quappo"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Poliwhirl",
+		'en-us': "Poliwhirl",
 	},
 
 	stage: "Stage2",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Strange Spiral",
-				de: "Seltsame Spirale"
+				'en-us': "Strange Spiral",
+				'de-de': "Seltsame Spirale"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Poliwrath is your Active Pokémon, you may discard a basic Energy card attached to Poliwrath. If you do, the Defending Pokémon is now Confused. This power can't be used if Poliwrath is affected by a Special Condition.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls Quappo dein aktives Pokémon ist, eine an Quappo angelegte Basis-Energiekarte auf deinen Ablagestapel legen. Falls du dies tust, ist das verteidigende Pokémon jetzt verwirrt. Diese Fähigkeit kann nicht verwendet werden, falls Quappo von einem speziellen Zustand betroffen ist."
+				'en-us': "Once during your turn (before your attack), if Poliwrath is your Active Pokémon, you may discard a basic Energy card attached to Poliwrath. If you do, the Defending Pokémon is now Confused. This power can't be used if Poliwrath is affected by a Special Condition.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls Quappo dein aktives Pokémon ist, eine an Quappo angelegte Basis-Energiekarte auf deinen Ablagestapel legen. Falls du dies tust, ist das verteidigende Pokémon jetzt verwirrt. Diese Fähigkeit kann nicht verwendet werden, falls Quappo von einem speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spiral Punch",
-				de: "Spiral-Hieb"
+				'en-us': "Spiral Punch",
+				'de-de': "Spiral-Hieb"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 40 damage plus 20 more damage for each heads.",
-				de: "Wirf eine Münze, bis du 'Zahl' wirfst. Dieser Angriff fügt 40 Schadenspunkte plus 20 weitere Schadenspunkte plus geworfenem 'Kopf' zu."
+				'en-us': "Flip a coin until you get tails. This attack does 40 damage plus 20 more damage for each heads.",
+				'de-de': "Wirf eine Münze, bis du 'Zahl' wirfst. Dieser Angriff fügt 40 Schadenspunkte plus 20 weitere Schadenspunkte plus geworfenem 'Kopf' zu."
 			},
 			damage: "40+",
 

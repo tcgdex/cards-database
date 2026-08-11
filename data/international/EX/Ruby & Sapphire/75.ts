@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Treecko",
-		fr: "Arcko",
-		de: "Geckarbor"
+		'en-us': "Treecko",
+		'fr-fr': "Arcko",
+		'de-de': "Geckarbor"
 	},
 
 	illustrator: "Midori Harada",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Breath",
-				fr: "Haleine empoisonnée",
-				de: "Gifthauch"
+				'en-us': "Poison Breath",
+				'fr-fr': "Haleine empoisonnée",
+				'de-de': "Gifthauch"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 
 		},

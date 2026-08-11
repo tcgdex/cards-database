@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Southern Islands'
 
 const card: Card = {
 	name: {
-		en: "Jigglypuff",
+		'en-us': "Jigglypuff",
 	},
 
 	illustrator: "Keiko Fukuyama",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tempting Eyes",
+				'en-us': "Tempting Eyes",
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon.",
+				'en-us': "Choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon.",
 			},
 
 		},
@@ -41,10 +41,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sing",
+				'en-us': "Sing",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 			},
 
 		},
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "After lulling its enemies with its large eyes, this Pokémon sings them to sleep with a relaxing melody.",
+		'en-us': "After lulling its enemies with its large eyes, this Pokémon sings them to sleep with a relaxing melody.",
 	},
 
 	variants: [

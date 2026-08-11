@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Blitzle",
-		fr: "Zébibron",
-		es: "Blitzle",
-		it: "Blitzle",
-		pt: "Blitzle",
-		de: "Elezeba"
+		'en-us': "Blitzle",
+		'fr-fr': "Zébibron",
+		'es-es': "Blitzle",
+		'it-it': "Blitzle",
+		'pt-br': "Blitzle",
+		'de-de': "Elezeba"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Add On",
-			fr: "Ajout",
-			es: "Sumar",
-			it: "Supplemento",
-			pt: "Adicionar",
-			de: "Hinzufügen"
+			'en-us': "Add On",
+			'fr-fr': "Ajout",
+			'es-es': "Sumar",
+			'it-it': "Supplemento",
+			'pt-br': "Adicionar",
+			'de-de': "Hinzufügen"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			es: "Roba 1 carta.",
-			it: "Pesca una carta.",
-			pt: "Compre uma carta.",
-			de: "Ziehe 1 Karte."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'es-es': "Roba 1 carta.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre uma carta.",
+			'de-de': "Ziehe 1 Karte."
 		}
 	}, {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Static Shock",
-			fr: "Choc Statique",
-			es: "Impacto Estático",
-			it: "Shock Statico",
-			pt: "Choque de Estática",
-			de: "Statischer Schock"
+			'en-us': "Static Shock",
+			'fr-fr': "Choc Statique",
+			'es-es': "Impacto Estático",
+			'it-it': "Shock Statico",
+			'pt-br': "Choque de Estática",
+			'de-de': "Statischer Schock"
 		},
 
 		damage: 20

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Espathra",
-		fr: "Cléopsytra",
-		es: "Espathra",
-		it: "Espathra",
-		pt: "Espathra",
-		de: "Psiopatra"
+		'en-us': "Espathra",
+		'fr-fr': "Cléopsytra",
+		'es-es': "Espathra",
+		'it-it': "Espathra",
+		'pt-br': "Espathra",
+		'de-de': "Psiopatra"
 	},
 
 	rarity: "Promo",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Flittle",
-		fr: "Flotillon",
-		es: "Flittle",
-		it: "Flittle",
-		pt: "Flittle",
-		de: "Flattutu"
+		'en-us': "Flittle",
+		'fr-fr': "Flotillon",
+		'es-es': "Flittle",
+		'it-it': "Flittle",
+		'pt-br': "Flittle",
+		'de-de': "Flattutu"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Aurora Gain",
-			fr: "Puissance Boréale",
-			es: "Ganar Aurora",
-			it: "Prendiaurora",
-			pt: "Aurora",
-			de: "Aurora-Verstärkung"
+			'en-us': "Aurora Gain",
+			'fr-fr': "Puissance Boréale",
+			'es-es': "Ganar Aurora",
+			'it-it': "Prendiaurora",
+			'pt-br': "Aurora",
+			'de-de': "Aurora-Verstärkung"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 30
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Super Psy Bolt",
-			fr: "Super Psy",
-			es: "Superrayo Psi",
-			it: "Superpsico",
-			pt: "Super-raio Psíquico",
-			de: "Super-Psischlag"
+			'en-us': "Super Psy Bolt",
+			'fr-fr': "Super Psy",
+			'es-es': "Superrayo Psi",
+			'it-it': "Superpsico",
+			'pt-br': "Super-raio Psíquico",
+			'de-de': "Super-Psischlag"
 		},
 
 		damage: 60
@@ -81,7 +81,7 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "Sanosuke Sakuma",
 	description: {
-		en: "It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament.",
+		'en-us': "It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament.",
 	},
 	variants: [
 		{

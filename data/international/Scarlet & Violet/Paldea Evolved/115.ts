@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Coatox",
-		en: "Toxicroak",
-		es: "Toxicroak",
-		it: "Toxicroak",
-		pt: "Toxicroak",
-		de: "Toxiquak"
+		'fr-fr': "Coatox",
+		'en-us': "Toxicroak",
+		'es-es': "Toxicroak",
+		'it-it': "Toxicroak",
+		'pt-br': "Toxicroak",
+		'de-de': "Toxiquak"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Fighting"],
 	evolveFrom: {
-		fr: "Cradopaud",
-		en: "Croagunk",
-		es: "Croagunk",
-		it: "Croagunk",
-		pt: "Croagunk",
-		de: "Glibunkel"
+		'fr-fr': "Cradopaud",
+		'en-us': "Croagunk",
+		'es-es': "Croagunk",
+		'it-it': "Croagunk",
+		'pt-br': "Croagunk",
+		'de-de': "Glibunkel"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			fr: "Transpercement",
-			en: "Pierce",
-			es: "Perforar",
-			it: "Perforare",
-			pt: "Perfurar",
-			de: "Durchbohren"
+			'fr-fr': "Transpercement",
+			'en-us': "Pierce",
+			'es-es': "Perforar",
+			'it-it': "Perforare",
+			'pt-br': "Perfurar",
+			'de-de': "Durchbohren"
 		},
 
 		damage: 30
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			fr: "Griffes Articulées",
-			en: "Knuckle Claws",
-			es: "Garras Nudillo",
-			it: "Noccartigli",
-			pt: "Garras Articuladas",
-			de: "Knöchelkralle"
+			'fr-fr': "Griffes Articulées",
+			'en-us': "Knuckle Claws",
+			'es-es': "Garras Nudillo",
+			'it-it': "Noccartigli",
+			'pt-br': "Garras Articuladas",
+			'de-de': "Knöchelkralle"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		},
 
 		damage: 60
@@ -96,7 +96,7 @@ const card: Card = {
 	illustrator: "Yuya Oka",
 
 	description: {
-		en: "Swaying and dodging the attacks of its foes, it weaves its flexible body in close, then lunges out with its poisonous claws.",
+		'en-us': "Swaying and dodging the attacks of its foes, it weaves its flexible body in close, then lunges out with its poisonous claws.",
 	},
 }
 

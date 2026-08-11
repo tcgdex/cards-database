@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Paldean Wooper",
-		fr: "Axoloto de Paldea",
-		es: "Wooper de Paldea",
-		it: "Wooper di Paldea",
-		pt: "Wooper de Paldea",
-		de: "Paldea-Felino"
+		'en-us': "Paldean Wooper",
+		'fr-fr': "Axoloto de Paldea",
+		'es-es': "Wooper de Paldea",
+		'it-it': "Wooper di Paldea",
+		'pt-br': "Wooper de Paldea",
+		'de-de': "Paldea-Felino"
 	},
 
 	rarity: "Promo",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Splattering Poison",
-			fr: "Poison Éclaboussant",
-			es: "Veneno Salpicante",
-			it: "Spruzzata di Veleno",
-			pt: "Respingar Veneno",
-			de: "Giftgespritze"
+			'en-us': "Splattering Poison",
+			'fr-fr': "Poison Éclaboussant",
+			'es-es': "Veneno Salpicante",
+			'it-it': "Spruzzata di Veleno",
+			'pt-br': "Respingar Veneno",
+			'de-de': "Giftgespritze"
 		},
 
 		effect: {
-			en: "Both Active Pokémon are now Poisoned.",
-			fr: "Les deux Pokémon Actifs sont maintenant Empoisonnés.",
-			es: "Ambos Pokémon Activos pasan a estar Envenenados.",
-			it: "Entrambi i Pokémon attivi vengono avvelenati.",
-			pt: "Ambos os Pokémon Ativos agora estão Envenenados.",
-			de: "Beide Aktiven Pokémon sind jetzt vergiftet."
+			'en-us': "Both Active Pokémon are now Poisoned.",
+			'fr-fr': "Les deux Pokémon Actifs sont maintenant Empoisonnés.",
+			'es-es': "Ambos Pokémon Activos pasan a estar Envenenados.",
+			'it-it': "Entrambi i Pokémon attivi vengono avvelenati.",
+			'pt-br': "Ambos os Pokémon Ativos agora estão Envenenados.",
+			'de-de': "Beide Aktiven Pokémon sind jetzt vergiftet."
 		}
 	}, {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			en: "Tail Whap",
-			fr: "Queue Battoir",
-			es: "Coletón",
-			it: "Codabotta",
-			pt: "Surra de Cauda",
-			de: "Schweifvertrimmer"
+			'en-us': "Tail Whap",
+			'fr-fr': "Queue Battoir",
+			'es-es': "Coletón",
+			'it-it': "Codabotta",
+			'pt-br': "Surra de Cauda",
+			'de-de': "Schweifvertrimmer"
 		},
 
 		damage: 30
@@ -65,7 +65,7 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "kirisAki",
 	description: {
-		en: "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
+		'en-us': "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
 	},
 	variants: [
 		{

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Articuno",
-		fr: "Artikodin",
-		es: "Articuno",
-		it: "Articuno",
-		pt: "Articuno",
-		de: "Arktos"
+		'en-us': "Articuno",
+		'fr-fr': "Artikodin",
+		'es-es': "Articuno",
+		'it-it': "Articuno",
+		'pt-br': "Articuno",
+		'de-de': "Arktos"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Beam",
-				fr: "Laser Glace",
+				'en-us': "Ice Beam",
+				'fr-fr': "Laser Glace",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 50,
 
@@ -54,8 +54,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Wing",
-				fr: "Aile Glace",
+				'en-us': "Ice Wing",
+				'fr-fr': "Aile Glace",
 			},
 
 			damage: 80,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A legendary bird Pokémon. It can create blizzards by freezing moisture in the air.",
+		'en-us': "A legendary bird Pokémon. It can create blizzards by freezing moisture in the air.",
 	},
 
 	thirdParty: {

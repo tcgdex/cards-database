@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Onix",
-		fr: "Onix",
-		de: "Onix"
+		'en-us': "Onix",
+		'fr-fr': "Onix",
+		'de-de': "Onix"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Screech",
-				fr: "Grincement",
-				de: "Screech"
+				'en-us': "Screech",
+				'fr-fr': "Grincement",
+				'de-de': "Screech"
 			},
 			effect: {
-				en: "Until the end of your next turn, if an attack damages the Defending Pokémon (after applying Weakness and Resistance), that attack does 20 more damage to the Defending Pokémon.",
-				fr: "Jusqu'à la fin de votre prochain tour, si une attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), cette attaque inflige 20 dégâts supplémentaires au Pokémon Défenseur.",
-				de: "Until the end of your next turn, if an attack damages the Defending Pokémon (after applying Weakness and Resistance), that attack does 20 more damage to the Defending Pokémon."
+				'en-us': "Until the end of your next turn, if an attack damages the Defending Pokémon (after applying Weakness and Resistance), that attack does 20 more damage to the Defending Pokémon.",
+				'fr-fr': "Jusqu'à la fin de votre prochain tour, si une attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), cette attaque inflige 20 dégâts supplémentaires au Pokémon Défenseur.",
+				'de-de': "Until the end of your next turn, if an attack damages the Defending Pokémon (after applying Weakness and Resistance), that attack does 20 more damage to the Defending Pokémon."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Rage",
-				fr: "Frénésie",
-				de: "Rage"
+				'en-us': "Rage",
+				'fr-fr': "Frénésie",
+				'de-de': "Rage"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each damage counter on Onix.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur Onix.",
-				de: "Does 10 damage plus 10 more damage for each damage counter on Onix."
+				'en-us': "Does 10 damage plus 10 more damage for each damage counter on Onix.",
+				'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur Onix.",
+				'de-de': "Does 10 damage plus 10 more damage for each damage counter on Onix."
 			},
 			damage: "10+",
 
@@ -72,8 +72,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It twists and squirms through the ground. The thunderous roar of its tunneling echoes a long way.",
-		fr: "Il serpente et ondule à travers le sol. Le rugissement bruyant de son excavation résonne très loin."
+		'en-us': "It twists and squirms through the ground. The thunderous roar of its tunneling echoes a long way.",
+		'fr-fr': "Il serpente et ondule à travers le sol. Le rugissement bruyant de son excavation résonne très loin."
 	},
 
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Wigglytuff",
-		fr: "Grodoudou",
-		de: "Knuddeluff"
+		'en-us': "Wigglytuff",
+		'fr-fr': "Grodoudou",
+		'de-de': "Knuddeluff"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Jigglypuff",
-		fr: "Rondoudou"
+		'en-us': "Jigglypuff",
+		'fr-fr': "Rondoudou"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Fluffy Fur",
-				fr: "Douce fourrure",
-				de: "Kuscheliges Fell"
+				'en-us': "Fluffy Fur",
+				'fr-fr': "Douce fourrure",
+				'de-de': "Kuscheliges Fell"
 			},
 			effect: {
-				en: "If Wigglytuff is your Active Pokémon and is damaged by an opponent's attack (even if Wigglytuff is Knocked Out), the Attacking Pokémon is now Asleep.",
-				fr: "Si Grodoudou est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Grodoudou est mis K.O), le Pokémon Attaquant est maintenant Endormi.",
-				de: "Wenn Knuddeluff dein Aktives Pokémon ist und ihm Schaden durch einen gegnerischen Angriff zugefügt wird (auch wenn Knuddeluff kampfunfähig wird), schläft das Angreifende Pokémon jetzt."
+				'en-us': "If Wigglytuff is your Active Pokémon and is damaged by an opponent's attack (even if Wigglytuff is Knocked Out), the Attacking Pokémon is now Asleep.",
+				'fr-fr': "Si Grodoudou est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Grodoudou est mis K.O), le Pokémon Attaquant est maintenant Endormi.",
+				'de-de': "Wenn Knuddeluff dein Aktives Pokémon ist und ihm Schaden durch einen gegnerischen Angriff zugefügt wird (auch wenn Knuddeluff kampfunfähig wird), schläft das Angreifende Pokémon jetzt."
 			},
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collectionner",
-				de: "Sammeln"
+				'en-us': "Collect",
+				'fr-fr': "Collectionner",
+				'de-de': "Sammeln"
 			},
 			effect: {
-				en: "Draw 3 cards.",
-				fr: "Piochez 3 cartes.",
-				de: "Ziehe 3 Karten."
+				'en-us': "Draw 3 cards.",
+				'fr-fr': "Piochez 3 cartes.",
+				'de-de': "Ziehe 3 Karten."
 			},
 
 		},
@@ -69,14 +69,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pester",
-				fr: "Abattre",
-				de: "Verfolgung"
+				'en-us': "Pester",
+				'fr-fr': "Abattre",
+				'de-de': "Verfolgung"
 			},
 			effect: {
-				en: "If the Defending Pokémon is affected by a Special Condition, this attack does 30 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wenn das Verteidigende Pokémon von einem Speziellen Zustand betroffen ist, fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "If the Defending Pokémon is affected by a Special Condition, this attack does 30 damage plus 20 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wenn das Verteidigende Pokémon von einem Speziellen Zustand betroffen ist, fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 

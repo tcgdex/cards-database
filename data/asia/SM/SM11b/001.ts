@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナゾノクサ",
+		'ja-jp': "ナゾノクサ",
 	},
 
 	illustrator: "Yumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "昼間は 太陽を 避けるため 冷たい 地面に 潜っている。 月の 光を 浴びて 育つ。",
+		'ja-jp': "昼間は 太陽を 避けるため 冷たい 地面に 潜っている。 月の 光を 浴びて 育つ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "あまいかおり" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のポケモン1匹のHPを「30」回復する。",
+				'ja-jp': "自分のポケモン1匹のHPを「30」回復する。",
 			},
 		},
 	],

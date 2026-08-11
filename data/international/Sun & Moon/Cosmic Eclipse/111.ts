@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Anorith",
-		fr: "Anorith",
-		es: "Anorith",
-		it: "Anorith",
-		pt: "Anorith",
-		de: "Anorith"
+		'en-us': "Anorith",
+		'fr-fr': "Anorith",
+		'es-es': "Anorith",
+		'it-it': "Anorith",
+		'pt-br': "Anorith",
+		'de-de': "Anorith"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Unidentified Fossil",
-		fr: "Fossile Inconnu",
+		'en-us': "Unidentified Fossil",
+		'fr-fr': "Fossile Inconnu",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bug Bite",
-				fr: "Piqûre",
-				es: "Picadura",
-				it: "Coleomorso",
-				pt: "Picada",
-				de: "Käferbiss"
+				'en-us': "Bug Bite",
+				'fr-fr': "Piqûre",
+				'es-es': "Picadura",
+				'it-it': "Coleomorso",
+				'pt-br': "Picada",
+				'de-de': "Käferbiss"
 			},
 
 			damage: 40,
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Claw Slash",
-				fr: "Tranch’Griffe",
-				es: "Cuchillada Garra",
-				it: "Lacerartiglio",
-				pt: "Golpe de Garra",
-				de: "Klauenschlitzer"
+				'en-us': "Claw Slash",
+				'fr-fr': "Tranch’Griffe",
+				'es-es': "Cuchillada Garra",
+				'it-it': "Lacerartiglio",
+				'pt-br': "Golpe de Garra",
+				'de-de': "Klauenschlitzer"
 			},
 
 			damage: 80,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When restored Anorith are released into the ocean, they don't thrive, because the water composition has changed since their era.",
+		'en-us': "When restored Anorith are released into the ocean, they don't thrive, because the water composition has changed since their era.",
 	},
 
 	thirdParty: {

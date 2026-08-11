@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Klefki",
-		fr: "Trousselin",
-		es: "Klefki",
-		it: "Klefki",
-		pt: "Klefki",
-		de: "Clavion"
+		'en-us': "Klefki",
+		'fr-fr': "Trousselin",
+		'es-es': "Klefki",
+		'it-it': "Klefki",
+		'pt-br': "Klefki",
+		'de-de': "Clavion"
 	},
 
 	illustrator: "5ban Graphics",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Secret Key",
-				fr: "Clé Secrète",
-				es: "Llave Secreta",
-				it: "Chiave Segreta",
-				pt: "Chave Secreta",
-				de: "Geheimschlüssel"
+				'en-us': "Secret Key",
+				'fr-fr': "Clé Secrète",
+				'es-es': "Llave Secreta",
+				'it-it': "Chiave Segreta",
+				'pt-br': "Chave Secreta",
+				'de-de': "Geheimschlüssel"
 			},
 			effect: {
-				en: "Each of your Fairy Pokémon's Resistance is now -40.",
-				fr: "La Résistance de chacun de vos Pokémon Fairy est maintenant -40.",
-				es: "La Resistencia de cada uno de tus Pokémon Fairy pasa a ser -40.",
-				it: "La resistenza di tutti i tuoi Pokémon Fairy è -40.",
-				pt: "A Resistência de cada um dos seus Pokémon Fairy agora é -40.",
-				de: "Die Resistenz jedes deiner Fairy-Pokémon ist jetzt -40."
+				'en-us': "Each of your Fairy Pokémon's Resistance is now -40.",
+				'fr-fr': "La Résistance de chacun de vos Pokémon Fairy est maintenant -40.",
+				'es-es': "La Resistencia de cada uno de tus Pokémon Fairy pasa a ser -40.",
+				'it-it': "La resistenza di tutti i tuoi Pokémon Fairy è -40.",
+				'pt-br': "A Resistência de cada um dos seus Pokémon Fairy agora é -40.",
+				'de-de': "Die Resistenz jedes deiner Fairy-Pokémon ist jetzt -40."
 			},
 		},
 	],
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fairy Lock",
-				fr: "Verrou Enchanté",
-				es: "Cerrojo Feérico",
-				it: "Blocco Fatato",
-				pt: "Aprisionamento de Fada",
-				de: "Feenschloss"
+				'en-us': "Fairy Lock",
+				'fr-fr': "Verrou Enchanté",
+				'es-es': "Cerrojo Feérico",
+				'it-it': "Blocco Fatato",
+				'pt-br': "Aprisionamento de Fada",
+				'de-de': "Feenschloss"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
-				es: "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
-				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-				pt: "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
-				de: "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'es-es': "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
+				'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+				'pt-br': "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
+				'de-de': "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 30,
 
@@ -94,7 +94,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "These key collectors threaten any attackers by fiercely jingling their keys at them.",
+		'en-us': "These key collectors threaten any attackers by fiercely jingling their keys at them.",
 	},
 
 	thirdParty: {

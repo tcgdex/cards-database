@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Girafarig",
+		'ja-jp': "Girafarig",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "エネルギーパッチ",
+				'ja-jp': "エネルギーパッチ",
 			},
 			effect: {
-				ja: "ポケモンの1つに取り付けられた基本的なエネルギーカードを取り、ポケモンのもう1つに取り付けます。",
+				'ja-jp': "ポケモンの1つに取り付けられた基本的なエネルギーカードを取り、ポケモンのもう1つに取り付けます。",
 			},
 		},
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "シンクロブラスト",
+				'ja-jp': "シンクロブラスト",
 			},
 			effect: {
-				ja: "Girafarigと防御ポケモンに同じ数のエネルギーカードが付いていない場合、この攻撃の基本ダメージは40ではなく10です。",
+				'ja-jp': "Girafarigと防御ポケモンに同じ数のエネルギーカードが付いていない場合、この攻撃の基本ダメージは40ではなく10です。",
 			},
 			damage: 40,
 		},

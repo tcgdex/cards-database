@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Golduck",
-		fr: "Akwakwak",
-		es: "Golduck",
-		it: "Golduck",
-		pt: "Golduck",
-		de: "Entoron"
+		'en-us': "Golduck",
+		'fr-fr': "Akwakwak",
+		'es-es': "Golduck",
+		'it-it': "Golduck",
+		'pt-br': "Golduck",
+		'de-de': "Entoron"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Psyduck",
-		fr: "Psykokwak",
+		'en-us': "Psyduck",
+		'fr-fr': "Psykokwak",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				es: "Arañazo",
-				it: "Graffio",
-				pt: "Arranhão",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'es-es': "Arañazo",
+				'it-it': "Graffio",
+				'pt-br': "Arranhão",
+				'de-de': "Kratzer"
 			},
 
 			damage: 30,
@@ -56,20 +56,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Loop",
-				fr: "Boucle d’Énergie",
-				es: "Bucle de Energía",
-				it: "Circuito Energetico",
-				pt: "Loop de Energia",
-				de: "Energieschleife"
+				'en-us': "Energy Loop",
+				'fr-fr': "Boucle d’Énergie",
+				'es-es': "Bucle de Energía",
+				'it-it': "Circuito Energetico",
+				'pt-br': "Loop de Energia",
+				'de-de': "Energieschleife"
 			},
 			effect: {
-				en: "Put an Energy attached to this Pokémon into your hand.",
-				fr: "Placez une Énergie attachée à ce Pokémon dans votre main.",
-				es: "Pon 1 Energía unida a este Pokémon en tu mano.",
-				it: "Prendi un’Energia assegnata a questo Pokémon e aggiungila alle carte che hai in mano.",
-				pt: "Coloque 1 Energia ligada a este Pokémon na sua mão.",
-				de: "Nimm 1 an dieses Pokémon angelegte Energie auf deine Hand."
+				'en-us': "Put an Energy attached to this Pokémon into your hand.",
+				'fr-fr': "Placez une Énergie attachée à ce Pokémon dans votre main.",
+				'es-es': "Pon 1 Energía unida a este Pokémon en tu mano.",
+				'it-it': "Prendi un’Energia assegnata a questo Pokémon e aggiungila alle carte che hai in mano.",
+				'pt-br': "Coloque 1 Energia ligada a este Pokémon na sua mão.",
+				'de-de': "Nimm 1 an dieses Pokémon angelegte Energie auf deine Hand."
 			},
 			damage: 80,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Even fast-swimming fish Pokémon can be disabled by Golduck. It brings them to a standstill and seizes them.",
+		'en-us': "Even fast-swimming fish Pokémon can be disabled by Golduck. It brings them to a standstill and seizes them.",
 	},
 
 	thirdParty: {

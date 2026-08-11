@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダークウィッグラット",
+		'ja-jp': "ダークウィッグラット",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "暗い歌",
+				'ja-jp': "暗い歌",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御するポケモンは今眠っています。尾の場合、防御ポケモンは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御するポケモンは今眠っています。尾の場合、防御ポケモンは混乱しています。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "目を覚まします",
+				'ja-jp': "目を覚まします",
 			},
 			effect: {
-				ja: "防御するポケモンが眠っているか混乱している場合、この攻撃は20ダメージに加えて20ダメージを与えます。その後、防御ポケモンはもはや眠っていないか混乱していません。",
+				'ja-jp': "防御するポケモンが眠っているか混乱している場合、この攻撃は20ダメージに加えて20ダメージを与えます。その後、防御ポケモンはもはや眠っていないか混乱していません。",
 			},
 		},
 	],

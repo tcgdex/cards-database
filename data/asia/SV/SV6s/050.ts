@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Milotic"
+		'id-id': "Milotic"
 	},
 
 	illustrator: "Taira Akitsu",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Pokémon yang tinggal di dasar danau yang jernih. Ia akan muncul pada saat peperangan terjadi untuk menyembuhkan hati orang-orang."
+		'id-id': "Pokémon yang tinggal di dasar danau yang jernih. Ia akan muncul pada saat peperangan terjadi untuk menyembuhkan hati orang-orang."
 	},
 
 	stage: "Stage1",
@@ -23,17 +23,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Kondisi Kalem"
+			'id-id': "Kondisi Kalem"
 		},
 
 		effect: {
-			id: "Selama Pokémon ini ada di Arena, Pokémon di Arena lawan dan semua kartu yang dikenakan Pokémon tersebut tidak dapat dikembalikan ke Kartu Pegangan."
+			'id-id': "Selama Pokémon ini ada di Arena, Pokémon di Arena lawan dan semua kartu yang dikenakan Pokémon tersebut tidak dapat dikembalikan ke Kartu Pegangan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Hydro Splash"
+			'id-id': "Hydro Splash"
 		},
 
 		damage: 100,

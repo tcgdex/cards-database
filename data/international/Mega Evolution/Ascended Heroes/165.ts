@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skitty",
-		fr: "Skitty",
-		es: "Skitty",
+		'en-us': "Skitty",
+		'fr-fr': "Skitty",
+		'es-es': "Skitty",
 		'es-mx': "Skitty",
-		de: "Eneco",
-		it: "Skitty",
-		pt: "Skitty"
+		'de-de': "Eneco",
+		'it-it': "Skitty",
+		'pt-br': "Skitty"
 	},
 
 	illustrator: "Yoko Hishida",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Cat Kick",
-			fr: "Coup d'Patte",
-			es: "Patada Gato",
+			'en-us': "Cat Kick",
+			'fr-fr': "Coup d'Patte",
+			'es-es': "Patada Gato",
 			'es-mx': "Patada Gatuna",
-			de: "Katzenkick",
-			it: "Calciogatto",
-			pt: "Chute do Gato"
+			'de-de': "Katzenkick",
+			'it-it': "Calciogatto",
+			'pt-br': "Chute do Gato"
 		},
 
 		damage: 20
@@ -48,7 +48,7 @@ const card: Card = {
 	regulationMark: "J",
 
 	description: {
-		en: "It can’t stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
+		'en-us': "It can’t stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デンチュラ",
+		'ja-jp': "デンチュラ",
 	},
 
 	illustrator: "Yumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "電気を 帯びた 糸で ワナを 仕掛ける。 感電して 動けない 獲物を ゆっくりと いただくのだ。",
+		'ja-jp': "電気を 帯びた 糸で ワナを 仕掛ける。 感電して 動けない 獲物を ゆっくりと いただくのだ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ビリビリワイヤー" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のポケモン1匹に、50ダメージ。このワザのダメージは、ベンチでも弱点・抵抗力を計算する。",
+				'ja-jp': "相手のポケモン1匹に、50ダメージ。このワザのダメージは、ベンチでも弱点・抵抗力を計算する。",
 			},
 		},
 	],
@@ -41,7 +41,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "バチュル",
+		'ja-jp': "バチュル",
 	},
 
 	retreat: 1,

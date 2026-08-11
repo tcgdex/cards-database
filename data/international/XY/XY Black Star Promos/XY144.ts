@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Yanmega",
-		fr: "Yanmega",
+		'en-us': "Yanmega",
+		'fr-fr': "Yanmega",
 	},
 
 	illustrator: "Midori Harada",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Yanma",
-		fr: "Yanma",
+		'en-us': "Yanma",
+		'fr-fr': "Yanma",
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Sonic Vision",
-				fr: "Vision Sonique",
+				'en-us': "Sonic Vision",
+				'fr-fr': "Vision Sonique",
 			},
 			effect: {
-				en: "If you have exactly 4 cards in your hand, ignore all Energy in the attack cost of each of this Pokémon's attacks.",
-				fr: "Si vous avez exactement 4 cartes dans votre main, ignorez toutes les Énergies dans le coût d'attaque de chacune des attaques de ce Pokémon.",
+				'en-us': "If you have exactly 4 cards in your hand, ignore all Energy in the attack cost of each of this Pokémon's attacks.",
+				'fr-fr': "Si vous avez exactement 4 cartes dans votre main, ignorez toutes les Énergies dans le coût d'attaque de chacune des attaques de ce Pokémon.",
 			},
 		},
 	],
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Assault Boom",
-				fr: "Dégât d'Assaut",
+				'en-us': "Assault Boom",
+				'fr-fr': "Dégât d'Assaut",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon has a Pokémon Tool card attached to it, this attack does 70 more damage.",
-				fr: "Si une carte Outil Pokémon est attachée au Pokémon Actif de votre adversaire, cette attaque inflige 70 dégâts supplémentaires.",
+				'en-us': "If your opponent's Active Pokémon has a Pokémon Tool card attached to it, this attack does 70 more damage.",
+				'fr-fr': "Si une carte Outil Pokémon est attachée au Pokémon Actif de votre adversaire, cette attaque inflige 70 dégâts supplémentaires.",
 			},
 			damage: "50+",
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "This six-legged Pokémon is easily capable of transporting an adult in flight. The wings on its tail help it stay balanced.",
+		'en-us': "This six-legged Pokémon is easily capable of transporting an adult in flight. The wings on its tail help it stay balanced.",
 	},
 
 	thirdParty: {

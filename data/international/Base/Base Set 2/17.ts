@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Scyther",
+		'en-us': "Scyther",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Swords Dance",
+				'en-us': "Swords Dance",
 			},
 			effect: {
-				en: "During your next turn, Scyther's Slash attack's base damage is 60 instead of 30.",
+				'en-us': "During your next turn, Scyther's Slash attack's base damage is 60 instead of 30.",
 			},
 
 		},
@@ -43,7 +43,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
+				'en-us': "Slash",
 			},
 
 			damage: 30,
@@ -66,7 +66,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "With ninja-like agility and speed, it can create the illusion that there is more than one of it.",
+		'en-us': "With ninja-like agility and speed, it can create the illusion that there is more than one of it.",
 	},
 
 

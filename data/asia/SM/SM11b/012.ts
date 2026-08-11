@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オタマロ",
+		'ja-jp': "オタマロ",
 	},
 
 	illustrator: "Asako Ito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ほほの 振動膜を 震わせ 人には きこえない 音波を だし 仲間たちに 危険を 伝える。",
+		'ja-jp': "ほほの 振動膜を 震わせ 人には きこえない 音波を だし 仲間たちに 危険を 伝える。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10×",
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数×10ダメージ。",
+				'ja-jp': "コインを3回投げ、オモテの数×10ダメージ。",
 			},
 		},
 	],

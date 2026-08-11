@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY trainer Kit (Suicune)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Frogadier",
-		fr: "Croâporal",
-		es: "Frogadier",
-		it: "Frogadier",
-		pt: "Frogadier",
-		de: "Amphizel"
+		'en-us': "Frogadier",
+		'fr-fr': "Croâporal",
+		'es-es': "Frogadier",
+		'it-it': "Frogadier",
+		'pt-br': "Frogadier",
+		'de-de': "Amphizel"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Froakie",
-		fr: "Grenousse",
-		es: "Froakie",
-		it: "Froakie",
-		pt: "Froakie",
-		de: "Froxy"
+		'en-us': "Froakie",
+		'fr-fr': "Grenousse",
+		'es-es': "Froakie",
+		'it-it': "Froakie",
+		'pt-br': "Froakie",
+		'de-de': "Froxy"
 	},
 
 	stage: "Stage1",

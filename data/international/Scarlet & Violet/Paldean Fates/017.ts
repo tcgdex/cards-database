@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Frigibax",
-		fr: "Frigodo",
-		es: "Frigibax",
-		it: "Frigibax",
-		pt: "Frigibax",
-		de: "Frospino"
+		'en-us': "Frigibax",
+		'fr-fr': "Frigodo",
+		'es-es': "Frigibax",
+		'it-it': "Frigibax",
+		'pt-br': "Frigibax",
+		'de-de': "Frospino"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			es: "Coleccionar",
-			it: "Tassa",
-			pt: "Coleta",
-			de: "Sammeln"
+			'en-us': "Collect",
+			'fr-fr': "Collecte",
+			'es-es': "Coleccionar",
+			'it-it': "Tassa",
+			'pt-br': "Coleta",
+			'de-de': "Sammeln"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			es: "Roba 1 carta.",
-			it: "Pesca una carta.",
-			pt: "Compre uma carta.",
-			de: "Ziehe 1 Karte."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'es-es': "Roba 1 carta.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre uma carta.",
+			'de-de': "Ziehe 1 Karte."
 		}
 	}, {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Beat",
-			fr: "Bataille",
-			es: "Toque",
-			it: "Battuta",
-			pt: "Pulso",
-			de: "Verprügler"
+			'en-us': "Beat",
+			'fr-fr': "Bataille",
+			'es-es': "Toque",
+			'it-it': "Battuta",
+			'pt-br': "Pulso",
+			'de-de': "Verprügler"
 		},
 
 		damage: 20
@@ -86,7 +86,7 @@ const card: Card = {
 	illustrator: "rika",
 
 	description: {
-		en: "Frigibax absorbs heat through its dorsal fin and converts the heat into ice energy. The higher the temperature, the more energy Frigibax stores.",
+		'en-us': "Frigibax absorbs heat through its dorsal fin and converts the heat into ice energy. The higher the temperature, the more energy Frigibax stores.",
 	},
 
 }

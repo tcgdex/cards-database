@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Darmanitan",
-		fr: "Darumacho",
-		de: "Flampivian",
-		it: "Darmanitan",
-		pt: "Darmanitan",
-		es: "Darmanitan",
+		'en-us': "Darmanitan",
+		'fr-fr': "Darumacho",
+		'de-de': "Flampivian",
+		'it-it': "Darmanitan",
+		'pt-br': "Darmanitan",
+		'es-es': "Darmanitan",
 		'es-mx': "Darmanitan"
 	},
 
@@ -21,12 +21,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Darumaka",
-		fr: "Darumarond",
-		de: "Flampion",
-		it: "Darumaka",
-		pt: "Darumaka",
-		es: "Darumaka",
+		'en-us': "Darumaka",
+		'fr-fr': "Darumarond",
+		'de-de': "Flampion",
+		'it-it': "Darumaka",
+		'pt-br': "Darumaka",
+		'es-es': "Darumaka",
 		'es-mx': "Darumaka"
 	},
 	stage: "Stage1",
@@ -35,22 +35,22 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Searing Flame",
-			fr: "Flammes Calcinantes",
-			de: "Sengende Flammen",
-			it: "Fiamme Ustionanti",
-			pt: "Chama Cauterizante",
-			es: "Llama Abrasadora",
+			'en-us': "Searing Flame",
+			'fr-fr': "Flammes Calcinantes",
+			'de-de': "Sengende Flammen",
+			'it-it': "Fiamme Ustionanti",
+			'pt-br': "Chama Cauterizante",
+			'es-es': "Llama Abrasadora",
 			'es-mx': "Llama Abrasadora"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			'en-us': "Your opponent's Active Pokémon is now Burned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
 			'es-mx': "El Pokémon Activo de tu rival ahora está Quemado."
 		},
 
@@ -59,22 +59,22 @@ const card: Card = {
 		cost: ["Fire", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Smashing Headbutt",
-			fr: "Coup d'Boule Fracassant",
-			de: "Schmetternde Kopfnuss",
-			it: "Bottintesta Distruttivo",
-			pt: "Cabeçada Destruidora",
-			es: "Cabezazo Destructor",
+			'en-us': "Smashing Headbutt",
+			'fr-fr': "Coup d'Boule Fracassant",
+			'de-de': "Schmetternde Kopfnuss",
+			'it-it': "Bottintesta Distruttivo",
+			'pt-br': "Cabeçada Destruidora",
+			'es-es': "Cabezazo Destructor",
 			'es-mx': "Cabezazo Devastador"
 		},
 
 		effect: {
-			en: "Discard 2 Energy from this Pokémon.",
-			fr: "Défaussez 2 Énergies de ce Pokémon.",
-			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel.",
-			it: "Scarta due Energie da questo Pokémon.",
-			pt: "Descarte 2 Energias deste Pokémon.",
-			es: "Descarta 2 Energías de este Pokémon.",
+			'en-us': "Discard 2 Energy from this Pokémon.",
+			'fr-fr': "Défaussez 2 Énergies de ce Pokémon.",
+			'de-de': "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel.",
+			'it-it': "Scarta due Energie da questo Pokémon.",
+			'pt-br': "Descarte 2 Energias deste Pokémon.",
+			'es-es': "Descarta 2 Energías de este Pokémon.",
 			'es-mx': "Descarta 2 Energías de este Pokémon."
 		},
 

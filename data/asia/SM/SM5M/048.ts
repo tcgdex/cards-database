@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミミロップ",
+		'ja-jp': "ミミロップ",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "耳は とても デリケートらしく 優しく 丁寧に 触らないと しなやかな 脚で けられてしまう。",
+		'ja-jp': "耳は とても デリケートらしく 優しく 丁寧に 触らないと しなやかな 脚で けられてしまう。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "40×",
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x40ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数x40ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "のぞむなら、このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
+				'ja-jp': "のぞむなら、このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ミミロル",
+		'ja-jp': "ミミロル",
 	},
 
 	retreat: 1,

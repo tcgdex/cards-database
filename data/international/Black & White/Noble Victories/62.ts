@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Timburr",
-		fr: "Charpenti",
-		es: "Timburr",
-		it: "Timburr",
-		pt: "Timburr",
-		de: "Praktibalk"
+		'en-us': "Timburr",
+		'fr-fr': "Charpenti",
+		'es-es': "Timburr",
+		'it-it': "Timburr",
+		'pt-br': "Timburr",
+		'de-de': "Praktibalk"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Pummel",
-				fr: "Martelage",
+				'en-us': "Pummel",
+				'fr-fr': "Martelage",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It fights by swinging a piece of lumber around. It is close to evolving when it can handle the lumber without difficulty.",
+		'en-us': "It fights by swinging a piece of lumber around. It is close to evolving when it can handle the lumber without difficulty.",
 	},
 
 	thirdParty: {

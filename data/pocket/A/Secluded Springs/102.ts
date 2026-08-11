@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mew ex",
-		fr: "Mew-ex"
+		'en-us': "Mew ex",
+		'fr-fr': "Mew-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -21,23 +21,23 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Psyshot",
-			fr: "Piqûre Psy"
+			'en-us': "Psyshot",
+			'fr-fr': "Piqûre Psy"
 		},
 
 		damage: 20,
 		cost: ["Psychic"]
 	}, {
 		name: {
-			en: "Genome Hacking",
-			fr: "Piratage de Génome"
+			'en-us': "Genome Hacking",
+			'fr-fr': "Piratage de Génome"
 		},
 
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.",
-			fr: "Choisissez l'une des attaques du Pokémon Actif de votre adversaire et utilisez-la en tant que cette attaque."
+			'en-us': "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.",
+			'fr-fr': "Choisissez l'une des attaques du Pokémon Actif de votre adversaire et utilisez-la en tant que cette attaque."
 		}
 	}],
 

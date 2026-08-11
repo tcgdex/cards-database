@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Metang",
-		fr: "Métang",
-		es: "Metang",
-		it: "Metang",
-		pt: "Metang",
-		de: "Metang"
+		'en-us': "Metang",
+		'fr-fr': "Métang",
+		'es-es': "Metang",
+		'it-it': "Metang",
+		'pt-br': "Metang",
+		'de-de': "Metang"
 	},
 
 	illustrator: "Nisota Niso",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Beldum",
-		fr: "Terhal",
-		es: "Beldum",
-		it: "Beldum",
-		pt: "Beldum",
-		de: "Tanhel"
+		'en-us': "Beldum",
+		'fr-fr': "Terhal",
+		'es-es': "Beldum",
+		'it-it': "Beldum",
+		'pt-br': "Beldum",
+		'de-de': "Tanhel"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			en: "Bullet Punch",
-			fr: "Pisto-Poing",
-			es: "Puño Bala",
-			it: "Pugnoscarica",
-			pt: "Soco Projétil",
-			de: "Patronenhieb"
+			'en-us': "Bullet Punch",
+			'fr-fr': "Pisto-Poing",
+			'es-es': "Puño Bala",
+			'it-it': "Pugnoscarica",
+			'pt-br': "Soco Projétil",
+			'de-de': "Patronenhieb"
 		},
 
 		effect: {
-			en: "Flip 2 coins. This attack does 30 more damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
-			es: "Lanza 2 monedas. Este ataque hace 30 puntos de daño más por cada cara.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 30 danni in più ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 30 pontos de dano a mais para cada cara.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte mehr pro Kopf zu."
+			'en-us': "Flip 2 coins. This attack does 30 more damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 30 puntos de daño más por cada cara.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 30 danni in più ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 30 pontos de dano a mais para cada cara.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte mehr pro Kopf zu."
 		},
 
 		damage: "30+"
@@ -72,7 +72,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Two Beldum have become stuck together via their own magnetic forces. With two brains, the resulting Metang has doubled psychic powers.",
+		'en-us': "Two Beldum have become stuck together via their own magnetic forces. With two brains, the resulting Metang has doubled psychic powers.",
 	},
 
 	

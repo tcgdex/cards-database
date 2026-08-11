@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Golett",
-		fr: "Gringolem",
-		es: "Golett",
-		it: "Golett",
-		pt: "Golett",
-		de: "Golbit"
+		'en-us': "Golett",
+		'fr-fr': "Gringolem",
+		'es-es': "Golett",
+		'it-it': "Golett",
+		'pt-br': "Golett",
+		'de-de': "Golbit"
 	},
 
 	illustrator: "0313",
@@ -22,24 +22,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Pound",
-			fr: "Écras'Face",
-			es: "Destructor",
-			it: "Botta",
-			pt: "Pancada",
-			de: "Klaps"
+			'en-us': "Pound",
+			'fr-fr': "Écras'Face",
+			'es-es': "Destructor",
+			'it-it': "Botta",
+			'pt-br': "Pancada",
+			'de-de': "Klaps"
 		},
 
 		damage: 10,
 		cost: ["Psychic"]
 	}, {
 		name: {
-			en: "Punch",
-			fr: "Koud'Poing",
-			es: "Puño",
-			it: "Pugno",
-			pt: "Soco",
-			de: "Boxhieb"
+			'en-us': "Punch",
+			'fr-fr': "Koud'Poing",
+			'es-es': "Puño",
+			'it-it': "Pugno",
+			'pt-br': "Soco",
+			'de-de': "Boxhieb"
 		},
 
 		damage: 30,
@@ -63,7 +63,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "This Pokémon was created from clay. It received orders from its master many thousands of years ago, and it still follows those orders to this day."
+		'en-us': "This Pokémon was created from clay. It received orders from its master many thousands of years ago, and it still follows those orders to this day."
 	},
 
 	variants: [

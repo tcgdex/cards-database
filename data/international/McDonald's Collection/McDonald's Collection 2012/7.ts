@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2012'
 
 const card: Card = {
@@ -9,28 +9,28 @@ const card: Card = {
 	dexId: [527],
 
 	description: {
-		en: "Its habitat is dark forests and caves. It emits ultrasonic waves from its nose to learn about its surroundings."
+		'en-us': "Its habitat is dark forests and caves. It emits ultrasonic waves from its nose to learn about its surroundings."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Psy Bolt",
-			fr: "Choc Mental"
+			'en-us': "Psy Bolt",
+			'fr-fr': "Choc Mental"
 		},
 
 		damage: 20,
 
 		effect: {
-			en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 		}
 	}],
 
 	name: {
-		en: "Woobat",
-		fr: "Chovsourir"
+		'en-us': "Woobat",
+		'fr-fr': "Chovsourir"
 	},
 
 	rarity: "None",

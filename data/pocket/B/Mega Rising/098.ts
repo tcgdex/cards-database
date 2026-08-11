@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Xatu"
+		'en-us': "Xatu"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Natu"
+		'en-us': "Natu"
 	},
 
 	description: {
-		en: "This odd Pokémon can see both the past and\nthe future. It eyes the sun's movement all day."
+		'en-us': "This odd Pokémon can see both the past and\nthe future. It eyes the sun's movement all day."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Zen Headbutt"
+			'en-us': "Zen Headbutt"
 		},
 
 		damage: 80,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポリゴン2",
+		'ja-jp': "ポリゴン2",
 		'zh-tw': "多邊獸Ⅱ",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ポリゴンを 特別な データで アップデート。 さまざまな ことを 自分で 学び 成長する。",
+		'ja-jp': "ポリゴンを 特別な データで アップデート。 さまざまな ことを 自分で 学び 成長する。",
 		'zh-tw': "#N/A",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ガベージアタック",
+				'ja-jp': "ガベージアタック",
 				'zh-tw': "廢物攻擊",
 			},
 			damage: "20×",
 			cost: ["Colorless"],
 			effect: {
-				ja: "おたがいのロストゾーンにある「ポケモンのどうぐ」の枚数×20ダメージ。",
+				'ja-jp': "おたがいのロストゾーンにある「ポケモンのどうぐ」の枚数×20ダメージ。",
 				'zh-tw': "造成雙方的放逐區的「寶可夢道具」卡的張數×20點傷害。",
 			},
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ポリゴン",
+		'ja-jp': "ポリゴン",
 	},
 
 	retreat: 1,

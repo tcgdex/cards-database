@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フシギダネ",
+		'ja-jp': "フシギダネ",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "生まれたときから 背中に 不思議な タネが 植えてあって 体と ともに 育つという。",
+		'ja-jp': "生まれたときから 背中に 不思議な タネが 植えてあって 体と ともに 育つという。",
 	},
 
 	stage: "Basic",

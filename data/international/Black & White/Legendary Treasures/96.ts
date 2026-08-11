@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Garchomp",
+		'en-us': "Garchomp",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gabite",
+		'en-us': "Gabite",
 	},
 
 	stage: "Stage2",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mach Cut",
+				'en-us': "Mach Cut",
 			},
 			effect: {
-				en: "Discard a Special Energy attached to the Defending Pokémon.",
+				'en-us': "Discard a Special Energy attached to the Defending Pokémon.",
 			},
 			damage: 60,
 
@@ -47,10 +47,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Dragonblade",
+				'en-us': "Dragonblade",
 			},
 			effect: {
-				en: "Discard the top 2 cards of your deck.",
+				'en-us': "Discard the top 2 cards of your deck.",
 			},
 			damage: 100,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is said that when one runs at high speed, its wings create blades of wind that can fell nearby trees.",
+		'en-us': "It is said that when one runs at high speed, its wings create blades of wind that can fell nearby trees.",
 	},
 
 	thirdParty: {

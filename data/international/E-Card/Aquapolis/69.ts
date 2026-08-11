@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Chansey",
-		fr: "Leveinard",
-		de: "Chaneira"
+		'en-us': "Chansey",
+		'fr-fr': "Leveinard",
+		'de-de': "Chaneira"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'de-de': "Walzer"
 			},
 
 			damage: 10,
@@ -44,14 +44,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-edge",
-				fr: "Damoclès",
-				de: "Risikotackle"
+				'en-us': "Double-edge",
+				'fr-fr': "Damoclès",
+				'de-de': "Risikotackle"
 			},
 			effect: {
-				en: "Chansey does 40 damage to itself.",
-				fr: "Leveinard s'inflige 40 dégâts.",
-				de: "Chaneira fügt sich selber 40 Schadenspunkte zu."
+				'en-us': "Chansey does 40 damage to itself.",
+				'fr-fr': "Leveinard s'inflige 40 dégâts.",
+				'de-de': "Chaneira fügt sich selber 40 Schadenspunkte zu."
 			},
 			damage: 40,
 

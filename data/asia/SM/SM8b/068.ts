@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダークライ",
+		'ja-jp': "ダークライ",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "深い 眠りに 誘う 力で 人や ポケモンに 悪夢を 見せて 自分の 縄張りから 追い出す。",
+		'ja-jp': "深い 眠りに 誘う 力で 人や ポケモンに 悪夢を 見せて 自分の 縄張りから 追い出す。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手がすでにGXワザを使っていたなら、80ダメージ追加。",
+				'ja-jp': "相手がすでにGXワザを使っていたなら、80ダメージ追加。",
 			},
 		},
 	],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Floatzel",
-		fr: "Mustéflott",
-		es: "Floatzel",
-		it: "Floatzel",
-		pt: "Floatzel",
-		de: "Bojelin"
+		'en-us': "Floatzel",
+		'fr-fr': "Mustéflott",
+		'es-es': "Floatzel",
+		'it-it': "Floatzel",
+		'pt-br': "Floatzel",
+		'de-de': "Bojelin"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Buizel",
-		fr: "Mustébouée",
+		'en-us': "Buizel",
+		'fr-fr': "Mustébouée",
 	},
 
 	stage: "Stage1",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse Vague",
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse Vague",
 			},
 
 			damage: 20,
@@ -52,8 +52,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Waterfall",
-				fr: "Cascade",
+				'en-us': "Waterfall",
+				'fr-fr': "Cascade",
 			},
 
 			damage: 60,
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is a common sight around fishing ports. It is known to rescue people and carry off prey.",
+		'en-us': "It is a common sight around fishing ports. It is known to rescue people and carry off prey.",
 	},
 
 	thirdParty: {

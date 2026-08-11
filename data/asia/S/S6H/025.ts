@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カチコール",
+		'ja-jp': "カチコール",
 		'zh-tw': "冰寶",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "極寒の 地域に 生息する。 クレベースの 背中と 自分の 足を 凍りつかせて 固定する。",
+		'ja-jp': "極寒の 地域に 生息する。 クレベースの 背中と 自分の 足を 凍りつかせて 固定する。",
 		'zh-tw': "棲息在極其寒冷的地域。會把自己的腳凍在冰岩怪的背上固定起來。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "たいあたり",
+				'ja-jp': "たいあたり",
 				'zh-tw': "自然回復",
 			},
 			damage: 10,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "かいてんアタック",
+				'ja-jp': "かいてんアタック",
 				'zh-tw': "幸福轟炸",
 			},
 			damage: 20,

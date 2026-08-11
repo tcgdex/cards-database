@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カイリュー",
+		'ja-jp': "カイリュー",
 	},
 
 	illustrator: "Hiroyuki Yamamoto",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "普段は 極めて 穏やかだが その 逆鱗に 触れると すべてを 壊し尽くすまで 収まらない。",
+		'ja-jp': "普段は 極めて 穏やかだが その 逆鱗に 触れると すべてを 壊し尽くすまで 収まらない。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Grass", "Lightning"],
 			effect: {
-				ja: "このポケモンについている[草]エネルギーと[雷]エネルギーを、1個ずつトラッシュする。",
+				'ja-jp': "このポケモンについている[草]エネルギーと[雷]エネルギーを、1個ずつトラッシュする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ハクリュー",
+		'ja-jp': "ハクリュー",
 	},
 
 	retreat: 4,

@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "N's Vanilluxe",
-		fr: "Sorbouboul de N",
-		es: "Vanilluxe de N",
+		'en-us': "N's Vanilluxe",
+		'fr-fr': "Sorbouboul de N",
+		'es-es': "Vanilluxe de N",
 		'es-mx': "Vanilluxe de N",
-		de: "Ns Gelatwino",
-		it: "Vanilluxe di N",
-		pt: "Vanilluxe do N"
+		'de-de': "Ns Gelatwino",
+		'it-it': "Vanilluxe di N",
+		'pt-br': "Vanilluxe do N"
 	},
 
 	evolveFrom: {
-		en: "N's Vanillish",
-		fr: "Sorboul de N",
-		es: "Vanillish de N",
+		'en-us': "N's Vanillish",
+		'fr-fr': "Sorboul de N",
+		'es-es': "Vanillish de N",
 		'es-mx': "Vanillish de N",
-		de: "Ns Gelatroppo",
-		it: "Vanillish di N",
-		pt: "Vanillish do N",
+		'de-de': "Ns Gelatroppo",
+		'it-it': "Vanillish di N",
+		'pt-br': "Vanillish do N",
 	},
 
 	illustrator: "imoniii",
@@ -35,45 +35,45 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Snow Coating",
-			fr: "Couche de Neige",
-			es: "Capa de Nieve",
+			'en-us': "Snow Coating",
+			'fr-fr': "Couche de Neige",
+			'es-es': "Capa de Nieve",
 			'es-mx': "Nevada Amontonada",
-			de: "Schneeschicht",
-			it: "Cumulo Nevoso",
-			pt: "Camada de Neve"
+			'de-de': "Schneeschicht",
+			'it-it': "Cumulo Nevoso",
+			'pt-br': "Camada de Neve"
 		},
 
 		effect: {
-			en: "Double the number of damage counters on each of your opponent's Pokémon.",
-			fr: "Doublez le nombre de marqueurs de dégâts sur chacun des Pokémon de votre adversaire.",
-			es: "Dobla la cantidad de contadores de daño en cada uno de los Pokémon de tu rival.",
+			'en-us': "Double the number of damage counters on each of your opponent's Pokémon.",
+			'fr-fr': "Doublez le nombre de marqueurs de dégâts sur chacun des Pokémon de votre adversaire.",
+			'es-es': "Dobla la cantidad de contadores de daño en cada uno de los Pokémon de tu rival.",
 			'es-mx': "Duplica la cantidad de contadores de daño en cada uno de los Pokémon de tu rival.",
-			de: "Verdopple die Anzahl der Schadensmarken auf jedem Pokémon deines Gegners.",
-			it: "Raddoppia il numero di segnalini danno su ciascuno dei Pokémon del tuo avversario.",
-			pt: "Duplique o número de contadores de dano em cada um dos Pokémon do seu oponente."
+			'de-de': "Verdopple die Anzahl der Schadensmarken auf jedem Pokémon deines Gegners.",
+			'it-it': "Raddoppia il numero di segnalini danno su ciascuno dei Pokémon del tuo avversario.",
+			'pt-br': "Duplique o número de contadores de dano em cada um dos Pokémon do seu oponente."
 		}
 	}, {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Blizzard",
-			fr: "Blizzard",
-			es: "Ventisca",
+			'en-us': "Blizzard",
+			'fr-fr': "Blizzard",
+			'es-es': "Ventisca",
 			'es-mx': "Ventisca",
-			de: "Blizzard",
-			it: "Bora",
-			pt: "Nevasca"
+			'de-de': "Blizzard",
+			'it-it': "Bora",
+			'pt-br': "Nevasca"
 		},
 
 		effect: {
-			en: "This attack also does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Cette attaque inflige aussi 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-			es: "Este ataque también hace 10 puntos de daño a cada uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			'en-us': "This attack also does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Cette attaque inflige aussi 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			'es-es': "Este ataque también hace 10 puntos de daño a cada uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 			'es-mx': "Este ataque también hace 10 puntos de daño a cada uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-			de: "Diese Attacke fügt auch jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
-			it: "Questo attacco infligge anche 10 danni a ciascuno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-			pt: "Este ataque também causa 10 pontos de dano a cada um dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
+			'de-de': "Diese Attacke fügt auch jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+			'it-it': "Questo attacco infligge anche 10 danni a ciascuno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			'pt-br': "Este ataque também causa 10 pontos de dano a cada um dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
 		},
 
 		damage: 120

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Raichu"
+		'en-us': "Lt. Surge's Raichu"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pikachu"
+		'en-us': "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -32,7 +32,7 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Mega Punch"
+				'en-us': "Mega Punch"
 			},
 
 			damage: 30,
@@ -46,10 +46,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunderbolt"
+				'en-us': "Thunderbolt"
 			},
 			effect: {
-				en: "Discard all Energy cards attached to Lt. Surge's Raichu in order to use this attack."
+				'en-us': "Discard all Energy cards attached to Lt. Surge's Raichu in order to use this attack."
 			},
 			damage: 100,
 

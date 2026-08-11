@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Crobat BREAK",
-		fr: "Nostenfer TURBO"
+		'en-us': "Crobat BREAK",
+		'fr-fr': "Nostenfer TURBO"
 	},
 
 	illustrator: "5ban Graphics",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Crobat",
-		fr: "Nostenfer"
+		'en-us': "Crobat",
+		'fr-fr': "Nostenfer"
 	},
 
 	stage: "BREAK",
@@ -37,12 +37,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Silent Bite",
-				fr: "Morsure Silencieuse"
+				'en-us': "Silent Bite",
+				'fr-fr': "Morsure Silencieuse"
 			},
 			effect: {
-				en: "You may leave your opponent's Active Pokémon Paralyzed. If you do, shuffle this Pokémon and all cards attached to it into your deck.",
-				fr: "Vous pouvez laisser le Pokémon Actif de votre adversaire Paralysé. Si c'est le cas, mélangez ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck."
+				'en-us': "You may leave your opponent's Active Pokémon Paralyzed. If you do, shuffle this Pokémon and all cards attached to it into your deck.",
+				'fr-fr': "Vous pouvez laisser le Pokémon Actif de votre adversaire Paralysé. Si c'est le cas, mélangez ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck."
 			},
 			damage: 60,
 

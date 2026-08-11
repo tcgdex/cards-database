@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Palpitoad",
-		fr: "Batracné",
-		es: "Palpitoad",
-		it: "Palpitoad",
-		pt: "Palpitoad",
-		de: "Mebrana"
+		'en-us': "Palpitoad",
+		'fr-fr': "Batracné",
+		'es-es': "Palpitoad",
+		'it-it': "Palpitoad",
+		'pt-br': "Palpitoad",
+		'de-de': "Mebrana"
 	},
 
 	illustrator: "sui",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tympole",
-		fr: "Tritonde",
+		'en-us': "Tympole",
+		'fr-fr': "Tritonde",
 	},
 
 	stage: "Stage1",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Mud Shot",
-				fr: "Tir de Boue",
+				'en-us': "Mud Shot",
+				'fr-fr': "Tir de Boue",
 			},
 
 			damage: 20,
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Round",
-				fr: "Chant Canon",
+				'en-us': "Round",
+				'fr-fr': "Chant Canon",
 			},
 			effect: {
-				en: "Does 20 damage times the number of your Pokémon that have the Round attack.",
-				fr: "Inflige 20 dégâts multipliés par le nombre de vos Pokémon possédant l'attaque Chant Canon.",
+				'en-us': "Does 20 damage times the number of your Pokémon that have the Round attack.",
+				'fr-fr': "Inflige 20 dégâts multipliés par le nombre de vos Pokémon possédant l'attaque Chant Canon.",
 			},
 			damage: 20,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It lives in water and on land. It uses its long, sticky tongue to capture prey.",
+		'en-us': "It lives in water and on land. It uses its long, sticky tongue to capture prey.",
 	},
 
 	thirdParty: {

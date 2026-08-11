@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キングドラ",
+		'ja-jp': "キングドラ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "普段は 海底洞窟に 身を 潜めているらしい。 あくびで 渦潮を 発生させる。",
+		'ja-jp': "普段は 海底洞窟に 身を 潜めているらしい。 あくびで 渦潮を 発生させる。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "しおみず" },
 			cost: ["Water"],
 			effect: {
-				ja: "ダメカンがのっている相手のポケモン1匹に、90ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "ダメカンがのっている相手のポケモン1匹に、90ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Water"],
 			effect: {
-				ja: "このポケモンについている[水]エネルギーを1個トラッシュし、相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "このポケモンについている[水]エネルギーを1個トラッシュし、相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シードラ",
+		'ja-jp': "シードラ",
 	},
 
 	retreat: 1,

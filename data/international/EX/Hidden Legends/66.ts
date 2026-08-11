@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Meditite",
-		fr: "Meditikka",
-		de: "Meditie"
+		'en-us': "Meditite",
+		'fr-fr': "Meditikka",
+		'de-de': "Meditie"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Jab",
-				fr: "Taquet",
-				de: "Jab"
+				'en-us': "Jab",
+				'fr-fr': "Taquet",
+				'de-de': "Jab"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steady Punch",
-				fr: "Poing énergétique",
-				de: "Steady Punch"
+				'en-us': "Steady Punch",
+				'fr-fr': "Poing énergétique",
+				'de-de': "Steady Punch"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
 			},
 			damage: "20+",
 

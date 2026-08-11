@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legend Maker'
 
 const card: Card = {
 	name: {
-		en: "Skitty",
-		fr: "Skitty",
-		de: "Eneco"
+		'en-us': "Skitty",
+		'fr-fr': "Skitty",
+		'de-de': "Eneco"
 	},
 
 	illustrator: "Satoshi Ohta",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Important Errands",
-				fr: "Courses importantes",
-				de: "Wichtige Aufgaben"
+				'en-us': "Important Errands",
+				'fr-fr': "Courses importantes",
+				'de-de': "Wichtige Aufgaben"
 			},
 			effect: {
-				en: "Search your deck for a React Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck une carte Énergie réaction, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach einer Reaktions-Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+				'en-us': "Search your deck for a React Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez dans votre deck une carte Énergie réaction, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach einer Reaktions-Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jump On",
-				fr: "Sauter",
-				de: "Draufspringen"
+				'en-us': "Jump On",
+				'fr-fr': "Sauter",
+				'de-de': "Draufspringen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 

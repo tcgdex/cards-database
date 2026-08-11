@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Zorua",
-		fr: "Zorua",
-		es: "Zorua",
-		it: "Zorua",
-		pt: "Zorua",
-		de: "Zorua"
+		'en-us': "Zorua",
+		'fr-fr': "Zorua",
+		'es-es': "Zorua",
+		'it-it': "Zorua",
+		'pt-br': "Zorua",
+		'de-de': "Zorua"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
+				'en-us': "Ram",
+				'fr-fr': "Collision",
 			},
 
 			damage: 10,
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rising Lunge",
-				fr: "Botte Secrète",
+				'en-us': "Rising Lunge",
+				'fr-fr': "Botte Secrète",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
+		'en-us': "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
 	},
 
 	thirdParty: {

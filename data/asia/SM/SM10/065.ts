@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モンメン",
+		'ja-jp': "モンメン",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "綿を 飛ばして 身を 守る。 雨に 濡れると 綿が 湿って 重くなり 身動きが とれなくなる。",
+		'ja-jp': "綿を 飛ばして 身を 守る。 雨に 濡れると 綿が 湿って 重くなり 身動きが とれなくなる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Fairy"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-10」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-10」される。",
 			},
 		},
 	],

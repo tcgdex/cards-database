@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピカチュウ",
+		'ja-jp': "ピカチュウ",
 		'zh-tw': "皮卡丘",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "つくる 電気が 強力な ピカチュウほど ほっぺの 袋は 軟らかく よく 伸びるぞ。",
+		'ja-jp': "つくる 電気が 強力な ピカチュウほど ほっぺの 袋は 軟らかく よく 伸びるぞ。",
 		'zh-tw': "越是能製造出強大電流的皮卡丘，臉頰上的囊就越柔軟，同時也越有伸展性。",
 	},
 
@@ -24,11 +24,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ピカダッシュ",
+				'ja-jp': "ピカダッシュ",
 				'zh-tw': "皮卡衝刺",
 			},
 			effect: {
-				ja: "このポケモンにエネルギーがついているなら、このポケモンのにげるためのエネルギーは、すべてなくなる。",
+				'ja-jp': "このポケモンにエネルギーがついているなら、このポケモンのにげるためのエネルギーは、すべてなくなる。",
 				'zh-tw': "若這隻寶可夢身上附有能量，則這隻寶可夢【撤退】所需的能量全部消除。",
 			},
 		},
@@ -37,13 +37,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "きまぐれタックル",
+				'ja-jp': "きまぐれタックル",
 				'zh-tw': "胡思亂撞",
 			},
 			damage: 50,
 			cost: ["Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
 				'zh-tw': "擲1次硬幣若為反面，則這個招式失敗。",
 			},
 		},

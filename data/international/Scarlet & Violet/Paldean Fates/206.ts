@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Greedent",
-		fr: "Rongrigou",
-		es: "Greedent",
-		it: "Greedent",
-		pt: "Greedent",
-		de: "Schlaraffel"
+		'en-us': "Greedent",
+		'fr-fr': "Rongrigou",
+		'es-es': "Greedent",
+		'it-it': "Greedent",
+		'pt-br': "Greedent",
+		'de-de': "Schlaraffel"
 	},
 
 	rarity: "Shiny rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Skwovet",
-		fr: "Rongourmand",
-		es: "Skwovet",
-		it: "Skwovet",
-		pt: "Skwovet",
-		de: "Raffel"
+		'en-us': "Skwovet",
+		'fr-fr': "Rongourmand",
+		'es-es': "Skwovet",
+		'it-it': "Skwovet",
+		'pt-br': "Skwovet",
+		'de-de': "Raffel"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			es: "Mordisco",
-			it: "Morso",
-			pt: "Mordida",
-			de: "Biss"
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'es-es': "Mordisco",
+			'it-it': "Morso",
+			'pt-br': "Mordida",
+			'de-de': "Biss"
 		},
 
 		damage: 50
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Enhanced Fang",
-			fr: "Croc Amélioré",
-			es: "Incisivos Mejorados",
-			it: "Zanne Super",
-			pt: "Presa Acentuada",
-			de: "Spezial-Zahn"
+			'en-us': "Enhanced Fang",
+			'fr-fr': "Croc Amélioré",
+			'es-es': "Incisivos Mejorados",
+			'it-it': "Zanne Super",
+			'pt-br': "Presa Acentuada",
+			'de-de': "Spezial-Zahn"
 		},
 
 		effect: {
-			en: "If this Pokémon has a Pokémon Tool attached, this attack does 80 more damage.",
-			fr: "Si un Outil Pokémon est attaché à ce Pokémon, cette attaque inflige 80 dégâts supplémentaires.",
-			es: "Si este Pokémon tiene una Herramienta Pokémon unida, este ataque hace 80 puntos de daño más.",
-			it: "Se questo Pokémon ha una carta Oggetto Pokémon assegnata, questo attacco infligge 80 danni in più.",
-			pt: "Se este Pokémon tiver uma Ferramenta Pokémon ligada a ele, este ataque causará 80 pontos de dano a mais.",
-			de: "Wenn an dieses Pokémon 1 Pokémon-Ausrüstung angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
+			'en-us': "If this Pokémon has a Pokémon Tool attached, this attack does 80 more damage.",
+			'fr-fr': "Si un Outil Pokémon est attaché à ce Pokémon, cette attaque inflige 80 dégâts supplémentaires.",
+			'es-es': "Si este Pokémon tiene una Herramienta Pokémon unida, este ataque hace 80 puntos de daño más.",
+			'it-it': "Se questo Pokémon ha una carta Oggetto Pokémon assegnata, questo attacco infligge 80 danni in più.",
+			'pt-br': "Se este Pokémon tiver uma Ferramenta Pokémon ligada a ele, este ataque causará 80 pontos de dano a mais.",
+			'de-de': "Wenn an dieses Pokémon 1 Pokémon-Ausrüstung angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+"
@@ -88,7 +88,7 @@ const card: Card = {
 	illustrator: "Kagemaru Himeno",
 
 	description: {
-		en: "This Pokémon makes off with heaps of fallen berries by wrapping them in its tail, which is roughly twice the length of its body.",
+		'en-us': "This Pokémon makes off with heaps of fallen berries by wrapping them in its tail, which is roughly twice the length of its body.",
 	},
 
 }

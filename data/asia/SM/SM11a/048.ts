@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヌイコグマ",
+		'ja-jp': "ヌイコグマ",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "大木も へし折る 力自慢。 おしりの 器官から 匂いを 出し 仲間と コミュニケーションをとる。",
+		'ja-jp': "大木も へし折る 力自慢。 おしりの 器官から 匂いを 出し 仲間と コミュニケーションをとる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数×30ダメージ追加。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数×30ダメージ追加。",
 			},
 		},
 	],

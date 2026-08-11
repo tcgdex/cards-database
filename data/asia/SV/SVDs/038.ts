@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เคโรมัตซึ",
-		id: "Froakie"
+		'th-th': "เคโรมัตซึ",
+		'id-id': "Froakie"
 	},
 
 	illustrator: "Atsuya Uki",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		th: "ปกป้องผิวด้วยการใช้ฟองที่ละเอียดปกคลุมร่างกาย จะแสร้งทำเป็นเหม่อลอยแต่จะคอยเฝ้ามองรอบข้างโดยไม่คลาดสายตา",
-		id: "Froakie melindungi kulitnya dengan melapisi tubuhnya dalam gelembung halus. Walau terlihat ceria, Pokémon ini tanpa lengah terus mengawasi daerah di sekitarnya."
+		'th-th': "ปกป้องผิวด้วยการใช้ฟองที่ละเอียดปกคลุมร่างกาย จะแสร้งทำเป็นเหม่อลอยแต่จะคอยเฝ้ามองรอบข้างโดยไม่คลาดสายตา",
+		'id-id': "Froakie melindungi kulitnya dengan melapisi tubuhnya dalam gelembung halus. Walau terlihat ceria, Pokémon ini tanpa lengah terus mengawasi daerah di sekitarnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "กระโดดดู",
-			id: "Mencoba Melompat"
+			'th-th': "กระโดดดู",
+			'id-id': "Mencoba Melompat"
 		},
 
 		effect: {
-			th: "ทอยเหรียญ 1 ครั้งถ้าออกก้อย ท่าต่อสู้นี้จะล้มเหลว",
-			id: "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal."
+			'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกก้อย ท่าต่อสู้นี้จะล้มเหลว",
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal."
 		},
 
 		damage: 30,

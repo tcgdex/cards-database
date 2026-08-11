@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Flaaffy",
-		fr: "Lainergie",
-		de: "Waaty"
+		'en-us': "Flaaffy",
+		'fr-fr': "Lainergie",
+		'de-de': "Waaty"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mareep",
-		fr: "Wattouat",
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Attract Current",
-				fr: "Courant électrique",
-				de: "Stromanziehung"
+				'en-us': "Attract Current",
+				'fr-fr': "Courant électrique",
+				'de-de': "Stromanziehung"
 			},
 			effect: {
-				en: "Search your deck for a Lightning Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck une carte Énergie Lightning et attachez-la à 1 de vos Pokémon. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach einer -Energiekarte und lege sie 1 deiner Pokémon an. Mische dein Deck danach."
+				'en-us': "Search your deck for a Lightning Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez dans votre deck une carte Énergie Lightning et attachez-la à 1 de vos Pokémon. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach einer -Energiekarte und lege sie 1 deiner Pokémon an. Mische dein Deck danach."
 			},
 			damage: 10,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electromagnetic Kick",
-				fr: "Coup électromagnétique",
-				de: "Elektromagnetischer Kick"
+				'en-us': "Electromagnetic Kick",
+				'fr-fr': "Coup électromagnétique",
+				'de-de': "Elektromagnetischer Kick"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Flaaffy does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Lainergie s'inflige 10 dégâts.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" fügt sich Waaty selbst 10 Schadenspunkte zu."
+				'en-us': "Flip a coin. If tails, Flaaffy does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Lainergie s'inflige 10 dégâts.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" fügt sich Waaty selbst 10 Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If its coat becomes fully charged with electricity, its tail lights up. It fires hair that zaps on impact.",
+		'en-us': "If its coat becomes fully charged with electricity, its tail lights up. It fires hair that zaps on impact.",
 	},
 
 	thirdParty: {

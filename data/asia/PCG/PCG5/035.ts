@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグネトン",
+		'ja-jp': "マグネトン",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "反応性充電",
+				'ja-jp': "反応性充電",
 			},
 			effect: {
-				ja: "マグネトンが相手の攻撃によるダメージによってノックアウトされる場合、あなたが好きな方法でマグネトンからポカモンに任意の数のReactエネルギーカードを移動することができます。",
+				'ja-jp': "マグネトンが相手の攻撃によるダメージによってノックアウトされる場合、あなたが好きな方法でマグネトンからポカモンに任意の数のReactエネルギーカードを移動することができます。",
 			},
 		}],
 
@@ -29,16 +29,16 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "複数の力",
+				'ja-jp': "複数の力",
 			},
 			effect: {
-				ja: "Magnetonに反応エネルギーカードが付属している場合、この攻撃は30のダメージと、各マグネマイトとマグネトン（あなたと対戦相手の両方）に対してさらに10ダメージを与えます。",
+				'ja-jp': "Magnetonに反応エネルギーカードが付属している場合、この攻撃は30のダメージと、各マグネマイトとマグネトン（あなたと対戦相手の両方）に対してさらに10ダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Lightning", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "磁気爆発",
+				'ja-jp': "磁気爆発",
 			},
 			damage: 60,
 		},

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Yellow A Alternate'
 
 const card: Card = {
 	name: {
-		en: "Trainers’ Mail",
-		fr: "Courrier du Dresseur",
+		'en-us': "Trainers’ Mail",
+		'fr-fr': "Courrier du Dresseur",
 	},
 	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
@@ -23,8 +23,8 @@ const card: Card = {
 
 
 	effect: {
-		en: "Look at the top 4 cards of your deck. You may reveal a Trainer card you find there (except for Trainers’ Mail) and put it into your hand. Shuffle the other cards back into your deck.",
-		fr: "Regardez les 4 cartes du dessus de votre deck. Vous pouvez montrer une carte Dresseur que vous y trouvez (à part Courrier du Dresseur) et l'ajouter à votre main. Mélangez les autres cartes avec votre deck.",
+		'en-us': "Look at the top 4 cards of your deck. You may reveal a Trainer card you find there (except for Trainers’ Mail) and put it into your hand. Shuffle the other cards back into your deck.",
+		'fr-fr': "Regardez les 4 cartes du dessus de votre deck. Vous pouvez montrer une carte Dresseur que vous y trouvez (à part Courrier du Dresseur) et l'ajouter à votre main. Mélangez les autres cartes avec votre deck.",
 	},
 	trainerType: "Item",
 

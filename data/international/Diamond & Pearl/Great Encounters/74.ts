@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Koffing",
-		fr: "Smogo",
-		de: "Smogon"
+		'en-us': "Koffing",
+		'fr-fr': "Smogo",
+		'de-de': "Smogon"
 	},
 
 	illustrator: "Lee HyunJung",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smogscreen",
-				fr: "Para-brouillard",
-				de: "Smogwolke"
+				'en-us': "Smogscreen",
+				'fr-fr': "Para-brouillard",
+				'de-de': "Smogwolke"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned. If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. S'il essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "The Defending Pokémon is now Poisoned. If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné. S'il essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet. Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 10,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Lighter-than-air gases in its body keep it aloft. The gases not only smell, they are also explosive.",
+		'en-us': "Lighter-than-air gases in its body keep it aloft. The gases not only smell, they are also explosive.",
 	},
 
 	thirdParty: {

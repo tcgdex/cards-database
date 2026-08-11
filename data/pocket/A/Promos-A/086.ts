@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Promos-A"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Jolteon",
-		es: "Jolteon"
+		'en-us': "Jolteon",
+		'es-es': "Jolteon"
 	},
 
 	illustrator: "Mizue",
@@ -18,29 +18,29 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Eevee",
-		es: "Eevee"
+		'en-us': "Eevee",
+		'es-es': "Eevee"
 	},
 
 	description: {
-		en: "It concentrates the weak electric charges emitted\nby its cells and launches wicked lightning bolts.",
-		es: "Concentra la débil actividad eléctrica de\nsus células para lanzar dañinas descargas."
+		'en-us': "It concentrates the weak electric charges emitted\nby its cells and launches wicked lightning bolts.",
+		'es-es': "Concentra la débil actividad eléctrica de\nsus células para lanzar dañinas descargas."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Beginning Bolt",
-			es: "Descarga de Arranque"
+			'en-us': "Beginning Bolt",
+			'es-es': "Descarga de Arranque"
 		},
 
 		damage: 40,
 		cost: ["Lightning"],
 
 		effect: {
-			en: "If this Pokémon evolved during this turn, this attack does 20 more damage.",
-			es: "Si este Pokémon ha evolucionado durante este turno, este ataque hace 20 puntos de daño más."
+			'en-us': "If this Pokémon evolved during this turn, this attack does 20 more damage.",
+			'es-es': "Si este Pokémon ha evolucionado durante este turno, este ataque hace 20 puntos de daño más."
 		}
 	}],
 

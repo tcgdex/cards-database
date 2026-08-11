@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Magnéti",
-		en: "Magnemite",
-		es: "Magnemite",
-		it: "Magnemite",
-		pt: "Magnemite",
-		de: "Magnetilo"
+		'fr-fr': "Magnéti",
+		'en-us': "Magnemite",
+		'es-es': "Magnemite",
+		'it-it': "Magnemite",
+		'pt-br': "Magnemite",
+		'de-de': "Magnetilo"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			fr: "Collision",
-			en: "Ram",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'fr-fr': "Collision",
+			'en-us': "Ram",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Balle Rapide",
-			en: "Speed Ball",
-			es: "Bola Rápida",
-			it: "Velocipalla",
-			pt: "Bola Veloz",
-			de: "Geschwindigkeitsball"
+			'fr-fr': "Balle Rapide",
+			'en-us': "Speed Ball",
+			'es-es': "Bola Rápida",
+			'it-it': "Velocipalla",
+			'pt-br': "Bola Veloz",
+			'de-de': "Geschwindigkeitsball"
 		},
 
 		damage: 20
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
+		'en-us': "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
 	},
 
 	variants: [

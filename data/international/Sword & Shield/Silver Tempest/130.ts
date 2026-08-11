@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dragonair",
-		fr: "Draco",
-		es: "Dragonair",
-		it: "Dragonair",
-		pt: "Dragonair",
-		de: "Dragonir"
+		'en-us': "Dragonair",
+		'fr-fr': "Draco",
+		'es-es': "Dragonair",
+		'it-it': "Dragonair",
+		'pt-br': "Dragonair",
+		'de-de': "Dragonir"
 	},
 
 	illustrator: "Shinya Komatsu",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Dragon"],
 
 	evolveFrom: {
-		en: "Dratini",
-		fr: "Minidraco",
-		es: "Dratini",
-		it: "Dratini",
-		pt: "Dratini",
-		de: "Dratini"
+		'en-us': "Dratini",
+		'fr-fr': "Minidraco",
+		'es-es': "Dratini",
+		'it-it': "Dratini",
+		'pt-br': "Dratini",
+		'de-de': "Dratini"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Wrap",
-			fr: "Ligotage",
-			es: "Constricción",
-			it: "Avvolgibotta",
-			pt: "Embrulho",
-			de: "Wickel"
+			'en-us': "Wrap",
+			'fr-fr': "Ligotage",
+			'es-es': "Constricción",
+			'it-it': "Avvolgibotta",
+			'pt-br': "Embrulho",
+			'de-de': "Wickel"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		},
 
 		damage: 30
@@ -57,12 +57,12 @@ const card: Card = {
 		cost: ["Water", "Lightning", "Colorless"],
 
 		name: {
-			en: "Surf",
-			fr: "Surf",
-			es: "Surf",
-			it: "Surf",
-			pt: "Surfar",
-			de: "Surfer"
+			'en-us': "Surf",
+			'fr-fr': "Surf",
+			'es-es': "Surf",
+			'it-it': "Surf",
+			'pt-br': "Surfar",
+			'de-de': "Surfer"
 		},
 
 		damage: 80
@@ -73,7 +73,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon lives in pristine oceans and lakes. It can control the weather, and it uses this power to fly into the sky, riding on the wind.",
+		'en-us': "This Pokémon lives in pristine oceans and lakes. It can control the weather, and it uses this power to fly into the sky, riding on the wind.",
 	},
 
 	variants: [

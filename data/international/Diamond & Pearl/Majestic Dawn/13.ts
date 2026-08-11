@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Rotom",
-		fr: "Motisma",
-		de: "Rotom"
+		'en-us': "Rotom",
+		'fr-fr': "Motisma",
+		'de-de': "Rotom"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Dual Trans",
-				fr: "Double trans",
-				de: "Doppel-Transfer"
+				'en-us': "Dual Trans",
+				'fr-fr': "Double trans",
+				'de-de': "Doppel-Transfer"
 			},
 			effect: {
-				en: "Search your discard pile for up to 2 basic Energy cards and attach them to 1 of your Pokémon.",
-				fr: "Choisissez dans votre pile de défausse jusqu'à 2 cartes Énergie et attachez-les à 1 de vos Pokémon.",
-				de: "Durchsuche deinen Ablagestapel nach bis zu 2 Basis-Energiekarten und lege sie an 1 deiner Pokémon an."
+				'en-us': "Search your discard pile for up to 2 basic Energy cards and attach them to 1 of your Pokémon.",
+				'fr-fr': "Choisissez dans votre pile de défausse jusqu'à 2 cartes Énergie et attachez-les à 1 de vos Pokémon.",
+				'de-de': "Durchsuche deinen Ablagestapel nach bis zu 2 Basis-Energiekarten und lege sie an 1 deiner Pokémon an."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reflect Energy",
-				fr: "Renvoi d'énergie",
-				de: "Energiereflektion"
+				'en-us': "Reflect Energy",
+				'fr-fr': "Renvoi d'énergie",
+				'de-de': "Energiereflektion"
 			},
 			effect: {
-				en: "Move an Energy card attached to Rotom to 1 of your Benched Pokémon.",
-				fr: "Déplacez une carte Énergie attachée à Motisma sur 1 des Pokémon de votre Banc.",
-				de: "Entferne 1 an Rotom angelegte Energiekarte und lege sie an 1 Pokémon auf deiner Bank an."
+				'en-us': "Move an Energy card attached to Rotom to 1 of your Benched Pokémon.",
+				'fr-fr': "Déplacez une carte Énergie attachée à Motisma sur 1 des Pokémon de votre Banc.",
+				'de-de': "Entferne 1 an Rotom angelegte Energiekarte und lege sie an 1 Pokémon auf deiner Bank an."
 			},
 			damage: 30,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
+		'en-us': "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
 	},
 
 	thirdParty: {

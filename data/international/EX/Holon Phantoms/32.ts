@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Seviper",
-		fr: "Seviper",
-		de: "Vipitis"
+		'en-us': "Seviper",
+		'fr-fr': "Seviper",
+		'de-de': "Vipitis"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Fang",
-				fr: "Croc-poison",
-				de: "Giftzahn"
+				'en-us': "Poison Fang",
+				'fr-fr': "Croc-poison",
+				'de-de': "Giftzahn"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 
 		},
@@ -49,9 +49,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Biss"
 			},
 
 			damage: 40,

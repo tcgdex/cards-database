@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Shedinja",
+		'ja-jp': "Shedinja",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "空のシェル",
+				'ja-jp': "空のシェル",
 			},
 			effect: {
-				ja: "Shedinjaがノックアウトされると、対戦相手は賞品を撮りません。",
+				'ja-jp': "Shedinjaがノックアウトされると、対戦相手は賞品を撮りません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "余分な呪い",
+				'ja-jp': "余分な呪い",
 			},
 			effect: {
-				ja: "防御ポケモンに2つのダメージカウンターを置きます。防御ポケモンがポケモンエクスの場合、代わりに4つのダメージカウンターを入れます。",
+				'ja-jp': "防御ポケモンに2つのダメージカウンターを置きます。防御ポケモンがポケモンエクスの場合、代わりに4つのダメージカウンターを入れます。",
 			},
 		},
 	],

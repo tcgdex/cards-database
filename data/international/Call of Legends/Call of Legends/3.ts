@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Dialga",
-		fr: "Dialga",
-		de: "Dialga"
+		'en-us': "Dialga",
+		'fr-fr': "Dialga",
+		'de-de': "Dialga"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Time Rewind",
-				fr: "Retour temporel",
-				de: "Zeit zurückdrehen"
+				'en-us': "Time Rewind",
+				'fr-fr': "Retour temporel",
+				'de-de': "Zeit zurückdrehen"
 			},
 			effect: {
-				en: "Shuffle your hand into your deck.",
-				fr: "Mélangez votre main avec votre deck.",
-				de: "Mische deine Handkarten in dein Deck."
+				'en-us': "Shuffle your hand into your deck.",
+				'fr-fr': "Mélangez votre main avec votre deck.",
+				'de-de': "Mische deine Handkarten in dein Deck."
 			},
 			damage: 70,
 
@@ -61,7 +61,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "This Pokémon completely controls the flow of time. It uses its power to travel at will through the past and future.",
+		'en-us': "This Pokémon completely controls the flow of time. It uses its power to travel at will through the past and future.",
 	},
 
 	variants: [

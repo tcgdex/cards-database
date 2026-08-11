@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Yamper"
+		'en-us': "Yamper"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "This gluttonous Pokémon only assists people with\ntheir work because it wants treats. As it runs,\nit crackles with electricity."
+		'en-us': "This gluttonous Pokémon only assists people with\ntheir work because it wants treats. As it runs,\nit crackles with electricity."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Roar"
+			'en-us': "Roar"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)"
+			'en-us': "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)"
 		}
 	}],
 

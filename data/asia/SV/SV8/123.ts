@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シロデスナex",
+		'ja-jp': "シロデスナex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,14 +20,14 @@ const card: Card = {
 			damage: 160,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 		{
 			name: { ja: "バライトジェイル" },
 			cost: ["Water", "Psychic", "Fighting"],
 			effect: {
-				ja: "相手のベンチポケモン全員に、それぞれ残りHPが「100」になるように、ダメカンをのせる。",
+				'ja-jp': "相手のベンチポケモン全員に、それぞれ残りHPが「100」になるように、ダメカンをのせる。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "スナバァ",
+		'ja-jp': "スナバァ",
 	},
 
 	retreat: 4,

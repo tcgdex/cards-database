@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Shinx",
-		fr: "Lixy",
-		es: "Shinx",
-		it: "Shinx",
-		pt: "Shinx",
-		de: "Sheinux"
+		'en-us': "Shinx",
+		'fr-fr': "Lixy",
+		'es-es': "Shinx",
+		'it-it': "Shinx",
+		'pt-br': "Shinx",
+		'de-de': "Sheinux"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Evolutionary Advantage",
-				fr: "Avantage Évolutif",
-				es: "Ventaja Evolutiva",
-				it: "Vantaggio Evolutivo",
-				pt: "Vantagem Evolucionária",
-				de: "Entwicklungsvorteil"
+				'en-us': "Evolutionary Advantage",
+				'fr-fr': "Avantage Évolutif",
+				'es-es': "Ventaja Evolutiva",
+				'it-it': "Vantaggio Evolutivo",
+				'pt-br': "Vantagem Evolucionária",
+				'de-de': "Entwicklungsvorteil"
 			},
 			effect: {
-				en: "If you go second, this Pokémon can evolve during your first turn.",
-				fr: "Si vous jouez en second, ce Pokémon peut évoluer pendant votre premier tour.",
-				es: "Si sales segundo, este Pokémon puede evolucionar durante tu primer turno.",
-				it: "Se inizi per secondo, questo Pokémon può evolversi nel tuo primo turno.",
-				pt: "Se você for o segundo a jogar, este Pokémon poderá evoluir durante a sua primeira vez de jogar.",
-				de: "Wenn du als Zweiter am Zug bist, kann sich dieses Pokémon während deines ersten Zuges entwickeln."
+				'en-us': "If you go second, this Pokémon can evolve during your first turn.",
+				'fr-fr': "Si vous jouez en second, ce Pokémon peut évoluer pendant votre premier tour.",
+				'es-es': "Si sales segundo, este Pokémon puede evolucionar durante tu primer turno.",
+				'it-it': "Se inizi per secondo, questo Pokémon può evolversi nel tuo primo turno.",
+				'pt-br': "Se você for o segundo a jogar, este Pokémon poderá evoluir durante a sua primeira vez de jogar.",
+				'de-de': "Wenn du als Zweiter am Zug bist, kann sich dieses Pokémon während deines ersten Zuges entwickeln."
 			},
 		},
 	],
@@ -56,12 +56,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Static Shock",
-				fr: "Choc Statique",
-				es: "Impacto Estático",
-				it: "Shock Statico",
-				pt: "Choque de Estática",
-				de: "Statischer Schock"
+				'en-us': "Static Shock",
+				'fr-fr': "Choc Statique",
+				'es-es': "Impacto Estático",
+				'it-it': "Shock Statico",
+				'pt-br': "Choque de Estática",
+				'de-de': "Statischer Schock"
 			},
 
 			damage: 10,
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
+		'en-us': "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
 	},
 
 	thirdParty: {

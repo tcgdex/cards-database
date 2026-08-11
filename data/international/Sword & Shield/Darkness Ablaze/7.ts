@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [512],
 
 	name: {
-		en: "Simisage",
-		fr: "Feuiloutan",
-		es: "Simisage",
-		it: "Simisage",
-		pt: "Simisage",
-		de: "Vegichita"
+		'en-us': "Simisage",
+		'fr-fr': "Feuiloutan",
+		'es-es': "Simisage",
+		'it-it': "Simisage",
+		'pt-br': "Simisage",
+		'de-de': "Vegichita"
 	},
 
 	illustrator: "Hasegawa Saki",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pansage",
-		fr: "Feuillajou",
-		es: "Pansage",
-		it: "Pansage",
-		pt: "Pansage",
-		de: "Vegimak"
+		'en-us': "Pansage",
+		'fr-fr': "Feuillajou",
+		'es-es': "Pansage",
+		'it-it': "Pansage",
+		'pt-br': "Pansage",
+		'de-de': "Vegimak"
 	},
 
 	attacks: [
@@ -38,12 +38,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Seed Bomb",
-				fr: "Canon Graine",
-				es: "Bomba Germen",
-				it: "Semebomba",
-				pt: "Bomba de Sementes",
-				de: "Samenbomben"
+				'en-us': "Seed Bomb",
+				'fr-fr': "Canon Graine",
+				'es-es': "Bomba Germen",
+				'it-it': "Semebomba",
+				'pt-br': "Bomba de Sementes",
+				'de-de': "Samenbomben"
 			},
 
 			damage: 30,
@@ -56,20 +56,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giga Impact",
-				fr: "Giga Impact",
-				es: "Gigaimpacto",
-				it: "Gigaimpatto",
-				pt: "Gigaimpacto",
-				de: "Gigastoß"
+				'en-us': "Giga Impact",
+				'fr-fr': "Giga Impact",
+				'es-es': "Gigaimpacto",
+				'it-it': "Gigaimpatto",
+				'pt-br': "Gigaimpacto",
+				'de-de': "Gigastoß"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon can't attack.",
-				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-				es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-				it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-				pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-				de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+				'en-us': "During your next turn, this Pokémon can't attack.",
+				'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+				'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+				'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+				'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+				'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 			},
 			damage: 110,
 
@@ -90,7 +90,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter."
+		'en-us': "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter."
 	},
 
 	variants: [

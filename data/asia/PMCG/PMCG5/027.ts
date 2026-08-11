@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カスミのヒトデマン",
+		'ja-jp': "カスミのヒトデマン",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "スターブーメラン",
+				'ja-jp': "スターブーメラン",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、MistyのStaryuとすべてのカードを手に返します。 （いずれにしても、この攻撃はその損傷をもたらします。）",
+				'ja-jp': "コインをひっくり返します。頭の場合は、MistyのStaryuとすべてのカードを手に返します。 （いずれにしても、この攻撃はその損傷をもたらします。）",
 			},
 			damage: 20,
 		},

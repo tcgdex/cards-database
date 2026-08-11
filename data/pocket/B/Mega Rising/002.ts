@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mega Pinsir ex"
+		'en-us': "Mega Pinsir ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "The influence of Mega Evolution leaves it in a\nstate of constant excitement. It pierces enemies\nwith its two large horns before shredding them."
+		'en-us': "The influence of Mega Evolution leaves it in a\nstate of constant excitement. It pierces enemies\nwith its two large horns before shredding them."
 	},
 
 	stage: "Basic",
@@ -25,14 +25,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Critical Scissors"
+			'en-us': "Critical Scissors"
 		},
 
 		damage: 80,
 		cost: ["Grass", "Grass", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 70 more damage."
+			'en-us': "Flip a coin. If heads, this attack does 70 more damage."
 		}
 	}],
 

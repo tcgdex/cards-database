@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Poké Card Creator Pack'
 
 const card: Card = {
 	name: {
-		en: "Pikachu"
+		'en-us': "Pikachu"
 	},
 
 	illustrator: "Sylvia Forrest",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thundershock"
+				'en-us': "Thundershock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 
@@ -45,10 +45,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypno Splash"
+				'en-us': "Hypno Splash"
 			},
 			effect: {
-				en: "Discard all Lightning Energy cards attached to Pikachu or this attack does nothing."
+				'en-us': "Discard all Lightning Energy cards attached to Pikachu or this attack does nothing."
 			},
 			damage: 60,
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Duskull",
-		fr: "Skelenox",
-		de: "Zwirrlicht"
+		'en-us': "Duskull",
+		'fr-fr': "Skelenox",
+		'de-de': "Zwirrlicht"
 	},
 
 	illustrator: "Aya Kusube",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Haunt",
-				fr: "Hanter",
-				de: "Haunt"
+				'en-us': "Haunt",
+				'fr-fr': "Hanter",
+				'de-de': "Haunt"
 			},
 			effect: {
-				en: "Put 1 damage counter on the Defending Pokémon.",
-				fr: "Placez un marqueur de dégât sur le Pokémon Défenseur.",
-				de: "Put 1 damage counter on the Defending Pokémon."
+				'en-us': "Put 1 damage counter on the Defending Pokémon.",
+				'fr-fr': "Placez un marqueur de dégât sur le Pokémon Défenseur.",
+				'de-de': "Put 1 damage counter on the Defending Pokémon."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Mind",
-				fr: "Sombre-esprit",
-				de: "Dark Mind"
+				'en-us': "Dark Mind",
+				'fr-fr': "Sombre-esprit",
+				'de-de': "Dark Mind"
 			},
 			effect: {
-				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à un des Pokémon du Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
-				de: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à un des Pokémon du Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
+				'de-de': "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 10,
 

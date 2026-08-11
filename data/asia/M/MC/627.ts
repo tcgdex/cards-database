@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モトトカゲ",
+		'ja-jp': "モトトカゲ",
 	},
 
 	illustrator: "Nurikabe",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "人を 乗せて 時速１２０キロで 疾走する。 人の 体温で 背中が 温まり 元気になる。",
+		'ja-jp': "人を 乗せて 時速１２０キロで 疾走する。 人の 体温で 背中が 温まり 元気になる。",
 	},
 
 	stage: "Basic",

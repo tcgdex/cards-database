@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Lotad",
-		fr: "Nénupiot",
-		es: "Lotad",
-		it: "Lotad",
-		pt: "Lotad",
-		de: "Loturzel"
+		'en-us': "Lotad",
+		'fr-fr': "Nénupiot",
+		'es-es': "Lotad",
+		'it-it': "Lotad",
+		'pt-br': "Lotad",
+		'de-de': "Loturzel"
 	},
 
 	illustrator: "Kanako Eo",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beat",
-				fr: "Bataille",
-				es: "Toque",
-				it: "Battuta",
-				pt: "Pulso",
-				de: "Verprügler"
+				'en-us': "Beat",
+				'fr-fr': "Bataille",
+				'es-es': "Toque",
+				'it-it': "Battuta",
+				'pt-br': "Pulso",
+				'de-de': "Verprügler"
 			},
 
 			damage: 20,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It searches about for clean water. If it does not drink water for too long, the leaf on its head wilts.",
+		'en-us': "It searches about for clean water. If it does not drink water for too long, the leaf on its head wilts.",
 	},
 
 	thirdParty: {

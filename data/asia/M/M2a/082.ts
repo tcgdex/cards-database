@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団のディグダ",
+		'ja-jp': "ロケット団のディグダ",
 	},
 
 	illustrator: "Yuriko Akase",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "皮膚が とても 薄いので 光に 照らされると 血液が 温められて 弱ってしまう。",
+		'ja-jp': "皮膚が とても 薄いので 光に 照らされると 血液が 温められて 弱ってしまう。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "もぐりまくる" },
 			cost: ["Fighting"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数ぶん、相手の山札を上からトラッシュする。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数ぶん、相手の山札を上からトラッシュする。",
 			},
 		},
 	],

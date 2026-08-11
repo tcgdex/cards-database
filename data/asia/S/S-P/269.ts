@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リーフィアVSTAR",
+		'ja-jp': "リーフィアVSTAR",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "アイビースター" },
 			effect: {
-				ja: "自分の番に使える。相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。［対戦中、自分はVSTARパワーを1回しか使えない。］",
+				'ja-jp': "自分の番に使える。相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。［対戦中、自分はVSTARパワーを1回しか使えない。］",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Grass", "Grass", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "リーフィアV",
+		'ja-jp': "リーフィアV",
 	},
 
 	retreat: 2,

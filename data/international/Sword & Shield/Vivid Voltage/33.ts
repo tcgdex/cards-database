@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [501],
 
 	name: {
-		en: "Oshawott",
-		fr: "Moustillon",
-		es: "Oshawott",
-		it: "Oshawott",
-		pt: "Oshawott",
-		de: "Ottaro"
+		'en-us': "Oshawott",
+		'fr-fr': "Moustillon",
+		'es-es': "Oshawott",
+		'it-it': "Oshawott",
+		'pt-br': "Oshawott",
+		'de-de': "Ottaro"
 	},
 
 	illustrator: "nagimiso",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
-				es: "Pistola Agua",
-				it: "Pistolacqua",
-				pt: "Revólver d'Água",
-				de: "Aquaknarre"
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
+				'es-es': "Pistola Agua",
+				'it-it': "Pistolacqua",
+				'pt-br': "Revólver d'Água",
+				'de-de': "Aquaknarre"
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Seashell Attack",
-				fr: "Carap'Attaque",
-				es: "Conchaataque",
-				it: "Conchigliata",
-				pt: "Ataque de Concha do Mar",
-				de: "Seemuschelangriff"
+				'en-us': "Seashell Attack",
+				'fr-fr': "Carap'Attaque",
+				'es-es': "Conchaataque",
+				'it-it': "Conchigliata",
+				'pt-br': "Ataque de Concha do Mar",
+				'de-de': "Seemuschelangriff"
 			},
 
 			damage: 20,
@@ -73,7 +73,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing."
+		'en-us': "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing."
 	},
 
 	variants: [

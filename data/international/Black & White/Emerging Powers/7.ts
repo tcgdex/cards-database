@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Leavanny",
-		fr: "Manternel",
-		es: "Leavanny",
-		it: "Leavanny",
-		pt: "Leavanny",
-		de: "Matrifol"
+		'en-us': "Leavanny",
+		'fr-fr': "Manternel",
+		'es-es': "Leavanny",
+		'it-it': "Leavanny",
+		'pt-br': "Leavanny",
+		'de-de': "Matrifol"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Swadloon",
-		fr: "Couverdure",
+		'en-us': "Swadloon",
+		'fr-fr': "Couverdure",
 	},
 
 	stage: "Stage2",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nurturing",
-				fr: "Affection",
+				'en-us': "Nurturing",
+				'fr-fr': "Affection",
 			},
 			effect: {
-				en: "Choose 1 of your Pokémon. Search your deck for a card that evolves from that Pokémon and put it onto that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward.",
-				fr: "Choisissez 1 de vos Pokémon. Cherchez dans votre deck une carte Évolution du Pokémon choisi et placez-la sur celui-ci. (Cela équivaut à faire évoluer le Pokémon choisi.) Mélangez ensuite votre deck.",
+				'en-us': "Choose 1 of your Pokémon. Search your deck for a card that evolves from that Pokémon and put it onto that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward.",
+				'fr-fr': "Choisissez 1 de vos Pokémon. Cherchez dans votre deck une carte Évolution du Pokémon choisi et placez-la sur celui-ci. (Cela équivaut à faire évoluer le Pokémon choisi.) Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "X-Scissor",
-				fr: "Plaie-Croix",
+				'en-us': "X-Scissor",
+				'fr-fr': "Plaie-Croix",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 50 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 50 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts supplémentaires.",
 			},
 			damage: 30,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Upon finding a small Pokémon, it weaves clothing for it from leaves, using the cutters on its arms and sticky silk.",
+		'en-us': "Upon finding a small Pokémon, it weaves clothing for it from leaves, using the cutters on its arms and sticky silk.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Smoochum",
-		fr: "Lippouti",
-		de: "Kussilla"
+		'en-us': "Smoochum",
+		'fr-fr': "Lippouti",
+		'de-de': "Kussilla"
 	},
 
 	illustrator: "Yuka Morii",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Baby Evolution",
-				fr: "Évolution bébé",
-				de: "Baby Evolution"
+				'en-us': "Baby Evolution",
+				'fr-fr': "Évolution bébé",
+				'de-de': "Baby Evolution"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may put Jynx from your hand onto Smoochum (this counts as evolving Smoochum) and remove all damage counters from Smoochum.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Lippoutou de votre main sur Lippouti (vous faites ainsi évoluer Lippouti) et retirer à Lippouti tous ses marqueurs de dégât.",
-				de: "Once during your turn (before your attack), you may put Jynx from your hand onto Smoochum (this counts as evolving Smoochum) and remove all damage counters from Smoochum."
+				'en-us': "Once during your turn (before your attack), you may put Jynx from your hand onto Smoochum (this counts as evolving Smoochum) and remove all damage counters from Smoochum.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Lippoutou de votre main sur Lippouti (vous faites ainsi évoluer Lippouti) et retirer à Lippouti tous ses marqueurs de dégât.",
+				'de-de': "Once during your turn (before your attack), you may put Jynx from your hand onto Smoochum (this counts as evolving Smoochum) and remove all damage counters from Smoochum."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blown Kiss",
-				fr: "Baiser volé",
-				de: "Blown Kiss"
+				'en-us': "Blown Kiss",
+				'fr-fr': "Baiser volé",
+				'de-de': "Blown Kiss"
 			},
 			effect: {
-				en: "Put 1 damage counter on 1 of your opponent's Pokémon.",
-				fr: "Placez 1 marqueur de dégât sur 1 des Pokémon de votre adversaire.",
-				de: "Put 1 damage counter on 1 of your opponent's Pokémon."
+				'en-us': "Put 1 damage counter on 1 of your opponent's Pokémon.",
+				'fr-fr': "Placez 1 marqueur de dégât sur 1 des Pokémon de votre adversaire.",
+				'de-de': "Put 1 damage counter on 1 of your opponent's Pokémon."
 			},
 
 		},

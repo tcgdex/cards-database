@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サーナイト&ニンフィアGX",
+		'ja-jp': "サーナイト&ニンフィアGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "ようせいのうた" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある[妖]エネルギーを2枚まで、自分のベンチポケモンに好きなようにつける。そして山札を切る。",
+				'ja-jp': "自分の山札にある[妖]エネルギーを2枚まで、自分のベンチポケモンに好きなようにつける。そして山札を切る。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Fairy", "Fairy", "Colorless"],
 			effect: {
-				ja: "自分の場のポケモンについているエネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。",
+				'ja-jp': "自分の場のポケモンについているエネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。",
 			},
 		},
 		{
@@ -35,7 +35,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Fairy", "Fairy", "Fairy"],
 			effect: {
-				ja: "追加で[妖]エネルギーが3個ついているなら、相手の手札をすべて山札にもどして切る。[対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "追加で[妖]エネルギーが3個ついているなら、相手の手札をすべて山札にもどして切る。[対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

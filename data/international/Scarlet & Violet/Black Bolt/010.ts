@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Foongus",
-		fr: "Trompignon",
-		de: "Tarnpignon",
-		it: "Foongus",
-		pt: "Foongus",
-		es: "Foongus",
+		'en-us': "Foongus",
+		'fr-fr': "Trompignon",
+		'de-de': "Tarnpignon",
+		'it-it': "Foongus",
+		'pt-br': "Foongus",
+		'es-es': "Foongus",
 		'es-mx': "Foongus"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Toxic Spore",
-			fr: "Spore Toxik",
-			de: "Toxische Sporen",
-			it: "Spora Tossica",
-			pt: "Esporo Tóxico",
-			es: "Espora Tóxica",
+			'en-us': "Toxic Spore",
+			'fr-fr': "Spore Toxik",
+			'de-de': "Toxische Sporen",
+			'it-it': "Spora Tossica",
+			'pt-br': "Esporo Tóxico",
+			'es-es': "Espora Tóxica",
 			'es-mx': "Esporas Tóxicas"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
 			'es-mx': "El Pokémon Activo de tu rival ahora está Envenenado."
 		}
 	}],

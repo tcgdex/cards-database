@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Crèmy",
-		en: "Milcery",
-		es: "Milcery",
-		it: "Milcery",
-		pt: "Milcery",
-		de: "Hokumil"
+		'fr-fr': "Crèmy",
+		'en-us': "Milcery",
+		'es-es': "Milcery",
+		'it-it': "Milcery",
+		'pt-br': "Milcery",
+		'de-de': "Hokumil"
 	},
 
 	illustrator: "Motofumi Fujiwara",
@@ -22,32 +22,32 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Aromathérapie",
-			en: "Aromatherapy",
-			es: "Aromaterapia",
-			it: "Aromaterapia",
-			pt: "Aromaterapia",
-			de: "Aromakur"
+			'fr-fr': "Aromathérapie",
+			'en-us': "Aromatherapy",
+			'es-es': "Aromaterapia",
+			'it-it': "Aromaterapia",
+			'pt-br': "Aromaterapia",
+			'de-de': "Aromakur"
 		},
 
 		effect: {
-			fr: "Soignez 10 dégâts de chacun de vos Pokémon.",
-			en: "Heal 10 damage from each of your Pokémon.",
-			es: "Cura 10 puntos de daño a cada uno de tus Pokémon.",
-			it: "Cura ciascuno dei tuoi Pokémon da 10 danni.",
-			pt: "Cure 10 pontos de dano de cada um dos seus Pokémon.",
-			de: "Heile 10 Schadenspunkte bei jedem deiner Pokémon."
+			'fr-fr': "Soignez 10 dégâts de chacun de vos Pokémon.",
+			'en-us': "Heal 10 damage from each of your Pokémon.",
+			'es-es': "Cura 10 puntos de daño a cada uno de tus Pokémon.",
+			'it-it': "Cura ciascuno dei tuoi Pokémon da 10 danni.",
+			'pt-br': "Cure 10 pontos de dano de cada um dos seus Pokémon.",
+			'de-de': "Heile 10 Schadenspunkte bei jedem deiner Pokémon."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Charge",
-			en: "Tackle",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'fr-fr': "Charge",
+			'en-us': "Tackle",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 20,
@@ -64,7 +64,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "This Pokémon was born from sweet-smelling particles in the air. Its body is made of cream."
+		'en-us': "This Pokémon was born from sweet-smelling particles in the air. Its body is made of cream."
 	},
 
 	variants: [

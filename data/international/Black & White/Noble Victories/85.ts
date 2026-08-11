@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Audino",
-		fr: "Nanméouïe",
-		es: "Audino",
-		it: "Audino",
-		pt: "Audino",
-		de: "Ohrdoch"
+		'en-us': "Audino",
+		'fr-fr': "Nanméouïe",
+		'es-es': "Audino",
+		'it-it': "Audino",
+		'pt-br': "Audino",
+		'de-de': "Ohrdoch"
 	},
 
 	illustrator: "Naoki Saito",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Do the Wave",
-				fr: "Faites la Vague",
+				'en-us': "Do the Wave",
+				'fr-fr': "Faites la Vague",
 			},
 			effect: {
-				en: "Does 10 damage times the number of your Benched Pokémon.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de vos Pokémon de Banc.",
+				'en-us': "Does 10 damage times the number of your Benched Pokémon.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de vos Pokémon de Banc.",
 			},
 			damage: 10,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling.",
+		'en-us': "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling.",
 	},
 
 	thirdParty: {

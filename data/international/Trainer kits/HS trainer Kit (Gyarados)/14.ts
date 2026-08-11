@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HS trainer Kit (Gyarados)'
 
 const card: Card = {
 	name: {
-		en: "Totodile",
+		'en-us': "Totodile",
 	},
 
 	illustrator: "kawayoo",
@@ -22,7 +22,7 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Gnaw",
+				'en-us': "Gnaw",
 			},
 			damage: 10,
 		},
@@ -32,7 +32,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wave Splash",
+				'en-us': "Wave Splash",
 			},
 			damage: 20,
 		},

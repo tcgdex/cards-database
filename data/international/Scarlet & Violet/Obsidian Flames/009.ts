@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Trompignon",
-		en: "Foongus",
-		es: "Foongus",
-		it: "Foongus",
-		pt: "Foongus",
-		de: "Tarnpignon"
+		'fr-fr': "Trompignon",
+		'en-us': "Foongus",
+		'es-es': "Foongus",
+		'it-it': "Foongus",
+		'pt-br': "Foongus",
+		'de-de': "Tarnpignon"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			fr: "Motif Attirant",
-			en: "Enticing Pattern",
-			es: "Patrón Tentador",
-			it: "Motivo Allettante",
-			pt: "Padrão Atraente",
-			de: "Lockmuster"
+			'fr-fr': "Motif Attirant",
+			'en-us': "Enticing Pattern",
+			'es-es': "Patrón Tentador",
+			'it-it': "Motivo Allettante",
+			'pt-br': "Padrão Atraente",
+			'de-de': "Lockmuster"
 		},
 
 		effect: {
-			fr: "Cherchez dans votre deck un Pokémon {G} de base, puis placez-le sur votre Banc. Mélangez ensuite votre deck.",
-			en: "Search your deck for a Basic {G} Pokémon and put it onto your Bench. Then, shuffle your deck.",
-			es: "Busca en tu baraja 1 Pokémon {G} Básico y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo un Pokémon Base {G} e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por um Pokémon {G} Básico no seu baralho e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach 1 Basis-{G}-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck."
+			'fr-fr': "Cherchez dans votre deck un Pokémon {G} de base, puis placez-le sur votre Banc. Mélangez ensuite votre deck.",
+			'en-us': "Search your deck for a Basic {G} Pokémon and put it onto your Bench. Then, shuffle your deck.",
+			'es-es': "Busca en tu baraja 1 Pokémon {G} Básico y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo un Pokémon Base {G} e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por um Pokémon {G} Básico no seu baralho e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach 1 Basis-{G}-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			fr: "Bataille",
-			en: "Beat",
-			es: "Toque",
-			it: "Battuta",
-			pt: "Pulso",
-			de: "Verprügler"
+			'fr-fr': "Bataille",
+			'en-us': "Beat",
+			'es-es': "Toque",
+			'it-it': "Battuta",
+			'pt-br': "Pulso",
+			'de-de': "Verprügler"
 		},
 
 		damage: 20
@@ -65,7 +65,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "There is a theory that the developer of the modern-day Poké Ball really liked Foongus, but this has not been confirmed.",
+		'en-us': "There is a theory that the developer of the modern-day Poké Ball really liked Foongus, but this has not been confirmed.",
 	},
 
 	variants: [

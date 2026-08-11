@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Buizel",
-		fr: "Mustébouée",
-		es: "Buizel",
-		it: "Buizel",
-		pt: "Buizel",
-		de: "Bamelin"
+		'en-us': "Buizel",
+		'fr-fr': "Mustébouée",
+		'es-es': "Buizel",
+		'it-it': "Buizel",
+		'pt-br': "Buizel",
+		'de-de': "Bamelin"
 	},
 
 	illustrator: "Sekio",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Fin",
-				fr: "Aileron-Rasoir",
-				es: "Aleta Afilada",
-				it: "Pinnalama",
-				pt: "Barbatana Cortante",
-				de: "Rasierflosse"
+				'en-us': "Razor Fin",
+				'fr-fr': "Aileron-Rasoir",
+				'es-es': "Aleta Afilada",
+				'it-it': "Pinnalama",
+				'pt-br': "Barbatana Cortante",
+				'de-de': "Rasierflosse"
 			},
 
 			damage: 10,
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
-				es: "Pistola Agua",
-				it: "Pistolacqua",
-				pt: "Revólver d’Água",
-				de: "Aquaknarre"
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
+				'es-es': "Pistola Agua",
+				'it-it': "Pistolacqua",
+				'pt-br': "Revólver d’Água",
+				'de-de': "Aquaknarre"
 			},
 
 			damage: 40,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It swims by rotating its two tails like a screw. When it dives, its flotation sac collapses.",
+		'en-us': "It swims by rotating its two tails like a screw. When it dives, its flotation sac collapses.",
 	},
 
 	thirdParty: {

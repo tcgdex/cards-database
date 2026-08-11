@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コドラ",
+		'ja-jp': "コドラ",
 		'zh-tw': "可多拉",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "鋼の よろいを 岩に ぶつけた ときに 出る 火花の 大きさで 強さを アピールする 習性。",
+		'ja-jp': "鋼の よろいを 岩に ぶつけた ときに 出る 火花の 大きさで 強さを アピールする 習性。",
 		'zh-tw': "有著用鋼甲撞擊岩石時產生的火花大小來顯示自己有多強大的習性。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "たいあたり",
+				'ja-jp': "たいあたり",
 				'zh-tw': "撞擊",
 			},
 			damage: 50,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "メタルクロー",
+				'ja-jp': "メタルクロー",
 				'zh-tw': "金屬爪",
 			},
 			damage: 90,
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ココドラ",
+		'ja-jp': "ココドラ",
 	},
 
 	retreat: 3,

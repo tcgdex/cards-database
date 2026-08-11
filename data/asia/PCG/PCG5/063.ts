@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "delcatty",
+		'ja-jp': "delcatty",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "反応シフト",
+				'ja-jp': "反応シフト",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前）に一度、ポケモンの1つに取り付けられた反応エネルギーカードを別のポケモンに移動できます。 Delcattyが特別な状態の影響を受ける場合、このパワーは使用できません。",
+				'ja-jp': "ターン中（攻撃の前）に一度、ポケモンの1つに取り付けられた反応エネルギーカードを別のポケモンに移動できます。 Delcattyが特別な状態の影響を受ける場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,17 +29,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "エネルギーリンク",
+				'ja-jp': "エネルギーリンク",
 			},
 			effect: {
-				ja: "廃棄物の山を検索して、エネルギーカードを添付し、それをDelcattyに取り付けます。",
+				'ja-jp': "廃棄物の山を検索して、エネルギーカードを添付し、それをDelcattyに取り付けます。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "尾のwhap",
+				'ja-jp': "尾のwhap",
 			},
 			damage: 40,
 		},

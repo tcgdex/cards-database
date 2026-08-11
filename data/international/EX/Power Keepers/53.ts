@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Machop",
-		fr: "Machoc",
-		de: "Machollo"
+		'en-us': "Machop",
+		'fr-fr': "Machoc",
+		'de-de': "Machollo"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Punch",
-				fr: "Poing écrasant",
-				de: "Schmetterschlag"
+				'en-us': "Smash Punch",
+				'fr-fr': "Poing écrasant",
+				'de-de': "Schmetterschlag"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Submission",
-				fr: "Sacrifice",
-				de: "Überroller"
+				'en-us': "Submission",
+				'fr-fr': "Sacrifice",
+				'de-de': "Überroller"
 			},
 			effect: {
-				en: "Machop does 10 damage to itself.",
-				fr: "Machoc s'inflige 10 dégâts.",
-				de: "Machollo fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Machop does 10 damage to itself.",
+				'fr-fr': "Machoc s'inflige 10 dégâts.",
+				'de-de': "Machollo fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

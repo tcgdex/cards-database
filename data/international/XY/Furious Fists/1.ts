@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Bellsprout",
-		fr: "Chétiflor",
-		es: "Bellsprout",
-		it: "Bellsprout",
-		pt: "Bellsprout",
-		de: "Knofensa"
+		'en-us': "Bellsprout",
+		'fr-fr': "Chétiflor",
+		'es-es': "Bellsprout",
+		'it-it': "Bellsprout",
+		'pt-br': "Bellsprout",
+		'de-de': "Knofensa"
 	},
 
 	illustrator: "Kanako Eo",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Vine Whip",
-				fr: "Fouet Lianes",
-				es: "Látigo Cepa",
-				it: "Frustata",
-				pt: "Chicote de Vinha",
-				de: "Rankenhieb"
+				'en-us': "Vine Whip",
+				'fr-fr': "Fouet Lianes",
+				'es-es': "Látigo Cepa",
+				'it-it': "Frustata",
+				'pt-br': "Chicote de Vinha",
+				'de-de': "Rankenhieb"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Off",
-				fr: "Sabotage",
-				es: "Desarme",
-				it: "Privazione",
-				pt: "Derrubar",
-				de: "Abschlag"
+				'en-us': "Knock Off",
+				'fr-fr': "Sabotage",
+				'es-es': "Desarme",
+				'it-it': "Privazione",
+				'pt-br': "Derrubar",
+				'de-de': "Abschlag"
 			},
 			effect: {
-				en: "Discard a random card from your opponent's hand.",
-				fr: "Défaussez au hasard une carte de la main de votre adversaire.",
-				es: "Descarta 1 carta aleatoria de la mano de tu rival.",
-				it: "Scarta una carta a caso dalla mano del tuo avversario.",
-				pt: "Descarte um card aleatório da mão de seu oponente.",
-				de: "Nimm 1 zufällige Karte aus der verdeckten Hand deines Gegners und lege sie auf dessen Ablagestapel."
+				'en-us': "Discard a random card from your opponent's hand.",
+				'fr-fr': "Défaussez au hasard une carte de la main de votre adversaire.",
+				'es-es': "Descarta 1 carta aleatoria de la mano de tu rival.",
+				'it-it': "Scarta una carta a caso dalla mano del tuo avversario.",
+				'pt-br': "Descarte um card aleatório da mão de seu oponente.",
+				'de-de': "Nimm 1 zufällige Karte aus der verdeckten Hand deines Gegners und lege sie auf dessen Ablagestapel."
 			},
 
 		},
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Even though its body is extremely skinny, it is blindingly fast when catching its prey.",
+		'en-us': "Even though its body is extremely skinny, it is blindingly fast when catching its prey.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Lopunny",
-		fr: "Lockpin",
-		es: "Lopunny",
-		it: "Lopunny",
-		pt: "Lopunny",
-		de: "Schlapor"
+		'en-us': "Lopunny",
+		'fr-fr': "Lockpin",
+		'es-es': "Lopunny",
+		'it-it': "Lopunny",
+		'pt-br': "Lopunny",
+		'de-de': "Schlapor"
 	},
 
 	illustrator: "TOKIYA",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Buneary",
-		fr: "Laporeille",
+		'en-us': "Buneary",
+		'fr-fr': "Laporeille",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Healing Melody",
-				fr: "Mélodie Apaisante",
+				'en-us': "Healing Melody",
+				'fr-fr': "Mélodie Apaisante",
 			},
 			effect: {
-				en: "Flip a coin. If heads, heal 60 damage from each of your Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, soignez 60 dégâts à chacun de vos Pokémon.",
+				'en-us': "Flip a coin. If heads, heal 60 damage from each of your Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, soignez 60 dégâts à chacun de vos Pokémon.",
 			},
 
 		},
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Kick Away",
-				fr: "Coud'Pied Éjecteur",
+				'en-us': "Kick Away",
+				'fr-fr': "Coud'Pied Éjecteur",
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
 			},
 			damage: 60,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Extremely cautious, it quickly bounds off when it senses danger.",
+		'en-us': "Extremely cautious, it quickly bounds off when it senses danger.",
 	},
 
 	thirdParty: {

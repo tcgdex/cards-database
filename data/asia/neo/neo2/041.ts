@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "猟犬",
+		'ja-jp': "猟犬",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Darkness", "Colorless", "Colorless"],
 			name: {
-				ja: "クランチ",
+				'ja-jp': "クランチ",
 			},
 			effect: {
-				ja: "次のターンの終わりまで、攻撃が防御ポケモンに損傷を与えた場合（脱力感と抵抗を適用した後）、その攻撃は防御ポケモンに20回以上のダメージを与えます。",
+				'ja-jp': "次のターンの終わりまで、攻撃が防御ポケモンに損傷を与えた場合（脱力感と抵抗を適用した後）、その攻撃は防御ポケモンに20回以上のダメージを与えます。",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Fire", "Fire", "Colorless"],
 			name: {
-				ja: "火炎放射器",
+				'ja-jp': "火炎放射器",
 			},
 			effect: {
-				ja: "ハウズームに取り付けられた1つの消防剤カードを捨てたり、この攻撃は何もしません。",
+				'ja-jp': "ハウズームに取り付けられた1つの消防剤カードを捨てたり、この攻撃は何もしません。",
 			},
 			damage: 50,
 		},

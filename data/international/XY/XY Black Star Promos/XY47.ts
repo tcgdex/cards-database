@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Heliolisk",
-		fr: "Iguolta",
+		'en-us': "Heliolisk",
+		'fr-fr': "Iguolta",
 	},
 
 	illustrator: "kawayoo",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Helioptile",
-		fr: "Galvaran",
+		'en-us': "Helioptile",
+		'fr-fr': "Galvaran",
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Dry Skin",
-				fr: "Peau Sèche",
+				'en-us': "Dry Skin",
+				'fr-fr': "Peau Sèche",
 			},
 			effect: {
-				en: "Any damage done to this Pokémon by attacks from your opponent's Water Pokémon is reduced by 30 (after applying Weakness and Resistance).",
-				fr: "Tous les dégâts infligés à ce Pokémon par des attaques des Pokémon Water de votre adversaire sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
+				'en-us': "Any damage done to this Pokémon by attacks from your opponent's Water Pokémon is reduced by 30 (after applying Weakness and Resistance).",
+				'fr-fr': "Tous les dégâts infligés à ce Pokémon par des attaques des Pokémon Water de votre adversaire sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
 			},
 		},
 	],
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Beam",
-				fr: "Ultralaser",
+				'en-us': "Hyper Beam",
+				'fr-fr': "Ultralaser",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				'en-us': "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 60,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They flare their frills and generate energy. A single Heliolisk can generate sufficient electricity to power a skyscraper.",
+		'en-us': "They flare their frills and generate energy. A single Heliolisk can generate sufficient electricity to power a skyscraper.",
 	},
 
 	thirdParty: {

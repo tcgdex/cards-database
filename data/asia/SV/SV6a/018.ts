@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨマワル",
+		'ja-jp': "ヨマワル",
 		'zh-tw': "夜巡靈",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "真っ赤な ひとつ目で 睨みつけられ 生体エネルギーを 吸われるとき ひどい 寒気に 襲われる。",
+		'ja-jp': "真っ赤な ひとつ目で 睨みつけられ 生体エネルギーを 吸われるとき ひどい 寒気に 襲われる。",
 		'zh-tw': "遭到牠鮮紅的獨眼瞪視 並且被吸取生物能量時， 會受到嚴重的寒氣侵襲。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "むかえにいく",
+				'ja-jp': "むかえにいく",
 				'zh-tw': "前往渡魂",
 			},
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分のトラッシュから「ヨマワル」を3枚まで選び、ベンチに出す。",
+				'ja-jp': "自分のトラッシュから「ヨマワル」を3枚まで選び、ベンチに出す。",
 				'zh-tw': "從自己的棄牌區選擇最多3張「夜巡靈」，放置於備戰區。",
 			},
 		},
 		{
 			name: {
-				ja: "つぶやく",
+				'ja-jp': "つぶやく",
 				'zh-tw': "囈語",
 			},
 			damage: 30,

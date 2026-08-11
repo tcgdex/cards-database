@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Fearow"
+		'en-us': "Lt. Surge's Fearow"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spearow"
+		'en-us': "Spearow"
 	},
 
 	stage: "Stage1",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Repeating Drill"
+				'en-us': "Repeating Drill"
 			},
 			effect: {
-				en: "Flip 5 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 5 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10x",
 
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Clutch"
+				'en-us': "Clutch"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn."
 			},
 			damage: 30,
 

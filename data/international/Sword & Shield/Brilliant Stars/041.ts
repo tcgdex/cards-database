@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Manaphy",
-		fr: "Manaphy",
-		es: "Manaphy",
-		it: "Manaphy",
-		pt: "Manaphy",
-		de: "Manaphy"
+		'en-us': "Manaphy",
+		'fr-fr': "Manaphy",
+		'es-es': "Manaphy",
+		'it-it': "Manaphy",
+		'pt-br': "Manaphy",
+		'de-de': "Manaphy"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -25,21 +25,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Wave Veil",
-			fr: "Voile Houleux",
-			es: "Velo de Olas",
-			it: "Ondavelo",
-			pt: "Véu de Ondas",
-			de: "Wellenschleier"
+			'en-us': "Wave Veil",
+			'fr-fr': "Voile Houleux",
+			'es-es': "Velo de Olas",
+			'it-it': "Ondavelo",
+			'pt-br': "Véu de Ondas",
+			'de-de': "Wellenschleier"
 		},
 
 		effect: {
-			en: "Prevent all damage done to your Benched Pokémon by attacks from your opponent's Pokémon.",
-			fr: "Évitez tous les dégâts infligés à vos Pokémon de Banc par les attaques des Pokémon de votre adversaire.",
-			es: "Evita todo el daño infligido a tus Pokémon en Banca por ataques de los Pokémon de tu rival.",
-			it: "Previeni tutti i danni inflitti ai tuoi Pokémon in panchina dagli attacchi dei Pokémon del tuo avversario.",
-			pt: "Previna todo o dano causado aos seus Pokémon no Banco por ataques dos Pokémon do seu oponente.",
-			de: "Verhindere allen Schaden, der den Pokémon auf deiner Bank durch Attacken von Pokémon deines Gegners zugefügt wird."
+			'en-us': "Prevent all damage done to your Benched Pokémon by attacks from your opponent's Pokémon.",
+			'fr-fr': "Évitez tous les dégâts infligés à vos Pokémon de Banc par les attaques des Pokémon de votre adversaire.",
+			'es-es': "Evita todo el daño infligido a tus Pokémon en Banca por ataques de los Pokémon de tu rival.",
+			'it-it': "Previeni tutti i danni inflitti ai tuoi Pokémon in panchina dagli attacchi dei Pokémon del tuo avversario.",
+			'pt-br': "Previna todo o dano causado aos seus Pokémon no Banco por ataques dos Pokémon do seu oponente.",
+			'de-de': "Verhindere allen Schaden, der den Pokémon auf deiner Bank durch Attacken von Pokémon deines Gegners zugefügt wird."
 		}
 	}],
 
@@ -47,12 +47,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Rain Splash",
-			fr: "Pluie Éclaboussante",
-			es: "Golpe de Lluvia",
-			it: "Spruzzapioggia",
-			pt: "Chuva Borrifante",
-			de: "Regenplatscher"
+			'en-us': "Rain Splash",
+			'fr-fr': "Pluie Éclaboussante",
+			'es-es': "Golpe de Lluvia",
+			'it-it': "Spruzzapioggia",
+			'pt-br': "Chuva Borrifante",
+			'de-de': "Regenplatscher"
 		},
 
 		damage: 20
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon.",
+		'en-us': "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon.",
 	},
 
 	variants: [

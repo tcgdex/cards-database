@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dedenne"
+		'en-us': "Dedenne"
 	},
 
 	illustrator: "Yuka Morii",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "Dedenne emit electrical waves from the whiskers\non their cheeks to communicate with each other.\nWhen low on electricity, they curl up and sleep."
+		'en-us': "Dedenne emit electrical waves from the whiskers\non their cheeks to communicate with each other.\nWhen low on electricity, they curl up and sleep."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Electric Nibbling"
+			'en-us': "Electric Nibbling"
 		},
 
 		damage: 20,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Discard a {L} Energy from your opponent's Active Pokémon."
+			'en-us': "Discard a {L} Energy from your opponent's Active Pokémon."
 		}
 	}],
 

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Kakuna",
-		de: "Kokuna"
+		'en-us': "Kakuna",
+		'de-de': "Kokuna"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Weedle",
+		'en-us': "Weedle",
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Exoskeleton",
-				de: "Exoskelett"
+				'en-us': "Exoskeleton",
+				'de-de': "Exoskelett"
 			},
 			effect: {
-				en: "All damage by attacks to Kakuna is reduced by 10 (after applying Weakness and Resistance).",
-				de: "Jeder Schaden, der Kokuna durch Angriffe zugefügt wird, wird um 10 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "All damage by attacks to Kakuna is reduced by 10 (after applying Weakness and Resistance).",
+				'de-de': "Jeder Schaden, der Kokuna durch Angriffe zugefügt wird, wird um 10 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -47,13 +47,13 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Poisonpowder",
-				de: "Giftpulver"
+				'en-us': "Poisonpowder",
+				'de-de': "Giftpulver"
 			},
 
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				de: "Das verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'de-de': "Das verteidigende Pokémon ist jetzt vergiftet."
 			}
 		},
 	],

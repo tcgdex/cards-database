@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Venonat",
-		fr: "Mimitoss",
-		de: "Bluzuk"
+		'en-us': "Venonat",
+		'fr-fr': "Mimitoss",
+		'de-de': "Bluzuk"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stun Spore",
-				fr: "Para-spore",
-				de: "Stachelspore"
+				'en-us': "Stun Spore",
+				'fr-fr': "Para-spore",
+				'de-de': "Stachelspore"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Signal Beam",
-				fr: "Rayon signal",
-				de: "Ampelleuchte"
+				'en-us': "Signal Beam",
+				'fr-fr': "Rayon signal",
+				'de-de': "Ampelleuchte"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its big eyes are actually clusters of tiny eyes. At nights, its kind is drawn by light.",
+		'en-us': "Its big eyes are actually clusters of tiny eyes. At nights, its kind is drawn by light.",
 	},
 
 	thirdParty: {

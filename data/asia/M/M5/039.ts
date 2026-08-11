@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コノヨザル",
+		'ja-jp': "コノヨザル",
 	},
 
 	illustrator: "Haru Akasaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "心に 秘めた 怒りのパワーを こぶしに 込めて 叩きつけると 相手を 骨の髄から 砕く。",
+		'ja-jp': "心に 秘めた 怒りのパワーを こぶしに 込めて 叩きつけると 相手を 骨の髄から 砕く。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "くちないからだ" },
 			effect: {
-				ja: "このポケモンが、ワザのダメージを受けてきぜつするとき、自分はコインを1回投げる。オモテなら、このポケモンはきぜつせず、残りHPが「10」の状態で場に残る。",
+				'ja-jp': "このポケモンが、ワザのダメージを受けてきぜつするとき、自分はコインを1回投げる。オモテなら、このポケモンはきぜつせず、残りHPが「10」の状態で場に残る。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Psychic", "Psychic"],
 			effect: {
-				ja: "相手のベンチポケモン1匹に、ダメカンを5個のせる。",
+				'ja-jp': "相手のベンチポケモン1匹に、ダメカンを5個のせる。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "オコリザル",
+		'ja-jp': "オコリザル",
 	},
 
 	retreat: 2,

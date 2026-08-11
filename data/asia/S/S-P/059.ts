@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イエッサンV",
+		'ja-jp': "イエッサンV",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "こころくばり" },
 			effect: {
-				ja: "自分の番に1回使える。自分のバトルポケモンのHPを「20」回復する。",
+				'ja-jp': "自分の番に1回使える。自分のバトルポケモンのHPを「20」回復する。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数×60ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数×60ダメージ追加。",
 			},
 		},
 	],

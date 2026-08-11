@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Poliwag"
+		'en-us': "Poliwag"
 	},
 
 	illustrator: "MAHOU",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "For Poliwag, swimming is easier than walking.\nThe swirl pattern on its belly is actually part of\nthe Pokémon's innards showing through the skin."
+		'en-us': "For Poliwag, swimming is easier than walking.\nThe swirl pattern on its belly is actually part of\nthe Pokémon's innards showing through the skin."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Call for Family"
+			'en-us': "Call for Family"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Put 1 random Poliwag from your deck onto your Bench."
+			'en-us': "Put 1 random Poliwag from your deck onto your Bench."
 		}
 	}],
 

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Hitmonchan",
+		'en-us': "Hitmonchan",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Jab",
+				'en-us': "Jab",
 			},
 
 			damage: 20,
@@ -42,7 +42,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Special Punch",
+				'en-us': "Special Punch",
 			},
 
 			damage: 40,
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "While seeming to do nothing, it fires punches in lightning-fast volleys that are impossible to see.",
+		'en-us': "While seeming to do nothing, it fires punches in lightning-fast volleys that are impossible to see.",
 	},
 
 

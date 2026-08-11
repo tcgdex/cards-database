@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Metang",
-		fr: "Métang",
+		'en-us': "Metang",
+		'fr-fr': "Métang",
 	},
 	illustrator: "Saya Tsuruta",
 	rarity: "Shiny rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Metal",
 	],
 	evolveFrom: {
-		en: "Beldum",
-		fr: "Terhal",
+		'en-us': "Beldum",
+		'fr-fr': "Terhal",
 	},
 	stage: "Stage1",
 
@@ -31,8 +31,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
+				'en-us': "Ram",
+				'fr-fr': "Collision",
 			},
 
 			damage: 20,
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Core Beam",
-				fr: "Faisceau Central",
+				'en-us': "Core Beam",
+				'fr-fr': "Faisceau Central",
 			},
 			effect: {
-				en: "Discard a Metal Energy from this Pokémon.",
-				fr: "Défaussez une Énergie Metal de ce Pokémon.",
+				'en-us': "Discard a Metal Energy from this Pokémon.",
+				'fr-fr': "Défaussez une Énergie Metal de ce Pokémon.",
 			},
 			damage: 80,
 
@@ -74,7 +74,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When two Beldum link together, their psychic power is doubled. Their intelligence, however, remains unchanged.",
+		'en-us': "When two Beldum link together, their psychic power is doubled. Their intelligence, however, remains unchanged.",
 	},
 }
 

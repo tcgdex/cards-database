@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デスマス",
+		'ja-jp': "デスマス",
 	},
 
 	illustrator: "IKEDA Saki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "夜な夜な 遺跡を さまよう。 もっている マスクは 人 だった ころの 自分の 顔 だという。",
+		'ja-jp': "夜な夜な 遺跡を さまよう。 もっている マスクは 人 だった ころの 自分の 顔 だという。",
 	},
 
 	stage: "Basic",

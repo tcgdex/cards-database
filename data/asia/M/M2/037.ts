@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モンメン",
+		'ja-jp': "モンメン",
 	},
 
 	illustrator: "Kariya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "モンメンの 吐く 綿を 使った 枕や 布団は 軽くて 通気の 良い 高級品だ。",
+		'ja-jp': "モンメンの 吐く 綿を 使った 枕や 布団は 軽くて 通気の 良い 高級品だ。",
 	},
 
 	stage: "Basic",

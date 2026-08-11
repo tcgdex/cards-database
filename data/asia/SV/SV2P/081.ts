@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ミミズズ"
+		'ja-jp': "ミミズズ"
 	},
 
 	illustrator: "OKACHEKE",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "敵に 襲われると 体毛を こぶしのように 使い パンチの 嵐を お見舞いするのだ。"
+		'ja-jp': "敵に 襲われると 体毛を こぶしのように 使い パンチの 嵐を お見舞いするのだ。"
 	},
 
 	stage: "Basic",
@@ -24,11 +24,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "えいようてつぶん"
+			'ja-jp': "えいようてつぶん"
 		},
 
 		effect: {
-			ja: "このポケモンにエネルギーが3個以上ついているなら、このポケモンの最大HPは「+100」される。"
+			'ja-jp': "このポケモンにエネルギーが3個以上ついているなら、このポケモンの最大HPは「+100」される。"
 		}
 	}],
 
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "つきぬける"
+			'ja-jp': "つきぬける"
 		},
 
 		damage: 100,
 
 		effect: {
-			ja: "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			'ja-jp': "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
 		}
 	}],
 

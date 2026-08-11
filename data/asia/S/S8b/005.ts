@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チェリンボ",
+		'ja-jp': "チェリンボ",
 		'zh-tw': "櫻花寶",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "体が 赤い チェリンボほど 栄養が 多く 玉の 味も 甘くて おいしいよ。",
+		'ja-jp': "体が 赤い チェリンボほど 栄養が 多く 玉の 味も 甘くて おいしいよ。",
 		'zh-tw': "身體越紅的櫻花寶含有的營養越豐富，味道也很甜很好吃。",
 	},
 
@@ -24,11 +24,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "はつらつかじつ",
+				'ja-jp': "はつらつかじつ",
 				'zh-tw': "活潑果實",
 			},
 			effect: {
-				ja: "このポケモンは、相手のポケモンが使うワザの効果を受けない。",
+				'ja-jp': "このポケモンは、相手のポケモンが使うワザの効果を受けない。",
 				'zh-tw': "這隻寶可夢不會受到對手的寶可夢使用招式的效果的影響。",
 			},
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "このは",
+				'ja-jp': "このは",
 				'zh-tw': "樹葉",
 			},
 			damage: 20,

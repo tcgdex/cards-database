@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "duskull",
+		'ja-jp': "duskull",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "集める",
+				'ja-jp': "集める",
 			},
 			effect: {
-				ja: "カードを描きます。",
+				'ja-jp': "カードを描きます。",
 			},
 		},
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "スーパーPSYボルト",
+				'ja-jp': "スーパーPSYボルト",
 			},
 			damage: 10,
 		},

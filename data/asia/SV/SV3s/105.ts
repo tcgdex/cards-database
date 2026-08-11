@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Umbreon"
+		'id-id': "Umbreon"
 	},
 
 	illustrator: "rika",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Ketika tubuhnya terpapar gelombang bulan, pola cincin pada tubuh Umbreon bercahaya samar-samar, lalu kekuatan misterius akan bangkit."
+		'id-id': "Ketika tubuhnya terpapar gelombang bulan, pola cincin pada tubuh Umbreon bercahaya samar-samar, lalu kekuatan misterius akan bangkit."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Serangan Tipuan"
+			'id-id': "Serangan Tipuan"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan sejumlah 50 kepada 1 Pokémon lawan. Kerusakan akibat serangan ini tidak terpengaruh oleh Kelemahan, Resistansi, dan efek yang sedang dialami Pokémon yang menerima kerusakan."
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 50 kepada 1 Pokémon lawan. Kerusakan akibat serangan ini tidak terpengaruh oleh Kelemahan, Resistansi, dan efek yang sedang dialami Pokémon yang menerima kerusakan."
 		},
 
 		cost: ["Darkness"]
 	}, {
 		name: {
-			id: "Pisau Hitam Kelam"
+			'id-id': "Pisau Hitam Kelam"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 140,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Machamp",
-		fr: "Mackogneur",
-		de: "Machomei"
+		'en-us': "Machamp",
+		'fr-fr': "Mackogneur",
+		'de-de': "Machomei"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Machoke",
-		fr: "Machopeur"
+		'en-us': "Machoke",
+		'fr-fr': "Machopeur"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Overzealous",
-				fr: "Excès de zèle",
-				de: "Übereifrig"
+				'en-us': "Overzealous",
+				'fr-fr': "Excès de zèle",
+				'de-de': "Übereifrig"
 			},
 			effect: {
-				en: "If your opponent has any Pokémon-ex in play, each of Machamp's attacks does 30 more damage to the Defending Pokémon.",
-				fr: "Si votre adversaire possède des Pokémon-ex en jeu, chacune des attaques de Mackogneur inflige 30 dégâts supplémentaires au Pokémon Défenseur.",
-				de: "Wenn dein Gegner mindestens 1 Pokémon-ex im Spiel hat, fügt jeder Angriff von Machomei dem Verteidigenden Pokémon 30 weitere Schadenspunkte zu"
+				'en-us': "If your opponent has any Pokémon-ex in play, each of Machamp's attacks does 30 more damage to the Defending Pokémon.",
+				'fr-fr': "Si votre adversaire possède des Pokémon-ex en jeu, chacune des attaques de Mackogneur inflige 30 dégâts supplémentaires au Pokémon Défenseur.",
+				'de-de': "Wenn dein Gegner mindestens 1 Pokémon-ex im Spiel hat, fügt jeder Angriff von Machomei dem Verteidigenden Pokémon 30 weitere Schadenspunkte zu"
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Brick Smash",
-				fr: "Casse-Brique",
-				de: "Durchbruch"
+				'en-us': "Brick Smash",
+				'fr-fr': "Casse-Brique",
+				'de-de': "Durchbruch"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
-				de: "Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunnkte dieses Angriffs."
+				'en-us': "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
+				'de-de': "Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunnkte dieses Angriffs."
 			},
 			damage: 40,
 
@@ -73,14 +73,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cross Chop",
-				fr: "Coup-croix",
-				de: "Kreuzhieb"
+				'en-us': "Cross Chop",
+				'fr-fr': "Coup-croix",
+				'de-de': "Kreuzhieb"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 60 damage plus 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 60 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 60 damage plus 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 60 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "60+",
 

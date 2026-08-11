@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arven's Maschiff",
-		fr: "Grondogue de Pepper",
-		de: "Peppers Mobtiff",
-		it: "Maschiff di Pepe",
-		es: "Maschiff de Damián",
-		pt: "Maschiff do Arven",
+		'en-us': "Arven's Maschiff",
+		'fr-fr': "Grondogue de Pepper",
+		'de-de': "Peppers Mobtiff",
+		'it-it': "Maschiff di Pepe",
+		'es-es': "Maschiff de Damián",
+		'pt-br': "Maschiff do Arven",
 		'es-mx': "Maschiff de Damián"
 	},
 
@@ -28,12 +28,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Stampede",
-			fr: "Ruée",
-			de: "Zertrampeln",
-			it: "Fuggi Fuggi",
-			es: "Estampida",
-			pt: "Estouro",
+			'en-us': "Stampede",
+			'fr-fr': "Ruée",
+			'de-de': "Zertrampeln",
+			'it-it': "Fuggi Fuggi",
+			'es-es': "Estampida",
+			'pt-br': "Estouro",
 			'es-mx': "Estampida"
 		},
 
@@ -42,12 +42,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Confront",
-			fr: "Confrontation",
-			de: "Konfrontieren",
-			it: "Confronto",
-			es: "Confrontar",
-			pt: "Confrontar",
+			'en-us': "Confront",
+			'fr-fr': "Confrontation",
+			'de-de': "Konfrontieren",
+			'it-it': "Confronto",
+			'es-es': "Confrontar",
+			'pt-br': "Confrontar",
 			'es-mx': "Confrontar"
 		},
 

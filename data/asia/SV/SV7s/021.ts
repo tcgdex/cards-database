@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ยาโทโมริ",
-		id: "Salandit"
+		'th-th': "ยาโทโมริ",
+		'id-id': "Salandit"
 	},
 
 	illustrator: "Felicia Chen",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		th: "เฉพาะตัวเมียเท่านั้นที่สามารถสร้างแก๊สที่มีฟีโรโมนได้ ตัวผู้ที่หลงเสน่ห์จะตกเป็นเบี้ยล่างของตัวเมีย",
-		id: "Hanya Salandit betina yang dapat menciptakan gas yang mengeluarkan feromon. Salandit jantan yang telah terpesona akan patuh kepada yang betina."
+		'th-th': "เฉพาะตัวเมียเท่านั้นที่สามารถสร้างแก๊สที่มีฟีโรโมนได้ ตัวผู้ที่หลงเสน่ห์จะตกเป็นเบี้ยล่างของตัวเมีย",
+		'id-id': "Hanya Salandit betina yang dapat menciptakan gas yang mengeluarkan feromon. Salandit jantan yang telah terpesona akan patuh kepada yang betina."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ลูกไฟ",
-			id: "Bara Api"
+			'th-th': "ลูกไฟ",
+			'id-id': "Bara Api"
 		},
 
 		effect: {
-			th: "เลือกพลังงานที่ติดอยู่กับโปเกมอนนี้ 1 ลูก ทิ้งที่ตำแหน่งทิ้งการ์ด",
-			id: "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
+			'th-th': "เลือกพลังงานที่ติดอยู่กับโปเกมอนนี้ 1 ลูก ทิ้งที่ตำแหน่งทิ้งการ์ด",
+			'id-id': "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
 		},
 
 		damage: 30,

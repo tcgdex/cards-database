@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Clobbopus",
-		fr: "Poulpaf",
-		es: "Clobbopus",
-		it: "Clobbopus",
-		pt: "Clobbopus",
-		de: "Klopptopus"
+		'en-us': "Clobbopus",
+		'fr-fr': "Poulpaf",
+		'es-es': "Clobbopus",
+		'it-it': "Clobbopus",
+		'pt-br': "Clobbopus",
+		'de-de': "Klopptopus"
 	},
 
 	illustrator: "Yuka Morii",
@@ -22,12 +22,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Beat",
-			fr: "Bataille",
-			es: "Toque",
-			it: "Battuta",
-			pt: "Pulso",
-			de: "Verprügler"
+			'en-us': "Beat",
+			'fr-fr': "Bataille",
+			'es-es': "Toque",
+			'it-it': "Battuta",
+			'pt-br': "Pulso",
+			'de-de': "Verprügler"
 		},
 
 		damage: 30,
@@ -46,7 +46,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its tentacles tear off easily, but it isn't alarmed when that happens—it knows they'll grow back. It's about as smart as a three-year-old."
+		'en-us': "Its tentacles tear off easily, but it isn't alarmed when that happens—it knows they'll grow back. It's about as smart as a three-year-old."
 	},
 
 	variants: [

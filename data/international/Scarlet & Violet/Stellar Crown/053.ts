@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vikavolt",
-		fr: "Lucanon",
-		es: "Vikavolt",
-		it: "Vikavolt",
-		pt: "Vikavolt",
-		de: "Donarion"
+		'en-us': "Vikavolt",
+		'fr-fr': "Lucanon",
+		'es-es': "Vikavolt",
+		'it-it': "Vikavolt",
+		'pt-br': "Vikavolt",
+		'de-de': "Donarion"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 160,
 	types: ["Lightning"],
 	evolveFrom: {
-		en: "Charjabug",
-		fr: "Chrysapile",
-		es: "Charjabug",
-		it: "Charjabug",
-		pt: "Charjabug",
-		de: "Akkup"
+		'en-us': "Charjabug",
+		'fr-fr': "Chrysapile",
+		'es-es': "Charjabug",
+		'it-it': "Charjabug",
+		'pt-br': "Charjabug",
+		'de-de': "Akkup"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Volt Switch",
-			fr: "Change-Éclair",
-			es: "Voltiocambio",
-			it: "Invertivolt",
-			pt: "Troca Elétrica",
-			de: "Voltwechsel"
+			'en-us': "Volt Switch",
+			'fr-fr': "Change-Éclair",
+			'es-es': "Voltiocambio",
+			'it-it': "Invertivolt",
+			'pt-br': "Troca Elétrica",
+			'de-de': "Voltwechsel"
 		},
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched {L} Pokémon.",
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon {L} de Banc.",
-			es: "Cambia este Pokémon por uno de tus Pokémon {L} en Banca.",
-			it: "Scambia questo Pokémon con un Pokémon {L} della tua panchina.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon {L} no Banco.",
-			de: "Tausche dieses Pokémon gegen 1 {L}-Pokémon auf deiner Bank aus."
+			'en-us': "Switch this Pokémon with 1 of your Benched {L} Pokémon.",
+			'fr-fr': "Échangez ce Pokémon contre l'un de vos Pokémon {L} de Banc.",
+			'es-es': "Cambia este Pokémon por uno de tus Pokémon {L} en Banca.",
+			'it-it': "Scambia questo Pokémon con un Pokémon {L} della tua panchina.",
+			'pt-br': "Troque este Pokémon por 1 dos seus Pokémon {L} no Banco.",
+			'de-de': "Tausche dieses Pokémon gegen 1 {L}-Pokémon auf deiner Bank aus."
 		},
 
 		damage: 90
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless", "Colorless"],
 
 		name: {
-			en: "Sparking Strike",
-			fr: "Frappe Étincelante",
-			es: "Golpe Chispeante",
-			it: "Colpo Scintilla",
-			pt: "Golpe Cintilante",
-			de: "Funkenschlag"
+			'en-us': "Sparking Strike",
+			'fr-fr': "Frappe Étincelante",
+			'es-es': "Golpe Chispeante",
+			'it-it': "Colpo Scintilla",
+			'pt-br': "Golpe Cintilante",
+			'de-de': "Funkenschlag"
 		},
 
 		damage: 240

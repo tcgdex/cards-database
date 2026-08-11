@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Victini",
-		fr: "Victini",
-		es: "Victini",
-		it: "Victini",
-		pt: "Victini",
-		de: "Victini"
+		'en-us': "Victini",
+		'fr-fr': "Victini",
+		'es-es': "Victini",
+		'it-it': "Victini",
+		'pt-br': "Victini",
+		'de-de': "Victini"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collecte",
+				'en-us': "Collect",
+				'fr-fr': "Collecte",
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Relentless Flames",
-				fr: "Flammes Incessantes",
+				'en-us': "Relentless Flames",
+				'fr-fr': "Flammes Incessantes",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 30,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It creates an unlimited supply of energy inside its body, which it shares with those who touch it.",
+		'en-us': "It creates an unlimited supply of energy inside its body, which it shares with those who touch it.",
 	},
 
 	thirdParty: {

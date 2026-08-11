@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マルマイン",
+		'ja-jp': "マルマイン",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "取り組む",
+				'ja-jp': "取り組む",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Lightning", "Lightning", "Lightning"],
 			name: {
-				ja: "チェーンライトニング",
+				'ja-jp': "チェーンライトニング",
 			},
 			effect: {
-				ja: "防御ポケモンが無色でない場合、この攻撃は、防御ポケモン（あなた自身を含む）と同じタイプの各ベンチポケモンに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "防御ポケモンが無色でない場合、この攻撃は、防御ポケモン（あなた自身を含む）と同じタイプの各ベンチポケモンに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 20,
 		},

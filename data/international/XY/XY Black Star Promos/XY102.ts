@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Aurorus EX",
-		fr: "Dragmara EX",
+		'en-us': "Aurorus EX",
+		'fr-fr': "Dragmara EX",
 	},
 
 	illustrator: "Toyste Beach",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Frozen Charm",
-				fr: "Amulette Gelée",
+				'en-us': "Frozen Charm",
+				'fr-fr': "Amulette Gelée",
 			},
 			effect: {
-				en: "Each of your Pokémon that has any Water Energy attached to it can't be Paralyzed. (If any of those Pokémon are Paralyzed, remove that Special Condition.)",
-				fr: "Aucun de vos Pokémon auquel de l'Énergie Water est attachée ne peut être Paralysé. (Si l'un de ces Pokémon est déjà Paralysé, retirez cet État Spécial.)",
+				'en-us': "Each of your Pokémon that has any Water Energy attached to it can't be Paralyzed. (If any of those Pokémon are Paralyzed, remove that Special Condition.)",
+				'fr-fr': "Aucun de vos Pokémon auquel de l'Énergie Water est attachée ne peut être Paralysé. (Si l'un de ces Pokémon est déjà Paralysé, retirez cet État Spécial.)",
 			},
 		},
 	],
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crystal Breath",
-				fr: "Souffle de Cristal"
+				'en-us': "Crystal Breath",
+				'fr-fr': "Souffle de Cristal"
 			},
 			effect: {
-				en: "This Pokémon can't attack during your next turn",
-				fr: "Ce Pokémon ne peut pas attaquer pendant votre prochain tour."
+				'en-us': "This Pokémon can't attack during your next turn",
+				'fr-fr': "Ce Pokémon ne peut pas attaquer pendant votre prochain tour."
 			},
 			damage: 160,
 

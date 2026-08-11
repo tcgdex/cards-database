@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルナアーラ",
+		'ja-jp': "ルナアーラ",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "遥か 大昔の 文献に 月を 誘いし 獣と いう 名前で 記録が 残っている。",
+		'ja-jp': "遥か 大昔の 文献に 月を 誘いし 獣と いう 名前で 記録が 残っている。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "がちりんのめぐみ" },
 			effect: {
-				ja: "自分の場に「ソルガレオ」がいるなら、自分の番に1回使える。自分の山札にあるエネルギーを2枚まで、自分の場の「ソルガレオ」または「ルナアーラ」に好きなようにつける。そして山札を切る。",
+				'ja-jp': "自分の場に「ソルガレオ」がいるなら、自分の番に1回使える。自分の山札にあるエネルギーを2枚まで、自分の場の「ソルガレオ」または「ルナアーラ」に好きなようにつける。そして山札を切る。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コスモウム",
+		'ja-jp': "コスモウム",
 	},
 
 	retreat: 2,

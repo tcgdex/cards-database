@@ -1,11 +1,11 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Base'
 
 const base4: Set = {
 	id: "base4",
 
 	name: {
-		en: "Base Set 2"
+		'en-us': "Base Set 2"
 	},
 
 	serie: serie,

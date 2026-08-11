@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Ekans",
-		fr: "Abo",
+		'en-us': "Ekans",
+		'fr-fr': "Abo",
 	},
 
 	illustrator: "MAHOU",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Wrap",
-				fr: "Ligotage",
+				'en-us': "Wrap",
+				'fr-fr': "Ligotage",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy from your opponent’s Active Pokémon.",
-				fr: "Lancez une pièce. Si c’est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
+				'en-us': "Flip a coin. If heads, discard an Energy from your opponent’s Active Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c’est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
 			},
 			damage: 10,
 
@@ -52,7 +52,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "By dislocating its jaw, it can swallow prey larger than itself. After a meal, it curls up and rests.",
+		'en-us': "By dislocating its jaw, it can swallow prey larger than itself. After a meal, it curls up and rests.",
 	},
 
 	thirdParty: {

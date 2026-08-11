@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キリンリキ",
+		'ja-jp': "キリンリキ",
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "尻尾にも 小さな 脳がある。 近寄ると においに 反応して かみついて くるので 注意。",
+		'ja-jp': "尻尾にも 小さな 脳がある。 近寄ると においに 反応して かみついて くるので 注意。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ロストおくり" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のトラッシュにある好きなカードを2枚、ロストゾーンに置く。",
+				'ja-jp': "相手のトラッシュにある好きなカードを2枚、ロストゾーンに置く。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは弱点・抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは弱点・抵抗力を計算しない。",
 			},
 		},
 	],

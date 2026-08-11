@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [303],
 
 	name: {
-		en: "Mawile"
+		'en-us': "Mawile"
 	},
 
 	illustrator: "kurumitsu",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "It chomps with its gaping mouth. Its huge jaws are\nactually steel horns that have been transformed."
+		'en-us': "It chomps with its gaping mouth. Its huge jaws are\nactually steel horns that have been transformed."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Cavernous Chomp"
+			'en-us': "Cavernous Chomp"
 		},
 
 		damage: 50,

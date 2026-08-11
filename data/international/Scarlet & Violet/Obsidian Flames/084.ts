@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Togetic",
-		en: "Togetic",
-		es: "Togetic",
-		it: "Togetic",
-		pt: "Togetic",
-		de: "Togetic"
+		'fr-fr': "Togetic",
+		'en-us': "Togetic",
+		'es-es': "Togetic",
+		'it-it': "Togetic",
+		'pt-br': "Togetic",
+		'de-de': "Togetic"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Psychic"],
 	evolveFrom: {
-		fr: "Togepi",
-		en: "Togepi",
-		es: "Togepi",
-		it: "Togepi",
-		pt: "Togepi",
-		de: "Togepi"
+		'fr-fr': "Togepi",
+		'en-us': "Togepi",
+		'es-es': "Togepi",
+		'it-it': "Togepi",
+		'pt-br': "Togepi",
+		'de-de': "Togepi"
 	},
 	stage: "Stage1",
 
@@ -32,32 +32,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Paix Partagée",
-			en: "Shared Peace",
-			es: "Paz Compartida",
-			it: "Pace Condivisa",
-			pt: "Paz Compartilhada",
-			de: "Geteilter Frieden"
+			'fr-fr': "Paix Partagée",
+			'en-us': "Shared Peace",
+			'es-es': "Paz Compartida",
+			'it-it': "Pace Condivisa",
+			'pt-br': "Paz Compartilhada",
+			'de-de': "Geteilter Frieden"
 		},
 
 		effect: {
-			fr: "Chaque joueur pioche 3 cartes.",
-			en: "Each player draws 3 cards.",
-			es: "Cada jugador roba 3 cartas.",
-			it: "Ciascun giocatore pesca tre carte.",
-			pt: "Cada jogador compra 3 cartas.",
-			de: "Jeder Spieler zieht 3 Karten."
+			'fr-fr': "Chaque joueur pioche 3 cartes.",
+			'en-us': "Each player draws 3 cards.",
+			'es-es': "Cada jugador roba 3 cartas.",
+			'it-it': "Ciascun giocatore pesca tre carte.",
+			'pt-br': "Cada jogador compra 3 cartas.",
+			'de-de': "Jeder Spieler zieht 3 Karten."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Plongée Rapide",
-			en: "Speed Dive",
-			es: "Picado Rápido",
-			it: "Immersione Rapida",
-			pt: "Mergulho Veloz",
-			de: "Tempohechtsprung"
+			'fr-fr': "Plongée Rapide",
+			'en-us': "Speed Dive",
+			'es-es': "Picado Rápido",
+			'it-it': "Immersione Rapida",
+			'pt-br': "Mergulho Veloz",
+			'de-de': "Tempohechtsprung"
 		},
 
 		damage: 40
@@ -73,7 +73,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It grows dispirited if it is not with kind people. It can float in midair without moving its wings.",
+		'en-us': "It grows dispirited if it is not with kind people. It can float in midair without moving its wings.",
 	},
 
 	variants: [

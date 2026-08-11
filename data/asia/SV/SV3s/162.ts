@@ -1,18 +1,18 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Orto"
+		'id-id': "Orto"
 	},
 
 	illustrator: "Naoki Saito",
 	category: "Trainer",
 
 	effect: {
-		id: "Lihat Kartu Pegangan lawan, pilih 1 kartu sesukanya di antaranya, lalu kembalikan ke bawah Deck lawan. Setelah itu, lawan dapat mengambil 1 kartu dari atas Deck."
+		'id-id': "Lihat Kartu Pegangan lawan, pilih 1 kartu sesukanya di antaranya, lalu kembalikan ke bawah Deck lawan. Setelah itu, lawan dapat mengambil 1 kartu dari atas Deck."
 	},
 
 	trainerType: "Supporter",

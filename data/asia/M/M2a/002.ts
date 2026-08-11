@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤンヤンマ",
+		'ja-jp': "ヤンヤンマ",
 	},
 
 	illustrator: "svlt",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "翅を 高速で はためかせて 空中で 停止 しながら 自分の 縄張りを 見張っている。",
+		'ja-jp': "翅を 高速で はためかせて 空中で 停止 しながら 自分の 縄張りを 見張っている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ふきとばし" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+				'ja-jp': "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
 			},
 		},
 		{

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "wingull",
+		'ja-jp': "wingull",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "クイック攻撃",
+				'ja-jp': "クイック攻撃",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて10ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて10ダメージを与えます。",
 			},
 		},
 	],

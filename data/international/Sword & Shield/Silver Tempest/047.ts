@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dewpider",
-		fr: "Araqua",
-		es: "Dewpider",
-		it: "Dewpider",
-		pt: "Dewpider",
-		de: "Araqua"
+		'en-us': "Dewpider",
+		'fr-fr': "Araqua",
+		'es-es': "Dewpider",
+		'it-it': "Dewpider",
+		'pt-br': "Dewpider",
+		'de-de': "Araqua"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Hook",
-			fr: "Crochet",
-			es: "Garfio",
-			it: "Uncino",
-			pt: "Gancho",
-			de: "Haken"
+			'en-us': "Hook",
+			'fr-fr': "Crochet",
+			'es-es': "Garfio",
+			'it-it': "Uncino",
+			'pt-br': "Gancho",
+			'de-de': "Haken"
 		},
 
 		damage: 30
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It forms a water bubble at the rear of its body and then covers its head with it. Meeting another Dewpider means comparing water-bubble sizes.",
+		'en-us': "It forms a water bubble at the rear of its body and then covers its head with it. Meeting another Dewpider means comparing water-bubble sizes.",
 	},
 
 	variants: [

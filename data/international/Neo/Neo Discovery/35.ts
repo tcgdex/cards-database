@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Wobbuffet",
-		fr: "Qulbutoke",
-		de: "Woingenau"
+		'en-us': "Wobbuffet",
+		'fr-fr': "Qulbutoke",
+		'de-de': "Woingenau"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Counter",
-				fr: "Riposte",
-				de: "Counter"
+				'en-us': "Counter",
+				'fr-fr': "Riposte",
+				'de-de': "Counter"
 			},
 			effect: {
-				en: "If an attack damages Wobbuffet during your opponent's next turn (even if Wobbuffet is knocked out), flip a coin. If heads, Wobbuffet attacks the Defending Pokémon for an equal amount of damage.",
-				fr: "Si une attaque inflige des dégâts à Qulbutoke pendant le prochain tour de votre adversaire (même si Qulbutoke est K.O.), lancez 1 pièce. Si c'est face, Qulbutoke attaque le Pokémon Défenseur et lui inflige le même nombre de dégâts.",
-				de: "If an attack damages Wobbuffet during your opponent's next turn (even if Wobbuffet is Knocked Out), flip a coin. If heads, Wobbuffet attacks the Defending Pokémon for an equal amount of damage."
+				'en-us': "If an attack damages Wobbuffet during your opponent's next turn (even if Wobbuffet is knocked out), flip a coin. If heads, Wobbuffet attacks the Defending Pokémon for an equal amount of damage.",
+				'fr-fr': "Si une attaque inflige des dégâts à Qulbutoke pendant le prochain tour de votre adversaire (même si Qulbutoke est K.O.), lancez 1 pièce. Si c'est face, Qulbutoke attaque le Pokémon Défenseur et lui inflige le même nombre de dégâts.",
+				'de-de': "If an attack damages Wobbuffet during your opponent's next turn (even if Wobbuffet is Knocked Out), flip a coin. If heads, Wobbuffet attacks the Defending Pokémon for an equal amount of damage."
 			},
 
 		},
@@ -54,8 +54,8 @@ const card: Card = {
 
 
 	description: {
-		en: "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
-		fr: "Pour cacher sa queue noire, il vit discrètement dans l'obscurité. Il n'attaque jamais le premier."
+		'en-us': "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
+		'fr-fr': "Pour cacher sa queue noire, il vit discrètement dans l'obscurité. Il n'attaque jamais le premier."
 	},
 
 

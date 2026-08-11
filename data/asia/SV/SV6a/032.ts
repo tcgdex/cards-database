@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゾロアーク",
+		'ja-jp': "ゾロアーク",
 		'zh-tw': "索羅亞克",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "いっぺんに 大勢の 人を 化かす 力を 持つ。 幻の 景色を 見せて 棲み処を 守る。",
+		'ja-jp': "いっぺんに 大勢の 人を 化かす 力を 持つ。 幻の 景色を 見せて 棲み処を 守る。",
 		'zh-tw': "有著一口氣迷惑許多人的力量。 會讓人看見虛幻的景色， 以保護自己的居所。",
 	},
 
@@ -23,19 +23,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "げんえいジャック",
+				'ja-jp': "げんえいジャック",
 				'zh-tw': "幻影劫持",
 			},
 			damage: "60×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手の場の「ポケモンex・V」の数×60ダメージ。",
+				'ja-jp': "相手の場の「ポケモンex・V」の数×60ダメージ。",
 				'zh-tw': "造成對手的場上的「寶可夢【ex】・【V】」的數量×60點傷害。",
 			},
 		},
 		{
 			name: {
-				ja: "ツメできりさく",
+				'ja-jp': "ツメできりさく",
 				'zh-tw': "利爪劈擊",
 			},
 			damage: 110,
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゾロア",
+		'ja-jp': "ゾロア",
 	},
 
 	retreat: 1,

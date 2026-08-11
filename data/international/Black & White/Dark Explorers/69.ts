@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Zorua",
-		fr: "Zorua",
-		es: "Zorua",
-		it: "Zorua",
-		pt: "Zorua",
-		de: "Zorua"
+		'en-us': "Zorua",
+		'fr-fr': "Zorua",
+		'es-es': "Zorua",
+		'it-it': "Zorua",
+		'pt-br': "Zorua",
+		'de-de': "Zorua"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Ascension",
-				fr: "Ascension"
+				'en-us': "Ascension",
+				'fr-fr': "Ascension"
 			},
 			effect: {
-				en: "Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon. (This counts as evolving this Pokémon.) Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck une carte Évolution de ce Pokémon et placez-la sur ce Pokémon. (Cela équivaut à faire évoluer ce Pokémon) Mélangez ensuite votre deck."
+				'en-us': "Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon. (This counts as evolving this Pokémon.) Shuffle your deck afterward.",
+				'fr-fr': "Cherchez dans votre deck une carte Évolution de ce Pokémon et placez-la sur ce Pokémon. (Cela équivaut à faire évoluer ce Pokémon) Mélangez ensuite votre deck."
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe"
 			},
 
 			damage: 20,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
+		'en-us': "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
 	},
 
 	thirdParty: {

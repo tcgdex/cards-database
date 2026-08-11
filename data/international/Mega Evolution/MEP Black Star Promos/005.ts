@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drifloon",
-		fr: "Baudrive",
-		de: "Driftlon",
-		it: "Drifloon",
-		es: "Drifloon",
-		pt: "Drifloon"
+		'en-us': "Drifloon",
+		'fr-fr': "Baudrive",
+		'de-de': "Driftlon",
+		'it-it': "Drifloon",
+		'es-es': "Drifloon",
+		'pt-br': "Drifloon"
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -25,22 +25,22 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Pull",
-			fr: "Tirer",
-			de: "Ziehen",
-			it: "Tira",
-			es: "Tirar",
-			pt: "Puxar",
+			'en-us': "Pull",
+			'fr-fr': "Tirer",
+			'de-de': "Ziehen",
+			'it-it': "Tira",
+			'es-es': "Tirar",
+			'pt-br': "Puxar",
 			'es-mx': "Jalar"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
-			fr: "Lancez une pièce. Si c'est face, envoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif.",
-			de: "Wirf 1 Münze. Wechsle bei Kopf 1 Pokémon auf der Bank deines Gegners gegen dessen Aktives Pokémon aus.",
-			it: "Lancia una moneta. Se esce testa, scambia 1 dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
-			es: "Lanza 1 moneda. Si sale cara, cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
-			pt: "Jogue 1 moeda. Se sair cara, troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele."
+			'en-us': "Flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
+			'fr-fr': "Lancez une pièce. Si c'est face, envoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif.",
+			'de-de': "Wirf 1 Münze. Wechsle bei Kopf 1 Pokémon auf der Bank deines Gegners gegen dessen Aktives Pokémon aus.",
+			'it-it': "Lancia una moneta. Se esce testa, scambia 1 dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
+			'es-es': "Lanza 1 moneda. Si sale cara, cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele."
 		}
 	}],
 

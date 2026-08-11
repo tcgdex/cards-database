@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モクロー",
+		'ja-jp': "モクロー",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "刃物の ように 鋭い 羽を 飛ばして 攻撃。 足の力も 強く キックも 侮れないのだ。",
+		'ja-jp': "刃物の ように 鋭い 羽を 飛ばして 攻撃。 足の力も 強く キックも 侮れないのだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ちょくげきひこう" },
 			cost: ["Grass"],
 			effect: {
-				ja: "相手のポケモン1匹に、10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マークロウ",
+		'ja-jp': "マークロウ",
 	},
 
 	rarity: "Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ナイトソング",
+				'ja-jp': "ナイトソング",
 			},
 			effect: {
-				ja: "対戦相手のベンチポケモンの1つを防御ポケモンの1つに切り替えます。対戦相手は、防御するポケモンを選択して切り替えます。新しい防御ポケモンは今眠っています。",
+				'ja-jp': "対戦相手のベンチポケモンの1つを防御ポケモンの1つに切り替えます。対戦相手は、防御するポケモンを選択して切り替えます。新しい防御ポケモンは今眠っています。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "略奪",
+				'ja-jp': "略奪",
 			},
 			effect: {
-				ja: "ダメージを与える前に、防御ポケモンに取り付けられたすべてのトレーナーカードを捨ててください。",
+				'ja-jp': "ダメージを与える前に、防御ポケモンに取り付けられたすべてのトレーナーカードを捨ててください。",
 			},
 			damage: 20,
 		},

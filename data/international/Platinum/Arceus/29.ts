@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Raticate",
-		de: "Rattikarl"
+		'en-us': "Raticate",
+		'de-de': "Rattikarl"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rattata"
+		'en-us': "Rattata"
 	},
 
 	stage: "Stage1",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Recruit",
-				de: "Rekrutieren"
+				'en-us': "Recruit",
+				'de-de': "Rekrutieren"
 			},
 			effect: {
-				en: "Look at your opponent's hand, choose a Supporter card you find there, and discard it. Then, use the effect of that card as the effect of this attack.",
-				de: "Schau dir die Handkarten deines Gegners an, wähle 1 Unterstüzerkarte, die du dort gefunden hast, und lege sie auf den Ablagestapel deines Gegners. Danach nutze den Effekt der gewählten Karte als Effekt dieses Angriffs."
+				'en-us': "Look at your opponent's hand, choose a Supporter card you find there, and discard it. Then, use the effect of that card as the effect of this attack.",
+				'de-de': "Schau dir die Handkarten deines Gegners an, wähle 1 Unterstüzerkarte, die du dort gefunden hast, und lege sie auf den Ablagestapel deines Gegners. Danach nutze den Effekt der gewählten Karte als Effekt dieses Angriffs."
 			},
 
 		},
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Extend Fang",
-				de: "Fänge ausfahren"
+				'en-us': "Extend Fang",
+				'de-de': "Fänge ausfahren"
 			},
 			effect: {
-				en: "If Raticate has a Pokémon Tool card attached to it, this attack does 20 damage plus 40 more damage.",
-				de: "Wenn an Rattikarl eine Pokémon-Ausrüstung angelegt ist, fügt dieser Angriff 20 Schadenspunkte plus 40 weitere Schadenspunkte zu."
+				'en-us': "If Raticate has a Pokémon Tool card attached to it, this attack does 20 damage plus 40 more damage.",
+				'de-de': "Wenn an Rattikarl eine Pokémon-Ausrüstung angelegt ist, fügt dieser Angriff 20 Schadenspunkte plus 40 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -66,7 +66,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It whittles its constantly growing fangs by gnawing on hard things. It can chew apart cinder walls."
+		'en-us': "It whittles its constantly growing fangs by gnawing on hard things. It can chew apart cinder walls."
 	},
 
 	variants: [

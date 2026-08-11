@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Stonjourner",
-		fr: "Dolman",
-		es: "Stonjourner",
-		it: "Stonjourner",
-		pt: "Stonjourner",
-		de: "Humanolith"
+		'en-us': "Stonjourner",
+		'fr-fr': "Dolman",
+		'es-es': "Stonjourner",
+		'it-it': "Stonjourner",
+		'pt-br': "Stonjourner",
+		'de-de': "Humanolith"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -22,42 +22,42 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Land's Pulse",
-			fr: "Vibration Terrestre",
-			es: "Pulso Telúrico",
-			it: "Pulsazione Tellurica",
-			pt: "Pulso da Terra",
-			de: "Bodenpuls"
+			'en-us': "Land's Pulse",
+			'fr-fr': "Vibration Terrestre",
+			'es-es': "Pulso Telúrico",
+			'it-it': "Pulsazione Tellurica",
+			'pt-br': "Pulso da Terra",
+			'de-de': "Bodenpuls"
 		},
 
 		effect: {
-			en: "If a Stadium is in play, this attack does 30 more damage.",
-			fr: "Si un Stade est en jeu, cette attaque inflige 30 dégâts supplémentaires.",
-			es: "Si hay un Estadio en juego, este ataque hace 30 puntos de daño más.",
-			it: "Se c'è in gioco una carta Stadio, questo attacco infligge 30 danni in più.",
-			pt: "Se um Estádio estiver em jogo, este ataque causará 30 pontos de dano a mais.",
-			de: "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
+			'en-us': "If a Stadium is in play, this attack does 30 more damage.",
+			'fr-fr': "Si un Stade est en jeu, cette attaque inflige 30 dégâts supplémentaires.",
+			'es-es': "Si hay un Estadio en juego, este ataque hace 30 puntos de daño más.",
+			'it-it': "Se c'è in gioco una carta Stadio, questo attacco infligge 30 danni in più.",
+			'pt-br': "Se um Estádio estiver em jogo, este ataque causará 30 pontos de dano a mais.",
+			'de-de': "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+",
 		cost: ["Fighting", "Colorless"]
 	}, {
 		name: {
-			en: "Giga Hammer",
-			fr: "Giga Marteau",
-			es: "Gigamartillo",
-			it: "Gigamartello",
-			pt: "Gigamartelo",
-			de: "Gigahammer"
+			'en-us': "Giga Hammer",
+			'fr-fr': "Giga Marteau",
+			'es-es': "Gigamartillo",
+			'it-it': "Gigamartello",
+			'pt-br': "Gigamartelo",
+			'de-de': "Gigahammer"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use Giga Hammer.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Giga Marteau.",
-			es: "Durante tu próximo turno, este Pokémon no puede usar Gigamartillo.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Gigamartello.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Gigamartelo.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon Gigahammer nicht einsetzen."
+			'en-us': "During your next turn, this Pokémon can't use Giga Hammer.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Giga Marteau.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede usar Gigamartillo.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Gigamartello.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar Gigamartelo.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon Gigahammer nicht einsetzen."
 		},
 
 		damage: 120,
@@ -76,7 +76,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Once a year, on a specific date and at a specific time, they gather out of nowhere and form up in a circle."
+		'en-us': "Once a year, on a specific date and at a specific time, they gather out of nowhere and form up in a circle."
 	},
 
 	variants: [

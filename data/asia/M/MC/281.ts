@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "テツノイバラ",
+		'ja-jp': "テツノイバラ",
 	},
 
 	illustrator: "Takeshi Nakamura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "ある 探検記で テツノイバラと 紹介されている 物体と 一致する 特徴が ある。",
+		'ja-jp': "ある 探検記で テツノイバラと 紹介されている 物体と 一致する 特徴が ある。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "70×",
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "自分の山札を上から5枚オモテにして、その中にある「未来」のカードの枚数×70ダメージ。オモテにした「未来」のカードはトラッシュし、残りのカードは山札にもどして切る。",
+				'ja-jp': "自分の山札を上から5枚オモテにして、その中にある「未来」のカードの枚数×70ダメージ。オモテにした「未来」のカードはトラッシュし、残りのカードは山札にもどして切る。",
 			},
 		},
 		{

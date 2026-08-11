@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "RocketのMewtwo Ex",
+		'ja-jp': "RocketのMewtwo Ex",
 	},
 
 	rarity: "Holo Rare",
@@ -18,26 +18,26 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "闇のスイッチ",
+				'ja-jp': "闇のスイッチ",
 			},
 			effect: {
-				ja: "RocketのMewtwo Exに取り付けられたエネルギーカードを捨ててから、RocketのMewtwo Exのすべてのダメージカウンターを防御ポケモンのMewtwo Exと切り替えます。 （この攻撃の影響が防止された場合、この攻撃は何もしません。）",
+				'ja-jp': "RocketのMewtwo Exに取り付けられたエネルギーカードを捨ててから、RocketのMewtwo Exのすべてのダメージカウンターを防御ポケモンのMewtwo Exと切り替えます。 （この攻撃の影響が防止された場合、この攻撃は何もしません。）",
 			},
 		},
 		{
 			cost: ["Psychic", "Colorless", "Colorless"],
 			name: {
-				ja: "催眠芽球",
+				'ja-jp': "催眠芽球",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御するポケモンは今眠っています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御するポケモンは今眠っています。",
 			},
 			damage: 40,
 		},
 		{
 			cost: ["Psychic", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "Psyburn",
+				'ja-jp': "Psyburn",
 			},
 			damage: 70,
 		},

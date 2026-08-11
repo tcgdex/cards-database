@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Kalos Starter Set'
 
 const card: Card = {
 	name: {
-		en: "Swirlix",
-		fr: "Sucroquin",
-		es: "Swirlix",
-		it: "Swirlix",
-		pt: "Swirlix",
-		de: "Flauschling"
+		'en-us': "Swirlix",
+		'fr-fr': "Sucroquin",
+		'es-es': "Swirlix",
+		'it-it': "Swirlix",
+		'pt-br': "Swirlix",
+		'de-de': "Flauschling"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Draining Kiss",
-				fr: "Vampibaiser",
-				es: "Beso Drenaje",
-				it: "Dragonair",
-				pt: "Beijo Drenante",
-				de: "Diebeskuss"
+				'en-us': "Draining Kiss",
+				'fr-fr': "Vampibaiser",
+				'es-es': "Beso Drenaje",
+				'it-it': "Dragonair",
+				'pt-br': "Beijo Drenante",
+				'de-de': "Diebeskuss"
 			},
 			effect: {
-				en: "Heal 10 damage from this Pokémon.",
-				fr: "Soignez 10 dégâts à ce Pokémon.",
-				es: "Cura 10 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 10 danni.",
-				pt: "Cure 10 de danos deste Pokémon.",
-				de: "Heile 10 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 10 damage from this Pokémon.",
+				'fr-fr': "Soignez 10 dégâts à ce Pokémon.",
+				'es-es': "Cura 10 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 10 danni.",
+				'pt-br': "Cure 10 de danos deste Pokémon.",
+				'de-de': "Heile 10 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 10,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "To entangle its opponents in battle, it extrudes white threads as sweet and sticky as cotton candy.",
+		'en-us': "To entangle its opponents in battle, it extrudes white threads as sweet and sticky as cotton candy.",
 	},
 
 	thirdParty: {

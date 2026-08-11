@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Cosmoem",
-		fr: "Cosmovum",
-		es: "Cosmoem",
-		it: "Cosmoem",
-		pt: "Cosmoem",
-		de: "Cosmovum"
+		'en-us': "Cosmoem",
+		'fr-fr': "Cosmovum",
+		'es-es': "Cosmoem",
+		'it-it': "Cosmoem",
+		'pt-br': "Cosmoem",
+		'de-de': "Cosmovum"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cosmog",
-		fr: "Cosmog",
+		'en-us': "Cosmog",
+		'fr-fr': "Cosmog",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Teleport",
-				fr: "Téléport",
-				es: "Teletransporte",
-				it: "Teletrasporto",
-				pt: "Teleporte",
-				de: "Teleport"
+				'en-us': "Teleport",
+				'fr-fr': "Téléport",
+				'es-es': "Teletransporte",
+				'it-it': "Teletrasporto",
+				'pt-br': "Teleporte",
+				'de-de': "Teleport"
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec l’un de vos Pokémon de Banc.",
-				es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-				it: "Scambia questo Pokémon con uno della tua panchina.",
-				pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon avec l’un de vos Pokémon de Banc.",
+				'es-es': "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+				'it-it': "Scambia questo Pokémon con uno della tua panchina.",
+				'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+				'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 
 		},
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "There's something accumulating around the black core within its hard shell. People think this Pokémon may come from another world.",
+		'en-us': "There's something accumulating around the black core within its hard shell. People think this Pokémon may come from another world.",
 	},
 
 	thirdParty: {

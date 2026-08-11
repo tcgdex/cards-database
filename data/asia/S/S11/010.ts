@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アイアント",
+		'ja-jp': "アイアント",
 		'zh-tw': "鐵蟻",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "巣の 奥深くに タマゴを 産む。 クイタランに 襲われると 大きな 顎で 噛みついて 反撃。",
+		'ja-jp': "巣の 奥深くに タマゴを 産む。 クイタランに 襲われると 大きな 顎で 噛みついて 反撃。",
 		'zh-tw': "在巢穴的深處產卵。受到熔蟻獸的襲擊時會用 大大的顎部咬住對方進行反擊。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "エネほり",
+				'ja-jp': "エネほり",
 				'zh-tw': "挖能量",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から基本エネルギーを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札から基本エネルギーを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
 				'zh-tw': "從自己的牌庫選擇最多2張基本能量卡，在給對手看過後加入手牌。並且重洗牌庫。",
 			},
 		},
 		{
 			name: {
-				ja: "かみつく",
+				'ja-jp': "かみつく",
 				'zh-tw': "咬住",
 			},
 			damage: 50,

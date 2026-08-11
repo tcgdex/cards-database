@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [854],
 
 	name: {
-		en: "Sinistea",
-		fr: "Théffroi",
-		es: "Sinistea",
-		it: "Sinistea",
-		pt: "Sinistea",
-		de: "Fatalitee"
+		'en-us': "Sinistea",
+		'fr-fr': "Théffroi",
+		'es-es': "Sinistea",
+		'it-it': "Sinistea",
+		'pt-br': "Sinistea",
+		'de-de': "Fatalitee"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Furtive Drop",
-				fr: "Chute Furtive",
-				es: "Caída Furtiva",
-				it: "Lascito Furtivo",
-				pt: "Gota Furtiva",
-				de: "Hinterhältiger Fall"
+				'en-us': "Furtive Drop",
+				'fr-fr': "Chute Furtive",
+				'es-es': "Caída Furtiva",
+				'it-it': "Lascito Furtivo",
+				'pt-br': "Gota Furtiva",
+				'de-de': "Hinterhältiger Fall"
 			},
 			effect: {
-				en: "Put 2 damage counters on your opponent's Active Pokémon.",
-				fr: "Placez 2 marqueurs de dégâts sur le Pokémon Actif de votre adversaire.",
-				es: "Pon 2 contadores de daño en el Pokémon Activo de tu rival.",
-				it: "Metti due segnalini danno sul Pokémon attivo del tuo avversario.",
-				pt: "Coloque 2 contadores de dano no Pokémon Ativo do seu oponente.",
-				de: "Lege 2 Schadensmarken auf das Aktive Pokémon deines Gegners."
+				'en-us': "Put 2 damage counters on your opponent's Active Pokémon.",
+				'fr-fr': "Placez 2 marqueurs de dégâts sur le Pokémon Actif de votre adversaire.",
+				'es-es': "Pon 2 contadores de daño en el Pokémon Activo de tu rival.",
+				'it-it': "Metti due segnalini danno sul Pokémon attivo del tuo avversario.",
+				'pt-br': "Coloque 2 contadores de dano no Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 2 Schadensmarken auf das Aktive Pokémon deines Gegners."
 			},
 
 		},
@@ -69,7 +69,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "This Pokémon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea."
+		'en-us': "This Pokémon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea."
 	},
 
 	variants: [

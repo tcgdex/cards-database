@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zamazenta",
-		fr: "Zamazenta",
-		es: "Zamazenta",
-		it: "Zamazenta",
-		pt: "Zamazenta",
-		de: "Zamazenta"
+		'en-us': "Zamazenta",
+		'fr-fr': "Zamazenta",
+		'es-es': "Zamazenta",
+		'it-it': "Zamazenta",
+		'pt-br': "Zamazenta",
+		'de-de': "Zamazenta"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -23,32 +23,32 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Sturdy Shield",
-			fr: "Bouclier Solide",
-			es: "Escudo Robusto",
-			it: "Scudo Robusto",
-			pt: "Escudo Robusto",
-			de: "Robuster Schild"
+			'en-us': "Sturdy Shield",
+			'fr-fr': "Bouclier Solide",
+			'es-es': "Escudo Robusto",
+			'it-it': "Scudo Robusto",
+			'pt-br': "Escudo Robusto",
+			'de-de': "Robuster Schild"
 		},
 
 		effect: {
-			en: "This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
-			fr: "Ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			es: "Los ataques hacen 20 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-			it: "Questo Pokémon subisce 20 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-			pt: "Este Pokémon recebe 20 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
-			de: "Diesem Pokémon werden durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+			'en-us': "This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
+			'fr-fr': "Ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			'es-es': "Los ataques hacen 20 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			'it-it': "Questo Pokémon subisce 20 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+			'pt-br': "Este Pokémon recebe 20 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
+			'de-de': "Diesem Pokémon werden durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Headbang",
-			fr: "Frappe de Tête",
-			es: "Cabecear",
-			it: "Scuotitesta",
-			pt: "Baque de Cabeça",
-			de: "Headbangen"
+			'en-us': "Headbang",
+			'fr-fr': "Frappe de Tête",
+			'es-es': "Cabecear",
+			'it-it': "Scuotitesta",
+			'pt-br': "Baque de Cabeça",
+			'de-de': "Headbangen"
 		},
 
 		damage: 130,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all."
+		'en-us': "Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all."
 	},
 
 	stage: "Basic",

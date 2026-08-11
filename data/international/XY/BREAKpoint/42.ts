@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Electabuzz",
-		fr: "Élektek",
-		es: "Electabuzz",
-		it: "Electabuzz",
-		pt: "Electabuzz",
-		de: "Elektek"
+		'en-us': "Electabuzz",
+		'fr-fr': "Élektek",
+		'es-es': "Electabuzz",
+		'it-it': "Electabuzz",
+		'pt-br': "Electabuzz",
+		'de-de': "Elektek"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knuckle Punch",
-				fr: "Coud'Phalange",
-				es: "Puño con Nudillos",
-				it: "Nocca-Pugno",
-				pt: "Soco com Punho",
-				de: "Knöchelhieb"
+				'en-us': "Knuckle Punch",
+				'fr-fr': "Coud'Phalange",
+				'es-es': "Puño con Nudillos",
+				'it-it': "Nocca-Pugno",
+				'pt-br': "Soco com Punho",
+				'de-de': "Knöchelhieb"
 			},
 
 			damage: 20,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It loves to feed on strong electricity. It occasionally appears around large power plants and so on.",
+		'en-us': "It loves to feed on strong electricity. It occasionally appears around large power plants and so on.",
 	},
 
 	thirdParty: {

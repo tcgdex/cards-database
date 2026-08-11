@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダルマッカ",
+		'ja-jp': "ダルマッカ",
 	},
 
 	illustrator: "Yuka Morii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "ダルマッカの フンは 熱いので 昔の 人は 懐に 入れて 体を 温めていたのだ。",
+		'ja-jp': "ダルマッカの フンは 熱いので 昔の 人は 懐に 入れて 体を 温めていたのだ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある[炎]エネルギーを1枚、このポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札にある[炎]エネルギーを1枚、このポケモンにつける。そして山札を切る。",
 			},
 		},
 		{

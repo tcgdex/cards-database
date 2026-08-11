@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Liepard",
-		fr: "Léopardus",
-		es: "Liepard",
-		it: "Liepard",
-		pt: "Liepard",
-		de: "Kleoparda"
+		'en-us': "Liepard",
+		'fr-fr': "Léopardus",
+		'es-es': "Liepard",
+		'it-it': "Liepard",
+		'pt-br': "Liepard",
+		'de-de': "Kleoparda"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Purrloin",
-		fr: "Chacripan",
+		'en-us': "Purrloin",
+		'fr-fr': "Chacripan",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Silent Claw",
-				fr: "Griffe Silencieuse",
+				'en-us': "Silent Claw",
+				'fr-fr': "Griffe Silencieuse",
 			},
 			effect: {
-				en: "Your opponent reveals his or her hand. Discard a Supporter card you find there. Use the effect of that card as the effect of this attack.",
-				fr: "Votre adversaire montre sa main. Défaussez une carte Supporter que vous y trouvez. Utilisez l'effet de la carte Supporter défaussée en tant qu'effet de cette attaque.",
+				'en-us': "Your opponent reveals his or her hand. Discard a Supporter card you find there. Use the effect of that card as the effect of this attack.",
+				'fr-fr': "Votre adversaire montre sa main. Défaussez une carte Supporter que vous y trouvez. Utilisez l'effet de la carte Supporter défaussée en tant qu'effet de cette attaque.",
 			},
 
 		},
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fake Out",
-				fr: "Bluff",
+				'en-us': "Fake Out",
+				'fr-fr': "Bluff",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 30,
 
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Their beautiful form comes from the muscles they have developed. They run silently in the night.",
+		'en-us': "Their beautiful form comes from the muscles they have developed. They run silently in the night.",
 	},
 
 	thirdParty: {

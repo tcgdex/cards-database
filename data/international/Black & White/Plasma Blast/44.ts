@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Reuniclus",
-		fr: "Symbios",
-		es: "Reuniclus",
-		it: "Reuniclus",
-		pt: "Reuniclus",
-		de: "Zytomega"
+		'en-us': "Reuniclus",
+		'fr-fr': "Symbios",
+		'es-es': "Reuniclus",
+		'it-it': "Reuniclus",
+		'pt-br': "Reuniclus",
+		'de-de': "Zytomega"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Duosion",
-		fr: "Méios",
+		'en-us': "Duosion",
+		'fr-fr': "Méios",
 	},
 
 	stage: "Stage2",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Barrier Attack",
-				fr: "Attaque d'Obstacle",
+				'en-us': "Barrier Attack",
+				'fr-fr': "Attaque d'Obstacle",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 30 (after applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
+				'en-us': "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 30 (after applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
 			},
 			damage: 30,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Telekinesis of Nobility",
-				fr: "Noble Télékinésie",
+				'en-us': "Telekinesis of Nobility",
+				'fr-fr': "Noble Télékinésie",
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
 			},
 			damage: 70,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They use psychic power to control their arms, which are made of a special liquid. They can crush boulders psychically.",
+		'en-us': "They use psychic power to control their arms, which are made of a special liquid. They can crush boulders psychically.",
 	},
 
 	thirdParty: {

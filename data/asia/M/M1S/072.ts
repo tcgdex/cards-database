@@ -1,35 +1,35 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヌケニン"
+		'ja-jp': "ヌケニン"
 	},
 	illustrator: "Tetsu Kayama",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Psychic"],
 	description: {
-		ja: "ハネを動かさずに飛びまわる。体の中は空っぽで息をしない不思議なポケモン。"
+		'ja-jp': "ハネを動かさずに飛びまわる。体の中は空っぽで息をしない不思議なポケモン。"
 	},
 	stage: "Basic",
 	abilities: [{
 		type: "Ability",
 		name: {
-			ja: "もろいぬけがら"
+			'ja-jp': "もろいぬけがら"
 		},
 		effect: {
-			ja: "このポケモンが、相手の「ポケモンex」からワザのダメージを受けてきぜつしても、相手はサイドをとれない。"
+			'ja-jp': "このポケモンが、相手の「ポケモンex」からワザのダメージを受けてきぜつしても、相手はサイドをとれない。"
 		}
 	}],
 	attacks: [{
 		name: {
-			ja: "ダメージビート"
+			'ja-jp': "ダメージビート"
 		},
 		damage: "20×",
 		effect: {
-			ja: "相手のバトルポケモンにのっているダメカンの数×20ダメージ。"
+			'ja-jp': "相手のバトルポケモンにのっているダメカンの数×20ダメージ。"
 		},
 		cost: ["Psychic"]
 	}],

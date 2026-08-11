@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワンパチ",
+		'ja-jp': "ワンパチ",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "おやつに 釣られて 人の 仕事を 手伝う 食いしん坊。 パチパチと 電気を まとって ひた走る。",
+		'ja-jp': "おやつに 釣られて 人の 仕事を 手伝う 食いしん坊。 パチパチと 電気を まとって ひた走る。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ボールさがし" },
 			effect: {
-				ja: "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分のトラッシュから「モンスターボール」と「スーパーボール」をそれぞれ1枚まで選び、相手に見せて、手札に加える。",
+				'ja-jp': "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分のトラッシュから「モンスターボール」と「スーパーボール」をそれぞれ1枚まで選び、相手に見せて、手札に加える。",
 			},
 		},
 	],

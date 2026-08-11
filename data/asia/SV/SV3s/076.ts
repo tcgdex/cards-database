@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Gligar"
+		'id-id': "Gligar"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Gligar terbang ke arah wajah mangsanya. Selagi mangsa yang ditempeli wajahnya terkejut, Pokémon ini menusukkan jarum beracunnya."
+		'id-id': "Gligar terbang ke arah wajah mangsanya. Selagi mangsa yang ditempeli wajahnya terkejut, Pokémon ini menusukkan jarum beracunnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Beracun"
+			'id-id': "Beracun"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Racun. Jumlah Token Kerusakan yang diletakkan akibat kondisi Racun ini adalah 2."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Racun. Jumlah Token Kerusakan yang diletakkan akibat kondisi Racun ini adalah 2."
 		},
 
 		cost: ["Colorless"]

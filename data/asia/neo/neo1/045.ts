@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "slowpoke",
+		'ja-jp': "slowpoke",
 	},
 
 	rarity: "Common",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "PsyShock",
+				'ja-jp': "PsyShock",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Water"],
 			name: {
-				ja: "ウォーターガン",
+				'ja-jp': "ウォーターガン",
 			},
 			effect: {
-				ja: "10ダメージに加えて、スローポークに付着した水エネルギーごとに10ダメージを加えて10ダメージを与えますが、この攻撃のエネルギーコストの支払いには使用されません。この方法で20以上のダメージを追加することはできません。",
+				'ja-jp': "10ダメージに加えて、スローポークに付着した水エネルギーごとに10ダメージを加えて10ダメージを与えますが、この攻撃のエネルギーコストの支払いには使用されません。この方法で20以上のダメージを追加することはできません。",
 			},
 		},
 	],

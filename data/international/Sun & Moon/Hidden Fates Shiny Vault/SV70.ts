@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Darkrai-GX",
-		fr: "Darkrai-GX",
+		'en-us': "Darkrai-GX",
+		'fr-fr': "Darkrai-GX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Shiny rare",
@@ -25,12 +25,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Restoration",
-				fr: "Renouveau",
+				'en-us': "Restoration",
+				'fr-fr': "Renouveau",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if this Pokémon is in your discard pile, you may put it onto your Bench. Then, attach a Darkness Energy card from your discard pile to this Pokémon.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon se trouve dans votre pile de défausse, vous pouvez le placer sur votre Banc. Ensuite, attachez une carte Énergie Darkness de votre pile de défausse à ce Pokémon.",
+				'en-us': "Once during your turn (before your attack), if this Pokémon is in your discard pile, you may put it onto your Bench. Then, attach a Darkness Energy card from your discard pile to this Pokémon.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon se trouve dans votre pile de défausse, vous pouvez le placer sur votre Banc. Ensuite, attachez une carte Énergie Darkness de votre pile de défausse à ce Pokémon.",
 			},
 		},
 	],
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Cleave",
-				fr: "Pénombre Pourfendue",
+				'en-us': "Dark Cleave",
+				'fr-fr': "Pénombre Pourfendue",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 130,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dead End-GX",
-				fr: "Sans Issue-GX",
+				'en-us': "Dead End-GX",
+				'fr-fr': "Sans Issue-GX",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is affected by a Special Condition, that Pokémon is Knocked Out. (You can't use more than 1 GX attack in a game.)",
-				fr: "Si le Pokémon Actif de votre adversaire est affecté par un État Spécial, ce dernier est mis K.O. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'en-us': "If your opponent's Active Pokémon is affected by a Special Condition, that Pokémon is Knocked Out. (You can't use more than 1 GX attack in a game.)",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est affecté par un État Spécial, ce dernier est mis K.O. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 
 		},

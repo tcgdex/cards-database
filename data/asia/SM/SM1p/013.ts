@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニョロトノ",
+		'ja-jp': "ニョロトノ",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "月夜に 集まり 大合唱。 その鳴き声は 怒鳴り声のようで 美しくはないが 味が あるぞ。",
+		'ja-jp': "月夜に 集まり 大合唱。 その鳴き声は 怒鳴り声のようで 美しくはないが 味が あるぞ。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "てんこをとる" },
 			cost: ["Water"],
 			effect: {
-				ja: "自分の山札にある「ニョロモ」「ニョロゾ」「ニョロボン」を1枚ずつ、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札にある「ニョロモ」「ニョロゾ」「ニョロボン」を1枚ずつ、ベンチに出す。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "のぞむなら、このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
+				'ja-jp': "のぞむなら、このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニョロゾ",
+		'ja-jp': "ニョロゾ",
 	},
 
 	retreat: 1,

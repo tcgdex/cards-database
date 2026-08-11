@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "博士の研究",
+		'ja-jp': "博士の研究",
 	},
 
 	illustrator: "Taira Akitsu",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の手札をすべてトラッシュし、山札を7枚引く。 サポートは、自分の番に1枚しか使えない。",
+		'ja-jp': "自分の手札をすべてトラッシュし、山札を7枚引く。 サポートは、自分の番に1枚しか使えない。",
 	},
 
 	variants: [{ type: "normal" }, { type: "reverse", foil: "pokeball" }],

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Eevee"
+		'en-us': "Lt. Surge's Eevee"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surprise"
+				'en-us': "Surprise"
 			},
 			effect: {
-				en: "Look at a random card from your opponent's hand. Your opponent shuffles that card into his or her deck."
+				'en-us': "Look at a random card from your opponent's hand. Your opponent shuffles that card into his or her deck."
 			},
 
 		},
@@ -40,7 +40,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch"
+				'en-us': "Scratch"
 			},
 
 			damage: 20,

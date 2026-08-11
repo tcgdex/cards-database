@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Nincada",
-		fr: "Ningale",
-		de: "Nincada"
+		'en-us': "Nincada",
+		'fr-fr': "Ningale",
+		'de-de': "Nincada"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,
@@ -44,14 +44,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Big Bite",
-				fr: "Grosse morsure",
-				de: "Mächtiger Biss"
+				'en-us': "Big Bite",
+				'fr-fr': "Grosse morsure",
+				'de-de': "Mächtiger Biss"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
-				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				'de-de': "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 
 		},
@@ -67,8 +67,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It grows underground, sensing its surroundings using antennae instead of its virtually blind eyes.",
-		fr: "Il grandit sous terre et se repère grâce à ses antennes car ses yeux sont quasiment aveugles."
+		'en-us': "It grows underground, sensing its surroundings using antennae instead of its virtually blind eyes.",
+		'fr-fr': "Il grandit sous terre et se repère grâce à ses antennes car ses yeux sont quasiment aveugles."
 	},
 
 	thirdParty: {

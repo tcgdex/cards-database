@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シシコ",
+		'ja-jp': "シシコ",
 	},
 
 	illustrator: "Whisker",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "強敵と 戦い 体と 心が 鍛えられた シシコほど たてがみの 温度は 高くなる。",
+		'ja-jp': "強敵と 戦い 体と 心が 鍛えられた シシコほど たてがみの 温度は 高くなる。",
 	},
 
 	stage: "Basic",

@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
-import serie from '../Pokémon TCG Pocket'
+import { Set } from 'models/database/set'
+import serie from '../A'
 
 const set: Set = {
 	id: "P-A",
 
 	name: {
-		de: "PROMO-A",
-		en: "Promos-A",
-		es: "Promo-A",
-		fr: "Promo-A",
-		it: "Promo-A",
-		ko: "Promo-A",
+		'de-de': "PROMO-A",
+		'en-us': "Promos-A",
+		'es-es': "Promo-A",
+		'fr-fr': "Promo-A",
+		'it-it': "Promo-A",
+		'ko-kr': "Promo-A",
 		'pt-br': "Promo-A"
 	},
 
@@ -23,52 +23,52 @@ const set: Set = {
 	boosters: {
 		vol1: {
 			name : {
-				en: 'Vol. 1'
+				'en-us': 'Vol. 1'
 			}
 		},
 		vol2: {
 			name : {
-				en: 'Vol. 2'
+				'en-us': 'Vol. 2'
 			}
 		},
 		vol3: {
 			name : {
-				en: 'Vol. 3'
+				'en-us': 'Vol. 3'
 			}
 		},
 		vol4: {
 			name : {
-				en: 'Vol. 4'
+				'en-us': 'Vol. 4'
 			}
 		},
 		vol5: {
 			name : {
-				en: 'Vol. 5'
+				'en-us': 'Vol. 5'
 			}
 		},
 		vol6: {
 			name : {
-				en: 'Vol. 6'
+				'en-us': 'Vol. 6'
 			}
 		},
 		vol7: {
 			name : {
-				en: 'Vol. 7'
+				'en-us': 'Vol. 7'
 			}
 		},
 		vol8: {
 			name : {
-				en: 'Vol. 8'
+				'en-us': 'Vol. 8'
 			}
 		},
 		vol9: {
 			name : {
-				en: 'Vol. 9'
+				'en-us': 'Vol. 9'
 			}
 		},
 		vol10: {
 			name : {
-				en: 'Vol. 10'
+				'en-us': 'Vol. 10'
 			}
 		}
 	},

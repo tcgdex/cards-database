@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Houndoom",
-		de: "Hundemon"
+		'en-us': "Houndoom",
+		'de-de': "Hundemon"
 	},
 
 	illustrator: "Kimiya Masago",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Houndour",
+		'en-us': "Houndour",
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ambush",
-				de: "Hinterhalt"
+				'en-us': "Ambush",
+				'de-de': "Hinterhalt"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lonely Fang",
-				de: "Einzelner Reißzahn"
+				'en-us': "Lonely Fang",
+				'de-de': "Einzelner Reißzahn"
 			},
 			effect: {
-				en: "This attack does 30 damage plus 20 damage times the number of your opponent's Benched Pokémon minus the number of your Benched Pokémon. (For example, if your opponent has 3 Benched Pokémon and you have 1, this attack will do 30 damage plus 40 more damage.)",
-				de: "Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jedes Pokémon auf der Bank deines Gegners minus 20 Schadenspunkte für jedes Pokémon auf deiner Bank zu. (Hat zum Beispiel dein Gegner 3 Pokémon auf seiner Bank und du nur 1 auf deiner, fügt dieser Angriff 30 Schadenspunkte plus 40 weitere Schadenspunkte zu.)"
+				'en-us': "This attack does 30 damage plus 20 damage times the number of your opponent's Benched Pokémon minus the number of your Benched Pokémon. (For example, if your opponent has 3 Benched Pokémon and you have 1, this attack will do 30 damage plus 40 more damage.)",
+				'de-de': "Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jedes Pokémon auf der Bank deines Gegners minus 20 Schadenspunkte für jedes Pokémon auf deiner Bank zu. (Hat zum Beispiel dein Gegner 3 Pokémon auf seiner Bank und du nur 1 auf deiner, fügt dieser Angriff 30 Schadenspunkte plus 40 weitere Schadenspunkte zu.)"
 			},
 			damage: "30+",
 

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zeraora"
+		'en-us': "Zeraora"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "It electrifies its claws and tears its opponents\napart with them. Even if they dodge its attack,\nthey'll be electrocuted by the flying sparks."
+		'en-us': "It electrifies its claws and tears its opponents\napart with them. Even if they dodge its attack,\nthey'll be electrocuted by the flying sparks."
 	},
 
 	stage: "Basic",
@@ -26,17 +26,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Thunderclap Flash"
+			'en-us': "Thunderclap Flash"
 		},
 
 		effect: {
-			en: "At the end of your first turn, take a {L} Energy from your Energy Zone and attach it to this Pokémon."
+			'en-us': "At the end of your first turn, take a {L} Energy from your Energy Zone and attach it to this Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Lightning Claw"
+			'en-us': "Lightning Claw"
 		},
 
 		damage: 50,

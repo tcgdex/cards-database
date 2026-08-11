@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マナフィ",
+		'ja-jp': "マナフィ",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "どんな ポケモンとでも 心を 通い合わせる ことが できる 不思議な 能力を 持っている。",
+		'ja-jp': "どんな ポケモンとでも 心を 通い合わせる ことが できる 不思議な 能力を 持っている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "しんそうかいりゅう" },
 			cost: ["Water"],
 			effect: {
-				ja: "自分のトラッシュにある[水]エネルギーを5枚、相手に見せてから、山札にもどして切る。",
+				'ja-jp': "自分のトラッシュにある[水]エネルギーを5枚、相手に見せてから、山札にもどして切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Water"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 	],

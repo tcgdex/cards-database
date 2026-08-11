@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Skarmory",
-		fr: "Airmure",
-		de: "Panzaeron"
+		'en-us': "Skarmory",
+		'fr-fr': "Airmure",
+		'de-de': "Panzaeron"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,15 +32,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Claw",
-				fr: "Mâchoire",
-				de: "Claw"
+				'en-us': "Claw",
+				'fr-fr': "Mâchoire",
+				'de-de': "Claw"
 			},
 
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'de-de': "Flip a coin. If tails, this attack does nothing."
 			},
 
 			damage: 20
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steel Wing",
-				fr: "Aile d'acier",
-				de: "Steel Wing"
+				'en-us': "Steel Wing",
+				'fr-fr': "Aile d'acier",
+				'de-de': "Steel Wing"
 			},
 			effect: {
-				en: "Flip a coin. If heads, all damage done by attacks to Skarmory during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Lancez une pièce. Si c'est face, tous les dégâts infligés à Airmure par des attaques pendant le prochain tour de votre adversaire sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
-				de: "Flip a coin. If heads, all damage done by attacks to Skarmory during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance)."
+				'en-us': "Flip a coin. If heads, all damage done by attacks to Skarmory during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Lancez une pièce. Si c'est face, tous les dégâts infligés à Airmure par des attaques pendant le prochain tour de votre adversaire sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Flip a coin. If heads, all damage done by attacks to Skarmory during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance)."
 			},
 			damage: 30,
 
@@ -83,8 +83,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its sturdy wings look heavy, but they are actually hollow and light, allowing it to fly freely in the sky.",
-		fr: "Ses ailes solides semblent lourdes, mais elles sont en fait creuses et légères, lui permettant de voler librement dans le ciel."
+		'en-us': "Its sturdy wings look heavy, but they are actually hollow and light, allowing it to fly freely in the sky.",
+		'fr-fr': "Ses ailes solides semblent lourdes, mais elles sont en fait creuses et légères, lui permettant de voler librement dans le ciel."
 	},
 
 

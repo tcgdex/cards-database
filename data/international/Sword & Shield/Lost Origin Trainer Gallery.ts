@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sword & Shield'
 
 const swsh11tg: Set = {
 	id: "swsh11tg",
 
 	name: {
-		en: "Lost Origin Trainer Gallery",
-		fr: "Origine Perdue Galerie de Dresseurs",
-		es: "Origen Perdido Galería de Entrenador",
-		it: "Origine Perduta Galleria Allenatori",
-		de: "Verlorener Ursprung Trainer-Galerie",
-		pt: "Origem Perdida Galeria de Treinador"
+		'en-us': "Lost Origin Trainer Gallery",
+		'fr-fr': "Origine Perdue Galerie de Dresseurs",
+		'es-es': "Origen Perdido Galería de Entrenador",
+		'it-it': "Origine Perduta Galleria Allenatori",
+		'de-de': "Verlorener Ursprung Trainer-Galerie",
+		'pt-br': "Origem Perdida Galeria de Treinador"
 	},
 
 	tcgOnline: 'LOR',

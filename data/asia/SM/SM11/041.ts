@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ギルガルド",
+		'ja-jp': "ギルガルド",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "歴代の 王が 連れていた。 霊力で 人や ポケモンの 心を 操り 従わせる。",
+		'ja-jp': "歴代の 王が 連れていた。 霊力で 人や ポケモンの 心を 操り 従わせる。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "くちないつるぎ" },
 			effect: {
-				ja: "このポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、トラッシュせず、手札にもどす。（ポケモン以外のカードは、すべてトラッシュする。）",
+				'ja-jp': "このポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、トラッシュせず、手札にもどす。（ポケモン以外のカードは、すべてトラッシュする。）",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "10×",
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュにあるグッズの枚数×10ダメージ。与えられるダメージはグッズ13枚ぶんまで。",
+				'ja-jp': "自分のトラッシュにあるグッズの枚数×10ダメージ。与えられるダメージはグッズ13枚ぶんまで。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニダンギル",
+		'ja-jp': "ニダンギル",
 	},
 
 	retreat: 3,

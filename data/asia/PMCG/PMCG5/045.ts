@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タケシのマンキー",
+		'ja-jp': "タケシのマンキー",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "フィジェット",
+				'ja-jp': "フィジェット",
 			},
 			effect: {
-				ja: "デッキをシャッフルします。",
+				'ja-jp': "デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "空手チョップ",
+				'ja-jp': "空手チョップ",
 			},
 			effect: {
-				ja: "BrockのMankeyの各ダメージカウンターに対して40ダメージから10ダメージを差し引いて10ダメージを除きます。",
+				'ja-jp': "BrockのMankeyの各ダメージカウンターに対して40ダメージから10ダメージを差し引いて10ダメージを除きます。",
 			},
 		},
 	],

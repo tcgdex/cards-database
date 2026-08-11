@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Numel"
+		'id-id': "Numel"
 	},
 
 	illustrator: "Mina Nakai",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Magma bersuhu 1200 ℃ membara di dalam tubuh Numel. Pergerakan Pokémon ini menjadi lamban karena magma tersebut mengeras ketika suhu udara menjadi dingin."
+		'id-id': "Magma bersuhu 1200 ℃ membara di dalam tubuh Numel. Pergerakan Pokémon ini menjadi lamban karena magma tersebut mengeras ketika suhu udara menjadi dingin."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menghanguskan"
+			'id-id': "Menghanguskan"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
 		},
 
 		cost: ["Fire"]
 	}, {
 		name: {
-			id: "Heat Blast"
+			'id-id': "Heat Blast"
 		},
 
 		damage: 60,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Paras",
-		fr: "Paras",
-		de: "Paras"
+		'en-us': "Paras",
+		'fr-fr': "Paras",
+		'de-de': "Paras"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sleep Spore",
-				fr: "Spore dodo",
-				de: "Schlafsporen"
+				'en-us': "Sleep Spore",
+				'fr-fr': "Spore dodo",
+				'de-de': "Schlafsporen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
-				de: "Wirf eine Münze. Bei 'Kopf' schläft das verteidigende Pokémon jetzt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' schläft das verteidigende Pokémon jetzt."
 			},
 			damage: 10,
 
@@ -49,9 +49,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Kratzer"
 			},
 
 			damage: 20,
@@ -69,8 +69,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It is doused with mushroom spores when it is born. As its body grows, mushrooms sprout from its back.",
-		fr: "Il est recouvert de spores de champignons à sa naissance. Quand il grandit, des champignons lui poussent sur le dos."
+		'en-us': "It is doused with mushroom spores when it is born. As its body grows, mushrooms sprout from its back.",
+		'fr-fr': "Il est recouvert de spores de champignons à sa naissance. Quand il grandit, des champignons lui poussent sur le dos."
 	},
 
 

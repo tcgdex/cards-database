@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Vigoroth",
-		fr: "Vigoroth",
-		de: "Muntier"
+		'en-us': "Vigoroth",
+		'fr-fr': "Vigoroth",
+		'de-de': "Muntier"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Slakoth",
-		fr: "Parecool"
+		'en-us': "Slakoth",
+		'fr-fr': "Parecool"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Focus Energy",
-				fr: "Puissance",
-				de: "Focus Energy"
+				'en-us': "Focus Energy",
+				'fr-fr': "Puissance",
+				'de-de': "Focus Energy"
 			},
 			effect: {
-				en: "During your next turn, base damage of Vigoroth's Slash is attack is 90 instead of 40.",
-				fr: "Lors de votre prochain tour, les dégâts de base de l'attaque Tranche de Vigoroth sont de 90 et non de 40.",
-				de: "Durig your next turn, base damage of Vigoroth's Slash is attack is 90 instead of 40."
+				'en-us': "During your next turn, base damage of Vigoroth's Slash is attack is 90 instead of 40.",
+				'fr-fr': "Lors de votre prochain tour, les dégâts de base de l'attaque Tranche de Vigoroth sont de 90 et non de 40.",
+				'de-de': "Durig your next turn, base damage of Vigoroth's Slash is attack is 90 instead of 40."
 			},
 
 		},
@@ -52,9 +52,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Slash"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Slash"
 			},
 
 			damage: 40,

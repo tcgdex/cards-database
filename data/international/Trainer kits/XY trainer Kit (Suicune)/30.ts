@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY trainer Kit (Suicune)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Suicune",
-		fr: "Suicune",
-		es: "Suicune",
-		it: "Suicune",
-		pt: "Suicune",
-		de: "Suicune"
+		'en-us': "Suicune",
+		'fr-fr': "Suicune",
+		'es-es': "Suicune",
+		'it-it': "Suicune",
+		'pt-br': "Suicune",
+		'de-de': "Suicune"
 	},
 
 	rarity: "None",
@@ -23,25 +23,25 @@ const card: Card = {
 	illustrator: "Yoshinobu Saito",
 
 	description: {
-		en: "Said to be the embodiment of north winds, it can instantly purify filthy, murky water."
+		'en-us': "Said to be the embodiment of north winds, it can instantly purify filthy, murky water."
 	},
 
 	attacks: [{
 		name: {
-			en: "Spiral Drain",
-			fr: "Spirale Épuisante"
+			'en-us': "Spiral Drain",
+			'fr-fr': "Spirale Épuisante"
 		},
 
 		damage: 20,
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon.",
-			fr: "Soignez 20 dégâts à ce Pokémon."
+			'en-us': "Heal 20 damage from this Pokémon.",
+			'fr-fr': "Soignez 20 dégâts à ce Pokémon."
 		}
 	}, {
 		name: {
-			en: "Aurora Beam",
-			fr: "Onde Boréale"
+			'en-us': "Aurora Beam",
+			'fr-fr': "Onde Boréale"
 		},
 
 		damage: 80

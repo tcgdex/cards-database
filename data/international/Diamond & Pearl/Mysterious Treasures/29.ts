@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Mantine",
-		fr: "Demanta",
-		de: "Mantax"
+		'en-us': "Mantine",
+		'fr-fr': "Demanta",
+		'de-de': "Mantax"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Jumbo Fin",
-				fr: "Nageoire géante",
-				de: "Riesenflosse"
+				'en-us': "Jumbo Fin",
+				'fr-fr': "Nageoire géante",
+				'de-de': "Riesenflosse"
 			},
 			effect: {
-				en: "If Mantyke is anywhere under Mantine, the Retreat Cost for each of your Water Pokémon is ColorlessColorless less.",
-				fr: "Si Babimanta se trouve sous Demanta, le coût de retraite de chacun de vos Pokémon Water est ColorlessColorless de moins.",
-				de: "Wenn Mantirps sich an beliebiger Stelle unter Mantax befindet, sind die Rückzugskosten deiner -Pokémon um   reduziert."
+				'en-us': "If Mantyke is anywhere under Mantine, the Retreat Cost for each of your Water Pokémon is ColorlessColorless less.",
+				'fr-fr': "Si Babimanta se trouve sous Demanta, le coût de retraite de chacun de vos Pokémon Water est ColorlessColorless de moins.",
+				'de-de': "Wenn Mantirps sich an beliebiger Stelle unter Mantax befindet, sind die Rückzugskosten deiner -Pokémon um   reduziert."
 			},
 		},
 	],
@@ -48,14 +48,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Giant Wave",
-				fr: "Vague géante",
-				de: "Riesenwelle"
+				'en-us': "Giant Wave",
+				'fr-fr': "Vague géante",
+				'de-de': "Riesenwelle"
 			},
 			effect: {
-				en: "Mantine can't use Giant Wave during your next turn.",
-				fr: "Demanta ne peut pas utiliser Vague géante lors de votre prochain tour.",
-				de: "Mantax kann Riesenwelle in deinem nächsten Zug nicht einsetzen."
+				'en-us': "Mantine can't use Giant Wave during your next turn.",
+				'fr-fr': "Demanta ne peut pas utiliser Vague géante lors de votre prochain tour.",
+				'de-de': "Mantax kann Riesenwelle in deinem nächsten Zug nicht einsetzen."
 			},
 			damage: 50,
 
@@ -79,8 +79,8 @@ const card: Card = {
 
 
 	description: {
-		en: "When the waves are calm, one may encounter a swarm of Mantine swimming as if they are in flight.",
-		fr: "Lorsque la mer est calme, il arrive de croiser un banc de Démanta nageant comme s'il volaient."
+		'en-us': "When the waves are calm, one may encounter a swarm of Mantine swimming as if they are in flight.",
+		'fr-fr': "Lorsque la mer est calme, il arrive de croiser un banc de Démanta nageant comme s'il volaient."
 	},
 
 	thirdParty: {

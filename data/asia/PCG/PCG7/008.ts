@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG7"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ギャラドススター（デルタ種）",
+		'ja-jp': "ギャラドススター（デルタ種）",
 	},
 
 	rarity: "Shiny rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Fire", "Colorless"],
 			name: {
-				ja: "らせん成長",
+				'ja-jp': "らせん成長",
 			},
 			effect: {
-				ja: "尾がなくなるまでコインをひっくり返します。ヘッドごとに、廃棄パイルを検索して、基本的なエネルギーカードを調べ、Gyarados {{Star | This Pokemon}}に取り付けます。",
+				'ja-jp': "尾がなくなるまでコインをひっくり返します。ヘッドごとに、廃棄パイルを検索して、基本的なエネルギーカードを調べ、Gyarados {{Star | This Pokemon}}に取り付けます。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Fire", "Fire", "Fire", "Fire"],
 			name: {
-				ja: "全面的な爆発",
+				'ja-jp': "全面的な爆発",
 			},
 			effect: {
-				ja: "1枚のカードが残るまで、デッキの上部からカードを捨てます。この攻撃は、この方法で廃棄したエネルギーカードごとに50のダメージと20のダメージを与えます。",
+				'ja-jp': "1枚のカードが残るまで、デッキの上部からカードを捨てます。この攻撃は、この方法で廃棄したエネルギーカードごとに50のダメージと20のダメージを与えます。",
 			},
 		},
 	],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Basculin",
-		fr: "Bargantua",
-		es: "Basculin",
-		it: "Basculin",
-		pt: "Basculin",
-		de: "Barschuft"
+		'en-us': "Basculin",
+		'fr-fr': "Bargantua",
+		'es-es': "Basculin",
+		'it-it': "Basculin",
+		'pt-br': "Basculin",
+		'de-de': "Barschuft"
 	},
 
 	illustrator: "match",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flail",
-				fr: "Fléau",
+				'en-us': "Flail",
+				'fr-fr': "Fléau",
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on this Pokémon.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon.",
+				'en-us': "Does 10 damage times the number of damage counters on this Pokémon.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon.",
 			},
 			damage: 10,
 
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Final Gambit",
-				fr: "Tout ou Rien",
+				'en-us': "Final Gambit",
+				'fr-fr': "Tout ou Rien",
 			},
 			effect: {
-				en: "Flip 2 coins. If both of them are tails, this Pokémon does 80 damage to itself.",
-				fr: "Lancez 2 pièces. Si vous obtenez 2 côtés pile, ce Pokémon s'inflige 80 dégâts.",
+				'en-us': "Flip 2 coins. If both of them are tails, this Pokémon does 80 damage to itself.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez 2 côtés pile, ce Pokémon s'inflige 80 dégâts.",
 			},
 			damage: 80,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Red and blue Basculin get along so poorly, they'll start fighting instantly. These Pokémon are very hostile.",
+		'en-us': "Red and blue Basculin get along so poorly, they'll start fighting instantly. These Pokémon are very hostile.",
 	},
 
 	thirdParty: {

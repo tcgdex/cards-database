@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クレアのギャラドス",
+		'ja-jp': "クレアのギャラドス",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "麻痺する視線",
+				'ja-jp': "麻痺する視線",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 		},
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				ja: "スラッシュ",
+				'ja-jp': "スラッシュ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は30ダメージに加えて10ダメージを与えます。テールの場合、クレアのギャラドスはそれ自体に10ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は30ダメージに加えて10ダメージを与えます。テールの場合、クレアのギャラドスはそれ自体に10ダメージを与えます。",
 			},
 		},
 	],

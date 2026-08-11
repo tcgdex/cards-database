@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤンチャム",
+		'ja-jp': "ヤンチャム",
 	},
 
 	illustrator: "TOKIYA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "親分の ように 慕っている ゴロンダの 仕草を 真似ながら 一人前に なっていくぞ。",
+		'ja-jp': "親分の ように 慕っている ゴロンダの 仕草を 真似ながら 一人前に なっていくぞ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "からてチョップ 60-" },
 			cost: ["Fighting", "Fighting"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数x10ダメージぶん、このワザのダメージは小さくなる。",
+				'ja-jp': "このポケモンにのっているダメカンの数x10ダメージぶん、このワザのダメージは小さくなる。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Remoraid",
-		de: "Remoraid"
+		'en-us': "Remoraid",
+		'de-de': "Remoraid"
 	},
 
 	illustrator: "Midori Harada",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Draw",
-				de: "Energy Draw"
+				'en-us': "Energy Draw",
+				'de-de': "Energy Draw"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your deck for a basic Energy card and attach it to Remoraid. Shuffle your deck afterward.",
-				de: "Flip a coin. If heads, search your deck for a basic Energy card and attach it to Remoraid. Shuffle your deck afterward."
+				'en-us': "Flip a coin. If heads, search your deck for a basic Energy card and attach it to Remoraid. Shuffle your deck afterward.",
+				'de-de': "Flip a coin. If heads, search your deck for a basic Energy card and attach it to Remoraid. Shuffle your deck afterward."
 			},
 
 		},
@@ -44,8 +44,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Razor Fin",
-				de: "Razor Fin"
+				'en-us': "Razor Fin",
+				'de-de': "Razor Fin"
 			},
 
 			damage: 10,

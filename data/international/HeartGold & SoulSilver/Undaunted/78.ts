@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Team Rocket's Trickery",
-		fr: "Fourberie de la Team Rocket",
-		de: "Team Rockets Trickserei"
+		'en-us': "Team Rocket's Trickery",
+		'fr-fr': "Fourberie de la Team Rocket",
+		'de-de': "Team Rockets Trickserei"
 	},
 
 	illustrator: "Takao Unno",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Piochez 2 cartes. Ensuite, votre adversaire défausse une carte de sa main.",
-		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Draw 2 cards. Then, your opponent discards a card from his or her hand.",
-		de: "Ziehe 2 Karten. Anschließend legt dein Gegner 1 seiner Handkarten auf seinen Ablagestapel."
+		'fr-fr': "Piochez 2 cartes. Ensuite, votre adversaire défausse une carte de sa main.",
+		'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Draw 2 cards. Then, your opponent discards a card from his or her hand.",
+		'de-de': "Ziehe 2 Karten. Anschließend legt dein Gegner 1 seiner Handkarten auf seinen Ablagestapel."
 	},
 
 	trainerType: "Supporter",

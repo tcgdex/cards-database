@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hisuian Lilligant",
-		fr: "Fragilady de Hisui",
-		es: "Lilligant de Hisui",
-		it: "Lilligant di Hisui",
-		pt: "Lilligant de Hisui",
-		de: "Hisui-Dressella"
+		'en-us': "Hisuian Lilligant",
+		'fr-fr': "Fragilady de Hisui",
+		'es-es': "Lilligant de Hisui",
+		'it-it': "Lilligant di Hisui",
+		'pt-br': "Lilligant de Hisui",
+		'de-de': "Hisui-Dressella"
 	},
 
 	illustrator: "Mizue",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Petilil",
-		fr: "Chlorobule",
-		es: "Petilil",
-		it: "Petilil",
-		pt: "Petilil",
-		de: "Lilminip"
+		'en-us': "Petilil",
+		'fr-fr': "Chlorobule",
+		'es-es': "Petilil",
+		'it-it': "Petilil",
+		'pt-br': "Petilil",
+		'de-de': "Lilminip"
 	},
 
 	stage: "Stage1",
@@ -35,32 +35,32 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Twister Lutz",
-			fr: "Lutz Tournoyant",
-			es: "Tornado Lutz",
-			it: "Lutz Tornado",
-			pt: "Tornado Rodopiante",
-			de: "Lutzwirbel"
+			'en-us': "Twister Lutz",
+			'fr-fr': "Lutz Tournoyant",
+			'es-es': "Tornado Lutz",
+			'it-it': "Lutz Tornado",
+			'pt-br': "Tornado Rodopiante",
+			'de-de': "Lutzwirbel"
 		},
 
 		effect: {
-			en: "This attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.) Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-			es: "Este ataque hace 20 puntos de daño a cada uno de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca). Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-			it: "Questo attacco infligge 20 danni a ciascuno dei Pokémon del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina. Scambia questo Pokémon con uno della tua panchina.",
-			pt: "Este ataque causa 20 pontos de dano a cada um dos Pokémon do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco). Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-			de: "Diese Attacke fügt jedem Pokémon deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+			'en-us': "This attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Switch this Pokémon with 1 of your Benched Pokémon.",
+			'fr-fr': "Cette attaque inflige 20 dégâts à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.) Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'es-es': "Este ataque hace 20 puntos de daño a cada uno de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca). Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+			'it-it': "Questo attacco infligge 20 danni a ciascuno dei Pokémon del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina. Scambia questo Pokémon con uno della tua panchina.",
+			'pt-br': "Este ataque causa 20 pontos de dano a cada um dos Pokémon do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco). Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+			'de-de': "Diese Attacke fügt jedem Pokémon deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 		}
 	}, {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Leaf Step",
-			fr: "Enjambée de Feuillage",
-			es: "Paso Hoja",
-			it: "Passofoglia",
-			pt: "Passo de Folha",
-			de: "Blattschritt"
+			'en-us': "Leaf Step",
+			'fr-fr': "Enjambée de Feuillage",
+			'es-es': "Paso Hoja",
+			'it-it': "Passofoglia",
+			'pt-br': "Passo de Folha",
+			'de-de': "Blattschritt"
 		},
 
 		damage: 100
@@ -77,7 +77,7 @@ const card: Card = {
 
 
 	description: {
-		en: "I suspect that its well-developed legs are the result of a life spent on mountains covered in deep snow. The scent it exudes from its flower crown heartens those in proximity.",
+		'en-us': "I suspect that its well-developed legs are the result of a life spent on mountains covered in deep snow. The scent it exudes from its flower crown heartens those in proximity.",
 	},
 
 	variants: [

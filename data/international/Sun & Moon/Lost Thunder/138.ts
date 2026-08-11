@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Granbull",
-		fr: "Granbull",
-		es: "Granbull",
-		it: "Granbull",
-		pt: "Granbull",
-		de: "Granbull"
+		'en-us': "Granbull",
+		'fr-fr': "Granbull",
+		'es-es': "Granbull",
+		'it-it': "Granbull",
+		'pt-br': "Granbull",
+		'de-de': "Granbull"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Snubbull",
-		fr: "Snubbull",
+		'en-us': "Snubbull",
+		'fr-fr': "Snubbull",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "All Out",
-				fr: "À Fond",
-				es: "A por Todas",
-				it: "A Tutta Forza",
-				pt: "Esgotado",
-				de: "Aufs Ganze gehen"
+				'en-us': "All Out",
+				'fr-fr': "À Fond",
+				'es-es': "A por Todas",
+				'it-it': "A Tutta Forza",
+				'pt-br': "Esgotado",
+				'de-de': "Aufs Ganze gehen"
 			},
 			effect: {
-				en: "If you have no cards in your hand, this attack does 130 more damage.",
-				fr: "Si vous n’avez aucune carte dans votre main, cette attaque inflige 130 dégâts supplémentaires.",
-				es: "Si no tienes ninguna carta en tu mano, este ataque hace 130 puntos de daño más.",
-				it: "Se non hai carte in mano, questo attacco infligge 130 danni in più.",
-				pt: "Se você não tiver cartas na sua mão, este ataque causará 130 pontos de dano a mais.",
-				de: "Wenn du keine Karten auf deiner Hand hast, fügt diese Attacke 130 Schadenspunkte mehr zu."
+				'en-us': "If you have no cards in your hand, this attack does 130 more damage.",
+				'fr-fr': "Si vous n’avez aucune carte dans votre main, cette attaque inflige 130 dégâts supplémentaires.",
+				'es-es': "Si no tienes ninguna carta en tu mano, este ataque hace 130 puntos de daño más.",
+				'it-it': "Se non hai carte in mano, questo attacco infligge 130 danni in più.",
+				'pt-br': "Se você não tiver cartas na sua mão, este ataque causará 130 pontos de dano a mais.",
+				'de-de': "Wenn du keine Karten auf deiner Hand hast, fügt diese Attacke 130 Schadenspunkte mehr zu."
 			},
 			damage: "30+",
 
@@ -64,12 +64,12 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Giant Fangs",
-				fr: "Crocs Géants",
-				es: "Colmillos Gigantes",
-				it: "Zanne Giganti",
-				pt: "Presas Gigantes",
-				de: "Riesenbeißer"
+				'en-us': "Giant Fangs",
+				'fr-fr': "Crocs Géants",
+				'es-es': "Colmillos Gigantes",
+				'it-it': "Zanne Giganti",
+				'pt-br': "Presas Gigantes",
+				'de-de': "Riesenbeißer"
 			},
 
 			damage: 110,
@@ -94,7 +94,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "More timid than Snubbull, this Pokémon is doted on by young people amused at the contrast between its looks and its attitude.",
+		'en-us': "More timid than Snubbull, this Pokémon is doted on by young people amused at the contrast between its looks and its attitude.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エアームド",
+		'ja-jp': "エアームド",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "成長の度 抜け落ちる 羽は 薄く 鋭い。 昔の 戦士は 刀 として 利用した。",
+		'ja-jp': "成長の度 抜け落ちる 羽は 薄く 鋭い。 昔の 戦士は 刀 として 利用した。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "メタルサウンド" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "おたがいの場のポケモンについている特殊エネルギーを、すべてトラッシュする。",
+				'ja-jp': "おたがいの場のポケモンについている特殊エネルギーを、すべてトラッシュする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Metal", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、30ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、30ダメージ追加。",
 			},
 		},
 	],

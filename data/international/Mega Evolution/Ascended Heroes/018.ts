@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Team Rocket's Tarountula",
-		fr: "Tissenboule de la Team Rocket",
-		es: "Tarountula del Team Rocket",
+		'en-us': "Team Rocket's Tarountula",
+		'fr-fr': "Tissenboule de la Team Rocket",
+		'es-es': "Tarountula del Team Rocket",
 		'es-mx': "Tarountula del Equipo Rocket",
-		de: "Team Rockets Tarundel",
-		it: "Tarountula del Team Rocket",
-		pt: "Tarountula da Equipe Rocket"
+		'de-de': "Team Rockets Tarundel",
+		'it-it': "Tarountula del Team Rocket",
+		'pt-br': "Tarountula da Equipe Rocket"
 	},
 
 	illustrator: "Saboteri",
@@ -25,23 +25,23 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Take Down",
-			fr: "Bélier",
-			es: "Derribo",
+			'en-us': "Take Down",
+			'fr-fr': "Bélier",
+			'es-es': "Derribo",
 			'es-mx': "Derribo",
-			de: "Bodycheck",
-			it: "Riduttore",
-			pt: "Desmantelar"
+			'de-de': "Bodycheck",
+			'it-it': "Riduttore",
+			'pt-br': "Desmantelar"
 		},
 
 		effect: {
-			en: "This Pokémon also does 10 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
-			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
+			'en-us': "This Pokémon also does 10 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 10 dégâts.",
+			'es-es': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
 			'es-mx': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
-			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu.",
-			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo."
+			'de-de': "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu.",
+			'it-it': "Questo Pokémon infligge anche 10 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 10 pontos de dano a si mesmo."
 		},
 
 		damage: 30
@@ -57,7 +57,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon’s natural enemy.",
+		'en-us': "The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon’s natural enemy.",
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Tynamo"
+		'id-id': "Tynamo"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -14,21 +14,21 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Kekuatan listrik seekor Tynamo kecil, tapi gabungan banyak Tynamo dapat membuat listrik dengan kekuatan yang sama dengan petir."
+		'id-id': "Kekuatan listrik seekor Tynamo kecil, tapi gabungan banyak Tynamo dapat membuat listrik dengan kekuatan yang sama dengan petir."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Berpijar-pijar"
+			'id-id': "Berpijar-pijar"
 		},
 
 		damage: 10,
 		cost: ["Lightning"]
 	}, {
 		name: {
-			id: "Voltase Mini"
+			'id-id': "Voltase Mini"
 		},
 
 		damage: 30,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Salazzle",
-		fr: "Malamandre",
-		es: "Salazzle",
-		it: "Salazzle",
-		pt: "Salazzle",
-		de: "Amfira"
+		'en-us': "Salazzle",
+		'fr-fr': "Malamandre",
+		'es-es': "Salazzle",
+		'it-it': "Salazzle",
+		'pt-br': "Salazzle",
+		'de-de': "Amfira"
 	},
 
 	illustrator: "aoki",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Salandit",
-		fr: "Tritox",
-		es: "Salandit",
-		it: "Salandit",
-		pt: "Salandit",
-		de: "Molunk"
+		'en-us': "Salandit",
+		'fr-fr': "Tritox",
+		'es-es': "Salandit",
+		'it-it': "Salandit",
+		'pt-br': "Salandit",
+		'de-de': "Molunk"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Tail Trickery",
-			fr: "Queue Étourdissante",
-			es: "Cola Engaño",
-			it: "Confondicoda",
-			pt: "Truques de Cauda",
-			de: "Schweiftrick"
+			'en-us': "Tail Trickery",
+			'fr-fr': "Queue Étourdissante",
+			'es-es': "Cola Engaño",
+			'it-it': "Confondicoda",
+			'pt-br': "Truques de Cauda",
+			'de-de': "Schweiftrick"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
 		damage: 20
@@ -57,21 +57,21 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Super Singe",
-			fr: "Super Roussi",
-			es: "Superquemadura",
-			it: "Super Scottata",
-			pt: "Superchamuscada",
-			de: "Super-Versengung"
+			'en-us': "Super Singe",
+			'fr-fr': "Super Roussi",
+			'es-es': "Superquemadura",
+			'it-it': "Super Scottata",
+			'pt-br': "Superchamuscada",
+			'de-de': "Super-Versengung"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+			'en-us': "Your opponent's Active Pokémon is now Burned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 		},
 
 		damage: 60
@@ -88,7 +88,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Only female Salazzle exist. They emit a gas laden with pheromones to captivate male Salandit.",
+		'en-us': "Only female Salazzle exist. They emit a gas laden with pheromones to captivate male Salandit.",
 	},
 
 	

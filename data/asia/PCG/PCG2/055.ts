@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "テイロウ",
+		'ja-jp': "テイロウ",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "飛ぶ",
+				'ja-jp': "飛ぶ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、この攻撃は何もしません。頭の場合は、対戦相手の次のターン中にTaillowに対して行われたダメージを含む攻撃のすべての影響を防ぎます。",
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃は何もしません。頭の場合は、対戦相手の次のターン中にTaillowに対して行われたダメージを含む攻撃のすべての影響を防ぎます。",
 			},
 			damage: 10,
 		},

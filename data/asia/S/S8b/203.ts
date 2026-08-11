@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナゲツケサル",
+		'ja-jp': "ナゲツケサル",
 	},
 
 	illustrator: "nagimiso",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "２０匹ほどの グループで 暮らす。 決まった 役割を こなすことで 厳しい 自然を 生き抜いてきた。",
+		'ja-jp': "２０匹ほどの グループで 暮らす。 決まった 役割を こなすことで 厳しい 自然を 生き抜いてきた。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "スローイングコーチ" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分の「れんげき」のポケモンが使うワザの、相手のベンチの「ポケモンV・GX」へのダメージは「+30」される。この効果は、この特性を持つポケモンが何匹いても、重ならない。",
+				'ja-jp': "このポケモンがいるかぎり、自分の「れんげき」のポケモンが使うワザの、相手のベンチの「ポケモンV・GX」へのダメージは「+30」される。この効果は、この特性を持つポケモンが何匹いても、重ならない。",
 			},
 		},
 	],
@@ -33,7 +33,7 @@ const card: Card = {
 			name: { ja: "なげつける" },
 			cost: ["Fighting"],
 			effect: {
-				ja: "相手のポケモン1匹に、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

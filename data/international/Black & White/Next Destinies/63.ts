@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Riolu",
-		fr: "Riolu",
-		es: "Riolu",
-		it: "Riolu",
-		pt: "Riolu",
-		de: "Riolu"
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
+		'es-es': "Riolu",
+		'it-it': "Riolu",
+		'pt-br': "Riolu",
+		'de-de': "Riolu"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Punch",
-				fr: "Koud'Poing",
+				'en-us': "Punch",
+				'fr-fr': "Koud'Poing",
 			},
 
 			damage: 10,
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-Attaque",
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-Attaque",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 10,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves.",
+		'en-us': "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves.",
 	},
 
 	thirdParty: {

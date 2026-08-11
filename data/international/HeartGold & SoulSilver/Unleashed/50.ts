@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Larvitar",
-		fr: "Embrylex",
-		de: "Larvitar"
+		'en-us': "Larvitar",
+		'fr-fr': "Embrylex",
+		'de-de': "Larvitar"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mountain Eater",
-				fr: "Mange-montagne",
-				de: "Bergfresser"
+				'en-us': "Mountain Eater",
+				'fr-fr': "Mange-montagne",
+				'de-de': "Bergfresser"
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck. Then, remove 2 damage counters from Larvitar.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire. Ensuite, retirez 2 marqueurs de dégât à Embrylex.",
-				de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel. Entferne dann 2 Schadensmarken von Larvitar."
+				'en-us': "Discard the top card of your opponent's deck. Then, remove 2 damage counters from Larvitar.",
+				'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire. Ensuite, retirez 2 marqueurs de dégât à Embrylex.",
+				'de-de': "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel. Entferne dann 2 Schadensmarken von Larvitar."
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reckless Charge",
-				fr: "Attaque imprudente",
-				de: "Waghalsiger Sturmangriff"
+				'en-us': "Reckless Charge",
+				'fr-fr': "Attaque imprudente",
+				'de-de': "Waghalsiger Sturmangriff"
 			},
 			effect: {
-				en: "Larvitar does 10 damage to itself.",
-				fr: "Embrylex s’inflige 10 dégâts.",
-				de: "Larvitar fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Larvitar does 10 damage to itself.",
+				'fr-fr': "Embrylex s’inflige 10 dégâts.",
+				'de-de': "Larvitar fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow."
+		'en-us': "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow."
 	},
 
 	variants: [

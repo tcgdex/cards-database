@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Aerodactyl",
-		fr: "Ptéra",
-		es: "Aerodactyl",
-		it: "Aerodactyl",
-		pt: "Aerodactyl",
-		de: "Aerodactyl"
+		'en-us': "Aerodactyl",
+		'fr-fr': "Ptéra",
+		'es-es': "Aerodactyl",
+		'it-it': "Aerodactyl",
+		'pt-br': "Aerodactyl",
+		'de-de': "Aerodactyl"
 	},
 
 	illustrator: "kawayoo",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 30,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jet Draft",
-				fr: "Souffle Supersonique",
-				es: "Corriente Jet",
-				it: "Scia Jet",
-				pt: "Vento de Jato",
-				de: "Düsendurchzug"
+				'en-us': "Jet Draft",
+				'fr-fr': "Souffle Supersonique",
+				'es-es': "Corriente Jet",
+				'it-it': "Scia Jet",
+				'pt-br': "Vento de Jato",
+				'de-de': "Düsendurchzug"
 			},
 			effect: {
-				en: "Discard a Special Energy attached to your opponent's Active Pokémon.",
-				fr: "Défaussez une Énergie spéciale attachée au Pokémon Actif de votre adversaire.",
-				es: "Descarta 1 Energía Especial unida al Pokémon Activo de tu rival.",
-				it: "Scarta un'Energia speciale assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Descarte uma Energia Especial ligada ao Pokémon Ativo do seu oponente.",
-				de: "Lege 1 an das Aktive Pokémon deines Gegners angelegte Spezial-Energie auf den Ablagestapel deines Gegners."
+				'en-us': "Discard a Special Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Défaussez une Énergie spéciale attachée au Pokémon Actif de votre adversaire.",
+				'es-es': "Descarta 1 Energía Especial unida al Pokémon Activo de tu rival.",
+				'it-it': "Scarta un'Energia speciale assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Descarte uma Energia Especial ligada ao Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 1 an das Aktive Pokémon deines Gegners angelegte Spezial-Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 120,
 
@@ -88,16 +88,16 @@ const card: Card = {
 	retreat: 0,
 
 	evolveFrom: {
-		en: "Old Amber Aerodactyl",
-		fr: "Vieil Ambre Ptéra",
-		es: "Ámbar Viejo Aerodactyl",
-		it: "Ambra Antica di Aerodactyl",
-		pt: "Âmbar Velho de Aerodactyl",
-		de: "Altbernstein Aerodactyl"
+		'en-us': "Old Amber Aerodactyl",
+		'fr-fr': "Vieil Ambre Ptéra",
+		'es-es': "Ámbar Viejo Aerodactyl",
+		'it-it': "Ambra Antica di Aerodactyl",
+		'pt-br': "Âmbar Velho de Aerodactyl",
+		'de-de': "Altbernstein Aerodactyl"
 	},
 
 	description: {
-		en: "This vicious Pokémon is said to have flown in ancient skies while shrieking high-pitched cries.",
+		'en-us': "This vicious Pokémon is said to have flown in ancient skies while shrieking high-pitched cries.",
 	},
 
 	thirdParty: {

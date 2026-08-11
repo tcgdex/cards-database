@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Luxio",
-		en: "Luxio",
-		es: "Luxio",
-		it: "Luxio",
-		pt: "Luxio",
-		de: "Luxio"
+		'fr-fr': "Luxio",
+		'en-us': "Luxio",
+		'es-es': "Luxio",
+		'it-it': "Luxio",
+		'pt-br': "Luxio",
+		'de-de': "Luxio"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Lightning"],
 	evolveFrom: {
-		fr: "Lixy",
-		en: "Shinx",
-		es: "Shinx",
-		it: "Shinx",
-		pt: "Shinx",
-		de: "Sheinux"
+		'fr-fr': "Lixy",
+		'en-us': "Shinx",
+		'es-es': "Shinx",
+		'it-it': "Shinx",
+		'pt-br': "Shinx",
+		'de-de': "Sheinux"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			fr: "Coup de Pied Ravageur",
-			en: "Zap Kick",
-			es: "Electropatada",
-			it: "Dinamocalcio",
-			pt: "Chute Zap",
-			de: "Stromtritt"
+			'fr-fr': "Coup de Pied Ravageur",
+			'en-us': "Zap Kick",
+			'es-es': "Electropatada",
+			'it-it': "Dinamocalcio",
+			'pt-br': "Chute Zap",
+			'de-de': "Stromtritt"
 		},
 
 		damage: 30
@@ -45,12 +45,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Éclair Frontal",
-			en: "Head Bolt",
-			es: "Rayo de Cabeza",
-			it: "Zuccalampo",
-			pt: "Raio de Cabeça",
-			de: "Kopf-Blitz"
+			'fr-fr': "Éclair Frontal",
+			'en-us': "Head Bolt",
+			'es-es': "Rayo de Cabeza",
+			'it-it': "Zuccalampo",
+			'pt-br': "Raio de Cabeça",
+			'de-de': "Kopf-Blitz"
 		},
 
 		damage: 60
@@ -87,7 +87,7 @@ const card: Card = {
 	illustrator: "Narumi Sato",
 
 	description: {
-		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+		'en-us': "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
 	},
 }
 

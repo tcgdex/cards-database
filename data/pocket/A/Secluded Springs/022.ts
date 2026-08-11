@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Milotic",
-		fr: "Milobellus"
+		'en-us': "Milotic",
+		'fr-fr': "Milobellus"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -18,12 +18,12 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Feebas"
+		'en-us': "Feebas"
 	},
 
 	description: {
-		en: "Milotic has provided inspiration to many artists.\nIt has even been referred to as the most\nbeautiful Pokémon of all.",
-		fr: "Célébré comme l'un des plus beaux Pokémon, il sert souvent de modèle et d'inspiration aux plus grands artistes."
+		'en-us': "Milotic has provided inspiration to many artists.\nIt has even been referred to as the most\nbeautiful Pokémon of all.",
+		'fr-fr': "Célébré comme l'un des plus beaux Pokémon, il sert souvent de modèle et d'inspiration aux plus grands artistes."
 	},
 
 	stage: "Stage1",
@@ -32,20 +32,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Healing Ripples",
-			fr: "Onde Apaisante"
+			'en-us': "Healing Ripples",
+			'fr-fr': "Onde Apaisante"
 		},
 
 		effect: {
-			en: "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may heal 60 damage from 1 of your {W} Pokémon.",
-			fr: "Une fois pendant votre tour, lorsque vous jouez ce Pokémon de votre main pour faire évoluer un de vos Pokémon, vous pouvez soigner 60 dégâts d'un de vos Pokémon {W}."
+			'en-us': "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may heal 60 damage from 1 of your {W} Pokémon.",
+			'fr-fr': "Une fois pendant votre tour, lorsque vous jouez ce Pokémon de votre main pour faire évoluer un de vos Pokémon, vous pouvez soigner 60 dégâts d'un de vos Pokémon {W}."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Aqua Edge",
-			fr: "Aqua-Dague"
+			'en-us': "Aqua Edge",
+			'fr-fr': "Aqua-Dague"
 		},
 
 		damage: 60,

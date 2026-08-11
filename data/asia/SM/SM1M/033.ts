@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スナバァ",
+		'ja-jp': "スナバァ",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "口の中に 手を 入れた者を 操ってしまう。 砂山の 身体を 大きく させるためだ。",
+		'ja-jp': "口の中に 手を 入れた者を 操ってしまう。 砂山の 身体を 大きく させるためだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "すなあつめ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュにある[闘]エネルギーを1枚、このポケモンにつける。",
+				'ja-jp': "自分のトラッシュにある[闘]エネルギーを1枚、このポケモンにつける。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Magmortar",
-		fr: "Maganon",
-		de: "Magbrant"
+		'en-us': "Magmortar",
+		'fr-fr': "Maganon",
+		'de-de': "Magbrant"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magmar",
-		fr: "Magmar"
+		'en-us': "Magmar",
+		'fr-fr': "Magmar"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hard Crush",
-				fr: "Écras'dur",
-				de: "Heftiger Zermalmer"
+				'en-us': "Hard Crush",
+				'fr-fr': "Écras'dur",
+				'de-de': "Heftiger Zermalmer"
 			},
 			effect: {
-				en: "Discard the top 3 cards from your deck. This attack does 50 damage times the number of Energy cards you discarded.",
-				fr: "Défaussez les 3 cartes du dessus de votre deck. Cette attaque inflige 50 dégâts multipliés par le nombre de cartes Énergie que vous avez défaussées.",
-				de: "Lege die obersten 3 Karten deines Decks auf deinen Ablagestapel. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl abgelegter Energiekarten zu."
+				'en-us': "Discard the top 3 cards from your deck. This attack does 50 damage times the number of Energy cards you discarded.",
+				'fr-fr': "Défaussez les 3 cartes du dessus de votre deck. Cette attaque inflige 50 dégâts multipliés par le nombre de cartes Énergie que vous avez défaussées.",
+				'de-de': "Lege die obersten 3 Karten deines Decks auf deinen Ablagestapel. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl abgelegter Energiekarten zu."
 			},
 			damage: "50×",
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mantle Bazooka",
-				fr: "Bazoocape",
-				de: "Verhüllte Panzerfaust"
+				'en-us': "Mantle Bazooka",
+				'fr-fr': "Bazoocape",
+				'de-de': "Verhüllte Panzerfaust"
 			},
 			effect: {
-				en: "Discard 2 Fire Energy attached to Magmortar.",
-				fr: "Défaussez 2 cartes Énergie  attachées à Maganon.",
-				de: "Lege 2 an Magbrant angelgte -Energien auf deinen Ablagestapel."
+				'en-us': "Discard 2 Fire Energy attached to Magmortar.",
+				'fr-fr': "Défaussez 2 cartes Énergie  attachées à Maganon.",
+				'de-de': "Lege 2 an Magbrant angelgte -Energien auf deinen Ablagestapel."
 			},
 			damage: 100,
 
@@ -80,7 +80,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It blasts fireballs of over 3,600 degrees Fahrenheit out of its arms. Its breath also sears and sizzles.",
+		'en-us': "It blasts fireballs of over 3,600 degrees Fahrenheit out of its arms. Its breath also sears and sizzles.",
 	},
 
 	variants: [

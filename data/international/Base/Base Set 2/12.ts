@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Nidoqueen",
+		'en-us': "Nidoqueen",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidorina",
+		'en-us': "Nidorina",
 	},
 
 	stage: "Stage2",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Boyfriends",
+				'en-us': "Boyfriends",
 			},
 			effect: {
-				en: "Does 20 damage plus 20 more damage for each Nidoking you have in play.",
+				'en-us': "Does 20 damage plus 20 more damage for each Nidoking you have in play.",
 			},
 			damage: 20,
 
@@ -50,7 +50,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Punch",
+				'en-us': "Mega Punch",
 			},
 
 			damage: 50,
@@ -68,7 +68,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
+		'en-us': "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
 	},
 
 

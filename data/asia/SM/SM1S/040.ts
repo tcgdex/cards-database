@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ソルガレオGX",
+		'ja-jp': "ソルガレオGX",
 	},
 
 	illustrator: "PLANETA",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ウルトラロード" },
 			effect: {
-				ja: "自分の番に1回使える。自分のバトルポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "自分の番に1回使える。自分のバトルポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 	],
@@ -30,14 +30,14 @@ const card: Card = {
 			damage: 230,
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、すべてトラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、すべてトラッシュする。",
 			},
 		},
 		{
 			name: { ja: "ソルバーストGX" },
 			cost: ["Metal"],
 			effect: {
-				ja: "自分の山札にあるエネルギーを5枚まで、自分のポケモンに好きなようにつける。そして山札を切る。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分の山札にあるエネルギーを5枚まで、自分のポケモンに好きなようにつける。そして山札を切る。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コスモウム",
+		'ja-jp': "コスモウム",
 	},
 
 	retreat: 3,

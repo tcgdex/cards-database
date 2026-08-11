@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -7,12 +7,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Regidrago",
-		fr: "Regidrago",
-		es: "Regidrago",
-		it: "Regidrago",
-		pt: "Regidrago",
-		de: "Regidrago"
+		'en-us': "Regidrago",
+		'fr-fr': "Regidrago",
+		'es-es': "Regidrago",
+		'it-it': "Regidrago",
+		'pt-br': "Regidrago",
+		'de-de': "Regidrago"
 	},
 
 	rarity: "Holo Rare",
@@ -24,33 +24,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			es: "Martillear",
-			it: "Martello",
-			pt: "Hammer In",
-			de: "Einhämmern"
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'es-es': "Martillear",
+			'it-it': "Martello",
+			'pt-br': "Hammer In",
+			'de-de': "Einhämmern"
 		},
 
 		damage: 30,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Dragon Energy",
-			fr: "Draco-Énergie",
-			es: "Dracoenergía",
-			it: "Dragoenergia",
-			pt: "Dragon Energy",
-			de: "Drachenkräfte"
+			'en-us': "Dragon Energy",
+			'fr-fr': "Draco-Énergie",
+			'es-es': "Dracoenergía",
+			'it-it': "Dragoenergia",
+			'pt-br': "Dragon Energy",
+			'de-de': "Drachenkräfte"
 		},
 
 		effect: {
-			en: "This attack does 20 less damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts de moins pour chaque marqueur de dégâts sur ce Pokémon.",
-			es: "Este ataque hace 20 puntos de daño menos por cada contador de daño en este Pokémon.",
-			it: "Questo attacco infligge 20 danni in meno per ogni segnalino danno presente su questo Pokémon.",
-			pt: "This attack does 20 less damage for each damage counter on this Pokémon.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 20 Schadenspunkte weniger zu."
+			'en-us': "This attack does 20 less damage for each damage counter on this Pokémon.",
+			'fr-fr': "Cette attaque inflige 20 dégâts de moins pour chaque marqueur de dégâts sur ce Pokémon.",
+			'es-es': "Este ataque hace 20 puntos de daño menos por cada contador de daño en este Pokémon.",
+			'it-it': "Questo attacco infligge 20 danni in meno per ogni segnalino danno presente su questo Pokémon.",
+			'pt-br': "This attack does 20 less damage for each damage counter on this Pokémon.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 20 Schadenspunkte weniger zu."
 		},
 
 		damage: "240-",
@@ -60,7 +60,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its body is composed of crystallized dragon energy. Regidrago is said to have the powers of every dragon Pokémon."
+		'en-us': "Its body is composed of crystallized dragon energy. Regidrago is said to have the powers of every dragon Pokémon."
 	},
 
 	regulationMark: "E",

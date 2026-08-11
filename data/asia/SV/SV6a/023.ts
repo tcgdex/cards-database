@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グレッグル",
+		'ja-jp': "グレッグル",
 		'zh-tw': "不良蛙",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "正々堂々と 戦うことは 少ないが それも 生き延びるため。 マスコットとして 人気が 高い。",
+		'ja-jp': "正々堂々と 戦うことは 少ないが それも 生き延びるため。 マスコットとして 人気が 高い。",
 		'zh-tw': "很少會堂堂正正地戰鬥， 但那都是為了要生存下去。 作為吉祥物非常受歡迎。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "なぐる",
+				'ja-jp': "なぐる",
 				'zh-tw': "打擊",
 			},
 			damage: 10,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "かえるとび",
+				'ja-jp': "かえるとび",
 				'zh-tw': "蛙跳",
 			},
 			damage: "20+",
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、20ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、20ダメージ追加。",
 				'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。",
 			},
 		},

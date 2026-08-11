@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Ruin Wall",
-		fr: "Mur en ruines",
-		de: "Ruinenwand"
+		'en-us': "Ruin Wall",
+		'fr-fr': "Mur en ruines",
+		'de-de': "Ruinenwand"
 	},
 
 	illustrator: undefined,
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Search your deck for a card with Unown in its name and put it onto your Bench. Shuffle your deck afterward. (You can't play this card if your Bench is full.)",
-		fr: "Cherchez dans votre deck une carte Zarbi et placez-la sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas jouer cette carte si votre Banc est plein.)",
-		de: "Search your deck for a card with Unown in its name and put it onto your Bench. Shuffle your deck afterward. (You can't play this card if your Bench is full.)"
+		'en-us': "Search your deck for a card with Unown in its name and put it onto your Bench. Shuffle your deck afterward. (You can't play this card if your Bench is full.)",
+		'fr-fr': "Cherchez dans votre deck une carte Zarbi et placez-la sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas jouer cette carte si votre Banc est plein.)",
+		'de-de': "Search your deck for a card with Unown in its name and put it onto your Bench. Shuffle your deck afterward. (You can't play this card if your Bench is full.)"
 	},
 
 

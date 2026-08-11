@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Croconaw",
-		fr: "Crocrodil",
-		de: "Tyracroc"
+		'en-us': "Croconaw",
+		'fr-fr': "Crocrodil",
+		'de-de': "Tyracroc"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Totodile",
-		fr: "Kaiminus"
+		'en-us': "Totodile",
+		'fr-fr': "Kaiminus"
 	},
 
 	stage: "Stage1",
@@ -34,9 +34,9 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Bite"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Bite"
 			},
 
 			damage: 20,
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Sonic",
-				fr: "Aquasonique",
-				de: "Aqua Sonic"
+				'en-us': "Aqua Sonic",
+				'fr-fr': "Aquasonique",
+				'de-de': "Aqua Sonic"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				de: "This attack's damage isn't affected by Resistance."
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'de-de': "This attack's damage isn't affected by Resistance."
 			},
 			damage: 50,
 

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Nintendo Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Treecko",
+		'en-us': "Treecko",
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -26,7 +26,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
+				'en-us': "Pound",
 			},
 
 			damage: 10,
@@ -37,10 +37,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sporadic Sponging",
+				'en-us': "Sporadic Sponging",
 			},
 			effect: {
-				en: "Flip a coin. If heads, remove 1 damage counter from Treecko.",
+				'en-us': "Flip a coin. If heads, remove 1 damage counter from Treecko.",
 			},
 			damage: 10,
 

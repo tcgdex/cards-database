@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニャスパー",
+		'ja-jp': "ニャスパー",
 		'zh-tw': "妙喵",
 		'zh-cn': "妙喵",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "無表情だが 内面では サイコパワーを 抑えこむのに 必死に なっているのだ。",
+		'ja-jp': "無表情だが 内面では サイコパワーを 抑えこむのに 必死に なっているのだ。",
 		'zh-tw': "雖然看起來面無表情， 但其實內心正非常努力地 在控制自己的精神力量。",
 		'zh-cn': "雖然看起來面無表情， 但其實內心正非常努力地 在控制自己的精神力量。",
 	},
@@ -25,20 +25,20 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "みすかす",
+				'ja-jp': "みすかす",
 				'zh-tw': "看透",
 				'zh-cn': "看透",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手の手札を見る。",
+				'ja-jp': "相手の手札を見る。",
 				'zh-tw': "查看對手的手牌。",
 				'zh-cn': "查看對手的手牌。",
 			},
 		},
 		{
 			name: {
-				ja: "サイコショット",
+				'ja-jp': "サイコショット",
 				'zh-tw': "精神射擊",
 				'zh-cn': "精神射擊",
 			},

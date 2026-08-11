@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブロックのomastar",
+		'ja-jp': "ブロックのomastar",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ストレッチ触手",
+				'ja-jp': "ストレッチ触手",
 			},
 			effect: {
-				ja: "対戦相手がベンチポケモンを持っている場合は、それらの1つを選択し、防御ポケモンで切り替えます。",
+				'ja-jp': "対戦相手がベンチポケモンを持っている場合は、それらの1つを選択し、防御ポケモンで切り替えます。",
 			},
 		},
 		{
 			cost: ["Fighting", "Fighting"],
 			name: {
-				ja: "毒の触手",
+				'ja-jp': "毒の触手",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。",
 			},
 			damage: 20,
 		},

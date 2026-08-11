@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Larvesta",
-		fr: "Pyronille",
-		es: "Larvesta",
-		it: "Larvesta",
-		pt: "Larvesta",
-		de: "Ignivor"
+		'en-us': "Larvesta",
+		'fr-fr': "Pyronille",
+		'es-es': "Larvesta",
+		'it-it': "Larvesta",
+		'pt-br': "Larvesta",
+		'de-de': "Ignivor"
 	},
 
 	illustrator: "Midori Harada",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 10,
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Combustion",
-				fr: "Fournaise",
-				es: "Combustión",
-				it: "Fuoco Continuo",
-				pt: "Combustão",
-				de: "Glühen"
+				'en-us': "Combustion",
+				'fr-fr': "Fournaise",
+				'es-es': "Combustión",
+				'it-it': "Fuoco Continuo",
+				'pt-br': "Combustão",
+				'de-de': "Glühen"
 			},
 
 			damage: 50,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "When battling opponents, it sprays fire from its five horns. The max temperature of the flames can reach nearly 5,500 degrees Fahrenheit.",
+		'en-us': "When battling opponents, it sprays fire from its five horns. The max temperature of the flames can reach nearly 5,500 degrees Fahrenheit.",
 	},
 
 	thirdParty: {

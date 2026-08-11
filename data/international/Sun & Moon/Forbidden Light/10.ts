@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Gogoat",
-		fr: "Chevroum",
-		es: "Gogoat",
-		it: "Gogoat",
-		pt: "Gogoat",
-		de: "Chevrumm"
+		'en-us': "Gogoat",
+		'fr-fr': "Chevroum",
+		'es-es': "Gogoat",
+		'it-it': "Gogoat",
+		'pt-br': "Gogoat",
+		'de-de': "Chevrumm"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Skiddo",
-		fr: "Cabriolaine",
+		'en-us': "Skiddo",
+		'fr-fr': "Cabriolaine",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Milk Drink",
-				fr: "Lait à Boire",
-				es: "Batido",
-				it: "Buonlatte",
-				pt: "Leite de Cura",
-				de: "Milchgetränk"
+				'en-us': "Milk Drink",
+				'fr-fr': "Lait à Boire",
+				'es-es': "Batido",
+				'it-it': "Buonlatte",
+				'pt-br': "Leite de Cura",
+				'de-de': "Milchgetränk"
 			},
 			effect: {
-				en: "Flip 2 coins. For each heads, heal 40 damage from this Pokémon.",
-				fr: "Lancez 2 pièces. Pour chaque côté face, soignez 40 dégâts à ce Pokémon.",
-				es: "Lanza 2 monedas. Por cada cara, cura 40 puntos de daño a este Pokémon.",
-				it: "Lancia due volte una moneta. Ogni volta che esce testa, cura questo Pokémon da 40 danni.",
-				pt: "Jogue 2 moedas. Para cada cara, cure 40 pontos de dano deste Pokémon.",
-				de: "Wirf 2 Münzen. Heile pro Kopf 40 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Flip 2 coins. For each heads, heal 40 damage from this Pokémon.",
+				'fr-fr': "Lancez 2 pièces. Pour chaque côté face, soignez 40 dégâts à ce Pokémon.",
+				'es-es': "Lanza 2 monedas. Por cada cara, cura 40 puntos de daño a este Pokémon.",
+				'it-it': "Lancia due volte una moneta. Ogni volta che esce testa, cura questo Pokémon da 40 danni.",
+				'pt-br': "Jogue 2 moedas. Para cada cara, cure 40 pontos de dano deste Pokémon.",
+				'de-de': "Wirf 2 Münzen. Heile pro Kopf 40 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -63,20 +63,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-Edge",
-				fr: "Damoclès",
-				es: "Doble Filo",
-				it: "Sdoppiatore",
-				pt: "Faca de Dois Gumes",
-				de: "Risikotackle"
+				'en-us': "Double-Edge",
+				'fr-fr': "Damoclès",
+				'es-es': "Doble Filo",
+				'it-it': "Sdoppiatore",
+				'pt-br': "Faca de Dois Gumes",
+				'de-de': "Risikotackle"
 			},
 			effect: {
-				en: "This Pokémon does 30 damage to itself.",
-				fr: "Ce Pokémon s’inflige 30 dégâts.",
-				es: "Este Pokémon se hace 30 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 30 danni a se stesso.",
-				pt: "Este Pokémon causa 30 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 30 Schadenspunkte zu."
+				'en-us': "This Pokémon does 30 damage to itself.",
+				'fr-fr': "Ce Pokémon s’inflige 30 dégâts.",
+				'es-es': "Este Pokémon se hace 30 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 30 danni a se stesso.",
+				'pt-br': "Este Pokémon causa 30 pontos de dano a si mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 30 Schadenspunkte zu."
 			},
 			damage: 120,
 
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They inhabit mountainous regions. The leader of the herd is decided by a battle of clashing horns.",
+		'en-us': "They inhabit mountainous regions. The leader of the herd is decided by a battle of clashing horns.",
 	},
 
 	thirdParty: {

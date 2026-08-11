@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pokémon GO"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Numel",
-		fr: "Chamallot",
-		es: "Numel",
-		it: "Numel",
-		pt: "Numel",
-		de: "Camaub"
+		'en-us': "Numel",
+		'fr-fr': "Chamallot",
+		'es-es': "Numel",
+		'it-it': "Numel",
+		'pt-br': "Numel",
+		'de-de': "Camaub"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 20
@@ -38,21 +38,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Stomp",
-			fr: "Écrasement",
-			es: "Pisotón",
-			it: "Pestone",
-			pt: "Pisotear",
-			de: "Stampfer"
+			'en-us': "Stomp",
+			'fr-fr': "Écrasement",
+			'es-es': "Pisotón",
+			'it-it': "Pestone",
+			'pt-br': "Pisotear",
+			'de-de': "Stampfer"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 50 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 50 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 50 danni in più.",
-			pt: "Jogue 1 moeda. Se sair cara, este ataque causará 50 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 50 Schadenspunkte mehr zu."
+			'en-us': "Flip a coin. If heads, this attack does 50 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 50 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 50 danni in più.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 50 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 50 Schadenspunkte mehr zu."
 		},
 
 		damage: "50+"
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The magma in its body reaches 2,200 degrees Fahrenheit. Its hump gets smaller when it uses Fire-type moves.",
+		'en-us': "The magma in its body reaches 2,200 degrees Fahrenheit. Its hump gets smaller when it uses Fire-type moves.",
 	},
 
 

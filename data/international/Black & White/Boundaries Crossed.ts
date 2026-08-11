@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Black & White'
 
 const bw7: Set = {
 	id: "bw7",
 
 	name: {
-		en: "Boundaries Crossed",
-		fr: "Frontières Franchies",
-		es: "Fronteras Cruzadas",
-		it: "Confini Varcati",
-		de: "Überschrittene Schwellen",
-		pt: "Fronteiras Cruzadas"
+		'en-us': "Boundaries Crossed",
+		'fr-fr': "Frontières Franchies",
+		'es-es': "Fronteras Cruzadas",
+		'it-it': "Confini Varcati",
+		'de-de': "Überschrittene Schwellen",
+		'pt-br': "Fronteiras Cruzadas"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const bw7: Set = {
 
 	abbreviations: {
 		official: "BCR",
-		fr: "FFR"
+		'fr-fr': "FFR"
 	},
 
 	thirdParty: {

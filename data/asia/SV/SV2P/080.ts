@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ウソッキー"
+		'ja-jp': "ウソッキー"
 	},
 
 	illustrator: "Narumi Sato",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "いつも 木のふりを している。 体の つくりは 植物より 石や 岩などに 近いようだ。"
+		'ja-jp': "いつも 木のふりを している。 体の つくりは 植物より 石や 岩などに 近いようだ。"
 	},
 
 	stage: "Basic",
@@ -24,19 +24,19 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "なぐってかくれる"
+			'ja-jp': "なぐってかくれる"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。"
+			'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。"
 		}
 	}, {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ひじうち"
+			'ja-jp': "ひじうち"
 		},
 
 		damage: 90

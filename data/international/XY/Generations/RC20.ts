@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Slurpuff",
-		fr: "Cupcanaille",
+		'en-us': "Slurpuff",
+		'fr-fr': "Cupcanaille",
 	},
 
 	illustrator: "MAHOU",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Swirlix",
-		fr: "Sucroquin",
+		'en-us': "Swirlix",
+		'fr-fr': "Sucroquin",
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Lap Up",
-				fr: "Gobeur",
+				'en-us': "Lap Up",
+				'fr-fr': "Gobeur",
 			},
 			effect: {
-				en: "Draw 3 cards.",
-				fr: "Piochez 3 cartes.",
+				'en-us': "Draw 3 cards.",
+				'fr-fr': "Piochez 3 cartes.",
 			},
 
 		},
@@ -51,8 +51,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fairy Wind",
-				fr: "Vent Féérique",
+				'en-us': "Fairy Wind",
+				'fr-fr': "Vent Féérique",
 			},
 
 			damage: 40,
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The cakes Slurpuff makes always look just like that one Pokémon it likes.",
+		'en-us': "The cakes Slurpuff makes always look just like that one Pokémon it likes.",
 	},
 
 	thirdParty: {

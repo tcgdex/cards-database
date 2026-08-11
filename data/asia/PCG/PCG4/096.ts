@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Scizor Ex",
+		'ja-jp': "Scizor Ex",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "危険の認識",
+				'ja-jp': "危険の認識",
 			},
 			effect: {
-				ja: "Scizor Exの残りのHPが60以下である限り、Scizor Exは防御するPokã©Monに40個のダメージを与えます（脱力感と抵抗を適用する前）。",
+				'ja-jp': "Scizor Exの残りのHPが60以下である限り、Scizor Exは防御するPokã©Monに40個のダメージを与えます（脱力感と抵抗を適用する前）。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Metal", "Colorless"],
 			name: {
-				ja: "スチール翼",
+				'ja-jp': "スチール翼",
 			},
 			effect: {
-				ja: "対戦相手の次のターン中に、攻撃によってScizor Exに与えられた損害は20増加します（脱力と抵抗を適用した後）。",
+				'ja-jp': "対戦相手の次のターン中に、攻撃によってScizor Exに与えられた損害は20増加します（脱力と抵抗を適用した後）。",
 			},
 			damage: 40,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "クロスカット",
+				'ja-jp': "クロスカット",
 			},
 			effect: {
-				ja: "防御ポケモンが進化したポケモンである場合、この攻撃は50のダメージと30のダメージを与えます。",
+				'ja-jp': "防御ポケモンが進化したポケモンである場合、この攻撃は50のダメージと30のダメージを与えます。",
 			},
 		},
 	],

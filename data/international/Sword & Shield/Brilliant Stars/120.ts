@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bidoof",
-		fr: "Keunotor",
-		es: "Bidoof",
-		it: "Bidoof",
-		pt: "Bidoof",
-		de: "Bidiza"
+		'en-us': "Bidoof",
+		'fr-fr': "Keunotor",
+		'es-es': "Bidoof",
+		'it-it': "Bidoof",
+		'pt-br': "Bidoof",
+		'de-de': "Bidiza"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Rollout",
-			fr: "Roulade",
-			es: "Rodar",
-			it: "Rotolamento",
-			pt: "Rolagem",
-			de: "Walzer"
+			'en-us': "Rollout",
+			'fr-fr': "Roulade",
+			'es-es': "Rodar",
+			'it-it': "Rotolamento",
+			'pt-br': "Rolagem",
+			'de-de': "Walzer"
 		},
 
 		damage: 30
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.",
+		'en-us': "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.",
 	},
 
 	variants: [

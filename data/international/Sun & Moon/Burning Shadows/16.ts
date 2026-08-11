@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Wimpod",
-		fr: "Sovkipou",
-		es: "Wimpod",
-		it: "Wimpod",
-		pt: "Wimpod",
-		de: "Reißlaus"
+		'en-us': "Wimpod",
+		'fr-fr': "Sovkipou",
+		'es-es': "Wimpod",
+		'it-it': "Wimpod",
+		'pt-br': "Wimpod",
+		'de-de': "Reißlaus"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Wimp Out",
-				fr: "Escampette",
-				es: "Huida",
-				it: "Fuggifuggi",
-				pt: "Amarelar",
-				de: "Reißaus"
+				'en-us': "Wimp Out",
+				'fr-fr': "Escampette",
+				'es-es': "Huida",
+				'it-it': "Fuggifuggi",
+				'pt-br': "Amarelar",
+				'de-de': "Reißaus"
 			},
 			effect: {
-				en: "During your first turn, this Pokémon has no Retreat Cost.",
-				fr: "Pendant votre premier tour, ce Pokémon n’a pas de Coût de Retraite.",
-				es: "Durante tu primer turno, este Pokémon no tiene ningún Coste de Retirada.",
-				it: "Durante il tuo primo turno, questo Pokémon non ha costo di ritirata.",
-				pt: "Durante a sua primeira vez de jogar, este Pokémon não terá custo de Recuo.",
-				de: "Während deines ersten Zuges hat dieses Pokémon keine Rückzugskosten."
+				'en-us': "During your first turn, this Pokémon has no Retreat Cost.",
+				'fr-fr': "Pendant votre premier tour, ce Pokémon n’a pas de Coût de Retraite.",
+				'es-es': "Durante tu primer turno, este Pokémon no tiene ningún Coste de Retirada.",
+				'it-it': "Durante il tuo primo turno, questo Pokémon non ha costo di ritirata.",
+				'pt-br': "Durante a sua primeira vez de jogar, este Pokémon não terá custo de Recuo.",
+				'de-de': "Während deines ersten Zuges hat dieses Pokémon keine Rückzugskosten."
 			},
 		},
 	],
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Ronge",
-				es: "Roer",
-				it: "Rosicchiamento",
-				pt: "Roída",
-				de: "Nagen"
+				'en-us': "Gnaw",
+				'fr-fr': "Ronge",
+				'es-es': "Roer",
+				'it-it': "Rosicchiamento",
+				'pt-br': "Roída",
+				'de-de': "Nagen"
 			},
 
 			damage: 30,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "This Pokémon is a coward. As it desperately dashes off, the flailing of its many legs leaves a sparkling clean path in its wake.",
+		'en-us': "This Pokémon is a coward. As it desperately dashes off, the flailing of its many legs leaves a sparkling clean path in its wake.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミュウツー",
+		'ja-jp': "ミュウツー",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "サイキック",
+				'ja-jp': "サイキック",
 			},
 			effect: {
-				ja: "ディフェンディングポケモンに取り付けられた各エネルギーカードに対して、10のダメージと10ダメージがさらに10ダメージを与えます。",
+				'ja-jp': "ディフェンディングポケモンに取り付けられた各エネルギーカードに対して、10のダメージと10ダメージがさらに10ダメージを与えます。",
 			},
 
 		},
 		{
 			cost: ["Psychic", "Psychic"],
 			name: {
-				ja: "バリア",
+				'ja-jp': "バリア",
 			},
 			effect: {
-				ja: "この攻撃を使用するために、Mewtwoに取り付けられた1つのサイキックエネルギーカードを捨てます。対戦相手の次のターン中に、Mewtwoに行われた損害を含む攻撃のすべての影響を防ぎます。",
+				'ja-jp': "この攻撃を使用するために、Mewtwoに取り付けられた1つのサイキックエネルギーカードを捨てます。対戦相手の次のターン中に、Mewtwoに行われた損害を含む攻撃のすべての影響を防ぎます。",
 			},
 
 		},

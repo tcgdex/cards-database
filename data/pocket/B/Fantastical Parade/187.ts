@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [526],
 
 	name: {
-		en: "Gigalith ex"
+		'en-us': "Gigalith ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Boldore"
+		'en-us': "Boldore"
 	},
 
 	stage: "Stage2",
@@ -25,13 +25,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Megaton Cannon"
+			'en-us': "Megaton Cannon"
 		},
 
 		cost: ["Fighting", "Fighting", "Fighting", "Fighting"],
 
 		effect: {
-			en: "This attack does 140 damage to 1 of your opponent's Pokémon. During your next turn, this Pokémon can't attack."
+			'en-us': "This attack does 140 damage to 1 of your opponent's Pokémon. During your next turn, this Pokémon can't attack."
 		}
 	}],
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Lairon",
-		fr: "Galegon",
-		de: "Stollrak"
+		'en-us': "Lairon",
+		'fr-fr': "Galegon",
+		'de-de': "Stollrak"
 	},
 
 	illustrator: "match",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Aron",
-		fr: "Galekid"
+		'en-us': "Aron",
+		'fr-fr': "Galekid"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Scrap Attack",
-				fr: "Attaque de ferraille",
-				de: "Rauferei"
+				'en-us': "Scrap Attack",
+				'fr-fr': "Attaque de ferraille",
+				'de-de': "Rauferei"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your discard pile for a Metal Energy card and attach it to Lairon.",
-				fr: "Lancez une pièce. Si c’est face, récupérez une carte Énergie Metal dans votre pile de défausse et attachez-la à Galegon.",
-				de: "Wirf eine Münze. Durchsuche bei \"Kopf\" deinen Ablagestapel nach einer -Energiekarte und lege sie an Stollrak an."
+				'en-us': "Flip a coin. If heads, search your discard pile for a Metal Energy card and attach it to Lairon.",
+				'fr-fr': "Lancez une pièce. Si c’est face, récupérez une carte Énergie Metal dans votre pile de défausse et attachez-la à Galegon.",
+				'de-de': "Wirf eine Münze. Durchsuche bei \"Kopf\" deinen Ablagestapel nach einer -Energiekarte und lege sie an Stollrak an."
 			},
 			damage: 20,
 
@@ -53,9 +53,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 60,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It loves iron ore. Groups of them fight for territory by bashing one another with their steel bodies."
+		'en-us': "It loves iron ore. Groups of them fight for territory by bashing one another with their steel bodies."
 	},
 
 	variants: [

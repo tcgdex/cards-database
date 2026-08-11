@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Riolu",
-		fr: "Riolu",
-		de: "Riolu"
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
+		'de-de': "Riolu"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Punch",
-				fr: "Koud'poing",
-				de: "Boxhieb"
+				'en-us': "Punch",
+				'fr-fr': "Koud'poing",
+				'de-de': "Boxhieb"
 			},
 
 			damage: 10,
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage",
-				de: "Fußkick"
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage",
+				'de-de': "Fußkick"
 			},
 
 			damage: 30,
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The aura that emanates from its body intensifies to alert others if it is afraid or sad.",
+		'en-us': "The aura that emanates from its body intensifies to alert others if it is afraid or sad.",
 	},
 
 	thirdParty: {

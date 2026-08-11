@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Crabrawler",
-		fr: "Crabagarre",
-		es: "Crabrawler",
-		it: "Crabrawler",
-		pt: "Crabrawler",
-		de: "Krabbox"
+		'en-us': "Crabrawler",
+		'fr-fr': "Crabagarre",
+		'es-es': "Crabrawler",
+		'it-it': "Crabrawler",
+		'pt-br': "Crabrawler",
+		'de-de': "Krabbox"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jab",
-				fr: "Taquet",
-				es: "Puya",
-				it: "Stoccata",
-				pt: "Murro",
-				de: "Boxschlag"
+				'en-us': "Jab",
+				'fr-fr': "Taquet",
+				'es-es': "Puya",
+				'it-it': "Stoccata",
+				'pt-br': "Murro",
+				'de-de': "Boxschlag"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confront",
-				fr: "Confrontation",
-				es: "Confrontar",
-				it: "Confronto",
-				pt: "Confrontar",
-				de: "Konfrontieren"
+				'en-us': "Confront",
+				'fr-fr': "Confrontation",
+				'es-es': "Confrontar",
+				'it-it': "Confronto",
+				'pt-br': "Confrontar",
+				'de-de': "Konfrontieren"
 			},
 
 			damage: 30,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its hard pincers are well suited to both offense and defense. Fights between two Crabrawler are like boxing matches.",
+		'en-us': "Its hard pincers are well suited to both offense and defense. Fights between two Crabrawler are like boxing matches.",
 	},
 
 	thirdParty: {

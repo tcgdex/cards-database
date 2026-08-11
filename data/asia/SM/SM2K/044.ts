@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スバメ",
+		'ja-jp': "スバメ",
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "強い 相手にも 勇敢に 立ち向かう 根性の 持ち主。 暖かい 土地を 目指して 飛ぶ。",
+		'ja-jp': "強い 相手にも 勇敢に 立ち向かう 根性の 持ち主。 暖かい 土地を 目指して 飛ぶ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンにも10ダメージ。",
+				'ja-jp': "このポケモンにも10ダメージ。",
 			},
 		},
 	],

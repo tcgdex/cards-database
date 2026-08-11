@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イワーク",
+		'ja-jp': "イワーク",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "普段は 土の中に 住んでいる。 地中を 時速８０キロで 掘りながら エサを 探す。",
+		'ja-jp': "普段は 土の中に 住んでいる。 地中を 時速８０キロで 掘りながら エサを 探す。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "いやなおと" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の自分の番、このワザを受けたポケモンが受けるワザのダメージは「+20」される。",
+				'ja-jp': "次の自分の番、このワザを受けたポケモンが受けるワザのダメージは「+20」される。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Fighting", "Fighting"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数x10ダメージ追加。",
+				'ja-jp': "このポケモンにのっているダメカンの数x10ダメージ追加。",
 			},
 		},
 	],

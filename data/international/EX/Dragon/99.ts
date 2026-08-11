@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Charmeleon",
-		fr: "Reptincel",
-		de: "Glutexo"
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel",
+		'de-de': "Glutexo"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmander",
-		fr: "Salamèche"
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Smokescreen",
-				fr: "Brouillard",
-				de: "Smokescreen"
+				'en-us': "Smokescreen",
+				'fr-fr': "Brouillard",
+				'de-de': "Smokescreen"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est face, cette attaque est sans effet.",
-				de: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flip a coin. if tails, that attack does nothing."
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est face, cette attaque est sans effet.",
+				'de-de': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flip a coin. if tails, that attack does nothing."
 			},
 			damage: 10,
 
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fireworks",
-				fr: "Feux d'artifices",
-				de: "Fireworks"
+				'en-us': "Fireworks",
+				'fr-fr': "Feux d'artifices",
+				'de-de': "Fireworks"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Fire Energy card attached to Charmeleon.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie  attachée à Reptincel.",
-				de: "Flip a coin. If tails, discard a  Energy card attached to Charmeleon."
+				'en-us': "Flip a coin. If tails, discard a Fire Energy card attached to Charmeleon.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez une carte Énergie  attachée à Reptincel.",
+				'de-de': "Flip a coin. If tails, discard a  Energy card attached to Charmeleon."
 			},
 			damage: 40,
 

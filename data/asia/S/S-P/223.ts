@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クララ",
+		'ja-jp': "クララ",
 		'zh-tw': "雙卵細胞球",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のトラッシュからポケモンを2枚までと、基本エネルギーを2枚まで選び、相手に見せて、手札に加える。（ポケモンまたは基本エネルギーのどちらかだけでもよい。）",
+		'ja-jp': "自分のトラッシュからポケモンを2枚までと、基本エネルギーを2枚まで選び、相手に見せて、手札に加える。（ポケモンまたは基本エネルギーのどちらかだけでもよい。）",
 	},
 
 	variants: [

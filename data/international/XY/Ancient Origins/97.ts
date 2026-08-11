@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Primal Groudon EX",
-		fr: "Primo-Groudon EX",
-		es: "Groudon Primigenio EX",
-		it: "Archeo Groudon EX",
-		pt: "Groudon Primitivo EX",
-		de: "Proto-Groudon EX"
+		'en-us': "Primal Groudon EX",
+		'fr-fr': "Primo-Groudon EX",
+		'es-es': "Groudon Primigenio EX",
+		'it-it': "Archeo Groudon EX",
+		'pt-br': "Groudon Primitivo EX",
+		'de-de': "Proto-Groudon EX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Groudon-EX",
-		fr: "Groudon-EX",
-		es: "Groudon-EX",
-		it: "Groudon-EX",
-		pt: "Groudon-EX",
-		de: "Groudon-EX"
+		'en-us': "Groudon-EX",
+		'fr-fr': "Groudon-EX",
+		'es-es': "Groudon-EX",
+		'it-it': "Groudon-EX",
+		'pt-br': "Groudon-EX",
+		'de-de': "Groudon-EX"
 	},
 
 	stage: "MEGA",
@@ -46,20 +46,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gaia Volcano",
-				fr: "Volcan de Gaïa",
-				es: "Volcán Gaia",
-				it: "Vulcano Gaia",
-				pt: "Vulcão Gaia",
-				de: "Gaia-Vulkan"
+				'en-us': "Gaia Volcano",
+				'fr-fr': "Volcan de Gaïa",
+				'es-es': "Volcán Gaia",
+				'it-it': "Vulcano Gaia",
+				'pt-br': "Vulcão Gaia",
+				'de-de': "Gaia-Vulkan"
 			},
 			effect: {
-				en: "If there is any Stadium card in play, this attack does 100 more damage. Discard that Stadium card.",
-				fr: "S'il y a une carte Stade en jeu, cette attaque inflige 100 dégâts supplémentaires. Défaussez la carte Stade.",
-				es: "Si hay alguna carta de Estadio en juego, este ataque hace 100 puntos de daño más. Descarta esa carta de Estadio.",
-				it: "Se c'è in gioco una carta Stadio, questo attacco infligge 100 danni in più. Scarta quella carta Stadio.",
-				pt: "Se houver algum card de Estádio em jogo, este ataque causará 100 de danos adicionais. Descarte o card de Estádio.",
-				de: "Wenn eine Stadionkarte im Spiel ist, fügt dieser Angriff 100 weitere Schadenspunkte zu. Lege diese Stadionkarte auf den Ablagestapel."
+				'en-us': "If there is any Stadium card in play, this attack does 100 more damage. Discard that Stadium card.",
+				'fr-fr': "S'il y a une carte Stade en jeu, cette attaque inflige 100 dégâts supplémentaires. Défaussez la carte Stade.",
+				'es-es': "Si hay alguna carta de Estadio en juego, este ataque hace 100 puntos de daño más. Descarta esa carta de Estadio.",
+				'it-it': "Se c'è in gioco una carta Stadio, questo attacco infligge 100 danni in più. Scarta quella carta Stadio.",
+				'pt-br': "Se houver algum card de Estádio em jogo, este ataque causará 100 de danos adicionais. Descarte o card de Estádio.",
+				'de-de': "Wenn eine Stadionkarte im Spiel ist, fügt dieser Angriff 100 weitere Schadenspunkte zu. Lege diese Stadionkarte auf den Ablagestapel."
 			},
 			damage: "100+",
 
@@ -80,21 +80,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "{title}:",
-			fr: "{title}:",
-			es: "{title}:",
-			it: "{title}:",
-			pt: "{title}:",
-			de: "{title}:"
+			'en-us': "{title}:",
+			'fr-fr': "{title}:",
+			'es-es': "{title}:",
+			'it-it': "{title}:",
+			'pt-br': "{title}:",
+			'de-de': "{title}:"
 		},
 
 		effect: {
-			en: "{title}: When 1 of your Pokémon becomes this Pokémon, heal all damage from it.",
-			fr: "{title}: Lorsqu'un de vos Pokémon devient ce Pokémon, soignez tous les dégâts de ce Pokémon.",
-			es: "{title}: Cuando 1 de tus Pokémon se convierte en este Pokémon, cura todos sus puntos de daño.",
-			it: "{title}: Quando uno dei tuoi Pokémon diventa questo Pokémon, curane tutti i danni.",
-			pt: "{title}: Quando 1 dos seus Pokémon se tornar este Pokémon, cure todos os danos dele.",
-			de: "{title}: Wenn 1 deiner Pokémon zu diesem Pokémon wird, heile allen Schaden bei diesem Pokémon."
+			'en-us': "{title}: When 1 of your Pokémon becomes this Pokémon, heal all damage from it.",
+			'fr-fr': "{title}: Lorsqu'un de vos Pokémon devient ce Pokémon, soignez tous les dégâts de ce Pokémon.",
+			'es-es': "{title}: Cuando 1 de tus Pokémon se convierte en este Pokémon, cura todos sus puntos de daño.",
+			'it-it': "{title}: Quando uno dei tuoi Pokémon diventa questo Pokémon, curane tutti i danni.",
+			'pt-br': "{title}: Quando 1 dos seus Pokémon se tornar este Pokémon, cure todos os danos dele.",
+			'de-de': "{title}: Wenn 1 deiner Pokémon zu diesem Pokémon wird, heile allen Schaden bei diesem Pokémon."
 		}
 	}],
 

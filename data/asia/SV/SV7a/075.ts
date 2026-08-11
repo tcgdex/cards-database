@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "タルップル"
+		'ja-jp': "タルップル"
 	},
 
 	illustrator: "MINAMINAMI Take",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "背中の 甘い蜜を 舐め取りに やって来る グルトンに ベトベトの 蜜を 吐きかけ 退ける。"
+		'ja-jp': "背中の 甘い蜜を 舐め取りに やって来る グルトンに ベトベトの 蜜を 吐きかけ 退ける。"
 	},
 
 	stage: "Stage1",
@@ -24,25 +24,25 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "スイートメルト"
+			'ja-jp': "スイートメルト"
 		},
 
 		damage: 50,
 
 		effect: {
-			ja: "次の相手の番、このワザを受けたポケモンは、ワザが使えない。"
+			'ja-jp': "次の相手の番、このワザを受けたポケモンは、ワザが使えない。"
 		}
 	}, {
 		cost: ["Grass", "Fire"],
 
 		name: {
-			ja: "ワイルドタックル"
+			'ja-jp': "ワイルドタックル"
 		},
 
 		damage: 130,
 
 		effect: {
-			ja: "このポケモンにも20ダメージ。"
+			'ja-jp': "このポケモンにも20ダメージ。"
 		}
 	}],
 

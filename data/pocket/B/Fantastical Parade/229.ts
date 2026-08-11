@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [700],
 
 	name: {
-		en: "Sylveon ex"
+		'en-us': "Sylveon ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Eevee"
+		'en-us': "Eevee"
 	},
 
 	stage: "Stage1",
@@ -27,17 +27,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Happy Ribbon"
+			'en-us': "Happy Ribbon"
 		},
 
 		effect: {
-			en: "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may draw 2 cards."
+			'en-us': "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may draw 2 cards."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Fairy Wind"
+			'en-us': "Fairy Wind"
 		},
 
 		damage: 70,

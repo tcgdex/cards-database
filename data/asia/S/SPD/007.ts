@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SPD"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "代歐奇希斯VSTAR",
-		ja: "デオキシスVSTAR"
+		'ja-jp': "デオキシスVSTAR"
 	},
 
 	illustrator: "5ban Graphics",
@@ -18,12 +18,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "精神標槍",
-			ja: "サイコジャベリン"
+			'ja-jp': "サイコジャベリン"
 		},
 
 		effect: {
 			'zh-tw': "對手的備戰區的1隻「寶可夢【V】」也受到60點傷害。[在備戰區不計算弱點・抵抗力。]",
-			ja: "相手のベンチの「ポケモンV」1匹にも、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			'ja-jp': "相手のベンチの「ポケモンV」1匹にも、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
 		},
 
 		damage: 190,
@@ -31,12 +31,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "[VSTAR力量]星星神力",
-			ja: "スターフォース"
+			'ja-jp': "スターフォース"
 		},
 
 		effect: {
 			'zh-tw': "造成雙方的戰鬥寶可夢身上附加的能量的數量×60點傷害。[對戰中，己方只可使用1次【VSTAR】力量。]",
-			ja: "おたがいのバトルポケモンについているエネルギーの数×60ダメージ。［対戦中、自分はVSTARパワーを1回しか使えない。］"
+			'ja-jp': "おたがいのバトルポケモンについているエネルギーの数×60ダメージ。［対戦中、自分はVSTARパワーを1回しか使えない。］"
 		},
 
 		damage: "60×",

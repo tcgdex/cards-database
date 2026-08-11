@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bisharp",
-		fr: "Scalproie",
-		es: "Bisharp",
-		it: "Bisharp",
-		pt: "Bisharp",
-		de: "Caesurio"
+		'en-us': "Bisharp",
+		'fr-fr': "Scalproie",
+		'es-es': "Bisharp",
+		'it-it': "Bisharp",
+		'pt-br': "Bisharp",
+		'de-de': "Caesurio"
 	},
 
 	illustrator: "DOM",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Pawniard",
-		fr: "Scalpion",
-		es: "Pawniard",
-		it: "Pawniard",
-		pt: "Pawniard",
-		de: "Gladiantri"
+		'en-us': "Pawniard",
+		'fr-fr': "Scalpion",
+		'es-es': "Pawniard",
+		'it-it': "Pawniard",
+		'pt-br': "Pawniard",
+		'de-de': "Gladiantri"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Spike Draw",
-			fr: "Pique-Pioche",
-			es: "Robo Pico",
-			it: "Battipesca",
-			pt: "Comprada Espinhosa",
-			de: "Stachelzug"
+			'en-us': "Spike Draw",
+			'fr-fr': "Pique-Pioche",
+			'es-es': "Robo Pico",
+			'it-it': "Battipesca",
+			'pt-br': "Comprada Espinhosa",
+			'de-de': "Stachelzug"
 		},
 
 		effect: {
-			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
-			es: "Roba 2 cartas.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas.",
-			de: "Ziehe 2 Karten."
+			'en-us': "Draw 2 cards.",
+			'fr-fr': "Piochez 2 cartes.",
+			'es-es': "Roba 2 cartas.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas.",
+			'de-de': "Ziehe 2 Karten."
 		},
 
 		damage: 20
@@ -57,12 +57,12 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			en: "Power Edge",
-			fr: "Lame Puissante",
-			es: "Filo Poderoso",
-			it: "Colpotente",
-			pt: "Gume Poderoso",
-			de: "Kraftklinge"
+			'en-us': "Power Edge",
+			'fr-fr': "Lame Puissante",
+			'es-es': "Filo Poderoso",
+			'it-it': "Colpotente",
+			'pt-br': "Gume Poderoso",
+			'de-de': "Kraftklinge"
 		},
 
 		damage: 70
@@ -85,7 +85,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It's accompanied by a large retinue of Pawniard. Bisharp keeps a keen eye on its minions, ensuring none of them even think of double-crossing it.",
+		'en-us': "It's accompanied by a large retinue of Pawniard. Bisharp keeps a keen eye on its minions, ensuring none of them even think of double-crossing it.",
 	},
 
 	

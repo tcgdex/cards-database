@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミスティのラプラ",
+		'ja-jp': "ミスティのラプラ",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "甘い歌",
+				'ja-jp': "甘い歌",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、ポケモンのそれぞれから1つのダメージカウンターを削除します。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、ポケモンのそれぞれから1つのダメージカウンターを削除します。",
 			},
 		},
 		{
 			cost: ["Water", "Water"],
 			name: {
-				ja: "巨大な波",
+				'ja-jp': "巨大な波",
 			},
 			effect: {
-				ja: "MistyのLaprasは次のターン中に攻撃することはできません。",
+				'ja-jp': "MistyのLaprasは次のターン中に攻撃することはできません。",
 			},
 			damage: 30,
 		},

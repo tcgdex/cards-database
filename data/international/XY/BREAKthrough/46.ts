@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Froakie",
-		fr: "Grenousse",
-		es: "Froakie",
-		it: "Froakie",
-		pt: "Froakie",
-		de: "Froxy"
+		'en-us': "Froakie",
+		'fr-fr': "Grenousse",
+		'es-es': "Froakie",
+		'it-it': "Froakie",
+		'pt-br': "Froakie",
+		'de-de': "Froxy"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'Face",
-				es: "Destructor",
-				it: "Botta",
-				pt: "Pancada",
-				de: "Pfund"
+				'en-us': "Pound",
+				'fr-fr': "Écras'Face",
+				'es-es': "Destructor",
+				'it-it': "Botta",
+				'pt-br': "Pancada",
+				'de-de': "Pfund"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
+		'en-us': "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
 	},
 
 	thirdParty: {

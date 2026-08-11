@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skeledirge",
-		fr: "Flâmigator",
-		es: "Skeledirge",
-		it: "Skeledirge",
-		pt: "Skeledirge",
-		de: "Skelokrok"
+		'en-us': "Skeledirge",
+		'fr-fr': "Flâmigator",
+		'es-es': "Skeledirge",
+		'it-it': "Skeledirge",
+		'pt-br': "Skeledirge",
+		'de-de': "Skelokrok"
 	},
 
 	rarity: "Rare",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Crocalor",
-		fr: "Crocogril"
+		'en-us': "Crocalor",
+		'fr-fr': "Crocogril"
 	},
 
 	stage: "Stage2",
@@ -30,21 +30,21 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Passionate Singing",
-			fr: "Chant Passionné",
-			es: "Canto Apasionado",
-			it: "Canto Appassionato",
-			pt: "Cantoria Acalorada",
-			de: "Feuriger Gesang"
+			'en-us': "Passionate Singing",
+			'fr-fr': "Chant Passionné",
+			'es-es': "Canto Apasionado",
+			'it-it': "Canto Appassionato",
+			'pt-br': "Cantoria Acalorada",
+			'de-de': "Feuriger Gesang"
 		},
 
 		effect: {
-			en: "Attach up to 2 Basic Energy cards from your discard pile to your Pokémon in any way you like.",
-			fr: "Attachez jusqu'à 2 cartes Énergie de base de votre pile de défausse à vos Pokémon comme il vous plaît.",
-			es: "Une hasta 2 cartas de Energía Básica de tu pila de descartes a tus Pokémon de la manera que desees.",
-			it: "Assegna ai tuoi Pokémon fino a due carte Energia base dalla tua pila degli scarti nel modo che preferisci.",
-			pt: "Ligue até 2 cartas de Energia Básica da sua pilha de descarte aos seus Pokémon como desejar.",
-			de: "Lege bis zu 2 Basis-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an."
+			'en-us': "Attach up to 2 Basic Energy cards from your discard pile to your Pokémon in any way you like.",
+			'fr-fr': "Attachez jusqu'à 2 cartes Énergie de base de votre pile de défausse à vos Pokémon comme il vous plaît.",
+			'es-es': "Une hasta 2 cartas de Energía Básica de tu pila de descartes a tus Pokémon de la manera que desees.",
+			'it-it': "Assegna ai tuoi Pokémon fino a due carte Energia base dalla tua pila degli scarti nel modo che preferisci.",
+			'pt-br': "Ligue até 2 cartas de Energia Básica da sua pilha de descarte aos seus Pokémon como desejar.",
+			'de-de': "Lege bis zu 2 Basis-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an."
 		},
 
 		damage: 50
@@ -52,21 +52,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Blazing Shout",
-			fr: "Cri Ardent",
-			es: "Grito Abrasador",
-			it: "Urlo Rovente",
-			pt: "Grito Flamejante",
-			de: "Lodernder Schrei"
+			'en-us': "Blazing Shout",
+			'fr-fr': "Cri Ardent",
+			'es-es': "Grito Abrasador",
+			'it-it': "Urlo Rovente",
+			'pt-br': "Grito Flamejante",
+			'de-de': "Lodernder Schrei"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 190
@@ -93,7 +93,7 @@ const card: Card = {
 	illustrator: "nagimiso",
 
 	description: {
-		en: "Skeledirge's gentle singing soothes the souls of all that hear it. It burns its enemies to a crisp with flames of over 5,400 degrees Fahrenheit.",
+		'en-us': "Skeledirge's gentle singing soothes the souls of all that hear it. It burns its enemies to a crisp with flames of over 5,400 degrees Fahrenheit.",
 	},
 
 	thirdParty: {

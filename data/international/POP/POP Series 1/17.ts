@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 1'
 
 const card: Card = {
 	name: {
-		en: "Tyranitar ex",
-		fr: "Tyranocif ex"
+		'en-us': "Tyranitar ex",
+		'fr-fr': "Tyranocif ex"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pupitar",
-		fr: "Ymphect"
+		'en-us': "Pupitar",
+		'fr-fr': "Ymphect"
 	},
 
 	stage: "Stage2",
@@ -33,8 +33,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe"
 			},
 
 			damage: 20,
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Critical Crush",
-				fr: "Écrasement sévère"
+				'en-us': "Critical Crush",
+				'fr-fr': "Écrasement sévère"
 			},
 			effect: {
-				en: "Discard 2 Basic Energy cards attached to Tyranitar ex or this attack does nothing.",
-				fr: "Défaussez 2 cartes Énergie de base attachées à Tyranocif ex ou cette attaque est sans effet."
+				'en-us': "Discard 2 Basic Energy cards attached to Tyranitar ex or this attack does nothing.",
+				'fr-fr': "Défaussez 2 cartes Énergie de base attachées à Tyranocif ex ou cette attaque est sans effet."
 			},
 			damage: 80,
 

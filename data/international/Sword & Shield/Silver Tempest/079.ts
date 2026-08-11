@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Elgyem",
-		fr: "Lewsor",
-		es: "Elgyem",
-		it: "Elgyem",
-		pt: "Elgyem",
-		de: "Pygraulon"
+		'en-us': "Elgyem",
+		'fr-fr': "Lewsor",
+		'es-es': "Elgyem",
+		'it-it': "Elgyem",
+		'pt-br': "Elgyem",
+		'de-de': "Pygraulon"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			es: "Golpe Cabeza",
-			it: "Bottintesta",
-			pt: "Cabeçada",
-			de: "Kopfnuss"
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'es-es': "Golpe Cabeza",
+			'it-it': "Bottintesta",
+			'pt-br': "Cabeçada",
+			'de-de': "Kopfnuss"
 		},
 
 		damage: 20
@@ -53,7 +53,7 @@ const card: Card = {
 
 
 	description: {
-		en: "If this Pokémon stands near a TV, strange scenery will appear on the screen. That scenery is said to be from its home.",
+		'en-us': "If this Pokémon stands near a TV, strange scenery will appear on the screen. That scenery is said to be from its home.",
 	},
 
 	variants: [

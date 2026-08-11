@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [81],
 
 	name: {
-		en: "Magnemite"
+		'en-us': "Magnemite"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "The electromagnetic waves emitted by the units\nat the sides of its head expel antigravity, which\nallows it to float."
+		'en-us': "The electromagnetic waves emitted by the units\nat the sides of its head expel antigravity, which\nallows it to float."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Electro Ball"
+			'en-us': "Electro Ball"
 		},
 
 		damage: 30,

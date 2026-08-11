@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eevee"
+		'en-us': "Eevee"
 	},
 
 	illustrator: "MAHOU",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Its genetic code is irregular. It may mutate if it is\nexposed to radiation from element stones."
+		'en-us': "Its genetic code is irregular. It may mutate if it is\nexposed to radiation from element stones."
 	},
 
 	stage: "Basic",
@@ -26,17 +26,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Boosted Evolution"
+			'en-us': "Boosted Evolution"
 		},
 
 		effect: {
-			en: "As long as this Pokémon is in the Active Spot, it can evolve during your first turn or the turn you play it."
+			'en-us': "As long as this Pokémon is in the Active Spot, it can evolve during your first turn or the turn you play it."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Stampede"
+			'en-us': "Stampede"
 		},
 
 		damage: 10,

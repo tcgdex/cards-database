@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Electrode",
-		fr: "Électrode",
-		es: "Electrode",
-		it: "Electrode",
-		pt: "Electrode",
-		de: "Lektrobal"
+		'en-us': "Electrode",
+		'fr-fr': "Électrode",
+		'es-es': "Electrode",
+		'it-it': "Electrode",
+		'pt-br': "Electrode",
+		'de-de': "Lektrobal"
 	},
 
 	rarity: "Secret Rare",
@@ -23,32 +23,32 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Buzzap Generator",
-			fr: "Générateur Buzzap",
-			es: "Generador Matazumbido",
-			it: "Generascarica",
-			pt: "Gerador de Zumbido",
-			de: "Zischender Generator"
+			'en-us': "Buzzap Generator",
+			'fr-fr': "Générateur Buzzap",
+			'es-es': "Generador Matazumbido",
+			'it-it': "Generascarica",
+			'pt-br': "Gerador de Zumbido",
+			'de-de': "Zischender Generator"
 		},
 
 		effect: {
-			en: "Once during your turn, if this Pokémon is on your Bench, you may search your deck for up to 2 Lightning Energy cards and attach them to your Lightning Pokémon in any way you like. Then, shuffle your deck. If you searched your deck in this way, this Pokémon is Knocked Out.",
-			fr: "Une fois pendant votre tour, si ce Pokémon est sur votre Banc, vous pouvez chercher dans votre deck jusqu'à 2 cartes Énergie Lightning, puis les attacher à vos Pokémon Lightning comme il vous plaît. Mélangez ensuite votre deck. Si vous avez cherché dans votre deck de cette façon, ce Pokémon est mis K.O.",
-			es: "Una vez durante tu turno, si este Pokémon está en tu Banca, puedes buscar en tu baraja hasta 2 cartas de Energía Lightning y unirlas a tus Pokémon Lightning de la manera que desees. Después, baraja las cartas de tu baraja. Si has buscado en tu baraja de esta manera, este Pokémon queda Fuera de Combate.",
-			it: "Una sola volta durante il tuo turno, se questo Pokémon è nella tua panchina, puoi cercare nel tuo mazzo fino a due carte Energia Lightning e assegnarle ai tuoi Pokémon Lightning nel modo che preferisci. Poi rimischia le carte del tuo mazzo. Se hai cercato nel tuo mazzo in questo modo, questo Pokémon viene messo KO.",
-			pt: "Uma vez durante o seu turno, se este Pokémon estiver no seu Banco, você poderá procurar por até 2 cartas de Energia Lightning no seu baralho e ligá-las aos seus Pokémon Lightning como desejar. Em seguida, embaralhe o seu baralho. Se você procurar no seu baralho desta forma, este Pokémon será Nocauteado.",
-			de: "Einmal während deines Zuges, wenn sich dieses Pokémon auf deiner Bank befindet, kannst du dein Deck nach bis zu 2 Lightning-Energiekarten durchsuchen und sie beliebig an deine Lightning-Pokémon anlegen. Mische anschließend dein Deck. Wenn du auf diese Weise dein Deck durchsucht hast, ist dieses Pokémon kampfunfähig."
+			'en-us': "Once during your turn, if this Pokémon is on your Bench, you may search your deck for up to 2 Lightning Energy cards and attach them to your Lightning Pokémon in any way you like. Then, shuffle your deck. If you searched your deck in this way, this Pokémon is Knocked Out.",
+			'fr-fr': "Une fois pendant votre tour, si ce Pokémon est sur votre Banc, vous pouvez chercher dans votre deck jusqu'à 2 cartes Énergie Lightning, puis les attacher à vos Pokémon Lightning comme il vous plaît. Mélangez ensuite votre deck. Si vous avez cherché dans votre deck de cette façon, ce Pokémon est mis K.O.",
+			'es-es': "Una vez durante tu turno, si este Pokémon está en tu Banca, puedes buscar en tu baraja hasta 2 cartas de Energía Lightning y unirlas a tus Pokémon Lightning de la manera que desees. Después, baraja las cartas de tu baraja. Si has buscado en tu baraja de esta manera, este Pokémon queda Fuera de Combate.",
+			'it-it': "Una sola volta durante il tuo turno, se questo Pokémon è nella tua panchina, puoi cercare nel tuo mazzo fino a due carte Energia Lightning e assegnarle ai tuoi Pokémon Lightning nel modo che preferisci. Poi rimischia le carte del tuo mazzo. Se hai cercato nel tuo mazzo in questo modo, questo Pokémon viene messo KO.",
+			'pt-br': "Uma vez durante o seu turno, se este Pokémon estiver no seu Banco, você poderá procurar por até 2 cartas de Energia Lightning no seu baralho e ligá-las aos seus Pokémon Lightning como desejar. Em seguida, embaralhe o seu baralho. Se você procurar no seu baralho desta forma, este Pokémon será Nocauteado.",
+			'de-de': "Einmal während deines Zuges, wenn sich dieses Pokémon auf deiner Bank befindet, kannst du dein Deck nach bis zu 2 Lightning-Energiekarten durchsuchen und sie beliebig an deine Lightning-Pokémon anlegen. Mische anschließend dein Deck. Wenn du auf diese Weise dein Deck durchsucht hast, ist dieses Pokémon kampfunfähig."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Electric Ball",
-			fr: "Boule de Foudre",
-			es: "Bola Eléctrica",
-			it: "Lamposfera",
-			pt: "Bola de Eletricidade",
-			de: "Stromball"
+			'en-us': "Electric Ball",
+			'fr-fr': "Boule de Foudre",
+			'es-es': "Bola Eléctrica",
+			'it-it': "Lamposfera",
+			'pt-br': "Bola de Eletricidade",
+			'de-de': "Stromball"
 		},
 
 		damage: 100,
@@ -67,16 +67,16 @@ const card: Card = {
 	illustrator: "Ryo Ueda",
 
 	description: {
-		en: "It stores an overflowing amount of electric energy inside its body. Even a small shock makes it explode."
+		'en-us': "It stores an overflowing amount of electric energy inside its body. Even a small shock makes it explode."
 	},
 
 	evolveFrom: {
-		en: "Voltorb",
-		fr: "Voltorbe",
-		es: "Voltorb",
-		it: "Voltorb",
-		pt: "Voltorb",
-		de: "Voltobal"
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe",
+		'es-es': "Voltorb",
+		'it-it': "Voltorb",
+		'pt-br': "Voltorb",
+		'de-de': "Voltobal"
 	},
 
 	regulationMark: "D",

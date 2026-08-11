@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Cyndaquil",
-		fr: "Héricendre",
-		de: "Feurigel"
+		'en-us': "Cyndaquil",
+		'fr-fr': "Héricendre",
+		'de-de': "Feurigel"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Paralyzing Gaze",
-				fr: "Regard paralysant",
-				de: "Paralyzing Gaze"
+				'en-us': "Paralyzing Gaze",
+				'fr-fr': "Regard paralysant",
+				'de-de': "Paralyzing Gaze"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fireworks",
-				fr: "Feux d'artifices",
-				de: "Fireworks"
+				'en-us': "Fireworks",
+				'fr-fr': "Feux d'artifices",
+				'de-de': "Fireworks"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Fire Energy card attached to Cyndaquil.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie  attachée à Héricendre.",
-				de: "Flip a coin. If tails, discard a  Energy card attached to Cyndaquil."
+				'en-us': "Flip a coin. If tails, discard a Fire Energy card attached to Cyndaquil.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez une carte Énergie  attachée à Héricendre.",
+				'de-de': "Flip a coin. If tails, discard a  Energy card attached to Cyndaquil."
 			},
 			damage: 30,
 

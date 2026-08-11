@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アノプス",
+		'ja-jp': "アノプス",
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "化石から 復元した アノプスを 海に 放っても 元気が ない。 当時と 水質が 違うからだ。",
+		'ja-jp': "化石から 復元した アノプスを 海に 放っても 元気が ない。 当時と 水質が 違うからだ。",
 	},
 
 	stage: "Stage1",

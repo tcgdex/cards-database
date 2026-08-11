@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルギアV",
+		'ja-jp': "ルギアV",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "かぜよみ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の手札を1枚トラッシュする。その後、自分の山札を3枚引く。",
+				'ja-jp': "自分の手札を1枚トラッシュする。その後、自分の山札を3枚引く。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "のぞむなら、場に出ているスタジアムをトラッシュする。",
+				'ja-jp': "のぞむなら、場に出ているスタジアムをトラッシュする。",
 			},
 		},
 	],

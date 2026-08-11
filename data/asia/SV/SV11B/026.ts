@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アバゴーラ",
+		'ja-jp': "アバゴーラ",
 	},
 
 	illustrator: "Gemi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "海と 陸地で 生活する。 張り手で タンカーの 船底に 穴を 開ける パワーの 持ち主。",
+		'ja-jp': "海と 陸地で 生活する。 張り手で タンカーの 船底に 穴を 開ける パワーの 持ち主。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "マイティシェル" },
 			effect: {
-				ja: "このポケモンは、特殊エネルギーがついている相手のポケモンから、ワザのダメージや効果を受けない。",
+				'ja-jp': "このポケモンは、特殊エネルギーがついている相手のポケモンから、ワザのダメージや効果を受けない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "プロトーガ",
+		'ja-jp': "プロトーガ",
 	},
 
 	retreat: 3,

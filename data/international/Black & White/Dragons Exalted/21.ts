@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Magmortar",
-		fr: "Maganon",
-		es: "Magmortar",
-		it: "Magmortar",
-		pt: "Magmortar",
-		de: "Magbrant"
+		'en-us': "Magmortar",
+		'fr-fr': "Maganon",
+		'es-es': "Magmortar",
+		'it-it': "Magmortar",
+		'pt-br': "Magmortar",
+		'de-de': "Magbrant"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magmar",
-		fr: "Magmar",
+		'en-us': "Magmar",
+		'fr-fr': "Magmar",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flame Screen",
-				fr: "Barrière de Flammes",
+				'en-us': "Flame Screen",
+				'fr-fr': "Barrière de Flammes",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'en-us': "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 			},
 			damage: 40,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-Flamme",
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-Flamme",
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon.",
 			},
 			damage: 90,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "When launching 3,600 degrees F fireballs, its body takes on a whitish hue from the intense heat.",
+		'en-us': "When launching 3,600 degrees F fireballs, its body takes on a whitish hue from the intense heat.",
 	},
 
 	thirdParty: {

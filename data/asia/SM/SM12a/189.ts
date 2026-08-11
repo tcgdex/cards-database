@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イツキ",
+		'ja-jp': "イツキ",
 	},
 
 	illustrator: "Kazuma Koda",
 	category: "Trainer",
 
 	effect: {
-		ja: "この番、このカードを使ったあとに、ワザ・特性・トレーナーズの効果で自分が次に投げるコインは、最初の1回だけ、オモテかウラか選べる。",
+		'ja-jp': "この番、このカードを使ったあとに、ワザ・特性・トレーナーズの効果で自分が次に投げるコインは、最初の1回だけ、オモテかウラか選べる。",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コフーライ",
+		'ja-jp': "コフーライ",
 	},
 
 	illustrator: "kamonabe",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "しげみの 陰に 隠れて 暮らす。 敵に 襲われると 体の 毛を 鋭く 逆立てて 威嚇する。",
+		'ja-jp': "しげみの 陰に 隠れて 暮らす。 敵に 襲われると 体の 毛を 鋭く 逆立てて 威嚇する。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "holo"}],
 
 	evolveFrom: {
-		ja: "コフキムシ",
+		'ja-jp': "コフキムシ",
 	},
 
 	retreat: 3,

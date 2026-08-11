@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Promos-A"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Weavile"
+		'en-us': "Weavile"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Sneasel"
+		'en-us': "Sneasel"
 	},
 
 	description: {
-		en: "Evolution made it even more devious.\nIt communicates by clawing signs in boulders."
+		'en-us': "Evolution made it even more devious.\nIt communicates by clawing signs in boulders."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Slash"
+			'en-us': "Slash"
 		},
 
 		damage: 50,

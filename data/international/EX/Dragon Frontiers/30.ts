@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Flaaffy δ",
-		fr: "Lainergie δ",
-		de: "Waaty"
+		'en-us': "Flaaffy δ",
+		'fr-fr': "Lainergie δ",
+		'de-de': "Waaty"
 	},
 
 	illustrator: "Yuka Morii",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mareep",
-		fr: "Wattouat"
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thundershock",
-				fr: "Éclair",
-				de: "Donnerschock"
+				'en-us': "Thundershock",
+				'fr-fr': "Éclair",
+				'de-de': "Donnerschock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 

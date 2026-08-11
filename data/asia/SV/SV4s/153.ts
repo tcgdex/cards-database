@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Loudred"
+		'id-id': "Loudred"
 	},
 
 	illustrator: "NC Empire",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Suara keras Loudred selain memberikan kerusakan pada indra pendengar, juga memberikan kerusakan dengan menjadi tekanan udara yang menghempaskan musuh."
+		'id-id': "Suara keras Loudred selain memberikan kerusakan pada indra pendengar, juga memberikan kerusakan dengan menjadi tekanan udara yang menghempaskan musuh."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Menindih"
+			'id-id': "Menindih"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Mega Impact"
+			'id-id': "Mega Impact"
 		},
 
 		damage: 40,

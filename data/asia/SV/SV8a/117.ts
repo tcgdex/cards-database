@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "サーフゴーex",
-		id: "Gholdengo ex",
-		th: "ซาร์ฟโกex",
+		'ja-jp': "サーフゴーex",
+		'id-id': "Gholdengo ex",
+		'th-th': "ซาร์ฟโกex",
 		'zh-tw': "賽富豪ex",
 		'zh-cn': "賽富豪ex"
 	},
@@ -24,17 +24,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ボーナスコイン",
-			id: "Bonus Coin",
-			th: "เหรียญโบนัส",
+			'ja-jp': "ボーナスコイン",
+			'id-id': "Bonus Coin",
+			'th-th': "เหรียญโบนัส",
 			'zh-tw': "紅利硬幣",
 			'zh-cn': "紅利硬幣"
 		},
 
 		effect: {
-			ja: "自分の番に1回使える。自分の山札を1枚引く。このポケモンがバトル場にいるなら、さらに1枚引く。",
-			id: "Dapat digunakan 1 kali pada giliran sendiri. Ambil 1 kartu dari atas Deck sendiri. Jika Pokémon ini ada di Arena Bertarung, ambil lagi 1 kartu tambahan.",
-			th: "ใช้ได้ 1 ครั้งในเทิร์นฝ่ายเรา จั่วการ์ด 1 ใบจากสำรับการ์ดฝ่ายเรา ถ้าโปเกมอนนี้อยู่บนตำแหน่งต่อสู้ จะจั่วการ์ดเพิ่มได้ 1 ใบ",
+			'ja-jp': "自分の番に1回使える。自分の山札を1枚引く。このポケモンがバトル場にいるなら、さらに1枚引く。",
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri. Ambil 1 kartu dari atas Deck sendiri. Jika Pokémon ini ada di Arena Bertarung, ambil lagi 1 kartu tambahan.",
+			'th-th': "ใช้ได้ 1 ครั้งในเทิร์นฝ่ายเรา จั่วการ์ด 1 ใบจากสำรับการ์ดฝ่ายเรา ถ้าโปเกมอนนี้อยู่บนตำแหน่งต่อสู้ จะจั่วการ์ดเพิ่มได้ 1 ใบ",
 			'zh-tw': "在自己的回合時可使用1次。從自己的牌庫抽出1張卡。若這隻寶可夢在戰鬥場上，則再抽出1張卡。",
 			'zh-cn': "在自己的回合時可使用1次。從自己的牌庫抽出1張卡。若這隻寶可夢在戰鬥場上，則再抽出1張卡。"
 		}
@@ -44,9 +44,9 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			ja: "ゴールドラッシュ",
-			id: "Terjangan Emas",
-			th: "โปรยทอง",
+			'ja-jp': "ゴールドラッシュ",
+			'id-id': "Terjangan Emas",
+			'th-th': "โปรยทอง",
 			'zh-tw': "淘金潮",
 			'zh-cn': "淘金潮"
 		},
@@ -54,9 +54,9 @@ const card: Card = {
 		damage: "50×",
 
 		effect: {
-			ja: "自分の手札から基本エネルギーを好きなだけトラッシュし、その枚数×50ダメージ。",
-			id: "Buang sesukanya Energi Dasar dari Kartu Pegangan sendiri ke Trash, serangan ini memberikan kerusakan sejumlah 50 untuk tiap lembarnya.",
-			th: "ทิ้งการ์ดพลังงานพื้นฐานจากบนมือฝ่ายเราตามจำนวนที่ชอบที่ตำแหน่งทิ้งการ์ด แดเมจจะเท่ากับจำนวนการ์ดนั้น x50",
+			'ja-jp': "自分の手札から基本エネルギーを好きなだけトラッシュし、その枚数×50ダメージ。",
+			'id-id': "Buang sesukanya Energi Dasar dari Kartu Pegangan sendiri ke Trash, serangan ini memberikan kerusakan sejumlah 50 untuk tiap lembarnya.",
+			'th-th': "ทิ้งการ์ดพลังงานพื้นฐานจากบนมือฝ่ายเราตามจำนวนที่ชอบที่ตำแหน่งทิ้งการ์ด แดเมจจะเท่ากับจำนวนการ์ดนั้น x50",
 			'zh-tw': "從自己的手牌將任意數量的基本能量卡丟棄，造成其張數×50點傷害。",
 			'zh-cn': "從自己的手牌將任意數量的基本能量卡丟棄，造成其張數×50點傷害。"
 		}

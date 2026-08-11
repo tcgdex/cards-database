@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アノクサ",
+		'ja-jp': "アノクサ",
 	},
 
 	illustrator: "Takeshi Nakamura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "成仏できない 魂が 風に 吹かれているうち 枯草を 巻き込んで ポケモンになった。",
+		'ja-jp': "成仏できない 魂が 風に 吹かれているうち 枯草を 巻き込んで ポケモンになった。",
 	},
 
 	stage: "Basic",

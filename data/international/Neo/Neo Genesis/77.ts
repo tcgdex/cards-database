@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Sudowoodo",
-		fr: "Simularbre",
-		de: "Mogelbaum"
+		'en-us': "Sudowoodo",
+		'fr-fr': "Simularbre",
+		'de-de': "Mogelbaum"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Flail",
-				fr: "Fleau",
-				de: "Dreschflegel"
+				'en-us': "Flail",
+				'fr-fr': "Fleau",
+				'de-de': "Dreschflegel"
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on Sudowoodo.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Simularbre.",
-				de: "Fügt 10 Schadenspunkte mal der Anzahl der Schadensmarken auf Mogelbaum zu."
+				'en-us': "Does 10 damage times the number of damage counters on Sudowoodo.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Simularbre.",
+				'de-de': "Fügt 10 Schadenspunkte mal der Anzahl der Schadensmarken auf Mogelbaum zu."
 			},
 			damage: "10x",
 
@@ -49,9 +49,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Throw",
-				fr: "Jet-pierres",
-				de: "Steinwurf"
+				'en-us': "Rock Throw",
+				'fr-fr': "Jet-pierres",
+				'de-de': "Steinwurf"
 			},
 
 			damage: 30,
@@ -69,8 +69,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Although it always pretends to be a tree, its composition appears to be closer to a rock than a plant.",
-		fr: "Bien qu'il prétende être un arbre, il ressemble plus à un rock qu'à une plante."
+		'en-us': "Although it always pretends to be a tree, its composition appears to be closer to a rock than a plant.",
+		'fr-fr': "Bien qu'il prétende être un arbre, il ressemble plus à un rock qu'à une plante."
 	},
 
 

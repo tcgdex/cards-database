@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Togepi（デルタ種）",
+		'ja-jp': "Togepi（デルタ種）",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "魅力",
+				'ja-jp': "魅力",
 			},
 			effect: {
-				ja: "対戦相手の次のターン中に、防御ポケモンからの攻撃によって与えられた損害は20増加します（脱力感と抵抗を適用する前）。",
+				'ja-jp': "対戦相手の次のターン中に、防御ポケモンからの攻撃によって与えられた損害は20増加します（脱力感と抵抗を適用する前）。",
 			},
 		},
 	],

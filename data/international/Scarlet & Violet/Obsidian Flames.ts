@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Scarlet & Violet'
 
 const set: Set = {
 	id: "sv03",
 
 	name: {
-		de: "Obsidian Flammen",
-		en: "Obsidian Flames",
-		es: "Llamas Obsidianas",
-		fr: "Flammes Obsidiennes",
-		it: "Ossidiana Infuocata",
-		pt: "Obsidiana em Chamas"
+		'de-de': "Obsidian Flammen",
+		'en-us': "Obsidian Flames",
+		'es-es': "Llamas Obsidianas",
+		'fr-fr': "Flammes Obsidiennes",
+		'it-it': "Ossidiana Infuocata",
+		'pt-br': "Obsidiana em Chamas"
 	},
 
 	serie: serie,
@@ -23,7 +23,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "OBF",
-		fr: "FLO"
+		'fr-fr': "FLO"
 	},
 
 	thirdParty: {

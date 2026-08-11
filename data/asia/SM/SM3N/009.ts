@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ギャラドス",
+		'ja-jp': "ギャラドス",
 	},
 
 	illustrator: "so-taro",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ギャラドスを 怒らせた ある街は 一晩の うちに 焼き尽くされ 跡形も なくなったと いわれる。",
+		'ja-jp': "ギャラドスを 怒らせた ある街は 一晩の うちに 焼き尽くされ 跡形も なくなったと いわれる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分のトラッシュにある「コイキング」の枚数x50ダメージ。",
+				'ja-jp': "自分のトラッシュにある「コイキング」の枚数x50ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Water", "Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチポケモン全員にも、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "自分のベンチポケモン全員にも、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コイキング",
+		'ja-jp': "コイキング",
 	},
 
 	retreat: 4,

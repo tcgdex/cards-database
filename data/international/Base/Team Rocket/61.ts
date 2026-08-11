@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Mankey",
-		fr: "Férosinge",
-		de: "Menki"
+		'en-us': "Mankey",
+		'fr-fr': "Férosinge",
+		'de-de': "Menki"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mischief",
-				fr: "Éspièglerie",
-				de: "Schabernack"
+				'en-us': "Mischief",
+				'fr-fr': "Éspièglerie",
+				'de-de': "Schabernack"
 			},
 			effect: {
-				en: "Shuffle your opponent's deck.",
-				fr: "Mélangez le deck de votre adversaire.",
-				de: "Mische das Deck deines gegners."
+				'en-us': "Shuffle your opponent's deck.",
+				'fr-fr': "Mélangez le deck de votre adversaire.",
+				'de-de': "Mische das Deck deines gegners."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Anger",
-				fr: "Colère",
-				de: "Zorn"
+				'en-us': "Anger",
+				'fr-fr': "Colère",
+				'de-de': "Zorn"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 20 dégâts.",
-				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu; bei 'Zahl' fügt dieser Angriff 20 Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 20 dégâts.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu; bei 'Zahl' fügt dieser Angriff 20 Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -70,8 +70,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Normally friendly, it quickly becomes angry if it doesn't get what it wants.",
-		fr: "De nature amicale, il se met très vite en colère s'il n'obtient pas ce qu'il veut."
+		'en-us': "Normally friendly, it quickly becomes angry if it doesn't get what it wants.",
+		'fr-fr': "De nature amicale, il se met très vite en colère s'il n'obtient pas ce qu'il veut."
 	},
 
 

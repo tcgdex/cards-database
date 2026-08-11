@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Seel"
+		'en-us': "Misty's Seel"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -28,7 +28,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aurora Beam"
+				'en-us': "Aurora Beam"
 			},
 
 			damage: 20,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラティアス（デルタ種）",
+		'ja-jp': "ラティアス（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "デルタオーラ",
+				'ja-jp': "デルタオーラ",
 			},
 			effect: {
-				ja: "LatiosまたはLatios Exがプレイされている場合、LatiasのExtra Crushの攻撃コストは今ではLightningmetalcolorlessになりました。",
+				'ja-jp': "LatiosまたはLatios Exがプレイされている場合、LatiasのExtra Crushの攻撃コストは今ではLightningmetalcolorlessになりました。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Metal", "Colorless"],
 			name: {
-				ja: "スパイラルドレイン",
+				'ja-jp': "スパイラルドレイン",
 			},
 			effect: {
-				ja: "Latiasから2つのダメージカウンターを削除します。",
+				'ja-jp': "Latiasから2つのダメージカウンターを削除します。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Lightning", "Metal", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "余分なクラッシュ",
+				'ja-jp': "余分なクラッシュ",
 			},
 			effect: {
-				ja: "対戦相手がPokemon-Exをプレイしていない場合、この攻撃は何もしません。",
+				'ja-jp': "対戦相手がPokemon-Exをプレイしていない場合、この攻撃は何もしません。",
 			},
 			damage: 80,
 		},

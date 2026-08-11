@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Scizor",
-		fr: "Cizayox",
-		de: "Scherox"
+		'en-us': "Scizor",
+		'fr-fr': "Cizayox",
+		'de-de': "Scherox"
 	},
 
 	illustrator: "Kimiya Masago",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Scyther",
-		fr: "Insécateur"
+		'en-us': "Scyther",
+		'fr-fr': "Insécateur"
 	},
 
 	stage: "Stage1",
@@ -37,15 +37,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "False Swipe",
-				fr: "Faux-Chage",
-				de: "False Swipe"
+				'en-us': "False Swipe",
+				'fr-fr': "Faux-Chage",
+				'de-de': "False Swipe"
 			},
 
 			effect: {
-				en: "Does damage equal to half the Defending Pokémon's remaining HP (rounded down to the nearest 10).",
-				fr: "Inflige des dégâts équivalents à la moitié des PV restants au Pokémon Défenseur (arrondis à la dizaine la plus proche.)",
-				de: "Does damage equal to half the Defending Pokémon's remaining HP (rounded down to the nearest 10)."
+				'en-us': "Does damage equal to half the Defending Pokémon's remaining HP (rounded down to the nearest 10).",
+				'fr-fr': "Inflige des dégâts équivalents à la moitié des PV restants au Pokémon Défenseur (arrondis à la dizaine la plus proche.)",
+				'de-de': "Does damage equal to half the Defending Pokémon's remaining HP (rounded down to the nearest 10)."
 			},
 
 			damage: "?"
@@ -58,15 +58,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Double Claw",
-				fr: "Combo-griffe",
-				de: "Double Claw"
+				'en-us': "Double Claw",
+				'fr-fr': "Combo-griffe",
+				'de-de': "Double Claw"
 			},
 
 			effect: {
-				en: "Flip 2 coins. This attack does 20 times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 20 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 20 times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 20 damage times the number of heads."
 			},
 
 			damage: "20+"
@@ -90,8 +90,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It swings its eye patterned pincers up to scare its foes. This makes it look like it has three heads.",
-		fr: "Il brandit ses pinces décorées d'yeux pour effrayer ses ennemis, qui ont l'impression qu'il a trois têtes."
+		'en-us': "It swings its eye patterned pincers up to scare its foes. This makes it look like it has three heads.",
+		'fr-fr': "Il brandit ses pinces décorées d'yeux pour effrayer ses ennemis, qui ont l'impression qu'il a trois têtes."
 	},
 
 

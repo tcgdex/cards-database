@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Gouroutan",
-		en: "Oranguru",
-		es: "Oranguru",
-		it: "Oranguru",
-		pt: "Oranguru",
-		de: "Kommandutan"
+		'fr-fr': "Gouroutan",
+		'en-us': "Oranguru",
+		'es-es': "Oranguru",
+		'it-it': "Oranguru",
+		'pt-br': "Oranguru",
+		'de-de': "Kommandutan"
 	},
 
 	rarity: "Uncommon",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			fr: "Ordre du Conspirateur",
-			en: "Plotter's Command",
-			es: "Mandato del Conspirador",
-			it: "Ordine del Cospiratore",
-			pt: "Comando do Conspirador",
-			de: "Befehl des Strategen"
+			'fr-fr': "Ordre du Conspirateur",
+			'en-us': "Plotter's Command",
+			'es-es': "Mandato del Conspirador",
+			'it-it': "Ordine del Cospiratore",
+			'pt-br': "Comando do Conspirador",
+			'de-de': "Befehl des Strategen"
 		},
 
 		effect: {
-			fr: "Choisissez l'une des attaques du Pokémon Actif de votre adversaire. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas utiliser cette attaque.",
-			en: "Choose 1 of your opponent's Active Pokémon's attacks. During your opponent's next turn, that Pokémon can't use that attack.",
-			es: "Elige uno de los ataques del Pokémon Activo de tu rival. Durante el próximo turno de tu rival, dicho Pokémon no puede usar ese ataque.",
-			it: "Scegli un attacco del Pokémon attivo del tuo avversario. Durante il prossimo turno del tuo avversario, quel Pokémon non potrà utilizzarlo.",
-			pt: "Escolha 1 dos ataques do Pokémon Ativo do seu oponente. Durante o próximo turno do seu oponente, aquele Pokémon não poderá usar aquele ataque.",
-			de: "Wähle 1 Attacke des Aktiven Pokémon deines Gegners. Während des nächsten Zuges deines Gegners kann jenes Pokémon jene Attacke nicht einsetzen."
+			'fr-fr': "Choisissez l'une des attaques du Pokémon Actif de votre adversaire. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas utiliser cette attaque.",
+			'en-us': "Choose 1 of your opponent's Active Pokémon's attacks. During your opponent's next turn, that Pokémon can't use that attack.",
+			'es-es': "Elige uno de los ataques del Pokémon Activo de tu rival. Durante el próximo turno de tu rival, dicho Pokémon no puede usar ese ataque.",
+			'it-it': "Scegli un attacco del Pokémon attivo del tuo avversario. Durante il prossimo turno del tuo avversario, quel Pokémon non potrà utilizzarlo.",
+			'pt-br': "Escolha 1 dos ataques do Pokémon Ativo do seu oponente. Durante o próximo turno do seu oponente, aquele Pokémon não poderá usar aquele ataque.",
+			'de-de': "Wähle 1 Attacke des Aktiven Pokémon deines Gegners. Während des nächsten Zuges deines Gegners kann jenes Pokémon jene Attacke nicht einsetzen."
 		},
 
 		damage: 30
@@ -46,12 +46,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Super Psy",
-			en: "Super Psy Bolt",
-			es: "Superrayo Psi",
-			it: "Superpsico",
-			pt: "Super-raio Psíquico",
-			de: "Super-Psischlag"
+			'fr-fr': "Super Psy",
+			'en-us': "Super Psy Bolt",
+			'es-es': "Superrayo Psi",
+			'it-it': "Superpsico",
+			'pt-br': "Super-raio Psíquico",
+			'de-de': "Super-Psischlag"
 		},
 
 		damage: 80
@@ -94,7 +94,7 @@ const card: Card = {
 	illustrator: "Toshinao Aoki",
 
 	description: {
-		en: "People used to mistake Oranguru for a human when they saw it issue command after command to the other Pokémon of the forest.",
+		'en-us': "People used to mistake Oranguru for a human when they saw it issue command after command to the other Pokémon of the forest.",
 	},
 }
 

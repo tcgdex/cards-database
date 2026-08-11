@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cinccino",
-		fr: "Pashmilla",
-		es: "Cinccino",
-		it: "Cinccino",
-		pt: "Cinccino",
-		de: "Chillabell"
+		'en-us': "Cinccino",
+		'fr-fr': "Pashmilla",
+		'es-es': "Cinccino",
+		'it-it': "Cinccino",
+		'pt-br': "Cinccino",
+		'de-de': "Chillabell"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Minccino",
-		fr: "Chinchidou",
-		es: "Minccino",
-		it: "Minccino",
-		pt: "Minccino",
-		de: "Picochilla"
+		'en-us': "Minccino",
+		'fr-fr': "Chinchidou",
+		'es-es': "Minccino",
+		'it-it': "Minccino",
+		'pt-br': "Minccino",
+		'de-de': "Picochilla"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Slap",
-			fr: "Gifle",
-			es: "Bofetón",
-			it: "Sberla",
-			pt: "Tapa",
-			de: "Hieb"
+			'en-us': "Slap",
+			'fr-fr': "Gifle",
+			'es-es': "Bofetón",
+			'it-it': "Sberla",
+			'pt-br': "Tapa",
+			'de-de': "Hieb"
 		},
 
 		damage: 40
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Triple Axel",
-			fr: "Triple Axel",
-			es: "Triple Axel",
-			it: "Triplo Axel",
-			pt: "Pinote Triplo",
-			de: "Dreifach-Axel"
+			'en-us': "Triple Axel",
+			'fr-fr': "Triple Axel",
+			'es-es': "Triple Axel",
+			'it-it': "Triplo Axel",
+			'pt-br': "Pinote Triplo",
+			'de-de': "Dreifach-Axel"
 		},
 
 		effect: {
-			en: "Flip 3 coins. This attack does 50 damage for each heads.",
-			fr: "Lancez 3 pièces. Cette attaque inflige 50 dégâts pour chaque côté face.",
-			es: "Lanza 3 monedas. Este ataque hace 50 puntos de daño por cada cara.",
-			it: "Lancia tre volte una moneta. Questo attacco infligge 50 danni ogni volta che esce testa.",
-			pt: "Jogue 3 moedas. Este ataque causa 50 pontos de dano para cada cara.",
-			de: "Wirf 3 Münzen. Diese Attacke fügt 50 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip 3 coins. This attack does 50 damage for each heads.",
+			'fr-fr': "Lancez 3 pièces. Cette attaque inflige 50 dégâts pour chaque côté face.",
+			'es-es': "Lanza 3 monedas. Este ataque hace 50 puntos de daño por cada cara.",
+			'it-it': "Lancia tre volte una moneta. Questo attacco infligge 50 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 3 moedas. Este ataque causa 50 pontos de dano para cada cara.",
+			'de-de': "Wirf 3 Münzen. Diese Attacke fügt 50 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "50×"
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its body secretes oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won't tolerate even a speck of the stuff.",
+		'en-us': "Its body secretes oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won't tolerate even a speck of the stuff.",
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Gorebyss",
-		fr: "Rosabyss",
-		de: "Saganabyss"
+		'en-us': "Gorebyss",
+		'fr-fr': "Rosabyss",
+		'de-de': "Saganabyss"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Clamperl",
-		fr: "Coquiperl"
+		'en-us': "Clamperl",
+		'fr-fr': "Coquiperl"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stun Needle",
-				fr: "Para-dard",
-				de: "Stun Needle"
+				'en-us': "Stun Needle",
+				'fr-fr': "Para-dard",
+				'de-de': "Stun Needle"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mystic Water",
-				fr: "Eau mystique",
-				de: "Mystic Water"
+				'en-us': "Mystic Water",
+				'fr-fr': "Eau mystique",
+				'de-de': "Mystic Water"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each Psychic Energy in play.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  en jeu.",
-				de: "Does 20 damage plus 10 more damage for each  Energy in play."
+				'en-us': "Does 20 damage plus 10 more damage for each Psychic Energy in play.",
+				'fr-fr': "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  en jeu.",
+				'de-de': "Does 20 damage plus 10 more damage for each  Energy in play."
 			},
 			damage: "20+",
 

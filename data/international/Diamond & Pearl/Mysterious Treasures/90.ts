@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Murkrow",
-		fr: "Cornèbre",
-		de: "Kramurx"
+		'en-us': "Murkrow",
+		'fr-fr': "Cornèbre",
+		'de-de': "Kramurx"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Swarm",
-				fr: "Nuée",
-				de: "Ausschwärmen"
+				'en-us': "Swarm",
+				'fr-fr': "Nuée",
+				'de-de': "Ausschwärmen"
 			},
 			effect: {
-				en: "Search your deck for Murkrow and put it onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez Cornèbre dans votre deck et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach einer Kramurx-Karte und lege sie auf deine Bank. Mische dein Deck danach."
+				'en-us': "Search your deck for Murkrow and put it onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez Cornèbre dans votre deck et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach einer Kramurx-Karte und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hide Crowd",
-				fr: "Cache foule",
-				de: "Schutz in der Menge"
+				'en-us': "Hide Crowd",
+				'fr-fr': "Cache foule",
+				'de-de': "Schutz in der Menge"
 			},
 			effect: {
-				en: "Switch Murkrow with 1 of your Benched Pokémon.",
-				fr: "Échangez Cornèbre avec 1 de vos Pokémon de Banc.",
-				de: "Tausche Kramurx gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Switch Murkrow with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez Cornèbre avec 1 de vos Pokémon de Banc.",
+				'de-de': "Tausche Kramurx gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 20,
 
@@ -77,8 +77,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It is believed that seeing this Pokémon at night will bring about ominous occurrences.",
-		fr: "On dit que rencontrer un Cornèbre la nuit est signe de mauvais augure."
+		'en-us': "It is believed that seeing this Pokémon at night will bring about ominous occurrences.",
+		'fr-fr': "On dit que rencontrer un Cornèbre la nuit est signe de mauvais augure."
 	},
 
 	thirdParty: {

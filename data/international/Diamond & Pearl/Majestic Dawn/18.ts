@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Espeon",
-		fr: "Mentali",
-		de: "Psiana"
+		'en-us': "Espeon",
+		'fr-fr': "Mentali",
+		'de-de': "Psiana"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Evoli",
+		'en-us': "Eevee",
+		'fr-fr': "Evoli",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Sunlight Veil",
-				fr: "Voile solaire",
-				de: "Sonnenschleier"
+				'en-us': "Sunlight Veil",
+				'fr-fr': "Voile solaire",
+				'de-de': "Sonnenschleier"
 			},
 			effect: {
-				en: "Each of your Pokémon that evolves from Eevee gets +20 HP. You can't use more than 1 Sunlight Veil Poké-Body each turn.",
-				fr: "Chacun de vos Pokémon évoluant d'Evoli obtient 20 PV de plus. Vous ne pouvez pas utiliser plus d'1 Poké-Body Voile solaire par tour.",
-				de: "Jedes deiner Pokémon, das sich aus Evoli entwickelt, erhält +20 KP. Du kannst nicht mehr als 1 Sonnenschleier Poké-Body pro Zug benutzen."
+				'en-us': "Each of your Pokémon that evolves from Eevee gets +20 HP. You can't use more than 1 Sunlight Veil Poké-Body each turn.",
+				'fr-fr': "Chacun de vos Pokémon évoluant d'Evoli obtient 20 PV de plus. Vous ne pouvez pas utiliser plus d'1 Poké-Body Voile solaire par tour.",
+				'de-de': "Jedes deiner Pokémon, das sich aus Evoli entwickelt, erhält +20 KP. Du kannst nicht mehr als 1 Sonnenschleier Poké-Body pro Zug benutzen."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Morning Sun",
-				fr: "Aurore",
-				de: "Morgengrauen"
+				'en-us': "Morning Sun",
+				'fr-fr': "Aurore",
+				'de-de': "Morgengrauen"
 			},
 			effect: {
-				en: "You may move an Energy card attached to Espeon to 1 of your Benched Pokémon.",
-				fr: "Vous pouvez déplacer une carte Énergie attachée à Mentali sur 1 des Pokémon de votre Banc.",
-				de: "Du kannst 1 Energiekarte, die an Psiana angelegt ist, entfernen und an ein Pokémon auf deiner Bank anlegen."
+				'en-us': "You may move an Energy card attached to Espeon to 1 of your Benched Pokémon.",
+				'fr-fr': "Vous pouvez déplacer une carte Énergie attachée à Mentali sur 1 des Pokémon de votre Banc.",
+				'de-de': "Du kannst 1 Energiekarte, die an Psiana angelegt ist, entfernen und an ein Pokémon auf deiner Bank anlegen."
 			},
 			damage: 60,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its fur has the look and feel of velvet. The orb on its forehead glows when it uses psycho-power.",
+		'en-us': "Its fur has the look and feel of velvet. The orb on its forehead glows when it uses psycho-power.",
 	},
 
 	thirdParty: {

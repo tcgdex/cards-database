@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ソウブレイズ",
+		'ja-jp': "ソウブレイズ",
 	},
 
 	illustrator: "Gemi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "両腕の 炎の剣は 志半ばで 力つきた 剣士の 怨念で 燃え上がる。",
+		'ja-jp': "両腕の 炎の剣は 志半ばで 力つきた 剣士の 怨念で 燃え上がる。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "グレンアルマex",
+		'ja-jp': "グレンアルマex",
 	},
 
 	retreat: 2,

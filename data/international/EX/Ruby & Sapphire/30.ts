@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Electrike",
-		fr: "Dynavolt",
-		de: "Frizelbliz"
+		'en-us': "Electrike",
+		'fr-fr': "Dynavolt",
+		'de-de': "Frizelbliz"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Charge",
-				fr: "Recharge",
-				de: "Charge"
+				'en-us': "Charge",
+				'fr-fr': "Recharge",
+				'de-de': "Charge"
 			},
 			effect: {
-				en: "Attach a Lightning Energy card from your discard pile to Electrike.",
-				fr: "Attachez une carte Énergie  de votre pile de défausse à Dynavolt.",
-				de: "Attack a  Energy card from your discard pile to Electrike."
+				'en-us': "Attach a Lightning Energy card from your discard pile to Electrike.",
+				'fr-fr': "Attachez une carte Énergie  de votre pile de défausse à Dynavolt.",
+				'de-de': "Attack a  Energy card from your discard pile to Electrike."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Jolt",
-				fr: "Secousse tonnerre",
-				de: "Thunder Jolt"
+				'en-us': "Thunder Jolt",
+				'fr-fr': "Secousse tonnerre",
+				'de-de': "Thunder Jolt"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Electrike does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Dynavolt s'inflige 10 dégâts.",
-				de: "Flip a coin. If tails, Electrike does 10 damage to itself."
+				'en-us': "Flip a coin. If tails, Electrike does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Dynavolt s'inflige 10 dégâts.",
+				'de-de': "Flip a coin. If tails, Electrike does 10 damage to itself."
 			},
 			damage: 30,
 

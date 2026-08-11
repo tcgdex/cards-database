@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Altaria-GX",
-		fr: "Altaria-GX",
+		'en-us': "Altaria-GX",
+		'fr-fr': "Altaria-GX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Shiny rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Dragon",
 	],
 	evolveFrom: {
-		en: "Swablu",
-		fr: "Tylton",
+		'en-us': "Swablu",
+		'fr-fr': "Tylton",
 	},
 
 	suffix: "GX",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bright Tone",
-				fr: "Tonalité Claire",
+				'en-us': "Bright Tone",
+				'fr-fr': "Tonalité Claire",
 			},
 			effect: {
-				en: "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Pokémon-GX and Pokémon-EX.",
-				fr: "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon-GX ou de Pokémon-EX.",
+				'en-us': "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Pokémon-GX and Pokémon-EX.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon-GX ou de Pokémon-EX.",
 			},
 			damage: 50,
 
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sonic Edge",
-				fr: "Tranchant Sonique",
+				'en-us': "Sonic Edge",
+				'fr-fr': "Tranchant Sonique",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
+				'en-us': "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
 			},
 			damage: 110,
 
@@ -65,12 +65,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Euphoria-GX",
-				fr: "Euphorie-GX",
+				'en-us': "Euphoria-GX",
+				'fr-fr': "Euphorie-GX",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep. Heal all damage from all of your Pokémon. (You can't use more than 1 GX attack in a game.)",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi. Soignez tous les dégâts de vos Pokémon. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'en-us': "Your opponent's Active Pokémon is now Asleep. Heal all damage from all of your Pokémon. (You can't use more than 1 GX attack in a game.)",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi. Soignez tous les dégâts de vos Pokémon. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 
 		},

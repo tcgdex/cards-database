@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pidgeot"
+		'en-us': "Pidgeot"
 	},
 
 	illustrator: "Akira Komayama",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Pidgeotto"
+		'en-us': "Pidgeotto"
 	},
 
 	description: {
-		en: "It spreads its gorgeous wings widely to intimidate\nenemies. It races through the skies at\nMach-2 speed."
+		'en-us': "It spreads its gorgeous wings widely to intimidate\nenemies. It races through the skies at\nMach-2 speed."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Twister"
+			'en-us': "Twister"
 		},
 
 		damage: 80,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip 2 coins. For each heads, discard a random Energy from your opponent's Active Pokémon. If both of them are tails, this attack does nothing."
+			'en-us': "Flip 2 coins. For each heads, discard a random Energy from your opponent's Active Pokémon. If both of them are tails, this attack does nothing."
 		}
 	}],
 

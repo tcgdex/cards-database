@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Wobbuffet",
-		fr: "Qulbutoké",
-		es: "Wobbuffet",
-		it: "Wobbuffet",
-		pt: "Wobbuffet",
-		de: "Woingenau"
+		'en-us': "Wobbuffet",
+		'fr-fr': "Qulbutoké",
+		'es-es': "Wobbuffet",
+		'it-it': "Wobbuffet",
+		'pt-br': "Wobbuffet",
+		'de-de': "Woingenau"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -36,8 +36,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt Bounce",
-				fr: "Culbute Surprise",
+				'en-us': "Headbutt Bounce",
+				'fr-fr': "Culbute Surprise",
 			},
 
 			damage: 60,
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It desperately tries to keep its black tail hidden. It is said to be proof the tail hides a secret.",
+		'en-us': "It desperately tries to keep its black tail hidden. It is said to be proof the tail hides a secret.",
 	},
 
 	thirdParty: {

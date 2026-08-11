@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トゲデマル",
+		'ja-jp': "トゲデマル",
 	},
 
 	illustrator: "Orca",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "ピンチになると 体を 丸めて  背中の とげとげを 逆立てると  でたらめに 電撃を 撃ちまくる。",
+		'ja-jp': "ピンチになると 体を 丸めて  背中の とげとげを 逆立てると  でたらめに 電撃を 撃ちまくる。",
 	},
 
 	stage: "Basic",

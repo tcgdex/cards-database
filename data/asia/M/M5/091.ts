@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トリデプス",
+		'ja-jp': "トリデプス",
 	},
 
 	illustrator: "Yoriyuki Ikegami",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "たいこのぼうへき" },
 			effect: {
-				ja: "このポケモンがベンチにいるかぎり、自分のポケモン全員は、ついているエネルギーが2個以下の相手のポケモンからワザのダメージを受けない。",
+				'ja-jp': "このポケモンがベンチにいるかぎり、自分のポケモン全員は、ついているエネルギーが2個以下の相手のポケモンからワザのダメージを受けない。",
 			},
 		},
 	],
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "タテトプス",
+		'ja-jp': "タテトプス",
 	},
 
 	retreat: 4,

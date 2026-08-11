@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Gulpin",
-		de: "Schluppuck"
+		'en-us': "Gulpin",
+		'de-de': "Schluppuck"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				de: "Sammeln"
+				'en-us': "Collect",
+				'de-de': "Sammeln"
 			},
 			effect: {
-				en: "Draw a card.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -43,8 +43,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drool",
-				de: "Sabbern"
+				'en-us': "Drool",
+				'de-de': "Sabbern"
 			},
 
 			damage: 20,
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Almost all of its body is its stomach. Its harsh digestive juices quickly dissolve anything it swallows."
+		'en-us': "Almost all of its body is its stomach. Its harsh digestive juices quickly dissolve anything it swallows."
 	},
 
 	variants: [

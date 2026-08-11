@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Hypno",
-		fr: "Hypnomade",
-		de: "Hypno"
+		'en-us': "Hypno",
+		'fr-fr': "Hypnomade",
+		'de-de': "Hypno"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Drowsee",
-		fr: "Soporifik"
+		'en-us': "Drowsee",
+		'fr-fr': "Soporifik"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Eerie Aura",
-				fr: "Aura sinistre",
-				de: "Eerie Aura"
+				'en-us': "Eerie Aura",
+				'fr-fr': "Aura sinistre",
+				'de-de': "Eerie Aura"
 			},
 			effect: {
-				en: "As long as Hypno is your Active Pokémon, put 2 damage counters on each Pokémon that remains Asleep between turns.",
-				fr: "Tant qu'Hypnomade est votre Pokémon Actif, placez 2 marqueurs de dégât sur chaque Pokémon qui reste Endormi entre deux tours.",
-				de: "As long as Hypno is your Active Pokémon, put 2 damage counters on each Pokémon that remains Asleep between turns."
+				'en-us': "As long as Hypno is your Active Pokémon, put 2 damage counters on each Pokémon that remains Asleep between turns.",
+				'fr-fr': "Tant qu'Hypnomade est votre Pokémon Actif, placez 2 marqueurs de dégât sur chaque Pokémon qui reste Endormi entre deux tours.",
+				'de-de': "As long as Hypno is your Active Pokémon, put 2 damage counters on each Pokémon that remains Asleep between turns."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnotic Ray",
-				fr: "Onde hypnotique",
-				de: "Hypnotic Ray"
+				'en-us': "Hypnotic Ray",
+				'fr-fr': "Onde hypnotique",
+				'de-de': "Hypnotic Ray"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 			damage: 20,
 

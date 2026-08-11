@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハルクジラ",
+		'ja-jp': "ハルクジラ",
 	},
 
 	illustrator: "Uta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "氷エネルギーの 集中する 上あごの ツノが 超低温になって 周囲を 凍らせる。",
+		'ja-jp': "氷エネルギーの 集中する 上あごの ツノが 超低温になって 周囲を 凍らせる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "がっちりボディ" },
 			effect: {
-				ja: "このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "このポケモンが受けるワザのダメージは「-30」される。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アルクジラ",
+		'ja-jp': "アルクジラ",
 	},
 
 	retreat: 3,

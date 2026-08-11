@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゼラオラV",
+		'ja-jp': "ゼラオラV",
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "前の自分の番、このポケモン以外の「れんげき」のポケモンがワザを使っていたなら、相手のベンチポケモン1匹にも、160ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "前の自分の番、このポケモン以外の「れんげき」のポケモンがワザを使っていたなら、相手のベンチポケモン1匹にも、160ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

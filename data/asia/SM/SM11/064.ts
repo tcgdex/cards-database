@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デデンネ",
+		'ja-jp': "デデンネ",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "民家に 忍びこみ コンセントから 電気を 盗む。 電気代が おかしいときは こいつの 仕業。",
+		'ja-jp': "民家に 忍びこみ コンセントから 電気を 盗む。 電気代が おかしいときは こいつの 仕業。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "のぞむなら、自分の手札が6枚になるように、山札を引く。",
+				'ja-jp': "のぞむなら、自分の手札が6枚になるように、山札を引く。",
 			},
 		},
 	],

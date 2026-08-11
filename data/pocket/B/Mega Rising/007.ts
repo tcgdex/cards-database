@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dustox"
+		'en-us': "Dustox"
 	},
 
 	illustrator: "Midori Harada",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Cascoon"
+		'en-us': "Cascoon"
 	},
 
 	description: {
-		en: "It violently flutters its wings to scatter toxic dust\nwhen attacked. It becomes active after sunset."
+		'en-us': "It violently flutters its wings to scatter toxic dust\nwhen attacked. It becomes active after sunset."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Select Powder"
+			'en-us': "Select Powder"
 		},
 
 		damage: 60,
 		cost: ["Grass"],
 
 		effect: {
-			en: "Choose either Poisoned or Confused. Your opponent's Active Pokémon is now affected by that Special Condition."
+			'en-us': "Choose either Poisoned or Confused. Your opponent's Active Pokémon is now affected by that Special Condition."
 		}
 	}],
 

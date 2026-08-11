@@ -1,18 +1,18 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "博士の研究（オーリム博士）"
+		'ja-jp': "博士の研究（オーリム博士）"
 	},
 
 	illustrator: "kirisAki",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の手札をすべてトラッシュし、山札を7枚引く。"
+		'ja-jp': "自分の手札をすべてトラッシュし、山札を7枚引く。"
 	},
 
 	variants: [

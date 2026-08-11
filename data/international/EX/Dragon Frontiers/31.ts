@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Horsea δ",
-		fr: "Hypotrempe δ",
-		de: "Seeper"
+		'en-us': "Horsea δ",
+		'fr-fr': "Hypotrempe δ",
+		'de-de': "Seeper"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reverse Thrust",
-				fr: "Poussée inverse",
-				de: "Umkehrschub"
+				'en-us': "Reverse Thrust",
+				'fr-fr': "Poussée inverse",
+				'de-de': "Umkehrschub"
 			},
 			effect: {
-				en: "Switch Horsea with 1 of your Benched Pokémon.",
-				fr: "Échangez Hypotrempe avec 1 de vos Pokémon de Banc.",
-				de: "Tausche Seeper gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Switch Horsea with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez Hypotrempe avec 1 de vos Pokémon de Banc.",
+				'de-de': "Tausche Seeper gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 20,
 

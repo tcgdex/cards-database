@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Plume Fossil"
+		'en-us': "Plume Fossil"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Play this card as if it were a 40-HP Basic {C} Pokémon.\nAt any time during your turn, you may discard this card from play.\nThis card can't retreat."
+		'en-us': "Play this card as if it were a 40-HP Basic {C} Pokémon.\nAt any time during your turn, you may discard this card from play.\nThis card can't retreat."
 	},
 
 	trainerType: "Item",

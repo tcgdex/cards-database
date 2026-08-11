@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sword & Shield'
 
 const swsh12: Set = {
 	id: "swsh12",
 
 	name: {
-		en: "Silver Tempest",
-		fr: "Tempête Argentée",
-		es: "Tempestad Plateada",
-		it: "Tempesta Argentata",
-		de: "Silberne Sturmwinde",
-		pt: "Tempestade Prateada"
+		'en-us': "Silver Tempest",
+		'fr-fr': "Tempête Argentée",
+		'es-es': "Tempestad Plateada",
+		'it-it': "Tempesta Argentata",
+		'de-de': "Silberne Sturmwinde",
+		'pt-br': "Tempestade Prateada"
 	},
 
 	serie: serie,
@@ -23,7 +23,7 @@ const swsh12: Set = {
 
 	abbreviations: {
 		official: "SIT",
-		fr: "TAR"
+		'fr-fr': "TAR"
 	},
 
 	thirdParty: {

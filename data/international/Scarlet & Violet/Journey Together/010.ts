@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Foongus",
-		fr: "Trompignon",
-		es: "Foongus",
-		de: "Tarnpignon",
-		it: "Foongus",
-		pt: "Foongus",
+		'en-us': "Foongus",
+		'fr-fr': "Trompignon",
+		'es-es': "Foongus",
+		'de-de': "Tarnpignon",
+		'it-it': "Foongus",
+		'pt-br': "Foongus",
 		'es-mx': "Foongus"
 	},
 
@@ -25,22 +25,22 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Spore Ball",
-			fr: "Boule de Spores",
-			es: "Bola Espora",
-			de: "Sporenbällchen",
-			it: "Pallaspore",
-			pt: "Bola de Esporos",
+			'en-us': "Spore Ball",
+			'fr-fr': "Boule de Spores",
+			'es-es': "Bola Espora",
+			'de-de': "Sporenbällchen",
+			'it-it': "Pallaspore",
+			'pt-br': "Bola de Esporos",
 			'es-mx': "Bola Esporífera"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
 			'es-mx': "El Pokémon Activo de tu rival ahora está Dormido."
 		},
 

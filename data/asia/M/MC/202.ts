@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フリージオ",
+		'ja-jp': "フリージオ",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "氷で できた 鎖を 使い 相手を 締め上げると そのまま 一気に 凍らせてしまうのだ。",
+		'ja-jp': "氷で できた 鎖を 使い 相手を 締め上げると そのまま 一気に 凍らせてしまうのだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "コールサイン" },
 			cost: ["Water"],
 			effect: {
-				ja: "自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Water"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],

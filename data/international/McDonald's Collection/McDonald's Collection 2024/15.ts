@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2024'
 
 const card: Card = {
 	name: {
-		en: "Drampa",
-		fr: "Draïeul",
-		es: "Drampa",
-		it: "Drampa",
-		pt: "Drampa",
-		de: "Sen-Long"
+		'en-us': "Drampa",
+		'fr-fr': "Draïeul",
+		'es-es': "Drampa",
+		'it-it': "Drampa",
+		'pt-br': "Drampa",
+		'de-de': "Sen-Long"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -28,18 +28,18 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				en: "Gentle Slap",
+				'en-us': "Gentle Slap",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				en: "Raging Cannon",
+				'en-us': "Raging Cannon",
 			},
 			damage: "100+",
 			effect: {
-				en: "If all your Benched Pokémon have at least 1 damage counter on them, this attack does 120 more damage.",
+				'en-us': "If all your Benched Pokémon have at least 1 damage counter on them, this attack does 120 more damage.",
 			},
 		},
 	],

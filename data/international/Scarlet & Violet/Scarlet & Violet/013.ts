@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sprigatito",
-		fr: "Poussacha",
-		es: "Sprigatito",
-		it: "Sprigatito",
-		pt: "Sprigatito",
-		de: "Felori"
+		'en-us': "Sprigatito",
+		'fr-fr': "Poussacha",
+		'es-es': "Sprigatito",
+		'it-it': "Sprigatito",
+		'pt-br': "Sprigatito",
+		'de-de': "Felori"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Scratch",
-			fr: "Griffe",
-			es: "Arañazo",
-			it: "Graffio",
-			pt: "Arranhão",
-			de: "Kratzer"
+			'en-us': "Scratch",
+			'fr-fr': "Griffe",
+			'es-es': "Arañazo",
+			'it-it': "Graffio",
+			'pt-br': "Arranhão",
+			'de-de': "Kratzer"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Leafage",
-			fr: "Feuillage",
-			es: "Follaje",
-			it: "Fogliame",
-			pt: "Folhagem",
-			de: "Blattwerk"
+			'en-us': "Leafage",
+			'fr-fr': "Feuillage",
+			'es-es': "Follaje",
+			'it-it': "Fogliame",
+			'pt-br': "Folhagem",
+			'de-de': "Blattwerk"
 		},
 
 		damage: 20
@@ -69,7 +69,7 @@ const card: Card = {
 	illustrator: "Saya Tsuruta",
 
 	description: {
-		en: "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out.",
+		'en-us': "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out.",
 	},
 
 	thirdParty: {

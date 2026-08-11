@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Radiant Tsareena",
-		fr: "Sucreine Radieux",
-		es: "Tsareena Radiante",
-		it: "Tsareena Lucente",
-		pt: "Tsareena Radiante",
-		de: "Strahlendes Fruyal"
+		'en-us': "Radiant Tsareena",
+		'fr-fr': "Sucreine Radieux",
+		'es-es': "Tsareena Radiante",
+		'it-it': "Tsareena Lucente",
+		'pt-br': "Tsareena Radiante",
+		'de-de': "Strahlendes Fruyal"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -25,21 +25,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Elegant Heal",
-			fr: "Soin Élégant",
-			es: "Curación Elegante",
-			it: "Cura Elegante",
-			pt: "Cura Elegante",
-			de: "Elegante Heilung"
+			'en-us': "Elegant Heal",
+			'fr-fr': "Soin Élégant",
+			'es-es': "Curación Elegante",
+			'it-it': "Cura Elegante",
+			'pt-br': "Cura Elegante",
+			'de-de': "Elegante Heilung"
 		},
 
 		effect: {
-			en: "Once during your turn, you may heal 20 damage from each of your Pokémon.",
-			fr: "Une fois pendant votre tour, vous pouvez soigner 20 dégâts de chacun de vos Pokémon.",
-			es: "Una vez durante tu turno, puedes curar 20 puntos de daño a cada uno de tus Pokémon.",
-			it: "Una sola volta durante il tuo turno, puoi curare ciascuno dei tuoi Pokémon da 20 danni.",
-			pt: "Uma vez durante o seu turno, você poderá curar 20 pontos de dano de cada um dos seus Pokémon.",
-			de: "Einmal während deines Zuges kannst du 20 Schadenspunkte bei jedem deiner Pokémon heilen."
+			'en-us': "Once during your turn, you may heal 20 damage from each of your Pokémon.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez soigner 20 dégâts de chacun de vos Pokémon.",
+			'es-es': "Una vez durante tu turno, puedes curar 20 puntos de daño a cada uno de tus Pokémon.",
+			'it-it': "Una sola volta durante il tuo turno, puoi curare ciascuno dei tuoi Pokémon da 20 danni.",
+			'pt-br': "Uma vez durante o seu turno, você poderá curar 20 pontos de dano de cada um dos seus Pokémon.",
+			'de-de': "Einmal während deines Zuges kannst du 20 Schadenspunkte bei jedem deiner Pokémon heilen."
 		}
 	}],
 
@@ -47,21 +47,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Aroma Shot",
-			fr: "Tir Arôme",
-			es: "Disparo Aromático",
-			it: "Colpo Aroma",
-			pt: "Disparo Aromático",
-			de: "Aromaschuss"
+			'en-us': "Aroma Shot",
+			'fr-fr': "Tir Arôme",
+			'es-es': "Disparo Aromático",
+			'it-it': "Colpo Aroma",
+			'pt-br': "Disparo Aromático",
+			'de-de': "Aromaschuss"
 		},
 
 		effect: {
-			en: "This Pokémon recovers from all Special Conditions.",
-			fr: "Ce Pokémon guérit de tous les États Spéciaux.",
-			es: "Este Pokémon se recupera de todas las Condiciones Especiales.",
-			it: "Questo Pokémon guarisce da tutte le condizioni speciali.",
-			pt: "Este Pokémon se recupera de todas as Condições Especiais.",
-			de: "Dieses Pokémon erholt sich von allen Speziellen Zuständen."
+			'en-us': "This Pokémon recovers from all Special Conditions.",
+			'fr-fr': "Ce Pokémon guérit de tous les États Spéciaux.",
+			'es-es': "Este Pokémon se recupera de todas las Condiciones Especiales.",
+			'it-it': "Questo Pokémon guarisce da tutte le condizioni speciali.",
+			'pt-br': "Este Pokémon se recupera de todas as Condições Especiais.",
+			'de-de': "Dieses Pokémon erholt sich von allen Speziellen Zuständen."
 		},
 
 		damage: 90
@@ -78,7 +78,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This feared Pokémon has long, slender legs and a cruel heart. It shows no mercy as it stomps on its opponents.",
+		'en-us': "This feared Pokémon has long, slender legs and a cruel heart. It shows no mercy as it stomps on its opponents.",
 	},
 
 	variants: [

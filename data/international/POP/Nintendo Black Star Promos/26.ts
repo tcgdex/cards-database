@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Nintendo Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Tropical Wind",
-		fr: "Vent tropical"
+		'en-us': "Tropical Wind",
+		'fr-fr': "Vent tropical"
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",

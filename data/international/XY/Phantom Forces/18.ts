@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Finneon",
-		fr: "Écayon",
-		es: "Finneon",
-		it: "Finneon",
-		pt: "Finneon",
-		de: "Finneon"
+		'en-us': "Finneon",
+		'fr-fr': "Écayon",
+		'es-es': "Finneon",
+		'it-it': "Finneon",
+		'pt-br': "Finneon",
+		'de-de': "Finneon"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'Face",
-				es: "Destructor",
-				it: "Botta",
-				pt: "Pancada",
-				de: "Pfund"
+				'en-us': "Pound",
+				'fr-fr': "Écras'Face",
+				'es-es': "Destructor",
+				'it-it': "Botta",
+				'pt-br': "Pancada",
+				'de-de': "Pfund"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The line running down its side can store sunlight. It shines vividly at night.",
+		'en-us': "The line running down its side can store sunlight. It shines vividly at night.",
 	},
 
 	thirdParty: {

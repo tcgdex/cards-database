@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Shuppet",
-		fr: "Polichombr",
-		de: "Shuppet"
+		'en-us': "Shuppet",
+		'fr-fr': "Polichombr",
+		'de-de': "Shuppet"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Gossip",
-				fr: "Potin",
-				de: "Gemunkel"
+				'en-us': "Gossip",
+				'fr-fr': "Potin",
+				'de-de': "Gemunkel"
 			},
 			effect: {
-				en: "Put 1 damage counter on 1 of your opponent's Pokémon.",
-				fr: "Placez 1 marqueur de dégât sur 1 des Pokémon de votre adversaire.",
-				de: "Lege 1 Schadensmarke auf 1 Pokémon deines Gegners."
+				'en-us': "Put 1 damage counter on 1 of your opponent's Pokémon.",
+				'fr-fr': "Placez 1 marqueur de dégât sur 1 des Pokémon de votre adversaire.",
+				'de-de': "Lege 1 Schadensmarke auf 1 Pokémon deines Gegners."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hang Down",
-				fr: "Pendre",
-				de: "Herunterhängen"
+				'en-us': "Hang Down",
+				'fr-fr': "Pendre",
+				'de-de': "Herunterhängen"
 			},
 
 			damage: 20,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live.",
+		'en-us': "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live.",
 	},
 
 	thirdParty: {

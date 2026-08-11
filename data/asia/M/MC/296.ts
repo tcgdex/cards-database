@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マリルリ",
+		'ja-jp': "マリルリ",
 	},
 
 	illustrator: "Makura Tami",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "長い 耳は 優れた センサー。 水の中の 音を 聞き分けて なにが 動いているのか わかる。",
+		'ja-jp': "長い 耳は 優れた センサー。 水の中の 音を 聞き分けて なにが 動いているのか わかる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、30ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、30ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 140,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マリル",
+		'ja-jp': "マリル",
 	},
 
 	retreat: 2,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../web1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "exeggutor",
+		'ja-jp': "exeggutor",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "テレポート",
+				'ja-jp': "テレポート",
 			},
 			effect: {
-				ja: "ベンチ付きポケモンの1つを備えたスイッチのexeggutor。",
+				'ja-jp': "ベンチ付きポケモンの1つを備えたスイッチのexeggutor。",
 			},
 		},
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "大きな卵の幅",
+				'ja-jp': "大きな卵の幅",
 			},
 			effect: {
-				ja: "Exeggutorに取り付けられたエネルギーの数に等しい多数のコインをひっくり返します。この攻撃は、ヘッド数の20倍のダメージを与えます。",
+				'ja-jp': "Exeggutorに取り付けられたエネルギーの数に等しい多数のコインをひっくり返します。この攻撃は、ヘッド数の20倍のダメージを与えます。",
 			},
 		},
 	],

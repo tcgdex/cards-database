@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Stunfisk",
+		'en-us': "Stunfisk",
 	},
 
 	illustrator: "Akira Komayama",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Attract",
+				'en-us': "Attract",
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 			},
 
 		},
@@ -43,7 +43,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud-Slap",
+				'en-us': "Mud-Slap",
 			},
 
 			damage: 70,
@@ -68,7 +68,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When its opponent can't be paralyzed, it contorts itself with unexpected speed and flops away.",
+		'en-us': "When its opponent can't be paralyzed, it contorts itself with unexpected speed and flops away.",
 	},
 
 	thirdParty: {

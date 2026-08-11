@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Blipbug"
+		'id-id': "Blipbug"
 	},
 
 	illustrator: "OKUBO",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Pokémon yang sering terlihat di ladang. Blipbug mendeteksi kejadian di sekitarnya menggunakan bulu yang tumbuh di tubuhnya."
+		'id-id': "Pokémon yang sering terlihat di ladang. Blipbug mendeteksi kejadian di sekitarnya menggunakan bulu yang tumbuh di tubuhnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Serangan Kejutan"
+			'id-id': "Serangan Kejutan"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal."
 		},
 
 		damage: 30,

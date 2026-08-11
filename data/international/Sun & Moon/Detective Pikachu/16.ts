@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Detective Pikachu'
 
 const card: Card = {
 	name: {
-		en: "Lickitung",
-		fr: "Excelangue",
-		es: "Lickitung",
-		it: "Lickitung",
-		pt: "Lickitung",
-		de: "Schlurp"
+		'en-us': "Lickitung",
+		'fr-fr': "Excelangue",
+		'es-es': "Lickitung",
+		'it-it': "Lickitung",
+		'pt-br': "Lickitung",
+		'de-de': "Schlurp"
 	},
 
 	illustrator: "MPC Film",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Continuous Lick",
-				fr: "Langue Sans Fin",
-				es: "Lengüetazo Incesante",
-				it: "Leccata Infinita",
-				pt: "Lambida Contínua",
-				de: "Dauerschlecker"
+				'en-us': "Continuous Lick",
+				'fr-fr': "Langue Sans Fin",
+				'es-es': "Lengüetazo Incesante",
+				'it-it': "Leccata Infinita",
+				'pt-br': "Lambida Contínua",
+				'de-de': "Dauerschlecker"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 20 damage for each heads.",
-				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts pour chaque côté face.",
-				es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño por cada cara.",
-				it: "Lancia una moneta finché non esce croce. Questo attacco infligge 20 danni ogni volta che esce testa.",
-				pt: "Jogue 1 moeda até sair coroa. Este ataque causa 20 pontos de dano para cada cara.",
-				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu."
+				'en-us': "Flip a coin until you get tails. This attack does 20 damage for each heads.",
+				'fr-fr': "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts pour chaque côté face.",
+				'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño por cada cara.",
+				'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 20 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 1 moeda até sair coroa. Este ataque causa 20 pontos de dano para cada cara.",
+				'de-de': "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu."
 			},
 			damage: "20×",
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It checks out whatever's around it by licking everything. If you don't clean off a spot where it's licked you, you'll break out in a rash!",
+		'en-us': "It checks out whatever's around it by licking everything. If you don't clean off a spot where it's licked you, you'll break out in a rash!",
 	},
 
 	thirdParty: {

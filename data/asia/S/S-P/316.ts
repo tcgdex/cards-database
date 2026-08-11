@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "やすらぎの公園",
+		'ja-jp': "やすらぎの公園",
 	},
 
 	illustrator: "AYUMI ODASHIMA",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのポケモン全員は、こんらんにならず、受けているこんらんは、すべて回復する。",
+		'ja-jp': "おたがいのポケモン全員は、こんらんにならず、受けているこんらんは、すべて回復する。",
 	},
 
 	variants: [

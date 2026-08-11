@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒンバス",
+		'ja-jp': "ヒンバス",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "汚い 水でも ぜんぜん 平気な タフな ポケモン。 でも ボロボロで みすぼらしいので 人気は ない。",
+		'ja-jp': "汚い 水でも ぜんぜん 平気な タフな ポケモン。 でも ボロボロで みすぼらしいので 人気は ない。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Water"],
 			effect: {
-				ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
 			},
 		},
 	],

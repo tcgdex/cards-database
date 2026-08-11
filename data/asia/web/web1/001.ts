@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../web1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アイビサウルス",
+		'ja-jp': "アイビサウルス",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "リーチシード",
+				'ja-jp': "リーチシード",
 			},
 			effect: {
-				ja: "この攻撃からのすべての損傷が防止されない限り、イビサウルスから1つのダメージカウンターを削除することができます。",
+				'ja-jp': "この攻撃からのすべての損傷が防止されない限り、イビサウルスから1つのダメージカウンターを削除することができます。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Grass", "Grass", "Colorless"],
 			name: {
-				ja: "つる鞭",
+				'ja-jp': "つる鞭",
 			},
 			damage: 40,
 		},

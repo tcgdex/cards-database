@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Dreepy"
+		'id-id': "Dreepy"
 	},
 
 	illustrator: "Scav",
@@ -14,21 +14,21 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		id: "Dikatakan bahwa alasan Dreepy menggigit erat Clauncher meskipun ia tidak memakannya adalah perilaku bawaan ketika ia masih hidup."
+		'id-id': "Dikatakan bahwa alasan Dreepy menggigit erat Clauncher meskipun ia tidak memakannya adalah perilaku bawaan ketika ia masih hidup."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Mendendam Sedikit"
+			'id-id': "Mendendam Sedikit"
 		},
 
 		damage: 10,
 		cost: ["Psychic"]
 	}, {
 		name: {
-			id: "Menggigit"
+			'id-id': "Menggigit"
 		},
 
 		damage: 40,

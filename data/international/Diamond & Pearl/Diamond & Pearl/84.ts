@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Goldeen",
-		fr: "Poissirène",
-		de: "Goldini"
+		'en-us': "Goldeen",
+		'fr-fr': "Poissirène",
+		'de-de': "Goldini"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Attack",
-				fr: "Koud'korne",
-				de: "Hornattacke"
+				'en-us': "Horn Attack",
+				'fr-fr': "Koud'korne",
+				'de-de': "Hornattacke"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				de: "Bodycheck"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'de-de': "Bodycheck"
 			},
 			effect: {
-				en: "Goldeen does 10 damage to itself.",
-				fr: "Poissirène s'inflige 10 dégâts.",
-				de: "Goldini fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Goldeen does 10 damage to itself.",
+				'fr-fr': "Poissirène s'inflige 10 dégâts.",
+				'de-de': "Goldini fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -69,8 +69,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It swims elegantly by flittering its tail as if it were a dress. It has the look of a queen.",
-		fr: "Il nage élégamment en agitant sa nageoire caudale comme si c'était une robe. Il a l'allure d'une reine."
+		'en-us': "It swims elegantly by flittering its tail as if it were a dress. It has the look of a queen.",
+		'fr-fr': "Il nage élégamment en agitant sa nageoire caudale comme si c'était une robe. Il a l'allure d'une reine."
 	},
 
 	thirdParty: {

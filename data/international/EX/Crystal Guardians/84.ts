@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Warp Point",
-		fr: "Point d'échange",
-		de: "Wurmloch"
+		'en-us': "Warp Point",
+		'fr-fr': "Point d'échange",
+		'de-de': "Wurmloch"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,9 +15,9 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		en: "Your opponent switches 1 of his or her Defending Pokémon with 1 of his or her Benched Pokémon, if any. You switch 1 of your Active Pokémon with 1 of your Benched Pokémon, if any.",
-		fr: "Votre adversaire échange 1 de ses Pokémon Défenseurs avec 1 de ses Pokémon de Banc, s'il en a. Vous échangez 1 de vos Pokémon Actifs avec 1 de vos Pokémon de Banc, si vous en avez.",
-		de: "Dein Gegner tauscht 1 seiner Verteidigenden Pokémon gegen 1 Pokémon auf seiner Bank aus. Du tauschst 1 deiner Aktiven Pokémon gegen 1 Pokémon auf deiner Bank aus."
+		'en-us': "Your opponent switches 1 of his or her Defending Pokémon with 1 of his or her Benched Pokémon, if any. You switch 1 of your Active Pokémon with 1 of your Benched Pokémon, if any.",
+		'fr-fr': "Votre adversaire échange 1 de ses Pokémon Défenseurs avec 1 de ses Pokémon de Banc, s'il en a. Vous échangez 1 de vos Pokémon Actifs avec 1 de vos Pokémon de Banc, si vous en avez.",
+		'de-de': "Dein Gegner tauscht 1 seiner Verteidigenden Pokémon gegen 1 Pokémon auf seiner Bank aus. Du tauschst 1 deiner Aktiven Pokémon gegen 1 Pokémon auf deiner Bank aus."
 	},
 
 	thirdParty: {

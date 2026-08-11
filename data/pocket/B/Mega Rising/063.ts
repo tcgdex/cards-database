@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tympole"
+		'en-us': "Tympole"
 	},
 
 	illustrator: "Mina Nakai",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It uses sound waves to communicate with\nothers of its kind. People and other Pokémon\nspecies can't hear its cries of warning."
+		'en-us': "It uses sound waves to communicate with\nothers of its kind. People and other Pokémon\nspecies can't hear its cries of warning."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Mud-Slap"
+			'en-us': "Mud-Slap"
 		},
 
 		damage: 30,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポリゴンＺ",
+		'ja-jp': "ポリゴンＺ",
 		'zh-tw': "多邊獸Ｚ",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "追加した プログラムが まずかった。 おかしな 挙動が 目立つので 実験失敗 なのかも しれない。",
+		'ja-jp': "追加した プログラムが まずかった。 おかしな 挙動が 目立つので 実験失敗 なのかも しれない。",
 		'zh-tw': "新追加的程式大有問題，做出的動作明顯地有些怪異。實驗或許可說是失敗了。",
 	},
 
@@ -24,11 +24,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "バグそうしん",
+				'ja-jp': "バグそうしん",
 				'zh-tw': "漏洞傳輸",
 			},
 			effect: {
-				ja: "自分の番に、自分の手札からエネルギーをこのポケモンにつけるたび、1回使える。相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "自分の番に、自分の手札からエネルギーをこのポケモンにつけるたび、1回使える。相手のバトルポケモンをこんらんにする。",
 				'zh-tw': "在自己的回合，每次從自己的手牌將能量附於這隻寶可夢身上時，都可使用1次。將對手的戰鬥寶可夢【混亂】。",
 			},
 		},
@@ -37,13 +37,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "スーパービーム",
+				'ja-jp': "スーパービーム",
 				'zh-tw': "超級光束",
 			},
 			damage: 170,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを2個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。",
 				'zh-tw': "選擇2個這隻寶可夢身上附加的能量，將其丟棄。",
 			},
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ポリゴン２",
+		'ja-jp': "ポリゴン２",
 	},
 
 	retreat: 2,

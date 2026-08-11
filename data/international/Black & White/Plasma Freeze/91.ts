@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Hoothoot",
-		fr: "Hoothoot",
-		es: "Hoothoot",
-		it: "Hoothoot",
-		pt: "Hoothoot",
-		de: "Hoothoot"
+		'en-us': "Hoothoot",
+		'fr-fr': "Hoothoot",
+		'es-es': "Hoothoot",
+		'it-it': "Hoothoot",
+		'pt-br': "Hoothoot",
+		'de-de': "Hoothoot"
 	},
 
 	illustrator: "match",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dual Draw",
-				fr: "Pioche Mutuelle",
+				'en-us': "Dual Draw",
+				'fr-fr': "Pioche Mutuelle",
 			},
 			effect: {
-				en: "Each player draws 2 cards.",
-				fr: "Chaque joueur pioche 2 cartes.",
+				'en-us': "Each player draws 2 cards.",
+				'fr-fr': "Chaque joueur pioche 2 cartes.",
 			},
 
 		},
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It marks time precisely. Some countries consider it to be a wise friend, versed in the world's ways.",
+		'en-us': "It marks time precisely. Some countries consider it to be a wise friend, versed in the world's ways.",
 	},
 
 	thirdParty: {

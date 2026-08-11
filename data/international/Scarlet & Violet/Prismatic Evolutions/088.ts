@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Furfrou",
-		fr: "Couafarel",
-		es: "Furfrou",
-		pt: "Furfrou",
-		it: "Furfrou",
-		de: "Coiffwaff"
+		'en-us': "Furfrou",
+		'fr-fr': "Couafarel",
+		'es-es': "Furfrou",
+		'pt-br': "Furfrou",
+		'it-it': "Furfrou",
+		'de-de': "Coiffwaff"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Fur Coat",
-			fr: "Toison Épaisse",
-			es: "Pelaje Recio",
-			pt: "Camada de Pelos",
-			it: "Foltopelo",
-			de: "Fellkleid"
+			'en-us': "Fur Coat",
+			'fr-fr': "Toison Épaisse",
+			'es-es': "Pelaje Recio",
+			'pt-br': "Camada de Pelos",
+			'it-it': "Foltopelo",
+			'de-de': "Fellkleid"
 		},
 
 		effect: {
-			en: "This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
-			fr: "Ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			es: "Los ataques hacen 20 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-			pt: "Este Pokémon recebe 20 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
-			it: "Questo Pokémon subisce 20 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-			de: "Diesem Pokémon werden durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+			'en-us': "This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
+			'fr-fr': "Ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			'es-es': "Los ataques hacen 20 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			'pt-br': "Este Pokémon recebe 20 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
+			'it-it': "Questo Pokémon subisce 20 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+			'de-de': "Diesem Pokémon werden durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 		}
 	}],
 
@@ -46,12 +46,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			es: "Mordisco",
-			pt: "Mordida",
-			it: "Morso",
-			de: "Biss"
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'es-es': "Mordisco",
+			'pt-br': "Mordida",
+			'it-it': "Morso",
+			'de-de': "Biss"
 		},
 
 		damage: 80

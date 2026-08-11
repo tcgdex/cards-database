@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガヤンマex",
+		'ja-jp': "メガヤンマex",
 	},
 
 	illustrator: "takuyoa",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "バズブースト" },
 			effect: {
-				ja: "自分の番に、このポケモンがベンチからバトル場に出たとき、1回使える。自分の山札から「基本[G]エネルギー」を3枚まで選び、このポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の番に、このポケモンがベンチからバトル場に出たとき、1回使える。自分の山札から「基本[G]エネルギー」を3枚まで選び、このポケモンにつける。そして山札を切る。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 210,
 			cost: ["Grass", "Grass", "Grass", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを3個選び、ベンチポケモン1匹につけ替える。",
+				'ja-jp': "このポケモンについているエネルギーを3個選び、ベンチポケモン1匹につけ替える。",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤンヤンマ",
+		'ja-jp': "ヤンヤンマ",
 	},
 
 	retreat: 1,

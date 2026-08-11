@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナツメのポリゴン",
+		'ja-jp': "ナツメのポリゴン",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "鋭い点",
+				'ja-jp': "鋭い点",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "バリア攻撃",
+				'ja-jp': "バリア攻撃",
 			},
 			effect: {
-				ja: "対戦相手の次のターン中にサブリナのポリゴンへの攻撃によって与えられたすべての損害は、（脱力と抵抗を適用した後）10減少します。",
+				'ja-jp': "対戦相手の次のターン中にサブリナのポリゴンへの攻撃によって与えられたすべての損害は、（脱力と抵抗を適用した後）10減少します。",
 			},
 			damage: 20,
 		},

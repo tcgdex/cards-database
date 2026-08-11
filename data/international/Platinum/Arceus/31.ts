@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Sceptile",
-		de: "Gewaldro"
+		'en-us': "Sceptile",
+		'de-de': "Gewaldro"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Grovyle"
+		'en-us': "Grovyle"
 	},
 
 	stage: "Stage2",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Leaf Supply",
-				de: "Blättervorrat"
+				'en-us': "Leaf Supply",
+				'de-de': "Blättervorrat"
 			},
 			effect: {
-				en: "You may attach a basic Energy card from your hand to 1 of your Pokémon.",
-				de: "Du kannst 1 Basis-Energiekarte von deiner Hand an 1 deiner Pokémon anlegen."
+				'en-us': "You may attach a basic Energy card from your hand to 1 of your Pokémon.",
+				'de-de': "Du kannst 1 Basis-Energiekarte von deiner Hand an 1 deiner Pokémon anlegen."
 			},
 			damage: 30,
 
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dual Cut",
-				de: "Doppel-Zerschneider"
+				'en-us': "Dual Cut",
+				'de-de': "Doppel-Zerschneider"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 70 damage times the number of heads.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 70 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 70 damage times the number of heads.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 70 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "70×",
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat."
+		'en-us': "The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat."
 	},
 
 	variants: [

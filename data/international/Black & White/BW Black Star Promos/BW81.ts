@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Thundurus-EX",
-		fr: "Fulguris ex",
+		'en-us': "Thundurus-EX",
+		'fr-fr': "Fulguris ex",
 	},
 	illustrator: "Eske Yoshinob",
 	rarity: "Rare",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Raiden Knuckle",
-				fr: "Appel Foudroyant",
+				'en-us': "Raiden Knuckle",
+				'fr-fr': "Appel Foudroyant",
 			},
 			effect: {
-				en: "Attach an Energy card from your discard pile to 1 of your Benched Team Plasma Pokémon.",
-				fr: "Attachez une carte Énergie de votre pile de défausse à 1 de vos Pokémon de la Team Plasma sur votre Banc.",
+				'en-us': "Attach an Energy card from your discard pile to 1 of your Benched Team Plasma Pokémon.",
+				'fr-fr': "Attachez une carte Énergie de votre pile de défausse à 1 de vos Pokémon de la Team Plasma sur votre Banc.",
 			},
 			damage: 30,
 
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunderous Noise",
-				fr: "Grondement Tonitruant",
+				'en-us': "Thunderous Noise",
+				'fr-fr': "Grondement Tonitruant",
 			},
 			effect: {
-				en: "If this Pokémon has any Plasma Energy attached to it, discard an Energy attached to the Defending Pokémon.",
-				fr: "Si de l'Énergie Plasma est attachée à ce Pokémon, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "If this Pokémon has any Plasma Energy attached to it, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Si de l'Énergie Plasma est attachée à ce Pokémon, défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 90,
 

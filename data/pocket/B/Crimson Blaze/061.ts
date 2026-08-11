@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [398],
 
 	name: {
-		en: "Staraptor"
+		'en-us': "Staraptor"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Staravia"
+		'en-us': "Staravia"
 	},
 
 	description: {
-		en: "It never stops attacking even if it is injured.\nIt fusses over the shape of its comb."
+		'en-us': "It never stops attacking even if it is injured.\nIt fusses over the shape of its comb."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Hurricane Wing"
+			'en-us': "Hurricane Wing"
 		},
 
 		damage: 50,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip 4 coins. This attack does 50 damage for each heads."
+			'en-us': "Flip 4 coins. This attack does 50 damage for each heads."
 		}
 	}],
 

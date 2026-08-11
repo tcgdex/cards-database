@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Oddish",
-		fr: "Mystherbe",
-		de: "Myrapla"
+		'en-us': "Oddish",
+		'fr-fr': "Mystherbe",
+		'de-de': "Myrapla"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Stun Spore",
-				fr: "Para-spore",
-				de: "Stun Spore"
+				'en-us': "Stun Spore",
+				'fr-fr': "Para-spore",
+				'de-de': "Stun Spore"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラディグダ",
+		'ja-jp': "アローラディグダ",
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "頭から 生えているのは 髭が 変化 したもので 金属質。 ゆらゆら 動き 仲間と 交信。",
+		'ja-jp': "頭から 生えているのは 髭が 変化 したもので 金属質。 ゆらゆら 動き 仲間と 交信。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "あなさぐり" },
 			cost: [],
 			effect: {
-				ja: "自分の山札を上から3枚見て、好きな順番に入れ替えて、山札の上にもどす。",
+				'ja-jp': "自分の山札を上から3枚見て、好きな順番に入れ替えて、山札の上にもどす。",
 			},
 		},
 		{

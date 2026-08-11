@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Friends in Hisui",
-		fr: "Amis de Hisui",
-		es: "Amigos de Hisui",
-		it: "Amici a Hisui",
-		pt: "Amigos em Hisui",
-		de: "Freunde aus Hisui"
+		'en-us': "Friends in Hisui",
+		'fr-fr': "Amis de Hisui",
+		'es-es': "Amigos de Hisui",
+		'it-it': "Amici a Hisui",
+		'pt-br': "Amigos em Hisui",
+		'de-de': "Freunde aus Hisui"
 	},
 
 	illustrator: "kirisAki",
@@ -18,12 +18,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Draw 3 cards.",
-		fr: "Piochez 3 cartes.",
-		es: "Roba 3 cartas.",
-		it: "Pesca tre carte.",
-		pt: "Compre 3 cartas.",
-		de: "Ziehe 3 Karten."
+		'en-us': "Draw 3 cards.",
+		'fr-fr': "Piochez 3 cartes.",
+		'es-es': "Roba 3 cartas.",
+		'it-it': "Pesca tre carte.",
+		'pt-br': "Compre 3 cartas.",
+		'de-de': "Ziehe 3 Karten."
 	},
 
 	trainerType: "Supporter",

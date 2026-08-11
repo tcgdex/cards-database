@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Jumpluff",
-		fr: "Cotovol",
-		de: "Papungha"
+		'en-us': "Jumpluff",
+		'fr-fr': "Cotovol",
+		'de-de': "Papungha"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Skiploom",
-		fr: "Floravol"
+		'en-us': "Skiploom",
+		'fr-fr': "Floravol"
 	},
 
 	stage: "Stage2",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sleep Powder",
-				fr: "Poudre dodo",
-				de: "Schlafpuder"
+				'en-us': "Sleep Powder",
+				'fr-fr': "Poudre dodo",
+				'de-de': "Schlafpuder"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Leech Seed",
-				fr: "Vampigraine",
-				de: "Egelsamen"
+				'en-us': "Leech Seed",
+				'fr-fr': "Vampigraine",
+				'de-de': "Egelsamen"
 			},
 			effect: {
-				en: "If this attack damages the Defending Pokémon (after applying Weakness and Resistance), remove 1 damage counter from Jumpluff, if it has any.",
-				fr: "Si cette attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), retirez 1 marqueur de dégâts de Cotovol, s'il en possède.",
-				de: "Falls dieser Angriff dem Verteidigenden Pokémon Schadenspunkte zufügt, (nachdem Schwäche und Resistenz verrechnet wurden) entferne eine Schadensmarke von Papungha, falls es mindestens eine hat."
+				'en-us': "If this attack damages the Defending Pokémon (after applying Weakness and Resistance), remove 1 damage counter from Jumpluff, if it has any.",
+				'fr-fr': "Si cette attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), retirez 1 marqueur de dégâts de Cotovol, s'il en possède.",
+				'de-de': "Falls dieser Angriff dem Verteidigenden Pokémon Schadenspunkte zufügt, (nachdem Schwäche und Resistenz verrechnet wurden) entferne eine Schadensmarke von Papungha, falls es mindestens eine hat."
 			},
 			damage: 20,
 
@@ -82,8 +82,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Once it catches the wind, it deftly controls its cotton-puff spores to float, even around the world.",
-		fr: "Une fois qu'il est sous le vent, il contrôle précisément ses spores cotonneuses pour flotter, même autour du monde."
+		'en-us': "Once it catches the wind, it deftly controls its cotton-puff spores to float, even around the world.",
+		'fr-fr': "Une fois qu'il est sous le vent, il contrôle précisément ses spores cotonneuses pour flotter, même autour du monde."
 	},
 
 

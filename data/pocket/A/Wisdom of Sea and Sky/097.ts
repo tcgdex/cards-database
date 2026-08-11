@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Piloswine",
-		fr: "Cochignon"
+		'en-us': "Piloswine",
+		'fr-fr': "Cochignon"
 	},
 
 	illustrator: "Midori Harada",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Swinub"
+		'en-us': "Swinub"
 	},
 
 	description: {
-		en: "If it charges at an enemy, the hairs on its back\nstand up straight. It is very sensitive to sound.",
-		fr: "S'il charge un ennemi, les poils de son dos se dressent. Il est très sensible au bruit."
+		'en-us': "If it charges at an enemy, the hairs on its back\nstand up straight. It is very sensitive to sound.",
+		'fr-fr': "S'il charge un ennemi, les poils de son dos se dressent. Il est très sensible au bruit."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Headbutt Bounce",
-			fr: "Culbute Surprise"
+			'en-us': "Headbutt Bounce",
+			'fr-fr': "Culbute Surprise"
 		},
 
 		damage: 70,

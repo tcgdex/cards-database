@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ライトラントン",
+		'ja-jp': "ライトラントン",
 	},
 
 	rarity: "Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "サーチライト",
+				'ja-jp': "サーチライト",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、各プレイヤーは自分の捨てられた山からカードを選択し、それを手に入れることができます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、各プレイヤーは自分の捨てられた山からカードを選択し、それを手に入れることができます。",
 			},
 		},
 		{
 			cost: ["Lightning", "Lightning"],
 			name: {
-				ja: "スパーク",
+				'ja-jp': "スパーク",
 			},
 			effect: {
-				ja: "対戦相手がベンチでポケモンを持っている場合は、1つを選択すると、この攻撃は10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "対戦相手がベンチでポケモンを持っている場合は、1つを選択すると、この攻撃は10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 30,
 		},

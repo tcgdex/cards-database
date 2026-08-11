@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シルシュルー",
+		'ja-jp': "シルシュルー",
 		'zh-tw': "烏波",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "温厚だが 怒らせると 毒が 染みこんだ 鋭い 前歯で 咬みつき 痺れさせてくるぞ。",
+		'ja-jp': "温厚だが 怒らせると 毒が 染みこんだ 鋭い 前歯で 咬みつき 痺れさせてくるぞ。",
 		'zh-tw': "在冰冷的水中生活。 當周遭的天氣變涼時， 也會來到陸地上覓食。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ひっかく",
+				'ja-jp': "ひっかく",
 				'zh-tw': "打水",
 			},
 			damage: 10,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "どくのまえば",
+				'ja-jp': "どくのまえば",
 				'zh-tw': "頭錘",
 			},
 			damage: 20,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 			},
 		},
 	],

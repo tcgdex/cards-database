@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Goldeen"
+		'id-id': "Goldeen"
 	},
 
 	illustrator: "saino misaki",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Goldeen dikenal sebagai Penari Air karena sirip punggung, sirip dada, dan sirip ekornya berayun dengan anggun."
+		'id-id': "Goldeen dikenal sebagai Penari Air karena sirip punggung, sirip dada, dan sirip ekornya berayun dengan anggun."
 	},
 
 	stage: "Basic",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Orkes Festival"
+			'id-id': "Orkes Festival"
 		},
 
 		effect: {
-			id: "Jika ada Lokasi Festival di Arena, Pokémon ini dapat menggunakan serangan yang dimiliki 2 kali berturut-turut. (Jika Pokémon Bertarung lawan KO akibat serangan pertama, gunakan serangan kedua setelah Pokémon Bertarung berikutnya masuk.)"
+			'id-id': "Jika ada Lokasi Festival di Arena, Pokémon ini dapat menggunakan serangan yang dimiliki 2 kali berturut-turut. (Jika Pokémon Bertarung lawan KO akibat serangan pertama, gunakan serangan kedua setelah Pokémon Bertarung berikutnya masuk.)"
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Pusaran Air"
+			'id-id': "Pusaran Air"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, pilih 1 Energi yang dikenakan pada Pokémon Bertarung lawan, lalu buang ke Trash."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, pilih 1 Energi yang dikenakan pada Pokémon Bertarung lawan, lalu buang ke Trash."
 		},
 
 		damage: 10,

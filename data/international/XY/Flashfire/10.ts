@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Maractus",
-		fr: "Maracachi",
-		es: "Maractus",
-		it: "Maractus",
-		pt: "Maractus",
-		de: "Maracamba"
+		'en-us': "Maractus",
+		'fr-fr': "Maracachi",
+		'es-es': "Maractus",
+		'it-it': "Maractus",
+		'pt-br': "Maractus",
+		'de-de': "Maracamba"
 	},
 
 	illustrator: "match",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Exciting Shake",
-				fr: "Ébouriffement",
-				es: "Zarandeo Emocionante",
-				it: "Rinvigoritmo",
-				pt: "Agito Empolgante",
-				de: "Erquickendes Schütteln"
+				'en-us': "Exciting Shake",
+				'fr-fr': "Ébouriffement",
+				'es-es': "Zarandeo Emocionante",
+				'it-it': "Rinvigoritmo",
+				'pt-br': "Agito Empolgante",
+				'de-de': "Erquickendes Schütteln"
 			},
 			effect: {
-				en: "During your next turn, flip 6 coins instead of 2 for this Pokémon's Prickly Needles attack.",
-				fr: "Pendant votre prochain tour, lancez 6 pièces au lieu de 2 pour l'attaque Épines Acérées de ce Pokémon.",
-				es: "Durante tu próximo turno, lanza 6 monedas en vez de 2 para el ataque Agujas Espinosas de este Pokémon.",
-				it: "Durante il tuo prossimo turno, lancia sei volte una moneta invece di due per l'attacco Spine Aguzze di questo Pokémon.",
-				pt: "Durante sua próxima vez de jogar, jogue 6 moedas em vez de 2 para o ataque Agulhas Espinhosas desse Pokémon.",
-				de: "Wirf während deines nächsten Zuges 6 Münzen anstelle von 2 Münzen, wenn du die Attacke Stechende Dornen dieses Pokémon einsetzt."
+				'en-us': "During your next turn, flip 6 coins instead of 2 for this Pokémon's Prickly Needles attack.",
+				'fr-fr': "Pendant votre prochain tour, lancez 6 pièces au lieu de 2 pour l'attaque Épines Acérées de ce Pokémon.",
+				'es-es': "Durante tu próximo turno, lanza 6 monedas en vez de 2 para el ataque Agujas Espinosas de este Pokémon.",
+				'it-it': "Durante il tuo prossimo turno, lancia sei volte una moneta invece di due per l'attacco Spine Aguzze di questo Pokémon.",
+				'pt-br': "Durante sua próxima vez de jogar, jogue 6 moedas em vez de 2 para o ataque Agulhas Espinhosas desse Pokémon.",
+				'de-de': "Wirf während deines nächsten Zuges 6 Münzen anstelle von 2 Münzen, wenn du die Attacke Stechende Dornen dieses Pokémon einsetzt."
 			},
 
 		},
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Prickly Needles",
-				fr: "Épines Acérées",
-				es: "Agujas Espinosas",
-				it: "Spine Aguzze",
-				pt: "Agulhas Espinhosas",
-				de: "Stechende Dornen"
+				'en-us': "Prickly Needles",
+				'fr-fr': "Épines Acérées",
+				'es-es': "Agujas Espinosas",
+				'it-it': "Spine Aguzze",
+				'pt-br': "Agulhas Espinhosas",
+				'de-de': "Stechende Dornen"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
-				es: "Lanza 2 monedas. Este ataque hace 20 puntos de daño por cada cara.",
-				it: "Lancia due volte una moneta. Questo attacco infligge 20 danni ogni volta che esce testa.",
-				pt: "Jogue 2 moedas. Esse ataque causa 20 de danos vezes o número de caras.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 20 puntos de daño por cada cara.",
+				'it-it': "Lancia due volte una moneta. Questo attacco infligge 20 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 2 moedas. Esse ataque causa 20 de danos vezes o número de caras.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "20×",
 
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds.",
+		'en-us': "It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Skiploom",
-		fr: "Floravol",
-		es: "Skiploom",
-		it: "Skiploom",
-		pt: "Skiploom",
-		de: "Hubelupf"
+		'en-us': "Skiploom",
+		'fr-fr': "Floravol",
+		'es-es': "Skiploom",
+		'it-it': "Skiploom",
+		'pt-br': "Skiploom",
+		'de-de': "Hubelupf"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Hoppip",
-		fr: "Granivol",
+		'en-us': "Hoppip",
+		'fr-fr': "Granivol",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Bullet Seed",
-				fr: "Balle Graine",
+				'en-us': "Bullet Seed",
+				'fr-fr': "Balle Graine",
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 4 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 10,
 
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It blooms when the weather warms. It floats in the sky to soak up as much sunlight as possible.",
+		'en-us': "It blooms when the weather warms. It floats in the sky to soak up as much sunlight as possible.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chandelure"
+		'en-us': "Chandelure"
 	},
 
 	illustrator: "REND",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Lampent"
+		'en-us': "Lampent"
 	},
 
 	description: {
-		en: "In homes illuminated by Chandelure instead of\nlights, funerals were a constant occurrence—\nor so it's said."
+		'en-us': "In homes illuminated by Chandelure instead of\nlights, funerals were a constant occurrence—\nor so it's said."
 	},
 
 	stage: "Stage2",
@@ -30,17 +30,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Slow Sear"
+			'en-us': "Slow Sear"
 		},
 
 		effect: {
-			en: "Once during your turn, you may discard the top card of your opponent's deck."
+			'en-us': "Once during your turn, you may discard the top card of your opponent's deck."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Heat Blast"
+			'en-us': "Heat Blast"
 		},
 
 		damage: 80,

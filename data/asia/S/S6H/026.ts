@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クレベース",
+		'ja-jp': "クレベース",
 		'zh-tw': "冰岩怪",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "日中の 活動で 体の 亀裂は 深くなるが 一晩で 亀裂の ない 体に もどる。",
+		'ja-jp': "日中の 活動で 体の 亀裂は 深くなるが 一晩で 亀裂の ない 体に もどる。",
 		'zh-tw': "雖然身體的裂縫會因白天的活動而變大，但只要一晚就能全部長好。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "フロストバリア",
+				'ja-jp': "フロストバリア",
 				'zh-tw': "氣象之力",
 			},
 			damage: 80,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
 				'zh-tw': "從牌庫抽卡直到自己的手牌滿6張為止。",
 			},
 		},
@@ -54,7 +54,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カチコール",
+		'ja-jp': "カチコール",
 	},
 
 	retreat: 4,

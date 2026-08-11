@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Turtwig",
-		fr: "Tortipouss",
-		es: "Turtwig",
-		it: "Turtwig",
-		pt: "Turtwig",
-		de: "Chelast"
+		'en-us': "Turtwig",
+		'fr-fr': "Tortipouss",
+		'es-es': "Turtwig",
+		'it-it': "Turtwig",
+		'pt-br': "Turtwig",
+		'de-de': "Chelast"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nap",
-				fr: "Tit'Sieste",
+				'en-us': "Nap",
+				'fr-fr': "Tit'Sieste",
 			},
 			effect: {
-				en: "Heal 20 damage from this Pokémon.",
-				fr: "Soignez 20 dégâts à ce Pokémon.",
+				'en-us': "Heal 20 damage from this Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à ce Pokémon.",
 			},
 
 		},
@@ -50,8 +50,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'Herbe",
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'Herbe",
 			},
 
 			damage: 30,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The shell on its back is made of soil. On a very healthy Turtwig, the shell should feel moist.",
+		'en-us': "The shell on its back is made of soil. On a very healthy Turtwig, the shell should feel moist.",
 	},
 
 	thirdParty: {

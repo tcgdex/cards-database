@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "_____のチャンシー",
+		'ja-jp': "_____のチャンシー",
 	},
 	illustrator: "Kagemaru Himeno",
 
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ラッキーエッグ",
+				'ja-jp': "ラッキーエッグ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、2枚のカードを描きます。尾の場合は、手からデッキに2枚のカードをシャッフルします。 （2枚未満のカードがある場合は、すべてをデッキにシャッフルします。）",
+				'ja-jp': "コインをひっくり返します。頭の場合は、2枚のカードを描きます。尾の場合は、手からデッキに2枚のカードをシャッフルします。 （2枚未満のカードがある場合は、すべてをデッキにシャッフルします。）",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "ラッキーパンチ",
+				'ja-jp': "ラッキーパンチ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて30ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて30ダメージを与えます。",
 			},
 		},
 	],

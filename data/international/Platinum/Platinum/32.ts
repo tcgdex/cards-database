@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Kricketune",
-		fr: "Mélokrik",
-		de: "Zirpeise"
+		'en-us': "Kricketune",
+		'fr-fr': "Mélokrik",
+		'de-de': "Zirpeise"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kricketot",
-		fr: "Crikzik"
+		'en-us': "Kricketot",
+		'fr-fr': "Crikzik"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Revenge Melody",
-				fr: "Mélodie vengeresse",
-				de: "Revenge Melody"
+				'en-us': "Revenge Melody",
+				'fr-fr': "Mélodie vengeresse",
+				'de-de': "Revenge Melody"
 			},
 			effect: {
-				en: "Does 20 damage times the number of Kricketot and Kricketune in your discard pile.",
-				fr: "Inflige 20 dégâts multipliés par le nombre de Crikzik et Mélokrik dans votre pile de défausse.",
-				de: "Does 20 damage times the number of Kricketot and Kricketune in your discard pile."
+				'en-us': "Does 20 damage times the number of Kricketot and Kricketune in your discard pile.",
+				'fr-fr': "Inflige 20 dégâts multipliés par le nombre de Crikzik et Mélokrik dans votre pile de défausse.",
+				'de-de': "Does 20 damage times the number of Kricketot and Kricketune in your discard pile."
 			},
 			damage: "20×",
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Bug Buzz",
-				fr: "Bourdon",
-				de: "Bug Buzz"
+				'en-us': "Bug Buzz",
+				'fr-fr': "Bourdon",
+				'de-de': "Bug Buzz"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Asleep, this attack does 50 damage plus 30 more damage. Remove the Special Condition Asleep from the Defending Pokémon.",
-				fr: "Si le Pokémon Défenseur est Endormi, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires. Retirez-lui l'État Spécial Endormi.",
-				de: "If the Defending Pokémon is Asleep, this attack does 50 damage plus 30 more damage. Remove the Special Condition Asleep from the Defending Pokémon."
+				'en-us': "If the Defending Pokémon is Asleep, this attack does 50 damage plus 30 more damage. Remove the Special Condition Asleep from the Defending Pokémon.",
+				'fr-fr': "Si le Pokémon Défenseur est Endormi, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires. Retirez-lui l'État Spécial Endormi.",
+				'de-de': "If the Defending Pokémon is Asleep, this attack does 50 damage plus 30 more damage. Remove the Special Condition Asleep from the Defending Pokémon."
 			},
 			damage: "50+",
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "There is a village that hosts a contest based on the amazingly variable cries of this Pokémon."
+		'en-us': "There is a village that hosts a contest based on the amazingly variable cries of this Pokémon."
 	},
 
 	variants: [

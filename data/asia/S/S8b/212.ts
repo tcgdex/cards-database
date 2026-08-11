@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤレユータン",
+		'ja-jp': "ヤレユータン",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "森の 隅々まで 知り尽くし 傷ついた ポケモンが いると 薬草を 探して 治療する。",
+		'ja-jp': "森の 隅々まで 知り尽くし 傷ついた ポケモンが いると 薬草を 探して 治療する。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "さるぢえ" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札を1枚選び、山札の上のカードと入れ替える。",
+				'ja-jp': "自分の番に1回使える。自分の手札を1枚選び、山札の上のカードと入れ替える。",
 			},
 		},
 	],

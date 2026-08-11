@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		es: "Pikachu",
-		it: "Pikachu",
-		pt: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'es-es': "Pikachu",
+		'it-it': "Pikachu",
+		'pt-br': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	illustrator: "Naoki Saito",
@@ -22,32 +22,32 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Find a Friend",
-			fr: "Trouver un Ami",
-			es: "Encontrar un Amigo",
-			it: "Trovamico",
-			pt: "Encontre um Amigo",
-			de: "Freunde finden"
+			'en-us': "Find a Friend",
+			'fr-fr': "Trouver un Ami",
+			'es-es': "Encontrar un Amigo",
+			'it-it': "Trovamico",
+			'pt-br': "Encontre um Amigo",
+			'de-de': "Freunde finden"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
-			fr: "Lancez une pièce. Si c’est face, cherchez un Pokémon dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
-			es: "Lanza 1 moneda. Si sale cara, busca en tu baraja 1 Pokémon, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
-			it: "Lancia una moneta. Se esce testa, cerca nel tuo mazzo un Pokémon, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			pt: "Jogue 1 moeda. Se sair cara, procure por 1 Pokémon no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
-			de: "Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+			'en-us': "Flip a coin. If heads, search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+			'fr-fr': "Lancez une pièce. Si c’est face, cherchez un Pokémon dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+			'es-es': "Lanza 1 moneda. Si sale cara, busca en tu baraja 1 Pokémon, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
+			'it-it': "Lancia una moneta. Se esce testa, cerca nel tuo mazzo un Pokémon, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, procure por 1 Pokémon no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Gnaw",
-			fr: "Ronge",
-			es: "Roer",
-			it: "Rosicchiamento",
-			pt: "Roída",
-			de: "Nagen"
+			'en-us': "Gnaw",
+			'fr-fr': "Ronge",
+			'es-es': "Roer",
+			'it-it': "Rosicchiamento",
+			'pt-br': "Roída",
+			'de-de': "Nagen"
 		},
 
 		damage: 20,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It's in its nature to store electricity. It feels stressed now and then if it's unable to fully discharge the electricity.",
+		'en-us': "It's in its nature to store electricity. It feels stressed now and then if it's unable to fully discharge the electricity.",
 	},
 }
 

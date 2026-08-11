@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Gyarados V",
-		fr: "Léviator V",
-		es: "Gyarados V",
-		it: "Gyarados V",
-		pt: "Gyarados V",
-		de: "Garados V"
+		'en-us': "Gyarados V",
+		'fr-fr': "Léviator V",
+		'es-es': "Gyarados V",
+		'it-it': "Gyarados V",
+		'pt-br': "Gyarados V",
+		'de-de': "Garados V"
 	},
 
 	rarity: "Ultra Rare",
@@ -23,33 +23,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Get Angry",
-			fr: "Coléreux",
-			es: "Enfadarse",
-			it: "Tutte le Furie",
-			pt: "Get Angry",
-			de: "Rotsehen"
+			'en-us': "Get Angry",
+			'fr-fr': "Coléreux",
+			'es-es': "Enfadarse",
+			'it-it': "Tutte le Furie",
+			'pt-br': "Get Angry",
+			'de-de': "Rotsehen"
 		},
 
 		effect: {
-			en: "This attack does 20 damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
-			es: "Este ataque hace 20 puntos de daño por cada contador de daño en este Pokémon.",
-			it: "Questo attacco infligge 20 danni per ogni segnalino danno presente su questo Pokémon.",
-			pt: "This attack does 20 damage for each damage counter on this Pokémon.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 20 Schadenspunkte zu."
+			'en-us': "This attack does 20 damage for each damage counter on this Pokémon.",
+			'fr-fr': "Cette attaque inflige 20 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
+			'es-es': "Este ataque hace 20 puntos de daño por cada contador de daño en este Pokémon.",
+			'it-it': "Questo attacco infligge 20 danni per ogni segnalino danno presente su questo Pokémon.",
+			'pt-br': "This attack does 20 damage for each damage counter on this Pokémon.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 20 Schadenspunkte zu."
 		},
 
 		damage: "20×",
 		cost: ["Water", "Water", "Colorless"]
 	}, {
 		name: {
-			en: "Heavy Storm",
-			fr: "Grosse Tempête",
-			es: "Fuerte Tormenta",
-			it: "Grantempesta",
-			pt: "Heavy Storm",
-			de: "Schwerer Sturm"
+			'en-us': "Heavy Storm",
+			'fr-fr': "Grosse Tempête",
+			'es-es': "Fuerte Tormenta",
+			'it-it': "Grantempesta",
+			'pt-br': "Heavy Storm",
+			'de-de': "Schwerer Sturm"
 		},
 
 		damage: 180,

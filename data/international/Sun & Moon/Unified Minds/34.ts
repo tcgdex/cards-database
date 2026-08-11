@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Salazzle",
-		fr: "Malamandre",
-		es: "Salazzle",
-		it: "Salazzle",
-		pt: "Salazzle",
-		de: "Amfira"
+		'en-us': "Salazzle",
+		'fr-fr': "Malamandre",
+		'es-es': "Salazzle",
+		'it-it': "Salazzle",
+		'pt-br': "Salazzle",
+		'de-de': "Amfira"
 	},
 
 	illustrator: "Midori Harada",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Salandit",
-		fr: "Tritox",
+		'en-us': "Salandit",
+		'fr-fr': "Tritox",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fire Claws",
-				fr: "Griffes Enflammées",
-				es: "Garras de Fuego",
-				it: "Artigli Infuocati",
-				pt: "Garras de Fogo",
-				de: "Feuerkrallen"
+				'en-us': "Fire Claws",
+				'fr-fr': "Griffes Enflammées",
+				'es-es': "Garras de Fuego",
+				'it-it': "Artigli Infuocati",
+				'pt-br': "Garras de Fogo",
+				'de-de': "Feuerkrallen"
 			},
 
 			damage: 70,
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Salazzle lives deep in caves and forces the Salandit it has attracted with its pheromones to serve it.",
+		'en-us': "Salazzle lives deep in caves and forces the Salandit it has attracted with its pheromones to serve it.",
 	},
 
 	thirdParty: {

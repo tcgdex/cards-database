@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Metang",
-		fr: "Metang",
-		de: "Metang"
+		'en-us': "Metang",
+		'fr-fr': "Metang",
+		'de-de': "Metang"
 	},
 
 	illustrator: "Wataru Kawahara",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Beldum",
-		fr: "Terhal"
+		'en-us': "Beldum",
+		'fr-fr': "Terhal"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Energy Crane",
-				fr: "Grue d’énergie",
-				de: "Energiekran"
+				'en-us': "Energy Crane",
+				'fr-fr': "Grue d’énergie",
+				'de-de': "Energiekran"
 			},
 			effect: {
-				en: "Search your discard pile for up to 2 Psychic Energy cards and attach them to your Pokémon in any way you like.",
-				fr: "Cherchez jusqu’à 2 cartes Énergie Psychic dans votre pile de défausse et attachez-les à vos Pokémon comme bon vous semble.",
-				de: "Durchsuche deinen Ablagestapel nach bis zu 2 -Energiekarten und lege sie in beliebiger Verteilung an deine Pokémon an."
+				'en-us': "Search your discard pile for up to 2 Psychic Energy cards and attach them to your Pokémon in any way you like.",
+				'fr-fr': "Cherchez jusqu’à 2 cartes Énergie Psychic dans votre pile de défausse et attachez-les à vos Pokémon comme bon vous semble.",
+				'de-de': "Durchsuche deinen Ablagestapel nach bis zu 2 -Energiekarten und lege sie in beliebiger Verteilung an deine Pokémon an."
 			},
 
 		},
@@ -52,9 +52,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psypunch",
-				fr: "Coup de poing psy",
-				de: "Psyhieb"
+				'en-us': "Psypunch",
+				'fr-fr': "Coup de poing psy",
+				'de-de': "Psyhieb"
 			},
 
 			damage: 50,
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "When two Beldum fuse together, a magnetic nervous system places their brains in union."
+		'en-us': "When two Beldum fuse together, a magnetic nervous system places their brains in union."
 	},
 
 	variants: [

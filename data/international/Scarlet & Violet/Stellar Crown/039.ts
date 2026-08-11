@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Froakie",
-		fr: "Grenousse",
-		es: "Froakie",
-		it: "Froakie",
-		pt: "Froakie",
-		de: "Froxy"
+		'en-us': "Froakie",
+		'fr-fr': "Grenousse",
+		'es-es': "Froakie",
+		'it-it': "Froakie",
+		'pt-br': "Froakie",
+		'de-de': "Froxy"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Rain Splash",
-			fr: "Pluie Éclaboussante",
-			es: "Golpe de Lluvia",
-			it: "Spruzzapioggia",
-			pt: "Chuva Borrifante",
-			de: "Regenplatscher"
+			'en-us': "Rain Splash",
+			'fr-fr': "Pluie Éclaboussante",
+			'es-es': "Golpe de Lluvia",
+			'it-it': "Spruzzapioggia",
+			'pt-br': "Chuva Borrifante",
+			'de-de': "Regenplatscher"
 		},
 
 		damage: 20

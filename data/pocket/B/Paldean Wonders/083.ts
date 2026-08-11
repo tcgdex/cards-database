@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Squawkabilly",
-		fr: "Tapatoès",
-		de: "Krawalloro",
-		it: "Squawkabilly",
-		es: "Squawkabilly",
-		pt: "Squawkabilly",
+		'en-us': "Squawkabilly",
+		'fr-fr': "Tapatoès",
+		'de-de': "Krawalloro",
+		'it-it': "Squawkabilly",
+		'es-es': "Squawkabilly",
+		'pt-br': "Squawkabilly",
 		'es-mx': "Squawkabilly"
   },
   illustrator: "Oswaldo KATO",
@@ -25,9 +25,9 @@ const card: Card = {
   attacks: [
     {
       name: {
-				en: "Quick Attack",
-				fr: "Vive-attaque",
-				de: "Quick Attack"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-attaque",
+				'de-de': "Quick Attack"
       },
       damage: "30+",
       cost: ["Colorless", "Colorless"],

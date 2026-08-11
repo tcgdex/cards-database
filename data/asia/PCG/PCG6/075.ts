@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メタグロススター",
+		'ja-jp': "メタグロススター",
 	},
 
 	rarity: "Shiny rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Metal"],
 			name: {
-				ja: "重要なコレクション",
+				'ja-jp': "重要なコレクション",
 			},
 			effect: {
-				ja: "対戦相手が取った賞金の数を数えます。その多くの金属エネルギーカードまで廃棄の山を検索し、それらをMetagross {{star | this Pokemon}}に取り付けます。",
+				'ja-jp': "対戦相手が取った賞金の数を数えます。その多くの金属エネルギーカードまで廃棄の山を検索し、それらをMetagross {{star | this Pokemon}}に取り付けます。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Metal", "Metal", "Metal", "Colorless", "Colorless"],
 			name: {
-				ja: "ハイパービーム",
+				'ja-jp': "ハイパービーム",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、防御ポケモンに取り付けられたエネルギーカードを捨てます。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、防御ポケモンに取り付けられたエネルギーカードを捨てます。",
 			},
 			damage: 50,
 		},

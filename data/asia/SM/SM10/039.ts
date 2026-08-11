@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムウマージ",
+		'ja-jp': "ムウマージ",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "祟りや 呪いを 振りまくとして 恐れられて きた。 気まぐれに 人を助ける 呪文も 使う。",
+		'ja-jp': "祟りや 呪いを 振りまくとして 恐れられて きた。 気まぐれに 人を助ける 呪文も 使う。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ふしぎなことづけ" },
 			effect: {
-				ja: "自分の番に1回使えて、使ったなら、このポケモンをきぜつさせる。自分の手札が7枚になるように、山札を引く。",
+				'ja-jp': "自分の番に1回使えて、使ったなら、このポケモンをきぜつさせる。自分の手札が7枚になるように、山札を引く。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ムウマ",
+		'ja-jp': "ムウマ",
 	},
 
 	retreat: 1,

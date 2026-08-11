@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SK"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "雪童子",
-		ja: "ユキワラシ"
+		'ja-jp': "ユキワラシ"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "只能在寒冷的土地上生存。即使在零下１００度的環境下也能充滿活力地到處蹦蹦跳跳。",
-		ja: "寒い 土地でしか 生きられない。 マイナス １００度の 環境でも 元気に 跳ねまわっているよ。"
+		'ja-jp': "寒い 土地でしか 生きられない。 マイナス １００度の 環境でも 元気に 跳ねまわっているよ。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "頭錘",
-			ja: "ずつき"
+			'ja-jp': "ずつき"
 		},
 
 		damage: 30,

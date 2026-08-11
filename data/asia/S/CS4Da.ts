@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../S'
 
 const set: Set = {
 	id: 'CS4Da',
 	name: {
-		ja: 'トリプレットビート',
-		ko: '트리플렛비트',
+		'ja-jp': 'トリプレットビート',
+		'ko-kr': '트리플렛비트',
 		'zh-tw': '三連音爆',
-		id: 'Hantaman Triplet',
-		th: 'ทริปเปิลบีต'
+		'id-id': 'Hantaman Triplet',
+		'th-th': 'ทริปเปิลบีต'
 	},
 
 	serie: serie,

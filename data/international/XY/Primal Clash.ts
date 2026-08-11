@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../XY'
 
 const xy5: Set = {
 	id: "xy5",
 
 	name: {
-		en: "Primal Clash",
-		fr: "Primo-Choc",
-		es: "Duelos Primigenios",
-		it: "Scontro Primordiale",
-		de: "Protoshock",
-		pt: "Conflito Primitivo",
+		'en-us': "Primal Clash",
+		'fr-fr': "Primo-Choc",
+		'es-es': "Duelos Primigenios",
+		'it-it': "Scontro Primordiale",
+		'de-de': "Protoshock",
+		'pt-br': "Conflito Primitivo",
 		ru: "Первобытная Дуэль"
 	},
 
@@ -25,7 +25,7 @@ const xy5: Set = {
 
 	abbreviations: {
 		official: "PRC",
-		fr: "PRI"
+		'fr-fr': "PRI"
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY trainer Kit (Sylveon)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sylveon",
-		fr: "Nymphali",
-		es: "Sylveon",
-		it: "Sylveon",
-		pt: "Sylveon",
-		de: "Feelinara"
+		'en-us': "Sylveon",
+		'fr-fr': "Nymphali",
+		'es-es': "Sylveon",
+		'it-it': "Sylveon",
+		'pt-br': "Sylveon",
+		'de-de': "Feelinara"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,27 +19,27 @@ const card: Card = {
 	category: "Pokemon",
 
 	description: {
-		en: "It sends a soothing aura from its ribbonlike feelers to calm fights."
+		'en-us': "It sends a soothing aura from its ribbonlike feelers to calm fights."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Disarming Voice",
-			fr: "Voix Enjôleuse"
+			'en-us': "Disarming Voice",
+			'fr-fr': "Voix Enjôleuse"
 		},
 
 		damage: 20,
 
 		effect: {
-			en: "Your opponent’s Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
+			'en-us': "Your opponent’s Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus."
 		}
 	}, {
 		name: {
-			en: "Fairy Wind",
-			fr: "Vent Féérique"
+			'en-us': "Fairy Wind",
+			'fr-fr': "Vent Féérique"
 		},
 
 		damage: 60
@@ -49,12 +49,12 @@ const card: Card = {
 	types: ["Fairy"],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
-		es: "Eevee",
-		it: "Eevee",
-		pt: "Eevee",
-		de: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
+		'es-es': "Eevee",
+		'it-it': "Eevee",
+		'pt-br': "Eevee",
+		'de-de': "Evoli"
 	},
 
 	retreat: 1,

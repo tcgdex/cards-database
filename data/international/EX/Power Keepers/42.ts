@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Aron",
-		fr: "Galekid",
-		de: "Stollunior"
+		'en-us': "Aron",
+		'fr-fr': "Galekid",
+		'de-de': "Stollunior"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dig Deep",
-				fr: "Trou profond",
-				de: "Tief graben"
+				'en-us': "Dig Deep",
+				'fr-fr': "Trou profond",
+				'de-de': "Tief graben"
 			},
 			effect: {
-				en: "Search your discard pile for an Energy card, show it to your opponent, and put it into your hand.",
-				fr: "Choisissez dans votre pile de défausse une carte Énergie, montrez-la à votre adversaire et placez-la dans votre main.",
-				de: "Durchsuche deinen Ablagestapel nach 1 Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand."
+				'en-us': "Search your discard pile for an Energy card, show it to your opponent, and put it into your hand.",
+				'fr-fr': "Choisissez dans votre pile de défausse une carte Énergie, montrez-la à votre adversaire et placez-la dans votre main.",
+				'de-de': "Durchsuche deinen Ablagestapel nach 1 Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,

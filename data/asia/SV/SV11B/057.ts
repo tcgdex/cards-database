@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フシデ",
+		'ja-jp': "フシデ",
 	},
 
 	illustrator: "okayamatakatoshi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "かみついて 猛毒を 与える。 天敵の 大きな とりポケモンも 体が しびれて 動けなくなる。",
+		'ja-jp': "かみついて 猛毒を 与える。 天敵の 大きな とりポケモンも 体が しびれて 動けなくなる。",
 	},
 
 	stage: "Basic",

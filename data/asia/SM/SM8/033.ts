@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メリープ",
+		'ja-jp': "メリープ",
 	},
 
 	illustrator: "Midori Harada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "ふかふかの 体毛は 空気を たくさん 含んで 夏は 涼しく 冬は 温かいのが 特徴。",
+		'ja-jp': "ふかふかの 体毛は 空気を たくさん 含んで 夏は 涼しく 冬は 温かいのが 特徴。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ふわふわまくら" },
 			effect: {
-				ja: "このポケモンがバトル場にいるなら、自分の番に1回使える。相手のバトルポケモンをねむりにする。",
+				'ja-jp': "このポケモンがバトル場にいるなら、自分の番に1回使える。相手のバトルポケモンをねむりにする。",
 			},
 		},
 	],

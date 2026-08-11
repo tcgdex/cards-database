@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Skorupi",
-		fr: "Rapion",
-		de: "Pionskora"
+		'en-us': "Skorupi",
+		'fr-fr': "Rapion",
+		'de-de': "Pionskora"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		fr: "Rapion",
+		'fr-fr': "Rapion",
 	},
 
 	stage: "Basic",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stalk",
-				fr: "Traquer",
-				de: "Anpirschen"
+				'en-us': "Stalk",
+				'fr-fr': "Traquer",
+				'de-de': "Anpirschen"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
-				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				'de-de': "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 10,
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dangerous Claw",
-				fr: "Griffe dangereuse",
-				de: "Gefährliche Klaue"
+				'en-us': "Dangerous Claw",
+				'fr-fr': "Griffe dangereuse",
+				'de-de': "Gefährliche Klaue"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt. Bei \"Zahl\" ist das Verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt. Bei \"Zahl\" ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 			damage: 20,
 
@@ -77,8 +77,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It grips prey with its tail claws and injects poison. It tenaciously hangs on until the poison takes.",
-		fr: "Il saisit sa proie avec les pinces de sa queue, lui injecte un poison et la retient jusqu'à ce qu'il agisse."
+		'en-us': "It grips prey with its tail claws and injects poison. It tenaciously hangs on until the poison takes.",
+		'fr-fr': "Il saisit sa proie avec les pinces de sa queue, lui injecte un poison et la retient jusqu'à ce qu'il agisse."
 	},
 
 	thirdParty: {

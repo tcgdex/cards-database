@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マーシャドー",
+		'ja-jp': "マーシャドー",
 	},
 
 	illustrator: "Nakamura Ippan",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "拳法の 達人の 影に 潜って 動きを コピーしたため 究極奥義を 身につけた。",
+		'ja-jp': "拳法の 達人の 影に 潜って 動きを コピーしたため 究極奥義を 身につけた。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ。",
+				'ja-jp': "相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ。",
 			},
 		},
 	],

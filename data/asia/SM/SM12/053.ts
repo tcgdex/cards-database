@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クチート",
+		'ja-jp': "クチート",
 	},
 
 	illustrator: "kodama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "ずる賢く 恐ろしい ポケモン。 キュートな 仕草で 油断させ いきなり おおアゴで 丸呑みにする。",
+		'ja-jp': "ずる賢く 恐ろしい ポケモン。 キュートな 仕草で 油断させ いきなり おおアゴで 丸呑みにする。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ふたつのよびごえ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある「TAG TEAM」のカードを2枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札にある「TAG TEAM」のカードを2枚まで、相手に見せてから、手札に加える。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 	],

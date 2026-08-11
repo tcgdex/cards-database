@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フラフィー",
+		'ja-jp': "フラフィー",
 	},
 
 	rarity: "Uncommon",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ヘッドバット",
+				'ja-jp': "ヘッドバット",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Lightning", "Lightning", "Colorless"],
 			name: {
-				ja: "サンダージョルト",
+				'ja-jp': "サンダージョルト",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、Flaaffyはそれ自体に20のダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。尾の場合、Flaaffyはそれ自体に20のダメージを与えます。",
 			},
 			damage: 50,
 		},

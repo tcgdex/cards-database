@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Impostor Professor Oak",
-		fr: "Faux Professeur Chen",
-		de: "Falscher Professor Eich",
-		it: "Professor Oak, l'impostore"
+		'en-us': "Impostor Professor Oak",
+		'fr-fr': "Faux Professeur Chen",
+		'de-de': "Falscher Professor Eich",
+		'it-it': "Professor Oak, l'impostore"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -15,10 +15,10 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Your opponent shuffles his or her hand into his or her deck, then draws 7 cards.",
-		fr: "Votre adversaire mélange sa main avec son deck, puis pioche 7 cartes.",
-		de: "Dein Gegner mischt die Karten seiner Hand in seinen Stapel und zieht sieben neue Karten",
-		it: "Il tuo avversario rimette le carte che ha in mano nel proprio mazzo, le mischia e poi pesca 7 carte."
+		'en-us': "Your opponent shuffles his or her hand into his or her deck, then draws 7 cards.",
+		'fr-fr': "Votre adversaire mélange sa main avec son deck, puis pioche 7 cartes.",
+		'de-de': "Dein Gegner mischt die Karten seiner Hand in seinen Stapel und zieht sieben neue Karten",
+		'it-it': "Il tuo avversario rimette le carte che ha in mano nel proprio mazzo, le mischia e poi pesca 7 carte."
 	},
 
 	variants: [

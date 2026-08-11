@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カエンジシ",
+		'ja-jp': "カエンジシ",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "摂氏６０００度の 息を 吐き出し 激しく 相手を 威嚇する。 メスが 群れの 子供を 守る。",
+		'ja-jp': "摂氏６０００度の 息を 吐き出し 激しく 相手を 威嚇する。 メスが 群れの 子供を 守る。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シシコ",
+		'ja-jp': "シシコ",
 	},
 
 	retreat: 2,

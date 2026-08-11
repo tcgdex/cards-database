@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガバイト",
+		'ja-jp': "ガバイト",
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "光り 輝くものが 大好き。 宝石や 捕まえた メレシーを 巣穴で じーっと 眺めている。",
+		'ja-jp': "光り 輝くものが 大好き。 宝石や 捕まえた メレシーを 巣穴で じーっと 眺めている。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "かくせい" },
 			cost: ["Fighting"],
 			effect: {
-				ja: "このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。",
+				'ja-jp': "このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "フカマル",
+		'ja-jp': "フカマル",
 	},
 
 	retreat: 1,

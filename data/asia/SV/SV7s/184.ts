@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โซรัว"
+		'th-th': "โซรัว"
 	},
 
 	illustrator: "REND",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		th: "แปลงกายเป็นคนหรือโปเกมอนตัวอื่น ซ่อนตัวตนที่แท้จริงเพื่อปกป้องตัวเองจากอันตราย"
+		'th-th': "แปลงกายเป็นคนหรือโปเกมอนตัวอื่น ซ่อนตัวตนที่แท้จริงเพื่อปกป้องตัวเองจากอันตราย"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "เหยียบ"
+			'th-th': "เหยียบ"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "ข่วนทวีคูณ"
+			'th-th': "ข่วนทวีคูณ"
 		},
 
 		effect: {
-			th: "ทอยเหรียญ 2 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x20"
+			'th-th': "ทอยเหรียญ 2 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x20"
 		},
 
 		damage: "20×",

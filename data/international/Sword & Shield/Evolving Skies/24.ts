@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Psyduck",
-		fr: "Psykokwak",
-		es: "Psyduck",
-		it: "Psyduck",
-		pt: "Psyduck",
-		de: "Enton"
+		'en-us': "Psyduck",
+		'fr-fr': "Psykokwak",
+		'es-es': "Psyduck",
+		'it-it': "Psyduck",
+		'pt-br': "Psyduck",
+		'de-de': "Enton"
 	},
 
 	rarity: "Common",
@@ -23,12 +23,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Rain Splash",
-			fr: "Pluie Éclaboussante",
-			es: "Golpe de Lluvia",
-			it: "Spruzzapioggia",
-			pt: "Rain Splash",
-			de: "Regenplatscher"
+			'en-us': "Rain Splash",
+			'fr-fr': "Pluie Éclaboussante",
+			'es-es': "Golpe de Lluvia",
+			'it-it': "Spruzzapioggia",
+			'pt-br': "Rain Splash",
+			'de-de': "Regenplatscher"
 		},
 
 		damage: 10,
@@ -43,7 +43,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has been found that its brain cells are 10 times more active when Psyduck is experiencing a headache."
+		'en-us': "It has been found that its brain cells are 10 times more active when Psyduck is experiencing a headache."
 	},
 
 	dexId: [54],

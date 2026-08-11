@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Charizard",
+		'en-us': "Charizard",
 	},
 
 	illustrator: "TOKIYA",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmeleon",
+		'en-us': "Charmeleon",
 	},
 
 	stage: "Stage2",
@@ -35,10 +35,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Split Bomb",
+				'en-us': "Split Bomb",
 			},
 			effect: {
-				en: "This attack does 40 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'en-us': "This attack does 40 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			},
 
 		},
@@ -51,10 +51,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scorching Fire",
+				'en-us': "Scorching Fire",
 			},
 			effect: {
-				en: "Discard a Fire Energy attached to this Pokémon.",
+				'en-us': "Discard a Fire Energy attached to this Pokémon.",
 			},
 			damage: 150,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It is said that Charizard's fire burns hotter if it has experienced harsh battles.",
+		'en-us': "It is said that Charizard's fire burns hotter if it has experienced harsh battles.",
 	},
 
 	thirdParty: {

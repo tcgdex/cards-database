@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Ferdeter",
-		en: "Orthworm",
-		es: "Orthworm",
-		it: "Orthworm",
-		pt: "Orthworm",
-		de: "Schlurm"
+		'fr-fr': "Ferdeter",
+		'en-us': "Orthworm",
+		'es-es': "Orthworm",
+		'it-it': "Orthworm",
+		'pt-br': "Orthworm",
+		'de-de': "Schlurm"
   },
   illustrator: "Pani Kobayashi",
   rarity: "Two Diamond",

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハハコモリ",
+		'ja-jp': "ハハコモリ",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "幼い ポケモンを みつけると 口から 出す 粘着糸で 葉っぱの 服を 縫ってあげる。",
+		'ja-jp': "幼い ポケモンを みつけると 口から 出す 粘着糸で 葉っぱの 服を 縫ってあげる。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "おくるみテーラー" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分の[草]ポケモン全員が、相手のポケモンから受けるワザのダメージは「-40」される。この効果は、この特性を持つポケモンが何匹いても、重ならない。",
+				'ja-jp': "このポケモンがいるかぎり、自分の[草]ポケモン全員が、相手のポケモンから受けるワザのダメージは「-40」される。この効果は、この特性を持つポケモンが何匹いても、重ならない。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "クルマユ",
+		'ja-jp': "クルマユ",
 	},
 
 	retreat: 1,

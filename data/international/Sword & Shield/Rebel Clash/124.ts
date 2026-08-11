@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	name: {
-		en: "Morgrem",
-		fr: "Fourbelin",
-		es: "Morgrem",
-		it: "Morgrem",
-		pt: "Morgrem",
-		de: "Pelzebub"
+		'en-us': "Morgrem",
+		'fr-fr': "Fourbelin",
+		'es-es': "Morgrem",
+		'it-it': "Morgrem",
+		'pt-br': "Morgrem",
+		'de-de': "Pelzebub"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -18,12 +18,12 @@ const card: Card = {
 	set: Set,
 
 	evolveFrom: {
-		en: "Impidimp",
-		fr: "Grimalin",
-		es: "Impidimp",
-		it: "Impidimp",
-		pt: "Impidimp",
-		de: "Bähmon"
+		'en-us': "Impidimp",
+		'fr-fr': "Grimalin",
+		'es-es': "Impidimp",
+		'it-it': "Impidimp",
+		'pt-br': "Impidimp",
+		'de-de': "Bähmon"
 	},
 
 	attacks: [
@@ -32,12 +32,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 30,
@@ -50,20 +50,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "False Surrender",
-				fr: "Fourbette",
-				es: "Irreverencia",
-				it: "Supplicolpo",
-				pt: "Rendição Falsa",
-				de: "Kniefalltrick"
+				'en-us': "False Surrender",
+				'fr-fr': "Fourbette",
+				'es-es': "Irreverencia",
+				'it-it': "Supplicolpo",
+				'pt-br': "Rendição Falsa",
+				'de-de': "Kniefalltrick"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
-				es: "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
-				it: "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
-				pt: "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente.",
-				de: "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
+				'en-us': "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
+				'es-es': "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
+				'it-it': "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
+				'pt-br': "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente.",
+				'de-de': "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
 			},
 			damage: 60,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "When it gets down on all fours as if to beg for forgiveness, it's trying to lure opponents in so that it can stab them with its spear-like hair."
+		'en-us': "When it gets down on all fours as if to beg for forgiveness, it's trying to lure opponents in so that it can stab them with its spear-like hair."
 	},
 
 	variants: [

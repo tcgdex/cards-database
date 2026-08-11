@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Shroomish",
-		fr: "Balignon",
-		de: "Knilz"
+		'en-us': "Shroomish",
+		'fr-fr': "Balignon",
+		'de-de': "Knilz"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Growth Spurt",
-				fr: "Jaillissement",
-				de: "Wachstumsschub"
+				'en-us': "Growth Spurt",
+				'fr-fr': "Jaillissement",
+				'de-de': "Wachstumsschub"
 			},
 			effect: {
-				en: "Attach a Grass Energy card from your hand to Shroomish.",
-				fr: "Attachez à Balignon une carte Énergie  de votre main.",
-				de: "Lege eine -Energiekarte von deiner Hand an Knilz an."
+				'en-us': "Attach a Grass Energy card from your hand to Shroomish.",
+				'fr-fr': "Attachez à Balignon une carte Énergie  de votre main.",
+				'de-de': "Lege eine -Energiekarte von deiner Hand an Knilz an."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poisonpowder",
-				fr: "Poudre Toxik",
-				de: "Giftpuder"
+				'en-us': "Poisonpowder",
+				'fr-fr': "Poudre Toxik",
+				'de-de': "Giftpuder"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 10,
 

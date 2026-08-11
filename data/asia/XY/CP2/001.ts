@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハリマロン",
+		'ja-jp': "ハリマロン",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "頭と 背中を 硬い 樹木の 殻で 覆われているため トラックが ぶつかってきても 平気なのだ。",
+		'ja-jp': "頭と 背中を 硬い 樹木の 殻で 覆われているため トラックが ぶつかってきても 平気なのだ。",
 	},
 
 	stage: "Basic",

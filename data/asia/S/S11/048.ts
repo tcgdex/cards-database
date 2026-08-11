@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ペロリーム",
+		'ja-jp': "ペロリーム",
 		'zh-tw': "胖甜妮",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "体臭から 心と 体の 調子を 嗅ぎとる。 医療への 応用が 期待されている。",
+		'ja-jp': "体臭から 心と 体の 調子を 嗅ぎとる。 医療への 応用が 期待されている。",
 		'zh-tw': "能從人們身上的氣味裡嗅出他們的身心狀態。 在醫療領域的實際應用備受矚目。",
 	},
 
@@ -23,19 +23,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ドレインキッス",
+				'ja-jp': "ドレインキッス",
 				'zh-tw': "吸取之吻",
 			},
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「30」回復する。",
+				'ja-jp': "このポケモンのHPを「30」回復する。",
 				'zh-tw': "將這隻寶可夢恢復「30」HP。",
 			},
 		},
 		{
 			name: {
-				ja: "マジカルショット",
+				'ja-jp': "マジカルショット",
 				'zh-tw': "魔法射擊",
 			},
 			damage: 100,
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ペロッパフ",
+		'ja-jp': "ペロッパフ",
 	},
 
 	retreat: 2,

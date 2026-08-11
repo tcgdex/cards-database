@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マンティン",
+		'ja-jp': "マンティン",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Water", "Water"],
 			name: {
-				ja: "巨大な波",
+				'ja-jp': "巨大な波",
 			},
 			effect: {
-				ja: "マンティンは次のターン中に攻撃することはできません。",
+				'ja-jp': "マンティンは次のターン中に攻撃することはできません。",
 			},
 			damage: 40,
 		},

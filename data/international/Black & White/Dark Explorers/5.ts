@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Carnivine",
-		fr: "Vortente",
-		es: "Carnivine",
-		it: "Carnivine",
-		pt: "Carnivine",
-		de: "Venuflibis"
+		'en-us': "Carnivine",
+		'fr-fr': "Vortente",
+		'es-es': "Carnivine",
+		'it-it': "Carnivine",
+		'pt-br': "Carnivine",
+		'de-de': "Venuflibis"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Lure Poison",
-				fr: "Appât Vénéneux"
+				'en-us': "Lure Poison",
+				'fr-fr': "Appât Vénéneux"
 			},
 			effect: {
-				en: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. The new Defending Pokémon is now Poisoned.",
-				fr: "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire. Le nouveau Pokémon Défenseur est maintenant Empoisonné."
+				'en-us': "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. The new Defending Pokémon is now Poisoned.",
+				'fr-fr': "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire. Le nouveau Pokémon Défenseur est maintenant Empoisonné."
 			},
 
 		},
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spit Squall",
-				fr: "Rafale de Crachats"
+				'en-us': "Spit Squall",
+				'fr-fr': "Rafale de Crachats"
 			},
 			effect: {
-				en: "Your opponent puts the Defending Pokémon and all cards attached to it into his or her hand.",
-				fr: "Votre adversaire reprend le Pokémon Défenseur et toutes les cartes qui lui sont attachées dans sa main."
+				'en-us': "Your opponent puts the Defending Pokémon and all cards attached to it into his or her hand.",
+				'fr-fr': "Votre adversaire reprend le Pokémon Défenseur et toutes les cartes qui lui sont attachées dans sa main."
 			},
 
 		},
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It binds itself to trees on marshes. It attracts prey with its sweet-smelling drool and gulps them down.",
+		'en-us': "It binds itself to trees on marshes. It attracts prey with its sweet-smelling drool and gulps them down.",
 	},
 
 	thirdParty: {

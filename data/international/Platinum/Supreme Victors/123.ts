@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Roselia",
-		fr: "Roselia",
-		de: "Roselia"
+		'en-us': "Roselia",
+		'fr-fr': "Roselia",
+		'de-de': "Roselia"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vine Slap",
-				fr: "Gifle de liane",
-				de: "Rankenklatscher"
+				'en-us': "Vine Slap",
+				'fr-fr': "Gifle de liane",
+				'de-de': "Rankenklatscher"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spit Poison",
-				fr: "Crache-venin",
-				de: "Giftspucke"
+				'en-us': "Spit Poison",
+				'fr-fr': "Crache-venin",
+				'de-de': "Giftspucke"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 			damage: 10,
 
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The more healthy the Roselia, the more pleasant its flowers' aroma. Its scent deeply relaxes people."
+		'en-us': "The more healthy the Roselia, the more pleasant its flowers' aroma. Its scent deeply relaxes people."
 	},
 
 	variants: [

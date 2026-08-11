@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒスイ マルマインV",
+		'ja-jp': "ヒスイ マルマインV",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "100×",
 			cost: [],
 			effect: {
-				ja: "このポケモンが受けている特殊状態の数×100ダメージ。",
+				'ja-jp': "このポケモンが受けている特殊状態の数×100ダメージ。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、すべてトラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、すべてトラッシュする。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Promos-A"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Houndoom"
+		'en-us': "Houndoom"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Houndour"
+		'en-us': "Houndour"
 	},
 
 	description: {
-		en: "If you are burned by the flames it shoots from its\nmouth, the pain will never go away."
+		'en-us': "If you are burned by the flames it shoots from its\nmouth, the pain will never go away."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Diving Swipe"
+			'en-us': "Diving Swipe"
 		},
 
 		damage: 70,
 		cost: ["Darkness", "Darkness", "Darkness"],
 
 		effect: {
-			en: "Discard a random card from your opponent's hand."
+			'en-us': "Discard a random card from your opponent's hand."
 		}
 	}],
 

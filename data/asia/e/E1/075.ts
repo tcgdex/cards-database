@@ -1,4 +1,4 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {

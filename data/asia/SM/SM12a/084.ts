@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラディグダ",
+		'ja-jp': "アローラディグダ",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "溶岩質の 地面も グングン 掘り進むほど パワフルだが なかなか 姿を 見せないぞ。",
+		'ja-jp': "溶岩質の 地面も グングン 掘り進むほど パワフルだが なかなか 姿を 見せないぞ。",
 	},
 
 	stage: "Basic",

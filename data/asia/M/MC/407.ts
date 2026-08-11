@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナゲツケサル",
+		'ja-jp': "ナゲツケサル",
 	},
 
 	illustrator: "Teeziro",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ボスが 選んだ １０匹で 狩りに 出かけ 取ってきた エサを 群れの 仲間で 平等に 分け合う。",
+		'ja-jp': "ボスが 選んだ １０匹で 狩りに 出かけ 取ってきた エサを 群れの 仲間で 平等に 分け合う。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "自分の場のたねポケモンの数×20ダメージ。",
+				'ja-jp': "自分の場のたねポケモンの数×20ダメージ。",
 			},
 		},
 	],

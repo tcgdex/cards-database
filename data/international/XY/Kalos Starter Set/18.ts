@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Kalos Starter Set'
 
 const card: Card = {
 	name: {
-		en: "Inkay",
-		fr: "Sepiatop",
-		es: "Inkay",
-		it: "Inkay",
-		pt: "Inkay",
-		de: "Iscalar"
+		'en-us': "Inkay",
+		'fr-fr': "Sepiatop",
+		'es-es': "Inkay",
+		'it-it': "Inkay",
+		'pt-br': "Inkay",
+		'de-de': "Iscalar"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				es: "Picotazo",
-				it: "Beccata",
-				pt: "Bicada",
-				de: "Schnabel"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'es-es': "Picotazo",
+				'it-it': "Beccata",
+				'pt-br': "Bicada",
+				'de-de': "Schnabel"
 			},
 
 			damage: 10,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight.",
+		'en-us': "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight.",
 	},
 
 	thirdParty: {

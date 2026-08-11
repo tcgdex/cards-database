@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピクシー",
+		'ja-jp': "ピクシー",
 	},
 
 	illustrator: "satoma",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "耳が 良くて １キロ 離れた ところで 落とした 針の音を 見事に 聞き分けられる。",
+		'ja-jp': "耳が 良くて １キロ 離れた ところで 落とした 針の音を 見事に 聞き分けられる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ゆびをふる" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが持っているワザを1つ選び、このワザとして使う。",
+				'ja-jp': "相手のバトルポケモンが持っているワザを1つ選び、このワザとして使う。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ピッピ",
+		'ja-jp': "ピッピ",
 	},
 
 	retreat: 2,

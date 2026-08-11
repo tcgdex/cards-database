@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Duraludon",
-		fr: "Duralugon",
-		es: "Duraludon",
+		'en-us': "Duraludon",
+		'fr-fr': "Duralugon",
+		'es-es': "Duraludon",
 		'es-mx': "Duraludon",
-		de: "Duraludon",
-		it: "Duraludon",
-		pt: "Duraludon"
+		'de-de': "Duraludon",
+		'it-it': "Duraludon",
+		'pt-br': "Duraludon"
 	},
 
 	rarity: "Common",
@@ -26,23 +26,23 @@ const card: Card = {
 		cost: ["Metal", "Metal", "Metal"],
 
 		name: {
-			en: "Hyper Beam",
-			fr: "Ultralaser",
-			es: "Hiperrayo",
+			'en-us': "Hyper Beam",
+			'fr-fr': "Ultralaser",
+			'es-es': "Hiperrayo",
 			'es-mx': "Hiperrayo",
-			de: "Hyperstrahl",
-			it: "Iper Raggio",
-			pt: "Hiper-raio"
+			'de-de': "Hyperstrahl",
+			'it-it': "Iper Raggio",
+			'pt-br': "Hiper-raio"
 		},
 
 		effect: {
-			en: "Discard an Energy from your opponent's Active Pokémon.",
-			fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
-			es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
+			'en-us': "Discard an Energy from your opponent's Active Pokémon.",
+			'fr-fr': "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			'es-es': "Descarta 1 Energía del Pokémon Activo de tu rival.",
 			'es-mx': "Descarta 1 Energía del Pokémon Activo de tu rival.",
-			de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
-			it: "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
-			pt: "Descarte uma Energia do Pokémon Ativo do seu oponente."
+			'de-de': "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+			'it-it': "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			'pt-br': "Descarte uma Energia do Pokémon Ativo do seu oponente."
 		},
 
 		damage: 70
@@ -64,7 +64,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Duraludon's body is comprised of a special metal that's lightweight and scratch resistant. It's also smooth, as though it was given a mirror finish.",
+		'en-us': "Duraludon's body is comprised of a special metal that's lightweight and scratch resistant. It's also smooth, as though it was given a mirror finish.",
 	},
 
 	illustrator: "Shinji Kanda",

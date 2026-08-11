@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cacturne",
-		fr: "Cacturne",
-		es: "Cacturne",
-		it: "Cacturne",
-		pt: "Cacturne",
-		de: "Noktuska"
+		'en-us': "Cacturne",
+		'fr-fr': "Cacturne",
+		'es-es': "Cacturne",
+		'it-it': "Cacturne",
+		'pt-br': "Cacturne",
+		'de-de': "Noktuska"
 	},
 
 	rarity: "Uncommon",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Cacnea",
-		fr: "Cacnea"
+		'en-us': "Cacnea",
+		'fr-fr': "Cacnea"
 	},
 
 	stage: "Stage1",
@@ -30,21 +30,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Counterattack Quills",
-			fr: "Contre-Piquants",
-			es: "Contraataque Púas",
-			it: "Contrappunto",
-			pt: "Penas de Contra-ataque",
-			de: "Konterstacheln"
+			'en-us': "Counterattack Quills",
+			'fr-fr': "Contre-Piquants",
+			'es-es': "Contraataque Púas",
+			'it-it': "Contrappunto",
+			'pt-br': "Penas de Contra-ataque",
+			'de-de': "Konterstacheln"
 		},
 
 		effect: {
-			en: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking Pokémon.",
-			fr: "Si ce Pokémon est sur le Poste Actif et qu'il subit les dégâts d'une attaque d'un Pokémon de votre adversaire (même si ce Pokémon est mis K.O.), placez 3 marqueurs de dégâts sur le Pokémon Attaquant.",
-			es: "Si este Pokémon está en el Puesto Activo y resulta dañado por un ataque de los Pokémon de tu rival (incluso si este Pokémon queda Fuera de Combate), pon 3 contadores de daño en el Pokémon Atacante.",
-			it: "Se questo Pokémon è in posizione attiva e viene danneggiato da un attacco di un Pokémon del tuo avversario, anche se viene messo KO, metti tre segnalini danno sul Pokémon attaccante.",
-			pt: "Se este Pokémon estiver no Campo Ativo e for danificado por um ataque dos Pokémon do seu oponente (mesmo que este Pokémon seja Nocauteado), coloque 3 contadores de dano no Pokémon Atacante.",
-			de: "Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 3 Schadensmarken auf das Angreifende Pokémon."
+			'en-us': "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking Pokémon.",
+			'fr-fr': "Si ce Pokémon est sur le Poste Actif et qu'il subit les dégâts d'une attaque d'un Pokémon de votre adversaire (même si ce Pokémon est mis K.O.), placez 3 marqueurs de dégâts sur le Pokémon Attaquant.",
+			'es-es': "Si este Pokémon está en el Puesto Activo y resulta dañado por un ataque de los Pokémon de tu rival (incluso si este Pokémon queda Fuera de Combate), pon 3 contadores de daño en el Pokémon Atacante.",
+			'it-it': "Se questo Pokémon è in posizione attiva e viene danneggiato da un attacco di un Pokémon del tuo avversario, anche se viene messo KO, metti tre segnalini danno sul Pokémon attaccante.",
+			'pt-br': "Se este Pokémon estiver no Campo Ativo e for danificado por um ataque dos Pokémon do seu oponente (mesmo que este Pokémon seja Nocauteado), coloque 3 contadores de dano no Pokémon Atacante.",
+			'de-de': "Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 3 Schadensmarken auf das Angreifende Pokémon."
 		}
 	}],
 
@@ -52,12 +52,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Spike Shot",
-			fr: "Tir d'Épines",
-			es: "Disparo Púas",
-			it: "Sparaculeo",
-			pt: "Disparo de Espinhos",
-			de: "Dornensalve"
+			'en-us': "Spike Shot",
+			'fr-fr': "Tir d'Épines",
+			'es-es': "Disparo Púas",
+			'it-it': "Sparaculeo",
+			'pt-br': "Disparo de Espinhos",
+			'de-de': "Dornensalve"
 		},
 
 		damage: 110
@@ -84,7 +84,7 @@ const card: Card = {
 	illustrator: "DOM",
 
 	description: {
-		en: "Packs of them follow travelers through the desert until the travelers can no longer move.",
+		'en-us': "Packs of them follow travelers through the desert until the travelers can no longer move.",
 	},
 
 	thirdParty: {

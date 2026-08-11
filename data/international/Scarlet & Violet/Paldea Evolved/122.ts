@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Amassel",
-		en: "Naclstack",
-		es: "Naclstack",
-		it: "Naclstack",
-		pt: "Naclstack",
-		de: "Sedisal"
+		'fr-fr': "Amassel",
+		'en-us': "Naclstack",
+		'es-es': "Naclstack",
+		'it-it': "Naclstack",
+		'pt-br': "Naclstack",
+		'de-de': "Sedisal"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Fighting"],
 	evolveFrom: {
-		fr: "Selutin",
-		en: "Nacli",
-		es: "Nacli",
-		it: "Nacli",
-		pt: "Nacli",
-		de: "Geosali"
+		'fr-fr': "Selutin",
+		'en-us': "Nacli",
+		'es-es': "Nacli",
+		'it-it': "Nacli",
+		'pt-br': "Nacli",
+		'de-de': "Geosali"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			fr: "Canon à Sel",
-			en: "Salt Cannon",
-			es: "Cañón de Sal",
-			it: "Cannone Sparasale",
-			pt: "Canhão de Sal",
-			de: "Salzkanone"
+			'fr-fr': "Canon à Sel",
+			'en-us': "Salt Cannon",
+			'es-es': "Cañón de Sal",
+			'it-it': "Cannone Sparasale",
+			'pt-br': "Canhão de Sal",
+			'de-de': "Salzkanone"
 		},
 
 		effect: {
-			fr: "Lancez 3 pièces. Cette attaque inflige 60 dégâts pour chaque côté face.",
-			en: "Flip 3 coins. This attack does 60 damage for each heads.",
-			es: "Lanza 3 monedas. Este ataque hace 60 puntos de daño por cada cara.",
-			it: "Lancia tre volte una moneta. Questo attacco infligge 60 danni ogni volta che esce testa.",
-			pt: "Jogue 3 moedas. Este ataque causa 60 pontos de dano para cada cara.",
-			de: "Wirf 3 Münzen. Diese Attacke fügt 60 Schadenspunkte pro Kopf zu."
+			'fr-fr': "Lancez 3 pièces. Cette attaque inflige 60 dégâts pour chaque côté face.",
+			'en-us': "Flip 3 coins. This attack does 60 damage for each heads.",
+			'es-es': "Lanza 3 monedas. Este ataque hace 60 puntos de daño por cada cara.",
+			'it-it': "Lancia tre volte una moneta. Questo attacco infligge 60 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 3 moedas. Este ataque causa 60 pontos de dano para cada cara.",
+			'de-de': "Wirf 3 Münzen. Diese Attacke fügt 60 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "60×"
@@ -83,7 +83,7 @@ const card: Card = {
 	illustrator: "GIDORA",
 
 	description: {
-		en: "This Pokémon dry cures its prey by spraying salt over them. The curing process steals away the water in the prey's body.",
+		'en-us': "This Pokémon dry cures its prey by spraying salt over them. The curing process steals away the water in the prey's body.",
 	},
 }
 

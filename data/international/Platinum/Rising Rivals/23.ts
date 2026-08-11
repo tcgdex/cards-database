@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Golem E4",
-		fr: "Grolem  Niv. 52",
-		de: "Geowaz 4"
+		'en-us': "Golem E4",
+		'fr-fr': "Grolem  Niv. 52",
+		'de-de': "Geowaz 4"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rage",
-				fr: "Frénésie",
-				de: "Raserei"
+				'en-us': "Rage",
+				'fr-fr': "Frénésie",
+				'de-de': "Raserei"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each damage counter on Golem GL.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Grolem ",
-				de: "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Geowaz 4 zu."
+				'en-us': "Does 20 damage plus 10 more damage for each damage counter on Golem GL.",
+				'fr-fr': "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Grolem ",
+				'de-de': "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Geowaz 4 zu."
 			},
 			damage: "20+",
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-edge",
-				fr: "Damoclès",
-				de: "Risikotackle"
+				'en-us': "Double-edge",
+				'fr-fr': "Damoclès",
+				'de-de': "Risikotackle"
 			},
 			effect: {
-				en: "Golem E4 does 60 damage to itself.",
-				fr: "Grolem  s'inflige 60 dégâts.",
-				de: "Geowaz 4 fügt sich selbst 60 Schadenspunkte zu."
+				'en-us': "Golem E4 does 60 damage to itself.",
+				'fr-fr': "Grolem  s'inflige 60 dégâts.",
+				'de-de': "Geowaz 4 fügt sich selbst 60 Schadenspunkte zu."
 			},
 			damage: 100,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オトシドリ",
+		'ja-jp': "オトシドリ",
 	},
 
 	illustrator: "Aya Kusube",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "胸元の 袋で エサを 包み 巣に 持ち帰る。 大きな 音の するものを 落として 喜ぶ。",
+		'ja-jp': "胸元の 袋で エサを 包み 巣に 持ち帰る。 大きな 音の するものを 落として 喜ぶ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "このポケモンにも20ダメージ。",
+				'ja-jp': "このポケモンにも20ダメージ。",
 			},
 		},
 	],

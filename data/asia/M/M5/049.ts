@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マーイーカ",
+		'ja-jp': "マーイーカ",
 	},
 
 	illustrator: "Yuriko Akase",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "光の 点滅で 襲ってきた 敵の 戦意を なくしてしまう。 その 隙に 姿を くらますのだ。",
+		'ja-jp': "光の 点滅で 襲ってきた 敵の 戦意を なくしてしまう。 その 隙に 姿を くらますのだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ちょうたつ" },
 			cost: ["Darkness"],
 			effect: {
-				ja: "自分の山札からグッズを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札からグッズを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 		{

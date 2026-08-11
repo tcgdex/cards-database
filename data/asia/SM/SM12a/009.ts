@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジュプトル",
+		'ja-jp': "ジュプトル",
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "密林に 生息する。 枝から 枝へ 飛び移りながら 移動して 獲物に 接近する。",
+		'ja-jp': "密林に 生息する。 枝から 枝へ 飛び移りながら 移動して 獲物に 接近する。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "たいようのめぐみ" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札にある[草]ポケモンを1枚、相手に見せてから、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の番に1回使える。自分の山札にある[草]ポケモンを1枚、相手に見せてから、手札に加える。そして山札を切る。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "キモリ",
+		'ja-jp': "キモリ",
 	},
 
 	retreat: 2,

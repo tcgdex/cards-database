@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Stantler",
-		fr: "Cerfrousse",
-		es: "Stantler",
-		it: "Stantler",
-		pt: "Stantler",
-		de: "Damhirplex"
+		'en-us': "Stantler",
+		'fr-fr': "Cerfrousse",
+		'es-es': "Stantler",
+		'it-it': "Stantler",
+		'pt-br': "Stantler",
+		'de-de': "Damhirplex"
 	},
 
 	illustrator: "Midori Harada",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mystifying Horns",
-				fr: "Mysti-Cornes",
-				es: "Cuernos Desconcertantes",
-				it: "Falsecorna",
-				pt: "Chifres da Mistificação",
-				de: "Mystik-Hörner"
+				'en-us': "Mystifying Horns",
+				'fr-fr': "Mysti-Cornes",
+				'es-es': "Cuernos Desconcertantes",
+				'it-it': "Falsecorna",
+				'pt-br': "Chifres da Mistificação",
+				'de-de': "Mystik-Hörner"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent’s Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 
 		},
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Enhanced Horns",
-				fr: "Cornes Améliorées",
-				es: "Cuernos Mejorados",
-				it: "Supercorna",
-				pt: "Chifres Acentuados",
-				de: "Spezial-Hörner"
+				'en-us': "Enhanced Horns",
+				'fr-fr': "Cornes Améliorées",
+				'es-es': "Cuernos Mejorados",
+				'it-it': "Supercorna",
+				'pt-br': "Chifres Acentuados",
+				'de-de': "Spezial-Hörner"
 			},
 			effect: {
-				en: "If this Pokémon has a Pokémon Tool card attached to it, this attack does 60 more damage.",
-				fr: "Si une carte Outil Pokémon est attachée à ce Pokémon, cette attaque inflige 60 dégâts supplémentaires.",
-				es: "Si este Pokémon tiene 1 carta de Herramienta Pokémon unida a él, este ataque hace 60 puntos de daño más.",
-				it: "Se questo Pokémon ha una carta Oggetto Pokémon assegnata, questo attacco infligge 60 danni in più.",
-				pt: "Se este Pokémon tiver uma carta de Ferramenta Pokémon ligada a ele, este ataque causará 60 pontos de dano a mais.",
-				de: "Wenn an dieses Pokémon eine Pokémon-Ausrüstung angelegt ist, fügt diese Attacke 60 Schadenspunkte mehr zu."
+				'en-us': "If this Pokémon has a Pokémon Tool card attached to it, this attack does 60 more damage.",
+				'fr-fr': "Si une carte Outil Pokémon est attachée à ce Pokémon, cette attaque inflige 60 dégâts supplémentaires.",
+				'es-es': "Si este Pokémon tiene 1 carta de Herramienta Pokémon unida a él, este ataque hace 60 puntos de daño más.",
+				'it-it': "Se questo Pokémon ha una carta Oggetto Pokémon assegnata, questo attacco infligge 60 danni in più.",
+				'pt-br': "Se este Pokémon tiver uma carta de Ferramenta Pokémon ligada a ele, este ataque causará 60 pontos de dano a mais.",
+				'de-de': "Wenn an dieses Pokémon eine Pokémon-Ausrüstung angelegt ist, fügt diese Attacke 60 Schadenspunkte mehr zu."
 			},
 			damage: "20+",
 
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The curved antlers change the flow of air to create a strange space where reality is distorted.",
+		'en-us': "The curved antlers change the flow of air to create a strange space where reality is distorted.",
 	},
 
 	thirdParty: {

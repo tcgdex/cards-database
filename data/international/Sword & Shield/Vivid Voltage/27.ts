@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [218],
 
 	name: {
-		en: "Slugma",
-		fr: "Limagma",
-		es: "Slugma",
-		it: "Slugma",
-		pt: "Slugma",
-		de: "Schneckmag"
+		'en-us': "Slugma",
+		'fr-fr': "Limagma",
+		'es-es': "Slugma",
+		'it-it': "Slugma",
+		'pt-br': "Slugma",
+		'de-de': "Schneckmag"
 	},
 
 	illustrator: "Mina Nakai",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Yawn",
-				fr: "Bâillement",
-				es: "Bostezo",
-				it: "Sbadiglio",
-				pt: "Bocejo",
-				de: "Gähner"
+				'en-us': "Yawn",
+				'fr-fr': "Bâillement",
+				'es-es': "Bostezo",
+				'it-it': "Sbadiglio",
+				'pt-br': "Bocejo",
+				'de-de': "Gähner"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent's Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 
 		},
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare",
-				fr: "Flamboiement",
-				es: "Llama",
-				it: "Fiammata",
-				pt: "Chama",
-				de: "Flackern"
+				'en-us': "Flare",
+				'fr-fr': "Flamboiement",
+				'es-es': "Llama",
+				'it-it': "Fiammata",
+				'pt-br': "Chama",
+				'de-de': "Flackern"
 			},
 
 			damage: 30,
@@ -80,7 +80,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its body is made of magma. If it doesn't keep moving, its body will cool and harden."
+		'en-us': "Its body is made of magma. If it doesn't keep moving, its body will cool and harden."
 	},
 
 	variants: [

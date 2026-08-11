@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヌメイル",
+		'ja-jp': "ヌメイル",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "餌と 仲間の 区別が 曖昧。 仲良くなっても 平気で 溶かして 喰らおうと してくることが ある。",
+		'ja-jp': "餌と 仲間の 区別が 曖昧。 仲良くなっても 平気で 溶かして 喰らおうと してくることが ある。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ぶんれつ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある「ヌメイル」を2枚まで、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札にある「ヌメイル」を2枚まで、ベンチに出す。そして山札を切る。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヌメラ",
+		'ja-jp': "ヌメラ",
 	},
 
 	retreat: 3,

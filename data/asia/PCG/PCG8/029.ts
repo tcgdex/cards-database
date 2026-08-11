@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ペリッパー（デルタ種）",
+		'ja-jp': "ペリッパー（デルタ種）",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "デルタ輸送",
+				'ja-jp': "デルタ輸送",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前）に、ペリッパーがベンチにある場合、1枚のベンチポカモンでカードにあるアクティブなポカモンの1つを切り替えることができます。",
+				'ja-jp': "ターン中（攻撃の前）に、ペリッパーがベンチにある場合、1枚のベンチポカモンでカードにあるアクティブなポカモンの1つを切り替えることができます。",
 			},
 		}],
 
@@ -29,17 +29,17 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "超音速",
+				'ja-jp': "超音速",
 			},
 			effect: {
-				ja: "防御ポケモンは今混乱しています。",
+				'ja-jp': "防御ポケモンは今混乱しています。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "翼攻撃",
+				'ja-jp': "翼攻撃",
 			},
 			damage: 40,
 		},

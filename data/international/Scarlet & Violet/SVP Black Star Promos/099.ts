@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shroodle",
-		fr: "Gribouraigne",
-		es: "Shroodle",
-		it: "Shroodle",
-		pt: "Shroodle",
-		de: "Sproxi"
+		'en-us': "Shroodle",
+		'fr-fr': "Gribouraigne",
+		'es-es': "Shroodle",
+		'it-it': "Shroodle",
+		'pt-br': "Shroodle",
+		'de-de': "Sproxi"
 	},
 
 	rarity: "Promo",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Scratch",
-			fr: "Griffe",
-			es: "Arañazo",
-			it: "Graffio",
-			pt: "Arranhão",
-			de: "Kratzer"
+			'en-us': "Scratch",
+			'fr-fr': "Griffe",
+			'es-es': "Arañazo",
+			'it-it': "Graffio",
+			'pt-br': "Arranhão",
+			'de-de': "Kratzer"
 		},
 
 		damage: 10
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Toxic Teeth",
-			fr: "Dents Toxiques",
-			es: "Incisivos Tóxicos",
-			it: "Denti Tossici",
-			pt: "Dentes Tóxicos",
-			de: "Giftige Schneidezähne"
+			'en-us': "Toxic Teeth",
+			'fr-fr': "Dents Toxiques",
+			'es-es': "Incisivos Tóxicos",
+			'it-it': "Denti Tossici",
+			'pt-br': "Dentes Tóxicos",
+			'de-de': "Giftige Schneidezähne"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		},
 
 		damage: 20
@@ -67,7 +67,7 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "Hitoshi Ariga",
 	description: {
-		en: "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.",
+		'en-us': "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.",
 	},
 	variants: [
 		{

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミュウツー&ミュウGX",
+		'ja-jp': "ミュウツー&ミュウGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "パーフェクション" },
 			effect: {
-				ja: "このポケモンは、自分のベンチまたはトラッシュにある「ポケモンGX・EX」が持っているワザを、すべて使える。［ワザを使うためのエネルギーは必要。］",
+				'ja-jp': "このポケモンは、自分のベンチまたはトラッシュにある「ポケモンGX・EX」が持っているワザを、すべて使える。［ワザを使うためのエネルギーは必要。］",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Psychic", "Psychic", "Colorless"],
 			effect: {
-				ja: "追加でエネルギーが1個ついているなら、自分のポケモン全員のHPを、すべて回復する。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "追加でエネルギーが1個ついているなら、自分のポケモン全員のHPを、すべて回復する。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

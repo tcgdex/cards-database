@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Eevee",
-		fr: "Evoli",
-		de: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Evoli",
+		'de-de': "Evoli"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Signs of Evolution",
-				fr: "Signes d'Évolution",
-				de: "Signs of Evolution"
+				'en-us': "Signs of Evolution",
+				'fr-fr': "Signes d'Évolution",
+				'de-de': "Signs of Evolution"
 			},
 			effect: {
-				en: "Search your deck for up to 3 cards that evolve from Eevee, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck jusqu'à trois cartes qui évoluent d'Evoli, montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck.",
-				de: "Search your deck for up to 3 cards that evolve from Eevee, show them to your opponent, and put them into your hand. Shuffle your deck afterward."
+				'en-us': "Search your deck for up to 3 cards that evolve from Eevee, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck jusqu'à trois cartes qui évoluent d'Evoli, montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck.",
+				'de-de': "Search your deck for up to 3 cards that evolve from Eevee, show them to your opponent, and put them into your hand. Shuffle your deck afterward."
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-attaque",
-				de: "Quick Attack"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-attaque",
+				'de-de': "Quick Attack"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts.",
-				de: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts.",
+				'de-de': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
 			},
 			damage: "10+",
 

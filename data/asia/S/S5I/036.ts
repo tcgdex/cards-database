@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S5I";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "いちげきウーラオスV",
+		'ja-jp': "いちげきウーラオスV",
 		'zh-tw': "一擊武道熊師V",
 	},
 
@@ -18,24 +18,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "とぎすます",
+				'ja-jp': "とぎすます",
 				'zh-tw': "磨礪",
 			},
 			cost: ["Fighting"],
 			effect: {
-				ja: "自分の山札から[闘]エネルギーを2枚まで選び、このポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から[闘]エネルギーを2枚まで選び、このポケモンにつける。そして山札を切る。",
 				'zh-tw': "從自己的牌庫選擇最多2張【鬥】能量卡，附於這隻寶可夢身上。並且重洗牌庫。",
 			},
 		},
 		{
 			name: {
-				ja: "インパクトブロー",
+				'ja-jp': "インパクトブロー",
 				'zh-tw': "衝擊打擊",
 			},
 			damage: 180,
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「インパクトブロー」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「インパクトブロー」が使えない。",
 				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用「衝擊打擊」。",
 			},
 		},

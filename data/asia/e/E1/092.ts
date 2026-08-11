@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "恐れて",
+		'ja-jp': "恐れて",
 	},
 
 	rarity: "Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "クラッチ",
+				'ja-jp': "クラッチ",
 			},
 			effect: {
-				ja: "防御するポケモンは、相手の次のターン中に退却することはできません。",
+				'ja-jp': "防御するポケモンは、相手の次のターン中に退却することはできません。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "超音速飛行",
+				'ja-jp': "超音速飛行",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
 			},
 			damage: 50,
 		},

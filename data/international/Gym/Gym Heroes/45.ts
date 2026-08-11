@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Gloom"
+		'en-us': "Erika's Gloom"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Oddish"
+		'en-us': "Oddish"
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Healing Pollen"
+				'en-us': "Healing Pollen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, remove 4 damage counters from Erika's Gloom. If Erika's Gloom has fewer damage counters than that, remove all of them."
+				'en-us': "Flip a coin. If heads, remove 4 damage counters from Erika's Gloom. If Erika's Gloom has fewer damage counters than that, remove all of them."
 			},
 
 		},
@@ -45,10 +45,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Magic Pollen"
+				'en-us': "Magic Pollen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep, Confused, Paralyzed, or Poisoned (your choice)."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep, Confused, Paralyzed, or Poisoned (your choice)."
 			},
 
 		},

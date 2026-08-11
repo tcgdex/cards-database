@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Arcanine",
-		fr: "Arcanin",
-		de: "Arkani"
+		'en-us': "Arcanine",
+		'fr-fr': "Arcanin",
+		'de-de': "Arkani"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Growlithe",
-		fr: "Caninos"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Extreme Speed",
-				fr: "Vitesse extrême",
-				de: "Extreme Speed"
+				'en-us': "Extreme Speed",
+				'fr-fr': "Vitesse extrême",
+				'de-de': "Extreme Speed"
 			},
 			effect: {
-				en: "You pay Colorless less to retreat Arcanine for each Energy attached to it.",
-				fr: "Vous payez  de moins pour faire battre Arcanin en retraite pour chaque Énergie qui lui est attachée.",
-				de: "You pay  less to retreat Arcanine for each Energy attached to it."
+				'en-us': "You pay Colorless less to retreat Arcanine for each Energy attached to it.",
+				'fr-fr': "Vous payez  de moins pour faire battre Arcanin en retraite pour chaque Énergie qui lui est attachée.",
+				'de-de': "You pay  less to retreat Arcanine for each Energy attached to it."
 			}
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Blow",
-				fr: "Coud'flammes",
-				de: "Fire Blow"
+				'en-us': "Fire Blow",
+				'fr-fr': "Coud'flammes",
+				'de-de': "Fire Blow"
 			},
 			effect: {
-				en: "You may discard any number of Fire Energy cards attached to Arcanine when you use this attack. If you do, flip a number of coins equal to the number of Fire Energy cards you discarded. This attack does 30 damage plus 30 more damage for each heads.",
-				fr: "Vous pouvez vous défausser d'autant de cartes Énergie  attachées à Arcanin que vous le désirez. Si vous le faites, lancez un nombre de pièces égal au nombre de cartes Énergie  dont vous vous êtes défaussé. Cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires pour chaque face.",
-				de: "You may discard any number of  Energy cards attached to Arcanine when you use this attack. If you do, flip a number of coins equal to the number of  Energy cards you discarded. This attack does 30 damage plus 30 more damage for each heads."
+				'en-us': "You may discard any number of Fire Energy cards attached to Arcanine when you use this attack. If you do, flip a number of coins equal to the number of Fire Energy cards you discarded. This attack does 30 damage plus 30 more damage for each heads.",
+				'fr-fr': "Vous pouvez vous défausser d'autant de cartes Énergie  attachées à Arcanin que vous le désirez. Si vous le faites, lancez un nombre de pièces égal au nombre de cartes Énergie  dont vous vous êtes défaussé. Cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires pour chaque face.",
+				'de-de': "You may discard any number of  Energy cards attached to Arcanine when you use this attack. If you do, flip a number of coins equal to the number of  Energy cards you discarded. This attack does 30 damage plus 30 more damage for each heads."
 			},
 			damage: "30+",
 

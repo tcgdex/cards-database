@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ペンドラー",
+		'ja-jp': "ペンドラー",
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "獲物を 首のツメで 挟みこみ 身動きを とれなくしてから 猛毒を 与え とどめを 刺す。",
+		'ja-jp': "獲物を 首のツメで 挟みこみ 身動きを とれなくしてから 猛毒を 与え とどめを 刺す。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Psychic", "Psychic", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 140,
 			cost: ["Psychic", "Psychic", "Psychic", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ホイーガ",
+		'ja-jp': "ホイーガ",
 	},
 
 	retreat: 4,

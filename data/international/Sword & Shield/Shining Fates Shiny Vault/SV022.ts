@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Suicune",
-		en: "Suicune",
-		es: "Suicune",
-		it: "Suicune",
-		pt: "Suicune",
-		de: "Suicune"
+		'fr-fr': "Suicune",
+		'en-us': "Suicune",
+		'es-es': "Suicune",
+		'it-it': "Suicune",
+		'pt-br': "Suicune",
+		'de-de': "Suicune"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,33 +22,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Grosse Vague",
-			en: "Wave Splash",
-			es: "Chapoteo Ondulante",
-			it: "Schizzi d'Onda",
-			pt: "Onda Borrifante",
-			de: "Wellenplatscher"
+			'fr-fr': "Grosse Vague",
+			'en-us': "Wave Splash",
+			'es-es': "Chapoteo Ondulante",
+			'it-it': "Schizzi d'Onda",
+			'pt-br': "Onda Borrifante",
+			'de-de': "Wellenplatscher"
 		},
 
 		damage: 20,
 		cost: ["Water"]
 	}, {
 		name: {
-			fr: "Boucle Aurore",
-			en: "Aurora Loop",
-			es: "Bucle Aurora",
-			it: "Circuito Aurora",
-			pt: "Loop da Aurora",
-			de: "Auroraschleife"
+			'fr-fr': "Boucle Aurore",
+			'en-us': "Aurora Loop",
+			'es-es': "Bucle Aurora",
+			'it-it': "Circuito Aurora",
+			'pt-br': "Loop da Aurora",
+			'de-de': "Auroraschleife"
 		},
 
 		effect: {
-			fr: "Ajoutez à votre main 2 Énergies Water attachées à ce Pokémon.",
-			en: "Put 2 Water Energy attached to this Pokémon into your hand.",
-			es: "Pon 2 Energías Water unidas a este Pokémon en tu mano.",
-			it: "Prendi due Energie Water assegnate a questo Pokémon e aggiungile alle carte che hai in mano.",
-			pt: "Coloque 2 Energias Water ligadas a este Pokémon na sua mão.",
-			de: "Nimm 2 an dieses Pokémon angelegte Water-Energien auf deine Hand."
+			'fr-fr': "Ajoutez à votre main 2 Énergies Water attachées à ce Pokémon.",
+			'en-us': "Put 2 Water Energy attached to this Pokémon into your hand.",
+			'es-es': "Pon 2 Energías Water unidas a este Pokémon en tu mano.",
+			'it-it': "Prendi due Energie Water assegnate a questo Pokémon e aggiungile alle carte che hai in mano.",
+			'pt-br': "Coloque 2 Energias Water ligadas a este Pokémon na sua mão.",
+			'de-de': "Nimm 2 an dieses Pokémon angelegte Water-Energien auf deine Hand."
 		},
 
 		damage: 130,
@@ -65,7 +65,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Said to be the embodiment of north winds, it can instantly purify filthy, murky water."
+		'en-us': "Said to be the embodiment of north winds, it can instantly purify filthy, murky water."
 	},
 
 	variants: [

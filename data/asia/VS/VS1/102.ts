@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ランスのキングドラ",
+		'ja-jp': "ランスのキングドラ",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ヘッドバット",
+				'ja-jp': "ヘッドバット",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Water", "Water", "Colorless"],
 			name: {
-				ja: "アクアウェーブ",
+				'ja-jp': "アクアウェーブ",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は20のダメージに加えて、各ヘッドに対して20のダメージをさらに発生させます。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は20のダメージに加えて、各ヘッドに対して20のダメージをさらに発生させます。",
 			},
 		},
 	],

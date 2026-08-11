@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Dark Tyranitar",
-		fr: "Tyranocif obscur",
-		de: "Dunkles Despotar"
+		'en-us': "Dark Tyranitar",
+		'fr-fr': "Tyranocif obscur",
+		'de-de': "Dunkles Despotar"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pupitar",
-		fr: "Ymphect obscur"
+		'en-us': "Pupitar",
+		'fr-fr': "Ymphect obscur"
 	},
 
 	stage: "Stage2",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mountain Smasher",
-				fr: "Casse-montagne",
-				de: "Mountain Smasher"
+				'en-us': "Mountain Smasher",
+				'fr-fr': "Casse-montagne",
+				'de-de': "Mountain Smasher"
 			},
 			effect: {
-				en: "Flip a number of coins equal to the number of Energy cards attached to Dark Tyranitar. This attack does 20 damage times the number of heads. Then, for each heads, discard the top card from your opponent's deck.",
-				fr: "Lancez un nombre de pièces égal au nombre de cartes Énergie  attachées à Tyranocif obscur. Cette attaque inflige 20 dégâts multipliés par le nombre de faces. Puis, pour chaque face, défaussez-vous de la carte du dessus du deck de votre adversaire.",
-				de: "Flip a number of coins equal to the number of  Energy cards attached to Dark Tyranitar. This attack does 20 damage times the number of heads. Then, for each heads, discard the top card from your opponent's deck."
+				'en-us': "Flip a number of coins equal to the number of Energy cards attached to Dark Tyranitar. This attack does 20 damage times the number of heads. Then, for each heads, discard the top card from your opponent's deck.",
+				'fr-fr': "Lancez un nombre de pièces égal au nombre de cartes Énergie  attachées à Tyranocif obscur. Cette attaque inflige 20 dégâts multipliés par le nombre de faces. Puis, pour chaque face, défaussez-vous de la carte du dessus du deck de votre adversaire.",
+				'de-de': "Flip a number of coins equal to the number of  Energy cards attached to Dark Tyranitar. This attack does 20 damage times the number of heads. Then, for each heads, discard the top card from your opponent's deck."
 			},
 			damage: "20x",
 
@@ -57,15 +57,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Fling Away",
-				fr: "Catapulte",
-				de: "Fling Away"
+				'en-us': "Fling Away",
+				'fr-fr': "Catapulte",
+				'de-de': "Fling Away"
 			},
 
 			effect: {
-				en: "If your opponent has any Benched Pokémon, this attack does 30 damage instead of 50 and choose 1 of those Benched Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Si votre adversaire a des Pokémon sur son Banc, cette attaque inflige 30 dégâts au lieu de 50 et vous choisissez un des Pokémon de son Banc. Cette attaque inflige 30 dégâts à ce Pokémon. (N'appliquez pas la Faiblesse et la Résistance pour les Pokémon du Banc.)",
-				de: "If your opponent has any Benched Pokémon, this attack does 30 damage instead of 50 and choose 1 of those Benched Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "If your opponent has any Benched Pokémon, this attack does 30 damage instead of 50 and choose 1 of those Benched Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Si votre adversaire a des Pokémon sur son Banc, cette attaque inflige 30 dégâts au lieu de 50 et vous choisissez un des Pokémon de son Banc. Cette attaque inflige 30 dégâts à ce Pokémon. (N'appliquez pas la Faiblesse et la Résistance pour les Pokémon du Banc.)",
+				'de-de': "If your opponent has any Benched Pokémon, this attack does 30 damage instead of 50 and choose 1 of those Benched Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 			damage: 50
@@ -89,8 +89,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its power is such that not even mountains can stand in its way.",
-		fr: "Sa puissance est telle que même les montagnes ne lui résistent pas."
+		'en-us': "Its power is such that not even mountains can stand in its way.",
+		'fr-fr': "Sa puissance est telle que même les montagnes ne lui résistent pas."
 	},
 
 

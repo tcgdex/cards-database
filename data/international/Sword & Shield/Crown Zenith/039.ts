@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shinx",
-		fr: "Lixy",
-		es: "Shinx",
-		it: "Shinx",
-		pt: "Shinx",
-		de: "Sheinux"
+		'en-us': "Shinx",
+		'fr-fr': "Lixy",
+		'es-es': "Shinx",
+		'it-it': "Shinx",
+		'pt-br': "Shinx",
+		'de-de': "Sheinux"
 	},
 
 	illustrator: "Mina Nakai",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Rear Kick",
-			fr: "Ruade",
-			es: "Patada Trasera",
-			it: "Retrocalcio",
-			pt: "Chute Traseiro",
-			de: "Rückwärtskick"
+			'en-us': "Rear Kick",
+			'fr-fr': "Ruade",
+			'es-es': "Patada Trasera",
+			'it-it': "Retrocalcio",
+			'pt-br': "Chute Traseiro",
+			'de-de': "Rückwärtskick"
 		},
 
 		damage: 20
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
+		'en-us': "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
 	},
 
 	

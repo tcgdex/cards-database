@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コマタナ",
+		'ja-jp': "コマタナ",
 		'zh-tw': "駒刀小兵",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "鋭い 刃を 操り 敵を 追い詰める。 河原の 石で 体の 刃を 手入れする。",
+		'ja-jp': "鋭い 刃を 操り 敵を 追い詰める。 河原の 石で 体の 刃を 手入れする。",
 		'zh-tw': "揮舞銳利的刀刃將敵人逼向絕境。會用河灘的石頭來精心保養刀刃。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "つきさす",
+				'ja-jp': "つきさす",
 				'zh-tw': "突刺",
 			},
 			damage: 20,

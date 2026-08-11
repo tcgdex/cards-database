@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Giovanni's Meowth"
+		'en-us': "Giovanni's Meowth"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "False Charity"
+				'en-us': "False Charity"
 			},
 			effect: {
-				en: "Flip a coin. If heads, look at the top card of your opponent's deck. If it's a Trainer card, put it in your opponent's discard pile; otherwise, put it into his or her hand."
+				'en-us': "Flip a coin. If heads, look at the top card of your opponent's deck. If it's a Trainer card, put it in your opponent's discard pile; otherwise, put it into his or her hand."
 			},
 
 		},
@@ -40,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Scratch"
+				'en-us': "Double Scratch"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads."
 			},
 			damage: "20x",
 

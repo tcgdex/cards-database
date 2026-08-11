@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "N's Reshiram",
-		fr: "Reshiram de N",
-		es: "Reshiram de N",
-		de: "Ns Reshiram",
-		it: "Reshiram di N",
-		pt: "Reshiram do N",
+		'en-us': "N's Reshiram",
+		'fr-fr': "Reshiram de N",
+		'es-es': "Reshiram de N",
+		'de-de': "Ns Reshiram",
+		'it-it': "Reshiram di N",
+		'pt-br': "Reshiram do N",
 		'es-mx': "Reshiram de N"
 	},
 
@@ -25,22 +25,22 @@ const card: Card = {
 		cost: ["Fire", "Lightning"],
 
 		name: {
-			en: "Powerful Rage",
-			fr: "Rage Massive",
-			es: "Ira Recia",
-			de: "Mächtige Wut",
-			it: "Forzafuria",
-			pt: "Ira Poderosa",
+			'en-us': "Powerful Rage",
+			'fr-fr': "Rage Massive",
+			'es-es': "Ira Recia",
+			'de-de': "Mächtige Wut",
+			'it-it': "Forzafuria",
+			'pt-br': "Ira Poderosa",
 			'es-mx': "Furia Dominante"
 		},
 
 		effect: {
-			en: "This attack does 20 damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
-			es: "Este ataque hace 20 puntos de daño por cada contador de daño en este Pokémon.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 20 Schadenspunkte zu.",
-			it: "Questo attacco infligge 20 danni per ogni segnalino danno presente su questo Pokémon.",
-			pt: "Este ataque causa 20 pontos de dano para cada contador de dano neste Pokémon.",
+			'en-us': "This attack does 20 damage for each damage counter on this Pokémon.",
+			'fr-fr': "Cette attaque inflige 20 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
+			'es-es': "Este ataque hace 20 puntos de daño por cada contador de daño en este Pokémon.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 20 Schadenspunkte zu.",
+			'it-it': "Questo attacco infligge 20 danni per ogni segnalino danno presente su questo Pokémon.",
+			'pt-br': "Este ataque causa 20 pontos de dano para cada contador de dano neste Pokémon.",
 			'es-mx': "Este ataque hace 20 puntos de daño por cada contador de daño en este Pokémon."
 		},
 
@@ -49,12 +49,12 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Lightning", "Colorless"],
 
 		name: {
-			en: "Virtuous Flame",
-			fr: "Flamme Vertueuse",
-			es: "Llama Virtuosa",
-			de: "Rechtschaffene Flamme",
-			it: "Fiamma Virtuosa",
-			pt: "Chama Inocente",
+			'en-us': "Virtuous Flame",
+			'fr-fr': "Flamme Vertueuse",
+			'es-es': "Llama Virtuosa",
+			'de-de': "Rechtschaffene Flamme",
+			'it-it': "Fiamma Virtuosa",
+			'pt-br': "Chama Inocente",
 			'es-mx': "Llama Virtuosa"
 		},
 

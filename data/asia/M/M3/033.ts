@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニャオニクス",
+		'ja-jp': "ニャオニクス",
 	},
 
 	illustrator: "Kannnu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "オスに 比べて すこし わがままで 攻撃的。 機嫌を 損ねると サイコパワーで 痛めつけられる。",
+		'ja-jp': "オスに 比べて すこし わがままで 攻撃的。 機嫌を 損ねると サイコパワーで 痛めつけられる。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "ニャスパー",
+		'ja-jp': "ニャスパー",
 	},
 
 	retreat: 1,

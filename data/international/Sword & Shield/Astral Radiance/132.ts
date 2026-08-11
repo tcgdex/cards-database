@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hisuian Braviary",
-		fr: "Gueriaigle de Hisui",
-		es: "Braviary de Hisui",
-		it: "Braviary di Hisui",
-		pt: "Braviary de Hisui",
-		de: "Hisui-Washakwil"
+		'en-us': "Hisuian Braviary",
+		'fr-fr': "Gueriaigle de Hisui",
+		'es-es': "Braviary de Hisui",
+		'it-it': "Braviary di Hisui",
+		'pt-br': "Braviary de Hisui",
+		'de-de': "Hisui-Washakwil"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -21,33 +21,33 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Rufflet",
-		fr: "Furaiglon",
-		es: "Rufflet",
-		it: "Rufflet",
-		pt: "Rufflet",
-		de: "Geronimatz"
+		'en-us': "Rufflet",
+		'fr-fr': "Furaiglon",
+		'es-es': "Rufflet",
+		'it-it': "Rufflet",
+		'pt-br': "Rufflet",
+		'de-de': "Geronimatz"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Psywave",
-			fr: "Vague Psy",
-			es: "Psicoonda",
-			it: "Psiconda",
-			pt: "Onda Psíquica",
-			de: "Psywelle"
+			'en-us': "Psywave",
+			'fr-fr': "Vague Psy",
+			'es-es': "Psicoonda",
+			'it-it': "Psiconda",
+			'pt-br': "Onda Psíquica",
+			'de-de': "Psywelle"
 		},
 
 		effect: {
-			en: "This attack does 30 damage for each Energy attached to your opponent's Active Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
-			es: "Este ataque hace 30 puntos de daño por cada Energía unida al Pokémon Activo de tu rival.",
-			it: "Questo attacco infligge 30 danni per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
-			pt: "Este ataque causa 30 pontos de dano para cada Energia ligada ao Pokémon Ativo do seu oponente.",
-			de: "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 30 Schadenspunkte zu."
+			'en-us': "This attack does 30 damage for each Energy attached to your opponent's Active Pokémon.",
+			'fr-fr': "Cette attaque inflige 30 dégâts pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
+			'es-es': "Este ataque hace 30 puntos de daño por cada Energía unida al Pokémon Activo de tu rival.",
+			'it-it': "Questo attacco infligge 30 danni per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
+			'pt-br': "Este ataque causa 30 pontos de dano para cada Energia ligada ao Pokémon Ativo do seu oponente.",
+			'de-de': "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 30 Schadenspunkte zu."
 		},
 
 		damage: "30×"
@@ -55,21 +55,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Slashing Strike",
-			fr: "Coup Déchirant",
-			es: "Golpe Cuchillazo",
-			it: "Lacerattacco",
-			pt: "Ataque Cortante",
-			de: "Schlitzender Schlag"
+			'en-us': "Slashing Strike",
+			'fr-fr': "Coup Déchirant",
+			'es-es': "Golpe Cuchillazo",
+			'it-it': "Lacerattacco",
+			'pt-br': "Ataque Cortante",
+			'de-de': "Schlitzender Schlag"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use Slashing Strike.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup Déchirant.",
-			es: "Durante tu próximo turno, este Pokémon no puede usar Golpe Cuchillazo.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Lacerattacco.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Ataque Cortante.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon Schlitzender Schlag nicht einsetzen."
+			'en-us': "During your next turn, this Pokémon can't use Slashing Strike.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup Déchirant.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede usar Golpe Cuchillazo.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Lacerattacco.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar Ataque Cortante.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon Schlitzender Schlag nicht einsetzen."
 		},
 
 		damage: 120
@@ -92,7 +92,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Screaming a bloodcurdling battle cry, this huge and ferocious bird Pokémon goes out on the hunt. It blasts lakes with shock waves, then scoops up any prey that float to the water's surface.",
+		'en-us': "Screaming a bloodcurdling battle cry, this huge and ferocious bird Pokémon goes out on the hunt. It blasts lakes with shock waves, then scoops up any prey that float to the water's surface.",
 	},
 
 	variants: [

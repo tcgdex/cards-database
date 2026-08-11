@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Cosmoem",
-		fr: "Cosmovum",
-		es: "Cosmoem",
-		it: "Cosmoem",
-		pt: "Cosmoem",
-		de: "Cosmovum"
+		'en-us': "Cosmoem",
+		'fr-fr': "Cosmovum",
+		'es-es': "Cosmoem",
+		'it-it': "Cosmoem",
+		'pt-br': "Cosmoem",
+		'de-de': "Cosmovum"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cosmog",
-		fr: "Cosmog",
+		'en-us': "Cosmog",
+		'fr-fr': "Cosmog",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nap",
-				fr: "Tit’Sieste",
-				es: "Siesta",
-				it: "Pausa",
-				pt: "Soneca",
-				de: "Nickerchen"
+				'en-us': "Nap",
+				'fr-fr': "Tit’Sieste",
+				'es-es': "Siesta",
+				'it-it': "Pausa",
+				'pt-br': "Soneca",
+				'de-de': "Nickerchen"
 			},
 			effect: {
-				en: "Heal 20 damage from this Pokémon.",
-				fr: "Soignez 20 dégâts à ce Pokémon.",
-				es: "Cura 20 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 20 danni.",
-				pt: "Cure 20 pontos de dano deste Pokémon.",
-				de: "Heile 20 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 20 damage from this Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à ce Pokémon.",
+				'es-es': "Cura 20 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 20 danni.",
+				'pt-br': "Cure 20 pontos de dano deste Pokémon.",
+				'de-de': "Heile 20 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "There's something accumulating around the black core within its hard shell. People think this Pokémon may come from another world.",
+		'en-us': "There's something accumulating around the black core within its hard shell. People think this Pokémon may come from another world.",
 	},
 
 	thirdParty: {

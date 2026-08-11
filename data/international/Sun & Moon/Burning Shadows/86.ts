@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Weavile",
-		fr: "Dimoret",
-		es: "Weavile",
-		it: "Weavile",
-		pt: "Weavile",
-		de: "Snibunna"
+		'en-us': "Weavile",
+		'fr-fr': "Dimoret",
+		'es-es': "Weavile",
+		'it-it': "Weavile",
+		'pt-br': "Weavile",
+		'de-de': "Snibunna"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sneasel",
-		fr: "Farfuret",
+		'en-us': "Sneasel",
+		'fr-fr': "Farfuret",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rule of Evil",
-				fr: "Règne Maléfique",
-				es: "Reino del Mal",
-				it: "Regno del Male",
-				pt: "Reinado do Mal",
-				de: "Herrschaft des Bösen"
+				'en-us': "Rule of Evil",
+				'fr-fr': "Règne Maléfique",
+				'es-es': "Reino del Mal",
+				'it-it': "Regno del Male",
+				'pt-br': "Reinado do Mal",
+				'de-de': "Herrschaft des Bösen"
 			},
 			effect: {
-				en: "This attack does 60 damage to each Pokémon that has an Ability (both yours and your opponent’s). (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 60 dégâts à chacun des Pokémon ayant un talent (les vôtres et ceux de votre adversaire). (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				es: "Este ataque hace 60 puntos de daño a cada Pokémon que tenga una habilidad (tanto tuyos como de tu rival). (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-				it: "Questo attacco infligge 60 danni a ogni Pokémon che abbia un’abilità, sia tuoi che del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
-				pt: "Este ataque causa 60 pontos de dano a cada um dos Pokémon que tiver uma Habilidade (seus e do seu oponente). (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
-				de: "Diese Attacke fügt jedem Pokémon (deinen und denen deines Gegners), das eine Fähigkeit hat, 60 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "This attack does 60 damage to each Pokémon that has an Ability (both yours and your opponent’s). (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 60 dégâts à chacun des Pokémon ayant un talent (les vôtres et ceux de votre adversaire). (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'es-es': "Este ataque hace 60 puntos de daño a cada Pokémon que tenga una habilidad (tanto tuyos como de tu rival). (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+				'it-it': "Questo attacco infligge 60 danni a ogni Pokémon che abbia un’abilità, sia tuoi che del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
+				'pt-br': "Este ataque causa 60 pontos de dano a cada um dos Pokémon que tiver uma Habilidade (seus e do seu oponente). (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
+				'de-de': "Diese Attacke fügt jedem Pokémon (deinen und denen deines Gegners), das eine Fähigkeit hat, 60 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				es: "Cuchillada",
-				it: "Lacerazione",
-				pt: "Talho",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'es-es': "Cuchillada",
+				'it-it': "Lacerazione",
+				'pt-br': "Talho",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 70,
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "They travel in groups of four or five, leaving signs for one another on trees and rocks. They bring down their prey with coordinated attacks.",
+		'en-us': "They travel in groups of four or five, leaving signs for one another on trees and rocks. They bring down their prey with coordinated attacks.",
 	},
 
 	thirdParty: {

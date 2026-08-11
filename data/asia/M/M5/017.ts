@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アシマリ",
+		'ja-jp': "アシマリ",
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "鼻で ふくらませる バルーンは 日々 練習を 重ねることで 少しずつ 大きく なっていく。",
+		'ja-jp': "鼻で ふくらませる バルーンは 日々 練習を 重ねることで 少しずつ 大きく なっていく。",
 	},
 
 	stage: "Basic",

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヘラクロス",
+		'ja-jp': "ヘラクロス",
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "ものすごい 怪力の 持ち主。 自分の 体重の １００倍の 重さでも 楽に ぶん投げる。",
+		'ja-jp': "ものすごい 怪力の 持ち主。 自分の 体重の １００倍の 重さでも 楽に ぶん投げる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 		{

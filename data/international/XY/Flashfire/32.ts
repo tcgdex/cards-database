@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Shinx",
-		fr: "Lixy",
-		es: "Shinx",
-		it: "Shinx",
-		pt: "Shinx",
-		de: "Sheinux"
+		'en-us': "Shinx",
+		'fr-fr': "Lixy",
+		'es-es': "Shinx",
+		'it-it': "Shinx",
+		'pt-br': "Shinx",
+		'de-de': "Sheinux"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Paralyzing Gaze",
-				fr: "Regard Paralysant",
-				es: "Mirada Paralizante",
-				it: "Sguardo Paralizzante",
-				pt: "Olhar Paralisante",
-				de: "Lähmender Blick"
+				'en-us': "Paralyzing Gaze",
+				'fr-fr': "Regard Paralysant",
+				'es-es': "Mirada Paralizante",
+				'it-it': "Sguardo Paralizzante",
+				'pt-br': "Olhar Paralisante",
+				'de-de': "Lähmender Blick"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Static Shock",
-				fr: "Choc Statique",
-				es: "Impacto Estático",
-				it: "Shock Statico",
-				pt: "Choque de Estática",
-				de: "Statischer Schock"
+				'en-us': "Static Shock",
+				'fr-fr': "Choc Statique",
+				'es-es': "Impacto Estático",
+				'it-it': "Shock Statico",
+				'pt-br': "Choque de Estática",
+				'de-de': "Statischer Schock"
 			},
 
 			damage: 30,
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
+		'en-us': "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Caterpie",
-		fr: "Chenipan",
-		de: "Raupy"
+		'en-us': "Caterpie",
+		'fr-fr': "Chenipan",
+		'de-de': "Raupy"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -49,7 +49,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its feet have suction cups designed to stick to any surface. It tenaciously climbs trees to forage."
+		'en-us': "Its feet have suction cups designed to stick to any surface. It tenaciously climbs trees to forage."
 	},
 
 	variants: [

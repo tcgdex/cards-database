@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM trainer Kit (Alolan Raichu)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zubat",
-		fr: "Nosferapti",
-		es: "Zubat",
-		it: "Zubat",
-		pt: "Zubat",
-		de: "Zubat"
+		'en-us': "Zubat",
+		'fr-fr': "Nosferapti",
+		'es-es': "Zubat",
+		'it-it': "Zubat",
+		'pt-br': "Zubat",
+		'de-de': "Zubat"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Astonish"
+				'en-us': "Astonish"
 			},
 			effect: {
-				en: "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into their deck."
+				'en-us': "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into their deck."
 			}
 		},
 	],

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Croâporal",
-		en: "Frogadier",
-		es: "Frogadier",
-		it: "Frogadier",
-		pt: "Frogadier",
-		de: "Amphizel"
+		'fr-fr': "Croâporal",
+		'en-us': "Frogadier",
+		'es-es': "Frogadier",
+		'it-it': "Frogadier",
+		'pt-br': "Frogadier",
+		'de-de': "Amphizel"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Water"],
 	evolveFrom: {
-		fr: "Grenousse",
-		en: "Froakie",
-		es: "Froakie",
-		it: "Froakie",
-		pt: "Froakie",
-		de: "Froxy"
+		'fr-fr': "Grenousse",
+		'en-us': "Froakie",
+		'es-es': "Froakie",
+		'it-it': "Froakie",
+		'pt-br': "Froakie",
+		'de-de': "Froxy"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			fr: "Bombarder",
-			en: "Strafe",
-			es: "Pasada de Ataque",
-			it: "Mitragliare",
-			pt: "Bombardear",
-			de: "Beharken"
+			'fr-fr': "Bombarder",
+			'en-us': "Strafe",
+			'es-es': "Pasada de Ataque",
+			'it-it': "Mitragliare",
+			'pt-br': "Bombardear",
+			'de-de': "Beharken"
 		},
 
 		effect: {
-			fr: "Vous pouvez échanger ce Pokémon contre l'un de vos Pokémon de Banc.",
-			en: "You may switch this Pokémon with 1 of your Benched Pokémon.",
-			es: "Puedes cambiar este Pokémon por uno de tus Pokémon en Banca.",
-			it: "Puoi scambiare questo Pokémon con uno della tua panchina.",
-			pt: "Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
-			de: "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen."
+			'fr-fr': "Vous pouvez échanger ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'en-us': "You may switch this Pokémon with 1 of your Benched Pokémon.",
+			'es-es': "Puedes cambiar este Pokémon por uno de tus Pokémon en Banca.",
+			'it-it': "Puoi scambiare questo Pokémon con uno della tua panchina.",
+			'pt-br': "Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
+			'de-de': "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen."
 		},
 
 		damage: 40
@@ -62,7 +62,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Its swiftness is unparalleled. It can scale a tower of more than 600 metres in a minute's time.",
+		'en-us': "Its swiftness is unparalleled. It can scale a tower of more than 600 metres in a minute's time.",
 	},
 
 	variants: [

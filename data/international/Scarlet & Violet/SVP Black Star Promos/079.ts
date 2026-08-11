@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Fuecoco",
-		fr: "Chochodile",
-		es: "Fuecoco",
-		it: "Fuecoco",
-		pt: "Fuecoco",
-		de: "Krokel"
+		'en-us': "Fuecoco",
+		'fr-fr': "Chochodile",
+		'es-es': "Fuecoco",
+		'it-it': "Fuecoco",
+		'pt-br': "Fuecoco",
+		'de-de': "Krokel"
 	},
 
 	rarity: "Promo",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 20
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "OKACHEKE",
 	description: {
-		en: "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
+		'en-us': "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
 	},
 	variants: [
 		{

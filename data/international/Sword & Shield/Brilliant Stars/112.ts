@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Haxorus",
-		fr: "Tranchodon",
-		es: "Haxorus",
-		it: "Haxorus",
-		pt: "Haxorus",
-		de: "Maxax"
+		'en-us': "Haxorus",
+		'fr-fr': "Tranchodon",
+		'es-es': "Haxorus",
+		'it-it': "Haxorus",
+		'pt-br': "Haxorus",
+		'de-de': "Maxax"
 	},
 
 	illustrator: "Uta",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Dragon"],
 
 	evolveFrom: {
-		en: "Fraxure",
-		fr: "Incisache",
-		es: "Fraxure",
-		it: "Fraxure",
-		pt: "Fraxure",
-		de: "Sharfax"
+		'en-us': "Fraxure",
+		'fr-fr': "Incisache",
+		'es-es': "Fraxure",
+		'it-it': "Fraxure",
+		'pt-br': "Fraxure",
+		'de-de': "Sharfax"
 	},
 
 	stage: "Stage2",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Slash",
-			fr: "Tranche",
-			es: "Cuchillada",
-			it: "Lacerazione",
-			pt: "Talho",
-			de: "Schlitzer"
+			'en-us': "Slash",
+			'fr-fr': "Tranche",
+			'es-es': "Cuchillada",
+			'it-it': "Lacerazione",
+			'pt-br': "Talho",
+			'de-de': "Schlitzer"
 		},
 
 		damage: 60
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Fighting", "Metal"],
 
 		name: {
-			en: "Wild Axe",
-			fr: "Hache Sauvage",
-			es: "Hachazo Salvaje",
-			it: "Ascia Selvaggia",
-			pt: "Machado Selvagem",
-			de: "Wildes Beil"
+			'en-us': "Wild Axe",
+			'fr-fr': "Hache Sauvage",
+			'es-es': "Hachazo Salvaje",
+			'it-it': "Ascia Selvaggia",
+			'pt-br': "Machado Selvagem",
+			'de-de': "Wildes Beil"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 160
@@ -73,7 +73,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its resilient tusks are its pride and joy. It licks up dirt to take in the minerals it needs to keep its tusks in top condition.",
+		'en-us': "Its resilient tusks are its pride and joy. It licks up dirt to take in the minerals it needs to keep its tusks in top condition.",
 	},
 
 	variants: [

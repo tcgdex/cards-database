@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Wiglett",
-		fr: "Taupikeau",
-		es: "Wiglett",
-		it: "Wiglett",
-		de: "Schligda",
+		'en-us': "Wiglett",
+		'fr-fr': "Taupikeau",
+		'es-es': "Wiglett",
+		'it-it': "Wiglett",
+		'de-de': "Schligda",
 		'pt-br': "Wiglett",
-		ko: "바다그다"
+		'ko-kr': "바다그다"
   },
   illustrator: "Shin Nagasawa",
   rarity: "One Diamond",
@@ -25,10 +25,10 @@ const card: Card = {
   attacks: [
     {
       name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
-				de: "Aquaknarre",
-				it: "Pistolacqua"
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
+				'de-de': "Aquaknarre",
+				'it-it': "Pistolacqua"
       },
       damage: "20",
       cost: ["Water"],

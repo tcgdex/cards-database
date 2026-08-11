@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Hippopotas",
-		fr: "Hippopotas",
-		de: "Hippopotas"
+		'en-us': "Hippopotas",
+		'fr-fr': "Hippopotas",
+		'de-de': "Hippopotas"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Headbutt",
-				fr: "Double coup d'boule",
-				de: "Doppelte Kopfnuss"
+				'en-us': "Double Headbutt",
+				'fr-fr': "Double coup d'boule",
+				'de-de': "Doppelte Kopfnuss"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "10x",
 
@@ -49,9 +49,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud Shot",
-				fr: "Tir de boue",
-				de: "Lehmschuss"
+				'en-us': "Mud Shot",
+				'fr-fr': "Tir de boue",
+				'de-de': "Lehmschuss"
 			},
 
 			damage: 40,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It shuts its nostrils tight then travels through sand as if walking. They form colonies of around ten."
+		'en-us': "It shuts its nostrils tight then travels through sand as if walking. They form colonies of around ten."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トドグラー",
+		'ja-jp': "トドグラー",
 		'zh-tw': "海魔獅",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "まるければ モンスターボールでも タマザラシでも 鼻の上に 乗せて 自由自在に くるくる 回すぞ。",
+		'ja-jp': "まるければ モンスターボールでも タマザラシでも 鼻の上に 乗せて 自由自在に くるくる 回すぞ。",
 		'zh-tw': "只要是圓形的東西，無論是精靈球還是海豹球，都能頂在鼻子上隨心所欲地轉動。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶつかる",
+				'ja-jp': "ぶつかる",
 				'zh-tw': "電磁吸附",
 			},
 			damage: 30,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "オーロラビーム",
+				'ja-jp': "オーロラビーム",
 				'zh-tw': "極巨衝刺",
 			},
 			damage: 70,
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "タマザラシ",
+		'ja-jp': "タマザラシ",
 	},
 
 	retreat: 4,

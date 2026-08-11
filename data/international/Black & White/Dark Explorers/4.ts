@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Scyther",
-		fr: "Insécateur",
-		es: "Scyther",
-		it: "Scyther",
-		pt: "Scyther",
-		de: "Sichlor"
+		'en-us': "Scyther",
+		'fr-fr': "Insécateur",
+		'es-es': "Scyther",
+		'it-it': "Scyther",
+		'pt-br': "Scyther",
+		'de-de': "Sichlor"
 	},
 
 	illustrator: "Naoki Saito",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Air Slash",
-				fr: "Lame d'Air"
+				'en-us': "Air Slash",
+				'fr-fr': "Lame d'Air"
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon."
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon."
 			},
 			damage: 60,
 
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The sharp scythes on its forearms become increasingly sharp by cutting through hard objects.",
+		'en-us': "The sharp scythes on its forearms become increasingly sharp by cutting through hard objects.",
 	},
 
 	thirdParty: {

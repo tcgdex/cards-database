@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴローニャ",
+		'ja-jp': "ゴローニャ",
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "年老いると 脱皮 しなくなる。 長く長く 生きた ゴローニャの カラは 苔むしていて 緑だ。",
+		'ja-jp': "年老いると 脱皮 しなくなる。 長く長く 生きた ゴローニャの カラは 苔むしていて 緑だ。",
 	},
 
 	stage: "Stage2",
@@ -24,14 +24,14 @@ const card: Card = {
 			damage: 100,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。",
 			},
 		},
 		{
 			name: { ja: "ヘビーボンバー 180-" },
 			cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンのにげるためのエネルギーの数x20ダメージぶん、このワザのダメージは小さくなる。",
+				'ja-jp': "相手のバトルポケモンのにげるためのエネルギーの数x20ダメージぶん、このワザのダメージは小さくなる。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴローン",
+		'ja-jp': "ゴローン",
 	},
 
 	retreat: 4,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドサイドン",
+		'ja-jp': "ドサイドン",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "手のひらの 穴から イシツブテを 発射。 全身の プロテクターは 火山の 噴火にも 耐えられる。",
+		'ja-jp': "手のひらの 穴から イシツブテを 発射。 全身の プロテクターは 火山の 噴火にも 耐えられる。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "やまおろし" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手の山札を上から3枚トラッシュする。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手の山札を上から3枚トラッシュする。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 170,
 			cost: ["Fighting", "Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは弱点・抵抗力を計算しない。次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "このワザのダメージは弱点・抵抗力を計算しない。次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "サイドン",
+		'ja-jp': "サイドン",
 	},
 
 	retreat: 4,

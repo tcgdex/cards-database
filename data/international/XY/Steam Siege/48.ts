@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Litwick",
-		fr: "Funécire",
-		es: "Litwick",
-		it: "Litwick",
-		pt: "Litwick",
-		de: "Lichtel"
+		'en-us': "Litwick",
+		'fr-fr': "Funécire",
+		'es-es': "Litwick",
+		'it-it': "Litwick",
+		'pt-br': "Litwick",
+		'de-de': "Lichtel"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slightly Simmer",
-				fr: "Léger Frémissement",
-				es: "A Fuego Lento",
-				it: "Lumicino",
-				pt: "Fogo Brando",
-				de: "Auf kleiner Flamme"
+				'en-us': "Slightly Simmer",
+				'fr-fr': "Léger Frémissement",
+				'es-es': "A Fuego Lento",
+				'it-it': "Lumicino",
+				'pt-br': "Fogo Brando",
+				'de-de': "Auf kleiner Flamme"
 			},
 			effect: {
-				en: "Search your deck for up to 2 cards and discard them. Shuffle your deck afterward.",
-				fr: "Cherchez jusqu'à 2 cartes dans votre deck et défaussez-les. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja hasta 2 cartas y descártalas. Baraja las cartas de tu baraja después.",
-				it: "Cerca nel tuo mazzo fino a due carte e scartale. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure em seu baralho até 2 cards e descarte-os. Em seguida, embaralhe seus cards.",
-				de: "Durchsuche dein Deck nach bis zu 2 Karten und lege sie auf deinen Ablagestapel. Mische anschließend dein Deck."
+				'en-us': "Search your deck for up to 2 cards and discard them. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez jusqu'à 2 cartes dans votre deck et défaussez-les. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja hasta 2 cartas y descártalas. Baraja las cartas de tu baraja después.",
+				'it-it': "Cerca nel tuo mazzo fino a due carte e scartale. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure em seu baralho até 2 cards e descarte-os. Em seguida, embaralhe seus cards.",
+				'de-de': "Durchsuche dein Deck nach bis zu 2 Karten und lege sie auf deinen Ablagestapel. Mische anschließend dein Deck."
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Litwick shines a light that absorbs the life energy of people and Pokémon, which becomes the fuel that it burns.",
+		'en-us': "Litwick shines a light that absorbs the life energy of people and Pokémon, which becomes the fuel that it burns.",
 	},
 
 	thirdParty: {

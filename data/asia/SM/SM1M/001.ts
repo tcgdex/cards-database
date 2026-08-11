@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カイロス",
+		'ja-jp': "カイロス",
 	},
 
 	illustrator: "DemizuPosuka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "角の 一撃は 大木 さえ へし折るほど。 アローラでは クワガノンが 最大の ライバル。",
+		'ja-jp': "角の 一撃は 大木 さえ へし折るほど。 アローラでは クワガノンが 最大の ライバル。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "てんじょうなげ" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンと、ついているすべてのカードを、相手の手札にもどす。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンと、ついているすべてのカードを、相手の手札にもどす。",
 			},
 		},
 		{

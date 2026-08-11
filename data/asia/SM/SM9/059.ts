@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カブトプス",
+		'ja-jp': "カブトプス",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "陸でも 活動 できるよう 身体が 変化を 始めていたが 間に合わず 絶滅 してしまった。",
+		'ja-jp': "陸でも 活動 できるよう 身体が 変化を 始めていたが 間に合わず 絶滅 してしまった。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かせきのきおく" },
 			effect: {
-				ja: "このポケモンがバトル場にいるかぎり、相手は手札からサポートを出して使えない。",
+				'ja-jp': "このポケモンがバトル場にいるかぎり、相手は手札からサポートを出して使えない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン2匹にも、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン2匹にも、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カブト",
+		'ja-jp': "カブト",
 	},
 
 	retreat: 2,

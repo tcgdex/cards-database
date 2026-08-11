@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Arbok",
-		fr: "Arbok",
-		es: "Arbok",
-		it: "Arbok",
-		pt: "Arbok",
-		de: "Arbok"
+		'en-us': "Arbok",
+		'fr-fr': "Arbok",
+		'es-es': "Arbok",
+		'it-it': "Arbok",
+		'pt-br': "Arbok",
+		'de-de': "Arbok"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ekans",
-		fr: "Abo",
+		'en-us': "Ekans",
+		'fr-fr': "Abo",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wrap",
-				fr: "Ligotage",
-				es: "Constricción",
-				it: "Avvolgibotta",
-				pt: "Embrulho",
-				de: "Wickel"
+				'en-us': "Wrap",
+				'fr-fr': "Ligotage",
+				'es-es': "Constricción",
+				'it-it': "Avvolgibotta",
+				'pt-br': "Embrulho",
+				'de-de': "Wickel"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 30,
 
@@ -63,20 +63,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heavy Choke",
-				fr: "Étouffement Lourd",
-				es: "Fuerte Estrujón",
-				it: "Stretta Poderosa",
-				pt: "Asfixia Pesada",
-				de: "Würger"
+				'en-us': "Heavy Choke",
+				'fr-fr': "Étouffement Lourd",
+				'es-es': "Fuerte Estrujón",
+				'it-it': "Stretta Poderosa",
+				'pt-br': "Asfixia Pesada",
+				'de-de': "Würger"
 			},
 			effect: {
-				en: "If this Pokémon used Wrap during your last turn, this attack does 120 more damage.",
-				fr: "Si ce Pokémon a utilisé Ligotage pendant votre dernier tour, cette attaque inflige 120 dégâts supplémentaires.",
-				es: "Si este Pokémon usó Constricción durante tu último turno, este ataque hace 120 puntos de daño más.",
-				it: "Se questo Pokémon ha usato Avvolgibotta durante il tuo ultimo turno, questo attacco infligge 120 danni in più.",
-				pt: "Se este Pokémon usou Embrulho durante a sua última vez de jogar, este ataque causará 120 pontos de dano a mais.",
-				de: "Wenn dieses Pokémon während deines letzten Zuges Wickel eingesetzt hat, fügt diese Attacke 120 Schadenspunkte mehr zu."
+				'en-us': "If this Pokémon used Wrap during your last turn, this attack does 120 more damage.",
+				'fr-fr': "Si ce Pokémon a utilisé Ligotage pendant votre dernier tour, cette attaque inflige 120 dégâts supplémentaires.",
+				'es-es': "Si este Pokémon usó Constricción durante tu último turno, este ataque hace 120 puntos de daño más.",
+				'it-it': "Se questo Pokémon ha usato Avvolgibotta durante il tuo ultimo turno, questo attacco infligge 120 danni in più.",
+				'pt-br': "Se este Pokémon usou Embrulho durante a sua última vez de jogar, este ataque causará 120 pontos de dano a mais.",
+				'de-de': "Wenn dieses Pokémon während deines letzten Zuges Wickel eingesetzt hat, fügt diese Attacke 120 Schadenspunkte mehr zu."
 			},
 			damage: "50+",
 
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The latest research has determined that there are over 20 possible arrangements of the patterns on its stomach.",
+		'en-us': "The latest research has determined that there are over 20 possible arrangements of the patterns on its stomach.",
 	},
 
 	thirdParty: {

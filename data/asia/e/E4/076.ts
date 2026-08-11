@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スカルモリー",
+		'ja-jp': "スカルモリー",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ダブルペック",
+				'ja-jp': "ダブルペック",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Metal", "Colorless", "Colorless"],
 			name: {
-				ja: "スピニングヘッド",
+				'ja-jp': "スピニングヘッド",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、ベンチ付きポケモンを1枚スカルモリーします。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、ベンチ付きポケモンを1枚スカルモリーします。",
 			},
 			damage: 30,
 		},

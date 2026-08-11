@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Poulpaf",
-		en: "Clobbopus",
-		es: "Clobbopus",
-		it: "Clobbopus",
-		pt: "Clobbopus",
-		de: "Klopptopus"
+		'fr-fr': "Poulpaf",
+		'en-us': "Clobbopus",
+		'es-es': "Clobbopus",
+		'it-it': "Clobbopus",
+		'pt-br': "Clobbopus",
+		'de-de': "Klopptopus"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Étreinte",
-			en: "Bind",
-			es: "Atadura",
-			it: "Legatutto",
-			pt: "Ligação",
-			de: "Klammergriff"
+			'fr-fr': "Étreinte",
+			'en-us': "Bind",
+			'es-es': "Atadura",
+			'it-it': "Legatutto",
+			'pt-br': "Ligação",
+			'de-de': "Klammergriff"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		},
 
 		damage: 20,
@@ -53,7 +53,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It's very curious, but its means of investigating things is to try to punch them with its tentacles. The search for food is what brings it onto land."
+		'en-us': "It's very curious, but its means of investigating things is to try to punch them with its tentacles. The search for food is what brings it onto land."
 	},
 
 	variants: [

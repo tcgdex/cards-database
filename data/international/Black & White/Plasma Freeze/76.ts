@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Deino",
-		fr: "Solochi",
-		es: "Deino",
-		it: "Deino",
-		pt: "Deino",
-		de: "Kapuno"
+		'en-us': "Deino",
+		'fr-fr': "Solochi",
+		'es-es': "Deino",
+		'it-it': "Deino",
+		'pt-br': "Deino",
+		'de-de': "Kapuno"
 	},
 
 	illustrator: "Naoki Saito",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slam",
-				fr: "Souplesse",
+				'en-us': "Slam",
+				'fr-fr': "Souplesse",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 20,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Lacking sight, it's unaware of its surroundings, so it bumps into things and eats anything that moves.",
+		'en-us': "Lacking sight, it's unaware of its surroundings, so it bumps into things and eats anything that moves.",
 	},
 
 	thirdParty: {

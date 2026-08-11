@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Weedle",
-		fr: "Aspicot",
-		es: "Weedle",
-		it: "Weedle",
-		pt: "Weedle",
-		de: "Hornliu"
+		'en-us': "Weedle",
+		'fr-fr': "Aspicot",
+		'es-es': "Weedle",
+		'it-it': "Weedle",
+		'pt-br': "Weedle",
+		'de-de': "Hornliu"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -22,12 +22,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Pierce",
-			fr: "Transpercement",
-			es: "Perforar",
-			it: "Perforare",
-			pt: "Perfurar",
-			de: "Durchbohren"
+			'en-us': "Pierce",
+			'fr-fr': "Transpercement",
+			'es-es': "Perforar",
+			'it-it': "Perforare",
+			'pt-br': "Perfurar",
+			'de-de': "Durchbohren"
 		},
 
 		damage: 20,
@@ -46,7 +46,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies."
+		'en-us': "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies."
 	},
 
 	variants: [

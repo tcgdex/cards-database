@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Burmy Trash Cloak",
-		fr: "Cheniti Cape Déchet",
-		de: "Burmy Lumpenumhang"
+		'en-us': "Burmy Trash Cloak",
+		'fr-fr': "Cheniti Cape Déchet",
+		'de-de': "Burmy Lumpenumhang"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Wear Cloak",
-				fr: "Cape",
-				de: "Umhang tragen"
+				'en-us': "Wear Cloak",
+				'fr-fr': "Cape",
+				'de-de': "Umhang tragen"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Burmy Trash Cloak is your Active Pokémon, you may search your discard pile for a basic Metal Energy card and attach it to Burmy Trash Cloak.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), si Cheniti Cape Déchet est votre Pokémon Actif, vous pouvez choisir dans votre pile de défausse une carte Énergie de base Metal et l'attacher à Cheniti Cape Déchet.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Burmy Lumpenumhang dein Aktives Pokémon ist, deinen Ablagestapel nach einer -Basis-Energiekarte durchsuchen und an Burmy Lumpenumhang anlegen."
+				'en-us': "Once during your turn (before your attack), if Burmy Trash Cloak is your Active Pokémon, you may search your discard pile for a basic Metal Energy card and attach it to Burmy Trash Cloak.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), si Cheniti Cape Déchet est votre Pokémon Actif, vous pouvez choisir dans votre pile de défausse une carte Énergie de base Metal et l'attacher à Cheniti Cape Déchet.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Burmy Lumpenumhang dein Aktives Pokémon ist, deinen Ablagestapel nach einer -Basis-Energiekarte durchsuchen und an Burmy Lumpenumhang anlegen."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Trash Cloak Tackle",
-				fr: "Charge cape déchet",
-				de: "Lumpenumhang Tackle"
+				'en-us': "Trash Cloak Tackle",
+				'fr-fr': "Charge cape déchet",
+				'de-de': "Lumpenumhang Tackle"
 			},
 			effect: {
-				en: "If Burmy Trash Cloak has any Metal Energy attached to it, this attack does 10 damage plus 10 more damage.",
-				fr: "Si Cheniti Cape Déchet possède de l'Énergie Metal, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wenn an Burmy Lumpenumhang mindestens 1 -Energie angelegt ist, fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				'en-us': "If Burmy Trash Cloak has any Metal Energy attached to it, this attack does 10 damage plus 10 more damage.",
+				'fr-fr': "Si Cheniti Cape Déchet possède de l'Énergie Metal, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Wenn an Burmy Lumpenumhang mindestens 1 -Energie angelegt ist, fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.",
+		'en-us': "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.",
 	},
 
 	thirdParty: {

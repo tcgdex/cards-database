@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Nidoran ♂",
-		fr: "Nidoran ♂",
-		de: "Nidoran M"
+		'en-us': "Nidoran ♂",
+		'fr-fr': "Nidoran ♂",
+		'de-de': "Nidoran M"
 	},
 	illustrator: "Keiko Fukuyama",
 	rarity: "Common",
@@ -27,14 +27,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Horn",
-				fr: "Corne empoisonnée",
-				de: "Gifthorn"
+				'en-us': "Poison Horn",
+				'fr-fr': "Corne empoisonnée",
+				'de-de': "Gifthorn"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 
 		},
@@ -44,9 +44,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Kratzer"
 			},
 
 			damage: 20,

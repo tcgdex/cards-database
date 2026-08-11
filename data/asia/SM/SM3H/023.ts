@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホイーガ",
+		'ja-jp': "ホイーガ",
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "硬い 殻に 守られている。 タイヤのように 回転して 敵に 激しく 体当たりする。",
+		'ja-jp': "硬い 殻に 守られている。 タイヤのように 回転して 敵に 激しく 体当たりする。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "フシデ",
+		'ja-jp': "フシデ",
 	},
 
 	retreat: 3,

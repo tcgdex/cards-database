@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガチグマ アカツキ",
+		'ja-jp': "ガチグマ アカツキ",
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "鉄のように 硬い 泥で 身を 守り 闇を 見通す 左目を 持つ 特別な ガチグマ。",
+		'ja-jp': "鉄のように 硬い 泥で 身を 守り 闇を 見通す 左目を 持つ 特別な ガチグマ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "けいけんそく" },
 			effect: {
-				ja: "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の手札から「基本[F]エネルギー」を2枚まで選び、このポケモンにつける。",
+				'ja-jp': "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の手札から「基本[F]エネルギー」を2枚まで選び、このポケモンにつける。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンにのっているダメカンの数×30ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンにのっているダメカンの数×30ダメージ追加。",
 			},
 		},
 	],

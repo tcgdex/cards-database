@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エレブー",
+		'ja-jp': "エレブー",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "餌で 喰う 電気量 よりも 身体から 漏れる 電気量の ほうが 圧倒的に 多い。",
+		'ja-jp': "餌で 喰う 電気量 よりも 身体から 漏れる 電気量の ほうが 圧倒的に 多い。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],

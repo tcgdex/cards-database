@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "せいなるはい",
+		'ja-jp': "せいなるはい",
 	},
 
 	illustrator: "Eske Yoshinob",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のトラッシュからポケモンを5枚選び、相手に見せてから、山札にもどす。そして山札を切る。",
+		'ja-jp': "自分のトラッシュからポケモンを5枚選び、相手に見せてから、山札にもどす。そして山札を切る。",
 	},
 
 	variants: [

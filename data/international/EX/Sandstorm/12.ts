@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Shiftry",
-		fr: "Tengalice",
-		de: "Tengulist"
+		'en-us': "Shiftry",
+		'fr-fr': "Tengalice",
+		'de-de': "Tengulist"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nuzleaf",
-		fr: "Pifeuil"
+		'en-us': "Nuzleaf",
+		'fr-fr': "Pifeuil"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Fan Away",
-				fr: "Faire de l'air",
-				de: "Fan Away"
+				'en-us': "Fan Away",
+				'fr-fr': "Faire de l'air",
+				'de-de': "Fan Away"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may flip a coin. If heads, return 1 Energy card attached to the Defending Pokémon to your opponent's hand. This power can't be used if Shiftry is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, votre adversaire reprend dans sa main une carte Énergie attachée au Pokémon Défenseur. Ce pouvoir ne peut pas être utilisé si Tengalice est affecté par un État Spécial.",
-				de: "Once during your turn (before your attack), you may flip a coin. If heads, return 1 Energy card attached to the Defending Pokémon to your opponent's hand. This power can't be used if Shiftry is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), you may flip a coin. If heads, return 1 Energy card attached to the Defending Pokémon to your opponent's hand. This power can't be used if Shiftry is affected by a Special Condition.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, votre adversaire reprend dans sa main une carte Énergie attachée au Pokémon Défenseur. Ce pouvoir ne peut pas être utilisé si Tengalice est affecté par un État Spécial.",
+				'de-de': "Once during your turn (before your attack), you may flip a coin. If heads, return 1 Energy card attached to the Defending Pokémon to your opponent's hand. This power can't be used if Shiftry is affected by a Special Condition."
 			}
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Light Touch Throw",
-				fr: "Lancer léger",
-				de: "Light Touch Throw"
+				'en-us': "Light Touch Throw",
+				'fr-fr': "Lancer léger",
+				'de-de': "Light Touch Throw"
 			},
 			effect: {
-				en: "Does 80 damage minus 10 damage for each Energy attached to the Defending Pokémon.",
-				fr: "Inflige 80 dégâts moins 10 dégâts pour chaque Énergie attachée au Pokémon Défenseur.",
-				de: "Does 80 damage minus 10 damage for each Energy attached to the Defending Pokémon."
+				'en-us': "Does 80 damage minus 10 damage for each Energy attached to the Defending Pokémon.",
+				'fr-fr': "Inflige 80 dégâts moins 10 dégâts pour chaque Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Does 80 damage minus 10 damage for each Energy attached to the Defending Pokémon."
 			},
 			damage: "80-",
 

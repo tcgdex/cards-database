@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シルヴァディGX",
+		'ja-jp': "シルヴァディGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ジャイロユニット" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分のたねポケモン全員のにげるためのエネルギーは、すべてなくなる。",
+				'ja-jp': "このポケモンがいるかぎり、自分のたねポケモン全員のにげるためのエネルギーは、すべてなくなる。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のトラッシュにある基本エネルギーを1枚、ベンチポケモンにつける。",
+				'ja-jp': "自分のトラッシュにある基本エネルギーを1枚、ベンチポケモンにつける。",
 			},
 		},
 		{
@@ -38,7 +38,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモンの数x50ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のベンチポケモンの数x50ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -56,7 +56,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "タイプ：ヌル",
+		'ja-jp': "タイプ：ヌル",
 	},
 
 	retreat: 2,

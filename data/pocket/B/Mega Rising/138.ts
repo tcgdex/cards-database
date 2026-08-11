@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pancham"
+		'en-us': "Pancham"
 	},
 
 	illustrator: "match",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "Wanting to make sure it's taken seriously,\nPancham's always giving others a glare.\nBut if it's not focusing, it ends up smiling."
+		'en-us': "Wanting to make sure it's taken seriously,\nPancham's always giving others a glare.\nBut if it's not focusing, it ends up smiling."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Punch"
+			'en-us': "Punch"
 		},
 
 		damage: 20,

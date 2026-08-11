@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Dark Haunter",
-		fr: "Spectrum obscur",
-		de: "Dunkles Alpollo"
+		'en-us': "Dark Haunter",
+		'fr-fr': "Spectrum obscur",
+		'de-de': "Dunkles Alpollo"
 	},
 
 	illustrator: "Aya Kusube",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gastly",
-		fr: "Fantominus"
+		'en-us': "Gastly",
+		'fr-fr': "Fantominus"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Call Back",
-				fr: "Retour",
-				de: "Rückruf"
+				'en-us': "Call Back",
+				'fr-fr': "Retour",
+				'de-de': "Rückruf"
 			},
 			effect: {
-				en: "Put a Baby Pokémon or Basic Pokémon card from your opponent's discard pile onto his or her Bench. Put 1 damage counter on that Pokémon. (You can't use this attack if your Bench is full.)",
-				fr: "Placez une carte Bébé Pokémon ou Pokémon de base de la pile de défausse de votre adversaire sur son Banc. Placez un marqueur de dégâts sur ce Pokémon. (Vous ne pouvez pas utiliser cette attaque si le Banc de votre adversaire est plein.)",
-				de: "Lege eine Baby-Pokémon- oder Basis-Pokémonkarte vom Ablagestapel deines Gegner auf seine Bank. Lege eine Schadensmarke auf dieses Pokémon. (du kannst diesen Angriff nicht verwenden, solange seine Bank voll ist.)"
+				'en-us': "Put a Baby Pokémon or Basic Pokémon card from your opponent's discard pile onto his or her Bench. Put 1 damage counter on that Pokémon. (You can't use this attack if your Bench is full.)",
+				'fr-fr': "Placez une carte Bébé Pokémon ou Pokémon de base de la pile de défausse de votre adversaire sur son Banc. Placez un marqueur de dégâts sur ce Pokémon. (Vous ne pouvez pas utiliser cette attaque si le Banc de votre adversaire est plein.)",
+				'de-de': "Lege eine Baby-Pokémon- oder Basis-Pokémonkarte vom Ablagestapel deines Gegner auf seine Bank. Lege eine Schadensmarke auf dieses Pokémon. (du kannst diesen Angriff nicht verwenden, solange seine Bank voll ist.)"
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Surround",
-				fr: "Encerclement",
-				de: "Umzingeln"
+				'en-us': "Surround",
+				'fr-fr': "Encerclement",
+				'de-de': "Umzingeln"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, the Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi. Si c'est pile, le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
-				de: "Wirf eine Münze. Bei 'Kopf' schläft das verteidigende Pokémon während des nächsten Zuges deines Gegners nicht zurückziehen."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, the Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi. Si c'est pile, le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' schläft das verteidigende Pokémon während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 20,
 
@@ -75,8 +75,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It silently hunts its prey in dark rooms.",
-		fr: "Il chasse sa proie silencieusement dans les salles obscures."
+		'en-us': "It silently hunts its prey in dark rooms.",
+		'fr-fr': "Il chasse sa proie silencieusement dans les salles obscures."
 	},
 
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジュカイン",
+		'ja-jp': "ジュカイン",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "ジャングルを 身軽に 走り回り 腕に 生えた 切れ味 鋭い 葉っぱで 獲物を しとめるのだ。",
+		'ja-jp': "ジャングルを 身軽に 走り回り 腕に 生えた 切れ味 鋭い 葉っぱで 獲物を しとめるのだ。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ネイチャーパワー" },
 			effect: {
-				ja: "このポケモンがいるかぎり、[草]エネルギーがついている自分のポケモン全員は、相手の「ウルトラビースト」からワザのダメージを受けない。",
+				'ja-jp': "このポケモンがいるかぎり、[草]エネルギーがついている自分のポケモン全員は、相手の「ウルトラビースト」からワザのダメージを受けない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Grass"],
 			effect: {
-				ja: "自分の場のポケモンについているエネルギーの数x20ダメージ。",
+				'ja-jp': "自分の場のポケモンについているエネルギーの数x20ダメージ。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ジュプトル",
+		'ja-jp': "ジュプトル",
 	},
 
 	retreat: 1,

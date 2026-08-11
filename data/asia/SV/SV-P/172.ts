@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガルーラ",
+		'ja-jp': "ガルーラ",
 	},
 
 	illustrator: "Uta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "腹の 袋に 子どもが いるが フットワークは とても 軽い。 素早いジャブで 相手を 威嚇。",
+		'ja-jp': "腹の 袋に 子どもが いるが フットワークは とても 軽い。 素早いジャブで 相手を 威嚇。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "なかまをよぶ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。",
 			},
 		},
 		{

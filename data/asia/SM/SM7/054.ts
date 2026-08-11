@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メタング",
+		'ja-jp': "メタング",
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "磁力を 放つ 鉱物が 好物。 時速 １００キロで ノズパスを 追いつめるぞ。",
+		'ja-jp': "磁力を 放つ 鉱物が 好物。 時速 １００キロで ノズパスを 追いつめるぞ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Metal"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x20ダメージ追加。",
+				'ja-jp': "コインを2回投げ、オモテの数x20ダメージ追加。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ダンバル",
+		'ja-jp': "ダンバル",
 	},
 
 	retreat: 3,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブロロローム",
+		'ja-jp': "ブロロローム",
 	},
 
 	illustrator: "GOSSAN",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "毒素と 岩の 成分を 混ぜた ガスを ８つに 増えた シリンダーで 爆発させ エネルギーを 作る。",
+		'ja-jp': "毒素と 岩の 成分を 混ぜた ガスを ８つに 増えた シリンダーで 爆発させ エネルギーを 作る。",
 	},
 
 	stage: "Stage1",
@@ -39,7 +39,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ブロロン",
+		'ja-jp': "ブロロン",
 	},
 
 	retreat: 2,

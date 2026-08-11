@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウッウ",
+		'ja-jp': "ウッウ",
 		'zh-tw': "化石翼龍",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "食いしん坊で エサの サシカマスを 丸飲みするが たまに 間違えて ほかの ポケモンに 食らいつく。",
+		'ja-jp': "食いしん坊で エサの サシカマスを 丸飲みするが たまに 間違えて ほかの ポケモンに 食らいつく。",
 		'zh-tw': "古代的凶猛寶可夢。據說即使是當今的科學， 也無法將牠完美地復原。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "さんれんづき",
+				'ja-jp': "さんれんづき",
 				'zh-tw': "直擊彈",
 			},
 			damage: "60×",
 			cost: ["Water", "Water", "Water"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数×60ダメージ。",
+				'ja-jp': "コインを3回投げ、オモテの数×60ダメージ。",
 				'zh-tw': "對手的1隻寶可夢受到50點傷害。[在備戰區不計算弱點・抵抗力。]",
 			},
 		},

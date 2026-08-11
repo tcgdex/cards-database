@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Whiscash",
-		fr: "Barbicha",
-		es: "Whiscash",
-		it: "Whiscash",
-		pt: "Whiscash",
-		de: "Welsar"
+		'en-us': "Whiscash",
+		'fr-fr': "Barbicha",
+		'es-es': "Whiscash",
+		'it-it': "Whiscash",
+		'pt-br': "Whiscash",
+		'de-de': "Welsar"
 	},
 
 	illustrator: "Shinji Kanda",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Barboach",
-		fr: "Barloche",
-		es: "Barboach",
-		it: "Barboach",
-		pt: "Barboach",
-		de: "Schmerbe"
+		'en-us': "Barboach",
+		'fr-fr': "Barloche",
+		'es-es': "Barboach",
+		'it-it': "Barboach",
+		'pt-br': "Barboach",
+		'de-de': "Schmerbe"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Mud Shot",
-			fr: "Tir de Boue",
-			es: "Disparo Lodo",
-			it: "Colpodifango",
-			pt: "Tiro de Lama",
-			de: "Lehmschuss"
+			'en-us': "Mud Shot",
+			'fr-fr': "Tir de Boue",
+			'es-es': "Disparo Lodo",
+			'it-it': "Colpodifango",
+			'pt-br': "Tiro de Lama",
+			'de-de': "Lehmschuss"
 		},
 
 		damage: 80
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Thrash",
-			fr: "Mania",
-			es: "Golpe",
-			it: "Colpo",
-			pt: "Castigar",
-			de: "Fuchtler"
+			'en-us': "Thrash",
+			'fr-fr': "Mania",
+			'es-es': "Golpe",
+			'it-it': "Colpo",
+			'pt-br': "Castigar",
+			'de-de': "Fuchtler"
 		},
 
 		effect: {
-			en: "Flip a coin. If tails, this Pokémon also does 60 damage to itself. If heads, this attack does 60 more damage.",
-			fr: "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige aussi 60 dégâts. Si c'est face, cette attaque inflige 60 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cruz, este Pokémon también se hace 60 puntos de daño a sí mismo. Si sale cara, este ataque hace 60 puntos de daño más.",
-			it: "Lancia una moneta. Se esce croce, questo Pokémon infligge anche 60 danni a se stesso. Se esce testa, questo attacco infligge 60 danni in più.",
-			pt: "Jogue 1 moeda. Se sair coroa, este Pokémon também causará 60 pontos de dano a si mesmo. Se sair cara, este ataque causará 60 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Zahl fügt dieses Pokémon auch sich selbst 60 Schadenspunkte zu. Bei Kopf fügt diese Attacke 60 Schadenspunkte mehr zu."
+			'en-us': "Flip a coin. If tails, this Pokémon also does 60 damage to itself. If heads, this attack does 60 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige aussi 60 dégâts. Si c'est face, cette attaque inflige 60 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este Pokémon también se hace 60 puntos de daño a sí mismo. Si sale cara, este ataque hace 60 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce croce, questo Pokémon infligge anche 60 danni a se stesso. Se esce testa, questo attacco infligge 60 danni in più.",
+			'pt-br': "Jogue 1 moeda. Se sair coroa, este Pokémon também causará 60 pontos de dano a si mesmo. Se sair cara, este ataque causará 60 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Zahl fügt dieses Pokémon auch sich selbst 60 Schadenspunkte zu. Bei Kopf fügt diese Attacke 60 Schadenspunkte mehr zu."
 		},
 
 		damage: "120+"
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It makes its nest at the bottom of swamps. It will eat anything—if it is alive, Whiscash will eat it.",
+		'en-us': "It makes its nest at the bottom of swamps. It will eat anything—if it is alive, Whiscash will eat it.",
 	},
 
 	variants: [

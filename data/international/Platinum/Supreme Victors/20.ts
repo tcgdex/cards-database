@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Charizard G",
-		fr: "Dracaufeu ",
-		de: "Glurak G"
+		'en-us': "Charizard G",
+		'fr-fr': "Dracaufeu ",
+		'de-de': "Glurak G"
 	},
 	illustrator: "Wataru Kawahara",
 	rarity: "Rare",
@@ -28,14 +28,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flame Jet",
-				fr: "Jet de flamme",
-				de: "Flammenstrahl"
+				'en-us': "Flame Jet",
+				'fr-fr': "Jet de flamme",
+				'de-de': "Flammenstrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 40 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts à 1 des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Wirf 1 Münze. Dieser Angriff fügt 1 Pokémon deines Gegners 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Flip a coin. If heads, this attack does 40 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts à 1 des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Wirf 1 Münze. Dieser Angriff fügt 1 Pokémon deines Gegners 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Blast",
-				fr: "Explosion de chaleur",
-				de: "Hitzestoß"
+				'en-us': "Heat Blast",
+				'fr-fr': "Explosion de chaleur",
+				'de-de': "Hitzestoß"
 			},
 
 			damage: 50,

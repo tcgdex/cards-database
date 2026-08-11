@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Jigglypuff",
-		fr: "Rondoudou",
+		'en-us': "Jigglypuff",
+		'fr-fr': "Rondoudou",
 	},
 
 	illustrator: "Mizue",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Singing Voice",
-				fr: "Voix Harmonieuse",
+				'en-us': "Singing Voice",
+				'fr-fr': "Voix Harmonieuse",
 			},
 
 			damage: 10,
@@ -43,8 +43,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
 			},
 
 			damage: 30,
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Recordings of Jigglypuff's strange lullabies can be purchased from department stores. These CDs can be found near the bedding area.",
+		'en-us': "Recordings of Jigglypuff's strange lullabies can be purchased from department stores. These CDs can be found near the bedding area.",
 	},
 
 	thirdParty: {

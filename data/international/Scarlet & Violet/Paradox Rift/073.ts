@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Latios",
-		fr: "Latios",
-		es: "Latios",
-		it: "Latios",
-		pt: "Latios",
-		de: "Latios"
+		'en-us': "Latios",
+		'fr-fr': "Latios",
+		'es-es': "Latios",
+		'it-it': "Latios",
+		'pt-br': "Latios",
+		'de-de': "Latios"
 	},
 
 	rarity: "Rare",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Glide",
-			fr: "Glissement",
-			es: "Planeo",
-			it: "Aliante",
-			pt: "Planeio",
-			de: "Gleiten"
+			'en-us': "Glide",
+			'fr-fr': "Glissement",
+			'es-es': "Planeo",
+			'it-it': "Aliante",
+			'pt-br': "Planeio",
+			'de-de': "Gleiten"
 		},
 
 		damage: 20
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			en: "Luster Purge",
-			fr: "Lumi-Éclat",
-			es: "Resplandor",
-			it: "Abbagliante",
-			pt: "Purga de Esplendor",
-			de: "Scheinwerfer"
+			'en-us': "Luster Purge",
+			'fr-fr': "Lumi-Éclat",
+			'es-es': "Resplandor",
+			'it-it': "Abbagliante",
+			'pt-br': "Purga de Esplendor",
+			'de-de': "Scheinwerfer"
 		},
 
 		effect: {
-			en: "Discard 3 Energy from this Pokémon.",
-			fr: "Défaussez 3 Énergies de ce Pokémon.",
-			es: "Descarta 3 Energías de este Pokémon.",
-			it: "Scarta tre Energie da questo Pokémon.",
-			pt: "Descarte 3 Energias deste Pokémon.",
-			de: "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard 3 Energy from this Pokémon.",
+			'fr-fr': "Défaussez 3 Énergies de ce Pokémon.",
+			'es-es': "Descarta 3 Energías de este Pokémon.",
+			'it-it': "Scarta tre Energie da questo Pokémon.",
+			'pt-br': "Descarte 3 Energias deste Pokémon.",
+			'de-de': "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 180
@@ -73,7 +73,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting.",
+		'en-us': "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting.",
 	},
 
 	variants: [

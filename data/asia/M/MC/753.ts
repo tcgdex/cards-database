@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グラエナ",
+		'ja-jp': "グラエナ",
 	},
 
 	illustrator: "Yano Keiji",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "優れた トレーナーの 命令には 絶対に 服従。大昔に 群れで 行動していた 名残り。",
+		'ja-jp': "優れた トレーナーの 命令には 絶対に 服従。大昔に 群れで 行動していた 名残り。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+				'ja-jp': "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ポチエナ",
+		'ja-jp': "ポチエナ",
 	},
 
 	retreat: 2,

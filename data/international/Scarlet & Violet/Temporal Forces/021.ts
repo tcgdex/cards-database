@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Brambleghast",
-		fr: "Virevorreur",
-		es: "Brambleghast",
-		it: "Brambleghast",
-		pt: "Brambleghast",
-		de: "Horrerba"
+		'en-us': "Brambleghast",
+		'fr-fr': "Virevorreur",
+		'es-es': "Brambleghast",
+		'it-it': "Brambleghast",
+		'pt-br': "Brambleghast",
+		'de-de': "Horrerba"
 	},
 
 	rarity: "Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Bramblin",
-		fr: "Virovent",
-		es: "Bramblin",
-		it: "Bramblin",
-		pt: "Bramblin",
-		de: "Weherba"
+		'en-us': "Bramblin",
+		'fr-fr': "Virovent",
+		'es-es': "Bramblin",
+		'it-it': "Bramblin",
+		'pt-br': "Bramblin",
+		'de-de': "Weherba"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Resilient Soul",
-			fr: "Âme Résiliente",
-			es: "Alma Resiliente",
-			it: "Anima Tenace",
-			pt: "Alma Resiliente",
-			de: "Unverwüstliche Seele"
+			'en-us': "Resilient Soul",
+			'fr-fr': "Âme Résiliente",
+			'es-es': "Alma Resiliente",
+			'it-it': "Anima Tenace",
+			'pt-br': "Alma Resiliente",
+			'de-de': "Unverwüstliche Seele"
 		},
 
 		effect: {
-			en: "This Pokémon gets +50 HP for each Prize card your opponent has taken.",
-			fr: "Ce Pokémon reçoit +50 PV pour chaque carte Récompense que votre adversaire a récupérée.",
-			es: "Este Pokémon obtiene 50 PS más por cada carta de Premio que haya cogido tu rival.",
-			it: "Questo Pokémon ha 50 PS in più per ogni carta Premio presa dal tuo avversario.",
-			pt: "Este Pokémon recebe 50 PS a mais para cada carta de Prêmio que seu oponente pegou.",
-			de: "Dieses Pokémon erhält für jede von deinem Gegner genommene Preiskarte +50 KP."
+			'en-us': "This Pokémon gets +50 HP for each Prize card your opponent has taken.",
+			'fr-fr': "Ce Pokémon reçoit +50 PV pour chaque carte Récompense que votre adversaire a récupérée.",
+			'es-es': "Este Pokémon obtiene 50 PS más por cada carta de Premio que haya cogido tu rival.",
+			'it-it': "Questo Pokémon ha 50 PS in più per ogni carta Premio presa dal tuo avversario.",
+			'pt-br': "Este Pokémon recebe 50 PS a mais para cada carta de Prêmio que seu oponente pegou.",
+			'de-de': "Dieses Pokémon erhält für jede von deinem Gegner genommene Preiskarte +50 KP."
 		}
 	}],
 
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Powerful Needles",
-			fr: "Piquants Puissants",
-			es: "Espinas Poderosas",
-			it: "Spine Poderose",
-			pt: "Espinhos Poderosos",
-			de: "Kräftige Stacheln"
+			'en-us': "Powerful Needles",
+			'fr-fr': "Piquants Puissants",
+			'es-es': "Espinas Poderosas",
+			'it-it': "Spine Poderose",
+			'pt-br': "Espinhos Poderosos",
+			'de-de': "Kräftige Stacheln"
 		},
 
 		effect: {
-			en: "Flip a coin for each Energy attached to this Pokémon. This attack does 80 damage for each heads.",
-			fr: "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 80 dégâts pour chaque côté face.",
-			es: "Lanza 1 moneda por cada Energía unida a este Pokémon. Este ataque hace 80 puntos de daño por cada cara.",
-			it: "Lancia una moneta per ogni Energia assegnata a questo Pokémon. Questo attacco infligge 80 danni ogni volta che esce testa.",
-			pt: "Jogue uma moeda para cada Energia ligada a este Pokémon. Este ataque causa 80 pontos de dano para cada cara.",
-			de: "Wirf 1 Münze für jede an dieses Pokémon angelegte Energie. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip a coin for each Energy attached to this Pokémon. This attack does 80 damage for each heads.",
+			'fr-fr': "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 80 dégâts pour chaque côté face.",
+			'es-es': "Lanza 1 moneda por cada Energía unida a este Pokémon. Este ataque hace 80 puntos de daño por cada cara.",
+			'it-it': "Lancia una moneta per ogni Energia assegnata a questo Pokémon. Questo attacco infligge 80 danni ogni volta che esce testa.",
+			'pt-br': "Jogue uma moeda para cada Energia ligada a este Pokémon. Este ataque causa 80 pontos de dano para cada cara.",
+			'de-de': "Wirf 1 Münze für jede an dieses Pokémon angelegte Energie. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "80×"
@@ -84,7 +84,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Brambleghast wanders around arid regions. On rare occasions, mass outbreaks of these Pokémon will bury an entire town.",
+		'en-us': "Brambleghast wanders around arid regions. On rare occasions, mass outbreaks of these Pokémon will bury an entire town.",
 	},
 
 	variants: [

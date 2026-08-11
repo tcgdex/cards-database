@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Flaaffy",
-		fr: "Lainergie",
-		de: "Waaty"
+		'en-us': "Flaaffy",
+		'fr-fr': "Lainergie",
+		'de-de': "Waaty"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mareep",
-		fr: "Wattouat"
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 20,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Jolt",
-				fr: "Secousse tonnerre",
-				de: "Donnerrüttler"
+				'en-us': "Thunder Jolt",
+				'fr-fr': "Secousse tonnerre",
+				'de-de': "Donnerrüttler"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Flaaffy does 20 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Lainergie s'inflige 20 dégâts.",
-				de: "Wirf eine Münze. Bei 'Zahl' fügt sich Waaty selber 20 Schadenspunkte zu."
+				'en-us': "Flip a coin. If tails, Flaaffy does 20 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Lainergie s'inflige 20 dégâts.",
+				'de-de': "Wirf eine Münze. Bei 'Zahl' fügt sich Waaty selber 20 Schadenspunkte zu."
 			},
 			damage: 50,
 

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Pokémon Breeder",
+		'en-us': "Pokémon Breeder",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -12,7 +12,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Put a Stage 2 Evolution card from your hand on the matching Basic Pokémon. You can only play this card when you would be allowed to evolve that Pokémon anyway.",
+		'en-us': "Put a Stage 2 Evolution card from your hand on the matching Basic Pokémon. You can only play this card when you would be allowed to evolve that Pokémon anyway.",
 	},
 
 

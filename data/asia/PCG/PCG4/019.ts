@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Entei Star",
+		'ja-jp': "Entei Star",
 	},
 
 	rarity: "Shiny rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Fire", "Colorless"],
 			name: {
-				ja: "燃えるターン",
+				'ja-jp': "燃えるターン",
 			},
 			effect: {
-				ja: "Switch Entei {{Star | This Pokemon}} 1つのベンチポケモンを備えています。",
+				'ja-jp': "Switch Entei {{Star | This Pokemon}} 1つのベンチポケモンを備えています。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Fire", "Fire", "Fire"],
 			name: {
-				ja: "爆発",
+				'ja-jp': "爆発",
 			},
 			effect: {
-				ja: "対戦相手よりも賞品が少ない場合は、デッキからトップ10のカードを捨ててください。",
+				'ja-jp': "対戦相手よりも賞品が少ない場合は、デッキからトップ10のカードを捨ててください。",
 			},
 			damage: 70,
 		},

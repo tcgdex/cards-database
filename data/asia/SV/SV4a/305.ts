@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ピジョン",
+		'ja-jp': "ピジョン",
 		'zh-tw': "比比鳥",
-		id: "Pidgeotto"
+		'id-id': "Pidgeotto"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "広い 縄張りを 持っており 侵入する 邪魔者は 徹底的に つつかれてしまう。",
+		'ja-jp': "広い 縄張りを 持っており 侵入する 邪魔者は 徹底的に つつかれてしまう。",
 		'zh-tw': "擁有著廣闊的地盤。要是有哪個討厭鬼膽敢入侵， 就會遭到牠的瘋狂啄擊。",
-		id: "Pidgeotto memiliki wilayah teritorial yang luas. Pokémon ini mematuk secara menyeluruh semua pengganggu yang menyusup ke wilayah tersebut."
+		'id-id': "Pidgeotto memiliki wilayah teritorial yang luas. Pokémon ini mematuk secara menyeluruh semua pengganggu yang menyusup ke wilayah tersebut."
 	},
 
 	stage: "Stage1",
@@ -28,9 +28,9 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "はばたく",
+			'ja-jp': "はばたく",
 			'zh-tw': "羽擊",
-			id: "Mengepak"
+			'id-id': "Mengepak"
 		},
 
 		damage: 20

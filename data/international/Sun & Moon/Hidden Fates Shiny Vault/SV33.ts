@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Kartana",
-		fr: "Katagami",
+		'en-us': "Kartana",
+		'fr-fr': "Katagami",
 	},
 	illustrator: "Anesaki Dynamic",
 	rarity: "Shiny rare",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Divine Paper",
-				fr: "Papier Sublime",
+				'en-us': "Divine Paper",
+				'fr-fr': "Papier Sublime",
 			},
 			effect: {
-				en: "If your opponent has exactly 6 Prize cards remaining, this attack does 90 more damage.",
-				fr: "S’il reste exactement 6 cartes Récompense à votre adversaire, cette attaque inflige 90 dégâts supplémentaires.",
+				'en-us': "If your opponent has exactly 6 Prize cards remaining, this attack does 90 more damage.",
+				'fr-fr': "S’il reste exactement 6 cartes Récompense à votre adversaire, cette attaque inflige 90 dégâts supplémentaires.",
 			},
 			damage: 40,
 
@@ -58,7 +58,7 @@ const card: Card = {
 
 
 	description: {
-		en: "One of the Ultra Beast life-forms, it was observed cutting down a gigantic steel tower with one stroke of its blade.",
+		'en-us': "One of the Ultra Beast life-forms, it was observed cutting down a gigantic steel tower with one stroke of its blade.",
 	},
 }
 

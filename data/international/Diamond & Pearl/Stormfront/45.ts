@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Pichu",
-		fr: "Pichu",
-		de: "Pichu"
+		'en-us': "Pichu",
+		'fr-fr': "Pichu",
+		'de-de': "Pichu"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		fr: "Pichu",
+		'fr-fr': "Pichu",
 	},
 
 	stage: "Basic",
@@ -33,14 +33,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Baby Evolution",
-				fr: "Évolution bébé",
-				de: "Baby Evolution"
+				'en-us': "Baby Evolution",
+				'fr-fr': "Évolution bébé",
+				'de-de': "Baby Evolution"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may put Pikachu from your hand onto Pichu (this counts as evolving Pichu) and remove all damage counters from Pichu.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Pikachu de votre main sur Pichu (vous le faites ainsi évoluer) et retirer à Pichu tous ses marqueurs de dégât.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du Pikachu von deiner Hand auf Pichu legen (das zählt als Entwickeln von Pichu). Entferne alle Schadensmarken von Pichu."
+				'en-us': "Once during your turn (before your attack), you may put Pikachu from your hand onto Pichu (this counts as evolving Pichu) and remove all damage counters from Pichu.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Pikachu de votre main sur Pichu (vous le faites ainsi évoluer) et retirer à Pichu tous ses marqueurs de dégât.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du Pikachu von deiner Hand auf Pichu legen (das zählt als Entwickeln von Pichu). Entferne alle Schadensmarken von Pichu."
 			},
 		},
 	],
@@ -49,14 +49,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Electric Circuit",
-				fr: "Circuit électrique",
-				de: "Stromkreis"
+				'en-us': "Electric Circuit",
+				'fr-fr': "Circuit électrique",
+				'de-de': "Stromkreis"
 			},
 			effect: {
-				en: "Search your discard pile for up to 4 Lightning Energy cards, show them to your opponent, and put them into your hand.",
-				fr: "Cherchez dans votre pile de défausse jusqu'à 4 cartes Énergie Lightning, montrez-les à votre adversaire et placez-les dans votre main.",
-				de: "Durchsuche deinen Ablagestapel nach bis zu 4 -Energiekarten, zeige sie deinem Gegner und nimm sie auf die Hand."
+				'en-us': "Search your discard pile for up to 4 Lightning Energy cards, show them to your opponent, and put them into your hand.",
+				'fr-fr': "Cherchez dans votre pile de défausse jusqu'à 4 cartes Énergie Lightning, montrez-les à votre adversaire et placez-les dans votre main.",
+				'de-de': "Durchsuche deinen Ablagestapel nach bis zu 4 -Energiekarten, zeige sie deinem Gegner und nimm sie auf die Hand."
 			},
 
 		},
@@ -79,8 +79,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The electric pouches on its cheeks are still small. They cannot store much electricity yet.",
-		fr: "Les poches sur ses joues sont encore trop petites pour accumuler beaucoup d'électricité."
+		'en-us': "The electric pouches on its cheeks are still small. They cannot store much electricity yet.",
+		'fr-fr': "Les poches sur ses joues sont encore trop petites pour accumuler beaucoup d'électricité."
 	},
 
 	thirdParty: {

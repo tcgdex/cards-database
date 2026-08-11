@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Trainer kits'
 
 const set: Set = {
 	id: "tk-hs-g",
 
 	name: {
-		en: "HS trainer Kit (Gyarados)",
-		it: "HS trainer Kit (Gyarados)",
-		fr: "HS Kit du dresseur (Léviator)",
-		es: "Kit de Entrenador HeatGold & SoulSilver (Gyarados)",
+		'en-us': "HS trainer Kit (Gyarados)",
+		'it-it': "HS trainer Kit (Gyarados)",
+		'fr-fr': "HS Kit du dresseur (Léviator)",
+		'es-es': "Kit de Entrenador HeatGold & SoulSilver (Gyarados)",
 	},
 
 	serie: serie,
@@ -21,7 +21,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "TK4G",
-		fr: "LEV"
+		'fr-fr': "LEV"
 	},
 
 	thirdParty: {

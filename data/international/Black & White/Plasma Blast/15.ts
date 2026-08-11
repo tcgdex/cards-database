@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Wartortle",
-		fr: "Carabaffe",
-		es: "Wartortle",
-		it: "Wartortle",
-		pt: "Wartortle",
-		de: "Schillok"
+		'en-us': "Wartortle",
+		'fr-fr': "Carabaffe",
+		'es-es': "Wartortle",
+		'it-it': "Wartortle",
+		'pt-br': "Wartortle",
+		'de-de': "Schillok"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Squirtle",
-		fr: "Carapuce",
+		'en-us': "Squirtle",
+		'fr-fr': "Carapuce",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Bubble",
-				fr: "Écume",
+				'en-us': "Bubble",
+				'fr-fr': "Écume",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 
 		},
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Spin",
-				fr: "Double Tour",
+				'en-us': "Double Spin",
+				'fr-fr': "Double Tour",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 30,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.",
+		'en-us': "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "謝米VSTAR",
-		ja: "シェイミVSTAR"
+		'ja-jp': "シェイミVSTAR"
 	},
 
 	illustrator: "5ban Graphics",
@@ -30,27 +30,27 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "復仇暴擊",
-			ja: "リベンジバースト"
+			'ja-jp': "リベンジバースト"
 		},
 
 		effect: {
 			'zh-tw': "增加對手已經獲得的獎賞卡的張數×40點傷害。",
-			ja: "相手がすでにとったサイドの枚数×40ダメージ追加。"
+			'ja-jp': "相手がすでにとったサイドの枚数×40ダメージ追加。"
 		},
 
 		damage: "120＋",
 		cost: ["Grass", "Colorless"]
 	}, {
 		name: {
-			ja: "特性"
+			'ja-jp': "特性"
 		}
 	}, {
 		name: {
-			ja: "スターブルーム"
+			'ja-jp': "スターブルーム"
 		},
 
 		effect: {
-			ja: "自分の番に使える。自分のベンチのポケモン全員のHPを、それぞれ「120」回復する。［対戦中、自分はVSTARパワーを1回しか使えない。］"
+			'ja-jp': "自分の番に使える。自分のベンチのポケモン全員のHPを、それぞれ「120」回復する。［対戦中、自分はVSTARパワーを1回しか使えない。］"
 		}
 	}],
 

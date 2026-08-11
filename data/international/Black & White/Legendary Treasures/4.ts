@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Cherubi",
+		'en-us': "Cherubi",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Spin",
+				'en-us': "Double Spin",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The small ball is not only filled with nutrients, it is also tasty. Starly try to peck it off.",
+		'en-us': "The small ball is not only filled with nutrients, it is also tasty. Starly try to peck it off.",
 	},
 
 	thirdParty: {

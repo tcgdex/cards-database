@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Ambipom"
+		'id-id': "Ambipom"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Ambipom menggunakan ekornya untuk melakukan segala hal. Jika ia memelukmu menggunakan kedua ekornya, ini tanda benar-benar disukai oleh Pokémon ini."
+		'id-id': "Ambipom menggunakan ekornya untuk melakukan segala hal. Jika ia memelukmu menggunakan kedua ekornya, ini tanda benar-benar disukai oleh Pokémon ini."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Mengumpulkan"
+			'id-id': "Mengumpulkan"
 		},
 
 		effect: {
-			id: "Ambil 2 kartu dari atas Deck sendiri."
+			'id-id': "Ambil 2 kartu dari atas Deck sendiri."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Hand Sling"
+			'id-id': "Hand Sling"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap lembar Kartu Pegangan sendiri."
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap lembar Kartu Pegangan sendiri."
 		},
 
 		damage: "20×",

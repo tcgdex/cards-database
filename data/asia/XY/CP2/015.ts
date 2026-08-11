@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルチャブル",
+		'ja-jp': "ルチャブル",
 	},
 
 	illustrator: "match",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "翼を 使い 空中で 姿勢を コントロール。 防ぎにくい 頭上から 攻撃を 仕掛ける。",
+		'ja-jp': "翼を 使い 空中で 姿勢を コントロール。 防ぎにくい 頭上から 攻撃を 仕掛ける。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Fighting", "Fighting"],
 			effect: {
-				ja: "このワザのダメージは抵抗力の計算をしない。",
+				'ja-jp': "このワザのダメージは抵抗力の計算をしない。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トロッゴン",
+		'ja-jp': "トロッゴン",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "感情が 昂ると 体内の 温度が 上昇。 炎を 吹きながら 忙しなく 走る。",
+		'ja-jp': "感情が 昂ると 体内の 温度が 上昇。 炎を 吹きながら 忙しなく 走る。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Fighting"],
 			effect: {
-				ja: "コインを1回投げオモテなら、40ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、40ダメージ追加。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "タンドン",
+		'ja-jp': "タンドン",
 	},
 
 	retreat: 4,

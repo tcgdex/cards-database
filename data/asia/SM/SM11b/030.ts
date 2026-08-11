@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モグリュー",
+		'ja-jp': "モグリュー",
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "両手の ツメを 重ね合わせて 体を 高速 回転させると 猛スピードで 地中を 進む。",
+		'ja-jp': "両手の ツメを 重ね合わせて 体を 高速 回転させると 猛スピードで 地中を 進む。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "たがやす" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュにある好きなカードを1枚、相手に見せてから、山札にもどして切る。",
+				'ja-jp': "自分のトラッシュにある好きなカードを1枚、相手に見せてから、山札にもどして切る。",
 			},
 		},
 		{

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	dexId: [772],
 	name: {
-		en: "Type: Null",
-		fr: "Type:0",
+		'en-us': "Type: Null",
+		'fr-fr': "Type:0",
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Shiny rare",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Armor Press",
-				fr: "Pression Cuirassée",
+				'en-us': "Armor Press",
+				'fr-fr': "Pression Cuirassée",
 			},
 			effect: {
-				en: "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+				'en-us': "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
 			},
 			damage: 30,
 
@@ -45,8 +45,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slashing Claw",
-				fr: "Griffe Taillante",
+				'en-us': "Slashing Claw",
+				'fr-fr': "Griffe Taillante",
 			},
 
 			damage: 70,
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The heavy control mask it wears suppresses its intrinsic capabilities. This Pokémon has some hidden special power.",
+		'en-us': "The heavy control mask it wears suppresses its intrinsic capabilities. This Pokémon has some hidden special power.",
 	},
 }
 

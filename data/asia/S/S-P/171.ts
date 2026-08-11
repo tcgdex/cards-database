@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴリランダーVMAX",
+		'ja-jp': "ゴリランダーVMAX",
 		'zh-tw': "駒刀小兵",
 	},
 
@@ -18,13 +18,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "キョダイコランダ",
+				'ja-jp': "キョダイコランダ",
 				'zh-tw': "突擊",
 			},
 			damage: 180,
 			cost: ["Grass", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン2匹にも、それぞれ40ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン2匹にも、それぞれ40ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 				'zh-tw': "這隻寶可夢也受到10點傷害。",
 			},
 		},
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴリランダーV",
+		'ja-jp': "ゴリランダーV",
 	},
 
 	retreat: 3,

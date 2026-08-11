@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イワパレス",
+		'ja-jp': "イワパレス",
 		'zh-tw': "岩殿居蟹",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "太い ツメが 最大の 武器。 ドサイドンの プロテクターにさえ ひびを 入れるほど 硬いぞ。",
+		'ja-jp': "太い ツメが 最大の 武器。 ドサイドンの プロテクターにさえ ひびを 入れるほど 硬いぞ。",
 		'zh-tw': "厚實的鉗子是牠最大的武器。硬度高到甚至能讓超甲狂犀的護具裂開。",
 	},
 
@@ -23,19 +23,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "シザークロス",
+				'ja-jp': "シザークロス",
 				'zh-tw': "強化拳",
 			},
 			damage: "30+",
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、60ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、60ダメージ追加。",
 				'zh-tw': "若這隻寶可夢身上附有「寶可夢道具」，則增加90點傷害。",
 			},
 		},
 		{
 			name: {
-				ja: "ぶちかます",
+				'ja-jp': "ぶちかます",
 				'zh-tw': "百萬噸墜落",
 			},
 			damage: 130,
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イシズマイ",
+		'ja-jp': "イシズマイ",
 	},
 
 	retreat: 3,

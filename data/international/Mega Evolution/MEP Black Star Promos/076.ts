@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Crobat",
-		fr: "Nostenfer",
-		es: "Crobat",
+		'en-us': "Crobat",
+		'fr-fr': "Nostenfer",
+		'es-es': "Crobat",
 		'es-mx': "Crobat",
-		de: "Iksbat",
-		it: "Crobat",
-		pt: "Crobat"
+		'de-de': "Iksbat",
+		'it-it': "Crobat",
+		'pt-br': "Crobat"
 	},
 
 	illustrator: "Apios",
@@ -23,36 +23,36 @@ const card: Card = {
 	dexId: [169],
 
 	evolveFrom: {
-		en: "Golbat",
-		fr: "Nosferalto",
-		es: "Golbat",
+		'en-us': "Golbat",
+		'fr-fr': "Nosferalto",
+		'es-es': "Golbat",
 		'es-mx': "Golbat",
-		de: "Golbat",
-		it: "Golbat",
-		pt: "Golbat"
+		'de-de': "Golbat",
+		'it-it': "Golbat",
+		'pt-br': "Golbat"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			en: "Nighttime Maneuvers",
-			fr: "Manigances Nocturnes",
-			es: "Maniobras de Medianoche",
+			'en-us': "Nighttime Maneuvers",
+			'fr-fr': "Manigances Nocturnes",
+			'es-es': "Maniobras de Medianoche",
 			'es-mx': "Maniobras de Medianoche",
-			de: "Manöver bei Nacht",
-			it: "Manovre nell'Oscurità",
-			pt: "Manobras na Penumbra"
+			'de-de': "Manöver bei Nacht",
+			'it-it': "Manovre nell'Oscurità",
+			'pt-br': "Manobras na Penumbra"
 		},
 
 		effect: {
-			en: "Once during your turn, if this Pokémon is in the Active Spot, you may use this Ability. Search your deck for a card. Shuffle your deck, then put that card on top of it.",
-			fr: "Une fois pendant votre tour, si ce Pokémon est sur le Poste Actif, vous pouvez utiliser ce talent. Cherchez dans votre deck une carte. Mélangez votre deck, puis placez cette carte sur le dessus de votre deck.",
-			es: "Una vez durante tu turno, si este Pokémon está en el Puesto Activo, puedes usar esta habilidad. Busca en tu baraja 1 carta. Baraja las cartas de tu baraja y, luego, pon esa carta en la parte superior de tu baraja.",
+			'en-us': "Once during your turn, if this Pokémon is in the Active Spot, you may use this Ability. Search your deck for a card. Shuffle your deck, then put that card on top of it.",
+			'fr-fr': "Une fois pendant votre tour, si ce Pokémon est sur le Poste Actif, vous pouvez utiliser ce talent. Cherchez dans votre deck une carte. Mélangez votre deck, puis placez cette carte sur le dessus de votre deck.",
+			'es-es': "Una vez durante tu turno, si este Pokémon está en el Puesto Activo, puedes usar esta habilidad. Busca en tu baraja 1 carta. Baraja las cartas de tu baraja y, luego, pon esa carta en la parte superior de tu baraja.",
 			'es-mx': "Una vez durante tu turno, si este Pokémon está en el Puesto Activo, puedes usar esta habilidad. Busca en tu baraja 1 carta. Baraja las cartas de tu baraja y, luego, pon esa carta en la parte superior de tu baraja.",
-			de: "Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du diese Fähigkeit einsetzen. Durchsuche dein Deck nach 1 Karte. Mische dein Deck und lege anschließend jene Karte darauf.",
-			it: "Una sola volta durante il tuo turno, se questo Pokémon è in posizione attiva, puoi usare questa abilità. Cerca nel tuo mazzo una carta. Rimischia il tuo mazzo, poi metti quella carta in cima al mazzo.",
-			pt: "Uma vez durante o seu turno, se este Pokémon estiver no Campo Ativo, você poderá usar esta Habilidade. Procure por 1 carta no seu baralho. Embaralhe o seu baralho e, em seguida, coloque aquela carta como a carta de cima do seu baralho."
+			'de-de': "Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du diese Fähigkeit einsetzen. Durchsuche dein Deck nach 1 Karte. Mische dein Deck und lege anschließend jene Karte darauf.",
+			'it-it': "Una sola volta durante il tuo turno, se questo Pokémon è in posizione attiva, puoi usare questa abilità. Cerca nel tuo mazzo una carta. Rimischia il tuo mazzo, poi metti quella carta in cima al mazzo.",
+			'pt-br': "Uma vez durante o seu turno, se este Pokémon estiver no Campo Ativo, você poderá usar esta Habilidade. Procure por 1 carta no seu baralho. Embaralhe o seu baralho e, em seguida, coloque aquela carta como a carta de cima do seu baralho."
 		}
 	}],
 
@@ -60,23 +60,23 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Poison Sound Wave",
-			fr: "Onde Sonore Toxique",
-			es: "Onda Sónica Venenosa",
+			'en-us': "Poison Sound Wave",
+			'fr-fr': "Onde Sonore Toxique",
+			'es-es': "Onda Sónica Venenosa",
 			'es-mx': "Onda Sónica Venenosa",
-			de: "Gift-Schallwelle",
-			it: "Onda Sonora Velenosa",
-			pt: "Vibração Venenosa"
+			'de-de': "Gift-Schallwelle",
+			'it-it': "Onda Sonora Velenosa",
+			'pt-br': "Vibração Venenosa"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused and Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido y Envenenado.",
+			'en-us': "Your opponent's Active Pokémon is now Confused and Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido y Envenenado.",
 			'es-mx': "El Pokémon Activo de tu rival pasa a estar Confundido y Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt und vergiftet.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso e avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso e Envenenado."
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt und vergiftet.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso e avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso e Envenenado."
 		},
 
 		damage: 80

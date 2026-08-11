@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "คุวากานอน",
-		id: "Vikavolt"
+		'th-th': "คุวากานอน",
+		'id-id': "Vikavolt"
 	},
 
 	illustrator: "Shiburingaru",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		th: "อุ้มเด็นจิมูชิไว้และรับไฟฟ้าจากเด็นจิมูชิ ยิงลำแสงคลื่นแม่เหล็กรุนแรงออกมาจากขากรรไกรขนาดใหญ่ได้อย่างต่อเนื่อง",
-		id: "Vikavolt mendapatkan listrik dengan membawa Charjabug dan menembakkan sinar elektromagnet yang kuat secara beruntun dari dagu besarnya."
+		'th-th': "อุ้มเด็นจิมูชิไว้และรับไฟฟ้าจากเด็นจิมูชิ ยิงลำแสงคลื่นแม่เหล็กรุนแรงออกมาจากขากรรไกรขนาดใหญ่ได้อย่างต่อเนื่อง",
+		'id-id': "Vikavolt mendapatkan listrik dengan membawa Charjabug dan menembakkan sinar elektromagnet yang kuat secara beruntun dari dagu besarnya."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			th: "โวลต์เชนจ์",
-			id: "Volt Change"
+			'th-th': "โวลต์เชนจ์",
+			'id-id': "Volt Change"
 		},
 
 		effect: {
-			th: "สลับโปเกมอนนี้กับโปเกมอน[สายฟ้า]บนเบนช์",
-			id: "Tukar Pokémon ini dengan Pokémon {Listrik} di Cadangan."
+			'th-th': "สลับโปเกมอนนี้กับโปเกมอน[สายฟ้า]บนเบนช์",
+			'id-id': "Tukar Pokémon ini dengan Pokémon {Listrik} di Cadangan."
 		},
 
 		damage: 90,
 		cost: ["Lightning"]
 	}, {
 		name: {
-			th: "สปาร์กกิงแอทแทก",
-			id: "Sparking Attack"
+			'th-th': "สปาร์กกิงแอทแทก",
+			'id-id': "Sparking Attack"
 		},
 
 		damage: 240,

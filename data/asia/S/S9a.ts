@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../S'
 
 const set: Set = {
 	id: 'S9a',
 
 	name: {
-		ja: 'バトルリージョン',
-		ko: '배틀리전',
+		'ja-jp': 'バトルリージョン',
+		'ko-kr': '배틀리전',
 		'zh-tw': '對戰地區',
-		id: 'Pertarungan Daerah',
-		th: 'พสุธามหายุทธ'
+		'id-id': 'Pertarungan Daerah',
+		'th-th': 'พสุธามหายุทธ'
 	},
 
 	serie: serie,
@@ -19,10 +19,10 @@ const set: Set = {
 	},
 
 	releaseDate: {
-		ja: '2022-02-25',
+		'ja-jp': '2022-02-25',
 		'zh-tw': '2022-03-11',
-		th: '2022-04-29',
-		id: '2022-04-22'
+		'th-th': '2022-04-29',
+		'id-id': '2022-04-22'
 	},
 
 	thirdParty: {

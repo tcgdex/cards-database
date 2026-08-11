@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2011'
 
 const card: Card = {
@@ -9,28 +9,28 @@ const card: Card = {
 	dexId: [498],
 
 	description: {
-		en: "It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead."
+		'en-us': "It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Ember",
-			fr: "Flammèche"
+			'en-us': "Ember",
+			'fr-fr': "Flammèche"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "Discard an Energy attached to this Pokémon.",
-			fr: "Défaussez une Énergie attachée à ce Pokémon."
+			'en-us': "Discard an Energy attached to this Pokémon.",
+			'fr-fr': "Défaussez une Énergie attachée à ce Pokémon."
 		}
 	}],
 
 	name: {
-		en: "Tepig",
-		fr: "Gruikui"
+		'en-us': "Tepig",
+		'fr-fr': "Gruikui"
 	},
 
 	rarity: "None",

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Clefairy",
-		fr: "Mélofée",
-		es: "Clefairy",
-		it: "Clefairy",
-		pt: "Clefairy",
-		de: "Piepi"
+		'en-us': "Clefairy",
+		'fr-fr': "Mélofée",
+		'es-es': "Clefairy",
+		'it-it': "Clefairy",
+		'pt-br': "Clefairy",
+		'de-de': "Piepi"
 	},
 
 	illustrator: "0313",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Slap",
-				fr: "Torgnoles",
-				es: "Doble Bofetón",
-				it: "Doppiasberla",
-				pt: "Tapa Duplo",
-				de: "Duplexhieb"
+				'en-us': "Double Slap",
+				'fr-fr': "Torgnoles",
+				'es-es': "Doble Bofetón",
+				'it-it': "Doppiasberla",
+				'pt-br': "Tapa Duplo",
+				'de-de': "Duplexhieb"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
-				es: "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
-				it: "Lancia due volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
-				pt: "Jogue 2 moedas. Este ataque causa 10 pontos de dano para cada cara.",
-				de: "Wirf 2 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
+				'en-us': "Flip 2 coins. This attack does 10 damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+				'it-it': "Lancia due volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 2 moedas. Este ataque causa 10 pontos de dano para cada cara.",
+				'de-de': "Wirf 2 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
 			},
 			damage: "10×",
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They're popular, but they're rare. Trainers who show them off recklessly may be targeted by thieves.",
+		'en-us': "They're popular, but they're rare. Trainers who show them off recklessly may be targeted by thieves.",
 	},
 
 	thirdParty: {

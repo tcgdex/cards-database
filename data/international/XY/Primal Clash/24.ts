@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Magcargo",
-		fr: "Volcaropod",
-		es: "Magcargo",
-		it: "Magcargo",
-		pt: "Magcargo",
-		de: "Magcargo"
+		'en-us': "Magcargo",
+		'fr-fr': "Volcaropod",
+		'es-es': "Magcargo",
+		'it-it': "Magcargo",
+		'pt-br': "Magcargo",
+		'de-de': "Magcargo"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Slugma",
-		fr: "Limagma",
-		es: "Slugma",
-		it: "Slugma",
-		pt: "Slugma",
-		de: "Schneckmag"
+		'en-us': "Slugma",
+		'fr-fr': "Limagma",
+		'es-es': "Slugma",
+		'it-it': "Slugma",
+		'pt-br': "Slugma",
+		'de-de': "Schneckmag"
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ancient Trait",
 			name: {
-				fr: "Barrière Ω",
-				en: "Ω Barrier",
-				es: "{title}:",
-				it: "{title}:",
-				pt: "{title}:",
-				de: "{title}:"
+				'fr-fr': "Barrière Ω",
+				'en-us': "Ω Barrier",
+				'es-es': "{title}:",
+				'it-it': "{title}:",
+				'pt-br': "{title}:",
+				'de-de': "{title}:"
 			},
 			effect: {
-				fr: "Chaque fois que votre adversaire joue une carte Dresseur (excepté les Outils Pokémon et les cartes Stade), évitez tous les effets de la carte Dresseur sur ce Pokémon.",
-				en: "Whenever your opponent plays a Trainer card (excluding Pokémon Tools and Stadium cards), prevent all effects of that card done to this Pokémon.",
-				es: "{title}: Cada vez que tu rival juegue 1 carta de Entrenador (excluidas las cartas de Herramienta Pokémon y de Estadio), evita todos los efectos de esa carta infligidos a este Pokémon.",
-				it: "{title}: Ogni volta che il tuo avversario gioca una carta Allenatore (escluse le carte Oggetto Pokémon e Stadio), previeni tutti gli effetti di quella carta inflitti a questo Pokémon.",
-				pt: "{title}: Sempre que seu oponente jogar um card de Treinador (com excessão dos cards de Ferramenta Pokémon e Estádio), previna todos efeitos daquele card neste Pokémon.",
-				de: "{title}: Jedes Mal, wenn dein Gegner 1 Trainerkarte spielt (außer Pokémon-Ausrüstungen und Stadionkarten), verhindere sämtliche Effekte, die diese Karte diesem Pokémon zufügt."
+				'fr-fr': "Chaque fois que votre adversaire joue une carte Dresseur (excepté les Outils Pokémon et les cartes Stade), évitez tous les effets de la carte Dresseur sur ce Pokémon.",
+				'en-us': "Whenever your opponent plays a Trainer card (excluding Pokémon Tools and Stadium cards), prevent all effects of that card done to this Pokémon.",
+				'es-es': "{title}: Cada vez que tu rival juegue 1 carta de Entrenador (excluidas las cartas de Herramienta Pokémon y de Estadio), evita todos los efectos de esa carta infligidos a este Pokémon.",
+				'it-it': "{title}: Ogni volta che il tuo avversario gioca una carta Allenatore (escluse le carte Oggetto Pokémon e Stadio), previeni tutti gli effetti di quella carta inflitti a questo Pokémon.",
+				'pt-br': "{title}: Sempre que seu oponente jogar um card de Treinador (com excessão dos cards de Ferramenta Pokémon e Estádio), previna todos efeitos daquele card neste Pokémon.",
+				'de-de': "{title}: Jedes Mal, wenn dein Gegner 1 Trainerkarte spielt (außer Pokémon-Ausrüstungen und Stadionkarten), verhindere sämtliche Effekte, die diese Karte diesem Pokémon zufügt."
 			},
 		},
 	],
@@ -66,12 +66,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 30,
@@ -84,20 +84,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Indomitable Blaze",
-				fr: "Brasier Indomptable",
-				es: "Fuego Indomable",
-				it: "Fiamma Indomita",
-				pt: "Labareda Indomável",
-				de: "Unbezwingbare Feuersbrunst"
+				'en-us': "Indomitable Blaze",
+				'fr-fr': "Brasier Indomptable",
+				'es-es': "Fuego Indomable",
+				'it-it': "Fiamma Indomita",
+				'pt-br': "Labareda Indomável",
+				'de-de': "Unbezwingbare Feuersbrunst"
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is a Pokémon-EX, this attack does 60 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-EX, cette attaque inflige 60 dégâts supplémentaires.",
-				es: "Si el Pokémon Activo de tu rival es un Pokémon-EX, este ataque hace 60 puntos de daño más.",
-				it: "Se il Pokémon attivo del tuo avversario è un Pokémon-EX, questo attacco infligge 60 danni in più.",
-				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon-EX, esse ataque causará 60 de danos adicionais.",
-				de: "Wenn das Aktive Pokémon deines Gegners ein Pokémon-EX ist, fügt dieser Angriff 60 weitere Schadenspunkte zu."
+				'en-us': "If your opponent's Active Pokémon is a Pokémon-EX, this attack does 60 more damage.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon-EX, cette attaque inflige 60 dégâts supplémentaires.",
+				'es-es': "Si el Pokémon Activo de tu rival es un Pokémon-EX, este ataque hace 60 puntos de daño más.",
+				'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon-EX, questo attacco infligge 60 danni in più.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon-EX, esse ataque causará 60 de danos adicionais.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners ein Pokémon-EX ist, fügt dieser Angriff 60 weitere Schadenspunkte zu."
 			},
 			damage: "60+",
 
@@ -114,7 +114,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its body is as hot as lava and is always billowing. Flames will occasionally burst from its shell.",
+		'en-us': "Its body is as hot as lava and is always billowing. Flames will occasionally burst from its shell.",
 	},
 
 	thirdParty: {

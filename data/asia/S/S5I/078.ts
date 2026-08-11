@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S5I";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムーランドV",
+		'ja-jp': "ムーランドV",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージで、相手のたねポケモンがきぜつしたなら、サイドを1枚多くとる。",
+				'ja-jp': "このワザのダメージで、相手のたねポケモンがきぜつしたなら、サイドを1枚多くとる。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 			},
 		},
 	],

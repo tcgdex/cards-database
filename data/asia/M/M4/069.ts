@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミルホッグ",
+		'ja-jp': "ミルホッグ",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "体内の 発光物質で 目玉や 体を 光らせ 襲ってきた 敵を ひるませる。",
+		'ja-jp': "体内の 発光物質で 目玉や 体を 光らせ 襲ってきた 敵を ひるませる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ぬきうちチェック" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを3回投げる。オモテが出たなら、相手の手札を見て、その中からカードをオモテの数ぶん選び、相手の山札にもどして切る。",
+				'ja-jp': "コインを3回投げる。オモテが出たなら、相手の手札を見て、その中からカードをオモテの数ぶん選び、相手の山札にもどして切る。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ミネズミ",
+		'ja-jp': "ミネズミ",
 	},
 
 	retreat: 1,

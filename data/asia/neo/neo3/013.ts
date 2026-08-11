@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "staryu",
+		'ja-jp': "staryu",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "取り組む",
+				'ja-jp': "取り組む",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Water"],
 			name: {
-				ja: "バブルビーム",
+				'ja-jp': "バブルビーム",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 10,
 		},

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Lampent",
-		fr: "Mélancolux",
-		es: "Lampent",
-		it: "Lampent",
-		pt: "Lampent",
-		de: "Laternecto"
+		'en-us': "Lampent",
+		'fr-fr': "Mélancolux",
+		'es-es': "Lampent",
+		'it-it': "Lampent",
+		'pt-br': "Lampent",
+		'de-de': "Laternecto"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Litwick",
-		fr: "Funécire",
+		'en-us': "Litwick",
+		'fr-fr': "Funécire",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Freefloating",
-				fr: "Apesanteur",
-				es: "Ingravidez",
-				it: "Fluttuare",
-				pt: "Flutuação Livre",
-				de: "Freifahrtschein"
+				'en-us': "Freefloating",
+				'fr-fr': "Apesanteur",
+				'es-es': "Ingravidez",
+				'it-it': "Fluttuare",
+				'pt-br': "Flutuação Livre",
+				'de-de': "Freifahrtschein"
 			},
 			effect: {
-				en: "If this Pokémon has no Energy attached to it, this Pokémon has no Retreat Cost.",
-				fr: "Si aucune Énergie n’est attachée à ce Pokémon, ce Pokémon n’a pas de coût de Retraite.",
-				es: "Si este Pokémon no tiene ninguna Energía unida a él, este Pokémon no tiene Coste de Retirada.",
-				it: "Se questo Pokémon non ha delle Energie assegnate, non ha costo di ritirata.",
-				pt: "Se este Pokémon não possuir Energia ligada a ele, ele não terá Custo para Recuar.",
-				de: "Wenn an dieses Pokémon keine Energie angelegt ist, hat dieses Pokémon keine Rückzugskosten."
+				'en-us': "If this Pokémon has no Energy attached to it, this Pokémon has no Retreat Cost.",
+				'fr-fr': "Si aucune Énergie n’est attachée à ce Pokémon, ce Pokémon n’a pas de coût de Retraite.",
+				'es-es': "Si este Pokémon no tiene ninguna Energía unida a él, este Pokémon no tiene Coste de Retirada.",
+				'it-it': "Se questo Pokémon non ha delle Energie assegnate, non ha costo di ritirata.",
+				'pt-br': "Se este Pokémon não possuir Energia ligada a ele, ele não terá Custo para Recuar.",
+				'de-de': "Wenn an dieses Pokémon keine Energie angelegt ist, hat dieses Pokémon keine Rückzugskosten."
 			},
 		},
 	],
@@ -62,8 +62,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Will-O-Wisp",
-				fr: "Feu Follet",
+				'en-us': "Will-O-Wisp",
+				'fr-fr': "Feu Follet",
 			},
 
 			damage: 20,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The spirits it absorbs fuel its baleful fire. It hangs around hospitals waiting for people to pass on.",
+		'en-us': "The spirits it absorbs fuel its baleful fire. It hangs around hospitals waiting for people to pass on.",
 	},
 
 	thirdParty: {

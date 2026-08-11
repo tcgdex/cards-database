@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Growlithe"
+		'en-us': "Blaine's Growlithe"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -28,10 +28,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Blaze"
+				'en-us': "Blaze"
 			},
 			effect: {
-				en: "Does 10 damage to each Grass Pokémon on your opponent's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Does 10 damage to each Grass Pokémon on your opponent's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 20,
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Dragonite ex",
-		fr: "Dracolosse ex",
-		de: "Dragoran ex"
+		'en-us': "Dragonite ex",
+		'fr-fr': "Dracolosse ex",
+		'de-de': "Dragoran ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dragonair",
-		fr: "Draco"
+		'en-us': "Dragonair",
+		'fr-fr': "Draco"
 	},
 
 	suffix: "ex",
@@ -33,14 +33,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Call for Power",
-				fr: "Appel à la puissance",
-				de: "Call for Power"
+				'en-us': "Call for Power",
+				'fr-fr': "Appel à la puissance",
+				'de-de': "Call for Power"
 			},
 			effect: {
-				en: "As often as you like during your turn, you may move an Energy card attached to 1 of your Pokémon to Dragonite ex. This power can't be used if Dragonite ex is affected by a Special Condition.",
-				fr: "Autant de fois que vous le voulez lors de votre tour, vous pouvez attacher à Dracolosse ex une carte Énergie attachée à un de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Dracolosse ex est affecté par un État spécial.",
-				de: "As often as you like during your turn, you may mova an Energy card attached to 1 of your Pokémon to Dragonite ex. This power can't be used if Dragonite ex is affected by a Special Condition."
+				'en-us': "As often as you like during your turn, you may move an Energy card attached to 1 of your Pokémon to Dragonite ex. This power can't be used if Dragonite ex is affected by a Special Condition.",
+				'fr-fr': "Autant de fois que vous le voulez lors de votre tour, vous pouvez attacher à Dracolosse ex une carte Énergie attachée à un de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Dracolosse ex est affecté par un État spécial.",
+				'de-de': "As often as you like during your turn, you may mova an Energy card attached to 1 of your Pokémon to Dragonite ex. This power can't be used if Dragonite ex is affected by a Special Condition."
 			},
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Dragon Wave",
-				fr: "Vague de dragon",
-				de: "Dragon Wave"
+				'en-us': "Dragon Wave",
+				'fr-fr': "Vague de dragon",
+				'de-de': "Dragon Wave"
 			},
 			effect: {
-				en: "Discard a Water Energy card and a Lightning Energy card attached to Dragonite ex.",
-				fr: "Défaussez une carte Énergie  et une carte Énergie  attachée à Dracolosse ex.",
-				de: "Discard a  Energy card and a  card attached to Dragonite ex."
+				'en-us': "Discard a Water Energy card and a Lightning Energy card attached to Dragonite ex.",
+				'fr-fr': "Défaussez une carte Énergie  et une carte Énergie  attachée à Dracolosse ex.",
+				'de-de': "Discard a  Energy card and a  card attached to Dragonite ex."
 			},
 			damage: 70,
 
@@ -72,14 +72,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giant Tail",
-				fr: "Longue queue",
-				de: "Giant Tail"
+				'en-us': "Giant Tail",
+				'fr-fr': "Longue queue",
+				'de-de': "Giant Tail"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Flip a coin. If tails, this attack does nothing."
 			},
 			damage: 120,
 

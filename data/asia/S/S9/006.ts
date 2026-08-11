@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "草苗龜",
-		ja: "ナエトル"
+		'ja-jp': "ナエトル"
 	},
 
 	illustrator: "Narumi Sato",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "用全身進行光合作用，製造氧氣。當口渴的時候， 頭上的葉子就會枯萎。",
-		ja: "全身で 光合成を して 酸素を 作る。 のどが 渇くと 頭の 葉っぱが しおれてしまう。"
+		'ja-jp': "全身で 光合成を して 酸素を 作る。 のどが 渇くと 頭の 葉っぱが しおれてしまう。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "咬住",
-			ja: "かみつく"
+			'ja-jp': "かみつく"
 		},
 
 		damage: 10,
@@ -32,7 +32,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "魯莽頭擊",
-			ja: "とびだしヘッド"
+			'ja-jp': "とびだしヘッド"
 		},
 
 		damage: 20,

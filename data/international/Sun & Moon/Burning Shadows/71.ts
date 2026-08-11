@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Lucario",
-		fr: "Lucario",
-		es: "Lucario",
-		it: "Lucario",
-		pt: "Lucario",
-		de: "Lucario"
+		'en-us': "Lucario",
+		'fr-fr': "Lucario",
+		'es-es': "Lucario",
+		'it-it': "Lucario",
+		'pt-br': "Lucario",
+		'de-de': "Lucario"
 	},
 
 	illustrator: "nagimiso",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Riolu",
-		fr: "Riolu",
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Stance",
-				fr: "Position",
-				es: "Afirmación",
-				it: "Forma Mentis",
-				pt: "Em Posição",
-				de: "Abwehrhaltung"
+				'en-us': "Stance",
+				'fr-fr': "Position",
+				'es-es': "Afirmación",
+				'it-it': "Forma Mentis",
+				'pt-br': "Em Posição",
+				'de-de': "Abwehrhaltung"
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may prevent all effects of your opponent’s attacks, including damage, done to this Pokémon until the end of your opponent’s next turn.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon pendant votre tour, vous pouvez éviter tous les effets des attaques de votre adversaire, y compris les dégâts, infligés à ce Pokémon jusqu’à la fin du prochain tour de votre adversaire.",
-				es: "Cuando juegues este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes evitar todos los efectos de los ataques de tu rival, incluido el daño, infligidos a este Pokémon durante el próximo turno de tu rival.",
-				it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi prevenire tutti gli effetti degli attacchi del tuo avversario, inclusi i danni, inflitti a questo Pokémon fino alla fine del prossimo turno del tuo avversario.",
-				pt: "Quando você joga este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante a sua vez de jogar, você poderá prevenir todos os efeitos dos ataques do seu oponente, incluindo dano, causados a este Pokémon até o final da próxima vez de jogar do seu oponente.",
-				de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du bis zum Ende des nächsten Zuges deines Gegners alle Effekte von Attacken deines Gegners, einschließlich Schaden, die diesem Pokémon zugefügt werden, verhindern."
+				'en-us': "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may prevent all effects of your opponent’s attacks, including damage, done to this Pokémon until the end of your opponent’s next turn.",
+				'fr-fr': "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon pendant votre tour, vous pouvez éviter tous les effets des attaques de votre adversaire, y compris les dégâts, infligés à ce Pokémon jusqu’à la fin du prochain tour de votre adversaire.",
+				'es-es': "Cuando juegues este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes evitar todos los efectos de los ataques de tu rival, incluido el daño, infligidos a este Pokémon durante el próximo turno de tu rival.",
+				'it-it': "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi prevenire tutti gli effetti degli attacchi del tuo avversario, inclusi i danni, inflitti a questo Pokémon fino alla fine del prossimo turno del tuo avversario.",
+				'pt-br': "Quando você joga este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante a sua vez de jogar, você poderá prevenir todos os efeitos dos ataques do seu oponente, incluindo dano, causados a este Pokémon até o final da próxima vez de jogar do seu oponente.",
+				'de-de': "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du bis zum Ende des nächsten Zuges deines Gegners alle Effekte von Attacken deines Gegners, einschließlich Schaden, die diesem Pokémon zugefügt werden, verhindern."
 			},
 		},
 	],
@@ -63,12 +63,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Submarine Blow",
-				fr: "Coup Sous-Marin",
-				es: "Impacto Submarino",
-				it: "Colpo Sottomarino",
-				pt: "Golpe Submarino",
-				de: "Unterseehieb"
+				'en-us': "Submarine Blow",
+				'fr-fr': "Coup Sous-Marin",
+				'es-es': "Impacto Submarino",
+				'it-it': "Colpo Sottomarino",
+				'pt-br': "Golpe Submarino",
+				'de-de': "Unterseehieb"
 			},
 
 			damage: 120,
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Not only does it perceive auras, but it has also gained the power to control them. It employs them in battle.",
+		'en-us': "Not only does it perceive auras, but it has also gained the power to control them. It employs them in battle.",
 	},
 
 	thirdParty: {

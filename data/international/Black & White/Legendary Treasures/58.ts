@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Mismagius",
+		'en-us': "Mismagius",
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Misdreavus",
+		'en-us': "Misdreavus",
 	},
 
 	stage: "Stage1",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Absorb Life",
+				'en-us': "Absorb Life",
 			},
 			effect: {
-				en: "Heal 10 damage from this Pokémon.",
+				'en-us': "Heal 10 damage from this Pokémon.",
 			},
 			damage: 30,
 
@@ -49,7 +49,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spooky Shot",
+				'en-us': "Spooky Shot",
 			},
 
 			damage: 70,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power.",
+		'en-us': "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Vibrava",
-		fr: "Vibraninf",
-		es: "Vibrava",
-		it: "Vibrava",
-		pt: "Vibrava",
-		de: "Vibrava"
+		'en-us': "Vibrava",
+		'fr-fr': "Vibraninf",
+		'es-es': "Vibrava",
+		'it-it': "Vibrava",
+		'pt-br': "Vibrava",
+		'de-de': "Vibrava"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Trapinch",
-		fr: "Kraknoix",
+		'en-us': "Trapinch",
+		'fr-fr': "Kraknoix",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Quick Turn",
-				fr: "Vif Retournement",
+				'en-us': "Quick Turn",
+				'fr-fr': "Vif Retournement",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 20,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sand Pulse",
-				fr: "Vibra Sable",
+				'en-us': "Sand Pulse",
+				'fr-fr': "Vibra Sable",
 			},
 			effect: {
-				en: "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 50,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The ultrasonic waves it generates by rubbing its two wings together cause severe headaches.",
+		'en-us': "The ultrasonic waves it generates by rubbing its two wings together cause severe headaches.",
 	},
 
 	thirdParty: {

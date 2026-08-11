@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Chimchar",
-		fr: "Ouisticram",
-		de: "Panflam"
+		'en-us': "Chimchar",
+		'fr-fr': "Ouisticram",
+		'de-de': "Panflam"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -27,12 +27,12 @@ const card: Card = {
 
 	item: {
 		name: {
-			fr: "Baie Ceriz",
-			de: 'Amrenabeere'
+			'fr-fr': "Baie Ceriz",
+			'de-de': 'Amrenabeere'
 		},
 		effect: {
-			fr: "Si Ouisticram est Paralysé, retirez à Ouisticram l'État Spécial Paralysé à la fin du tour de chaque joueur.",
-			de: 'Wenn Panflam gelähmt ist, entferne am Ende jedes Zuges den Speziellen Zustand \'gelähmt\' von Panflam.'
+			'fr-fr': "Si Ouisticram est Paralysé, retirez à Ouisticram l'État Spécial Paralysé à la fin du tour de chaque joueur.",
+			'de-de': 'Wenn Panflam gelähmt ist, entferne am Ende jedes Zuges den Speziellen Zustand \'gelähmt\' von Panflam.'
 		}
 	},
 
@@ -42,14 +42,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Swipes",
-				fr: "Combo-griffe",
-				de: 'Kratzfurie'
+				'en-us': "Fury Swipes",
+				'fr-fr': "Combo-griffe",
+				'de-de': 'Kratzfurie'
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu. "
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu. "
 			},
 			damage: "10x",
 

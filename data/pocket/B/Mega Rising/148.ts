@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Murkrow"
+		'en-us': "Murkrow"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "If spotted, it will lure an unwary person\ninto chasing it, then lose the pursuer on\nmountain trails."
+		'en-us': "If spotted, it will lure an unwary person\ninto chasing it, then lose the pursuer on\nmountain trails."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Glide"
+			'en-us': "Glide"
 		},
 
 		damage: 20,

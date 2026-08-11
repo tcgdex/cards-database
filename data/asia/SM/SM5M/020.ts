@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レントラー",
+		'ja-jp': "レントラー",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "レントラーの 透視能力は 危険な ものを 発見するとき とても 役に立つのだ。",
+		'ja-jp': "レントラーの 透視能力は 危険な ものを 発見するとき とても 役に立つのだ。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "いかくのキバ" },
 			effect: {
-				ja: "このポケモンがバトル場にいるかぎり、相手のバトルポケモンが使うワザのダメージは、すべて「-30」される。",
+				'ja-jp': "このポケモンがバトル場にいるかぎり、相手のバトルポケモンが使うワザのダメージは、すべて「-30」される。",
 			},
 		},
 	],
@@ -33,7 +33,7 @@ const card: Card = {
 			name: { ja: "ボルテージアロー" },
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[雷]エネルギーをすべてトラッシュし、相手のポケモン1匹に、150ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "このポケモンについている[雷]エネルギーをすべてトラッシュし、相手のポケモン1匹に、150ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -51,7 +51,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ルクシオ",
+		'ja-jp': "ルクシオ",
 	},
 
 	retreat: 0,

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Jumpluff ex",
-		fr: "Cotovol-ex"
+		'en-us': "Jumpluff ex",
+		'fr-fr': "Cotovol-ex"
 	},
 
 	illustrator: "takashi shiraishi",
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Skiploom"
+		'en-us': "Skiploom"
 	},
 
 	stage: "Stage2",
@@ -26,16 +26,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Breeze-By Attack",
-			fr: "Attaque Zéphyr"
+			'en-us': "Breeze-By Attack",
+			'fr-fr': "Attaque Zéphyr"
 		},
 
 		damage: 70,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "You may switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Vous pouvez échanger ce Pokémon contre un de vos Pokémon de Banc."
+			'en-us': "You may switch this Pokémon with 1 of your Benched Pokémon.",
+			'fr-fr': "Vous pouvez échanger ce Pokémon contre un de vos Pokémon de Banc."
 		}
 	}],
 

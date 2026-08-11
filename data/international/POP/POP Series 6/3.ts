@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 6'
 
 const card: Card = {
 	name: {
-		en: "Manaphy",
-		fr: "Manaphy"
+		'en-us': "Manaphy",
+		'fr-fr': "Manaphy"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la famille"
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la famille"
 			},
 			effect: {
-				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck un Pokémon de Base et placez-le sur votre Banc. Ensuite, mélangez votre deck."
+				'en-us': "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck un Pokémon de Base et placez-le sur votre Banc. Ensuite, mélangez votre deck."
 			},
 
 		},
@@ -43,12 +43,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Aqua Ring",
-				fr: "Anneau hydro"
+				'en-us': "Aqua Ring",
+				'fr-fr': "Anneau hydro"
 			},
 			effect: {
-				en: "Switch Manaphy with 1 of your Benched Pokémon.",
-				fr: "Échangez Manaphy avec 1 des Pokémon de votre Banc."
+				'en-us': "Switch Manaphy with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez Manaphy avec 1 des Pokémon de votre Banc."
 			},
 			damage: 30,
 
@@ -62,7 +62,7 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "Born on a cold seafloor, it will swim great distances to return to its birthplace."
+		'en-us': "Born on a cold seafloor, it will swim great distances to return to its birthplace."
 	},
 
 	retreat: 1,

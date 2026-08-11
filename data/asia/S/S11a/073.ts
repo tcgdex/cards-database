@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドーブル",
+		'ja-jp': "ドーブル",
 	},
 
 	illustrator: "KIYOTAKA OSHIYAMA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "シッポの 先から でる 体液で マークを えがく。 マークに よっては マニアに 高値で 取引される。",
+		'ja-jp': "シッポの 先から でる 体液で マークを えがく。 マークに よっては マニアに 高値で 取引される。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "いろいろパレット" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を上から5枚見て、その中から基本エネルギーを好きなだけ選び、自分のポケモン1匹につける。残りのカードは山札にもどして切る。",
+				'ja-jp': "自分の山札を上から5枚見て、その中から基本エネルギーを好きなだけ選び、自分のポケモン1匹につける。残りのカードは山札にもどして切る。",
 			},
 		},
 		{

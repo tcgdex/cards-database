@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [278],
 
 	name: {
-		en: "Wingull",
-		fr: "Goélise",
-		es: "Wingull",
-		it: "Wingull",
-		pt: "Wingull",
-		de: "Wingull"
+		'en-us': "Wingull",
+		'fr-fr': "Goélise",
+		'es-es': "Wingull",
+		'it-it': "Wingull",
+		'pt-br': "Wingull",
+		'de-de': "Wingull"
 	},
 
 	illustrator: "0313",
@@ -24,20 +24,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collecte",
-				es: "Coleccionar",
-				it: "Tassa",
-				pt: "Coleta",
-				de: "Sammeln"
+				'en-us': "Collect",
+				'fr-fr': "Collecte",
+				'es-es': "Coleccionar",
+				'it-it': "Tassa",
+				'pt-br': "Coleta",
+				'de-de': "Sammeln"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				es: "Roba 1 carta.",
-				it: "Pesca una carta.",
-				pt: "Compre 1 carta.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'es-es': "Roba 1 carta.",
+				'it-it': "Pesca una carta.",
+				'pt-br': "Compre 1 carta.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse Vague",
-				es: "Chapoteo Ondulante",
-				it: "Schizzi d'Onda",
-				pt: "Onda Borrifante",
-				de: "Wellenplatscher"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse Vague",
+				'es-es': "Chapoteo Ondulante",
+				'it-it': "Schizzi d'Onda",
+				'pt-br': "Onda Borrifante",
+				'de-de': "Wellenplatscher"
 			},
 
 			damage: 20,
@@ -83,7 +83,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It makes its nest on sheer cliffs. Riding the sea breeze, it glides up into the expansive skies."
+		'en-us': "It makes its nest on sheer cliffs. Riding the sea breeze, it glides up into the expansive skies."
 	},
 
 	variants: [

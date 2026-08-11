@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HGSS Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Shuckle",
-		fr: "Caratroc"
+		'en-us': "Shuckle",
+		'fr-fr': "Caratroc"
 	},
 	illustrator: "match",
 	rarity: "Promo",
@@ -23,12 +23,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Fermenting Liquid",
-				fr: "Liquide fermenté"
+				'en-us': "Fermenting Liquid",
+				'fr-fr': "Liquide fermenté"
 			},
 			effect: {
-				en: "Whenever you attach an Energy card from your hand to Shuckle, draw a card.",
-				fr: "Lorsque vous attachez une carte Énergie de votre main à Caratroc, piochez une carte."
+				'en-us': "Whenever you attach an Energy card from your hand to Shuckle, draw a card.",
+				'fr-fr': "Lorsque vous attachez une carte Énergie de votre main à Caratroc, piochez une carte."
 			}
 		},
 	],
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shell Stunner",
-				fr: "Carafrappe"
+				'en-us': "Shell Stunner",
+				'fr-fr': "Carafrappe"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Shuckle by attacks during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, évitez tous les dégâts infligés à Caratroc par des attaques pendant le prochain tour de votre adversaire."
+				'en-us': "Flip a coin. If heads, prevent all damage done to Shuckle by attacks during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, évitez tous les dégâts infligés à Caratroc par des attaques pendant le prochain tour de votre adversaire."
 			},
 			damage: 20,
 
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still."
+		'en-us': "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still."
 	},
 
 	variants: [

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2013"
 
 const card: Card = {
 	name: {
-		fr: "Baggiguane",
+		'fr-fr': "Baggiguane",
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "None",
@@ -20,10 +20,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				fr: "Botte Secrète",
+				'fr-fr': "Botte Secrète",
 			},
 			effect: {
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: "10+",
 		}

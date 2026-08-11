@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ザシアン",
+		'ja-jp': "ザシアン",
 	},
 
 	illustrator: "Yoriyuki Ikegami",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "あらゆるものを 切り捨てるさまから  妖精王の剣 と 呼ばれ  敵味方に 恐れ崇められた。",
+		'ja-jp': "あらゆるものを 切り捨てるさまから  妖精王の剣 と 呼ばれ  敵味方に 恐れ崇められた。",
 	},
 
 	stage: "Basic",

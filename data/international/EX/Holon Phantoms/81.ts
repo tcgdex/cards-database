@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Psyduck δ",
-		fr: "Psykokwak δ",
-		de: "Enton"
+		'en-us': "Psyduck δ",
+		'fr-fr': "Psykokwak δ",
+		'de-de': "Enton"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,
@@ -44,14 +44,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Disable",
-				fr: "Entrave",
-				de: "Aussetzer"
+				'en-us': "Disable",
+				'fr-fr': "Entrave",
+				'de-de': "Aussetzer"
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
-				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire.",
-				de: "Wähle 1 Angriff des Verteidigenden Pokémon. Dieses Pokémon kann diesen Angriff im nächsten Zug deines Gegners nicht einsetzen."
+				'en-us': "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
+				'fr-fr': "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire.",
+				'de-de': "Wähle 1 Angriff des Verteidigenden Pokémon. Dieses Pokémon kann diesen Angriff im nächsten Zug deines Gegners nicht einsetzen."
 			},
 
 		},

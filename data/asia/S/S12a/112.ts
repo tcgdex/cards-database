@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヌメラ",
+		'ja-jp': "ヌメラ",
 		'zh-tw': "黏黏寶",
-		th: "นูเมรา",
+		'th-th': "นูเมรา",
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -15,9 +15,9 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "湿度 高き 木陰に 身を 潜める。 体表を覆う ぬめりとした 液体が 乾くと たちどころに 生気を 失う。",
+		'ja-jp': "湿度 高き 木陰に 身を 潜める。 体表を覆う ぬめりとした 液体が 乾くと たちどころに 生気を 失う。",
 		'zh-tw': "藏身在濕度較高的樹蔭下。 覆蓋著身體的黏糊液體一旦 乾枯，就會立刻失去生命力。",
-		th: "ซ่อนตัวอยู่ในเงาไม้ที่มีความชื้นสูง หากเมือกเหลวลื่น ๆ ที่ห่อหุ้มภายนอกร่างกายแห้งผาก ก็จะสิ้นลมไปในทันที",
+		'th-th': "ซ่อนตัวอยู่ในเงาไม้ที่มีความชื้นสูง หากเมือกเหลวลื่น ๆ ที่ห่อหุ้มภายนอกร่างกายแห้งผาก ก็จะสิ้นลมไปในทันที",
 	},
 
 	stage: "Basic",
@@ -25,18 +25,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "たいあたり",
+				'ja-jp': "たいあたり",
 				'zh-tw': "撞擊",
-				th: "พุ่งเข้าชน",
+				'th-th': "พุ่งเข้าชน",
 			},
 			damage: 10,
 			cost: ["Colorless"],
 		},
 		{
 			name: {
-				ja: "とかす",
+				'ja-jp': "とかす",
 				'zh-tw': "溶解",
-				th: "หลอมละลาย",
+				'th-th': "หลอมละลาย",
 			},
 			damage: 30,
 			cost: ["Water", "Metal"],

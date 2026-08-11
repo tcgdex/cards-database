@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cherubi",
-		fr: "Ceribou",
-		es: "Cherubi",
-		it: "Cherubi",
-		pt: "Cherubi",
-		de: "Kikugi"
+		'en-us': "Cherubi",
+		'fr-fr': "Ceribou",
+		'es-es': "Cherubi",
+		'it-it': "Cherubi",
+		'pt-br': "Cherubi",
+		'de-de': "Kikugi"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -25,21 +25,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Lively Fruit",
-			fr: "Fruit Enjoué",
-			es: "Fruta Vivaracha",
-			it: "Fruttovispo",
-			pt: "Fruta Feliz",
-			de: "Aufpäppelnde Frucht"
+			'en-us': "Lively Fruit",
+			'fr-fr': "Fruit Enjoué",
+			'es-es': "Fruta Vivaracha",
+			'it-it': "Fruttovispo",
+			'pt-br': "Fruta Feliz",
+			'de-de': "Aufpäppelnde Frucht"
 		},
 
 		effect: {
-			en: "Prevent all effects of attacks from your opponent's Pokémon done to this Pokémon. (Damage is not an effect.)",
-			fr: "Évitez tous les effets d'attaques infligés à ce Pokémon par les Pokémon de votre adversaire. (Les dégâts ne sont pas un effet.)",
-			es: "Evita todos los efectos de los ataques de los Pokémon de tu rival infligidos a este Pokémon. (El daño no es un efecto).",
-			it: "Previeni tutti gli effetti degli attacchi inflitti a questo Pokémon dai Pokémon del tuo avversario. I danni non sono un effetto.",
-			pt: "Previna todos os efeitos de ataques dos Pokémon do seu oponente causados a este Pokémon (dano não é um efeito).",
-			de: "Verhindere alle Effekte von Attacken der Pokémon deines Gegners, die diesem Pokémon zugefügt werden. (Schaden ist kein Effekt.)"
+			'en-us': "Prevent all effects of attacks from your opponent's Pokémon done to this Pokémon. (Damage is not an effect.)",
+			'fr-fr': "Évitez tous les effets d'attaques infligés à ce Pokémon par les Pokémon de votre adversaire. (Les dégâts ne sont pas un effet.)",
+			'es-es': "Evita todos los efectos de los ataques de los Pokémon de tu rival infligidos a este Pokémon. (El daño no es un efecto).",
+			'it-it': "Previeni tutti gli effetti degli attacchi inflitti a questo Pokémon dai Pokémon del tuo avversario. I danni non sono un effetto.",
+			'pt-br': "Previna todos os efeitos de ataques dos Pokémon do seu oponente causados a este Pokémon (dano não é um efeito).",
+			'de-de': "Verhindere alle Effekte von Attacken der Pokémon deines Gegners, die diesem Pokémon zugefügt werden. (Schaden ist kein Effekt.)"
 		}
 	}],
 
@@ -47,12 +47,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Leafage",
-			fr: "Feuillage",
-			es: "Follaje",
-			it: "Fogliame",
-			pt: "Folhagem",
-			de: "Blattwerk"
+			'en-us': "Leafage",
+			'fr-fr': "Feuillage",
+			'es-es': "Follaje",
+			'it-it': "Fogliame",
+			'pt-br': "Folhagem",
+			'de-de': "Blattwerk"
 		},
 
 		damage: 20
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The deeper a Cherubi's red, the more nutrients it has stockpiled in its body. And the sweeter and tastier its small ball!",
+		'en-us': "The deeper a Cherubi's red, the more nutrients it has stockpiled in its body. And the sweeter and tastier its small ball!",
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Hitmonchan",
-		fr: "Tygnon",
-		de: "Nockchan"
+		'en-us': "Hitmonchan",
+		'fr-fr': "Tygnon",
+		'de-de': "Nockchan"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Jab",
-				fr: "Taquet",
-				de: "Jab"
+				'en-us': "Jab",
+				'fr-fr': "Taquet",
+				'de-de': "Jab"
 			},
 
 			damage: 20,
@@ -44,9 +44,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Special Punch",
-				fr: "Punch spécial",
-				de: "Special Punch"
+				'en-us': "Special Punch",
+				'fr-fr': "Punch spécial",
+				'de-de': "Special Punch"
 			},
 
 			damage: 40,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The spirit of a pro boxer has infused this POKéMON. It throws punches that are faster than a bullet train."
+		'en-us': "The spirit of a pro boxer has infused this POKéMON. It throws punches that are faster than a bullet train."
 	},
 
 	variants: [

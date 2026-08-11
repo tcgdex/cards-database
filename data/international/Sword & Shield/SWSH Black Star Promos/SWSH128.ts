@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
@@ -7,18 +7,18 @@ const card: Card = {
 	category: "Pokemon",
 
 	description: {
-		en: "This Pokémon keeps its heat-sensitive head cool with ice. It fishes for its food, dangling its single hair into the sea to lure in prey."
+		'en-us': "This Pokémon keeps its heat-sensitive head cool with ice. It fishes for its food, dangling its single hair into the sea to lure in prey."
 	},
 
 	stage: "Basic",
 
 	name: {
-		en: "Eiscue",
-		fr: "Bekaglaçon",
-		de: "Kubuin",
-		es: "Eiscue",
-		pt: "Eiscue",
-		it: "Eiscue"
+		'en-us': "Eiscue",
+		'fr-fr': "Bekaglaçon",
+		'de-de': "Kubuin",
+		'es-es': "Eiscue",
+		'pt-br': "Eiscue",
+		'it-it': "Eiscue"
 	},
 
 	rarity: "Promo",
@@ -30,32 +30,32 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Ice Bonus",
-			fr: "Bonus Glace",
-			de: "Eisbonus",
-			es: "Bonus de Hielo",
-			pt: "Bônus Gelado",
-			it: "Bonus Ghiaccio"
+			'en-us': "Ice Bonus",
+			'fr-fr': "Bonus Glace",
+			'de-de': "Eisbonus",
+			'es-es': "Bonus de Hielo",
+			'pt-br': "Bônus Gelado",
+			'it-it': "Bonus Ghiaccio"
 		},
 
 		effect: {
-			en: "Discard a {W} Energy card from your hand. If you do, draw 3 cards.",
-			fr: "Défaussez une carte Énergie {W}de votre main. Dans ce cas, piochez 3 cartes.",
-			de: "Lege 1 {W}-Energiekarte aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, ziehe 3 Karten.",
-			es: "Descarta 1 carta de Energía {W} de tu mano. Si lo haces, roba 3 cartas.",
-			pt: "Descarte 1 carta de Energia {W} da sua mão. Se fizer isto, compre 3 cartas.",
-			it: "Scarta una carta Energia {W} che hai in mano. Se lo fai, pesca tre carte."
+			'en-us': "Discard a {W} Energy card from your hand. If you do, draw 3 cards.",
+			'fr-fr': "Défaussez une carte Énergie {W}de votre main. Dans ce cas, piochez 3 cartes.",
+			'de-de': "Lege 1 {W}-Energiekarte aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, ziehe 3 Karten.",
+			'es-es': "Descarta 1 carta de Energía {W} de tu mano. Si lo haces, roba 3 cartas.",
+			'pt-br': "Descarte 1 carta de Energia {W} da sua mão. Se fizer isto, compre 3 cartas.",
+			'it-it': "Scarta una carta Energia {W} che hai in mano. Se lo fai, pesca tre carte."
 		}
 	}, {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			en: "Headbutt Bounce",
-			fr: "Culbute Surprise",
-			de: "Abrupter Kopfstoß",
-			es: "Bote Cabezazo",
-			pt: "Cabeçada Ricochete",
-			it: "Rimbalzo Bottintesta"
+			'en-us': "Headbutt Bounce",
+			'fr-fr': "Culbute Surprise",
+			'de-de': "Abrupter Kopfstoß",
+			'es-es': "Bote Cabezazo",
+			'pt-br': "Cabeçada Ricochete",
+			'it-it': "Rimbalzo Bottintesta"
 		},
 
 		damage: 100

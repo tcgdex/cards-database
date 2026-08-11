@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カブルモ",
+		'ja-jp': "カブルモ",
 	},
 
 	illustrator: "OOYAMA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "チョボマキと 一緒に いるときに 電気的な 刺激を 受けると 進化する 不思議な ポケモンだ。",
+		'ja-jp': "チョボマキと 一緒に いるときに 電気的な 刺激を 受けると 進化する 不思議な ポケモンだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "カラかぶり" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札にある「チョボマキ」を、1枚トラッシュする。その後、このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。",
+				'ja-jp': "自分の番に1回使える。自分の手札にある「チョボマキ」を、1枚トラッシュする。その後、このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。",
 			},
 		},
 	],

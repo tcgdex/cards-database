@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ベロリンガ",
+		'ja-jp': "ベロリンガ",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "舌が 身長の ２倍もある。 エサを 取ったり 攻撃を したりと まるで 手のように 動かせる。",
+		'ja-jp': "舌が 身長の ２倍もある。 エサを 取ったり 攻撃を したりと まるで 手のように 動かせる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "したでとる" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の山札を3枚引く。",
+				'ja-jp': "自分の山札を3枚引く。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x50ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数x50ダメージ。",
 			},
 		},
 	],

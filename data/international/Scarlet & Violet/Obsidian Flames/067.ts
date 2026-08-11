@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Anchwatt",
-		en: "Tynamo",
-		es: "Tynamo",
-		it: "Tynamo",
-		pt: "Tynamo",
-		de: "Zapplardin"
+		'fr-fr': "Anchwatt",
+		'en-us': "Tynamo",
+		'es-es': "Tynamo",
+		'it-it': "Tynamo",
+		'pt-br': "Tynamo",
+		'de-de': "Zapplardin"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			fr: "Choc Statique",
-			en: "Static Shock",
-			es: "Impacto Estático",
-			it: "Shock Statico",
-			pt: "Choque de Estática",
-			de: "Statischer Schock"
+			'fr-fr': "Choc Statique",
+			'en-us': "Static Shock",
+			'es-es': "Impacto Estático",
+			'it-it': "Shock Statico",
+			'pt-br': "Choque de Estática",
+			'de-de': "Statischer Schock"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			fr: "Foudre Minuscule",
-			en: "Tiny Bolt",
-			es: "Relampaguito",
-			it: "Minifulmine",
-			pt: "Corisquinho",
-			de: "Mini-Blitz"
+			'fr-fr': "Foudre Minuscule",
+			'en-us': "Tiny Bolt",
+			'es-es': "Relampaguito",
+			'it-it': "Minifulmine",
+			'pt-br': "Corisquinho",
+			'de-de': "Mini-Blitz"
 		},
 
 		damage: 30
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "While one alone doesn't have much power, a chain of many Tynamo can be as powerful as lightning.",
+		'en-us': "While one alone doesn't have much power, a chain of many Tynamo can be as powerful as lightning.",
 	},
 
 	variants: [

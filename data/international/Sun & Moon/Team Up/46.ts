@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Emolga",
-		fr: "Emolga",
-		es: "Emolga",
-		it: "Emolga",
-		pt: "Emolga",
-		de: "Emolga"
+		'en-us': "Emolga",
+		'fr-fr': "Emolga",
+		'es-es': "Emolga",
+		'it-it': "Emolga",
+		'pt-br': "Emolga",
+		'de-de': "Emolga"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Nuzzly Gathering",
-				fr: "Rassemblement Frimousse",
-				es: "Reunión Estática",
-				it: "Raduno Coccoloso",
-				pt: "Encontro de Chamegos",
-				de: "Wangenrubbler-Treffen"
+				'en-us': "Nuzzly Gathering",
+				'fr-fr': "Rassemblement Frimousse",
+				'es-es': "Reunión Estática",
+				'it-it': "Raduno Coccoloso",
+				'pt-br': "Encontro de Chamegos",
+				'de-de': "Wangenrubbler-Treffen"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may search your deck for a Pokémon that has the Nuzzle attack, reveal it, and put it into your hand. Then, shuffle your deck.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez chercher dans votre deck un Pokémon avec l’attaque Frotte-Frimousse, le montrer, puis l’ajouter à votre main. Mélangez ensuite votre deck.",
-				es: "Una vez durante tu turno (antes de tu ataque), puedes buscar en tu baraja 1 Pokémon que tenga el ataque Moflete Estático, enseñarlo y ponerlo en tu mano. Después, baraja las cartas de tu baraja.",
-				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi cercare nel tuo mazzo un Pokémon che abbia l’attacco Elettrococcola, mostrarlo e aggiungerlo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode procurar por 1 Pokémon que tenha o ataque Chamego no seu baralho, revelá-lo e colocá-lo na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du dein Deck nach 1 Pokémon, das die Attacke Wangenrubbler hat, durchsuchen, es deinem Gegner zeigen und auf deine Hand nehmen. Mische anschließend dein Deck."
+				'en-us': "Once during your turn (before your attack), you may search your deck for a Pokémon that has the Nuzzle attack, reveal it, and put it into your hand. Then, shuffle your deck.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez chercher dans votre deck un Pokémon avec l’attaque Frotte-Frimousse, le montrer, puis l’ajouter à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Una vez durante tu turno (antes de tu ataque), puedes buscar en tu baraja 1 Pokémon que tenga el ataque Moflete Estático, enseñarlo y ponerlo en tu mano. Después, baraja las cartas de tu baraja.",
+				'it-it': "Una sola volta durante il tuo turno, prima di attaccare, puoi cercare nel tuo mazzo un Pokémon che abbia l’attacco Elettrococcola, mostrarlo e aggiungerlo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Uma vez durante a sua vez de jogar (antes de atacar), você pode procurar por 1 Pokémon que tenha o ataque Chamego no seu baralho, revelá-lo e colocá-lo na sua mão. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Einmal während deines Zuges (bevor du angreifst) kannst du dein Deck nach 1 Pokémon, das die Attacke Wangenrubbler hat, durchsuchen, es deinem Gegner zeigen und auf deine Hand nehmen. Mische anschließend dein Deck."
 			},
 		},
 	],
@@ -56,20 +56,20 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Nuzzle",
-				fr: "Frotte-Frimousse",
-				es: "Moflete Estático",
-				it: "Elettrococcola",
-				pt: "Chamego",
-				de: "Wangenrubbler"
+				'en-us': "Nuzzle",
+				'fr-fr': "Frotte-Frimousse",
+				'es-es': "Moflete Estático",
+				'it-it': "Elettrococcola",
+				'pt-br': "Chamego",
+				'de-de': "Wangenrubbler"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 
 		},
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It grills berries and bug Pokémon with electric shocks and makes a meal of them. It usually nests in the holes gouged in trees by Pikipek.",
+		'en-us': "It grills berries and bug Pokémon with electric shocks and makes a meal of them. It usually nests in the holes gouged in trees by Pikipek.",
 	},
 
 	thirdParty: {

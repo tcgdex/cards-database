@@ -1,13 +1,13 @@
-import { Serie } from 'models/serie'
+import { Serie } from 'models/database/serie'
 
 const set: Serie = {
 	id: "pl",
 	name: {
-		en: "Platinum",
-		fr: "Platine",
-		es: "Platino",
-		it: "Platino",
-		de: "Platin"
+		'en-us': "Platinum",
+		'fr-fr': "Platine",
+		'es-es': "Platino",
+		'it-it': "Platino",
+		'de-de': "Platin"
 	},
 
 	energies: [

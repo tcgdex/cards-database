@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Remoraid",
-		fr: "Rémoraid",
-		es: "Remoraid",
-		it: "Remoraid",
-		pt: "Remoraid",
-		de: "Remoraid"
+		'en-us': "Remoraid",
+		'fr-fr': "Rémoraid",
+		'es-es': "Remoraid",
+		'it-it': "Remoraid",
+		'pt-br': "Remoraid",
+		'de-de': "Remoraid"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Sprinkle Water",
-			fr: "Eau Aspergeante",
-			es: "Esparcir Agua",
-			it: "Goccioline",
-			pt: "Aspergir Água",
-			de: "Wassersprüher"
+			'en-us': "Sprinkle Water",
+			'fr-fr': "Eau Aspergeante",
+			'es-es': "Esparcir Agua",
+			'it-it': "Goccioline",
+			'pt-br': "Aspergir Água",
+			'de-de': "Wassersprüher"
 		},
 
 		damage: 10
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers.",
+		'en-us': "Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers.",
 	},
 
 	variants: [

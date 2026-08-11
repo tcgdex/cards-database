@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Whismur",
-		fr: "Chuchmur",
-		es: "Whismur",
-		it: "Whismur",
-		pt: "Whismur",
-		de: "Flurmel"
+		'en-us': "Whismur",
+		'fr-fr': "Chuchmur",
+		'es-es': "Whismur",
+		'it-it': "Whismur",
+		'pt-br': "Whismur",
+		'de-de': "Flurmel"
 	},
 
 	illustrator: "Akira Komayama",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Screaming Fit",
-				fr: "Piquage de Crise",
-				es: "Berrinche",
-				it: "Capricci Sonori",
-				pt: "Ataque Apavorante",
-				de: "Schreianfall"
+				'en-us': "Screaming Fit",
+				'fr-fr': "Piquage de Crise",
+				'es-es': "Berrinche",
+				'it-it': "Capricci Sonori",
+				'pt-br': "Ataque Apavorante",
+				'de-de': "Schreianfall"
 			},
 			effect: {
-				en: "Both Active Pokémon are now Confused.",
-				fr: "Les deux Pokémon Actifs sont maintenant Confus.",
-				es: "Ambos Pokémon Activos pasan a estar Confundidos.",
-				it: "Entrambi i Pokémon attivi vengono confusi.",
-				pt: "Ambos os Pokémon Ativos agora estão Confusos.",
-				de: "Beide Aktiven Pokémon sind jetzt verwirrt."
+				'en-us': "Both Active Pokémon are now Confused.",
+				'fr-fr': "Les deux Pokémon Actifs sont maintenant Confus.",
+				'es-es': "Ambos Pokémon Activos pasan a estar Confundidos.",
+				'it-it': "Entrambi i Pokémon attivi vengono confusi.",
+				'pt-br': "Ambos os Pokémon Ativos agora estão Confusos.",
+				'de-de': "Beide Aktiven Pokémon sind jetzt verwirrt."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It usually murmurs but starts crying loudly if it senses danger. It stops when its ear covers are shut.",
+		'en-us': "It usually murmurs but starts crying loudly if it senses danger. It stops when its ear covers are shut.",
 	},
 
 	thirdParty: {

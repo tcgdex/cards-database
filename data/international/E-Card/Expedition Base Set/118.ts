@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Magikarp",
-		fr: "Magicarpe",
-		de: "Karpador"
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe",
+		'de-de': "Karpador"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flail",
-				fr: "Fléau",
-				de: "Flail"
+				'en-us': "Flail",
+				'fr-fr': "Fléau",
+				'de-de': "Flail"
 			},
 			effect: {
-				en: "This attack does 10 damage times the number of damage counters on Magikarp.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Magicarpe.",
-				de: "This attack does 10 damage times the number of damage counters on Magikarp."
+				'en-us': "This attack does 10 damage times the number of damage counters on Magikarp.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Magicarpe.",
+				'de-de': "This attack does 10 damage times the number of damage counters on Magikarp."
 			},
 			damage: "10×",
 

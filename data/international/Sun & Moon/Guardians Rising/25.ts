@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Politoed",
-		fr: "Tarpaud",
-		es: "Politoed",
-		it: "Politoed",
-		pt: "Politoed",
-		de: "Quaxo"
+		'en-us': "Politoed",
+		'fr-fr': "Tarpaud",
+		'es-es': "Politoed",
+		'it-it': "Politoed",
+		'pt-br': "Politoed",
+		'de-de': "Quaxo"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Poliwhirl",
-		fr: "Têtarte",
+		'en-us': "Poliwhirl",
+		'fr-fr': "Têtarte",
 	},
 
 	stage: "Stage2",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Roll Call",
-				fr: "Liste d’Appel",
-				es: "Pasar Lista",
-				it: "Convocazione",
-				pt: "Chamada",
-				de: "Appell"
+				'en-us': "Roll Call",
+				'fr-fr': "Liste d’Appel",
+				'es-es': "Pasar Lista",
+				'it-it': "Convocazione",
+				'pt-br': "Chamada",
+				'de-de': "Appell"
 			},
 			effect: {
-				en: "Search your deck for a Poliwag, a Poliwhirl, and a Poliwrath, and put them onto your Bench. Then, shuffle your deck.",
-				fr: "Cherchez un Ptitard, un Têtarte et un Tartard dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja 1 Poliwag, 1 Poliwhirl y 1 Poliwrath, y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
-				it: "Cerca nel tuo mazzo un Poliwag, un Poliwhirl e un Poliwrath e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure por 1 Poliwag, por 1 Poliwhirl e por 1 Poliwrath no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach 1 Quapsel, 1 Quaputzi und 1 Quappo und lege sie auf deine Bank. Mische anschließend dein Deck."
+				'en-us': "Search your deck for a Poliwag, a Poliwhirl, and a Poliwrath, and put them onto your Bench. Then, shuffle your deck.",
+				'fr-fr': "Cherchez un Ptitard, un Têtarte et un Tartard dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja 1 Poliwag, 1 Poliwhirl y 1 Poliwrath, y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo un Poliwag, un Poliwhirl e un Poliwrath e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por 1 Poliwag, por 1 Poliwhirl e por 1 Poliwrath no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach 1 Quapsel, 1 Quaputzi und 1 Quappo und lege sie auf deine Bank. Mische anschließend dein Deck."
 			},
 
 		},
@@ -63,20 +63,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Jump",
-				fr: "Hyper Saut",
-				es: "Hipersalto",
-				it: "Ipersalto",
-				pt: "Hipersalto",
-				de: "Hypersprung"
+				'en-us': "Hyper Jump",
+				'fr-fr': "Hyper Saut",
+				'es-es': "Hipersalto",
+				'it-it': "Ipersalto",
+				'pt-br': "Hipersalto",
+				'de-de': "Hypersprung"
 			},
 			effect: {
-				en: "You may shuffle this Pokémon and all cards attached to it into your deck.",
-				fr: "Vous pouvez mélanger ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck.",
-				es: "Puedes poner este Pokémon y todas las cartas unidas a él en tu baraja y barajarlas todas.",
-				it: "Puoi rimischiare questo Pokémon e tutte le carte a esso assegnate nel tuo mazzo.",
-				pt: "Você pode embaralhar este Pokémon e todas as cartas ligadas a ele no seu baralho.",
-				de: "Du kannst dieses Pokémon und alle an es angelegten Karten in dein Deck mischen."
+				'en-us': "You may shuffle this Pokémon and all cards attached to it into your deck.",
+				'fr-fr': "Vous pouvez mélanger ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck.",
+				'es-es': "Puedes poner este Pokémon y todas las cartas unidas a él en tu baraja y barajarlas todas.",
+				'it-it': "Puoi rimischiare questo Pokémon e tutte le carte a esso assegnate nel tuo mazzo.",
+				'pt-br': "Você pode embaralhar este Pokémon e todas as cartas ligadas a ele no seu baralho.",
+				'de-de': "Du kannst dieses Pokémon und alle an es angelegten Karten in dein Deck mischen."
 			},
 			damage: 100,
 
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They gather on moonlit nights to form a large chorus. Their cries sound angry and not at all pleasant, but they are certainly distinctive.",
+		'en-us': "They gather on moonlit nights to form a large chorus. Their cries sound angry and not at all pleasant, but they are certainly distinctive.",
 	},
 
 	thirdParty: {

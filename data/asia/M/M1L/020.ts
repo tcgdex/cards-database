@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サンド",
+		'ja-jp': "サンド",
 	},
 
 	illustrator: "Shinji Kanda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "深い穴を 掘って 生活。 危険が 迫ると 体を 丸め 敵の 攻撃を じっと 耐える。",
+		'ja-jp': "深い穴を 掘って 生活。 危険が 迫ると 体を 丸め 敵の 攻撃を じっと 耐える。",
 	},
 
 	stage: "Basic",

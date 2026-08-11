@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Pawniard",
-		fr: "Scalpion",
-		es: "Pawniard",
-		it: "Pawniard",
-		pt: "Pawniard",
-		de: "Gladiantri"
+		'en-us': "Pawniard",
+		'fr-fr': "Scalpion",
+		'es-es': "Pawniard",
+		'it-it': "Pawniard",
+		'pt-br': "Pawniard",
+		'de-de': "Gladiantri"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
 			},
 
 			damage: 10,
@@ -60,7 +60,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Ignoring their injuries, groups attack by sinking the blades that cover their bodies into their prey.",
+		'en-us': "Ignoring their injuries, groups attack by sinking the blades that cover their bodies into their prey.",
 	},
 
 	thirdParty: {

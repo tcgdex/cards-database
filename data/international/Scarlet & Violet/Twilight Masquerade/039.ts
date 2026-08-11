@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chi-Yu",
-		fr: "Yuyu",
-		es: "Chi-Yu",
-		it: "Chi-Yu",
-		pt: "Chi-Yu",
-		de: "Yuyu"
+		'en-us': "Chi-Yu",
+		'fr-fr': "Yuyu",
+		'es-es': "Chi-Yu",
+		'it-it': "Chi-Yu",
+		'pt-br': "Chi-Yu",
+		'de-de': "Yuyu"
 	},
 
 	rarity: "Uncommon",
@@ -24,41 +24,41 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Allure",
-			fr: "Allure",
-			es: "Atractivo",
-			it: "Affascinante",
-			pt: "Fascinar",
-			de: "Verlockung"
+			'en-us': "Allure",
+			'fr-fr': "Allure",
+			'es-es': "Atractivo",
+			'it-it': "Affascinante",
+			'pt-br': "Fascinar",
+			'de-de': "Verlockung"
 		},
 
 		effect: {
-			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
-			es: "Roba 2 cartas.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas.",
-			de: "Ziehe 2 Karten."
+			'en-us': "Draw 2 cards.",
+			'fr-fr': "Piochez 2 cartes.",
+			'es-es': "Roba 2 cartas.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas.",
+			'de-de': "Ziehe 2 Karten."
 		}
 	}, {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Ground Melter",
-			fr: "Fonte du Terrain",
-			es: "Fundición de Tierra",
-			it: "Sciogliterra",
-			pt: "Derretimento de Campo",
-			de: "Bodenschmelzer"
+			'en-us': "Ground Melter",
+			'fr-fr': "Fonte du Terrain",
+			'es-es': "Fundición de Tierra",
+			'it-it': "Sciogliterra",
+			'pt-br': "Derretimento de Campo",
+			'de-de': "Bodenschmelzer"
 		},
 
 		effect: {
-			en: "If a Stadium is in play, this attack does 60 more damage. Then, discard that Stadium.",
-			fr: "Si un Stade est en jeu, cette attaque inflige 60 dégâts supplémentaires. Ensuite, défaussez ce Stade.",
-			es: "Si hay un Estadio en juego, este ataque hace 60 puntos de daño más. Después, descarta ese Estadio.",
-			it: "Se c'è in gioco una carta Stadio, questo attacco infligge 60 danni in più. Poi scarta quella carta Stadio.",
-			pt: "Se um Estádio estiver em jogo, este ataque causará 60 pontos de dano a mais. Em seguida, descarte aquele Estádio.",
-			de: "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 60 Schadenspunkte mehr zu. Lege anschließend jene Stadionkarte auf den Ablagestapel."
+			'en-us': "If a Stadium is in play, this attack does 60 more damage. Then, discard that Stadium.",
+			'fr-fr': "Si un Stade est en jeu, cette attaque inflige 60 dégâts supplémentaires. Ensuite, défaussez ce Stade.",
+			'es-es': "Si hay un Estadio en juego, este ataque hace 60 puntos de daño más. Después, descarta ese Estadio.",
+			'it-it': "Se c'è in gioco una carta Stadio, questo attacco infligge 60 danni in più. Poi scarta quella carta Stadio.",
+			'pt-br': "Se um Estádio estiver em jogo, este ataque causará 60 pontos de dano a mais. Em seguida, descarte aquele Estádio.",
+			'de-de': "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 60 Schadenspunkte mehr zu. Lege anschließend jene Stadionkarte auf den Ablagestapel."
 		},
 
 		damage: "60+"
@@ -74,7 +74,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "The envy accumulated within curved beads that sparked multiple conflicts has clad itself in fire and become a Pokémon.",
+		'en-us': "The envy accumulated within curved beads that sparked multiple conflicts has clad itself in fire and become a Pokémon.",
 	},
 
 	variants: [

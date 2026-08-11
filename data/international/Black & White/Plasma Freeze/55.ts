@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Yamask",
-		fr: "Tutafeh",
-		es: "Yamask",
-		it: "Yamask",
-		pt: "Yamask",
-		de: "Makabaja"
+		'en-us': "Yamask",
+		'fr-fr': "Tutafeh",
+		'es-es': "Yamask",
+		'it-it': "Yamask",
+		'pt-br': "Yamask",
+		'de-de': "Makabaja"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Will-O-Wisp",
-				fr: "Feu Follet",
+				'en-us': "Will-O-Wisp",
+				'fr-fr': "Feu Follet",
 			},
 
 			damage: 10,
@@ -48,8 +48,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
+				'en-us': "Ram",
+				'fr-fr': "Collision",
 			},
 
 			damage: 30,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "These Pokémon arose from the spirits of people interred in graves. Each retains memories of its former life.",
+		'en-us': "These Pokémon arose from the spirits of people interred in graves. Each retains memories of its former life.",
 	},
 
 	thirdParty: {

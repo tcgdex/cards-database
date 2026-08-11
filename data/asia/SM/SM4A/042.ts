@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チルット",
+		'ja-jp': "チルット",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "人の 頭の 上に ちょこんと 乗って 帽子のように ふるまうのが なぜか 大好き。",
+		'ja-jp': "人の 頭の 上に ちょこんと 乗って 帽子のように ふるまうのが なぜか 大好き。",
 	},
 
 	stage: "Basic",

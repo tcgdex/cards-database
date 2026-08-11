@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Diggersby",
-		fr: "Excavarenne",
-		es: "Diggersby",
-		it: "Diggersby",
-		pt: "Diggersby",
-		de: "Grebbit"
+		'en-us': "Diggersby",
+		'fr-fr': "Excavarenne",
+		'es-es': "Diggersby",
+		'it-it': "Diggersby",
+		'pt-br': "Diggersby",
+		'de-de': "Grebbit"
 	},
 
 	illustrator: "match",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bunnelby",
-		fr: "Sapereau",
-		es: "Bunnelby",
-		it: "Bunnelby",
-		pt: "Bunnelby",
-		de: "Scoppel"
+		'en-us': "Bunnelby",
+		'fr-fr': "Sapereau",
+		'es-es': "Bunnelby",
+		'it-it': "Bunnelby",
+		'pt-br': "Bunnelby",
+		'de-de': "Scoppel"
 	},
 
 	stage: "Stage1",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smithereen Smash",
-				fr: "Pulvérisation",
-				es: "Machaque",
-				it: "Frammentazione",
-				pt: "Pancada Estilhaçante",
-				de: "Splitterschlag"
+				'en-us': "Smithereen Smash",
+				'fr-fr': "Pulvérisation",
+				'es-es': "Machaque",
+				'it-it': "Frammentazione",
+				'pt-br': "Pancada Estilhaçante",
+				'de-de': "Splitterschlag"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
-				es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía unida al Pokémon Activo de tu rival.",
-				it: "Lancia una moneta. Se esce testa, scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Jogue uma moeda. Se sair cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
-				de: "Wirf 1 Münze. Lege bei \"Kopf\" 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				'es-es': "Lanza 1 moneda. Si sale cara, descarta 1 Energía unida al Pokémon Activo de tu rival.",
+				'it-it': "Lancia una moneta. Se esce testa, scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Jogue uma moeda. Se sair cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
+				'de-de': "Wirf 1 Münze. Lege bei \"Kopf\" 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 
@@ -69,20 +69,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Earthquake",
-				fr: "Séisme",
-				es: "Terremoto",
-				it: "Terremoto",
-				pt: "Terremoto",
-				de: "Erdbeben"
+				'en-us': "Earthquake",
+				'fr-fr': "Séisme",
+				'es-es': "Terremoto",
+				'it-it': "Terremoto",
+				'pt-br': "Terremoto",
+				'de-de': "Erdbeben"
 			},
 			effect: {
-				en: "This attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 10 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				es: "Este ataque hace 10 puntos de daño a cada uno de tus Pokémon en Banca. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-				it: "Questo attacco infligge 10 danni a ciascuno dei tuoi Pokémon in panchina. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
-				pt: "Esse ataque causa 10 de danos a cada um dos seus Pokémon no Banco. (Não aplique Fraqueza e Resistência a Pokémon no Banco.)",
-				de: "Dieser Angriff fügt jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "This attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 10 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'es-es': "Este ataque hace 10 puntos de daño a cada uno de tus Pokémon en Banca. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+				'it-it': "Questo attacco infligge 10 danni a ciascuno dei tuoi Pokémon in panchina. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
+				'pt-br': "Esse ataque causa 10 de danos a cada um dos seus Pokémon no Banco. (Não aplique Fraqueza e Resistência a Pokémon no Banco.)",
+				'de-de': "Dieser Angriff fügt jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 80,
 
@@ -99,7 +99,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "With their powerful ears, they can heft boulders of a ton or more with ease. They can be a big help at construction sites.",
+		'en-us': "With their powerful ears, they can heft boulders of a ton or more with ease. They can be a big help at construction sites.",
 	},
 
 	thirdParty: {

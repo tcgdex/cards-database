@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Vileplume",
-		fr: "Rafflesia",
-		es: "Vileplume",
-		it: "Vileplume",
-		pt: "Vileplume",
-		de: "Giflor"
+		'en-us': "Vileplume",
+		'fr-fr': "Rafflesia",
+		'es-es': "Vileplume",
+		'it-it': "Vileplume",
+		'pt-br': "Vileplume",
+		'de-de': "Giflor"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gloom",
-		fr: "Ortide",
+		'en-us': "Gloom",
+		'fr-fr': "Ortide",
 	},
 
 	stage: "Stage2",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Allergy Panic",
-				fr: "Panique Allergique",
-				es: "Pánico Alérgico",
-				it: "Allergipanico",
-				pt: "Pânico Alérgico",
-				de: "Allergieschock"
+				'en-us': "Allergy Panic",
+				'fr-fr': "Panique Allergique",
+				'es-es': "Pánico Alérgico",
+				'it-it': "Allergipanico",
+				'pt-br': "Pânico Alérgico",
+				'de-de': "Allergieschock"
 			},
 			effect: {
-				en: "Apply Weakness for each Pokémon (both yours and your opponent's) as ×4 instead.",
-				fr: "Appliquez une Faiblesse de x4 à chacun des Pokémon (les vôtres et ceux de votre adversaire).",
-				es: "Aplica una Debilidad de x4 a cada Pokémon (tanto tuyos como de tu rival).",
-				it: "La debolezza di tutti i Pokémon, sia tuoi che del tuo avversario, diventa x4.",
-				pt: "Aplique Fraqueza x 4 a cada Pokémon (seu e do seu oponente).",
-				de: "Der Schwächefaktor jedes Pokémon (deiner und der deines Gegners) wird durch x4 ersetzt."
+				'en-us': "Apply Weakness for each Pokémon (both yours and your opponent's) as ×4 instead.",
+				'fr-fr': "Appliquez une Faiblesse de x4 à chacun des Pokémon (les vôtres et ceux de votre adversaire).",
+				'es-es': "Aplica una Debilidad de x4 a cada Pokémon (tanto tuyos como de tu rival).",
+				'it-it': "La debolezza di tutti i Pokémon, sia tuoi che del tuo avversario, diventa x4.",
+				'pt-br': "Aplique Fraqueza x 4 a cada Pokémon (seu e do seu oponente).",
+				'de-de': "Der Schwächefaktor jedes Pokémon (deiner und der deines Gegners) wird durch x4 ersetzt."
 			},
 		},
 	],
@@ -64,12 +64,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pollen Spray",
-				fr: "Crache-Pollen",
+				'en-us': "Pollen Spray",
+				'fr-fr': "Crache-Pollen",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep and Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi et Empoisonné.",
+				'en-us': "The Defending Pokémon is now Asleep and Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi et Empoisonné.",
 			},
 			damage: 50,
 
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its petals are the largest in the world. As it walks, it scatters extremely allergenic pollen.",
+		'en-us': "Its petals are the largest in the world. As it walks, it scatters extremely allergenic pollen.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Greninja EX",
-		fr: "Amphinobi EX",
+		'en-us': "Greninja EX",
+		'fr-fr': "Amphinobi EX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Sharpshooting",
-				fr: "Tir de Précision",
+				'en-us': "Sharpshooting",
+				'fr-fr': "Tir de Précision",
 			},
 			effect: {
-				en: "This attack does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 30 dégâts à l'un des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "This attack does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 30 dégâts à l'un des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Blast",
-				fr: "Explosion Aquatique",
+				'en-us': "Aqua Blast",
+				'fr-fr': "Explosion Aquatique",
 			},
 			effect: {
-				en: "Discard 1 Water Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie Water attachée à ce Pokémon.",
+				'en-us': "Discard 1 Water Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie Water attachée à ce Pokémon.",
 			},
 			damage: 120,
 

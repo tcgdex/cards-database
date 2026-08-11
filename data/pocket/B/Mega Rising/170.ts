@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Honedge"
+		'en-us': "Honedge"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "The blue eye on the sword's handguard is the\ntrue body of Honedge. With its old cloth, it\ndrains people's lives away."
+		'en-us': "The blue eye on the sword's handguard is the\ntrue body of Honedge. With its old cloth, it\ndrains people's lives away."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Pierce"
+			'en-us': "Pierce"
 		},
 
 		damage: 20,

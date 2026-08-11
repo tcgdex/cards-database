@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Golduck",
-		fr: "Akwakwak",
-		es: "Golduck",
-		it: "Golduck",
-		pt: "Golduck",
-		de: "Entoron"
+		'en-us': "Golduck",
+		'fr-fr': "Akwakwak",
+		'es-es': "Golduck",
+		'it-it': "Golduck",
+		'pt-br': "Golduck",
+		'de-de': "Entoron"
 	},
 
 	illustrator: "match",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Psyduck",
-		fr: "Psykokwak",
+		'en-us': "Psyduck",
+		'fr-fr': "Psykokwak",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde Folie",
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde Folie",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
 			},
 
 		},
@@ -54,8 +54,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
 			},
 
 			damage: 30,
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It is seen swimming dynamically and elegantly using its well-developed limbs and flippers.",
+		'en-us': "It is seen swimming dynamically and elegantly using its well-developed limbs and flippers.",
 	},
 
 	thirdParty: {

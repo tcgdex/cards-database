@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Pinsir",
-		fr: "Scarabrute",
-		de: "Pinsir"
+		'en-us': "Pinsir",
+		'fr-fr': "Scarabrute",
+		'de-de': "Pinsir"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -31,15 +31,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Horn Grab",
-				fr: "Attrap'korne",
-				de: "Horngrapscher"
+				'en-us': "Horn Grab",
+				'fr-fr': "Attrap'korne",
+				'de-de': "Horngrapscher"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähm, bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, cette attaque ne fait rien.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähm, bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 20
@@ -52,15 +52,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Super Slice",
-				fr: "Super tranche",
-				de: "Superschnippler"
+				'en-us': "Super Slice",
+				'fr-fr': "Super tranche",
+				'de-de': "Superschnippler"
 			},
 
 			effect: {
-				en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
-				fr: "Lancez 2 pièces. Si vous obtenez un pile, cette attaque ne fait rien.",
-				de: "Wirf 2 Münzen. Wenn mindestens eine von beiden Zahl zeigt, hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip 2 coins. If either of them is tails, this attack does nothing.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez un pile, cette attaque ne fait rien.",
+				'de-de': "Wirf 2 Münzen. Wenn mindestens eine von beiden Zahl zeigt, hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 90

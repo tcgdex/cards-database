@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スターミー",
+		'ja-jp': "スターミー",
 	},
 
 	illustrator: "Yuka Morii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "輝く コアから 謎の 電波を 送受信 していると いう。 近づくと 頭痛が することも。",
+		'ja-jp': "輝く コアから 謎の 電波を 送受信 していると いう。 近づくと 頭痛が することも。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "エスケープ" },
 			effect: {
-				ja: "自分の番に1回使える。このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
+				'ja-jp': "自分の番に1回使える。このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒトデマン",
+		'ja-jp': "ヒトデマン",
 	},
 
 	retreat: 1,

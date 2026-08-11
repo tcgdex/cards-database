@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Primeape",
-		th: "โอโคริซารุ"
+		'id-id': "Primeape",
+		'th-th': "โอโคริซารุ"
 	},
 
 	illustrator: "Felicia Chen",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Menurut teori dari salah seorang peneliti, tampaknya Primeape juga mengamuk ketika berada di dalam Bola Pokémon.",
-		th: "มีทฤษฎีของนักวิจัยคนหนึ่งที่ว่าโอโคริซารุจะยังโกรธอยู่แม้ตอนอยู่ใน มอนสเตอร์บอลก็ตาม"
+		'id-id': "Menurut teori dari salah seorang peneliti, tampaknya Primeape juga mengamuk ketika berada di dalam Bola Pokémon.",
+		'th-th': "มีทฤษฎีของนักวิจัยคนหนึ่งที่ว่าโอโคริซารุจะยังโกรธอยู่แม้ตอนอยู่ใน มอนสเตอร์บอลก็ตาม"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Sapuan Kaki",
-			th: "เตะตัดขา"
+			'id-id': "Sapuan Kaki",
+			'th-th': "เตะตัดขา"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, pilih 1 Energi yang dikenakan pada Pokémon Bertarung lawan, lalu buang ke Trash.",
-			th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว เลือกพลังงานที่ติดอยู่กับโปเกมอนบนตำแหน่งต่อสู้ ฝ่ายตรงข้าม 1 ลูก ทิ้งที่ตำแหน่งทิ้งการ์ด"
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, pilih 1 Energi yang dikenakan pada Pokémon Bertarung lawan, lalu buang ke Trash.",
+			'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกหัว เลือกพลังงานที่ติดอยู่กับโปเกมอนบนตำแหน่งต่อสู้ ฝ่ายตรงข้าม 1 ลูก ทิ้งที่ตำแหน่งทิ้งการ์ด"
 		},
 
 		damage: 30,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			id: "Pukulan Megaton",
-			th: "เมกะตันพันช์"
+			'id-id': "Pukulan Megaton",
+			'th-th': "เมกะตันพันช์"
 		},
 
 		damage: 70,

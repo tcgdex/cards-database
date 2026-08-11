@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Fraxure",
-		fr: "Incisache",
-		es: "Fraxure",
-		it: "Fraxure",
-		pt: "Fraxure",
-		de: "Sharfax"
+		'en-us': "Fraxure",
+		'fr-fr': "Incisache",
+		'es-es': "Fraxure",
+		'it-it': "Fraxure",
+		'pt-br': "Fraxure",
+		'de-de': "Sharfax"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Axew",
-		fr: "Coupenotte",
+		'en-us': "Axew",
+		'fr-fr': "Coupenotte",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Paralyzing Gaze",
-				fr: "Regard Paralysant",
+				'en-us': "Paralyzing Gaze",
+				'fr-fr': "Regard Paralysant",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 
 		},
@@ -54,8 +54,8 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Dragon Claw",
-				fr: "Dracogriffe",
+				'en-us': "Dragon Claw",
+				'fr-fr': "Dracogriffe",
 			},
 
 			damage: 40,
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A broken tusk will not grow back, so it diligently sharpens its tusks on river rocks after the end of a battle.",
+		'en-us': "A broken tusk will not grow back, so it diligently sharpens its tusks on river rocks after the end of a battle.",
 	},
 
 	thirdParty: {

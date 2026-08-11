@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガラルの仲間たち",
+		'ja-jp': "ガラルの仲間たち",
 	},
 
 	illustrator: "Sanosuke Sakuma",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札を3枚引く。",
+		'ja-jp': "自分の山札を3枚引く。",
 	},
 
 	variants: [

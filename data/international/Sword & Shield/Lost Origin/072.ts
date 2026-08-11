@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shuppet",
-		fr: "Polichombr",
-		es: "Shuppet",
-		it: "Shuppet",
-		pt: "Shuppet",
-		de: "Shuppet"
+		'en-us': "Shuppet",
+		'fr-fr': "Polichombr",
+		'es-es': "Shuppet",
+		'it-it': "Shuppet",
+		'pt-br': "Shuppet",
+		'de-de': "Shuppet"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			en: "Tongue Slap",
-			fr: "Gros Coup de Langue",
-			es: "Bofetón Lengua",
-			it: "Linguasberla",
-			pt: "Tapa de Língua",
-			de: "Zungenschelle"
+			'en-us': "Tongue Slap",
+			'fr-fr': "Gros Coup de Langue",
+			'es-es': "Bofetón Lengua",
+			'it-it': "Linguasberla",
+			'pt-br': "Tapa de Língua",
+			'de-de': "Zungenschelle"
 		},
 
 		damage: 30

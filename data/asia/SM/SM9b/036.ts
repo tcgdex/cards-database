@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゲノセクト",
+		'ja-jp': "ゲノセクト",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "プラズマ団によって 改造された 古代の むしポケモン。 背中の 大砲が パワーアップした。",
+		'ja-jp': "プラズマ団によって 改造された 古代の むしポケモン。 背中の 大砲が パワーアップした。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "こうそくひこうけいたい" },
 			effect: {
-				ja: "相手の場に「ポケモンGX・EX」がいるなら、このポケモンのにげるためのエネルギーは、すべてなくなる。",
+				'ja-jp': "相手の場に「ポケモンGX・EX」がいるなら、このポケモンのにげるためのエネルギーは、すべてなくなる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Metal", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン2匹にも、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン2匹にも、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

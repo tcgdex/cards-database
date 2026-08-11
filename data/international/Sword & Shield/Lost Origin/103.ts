@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mienfoo",
-		fr: "Kungfouine",
-		es: "Mienfoo",
-		it: "Mienfoo",
-		pt: "Mienfoo",
-		de: "Lin-Fu"
+		'en-us': "Mienfoo",
+		'fr-fr': "Kungfouine",
+		'es-es': "Mienfoo",
+		'it-it': "Mienfoo",
+		'pt-br': "Mienfoo",
+		'de-de': "Lin-Fu"
 	},
 
 	illustrator: "yuu",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Chop",
-			fr: "Coup Tranchant",
-			es: "Cortar",
-			it: "Ceffone",
-			pt: "Trincar",
-			de: "Hacker"
+			'en-us': "Chop",
+			'fr-fr': "Coup Tranchant",
+			'es-es': "Cortar",
+			'it-it': "Ceffone",
+			'pt-br': "Trincar",
+			'de-de': "Hacker"
 		},
 
 		damage: 10
@@ -38,12 +38,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Spiral Kick",
-			fr: "Coup'd Pied en Spirale",
-			es: "Patada Espiral",
-			it: "Spiralcalcio",
-			pt: "Chute Espiral",
-			de: "Drehtritt"
+			'en-us': "Spiral Kick",
+			'fr-fr': "Coup'd Pied en Spirale",
+			'es-es': "Patada Espiral",
+			'it-it': "Spiralcalcio",
+			'pt-br': "Chute Espiral",
+			'de-de': "Drehtritt"
 		},
 
 		damage: 30

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gyarados ex",
-		fr: "Léviator-ex"
+		'en-us': "Gyarados ex",
+		'fr-fr': "Léviator-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Magikarp"
+		'en-us': "Magikarp"
 	},
 
 	stage: "Stage1",
@@ -26,16 +26,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Rampaging Whirlpool",
-			fr: "Tourbillon Tempétueux"
+			'en-us': "Rampaging Whirlpool",
+			'fr-fr': "Tourbillon Tempétueux"
 		},
 
 		damage: 140,
 		cost: ["Water", "Water", "Water", "Colorless"],
 
 		effect: {
-			en: "Discard a random Energy from among the Energy attached to all Pokémon (both yours and your opponent's).",
-			fr: "Défaussez une Énergie au hasard parmi celles attachées à tous les Pokémon en jeu (les vôtres et ceux de votre adversaire)."
+			'en-us': "Discard a random Energy from among the Energy attached to all Pokémon (both yours and your opponent's).",
+			'fr-fr': "Défaussez une Énergie au hasard parmi celles attachées à tous les Pokémon en jeu (les vôtres et ceux de votre adversaire)."
 		}
 	}],
 

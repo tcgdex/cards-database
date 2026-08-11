@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Chandelure",
-		fr: "Lugulabre",
-		es: "Chandelure",
-		it: "Chandelure",
-		pt: "Chandelure",
-		de: "Skelabra"
+		'en-us': "Chandelure",
+		'fr-fr': "Lugulabre",
+		'es-es': "Chandelure",
+		'it-it': "Chandelure",
+		'pt-br': "Chandelure",
+		'de-de': "Skelabra"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lampent",
-		fr: "Mélancolux",
+		'en-us': "Lampent",
+		'fr-fr': "Mélancolux",
 	},
 
 	stage: "Stage2",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flame Burst",
-				fr: "Rebondifeu",
+				'en-us': "Flame Burst",
+				'fr-fr': "Rebondifeu",
 			},
 			effect: {
-				en: "Does 30 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 30 dégâts à 2 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "Does 30 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 30 dégâts à 2 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 30,
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Inferno",
-				fr: "Feu d'Enfer",
+				'en-us': "Inferno",
+				'fr-fr': "Feu d'Enfer",
 			},
 			effect: {
-				en: "Discard all Energy attached to this Pokémon. The Defending Pokémon is now Burned.",
-				fr: "Défaussez toutes les Énergies attachées à ce Pokémon. Le Pokémon Défenseur est maintenant Brûlé.",
+				'en-us': "Discard all Energy attached to this Pokémon. The Defending Pokémon is now Burned.",
+				'fr-fr': "Défaussez toutes les Énergies attachées à ce Pokémon. Le Pokémon Défenseur est maintenant Brûlé.",
 			},
 			damage: 80,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Being consumed in Chandelure's flame burns up the spirit, leaving the body behind.",
+		'en-us': "Being consumed in Chandelure's flame burns up the spirit, leaving the body behind.",
 	},
 
 	thirdParty: {

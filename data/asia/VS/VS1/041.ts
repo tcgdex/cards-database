@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プライスのラプラ",
+		'ja-jp': "プライスのラプラ",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "歌う",
+				'ja-jp': "歌う",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御するポケモンは今眠っています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御するポケモンは今眠っています。",
 			},
 		},
 		{
 			cost: ["Water", "Water"],
 			name: {
-				ja: "津波",
+				'ja-jp': "津波",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は相手のベンチポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は相手のベンチポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 10,
 		},

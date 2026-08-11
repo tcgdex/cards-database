@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ferroseed",
-		fr: "Grindur"
+		'en-us': "Ferroseed",
+		'fr-fr': "Grindur"
 	},
 
 	illustrator: "Midori Harada",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "It absorbs the iron it finds in the rock while clinging\nto the ceiling. It shoots spikes when in danger.",
-		fr: "Il s'accroche aux parois des grottes et en absorbe les minéraux. Il projette ses épines en cas de danger."
+		'en-us': "It absorbs the iron it finds in the rock while clinging\nto the ceiling. It shoots spikes when in danger.",
+		'fr-fr': "Il s'accroche aux parois des grottes et en absorbe les minéraux. Il projette ses épines en cas de danger."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Spike Sting",
-			fr: "Pic Piquant"
+			'en-us': "Spike Sting",
+			'fr-fr': "Pic Piquant"
 		},
 
 		damage: 40,

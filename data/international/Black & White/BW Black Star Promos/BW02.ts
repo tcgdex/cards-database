@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Tepig",
-		fr: "Gruikui",
+		'en-us': "Tepig",
+		'fr-fr': "Gruikui",
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ember",
-				fr: "Flammèche",
+				'en-us': "Ember",
+				'fr-fr': "Flammèche",
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon.",
 			},
 			damage: 30,
 
@@ -53,7 +53,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead.",
+		'en-us': "It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead.",
 	},
 }
 

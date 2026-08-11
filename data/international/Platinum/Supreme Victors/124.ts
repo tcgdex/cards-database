@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Sandshrew",
-		fr: "Sabelette",
-		de: "Sandan"
+		'en-us': "Sandshrew",
+		'fr-fr': "Sabelette",
+		'de-de': "Sandan"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Kratzer"
 			},
 
 			damage: 20,
@@ -54,7 +54,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "To protect itself from attackers, it curls up into a ball. It lives in arid regions with minimal rainfall."
+		'en-us': "To protect itself from attackers, it curls up into a ball. It lives in arid regions with minimal rainfall."
 	},
 
 	variants: [

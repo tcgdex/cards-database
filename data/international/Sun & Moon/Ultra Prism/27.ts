@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Turtonator",
-		fr: "Boumata",
-		es: "Turtonator",
-		it: "Turtonator",
-		pt: "Turtonator",
-		de: "Tortunator"
+		'en-us': "Turtonator",
+		'fr-fr': "Boumata",
+		'es-es': "Turtonator",
+		'it-it': "Turtonator",
+		'pt-br': "Turtonator",
+		'de-de': "Tortunator"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Searing Flame",
-				fr: "Flammes Calcinantes",
-				es: "Llama Abrasadora",
-				it: "Fiamme Ustionanti",
-				pt: "Chama Cauterizante",
-				de: "Sengende Flammen"
+				'en-us': "Searing Flame",
+				'fr-fr': "Flammes Calcinantes",
+				'es-es': "Llama Abrasadora",
+				'it-it': "Fiamme Ustionanti",
+				'pt-br': "Chama Cauterizante",
+				'de-de': "Sengende Flammen"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+				'en-us': "Your opponent’s Active Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 			},
 			damage: 10,
 
@@ -60,12 +60,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steam Artillery",
-				fr: "Artillerie Vapeur",
-				es: "Artillería de Vapor",
-				it: "Artiglieria Vapore",
-				pt: "Artilharia de Vapor",
-				de: "Dampfgeschütz"
+				'en-us': "Steam Artillery",
+				'fr-fr': "Artillerie Vapeur",
+				'es-es': "Artillería de Vapor",
+				'it-it': "Artiglieria Vapore",
+				'pt-br': "Artilharia de Vapor",
+				'de-de': "Dampfgeschütz"
 			},
 
 			damage: 100,
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It gushes fire and poisonous gases from its nostrils. Its dung is an explosive substance and can be put to various uses.",
+		'en-us': "It gushes fire and poisonous gases from its nostrils. Its dung is an explosive substance and can be put to various uses.",
 	},
 
 	thirdParty: {

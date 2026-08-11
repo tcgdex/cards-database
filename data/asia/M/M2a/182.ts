@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "活力の森",
+		'ja-jp': "活力の森",
 	},
 
 	illustrator: "AYUMI ODASHIMA",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいの[G]ポケモン全員は、出したばかりの番（最初の自分の番をのぞく）でも[G]ポケモンに進化できる。",
+		'ja-jp': "おたがいの[G]ポケモン全員は、出したばかりの番（最初の自分の番をのぞく）でも[G]ポケモンに進化できる。",
 	},
 
 	variants: [

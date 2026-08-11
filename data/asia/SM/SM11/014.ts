@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ネオラント",
+		'ja-jp': "ネオラント",
 	},
 
 	illustrator: "Sekio",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "深い 海の 底は 獲物が 少ない。 貴重な エサを 巡り ランターンと 激しく 争う。",
+		'ja-jp': "深い 海の 底は 獲物が 少ない。 貴重な エサを 巡り ランターンと 激しく 争う。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "のぞむなら、相手のバトルポケモンについているエネルギーを1個、ベンチポケモンにつけ替える。",
+				'ja-jp': "のぞむなら、相手のバトルポケモンについているエネルギーを1個、ベンチポケモンにつけ替える。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ケイコウオ",
+		'ja-jp': "ケイコウオ",
 	},
 
 	retreat: 0,

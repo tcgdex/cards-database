@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pangoro",
-		fr: "Pandarbare",
-		es: "Pangoro",
-		it: "Pangoro",
-		pt: "Pangoro",
-		de: "Pandagro"
+		'en-us': "Pangoro",
+		'fr-fr': "Pandarbare",
+		'es-es': "Pangoro",
+		'it-it': "Pangoro",
+		'pt-br': "Pangoro",
+		'de-de': "Pandagro"
 	},
 
 	illustrator: "Uta",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Pancham",
-		fr: "Pandespiègle",
-		es: "Pancham",
-		it: "Pancham",
-		pt: "Pancham",
-		de: "Pam-Pam"
+		'en-us': "Pancham",
+		'fr-fr': "Pandespiègle",
+		'es-es': "Pancham",
+		'it-it': "Pancham",
+		'pt-br': "Pancham",
+		'de-de': "Pam-Pam"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Corkscrew Punch",
-			fr: "Poing Tire-Bouchon",
-			es: "Puño Tirabuzón",
-			it: "Pugno Rotante",
-			pt: "Soco Saca-rolha",
-			de: "Korkenzieherhieb"
+			'en-us': "Corkscrew Punch",
+			'fr-fr': "Poing Tire-Bouchon",
+			'es-es': "Puño Tirabuzón",
+			'it-it': "Pugno Rotante",
+			'pt-br': "Soco Saca-rolha",
+			'de-de': "Korkenzieherhieb"
 		},
 
 		damage: 60
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Wild Tackle",
-			fr: "Tacle Brutal",
-			es: "Placaje Salvaje",
-			it: "Azionferoce",
-			pt: "Investida Feroz",
-			de: "Wilder Tackle"
+			'en-us': "Wild Tackle",
+			'fr-fr': "Tacle Brutal",
+			'es-es': "Placaje Salvaje",
+			'it-it': "Azionferoce",
+			'pt-br': "Investida Feroz",
+			'de-de': "Wilder Tackle"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 160
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon is quick to anger, and it has no problem using its prodigious strength to get its way. It lives for duels against Obstagoon.",
+		'en-us': "This Pokémon is quick to anger, and it has no problem using its prodigious strength to get its way. It lives for duels against Obstagoon.",
 	},
 
 	

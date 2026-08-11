@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Nの筋書き",
+		'ja-jp': "Nの筋書き",
 	},
 
 	illustrator: "hncl",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のベンチポケモンについているエネルギーを2個まで選び、バトルポケモンにつけ替える。",
+		'ja-jp': "自分のベンチポケモンについているエネルギーを2個まで選び、バトルポケモンにつけ替える。",
 	},
 
 	variants: [

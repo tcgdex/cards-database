@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "f",
+		'ja-jp': "f",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "検索[検索]",
+				'ja-jp': "検索[検索]",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前）</em> </em>、[F]、[I]、[i]、[n]、および[d]がベンチで[d]がない場合、デッキをトレーナーカードに検索することができます。そのカードを相手に見せて、それを手に入れてください。その後、デッキをシャッフルします。",
+				'ja-jp': "ターン中に（攻撃の前）</em> </em>、[F]、[I]、[i]、[n]、および[d]がベンチで[d]がない場合、デッキをトレーナーカードに検索することができます。そのカードを相手に見せて、それを手に入れてください。その後、デッキをシャッフルします。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "隠された力",
+				'ja-jp': "隠された力",
 			},
 			damage: 10,
 		},

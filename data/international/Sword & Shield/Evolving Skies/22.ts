@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Litleo",
-		fr: "Hélionceau",
-		es: "Litleo",
-		it: "Litleo",
-		pt: "Litleo",
-		de: "Leufeo"
+		'en-us': "Litleo",
+		'fr-fr': "Hélionceau",
+		'es-es': "Litleo",
+		'it-it': "Litleo",
+		'pt-br': "Litleo",
+		'de-de': "Leufeo"
 	},
 
 	rarity: "Common",
@@ -23,12 +23,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Live Coal",
-			fr: "Charbon Mutant",
-			es: "Carbón Activado",
-			it: "Carboni Ardenti",
-			pt: "Live Coal",
-			de: "Glühende Kohlen"
+			'en-us': "Live Coal",
+			'fr-fr': "Charbon Mutant",
+			'es-es': "Carbón Activado",
+			'it-it': "Carboni Ardenti",
+			'pt-br': "Live Coal",
+			'de-de': "Glühende Kohlen"
 		},
 
 		damage: 10,
@@ -43,7 +43,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This hot-blooded Pokémon is filled with curiosity. When it gets angry or starts fighting, its short mane gets hot."
+		'en-us': "This hot-blooded Pokémon is filled with curiosity. When it gets angry or starts fighting, its short mane gets hot."
 	},
 
 	dexId: [667],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Remoraid",
-		fr: "Rémoraid",
-		es: "Remoraid",
-		it: "Remoraid",
-		pt: "Remoraid",
-		de: "Remoraid"
+		'en-us': "Remoraid",
+		'fr-fr': "Rémoraid",
+		'es-es': "Remoraid",
+		'it-it': "Remoraid",
+		'pt-br': "Remoraid",
+		'de-de': "Remoraid"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wild River",
-				fr: "Rivière Sauvage",
-				es: "Río Salvaje",
-				it: "Fiume Selvaggio",
-				pt: "Rio Selvagem",
-				de: "Wilder Fluss"
+				'en-us': "Wild River",
+				'fr-fr': "Rivière Sauvage",
+				'es-es': "Río Salvaje",
+				'it-it': "Fiume Selvaggio",
+				'pt-br': "Rio Selvagem",
+				'de-de': "Wilder Fluss"
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
-				es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-				it: "Scambia questo Pokémon con uno della tua panchina.",
-				pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
+				'es-es': "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+				'it-it': "Scambia questo Pokémon con uno della tua panchina.",
+				'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+				'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
-				es: "Pistola Agua",
-				it: "Pistolacqua",
-				pt: "Revólver d'Água",
-				de: "Aquaknarre"
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
+				'es-es': "Pistola Agua",
+				'it-it': "Pistolacqua",
+				'pt-br': "Revólver d'Água",
+				'de-de': "Aquaknarre"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers.",
+		'en-us': "Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers.",
 	},
 
 	thirdParty: {

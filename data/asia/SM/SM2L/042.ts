@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミネズミ",
+		'ja-jp': "ミネズミ",
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ほほの 袋に エサを ためこみ 何日も 見張りを 続ける。 尻尾で 仲間に 合図する。",
+		'ja-jp': "ほほの 袋に エサを ためこみ 何日も 見張りを 続ける。 尻尾で 仲間に 合図する。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ちらみ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手の山札を上から1枚見て、もとにもどす。",
+				'ja-jp': "相手の山札を上から1枚見て、もとにもどす。",
 			},
 		},
 		{

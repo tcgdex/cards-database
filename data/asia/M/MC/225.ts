@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピカチュウ",
+		'ja-jp': "ピカチュウ",
 	},
 
 	illustrator: "kamonabe",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "ほっぺたの 両側に 小さい 電気袋を 持つ。 ピンチのときに 放電する。",
+		'ja-jp': "ほっぺたの 両側に 小さい 電気袋を 持つ。 ピンチのときに 放電する。",
 	},
 
 	stage: "Basic",

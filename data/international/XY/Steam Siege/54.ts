@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Nosepass",
-		fr: "Tarinor",
-		es: "Nosepass",
-		it: "Nosepass",
-		pt: "Nosepass",
-		de: "Nasgnet"
+		'en-us': "Nosepass",
+		'fr-fr': "Tarinor",
+		'es-es': "Nosepass",
+		'it-it': "Nosepass",
+		'pt-br': "Nosepass",
+		'de-de': "Nasgnet"
 	},
 
 	illustrator: "You Iribi",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Wave",
-				fr: "Cage-Éclair",
-				es: "Onda Trueno",
-				it: "Tuononda",
-				pt: "Onda de Trovão",
-				de: "Donnerwelle"
+				'en-us': "Thunder Wave",
+				'fr-fr': "Cage-Éclair",
+				'es-es': "Onda Trueno",
+				'it-it': "Tuononda",
+				'pt-br': "Onda de Trovão",
+				'de-de': "Donnerwelle"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 
 		},
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rolling Tackle",
-				fr: "Roulé-Boulé",
-				es: "Placaje Giro",
-				it: "Rollazione",
-				pt: "Golpe de Colisão Rolante",
-				de: "Rolltackle"
+				'en-us': "Rolling Tackle",
+				'fr-fr': "Roulé-Boulé",
+				'es-es': "Placaje Giro",
+				'it-it': "Rollazione",
+				'pt-br': "Golpe de Colisão Rolante",
+				'de-de': "Rolltackle"
 			},
 
 			damage: 40,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its magnetic nose consistently faces north. Travelers check Nosepass to get their bearings.",
+		'en-us': "Its magnetic nose consistently faces north. Travelers check Nosepass to get their bearings.",
 	},
 
 	thirdParty: {

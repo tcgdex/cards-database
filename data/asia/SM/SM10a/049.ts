@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コーチトレーナー",
+		'ja-jp': "コーチトレーナー",
 	},
 
 	illustrator: "nagimiso",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札を2枚引く。自分のバトルポケモンが「TAG TEAM」なら、さらに2枚引く。",
+		'ja-jp': "自分の山札を2枚引く。自分のバトルポケモンが「TAG TEAM」なら、さらに2枚引く。",
 	},
 
 	variants: [

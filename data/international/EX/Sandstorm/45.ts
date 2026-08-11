@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Lombre",
-		fr: "Lombre",
-		de: "Lombrero"
+		'en-us': "Lombre",
+		'fr-fr': "Lombre",
+		'de-de': "Lombrero"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lotad",
-		fr: "Nenupiot"
+		'en-us': "Lotad",
+		'fr-fr': "Nenupiot"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Rain Dish",
-				fr: "Cuvette",
-				de: "Rain Dish"
+				'en-us': "Rain Dish",
+				'fr-fr': "Cuvette",
+				'de-de': "Rain Dish"
 			},
 			effect: {
-				en: "At any time between turns, remove 1 damage counter from Lombre.",
-				fr: "N'importe quand entre deux tours, retirez à Lombre un marqueur de dégât.",
-				de: "At any time between turns, remove 1 damage counter from Lombre."
+				'en-us': "At any time between turns, remove 1 damage counter from Lombre.",
+				'fr-fr': "N'importe quand entre deux tours, retirez à Lombre un marqueur de dégât.",
+				'de-de': "At any time between turns, remove 1 damage counter from Lombre."
 			}
 		},
 	],
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Scratch",
-				fr: "Double écorchure",
-				de: "Double Scratch"
+				'en-us': "Double Scratch",
+				'fr-fr': "Double écorchure",
+				'de-de': "Double Scratch"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez deux pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de face.",
-				de: "Flip 2 coins. This attack does 30 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez deux pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de face.",
+				'de-de': "Flip 2 coins. This attack does 30 damage times the number of heads."
 			},
 			damage: "30×",
 

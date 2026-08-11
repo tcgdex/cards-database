@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Magneton",
-		fr: "Magneton",
-		de: "Magneton"
+		'en-us': "Magneton",
+		'fr-fr': "Magneton",
+		'de-de': "Magneton"
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magnemite",
-		fr: "Magneti",
+		'en-us': "Magnemite",
+		'fr-fr': "Magneti",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Wave",
-				fr: "Cage-éclair",
-				de: "Donnerwelle"
+				'en-us': "Thunder Wave",
+				'fr-fr': "Cage-éclair",
+				'de-de': "Donnerwelle"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Removal Pulse",
-				fr: "Vibration suppressive",
-				de: "Entladungsimpuls"
+				'en-us': "Removal Pulse",
+				'fr-fr': "Vibration suppressive",
+				'de-de': "Entladungsimpuls"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 50,
 
@@ -87,8 +87,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is actually three Magnemite linked by magnetism. A group can set off a magnetic storm.",
-		fr: "Il est formé de trois MAGNETI liés par magnétisme. En groupe, ils déclenchent un orage magnétique"
+		'en-us': "It is actually three Magnemite linked by magnetism. A group can set off a magnetic storm.",
+		'fr-fr': "Il est formé de trois MAGNETI liés par magnétisme. En groupe, ils déclenchent un orage magnétique"
 	},
 
 	thirdParty: {

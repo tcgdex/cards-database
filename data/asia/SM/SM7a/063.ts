@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゼラオラGX",
+		'ja-jp': "ゼラオラGX",
 	},
 
 	illustrator: "PLANETA Otani",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "じんらいゾーン" },
 			effect: {
-				ja: "このポケモンがいるかぎり、[雷]エネルギーがついている自分のポケモン全員のにげるためのエネルギーは、すべてなくなる。",
+				'ja-jp': "このポケモンがいるかぎり、[雷]エネルギーがついている自分のポケモン全員のにげるためのエネルギーは、すべてなくなる。",
 			},
 		},
 	],
@@ -30,14 +30,14 @@ const card: Card = {
 			damage: 160,
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 		{
 			name: { ja: "フルボルテージGX" },
 			cost: ["Lightning"],
 			effect: {
-				ja: "自分のトラッシュにある基本エネルギーを5枚、自分のポケモンに好きなようにつける。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分のトラッシュにある基本エネルギーを5枚、自分のポケモンに好きなようにつける。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Watchog"
+		'en-us': "Watchog"
 	},
 
 	illustrator: "MAHOU",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Patrat"
+		'en-us': "Patrat"
 	},
 
 	description: {
-		en: "When they see an enemy, their tails stand high,\nand they spit the seeds of berries stored in their\ncheek pouches."
+		'en-us': "When they see an enemy, their tails stand high,\nand they spit the seeds of berries stored in their\ncheek pouches."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Biting Fang"
+			'en-us': "Biting Fang"
 		},
 
 		damage: 40,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 40 more damage."
+			'en-us': "Flip a coin. If heads, this attack does 40 more damage."
 		}
 	}],
 

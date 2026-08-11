@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒコザル",
+		'ja-jp': "ヒコザル",
 	},
 
 	illustrator: "Jerky",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "お尻の 炎は お腹で 作られた ガスが 燃料。 雨に ぬれても 消えない。",
+		'ja-jp': "お尻の 炎は お腹で 作られた ガスが 燃料。 雨に ぬれても 消えない。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、20ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、20ダメージ追加。",
 			},
 		},
 	],

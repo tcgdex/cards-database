@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
@@ -7,13 +7,13 @@ const card: Card = {
 	dexId: [757],
 
 	name: {
-		en: "Salandit",
-		fr: "Tritox",
-		es: "Salandit",
+		'en-us': "Salandit",
+		'fr-fr': "Tritox",
+		'es-es': "Salandit",
 		'es-mx': "Salandit",
-		de: "Molunk",
-		it: "Salandit",
-		pt: "Salandit"
+		'de-de': "Molunk",
+		'it-it': "Salandit",
+		'pt-br': "Salandit"
 	},
 
 	illustrator: "Kazuhisa Uragami",
@@ -27,13 +27,13 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Fire Claws",
-			fr: "Griffes Enflammées",
-			es: "Garras de Fuego",
+			'en-us': "Fire Claws",
+			'fr-fr': "Griffes Enflammées",
+			'es-es': "Garras de Fuego",
 			'es-mx': "Garras de Fuego",
-			de: "Feuerkrallen",
-			it: "Artigli Infuocati",
-			pt: "Garras de Fogo"
+			'de-de': "Feuerkrallen",
+			'it-it': "Artigli Infuocati",
+			'pt-br': "Garras de Fogo"
 		},
 
 		damage: 20

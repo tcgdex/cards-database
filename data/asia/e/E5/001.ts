@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "雑草",
+		'ja-jp': "雑草",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "怒り攻撃",
+				'ja-jp': "怒り攻撃",
 			},
 			effect: {
-				ja: "3コインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "3コインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 		},
 	],

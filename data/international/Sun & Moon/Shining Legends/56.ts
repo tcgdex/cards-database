@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Shining Rayquaza",
-		fr: "Rayquaza Brillant",
-		es: "Rayquaza Luminoso",
-		it: "Rayquaza iridescente",
-		pt: "Rayquaza Luminescente",
-		de: "Schimmerndes Rayquaza"
+		'en-us': "Shining Rayquaza",
+		'fr-fr': "Rayquaza Brillant",
+		'es-es': "Rayquaza Luminoso",
+		'it-it': "Rayquaza iridescente",
+		'pt-br': "Rayquaza Luminescente",
+		'de-de': "Schimmerndes Rayquaza"
 	},
 
 	illustrator: "Naoki Saito",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Dragon Pulse",
-				fr: "Dracochoc",
-				es: "Pulso Dragón",
-				it: "Dragopulsar",
-				pt: "Pulso do Dragão",
-				de: "Drachenpuls"
+				'en-us': "Dragon Pulse",
+				'fr-fr': "Dracochoc",
+				'es-es': "Pulso Dragón",
+				'it-it': "Dragopulsar",
+				'pt-br': "Pulso do Dragão",
+				'de-de': "Drachenpuls"
 			},
 			effect: {
-				en: "Discard the top 2 cards of your deck.",
-				fr: "Défaussez les 2 cartes du dessus de votre deck.",
-				es: "Descarta las 2 primeras cartas de tu baraja.",
-				it: "Scarta le prime due carte del tuo mazzo.",
-				pt: "Descarte as 2 primeiras cartas do seu baralho.",
-				de: "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel."
+				'en-us': "Discard the top 2 cards of your deck.",
+				'fr-fr': "Défaussez les 2 cartes du dessus de votre deck.",
+				'es-es': "Descarta las 2 primeras cartas de tu baraja.",
+				'it-it': "Scarta le prime due carte del tuo mazzo.",
+				'pt-br': "Descarte as 2 primeiras cartas do seu baralho.",
+				'de-de': "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel."
 			},
 			damage: 40,
 
@@ -60,20 +60,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sky Judgment",
-				fr: "Jugement Céleste",
-				es: "Juicio Celeste",
-				it: "Giudizio Celeste",
-				pt: "Julgamento Celeste",
-				de: "Himmelsurteil"
+				'en-us': "Sky Judgment",
+				'fr-fr': "Jugement Céleste",
+				'es-es': "Juicio Celeste",
+				'it-it': "Giudizio Celeste",
+				'pt-br': "Julgamento Celeste",
+				'de-de': "Himmelsurteil"
 			},
 			effect: {
-				en: "Discard 3 Energy from this Pokémon.",
-				fr: "Défaussez 3 Énergies de ce Pokémon.",
-				es: "Descarta 3 Energías de este Pokémon.",
-				it: "Scarta tre Energie assegnate a questo Pokémon.",
-				pt: "Descarte 3 Energias deste Pokémon.",
-				de: "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard 3 Energy from this Pokémon.",
+				'fr-fr': "Défaussez 3 Énergies de ce Pokémon.",
+				'es-es': "Descarta 3 Energías de este Pokémon.",
+				'it-it': "Scarta tre Energie assegnate a questo Pokémon.",
+				'pt-br': "Descarte 3 Energias deste Pokémon.",
+				'de-de': "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 190,
 
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It lives in the ozone layer far above the clouds and cannot be seen from the ground.",
+		'en-us': "It lives in the ozone layer far above the clouds and cannot be seen from the ground.",
 	},
 
 	thirdParty: {

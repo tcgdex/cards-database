@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Hoppip",
-		fr: "Granivol",
-		de: "Hoppspross"
+		'en-us': "Hoppip",
+		'fr-fr': "Granivol",
+		'de-de': "Hoppspross"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -26,26 +26,26 @@ const card: Card = {
 	attacks: [{
 		cost: ["Water", "Colorless", "Colorless"],
 		name: {
-			en: "Sleep Powder",
-			fr: "Poudre dodo",
-			de: "Dornkanone"
+			'en-us': "Sleep Powder",
+			'fr-fr': "Poudre dodo",
+			'de-de': "Dornkanone"
 		},
 		effect: {
-			en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-			fr: "Le Pokémon Défenseur est maintenant Endormi.",
-			de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
+			'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+			'de-de': "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
 		},
 		damage: "20x",
 
 	}, {
 		name: {
-			de: "Schlafpuder"
+			'de-de': "Schlafpuder"
 		},
 
 		damage: 10,
 
 		effect: {
-			de: "Das Verteidigende Pokémon schläft jetzt."
+			'de-de': "Das Verteidigende Pokémon schläft jetzt."
 		},
 
 		cost: ["Grass"]

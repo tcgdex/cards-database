@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Krokorok",
-		fr: "Escroco",
-		es: "Krokorok",
-		it: "Krokorok",
-		pt: "Krokorok",
-		de: "Rokkaiman"
+		'en-us': "Krokorok",
+		'fr-fr': "Escroco",
+		'es-es': "Krokorok",
+		'it-it': "Krokorok",
+		'pt-br': "Krokorok",
+		'de-de': "Rokkaiman"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sandile",
-		fr: "Mascaïman",
+		'en-us': "Sandile",
+		'fr-fr': "Mascaïman",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Torment",
-				fr: "Tourmente",
+				'en-us': "Torment",
+				'fr-fr': "Tourmente",
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
-				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Le Pokémon Défenseur ne pourra pas l'utiliser lors du prochain tour de votre adversaire.",
+				'en-us': "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
+				'fr-fr': "Choisissez 1 des attaques du Pokémon Défenseur. Le Pokémon Défenseur ne pourra pas l'utiliser lors du prochain tour de votre adversaire.",
 			},
 			damage: 10,
 
@@ -56,8 +56,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
 			},
 
 			damage: 50,
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The special membrane covering its eyes can sense the heat of objects, so it can see its surroundings even in darkness.",
+		'en-us': "The special membrane covering its eyes can sense the heat of objects, so it can see its surroundings even in darkness.",
 	},
 
 	thirdParty: {

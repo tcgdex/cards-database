@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Metang",
-		fr: "Métang",
-		es: "Metang",
-		it: "Metang",
-		pt: "Metang",
-		de: "Metang"
+		'en-us': "Metang",
+		'fr-fr': "Métang",
+		'es-es': "Metang",
+		'it-it': "Metang",
+		'pt-br': "Metang",
+		'de-de': "Metang"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Beldum",
-		fr: "Terhal",
+		'en-us': "Beldum",
+		'fr-fr': "Terhal",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psy Bolt",
-				fr: "Choc Mental",
+				'en-us': "Psy Bolt",
+				'fr-fr': "Choc Mental",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 10,
 
@@ -56,8 +56,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psypunch",
-				fr: "Coup de Poing Psy",
+				'en-us': "Psypunch",
+				'fr-fr': "Coup de Poing Psy",
 			},
 
 			damage: 50,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is formed by two Beldum joining together. Its two brains are linked, amplifying its psychic power.",
+		'en-us': "It is formed by two Beldum joining together. Its two brains are linked, amplifying its psychic power.",
 	},
 
 	thirdParty: {

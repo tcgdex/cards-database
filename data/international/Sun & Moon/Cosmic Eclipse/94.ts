@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Trevenant",
-		fr: "Desséliande",
-		es: "Trevenant",
-		it: "Trevenant",
-		pt: "Trevenant",
-		de: "Trombork"
+		'en-us': "Trevenant",
+		'fr-fr': "Desséliande",
+		'es-es': "Trevenant",
+		'it-it': "Trevenant",
+		'pt-br': "Trevenant",
+		'de-de': "Trombork"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Phantump",
-		fr: "Brocélôme",
+		'en-us': "Phantump",
+		'fr-fr': "Brocélôme",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Perplexing Forest",
-				fr: "Forêt Déroutante",
-				es: "Bosque Desconcertante",
-				it: "Foresta Sconcertante",
-				pt: "Floresta Estarrecedora",
-				de: "Verblüffender Wald"
+				'en-us': "Perplexing Forest",
+				'fr-fr': "Forêt Déroutante",
+				'es-es': "Bosque Desconcertante",
+				'it-it': "Foresta Sconcertante",
+				'pt-br': "Floresta Estarrecedora",
+				'de-de': "Verblüffender Wald"
 			},
 			effect: {
-				en: "You may have your opponent switch their Active Pokémon with 1 of their Benched Pokémon.",
-				fr: "Vous pouvez demander à votre adversaire d’échanger son Pokémon Actif avec l’un de ses Pokémon de Banc.",
-				es: "Puedes hacer que tu rival cambie su Pokémon Activo por 1 de sus Pokémon en Banca.",
-				it: "Puoi far scambiare al tuo avversario il suo Pokémon attivo con uno della sua panchina.",
-				pt: "Você pode fazer com que o seu oponente troque o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
-				de: "Du kannst deinen Gegner dazu veranlassen, sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank auszutauschen."
+				'en-us': "You may have your opponent switch their Active Pokémon with 1 of their Benched Pokémon.",
+				'fr-fr': "Vous pouvez demander à votre adversaire d’échanger son Pokémon Actif avec l’un de ses Pokémon de Banc.",
+				'es-es': "Puedes hacer que tu rival cambie su Pokémon Activo por 1 de sus Pokémon en Banca.",
+				'it-it': "Puoi far scambiare al tuo avversario il suo Pokémon attivo con uno della sua panchina.",
+				'pt-br': "Você pode fazer com que o seu oponente troque o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
+				'de-de': "Du kannst deinen Gegner dazu veranlassen, sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank auszutauschen."
 			},
 			damage: 20,
 
@@ -64,20 +64,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shadow Impact",
-				fr: "Impact Lugubre",
-				es: "Impacto Sombra",
-				it: "Impatto Ombra",
-				pt: "Impacto Sombrio",
-				de: "Schatteneinschlag"
+				'en-us': "Shadow Impact",
+				'fr-fr': "Impact Lugubre",
+				'es-es': "Impacto Sombra",
+				'it-it': "Impatto Ombra",
+				'pt-br': "Impacto Sombrio",
+				'de-de': "Schatteneinschlag"
 			},
 			effect: {
-				en: "Put 4 damage counters on 1 of your Pokémon.",
-				fr: "Placez 4 marqueurs de dégâts sur l’un de vos Pokémon.",
-				es: "Pon 4 contadores de daño en 1 de tus Pokémon.",
-				it: "Metti quattro segnalini danno su uno dei tuoi Pokémon.",
-				pt: "Coloque 4 contadores de dano em 1 dos seus Pokémon.",
-				de: "Lege 4 Schadensmarken auf 1 deiner Pokémon."
+				'en-us': "Put 4 damage counters on 1 of your Pokémon.",
+				'fr-fr': "Placez 4 marqueurs de dégâts sur l’un de vos Pokémon.",
+				'es-es': "Pon 4 contadores de daño en 1 de tus Pokémon.",
+				'it-it': "Metti quattro segnalini danno su uno dei tuoi Pokémon.",
+				'pt-br': "Coloque 4 contadores de dano em 1 dos seus Pokémon.",
+				'de-de': "Lege 4 Schadensmarken auf 1 deiner Pokémon."
 			},
 			damage: 120,
 
@@ -101,7 +101,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It's feared as a ghost of the forest. Lumberjacks bring along Fire types, which Trevenant hates, when they enter the forest.",
+		'en-us': "It's feared as a ghost of the forest. Lumberjacks bring along Fire types, which Trevenant hates, when they enter the forest.",
 	},
 
 	thirdParty: {

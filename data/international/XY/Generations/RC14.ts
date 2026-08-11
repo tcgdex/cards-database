@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Espurr",
-		fr: "Psystigri",
+		'en-us': "Espurr",
+		'fr-fr': "Psystigri",
 	},
 
 	illustrator: "Kanako Eo",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Twinkle",
-				fr: "Étincellement",
+				'en-us': "Twinkle",
+				'fr-fr': "Étincellement",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'en-us': "Your opponent's Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			},
 
 		},
@@ -51,7 +51,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "My number one. Exceptionally cute. A little princess.",
+		'en-us': "My number one. Exceptionally cute. A little princess.",
 	},
 
 	thirdParty: {

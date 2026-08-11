@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガユキメノコex",
+		'ja-jp': "メガユキメノコex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Water"],
 			effect: {
-				ja: "相手の手札の枚数×50ダメージ。",
+				'ja-jp': "相手の手札の枚数×50ダメージ。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ユキワラシ",
+		'ja-jp': "ユキワラシ",
 	},
 
 	retreat: 1,

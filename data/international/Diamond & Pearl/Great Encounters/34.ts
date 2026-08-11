@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Cacturne",
-		fr: "Cacturne",
-		de: "Noktuska"
+		'en-us': "Cacturne",
+		'fr-fr': "Cacturne",
+		'de-de': "Noktuska"
 	},
 
 	illustrator: "Midori Harada",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cacnea",
-		fr: "Cacnea",
+		'en-us': "Cacnea",
+		'fr-fr': "Cacnea",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pin Missile",
-				fr: "Dard-nuée",
-				de: "Nadelrakete"
+				'en-us': "Pin Missile",
+				'fr-fr': "Dard-nuée",
+				'de-de': "Nadelrakete"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 3 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "20x",
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Needle Arm",
-				fr: "Poing dard",
-				de: "Nietenranke"
+				'en-us': "Needle Arm",
+				'fr-fr': "Poing dard",
+				'de-de': "Nietenranke"
 			},
 			effect: {
-				en: "If the Defending Pokémon already has any damage counters on it, this attack does 50 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wenn auf dem Verteidigenden Pokémon bereits mindestens 1 Schadensmarke liegt, fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "If the Defending Pokémon already has any damage counters on it, this attack does 50 damage plus 20 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wenn auf dem Verteidigenden Pokémon bereits mindestens 1 Schadensmarke liegt, fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It becomes active at night, seeking prey that is exhausted from the day's desert heat.",
+		'en-us': "It becomes active at night, seeking prey that is exhausted from the day's desert heat.",
 	},
 
 	thirdParty: {

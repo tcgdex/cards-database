@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カブトップス",
+		'ja-jp': "カブトップス",
 	},
 
 	rarity: "Secret Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "クリスタルタイプ",
+				'ja-jp': "クリスタルタイプ",
 			},
 			effect: {
-				ja: "手からカブトップスまでの水、稲妻、または基本エネルギーカードとの戦いをするたびに、カブトップスのタイプ（色）はターンの終わりまでそのタイプのエネルギーと同じになります。",
+				'ja-jp': "手からカブトップスまでの水、稲妻、または基本エネルギーカードとの戦いをするたびに、カブトップスのタイプ（色）はターンの終わりまでそのタイプのエネルギーと同じになります。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Water", "Colorless"],
 			name: {
-				ja: "排水カット",
+				'ja-jp': "排水カット",
 			},
 			effect: {
-				ja: "Kabutopsからダメージカウンターを取り外します。",
+				'ja-jp': "Kabutopsからダメージカウンターを取り外します。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Fighting", "Lightning", "Lightning", "Colorless"],
 			name: {
-				ja: "トリプルカッター",
+				'ja-jp': "トリプルカッター",
 			},
 			effect: {
-				ja: "3コインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
+				'ja-jp': "3コインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Magnemite",
-		fr: "Magneti",
-		de: "Magnetilo"
+		'en-us': "Magnemite",
+		'fr-fr': "Magneti",
+		'de-de': "Magnetilo"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Attract",
-				fr: "Attraction",
-				de: "Attract"
+				'en-us': "Attract",
+				'fr-fr': "Attraction",
+				'de-de': "Attract"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Benched Pokémon and switch the Defending Pokémon with it.",
-				fr: "Choisissez un des Pokémon du Banc de votre adversaire et échangez-le contre le Pokémon Défenseur.",
-				de: "Choose 1 of your opponent´s Benched Pokémon and switch the Defending Pokémon with it."
+				'en-us': "Choose 1 of your opponent's Benched Pokémon and switch the Defending Pokémon with it.",
+				'fr-fr': "Choisissez un des Pokémon du Banc de votre adversaire et échangez-le contre le Pokémon Défenseur.",
+				'de-de': "Choose 1 of your opponent´s Benched Pokémon and switch the Defending Pokémon with it."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,

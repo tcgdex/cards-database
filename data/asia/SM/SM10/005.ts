@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コンパン",
+		'ja-jp': "コンパン",
 	},
 
 	illustrator: "Yuka Morii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "小さな 目が たくさん 集まって 大きな 目に なっている。 夜になると 明かりに 集まる。",
+		'ja-jp': "小さな 目が たくさん 集まって 大きな 目に なっている。 夜になると 明かりに 集まる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Grass"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Darumaka"
+		'en-us': "Darumaka"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "This popular symbol of good fortune will never\nfall over in its sleep, no matter how it's pushed\nor pulled."
+		'en-us': "This popular symbol of good fortune will never\nfall over in its sleep, no matter how it's pushed\nor pulled."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Reckless Charge"
+			'en-us': "Reckless Charge"
 		},
 
 		damage: 50,
 		cost: ["Fire", "Fire"],
 
 		effect: {
-			en: "This Pokémon also does 10 damage to itself."
+			'en-us': "This Pokémon also does 10 damage to itself."
 		}
 	}],
 

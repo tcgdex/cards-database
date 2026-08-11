@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Arbok δ",
-		fr: "Arbok δ",
-		de: "Arbok"
+		'en-us': "Arbok δ",
+		'fr-fr': "Arbok δ",
+		'de-de': "Arbok"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ekans",
-		fr: "Abo"
+		'en-us': "Ekans",
+		'fr-fr': "Abo"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Burning Venom",
-				fr: "Venin brûlant",
-				de: "Brennendes Gift"
+				'en-us': "Burning Venom",
+				'fr-fr': "Venin brûlant",
+				'de-de': "Brennendes Gift"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned and Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé et Empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt verbrannt und vergiftet"
+				'en-us': "The Defending Pokémon is now Burned and Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé et Empoisonné.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verbrannt und vergiftet"
 			},
 
 		},
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strangle",
-				fr: "Étrangler",
-				de: "Erdrosseln"
+				'en-us': "Strangle",
+				'fr-fr': "Étrangler",
+				'de-de': "Erdrosseln"
 			},
 			effect: {
-				en: "If the Defending Pokémon has δ on its card, this attack does 50 damage plus 30 more damage.",
-				fr: "Si le Pokémon Défenseur possède le symbole δ, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wenn auf dem Verteidigenden Pokémon δ zu sehen ist, fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "If the Defending Pokémon has δ on its card, this attack does 50 damage plus 30 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur possède le symbole δ, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "Wenn auf dem Verteidigenden Pokémon δ zu sehen ist, fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 

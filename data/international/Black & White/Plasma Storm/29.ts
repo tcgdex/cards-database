@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Lotad",
-		fr: "Nénupiot",
-		es: "Lotad",
-		it: "Lotad",
-		pt: "Lotad",
-		de: "Loturzel"
+		'en-us': "Lotad",
+		'fr-fr': "Nénupiot",
+		'es-es': "Lotad",
+		'it-it': "Lotad",
+		'pt-br': "Lotad",
+		'de-de': "Loturzel"
 	},
 
 	illustrator: "Midori Harada",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bubble Beam",
-				fr: "Bulles d'O",
+				'en-us': "Bubble Beam",
+				'fr-fr': "Bulles d'O",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 20,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It looks like an aquatic plant and serves as a ferry to Pokémon that can't swim.",
+		'en-us': "It looks like an aquatic plant and serves as a ferry to Pokémon that can't swim.",
 	},
 
 	thirdParty: {

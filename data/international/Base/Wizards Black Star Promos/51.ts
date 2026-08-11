@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Rapidash",
+		'en-us': "Rapidash",
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -18,7 +18,7 @@ const card: Card = {
 		"Fire",
 	],
 	evolveFrom: {
-		en: "Ponyta",
+		'en-us': "Ponyta",
 	},
 	stage: "Stage1",
 
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jump Over",
+				'en-us': "Jump Over",
 			},
 			effect: {
-				en: "If you opponent has any Benched Pokémon, choose 1 of them. Flip a coin. If heads, this attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'en-us': "If you opponent has any Benched Pokémon, choose 1 of them. Flip a coin. If heads, this attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			},
 
 		},
@@ -44,10 +44,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Singe",
+				'en-us': "Super Singe",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Burned.",
 			},
 			damage: 30,
 

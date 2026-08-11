@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Dratini δ",
-		fr: "Minidraco δ",
-		de: "Dratini"
+		'en-us': "Dratini δ",
+		'fr-fr': "Minidraco δ",
+		'de-de': "Dratini"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'de-de': "Ramme"
 			},
 
 			damage: 10,

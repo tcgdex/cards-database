@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フーパ",
+		'ja-jp': "フーパ",
 		'zh-tw': "胡帕",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "気に入った ものを リングを 使い 秘密の 住処へ 集めている。 リングを 潜って テレポートする。",
+		'ja-jp': "気に入った ものを リングを 使い 秘密の 住処へ 集めている。 リングを 潜って テレポートする。",
 		'zh-tw': "用圓環將喜歡的東西傳送到秘密的住處。會鑽進圓環瞬間移動。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "アサルトゲート",
+				'ja-jp': "アサルトゲート",
 				'zh-tw': "進擊之門",
 			},
 			damage: 90,
 			cost: ["Darkness"],
 			effect: {
-				ja: "この番、このポケモンがベンチからバトル場に出ていないなら、このワザは失敗。このワザのダメージは弱点を計算しない。",
+				'ja-jp': "この番、このポケモンがベンチからバトル場に出ていないなら、このワザは失敗。このワザのダメージは弱点を計算しない。",
 				'zh-tw': "在這個回合，若沒有從備戰區將這隻寶可夢放置於戰鬥場，則這個招式失敗。這個招式的傷害不計算弱點。",
 			},
 		},

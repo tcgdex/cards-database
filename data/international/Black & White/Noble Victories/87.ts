@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Fraxure",
-		fr: "Incisache",
-		es: "Fraxure",
-		it: "Fraxure",
-		pt: "Fraxure",
-		de: "Sharfax"
+		'en-us': "Fraxure",
+		'fr-fr': "Incisache",
+		'es-es': "Fraxure",
+		'it-it': "Fraxure",
+		'pt-br': "Fraxure",
+		'de-de': "Sharfax"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Axew",
-		fr: "Coupenotte",
+		'en-us': "Axew",
+		'fr-fr': "Coupenotte",
 	},
 
 	stage: "Stage1",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
 			},
 
 			damage: 20,
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dual Chop",
-				fr: "Double Baffe",
+				'en-us': "Dual Chop",
+				'fr-fr': "Double Baffe",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 30,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Since a broken tusk will not grow back, they diligently sharpen their tusks on river rocks after they've been fighting.",
+		'en-us': "Since a broken tusk will not grow back, they diligently sharpen their tusks on river rocks after they've been fighting.",
 	},
 
 	thirdParty: {

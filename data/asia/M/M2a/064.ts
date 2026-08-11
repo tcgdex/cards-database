@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トゲピー",
+		'ja-jp': "トゲピー",
 	},
 
 	illustrator: "Yoko Hishida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "殻の中に 幸せが たくさん つまっているらしく 優しくされると 幸運を 分け与える という。",
+		'ja-jp': "殻の中に 幸せが たくさん つまっているらしく 優しくされると 幸運を 分け与える という。",
 	},
 
 	stage: "Basic",

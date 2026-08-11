@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オーガポン いしずえのめんex",
+		'ja-jp': "オーガポン いしずえのめんex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "いしずえのかまえ" },
 			effect: {
-				ja: "このポケモンは、相手の特性を持つポケモンからワザのダメージを受けない。",
+				'ja-jp': "このポケモンは、相手の特性を持つポケモンからワザのダメージを受けない。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 140,
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 	],

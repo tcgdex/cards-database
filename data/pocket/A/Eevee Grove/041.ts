@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mienshao",
-		fr: "Shaofouine"
+		'en-us': "Mienshao",
+		'fr-fr': "Shaofouine"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Mienfoo"
+		'en-us': "Mienfoo"
 	},
 
 	description: {
-		en: "When Mienshao comes across a truly challenging\nopponent, it will lighten itself by biting off the\nfur on its arms.",
-		fr: "Lorsqu'il fait face à un adversaire vraiment redoutable, il coupe les poils de sa main avec les dents pour améliorer son agilité."
+		'en-us': "When Mienshao comes across a truly challenging\nopponent, it will lighten itself by biting off the\nfur on its arms.",
+		'fr-fr': "Lorsqu'il fait face à un adversaire vraiment redoutable, il coupe les poils de sa main avec les dents pour améliorer son agilité."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Low Kick",
-			fr: "Balayage"
+			'en-us': "Low Kick",
+			'fr-fr': "Balayage"
 		},
 
 		damage: 70,

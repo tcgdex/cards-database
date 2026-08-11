@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Sandslash"
+		'en-us': "Brock's Sandslash"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sandshrew"
+		'en-us': "Sandshrew"
 	},
 
 	stage: "Stage1",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Needles"
+				'en-us': "Needles"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned."
 			},
 
 		},
@@ -45,10 +45,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Sandstorm"
+				'en-us': "Sandstorm"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
 			},
 			damage: 20,
 

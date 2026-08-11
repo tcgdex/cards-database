@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Staraptor",
-		fr: "Etouraptor",
-		de: "Staraptor"
+		'en-us': "Staraptor",
+		'fr-fr': "Etouraptor",
+		'de-de': "Staraptor"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Staravia",
-		fr: "Etourvol",
+		'en-us': "Staravia",
+		'fr-fr': "Etourvol",
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Protect Wing",
-				fr: "Aile protectrice",
-				de: "Stützende Schwinge"
+				'en-us': "Protect Wing",
+				'fr-fr': "Aile protectrice",
+				'de-de': "Stützende Schwinge"
 			},
 			effect: {
-				en: "As long as Staraptor is your Active Pokémon, any damage done by attacks from your opponent's Stage 2 Evolved Pokémon is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Tant qu'Étouraptor est votre Pokémon Actif, tous dégâts infligés par des attaques de Pokémon Évolués de Niveau 2 de votre adversaire sont réduits de 20 (Après application de la Faiblesse et de la Résistance).",
-				de: "Solange Staraptor dein Aktives Pokémon ist, wird Schaden, der Staraptor durch Angriffe von entwickelten Pokémon der Phase 2 deines Gegners zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "As long as Staraptor is your Active Pokémon, any damage done by attacks from your opponent's Stage 2 Evolved Pokémon is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Tant qu'Étouraptor est votre Pokémon Actif, tous dégâts infligés par des attaques de Pokémon Évolués de Niveau 2 de votre adversaire sont réduits de 20 (Après application de la Faiblesse et de la Résistance).",
+				'de-de': "Solange Staraptor dein Aktives Pokémon ist, wird Schaden, der Staraptor durch Angriffe von entwickelten Pokémon der Phase 2 deines Gegners zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strong Breeze",
-				fr: "Forte brise",
-				de: "Steife Brise"
+				'en-us': "Strong Breeze",
+				'fr-fr': "Forte brise",
+				'de-de': "Steife Brise"
 			},
 			effect: {
-				en: "Flip a coin. If heads, put 1 of your opponent's Benched Pokémon and all cards attached to it on top of your opponent's deck. Your opponent shuffles his or her deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, placez 1 des Pokémon de Banc de votre adversaire ainsi que toutes les cartes qui lui sont attachées au dessus de son deck. Ensuite, votre adversaire mélange son deck.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" wähle 1 Pokémon von der Bank deines Gegners. Dein Gegner legt das gewählte Pokémon und alle daran angelegten Karten auf sein Deck zurück. Danach mischt er sein Deck."
+				'en-us': "Flip a coin. If heads, put 1 of your opponent's Benched Pokémon and all cards attached to it on top of your opponent's deck. Your opponent shuffles his or her deck afterward.",
+				'fr-fr': "Lancez une pièce. Si c'est face, placez 1 des Pokémon de Banc de votre adversaire ainsi que toutes les cartes qui lui sont attachées au dessus de son deck. Ensuite, votre adversaire mélange son deck.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" wähle 1 Pokémon von der Bank deines Gegners. Dein Gegner legt das gewählte Pokémon und alle daran angelegten Karten auf sein Deck zurück. Danach mischt er sein Deck."
 			},
 
 		},
@@ -70,14 +70,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Clutch",
-				fr: "Serre",
-				de: "Greifer"
+				'en-us': "Clutch",
+				'fr-fr': "Serre",
+				'de-de': "Greifer"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
-				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				'de-de': "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 60,
 

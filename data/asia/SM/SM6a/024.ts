@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナックラー",
+		'ja-jp': "ナックラー",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "大きな 顎で 邪魔な 岩を 砕きながら 砂を 掘る。 巣穴の 形は スリ鉢状。",
+		'ja-jp': "大きな 顎で 邪魔な 岩を 砕きながら 砂を 掘る。 巣穴の 形は スリ鉢状。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Fighting"],
 			effect: {
-				ja: "自分のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "自分のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

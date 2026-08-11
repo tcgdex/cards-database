@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アブラ",
+		'ja-jp': "アブラ",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "サイコフロー",
+				'ja-jp': "サイコフロー",
 			},
 			effect: {
-				ja: "ABRAに精神的エネルギーカードが付いている限り、そのリトリートコストは0です。",
+				'ja-jp': "ABRAに精神的エネルギーカードが付いている限り、そのリトリートコストは0です。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ヘッドバット",
+				'ja-jp': "ヘッドバット",
 			},
 			damage: 20,
 		},

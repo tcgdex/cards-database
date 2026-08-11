@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Bruxish",
-		fr: "Denticrisse",
-		es: "Bruxish",
-		it: "Bruxish",
-		pt: "Bruxish",
-		de: "Knirfish"
+		'en-us': "Bruxish",
+		'fr-fr': "Denticrisse",
+		'es-es': "Bruxish",
+		'it-it': "Bruxish",
+		'pt-br': "Bruxish",
+		'de-de': "Knirfish"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Mind Bend",
-				fr: "Contrôleur d’Esprit",
-				es: "Fusión Mental",
-				it: "Fusione Mentale",
-				pt: "Dobra Mentes",
-				de: "Gedankenverbiegung"
+				'en-us': "Mind Bend",
+				'fr-fr': "Contrôleur d’Esprit",
+				'es-es': "Fusión Mental",
+				'it-it': "Fusione Mentale",
+				'pt-br': "Dobra Mentes",
+				'de-de': "Gedankenverbiegung"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent’s Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Follow the Wound",
-				fr: "Bonjour les Dégâts",
-				es: "Ahondar la Herida",
-				it: "Accanimento",
-				pt: "Cutucar a Ferida",
-				de: "Zusätzlicher Schmerz"
+				'en-us': "Follow the Wound",
+				'fr-fr': "Bonjour les Dégâts",
+				'es-es': "Ahondar la Herida",
+				'it-it': "Accanimento",
+				'pt-br': "Cutucar a Ferida",
+				'de-de': "Zusätzlicher Schmerz"
 			},
 			effect: {
-				en: "This attack does 60 damage to 1 of your opponent’s Benched Pokémon that has any damage counters on it. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 60 dégâts à l’un des Pokémon de Banc de votre adversaire ayant au moins un marqueur de dégâts. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				es: "Este ataque hace 60 puntos de daño a 1 de los Pokémon en Banca de tu rival que tenga algún contador de daño sobre él. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-				it: "Questo attacco infligge 60 danni a uno dei Pokémon nella panchina del tuo avversario che abbia dei segnalini danno. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
-				pt: "Este ataque causa 60 pontos de dano a 1 dos Pokémon no Banco do seu oponente que tiver algum contador de dano nele (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
-				de: "Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners, auf dem mindestens 1 Schadensmarke liegt, 60 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "This attack does 60 damage to 1 of your opponent’s Benched Pokémon that has any damage counters on it. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 60 dégâts à l’un des Pokémon de Banc de votre adversaire ayant au moins un marqueur de dégâts. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'es-es': "Este ataque hace 60 puntos de daño a 1 de los Pokémon en Banca de tu rival que tenga algún contador de daño sobre él. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+				'it-it': "Questo attacco infligge 60 danni a uno dei Pokémon nella panchina del tuo avversario che abbia dei segnalini danno. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
+				'pt-br': "Este ataque causa 60 pontos de dano a 1 dos Pokémon no Banco do seu oponente que tiver algum contador de dano nele (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
+				'de-de': "Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners, auf dem mindestens 1 Schadensmarke liegt, 60 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It stuns its prey with psychokinesis and then grinds them to mush with its strong teeth. Even Shellder's shell is no match for it.",
+		'en-us': "It stuns its prey with psychokinesis and then grinds them to mush with its strong teeth. Even Shellder's shell is no match for it.",
 	},
 
 	thirdParty: {

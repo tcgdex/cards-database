@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Zeraora VMAX",
-		de: "Zeraora VMAX",
-		es: "Zeraora VMAX",
-		pt: "Zeraora VMAX",
-		it: "Zeraora VMAX",
-		en: "Zeraora VMAX"
+		'fr-fr': "Zeraora VMAX",
+		'de-de': "Zeraora VMAX",
+		'es-es': "Zeraora VMAX",
+		'pt-br': "Zeraora VMAX",
+		'it-it': "Zeraora VMAX",
+		'en-us': "Zeraora VMAX"
 	},
 
 	rarity: "Promo",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		fr: "Zeraora-V",
-		de: "Zeraora-V",
-		es: "Zeraora V",
-		pt: "Zeraora V",
-		it: "Zeraora-V",
-		en: "Zeraora V"
+		'fr-fr': "Zeraora-V",
+		'de-de': "Zeraora-V",
+		'es-es': "Zeraora V",
+		'pt-br': "Zeraora V",
+		'it-it': "Zeraora-V",
+		'en-us': "Zeraora V"
 	},
 
 	stage: "VMAX",
@@ -34,21 +34,21 @@ const card: Card = {
 		cost: ["Lightning", "Lightning"],
 
 		name: {
-			fr: "Battement Réactif",
-			de: "Reaktiver Puls",
-			es: "Pulso Reactivo",
-			pt: "Pulso Reativo",
-			it: "Impulso Reattivo",
-			en: "Reactive Pulse"
+			'fr-fr': "Battement Réactif",
+			'de-de': "Reaktiver Puls",
+			'es-es': "Pulso Reactivo",
+			'pt-br': "Pulso Reativo",
+			'it-it': "Impulso Reattivo",
+			'en-us': "Reactive Pulse"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 60 dégâts pour chacun des Pokémon en jeu de votre adversaire ayant un talent.",
-			de: "Diese Attacke fügt für jedes Pokémon deines Gegners im Spiel, das eine Fähigkeit hat, 60 Schadenspunkte zu.",
-			es: "Este ataque hace 60 puntos de daño por cada uno de los Pokémon en juego de tu rival que tenga una habilidad.",
-			pt: "Este ataque causa 60 pontos de dano para cada Pokémon do seu oponente em jogo que tiver uma Habilidade.",
-			it: "Questo attacco infligge 60 danni per ogni Pokémon in gioco del tuo avversario che ha un'abilità.",
-			en: "This attack does 60 damage for each of your opponent's Pokémon in play that has an Ability."
+			'fr-fr': "Cette attaque inflige 60 dégâts pour chacun des Pokémon en jeu de votre adversaire ayant un talent.",
+			'de-de': "Diese Attacke fügt für jedes Pokémon deines Gegners im Spiel, das eine Fähigkeit hat, 60 Schadenspunkte zu.",
+			'es-es': "Este ataque hace 60 puntos de daño por cada uno de los Pokémon en juego de tu rival que tenga una habilidad.",
+			'pt-br': "Este ataque causa 60 pontos de dano para cada Pokémon do seu oponente em jogo que tiver uma Habilidade.",
+			'it-it': "Questo attacco infligge 60 danni per ogni Pokémon in gioco del tuo avversario che ha un'abilità.",
+			'en-us': "This attack does 60 damage for each of your opponent's Pokémon in play that has an Ability."
 		},
 
 		damage: "60×"
@@ -56,21 +56,21 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			fr: "Poingomax",
-			de: "Dyna-Treffer",
-			es: "Maxipuñetazo",
-			pt: "Murro Max",
-			it: "Dynacolpo",
-			en: "Max Fist"
+			'fr-fr': "Poingomax",
+			'de-de': "Dyna-Treffer",
+			'es-es': "Maxipuñetazo",
+			'pt-br': "Murro Max",
+			'it-it': "Dynacolpo",
+			'en-us': "Max Fist"
 		},
 
 		effect: {
-			fr: "Défaussez 2 Énergies de ce Pokémon.",
-			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel.",
-			es: "Descarta 2 Energías de este Pokémon.",
-			pt: "Descarte 2 Energias deste Pokémon.",
-			it: "Scarta due Energie da questo Pokémon.",
-			en: "Discard 2 Energy from this Pokémon."
+			'fr-fr': "Défaussez 2 Énergies de ce Pokémon.",
+			'de-de': "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel.",
+			'es-es': "Descarta 2 Energías de este Pokémon.",
+			'pt-br': "Descarte 2 Energias deste Pokémon.",
+			'it-it': "Scarta due Energie da questo Pokémon.",
+			'en-us': "Discard 2 Energy from this Pokémon."
 		},
 
 		damage: 240

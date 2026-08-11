@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Morelull",
-		fr: "Spododo"
+		'en-us': "Morelull",
+		'fr-fr': "Spododo"
 	},
 
 	illustrator: "Midori Harada",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "It scatters spores that flicker and glow. Anyone\nseeing these lights falls into a deep slumber.",
-		fr: "Il répand des spores luminescentes qui clignotent autour de lui. Quiconque aperçoit ces lumières tombe dans un sommeil profond."
+		'en-us': "It scatters spores that flicker and glow. Anyone\nseeing these lights falls into a deep slumber.",
+		'fr-fr': "Il répand des spores luminescentes qui clignotent autour de lui. Quiconque aperçoit ces lumières tombe dans un sommeil profond."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Hook",
-			fr: "Crochet"
+			'en-us': "Hook",
+			'fr-fr': "Crochet"
 		},
 
 		damage: 20,

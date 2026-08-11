@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オンバーン",
+		'ja-jp': "オンバーン",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "乱暴な 性質だが 好物の 熟した 果物を あげると 手のひらを 返したように 懐く。",
+		'ja-jp': "乱暴な 性質だが 好物の 熟した 果物を あげると 手のひらを 返したように 懐く。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ばくおんぱ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のポケモン全員に、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン全員に、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Psychic", "Darkness", "Colorless"],
 			effect: {
-				ja: "自分の山札を上から1枚トラッシュする。",
+				'ja-jp': "自分の山札を上から1枚トラッシュする。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "オンバット",
+		'ja-jp': "オンバット",
 	},
 
 	retreat: 0,

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Slowpoke",
-		fr: "Ramoloss",
+		'en-us': "Slowpoke",
+		'fr-fr': "Ramoloss",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Yawn",
-				fr: "Bâillement",
+				'en-us': "Yawn",
+				'fr-fr': "Bâillement",
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'en-us': "Your opponent’s Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			},
 
 		},
@@ -51,7 +51,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Alolan home cooking involves drying Slowpoke tails and then simmering them into a salty stew.",
+		'en-us': "Alolan home cooking involves drying Slowpoke tails and then simmering them into a salty stew.",
 	},
 
 	thirdParty: {

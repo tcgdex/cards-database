@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Ralts",
+		'en-us': "Ralts",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mind Bend",
+				'en-us': "Mind Bend",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 			},
 			damage: 10,
 
@@ -50,7 +50,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
+		'en-us': "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
 	},
 
 	thirdParty: {

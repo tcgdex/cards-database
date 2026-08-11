@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars Trainer Gallery"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Oranguru",
-		fr: "Gouroutan",
-		es: "Oranguru",
-		it: "Oranguru",
-		pt: "Oranguru",
-		de: "Kommandutan"
+		'en-us': "Oranguru",
+		'fr-fr': "Gouroutan",
+		'es-es': "Oranguru",
+		'it-it': "Oranguru",
+		'pt-br': "Oranguru",
+		'de-de': "Kommandutan"
 	},
 
 	illustrator: "Akira Komayama",
@@ -25,21 +25,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Primate Wisdom",
-			fr: "Sagesse du Primate",
-			es: "Sabiduría Primate",
-			it: "Saggezza del Primate",
-			pt: "Sabedoria de Primata",
-			de: "Primaten-Weisheit"
+			'en-us': "Primate Wisdom",
+			'fr-fr': "Sagesse du Primate",
+			'es-es': "Sabiduría Primate",
+			'it-it': "Saggezza del Primate",
+			'pt-br': "Sabedoria de Primata",
+			'de-de': "Primaten-Weisheit"
 		},
 
 		effect: {
-			en: "Once during your turn, you may switch a card from your hand with the top card of your deck.",
-			fr: "Une fois pendant votre tour, vous pouvez échanger une carte de votre main contre la carte du dessus de votre deck.",
-			es: "Una vez durante tu turno, puedes cambiar 1 carta de tu mano por la primera carta de tu baraja.",
-			it: "Una sola volta durante il tuo turno, puoi scambiare una carta che hai in mano con la prima carta del tuo mazzo.",
-			pt: "Uma vez durante o seu turno, você poderá trocar 1 carta da sua mão pela carta de cima do seu baralho.",
-			de: "Einmal während deines Zuges kannst du 1 Karte aus deiner Hand gegen die oberste Karte deines Decks austauschen."
+			'en-us': "Once during your turn, you may switch a card from your hand with the top card of your deck.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez échanger une carte de votre main contre la carte du dessus de votre deck.",
+			'es-es': "Una vez durante tu turno, puedes cambiar 1 carta de tu mano por la primera carta de tu baraja.",
+			'it-it': "Una sola volta durante il tuo turno, puoi scambiare una carta che hai in mano con la prima carta del tuo mazzo.",
+			'pt-br': "Uma vez durante o seu turno, você poderá trocar 1 carta da sua mão pela carta de cima do seu baralho.",
+			'de-de': "Einmal während deines Zuges kannst du 1 Karte aus deiner Hand gegen die oberste Karte deines Decks austauschen."
 		}
 	}],
 
@@ -47,12 +47,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Whap Down",
-			fr: "Assommer",
-			es: "Zurrar",
-			it: "Bastonata",
-			pt: "Golpe Ligeiro",
-			de: "Verdreschen"
+			'en-us': "Whap Down",
+			'fr-fr': "Assommer",
+			'es-es': "Zurrar",
+			'it-it': "Bastonata",
+			'pt-br': "Golpe Ligeiro",
+			'de-de': "Verdreschen"
 		},
 
 		damage: 70
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It knows the forest inside and out. If it comes across a wounded Pokémon, Oranguru will gather medicinal herbs to treat it.",
+		'en-us': "It knows the forest inside and out. If it comes across a wounded Pokémon, Oranguru will gather medicinal herbs to treat it.",
 	},
 
 	variants: [

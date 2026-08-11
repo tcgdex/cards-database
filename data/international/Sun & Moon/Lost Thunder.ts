@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sun & Moon'
 
 const sm8: Set = {
 	id: "sm8",
 
 	name: {
-		en: "Lost Thunder",
-		fr: "Tonnerre Perdu",
-		es: "Truenos Perdidos",
-		it: "Tuoni Perduti",
-		de: "Echo des Donners",
-		pt: "Trovões Perdidos"
+		'en-us': "Lost Thunder",
+		'fr-fr': "Tonnerre Perdu",
+		'es-es': "Truenos Perdidos",
+		'it-it': "Tuoni Perduti",
+		'de-de': "Echo des Donners",
+		'pt-br': "Trovões Perdidos"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const sm8: Set = {
 
 	abbreviations: {
 		official: "LOT",
-		fr: "TPD"
+		'fr-fr': "TPD"
 	},
 
 	thirdParty: {

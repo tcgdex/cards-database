@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Clobbopus",
-		fr: "Poulpaf",
-		es: "Clobbopus",
-		it: "Clobbopus",
-		pt: "Clobbopus",
-		de: "Klopptopus"
+		'en-us': "Clobbopus",
+		'fr-fr': "Poulpaf",
+		'es-es': "Clobbopus",
+		'it-it': "Clobbopus",
+		'pt-br': "Clobbopus",
+		'de-de': "Klopptopus"
 	},
 
 	illustrator: "Akira Komayama",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Punch",
-				fr: "Koud'Poing",
-				es: "Puño",
-				it: "Pugno",
-				pt: "Soco",
-				de: "Boxhieb"
+				'en-us': "Punch",
+				'fr-fr': "Koud'Poing",
+				'es-es': "Puño",
+				'it-it': "Pugno",
+				'pt-br': "Soco",
+				'de-de': "Boxhieb"
 			},
 
 			damage: 50,
@@ -61,7 +61,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It's very curious, but its means of investigating things is to try to punch them with its tentacles. The search for food is what brings it onto land."
+		'en-us': "It's very curious, but its means of investigating things is to try to punch them with its tentacles. The search for food is what brings it onto land."
 	},
 
 	dexId: [852],

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Nickit"
+		'id-id': "Nickit"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Nickit selalu waspada dan licik. Ketika mencuri makanan, Pokémon ini kabur sambil menghapus jejak kaki menggunakan ekornya."
+		'id-id': "Nickit selalu waspada dan licik. Ketika mencuri makanan, Pokémon ini kabur sambil menghapus jejak kaki menggunakan ekornya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Serangan Kejutan"
+			'id-id': "Serangan Kejutan"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal."
 		},
 
 		damage: 30,

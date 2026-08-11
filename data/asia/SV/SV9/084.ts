@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ホップのアオガラス",
+		'ja-jp': "ホップのアオガラス",
 		'zh-tw': "赫普的藍鴉",
 		'zh-cn': "赫普的藍鴉"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "頭が 良く くちばしと 足で 扱える 道具なら 簡単に 使い方を 覚えてしまうぞ。",
+		'ja-jp': "頭が 良く くちばしと 足で 扱える 道具なら 簡単に 使い方を 覚えてしまうぞ。",
 		'zh-tw': "頭腦聰明，凡是靠鳥嘴 和爪子能夠操控的工具， 牠都可以輕易地學會用法。",
 		'zh-cn': "頭腦聰明，凡是靠鳥嘴 和爪子能夠操控的工具， 牠都可以輕易地學會用法。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "スピードひこう",
+			'ja-jp': "スピードひこう",
 			'zh-tw': "高速飛行",
 			'zh-cn': "高速飛行"
 		},
@@ -39,7 +39,7 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "するどいはね",
+			'ja-jp': "するどいはね",
 			'zh-tw': "銳利羽",
 			'zh-cn': "銳利羽"
 		},

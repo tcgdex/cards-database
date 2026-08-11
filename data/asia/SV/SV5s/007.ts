@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Breloom"
+		'id-id': "Breloom"
 	},
 
 	illustrator: "Taiga Kasai",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Bibit pada ekor Breloom terbuat dari spora beracun. Pokémon ini mengalahkan musuh dengan pukulan cepat yang tak kasat mata."
+		'id-id': "Bibit pada ekor Breloom terbuat dari spora beracun. Pokémon ini mengalahkan musuh dengan pukulan cepat yang tak kasat mata."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Pukulan"
+			'id-id': "Pukulan"
 		},
 
 		damage: 30,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Knuckle Impact"
+			'id-id': "Knuckle Impact"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 120,

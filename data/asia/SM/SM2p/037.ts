@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニューラ",
+		'ja-jp': "ニューラ",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "ずる賢く 獰猛な 性質。 親が いない スキに 巣穴に 侵入。 タマゴを 盗みだす。",
+		'ja-jp': "ずる賢く 獰猛な 性質。 親が いない スキに 巣穴に 侵入。 タマゴを 盗みだす。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "つめとぎ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンの「きりさく」のダメージは「80」になる。",
+				'ja-jp': "次の自分の番、このポケモンの「きりさく」のダメージは「80」になる。",
 			},
 		},
 		{

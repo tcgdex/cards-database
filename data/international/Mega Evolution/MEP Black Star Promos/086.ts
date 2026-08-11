@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slowpoke",
-		fr: "Ramoloss",
-		es: "Slowpoke",
-		it: "Slowpoke",
-		pt: "Slowpoke",
-		de: "Flegmon"
+		'en-us': "Slowpoke",
+		'fr-fr': "Ramoloss",
+		'es-es': "Slowpoke",
+		'it-it': "Slowpoke",
+		'pt-br': "Slowpoke",
+		'de-de': "Flegmon"
 	},
 
 	illustrator: "miki kudo",
@@ -25,15 +25,15 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Dopey Face",
-			de: "Dösiger Blick",
-			pt: "Rosto Atordoado"
+			'en-us': "Dopey Face",
+			'de-de': "Dösiger Blick",
+			'pt-br': "Rosto Atordoado"
 		},
 
 		effect: {
-			en: "This Pokémon can't be Confused.",
-			de: "Dieses Pokémon kann nicht verwirrt werden.",
-			pt: "Este Pokémon não pode ficar Confuso."
+			'en-us': "This Pokémon can't be Confused.",
+			'de-de': "Dieses Pokémon kann nicht verwirrt werden.",
+			'pt-br': "Este Pokémon não pode ficar Confuso."
 		}
 	}],
 
@@ -41,12 +41,12 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			en: "Super Psy Bolt",
-			fr: "Super Psy",
-			es: "Superrayo Psi",
-			it: "Superpsico",
-			pt: "Super-raio Psíquico",
-			de: "Super-Psischlag"
+			'en-us': "Super Psy Bolt",
+			'fr-fr': "Super Psy",
+			'es-es': "Superrayo Psi",
+			'it-it': "Superpsico",
+			'pt-br': "Super-raio Psíquico",
+			'de-de': "Super-Psischlag"
 		},
 
 		damage: 50

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Dragonite",
-		fr: "Dracolosse",
-		es: "Dragonite",
-		it: "Dragonite",
-		pt: "Dragonite",
-		de: "Dragoran"
+		'en-us': "Dragonite",
+		'fr-fr': "Dracolosse",
+		'es-es': "Dragonite",
+		'it-it': "Dragonite",
+		'pt-br': "Dragonite",
+		'de-de': "Dragoran"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dragonair",
-		fr: "Draco",
+		'en-us': "Dragonair",
+		'fr-fr': "Draco",
 	},
 
 	stage: "Stage2",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Deafen",
-				fr: "Rendre Sourd",
+				'en-us': "Deafen",
+				'fr-fr': "Rendre Sourd",
 			},
 			effect: {
-				en: "Your opponent can't play any Item cards from his or her hand during his or her next turn.",
-				fr: "Votre adversaire ne peut pas jouer de cartes Objet de sa main pendant son prochain tour.",
+				'en-us': "Your opponent can't play any Item cards from his or her hand during his or her next turn.",
+				'fr-fr': "Votre adversaire ne peut pas jouer de cartes Objet de sa main pendant son prochain tour.",
 			},
 			damage: 60,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Healwing",
-				fr: "Aile Soin",
+				'en-us': "Healwing",
+				'fr-fr': "Aile Soin",
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts à ce Pokémon.",
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon.",
 			},
 			damage: 90,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It is said to make its home somewhere in the sea. It guides crews of shipwrecks to shore.",
+		'en-us': "It is said to make its home somewhere in the sea. It guides crews of shipwrecks to shore.",
 	},
 
 	thirdParty: {

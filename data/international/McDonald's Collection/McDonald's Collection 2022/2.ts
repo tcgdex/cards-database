@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2022'
 
 const card: Card = {
 	name: {
-		en: "Rowlet",
-		fr: "Brindibou",
-		es: "Rowlet",
-		it: "Rowlet",
-		pt: "Rowlet",
-		de: "Bauz"
+		'en-us': "Rowlet",
+		'fr-fr': "Brindibou",
+		'es-es': "Rowlet",
+		'it-it': "Rowlet",
+		'pt-br': "Rowlet",
+		'de-de': "Bauz"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Sky Circus"
+				'en-us': "Sky Circus"
 			},
 			effect: {
-				en: "If you played Bird Keeper from your hand during this turn, ignore all Energy in this Pokémon's attack costs"
+				'en-us': "If you played Bird Keeper from your hand during this turn, ignore all Energy in this Pokémon's attack costs"
 			}
 		}
 	],
@@ -40,10 +40,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				en: "Wind Shard",
+				'en-us': "Wind Shard",
 			},
 			effect: {
-				en: "This attack does 60 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "This attack does 60 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			}
 		},
 	],

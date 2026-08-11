@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "สลีปเปอร์",
-		id: "Hypno"
+		'th-th': "สลีปเปอร์",
+		'id-id': "Hypno"
 	},
 
 	illustrator: "Masako Tomii",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		th: "แกว่งลูกตุ้มที่พกเอาไว้ตลอดเวลาด้วยจังหวะคงที่ พอเข้าใกล้แล้วไม่รู้ทำไมถึงง่วงนอน",
-		id: "Dalam kondisi apa pun, Hypno selalu menggoyangkan pendulum yang dibawanya dengan ritme yang sama. Entah kenapa jadi mengantuk jika mendekatinya."
+		'th-th': "แกว่งลูกตุ้มที่พกเอาไว้ตลอดเวลาด้วยจังหวะคงที่ พอเข้าใกล้แล้วไม่รู้ทำไมถึงง่วงนอน",
+		'id-id': "Dalam kondisi apa pun, Hypno selalu menggoyangkan pendulum yang dibawanya dengan ritme yang sama. Entah kenapa jadi mengantuk jika mendekatinya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "ฝันกลางวัน",
-			id: "Mimpi di Siang Bolong"
+			'th-th': "ฝันกลางวัน",
+			'id-id': "Mimpi di Siang Bolong"
 		},
 
 		effect: {
-			th: "เทิร์นถัดไปของฝ่ายตรงข้าม ถ้าฝ่ายตรงข้ามติดการ์ดพลังงานจากบนมือ ที่โปเกมอนที่ได้รับท่าต่อสู้นี้แล้ว จะจบเทิร์นฝ่ายตรงข้าม",
-			id: "Pada giliran lawan berikutnya, jika lawan mengenakan Energi dari Kartu Pegangan pada Pokémon yang menerima serangan ini, giliran lawan akan selesai."
+			'th-th': "เทิร์นถัดไปของฝ่ายตรงข้าม ถ้าฝ่ายตรงข้ามติดการ์ดพลังงานจากบนมือ ที่โปเกมอนที่ได้รับท่าต่อสู้นี้แล้ว จะจบเทิร์นฝ่ายตรงข้าม",
+			'id-id': "Pada giliran lawan berikutnya, jika lawan mengenakan Energi dari Kartu Pegangan pada Pokémon yang menerima serangan ini, giliran lawan akan selesai."
 		},
 
 		damage: 80,

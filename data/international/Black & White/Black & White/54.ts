@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Scolipede",
-		fr: "Brutapode",
-		es: "Scolipede",
-		it: "Scolipede",
-		pt: "Scolipede",
-		de: "Cerapendra"
+		'en-us': "Scolipede",
+		'fr-fr': "Brutapode",
+		'es-es': "Scolipede",
+		'it-it': "Scolipede",
+		'pt-br': "Scolipede",
+		'de-de': "Cerapendra"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Whirlipede",
-		fr: "Scobolide",
+		'en-us': "Whirlipede",
+		'fr-fr': "Scobolide",
 	},
 
 	stage: "Stage2",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steamroller",
-				fr: "Bulldoboule",
+				'en-us': "Steamroller",
+				'fr-fr': "Bulldoboule",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 60,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Claws",
-				fr: "Griffes Empoisonnées",
+				'en-us': "Poison Claws",
+				'fr-fr': "Griffes Empoisonnées",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
 			},
 			damage: 80,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Highly aggressive, it uses the claws near its neck to dig into its opponent and poison them.",
+		'en-us': "Highly aggressive, it uses the claws near its neck to dig into its opponent and poison them.",
 	},
 
 	thirdParty: {

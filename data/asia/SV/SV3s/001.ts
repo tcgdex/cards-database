@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Oddish"
+		'id-id': "Oddish"
 	},
 
 	illustrator: "Midori Harada",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Pada siang hari, Oddish membenamkan diri ke dalam tanah yang dingin untuk menghindari matahari. Pokémon ini tumbuh dengan bermandikan cahaya bulan."
+		'id-id': "Pada siang hari, Oddish membenamkan diri ke dalam tanah yang dingin untuk menghindari matahari. Pokémon ini tumbuh dengan bermandikan cahaya bulan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Riang Gembira"
+			'id-id': "Riang Gembira"
 		},
 
 		effect: {
-			id: "Ambil 1 kartu dari atas Deck sendiri."
+			'id-id': "Ambil 1 kartu dari atas Deck sendiri."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Menginjak"
+			'id-id': "Menginjak"
 		},
 
 		damage: 10,

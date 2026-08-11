@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オシャマリ",
+		'ja-jp': "オシャマリ",
 	},
 
 	illustrator: "MINAMINAMI Take",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "仲間を 思う 気持ちが 強い。 トレーナーが 落ち込んでいると ダンスを 踊って 励まそうとする。",
+		'ja-jp': "仲間を 思う 気持ちが 強い。 トレーナーが 落ち込んでいると ダンスを 踊って 励まそうとする。",
 	},
 
 	stage: "Stage1",
@@ -39,7 +39,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アシマリ",
+		'ja-jp': "アシマリ",
 	},
 
 	retreat: 2,

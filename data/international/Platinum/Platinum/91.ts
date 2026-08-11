@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Riolu",
-		fr: "Riolu",
-		de: "Riolu"
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
+		'de-de': "Riolu"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,9 +27,9 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Light Punch",
-				fr: "Poing léger",
-				de: "Light Punch"
+				'en-us': "Light Punch",
+				'fr-fr': "Poing léger",
+				'de-de': "Light Punch"
 			},
 
 			damage: 10,
@@ -41,14 +41,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steady Punch",
-				fr: "Poing énergétique",
-				de: "Steady Punch"
+				'en-us': "Steady Punch",
+				'fr-fr': "Poing énergétique",
+				'de-de': "Steady Punch"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
 			},
 			damage: "20+",
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves."
+		'en-us': "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves."
 	},
 
 	variants: [		{

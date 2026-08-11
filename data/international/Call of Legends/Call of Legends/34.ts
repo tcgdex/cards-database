@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Tangrowth",
-		fr: "Bouldeneu",
-		de: "Tangoloss"
+		'en-us': "Tangrowth",
+		'fr-fr': "Bouldeneu",
+		'de-de': "Tangoloss"
 	},
 
 	illustrator: "Hideaki Hakozaki",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tangela",
-		fr: "Saquedeneu",
+		'en-us': "Tangela",
+		'fr-fr': "Saquedeneu",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Grind",
-				fr: "Écrase",
-				de: "Zermahlen"
+				'en-us': "Grind",
+				'fr-fr': "Écrase",
+				'de-de': "Zermahlen"
 			},
 			effect: {
-				en: "Does 20 damage times the number of Energy attached to Tangrowth.",
-				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre d’Énergies attachées à Bouldeneu.",
-				de: "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an Tangoloss angelegten Energien zu."
+				'en-us': "Does 20 damage times the number of Energy attached to Tangrowth.",
+				'fr-fr': "Cette attaque inflige 20 dégâts multipliés par le nombre d’Énergies attachées à Bouldeneu.",
+				'de-de': "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an Tangoloss angelegten Energien zu."
 			},
 			damage: "20×",
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Plow Over",
-				fr: "Labour",
-				de: "Umpflügen"
+				'en-us': "Plow Over",
+				'fr-fr': "Labour",
+				'de-de': "Umpflügen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, put 1 Energy card attached to the Defending Pokémon in the Lost Zone.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé. Si c’est pile, placez 1 carte Énergie attachée au Pokémon Défenseur dans la Zone Perdue.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt. Bei \"Zahl\" lege 1 an das Verteidigende Pokémon angelegte Energiekarte ins Nirgendwo."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, put 1 Energy card attached to the Defending Pokémon in the Lost Zone.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé. Si c’est pile, placez 1 carte Énergie attachée au Pokémon Défenseur dans la Zone Perdue.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt. Bei \"Zahl\" lege 1 an das Verteidigende Pokémon angelegte Energiekarte ins Nirgendwo."
 			},
 			damage: 30,
 
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Its vines grow so profusely that, in the warm season, you can't even see its eyes.",
+		'en-us': "Its vines grow so profusely that, in the warm season, you can't even see its eyes.",
 	},
 
 	variants: [

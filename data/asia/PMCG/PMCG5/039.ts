@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マチスのコイル",
+		'ja-jp': "マチスのコイル",
 	},
 	illustrator: "Atsuko Nishida",
 
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "除去パルス",
+				'ja-jp': "除去パルス",
 			},
 			effect: {
-				ja: "防衛ポケモンにエネルギーカードが付いている場合は、コインをひっくり返します。頭の場合は、それらのエネルギーカードの1つを選択して廃棄します。",
+				'ja-jp': "防衛ポケモンにエネルギーカードが付いている場合は、コインをひっくり返します。頭の場合は、それらのエネルギーカードの1つを選択して廃棄します。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Lightning", "Lightning"],
 			name: {
-				ja: "混乱パルス",
+				'ja-jp': "混乱パルス",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
 			},
 			damage: 20,
 		},

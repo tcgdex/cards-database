@@ -1,18 +1,18 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVLN"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "プレシャスキャリー"
+		'ja-jp': "プレシャスキャリー"
 	},
 
 	illustrator: "inose yukie",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札からたねポケモンを好きなだけ選び、ベンチに出す。そして山札を切る。"
+		'ja-jp': "自分の山札からたねポケモンを好きなだけ選び、ベンチに出す。そして山札を切る。"
 	},
 
 	trainerType: "Item",

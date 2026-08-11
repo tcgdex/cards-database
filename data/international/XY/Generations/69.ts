@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Pokémon Fan Club",
-		fr: "Fan Club Pokémon",
+		'en-us': "Pokémon Fan Club",
+		'fr-fr': "Fan Club Pokémon",
 	},
 
 	illustrator: "Yusuke Ohmura",
@@ -13,8 +13,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Cherchez jusqu'à 2 Pokémon de base dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
-		en: "Search your deck for up to 2 Basic Pokémon, reveal them, and put them into your hand. Shuffle your deck afterward."
+		'fr-fr': "Cherchez jusqu'à 2 Pokémon de base dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+		'en-us': "Search your deck for up to 2 Basic Pokémon, reveal them, and put them into your hand. Shuffle your deck afterward."
 	},
 
 	trainerType: "Supporter",

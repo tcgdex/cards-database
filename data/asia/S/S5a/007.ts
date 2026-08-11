@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S5a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "火焰雞V",
-		th: "บาชาโมV"
+		'th-th': "บาชาโมV"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -19,7 +19,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "飛膝踢",
-			th: "กระโดดแทงเข่า"
+			'th-th': "กระโดดแทงเข่า"
 		},
 
 		damage: 50,
@@ -27,12 +27,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "火焰旋渦",
-			th: "วงล้อไฟ"
+			'th-th': "วงล้อไฟ"
 		},
 
 		effect: {
 			'zh-tw': "選擇2個這隻寶可夢身上附加的能量，將其丟棄。",
-			th: "เลือกพลังงานที่ติดอยู่กับโปเกมอนนี้ 2 ลูก ทิ้งที่ตำแหน่งทิ้งการ์ด"
+			'th-th': "เลือกพลังงานที่ติดอยู่กับโปเกมอนนี้ 2 ลูก ทิ้งที่ตำแหน่งทิ้งการ์ด"
 		},
 
 		damage: 210,

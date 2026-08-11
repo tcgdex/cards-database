@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シママ",
+		'ja-jp': "シママ",
 		'zh-tw': "斑斑馬",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "放電すると たてがみが 光る。 たてがみが 輝く 回数や リズムで 仲間と 会話している。",
+		'ja-jp': "放電すると たてがみが 光る。 たてがみが 輝く 回数や リズムで 仲間と 会話している。",
 		'zh-tw': "放電時鬃毛會發光。利用鬃毛閃爍的次數及節奏與夥伴交談。",
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "サンダーアロー",
+				'ja-jp': "サンダーアロー",
 				'zh-tw': "雷電箭",
 			},
 			cost: ["Lightning"],
 			effect: {
-				ja: "相手のポケモン1匹に、10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 				'zh-tw': "對手的1隻寶可夢受到10點傷害。[在備戰區不計算弱點・抵抗力。]",
 			},
 		},

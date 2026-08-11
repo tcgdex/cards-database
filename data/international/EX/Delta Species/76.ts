@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Marill",
-		fr: "Marill",
-		de: "Marill"
+		'en-us': "Marill",
+		'fr-fr': "Marill",
+		'de-de': "Marill"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				de: "Rollout"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'de-de': "Rollout"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jump On",
-				fr: "Sauter",
-				de: "Jump On"
+				'en-us': "Jump On",
+				'fr-fr': "Sauter",
+				'de-de': "Jump On"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
 			},
 			damage: "10+",
 

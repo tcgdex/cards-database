@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Slowpoke",
-		fr: "Ramoloss",
-		es: "Slowpoke",
-		it: "Slowpoke",
-		pt: "Slowpoke",
-		de: "Flegmon"
+		'en-us': "Slowpoke",
+		'fr-fr': "Ramoloss",
+		'es-es': "Slowpoke",
+		'it-it': "Slowpoke",
+		'pt-br': "Slowpoke",
+		'de-de': "Flegmon"
 	},
 
 	illustrator: "MAHOU",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Big Yawn",
-				fr: "Gros Bâillement"
+				'en-us': "Big Yawn",
+				'fr-fr': "Gros Bâillement"
 			},
 			effect: {
-				en: "Both this Pokémon and the Defending Pokémon are now Asleep.",
-				fr: "Ce Pokémon et le Pokémon Défenseur sont maintenant Endormis."
+				'en-us': "Both this Pokémon and the Defending Pokémon are now Asleep.",
+				'fr-fr': "Ce Pokémon et le Pokémon Défenseur sont maintenant Endormis."
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shot in the Dark",
-				fr: "Au Pif"
+				'en-us': "Shot in the Dark",
+				'fr-fr': "Au Pif"
 			},
 			effect: {
-				en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
-				fr: "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien."
+				'en-us': "Flip 2 coins. If either of them is tails, this attack does nothing.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien."
 			},
 			damage: 20,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Although slow, it is skilled at fishing with its tail. It does not feel pain if its tail is bitten.",
+		'en-us': "Although slow, it is skilled at fishing with its tail. It does not feel pain if its tail is bitten.",
 	},
 
 	thirdParty: {

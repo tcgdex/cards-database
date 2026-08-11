@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Counter Catcher",
-		fr: "Attrape-Riposte",
-		es: "Capturador Contraataque",
-		it: "Contracchiappa-Pokémon",
-		pt: "Pegador de Contra-ataque",
-		de: "Konterfänger"
+		'en-us': "Counter Catcher",
+		'fr-fr': "Attrape-Riposte",
+		'es-es': "Capturador Contraataque",
+		'it-it': "Contracchiappa-Pokémon",
+		'pt-br': "Pegador de Contra-ataque",
+		'de-de': "Konterfänger"
 	},
 
 	illustrator: "Toyste Beach",
@@ -17,12 +17,12 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Vous pouvez jouer cette carte seulement s'il vous reste plus de cartes Récompense que votre adversaire.",
-		en: "",
-		es: "",
-		it: "",
-		pt: "",
-		de: ""
+		'fr-fr': "Vous pouvez jouer cette carte seulement s'il vous reste plus de cartes Récompense que votre adversaire.",
+		'en-us': "",
+		'es-es': "",
+		'it-it': "",
+		'pt-br': "",
+		'de-de': ""
 	},
 
 	trainerType: "Item",

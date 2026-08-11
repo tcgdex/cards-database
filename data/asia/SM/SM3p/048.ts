@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミカルゲ",
+		'ja-jp': "ミカルゲ",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "１０８個の 魂が 集まって 生まれた ポケモン。 要石の ひび割れに つながれている。",
+		'ja-jp': "１０８個の 魂が 集まって 生まれた ポケモン。 要石の ひび割れに つながれている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "じゅばくのうず" },
 			effect: {
-				ja: "このポケモンがバトル場にいるかぎり、相手のバトルポケモンは、にげられない。",
+				'ja-jp': "このポケモンがバトル場にいるかぎり、相手のバトルポケモンは、にげられない。",
 			},
 		},
 	],
@@ -33,7 +33,7 @@ const card: Card = {
 			name: { ja: "のろいのしずく" },
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "ダメカン3個を、相手のポケモンに好きなようにのせる。",
+				'ja-jp': "ダメカン3個を、相手のポケモンに好きなようにのせる。",
 			},
 		},
 	],

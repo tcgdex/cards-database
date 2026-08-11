@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bidoof"
+		'en-us': "Bidoof"
 	},
 
 	illustrator: "MAHOU",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "With nerves of steel, nothing can perturb it. It is\nmore agile and active than it appears."
+		'en-us': "With nerves of steel, nothing can perturb it. It is\nmore agile and active than it appears."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Super Fang"
+			'en-us': "Super Fang"
 		},
 
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Halve your opponent's Active Pokémon's remaining HP, rounded down."
+			'en-us': "Halve your opponent's Active Pokémon's remaining HP, rounded down."
 		}
 	}],
 

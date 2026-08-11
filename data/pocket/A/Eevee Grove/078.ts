@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eevee",
-		fr: "Évoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli"
 	},
 
 	illustrator: "Narumi Sato",
@@ -18,23 +18,23 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Its ability to evolve into many forms allows it to\nadapt smoothly and perfectly to any environment.",
-		fr: "Ses multiples évolutions lui permettent de s'adapter à tout type de milieu naturel."
+		'en-us': "Its ability to evolve into many forms allows it to\nadapt smoothly and perfectly to any environment.",
+		'fr-fr': "Ses multiples évolutions lui permettent de s'adapter à tout type de milieu naturel."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Collect",
-			fr: "Collecte"
+			'en-us': "Collect",
+			'fr-fr': "Collecte"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte."
 		}
 	}],
 

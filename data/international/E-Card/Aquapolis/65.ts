@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Weepinbell",
-		fr: "Boustiflor",
-		de: "Ultrigaria"
+		'en-us': "Weepinbell",
+		'fr-fr': "Boustiflor",
+		'de-de': "Ultrigaria"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bellsprout",
-		fr: "Chétiflor"
+		'en-us': "Bellsprout",
+		'fr-fr': "Chétiflor"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Growth",
-				fr: "Croissance",
-				de: "Growth"
+				'en-us': "Growth",
+				'fr-fr': "Croissance",
+				'de-de': "Growth"
 			},
 			effect: {
-				en: "Attach up to 2 Grass Energy cards from your hand to Weepinbell.",
-				fr: "Si c'est face, vous pouvez attacher jusqu'à 2 cartes Énergies  de votre main à Boustiflor.",
-				de: "Attach up to 2  Energy cards from your hand to Weepinbell."
+				'en-us': "Attach up to 2 Grass Energy cards from your hand to Weepinbell.",
+				'fr-fr': "Si c'est face, vous pouvez attacher jusqu'à 2 cartes Énergies  de votre main à Boustiflor.",
+				'de-de': "Attach up to 2  Energy cards from your hand to Weepinbell."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Razor Leaf",
-				fr: "Double tranch'herb",
-				de: "Double Razor Leaf"
+				'en-us': "Double Razor Leaf",
+				'fr-fr': "Double tranch'herb",
+				'de-de': "Double Razor Leaf"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 30 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 30 damage times the number of heads."
 			},
 			damage: "30×",
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Brindibou",
-		en: "Rowlet",
-		es: "Rowlet",
-		it: "Rowlet",
-		pt: "Rowlet",
-		de: "Bauz"
+		'fr-fr': "Brindibou",
+		'en-us': "Rowlet",
+		'es-es': "Rowlet",
+		'it-it': "Rowlet",
+		'pt-br': "Rowlet",
+		'de-de': "Bauz"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			fr: "Aile Tranchante",
-			en: "Razor Wing",
-			es: "Ala Cortante",
-			it: "Ala Tagliente",
-			pt: "Asa Cortante",
-			de: "Rasierflügel"
+			'fr-fr': "Aile Tranchante",
+			'en-us': "Razor Wing",
+			'es-es': "Ala Cortante",
+			'it-it': "Ala Tagliente",
+			'pt-br': "Asa Cortante",
+			'de-de': "Rasierflügel"
 		},
 
 		damage: 20
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It feels relaxed in tight, dark places and has been known to use its Trainer's pocket or bag as a nest.",
+		'en-us': "It feels relaxed in tight, dark places and has been known to use its Trainer's pocket or bag as a nest.",
 	},
 
 	variants: [

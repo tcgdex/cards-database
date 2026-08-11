@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Aipom",
-		fr: "Capumain",
-		de: "Griffel"
+		'en-us': "Aipom",
+		'fr-fr': "Capumain",
+		'de-de': "Griffel"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Imitate",
-				fr: "Imiter",
-				de: "Nachäffen"
+				'en-us': "Imitate",
+				'fr-fr': "Imiter",
+				'de-de': "Nachäffen"
 			},
 			effect: {
-				en: "Draw cards until you have the same number of cards in your hand as your opponent.",
-				fr: "Piochez jusqu’à ce que vous obteniez le même nombre de cartes dans votre main que votre adversaire.",
-				de: "Ziehe so viele Karten, bis du die gleiche Anzahl Handkarten hast wie dein Gegner."
+				'en-us': "Draw cards until you have the same number of cards in your hand as your opponent.",
+				'fr-fr': "Piochez jusqu’à ce que vous obteniez le même nombre de cartes dans votre main que votre adversaire.",
+				'de-de': "Ziehe so viele Karten, bis du die gleiche Anzahl Handkarten hast wie dein Gegner."
 			},
 
 		},
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Punch",
-				fr: "Kogn’Keu",
-				de: "Schwanzhieb"
+				'en-us': "Tail Punch",
+				'fr-fr': "Kogn’Keu",
+				'de-de': "Schwanzhieb"
 			},
 
 			damage: 10,
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air."
+		'en-us': "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air."
 	},
 
 	variants: [

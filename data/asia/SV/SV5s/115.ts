@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Pidove"
+		'id-id': "Pidove"
 	},
 
 	illustrator: "Mékayu",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Pidove muncul di tempat manusia tinggal. Berhati-hatilah karena ratusan ekor Pidove akan berdatangan jika kamu menyebarkan makanan."
+		'id-id': "Pidove muncul di tempat manusia tinggal. Berhati-hatilah karena ratusan ekor Pidove akan berdatangan jika kamu menyebarkan makanan."
 	},
 
 	stage: "Basic",
@@ -23,17 +23,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Evolusi Darurat"
+			'id-id': "Evolusi Darurat"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri jika sisa HP Pokémon ini adalah 30 atau kurang. Pilih 1 lembar Unfezant (termasuk Pokémon {ex}) dari Deck sendiri, lalu letakkan pada Pidove ini untuk melakukan evolusi. Kemudian, kocok Deck."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri jika sisa HP Pokémon ini adalah 30 atau kurang. Pilih 1 lembar Unfezant (termasuk Pokémon {ex}) dari Deck sendiri, lalu letakkan pada Pidove ini untuk melakukan evolusi. Kemudian, kocok Deck."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Embusan Angin"
+			'id-id': "Embusan Angin"
 		},
 
 		damage: 10,

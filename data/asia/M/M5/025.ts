@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クワガノン",
+		'ja-jp': "クワガノン",
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "デンヂムシを 抱えて 電気を もらい 大あごから 強力な 電磁ビームを 連射する。",
+		'ja-jp': "デンヂムシを 抱えて 電気を もらい 大あごから 強力な 電磁ビームを 連射する。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "クイックダイブ" },
 			cost: ["Lightning"],
 			effect: {
-				ja: "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 260,
 			cost: ["Lightning", "Lightning"],
 			effect: {
-				ja: "このポケモンに「ボルト[L]エネルギー」がついていないなら、このワザは失敗。",
+				'ja-jp': "このポケモンに「ボルト[L]エネルギー」がついていないなら、このワザは失敗。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "デンヂムシ",
+		'ja-jp': "デンヂムシ",
 	},
 
 	retreat: 2,

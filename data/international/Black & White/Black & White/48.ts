@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Munna",
-		fr: "Munna",
-		es: "Munna",
-		it: "Munna",
-		pt: "Munna",
-		de: "Somniam"
+		'en-us': "Munna",
+		'fr-fr': "Munna",
+		'es-es': "Munna",
+		'it-it': "Munna",
+		'pt-br': "Munna",
+		'de-de': "Somniam"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnosis",
-				fr: "Hypnose",
+				'en-us': "Hypnosis",
+				'fr-fr': "Hypnose",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Dream Eater",
-				fr: "Dévorêve",
+				'en-us': "Dream Eater",
+				'fr-fr': "Dévorêve",
 			},
 			effect: {
-				en: "If the Defending Pokémon is not Asleep, this attack does nothing.",
-				fr: "Si le Pokémon Défenseur n’est pas Endormi, cette attaque ne fait rien.",
+				'en-us': "If the Defending Pokémon is not Asleep, this attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur n’est pas Endormi, cette attaque ne fait rien.",
 			},
 			damage: 60,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Munna always float in the air. People whose dreams are eaten by them forget what the dreams had been about.",
+		'en-us': "Munna always float in the air. People whose dreams are eaten by them forget what the dreams had been about.",
 	},
 
 	thirdParty: {

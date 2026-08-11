@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Bibarel",
-		fr: "Castorno",
-		de: "Bidifas"
+		'en-us': "Bibarel",
+		'fr-fr': "Castorno",
+		'de-de': "Bidifas"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bidoof",
-		fr: "Keunotor",
+		'en-us': "Bidoof",
+		'fr-fr': "Keunotor",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Unaware",
-				fr: "Inconscient",
-				de: "Unkenntnis"
+				'en-us': "Unaware",
+				'fr-fr': "Inconscient",
+				'de-de': "Unkenntnis"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, excluding damage, done to Bibarel.",
-				fr: "Prévenez tous les effets d'attaques, dégâts exclus, infligés à Castorno.",
-				de: "Verhindere alle Effekte von Angriffen, außer Schaden, die Bidifas zugefügt würden."
+				'en-us': "Prevent all effects of attacks, excluding damage, done to Bibarel.",
+				'fr-fr': "Prévenez tous les effets d'attaques, dégâts exclus, infligés à Castorno.",
+				'de-de': "Verhindere alle Effekte von Angriffen, außer Schaden, die Bidifas zugefügt würden."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Amnesia",
-				fr: "Amnésie",
-				de: "Amnesie"
+				'en-us': "Amnesia",
+				'fr-fr': "Amnésie",
+				'de-de': "Amnesie"
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
-				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire.",
-				de: "Wähle 1 Angriff des Verteidigenden Pokémon. Dieses Pokémon kann im nächsten Zug deines Gegners den gewählten Angriff nicht einsetzen."
+				'en-us': "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
+				'fr-fr': "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire.",
+				'de-de': "Wähle 1 Angriff des Verteidigenden Pokémon. Dieses Pokémon kann im nächsten Zug deines Gegners den gewählten Angriff nicht einsetzen."
 			},
 			damage: 20,
 
@@ -71,9 +71,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
-				de: "Surfer"
+				'en-us': "Surf",
+				'fr-fr': "Surf",
+				'de-de': "Surfer"
 			},
 
 			damage: 60,

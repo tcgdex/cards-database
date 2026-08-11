@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Riolu",
-		fr: "Riolu",
-		es: "Riolu",
-		pt: "Riolu",
-		it: "Riolu",
-		de: "Riolu"
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
+		'es-es': "Riolu",
+		'pt-br': "Riolu",
+		'it-it': "Riolu",
+		'de-de': "Riolu"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Quick Attack",
-			fr: "Vive-Attaque",
-			es: "Ataque Rápido",
-			pt: "Ataque Rápido",
-			it: "Attacco Rapido",
-			de: "Ruckzuckhieb"
+			'en-us': "Quick Attack",
+			'fr-fr': "Vive-Attaque",
+			'es-es': "Ataque Rápido",
+			'pt-br': "Ataque Rápido",
+			'it-it': "Attacco Rapido",
+			'de-de': "Ruckzuckhieb"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 20 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
+			'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"

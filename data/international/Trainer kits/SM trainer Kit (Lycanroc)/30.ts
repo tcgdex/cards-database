@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM trainer Kit (Lycanroc)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lycanroc",
-		fr: "Lougaroc",
-		es: "Lycanroc",
-		it: "Lycanroc",
-		pt: "Lycanroc",
-		de: "Wolwerock"
+		'en-us': "Lycanroc",
+		'fr-fr': "Lougaroc",
+		'es-es': "Lycanroc",
+		'it-it': "Lycanroc",
+		'pt-br': "Lycanroc",
+		'de-de': "Wolwerock"
 	},
 
 	rarity: "None",
@@ -22,12 +22,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rockruff",
-		fr: "Rocabot",
-		es: "Rockruff",
-		it: "Rockruff",
-		pt: "Rockruff",
-		de: "Wuffels"
+		'en-us': "Rockruff",
+		'fr-fr': "Rocabot",
+		'es-es': "Rockruff",
+		'it-it': "Rockruff",
+		'pt-br': "Rockruff",
+		'de-de': "Wuffels"
 	},
 
 	stage: "Stage1",
@@ -35,20 +35,20 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 
 	description: {
-		en: "The more intimidating the opponent it faces, the more this Pokémon’s blood boils. It will attack with no regard for its own safety."
+		'en-us': "The more intimidating the opponent it faces, the more this Pokémon’s blood boils. It will attack with no regard for its own safety."
 	},
 
 	attacks: [{
 		name: {
-			en: "Bite",
-			fr: "Morsure"
+			'en-us': "Bite",
+			'fr-fr': "Morsure"
 		},
 
 		damage: 20
 	}, {
 		name: {
-			en: "Claw Slash",
-			fr: "Tranch'Griffe"
+			'en-us': "Claw Slash",
+			'fr-fr': "Tranch'Griffe"
 		},
 
 		damage: 80

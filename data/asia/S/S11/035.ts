@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チョンチー",
+		'ja-jp': "チョンチー",
 		'zh-tw': "燈籠魚",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "ひれが 変化して できた 触手は それぞれが プラスと マイナスの 電気が 流れている。",
+		'ja-jp': "ひれが 変化して できた 触手は それぞれが プラスと マイナスの 電気が 流れている。",
 		'zh-tw': "從鰭變化而來的觸手之中，分別流通著 正電以及負電。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ピッカリだま",
+				'ja-jp': "ピッカリだま",
 				'zh-tw': "光彈",
 			},
 			damage: 10,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ひっぱたく",
+				'ja-jp': "ひっぱたく",
 				'zh-tw': "重摑",
 			},
 			damage: 20,

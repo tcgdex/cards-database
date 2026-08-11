@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドジョッチ",
+		'ja-jp': "ドジョッチ",
 		'zh-tw': "妮莫",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "２本のヒゲは 敏感なレーダー。 泥で 濁った 水の 中でも 獲物の 位置を 察知するぞ。",
+		'ja-jp': "２本のヒゲは 敏感なレーダー。 泥で 濁った 水の 中でも 獲物の 位置を 察知するぞ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			name: { ja: "かくれる" },
 			cost: ["Fighting"],
 			effect: {
-				ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
 			},
 		},
 		{

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Steven's Beldum",
-		fr: "Terhal de Pierre",
-		de: "Troys Tanhel",
-		es: "Beldum de Máximo",
-		it: "Beldum di Rocco",
-		pt: "Beldum do Steven"
+		'en-us': "Steven's Beldum",
+		'fr-fr': "Terhal de Pierre",
+		'de-de': "Troys Tanhel",
+		'es-es': "Beldum de Máximo",
+		'it-it': "Beldum di Rocco",
+		'pt-br': "Beldum do Steven"
 	},
 
 
@@ -27,12 +27,12 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			de: "Ramme",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'de-de': "Ramme",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete"
 		},
 
 		damage: 30

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "No Removal Gym"
+		'en-us': "No Removal Gym"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -12,7 +12,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. A player must discard 2 cards from his or her hand in order to play an Energy Removal or Super Energy Removal card."
+		'en-us': "This card stays in play when you play it. Discard this card if another Stadium card comes into play. A player must discard 2 cards from his or her hand in order to play an Energy Removal or Super Energy Removal card."
 	},
 	variants: [
 		{

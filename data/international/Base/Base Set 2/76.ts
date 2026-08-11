@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Goldeen",
+		'en-us': "Goldeen",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Horn Attack",
+				'en-us': "Horn Attack",
 			},
 
 			damage: 10,
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Its tail fin billows like an elegant ballroom dress, giving it the nickname \"Water Queen.\"",
+		'en-us': "Its tail fin billows like an elegant ballroom dress, giving it the nickname \"Water Queen.\"",
 	},
 
 

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Grubbin"
+		'id-id': "Grubbin"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Rahang Grubbin yang besar cukup kuat untuk mematahkan ranting pohon yang tebal. Rookidee yang merupakan musuh alaminya pun kabur dibuatnya."
+		'id-id': "Rahang Grubbin yang besar cukup kuat untuk mematahkan ranting pohon yang tebal. Rookidee yang merupakan musuh alaminya pun kabur dibuatnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menggerombol"
+			'id-id': "Menggerombol"
 		},
 
 		effect: {
-			id: "Pilih paling banyak 2 lembar Grubbin dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
+			'id-id': "Pilih paling banyak 2 lembar Grubbin dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Capitan Keras"
+			'id-id': "Capitan Keras"
 		},
 
 		damage: 10,

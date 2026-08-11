@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Mélodelfe",
-		en: "Clefable",
-		es: "Clefable",
-		it: "Clefable",
-		pt: "Clefable",
-		de: "Pixi"
+		'fr-fr': "Mélodelfe",
+		'en-us': "Clefable",
+		'es-es': "Clefable",
+		'it-it': "Clefable",
+		'pt-br': "Clefable",
+		'de-de': "Pixi"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Psychic"],
 	evolveFrom: {
-		fr: "Mélofée",
-		en: "Clefairy",
-		es: "Clefairy",
-		it: "Clefairy",
-		pt: "Clefairy",
-		de: "Piepi"
+		'fr-fr': "Mélofée",
+		'en-us': "Clefairy",
+		'es-es': "Clefairy",
+		'it-it': "Clefairy",
+		'pt-br': "Clefairy",
+		'de-de': "Piepi"
 	},
 	stage: "Stage1",
 
@@ -32,41 +32,41 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			fr: "Par Ici",
-			en: "Follow Me",
-			es: "Señuelo",
-			it: "Sonoqui",
-			pt: "Isca-viva",
-			de: "Spotlight"
+			'fr-fr': "Par Ici",
+			'en-us': "Follow Me",
+			'es-es': "Señuelo",
+			'it-it': "Sonoqui",
+			'pt-br': "Isca-viva",
+			'de-de': "Spotlight"
 		},
 
 		effect: {
-			fr: "Envoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif.",
-			en: "Switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
-			es: "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
-			it: "Sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva.",
-			pt: "Mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo.",
-			de: "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein."
+			'fr-fr': "Envoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif.",
+			'en-us': "Switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
+			'es-es': "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
+			'it-it': "Sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva.",
+			'pt-br': "Mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo.",
+			'de-de': "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein."
 		}
 	}, {
 		cost: ["Psychic", "Psychic", "Psychic"],
 
 		name: {
-			fr: "Supplément Sélène",
-			en: "More Moon",
-			es: "Más Luna",
-			it: "Più Luna",
-			pt: "Lua a Mais",
-			de: "Mehr Mond"
+			'fr-fr': "Supplément Sélène",
+			'en-us': "More Moon",
+			'es-es': "Más Luna",
+			'it-it': "Più Luna",
+			'pt-br': "Lua a Mais",
+			'de-de': "Mehr Mond"
 		},
 
 		effect: {
-			fr: "Si le Pokémon de votre adversaire est mis K.O. par les dégâts de cette attaque, récupérez une carte Récompense supplémentaire.",
-			en: "If your opponent's Pokémon is Knocked Out by damage from this attack, take 1 more Prize card.",
-			es: "Si un Pokémon de tu rival queda Fuera de Combate por el daño de este ataque, coge 1 carta de Premio más.",
-			it: "Se un Pokémon del tuo avversario viene messo KO dai danni di questo attacco, prendi una carta Premio in più.",
-			pt: "Se o Pokémon do seu oponente for Nocauteado pelo dano deste ataque, pegue 1 carta de Prêmio a mais.",
-			de: "Wenn das Pokémon deines Gegners durch Schaden dieser Attacke kampfunfähig wird, nimm 1 Preiskarte mehr."
+			'fr-fr': "Si le Pokémon de votre adversaire est mis K.O. par les dégâts de cette attaque, récupérez une carte Récompense supplémentaire.",
+			'en-us': "If your opponent's Pokémon is Knocked Out by damage from this attack, take 1 more Prize card.",
+			'es-es': "Si un Pokémon de tu rival queda Fuera de Combate por el daño de este ataque, coge 1 carta de Premio más.",
+			'it-it': "Se un Pokémon del tuo avversario viene messo KO dai danni di questo attacco, prendi una carta Premio in più.",
+			'pt-br': "Se o Pokémon do seu oponente for Nocauteado pelo dano deste ataque, pegue 1 carta de Prêmio a mais.",
+			'de-de': "Wenn das Pokémon deines Gegners durch Schaden dieser Attacke kampfunfähig wird, nimm 1 Preiskarte mehr."
 		},
 
 		damage: 50
@@ -82,7 +82,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Their ears are sensitive enough to hear a pin drop from over a mile away, so they're usually found in quiet places.",
+		'en-us': "Their ears are sensitive enough to hear a pin drop from over a mile away, so they're usually found in quiet places.",
 	},
 
 	variants: [

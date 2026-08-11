@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 8'
 
 const card: Card = {
 	name: {
-		en: "Cherrim",
+		'en-us': "Cherrim",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cherubi",
+		'en-us': "Cherubi",
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Worry Seed",
+				'en-us': "Worry Seed",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 			},
 			damage: 20,
 
@@ -47,10 +47,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Magical Leaf",
+				'en-us': "Magical Leaf",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage and remove 3 damage counters from Cherrim.",
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 20 more damage and remove 3 damage counters from Cherrim.",
 			},
 			damage: "20+",
 
@@ -72,7 +72,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It blooms during times of strong sunlight. It tries to make up for everything it endured as a bud."
+		'en-us': "It blooms during times of strong sunlight. It tries to make up for everything it endured as a bud."
 	},
 
 	retreat: 2,

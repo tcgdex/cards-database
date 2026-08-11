@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Magnemite",
-		fr: "Magneti",
-		de: "Magnetilo"
+		'en-us': "Magnemite",
+		'fr-fr': "Magneti",
+		'de-de': "Magnetilo"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collectionner",
-				de: "Collect"
+				'en-us': "Collect",
+				'fr-fr': "Collectionner",
+				'de-de': "Collect"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Draw a card."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Draw a card."
 			},
 
 		},
@@ -46,15 +46,15 @@ const card: Card = {
 			cost: ["Grass", "Colorless"],
 
 			name: {
-				en: "Magnetic Blast",
-				fr: "Explosion magnétique",
-				de: "Snapping Pincers"
+				'en-us': "Magnetic Blast",
+				'fr-fr': "Explosion magnétique",
+				'de-de': "Snapping Pincers"
 			},
 
 			damage: "10+",
 
 			effect: {
-				de: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage."
+				'de-de': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage."
 			}
 		},
 	],

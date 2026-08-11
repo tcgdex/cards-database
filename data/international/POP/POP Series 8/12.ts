@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 8'
 
 const card: Card = {
 	name: {
-		en: "Chimchar",
+		'en-us': "Chimchar",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,7 +27,7 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Scratch",
+				'en-us': "Scratch",
 			},
 
 			damage: 10,
@@ -39,10 +39,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ember",
+				'en-us': "Ember",
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Fire Energy attached to Chimchar.",
+				'en-us': "Flip a coin. If tails, discard a Fire Energy attached to Chimchar.",
 			},
 			damage: 30,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It agilely scales sheer cliffs to live atop craggy mountains. Its fire is put out when it sleeps."
+		'en-us': "It agilely scales sheer cliffs to live atop craggy mountains. Its fire is put out when it sleeps."
 	},
 
 	retreat: 1,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨーテリー",
+		'ja-jp': "ヨーテリー",
 	},
 
 	illustrator: "Sekio",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "判断力に 優れた ポケモン。 勝てない 相手と 判断したら さっさと シッポを 巻いて 逃げる。",
+		'ja-jp': "判断力に 優れた ポケモン。 勝てない 相手と 判断したら さっさと シッポを 巻いて 逃げる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "つぶらなひとみ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 		{

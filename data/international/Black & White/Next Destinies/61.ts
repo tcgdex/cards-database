@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Elgyem",
-		fr: "Lewsor",
-		es: "Elgyem",
-		it: "Elgyem",
-		pt: "Elgyem",
-		de: "Pygraulon"
+		'en-us': "Elgyem",
+		'fr-fr': "Lewsor",
+		'es-es': "Elgyem",
+		'it-it': "Elgyem",
+		'pt-br': "Elgyem",
+		'de-de': "Pygraulon"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psy Bolt",
-				fr: "Choc Mental",
+				'en-us': "Psy Bolt",
+				'fr-fr': "Choc Mental",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It uses its strong psychic power to squeeze its opponent's brain, causing unendurable headaches.",
+		'en-us': "It uses its strong psychic power to squeeze its opponent's brain, causing unendurable headaches.",
 	},
 
 	thirdParty: {

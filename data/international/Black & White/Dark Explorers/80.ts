@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Chansey",
-		fr: "Leveinard",
-		es: "Chansey",
-		it: "Chansey",
-		pt: "Chansey",
-		de: "Chaneira"
+		'en-us': "Chansey",
+		'fr-fr': "Leveinard",
+		'es-es': "Chansey",
+		'it-it': "Chansey",
+		'pt-br': "Chansey",
+		'de-de': "Chaneira"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sing",
-				fr: "Berceuse"
+				'en-us': "Sing",
+				'fr-fr': "Berceuse"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi."
 			},
 
 		},
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-Edge",
-				fr: "Damoclès"
+				'en-us': "Double-Edge",
+				'fr-fr': "Damoclès"
 			},
 			effect: {
-				en: "This Pokémon does 30 damage to itself.",
-				fr: "Ce Pokémon s'inflige 30 dégâts."
+				'en-us': "This Pokémon does 30 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 30 dégâts."
 			},
 			damage: 60,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "A kindly Pokémon that lays highly nutritious eggs and shares them with injured Pokémon or people.",
+		'en-us': "A kindly Pokémon that lays highly nutritious eggs and shares them with injured Pokémon or people.",
 	},
 
 	thirdParty: {

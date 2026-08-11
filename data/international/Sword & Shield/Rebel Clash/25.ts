@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [38],
 
 	name: {
-		en: "Ninetales",
-		fr: "Feunard",
-		es: "Ninetales",
-		it: "Ninetales",
-		pt: "Ninetales",
-		de: "Vulnona"
+		'en-us': "Ninetales",
+		'fr-fr': "Feunard",
+		'es-es': "Ninetales",
+		'it-it': "Ninetales",
+		'pt-br': "Ninetales",
+		'de-de': "Vulnona"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -19,12 +19,12 @@ const card: Card = {
 	set: Set,
 
 	evolveFrom: {
-		en: "Vulpix",
-		fr: "Goupix",
-		es: "Vulpix",
-		it: "Vulpix",
-		pt: "Vulpix",
-		de: "Vulpix"
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix",
+		'es-es': "Vulpix",
+		'it-it': "Vulpix",
+		'pt-br': "Vulpix",
+		'de-de': "Vulpix"
 	},
 
 	attacks: [
@@ -33,20 +33,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Hex",
-				fr: "Châtiment",
-				es: "Infortunio",
-				it: "Sciagura",
-				pt: "Feitiço",
-				de: "Bürde"
+				'en-us': "Hex",
+				'fr-fr': "Châtiment",
+				'es-es': "Infortunio",
+				'it-it': "Sciagura",
+				'pt-br': "Feitiço",
+				'de-de': "Bürde"
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is affected by a Special Condition, this attack does 90 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire est affecté par un État Spécial, cette attaque inflige 90 dégâts supplémentaires.",
-				es: "Si el Pokémon Activo de tu rival se ve afectado por una Condición Especial, este ataque hace 90 puntos de daño más.",
-				it: "Se il Pokémon attivo del tuo avversario è influenzato da una condizione speciale, questo attacco infligge 90 danni in più.",
-				pt: "Se o Pokémon Ativo do seu oponente estiver afetado por uma Condição Especial, este ataque causará 90 pontos de dano a mais.",
-				de: "Wenn das Aktive Pokémon deines Gegners von einem Speziellen Zustand betroffen ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
+				'en-us': "If your opponent's Active Pokémon is affected by a Special Condition, this attack does 90 more damage.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est affecté par un État Spécial, cette attaque inflige 90 dégâts supplémentaires.",
+				'es-es': "Si el Pokémon Activo de tu rival se ve afectado por una Condición Especial, este ataque hace 90 puntos de daño más.",
+				'it-it': "Se il Pokémon attivo del tuo avversario è influenzato da una condizione speciale, questo attacco infligge 90 danni in più.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente estiver afetado por uma Condição Especial, este ataque causará 90 pontos de dano a mais.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners von einem Speziellen Zustand betroffen ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
 			},
 			damage: "30+",
 
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flickering Flames",
-				fr: "Flammes Vacillantes",
-				es: "Llamas Titilantes",
-				it: "Guizzafiamme",
-				pt: "Chamas Tremeluzentes",
-				de: "Züngelnde Flammen"
+				'en-us': "Flickering Flames",
+				'fr-fr': "Flammes Vacillantes",
+				'es-es': "Llamas Titilantes",
+				'it-it': "Guizzafiamme",
+				'pt-br': "Chamas Tremeluzentes",
+				'de-de': "Züngelnde Flammen"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent's Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 90,
 
@@ -94,7 +94,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers."
+		'en-us': "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers."
 	},
 
 	variants: [

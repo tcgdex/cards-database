@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dusknoir",
-		fr: "Noctunoir",
-		es: "Dusknoir",
-		it: "Dusknoir",
-		pt: "Dusknoir",
-		de: "Zwirrfinst"
+		'en-us': "Dusknoir",
+		'fr-fr': "Noctunoir",
+		'es-es': "Dusknoir",
+		'it-it': "Dusknoir",
+		'pt-br': "Dusknoir",
+		'de-de': "Zwirrfinst"
 	},
 
 	illustrator: "otumami",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Dusclops",
-		fr: "Téraclope",
-		es: "Dusclops",
-		it: "Dusclops",
-		pt: "Dusclops",
-		de: "Zwirrklop"
+		'en-us': "Dusclops",
+		'fr-fr': "Téraclope",
+		'es-es': "Dusclops",
+		'it-it': "Dusclops",
+		'pt-br': "Dusclops",
+		'de-de': "Zwirrklop"
 	},
 
 	stage: "Stage2",
@@ -35,21 +35,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Special Transfer",
-			fr: "Transfert Spécial",
-			es: "Transferencia Especial",
-			it: "Transfer Speciale",
-			pt: "Transferência Especial",
-			de: "Spezialtransfer"
+			'en-us': "Special Transfer",
+			'fr-fr': "Transfert Spécial",
+			'es-es': "Transferencia Especial",
+			'it-it': "Transfer Speciale",
+			'pt-br': "Transferência Especial",
+			'de-de': "Spezialtransfer"
 		},
 
 		effect: {
-			en: "As often as you like during your turn, you may move a Special Energy from 1 of your Pokémon to another of your Pokémon.",
-			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez déplacer une Énergie spéciale de l'un de vos Pokémon vers un autre de vos Pokémon.",
-			es: "Todas las veces que quieras durante tu turno, puedes mover 1 Energía Especial de 1 de tus Pokémon a otro de tus Pokémon.",
-			it: "Durante il tuo turno, puoi spostare un'Energia speciale da uno a un altro dei tuoi Pokémon tutte le volte che vuoi.",
-			pt: "Quantas vezes desejar durante o seu turno, você poderá mover 1 Energia Especial de 1 dos seus Pokémon para outro Pokémon seu.",
-			de: "Beliebig oft während deines Zuges kannst du 1 Spezial-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon verschieben."
+			'en-us': "As often as you like during your turn, you may move a Special Energy from 1 of your Pokémon to another of your Pokémon.",
+			'fr-fr': "Autant de fois que vous le voulez pendant votre tour, vous pouvez déplacer une Énergie spéciale de l'un de vos Pokémon vers un autre de vos Pokémon.",
+			'es-es': "Todas las veces que quieras durante tu turno, puedes mover 1 Energía Especial de 1 de tus Pokémon a otro de tus Pokémon.",
+			'it-it': "Durante il tuo turno, puoi spostare un'Energia speciale da uno a un altro dei tuoi Pokémon tutte le volte che vuoi.",
+			'pt-br': "Quantas vezes desejar durante o seu turno, você poderá mover 1 Energia Especial de 1 dos seus Pokémon para outro Pokémon seu.",
+			'de-de': "Beliebig oft während deines Zuges kannst du 1 Spezial-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon verschieben."
 		}
 	}],
 
@@ -57,12 +57,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Devour Soul",
-			fr: "Dévoreur d'Âmes",
-			es: "Devorar Almas",
-			it: "Divoranima",
-			pt: "Devorador de Almas",
-			de: "Seelenverschlinger"
+			'en-us': "Devour Soul",
+			'fr-fr': "Dévoreur d'Âmes",
+			'es-es': "Devorar Almas",
+			'it-it': "Divoranima",
+			'pt-br': "Devorador de Almas",
+			'de-de': "Seelenverschlinger"
 		},
 
 		damage: 120
@@ -85,7 +85,7 @@ const card: Card = {
 
 
 	description: {
-		en: "At the bidding of transmissions from the spirit world, it steals people and Pokémon away. No one knows whether it has a will of its own.",
+		'en-us': "At the bidding of transmissions from the spirit world, it steals people and Pokémon away. No one knows whether it has a will of its own.",
 	},
 
 	variants: [

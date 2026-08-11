@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Poipole",
-		fr: "Vémini",
+		'en-us': "Poipole",
+		'fr-fr': "Vémini",
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Shiny rare",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spit Poison",
-				fr: "Crache-Venin",
+				'en-us': "Spit Poison",
+				'fr-fr': "Crache-Venin",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 			},
 
 		},
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knockout Reviver",
-				fr: "K.O. Futile",
+				'en-us': "Knockout Reviver",
+				'fr-fr': "K.O. Futile",
 			},
 			effect: {
-				en: "During your opponent's next turn, if this Pokémon is Knocked Out, your opponent can't take any Prize cards for it.",
-				fr: "Pendant le prochain tour de votre adversaire, si ce Pokémon est mis K.O., votre adversaire ne peut pas récupérer de carte Récompense pour ce Pokémon.",
+				'en-us': "During your opponent's next turn, if this Pokémon is Knocked Out, your opponent can't take any Prize cards for it.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, si ce Pokémon est mis K.O., votre adversaire ne peut pas récupérer de carte Récompense pour ce Pokémon.",
 			},
 
 		},
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Ultra Beast is well enough liked to be chosen as a first partner in its own world.",
+		'en-us': "This Ultra Beast is well enough liked to be chosen as a first partner in its own world.",
 	},
 }
 

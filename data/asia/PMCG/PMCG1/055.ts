@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴーリキー",
+		'ja-jp': "ゴーリキー",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
-				ja: "空手チョップ",
+				'ja-jp': "空手チョップ",
 			},
 			effect: {
-				ja: "マチョークの各ダメージカウンターに対して50ダメージを引いた10のダメージを引いた。",
+				'ja-jp': "マチョークの各ダメージカウンターに対して50ダメージを引いた10のダメージを引いた。",
 			},
 
 		},
 		{
 			cost: ["Fighting", "Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "提出",
+				'ja-jp': "提出",
 			},
 			effect: {
-				ja: "マチョークはそれ自体に20のダメージを与えます。",
+				'ja-jp': "マチョークはそれ自体に20のダメージを与えます。",
 			},
 			damage: 60,
 		},

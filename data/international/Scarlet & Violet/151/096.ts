@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Soporifik",
-		en: "Drowzee",
-		es: "Drowzee",
-		it: "Drowzee",
-		pt: "Drowzee",
-		de: "Traumato"
+		'fr-fr': "Soporifik",
+		'en-us': "Drowzee",
+		'es-es': "Drowzee",
+		'it-it': "Drowzee",
+		'pt-br': "Drowzee",
+		'de-de': "Traumato"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			fr: "Psykoud'Boul",
-			en: "Zen Headbutt",
-			es: "Cabezazo Zen",
-			it: "Cozzata Zen",
-			pt: "Cabeçada Zen",
-			de: "Zen-Kopfstoß"
+			'fr-fr': "Psykoud'Boul",
+			'en-us': "Zen Headbutt",
+			'es-es': "Cabezazo Zen",
+			'it-it': "Cozzata Zen",
+			'pt-br': "Cabeçada Zen",
+			'de-de': "Zen-Kopfstoß"
 		},
 
 		damage: 30
@@ -51,7 +51,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It remembers every dream it eats. It rarely eats the dreams of adults because children's are much tastier.",
+		'en-us': "It remembers every dream it eats. It rarely eats the dreams of adults because children's are much tastier.",
 	},
 
 	variants: [

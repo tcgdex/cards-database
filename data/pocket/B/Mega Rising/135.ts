@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Golett"
+		'en-us': "Golett"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "This Pokémon was created from clay. It received\norders from its master many thousands of years\nago, and it still follows those orders to this day."
+		'en-us': "This Pokémon was created from clay. It received\norders from its master many thousands of years\nago, and it still follows those orders to this day."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Stampede"
+			'en-us': "Stampede"
 		},
 
 		damage: 20,

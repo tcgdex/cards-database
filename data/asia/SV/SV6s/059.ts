@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Finizen"
+		'id-id': "Finizen"
 	},
 
 	illustrator: "Narumi Sato",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Ring air Finizen terbentuk dari campuran air laut dan cairan perekat yang dikeluarkan dari lubang di kepalanya."
+		'id-id': "Ring air Finizen terbentuk dari campuran air laut dan cairan perekat yang dikeluarkan dari lubang di kepalanya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Aqua Slash"
+			'id-id': "Aqua Slash"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 30,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sinistea",
-		fr: "Théffroi",
-		es: "Sinistea",
-		it: "Sinistea",
-		pt: "Sinistea",
-		de: "Fatalitee"
+		'en-us': "Sinistea",
+		'fr-fr': "Théffroi",
+		'es-es': "Sinistea",
+		'it-it': "Sinistea",
+		'pt-br': "Sinistea",
+		'de-de': "Fatalitee"
 	},
 
 	rarity: "Promo",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Cold Tea",
-			fr: "Thé Froid",
-			es: "Té Frío",
-			it: "Tè Freddo",
-			pt: "Chá Frio",
-			de: "Kalter Tee"
+			'en-us': "Cold Tea",
+			'fr-fr': "Thé Froid",
+			'es-es': "Té Frío",
+			'it-it': "Tè Freddo",
+			'pt-br': "Chá Frio",
+			'de-de': "Kalter Tee"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		},
 
 		damage: 10
@@ -60,7 +60,7 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "kurumitsu",
 	description: {
-		en: "The soul of someone who died alone possessed some leftover tea. This Pokémon appears in hotels and houses.",
+		'en-us': "The soul of someone who died alone possessed some leftover tea. This Pokémon appears in hotels and houses.",
 	},
 	variants: [
 		{

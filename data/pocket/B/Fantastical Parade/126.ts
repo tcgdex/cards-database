@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [115],
 
 	name: {
-		en: "Kangaskhan"
+		'en-us': "Kangaskhan"
 	},
 
 	illustrator: "kawayoo",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "There are records of a lost human child being\nraised by a childless Kangaskhan."
+		'en-us': "There are records of a lost human child being\nraised by a childless Kangaskhan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Steady Punch"
+			'en-us': "Steady Punch"
 		},
 
 		damage: 60,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage."
+			'en-us': "Flip a coin. If heads, this attack does 30 more damage."
 		}
 	}],
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Dratini",
-		fr: "Minidraco",
-		de: "Dratini"
+		'en-us': "Dratini",
+		'fr-fr': "Minidraco",
+		'de-de': "Dratini"
 	},
 
 	illustrator: "Aya Kusube",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Dragon Dew",
-				fr: "Goutte de dragon",
-				de: "Drachentau"
+				'en-us': "Dragon Dew",
+				'fr-fr': "Goutte de dragon",
+				'de-de': "Drachentau"
 			},
 			effect: {
-				en: "Remove 2 damage counters from 1 of your Pokémon (remove 1 if there is only 1).",
-				fr: "Retirez deux marqueurs de dégât à un de vos Pokémon (ou un s'il n'y en a qu'un).",
-				de: "Entferne 2 Schadensmarken von einem deiner Pokémon (1 falls nur 1 vorhanden)."
+				'en-us': "Remove 2 damage counters from 1 of your Pokémon (remove 1 if there is only 1).",
+				'fr-fr': "Retirez deux marqueurs de dégât à un de vos Pokémon (ou un s'il n'y en a qu'un).",
+				'de-de': "Entferne 2 Schadensmarken von einem deiner Pokémon (1 falls nur 1 vorhanden)."
 			},
 
 		},
@@ -45,9 +45,9 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Tail Slap",
-				fr: "Coud'keu",
-				de: "Schweifschlag"
+				'en-us': "Tail Slap",
+				'fr-fr': "Coud'keu",
+				'de-de': "Schweifschlag"
 			},
 
 			damage: 10,

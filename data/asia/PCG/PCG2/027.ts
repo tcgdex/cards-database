@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルディコロ",
+		'ja-jp': "ルディコロ",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "スイングダンス",
+				'ja-jp': "スイングダンス",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前に）一度、カードを描くことができます。 Ludicoloが特別な状態の影響を受けている場合、このパワーは使用できません。",
+				'ja-jp': "ターン中（攻撃の前に）一度、カードを描くことができます。 Ludicoloが特別な状態の影響を受けている場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "癒しのステップ",
+				'ja-jp': "癒しのステップ",
 			},
 			effect: {
-				ja: "あなたはあなたの手から好きなだけ多くのカードを捨てることができます。  そうした場合は、Ludicoloからその多くのダメージカウンターを削除します。",
+				'ja-jp': "あなたはあなたの手から好きなだけ多くのカードを捨てることができます。  そうした場合は、Ludicoloからその多くのダメージカウンターを削除します。",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				ja: "円形のステップ",
+				'ja-jp': "円形のステップ",
 			},
 			effect: {
-				ja: "Ludicoloを除く、Pokemonの数（あなたと対戦相手の両方）の数を10回ダメージします。",
+				'ja-jp': "Ludicoloを除く、Pokemonの数（あなたと対戦相手の両方）の数を10回ダメージします。",
 			},
 		},
 	],

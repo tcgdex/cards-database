@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Claydol",
-		fr: "Kaorine",
-		es: "Claydol",
-		it: "Claydol",
-		pt: "Claydol",
-		de: "Lepumentas"
+		'en-us': "Claydol",
+		'fr-fr': "Kaorine",
+		'es-es': "Claydol",
+		'it-it': "Claydol",
+		'pt-br': "Claydol",
+		'de-de': "Lepumentas"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Baltoy",
-		fr: "Balbuto",
+		'en-us': "Baltoy",
+		'fr-fr': "Balbuto",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rapid Spin",
-				fr: "Tour Rapide",
+				'en-us': "Rapid Spin",
+				'fr-fr': "Tour Rapide",
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pok��mon.",
-				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc. Ensuite, votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pok��mon.",
+				'fr-fr': "Échangez ce Pokémon avec 1 de vos Pokémon de Banc. Ensuite, votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
 			},
 			damage: 30,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Smash",
-				fr: "Éclate-Roc",
+				'en-us': "Rock Smash",
+				'fr-fr': "Éclate-Roc",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: 60,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "An ancient clay figurine that came to life as a Pokémon from exposure to a mysterious ray of light.",
+		'en-us': "An ancient clay figurine that came to life as a Pokémon from exposure to a mysterious ray of light.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピンシル（デルタ種）",
+		'ja-jp': "ピンシル（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "鎧",
+				'ja-jp': "鎧",
 			},
 			effect: {
-				ja: "対戦相手が手に5枚以上のカードを持っている場合、攻撃によってピンシルに与えられた損害は30減少します（脱力と抵抗を適用した後）。",
+				'ja-jp': "対戦相手が手に5枚以上のカードを持っている場合、攻撃によってピンシルに与えられた損害は30減少します（脱力と抵抗を適用した後）。",
 			},
 		}],
 
@@ -29,16 +29,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "デルタコール",
+				'ja-jp': "デルタコール",
 			},
 			effect: {
-				ja: "カードにDがあるポケモンを探して、相手に見せて、手に入れてください。その後、デッキをシャッフルします。",
+				'ja-jp': "カードにDがあるポケモンを探して、相手に見せて、手に入れてください。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "ギロチン",
+				'ja-jp': "ギロチン",
 			},
 			damage: 40,
 		},

@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Shrouded Fable"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Basic Darkness Energy",
-		fr: "Énergie Darkness de base",
-		es: "Energía Darkness Básica",
-		it: "Energia base Darkness",
-		pt: "Energia Darkness Básica",
-		de: "Basis-Darkness-Energie"
+		'en-us': "Basic Darkness Energy",
+		'fr-fr': "Énergie Darkness de base",
+		'es-es': "Energía Darkness Básica",
+		'it-it': "Energia base Darkness",
+		'pt-br': "Energia Darkness Básica",
+		'de-de': "Basis-Darkness-Energie"
 	},
 
 	rarity: "Hyper rare",

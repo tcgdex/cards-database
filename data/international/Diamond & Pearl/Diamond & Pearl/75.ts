@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Cherubi",
-		fr: "Ceribou",
-		de: "Kikugi"
+		'en-us': "Cherubi",
+		'fr-fr': "Ceribou",
+		'de-de': "Kikugi"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sleep Powder",
-				fr: "Poudre dodo",
-				de: "Schlafpuder"
+				'en-us': "Sleep Powder",
+				'fr-fr': "Poudre dodo",
+				'de-de': "Schlafpuder"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leech Seed",
-				fr: "Vampigraine",
-				de: "Egelsamen"
+				'en-us': "Leech Seed",
+				'fr-fr': "Vampigraine",
+				'de-de': "Egelsamen"
 			},
 			effect: {
-				en: "If this attack does any damage to the Defending Pokémon (after applying Weakness and Resistance), remove 1 damage counter from Cherubi.",
-				fr: "Si cette attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), retirez à Ceribou un marqueur de dégât.",
-				de: "Falls dieser Angriff dem Verteidigenden Pokémon Schaden zufügt (nachdem Schwäche und Resistenz verrechnet wurden), entferne 1 Schadensmarke von Kikugi."
+				'en-us': "If this attack does any damage to the Defending Pokémon (after applying Weakness and Resistance), remove 1 damage counter from Cherubi.",
+				'fr-fr': "Si cette attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), retirez à Ceribou un marqueur de dégât.",
+				'de-de': "Falls dieser Angriff dem Verteidigenden Pokémon Schaden zufügt (nachdem Schwäche und Resistenz verrechnet wurden), entferne 1 Schadensmarke von Kikugi."
 			},
 			damage: 20,
 
@@ -79,8 +79,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty.",
-		fr: "La petite boule renferme les délicieux nutriments sucrés dont il a besoin pour évoluer."
+		'en-us': "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty.",
+		'fr-fr': "La petite boule renferme les délicieux nutriments sucrés dont il a besoin pour évoluer."
 	},
 
 	thirdParty: {

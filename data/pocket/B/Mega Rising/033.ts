@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Torchic"
+		'en-us': "Torchic"
 	},
 
 	illustrator: "GOSSAN",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "A fire burns inside, so it feels very warm to hug.\nIt launches fireballs of 1,800 degrees Fahrenheit."
+		'en-us': "A fire burns inside, so it feels very warm to hug.\nIt launches fireballs of 1,800 degrees Fahrenheit."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Peck"
+			'en-us': "Peck"
 		},
 
 		damage: 20,

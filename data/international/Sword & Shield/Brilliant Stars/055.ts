@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Starmie",
-		fr: "Staross",
-		es: "Starmie",
-		it: "Starmie",
-		pt: "Starmie",
-		de: "Starmie"
+		'en-us': "Starmie",
+		'fr-fr': "Staross",
+		'es-es': "Starmie",
+		'it-it': "Starmie",
+		'pt-br': "Starmie",
+		'de-de': "Starmie"
 	},
 
 	illustrator: "Akira Komayama",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Staryu",
-		fr: "Stari",
-		es: "Staryu",
-		it: "Staryu",
-		pt: "Staryu",
-		de: "Sterndu"
+		'en-us': "Staryu",
+		'fr-fr': "Stari",
+		'es-es': "Staryu",
+		'it-it': "Staryu",
+		'pt-br': "Staryu",
+		'de-de': "Sterndu"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Psychic",
-			fr: "Psyko",
-			es: "Psíquico",
-			it: "Psichico",
-			pt: "Psíquico",
-			de: "Psychokinese"
+			'en-us': "Psychic",
+			'fr-fr': "Psyko",
+			'es-es': "Psíquico",
+			'it-it': "Psichico",
+			'pt-br': "Psíquico",
+			'de-de': "Psychokinese"
 		},
 
 		effect: {
-			en: "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
-			es: "Este ataque hace 30 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
-			it: "Questo attacco infligge 30 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
-			pt: "Este ataque causa 30 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",
-			de: "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 30 Schadenspunkte mehr zu."
+			'en-us': "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.",
+			'fr-fr': "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
+			'es-es': "Este ataque hace 30 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
+			'it-it': "Questo attacco infligge 30 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
+			'pt-br': "Este ataque causa 30 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",
+			'de-de': "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -57,12 +57,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Power Gem",
-			fr: "Rayon Gemme",
-			es: "Joya de Luz",
-			it: "Gemmoforza",
-			pt: "Gema Poderosa",
-			de: "Juwelenkraft"
+			'en-us': "Power Gem",
+			'fr-fr': "Rayon Gemme",
+			'es-es': "Joya de Luz",
+			'it-it': "Gemmoforza",
+			'pt-br': "Gema Poderosa",
+			'de-de': "Juwelenkraft"
 		},
 
 		damage: 60
@@ -85,7 +85,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon has an organ known as its core. The organ glows in seven colors when Starmie is unleashing its potent psychic powers.",
+		'en-us': "This Pokémon has an organ known as its core. The organ glows in seven colors when Starmie is unleashing its potent psychic powers.",
 	},
 
 	variants: [

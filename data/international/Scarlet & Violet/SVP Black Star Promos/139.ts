@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Latias",
-		fr: "Latias",
-		es: "Latias",
-		it: "Latias",
-		pt: "Latias",
-		de: "Latias"
+		'en-us': "Latias",
+		'fr-fr': "Latias",
+		'es-es': "Latias",
+		'it-it': "Latias",
+		'pt-br': "Latias",
+		'de-de': "Latias"
 	},
 
 	rarity: "Promo",
@@ -24,21 +24,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Mist Float",
-			fr: "Flottaison Brume",
-			es: "Flotación Nebulosa",
-			it: "Salvagente Nebbioso",
-			pt: "Névoa Flutuante",
-			de: "Gischtgleiter"
+			'en-us': "Mist Float",
+			'fr-fr': "Flottaison Brume",
+			'es-es': "Flotación Nebulosa",
+			'it-it': "Salvagente Nebbioso",
+			'pt-br': "Névoa Flutuante",
+			'de-de': "Gischtgleiter"
 		},
 
 		effect: {
-			en: "If this Pokémon has any {P} Energy attached, it has no Retreat Cost.",
-			fr: "Si au moins une Énergie {P} est attachée à ce Pokémon, il n'a pas de Coût de Retraite.",
-			es: "Si este Pokémon tiene alguna Energía {P} unida, no tiene ningún Coste de Retirada.",
-			it: "Se questo Pokémon ha delle Energie {P} assegnate, non ha costo di ritirata.",
-			pt: "Se este Pokémon tiver alguma Energia {P} ligada a ele, não terá custo de Recuo.",
-			de: "Wenn an dieses Pokémon mindestens 1 {P}-Energie angelegt ist, hat es keine Rückzugskosten."
+			'en-us': "If this Pokémon has any {P} Energy attached, it has no Retreat Cost.",
+			'fr-fr': "Si au moins une Énergie {P} est attachée à ce Pokémon, il n'a pas de Coût de Retraite.",
+			'es-es': "Si este Pokémon tiene alguna Energía {P} unida, no tiene ningún Coste de Retirada.",
+			'it-it': "Se questo Pokémon ha delle Energie {P} assegnate, non ha costo di ritirata.",
+			'pt-br': "Se este Pokémon tiver alguma Energia {P} ligada a ele, não terá custo de Recuo.",
+			'de-de': "Wenn an dieses Pokémon mindestens 1 {P}-Energie angelegt ist, hat es keine Rückzugskosten."
 		}
 	}],
 
@@ -46,12 +46,12 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			en: "Psychic Sphere",
-			fr: "Sphère Psy",
-			es: "Esfera Psíquica",
-			it: "Psicosfera",
-			pt: "Esfera Psíquica",
-			de: "Psychosphäre"
+			'en-us': "Psychic Sphere",
+			'fr-fr': "Sphère Psy",
+			'es-es': "Esfera Psíquica",
+			'it-it': "Psicosfera",
+			'pt-br': "Esfera Psíquica",
+			'de-de': "Psychosphäre"
 		},
 
 		damage: 100
@@ -73,7 +73,7 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "hncl",
 	description: {
-		en: "It can telepathically communicate with people. It changes its appearance using its down that refracts light.",
+		'en-us': "It can telepathically communicate with people. It changes its appearance using its down that refracts light.",
 	},
 	variants: [
 		{

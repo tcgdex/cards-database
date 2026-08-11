@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カメール",
+		'ja-jp': "カメール",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ポカンと 頭を たたかれるとき 甲羅に 引っこんで 避ける。 でも ちょっとだけ 尻尾が 出ているよ。",
+		'ja-jp': "ポカンと 頭を たたかれるとき 甲羅に 引っこんで 避ける。 でも ちょっとだけ 尻尾が 出ているよ。",
 	},
 
 	stage: "Stage1",
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゼニガメ",
+		'ja-jp': "ゼニガメ",
 	},
 
 	retreat: 2,

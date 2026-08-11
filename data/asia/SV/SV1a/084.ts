@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "パルデア ケンタロス"
+		'ja-jp': "パルデア ケンタロス"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ぶ厚く 力強い 筋肉と 気性の 荒さが 特徴。 コンバット種と 呼ばれる。"
+		'ja-jp': "ぶ厚く 力強い 筋肉と 気性の 荒さが 特徴。 コンバット種と 呼ばれる。"
 	},
 
 	stage: "Basic",
@@ -24,25 +24,25 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "いかりのつの"
+			'ja-jp': "いかりのつの"
 		},
 
 		damage: "20＋",
 
 		effect: {
-			ja: "このポケモンにのっているダメカンの数×10ダメージ追加。"
+			'ja-jp': "このポケモンにのっているダメカンの数×10ダメージ追加。"
 		}
 	}, {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			ja: "コンバットタックル"
+			'ja-jp': "コンバットタックル"
 		},
 
 		damage: 130,
 
 		effect: {
-			ja: "このポケモンにも30ダメージ。"
+			'ja-jp': "このポケモンにも30ダメージ。"
 		}
 	}],
 

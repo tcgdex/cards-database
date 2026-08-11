@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フシデ",
+		'ja-jp': "フシデ",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "ヤクデは 種類の 近い 仲間だが おたがいが 出会うと 大げんかに なるぞ。",
+		'ja-jp': "ヤクデは 種類の 近い 仲間だが おたがいが 出会うと 大げんかに なるぞ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "どくえき" },
 			cost: ["Darkness"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 			},
 		},
 		{

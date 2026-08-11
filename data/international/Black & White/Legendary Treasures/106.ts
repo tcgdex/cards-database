@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Druddigon",
+		'en-us': "Druddigon",
 	},
 
 	illustrator: "match",
@@ -27,10 +27,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Rough Skin",
+				'en-us': "Rough Skin",
 			},
 			effect: {
-				en: "If this Pokémon is your Active Pokémon and is damaged by an opponent’s attack (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon.",
+				'en-us': "If this Pokémon is your Active Pokémon and is damaged by an opponent’s attack (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon.",
 			},
 		},
 	],
@@ -43,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Clutch",
+				'en-us': "Clutch",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
 			},
 			damage: 60,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It races through narrow caves, using its sharp claws to catch prey. The skin on its face is harder than a rock.",
+		'en-us': "It races through narrow caves, using its sharp claws to catch prey. The skin on its face is harder than a rock.",
 	},
 
 	thirdParty: {

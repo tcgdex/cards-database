@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Helioptile",
-		th: "เอลิคิเทล"
+		'id-id': "Helioptile",
+		'th-th': "เอลิคิเทล"
 	},
 
 	illustrator: "miki kudo",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Helioptile membuat listrik tenaga surya dengan melebarkan jumbai di kepalanya dan menggunakannya untuk mengeluarkan jurus listrik yang kuat.",
-		th: "เมื่อกางแผ่นที่หัวแล้วผลิตไฟฟ้าจากแสงอาทิตย์จะสามารถปล่อยท่า ไฟฟ้าที่รุนแรงได้"
+		'id-id': "Helioptile membuat listrik tenaga surya dengan melebarkan jumbai di kepalanya dan menggunakannya untuk mengeluarkan jurus listrik yang kuat.",
+		'th-th': "เมื่อกางแผ่นที่หัวแล้วผลิตไฟฟ้าจากแสงอาทิตย์จะสามารถปล่อยท่า ไฟฟ้าที่รุนแรงได้"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Voltase Mini",
-			th: "โวลต์ต่ำ"
+			'id-id': "Voltase Mini",
+			'th-th': "โวลต์ต่ำ"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Menyerang",
-			th: "ประจัญบาน"
+			'id-id': "Menyerang",
+			'th-th': "ประจัญบาน"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 10.",
-			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย"
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10.",
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย"
 		},
 
 		damage: 40,

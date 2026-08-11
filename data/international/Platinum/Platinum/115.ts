@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Pokémon Rescue",
-		fr: "Rescousse Pokémon",
-		de: "Pokémon-Rettungsaktion"
+		'en-us': "Pokémon Rescue",
+		'fr-fr': "Rescousse Pokémon",
+		'de-de': "Pokémon-Rettungsaktion"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Search your discard pile for a Pokémon, show it to your opponent, and put it into your hand.",
-		fr: "Choisissez un Pokémon dans votre pile de défausse, montrez-le à votre adversaire et placez-le dans votre main.",
-		de: "Search your discard pile for a Pokémon, show it to your opponent, and put it into your hand."
+		'en-us': "Search your discard pile for a Pokémon, show it to your opponent, and put it into your hand.",
+		'fr-fr': "Choisissez un Pokémon dans votre pile de défausse, montrez-le à votre adversaire et placez-le dans votre main.",
+		'de-de': "Search your discard pile for a Pokémon, show it to your opponent, and put it into your hand."
 	},
 
 	trainerType: "Item",

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "夜の鉱山",
+		'ja-jp': "夜の鉱山",
 	},
 
 	illustrator: "Kenichi Yamaguchi",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいの場の「テラスタル」のポケモン全員は、ワザを使うためのエネルギーが、それぞれ[C]エネルギー1個ぶん多くなる。",
+		'ja-jp': "おたがいの場の「テラスタル」のポケモン全員は、ワザを使うためのエネルギーが、それぞれ[C]エネルギー1個ぶん多くなる。",
 	},
 
 	variants: [

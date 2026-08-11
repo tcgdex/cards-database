@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Oricorio",
-		fr: "Plumeline",
-		es: "Oricorio",
-		it: "Oricorio",
-		pt: "Oricorio",
-		de: "Choreogel"
+		'en-us': "Oricorio",
+		'fr-fr': "Plumeline",
+		'es-es': "Oricorio",
+		'it-it': "Oricorio",
+		'pt-br': "Oricorio",
+		'de-de': "Choreogel"
 	},
 	illustrator: "TOKIYA",
 	rarity: "Promo",
@@ -32,20 +32,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Supernatural Dance",
-				fr: "Danse Surnaturelle",
-				es: "Danza Sobrenatural",
-				it: "Danza Soprannaturale",
-				pt: "Supernatural Dance",
-				de: "Übernatürlicher Tanz"
+				'en-us': "Supernatural Dance",
+				'fr-fr': "Danse Surnaturelle",
+				'es-es': "Danza Sobrenatural",
+				'it-it': "Danza Soprannaturale",
+				'pt-br': "Supernatural Dance",
+				'de-de': "Übernatürlicher Tanz"
 			},
 			effect: {
-				en: "For each Pokémon in your opponent’s discard pile, put 1 damage counter on your opponent’s Pokémon in any way you like.",
-				fr: "Pour chaque Pokémon dans la pile de défausse de votre adversaire, placez un marqueur de dégâts sur les Pokémon de votre adversaire de la manière que vous voulez.",
-				es: "Por cada Pokémon en la pila de descartes de tu rival, pon 1 contador de daño en los Pokémon de tu rival de la manera que desees.",
-				it: "Per ogni Pokémon nella pila degli scarti del tuo avversario, metti un segnalino danno a piacimento sui suoi Pokémon.",
-				pt: "For each Pokémon in your opponent’s discard pile, put 1 damage counter on your opponent’s Pokémon in any way you like.",
-				de: "Lege für jedes Pokémon im Ablagestapel deines Gegners 1 Schadensmarke beliebig auf die Pokémon deines Gegners."
+				'en-us': "For each Pokémon in your opponent’s discard pile, put 1 damage counter on your opponent’s Pokémon in any way you like.",
+				'fr-fr': "Pour chaque Pokémon dans la pile de défausse de votre adversaire, placez un marqueur de dégâts sur les Pokémon de votre adversaire de la manière que vous voulez.",
+				'es-es': "Por cada Pokémon en la pila de descartes de tu rival, pon 1 contador de daño en los Pokémon de tu rival de la manera que desees.",
+				'it-it': "Per ogni Pokémon nella pila degli scarti del tuo avversario, metti un segnalino danno a piacimento sui suoi Pokémon.",
+				'pt-br': "For each Pokémon in your opponent’s discard pile, put 1 damage counter on your opponent’s Pokémon in any way you like.",
+				'de-de': "Lege für jedes Pokémon im Ablagestapel deines Gegners 1 Schadensmarke beliebig auf die Pokémon deines Gegners."
 			},
 
 		},
@@ -54,20 +54,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Revelation Dance",
-				fr: "Danse Éveil",
-				es: "Danza Despertar",
-				it: "Mutadanza",
-				pt: "Revelation Dance",
-				de: "Wecktanz"
+				'en-us': "Revelation Dance",
+				'fr-fr': "Danse Éveil",
+				'es-es': "Danza Despertar",
+				'it-it': "Mutadanza",
+				'pt-br': "Revelation Dance",
+				'de-de': "Wecktanz"
 			},
 			effect: {
-				en: "If there is no Stadium card in play, this attack does nothing.",
-				fr: "S’il n’y a pas de carte Stade en jeu, cette attaque ne fait rien.",
-				es: "Si no hay ninguna carta de Estadio en juego, este ataque no hace nada.",
-				it: "Se non c’è in gioco alcuna carta Stadio, questo attacco non ha effetto.",
-				pt: "If there is no Stadium card in play, this attack does nothing.",
-				de: "Wenn keine Stadionkarte im Spiel ist, hat diese Attacke keine Auswirkungen."
+				'en-us': "If there is no Stadium card in play, this attack does nothing.",
+				'fr-fr': "S’il n’y a pas de carte Stade en jeu, cette attaque ne fait rien.",
+				'es-es': "Si no hay ninguna carta de Estadio en juego, este ataque no hace nada.",
+				'it-it': "Se non c’è in gioco alcuna carta Stadio, questo attacco non ha effetto.",
+				'pt-br': "If there is no Stadium card in play, this attack does nothing.",
+				'de-de': "Wenn keine Stadionkarte im Spiel ist, hat diese Attacke keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -91,7 +91,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Oricorio has sipped purple nectar. Its elegant, attractive dance will send the minds and hearts of its enemies to another world.",
+		'en-us': "This Oricorio has sipped purple nectar. Its elegant, attractive dance will send the minds and hearts of its enemies to another world.",
 	},
 }
 

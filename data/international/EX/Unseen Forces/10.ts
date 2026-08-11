@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Octillery",
-		fr: "Octillery",
-		de: "Octillery"
+		'en-us': "Octillery",
+		'fr-fr': "Octillery",
+		'de-de': "Octillery"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Remoraid",
-		fr: "Rémoraid"
+		'en-us': "Remoraid",
+		'fr-fr': "Rémoraid"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Super Suction Cups",
-				fr: "Super ventouses",
-				de: "Super Suction Cups"
+				'en-us': "Super Suction Cups",
+				'fr-fr': "Super ventouses",
+				'de-de': "Super Suction Cups"
 			},
 			effect: {
-				en: "As long as Octillery is your Active Pokémon, your opponent's Pokémon can't retreat.",
-				fr: "Tant qu'Octillery est votre Pokémon Actif, les Pokémon de votre adversaire ne peuvent pas battre en retraite.",
-				de: "As long as Octillery is your Active Pokémon, your opponent's Pokémon can't retreat"
+				'en-us': "As long as Octillery is your Active Pokémon, your opponent's Pokémon can't retreat.",
+				'fr-fr': "Tant qu'Octillery est votre Pokémon Actif, les Pokémon de votre adversaire ne peuvent pas battre en retraite.",
+				'de-de': "As long as Octillery is your Active Pokémon, your opponent's Pokémon can't retreat"
 			},
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Standing By",
-				fr: "État d'alerte",
-				de: "Standing By"
+				'en-us': "Standing By",
+				'fr-fr': "État d'alerte",
+				'de-de': "Standing By"
 			},
 			effect: {
-				en: "Discard an Energy card attached to Octillery. During your next turn, Octillery's Pulse Blast attack's base damage is 120.",
-				fr: "Défaussez une carte Énergie attachée à Octillery. Lors de votre prochain tour, les dégâts de base d'Explosion vibrante d'Octillery sont de 120.",
-				de: "Discard an Energy card attached to Octillery. During your next turn, Octillery's Pulse Blast attack's base damage is 120."
+				'en-us': "Discard an Energy card attached to Octillery. During your next turn, Octillery's Pulse Blast attack's base damage is 120.",
+				'fr-fr': "Défaussez une carte Énergie attachée à Octillery. Lors de votre prochain tour, les dégâts de base d'Explosion vibrante d'Octillery sont de 120.",
+				'de-de': "Discard an Energy card attached to Octillery. During your next turn, Octillery's Pulse Blast attack's base damage is 120."
 			},
 
 		},
@@ -69,9 +69,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pulse Blast",
-				fr: "Explosion vibrante",
-				de: "Pulse Blast"
+				'en-us': "Pulse Blast",
+				'fr-fr': "Explosion vibrante",
+				'de-de': "Pulse Blast"
 			},
 
 			damage: 30,

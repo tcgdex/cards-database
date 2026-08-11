@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Magmar",
-		fr: "Magmar",
-		de: "Magmar"
+		'en-us': "Magmar",
+		'fr-fr': "Magmar",
+		'de-de': "Magmar"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Punch",
-				fr: "Poing de feu",
-				de: "Feuerschlag"
+				'en-us': "Fire Punch",
+				'fr-fr': "Poing de feu",
+				'de-de': "Feuerschlag"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smog",
-				fr: "Purédpois",
-				de: "Smog"
+				'en-us': "Smog",
+				'fr-fr': "Purédpois",
+				'de-de': "Smog"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 20,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Born in the spout of a volcano, its body is covered by flames that shimmer like the sun.",
+		'en-us': "Born in the spout of a volcano, its body is covered by flames that shimmer like the sun.",
 	},
 
 	thirdParty: {

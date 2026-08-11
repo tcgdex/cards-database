@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Dewpider",
-		fr: "Araqua",
-		es: "Dewpider",
-		it: "Dewpider",
-		pt: "Dewpider",
-		de: "Araqua"
+		'en-us': "Dewpider",
+		'fr-fr': "Araqua",
+		'es-es': "Dewpider",
+		'it-it': "Dewpider",
+		'pt-br': "Dewpider",
+		'de-de': "Araqua"
 	},
 
 	illustrator: "sui",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Ronge",
-				es: "Roer",
-				it: "Rosicchiamento",
-				pt: "Roída",
-				de: "Nagen"
+				'en-us': "Gnaw",
+				'fr-fr': "Ronge",
+				'es-es': "Roer",
+				'it-it': "Rosicchiamento",
+				'pt-br': "Roída",
+				'de-de': "Nagen"
 			},
 
 			damage: 10,
@@ -50,20 +50,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Spider Web",
-				fr: "Toile",
-				es: "Telaraña",
-				it: "Ragnatela",
-				pt: "Teia de Aranha",
-				de: "Spinnennetz"
+				'en-us': "Spider Web",
+				'fr-fr': "Toile",
+				'es-es': "Telaraña",
+				'it-it': "Ragnatela",
+				'pt-br': "Teia de Aranha",
+				'de-de': "Spinnennetz"
 			},
 			effect: {
-				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
-				es: "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
-				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-				pt: "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
-				de: "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can’t retreat during your opponent’s next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'es-es': "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
+				'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+				'pt-br': "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
+				'de-de': "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 
 		},
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it comes across enemies or potential prey, this Pokémon smashes its water-bubble-covered head into them.",
+		'en-us': "When it comes across enemies or potential prey, this Pokémon smashes its water-bubble-covered head into them.",
 	},
 
 	thirdParty: {

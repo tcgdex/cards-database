@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Aerodactyl",
-		fr: "Ptera",
-		de: "Aerodactyl"
+		'en-us': "Aerodactyl",
+		'fr-fr': "Ptera",
+		'de-de': "Aerodactyl"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Old Amber",
-		fr: "Vieil Ambre",
+		'en-us': "Old Amber",
+		'fr-fr': "Vieil Ambre",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Primal Claw",
-				fr: "Griffe primitive",
-				de: "Urzeitklaue"
+				'en-us': "Primal Claw",
+				'fr-fr': "Griffe primitive",
+				'de-de': "Urzeitklaue"
 			},
 			effect: {
-				en: "After your opponent's Pokémon uses a Poké-Power, put 2 damage counters on that Pokémon.",
-				fr: "Une fois que le Pokémon de votre adversaire a utilisé un Poké-Power, placez 2 marqueurs de dégât sur ce Pokémon.",
-				de: "Nachdem ein Pokémon deines Gegners eine Poké-Power benutzt hat, lege 2 Schadensmarken auf dieses Pokémon."
+				'en-us': "After your opponent's Pokémon uses a Poké-Power, put 2 damage counters on that Pokémon.",
+				'fr-fr': "Une fois que le Pokémon de votre adversaire a utilisé un Poké-Power, placez 2 marqueurs de dégât sur ce Pokémon.",
+				'de-de': "Nachdem ein Pokémon deines Gegners eine Poké-Power benutzt hat, lege 2 Schadensmarken auf dieses Pokémon."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Supersonic",
-				fr: "Ultrason",
-				de: "Superschall"
+				'en-us': "Supersonic",
+				'fr-fr': "Ultrason",
+				'de-de': "Superschall"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon that roamed the skies in the dinosaur era. Its teeth are like saw blades.",
+		'en-us': "A Pokémon that roamed the skies in the dinosaur era. Its teeth are like saw blades.",
 	},
 
 	thirdParty: {

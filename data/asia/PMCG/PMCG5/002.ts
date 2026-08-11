@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリカのナゾノクサ",
+		'ja-jp': "エリカのナゾノクサ",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "ブロット",
+				'ja-jp': "ブロット",
 			},
 			effect: {
-				ja: "エリカの奇妙なダメージカウンターがある場合は、それらの1つを削除します。",
+				'ja-jp': "エリカの奇妙なダメージカウンターがある場合は、それらの1つを削除します。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "散発的なスポンジ",
+				'ja-jp': "散発的なスポンジ",
 			},
 			effect: {
-				ja: "ErikaのOddishにダメージカウンターがそれにある場合は、コインをひっくり返します。  ヘッドの場合、それらのダメージカウンターの1つを削除します。",
+				'ja-jp': "ErikaのOddishにダメージカウンターがそれにある場合は、コインをひっくり返します。  ヘッドの場合、それらのダメージカウンターの1つを削除します。",
 			},
 			damage: 20,
 		},

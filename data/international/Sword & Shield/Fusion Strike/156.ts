@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gengar V",
-		fr: "Ectoplasma V",
-		es: "Gengar V",
-		it: "Gengar V",
-		pt: "Gengar V",
-		de: "Gengar V"
+		'en-us': "Gengar V",
+		'fr-fr': "Ectoplasma V",
+		'es-es': "Gengar V",
+		'it-it': "Gengar V",
+		'pt-br': "Gengar V",
+		'de-de': "Gengar V"
 	},
 
 	rarity: "Holo Rare V",
@@ -34,45 +34,45 @@ const card: Card = {
 		cost: ["Darkness", "Darkness"],
 
 		name: {
-			en: "Dark Slumber",
-			fr: "Sommeil Obscur",
-			de: "Dunkler Schlummer",
-			es: "Letargo Oscuro",
-			pt: "Sono Sombrio",
-			it: "Sonno Oscuro"
+			'en-us': "Dark Slumber",
+			'fr-fr': "Sommeil Obscur",
+			'de-de': "Dunkler Schlummer",
+			'es-es': "Letargo Oscuro",
+			'pt-br': "Sono Sombrio",
+			'it-it': "Sonno Oscuro"
 		},
 
 		damage: 40,
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato."
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato."
 		}
 	}, {
 		cost: ["Darkness", "Darkness", "Darkness"],
 
 		name: {
-			en: "Pain Explosion",
-			fr: "Explosion de Douleur",
-			de: "Schmerzexplosion",
-			es: "Explosión de Dolor",
-			pt: "Explosão de Dor",
-			it: "Esplosione Infausta"
+			'en-us': "Pain Explosion",
+			'fr-fr': "Explosion de Douleur",
+			'de-de': "Schmerzexplosion",
+			'es-es': "Explosión de Dolor",
+			'pt-br': "Explosão de Dor",
+			'it-it': "Esplosione Infausta"
 		},
 
 		damage: 190,
 
 		effect: {
-			en: "Put 3 damage counters on this Pokémon.",
-			fr: "Placez 3 marqueurs de dégâts sur ce Pokémon.",
-			de: "Lege 3 Schadensmarken auf dieses Pokémon.",
-			es: "Pon 3 contadores de daño en este Pokémon.",
-			pt: "Coloque 3 contadores de dano neste Pokémon.",
-			it: "Metti tre segnalini danno su questo Pokémon."
+			'en-us': "Put 3 damage counters on this Pokémon.",
+			'fr-fr': "Placez 3 marqueurs de dégâts sur ce Pokémon.",
+			'de-de': "Lege 3 Schadensmarken auf dieses Pokémon.",
+			'es-es': "Pon 3 contadores de daño en este Pokémon.",
+			'pt-br': "Coloque 3 contadores de dano neste Pokémon.",
+			'it-it': "Metti tre segnalini danno su questo Pokémon."
 		}
 	}],
 

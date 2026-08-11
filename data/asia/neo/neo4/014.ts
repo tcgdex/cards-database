@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Vulpix",
+		'ja-jp': "Vulpix",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Fire", "Colorless"],
 			name: {
-				ja: "ember",
+				'ja-jp': "ember",
 			},
 			effect: {
-				ja: "この攻撃を使用するために、Vulpixに接続された1つの消防エネルギーカードを破棄します。",
+				'ja-jp': "この攻撃を使用するために、Vulpixに接続された1つの消防エネルギーカードを破棄します。",
 			},
 			damage: 30,
 		},

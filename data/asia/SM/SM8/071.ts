@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミルタンク",
+		'ja-jp': "ミルタンク",
 	},
 
 	illustrator: "Naoki Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ミルクを 採るため 育てる 人が ほとんどだが かなり たくましくて タフなので 戦いにも 向いている。",
+		'ja-jp': "ミルクを 採るため 育てる 人が ほとんどだが かなり たくましくて タフなので 戦いにも 向いている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "60×",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分の手札にある「モーモーミルク」を好きなだけ相手に見せて、その枚数x60ダメージ。",
+				'ja-jp': "自分の手札にある「モーモーミルク」を好きなだけ相手に見せて、その枚数x60ダメージ。",
 			},
 		},
 	],

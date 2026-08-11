@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モジャンボ",
+		'ja-jp': "モジャンボ",
 	},
 
 	illustrator: "nagimiso",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "植物の ツルで できた 腕を 伸ばして 獲物を 絡め取る。 腕を 食べられても へっちゃら。",
+		'ja-jp': "植物の ツルで できた 腕を 伸ばして 獲物を 絡め取る。 腕を 食べられても へっちゃら。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Grass"],
 			effect: {
-				ja: "相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "80×",
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数×80ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数×80ダメージ。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モンジャラ",
+		'ja-jp': "モンジャラ",
 	},
 
 	retreat: 3,

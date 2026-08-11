@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レジロック",
+		'ja-jp': "レジロック",
 	},
 
 	illustrator: "Uta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "最新の 科学技術を 使い 岩の 体を 調べたが 脳や 心臓を 見つけられなかった。",
+		'ja-jp': "最新の 科学技術を 使い 岩の 体を 調べたが 脳や 心臓を 見つけられなかった。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "がんせきアーマー" },
 			effect: {
-				ja: "このポケモンにエネルギーがついているなら、このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "このポケモンにエネルギーがついているなら、このポケモンが受けるワザのダメージは「-30」される。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Fighting", "Fighting", "Fighting"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。",
 			},
 		},
 	],

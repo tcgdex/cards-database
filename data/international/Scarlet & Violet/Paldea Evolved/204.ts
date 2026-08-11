@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Marill",
-		en: "Marill",
-		es: "Marill",
-		it: "Marill",
-		pt: "Marill",
-		de: "Marill"
+		'fr-fr': "Marill",
+		'en-us': "Marill",
+		'es-es': "Marill",
+		'it-it': "Marill",
+		'pt-br': "Marill",
+		'de-de': "Marill"
 	},
 
 	rarity: "Illustration rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			fr: "Vide Bulle",
-			en: "Bubble Drain",
-			es: "Drenaje Burbujas",
-			it: "Assorbibolla",
-			pt: "Dreno de Bolha",
-			de: "Blasengully"
+			'fr-fr': "Vide Bulle",
+			'en-us': "Bubble Drain",
+			'es-es': "Drenaje Burbujas",
+			'it-it': "Assorbibolla",
+			'pt-br': "Dreno de Bolha",
+			'de-de': "Blasengully"
 		},
 
 		effect: {
-			fr: "Soignez 20 dégâts de ce Pokémon.",
-			en: "Heal 20 damage from this Pokémon.",
-			es: "Cura 20 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 20 danni.",
-			pt: "Cure 20 pontos de dano deste Pokémon.",
-			de: "Heile 20 Schadenspunkte bei diesem Pokémon."
+			'fr-fr': "Soignez 20 dégâts de ce Pokémon.",
+			'en-us': "Heal 20 damage from this Pokémon.",
+			'es-es': "Cura 20 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 20 danni.",
+			'pt-br': "Cure 20 pontos de dano deste Pokémon.",
+			'de-de': "Heile 20 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 20
@@ -67,7 +67,7 @@ const card: Card = {
 	illustrator: "Atsuya Uki",
 
 	description: {
-		en: "The fur on its body naturally repels water. It can stay dry even when it plays in the water.",
+		'en-us': "The fur on its body naturally repels water. It can stay dry even when it plays in the water.",
 	},
 }
 

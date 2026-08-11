@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Golurk",
-		fr: "Golemastoc",
-		es: "Golurk",
-		it: "Golurk",
-		pt: "Golurk",
-		de: "Golgantes"
+		'en-us': "Golurk",
+		'fr-fr': "Golemastoc",
+		'es-es': "Golurk",
+		'it-it': "Golurk",
+		'pt-br': "Golurk",
+		'de-de': "Golgantes"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Golett",
-		fr: "Gringolem",
+		'en-us': "Golett",
+		'fr-fr': "Gringolem",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Iron Fist of Justice",
-				fr: "Poing de Fer Juste",
+				'en-us': "Iron Fist of Justice",
+				'fr-fr': "Poing de Fer Juste",
 			},
 			effect: {
-				en: "If you have any Team Plasma Pokémon in play, this attack does nothing.",
-				fr: "Si vous avez un Pokémon de la Team Plasma en jeu, cette attaque ne fait rien.",
+				'en-us': "If you have any Team Plasma Pokémon in play, this attack does nothing.",
+				'fr-fr': "Si vous avez un Pokémon de la Team Plasma en jeu, cette attaque ne fait rien.",
 			},
 			damage: 60,
 
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shadow Punch",
-				fr: "Poing Ombre",
+				'en-us': "Shadow Punch",
+				'fr-fr': "Poing Ombre",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 80,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Golurk were created to protect people and Pokémon. They run on a mysterious energy.",
+		'en-us': "Golurk were created to protect people and Pokémon. They run on a mysterious energy.",
 	},
 
 	thirdParty: {

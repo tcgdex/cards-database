@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Zebstrika",
-		fr: "Zéblitz",
-		es: "Zebstrika",
-		it: "Zebstrika",
-		pt: "Zebstrika",
-		de: "Zebritz"
+		'en-us': "Zebstrika",
+		'fr-fr': "Zéblitz",
+		'es-es': "Zebstrika",
+		'it-it': "Zebstrika",
+		'pt-br': "Zebstrika",
+		'de-de': "Zebritz"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Blitzle",
-		fr: "Zébibron",
+		'en-us': "Blitzle",
+		'fr-fr': "Zébibron",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Disconnect",
-				fr: "Déconnexion",
+				'en-us': "Disconnect",
+				'fr-fr': "Déconnexion",
 			},
 			effect: {
-				en: "Your opponent can't play any Item cards from his or her hand during his or her next turn.",
-				fr: "Votre adversaire ne peut pas jouer de cartes Objet de sa main pendant son prochain tour.",
+				'en-us': "Your opponent can't play any Item cards from his or her hand during his or her next turn.",
+				'fr-fr': "Votre adversaire ne peut pas jouer de cartes Objet de sa main pendant son prochain tour.",
 			},
 			damage: 40,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lightning Crash",
-				fr: "Chute d'Éclairs",
+				'en-us': "Lightning Crash",
+				'fr-fr': "Chute d'Éclairs",
 			},
 			effect: {
-				en: "Discard all Lightning Energy attached to this Pokémon. This attack does 80 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Défaussez toutes les Énergies Lightning attachées à ce Pokémon. Cette attaque inflige 80 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "Discard all Lightning Energy attached to this Pokémon. This attack does 80 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Défaussez toutes les Énergies Lightning attachées à ce Pokémon. Cette attaque inflige 80 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+		'en-us': "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
 	},
 
 	thirdParty: {

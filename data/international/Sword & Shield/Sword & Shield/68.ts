@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Chinchou",
-		fr: "Loupio",
-		es: "Chinchou",
-		it: "Chinchou",
-		pt: "Chinchou",
-		de: "Lampi"
+		'en-us': "Chinchou",
+		'fr-fr': "Loupio",
+		'es-es': "Chinchou",
+		'it-it': "Chinchou",
+		'pt-br': "Chinchou",
+		'de-de': "Lampi"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Luring Glow",
-				fr: "Lueur Attrayante",
-				es: "Resplandor Atrayente",
-				it: "Brillincanto",
-				pt: "Brilho Sedutor",
-				de: "Lockendes Glühen"
+				'en-us': "Luring Glow",
+				'fr-fr': "Lueur Attrayante",
+				'es-es': "Resplandor Atrayente",
+				'it-it': "Brillincanto",
+				'pt-br': "Brilho Sedutor",
+				'de-de': "Lockendes Glühen"
 			},
 			effect: {
-				en: "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
-				fr: "Échangez l'un des Pokémon de Banc de votre adversaire contre son Pokémon Actif.",
-				es: "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
-				it: "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
-				pt: "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
-				de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
+				'en-us': "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
+				'fr-fr': "Échangez l'un des Pokémon de Banc de votre adversaire contre son Pokémon Actif.",
+				'es-es': "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
+				'it-it': "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
+				'pt-br': "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
+				'de-de': "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
 			},
 
 		},
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lightning Ball",
-				fr: "Boule Éclair",
-				es: "Bola Relámpago",
-				it: "Fulminpalla",
-				pt: "Bola de Raios",
-				de: "Kugelblitz"
+				'en-us': "Lightning Ball",
+				'fr-fr': "Boule Éclair",
+				'es-es': "Bola Relámpago",
+				'it-it': "Fulminpalla",
+				'pt-br': "Bola de Raios",
+				'de-de': "Kugelblitz"
 			},
 
 			damage: 20,
@@ -83,7 +83,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its antennae, which evolved from a fin, have both positive and negative charges flowing through them."
+		'en-us': "Its antennae, which evolved from a fin, have both positive and negative charges flowing through them."
 	},
 
 	dexId: [170],

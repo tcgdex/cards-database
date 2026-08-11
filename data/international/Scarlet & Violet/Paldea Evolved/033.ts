@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Plumeline",
-		en: "Oricorio",
-		es: "Oricorio",
-		it: "Oricorio",
-		pt: "Oricorio",
-		de: "Choreogel"
+		'fr-fr': "Plumeline",
+		'en-us': "Oricorio",
+		'es-es': "Oricorio",
+		'it-it': "Oricorio",
+		'pt-br': "Oricorio",
+		'de-de': "Choreogel"
 	},
 
 	rarity: "Rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			fr: "Danse Embrasée",
-			en: "Ardent Dancing",
-			es: "Danza Ardiente",
-			it: "Danza Ardente",
-			pt: "Dança Calorosa",
-			de: "Inbrünstiger Tanz"
+			'fr-fr': "Danse Embrasée",
+			'en-us': "Ardent Dancing",
+			'es-es': "Danza Ardiente",
+			'it-it': "Danza Ardente",
+			'pt-br': "Dança Calorosa",
+			'de-de': "Inbrünstiger Tanz"
 		},
 
 		effect: {
-			fr: "Une fois pendant votre tour, vous pouvez soigner 20 dégâts de votre Pokémon Évolutif Actif.",
-			en: "Once during your turn, you may heal 20 damage from your Active Evolution Pokémon.",
-			es: "Una vez durante tu turno, puedes curar 20 puntos de daño a tu Pokémon Evolución Activo.",
-			it: "Una sola volta durante il tuo turno, puoi curare il tuo Pokémon Evoluzione attivo da 20 danni.",
-			pt: "Uma vez durante o seu turno, você poderá curar 20 pontos de dano do seu Pokémon de Evolução Ativo.",
-			de: "Einmal während deines Zuges kannst du 20 Schadenspunkte bei deinem Aktiven Entwicklungs-Pokémon heilen."
+			'fr-fr': "Une fois pendant votre tour, vous pouvez soigner 20 dégâts de votre Pokémon Évolutif Actif.",
+			'en-us': "Once during your turn, you may heal 20 damage from your Active Evolution Pokémon.",
+			'es-es': "Una vez durante tu turno, puedes curar 20 puntos de daño a tu Pokémon Evolución Activo.",
+			'it-it': "Una sola volta durante il tuo turno, puoi curare il tuo Pokémon Evoluzione attivo da 20 danni.",
+			'pt-br': "Uma vez durante o seu turno, você poderá curar 20 pontos de dano do seu Pokémon de Evolução Ativo.",
+			'de-de': "Einmal während deines Zuges kannst du 20 Schadenspunkte bei deinem Aktiven Entwicklungs-Pokémon heilen."
 		}
 	}],
 
@@ -46,12 +46,12 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			fr: "Battement",
-			en: "Flap",
-			es: "Aleteo",
-			it: "Alabattito",
-			pt: "Asa",
-			de: "Flattern"
+			'fr-fr': "Battement",
+			'en-us': "Flap",
+			'es-es': "Aleteo",
+			'it-it': "Alabattito",
+			'pt-br': "Asa",
+			'de-de': "Flattern"
 		},
 
 		damage: 30
@@ -88,7 +88,7 @@ const card: Card = {
 	illustrator: "Haru Akasaka",
 
 	description: {
-		en: "This Pokémon is incredibly popular, possibly because its passionate dancing is a great match with the temperament of Paldean people.",
+		'en-us': "This Pokémon is incredibly popular, possibly because its passionate dancing is a great match with the temperament of Paldean people.",
 	},
 }
 

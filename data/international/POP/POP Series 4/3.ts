@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 4'
 
 const card: Card = {
 	name: {
-		en: "Flygon",
-		fr: "Libegon"
+		'en-us': "Flygon",
+		'fr-fr': "Libegon"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vibrava",
-		fr: "Vibraninf"
+		'en-us': "Vibrava",
+		'fr-fr': "Vibraninf"
 	},
 
 	stage: "Stage2",
@@ -31,12 +31,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Levitate",
-				fr: "Lévitation"
+				'en-us': "Levitate",
+				'fr-fr': "Lévitation"
 			},
 			effect: {
-				en: "As long as Flygon has any Energy attached to it, the Retreat Cost for Flygon is 0.",
-				fr: "Tant que Libegon possède de l'Énergie, son Coût de retraite est de 0."
+				'en-us': "As long as Flygon has any Energy attached to it, the Retreat Cost for Flygon is 0.",
+				'fr-fr': "Tant que Libegon possède de l'Énergie, son Coût de retraite est de 0."
 			},
 		},
 	],
@@ -48,8 +48,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure"
+				'en-us': "Bite",
+				'fr-fr': "Morsure"
 			},
 
 			damage: 30,
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sand Pit",
-				fr: "Bac à sable"
+				'en-us': "Sand Pit",
+				'fr-fr': "Bac à sable"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire."
 			},
 			damage: 70,
 

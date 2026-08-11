@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Houndour",
-		fr: "Malosse",
-		es: "Houndour",
-		it: "Houndour",
-		pt: "Houndour",
-		de: "Hunduster"
+		'en-us': "Houndour",
+		'fr-fr': "Malosse",
+		'es-es': "Houndour",
+		'it-it': "Houndour",
+		'pt-br': "Houndour",
+		'de-de': "Hunduster"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -22,12 +22,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			es: "Mordisco",
-			it: "Morso",
-			pt: "Mordida",
-			de: "Biss"
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'es-es': "Mordisco",
+			'it-it': "Morso",
+			'pt-br': "Mordida",
+			'de-de': "Biss"
 		},
 
 		damage: 20,
@@ -46,7 +46,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "They make repeated eerie howls before dawn to call attention to their pack."
+		'en-us': "They make repeated eerie howls before dawn to call attention to their pack."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "未作外",
+		'ja-jp': "未作外",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "増加[増加]",
+				'ja-jp': "増加[増加]",
 			},
 			effect: {
-				ja: "手から[i]を使用していない場合は、名前が付けられていないカードを検索して、ベンチに置くことができます。その後、デッキをシャッフルします。ベンチがいっぱいになった場合、このパワーを使用することはできません。",
+				'ja-jp': "手から[i]を使用していない場合は、名前が付けられていないカードを検索して、ベンチに置くことができます。その後、デッキをシャッフルします。ベンチがいっぱいになった場合、このパワーを使用することはできません。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "隠された力",
+				'ja-jp': "隠された力",
 			},
 			damage: 10,
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒトカゲ",
+		'ja-jp': "ヒトカゲ",
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "尻尾で 燃える 炎は 生命力の 表れ。 元気がないと 炎は 弱まる。",
+		'ja-jp': "尻尾で 燃える 炎は 生命力の 表れ。 元気がないと 炎は 弱まる。",
 	},
 
 	stage: "Basic",

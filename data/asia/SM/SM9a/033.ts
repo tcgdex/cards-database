@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピクシー",
+		'ja-jp': "ピクシー",
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "１キロ先で 針が 落ちた 音も 聞こえてしまうので 人やポケモンが 少ない 深い山奥で 暮らす。",
+		'ja-jp': "１キロ先で 針が 落ちた 音も 聞こえてしまうので 人やポケモンが 少ない 深い山奥で 暮らす。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の場の[妖]エネルギーがついているポケモンの数x30ダメージ追加。",
+				'ja-jp': "自分の場の[妖]エネルギーがついているポケモンの数x30ダメージ追加。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ピッピ",
+		'ja-jp': "ピッピ",
 	},
 
 	retreat: 1,

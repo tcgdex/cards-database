@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Weavile",
-		fr: "Dimoret",
-		es: "Weavile",
-		it: "Weavile",
-		pt: "Weavile",
-		de: "Snibunna"
+		'en-us': "Weavile",
+		'fr-fr': "Dimoret",
+		'es-es': "Weavile",
+		'it-it': "Weavile",
+		'pt-br': "Weavile",
+		'de-de': "Snibunna"
 	},
 
 	illustrator: "kawayoo",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sneasel",
-		fr: "Farfuret",
-		es: "Sneasel",
-		it: "Sneasel",
-		pt: "Sneasel",
-		de: "Sniebel"
+		'en-us': "Sneasel",
+		'fr-fr': "Farfuret",
+		'es-es': "Sneasel",
+		'it-it': "Sneasel",
+		'pt-br': "Sneasel",
+		'de-de': "Sniebel"
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Tear Away",
-				fr: "Arrachement",
-				es: "Arrancar",
-				it: "Strappo",
-				pt: "Romper",
-				de: "Wegreißen"
+				'en-us': "Tear Away",
+				'fr-fr': "Arrachement",
+				'es-es': "Arrancar",
+				'it-it': "Strappo",
+				'pt-br': "Romper",
+				'de-de': "Wegreißen"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may put a Pokémon Tool card attached to 1 of your Pokémon into your hand.",
-				fr: "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez placer une carte Outil Pokémon attachée à l'un de vos Pokémon dans votre main.",
-				es: "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes poner 1 carta de Herramienta Pokémon unida a 1 de tus Pokémon en tu mano.",
-				it: "Durante il tuo turno, prima di attaccare, puoi aggiungere alle carte che hai in mano una carta Oggetto Pokémon assegnata a uno dei tuoi Pokémon tutte le volte che vuoi.",
-				pt: "Tantas vezes quanto desejar durante sua vez de jogar (antes de atacar), você pode colocar um card de Ferramenta Pokémon ligado a 1 dos seus Pokémon na sua mão.",
-				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 Pokémon-Ausrüstung, die an 1 deiner Pokémon angelegt ist, auf deine Hand nehmen."
+				'en-us': "As often as you like during your turn (before your attack), you may put a Pokémon Tool card attached to 1 of your Pokémon into your hand.",
+				'fr-fr': "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez placer une carte Outil Pokémon attachée à l'un de vos Pokémon dans votre main.",
+				'es-es': "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes poner 1 carta de Herramienta Pokémon unida a 1 de tus Pokémon en tu mano.",
+				'it-it': "Durante il tuo turno, prima di attaccare, puoi aggiungere alle carte che hai in mano una carta Oggetto Pokémon assegnata a uno dei tuoi Pokémon tutte le volte che vuoi.",
+				'pt-br': "Tantas vezes quanto desejar durante sua vez de jogar (antes de atacar), você pode colocar um card de Ferramenta Pokémon ligado a 1 dos seus Pokémon na sua mão.",
+				'de-de': "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 Pokémon-Ausrüstung, die an 1 deiner Pokémon angelegt ist, auf deine Hand nehmen."
 			},
 		},
 	],
@@ -66,12 +66,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				es: "Cuchillada",
-				it: "Lacerazione",
-				pt: "Talho",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'es-es': "Cuchillada",
+				'it-it': "Lacerazione",
+				'pt-br': "Talho",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 40,
@@ -96,7 +96,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They live in cold regions, forming groups of four or five that hunt prey with impressive coordination.",
+		'en-us': "They live in cold regions, forming groups of four or five that hunt prey with impressive coordination.",
 	},
 
 	thirdParty: {

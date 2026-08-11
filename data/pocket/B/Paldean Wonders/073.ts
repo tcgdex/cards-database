@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Tinkatuff",
-		fr: "Forgella",
-		es: "Tinkatuff",
-		it: "Tinkatuff",
-		de: "Tafforgita",
+		'en-us': "Tinkatuff",
+		'fr-fr': "Forgella",
+		'es-es': "Tinkatuff",
+		'it-it': "Tinkatuff",
+		'de-de': "Tafforgita",
 		'pt-br': "Tinkatuff",
-		ko: "벼리짱"
+		'ko-kr': "벼리짱"
   },
   illustrator: "Akira Komayama",
   rarity: "One Diamond",
@@ -19,12 +19,12 @@ const card: Card = {
   types: ["Metal"],
   dexId: [958],
   evolveFrom: {
-		en: "Tinkatink",
-		fr: "Forgerette",
-		de: "Forgita",
-		it: "Tinkatink",
-		es: "Tinkatink",
-		pt: "Tinkatink",
+		'en-us': "Tinkatink",
+		'fr-fr': "Forgerette",
+		'de-de': "Forgita",
+		'it-it': "Tinkatink",
+		'es-es': "Tinkatink",
+		'pt-br': "Tinkatink",
 		'es-mx': "Tinkatink"
   },
   description: {

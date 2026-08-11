@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ランターン",
+		'ja-jp': "ランターン",
 	},
 
 	illustrator: "otumami",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "触手に 棲む バクテリアが ランターンの 体液を 吸うとき 強い 発光現象が 起こる。",
+		'ja-jp': "触手に 棲む バクテリアが ランターンの 体液を 吸うとき 強い 発光現象が 起こる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ちらちらライト" },
 			effect: {
-				ja: "自分の番に何回でも使える。相手の山札を上から1枚見て、もとにもどす。",
+				'ja-jp': "自分の番に何回でも使える。相手の山札を上から1枚見て、もとにもどす。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "のぞむなら、相手に相手自身の山札を切らせる。",
+				'ja-jp': "のぞむなら、相手に相手自身の山札を切らせる。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チョンチー",
+		'ja-jp': "チョンチー",
 	},
 
 	retreat: 2,

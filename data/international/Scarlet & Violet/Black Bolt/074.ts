@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Audino",
-		fr: "Nanméouïe",
-		de: "Ohrdoch",
-		it: "Audino",
-		pt: "Audino",
-		es: "Audino",
+		'en-us': "Audino",
+		'fr-fr': "Nanméouïe",
+		'de-de': "Ohrdoch",
+		'it-it': "Audino",
+		'pt-br': "Audino",
+		'es-es': "Audino",
 		'es-mx': "Audino"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Return",
-			fr: "Retour",
-			de: "Rückkehr",
-			it: "Ritorno",
-			pt: "Retorno",
-			es: "Retribución",
+			'en-us': "Return",
+			'fr-fr': "Retour",
+			'de-de': "Rückkehr",
+			'it-it': "Ritorno",
+			'pt-br': "Retorno",
+			'es-es': "Retribución",
 			'es-mx': "Retribución"
 		},
 
 		effect: {
-			en: "You may draw cards until you have 6 cards in your hand.",
-			fr: "Vous pouvez piocher des cartes jusqu'à en avoir 6 en main.",
-			de: "Du kannst so lange Karten ziehen, bis du 6 Karten auf deiner Hand hast.",
-			it: "Puoi pescare fino ad avere sei carte in mano.",
-			pt: "Você pode comprar cartas até ter 6 cartas na sua mão.",
-			es: "Puedes robar cartas hasta que tengas 6 cartas en tu mano.",
+			'en-us': "You may draw cards until you have 6 cards in your hand.",
+			'fr-fr': "Vous pouvez piocher des cartes jusqu'à en avoir 6 en main.",
+			'de-de': "Du kannst so lange Karten ziehen, bis du 6 Karten auf deiner Hand hast.",
+			'it-it': "Puoi pescare fino ad avere sei carte in mano.",
+			'pt-br': "Você pode comprar cartas até ter 6 cartas na sua mão.",
+			'es-es': "Puedes robar cartas hasta que tengas 6 cartas en tu mano.",
 			'es-mx': "Puedes robar cartas hasta que tengas 6 cartas en tu mano."
 		},
 

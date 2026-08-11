@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジラチEx",
+		'ja-jp': "ジラチEx",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "星光",
+				'ja-jp': "星光",
 			},
 			effect: {
-				ja: "対戦相手がPokã©Mon-ExまたはStage 2 EvolvedPokã©Mon in Playを持っている限り、Jirachi Exは{{e}}シールドビームまたはスーパーPSYボルトを使用するエネルギーを少なくします。",
+				'ja-jp': "対戦相手がPokã©Mon-ExまたはStage 2 EvolvedPokã©Mon in Playを持っている限り、Jirachi Exは{{e}}シールドビームまたはスーパーPSYボルトを使用するエネルギーを少なくします。",
 			},
 		}],
 
@@ -29,17 +29,17 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "シールドビーム",
+				'ja-jp': "シールドビーム",
 			},
 			effect: {
-				ja: "対戦相手の次のターン中、対戦相手はポケモンにポケパワーを使用できません。",
+				'ja-jp': "対戦相手の次のターン中、対戦相手はポケモンにポケパワーを使用できません。",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Psychic", "Colorless", "Colorless"],
 			name: {
-				ja: "スーパーPSYボルト",
+				'ja-jp': "スーパーPSYボルト",
 			},
 			damage: 50,
 		},

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Flygon",
-		fr: "Libégon",
+		'en-us': "Flygon",
+		'fr-fr': "Libégon",
 	},
 	illustrator: "BERUBURI",
 	rarity: "Rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Dragon",
 	],
 	evolveFrom: {
-		en: "Vibrava",
-		fr: "Vibraninf",
+		'en-us': "Vibrava",
+		'fr-fr': "Vibraninf",
 	},
 	stage: "Stage2",
 
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Sand Slammer",
-				fr: "Prison de Sable",
+				'en-us': "Sand Slammer",
+				'fr-fr': "Prison de Sable",
 			},
 			effect: {
-				en: "At any time between turns, if this Pokémon is your Active Pokémon, put 1 damage counter on each of your opponent's Pokémon.",
-				fr: "N'importe quand entre chaque tour, si ce Pokémon est votre Pokémon Actif, placez 1 marqueur de dégâts sur chacun des Pokémon de votre adversaire.",
+				'en-us': "At any time between turns, if this Pokémon is your Active Pokémon, put 1 damage counter on each of your opponent's Pokémon.",
+				'fr-fr': "N'importe quand entre chaque tour, si ce Pokémon est votre Pokémon Actif, placez 1 marqueur de dégâts sur chacun des Pokémon de votre adversaire.",
 			},
 		},
 	],
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flying Beatdown",
-				fr: "Dérouillée Volante",
+				'en-us': "Flying Beatdown",
+				'fr-fr': "Dérouillée Volante",
 			},
 			effect: {
-				en: "You may discard a Grass Energy and a Fighting Energy attached to this Pokémon. If you do, the Defending Pokémon is now Paralyzed.",
-				fr: "Vous pouvez défausser une Énergie Grass et une Énergie Fighting attachées à ce Pokémon. Dans ce cas, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "You may discard a Grass Energy and a Fighting Energy attached to this Pokémon. If you do, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Vous pouvez défausser une Énergie Grass et une Énergie Fighting attachées à ce Pokémon. Dans ce cas, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 80,
 
@@ -70,7 +70,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Known as \"The Desert Spirit,\" this Pokémon hides in the sandstorms it causes by beating its wings.",
+		'en-us': "Known as \"The Desert Spirit,\" this Pokémon hides in the sandstorms it causes by beating its wings.",
 	},
 }
 

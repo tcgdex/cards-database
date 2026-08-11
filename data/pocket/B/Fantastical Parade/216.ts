@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [380],
 
 	name: {
-		en: "Latias"
+		'en-us': "Latias"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "It communicates using telepathy. Its body is\ncovered in down that refracts light to make\nit invisible."
+		'en-us': "It communicates using telepathy. Its body is\ncovered in down that refracts light to make\nit invisible."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Crossing Flights"
+			'en-us': "Crossing Flights"
 		},
 
 		damage: 20,
 		cost: ["Psychic"],
 
 		effect: {
-			en: "If Latios is on your Bench, this attack does 20 more damage."
+			'en-us': "If Latios is on your Bench, this attack does 20 more damage."
 		}
 	}],
 

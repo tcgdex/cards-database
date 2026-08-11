@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
@@ -7,13 +7,13 @@ const card: Card = {
 	dexId: [659],
 
 	name: {
-		en: "Bunnelby",
-		fr: "Sapereau",
-		es: "Bunnelby",
+		'en-us': "Bunnelby",
+		'fr-fr': "Sapereau",
+		'es-es': "Bunnelby",
 		'es-mx': "Bunnelby",
-		de: "Scoppel",
-		it: "Bunnelby",
-		pt: "Bunnelby"
+		'de-de': "Scoppel",
+		'it-it': "Bunnelby",
+		'pt-br': "Bunnelby"
 	},
 
 	illustrator: "MINAMINAMI Take",
@@ -27,13 +27,13 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Smash Kick",
-			fr: "Coud'Pattes",
-			es: "Patada Destrucción",
+			'en-us': "Smash Kick",
+			'fr-fr': "Coud'Pattes",
+			'es-es': "Patada Destrucción",
 			'es-mx': "Patada Devastadora",
-			de: "Schmetterkick",
-			it: "Calcio Esplosivo",
-			pt: "Chute Poderoso"
+			'de-de': "Schmetterkick",
+			'it-it': "Calcio Esplosivo",
+			'pt-br': "Chute Poderoso"
 		},
 
 		damage: 10

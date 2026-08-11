@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Judge",
-		fr: "Juge",
-		de: "Richter"
+		'en-us': "Judge",
+		'fr-fr': "Juge",
+		'de-de': "Richter"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Chaque joueur mélange sa main avec son deck, puis pioche 4 cartes (c’est vous qui piochez en premier).",
-		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Each player shuffles his or her hand into his or her deck and draws 4 cards.",
-		de: "Jeder Spieler mischt seine Handkarten in sein Deck und zieht 4 Karten."
+		'fr-fr': "Chaque joueur mélange sa main avec son deck, puis pioche 4 cartes (c’est vous qui piochez en premier).",
+		'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Each player shuffles his or her hand into his or her deck and draws 4 cards.",
+		'de-de': "Jeder Spieler mischt seine Handkarten in sein Deck und zieht 4 Karten."
 	},
 
 	trainerType: "Supporter",

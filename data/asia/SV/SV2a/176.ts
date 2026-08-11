@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニョロゾ",
+		'ja-jp': "ニョロゾ",
 		'zh-tw': "蚊香君",
-		th: "เนียวโรโซ",
-		id: "Poliwhirl",
+		'th-th': "เนียวโรโซ",
+		'id-id': "Poliwhirl",
 	},
 
 	illustrator: "Gemi",
@@ -16,10 +16,10 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ぬめぬめとした 粘液状の 汗を かく。 敵に 捕まっても ぬるりと すり抜け 逃げるのだ。",
+		'ja-jp': "ぬめぬめとした 粘液状の 汗を かく。 敵に 捕まっても ぬるりと すり抜け 逃げるのだ。",
 		'zh-tw': "流的汗是又黏又滑的黏液狀。即使被敵人捉住，也能滑溜溜地輕易逃脫。",
-		th: "ขับเหงื่อที่มีลักษณะเป็นเมือกเหนียวเหนอะออกมา ถึงจะโดนศัตรูจับตัว ก็สามารถลื่นไหลหนีออกมาได้",
-		id: "Poliwhirl mengalirkan keringat berlendir yang licin. Meskipun ditangkap musuh, Pokémon ini dapat meloloskan diri dan kabur berkat kelicinannya.",
+		'th-th': "ขับเหงื่อที่มีลักษณะเป็นเมือกเหนียวเหนอะออกมา ถึงจะโดนศัตรูจับตัว ก็สามารถลื่นไหลหนีออกมาได้",
+		'id-id': "Poliwhirl mengalirkan keringat berlendir yang licin. Meskipun ditangkap musuh, Pokémon ini dapat meloloskan diri dan kabur berkat kelicinannya.",
 	},
 
 	stage: "Stage1",
@@ -27,28 +27,28 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "スプラッシュ",
+				'ja-jp': "スプラッシュ",
 				'zh-tw': "飛濺",
-				th: "สแปลช",
-				id: "Splash",
+				'th-th': "สแปลช",
+				'id-id': "Splash",
 			},
 			damage: 20,
 			cost: ["Water"],
 		},
 		{
 			name: {
-				ja: "かえるとび",
+				'ja-jp': "かえるとび",
 				'zh-tw': "蛙跳",
-				th: "กระโดดกบ",
-				id: "Lompat Katak",
+				'th-th': "กระโดดกบ",
+				'id-id': "Lompat Katak",
 			},
 			damage: "30+",
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、60ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、60ダメージ追加。",
 				'zh-tw': "擲1次硬幣若為正面，則增加60點傷害。",
-				th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว การโจมตีนี้จะเพิ่มแดเมจอีก 60",
-				id: "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 60.",
+				'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกหัว การโจมตีนี้จะเพิ่มแดเมจอีก 60",
+				'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 60.",
 			},
 		},
 	],
@@ -66,7 +66,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニョロモ",
+		'ja-jp': "ニョロモ",
 	},
 
 	retreat: 1,

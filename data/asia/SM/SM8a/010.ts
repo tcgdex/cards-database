@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バチュル",
+		'ja-jp': "バチュル",
 	},
 
 	illustrator: "Yuka Morii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "体の 大きな ポケモンに とりついて 静電気を 吸い取り 蓄電袋に 電気を ためる。",
+		'ja-jp': "体の 大きな ポケモンに とりついて 静電気を 吸い取り 蓄電袋に 電気を ためる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Lightning"],
 			effect: {
-				ja: "相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。",
+				'ja-jp': "相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。",
 			},
 		},
 	],

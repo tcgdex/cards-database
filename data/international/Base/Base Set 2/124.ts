@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Double Colorless Energy",
+		'en-us': "Double Colorless Energy",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -13,7 +13,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		en: "Provides {C}{C} energy. Doesn't count as a basic Energy card.",
+		'en-us': "Provides {C}{C} energy. Doesn't count as a basic Energy card.",
 	},
 
 

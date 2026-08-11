@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	name: {
-		en: "Rillaboom VMAX",
-		fr: "Gorythmic VMAX",
-		es: "Rillaboom VMAX",
-		it: "Rillaboom VMAX",
-		pt: "Rillaboom VMAX",
-		de: "Gortrom VMAX"
+		'en-us': "Rillaboom VMAX",
+		'fr-fr': "Gorythmic VMAX",
+		'es-es': "Rillaboom VMAX",
+		'it-it': "Rillaboom VMAX",
+		'pt-br': "Rillaboom VMAX",
+		'de-de': "Gortrom VMAX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 330,
 
 	evolveFrom: {
-		en: "Rillaboom V",
-		fr: "Gorythmic-V",
-		es: "Rillaboom V",
-		it: "Rillaboom-V",
-		pt: "Rillaboom V",
-		de: "Gortrom-V"
+		'en-us': "Rillaboom V",
+		'fr-fr': "Gorythmic-V",
+		'es-es': "Rillaboom V",
+		'it-it': "Rillaboom-V",
+		'pt-br': "Rillaboom V",
+		'de-de': "Gortrom-V"
 	},
 
 	attacks: [
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				es: "Arañazo",
-				it: "Graffio",
-				pt: "Arranhão",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'es-es': "Arañazo",
+				'it-it': "Graffio",
+				'pt-br': "Arranhão",
+				'de-de': "Kratzer"
 			},
 			damage: 50,
 
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Max Beating",
-				fr: "Battromax",
-				es: "Maxipercusión",
-				it: "Dynapercossa",
-				pt: "Batidão Max",
-				de: "Dyna-Schläge"
+				'en-us': "Max Beating",
+				'fr-fr': "Battromax",
+				'es-es': "Maxipercusión",
+				'it-it': "Dynapercossa",
+				'pt-br': "Batidão Max",
+				'de-de': "Dyna-Schläge"
 			},
 			effect: {
-				en: "You may discard up to 3 Grass Energy from this Pokémon. If you do, this attack does 50 more damage for each card you discarded in this way.",
-				fr: "Vous pouvez défausser jusqu'à 3 Énergies Grass de ce Pokémon. Dans ce cas, cette attaque inflige 50 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
-				es: "Puedes descartar hasta 3 Energías Grass de este Pokémon. Si lo haces, este ataque hace 50 puntos de daño más por cada carta que hayas descartado de esta manera.",
-				it: "Puoi scartare fino a tre Energie Grass da questo Pokémon. Se lo fai, questo attacco infligge 50 danni in più per ogni carta che hai scartato in questo modo.",
-				pt: "Você pode descartar até 3 Energias Grass deste Pokémon. Se fizer isto, este ataque causará 50 pontos de dano a mais para cada carta descartada desta forma.",
-				de: "Du kannst bis zu 3 Grass-Energien von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke für jede auf diese Weise abgelegte Karte 50 Schadenspunkte mehr zu."
+				'en-us': "You may discard up to 3 Grass Energy from this Pokémon. If you do, this attack does 50 more damage for each card you discarded in this way.",
+				'fr-fr': "Vous pouvez défausser jusqu'à 3 Énergies Grass de ce Pokémon. Dans ce cas, cette attaque inflige 50 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
+				'es-es': "Puedes descartar hasta 3 Energías Grass de este Pokémon. Si lo haces, este ataque hace 50 puntos de daño más por cada carta que hayas descartado de esta manera.",
+				'it-it': "Puoi scartare fino a tre Energie Grass da questo Pokémon. Se lo fai, questo attacco infligge 50 danni in più per ogni carta che hai scartato in questo modo.",
+				'pt-br': "Você pode descartar até 3 Energias Grass deste Pokémon. Se fizer isto, este ataque causará 50 pontos de dano a mais para cada carta descartada desta forma.",
+				'de-de': "Du kannst bis zu 3 Grass-Energien von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke für jede auf diese Weise abgelegte Karte 50 Schadenspunkte mehr zu."
 			},
 			damage: "130+",
 

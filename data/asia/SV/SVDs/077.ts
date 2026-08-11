@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เอลฟูน",
-		id: "Whimsicott"
+		'th-th': "เอลฟูน",
+		'id-id': "Whimsicott"
 	},
 
 	illustrator: "KYUPIYAMA",
@@ -15,16 +15,16 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		th: "ทุกครั้งที่ได้อาบแสงอาทิตย์ปุยฝ้ายจะพองตัว ถ้าพองมากเกินไปมันจะฉีกเป็นชิ้นเล็ก ๆ และโปรยบริเวณรอบ ๆ",
-		id: "Makin sering berjemur sinar matahari, makin mengembang pula kapas Whimsicott. Jika kapas mengembang terlalu banyak, Pokémon ini akan mencabut dan mencecerkan kapas tersebut ke sekelilingnya."
+		'th-th': "ทุกครั้งที่ได้อาบแสงอาทิตย์ปุยฝ้ายจะพองตัว ถ้าพองมากเกินไปมันจะฉีกเป็นชิ้นเล็ก ๆ และโปรยบริเวณรอบ ๆ",
+		'id-id': "Makin sering berjemur sinar matahari, makin mengembang pula kapas Whimsicott. Jika kapas mengembang terlalu banyak, Pokémon ini akan mencabut dan mencecerkan kapas tersebut ke sekelilingnya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "สายลมแห่งภูตพราย",
-			id: "Angin Peri"
+			'th-th': "สายลมแห่งภูตพราย",
+			'id-id': "Angin Peri"
 		},
 
 		damage: 50,

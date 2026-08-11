@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Tynamo",
-		fr: "Anchwatt",
-		es: "Tynamo",
-		it: "Tynamo",
-		pt: "Tynamo",
-		de: "Zapplardin"
+		'en-us': "Tynamo",
+		'fr-fr': "Anchwatt",
+		'es-es': "Tynamo",
+		'it-it': "Tynamo",
+		'pt-br': "Tynamo",
+		'de-de': "Zapplardin"
 	},
 
 	illustrator: "sui",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunder Wave",
-				fr: "Cage-Éclair",
+				'en-us': "Thunder Wave",
+				'fr-fr': "Cage-Éclair",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "While one alone doesn't have much power, a chain of many Tynamo can be as powerful as lightning.",
+		'en-us': "While one alone doesn't have much power, a chain of many Tynamo can be as powerful as lightning.",
 	},
 
 	thirdParty: {

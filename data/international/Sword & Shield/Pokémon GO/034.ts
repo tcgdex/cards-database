@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pokémon GO"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lunatone",
-		fr: "Séléroc",
-		es: "Lunatone",
-		it: "Lunatone",
-		pt: "Lunatone",
-		de: "Lunastein"
+		'en-us': "Lunatone",
+		'fr-fr': "Séléroc",
+		'es-es': "Lunatone",
+		'it-it': "Lunatone",
+		'pt-br': "Lunatone",
+		'de-de': "Lunastein"
 	},
 
 	illustrator: "miki kudo",
@@ -25,41 +25,41 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Cycle Draw",
-			fr: "Pioche Cyclique",
-			es: "Ciclorrobo",
-			it: "Pesca Ciclica",
-			pt: "Compra Cíclica",
-			de: "Kreiszug"
+			'en-us': "Cycle Draw",
+			'fr-fr': "Pioche Cyclique",
+			'es-es': "Ciclorrobo",
+			'it-it': "Pesca Ciclica",
+			'pt-br': "Compra Cíclica",
+			'de-de': "Kreiszug"
 		},
 
 		effect: {
-			en: "Discard a card from your hand. If you do, draw 3 cards.",
-			fr: "Défaussez une carte de votre main. Dans ce cas, piochez 3 cartes.",
-			es: "Descarta 1 carta de tu mano. Si lo haces, roba 3 cartas.",
-			it: "Scarta una delle carte che hai in mano. Se lo fai, pesca tre carte.",
-			pt: "Descarte 1 carta da sua mão. Se fizer isto, compre 3 cartas.",
-			de: "Lege 1 Karte aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, ziehe 3 Karten."
+			'en-us': "Discard a card from your hand. If you do, draw 3 cards.",
+			'fr-fr': "Défaussez une carte de votre main. Dans ce cas, piochez 3 cartes.",
+			'es-es': "Descarta 1 carta de tu mano. Si lo haces, roba 3 cartas.",
+			'it-it': "Scarta una delle carte che hai in mano. Se lo fai, pesca tre carte.",
+			'pt-br': "Descarte 1 carta da sua mão. Se fizer isto, compre 3 cartas.",
+			'de-de': "Lege 1 Karte aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, ziehe 3 Karten."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Moon Kinesis",
-			fr: "Kinésie Lunaire",
-			es: "Lunaquinesis",
-			it: "Lunacinesi",
-			pt: "Cinese Lunar",
-			de: "Mondkinese"
+			'en-us': "Moon Kinesis",
+			'fr-fr': "Kinésie Lunaire",
+			'es-es': "Lunaquinesis",
+			'it-it': "Lunacinesi",
+			'pt-br': "Cinese Lunar",
+			'de-de': "Mondkinese"
 		},
 
 		effect: {
-			en: "This attack does 30 more damage for each Psychic Energy attached to this Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Psychic attachée à ce Pokémon.",
-			es: "Este ataque hace 30 puntos de daño más por cada Energía Psychic unida a este Pokémon.",
-			it: "Questo attacco infligge 30 danni in più per ogni Energia Psychic assegnata a questo Pokémon.",
-			pt: "Este ataque causa 30 pontos de dano a mais para cada Energia Psychic ligada a este Pokémon.",
-			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Psychic-Energie 30 Schadenspunkte mehr zu."
+			'en-us': "This attack does 30 more damage for each Psychic Energy attached to this Pokémon.",
+			'fr-fr': "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Psychic attachée à ce Pokémon.",
+			'es-es': "Este ataque hace 30 puntos de daño más por cada Energía Psychic unida a este Pokémon.",
+			'it-it': "Questo attacco infligge 30 danni in più per ogni Energia Psychic assegnata a questo Pokémon.",
+			'pt-br': "Este ataque causa 30 pontos de dano a mais para cada Energia Psychic ligada a este Pokémon.",
+			'de-de': "Diese Attacke fügt für jede an dieses Pokémon angelegte Psychic-Energie 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
@@ -82,7 +82,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The phase of the moon apparently has some effect on its power. It's active on the night of a full moon.",
+		'en-us': "The phase of the moon apparently has some effect on its power. It's active on the night of a full moon.",
 	},
 
 	

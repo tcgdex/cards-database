@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เกโคกาชิระ",
-		id: "Frogadier"
+		'th-th': "เกโคกาชิระ",
+		'id-id': "Frogadier"
 	},
 
 	illustrator: "Tonji Matsuno",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		th: "เรื่องตัวเบานั้นไม่แพ้ใคร สามารถปีนขึ้นยอดตึกที่สูงเกิน 600 เมตรได้ใน 1 นาที",
-		id: "Kelincahan tubuh Frogadier tidak kalah dari siapa pun. Pokémon ini dapat mendaki hingga puncak menara dengan ketinggian lebih dari 600 meter dalam waktu satu menit."
+		'th-th': "เรื่องตัวเบานั้นไม่แพ้ใคร สามารถปีนขึ้นยอดตึกที่สูงเกิน 600 เมตรได้ใน 1 นาที",
+		'id-id': "Kelincahan tubuh Frogadier tidak kalah dari siapa pun. Pokémon ini dapat mendaki hingga puncak menara dengan ketinggian lebih dari 600 meter dalam waktu satu menit."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "พลิ้ว",
-			id: "Serangan Mundur"
+			'th-th': "พลิ้ว",
+			'id-id': "Serangan Mundur"
 		},
 
 		effect: {
-			th: "หากต้องการ สลับโปเกมอนนี้กับโปเกมอนบนเบนช์",
-			id: "Pemain dapat menukar Pokémon ini dengan Pokémon Cadangan."
+			'th-th': "หากต้องการ สลับโปเกมอนนี้กับโปเกมอนบนเบนช์",
+			'id-id': "Pemain dapat menukar Pokémon ini dengan Pokémon Cadangan."
 		},
 
 		damage: 40,

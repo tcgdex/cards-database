@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Promos-A"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Professor's Research",
-		fr: "Recherches Professorales",
-		es: "Investigación de Profesores",
-		it: "Ricerca Accademica",
-		de: "Forschung des Professors",
+		'en-us': "Professor's Research",
+		'fr-fr': "Recherches Professorales",
+		'es-es': "Investigación de Profesores",
+		'it-it': "Ricerca Accademica",
+		'de-de': "Forschung des Professors",
 		'pt-br': "Pesquisa de Professores",
-		ko: "박사의 연구"
+		'ko-kr': "박사의 연구"
 	},
 
 	illustrator: "Naoki Saito",
@@ -19,13 +19,13 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Draw 2 cards.",
-		fr: "Piochez 2 cartes.",
-		es: "Roba 2 cartas.",
-		it: "Pesca 2 carte.",
-		de: "Ziehe 2 Karten.",
+		'en-us': "Draw 2 cards.",
+		'fr-fr': "Piochez 2 cartes.",
+		'es-es': "Roba 2 cartas.",
+		'it-it': "Pesca 2 carte.",
+		'de-de': "Ziehe 2 Karten.",
 		
-		ko: "자신의 덱을 2장 뽑는다.",
+		'ko-kr': "자신의 덱을 2장 뽑는다.",
 		'pt-br': "Compre 2 cartas."
 	},
 

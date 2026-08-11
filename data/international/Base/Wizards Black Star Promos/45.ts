@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Scyther",
+		'en-us': "Scyther",
 	},
 	illustrator: "Hironobu Yoshida",
 	rarity: "Common",
@@ -28,10 +28,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Slashing Strike",
+				'en-us': "Slashing Strike",
 			},
 			effect: {
-				en: "This attack can't be used during your next turn. (Benching Scyther ends this effect.)",
+				'en-us': "This attack can't be used during your next turn. (Benching Scyther ends this effect.)",
 			},
 			damage: 40,
 
@@ -53,7 +53,7 @@ const card: Card = {
 
 
 	description: {
-		en: "With ninja-like agility and speed, it can create the illusion that there is more than one.",
+		'en-us': "With ninja-like agility and speed, it can create the illusion that there is more than one.",
 	},
 
 	variants: [

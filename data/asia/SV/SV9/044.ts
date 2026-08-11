@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ウリムー",
+		'ja-jp': "ウリムー",
 		'zh-tw': "小山豬",
 		'zh-cn': "小山豬"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "鼻先で 地面を 掘って 食べるものを 探しだす。 凍った 地面も へっちゃらだ。",
+		'ja-jp': "鼻先で 地面を 掘って 食べるものを 探しだす。 凍った 地面も へっちゃらだ。",
 		'zh-tw': "會用鼻尖前端在地面挖洞 找出食物。即使地面結了冰 也絲毫不會受阻礙。",
 		'zh-cn': "會用鼻尖前端在地面挖洞 找出食物。即使地面結了冰 也絲毫不會受阻礙。"
 	},
@@ -29,13 +29,13 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "なかまをよぶ",
+			'ja-jp': "なかまをよぶ",
 			'zh-tw': "呼朋引伴",
 			'zh-cn': "呼朋引伴"
 		},
 
 		effect: {
-			ja: "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
+			'ja-jp': "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
 			'zh-tw': "從自己的牌庫選擇最多2張【基礎】寶可夢卡，放置於備戰區。並且重洗牌庫。",
 			'zh-cn': "從自己的牌庫選擇最多2張【基礎】寶可夢卡，放置於備戰區。並且重洗牌庫。"
 		}
@@ -43,7 +43,7 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "つきたおし",
+			'ja-jp': "つきたおし",
 			'zh-tw': "撞倒",
 			'zh-cn': "撞倒"
 		},

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HGSS Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Lugia",
-		fr: "Lugia"
+		'en-us': "Lugia",
+		'fr-fr': "Lugia"
 	},
 	illustrator: "Takashi Yamaguchi",
 	rarity: "Promo",
@@ -26,8 +26,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse vague"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse vague"
 			},
 
 			damage: 20,
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aeroblast",
-				fr: "Aeroblast"
+				'en-us': "Aeroblast",
+				'fr-fr': "Aeroblast"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 50 damage plus 20 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque face."
+				'en-us': "Flip 2 coins. This attack does 50 damage plus 20 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque face."
 			},
 			damage: "50+",
 
@@ -68,7 +68,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It is said that it quietly spends its time deep at the bottom of the sea because its powers are too strong."
+		'en-us': "It is said that it quietly spends its time deep at the bottom of the sea because its powers are too strong."
 	},
 
 	variants: [

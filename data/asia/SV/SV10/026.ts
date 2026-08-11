@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユキカブリ",
+		'ja-jp': "ユキカブリ",
 		'zh-tw': "雪笠怪",
 		'zh-cn': "雪笠怪",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "寒い 季節は 山の ふもとまで 降りてくるが 春に なると 雪が 残る 山頂に 戻っていく。",
+		'ja-jp': "寒い 季節は 山の ふもとまで 降りてくるが 春に なると 雪が 残る 山頂に 戻っていく。",
 		'zh-tw': "在寒冷的季節裡會 移動到山腳下，一到春天就會 返回積雪尚存的山頂。",
 		'zh-cn': "在寒冷的季節裡會 移動到山腳下，一到春天就會 返回積雪尚存的山頂。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "なぐる",
+				'ja-jp': "なぐる",
 				'zh-tw': "打擊",
 				'zh-cn': "打擊",
 			},
@@ -34,7 +34,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "つらら",
+				'ja-jp': "つらら",
 				'zh-tw': "冰柱",
 				'zh-cn': "冰柱",
 			},

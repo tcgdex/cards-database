@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Southern Islands'
 
 const card: Card = {
 	name: {
-		en: "Lickitung",
+		'en-us': "Lickitung",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lick Wounds",
+				'en-us': "Lick Wounds",
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 Pokémon (yours or your opponent's) with damage counters on it and remove 2 damage counters from it (1 if it only has 1).",
+				'en-us': "Flip a coin. If heads, choose 1 Pokémon (yours or your opponent's) with damage counters on it and remove 2 damage counters from it (1 if it only has 1).",
 			},
 
 		},
@@ -42,10 +42,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tongue Stretch",
+				'en-us': "Tongue Stretch",
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance.",
+				'en-us': "Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance.",
 			},
 
 		},
@@ -68,7 +68,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon uses its six-foot tongue as if it were a hand. The origin of its anaesthetic properties is still a mystery.",
+		'en-us': "This Pokémon uses its six-foot tongue as if it were a hand. The origin of its anaesthetic properties is still a mystery.",
 	},
 
 	variants: [

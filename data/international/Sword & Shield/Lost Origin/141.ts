@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Porygon2",
-		fr: "Porygon2",
-		es: "Porygon2",
-		it: "Porygon2",
-		pt: "Porygon2",
-		de: "Porygon2"
+		'en-us': "Porygon2",
+		'fr-fr': "Porygon2",
+		'es-es': "Porygon2",
+		'it-it': "Porygon2",
+		'pt-br': "Porygon2",
+		'de-de': "Porygon2"
 	},
 
 	illustrator: "OKACHEKE",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Porygon",
-		fr: "Porygon",
-		es: "Porygon",
-		it: "Porygon",
-		pt: "Porygon",
-		de: "Porygon"
+		'en-us': "Porygon",
+		'fr-fr': "Porygon",
+		'es-es': "Porygon",
+		'it-it': "Porygon",
+		'pt-br': "Porygon",
+		'de-de': "Porygon"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Garbage Attack",
-			fr: "Attaque Décharge",
-			es: "Ataque Basura",
-			it: "Attacco Spazzatura",
-			pt: "Golpe de Lixo",
-			de: "Abfallangriff"
+			'en-us': "Garbage Attack",
+			'fr-fr': "Attaque Décharge",
+			'es-es': "Ataque Basura",
+			'it-it': "Attacco Spazzatura",
+			'pt-br': "Golpe de Lixo",
+			'de-de': "Abfallangriff"
 		},
 
 		effect: {
-			en: "This attack does 20 damage for each Pokémon Tool card in the Lost Zone (both yours and your opponent's).",
-			fr: "Cette attaque inflige 20 dégâts pour chaque carte Outil Pokémon dans la Zone Perdue (la vôtre et celle de votre adversaire).",
-			es: "Este ataque hace 20 puntos de daño por cada carta de Herramienta Pokémon en la Zona Perdida (tanto tuyascomode tu rival).",
-			it: "Questo attacco infligge 20 danni per ogni carta Oggetto Pokémon nell'area perduta, sia tua che del tuo avversario.",
-			pt: "Este ataque causa 20 pontos de dano para cada carta de Ferramenta Pokémon na Zona Perdida (suas e do seu oponente).",
-			de: "Diese Attacke fügt für jede Pokémon-Ausrüstung im Nirgendwo (deinem und dem deines Gegners) 20 Schadenspunkte zu."
+			'en-us': "This attack does 20 damage for each Pokémon Tool card in the Lost Zone (both yours and your opponent's).",
+			'fr-fr': "Cette attaque inflige 20 dégâts pour chaque carte Outil Pokémon dans la Zone Perdue (la vôtre et celle de votre adversaire).",
+			'es-es': "Este ataque hace 20 puntos de daño por cada carta de Herramienta Pokémon en la Zona Perdida (tanto tuyascomode tu rival).",
+			'it-it': "Questo attacco infligge 20 danni per ogni carta Oggetto Pokémon nell'area perduta, sia tua che del tuo avversario.",
+			'pt-br': "Este ataque causa 20 pontos de dano para cada carta de Ferramenta Pokémon na Zona Perdida (suas e do seu oponente).",
+			'de-de': "Diese Attacke fügt für jede Pokémon-Ausrüstung im Nirgendwo (deinem und dem deines Gegners) 20 Schadenspunkte zu."
 		},
 
 		damage: "20×"

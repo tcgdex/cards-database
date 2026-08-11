@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Misdreavus",
-		de: "Traunfugil"
+		'en-us': "Misdreavus",
+		'de-de': "Traunfugil"
 	},
 
 	illustrator: "Aya Kusube",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Dark Spell",
-				de: "Dark Spell"
+				'en-us': "Dark Spell",
+				'de-de': "Dark Spell"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Misdreavus is your Active Pokémon, you may flip a coin. If heads, put 1 damage counter on 1 of your opponent's Pokémon. This power can't be used if Misdreavus is affected by a Special Condition or if your other Active Pokémon is not Misdreavus.",
-				de: "Once during your turn (before your attack), if Misdreavus is your Active Pokémon, you may flip a coin. If heads, put 1 damage counter on 1 of your opponent's Pokémon. This power can't be used if Misdreavus is affected by a Special Condition or if your other Active Pokémon is is not Misdreavus."
+				'en-us': "Once during your turn (before your attack), if Misdreavus is your Active Pokémon, you may flip a coin. If heads, put 1 damage counter on 1 of your opponent's Pokémon. This power can't be used if Misdreavus is affected by a Special Condition or if your other Active Pokémon is not Misdreavus.",
+				'de-de': "Once during your turn (before your attack), if Misdreavus is your Active Pokémon, you may flip a coin. If heads, put 1 damage counter on 1 of your opponent's Pokémon. This power can't be used if Misdreavus is affected by a Special Condition or if your other Active Pokémon is is not Misdreavus."
 			},
 		},
 	],
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hide in Shadows",
-				de: "Hide in Shadows"
+				'en-us': "Hide in Shadows",
+				'de-de': "Hide in Shadows"
 			},
 			effect: {
-				en: "Switch Misdreavus with 1 of your Benched Pokémon.",
-				de: "Switch Misdreavus with 1 of your Benched Pokémon."
+				'en-us': "Switch Misdreavus with 1 of your Benched Pokémon.",
+				'de-de': "Switch Misdreavus with 1 of your Benched Pokémon."
 			},
 			damage: 20,
 

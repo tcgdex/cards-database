@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピロスワイン",
+		'ja-jp': "ピロスワイン",
 	},
 
 	rarity: "Uncommon",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "牙を突き刺す",
+				'ja-jp': "牙を突き刺す",
 			},
 			damage: 40,
 		},
 		{
 			cost: ["Fighting", "Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "継続的な充電",
+				'ja-jp': "継続的な充電",
 			},
 			effect: {
-				ja: "4コインをひっくり返します。この攻撃は、30のダメージに加えて、ヘッドごとに20のダメージを与えます。各頭のピロスワインにダメージカウンターを置きます。",
+				'ja-jp': "4コインをひっくり返します。この攻撃は、30のダメージに加えて、ヘッドごとに20のダメージを与えます。各頭のピロスワインにダメージカウンターを置きます。",
 			},
 		},
 	],

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Seadra"
+		'en-us': "Misty's Seadra"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Horsea"
+		'en-us': "Horsea"
 	},
 
 	stage: "Stage1",
@@ -31,7 +31,7 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Tail Snap"
+				'en-us': "Tail Snap"
 			},
 
 			damage: 20,
@@ -44,10 +44,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Knockout Needle"
+				'en-us': "Knockout Needle"
 			},
 			effect: {
-				en: "Flip 2 coins. If both of them are heads, this attack does 30 damage plus 60 more damage. If 1 or both of them are tails, this attack does 30 damage."
+				'en-us': "Flip 2 coins. If both of them are heads, this attack does 30 damage plus 60 more damage. If 1 or both of them are tails, this attack does 30 damage."
 			},
 			damage: "30+",
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Drapion",
-		fr: "Drascore",
-		es: "Drapion",
-		it: "Drapion",
-		pt: "Drapion",
-		de: "Piondragi"
+		'en-us': "Drapion",
+		'fr-fr': "Drascore",
+		'es-es': "Drapion",
+		'it-it': "Drapion",
+		'pt-br': "Drapion",
+		'de-de': "Piondragi"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -22,12 +22,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Skorupi",
-		fr: "Rapion",
-		es: "Skorupi",
-		it: "Skorupi",
-		pt: "Skorupi",
-		de: "Pionskora"
+		'en-us': "Skorupi",
+		'fr-fr': "Rapion",
+		'es-es': "Skorupi",
+		'it-it': "Skorupi",
+		'pt-br': "Skorupi",
+		'de-de': "Pionskora"
 	},
 
 	stage: "Stage1",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hard Press",
-				fr: "Pression Robuste",
-				es: "Dura Presión",
-				it: "Duropressa",
-				pt: "Apertão",
-				de: "Hochdruck"
+				'en-us': "Hard Press",
+				'fr-fr': "Pression Robuste",
+				'es-es': "Dura Presión",
+				'it-it': "Duropressa",
+				'pt-br': "Apertão",
+				'de-de': "Hochdruck"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
-				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 80,
 
@@ -66,20 +66,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Toxic Strike",
-				fr: "Frappe Toxique",
-				es: "Golpe Tóxico",
-				it: "Attacco Tossico",
-				pt: "Golpe Tóxico",
-				de: "Giftschlag"
+				'en-us': "Toxic Strike",
+				'fr-fr': "Frappe Toxique",
+				'es-es': "Golpe Tóxico",
+				'it-it': "Attacco Tossico",
+				'pt-br': "Golpe Tóxico",
+				'de-de': "Giftschlag"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+				'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 			damage: 130,
 
@@ -104,7 +104,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It's so vicious that it's called the Sand Demon. Yet when confronted by Hippowdon, Drapion keeps a low profile and will never pick a fight."
+		'en-us': "It's so vicious that it's called the Sand Demon. Yet when confronted by Hippowdon, Drapion keeps a low profile and will never pick a fight."
 	},
 
 	dexId: [452],

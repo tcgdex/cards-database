@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゼクロム",
+		'ja-jp': "ゼクロム",
 	},
 
 	illustrator: "Naoki Saito",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Lightning", "Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力の計算をしない。］",
+				'ja-jp': "相手のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力の計算をしない。］",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Blissey -066/092",
+		'ja-jp': "Blissey -066/092",
 	},
 
 	rarity: "Holo Rare",
@@ -17,10 +17,10 @@ const card: Card = {
 	abilities: [
 		{
 			name: {
-				ja: "幸せな癒し",
+				'ja-jp': "幸せな癒し",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前）</em> </em>、1つのベンチポクモンを選択し、コインをひっくり返します。頭の場合は、Blisseyに取り付けられたエネルギーの数を数え、選択したベンチポクモンからその多くのダメージカウンターを削除します。 Blisseyが特別な状態の影響を受けた場合、この力は使用できません。",
+				'ja-jp': "ターン中に（攻撃の前）</em> </em>、1つのベンチポクモンを選択し、コインをひっくり返します。頭の場合は、Blisseyに取り付けられたエネルギーの数を数え、選択したベンチポクモンからその多くのダメージカウンターを削除します。 Blisseyが特別な状態の影響を受けた場合、この力は使用できません。",
 			},
 		}],
 
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "スマッシュ爆撃機",
+				'ja-jp': "スマッシュ爆撃機",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
 			},
 			damage: 50,
 		},

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Toxtricity ex",
-		fr: "Salarsen-ex",
-		es: "Toxtricity ex",
-		it: "Toxtricity-ex",
-		pt: "Toxtricity ex",
-		de: "Riffex-ex"
+		'en-us': "Toxtricity ex",
+		'fr-fr': "Salarsen-ex",
+		'es-es': "Toxtricity ex",
+		'it-it': "Toxtricity-ex",
+		'pt-br': "Toxtricity ex",
+		'de-de': "Riffex-ex"
 	},
 
 	rarity: "Double rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 260,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Toxel",
-		fr: "Toxizap",
-		es: "Toxel",
-		it: "Toxel",
-		pt: "Toxel",
-		de: "Toxel"
+		'en-us': "Toxel",
+		'fr-fr': "Toxizap",
+		'es-es': "Toxel",
+		'it-it': "Toxel",
+		'pt-br': "Toxel",
+		'de-de': "Toxel"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Lightning", "Lightning"],
 
 		name: {
-			en: "Knocking Hammer",
-			fr: "Marteau Frappeur",
-			es: "Martillo Impacto",
-			it: "Martello Battente",
-			pt: "Martelo Detonador",
-			de: "Klopfender Hammer"
+			'en-us': "Knocking Hammer",
+			'fr-fr': "Marteau Frappeur",
+			'es-es': "Martillo Impacto",
+			'it-it': "Martello Battente",
+			'pt-br': "Martelo Detonador",
+			'de-de': "Klopfender Hammer"
 		},
 
 		effect: {
-			en: "Discard the top card of your opponent's deck.",
-			fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-			es: "Descarta la primera carta de la baraja de tu rival.",
-			it: "Scarta la prima carta del mazzo del tuo avversario.",
-			pt: "Descarte a carta de cima do baralho do seu oponente.",
-			de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+			'en-us': "Discard the top card of your opponent's deck.",
+			'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+			'es-es': "Descarta la primera carta de la baraja de tu rival.",
+			'it-it': "Scarta la prima carta del mazzo del tuo avversario.",
+			'pt-br': "Descarte a carta de cima do baralho do seu oponente.",
+			'de-de': "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 70
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Lightning"],
 
 		name: {
-			en: "Gaia Punk",
-			fr: "Punk de Gaïa",
-			es: "Gaia Punki",
-			it: "Gaiapunk",
-			pt: "Gaia Punk",
-			de: "Gaia-Punk"
+			'en-us': "Gaia Punk",
+			'fr-fr': "Punk de Gaïa",
+			'es-es': "Gaia Punki",
+			'it-it': "Gaiapunk",
+			'pt-br': "Gaia Punk",
+			'de-de': "Gaia-Punk"
 		},
 
 		effect: {
-			en: "Discard 3 {L} Energy from your Pokémon.",
-			fr: "Défaussez 3 Énergies {L} de vos Pokémon.",
-			es: "Descarta 3 Energías {L} de tus Pokémon.",
-			it: "Scarta tre Energie {L} dai tuoi Pokémon.",
-			pt: "Descarte 3 Energias {L} dos seus Pokémon.",
-			de: "Lege 3 {L}-Energien von deinen Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard 3 {L} Energy from your Pokémon.",
+			'fr-fr': "Défaussez 3 Énergies {L} de vos Pokémon.",
+			'es-es': "Descarta 3 Energías {L} de tus Pokémon.",
+			'it-it': "Scarta tre Energie {L} dai tuoi Pokémon.",
+			'pt-br': "Descarte 3 Energias {L} dos seus Pokémon.",
+			'de-de': "Lege 3 {L}-Energien von deinen Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 270

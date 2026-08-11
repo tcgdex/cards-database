@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [434],
 
 	name: {
-		en: "Stunky"
+		'en-us': "Stunky"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "The foul fluid from its rear is so revolting that it\ncan make people feel queasy up to a mile and a\nquarter away."
+		'en-us': "The foul fluid from its rear is so revolting that it\ncan make people feel queasy up to a mile and a\nquarter away."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Spray Fluid"
+			'en-us': "Spray Fluid"
 		},
 
 		damage: 30,

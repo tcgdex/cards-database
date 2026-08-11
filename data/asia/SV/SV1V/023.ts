@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1V"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "アルクジラ",
+		'ja-jp': "アルクジラ",
 		'zh-tw': "走鯨",
-		th: "อารุคุจิระ",
-		id: "Cetoddle"
+		'th-th': "อารุคุจิระ",
+		'id-id': "Cetoddle"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "寒冷地で ５匹ほどの 群れを 作って 暮らす。 雪や 氷に 含まれる ミネラルが 大好き。",
+		'ja-jp': "寒冷地で ５匹ほどの 群れを 作って 暮らす。 雪や 氷に 含まれる ミネラルが 大好き。",
 		'zh-tw': "在寒冷地帶會組成約５隻規模的群體來生活。 喜歡雪或冰所含的礦物質。",
-		th: "อาศัยอยู่เป็นฝูงประมาณ 5 ตัวในบริเวณที่มีอากาศหนาวเหน็บ ชอบแร่ธาตุที่มีอยู่ในหิมะและน้ำแข็งเป็นอย่างมาก",
-		id: "Cetoddle hidup dan membentuk kelompok dengan jumlah sekitar 5 ekor di daerah yang dingin. Pokémon ini sangat menyukai mineral yang terkandung pada salju dan es."
+		'th-th': "อาศัยอยู่เป็นฝูงประมาณ 5 ตัวในบริเวณที่มีอากาศหนาวเหน็บ ชอบแร่ธาตุที่มีอยู่ในหิมะและน้ำแข็งเป็นอย่างมาก",
+		'id-id': "Cetoddle hidup dan membentuk kelompok dengan jumlah sekitar 5 ekor di daerah yang dingin. Pokémon ini sangat menyukai mineral yang terkandung pada salju dan es."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "たいあたり",
+			'ja-jp': "たいあたり",
 			'zh-tw': "撞擊",
-			th: "พุ่งเข้าชน",
-			id: "Serudukan"
+			'th-th': "พุ่งเข้าชน",
+			'id-id': "Serudukan"
 		},
 
 		damage: 30

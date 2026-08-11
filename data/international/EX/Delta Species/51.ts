@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Pupitar δ",
-		fr: "Ymphect δ",
-		de: "Pupitar"
+		'en-us': "Pupitar δ",
+		'fr-fr': "Ymphect δ",
+		'de-de': "Pupitar"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Larvitar",
-		fr: "Embrylex"
+		'en-us': "Larvitar",
+		'fr-fr': "Embrylex"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Paralyzing Gaze",
-				fr: "Regard paralysant",
-				de: "Paralyzing Gaze"
+				'en-us': "Paralyzing Gaze",
+				'fr-fr': "Regard paralysant",
+				'de-de': "Paralyzing Gaze"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 
 		},
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-edge",
-				fr: "Damoclès",
-				de: "Double-edge"
+				'en-us': "Double-edge",
+				'fr-fr': "Damoclès",
+				'de-de': "Double-edge"
 			},
 			effect: {
-				en: "Pupitar does 10 damage to itself.",
-				fr: "Ymphect s'inflige 10 dégâts.",
-				de: "Pupitar does 10 damage to itself."
+				'en-us': "Pupitar does 10 damage to itself.",
+				'fr-fr': "Ymphect s'inflige 10 dégâts.",
+				'de-de': "Pupitar does 10 damage to itself."
 			},
 			damage: 40,
 

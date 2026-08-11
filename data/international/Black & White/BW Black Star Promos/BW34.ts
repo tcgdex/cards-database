@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Luxio",
-		fr: "Luxio",
+		'en-us': "Luxio",
+		'fr-fr': "Luxio",
 	},
 	illustrator: "Naoki Saito",
 	rarity: "Common",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Lightning",
 	],
 	evolveFrom: {
-		en: "Shinx",
-		fr: "Lixy",
+		'en-us': "Shinx",
+		'fr-fr': "Lixy",
 	},
 	stage: "Stage1",
 
@@ -31,12 +31,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Dazzle Blast",
-				fr: "Explosion de Lumière",
+				'en-us': "Dazzle Blast",
+				'fr-fr': "Explosion de Lumière",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: 10,
 
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Random Spark",
-				fr: "Étincelle Surprise",
+				'en-us': "Random Spark",
+				'fr-fr': "Étincelle Surprise",
 			},
 			effect: {
-				en: "This attack does 40 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 40 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "This attack does 40 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 40 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: "n/a",
 
@@ -72,7 +72,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+		'en-us': "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
 	},
 }
 

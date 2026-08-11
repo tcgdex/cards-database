@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドーミラー",
+		'ja-jp': "ドーミラー",
 	},
 
 	illustrator: "Kedamahadaitai Yawarakai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "ドーミラーの 背中の 模様には 神秘的な 力が 宿ると 昔の 人たちは 信じていた。",
+		'ja-jp': "ドーミラーの 背中の 模様には 神秘的な 力が 宿ると 昔の 人たちは 信じていた。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンが[P]ポケモンなら、30ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが[P]ポケモンなら、30ダメージ追加。",
 			},
 		},
 	],

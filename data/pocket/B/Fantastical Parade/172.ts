@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [870],
 
 	name: {
-		en: "Falinks"
+		'en-us': "Falinks"
 	},
 
 	illustrator: "okayamatakatoshi",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "The leader, known as the brass, uses its\nextendible horn to issue orders to the others\nwhen it's time to change formation."
+		'en-us': "The leader, known as the brass, uses its\nextendible horn to issue orders to the others\nwhen it's time to change formation."
 	},
 
 	stage: "Basic",
@@ -26,17 +26,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Coordinated Unit"
+			'en-us': "Coordinated Unit"
 		},
 
 		effect: {
-			en: "If you have another Falinks in play, this Pokémon's attacks do +20 damage to your opponent's Active Pokémon, and this Pokémon takes −20 damage from attacks from your opponent's Pokémon."
+			'en-us': "If you have another Falinks in play, this Pokémon's attacks do +20 damage to your opponent's Active Pokémon, and this Pokémon takes −20 damage from attacks from your opponent's Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Invade"
+			'en-us': "Invade"
 		},
 
 		damage: 20,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Rhydon",
-		fr: "Rhinoféros de Team Magma",
-		de: "Team Magmas Rizeros"
+		'en-us': "Team Magma's Rhydon",
+		'fr-fr': "Rhinoféros de Team Magma",
+		'de-de': "Team Magmas Rizeros"
 	},
 
 	illustrator: "T. Honda",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magma Jab",
-				fr: "Taquet de Magma",
-				de: "Magma Jab"
+				'en-us': "Magma Jab",
+				'fr-fr': "Taquet de Magma",
+				'de-de': "Magma Jab"
 			},
 			effect: {
-				en: "This attack's damage is not affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				de: "This attack's damage is not affected by Resistance."
+				'en-us': "This attack's damage is not affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'de-de': "This attack's damage is not affected by Resistance."
 			},
 			damage: 20,
 
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shoot Down",
-				fr: "Démolir",
-				de: "Shoot Down"
+				'en-us': "Shoot Down",
+				'fr-fr': "Démolir",
+				'de-de': "Shoot Down"
 			},
 			effect: {
-				en: "If the Defending Pokémon has Team Aqua in its name, the Defending Pokémon is now Confused.",
-				fr: "Si le nom du Pokémon Défenseur comporte Team Aqua, le Pokémon Défenseur est maintenant Confus.",
-				de: "If the Defending Pokémon has Team Aqua in its name, the Defending Pokémon is now Confused."
+				'en-us': "If the Defending Pokémon has Team Aqua in its name, the Defending Pokémon is now Confused.",
+				'fr-fr': "Si le nom du Pokémon Défenseur comporte Team Aqua, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "If the Defending Pokémon has Team Aqua in its name, the Defending Pokémon is now Confused."
 			},
 			damage: 50,
 

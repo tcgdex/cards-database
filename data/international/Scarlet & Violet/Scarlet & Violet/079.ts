@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Kilowattrel",
-		fr: "Fulgulairo",
-		es: "Kilowattrel",
-		it: "Kilowattrel",
-		pt: "Kilowattrel",
-		de: "Voltrean"
+		'en-us': "Kilowattrel",
+		'fr-fr': "Fulgulairo",
+		'es-es': "Kilowattrel",
+		'it-it': "Kilowattrel",
+		'pt-br': "Kilowattrel",
+		'de-de': "Voltrean"
 	},
 
 	rarity: "Uncommon",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Wattrel",
-		fr: "Zapétrel"
+		'en-us': "Wattrel",
+		'fr-fr': "Zapétrel"
 	},
 
 	stage: "Stage1",
@@ -30,41 +30,41 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Skill Dive",
-			fr: "Plongeon Contrôlé",
-			es: "Técnica de Buceo",
-			it: "Agiltuffo",
-			pt: "Mergulho Habilidoso",
-			de: "Geübter Sturzflug"
+			'en-us': "Skill Dive",
+			'fr-fr': "Plongeon Contrôlé",
+			'es-es': "Técnica de Buceo",
+			'it-it': "Agiltuffo",
+			'pt-br': "Mergulho Habilidoso",
+			'de-de': "Geübter Sturzflug"
 		},
 
 		effect: {
-			en: "This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Cette attaque inflige 50 dégâts à l'un des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-			es: "Este ataque hace 50 puntos de daño a uno de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-			it: "Questo attacco infligge 50 danni a uno dei Pokémon del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-			pt: "Este ataque causa 50 pontos de dano a 1 dos Pokémon do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
-			de: "Diese Attacke fügt 1 Pokémon deines Gegners 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+			'en-us': "This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Cette attaque inflige 50 dégâts à l'un des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			'es-es': "Este ataque hace 50 puntos de daño a uno de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			'it-it': "Questo attacco infligge 50 danni a uno dei Pokémon del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			'pt-br': "Este ataque causa 50 pontos de dano a 1 dos Pokémon do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
+			'de-de': "Diese Attacke fügt 1 Pokémon deines Gegners 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		}
 	}, {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			en: "Thunder Blast",
-			fr: "Grondement de Tonnerre",
-			es: "Estallido Trueno",
-			it: "Tuonobomba",
-			pt: "Explosão de Trovões",
-			de: "Donnerkeil"
+			'en-us': "Thunder Blast",
+			'fr-fr': "Grondement de Tonnerre",
+			'es-es': "Estallido Trueno",
+			'it-it': "Tuonobomba",
+			'pt-br': "Explosão de Trovões",
+			'de-de': "Donnerkeil"
 		},
 
 		effect: {
-			en: "Discard a {L} Energy from this Pokémon.",
-			fr: "Défaussez une Énergie {L} de ce Pokémon.",
-			es: "Descarta 1 Energía {L} de este Pokémon.",
-			it: "Scarta un'Energia {L} da questo Pokémon.",
-			pt: "Descarte uma Energia {L} deste Pokémon.",
-			de: "Lege 1 {L}-Energie von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard a {L} Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie {L} de ce Pokémon.",
+			'es-es': "Descarta 1 Energía {L} de este Pokémon.",
+			'it-it': "Scarta un'Energia {L} da questo Pokémon.",
+			'pt-br': "Descarte uma Energia {L} deste Pokémon.",
+			'de-de': "Lege 1 {L}-Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 140
@@ -97,7 +97,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "Kilowattrel inflates its throat sac to amplify its electricity. By riding the wind, this Pokémon can fly over 430 miles in a day.",
+		'en-us': "Kilowattrel inflates its throat sac to amplify its electricity. By riding the wind, this Pokémon can fly over 430 miles in a day.",
 	},
 
 	thirdParty: {

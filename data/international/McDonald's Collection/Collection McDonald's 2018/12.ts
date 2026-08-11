@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Cadoizo",
+		'fr-fr': "Cadoizo",
 	},
 
 	rarity: "None",
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				fr: "Nombreux Cadeaux"
+				'fr-fr': "Nombreux Cadeaux"
 			},
 			effect: {
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Pour chaque côté face, vous pouvez chercher une carte dans votre deck puis l'ajouter à votre main. Mélangez ensuite votre deck."
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Pour chaque côté face, vous pouvez chercher une carte dans votre deck puis l'ajouter à votre main. Mélangez ensuite votre deck."
 			}
 		},
 		{
 			cost: ["Water"],
 			name: {
-				fr: "Attaque Surprise"
+				'fr-fr': "Attaque Surprise"
 			},
 			damage: 40,
 			effect: {
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
 			}
 		},
 	],

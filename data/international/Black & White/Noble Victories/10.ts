@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Amoonguss",
-		fr: "Gaulet",
-		es: "Amoonguss",
-		it: "Amoonguss",
-		pt: "Amoonguss",
-		de: "Hutsassa"
+		'en-us': "Amoonguss",
+		'fr-fr': "Gaulet",
+		'es-es': "Amoonguss",
+		'it-it': "Amoonguss",
+		'pt-br': "Amoonguss",
+		'de-de': "Hutsassa"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Foongus",
-		fr: "Trompignon",
+		'en-us': "Foongus",
+		'fr-fr': "Trompignon",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Toxic",
-				fr: "Toxik",
+				'en-us': "Toxic",
+				'fr-fr': "Toxik",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégâts au lieu d'un sur le Pokémon ciblé entre chaque tour.",
+				'en-us': "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégâts au lieu d'un sur le Pokémon ciblé entre chaque tour.",
 			},
 
 		},
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam",
-				fr: "Plaquage",
+				'en-us': "Body Slam",
+				'fr-fr': "Plaquage",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 30,
 
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They show off their Poké Ball caps to lure prey, but very few Pokémon are fooled by this.",
+		'en-us': "They show off their Poké Ball caps to lure prey, but very few Pokémon are fooled by this.",
 	},
 
 	thirdParty: {

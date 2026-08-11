@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Litten",
-		fr: "Flamiaou"
+		'en-us': "Litten",
+		'fr-fr': "Flamiaou"
 	},
 
 	illustrator: "0313",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "If you try too hard to get close to it, it won't\nopen up to you. Even if you do grow close,\ngiving it too much affection is still a no-no.",
-		fr: "Il se renferme sur lui-même si on lui accorde trop d'attention. Mieux vaut éviter de beaucoup le caresser, même s'il devient affectueux."
+		'en-us': "If you try too hard to get close to it, it won't\nopen up to you. Even if you do grow close,\ngiving it too much affection is still a no-no.",
+		'fr-fr': "Il se renferme sur lui-même si on lui accorde trop d'attention. Mieux vaut éviter de beaucoup le caresser, même s'il devient affectueux."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Flare",
-			fr: "Flamboiement"
+			'en-us': "Flare",
+			'fr-fr': "Flamboiement"
 		},
 
 		damage: 40,

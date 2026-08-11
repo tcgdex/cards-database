@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Rufflet",
-		fr: "Furaiglon",
-		es: "Rufflet",
-		it: "Rufflet",
-		pt: "Rufflet",
-		de: "Geronimatz"
+		'en-us': "Rufflet",
+		'fr-fr': "Furaiglon",
+		'es-es': "Rufflet",
+		'it-it': "Rufflet",
+		'pt-br': "Rufflet",
+		'de-de': "Geronimatz"
 	},
 
 	illustrator: "kawayoo",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Incessant Peck",
-				fr: "Rafal'Bec",
+				'en-us': "Incessant Peck",
+				'fr-fr': "Rafal'Bec",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 20 more damage for each heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				'en-us': "Flip a coin until you get tails. This attack does 20 more damage for each heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
 			},
 			damage: 10,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It stands up to massive opponents, not out of courage, but out of recklessness. But that is how it gets stronger.",
+		'en-us': "It stands up to massive opponents, not out of courage, but out of recklessness. But that is how it gets stronger.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Flamigo"
+		'id-id': "Flamigo"
 	},
 
 	illustrator: "Hiroki Asanuma",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Kabarnya Flamigo mengikat lehernya ke pangkal lehernya agar energi yang terkumpul di dalam perutnya tidak keluar dari paruhnya."
+		'id-id': "Kabarnya Flamigo mengikat lehernya ke pangkal lehernya agar energi yang terkumpul di dalam perutnya tidak keluar dari paruhnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Mematuk"
+			'id-id': "Mematuk"
 		},
 
 		damage: 20,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Synchrofeather"
+			'id-id': "Synchrofeather"
 		},
 
 		effect: {
-			id: "Jika ada Flamigo di Cadangan sendiri, serangan ini juga memberikan kerusakan sejumlah 60 kepada 1 Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
+			'id-id': "Jika ada Flamigo di Cadangan sendiri, serangan ini juga memberikan kerusakan sejumlah 60 kepada 1 Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
 		},
 
 		damage: 60,

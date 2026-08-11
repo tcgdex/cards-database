@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Sunflora",
-		fr: "Heliatronc",
-		de: "Sonnflora"
+		'en-us': "Sunflora",
+		'fr-fr': "Heliatronc",
+		'de-de': "Sonnflora"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sunkern",
-		fr: "Tournegrin"
+		'en-us': "Sunkern",
+		'fr-fr': "Tournegrin"
 	},
 
 	stage: "Stage1",
@@ -38,14 +38,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Petal Dance",
-				fr: "Danse-fleur",
-				de: "Blättertanz"
+				'en-us': "Petal Dance",
+				'fr-fr': "Danse-fleur",
+				'de-de': "Blättertanz"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 30 damage times the number of heads. Sunflora is now Confused (after doing damage).",
-				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces. Heliatronc est maintenant Confus (après application des dégâts).",
-				de: "Wirf drei Münzen. Dieser Angriff fügt 30 Schdenspunkte mal der Anzahl 'Kopf' zu. Sonnflora ist jetzt verwirrt (nach der Schadensverteilung)."
+				'en-us': "Flip 3 coins. This attack does 30 damage times the number of heads. Sunflora is now Confused (after doing damage).",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces. Heliatronc est maintenant Confus (après application des dégâts).",
+				'de-de': "Wirf drei Münzen. Dieser Angriff fügt 30 Schdenspunkte mal der Anzahl 'Kopf' zu. Sonnflora ist jetzt verwirrt (nach der Schadensverteilung)."
 			},
 			damage: "30x",
 
@@ -62,8 +62,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It converts sunlight into energy. In the darkness after sunset, it closes its petals and becomes still.",
-		fr: "Il convertit la lumière solaire en énergie. Dans l'obscurité après le coucher du soleil, il ferme ses pétales et demeure immobile."
+		'en-us': "It converts sunlight into energy. In the darkness after sunset, it closes its petals and becomes still.",
+		'fr-fr': "Il convertit la lumière solaire en énergie. Dans l'obscurité après le coucher du soleil, il ferme ses pétales et demeure immobile."
 	},
 
 

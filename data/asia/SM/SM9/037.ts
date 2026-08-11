@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マルマイン",
+		'ja-jp': "マルマイン",
 	},
 
 	illustrator: "Asako Ito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "少しの 刺激に 反応して 爆発する。 バクダンボールという あだ名で 怖がられている。",
+		'ja-jp': "少しの 刺激に 反応して 爆発する。 バクダンボールという あだ名で 怖がられている。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "エレキシェイカー" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の場のポケモンについている[雷]エネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の場のポケモンについている[雷]エネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ビリリダマ",
+		'ja-jp': "ビリリダマ",
 	},
 
 	retreat: 1,

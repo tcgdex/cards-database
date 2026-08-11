@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sinistcha ex",
-		fr: "Théffroyable-ex",
-		es: "Sinistcha ex",
-		it: "Sinistcha-ex",
-		pt: "Sinistcha ex",
-		de: "Fatalitcha-ex"
+		'en-us': "Sinistcha ex",
+		'fr-fr': "Théffroyable-ex",
+		'es-es': "Sinistcha ex",
+		'it-it': "Sinistcha-ex",
+		'pt-br': "Sinistcha ex",
+		'de-de': "Fatalitcha-ex"
 	},
 
 	rarity: "Ultra Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 240,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Poltchageist",
-		fr: "Poltchageist",
-		es: "Poltchageist",
-		it: "Poltchageist",
-		pt: "Poltchageist",
-		de: "Mortcha"
+		'en-us': "Poltchageist",
+		'fr-fr': "Poltchageist",
+		'es-es': "Poltchageist",
+		'it-it': "Poltchageist",
+		'pt-br': "Poltchageist",
+		'de-de': "Mortcha"
 	},
 	stage: "Stage1",
 
@@ -32,41 +32,41 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Re-Brew",
-			fr: "Ré-Infusion",
-			es: "Infusión Doble",
-			it: "Nuova Infusione",
-			pt: "Reinfusão",
-			de: "Zweiter Aufguss"
+			'en-us': "Re-Brew",
+			'fr-fr': "Ré-Infusion",
+			'es-es': "Infusión Doble",
+			'it-it': "Nuova Infusione",
+			'pt-br': "Reinfusão",
+			'de-de': "Zweiter Aufguss"
 		},
 
 		effect: {
-			en: "Put 2 damage counters on 1 of your opponent's Pokémon for each Basic {G} Energy card in your discard pile. Then, shuffle those Energy cards into your deck.",
-			fr: "Placez 2 marqueurs de dégâts sur l'un des Pokémon de votre adversaire pour chaque carte Énergie {G} de base dans votre pile de défausse. Mélangez ensuite ces cartes Énergie avec votre deck.",
-			es: "Pon 2 contadores de daño en uno de los Pokémon de tu rival por cada carta de Energía {G} Básica en tu pila de descartes. Después, pon esas cartas de Energía en tu baraja y barájalas todas.",
-			it: "Metti due segnalini danno su uno dei Pokémon del tuo avversario per ogni carta Energia base {G} nella tua pila degli scarti. Poi rimischia quelle carte Energia nel tuo mazzo.",
-			pt: "Coloque 2 contadores de dano em 1 dos Pokémon do seu oponente para cada carta de Energia {G} Básica na sua pilha de descarte. Em seguida, embaralhe aquelas cartas de Energia no seu baralho.",
-			de: "Lege 2 Schadensmarken für jede Basis-{G}-Energiekarte in deinem Ablagestapel auf 1 Pokémon deines Gegners. Mische anschließend jene Energiekarten in dein Deck."
+			'en-us': "Put 2 damage counters on 1 of your opponent's Pokémon for each Basic {G} Energy card in your discard pile. Then, shuffle those Energy cards into your deck.",
+			'fr-fr': "Placez 2 marqueurs de dégâts sur l'un des Pokémon de votre adversaire pour chaque carte Énergie {G} de base dans votre pile de défausse. Mélangez ensuite ces cartes Énergie avec votre deck.",
+			'es-es': "Pon 2 contadores de daño en uno de los Pokémon de tu rival por cada carta de Energía {G} Básica en tu pila de descartes. Después, pon esas cartas de Energía en tu baraja y barájalas todas.",
+			'it-it': "Metti due segnalini danno su uno dei Pokémon del tuo avversario per ogni carta Energia base {G} nella tua pila degli scarti. Poi rimischia quelle carte Energia nel tuo mazzo.",
+			'pt-br': "Coloque 2 contadores de dano em 1 dos Pokémon do seu oponente para cada carta de Energia {G} Básica na sua pilha de descarte. Em seguida, embaralhe aquelas cartas de Energia no seu baralho.",
+			'de-de': "Lege 2 Schadensmarken für jede Basis-{G}-Energiekarte in deinem Ablagestapel auf 1 Pokémon deines Gegners. Mische anschließend jene Energiekarten in dein Deck."
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Matcha Splash",
-			fr: "Éclaboussure Matcha",
-			es: "Mancha de Matcha",
-			it: "Schizzatè",
-			pt: "Salpicar Matcha",
-			de: "Matcha-Platscher"
+			'en-us': "Matcha Splash",
+			'fr-fr': "Éclaboussure Matcha",
+			'es-es': "Mancha de Matcha",
+			'it-it': "Schizzatè",
+			'pt-br': "Salpicar Matcha",
+			'de-de': "Matcha-Platscher"
 		},
 
 		effect: {
-			en: "Heal 30 damage from each of your Pokémon.",
-			fr: "Soignez 30 dégâts de chacun de vos Pokémon.",
-			es: "Cura 30 puntos de daño a cada uno de tus Pokémon.",
-			it: "Cura ciascuno dei tuoi Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano de cada um dos seus Pokémon.",
-			de: "Heile 30 Schadenspunkte bei jedem deiner Pokémon."
+			'en-us': "Heal 30 damage from each of your Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de chacun de vos Pokémon.",
+			'es-es': "Cura 30 puntos de daño a cada uno de tus Pokémon.",
+			'it-it': "Cura ciascuno dei tuoi Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano de cada um dos seus Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei jedem deiner Pokémon."
 		},
 
 		damage: 120

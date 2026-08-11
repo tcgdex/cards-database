@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オーガポン みどりのめん",
+		'ja-jp': "オーガポン みどりのめん",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "いたずら好きで 好奇心旺盛。 仮面に こめられた タイプの エネルギーを 引き出して 戦う。",
+		'ja-jp': "いたずら好きで 好奇心旺盛。 仮面に こめられた タイプの エネルギーを 引き出して 戦う。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "やまあるき" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から基本エネルギーを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札から基本エネルギーを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモンの数×20ダメージ追加。",
+				'ja-jp': "相手のベンチポケモンの数×20ダメージ追加。",
 			},
 		},
 	],

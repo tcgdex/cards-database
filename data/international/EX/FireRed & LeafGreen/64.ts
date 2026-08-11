@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Growlithe",
-		fr: "Caninos",
-		de: "Fukano"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos",
+		'de-de': "Fukano"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Bite"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Bite"
 			},
 
 			damage: 10,
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flame Tail",
-				fr: "Queue de flammes",
-				de: "Flame Tail"
+				'en-us': "Flame Tail",
+				'fr-fr': "Queue de flammes",
+				'de-de': "Flame Tail"
 			},
 
 			damage: 40,

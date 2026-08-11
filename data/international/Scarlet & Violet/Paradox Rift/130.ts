@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Honedge",
-		fr: "Monorpale",
-		es: "Honedge",
-		it: "Honedge",
-		pt: "Honedge",
-		de: "Gramokles"
+		'en-us': "Honedge",
+		'fr-fr': "Monorpale",
+		'es-es': "Honedge",
+		'it-it': "Honedge",
+		'pt-br': "Honedge",
+		'de-de': "Gramokles"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			en: "Cut Up",
-			fr: "Découpage",
-			es: "Trocear",
-			it: "Tagliuzzamento",
-			pt: "Dilacerar",
-			de: "Zerhäckseln"
+			'en-us': "Cut Up",
+			'fr-fr': "Découpage",
+			'es-es': "Trocear",
+			'it-it': "Tagliuzzamento",
+			'pt-br': "Dilacerar",
+			'de-de': "Zerhäckseln"
 		},
 
 		damage: 20
@@ -51,7 +51,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "The blue eye on the sword's handguard is the true body of Honedge. With its old cloth, it drains people's lives away.",
+		'en-us': "The blue eye on the sword's handguard is the true body of Honedge. With its old cloth, it drains people's lives away.",
 	},
 
 	variants: [

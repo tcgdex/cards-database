@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Mareep",
-		fr: "Wattouat",
-		es: "Mareep",
-		it: "Mareep",
-		pt: "Mareep",
-		de: "Voltilamm"
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat",
+		'es-es': "Mareep",
+		'it-it': "Mareep",
+		'pt-br': "Mareep",
+		'de-de': "Voltilamm"
 	},
 
 	rarity: "Common",
@@ -23,24 +23,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Rear Kick",
-			fr: "Ruade",
-			es: "Patada Trasera",
-			it: "Retrocalcio",
-			pt: "Rear Kick",
-			de: "Rückwärtskick"
+			'en-us': "Rear Kick",
+			'fr-fr': "Ruade",
+			'es-es': "Patada Trasera",
+			'it-it': "Retrocalcio",
+			'pt-br': "Rear Kick",
+			'de-de': "Rückwärtskick"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Electro Ball",
-			fr: "Boule Élek",
-			es: "Bola Voltio",
-			it: "Energisfera",
-			pt: "Electro Ball",
-			de: "Elektroball"
+			'en-us': "Electro Ball",
+			'fr-fr': "Boule Élek",
+			'es-es': "Bola Voltio",
+			'it-it': "Energisfera",
+			'pt-br': "Electro Ball",
+			'de-de': "Elektroball"
 		},
 
 		damage: 30,
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Rubbing its fleece generates electricity. You'll want to pet it because it's cute, but if you use your bare hand, you'll get a painful shock."
+		'en-us': "Rubbing its fleece generates electricity. You'll want to pet it because it's cute, but if you use your bare hand, you'll get a painful shock."
 	},
 
 	dexId: [179],

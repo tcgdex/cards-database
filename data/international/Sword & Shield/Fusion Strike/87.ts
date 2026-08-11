@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Voltorb",
-		fr: "Voltorbe",
-		es: "Voltorb",
-		it: "Voltorb",
-		pt: "Voltorb",
-		de: "Voltobal"
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe",
+		'es-es': "Voltorb",
+		'it-it': "Voltorb",
+		'pt-br': "Voltorb",
+		'de-de': "Voltobal"
 	},
 
 	rarity: "Common",
@@ -30,30 +30,30 @@ const card: Card = {
 	illustrator: "Tomokazu Komiya",
 
 	description: {
-		en: "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people."
+		'en-us': "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Single Shot Blast",
-			fr: "Explosion Unique",
-			de: "Einzelschussballern",
-			es: "Disparo Único Explosivo",
-			pt: "Explosão Única",
-			it: "Tiro a Scoppio Singolo"
+			'en-us': "Single Shot Blast",
+			'fr-fr': "Explosion Unique",
+			'de-de': "Einzelschussballern",
+			'es-es': "Disparo Único Explosivo",
+			'pt-br': "Explosão Única",
+			'it-it': "Tiro a Scoppio Singolo"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
-			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-			pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
-			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto."
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			'pt-br': "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+			'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto."
 		}
 	}],
 

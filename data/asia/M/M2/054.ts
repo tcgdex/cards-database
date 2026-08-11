@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワルビル",
+		'ja-jp': "ワルビル",
 	},
 
 	illustrator: "Uninori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "薄い 膜で 被われている 両目は 真夜中でも 見える。 数匹の 群れで 暮らしている。",
+		'ja-jp': "薄い 膜で 被われている 両目は 真夜中でも 見える。 数匹の 群れで 暮らしている。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "メグロコ",
+		'ja-jp': "メグロコ",
 	},
 
 	retreat: 2,

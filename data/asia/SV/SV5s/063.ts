@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Duosion"
+		'id-id': "Duosion"
 	},
 
 	illustrator: "mele",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Kabarnya ketika kedua otak Duosion sependapat, lingkup dari kekuatan psikokinesis Pokémon ini mencapai 1 km di sekeliling dirinya."
+		'id-id': "Kabarnya ketika kedua otak Duosion sependapat, lingkup dari kekuatan psikokinesis Pokémon ini mencapai 1 km di sekeliling dirinya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Double Trick"
+			'id-id': "Double Trick"
 		},
 
 		effect: {
-			id: "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 30 untuk tiap lemparan dengan hasil sisi depan."
+			'id-id': "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 30 untuk tiap lemparan dengan hasil sisi depan."
 		},
 
 		damage: "30×",

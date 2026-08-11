@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Metapod",
-		fr: "Chrysacier",
-		es: "Metapod",
-		it: "Metapod",
-		pt: "Metapod",
-		de: "Safcon"
+		'en-us': "Metapod",
+		'fr-fr': "Chrysacier",
+		'es-es': "Metapod",
+		'it-it': "Metapod",
+		'pt-br': "Metapod",
+		'de-de': "Safcon"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Caterpie",
-		fr: "Chenipan",
+		'en-us': "Caterpie",
+		'fr-fr': "Chenipan",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 20,
@@ -56,20 +56,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shed Skin",
-				fr: "Mue",
-				es: "Mudar",
-				it: "Muta",
-				pt: "Pele Vertente",
-				de: "Expidermis"
+				'en-us': "Shed Skin",
+				'fr-fr': "Mue",
+				'es-es': "Mudar",
+				'it-it': "Muta",
+				'pt-br': "Pele Vertente",
+				'de-de': "Expidermis"
 			},
 			effect: {
-				en: "Heal 40 damage from this Pokémon.",
-				fr: "Soignez 40 dégâts à ce Pokémon.",
-				es: "Cura 40 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 40 danni.",
-				pt: "Cure 40 pontos de dano deste Pokémon.",
-				de: "Heile 40 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 40 damage from this Pokémon.",
+				'fr-fr': "Soignez 40 dégâts à ce Pokémon.",
+				'es-es': "Cura 40 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 40 danni.",
+				'pt-br': "Cure 40 pontos de dano deste Pokémon.",
+				'de-de': "Heile 40 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its shell is filled with its soft innards. It doesn't move much because of the risk it might carelessly spill its innards out.",
+		'en-us': "Its shell is filled with its soft innards. It doesn't move much because of the risk it might carelessly spill its innards out.",
 	},
 
 	thirdParty: {

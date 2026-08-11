@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Skrelp",
-		fr: "Venalgue",
-		es: "Skrelp",
-		it: "Skrelp",
-		pt: "Skrelp",
-		de: "Algitt"
+		'en-us': "Skrelp",
+		'fr-fr': "Venalgue",
+		'es-es': "Skrelp",
+		'it-it': "Skrelp",
+		'pt-br': "Skrelp",
+		'de-de': "Algitt"
 	},
 
 	illustrator: "sui",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Poison Breath",
-				fr: "Haleine Empoisonnée",
-				es: "Aliento Venenoso",
-				it: "Velenospiro",
-				pt: "Hálito Venenoso",
-				de: "Gifthauch"
+				'en-us': "Poison Breath",
+				'fr-fr': "Haleine Empoisonnée",
+				'es-es': "Aliento Venenoso",
+				'it-it': "Velenospiro",
+				'pt-br': "Hálito Venenoso",
+				'de-de': "Gifthauch"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+				'en-us': "Your opponent’s Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It vanishes into seaweed and remains perfectly still to avoid attacks from large Pokémon. Rotten seaweed is its main food source.",
+		'en-us': "It vanishes into seaweed and remains perfectly still to avoid attacks from large Pokémon. Rotten seaweed is its main food source.",
 	},
 
 	thirdParty: {

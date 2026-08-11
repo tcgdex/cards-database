@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャラランガ",
+		'ja-jp': "ジャラランガ",
 	},
 
 	illustrator: "hatachu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "獲物を 仕留めて 遠吠えすると あちこちから 仲間が 祝福する 金属音が こだまする。",
+		'ja-jp': "獲物を 仕留めて 遠吠えすると あちこちから 仲間が 祝福する 金属音が こだまする。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Fighting"],
 			effect: {
-				ja: "自分のトラッシュにある基本エネルギーを1枚、ベンチポケモンにつける。",
+				'ja-jp': "自分のトラッシュにある基本エネルギーを1枚、ベンチポケモンにつける。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "90+",
 			cost: ["Lightning", "Fighting"],
 			effect: {
-				ja: "のぞむなら、このポケモンについている「ポケモンのどうぐ」を、トラッシュする。その場合、90ダメージ追加。",
+				'ja-jp': "のぞむなら、このポケモンについている「ポケモンのどうぐ」を、トラッシュする。その場合、90ダメージ追加。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ジャランゴ",
+		'ja-jp': "ジャランゴ",
 	},
 
 	retreat: 2,

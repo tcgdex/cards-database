@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジジーロン",
+		'ja-jp': "ジジーロン",
 	},
 
 	illustrator: "Naoki Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "お友達に なった 子どもが いじめられると いじめた 子どもの 家を 探して 焼き尽くしてしまう。",
+		'ja-jp': "お友達に なった 子どもが いじめられると いじめた 子どもの 家を 探して 焼き尽くしてしまう。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "70+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンに2種類以上のタイプの基本エネルギーがついているなら、70ダメージ追加。",
+				'ja-jp': "このポケモンに2種類以上のタイプの基本エネルギーがついているなら、70ダメージ追加。",
 			},
 		},
 	],

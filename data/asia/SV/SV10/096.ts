@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団の監視塔",
+		'ja-jp': "ロケット団の監視塔",
 		'zh-tw': "火箭隊的監視塔",
 		'zh-cn': "火箭隊的監視塔",
 	},
@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいの場の[C]ポケモン全員の特性は、すべてなくなる。",
+		'ja-jp': "おたがいの場の[C]ポケモン全員の特性は、すべてなくなる。",
 		'zh-tw': "雙方場上所有【無】寶可夢的特性全部消除。",
 		'zh-cn': "雙方場上所有【無】寶可夢的特性全部消除。",
 	},

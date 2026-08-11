@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Gabite",
+		'en-us': "Gabite",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gible",
+		'en-us': "Gible",
 	},
 
 	stage: "Stage1",
@@ -33,7 +33,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
+				'en-us': "Tackle",
 			},
 
 			damage: 20,
@@ -45,10 +45,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Shred",
+				'en-us': "Shred",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by any effects on the Defending Pokémon.",
+				'en-us': "This attack's damage isn't affected by any effects on the Defending Pokémon.",
 			},
 			damage: 40,
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest.",
+		'en-us': "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest.",
 	},
 
 	thirdParty: {

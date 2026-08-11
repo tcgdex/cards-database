@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Kilowattrel",
-		th: "ไทไคเด็น"
+		'id-id': "Kilowattrel",
+		'th-th': "ไทไคเด็น"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Kilowattrel menyimpan listrik yang dibuat menggunakan sayapnya di kantong tenggorokannya. Pokémon ini tidak pandai berenang karena kandungan minyak pada bulunya sangat sedikit.",
-		th: "สะสมไฟฟ้าที่สร้างจากปีกไว้ในถุงที่คอ ปริมาณน้ำมันในขนปีกนั้นน้อย มากจึงไม่ถนัดการว่ายน้ำ"
+		'id-id': "Kilowattrel menyimpan listrik yang dibuat menggunakan sayapnya di kantong tenggorokannya. Pokémon ini tidak pandai berenang karena kandungan minyak pada bulunya sangat sedikit.",
+		'th-th': "สะสมไฟฟ้าที่สร้างจากปีกไว้ในถุงที่คอ ปริมาณน้ำมันในขนปีกนั้นน้อย มากจึงไม่ถนัดการว่ายน้ำ"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Melayang Rendah",
-			th: "ถลาลม"
+			'id-id': "Melayang Rendah",
+			'th-th': "ถลาลม"
 		},
 
 		damage: 50,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Storm Bolt",
-			th: "สตอร์มโบลต์"
+			'id-id': "Storm Bolt",
+			'th-th': "สตอร์มโบลต์"
 		},
 
 		effect: {
-			id: "Pindahkan sesukanya semua Energi yang dikenakan pada Pokémon ini ke Pokémon Cadangan.",
-			th: "นำพลังงานที่ติดอยู่กับโปเกมอนนี้ทั้งหมด ย้ายไปติดกับโปเกมอนบนเบนช์ตาม ชอบ"
+			'id-id': "Pindahkan sesukanya semua Energi yang dikenakan pada Pokémon ini ke Pokémon Cadangan.",
+			'th-th': "นำพลังงานที่ติดอยู่กับโปเกมอนนี้ทั้งหมด ย้ายไปติดกับโปเกมอนบนเบนช์ตาม ชอบ"
 		},
 
 		damage: 160,

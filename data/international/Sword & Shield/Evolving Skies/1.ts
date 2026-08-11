@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Pinsir",
-		fr: "Scarabrute",
-		es: "Pinsir",
-		it: "Pinsir",
-		pt: "Pinsir",
-		de: "Pinsir"
+		'en-us': "Pinsir",
+		'fr-fr': "Scarabrute",
+		'es-es': "Pinsir",
+		'it-it': "Pinsir",
+		'pt-br': "Pinsir",
+		'de-de': "Pinsir"
 	},
 
 	rarity: "Rare",
@@ -25,32 +25,32 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Vise Coach",
-			fr: "Étau Entraîné",
-			es: "Entrenador Pinza",
-			it: "Stretta Magistrale",
-			pt: "Vise Coach",
-			de: "Klammertrainer"
+			'en-us': "Vise Coach",
+			'fr-fr': "Étau Entraîné",
+			'es-es': "Entrenador Pinza",
+			'it-it': "Stretta Magistrale",
+			'pt-br': "Vise Coach",
+			'de-de': "Klammertrainer"
 		},
 
 		effect: {
-			en: "Damage from your Single Strike Pokémon's attacks isn't affected by your opponent's Active Pokémon's Resistance.",
-			fr: "Les dégâts des attaques de vos Pokémon Poing Final ne sont pas affectés par la Résistance du Pokémon Actif de votre adversaire.",
-			es: "El daño de los ataques de tus Pokémon Golpe Brusco no se ve afectado por la Resistencia del Pokémon Activo de tu rival.",
-			it: "I danni degli attacchi dei tuoi Pokémon Colpo Singolo non sono influenzati dalla resistenza del Pokémon attivo del tuo avversario.",
-			pt: "Damage from your Single Strike Pokémon's attacks isn't affected by your opponent's Active Pokémon's Resistance.",
-			de: "Schaden durch Attacken deiner Fokussierter-Angriff-Pokémon wird durch Resistenz auf dem Aktiven Pokémon deines Gegners nicht verändert."
+			'en-us': "Damage from your Single Strike Pokémon's attacks isn't affected by your opponent's Active Pokémon's Resistance.",
+			'fr-fr': "Les dégâts des attaques de vos Pokémon Poing Final ne sont pas affectés par la Résistance du Pokémon Actif de votre adversaire.",
+			'es-es': "El daño de los ataques de tus Pokémon Golpe Brusco no se ve afectado por la Resistencia del Pokémon Activo de tu rival.",
+			'it-it': "I danni degli attacchi dei tuoi Pokémon Colpo Singolo non sono influenzati dalla resistenza del Pokémon attivo del tuo avversario.",
+			'pt-br': "Damage from your Single Strike Pokémon's attacks isn't affected by your opponent's Active Pokémon's Resistance.",
+			'de-de': "Schaden durch Attacken deiner Fokussierter-Angriff-Pokémon wird durch Resistenz auf dem Aktiven Pokémon deines Gegners nicht verändert."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Seismic Toss",
-			fr: "Frappe Atlas",
-			es: "Sísmico",
-			it: "Movimento Sismico",
-			pt: "Seismic Toss",
-			de: "Geowurf"
+			'en-us': "Seismic Toss",
+			'fr-fr': "Frappe Atlas",
+			'es-es': "Sísmico",
+			'it-it': "Movimento Sismico",
+			'pt-br': "Seismic Toss",
+			'de-de': "Geowurf"
 		},
 
 		damage: 110,
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Although it's tough, it can't handle cold well. When night falls, it buries itself in leafage and sleeps."
+		'en-us': "Although it's tough, it can't handle cold well. When night falls, it buries itself in leafage and sleeps."
 	},
 
 	dexId: [127],

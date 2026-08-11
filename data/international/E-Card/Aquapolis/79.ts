@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Grimer",
-		fr: "Tadmorv",
-		de: "Sleima"
+		'en-us': "Grimer",
+		'fr-fr': "Tadmorv",
+		'de-de': "Sleima"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Sludge",
-				fr: "Gadoue empoisonnée",
-				de: "Giftiger Schlamm"
+				'en-us': "Poison Sludge",
+				'fr-fr': "Gadoue empoisonnée",
+				'de-de': "Giftiger Schlamm"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 
 		},

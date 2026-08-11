@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fossil'
 
 const card: Card = {
 	name: {
-		en: "Tentacruel",
-		fr: "Tentacruel",
-		de: "Tentoxa"
+		'en-us': "Tentacruel",
+		'fr-fr': "Tentacruel",
+		'de-de': "Tentoxa"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tentacool",
-		fr: "Tentacool"
+		'en-us': "Tentacool",
+		'fr-fr': "Tentacool"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Supersonic",
-				fr: "Ultrason",
-				de: "Superschall"
+				'en-us': "Supersonic",
+				'fr-fr': "Ultrason",
+				'de-de': "Superschall"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei 'Kopf' isdt das verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' isdt das verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Jellyfish Sting",
-				fr: "Dard-méduse",
-				de: "Quallenstich"
+				'en-us': "Jellyfish Sting",
+				'fr-fr': "Dard-méduse",
+				'de-de': "Quallenstich"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das verteidgende Pokémon jetzt jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das verteidgende Pokémon jetzt jetzt vergiftet."
 			},
 			damage: 10,
 
@@ -75,8 +75,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey.",
-		fr: "Ses tentacules sont rétractés au repos. En situation de chasse, ils s'allongent."
+		'en-us': "The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey.",
+		'fr-fr': "Ses tentacules sont rétractés au repos. En situation de chasse, ils s'allongent."
 	},
 
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Oshawott",
-		fr: "Moustillon",
-		es: "Oshawott",
-		it: "Oshawott",
-		pt: "Oshawott",
-		de: "Ottaro"
+		'en-us': "Oshawott",
+		'fr-fr': "Moustillon",
+		'es-es': "Oshawott",
+		'it-it': "Oshawott",
+		'pt-br': "Oshawott",
+		'de-de': "Ottaro"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
 			},
 
 			damage: 10,
@@ -47,8 +47,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
 			},
 
 			damage: 20,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The scalchop on its stomach is made from the same elements as claws. It detaches the scalchop for use as a blade.",
+		'en-us': "The scalchop on its stomach is made from the same elements as claws. It detaches the scalchop for use as a blade.",
 	},
 
 	thirdParty: {

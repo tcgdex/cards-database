@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hawlucha",
-		fr: "Brutalibré",
-		es: "Hawlucha",
-		pt: "Hawlucha",
-		it: "Hawlucha",
-		de: "Resladero"
+		'en-us': "Hawlucha",
+		'fr-fr': "Brutalibré",
+		'es-es': "Hawlucha",
+		'pt-br': "Hawlucha",
+		'it-it': "Hawlucha",
+		'de-de': "Resladero"
 	},
 
 	rarity: "Uncommon",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Rising Tackle",
-			fr: "Tacle Montant",
-			es: "Placaje Ascendente",
-			pt: "Investida Crescente",
-			it: "Azione Ascendente",
-			de: "Vorschnellender Tackle"
+			'en-us': "Rising Tackle",
+			'fr-fr': "Tacle Montant",
+			'es-es': "Placaje Ascendente",
+			'pt-br': "Investida Crescente",
+			'it-it': "Azione Ascendente",
+			'de-de': "Vorschnellender Tackle"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a Pokémon ex, this attack does 50 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-ex, cette attaque inflige 50 dégâts supplémentaires.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon ex, este ataque hace 50 puntos de daño más.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon ex, este ataque causará 50 pontos de dano a mais.",
-			it: "Se il Pokémon attivo del tuo avversario è un Pokémon-ex, questo attacco infligge 50 danni in più.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Pokémon-ex ist, fügt diese Attacke 50 Schadenspunkte mehr zu."
+			'en-us': "If your opponent's Active Pokémon is a Pokémon ex, this attack does 50 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon-ex, cette attaque inflige 50 dégâts supplémentaires.",
+			'es-es': "Si el Pokémon Activo de tu rival es un Pokémon ex, este ataque hace 50 puntos de daño más.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon ex, este ataque causará 50 pontos de dano a mais.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon-ex, questo attacco infligge 50 danni in più.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners ein Pokémon-ex ist, fügt diese Attacke 50 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Snorlax",
-		fr: "Ronflex",
-		es: "Snorlax",
-		it: "Snorlax",
-		pt: "Snorlax",
-		de: "Relaxo"
+		'en-us': "Snorlax",
+		'fr-fr': "Ronflex",
+		'es-es': "Snorlax",
+		'it-it': "Snorlax",
+		'pt-br': "Snorlax",
+		'de-de': "Relaxo"
 	},
 
 	rarity: "Promo",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Lazy Press",
-			fr: "Pression Paresseuse",
-			es: "Presión Perezosa",
-			it: "Pressa Pigra",
-			pt: "Compressão Preguiçosa",
-			de: "Träge Presse"
+			'en-us': "Lazy Press",
+			'fr-fr': "Pression Paresseuse",
+			'es-es': "Presión Perezosa",
+			'it-it': "Pressa Pigra",
+			'pt-br': "Compressão Preguiçosa",
+			'de-de': "Träge Presse"
 		},
 
 		damage: 120
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Po-Suzuki",
 	description: {
-		en: "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
+		'en-us': "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
 	},
 	variants: [
 		{

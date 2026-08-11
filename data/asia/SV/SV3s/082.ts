@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Nosepass"
+		'id-id': "Nosepass"
 	},
 
 	illustrator: "Nobuhiro Imagawa",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Ketika berburu, Nosepass tidak bergerak dan menarik buruannya menggunakan kekuatan magnet yang kuat. Kadang kekuatan magnet tersebut justru menarik musuh alaminya."
+		'id-id': "Ketika berburu, Nosepass tidak bergerak dan menarik buruannya menggunakan kekuatan magnet yang kuat. Kadang kekuatan magnet tersebut justru menarik musuh alaminya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Mengumpulkan Besi"
+			'id-id': "Mengumpulkan Besi"
 		},
 
 		effect: {
-			id: "Pilih paling banyak 2 lembar Energi Dasar {Logam} dari Trash sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan."
+			'id-id': "Pilih paling banyak 2 lembar Energi Dasar {Logam} dari Trash sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Tubrukan Menggelinding"
+			'id-id': "Tubrukan Menggelinding"
 		},
 
 		damage: 30,

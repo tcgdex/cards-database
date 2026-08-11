@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mareep",
-		fr: "Wattouat",
-		es: "Mareep",
-		it: "Mareep",
-		pt: "Mareep",
-		de: "Voltilamm"
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat",
+		'es-es': "Mareep",
+		'it-it': "Mareep",
+		'pt-br': "Mareep",
+		'de-de': "Voltilamm"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Static Shock",
-			fr: "Choc Statique",
-			es: "Impacto Estático",
-			it: "Shock Statico",
-			pt: "Choque de Estática",
-			de: "Statischer Schock"
+			'en-us': "Static Shock",
+			'fr-fr': "Choc Statique",
+			'es-es': "Impacto Estático",
+			'it-it': "Shock Statico",
+			'pt-br': "Choque de Estática",
+			'de-de': "Statischer Schock"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			en: "Electro Ball",
-			fr: "Boule Élek",
-			es: "Bola Voltio",
-			it: "Energisfera",
-			pt: "Bola Elétrica",
-			de: "Elektroball"
+			'en-us': "Electro Ball",
+			'fr-fr': "Boule Élek",
+			'es-es': "Bola Voltio",
+			'it-it': "Energisfera",
+			'pt-br': "Bola Elétrica",
+			'de-de': "Elektroball"
 		},
 
 		damage: 40
@@ -69,7 +69,7 @@ const card: Card = {
 	illustrator: "Narumi Sato",
 
 	description: {
-		en: "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.",
+		'en-us': "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.",
 	},
 
 	thirdParty: {

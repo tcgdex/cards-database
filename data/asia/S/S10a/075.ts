@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒスイ ウインディ",
+		'ja-jp': "ヒスイ ウインディ",
 	},
 
 	illustrator: "You Iribi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "燃え盛る炎 牙に纏わせ 食らい付く。 体躯 大柄なれど 陽動 鮮やかなりて 敵 翻弄せしむる姿 演舞の如し。",
+		'ja-jp': "燃え盛る炎 牙に纏わせ 食らい付く。 体躯 大柄なれど 陽動 鮮やかなりて 敵 翻弄せしむる姿 演舞の如し。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: [],
 			effect: {
-				ja: "自分の手札が1枚もないなら、150ダメージ追加。",
+				'ja-jp': "自分の手札が1枚もないなら、150ダメージ追加。",
 			},
 		},
 		{
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒスイ ガーディ",
+		'ja-jp': "ヒスイ ガーディ",
 	},
 
 	retreat: 2,

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Wagomine",
-		en: "Carkol",
-		es: "Carkol",
-		it: "Carkol",
-		pt: "Carkol",
-		de: "Wagong"
+		'fr-fr': "Wagomine",
+		'en-us': "Carkol",
+		'es-es': "Carkol",
+		'it-it': "Carkol",
+		'pt-br': "Carkol",
+		'de-de': "Wagong"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -21,30 +21,30 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		fr: "Charbi",
-		en: "Rolycoly"
+		'fr-fr': "Charbi",
+		'en-us': "Rolycoly"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Collision",
-			en: "Ram",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'fr-fr': "Collision",
+			'en-us': "Ram",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 30,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			fr: "Tacle Feu",
-			en: "Heat Crash",
-			es: "Golpe Calor",
-			it: "Marchiafuoco",
-			pt: "Choque de Calor",
-			de: "Brandstempel"
+			'fr-fr': "Tacle Feu",
+			'en-us': "Heat Crash",
+			'es-es': "Golpe Calor",
+			'it-it': "Marchiafuoco",
+			'pt-br': "Choque de Calor",
+			'de-de': "Brandstempel"
 		},
 
 		damage: 60,
@@ -61,7 +61,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It forms coal inside its body. Coal dropped by this Pokémon once helped fuel the lives of people in the Galar region."
+		'en-us': "It forms coal inside its body. Coal dropped by this Pokémon once helped fuel the lives of people in the Galar region."
 	},
 
 	variants: [

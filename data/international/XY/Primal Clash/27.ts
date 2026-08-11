@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Combusken",
-		fr: "Galifeu",
-		es: "Combusken",
-		it: "Combusken",
-		pt: "Combusken",
-		de: "Jungglut"
+		'en-us': "Combusken",
+		'fr-fr': "Galifeu",
+		'es-es': "Combusken",
+		'it-it': "Combusken",
+		'pt-br': "Combusken",
+		'de-de': "Jungglut"
 	},
 
 	illustrator: "kawayoo",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Torchic",
-		fr: "Poussifeu",
-		es: "Torchic",
-		it: "Torchic",
-		pt: "Torchic",
-		de: "Flemmli"
+		'en-us': "Torchic",
+		'fr-fr': "Poussifeu",
+		'es-es': "Torchic",
+		'it-it': "Torchic",
+		'pt-br': "Torchic",
+		'de-de': "Flemmli"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-Attaque",
-				es: "Ataque Rápido",
-				it: "Attacco Rapido",
-				pt: "Attacco Rapido",
-				de: "Ruckzuckhieb"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-Attaque",
+				'es-es': "Ataque Rápido",
+				'it-it': "Attacco Rapido",
+				'pt-br': "Attacco Rapido",
+				'de-de': "Ruckzuckhieb"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-				pt: "Jogue uma moeda. Se sair cara, esse ataque causará 20 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+				'pt-br': "Jogue uma moeda. Se sair cara, esse ataque causará 20 de danos adicionais.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spiral Kick",
-				fr: "Coup'd Pied en Spirale",
-				es: "Patada Espiral",
-				it: "Spiralcalcio",
-				pt: "Chute Espiral",
-				de: "Drehtritt"
+				'en-us': "Spiral Kick",
+				'fr-fr': "Coup'd Pied en Spirale",
+				'es-es': "Patada Espiral",
+				'it-it': "Spiralcalcio",
+				'pt-br': "Chute Espiral",
+				'de-de': "Drehtritt"
 			},
 
 			damage: 30,
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "During a battle, the hot flame in its body increases. Its kicks have outstanding destructive power.",
+		'en-us': "During a battle, the hot flame in its body increases. Its kicks have outstanding destructive power.",
 	},
 
 	thirdParty: {

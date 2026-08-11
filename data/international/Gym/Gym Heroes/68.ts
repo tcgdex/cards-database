@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Mankey"
+		'en-us': "Brock's Mankey"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fidget"
+				'en-us': "Fidget"
 			},
 			effect: {
-				en: "Shuffle your deck."
+				'en-us': "Shuffle your deck."
 			},
 
 		},
@@ -40,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Karate Chop"
+				'en-us': "Karate Chop"
 			},
 			effect: {
-				en: "Does 40 damage minus 10 damage for each damage counter on Brock's Mankey."
+				'en-us': "Does 40 damage minus 10 damage for each damage counter on Brock's Mankey."
 			},
 
 		},

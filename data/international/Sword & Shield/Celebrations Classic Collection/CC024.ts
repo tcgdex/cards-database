@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celebrations Classic Collection'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "M Rayquaza EX",
-		fr: "M-Rayquaza-EX"
+		'en-us': "M Rayquaza EX",
+		'fr-fr': "M-Rayquaza-EX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -22,23 +22,23 @@ const card: Card = {
 		type: "Ancient Trait",
 
 		name: {
-			en: "Δ Evolution"
+			'en-us': "Δ Evolution"
 		},
 
 		effect: {
-			en: "You may play this card from your hand to evolve a Pokémon during your first turn or the turn you play that Pokémon."
+			'en-us': "You may play this card from your hand to evolve a Pokémon during your first turn or the turn you play that Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Emerald Break",
-			fr: "Bris'Émeraude"
+			'en-us': "Emerald Break",
+			'fr-fr': "Bris'Émeraude"
 		},
 
 		effect: {
-			en: "This attack does 30 damage times the number of your Benched Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts multipliés par le nombre de vos Pokémon de Banc."
+			'en-us': "This attack does 30 damage times the number of your Benched Pokémon.",
+			'fr-fr': "Cette attaque inflige 30 dégâts multipliés par le nombre de vos Pokémon de Banc."
 		},
 
 		damage: "30×",

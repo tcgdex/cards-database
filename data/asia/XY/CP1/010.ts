@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグマ団のヤジロン",
+		'ja-jp': "マグマ団のヤジロン",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "敵を 見つけたら 一斉に 鳴き声を あげて 知らせて くれるんだ。 助かるぜ！",
+		'ja-jp': "敵を 見つけたら 一斉に 鳴き声を あげて 知らせて くれるんだ。 助かるぜ！",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "テレキネシス" },
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "相手のポケモンを1匹選び、20ダメージ。このワザのダメージは弱点・抵抗力の計算をしない。",
+				'ja-jp': "相手のポケモンを1匹選び、20ダメージ。このワザのダメージは弱点・抵抗力の計算をしない。",
 			},
 		},
 	],

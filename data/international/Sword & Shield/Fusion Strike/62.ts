@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mudkip",
-		fr: "Gobou",
-		es: "Mudkip",
-		it: "Mudkip",
-		pt: "Mudkip",
-		de: "Hydropi"
+		'en-us': "Mudkip",
+		'fr-fr': "Gobou",
+		'es-es': "Mudkip",
+		'it-it': "Mudkip",
+		'pt-br': "Mudkip",
+		'de-de': "Hydropi"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "KIYOTAKA OSHIYAMA",
 
 	description: {
-		en: "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders."
+		'en-us': "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders."
 	},
 
 	attacks: [{
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Mud-Slap",
-			fr: "Coud'Boue",
-			de: "Lehmschelle",
-			es: "Bofetón Lodo",
-			pt: "Tapa de Lama",
-			it: "Fangosberla"
+			'en-us': "Mud-Slap",
+			'fr-fr': "Coud'Boue",
+			'de-de': "Lehmschelle",
+			'es-es': "Bofetón Lodo",
+			'pt-br': "Tapa de Lama",
+			'it-it': "Fangosberla"
 		},
 
 		damage: 20
@@ -50,12 +50,12 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Playful Kick",
-			fr: "Coup de Pied de Garnement",
-			de: "Verspielter Kick",
-			es: "Patada Juguetona",
-			pt: "Chute Brincalhão",
-			it: "Calcio Briccone"
+			'en-us': "Playful Kick",
+			'fr-fr': "Coup de Pied de Garnement",
+			'de-de': "Verspielter Kick",
+			'es-es': "Patada Juguetona",
+			'pt-br': "Chute Brincalhão",
+			'it-it': "Calcio Briccone"
 		},
 
 		damage: 30

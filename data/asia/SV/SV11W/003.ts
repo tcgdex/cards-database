@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ハハコモリ",
+		'ja-jp': "ハハコモリ",
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "小さい ポケモンを 見つけると 腕の カッターと 粘着糸で 葉っぱの 服を 縫う 習性。",
+		'ja-jp': "小さい ポケモンを 見つけると 腕の カッターと 粘着糸で 葉っぱの 服を 縫う 習性。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			name: { ja: "いやしのおくるみ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のたねポケモン全員のHPを、それぞれ「100」回復する。",
+				'ja-jp': "自分のたねポケモン全員のHPを、それぞれ「100」回復する。",
 			},
 		},
 		{
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "クルマユ",
+		'ja-jp': "クルマユ",
 	},
 
 	retreat: 1,

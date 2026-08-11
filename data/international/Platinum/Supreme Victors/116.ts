@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Mudkip",
-		fr: "Gobou",
-		de: "Hydropi"
+		'en-us': "Mudkip",
+		'fr-fr': "Gobou",
+		'de-de': "Hydropi"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Mud Sport",
-				fr: "Lance-boue",
-				de: "Lehmsuhler"
+				'en-us': "Mud Sport",
+				'fr-fr': "Lance-boue",
+				'de-de': "Lehmsuhler"
 			},
 			effect: {
-				en: "If Mudkip has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage.",
-				fr: "Si Gobou possède moins d'Énergie que le Pokémon Défenseur, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wenn an das Verteidigende Pokémon mehr Energie angelegt ist als an Hydropi, fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				'en-us': "If Mudkip has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage.",
+				'fr-fr': "Si Gobou possède moins d'Énergie que le Pokémon Défenseur, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Wenn an das Verteidigende Pokémon mehr Energie angelegt ist als an Hydropi, fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
-				de: "Surfer"
+				'en-us': "Surf",
+				'fr-fr': "Surf",
+				'de-de': "Surfer"
 			},
 
 			damage: 20,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders."
+		'en-us': "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders."
 	},
 
 	variants: [

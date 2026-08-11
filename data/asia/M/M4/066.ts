@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヌメルゴン",
+		'ja-jp': "ヌメルゴン",
 	},
 
 	illustrator: "Tonji Matsuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "人懐っこい ドラゴンポケモン。 大好きな トレーナーに 抱き着いて 粘液で ヌルヌルにしてしまう。",
+		'ja-jp': "人懐っこい ドラゴンポケモン。 大好きな トレーナーに 抱き着いて 粘液で ヌルヌルにしてしまう。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ぬめぬめスリップ" },
 			effect: {
-				ja: "このポケモンがいるかぎり、相手のバトルポケモンがにげるとき、相手はコインを1回投げる。ウラなら、にげるためのエネルギーはトラッシュせず、入れ替えをしない。この特性の効果は重ならない。",
+				'ja-jp': "このポケモンがいるかぎり、相手のバトルポケモンがにげるとき、相手はコインを1回投げる。ウラなら、にげるためのエネルギーはトラッシュせず、入れ替えをしない。この特性の効果は重ならない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Water", "Psychic"],
 			effect: {
-				ja: "自分の山札を上から1枚トラッシュする。",
+				'ja-jp': "自分の山札を上から1枚トラッシュする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヌメイル",
+		'ja-jp': "ヌメイル",
 	},
 
 	retreat: 3,

@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../EX'
 
 const ex6: Set = {
 	id: "ex6",
 
 	name: {
-		en: "FireRed & LeafGreen",
-		fr: "EX Rouge Feu & Vert Feuille",
-		it: "EX RossoFuoco e VerdeFoglia",
-		de: "EX Feuerrot & Blattgrün"
+		'en-us': "FireRed & LeafGreen",
+		'fr-fr': "EX Rouge Feu & Vert Feuille",
+		'it-it': "EX RossoFuoco e VerdeFoglia",
+		'de-de': "EX Feuerrot & Blattgrün"
 	},
 
 	serie: serie,
@@ -22,7 +22,7 @@ const ex6: Set = {
 
 	abbreviations: {
 		official: "RG",
-		fr: "RFV"
+		'fr-fr': "RFV"
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [607],
 
 	name: {
-		en: "Litwick"
+		'en-us': "Litwick"
 	},
 
 	illustrator: "saino misaki",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "While shining a light and pretending to be a\nguide, it leeches off the life-force of any who\nfollow it."
+		'en-us': "While shining a light and pretending to be a\nguide, it leeches off the life-force of any who\nfollow it."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Mumble"
+			'en-us': "Mumble"
 		},
 
 		damage: 20,

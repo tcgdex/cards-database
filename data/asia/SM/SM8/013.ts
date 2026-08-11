@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ツボツボGX",
+		'ja-jp': "ツボツボGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "まもりのツボ" },
 			effect: {
-				ja: "このポケモンは、ついているエネルギーが2個以下の相手のポケモンから、ワザのダメージを受けない。",
+				'ja-jp': "このポケモンは、ついているエネルギーが2個以下の相手のポケモンから、ワザのダメージを受けない。",
 			},
 		},
 	],
@@ -29,7 +29,7 @@ const card: Card = {
 			name: { ja: "さんばいどく" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は3個になる。",
+				'ja-jp': "相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は3個になる。",
 			},
 		},
 		{
@@ -37,7 +37,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをマヒにする。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のバトルポケモンをマヒにする。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴウカザル",
+		'ja-jp': "ゴウカザル",
 	},
 
 	illustrator: "nagimiso",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "素早さで 相手を 翻弄する。 両手 両足を 使った 独特の 戦い方を する。",
+		'ja-jp': "素早さで 相手を 翻弄する。 両手 両足を 使った 独特の 戦い方を する。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "あつきとうし" },
 			effect: {
-				ja: "このポケモンがいるかぎり、相手のバトルポケモンは、やけどでのせるダメカンの数が6個になる。",
+				'ja-jp': "このポケモンがいるかぎり、相手のバトルポケモンは、やけどでのせるダメカンの数が6個になる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モウカザル",
+		'ja-jp': "モウカザル",
 	},
 
 	retreat: 1,

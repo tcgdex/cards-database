@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Growlithe",
-		fr: "Caninos",
-		es: "Growlithe",
-		it: "Growlithe",
-		pt: "Growlithe",
-		de: "Fukano"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos",
+		'es-es': "Growlithe",
+		'it-it': "Growlithe",
+		'pt-br': "Growlithe",
+		'de-de': "Fukano"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Live Coal",
-				fr: "Charbon Mutant",
-				es: "Carbón Activado",
-				it: "Carboni Ardenti",
-				pt: "Carvão Vivo",
-				de: "Glühende Kohlen"
+				'en-us': "Live Coal",
+				'fr-fr': "Charbon Mutant",
+				'es-es': "Carbón Activado",
+				'it-it': "Carboni Ardenti",
+				'pt-br': "Carvão Vivo",
+				'de-de': "Glühende Kohlen"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Combustion",
-				fr: "Fournaise",
-				es: "Combustión",
-				it: "Fuoco Continuo",
-				pt: "Combustão",
-				de: "Glühen"
+				'en-us': "Combustion",
+				'fr-fr': "Fournaise",
+				'es-es': "Combustión",
+				'it-it': "Fuoco Continuo",
+				'pt-br': "Combustão",
+				'de-de': "Glühen"
 			},
 
 			damage: 30,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "While it's quite friendly toward humans once it's grown used to them, in the wild it must be quite fierce to defend its territory from Rockruff.",
+		'en-us': "While it's quite friendly toward humans once it's grown used to them, in the wild it must be quite fierce to defend its territory from Rockruff.",
 	},
 
 	thirdParty: {

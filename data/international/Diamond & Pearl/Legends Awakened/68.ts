@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Persian",
-		fr: "Persian",
-		de: "Snobilikat"
+		'en-us': "Persian",
+		'fr-fr': "Persian",
+		'de-de': "Snobilikat"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Meowth",
-		fr: "Mauzi",
+		'en-us': "Meowth",
+		'fr-fr': "Mauzi",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Feint Attack",
-				fr: "Feinte",
-				de: "Finte"
+				'en-us': "Feint Attack",
+				'fr-fr': "Feinte",
+				'de-de': "Finte"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur ce Pokémon.",
-				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte zu. Schwäche, Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur ce Pokémon.",
+				'de-de': "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte zu. Schwäche, Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
 			},
 
 		},
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fasten Claws",
-				fr: "Griffes accrochantes",
-				de: "Klauen anlegen"
+				'en-us': "Fasten Claws",
+				'fr-fr': "Griffes accrochantes",
+				'de-de': "Klauen anlegen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 40 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 40 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -76,8 +76,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "A very haughty Pokémon. Among fans, the size of the jewel in its forehead is a topic of much talk.",
-		fr: "Un Pokémon très snob. La taille du joyau qui orne son front alimente bien des débats parmi ses fans."
+		'en-us': "A very haughty Pokémon. Among fans, the size of the jewel in its forehead is a topic of much talk.",
+		'fr-fr': "Un Pokémon très snob. La taille du joyau qui orne son front alimente bien des débats parmi ses fans."
 	},
 
 	thirdParty: {

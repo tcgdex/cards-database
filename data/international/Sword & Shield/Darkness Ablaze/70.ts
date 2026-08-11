@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [209],
 
 	name: {
-		en: "Snubbull",
-		fr: "Snubbull",
-		es: "Snubbull",
-		it: "Snubbull",
-		pt: "Snubbull",
-		de: "Snubbull"
+		'en-us': "Snubbull",
+		'fr-fr': "Snubbull",
+		'es-es': "Snubbull",
+		'it-it': "Snubbull",
+		'pt-br': "Snubbull",
+		'de-de': "Snubbull"
 	},
 
 	illustrator: "otumami",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharp Fang",
-				fr: "Croc Aiguisé",
-				es: "Colmillo Afilado",
-				it: "Zannaffilata",
-				pt: "Presa Afiada",
-				de: "Scharfe Fänge"
+				'en-us': "Sharp Fang",
+				'fr-fr': "Croc Aiguisé",
+				'es-es': "Colmillo Afilado",
+				'it-it': "Zannaffilata",
+				'pt-br': "Presa Afiada",
+				'de-de': "Scharfe Fänge"
 			},
 
 			damage: 30,
@@ -57,7 +57,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "In contrast to its appearance, it's quite timid. When playing with other puppy Pokémon, it sometimes gets bullied."
+		'en-us': "In contrast to its appearance, it's quite timid. When playing with other puppy Pokémon, it sometimes gets bullied."
 	},
 
 	variants: [

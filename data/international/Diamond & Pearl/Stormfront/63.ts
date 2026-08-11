@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Larvitar",
-		fr: "Embrylex",
-		de: "Larvitar"
+		'en-us': "Larvitar",
+		'fr-fr': "Embrylex",
+		'de-de': "Larvitar"
 	},
 
 	illustrator: "Yuka Morii",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		fr: "Embrylex",
+		'fr-fr': "Embrylex",
 	},
 
 	stage: "Basic",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Biss"
 			},
 
 			damage: 10,
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Slide",
-				fr: "Éboulement",
-				de: "Steinhagel"
+				'en-us': "Rock Slide",
+				'fr-fr': "Éboulement",
+				'de-de': "Steinhagel"
 			},
 			effect: {
-				en: "Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à 2 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Dieser Angriff fügt 2 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à 2 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Dieser Angriff fügt 2 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 20,
 
@@ -80,8 +80,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon that eats soil. Once it has eaten a large mountain, it goes to sleep so it can grow.",
-		fr: "Un Pokémon qui se nourrit de terre. Après avoir dévoré une montagne, il s'endort pour grandir."
+		'en-us': "A Pokémon that eats soil. Once it has eaten a large mountain, it goes to sleep so it can grow.",
+		'fr-fr': "Un Pokémon qui se nourrit de terre. Après avoir dévoré une montagne, il s'endort pour grandir."
 	},
 
 	thirdParty: {

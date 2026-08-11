@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デリバード",
+		'ja-jp': "デリバード",
 	},
 
 	illustrator: "Saboteri",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "尻尾で エサを 包んで 運ぶ。 山で 遭難した 人に エサを 分け与える 習性。",
+		'ja-jp': "尻尾で エサを 包んで 運ぶ。 山で 遭難した 人に エサを 分け与える 習性。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ハッピープレゼント" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "おたがいのプレイヤーは、のぞむなら、それぞれ自分の手札から基本エネルギーを3枚まで選び、自分のポケモンに好きなようにつける。（相手から行う。）",
+				'ja-jp': "おたがいのプレイヤーは、のぞむなら、それぞれ自分の手札から基本エネルギーを3枚まで選び、自分のポケモンに好きなようにつける。（相手から行う。）",
 			},
 		},
 		{

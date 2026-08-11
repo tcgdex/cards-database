@@ -1,25 +1,25 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mega Lucario ex",
-		fr: "Méga-Lucario-ex",
-		es: "Mega-Lucario ex",
+		'en-us': "Mega Lucario ex",
+		'fr-fr': "Méga-Lucario-ex",
+		'es-es': "Mega-Lucario ex",
 		'es-mx': "Mega-Lucario ex",
-		de: "Mega-Lucario-ex",
-		it: "Mega Lucario-ex",
-		pt: "Mega Lucario ex"
+		'de-de': "Mega-Lucario-ex",
+		'it-it': "Mega Lucario-ex",
+		'pt-br': "Mega Lucario ex"
 	},
 	evolveFrom: {
-		en: "Riolu",
-		de: "Riolu",
-		es: "Riolu",
-		fr: "Riolu",
-		it: "Riolu",
-		pt: "Riolu",
+		'en-us': "Riolu",
+		'de-de': "Riolu",
+		'es-es': "Riolu",
+		'fr-fr': "Riolu",
+		'it-it': "Riolu",
+		'pt-br': "Riolu",
 	},
 
 	suffix: "ex",
@@ -35,23 +35,23 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Aura Jab",
-			fr: "Coup Aura",
-			es: "Puya Aural",
+			'en-us': "Aura Jab",
+			'fr-fr': "Coup Aura",
+			'es-es': "Puya Aural",
 			'es-mx': "Jab Aural",
-			de: "Aura-Hieb",
-			it: "Aurastoccata",
-			pt: "Soco Aura"
+			'de-de': "Aura-Hieb",
+			'it-it': "Aurastoccata",
+			'pt-br': "Soco Aura"
 		},
 
 		effect: {
-			en: "Attach up to 3 Basic {F} Energy cards from your discard pile to your Benched Pokémon in any way you like.",
-			fr: "Attachez jusqu'à 3 cartes Énergie {F} de base de votre pile de défausse à vos Pokémon de Banc comme il vous plaît.",
-			es: "Une hasta 3 cartas de Energía {F} Básica de tu pila de descartes a tus Pokémon en Banca de la manera que desees.",
+			'en-us': "Attach up to 3 Basic {F} Energy cards from your discard pile to your Benched Pokémon in any way you like.",
+			'fr-fr': "Attachez jusqu'à 3 cartes Énergie {F} de base de votre pile de défausse à vos Pokémon de Banc comme il vous plaît.",
+			'es-es': "Une hasta 3 cartas de Energía {F} Básica de tu pila de descartes a tus Pokémon en Banca de la manera que desees.",
 			'es-mx': "Une hasta 3 cartas de Energía {F} Básica de tu pila de descartes a tus Pokémon en Banca de la manera que quieras.",
-			de: "Lege bis zu 3 Basis-{F}-Energiekarten aus deinem Ablagestapel beliebig an die Pokémon auf deiner Bank an.",
-			it: "Assegna ai Pokémon nella tua panchina fino a tre carte Energia base {F} dalla tua pila degli scarti nel modo che preferisci.",
-			pt: "Ligue até 3 cartas de Energia {F} Básica da sua pilha de descarte aos seus Pokémon no Banco como desejar."
+			'de-de': "Lege bis zu 3 Basis-{F}-Energiekarten aus deinem Ablagestapel beliebig an die Pokémon auf deiner Bank an.",
+			'it-it': "Assegna ai Pokémon nella tua panchina fino a tre carte Energia base {F} dalla tua pila degli scarti nel modo che preferisci.",
+			'pt-br': "Ligue até 3 cartas de Energia {F} Básica da sua pilha de descarte aos seus Pokémon no Banco como desejar."
 		},
 
 		damage: 130
@@ -59,23 +59,23 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			en: "Mega Brave",
-			fr: "Méga Vaillant",
-			es: "Megavalentía",
+			'en-us': "Mega Brave",
+			'fr-fr': "Méga Vaillant",
+			'es-es': "Megavalentía",
 			'es-mx': "Megavalentía",
-			de: "Mega-Mut",
-			it: "Megacoraggio",
-			pt: "Megavalentia"
+			'de-de': "Mega-Mut",
+			'it-it': "Megacoraggio",
+			'pt-br': "Megavalentia"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use Mega Brave.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Méga Vaillant.",
-			es: "Durante tu próximo turno, este Pokémon no puede usar Megavalentía.",
+			'en-us': "During your next turn, this Pokémon can't use Mega Brave.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Méga Vaillant.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede usar Megavalentía.",
 			'es-mx': "Durante tu próximo turno, este Pokémon no puede usar Megavalentía.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon Mega-Mut nicht einsetzen.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Megacoraggio.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Megavalentia."
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon Mega-Mut nicht einsetzen.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Megacoraggio.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar Megavalentia."
 		},
 
 		damage: 270

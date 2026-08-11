@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S5a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "綿綿泡芙",
-		th: "เพร็อพพัฟ"
+		'th-th': "เพร็อพพัฟ"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "蓬鬆的體毛聞起來就像棉花糖一樣甜甜的。會放出黏答答的絲纏住敵人。",
-		th: "ขนปุย ๆ บนตัวมีกลิ่นหอมหวานเหมือนขนมสายไหม ปล่อยใยเหนียว ๆ ออกมาพันตัวศัตรู"
+		'th-th': "ขนปุย ๆ บนตัวมีกลิ่นหอมหวานเหมือนขนมสายไหม ปล่อยใยเหนียว ๆ ออกมาพันตัวศัตรู"
 	},
 
 	stage: "Basic",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "吸取之吻",
-			th: "เดรนคิส"
+			'th-th': "เดรนคิส"
 		},
 
 		effect: {
 			'zh-tw': "將這隻寶可夢恢復「10」HP。",
-			th: "ฟื้นฟู HP ของโปเกมอนนี้ [10]"
+			'th-th': "ฟื้นฟู HP ของโปเกมอนนี้ [10]"
 		},
 
 		damage: 20,

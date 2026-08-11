@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Onix",
-		fr: "Onix",
-		de: "Onix"
+		'en-us': "Onix",
+		'fr-fr': "Onix",
+		'de-de': "Onix"
 	},
 
 	illustrator: "Midori Harada",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bind",
-				fr: "Étreinte",
-				de: "Klammergriff"
+				'en-us': "Bind",
+				'fr-fr': "Étreinte",
+				'de-de': "Klammergriff"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rage",
-				fr: "Frénésie",
-				de: "Raserei"
+				'en-us': "Rage",
+				'fr-fr': "Frénésie",
+				'de-de': "Raserei"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each damage counter on Onix.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Onix.",
-				de: "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Onix zu."
+				'en-us': "Does 10 damage plus 10 more damage for each damage counter on Onix.",
+				'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Onix.",
+				'de-de': "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Onix zu."
 			},
 			damage: "10+",
 

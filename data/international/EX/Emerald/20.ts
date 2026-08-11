@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Seviper",
-		fr: "Seviper",
-		de: "Vipitis"
+		'en-us': "Seviper",
+		'fr-fr': "Seviper",
+		'de-de': "Vipitis"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pierce",
-				fr: "Transpercer",
-				de: "Pierce"
+				'en-us': "Pierce",
+				'fr-fr': "Transpercer",
+				'de-de': "Pierce"
 			},
 
 			damage: 10,
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite Off",
-				fr: "Arracher d'un coup de dent",
-				de: "Bite Off"
+				'en-us': "Bite Off",
+				'fr-fr': "Arracher d'un coup de dent",
+				'de-de': "Bite Off"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Pokémon-ex, this attack does 30 damage plus 30 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires.",
-				de: "If the Defending Pokémon is Pokémon-ex, this attack does 30 damage plus 30 more damage."
+				'en-us': "If the Defending Pokémon is Pokémon-ex, this attack does 30 damage plus 30 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon is Pokémon-ex, this attack does 30 damage plus 30 more damage."
 			},
 			damage: "30+",
 

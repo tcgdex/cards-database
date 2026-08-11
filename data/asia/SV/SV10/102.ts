@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パールル",
+		'ja-jp': "パールル",
 	},
 
 	illustrator: "Mori Yuu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "パールルの 真珠は とても 貴重。 シェルダーの 真珠の １０倍以上 価値が あるとも。",
+		'ja-jp': "パールルの 真珠は とても 貴重。 シェルダーの 真珠の １０倍以上 価値が あるとも。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Water"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-10」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-10」される。",
 			},
 		},
 	],

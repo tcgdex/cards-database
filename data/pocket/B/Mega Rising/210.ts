@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Corvisquire"
+		'en-us': "Corvisquire"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Rookidee"
+		'en-us': "Rookidee"
 	},
 
 	description: {
-		en: "This intelligent Pokémon will quickly learn how to\nuse any tool it can hold in its beak or its talons."
+		'en-us': "This intelligent Pokémon will quickly learn how to\nuse any tool it can hold in its beak or its talons."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Drill Peck"
+			'en-us': "Drill Peck"
 		},
 
 		damage: 40,

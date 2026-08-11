@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hitting Hammer"
+		'en-us': "Hitting Hammer"
 	},
 
 	illustrator: "Toyste Beach",
@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Flip 2 coins. If both of them are heads, discard a random Energy from your opponent's Active Pokémon."
+		'en-us': "Flip 2 coins. If both of them are heads, discard a random Energy from your opponent's Active Pokémon."
 	},
 
 	trainerType: "Item",

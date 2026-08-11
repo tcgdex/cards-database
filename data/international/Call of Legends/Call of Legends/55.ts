@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Cyndaquil",
-		fr: "Héricendre",
-		de: "Feurigel"
+		'en-us': "Cyndaquil",
+		'fr-fr': "Héricendre",
+		'de-de': "Feurigel"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fireworks",
-				fr: "Feux d'artifice",
-				de: "Feuerwerk"
+				'en-us': "Fireworks",
+				'fr-fr': "Feux d'artifice",
+				'de-de': "Feuerwerk"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Fire Energy attached to Cyndaquil.",
-				fr: "Lancez une pièce. Si c’est pile, défaussez une Énergie Fire attachée à Héricendre.",
-				de: "Wirf eine Münze. Bei \"Zahl\" lege eine an Feurigel angelegte -Energiekarte auf deinen Ablagestapel."
+				'en-us': "Flip a coin. If tails, discard a Fire Energy attached to Cyndaquil.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, défaussez une Énergie Fire attachée à Héricendre.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" lege eine an Feurigel angelegte -Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 20,
 
@@ -52,7 +52,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is timid, and always curls itself up in a ball. If attacked, it flares up its back for protection.",
+		'en-us': "It is timid, and always curls itself up in a ball. If attacked, it flares up its back for protection.",
 	},
 
 	variants: [

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "じゃくてんほけん",
+		'ja-jp': "じゃくてんほけん",
 	},
 
 	illustrator: "Ayaka Yoshida",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけているポケモンの弱点は、すべてなくなる。",
+		'ja-jp': "このカードをつけているポケモンの弱点は、すべてなくなる。",
 	},
 
 	variants: [

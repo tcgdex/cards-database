@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Voltorb",
-		fr: "Voltorbe",
-		de: "Voltobal"
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe",
+		'de-de': "Voltobal"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				de: "Rollout"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'de-de': "Rollout"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thundershock",
-				fr: "Éclair",
-				de: "Thundershock"
+				'en-us': "Thundershock",
+				'fr-fr': "Éclair",
+				'de-de': "Thundershock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 

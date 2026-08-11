@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Cinccino"
+		'id-id': "Cinccino"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Cinccino maniak kebersihan dan tidak akan membiarkan debu satu titik pun. Pokémon ini melapisi sarang dengan minyak yang diproduksi oleh tubuhnya."
+		'id-id': "Cinccino maniak kebersihan dan tidak akan membiarkan debu satu titik pun. Pokémon ini melapisi sarang dengan minyak yang diproduksi oleh tubuhnya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Menepuk"
+			'id-id': "Menepuk"
 		},
 
 		damage: 30,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Gulir-gulir Spesial"
+			'id-id': "Gulir-gulir Spesial"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan sejumlah 70 untuk tiap lembar Energi Spesial yang dikenakan pada Pokémon ini."
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 70 untuk tiap lembar Energi Spesial yang dikenakan pada Pokémon ini."
 		},
 
 		damage: "70×",

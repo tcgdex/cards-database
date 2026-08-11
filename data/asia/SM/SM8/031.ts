@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チョンチー",
+		'ja-jp': "チョンチー",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "光の 届かない 海底に 暮らす。 触手を 光らせ 仲間と コミュニケーション。",
+		'ja-jp': "光の 届かない 海底に 暮らす。 触手を 光らせ 仲間と コミュニケーション。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "でんじは" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 		{

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Magnemite",
-		fr: "Magneti",
-		de: "Magnetilo"
+		'en-us': "Magnemite",
+		'fr-fr': "Magneti",
+		'de-de': "Magnetilo"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thundershock",
-				fr: "Éclair",
-				de: "Thundershock"
+				'en-us': "Thundershock",
+				'fr-fr': "Éclair",
+				'de-de': "Thundershock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 

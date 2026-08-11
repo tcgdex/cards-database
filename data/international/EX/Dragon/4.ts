@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Flygon",
-		fr: "Libegon",
-		de: "Libelldra"
+		'en-us': "Flygon",
+		'fr-fr': "Libegon",
+		'de-de': "Libelldra"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vibrava",
-		fr: "Vibraninf"
+		'en-us': "Vibrava",
+		'fr-fr': "Vibraninf"
 	},
 
 	stage: "Stage2",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Energy Shower",
-				fr: "Averse d'énergie",
-				de: "Energy Shower"
+				'en-us': "Energy Shower",
+				'fr-fr': "Averse d'énergie",
+				'de-de': "Energy Shower"
 			},
 			effect: {
-				en: "Attach any number of basic Energy cards from your hand to your Pokémon in any way you like.",
-				fr: "Choisissez dans votre main autant de cartes Énergie de base que vous le voulez et attachez-les à vos Pokémon de la façon que vous voulez.",
-				de: "Attach any number of basic Energy cards from your hand to your Pokémon in any way you like."
+				'en-us': "Attach any number of basic Energy cards from your hand to your Pokémon in any way you like.",
+				'fr-fr': "Choisissez dans votre main autant de cartes Énergie de base que vous le voulez et attachez-les à vos Pokémon de la façon que vous voulez.",
+				'de-de': "Attach any number of basic Energy cards from your hand to your Pokémon in any way you like."
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rainbow Burn",
-				fr: "Brûlure arcenciel",
-				de: "Rainbow Burn"
+				'en-us': "Rainbow Burn",
+				'fr-fr': "Brûlure arcenciel",
+				'de-de': "Rainbow Burn"
 			},
 			effect: {
-				en: "Does 30 damage plus 10 more damage for each type of basic Energy card attached to Flygon.",
-				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque type de carte Énergie de base attaché à Libegon.",
-				de: "Does 30 damage plus 10 more damage for each type of basic Energy attached to Flygon."
+				'en-us': "Does 30 damage plus 10 more damage for each type of basic Energy card attached to Flygon.",
+				'fr-fr': "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque type de carte Énergie de base attaché à Libegon.",
+				'de-de': "Does 30 damage plus 10 more damage for each type of basic Energy attached to Flygon."
 			},
 			damage: "30+",
 

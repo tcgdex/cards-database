@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キリキザン",
+		'ja-jp': "キリキザン",
 	},
 
 	illustrator: "Oku",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "コマタナの 群れを 率いている。 ボスの 座を 奪い合い 戦う。 敗れると 群れを 追い出される。",
+		'ja-jp': "コマタナの 群れを 率いている。 ボスの 座を 奪い合い 戦う。 敗れると 群れを 追い出される。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Metal", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンにダメカンがのっているなら、60ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンにダメカンがのっているなら、60ダメージ追加。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コマタナ",
+		'ja-jp': "コマタナ",
 	},
 
 	retreat: 2,

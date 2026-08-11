@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vullaby",
-		fr: "Vostourno",
-		es: "Vullaby",
+		'en-us': "Vullaby",
+		'fr-fr': "Vostourno",
+		'es-es': "Vullaby",
 		'es-mx': "Vullaby",
-		de: "Skallyk",
-		it: "Vullaby",
-		pt: "Vullaby"
+		'de-de': "Skallyk",
+		'it-it': "Vullaby",
+		'pt-br': "Vullaby"
 	},
 
 	illustrator: "Nisota Niso",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Flap",
-			fr: "Battement",
-			es: "Aleteo",
+			'en-us': "Flap",
+			'fr-fr': "Battement",
+			'es-es': "Aleteo",
 			'es-mx': "Aleteo",
-			de: "Flattern",
-			it: "Alabattito",
-			pt: "Asa"
+			'de-de': "Flattern",
+			'it-it': "Alabattito",
+			'pt-br': "Asa"
 		},
 
 		damage: 20
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "J",
 
 	description: {
-		en: "Its healthy appetite leads to visible growth spurts. It often has to replace the bones it wears as its size increases.",
+		'en-us': "Its healthy appetite leads to visible growth spurts. It often has to replace the bones it wears as its size increases.",
 	},
 
 	variants: [

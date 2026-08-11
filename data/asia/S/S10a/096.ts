@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "野盗三姉妹",
+		'ja-jp': "野盗三姉妹",
 	},
 
 	illustrator: "Souichirou Gunjima",
 	category: "Trainer",
 
 	effect: {
-		ja: "相手の山札を上から5枚見て、その中からグッズを好きなだけ選び、トラッシュする。残りのカードは山札にもどして切る。",
+		'ja-jp': "相手の山札を上から5枚見て、その中からグッズを好きなだけ選び、トラッシュする。残りのカードは山札にもどして切る。",
 	},
 
 	variants: [

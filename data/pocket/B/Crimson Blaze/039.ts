@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [296],
 
 	name: {
-		en: "Makuhita"
+		'en-us': "Makuhita"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It toughens up by slamming into thick trees\nover and over. It gains a sturdy body and\ndauntless spirit."
+		'en-us': "It toughens up by slamming into thick trees\nover and over. It gains a sturdy body and\ndauntless spirit."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Strength"
+			'en-us': "Strength"
 		},
 
 		damage: 40,

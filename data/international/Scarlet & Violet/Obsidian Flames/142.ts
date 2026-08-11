@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Airmure",
-		en: "Skarmory",
-		es: "Skarmory",
-		it: "Skarmory",
-		pt: "Skarmory",
-		de: "Panzaeron"
+		'fr-fr': "Airmure",
+		'en-us': "Skarmory",
+		'es-es': "Skarmory",
+		'it-it': "Skarmory",
+		'pt-br': "Skarmory",
+		'de-de': "Panzaeron"
 	},
 
 	rarity: "Uncommon",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Picpic",
-			en: "Peck",
-			es: "Picotazo",
-			it: "Beccata",
-			pt: "Bicada",
-			de: "Pikser"
+			'fr-fr': "Picpic",
+			'en-us': "Peck",
+			'es-es': "Picotazo",
+			'it-it': "Beccata",
+			'pt-br': "Bicada",
+			'de-de': "Pikser"
 		},
 
 		damage: 20
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Metal", "Metal", "Colorless"],
 
 		name: {
-			fr: "Acier Déchirant",
-			en: "Slashing Steel",
-			es: "Acero Cortante",
-			it: "Acciaio Lacerante",
-			pt: "Aço Cortante",
-			de: "Schlitzender Stahl"
+			'fr-fr': "Acier Déchirant",
+			'en-us': "Slashing Steel",
+			'es-es': "Acero Cortante",
+			'it-it': "Acciaio Lacerante",
+			'pt-br': "Aço Cortante",
+			'de-de': "Schlitzender Stahl"
 		},
 
 		effect: {
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Acier Déchirant.",
-			en: "During your next turn, this Pokémon can't use Slashing Steel.",
-			es: "Durante tu próximo turno, este Pokémon no puede usar Acero Cortante.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Acciaio Lacerante.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Aço Cortante.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon Schlitzender Stahl nicht einsetzen."
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Acier Déchirant.",
+			'en-us': "During your next turn, this Pokémon can't use Slashing Steel.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede usar Acero Cortante.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Acciaio Lacerante.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar Aço Cortante.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon Schlitzender Stahl nicht einsetzen."
 		},
 
 		damage: 120
@@ -73,7 +73,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "People fashion swords from Skarmory's shed feathers, so this Pokémon is a popular element in heraldic designs.",
+		'en-us': "People fashion swords from Skarmory's shed feathers, so this Pokémon is a popular element in heraldic designs.",
 	},
 
 	variants: [

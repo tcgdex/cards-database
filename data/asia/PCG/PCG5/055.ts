@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トラピンチ",
+		'ja-jp': "トラピンチ",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ペブルスロー",
+				'ja-jp': "ペブルスロー",
 			},
 			effect: {
-				ja: "対戦相手のベンチポケモンを1つ選択します。この攻撃は、そのポケモンに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "対戦相手のベンチポケモンを1つ選択します。この攻撃は、そのポケモンに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 		},
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "ダブルピンチャー",
+				'ja-jp': "ダブルピンチャー",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。",
 			},
 		},
 	],

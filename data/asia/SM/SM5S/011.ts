@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マスキッパ",
+		'ja-jp': "マスキッパ",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "湿地帯に 生える 木に巻きつき 甘い香りの だえきで 獲物を 誘き寄せては ひとくちで 食べる。",
+		'ja-jp': "湿地帯に 生える 木に巻きつき 甘い香りの だえきで 獲物を 誘き寄せては ひとくちで 食べる。",
 	},
 
 	stage: "Basic",
@@ -24,14 +24,14 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「20」回復する。",
+				'ja-jp': "このポケモンのHPを「20」回復する。",
 			},
 		},
 		{
 			name: { ja: "おおいかぶさる 90-" },
 			cost: ["Grass", "Grass"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数x10ダメージぶん、このワザのダメージは小さくなる。",
+				'ja-jp': "このポケモンにのっているダメカンの数x10ダメージぶん、このワザのダメージは小さくなる。",
 			},
 		},
 	],

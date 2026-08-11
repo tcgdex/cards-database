@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シルクーン",
+		'ja-jp': "シルクーン",
 	},
 
 	rarity: "Uncommon",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ラム",
+				'ja-jp': "ラム",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "高度な鎧",
+				'ja-jp': "高度な鎧",
 			},
 			effect: {
-				ja: "相手の次のターン中に、相手の進化したポケモンによるシルクーンに与えられた損害を含む攻撃のすべての影響を防ぎます。",
+				'ja-jp': "相手の次のターン中に、相手の進化したポケモンによるシルクーンに与えられた損害を含む攻撃のすべての影響を防ぎます。",
 			},
 		},
 	],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		es: "Pikachu",
-		it: "Pikachu",
-		pt: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'es-es': "Pikachu",
+		'it-it': "Pikachu",
+		'pt-br': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Pika Punch",
-				fr: "Pika-Poing",
+				'en-us': "Pika Punch",
+				'fr-fr': "Pika-Poing",
 			},
 
 			damage: 10,
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Voltage",
-				fr: "Double Voltage",
+				'en-us': "Double Voltage",
+				'fr-fr': "Double Voltage",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 40 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 40,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
+		'en-us': "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
 	},
 
 	thirdParty: {

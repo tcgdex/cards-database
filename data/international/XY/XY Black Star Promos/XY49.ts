@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Regirock",
-		fr: "Regirock",
+		'en-us': "Regirock",
+		'fr-fr': "Regirock",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Land Maker",
-				fr: "Fabric'Roc",
+				'en-us': "Land Maker",
+				'fr-fr': "Fabric'Roc",
 			},
 			effect: {
-				en: "Put 2 Stadium cards from your discard pile into your hand.",
-				fr: "Ajoutez 2 cartes Stade de votre pile de défausse à votre main.",
+				'en-us': "Put 2 Stadium cards from your discard pile into your hand.",
+				'fr-fr': "Ajoutez 2 cartes Stade de votre pile de défausse à votre main.",
 			},
 
 		},
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stone Edge",
-				fr: "Lame de Roc",
+				'en-us': "Stone Edge",
+				'fr-fr': "Lame de Roc",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 40 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 40 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: "80＋",
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "The same rocks that form its body have been found in ground layers around the world.",
+		'en-us': "The same rocks that form its body have been found in ground layers around the world.",
 	},
 
 	thirdParty: {

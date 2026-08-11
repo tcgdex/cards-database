@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴマゾウ",
+		'ja-jp': "ゴマゾウ",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "体は 小さいが 力持ち。 大人の 人を 軽々と 背中に 乗せて 歩いてしまう。",
+		'ja-jp': "体は 小さいが 力持ち。 大人の 人を 軽々と 背中に 乗せて 歩いてしまう。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数×30ダメージ。",
+				'ja-jp': "このポケモンにのっているダメカンの数×30ダメージ。",
 			},
 		},
 	],

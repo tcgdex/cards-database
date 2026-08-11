@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cinccino",
-		fr: "Pashmilla",
-		es: "Cinccino",
-		de: "Chillabell",
-		it: "Cinccino",
-		pt: "Cinccino",
+		'en-us': "Cinccino",
+		'fr-fr': "Pashmilla",
+		'es-es': "Cinccino",
+		'de-de': "Chillabell",
+		'it-it': "Cinccino",
+		'pt-br': "Cinccino",
 		'es-mx': "Cinccino"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Minccino",
-		fr: "Chinchidou",
-		es: "Minccino",
-		de: "Picochilla",
-		it: "Minccino",
-		pt: "Minccino",
+		'en-us': "Minccino",
+		'fr-fr': "Chinchidou",
+		'es-es': "Minccino",
+		'de-de': "Picochilla",
+		'it-it': "Minccino",
+		'pt-br': "Minccino",
 		'es-mx': "Minccino"
 	},
 	stage: "Stage1",
@@ -34,12 +34,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Tail Smack",
-			fr: "Coup de Queue",
-			es: "Bofetón Cola",
-			de: "Schweifschlag",
-			it: "Codasberla",
-			pt: "Ataque de Cauda",
+			'en-us': "Tail Smack",
+			'fr-fr': "Coup de Queue",
+			'es-es': "Bofetón Cola",
+			'de-de': "Schweifschlag",
+			'it-it': "Codasberla",
+			'pt-br': "Ataque de Cauda",
 			'es-mx': "Cachetazo de Cola"
 		},
 

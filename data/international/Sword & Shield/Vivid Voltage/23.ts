@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [4],
 
 	name: {
-		en: "Charmander",
-		fr: "Salamèche",
-		es: "Charmander",
-		it: "Charmander",
-		pt: "Charmander",
-		de: "Glumanda"
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche",
+		'es-es': "Charmander",
+		'it-it': "Charmander",
+		'pt-br': "Charmander",
+		'de-de': "Glumanda"
 	},
 
 	illustrator: "MAHOU",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collecte",
-				es: "Coleccionar",
-				it: "Tassa",
-				pt: "Coleta",
-				de: "Sammeln"
+				'en-us': "Collect",
+				'fr-fr': "Collecte",
+				'es-es': "Coleccionar",
+				'it-it': "Tassa",
+				'pt-br': "Coleta",
+				'de-de': "Sammeln"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				es: "Roba 1 carta.",
-				it: "Pesca una carta.",
-				pt: "Compre 1 carta.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'es-es': "Roba 1 carta.",
+				'it-it': "Pesca una carta.",
+				'pt-br': "Compre 1 carta.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -52,12 +52,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flare",
-				fr: "Flamboiement",
-				es: "Llama",
-				it: "Fiammata",
-				pt: "Chama",
-				de: "Flackern"
+				'en-us': "Flare",
+				'fr-fr': "Flamboiement",
+				'es-es': "Llama",
+				'it-it': "Fiammata",
+				'pt-br': "Chama",
+				'de-de': "Flackern"
 			},
 
 			damage: 30,
@@ -79,7 +79,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail."
+		'en-us': "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail."
 	},
 
 	variants: [

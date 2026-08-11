@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Mawile",
-		fr: "Mysdibule",
-		de: "Flunkifer"
+		'en-us': "Mawile",
+		'fr-fr': "Mysdibule",
+		'de-de': "Flunkifer"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Turnaround Standby",
-				fr: "Demi-tour en standby",
-				de: "Wendewarte"
+				'en-us': "Turnaround Standby",
+				'fr-fr': "Demi-tour en standby",
+				'de-de': "Wendewarte"
 			},
 			effect: {
-				en: "During your next turn, any damage done by Mawile's Swallow or Bite to your opponent's Active Pokémon is increased by 40 (before applying Weakness and Resistance).",
-				fr: "Lors de votre prochain tour, tous les dégâts infligés par Avale ou Morsure de Mysdibule au Pokémon Actif de votre adversaire sont augmentés de 40 (avant application de la Faiblesse et de la Résistance).",
-				de: "Während deines nächsten Zuges wird Schaden, der den Aktiven Pokémon deines Gegners durch Flunkifers Biss oder Verschlucken zugefügt würde, um 40 Schadenspunkte erhöht (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "During your next turn, any damage done by Mawile's Swallow or Bite to your opponent's Active Pokémon is increased by 40 (before applying Weakness and Resistance).",
+				'fr-fr': "Lors de votre prochain tour, tous les dégâts infligés par Avale ou Morsure de Mysdibule au Pokémon Actif de votre adversaire sont augmentés de 40 (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "Während deines nächsten Zuges wird Schaden, der den Aktiven Pokémon deines Gegners durch Flunkifers Biss oder Verschlucken zugefügt würde, um 40 Schadenspunkte erhöht (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swallow",
-				fr: "Avale",
-				de: "Verschlucken"
+				'en-us': "Swallow",
+				'fr-fr': "Avale",
+				'de-de': "Verschlucken"
 			},
 			effect: {
-				en: "Remove from Mawile the number of damage counters equal to the damage you did to the Defending Pokémon.",
-				fr: "Retirez à Mysdibule autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur.",
-				de: "Entferne Schadensmarken von Flunkifer entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon durch diesen Angriff zugefügt wurden."
+				'en-us': "Remove from Mawile the number of damage counters equal to the damage you did to the Defending Pokémon.",
+				'fr-fr': "Retirez à Mysdibule autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur.",
+				'de-de': "Entferne Schadensmarken von Flunkifer entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon durch diesen Angriff zugefügt wurden."
 			},
 			damage: 20,
 
@@ -64,9 +64,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Biss"
 			},
 
 			damage: 30,

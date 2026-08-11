@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "瑪沙那",
 		'zh-cn': "瑪沙那",
-		ja: "アサナン"
+		'ja-jp': "アサナン"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "用冥想提高精神能量後， 就可以浮在空中。 １天會吃下１個樹果。",
 		'zh-cn': "用冥想提高精神能量後， 就可以浮在空中。 １天會吃下１個樹果。",
-		ja: "瞑想で 精神エネルギーを 高めて 空中に 浮かぶ。 １日に １個 木の実を 食べる。"
+		'ja-jp': "瞑想で 精神エネルギーを 高めて 空中に 浮かぶ。 １日に １個 木の実を 食べる。"
 	},
 
 	stage: "Basic",
@@ -27,13 +27,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "冥想",
 			'zh-cn': "冥想",
-			ja: "めいそう"
+			'ja-jp': "めいそう"
 		},
 
 		effect: {
 			'zh-tw': "將這隻寶可夢恢復「20」HP。",
 			'zh-cn': "將這隻寶可夢恢復「20」HP。",
-			ja: "このポケモンのHPを「20」回復する。"
+			'ja-jp': "このポケモンのHPを「20」回復する。"
 		},
 
 		cost: ["Colorless"]
@@ -41,7 +41,7 @@ const card: Card = {
 		name: {
 			'zh-tw': "劈打",
 			'zh-cn': "劈打",
-			ja: "チョップ"
+			'ja-jp': "チョップ"
 		},
 
 		damage: 50,

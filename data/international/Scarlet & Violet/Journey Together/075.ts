@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Alcremie ex",
-		fr: "Charmilly-ex",
-		es: "Alcremie ex",
-		de: "Pokusan-ex",
-		it: "Alcremie-ex",
-		pt: "Alcremie ex",
+		'en-us': "Alcremie ex",
+		'fr-fr': "Charmilly-ex",
+		'es-es': "Alcremie ex",
+		'de-de': "Pokusan-ex",
+		'it-it': "Alcremie-ex",
+		'pt-br': "Alcremie ex",
 		'es-mx': "Alcremie ex"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 250,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Milcery",
-		fr: "Crèmy",
-		es: "Milcery",
-		de: "Hokumil",
-		it: "Milcery",
-		pt: "Milcery",
+		'en-us': "Milcery",
+		'fr-fr': "Crèmy",
+		'es-es': "Milcery",
+		'de-de': "Hokumil",
+		'it-it': "Milcery",
+		'pt-br': "Milcery",
 		'es-mx': "Milcery"
 	},
 	stage: "Stage1",
@@ -34,22 +34,22 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Confectionary Gift",
-			fr: "Cadeau Gâteau",
-			es: "Golosina de Regalo",
-			de: "Konfektgeschenk",
-			it: "Dolcedono",
-			pt: "Presente de Confeitaria",
+			'en-us': "Confectionary Gift",
+			'fr-fr': "Cadeau Gâteau",
+			'es-es': "Golosina de Regalo",
+			'de-de': "Konfektgeschenk",
+			'it-it': "Dolcedono",
+			'pt-br': "Presente de Confeitaria",
 			'es-mx': "Dulce Regalo"
 		},
 
 		effect: {
-			en: "Once during your turn, you may heal 30 damage from 1 of your Pokémon.",
-			fr: "Une fois pendant votre tour, vous pouvez soigner 30 dégâts de l'un de vos Pokémon.",
-			es: "Una vez durante tu turno, puedes curar 30 puntos de daño a uno de tus Pokémon.",
-			de: "Einmal während deines Zuges kannst du 30 Schadenspunkte bei 1 deiner Pokémon heilen.",
-			it: "Una sola volta durante il tuo turno, puoi curare uno dei tuoi Pokémon da 30 danni.",
-			pt: "Uma vez durante o seu turno, você poderá curar 30 pontos de dano de 1 dos seus Pokémon.",
+			'en-us': "Once during your turn, you may heal 30 damage from 1 of your Pokémon.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez soigner 30 dégâts de l'un de vos Pokémon.",
+			'es-es': "Una vez durante tu turno, puedes curar 30 puntos de daño a uno de tus Pokémon.",
+			'de-de': "Einmal während deines Zuges kannst du 30 Schadenspunkte bei 1 deiner Pokémon heilen.",
+			'it-it': "Una sola volta durante il tuo turno, puoi curare uno dei tuoi Pokémon da 30 danni.",
+			'pt-br': "Uma vez durante o seu turno, você poderá curar 30 pontos de dano de 1 dos seus Pokémon.",
 			'es-mx': "Una vez durante tu turno, puedes curar 30 puntos de daño a 1 de tus Pokémon."
 		}
 	}],
@@ -58,12 +58,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Whipped Shot",
-			fr: "Tir Fouetté",
-			es: "Disparo Batido",
-			de: "Sahneschlag",
-			it: "Montacolpo",
-			pt: "Disparo de Chantilly",
+			'en-us': "Whipped Shot",
+			'fr-fr': "Tir Fouetté",
+			'es-es': "Disparo Batido",
+			'de-de': "Sahneschlag",
+			'it-it': "Montacolpo",
+			'pt-br': "Disparo de Chantilly",
 			'es-mx': "Disparo Batido"
 		},
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Compagnol",
-		en: "Tandemaus",
-		es: "Tandemaus",
-		it: "Tandemaus",
-		pt: "Tandemaus",
-		de: "Zwieps"
+		'fr-fr': "Compagnol",
+		'en-us': "Tandemaus",
+		'es-es': "Tandemaus",
+		'it-it': "Tandemaus",
+		'pt-br': "Tandemaus",
+		'de-de': "Zwieps"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Collecte",
-			en: "Collect",
-			es: "Coleccionar",
-			it: "Tassa",
-			pt: "Coleta",
-			de: "Sammeln"
+			'fr-fr': "Collecte",
+			'en-us': "Collect",
+			'es-es': "Coleccionar",
+			'it-it': "Tassa",
+			'pt-br': "Coleta",
+			'de-de': "Sammeln"
 		},
 
 		effect: {
-			fr: "Piochez 2 cartes.",
-			en: "Draw 2 cards.",
-			es: "Roba 2 cartas.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas.",
-			de: "Ziehe 2 Karten."
+			'fr-fr': "Piochez 2 cartes.",
+			'en-us': "Draw 2 cards.",
+			'es-es': "Roba 2 cartas.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas.",
+			'de-de': "Ziehe 2 Karten."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Gifle Douce",
-			en: "Gentle Slap",
-			es: "Bofetada Gentil",
-			it: "Schiaffetto",
-			pt: "Tapinha",
-			de: "Sanfter Hieb"
+			'fr-fr': "Gifle Douce",
+			'en-us': "Gentle Slap",
+			'es-es': "Bofetada Gentil",
+			'it-it': "Schiaffetto",
+			'pt-br': "Tapinha",
+			'de-de': "Sanfter Hieb"
 		},
 
 		damage: 30
@@ -86,7 +86,7 @@ const card: Card = {
 	illustrator: "Oswaldo KATO",
 
 	description: {
-		en: "Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them.",
+		'en-us': "Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them.",
 	},
 }
 

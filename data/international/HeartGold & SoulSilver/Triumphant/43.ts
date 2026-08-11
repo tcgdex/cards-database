@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Magneton",
-		fr: "Magneton",
-		de: "Magneton"
+		'en-us': "Magneton",
+		'fr-fr': "Magneton",
+		'de-de': "Magneton"
 	},
 
 	illustrator: "Noriko Hotta",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magnemite",
-		fr: "Magneti"
+		'en-us': "Magnemite",
+		'fr-fr': "Magneti"
 	},
 
 	stage: "Stage1",
@@ -34,9 +34,9 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Speed Ball",
-				fr: "Balle rapide",
-				de: "Geschwindigkeitsball"
+				'en-us': "Speed Ball",
+				'fr-fr': "Balle rapide",
+				'de-de': "Geschwindigkeitsball"
 			},
 
 			damage: 20,
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tri Attack",
-				fr: "Triplattaque",
-				de: "Triplette"
+				'en-us': "Tri Attack",
+				'fr-fr': "Triplattaque",
+				'de-de': "Triplette"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 3 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'de-de': "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "20×",
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The Magnemite are united by a magnetism so powerful, it dries all moisture in its vicinity."
+		'en-us': "The Magnemite are united by a magnetism so powerful, it dries all moisture in its vicinity."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "quagsire",
+		'ja-jp': "quagsire",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "飽和",
+				'ja-jp': "飽和",
 			},
 			effect: {
-				ja: "手からQuagsireに水エネルギーカードを取り付けるときは、Quagsireからすべての特別な条件と2つのダメージカウンターを削除します。",
+				'ja-jp': "手からQuagsireに水エネルギーカードを取り付けるときは、Quagsireからすべての特別な条件と2つのダメージカウンターを削除します。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "ハイパーポンプ",
+				'ja-jp': "ハイパーポンプ",
 			},
 			effect: {
-				ja: "20ダメージに加えて、Quagsireに取り付けられた基本エネルギーカードごとに20のダメージがさらに20件ありますが、この攻撃のエネルギーコストの支払いには使用されません。この方法で60以上のダメージを追加することはできません。",
+				'ja-jp': "20ダメージに加えて、Quagsireに取り付けられた基本エネルギーカードごとに20のダメージがさらに20件ありますが、この攻撃のエネルギーコストの支払いには使用されません。この方法で60以上のダメージを追加することはできません。",
 			},
 		},
 	],

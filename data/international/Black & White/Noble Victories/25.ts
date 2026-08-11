@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Tirtouga",
-		fr: "Carapagos",
-		es: "Tirtouga",
-		it: "Tirtouga",
-		pt: "Tirtouga",
-		de: "Galapaflos"
+		'en-us': "Tirtouga",
+		'fr-fr': "Carapagos",
+		'es-es': "Tirtouga",
+		'it-it': "Tirtouga",
+		'pt-br': "Tirtouga",
+		'de-de': "Galapaflos"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
 			},
 
 			damage: 30,
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
+				'en-us': "Surf",
+				'fr-fr': "Surf",
 			},
 
 			damage: 60,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Restored from a fossil, this Pokémon can dive to depths beyond half a mile.",
+		'en-us': "Restored from a fossil, this Pokémon can dive to depths beyond half a mile.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ズルズキン",
+		'ja-jp': "ズルズキン",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "脱皮した 皮を ずりあげて ダメージを 減らしつつ キック！ とさかが 大きいほど 偉そうだ。",
+		'ja-jp': "脱皮した 皮を ずりあげて ダメージを 減らしつつ キック！ とさかが 大きいほど 偉そうだ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンがたねポケモンなら、50ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンがたねポケモンなら、50ダメージ追加。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ズルッグ",
+		'ja-jp': "ズルッグ",
 	},
 
 	retreat: 2,

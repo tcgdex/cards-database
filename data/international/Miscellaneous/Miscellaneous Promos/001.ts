@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Miscellaneous Promos"
 
 const card: Card = {
 	name: {
-		en: "Ancient Mew",
+		'en-us': "Ancient Mew",
 	},
 	rarity: "Promo",
 	category: "Pokemon",
@@ -22,7 +22,7 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psyche",
+				'en-us': "Psyche",
 			},
 			damage: "40",
 		},
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "New Species. Little God or Evil?"
+		'en-us': "New Species. Little God or Evil?"
 	},
 }
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Sableye",
-		fr: "Ténéfix",
-		es: "Sableye",
-		it: "Sableye",
-		pt: "Sableye",
-		de: "Zobiris"
+		'en-us': "Sableye",
+		'fr-fr': "Ténéfix",
+		'es-es': "Sableye",
+		'it-it': "Sableye",
+		'pt-br': "Sableye",
+		'de-de': "Zobiris"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Hunt",
-				fr: "Chasse Express",
-				es: "Caza Rápida",
-				it: "Caccia Rapida",
-				pt: "Caçada Ligeira",
-				de: "Schnelle Jagd"
+				'en-us': "Quick Hunt",
+				'fr-fr': "Chasse Express",
+				'es-es': "Caza Rápida",
+				'it-it': "Caccia Rapida",
+				'pt-br': "Caçada Ligeira",
+				'de-de': "Schnelle Jagd"
 			},
 			effect: {
-				en: "If you go first, you can use this attack on your first turn. Search your deck for a card and put it into your hand. Then, shuffle your deck.",
-				fr: "Si vous jouez en premier, vous pouvez utiliser cette attaque lors de votre premier tour. Cherchez une carte dans votre deck, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
-				es: "Si sales primero, puedes usar este ataque durante tu primer turno. Busca en tu baraja 1 carta y ponla en tu mano. Después, baraja las cartas de tu baraja.",
-				it: "Se inizi per primo, puoi usare questo attacco durante il tuo primo turno. Cerca nel tuo mazzo una carta qualsiasi e aggiungila a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
-				pt: "Se você for primeiro, poderá usar este ataque na sua primeira vez de jogar. Procure por 1 carta no seu baralho e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Wenn du als Erster am Zug bist, kannst du diese Attacke während deines ersten Zuges einsetzen. Durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				'en-us': "If you go first, you can use this attack on your first turn. Search your deck for a card and put it into your hand. Then, shuffle your deck.",
+				'fr-fr': "Si vous jouez en premier, vous pouvez utiliser cette attaque lors de votre premier tour. Cherchez une carte dans votre deck, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Si sales primero, puedes usar este ataque durante tu primer turno. Busca en tu baraja 1 carta y ponla en tu mano. Después, baraja las cartas de tu baraja.",
+				'it-it': "Se inizi per primo, puoi usare questo attacco durante il tuo primo turno. Cerca nel tuo mazzo una carta qualsiasi e aggiungila a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Se você for primeiro, poderá usar este ataque na sua primeira vez de jogar. Procure por 1 carta no seu baralho e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Wenn du als Erster am Zug bist, kannst du diese Attacke während deines ersten Zuges einsetzen. Durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -56,20 +56,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Cursed Drop",
-				fr: "Chute Maudite",
-				es: "Caída Maldita",
-				it: "Caduta Maledetta",
-				pt: "Queda Amaldiçoada",
-				de: "Verfluchter Fall"
+				'en-us': "Cursed Drop",
+				'fr-fr': "Chute Maudite",
+				'es-es': "Caída Maldita",
+				'it-it': "Caduta Maledetta",
+				'pt-br': "Queda Amaldiçoada",
+				'de-de': "Verfluchter Fall"
 			},
 			effect: {
-				en: "Put 3 damage counters on your opponent’s Pokémon in any way you like.",
-				fr: "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire de la manière que vous voulez.",
-				es: "Pon 3 contadores de daño en los Pokémon de tu rival de la manera que desees.",
-				it: "Distribuisci a piacimento tre segnalini danno sui Pokémon del tuo avversario.",
-				pt: "Coloque 3 contadores de dano nos Pokémon do seu oponente como desejar.",
-				de: "Lege 3 Schadensmarken beliebig auf die Pokémon deines Gegners."
+				'en-us': "Put 3 damage counters on your opponent’s Pokémon in any way you like.",
+				'fr-fr': "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire de la manière que vous voulez.",
+				'es-es': "Pon 3 contadores de daño en los Pokémon de tu rival de la manera que desees.",
+				'it-it': "Distribuisci a piacimento tre segnalini danno sui Pokémon del tuo avversario.",
+				'pt-br': "Coloque 3 contadores de dano nos Pokémon do seu oponente como desejar.",
+				'de-de': "Lege 3 Schadensmarken beliebig auf die Pokémon deines Gegners."
 			},
 
 		},
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon is feared. When its gemstone eyes begin to glow with a sinister shine, it's believed that Sableye will steal people's spirits away.",
+		'en-us': "This Pokémon is feared. When its gemstone eyes begin to glow with a sinister shine, it's believed that Sableye will steal people's spirits away.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ツツケラ",
+		'ja-jp': "ツツケラ",
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "きのみが 餌。 喰らった後の タネを 弾として 口から 発射し 攻撃に 利用。",
+		'ja-jp': "きのみが 餌。 喰らった後の タネを 弾として 口から 発射し 攻撃に 利用。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "つきかえす" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+				'ja-jp': "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
 			},
 		},
 		{

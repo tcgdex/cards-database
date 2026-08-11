@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Southern Islands'
 
 const card: Card = {
 	name: {
-		en: "Raticate",
+		'en-us': "Raticate",
 	},
 
 	illustrator: "Keiko Fukuyama",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rattata",
+		'en-us': "Rattata",
 	},
 
 	stage: "Stage1",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharp Teeth",
+				'en-us': "Sharp Teeth",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 30 more damage; if tails, this attack does 10 damage.",
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 30 more damage; if tails, this attack does 10 damage.",
 			},
 			damage: 10,
 
@@ -59,7 +59,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "This Pokémon sometimes hunts for food in rivers, swimming using the small webs between the toes on its rear legs.",
+		'en-us': "This Pokémon sometimes hunts for food in rivers, swimming using the small webs between the toes on its rear legs.",
 	},
 
 	variants: [

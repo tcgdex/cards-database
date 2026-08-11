@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Litten",
-		fr: "Flamiaou",
-		es: "Litten",
-		it: "Litten",
-		pt: "Litten",
-		de: "Flamiau"
+		'en-us': "Litten",
+		'fr-fr': "Flamiaou",
+		'es-es': "Litten",
+		'it-it': "Litten",
+		'pt-br': "Litten",
+		'de-de': "Flamiau"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Live Coal",
-				fr: "Charbon Mutant",
-				es: "Carbón Activado",
-				it: "Carboni Ardenti",
-				pt: "Carvão Vivo",
-				de: "Glühende Kohlen"
+				'en-us': "Live Coal",
+				'fr-fr': "Charbon Mutant",
+				'es-es': "Carbón Activado",
+				'it-it': "Carboni Ardenti",
+				'pt-br': "Carvão Vivo",
+				'de-de': "Glühende Kohlen"
 			},
 
 			damage: 20,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "While grooming itself, it builds up fur inside its stomach. It sets the fur alight and spews fiery attacks, which change based on how it coughs.",
+		'en-us': "While grooming itself, it builds up fur inside its stomach. It sets the fur alight and spews fiery attacks, which change based on how it coughs.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラルトス",
+		'ja-jp': "ラルトス",
 	},
 
 	illustrator: "Yuka Morii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "人や ポケモンの 感情を 敏感に キャッチ。 敵意を 感じると 物陰に 隠れる。",
+		'ja-jp': "人や ポケモンの 感情を 敏感に キャッチ。 敵意を 感じると 物陰に 隠れる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "まねきよせる" },
 			cost: ["Fairy"],
 			effect: {
-				ja: "自分のトラッシュにあるサポートを1枚、相手に見せてから、手札に加える。",
+				'ja-jp': "自分のトラッシュにあるサポートを1枚、相手に見せてから、手札に加える。",
 			},
 		},
 		{

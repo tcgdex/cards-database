@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Ramoloss",
+		'fr-fr': "Ramoloss",
 	},
 
 	rarity: "None",
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				fr: "Bâillement"
+				'fr-fr': "Bâillement"
 			},
 			effect: {
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi."
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi."
 			}
 		},
 	],

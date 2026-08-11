@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アーボック",
+		'ja-jp': "アーボック",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "最新の 研究で お腹の 模様は ２０種類 以上の パターンが あることが 判明。",
+		'ja-jp': "最新の 研究で お腹の 模様は ２０種類 以上の パターンが あることが 判明。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "いまわのもよう" },
 			effect: {
-				ja: "このポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、相手の手札からオモテを見ないで、2枚トラッシュする。",
+				'ja-jp': "このポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、相手の手札からオモテを見ないで、2枚トラッシュする。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のトラッシュに「ムサシとコジロウ」があるなら、80ダメージ追加。",
+				'ja-jp': "自分のトラッシュに「ムサシとコジロウ」があるなら、80ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アーボ",
+		'ja-jp': "アーボ",
 	},
 
 	retreat: 2,

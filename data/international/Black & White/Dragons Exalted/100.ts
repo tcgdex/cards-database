@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Ambipom",
-		fr: "Capidextre",
-		es: "Ambipom",
-		it: "Ambipom",
-		pt: "Ambipom",
-		de: "Ambidiffel"
+		'en-us': "Ambipom",
+		'fr-fr': "Capidextre",
+		'es-es': "Ambipom",
+		'it-it': "Ambipom",
+		'pt-br': "Ambipom",
+		'de-de': "Ambidiffel"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Aipom",
-		fr: "Capumain",
+		'en-us': "Aipom",
+		'fr-fr': "Capumain",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Hit",
-				fr: "Coup Double",
+				'en-us': "Double Hit",
+				'fr-fr': "Coup Double",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 20,
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hand Fling",
-				fr: "Catapu-Main",
+				'en-us': "Hand Fling",
+				'fr-fr': "Catapu-Main",
 			},
 			effect: {
-				en: "Does 10 damage times the number of cards in your hand.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de cartes dans votre main.",
+				'en-us': "Does 10 damage times the number of cards in your hand.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de cartes dans votre main.",
 			},
 			damage: 10,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Split into two, the tails are so adept at handling and doing things, Ambipom rarely uses its hands.",
+		'en-us': "Split into two, the tails are so adept at handling and doing things, Ambipom rarely uses its hands.",
 	},
 
 	thirdParty: {

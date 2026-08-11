@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Deerling",
-		fr: "Vivaldaim",
-		es: "Deerling",
-		it: "Deerling",
-		pt: "Deerling",
-		de: "Sesokitz"
+		'en-us': "Deerling",
+		'fr-fr': "Vivaldaim",
+		'es-es': "Deerling",
+		'it-it': "Deerling",
+		'pt-br': "Deerling",
+		'de-de': "Sesokitz"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Their coloring changes according to the season and can be slightly affected by the temperature and humidity as well.",
+		'en-us': "Their coloring changes according to the season and can be slightly affected by the temperature and humidity as well.",
 	},
 
 	thirdParty: {

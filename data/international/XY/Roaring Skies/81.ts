@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Unfezant",
-		fr: "Déflaisan",
-		es: "Unfezant",
-		it: "Unfezant",
-		pt: "Unfezant",
-		de: "Fasasnob"
+		'en-us': "Unfezant",
+		'fr-fr': "Déflaisan",
+		'es-es': "Unfezant",
+		'it-it': "Unfezant",
+		'pt-br': "Unfezant",
+		'de-de': "Fasasnob"
 	},
 
 	illustrator: "TOKIYA",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tranquill",
-		fr: "Colombeau",
-		es: "Tranquill",
-		it: "Tranquill",
-		pt: "Tranquill",
-		de: "Navitaub"
+		'en-us': "Tranquill",
+		'fr-fr': "Colombeau",
+		'es-es': "Tranquill",
+		'it-it': "Tranquill",
+		'pt-br': "Tranquill",
+		'de-de': "Navitaub"
 	},
 
 	stage: "Stage2",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ancient Trait",
 			name: {
-				fr: "Évolution Δ",
-				en: "Δ Evolution",
-				es: "{title}:",
-				it: "{title}:",
-				pt: "{title}:",
-				de: "{title}:"
+				'fr-fr': "Évolution Δ",
+				'en-us': "Δ Evolution",
+				'es-es': "{title}:",
+				'it-it': "{title}:",
+				'pt-br': "{title}:",
+				'de-de': "{title}:"
 			},
 			effect: {
-				fr: "Vous pouvez jouer cette carte de votre main pour faire évoluer un Pokémon pendant votre premier tour ou pendant le tour où vous le jouez.",
-				en: "You may play this card from your hand to evolve a Pokémon during your first turn or the turn you play that Pokémon.",
-				es: "{title}: Puedes jugar esta carta de tu mano para hacer evolucionar a 1 Pokémon durante tu primer turno o durante el turno en que pongas en juego a ese Pokémon.",
-				it: "{title}: Puoi giocare questa carta dalla tua mano per far evolvere un Pokémon durante il tuo primo turno o durante il turno in cui l'hai giocato.",
-				pt: "{title}: Você pode jogar este card de sua mão para evoluir um Pokémon durante sua primeira vez de jogar ou no turno em que jogar aquele Pokémon.",
-				de: "{title}: Du kannst diese Karte von deiner Hand spielen, um 1 Pokémon während deines ersten Zuges oder des Zuges, in dem du es spielst, zu entwickeln."
+				'fr-fr': "Vous pouvez jouer cette carte de votre main pour faire évoluer un Pokémon pendant votre premier tour ou pendant le tour où vous le jouez.",
+				'en-us': "You may play this card from your hand to evolve a Pokémon during your first turn or the turn you play that Pokémon.",
+				'es-es': "{title}: Puedes jugar esta carta de tu mano para hacer evolucionar a 1 Pokémon durante tu primer turno o durante el turno en que pongas en juego a ese Pokémon.",
+				'it-it': "{title}: Puoi giocare questa carta dalla tua mano per far evolvere un Pokémon durante il tuo primo turno o durante il turno in cui l'hai giocato.",
+				'pt-br': "{title}: Você pode jogar este card de sua mão para evoluir um Pokémon durante sua primeira vez de jogar ou no turno em que jogar aquele Pokémon.",
+				'de-de': "{title}: Du kannst diese Karte von deiner Hand spielen, um 1 Pokémon während deines ersten Zuges oder des Zuges, in dem du es spielst, zu entwickeln."
 			},
 		},
 	],
@@ -66,20 +66,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Feather Dance",
-				fr: "Danse-Plume",
-				es: "Danza Pluma",
-				it: "Danzadipiume",
-				pt: "Dança das Penas",
-				de: "Daunenreigen"
+				'en-us': "Feather Dance",
+				'fr-fr': "Danse-Plume",
+				'es-es': "Danza Pluma",
+				'it-it': "Danzadipiume",
+				'pt-br': "Dança das Penas",
+				'de-de': "Daunenreigen"
 			},
 			effect: {
-				en: "During your next turn, each of this Pokémon's attacks does 80 more damage (before applying Weakness and Resistance).",
-				fr: "Pendant votre prochain tour, chaque attaque de ce Pokémon inflige 80 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
-				es: "Durante tu próximo turno, cada uno de los ataques de este Pokémon hace 80 puntos de daño más (antes de aplicar Debilidad y Resistencia).",
-				it: "Durante il tuo prossimo turno, ciascuno degli attacchi di questo Pokémon infligge 80 danni in più, prima di aver applicato debolezza e resistenza.",
-				pt: "Durante sua próxima vez de jogar, cada um dos ataques deste Pokémon causará 80 de danos adicionais (antes da aplicação de Fraqueza e Resistência).",
-				de: "Während deines nächsten Zuges fügt jeder Angriff dieses Pokémon 80 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "During your next turn, each of this Pokémon's attacks does 80 more damage (before applying Weakness and Resistance).",
+				'fr-fr': "Pendant votre prochain tour, chaque attaque de ce Pokémon inflige 80 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				'es-es': "Durante tu próximo turno, cada uno de los ataques de este Pokémon hace 80 puntos de daño más (antes de aplicar Debilidad y Resistencia).",
+				'it-it': "Durante il tuo prossimo turno, ciascuno degli attacchi di questo Pokémon infligge 80 danni in più, prima di aver applicato debolezza e resistenza.",
+				'pt-br': "Durante sua próxima vez de jogar, cada um dos ataques deste Pokémon causará 80 de danos adicionais (antes da aplicação de Fraqueza e Resistência).",
+				'de-de': "Während deines nächsten Zuges fügt jeder Angriff dieses Pokémon 80 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 
 		},
@@ -90,20 +90,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sky Attack",
-				fr: "Piqué",
-				es: "Ataque Aéreo",
-				it: "Aeroattacco",
-				pt: "Ataque do Céu",
-				de: "Himmelsfeger"
+				'en-us': "Sky Attack",
+				'fr-fr': "Piqué",
+				'es-es': "Ataque Aéreo",
+				'it-it': "Aeroattacco",
+				'pt-br': "Ataque do Céu",
+				'de-de': "Himmelsfeger"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-				pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+				'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+				'pt-br': "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 120,
 
@@ -127,7 +127,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Males have plumage on their heads. They will never let themselves feel close to anyone other than their Trainers.",
+		'en-us': "Males have plumage on their heads. They will never let themselves feel close to anyone other than their Trainers.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トドゼルガ",
+		'ja-jp': "トドゼルガ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "２、３０匹で 群れを つくる。 敵に 襲われると リーダーは 体を 張って 群れを 守る。",
+		'ja-jp': "２、３０匹で 群れを つくる。 敵に 襲われると リーダーは 体を 張って 群れを 守る。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Water"],
 			effect: {
-				ja: "次の相手の番、ついているエネルギーが2個以下のポケモン全員は、ワザが使えない。（新しく場に出したポケモンもふくむ。）",
+				'ja-jp': "次の相手の番、ついているエネルギーが2個以下のポケモン全員は、ワザが使えない。（新しく場に出したポケモンもふくむ。）",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 170,
 			cost: ["Water", "Water"],
 			effect: {
-				ja: "このポケモンにも50ダメージ。",
+				'ja-jp': "このポケモンにも50ダメージ。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "トドグラー",
+		'ja-jp': "トドグラー",
 	},
 
 	retreat: 3,

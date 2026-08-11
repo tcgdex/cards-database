@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [162],
 
 	name: {
-		en: "Furret"
+		'en-us': "Furret"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Sentret"
+		'en-us': "Sentret"
 	},
 
 	description: {
-		en: "It is nimble and has a very flexible body.\nEven if you get ahold of it, it'll slip right out\nof your arms."
+		'en-us': "It is nimble and has a very flexible body.\nEven if you get ahold of it, it'll slip right out\nof your arms."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Headbutt Bounce"
+			'en-us': "Headbutt Bounce"
 		},
 
 		damage: 40,

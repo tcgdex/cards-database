@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Larvitar",
-		fr: "Embrylex",
-		de: "Larvitar"
+		'en-us': "Larvitar",
+		'fr-fr': "Embrylex",
+		'de-de': "Larvitar"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mountain Eater",
-				fr: "Croque-montagne",
-				de: "Bergfresser"
+				'en-us': "Mountain Eater",
+				'fr-fr': "Croque-montagne",
+				'de-de': "Bergfresser"
 			},
 			effect: {
-				en: "Your opponent discards the top card from his or her deck. Then you remove a damage counter from Larvitar.",
-				fr: "Votre adversaire se défausse de la carte du dessus de son deck. Retirez ensuite un marqueur de dégâts de Embrylex.",
-				de: "Dein Gegner legt die oberste Karte seines Decks auf seinen Ablagestapel. Dann entfernst du eine Schadensmarke von Larvitar."
+				'en-us': "Your opponent discards the top card from his or her deck. Then you remove a damage counter from Larvitar.",
+				'fr-fr': "Votre adversaire se défausse de la carte du dessus de son deck. Retirez ensuite un marqueur de dégâts de Embrylex.",
+				'de-de': "Dein Gegner legt die oberste Karte seines Decks auf seinen Ablagestapel. Dann entfernst du eine Schadensmarke von Larvitar."
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Rising Lunge",
-				fr: "Botte secrète",
-				de: "Aufwärtsstoß"
+				'en-us': "Rising Lunge",
+				'fr-fr': "Botte secrète",
+				'de-de': "Aufwärtsstoß"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 

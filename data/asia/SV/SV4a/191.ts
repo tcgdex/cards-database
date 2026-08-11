@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ナゾノクサ",
+		'ja-jp': "ナゾノクサ",
 		'zh-tw': "走路草",
-		id: "Oddish"
+		'id-id': "Oddish"
 	},
 
 	illustrator: "otumami",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "昼間は 太陽を 避けるため 冷たい 地面に もぐっている。 月の光を 浴びて 育つ。",
+		'ja-jp': "昼間は 太陽を 避けるため 冷たい 地面に もぐっている。 月の光を 浴びて 育つ。",
 		'zh-tw': "白天為了躲避太陽，會鑽進涼爽的地下。 藉由沐浴月光來成長。",
-		id: "Pada siang hari, Oddish membenamkan diri ke dalam tanah yang dingin untuk menghindari matahari. Pokémon ini tumbuh dengan bermandikan cahaya bulan."
+		'id-id': "Pada siang hari, Oddish membenamkan diri ke dalam tanah yang dingin untuk menghindari matahari. Pokémon ini tumbuh dengan bermandikan cahaya bulan."
 	},
 
 	stage: "Basic",
@@ -28,9 +28,9 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "はっぱカッター",
+			'ja-jp': "はっぱカッター",
 			'zh-tw': "飛葉快刀",
-			id: "Daun Pemotong"
+			'id-id': "Daun Pemotong"
 		},
 
 		damage: 20

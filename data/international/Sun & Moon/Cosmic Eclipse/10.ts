@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Lileep",
-		fr: "Lilia",
-		es: "Lileep",
-		it: "Lileep",
-		pt: "Lileep",
-		de: "Liliep"
+		'en-us': "Lileep",
+		'fr-fr': "Lilia",
+		'es-es': "Lileep",
+		'it-it': "Lileep",
+		'pt-br': "Lileep",
+		'de-de': "Liliep"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Unidentified Fossil",
-		fr: "Fossile Inconnu",
+		'en-us': "Unidentified Fossil",
+		'fr-fr': "Fossile Inconnu",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde Folie",
-				es: "Rayo Confuso",
-				it: "Stordiraggio",
-				pt: "Raio da Confusão",
-				de: "Konfustrahl"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde Folie",
+				'es-es': "Rayo Confuso",
+				'it-it': "Stordiraggio",
+				'pt-br': "Raio da Confusão",
+				'de-de': "Konfustrahl"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent’s Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 
 		},
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Seed Bomb",
-				fr: "Canon Graine",
-				es: "Bomba Germen",
-				it: "Semebomba",
-				pt: "Bomba de Sementes",
-				de: "Samenbomben"
+				'en-us': "Seed Bomb",
+				'fr-fr': "Canon Graine",
+				'es-es': "Bomba Germen",
+				'it-it': "Semebomba",
+				'pt-br': "Bomba de Sementes",
+				'de-de': "Samenbomben"
 			},
 
 			damage: 60,
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "In ancient times, it lived in warm seas. It disguised itself as seaweed to ambush its prey and devoured them whole when they got close.",
+		'en-us': "In ancient times, it lived in warm seas. It disguised itself as seaweed to ambush its prey and devoured them whole when they got close.",
 	},
 
 	thirdParty: {

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Graveler"
+		'en-us': "Brock's Graveler"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Geodude"
+		'en-us': "Geodude"
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Toss"
+				'en-us': "Rock Toss"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 20 damage times the number of heads."
+				'en-us': "Flip 3 coins. This attack does 20 damage times the number of heads."
 			},
 			damage: "20x",
 

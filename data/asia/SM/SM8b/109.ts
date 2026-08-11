@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤレユータン",
+		'ja-jp': "ヤレユータン",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ジャングル奥地の 木の上に 棲む。 まれに 海辺に 現れて ヤドキングと 知恵比べを する。",
+		'ja-jp': "ジャングル奥地の 木の上に 棲む。 まれに 海辺に 現れて ヤドキングと 知恵比べを する。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "さいはい" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札が3枚になるように、山札を引く。",
+				'ja-jp': "自分の番に1回使える。自分の手札が3枚になるように、山札を引く。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数x20ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数x20ダメージ追加。",
 			},
 		},
 	],

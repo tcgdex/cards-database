@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shiftry"
+		'en-us': "Shiftry"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Nuzleaf"
+		'en-us': "Nuzleaf"
 	},
 
 	description: {
-		en: "It lives quietly in the deep forest. It is said to\ncreate chilly winter winds with the fans it holds."
+		'en-us': "It lives quietly in the deep forest. It is said to\ncreate chilly winter winds with the fans it holds."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Nipping Cyclone"
+			'en-us': "Nipping Cyclone"
 		},
 
 		damage: 70,
 		cost: ["Grass", "Grass"],
 
 		effect: {
-			en: "Discard a random card from your opponent's hand."
+			'en-us': "Discard a random card from your opponent's hand."
 		}
 	}],
 

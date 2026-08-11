@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rolycoly",
-		fr: "Charbi",
-		es: "Rolycoly",
-		it: "Rolycoly",
-		pt: "Rolycoly",
-		de: "Klonkett"
+		'en-us': "Rolycoly",
+		'fr-fr': "Charbi",
+		'es-es': "Rolycoly",
+		'it-it': "Rolycoly",
+		'pt-br': "Rolycoly",
+		'de-de': "Klonkett"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Rolling Tackle",
-			fr: "Roulé-Boulé",
-			es: "Placaje Giro",
-			it: "Rollazione",
-			pt: "Golpe de Colisão Rolante",
-			de: "Rolltackle"
+			'en-us': "Rolling Tackle",
+			'fr-fr': "Roulé-Boulé",
+			'es-es': "Placaje Giro",
+			'it-it': "Rollazione",
+			'pt-br': "Golpe de Colisão Rolante",
+			'de-de': "Rolltackle"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Power Gem",
-			fr: "Rayon Gemme",
-			es: "Joya de Luz",
-			it: "Gemmoforza",
-			pt: "Gema Poderosa",
-			de: "Juwelenkraft"
+			'en-us': "Power Gem",
+			'fr-fr': "Rayon Gemme",
+			'es-es': "Joya de Luz",
+			'it-it': "Gemmoforza",
+			'pt-br': "Gema Poderosa",
+			'de-de': "Juwelenkraft"
 		},
 
 		damage: 30
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "On sunny days, Rolycoly will come out onto grassy plains and roll around. Then it will eat the grass that gets tangled in its wheel-like leg.",
+		'en-us': "On sunny days, Rolycoly will come out onto grassy plains and roll around. Then it will eat the grass that gets tangled in its wheel-like leg.",
 	},
 
 	variants: [

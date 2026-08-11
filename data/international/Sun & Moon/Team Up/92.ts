@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Vullaby",
-		fr: "Vostourno",
-		es: "Vullaby",
-		it: "Vullaby",
-		pt: "Vullaby",
-		de: "Skallyk"
+		'en-us': "Vullaby",
+		'fr-fr': "Vostourno",
+		'es-es': "Vullaby",
+		'it-it': "Vullaby",
+		'pt-br': "Vullaby",
+		'de-de': "Skallyk"
 	},
 
 	illustrator: "Eri Yamaki",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collecte",
-				es: "Coleccionar",
-				it: "Tassa",
-				pt: "Coleta",
-				de: "Sammeln"
+				'en-us': "Collect",
+				'fr-fr': "Collecte",
+				'es-es': "Coleccionar",
+				'it-it': "Tassa",
+				'pt-br': "Coleta",
+				'de-de': "Sammeln"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				es: "Roba 1 carta.",
-				it: "Pesca una carta.",
-				pt: "Compre 1 carta.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'es-es': "Roba 1 carta.",
+				'it-it': "Pesca una carta.",
+				'pt-br': "Compre 1 carta.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -56,12 +56,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Corkscrew Punch",
-				fr: "Poing Tire-Bouchon",
-				es: "Puño Tirabuzón",
-				it: "Pugno Rotante",
-				pt: "Soco Saca-rolha",
-				de: "Korkenzieherhieb"
+				'en-us': "Corkscrew Punch",
+				'fr-fr': "Poing Tire-Bouchon",
+				'es-es': "Puño Tirabuzón",
+				'it-it': "Pugno Rotante",
+				'pt-br': "Soco Saca-rolha",
+				'de-de': "Korkenzieherhieb"
 			},
 
 			damage: 10,
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It can't fly yet and must wait until its wings have developed more. Since it's still at a playful age, it hops around friskily.",
+		'en-us': "It can't fly yet and must wait until its wings have developed more. Since it's still at a playful age, it hops around friskily.",
 	},
 
 	thirdParty: {

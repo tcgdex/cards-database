@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ペパーのサンドウィッチ",
+		'ja-jp': "ペパーのサンドウィッチ",
 	},
 
 	illustrator: "AYUMI ODASHIMA",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のバトルポケモンのHPを「30」回復する。そのポケモンが「ペパーのポケモン」なら、回復するHPは「100」になる。",
+		'ja-jp': "自分のバトルポケモンのHPを「30」回復する。そのポケモンが「ペパーのポケモン」なら、回復するHPは「100」になる。",
 	},
 
 	variants: [

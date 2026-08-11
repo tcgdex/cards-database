@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Mystherbe",
-		en: "Oddish",
-		es: "Oddish",
-		it: "Oddish",
-		pt: "Oddish",
-		de: "Myrapla"
+		'fr-fr': "Mystherbe",
+		'en-us': "Oddish",
+		'es-es': "Oddish",
+		'it-it': "Oddish",
+		'pt-br': "Oddish",
+		'de-de': "Myrapla"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Tranch'Herbe",
-			en: "Razor Leaf",
-			es: "Hoja Afilada",
-			it: "Foglielama",
-			pt: "Folha Navalha",
-			de: "Rasierblatt"
+			'fr-fr': "Tranch'Herbe",
+			'en-us': "Razor Leaf",
+			'es-es': "Hoja Afilada",
+			'it-it': "Foglielama",
+			'pt-br': "Folha Navalha",
+			'de-de': "Rasierblatt"
 		},
 
 		damage: 20
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
+		'en-us': "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
 	},
 
 	variants: [

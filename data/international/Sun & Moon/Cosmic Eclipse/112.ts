@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Armaldo",
-		fr: "Armaldo",
-		es: "Armaldo",
-		it: "Armaldo",
-		pt: "Armaldo",
-		de: "Armaldo"
+		'en-us': "Armaldo",
+		'fr-fr': "Armaldo",
+		'es-es': "Armaldo",
+		'it-it': "Armaldo",
+		'pt-br': "Armaldo",
+		'de-de': "Armaldo"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Anorith",
-		fr: "Anorith",
+		'en-us': "Anorith",
+		'fr-fr': "Anorith",
 	},
 
 	stage: "Stage2",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ancient Blast",
-				fr: "Explosion Ancestrale",
-				es: "Sacudida Ancestral",
-				it: "Antica Esplosione",
-				pt: "Explosão Arcaica",
-				de: "Uralte Eruption"
+				'en-us': "Ancient Blast",
+				'fr-fr': "Explosion Ancestrale",
+				'es-es': "Sacudida Ancestral",
+				'it-it': "Antica Esplosione",
+				'pt-br': "Explosão Arcaica",
+				'de-de': "Uralte Eruption"
 			},
 			effect: {
-				en: "This attack does 50 more damage for each Unidentified Fossil card in your discard pile.",
-				fr: "Cette attaque inflige 50 dégâts supplémentaires pour chaque carte Fossile Inconnu dans votre pile de défausse.",
-				es: "Este ataque hace 50 puntos de daño más por cada carta de Fósil Desconocido en tu pila de descartes.",
-				it: "Questo attacco infligge 50 danni in più per ogni carta Fossile Sconosciuto nella tua pila degli scarti.",
-				pt: "Este ataque causa 50 pontos de dano a mais para cada carta Fóssil Não Identificado na sua pilha de descarte.",
-				de: "Diese Attacke fügt 50 Schadenspunkte mehr mal der Anzahl der Unbekanntes Fossil-Karten in deinem Ablagestapel zu."
+				'en-us': "This attack does 50 more damage for each Unidentified Fossil card in your discard pile.",
+				'fr-fr': "Cette attaque inflige 50 dégâts supplémentaires pour chaque carte Fossile Inconnu dans votre pile de défausse.",
+				'es-es': "Este ataque hace 50 puntos de daño más por cada carta de Fósil Desconocido en tu pila de descartes.",
+				'it-it': "Questo attacco infligge 50 danni in più per ogni carta Fossile Sconosciuto nella tua pila degli scarti.",
+				'pt-br': "Este ataque causa 50 pontos de dano a mais para cada carta Fóssil Não Identificado na sua pilha de descarte.",
+				'de-de': "Diese Attacke fügt 50 Schadenspunkte mehr mal der Anzahl der Unbekanntes Fossil-Karten in deinem Ablagestapel zu."
 			},
 			damage: "20+",
 
@@ -65,20 +65,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mach Claw",
-				fr: "Instagriffe",
-				es: "Garra Mach",
-				it: "Artiglio Mach",
-				pt: "Garra Supersônica",
-				de: "Tempoklaue"
+				'en-us': "Mach Claw",
+				'fr-fr': "Instagriffe",
+				'es-es': "Garra Mach",
+				'it-it': "Artiglio Mach",
+				'pt-br': "Garra Supersônica",
+				'de-de': "Tempoklaue"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				es: "El daño de este ataque no se ve afectado por Resistencia.",
-				it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-				pt: "O dano deste ataque não é afetado por Resistência.",
-				de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+				'en-us': "This attack’s damage isn’t affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+				'it-it': "I danni di questo attacco non sono influenzati dalla resistenza.",
+				'pt-br': "O dano deste ataque não é afetado por Resistência.",
+				'de-de': "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
 			},
 			damage: 100,
 
@@ -95,7 +95,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It lived on land and went out into the sea to hunt for prey. Its sharp claws were its greatest weapon.",
+		'en-us': "It lived on land and went out into the sea to hunt for prey. Its sharp claws were its greatest weapon.",
 	},
 
 	thirdParty: {

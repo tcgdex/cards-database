@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴールデン",
+		'ja-jp': "ゴールデン",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "超音速",
+				'ja-jp': "超音速",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
 			},
 		},
 		{
 			cost: ["Water"],
 			name: {
-				ja: "滝",
+				'ja-jp': "滝",
 			},
 			damage: 10,
 		},

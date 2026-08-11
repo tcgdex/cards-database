@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Nuzleaf",
-		fr: "Pifeuil",
-		es: "Nuzleaf",
-		it: "Nuzleaf",
-		pt: "Nuzleaf",
-		de: "Blanas"
+		'en-us': "Nuzleaf",
+		'fr-fr': "Pifeuil",
+		'es-es': "Nuzleaf",
+		'it-it': "Nuzleaf",
+		'pt-br': "Nuzleaf",
+		'de-de': "Blanas"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Seedot",
-		fr: "Grainipiot",
+		'en-us': "Seedot",
+		'fr-fr': "Grainipiot",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surprise Punch",
-				fr: "Raclée Surprise",
+				'en-us': "Surprise Punch",
+				'fr-fr': "Raclée Surprise",
 			},
 			effect: {
-				en: "Move an Energy attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon.",
-				fr: "Déplacez une Énergie attachée au Pokémon Défenseur vers 1 des Pokémon de Banc de votre adversaire.",
+				'en-us': "Move an Energy attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon.",
+				'fr-fr': "Déplacez une Énergie attachée au Pokémon Défenseur vers 1 des Pokémon de Banc de votre adversaire.",
 			},
 			damage: 20,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The sound of its grass flute makes its listeners uneasy. It lives deep in forests.",
+		'en-us': "The sound of its grass flute makes its listeners uneasy. It lives deep in forests.",
 	},
 
 	thirdParty: {

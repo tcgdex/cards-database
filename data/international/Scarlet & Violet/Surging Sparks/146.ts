@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vigoroth",
-		fr: "Vigoroth",
-		es: "Vigoroth",
-		it: "Vigoroth",
-		pt: "Vigoroth",
-		de: "Muntier"
+		'en-us': "Vigoroth",
+		'fr-fr': "Vigoroth",
+		'es-es': "Vigoroth",
+		'it-it': "Vigoroth",
+		'pt-br': "Vigoroth",
+		'de-de': "Muntier"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Slakoth",
-		fr: "Parecool",
-		es: "Slakoth",
-		it: "Slakoth",
-		pt: "Slakoth",
-		de: "Bummelz"
+		'en-us': "Slakoth",
+		'fr-fr': "Parecool",
+		'es-es': "Slakoth",
+		'it-it': "Slakoth",
+		'pt-br': "Slakoth",
+		'de-de': "Bummelz"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Slashing Claw",
-			fr: "Griffe Taillante",
-			es: "Garra Cuchillazo",
-			it: "Artigli Laceranti",
-			pt: "Garra Cortadora",
-			de: "Schlitzende Klaue"
+			'en-us': "Slashing Claw",
+			'fr-fr': "Griffe Taillante",
+			'es-es': "Garra Cuchillazo",
+			'it-it': "Artigli Laceranti",
+			'pt-br': "Garra Cortadora",
+			'de-de': "Schlitzende Klaue"
 		},
 
 		damage: 50

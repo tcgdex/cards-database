@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Sentret",
-		fr: "Fouinette",
-		es: "Sentret",
-		it: "Sentret",
-		pt: "Sentret",
-		de: "Wiesor"
+		'en-us': "Sentret",
+		'fr-fr': "Fouinette",
+		'es-es': "Sentret",
+		'it-it': "Sentret",
+		'pt-br': "Sentret",
+		'de-de': "Wiesor"
 	},
 
 	illustrator: "Mizue",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				es: "Arañazo",
-				it: "Graffio",
-				pt: "Arranhão",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'es-es': "Arañazo",
+				'it-it': "Graffio",
+				'pt-br': "Arranhão",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Smack",
-				fr: "Coup de Queue",
-				es: "Bofetón Cola",
-				it: "Codasberla",
-				pt: "Ataque de Cauda",
-				de: "Schweifschlag"
+				'en-us': "Tail Smack",
+				'fr-fr': "Coup de Queue",
+				'es-es': "Bofetón Cola",
+				'it-it': "Codasberla",
+				'pt-br': "Ataque de Cauda",
+				'de-de': "Schweifschlag"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When acting as a lookout, it warns others of danger by screeching and hitting the ground with its tail.",
+		'en-us': "When acting as a lookout, it warns others of danger by screeching and hitting the ground with its tail.",
 	},
 
 	thirdParty: {

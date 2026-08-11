@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マチエール",
+		'ja-jp': "マチエール",
 	},
 
 	illustrator: "Akira Komayama",
 	category: "Trainer",
 
 	effect: {
-		ja: "相手の手札を見て、その中にあるポケモンの枚数ぶん、自分の山札を引く。",
+		'ja-jp': "相手の手札を見て、その中にあるポケモンの枚数ぶん、自分の山札を引く。",
 	},
 
 	variants: [

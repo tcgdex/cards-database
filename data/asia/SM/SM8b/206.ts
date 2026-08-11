@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リーフィアGX",
+		'ja-jp': "リーフィアGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "あおばのいぶき" },
 			effect: {
-				ja: "このポケモンがバトル場にいるなら、自分の番に1回使える。エネルギーがついている自分のポケモン1匹のHPを「50」回復する。",
+				'ja-jp': "このポケモンがバトル場にいるなら、自分の番に1回使える。エネルギーがついている自分のポケモン1匹のHPを「50」回復する。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			name: { ja: "グランブルームGX" },
 			cost: ["Grass"],
 			effect: {
-				ja: "自分のベンチのたねポケモン全員からそれぞれ進化するカードを、自分の山札から1枚ずつ選び、それぞれにのせて進化させる。そして山札を切る。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分のベンチのたねポケモン全員からそれぞれ進化するカードを、自分の山札から1枚ずつ選び、それぞれにのせて進化させる。そして山札を切る。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 2,

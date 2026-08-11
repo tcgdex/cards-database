@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Vaporeon",
-		fr: "Aquali",
-		de: "Aquana"
+		'en-us': "Vaporeon",
+		'fr-fr': "Aquali",
+		'de-de': "Aquana"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aurora Beam",
-				fr: "Onde boréale",
-				de: "Aurora Beam"
+				'en-us': "Aurora Beam",
+				'fr-fr': "Onde boréale",
+				'de-de': "Aurora Beam"
 			},
 
 			damage: 30,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Sonic",
-				fr: "Aquasonique",
-				de: "Aqua Sonic"
+				'en-us': "Aqua Sonic",
+				'fr-fr': "Aquasonique",
+				'de-de': "Aqua Sonic"
 			},
 			effect: {
-				en: "This attack's damage is not affected by Resistance.",
-				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance.",
-				de: "This attack's damage is not affected by Resistance."
+				'en-us': "This attack's damage is not affected by Resistance.",
+				'fr-fr': "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance.",
+				'de-de': "This attack's damage is not affected by Resistance."
 			},
 			damage: 50,
 

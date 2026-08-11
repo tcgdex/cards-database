@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フラフィー",
+		'ja-jp': "フラフィー",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "排出",
+				'ja-jp': "排出",
 			},
 			effect: {
-				ja: "この攻撃を使用するために、Flaaffyに取り付けられたすべての稲妻エネルギーカードを廃棄します。廃棄した稲妻エネルギーカードの数に等しい多数のコインをひっくり返します。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
+				'ja-jp': "この攻撃を使用するために、Flaaffyに取り付けられたすべての稲妻エネルギーカードを廃棄します。廃棄した稲妻エネルギーカードの数に等しい多数のコインをひっくり返します。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
 			},
 		},
 		{
 			cost: ["Lightning", "Lightning"],
 			name: {
-				ja: "電流",
+				'ja-jp': "電流",
 			},
 			effect: {
-				ja: "Flaaffyに取り付けられた1つのLightning Energyカードを使用して、ベンチ付きポケモンの1つに取り付けます。ベンチ付きポケモンがない場合は、そのエネルギーカードを捨ててください。",
+				'ja-jp': "Flaaffyに取り付けられた1つのLightning Energyカードを使用して、ベンチ付きポケモンの1つに取り付けます。ベンチ付きポケモンがない場合は、そのエネルギーカードを捨ててください。",
 			},
 			damage: 20,
 		},

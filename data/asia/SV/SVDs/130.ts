@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "กูร์ตง",
-		id: "Lechonk"
+		'th-th': "กูร์ตง",
+		'id-id': "Lechonk"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -15,24 +15,24 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "หาอาหารตลอดวัน มีประสาทการรับกลิ่นที่ยอดเยี่ยมแต่จะไม่ใช้ไปกับเรื่องที่ไม่เกี่ยวข้องกับการหาอาหาร",
-		id: "Lechonk mencari makanan seharian penuh. Meskipun memiliki indra penciuman yang sangat baik, Pokémon ini tidak menggunakannya selain untuk mencari makan."
+		'th-th': "หาอาหารตลอดวัน มีประสาทการรับกลิ่นที่ยอดเยี่ยมแต่จะไม่ใช้ไปกับเรื่องที่ไม่เกี่ยวข้องกับการหาอาหาร",
+		'id-id': "Lechonk mencari makanan seharian penuh. Meskipun memiliki indra penciuman yang sangat baik, Pokémon ini tidak menggunakannya selain untuk mencari makan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "กระโดดโหม่ง",
-			id: "Sundulan Meloncat"
+			'th-th': "กระโดดโหม่ง",
+			'id-id': "Sundulan Meloncat"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "มัดช็อต",
-			id: "Mud Shot"
+			'th-th': "มัดช็อต",
+			'id-id': "Mud Shot"
 		},
 
 		damage: 20,

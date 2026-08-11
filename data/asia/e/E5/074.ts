@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Steelix",
+		'ja-jp': "Steelix",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "レアメタル",
+				'ja-jp': "レアメタル",
 			},
 			effect: {
-				ja: "Steelixに取り付けられたすべての基本エネルギーカードは、通常のタイプではなく金属エネルギーを提供します。",
+				'ja-jp': "Steelixに取り付けられたすべての基本エネルギーカードは、通常のタイプではなく金属エネルギーを提供します。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Metal", "Metal", "Colorless"],
 			name: {
-				ja: "絞る",
+				'ja-jp': "絞る",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて10ダメージを与え、防御ポケモンが麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて10ダメージを与え、防御ポケモンが麻痺しています。",
 			},
 		},
 		{
 			cost: ["Metal", "Metal", "Metal", "Colorless"],
 			name: {
-				ja: "メタルテール",
+				'ja-jp': "メタルテール",
 			},
 			effect: {
-				ja: "ダメージを与える前に、コインをひっくり返すことができます。頭の場合、この攻撃は80のダメージを与えます。尾の場合、この攻撃は何もしません。",
+				'ja-jp': "ダメージを与える前に、コインをひっくり返すことができます。頭の場合、この攻撃は80のダメージを与えます。尾の場合、この攻撃は何もしません。",
 			},
 			damage: 40,
 		},

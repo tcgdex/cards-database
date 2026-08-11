@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハルクジラ",
+		'ja-jp': "ハルクジラ",
 	},
 
 	illustrator: "GOSSAN",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "氷雪地帯を 回遊する。 強靭な 筋肉と ぶ厚い 皮下脂肪で 体を 守る。",
+		'ja-jp': "氷雪地帯を 回遊する。 強靭な 筋肉と ぶ厚い 皮下脂肪で 体を 守る。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Water"],
 			effect: {
-				ja: "相手のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "100×",
 			cost: ["Water", "Water", "Water"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数×100ダメージ。",
+				'ja-jp': "コインを3回投げ、オモテの数×100ダメージ。",
 			},
 		},
 	],
@@ -51,7 +51,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アルクジラ",
+		'ja-jp': "アルクジラ",
 	},
 
 	retreat: 4,

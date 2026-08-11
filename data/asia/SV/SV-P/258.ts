@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガチグマ アカツキex",
+		'ja-jp': "ガチグマ アカツキex",
 	},
 
 	illustrator: "aky CG Works",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ろうれんのわざ" },
 			effect: {
-				ja: "相手がすでにとったサイドの枚数ぶん、このポケモンが「ブラッドムーン」を使うための[C]エネルギーは少なくなる。",
+				'ja-jp': "相手がすでにとったサイドの枚数ぶん、このポケモンが「ブラッドムーン」を使うための[C]エネルギーは少なくなる。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 240,
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],

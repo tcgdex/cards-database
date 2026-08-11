@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ストリンダー",
+		'ja-jp': "ストリンダー",
 	},
 
 	illustrator: "DOM",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "毒の 汗を ほとばしらせながら 電気を 放つとき あたりに ギターのような メロディが 響く。",
+		'ja-jp': "毒の 汗を ほとばしらせながら 電気を 放つとき あたりに ギターのような メロディが 響く。",
 	},
 
 	stage: "Stage1",
@@ -28,7 +28,7 @@ const card: Card = {
 	variants: [{"type": "holo"}],
 
 	evolveFrom: {
-		ja: "エレズン",
+		'ja-jp': "エレズン",
 	},
 
 	retreat: 2,

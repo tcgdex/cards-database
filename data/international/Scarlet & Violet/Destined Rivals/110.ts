@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arven's Toedscruel",
-		fr: "Terracruel de Pepper",
-		de: "Peppers Tenterra",
-		it: "Toedscruel di Pepe",
-		es: "Toedscruel de Damián",
-		pt: "Toedscruel do Arven",
+		'en-us': "Arven's Toedscruel",
+		'fr-fr': "Terracruel de Pepper",
+		'de-de': "Peppers Tenterra",
+		'it-it': "Toedscruel di Pepe",
+		'es-es': "Toedscruel de Damián",
+		'pt-br': "Toedscruel do Arven",
 		'es-mx': "Toedscruel de Damián"
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Arven's Toedscool",
-		fr: "Terracool de Pepper",
-		de: "Peppers Tentagra",
-		it: "Toedscool di Pepe",
-		es: "Toedscool de Damián",
-		pt: "Toedscool do Arven",
+		'en-us': "Arven's Toedscool",
+		'fr-fr': "Terracool de Pepper",
+		'de-de': "Peppers Tentagra",
+		'it-it': "Toedscool di Pepe",
+		'es-es': "Toedscool de Damián",
+		'pt-br': "Toedscool do Arven",
 		'es-mx': "Toedscool de Damián"
 	},
 	stage: "Stage1",
@@ -37,44 +37,44 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Pull",
-			fr: "Tirer",
-			de: "Ziehen",
-			it: "Tira",
-			es: "Tirar",
-			pt: "Puxar",
+			'en-us': "Pull",
+			'fr-fr': "Tirer",
+			'de-de': "Ziehen",
+			'it-it': "Tira",
+			'es-es': "Tirar",
+			'pt-br': "Puxar",
 			'es-mx': "Jalar"
 		},
 
 		effect: {
-			en: "Switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
-			fr: "Envoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif.",
-			de: "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein.",
-			it: "Sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva.",
-			es: "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
-			pt: "Mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo.",
+			'en-us': "Switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
+			'fr-fr': "Envoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif.",
+			'de-de': "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein.",
+			'it-it': "Sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva.",
+			'es-es': "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
+			'pt-br': "Mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo.",
 			'es-mx': "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Reckless Charge",
-			fr: "Attaque Imprudente",
-			de: "Waghalsiger Sturmangriff",
-			it: "Carica Avventata",
-			es: "Carga Descuidada",
-			pt: "Carga Indomável",
+			'en-us': "Reckless Charge",
+			'fr-fr': "Attaque Imprudente",
+			'de-de': "Waghalsiger Sturmangriff",
+			'it-it': "Carica Avventata",
+			'es-es': "Carga Descuidada",
+			'pt-br': "Carga Indomável",
 			'es-mx': "Carga Temeraria"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
 			'es-mx': "Este Pokémon también se hace 30 puntos de daño a sí mismo."
 		},
 

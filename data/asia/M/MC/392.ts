@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アーケン",
+		'ja-jp': "アーケン",
 	},
 
 	illustrator: "Haru Akasaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "とりポケモンの 祖先と 言われる。 飛ぶことは できず 枝から 枝へ 飛び移り 生活していたらしい。",
+		'ja-jp': "とりポケモンの 祖先と 言われる。 飛ぶことは できず 枝から 枝へ 飛び移り 生活していたらしい。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数×30ダメージ追加。",
+				'ja-jp': "コインを2回投げ、オモテの数×30ダメージ追加。",
 			},
 		},
 	],

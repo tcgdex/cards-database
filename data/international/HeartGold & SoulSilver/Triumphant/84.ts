@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Yanma",
-		fr: "Yanma",
-		de: "Yanma"
+		'en-us': "Yanma",
+		'fr-fr': "Yanma",
+		'de-de': "Yanma"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Free Flight",
-				fr: "Vol gratuit",
-				de: "Freiflug"
+				'en-us': "Free Flight",
+				'fr-fr': "Vol gratuit",
+				'de-de': "Freiflug"
 			},
 			effect: {
-				en: "If Yanma has no Energy attached to it, Yanma's Retreat Cost is 0.",
-				fr: "Si aucune carte Énergie n’est attachée à Yanma, son Coût de retraite est de 0.",
-				de: "Wenn keine Energie an Yanma angelegt ist, hat Yanma Rückzugskosten von 0."
+				'en-us': "If Yanma has no Energy attached to it, Yanma's Retreat Cost is 0.",
+				'fr-fr': "Si aucune carte Énergie n’est attachée à Yanma, son Coût de retraite est de 0.",
+				'de-de': "Wenn keine Energie an Yanma angelegt ist, hat Yanma Rückzugskosten von 0."
 			}
 		},
 	],
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dive",
-				fr: "Plongée",
-				de: "Taucher"
+				'en-us': "Dive",
+				'fr-fr': "Plongée",
+				'de-de': "Taucher"
 			},
 
 			damage: 20,
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its large eyes can scan 360 degrees. It looks in all directions to seek out insects as its prey."
+		'en-us': "Its large eyes can scan 360 degrees. It looks in all directions to seek out insects as its prey."
 	},
 
 	variants: [

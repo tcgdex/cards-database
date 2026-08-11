@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [665],
 
 	name: {
-		en: "Spewpa"
+		'en-us': "Spewpa"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -17,24 +17,24 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Scatterbug"
+		'en-us': "Scatterbug"
 	},
 
 	description: {
-		en: "Spewpa doesn't live in a fixed location. It roams\nwhere it pleases across the fields and mountains,\nbuilding up the energy it needs to evolve."
+		'en-us': "Spewpa doesn't live in a fixed location. It roams\nwhere it pleases across the fields and mountains,\nbuilding up the energy it needs to evolve."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Signs of Evolution"
+			'en-us': "Signs of Evolution"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Put a random card that evolves from Spewpa from your deck into your hand."
+			'en-us': "Put a random card that evolves from Spewpa from your deck into your hand."
 		}
 	}],
 

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Caterpie",
-		fr: "Chenipan",
+		'en-us': "Caterpie",
+		'fr-fr': "Chenipan",
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
 			},
 
 			damage: 10,
@@ -49,7 +49,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Perhaps because it would like to grow up quickly, it has a voracious appetite, eating a hundred leaves a day.",
+		'en-us': "Perhaps because it would like to grow up quickly, it has a voracious appetite, eating a hundred leaves a day.",
 	},
 
 	thirdParty: {

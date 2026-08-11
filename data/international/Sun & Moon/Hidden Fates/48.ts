@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Eevee",
-		fr: "Évoli",
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Curiosity",
-				fr: "Curiosité",
+				'en-us': "Curiosity",
+				'fr-fr': "Curiosité",
 			},
 			effect: {
-				en: "Your opponent reveals their hand.",
-				fr: "Votre adversaire dévoile sa main.",
+				'en-us': "Your opponent reveals their hand.",
+				'fr-fr': "Votre adversaire dévoile sa main.",
 			},
 
 		},
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spin Tackle",
-				fr: "Charge Tournoyante",
+				'en-us': "Spin Tackle",
+				'fr-fr': "Charge Tournoyante",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c’est pile, ce Pokémon s’inflige 10 dégâts.",
+				'en-us': "Flip a coin. If tails, this Pokémon does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, ce Pokémon s’inflige 10 dégâts.",
 			},
 			damage: 30,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The question of why only Eevee has such unstable genes has still not been solved.",
+		'en-us': "The question of why only Eevee has such unstable genes has still not been solved.",
 	},
 
 	thirdParty: {

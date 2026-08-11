@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Luxio",
-		fr: "Luxio",
-		es: "Luxio",
-		it: "Luxio",
-		pt: "Luxio",
-		de: "Luxio"
+		'en-us': "Luxio",
+		'fr-fr': "Luxio",
+		'es-es': "Luxio",
+		'it-it': "Luxio",
+		'pt-br': "Luxio",
+		'de-de': "Luxio"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shinx",
-		fr: "Lixy",
+		'en-us': "Shinx",
+		'fr-fr': "Lixy",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Quick Turn",
-				fr: "Vif Retournement",
+				'en-us': "Quick Turn",
+				'fr-fr': "Vif Retournement",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 20,
 
@@ -55,8 +55,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
 			},
 
 			damage: 30,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+		'en-us': "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
 	},
 
 	thirdParty: {

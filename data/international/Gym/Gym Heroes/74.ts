@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Zubat"
+		'en-us': "Brock's Zubat"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack"
+				'en-us': "Wing Attack"
 			},
 
 			damage: 10,
@@ -39,10 +39,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Fang"
+				'en-us': "Poison Fang"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
 
 		},

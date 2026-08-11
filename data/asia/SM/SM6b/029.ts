@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ソルロック",
+		'ja-jp': "ソルロック",
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "昼間に 太陽エネルギーを たくわえる。 いつも 無表情。 相手の 考えを 読み取る。",
+		'ja-jp': "昼間に 太陽エネルギーを たくわえる。 いつも 無表情。 相手の 考えを 読み取る。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "サンライト" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分の場の「ルナトーン」の最大HPは「130」になる。",
+				'ja-jp': "このポケモンがいるかぎり、自分の場の「ルナトーン」の最大HPは「130」になる。",
 			},
 		},
 	],
@@ -33,7 +33,7 @@ const card: Card = {
 			name: { ja: "やけつくひかり" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。ウラなら、相手のバトルポケモンをやけどにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。ウラなら、相手のバトルポケモンをやけどにする。",
 			},
 		},
 	],

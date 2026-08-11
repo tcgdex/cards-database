@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Deoxys-EX",
-		fr: "Deoxys ex",
+		'en-us': "Deoxys-EX",
+		'fr-fr': "Deoxys ex",
 	},
 	illustrator: "Eske Yoshinob",
 	rarity: "Rare",
@@ -25,12 +25,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Power Connect",
-				fr: "Connexion Renforcée",
+				'en-us': "Power Connect",
+				'fr-fr': "Connexion Renforcée",
 			},
 			effect: {
-				en: "Your Team Plasma Pokémon's attacks (excluding Deoxys-EX) do 10 more damage to the Active Pokémon (before applying Weakness and Resistance).",
-				fr: "Les attaques de vos Pokémon de la Team Plasma (excepté Deoxys-EX) infligent 10 dégâts supplémentaires aux Pokémon Actifs (avant application de la Faiblesse et de la Résistance).",
+				'en-us': "Your Team Plasma Pokémon's attacks (excluding Deoxys-EX) do 10 more damage to the Active Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Les attaques de vos Pokémon de la Team Plasma (excepté Deoxys-EX) infligent 10 dégâts supplémentaires aux Pokémon Actifs (avant application de la Faiblesse et de la Résistance).",
 			},
 		},
 	],
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Helix Force",
-				fr: "Force Spirale",
+				'en-us': "Helix Force",
+				'fr-fr': "Force Spirale",
 			},
 			effect: {
-				en: "If this Pokémon has any Plasma Energy attached to it, this attack does 30 more damage for each Energy attached to the Defending Pokémon.",
-				fr: "Si de l'Énergie Plasma est attachée à ce Pokémon, cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+				'en-us': "If this Pokémon has any Plasma Energy attached to it, this attack does 30 more damage for each Energy attached to the Defending Pokémon.",
+				'fr-fr': "Si de l'Énergie Plasma est attachée à ce Pokémon, cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 30,
 

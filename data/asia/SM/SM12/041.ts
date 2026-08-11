@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナックラー",
+		'ja-jp': "ナックラー",
 	},
 
 	illustrator: "sowsow",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "アゴは 岩も 砕くが 重くて ひっくり 返ると 起きられない。 メグロコは その隙を 狙うのだ。",
+		'ja-jp': "アゴは 岩も 砕くが 重くて ひっくり 返ると 起きられない。 メグロコは その隙を 狙うのだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "すづくり" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にあるスタジアムを1枚、相手に見せてから、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札にあるスタジアムを1枚、相手に見せてから、手札に加える。そして山札を切る。",
 			},
 		},
 		{

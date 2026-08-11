@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Kalos Starter Set'
 
 const card: Card = {
 	name: {
-		en: "Clauncher",
-		fr: "Flingouste",
-		es: "Clauncher",
-		it: "Clauncher",
-		pt: "Clauncher",
-		de: "Scampisto"
+		'en-us': "Clauncher",
+		'fr-fr': "Flingouste",
+		'es-es': "Clauncher",
+		'it-it': "Clauncher",
+		'pt-br': "Clauncher",
+		'de-de': "Scampisto"
 	},
 
 	illustrator: "5ban Graphics",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
-				es: "Pistola Agua",
-				it: "Pistolacqua",
-				pt: "Revolver d'Água",
-				de: "Aquaknarre"
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
+				'es-es': "Pistola Agua",
+				'it-it': "Pistolacqua",
+				'pt-br': "Revolver d'Água",
+				'de-de': "Aquaknarre"
 			},
 
 			damage: 20,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They knock down flying prey by firing compressed water from their massive claws like shooting a pistol.",
+		'en-us': "They knock down flying prey by firing compressed water from their massive claws like shooting a pistol.",
 	},
 
 	thirdParty: {

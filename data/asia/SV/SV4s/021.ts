@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Camerupt"
+		'id-id': "Camerupt"
 	},
 
 	illustrator: "satoma",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Camerupt hidup di kawah gunung berapi. Punuk di punggungnya terkenal mengeluarkan erupsi besar setiap 10 tahun sekali."
+		'id-id': "Camerupt hidup di kawah gunung berapi. Punuk di punggungnya terkenal mengeluarkan erupsi besar setiap 10 tahun sekali."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Api Penghangus"
+			'id-id': "Api Penghangus"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
 		},
 
 		cost: ["Fire"]
 	}, {
 		name: {
-			id: "Meriam Batu Letusan"
+			'id-id': "Meriam Batu Letusan"
 		},
 
 		effect: {
-			id: "Pemain dapat memilih 1 Energi {Petarung} yang dikenakan pada Pokémon ini, lalu membuangnya ke Trash. Jika dilakukan, kerusakan yang diberikan bertambah sejumlah 120."
+			'id-id': "Pemain dapat memilih 1 Energi {Petarung} yang dikenakan pada Pokémon ini, lalu membuangnya ke Trash. Jika dilakukan, kerusakan yang diberikan bertambah sejumlah 120."
 		},
 
 		damage: "120+",

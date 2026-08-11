@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Hypotrempe",
-		en: "Horsea",
-		es: "Horsea",
-		it: "Horsea",
-		pt: "Horsea",
-		de: "Seeper"
+		'fr-fr': "Hypotrempe",
+		'en-us': "Horsea",
+		'es-es': "Horsea",
+		'it-it': "Horsea",
+		'pt-br': "Horsea",
+		'de-de': "Seeper"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			fr: "Pluie Éclaboussante",
-			en: "Rain Splash",
-			es: "Golpe de Lluvia",
-			it: "Spruzzapioggia",
-			pt: "Chuva Borrifante",
-			de: "Regenplatscher"
+			'fr-fr': "Pluie Éclaboussante",
+			'en-us': "Rain Splash",
+			'es-es': "Golpe de Lluvia",
+			'it-it': "Spruzzapioggia",
+			'pt-br': "Chuva Borrifante",
+			'de-de': "Regenplatscher"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Aileron Aiguisé",
-			en: "Sharp Fin",
-			es: "Cortaleta",
-			it: "Pinnaffilata",
-			pt: "Barbatana Afiada",
-			de: "Schneidige Flosse"
+			'fr-fr': "Aileron Aiguisé",
+			'en-us': "Sharp Fin",
+			'es-es': "Cortaleta",
+			'it-it': "Pinnaffilata",
+			'pt-br': "Barbatana Afiada",
+			'de-de': "Schneidige Flosse"
 		},
 
 		damage: 40
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "They swim with dance-like motions and cause whirlpools to form. Horsea compete to see which of them can generate the biggest whirlpool.",
+		'en-us': "They swim with dance-like motions and cause whirlpools to form. Horsea compete to see which of them can generate the biggest whirlpool.",
 	},
 
 	variants: [

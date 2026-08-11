@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Psyduck",
-		fr: "Psykokwak",
+		'en-us': "Psyduck",
+		'fr-fr': "Psykokwak",
 	},
 
 	illustrator: "nagimiso",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Headache",
-				fr: "Migraine",
+				'en-us': "Headache",
+				'fr-fr': "Migraine",
 			},
 
 			damage: 20,
@@ -49,7 +49,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Using psychokinesis gives it a headache, so it normally passes the time spacing out and doing as little as possible.",
+		'en-us': "Using psychokinesis gives it a headache, so it normally passes the time spacing out and doing as little as possible.",
 	},
 
 	thirdParty: {

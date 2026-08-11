@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Plusle",
-		fr: "Posipi",
-		de: "Plusle"
+		'en-us': "Plusle",
+		'fr-fr': "Posipi",
+		'de-de': "Plusle"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collectionner",
-				de: "Sammeln"
+				'en-us': "Collect",
+				'fr-fr': "Collectionner",
+				'de-de': "Sammeln"
 			},
 			effect: {
-				en: "Draw 2 cards.",
-				fr: "Piochez 2 cartes.",
-				de: "Ziehe 2 Karten."
+				'en-us': "Draw 2 cards.",
+				'fr-fr': "Piochez 2 cartes.",
+				'de-de': "Ziehe 2 Karten."
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunder Jolt",
-				fr: "Secousse tonnerre",
-				de: "Donnerrüttler"
+				'en-us': "Thunder Jolt",
+				'fr-fr': "Secousse tonnerre",
+				'de-de': "Donnerrüttler"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Plusle does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c’est pile, Posipi s’inflige 10 dégâts.",
-				de: "Wirf eine Münze. Bei \"Zahl\" fügt Plusle sich selbst 10 Schadenspunkte zu."
+				'en-us': "Flip a coin. If tails, Plusle does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, Posipi s’inflige 10 dégâts.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" fügt Plusle sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises."
+		'en-us': "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises."
 	},
 
 	variants: [

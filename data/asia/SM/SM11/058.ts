@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レパルダス",
+		'ja-jp': "レパルダス",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "美しい スタイルは 全身の 発達した 筋肉の おかげ。 音もたてずに 夜を 駆けぬける。",
+		'ja-jp': "美しい スタイルは 全身の 発達した 筋肉の おかげ。 音もたてずに 夜を 駆けぬける。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたたねポケモンは、ワザが使えない。",
+				'ja-jp': "次の相手の番、このワザを受けたたねポケモンは、ワザが使えない。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チョロネコ",
+		'ja-jp': "チョロネコ",
 	},
 
 	retreat: 1,

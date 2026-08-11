@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロトム",
+		'ja-jp': "ロトム",
 		'zh-tw': "精靈球",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "特殊な モーターを 動かす 動力源として 長い あいだ 研究されていた ポケモン。",
+		'ja-jp': "特殊な モーターを 動かす 動力源として 長い あいだ 研究されていた ポケモン。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			name: { ja: "ジャンクハント" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュからグッズを1枚選び、相手に見せて、手札に加える。",
+				'ja-jp': "自分のトラッシュからグッズを1枚選び、相手に見せて、手札に加える。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Lightning"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],

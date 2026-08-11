@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ツンデツンデGX",
+		'ja-jp': "ツンデツンデGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ウルトラウォール" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分の「ウルトラビースト」全員が、相手のポケモンから受けるワザのダメージは「-10」される。",
+				'ja-jp': "このポケモンがいるかぎり、自分の「ウルトラビースト」全員が、相手のポケモンから受けるワザのダメージは「-10」される。",
 			},
 		},
 	],
@@ -35,7 +35,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "自分がすでにとったサイドの枚数x50ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分がすでにとったサイドの枚数x50ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

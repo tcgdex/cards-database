@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Litten"
+		'en-us': "Litten"
 	},
 
 	illustrator: "whomor Inc.",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "If you try too hard to get close to it, it won't\nopen up to you. Even if you do grow close,\ngiving it too much affection is still a no-no."
+		'en-us': "If you try too hard to get close to it, it won't\nopen up to you. Even if you do grow close,\ngiving it too much affection is still a no-no."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Heat Tackle"
+			'en-us': "Heat Tackle"
 		},
 
 		damage: 30,
 		cost: ["Fire"],
 
 		effect: {
-			en: "This Pokémon also does 10 damage to itself."
+			'en-us': "This Pokémon also does 10 damage to itself."
 		}
 	}],
 

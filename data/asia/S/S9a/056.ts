@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "貓頭夜鷹",
-		ja: "ヨルノズク"
+		'ja-jp': "ヨルノズク"
 	},
 
 	illustrator: "Nisota Niso",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "雙眼有著特殊的構造，只要有些微的光線，即使在黑暗中 也能看得像白天一樣清楚。",
-		ja: "特殊な つくりの 両目は わずかな 光さえ あれば 暗闇でも 昼のように 見える。"
+		'ja-jp': "特殊な つくりの 両目は わずかな 光さえ あれば 暗闇でも 昼のように 見える。"
 	},
 
 	stage: "Stage1",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "靜默之翼",
-			ja: "サイレントウイング"
+			'ja-jp': "サイレントウイング"
 		},
 
 		effect: {
 			'zh-tw': "查看對手的手牌。",
-			ja: "相手の手札を見る。"
+			'ja-jp': "相手の手札を見る。"
 		},
 
 		damage: 50,
@@ -37,12 +37,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "空氣斬",
-			ja: "エアスラッシュ"
+			'ja-jp': "エアスラッシュ"
 		},
 
 		effect: {
 			'zh-tw': "選擇1個這隻寶可夢身上附加的能量，將其丟棄。",
-			ja: "このポケモンについているエネルギーを1個選び、トラッシュする。"
+			'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。"
 		},
 
 		damage: 120,

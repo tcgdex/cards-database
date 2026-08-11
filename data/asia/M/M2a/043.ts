@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パオジアン",
+		'ja-jp': "パオジアン",
 	},
 
 	illustrator: "toi8",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "大昔に 剣によって 露と消えた 者たちの 憎しみが 雪を まとい ポケモンになった。",
+		'ja-jp': "大昔に 剣によって 露と消えた 者たちの 憎しみが 雪を まとい ポケモンになった。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ゆきにしずめる" },
 			effect: {
-				ja: "自分の番に、このカードを手札からベンチに出したとき、1回使える。場に出ているスタジアムをトラッシュする。",
+				'ja-jp': "自分の番に、このカードを手札からベンチに出したとき、1回使える。場に出ているスタジアムをトラッシュする。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、手札にもどす。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、手札にもどす。",
 			},
 		},
 	],

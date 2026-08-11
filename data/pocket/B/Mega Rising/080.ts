@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eiscue"
+		'en-us': "Eiscue"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "If you lick the ice covering its face, you'll find it\nhas a faintly salty taste. This species rode here on\nocean currents from a cold, faraway land."
+		'en-us': "If you lick the ice covering its face, you'll find it\nhas a faintly salty taste. This species rode here on\nocean currents from a cold, faraway land."
 	},
 
 	stage: "Basic",
@@ -26,17 +26,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Ice Face"
+			'en-us': "Ice Face"
 		},
 
 		effect: {
-			en: "If this Pokémon has full HP, it takes −40 damage from attacks from your opponent's Pokémon."
+			'en-us': "If this Pokémon has full HP, it takes −40 damage from attacks from your opponent's Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Ram"
+			'en-us': "Ram"
 		},
 
 		damage: 50,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Oddish",
-		fr: "Mystherbe",
-		de: "Myrapla"
+		'en-us': "Oddish",
+		'fr-fr': "Mystherbe",
+		'de-de': "Myrapla"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poisonpowder",
-				fr: "Poudre Toxik",
-				de: "Giftpuder"
+				'en-us': "Poisonpowder",
+				'fr-fr': "Poudre Toxik",
+				'de-de': "Giftpuder"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'de-de': "Ramme"
 			},
 
 			damage: 20,
@@ -68,8 +68,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It often plants its root feet in the ground during the day and sows seeds as it walks about at night.",
-		fr: "En journée, il plante ses piedsracines dans le sol. La nuit, il se promène en semant des graines."
+		'en-us': "It often plants its root feet in the ground during the day and sows seeds as it walks about at night.",
+		'fr-fr': "En journée, il plante ses piedsracines dans le sol. La nuit, il se promène en semant des graines."
 	},
 
 	thirdParty: {

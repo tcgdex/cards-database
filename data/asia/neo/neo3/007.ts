@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャンプラフ",
+		'ja-jp': "ジャンプラフ",
 	},
 
 	rarity: "Holo Rare",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "進化の胞子",
+				'ja-jp': "進化の胞子",
 			},
 			effect: {
-				ja: "ホッピップとスキップルームの数を選択してください。次に、この方法で選択したポケモンごとに、そのポケモンから進化するカードをデッキで検索し、そのポケモンに取り付けることができます。 （これはそれらのポケモンを進化させるものとしてカウントされます。）その後、デッキをシャッフルします。",
+				'ja-jp': "ホッピップとスキップルームの数を選択してください。次に、この方法で選択したポケモンごとに、そのポケモンから進化するカードをデッキで検索し、そのポケモンに取り付けることができます。 （これはそれらのポケモンを進化させるものとしてカウントされます。）その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "SolarBeam",
+				'ja-jp': "SolarBeam",
 			},
 			damage: 30,
 		},

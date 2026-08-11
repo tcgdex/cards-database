@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ムウマージ"
+		'ja-jp': "ムウマージ"
 	},
 
 	illustrator: "aoki",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "呪文のような 鳴き声だが まれに 相手を 幸せにする 効果も 秘めているという。"
+		'ja-jp': "呪文のような 鳴き声だが まれに 相手を 幸せにする 効果も 秘めているという。"
 	},
 
 	stage: "Stage1",
@@ -24,11 +24,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "マジカルフリック"
+			'ja-jp': "マジカルフリック"
 		},
 
 		effect: {
-			ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のバトルポケモンについているエネルギーを1個選び、相手のベンチポケモンにつけ替える。"
+			'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のバトルポケモンについているエネルギーを1個選び、相手のベンチポケモンにつけ替える。"
 		}
 	}],
 
@@ -36,7 +36,7 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "ねんどうだん"
+			'ja-jp': "ねんどうだん"
 		},
 
 		damage: 60

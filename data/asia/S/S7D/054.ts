@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウールー",
+		'ja-jp': "ウールー",
 		'zh-tw': "毛辮羊",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "毛が 伸びすぎると 動けない。 ウールーの 体毛で 織られた 布は 驚くほど 丈夫。",
+		'ja-jp': "毛が 伸びすぎると 動けない。 ウールーの 体毛で 織られた 布は 驚くほど 丈夫。",
 		'zh-tw': "要是身上的毛長得太長就會不能動彈。用毛辮羊的體毛織成的布結實得讓人吃驚。",
 	},
 
@@ -23,25 +23,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "くつがえす",
+				'ja-jp': "くつがえす",
 				'zh-tw': "阻撓",
 			},
 			damage: 10,
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについている特殊エネルギーを1個選び、トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについている特殊エネルギーを1個選び、トラッシュする。",
 				'zh-tw': "選擇1個對手的戰鬥寶可夢身上附加的特殊能量，將其丟棄。",
 			},
 		},
 		{
 			name: {
-				ja: "みんなでころがる",
+				'ja-jp': "みんなでころがる",
 				'zh-tw': "一同滾動",
 			},
 			damage: "20×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチの、ワザ「みんなでころがる」を持つポケモンの数×20ダメージ。",
+				'ja-jp': "自分のベンチの、ワザ「みんなでころがる」を持つポケモンの数×20ダメージ。",
 				'zh-tw': "造成自己的備戰區的，持有「一同滾動」招式的寶可夢的數量×20點傷害。",
 			},
 		},

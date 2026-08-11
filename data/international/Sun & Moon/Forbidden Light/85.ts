@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Floette",
-		fr: "Floette",
-		es: "Floette",
-		it: "Floette",
-		pt: "Floette",
-		de: "Floette"
+		'en-us': "Floette",
+		'fr-fr': "Floette",
+		'es-es': "Floette",
+		'it-it': "Floette",
+		'pt-br': "Floette",
+		'de-de': "Floette"
 	},
 
 	illustrator: "Mina Nakai",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Flabébé",
-		fr: "Flabébé",
+		'en-us': "Flabébé",
+		'fr-fr': "Flabébé",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Swirling Petals",
-				fr: "Pétales Tourbillonnants",
-				es: "Remolino de Pétalos",
-				it: "Turbine di Petali",
-				pt: "Turbilhão de Pétalas",
-				de: "Flatterblüten"
+				'en-us': "Swirling Petals",
+				'fr-fr': "Pétales Tourbillonnants",
+				'es-es': "Remolino de Pétalos",
+				'it-it': "Turbine di Petali",
+				'pt-br': "Turbilhão de Pétalas",
+				'de-de': "Flatterblüten"
 			},
 			effect: {
-				en: "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon. If you do, switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif. Dans ce cas, échangez ce Pokémon avec l’un de vos Pokémon de Banc.",
-				es: "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo. Si lo haces, cambia este Pokémon por 1 de tus Pokémon en Banca.",
-				it: "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo. Se lo fai, scambia questo Pokémon con uno dei tuoi Pokémon in panchina.",
-				pt: "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a). Se fizer isto, troque este Pokémon por 1 dos seus Pokémon no Banco.",
-				de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus. Wenn du das machst, tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon. If you do, switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif. Dans ce cas, échangez ce Pokémon avec l’un de vos Pokémon de Banc.",
+				'es-es': "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo. Si lo haces, cambia este Pokémon por 1 de tus Pokémon en Banca.",
+				'it-it': "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo. Se lo fai, scambia questo Pokémon con uno dei tuoi Pokémon in panchina.",
+				'pt-br': "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a). Se fizer isto, troque este Pokémon por 1 dos seus Pokémon no Banco.",
+				'de-de': "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus. Wenn du das machst, tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 
 		},
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When the flowers of a well-tended flower bed bloom, it appears and celebrates with an elegant dance.",
+		'en-us': "When the flowers of a well-tended flower bed bloom, it appears and celebrates with an elegant dance.",
 	},
 
 	thirdParty: {

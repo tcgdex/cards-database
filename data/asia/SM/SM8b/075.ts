@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アクジキング",
+		'ja-jp': "アクジキング",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "危険生物 ビーストの 一種。 つねに なにかを 喰らっているようだが なぜか フンは 未発見。",
+		'ja-jp': "危険生物 ビーストの 一種。 つねに なにかを 喰らっているようだが なぜか フンは 未発見。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Darkness", "Darkness", "Darkness", "Darkness"],
 			effect: {
-				ja: "自分のサイドの残り枚数が6枚・4枚・2枚なら、自分の山札を上から10枚トラッシュする。",
+				'ja-jp': "自分のサイドの残り枚数が6枚・4枚・2枚なら、自分の山札を上から10枚トラッシュする。",
 			},
 		},
 	],

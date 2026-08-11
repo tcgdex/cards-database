@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マダツボミ",
+		'ja-jp': "マダツボミ",
 	},
 
 	illustrator: "Aya Kusube",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "ひょろっとした 体つきだが 獲物を 捕らえるときの 動きは 目にも とまらないほど 素早い。",
+		'ja-jp': "ひょろっとした 体つきだが 獲物を 捕らえるときの 動きは 目にも とまらないほど 素早い。",
 	},
 
 	stage: "Basic",

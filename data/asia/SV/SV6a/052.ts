@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヌイコグマ",
+		'ja-jp': "ヌイコグマ",
 		'zh-tw': "童偶熊",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ふわふわの 毛並みは 触り心地が 抜群だが うかつに 手を だすと 手痛い 反撃を 受けてしまう。",
+		'ja-jp': "ふわふわの 毛並みは 触り心地が 抜群だが うかつに 手を だすと 手痛い 反撃を 受けてしまう。",
 		'zh-tw': "毛茸茸的毛皮摸起來觸感超群， 但粗心大意地向牠伸出手的人 基本上都會遭到牠的劇烈反擊。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "とっしん",
+				'ja-jp': "とっしん",
 				'zh-tw': "猛撞",
 			},
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンにも10ダメージ。",
+				'ja-jp': "このポケモンにも10ダメージ。",
 				'zh-tw': "這隻寶可夢也受到10點傷害。",
 			},
 		},

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit (Latias)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Torchic",
-		fr: "Poussifeu"
+		'en-us': "Torchic",
+		'fr-fr': "Poussifeu"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -26,12 +26,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Firebreathing",
-			fr: "Souffle-feu"
+			'en-us': "Firebreathing",
+			'fr-fr': "Souffle-feu"
 		},
 		effect: {
-			en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires."
+			'en-us': "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires."
 		},
 		damage: "20+"
 	}],

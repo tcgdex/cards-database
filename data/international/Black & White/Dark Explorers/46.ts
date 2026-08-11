@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Eelektrik",
-		fr: "Lampéroie",
-		es: "Eelektrik",
-		it: "Eelektrik",
-		pt: "Eelektrik",
-		de: "Zapplalek"
+		'en-us': "Eelektrik",
+		'fr-fr': "Lampéroie",
+		'es-es': "Eelektrik",
+		'it-it': "Eelektrik",
+		'pt-br': "Eelektrik",
+		'de-de': "Zapplalek"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tynamo",
-		fr: "Anchwatt"
+		'en-us': "Tynamo",
+		'fr-fr': "Anchwatt"
 	},
 
 	stage: "Stage1",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'Boule"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'Boule"
 			},
 
 			damage: 20,
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shock Bolt",
-				fr: "Choc'Éclair"
+				'en-us': "Shock Bolt",
+				'fr-fr': "Choc'Éclair"
 			},
 			effect: {
-				en: "Discard all Lightning Energy attached to this Pokémon.",
-				fr: "Défaussez toutes les Énergies  attachées à ce Pokémon."
+				'en-us': "Discard all Lightning Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez toutes les Énergies  attachées à ce Pokémon."
 			},
 			damage: 80,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity.",
+		'en-us': "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity.",
 	},
 
 	thirdParty: {

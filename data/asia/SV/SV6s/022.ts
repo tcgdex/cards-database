@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Sinistcha"
+		'id-id': "Sinistcha"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Pokémon yang menyukai tempat gelap dan dingin seperti di bawah lantai rumah, di dalam rak, atau lainnya. Ia berkeliaran mencari mangsanya setelah matahari terbenam."
+		'id-id': "Pokémon yang menyukai tempat gelap dan dingin seperti di bawah lantai rumah, di dalam rak, atau lainnya. Ia berkeliaran mencari mangsanya setelah matahari terbenam."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Tetesan Kutukan"
+			'id-id': "Tetesan Kutukan"
 		},
 
 		effect: {
-			id: "Letakkan sejumlah 4 Token Kerusakan pada Pokémon lawan sesukanya."
+			'id-id': "Letakkan sejumlah 4 Token Kerusakan pada Pokémon lawan sesukanya."
 		},
 
 		cost: ["Grass"]
 	}, {
 		name: {
-			id: "Menghamburkan Teh"
+			'id-id': "Menghamburkan Teh"
 		},
 
 		effect: {
-			id: "Buang paling banyak 3 lembar Energi {Daun} yang dikenakan pada Pokémon di Arena sendiri ke Trash, serangan ini memberikan kerusakan sejumlah 70 untuk tiap lembarnya."
+			'id-id': "Buang paling banyak 3 lembar Energi {Daun} yang dikenakan pada Pokémon di Arena sendiri ke Trash, serangan ini memberikan kerusakan sejumlah 70 untuk tiap lembarnya."
 		},
 
 		damage: "70×",

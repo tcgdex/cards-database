@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シルシュルー",
+		'ja-jp': "シルシュルー",
 	},
 
 	illustrator: "osare",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "温厚だが 怒らせると 毒が 染みこんだ 鋭い 前歯で 咬みつき 痺れさせてくるぞ。",
+		'ja-jp': "温厚だが 怒らせると 毒が 染みこんだ 鋭い 前歯で 咬みつき 痺れさせてくるぞ。",
 	},
 
 	stage: "Basic",

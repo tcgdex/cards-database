@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Inkay",
-		fr: "Sepiatop",
-		es: "Inkay",
-		it: "Inkay",
-		pt: "Inkay",
-		de: "Iscalar"
+		'en-us': "Inkay",
+		'fr-fr': "Sepiatop",
+		'es-es': "Inkay",
+		'it-it': "Inkay",
+		'pt-br': "Inkay",
+		'de-de': "Iscalar"
 	},
 
 	illustrator: "miki kudo",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Fickle Attack",
-			fr: "Attaque Inconstante",
-			es: "Ataque Impredecible",
-			it: "Attacco Bislacco",
-			pt: "Ataque Errático",
-			de: "Launischer Angriff"
+			'en-us': "Fickle Attack",
+			'fr-fr': "Attaque Inconstante",
+			'es-es': "Ataque Impredecible",
+			'it-it': "Attacco Bislacco",
+			'pt-br': "Ataque Errático",
+			'de-de': "Launischer Angriff"
 		},
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-			pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
-			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+			'pt-br': "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+			'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 		},
 
 		damage: 30

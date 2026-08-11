@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オクタン",
+		'ja-jp': "オクタン",
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "穴に 入りたがる 性質で 岩穴や ツボを 好み そこから 墨を 噴き出して 攻撃する。",
+		'ja-jp': "穴に 入りたがる 性質で 岩穴や ツボを 好み そこから 墨を 噴き出して 攻撃する。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "すみをはく" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを1回投げる。ウラならそのワザは失敗。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを1回投げる。ウラならそのワザは失敗。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "40+",
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "のぞむなら、このポケモンについている特殊エネルギーを、1個トラッシュする。その場合、80ダメージ追加。",
+				'ja-jp': "のぞむなら、このポケモンについている特殊エネルギーを、1個トラッシュする。その場合、80ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "テッポウオ",
+		'ja-jp': "テッポウオ",
 	},
 
 	retreat: 2,

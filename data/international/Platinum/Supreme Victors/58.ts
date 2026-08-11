@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Floatzel",
-		fr: "Mustéflott",
-		de: "Bojelin"
+		'en-us': "Floatzel",
+		'fr-fr': "Mustéflott",
+		'de-de': "Bojelin"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Buizel",
-		fr: "Mustébouée"
+		'en-us': "Buizel",
+		'fr-fr': "Mustébouée"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Fin",
-				fr: "Aileron-rasoir",
-				de: "Rasierflosse"
+				'en-us': "Razor Fin",
+				'fr-fr': "Aileron-rasoir",
+				'de-de': "Rasierflosse"
 			},
 
 			damage: 20,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jet Screw",
-				fr: "Vis express",
-				de: "Düsenschraube"
+				'en-us': "Jet Screw",
+				'fr-fr': "Vis express",
+				'de-de': "Düsenschraube"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is a common sight around fishing ports. It is known to rescue people and carry off prey."
+		'en-us': "It is a common sight around fishing ports. It is known to rescue people and carry off prey."
 	},
 
 	variants: [

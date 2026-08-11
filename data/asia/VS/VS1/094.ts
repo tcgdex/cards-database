@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケットのライコウ",
+		'ja-jp': "ロケットのライコウ",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless", "Colorless"],
 			name: {
-				ja: "上昇する雷",
+				'ja-jp': "上昇する雷",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は、相手のベンチポケモンの1つに20のダメージを与えます。尾の場合、この攻撃はベンチポケモンの1つに20のダメージを与えます。 （ベンチポケモンに衰弱や抵抗を適用しないでください。）",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は、相手のベンチポケモンの1つに20のダメージを与えます。尾の場合、この攻撃はベンチポケモンの1つに20のダメージを与えます。 （ベンチポケモンに衰弱や抵抗を適用しないでください。）",
 			},
 			damage: 30,
 		},

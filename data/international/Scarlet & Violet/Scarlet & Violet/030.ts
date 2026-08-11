@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Growlithe",
-		fr: "Caninos",
-		es: "Growlithe",
-		it: "Growlithe",
-		pt: "Growlithe",
-		de: "Fukano"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos",
+		'es-es': "Growlithe",
+		'it-it': "Growlithe",
+		'pt-br': "Growlithe",
+		'de-de': "Fukano"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Relentless Flames",
-			fr: "Flammes Incessantes",
-			es: "Llamas Implacables",
-			it: "Fiammeperenni",
-			pt: "Chamas Incansáveis",
-			de: "Unermüdliche Flammen"
+			'en-us': "Relentless Flames",
+			'fr-fr': "Flammes Incessantes",
+			'es-es': "Llamas Implacables",
+			'it-it': "Fiammeperenni",
+			'pt-br': "Chamas Incansáveis",
+			'de-de': "Unermüdliche Flammen"
 		},
 
 		effect: {
-			en: "Flip a coin until you get tails. This attack does 30 damage for each heads.",
-			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 30 dégâts pour chaque côté face.",
-			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 30 puntos de daño por cada cara.",
-			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 30 danni ogni volta che esce testa.",
-			pt: "Jogue uma moeda até sair coroa. Este ataque causa 30 pontos de dano para cada cara.",
-			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip a coin until you get tails. This attack does 30 damage for each heads.",
+			'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 30 dégâts pour chaque côté face.",
+			'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 30 puntos de daño por cada cara.",
+			'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 30 danni ogni volta che esce testa.",
+			'pt-br': "Jogue uma moeda até sair coroa. Este ataque causa 30 pontos de dano para cada cara.",
+			'de-de': "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "30×"
@@ -65,7 +65,7 @@ const card: Card = {
 	illustrator: "kawayoo",
 
 	description: {
-		en: "It's very friendly and faithful to people. It will try to repel enemies by barking and biting.",
+		'en-us': "It's very friendly and faithful to people. It will try to repel enemies by barking and biting.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Energy Switch",
-		fr: "Échange d’Énergie",
-		de: "Energie-Umschalter"
+		'en-us': "Energy Switch",
+		'fr-fr': "Échange d’Énergie",
+		'de-de': "Energie-Umschalter"
 	},
 
 	illustrator: "Wataru Kawahara",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Prenez une carte Énergie de base attachée à l’un de vos Pokémon et attachez-la à un autre de vos Pokémon.",
-		en: "Move a basic Energy card attached 1 of your Pokémon to another of your Pokémon.",
-		de: "Lege 1 Basis-Energiekarte, die an 1 deiner Pokémon angelegt ist, an ein anderes deiner Pokémon an."
+		'fr-fr': "Prenez une carte Énergie de base attachée à l’un de vos Pokémon et attachez-la à un autre de vos Pokémon.",
+		'en-us': "Move a basic Energy card attached 1 of your Pokémon to another of your Pokémon.",
+		'de-de': "Lege 1 Basis-Energiekarte, die an 1 deiner Pokémon angelegt ist, an ein anderes deiner Pokémon an."
 	},
 
 	trainerType: "Item",

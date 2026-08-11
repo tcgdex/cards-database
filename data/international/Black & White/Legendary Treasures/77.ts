@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Chandelure-EX",
+		'en-us': "Chandelure-EX",
 	},
 
 	illustrator: "Ryo Ueda",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Cursed Drop",
+				'en-us': "Cursed Drop",
 			},
 			effect: {
-				en: "Put 4 damage counters on your opponent's Pokémon in any way you like.",
+				'en-us': "Put 4 damage counters on your opponent's Pokémon in any way you like.",
 			},
 
 		},
@@ -43,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Eerie Glow",
+				'en-us': "Eerie Glow",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned and Confused.",
+				'en-us': "The Defending Pokémon is now Burned and Confused.",
 			},
 			damage: 70,
 

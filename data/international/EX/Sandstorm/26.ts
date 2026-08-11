@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Wobbuffet",
-		fr: "Qulbutoké",
-		de: "Woingenau"
+		'en-us': "Wobbuffet",
+		'fr-fr': "Qulbutoké",
+		'de-de': "Woingenau"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Safeguard",
-				fr: "Rune protectrice",
-				de: "Safeguard"
+				'en-us': "Safeguard",
+				'fr-fr': "Rune protectrice",
+				'de-de': "Safeguard"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, including damage, done to Wobbuffet by your opponent's Pokémon-ex.",
-				fr: "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Qulbutoké par le Pokémon-ex de votre adversaire.",
-				de: "Prevent all effects of attacks, including damage, done to Wobbuffet by your opponent's Pokémon-ex."
+				'en-us': "Prevent all effects of attacks, including damage, done to Wobbuffet by your opponent's Pokémon-ex.",
+				'fr-fr': "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Qulbutoké par le Pokémon-ex de votre adversaire.",
+				'de-de': "Prevent all effects of attacks, including damage, done to Wobbuffet by your opponent's Pokémon-ex."
 			}
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flip Over",
-				fr: "Faire ressort",
-				de: "Flip Over"
+				'en-us': "Flip Over",
+				'fr-fr': "Faire ressort",
+				'de-de': "Flip Over"
 			},
 			effect: {
-				en: "Wobbuffet does 10 damage to itself, and don't apply Weakness and Resistance to this damage.",
-				fr: "Qulbutoké s'inflige 10 dégâts. Vous ne pouvez pas appliquer la Faiblesse et la Résistance à ces dégâts.",
-				de: "Wobbuffet does 10 damage to itself, and don't apply Weakness and Resistance to this damage."
+				'en-us': "Wobbuffet does 10 damage to itself, and don't apply Weakness and Resistance to this damage.",
+				'fr-fr': "Qulbutoké s'inflige 10 dégâts. Vous ne pouvez pas appliquer la Faiblesse et la Résistance à ces dégâts.",
+				'de-de': "Wobbuffet does 10 damage to itself, and don't apply Weakness and Resistance to this damage."
 			},
 			damage: 50,
 

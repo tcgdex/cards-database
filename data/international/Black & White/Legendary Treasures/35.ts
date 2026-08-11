@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Empoleon",
+		'en-us': "Empoleon",
 	},
 
 	illustrator: "kawayoo",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Prinplup",
+		'en-us': "Prinplup",
 	},
 
 	stage: "Stage2",
@@ -34,7 +34,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surf",
+				'en-us': "Surf",
 			},
 
 			damage: 50,
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Emperor's Strike",
+				'en-us': "Emperor's Strike",
 			},
 			effect: {
-				en: "If this Pokémon has fewer remaining HP than the Defending Pokémon, this attack does 60 more damage.",
+				'en-us': "If this Pokémon has fewer remaining HP than the Defending Pokémon, this attack does 60 more damage.",
 			},
 			damage: 70,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "If anyone were to hurt its pride, it would slash them with wings that can cleave through an ice floe.",
+		'en-us': "If anyone were to hurt its pride, it would slash them with wings that can cleave through an ice floe.",
 	},
 
 	thirdParty: {

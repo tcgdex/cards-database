@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Milotic",
-		fr: "Milobellus",
-		de: "Milotic"
+		'en-us': "Milotic",
+		'fr-fr': "Milobellus",
+		'de-de': "Milotic"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Feebas",
-		fr: "Barpau"
+		'en-us': "Feebas",
+		'fr-fr': "Barpau"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Healing Shower",
-				fr: "Douche guérisseuse",
-				de: "Healing Shower"
+				'en-us': "Healing Shower",
+				'fr-fr': "Douche guérisseuse",
+				'de-de': "Healing Shower"
 			},
 			effect: {
-				en: "Once during your turn, when you play Milotic from your hand to evolve 1 of your Pokémon, you may remove all damage counters from all of your Pokémon and your opponent's Pokémon (excluding Pokémon-ex).",
-				fr: "Une seule fois lors de votre tour, lorsque vous jouez Milobellus de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez retirer à vos Pokémon et à ceux de votre adversaire tous leurs marqueurs de dégât (Pokémon-ex exclus).",
-				de: "Once during your turn, when your play Milotic from your hand to evolve 1 of your Pokémon, you may remove all damage counters from all of your Pokémon and your opponent's Pokémon (excluding Pokémon-ex)."
+				'en-us': "Once during your turn, when you play Milotic from your hand to evolve 1 of your Pokémon, you may remove all damage counters from all of your Pokémon and your opponent's Pokémon (excluding Pokémon-ex).",
+				'fr-fr': "Une seule fois lors de votre tour, lorsque vous jouez Milobellus de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez retirer à vos Pokémon et à ceux de votre adversaire tous leurs marqueurs de dégât (Pokémon-ex exclus).",
+				'de-de': "Once during your turn, when your play Milotic from your hand to evolve 1 of your Pokémon, you may remove all damage counters from all of your Pokémon and your opponent's Pokémon (excluding Pokémon-ex)."
 			}
 		},
 	],
@@ -51,9 +51,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse vague",
-				de: "Wave Splash"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse vague",
+				'de-de': "Wave Splash"
 			},
 
 			damage: 30,
@@ -67,14 +67,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Distorted Wave",
-				fr: "Vague tordue",
-				de: "Distorted Wave"
+				'en-us': "Distorted Wave",
+				'fr-fr': "Vague tordue",
+				'de-de': "Distorted Wave"
 			},
 			effect: {
-				en: "Before doing damage, remove 3 damage counters from the Defending Pokémon (all if there are less than 3).",
-				fr: "Avant d'infliger des dégâts, retirez au Pokémon Défenseur 3 marqueurs de dégât (retirez-les lui tous s'il en possède moins de 3).",
-				de: "Before doing damage, remove 3 damage counters from the Defending Pokémon (all if there are less than 3)."
+				'en-us': "Before doing damage, remove 3 damage counters from the Defending Pokémon (all if there are less than 3).",
+				'fr-fr': "Avant d'infliger des dégâts, retirez au Pokémon Défenseur 3 marqueurs de dégât (retirez-les lui tous s'il en possède moins de 3).",
+				'de-de': "Before doing damage, remove 3 damage counters from the Defending Pokémon (all if there are less than 3)."
 			},
 			damage: 80,
 

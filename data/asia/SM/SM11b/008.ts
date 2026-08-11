@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マニューラ",
+		'ja-jp': "マニューラ",
 	},
 
 	illustrator: "MAHOU",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "１匹が サンドの 足を すくい ひっくり返すと もう １匹が 鋭いツメで 止めを 刺す。",
+		'ja-jp': "１匹が サンドの 足を すくい ひっくり返すと もう １匹が 鋭いツメで 止めを 刺す。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "わるだくみ" },
 			cost: ["Darkness"],
 			effect: {
-				ja: "自分の山札にある好きなカードを2枚まで、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札にある好きなカードを2枚まで、手札に加える。そして山札を切る。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニューラ",
+		'ja-jp': "ニューラ",
 	},
 
 	retreat: 0,

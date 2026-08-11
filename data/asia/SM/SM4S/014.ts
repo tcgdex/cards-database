@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シザリガー",
+		'ja-jp': "シザリガー",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "池に 住む ほかの ポケモンを ハサミで つまみ上げ 池の 外へ 放り出してしまう 暴れん坊。",
+		'ja-jp': "池に 住む ほかの ポケモンを ハサミで つまみ上げ 池の 外へ 放り出してしまう 暴れん坊。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Water", "Water", "Water", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーを、2個トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーを、2個トラッシュする。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヘイガニ",
+		'ja-jp': "ヘイガニ",
 	},
 
 	retreat: 2,

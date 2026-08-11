@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Forretress",
-		fr: "Foretress",
-		de: "Forstellka"
+		'en-us': "Forretress",
+		'fr-fr': "Foretress",
+		'de-de': "Forstellka"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pineco",
-		fr: "Pomdepik"
+		'en-us': "Pineco",
+		'fr-fr': "Pomdepik"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mirror Shot",
-				fr: "Miroi-Tir",
-				de: "Spiegelsalve"
+				'en-us': "Mirror Shot",
+				'fr-fr': "Miroi-Tir",
+				'de-de': "Spiegelsalve"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, this attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, this attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'de-de': "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Everyone Explode Now",
-				fr: "Explosion générale",
-				de: "Alle explodieren jetzt"
+				'en-us': "Everyone Explode Now",
+				'fr-fr': "Explosion générale",
+				'de-de': "Alle explodieren jetzt"
 			},
 			effect: {
-				en: "Does 30 damage times the number of Pineco and Forretress you have in play. This attack does 30 damage to each of your Pineco and Forretress in play.",
-				fr: "Inflige 30 dégâts multipliés par le nombre de et de Foretress que vous avez en jeu. Cette attaque inflige 30 dégâts à chacun de vos Pomdepik et Foretress en jeu.",
-				de: "Dieser Angriff fügt 30 Schadenspunkte für jedes Tannza und Forstellka, das du im Spiel hast, zu. Dieser Angriff fügt jedem Tannza und Forstellka, das du im Spiel hast, 30 Schadenspunkte zu."
+				'en-us': "Does 30 damage times the number of Pineco and Forretress you have in play. This attack does 30 damage to each of your Pineco and Forretress in play.",
+				'fr-fr': "Inflige 30 dégâts multipliés par le nombre de et de Foretress que vous avez en jeu. Cette attaque inflige 30 dégâts à chacun de vos Pomdepik et Foretress en jeu.",
+				'de-de': "Dieser Angriff fügt 30 Schadenspunkte für jedes Tannza und Forstellka, das du im Spiel hast, zu. Dieser Angriff fügt jedem Tannza und Forstellka, das du im Spiel hast, 30 Schadenspunkte zu."
 			},
 			damage: "30×",
 
@@ -84,7 +84,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its entire body is shielded by a steel-hard shell. What lurks inside this shell is a total mystery.",
+		'en-us': "Its entire body is shielded by a steel-hard shell. What lurks inside this shell is a total mystery.",
 	},
 
 	variants: [

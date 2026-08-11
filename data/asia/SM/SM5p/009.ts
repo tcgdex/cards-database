@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポッタイシ",
+		'ja-jp': "ポッタイシ",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "仲間を 作らずに 暮らす。 翼の 強烈な 一撃は 大木を 真っ二つに へし折る。",
+		'ja-jp': "仲間を 作らずに 暮らす。 翼の 強烈な 一撃は 大木を 真っ二つに へし折る。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Water"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ポッチャマ",
+		'ja-jp': "ポッチャマ",
 	},
 
 	retreat: 2,

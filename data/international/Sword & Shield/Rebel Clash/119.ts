@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [629],
 
 	name: {
-		en: "Vullaby",
-		fr: "Vostourno",
-		es: "Vullaby",
-		it: "Vullaby",
-		pt: "Vullaby",
-		de: "Skallyk"
+		'en-us': "Vullaby",
+		'fr-fr': "Vostourno",
+		'es-es': "Vullaby",
+		'it-it': "Vullaby",
+		'pt-br': "Vullaby",
+		'de-de': "Skallyk"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -24,20 +24,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pluck",
-				fr: "Picore",
-				es: "Picoteo",
-				it: "Spennata",
-				pt: "Colher",
-				de: "Pflücker"
+				'en-us': "Pluck",
+				'fr-fr': "Picore",
+				'es-es': "Picoteo",
+				'it-it': "Spennata",
+				'pt-br': "Colher",
+				'de-de': "Pflücker"
 			},
 			effect: {
-				en: "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
-				fr: "Avant d'infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire.",
-				es: "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival.",
-				it: "Prima di infliggere danni, scarta tutte le carte Oggetto Pokémon dal Pokémon attivo del tuo avversario.",
-				pt: "Antes de causar dano, descarte todas as Ferramentas Pokémon do Pokémon Ativo do seu oponente.",
-				de: "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+				'en-us': "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
+				'fr-fr': "Avant d'infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire.",
+				'es-es': "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival.",
+				'it-it': "Prima di infliggere danni, scarta tutte le carte Oggetto Pokémon dal Pokémon attivo del tuo avversario.",
+				'pt-br': "Antes de causar dano, descarte todas as Ferramentas Pokémon do Pokémon Ativo do seu oponente.",
+				'de-de': "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 10,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It wears a bone to protect its rear. It often squabbles with others of its kind over particularly comfy bones."
+		'en-us': "It wears a bone to protect its rear. It often squabbles with others of its kind over particularly comfy bones."
 	},
 
 	variants: [

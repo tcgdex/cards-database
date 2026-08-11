@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キルリア",
+		'ja-jp': "キルリア",
 	},
 
 	illustrator: "satoma",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "サイコパワーを 操り まわりの 空間を ねじ曲げることで 未来を 見通すことができる。",
+		'ja-jp': "サイコパワーを 操り まわりの 空間を ねじ曲げることで 未来を 見通すことができる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "コールサイン" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分の山札からポケモンを3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札からポケモンを3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ラルトス",
+		'ja-jp': "ラルトス",
 	},
 
 	retreat: 1,

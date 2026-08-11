@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハトーボー",
+		'ja-jp': "ハトーボー",
 	},
 
 	illustrator: "Sekio",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ハトーボーの 住む 森の 奥には 争いのない 平和な 国が あると 信じられている。",
+		'ja-jp': "ハトーボーの 住む 森の 奥には 争いのない 平和な 国が あると 信じられている。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マメパト",
+		'ja-jp': "マメパト",
 	},
 
 	retreat: 1,

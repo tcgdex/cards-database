@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Applin"
+		'id-id': "Applin"
 	},
 
 	illustrator: "OKUBO",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Applin hidup di dalam buah apel. Jika apelnya habis, Pokémon ini akan melemah karena kehilangan cairan tubuhnya."
+		'id-id': "Applin hidup di dalam buah apel. Jika apelnya habis, Pokémon ini akan melemah karena kehilangan cairan tubuhnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Rolling Attack"
+			'id-id': "Rolling Attack"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 20."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 20."
 		},
 
 		damage: "10+",

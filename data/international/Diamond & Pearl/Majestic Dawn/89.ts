@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Dome Fossil",
-		fr: "Fossile Dôme",
-		de: "Domfossil"
+		'en-us': "Dome Fossil",
+		'fr-fr': "Fossile Dôme",
+		'de-de': "Domfossil"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -15,9 +15,9 @@ const card: Card = {
 	hp: 50,
 
 	effect: {
-		en: "Play Dome Fossil as if it were a Colorless Basic Pokémon. (Dome Fossil counts as a Trainer card as well, but if Dome Fossil is Knocked Out, this counts as a Knocked Out Pokémon.) Dome Fossil can't be affected by any Special Conditions and can't retreat. At any time during your turn before your attack, you may discard Dome Fossil from play. (This doesn't count as a Knocked Out Pokémon.)",
-		fr: "Jouez Fossile Dôme comme si c'était un Pokémon de base Colorless. (Fossile Dôme compte aussi comme une carte Dresseur mais si Fossile Dôme est mise K.O, elle compte comme un Pokémon K.O.) Fossile Dôme ne peut pas être affectée par des États Spéciaux et ne peut pas battre en retraite. N'importe quand lors de votre tour, avant votre attaque, vous pouvez défausser Fossile Dôme. (Cela ne compte pas comme un Pokémon K.O).",
-		de: "Spiele Domfossil wie ein -Basis-Pokémon. (Domfossil zählt gleichzeitig als Trainerkarte, aber wenn Domfossil kampfunfähig wird, zählt es als kampfunfähiges Pokémon.) Domfossil kann nicht von Speziellen Zuständen betroffen werden und sich nicht zurückziehen. In deinem Zug (vor deinem Angriff) kannst du Domfossil auf deinen Ablagestapel legen. (Dies zählt nicht als kampfunfähig gemachtes Pokémon.)"
+		'en-us': "Play Dome Fossil as if it were a Colorless Basic Pokémon. (Dome Fossil counts as a Trainer card as well, but if Dome Fossil is Knocked Out, this counts as a Knocked Out Pokémon.) Dome Fossil can't be affected by any Special Conditions and can't retreat. At any time during your turn before your attack, you may discard Dome Fossil from play. (This doesn't count as a Knocked Out Pokémon.)",
+		'fr-fr': "Jouez Fossile Dôme comme si c'était un Pokémon de base Colorless. (Fossile Dôme compte aussi comme une carte Dresseur mais si Fossile Dôme est mise K.O, elle compte comme un Pokémon K.O.) Fossile Dôme ne peut pas être affectée par des États Spéciaux et ne peut pas battre en retraite. N'importe quand lors de votre tour, avant votre attaque, vous pouvez défausser Fossile Dôme. (Cela ne compte pas comme un Pokémon K.O).",
+		'de-de': "Spiele Domfossil wie ein -Basis-Pokémon. (Domfossil zählt gleichzeitig als Trainerkarte, aber wenn Domfossil kampfunfähig wird, zählt es als kampfunfähiges Pokémon.) Domfossil kann nicht von Speziellen Zuständen betroffen werden und sich nicht zurückziehen. In deinem Zug (vor deinem Angriff) kannst du Domfossil auf deinen Ablagestapel legen. (Dies zählt nicht als kampfunfähig gemachtes Pokémon.)"
 	},
 
 	trainerType: "Item",
@@ -26,12 +26,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				de: "Fels-Reaktion",
-				fr: "Réaction de pierre",
+				'de-de': "Fels-Reaktion",
+				'fr-fr': "Réaction de pierre",
 			},
 			effect: {
-				de: "Wenn du 1 -Energiekarte von deiner Hand an Domfossil anlegst (ausgenommen durch Effekte von Angriffen oder Poké-Powern), durchsuche dein Deck nach einer Karte, die sich aus Domfossil entwickelt, und lege diese auf Domfossil (dies zählt als Entwickeln von Domfossil). Mische dein Deck danach",
-				fr: "Lorsque vous attachez une carte Énergie Combat de votre main à Fossile Dôme (effets d'attaque et Poké-Powers exclus), cherchez dans votre deck une carte qui évolue de Fossile Dôme et placez-la sur Fossile Dôme (vous le faites ainsi évoluer). Ensuite, mélangez votre deck.",
+				'de-de': "Wenn du 1 -Energiekarte von deiner Hand an Domfossil anlegst (ausgenommen durch Effekte von Angriffen oder Poké-Powern), durchsuche dein Deck nach einer Karte, die sich aus Domfossil entwickelt, und lege diese auf Domfossil (dies zählt als Entwickeln von Domfossil). Mische dein Deck danach",
+				'fr-fr': "Lorsque vous attachez une carte Énergie Combat de votre main à Fossile Dôme (effets d'attaque et Poké-Powers exclus), cherchez dans votre deck une carte qui évolue de Fossile Dôme et placez-la sur Fossile Dôme (vous le faites ainsi évoluer). Ensuite, mélangez votre deck.",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "基本炎エネルギー",
+		'ja-jp': "基本炎エネルギー",
 	},
 
 	illustrator: "",

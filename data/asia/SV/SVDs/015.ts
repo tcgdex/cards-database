@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ฮิโตคาเงะ",
-		id: "Charmander"
+		'th-th': "ฮิโตคาเงะ",
+		'id-id': "Charmander"
 	},
 
 	illustrator: "DOM",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		th: "มีหางที่ติดไฟตั้งแต่เกิด หากไฟดับนั่นหมายถึงการจบชีวิต",
-		id: "Sejak lahir, api menyala di ekor Charmander. Hidupnya berakhir saat api tersebut padam."
+		'th-th': "มีหางที่ติดไฟตั้งแต่เกิด หากไฟดับนั่นหมายถึงการจบชีวิต",
+		'id-id': "Sejak lahir, api menyala di ekor Charmander. Hidupnya berakhir saat api tersebut padam."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ฮีทแท็กเกิล",
-			id: "Heat Tackle"
+			'th-th': "ฮีทแท็กเกิล",
+			'id-id': "Heat Tackle"
 		},
 
 		effect: {
-			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
-			id: "Pokémon ini juga menerima kerusakan sejumlah 10."
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10."
 		},
 
 		damage: 30,

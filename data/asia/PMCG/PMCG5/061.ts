@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タケシのベロリンガ",
+		'ja-jp': "タケシのベロリンガ",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "舌の平手打ち",
+				'ja-jp': "舌の平手打ち",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "スラム",
+				'ja-jp': "スラム",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
 			},
 		},
 	],

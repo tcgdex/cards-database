@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リブートポッド",
+		'ja-jp': "リブートポッド",
 	},
 
 	illustrator: "inose yukie",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の「未来」のポケモン全員に、トラッシュから基本エネルギーを1枚ずつつける。",
+		'ja-jp': "自分の「未来」のポケモン全員に、トラッシュから基本エネルギーを1枚ずつつける。",
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Métamorph VMAX",
-		en: "Ditto VMAX",
-		es: "Ditto VMAX",
-		it: "Ditto VMAX",
-		pt: "Ditto VMAX",
-		de: "Ditto VMAX"
+		'fr-fr': "Métamorph VMAX",
+		'en-us': "Ditto VMAX",
+		'es-es': "Ditto VMAX",
+		'it-it': "Ditto VMAX",
+		'pt-br': "Ditto VMAX",
+		'de-de': "Ditto VMAX"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -21,27 +21,27 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		fr: "Métamorph-V",
-		en: "Ditto V"
+		'fr-fr': "Métamorph-V",
+		'en-us': "Ditto V"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Morphomax",
-			en: "Max Transform",
-			es: "Maxitransformación",
-			it: "Dynatrasformazione",
-			pt: "Transformação Max",
-			de: "Dyna-Wandler"
+			'fr-fr': "Morphomax",
+			'en-us': "Max Transform",
+			'es-es': "Maxitransformación",
+			'it-it': "Dynatrasformazione",
+			'pt-br': "Transformação Max",
+			'de-de': "Dyna-Wandler"
 		},
 
 		effect: {
-			fr: "Choisissez l'une des attaques du Pokémon Actif de votre adversaire et utilisez-la en tant que cette attaque.",
-			en: "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.",
-			es: "Elige 1 de los ataques del Pokémon Activo de tu rival y úsalo para este ataque.",
-			it: "Scegli un attacco del Pokémon attivo del tuo avversario e usalo al posto di questo attacco.",
-			pt: "Escolha 1 dos ataques do Pokémon Ativo do seu oponente e use-o como este ataque.",
-			de: "Wähle 1 Attacke des Aktiven Pokémon deines Gegners und setze sie als diese Attacke ein."
+			'fr-fr': "Choisissez l'une des attaques du Pokémon Actif de votre adversaire et utilisez-la en tant que cette attaque.",
+			'en-us': "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.",
+			'es-es': "Elige 1 de los ataques del Pokémon Activo de tu rival y úsalo para este ataque.",
+			'it-it': "Scegli un attacco del Pokémon attivo del tuo avversario e usalo al posto di questo attacco.",
+			'pt-br': "Escolha 1 dos ataques do Pokémon Ativo do seu oponente e use-o como este ataque.",
+			'de-de': "Wähle 1 Attacke des Aktiven Pokémon deines Gegners und setze sie als diese Attacke ein."
 		},
 
 		cost: ["Colorless", "Colorless", "Colorless"]

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Vileplume",
-		fr: "Rafflesia",
-		es: "Vileplume",
-		it: "Vileplume",
-		pt: "Vileplume",
-		de: "Giflor"
+		'en-us': "Vileplume",
+		'fr-fr': "Rafflesia",
+		'es-es': "Vileplume",
+		'it-it': "Vileplume",
+		'pt-br': "Vileplume",
+		'de-de': "Giflor"
 	},
 
 	illustrator: "Midori Harada",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gloom",
-		fr: "Ortide",
-		es: "Gloom",
-		it: "Gloom",
-		pt: "Gloom",
-		de: "Duflor"
+		'en-us': "Gloom",
+		'fr-fr': "Ortide",
+		'es-es': "Gloom",
+		'it-it': "Gloom",
+		'pt-br': "Gloom",
+		'de-de': "Duflor"
 	},
 
 	stage: "Stage2",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Irritating Pollen",
-				fr: "Pollen Irritant",
-				es: "Polen Irritante",
-				it: "Irritapolline",
-				pt: "Pólen Irritante",
-				de: "Irritierender Pollen"
+				'en-us': "Irritating Pollen",
+				'fr-fr': "Pollen Irritant",
+				'es-es': "Polen Irritante",
+				'it-it': "Irritapolline",
+				'pt-br': "Pólen Irritante",
+				'de-de': "Irritierender Pollen"
 			},
 			effect: {
-				en: "Each player can't play any Item cards from his or her hand.",
-				fr: "Aucun joueur ne peut jouer de cartes Objet de sa main.",
-				es: "Los jugadores no pueden jugar ninguna carta de Objeto de su mano.",
-				it: "Nessun giocatore può giocare carte Strumento dalla propria mano.",
-				pt: "Nenhum jogador pode jogar cards de Item da própria mão.",
-				de: "Kein Spieler darf Itemkarten von seiner Hand spielen."
+				'en-us': "Each player can't play any Item cards from his or her hand.",
+				'fr-fr': "Aucun joueur ne peut jouer de cartes Objet de sa main.",
+				'es-es': "Los jugadores no pueden jugar ninguna carta de Objeto de su mano.",
+				'it-it': "Nessun giocatore può giocare carte Strumento dalla propria mano.",
+				'pt-br': "Nenhum jogador pode jogar cards de Item da própria mão.",
+				'de-de': "Kein Spieler darf Itemkarten von seiner Hand spielen."
 			},
 		},
 	],
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Solar Beam",
-				fr: "Lance-Soleil",
-				es: "Rayo Solar",
-				it: "Solarraggio",
-				pt: "Raio Solar",
-				de: "Solarstrahl"
+				'en-us': "Solar Beam",
+				'fr-fr': "Lance-Soleil",
+				'es-es': "Rayo Solar",
+				'it-it': "Solarraggio",
+				'pt-br': "Raio Solar",
+				'de-de': "Solarstrahl"
 			},
 
 			damage: 70,
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It has the world's largest petals. With every step, the petals shake out heavy clouds of toxic pollen.",
+		'en-us': "It has the world's largest petals. With every step, the petals shake out heavy clouds of toxic pollen.",
 	},
 
 	thirdParty: {

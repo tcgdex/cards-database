@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "sableye",
+		'ja-jp': "sableye",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ナイトビジョン",
+				'ja-jp': "ナイトビジョン",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前に）一度、SableyeがあなたのアクティブなPokã©Monである場合、あなたはあなたの対戦相手の手を見ることができます。 Sableyeが特別な状態の影響を受ける場合、このパワーは使用できません。",
+				'ja-jp': "ターン中（攻撃の前に）一度、SableyeがあなたのアクティブなPokã©Monである場合、あなたはあなたの対戦相手の手を見ることができます。 Sableyeが特別な状態の影響を受ける場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,17 +29,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "スラッシュ",
+				'ja-jp': "スラッシュ",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Darkness"],
 			name: {
-				ja: "制限",
+				'ja-jp': "制限",
 			},
 			effect: {
-				ja: "対戦相手は、相手の次のターン中に自分の手からサポーターカードをプレイできません。",
+				'ja-jp': "対戦相手は、相手の次のターン中に自分の手からサポーターカードをプレイできません。",
 			},
 		},
 	],

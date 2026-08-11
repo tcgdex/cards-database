@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
 
 	description: {
-		en: "The foul fluid from its rear is so revolting that it can make people feel queasy up to a mile and a quarter away.",
+		'en-us': "The foul fluid from its rear is so revolting that it can make people feel queasy up to a mile and a quarter away.",
 	},
 
 
 	name: {
-		en: "Stunky",
-		fr: "Moufouette",
-		es: "Stunky",
+		'en-us': "Stunky",
+		'fr-fr': "Moufouette",
+		'es-es': "Stunky",
 		'es-mx': "Stunky",
-		de: "Skunkapuh",
-		it: "Stunky",
-		pt: "Stunky"
+		'de-de': "Skunkapuh",
+		'it-it': "Stunky",
+		'pt-br': "Stunky"
 	},
 
 	illustrator: "Nobuhiro Imagawa",
@@ -29,13 +29,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Scratch",
-			fr: "Griffe",
-			es: "Arañazo",
+			'en-us': "Scratch",
+			'fr-fr': "Griffe",
+			'es-es': "Arañazo",
 			'es-mx': "Arañazo",
-			de: "Kratzer",
-			it: "Graffio",
-			pt: "Arranhão"
+			'de-de': "Kratzer",
+			'it-it': "Graffio",
+			'pt-br': "Arranhão"
 		},
 
 		cost: ["Darkness"],

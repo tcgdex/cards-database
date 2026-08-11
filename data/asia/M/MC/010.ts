@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タマタマ",
+		'ja-jp': "タマタマ",
 	},
 
 	illustrator: "Iori Suzuki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "タマタマだけに 伝わる テレパシーを 出し合っているので どんなときでも ６匹 集まれる。",
+		'ja-jp': "タマタマだけに 伝わる テレパシーを 出し合っているので どんなときでも ６匹 集まれる。",
 	},
 
 	stage: "Basic",

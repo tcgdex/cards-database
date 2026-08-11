@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Ninetales",
-		fr: "Feunard",
-		de: "Vulnona",
-		it: "Ninetales"
+		'en-us': "Ninetales",
+		'fr-fr': "Feunard",
+		'de-de': "Vulnona",
+		'it-it': "Ninetales"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -25,9 +25,9 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vulpix",
-		fr: "Goupix",
-		it: "Vulpix"
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix",
+		'it-it': "Vulpix"
 	},
 
 	stage: "Stage1",
@@ -39,16 +39,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lure",
-				fr: "Leurre",
-				de: "Lockvogel",
-				it: "Esca"
+				'en-us': "Lure",
+				'fr-fr': "Leurre",
+				'de-de': "Lockvogel",
+				'it-it': "Esca"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon.",
-				fr: "Si votre adversaire a des Pokémon sur le Banc, choisissez 1 d'entre eux et échangez-le avec le Pokémon Défenseur.",
-				de: "Falls Dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen und tausce es mit dem verteidigenden Pokémon aus.",
-				it: "Se il tuo avversario ha dei Pokémon in Panchina, scegliene uno e scambialo con il Pokémon Difensore"
+				'en-us': "If your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon.",
+				'fr-fr': "Si votre adversaire a des Pokémon sur le Banc, choisissez 1 d'entre eux et échangez-le avec le Pokémon Défenseur.",
+				'de-de': "Falls Dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen und tausce es mit dem verteidigenden Pokémon aus.",
+				'it-it': "Se il tuo avversario ha dei Pokémon in Panchina, scegliene uno e scambialo con il Pokémon Difensore"
 			},
 
 		},
@@ -60,16 +60,16 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fire Blast",
-				fr: "Déflagration",
-				de: "Feuersturm",
-				it: "Fuocobomba"
+				'en-us': "Fire Blast",
+				'fr-fr': "Déflagration",
+				'de-de': "Feuersturm",
+				'it-it': "Fuocobomba"
 			},
 			effect: {
-				en: "Discard 1 Energy card attached to Ninetales in order to use this attack.",
-				fr: "Défaussez 1 carte Énergie  attachée à Feunard pour pouvoir utiliser cette attaque.",
-				de: "Entferne eine auf Vulona abgelegte  Energiekarte, um diesen Angriff auszuführen",
-				it: "Scarta una carta Energia Fuoco assegnata a Ninetales per poter usare questo attacco."
+				'en-us': "Discard 1 Energy card attached to Ninetales in order to use this attack.",
+				'fr-fr': "Défaussez 1 carte Énergie  attachée à Feunard pour pouvoir utiliser cette attaque.",
+				'de-de': "Entferne eine auf Vulona abgelegte  Energiekarte, um diesen Angriff auszuführen",
+				'it-it': "Scarta una carta Energia Fuoco assegnata a Ninetales per poter usare questo attacco."
 			},
 			damage: 80,
 
@@ -117,9 +117,9 @@ const card: Card = {
 
 
 	description: {
-		en: "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse.",
-		fr: "Très intelligent et rancunier. Attrapez-lui une de ses queues et il vous maudira pour 1000 ans.",
-		it: "Molto intelligente, ma anche molto vendicativo. Chi osa afferrare una delle sue numerose code viene punito con una maledizione che durerà 1.000 anni. LIV 32 N.38"
+		'en-us': "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse.",
+		'fr-fr': "Très intelligent et rancunier. Attrapez-lui une de ses queues et il vous maudira pour 1000 ans.",
+		'it-it': "Molto intelligente, ma anche molto vendicativo. Chi osa afferrare una delle sue numerose code viene punito con una maledizione che durerà 1.000 anni. LIV 32 N.38"
 	}
 }
 

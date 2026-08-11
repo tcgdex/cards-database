@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Mantine",
-		de: "Mantax"
+		'en-us': "Mantine",
+		'de-de': "Mantax"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Ripples",
-				de: "Ripples"
+				'en-us': "Ripples",
+				'de-de': "Ripples"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may remove 1 damage counter from 1 of your Pokémon (excluding Mantine). This power can't be used if Mantine is affected by a Special Condition.",
-				de: "Once during your turn (before your attack), you may remove 1 damage counter from 1 of your Pokémon (excluding Mantine). This power can't be used if Mantine is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), you may remove 1 damage counter from 1 of your Pokémon (excluding Mantine). This power can't be used if Mantine is affected by a Special Condition.",
+				'de-de': "Once during your turn (before your attack), you may remove 1 damage counter from 1 of your Pokémon (excluding Mantine). This power can't be used if Mantine is affected by a Special Condition."
 			},
 		},
 	],
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Slash",
-				de: "Aqua Slash"
+				'en-us': "Aqua Slash",
+				'de-de': "Aqua Slash"
 			},
 			effect: {
-				en: "Mantine can't attack during your next turn.",
-				de: "Mantine can't attack during your next turn."
+				'en-us': "Mantine can't attack during your next turn.",
+				'de-de': "Mantine can't attack during your next turn."
 			},
 			damage: 30,
 

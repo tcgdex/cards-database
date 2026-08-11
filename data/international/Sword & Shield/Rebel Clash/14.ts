@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [708],
 
 	name: {
-		en: "Phantump",
-		fr: "Brocélôme",
-		es: "Phantump",
-		it: "Phantump",
-		pt: "Phantump",
-		de: "Paragoni"
+		'en-us': "Phantump",
+		'fr-fr': "Brocélôme",
+		'es-es': "Phantump",
+		'it-it': "Phantump",
+		'pt-br': "Phantump",
+		'de-de': "Paragoni"
 	},
 
 	illustrator: "sui",
@@ -24,20 +24,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Guidance",
-				fr: "Conseiller Obscur",
-				es: "Guía Siniestra",
-				it: "Guida Oscura",
-				pt: "Diretriz Obscura",
-				de: "Dunkles Geleit"
+				'en-us': "Dark Guidance",
+				'fr-fr': "Conseiller Obscur",
+				'es-es': "Guía Siniestra",
+				'it-it': "Guida Oscura",
+				'pt-br': "Diretriz Obscura",
+				'de-de': "Dunkles Geleit"
 			},
 			effect: {
-				en: "Put a Basic Pokémon from your discard pile onto your Bench.",
-				fr: "Placez un Pokémon de base de votre pile de défausse sur votre Banc.",
-				es: "Pon 1 Pokémon Básico de tu pila de descartes en tu Banca.",
-				it: "Prendi un Pokémon Base dalla tua pila degli scarti e mettilo in panchina.",
-				pt: "Coloque 1 Pokémon Básico da sua pilha de descarte no seu Banco.",
-				de: "Lege 1 Basis-Pokémon aus deinem Ablagestapel auf deine Bank."
+				'en-us': "Put a Basic Pokémon from your discard pile onto your Bench.",
+				'fr-fr': "Placez un Pokémon de base de votre pile de défausse sur votre Banc.",
+				'es-es': "Pon 1 Pokémon Básico de tu pila de descartes en tu Banca.",
+				'it-it': "Prendi un Pokémon Base dalla tua pila degli scarti e mettilo in panchina.",
+				'pt-br': "Coloque 1 Pokémon Básico da sua pilha de descarte no seu Banco.",
+				'de-de': "Lege 1 Basis-Pokémon aus deinem Ablagestapel auf deine Bank."
 			},
 
 		},
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Seed Bomb",
-				fr: "Canon Graine",
-				es: "Bomba Germen",
-				it: "Semebomba",
-				pt: "Bomba de Sementes",
-				de: "Samenbomben"
+				'en-us': "Seed Bomb",
+				'fr-fr': "Canon Graine",
+				'es-es': "Bomba Germen",
+				'it-it': "Semebomba",
+				'pt-br': "Bomba de Sementes",
+				'de-de': "Samenbomben"
 			},
 
 			damage: 30,
@@ -76,7 +76,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "After a lost child perished in the forest, their spirit possessed a tree stump, causing the spirit's rebirth as this Pokémon."
+		'en-us': "After a lost child perished in the forest, their spirit possessed a tree stump, causing the spirit's rebirth as this Pokémon."
 	},
 
 	variants: [

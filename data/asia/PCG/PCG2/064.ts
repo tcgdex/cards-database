@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Salamence Ex",
+		'ja-jp': "Salamence Ex",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ドラゴンリフト",
+				'ja-jp': "ドラゴンリフト",
 			},
 			effect: {
-				ja: "Pokã©Mon（Pokã©Mon-ExとBabyPokã©Monを除く）のリトリートコストは0です。",
+				'ja-jp': "Pokã©Mon（Pokã©Mon-ExとBabyPokã©Monを除く）のリトリートコストは0です。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Fire", "Colorless"],
 			name: {
-				ja: "炎ジェット",
+				'ja-jp': "炎ジェット",
 			},
 			effect: {
-				ja: "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに40のダメージを与えます。この攻撃の損傷は、脱力感や抵抗の影響を受けません。",
+				'ja-jp': "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに40のダメージを与えます。この攻撃の損傷は、脱力感や抵抗の影響を受けません。",
 			},
 		},
 		{
 			cost: ["Fire", "Water", "Colorless", "Colorless"],
 			name: {
-				ja: "明るい炎",
+				'ja-jp': "明るい炎",
 			},
 			effect: {
-				ja: "Salamence Exに取り付けられた2つのエネルギーを捨てます。",
+				'ja-jp': "Salamence Exに取り付けられた2つのエネルギーを捨てます。",
 			},
 			damage: 120,
 		},

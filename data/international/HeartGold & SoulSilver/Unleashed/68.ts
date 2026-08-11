@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Vulpix",
-		fr: "Goupix",
-		de: "Vulpix"
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix",
+		'de-de': "Vulpix"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fireworks",
-				fr: "Feux d’artifice",
-				de: "Feuerwerk"
+				'en-us': "Fireworks",
+				'fr-fr': "Feux d’artifice",
+				'de-de': "Feuerwerk"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Fire Energy attached to Vulpix.",
-				fr: "Lancez une pièce. Si c’est pile, défaussez une carte Énergie Fire attachée à Goupix.",
-				de: "Wirf eine Münze. Bei \"Zahl\" lege 1 an Vulpix angelegte -Energie auf deinen Ablagestapel."
+				'en-us': "Flip a coin. If tails, discard a Fire Energy attached to Vulpix.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, défaussez une carte Énergie Fire attachée à Goupix.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" lege 1 an Vulpix angelegte -Energie auf deinen Ablagestapel."
 			},
 			damage: 20,
 
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "As it develops, its single white tail gains color and splits into six. It is quite warm and cuddly."
+		'en-us': "As it develops, its single white tail gains color and splits into six. It is quite warm and cuddly."
 	},
 
 	variants: [

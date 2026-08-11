@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Trapinch",
-		fr: "Kraknoix",
-		es: "Trapinch",
+		'en-us': "Trapinch",
+		'fr-fr': "Kraknoix",
+		'es-es': "Trapinch",
 		'es-mx': "Trapinch",
-		de: "Knacklion",
-		it: "Trapinch",
-		pt: "Trapinch"
+		'de-de': "Knacklion",
+		'it-it': "Trapinch",
+		'pt-br': "Trapinch"
 	},
 
 	rarity: "Common",
@@ -26,23 +26,23 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Double Headbutt",
-			fr: "Double Coup d'Boule",
-			es: "Doble Cabezazo",
+			'en-us': "Double Headbutt",
+			'fr-fr': "Double Coup d'Boule",
+			'es-es': "Doble Cabezazo",
 			'es-mx': "Doble Cabezazo",
-			de: "Doppelte Kopfnuss",
-			it: "Doppia Bottintesta",
-			pt: "Cabeçada Dupla"
+			'de-de': "Doppelte Kopfnuss",
+			'it-it': "Doppia Bottintesta",
+			'pt-br': "Cabeçada Dupla"
 		},
 
 		effect: {
-			en: "Flip 2 coins. This attack does 10 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
-			es: "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+			'en-us': "Flip 2 coins. This attack does 10 damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
 			'es-mx': "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 10 pontos de dano para cada cara."
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 10 pontos de dano para cada cara."
 		},
 
 		damage: "10×"
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "This Pokémon lives in arid deserts. It patiently awaits prey inside its funnel- shaped nest.",
+		'en-us': "This Pokémon lives in arid deserts. It patiently awaits prey inside its funnel- shaped nest.",
 	},
 
 	illustrator: "Uta",

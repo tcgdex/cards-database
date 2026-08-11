@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sandshrew",
-		fr: "Sabelette",
-		de: "Sandan",
-		it: "Sandshrew",
-		es: "Sandshrew",
-		pt: "Sandshrew",
+		'en-us': "Sandshrew",
+		'fr-fr': "Sabelette",
+		'de-de': "Sandan",
+		'it-it': "Sandshrew",
+		'es-es': "Sandshrew",
+		'pt-br': "Sandshrew",
 		'es-mx': "Sandshrew"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Dig Claws",
-			fr: "Creusogriffes",
-			de: "Schaufelkrallen",
-			it: "Scavazanne",
-			es: "Hundir Garras",
-			pt: "Fincar Garras",
+			'en-us': "Dig Claws",
+			'fr-fr': "Creusogriffes",
+			'de-de': "Schaufelkrallen",
+			'it-it': "Scavazanne",
+			'es-es': "Hundir Garras",
+			'pt-br': "Fincar Garras",
 			'es-mx': "Clavar Garras"
 		},
 
@@ -40,12 +40,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Mud-Slap",
-			fr: "Coud'Boue",
-			de: "Lehmschelle",
-			it: "Fangosberla",
-			es: "Bofetón Lodo",
-			pt: "Tapa de Lama",
+			'en-us': "Mud-Slap",
+			'fr-fr': "Coud'Boue",
+			'de-de': "Lehmschelle",
+			'it-it': "Fangosberla",
+			'es-es': "Bofetón Lodo",
+			'pt-br': "Tapa de Lama",
 			'es-mx': "Bofetón Lodo"
 		},
 

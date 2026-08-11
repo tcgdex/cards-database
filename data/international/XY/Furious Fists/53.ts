@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Trapinch",
-		fr: "Kraknoix",
-		es: "Trapinch",
-		it: "Trapinch",
-		pt: "Trapinch",
-		de: "Knacklion"
+		'en-us': "Trapinch",
+		'fr-fr': "Kraknoix",
+		'es-es': "Trapinch",
+		'it-it': "Trapinch",
+		'pt-br': "Trapinch",
+		'de-de': "Knacklion"
 	},
 
 	illustrator: "Mizue",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mountain Munch",
-				fr: "Dévore-Montagne",
-				es: "Mascamontañas",
-				it: "Sgranocchiacime",
-				pt: "Masca Montanhas",
-				de: "Gipfelmampfer"
+				'en-us': "Mountain Munch",
+				'fr-fr': "Dévore-Montagne",
+				'es-es': "Mascamontañas",
+				'it-it': "Sgranocchiacime",
+				'pt-br': "Masca Montanhas",
+				'de-de': "Gipfelmampfer"
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-				es: "Descarta la primera carta de la baraja de tu rival.",
-				it: "Scarta la carta in cima al mazzo del tuo avversario.",
-				pt: "Descarte o card de cima do baralho do seu oponente.",
-				de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard the top card of your opponent's deck.",
+				'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+				'es-es': "Descarta la primera carta de la baraja de tu rival.",
+				'it-it': "Scarta la carta in cima al mazzo del tuo avversario.",
+				'pt-br': "Descarte o card de cima do baralho do seu oponente.",
+				'de-de': "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud-Slap",
-				fr: "Coud'Boue",
-				es: "Bofetón Lodo",
-				it: "Fangosberla",
-				pt: "Tapa de Lama",
-				de: "Lehmschelle"
+				'en-us': "Mud-Slap",
+				'fr-fr': "Coud'Boue",
+				'es-es': "Bofetón Lodo",
+				'it-it': "Fangosberla",
+				'pt-br': "Tapa de Lama",
+				'de-de': "Lehmschelle"
 			},
 
 			damage: 10,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives in arid deserts. It makes a sloping pit trap in sand where it patiently awaits prey.",
+		'en-us': "It lives in arid deserts. It makes a sloping pit trap in sand where it patiently awaits prey.",
 	},
 
 	thirdParty: {

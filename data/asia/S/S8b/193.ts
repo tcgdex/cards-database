@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サンダース",
+		'ja-jp': "サンダース",
 	},
 
 	illustrator: "DOM",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "怒ったり 驚いたりすると 全身の 毛が 針の ように 逆立って 相手を つらぬく。",
+		'ja-jp': "怒ったり 驚いたりすると 全身の 毛が 針の ように 逆立って 相手を つらぬく。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "じんらいのめざめ" },
 			effect: {
-				ja: "このポケモンに「メモリーカプセル」がついているなら、おたがいの場の[水]ポケモンの特性は、すべてなくなる。",
+				'ja-jp': "このポケモンに「メモリーカプセル」がついているなら、おたがいの場の[水]ポケモンの特性は、すべてなくなる。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 1,

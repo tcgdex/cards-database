@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "わるいマルマイン",
+		'ja-jp': "わるいマルマイン",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ローリングタックル",
+				'ja-jp': "ローリングタックル",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Lightning", "Lightning"],
 			name: {
-				ja: "エネルギー爆弾",
+				'ja-jp': "エネルギー爆弾",
 			},
 			effect: {
-				ja: "暗い電極に取り付けられたすべてのエネルギーカードを取り、ベンチポケモンに取り付けます（どんな方法でも）。ベンチ付きポケモンがない場合は、暗い電極に取り付けられたすべてのエネルギーカードを捨ててください。",
+				'ja-jp': "暗い電極に取り付けられたすべてのエネルギーカードを取り、ベンチポケモンに取り付けます（どんな方法でも）。ベンチ付きポケモンがない場合は、暗い電極に取り付けられたすべてのエネルギーカードを捨ててください。",
 			},
 			damage: 30,
 		},

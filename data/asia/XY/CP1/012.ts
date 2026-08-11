@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグマ団のココドラ",
+		'ja-jp': "マグマ団のココドラ",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "鉄も 食べてしまう ココドラは 敵の 船だって あっと いう間に 食べて 壊して しまうんだ。",
+		'ja-jp': "鉄も 食べてしまう ココドラは 敵の 船だって あっと いう間に 食べて 壊して しまうんだ。",
 	},
 
 	stage: "Basic",

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Alolan Diglett",
-		fr: "Taupiqueur d’Alola",
-		es: "Diglett de Alola",
-		it: "Diglett di Alola",
-		pt: "Diglett de Alola",
-		de: "Alola-Digda"
+		'en-us': "Alolan Diglett",
+		'fr-fr': "Taupiqueur d’Alola",
+		'es-es': "Diglett de Alola",
+		'it-it': "Diglett di Alola",
+		'pt-br': "Diglett de Alola",
+		'de-de': "Alola-Digda"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Spelunk",
-				fr: "Spéléologue",
-				es: "Espeleología",
-				it: "Spelonca",
-				pt: "Exploraverna",
-				de: "Höhlenkunde"
+				'en-us': "Spelunk",
+				'fr-fr': "Spéléologue",
+				'es-es': "Espeleología",
+				'it-it': "Spelonca",
+				'pt-br': "Exploraverna",
+				'de-de': "Höhlenkunde"
 			},
 			effect: {
-				en: "Look at the top 3 cards of your deck and put them back in any order.",
-				fr: "Regardez les 3 cartes du dessus de votre deck et replacez-les dans l’ordre de votre choix.",
-				es: "Mira las 3 primeras cartas de tu baraja y vuelve a ponerlas en la parte superior de tu baraja en el orden que quieras.",
-				it: "Guarda le prime tre carte del tuo mazzo e rimettile a posto nell’ordine che preferisci.",
-				pt: "Olhe as 3 primeiras cartas do seu baralho e coloque-as de volta em qualquer ordem.",
-				de: "Schau dir die obersten 3 Karten deines Decks an und lege sie in beliebiger Reihenfolge zurück auf dein Deck."
+				'en-us': "Look at the top 3 cards of your deck and put them back in any order.",
+				'fr-fr': "Regardez les 3 cartes du dessus de votre deck et replacez-les dans l’ordre de votre choix.",
+				'es-es': "Mira las 3 primeras cartas de tu baraja y vuelve a ponerlas en la parte superior de tu baraja en el orden que quieras.",
+				'it-it': "Guarda le prime tre carte del tuo mazzo e rimettile a posto nell’ordine che preferisci.",
+				'pt-br': "Olhe as 3 primeiras cartas do seu baralho e coloque-as de volta em qualquer ordem.",
+				'de-de': "Schau dir die obersten 3 Karten deines Decks an und lege sie in beliebiger Reihenfolge zurück auf dein Deck."
 			},
 
 		},
@@ -54,12 +54,12 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Mud-Slap",
-				fr: "Coud’Boue",
-				es: "Bofetón Lodo",
-				it: "Fangosberla",
-				pt: "Tiro de Lama",
-				de: "Lehmschelle"
+				'en-us': "Mud-Slap",
+				'fr-fr': "Coud’Boue",
+				'es-es': "Bofetón Lodo",
+				'it-it': "Fangosberla",
+				'pt-br': "Tiro de Lama",
+				'de-de': "Lehmschelle"
 			},
 
 			damage: 10,
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its head sports an altered form of whiskers made of metal. When in communication with its comrades, its whiskers wobble to and fro.",
+		'en-us': "Its head sports an altered form of whiskers made of metal. When in communication with its comrades, its whiskers wobble to and fro.",
 	},
 
 	thirdParty: {

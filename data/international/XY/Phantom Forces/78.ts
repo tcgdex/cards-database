@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Spearow",
-		fr: "Piafabec",
-		es: "Spearow",
-		it: "Spearow",
-		pt: "Spearow",
-		de: "Habitak"
+		'en-us': "Spearow",
+		'fr-fr': "Piafabec",
+		'es-es': "Spearow",
+		'it-it': "Spearow",
+		'pt-br': "Spearow",
+		'de-de': "Habitak"
 	},
 
 	illustrator: "Mizue",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlwind",
-				fr: "Cyclone",
-				es: "Remolino",
-				it: "Turbine",
-				pt: "Ataque de Vento",
-				de: "Wirbelwind"
+				'en-us': "Whirlwind",
+				'fr-fr': "Cyclone",
+				'es-es': "Remolino",
+				'it-it': "Turbine",
+				'pt-br': "Ataque de Vento",
+				'de-de': "Wirbelwind"
 			},
 			effect: {
-				en: "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc.",
-				es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
-				it: "Il tuo avversario scambia il suo Pokémon attivo con uno dei suoi Pokémon in panchina.",
-				pt: "Seu oponente troca o Pokémon Ativo por 1 dos Pokémon no Banco dele ou dela.",
-				de: "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc.",
+				'es-es': "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
+				'it-it': "Il tuo avversario scambia il suo Pokémon attivo con uno dei suoi Pokémon in panchina.",
+				'pt-br': "Seu oponente troca o Pokémon Ativo por 1 dos Pokémon no Banco dele ou dela.",
+				'de-de': "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 10,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Very protective of its territory, it flaps its short wings busily to dart around at high speed.",
+		'en-us': "Very protective of its territory, it flaps its short wings busily to dart around at high speed.",
 	},
 
 	thirdParty: {

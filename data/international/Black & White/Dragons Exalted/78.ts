@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Aron",
-		fr: "Galekid",
-		es: "Aron",
-		it: "Aron",
-		pt: "Aron",
-		de: "Stollunior"
+		'en-us': "Aron",
+		'fr-fr': "Galekid",
+		'es-es': "Aron",
+		'it-it': "Aron",
+		'pt-br': "Aron",
+		'de-de': "Stollunior"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				'en-us': "This Pokémon does 10 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 10 dégâts.",
 			},
 			damage: 30,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It usually lives deep in mountains. However, hunger may drive it to eat railroad tracks and cars.",
+		'en-us': "It usually lives deep in mountains. However, hunger may drive it to eat railroad tracks and cars.",
 	},
 
 	thirdParty: {

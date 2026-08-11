@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Poké Card Creator Pack'
 
 const card: Card = {
 	name: {
-		en: "Treecko"
+		'en-us': "Treecko"
 	},
 
 	illustrator: "Mark Kraus",
@@ -30,7 +30,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle"
+				'en-us': "Tackle"
 			},
 			damage: 10,
 
@@ -42,10 +42,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Claws"
+				'en-us': "Poison Claws"
 			},
 			effect: {
-				en: 'The Defending Pokémon is now Poisoned. '
+				'en-us': 'The Defending Pokémon is now Poisoned. '
 			},
 			damage: 30,
 

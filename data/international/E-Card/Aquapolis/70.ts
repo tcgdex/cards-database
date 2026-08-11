@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Chinchou",
-		fr: "Loupio",
-		de: "Lampi"
+		'en-us': "Chinchou",
+		'fr-fr': "Loupio",
+		'de-de': "Lampi"
 	},
 
 	illustrator: "Yuka Morii",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Float",
-				fr: "Flotteur",
-				de: "Herumwandern"
+				'en-us': "Float",
+				'fr-fr': "Flotteur",
+				'de-de': "Herumwandern"
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Chinchou.",
-				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Loupio.",
-				de: "Wirf eine Münze. Verhindere bei 'Kopf' während des nächsten Zuges deines Gegners alle Effekte von Angriffen (einschließlich Schaden), die Lampi zugefügt werden."
+				'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Chinchou.",
+				'fr-fr': "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Loupio.",
+				'de-de': "Wirf eine Münze. Verhindere bei 'Kopf' während des nächsten Zuges deines Gegners alle Effekte von Angriffen (einschließlich Schaden), die Lampi zugefügt werden."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 20,

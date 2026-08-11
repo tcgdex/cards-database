@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Meowth"
+		'en-us': "Meowth"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -28,10 +28,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pay Day"
+				'en-us': "Pay Day"
 			},
 			effect: {
-				en: "Flip a coin. If heads, draw a card."
+				'en-us': "Flip a coin. If heads, draw a card."
 			},
 			damage: 10,
 
@@ -55,7 +55,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change."
+		'en-us': "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change."
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Woobat",
-		fr: "Chovsourir",
-		de: "Fleknoil",
-		it: "Woobat",
-		pt: "Woobat",
-		es: "Woobat",
+		'en-us': "Woobat",
+		'fr-fr': "Chovsourir",
+		'de-de': "Fleknoil",
+		'it-it': "Woobat",
+		'pt-br': "Woobat",
+		'es-es': "Woobat",
 		'es-mx': "Woobat"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Heart Stamp",
-			fr: "Crève-Cœur",
-			de: "Herzstempel",
-			it: "Cuorestampo",
-			pt: "Estampa de Coração",
-			es: "Arrumaco",
+			'en-us': "Heart Stamp",
+			'fr-fr': "Crève-Cœur",
+			'de-de': "Herzstempel",
+			'it-it': "Cuorestampo",
+			'pt-br': "Estampa de Coração",
+			'es-es': "Arrumaco",
 			'es-mx': "Sello de Corazón"
 		},
 

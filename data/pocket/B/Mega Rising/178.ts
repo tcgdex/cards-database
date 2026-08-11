@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sliggoo"
+		'en-us': "Sliggoo"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Dragon"],
 
 	evolveFrom: {
-		en: "Goomy"
+		'en-us': "Goomy"
 	},
 
 	description: {
-		en: "When Sliggoo senses danger, the mucus coating\nits entire body becomes more concentrated—\nit'll dissolve anything."
+		'en-us': "When Sliggoo senses danger, the mucus coating\nits entire body becomes more concentrated—\nit'll dissolve anything."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Gentle Slap"
+			'en-us': "Gentle Slap"
 		},
 
 		damage: 60,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Accelgor",
-		fr: "Limaspeed",
-		es: "Accelgor",
-		it: "Accelgor",
-		pt: "Accelgor",
-		de: "Hydragil"
+		'en-us': "Accelgor",
+		'fr-fr': "Limaspeed",
+		'es-es': "Accelgor",
+		'it-it': "Accelgor",
+		'pt-br': "Accelgor",
+		'de-de': "Hydragil"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shelmet",
-		fr: "Escargaume",
+		'en-us': "Shelmet",
+		'fr-fr': "Escargaume",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Acid Spray",
-				fr: "Bombe Acide",
+				'en-us': "Acid Spray",
+				'fr-fr': "Bombe Acide",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 20,
 
@@ -54,12 +54,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Slashing Strike",
-				fr: "Coup Déchirant",
+				'en-us': "Slashing Strike",
+				'fr-fr': "Coup Déchirant",
 			},
 			effect: {
-				en: "This Pokémon can't use Slashing Strike during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Coup Déchirant pendant votre prochain tour.",
+				'en-us': "This Pokémon can't use Slashing Strike during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Coup Déchirant pendant votre prochain tour.",
 			},
 			damage: 60,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Having removed its heavy shell, it becomes very light and can fight with ninja-like movements.",
+		'en-us': "Having removed its heavy shell, it becomes very light and can fight with ninja-like movements.",
 	},
 
 	thirdParty: {

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Drowzee",
+		'en-us': "Drowzee",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
+				'en-us': "Pound",
 			},
 
 			damage: 10,
@@ -41,10 +41,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Confuse Ray",
+				'en-us': "Confuse Ray",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 			},
 			damage: 10,
 
@@ -61,7 +61,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Puts enemies to sleep, then eats their dreams. Occasionally gets sick from eating bad dreams.",
+		'en-us': "Puts enemies to sleep, then eats their dreams. Occasionally gets sick from eating bad dreams.",
 	},
 
 

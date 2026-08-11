@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [476],
 
 	name: {
-		en: "Probopass",
-		fr: "Tarinorme",
-		es: "Probopass",
-		it: "Probopass",
-		pt: "Probopass",
-		de: "Voluminas"
+		'en-us': "Probopass",
+		'fr-fr': "Tarinorme",
+		'es-es': "Probopass",
+		'it-it': "Probopass",
+		'pt-br': "Probopass",
+		'de-de': "Voluminas"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -19,12 +19,12 @@ const card: Card = {
 	set: Set,
 
 	evolveFrom: {
-		en: "Nosepass",
-		fr: "Tarinor",
-		es: "Nosepass",
-		it: "Nosepass",
-		pt: "Nosepass",
-		de: "Nasgnet"
+		'en-us': "Nosepass",
+		'fr-fr': "Tarinor",
+		'es-es': "Nosepass",
+		'it-it': "Nosepass",
+		'pt-br': "Nosepass",
+		'de-de': "Nasgnet"
 	},
 
 	attacks: [
@@ -33,20 +33,20 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Gravitational Drop",
-				fr: "Chute Gravitationnelle",
-				es: "Caída Gravitacional",
-				it: "Caduta Gravitazionale",
-				pt: "Queda Gravitacional",
-				de: "Gravitationsfall"
+				'en-us': "Gravitational Drop",
+				'fr-fr': "Chute Gravitationnelle",
+				'es-es': "Caída Gravitacional",
+				'it-it': "Caduta Gravitazionale",
+				'pt-br': "Queda Gravitacional",
+				'de-de': "Gravitationsfall"
 			},
 			effect: {
-				en: "This attack does 30 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
-				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
-				es: "Este ataque hace 30 puntos de daño más por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
-				it: "Questo attacco infligge 30 danni in più per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
-				pt: "Este ataque causa 30 pontos de dano a mais para cada Colorless no custo de Recuo do Pokémon Ativo do seu oponente.",
-				de: "Diese Attacke fügt für jedes Colorless in den Rückzugskosten des Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu."
+				'en-us': "This attack does 30 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
+				'fr-fr': "Cette attaque inflige 30 dégâts supplémentaires pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
+				'es-es': "Este ataque hace 30 puntos de daño más por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
+				'it-it': "Questo attacco infligge 30 danni in più per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
+				'pt-br': "Este ataque causa 30 pontos de dano a mais para cada Colorless no custo de Recuo do Pokémon Ativo do seu oponente.",
+				'de-de': "Diese Attacke fügt für jedes Colorless in den Rückzugskosten des Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu."
 			},
 			damage: "10+",
 
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heavy Impact",
-				fr: "Gros Impact",
-				es: "Impacto Pesado",
-				it: "Impatto Pesante",
-				pt: "Impacto Pesado",
-				de: "Schwerer Einschlag"
+				'en-us': "Heavy Impact",
+				'fr-fr': "Gros Impact",
+				'es-es': "Impacto Pesado",
+				'it-it': "Impatto Pesante",
+				'pt-br': "Impacto Pesado",
+				'de-de': "Schwerer Einschlag"
 			},
 
 			damage: 120,
@@ -94,7 +94,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It uses three small units to catch prey and battle enemies. The main body mostly just gives orders."
+		'en-us': "It uses three small units to catch prey and battle enemies. The main body mostly just gives orders."
 	},
 
 	variants: [

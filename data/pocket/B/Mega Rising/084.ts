@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ampharos"
+		'en-us': "Ampharos"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Flaaffy"
+		'en-us': "Flaaffy"
 	},
 
 	description: {
-		en: "When it gets dark, the light from its bright,\nshiny tail can be seen from far away on the\nocean's surface."
+		'en-us': "When it gets dark, the light from its bright,\nshiny tail can be seen from far away on the\nocean's surface."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Zapping Bullet"
+			'en-us': "Zapping Bullet"
 		},
 
 		damage: 90,
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		effect: {
-			en: "1 of your opponent's Benched Pokémon is chosen at random. This attack also does 20 damage to it."
+			'en-us': "1 of your opponent's Benched Pokémon is chosen at random. This attack also does 20 damage to it."
 		}
 	}],
 

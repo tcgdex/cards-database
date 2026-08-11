@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホエルオーex",
+		'ja-jp': "ホエルオーex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 270,
 			cost: ["Water", "Water", "Water", "Water", "Water"],
 			effect: {
-				ja: "このポケモンをねむりにする。",
+				'ja-jp': "このポケモンをねむりにする。",
 			},
 		},
 	],
@@ -43,7 +43,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ホエルコ",
+		'ja-jp': "ホエルコ",
 	},
 
 	retreat: 4,

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Nidoran ♀"
+		'en-us': "Nidoran ♀"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -25,10 +25,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Fury Swipes"
+				'en-us': "Fury Swipes"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10×",
 
@@ -39,10 +39,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Call for Family"
+				'en-us': "Call for Family"
 			},
 			effect: {
-				en: "Search your deck for a Basic Pokémon named Nidoran ♀ or Nidoran ♂ and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
+				'en-us': "Search your deck for a Basic Pokémon named Nidoran ♀ or Nidoran ♂ and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
 			},
 
 		},
@@ -57,7 +57,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Although small, its venomous barbs make this Pokémon dangerous. The female has smaller horns."
+		'en-us': "Although small, its venomous barbs make this Pokémon dangerous. The female has smaller horns."
 	},
 
 	variants: [

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Luxray",
-		fr: "Luxray",
-		es: "Luxray",
-		it: "Luxray",
-		pt: "Luxray",
-		de: "Luxtra"
+		'en-us': "Luxray",
+		'fr-fr': "Luxray",
+		'es-es': "Luxray",
+		'it-it': "Luxray",
+		'pt-br': "Luxray",
+		'de-de': "Luxtra"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Luxio",
-		fr: "Luxio",
+		'en-us': "Luxio",
+		'fr-fr': "Luxio",
 	},
 
 	stage: "Stage2",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Flash Impact",
-				fr: "Impact-Flash",
+				'en-us': "Flash Impact",
+				'fr-fr': "Impact-Flash",
 			},
 			effect: {
-				en: "Does 20 damage to 1 of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 20 dégâts à 1 de vos Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "Does 20 damage to 1 of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 20 dégâts à 1 de vos Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 60,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crunch",
-				fr: "Mâchouille",
+				'en-us': "Crunch",
+				'fr-fr': "Mâchouille",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 80,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It can see clearly through walls to track down its prey and seek its lost young.",
+		'en-us': "It can see clearly through walls to track down its prey and seek its lost young.",
 	},
 
 	thirdParty: {

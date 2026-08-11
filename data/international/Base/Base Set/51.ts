@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Koffing",
-		fr: "Smogo",
-		de: "Smogon",
-		it: "Koffing"
+		'en-us': "Koffing",
+		'fr-fr': "Smogo",
+		'de-de': "Smogon",
+		'it-it': "Koffing"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -33,16 +33,16 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Foul Gas",
-				fr: "Gaz infect",
-				de: "Fäulnisgas",
-				it: "Gas puzzolente"
+				'en-us': "Foul Gas",
+				'fr-fr': "Gaz infect",
+				'de-de': "Fäulnisgas",
+				'it-it': "Gas puzzolente"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned; if tails, it is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné ; si c'est pile, il est maintenant Confus.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon vergiftet; bei 'Zahl' verwirrt.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Avvelenato; se esce croce, è Confuso."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned; if tails, it is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné ; si c'est pile, il est maintenant Confus.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon vergiftet; bei 'Zahl' verwirrt.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon Difensore è Avvelenato; se esce croce, è Confuso."
 			},
 			damage: 10,
 
@@ -59,9 +59,9 @@ const card: Card = {
 
 
 	description: {
-		en: "Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning.",
-		fr: "Son corps, constitué de gaz toxiques et instables, peut exploser soudainement.",
-		it: "Il suo corpo contiene vari tipi di gas tossici ed è per questo che spesso esplode senza alcun preavviso. LIV 13 N.109",
+		'en-us': "Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning.",
+		'fr-fr': "Son corps, constitué de gaz toxiques et instables, peut exploser soudainement.",
+		'it-it': "Il suo corpo contiene vari tipi di gas tossici ed è per questo che spesso esplode senza alcun preavviso. LIV 13 N.109",
 	},
 
 	variants: [

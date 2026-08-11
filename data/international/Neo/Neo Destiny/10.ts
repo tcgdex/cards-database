@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Dark Typhlosion",
-		fr: "Typhlosion obscur",
-		de: "Dunkles Tornupto"
+		'en-us': "Dark Typhlosion",
+		'fr-fr': "Typhlosion obscur",
+		'de-de': "Dunkles Tornupto"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Quilava",
-		fr: "Feurisson obscur"
+		'en-us': "Quilava",
+		'fr-fr': "Feurisson obscur"
 	},
 
 	stage: "Stage2",
@@ -36,9 +36,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Claw Swipe",
-				fr: "Combo-serres",
-				de: "Klauenschlag"
+				'en-us': "Claw Swipe",
+				'fr-fr': "Combo-serres",
+				'de-de': "Klauenschlag"
 			},
 
 			damage: 20,
@@ -49,14 +49,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Rushing Flames",
-				fr: "Vague de flammes",
-				de: "Brausende Flammen"
+				'en-us': "Rushing Flames",
+				'fr-fr': "Vague de flammes",
+				'de-de': "Brausende Flammen"
 			},
 			effect: {
-				en: "You may discard any number of Energy cards attached to your Pokémon. Flip a coin for each Energy card discarded in this way. This attack does 40 damage times the number of heads.",
-				fr: "Vous pouvez vous défausser de n'importe quel nombre de cartes Énergie  attachées à votre Pokémon. Lancez une pièce pour chaque carte Énergie  défaussée de cette manière. Cette attaque fait 40 dégâts multipliés par le nombre de faces.",
-				de: "Du kannst eine beliebige Anzahl an dein Pokémon angelegte -Energiekarten auf deinen Ablagestapel legen. Wirf für jede -Energiekarte, die du auf diese Weise auf deinen Ablagestapel gelegt hast, eine Münze. Dieser angriff fügt 40 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				'en-us': "You may discard any number of Energy cards attached to your Pokémon. Flip a coin for each Energy card discarded in this way. This attack does 40 damage times the number of heads.",
+				'fr-fr': "Vous pouvez vous défausser de n'importe quel nombre de cartes Énergie  attachées à votre Pokémon. Lancez une pièce pour chaque carte Énergie  défaussée de cette manière. Cette attaque fait 40 dégâts multipliés par le nombre de faces.",
+				'de-de': "Du kannst eine beliebige Anzahl an dein Pokémon angelegte -Energiekarten auf deinen Ablagestapel legen. Wirf für jede -Energiekarte, die du auf diese Weise auf deinen Ablagestapel gelegt hast, eine Münze. Dieser angriff fügt 40 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
 			damage: "40x",
 
@@ -73,8 +73,8 @@ const card: Card = {
 
 
 	description: {
-		en: "When it's in combat, the air around it shimmers and warps from the intense heat it produces.",
-		fr: "Quand il se bat, l'air autour de lui scintille et semble s'enflammer à cause de l'intense chaleur émanant de lui."
+		'en-us': "When it's in combat, the air around it shimmers and warps from the intense heat it produces.",
+		'fr-fr': "Quand il se bat, l'air autour de lui scintille et semble s'enflammer à cause de l'intense chaleur émanant de lui."
 	},
 
 

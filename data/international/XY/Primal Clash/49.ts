@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Clamperl",
-		fr: "Coquiperl",
-		es: "Clamperl",
-		it: "Clamperl",
-		pt: "Clamperl",
-		de: "Perlu"
+		'en-us': "Clamperl",
+		'fr-fr': "Coquiperl",
+		'es-es': "Clamperl",
+		'it-it': "Clamperl",
+		'pt-br': "Clamperl",
+		'de-de': "Perlu"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Shell Protection",
-				fr: "Coqui-Défense",
-				es: "Protección Caparazón",
-				it: "Proteggiguscio",
-				pt: "Proteção da Concha",
-				de: "Muschelschutz"
+				'en-us': "Shell Protection",
+				'fr-fr': "Coqui-Défense",
+				'es-es': "Protección Caparazón",
+				'it-it': "Proteggiguscio",
+				'pt-br': "Proteção da Concha",
+				'de-de': "Muschelschutz"
 			},
 			effect: {
-				en: "During your opponent's next turn, if this Pokémon would be damaged by an attack, prevent that attack's damage done to this Pokémon if that damage is 50 or less.",
-				fr: "Pendant le prochain tour de votre adversaire, si ce Pokémon doit subir les dégâts d'une attaque, évitez les dégâts infligés à ce Pokémon si ces dégâts sont de 50 ou moins.",
-				es: "Durante el próximo turno de tu rival, si este Pokémon fuera a resultar dañado por un ataque, evita el daño infligido por ese ataque a este Pokémon si el daño es de 50 puntos o menos.",
-				it: "Durante il prossimo turno del tuo avversario, se questo Pokémon sta per essere danneggiato da un attacco, previeni il danno di quell'attacco inflitto a questo Pokémon se quel danno è 50 o meno.",
-				pt: "Durante a próxima vez de jogar do seu oponente, se esse Pokémon estiver prestes a sofrer danos causados por um ataque, impeça os danos causados pelo ataque a esse Pokémon se eles forem 50 ou menos.",
-				de: "Wenn diesem Pokémon während des nächsten Zuges deines Gegners durch einen Angriff 50 oder weniger Schadenspunkte zugefügt werden, verhindere diesen Schaden."
+				'en-us': "During your opponent's next turn, if this Pokémon would be damaged by an attack, prevent that attack's damage done to this Pokémon if that damage is 50 or less.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, si ce Pokémon doit subir les dégâts d'une attaque, évitez les dégâts infligés à ce Pokémon si ces dégâts sont de 50 ou moins.",
+				'es-es': "Durante el próximo turno de tu rival, si este Pokémon fuera a resultar dañado por un ataque, evita el daño infligido por ese ataque a este Pokémon si el daño es de 50 puntos o menos.",
+				'it-it': "Durante il prossimo turno del tuo avversario, se questo Pokémon sta per essere danneggiato da un attacco, previeni il danno di quell'attacco inflitto a questo Pokémon se quel danno è 50 o meno.",
+				'pt-br': "Durante a próxima vez de jogar do seu oponente, se esse Pokémon estiver prestes a sofrer danos causados por um ataque, impeça os danos causados pelo ataque a esse Pokémon se eles forem 50 ou menos.",
+				'de-de': "Wenn diesem Pokémon während des nächsten Zuges deines Gegners durch einen Angriff 50 oder weniger Schadenspunkte zugefügt werden, verhindere diesen Schaden."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is protected by a sturdy shell. Once in a lifetime, it makes a magnificent pearl.",
+		'en-us': "It is protected by a sturdy shell. Once in a lifetime, it makes a magnificent pearl.",
 	},
 
 	thirdParty: {

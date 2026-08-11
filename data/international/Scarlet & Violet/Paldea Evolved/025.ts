@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Léboulérou",
-		en: "Rellor",
-		es: "Rellor",
-		it: "Rellor",
-		pt: "Rellor",
-		de: "Relluk"
+		'fr-fr': "Léboulérou",
+		'en-us': "Rellor",
+		'es-es': "Rellor",
+		'it-it': "Rellor",
+		'pt-br': "Rellor",
+		'de-de': "Relluk"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Piqûre",
-			en: "Bug Bite",
-			es: "Picadura",
-			it: "Coleomorso",
-			pt: "Picada",
-			de: "Käferbiss"
+			'fr-fr': "Piqûre",
+			'en-us': "Bug Bite",
+			'es-es': "Picadura",
+			'it-it': "Coleomorso",
+			'pt-br': "Picada",
+			'de-de': "Käferbiss"
 		},
 
 		damage: 10
@@ -66,7 +66,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "This Pokémon creates a mud ball by mixing sand and dirt with psychic energy. It treasures its mud ball more than its own life.",
+		'en-us': "This Pokémon creates a mud ball by mixing sand and dirt with psychic energy. It treasures its mud ball more than its own life.",
 	},
 }
 

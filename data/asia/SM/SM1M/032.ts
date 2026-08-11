@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マケンカニ",
+		'ja-jp': "マケンカニ",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "なぐり過ぎで ハサミは よく もげるが すぐに 生える。 ハサミの 中味は 少ないが コクがあって うまいぞ。",
+		'ja-jp': "なぐり過ぎで ハサミは よく もげるが すぐに 生える。 ハサミの 中味は 少ないが コクがあって うまいぞ。",
 	},
 
 	stage: "Basic",

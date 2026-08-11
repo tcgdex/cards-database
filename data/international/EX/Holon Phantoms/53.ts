@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Sharpedo δ",
-		fr: "Sharpedo δ",
-		de: "Tohaido"
+		'en-us': "Sharpedo δ",
+		'fr-fr': "Sharpedo δ",
+		'de-de': "Tohaido"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Carvanha",
-		fr: "Carvanha"
+		'en-us': "Carvanha",
+		'fr-fr': "Carvanha"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Brush Aside",
-				fr: "Repousser",
-				de: "Wegstoßen"
+				'en-us': "Brush Aside",
+				'fr-fr': "Repousser",
+				'de-de': "Wegstoßen"
 			},
 			effect: {
-				en: "If Sharpedo has any Holon Energy cards attached to it, choose 1 card from your opponent's hand without looking and discard it.",
-				fr: "Si Sharpedo possède des cartes Énergie Holon, choisissez sans regarder 1 carte de la main de votre adversaire et défaussez-la.",
-				de: "Wenn an Tohaido eine Holon-Energiekarte angelegt ist, wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen). Dein Gegner legt diese Karte auf seinen Ablagestapel."
+				'en-us': "If Sharpedo has any Holon Energy cards attached to it, choose 1 card from your opponent's hand without looking and discard it.",
+				'fr-fr': "Si Sharpedo possède des cartes Énergie Holon, choisissez sans regarder 1 carte de la main de votre adversaire et défaussez-la.",
+				'de-de': "Wenn an Tohaido eine Holon-Energiekarte angelegt ist, wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen). Dein Gegner legt diese Karte auf seinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swift Turn",
-				fr: "Tour express",
-				de: "Schnelle Wende"
+				'en-us': "Swift Turn",
+				'fr-fr': "Tour express",
+				'de-de': "Schnelle Wende"
 			},
 			effect: {
-				en: "If the Defending Pokémon has Fighting Resistance, this attack does 50 damage plus 30 more damage.",
-				fr: "Si le Pokémon Défenseur possède une Résistance , cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wenn das Verteidigende Pokémon -Resistenz hat, fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "If the Defending Pokémon has Fighting Resistance, this attack does 50 damage plus 30 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur possède une Résistance , cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "Wenn das Verteidigende Pokémon -Resistenz hat, fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 

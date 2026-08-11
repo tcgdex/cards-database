@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Lairon",
-		fr: "Galegon de Team Magma",
-		de: "Team Magmas Stollrak"
+		'en-us': "Team Magma's Lairon",
+		'fr-fr': "Galegon de Team Magma",
+		'de-de': "Team Magmas Stollrak"
 	},
 
 	illustrator: "Hiromichi Sugiyama",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam",
-				fr: "Plaquage",
-				de: "Body Slam"
+				'en-us': "Body Slam",
+				'fr-fr': "Plaquage",
+				'de-de': "Body Slam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 50,

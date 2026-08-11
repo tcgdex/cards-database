@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フカマル",
+		'ja-jp': "フカマル",
 	},
 
 	illustrator: "Asako Ito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "動くものに 反応し 飛びついて 噛みつく。 自分が 傷つくことも あるけれど あまり 気にしていない。",
+		'ja-jp': "動くものに 反応し 飛びついて 噛みつく。 自分が 傷つくことも あるけれど あまり 気にしていない。",
 	},
 
 	stage: "Basic",

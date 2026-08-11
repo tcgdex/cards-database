@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Poliwrath"
+		'id-id': "Poliwrath"
 	},
 
 	illustrator: "Nisota Niso",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Jika hanya untuk sesaat, ia dapat berlari di atas air menggunakan tangan dan kakinya yang sudah berkembang."
+		'id-id': "Jika hanya untuk sesaat, ia dapat berlari di atas air menggunakan tangan dan kakinya yang sudah berkembang."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			id: "Hipnotis"
+			'id-id': "Hipnotis"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
 		},
 
 		cost: ["Water"]
 	}, {
 		name: {
-			id: "Jumping Uppercut"
+			'id-id': "Jumping Uppercut"
 		},
 
 		effect: {
-			id: "Pemain dapat membuat kerusakan yang diberikan bertambah sejumlah 120. Jika dilakukan, kocok kembali Pokémon ini dan semua kartu yang dikenakannya ke Deck sendiri."
+			'id-id': "Pemain dapat membuat kerusakan yang diberikan bertambah sejumlah 120. Jika dilakukan, kocok kembali Pokémon ini dan semua kartu yang dikenakannya ke Deck sendiri."
 		},
 
 		damage: "120+",

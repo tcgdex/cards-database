@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Granbull",
-		fr: "Granbull",
-		es: "Granbull",
-		it: "Granbull",
-		pt: "Granbull",
-		de: "Granbull"
+		'en-us': "Granbull",
+		'fr-fr': "Granbull",
+		'es-es': "Granbull",
+		'it-it': "Granbull",
+		'pt-br': "Granbull",
+		'de-de': "Granbull"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Snubbull",
-		fr: "Snubbull",
+		'en-us': "Snubbull",
+		'fr-fr': "Snubbull",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Dark Clamp",
-				fr: "Pince des Ténèbres",
-				es: "Tenaza Oscura",
-				it: "Buiotenaglia",
-				pt: "Grampo da Escuridão",
-				de: "Dunkler Klammergriff"
+				'en-us': "Dark Clamp",
+				'fr-fr': "Pince des Ténèbres",
+				'es-es': "Tenaza Oscura",
+				'it-it': "Buiotenaglia",
+				'pt-br': "Grampo da Escuridão",
+				'de-de': "Dunkler Klammergriff"
 			},
 			effect: {
-				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
-				es: "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
-				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-				pt: "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
-				de: "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can’t retreat during your opponent’s next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'es-es': "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
+				'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+				'pt-br': "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
+				'de-de': "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 30,
 
@@ -64,20 +64,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fight Back",
-				fr: "Rendre les Coups",
-				es: "Devolver Golpe",
-				it: "Lottadifesa",
-				pt: "Devolver Ataque",
-				de: "Zur Wehr setzen"
+				'en-us': "Fight Back",
+				'fr-fr': "Rendre les Coups",
+				'es-es': "Devolver Golpe",
+				'it-it': "Lottadifesa",
+				'pt-br': "Devolver Ataque",
+				'de-de': "Zur Wehr setzen"
 			},
 			effect: {
-				en: "If this Pokémon has any damage counters on it, this attack does 80 more damage.",
-				fr: "Si des marqueurs de dégâts sont placés sur ce Pokémon, cette attaque inflige 80 dégâts supplémentaires.",
-				es: "Si este Pokémon tiene algún contador de daño sobre él, este ataque hace 80 puntos de daño más.",
-				it: "Se questo Pokémon ha dei segnalini danno, questo attacco infligge 80 danni in più.",
-				pt: "Se este Pokémon possuir contadores de dano nele, este ataque causará 80 pontos de dano a mais.",
-				de: "Wenn auf diesem Pokémon mindestens 1 Schadensmarke liegt, fügt diese Attacke 80 Schadenspunkte mehr zu."
+				'en-us': "If this Pokémon has any damage counters on it, this attack does 80 more damage.",
+				'fr-fr': "Si des marqueurs de dégâts sont placés sur ce Pokémon, cette attaque inflige 80 dégâts supplémentaires.",
+				'es-es': "Si este Pokémon tiene algún contador de daño sobre él, este ataque hace 80 puntos de daño más.",
+				'it-it': "Se questo Pokémon ha dei segnalini danno, questo attacco infligge 80 danni in più.",
+				'pt-br': "Se este Pokémon possuir contadores de dano nele, este ataque causará 80 pontos de dano a mais.",
+				'de-de': "Wenn auf diesem Pokémon mindestens 1 Schadensmarke liegt, fügt diese Attacke 80 Schadenspunkte mehr zu."
 			},
 			damage: "50+",
 
@@ -101,7 +101,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "More timid than Snubbull, this Pokémon is doted on by young people amused at the contrast between its looks and its attitude.",
+		'en-us': "More timid than Snubbull, this Pokémon is doted on by young people amused at the contrast between its looks and its attitude.",
 	},
 
 	thirdParty: {

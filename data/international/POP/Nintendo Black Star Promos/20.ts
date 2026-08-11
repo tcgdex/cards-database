@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Nintendo Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Ludicolo",
+		'en-us': "Ludicolo",
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -18,7 +18,7 @@ const card: Card = {
 		"Water",
 	],
 	evolveFrom: {
-		en: "Lombre",
+		'en-us': "Lombre",
 	},
 	stage: "Stage2",
 
@@ -26,10 +26,10 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Rain Dish",
+				'en-us': "Rain Dish",
 			},
 			effect: {
-				en: "At any time between turns, remove 1 damage counter from Ludicolo.",
+				'en-us': "At any time between turns, remove 1 damage counter from Ludicolo.",
 			},
 		},
 	],
@@ -41,10 +41,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Swipes",
+				'en-us': "Fury Swipes",
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 30 damage times the number of heads.",
+				'en-us': "Flip 3 coins. This attack does 30 damage times the number of heads.",
 			},
 			damage: 30,
 

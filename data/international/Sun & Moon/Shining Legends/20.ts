@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Feraligatr",
-		fr: "Aligatueur",
-		es: "Feraligatr",
-		it: "Feraligatr",
-		pt: "Feraligatr",
-		de: "Impergator"
+		'en-us': "Feraligatr",
+		'fr-fr': "Aligatueur",
+		'es-es': "Feraligatr",
+		'it-it': "Feraligatr",
+		'pt-br': "Feraligatr",
+		'de-de': "Impergator"
 	},
 
 	illustrator: "nagimiso",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Croconaw",
-		fr: "Crocrodil",
+		'en-us': "Croconaw",
+		'fr-fr': "Crocrodil",
 	},
 
 	stage: "Stage2",
@@ -41,20 +41,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crunch",
-				fr: "Mâchouille",
-				es: "Triturar",
-				it: "Sgranocchio",
-				pt: "Mastigada",
-				de: "Knirscher"
+				'en-us': "Crunch",
+				'fr-fr': "Mâchouille",
+				'es-es': "Triturar",
+				'it-it': "Sgranocchio",
+				'pt-br': "Mastigada",
+				'de-de': "Knirscher"
 			},
 			effect: {
-				en: "Discard an Energy from your opponent’s Active Pokémon.",
-				fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
-				es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-				it: "Scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
-				de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard an Energy from your opponent’s Active Pokémon.",
+				'fr-fr': "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+				'es-es': "Descarta 1 Energía del Pokémon Activo de tu rival.",
+				'it-it': "Scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 80,
 
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Splash",
-				fr: "Hydro-Éclaboussure",
-				es: "Hidroestallido",
-				it: "Idrosplash",
-				pt: "Hidroborrifada",
-				de: "Hydroplatscher"
+				'en-us': "Hydro Splash",
+				'fr-fr': "Hydro-Éclaboussure",
+				'es-es': "Hidroestallido",
+				'it-it': "Idrosplash",
+				'pt-br': "Hidroborrifada",
+				'de-de': "Hydroplatscher"
 			},
 
 			damage: 130,
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It usually moves slowly, but it goes at blinding speed when it attacks and bites prey.",
+		'en-us': "It usually moves slowly, but it goes at blinding speed when it attacks and bites prey.",
 	},
 
 	thirdParty: {

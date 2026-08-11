@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ロズレイド"
+		'ja-jp': "ロズレイド"
 	},
 
 	illustrator: "saino misaki",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "かぐわしい 花の 香りで 相手を 惑わせ いばらの ムチで 激しく 打ちつける。"
+		'ja-jp': "かぐわしい 花の 香りで 相手を 惑わせ いばらの ムチで 激しく 打ちつける。"
 	},
 
 	stage: "Stage1",
@@ -24,25 +24,25 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "どくのムチ"
+			'ja-jp': "どくのムチ"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "相手のバトルポケモンをどくにする。"
+			'ja-jp': "相手のバトルポケモンをどくにする。"
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "アサシンローズ"
+			'ja-jp': "アサシンローズ"
 		},
 
 		damage: 60,
 
 		effect: {
-			ja: "相手のバトルポケモンが特殊状態なら、相手のベンチポケモン1匹にも、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			'ja-jp': "相手のバトルポケモンが特殊状態なら、相手のベンチポケモン1匹にも、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
 		}
 	}],
 

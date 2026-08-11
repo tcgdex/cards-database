@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Ninetales",
-		fr: "Feunard",
-		de: "Vulnona"
+		'en-us': "Ninetales",
+		'fr-fr': "Feunard",
+		'de-de': "Vulnona"
 	},
 
 	illustrator: "Midori Harada",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vulpix",
-		fr: "Goupix"
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde folie",
-				de: "Confuse Ray"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde folie",
+				'de-de': "Confuse Ray"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "The Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "The Defending Pokémon is now Confused."
 			},
 			damage: 10,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Searing Flame",
-				fr: "Flammes calcinantes",
-				de: "Searing Flame"
+				'en-us': "Searing Flame",
+				'fr-fr': "Flammes calcinantes",
+				'de-de': "Searing Flame"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
-				de: "The Defending Pokémon is now Burned."
+				'en-us': "The Defending Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "The Defending Pokémon is now Burned."
 			},
 			damage: 40,
 

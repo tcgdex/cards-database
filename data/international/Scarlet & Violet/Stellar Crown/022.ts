@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Reshiram",
-		fr: "Reshiram",
-		es: "Reshiram",
-		it: "Reshiram",
-		pt: "Reshiram",
-		de: "Reshiram"
+		'en-us': "Reshiram",
+		'fr-fr': "Reshiram",
+		'es-es': "Reshiram",
+		'it-it': "Reshiram",
+		'pt-br': "Reshiram",
+		'de-de': "Reshiram"
 	},
 
 	rarity: "Uncommon",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fire", "Colorless", "Colorless"],
 
 		name: {
-			en: "Heat Blast",
-			fr: "Explosion de Chaleur",
-			es: "Explosión de Calor",
-			it: "Caldobomba",
-			pt: "Raio de Calor",
-			de: "Hitzestoß"
+			'en-us': "Heat Blast",
+			'fr-fr': "Explosion de Chaleur",
+			'es-es': "Explosión de Calor",
+			'it-it': "Caldobomba",
+			'pt-br': "Raio de Calor",
+			'de-de': "Hitzestoß"
 		},
 
 		damage: 90

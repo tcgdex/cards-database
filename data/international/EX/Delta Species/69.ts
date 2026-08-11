@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Eevee",
-		fr: "Evoli",
-		de: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Evoli",
+		'de-de': "Evoli"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la famille",
-				de: "Call for Family"
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la famille",
+				'de-de': "Call for Family"
 			},
 			effect: {
-				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
+				'en-us': "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+				'de-de': "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rear Kick",
-				fr: "Ruade",
-				de: "Rear Kick"
+				'en-us': "Rear Kick",
+				'fr-fr': "Ruade",
+				'de-de': "Rear Kick"
 			},
 
 			damage: 20,

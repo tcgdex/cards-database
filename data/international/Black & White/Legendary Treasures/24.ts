@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Victini-EX",
+		'en-us': "Victini-EX",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Turbo Energize",
+				'en-us': "Turbo Energize",
 			},
 			effect: {
-				en: "Search your deck for 2 basic Energy cards and attach them to your Benched Pokémon in any way you like. Shuffle your deck afterward.",
+				'en-us': "Search your deck for 2 basic Energy cards and attach them to your Benched Pokémon in any way you like. Shuffle your deck afterward.",
 			},
 
 		},
@@ -43,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Intensifying Burn",
+				'en-us': "Intensifying Burn",
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Pokémon-EX, this attack does 50 more damage.",
+				'en-us': "If the Defending Pokémon is a Pokémon-EX, this attack does 50 more damage.",
 			},
 			damage: 50,
 

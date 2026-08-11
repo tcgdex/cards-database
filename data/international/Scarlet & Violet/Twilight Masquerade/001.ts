@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tangela",
-		fr: "Saquedeneu",
-		es: "Tangela",
-		it: "Tangela",
-		pt: "Tangela",
-		de: "Tangela"
+		'en-us': "Tangela",
+		'fr-fr': "Saquedeneu",
+		'es-es': "Tangela",
+		'it-it': "Tangela",
+		'pt-br': "Tangela",
+		'de-de': "Tangela"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Gentle Slap",
-			fr: "Gifle Douce",
-			es: "Bofetada Gentil",
-			it: "Schiaffetto",
-			pt: "Tapinha",
-			de: "Sanfter Hieb"
+			'en-us': "Gentle Slap",
+			'fr-fr': "Gifle Douce",
+			'es-es': "Bofetada Gentil",
+			'it-it': "Schiaffetto",
+			'pt-br': "Tapinha",
+			'de-de': "Sanfter Hieb"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Vine Slap",
-			fr: "Gifle de Liane",
-			es: "Bofetón Látigo",
-			it: "Lianasberla",
-			pt: "Tapa de Vinhas",
-			de: "Rankenklatscher"
+			'en-us': "Vine Slap",
+			'fr-fr': "Gifle de Liane",
+			'es-es': "Bofetón Látigo",
+			'it-it': "Lianasberla",
+			'pt-br': "Tapa de Vinhas",
+			'de-de': "Rankenklatscher"
 		},
 
 		damage: 30
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Hidden beneath a tangle of vines that grows nonstop even if the vines are torn off, this Pokémon's true appearance remains a mystery.",
+		'en-us': "Hidden beneath a tangle of vines that grows nonstop even if the vines are torn off, this Pokémon's true appearance remains a mystery.",
 	},
 
 	variants: [

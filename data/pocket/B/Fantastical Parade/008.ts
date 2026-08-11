@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [650],
 
 	name: {
-		en: "Chespin"
+		'en-us': "Chespin"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "Eating lots of berries makes the bark shell that\ncovers Chespin's head and body grow sturdier."
+		'en-us': "Eating lots of berries makes the bark shell that\ncovers Chespin's head and body grow sturdier."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Vine Whip"
+			'en-us': "Vine Whip"
 		},
 
 		damage: 30,

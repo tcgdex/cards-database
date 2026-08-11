@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Swampert EX",
-		fr: "Laggron EX",
+		'en-us': "Swampert EX",
+		'fr-fr': "Laggron EX",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud Flood",
-				fr: "Invasion Boueuse",
+				'en-us': "Mud Flood",
+				'fr-fr': "Invasion Boueuse",
 			},
 			effect: {
-				en: "Reveal the top 4 cards of your deck. This attack does 40 more damage for each Water Energy you find there. Shuffle the revealed cards back into your deck.",
-				fr: "Montrez les 4 cartes du dessus de votre deck. Cette attaque inflige 40 dégâts supplémentaires pour chaque Énergie Water que vous y trouvez. Mélangez les cartes montrées avec votre deck.",
+				'en-us': "Reveal the top 4 cards of your deck. This attack does 40 more damage for each Water Energy you find there. Shuffle the revealed cards back into your deck.",
+				'fr-fr': "Montrez les 4 cartes du dessus de votre deck. Cette attaque inflige 40 dégâts supplémentaires pour chaque Énergie Water que vous y trouvez. Mélangez les cartes montrées avec votre deck.",
 			},
 			damage: "40＋",
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Tackle",
-				fr: "Hydro-Charge",
+				'en-us': "Hydro Tackle",
+				'fr-fr': "Hydro-Charge",
 			},
 			effect: {
-				en: "This Pokémon does 20 damage to itself.",
-				fr: "Ce Pokémon s'inflige 20 dégâts.",
+				'en-us': "This Pokémon does 20 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 20 dégâts.",
 			},
 			damage: 120,
 

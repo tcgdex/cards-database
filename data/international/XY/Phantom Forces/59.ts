@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Skarmory",
-		fr: "Airmure",
-		es: "Skarmory",
-		it: "Skarmory",
-		pt: "Skarmory",
-		de: "Panzaeron"
+		'en-us': "Skarmory",
+		'fr-fr': "Airmure",
+		'es-es': "Skarmory",
+		'it-it': "Skarmory",
+		'pt-br': "Skarmory",
+		'de-de': "Panzaeron"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				es: "Cuchillada",
-				it: "Lacerazione",
-				pt: "Talho",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'es-es': "Cuchillada",
+				'it-it': "Lacerazione",
+				'pt-br': "Talho",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 30,
@@ -53,20 +53,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Iron Wing",
-				fr: "Aile de Fer",
-				es: "Ala Férrea",
-				it: "Alaferro",
-				pt: "Asa de Ferro",
-				de: "Eisenflügel"
+				'en-us': "Iron Wing",
+				'fr-fr': "Aile de Fer",
+				'es-es': "Ala Férrea",
+				'it-it': "Alaferro",
+				'pt-br': "Asa de Ferro",
+				'de-de': "Eisenflügel"
 			},
 			effect: {
-				en: "Discard a Metal Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie Metal attachée à ce Pokémon.",
-				es: "Descarta 1 Energía Metal unida a este Pokémon.",
-				it: "Scarta un'Energia Metal assegnata a questo Pokémon.",
-				pt: "Descarte uma Energia Metal ligada a este Pokémon.",
-				de: "Lege 1 an dieses Pokémon angelegte Metal-Energie auf deinen Ablagestapel."
+				'en-us': "Discard a Metal Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie Metal attachée à ce Pokémon.",
+				'es-es': "Descarta 1 Energía Metal unida a este Pokémon.",
+				'it-it': "Scarta un'Energia Metal assegnata a questo Pokémon.",
+				'pt-br': "Descarte uma Energia Metal ligada a este Pokémon.",
+				'de-de': "Lege 1 an dieses Pokémon angelegte Metal-Energie auf deinen Ablagestapel."
 			},
 			damage: 90,
 
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "After nesting in bramble bushes, the wings of its chicks grow hard from scratches by thorns.",
+		'en-us': "After nesting in bramble bushes, the wings of its chicks grow hard from scratches by thorns.",
 	},
 
 	thirdParty: {

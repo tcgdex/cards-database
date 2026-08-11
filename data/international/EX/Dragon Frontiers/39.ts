@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Smeargle δ",
-		fr: "Queulorior δ",
-		de: "Farbeagle"
+		'en-us': "Smeargle δ",
+		'fr-fr': "Queulorior δ",
+		'de-de': "Farbeagle"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collectionner",
-				de: "Sammeln"
+				'en-us': "Collect",
+				'fr-fr': "Collectionner",
+				'de-de': "Sammeln"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flickering Tail",
-				fr: "Queue tremblante",
-				de: "Pinselschwanz"
+				'en-us': "Flickering Tail",
+				'fr-fr': "Queue tremblante",
+				'de-de': "Pinselschwanz"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Pokémon-ex, this attack does 10 damage plus 10 more damage and the Defending Pokémon is now Asleep.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires et le Pokémon Défenseur est maintenant Endormi.",
-				de: "Wenn das Verteidigende Pokémon ein Pokémon-ex ist, fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu und das Verteidigende Pokémon schläft jetzt."
+				'en-us': "If the Defending Pokémon is Pokémon-ex, this attack does 10 damage plus 10 more damage and the Defending Pokémon is now Asleep.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires et le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Wenn das Verteidigende Pokémon ein Pokémon-ex ist, fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu und das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: "10+",
 

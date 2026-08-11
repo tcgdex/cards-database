@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パワータブレット",
+		'ja-jp': "パワータブレット",
 	},
 
 	illustrator: "",
 	category: "Trainer",
 
 	effect: {
-		ja: "この番、自分の「フュージョン」のポケモンが使うワザの、相手のバトルポケモンへのダメージは「+30」される。",
+		'ja-jp': "この番、自分の「フュージョン」のポケモンが使うワザの、相手のバトルポケモンへのダメージは「+30」される。",
 	},
 
 	variants: [

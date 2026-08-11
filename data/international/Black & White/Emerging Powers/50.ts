@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Roggenrola",
-		fr: "Nodulithe",
-		es: "Roggenrola",
-		it: "Roggenrola",
-		pt: "Roggenrola",
-		de: "Kiesling"
+		'en-us': "Roggenrola",
+		'fr-fr': "Nodulithe",
+		'es-es': "Roggenrola",
+		'it-it': "Roggenrola",
+		'pt-br': "Roggenrola",
+		'de-de': "Kiesling"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'Boule",
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'Boule",
 			},
 
 			damage: 10,
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reckless Charge",
-				fr: "Attaque Imprudente",
+				'en-us': "Reckless Charge",
+				'fr-fr': "Attaque Imprudente",
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				'en-us': "This Pokémon does 10 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 10 dégâts.",
 			},
 			damage: 30,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They were discovered a hundred years ago in an earthquake fissure. Inside each one is an energy core.",
+		'en-us': "They were discovered a hundred years ago in an earthquake fissure. Inside each one is an energy core.",
 	},
 
 	thirdParty: {

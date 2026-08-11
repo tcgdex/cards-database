@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Trainer kits'
 
 const set: Set = {
 	id: "tk-ex-p",
 
 	name: {
-		en: "EX trainer Kit 2 (Plusle)",
-		it: "EX trainer Kit (Plusle)",
-		fr: "EX Kit dresseur (Positi)",
-		es: "Kit de Entrenador EX (Plusle)",
+		'en-us': "EX trainer Kit 2 (Plusle)",
+		'it-it': "EX trainer Kit (Plusle)",
+		'fr-fr': "EX Kit dresseur (Positi)",
+		'es-es': "Kit de Entrenador EX (Plusle)",
 	},
 
 	serie: serie,
@@ -21,7 +21,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "TK2P",
-		fr: "POS"
+		'fr-fr': "POS"
 	},
 
 	thirdParty: {

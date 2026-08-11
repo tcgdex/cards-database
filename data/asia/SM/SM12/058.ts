@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フラベベ",
+		'ja-jp': "フラベベ",
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "花の 力が ないと 危険。 でも 好きな 色と 形が 見つかるまで 旅を 続けるぞ。",
+		'ja-jp': "花の 力が ないと 危険。 でも 好きな 色と 形が 見つかるまで 旅を 続けるぞ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "はなのさそい" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある[妖]ポケモンを2枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札にある[妖]ポケモンを2枚まで、相手に見せてから、手札に加える。そして山札を切る。",
 			},
 		},
 	],

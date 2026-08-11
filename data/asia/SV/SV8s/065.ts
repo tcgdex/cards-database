@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Wattrel",
-		th: "ไคเด็น"
+		'id-id': "Wattrel",
+		'th-th': "ไคเด็น"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Wattrel membuat sarangnya pada tebing di pesisir pantai. Sarang Pokémon ini populer dengan tekstur dan rasanya yang renyah nan unik.",
-		th: "สร้างรังบนหน้าผาริมชายฝั่ง รังของมันเป็นอาหารแสนโอชะและเป็น ที่นิยมเนื่องจากเนื้อสัมผัสประหลาดที่จะแตกเปรี๊ยะภายในปาก"
+		'id-id': "Wattrel membuat sarangnya pada tebing di pesisir pantai. Sarang Pokémon ini populer dengan tekstur dan rasanya yang renyah nan unik.",
+		'th-th': "สร้างรังบนหน้าผาริมชายฝั่ง รังของมันเป็นอาหารแสนโอชะและเป็น ที่นิยมเนื่องจากเนื้อสัมผัสประหลาดที่จะแตกเปรี๊ยะภายในปาก"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Jungkiran Walet",
-			th: "คมมีดบูมเมอแรง"
+			'id-id': "Jungkiran Walet",
+			'th-th': "คมมีดบูมเมอแรง"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 20.",
-			th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว การโจมตีนี้จะเพิ่มแดเมจอีก 20"
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 20.",
+			'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกหัว การโจมตีนี้จะเพิ่มแดเมจอีก 20"
 		},
 
 		damage: "10+",

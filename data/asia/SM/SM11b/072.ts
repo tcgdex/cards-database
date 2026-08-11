@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シルヴァディGX",
+		'ja-jp': "シルヴァディGX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ディスクリロード" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札が5枚になるように、山札を引く。",
+				'ja-jp': "自分の番に1回使える。自分の手札が5枚になるように、山札を引く。",
 			},
 		},
 	],
@@ -30,14 +30,14 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "この番、手札からサポートを出して使っていたなら、70ダメージ追加。",
+				'ja-jp': "この番、手札からサポートを出して使っていたなら、70ダメージ追加。",
 			},
 		},
 		{
 			name: { ja: "ホワイトナイトGX" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが「ウルトラビースト」なら、そのポケモンをきぜつさせる。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のバトルポケモンが「ウルトラビースト」なら、そのポケモンをきぜつさせる。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "タイプ：ヌル",
+		'ja-jp': "タイプ：ヌル",
 	},
 
 	retreat: 2,

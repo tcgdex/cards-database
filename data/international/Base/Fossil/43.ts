@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fossil'
 
 const card: Card = {
 	name: {
-		en: "Slowbro",
-		fr: "Flagadoss",
-		de: "Lahmus"
+		'en-us': "Slowbro",
+		'fr-fr': "Flagadoss",
+		'de-de': "Lahmus"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Slowpoke",
-		fr: "Ramoloss"
+		'en-us': "Slowpoke",
+		'fr-fr': "Ramoloss"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Strange Behavior",
-				fr: "Comportement étrange",
-				de: "Seltsames verhalten"
+				'en-us': "Strange Behavior",
+				'fr-fr': "Comportement étrange",
+				'de-de': "Seltsames verhalten"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokémon to Slowbro as long as you don't Knock Out Slowbro. This power can't be used if Slowbro is Asleep, Confused, or Paralyzed.",
-				fr: "Aussi souvent que vous le désirez pendant votre tour (avant votre attaque), vous pouvez déplacer 1 marqueur de dégâts depuis l'un de vos Pokémon vers Flagadoss tant que cela ne le met pas K.O. Ce pouvoir ne peut être utilisé si Flagadoss est Endormi, Confus ou Paralysé.",
-				de: "Bist du am Zug kannst du (vor deinem Angriff) beliebig oft eine Schadensmarke von einem deiner Pokémon auf Lahmus verschieben, solange du Lahmus damit nicht kampfunfähig machst. Diese Fähigkeit kann nicht eingesetzt werden, falls Lahmus schläft verwirrt oder gelähmt ist."
+				'en-us': "As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokémon to Slowbro as long as you don't Knock Out Slowbro. This power can't be used if Slowbro is Asleep, Confused, or Paralyzed.",
+				'fr-fr': "Aussi souvent que vous le désirez pendant votre tour (avant votre attaque), vous pouvez déplacer 1 marqueur de dégâts depuis l'un de vos Pokémon vers Flagadoss tant que cela ne le met pas K.O. Ce pouvoir ne peut être utilisé si Flagadoss est Endormi, Confus ou Paralysé.",
+				'de-de': "Bist du am Zug kannst du (vor deinem Angriff) beliebig oft eine Schadensmarke von einem deiner Pokémon auf Lahmus verschieben, solange du Lahmus damit nicht kampfunfähig machst. Diese Fähigkeit kann nicht eingesetzt werden, falls Lahmus schläft verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psyshock",
-				fr: "Choc psy",
-				de: "Psyschock"
+				'en-us': "Psyshock",
+				'fr-fr': "Choc psy",
+				'de-de': "Psyschock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -77,8 +77,8 @@ const card: Card = {
 
 
 	description: {
-		en: "The Shellder that is latched onto Slowpoke's tail is said to feed on the host's left-over scraps.",
-		fr: "Le Kokiyas accroché à la queue du Ramoloss se nourrit des restes de son hôte."
+		'en-us': "The Shellder that is latched onto Slowpoke's tail is said to feed on the host's left-over scraps.",
+		'fr-fr': "Le Kokiyas accroché à la queue du Ramoloss se nourrit des restes de son hôte."
 	},
 
 

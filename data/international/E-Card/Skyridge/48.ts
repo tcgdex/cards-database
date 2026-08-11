@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Cleffa",
-		de: "Pii"
+		'en-us': "Cleffa",
+		'de-de': "Pii"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Recycle",
-				de: "Energierecycling"
+				'en-us': "Energy Recycle",
+				'de-de': "Energierecycling"
 			},
 			effect: {
-				en: "Shuffle a basic Energy card from your discard pile into your deck.",
-				de: "Mische eine Basis-Energiekarte aus deinem Ablagestapel in dein Deck."
+				'en-us': "Shuffle a basic Energy card from your discard pile into your deck.",
+				'de-de': "Mische eine Basis-Energiekarte aus deinem Ablagestapel in dein Deck."
 			},
 
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Azelf",
-		fr: "Créfadet",
-		de: "Tobutz"
+		'en-us': "Azelf",
+		'fr-fr': "Créfadet",
+		'de-de': "Tobutz"
 	},
 
 	illustrator: "Shizurow",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Psychic Aura",
-				fr: "Aura psy",
-				de: "Psycho-Aura"
+				'en-us': "Psychic Aura",
+				'fr-fr': "Aura psy",
+				'de-de': "Psycho-Aura"
 			},
 			effect: {
-				en: "Each of your Psychic Pokémon has no Weakness.",
-				fr: "Chacun de vos Pokémon Psychic ne possède pas de Faiblesse.",
-				de: "Jedes deiner -Pokémon hat keine Schwäche mehr."
+				'en-us': "Each of your Psychic Pokémon has no Weakness.",
+				'fr-fr': "Chacun de vos Pokémon Psychic ne possède pas de Faiblesse.",
+				'de-de': "Jedes deiner -Pokémon hat keine Schwäche mehr."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Deep Balance",
-				fr: "Bon équilibre",
-				de: "Tiefenausgleich"
+				'en-us': "Deep Balance",
+				'fr-fr': "Bon équilibre",
+				'de-de': "Tiefenausgleich"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. Put 1 damage counter on that Pokémon for each Energy attached to all of your opponent's Pokémon.",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Placez 1 marqueur de dégât sur ce Pokémon pour chaque Énergie attachée à tous les Pokémon de votre adversaire.",
-				de: "Wähle 1 Pokémon deines Gegners. Lege für jede Energie, die an allen Pokémon deines Gegners angelegt ist, 1 Schadensmarke auf das gewählte Pokémon."
+				'en-us': "Choose 1 of your opponent's Pokémon. Put 1 damage counter on that Pokémon for each Energy attached to all of your opponent's Pokémon.",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Placez 1 marqueur de dégât sur ce Pokémon pour chaque Énergie attachée à tous les Pokémon de votre adversaire.",
+				'de-de': "Wähle 1 Pokémon deines Gegners. Lege für jede Energie, die an allen Pokémon deines Gegners angelegt ist, 1 Schadensmarke auf das gewählte Pokémon."
 			},
 
 		},

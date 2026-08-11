@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drizzile",
-		fr: "Arrozard",
-		es: "Drizzile",
-		it: "Drizzile",
-		pt: "Drizzile",
-		de: "Phlegleon"
+		'en-us': "Drizzile",
+		'fr-fr': "Arrozard",
+		'es-es': "Drizzile",
+		'it-it': "Drizzile",
+		'pt-br': "Drizzile",
+		'de-de': "Phlegleon"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -21,31 +21,31 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Sobble",
-		fr: "Larméléon",
-		es: "Sobble",
-		it: "Sobble",
-		pt: "Sobble",
-		de: "Memmeon"
+		'en-us': "Sobble",
+		'fr-fr': "Larméléon",
+		'es-es': "Sobble",
+		'it-it': "Sobble",
+		'pt-br': "Sobble",
+		'de-de': "Memmeon"
 	},
 
 	attacks: [{
 		name: {
-			en: "Bounce",
-			fr: "Rebond",
-			es: "Bote",
-			it: "Rimbalzo",
-			pt: "Ricochete",
-			de: "Sprungfeder"
+			'en-us': "Bounce",
+			'fr-fr': "Rebond",
+			'es-es': "Bote",
+			'it-it': "Rimbalzo",
+			'pt-br': "Ricochete",
+			'de-de': "Sprungfeder"
 		},
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-			es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-			it: "Scambia questo Pokémon con uno della tua panchina.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+			'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+			'fr-fr': "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'es-es': "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+			'it-it': "Scambia questo Pokémon con uno della tua panchina.",
+			'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+			'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 		},
 
 		damage: 40,
@@ -64,7 +64,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Highly intelligent but also very lazy, it keeps enemies out of its territory by laying traps everywhere."
+		'en-us': "Highly intelligent but also very lazy, it keeps enemies out of its territory by laying traps everywhere."
 	},
 
 	variants: [

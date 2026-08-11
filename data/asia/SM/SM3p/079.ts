@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ライチュウGX",
+		'ja-jp': "ライチュウGX",
 	},
 
 	illustrator: "",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の場のポケモンについている[雷]エネルギーの数x20ダメージ追加。",
+				'ja-jp': "自分の場のポケモンについている[雷]エネルギーの数x20ダメージ追加。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 			},
 		},
 		{
@@ -36,7 +36,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをマヒにする。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のバトルポケモンをマヒにする。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -54,7 +54,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ピカチュウ",
+		'ja-jp': "ピカチュウ",
 	},
 
 	retreat: 1,

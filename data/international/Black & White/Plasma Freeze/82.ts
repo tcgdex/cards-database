@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Dragonair",
-		fr: "Draco",
-		es: "Dragonair",
-		it: "Dragonair",
-		pt: "Dragonair",
-		de: "Dragonir"
+		'en-us': "Dragonair",
+		'fr-fr': "Draco",
+		'es-es': "Dragonair",
+		'it-it': "Dragonair",
+		'pt-br': "Dragonair",
+		'de-de': "Dragonir"
 	},
 
 	illustrator: "TOKIYA",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dratini",
-		fr: "Minidraco",
+		'en-us': "Dratini",
+		'fr-fr': "Minidraco",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Wrap",
-				fr: "Ligotage",
+				'en-us': "Wrap",
+				'fr-fr': "Ligotage",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 20,
 
@@ -56,8 +56,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Smack",
-				fr: "Coup de Queue",
+				'en-us': "Tail Smack",
+				'fr-fr': "Coup de Queue",
 			},
 
 			damage: 50,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.",
+		'en-us': "If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.",
 	},
 
 	thirdParty: {

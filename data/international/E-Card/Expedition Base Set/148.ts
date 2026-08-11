@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Professor Elm's Training Method",
-		fr: "Méthode d'entraînement du professeur Orme",
-		de: "Professor Linds Trainingsmethoden"
+		'en-us': "Professor Elm's Training Method",
+		'fr-fr': "Méthode d'entraînement du professeur Orme",
+		'de-de': "Professor Linds Trainingsmethoden"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -15,10 +15,10 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Crystal Type",
+				'en-us': "Crystal Type",
 			},
 			effect: {
-				en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 			},
 		},
 	],
@@ -36,10 +36,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Aquabomb",
+				'en-us': "Aquabomb",
 			},
 			effect: {
-				en: "Kindra does 10 damage to itself. (Don't apply Weakness or Resistance when Kingdra damages itself with this attack.)",
+				'en-us': "Kindra does 10 damage to itself. (Don't apply Weakness or Resistance when Kingdra damages itself with this attack.)",
 			},
 			damage: 40,
 		},
@@ -51,10 +51,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dual Burn",
+				'en-us': "Dual Burn",
 			},
 			effect: {
-				en: "Flip 2 coins. For each tails, discard 1 Energy card attached to Kingdra.",
+				'en-us': "Flip 2 coins. For each tails, discard 1 Energy card attached to Kingdra.",
 			},
 			damage: 60,
 		},
@@ -69,9 +69,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-		fr: "Cherchez une carte Évolution dans votre deck, montrez-la à votre adversaire et ajoutez-la à votre main. Mélangez ensuite votre deck.",
-		de: "Durchsuche dein Deck nach einer Entwicklungskarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach.",
+		'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+		'fr-fr': "Cherchez une carte Évolution dans votre deck, montrez-la à votre adversaire et ajoutez-la à votre main. Mélangez ensuite votre deck.",
+		'de-de': "Durchsuche dein Deck nach einer Entwicklungskarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach.",
 	},
 
 	variants: [

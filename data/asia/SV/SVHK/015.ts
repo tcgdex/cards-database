@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVHK"
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "大師球",
-		th: "มาสเตอร์บอล",
-		id: "Bola Master"
+		'th-th': "มาสเตอร์บอล",
+		'id-id': "Bola Master"
 	},
 
 	illustrator: "Studio Bora Inc.",
@@ -15,8 +15,8 @@ const card: Card = {
 
 	effect: {
 		'zh-tw': "從自己的牌庫選擇1張寶可夢卡，在給對手看過後加入手牌。並且重洗牌庫。",
-		th: "เลือกการ์ดโปเกมอน 1 ใบจากสำรับการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ แล้วสับสำรับการ์ด",
-		id: "Pilih 1 lembar Pokémon dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
+		'th-th': "เลือกการ์ดโปเกมอน 1 ใบจากสำรับการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ แล้วสับสำรับการ์ด",
+		'id-id': "Pilih 1 lembar Pokémon dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
 	},
 
 	trainerType: "Item",

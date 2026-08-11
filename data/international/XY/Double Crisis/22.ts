@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Zangoose",
-		fr: "Mangriff de la Team Magma",
-		pt: "Zangoose da Equipe Magma",
+		'en-us': "Team Magma's Zangoose",
+		'fr-fr': "Mangriff de la Team Magma",
+		'pt-br': "Zangoose da Equipe Magma",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la Famille",
-				pt: "Chamar a Família",
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la Famille",
+				'pt-br': "Chamar a Família",
 			},
 			effect: {
-				en: "Search your deck for up to 2 Basic Team Magma Pokémon and put them onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez jusqu'à 2 Pokémon de base de la Team Magma dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
-				pt: "Procure em seu baralho até 2 Pokémon da Equipe Magma Basico e coloque-os no seu Banco. Em seguida, embaralhe seus cards.",
+				'en-us': "Search your deck for up to 2 Basic Team Magma Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez jusqu'à 2 Pokémon de base de la Team Magma dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				'pt-br': "Procure em seu baralho até 2 Pokémon da Equipe Magma Basico e coloque-os no seu Banco. Em seguida, embaralhe seus cards.",
 			},
 
 		},
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Team Play",
-				fr: "Jeu d'Équipe",
-				pt: "Jogo em Equipe",
+				'en-us': "Team Play",
+				'fr-fr': "Jeu d'Équipe",
+				'pt-br': "Jogo em Equipe",
 			},
 			effect: {
-				en: "This attack does 20 damage times the number of Team Magma Pokémon on your Bench.",
-				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre de Pokémon de la Team Magma sur votre Banc.",
-				pt: "Esse ataque causa 20 de danos vezes o número de Pokémon da Equipe Magma no seu Banco.",
+				'en-us': "This attack does 20 damage times the number of Team Magma Pokémon on your Bench.",
+				'fr-fr': "Cette attaque inflige 20 dégâts multipliés par le nombre de Pokémon de la Team Magma sur votre Banc.",
+				'pt-br': "Esse ataque causa 20 de danos vezes o número de Pokémon da Equipe Magma no seu Banco.",
 			},
 			damage: "20×",
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Can you handle the formation attack of the fearless Zangoose?",
+		'en-us': "Can you handle the formation attack of the fearless Zangoose?",
 	},
 
 	thirdParty: {

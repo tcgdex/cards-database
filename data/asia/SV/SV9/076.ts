@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "オタチ",
+		'ja-jp': "オタチ",
 		'zh-tw': "尾立",
 		'zh-cn': "尾立"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "警戒心が 強い ポケモン。 しなやかに 動く 尻尾は 筋肉質で 触ると 硬い。",
+		'ja-jp': "警戒心が 強い ポケモン。 しなやかに 動く 尻尾は 筋肉質で 触ると 硬い。",
 		'zh-tw': "警戒心強的寶可夢。 能夠柔韌擺動的尾巴 肌肉發達，摸起來很硬。",
 		'zh-cn': "警戒心強的寶可夢。 能夠柔韌擺動的尾巴 肌肉發達，摸起來很硬。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ひらてうち",
+			'ja-jp': "ひらてうち",
 			'zh-tw': "掌擊",
 			'zh-cn': "掌擊"
 		},

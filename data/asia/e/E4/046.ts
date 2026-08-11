@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミスレアヴァス",
+		'ja-jp': "ミスレアヴァス",
 	},
 
 	rarity: "Uncommon",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "催眠芽球",
+				'ja-jp': "催眠芽球",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御するポケモンは今眠っています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御するポケモンは今眠っています。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "にきびの贈り物",
+				'ja-jp': "にきびの贈り物",
 			},
 			effect: {
-				ja: "プレイ中のポケモンの数をダメージカウンターで数えます。その多くのダメージカウンターを防御ポケモンに置きます。",
+				'ja-jp': "プレイ中のポケモンの数をダメージカウンターで数えます。その多くのダメージカウンターを防御ポケモンに置きます。",
 			},
 		},
 	],

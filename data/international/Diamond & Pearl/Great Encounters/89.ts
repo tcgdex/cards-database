@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Torchic",
-		fr: "Poussifeu",
-		de: "Flemmli"
+		'en-us': "Torchic",
+		'fr-fr': "Poussifeu",
+		'de-de': "Flemmli"
 	},
 
 	illustrator: "Hiroki Fuchino",
@@ -29,9 +29,9 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				de: "Schnabel"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'de-de': "Schnabel"
 			},
 
 			damage: 10,
@@ -42,14 +42,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Singe",
-				fr: "Roussir",
-				de: "Versengung"
+				'en-us': "Singe",
+				'fr-fr': "Roussir",
+				'de-de': "Versengung"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
+				'en-us': "The Defending Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 
 		},
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees F.",
+		'en-us': "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees F.",
 	},
 
 	thirdParty: {

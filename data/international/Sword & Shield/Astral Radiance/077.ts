@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rampardos",
-		fr: "Charkos",
-		es: "Rampardos",
-		it: "Rampardos",
-		pt: "Rampardos",
-		de: "Rameidon"
+		'en-us': "Rampardos",
+		'fr-fr': "Charkos",
+		'es-es': "Rampardos",
+		'it-it': "Rampardos",
+		'pt-br': "Rampardos",
+		'de-de': "Rameidon"
 	},
 
 	illustrator: "Nisota Niso",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Cranidos",
-		fr: "Kranidos",
-		es: "Cranidos",
-		it: "Cranidos",
-		pt: "Cranidos",
-		de: "Koknodon"
+		'en-us': "Cranidos",
+		'fr-fr': "Kranidos",
+		'es-es': "Cranidos",
+		'it-it': "Cranidos",
+		'pt-br': "Cranidos",
+		'de-de': "Koknodon"
 	},
 
 	stage: "Stage2",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Headbutt Bounce",
-			fr: "Culbute Surprise",
-			es: "Bote Cabezazo",
-			it: "Rimbalzo Bottintesta",
-			pt: "Cabeçada Ricochete",
-			de: "Abrupter Kopfstoß"
+			'en-us': "Headbutt Bounce",
+			'fr-fr': "Culbute Surprise",
+			'es-es': "Bote Cabezazo",
+			'it-it': "Rimbalzo Bottintesta",
+			'pt-br': "Cabeçada Ricochete",
+			'de-de': "Abrupter Kopfstoß"
 		},
 
 		damage: 60
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			en: "Jurassic Hammer",
-			fr: "Marteau Jurassique",
-			es: "Martillo Jurásico",
-			it: "Martello Giurassico",
-			pt: "Martelo Jurássico",
-			de: "Jurahammer"
+			'en-us': "Jurassic Hammer",
+			'fr-fr': "Marteau Jurassique",
+			'es-es': "Martillo Jurásico",
+			'it-it': "Martello Giurassico",
+			'pt-br': "Martelo Jurássico",
+			'de-de': "Jurahammer"
 		},
 
 		effect: {
-			en: "If your opponent has 3 or fewer cards in their hand, this attack does nothing.",
-			fr: "Si votre adversaire a 3 cartes ou moins dans sa main, cette attaque ne fait rien.",
-			es: "Si tu rival tiene 3 cartas o menos en su mano, este ataque no hace nada.",
-			it: "Se il tuo avversario ha tre o meno carte in mano, questo attacco non ha effetto.",
-			pt: "Se o seu oponente tiver 3 ou menos cartas na própria mão, este ataque não fará nada.",
-			de: "Wenn dein Gegner 3 oder weniger Karten auf seiner Hand hat, hat diese Attacke keine Auswirkungen."
+			'en-us': "If your opponent has 3 or fewer cards in their hand, this attack does nothing.",
+			'fr-fr': "Si votre adversaire a 3 cartes ou moins dans sa main, cette attaque ne fait rien.",
+			'es-es': "Si tu rival tiene 3 cartas o menos en su mano, este ataque no hace nada.",
+			'it-it': "Se il tuo avversario ha tre o meno carte in mano, questo attacco non ha effetto.",
+			'pt-br': "Se o seu oponente tiver 3 ou menos cartas na própria mão, este ataque não fará nada.",
+			'de-de': "Wenn dein Gegner 3 oder weniger Karten auf seiner Hand hat, hat diese Attacke keine Auswirkungen."
 		},
 
 		damage: 240
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This ancient Pokémon used headbutts skillfully. Its brain was really small, so some theories suggest that its stupidity led to its extinction.",
+		'en-us': "This ancient Pokémon used headbutts skillfully. Its brain was really small, so some theories suggest that its stupidity led to its extinction.",
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Flambino",
-		en: "Scorbunny",
-		es: "Scorbunny",
-		it: "Scorbunny",
-		pt: "Scorbunny",
-		de: "Hopplo"
+		'fr-fr': "Flambino",
+		'en-us': "Scorbunny",
+		'es-es': "Scorbunny",
+		'it-it': "Scorbunny",
+		'pt-br': "Scorbunny",
+		'de-de': "Hopplo"
 	},
 
 	illustrator: "MAHOU",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Flammèche",
-			en: "Ember",
-			es: "Ascuas",
-			it: "Braciere",
-			pt: "Brasa",
-			de: "Glut"
+			'fr-fr': "Flammèche",
+			'en-us': "Ember",
+			'es-es': "Ascuas",
+			'it-it': "Braciere",
+			'pt-br': "Brasa",
+			'de-de': "Glut"
 		},
 
 		effect: {
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			en: "Discard an Energy from this Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte 1 Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'en-us': "Discard an Energy from this Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte 1 Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 30,
@@ -53,7 +53,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It has special pads on the backs of its feet, and one on its nose. Once it's raring to fight, these pads radiate tremendous heat."
+		'en-us': "It has special pads on the backs of its feet, and one on its nose. Once it's raring to fight, these pads radiate tremendous heat."
 	},
 
 	variants: [

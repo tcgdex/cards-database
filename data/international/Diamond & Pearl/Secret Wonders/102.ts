@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Ralts",
-		fr: "Tarsal",
-		de: "Trasla"
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal",
+		'de-de': "Trasla"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smack",
-				fr: "Claque",
-				de: "Klatscher"
+				'en-us': "Smack",
+				'fr-fr': "Claque",
+				'de-de': "Klatscher"
 			},
 
 			damage: 10,
@@ -44,14 +44,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde folie",
-				de: "Konfusstrahl"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde folie",
+				'de-de': "Konfusstrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It uses the thorns on its head to sense human emotions. It is said to appear in front of cheerful people.",
+		'en-us': "It uses the thorns on its head to sense human emotions. It is said to appear in front of cheerful people.",
 	},
 
 	thirdParty: {

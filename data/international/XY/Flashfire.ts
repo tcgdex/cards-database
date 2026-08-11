@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../XY'
 
 const xy2: Set = {
 	id: "xy2",
 
 	name: {
-		en: "Flashfire",
-		fr: "Étincelles",
-		es: "Destellos de Fuego",
-		it: "Fuoco Infernale",
-		de: "Flammenmeer",
-		pt: "Flash de Fogo",
+		'en-us': "Flashfire",
+		'fr-fr': "Étincelles",
+		'es-es': "Destellos de Fuego",
+		'it-it': "Fuoco Infernale",
+		'de-de': "Flammenmeer",
+		'pt-br': "Flash de Fogo",
 		ru: "Огненная Вспышка"
 	},
 
@@ -25,7 +25,7 @@ const xy2: Set = {
 
 	abbreviations: {
 		official: "FLF",
-		fr: "ETI"
+		'fr-fr': "ETI"
 	},
 
 	thirdParty: {

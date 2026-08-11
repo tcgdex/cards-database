@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY trainer Kit (Latios)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Solrock",
-		fr: "Solaroc",
-		es: "Solrock",
-		it: "Solrock",
-		pt: "Solrock",
-		de: "Sonnfel"
+		'en-us': "Solrock",
+		'fr-fr': "Solaroc",
+		'es-es': "Solrock",
+		'it-it': "Solrock",
+		'pt-br': "Solrock",
+		'de-de': "Sonnfel"
 	},
 
 	rarity: "Common",

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Bellossom",
-		fr: "Joliflor",
-		de: "Blubella"
+		'en-us': "Bellossom",
+		'fr-fr': "Joliflor",
+		'de-de': "Blubella"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gloom",
-		fr: "Ortide"
+		'en-us': "Gloom",
+		'fr-fr': "Ortide"
 	},
 
 	stage: "Stage2",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Green Dance",
-				fr: "Danse verte",
-				de: "Green Dance"
+				'en-us': "Green Dance",
+				'fr-fr': "Danse verte",
+				'de-de': "Green Dance"
 			},
 			effect: {
-				en: "Search your deck for up to 2 Grass Pokémon, show them to your opponent, and put them into your hand. Shuffle your deck afterward. If you put any Grass Pokémon into your hand, you may switch Bellossom with 1 of your Benched Pokémon.",
-				fr: "Choisissez dans votre deck jusqu'à 2 Pokémon , montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck. Si vous placez un Pokémon  dans votre main, vous pouvez échanger Joliflor avec 1 des Pokémon de votre Banc.",
-				de: "Search your deck for up to 2  Pokémon, show them to your opponent, and put them into your hand. Shuffle your deck afterward. If you put any  Pokémon into your hand, you may switch Bellossom with 1 of your Benched Pokémon."
+				'en-us': "Search your deck for up to 2 Grass Pokémon, show them to your opponent, and put them into your hand. Shuffle your deck afterward. If you put any Grass Pokémon into your hand, you may switch Bellossom with 1 of your Benched Pokémon.",
+				'fr-fr': "Choisissez dans votre deck jusqu'à 2 Pokémon , montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck. Si vous placez un Pokémon  dans votre main, vous pouvez échanger Joliflor avec 1 des Pokémon de votre Banc.",
+				'de-de': "Search your deck for up to 2  Pokémon, show them to your opponent, and put them into your hand. Shuffle your deck afterward. If you put any  Pokémon into your hand, you may switch Bellossom with 1 of your Benched Pokémon."
 			},
 
 		},
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Full Bloom",
-				fr: "Épanouissement",
-				de: "Full Bloom"
+				'en-us': "Full Bloom",
+				'fr-fr': "Épanouissement",
+				'de-de': "Full Bloom"
 			},
 			effect: {
-				en: "If you have at least 3 Bellossom in play, this attack does 50 damage plus 50 more damage.",
-				fr: "Si vous avez au moins 3 Joliflor en jeu, cette attaque inflige 50 dégâts plus 50 dégâts supplémentaires.",
-				de: "If you have at least 3 Bellossom in play, this attack does 50 damage plus 50 more damage."
+				'en-us': "If you have at least 3 Bellossom in play, this attack does 50 damage plus 50 more damage.",
+				'fr-fr': "Si vous avez au moins 3 Joliflor en jeu, cette attaque inflige 50 dégâts plus 50 dégâts supplémentaires.",
+				'de-de': "If you have at least 3 Bellossom in play, this attack does 50 damage plus 50 more damage."
 			},
 			damage: "50+",
 

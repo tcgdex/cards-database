@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Falinks",
-		fr: "Hexadron",
-		es: "Falinks",
-		it: "Falinks",
-		pt: "Falinks",
-		de: "Legios"
+		'en-us': "Falinks",
+		'fr-fr': "Hexadron",
+		'es-es': "Falinks",
+		'it-it': "Falinks",
+		'pt-br': "Falinks",
+		'de-de': "Legios"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Yuu Nishida",
 
 	description: {
-		en: "The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight."
+		'en-us': "The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight."
 	},
 
 	attacks: [{
 		cost: ["Fighting"],
 
 		name: {
-			en: "Invade",
-			fr: "Envahissement",
-			de: "Einmarschieren",
-			es: "Invadir",
-			pt: "Invadir",
-			it: "Scorreria"
+			'en-us': "Invade",
+			'fr-fr': "Envahissement",
+			'de-de': "Einmarschieren",
+			'es-es': "Invadir",
+			'pt-br': "Invadir",
+			'it-it': "Scorreria"
 		},
 
 		damage: 30

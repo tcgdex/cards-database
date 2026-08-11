@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Filentrappe",
-		en: "Spidops",
-		es: "Spidops",
-		it: "Spidops",
-		pt: "Spidops",
-		de: "Spinsidias"
+		'fr-fr': "Filentrappe",
+		'en-us': "Spidops",
+		'es-es': "Spidops",
+		'it-it': "Spidops",
+		'pt-br': "Spidops",
+		'de-de': "Spinsidias"
   },
   illustrator: "Anesaki Dynamic",
   rarity: "Two Diamond",
@@ -18,12 +18,12 @@ const card: Card = {
   types: ["Grass"],
   dexId: [918],
   evolveFrom: {
-		fr: "Tissenboule",
-		en: "Tarountula",
-		es: "Tarountula",
-		it: "Tarountula",
-		pt: "Tarountula",
-		de: "Tarundel"
+		'fr-fr': "Tissenboule",
+		'en-us': "Tarountula",
+		'es-es': "Tarountula",
+		'it-it': "Tarountula",
+		'pt-br': "Tarountula",
+		'de-de': "Tarundel"
   },
   description: {
     en: "Spidops covers its territory in tough, sticky threads to set up traps for intruders.",

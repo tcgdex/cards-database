@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Sudowoodo",
-		fr: "Simularbre",
-		es: "Sudowoodo",
-		it: "Sudowoodo",
-		pt: "Sudowoodo",
-		de: "Mogelbaum"
+		'en-us': "Sudowoodo",
+		'fr-fr': "Simularbre",
+		'es-es': "Sudowoodo",
+		'it-it': "Sudowoodo",
+		'pt-br': "Sudowoodo",
+		'de-de': "Mogelbaum"
 	},
 
 	illustrator: "Akira Komayama",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage",
-				es: "Patada Baja",
-				it: "Colpo Basso",
-				pt: "Rasteira",
-				de: "Fußkick"
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage",
+				'es-es': "Patada Baja",
+				'it-it': "Colpo Basso",
+				'pt-br': "Rasteira",
+				'de-de': "Fußkick"
 			},
 
 			damage: 20,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Territorial Strike",
-				fr: "Frappe Territoriale",
-				es: "Golpe Territorial",
-				it: "Attacco Limitrofo",
-				pt: "Golpe Territorial",
-				de: "Revierschlag"
+				'en-us': "Territorial Strike",
+				'fr-fr': "Frappe Territoriale",
+				'es-es': "Golpe Territorial",
+				'it-it': "Attacco Limitrofo",
+				'pt-br': "Golpe Territorial",
+				'de-de': "Revierschlag"
 			},
 			effect: {
-				en: "If you don’t have a Stadium card in play, this attack does nothing.",
-				fr: "Si vous n’avez pas de carte Stade en jeu, cette attaque ne fait rien.",
-				es: "Si no tienes 1 carta de Estadio en juego, este ataque no hace nada.",
-				it: "Se non hai una carta Stadio in gioco, questo attacco non ha effetto.",
-				pt: "Se você não tiver uma carta de Estádio em jogo, este ataque não fará nada.",
-				de: "Wenn du keine Stadionkarte im Spiel hast, hat diese Attacke keine Auswirkungen."
+				'en-us': "If you don’t have a Stadium card in play, this attack does nothing.",
+				'fr-fr': "Si vous n’avez pas de carte Stade en jeu, cette attaque ne fait rien.",
+				'es-es': "Si no tienes 1 carta de Estadio en juego, este ataque no hace nada.",
+				'it-it': "Se non hai una carta Stadio in gioco, questo attacco non ha effetto.",
+				'pt-br': "Se você não tiver uma carta de Estádio em jogo, este ataque não fará nada.",
+				'de-de': "Wenn du keine Stadionkarte im Spiel hast, hat diese Attacke keine Auswirkungen."
 			},
 			damage: 80,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It's so popular with the elderly that there's a magazine devoted to this Pokémon. Fans obsess over the particular length and angle of its arms.",
+		'en-us': "It's so popular with the elderly that there's a magazine devoted to this Pokémon. Fans obsess over the particular length and angle of its arms.",
 	},
 }
 

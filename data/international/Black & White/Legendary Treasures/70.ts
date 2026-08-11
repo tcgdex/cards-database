@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Gothita",
+		'en-us': "Gothita",
 	},
 
 	illustrator: "Akira Komayama",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Trip Over",
+				'en-us': "Trip Over",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
 			},
 			damage: 10,
 
@@ -50,7 +50,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It stares intently at everything. It can become so obsessed with watching that it doesn't notice attacks.",
+		'en-us': "It stares intently at everything. It can become so obsessed with watching that it doesn't notice attacks.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウソッキー",
+		'ja-jp': "ウソッキー",
 	},
 
 	illustrator: "GOTO minori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "攻撃 されないように ひたすら 木のマネをしているが 水は苦手で 雨になると どこかに 逃げ出す。",
+		'ja-jp': "攻撃 されないように ひたすら 木のマネをしているが 水は苦手で 雨になると どこかに 逃げ出す。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "しれんのたび" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から「変化の書」を2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札から「変化の書」を2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Fighting"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。",
 			},
 		},
 	],

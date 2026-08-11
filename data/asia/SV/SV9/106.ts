@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ウリムー"
+		'ja-jp': "ウリムー"
 	},
 
 	illustrator: "Nakamura Ippan",
@@ -16,7 +16,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "鼻先で 地面を 掘って 食べるものを 探しだす。 凍った 地面も へっちゃらだ。"
+		'ja-jp': "鼻先で 地面を 掘って 食べるものを 探しだす。 凍った 地面も へっちゃらだ。"
 	},
 
 	stage: "Basic",
@@ -25,17 +25,17 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "なかまをよぶ"
+			'ja-jp': "なかまをよぶ"
 		},
 
 		effect: {
-			ja: "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。"
+			'ja-jp': "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。"
 		}
 	}, {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "つきたおし"
+			'ja-jp': "つきたおし"
 		},
 
 		damage: 10

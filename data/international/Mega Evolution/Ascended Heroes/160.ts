@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dragapult ex",
-		fr: "Lanssorien-ex",
-		es: "Dragapult ex",
+		'en-us': "Dragapult ex",
+		'fr-fr': "Lanssorien-ex",
+		'es-es': "Dragapult ex",
 		'es-mx': "Dragapult ex",
-		de: "Katapuldra-ex",
-		it: "Dragapult-ex",
-		pt: "Dragapult ex"
+		'de-de': "Katapuldra-ex",
+		'it-it': "Dragapult-ex",
+		'pt-br': "Dragapult ex"
 	},
 
 	evolveFrom: {
-		en: "Drakloak",
-		fr: "Dispareptil",
-		es: "Drakloak",
+		'en-us': "Drakloak",
+		'fr-fr': "Dispareptil",
+		'es-es': "Drakloak",
 		'es-mx': "Drakloak",
-		de: "Phandra",
-		it: "Drakloak",
-		pt: "Drakloak",
+		'de-de': "Phandra",
+		'it-it': "Drakloak",
+		'pt-br': "Drakloak",
 	},
 
 	suffix: "ex",
@@ -37,13 +37,13 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Jet Headbutt",
-			fr: "Bélier Volant",
-			es: "Turbocabezazo",
+			'en-us': "Jet Headbutt",
+			'fr-fr': "Bélier Volant",
+			'es-es': "Turbocabezazo",
 			'es-mx': "Cabezazo Jet",
-			de: "Flinke Kopfnuss",
-			it: "Zuccata Jet",
-			pt: "Cabeçada a Jato"
+			'de-de': "Flinke Kopfnuss",
+			'it-it': "Zuccata Jet",
+			'pt-br': "Cabeçada a Jato"
 		},
 
 		damage: 70
@@ -51,23 +51,23 @@ const card: Card = {
 		cost: ["Fire", "Psychic"],
 
 		name: {
-			en: "Phantom Dive",
-			fr: "Plongée Fantôme",
-			es: "Picado Fantasma",
+			'en-us': "Phantom Dive",
+			'fr-fr': "Plongée Fantôme",
+			'es-es': "Picado Fantasma",
 			'es-mx': "Descenso Fantasma",
-			de: "Phantomsturzflug",
-			it: "Picchiata Spettrale",
-			pt: "Mergulho Fantasma"
+			'de-de': "Phantomsturzflug",
+			'it-it': "Picchiata Spettrale",
+			'pt-br': "Mergulho Fantasma"
 		},
 
 		effect: {
-			en: "Put 6 damage counters on your opponent's Benched Pokémon in any way you like.",
-			fr: "Placez 6 marqueurs de dégâts sur les Pokémon de Banc de votre adversaire comme il vous plaît.",
-			es: "Pon 6 contadores de daño en los Pokémon en Banca de tu rival de la manera que desees.",
+			'en-us': "Put 6 damage counters on your opponent's Benched Pokémon in any way you like.",
+			'fr-fr': "Placez 6 marqueurs de dégâts sur les Pokémon de Banc de votre adversaire comme il vous plaît.",
+			'es-es': "Pon 6 contadores de daño en los Pokémon en Banca de tu rival de la manera que desees.",
 			'es-mx': "Pon 6 contadores de daño en los Pokémon en Banca de tu rival de la manera que quieras.",
-			de: "Lege 6 Schadensmarken beliebig auf die Pokémon auf der Bank deines Gegners.",
-			it: "Metti sei segnalini danno sui Pokémon nella panchina del tuo avversario nel modo che preferisci.",
-			pt: "Coloque 6 contadores de dano nos Pokémon no Banco do seu oponente como desejar."
+			'de-de': "Lege 6 Schadensmarken beliebig auf die Pokémon auf der Bank deines Gegners.",
+			'it-it': "Metti sei segnalini danno sui Pokémon nella panchina del tuo avversario nel modo che preferisci.",
+			'pt-br': "Coloque 6 contadores de dano nos Pokémon no Banco do seu oponente como desejar."
 		},
 
 		damage: 200

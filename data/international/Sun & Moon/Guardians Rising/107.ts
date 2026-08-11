@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Patrat",
-		fr: "Ratentif",
-		es: "Patrat",
-		it: "Patrat",
-		pt: "Patrat",
-		de: "Nagelotz"
+		'en-us': "Patrat",
+		'fr-fr': "Ratentif",
+		'es-es': "Patrat",
+		'it-it': "Patrat",
+		'pt-br': "Patrat",
+		'de-de': "Nagelotz"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Glance",
-				fr: "Coup d’Œil",
-				es: "Ojeada",
-				it: "Occhiatina",
-				pt: "Olhada de Relance",
-				de: "Kurzer Blick"
+				'en-us': "Glance",
+				'fr-fr': "Coup d’Œil",
+				'es-es': "Ojeada",
+				'it-it': "Occhiatina",
+				'pt-br': "Olhada de Relance",
+				'de-de': "Kurzer Blick"
 			},
 			effect: {
-				en: "Look at the top card of your opponent’s deck.",
-				fr: "Regardez la carte du dessus du deck de votre adversaire.",
-				es: "Mira la primera carta de la baraja de tu rival.",
-				it: "Guarda la prima carta del mazzo del tuo avversario.",
-				pt: "Olhe a primeira carta do baralho do seu oponente.",
-				de: "Schau dir die oberste Karte des Decks deines Gegners an."
+				'en-us': "Look at the top card of your opponent’s deck.",
+				'fr-fr': "Regardez la carte du dessus du deck de votre adversaire.",
+				'es-es': "Mira la primera carta de la baraja de tu rival.",
+				'it-it': "Guarda la prima carta del mazzo del tuo avversario.",
+				'pt-br': "Olhe a primeira carta do baralho do seu oponente.",
+				'de-de': "Schau dir die oberste Karte des Decks deines Gegners an."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Using food stored in cheek pouches, they can keep watch for days. They use their tails to communicate with others.",
+		'en-us': "Using food stored in cheek pouches, they can keep watch for days. They use their tails to communicate with others.",
 	},
 
 	thirdParty: {

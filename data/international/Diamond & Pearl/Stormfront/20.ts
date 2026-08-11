@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Machamp",
-		fr: "Mackogneur",
-		de: "Machomei"
+		'en-us': "Machamp",
+		'fr-fr': "Mackogneur",
+		'de-de': "Machomei"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Machoke",
-		fr: "Machopeur",
+		'en-us': "Machoke",
+		'fr-fr': "Machopeur",
 	},
 
 	stage: "Stage2",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Take Out",
-				fr: "Éliminer",
-				de: "Ausnocken"
+				'en-us': "Take Out",
+				'fr-fr': "Éliminer",
+				'de-de': "Ausnocken"
 			},
 			effect: {
-				en: "If the Defending Pokémon isn't an Evolved Pokémon, that Pokémon is Knocked Out instead of damaged by this attack.",
-				fr: "Si le Pokémon Défenseur n'est pas un Pokémon Évolué, ce Pokémon est mis K.O par cette attaque.",
-				de: "Wenn das Verteidigende Pokémon kein entwickeltes Pokémon ist, ist es jetzt kampfunfähig, anstatt Schaden von diesem Angriff zu erhalten."
+				'en-us': "If the Defending Pokémon isn't an Evolved Pokémon, that Pokémon is Knocked Out instead of damaged by this attack.",
+				'fr-fr': "Si le Pokémon Défenseur n'est pas un Pokémon Évolué, ce Pokémon est mis K.O par cette attaque.",
+				'de-de': "Wenn das Verteidigende Pokémon kein entwickeltes Pokémon ist, ist es jetzt kampfunfähig, anstatt Schaden von diesem Angriff zu erhalten."
 			},
 			damage: 40,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hurricane Punch",
-				fr: "Poing ouragan",
-				de: "Hurrikanhieb"
+				'en-us': "Hurricane Punch",
+				'fr-fr': "Poing ouragan",
+				'de-de': "Hurrikanhieb"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 4 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 4 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "30x",
 
@@ -74,14 +74,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rage",
-				fr: "Frénésie",
-				de: "Raserei"
+				'en-us': "Rage",
+				'fr-fr': "Frénésie",
+				'de-de': "Raserei"
 			},
 			effect: {
-				en: "Does 60 damage plus 10 more damage for each damage counter on Machamp.",
-				fr: "Inflige 60 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Mackogneur.",
-				de: "Dieser Angriff fügt 60 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Machomei zu."
+				'en-us': "Does 60 damage plus 10 more damage for each damage counter on Machamp.",
+				'fr-fr': "Inflige 60 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Mackogneur.",
+				'de-de': "Dieser Angriff fügt 60 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Machomei zu."
 			},
 			damage: "60+",
 

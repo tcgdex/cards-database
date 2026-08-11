@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Clamperl",
-		fr: "Coquiperl",
-		es: "Clamperl",
-		it: "Clamperl",
-		pt: "Clamperl",
-		de: "Perlu"
+		'en-us': "Clamperl",
+		'fr-fr': "Coquiperl",
+		'es-es': "Clamperl",
+		'it-it': "Clamperl",
+		'pt-br': "Clamperl",
+		'de-de': "Perlu"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Anesaki Dynamic",
 
 	description: {
-		en: "Clamperl's pearls are exceedingly precious. They can be more than 10 times as costly as Shellder's pearls."
+		'en-us': "Clamperl's pearls are exceedingly precious. They can be more than 10 times as costly as Shellder's pearls."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Bursting Bubble",
-			fr: "Bulle Éclatante",
-			de: "Platzende Blase",
-			es: "Burbuja Explosiva",
-			pt: "Estouro de Bolha",
-			it: "Scoppiobolla"
+			'en-us': "Bursting Bubble",
+			'fr-fr': "Bulle Éclatante",
+			'de-de': "Platzende Blase",
+			'es-es': "Burbuja Explosiva",
+			'pt-br': "Estouro de Bolha",
+			'it-it': "Scoppiobolla"
 		},
 
 		damage: 10

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Team Rocket's Weezing",
-		fr: "Smogogo de la Team Rocket",
-		de: "Team Rockets Smogmog",
-		it: "Weezing del Team Rocket",
-		es: "Weezing del Team Rocket",
-		pt: "Weezing da Equipe Rocket",
+		'en-us': "Team Rocket's Weezing",
+		'fr-fr': "Smogogo de la Team Rocket",
+		'de-de': "Team Rockets Smogmog",
+		'it-it': "Weezing del Team Rocket",
+		'es-es': "Weezing del Team Rocket",
+		'pt-br': "Weezing da Equipe Rocket",
 		'es-mx': "Weezing del Equipo Rocket"
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Team Rocket's Koffing",
-		fr: "Smogo de la Team Rocket",
-		de: "Team Rockets Smogon",
-		it: "Koffing del Team Rocket",
-		es: "Koffing del Team Rocket",
-		pt: "Koffing da Equipe Rocket",
+		'en-us': "Team Rocket's Koffing",
+		'fr-fr': "Smogo de la Team Rocket",
+		'de-de': "Team Rockets Smogon",
+		'it-it': "Koffing del Team Rocket",
+		'es-es': "Koffing del Team Rocket",
+		'pt-br': "Koffing da Equipe Rocket",
 		'es-mx': "Koffing del Equipo Rocket"
 	},
 	stage: "Stage1",
@@ -37,22 +37,22 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Explode Together Now",
-			fr: "Explosion Groupée",
-			de: "Gemeinsam explodieren – jetzt!",
-			it: "Esplosione Congiunta",
-			es: "Explotemos Juntos",
-			pt: "Explodir Juntos Agora",
+			'en-us': "Explode Together Now",
+			'fr-fr': "Explosion Groupée",
+			'de-de': "Gemeinsam explodieren – jetzt!",
+			'it-it': "Esplosione Congiunta",
+			'es-es': "Explotemos Juntos",
+			'pt-br': "Explodir Juntos Agora",
 			'es-mx': "Explotemos Ya"
 		},
 
 		effect: {
-			en: "This attack does 40 damage for each Pokémon in play that has \"Koffing\" or \"Weezing\" in its name (both yours and your opponent's).",
-			fr: "Cette attaque inflige 40 dégâts pour chaque Pokémon en jeu ayant \" Smogo \" ou \" Smogogo \" dans son nom (les vôtres et ceux de votre adversaire).",
-			de: "Diese Attacke fügt für jedes Pokémon im Spiel (deine und die deines Gegners), bei dem \"Smogon\" oder \"Smogmog\" zum Namen gehört, 40 Schadenspunkte zu.",
-			it: "Questo attacco infligge 40 danni per ogni Pokémon in gioco che ha \"Koffing\" o \"Weezing\" nel nome, sia tuo che del tuo avversario.",
-			es: "Este ataque hace 40 puntos de daño por cada Pokémon en juego que tenga \"Koffing\" o \"Weezing\" en su nombre (tanto tuyos como de tu rival).",
-			pt: "Este ataque causa 40 pontos de dano para cada Pokémon em jogo que tenha \"Koffing\" ou \"Weezing\" em seu nome (seus e do seu oponente).",
+			'en-us': "This attack does 40 damage for each Pokémon in play that has \"Koffing\" or \"Weezing\" in its name (both yours and your opponent's).",
+			'fr-fr': "Cette attaque inflige 40 dégâts pour chaque Pokémon en jeu ayant \" Smogo \" ou \" Smogogo \" dans son nom (les vôtres et ceux de votre adversaire).",
+			'de-de': "Diese Attacke fügt für jedes Pokémon im Spiel (deine und die deines Gegners), bei dem \"Smogon\" oder \"Smogmog\" zum Namen gehört, 40 Schadenspunkte zu.",
+			'it-it': "Questo attacco infligge 40 danni per ogni Pokémon in gioco che ha \"Koffing\" o \"Weezing\" nel nome, sia tuo che del tuo avversario.",
+			'es-es': "Este ataque hace 40 puntos de daño por cada Pokémon en juego que tenga \"Koffing\" o \"Weezing\" en su nombre (tanto tuyos como de tu rival).",
+			'pt-br': "Este ataque causa 40 pontos de dano para cada Pokémon em jogo que tenha \"Koffing\" ou \"Weezing\" em seu nome (seus e do seu oponente).",
 			'es-mx': "Este ataque hace 40 puntos de daño por cada Pokémon en juego que tenga \"Koffing\" o \"Weezing\" en su nombre (tanto tuyos como de tu rival)."
 		},
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タマザラシ",
+		'ja-jp': "タマザラシ",
 		'zh-tw': "海豹球",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "フサフサの 体毛で 体が 覆われて いるので 氷の 上を 転がっても 冷たくない。",
+		'ja-jp': "フサフサの 体毛で 体が 覆われて いるので 氷の 上を 転がっても 冷たくない。",
 		'zh-tw': "身體被蓬鬆的體毛覆蓋著，因此即使在冰上翻滾也不會覺得冷。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶつかる",
+				'ja-jp': "ぶつかる",
 				'zh-tw': "子彈拳",
 			},
 			damage: 10,

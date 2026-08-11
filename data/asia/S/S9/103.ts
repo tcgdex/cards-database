@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "リザードンV"
+		'ja-jp': "リザードンV"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -19,19 +19,19 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			ja: "やきつくす"
+			'ja-jp': "やきつくす"
 		},
 
 		damage: 90,
 
 		effect: {
-			ja: "ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。"
+			'ja-jp': "ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。"
 		}
 	}, {
 		cost: ["Fire", "Fire", "Fire", "Colorless"],
 
 		name: {
-			ja: "ヒートブラスト"
+			'ja-jp': "ヒートブラスト"
 		},
 
 		damage: 180

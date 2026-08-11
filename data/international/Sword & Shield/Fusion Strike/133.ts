@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mankey",
-		fr: "Férosinge",
-		es: "Mankey",
-		it: "Mankey",
-		pt: "Mankey",
-		de: "Menki"
+		'en-us': "Mankey",
+		'fr-fr': "Férosinge",
+		'es-es': "Mankey",
+		'it-it': "Mankey",
+		'pt-br': "Mankey",
+		'de-de': "Menki"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "sowsow",
 
 	description: {
-		en: "If one gets angry, all the others around it will get angry, so silence is a rare visitor in a troop of Mankey."
+		'en-us': "If one gets angry, all the others around it will get angry, so silence is a rare visitor in a troop of Mankey."
 	},
 
 	attacks: [{
 		cost: ["Fighting"],
 
 		name: {
-			en: "Scratch",
-			fr: "Griffe",
-			de: "Kratzer",
-			es: "Arañazo",
-			pt: "Arranhão",
-			it: "Graffio"
+			'en-us': "Scratch",
+			'fr-fr': "Griffe",
+			'de-de': "Kratzer",
+			'es-es': "Arañazo",
+			'pt-br': "Arranhão",
+			'it-it': "Graffio"
 		},
 
 		damage: 10

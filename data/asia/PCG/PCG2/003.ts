@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Koffing",
+		'ja-jp': "Koffing",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "スモッグ",
+				'ja-jp': "スモッグ",
 			},
 			effect: {
-				ja: "防御ポケモンは現在中毒になっています。",
+				'ja-jp': "防御ポケモンは現在中毒になっています。",
 			},
 		},
 	],

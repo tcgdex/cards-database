@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Makuhita",
-		fr: "Makuhita",
-		de: "Makuhita"
+		'en-us': "Makuhita",
+		'fr-fr': "Makuhita",
+		'de-de': "Makuhita"
 	},
 
 	illustrator: "Asuka Iwashita",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thrust",
-				fr: "Coup d'pouce",
-				de: "Thrust"
+				'en-us': "Thrust",
+				'fr-fr': "Coup d'pouce",
+				'de-de': "Thrust"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing. If heads, discard 1 Energy card attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est pile. Cette attaque est sans effet. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Flip a coin. If tails, this attack does nothing. If heads, discard 1 Energy card attached to the Defending Pokémon."
+				'en-us': "Flip a coin. If tails, this attack does nothing. If heads, discard 1 Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est pile. Cette attaque est sans effet. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Flip a coin. If tails, this attack does nothing. If heads, discard 1 Energy card attached to the Defending Pokémon."
 			},
 			damage: 10,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rising Lunge",
-				fr: "Botte secrète",
-				de: "Rising Lunge"
+				'en-us': "Rising Lunge",
+				'fr-fr': "Botte secrète",
+				'de-de': "Rising Lunge"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
 			},
 			damage: "20+",
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チルタリス",
+		'ja-jp': "チルタリス",
 	},
 
 	illustrator: "Yuu Nishida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "大空を ゆったりと 飛びながら 耳にした 者を うっとりさせる 美しい ハミングを 奏でる。",
+		'ja-jp': "大空を ゆったりと 飛びながら 耳にした 者を うっとりさせる 美しい ハミングを 奏でる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "マジカルエコー" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチポケモンを1匹選び、選んだポケモンにのっているダメカンをすべて、相手のバトルポケモンにのせ替える。",
+				'ja-jp': "自分のベンチポケモンを1匹選び、選んだポケモンにのっているダメカンをすべて、相手のバトルポケモンにのせ替える。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チルット",
+		'ja-jp': "チルット",
 	},
 
 	retreat: 1,

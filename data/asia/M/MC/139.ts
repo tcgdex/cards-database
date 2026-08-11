@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エースバーンex",
+		'ja-jp': "エースバーンex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,14 +20,14 @@ const card: Card = {
 			damage: 280,
 			cost: ["Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「フレアストライク」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「フレアストライク」が使えない。",
 			},
 		},
 		{
 			name: { ja: "ガーネットボレー" },
 			cost: ["Fire", "Fighting", "Darkness"],
 			effect: {
-				ja: "相手のポケモン1匹に、180ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、180ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ラビフット",
+		'ja-jp': "ラビフット",
 	},
 
 	retreat: 0,

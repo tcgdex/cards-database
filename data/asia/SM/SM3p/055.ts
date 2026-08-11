@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イベルタル",
+		'ja-jp': "イベルタル",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "翼と 尾羽を 広げて 赤く 輝くとき 生き物の 命を 吸い取る 伝説の ポケモン。",
+		'ja-jp': "翼と 尾羽を 広げて 赤く 輝くとき 生き物の 命を 吸い取る 伝説の ポケモン。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のトラッシュにある[悪]エネルギーを1枚、ベンチポケモンにつける。",
+				'ja-jp': "自分のトラッシュにある[悪]エネルギーを1枚、ベンチポケモンにつける。",
 			},
 		},
 	],

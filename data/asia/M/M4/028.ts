@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モココ",
+		'ja-jp': "モココ",
 	},
 
 	illustrator: "miki kudo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "体毛に 溜めた 電気が 満タンになると 尻尾が 光る。 触れると しびれる 毛を 飛ばす。",
+		'ja-jp': "体毛に 溜めた 電気が 満タンになると 尻尾が 光る。 触れると しびれる 毛を 飛ばす。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "次の相手の番、相手は手札からグッズを出して使えない。",
+				'ja-jp': "次の相手の番、相手は手札からグッズを出して使えない。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "メリープ",
+		'ja-jp': "メリープ",
 	},
 
 	retreat: 2,

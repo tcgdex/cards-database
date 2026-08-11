@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 7'
 
 const card: Card = {
 	name: {
-		en: "Flaaffy",
-		fr: "Flaaffy"
+		'en-us': "Flaaffy",
+		'fr-fr': "Flaaffy"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mareep",
-		fr: "Wattouat"
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat"
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Attract Current",
-				fr: "Courant électrique"
+				'en-us': "Attract Current",
+				'fr-fr': "Courant électrique"
 			},
 			effect: {
-				en: "Search your deck for a Lightning Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck une carte Énergie  et attachez-la à 1 de vos Pokémon. Ensuite, mélangez votre deck."
+				'en-us': "Search your deck for a Lightning Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez dans votre deck une carte Énergie  et attachez-la à 1 de vos Pokémon. Ensuite, mélangez votre deck."
 			},
 			damage: 10,
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electromagnetic Kick",
-				fr: "Coup électromagnétique"
+				'en-us': "Electromagnetic Kick",
+				'fr-fr': "Coup électromagnétique"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Flaaffy does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Lainergie s'inflige 10 dégâts."
+				'en-us': "Flip a coin. If tails, Flaaffy does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Lainergie s'inflige 10 dégâts."
 			},
 			damage: 60,
 
@@ -75,7 +75,7 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "If its coat becomes fully charged with electricity, its tail lights up. It fire hair that zaps on impact."
+		'en-us': "If its coat becomes fully charged with electricity, its tail lights up. It fire hair that zaps on impact."
 	},
 
 	retreat: 1,

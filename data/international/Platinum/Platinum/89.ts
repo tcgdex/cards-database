@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Ralts",
-		fr: "Tarsal",
-		de: "Trasla"
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal",
+		'de-de': "Trasla"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Future Sight",
-				fr: "Prescience",
-				de: "Future Sight"
+				'en-us': "Future Sight",
+				'fr-fr': "Prescience",
+				'de-de': "Future Sight"
 			},
 			effect: {
-				en: "Look at the top 5 cards in either player's deck and put them back on top of that player's deck in any order.",
-				fr: "Regardez les 5 cartes du dessus du deck de chaque joueur et replacez-les au dessus du deck de chaque joueur dans n'importe quel ordre.",
-				de: "Look at the top 5 cards of either player's deck and put them back on top of that player's deck in any order."
+				'en-us': "Look at the top 5 cards in either player's deck and put them back on top of that player's deck in any order.",
+				'fr-fr': "Regardez les 5 cartes du dessus du deck de chaque joueur et replacez-les au dessus du deck de chaque joueur dans n'importe quel ordre.",
+				'de-de': "Look at the top 5 cards of either player's deck and put them back on top of that player's deck in any order."
 			},
 
 		},
@@ -43,14 +43,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hypnoblast",
-				fr: "Hypnoblast",
-				de: "Hypnoblast"
+				'en-us': "Hypnoblast",
+				'fr-fr': "Hypnoblast",
+				'de-de': "Hypnoblast"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly."
+		'en-us': "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly."
 	},
 
 	variants: [		{

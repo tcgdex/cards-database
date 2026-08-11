@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Excadrill"
+		'id-id': "Excadrill"
 	},
 
 	illustrator: "Saboteri",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Sudah menjadi pengetahuan umum bahwa gua yang kelihatannya alami pun sebenarnya merupakan sisa dari galian kasar Excadrill."
+		'id-id': "Sudah menjadi pengetahuan umum bahwa gua yang kelihatannya alami pun sebenarnya merupakan sisa dari galian kasar Excadrill."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Mud Shot"
+			'id-id': "Mud Shot"
 		},
 
 		damage: 20,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Wild Tackle"
+			'id-id': "Wild Tackle"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 50."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 50."
 		},
 
 		damage: 180,

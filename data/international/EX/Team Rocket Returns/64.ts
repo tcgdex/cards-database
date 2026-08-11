@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Ledyba",
-		de: "Ledyba"
+		'en-us': "Ledyba",
+		'de-de': "Ledyba"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				de: "Call for Family"
+				'en-us': "Call for Family",
+				'de-de': "Call for Family"
 			},
 			effect: {
-				en: "Search your deck for a Grass Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.\"",
-				de: "Search your deck for a  Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
+				'en-us': "Search your deck for a Grass Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.\"",
+				'de-de': "Search your deck for a  Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
 			},
 
 		},
@@ -45,8 +45,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beat",
-				de: "Beat"
+				'en-us': "Beat",
+				'de-de': "Beat"
 			},
 
 			damage: 20,

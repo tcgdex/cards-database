@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハマナのバックアップ",
+		'ja-jp': "ハマナのバックアップ",
 	},
 
 	illustrator: "Nagomi Nijo",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のトラッシュから「ポケモン」と「ポケモンのどうぐ」と「スタジアム」と「エネルギー」を、それぞれ1枚まで選び、相手に見せて、山札にもどして切る。",
+		'ja-jp': "自分のトラッシュから「ポケモン」と「ポケモンのどうぐ」と「スタジアム」と「エネルギー」を、それぞれ1枚まで選び、相手に見せて、山札にもどして切る。",
 	},
 
 	variants: [

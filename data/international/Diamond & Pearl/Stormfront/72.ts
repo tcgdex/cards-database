@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Roselia",
-		fr: "Roselia",
-		de: "Roselia"
+		'en-us': "Roselia",
+		'fr-fr': "Roselia",
+		'de-de': "Roselia"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		fr: "Roselia",
+		'fr-fr': "Roselia",
 	},
 
 	stage: "Basic",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 10,
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Petal Spikes",
-				fr: "Pétales-piques",
-				de: "Blütenstachel"
+				'en-us': "Petal Spikes",
+				'fr-fr': "Pétales-piques",
+				'de-de': "Blütenstachel"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep and Poisoned. If Budew is anywhere under Roselia, the Defending Pokémon is now Asleep and Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi et Empoisonné. Si Rozbouton se trouve sous Roselia, le Pokémon Défenseur est maintenant Endormi et Empoisonné.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt und ist vergiftet. Wenn Knospi sich an beliebiger Stelle unter Roselia befindet, schläft das Verteidigende Pokémon jetzt und ist vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep and Poisoned. If Budew is anywhere under Roselia, the Defending Pokémon is now Asleep and Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi et Empoisonné. Si Rozbouton se trouve sous Roselia, le Pokémon Défenseur est maintenant Endormi et Empoisonné.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt und ist vergiftet. Wenn Knospi sich an beliebiger Stelle unter Roselia befindet, schläft das Verteidigende Pokémon jetzt und ist vergiftet."
 			},
 			damage: 20,
 
@@ -73,8 +73,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Roselia raised on clean drinking water are known to grow vividly colored flowers.",
-		fr: "Les Roselia élevés dans une eau claire et potable font de ravissantes fleurs bariolées."
+		'en-us': "Roselia raised on clean drinking water are known to grow vividly colored flowers.",
+		'fr-fr': "Les Roselia élevés dans une eau claire et potable font de ravissantes fleurs bariolées."
 	},
 
 	thirdParty: {

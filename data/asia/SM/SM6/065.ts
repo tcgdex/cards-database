@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヌメラ",
+		'ja-jp': "ヌメラ",
 	},
 
 	illustrator: "Midori Harada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "ヌメヌメの 粘膜で 身を 守る。 粘膜は 雑菌まみれ なので 触ったら しっかり 手を 洗おう。",
+		'ja-jp': "ヌメヌメの 粘膜で 身を 守る。 粘膜は 雑菌まみれ なので 触ったら しっかり 手を 洗おう。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ねばるねんまく" },
 			effect: {
-				ja: "このポケモンがバトル場にいるかぎり、相手のポケモンが使うワザに必要なエネルギーは、[無]エネルギー1個ぶん多くなる。",
+				'ja-jp': "このポケモンがバトル場にいるかぎり、相手のポケモンが使うワザに必要なエネルギーは、[無]エネルギー1個ぶん多くなる。",
 			},
 		},
 	],

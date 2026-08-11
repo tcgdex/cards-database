@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Snorlax",
-		fr: "Ronflex",
-		es: "Snorlax",
-		it: "Snorlax",
-		pt: "Snorlax",
-		de: "Relaxo"
+		'en-us': "Snorlax",
+		'fr-fr': "Ronflex",
+		'es-es': "Snorlax",
+		'it-it': "Snorlax",
+		'pt-br': "Snorlax",
+		'de-de': "Relaxo"
 	},
 
 	illustrator: "chibi",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rolling Tackle",
-				fr: "Roulé-Boulé",
-				es: "Placaje Giro",
-				it: "Rollazione",
-				pt: "Golpe de Colisão Rolante",
-				de: "Rolltackle"
+				'en-us': "Rolling Tackle",
+				'fr-fr': "Roulé-Boulé",
+				'es-es': "Placaje Giro",
+				'it-it': "Rollazione",
+				'pt-br': "Golpe de Colisão Rolante",
+				'de-de': "Rolltackle"
 			},
 
 			damage: 80,
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heavy Impact",
-				fr: "Gros Impact",
-				es: "Impacto Pesado",
-				it: "Impatto Pesante",
-				pt: "Impacto Pesado",
-				de: "Schwerer Einschlag"
+				'en-us': "Heavy Impact",
+				'fr-fr': "Gros Impact",
+				'es-es': "Impacto Pesado",
+				'it-it': "Impatto Pesante",
+				'pt-br': "Impacto Pesado",
+				'de-de': "Schwerer Einschlag"
 			},
 
 			damage: 130,
@@ -81,7 +81,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep."
+		'en-us': "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep."
 	},
 
 	dexId: [143],

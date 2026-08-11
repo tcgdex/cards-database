@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ursaring",
-		fr: "Ursaring",
-		es: "Ursaring",
-		it: "Ursaring",
-		pt: "Ursaring",
-		de: "Ursaring"
+		'en-us': "Ursaring",
+		'fr-fr': "Ursaring",
+		'es-es': "Ursaring",
+		'it-it': "Ursaring",
+		'pt-br': "Ursaring",
+		'de-de': "Ursaring"
 	},
 
 	illustrator: "Teeziro",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Teddiursa",
-		fr: "Teddiursa",
-		es: "Teddiursa",
-		it: "Teddiursa",
-		pt: "Teddiursa",
-		de: "Teddiursa"
+		'en-us': "Teddiursa",
+		'fr-fr': "Teddiursa",
+		'es-es': "Teddiursa",
+		'it-it': "Teddiursa",
+		'pt-br': "Teddiursa",
+		'de-de': "Teddiursa"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Continuous Slap",
-			fr: "Gifles Sans Fin",
-			es: "Bofetón Incesante",
-			it: "Sberla Infinita",
-			pt: "Tapa Contínuo",
-			de: "Dauerhieb"
+			'en-us': "Continuous Slap",
+			'fr-fr': "Gifles Sans Fin",
+			'es-es': "Bofetón Incesante",
+			'it-it': "Sberla Infinita",
+			'pt-br': "Tapa Contínuo",
+			'de-de': "Dauerhieb"
 		},
 
 		effect: {
-			en: "Flip a coin until you get tails. This attack does 40 damage for each heads.",
-			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 40 dégâts pour chaque côté face.",
-			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 40 puntos de daño por cada cara.",
-			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 40 danni ogni volta che esce testa.",
-			pt: "Jogue 1 moeda até sair coroa. Este ataque causa 40 pontos de dano para cada cara.",
-			de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip a coin until you get tails. This attack does 40 damage for each heads.",
+			'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 40 dégâts pour chaque côté face.",
+			'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 40 puntos de daño por cada cara.",
+			'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 40 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 1 moeda até sair coroa. Este ataque causa 40 pontos de dano para cada cara.",
+			'de-de': "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "40×"
@@ -57,12 +57,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Strength",
-			fr: "Force",
-			es: "Fuerza",
-			it: "Forza",
-			pt: "Força",
-			de: "Stärke"
+			'en-us': "Strength",
+			'fr-fr': "Force",
+			'es-es': "Fuerza",
+			'it-it': "Forza",
+			'pt-br': "Força",
+			'de-de': "Stärke"
 		},
 
 		damage: 100
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When the cold season arrives in Hisui, this Pokémon will wander fields and mountains alike in search of its favorite berries. Ursaring's hunger during this time makes it a ferocious danger.",
+		'en-us': "When the cold season arrives in Hisui, this Pokémon will wander fields and mountains alike in search of its favorite berries. Ursaring's hunger during this time makes it a ferocious danger.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バオッキー",
+		'ja-jp': "バオッキー",
 	},
 
 	illustrator: "Taiga Kasai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "体の 中の 炎を 燃やして 頭や 尻尾から 火の粉を まき散らせて 敵を 焦がす。",
+		'ja-jp': "体の 中の 炎を 燃やして 頭や 尻尾から 火の粉を まき散らせて 敵を 焦がす。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "70×",
 			cost: ["Fire"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数×70ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数×70ダメージ。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "バオップ",
+		'ja-jp': "バオップ",
 	},
 
 	retreat: 1,

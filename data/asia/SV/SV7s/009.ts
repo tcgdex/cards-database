@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โมคุโร",
-		id: "Rowlet"
+		'th-th': "โมคุโร",
+		'id-id': "Rowlet"
 	},
 
 	illustrator: "Yoshimi Miyoshi",
@@ -15,28 +15,28 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		th: "ระหว่างที่บินจะซัดขนนกแสนคมกริบใส่อีกฝ่าย แต่หากอยู่ในระยะประชิด จะสยบอีกฝ่ายด้วยลูกเตะที่รุนแรง",
-		id: "Rowlet terbang sambil menembakkan bulunya yang tajam. Kemudian pada jarak dekat, ia melancarkan tendangan dahsyat."
+		'th-th': "ระหว่างที่บินจะซัดขนนกแสนคมกริบใส่อีกฝ่าย แต่หากอยู่ในระยะประชิด จะสยบอีกฝ่ายด้วยลูกเตะที่รุนแรง",
+		'id-id': "Rowlet terbang sambil menembakkan bulunya yang tajam. Kemudian pada jarak dekat, ia melancarkan tendangan dahsyat."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "คาบ",
-			id: "Menggondol"
+			'th-th': "คาบ",
+			'id-id': "Menggondol"
 		},
 
 		effect: {
-			th: "จั่วการ์ด 1 ใบจากสำรับการ์ดฝ่ายเรา",
-			id: "Ambil 1 kartu dari atas Deck sendiri."
+			'th-th': "จั่วการ์ด 1 ใบจากสำรับการ์ดฝ่ายเรา",
+			'id-id': "Ambil 1 kartu dari atas Deck sendiri."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "ใบไม้",
-			id: "Dedaunan"
+			'th-th': "ใบไม้",
+			'id-id': "Dedaunan"
 		},
 
 		damage: 10,

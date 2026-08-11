@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Simisear",
-		fr: "Flamoutan",
-		es: "Simisear",
-		it: "Simisear",
-		pt: "Simisear",
-		de: "Grillchita"
+		'en-us': "Simisear",
+		'fr-fr': "Flamoutan",
+		'es-es': "Simisear",
+		'it-it': "Simisear",
+		'pt-br': "Simisear",
+		'de-de': "Grillchita"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pansear",
-		fr: "Flamajou",
+		'en-us': "Pansear",
+		'fr-fr': "Flamajou",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water's Power",
-				fr: "Pouvoir Submergeant",
+				'en-us': "Water's Power",
+				'fr-fr': "Pouvoir Submergeant",
 			},
 			effect: {
-				en: "If this Pokémon has any Water Energy attached to it, the Defending Pokémon is now Asleep.",
-				fr: "Si de l'Énergie Water est attachée à ce Pokémon, le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "If this Pokémon has any Water Energy attached to it, the Defending Pokémon is now Asleep.",
+				'fr-fr': "Si de l'Énergie Water est attachée à ce Pokémon, le Pokémon Défenseur est maintenant Endormi.",
 			},
 			damage: 30,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-Flamme",
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-Flamme",
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon.",
 			},
 			damage: 70,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A flame burns inside its body. It scatters embers from its head and tail to sear its opponents.",
+		'en-us': "A flame burns inside its body. It scatters embers from its head and tail to sear its opponents.",
 	},
 
 	thirdParty: {

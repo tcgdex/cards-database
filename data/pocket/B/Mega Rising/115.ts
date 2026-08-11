@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spritzee"
+		'en-us': "Spritzee"
 	},
 
 	illustrator: "MAHOU",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "The scent its body gives off enraptures those\nwho smell it. Noble ladies had no shortage of\nlove for Spritzee."
+		'en-us': "The scent its body gives off enraptures those\nwho smell it. Noble ladies had no shortage of\nlove for Spritzee."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Fairy Wind"
+			'en-us': "Fairy Wind"
 		},
 
 		damage: 20,

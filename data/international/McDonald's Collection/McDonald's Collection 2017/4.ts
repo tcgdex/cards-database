@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2017'
 
 const card: Card = {
@@ -7,8 +7,8 @@ const card: Card = {
 	],
 	set: Set,
 	name: {
-		en: "Popplio",
-		fr: "Otaquin",
+		'en-us': "Popplio",
+		'fr-fr': "Otaquin",
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -23,8 +23,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'Face",
+				'en-us': "Pound",
+				'fr-fr': "Écras'Face",
 			},
 			damage: "10",
 		},
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
 			},
 			damage: "20",
 		},

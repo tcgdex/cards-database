@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリカのフシギダネ",
+		'ja-jp': "エリカのフシギダネ",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "睡眠の種",
+				'ja-jp': "睡眠の種",
 			},
 			effect: {
-				ja: "防御ポケモンは今眠っています。",
+				'ja-jp': "防御ポケモンは今眠っています。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "用事が走る",
+				'ja-jp': "用事が走る",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、デッキを検索してトレーナーカードを検索できます。それを相手に見せて、あなたの手に入れてください。その後、デッキをシャッフルします。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、デッキを検索してトレーナーカードを検索できます。それを相手に見せて、あなたの手に入れてください。その後、デッキをシャッフルします。",
 			},
 		},
 	],

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Ponyta"
+		'en-us': "Blaine's Ponyta"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -28,10 +28,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hind Kick"
+				'en-us': "Hind Kick"
 			},
 			effect: {
-				en: "If you have any Benched Pokémon, flip a coin. If heads, switch Blaine's Ponyta with 1 of your Benched Pokémon."
+				'en-us': "If you have any Benched Pokémon, flip a coin. If heads, switch Blaine's Ponyta with 1 of your Benched Pokémon."
 			},
 			damage: 20,
 

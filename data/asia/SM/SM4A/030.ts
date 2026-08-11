@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モノズ",
+		'ja-jp': "モノズ",
 	},
 
 	illustrator: "miki kudo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "目が 見えないため 体当たりしたり かみついて まわりを 探る。 体中 生傷が 絶えない。",
+		'ja-jp': "目が 見えないため 体当たりしたり かみついて まわりを 探る。 体中 生傷が 絶えない。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
 			},
 		},
 	],

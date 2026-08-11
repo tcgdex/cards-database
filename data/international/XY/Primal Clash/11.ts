@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Lombre",
-		fr: "Lombre",
-		es: "Lombre",
-		it: "Lombre",
-		pt: "Lombre",
-		de: "Lombrero"
+		'en-us': "Lombre",
+		'fr-fr': "Lombre",
+		'es-es': "Lombre",
+		'it-it': "Lombre",
+		'pt-br': "Lombre",
+		'de-de': "Lombrero"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lotad",
-		fr: "Nénupiot",
-		es: "Lotad",
-		it: "Lotad",
-		pt: "Lotad",
-		de: "Loturzel"
+		'en-us': "Lotad",
+		'fr-fr': "Nénupiot",
+		'es-es': "Lotad",
+		'it-it': "Lotad",
+		'pt-br': "Lotad",
+		'de-de': "Loturzel"
 	},
 
 	stage: "Stage1",
@@ -43,12 +43,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Hook",
-				fr: "Crochet",
-				es: "Garfio",
-				it: "Uncino",
-				pt: "Gancho",
-				de: "Haken"
+				'en-us': "Hook",
+				'fr-fr': "Crochet",
+				'es-es': "Garfio",
+				'it-it': "Uncino",
+				'pt-br': "Gancho",
+				'de-de': "Haken"
 			},
 
 			damage: 20,
@@ -60,12 +60,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beat",
-				fr: "Bataille",
-				es: "Toque",
-				it: "Battuta",
-				pt: "Pulso",
-				de: "Verprügler"
+				'en-us': "Beat",
+				'fr-fr': "Bataille",
+				'es-es': "Toque",
+				'it-it': "Battuta",
+				'pt-br': "Pulso",
+				'de-de': "Verprügler"
 			},
 
 			damage: 30,
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has a mischievous spirit. If it spots an angler, it will tug on the fishing line to interfere.",
+		'en-us': "It has a mischievous spirit. If it spots an angler, it will tug on the fishing line to interfere.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance Trainer Gallery"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shadow Rider Calyrex V",
-		fr: "Sylveroy Cavalier d'Effroi V",
-		es: "Calyrex Jinete Espectral V",
-		it: "Calyrex Cavaliere Spettrale V",
-		pt: "Calyrex Cavaleiro Espectral V",
-		de: "Rappenreiter-Coronospa V"
+		'en-us': "Shadow Rider Calyrex V",
+		'fr-fr': "Sylveroy Cavalier d'Effroi V",
+		'es-es': "Calyrex Jinete Espectral V",
+		'it-it': "Calyrex Cavaliere Spettrale V",
+		'pt-br': "Calyrex Cavaleiro Espectral V",
+		'de-de': "Rappenreiter-Coronospa V"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -26,21 +26,21 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Shadow Mist",
-			fr: "Brume d'Effroi",
-			es: "Neblina Espectral",
-			it: "Nebbiombra",
-			pt: "Névoa das Sombras",
-			de: "Schattennebel"
+			'en-us': "Shadow Mist",
+			'fr-fr': "Brume d'Effroi",
+			'es-es': "Neblina Espectral",
+			'it-it': "Nebbiombra",
+			'pt-br': "Névoa das Sombras",
+			'de-de': "Schattennebel"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, they can't play any Special Energy or Stadium cards from their hand.",
-			fr: "Pendant le prochain tour de votre adversaire, il ne peut pas jouer de cartes Énergie spéciale ou Stade de sa main.",
-			es: "Durante el próximo turno de tu rival, este no puede jugar ninguna carta de Energía Especial o de Estadio de su mano.",
-			it: "Durante il prossimo turno del tuo avversario, questi non può giocare le carte Energia speciale o Stadio che ha in mano.",
-			pt: "Durante o próximo turno do seu oponente, ele(a) não poderá jogar nenhuma carta de Energia Especial ou de Estádio da própria mão.",
-			de: "Dein Gegner kann während seines nächsten Zuges keine Spezial-Energien oder Stadionkarten aus seiner Hand spielen."
+			'en-us': "During your opponent's next turn, they can't play any Special Energy or Stadium cards from their hand.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, il ne peut pas jouer de cartes Énergie spéciale ou Stade de sa main.",
+			'es-es': "Durante el próximo turno de tu rival, este no puede jugar ninguna carta de Energía Especial o de Estadio de su mano.",
+			'it-it': "Durante il prossimo turno del tuo avversario, questi non può giocare le carte Energia speciale o Stadio che ha in mano.",
+			'pt-br': "Durante o próximo turno do seu oponente, ele(a) não poderá jogar nenhuma carta de Energia Especial ou de Estádio da própria mão.",
+			'de-de': "Dein Gegner kann während seines nächsten Zuges keine Spezial-Energien oder Stadionkarten aus seiner Hand spielen."
 		},
 
 		damage: 10
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Astral Barrage",
-			fr: "Éclat Spectral",
-			es: "Orbes Espectro",
-			it: "Schegge Astrali",
-			pt: "Barricada Astral",
-			de: "Astralfragmente"
+			'en-us': "Astral Barrage",
+			'fr-fr': "Éclat Spectral",
+			'es-es': "Orbes Espectro",
+			'it-it': "Schegge Astrali",
+			'pt-br': "Barricada Astral",
+			'de-de': "Astralfragmente"
 		},
 
 		effect: {
-			en: "Choose 2 of your opponent's Pokémon and put 5 damage counters on each of them.",
-			fr: "Choisissez 2 des Pokémon de votre adversaire, puis placez 5 marqueurs de dégâts sur chacun d'eux.",
-			es: "Elige 2 de los Pokémon de tu rival y pon 5 contadores de daño en cada uno de ellos.",
-			it: "Scegli due dei Pokémon del tuo avversario e metti cinque segnalini danno su ciascuno di essi.",
-			pt: "Escolha 2 dos Pokémon do seu oponente e coloque 5 contadores de dano em cada um deles.",
-			de: "Wähle 2 Pokémon deines Gegners und lege 5 Schadensmarken auf jedes von ihnen."
+			'en-us': "Choose 2 of your opponent's Pokémon and put 5 damage counters on each of them.",
+			'fr-fr': "Choisissez 2 des Pokémon de votre adversaire, puis placez 5 marqueurs de dégâts sur chacun d'eux.",
+			'es-es': "Elige 2 de los Pokémon de tu rival y pon 5 contadores de daño en cada uno de ellos.",
+			'it-it': "Scegli due dei Pokémon del tuo avversario e metti cinque segnalini danno su ciascuno di essi.",
+			'pt-br': "Escolha 2 dos Pokémon do seu oponente e coloque 5 contadores de dano em cada um deles.",
+			'de-de': "Wähle 2 Pokémon deines Gegners und lege 5 Schadensmarken auf jedes von ihnen."
 		}
 	}],
 

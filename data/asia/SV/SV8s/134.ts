@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Palkia",
-		th: "พัลเกีย"
+		'id-id': "Palkia",
+		'th-th': "พัลเกีย"
 	},
 
 	illustrator: "danciao",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		id: "Dikatakan bahwa Palkia hidup di celah dimensi paralel. Pokémon yang muncul dalam mitologi.",
-		th: "ว่ากันว่าอาศัยอยู่ในช่องว่างระหว่างมิติคู่ขนาน เป็นโปเกมอนที่ปรากฏ ตัวในเทพนิยาย"
+		'id-id': "Dikatakan bahwa Palkia hidup di celah dimensi paralel. Pokémon yang muncul dalam mitologi.",
+		'th-th': "ว่ากันว่าอาศัยอยู่ในช่องว่างระหว่างมิติคู่ขนาน เป็นโปเกมอนที่ปรากฏ ตัวในเทพนิยาย"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Space Crush",
-			th: "สเปซแครช"
+			'id-id': "Space Crush",
+			'th-th': "สเปซแครช"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan sejumlah 40 untuk tiap Energi Dasar yang dikenakan pada Pokémon ini.",
-			th: "แดเมจจะเท่ากับจำนวนพลังงานพื้นฐานที่ติดอยู่กับโปเกมอนนี้ x40"
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 40 untuk tiap Energi Dasar yang dikenakan pada Pokémon ini.",
+			'th-th': "แดเมจจะเท่ากับจำนวนพลังงานพื้นฐานที่ติดอยู่กับโปเกมอนนี้ x40"
 		},
 
 		damage: "40×",

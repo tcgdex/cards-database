@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Klefki",
-		fr: "Trousselin",
-		es: "Klefki",
-		it: "Klefki",
-		pt: "Klefki",
-		de: "Clavion"
+		'en-us': "Klefki",
+		'fr-fr': "Trousselin",
+		'es-es': "Klefki",
+		'it-it': "Klefki",
+		'pt-br': "Klefki",
+		'de-de': "Clavion"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Stick 'n' Draw",
-			fr: "Inséré-Pioché",
-			es: "Abrir y Robar",
-			it: "Metti e Pesca",
-			pt: "Virada de Chave",
-			de: "Abwerfen und Ziehen"
+			'en-us': "Stick 'n' Draw",
+			'fr-fr': "Inséré-Pioché",
+			'es-es': "Abrir y Robar",
+			'it-it': "Metti e Pesca",
+			'pt-br': "Virada de Chave",
+			'de-de': "Abwerfen und Ziehen"
 		},
 
 		effect: {
-			en: "Discard a card from your hand. If you do, draw 2 cards.",
-			fr: "Défaussez une carte de votre main. Dans ce cas, piochez 2 cartes.",
-			es: "Descarta 1 carta de tu mano. Si lo haces, roba 2 cartas.",
-			it: "Scarta una delle carte che hai in mano. Se lo fai, pesca due carte.",
-			pt: "Descarte uma carta da sua mão. Se fizer isto, compre 2 cartas.",
-			de: "Lege 1 Karte aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, ziehe 2 Karten."
+			'en-us': "Discard a card from your hand. If you do, draw 2 cards.",
+			'fr-fr': "Défaussez une carte de votre main. Dans ce cas, piochez 2 cartes.",
+			'es-es': "Descarta 1 carta de tu mano. Si lo haces, roba 2 cartas.",
+			'it-it': "Scarta una delle carte che hai in mano. Se lo fai, pesca due carte.",
+			'pt-br': "Descarte uma carta da sua mão. Se fizer isto, compre 2 cartas.",
+			'de-de': "Lege 1 Karte aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, ziehe 2 Karten."
 		}
 	}, {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Hook",
-			fr: "Crochet",
-			es: "Garfio",
-			it: "Uncino",
-			pt: "Gancho",
-			de: "Haken"
+			'en-us': "Hook",
+			'fr-fr': "Crochet",
+			'es-es': "Garfio",
+			'it-it': "Uncino",
+			'pt-br': "Gancho",
+			'de-de': "Haken"
 		},
 
 		damage: 20

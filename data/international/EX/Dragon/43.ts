@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Shuppet",
-		fr: "Polichombr",
-		de: "Shuppet"
+		'en-us': "Shuppet",
+		'fr-fr': "Polichombr",
+		'de-de': "Shuppet"
 	},
 
 	illustrator: "Aya Kusube",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnosis",
-				fr: "Hypnose",
-				de: "Hypnosis"
+				'en-us': "Hypnosis",
+				'fr-fr': "Hypnose",
+				'de-de': "Hypnosis"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Night Attack",
-				fr: "Attaque nocturne",
-				de: "Night Attack"
+				'en-us': "Night Attack",
+				'fr-fr': "Attaque nocturne",
+				'de-de': "Night Attack"
 			},
 			effect: {
-				en: "Put 1 damage counter on 1 of your opponent's Pokémon.",
-				fr: "Placez un marqueur de dégât sur un des Pokémon de votre adversaire.",
-				de: "Put 1 damage counter on 1 of your opponent's Pokémon."
+				'en-us': "Put 1 damage counter on 1 of your opponent's Pokémon.",
+				'fr-fr': "Placez un marqueur de dégât sur un des Pokémon de votre adversaire.",
+				'de-de': "Put 1 damage counter on 1 of your opponent's Pokémon."
 			},
 
 		},

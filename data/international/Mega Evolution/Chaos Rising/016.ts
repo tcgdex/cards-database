@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
 
 	description: {
-		en: "The water they shoot from their mouths can hit moving prey from more than 300 feet away.",
+		'en-us': "The water they shoot from their mouths can hit moving prey from more than 300 feet away.",
 	},
 
 
 	name: {
-		en: "Remoraid",
-		fr: "Rémoraid",
-		es: "Remoraid",
+		'en-us': "Remoraid",
+		'fr-fr': "Rémoraid",
+		'es-es': "Remoraid",
 		'es-mx': "Remoraid",
-		de: "Remoraid",
-		it: "Remoraid",
-		pt: "Remoraid"
+		'de-de': "Remoraid",
+		'it-it': "Remoraid",
+		'pt-br': "Remoraid"
 	},
 
 	illustrator: "Mori Yuu",
@@ -29,13 +29,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Sharp Fin",
-			fr: "Aileron Aiguisé",
-			es: "Cortaleta",
+			'en-us': "Sharp Fin",
+			'fr-fr': "Aileron Aiguisé",
+			'es-es': "Cortaleta",
 			'es-mx': "Aleta Afilada",
-			de: "Schneidige Flosse",
-			it: "Pinnaffilata",
-			pt: "Barbatana Afiada"
+			'de-de': "Schneidige Flosse",
+			'it-it': "Pinnaffilata",
+			'pt-br': "Barbatana Afiada"
 		},
 
 		cost: ["Water"],

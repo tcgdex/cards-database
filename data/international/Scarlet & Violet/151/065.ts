@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Alakazam-ex",
-		en: "Alakazam ex",
-		es: "Alakazam ex",
-		it: "Alakazam-ex",
-		pt: "Alakazam ex",
-		de: "Simsala-ex"
+		'fr-fr': "Alakazam-ex",
+		'en-us': "Alakazam ex",
+		'es-es': "Alakazam ex",
+		'it-it': "Alakazam-ex",
+		'pt-br': "Alakazam ex",
+		'de-de': "Simsala-ex"
 	},
 
 	rarity: "Double rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 310,
 	types: ["Psychic"],
 	evolveFrom: {
-		fr: "Kadabra",
-		en: "Kadabra",
-		es: "Kadabra",
-		it: "Kadabra",
-		pt: "Kadabra",
-		de: "Kadabra"
+		'fr-fr': "Kadabra",
+		'en-us': "Kadabra",
+		'es-es': "Kadabra",
+		'it-it': "Kadabra",
+		'pt-br': "Kadabra",
+		'de-de': "Kadabra"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Emprise Mentale",
-			en: "Mind Jack",
-			es: "Levantamente",
-			it: "Sollevamente",
-			pt: "Tomada Mental",
-			de: "Gedankenstoß"
+			'fr-fr': "Emprise Mentale",
+			'en-us': "Mind Jack",
+			'es-es': "Levantamente",
+			'it-it': "Sollevamente",
+			'pt-br': "Tomada Mental",
+			'de-de': "Gedankenstoß"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chacun des Pokémon de Banc de votre adversaire.",
-			en: "This attack does 30 more damage for each of your opponent's Benched Pokémon.",
-			es: "Este ataque hace 30 puntos de daño más por cada uno de los Pokémon en Banca de tu rival.",
-			it: "Questo attacco infligge 30 danni in più per ogni Pokémon nella panchina del tuo avversario.",
-			pt: "Este ataque causa 30 pontos de dano a mais para cada Pokémon no Banco do seu oponente.",
-			de: "Diese Attacke fügt für jedes Pokémon auf der Bank deines Gegners 30 Schadenspunkte mehr zu."
+			'fr-fr': "Cette attaque inflige 30 dégâts supplémentaires pour chacun des Pokémon de Banc de votre adversaire.",
+			'en-us': "This attack does 30 more damage for each of your opponent's Benched Pokémon.",
+			'es-es': "Este ataque hace 30 puntos de daño más por cada uno de los Pokémon en Banca de tu rival.",
+			'it-it': "Questo attacco infligge 30 danni in più per ogni Pokémon nella panchina del tuo avversario.",
+			'pt-br': "Este ataque causa 30 pontos de dano a mais para cada Pokémon no Banco do seu oponente.",
+			'de-de': "Diese Attacke fügt für jedes Pokémon auf der Bank deines Gegners 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "90+"
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			fr: "Main Dimensionnelle",
-			en: "Dimensional Hand",
-			es: "Mano Dimensional",
-			it: "Mano Dimensionale",
-			pt: "Mão Dimensional",
-			de: "Dimensionshand"
+			'fr-fr': "Main Dimensionnelle",
+			'en-us': "Dimensional Hand",
+			'es-es': "Mano Dimensional",
+			'it-it': "Mano Dimensionale",
+			'pt-br': "Mão Dimensional",
+			'de-de': "Dimensionshand"
 		},
 
 		effect: {
-			fr: "Cette attaque peut être utilisée même si ce Pokémon est sur le Banc.",
-			en: "This attack can be used even if this Pokémon is on the Bench.",
-			es: "Este ataque se puede usar incluso si este Pokémon está en la Banca.",
-			it: "Questo attacco può essere usato anche se questo Pokémon è in panchina.",
-			pt: "Este ataque pode ser usado mesmo que este Pokémon esteja no Banco.",
-			de: "Diese Attacke kann auch eingesetzt werden, wenn sich dieses Pokémon auf der Bank befindet."
+			'fr-fr': "Cette attaque peut être utilisée même si ce Pokémon est sur le Banc.",
+			'en-us': "This attack can be used even if this Pokémon is on the Bench.",
+			'es-es': "Este ataque se puede usar incluso si este Pokémon está en la Banca.",
+			'it-it': "Questo attacco può essere usato anche se questo Pokémon è in panchina.",
+			'pt-br': "Este ataque pode ser usado mesmo que este Pokémon esteja no Banco.",
+			'de-de': "Diese Attacke kann auch eingesetzt werden, wenn sich dieses Pokémon auf der Bank befindet."
 		},
 
 		damage: 120

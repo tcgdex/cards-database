@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Trevenant BREAK",
-		fr: "Desséliande TURBO",
-		es: "Trevenant TURBO",
-		it: "Trevenant TURBO",
-		pt: "Trevenant TURBO",
-		de: "Trombork-TURBO"
+		'en-us': "Trevenant BREAK",
+		'fr-fr': "Desséliande TURBO",
+		'es-es': "Trevenant TURBO",
+		'it-it': "Trevenant TURBO",
+		'pt-br': "Trevenant TURBO",
+		'de-de': "Trombork-TURBO"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Trevenant",
-		fr: "Desséliande",
-		es: "Trevenant",
-		it: "Trevenant",
-		pt: "Trevenant",
-		de: "Trombork"
+		'en-us': "Trevenant",
+		'fr-fr': "Desséliande",
+		'es-es': "Trevenant",
+		'it-it': "Trevenant",
+		'pt-br': "Trevenant",
+		'de-de': "Trombork"
 	},
 
 	stage: "BREAK",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Silent Fear",
-				fr: "Peur Silencieuse",
-				es: "Temor Silencioso",
-				it: "Timormuto",
-				pt: "Temor Silencioso",
-				de: "Stille Angst"
+				'en-us': "Silent Fear",
+				'fr-fr': "Peur Silencieuse",
+				'es-es': "Temor Silencioso",
+				'it-it': "Timormuto",
+				'pt-br': "Temor Silencioso",
+				'de-de': "Stille Angst"
 			},
 			effect: {
-				en: "Put 3 damage counters on each of your opponent's Pokémon.",
-				fr: "Placez 3 marqueurs de dégâts sur chacun des Pokémon de votre adversaire.",
-				es: "Pon 3 contadores de daño en cada uno de los Pokémon de tu rival.",
-				it: "Metti tre segnalini danno su ciascuno dei Pokémon del tuo avversario.",
-				pt: "Coloque 3 contadores de danos em cada um dos Pokémon do seu oponente.",
-				de: "Lege 3 Schadensmarken auf jedes Pokémon deines Gegners."
+				'en-us': "Put 3 damage counters on each of your opponent's Pokémon.",
+				'fr-fr': "Placez 3 marqueurs de dégâts sur chacun des Pokémon de votre adversaire.",
+				'es-es': "Pon 3 contadores de daño en cada uno de los Pokémon de tu rival.",
+				'it-it': "Metti tre segnalini danno su ciascuno dei Pokémon del tuo avversario.",
+				'pt-br': "Coloque 3 contadores de danos em cada um dos Pokémon do seu oponente.",
+				'de-de': "Lege 3 Schadensmarken auf jedes Pokémon deines Gegners."
 			},
 
 		}

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Jirachi",
-		fr: "Jirachi",
-		de: "Jirachi"
+		'en-us': "Jirachi",
+		'fr-fr': "Jirachi",
+		'de-de': "Jirachi"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Make a Wish",
-				fr: "Faites un voeu",
-				de: "Make a Wish"
+				'en-us': "Make a Wish",
+				'fr-fr': "Faites un voeu",
+				'de-de': "Make a Wish"
 			},
 			effect: {
-				en: "Search your deck for a card that evolves from 1 of your Pokémon and put it on that Pokémon. (This counts as evolving that Pokémon.) If you do, put 1 damage counter on Jirachi. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une carte qui évolue d'1 de vos Pokémon et placez-la sur ce Pokémon. (Vous le faites ainsi évoluer.) Placez ensuite 1 marqueur de dégât sur Jirachi. Ensuite, mélangez votre deck.",
-				de: "Search your deck for a card that evolves from 1 of your Pokémon and put it on that Pokémon. (This counts as evolving that Pokémon.) If you do, put 1 damage counter on Jirachi. Shuffle your deck afterward."
+				'en-us': "Search your deck for a card that evolves from 1 of your Pokémon and put it on that Pokémon. (This counts as evolving that Pokémon.) If you do, put 1 damage counter on Jirachi. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck une carte qui évolue d'1 de vos Pokémon et placez-la sur ce Pokémon. (Vous le faites ainsi évoluer.) Placez ensuite 1 marqueur de dégât sur Jirachi. Ensuite, mélangez votre deck.",
+				'de-de': "Search your deck for a card that evolves from 1 of your Pokémon and put it on that Pokémon. (This counts as evolving that Pokémon.) If you do, put 1 damage counter on Jirachi. Shuffle your deck afterward."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Mind Bend",
-				fr: "Contrôleur d'esprit",
-				de: "Mind Bend"
+				'en-us': "Mind Bend",
+				'fr-fr': "Contrôleur d'esprit",
+				'de-de': "Mind Bend"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 30,
 

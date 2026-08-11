@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブースターVMAX",
+		'ja-jp': "ブースターVMAX",
 		'zh-tw': "快龍VSTAR",
 	},
 
@@ -18,13 +18,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ダイバクレツ",
+				'ja-jp': "ダイバクレツ",
 				'zh-tw': "終極衝擊",
 			},
 			damage: "100×",
 			cost: ["Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分の山札を上から5枚トラッシュし、その中にあるエネルギーの枚数×100ダメージ。",
+				'ja-jp': "自分の山札を上から5枚トラッシュし、その中にあるエネルギーの枚数×100ダメージ。",
 				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
 			},
 		},
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ブースターV",
+		'ja-jp': "ブースターV",
 	},
 
 	retreat: 2,

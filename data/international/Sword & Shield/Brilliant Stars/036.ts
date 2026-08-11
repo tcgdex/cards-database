@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Prinplup",
-		fr: "Prinplouf",
-		es: "Prinplup",
-		it: "Prinplup",
-		pt: "Prinplup",
-		de: "Pliprin"
+		'en-us': "Prinplup",
+		'fr-fr': "Prinplouf",
+		'es-es': "Prinplup",
+		'it-it': "Prinplup",
+		'pt-br': "Prinplup",
+		'de-de': "Pliprin"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Piplup",
-		fr: "Tiplouf",
-		es: "Piplup",
-		it: "Piplup",
-		pt: "Piplup",
-		de: "Plinfa"
+		'en-us': "Piplup",
+		'fr-fr': "Tiplouf",
+		'es-es': "Piplup",
+		'it-it': "Piplup",
+		'pt-br': "Piplup",
+		'de-de': "Plinfa"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Peck",
-			fr: "Picpic",
-			es: "Picotazo",
-			it: "Beccata",
-			pt: "Bicada",
-			de: "Pikser"
+			'en-us': "Peck",
+			'fr-fr': "Picpic",
+			'es-es': "Picotazo",
+			'it-it': "Beccata",
+			'pt-br': "Bicada",
+			'de-de': "Pikser"
 		},
 
 		damage: 30
@@ -57,7 +57,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It lives a solitary life. Its wings deliver wicked blows that can snap even the thickest of trees.",
+		'en-us': "It lives a solitary life. Its wings deliver wicked blows that can snap even the thickest of trees.",
 	},
 
 	variants: [

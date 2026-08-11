@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニョロボン",
+		'ja-jp': "ニョロボン",
 		'zh-tw': "蚊香泳士",
-		th: "เนียวโรบอน",
-		id: "Poliwrath",
+		'th-th': "เนียวโรบอน",
+		'id-id': "Poliwrath",
 	},
 
 	illustrator: "Kurata So",
@@ -16,10 +16,10 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "泳ぎ だけでなく 格闘技も 得意。 鍛えあげた 腕から 豪快な パンチを 繰りだす。",
+		'ja-jp': "泳ぎ だけでなく 格闘技も 得意。 鍛えあげた 腕から 豪快な パンチを 繰りだす。",
 		'zh-tw': "除了游泳之外，也擅長使用格鬥技。完美鍛鍊的手臂 可以使出豪邁的拳擊。",
-		th: "เก่งทั้งด้านการว่ายน้ำและศิลปะการต่อสู้ ลำแขนที่ฝึกฝนมาเป็นอย่างดีนั้นปล่อยหมัดอันทรงพลังออกมาได้",
-		id: "Poliwrath tidak hanya ahli berenang, tapi juga ahli bela diri. Pokémon ini meluncurkan pukulan dahsyat menggunakan lengannya yang terlatih.",
+		'th-th': "เก่งทั้งด้านการว่ายน้ำและศิลปะการต่อสู้ ลำแขนที่ฝึกฝนมาเป็นอย่างดีนั้นปล่อยหมัดอันทรงพลังออกมาได้",
+		'id-id': "Poliwrath tidak hanya ahli berenang, tapi juga ahli bela diri. Pokémon ini meluncurkan pukulan dahsyat menggunakan lengannya yang terlatih.",
 	},
 
 	stage: "Stage2",
@@ -27,34 +27,34 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "バブルこうせん",
+				'ja-jp': "バブルこうせん",
 				'zh-tw': "泡沫光線",
-				th: "บับเบิ้ลบีม",
-				id: "Sinar Gelembung",
+				'th-th': "บับเบิ้ลบีม",
+				'id-id': "Sinar Gelembung",
 			},
 			damage: 50,
 			cost: ["Water"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 				'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。",
-				th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว จะทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ชา]",
-				id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh.",
+				'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกหัว จะทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ชา]",
+				'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh.",
 			},
 		},
 		{
 			name: {
-				ja: "ごうかいパンチ",
+				'ja-jp': "ごうかいパンチ",
 				'zh-tw': "豪邁拳",
-				th: "หมัดแรงถึงใจ",
-				id: "Pukulan Dahsyat",
+				'th-th': "หมัดแรงถึงใจ",
+				'id-id': "Pukulan Dahsyat",
 			},
 			damage: "100+",
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、150ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、150ダメージ追加。",
 				'zh-tw': "擲1次硬幣若為正面，則增加150點傷害。",
-				th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว การโจมตีนี้จะเพิ่มแดเมจอีก 150",
-				id: "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 150.",
+				'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกหัว การโจมตีนี้จะเพิ่มแดเมจอีก 150",
+				'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 150.",
 			},
 		},
 	],
@@ -86,7 +86,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニョロゾ",
+		'ja-jp': "ニョロゾ",
 	},
 
 	retreat: 2,

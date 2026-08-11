@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Electabuzz",
-		fr: "Élektek",
-		es: "Electabuzz",
-		it: "Electabuzz",
-		pt: "Electabuzz",
-		de: "Elektek"
+		'en-us': "Electabuzz",
+		'fr-fr': "Élektek",
+		'es-es': "Electabuzz",
+		'it-it': "Electabuzz",
+		'pt-br': "Electabuzz",
+		'de-de': "Elektek"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage",
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage",
 			},
 
 			damage: 20,
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnetic Blast",
-				fr: "Explosion Magnétique",
+				'en-us': "Magnetic Blast",
+				'fr-fr': "Explosion Magnétique",
 			},
 
 			damage: 50,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Research is progressing on storing lightning in Electabuzz so this energy can be used at any time.",
+		'en-us': "Research is progressing on storing lightning in Electabuzz so this energy can be used at any time.",
 	},
 
 	thirdParty: {

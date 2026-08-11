@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Charmander"
+		'en-us': "Blaine's Charmander"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Kindle"
+				'en-us': "Kindle"
 			},
 			effect: {
-				en: "Discard 1 Energy card attached to Blaine's Charmander in order to use this attack. If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
+				'en-us': "Discard 1 Energy card attached to Blaine's Charmander in order to use this attack. If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
 			},
 			damage: 10,
 
@@ -41,7 +41,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash"
+				'en-us': "Slash"
 			},
 
 			damage: 20,

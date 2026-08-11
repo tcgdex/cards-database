@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Scovillain ex",
-		th: "สโกวิลเลินex"
+		'id-id': "Scovillain ex",
+		'th-th': "สโกวิลเลินex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -20,25 +20,25 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Tipe Ganda",
-			th: "ดับเบิลไทป์"
+			'id-id': "Tipe Ganda",
+			'th-th': "ดับเบิลไทป์"
 		},
 
 		effect: {
-			id: "Selama Pokémon ini ada di Arena, Pokémon ini menjadi 2 tipe yaitu {Daun} dan {Api}.",
-			th: "โปเกมอนนี้ ตราบใดที่ยังอยู่บนกระดาน จะเป็น 2 ประเภทคือ[หญ้า]และ[ไฟ]"
+			'id-id': "Selama Pokémon ini ada di Arena, Pokémon ini menjadi 2 tipe yaitu {Daun} dan {Api}.",
+			'th-th': "โปเกมอนนี้ ตราบใดที่ยังอยู่บนกระดาน จะเป็น 2 ประเภทคือ[หญ้า]และ[ไฟ]"
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Spicy Rage",
-			th: "สไปซีเรจ"
+			'id-id': "Spicy Rage",
+			'th-th': "สไปซีเรจ"
 		},
 
 		effect: {
-			id: "Kerusakan yang diberikan bertambah sejumlah 70 untuk tiap Token Kerusakan yang dimiliki Pokémon ini.",
-			th: "แดเมจจะเพิ่มตามจำนวนตัวนับแดเมจที่วางอยู่บนโปเกมอนนี้ x70"
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 70 untuk tiap Token Kerusakan yang dimiliki Pokémon ini.",
+			'th-th': "แดเมจจะเพิ่มตามจำนวนตัวนับแดเมจที่วางอยู่บนโปเกมอนนี้ x70"
 		},
 
 		damage: "10+",

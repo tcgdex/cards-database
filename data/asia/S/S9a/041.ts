@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "沙河馬",
-		ja: "ヒポポタス"
+		'ja-jp': "ヒポポタス"
 	},
 
 	illustrator: "nagimiso",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "體型碩大而笨重，但由於會掘開土壤藏身其中，因此難以發現其蹤跡。 情緒激動時會從鼻中噴出沙子。",
-		ja: "体 大きく 鈍重なれど 土壌を掘りて 潜むゆえに 姿 捉えるは 困難なり。 気 昂りしとき 鼻より 砂を吹く。"
+		'ja-jp': "体 大きく 鈍重なれど 土壌を掘りて 潜むゆえに 姿 捉えるは 困難なり。 気 昂りしとき 鼻より 砂を吹く。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "擲泥",
-			ja: "どろかけ"
+			'ja-jp': "どろかけ"
 		},
 
 		damage: 30,
@@ -32,7 +32,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "滾動衝撞",
-			ja: "ころがりタックル"
+			'ja-jp': "ころがりタックル"
 		},
 
 		damage: 90,

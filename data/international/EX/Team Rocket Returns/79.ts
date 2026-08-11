@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Swinub",
-		de: "Quiekel"
+		'en-us': "Swinub",
+		'de-de': "Quiekel"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rest",
-				de: "Rest"
+				'en-us': "Rest",
+				'de-de': "Rest"
 			},
 			effect: {
-				en: "Remove all Special Conditions and all damage counters from Swinub. Swinub is now Asleep.",
-				de: "Remove all Special Conditions and all damage counters from Swinub. Swinub is now Asleep."
+				'en-us': "Remove all Special Conditions and all damage counters from Swinub. Swinub is now Asleep.",
+				'de-de': "Remove all Special Conditions and all damage counters from Swinub. Swinub is now Asleep."
 			},
 
 		},

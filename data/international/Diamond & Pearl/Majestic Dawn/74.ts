@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Spearow",
-		fr: "Piafabec",
-		de: "Habitak"
+		'en-us': "Spearow",
+		'fr-fr': "Piafabec",
+		'de-de': "Habitak"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-aile",
-				de: "Flügelschlag"
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-aile",
+				'de-de': "Flügelschlag"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Claw",
-				fr: "Mâchoire",
-				de: "Klaue"
+				'en-us': "Claw",
+				'fr-fr': "Mâchoire",
+				'de-de': "Klaue"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Wirf 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It flaps its small wings busily to fly. Using its beak, it searches in grass for prey.",
+		'en-us': "It flaps its small wings busily to fly. Using its beak, it searches in grass for prey.",
 	},
 
 	thirdParty: {

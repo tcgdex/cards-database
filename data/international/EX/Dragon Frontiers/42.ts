@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Vibrava δ",
-		fr: "Vibraninf δ",
-		de: "Vibrava"
+		'en-us': "Vibrava δ",
+		'fr-fr': "Vibraninf δ",
+		'de-de': "Vibrava"
 	},
 
 	illustrator: "Midori Harada",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Trapinch",
-		fr: "Kraknoix"
+		'en-us': "Trapinch",
+		'fr-fr': "Kraknoix"
 	},
 
 	stage: "Stage1",
@@ -36,9 +36,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Biss"
 			},
 
 			damage: 20,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sonic Noise",
-				fr: "Bruit supersonique",
-				de: "Schallender Lärm"
+				'en-us': "Sonic Noise",
+				'fr-fr': "Bruit supersonique",
+				'de-de': "Schallender Lärm"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Pokémon-ex, that Pokémon is now Confused.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-ex, il est maintenant Confus.",
-				de: "Wenn das Verteidigende Pokémon ein Pokémon-ex ist, ist dieses Pokémon jetzt verwirrt."
+				'en-us': "If the Defending Pokémon is Pokémon-ex, that Pokémon is now Confused.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon-ex, il est maintenant Confus.",
+				'de-de': "Wenn das Verteidigende Pokémon ein Pokémon-ex ist, ist dieses Pokémon jetzt verwirrt."
 			},
 			damage: 30,
 

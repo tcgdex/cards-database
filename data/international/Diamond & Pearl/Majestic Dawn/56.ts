@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Chimchar",
-		fr: "Ouisticram",
-		de: "Panflam"
+		'en-us': "Chimchar",
+		'fr-fr': "Ouisticram",
+		'de-de': "Panflam"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flare",
-				fr: "Intimidation",
-				de: "Flackern"
+				'en-us': "Flare",
+				'fr-fr': "Intimidation",
+				'de-de': "Flackern"
 			},
 
 			damage: 20,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lunge",
-				fr: "Coup rapide",
-				de: "Ausfall"
+				'en-us': "Lunge",
+				'fr-fr': "Coup rapide",
+				'de-de': "Ausfall"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Wirf 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 40,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its fiery rear end is fueled by gas made in its belly. Even rain can't extinguish the fire.",
+		'en-us': "Its fiery rear end is fueled by gas made in its belly. Even rain can't extinguish the fire.",
 	},
 
 	thirdParty: {

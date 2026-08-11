@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [321],
 
 	name: {
-		en: "Wailord",
-		fr: "Wailord",
-		es: "Wailord",
-		it: "Wailord",
-		pt: "Wailord",
-		de: "Wailord"
+		'en-us': "Wailord",
+		'fr-fr': "Wailord",
+		'es-es': "Wailord",
+		'it-it': "Wailord",
+		'pt-br': "Wailord",
+		'de-de': "Wailord"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -24,32 +24,32 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wailmer",
-		fr: "Wailmer",
-		es: "Wailmer",
-		it: "Wailmer",
-		pt: "Wailmer",
-		de: "Wailmer"
+		'en-us': "Wailmer",
+		'fr-fr': "Wailmer",
+		'es-es': "Wailmer",
+		'it-it': "Wailmer",
+		'pt-br': "Wailmer",
+		'de-de': "Wailmer"
 	},
 
 	abilities: [
 		{
 			type: "Ability",
 			name: {
-				en: "Water Veil",
-				fr: "Ignifu-Voile",
-				es: "Velo Agua",
-				it: "Idrovelo",
-				pt: "Véu de Água",
-				de: "Aquahülle"
+				'en-us': "Water Veil",
+				'fr-fr': "Ignifu-Voile",
+				'es-es': "Velo Agua",
+				'it-it': "Idrovelo",
+				'pt-br': "Véu de Água",
+				'de-de': "Aquahülle"
 			},
 			effect: {
-				en: "Whenever you attach an Energy card from your hand to this Pokémon, it recovers from all Special Conditions.",
-				fr: "Chaque fois que vous attachez une carte Énergie de votre main à ce Pokémon, il guérit de tous les États Spéciaux.",
-				es: "Cada que vez que unas 1 carta de Energía de tu mano a este Pokémon, elimina todas sus Condiciones Especiales.",
-				it: "Ogni volta che assegni una carta Energia a questo Pokémon dalla tua mano, rimuovi tutte le condizioni speciali che lo influenzano.",
-				pt: "Sempre que você ligar um card de Energia da sua mão a este Pokémon, remova todas as Condições Especiais dele.",
-				de: "Jedes Mal, wenn du 1 Energiekarte von deiner Hand an dieses Pokémon anlegst, verlieren alle Speziellen Zustände auf diesem Pokémon ihre Wirkung."
+				'en-us': "Whenever you attach an Energy card from your hand to this Pokémon, it recovers from all Special Conditions.",
+				'fr-fr': "Chaque fois que vous attachez une carte Énergie de votre main à ce Pokémon, il guérit de tous les États Spéciaux.",
+				'es-es': "Cada que vez que unas 1 carta de Energía de tu mano a este Pokémon, elimina todas sus Condiciones Especiales.",
+				'it-it': "Ogni volta che assegni una carta Energia a questo Pokémon dalla tua mano, rimuovi tutte le condizioni speciali che lo influenzano.",
+				'pt-br': "Sempre que você ligar um card de Energia da sua mão a este Pokémon, remova todas as Condições Especiais dele.",
+				'de-de': "Jedes Mal, wenn du 1 Energiekarte von deiner Hand an dieses Pokémon anlegst, verlieren alle Speziellen Zustände auf diesem Pokémon ihre Wirkung."
 			},
 		},
 	],
@@ -63,20 +63,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Pump",
-				fr: "Hydrocanon",
-				es: "Hidrobomba",
-				it: "Idropompa",
-				pt: "Jato d'Água",
-				de: "Hydropumpe"
+				'en-us': "Hydro Pump",
+				'fr-fr': "Hydrocanon",
+				'es-es': "Hidrobomba",
+				'it-it': "Idropompa",
+				'pt-br': "Jato d'Água",
+				'de-de': "Hydropumpe"
 			},
 			effect: {
-				en: "This attack does 40 more damage for each Water Energy attached to this Pokémon.",
-				fr: "Cette attaque inflige 40 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
-				es: "Este ataque hace 40 puntos de daño más por cada Energía Water unida a este Pokémon.",
-				it: "Questo attacco infligge 40 danni in più per ogni Energia Water assegnata a questo Pokémon.",
-				pt: "Este ataque causa 40 pontos de dano a mais para cada Energia Water ligada a este Pokémon.",
-				de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Water-Energie 40 Schadenspunkte mehr zu."
+				'en-us': "This attack does 40 more damage for each Water Energy attached to this Pokémon.",
+				'fr-fr': "Cette attaque inflige 40 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+				'es-es': "Este ataque hace 40 puntos de daño más por cada Energía Water unida a este Pokémon.",
+				'it-it': "Questo attacco infligge 40 danni in più per ogni Energia Water assegnata a questo Pokémon.",
+				'pt-br': "Este ataque causa 40 pontos de dano a mais para cada Energia Water ligada a este Pokémon.",
+				'de-de': "Diese Attacke fügt für jede an dieses Pokémon angelegte Water-Energie 40 Schadenspunkte mehr zu."
 			},
 			damage: "10+",
 
@@ -97,7 +97,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It can sometimes knock out opponents with the shock created by breaching and crashing its big body onto the water."
+		'en-us': "It can sometimes knock out opponents with the shock created by breaching and crashing its big body onto the water."
 	},
 
 	variants: [

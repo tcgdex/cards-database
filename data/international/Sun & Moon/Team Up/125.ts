@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Meowth",
-		fr: "Miaouss",
-		es: "Meowth",
-		it: "Meowth",
-		pt: "Meowth",
-		de: "Mauzi"
+		'en-us': "Meowth",
+		'fr-fr': "Miaouss",
+		'es-es': "Meowth",
+		'it-it': "Meowth",
+		'pt-br': "Meowth",
+		'de-de': "Mauzi"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				es: "Arañazo",
-				it: "Graffio",
-				pt: "Arranhão",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'es-es': "Arañazo",
+				'it-it': "Graffio",
+				'pt-br': "Arranhão",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When visiting a junkyard, you may catch sight of it having an intense fight with Murkrow over shiny objects.",
+		'en-us': "When visiting a junkyard, you may catch sight of it having an intense fight with Murkrow over shiny objects.",
 	},
 
 	thirdParty: {

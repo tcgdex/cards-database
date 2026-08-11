@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vivillon",
-		fr: "Prismillon",
-		es: "Vivillon",
-		it: "Vivillon",
-		pt: "Vivillon",
-		de: "Vivillon"
+		'en-us': "Vivillon",
+		'fr-fr': "Prismillon",
+		'es-es': "Vivillon",
+		'it-it': "Vivillon",
+		'pt-br': "Vivillon",
+		'de-de': "Vivillon"
 	},
 
 	illustrator: "miki kudo",
@@ -21,42 +21,42 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Spewpa",
-		fr: "Pérégrain",
-		es: "Spewpa",
-		it: "Spewpa",
-		pt: "Spewpa",
-		de: "Puponcho"
+		'en-us': "Spewpa",
+		'fr-fr': "Pérégrain",
+		'es-es': "Spewpa",
+		'it-it': "Spewpa",
+		'pt-br': "Spewpa",
+		'de-de': "Puponcho"
 	},
 
 	attacks: [{
 		name: {
-			en: "Vital Powder",
-			fr: "Poudre Vitale",
-			es: "Polvo Vital",
-			it: "Pulviscoppio Vitale",
-			pt: "Pó Vital",
-			de: "Vitalpuder"
+			'en-us': "Vital Powder",
+			'fr-fr': "Poudre Vitale",
+			'es-es': "Polvo Vital",
+			'it-it': "Pulviscoppio Vitale",
+			'pt-br': "Pó Vital",
+			'de-de': "Vitalpuder"
 		},
 
 		effect: {
-			en: "Heal all damage from 2 of your Benched Pokémon.",
-			fr: "Soignez tous les dégâts de 2 de vos Pokémon de Banc.",
-			es: "Cura todos los puntos de daño a 2 de tus Pokémon en Banca.",
-			it: "Cura due dei tuoi Pokémon in panchina da tutti i danni.",
-			pt: "Cure todo o dano de 2 dos seus Pokémon no Banco.",
-			de: "Heile allen Schaden bei 2 Pokémon auf deiner Bank."
+			'en-us': "Heal all damage from 2 of your Benched Pokémon.",
+			'fr-fr': "Soignez tous les dégâts de 2 de vos Pokémon de Banc.",
+			'es-es': "Cura todos los puntos de daño a 2 de tus Pokémon en Banca.",
+			'it-it': "Cura due dei tuoi Pokémon in panchina da tutti i danni.",
+			'pt-br': "Cure todo o dano de 2 dos seus Pokémon no Banco.",
+			'de-de': "Heile allen Schaden bei 2 Pokémon auf deiner Bank."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Gust",
-			fr: "Tornade",
-			es: "Tornado",
-			it: "Raffica",
-			pt: "Lufada de Vento",
-			de: "Windstoß"
+			'en-us': "Gust",
+			'fr-fr': "Tornade",
+			'es-es': "Tornado",
+			'it-it': "Raffica",
+			'pt-br': "Lufada de Vento",
+			'de-de': "Windstoß"
 		},
 
 		damage: 90,
@@ -75,7 +75,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "The patterns on this Pokémon's wings depend on the climate and topography of its habitat. It scatters colorful scales."
+		'en-us': "The patterns on this Pokémon's wings depend on the climate and topography of its habitat. It scatters colorful scales."
 	},
 
 	variants: [

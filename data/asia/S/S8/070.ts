@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トゲデマル",
+		'ja-jp': "トゲデマル",
 		'zh-tw': "托戈德瑪爾",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "ピンチになると 体を 丸めて 背中の とげとげを 逆立てると でたらめに 電撃を 撃ちまくる。",
+		'ja-jp': "ピンチになると 体を 丸めて 背中の とげとげを 逆立てると でたらめに 電撃を 撃ちまくる。",
 		'zh-tw': "在危急時刻會把身體捲成一團、倒豎起背上的尖刺，不分青紅皂白地發出電擊。",
 	},
 
@@ -23,19 +23,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "みんなでころがる",
+				'ja-jp': "みんなでころがる",
 				'zh-tw': "一同滾動",
 			},
 			damage: "20×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチの、ワザ「みんなでころがる」を持つポケモンの数×20ダメージ。",
+				'ja-jp': "自分のベンチの、ワザ「みんなでころがる」を持つポケモンの数×20ダメージ。",
 				'zh-tw': "造成自己的備戰區的，持有「一同滾動」招式的寶可夢的數量×20點傷害。",
 			},
 		},
 		{
 			name: {
-				ja: "ボールアタック",
+				'ja-jp': "ボールアタック",
 				'zh-tw': "滾球攻擊",
 			},
 			damage: 50,

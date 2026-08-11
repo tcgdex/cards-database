@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Fuecoco",
-		fr: "Chochodile",
-		es: "Fuecoco",
-		it: "Fuecoco",
-		pt: "Fuecoco",
-		de: "Krokel"
+		'en-us': "Fuecoco",
+		'fr-fr': "Chochodile",
+		'es-es': "Fuecoco",
+		'it-it': "Fuecoco",
+		'pt-br': "Fuecoco",
+		'de-de': "Krokel"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Live Coal",
-			fr: "Charbon Mutant",
-			es: "Carbón Activado",
-			it: "Carboni Ardenti",
-			pt: "Carvão Vivo",
-			de: "Glühende Kohlen"
+			'en-us': "Live Coal",
+			'fr-fr': "Charbon Mutant",
+			'es-es': "Carbón Activado",
+			'it-it': "Carboni Ardenti",
+			'pt-br': "Carvão Vivo",
+			'de-de': "Glühende Kohlen"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 30
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
+		'en-us': "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Clobbopus"
+		'id-id': "Clobbopus"
 	},
 
 	illustrator: "Kedamahadaitai Yawarakai",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Clobbopus memiliki kecerdasan setingkat anak berusia tiga tahun. Tentakelnya sering putus tercabik, tapi Pokémon ini tidak peduli, karena tentakelnya akan tumbuh kembali."
+		'id-id': "Clobbopus memiliki kecerdasan setingkat anak berusia tiga tahun. Tentakelnya sering putus tercabik, tapi Pokémon ini tidak peduli, karena tentakelnya akan tumbuh kembali."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Feint"
+			'id-id': "Feint"
 		},
 
 		effect: {
-			id: "Kerusakan akibat serangan ini tidak terpengaruh oleh Resistansi."
+			'id-id': "Kerusakan akibat serangan ini tidak terpengaruh oleh Resistansi."
 		},
 
 		damage: 20,

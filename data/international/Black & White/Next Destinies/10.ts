@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Growlithe",
-		fr: "Caninos",
-		es: "Growlithe",
-		it: "Growlithe",
-		pt: "Growlithe",
-		de: "Fukano"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos",
+		'es-es': "Growlithe",
+		'it-it': "Growlithe",
+		'pt-br': "Growlithe",
+		'de-de': "Fukano"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stoke",
-				fr: "Attisement",
+				'en-us': "Stoke",
+				'fr-fr': "Attisement",
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your deck for a Fire Energy card and attach it to this Pokémon. Shuffle your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, cherchez une carte Énergie Fire dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
+				'en-us': "Flip a coin. If heads, search your deck for a Fire Energy card and attach it to this Pokémon. Shuffle your deck afterward.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cherchez une carte Énergie Fire dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Firebreathing",
-				fr: "Souffle-Feu",
+				'en-us': "Firebreathing",
+				'fr-fr': "Souffle-Feu",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 10,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "A Pokémon with a loyal nature, it will remain motionless until it is given an order by its Trainer.",
+		'en-us': "A Pokémon with a loyal nature, it will remain motionless until it is given an order by its Trainer.",
 	},
 
 	thirdParty: {

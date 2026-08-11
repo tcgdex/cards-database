@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [109],
 
 	name: {
-		en: "Koffing",
-		fr: "Smogo",
-		es: "Koffing",
-		it: "Koffing",
-		pt: "Koffing",
-		de: "Smogon"
+		'en-us': "Koffing",
+		'fr-fr': "Smogo",
+		'es-es': "Koffing",
+		'it-it': "Koffing",
+		'pt-br': "Koffing",
+		'de-de': "Smogon"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -24,12 +24,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Suffocating Gas",
-				fr: "Gaz Suffocant",
-				es: "Gas Sofocante",
-				it: "Gas Soffocante",
-				pt: "Gás Asfixiante",
-				de: "Würgegas"
+				'en-us': "Suffocating Gas",
+				'fr-fr': "Gaz Suffocant",
+				'es-es': "Gas Sofocante",
+				'it-it': "Gas Soffocante",
+				'pt-br': "Gás Asfixiante",
+				'de-de': "Würgegas"
 			},
 
 			damage: 10,
@@ -53,7 +53,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its body is full of poisonous gas. It floats into garbage dumps, seeking out the fumes of raw, rotting trash."
+		'en-us': "Its body is full of poisonous gas. It floats into garbage dumps, seeking out the fumes of raw, rotting trash."
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Azumarill δ",
-		fr: "Azumarill δ",
-		de: "Azumarill"
+		'en-us': "Azumarill δ",
+		'fr-fr': "Azumarill δ",
+		'de-de': "Azumarill"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -25,8 +25,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Marill",
-		fr: "Marill"
+		'en-us': "Marill",
+		'fr-fr': "Marill"
 	},
 
 	stage: "Stage1",
@@ -38,14 +38,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bubblebeam",
-				fr: "Bulle d'O",
-				de: "Blubbstrahl"
+				'en-us': "Bubblebeam",
+				'fr-fr': "Bulle d'O",
+				'de-de': "Blubbstrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -57,9 +57,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rolling Tackle",
-				fr: "Roulé-boulé",
-				de: "Rolltackle"
+				'en-us': "Rolling Tackle",
+				'fr-fr': "Roulé-boulé",
+				'de-de': "Rolltackle"
 			},
 
 			damage: 50,

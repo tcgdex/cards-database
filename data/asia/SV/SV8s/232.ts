@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Hydreigon ex"
+		'id-id': "Hydreigon ex"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -17,22 +17,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Crush Head"
+			'id-id': "Crush Head"
 		},
 
 		effect: {
-			id: "Buang 3 kartu dari atas Deck lawan ke Trash."
+			'id-id': "Buang 3 kartu dari atas Deck lawan ke Trash."
 		},
 
 		damage: 200,
 		cost: ["Darkness", "Colorless"]
 	}, {
 		name: {
-			id: "Obsidian"
+			'id-id': "Obsidian"
 		},
 
 		effect: {
-			id: "Serangan ini juga memberikan kerusakan masing-masing sejumlah 130 kepada 2 Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
+			'id-id': "Serangan ini juga memberikan kerusakan masing-masing sejumlah 130 kepada 2 Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
 		},
 
 		damage: 130,

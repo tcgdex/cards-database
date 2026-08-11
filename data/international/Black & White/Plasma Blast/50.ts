@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Machamp",
-		fr: "Mackogneur",
-		es: "Machamp",
-		it: "Machamp",
-		pt: "Machamp",
-		de: "Machomei"
+		'en-us': "Machamp",
+		'fr-fr': "Mackogneur",
+		'es-es': "Machamp",
+		'it-it': "Machamp",
+		'pt-br': "Machamp",
+		'de-de': "Machomei"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Machoke",
-		fr: "Machopeur",
+		'en-us': "Machoke",
+		'fr-fr': "Machopeur",
 	},
 
 	stage: "Stage2",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Off",
-				fr: "Sabotage",
+				'en-us': "Knock Off",
+				'fr-fr': "Sabotage",
 			},
 			effect: {
-				en: "Discard a random card from your opponent's hand.",
-				fr: "Défaussez au hasard une carte de la main de votre adversaire.",
+				'en-us': "Discard a random card from your opponent's hand.",
+				'fr-fr': "Défaussez au hasard une carte de la main de votre adversaire.",
 			},
 			damage: 60,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reinforced Lariat",
-				fr: "Bras Renforcés",
+				'en-us': "Reinforced Lariat",
+				'fr-fr': "Bras Renforcés",
 			},
 			effect: {
-				en: "If this Pokémon has a Pokémon Tool card attached to it, this attack does 40 more damage.",
-				fr: "Si une carte Outil Pokémon est attachée à ce Pokémon, cette attaque inflige 40 dégâts supplémentaires.",
+				'en-us': "If this Pokémon has a Pokémon Tool card attached to it, this attack does 40 more damage.",
+				'fr-fr': "Si une carte Outil Pokémon est attachée à ce Pokémon, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: 80,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its four muscled arms slam foes with powerful punches and chops at blinding speed.",
+		'en-us': "Its four muscled arms slam foes with powerful punches and chops at blinding speed.",
 	},
 
 	thirdParty: {

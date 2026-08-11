@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホウオウ",
+		'ja-jp': "ホウオウ",
 	},
 
 	illustrator: "Takumi Wada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "体は 七色に 輝き 飛んだあとは 虹が できると 神話に 残されている ポケモン。",
+		'ja-jp': "体は 七色に 輝き 飛んだあとは 虹が できると 神話に 残されている ポケモン。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "さいきのほのお" },
 			cost: ["Fire"],
 			effect: {
-				ja: "自分のトラッシュからたねポケモンを3枚まで選び、ベンチに出す。",
+				'ja-jp': "自分のトラッシュからたねポケモンを3枚まで選び、ベンチに出す。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Fire", "Fire", "Fire"],
 			effect: {
-				ja: "このポケモンについている[R]エネルギーを1個選び、トラッシュする。",
+				'ja-jp': "このポケモンについている[R]エネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Sneasel",
-		fr: "Farfuret",
-		es: "Sneasel",
-		it: "Sneasel",
-		pt: "Sneasel",
-		de: "Sniebel"
+		'en-us': "Sneasel",
+		'fr-fr': "Farfuret",
+		'es-es': "Sneasel",
+		'it-it': "Sneasel",
+		'pt-br': "Sneasel",
+		'de-de': "Sniebel"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-Attaque",
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-Attaque",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A smart and sneaky Pokémon, it makes its opponents flinch by suddenly showing the claws hidden in its paws.",
+		'en-us': "A smart and sneaky Pokémon, it makes its opponents flinch by suddenly showing the claws hidden in its paws.",
 	},
 
 	thirdParty: {

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Insécateur",
+		'fr-fr': "Insécateur",
 	},
 
 	rarity: "None",
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				fr: "Duo"
+				'fr-fr': "Duo"
 			},
 			effect: {
-				fr: "Cherchez jusqu'à 2 Insécateur dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck."
+				'fr-fr': "Cherchez jusqu'à 2 Insécateur dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck."
 			}
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				fr: "Hâte"
+				'fr-fr': "Hâte"
 			},
 			damage: 20,
 			effect: {
-				fr: "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire."
+				'fr-fr': "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire."
 			}
 		},
 	],

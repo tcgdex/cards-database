@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨクバリスV",
+		'ja-jp': "ヨクバリスV",
 		'zh-tw': "噴火龍",
 	},
 
@@ -18,13 +18,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かみくだく",
+				'ja-jp': "かみくだく",
 				'zh-tw': "王者火焰",
 			},
 			damage: 40,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
 				'zh-tw': "增加自己的棄牌區的「丹帝」的張數×50點傷害。",
 			},
 		},
@@ -33,7 +33,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
 			},
 		},
 	],

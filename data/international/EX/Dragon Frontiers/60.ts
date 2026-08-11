@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Ralts",
-		fr: "Tarsal",
-		de: "Trasla"
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal",
+		'de-de': "Trasla"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnosis",
-				fr: "Hypnose",
-				de: "Hypnose"
+				'en-us': "Hypnosis",
+				'fr-fr': "Hypnose",
+				'de-de': "Hypnose"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psychic Boom",
-				fr: "Psycho-boom",
-				de: "Psychoknall"
+				'en-us': "Psychic Boom",
+				'fr-fr': "Psycho-boom",
+				'de-de': "Psychoknall"
 			},
 			effect: {
-				en: "Does 10 damage times the amount of Energy attached to the Defending Pokémon.",
-				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées au Pokémon Défenseur.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte für jede Energie, die an das Verteidigende Pokémon angelegt ist, zu."
+				'en-us': "Does 10 damage times the amount of Energy attached to the Defending Pokémon.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées au Pokémon Défenseur.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte für jede Energie, die an das Verteidigende Pokémon angelegt ist, zu."
 			},
 			damage: "10x",
 

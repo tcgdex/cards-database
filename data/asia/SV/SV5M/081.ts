@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メルタン",
+		'ja-jp': "メルタン",
 		'zh-tw': "美錄坦",
-		th: "เมลตัน",
+		'th-th': "เมลตัน",
 	},
 
 	illustrator: "Masa",
@@ -15,9 +15,9 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "金属を 溶かして 食べてしまう。 液体金属を 循環させて 体内で エネルギーを つくる。",
+		'ja-jp': "金属を 溶かして 食べてしまう。 液体金属を 循環させて 体内で エネルギーを つくる。",
 		'zh-tw': "會溶解金屬然後吃掉。透過讓液體金屬在體內 循環來製造能量。",
-		th: "หลอมละลายโลหะแล้วกินเข้าไป ทำให้โลหะเหลวไหลเวียนไปทั่วร่างเพื่อสร้างพลังงานภายในร่างกาย",
+		'th-th': "หลอมละลายโลหะแล้วกินเข้าไป ทำให้โลหะเหลวไหลเวียนไปทั่วร่างเพื่อสร้างพลังงานภายในร่างกาย",
 	},
 
 	stage: "Basic",
@@ -25,9 +25,9 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ずつき",
+				'ja-jp': "ずつき",
 				'zh-tw': "頭錘",
-				th: "พุ่งหัวชน",
+				'th-th': "พุ่งหัวชน",
 			},
 			damage: 50,
 			cost: ["Metal", "Metal"],

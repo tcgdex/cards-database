@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Jungle'
 
 const card: Card = {
 	name: {
-		en: "Flareon",
-		fr: "Pyroli",
-		de: "Flamara"
+		'en-us': "Flareon",
+		'fr-fr': "Pyroli",
+		'de-de': "Flamara"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-attaque",
-				de: "Ruckzuckhieb"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-attaque",
+				'de-de': "Ruckzuckhieb"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 10 dégâts.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu; bei \"Zahl\" fügt dieser Angriff 10 Schaden zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 10 dégâts.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu; bei \"Zahl\" fügt dieser Angriff 10 Schaden zu."
 			},
 			damage: "10+",
 
@@ -57,14 +57,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-flammes",
-				de: "Flammenwurf"
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-flammes",
+				'de-de': "Flammenwurf"
 			},
 			effect: {
-				en: "Discard 1 Energy card attached to Flareon in order to use this attack.",
-				fr: "Défaussez 1 carte Énergie  attachée à Pyroli pour pouvoir utiliser cette attaque.",
-				de: "Entferne eine auf Flamara abgelegte -Energiekarte, um diesen Angriff auszuführen."
+				'en-us': "Discard 1 Energy card attached to Flareon in order to use this attack.",
+				'fr-fr': "Défaussez 1 carte Énergie  attachée à Pyroli pour pouvoir utiliser cette attaque.",
+				'de-de': "Entferne eine auf Flamara abgelegte -Energiekarte, um diesen Angriff auszuführen."
 			},
 			damage: 60,
 
@@ -81,8 +81,8 @@ const card: Card = {
 
 
 	description: {
-		en: "When storing thermal energy in its body, its temperature could soar to over 1600 degrees.",
-		fr: "Il peut accumuler suffisamment de chaleur pour atteindre des températures de 1600 degrés."
+		'en-us': "When storing thermal energy in its body, its temperature could soar to over 1600 degrees.",
+		'fr-fr': "Il peut accumuler suffisamment de chaleur pour atteindre des températures de 1600 degrés."
 	},
 
 

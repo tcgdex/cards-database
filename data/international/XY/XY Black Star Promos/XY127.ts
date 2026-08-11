@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Moltres",
-		fr: "Sulfura"
+		'en-us': "Moltres",
+		'fr-fr': "Sulfura"
 	},
 
 	illustrator: "OOYAMA",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Combustion",
-				fr: "Fournaise"
+				'en-us': "Combustion",
+				'fr-fr': "Fournaise"
 			},
 
 			damage: 20,
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flying Flare",
-				fr: "Flamboiement Volant"
+				'en-us': "Flying Flare",
+				'fr-fr': "Flamboiement Volant"
 			},
 			effect: {
-				en: "You may do 40 more damage. If you do, this Pokémon does 20 damage to itself.",
-				fr: "Vous pouvez infliger 40 dégâts supplémentaires. Dans ce cas, ce Pokémon s'inflige 20 dégâts."
+				'en-us': "You may do 40 more damage. If you do, this Pokémon does 20 damage to itself.",
+				'fr-fr': "Vous pouvez infliger 40 dégâts supplémentaires. Dans ce cas, ce Pokémon s'inflige 20 dégâts."
 			},
 			damage: "80+",
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "One of the legendary bird Pokémon. It is said that its appearance indicates the coming of spring.",
+		'en-us': "One of the legendary bird Pokémon. It is said that its appearance indicates the coming of spring.",
 	},
 
 	thirdParty: {

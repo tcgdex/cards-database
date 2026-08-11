@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "バネブー",
+		'ja-jp': "バネブー",
 		'zh-tw': "跳跳豬",
-		th: "บาเนบู",
-		id: "Spoink"
+		'th-th': "บาเนบู",
+		'id-id': "Spoink"
 	},
 
 	illustrator: "GOSSAN",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "飛び跳ねていないと 死んでしまう。 頭に 乗せている 真珠が サイコパワーを 増幅させるのだ。",
+		'ja-jp': "飛び跳ねていないと 死んでしまう。 頭に 乗せている 真珠が サイコパワーを 増幅させるのだ。",
 		'zh-tw': "如果不保持跳動就會死亡。戴在頭上的珍珠能讓 自己的精神力量增強。",
-		th: "ถ้าไม่กระโดดเด้งดึ๋งไปมาก็จะตาย ไข่มุกบนหัวจะช่วยขยายพลังจิตให้รุนแรงขึ้น",
-		id: "Spoink akan mati jika tidak melompat-lompat. Mutiara di kepala Pokémon ini meningkatkan kekuatan psikokinesisnya."
+		'th-th': "ถ้าไม่กระโดดเด้งดึ๋งไปมาก็จะตาย ไข่มุกบนหัวจะช่วยขยายพลังจิตให้รุนแรงขึ้น",
+		'id-id': "Spoink akan mati jika tidak melompat-lompat. Mutiara di kepala Pokémon ini meningkatkan kekuatan psikokinesisnya."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "はねる",
+			'ja-jp': "はねる",
 			'zh-tw': "躍起",
-			th: "ดิ้นกระแด่ว",
-			id: "Melompat"
+			'th-th': "ดิ้นกระแด่ว",
+			'id-id': "Melompat"
 		},
 
 		damage: 10
@@ -42,10 +42,10 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ぶつかる",
+			'ja-jp': "ぶつかる",
 			'zh-tw': "衝撞",
-			th: "กระแทก",
-			id: "Menyeruduk"
+			'th-th': "กระแทก",
+			'id-id': "Menyeruduk"
 		},
 
 		damage: 20

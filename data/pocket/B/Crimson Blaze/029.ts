@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [695],
 
 	name: {
-		en: "Heliolisk"
+		'en-us': "Heliolisk"
 	},
 
 	illustrator: "kawayoo",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Helioptile"
+		'en-us': "Helioptile"
 	},
 
 	description: {
-		en: "One Heliolisk basking in the sun with its frill\noutspread is all it would take to produce enough\nelectricity to power a city."
+		'en-us': "One Heliolisk basking in the sun with its frill\noutspread is all it would take to produce enough\nelectricity to power a city."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Thunderbolt"
+			'en-us': "Thunderbolt"
 		},
 
 		damage: 120,
 		cost: ["Lightning", "Lightning"],
 
 		effect: {
-			en: "Discard all Energy from this Pokémon."
+			'en-us': "Discard all Energy from this Pokémon."
 		}
 	}],
 

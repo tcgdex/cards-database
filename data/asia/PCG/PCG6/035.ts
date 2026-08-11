@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドラゴンエア（デルタ種）",
+		'ja-jp': "ドラゴンエア（デルタ種）",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "ツイスター",
+				'ja-jp': "ツイスター",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。両方が尾の場合、この攻撃は何もしません。それぞれの頭について、防御ポケモンに取り付けられたエネルギーを捨てます。",
+				'ja-jp': "2つのコインをフリップします。両方が尾の場合、この攻撃は何もしません。それぞれの頭について、防御ポケモンに取り付けられたエネルギーを捨てます。",
 			},
 			damage: 20,
 		},

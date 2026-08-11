@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メルメタル",
+		'ja-jp': "メルメタル",
 	},
 
 	illustrator: "TOKIYA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "鉄を 産み出す 力を 持つと 崇められていた。 ３０００年の 時を 経て なぜか 蘇った。",
+		'ja-jp': "鉄を 産み出す 力を 持つと 崇められていた。 ３０００年の 時を 経て なぜか 蘇った。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "メタルイーター" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札にある[鋼]ポケモンを1枚トラッシュする。その後、このポケモンのHPを「100」回復する。",
+				'ja-jp': "自分の番に1回使える。自分の手札にある[鋼]ポケモンを1枚トラッシュする。その後、このポケモンのHPを「100」回復する。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "メルタン",
+		'ja-jp': "メルタン",
 	},
 
 	retreat: 4,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イシツブテ",
+		'ja-jp': "イシツブテ",
 		'zh-tw': "小拳石",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "両手を 使い 険しい 崖を 登る。 その姿を 見た 人が ボルダリングを 始めたらしい。",
+		'ja-jp': "両手を 使い 険しい 崖を 登る。 その姿を 見た 人が ボルダリングを 始めたらしい。",
 		'zh-tw': "會用雙手攀登險峻的山崖。人們似乎是在目睹牠那姿態之後才開始了抱石攀岩運動。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ころがる",
+				'ja-jp': "ころがる",
 				'zh-tw': "滾動",
 			},
 			damage: 10,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "なぐる",
+				'ja-jp': "なぐる",
 				'zh-tw': "打擊",
 			},
 			damage: 20,

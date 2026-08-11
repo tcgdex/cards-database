@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Trapinch δ",
-		fr: "Kraknoix δ",
-		de: "Knacklion"
+		'en-us': "Trapinch δ",
+		'fr-fr': "Kraknoix δ",
+		'de-de': "Knacklion"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Rogne",
-				de: "Nagen"
+				'en-us': "Gnaw",
+				'fr-fr': "Rogne",
+				'de-de': "Nagen"
 			},
 
 			damage: 10,
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dig",
-				fr: "Tunnel",
-				de: "Schaufler"
+				'en-us': "Dig",
+				'fr-fr': "Tunnel",
+				'de-de': "Schaufler"
 			},
 
 			damage: 20,

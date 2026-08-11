@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ギモー",
+		'ja-jp': "ギモー",
 	},
 
 	illustrator: "Lee HyunJung",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "負の 感情を 吸い取って エネルギーにしている ポケモン。 マイナス思考の 人に 人気。",
+		'ja-jp': "負の 感情を 吸い取って エネルギーにしている ポケモン。 マイナス思考の 人に 人気。",
 	},
 
 	stage: "Stage1",
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ベロバー",
+		'ja-jp': "ベロバー",
 	},
 
 	retreat: 1,

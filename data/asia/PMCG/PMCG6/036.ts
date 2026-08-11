@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナツメのコダック",
+		'ja-jp': "ナツメのコダック",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "傷",
+				'ja-jp': "傷",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "ランダムなesp",
+				'ja-jp': "ランダムなesp",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。尾の場合、この攻撃には損傷がなく、サブリナのPsyduckは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。尾の場合、この攻撃には損傷がなく、サブリナのPsyduckは混乱しています。",
 			},
 			damage: 20,
 		},

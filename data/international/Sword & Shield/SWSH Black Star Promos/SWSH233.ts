@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Carapuce",
-		de: "Schiggy",
-		es: "Squirtle",
-		pt: "Squirtle",
-		it: "Squirtle",
-		en: "Squirtle"
+		'fr-fr': "Carapuce",
+		'de-de': "Schiggy",
+		'es-es': "Squirtle",
+		'pt-br': "Squirtle",
+		'it-it': "Squirtle",
+		'en-us': "Squirtle"
 	},
 
 	rarity: "Promo",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			fr: "Pistolet à O",
-			de: "Aquaknarre",
-			es: "Pistola Agua",
-			pt: "Revólver d'Água",
-			it: "Pistolacqua",
-			en: "Water Gun"
+			'fr-fr': "Pistolet à O",
+			'de-de': "Aquaknarre",
+			'es-es': "Pistola Agua",
+			'pt-br': "Revólver d'Água",
+			'it-it': "Pistolacqua",
+			'en-us': "Water Gun"
 		},
 
 		damage: 20
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "F",
 
 	description: {
-		en: "When it retracts its long neck into its shell, it squirts out water with vigorous force."
+		'en-us': "When it retracts its long neck into its shell, it squirts out water with vigorous force."
 	},
 
 	thirdParty: {

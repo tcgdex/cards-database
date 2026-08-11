@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [125],
 
 	name: {
-		en: "Electabuzz",
-		fr: "Élektek",
-		es: "Electabuzz",
-		it: "Electabuzz",
-		pt: "Electabuzz",
-		de: "Elektek"
+		'en-us': "Electabuzz",
+		'fr-fr': "Élektek",
+		'es-es': "Electabuzz",
+		'it-it': "Electabuzz",
+		'pt-br': "Electabuzz",
+		'de-de': "Elektek"
 	},
 
 	illustrator: "Midori Harada",
@@ -24,12 +24,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knuckle Punch",
-				fr: "Coud'Phalange",
-				es: "Puño con Nudillos",
-				it: "Noccapugno",
-				pt: "Soco com Punho",
-				de: "Knöchelhieb"
+				'en-us': "Knuckle Punch",
+				'fr-fr': "Coud'Phalange",
+				'es-es': "Puño con Nudillos",
+				'it-it': "Noccapugno",
+				'pt-br': "Soco com Punho",
+				'de-de': "Knöchelhieb"
 			},
 
 			damage: 10,
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electroslug",
-				fr: "Électro Frappe",
-				es: "Electropuñetazo",
-				it: "Elettropugno",
-				pt: "Lesma Elétrica",
-				de: "Elektroschuss"
+				'en-us': "Electroslug",
+				'fr-fr': "Électro Frappe",
+				'es-es': "Electropuñetazo",
+				'it-it': "Elettropugno",
+				'pt-br': "Lesma Elétrica",
+				'de-de': "Elektroschuss"
 			},
 
 			damage: 70,
@@ -71,7 +71,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "While it's often blamed for power outages, the truth is the cause of outages is more often an error on the part of the electric company."
+		'en-us': "While it's often blamed for power outages, the truth is the cause of outages is more often an error on the part of the electric company."
 	},
 
 	variants: [

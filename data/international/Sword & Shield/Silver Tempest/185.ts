@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lugia V",
-		fr: "Lugia V",
-		es: "Lugia V",
-		it: "Lugia V",
-		pt: "Lugia V",
-		de: "Lugia V"
+		'en-us': "Lugia V",
+		'fr-fr': "Lugia V",
+		'es-es': "Lugia V",
+		'it-it': "Lugia V",
+		'pt-br': "Lugia V",
+		'de-de': "Lugia V"
 	},
 
 	illustrator: "5ban Graphics",
@@ -26,41 +26,41 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Read the Wind",
-			fr: "Lecture des Vents",
-			es: "Leer el Viento",
-			it: "Leggivento",
-			pt: "Leitura dos Ventos",
-			de: "Winddeutung"
+			'en-us': "Read the Wind",
+			'fr-fr': "Lecture des Vents",
+			'es-es': "Leer el Viento",
+			'it-it': "Leggivento",
+			'pt-br': "Leitura dos Ventos",
+			'de-de': "Winddeutung"
 		},
 
 		effect: {
-			en: "Discard a card from your hand. If you do, draw 3 cards.",
-			fr: "Défaussez une carte de votre main. Dans ce cas, piochez 3 cartes.",
-			es: "Descarta 1 carta de tu mano. Si lo haces, roba 3 cartas.",
-			it: "Scarta una delle carte che hai in mano. Se lo fai, pesca tre carte.",
-			pt: "Descarte 1 carta da sua mão. Se fizer isto, compre 3 cartas.",
-			de: "Lege 1 Karte aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, ziehe 3 Karten."
+			'en-us': "Discard a card from your hand. If you do, draw 3 cards.",
+			'fr-fr': "Défaussez une carte de votre main. Dans ce cas, piochez 3 cartes.",
+			'es-es': "Descarta 1 carta de tu mano. Si lo haces, roba 3 cartas.",
+			'it-it': "Scarta una delle carte che hai in mano. Se lo fai, pesca tre carte.",
+			'pt-br': "Descarte 1 carta da sua mão. Se fizer isto, compre 3 cartas.",
+			'de-de': "Lege 1 Karte aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, ziehe 3 Karten."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Aero Dive",
-			fr: "Plongée Aérienne",
-			es: "Aerozambullida",
-			it: "Aerotuffo",
-			pt: "Mergulho Aéreo",
-			de: "Aero-Sturzflug"
+			'en-us': "Aero Dive",
+			'fr-fr': "Plongée Aérienne",
+			'es-es': "Aerozambullida",
+			'it-it': "Aerotuffo",
+			'pt-br': "Mergulho Aéreo",
+			'de-de': "Aero-Sturzflug"
 		},
 
 		effect: {
-			en: "You may discard a Stadium in play.",
-			fr: "Vous pouvez défausser un Stade en jeu.",
-			es: "Puedes descartar un Estadio en juego.",
-			it: "Puoi scartare una carta Stadio in gioco.",
-			pt: "Você pode descartar 1 Estádio em jogo.",
-			de: "Du kannst 1 Stadionkarte im Spiel auf den Ablagestapel legen."
+			'en-us': "You may discard a Stadium in play.",
+			'fr-fr': "Vous pouvez défausser un Stade en jeu.",
+			'es-es': "Puedes descartar un Estadio en juego.",
+			'it-it': "Puoi scartare una carta Stadio in gioco.",
+			'pt-br': "Você pode descartar 1 Estádio em jogo.",
+			'de-de': "Du kannst 1 Stadionkarte im Spiel auf den Ablagestapel legen."
 		},
 
 		damage: 130

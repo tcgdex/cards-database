@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	name: {
-		en: "Charizard VMAX",
-		fr: "Dracaufeu VMAX",
-		es: "Charizard VMAX",
-		it: "Charizard VMAX",
-		pt: "Charizard VMAX",
-		de: "Glurak VMAX"
+		'en-us': "Charizard VMAX",
+		'fr-fr': "Dracaufeu VMAX",
+		'es-es': "Charizard VMAX",
+		'it-it': "Charizard VMAX",
+		'pt-br': "Charizard VMAX",
+		'de-de': "Glurak VMAX"
 	},
 
 	illustrator: "aky CG Works",
@@ -23,12 +23,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charizard V",
-		fr: "Dracaufeu-V",
-		es: "Charizard V",
-		it: "Charizard-V",
-		pt: "Charizard V",
-		de: "Glurak-V"
+		'en-us': "Charizard V",
+		'fr-fr': "Dracaufeu-V",
+		'es-es': "Charizard V",
+		'it-it': "Charizard-V",
+		'pt-br': "Charizard V",
+		'de-de': "Glurak-V"
 	},
 
 	attacks: [
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Claw Slash",
-				fr: "Tranch'Griffe",
-				es: "Cuchillada Garra",
-				it: "Lacerartiglio",
-				pt: "Golpe de Garra",
-				de: "Klauenschlitzer"
+				'en-us': "Claw Slash",
+				'fr-fr': "Tranch'Griffe",
+				'es-es': "Cuchillada Garra",
+				'it-it': "Lacerartiglio",
+				'pt-br': "Golpe de Garra",
+				'de-de': "Klauenschlitzer"
 			},
 
 			damage: 100,
@@ -59,20 +59,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "G-Max Wildfire",
-				fr: "Fournaise G-Max",
-				es: "Gigallamarada",
-				it: "Gigavampa",
-				pt: "Queimada G-Max",
-				de: "Giga-Feuerflug"
+				'en-us': "G-Max Wildfire",
+				'fr-fr': "Fournaise G-Max",
+				'es-es': "Gigallamarada",
+				'it-it': "Gigavampa",
+				'pt-br': "Queimada G-Max",
+				'de-de': "Giga-Feuerflug"
 			},
 			effect: {
-				en: "Discard 2 Energy from this Pokémon.",
-				fr: "Défaussez 2 Énergies de ce Pokémon.",
-				es: "Descarta 2 Energías de este Pokémon.",
-				it: "Scarta due Energie da questo Pokémon.",
-				pt: "Descarte 2 Energias deste Pokémon.",
-				de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard 2 Energy from this Pokémon.",
+				'fr-fr': "Défaussez 2 Énergies de ce Pokémon.",
+				'es-es': "Descarta 2 Energías de este Pokémon.",
+				'it-it': "Scarta due Energie da questo Pokémon.",
+				'pt-br': "Descarte 2 Energias deste Pokémon.",
+				'de-de': "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 300,
 

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HGSS Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Raikou",
-		fr: "Raikou"
+		'en-us': "Raikou",
+		'fr-fr': "Raikou"
 	},
 	illustrator: "Noriko Hotta",
 	rarity: "Promo",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Zap Cannon",
-				fr: "Elecanon"
+				'en-us': "Zap Cannon",
+				'fr-fr': "Elecanon"
 			},
 			effect: {
-				en: "During your next turn, Raikou can't use Zap Cannon.",
-				fr: "Lors de votre prochain tour, Raikou ne pourra pas utiliser Elecanon."
+				'en-us': "During your next turn, Raikou can't use Zap Cannon.",
+				'fr-fr': "Lors de votre prochain tour, Raikou ne pourra pas utiliser Elecanon."
 			},
 			damage: 70,
 
@@ -55,7 +55,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The rain clouds it carries let it fire thunderbolts at will. They say that it descended with lightning."
+		'en-us': "The rain clouds it carries let it fire thunderbolts at will. They say that it descended with lightning."
 	},
 
 	variants: [

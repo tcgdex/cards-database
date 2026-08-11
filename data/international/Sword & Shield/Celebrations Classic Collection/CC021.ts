@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celebrations Classic Collection'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zekrom",
-		fr: "Zekrom"
+		'en-us': "Zekrom",
+		'fr-fr': "Zekrom"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,26 +19,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Outrage",
-			fr: "Broyeur de Terrain"
+			'en-us': "Outrage",
+			'fr-fr': "Broyeur de Terrain"
 		},
 
 		effect: {
-			en: "Does 10 more damage for each damage counter on this Pokémon.",
-			fr: "Si votre adversaire a un Stade en jeu, défaussez-le."
+			'en-us': "Does 10 more damage for each damage counter on this Pokémon.",
+			'fr-fr': "Si votre adversaire a un Stade en jeu, défaussez-le."
 		},
 
 		damage: "20+",
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Bolt Strike",
-			fr: "Tonnerre Blanc"
+			'en-us': "Bolt Strike",
+			'fr-fr': "Tonnerre Blanc"
 		},
 
 		effect: {
-			en: "This Pokémon does 40 damage to itself.",
-			fr: "Si Reshiram est sur votre Banc, cette attaque inflige 80 dégâts supplémentaires."
+			'en-us': "This Pokémon does 40 damage to itself.",
+			'fr-fr': "Si Reshiram est sur votre Banc, cette attaque inflige 80 dégâts supplémentaires."
 		},
 
 		damage: 120,
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity."
+		'en-us': "This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity."
 	},
 
 

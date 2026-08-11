@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Xatu",
-		fr: "Xatu"
+		'en-us': "Xatu",
+		'fr-fr': "Xatu"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -18,27 +18,27 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Natu"
+		'en-us': "Natu"
 	},
 
 	description: {
-		en: "They say that it stays still and quiet because it is\nseeing both the past and future at the same time.",
-		fr: "On dit qu'il reste immobile et silencieux parce qu'il observe simultanément le passé et le futur."
+		'en-us': "They say that it stays still and quiet because it is\nseeing both the past and future at the same time.",
+		'fr-fr': "On dit qu'il reste immobile et silencieux parce qu'il observe simultanément le passé et le futur."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Life Drain",
-			fr: "Perte d'Énergie"
+			'en-us': "Life Drain",
+			'fr-fr': "Perte d'Énergie"
 		},
 
 		cost: ["Psychic", "Psychic"],
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon's remaining HP is now 10.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire a maintenant 10 PV restants."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon's remaining HP is now 10.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire a maintenant 10 PV restants."
 		}
 	}],
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Stufful",
-		fr: "Nounourson",
-		es: "Stufful",
-		it: "Stufful",
-		pt: "Stufful",
-		de: "Velursi"
+		'en-us': "Stufful",
+		'fr-fr': "Nounourson",
+		'es-es': "Stufful",
+		'it-it': "Stufful",
+		'pt-br': "Stufful",
+		'de-de': "Velursi"
 	},
 
 	illustrator: "Sekio",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Baby-Doll Eyes",
-				fr: "Regard Touchant",
-				es: "Ojitos Tiernos",
-				it: "Occhioni Teneri",
-				pt: "Olhos Ternos",
-				de: "Kulleraugen"
+				'en-us': "Baby-Doll Eyes",
+				'fr-fr': "Regard Touchant",
+				'es-es': "Ojitos Tiernos",
+				'it-it': "Occhioni Teneri",
+				'pt-br': "Olhos Ternos",
+				'de-de': "Kulleraugen"
 			},
 			effect: {
-				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
-				es: "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
-				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-				pt: "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
-				de: "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can’t retreat during your opponent’s next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'es-es': "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
+				'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+				'pt-br': "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
+				'de-de': "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Despite its adorable appearance, when it gets angry and flails about, its arms and legs could knock a pro wrestler sprawling.",
+		'en-us': "Despite its adorable appearance, when it gets angry and flails about, its arms and legs could knock a pro wrestler sprawling.",
 	},
 
 	thirdParty: {

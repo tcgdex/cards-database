@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "金星",
+		'ja-jp': "金星",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "収穫賞金",
+				'ja-jp': "収穫賞金",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前に）一度、ターンの一環としてアクティブなPokmonにエネルギーカードを添付すると、そのPokmonに追加のエネルギーカードを同時に添付することができます。金星が特別な状態の影響を受けている場合、この力は使用できません。",
+				'ja-jp': "ターン中（攻撃の前に）一度、ターンの一環としてアクティブなPokmonにエネルギーカードを添付すると、そのPokmonに追加のエネルギーカードを同時に添付することができます。金星が特別な状態の影響を受けている場合、この力は使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Grass", "Colorless", "Colorless"],
 			name: {
-				ja: "ボディスラム",
+				'ja-jp': "ボディスラム",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 40,
 		},

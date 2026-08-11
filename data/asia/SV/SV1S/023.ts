@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カイデン",
+		'ja-jp': "カイデン",
 		'zh-tw': "電海燕",
-		th: "ไคเด็น",
-		id: "Wattrel"
+		'th-th': "ไคเด็น",
+		'id-id': "Wattrel"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "翼の 骨は 風を 受けると 電気を 作る。 海に 飛び込み 獲物を 感電させて 捕らえる。",
+		'ja-jp': "翼の 骨は 風を 受けると 電気を 作る。 海に 飛び込み 獲物を 感電させて 捕らえる。",
 		'zh-tw': "當翅膀的骨頭受到風吹時，就能製造出電力。會衝進 海裡讓獵物觸電後將其捕獲。",
-		th: "กระดูกที่ปีกจะผลิตกระแสไฟฟ้าเมื่อได้รับลม จะดำดิ่งลงสู่ทะเลเพื่อจับเหยื่อด้วยการช็อตด้วยไฟฟ้า",
-		id: "Kerangka sayap Wattrel menciptakan listrik jika menerima angin. Pokémon ini terjun ke laut, menyetrum mangsa, dan menangkapnya."
+		'th-th': "กระดูกที่ปีกจะผลิตกระแสไฟฟ้าเมื่อได้รับลม จะดำดิ่งลงสู่ทะเลเพื่อจับเหยื่อด้วยการช็อตด้วยไฟฟ้า",
+		'id-id': "Kerangka sayap Wattrel menciptakan listrik jika menerima angin. Pokémon ini terjun ke laut, menyetrum mangsa, dan menangkapnya."
 	},
 
 	stage: "Basic",
@@ -31,26 +31,26 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "もってくる",
+			'ja-jp': "もってくる",
 			'zh-tw': "呼喚",
-			th: "รวบรวม",
-			id: "Mengumpulkan"
+			'th-th': "รวบรวม",
+			'id-id': "Mengumpulkan"
 		},
 
 		effect: {
-			ja: "自分の山札を1枚引く。",
+			'ja-jp': "自分の山札を1枚引く。",
 			'zh-tw': "從自己的牌庫抽出1張卡。",
-			th: "จั่วการ์ด 1 ใบจากสำรับการ์ดฝ่ายเรา",
-			id: "Ambil 1 kartu dari atas Deck sendiri."
+			'th-th': "จั่วการ์ด 1 ใบจากสำรับการ์ดฝ่ายเรา",
+			'id-id': "Ambil 1 kartu dari atas Deck sendiri."
 		}
 	}, {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			ja: "かっくう",
+			'ja-jp': "かっくう",
 			'zh-tw': "滑翔",
-			th: "ถลาลม",
-			id: "Melayang Rendah"
+			'th-th': "ถลาลม",
+			'id-id': "Melayang Rendah"
 		},
 
 		damage: 20

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gogoat"
+		'en-us': "Gogoat"
 	},
 
 	illustrator: "sowsow",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Skiddo"
+		'en-us': "Skiddo"
 	},
 
 	description: {
-		en: "These Pokémon live in herds in mountainous\nplaces. The victor in their contests of clashing\nhorns will become the leader of the herd."
+		'en-us': "These Pokémon live in herds in mountainous\nplaces. The victor in their contests of clashing\nhorns will become the leader of the herd."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Double-Edge"
+			'en-us': "Double-Edge"
 		},
 
 		damage: 100,
 		cost: ["Grass", "Grass", "Colorless"],
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself."
+			'en-us': "This Pokémon also does 20 damage to itself."
 		}
 	}],
 

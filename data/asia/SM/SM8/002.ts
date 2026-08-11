@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チコリータ",
+		'ja-jp': "チコリータ",
 	},
 
 	illustrator: "Aya Kusube",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "頭の 葉っぱで まわりの 温度や 湿度を 探る。 日差しを 浴びることが 大好き。",
+		'ja-jp': "頭の 葉っぱで まわりの 温度や 湿度を 探る。 日差しを 浴びることが 大好き。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "こうごうせい" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある[草]エネルギーを1枚、自分のポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札にある[草]エネルギーを1枚、自分のポケモンにつける。そして山札を切る。",
 			},
 		},
 		{

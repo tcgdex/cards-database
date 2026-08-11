@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HS trainer Kit (Gyarados)'
 
 const card: Card = {
 	name: {
-		en: "Marill",
+		'en-us': "Marill",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,10 +22,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Splash",
+				'en-us': "Water Splash",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
 			},
 			damage: "10+",
 		},
@@ -36,7 +36,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Slap",
+				'en-us': "Tail Slap",
 			},
 			damage: 30,
 		},

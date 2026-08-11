@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Terracool",
-		en: "Toedscool",
-		es: "Toedscool",
-		it: "Toedscool",
-		pt: "Toedscool",
-		de: "Tentagra"
+		'fr-fr': "Terracool",
+		'en-us': "Toedscool",
+		'es-es': "Toedscool",
+		'it-it': "Toedscool",
+		'pt-br': "Toedscool",
+		'de-de': "Tentagra"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			fr: "Coud'Pattes",
-			en: "Smash Kick",
-			es: "Patada Destrucción",
-			it: "Calcio Esplosivo",
-			pt: "Chute Poderoso",
-			de: "Schmetterkick"
+			'fr-fr': "Coud'Pattes",
+			'en-us': "Smash Kick",
+			'es-es': "Patada Destrucción",
+			'it-it': "Calcio Esplosivo",
+			'pt-br': "Chute Poderoso",
+			'de-de': "Schmetterkick"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Coud'Boue",
-			en: "Mud-Slap",
-			es: "Bofetón Lodo",
-			it: "Fangosberla",
-			pt: "Tapa de Lama",
-			de: "Lehmschelle"
+			'fr-fr': "Coud'Boue",
+			'en-us': "Mud-Slap",
+			'es-es': "Bofetón Lodo",
+			'it-it': "Fangosberla",
+			'pt-br': "Tapa de Lama",
+			'de-de': "Lehmschelle"
 		},
 
 		damage: 20
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Toedscool lives in muggy forests. The flaps that fall from its body are chewy and very delicious.",
+		'en-us': "Toedscool lives in muggy forests. The flaps that fall from its body are chewy and very delicious.",
 	},
 
 	variants: [

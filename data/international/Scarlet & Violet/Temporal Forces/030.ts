@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Victini",
-		fr: "Victini",
-		es: "Victini",
-		it: "Victini",
-		pt: "Victini",
-		de: "Victini"
+		'en-us': "Victini",
+		'fr-fr': "Victini",
+		'es-es': "Victini",
+		'it-it': "Victini",
+		'pt-br': "Victini",
+		'de-de': "Victini"
 	},
 
 	rarity: "Common",
@@ -24,41 +24,41 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Flippity Flap",
-			fr: "Flip Flap",
-			es: "Aleteo Repentino",
-			it: "Batti e Ribatti",
-			pt: "Bater de Asas",
-			de: "Großes Flattern"
+			'en-us': "Flippity Flap",
+			'fr-fr': "Flip Flap",
+			'es-es': "Aleteo Repentino",
+			'it-it': "Batti e Ribatti",
+			'pt-br': "Bater de Asas",
+			'de-de': "Großes Flattern"
 		},
 
 		effect: {
-			en: "Shuffle your hand into your deck. Then, draw 6 cards.",
-			fr: "Mélangez votre main avec votre deck. Ensuite, piochez 6 cartes.",
-			es: "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 6 cartas.",
-			it: "Rimischia le carte che hai in mano nel tuo mazzo. Poi pesca sei carte.",
-			pt: "Embaralhe a sua mão no seu baralho. Em seguida, compre 6 cartas.",
-			de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 6 Karten."
+			'en-us': "Shuffle your hand into your deck. Then, draw 6 cards.",
+			'fr-fr': "Mélangez votre main avec votre deck. Ensuite, piochez 6 cartes.",
+			'es-es': "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 6 cartas.",
+			'it-it': "Rimischia le carte che hai in mano nel tuo mazzo. Poi pesca sei carte.",
+			'pt-br': "Embaralhe a sua mão no seu baralho. Em seguida, compre 6 cartas.",
+			'de-de': "Mische deine Handkarten in dein Deck. Ziehe anschließend 6 Karten."
 		}
 	}, {
 		cost: ["Fire"],
 
 		name: {
-			en: "Singe Off",
-			fr: "Retrait Roussi",
-			es: "Chamuscar",
-			it: "Bruciacchiare",
-			pt: "Calcinar",
-			de: "Absengen"
+			'en-us': "Singe Off",
+			'fr-fr': "Retrait Roussi",
+			'es-es': "Chamuscar",
+			'it-it': "Bruciacchiare",
+			'pt-br': "Calcinar",
+			'de-de': "Absengen"
 		},
 
 		effect: {
-			en: "Discard a Special Energy from your opponent's Active Pokémon.",
-			fr: "Défaussez une Énergie spéciale du Pokémon Actif de votre adversaire.",
-			es: "Descarta 1 Energía Especial del Pokémon Activo de tu rival.",
-			it: "Scarta un'Energia speciale dal Pokémon attivo del tuo avversario.",
-			pt: "Descarte uma Energia Especial do Pokémon Ativo do seu oponente.",
-			de: "Lege 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+			'en-us': "Discard a Special Energy from your opponent's Active Pokémon.",
+			'fr-fr': "Défaussez une Énergie spéciale du Pokémon Actif de votre adversaire.",
+			'es-es': "Descarta 1 Energía Especial del Pokémon Activo de tu rival.",
+			'it-it': "Scarta un'Energia speciale dal Pokémon attivo del tuo avversario.",
+			'pt-br': "Descarte uma Energia Especial do Pokémon Ativo do seu oponente.",
+			'de-de': "Lege 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 30
@@ -74,7 +74,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
+		'en-us': "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
 	},
 
 	variants: [

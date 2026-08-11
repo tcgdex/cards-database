@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Oddish δ",
-		fr: "Mystherbe δ",
-		de: "Myrapla"
+		'en-us': "Oddish δ",
+		'fr-fr': "Mystherbe δ",
+		'de-de': "Myrapla"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -44,14 +44,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Blot",
-				fr: "Pâté",
-				de: "Klecks"
+				'en-us': "Blot",
+				'fr-fr': "Pâté",
+				'de-de': "Klecks"
 			},
 			effect: {
-				en: "Remove 2 damage counters from Oddish.",
-				fr: "Retirez à Mystherbe 2 marqueurs de dégât.",
-				de: "Entferne 2 Schadensmarken von Myrapla."
+				'en-us': "Remove 2 damage counters from Oddish.",
+				'fr-fr': "Retirez à Mystherbe 2 marqueurs de dégât.",
+				'de-de': "Entferne 2 Schadensmarken von Myrapla."
 			},
 			damage: 10,
 

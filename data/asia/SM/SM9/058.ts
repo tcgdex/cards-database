@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カブト",
+		'ja-jp': "カブト",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "３億年前に 栄えた ポケモン。 とある 地方では 今でも まれに 生きた 姿が 見られると 言う。",
+		'ja-jp': "３億年前に 栄えた ポケモン。 とある 地方では 今でも まれに 生きた 姿が 見られると 言う。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Fighting"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。",
 			},
 		},
 	],

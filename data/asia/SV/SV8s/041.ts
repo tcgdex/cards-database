@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Spheal",
-		th: "ทามาซาราชิ"
+		'id-id': "Spheal",
+		'th-th': "ทามาซาราชิ"
 	},
 
 	illustrator: "Teeziro",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Tubuh Spheal yang sangat bulat diselimuti oleh lemak yang tebal. Pokémon ini lebih cepat menggelinding daripada berjalan.",
-		th: "ร่างกายที่ถูกห่อหุ้มด้วยชั้นไขมันหนานั้นกลมปุ๊กได้อย่างน่าทึ่ง กลิ้งตัวได้ ไวกว่าเดิน"
+		'id-id': "Tubuh Spheal yang sangat bulat diselimuti oleh lemak yang tebal. Pokémon ini lebih cepat menggelinding daripada berjalan.",
+		'th-th': "ร่างกายที่ถูกห่อหุ้มด้วยชั้นไขมันหนานั้นกลมปุ๊กได้อย่างน่าทึ่ง กลิ้งตัวได้ ไวกว่าเดิน"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Bubuk Salju",
-			th: "ผงหิมะ"
+			'id-id': "Bubuk Salju",
+			'th-th': "ผงหิมะ"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur.",
-			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[หลับ]"
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur.",
+			'th-th': "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[หลับ]"
 		},
 
 		damage: 10,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Squirtle",
-		fr: "Carapuce",
-		de: "Schiggy"
+		'en-us': "Squirtle",
+		'fr-fr': "Carapuce",
+		'de-de': "Schiggy"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Headbutt"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Headbutt"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Bubblebeam",
-				fr: "Bulles d'O",
-				de: "Bubblebeam"
+				'en-us': "Bubblebeam",
+				'fr-fr': "Bulles d'O",
+				'de-de': "Bubblebeam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 

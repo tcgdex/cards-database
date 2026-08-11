@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Yanmega E4",
-		fr: "Yanmega  Niv. 49",
-		de: "Yanmega 4"
+		'en-us': "Yanmega E4",
+		'fr-fr': "Yanmega  Niv. 49",
+		'de-de': "Yanmega 4"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -27,14 +27,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Skill Dive",
-				fr: "Plongeon contrôlé",
-				de: "Geübter Sturzflug"
+				'en-us': "Skill Dive",
+				'fr-fr': "Plongeon contrôlé",
+				'de-de': "Geübter Sturzflug"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
-				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
+				'de-de': "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlwind",
-				fr: "Cyclone",
-				de: "Wirbelwind"
+				'en-us': "Whirlwind",
+				'fr-fr': "Cyclone",
+				'de-de': "Wirbelwind"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
-				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
+				'de-de': "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 50,
 

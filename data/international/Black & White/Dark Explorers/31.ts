@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Tympole",
-		fr: "Tritonde",
-		es: "Tympole",
-		it: "Tympole",
-		pt: "Tympole",
-		de: "Schallquap"
+		'en-us': "Tympole",
+		'fr-fr': "Tritonde",
+		'es-es': "Tympole",
+		'it-it': "Tympole",
+		'pt-br': "Tympole",
+		'de-de': "Schallquap"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spiral Drain",
-				fr: "Spirale Épuisante"
+				'en-us': "Spiral Drain",
+				'fr-fr': "Spirale Épuisante"
 			},
 			effect: {
-				en: "Heal 20 damage from this Pokémon.",
-				fr: "Soignez 20 dégâts à ce Pokémon."
+				'en-us': "Heal 20 damage from this Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à ce Pokémon."
 			},
 			damage: 20,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They warn other of danger by vibrating their cheeks to create a high-pitched sound.",
+		'en-us': "They warn other of danger by vibrating their cheeks to create a high-pitched sound.",
 	},
 
 	thirdParty: {

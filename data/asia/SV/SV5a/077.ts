@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カジッチュ"
+		'ja-jp': "カジッチュ"
 	},
 
 	illustrator: "Katsunori Sato",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "りんごの 中で 暮らしている。 りんごが なくなると 体の 水分が 抜けて 弱ってしまう。"
+		'ja-jp': "りんごの 中で 暮らしている。 りんごが なくなると 体の 水分が 抜けて 弱ってしまう。"
 	},
 
 	stage: "Basic",
@@ -24,17 +24,17 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ともだちをさがす"
+			'ja-jp': "ともだちをさがす"
 		},
 
 		effect: {
-			ja: "自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。"
+			'ja-jp': "自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。"
 		}
 	}, {
 		cost: ["Grass", "Fire"],
 
 		name: {
-			ja: "ころがりタックル"
+			'ja-jp': "ころがりタックル"
 		},
 
 		damage: 30

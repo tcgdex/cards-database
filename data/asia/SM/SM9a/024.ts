@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グライオン",
+		'ja-jp': "グライオン",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "尻尾で 木の枝に ぶら下がり 獲物を 観察する。 すきを 見て 上空から 襲いかかる。",
+		'ja-jp': "尻尾で 木の枝に ぶら下がり 獲物を 観察する。 すきを 見て 上空から 襲いかかる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "もってくる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を3枚引く。",
+				'ja-jp': "自分の山札を3枚引く。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "グライガー",
+		'ja-jp': "グライガー",
 	},
 
 	retreat: 1,

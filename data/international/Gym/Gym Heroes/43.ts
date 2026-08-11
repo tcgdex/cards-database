@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Exeggcute"
+		'en-us': "Erika's Exeggcute"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Deflector"
+				'en-us': "Deflector"
 			},
 			effect: {
-				en: "During your opponent's next turn, whenever Erika's Exeggcute takes damage, divide that damage in half (rounded down to the nearest 10). (Any other effects still happen.)"
+				'en-us': "During your opponent's next turn, whenever Erika's Exeggcute takes damage, divide that damage in half (rounded down to the nearest 10). (Any other effects still happen.)"
 			},
 
 		},
@@ -40,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Egg Bomb"
+				'en-us': "Egg Bomb"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing to the Defending Pokémon and Erika's Exeggcute does 20 damage to itself."
+				'en-us': "Flip a coin. If tails, this attack does nothing to the Defending Pokémon and Erika's Exeggcute does 20 damage to itself."
 			},
 
 		},

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin Trainer Gallery"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		es: "Pikachu",
-		it: "Pikachu",
-		pt: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'es-es': "Pikachu",
+		'it-it': "Pikachu",
+		'pt-br': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	illustrator: "Atsushi Furusawa",
@@ -25,21 +25,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Pika Dash",
-			fr: "Pika Ruée",
-			es: "Pika Carrera",
-			it: "Pikascatto",
-			pt: "Arremetida Pikachu",
-			de: "Pikaspurt"
+			'en-us': "Pika Dash",
+			'fr-fr': "Pika Ruée",
+			'es-es': "Pika Carrera",
+			'it-it': "Pikascatto",
+			'pt-br': "Arremetida Pikachu",
+			'de-de': "Pikaspurt"
 		},
 
 		effect: {
-			en: "If this Pokémon has any Energy attached, it has no Retreat Cost.",
-			fr: "Si de l'Énergie est attachée à ce Pokémon, il n'a pas de Coût de Retraite.",
-			es: "Si este Pokémon tiene alguna Energía unida a él, no tiene ningún Coste de Retirada.",
-			it: "Se questo Pokémon ha delle Energie assegnate, non ha costo di ritirata.",
-			pt: "Se este Pokémon tiver alguma Energia ligada a ele, não terá custo de Recuo.",
-			de: "Wenn an dieses Pokémon mindestens 1 Energie angelegt ist, hat es keine Rückzugskosten."
+			'en-us': "If this Pokémon has any Energy attached, it has no Retreat Cost.",
+			'fr-fr': "Si de l'Énergie est attachée à ce Pokémon, il n'a pas de Coût de Retraite.",
+			'es-es': "Si este Pokémon tiene alguna Energía unida a él, no tiene ningún Coste de Retirada.",
+			'it-it': "Se questo Pokémon ha delle Energie assegnate, non ha costo di ritirata.",
+			'pt-br': "Se este Pokémon tiver alguma Energia ligada a ele, não terá custo de Recuo.",
+			'de-de': "Wenn an dieses Pokémon mindestens 1 Energie angelegt ist, hat es keine Rückzugskosten."
 		}
 	}],
 
@@ -47,21 +47,21 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			en: "Whimsy Tackle",
-			fr: "Charge Bizarre",
-			es: "Placaje Caprichoso",
-			it: "Capriccioazione",
-			pt: "Investida Fantástica",
-			de: "Launischer Tackle"
+			'en-us': "Whimsy Tackle",
+			'fr-fr': "Charge Bizarre",
+			'es-es': "Placaje Caprichoso",
+			'it-it': "Capriccioazione",
+			'pt-br': "Investida Fantástica",
+			'de-de': "Launischer Tackle"
 		},
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-			pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
-			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+			'pt-br': "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+			'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 		},
 
 		damage: 50

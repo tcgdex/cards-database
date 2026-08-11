@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ディンルーex"
+		'ja-jp': "ディンルーex"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -19,11 +19,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "じゅばくのだいち"
+			'ja-jp': "じゅばくのだいち"
 		},
 
 		effect: {
-			ja: "このポケモンがバトル場にいるかぎり、相手の場のダメカンがのっているポケモン（ポケモンexをのぞく）の特性は、すべてなくなる。"
+			'ja-jp': "このポケモンがバトル場にいるかぎり、相手の場のダメカンがのっているポケモン（ポケモンexをのぞく）の特性は、すべてなくなる。"
 		}
 	}],
 
@@ -31,13 +31,13 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Fighting"],
 
 		name: {
-			ja: "ランドスクープ"
+			'ja-jp': "ランドスクープ"
 		},
 
 		damage: 150,
 
 		effect: {
-			ja: "相手のベンチポケモン1匹に、ダメカンを2個のせる。"
+			'ja-jp': "相手のベンチポケモン1匹に、ダメカンを2個のせる。"
 		}
 	}],
 

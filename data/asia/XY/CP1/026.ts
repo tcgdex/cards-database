@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグマポインター",
+		'ja-jp': "マグマポインター",
 	},
 
 	illustrator: "Toyste Beach",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけている「マグマ団」のポケモンは、このカードに書かれているワザを使える。［ワザを使うためのエネルギーは必要。］",
+		'ja-jp': "このカードをつけている「マグマ団」のポケモンは、このカードに書かれているワザを使える。［ワザを使うためのエネルギーは必要。］",
 	},
 
 	attacks: [
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "マグマポインター" },
 			cost: ["Fighting"],
 			effect: {
-				ja: "相手のポケモンを1匹選び、20ダメージ。［ベンチは弱点・抵抗力の計算をしない。］",
+				'ja-jp': "相手のポケモンを1匹選び、20ダメージ。［ベンチは弱点・抵抗力の計算をしない。］",
 			},
 		},
 	],

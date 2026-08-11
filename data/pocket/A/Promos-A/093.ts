@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Promos-A"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cleffa"
+		'en-us': "Cleffa"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "According to local rumors, Cleffa are often seen\nin places where shooting stars have fallen."
+		'en-us': "According to local rumors, Cleffa are often seen\nin places where shooting stars have fallen."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Twinkly Call"
+			'en-us': "Twinkly Call"
 		},
 
 		effect: {
-			en: "Put a random Pokémon from your deck into your hand."
+			'en-us': "Put a random Pokémon from your deck into your hand."
 		}
 	}],
 

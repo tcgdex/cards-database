@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Jynx δ",
-		fr: "Lippoutou δ",
-		de: "Rossana"
+		'en-us': "Jynx δ",
+		'fr-fr': "Lippoutou δ",
+		'de-de': "Rossana"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Stages of Evolution",
-				fr: "Niveaux d'Évolution",
-				de: "Stufen der Evolution"
+				'en-us': "Stages of Evolution",
+				'fr-fr': "Niveaux d'Évolution",
+				'de-de': "Stufen der Evolution"
 			},
 			effect: {
-				en: "As long as Jynx is an Evolved Pokémon, you pay Colorless less to retreat your Fire and Psychic Pokémon.",
-				fr: "Tant que Lippoutou est un Pokémon Évolué, vous payez 1  de moins pour faire battre en retraite vos Pokémon  et .",
-				de: "Solange Rossana ein entwickeltes Pokémon ist, kostet dich der Rückzug von deinen - und -Pokémon  weniger"
+				'en-us': "As long as Jynx is an Evolved Pokémon, you pay Colorless less to retreat your Fire and Psychic Pokémon.",
+				'fr-fr': "Tant que Lippoutou est un Pokémon Évolué, vous payez 1  de moins pour faire battre en retraite vos Pokémon  et .",
+				'de-de': "Solange Rossana ein entwickeltes Pokémon ist, kostet dich der Rückzug von deinen - und -Pokémon  weniger"
 			},
 		},
 	],
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Punch",
-				fr: "Poing de feu",
-				de: "Feuerschlag"
+				'en-us': "Fire Punch",
+				'fr-fr': "Poing de feu",
+				'de-de': "Feuerschlag"
 			},
 
 			damage: 30,

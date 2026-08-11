@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Charizard",
-		fr: "Dracaufeu",
-		de: "Glurak"
+		'en-us': "Charizard",
+		'fr-fr': "Dracaufeu",
+		'de-de': "Glurak"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,18 +22,18 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmeleon",
-		fr: "Reptincel"
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel"
 	},
 
 	abilities: [
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Miracle Shift",
+				'en-us': "Miracle Shift",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), discard a basic Energy card attached to 1 of your Pokémon. Then, choose a basic Energy card from your discard pile and attach it to that Pokémon. This power can't be used if Togetic is affected by a Special Condition.",
+				'en-us': "Once during your turn (before your attack), discard a basic Energy card attached to 1 of your Pokémon. Then, choose a basic Energy card from your discard pile and attach it to that Pokémon. This power can't be used if Togetic is affected by a Special Condition.",
 			},
 		},
 	],
@@ -46,15 +46,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Tail Smash",
-				fr: "Éclate-queue",
-				de: "Schwanzschmetterer"
+				'en-us': "Tail Smash",
+				'fr-fr': "Éclate-queue",
+				'de-de': "Schwanzschmetterer"
 			},
 
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei Zahl hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'de-de': "Wirf eine Münze. Bei Zahl hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 40,
@@ -66,14 +66,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-flammes",
-				de: "Flammenwurf"
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-flammes",
+				'de-de': "Flammenwurf"
 			},
 			effect: {
-				en: "Discard 1 Fire Energy card attached to Charizard.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Dracaufeu.",
-				de: "Lege 1 an Glurak angelegte  Energiekarte auf deinen Ablagestapel."
+				'en-us': "Discard 1 Fire Energy card attached to Charizard.",
+				'fr-fr': "Défaussez-vous d'une carte Énergie  attachée à Dracaufeu.",
+				'de-de': "Lege 1 an Glurak angelegte  Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 60,
 

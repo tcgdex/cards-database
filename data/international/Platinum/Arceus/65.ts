@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Geodude",
-		de: "Kleinstein"
+		'en-us': "Geodude",
+		'de-de': "Kleinstein"
 	},
 
 	illustrator: "Motofumi Fujiwara",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Stone Barrage",
-				de: "Fels-Stakkato"
+				'en-us': "Stone Barrage",
+				'de-de': "Fels-Stakkato"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
-				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
+				'de-de': "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "10×",
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "At rest, it looks just like a rock. Carelessly stepping on it will make it swing its fists angrily."
+		'en-us': "At rest, it looks just like a rock. Carelessly stepping on it will make it swing its fists angrily."
 	},
 
 	variants: [

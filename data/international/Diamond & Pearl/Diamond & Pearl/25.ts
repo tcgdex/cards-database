@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Dustox",
-		fr: "Papinox",
-		de: "Pudox"
+		'en-us': "Dustox",
+		'fr-fr': "Papinox",
+		'de-de': "Pudox"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cascoon",
-		fr: "Blindalys",
+		'en-us': "Cascoon",
+		'fr-fr': "Blindalys",
 	},
 
 	stage: "Stage2",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stun Spore",
-				fr: "Para-spore",
-				de: "Stachelspore"
+				'en-us': "Stun Spore",
+				'fr-fr': "Para-spore",
+				'de-de': "Stachelspore"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Müntze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Müntze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -57,14 +57,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Toxic Dust",
-				fr: "Poussière toxik",
-				de: "Giftstaub"
+				'en-us': "Toxic Dust",
+				'fr-fr': "Poussière toxik",
+				'de-de': "Giftstaub"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf das Verteidigende Pokémon"
+				'en-us': "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf das Verteidigende Pokémon"
 			},
 			damage: 50,
 
@@ -81,8 +81,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A nocturnal Pokémon. Drawn by streetlights, they messily eat the leaves of trees lining boulevards.",
-		fr: "Ce Pokémon nocturne est attiré par les lueurs de la ville et aime les feuilles des arbres urbains."
+		'en-us': "A nocturnal Pokémon. Drawn by streetlights, they messily eat the leaves of trees lining boulevards.",
+		'fr-fr': "Ce Pokémon nocturne est attiré par les lueurs de la ville et aime les feuilles des arbres urbains."
 	},
 
 	thirdParty: {

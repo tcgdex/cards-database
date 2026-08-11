@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワタッコ",
+		'ja-jp': "ワタッコ",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "どんな 風に あおられても 綿毛を 自在に 操って 世界の 好きなところへ 行ける。",
+		'ja-jp': "どんな 風に あおられても 綿毛を 自在に 操って 世界の 好きなところへ 行ける。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Grass"],
 			effect: {
-				ja: "自分のロストゾーンにあるポケモン（♢（プリズムスター）をのぞく）の枚数x20ダメージ。",
+				'ja-jp': "自分のロストゾーンにあるポケモン（♢（プリズムスター）をのぞく）の枚数x20ダメージ。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ポポッコ",
+		'ja-jp': "ポポッコ",
 	},
 
 	retreat: 0,

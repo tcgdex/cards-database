@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Dark Blastoise"
+		'en-us': "Dark Blastoise"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wartortle"
+		'en-us': "Wartortle"
 	},
 
 	stage: "Stage2",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Hydrocannon"
+				'en-us': "Hydrocannon"
 			},
 			effect: {
-				en: "Does 30 damage plus 20 more damage for each Water Energy attached to Dark Blastoise but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way."
+				'en-us': "Does 30 damage plus 20 more damage for each Water Energy attached to Dark Blastoise but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way."
 			},
 			damage: "30+",
 
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rocket Tackle"
+				'en-us': "Rocket Tackle"
 			},
 			effect: {
-				en: "Dark Blastoise does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Dark Blastoise during your opponent's next turn. (Any other effects of attacks still happen.)"
+				'en-us': "Dark Blastoise does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Dark Blastoise during your opponent's next turn. (Any other effects of attacks still happen.)"
 			},
 			damage: 40,
 
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "An aggressive Pokémon that tackles anything it sees."
+		'en-us': "An aggressive Pokémon that tackles anything it sees."
 	},
 
 	variants: [

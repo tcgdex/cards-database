@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Entei",
-		fr: "Entei",
-		es: "Entei",
-		it: "Entei",
-		pt: "Entei",
-		de: "Entei"
+		'en-us': "Entei",
+		'fr-fr': "Entei",
+		'es-es': "Entei",
+		'it-it': "Entei",
+		'pt-br': "Entei",
+		'de-de': "Entei"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rally Back",
-				fr: "Répercussions",
-				es: "Apoyo Vengativo",
-				it: "Radunata Rinforzi",
-				pt: "Responder à Altura",
-				de: "Aufholjagd"
+				'en-us': "Rally Back",
+				'fr-fr': "Répercussions",
+				'es-es': "Apoyo Vengativo",
+				'it-it': "Radunata Rinforzi",
+				'pt-br': "Responder à Altura",
+				'de-de': "Aufholjagd"
 			},
 			effect: {
-				en: "If any of your Pokémon were Knocked Out by damage from an opponent’s attack during their last turn, this attack does 90 more damage.",
-				fr: "Si l’un de vos Pokémon a été mis K.O. par les dégâts d’une attaque de votre adversaire pendant son dernier tour, cette attaque inflige 90 dégâts supplémentaires.",
-				es: "Si alguno de tus Pokémon quedó Fuera de Combate por el daño de un ataque de tu rival durante su último turno, este ataque hace 90 puntos de daño más.",
-				it: "Se uno qualsiasi dei tuoi Pokémon è stato messo KO dai danni inflitti da un attacco del tuo avversario durante il suo ultimo turno, questo attacco infligge 90 danni in più.",
-				pt: "Se algum dos seus Pokémon tiver sido Nocauteado pelo dano de um ataque do seu oponente durante a última vez dele(a) jogar, este ataque causará 90 pontos de dano a mais.",
-				de: "Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke kampfunfähig wurde, fügt diese Attacke 90 Schadenspunkte mehr zu."
+				'en-us': "If any of your Pokémon were Knocked Out by damage from an opponent’s attack during their last turn, this attack does 90 more damage.",
+				'fr-fr': "Si l’un de vos Pokémon a été mis K.O. par les dégâts d’une attaque de votre adversaire pendant son dernier tour, cette attaque inflige 90 dégâts supplémentaires.",
+				'es-es': "Si alguno de tus Pokémon quedó Fuera de Combate por el daño de un ataque de tu rival durante su último turno, este ataque hace 90 puntos de daño más.",
+				'it-it': "Se uno qualsiasi dei tuoi Pokémon è stato messo KO dai danni inflitti da un attacco del tuo avversario durante il suo ultimo turno, questo attacco infligge 90 danni in più.",
+				'pt-br': "Se algum dos seus Pokémon tiver sido Nocauteado pelo dano de um ataque do seu oponente durante a última vez dele(a) jogar, este ataque causará 90 pontos de dano a mais.",
+				'de-de': "Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke kampfunfähig wurde, fügt diese Attacke 90 Schadenspunkte mehr zu."
 			},
 			damage: "30+",
 
@@ -60,12 +60,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Mane",
-				fr: "Crinière de Feu",
-				es: "Crin de Fuego",
-				it: "Criniera di Fuoco",
-				pt: "Crina de Fogo",
-				de: "Flammenmähne"
+				'en-us': "Fire Mane",
+				'fr-fr': "Crinière de Feu",
+				'es-es': "Crin de Fuego",
+				'it-it': "Criniera di Fuoco",
+				'pt-br': "Crina de Fogo",
+				'de-de': "Flammenmähne"
 			},
 
 			damage: 100,
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A Pokémon that races across the land. It is said that one is born every time a new volcano appears.",
+		'en-us': "A Pokémon that races across the land. It is said that one is born every time a new volcano appears.",
 	},
 
 	thirdParty: {

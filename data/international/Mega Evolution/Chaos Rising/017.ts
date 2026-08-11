@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Its instinct is to bury itself in holes. It often steals the nesting holes of others to sleep in them.",
+		'en-us': "Its instinct is to bury itself in holes. It often steals the nesting holes of others to sleep in them.",
 	},
 
 
 	name: {
-		en: "Octillery",
-		fr: "Octillery",
-		es: "Octillery",
+		'en-us': "Octillery",
+		'fr-fr': "Octillery",
+		'es-es': "Octillery",
 		'es-mx': "Octillery",
-		de: "Octillery",
-		it: "Octillery",
-		pt: "Octillery"
+		'de-de': "Octillery",
+		'it-it': "Octillery",
+		'pt-br': "Octillery"
 	},
 
 	illustrator: "matazo",
@@ -27,56 +27,56 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Remoraid"
+		'en-us': "Remoraid"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Jet of Ink",
-			fr: "Jet d'Encre",
-			es: "Chorro de Tinta",
+			'en-us': "Jet of Ink",
+			'fr-fr': "Jet d'Encre",
+			'es-es': "Chorro de Tinta",
 			'es-mx': "Chorro de Tinta",
-			de: "Hochdrucktinte",
-			it: "Getto d'Inchiostro",
-			pt: "Jato de Tinta"
+			'de-de': "Hochdrucktinte",
+			'it-it': "Getto d'Inchiostro",
+			'pt-br': "Jato de Tinta"
 		},
 
 		cost: ["Water"],
 		damage: 30,
 
 		effect: {
-			en: "During your opponent's next turn, if the Defending Pokémon tries to use an attack, your opponent flips 2 coins. If either of them is tails, that attack doesn't happen.",
-			fr: "Pendant le prochain tour de votre adversaire, si le Pokémon Défenseur essaie d'utiliser une attaque, votre adversaire lance 2 pièces. Si au moins un côté pile est obtenu, l'attaque n'est pas lancée.",
-			es: "Durante el próximo turno de tu rival, si el Pokémon Defensor intenta usar un ataque, tu rival lanza 2 monedas. Si sale alguna cruz, ese ataque no se lleva a cabo.",
+			'en-us': "During your opponent's next turn, if the Defending Pokémon tries to use an attack, your opponent flips 2 coins. If either of them is tails, that attack doesn't happen.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, si le Pokémon Défenseur essaie d'utiliser une attaque, votre adversaire lance 2 pièces. Si au moins un côté pile est obtenu, l'attaque n'est pas lancée.",
+			'es-es': "Durante el próximo turno de tu rival, si el Pokémon Defensor intenta usar un ataque, tu rival lanza 2 monedas. Si sale alguna cruz, ese ataque no se lleva a cabo.",
 			'es-mx': "Durante el próximo turno de tu rival, si el Pokémon Defensor intenta usar un ataque, tu rival lanza 2 monedas. Si sale alguna cruz, ese ataque no se realiza.",
-			de: "Wenn das Verteidigende Pokémon während des nächsten Zuges deines Gegners versucht, eine Attacke einzusetzen, wirft dein Gegner 2 Münzen. Zeigt mindestens 1 Zahl, wird jene Attacke nicht ausgeführt.",
-			it: "Durante il prossimo turno del tuo avversario, se il Pokémon difensore prova a usare un attacco, il tuo avversario lancia due volte una moneta. Se esce almeno una volta croce, quell'attacco non ha luogo.",
-			pt: "Durante o próximo turno do seu oponente, se o Pokémon Defensor tentar usar um ataque, seu oponente jogará 2 moedas. Se qualquer uma delas sair coroa, aquele ataque não acontecerá."
+			'de-de': "Wenn das Verteidigende Pokémon während des nächsten Zuges deines Gegners versucht, eine Attacke einzusetzen, wirft dein Gegner 2 Münzen. Zeigt mindestens 1 Zahl, wird jene Attacke nicht ausgeführt.",
+			'it-it': "Durante il prossimo turno del tuo avversario, se il Pokémon difensore prova a usare un attacco, il tuo avversario lancia due volte una moneta. Se esce almeno una volta croce, quell'attacco non ha luogo.",
+			'pt-br': "Durante o próximo turno do seu oponente, se o Pokémon Defensor tentar usar um ataque, seu oponente jogará 2 moedas. Se qualquer uma delas sair coroa, aquele ataque não acontecerá."
 		}
 	}, {
 		name: {
-			en: "Tantrum",
-			fr: "Mauvaise Humeur",
-			es: "Rabieta",
+			'en-us': "Tantrum",
+			'fr-fr': "Mauvaise Humeur",
+			'es-es': "Rabieta",
 			'es-mx': "Rabieta",
-			de: "Rappel",
-			it: "Collera",
-			pt: "Petulância"
+			'de-de': "Rappel",
+			'it-it': "Collera",
+			'pt-br': "Petulância"
 		},
 
 		cost: ["Water", "Colorless"],
 		damage: 120,
 
 		effect: {
-			en: "This Pokémon is now Confused.",
-			fr: "Ce Pokémon est maintenant Confus.",
-			es: "Este Pokémon pasa a estar Confundido.",
+			'en-us': "This Pokémon is now Confused.",
+			'fr-fr': "Ce Pokémon est maintenant Confus.",
+			'es-es': "Este Pokémon pasa a estar Confundido.",
 			'es-mx': "Este Pokémon ahora está Confundido.",
-			de: "Dieses Pokémon ist jetzt verwirrt.",
-			it: "Questo Pokémon viene confuso.",
-			pt: "Este Pokémon agora está Confuso."
+			'de-de': "Dieses Pokémon ist jetzt verwirrt.",
+			'it-it': "Questo Pokémon viene confuso.",
+			'pt-br': "Este Pokémon agora está Confuso."
 		}
 	}],
 

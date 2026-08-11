@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パワータブレット",
+		'ja-jp': "パワータブレット",
 		'zh-tw': "強力糖錠",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "この番、自分の「フュージョン」のポケモンが使うワザの、相手のバトルポケモンへのダメージは「+30」される。",
+		'ja-jp': "この番、自分の「フュージョン」のポケモンが使うワザの、相手のバトルポケモンへのダメージは「+30」される。",
 		'zh-tw': "在這個回合，自己的「匯流」寶可夢使用的招式，對對手的戰鬥寶可夢造成的傷害「+30」點。",
 	},
 

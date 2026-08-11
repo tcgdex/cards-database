@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エネコロロ",
+		'ja-jp': "エネコロロ",
 	},
 
 	illustrator: "buchi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "汚い 場所が 大嫌い。 居心地の 良い 場所で いつも 毛並みを 手入れしている。",
+		'ja-jp': "汚い 場所が 大嫌い。 居心地の 良い 場所で いつも 毛並みを 手入れしている。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "40×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のポケモン全員についているエネルギーの数×40ダメージ。",
+				'ja-jp': "相手のポケモン全員についているエネルギーの数×40ダメージ。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "エネコ",
+		'ja-jp': "エネコ",
 	},
 
 	retreat: 1,

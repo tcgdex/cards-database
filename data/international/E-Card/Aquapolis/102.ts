@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Ponyta",
-		fr: "Ponyta",
-		de: "Ponita"
+		'en-us': "Ponyta",
+		'fr-fr': "Ponyta",
+		'de-de': "Ponita"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ember",
-				fr: "Flammèche",
-				de: "Glut"
+				'en-us': "Ember",
+				'fr-fr': "Flammèche",
+				'de-de': "Glut"
 			},
 			effect: {
-				en: "Discard a Fire Energy card attached to Ponyta.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Ponyta.",
-				de: "Lege 1 an Ponita angelegte -Energiekarte auf deinen Ablagestapel."
+				'en-us': "Discard a Fire Energy card attached to Ponyta.",
+				'fr-fr': "Défaussez-vous d'une carte Énergie  attachée à Ponyta.",
+				'de-de': "Lege 1 an Ponita angelegte -Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 30,
 

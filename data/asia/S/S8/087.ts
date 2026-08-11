@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ココガラ",
+		'ja-jp': "ココガラ",
 		'zh-tw': "稚山雀",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "小さい 体で 機敏に 飛んで 隙を 突く 戦法で 体の 大きな 相手を 手玉に取る。",
+		'ja-jp': "小さい 体で 機敏に 飛んで 隙を 突く 戦法で 体の 大きな 相手を 手玉に取る。",
 		'zh-tw': "嬌小的體型讓牠能敏捷地飛翔。攻其不備的戰法將體型巨大的對手玩弄於股掌之間。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "みだれづき",
+				'ja-jp': "みだれづき",
 				'zh-tw': "亂擊",
 			},
 			damage: "10×",
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数×10ダメージ。",
+				'ja-jp': "コインを3回投げ、オモテの数×10ダメージ。",
 				'zh-tw': "擲3次硬幣，造成正面出現的次數×10點傷害。",
 			},
 		},

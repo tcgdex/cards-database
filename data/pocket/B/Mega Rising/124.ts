@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hitmonchan ex"
+		'en-us': "Hitmonchan ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -20,14 +20,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Quick Straight"
+			'en-us': "Quick Straight"
 		},
 
 		damage: 50,
 		cost: ["Fighting"],
 
 		effect: {
-			en: "This attack's damage isn't affected by Weakness."
+			'en-us': "This attack's damage isn't affected by Weakness."
 		}
 	}],
 

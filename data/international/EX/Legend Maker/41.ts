@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legend Maker'
 
 const card: Card = {
 	name: {
-		en: "Nuzleaf",
-		fr: "Pifeuil",
-		de: "Blanas"
+		'en-us': "Nuzleaf",
+		'fr-fr': "Pifeuil",
+		'de-de': "Blanas"
 	},
 
 	illustrator: "Katsura Tabata",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Seedot",
-		fr: "Grainipiot"
+		'en-us': "Seedot",
+		'fr-fr': "Grainipiot"
 	},
 
 	stage: "Stage1",
@@ -36,9 +36,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'face",
-				de: "Pfund"
+				'en-us': "Pound",
+				'fr-fr': "Écras'face",
+				'de-de': "Pfund"
 			},
 
 			damage: 20,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Plunder",
-				fr: "Pillage",
-				de: "Plündern"
+				'en-us': "Plunder",
+				'fr-fr': "Pillage",
+				'de-de': "Plündern"
 			},
 			effect: {
-				en: "Before doing damage, discard all Trainer cards attached to the Defending Pokémon.",
-				fr: "Avant d'infliger des dégâts, défaussez toutes les cartes Dresseur attachées au Pokémon Défenseur.",
-				de: "Bevor der Schaden zugefügt wird, lege alle an dem Verteidigendem Pokémon angelegten Trainerkarten auf den Ablagestapel."
+				'en-us': "Before doing damage, discard all Trainer cards attached to the Defending Pokémon.",
+				'fr-fr': "Avant d'infliger des dégâts, défaussez toutes les cartes Dresseur attachées au Pokémon Défenseur.",
+				'de-de': "Bevor der Schaden zugefügt wird, lege alle an dem Verteidigendem Pokémon angelegten Trainerkarten auf den Ablagestapel."
 			},
 			damage: 30,
 

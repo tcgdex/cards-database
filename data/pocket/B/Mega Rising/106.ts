@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Jirachi"
+		'en-us': "Jirachi"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "It is said to have the ability to grant any wish for\njust one week every thousand years."
+		'en-us': "It is said to have the ability to grant any wish for\njust one week every thousand years."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Star Drop"
+			'en-us': "Star Drop"
 		},
 
 		cost: ["Psychic"],
 
 		effect: {
-			en: "This attack does 30 damage to 1 of your opponent's Pokémon."
+			'en-us': "This attack does 30 damage to 1 of your opponent's Pokémon."
 		}
 	}],
 

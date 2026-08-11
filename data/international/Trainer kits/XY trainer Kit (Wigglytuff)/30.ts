@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY trainer Kit (Wigglytuff)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wigglytuff",
-		fr: "Grodoudou",
-		es: "Wigglytuff",
-		it: "Wigglytuff",
-		pt: "Wigglytuff",
-		de: "Knuddeluff"
+		'en-us': "Wigglytuff",
+		'fr-fr': "Grodoudou",
+		'es-es': "Wigglytuff",
+		'it-it': "Wigglytuff",
+		'pt-br': "Wigglytuff",
+		'de-de': "Knuddeluff"
 	},
 
 	rarity: "Rare",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Fairy"],
 
 	evolveFrom: {
-		en: "Jigglypuff",
-		fr: "Rondoudou",
-		es: "Jigglypuff",
-		it: "Jigglypuff",
-		pt: "Jigglypuff",
-		de: "Pummeluff"
+		'en-us': "Jigglypuff",
+		'fr-fr': "Rondoudou",
+		'es-es': "Jigglypuff",
+		'it-it': "Jigglypuff",
+		'pt-br': "Jigglypuff",
+		'de-de': "Pummeluff"
 	},
 
 	stage: "Stage1",

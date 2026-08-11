@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Articuno",
+		'en-us': "Articuno",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Beam",
+				'en-us': "Ice Beam",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 50,
 
@@ -47,7 +47,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Wing",
+				'en-us': "Ice Wing",
 			},
 
 			damage: 80,
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A legendary bird Pokémon. It can create blizzards by freezing moisture in the air.",
+		'en-us': "A legendary bird Pokémon. It can create blizzards by freezing moisture in the air.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ネクロズマ たそがれのたてがみGX",
+		'ja-jp': "ネクロズマ たそがれのたてがみGX",
 	},
 
 	illustrator: "",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 220,
 			cost: ["Metal", "Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、3個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、3個トラッシュする。",
 			},
 		},
 		{
@@ -33,7 +33,7 @@ const card: Card = {
 			damage: 250,
 			cost: ["Metal", "Metal", "Metal"],
 			effect: {
-				ja: "このワザは、自分のサイドの残り枚数が、相手より多いときにしか使えない。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "このワザは、自分のサイドの残り枚数が、相手より多いときにしか使えない。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

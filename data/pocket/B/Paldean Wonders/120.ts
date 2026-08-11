@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
     set: Set,
 
     name: {
-		en: "Pawmo",
-		fr: "Pohmotte",
-		es: "Pawmo",
+		'en-us': "Pawmo",
+		'fr-fr': "Pohmotte",
+		'es-es': "Pawmo",
 		'es-mx': "Pawmo",
-		de: "Pamamo",
-		it: "Pawmo",
-		pt: "Pawmo"
+		'de-de': "Pamamo",
+		'it-it': "Pawmo",
+		'pt-br': "Pawmo"
     },
 
     illustrator: "whomor Inc.",
@@ -23,13 +23,13 @@ const card: Card = {
     dexId: [922],
     
     evolveFrom: {
-		en: "Pawmi",
-		fr: "Pohm",
-		es: "Pawmi",
-		it: "Pawmi",
-		de: "Pamo",
+		'en-us': "Pawmi",
+		'fr-fr': "Pohm",
+		'es-es': "Pawmi",
+		'it-it': "Pawmi",
+		'de-de': "Pamo",
 		'pt-br': "Pawmi",
-		ko: "빠모"
+		'ko-kr': "빠모"
     },
     stage: "Stage1",
 
@@ -40,12 +40,12 @@ const card: Card = {
     attacks: [
         { 
 		name: {
-			en: "Head Bolt",
-			fr: "Éclair Frontal",
-			de: "Kopf-Blitz",
-			it: "Zuccalampo",
-			es: "Rayo de Cabeza",
-			pt: "Raio de Cabeça",
+			'en-us': "Head Bolt",
+			'fr-fr': "Éclair Frontal",
+			'de-de': "Kopf-Blitz",
+			'it-it': "Zuccalampo",
+			'es-es': "Rayo de Cabeza",
+			'pt-br': "Raio de Cabeça",
 			'es-mx': "Rayo Capital"
 		},
         damage: 30,

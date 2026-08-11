@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2021'
 
 const card: Card = {
 	dexId: [816],
 	name: {
-		en: "Sobble",
-		fr: "Larméléon",
+		'en-us': "Sobble",
+		'fr-fr': "Larméléon",
 	},
 
 	illustrator: "Mizue",
@@ -27,12 +27,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bind",
-				fr: "Étreinte",
+				'en-us': "Bind",
+				'fr-fr': "Étreinte",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 			damage: 20,
 
@@ -49,7 +49,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won’t be able to resist weeping."
+		'en-us': "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won’t be able to resist weeping."
 	},
 	variants: [
 		{

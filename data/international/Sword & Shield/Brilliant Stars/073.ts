@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Nosepass",
-		fr: "Tarinor",
-		es: "Nosepass",
-		it: "Nosepass",
-		pt: "Nosepass",
-		de: "Nasgnet"
+		'en-us': "Nosepass",
+		'fr-fr': "Tarinor",
+		'es-es': "Nosepass",
+		'it-it': "Nosepass",
+		'pt-br': "Nosepass",
+		'de-de': "Nasgnet"
 	},
 
 	illustrator: "miki kudo",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 20
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It hunts without twitching a muscle by pulling in its prey with powerful magnetism. But sometimes it pulls natural enemies in close.",
+		'en-us': "It hunts without twitching a muscle by pulling in its prey with powerful magnetism. But sometimes it pulls natural enemies in close.",
 	},
 
 	variants: [

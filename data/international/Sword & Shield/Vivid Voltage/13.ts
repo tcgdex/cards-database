@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [290],
 
 	name: {
-		en: "Nincada",
-		fr: "Ningale",
-		es: "Nincada",
-		it: "Nincada",
-		pt: "Nincada",
-		de: "Nincada"
+		'en-us': "Nincada",
+		'fr-fr': "Ningale",
+		'es-es': "Nincada",
+		'it-it': "Nincada",
+		'pt-br': "Nincada",
+		'de-de': "Nincada"
 	},
 
 	illustrator: "Sekio",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Absorb",
-				fr: "Vole-Vie",
-				es: "Absorber",
-				it: "Assorbimento",
-				pt: "Absorção",
-				de: "Absorber"
+				'en-us': "Absorb",
+				'fr-fr': "Vole-Vie",
+				'es-es': "Absorber",
+				'it-it': "Assorbimento",
+				'pt-br': "Absorção",
+				'de-de': "Absorber"
 			},
 			effect: {
-				en: "Heal 10 damage from this Pokémon.",
-				fr: "Soignez 10 dégâts de ce Pokémon.",
-				es: "Cura 10 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 10 danni.",
-				pt: "Cure 10 pontos de dano deste Pokémon.",
-				de: "Heile 10 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 10 damage from this Pokémon.",
+				'fr-fr': "Soignez 10 dégâts de ce Pokémon.",
+				'es-es': "Cura 10 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 10 danni.",
+				'pt-br': "Cure 10 pontos de dano deste Pokémon.",
+				'de-de': "Heile 10 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 10,
 
@@ -63,7 +63,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Because it lived almost entirely underground, it is nearly blind. It uses its antennae instead."
+		'en-us': "Because it lived almost entirely underground, it is nearly blind. It uses its antennae instead."
 	},
 
 	variants: [

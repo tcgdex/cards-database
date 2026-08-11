@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Manectric",
-		fr: "Élecsprint",
-		es: "Manectric",
-		it: "Manectric",
-		pt: "Manectric",
-		de: "Voltenso"
+		'en-us': "Manectric",
+		'fr-fr': "Élecsprint",
+		'es-es': "Manectric",
+		'it-it': "Manectric",
+		'pt-br': "Manectric",
+		'de-de': "Voltenso"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Electrike",
-		fr: "Dynavolt",
+		'en-us': "Electrike",
+		'fr-fr': "Dynavolt",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Energy Assist",
-				fr: "Assistance Énergétique",
+				'en-us': "Energy Assist",
+				'fr-fr': "Assistance Énergétique",
 			},
 			effect: {
-				en: "Attach 2 basic Energy cards from your discard pile to 1 of your Benched Pokémon.",
-				fr: "Attachez 2 cartes Énergie de base de votre pile de défausse à 1 de vos Pokémon de Banc.",
+				'en-us': "Attach 2 basic Energy cards from your discard pile to 1 of your Benched Pokémon.",
+				'fr-fr': "Attachez 2 cartes Énergie de base de votre pile de défausse à 1 de vos Pokémon de Banc.",
 			},
 
 		},
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-Attaque",
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-Attaque",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 30,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+		'en-us': "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
 	},
 
 	thirdParty: {

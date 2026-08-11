@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Porygon2",
-		fr: "Porygon2",
-		es: "Porygon2",
-		it: "Porygon2",
-		pt: "Porygon2",
-		de: "Porygon2"
+		'en-us': "Porygon2",
+		'fr-fr': "Porygon2",
+		'es-es': "Porygon2",
+		'it-it': "Porygon2",
+		'pt-br': "Porygon2",
+		'de-de': "Porygon2"
 	},
 
 	illustrator: "HiRON",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Porygon",
-		fr: "Porygon",
+		'en-us': "Porygon",
+		'fr-fr': "Porygon",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Destructive Beam",
-				fr: "Rayon Désintégrateur",
+				'en-us': "Destructive Beam",
+				'fr-fr': "Rayon Désintégrateur",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 30,
 
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It was upgraded to enable the exploration of other planets. However, it failed to measure up.",
+		'en-us': "It was upgraded to enable the exploration of other planets. However, it failed to measure up.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Rayquaza",
-		fr: "Rayquaza",
-		de: "Rayquaza"
+		'en-us': "Rayquaza",
+		'fr-fr': "Rayquaza",
+		'de-de': "Rayquaza"
 	},
 
 	illustrator: "Noriko Hotta",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Inferno Spear",
-				fr: "Lance infernale",
-				de: "Inferno-Speer"
+				'en-us': "Inferno Spear",
+				'fr-fr': "Lance infernale",
+				'de-de': "Inferno-Speer"
 			},
 			effect: {
-				en: "Discard a Fire Energy and a Lightning Energy attached to Rayquaza.",
-				fr: "Défaussez une Énergie Fire et une Énergie Lightning attachées à Rayquaza.",
-				de: "Lege 1 - und 1 -Energie, die an Rayquaza angelegt sind, auf deinen Ablagestapel."
+				'en-us': "Discard a Fire Energy and a Lightning Energy attached to Rayquaza.",
+				'fr-fr': "Défaussez une Énergie Fire et une Énergie Lightning attachées à Rayquaza.",
+				'de-de': "Lege 1 - und 1 -Energie, die an Rayquaza angelegt sind, auf deinen Ablagestapel."
 			},
 			damage: 100,
 
@@ -61,7 +61,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it.",
+		'en-us': "It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it.",
 	},
 
 	variants: [

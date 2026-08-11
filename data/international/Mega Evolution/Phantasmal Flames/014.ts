@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Moltres",
-		fr: "Sulfura",
-		es: "Moltres",
+		'en-us': "Moltres",
+		'fr-fr': "Sulfura",
+		'es-es': "Moltres",
 		'es-mx': "Moltres",
-		de: "Lavados",
-		it: "Moltres",
-		pt: "Moltres"
+		'de-de': "Lavados",
+		'it-it': "Moltres",
+		'pt-br': "Moltres"
 	},
 
 	rarity: "Rare",
@@ -26,23 +26,23 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Fighting Wings",
-			fr: "Ailes Combatives",
-			es: "Alas Luchadoras",
+			'en-us': "Fighting Wings",
+			'fr-fr': "Ailes Combatives",
+			'es-es': "Alas Luchadoras",
 			'es-mx': "Alas Tenaces",
-			de: "Kampfschwingen",
-			it: "Ali Combattenti",
-			pt: "Asas de Luta"
+			'de-de': "Kampfschwingen",
+			'it-it': "Ali Combattenti",
+			'pt-br': "Asas de Luta"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a Pokémon ex, this attack does 90 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-ex, cette attaque inflige 90 dégâts supplémentaires.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon ex, este ataque hace 90 puntos de daño más.",
+			'en-us': "If your opponent's Active Pokémon is a Pokémon ex, this attack does 90 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon-ex, cette attaque inflige 90 dégâts supplémentaires.",
+			'es-es': "Si el Pokémon Activo de tu rival es un Pokémon ex, este ataque hace 90 puntos de daño más.",
 			'es-mx': "Si el Pokémon Activo de tu rival es un Pokémon ex, este ataque hace 90 puntos de daño más.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Pokémon-ex ist, fügt diese Attacke 90 Schadenspunkte mehr zu.",
-			it: "Se il Pokémon attivo del tuo avversario è un Pokémon-ex, questo attacco infligge 90 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon ex, este ataque causará 90 pontos de dano a mais."
+			'de-de': "Wenn das Aktive Pokémon deines Gegners ein Pokémon-ex ist, fügt diese Attacke 90 Schadenspunkte mehr zu.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon-ex, questo attacco infligge 90 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon ex, este ataque causará 90 pontos de dano a mais."
 		},
 
 		damage: "20+"
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "There are stories of this Pokémon using its radiant, flame-cloaked wings to light up paths for those lost in the mountains.",
+		'en-us': "There are stories of this Pokémon using its radiant, flame-cloaked wings to light up paths for those lost in the mountains.",
 	},
 
 	illustrator: "Kazumasa Yasukuni",

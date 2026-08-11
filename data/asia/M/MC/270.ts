@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モルペコ",
+		'ja-jp': "モルペコ",
 	},
 
 	illustrator: "kodama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "胃袋が 小さいので ポケットに 入れた タネを いつも 食べてないと すぐに お腹が 空いてしまうのだ。",
+		'ja-jp': "胃袋が 小さいので ポケットに 入れた タネを いつも 食べてないと すぐに お腹が 空いてしまうのだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "おやつさがし" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札を上から1枚見て、もとにもどす。のぞむなら、そのカードをトラッシュする。",
+				'ja-jp': "自分の番に1回使える。自分の山札を上から1枚見て、もとにもどす。のぞむなら、そのカードをトラッシュする。",
 			},
 		},
 	],
@@ -33,7 +33,7 @@ const card: Card = {
 			name: { ja: "ひろってつける" },
 			cost: ["Lightning"],
 			effect: {
-				ja: "自分のトラッシュから基本エネルギーを2枚まで選び、自分のポケモンに好きなようにつける。",
+				'ja-jp': "自分のトラッシュから基本エネルギーを2枚まで選び、自分のポケモンに好きなようにつける。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Corphish",
-		fr: "Ecrapince",
-		de: "Krebscorps"
+		'en-us': "Corphish",
+		'fr-fr': "Ecrapince",
+		'de-de': "Krebscorps"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Off",
-				fr: "Sabotage",
-				de: "Abschlag"
+				'en-us': "Knock Off",
+				'fr-fr': "Sabotage",
+				'de-de': "Abschlag"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it.",
-				fr: "Lancez une pièce. Si c'est face, choisissez sans regarder une carte de la main de votre adversaire et défaussez-la.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen) und lege sie auf seinen Ablagestapel."
+				'en-us': "Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it.",
+				'fr-fr': "Lancez une pièce. Si c'est face, choisissez sans regarder une carte de la main de votre adversaire et défaussez-la.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen) und lege sie auf seinen Ablagestapel."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Irongrip",
-				fr: "Poigne de fer",
-				de: "Eiserner Griff"
+				'en-us': "Irongrip",
+				'fr-fr': "Poigne de fer",
+				'de-de': "Eiserner Griff"
 			},
 
 			damage: 20,
@@ -68,8 +68,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its hardy vitality enables it to adapt to any environment. Its pincers will never release prey.",
-		fr: "Sa nature robuste lui permet de vivre sur n'importe quel terrain. Ses pinces ne lâchent jamais prise."
+		'en-us': "Its hardy vitality enables it to adapt to any environment. Its pincers will never release prey.",
+		'fr-fr': "Sa nature robuste lui permet de vivre sur n'importe quel terrain. Ses pinces ne lâchent jamais prise."
 	},
 
 	thirdParty: {

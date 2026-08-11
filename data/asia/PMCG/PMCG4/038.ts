@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ディグダ",
+		'ja-jp': "ディグダ",
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -19,16 +19,16 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "下を掘ります",
+				'ja-jp': "下を掘ります",
 			},
 			effect: {
-				ja: "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに10ダメージを与えます。この攻撃に衰弱と抵抗を適用しないでください。 （衰弱と抵抗を適用した後に発生する他の効果はまだ起こります。）",
+				'ja-jp': "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに10ダメージを与えます。この攻撃に衰弱と抵抗を適用しないでください。 （衰弱と抵抗を適用した後に発生する他の効果はまだ起こります。）",
 			},
 		},
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "傷",
+				'ja-jp': "傷",
 			},
 			damage: 20,
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミルタンク",
+		'ja-jp': "ミルタンク",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ミルクドリンク",
+				'ja-jp': "ミルクドリンク",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。 2つのダメージカウンターを削除して、Miltankからヘッド数の時間を削除します。それよりもダメージカウンターが少ない場合は、それらすべてを削除します。",
+				'ja-jp': "2つのコインをフリップします。 2つのダメージカウンターを削除して、Miltankからヘッド数の時間を削除します。それよりもダメージカウンターが少ない場合は、それらすべてを削除します。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "ボディスラム",
+				'ja-jp': "ボディスラム",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 20,
 		},

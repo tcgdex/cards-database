@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラッタ",
+		'ja-jp': "ラッタ",
 	},
 
 	illustrator: "Mina Nakai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "後ろ足の 小さい 水かきで  海を 泳いで 島を 渡り  敵から 逃げていた という。",
+		'ja-jp': "後ろ足の 小さい 水かきで  海を 泳いで 島を 渡り  敵から 逃げていた という。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "holo"}],
 
 	evolveFrom: {
-		ja: "コラッタ",
+		'ja-jp': "コラッタ",
 	},
 
 	retreat: 1,

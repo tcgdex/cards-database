@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イーブイVMAX",
+		'ja-jp': "イーブイVMAX",
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを1回投げる。ウラならそのワザは失敗。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを1回投げる。ウラならそのワザは失敗。",
 			},
 		},
 	],
@@ -39,7 +39,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイV",
+		'ja-jp': "イーブイV",
 	},
 
 	retreat: 2,

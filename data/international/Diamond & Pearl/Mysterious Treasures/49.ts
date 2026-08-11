@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Girafarig",
-		fr: "Girafarig",
-		de: "Girafarig"
+		'en-us': "Girafarig",
+		'fr-fr': "Girafarig",
+		'de-de': "Girafarig"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crane Neck",
-				fr: "Grue",
-				de: "Halsrecker"
+				'en-us': "Crane Neck",
+				'fr-fr': "Grue",
+				'de-de': "Halsrecker"
 			},
 			effect: {
-				en: "Search your deck for a Trainer card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une carte Supporter, montrez-la à votre adversaire et placez-la dans votre main. Ensuite mélangez votre deck.",
-				de: "Durchsuche dein Deck nach einer Trainerkarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+				'en-us': "Search your deck for a Trainer card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck une carte Supporter, montrez-la à votre adversaire et placez-la dans votre main. Ensuite mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach einer Trainerkarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psybeam",
-				fr: "Rafale psy",
-				de: "Psystrahl"
+				'en-us': "Psybeam",
+				'fr-fr': "Rafale psy",
+				'de-de': "Psystrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -72,8 +72,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its tail also has a small brain. It bites to repel any foe trying to sneak up on it from behind.",
-		fr: "Sa queue contient un minuscule cerveau. Elle mord l'ennemi qui essaie de le frapper dans le dos."
+		'en-us': "Its tail also has a small brain. It bites to repel any foe trying to sneak up on it from behind.",
+		'fr-fr': "Sa queue contient un minuscule cerveau. Elle mord l'ennemi qui essaie de le frapper dans le dos."
 	},
 
 	thirdParty: {

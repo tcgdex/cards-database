@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Nのポイントアップ",
+		'ja-jp': "Nのポイントアップ",
 	},
 
 	illustrator: "Toyste Beach",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のトラッシュから基本エネルギーを1枚選び、ベンチの「Nのポケモン」につける。",
+		'ja-jp': "自分のトラッシュから基本エネルギーを1枚選び、ベンチの「Nのポケモン」につける。",
 	},
 
 	variants: [

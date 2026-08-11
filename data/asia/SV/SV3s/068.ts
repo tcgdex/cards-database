@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Baltoy"
+		'id-id': "Baltoy"
 	},
 
 	illustrator: "Scav",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Ditemukan di reruntuhan peninggalan kuno. Baltoy bergerak sambil berputar. Pada malam hari saat tidur pun, Pokémon ini berdiri dengan satu kaki."
+		'id-id': "Ditemukan di reruntuhan peninggalan kuno. Baltoy bergerak sambil berputar. Pada malam hari saat tidur pun, Pokémon ini berdiri dengan satu kaki."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Putaran Cepat"
+			'id-id': "Putaran Cepat"
 		},
 
 		effect: {
-			id: "Tukar Pokémon ini dengan Pokémon Cadangan. Setelah itu, lawan menukar Pokémon Bertarungnya dengan Pokémon Cadangan."
+			'id-id': "Tukar Pokémon ini dengan Pokémon Cadangan. Setelah itu, lawan menukar Pokémon Bertarungnya dengan Pokémon Cadangan."
 		},
 
 		damage: 10,

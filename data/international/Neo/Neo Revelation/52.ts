@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Skiploom",
-		fr: "Floravol",
-		de: "Hubelupf"
+		'en-us': "Skiploom",
+		'fr-fr': "Floravol",
+		'de-de': "Hubelupf"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Hoppip",
-		fr: "Granivol"
+		'en-us': "Hoppip",
+		'fr-fr': "Granivol"
 	},
 
 	stage: "Stage1",
@@ -36,9 +36,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hop",
-				fr: "Hop",
-				de: "Hüpfer"
+				'en-us': "Hop",
+				'fr-fr': "Hop",
+				'de-de': "Hüpfer"
 			},
 
 			damage: 20,
@@ -49,14 +49,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Mysterious Powder",
-				fr: "Poudre mystérieuse",
-				de: "Seltsames Puder"
+				'en-us': "Mysterious Powder",
+				'fr-fr': "Poudre mystérieuse",
+				'de-de': "Seltsames Puder"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -78,8 +78,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It spreads its petals to absorb sunlight. It also floats in the air to get closer to the sun.",
-		fr: "Il écarte ses pétales pour absorber la lumière du soleil. Il flotte aussi dans les airs pour se rapprocher de l'astre du jour."
+		'en-us': "It spreads its petals to absorb sunlight. It also floats in the air to get closer to the sun.",
+		'fr-fr': "Il écarte ses pétales pour absorber la lumière du soleil. Il flotte aussi dans les airs pour se rapprocher de l'astre du jour."
 	},
 
 

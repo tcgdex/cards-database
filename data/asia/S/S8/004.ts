@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キノココ",
+		'ja-jp': "キノココ",
 		'zh-tw': "蘑蘑菇",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "頭の てっぺんから 毒胞子を 噴き出す。 胞子を 吸いこむと 体の 節々が 痛くなる。",
+		'ja-jp': "頭の てっぺんから 毒胞子を 噴き出す。 胞子を 吸いこむと 体の 節々が 痛くなる。",
 		'zh-tw': "會從頭頂上噴出毒孢子。如果不小心吸入了孢子，身上的每處關節都會開始疼痛。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "たいあたり",
+				'ja-jp': "たいあたり",
 				'zh-tw': "撞擊",
 			},
 			damage: 10,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "タネばくだん",
+				'ja-jp': "タネばくだん",
 				'zh-tw': "種子炸彈",
 			},
 			damage: 20,

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Drowzee"
+		'en-us': "Drowzee"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -25,10 +25,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Long-Distance Hypnosis"
+				'en-us': "Long-Distance Hypnosis"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may flip a coin. If heads, the Defending Pokémon is now Asleep; if tails, your Active Pokémon is now Asleep. The power can't be used if Drowzee is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), you may flip a coin. If heads, the Defending Pokémon is now Asleep; if tails, your Active Pokémon is now Asleep. The power can't be used if Drowzee is affected by a Special Condition."
 			}
 		},
 	],
@@ -40,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nightmare"
+				'en-us': "Nightmare"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Not popular with girls because of its attitude. Can often be heard muttering to itself in a low voice."
+		'en-us': "Not popular with girls because of its attitude. Can often be heard muttering to itself in a low voice."
 	},
 
 	variants: [

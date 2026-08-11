@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Lucario",
-		fr: "Lucario",
-		de: "Lucario"
+		'en-us': "Lucario",
+		'fr-fr': "Lucario",
+		'de-de': "Lucario"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Riolu",
-		fr: "Riolu"
+		'en-us': "Riolu",
+		'fr-fr': "Riolu"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Aura Sphere",
-				fr: "Aurasphère",
-				de: "Aura Sphere"
+				'en-us': "Aura Sphere",
+				'fr-fr': "Aurasphère",
+				'de-de': "Aura Sphere"
 			},
 			effect: {
-				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Does 10 damage to 1 of your opponent's benched Pokémon. (Don't apply Weakness and Resistance for benched Pokémon.)"
+				'en-us': "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Does 10 damage to 1 of your opponent's benched Pokémon. (Don't apply Weakness and Resistance for benched Pokémon.)"
 			},
 			damage: 30,
 
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Do the Wave",
-				fr: "Faites la vague",
-				de: "Do the Wave"
+				'en-us': "Do the Wave",
+				'fr-fr': "Faites la vague",
+				'de-de': "Do the Wave"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each of your Benched Pokémon.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chacun des Pokémon de votre Banc.",
-				de: "Does 20 damage plus 10 more damage for each of your Benched Pokémon."
+				'en-us': "Does 20 damage plus 10 more damage for each of your Benched Pokémon.",
+				'fr-fr': "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chacun des Pokémon de votre Banc.",
+				'de-de': "Does 20 damage plus 10 more damage for each of your Benched Pokémon."
 			},
 			damage: "20+",
 
@@ -74,7 +74,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away."
+		'en-us': "A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away."
 	},
 
 	variants: [		{

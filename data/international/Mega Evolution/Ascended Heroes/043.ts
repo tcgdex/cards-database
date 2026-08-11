@@ -1,25 +1,25 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mega Feraligatr ex",
-		fr: "Méga-Aligatueur-ex",
-		es: "Mega-Feraligatr ex",
+		'en-us': "Mega Feraligatr ex",
+		'fr-fr': "Méga-Aligatueur-ex",
+		'es-es': "Mega-Feraligatr ex",
 		'es-mx': "Mega-Feraligatr ex",
-		de: "Mega-Impergator-ex",
-		it: "Mega Feraligatr-ex",
-		pt: "Mega Feraligatr ex"
+		'de-de': "Mega-Impergator-ex",
+		'it-it': "Mega Feraligatr-ex",
+		'pt-br': "Mega Feraligatr ex"
 	},
 	evolveFrom: {
-		en: "Croconaw",
-		de: "Tyracroc",
-		es: "Croconaw",
-		fr: "Crocrodil",
-		it: "Croconaw",
-		pt: "Croconaw",
+		'en-us': "Croconaw",
+		'de-de': "Tyracroc",
+		'es-es': "Croconaw",
+		'fr-fr': "Crocrodil",
+		'it-it': "Croconaw",
+		'pt-br': "Croconaw",
 	},
 
 	suffix: "ex",
@@ -35,23 +35,23 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			en: "Mortal Crunch",
-			fr: "Mâchouille Mortelle",
-			es: "Trituración Mortífera",
+			'en-us': "Mortal Crunch",
+			'fr-fr': "Mâchouille Mortelle",
+			'es-es': "Trituración Mortífera",
 			'es-mx': "Trituración Mortífera",
-			de: "Letalknirscher",
-			it: "Sgranocchio Letale",
-			pt: "Mastigada Mortal"
+			'de-de': "Letalknirscher",
+			'it-it': "Sgranocchio Letale",
+			'pt-br': "Mastigada Mortal"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 200 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire a déjà au moins un marqueur de dégâts, cette attaque inflige 200 dégâts supplémentaires.",
-			es: "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 200 puntos de daño más.",
+			'en-us': "If your opponent's Active Pokémon already has any damage counters on it, this attack does 200 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire a déjà au moins un marqueur de dégâts, cette attaque inflige 200 dégâts supplémentaires.",
+			'es-es': "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 200 puntos de daño más.",
 			'es-mx': "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 200 puntos de daño más.",
-			de: "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 200 Schadenspunkte mehr zu.",
-			it: "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 200 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 200 pontos de dano a mais."
+			'de-de': "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 200 Schadenspunkte mehr zu.",
+			'it-it': "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 200 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 200 pontos de dano a mais."
 		},
 
 		damage: "200+"

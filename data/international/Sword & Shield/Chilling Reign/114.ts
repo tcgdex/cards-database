@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cobalion",
-		fr: "Cobaltium",
-		es: "Cobalion",
-		it: "Cobalion",
-		pt: "Cobalion",
-		de: "Kobalium"
+		'en-us': "Cobalion",
+		'fr-fr': "Cobaltium",
+		'es-es': "Cobalion",
+		'it-it': "Cobalion",
+		'pt-br': "Cobalion",
+		'de-de': "Kobalium"
 	},
 
 	illustrator: "Kazuma Koda",
@@ -22,33 +22,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Headbang",
-			fr: "Frappe de Tête",
-			es: "Cabecear",
-			it: "Scuotitesta",
-			pt: "Baque de Cabeça",
-			de: "Headbangen"
+			'en-us': "Headbang",
+			'fr-fr': "Frappe de Tête",
+			'es-es': "Cabecear",
+			'it-it': "Scuotitesta",
+			'pt-br': "Baque de Cabeça",
+			'de-de': "Headbangen"
 		},
 
 		damage: 40,
 		cost: ["Metal", "Colorless"]
 	}, {
 		name: {
-			en: "Metal Slash",
-			fr: "Tranche Métallique",
-			es: "Tajo Metálico",
-			it: "Lacerametallo",
-			pt: "Talho de Metal",
-			de: "Metallschlitzer"
+			'en-us': "Metal Slash",
+			'fr-fr': "Tranche Métallique",
+			'es-es': "Tajo Metálico",
+			'it-it': "Lacerametallo",
+			'pt-br': "Talho de Metal",
+			'de-de': "Metallschlitzer"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 130,
@@ -72,7 +72,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It has a body and heart of steel. It worked with its allies to punish people when they hurt Pokémon."
+		'en-us': "It has a body and heart of steel. It worked with its allies to punish people when they hurt Pokémon."
 	},
 
 	variants: [

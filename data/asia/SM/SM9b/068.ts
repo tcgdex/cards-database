@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メタルコアバリア",
+		'ja-jp': "メタルコアバリア",
 	},
 
 	illustrator: "",
 	category: "Trainer",
 
 	effect: {
-		ja: "ポケモンについているこのカードは、相手の番の終わりにトラッシュする。 このカードをつけているポケモンが、相手のポケモンから受けるワザのダメージは「-70」される。",
+		'ja-jp': "ポケモンについているこのカードは、相手の番の終わりにトラッシュする。 このカードをつけているポケモンが、相手のポケモンから受けるワザのダメージは「-70」される。",
 	},
 
 	variants: [

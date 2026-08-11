@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Gible",
-		fr: "Griknot",
-		es: "Gible",
-		it: "Gible",
-		pt: "Gible",
-		de: "Kaumalat"
+		'en-us': "Gible",
+		'fr-fr': "Griknot",
+		'es-es': "Gible",
+		'it-it': "Gible",
+		'pt-br': "Gible",
+		'de-de': "Kaumalat"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Never Enough",
-				fr: "Insatiable",
-				es: "Nunca Suficiente",
-				it: "Senza Fine",
-				pt: "Nunca é o Suficiente",
-				de: "Gier"
+				'en-us': "Never Enough",
+				'fr-fr': "Insatiable",
+				'es-es': "Nunca Suficiente",
+				'it-it': "Senza Fine",
+				'pt-br': "Nunca é o Suficiente",
+				'de-de': "Gier"
 			},
 			effect: {
-				en: "Discard a card from your hand. If you do, draw 2 cards.",
-				fr: "Défaussez une carte de votre main. Dans ce cas, piochez 2 cartes.",
-				es: "Descarta 1 carta de tu mano. Si lo haces, roba 2 cartas.",
-				it: "Scarta una delle carte che hai in mano. Se lo fai, pesca due carte.",
-				pt: "Descarte um card da sua mão. Se fizer isso, compre 2 cards.",
-				de: "Lege 1 Karte von deiner Hand auf deinen Ablagestapel. Wenn du das machst, ziehe 2 Karten."
+				'en-us': "Discard a card from your hand. If you do, draw 2 cards.",
+				'fr-fr': "Défaussez une carte de votre main. Dans ce cas, piochez 2 cartes.",
+				'es-es': "Descarta 1 carta de tu mano. Si lo haces, roba 2 cartas.",
+				'it-it': "Scarta una delle carte che hai in mano. Se lo fai, pesca due carte.",
+				'pt-br': "Descarte um card da sua mão. Se fizer isso, compre 2 cards.",
+				'de-de': "Lege 1 Karte von deiner Hand auf deinen Ablagestapel. Wenn du das machst, ziehe 2 Karten."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.",
+		'en-us': "It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.",
 	},
 
 	thirdParty: {

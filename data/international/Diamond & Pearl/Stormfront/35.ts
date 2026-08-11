@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Dusclops",
-		fr: "Teraclope",
-		de: "Zwirrklop"
+		'en-us': "Dusclops",
+		'fr-fr': "Teraclope",
+		'de-de': "Zwirrklop"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Duskull",
-		fr: "Skélénox",
+		'en-us': "Duskull",
+		'fr-fr': "Skélénox",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde folie",
-				de: "Konfustrahl"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde folie",
+				'de-de': "Konfustrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Trick Room",
-				fr: "Distorsion",
-				de: "Bizarroraum"
+				'en-us': "Trick Room",
+				'fr-fr': "Distorsion",
+				'de-de': "Bizarroraum"
 			},
 			effect: {
-				en: "If you have a Stadium card in play, this attack does 40 damage plus 20 more damage. If your opponent has a Stadium card in play, remove 2 damage counters from Dusclops.",
-				fr: "Si vous avez une carte Stade en jeu, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires. Si votre adversaire a une carte Stade en jeu, retirez à Teraclope 2 marqueurs de dégât.",
-				de: "Wenn du 1 Stadion-Karte im Spiel hast, fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu. Wenn dein Gegner 1 Stadion-Karte im Spiel hat, entferne 2 Schadensmarken von Zwirrklop."
+				'en-us': "If you have a Stadium card in play, this attack does 40 damage plus 20 more damage. If your opponent has a Stadium card in play, remove 2 damage counters from Dusclops.",
+				'fr-fr': "Si vous avez une carte Stade en jeu, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires. Si votre adversaire a une carte Stade en jeu, retirez à Teraclope 2 marqueurs de dégât.",
+				'de-de': "Wenn du 1 Stadion-Karte im Spiel hast, fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu. Wenn dein Gegner 1 Stadion-Karte im Spiel hat, entferne 2 Schadensmarken von Zwirrklop."
 			},
 			damage: "40+",
 
@@ -87,8 +87,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its body is hollow. It is said that those who look into its body are sucked into the void.",
-		fr: "Son corps est creux. On raconte que celui qui regarde à l'intérieur finira aspiré par le néant."
+		'en-us': "Its body is hollow. It is said that those who look into its body are sucked into the void.",
+		'fr-fr': "Son corps est creux. On raconte que celui qui regarde à l'intérieur finira aspiré par le néant."
 	},
 
 	thirdParty: {

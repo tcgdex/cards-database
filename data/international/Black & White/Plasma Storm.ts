@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Black & White'
 
 const bw8: Set = {
 	id: "bw8",
 
 	name: {
-		en: "Plasma Storm",
-		fr: "Tempète Plasma",
-		es: "Tormenta Plasma",
-		it: "Uragano Plasma",
-		de: "Plasma-Sturm",
-		pt: "Tempestade de Plasma"
+		'en-us': "Plasma Storm",
+		'fr-fr': "Tempète Plasma",
+		'es-es': "Tormenta Plasma",
+		'it-it': "Uragano Plasma",
+		'de-de': "Plasma-Sturm",
+		'pt-br': "Tempestade de Plasma"
 	},
 
 	serie: serie,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Phanpy",
-		fr: "Phanpy",
-		de: "Phanpy"
+		'en-us': "Phanpy",
+		'fr-fr': "Phanpy",
+		'de-de': "Phanpy"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Yawn",
-				fr: "Baillement",
-				de: "Gähnen"
+				'en-us': "Yawn",
+				'fr-fr': "Baillement",
+				'de-de': "Gähnen"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mud Slup",
-				fr: "Coud'boue",
-				de: "Lehmschelle"
+				'en-us': "Mud Slup",
+				'fr-fr': "Coud'boue",
+				'de-de': "Lehmschelle"
 			},
 
 			damage: 10,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Switch",
-		fr: "Échange",
-		de: "Tausch"
+		'en-us': "Switch",
+		'fr-fr': "Échange",
+		'de-de': "Tausch"
 	},
 
 	illustrator: "Hideaki Hakozaki",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Échangez un de vos Pokémon actifs avec un Pokémon de votre Banc.",
-		en: "Switch 1 of your Active Pokémon with 1 of your Benched Pokémon.",
-		de: "Tausche 1 deiner Aktiven Pokémon gegen 1 Pokémon auf deiner Bank aus."
+		'fr-fr': "Échangez un de vos Pokémon actifs avec un Pokémon de votre Banc.",
+		'en-us': "Switch 1 of your Active Pokémon with 1 of your Benched Pokémon.",
+		'de-de': "Tausche 1 deiner Aktiven Pokémon gegen 1 Pokémon auf deiner Bank aus."
 	},
 
 	trainerType: "Item",

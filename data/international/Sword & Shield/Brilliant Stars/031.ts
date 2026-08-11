@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lapras",
-		fr: "Lokhlass",
-		es: "Lapras",
-		it: "Lapras",
-		pt: "Lapras",
-		de: "Lapras"
+		'en-us': "Lapras",
+		'fr-fr': "Lokhlass",
+		'es-es': "Lapras",
+		'it-it': "Lapras",
+		'pt-br': "Lapras",
+		'de-de': "Lapras"
 	},
 
 	illustrator: "Teeziro",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			en: "Raging Freeze",
-			fr: "Gel Acharné",
-			es: "Congelación Embravecida",
-			it: "Furiagelo",
-			pt: "Congelamento Estarrecedor",
-			de: "Wutstarre"
+			'en-us': "Raging Freeze",
+			'fr-fr': "Gel Acharné",
+			'es-es': "Congelación Embravecida",
+			'it-it': "Furiagelo",
+			'pt-br': "Congelamento Estarrecedor",
+			'de-de': "Wutstarre"
 		},
 
 		effect: {
-			en: "If any of your Pokémon were Knocked Out by damage from an attack from your opponent's Pokémon during their last turn, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Si au moins l'un de vos Pokémon a été mis K.O. par les dégâts d'une attaque d'un Pokémon de votre adversaire pendant son dernier tour, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			es: "Si alguno de tus Pokémon quedó Fuera de Combate por el daño de un ataque de los Pokémon de tu rival durante su último turno, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Se uno qualsiasi dei tuoi Pokémon è stato messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario durante il suo ultimo turno, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Se algum dos seus Pokémon tiver sido Nocauteado pelo dano de um ataque dos Pokémon do seu oponente durante o último turno dele(a), o Pokémon Ativo do seu oponente ficará Paralisado.",
-			de: "Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke der Pokémon deines Gegners kampfunfähig wurde, ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			'en-us': "If any of your Pokémon were Knocked Out by damage from an attack from your opponent's Pokémon during their last turn, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Si au moins l'un de vos Pokémon a été mis K.O. par les dégâts d'une attaque d'un Pokémon de votre adversaire pendant son dernier tour, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'es-es': "Si alguno de tus Pokémon quedó Fuera de Combate por el daño de un ataque de los Pokémon de tu rival durante su último turno, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Se uno qualsiasi dei tuoi Pokémon è stato messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario durante il suo ultimo turno, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Se algum dos seus Pokémon tiver sido Nocauteado pelo dano de um ataque dos Pokémon do seu oponente durante o último turno dele(a), o Pokémon Ativo do seu oponente ficará Paralisado.",
+			'de-de': "Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke der Pokémon deines Gegners kampfunfähig wurde, ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		},
 
 		damage: 110
@@ -56,7 +56,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A smart and kindhearted Pokémon, it glides across the surface of the sea while its beautiful song echoes around it.",
+		'en-us': "A smart and kindhearted Pokémon, it glides across the surface of the sea while its beautiful song echoes around it.",
 	},
 
 	variants: [

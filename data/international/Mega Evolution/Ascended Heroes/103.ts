@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Meditite",
-		fr: "Méditikka",
-		es: "Meditite",
+		'en-us': "Meditite",
+		'fr-fr': "Méditikka",
+		'es-es': "Meditite",
 		'es-mx': "Meditite",
-		de: "Meditie",
-		it: "Meditite",
-		pt: "Meditite"
+		'de-de': "Meditie",
+		'it-it': "Meditite",
+		'pt-br': "Meditite"
 	},
 
 	illustrator: "Lee HyunJung",
@@ -26,35 +26,35 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			es: "Coleccionar",
+			'en-us': "Collect",
+			'fr-fr': "Collecte",
+			'es-es': "Coleccionar",
 			'es-mx': "Recolectar",
-			de: "Sammeln",
-			it: "Tassa",
-			pt: "Coleta"
+			'de-de': "Sammeln",
+			'it-it': "Tassa",
+			'pt-br': "Coleta"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			es: "Roba 1 carta.",
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'es-es': "Roba 1 carta.",
 			'es-mx': "Roba 1 carta.",
-			de: "Ziehe 1 Karte.",
-			it: "Pesca una carta.",
-			pt: "Compre uma carta."
+			'de-de': "Ziehe 1 Karte.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre uma carta."
 		}
 	}, {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Gentle Slap",
-			fr: "Gifle Douce",
-			es: "Bofetada Gentil",
+			'en-us': "Gentle Slap",
+			'fr-fr': "Gifle Douce",
+			'es-es': "Bofetada Gentil",
 			'es-mx': "Cachetadita",
-			de: "Sanfter Hieb",
-			it: "Schiaffetto",
-			pt: "Tapinha"
+			'de-de': "Sanfter Hieb",
+			'it-it': "Schiaffetto",
+			'pt-br': "Tapinha"
 		},
 
 		damage: 10

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "利歐路",
-		ja: "リオル"
+		'ja-jp': "リオル"
 	},
 
 	illustrator: "Teeziro",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "精力充沛，可以奔跑一整夜。由於牠十分活潑， 帶牠散步的人非常辛苦。",
-		ja: "一晩中 走っていられる スタミナを もつ。 活発で 散歩の 相手は たいへん。"
+		'ja-jp': "一晩中 走っていられる スタミナを もつ。 活発で 散歩の 相手は たいへん。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "踢倒",
-			ja: "けたぐり"
+			'ja-jp': "けたぐり"
 		},
 
 		damage: 50,

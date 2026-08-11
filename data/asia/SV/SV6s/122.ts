@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Aggron"
+		'id-id': "Aggron"
 	},
 
 	illustrator: "Dsuke",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Aggron menghabisi musuhnya dengan menabrakkan tubuhnya sambil menyarangkan tanduk tajam yang dapat menembus papan besi yang sangat tebal sekalipun."
+		'id-id': "Aggron menghabisi musuhnya dengan menabrakkan tubuhnya sambil menyarangkan tanduk tajam yang dapat menembus papan besi yang sangat tebal sekalipun."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			id: "Angry Slam"
+			'id-id': "Angry Slam"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan sejumlah 50 untuk tiap Pokémon yang memiliki Token Kerusakan di Arena sendiri."
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 50 untuk tiap Pokémon yang memiliki Token Kerusakan di Arena sendiri."
 		},
 
 		damage: "50×",
 		cost: ["Metal"]
 	}, {
 		name: {
-			id: "Guard Claw"
+			'id-id': "Guard Claw"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 50."
+			'id-id': "Pada giliran lawan berikutnya, kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 50."
 		},
 
 		damage: 120,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガシャンデラex",
+		'ja-jp': "メガシャンデラex",
 	},
 
 	illustrator: "REND",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "じゅばくのほのお" },
 			effect: {
-				ja: "このポケモンがいるかぎり、相手のバトルポケモンは、にげるためのエネルギーが1個ぶん多くなる。",
+				'ja-jp': "このポケモンがいるかぎり、相手のバトルポケモンは、にげるためのエネルギーが1個ぶん多くなる。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "130+",
 			cost: ["Psychic", "Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンのにげるためのエネルギーの数×50ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンのにげるためのエネルギーの数×50ダメージ追加。",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ランプラー",
+		'ja-jp': "ランプラー",
 	},
 
 	retreat: 2,

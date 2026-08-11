@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sightseer"
+		'en-us': "Sightseer"
 	},
 
 	illustrator: "yuu",
@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Look at the top 4 cards of your deck. Put all Stage 1 Pokémon you find there into your hand. Shuffle the other cards back into your deck."
+		'en-us': "Look at the top 4 cards of your deck. Put all Stage 1 Pokémon you find there into your hand. Shuffle the other cards back into your deck."
 	},
 
 	trainerType: "Supporter"

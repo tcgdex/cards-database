@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Erika's Paras"
+		'en-us': "Erika's Paras"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Irongrip"
+				'en-us': "Irongrip"
 			},
 
 			damage: 10,
@@ -39,10 +39,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Spore"
+				'en-us': "Poison Spore"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned and this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned and this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},

@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "タイレーツ",
+		'ja-jp': "タイレーツ",
 		'zh-tw': "列陣兵",
-		th: "ไทเรสึ",
-		id: "Falinks"
+		'th-th': "ไทเรสึ",
+		'id-id': "Falinks"
 	},
 
 	illustrator: "kurumitsu",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "先頭に 立って 指示を 出す ヘイチョーは ６匹の 中で いちばん 強くて 賢いのだ。",
+		'ja-jp': "先頭に 立って 指示を 出す ヘイチョーは ６匹の 中で いちばん 強くて 賢いのだ。",
 		'zh-tw': "站在最前面下達指示的頭頭是６隻裡面 最強最聰明的。",
-		th: "หัวหน้าทหารที่ยืนอยู่หัวแถวคอยออกคำสั่งนั้นแข็งแกร่งและเฉลียวฉลาดที่สุดในบรรดาทหารทั้ง 6 ตัว",
-		id: "Pemimpin yang berdiri paling depan dan memberikan perintah adalah Falinks terkuat dan paling cerdas di antara 6 Falinks dalam kelompoknya."
+		'th-th': "หัวหน้าทหารที่ยืนอยู่หัวแถวคอยออกคำสั่งนั้นแข็งแกร่งและเฉลียวฉลาดที่สุดในบรรดาทหารทั้ง 6 ตัว",
+		'id-id': "Pemimpin yang berdiri paling depan dan memberikan perintah adalah Falinks terkuat dan paling cerdas di antara 6 Falinks dalam kelompoknya."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ずつき",
+			'ja-jp': "ずつき",
 			'zh-tw': "頭錘",
-			th: "พุ่งหัวชน",
-			id: "Tandukan Kepala"
+			'th-th': "พุ่งหัวชน",
+			'id-id': "Tandukan Kepala"
 		},
 
 		damage: 20
@@ -42,19 +42,19 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			ja: "いっしょにとつげき",
+			'ja-jp': "いっしょにとつげき",
 			'zh-tw': "一起突擊",
-			th: "ประจัญบานไปพร้อมกัน",
-			id: "Menyerang Bareng"
+			'th-th': "ประจัญบานไปพร้อมกัน",
+			'id-id': "Menyerang Bareng"
 		},
 
 		damage: "70+",
 
 		effect: {
-			ja: "自分のベンチに「タイレーツ」がいるなら、90ダメージ追加。",
+			'ja-jp': "自分のベンチに「タイレーツ」がいるなら、90ダメージ追加。",
 			'zh-tw': "若自己的備戰區有「列陣兵」，則增加90點傷害。",
-			th: "ถ้าบนเบนช์ฝ่ายเรามี [ไทเรสึ] อยู่ การโจมตีนี้จะเพิ่มแดเมจอีก 90",
-			id: "Jika ada Falinks di Cadangan sendiri, kerusakan yang diberikan bertambah sejumlah 90."
+			'th-th': "ถ้าบนเบนช์ฝ่ายเรามี [ไทเรสึ] อยู่ การโจมตีนี้จะเพิ่มแดเมจอีก 90",
+			'id-id': "Jika ada Falinks di Cadangan sendiri, kerusakan yang diberikan bertambah sejumlah 90."
 		}
 	}],
 

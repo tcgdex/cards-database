@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルカリオ",
+		'ja-jp': "ルカリオ",
 	},
 
 	illustrator: "Midori Harada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "精神を 集中して 放つ 波動と 呼ばれる 不思議な 波は 大岩をも 粉々に 砕く。",
+		'ja-jp': "精神を 集中して 放つ 波動と 呼ばれる 不思議な 波は 大岩をも 粉々に 砕く。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Metal", "Metal"],
 			effect: {
-				ja: "この番、手札からこのポケモンに「ポケモンのどうぐ」をつけていたなら、70ダメージ追加。",
+				'ja-jp': "この番、手札からこのポケモンに「ポケモンのどうぐ」をつけていたなら、70ダメージ追加。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "リオル",
+		'ja-jp': "リオル",
 	},
 
 	retreat: 2,

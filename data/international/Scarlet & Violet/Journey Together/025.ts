@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Torkoal",
-		fr: "Chartor",
-		es: "Torkoal",
-		de: "Qurtel",
-		it: "Torkoal",
-		pt: "Torkoal",
+		'en-us': "Torkoal",
+		'fr-fr': "Chartor",
+		'es-es': "Torkoal",
+		'de-de': "Qurtel",
+		'it-it': "Torkoal",
+		'pt-br': "Torkoal",
 		'es-mx': "Torkoal"
 	},
 
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Live Coal",
-			fr: "Charbon Mutant",
-			es: "Carbón Activado",
-			de: "Glühende Kohlen",
-			it: "Carboni Ardenti",
-			pt: "Carvão Vivo",
+			'en-us': "Live Coal",
+			'fr-fr': "Charbon Mutant",
+			'es-es': "Carbón Activado",
+			'de-de': "Glühende Kohlen",
+			'it-it': "Carboni Ardenti",
+			'pt-br': "Carvão Vivo",
 			'es-mx': "Carbón Activado"
 		},
 
@@ -39,12 +39,12 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Heat Blast",
-			fr: "Explosion de Chaleur",
-			es: "Explosión de Calor",
-			de: "Hitzestoß",
-			it: "Caldobomba",
-			pt: "Raio de Calor",
+			'en-us': "Heat Blast",
+			'fr-fr': "Explosion de Chaleur",
+			'es-es': "Explosión de Calor",
+			'de-de': "Hitzestoß",
+			'it-it': "Caldobomba",
+			'pt-br': "Raio de Calor",
 			'es-mx': "Explosión Ígnea"
 		},
 

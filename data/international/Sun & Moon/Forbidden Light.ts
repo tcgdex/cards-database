@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sun & Moon'
 
 const sm6: Set = {
 	id: "sm6",
 
 	name: {
-		en: "Forbidden Light",
-		fr: "Lumière Interdite",
-		es: "Luz Prohibida",
-		it: "Apocalisse Di Luce",
-		de: "Grauen Der Lichtfinsternis",
-		pt: "Luz Proibida"
+		'en-us': "Forbidden Light",
+		'fr-fr': "Lumière Interdite",
+		'es-es': "Luz Prohibida",
+		'it-it': "Apocalisse Di Luce",
+		'de-de': "Grauen Der Lichtfinsternis",
+		'pt-br': "Luz Proibida"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const sm6: Set = {
 
 	abbreviations: {
 		official: "FLI",
-		fr: "LUI"
+		'fr-fr': "LUI"
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S5a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "石丸子",
-		th: "ดันโกโร"
+		'th-th': "ดันโกโร"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "會對聲音產生反應而動起來。在能量核心的影響下，牠摸起來暖暖的。",
-		th: "จะเริ่มเคลื่อนตัวตอบรับกับเสียงที่ได้ยิน พอแตะตัวก็จะอุ่นเล็กน้อยเพราะอิทธิพลของแกนพลังงาน"
+		'th-th': "จะเริ่มเคลื่อนตัวตอบรับกับเสียงที่ได้ยิน พอแตะตัวก็จะอุ่นเล็กน้อยเพราะอิทธิพลของแกนพลังงาน"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "擲泥",
-			th: "สาดโคลน"
+			'th-th': "สาดโคลน"
 		},
 
 		damage: 10,
@@ -32,7 +32,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "滾動衝撞",
-			th: "กลิ้งโจมตี"
+			'th-th': "กลิ้งโจมตี"
 		},
 
 		damage: 20,

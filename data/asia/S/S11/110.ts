@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ギラティナV",
+		'ja-jp': "ギラティナV",
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "アビスシーク" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を上から4枚見て、その中からカードを2枚選び、手札に加える。残りのカードはロストゾーンに置く。",
+				'ja-jp': "自分の山札を上から4枚見て、その中からカードを2枚選び、手札に加える。残りのカードはロストゾーンに置く。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Grass", "Psychic", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 	],

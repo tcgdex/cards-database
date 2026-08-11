@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Vanillite",
-		fr: "Sorbébé",
-		es: "Vanillite",
-		it: "Vanillite",
-		pt: "Vanillite",
-		de: "Gelatini"
+		'en-us': "Vanillite",
+		'fr-fr': "Sorbébé",
+		'es-es': "Vanillite",
+		'it-it': "Vanillite",
+		'pt-br': "Vanillite",
+		'de-de': "Gelatini"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Spin",
-				fr: "Double Tour"
+				'en-us': "Double Spin",
+				'fr-fr': "Double Tour"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face."
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The temperature of their breath is -58° F. They create snow crystals and make snow fall in the areas surrounding them.",
+		'en-us': "The temperature of their breath is -58° F. They create snow crystals and make snow fall in the areas surrounding them.",
 	},
 
 	thirdParty: {

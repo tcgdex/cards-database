@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lopunny",
-		fr: "Lockpin",
-		es: "Lopunny",
-		it: "Lopunny",
-		pt: "Lopunny",
-		de: "Schlapor"
+		'en-us': "Lopunny",
+		'fr-fr': "Lockpin",
+		'es-es': "Lopunny",
+		'it-it': "Lopunny",
+		'pt-br': "Lopunny",
+		'de-de': "Schlapor"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Buneary",
-		fr: "Laporeille",
-		es: "Buneary",
-		it: "Buneary",
-		pt: "Buneary",
-		de: "Haspiror"
+		'en-us': "Buneary",
+		'fr-fr': "Laporeille",
+		'es-es': "Buneary",
+		'it-it': "Buneary",
+		'pt-br': "Buneary",
+		'de-de': "Haspiror"
 	},
 
 	stage: "Stage1",
@@ -40,19 +40,19 @@ const card: Card = {
 	illustrator: "AKIRA EGAWA",
 
 	description: {
-		en: "It's notably wary and has a dislike of fighting, but at the same time, it can deliver powerful kicks with its lithe legs."
+		'en-us': "It's notably wary and has a dislike of fighting, but at the same time, it can deliver powerful kicks with its lithe legs."
 	},
 
 	attacks: [{
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Hopping Shot",
-			fr: "Tir Sauteur",
-			de: "Hüpfkick",
-			es: "Disparo Salto",
-			pt: "Disparada Saltitante",
-			it: "Colpo Salterino"
+			'en-us': "Hopping Shot",
+			'fr-fr': "Tir Sauteur",
+			'de-de': "Hüpfkick",
+			'es-es': "Disparo Salto",
+			'pt-br': "Disparada Saltitante",
+			'it-it': "Colpo Salterino"
 		},
 
 		damage: 70

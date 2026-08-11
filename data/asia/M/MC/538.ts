@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タツベイ",
+		'ja-jp': "タツベイ",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "鋼鉄並みに 硬い 頭は 岩も 粉々に 砕く。 翼が 生えるのを 待ち続ける。",
+		'ja-jp': "鋼鉄並みに 硬い 頭は 岩も 粉々に 砕く。 翼が 生えるのを 待ち続ける。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Fire", "Water"],
 			effect: {
-				ja: "このポケモンにも10ダメージ。",
+				'ja-jp': "このポケモンにも10ダメージ。",
 			},
 		},
 	],

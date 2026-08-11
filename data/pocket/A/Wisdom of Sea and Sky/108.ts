@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Golbat",
-		fr: "Nosferalto"
+		'en-us': "Golbat",
+		'fr-fr': "Nosferalto"
 	},
 
 	illustrator: "kawayoo",
@@ -18,28 +18,28 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Zubat"
+		'en-us': "Zubat"
 	},
 
 	description: {
-		en: "It loves to drink other creatures' blood. It's said\nthat if it finds others of its kind going hungry,\nit sometimes shares the blood it's gathered.",
-		fr: "Le sang des êtres vivants est son péché mignon. On dit qu'il partage parfois ce précieux breuvage avec ses congénères affamés."
+		'en-us': "It loves to drink other creatures' blood. It's said\nthat if it finds others of its kind going hungry,\nit sometimes shares the blood it's gathered.",
+		'fr-fr': "Le sang des êtres vivants est son péché mignon. On dit qu'il partage parfois ce précieux breuvage avec ses congénères affamés."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Venomous Fang",
-			fr: "Croc-Poison"
+			'en-us': "Venomous Fang",
+			'fr-fr': "Croc-Poison"
 		},
 
 		damage: 20,
 		cost: ["Darkness"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
 		}
 	}],
 

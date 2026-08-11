@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sandslash"
+		'en-us': "Sandslash"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Sandshrew"
+		'en-us': "Sandshrew"
 	},
 
 	description: {
-		en: "It climbs trees by hooking on with its sharp claws.\nSandslash shares the berries it gathers, dropping\nthem down to Sandshrew waiting below the tree."
+		'en-us': "It climbs trees by hooking on with its sharp claws.\nSandslash shares the berries it gathers, dropping\nthem down to Sandshrew waiting below the tree."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Cut"
+			'en-us': "Cut"
 		},
 
 		damage: 50,

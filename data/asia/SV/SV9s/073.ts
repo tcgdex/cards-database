@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "บัมบะโดโร",
-		id: "Mudsdale"
+		'th-th': "บัมบะโดโร",
+		'id-id': "Mudsdale"
 	},
 
 	illustrator: "Uta",
@@ -15,8 +15,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		th: "นอกจากงานใช้แรงแล้ว ยังผลิตโคลนคุณภาพสูงสำหรับทำเครื่องปั้น ดินเผาได้ จึงได้รับความใส่ใจเป็นอย่างดี",
-		id: "Tidak hanya membantu pekerjaan kasar, Mudsdale dirawat dengan baik karena menghasilkan lumpur berkualitas bagus untuk bahan membuat tembikar."
+		'th-th': "นอกจากงานใช้แรงแล้ว ยังผลิตโคลนคุณภาพสูงสำหรับทำเครื่องปั้น ดินเผาได้ จึงได้รับความใส่ใจเป็นอย่างดี",
+		'id-id': "Tidak hanya membantu pekerjaan kasar, Mudsdale dirawat dengan baik karena menghasilkan lumpur berkualitas bagus untuk bahan membuat tembikar."
 	},
 
 	stage: "Stage1",
@@ -25,20 +25,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			th: "มัดโค้ต",
-			id: "Mud Coat"
+			'th-th': "มัดโค้ต",
+			'id-id': "Mud Coat"
 		},
 
 		effect: {
-			th: "แดเมจของท่าต่อสู้ที่โปเกมอนนี้จะได้รับจะถูก [-30]",
-			id: "Kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 30."
+			'th-th': "แดเมจของท่าต่อสู้ที่โปเกมอนนี้จะได้รับจะถูก [-30]",
+			'id-id': "Kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 30."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			th: "เฮฟวีอิมแพกต์",
-			id: "Heavy Impact"
+			'th-th': "เฮฟวีอิมแพกต์",
+			'id-id': "Heavy Impact"
 		},
 
 		damage: 130,

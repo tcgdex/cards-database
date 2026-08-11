@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Durant ex"
+		'id-id': "Durant ex"
 	},
 
 	illustrator: "osare",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Mengikis Tiba-tiba"
+			'id-id': "Mengikis Tiba-tiba"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan ke Cadangan. Buang 1 kartu dari atas Deck lawan ke Trash."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan ke Cadangan. Buang 1 kartu dari atas Deck lawan ke Trash."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Revenge Crush"
+			'id-id': "Revenge Crush"
 		},
 
 		effect: {
-			id: "Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap lembar Kartu Point yang telah diambil lawan."
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap lembar Kartu Point yang telah diambil lawan."
 		},
 
 		damage: "120+",

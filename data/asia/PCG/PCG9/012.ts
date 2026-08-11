@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フィーバス（デルタ種）",
+		'ja-jp': "フィーバス（デルタ種）",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Fire"],
 			name: {
-				ja: "フレイル",
+				'ja-jp': "フレイル",
 			},
 			effect: {
-				ja: "ダメージ数のダメージ数は、Feebasのダメージ数をカウンターします。",
+				'ja-jp': "ダメージ数のダメージ数は、Feebasのダメージ数をカウンターします。",
 			},
 		},
 	],

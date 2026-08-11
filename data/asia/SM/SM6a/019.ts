@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヌオー",
+		'ja-jp': "ヌオー",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "のんびりとした 性格で 気ままに 泳いでは いつも 船底に 頭を ぶつけている。",
+		'ja-jp': "のんびりとした 性格で 気ままに 泳いでは いつも 船底に 頭を ぶつけている。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "おしながす" },
 			effect: {
-				ja: "自分の番に何回でも使える。自分のベンチポケモンについている[水]エネルギーを1個、バトルポケモンにつけ替える。",
+				'ja-jp': "自分の番に何回でも使える。自分のベンチポケモンについている[水]エネルギーを1個、バトルポケモンにつけ替える。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[水]エネルギーの数x20ダメージ追加。",
+				'ja-jp': "このポケモンについている[水]エネルギーの数x20ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ウパー",
+		'ja-jp': "ウパー",
 	},
 
 	retreat: 2,

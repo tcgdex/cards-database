@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sword & Shield'
 
 const swsh105: Set = {
 	id: "swsh10.5",
 
 	name: {
-		en: "Pokémon GO",
-		fr: "Pokémon GO",
-		es: "Pokémon GO",
-		it: "Pokémon GO",
-		de: "Pokémon GO",
-		pt: "Pokémon GO"
+		'en-us': "Pokémon GO",
+		'fr-fr': "Pokémon GO",
+		'es-es': "Pokémon GO",
+		'it-it': "Pokémon GO",
+		'de-de': "Pokémon GO",
+		'pt-br': "Pokémon GO"
 	},
 
 	tcgOnline: 'PGO',
@@ -24,7 +24,7 @@ const swsh105: Set = {
 
 	abbreviations: {
 		official: "PGO",
-		fr: "PGO"
+		'fr-fr': "PGO"
 	},
 
 	thirdParty: {

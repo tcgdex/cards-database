@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY trainer Kit (Wigglytuff)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pidgey",
-		fr: "Roucool",
-		es: "Pidgey",
-		it: "Pidgey",
-		pt: "Pidgey",
-		de: "Taubsi"
+		'en-us': "Pidgey",
+		'fr-fr': "Roucool",
+		'es-es': "Pidgey",
+		'it-it': "Pidgey",
+		'pt-br': "Pidgey",
+		'de-de': "Taubsi"
 	},
 
 	rarity: "Common",

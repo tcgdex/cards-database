@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Salandit",
-		fr: "Tritox",
-		es: "Salandit",
-		it: "Salandit",
-		pt: "Salandit",
-		de: "Molunk"
+		'en-us': "Salandit",
+		'fr-fr': "Tritox",
+		'es-es': "Salandit",
+		'it-it': "Salandit",
+		'pt-br': "Salandit",
+		'de-de': "Molunk"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Ember",
-			fr: "Flammèche",
-			es: "Ascuas",
-			it: "Braciere",
-			pt: "Brasa",
-			de: "Glut"
+			'en-us': "Ember",
+			'fr-fr': "Flammèche",
+			'es-es': "Ascuas",
+			'it-it': "Braciere",
+			'pt-br': "Brasa",
+			'de-de': "Glut"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte uma Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 30

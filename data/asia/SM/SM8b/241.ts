@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オンバーンGX",
+		'ja-jp': "オンバーンGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "次の相手の番、相手は手札からグッズを出して使えない。",
+				'ja-jp': "次の相手の番、相手は手札からグッズを出して使えない。",
 			},
 		},
 		{
@@ -28,14 +28,14 @@ const card: Card = {
 			damage: 120,
 			cost: ["Psychic", "Darkness", "Colorless"],
 			effect: {
-				ja: "次の相手の番、相手は手札から特殊エネルギーを出してつけられない。",
+				'ja-jp': "次の相手の番、相手は手札から特殊エネルギーを出してつけられない。",
 			},
 		},
 		{
 			name: { ja: "ばくおんぱGX" },
 			cost: ["Psychic", "Darkness", "Colorless"],
 			effect: {
-				ja: "相手のポケモン全員に、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のポケモン全員に、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "オンバット",
+		'ja-jp': "オンバット",
 	},
 
 	retreat: 0,

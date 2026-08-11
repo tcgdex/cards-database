@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arcanine",
+		'en-us': "Arcanine",
 	},
 
 	illustrator: "REND",
@@ -20,18 +20,18 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Sun-Drenched Tackle",
+			'en-us': "Sun-Drenched Tackle",
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack",
+			'en-us': "During your next turn, this Pokémon can't attack",
 		},
 
 		damage: 160
 	}],
 
 	evolveFrom: {
-		en: "Growlithe",
+		'en-us': "Growlithe",
 	},
 
 	weaknesses: [{
@@ -42,7 +42,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "The sight of it running over 6,200 miles in a single day and night has captivated many people.",
+		'en-us': "The sight of it running over 6,200 miles in a single day and night has captivated many people.",
 	},
 
 	variants: [

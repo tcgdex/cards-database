@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Tarinorme",
-		en: "Probopass",
-		es: "Probopass",
-		it: "Probopass",
-		pt: "Probopass",
-		de: "Voluminas"
+		'fr-fr': "Tarinorme",
+		'en-us': "Probopass",
+		'es-es': "Probopass",
+		'it-it': "Probopass",
+		'pt-br': "Probopass",
+		'de-de': "Voluminas"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 150,
 	types: ["Metal"],
 	evolveFrom: {
-		fr: "Tarinor",
-		en: "Nosepass",
-		es: "Nosepass",
-		it: "Nosepass",
-		pt: "Nosepass",
-		de: "Nasgnet"
+		'fr-fr': "Tarinor",
+		'en-us': "Nosepass",
+		'es-es': "Nosepass",
+		'it-it': "Nosepass",
+		'pt-br': "Nosepass",
+		'de-de': "Nasgnet"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			fr: "Triple Nez",
-			en: "Triple Nose",
-			es: "Nariz Triple",
-			it: "Triplo Naso",
-			pt: "Nariz Triplo",
-			de: "Dreifachnase"
+			'fr-fr': "Triple Nez",
+			'en-us': "Triple Nose",
+			'es-es': "Nariz Triple",
+			'it-it': "Triplo Naso",
+			'pt-br': "Nariz Triplo",
+			'de-de': "Dreifachnase"
 		},
 
 		effect: {
-			fr: "Lancez 3 pièces. Cette attaque inflige 40 dégâts pour chaque côté face.",
-			en: "Flip 3 coins. This attack does 40 damage for each heads.",
-			es: "Lanza 3 monedas. Este ataque hace 40 puntos de daño por cada cara.",
-			it: "Lancia tre volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa.",
-			pt: "Jogue 3 moedas. Este ataque causa 40 pontos de dano para cada cara.",
-			de: "Wirf 3 Münzen. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu."
+			'fr-fr': "Lancez 3 pièces. Cette attaque inflige 40 dégâts pour chaque côté face.",
+			'en-us': "Flip 3 coins. This attack does 40 damage for each heads.",
+			'es-es': "Lanza 3 monedas. Este ataque hace 40 puntos de daño por cada cara.",
+			'it-it': "Lancia tre volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 3 moedas. Este ataque causa 40 pontos de dano para cada cara.",
+			'de-de': "Wirf 3 Münzen. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "40×"
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Metal", "Metal", "Colorless"],
 
 		name: {
-			fr: "Buster de Fer",
-			en: "Iron Buster",
-			es: "Destructor Férreo",
-			it: "Ferro Distruttivo",
-			pt: "Destruidor Férreo",
-			de: "Eisensprenger"
+			'fr-fr': "Buster de Fer",
+			'en-us': "Iron Buster",
+			'es-es': "Destructor Férreo",
+			'it-it': "Ferro Distruttivo",
+			'pt-br': "Destruidor Férreo",
+			'de-de': "Eisensprenger"
 		},
 
 		effect: {
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			en: "During your next turn, this Pokémon can't attack.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 160
@@ -90,7 +90,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It uses three small units to catch prey and battle enemies. The main body mostly just gives orders.",
+		'en-us': "It uses three small units to catch prey and battle enemies. The main body mostly just gives orders.",
 	},
 
 	variants: [

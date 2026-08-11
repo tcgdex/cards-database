@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケイコウオ",
+		'ja-jp': "ケイコウオ",
 	},
 
 	illustrator: "Yukiko Baba",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ピンク色の 皮の 部分は 太陽光を 溜めて 光る。 カモフラージュのためと いわれる。",
+		'ja-jp': "ピンク色の 皮の 部分は 太陽光を 溜めて 光る。 カモフラージュのためと いわれる。",
 	},
 
 	stage: "Basic",

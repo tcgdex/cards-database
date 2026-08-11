@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Barbicha",
-		en: "Whiscash",
-		es: "Whiscash",
-		it: "Whiscash",
-		pt: "Whiscash",
-		de: "Welsar"
+		'fr-fr': "Barbicha",
+		'en-us': "Whiscash",
+		'es-es': "Whiscash",
+		'it-it': "Whiscash",
+		'pt-br': "Whiscash",
+		'de-de': "Welsar"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Fighting"],
 	evolveFrom: {
-		fr: "Barloche",
-		en: "Barboach",
-		es: "Barboach",
-		it: "Barboach",
-		pt: "Barboach",
-		de: "Schmerbe"
+		'fr-fr': "Barloche",
+		'en-us': "Barboach",
+		'es-es': "Barboach",
+		'it-it': "Barboach",
+		'pt-br': "Barboach",
+		'de-de': "Schmerbe"
 	},
 	stage: "Stage1",
 
@@ -32,32 +32,32 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			fr: "Rage et Roulis",
-			en: "Raging and Rocking",
-			es: "Furia y Temblor",
-			it: "Scossone Furioso",
-			pt: "Sacudida Irada",
-			de: "Wüten und Wackeln"
+			'fr-fr': "Rage et Roulis",
+			'en-us': "Raging and Rocking",
+			'es-es': "Furia y Temblor",
+			'it-it': "Scossone Furioso",
+			'pt-br': "Sacudida Irada",
+			'de-de': "Wüten und Wackeln"
 		},
 
 		effect: {
-			fr: "Pour chaque Énergie {F} attachée à ce Pokémon, défaussez la carte du dessus du deck de votre adversaire.",
-			en: "For each {F} Energy attached to this Pokémon, discard the top card of your opponent's deck.",
-			es: "Por cada Energía {F} unida a este Pokémon, descarta la primera carta de la baraja de tu rival.",
-			it: "Per ogni Energia {F} assegnata a questo Pokémon, scarta la prima carta del mazzo del tuo avversario.",
-			pt: "Para cada Energia {F} ligada a este Pokémon, descarte a carta de cima do baralho do seu oponente.",
-			de: "Lege für jede an dieses Pokémon angelegte {F}-Energie die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
+			'fr-fr': "Pour chaque Énergie {F} attachée à ce Pokémon, défaussez la carte du dessus du deck de votre adversaire.",
+			'en-us': "For each {F} Energy attached to this Pokémon, discard the top card of your opponent's deck.",
+			'es-es': "Por cada Energía {F} unida a este Pokémon, descarta la primera carta de la baraja de tu rival.",
+			'it-it': "Per ogni Energia {F} assegnata a questo Pokémon, scarta la prima carta del mazzo del tuo avversario.",
+			'pt-br': "Para cada Energia {F} ligada a este Pokémon, descarte a carta de cima do baralho do seu oponente.",
+			'de-de': "Lege für jede an dieses Pokémon angelegte {F}-Energie die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
 		}
 	}, {
 		cost: ["Fighting", "Fighting", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Écras'Terre",
-			en: "Land Crush",
-			es: "Aterrizaje",
-			it: "Schiacciaterra",
-			pt: "Aperto de Terra",
-			de: "Schollenbrecher"
+			'fr-fr': "Écras'Terre",
+			'en-us': "Land Crush",
+			'es-es': "Aterrizaje",
+			'it-it': "Schiacciaterra",
+			'pt-br': "Aperto de Terra",
+			'de-de': "Schollenbrecher"
 		},
 
 		damage: 140
@@ -73,7 +73,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It is extremely protective of its territory. If any foe approaches, it attacks using vicious tremors.",
+		'en-us': "It is extremely protective of its territory. If any foe approaches, it attacks using vicious tremors.",
 	},
 
 	variants: [

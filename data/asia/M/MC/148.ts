@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オーガポン かまどのめん",
+		'ja-jp': "オーガポン かまどのめん",
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "かまどで 燃えさかる 炎のように 激しく 敵を 攻めたてる もっとも 攻撃的な 姿。",
+		'ja-jp': "かまどで 燃えさかる 炎のように 激しく 敵を 攻めたてる もっとも 攻撃的な 姿。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ほのおかぐら" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から「基本[R]エネルギー」を1枚選び、自分のポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から「基本[R]エネルギー」を1枚選び、自分のポケモンにつける。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 	],

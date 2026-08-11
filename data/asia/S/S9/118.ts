@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "リザードンVSTAR"
+		'ja-jp': "リザードンVSTAR"
 	},
 
 	illustrator: "5ban Graphics",
@@ -18,25 +18,25 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			ja: "ばくれつファイヤー"
+			'ja-jp': "ばくれつファイヤー"
 		},
 
 		damage: "130＋",
 
 		effect: {
-			ja: "このポケモンにダメカンがのっているなら、100ダメージ追加。"
+			'ja-jp': "このポケモンにダメカンがのっているなら、100ダメージ追加。"
 		}
 	}, {
 		cost: ["Fire", "Fire", "Fire", "Colorless"],
 
 		name: {
-			ja: "スターブレイズ"
+			'ja-jp': "スターブレイズ"
 		},
 
 		damage: 320,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを2個選び、トラッシュする。［対戦中、自分はVSTARパワーを1回しか使えない。］"
+			'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。［対戦中、自分はVSTARパワーを1回しか使えない。］"
 		}
 	}],
 

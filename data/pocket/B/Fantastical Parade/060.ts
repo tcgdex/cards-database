@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [202],
 
 	name: {
-		en: "Wobbuffet"
+		'en-us': "Wobbuffet"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "To keep its pitch-black tail hidden, it lives quietly\nin the darkness. It is never first to attack."
+		'en-us': "To keep its pitch-black tail hidden, it lives quietly\nin the darkness. It is never first to attack."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Flip Over"
+			'en-us': "Flip Over"
 		},
 
 		damage: 80,
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		effect: {
-			en: "This Pokémon also does 10 damage to itself."
+			'en-us': "This Pokémon also does 10 damage to itself."
 		}
 	}],
 

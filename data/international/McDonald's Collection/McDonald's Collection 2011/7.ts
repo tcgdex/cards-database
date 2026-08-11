@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2011'
 
 const card: Card = {
@@ -9,26 +9,26 @@ const card: Card = {
 	dexId: [517],
 
 	description: {
-		en: "It eats the dreams of people and Pokémon. When it eats a pleasant dream, it expels pink-colored mist."
+		'en-us': "It eats the dreams of people and Pokémon. When it eats a pleasant dream, it expels pink-colored mist."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Yawn",
-			fr: "Bâillement"
+			'en-us': "Yawn",
+			'fr-fr': "Bâillement"
 		},
 
 		effect: {
-			en: "The Defending Pokémon is now Asleep.",
-			fr: "Le Pokémon Défenseur est maintenant Endormi."
+			'en-us': "The Defending Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Défenseur est maintenant Endormi."
 		}
 	}],
 
 	name: {
-		en: "Munna",
-		fr: "Munna"
+		'en-us': "Munna",
+		'fr-fr': "Munna"
 	},
 
 	rarity: "None",

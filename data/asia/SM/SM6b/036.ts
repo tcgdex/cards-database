@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サナギラス",
+		'ja-jp': "サナギラス",
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "岩盤のような 硬い 殻に 覆われているが 力は 強く 暴れると 山も 崩れてしまう。",
+		'ja-jp': "岩盤のような 硬い 殻に 覆われているが 力は 強く 暴れると 山も 崩れてしまう。",
 	},
 
 	stage: "Stage1",
@@ -28,7 +28,7 @@ const card: Card = {
 			name: { ja: "すなあらし" },
 			cost: ["Fighting", "Fighting"],
 			effect: {
-				ja: "おたがいのポケモン（[闘]ポケモンをのぞく）全員に、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "おたがいのポケモン（[闘]ポケモンをのぞく）全員に、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヨーギラス",
+		'ja-jp': "ヨーギラス",
 	},
 
 	retreat: 1,

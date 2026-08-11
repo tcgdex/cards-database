@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "คาจิชชู",
-		id: "Applin"
+		'th-th': "คาจิชชู",
+		'id-id': "Applin"
 	},
 
 	illustrator: "Yoriyuki Ikegami",
@@ -15,16 +15,16 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		th: "อาศัยอยู่ในแอปเปิล พอไม่มีแอปเปิลแล้วจะสูญเสียน้ำในร่างกายและอ่อนแอลง",
-		id: "Applin hidup di dalam buah apel. Jika apelnya habis, Pokémon ini akan melemah karena kehilangan cairan tubuhnya."
+		'th-th': "อาศัยอยู่ในแอปเปิล พอไม่มีแอปเปิลแล้วจะสูญเสียน้ำในร่างกายและอ่อนแอลง",
+		'id-id': "Applin hidup di dalam buah apel. Jika apelnya habis, Pokémon ini akan melemah karena kehilangan cairan tubuhnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ฉีดพ่นน้ำ",
-			id: "Menyemprotkan Getah"
+			'th-th': "ฉีดพ่นน้ำ",
+			'id-id': "Menyemprotkan Getah"
 		},
 
 		damage: 20,

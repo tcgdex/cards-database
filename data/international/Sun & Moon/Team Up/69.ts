@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Cosmog",
-		fr: "Cosmog",
-		es: "Cosmog",
-		it: "Cosmog",
-		pt: "Cosmog",
-		de: "Cosmog"
+		'en-us': "Cosmog",
+		'fr-fr': "Cosmog",
+		'es-es': "Cosmog",
+		'it-it': "Cosmog",
+		'pt-br': "Cosmog",
+		'de-de': "Cosmog"
 	},
 
 	illustrator: "sui",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Cosmic Guard",
-				fr: "Barrière Cosmique",
-				es: "Guardia Cósmica",
-				it: "Guardia Cosmica",
-				pt: "Proteção Cósmica",
-				de: "Kosmische Wacht"
+				'en-us': "Cosmic Guard",
+				'fr-fr': "Barrière Cosmique",
+				'es-es': "Guardia Cósmica",
+				'it-it': "Guardia Cosmica",
+				'pt-br': "Proteção Cósmica",
+				'de-de': "Kosmische Wacht"
 			},
 			effect: {
-				en: "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s).",
-				fr: "Tant que ce Pokémon est sur votre Banc, évitez tous les dégâts infligés à ce Pokémon par des attaques (les vôtres et celles de votre adversaire).",
-				es: "Mientras este Pokémon esté en tu Banca, evita todo el daño infligido a este Pokémon por ataques (tanto tuyos como de tu rival).",
-				it: "Fintanto che questo Pokémon è nella tua panchina, previeni tutti i danni inflitti a questo Pokémon dagli attacchi, sia tuoi che del tuo avversario.",
-				pt: "Enquanto este Pokémon estiver no seu Banco, prevenirá todo o dano causado a este Pokémon por ataques (seus e do seu oponente).",
-				de: "Solang sich dieses Pokémon auf deiner Bank befindet, verhindere allen Schaden, der diesem Pokémon durch Attacken (deine und die deines Gegners) zugefügt wird."
+				'en-us': "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s).",
+				'fr-fr': "Tant que ce Pokémon est sur votre Banc, évitez tous les dégâts infligés à ce Pokémon par des attaques (les vôtres et celles de votre adversaire).",
+				'es-es': "Mientras este Pokémon esté en tu Banca, evita todo el daño infligido a este Pokémon por ataques (tanto tuyos como de tu rival).",
+				'it-it': "Fintanto che questo Pokémon è nella tua panchina, previeni tutti i danni inflitti a questo Pokémon dagli attacchi, sia tuoi che del tuo avversario.",
+				'pt-br': "Enquanto este Pokémon estiver no seu Banco, prevenirá todo o dano causado a este Pokémon por ataques (seus e do seu oponente).",
+				'de-de': "Solang sich dieses Pokémon auf deiner Bank befindet, verhindere allen Schaden, der diesem Pokémon durch Attacken (deine und die deines Gegners) zugefügt wird."
 			},
 		},
 	],
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mumble",
-				fr: "Murmure",
-				es: "Farfullar",
-				it: "Borbottio",
-				pt: "Resmungo",
-				de: "Grummeln"
+				'en-us': "Mumble",
+				'fr-fr': "Murmure",
+				'es-es': "Farfullar",
+				'it-it': "Borbottio",
+				'pt-br': "Resmungo",
+				'de-de': "Grummeln"
 			},
 
 			damage: 10,
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "In ages past, it was called the child of the stars. It's said to be a Pokémon from another world, but no specific details are known.",
+		'en-us': "In ages past, it was called the child of the stars. It's said to be a Pokémon from another world, but no specific details are known.",
 	},
 
 	thirdParty: {

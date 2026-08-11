@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "メブキジカ",
+		'ja-jp': "メブキジカ",
 	},
 
 	illustrator: "Narano",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "季節によって 住処を 変える。 人々は メブキジカの ツノで 季節の 移り変わりを 感じる。",
+		'ja-jp': "季節によって 住処を 変える。 人々は メブキジカの ツノで 季節の 移り変わりを 感じる。",
 	},
 
 	stage: "Stage1",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+				'ja-jp': "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
 			},
 		},
 		{
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シキジカ",
+		'ja-jp': "シキジカ",
 	},
 
 	retreat: 2,

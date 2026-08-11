@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エーフィ&デオキシスGX",
+		'ja-jp': "エーフィ&デオキシスGX",
 	},
 
 	illustrator: "Hasuno",
@@ -20,14 +20,14 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチの[超]ポケモンの数×30ダメージ追加。",
+				'ja-jp': "自分のベンチの[超]ポケモンの数×30ダメージ追加。",
 			},
 		},
 		{
 			name: { ja: "クロスディヴィジョンGX" },
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "ダメカン10個を、相手のポケモンに好きなようにのせる。追加でエネルギーが3個ついているなら、のせるダメカンの数は20個になる。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "ダメカン10個を、相手のポケモンに好きなようにのせる。追加でエネルギーが3個ついているなら、のせるダメカンの数は20個になる。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

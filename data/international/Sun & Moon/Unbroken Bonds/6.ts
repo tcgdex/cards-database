@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Oddish",
-		fr: "Mystherbe",
-		es: "Oddish",
-		it: "Oddish",
-		pt: "Oddish",
-		de: "Myrapla"
+		'en-us': "Oddish",
+		'fr-fr': "Mystherbe",
+		'es-es': "Oddish",
+		'it-it': "Oddish",
+		'pt-br': "Oddish",
+		'de-de': "Myrapla"
 	},
 
 	illustrator: "Asako Ito",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Hook",
-				fr: "Crochet",
-				es: "Garfio",
-				it: "Uncino",
-				pt: "Gancho",
-				de: "Haken"
+				'en-us': "Hook",
+				'fr-fr': "Crochet",
+				'es-es': "Garfio",
+				'it-it': "Uncino",
+				'pt-br': "Gancho",
+				'de-de': "Haken"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "During the day, It stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
+		'en-us': "During the day, It stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
 	},
 
 	thirdParty: {

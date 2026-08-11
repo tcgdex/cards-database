@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Surskit",
-		fr: "Arakdo",
-		de: "Gehweiher"
+		'en-us': "Surskit",
+		'fr-fr': "Arakdo",
+		'de-de': "Gehweiher"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Agility",
-				fr: "Hâte",
-				de: "Agility"
+				'en-us': "Agility",
+				'fr-fr': "Hâte",
+				'de-de': "Agility"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Surskit during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Arakdo lors du prochain tour de votre adversaire.",
-				de: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Surskit during your opponent's next turn."
+				'en-us': "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Surskit during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Arakdo lors du prochain tour de votre adversaire.",
+				'de-de': "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Surskit during your opponent's next turn."
 			},
 			damage: 10,
 

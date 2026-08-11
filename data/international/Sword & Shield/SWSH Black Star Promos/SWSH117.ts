@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
@@ -7,18 +7,18 @@ const card: Card = {
 	category: "Pokemon",
 
 	description: {
-		en: "It is strong despite its compact size. It can easily pick up and carry an adult human on its back."
+		'en-us': "It is strong despite its compact size. It can easily pick up and carry an adult human on its back."
 	},
 
 	stage: "Basic",
 
 	name: {
-		en: "Phanpy",
-		fr: "Phanpy",
-		de: "Phanpy",
-		es: "Phanpy",
-		pt: "Phanpy",
-		it: "Phanpy"
+		'en-us': "Phanpy",
+		'fr-fr': "Phanpy",
+		'de-de': "Phanpy",
+		'es-es': "Phanpy",
+		'pt-br': "Phanpy",
+		'it-it': "Phanpy"
 	},
 
 	rarity: "Promo",
@@ -30,12 +30,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Stampede",
-			fr: "Ruée",
-			de: "Zertrampeln",
-			es: "Estampida",
-			pt: "Estouro",
-			it: "Fuggi Fuggi"
+			'en-us': "Stampede",
+			'fr-fr': "Ruée",
+			'de-de': "Zertrampeln",
+			'es-es': "Estampida",
+			'pt-br': "Estouro",
+			'it-it': "Fuggi Fuggi"
 		},
 
 		damage: 10
@@ -43,21 +43,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Strike Back",
-			fr: "Vengeur",
-			de: "Kontern",
-			es: "Contraimpacto",
-			pt: "Revidar",
-			it: "Risposta"
+			'en-us': "Strike Back",
+			'fr-fr': "Vengeur",
+			'de-de': "Kontern",
+			'es-es': "Contraimpacto",
+			'pt-br': "Revidar",
+			'it-it': "Risposta"
 		},
 
 		effect: {
-			en: "This attack does 30 damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 30 Schadenspunkte zu.",
-			es: "Este ataque hace 30 puntos de daño por cada contador de daño en este Pokémon.",
-			pt: "Este ataque causa 30 pontos de dano para cada contador de dano neste Pokémon.",
-			it: "Questo attacco infligge 30 danni per ogni segnalino danno presente su questo Pokémon."
+			'en-us': "This attack does 30 damage for each damage counter on this Pokémon.",
+			'fr-fr': "Cette attaque inflige 30 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 30 Schadenspunkte zu.",
+			'es-es': "Este ataque hace 30 puntos de daño por cada contador de daño en este Pokémon.",
+			'pt-br': "Este ataque causa 30 pontos de dano para cada contador de dano neste Pokémon.",
+			'it-it': "Questo attacco infligge 30 danni per ogni segnalino danno presente su questo Pokémon."
 		},
 
 		damage: "30×"

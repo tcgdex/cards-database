@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Sharpedo",
-		fr: "Sharpedo de la Team Aqua",
-		pt: "Sharpedo da Equipe Aqua",
+		'en-us': "Team Aqua's Sharpedo",
+		'fr-fr': "Sharpedo de la Team Aqua",
+		'pt-br': "Sharpedo da Equipe Aqua",
 	},
 
 	illustrator: "kawayoo",
@@ -24,9 +24,9 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Team Aqua's Carvanha",
-		fr: "Carvanha de la Team Aqua",
-		pt: "Carvanha da Equipe Aqua",
+		'en-us': "Team Aqua's Carvanha",
+		'fr-fr': "Carvanha de la Team Aqua",
+		'pt-br': "Carvanha da Equipe Aqua",
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Aqua Search",
-				fr: "Recherche Aqua",
-				pt: "Busca Aqua",
+				'en-us': "Aqua Search",
+				'fr-fr': "Recherche Aqua",
+				'pt-br': "Busca Aqua",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may search your deck for a Team Aqua Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez chercher un Pokémon de la Team Aqua dans votre deck, le montrer et l'ajouter à votre main. Mélangez ensuite votre deck.",
-				pt: "Uma vez durante sua vez de jogar (antes de atacar), você pode procurar um Pokémon da Equipe Aqua em seu baralho, revelá-lo e colocá-lo na sua mão. Em seguida, embaralhe seus cards.",
+				'en-us': "Once during your turn (before your attack), you may search your deck for a Team Aqua Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez chercher un Pokémon de la Team Aqua dans votre deck, le montrer et l'ajouter à votre main. Mélangez ensuite votre deck.",
+				'pt-br': "Uma vez durante sua vez de jogar (antes de atacar), você pode procurar um Pokémon da Equipe Aqua em seu baralho, revelá-lo e colocá-lo na sua mão. Em seguida, embaralhe seus cards.",
 			},
 		},
 	],
@@ -55,8 +55,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharp Fang",
-				fr: "Croc Aiguisé",
+				'en-us': "Sharp Fang",
+				'fr-fr': "Croc Aiguisé",
 			},
 
 			damage: 70,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It boasts fangs so powerful that they knock opponents out in one shot! Enemies that slip up will be taken down without fail!",
+		'en-us': "It boasts fangs so powerful that they knock opponents out in one shot! Enemies that slip up will be taken down without fail!",
 	},
 
 	thirdParty: {

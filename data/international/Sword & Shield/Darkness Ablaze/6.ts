@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [511],
 
 	name: {
-		en: "Pansage",
-		fr: "Feuillajou",
-		es: "Pansage",
-		it: "Pansage",
-		pt: "Pansage",
-		de: "Vegimak"
+		'en-us': "Pansage",
+		'fr-fr': "Feuillajou",
+		'es-es': "Pansage",
+		'it-it': "Pansage",
+		'pt-br': "Pansage",
+		'de-de': "Vegimak"
 	},
 
 	illustrator: "Mina Nakai",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Seed Bomb",
-				fr: "Canon Graine",
-				es: "Bomba Germen",
-				it: "Semebomba",
-				pt: "Bomba de Sementes",
-				de: "Samenbomben"
+				'en-us': "Seed Bomb",
+				'fr-fr': "Canon Graine",
+				'es-es': "Bomba Germen",
+				'it-it': "Semebomba",
+				'pt-br': "Bomba de Sementes",
+				'de-de': "Samenbomben"
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 20,
@@ -73,7 +73,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It's good at finding berries and gathers them from all over. It's kind enough to share them with friends."
+		'en-us': "It's good at finding berries and gathers them from all over. It's kind enough to share them with friends."
 	},
 
 	variants: [

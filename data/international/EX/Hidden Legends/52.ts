@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Baltoy",
-		fr: "Balbuto",
-		de: "Puppance"
+		'en-us': "Baltoy",
+		'fr-fr': "Balbuto",
+		'de-de': "Puppance"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psyshock",
-				fr: "Choc psy",
-				de: "Psyshock"
+				'en-us': "Psyshock",
+				'fr-fr': "Choc psy",
+				'de-de': "Psyshock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 

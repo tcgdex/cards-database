@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シードラ",
+		'ja-jp': "シードラ",
 		'zh-tw': "海刺龍",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "羽と 尻尾を 素早く 動かし 前を 向いたまま 後ろへ 泳ぐこともできる ポケモン。",
+		'ja-jp': "羽と 尻尾を 素早く 動かし 前を 向いたまま 後ろへ 泳ぐこともできる ポケモン。",
 		'zh-tw': "這種寶可夢可以藉著快速擺動翅膀和尾巴，在面向前方的情況下向後游動。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "みずでっぽう",
+				'ja-jp': "みずでっぽう",
 				'zh-tw': "水槍",
 			},
 			damage: 40,
@@ -51,7 +51,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "タッツー",
+		'ja-jp': "タッツー",
 	},
 
 	retreat: 1,

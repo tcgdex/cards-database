@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Chansey",
-		fr: "Leveinard",
-		es: "Chansey",
-		it: "Chansey",
-		pt: "Chansey",
-		de: "Chaneira"
+		'en-us': "Chansey",
+		'fr-fr': "Leveinard",
+		'es-es': "Chansey",
+		'it-it': "Chansey",
+		'pt-br': "Chansey",
+		'de-de': "Chaneira"
 	},
 
 	illustrator: "Mizue",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Continuous Tumble",
-				fr: "Roulade Continue"
+				'en-us': "Continuous Tumble",
+				'fr-fr': "Roulade Continue"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
+				'en-us': "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
 			},
 			damage: 30,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A kindly Pokémon that lays highly nutritious eggs and shares them with injured Pokémon or people.",
+		'en-us': "A kindly Pokémon that lays highly nutritious eggs and shares them with injured Pokémon or people.",
 	},
 
 	thirdParty: {

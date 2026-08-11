@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Combee",
-		fr: "Apitrini",
-		de: "Wadribie"
+		'en-us': "Combee",
+		'fr-fr': "Apitrini",
+		'de-de': "Wadribie"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Soliciting Nectar",
-				fr: "Nectar alléchant",
-				de: "Anlockender Nektar"
+				'en-us': "Soliciting Nectar",
+				'fr-fr': "Nectar alléchant",
+				'de-de': "Anlockender Nektar"
 			},
 			effect: {
-				en: "Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. The new Defending Pokémon is now Asleep.",
-				fr: "Échangez 1 des Pokémon de Banc de votre adversaire avec 1 des Pokémon Défenseurs. Le nouveau Pokémon Défenseur est maintenant Endormi.",
-				de: "Tausche 1 Verteidigendes Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus. Das neue Verteidigende Pokémon schläft jetzt."
+				'en-us': "Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. The new Defending Pokémon is now Asleep.",
+				'fr-fr': "Échangez 1 des Pokémon de Banc de votre adversaire avec 1 des Pokémon Défenseurs. Le nouveau Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Tausche 1 Verteidigendes Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus. Das neue Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gust",
-				fr: "Tornade",
-				de: "Windstoß"
+				'en-us': "Gust",
+				'fr-fr': "Tornade",
+				'de-de': "Windstoß"
 			},
 
 			damage: 20,
@@ -75,8 +75,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon formed by three others. It busily carries sweet floral honey to VESPIQUEN.",
-		fr: "Un Pokémon qui en regroupe trois autres. Il est toujours occupé à apporter du nectar à Apireine."
+		'en-us': "A Pokémon formed by three others. It busily carries sweet floral honey to VESPIQUEN.",
+		'fr-fr': "Un Pokémon qui en regroupe trois autres. Il est toujours occupé à apporter du nectar à Apireine."
 	},
 
 	thirdParty: {

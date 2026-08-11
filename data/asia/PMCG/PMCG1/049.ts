@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フーディン",
+		'ja-jp': "フーディン",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "ダメージスワップ",
+				'ja-jp': "ダメージスワップ",
 			},
 			effect: {
-				ja: "ターン<em>（攻撃の前）</em>中に好きなように、ポクモンをノックアウトしない限り、1ダメージカウンター1から別のダメージカウンターを移動できます。アラカザムが特別な状態の影響を受けている場合、この力は使用できません。",
+				'ja-jp': "ターン<em>（攻撃の前）</em>中に好きなように、ポクモンをノックアウトしない限り、1ダメージカウンター1から別のダメージカウンターを移動できます。アラカザムが特別な状態の影響を受けている場合、この力は使用できません。",
 			},
 		}],
 
@@ -30,10 +30,10 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Psychic", "Psychic"],
 			name: {
-				ja: "レイを混乱させます",
+				'ja-jp': "レイを混乱させます",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
 			},
 			damage: 30,
 		},

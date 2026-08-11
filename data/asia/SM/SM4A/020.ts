@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブーピッグ",
+		'ja-jp': "ブーピッグ",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "黒真珠で サイコパワーを 強め 奇妙な ステップで 相手の 心を 操るぞ。",
+		'ja-jp': "黒真珠で サイコパワーを 強め 奇妙な ステップで 相手の 心を 操るぞ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "マイペース" },
 			effect: {
-				ja: "このポケモンはこんらんにならない。",
+				'ja-jp': "このポケモンはこんらんにならない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンの「じこあんじ」のダメージは「+60」される。",
+				'ja-jp': "次の自分の番、このポケモンの「じこあんじ」のダメージは「+60」される。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "バネブー",
+		'ja-jp': "バネブー",
 	},
 
 	retreat: 2,

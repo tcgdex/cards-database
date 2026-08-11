@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "わるいサンダース",
+		'ja-jp': "わるいサンダース",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "稲妻フラッシュ",
+				'ja-jp': "稲妻フラッシュ",
 			},
 			effect: {
-				ja: "防衛ポケモンが相手の次のターン中に攻撃を試みた場合、対戦相手はコインをひっくり返します。尾の場合、その攻撃は何もしません。",
+				'ja-jp': "防衛ポケモンが相手の次のターン中に攻撃を試みた場合、対戦相手はコインをひっくり返します。尾の場合、その攻撃は何もしません。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Lightning", "Lightning", "Colorless"],
 			name: {
-				ja: "サンダー攻撃",
+				'ja-jp': "サンダー攻撃",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。尾の場合、ダークジョルテオンはそれ自体に10ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。尾の場合、ダークジョルテオンはそれ自体に10ダメージを与えます。",
 			},
 			damage: 30,
 		},

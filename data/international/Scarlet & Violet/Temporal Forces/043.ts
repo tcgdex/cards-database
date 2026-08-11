@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sharpedo",
-		fr: "Sharpedo",
-		es: "Sharpedo",
-		it: "Sharpedo",
-		pt: "Sharpedo",
-		de: "Tohaido"
+		'en-us': "Sharpedo",
+		'fr-fr': "Sharpedo",
+		'es-es': "Sharpedo",
+		'it-it': "Sharpedo",
+		'pt-br': "Sharpedo",
+		'de-de': "Tohaido"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Carvanha",
-		fr: "Carvanha",
-		es: "Carvanha",
-		it: "Carvanha",
-		pt: "Carvanha",
-		de: "Kanivanha"
+		'en-us': "Carvanha",
+		'fr-fr': "Carvanha",
+		'es-es': "Carvanha",
+		'it-it': "Carvanha",
+		'pt-br': "Carvanha",
+		'de-de': "Kanivanha"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Chew Off",
-			fr: "Dévoré Retiré",
-			es: "Desmenuzar",
-			it: "Staccamorso",
-			pt: "Mastigar e Cuspir",
-			de: "Zerbeißen"
+			'en-us': "Chew Off",
+			'fr-fr': "Dévoré Retiré",
+			'es-es': "Desmenuzar",
+			'it-it': "Staccamorso",
+			'pt-br': "Mastigar e Cuspir",
+			'de-de': "Zerbeißen"
 		},
 
 		effect: {
-			en: "Flip 3 coins. For each heads, discard a random card from your opponent's hand.",
-			fr: "Lancez 3 pièces. Pour chaque côté face, défaussez au hasard une carte de la main de votre adversaire.",
-			es: "Lanza 3 monedas. Por cada cara, descarta 1 carta aleatoria de la mano de tu rival.",
-			it: "Lancia tre volte una moneta. Ogni volta che esce testa, scarta una carta a caso dalla mano del tuo avversario.",
-			pt: "Jogue 3 moedas. Para cada cara, descarte uma carta aleatória da mão do seu oponente.",
-			de: "Wirf 3 Münzen. Lege pro Kopf 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
+			'en-us': "Flip 3 coins. For each heads, discard a random card from your opponent's hand.",
+			'fr-fr': "Lancez 3 pièces. Pour chaque côté face, défaussez au hasard une carte de la main de votre adversaire.",
+			'es-es': "Lanza 3 monedas. Por cada cara, descarta 1 carta aleatoria de la mano de tu rival.",
+			'it-it': "Lancia tre volte una moneta. Ogni volta che esce testa, scarta una carta a caso dalla mano del tuo avversario.",
+			'pt-br': "Jogue 3 moedas. Para cada cara, descarte uma carta aleatória da mão do seu oponente.",
+			'de-de': "Wirf 3 Münzen. Lege pro Kopf 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 50
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Jet Headbutt",
-			fr: "Bélier Volant",
-			es: "Turbocabezazo",
-			it: "Zuccata Jet",
-			pt: "Cabeçada a Jato",
-			de: "Flinke Kopfnuss"
+			'en-us': "Jet Headbutt",
+			'fr-fr': "Bélier Volant",
+			'es-es': "Turbocabezazo",
+			'it-it': "Zuccata Jet",
+			'pt-br': "Cabeçada a Jato",
+			'de-de': "Flinke Kopfnuss"
 		},
 
 		damage: 100
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "As soon as it catches the scent of prey, Sharpedo will jet seawater from its backside, hurtling toward the target to attack at 75 mph.",
+		'en-us': "As soon as it catches the scent of prey, Sharpedo will jet seawater from its backside, hurtling toward the target to attack at 75 mph.",
 	},
 
 	variants: [

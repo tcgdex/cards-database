@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヒトツキ",
-		id: "Honedge",
-		th: "ฮิโตทซึกิ",
+		'ja-jp': "ヒトツキ",
+		'id-id': "Honedge",
+		'th-th': "ฮิโตทซึกิ",
 		'zh-tw': "獨劍鞘",
 		'zh-cn': "獨劍鞘"
 	},
@@ -20,9 +20,9 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "剣の 鍔の 青い 目玉が ヒトツキの 本体。 古びた 布で 人の 生気を 吸い取る。",
-		id: "Tubuh asli Honedge adalah bola mata biru di gagang pedang. Pokémon ini mengisap vitalitas manusia menggunakan kain tuanya.",
-		th: "ตาสีฟ้าบนกระบังดาบคือตัวจริงของฮิโตทซึกิ ดูดเอาพลังชีวิตของคนไปด้วยผ้าเก่า ๆ",
+		'ja-jp': "剣の 鍔の 青い 目玉が ヒトツキの 本体。 古びた 布で 人の 生気を 吸い取る。",
+		'id-id': "Tubuh asli Honedge adalah bola mata biru di gagang pedang. Pokémon ini mengisap vitalitas manusia menggunakan kain tuanya.",
+		'th-th': "ตาสีฟ้าบนกระบังดาบคือตัวจริงของฮิโตทซึกิ ดูดเอาพลังชีวิตของคนไปด้วยผ้าเก่า ๆ",
 		'zh-tw': "獨劍鞘護手上的 藍色眼珠是牠的本體。 會用陳舊的布吸取人類的精氣。",
 		'zh-cn': "獨劍鞘護手上的 藍色眼珠是牠的本體。 會用陳舊的布吸取人類的精氣。"
 	},
@@ -33,9 +33,9 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			ja: "とつげき",
-			id: "Menyerang",
-			th: "ประจัญบาน",
+			'ja-jp': "とつげき",
+			'id-id': "Menyerang",
+			'th-th': "ประจัญบาน",
 			'zh-tw': "突擊",
 			'zh-cn': "突擊"
 		},
@@ -43,9 +43,9 @@ const card: Card = {
 		damage: 30,
 
 		effect: {
-			ja: "このポケモンにも10ダメージ。",
-			id: "Pokémon ini juga menerima kerusakan sejumlah 10.",
-			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
+			'ja-jp': "このポケモンにも10ダメージ。",
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10.",
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
 			'zh-tw': "這隻寶可夢也受到10點傷害。",
 			'zh-cn': "這隻寶可夢也受到10點傷害。"
 		}

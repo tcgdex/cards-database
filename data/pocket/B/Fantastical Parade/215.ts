@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [36],
 
 	name: {
-		en: "Clefable"
+		'en-us': "Clefable"
 	},
 
 	illustrator: "Taiga Kasai",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Clefairy"
+		'en-us': "Clefairy"
 	},
 
 	description: {
-		en: "A timid fairy Pokémon that is rarely seen, it will\nrun and hide the moment it senses people."
+		'en-us': "A timid fairy Pokémon that is rarely seen, it will\nrun and hide the moment it senses people."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Magical Shot"
+			'en-us': "Magical Shot"
 		},
 
 		damage: 40,

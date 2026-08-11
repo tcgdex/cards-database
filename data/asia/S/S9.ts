@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../S'
 
 const set: Set = {
 	id: 'S9',
 
 	name: {
-		ja: 'スターバース',
-		ko: '스타버스',
+		'ja-jp': 'スターバース',
+		'ko-kr': '스타버스',
 		'zh-tw': '星星誕生',
-		id: 'Star Birth',
-		th: 'สตาร์เบิร์ท'
+		'id-id': 'Star Birth',
+		'th-th': 'สตาร์เบิร์ท'
 	},
 
 	serie: serie,
@@ -19,10 +19,10 @@ const set: Set = {
 	},
 
 	releaseDate: {
-		ja: '2022-01-14',
+		'ja-jp': '2022-01-14',
 		'zh-tw': '2022-01-28',
-		id: '2022-04-22',
-		th: '2022-02-25'
+		'id-id': '2022-04-22',
+		'th-th': '2022-02-25'
 	},
 
 	thirdParty: {

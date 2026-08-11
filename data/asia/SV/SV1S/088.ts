@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ガケガニ"
+		'ja-jp': "ガケガニ"
 	},
 
 	illustrator: "Mina Nakai",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "逆さまになって 崖の 上から 獲物を 狙うが 頭に 血が上るので 長くは 待てない。"
+		'ja-jp': "逆さまになって 崖の 上から 獲物を 狙うが 頭に 血が上るので 長くは 待てない。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			ja: "はさむ"
+			'ja-jp': "はさむ"
 		},
 
 		damage: 50
@@ -32,13 +32,13 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Fighting"],
 
 		name: {
-			ja: "アドレナハンマー"
+			'ja-jp': "アドレナハンマー"
 		},
 
 		damage: 130,
 
 		effect: {
-			ja: "このポケモンをこんらんにする。"
+			'ja-jp': "このポケモンをこんらんにする。"
 		}
 	}],
 

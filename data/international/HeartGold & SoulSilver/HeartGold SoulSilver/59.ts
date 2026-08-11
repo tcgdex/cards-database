@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Chikorita",
-		fr: "Germignon",
-		de: "Endivie"
+		'en-us': "Chikorita",
+		'fr-fr': "Germignon",
+		'de-de': "Endivie"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -43,9 +43,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch’herbe",
-				de: "Rasierblatt"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch’herbe",
+				'de-de': "Rasierblatt"
 			},
 
 			damage: 20,
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its pleasantly aromatic leaf has the ability to check the humidity and temperature."
+		'en-us': "Its pleasantly aromatic leaf has the ability to check the humidity and temperature."
 	},
 
 	variants: [

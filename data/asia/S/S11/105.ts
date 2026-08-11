@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プテラV",
+		'ja-jp': "プテラV",
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],

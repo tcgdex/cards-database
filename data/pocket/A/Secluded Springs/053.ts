@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skrelp",
-		fr: "Venalgue"
+		'en-us': "Skrelp",
+		'fr-fr': "Venalgue"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "Skrelp evades its enemies by hiding amid\ndrifting seaweed. It eats rotten seaweed to\ncreate its poison.",
-		fr: "Il dissimule sa présence en se mêlant aux algues qui flottent à la surface et mange celles qui sont en décomposition pour en faire du poison."
+		'en-us': "Skrelp evades its enemies by hiding amid\ndrifting seaweed. It eats rotten seaweed to\ncreate its poison.",
+		'fr-fr': "Il dissimule sa présence en se mêlant aux algues qui flottent à la surface et mange celles qui sont en décomposition pour en faire du poison."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Melt",
-			fr: "Dissolution"
+			'en-us': "Melt",
+			'fr-fr': "Dissolution"
 		},
 
 		damage: 20,

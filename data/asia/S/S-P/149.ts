@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒードラン",
+		'ja-jp': "ヒードラン",
 		'zh-tw': "精靈球",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "マグマのように 燃えたぎる 血液が 体を 流れている。 火山の 洞穴に 生息する。",
+		'ja-jp': "マグマのように 燃えたぎる 血液が 体を 流れている。 火山の 洞穴に 生息する。",
 	},
 
 	stage: "Basic",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 		{
@@ -33,7 +33,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数×10ダメージ追加。",
+				'ja-jp': "このポケモンにのっているダメカンの数×10ダメージ追加。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リザードン",
+		'ja-jp': "リザードン",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "口から 灼熱の 炎を 吐き出すとき 尻尾の 先は より 赤く 激しく 燃え上がる。",
+		'ja-jp': "口から 灼熱の 炎を 吐き出すとき 尻尾の 先は より 赤く 激しく 燃え上がる。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "たけるとうき" },
 			effect: {
-				ja: "自分の番に1回使える。このポケモンにダメカンを2個のせる。その後、自分の山札にある[炎]エネルギーを2枚まで、このポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の番に1回使える。このポケモンにダメカンを2個のせる。その後、自分の山札にある[炎]エネルギーを2枚まで、このポケモンにつける。そして山札を切る。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Fire", "Fire"],
 			effect: {
-				ja: "このポケモンについている[炎]エネルギーをすべてトラッシュし、その枚数x50ダメージ追加。",
+				'ja-jp': "このポケモンについている[炎]エネルギーをすべてトラッシュし、その枚数x50ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "リザード",
+		'ja-jp': "リザード",
 	},
 
 	retreat: 2,

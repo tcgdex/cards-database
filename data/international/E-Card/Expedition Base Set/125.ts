@@ -1,18 +1,18 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Poliwag",
-		fr: "Ptitard",
-		de: "Quapsel"
+		'en-us': "Poliwag",
+		'fr-fr': "Ptitard",
+		'de-de': "Quapsel"
 	},
 
 	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Pokemon",
 	effect: {
-		en: "Attach Healing Berry to 1 of your Pokémon that doesn't already have a Pokémon Tool card attached to it. If that Pokémon is Knocked Out, discard this card. At the end of any turn, if the Pokémon this card is attached to has 20 HP or less, remove 3 damage counters from that Pokémon and discard this card.",
+		'en-us': "Attach Healing Berry to 1 of your Pokémon that doesn't already have a Pokémon Tool card attached to it. If that Pokémon is Knocked Out, discard this card. At the end of any turn, if the Pokémon this card is attached to has 20 HP or less, remove 3 damage counters from that Pokémon and discard this card.",
 	},
 	trainerType: "Tool",
 	set: Set,
@@ -33,9 +33,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 10,
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'de-de': "Walzer"
 			},
 
 			damage: 20,

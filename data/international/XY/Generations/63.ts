@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Imakuni?",
-		fr: "Imakuni ?",
+		'en-us': "Imakuni?",
+		'fr-fr': "Imakuni ?",
 	},
 
 	illustrator: undefined,
@@ -13,8 +13,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Votre Pokémon Actif est maintenant Confus.",
-		en: "Your Active Pokémon is now Confused."
+		'fr-fr': "Votre Pokémon Actif est maintenant Confus.",
+		'en-us': "Your Active Pokémon is now Confused."
 	},
 
 	trainerType: "Supporter",

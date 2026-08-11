@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラキュウコンGX",
+		'ja-jp': "アローラキュウコンGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ふしぎなみちびき" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札にあるグッズを2枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札にあるグッズを2枚まで、相手に見せてから、手札に加える。そして山札を切る。",
 			},
 		},
 	],
@@ -30,14 +30,14 @@ const card: Card = {
 			damage: 70,
 			cost: ["Fairy", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
 			name: { ja: "サブリメイションGX" },
 			cost: ["Fairy", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが「ウルトラビースト」なら、そのポケモンをきぜつさせる。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のバトルポケモンが「ウルトラビースト」なら、そのポケモンをきぜつさせる。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アローラロコン",
+		'ja-jp': "アローラロコン",
 	},
 
 	retreat: 2,

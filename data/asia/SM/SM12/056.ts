@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラキュウコン",
+		'ja-jp': "アローラキュウコン",
 	},
 
 	illustrator: "Eri Yamaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "雪山で 迷った 人間を 麓まで 案内 してくれるのは さっさと 追い払いたいからだ。",
+		'ja-jp': "雪山で 迷った 人間を 麓まで 案内 してくれるのは さっさと 追い払いたいからだ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10×",
 			cost: [],
 			effect: {
-				ja: "自分のトラッシュにある「ポケモンのどうぐ」の枚数×10ダメージ。",
+				'ja-jp': "自分のトラッシュにある「ポケモンのどうぐ」の枚数×10ダメージ。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アローラロコン",
+		'ja-jp': "アローラロコン",
 	},
 
 	retreat: 1,

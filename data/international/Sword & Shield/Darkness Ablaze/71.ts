@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [210],
 
 	name: {
-		en: "Granbull",
-		fr: "Granbull",
-		es: "Granbull",
-		it: "Granbull",
-		pt: "Granbull",
-		de: "Granbull"
+		'en-us': "Granbull",
+		'fr-fr': "Granbull",
+		'es-es': "Granbull",
+		'it-it': "Granbull",
+		'pt-br': "Granbull",
+		'de-de': "Granbull"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Snubbull",
-		fr: "Snubbull",
-		es: "Snubbull",
-		it: "Snubbull",
-		pt: "Snubbull",
-		de: "Snubbull"
+		'en-us': "Snubbull",
+		'fr-fr': "Snubbull",
+		'es-es': "Snubbull",
+		'it-it': "Snubbull",
+		'pt-br': "Snubbull",
+		'de-de': "Snubbull"
 	},
 
 	attacks: [
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jaw Lock",
-				fr: "Croque Fort",
-				es: "Presa Maxilar",
-				it: "Morsostretto",
-				pt: "Trava de Mandíbula",
-				de: "Fesselbiss"
+				'en-us': "Jaw Lock",
+				'fr-fr': "Croque Fort",
+				'es-es': "Presa Maxilar",
+				'it-it': "Morsostretto",
+				'pt-br': "Trava de Mandíbula",
+				'de-de': "Fesselbiss"
 			},
 			effect: {
-				en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
-				fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
-				es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
-				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-				pt: "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar.",
-				de: "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
+				'en-us': "During your opponent's next turn, the Defending Pokémon can't retreat.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
+				'es-es': "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
+				'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+				'pt-br': "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar.",
+				'de-de': "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
 			},
 			damage: 50,
 
@@ -64,12 +64,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt Bounce",
-				fr: "Culbute Surprise",
-				es: "Bote Cabezazo",
-				it: "Rimbalzo Bottintesta",
-				pt: "Cabeçada Ricochete",
-				de: "Abrupter Kopfstoß"
+				'en-us': "Headbutt Bounce",
+				'fr-fr': "Culbute Surprise",
+				'es-es': "Bote Cabezazo",
+				'it-it': "Rimbalzo Bottintesta",
+				'pt-br': "Cabeçada Ricochete",
+				'de-de': "Abrupter Kopfstoß"
 			},
 
 			damage: 130,
@@ -91,7 +91,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Although it's popular with young people, Granbull is timid and sensitive, so it's totally incompetent as a watchdog."
+		'en-us': "Although it's popular with young people, Granbull is timid and sensitive, so it's totally incompetent as a watchdog."
 	},
 
 	variants: [

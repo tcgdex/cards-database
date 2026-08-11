@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arven's Skwovet",
-		fr: "Rongourmand de Pepper",
-		de: "Peppers Raffel",
-		it: "Skwovet di Pepe",
-		es: "Skwovet de Damián",
-		pt: "Skwovet do Arven",
+		'en-us': "Arven's Skwovet",
+		'fr-fr': "Rongourmand de Pepper",
+		'de-de': "Peppers Raffel",
+		'it-it': "Skwovet di Pepe",
+		'es-es': "Skwovet de Damián",
+		'pt-br': "Skwovet do Arven",
 		'es-mx': "Skwovet de Damián"
 	},
 
@@ -28,22 +28,22 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Gnaw Through",
-			fr: "Grignotage",
-			de: "Durchnagen",
-			it: "Rosicchiadentro",
-			es: "Roedura Perforante",
-			pt: "Roída Interrupta",
+			'en-us': "Gnaw Through",
+			'fr-fr': "Grignotage",
+			'de-de': "Durchnagen",
+			'it-it': "Rosicchiadentro",
+			'es-es': "Roedura Perforante",
+			'pt-br': "Roída Interrupta",
 			'es-mx': "Roedura Perforante"
 		},
 
 		effect: {
-			en: "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
-			fr: "Avant d'infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire.",
-			de: "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
-			it: "Prima di infliggere danni, scarta tutte le carte Oggetto Pokémon dal Pokémon attivo del tuo avversario.",
-			es: "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival.",
-			pt: "Antes de causar dano, descarte todas as Ferramentas Pokémon do Pokémon Ativo do seu oponente.",
+			'en-us': "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
+			'fr-fr': "Avant d'infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire.",
+			'de-de': "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+			'it-it': "Prima di infliggere danni, scarta tutte le carte Oggetto Pokémon dal Pokémon attivo del tuo avversario.",
+			'es-es': "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival.",
+			'pt-br': "Antes de causar dano, descarte todas as Ferramentas Pokémon do Pokémon Ativo do seu oponente.",
 			'es-mx': "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival."
 		},
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Sableye G",
-		fr: "Tenefix ",
-		de: "Zobiris G"
+		'en-us': "Sableye G",
+		'fr-fr': "Tenefix ",
+		'de-de': "Zobiris G"
 	},
 	illustrator: "Yusuke Ishikawa",
 	rarity: "Rare",
@@ -24,9 +24,9 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,
@@ -38,14 +38,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Astonish",
-				fr: "Étonnement",
-				de: "Erstauner"
+				'en-us': "Astonish",
+				'fr-fr': "Étonnement",
+				'de-de': "Erstauner"
 			},
 			effect: {
-				en: "Choose 1 card from your opponent's hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck.",
-				fr: "Choisissez sans regarder 1 carte de la main de votre adversaire. Regardez-la, puis demandez à votre adversaire de la mélanger à son deck.",
-				de: "Wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen). Schau dir die Karte an, danach mischt dein Gegner sie in sein Deck."
+				'en-us': "Choose 1 card from your opponent's hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck.",
+				'fr-fr': "Choisissez sans regarder 1 carte de la main de votre adversaire. Regardez-la, puis demandez à votre adversaire de la mélanger à son deck.",
+				'de-de': "Wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen). Schau dir die Karte an, danach mischt dein Gegner sie in sein Deck."
 			},
 			damage: 20,
 

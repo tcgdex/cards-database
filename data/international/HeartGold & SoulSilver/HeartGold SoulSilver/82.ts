@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Snubbull",
-		fr: "Snubbull",
-		de: "Snubbull"
+		'en-us': "Snubbull",
+		'fr-fr': "Snubbull",
+		'de-de': "Snubbull"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Roar",
-				fr: "Hurlement",
-				de: "Gebrüll"
+				'en-us': "Roar",
+				'fr-fr': "Hurlement",
+				'de-de': "Gebrüll"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec l’un des Pokémon de son Banc.",
-				de: "Der Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec l’un des Pokémon de son Banc.",
+				'de-de': "Der Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharp Fang",
-				fr: "Croc aiguisé",
-				de: "Scharfe Fänge"
+				'en-us': "Sharp Fang",
+				'fr-fr': "Croc aiguisé",
+				'de-de': "Scharfe Fänge"
 			},
 
 			damage: 20,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has an active, playful nature. Many women like to frolic with it because of its affectionate ways."
+		'en-us': "It has an active, playful nature. Many women like to frolic with it because of its affectionate ways."
 	},
 
 	variants: [

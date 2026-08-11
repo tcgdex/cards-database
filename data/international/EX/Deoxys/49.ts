@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Swellow",
-		fr: "Heledelle",
-		de: "Schwalboss"
+		'en-us': "Swellow",
+		'fr-fr': "Heledelle",
+		'de-de': "Schwalboss"
 	},
 
 	illustrator: "Midori Harada",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Taillow",
-		fr: "Nirondelle"
+		'en-us': "Taillow",
+		'fr-fr': "Nirondelle"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mid-air Crush",
-				fr: "Collision en plein vol",
-				de: "Mid-air Crush"
+				'en-us': "Mid-air Crush",
+				'fr-fr': "Collision en plein vol",
+				'de-de': "Mid-air Crush"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Flip a coin. If heads, your opponent discards 1 Energy card, if any, attached to that Pokémon.",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc). Lancez une pièce. Si c'est face, votre adversaire défausse une carte Énergie attachée à ce Pokémon, s'il en a.",
-				de: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't aply Weakness and Resistance for Benched Pokémon.) Flip a coin. If heads, your opponent dicards 1 Energy card, if any, attached to that Pokémon."
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Flip a coin. If heads, your opponent discards 1 Energy card, if any, attached to that Pokémon.",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc). Lancez une pièce. Si c'est face, votre adversaire défausse une carte Énergie attachée à ce Pokémon, s'il en a.",
+				'de-de': "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't aply Weakness and Resistance for Benched Pokémon.) Flip a coin. If heads, your opponent dicards 1 Energy card, if any, attached to that Pokémon."
 			},
 
 		},
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nosedive",
-				fr: "Descendre en piqué",
-				de: "Nosedive"
+				'en-us': "Nosedive",
+				'fr-fr': "Descendre en piqué",
+				'de-de': "Nosedive"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Swellow does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Heledelle s'inflige 10 dégâts.",
-				de: "Flip a coin. If tails, Swellow does 10 damage to itself."
+				'en-us': "Flip a coin. If tails, Swellow does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Heledelle s'inflige 10 dégâts.",
+				'de-de': "Flip a coin. If tails, Swellow does 10 damage to itself."
 			},
 			damage: 40,
 

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 3'
 
 const card: Card = {
 	name: {
-		en: "Vaporeon",
-		fr: "Aquali"
+		'en-us': "Vaporeon",
+		'fr-fr': "Aquali"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Diglett",
-		fr: "Evoli"
+		'en-us': "Diglett",
+		'fr-fr': "Evoli"
 	},
 
 	stage: "Stage1",
@@ -33,8 +33,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure"
+				'en-us': "Bite",
+				'fr-fr': "Morsure"
 			},
 
 			damage: 20,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O"
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O"
 			},
 			effect: {
-				en: "Does 30 damage plus 20 more damage for each Water Energy attached to Vaporeon but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way.",
-				fr: "Inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque Énergie  attachée à Aquali en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 40 dégâts de cette façon."
+				'en-us': "Does 30 damage plus 20 more damage for each Water Energy attached to Vaporeon but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way.",
+				'fr-fr': "Inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque Énergie  attachée à Aquali en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 40 dégâts de cette façon."
 			},
 			damage: "30+",
 

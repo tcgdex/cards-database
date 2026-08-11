@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Meloetta",
-		fr: "Meloetta",
+		'en-us': "Meloetta",
+		'fr-fr': "Meloetta",
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Common",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Smack",
-				fr: "Claque",
+				'en-us': "Smack",
+				'fr-fr': "Claque",
 			},
 
 			damage: 10,
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Acrobatics",
-				fr: "Acrobatie",
+				'en-us': "Acrobatics",
+				'fr-fr': "Acrobatie",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 20 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 40,
 
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Many famous songs have been inspired by the melodies that Meloetta plays.",
+		'en-us': "Many famous songs have been inspired by the melodies that Meloetta plays.",
 	},
 }
 

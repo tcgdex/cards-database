@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Embrylex",
-		en: "Larvitar",
-		es: "Larvitar",
-		it: "Larvitar",
-		pt: "Larvitar",
-		de: "Larvitar"
+		'fr-fr': "Embrylex",
+		'en-us': "Larvitar",
+		'es-es': "Larvitar",
+		'it-it': "Larvitar",
+		'pt-br': "Larvitar",
+		'de-de': "Larvitar"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			fr: "Poing Tire-Bouchon",
-			en: "Corkscrew Punch",
-			es: "Puño Tirabuzón",
-			it: "Pugno Rotante",
-			pt: "Soco Saca-rolha",
-			de: "Korkenzieherhieb"
+			'fr-fr': "Poing Tire-Bouchon",
+			'en-us': "Corkscrew Punch",
+			'es-es': "Puño Tirabuzón",
+			'it-it': "Pugno Rotante",
+			'pt-br': "Soco Saca-rolha",
+			'de-de': "Korkenzieherhieb"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			fr: "Confrontation",
-			en: "Confront",
-			es: "Confrontar",
-			it: "Confronto",
-			pt: "Confrontar",
-			de: "Konfrontieren"
+			'fr-fr': "Confrontation",
+			'en-us': "Confront",
+			'es-es': "Confrontar",
+			'it-it': "Confronto",
+			'pt-br': "Confrontar",
+			'de-de': "Konfrontieren"
 		},
 
 		damage: 30
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Born deep underground, this Pokémon becomes a pupa after eating enough dirt to make a mountain.",
+		'en-us': "Born deep underground, this Pokémon becomes a pupa after eating enough dirt to make a mountain.",
 	},
 
 	variants: [

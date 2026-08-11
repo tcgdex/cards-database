@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "臭泥",
-		ja: "ベトベター"
+		'ja-jp': "ベトベター"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "最近工廠排放的廢水太乾淨，使得牠沒東西可吃。 據說就快要絕種了。",
-		ja: "最近は 工場が 流す 廃液が 綺麗で エサが ない。 じき 絶滅すると いわれている。"
+		'ja-jp': "最近は 工場が 流す 廃液が 綺麗で エサが ない。 じき 絶滅すると いわれている。"
 	},
 
 	stage: "Basic",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "毒瓦斯",
-			ja: "どくガス"
+			'ja-jp': "どくガス"
 		},
 
 		effect: {
 			'zh-tw': "將對手的戰鬥寶可夢【中毒】。",
-			ja: "相手のバトルポケモンをどくにする。"
+			'ja-jp': "相手のバトルポケモンをどくにする。"
 		},
 
 		cost: ["Darkness"]

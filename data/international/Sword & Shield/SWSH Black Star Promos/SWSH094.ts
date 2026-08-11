@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Jolteon",
-		fr: "Voltali",
-		es: "Jolteon",
-		it: "Jolteon",
-		pt: "Jolteon",
-		de: "Blitza"
+		'en-us': "Jolteon",
+		'fr-fr': "Voltali",
+		'es-es': "Jolteon",
+		'it-it': "Jolteon",
+		'pt-br': "Jolteon",
+		'de-de': "Blitza"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -20,51 +20,51 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
-		de: "Evoli",
-		es: "Eevee",
-		pt: "Eevee",
-		it: "Eevee"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
+		'de-de': "Evoli",
+		'es-es': "Eevee",
+		'pt-br': "Eevee",
+		'it-it': "Eevee"
 	},
 
 	attacks: [{
 		name: {
-			en: "Energize",
-			fr: "Énergisant",
-			es: "Vigorizar",
-			it: "Energizza",
-			pt: "Energizar",
-			de: "Energiezufuhr"
+			'en-us': "Energize",
+			'fr-fr': "Énergisant",
+			'es-es': "Vigorizar",
+			'it-it': "Energizza",
+			'pt-br': "Energizar",
+			'de-de': "Energiezufuhr"
 		},
 
 		effect: {
-			en: "Attach a {L} Energy card from your discard pile to this Pokémon.",
-			fr: "Attachez une carte Énergie {L} de votre pile de défausse à ce Pokémon.",
-			es: "Une 1 carta de Energía {L} de tu pila de descartes a este Pokémon.",
-			it: "Assegna a questo Pokémon una carta Energia {L} dalla tua pila degli scarti.",
-			pt: "Ligue 1 carta de Energia {L} da sua pilha de descarte a este Pokémon.",
-			de: "Lege 1 {L}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+			'en-us': "Attach a {L} Energy card from your discard pile to this Pokémon.",
+			'fr-fr': "Attachez une carte Énergie {L} de votre pile de défausse à ce Pokémon.",
+			'es-es': "Une 1 carta de Energía {L} de tu pila de descartes a este Pokémon.",
+			'it-it': "Assegna a questo Pokémon una carta Energia {L} dalla tua pila degli scarti.",
+			'pt-br': "Ligue 1 carta de Energia {L} da sua pilha de descarte a este Pokémon.",
+			'de-de': "Lege 1 {L}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 		},
 
 		cost: ["Lightning"]
 	}, {
 		name: {
-			en: "Thunder",
-			fr: "Fatal-Foudre",
-			es: "Trueno",
-			it: "Tuono",
-			pt: "Trovão",
-			de: "Donner"
+			'en-us': "Thunder",
+			'fr-fr': "Fatal-Foudre",
+			'es-es': "Trueno",
+			'it-it': "Tuono",
+			'pt-br': "Trovão",
+			'de-de': "Donner"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 160,
@@ -77,7 +77,7 @@ const card: Card = {
 	}],
 
 	description: {
-		en: "If it is angered or startled, the fur all over its body bristles like sharp needles that pierce foes."
+		'en-us': "If it is angered or startled, the fur all over its body bristles like sharp needles that pierce foes."
 	},
 
 	stage: "Stage1",

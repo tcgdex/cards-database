@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2014'
 
 const card: Card = {
@@ -9,11 +9,11 @@ const card: Card = {
 	illustrator: '5ban Graphics',
 	category: "Pokemon",
 	description: {
-		en: "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
+		'en-us': "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
 	},
 	name: {
-		en: "Chespin",
-		fr: "Marisson",
+		'en-us': "Chespin",
+		'fr-fr': "Marisson",
 	},
 	rarity: "None",
 
@@ -28,8 +28,8 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Vine Whip",
-				fr: "Fouet Lianes",
+				'en-us': "Vine Whip",
+				'fr-fr': "Fouet Lianes",
 			},
 			damage: "10",
 		},
@@ -39,8 +39,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Seed Bomb",
-				fr: "Canon Graine",
+				'en-us': "Seed Bomb",
+				'fr-fr': "Canon Graine",
 			},
 			damage: "20",
 		},

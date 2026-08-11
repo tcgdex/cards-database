@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マンムーex",
+		'ja-jp': "マンムーex",
 	},
 
 	illustrator: "Nisota Niso",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "マンモスキャリー" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の番に1回使える。自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "180+",
 			cost: ["Fighting", "Fighting"],
 			effect: {
-				ja: "自分のベンチの2進化ポケモンの数×40ダメージ追加。",
+				'ja-jp': "自分のベンチの2進化ポケモンの数×40ダメージ追加。",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イノムー",
+		'ja-jp': "イノムー",
 	},
 
 	retreat: 4,

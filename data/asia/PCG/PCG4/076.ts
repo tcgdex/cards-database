@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "幼虫",
+		'ja-jp': "幼虫",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "報復",
+				'ja-jp': "報復",
 			},
 			effect: {
-				ja: "ダメージ数のダメージ数は、Larvitarのダメージ数をカウンターします。",
+				'ja-jp': "ダメージ数のダメージ数は、Larvitarのダメージ数をカウンターします。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "取り組む",
+				'ja-jp': "取り組む",
 			},
 			damage: 20,
 		},

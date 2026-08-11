@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Skeledirge",
-		fr: "Flâmigator",
-		es: "Skeledirge",
-		it: "Skeledirge",
-		pt: "Skeledirge",
-		de: "Skelokrok"
+		'en-us': "Skeledirge",
+		'fr-fr': "Flâmigator",
+		'es-es': "Skeledirge",
+		'it-it': "Skeledirge",
+		'pt-br': "Skeledirge",
+		'de-de': "Skelokrok"
   },
   illustrator: "nagimiso",
   rarity: "Three Diamond",
@@ -18,12 +18,12 @@ const card: Card = {
   types: ["Fire"],
   dexId: [911],
   evolveFrom: {
-		fr: "Crocogril",
-		en: "Crocalor",
-		es: "Crocalor",
-		it: "Crocalor",
-		pt: "Crocalor",
-		de: "Lokroko"
+		'fr-fr': "Crocogril",
+		'en-us': "Crocalor",
+		'es-es': "Crocalor",
+		'it-it': "Crocalor",
+		'pt-br': "Crocalor",
+		'de-de': "Lokroko"
   },
   description: {
     en: "Skeledirge's gentle singing soothes the souls of all that hear it. It burns its enemies to a crisp with flames of over 5,400 degrees Fahrenheit.",

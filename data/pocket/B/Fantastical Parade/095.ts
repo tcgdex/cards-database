@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [53],
 
 	name: {
-		en: "Alolan Persian"
+		'en-us': "Alolan Persian"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Alolan Meowth"
+		'en-us': "Alolan Meowth"
 	},
 
 	description: {
-		en: "This Pokémon is one tough opponent. Not only\ndoes it have formidable physical abilities, but it's\nalso not above fighting dirty."
+		'en-us': "This Pokémon is one tough opponent. Not only\ndoes it have formidable physical abilities, but it's\nalso not above fighting dirty."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Bite"
+			'en-us': "Bite"
 		},
 
 		damage: 40,

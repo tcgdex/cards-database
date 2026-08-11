@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Paras",
-		fr: "Paras",
+		'en-us': "Paras",
+		'fr-fr': "Paras",
 	},
 
 	illustrator: "Aya Kusube",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blot",
-				fr: "Pâté",
+				'en-us': "Blot",
+				'fr-fr': "Pâté",
 			},
 			effect: {
-				en: "Heal 10 damage from this Pokémon.",
-				fr: "Soignez 10 dégâts à ce Pokémon.",
+				'en-us': "Heal 10 damage from this Pokémon.",
+				'fr-fr': "Soignez 10 dégâts à ce Pokémon.",
 			},
 			damage: 10,
 
@@ -52,7 +52,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition.",
+		'en-us': "Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition.",
 	},
 
 	thirdParty: {

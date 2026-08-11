@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Togepi",
-		fr: "Togepi",
-		de: "Togepi"
+		'en-us': "Togepi",
+		'fr-fr': "Togepi",
+		'de-de': "Togepi"
 	},
 
 	illustrator: "Nakaoka",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleepy Song",
-				fr: "Chanson berçante",
-				de: "Sleepy Song"
+				'en-us': "Sleepy Song",
+				'fr-fr': "Chanson berçante",
+				'de-de': "Sleepy Song"
 			},
 			effect: {
-				en: "Each Defending Pokémon is now Asleep.",
-				fr: "Chaque Pokémon Défenseur est maintenant Endormi.",
-				de: "Each Defending Pokémon is now Asleep."
+				'en-us': "Each Defending Pokémon is now Asleep.",
+				'fr-fr': "Chaque Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Each Defending Pokémon is now Asleep."
 			},
 
 		},

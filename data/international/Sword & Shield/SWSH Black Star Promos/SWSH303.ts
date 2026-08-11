@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bulbasaur",
+		'en-us': "Bulbasaur",
 	},
 
 	illustrator: "Julie Hang",
@@ -20,11 +20,11 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Shake and Gather",
+			'en-us': "Shake and Gather",
 		},
 
 		effect: {
-			en: "Flip a coin until you get tails. For each head, draw a card.",
+			'en-us': "Flip a coin until you get tails. For each head, draw a card.",
 		},
 
 	}],
@@ -37,7 +37,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "There is a aplant seed on its back right from the day this Pokémon is born. THe seed slowly grows larger.",
+		'en-us': "There is a aplant seed on its back right from the day this Pokémon is born. THe seed slowly grows larger.",
 	},
 
 	variants: [

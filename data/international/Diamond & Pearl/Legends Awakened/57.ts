@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Houndoom",
-		fr: "Demolosse",
-		de: "Hundemon"
+		'en-us': "Houndoom",
+		'fr-fr': "Demolosse",
+		'de-de': "Hundemon"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Houndour",
-		fr: "Hunduster",
+		'en-us': "Houndour",
+		'fr-fr': "Hunduster",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Revenge Fang",
-				fr: "Croc vengeur",
-				de: "Vergeltungszahn"
+				'en-us': "Revenge Fang",
+				'fr-fr': "Croc vengeur",
+				'de-de': "Vergeltungszahn"
 			},
 			effect: {
-				en: "If you have less Benched Pokémon than your opponent, each of Houndoom's attacks does 40 more damage to the Active Pokémon (before applying Weakness and Resistance).",
-				fr: "Si vous possédez moins de Pokémon de Banc que votre adversaire, chacune des attaques de Demolosse inflige 40 dégâts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance).",
-				de: "Wenn du weniger Pokémon auf der Bank hast als dein Gegner, fügt jeder Angriff von Hundemon den Aktiven Pokémon 40 zusätzliche Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "If you have less Benched Pokémon than your opponent, each of Houndoom's attacks does 40 more damage to the Active Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Si vous possédez moins de Pokémon de Banc que votre adversaire, chacune des attaques de Demolosse inflige 40 dégâts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "Wenn du weniger Pokémon auf der Bank hast als dein Gegner, fügt jeder Angriff von Hundemon den Aktiven Pokémon 40 zusätzliche Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Burning Sensation",
-				fr: "Sensation brûlante",
-				de: "Brennendes Gefühl"
+				'en-us': "Burning Sensation",
+				'fr-fr': "Sensation brûlante",
+				'de-de': "Brennendes Gefühl"
 			},
 			effect: {
-				en: "If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Burned.",
-				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, il est maintenant Brûlé.",
-				de: "Wenn auf dem Verteidigenden Pokémon bereits mindestens 1 Schadensmarke liegt, ist das Verteidigende Pokémon jetzt verbrannt."
+				'en-us': "If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Burned.",
+				'fr-fr': "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, il est maintenant Brûlé.",
+				'de-de': "Wenn auf dem Verteidigenden Pokémon bereits mindestens 1 Schadensmarke liegt, ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: 20,
 
@@ -70,14 +70,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Bright Flame",
-				fr: "Flamme éclatante",
-				de: "Helle Flamme"
+				'en-us': "Bright Flame",
+				'fr-fr': "Flamme éclatante",
+				'de-de': "Helle Flamme"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard 2 Fire Energy attached to Houndoom.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez 2 Énergies Fire attachées à Demolosse.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" entferne 2 -Energien, die an Hundemon angelegt sind, und lege sie auf deinen Ablagestapel."
+				'en-us': "Flip a coin. If tails, discard 2 Fire Energy attached to Houndoom.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez 2 Énergies Fire attachées à Demolosse.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" entferne 2 -Energien, die an Hundemon angelegt sind, und lege sie auf deinen Ablagestapel."
 			},
 			damage: 60,
 
@@ -94,8 +94,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Long ago, people imagined its eerie howls to be the call of the grim reaper.",
-		fr: "Jadis, les gens prenaient son étrange hurlement pour l'appel de la Faucheuse."
+		'en-us': "Long ago, people imagined its eerie howls to be the call of the grim reaper.",
+		'fr-fr': "Jadis, les gens prenaient son étrange hurlement pour l'appel de la Faucheuse."
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Tentacool",
-		fr: "Tentacool",
-		es: "Tentacool",
-		it: "Tentacool",
-		pt: "Tentacool",
-		de: "Tentacha"
+		'en-us': "Tentacool",
+		'fr-fr': "Tentacool",
+		'es-es': "Tentacool",
+		'it-it': "Tentacool",
+		'pt-br': "Tentacool",
+		'de-de': "Tentacha"
 	},
 
 	rarity: "Common",
@@ -23,12 +23,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Gentle Slap",
-			fr: "Gifle Douce",
-			es: "Bofetada Gentil",
-			it: "Schiaffetto",
-			pt: "Gentle Slap",
-			de: "Sanfter Hieb"
+			'en-us': "Gentle Slap",
+			'fr-fr': "Gifle Douce",
+			'es-es': "Bofetada Gentil",
+			'it-it': "Schiaffetto",
+			'pt-br': "Gentle Slap",
+			'de-de': "Sanfter Hieb"
 		},
 
 		damage: 30,
@@ -43,7 +43,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its body is 99% water. The remaining 1% contains the organ that makes its poison."
+		'en-us': "Its body is 99% water. The remaining 1% contains the organ that makes its poison."
 	},
 
 	dexId: [72],

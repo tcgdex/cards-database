@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spoink",
-		fr: "Spoink",
-		es: "Spoink",
-		it: "Spoink",
-		pt: "Spoink",
-		de: "Spoink"
+		'en-us': "Spoink",
+		'fr-fr': "Spoink",
+		'es-es': "Spoink",
+		'it-it': "Spoink",
+		'pt-br': "Spoink",
+		'de-de': "Spoink"
 	},
 
 	illustrator: "kawayoo",
@@ -22,24 +22,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Headbutt Bounce",
-			fr: "Culbute Surprise",
-			es: "Bote Cabezazo",
-			it: "Rimbalzo Bottintesta",
-			pt: "Cabeçada Ricochete",
-			de: "Abrupter Kopfstoß"
+			'en-us': "Headbutt Bounce",
+			'fr-fr': "Culbute Surprise",
+			'es-es': "Bote Cabezazo",
+			'it-it': "Rimbalzo Bottintesta",
+			'pt-br': "Cabeçada Ricochete",
+			'de-de': "Abrupter Kopfstoß"
 		},
 
 		damage: 10,
 		cost: ["Psychic"]
 	}, {
 		name: {
-			en: "Power Gem",
-			fr: "Rayon Gemme",
-			es: "Joya de Luz",
-			it: "Gemmoforza",
-			pt: "Gema Poderosa",
-			de: "Juwelenkraft"
+			'en-us': "Power Gem",
+			'fr-fr': "Rayon Gemme",
+			'es-es': "Joya de Luz",
+			'it-it': "Gemmoforza",
+			'pt-br': "Gema Poderosa",
+			'de-de': "Juwelenkraft"
 		},
 
 		damage: 30,
@@ -63,7 +63,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It bounces around on its tail to keep its heart pumping. It carries a pearl from Clamperl on its head."
+		'en-us': "It bounces around on its tail to keep its heart pumping. It carries a pearl from Clamperl on its head."
 	},
 
 	variants: [

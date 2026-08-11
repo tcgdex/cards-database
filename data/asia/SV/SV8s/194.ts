@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Stunfisk"
+		'id-id': "Stunfisk"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Stunfisk tinggal di dataran lumpur. Berkat bakteri yang hidup di lumpur, organ untuk membuat listriknya jadi berkembang."
+		'id-id': "Stunfisk tinggal di dataran lumpur. Berkat bakteri yang hidup di lumpur, organ untuk membuat listriknya jadi berkembang."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Pijar Pelumpuh"
+			'id-id': "Pijar Pelumpuh"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh. Tambah lagi, pilih 1 Energi yang dikenakan pada Pokémon tersebut, lalu buang ke Trash."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh. Tambah lagi, pilih 1 Energi yang dikenakan pada Pokémon tersebut, lalu buang ke Trash."
 		},
 
 		damage: 50,

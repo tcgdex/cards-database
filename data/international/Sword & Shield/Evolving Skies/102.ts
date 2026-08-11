@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Zorua",
-		fr: "Zorua",
-		es: "Zorua",
-		it: "Zorua",
-		pt: "Zorua",
-		de: "Zorua"
+		'en-us': "Zorua",
+		'fr-fr': "Zorua",
+		'es-es': "Zorua",
+		'it-it': "Zorua",
+		'pt-br': "Zorua",
+		'de-de': "Zorua"
 	},
 
 	rarity: "Common",
@@ -23,12 +23,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Rear Kick",
-			fr: "Ruade",
-			es: "Patada Trasera",
-			it: "Retrocalcio",
-			pt: "Rear Kick",
-			de: "Rückwärtskick"
+			'en-us': "Rear Kick",
+			'fr-fr': "Ruade",
+			'es-es': "Patada Trasera",
+			'it-it': "Retrocalcio",
+			'pt-br': "Rear Kick",
+			'de-de': "Rückwärtskick"
 		},
 
 		damage: 30,
@@ -43,7 +43,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If a normally talkative child suddenly stops talking, it may have been replaced by Zorua."
+		'en-us': "If a normally talkative child suddenly stops talking, it may have been replaced by Zorua."
 	},
 
 	dexId: [570],

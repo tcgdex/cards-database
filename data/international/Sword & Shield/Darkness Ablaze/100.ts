@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [88],
 
 	name: {
-		en: "Grimer",
-		fr: "Tadmorv",
-		es: "Grimer",
-		it: "Grimer",
-		pt: "Grimer",
-		de: "Sleima"
+		'en-us': "Grimer",
+		'fr-fr': "Tadmorv",
+		'es-es': "Grimer",
+		'it-it': "Grimer",
+		'pt-br': "Grimer",
+		'de-de': "Sleima"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Stomp Off",
-				fr: "Tohu-Bohu",
-				es: "Pisotear",
-				it: "Pestatura",
-				pt: "Sair Irritado",
-				de: "Davonstapfen"
+				'en-us': "Stomp Off",
+				'fr-fr': "Tohu-Bohu",
+				'es-es': "Pisotear",
+				'it-it': "Pestatura",
+				'pt-br': "Sair Irritado",
+				'de-de': "Davonstapfen"
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-				es: "Descarta la primera carta de la baraja de tu rival.",
-				it: "Scarta la prima carta del mazzo del tuo avversario.",
-				pt: "Descarte a carta de cima do baralho do seu oponente.",
-				de: "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard the top card of your opponent's deck.",
+				'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+				'es-es': "Descarta la primera carta de la baraja de tu rival.",
+				'it-it': "Scarta la prima carta del mazzo del tuo avversario.",
+				'pt-br': "Descarte a carta de cima do baralho do seu oponente.",
+				'de-de': "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sludge Whirlpool",
-				fr: "Tourbillon de Boue",
-				es: "Torbellino de Residuos",
-				it: "Fangovortice",
-				pt: "Redemoinho de Lodo",
-				de: "Schlammstrudel"
+				'en-us': "Sludge Whirlpool",
+				'fr-fr': "Tourbillon de Boue",
+				'es-es': "Torbellino de Residuos",
+				'it-it': "Fangovortice",
+				'pt-br': "Redemoinho de Lodo",
+				'de-de': "Schlammstrudel"
 			},
 
 			damage: 50,
@@ -80,7 +80,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The wastewater coming from factories is clean these days, so Grimer have nothing to eat. They're said to be on the verge of extinction."
+		'en-us': "The wastewater coming from factories is clean these days, so Grimer have nothing to eat. They're said to be on the verge of extinction."
 	},
 
 	variants: [

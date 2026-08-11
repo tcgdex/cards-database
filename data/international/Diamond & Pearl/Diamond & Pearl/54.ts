@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Magneton",
-		fr: "Magneton",
-		de: "Magneton"
+		'en-us': "Magneton",
+		'fr-fr': "Magneton",
+		'de-de': "Magneton"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magnemite",
-		fr: "Magneti",
+		'en-us': "Magnemite",
+		'fr-fr': "Magneti",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tri Attack",
-				fr: "Triplattaque",
-				de: "Triplette"
+				'en-us': "Tri Attack",
+				'fr-fr': "Triplattaque",
+				'de-de': "Triplette"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 3 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "20x",
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnetic Ray",
-				fr: "Rayon magnétique",
-				de: "Magnetstrahl"
+				'en-us': "Magnetic Ray",
+				'fr-fr': "Rayon magnétique",
+				'de-de': "Magnetstrahl"
 			},
 			effect: {
-				en: "Before doing damage, you may choose 1 of your opponent's Benched Pokémon that has any Energy attached to it and switch that Pokémon with 1 of the Defending Pokémon.",
-				fr: "Avant d'infliger des dégâts, vous pouvez choisir 1 des Pokémon de Banc de votre adversaire possédant de l'Énergie et l'échanger avec 1 des Pokémon Défenseurs.",
-				de: "Bevor der Schaden zugefügt wird, kannst du 1 Pokémon auf der Bank deines Gegners, an dem mindestens 1 Energie angelegt ist, wählen und es gegen 1 Verteidigendes Pokémon austauschen."
+				'en-us': "Before doing damage, you may choose 1 of your opponent's Benched Pokémon that has any Energy attached to it and switch that Pokémon with 1 of the Defending Pokémon.",
+				'fr-fr': "Avant d'infliger des dégâts, vous pouvez choisir 1 des Pokémon de Banc de votre adversaire possédant de l'Énergie et l'échanger avec 1 des Pokémon Défenseurs.",
+				'de-de': "Bevor der Schaden zugefügt wird, kannst du 1 Pokémon auf der Bank deines Gegners, an dem mindestens 1 Energie angelegt ist, wählen und es gegen 1 Verteidigendes Pokémon austauschen."
 			},
 			damage: 40,
 
@@ -87,8 +87,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is actually three MAGNEMITE linked by magnetism. A group can set off a magnetic storm.",
-		fr: "Il est formé de trois Magneti liés par magnétisme. En groupe, ils déclenchent un orage magnétique."
+		'en-us': "It is actually three MAGNEMITE linked by magnetism. A group can set off a magnetic storm.",
+		'fr-fr': "Il est formé de trois Magneti liés par magnétisme. En groupe, ils déclenchent un orage magnétique."
 	},
 
 	thirdParty: {

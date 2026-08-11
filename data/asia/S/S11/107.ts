@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドラピオンV",
+		'ja-jp': "ドラピオンV",
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ワイルドスタイル" },
 			effect: {
-				ja: "相手の場の「いちげき」「れんげき」「フュージョン」のポケモンの数ぶん、このポケモンがワザを使うための[C]エネルギーは少なくなる。",
+				'ja-jp': "相手の場の「いちげき」「れんげき」「フュージョン」のポケモンの数ぶん、このポケモンがワザを使うための[C]エネルギーは少なくなる。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 190,
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のポケモン1匹にも、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "自分のポケモン1匹にも、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

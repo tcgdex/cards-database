@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サイホーン",
+		'ja-jp': "サイホーン",
 	},
 
 	illustrator: "otumami",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "頭は 悪いが 力が 強く 高層ビルも 体当たりで コナゴナに 粉砕する。",
+		'ja-jp': "頭は 悪いが 力が 強く 高層ビルも 体当たりで コナゴナに 粉砕する。",
 	},
 
 	stage: "Basic",

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Skiddo",
-		fr: "Cabriolaine",
-		es: "Skiddo",
-		it: "Skiddo",
-		pt: "Skiddo",
-		de: "Mähikel"
+		'en-us': "Skiddo",
+		'fr-fr': "Cabriolaine",
+		'es-es': "Skiddo",
+		'it-it': "Skiddo",
+		'pt-br': "Skiddo",
+		'de-de': "Mähikel"
 	},
 
 	illustrator: "Naoki Saito",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Seed Bomb",
-				fr: "Canon Graine",
-				es: "Bomba Germen",
-				it: "Semebomba",
-				pt: "Bomba de Sementes",
-				de: "Samenbomben"
+				'en-us': "Seed Bomb",
+				'fr-fr': "Canon Graine",
+				'es-es': "Bomba Germen",
+				'it-it': "Semebomba",
+				'pt-br': "Bomba de Sementes",
+				'de-de': "Samenbomben"
 			},
 
 			damage: 20,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Thought to be one of the first Pokémon to live in harmony with humans, it has a placid disposition.",
+		'en-us': "Thought to be one of the first Pokémon to live in harmony with humans, it has a placid disposition.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フシギソウ",
+		'ja-jp': "フシギソウ",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "つぼみが 背中に ついていて 養分を 吸収していくと 大きな 花が 咲くという。",
+		'ja-jp': "つぼみが 背中に ついていて 養分を 吸収していくと 大きな 花が 咲くという。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Grass", "Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくとこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをどくとこんらんにする。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "フシギダネ",
+		'ja-jp': "フシギダネ",
 	},
 
 	retreat: 4,

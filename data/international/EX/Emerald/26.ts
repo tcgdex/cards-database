@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Dodrio",
-		fr: "Dodrio",
-		de: "Dodri"
+		'en-us': "Dodrio",
+		'fr-fr': "Dodrio",
+		'de-de': "Dodri"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Doduo",
-		fr: "Doduo"
+		'en-us': "Doduo",
+		'fr-fr': "Doduo"
 	},
 
 	stage: "Stage1",
@@ -37,9 +37,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Kick",
-				fr: "Coud'pattes",
-				de: "Smash Kick"
+				'en-us': "Smash Kick",
+				'fr-fr': "Coud'pattes",
+				'de-de': "Smash Kick"
 			},
 
 			damage: 30,
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Turn",
-				fr: "Tour fracassant",
-				de: "Smash Turn"
+				'en-us': "Smash Turn",
+				'fr-fr': "Tour fracassant",
+				'de-de': "Smash Turn"
 			},
 			effect: {
-				en: "After your attack, you may switch Dodrio with 1 of your Benched Pokémon.",
-				fr: "Après votre attaque, vous pouvez échanger Dodrio avec 1 des Pokémon de votre Banc.",
-				de: "After your attack, you may switch Dodrio with 1 of your benched Pokémon."
+				'en-us': "After your attack, you may switch Dodrio with 1 of your Benched Pokémon.",
+				'fr-fr': "Après votre attaque, vous pouvez échanger Dodrio avec 1 des Pokémon de votre Banc.",
+				'de-de': "After your attack, you may switch Dodrio with 1 of your benched Pokémon."
 			},
 			damage: 40,
 

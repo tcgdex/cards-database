@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Virovent",
-		en: "Bramblin",
-		es: "Bramblin",
-		it: "Bramblin",
-		pt: "Bramblin",
-		de: "Weherba"
+		'fr-fr': "Virovent",
+		'en-us': "Bramblin",
+		'es-es': "Bramblin",
+		'it-it': "Bramblin",
+		'pt-br': "Bramblin",
+		'de-de': "Weherba"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Chevauchée Éolienne",
-			en: "Ride the Wind",
-			es: "Rodar al Viento",
-			it: "Cavalcavento",
-			pt: "Navegação dos Ventos",
-			de: "Mit dem Wind wehen"
+			'fr-fr': "Chevauchée Éolienne",
+			'en-us': "Ride the Wind",
+			'es-es': "Rodar al Viento",
+			'it-it': "Cavalcavento",
+			'pt-br': "Navegação dos Ventos",
+			'de-de': "Mit dem Wind wehen"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c'est face, échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-			en: "Flip a coin. If heads, switch this Pokémon with 1 of your Benched Pokémon.",
-			es: "Lanza 1 moneda. Si sale cara, cambia este Pokémon por uno de tus Pokémon en Banca.",
-			it: "Lancia una moneta. Se esce testa, scambia questo Pokémon con uno della tua panchina.",
-			pt: "Jogue uma moeda. Se sair cara, troque este Pokémon por 1 dos seus Pokémon no Banco.",
-			de: "Wirf 1 Münze. Tausche bei Kopf dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+			'fr-fr': "Lancez une pièce. Si c'est face, échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'en-us': "Flip a coin. If heads, switch this Pokémon with 1 of your Benched Pokémon.",
+			'es-es': "Lanza 1 moneda. Si sale cara, cambia este Pokémon por uno de tus Pokémon en Banca.",
+			'it-it': "Lancia una moneta. Se esce testa, scambia questo Pokémon con uno della tua panchina.",
+			'pt-br': "Jogue uma moeda. Se sair cara, troque este Pokémon por 1 dos seus Pokémon no Banco.",
+			'de-de': "Wirf 1 Münze. Tausche bei Kopf dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 		},
 
 		damage: 10
@@ -75,7 +75,7 @@ const card: Card = {
 	illustrator: "Pani Kobayashi",
 
 	description: {
-		en: "A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pokémon.",
+		'en-us': "A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pokémon.",
 	},
 }
 

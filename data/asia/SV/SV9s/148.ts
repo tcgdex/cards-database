@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ราคุไร",
-		id: "Electrike"
+		'th-th': "ราคุไร",
+		'id-id': "Electrike"
 	},
 
 	illustrator: "Nakamura Ippan",
@@ -15,23 +15,23 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		th: "สะสมไฟฟ้าสถิตไว้ที่ขนตามร่างกาย ในฤดูที่อากาศแห้งจะปล่อย ประกายไฟออกมาทั่วตัว"
+		'th-th': "สะสมไฟฟ้าสถิตไว้ที่ขนตามร่างกาย ในฤดูที่อากาศแห้งจะปล่อย ประกายไฟออกมาทั่วตัว"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "เตะกลับหลัง",
-			id: "Tendangan Belakang"
+			'th-th': "เตะกลับหลัง",
+			'id-id': "Tendangan Belakang"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "โวลต์ต่ำ",
-			id: "Voltase Mini"
+			'th-th': "โวลต์ต่ำ",
+			'id-id': "Voltase Mini"
 		},
 
 		damage: 30,

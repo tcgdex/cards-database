@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アンファロス（デルタ種）",
+		'ja-jp': "アンファロス（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ホロンベール",
+				'ja-jp': "ホロンベール",
 			},
 			effect: {
-				ja: "デッキ、廃棄の山、手、そしてそのカードにあるポカモンとして遊びで、それぞれの基本的なポカモンとエボリューションカードを扱います。",
+				'ja-jp': "デッキ、廃棄の山、手、そしてそのカードにあるポカモンとして遊びで、それぞれの基本的なポカモンとエボリューションカードを扱います。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "デルタサークル",
+				'ja-jp': "デルタサークル",
 			},
 			effect: {
-				ja: "20のダメージに加えて、カードにDがあるPokemonがある各ポケモンに対してさらに10ダメージを与えます。",
+				'ja-jp': "20のダメージに加えて、カードにDがあるPokemonがある各ポケモンに対してさらに10ダメージを与えます。",
 			},
 		},
 	],

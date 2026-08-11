@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨワシ",
+		'ja-jp': "ヨワシ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ピンチになると 目が 潤みだし 輝く。 その光に 群れる 仲間と 敵に 立ち向かうのだ。",
+		'ja-jp': "ピンチになると 目が 潤みだし 輝く。 その光に 群れる 仲間と 敵に 立ち向かうのだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "おくびょう" },
 			effect: {
-				ja: "自分の番に1回使える（最初の自分の番と、このポケモンを場に出した番はのぞく）。このポケモンについているカードをすべてトラッシュし、このポケモンを手札にもどす。",
+				'ja-jp': "自分の番に1回使える（最初の自分の番と、このポケモンを場に出した番はのぞく）。このポケモンについているカードをすべてトラッシュし、このポケモンを手札にもどす。",
 			},
 		},
 	],

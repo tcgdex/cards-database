@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Trapinch",
-		fr: "Kraknoix",
-		de: "Knacklion"
+		'en-us': "Trapinch",
+		'fr-fr': "Kraknoix",
+		'de-de': "Knacklion"
 	},
 
 	illustrator: "Yuka Morii",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dig",
-				fr: "Tunnel",
-				de: "Schaufler"
+				'en-us': "Dig",
+				'fr-fr': "Tunnel",
+				'de-de': "Schaufler"
 			},
 
 			damage: 10,

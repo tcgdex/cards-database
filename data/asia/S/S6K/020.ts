@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デンリュウ",
+		'ja-jp': "デンリュウ",
 		'zh-tw': "電龍",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "シッポは 強く 明るく 輝く。 船乗りたちの 道しるべ として 昔から 大切に されてきた。",
+		'ja-jp': "シッポは 強く 明るく 輝く。 船乗りたちの 道しるべ として 昔から 大切に されてきた。",
 		'zh-tw': "尾巴發出的耀眼光芒被船員們當成引路的路標，從過去就一直深受重視。",
 	},
 
@@ -23,25 +23,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "でんきショック",
+				'ja-jp': "でんきショック",
 				'zh-tw': "電擊",
 			},
 			damage: 50,
 			cost: ["Lightning"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 				'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。",
 			},
 		},
 		{
 			name: {
-				ja: "サーチライトテール",
+				'ja-jp': "サーチライトテール",
 				'zh-tw': "探照燈尾",
 			},
 			damage: "90+",
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "相手の手札を見て、その中にエネルギーがあるなら、90ダメージ追加。",
+				'ja-jp': "相手の手札を見て、その中にエネルギーがあるなら、90ダメージ追加。",
 				'zh-tw': "查看對手的手牌，若其中有能量卡，則增加90點傷害。",
 			},
 		},
@@ -61,7 +61,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モココ",
+		'ja-jp': "モココ",
 	},
 
 	retreat: 2,

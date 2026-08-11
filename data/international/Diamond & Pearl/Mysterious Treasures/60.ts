@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Quilava",
-		fr: "Feurisson",
-		de: "Igelavar"
+		'en-us': "Quilava",
+		'fr-fr': "Feurisson",
+		'de-de': "Igelavar"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cyndaquil",
-		fr: "Héricendre"
+		'en-us': "Cyndaquil",
+		'fr-fr': "Héricendre"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fireworks",
-				fr: "Feux d'artifice",
-				de: "Feuerwerk"
+				'en-us': "Fireworks",
+				'fr-fr': "Feux d'artifice",
+				'de-de': "Feuerwerk"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Fire Energy attached to Quilava.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Feurisson.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" lege 1 an Igelavar angelegte -Energie auf deinen Ablagestapel."
+				'en-us': "Flip a coin. If tails, discard a Fire Energy attached to Quilava.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Feurisson.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" lege 1 an Igelavar angelegte -Energie auf deinen Ablagestapel."
 			},
 			damage: 40,
 
@@ -61,8 +61,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It intimidates foes with the heat of its flames. The fire burn more strongly when it readies to fight.",
-		fr: "La chaleur de ses flammes intimide l'ennemi. Elles s'intensifient lorsqu'il se prépare à combattre."
+		'en-us': "It intimidates foes with the heat of its flames. The fire burn more strongly when it readies to fight.",
+		'fr-fr': "La chaleur de ses flammes intimide l'ennemi. Elles s'intensifient lorsqu'il se prépare à combattre."
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legend Maker'
 
 const card: Card = {
 	name: {
-		en: "Seedot",
-		fr: "Grainipiot",
-		de: "Samurzel"
+		'en-us': "Seedot",
+		'fr-fr': "Grainipiot",
+		'de-de': "Samurzel"
 	},
 
 	illustrator: "Yuka Morii",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drawup Power",
-				fr: "Pouvoir bloquant",
-				de: "Kraft afziehen"
+				'en-us': "Drawup Power",
+				'fr-fr': "Pouvoir bloquant",
+				'de-de': "Kraft afziehen"
 			},
 			effect: {
-				en: "Search your deck for an Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une carte Énergie, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach einer Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+				'en-us': "Search your deck for an Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck une carte Énergie, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach einer Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Continuous Tumble",
-				fr: "Roulage continu",
-				de: "Dauerrollen"
+				'en-us': "Continuous Tumble",
+				'fr-fr': "Roulage continu",
+				'de-de': "Dauerrollen"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf solange eine Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf solange eine Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "10x",
 

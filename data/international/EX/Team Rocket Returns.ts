@@ -1,12 +1,12 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../EX'
 
 const ex7: Set = {
 	id: "ex7",
 
 	name: {
-		en: "Team Rocket Returns",
-		pt: "EX O Retorno da Equipe Rocket "
+		'en-us': "Team Rocket Returns",
+		'pt-br': "EX O Retorno da Equipe Rocket "
 	},
 
 	serie: serie,

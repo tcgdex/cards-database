@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヘルガー",
+		'ja-jp': "ヘルガー",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "ヘルガーの 不気味な 遠ぼえは 地獄から 死神が 呼ぶ 声と 昔の 人は 想像していた。",
+		'ja-jp': "ヘルガーの 不気味な 遠ぼえは 地獄から 死神が 呼ぶ 声と 昔の 人は 想像していた。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "デルビル",
+		'ja-jp': "デルビル",
 	},
 
 	retreat: 1,

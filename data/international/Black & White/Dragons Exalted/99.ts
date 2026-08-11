@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Aipom",
-		fr: "Capumain",
-		es: "Aipom",
-		it: "Aipom",
-		pt: "Aipom",
-		de: "Griffel"
+		'en-us': "Aipom",
+		'fr-fr': "Capumain",
+		'es-es': "Aipom",
+		'it-it': "Aipom",
+		'pt-br': "Aipom",
+		'de-de': "Griffel"
 	},
 
 	illustrator: "sui",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Hit",
-				fr: "Coup Double",
+				'en-us': "Double Hit",
+				'fr-fr': "Coup Double",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives high among the treetops. It can us its tail as freely and cleverly as its hands.",
+		'en-us': "It lives high among the treetops. It can us its tail as freely and cleverly as its hands.",
 	},
 
 	thirdParty: {

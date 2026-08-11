@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Chimchar",
-		fr: "Ouisticram",
-		de: "Panflam"
+		'en-us': "Chimchar",
+		'fr-fr': "Ouisticram",
+		'de-de': "Panflam"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Bite"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Bite"
 			},
 
 			damage: 10,
@@ -43,9 +43,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Punch",
-				fr: "Poing de feu",
-				de: "Fire Punch"
+				'en-us': "Fire Punch",
+				'fr-fr': "Poing de feu",
+				'de-de': "Fire Punch"
 			},
 
 			damage: 20,
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is very agile. Before going to sleep, it extinguishes the flame on its tail to prevent fires."
+		'en-us': "It is very agile. Before going to sleep, it extinguishes the flame on its tail to prevent fires."
 	},
 
 	variants: [

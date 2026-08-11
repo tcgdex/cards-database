@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Finneon",
-		fr: "Écayon",
-		es: "Finneon",
-		it: "Finneon",
-		pt: "Finneon",
-		de: "Finneon"
+		'en-us': "Finneon",
+		'fr-fr': "Écayon",
+		'es-es': "Finneon",
+		'it-it': "Finneon",
+		'pt-br': "Finneon",
+		'de-de': "Finneon"
 	},
 
 	illustrator: "sui",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gust",
-				fr: "Tornade",
-				es: "Tornado",
-				it: "Raffica",
-				pt: "Lufada de Vento",
-				de: "Windstoß"
+				'en-us': "Gust",
+				'fr-fr': "Tornade",
+				'es-es': "Tornado",
+				'it-it': "Raffica",
+				'pt-br': "Lufada de Vento",
+				'de-de': "Windstoß"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When night falls, their pink patterns begin to shine. They're popular with divers, so there are resorts that feed them to keep them close.",
+		'en-us': "When night falls, their pink patterns begin to shine. They're popular with divers, so there are resorts that feed them to keep them close.",
 	},
 
 	thirdParty: {

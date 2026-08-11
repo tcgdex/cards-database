@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "hなしh",
+		'ja-jp': "hなしh",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "ヘルプ[ヘルプ]",
+				'ja-jp': "ヘルプ[ヘルプ]",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前に）</em> </em>、[H]、[e]、[e]、[l]、および[p]がベンチで[p]がない場合は、手をシャッフルして、同じ数のカードの新しい手を描くことができます。",
+				'ja-jp': "ターン中に（攻撃の前に）</em> </em>、[H]、[e]、[e]、[l]、および[p]がベンチで[p]がない場合は、手をシャッフルして、同じ数のカードの新しい手を描くことができます。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "隠された力",
+				'ja-jp': "隠された力",
 			},
 			damage: 10,
 		},

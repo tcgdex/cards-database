@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アクア団のトドゼルガ",
+		'ja-jp': "アクア団のトドゼルガ",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "強力な 冷気で 凍らせる ワザが 得意よ。 凍らせたら 鋭い キバで 粉々に するの！",
+		'ja-jp': "強力な 冷気で 凍らせる ワザが 得意よ。 凍らせたら 鋭い キバで 粉々に するの！",
 	},
 
 	stage: "Stage2",
@@ -24,14 +24,14 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーの数x30ダメージ。",
+				'ja-jp': "このポケモンについているエネルギーの数x30ダメージ。",
 			},
 		},
 		{
 			name: { ja: "デュアルブリザード" },
 			cost: ["Water", "Water", "Water", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[水]エネルギーを2個トラッシュし、相手のポケモンを2匹選び、それぞれに80ダメージ。［ベンチは弱点・抵抗力の計算をしない。］",
+				'ja-jp': "このポケモンについている[水]エネルギーを2個トラッシュし、相手のポケモンを2匹選び、それぞれに80ダメージ。［ベンチは弱点・抵抗力の計算をしない。］",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アクア団のトドグラー",
+		'ja-jp': "アクア団のトドグラー",
 	},
 
 	retreat: 4,

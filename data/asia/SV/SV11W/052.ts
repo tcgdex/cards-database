@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "チョロネコ",
+		'ja-jp': "チョロネコ",
 	},
 
 	illustrator: "Yuu Nishida",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "人の 物を 遊びで 盗む。 盗まれた 人も 愛くるしい 仕草に つい 許してしまうのだ。",
+		'ja-jp': "人の 物を 遊びで 盗む。 盗まれた 人も 愛くるしい 仕草に つい 許してしまうのだ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			name: { ja: "わるいおさそい" },
 			cost: ["Darkness"],
 			effect: {
-				ja: "自分の山札からポケモンを3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札からポケモンを3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 	],

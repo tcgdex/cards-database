@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ดันบัล <ของไดโกะ>",
-		id: "Beldum <Steven>"
+		'th-th': "ดันบัล <ของไดโกะ>",
+		'id-id': "Beldum <Steven>"
 	},
 
 	illustrator: "Takeshi Nakamura",
@@ -15,16 +15,16 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		th: "พลังแม่เหล็กที่ออกมาจากร่างกายและพลังแม่เหล็กบนโลกจะผลักกัน ทำให้มันลอยอยู่ในท้องฟ้า",
-		id: "Ia membuat gaya magnet yang keluar dari tubuhnya dan gaya magnet di atas tanah tolak-menolak lalu mengambang di udara."
+		'th-th': "พลังแม่เหล็กที่ออกมาจากร่างกายและพลังแม่เหล็กบนโลกจะผลักกัน ทำให้มันลอยอยู่ในท้องฟ้า",
+		'id-id': "Ia membuat gaya magnet yang keluar dari tubuhnya dan gaya magnet di atas tanah tolak-menolak lalu mengambang di udara."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "กระแทก",
-			id: "Menyeruduk"
+			'th-th': "กระแทก",
+			'id-id': "Menyeruduk"
 		},
 
 		damage: 30,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Larvesta",
-		fr: "Pyronille",
-		es: "Larvesta",
-		it: "Larvesta",
-		pt: "Larvesta",
-		de: "Ignivor"
+		'en-us': "Larvesta",
+		'fr-fr': "Pyronille",
+		'es-es': "Larvesta",
+		'it-it': "Larvesta",
+		'pt-br': "Larvesta",
+		'de-de': "Ignivor"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flare",
-				fr: "Flamboiement",
+				'en-us': "Flare",
+				'fr-fr': "Flamboiement",
 			},
 
 			damage: 10,
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ember",
-				fr: "Flammèche",
+				'en-us': "Ember",
+				'fr-fr': "Flammèche",
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon.",
 			},
 			damage: 30,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Said to have been born from the sun, it spews fire from its horns and encases itself in a cocoon of fire when it evolves.",
+		'en-us': "Said to have been born from the sun, it spews fire from its horns and encases itself in a cocoon of fire when it evolves.",
 	},
 
 	thirdParty: {

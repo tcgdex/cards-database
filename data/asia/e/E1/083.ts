@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アンファロス",
+		'ja-jp': "アンファロス",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "エネルギー接続",
+				'ja-jp': "エネルギー接続",
 			},
 			effect: {
-				ja: "ターン中（攻撃前）に好きなように、ベンチ付きPokmonの1つに基本的なエネルギーカードを取り、アクティブなPokmonに取り付けることができます。 Ampharosが特別な状態の影響を受ける場合、この電力は使用できません。",
+				'ja-jp': "ターン中（攻撃前）に好きなように、ベンチ付きPokmonの1つに基本的なエネルギーカードを取り、アクティブなPokmonに取り付けることができます。 Ampharosが特別な状態の影響を受ける場合、この電力は使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Lightning", "Colorless", "Colorless"],
 			name: {
-				ja: "落雷",
+				'ja-jp': "落雷",
 			},
 			effect: {
-				ja: "Ampharosに取り付けられたすべての稲妻エネルギーカードを破棄できます。そうした場合、この攻撃のベースダメージは40ではなく80です。",
+				'ja-jp': "Ampharosに取り付けられたすべての稲妻エネルギーカードを破棄できます。そうした場合、この攻撃のベースダメージは40ではなく80です。",
 			},
 			damage: 40,
 		},

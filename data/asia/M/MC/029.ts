@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キノガッサ",
+		'ja-jp': "キノガッサ",
 	},
 
 	illustrator: "nisimono",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "毒の 胞子を ばらまき 吸いこんで 苦しむ 相手に 強烈な パンチを くらわせる。",
+		'ja-jp': "毒の 胞子を ばらまき 吸いこんで 苦しむ 相手に 強烈な パンチを くらわせる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数×50ダメージ追加。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数×50ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「30」回復する。",
+				'ja-jp': "このポケモンのHPを「30」回復する。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "キノココ",
+		'ja-jp': "キノココ",
 	},
 
 	retreat: 2,

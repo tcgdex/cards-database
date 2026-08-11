@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fossil'
 
 const card: Card = {
 	name: {
-		en: "Graveler",
-		fr: "Gravalanch",
-		de: "Georok"
+		'en-us': "Graveler",
+		'fr-fr': "Gravalanch",
+		'de-de': "Georok"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Geodude",
-		fr: "Racaillou"
+		'en-us': "Geodude",
+		'fr-fr': "Racaillou"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Harden",
-				fr: "Armure",
-				de: "Härtner"
+				'en-us': "Harden",
+				'fr-fr': "Armure",
+				'de-de': "Härtner"
 			},
 			effect: {
-				en: "During your opponent's next turn, whenever 30 or less damage is done to Graveler (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)",
-				fr: "Pendant le prochain tour de votre adversaire, à chaque fois que 30 dégâts ou moins sont infligés à Gravalanch (après application de la Faiblesse et de la Résistance), prévenez ces dégâts. (Tout autre effet ou attaque est toujours valide.)",
-				de: "Immer wenn Georok während des nächsten gegnerischen Zuges 30 oder weniger Schadenspunkte zugefühgt werden (nachdem Schwäche und Resistenz abgerechnet wurden), verhindere diesen Schaden. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+				'en-us': "During your opponent's next turn, whenever 30 or less damage is done to Graveler (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, à chaque fois que 30 dégâts ou moins sont infligés à Gravalanch (après application de la Faiblesse et de la Résistance), prévenez ces dégâts. (Tout autre effet ou attaque est toujours valide.)",
+				'de-de': "Immer wenn Georok während des nächsten gegnerischen Zuges 30 oder weniger Schadenspunkte zugefühgt werden (nachdem Schwäche und Resistenz abgerechnet wurden), verhindere diesen Schaden. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
 			},
 
 		},
@@ -55,9 +55,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Throw",
-				fr: "Jet-pierres",
-				de: "Steinwurf"
+				'en-us': "Rock Throw",
+				'fr-fr': "Jet-pierres",
+				'de-de': "Steinwurf"
 			},
 
 			damage: 40,
@@ -75,8 +75,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
-		fr: "Pour se déplacer il dégringole le long des pentes. Il pulvérise tout obstacle sur son passage."
+		'en-us': "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
+		'fr-fr': "Pour se déplacer il dégringole le long des pentes. Il pulvérise tout obstacle sur son passage."
 	},
 
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Flareon E4",
-		fr: "Pyroli  Niv. 55",
-		de: "Flamara 4"
+		'en-us': "Flareon E4",
+		'fr-fr': "Pyroli  Niv. 55",
+		'de-de': "Flamara 4"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -27,9 +27,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -41,14 +41,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Tail Slap",
-				fr: "Coup de queue enflammé",
-				de: "Feuerschweifschlag"
+				'en-us': "Fire Tail Slap",
+				'fr-fr': "Coup de queue enflammé",
+				'de-de': "Feuerschweifschlag"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Fire Energy attached to Flareon .",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Pyroli .",
-				de: "Wirf 1 Münze. Bei \"Zahl\" entferne 1 -Energie, die an Flamara 4 angelegt ist, und lege sie auf deinen Ablagestapel."
+				'en-us': "Flip a coin. If tails, discard a Fire Energy attached to Flareon .",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Pyroli .",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" entferne 1 -Energie, die an Flamara 4 angelegt ist, und lege sie auf deinen Ablagestapel."
 			},
 			damage: 40,
 

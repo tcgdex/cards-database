@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Nidoking",
-		fr: "Nidoking",
-		es: "Nidoking",
-		it: "Nidoking",
-		pt: "Nidoking",
-		de: "Nidoking"
+		'en-us': "Nidoking",
+		'fr-fr': "Nidoking",
+		'es-es': "Nidoking",
+		'it-it': "Nidoking",
+		'pt-br': "Nidoking",
+		'de-de': "Nidoking"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidorino",
-		fr: "Nidorino",
+		'en-us': "Nidorino",
+		'fr-fr': "Nidorino",
 	},
 
 	stage: "Stage2",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lovestrike",
-				fr: "Coup de Foudre",
+				'en-us': "Lovestrike",
+				'fr-fr': "Coup de Foudre",
 			},
 			effect: {
-				en: "Does 40 more damage for each Nidoqueen on your Bench.",
-				fr: "Inflige 40 dégâts supplémentaires pour chaque Nidoqueen sur votre Banc.",
+				'en-us': "Does 40 more damage for each Nidoqueen on your Bench.",
+				'fr-fr': "Inflige 40 dégâts supplémentaires pour chaque Nidoqueen sur votre Banc.",
 			},
 			damage: 20,
 
@@ -58,8 +58,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Drill",
-				fr: "Empal'Korne",
+				'en-us': "Horn Drill",
+				'fr-fr': "Empal'Korne",
 			},
 
 			damage: 90,
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "One swing of its mighty tail can snap a telephone pole as if it were a matchstick.",
+		'en-us': "One swing of its mighty tail can snap a telephone pole as if it were a matchstick.",
 	},
 
 	thirdParty: {

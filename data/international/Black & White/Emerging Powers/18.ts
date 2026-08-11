@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Pansear",
-		fr: "Flamajou",
-		es: "Pansear",
-		it: "Pansear",
-		pt: "Pansear",
-		de: "Grillmak"
+		'en-us': "Pansear",
+		'fr-fr': "Flamajou",
+		'es-es': "Pansear",
+		'it-it': "Pansear",
+		'pt-br': "Pansear",
+		'de-de': "Grillmak"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collecte",
+				'en-us': "Collect",
+				'fr-fr': "Collecte",
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
 			},
 
 			damage: 20,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600º F.",
+		'en-us': "This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600º F.",
 	},
 
 	thirdParty: {

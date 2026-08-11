@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハスブレロ",
+		'ja-jp': "ハスブレロ",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "釣り人を 見つけると 水中から 釣り糸を 引っ張り ジャマして 喜ぶ いたずらもの。",
+		'ja-jp': "釣り人を 見つけると 水中から 釣り糸を 引っ張り ジャマして 喜ぶ いたずらもの。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "アクアフロート" },
 			effect: {
-				ja: "このポケモンに[水]エネルギーがついているなら、このポケモンのにげるためのエネルギーは、すべてなくなる。",
+				'ja-jp': "このポケモンに[水]エネルギーがついているなら、このポケモンのにげるためのエネルギーは、すべてなくなる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、20ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、20ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ハスボー",
+		'ja-jp': "ハスボー",
 	},
 
 	retreat: 1,

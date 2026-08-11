@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マニューラ",
+		'ja-jp': "マニューラ",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "寒い 場所に 棲み アローラでは ロコンや サンドが 主な 餌。 獲物は 仲間で きちんと 分ける。",
+		'ja-jp': "寒い 場所に 棲み アローラでは ロコンや サンドが 主な 餌。 獲物は 仲間で きちんと 分ける。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Darkness"],
 			effect: {
-				ja: "相手の場の特性を持つポケモンの数x50ダメージ。",
+				'ja-jp': "相手の場の特性を持つポケモンの数x50ダメージ。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニューラ",
+		'ja-jp': "ニューラ",
 	},
 
 	retreat: 1,

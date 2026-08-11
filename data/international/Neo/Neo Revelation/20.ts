@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Lugia",
-		fr: "Lugia",
-		de: "Lugia"
+		'en-us': "Lugia",
+		'fr-fr': "Lugia",
+		'de-de': "Lugia"
 	},
 
 	illustrator: "Aya Kusube",
@@ -35,15 +35,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Aerowing",
-				fr: "Aéroaile",
-				de: "Aerowing"
+				'en-us': "Aerowing",
+				'fr-fr': "Aéroaile",
+				'de-de': "Aerowing"
 			},
 
 			effect: {
-				en: "You may flip a coin. If heads, this attack does 80 damage. If tails, this attack does nothing.",
-				fr: "Vous pouvez lancer une pièce. Si c'est face, cette attaque inflige 80 dégâts. Si c'est pile, cette attaque ne fait rien.",
-				de: "You may flip a coin. If heads, this attack does 80 damage. If tails, this attack does nothing."
+				'en-us': "You may flip a coin. If heads, this attack does 80 damage. If tails, this attack does nothing.",
+				'fr-fr': "Vous pouvez lancer une pièce. Si c'est face, cette attaque inflige 80 dégâts. Si c'est pile, cette attaque ne fait rien.",
+				'de-de': "You may flip a coin. If heads, this attack does 80 damage. If tails, this attack does nothing."
 			},
 
 			damage: 40
@@ -67,8 +67,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.",
-		fr: "On prétend qu'il est le gardien des mers. La rumeur veut qu'il apparaisse les nuits de tempête."
+		'en-us': "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.",
+		'fr-fr': "On prétend qu'il est le gardien des mers. La rumeur veut qu'il apparaisse les nuits de tempête."
 	},
 
 

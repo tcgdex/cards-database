@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ベトベター",
+		'ja-jp': "ベトベター",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "海底の ヘドロから 生まれた。 清潔な 場所では 体内の ばい菌が 増やせず 死んでしまう。",
+		'ja-jp': "海底の ヘドロから 生まれた。 清潔な 場所では 体内の ばい菌が 増やせず 死んでしまう。",
 	},
 
 	stage: "Basic",

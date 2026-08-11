@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Feebas",
-		fr: "Barpau",
-		es: "Feebas",
-		it: "Feebas",
-		pt: "Feebas",
-		de: "Barschwa"
+		'en-us': "Feebas",
+		'fr-fr': "Barpau",
+		'es-es': "Feebas",
+		'it-it': "Feebas",
+		'pt-br': "Feebas",
+		'de-de': "Barschwa"
 	},
 
 	rarity: "Illustration rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Leap Out",
-			fr: "Bondir",
-			es: "Saltar del Agua",
-			it: "Sguizzata",
-			pt: "Pular Fora",
-			de: "Herausspringen"
+			'en-us': "Leap Out",
+			'fr-fr': "Bondir",
+			'es-es': "Saltar del Agua",
+			'it-it': "Sguizzata",
+			'pt-br': "Pular Fora",
+			'de-de': "Herausspringen"
 		},
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-			es: "Cambia este Pokémon por uno de tus Pokémon en Banca.",
-			it: "Scambia questo Pokémon con uno della tua panchina.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+			'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+			'fr-fr': "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'es-es': "Cambia este Pokémon por uno de tus Pokémon en Banca.",
+			'it-it': "Scambia questo Pokémon con uno della tua panchina.",
+			'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+			'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 		}
 	}],
 

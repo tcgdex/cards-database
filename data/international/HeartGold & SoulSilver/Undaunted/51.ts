@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Hitmonchan",
-		fr: "Tygnon",
-		de: "Nockchan"
+		'en-us': "Hitmonchan",
+		'fr-fr': "Tygnon",
+		'de-de': "Nockchan"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Detect",
-				fr: "Détection",
-				de: "Scanner"
+				'en-us': "Detect",
+				'fr-fr': "Détection",
+				'de-de': "Scanner"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of attack, including damage, done to Hitmonchan during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c’est face, évitez tous les effets d’attaques (y compris les dégâts) infligés à Tygnon pendant le prochain tour de votre adversaire.",
-				de: "Wirf eine Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Nockchan zugefügt werden."
+				'en-us': "Flip a coin. If heads, prevent all effects of attack, including damage, done to Hitmonchan during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c’est face, évitez tous les effets d’attaques (y compris les dégâts) infligés à Tygnon pendant le prochain tour de votre adversaire.",
+				'de-de': "Wirf eine Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Nockchan zugefügt werden."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sky Uppercut",
-				fr: "Stratopercut",
-				de: "Himmelhieb"
+				'en-us': "Sky Uppercut",
+				'fr-fr': "Stratopercut",
+				'de-de': "Himmelhieb"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance.",
-				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance.",
+				'de-de': "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 30,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its punches slice the air. However, it seems to need a short break after fighting for three minutes."
+		'en-us': "Its punches slice the air. However, it seems to need a short break after fighting for three minutes."
 	},
 
 	variants: [

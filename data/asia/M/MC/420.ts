@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ペパーのリククラゲ",
+		'ja-jp': "ペパーのリククラゲ",
 	},
 
 	illustrator: "Yuya Oka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "森の奥に 集団で 暮らす コロニーを 作る。 よそ者が 近寄ることを ひどく 嫌う。",
+		'ja-jp': "森の奥に 集団で 暮らす コロニーを 作る。 よそ者が 近寄ることを ひどく 嫌う。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ひっぱる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+				'ja-jp': "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ペパーのノノクラゲ",
+		'ja-jp': "ペパーのノノクラゲ",
 	},
 
 	retreat: 2,

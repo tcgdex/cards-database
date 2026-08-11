@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Palossand",
-		fr: "Trépassable",
-		es: "Palossand",
-		it: "Palossand",
-		pt: "Palossand",
-		de: "Colossand"
+		'en-us': "Palossand",
+		'fr-fr': "Trépassable",
+		'es-es': "Palossand",
+		'it-it': "Palossand",
+		'pt-br': "Palossand",
+		'de-de': "Colossand"
 	},
 
 	illustrator: "sui",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Sandygast",
-		fr: "Bacabouh",
-		es: "Sandygast",
-		it: "Sandygast",
-		pt: "Sandygast",
-		de: "Sankabuh"
+		'en-us': "Sandygast",
+		'fr-fr': "Bacabouh",
+		'es-es': "Sandygast",
+		'it-it': "Sandygast",
+		'pt-br': "Sandygast",
+		'de-de': "Sankabuh"
 	},
 
 	stage: "Stage1",
@@ -35,32 +35,32 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Sandpot Trap",
-			fr: "Piège Seau de Plage",
-			es: "Trampa de Arena",
-			it: "Sabbiatrappola",
-			pt: "Armadilha Arenosa",
-			de: "Sandkastenfalle"
+			'en-us': "Sandpot Trap",
+			'fr-fr': "Piège Seau de Plage",
+			'es-es': "Trampa de Arena",
+			'it-it': "Sabbiatrappola",
+			'pt-br': "Armadilha Arenosa",
+			'de-de': "Sandkastenfalle"
 		},
 
 		effect: {
-			en: "This attack does 30 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Cette attaque inflige 30 dégâts à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-			es: "Este ataque hace 30 puntos de daño a cada uno de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-			it: "Questo attacco infligge 30 danni a ciascuno dei Pokémon del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-			pt: "Este ataque causa 30 pontos de dano a cada um dos Pokémon do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
-			de: "Diese Attacke fügt jedem Pokémon deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+			'en-us': "This attack does 30 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Cette attaque inflige 30 dégâts à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			'es-es': "Este ataque hace 30 puntos de daño a cada uno de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			'it-it': "Questo attacco infligge 30 danni a ciascuno dei Pokémon del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			'pt-br': "Este ataque causa 30 pontos de dano a cada um dos Pokémon do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
+			'de-de': "Diese Attacke fügt jedem Pokémon deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		}
 	}, {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Land Crush",
-			fr: "Écras'Terre",
-			es: "Aterrizaje",
-			it: "Schiacciaterra",
-			pt: "Aperto de Terra",
-			de: "Schollenbrecher"
+			'en-us': "Land Crush",
+			'fr-fr': "Écras'Terre",
+			'es-es': "Aterrizaje",
+			'it-it': "Schiacciaterra",
+			'pt-br': "Aperto de Terra",
+			'de-de': "Schollenbrecher"
 		},
 
 		damage: 120
@@ -77,7 +77,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Palossand is known as the Beach Nightmare. It pulls its prey down into the sand by controlling the sand itself, and then it sucks out their souls.",
+		'en-us': "Palossand is known as the Beach Nightmare. It pulls its prey down into the sand by controlling the sand itself, and then it sucks out their souls.",
 	},
 
 	variants: [

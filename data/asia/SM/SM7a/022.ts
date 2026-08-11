@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アシマリ",
+		'ja-jp': "アシマリ",
 	},
 
 	illustrator: "Yusuke Ohmura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "水の バルーンを 操る。 大きな バルーンを 作るため コツコツ 練習を 繰り返す。",
+		'ja-jp': "水の バルーンを 操る。 大きな バルーンを 作るため コツコツ 練習を 繰り返す。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Water"],
 			effect: {
-				ja: "このポケモンのHPを「10」回復する。",
+				'ja-jp': "このポケモンのHPを「10」回復する。",
 			},
 		},
 	],

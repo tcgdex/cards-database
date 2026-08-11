@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo-EX",
+		'en-us': "Mewtwo-EX",
 	},
 
 	illustrator: "Shizurow",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "X Ball",
+				'en-us': "X Ball",
 			},
 			effect: {
-				en: "Does 20 damage times the amount of Energy attached to this Pokémon and the Defending Pokémon.",
+				'en-us': "Does 20 damage times the amount of Energy attached to this Pokémon and the Defending Pokémon.",
 			},
 			damage: 20,
 
@@ -45,10 +45,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psydrive",
+				'en-us': "Psydrive",
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
+				'en-us': "Discard an Energy attached to this Pokémon.",
 			},
 			damage: 120,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パルキア",
+		'ja-jp': "パルキア",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "並行して 並ぶ 空間の 狭間に 住むと 言われている。 神話に 登場する ポケモン。",
+		'ja-jp': "並行して 並ぶ 空間の 狭間に 住むと 言われている。 神話に 登場する ポケモン。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「30」回復する。",
+				'ja-jp': "このポケモンのHPを「30」回復する。",
 			},
 		},
 		{

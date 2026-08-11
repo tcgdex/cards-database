@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Prinplup",
-		fr: "Prinplouf",
-		de: "Pliprin"
+		'en-us': "Prinplup",
+		'fr-fr': "Prinplouf",
+		'de-de': "Pliprin"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Piplup",
-		fr: "Tiplouf"
+		'en-us': "Piplup",
+		'fr-fr': "Tiplouf"
 	},
 
 	stage: "Stage1",
@@ -34,9 +34,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
-				de: "Surf"
+				'en-us': "Surf",
+				'fr-fr': "Surf",
+				'de-de': "Surf"
 			},
 
 			damage: 30,
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bubblebeam",
-				fr: "Bulles d'O",
-				de: "Bubblebeam"
+				'en-us': "Bubblebeam",
+				'fr-fr': "Bulles d'O",
+				'de-de': "Bubblebeam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 50,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Because every PRINPLUP considers itself to be the most important, they can never form a group."
+		'en-us': "Because every PRINPLUP considers itself to be the most important, they can never form a group."
 	},
 
 	variants: [

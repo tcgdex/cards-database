@@ -1,20 +1,20 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "สับเปลี่ยนโปเกมอน[ไอเท็ม]",
-		id: "Tukar Pokémon"
+		'th-th': "สับเปลี่ยนโปเกมอน[ไอเท็ม]",
+		'id-id': "Tukar Pokémon"
 	},
 
 	illustrator: "Studio Bora Inc.",
 	category: "Trainer",
 
 	effect: {
-		th: "สลับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายเรากับโปเกมอนบนเบนช์",
-		id: "Tukar Pokémon Bertarung sendiri dengan Pokémon Cadangan."
+		'th-th': "สลับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายเรากับโปเกมอนบนเบนช์",
+		'id-id': "Tukar Pokémon Bertarung sendiri dengan Pokémon Cadangan."
 	},
 
 	trainerType: "Item",

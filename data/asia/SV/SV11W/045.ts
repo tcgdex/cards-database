@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ギガイアス",
+		'ja-jp': "ギガイアス",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "体内の コアで エネルギーを 圧縮して 撃ち出す 攻撃は 山を 吹き飛ばす 威力。",
+		'ja-jp': "体内の コアで エネルギーを 圧縮して 撃ち出す 攻撃は 山を 吹き飛ばす 威力。",
 	},
 
 	stage: "Stage2",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: "20x",
 			cost: ["Fighting"],
 			effect: {
-				ja: "自分のベンチのポケモン全員にのっているダメカンの数×20ダメージ。",
+				'ja-jp': "自分のベンチのポケモン全員にのっているダメカンの数×20ダメージ。",
 			},
 		},
 		{
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ガントル",
+		'ja-jp': "ガントル",
 	},
 
 	retreat: 3,

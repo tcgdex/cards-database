@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legend Maker'
 
 const card: Card = {
 	name: {
-		en: "Kabutops",
-		fr: "Kabutops",
-		de: "Kabutops"
+		'en-us': "Kabutops",
+		'fr-fr': "Kabutops",
+		'de-de': "Kabutops"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kabuto",
-		fr: "Kabuto"
+		'en-us': "Kabuto",
+		'fr-fr': "Kabuto"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Ancient Shell",
-				fr: "Coquillage ancien",
-				de: "Uralter Panzer"
+				'en-us': "Ancient Shell",
+				'fr-fr': "Coquillage ancien",
+				'de-de': "Uralter Panzer"
 			},
 			effect: {
-				en: "As long as you have Omanyte or Omastar in play, damage done to Kabutops by attacks is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Tant qu'Amonita ou Amonistar sont en jeu, les dégâts infligés à Kabutops par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
-				de: "Solange du Amonitas oder Amoroso im Spiel hast, wird jeder Schaden, der Kabutops durch Angriffe zugefügt wird, um 20 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "As long as you have Omanyte or Omastar in play, damage done to Kabutops by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Tant qu'Amonita ou Amonistar sont en jeu, les dégâts infligés à Kabutops par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Solange du Amonitas oder Amoroso im Spiel hast, wird jeder Schaden, der Kabutops durch Angriffe zugefügt wird, um 20 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Energy Stream",
-				fr: "Courant d'énergie",
-				de: "Energiestrom"
+				'en-us': "Energy Stream",
+				'fr-fr': "Courant d'énergie",
+				'de-de': "Energiestrom"
 			},
 			effect: {
-				en: "Search your discard pile for a basic Energy card and attach it to Kabutops.",
-				fr: "Choisissez dans votre deck une carte Énergie de base et attachez-la à Kabutops.",
-				de: "Durchsuche deinen Ablagestapel nach 1 Basis-Energiekarte und lege sie an Kabutops an."
+				'en-us': "Search your discard pile for a basic Energy card and attach it to Kabutops.",
+				'fr-fr': "Choisissez dans votre deck une carte Énergie de base et attachez-la à Kabutops.",
+				'de-de': "Durchsuche deinen Ablagestapel nach 1 Basis-Energiekarte und lege sie an Kabutops an."
 			},
 			damage: 30,
 
@@ -71,14 +71,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Extra Claws",
-				fr: "Griffes supplémentaires",
-				de: "Extrakrallen"
+				'en-us': "Extra Claws",
+				'fr-fr': "Griffes supplémentaires",
+				'de-de': "Extrakrallen"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Pokémon-ex, this attack does 50 damage plus 30 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wenn das Verteidigende Pokémon ein Pokémon-ex ist, fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "If the Defending Pokémon is Pokémon-ex, this attack does 50 damage plus 30 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "Wenn das Verteidigende Pokémon ein Pokémon-ex ist, fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 

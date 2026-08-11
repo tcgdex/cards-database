@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Darkrai",
-		fr: "Darkrai",
+		'en-us': "Darkrai",
+		'fr-fr': "Darkrai",
 	},
 
 	illustrator: "kawayoo",
@@ -31,8 +31,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Cutter",
-				fr: "Tranch'Obscur",
+				'en-us': "Dark Cutter",
+				'fr-fr': "Tranch'Obscur",
 			},
 
 			damage: 30,
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Abyssal Sleep",
-				fr: "Sommeil Abyssal",
+				'en-us': "Abyssal Sleep",
+				'fr-fr': "Sommeil Abyssal",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep. Your opponent flips 2 coins instead of 1 between turns. If either of them is tails, that Pokémon is still Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi. Votre adversaire lance 2 pièces au lieu d'une entre chaque tour. Si vous obtenez au moins un côté pile, le Pokémon reste Endormi.",
+				'en-us': "Your opponent's Active Pokémon is now Asleep. Your opponent flips 2 coins instead of 1 between turns. If either of them is tails, that Pokémon is still Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi. Votre adversaire lance 2 pièces au lieu d'une entre chaque tour. Si vous obtenez au moins un côté pile, le Pokémon reste Endormi.",
 			},
 			damage: 80,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
+		'en-us': "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
 	},
 
 	thirdParty: {

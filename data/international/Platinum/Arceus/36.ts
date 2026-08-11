@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Gastly",
-		de: "Nebulak"
+		'en-us': "Gastly",
+		'de-de': "Nebulak"
 	},
 
 	illustrator: "kawayoo",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Lick",
-				de: "Schlecker"
+				'en-us': "Lick",
+				'de-de': "Schlecker"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Night Shade",
-				de: "Nachtnebel"
+				'en-us': "Night Shade",
+				'de-de': "Nachtnebel"
 			},
 			effect: {
-				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'de-de': "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 10,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison."
+		'en-us': "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison."
 	},
 
 	variants: [

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "คุยทาแรน",
-		id: "Heatmor"
+		'th-th': "คุยทาแรน",
+		'id-id': "Heatmor"
 	},
 
 	illustrator: "otumami",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		th: "ใช้เปลวไฟเหมือนกับเป็นลิ้น ค่อย ๆ ละลายโครงกระดูกส่วนนอกแข็ง ๆ ของไอแอนท์แล้วสวาปาม",
-		id: "Heatmor menggunakan api bagaikan lidah. Pokémon ini secara perlahan melelehkan eksoskeleton keras Durant dan menyantapnya."
+		'th-th': "ใช้เปลวไฟเหมือนกับเป็นลิ้น ค่อย ๆ ละลายโครงกระดูกส่วนนอกแข็ง ๆ ของไอแอนท์แล้วสวาปาม",
+		'id-id': "Heatmor menggunakan api bagaikan lidah. Pokémon ini secara perlahan melelehkan eksoskeleton keras Durant dan menyantapnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "เอนเนอร์จี้เบิร์นเนอร์",
-			id: "Energy Burner"
+			'th-th': "เอนเนอร์จี้เบิร์นเนอร์",
+			'id-id': "Energy Burner"
 		},
 
 		effect: {
-			th: "แดเมจจะเพิ่มตามจำนวนพลังงานที่ติดอยู่กับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม x30",
-			id: "Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap Energi yang dikenakan pada Pokémon Bertarung lawan."
+			'th-th': "แดเมจจะเพิ่มตามจำนวนพลังงานที่ติดอยู่กับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม x30",
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap Energi yang dikenakan pada Pokémon Bertarung lawan."
 		},
 
 		damage: "30+",

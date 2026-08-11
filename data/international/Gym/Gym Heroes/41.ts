@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Lickitung"
+		'en-us': "Brock's Lickitung"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -28,7 +28,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tongue Slap"
+				'en-us': "Tongue Slap"
 			},
 
 			damage: 20,
@@ -41,10 +41,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slam"
+				'en-us': "Slam"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads."
 			},
 			damage: "30x",
 

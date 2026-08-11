@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mega Signal",
-		fr: "Méga Signal",
-		de: "Mega-Signal",
-		it: "Megasegnale",
-		es: "Megaseñal",
-		pt: "Megassinal",
+		'en-us': "Mega Signal",
+		'fr-fr': "Méga Signal",
+		'de-de': "Mega-Signal",
+		'it-it': "Megasegnale",
+		'es-es': "Megaseñal",
+		'pt-br': "Megassinal",
 		'es-mx': "Megaseñal"
 	},
 
@@ -19,12 +19,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Search your deck for a Mega Evolution Pokémon ex, reveal it, and put it into your hand. Then, shuffle your deck.",
-		fr: "Cherchez dans votre deck un Pokémon-ex Méga-Évolution, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
-		de: "Durchsuche dein Deck nach 1 Mega-Entwicklungs-Pokémon-ex, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck.",
-		it: "Cerca nel tuo mazzo un Pokémon-ex Megaevoluzione, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia il tuo mazzo.",
-		es: "Busca en tu baraja 1 Pokémon ex Megaevolución, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
-		pt: "Procure por um Pokémon ex de Megaevolução no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
+		'en-us': "Search your deck for a Mega Evolution Pokémon ex, reveal it, and put it into your hand. Then, shuffle your deck.",
+		'fr-fr': "Cherchez dans votre deck un Pokémon-ex Méga-Évolution, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+		'de-de': "Durchsuche dein Deck nach 1 Mega-Entwicklungs-Pokémon-ex, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck.",
+		'it-it': "Cerca nel tuo mazzo un Pokémon-ex Megaevoluzione, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia il tuo mazzo.",
+		'es-es': "Busca en tu baraja 1 Pokémon ex Megaevolución, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
+		'pt-br': "Procure por um Pokémon ex de Megaevolução no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
 		'es-mx': "Busca en tu mazo 1 Pokémon ex Megaevolución, muéstralo y ponlo en tu mano. Después, baraja tu mazo."
 	},
 

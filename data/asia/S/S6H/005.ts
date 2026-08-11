@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シキジカ",
+		'ja-jp': "シキジカ",
 		'zh-tw': "四季鹿",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "季節の 変わり目に なると 体毛と においが 変化する。 季節を 告げる ポケモン。",
+		'ja-jp': "季節の 変わり目に なると 体毛と においが 変化する。 季節を 告げる ポケモン。",
 		'zh-tw': "到了季節交替之際，體毛與氣味就會產生變化。是通知季節來臨的寶可夢。",
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "なきごえ",
+				'ja-jp': "なきごえ",
 				'zh-tw': "迴轉攻擊",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-20」される。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-20」される。",
 			},
 		},
 		{

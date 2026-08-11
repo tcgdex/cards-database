@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポリゴン2",
+		'ja-jp': "ポリゴン2",
 	},
 
 	illustrator: "sowsow",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ＡＩを 搭載。 自力で 様々なことを 学んでいくが 余計なことまで 覚えだす。",
+		'ja-jp': "ＡＩを 搭載。 自力で 様々なことを 学んでいくが 余計なことまで 覚えだす。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ダブルドロー" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を2枚引く。",
+				'ja-jp': "自分の山札を2枚引く。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ポリゴン",
+		'ja-jp': "ポリゴン",
 	},
 
 	retreat: 2,

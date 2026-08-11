@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トサキント",
+		'ja-jp': "トサキント",
 	},
 
 	illustrator: "Shibuzoh.",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "背びれ 胸びれ 尾びれが 優雅に たなびくので 水の踊り子 と呼ばれる。",
+		'ja-jp': "背びれ 胸びれ 尾びれが 優雅に たなびくので 水の踊り子 と呼ばれる。",
 	},
 
 	stage: "Basic",

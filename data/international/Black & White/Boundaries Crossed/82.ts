@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Makuhita",
-		fr: "Makuhita",
-		es: "Makuhita",
-		it: "Makuhita",
-		pt: "Makuhita",
-		de: "Makuhita"
+		'en-us': "Makuhita",
+		'fr-fr': "Makuhita",
+		'es-es': "Makuhita",
+		'it-it': "Makuhita",
+		'pt-br': "Makuhita",
+		'de-de': "Makuhita"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Slap Push",
-				fr: "Grande Claque",
+				'en-us': "Slap Push",
+				'fr-fr': "Grande Claque",
 			},
 
 			damage: 30,
@@ -54,7 +54,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It toughens its body by slamming into thick trees. Many snapped trees can be found near its nest.",
+		'en-us': "It toughens its body by slamming into thick trees. Many snapped trees can be found near its nest.",
 	},
 
 	thirdParty: {

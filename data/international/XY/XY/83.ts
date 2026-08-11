@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Honedge",
-		fr: "Monorpale",
-		es: "Honedge",
-		it: "Honedge",
-		pt: "Honedge",
-		de: "Gramokles"
+		'en-us': "Honedge",
+		'fr-fr': "Monorpale",
+		'es-es': "Honedge",
+		'it-it': "Honedge",
+		'pt-br': "Honedge",
+		'de-de': "Gramokles"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Pierce",
-				fr: "Transpercement",
-				es: "Perforar",
-				it: "Perforare",
-				pt: "Perfurar",
-				de: "Durchbohren"
+				'en-us': "Pierce",
+				'fr-fr': "Transpercement",
+				'es-es': "Perforar",
+				'it-it': "Perforare",
+				'pt-br': "Perfurar",
+				'de-de': "Durchbohren"
 			},
 
 			damage: 10,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Apparently this Pokémon is born when a departed spirit inhabits a sword. It attaches itself to people and drinks their life force.",
+		'en-us': "Apparently this Pokémon is born when a departed spirit inhabits a sword. It attaches itself to people and drinks their life force.",
 	},
 
 	thirdParty: {

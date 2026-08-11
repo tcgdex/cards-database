@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Kraknoix",
-		en: "Trapinch",
-		es: "Trapinch",
-		it: "Trapinch",
-		pt: "Trapinch",
-		de: "Knacklion"
+		'fr-fr': "Kraknoix",
+		'en-us': "Trapinch",
+		'es-es': "Trapinch",
+		'it-it': "Trapinch",
+		'pt-br': "Trapinch",
+		'de-de': "Knacklion"
 	},
 
 	illustrator: "MAHOU",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Vibration Terrestre",
-			en: "Land's Pulse",
-			es: "Pulso Telúrico",
-			it: "Pulsazione Tellurica",
-			pt: "Pulso da Terra",
-			de: "Bodenpuls"
+			'fr-fr': "Vibration Terrestre",
+			'en-us': "Land's Pulse",
+			'es-es': "Pulso Telúrico",
+			'it-it': "Pulsazione Tellurica",
+			'pt-br': "Pulso da Terra",
+			'de-de': "Bodenpuls"
 		},
 
 		effect: {
-			fr: "Si un Stade est en jeu, cette attaque inflige 10 dégâts supplémentaires.",
-			en: "If a Stadium is in play, this attack does 10 more damage.",
-			es: "Si hay un Estadio en juego, este ataque hace 10 puntos de daño más.",
-			it: "Se c'è in gioco una carta Stadio, questo attacco infligge 10 danni in più.",
-			pt: "Se um Estádio estiver em jogo, este ataque causará 10 pontos de dano a mais.",
-			de: "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 10 Schadenspunkte mehr zu."
+			'fr-fr': "Si un Stade est en jeu, cette attaque inflige 10 dégâts supplémentaires.",
+			'en-us': "If a Stadium is in play, this attack does 10 more damage.",
+			'es-es': "Si hay un Estadio en juego, este ataque hace 10 puntos de daño más.",
+			'it-it': "Se c'è in gioco una carta Stadio, questo attacco infligge 10 danni in più.",
+			'pt-br': "Se um Estádio estiver em jogo, este ataque causará 10 pontos de dano a mais.",
+			'de-de': "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+",
@@ -55,7 +55,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its nest is a sloped, bowl-like pit in the desert. Once something has fallen in, there is no escape."
+		'en-us': "Its nest is a sloped, bowl-like pit in the desert. Once something has fallen in, there is no escape."
 	},
 
 	variants: [

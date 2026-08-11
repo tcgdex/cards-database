@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Protective Poncho"
+		'en-us': "Protective Poncho"
 	},
 
 	illustrator: "Toyste Beach",
@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "As long as the Pokémon this card is attached to is on your Bench, prevent all damage done to that Pokémon by your opponent's attacks and Abilities."
+		'en-us': "As long as the Pokémon this card is attached to is on your Bench, prevent all damage done to that Pokémon by your opponent's attacks and Abilities."
 	},
 
 	trainerType: "Tool"

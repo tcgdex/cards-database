@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spinda"
+		'en-us': "Spinda"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Each Spinda's spot pattern is different. With its\nstumbling movements, it evades opponents'\nattacks brilliantly!"
+		'en-us': "Each Spinda's spot pattern is different. With its\nstumbling movements, it evades opponents'\nattacks brilliantly!"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Dizzying Headbutt"
+			'en-us': "Dizzying Headbutt"
 		},
 
 		damage: 30,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Both Active Pokémon are now Confused."
+			'en-us': "Both Active Pokémon are now Confused."
 		}
 	}],
 

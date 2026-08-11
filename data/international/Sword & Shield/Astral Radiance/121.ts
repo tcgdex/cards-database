@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Noctowl",
-		fr: "Noarfang",
-		es: "Noctowl",
-		it: "Noctowl",
-		pt: "Noctowl",
-		de: "Noctuh"
+		'en-us': "Noctowl",
+		'fr-fr': "Noarfang",
+		'es-es': "Noctowl",
+		'it-it': "Noctowl",
+		'pt-br': "Noctowl",
+		'de-de': "Noctuh"
 	},
 
 	illustrator: "Nisota Niso",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Hoothoot",
-		fr: "Hoothoot",
-		es: "Hoothoot",
-		it: "Hoothoot",
-		pt: "Hoothoot",
-		de: "Hoothoot"
+		'en-us': "Hoothoot",
+		'fr-fr': "Hoothoot",
+		'es-es': "Hoothoot",
+		'it-it': "Hoothoot",
+		'pt-br': "Hoothoot",
+		'de-de': "Hoothoot"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Silent Wing",
-			fr: "Aile Silencieuse",
-			es: "Ala Silenciosa",
-			it: "Ala Silenziosa",
-			pt: "Asa Silenciosa",
-			de: "Lautlose Flügel"
+			'en-us': "Silent Wing",
+			'fr-fr': "Aile Silencieuse",
+			'es-es': "Ala Silenciosa",
+			'it-it': "Ala Silenziosa",
+			'pt-br': "Asa Silenciosa",
+			'de-de': "Lautlose Flügel"
 		},
 
 		effect: {
-			en: "Your opponent reveals their hand.",
-			fr: "Votre adversaire dévoile sa main.",
-			es: "Tu rival enseña las cartas de su mano.",
-			it: "Il tuo avversario mostra le carte che ha in mano.",
-			pt: "Seu oponente revela a própria mão.",
-			de: "Dein Gegner zeigt dir seine Handkarten."
+			'en-us': "Your opponent reveals their hand.",
+			'fr-fr': "Votre adversaire dévoile sa main.",
+			'es-es': "Tu rival enseña las cartas de su mano.",
+			'it-it': "Il tuo avversario mostra le carte che ha in mano.",
+			'pt-br': "Seu oponente revela a própria mão.",
+			'de-de': "Dein Gegner zeigt dir seine Handkarten."
 		},
 
 		damage: 50
@@ -57,21 +57,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Air Slash",
-			fr: "Lame d'Air",
-			es: "Tajo Aéreo",
-			it: "Eterelama",
-			pt: "Golpe de Ar",
-			de: "Luftschnitt"
+			'en-us': "Air Slash",
+			'fr-fr': "Lame d'Air",
+			'es-es': "Tajo Aéreo",
+			'it-it': "Eterelama",
+			'pt-br': "Golpe de Ar",
+			'de-de': "Luftschnitt"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte 1 Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte 1 Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 120
@@ -94,7 +94,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
+		'en-us': "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
 	},
 
 	variants: [

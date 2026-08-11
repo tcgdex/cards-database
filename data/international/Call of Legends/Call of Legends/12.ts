@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Kyogre",
-		fr: "Kyogre",
-		de: "Kyogre"
+		'en-us': "Kyogre",
+		'fr-fr': "Kyogre",
+		'de-de': "Kyogre"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Destructive Tsunami",
-				fr: "Tsunami destructeur",
-				de: "Zerstörerischer Tsunami"
+				'en-us': "Destructive Tsunami",
+				'fr-fr': "Tsunami destructeur",
+				'de-de': "Zerstörerischer Tsunami"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 40 damage to each of your opponent's Pokémon. If tails, this attack does 40 damage to each of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 40 dégâts à chaque Pokémon de votre adversaire. Si c’est pile, cette attaque inflige 40 dégâts à chacun de vos Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff jedem Pokémon deines Gegners 40 Schadenspunkte zu. Bei \"Zahl\" fügt dieser Angriff jedem deiner Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Flip a coin. If heads, this attack does 40 damage to each of your opponent's Pokémon. If tails, this attack does 40 damage to each of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 40 dégâts à chaque Pokémon de votre adversaire. Si c’est pile, cette attaque inflige 40 dégâts à chacun de vos Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff jedem Pokémon deines Gegners 40 Schadenspunkte zu. Bei \"Zahl\" fügt dieser Angriff jedem deiner Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -54,7 +54,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "A mythical Pokémon said to have swelled the seas with rain and tidal waves. It battled with Groudon.",
+		'en-us': "A mythical Pokémon said to have swelled the seas with rain and tidal waves. It battled with Groudon.",
 	},
 
 	variants: [

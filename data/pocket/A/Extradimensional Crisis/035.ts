@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sandygast",
-		fr: "Bacabouh"
+		'en-us': "Sandygast",
+		'fr-fr': "Bacabouh"
 	},
 
 	illustrator: "Yuka Morii",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "If it loses its shovel, it will stick something\nelse—like a branch—in its head to make\ndo until it finds another shovel.",
-		fr: "S'il perd sa pelle, il la remplacera par un autre objet, comme une branche, en attendant d'en trouver une nouvelle."
+		'en-us': "If it loses its shovel, it will stick something\nelse—like a branch—in its head to make\ndo until it finds another shovel.",
+		'fr-fr': "S'il perd sa pelle, il la remplacera par un autre objet, comme une branche, en attendant d'en trouver une nouvelle."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Sandy Shot",
-			fr: "Tir Sableux"
+			'en-us': "Sandy Shot",
+			'fr-fr': "Tir Sableux"
 		},
 
 		damage: 30,

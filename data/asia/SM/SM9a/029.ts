@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マーイーカ",
+		'ja-jp': "マーイーカ",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "光を 点滅させて 獲物を おびきよせると 長い 触手で 絡めとり 動きを 封じるぞ。",
+		'ja-jp': "光を 点滅させて 獲物を おびきよせると 長い 触手で 絡めとり 動きを 封じるぞ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "まどわす" },
 			cost: ["Darkness"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 	],

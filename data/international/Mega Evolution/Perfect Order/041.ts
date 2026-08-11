@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
@@ -7,13 +7,13 @@ const card: Card = {
 	dexId: [645],
 
 	name: {
-		en: "Landorus",
-		fr: "Démétéros",
-		es: "Landorus",
+		'en-us': "Landorus",
+		'fr-fr': "Démétéros",
+		'es-es': "Landorus",
 		'es-mx': "Landorus",
-		de: "Demeteros",
-		it: "Landorus",
-		pt: "Landorus"
+		'de-de': "Demeteros",
+		'it-it': "Landorus",
+		'pt-br': "Landorus"
 	},
 
 	illustrator: "aoki",
@@ -27,23 +27,23 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			en: "Rock Tumble",
-			fr: "Roule-Pierre",
-			es: "Avalancha de Rocas",
+			'en-us': "Rock Tumble",
+			'fr-fr': "Roule-Pierre",
+			'es-es': "Avalancha de Rocas",
 			'es-mx': "Deslave Rocoso",
-			de: "Rollende Felsen",
-			it: "Tiramassi",
-			pt: "Desabamento de Pedras"
+			'de-de': "Rollende Felsen",
+			'it-it': "Tiramassi",
+			'pt-br': "Desabamento de Pedras"
 		},
 
 		effect: {
-			en: "This attack's damage isn't affected by Resistance.",
-			fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-			es: "El daño de este ataque no se ve afectado por Resistencia.",
+			'en-us': "This attack's damage isn't affected by Resistance.",
+			'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+			'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
 			'es-mx': "El daño de este ataque no se ve afectado por Resistencia.",
-			de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert.",
-			it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-			pt: "O dano deste ataque não é afetado por Resistência."
+			'de-de': "Der Schaden dieser Attacke wird durch Resistenz nicht verändert.",
+			'it-it': "I danni di questo attacco non sono influenzati dalla resistenza.",
+			'pt-br': "O dano deste ataque não é afetado por Resistência."
 		},
 
 		damage: 50
@@ -51,23 +51,23 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Screw Knuckle",
-			fr: "Poing Vis",
-			es: "Nudillo Tornillo",
+			'en-us': "Screw Knuckle",
+			'fr-fr': "Poing Vis",
+			'es-es': "Nudillo Tornillo",
 			'es-mx': "Nudillo Sacacorchos",
-			de: "Windende Faust",
-			it: "Avvitapugno",
-			pt: "Punho Parafuso"
+			'de-de': "Windende Faust",
+			'it-it': "Avvitapugno",
+			'pt-br': "Punho Parafuso"
 		},
 
 		effect: {
-			en: "Put an Energy attached to this Pokémon into your hand.",
-			fr: "Ajoutez à votre main une Énergie attachée à ce Pokémon.",
-			es: "Pon 1 Energía unida a este Pokémon en tu mano.",
+			'en-us': "Put an Energy attached to this Pokémon into your hand.",
+			'fr-fr': "Ajoutez à votre main une Énergie attachée à ce Pokémon.",
+			'es-es': "Pon 1 Energía unida a este Pokémon en tu mano.",
 			'es-mx': "Pon 1 Energía unida a este Pokémon en tu mano.",
-			de: "Nimm 1 an dieses Pokémon angelegte Energie auf deine Hand.",
-			it: "Prendi un'Energia assegnata a questo Pokémon e aggiungila alle carte che hai in mano.",
-			pt: "Coloque uma Energia ligada a este Pokémon na sua mão."
+			'de-de': "Nimm 1 an dieses Pokémon angelegte Energie auf deine Hand.",
+			'it-it': "Prendi un'Energia assegnata a questo Pokémon e aggiungila alle carte che hai in mano.",
+			'pt-br': "Coloque uma Energia ligada a este Pokémon na sua mão."
 		},
 
 		damage: 120

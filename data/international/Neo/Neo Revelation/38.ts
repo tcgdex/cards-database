@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Stantler",
-		fr: "Cerfrousse",
-		de: "Damhirplex"
+		'en-us': "Stantler",
+		'fr-fr': "Cerfrousse",
+		'de-de': "Damhirplex"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Terrorize",
-				fr: "Terreur",
-				de: "Terrorize"
+				'en-us': "Terrorize",
+				'fr-fr': "Terreur",
+				'de-de': "Terrorize"
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Basic, choose 1 of its attacks. That Pokémon can't use that attack during your opponent's next turn.",
-				fr: "Si le Pokémon Défenseur est un Pokémon de base, choisissez 1 de ses attaques. Ce Pokémon ne peut pas utiliser cette attaque durant le prochain tour de votre adversaire.",
-				de: "If the Defending Pokémon is a Basic Pokémon, choose 1 of its attacks. That Pokémon can't use that attack during your opponent's next turn."
+				'en-us': "If the Defending Pokémon is a Basic, choose 1 of its attacks. That Pokémon can't use that attack during your opponent's next turn.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon de base, choisissez 1 de ses attaques. Ce Pokémon ne peut pas utiliser cette attaque durant le prochain tour de votre adversaire.",
+				'de-de': "If the Defending Pokémon is a Basic Pokémon, choose 1 of its attacks. That Pokémon can't use that attack during your opponent's next turn."
 			},
 
 		},
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Overhead Toss",
-				fr: "Souléve'korne",
-				de: "Overhead Toss"
+				'en-us': "Overhead Toss",
+				'fr-fr': "Souléve'korne",
+				'de-de': "Overhead Toss"
 			},
 			effect: {
-				en: "If you have any Benched Pokémon, flip a coin. If tails, this attack does 10 damage to 1 of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Si vous avez des Pokémon sur votre Banc, lancez une pièce. Si c'est pile, cette attaque inflige 10 dégâts à l'un d'entre eux. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon sur le Banc.)",
-				de: "If you have any Benched Pokémon, flip a coin. If tails, this attack does 10 damage to 1 of them. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "If you have any Benched Pokémon, flip a coin. If tails, this attack does 10 damage to 1 of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Si vous avez des Pokémon sur votre Banc, lancez une pièce. Si c'est pile, cette attaque inflige 10 dégâts à l'un d'entre eux. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon sur le Banc.)",
+				'de-de': "If you have any Benched Pokémon, flip a coin. If tails, this attack does 10 damage to 1 of them. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 30,
 
@@ -80,8 +80,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Those who stare at its antlers will gradually lose control of their senses and be unable to stand.",
-		fr: "Quiconque fixe ses bois perd peu à peu le contrôle de ses sens et finit par ne plus pouvoir tenir debout."
+		'en-us': "Those who stare at its antlers will gradually lose control of their senses and be unable to stand.",
+		'fr-fr': "Quiconque fixe ses bois perd peu à peu le contrôle de ses sens et finit par ne plus pouvoir tenir debout."
 	},
 
 

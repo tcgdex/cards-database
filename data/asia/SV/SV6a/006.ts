@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カプ・ブルル",
+		'ja-jp': "カプ・ブルル",
 		'zh-tw': "卡璞・哞哞",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "大木を 引き抜き ブンブン 振り回す。 草木を 茂らせて そのエネルギーを 吸収する。",
+		'ja-jp': "大木を 引き抜き ブンブン 振り回す。 草木を 茂らせて そのエネルギーを 吸収する。",
 		'zh-tw': "拔出巨大的樹木，轟轟地來回揮舞。 會讓草木茂盛生長，再吸收其中的能量。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ウッドハンマー",
+				'ja-jp': "ウッドハンマー",
 				'zh-tw': "木槌",
 			},
 			damage: 220,
 			cost: ["Grass", "Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 				'zh-tw': "這隻寶可夢也受到30點傷害。",
 			},
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "基本フェアリーエネルギー",
+		'ja-jp': "基本フェアリーエネルギー",
 		'zh-tw': "伊布",
 	},
 
@@ -13,7 +13,7 @@ const card: Card = {
 	energyType: "Normal",
 
 	effect: {
-		ja: "エネルギーカード付き カードボックス メガミュウツーX・メガミュウツーY",
+		'ja-jp': "エネルギーカード付き カードボックス メガミュウツーX・メガミュウツーY",
 	},
 
 	variants: [

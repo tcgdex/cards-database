@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tauros",
-		fr: "Tauros",
-		es: "Tauros",
-		it: "Tauros",
-		pt: "Tauros",
-		de: "Tauros"
+		'en-us': "Tauros",
+		'fr-fr': "Tauros",
+		'es-es': "Tauros",
+		'it-it': "Tauros",
+		'pt-br': "Tauros",
+		'de-de': "Tauros"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Destructive Horn",
-			fr: "Corne Destructrice",
-			es: "Cuerno Destructivo",
-			it: "Corno Distruttivo",
-			pt: "Chifre da Destruição",
-			de: "Zerstörerisches Horn"
+			'en-us': "Destructive Horn",
+			'fr-fr': "Corne Destructrice",
+			'es-es': "Cuerno Destructivo",
+			'it-it': "Corno Distruttivo",
+			'pt-br': "Chifre da Destruição",
+			'de-de': "Zerstörerisches Horn"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
-			fr: "Lancez une pièce. Si c'est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
-			es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
-			it: "Lancia una moneta. Se esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
-			pt: "Jogue uma moeda. Se sair cara, descarte uma Energia do Pokémon Ativo do seu oponente.",
-			de: "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+			'en-us': "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
+			'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			'es-es': "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
+			'it-it': "Lancia una moneta. Se esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			'pt-br': "Jogue uma moeda. Se sair cara, descarte uma Energia do Pokémon Ativo do seu oponente.",
+			'de-de': "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 70

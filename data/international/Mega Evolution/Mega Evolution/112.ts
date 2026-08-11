@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bewear",
-		fr: "Chelours",
-		de: "Kosturso",
-		it: "Bewear",
-		es: "Bewear",
-		pt: "Bewear",
+		'en-us': "Bewear",
+		'fr-fr': "Chelours",
+		'de-de': "Kosturso",
+		'it-it': "Bewear",
+		'es-es': "Bewear",
+		'pt-br': "Bewear",
 		'es-mx': "Bewear"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Stufful",
-		fr: "Nounourson",
-		de: "Velursi",
-		it: "Stufful",
-		es: "Stufful",
-		pt: "Stufful",
+		'en-us': "Stufful",
+		'fr-fr': "Nounourson",
+		'de-de': "Velursi",
+		'it-it': "Stufful",
+		'es-es': "Stufful",
+		'pt-br': "Stufful",
 		'es-mx': "Stufful"
 	},
 	stage: "Stage1",
@@ -36,12 +36,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Knuckle Punch",
-			fr: "Coud'Phalange",
-			de: "Knöchelhieb",
-			it: "Noccapugno",
-			es: "Puño con Nudillos",
-			pt: "Soco com Punho",
+			'en-us': "Knuckle Punch",
+			'fr-fr': "Coud'Phalange",
+			'de-de': "Knöchelhieb",
+			'it-it': "Noccapugno",
+			'es-es': "Puño con Nudillos",
+			'pt-br': "Soco com Punho",
 			'es-mx': "Puño con Nudillos"
 		},
 
@@ -50,22 +50,22 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Hyper Lariat",
-			fr: "Hyper Lasso",
-			de: "Hyperlasso",
-			it: "Iper Lariat",
-			es: "Hiperlazo",
-			pt: "Hiperlaço",
+			'en-us': "Hyper Lariat",
+			'fr-fr': "Hyper Lasso",
+			'de-de': "Hyperlasso",
+			'it-it': "Iper Lariat",
+			'es-es': "Hiperlazo",
+			'pt-br': "Hiperlaço",
 			'es-mx': "Hiperlazo"
 		},
 
 		effect: {
-			en: "Flip 2 coins. If both of them are heads, this attack does 100 more damage.",
-			fr: "Lancez 2 pièces. Si vous obtenez 2 côtés face, cette attaque inflige 100 dégâts supplémentaires.",
-			de: "Wirf 2 Münzen. Zeigen beide Münzen Kopf, fügt diese Attacke 100 Schadenspunkte mehr zu.",
-			it: "Lancia due volte una moneta. Se esce entrambe le volte testa, questo attacco infligge 100 danni in più.",
-			es: "Lanza 2 monedas. Si salen 2 caras, este ataque hace 100 puntos de daño más.",
-			pt: "Jogue 2 moedas. Se as duas saírem cara, este ataque causará 100 pontos de dano a mais.",
+			'en-us': "Flip 2 coins. If both of them are heads, this attack does 100 more damage.",
+			'fr-fr': "Lancez 2 pièces. Si vous obtenez 2 côtés face, cette attaque inflige 100 dégâts supplémentaires.",
+			'de-de': "Wirf 2 Münzen. Zeigen beide Münzen Kopf, fügt diese Attacke 100 Schadenspunkte mehr zu.",
+			'it-it': "Lancia due volte una moneta. Se esce entrambe le volte testa, questo attacco infligge 100 danni in più.",
+			'es-es': "Lanza 2 monedas. Si salen 2 caras, este ataque hace 100 puntos de daño más.",
+			'pt-br': "Jogue 2 moedas. Se as duas saírem cara, este ataque causará 100 pontos de dano a mais.",
 			'es-mx': "Lanza 2 monedas. Si sale cara en ambas, este ataque hace 100 puntos de daño más."
 		},
 

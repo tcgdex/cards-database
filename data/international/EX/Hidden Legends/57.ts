@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Chinchou",
-		fr: "Loupio",
-		de: "Lampi"
+		'en-us': "Chinchou",
+		'fr-fr': "Loupio",
+		'de-de': "Lampi"
 	},
 
 	illustrator: "Nakaoka",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Random Spark",
-				fr: "Étincelle surprise",
-				de: "Random Spark"
+				'en-us': "Random Spark",
+				'fr-fr': "Étincelle surprise",
+				'de-de': "Random Spark"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de banc.)",
-				de: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de banc.)",
+				'de-de': "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lightning Ball",
-				fr: "Boule éclair",
-				de: "Lightning Ball"
+				'en-us': "Lightning Ball",
+				'fr-fr': "Boule éclair",
+				'de-de': "Lightning Ball"
 			},
 
 			damage: 20,

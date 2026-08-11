@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Spoink",
-		en: "Spoink",
-		es: "Spoink",
-		it: "Spoink",
-		pt: "Spoink",
-		de: "Spoink"
+		'fr-fr': "Spoink",
+		'en-us': "Spoink",
+		'es-es': "Spoink",
+		'it-it': "Spoink",
+		'pt-br': "Spoink",
+		'de-de': "Spoink"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			fr: "Trempette",
-			en: "Splash",
-			es: "Salpicadura",
-			it: "Splash",
-			pt: "Borrifada",
-			de: "Platscher"
+			'fr-fr': "Trempette",
+			'en-us': "Splash",
+			'es-es': "Salpicadura",
+			'it-it': "Splash",
+			'pt-br': "Borrifada",
+			'de-de': "Platscher"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Collision",
-			en: "Ram",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'fr-fr': "Collision",
+			'en-us': "Ram",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 20
@@ -64,7 +64,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Spoink will die if it stops bouncing. The pearl on its head amplifies its psychic powers.",
+		'en-us': "Spoink will die if it stops bouncing. The pearl on its head amplifies its psychic powers.",
 	},
 
 	variants: [

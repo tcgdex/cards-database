@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ducklett",
-		fr: "Couaneton",
-		es: "Ducklett",
-		it: "Ducklett",
-		pt: "Ducklett",
-		de: "Piccolente"
+		'en-us': "Ducklett",
+		'fr-fr': "Couaneton",
+		'es-es': "Ducklett",
+		'it-it': "Ducklett",
+		'pt-br': "Ducklett",
+		'de-de': "Piccolente"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Double Draw",
-			fr: "Double Pioche",
-			es: "Roba Doble",
-			it: "Pescata Doppia",
-			pt: "Compra Dupla",
-			de: "Zweifachzug"
+			'en-us': "Double Draw",
+			'fr-fr': "Double Pioche",
+			'es-es': "Roba Doble",
+			'it-it': "Pescata Doppia",
+			'pt-br': "Compra Dupla",
+			'de-de': "Zweifachzug"
 		},
 
 		effect: {
-			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
-			es: "Roba 2 cartas.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas.",
-			de: "Ziehe 2 Karten."
+			'en-us': "Draw 2 cards.",
+			'fr-fr': "Piochez 2 cartes.",
+			'es-es': "Roba 2 cartas.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas.",
+			'de-de': "Ziehe 2 Karten."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Razor Wing",
-			fr: "Aile Tranchante",
-			es: "Ala Cortante",
-			it: "Ala Tagliente",
-			pt: "Asa Cortante",
-			de: "Rasierflügel"
+			'en-us': "Razor Wing",
+			'fr-fr': "Aile Tranchante",
+			'es-es': "Ala Cortante",
+			'it-it': "Ala Tagliente",
+			'pt-br': "Asa Cortante",
+			'de-de': "Rasierflügel"
 		},
 
 		damage: 20
@@ -71,7 +71,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It strengthens its body by diving into the depths of ponds, swimming around while looking for bog moss to eat.",
+		'en-us': "It strengthens its body by diving into the depths of ponds, swimming around while looking for bog moss to eat.",
 	},
 
 	variants: [

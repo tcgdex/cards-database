@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HS trainer Kit (Raichu)'
 
 const card: Card = {
 	name: {
-		en: "Raichu",
+		'en-us': "Raichu",
 	},
 
 	illustrator: "match",
@@ -16,7 +16,7 @@ const card: Card = {
 		"Lightning",
 	],
 	evolveFrom: {
-		en: "Pikachu",
+		'en-us': "Pikachu",
 	},
 	stage: "Stage1",
 	attacks: [
@@ -25,10 +25,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Iron Tail",
+				'en-us': "Iron Tail",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
+				'en-us': "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
 			},
 			damage: "30×",
 		},
@@ -38,10 +38,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunderbolt",
+				'en-us': "Thunderbolt",
 			},
 			effect: {
-				en: "Discard all Energy attached to Raichu.",
+				'en-us': "Discard all Energy attached to Raichu.",
 			},
 			damage: 100,
 		},

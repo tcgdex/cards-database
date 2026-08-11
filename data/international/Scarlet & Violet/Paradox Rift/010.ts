@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Blipbug",
-		fr: "Larvadar",
-		es: "Blipbug",
-		it: "Blipbug",
-		pt: "Blipbug",
-		de: "Sensect"
+		'en-us': "Blipbug",
+		'fr-fr': "Larvadar",
+		'es-es': "Blipbug",
+		'it-it': "Blipbug",
+		'pt-br': "Blipbug",
+		'de-de': "Sensect"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Surprise Attack",
-			fr: "Attaque Surprise",
-			es: "Ataque Sorpresa",
-			it: "Attacco a Sorpresa",
-			pt: "Ataque Surpresa",
-			de: "Überraschungsangriff"
+			'en-us': "Surprise Attack",
+			'fr-fr': "Attaque Surprise",
+			'es-es': "Ataque Sorpresa",
+			'it-it': "Attacco a Sorpresa",
+			'pt-br': "Ataque Surpresa",
+			'de-de': "Überraschungsangriff"
 		},
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-			pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
-			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+			'pt-br': "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
+			'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 		},
 
 		damage: 30
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings.",
+		'en-us': "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings.",
 	},
 
 	variants: [

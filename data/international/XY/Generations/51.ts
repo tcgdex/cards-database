@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Clefable",
-		fr: "Mélodelfe",
+		'en-us': "Clefable",
+		'fr-fr': "Mélodelfe",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Clefairy",
-		fr: "Mélofée",
+		'en-us': "Clefairy",
+		'fr-fr': "Mélofée",
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Follow Me",
-				fr: "Par Ici",
+				'en-us': "Follow Me",
+				'fr-fr': "Par Ici",
 			},
 			effect: {
-				en: "Switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.",
-				fr: "Échangez l'un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
+				'en-us': "Switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.",
+				'fr-fr': "Échangez l'un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
 			},
 
 		},
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Moonblast",
-				fr: "Pouvoir Lunaire",
+				'en-us': "Moonblast",
+				'fr-fr': "Pouvoir Lunaire",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par les attaques du Pokémon Défenseur sont réduits de 30 (avant application de la Faiblesse et de la Résistance).",
+				'en-us': "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par les attaques du Pokémon Défenseur sont réduits de 30 (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: 30,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its hearing is so acute it can hear a pin drop over half a mile away. It lives on quiet mountains.",
+		'en-us': "Its hearing is so acute it can hear a pin drop over half a mile away. It lives on quiet mountains.",
 	},
 
 	thirdParty: {

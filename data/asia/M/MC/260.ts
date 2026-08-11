@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリキテル",
+		'ja-jp': "エリキテル",
 	},
 
 	illustrator: "Taiga Kayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "頭の ひだを 広げ 太陽の 光で 発電すると パワフルな 電気技を 出せるようになる。",
+		'ja-jp': "頭の ひだを 広げ 太陽の 光で 発電すると パワフルな 電気技を 出せるようになる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "もってくる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を1枚引く。",
+				'ja-jp': "自分の山札を1枚引く。",
 			},
 		},
 		{

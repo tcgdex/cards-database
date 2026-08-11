@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フォッコ",
+		'ja-jp': "フォッコ",
 	},
 
 	illustrator: "Kanako Eo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "小枝を 持ち歩き おやつがわりに ポリポリ 食べる。 耳から 熱気を 噴き出して 相手を 威嚇する。",
+		'ja-jp': "小枝を 持ち歩き おやつがわりに ポリポリ 食べる。 耳から 熱気を 噴き出して 相手を 威嚇する。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、30ダメージを追加。",
+				'ja-jp': "コインを1回投げオモテなら、30ダメージを追加。",
 			},
 		},
 	],

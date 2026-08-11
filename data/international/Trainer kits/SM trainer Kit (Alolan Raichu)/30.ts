@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM trainer Kit (Alolan Raichu)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Alolan Raichu",
-		fr: "Raichu d’Alola",
-		es: "Raichu de Alola",
-		it: "Raichu di Alola",
-		pt: "Raichu de Alola",
-		de: "Alola-Raichu"
+		'en-us': "Alolan Raichu",
+		'fr-fr': "Raichu d’Alola",
+		'es-es': "Raichu de Alola",
+		'it-it': "Raichu di Alola",
+		'pt-br': "Raichu de Alola",
+		'de-de': "Alola-Raichu"
 	},
 
 	rarity: "None",
@@ -22,12 +22,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		es: "Pikachu",
-		it: "Pikachu",
-		pt: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'es-es': "Pikachu",
+		'it-it': "Pikachu",
+		'pt-br': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -35,25 +35,25 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 
 	description: {
-		en: "It only evolves to this form in the Alola region. According to researchers, its diet is one of the causes of this change."
+		'en-us': "It only evolves to this form in the Alola region. According to researchers, its diet is one of the causes of this change."
 	},
 
 	attacks: [{
 		name: {
-			en: "Quick Attack",
-			fr: "Vive-Attaque"
+			'en-us': "Quick Attack",
+			'fr-fr': "Vive-Attaque"
 		},
 
 		damage: "10+",
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires."
+			'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires."
 		}
 	}, {
 		name: {
-			en: "Electric Surfer",
-			fr: "Surfeur Électrique"
+			'en-us': "Electric Surfer",
+			'fr-fr': "Surfeur Électrique"
 		},
 
 		damage: 70

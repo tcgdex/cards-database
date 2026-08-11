@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Passimian",
-		th: "นาเกสึเคซารุ"
+		'id-id': "Passimian",
+		'th-th': "นาเกสึเคซารุ"
 	},
 
 	illustrator: "Teeziro",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Sepuluh Passimian yang dipilih oleh bos pergi berburu, lalu makanan yang didapat akan dibagi secara merata kepada kawan-kawan sekelompoknya.",
-		th: "10 ตัวที่หัวหน้าฝูงเลือกจะออกล่าหาอาหารโดยอาหารที่หามาได้จะ แบ่งกันในฝูงอย่างเท่าเทียม"
+		'id-id': "Sepuluh Passimian yang dipilih oleh bos pergi berburu, lalu makanan yang didapat akan dibagi secara merata kepada kawan-kawan sekelompoknya.",
+		'th-th': "10 ตัวที่หัวหน้าฝูงเลือกจะออกล่าหาอาหารโดยอาหารที่หามาได้จะ แบ่งกันในฝูงอย่างเท่าเทียม"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Pelemparan Kerja Tim",
-			th: "ประสานมือขว้าง"
+			'id-id': "Pelemparan Kerja Tim",
+			'th-th': "ประสานมือขว้าง"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap Pokémon Basic di Arena sendiri.",
-			th: "แดเมจจะเท่ากับจำนวนโปเกมอน[พื้นฐาน]บนกระดานฝ่ายเรา x20"
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap Pokémon Basic di Arena sendiri.",
+			'th-th': "แดเมจจะเท่ากับจำนวนโปเกมอน[พื้นฐาน]บนกระดานฝ่ายเรา x20"
 		},
 
 		damage: "20×",

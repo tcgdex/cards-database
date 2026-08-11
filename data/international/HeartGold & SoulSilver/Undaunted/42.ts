@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Aron",
-		fr: "Galekid",
-		de: "Stollunior"
+		'en-us': "Aron",
+		'fr-fr': "Galekid",
+		'de-de': "Stollunior"
 	},
 
 	illustrator: "match",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Metal Sound",
-				fr: "Strido-son",
-				de: "Metallsound"
+				'en-us': "Metal Sound",
+				'fr-fr': "Strido-son",
+				'de-de': "Metallsound"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d’boule",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d’boule",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 20,
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it evolves, it sheds the steel carapace that covered its whole body and develops a new one."
+		'en-us': "When it evolves, it sheds the steel carapace that covered its whole body and develops a new one."
 	},
 
 	variants: [

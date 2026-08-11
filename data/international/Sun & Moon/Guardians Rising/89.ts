@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Clefable",
-		fr: "Mélodelfe",
-		es: "Clefable",
-		it: "Clefable",
-		pt: "Clefable",
-		de: "Pixi"
+		'en-us': "Clefable",
+		'fr-fr': "Mélodelfe",
+		'es-es': "Clefable",
+		'it-it': "Clefable",
+		'pt-br': "Clefable",
+		'de-de': "Pixi"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Clefairy",
-		fr: "Mélofée",
+		'en-us': "Clefairy",
+		'fr-fr': "Mélofée",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lullaby",
-				fr: "Comptine",
-				es: "Nana",
-				it: "Ninnananna",
-				pt: "Canção de Ninar",
-				de: "Wiegenlied"
+				'en-us': "Lullaby",
+				'fr-fr': "Comptine",
+				'es-es': "Nana",
+				'it-it': "Ninnananna",
+				'pt-br': "Canção de Ninar",
+				'de-de': "Wiegenlied"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent’s Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 20,
 
@@ -64,20 +64,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Meteor Mash",
-				fr: "Poing Météore",
-				es: "Puño Meteoro",
-				it: "Meteorpugno",
-				pt: "Meteoro Esmagador",
-				de: "Sternenhieb"
+				'en-us': "Meteor Mash",
+				'fr-fr': "Poing Météore",
+				'es-es': "Puño Meteoro",
+				'it-it': "Meteorpugno",
+				'pt-br': "Meteoro Esmagador",
+				'de-de': "Sternenhieb"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon’s Meteor Mash attack does 60 more damage (before applying Weakness and Resistance).",
-				fr: "Pendant votre prochain tour, l’attaque Poing Météore de ce Pokémon inflige 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
-				es: "Durante tu próximo turno, el ataque Puño Meteoro de este Pokémon hace 60 puntos de daño más (antes de aplicar Debilidad y Resistencia).",
-				it: "Durante il tuo prossimo turno, l’attacco Meteorpugno di questo Pokémon infligge 60 danni in più, prima di aver applicato debolezza e resistenza.",
-				pt: "Durante a sua próxima vez de jogar, o ataque Meteoro Esmagador deste Pokémon causará 60 pontos de dano a mais (antes de aplicar Fraqueza e Resistência).",
-				de: "Während deines nächsten Zuges fügt die Attacke Sternenhieb dieses Pokémon 60 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "During your next turn, this Pokémon’s Meteor Mash attack does 60 more damage (before applying Weakness and Resistance).",
+				'fr-fr': "Pendant votre prochain tour, l’attaque Poing Météore de ce Pokémon inflige 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				'es-es': "Durante tu próximo turno, el ataque Puño Meteoro de este Pokémon hace 60 puntos de daño más (antes de aplicar Debilidad y Resistencia).",
+				'it-it': "Durante il tuo prossimo turno, l’attacco Meteorpugno di questo Pokémon infligge 60 danni in più, prima di aver applicato debolezza e resistenza.",
+				'pt-br': "Durante a sua próxima vez de jogar, o ataque Meteoro Esmagador deste Pokémon causará 60 pontos de dano a mais (antes de aplicar Fraqueza e Resistência).",
+				'de-de': "Während deines nächsten Zuges fügt die Attacke Sternenhieb dieses Pokémon 60 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 			damage: 60,
 
@@ -101,7 +101,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They don't like to reveal themselves in front of people. They live quietly in packs deep in the mountains.",
+		'en-us': "They don't like to reveal themselves in front of people. They live quietly in packs deep in the mountains.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Furret",
-		fr: "Fouinar",
-		de: "Wiesenior"
+		'en-us': "Furret",
+		'fr-fr': "Fouinar",
+		'de-de': "Wiesenior"
 	},
 
 	illustrator: "MAHOU",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sentret",
-		fr: "Fouinette"
+		'en-us': "Sentret",
+		'fr-fr': "Fouinette"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Find a Friend",
-				fr: "Trouver un ami",
-				de: "Freunde finden"
+				'en-us': "Find a Friend",
+				'fr-fr': "Trouver un ami",
+				'de-de': "Freunde finden"
 			},
 			effect: {
-				en: "Search your deck for a Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez un Pokémon dans votre deck, montrez-le à votre adversaire, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
-				de: "Durchsuche dein Deck nach 1 Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische anschließend dein Deck."
+				'en-us': "Search your deck for a Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez un Pokémon dans votre deck, montrez-le à votre adversaire, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+				'de-de': "Durchsuche dein Deck nach 1 Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Blow",
-				fr: "Coup d’poing éclair",
-				de: "Schnellschlag"
+				'en-us': "Quick Blow",
+				'fr-fr': "Coup d’poing éclair",
+				'de-de': "Schnellschlag"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It makes a nest to suit its long and skinny body. The nest is impossible for other Pokémon to enter."
+		'en-us': "It makes a nest to suit its long and skinny body. The nest is impossible for other Pokémon to enter."
 	},
 
 	variants: [

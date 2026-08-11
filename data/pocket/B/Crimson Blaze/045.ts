@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [88],
 
 	name: {
-		en: "Grimer"
+		'en-us': "Grimer"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "Appears in filthy areas. It thrives by sucking up\npolluted sludge that is pumped out of factories."
+		'en-us': "Appears in filthy areas. It thrives by sucking up\npolluted sludge that is pumped out of factories."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Sludge Bomb"
+			'en-us': "Sludge Bomb"
 		},
 
 		damage: 40,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Furfrou",
-		fr: "Couafarel",
-		es: "Furfrou",
-		it: "Furfrou",
-		pt: "Furfrou",
-		de: "Coiffwaff"
+		'en-us': "Furfrou",
+		'fr-fr': "Couafarel",
+		'es-es': "Furfrou",
+		'it-it': "Furfrou",
+		'pt-br': "Furfrou",
+		'de-de': "Coiffwaff"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Return",
-				fr: "Retour",
-				es: "Retribución",
-				it: "Ritorno",
-				pt: "Retorno",
-				de: "Rückkehr"
+				'en-us': "Return",
+				'fr-fr': "Retour",
+				'es-es': "Retribución",
+				'it-it': "Ritorno",
+				'pt-br': "Retorno",
+				'de-de': "Rückkehr"
 			},
 			effect: {
-				en: "You may draw cards until you have 5 cards in your hand.",
-				fr: "Vous pouvez piocher des cartes jusqu’à ce que vous ayez 5 cartes en main.",
-				es: "Puedes robar cartas hasta que tengas 5 cartas en tu mano.",
-				it: "Puoi pescare fino ad avere cinque carte in mano.",
-				pt: "Você pode comprar cartas até ter 5 cartas na sua mão.",
-				de: "Du kannst so lang Karten ziehen, bis du 5 Karten auf deiner Hand hast."
+				'en-us': "You may draw cards until you have 5 cards in your hand.",
+				'fr-fr': "Vous pouvez piocher des cartes jusqu’à ce que vous ayez 5 cartes en main.",
+				'es-es': "Puedes robar cartas hasta que tengas 5 cartas en tu mano.",
+				'it-it': "Puoi pescare fino ad avere cinque carte in mano.",
+				'pt-br': "Você pode comprar cartas até ter 5 cartas na sua mão.",
+				'de-de': "Du kannst so lang Karten ziehen, bis du 5 Karten auf deiner Hand hast."
 			},
 			damage: 20,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Historically, in the Kalos region, these Pokémon were the designated guardians of the king.",
+		'en-us': "Historically, in the Kalos region, these Pokémon were the designated guardians of the king.",
 	},
 
 	thirdParty: {

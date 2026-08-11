@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒットモンチャン",
+		'ja-jp': "ヒットモンチャン",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "ダッジ",
+				'ja-jp': "ダッジ",
 			},
 			effect: {
-				ja: "Hitmonchanが対戦相手の次のターン中に攻撃によって損傷を受けた場合は、コインをひっくり返します。頭の場合は、Hitmonchanに攻撃の損傷を防ぎます。 （攻撃の他の影響はまだ発生しています。）",
+				'ja-jp': "Hitmonchanが対戦相手の次のターン中に攻撃によって損傷を受けた場合は、コインをひっくり返します。頭の場合は、Hitmonchanに攻撃の損傷を防ぎます。 （攻撃の他の影響はまだ発生しています。）",
 			},
 		},
 		{
 			cost: ["Fighting", "Fighting", "Fighting"],
 			name: {
-				ja: "超音波ジャブ",
+				'ja-jp': "超音波ジャブ",
 			},
 			damage: 40,
 		},

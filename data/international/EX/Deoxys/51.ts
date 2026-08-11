@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Weezing",
-		fr: "Smogogo",
-		de: "Smogmog"
+		'en-us': "Weezing",
+		'fr-fr': "Smogogo",
+		'de-de': "Smogmog"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Koffing",
-		fr: "Smogo"
+		'en-us': "Koffing",
+		'fr-fr': "Smogo"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Liability",
-				fr: "Responsabilité",
-				de: "Liability"
+				'en-us': "Liability",
+				'fr-fr': "Responsabilité",
+				'de-de': "Liability"
 			},
 			effect: {
-				en: "Put damage counters on the Defending Pokémon until it is 10 HP away from being Knocked Out. Weezing does 70 damage to itself.",
-				fr: "Placez des marqueurs de dégât sur le Pokémon Défenseur jusqu'à ce qu'il ne soit plus qu'à 10 Points de vie. Smogogo s'inflige 70 dégâts.",
-				de: "Put damage counters on the Defending Pokémon until it is 10 HP from being Knock Out. Weezing does 70 damage to itself."
+				'en-us': "Put damage counters on the Defending Pokémon until it is 10 HP away from being Knocked Out. Weezing does 70 damage to itself.",
+				'fr-fr': "Placez des marqueurs de dégât sur le Pokémon Défenseur jusqu'à ce qu'il ne soit plus qu'à 10 Points de vie. Smogogo s'inflige 70 dégâts.",
+				'de-de': "Put damage counters on the Defending Pokémon until it is 10 HP from being Knock Out. Weezing does 70 damage to itself."
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smogscreen",
-				fr: "Para-brouillard",
-				de: "Smogscreen"
+				'en-us': "Smogscreen",
+				'fr-fr': "Para-brouillard",
+				'de-de': "Smogscreen"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned. If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "The Defending Pokémon is now Poisoned. If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flip a coin. If tails, that attack does nothing."
+				'en-us': "The Defending Pokémon is now Poisoned. If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné. Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "The Defending Pokémon is now Poisoned. If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flip a coin. If tails, that attack does nothing."
 			},
 			damage: 20,
 

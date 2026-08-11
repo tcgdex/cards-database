@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arrokuda",
-		fr: "Embrochet",
-		de: "Pikuda",
-		it: "Arrokuda",
-		es: "Arrokuda",
-		pt: "Arrokuda",
+		'en-us': "Arrokuda",
+		'fr-fr': "Embrochet",
+		'de-de': "Pikuda",
+		'it-it': "Arrokuda",
+		'es-es': "Arrokuda",
+		'pt-br': "Arrokuda",
 		'es-mx': "Arrokuda"
 	},
 
@@ -28,22 +28,22 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Reckless Charge",
-			fr: "Attaque Imprudente",
-			de: "Waghalsiger Sturmangriff",
-			it: "Carica Avventata",
-			es: "Carga Descuidada",
-			pt: "Carga Indomável",
+			'en-us': "Reckless Charge",
+			'fr-fr': "Attaque Imprudente",
+			'de-de': "Waghalsiger Sturmangriff",
+			'it-it': "Carica Avventata",
+			'es-es': "Carga Descuidada",
+			'pt-br': "Carga Indomável",
 			'es-mx': "Carga Temeraria"
 		},
 
 		effect: {
-			en: "This Pokémon also does 10 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
-			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu.",
-			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+			'en-us': "This Pokémon also does 10 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 10 dégâts.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu.",
+			'it-it': "Questo Pokémon infligge anche 10 danni a se stesso.",
+			'es-es': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
+			'pt-br': "Este Pokémon também causa 10 pontos de dano a si mesmo.",
 			'es-mx': "Este Pokémon también se hace 10 puntos de daño a sí mismo."
 		},
 

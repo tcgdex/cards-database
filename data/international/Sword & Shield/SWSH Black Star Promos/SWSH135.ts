@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zacian",
-		fr: "Zacian",
-		de: "Zacian",
-		es: "Zacian",
-		pt: "Zacian",
-		it: "Zacian"
+		'en-us': "Zacian",
+		'fr-fr': "Zacian",
+		'de-de': "Zacian",
+		'es-es': "Zacian",
+		'pt-br': "Zacian",
+		'it-it': "Zacian"
 	},
 
 	illustrator: "5ban Graphics",
@@ -23,13 +23,13 @@ const card: Card = {
 		type: "Poke-BODY",
 
 		name: {
-			en: "Bladed Armament",
-			fr: "Artillerie Lames"
+			'en-us': "Bladed Armament",
+			'fr-fr': "Artillerie Lames"
 		},
 
 		effect: {
-			en: "Damage from this Pokémon's attacks isn't affected by any effects on your opponent's Active Pokémon.",
-			fr: "Les dégâts des attaques de ce Pokémon ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire."
+			'en-us': "Damage from this Pokémon's attacks isn't affected by any effects on your opponent's Active Pokémon.",
+			'fr-fr': "Les dégâts des attaques de ce Pokémon ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire."
 		}
 	}],
 
@@ -37,23 +37,23 @@ const card: Card = {
 		cost: ["Metal", "Metal", "Colorless"],
 
 		name: {
-			en: "Brave Blade",
-			fr: "Lame Vaillante",
-			de: "Couragierte Klinge",
-			es: "Cuchilla Osada",
-			pt: "Lâmina Valente",
-			it: "Baldalama"
+			'en-us': "Brave Blade",
+			'fr-fr': "Lame Vaillante",
+			'de-de': "Couragierte Klinge",
+			'es-es': "Cuchilla Osada",
+			'pt-br': "Lâmina Valente",
+			'it-it': "Baldalama"
 		},
 
 		damage: 240,
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare."
 		}
 	}],
 	weaknesses: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Magicarpe",
-		en: "Magikarp",
-		es: "Magikarp",
-		it: "Magikarp",
-		pt: "Magikarp",
-		de: "Karpador"
+		'fr-fr': "Magicarpe",
+		'en-us': "Magikarp",
+		'es-es': "Magikarp",
+		'it-it': "Magikarp",
+		'pt-br': "Magikarp",
+		'de-de': "Karpador"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			fr: "Éclabousseur Expert",
-			en: "Expert Splasher",
-			es: "As del Chapoteo",
-			it: "Specialista di Splash",
-			pt: "Borrifador Experiente",
-			de: "Platschexperte"
+			'fr-fr': "Éclabousseur Expert",
+			'en-us': "Expert Splasher",
+			'es-es': "As del Chapoteo",
+			'it-it': "Specialista di Splash",
+			'pt-br': "Borrifador Experiente",
+			'de-de': "Platschexperte"
 		},
 
 		effect: {
-			fr: "Lancez 2 pièces. Si vous obtenez 2 côtés face, cette attaque inflige 20 dégâts supplémentaires.",
-			en: "Flip 2 coins. If both of them are heads, this attack does 20 more damage.",
-			es: "Lanza 2 monedas. Si sale cara en ambas, este ataque hace 20 puntos de daño más.",
-			it: "Lancia due volte una moneta. Se esce entrambe le volte testa, questo attacco infligge 20 danni in più.",
-			pt: "Jogue 2 moedas. Se as duas saírem cara, este ataque causará 20 pontos de dano a mais.",
-			de: "Wirf 2 Münzen. Zeigen beide Münzen Kopf, fügt diese Attacke 20 Schadenspunkte mehr zu."
+			'fr-fr': "Lancez 2 pièces. Si vous obtenez 2 côtés face, cette attaque inflige 20 dégâts supplémentaires.",
+			'en-us': "Flip 2 coins. If both of them are heads, this attack does 20 more damage.",
+			'es-es': "Lanza 2 monedas. Si sale cara en ambas, este ataque hace 20 puntos de daño más.",
+			'it-it': "Lancia due volte una moneta. Se esce entrambe le volte testa, questo attacco infligge 20 danni in più.",
+			'pt-br': "Jogue 2 moedas. Se as duas saírem cara, este ataque causará 20 pontos de dano a mais.",
+			'de-de': "Wirf 2 Münzen. Zeigen beide Münzen Kopf, fügt diese Attacke 20 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -75,7 +75,7 @@ const card: Card = {
 	illustrator: "HYOGONOSUKE",
 
 	description: {
-		en: "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet.",
+		'en-us': "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet.",
 	},
 }
 

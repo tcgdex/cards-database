@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2015'
 
 const card: Card = {
@@ -7,8 +7,8 @@ const card: Card = {
 	],
 	set: Set,
 	name: {
-		en: "Torchic",
-		fr: "Poussifeu",
+		'en-us': "Torchic",
+		'fr-fr': "Poussifeu",
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -23,13 +23,13 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Ember",
-				fr: "Flammèche",
+				'en-us': "Ember",
+				'fr-fr': "Flammèche",
 			},
 			damage: "20",
 			effect: {
-				en: "Flip a coin. If tails, discard a fire Energy attached to this Pokémon.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie  attachée à ce Pokémon.",
+				'en-us': "Flip a coin. If tails, discard a fire Energy attached to this Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez une Énergie  attachée à ce Pokémon.",
 			},
 		},
 	],

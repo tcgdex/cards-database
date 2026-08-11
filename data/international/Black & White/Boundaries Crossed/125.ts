@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Unfezant",
-		fr: "Déflaisan",
-		es: "Unfezant",
-		it: "Unfezant",
-		pt: "Unfezant",
-		de: "Fasasnob"
+		'en-us': "Unfezant",
+		'fr-fr': "Déflaisan",
+		'es-es': "Unfezant",
+		'it-it': "Unfezant",
+		'pt-br': "Unfezant",
+		'de-de': "Fasasnob"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tranquill",
-		fr: "Colombeau",
+		'en-us': "Tranquill",
+		'fr-fr': "Colombeau",
 	},
 
 	stage: "Stage2",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Flick",
-				fr: "Battement d'Aile",
+				'en-us': "Wing Flick",
+				'fr-fr': "Battement d'Aile",
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
 			},
 			damage: 40,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Air Slash",
-				fr: "Lame d'Air",
+				'en-us': "Air Slash",
+				'fr-fr': "Lame d'Air",
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard an Energy attached to this Pokémon.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie attachée à ce Pokémon.",
+				'en-us': "Flip a coin. If tails, discard an Energy attached to this Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez une Énergie attachée à ce Pokémon.",
 			},
 			damage: 80,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Males swing the plumage on their heads to threaten others, but females are better at flying.",
+		'en-us': "Males swing the plumage on their heads to threaten others, but females are better at flying.",
 	},
 
 	thirdParty: {

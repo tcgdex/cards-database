@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガシビルドンex",
+		'ja-jp': "メガシビルドンex",
 	},
 
 	illustrator: "DOM",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "ばくれつだん" },
 			cost: ["Lightning", "Lightning"],
 			effect: {
-				ja: "相手のポケモン2匹に、それぞれ60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン2匹に、それぞれ60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 190,
 			cost: ["Lightning", "Lightning", "Lightning"],
 			effect: {
-				ja: "のぞむなら、このポケモンについている[L]エネルギーを2個トラッシュし、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "のぞむなら、このポケモンについている[L]エネルギーを2個トラッシュし、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シビビール",
+		'ja-jp': "シビビール",
 	},
 
 	retreat: 2,

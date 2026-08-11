@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [307],
 
 	name: {
-		en: "Meditite"
+		'en-us': "Meditite"
 	},
 
 	illustrator: "sui",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It meditates to heighten its inner energy and to\nfloat in the air. It eats one berry a day."
+		'en-us': "It meditates to heighten its inner energy and to\nfloat in the air. It eats one berry a day."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Smack"
+			'en-us': "Smack"
 		},
 
 		damage: 10,

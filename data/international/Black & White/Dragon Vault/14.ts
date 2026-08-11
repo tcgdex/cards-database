@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Vault'
 
 const card: Card = {
 	name: {
-		en: "Fraxure",
-		fr: "Incisache",
+		'en-us': "Fraxure",
+		'fr-fr': "Incisache",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Axew",
-		fr: "Coupenotte",
+		'en-us': "Axew",
+		'fr-fr': "Coupenotte",
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Grit",
-				fr: "Vaillance",
+				'en-us': "Grit",
+				'fr-fr': "Vaillance",
 			},
 			effect: {
-				en: "If this Pokémon is affected by a Special Condition, each of its attacks does 40 more damage (before applying Weakness and Resistance).",
-				fr: "Si ce Pokémon est affecté par un État Spécial, chacune de ses attaques inflige 40 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				'en-us': "If this Pokémon is affected by a Special Condition, each of its attacks does 40 more damage (before applying Weakness and Resistance).",
+				'fr-fr': "Si ce Pokémon est affecté par un État Spécial, chacune de ses attaques inflige 40 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
 		},
 	],
@@ -51,8 +51,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Claw",
-				fr: "Dracogriffe",
+				'en-us': "Dragon Claw",
+				'fr-fr': "Dracogriffe",
 			},
 
 			damage: 60,
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Since a broken tusk will not grow back, they diligently sharpen their tusks on river rocks after they've been fighting.",
+		'en-us': "Since a broken tusk will not grow back, they diligently sharpen their tusks on river rocks after they've been fighting.",
 	},
 
 	thirdParty: {

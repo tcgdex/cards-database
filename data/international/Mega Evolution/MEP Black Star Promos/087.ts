@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Binacle",
-		fr: "Opermine",
-		es: "Binacle",
+		'en-us': "Binacle",
+		'fr-fr': "Opermine",
+		'es-es': "Binacle",
 		'es-mx': "Binacle",
-		de: "Bithora",
-		it: "Binacle",
-		pt: "Binacle"
+		'de-de': "Bithora",
+		'it-it': "Binacle",
+		'pt-br': "Binacle"
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -26,29 +26,29 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Double Draw",
-			fr: "Double Pioche",
-			es: "Roba Doble",
-			it: "Pescata Doppia",
-			pt: "Compra Dupla",
-			de: "Zweifachzug"
+			'en-us': "Double Draw",
+			'fr-fr': "Double Pioche",
+			'es-es': "Roba Doble",
+			'it-it': "Pescata Doppia",
+			'pt-br': "Compra Dupla",
+			'de-de': "Zweifachzug"
 		},
 
 		effect: {
-			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
+			'en-us': "Draw 2 cards.",
+			'fr-fr': "Piochez 2 cartes.",
 		},
 
 	}, {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			en: "Scratch",
-			fr: "Griffe",
-			es: "Arañazo",
-			it: "Graffio",
-			pt: "Arranhão",
-			de: "Kratzer"
+			'en-us': "Scratch",
+			'fr-fr': "Griffe",
+			'es-es': "Arañazo",
+			'it-it': "Graffio",
+			'pt-br': "Arranhão",
+			'de-de': "Kratzer"
 		},
 
 		damage: 30

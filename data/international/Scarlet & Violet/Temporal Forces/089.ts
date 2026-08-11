@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rockruff",
-		fr: "Rocabot",
-		es: "Rockruff",
-		it: "Rockruff",
-		pt: "Rockruff",
-		de: "Wuffels"
+		'en-us': "Rockruff",
+		'fr-fr': "Rocabot",
+		'es-es': "Rockruff",
+		'it-it': "Rockruff",
+		'pt-br': "Rockruff",
+		'de-de': "Wuffels"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Paw Shake Punch",
-			fr: "Coup de Patte",
-			es: "Sacudir y Dar la Patita",
-			it: "Pugno Qua la Zampa",
-			pt: "Dá Soquinho",
-			de: "Pfötchenhieb"
+			'en-us': "Paw Shake Punch",
+			'fr-fr': "Coup de Patte",
+			'es-es': "Sacudir y Dar la Patita",
+			'it-it': "Pugno Qua la Zampa",
+			'pt-br': "Dá Soquinho",
+			'de-de': "Pfötchenhieb"
 		},
 
 		damage: 10
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "This Pokémon is very friendly when it's young. Its disposition becomes vicious once it matures, but it never forgets the kindness of its master.",
+		'en-us': "This Pokémon is very friendly when it's young. Its disposition becomes vicious once it matures, but it never forgets the kindness of its master.",
 	},
 
 	variants: [

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Sandslash"
+		'en-us': "Sandslash"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sandshrew"
+		'en-us': "Sandshrew"
 	},
 
 	stage: "Stage1",
@@ -32,7 +32,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash"
+				'en-us': "Slash"
 			},
 
 			damage: 20,
@@ -44,10 +44,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Fury Swipes"
+				'en-us': "Fury Swipes"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 20 damage times the number of heads."
+				'en-us': "Flip 3 coins. This attack does 20 damage times the number of heads."
 			},
 			damage: "20×",
 
@@ -71,7 +71,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape."
+		'en-us': "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape."
 	},
 
 	variants: [

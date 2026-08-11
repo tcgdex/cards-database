@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Popplio",
-		fr: "Otaquin",
-		es: "Popplio",
-		it: "Popplio",
-		pt: "Popplio",
-		de: "Robball"
+		'en-us': "Popplio",
+		'fr-fr': "Otaquin",
+		'es-es': "Popplio",
+		'it-it': "Popplio",
+		'pt-br': "Popplio",
+		'de-de': "Robball"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras’Face",
-				es: "Destructor",
-				it: "Botta",
-				pt: "Pancada",
-				de: "Pfund"
+				'en-us': "Pound",
+				'fr-fr': "Écras’Face",
+				'es-es': "Destructor",
+				'it-it': "Botta",
+				'pt-br': "Pancada",
+				'de-de': "Pfund"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
-				es: "Pistola Agua",
-				it: "Pistolacqua",
-				pt: "Revolver d’Água",
-				de: "Aquaknarre"
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
+				'es-es': "Pistola Agua",
+				'it-it': "Pistolacqua",
+				'pt-br': "Revolver d’Água",
+				'de-de': "Aquaknarre"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon snorts body fluids from its nose, blowing balloons to smash into its foes. It's famous for being a hard worker.",
+		'en-us': "This Pokémon snorts body fluids from its nose, blowing balloons to smash into its foes. It's famous for being a hard worker.",
 	},
 }
 

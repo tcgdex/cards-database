@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Larvesta",
-		fr: "Pyronille",
-		es: "Larvesta",
-		it: "Larvesta",
-		pt: "Larvesta",
-		de: "Ignivor"
+		'en-us': "Larvesta",
+		'fr-fr': "Pyronille",
+		'es-es': "Larvesta",
+		'it-it': "Larvesta",
+		'pt-br': "Larvesta",
+		'de-de': "Ignivor"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Steady Firebreathing",
-			fr: "Crachage de Feu Régulier",
-			es: "Lanzallamas Continuo",
-			it: "Soffiofuoco Mirato",
-			pt: "Hálito de Fogo Constante",
-			de: "Stetiger Feuerhauch"
+			'en-us': "Steady Firebreathing",
+			'fr-fr': "Crachage de Feu Régulier",
+			'es-es': "Lanzallamas Continuo",
+			'it-it': "Soffiofuoco Mirato",
+			'pt-br': "Hálito de Fogo Constante",
+			'de-de': "Stetiger Feuerhauch"
 		},
 
 		damage: 20

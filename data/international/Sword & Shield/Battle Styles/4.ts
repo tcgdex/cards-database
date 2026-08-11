@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cacnea",
-		fr: "Cacnea",
-		es: "Cacnea",
-		it: "Cacnea",
-		pt: "Cacnea",
-		de: "Tuska"
+		'en-us': "Cacnea",
+		'fr-fr': "Cacnea",
+		'es-es': "Cacnea",
+		'it-it': "Cacnea",
+		'pt-br': "Cacnea",
+		'de-de': "Tuska"
 	},
 
 	illustrator: "Kazuma Koda",
@@ -22,24 +22,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Zzzt",
-			fr: "Bzzz",
-			es: "Bzzz",
-			it: "Bzzz",
-			pt: "Bzzz",
-			de: "Piiieks"
+			'en-us': "Zzzt",
+			'fr-fr': "Bzzz",
+			'es-es': "Bzzz",
+			'it-it': "Bzzz",
+			'pt-br': "Bzzz",
+			'de-de': "Piiieks"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Beat",
-			fr: "Bataille",
-			es: "Toque",
-			it: "Battuta",
-			pt: "Pulso",
-			de: "Verprügler"
+			'en-us': "Beat",
+			'fr-fr': "Bataille",
+			'es-es': "Toque",
+			'it-it': "Battuta",
+			'pt-br': "Pulso",
+			'de-de': "Verprügler"
 		},
 
 		damage: 20,
@@ -58,7 +58,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It prefers harsh environments such as deserts. It can survive for 30 days on water stored in its body."
+		'en-us': "It prefers harsh environments such as deserts. It can survive for 30 days on water stored in its body."
 	},
 
 	variants: [

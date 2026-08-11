@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [25],
 
 	name: {
-		en: "Pikachu"
+		'en-us': "Pikachu"
 	},
 
 	illustrator: "chibi",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "When several of these Pokémon gather, their\nelectricity can build and cause lightning storms."
+		'en-us': "When several of these Pokémon gather, their\nelectricity can build and cause lightning storms."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Thunder Jolt"
+			'en-us': "Thunder Jolt"
 		},
 
 		damage: 30,
 		cost: ["Lightning"],
 
 		effect: {
-			en: "This Pokémon also does 10 damage to itself."
+			'en-us': "This Pokémon also does 10 damage to itself."
 		}
 	}],
 

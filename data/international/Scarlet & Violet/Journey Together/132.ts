@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Greedent",
-		fr: "Rongrigou",
-		es: "Greedent",
-		de: "Schlaraffel",
-		it: "Greedent",
-		pt: "Greedent",
+		'en-us': "Greedent",
+		'fr-fr': "Rongrigou",
+		'es-es': "Greedent",
+		'de-de': "Schlaraffel",
+		'it-it': "Greedent",
+		'pt-br': "Greedent",
 		'es-mx': "Greedent"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Skwovet",
-		fr: "Rongourmand",
-		es: "Skwovet",
-		de: "Raffel",
-		it: "Skwovet",
-		pt: "Skwovet",
+		'en-us': "Skwovet",
+		'fr-fr': "Rongourmand",
+		'es-es': "Skwovet",
+		'de-de': "Raffel",
+		'it-it': "Skwovet",
+		'pt-br': "Skwovet",
 		'es-mx': "Skwovet"
 	},
 	stage: "Stage1",
@@ -34,22 +34,22 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Gluttonous Tail",
-			fr: "Queue Gourmande",
-			es: "Cola Codiciosa",
-			de: "Gefräßiger Schweif",
-			it: "Coda Vorace",
-			pt: "Cauda Gulosa",
+			'en-us': "Gluttonous Tail",
+			'fr-fr': "Queue Gourmande",
+			'es-es': "Cola Codiciosa",
+			'de-de': "Gefräßiger Schweif",
+			'it-it': "Coda Vorace",
+			'pt-br': "Cauda Gulosa",
 			'es-mx': "Cola Glotona"
 		},
 
 		effect: {
-			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
-			es: "Roba 2 cartas.",
-			de: "Ziehe 2 Karten.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas.",
+			'en-us': "Draw 2 cards.",
+			'fr-fr': "Piochez 2 cartes.",
+			'es-es': "Roba 2 cartas.",
+			'de-de': "Ziehe 2 Karten.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas.",
 			'es-mx': "Roba 2 cartas."
 		},
 

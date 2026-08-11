@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Lopunny",
-		fr: "Lockpin",
-		de: "Schlapor"
+		'en-us': "Lopunny",
+		'fr-fr': "Lockpin",
+		'de-de': "Schlapor"
 	},
 
 	illustrator: "Kanako Eo",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Buneary",
-		fr: "Laporeille"
+		'en-us': "Buneary",
+		'fr-fr': "Laporeille"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Beam",
-				fr: "Laser glace",
-				de: "Eisstrahl"
+				'en-us': "Ice Beam",
+				'fr-fr': "Laser glace",
+				'de-de': "Eisstrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -53,9 +53,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rear Kick",
-				fr: "Ruade",
-				de: "Rückwärtskick"
+				'en-us': "Rear Kick",
+				'fr-fr': "Ruade",
+				'de-de': "Rückwärtskick"
 			},
 
 			damage: 40,
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs."
+		'en-us': "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs."
 	},
 
 	variants: [

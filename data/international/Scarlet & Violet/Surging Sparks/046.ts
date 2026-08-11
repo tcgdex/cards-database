@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shellos",
-		fr: "Sancoki",
-		es: "Shellos",
-		it: "Shellos",
-		pt: "Shellos",
-		de: "Schalellos"
+		'en-us': "Shellos",
+		'fr-fr': "Sancoki",
+		'es-es': "Shellos",
+		'it-it': "Shellos",
+		'pt-br': "Shellos",
+		'de-de': "Schalellos"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Sprinkle Water",
-			fr: "Eau Aspergeante",
-			es: "Esparcir Agua",
-			it: "Goccioline",
-			pt: "Aspergir Água",
-			de: "Wassersprüher"
+			'en-us': "Sprinkle Water",
+			'fr-fr': "Eau Aspergeante",
+			'es-es': "Esparcir Agua",
+			'it-it': "Goccioline",
+			'pt-br': "Aspergir Água",
+			'de-de': "Wassersprüher"
 		},
 
 		damage: 30

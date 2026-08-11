@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Azelf",
-		fr: "Créfadet",
-		es: "Azelf",
-		it: "Azelf",
-		pt: "Azelf",
-		de: "Tobutz"
+		'en-us': "Azelf",
+		'fr-fr': "Créfadet",
+		'es-es': "Azelf",
+		'it-it': "Azelf",
+		'pt-br': "Azelf",
+		'de-de': "Tobutz"
 	},
 
 	illustrator: "Taira Akitsu",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Mind Bend",
-			fr: "Contrôleur d'Esprit",
-			es: "Fusión Mental",
-			it: "Fusione Mentale",
-			pt: "Dobra Mentes",
-			de: "Gedankenverbiegung"
+			'en-us': "Mind Bend",
+			'fr-fr': "Contrôleur d'Esprit",
+			'es-es': "Fusión Mental",
+			'it-it': "Fusione Mentale",
+			'pt-br': "Dobra Mentes",
+			'de-de': "Gedankenverbiegung"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
 		damage: 30
@@ -62,7 +62,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It is thought that Uxie, Mesprit, and Azelf all came from the same egg.",
+		'en-us': "It is thought that Uxie, Mesprit, and Azelf all came from the same egg.",
 	},
 
 	variants: [

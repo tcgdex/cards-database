@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キョウのポッポ",
+		'ja-jp': "キョウのポッポ",
 	},
 	illustrator: "Atsuko Nishida",
 
@@ -19,16 +19,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "メッセンジャー",
+				'ja-jp': "メッセンジャー",
 			},
 			effect: {
-				ja: "KogaのPidgeyとすべてのカードをデッキの上に置きます。次に、Koga's Pidgeyという名前ではない基本的なポケモンまたはEvolutionカードを検索します。そのカードを相手に見せて、それを手に入れてください。その後、デッキをシャッフルします。",
+				'ja-jp': "KogaのPidgeyとすべてのカードをデッキの上に置きます。次に、Koga's Pidgeyという名前ではない基本的なポケモンまたはEvolutionカードを検索します。そのカードを相手に見せて、それを手に入れてください。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "翼攻撃",
+				'ja-jp': "翼攻撃",
 			},
 			damage: 20,
 		},

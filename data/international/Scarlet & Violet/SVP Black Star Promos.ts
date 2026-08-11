@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Scarlet & Violet'
 
 const set: Set = {
 	id: "svp",
 
 	name: {
-		de: "SVP Black Star Promos",
-		en: "SVP Black Star Promos",
-		es: "SVP Black Star Promos",
-		fr: "SVP Black Star Promos",
-		it: "SVP Black Star Promos",
-		pt: "SVP Black Star Promos"
+		'de-de': "SVP Black Star Promos",
+		'en-us': "SVP Black Star Promos",
+		'es-es': "SVP Black Star Promos",
+		'fr-fr': "SVP Black Star Promos",
+		'it-it': "SVP Black Star Promos",
+		'pt-br': "SVP Black Star Promos"
 	},
 
 	serie: serie,

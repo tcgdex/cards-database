@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルガルガンVMAX",
+		'ja-jp': "ルガルガンVMAX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "ハンティングクロー" },
 			cost: ["Fighting"],
 			effect: {
-				ja: "相手の場の残りHPが「60」以下のポケモンを1匹選び、きぜつさせる。",
+				'ja-jp': "相手の場の残りHPが「60」以下のポケモンを1匹選び、きぜつさせる。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 190,
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ルガルガンV",
+		'ja-jp': "ルガルガンV",
 	},
 
 	retreat: 1,

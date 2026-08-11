@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [274],
 
 	name: {
-		en: "Nuzleaf",
-		fr: "Pifeuil",
-		es: "Nuzleaf",
-		it: "Nuzleaf",
-		pt: "Nuzleaf",
-		de: "Blanas"
+		'en-us': "Nuzleaf",
+		'fr-fr': "Pifeuil",
+		'es-es': "Nuzleaf",
+		'it-it': "Nuzleaf",
+		'pt-br': "Nuzleaf",
+		'de-de': "Blanas"
 	},
 
 	illustrator: "otumami",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Seedot",
-		fr: "Grainipiot",
-		es: "Seedot",
-		it: "Seedot",
-		pt: "Seedot",
-		de: "Samurzel"
+		'en-us': "Seedot",
+		'fr-fr': "Grainipiot",
+		'es-es': "Seedot",
+		'it-it': "Seedot",
+		'pt-br': "Seedot",
+		'de-de': "Samurzel"
 	},
 
 	attacks: [
@@ -38,12 +38,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'Herbe",
-				es: "Hoja Afilada",
-				it: "Foglielama",
-				pt: "Folha Navalha",
-				de: "Rasierblatt"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'Herbe",
+				'es-es': "Hoja Afilada",
+				'it-it': "Foglielama",
+				'pt-br': "Folha Navalha",
+				'de-de': "Rasierblatt"
 			},
 
 			damage: 40,
@@ -65,7 +65,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It lives deep in forests. With the leaf on its head, it makes a flute whose song makes listeners uneasy."
+		'en-us': "It lives deep in forests. With the leaf on its head, it makes a flute whose song makes listeners uneasy."
 	},
 
 	variants: [

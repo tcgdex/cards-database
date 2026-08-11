@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โทเกะเดมารุ",
-		id: "Togedemaru"
+		'th-th': "โทเกะเดมารุ",
+		'id-id': "Togedemaru"
 	},
 
 	illustrator: "Rianti Hidayat",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		th: "ด้วยขนยาวกลางหลัง เมื่อได้รับไฟฟ้าช็อตจากโปเกมอนไฟฟ้าหรือสายฟ้าจะสะสมไฟไว้ที่ถุงไฟฟ้า",
-		id: "Togedemaru menerima sambaran petir atau serangan listrik dari Pokémon listrik dengan bulu panjang di punggungnya dan menggunakannya untuk mengecas listrik di kantong listriknya."
+		'th-th': "ด้วยขนยาวกลางหลัง เมื่อได้รับไฟฟ้าช็อตจากโปเกมอนไฟฟ้าหรือสายฟ้าจะสะสมไฟไว้ที่ถุงไฟฟ้า",
+		'id-id': "Togedemaru menerima sambaran petir atau serangan listrik dari Pokémon listrik dengan bulu panjang di punggungnya dan menggunakannya untuk mengecas listrik di kantong listriknya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ได้จังหวะแปล๊บปล๊าบ",
-			id: "Kesempatan Berkejut-kejut"
+			'th-th': "ได้จังหวะแปล๊บปล๊าบ",
+			'id-id': "Kesempatan Berkejut-kejut"
 		},
 
 		effect: {
-			th: "ถ้าจำนวนการ์ดรางวัลที่เหลือของฝ่ายเราเป็น 1 ใบ จะทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ชา]",
-			id: "Jika sisa Kartu Point sendiri adalah 1 lembar, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
+			'th-th': "ถ้าจำนวนการ์ดรางวัลที่เหลือของฝ่ายเราเป็น 1 ใบ จะทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ชา]",
+			'id-id': "Jika sisa Kartu Point sendiri adalah 1 lembar, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
 		},
 
 		damage: 30,

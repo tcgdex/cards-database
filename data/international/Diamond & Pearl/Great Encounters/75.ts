@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Krabby",
-		fr: "Krabby",
-		de: "Krabby"
+		'en-us': "Krabby",
+		'fr-fr': "Krabby",
+		'de-de': "Krabby"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Irongrip",
-				fr: "Force Poigne",
-				de: "Eiserner Griff"
+				'en-us': "Irongrip",
+				'fr-fr': "Force Poigne",
+				'de-de': "Eiserner Griff"
 			},
 
 			damage: 10,
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Guillotine",
-				fr: "Guillotine",
-				de: "Guillotine"
+				'en-us': "Guillotine",
+				'fr-fr': "Guillotine",
+				'de-de': "Guillotine"
 			},
 
 			damage: 30,
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It lives in burrows dug on sandy beaches. Its pincers fully grow back if they are broken in battle.",
+		'en-us': "It lives in burrows dug on sandy beaches. Its pincers fully grow back if they are broken in battle.",
 	},
 
 	thirdParty: {

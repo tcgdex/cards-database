@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Mightyena",
-		fr: "Grahyena de Team Aqua",
-		de: "Team Aquas Magnayen"
+		'en-us': "Team Aqua's Mightyena",
+		'fr-fr': "Grahyena de Team Aqua",
+		'de-de': "Team Aquas Magnayen"
 	},
 
 	illustrator: "Shin-ichi Yoshikawa",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Call",
-				fr: "Demande d'Aqua",
-				de: "Aqua Call"
+				'en-us': "Aqua Call",
+				'fr-fr': "Demande d'Aqua",
+				'de-de': "Aqua Call"
 			},
 			effect: {
-				en: "Search your deck for Pokémon that has Team Aqua in its name, show up to 3 of them to your opponent, and put them into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck jusqu'à 3 Pokémon dont le nom comporte Team Aqua, montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck.",
-				de: "Search your deck for Pokémon that has Team Aqua in its name, show up to 3 of them to your opponent, and put them into your hand. Shuffle your deck afterward."
+				'en-us': "Search your deck for Pokémon that has Team Aqua in its name, show up to 3 of them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez dans votre deck jusqu'à 3 Pokémon dont le nom comporte Team Aqua, montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck.",
+				'de-de': "Search your deck for Pokémon that has Team Aqua in its name, show up to 3 of them to your opponent, and put them into your hand. Shuffle your deck afterward."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse vague",
-				de: "Wave Splash"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse vague",
+				'de-de': "Wave Splash"
 			},
 
 			damage: 30,

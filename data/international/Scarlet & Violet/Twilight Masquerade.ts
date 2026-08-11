@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Scarlet & Violet'
 
 const set: Set = {
 	id: "sv06",
 
 	name: {
-		de: "Maskerade im Zwielicht",
-		en: "Twilight Masquerade",
-		es: "Mascarada Crepuscular",
-		fr: "Mascarade Crépusculaire",
-		it: "Crepuscolo Mascherato",
-		pt: "Máscaras do Crepúsculo"
+		'de-de': "Maskerade im Zwielicht",
+		'en-us': "Twilight Masquerade",
+		'es-es': "Mascarada Crepuscular",
+		'fr-fr': "Mascarade Crépusculaire",
+		'it-it': "Crepuscolo Mascherato",
+		'pt-br': "Máscaras do Crepúsculo"
 	},
 
 	serie: serie,
@@ -23,7 +23,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "TWM",
-		fr: "MCR"
+		'fr-fr': "MCR"
 	},
 
 	thirdParty: {

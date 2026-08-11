@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Tentacool",
-		fr: "Tentacool",
-		es: "Tentacool",
-		it: "Tentacool",
-		pt: "Tentacool",
-		de: "Tentacha"
+		'en-us': "Tentacool",
+		'fr-fr': "Tentacool",
+		'es-es': "Tentacool",
+		'it-it': "Tentacool",
+		'pt-br': "Tentacool",
+		'de-de': "Tentacha"
 	},
 
 	illustrator: "Mizue",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ancient Trait",
 			name: {
-				fr: "Régénération α",
-				en: "α Recovery",
-				es: "{title}:",
-				it: "{title}:",
-				pt: "{title}:",
-				de: "{title}:"
+				'fr-fr': "Régénération α",
+				'en-us': "α Recovery",
+				'es-es': "{title}:",
+				'it-it': "{title}:",
+				'pt-br': "{title}:",
+				'de-de': "{title}:"
 			},
 			effect: {
-				fr: "Lorsque ce Pokémon est soigné, doublez la quantité de soins.",
-				en: "When this Pokémon is healed, double the amount healed.",
-				es: "{title}: Cuando este Pokémon sea curado, dobla la cantidad curada.",
-				it: "{title}: Quando curi questo Pokémon, raddoppia la quantità di danni che stai curando.",
-				pt: "{title}: Quando este Pokémon for curado, dobre a quantidade curada.",
-				de: "{title}: Wenn dieses Pokémon geheilt wird, verdoppele die geheilten Schadenspunkte."
+				'fr-fr': "Lorsque ce Pokémon est soigné, doublez la quantité de soins.",
+				'en-us': "When this Pokémon is healed, double the amount healed.",
+				'es-es': "{title}: Cuando este Pokémon sea curado, dobla la cantidad curada.",
+				'it-it': "{title}: Quando curi questo Pokémon, raddoppia la quantità di danni che stai curando.",
+				'pt-br': "{title}: Quando este Pokémon for curado, dobre a quantidade curada.",
+				'de-de': "{title}: Wenn dieses Pokémon geheilt wird, verdoppele die geheilten Schadenspunkte."
 			},
 		},
 	],
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psyshot",
-				fr: "Piqûre Psy",
-				es: "Disparo Psi",
-				it: "Psicosparo",
-				pt: "Tiro Psíquico",
-				de: "Psychoschuss"
+				'en-us': "Psyshot",
+				'fr-fr': "Piqûre Psy",
+				'es-es': "Disparo Psi",
+				'it-it': "Psicosparo",
+				'pt-br': "Tiro Psíquico",
+				'de-de': "Psychoschuss"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Drifts in shallow seas. Anglers who hook them by accident are often punished by their stingers.",
+		'en-us': "Drifts in shallow seas. Anglers who hook them by accident are often punished by their stingers.",
 	},
 
 	thirdParty: {

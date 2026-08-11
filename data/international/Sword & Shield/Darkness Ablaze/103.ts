@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [168],
 
 	name: {
-		en: "Ariados",
-		fr: "Migalos",
-		es: "Ariados",
-		it: "Ariados",
-		pt: "Ariados",
-		de: "Ariados"
+		'en-us': "Ariados",
+		'fr-fr': "Migalos",
+		'es-es': "Ariados",
+		'it-it': "Ariados",
+		'pt-br': "Ariados",
+		'de-de': "Ariados"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -24,32 +24,32 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spinarak",
-		fr: "Mimigal",
-		es: "Spinarak",
-		it: "Spinarak",
-		pt: "Spinarak",
-		de: "Webarak"
+		'en-us': "Spinarak",
+		'fr-fr': "Mimigal",
+		'es-es': "Spinarak",
+		'it-it': "Spinarak",
+		'pt-br': "Spinarak",
+		'de-de': "Webarak"
 	},
 
 	abilities: [
 		{
 			type: "Ability",
 			name: {
-				en: "Spider Net",
-				fr: "Rets Arachnéens",
-				es: "Red de Araña",
-				it: "Rete del Ragno",
-				pt: "Rede de Aranha",
-				de: "Spinnengewebe"
+				'en-us': "Spider Net",
+				'fr-fr': "Rets Arachnéens",
+				'es-es': "Red de Araña",
+				'it-it': "Rete del Ragno",
+				'pt-br': "Rede de Aranha",
+				'de-de': "Spinnengewebe"
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may switch 1 of your opponent's Benched Evolution Pokémon with their Active Pokémon.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez échanger l'un des Pokémon évolutifs de Banc de votre adversaire contre son Pokémon Actif.",
-				es: "Cuando juegas este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes cambiar 1 de los Pokémon Evolución en Banca de tu rival por su Pokémon Activo.",
-				it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi scambiare uno dei Pokémon Evoluzione nella panchina del tuo avversario con il suo Pokémon attivo.",
-				pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá trocar 1 dos Pokémon de Evolução no Banco do seu oponente pelo Pokémon Ativo dele(a).",
-				de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du 1 Entwicklungs-Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon austauschen."
+				'en-us': "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may switch 1 of your opponent's Benched Evolution Pokémon with their Active Pokémon.",
+				'fr-fr': "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez échanger l'un des Pokémon évolutifs de Banc de votre adversaire contre son Pokémon Actif.",
+				'es-es': "Cuando juegas este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes cambiar 1 de los Pokémon Evolución en Banca de tu rival por su Pokémon Activo.",
+				'it-it': "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi scambiare uno dei Pokémon Evoluzione nella panchina del tuo avversario con il suo Pokémon attivo.",
+				'pt-br': "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá trocar 1 dos Pokémon de Evolução no Banco do seu oponente pelo Pokémon Ativo dele(a).",
+				'de-de': "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du 1 Entwicklungs-Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon austauschen."
 			},
 		},
 	],
@@ -61,20 +61,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Sting",
-				fr: "Dard-Venin",
-				es: "Picotazo Veneno",
-				it: "Velenospina",
-				pt: "Ferrão Venenoso",
-				de: "Giftstachel"
+				'en-us': "Poison Sting",
+				'fr-fr': "Dard-Venin",
+				'es-es': "Picotazo Veneno",
+				'it-it': "Velenospina",
+				'pt-br': "Ferrão Venenoso",
+				'de-de': "Giftstachel"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+				'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 			damage: 30,
 
@@ -95,7 +95,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It spews threads from its mouth to catch its prey. When night falls, it leaves its web to go hunt aggressively."
+		'en-us': "It spews threads from its mouth to catch its prey. When night falls, it leaves its web to go hunt aggressively."
 	},
 
 	variants: [

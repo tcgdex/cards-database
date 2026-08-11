@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Bastiodon GL",
-		fr: "Bastiodon  Niv. 41",
-		de: "Bollterus GL"
+		'en-us': "Bastiodon GL",
+		'fr-fr': "Bastiodon  Niv. 41",
+		'de-de': "Bollterus GL"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bounce Back",
-				fr: "Retour à l'envoyer",
-				de: "Zurückprallen"
+				'en-us': "Bounce Back",
+				'fr-fr': "Retour à l'envoyer",
+				'de-de': "Zurückprallen"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
-				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
+				'de-de': "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 30,
 
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smack Attack",
-				fr: "Claque-attaque",
-				de: "Klatsch-Attacke"
+				'en-us': "Smack Attack",
+				'fr-fr': "Claque-attaque",
+				'de-de': "Klatsch-Attacke"
 			},
 			effect: {
-				en: "Remove 1 damage counter from Bastiodon GL.",
-				fr: "Retirez à Bastiodon  1 marqueur de dégât.",
-				de: "Entferne 1 Schadensmarke von Bollterus GL."
+				'en-us': "Remove 1 damage counter from Bastiodon GL.",
+				'fr-fr': "Retirez à Bastiodon  1 marqueur de dégât.",
+				'de-de': "Entferne 1 Schadensmarke von Bollterus GL."
 			},
 			damage: 60,
 

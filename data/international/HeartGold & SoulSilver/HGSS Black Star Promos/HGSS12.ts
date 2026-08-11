@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HGSS Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Cleffa",
-		fr: "Melo"
+		'en-us': "Cleffa",
+		'fr-fr': "Melo"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Promo",
@@ -23,12 +23,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Sweet Sleeping Face",
-				fr: "Joli visage endormi"
+				'en-us': "Sweet Sleeping Face",
+				'fr-fr': "Joli visage endormi"
 			},
 			effect: {
-				en: "As long as Cleffa is Asleep, prevent all damage done to Cleffa by attacks.",
-				fr: "Tant que Mélo reste Endormi, prévenez tous les dégâts qui peuvent lui être infligés par des attaques."
+				'en-us': "As long as Cleffa is Asleep, prevent all damage done to Cleffa by attacks.",
+				'fr-fr': "Tant que Mélo reste Endormi, prévenez tous les dégâts qui peuvent lui être infligés par des attaques."
 			}
 		},
 	],
@@ -36,19 +36,19 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Eeeeeeek",
-				fr: "Arheuuuuu"
+				'en-us': "Eeeeeeek",
+				'fr-fr': "Arheuuuuu"
 			},
 			effect: {
-				en: "Shuffle your hand into your deck, then draw 6 cards. Cleffa is now Asleep.",
-				fr: "Mélangez votre main avec votre deck, piochez ensuite 6 cartes. Mélo est maintenant Endormi."
+				'en-us': "Shuffle your hand into your deck, then draw 6 cards. Cleffa is now Asleep.",
+				'fr-fr': "Mélangez votre main avec votre deck, piochez ensuite 6 cartes. Mélo est maintenant Endormi."
 			},
 
 		},
 	],
 
 	description: {
-		en: "Because of its unusual, star-like silhouette, people believe that it came here on a meteor."
+		'en-us': "Because of its unusual, star-like silhouette, people believe that it came here on a meteor."
 	},
 
 	variants: [

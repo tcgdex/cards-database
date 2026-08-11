@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Azumarill",
-		fr: "Azumarill",
-		de: "Azumarill"
+		'en-us': "Azumarill",
+		'fr-fr': "Azumarill",
+		'de-de': "Azumarill"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Marill",
-		fr: "Marill"
+		'en-us': "Marill",
+		'fr-fr': "Marill"
 	},
 
 	stage: "Stage1",
@@ -37,9 +37,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -52,14 +52,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Bubble Shower",
-				fr: "Douche de bulles",
-				de: "Bubble Shower"
+				'en-us': "Bubble Shower",
+				'fr-fr': "Douche de bulles",
+				'de-de': "Bubble Shower"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et cette attaque inflige 10 dégâts à chacun des Pokémon du Banc de votre adversaire. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et cette attaque inflige 10 dégâts à chacun des Pokémon du Banc de votre adversaire. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 30,
 
@@ -76,8 +76,8 @@ const card: Card = {
 
 
 	description: {
-		en: "By keeping still and listening intently, it can tell what is in even wild, fast-moving rivers.",
-		fr: "Lorsqu'il écoute attentivement sans bouger, il peut deviner ce qui se cache dans les rivières les plus sauvages et tumultueuses."
+		'en-us': "By keeping still and listening intently, it can tell what is in even wild, fast-moving rivers.",
+		'fr-fr': "Lorsqu'il écoute attentivement sans bouger, il peut deviner ce qui se cache dans les rivières les plus sauvages et tumultueuses."
 	},
 
 

@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "アノクサ",
+		'ja-jp': "アノクサ",
 		'zh-tw': "納噬草",
-		th: "อาโนะคุสะ",
-		id: "Bramblin"
+		'th-th': "อาโนะคุสะ",
+		'id-id': "Bramblin"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "成仏できない 魂が 風に 吹かれているうち 枯草を 巻き込んで ポケモンになった。",
+		'ja-jp': "成仏できない 魂が 風に 吹かれているうち 枯草を 巻き込んで ポケモンになった。",
 		'zh-tw': "無法升天的靈魂在風的吹拂下被捲進枯草裡， 變成了寶可夢。",
-		th: "ขณะที่วิญญาณที่ไปสู่สุคติไม่ได้ถูกลมพัดปลิวไปก็เข้าไปปนเปกับหญ้าที่แห้งเหี่ยวและกลายเป็นโปเกมอน",
-		id: "Bramblin adalah arwah gentayangan diterbangkan oleh angin, lalu terjerat oleh rumput kering dan berubah menjadi Pokémon."
+		'th-th': "ขณะที่วิญญาณที่ไปสู่สุคติไม่ได้ถูกลมพัดปลิวไปก็เข้าไปปนเปกับหญ้าที่แห้งเหี่ยวและกลายเป็นโปเกมอน",
+		'id-id': "Bramblin adalah arwah gentayangan diterbangkan oleh angin, lalu terjerat oleh rumput kering dan berubah menjadi Pokémon."
 	},
 
 	stage: "Basic",
@@ -31,19 +31,19 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "ちょっとすいとる",
+			'ja-jp': "ちょっとすいとる",
 			'zh-tw': "吸取一下",
-			th: "ซับพลัง",
-			id: "Menyerap Sedikit"
+			'th-th': "ซับพลัง",
+			'id-id': "Menyerap Sedikit"
 		},
 
 		damage: 10,
 
 		effect: {
-			ja: "このポケモンのHPを「10」回復する。",
+			'ja-jp': "このポケモンのHPを「10」回復する。",
 			'zh-tw': "將這隻寶可夢恢復「10」HP。",
-			th: "ฟื้นฟู HP ของโปเกมอนนี้ [10]",
-			id: "Pulihkan HP Pokémon ini sejumlah 10."
+			'th-th': "ฟื้นฟู HP ของโปเกมอนนี้ [10]",
+			'id-id': "Pulihkan HP Pokémon ini sejumlah 10."
 		}
 	}],
 

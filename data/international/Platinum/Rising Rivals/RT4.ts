@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Mow Rotom",
-		fr: "Motisma Tonte Niv. 46",
-		de: "Schneid-Rotom"
+		'en-us': "Mow Rotom",
+		'fr-fr': "Motisma Tonte Niv. 46",
+		'de-de': "Schneid-Rotom"
 	},
 
 	illustrator: "Yusuke Ohmura",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Mow Shift",
-				fr: "Mutation tonte",
-				de: "Schneid-Wechsel"
+				'en-us': "Mow Shift",
+				'fr-fr': "Mutation tonte",
+				'de-de': "Schneid-Wechsel"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may use this power. Mow Rotom's type is Grass until the end of your turn.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Motisma Tonte est de type Grass jusqu'à la fin de votre tour.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du diese Poké-Power benutzen. Schneid-Rotoms Typ ist  bis zum Ende des Zuges."
+				'en-us': "Once during your turn (before your attack), you may use this power. Mow Rotom's type is Grass until the end of your turn.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Motisma Tonte est de type Grass jusqu'à la fin de votre tour.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du diese Poké-Power benutzen. Schneid-Rotoms Typ ist  bis zum Ende des Zuges."
 			}
 		},
 	],
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 20,
@@ -61,14 +61,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mow Down",
-				fr: "Faucher",
-				de: "Niedermähen"
+				'en-us': "Mow Down",
+				'fr-fr': "Faucher",
+				'de-de': "Niedermähen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy card attached to each of your opponent's Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée à chacun des Pokémon de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" entferne 1 Energiekarte von jedem Pokémon deines Gegners und lege sie auf seinen Ablagestapel."
+				'en-us': "Flip a coin. If heads, discard an Energy card attached to each of your opponent's Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée à chacun des Pokémon de votre adversaire.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" entferne 1 Energiekarte von jedem Pokémon deines Gegners und lege sie auf seinen Ablagestapel."
 			},
 			damage: 50,
 

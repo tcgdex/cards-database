@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Noeunoeuf",
-		en: "Exeggcute",
-		es: "Exeggcute",
-		it: "Exeggcute",
-		pt: "Exeggcute",
-		de: "Owei"
+		'fr-fr': "Noeunoeuf",
+		'en-us': "Exeggcute",
+		'es-es': "Exeggcute",
+		'it-it': "Exeggcute",
+		'pt-br': "Exeggcute",
+		'de-de': "Owei"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Boulé-Roulade",
-			en: "Ball Roll",
-			es: "Rodabola",
-			it: "Rotopalla",
-			pt: "Rolo Bola",
-			de: "Ballrolle"
+			'fr-fr': "Boulé-Roulade",
+			'en-us': "Ball Roll",
+			'es-es': "Rodabola",
+			'it-it': "Rotopalla",
+			'pt-br': "Rolo Bola",
+			'de-de': "Ballrolle"
 		},
 
 		effect: {
-			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 30 dégâts pour chaque côté face.",
-			en: "Flip a coin until you get tails. This attack does 30 damage for each heads.",
-			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 30 puntos de daño por cada cara.",
-			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 30 danni ogni volta che esce testa.",
-			pt: "Jogue uma moeda até sair coroa. Este ataque causa 30 pontos de dano para cada cara.",
-			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
+			'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 30 dégâts pour chaque côté face.",
+			'en-us': "Flip a coin until you get tails. This attack does 30 damage for each heads.",
+			'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 30 puntos de daño por cada cara.",
+			'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 30 danni ogni volta che esce testa.",
+			'pt-br': "Jogue uma moeda até sair coroa. Este ataque causa 30 pontos de dano para cada cara.",
+			'de-de': "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "30×"
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "These Pokémon get nervous when they're not in a group of six. The minute even one member of the group goes missing, Exeggcute become cowardly.",
+		'en-us': "These Pokémon get nervous when they're not in a group of six. The minute even one member of the group goes missing, Exeggcute become cowardly.",
 	},
 
 	variants: [

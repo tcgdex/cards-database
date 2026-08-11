@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Sceptile",
-		fr: "Jungko",
-		es: "Sceptile",
-		it: "Sceptile",
-		pt: "Sceptile",
-		de: "Gewaldro"
+		'en-us': "Sceptile",
+		'fr-fr': "Jungko",
+		'es-es': "Sceptile",
+		'it-it': "Sceptile",
+		'pt-br': "Sceptile",
+		'de-de': "Gewaldro"
 	},
 
 	illustrator: "kawayoo",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Grovyle",
-		fr: "Massko",
+		'en-us': "Grovyle",
+		'fr-fr': "Massko",
 	},
 
 	stage: "Stage2",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "X-Scissor",
-				fr: "Plaie-Croix",
+				'en-us': "X-Scissor",
+				'fr-fr': "Plaie-Croix",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 40 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 40 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: 30,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Bloom",
-				fr: "Énergie Florissante",
+				'en-us': "Energy Bloom",
+				'fr-fr': "Énergie Florissante",
 			},
 			effect: {
-				en: "Heal 20 damage from each of your Pokémon that has any Energy attached to it.",
-				fr: "Soignez 20 dégâts à chacun de vos Pokémon auquel de l'Énergie est attachée.",
+				'en-us': "Heal 20 damage from each of your Pokémon that has any Energy attached to it.",
+				'fr-fr': "Soignez 20 dégâts à chacun de vos Pokémon auquel de l'Énergie est attachée.",
 			},
 			damage: 80,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat.",
+		'en-us': "The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat.",
 	},
 
 	thirdParty: {

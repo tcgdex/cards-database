@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rhyhorn",
-		fr: "Rhinocorne",
-		es: "Rhyhorn",
-		it: "Rhyhorn",
-		pt: "Rhyhorn",
-		de: "Rihorn"
+		'en-us': "Rhyhorn",
+		'fr-fr': "Rhinocorne",
+		'es-es': "Rhyhorn",
+		'it-it': "Rhyhorn",
+		'pt-br': "Rhyhorn",
+		'de-de': "Rihorn"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Horn Attack",
-			fr: "Koud'Korne",
-			es: "Cornada",
-			it: "Incornata",
-			pt: "Ataque de Chifre",
-			de: "Hornattacke"
+			'en-us': "Horn Attack",
+			'fr-fr': "Koud'Korne",
+			'es-es': "Cornada",
+			'it-it': "Incornata",
+			'pt-br': "Ataque de Chifre",
+			'de-de': "Hornattacke"
 		},
 
 		damage: 50

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Meganium",
-		fr: "Meganium",
-		de: "Meganie"
+		'en-us': "Meganium",
+		'fr-fr': "Meganium",
+		'de-de': "Meganie"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bayleef",
-		fr: "Macronium"
+		'en-us': "Bayleef",
+		'fr-fr': "Macronium"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Herbal Scent",
-				fr: "Senteur de thé",
-				de: "Herbal Scent"
+				'en-us': "Herbal Scent",
+				'fr-fr': "Senteur de thé",
+				'de-de': "Herbal Scent"
 			},
 			effect: {
-				en: "When you play Meganium from your hand, you may flip a coin. If heads, remove all damage counters from all Grass Pokémon in play.",
-				fr: "Lorsque vous jouez Meganium depuis votre main, vous pouvez lancer une pièce. Si c'est face, retirez tous les marqueurs de dégâts sur les Pokémon  en jeu.",
-				de: "When you play Meganium from your hand, you may flip a coin. If heads, remove all damage counters from all  Pokémon in play."
+				'en-us': "When you play Meganium from your hand, you may flip a coin. If heads, remove all damage counters from all Grass Pokémon in play.",
+				'fr-fr': "Lorsque vous jouez Meganium depuis votre main, vous pouvez lancer une pièce. Si c'est face, retirez tous les marqueurs de dégâts sur les Pokémon  en jeu.",
+				'de-de': "When you play Meganium from your hand, you may flip a coin. If heads, remove all damage counters from all  Pokémon in play."
 			},
 		},
 	],
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam",
-				fr: "Plaquage",
-				de: "Body Slam"
+				'en-us': "Body Slam",
+				'fr-fr': "Plaquage",
+				'de-de': "Body Slam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 40,
 
@@ -79,8 +79,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Meganium's breath has the power to revive dead grass and plants. It can make them healthy again.",
-		fr: "Le souffle de Meganium peut redonner vie aux plantes mortes."
+		'en-us': "Meganium's breath has the power to revive dead grass and plants. It can make them healthy again.",
+		'fr-fr': "Le souffle de Meganium peut redonner vie aux plantes mortes."
 	},
 
 

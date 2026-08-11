@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pitch Black"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wailord ex",
-		fr: "Wailord-ex",
-		es: "Wailord ex",
+		'en-us': "Wailord ex",
+		'fr-fr': "Wailord-ex",
+		'es-es': "Wailord ex",
 		'es-mx': "Wailord ex",
-		de: "Wailord-ex",
-		it: "Wailord-ex",
-		pt: "Wailord ex"
+		'de-de': "Wailord-ex",
+		'it-it': "Wailord-ex",
+		'pt-br': "Wailord ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -22,7 +22,7 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Wailmer"
+		'en-us': "Wailmer"
 	},
 
 	stage: "Stage1",
@@ -30,13 +30,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Surf",
-			fr: "Surf",
-			es: "Surf",
+			'en-us': "Surf",
+			'fr-fr': "Surf",
+			'es-es': "Surf",
 			'es-mx': "Surf",
-			de: "Surfer",
-			it: "Surf",
-			pt: "Surfar"
+			'de-de': "Surfer",
+			'it-it': "Surf",
+			'pt-br': "Surfar"
 		},
 
 		cost: ["Water", "Water", "Water"],
@@ -44,13 +44,13 @@ const card: Card = {
 		damage: 120
 	}, {
 		name: {
-			en: "Falling Down",
-			fr: "Écroulement",
-			es: "Desplome",
+			'en-us': "Falling Down",
+			'fr-fr': "Écroulement",
+			'es-es': "Desplome",
 			'es-mx': "Caída Súbita",
-			de: "Hinfallen",
-			it: "Tombolone",
-			pt: "Capotar"
+			'de-de': "Hinfallen",
+			'it-it': "Tombolone",
+			'pt-br': "Capotar"
 		},
 
 		cost: ["Water", "Water", "Water", "Water", "Water"],
@@ -58,13 +58,13 @@ const card: Card = {
 		damage: 270,
 
 		effect: {
-			en: "This Pokémon is now Asleep.",
-			fr: "Ce Pokémon est maintenant Endormi.",
-			es: "Este Pokémon pasa a estar Dormido.",
+			'en-us': "This Pokémon is now Asleep.",
+			'fr-fr': "Ce Pokémon est maintenant Endormi.",
+			'es-es': "Este Pokémon pasa a estar Dormido.",
 			'es-mx': "Este Pokémon ahora está Dormido.",
-			de: "Dieses Pokémon schläft jetzt.",
-			it: "Questo Pokémon viene addormentato.",
-			pt: "Este Pokémon agora está Adormecido."
+			'de-de': "Dieses Pokémon schläft jetzt.",
+			'it-it': "Questo Pokémon viene addormentato.",
+			'pt-br': "Este Pokémon agora está Adormecido."
 		}
 	}],
 

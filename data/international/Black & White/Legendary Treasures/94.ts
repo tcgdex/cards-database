@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Gible",
+		'en-us': "Gible",
 	},
 
 	illustrator: "sui",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
+				'en-us': "Tackle",
 			},
 
 			damage: 10,
@@ -41,7 +41,7 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Gnaw",
+				'en-us': "Gnaw",
 			},
 
 			damage: 20,
@@ -59,7 +59,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It attacks using its huge mouth. While its attacks are powerful, it hurts itself out of clumsiness, too.",
+		'en-us': "It attacks using its huge mouth. While its attacks are powerful, it hurts itself out of clumsiness, too.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リザードン",
+		'ja-jp': "リザードン",
 	},
 
 	illustrator: "Ryota Murayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "地上 １４００メートルまで 羽を 使って 飛ぶことができる。 高熱の 炎を 吐く。",
+		'ja-jp': "地上 １４００メートルまで 羽を 使って 飛ぶことができる。 高熱の 炎を 吐く。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かくごのほのお" },
 			effect: {
-				ja: "このポケモンが使うワザの、相手のバトルポケモンへのダメージは、相手の場の「ポケモンGX・EX」1匹につき「+30」される。",
+				'ja-jp': "このポケモンが使うワザの、相手のバトルポケモンへのダメージは、相手の場の「ポケモンGX・EX」1匹につき「+30」される。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "リザード",
+		'ja-jp': "リザード",
 	},
 
 	retreat: 2,

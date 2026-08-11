@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lombre"
+		'en-us': "Lombre"
 	},
 
 	illustrator: "miki kudo",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Lotad"
+		'en-us': "Lotad"
 	},
 
 	description: {
-		en: "It lives at the water's edge where it is sunny.\nIt sleeps on a bed of water grass by day and\nbecomes active at night."
+		'en-us': "It lives at the water's edge where it is sunny.\nIt sleeps on a bed of water grass by day and\nbecomes active at night."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Gentle Slap"
+			'en-us': "Gentle Slap"
 		},
 
 		damage: 40,

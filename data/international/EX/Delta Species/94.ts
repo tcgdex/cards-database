@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Holon Research Tower",
-		fr: "Tour de recherche Holon",
-		de: "Holon-Forschungsturm"
+		'en-us': "Holon Research Tower",
+		'fr-fr': "Tour de recherche Holon",
+		'de-de': "Holon-Forschungsturm"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -15,9 +15,9 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	effect: {
-		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Each player's basic Energy cards attached to Pokémon that has δ on its card are both their usual Energy type and Metal type but provide only 1 Energy at a time. (Has no effect other than providing Energy.)",
-		fr: "Les cartes Énergie de base attachées aux Pokémon de chaque joueur possédant le symbole δ fournissent leur Énergie habituelle ainsi qu'une Énergie Métal. Elles ne fournissent qu' 1 Énergie à la fois. (Elles n'ont pas d'autre effet que de fournir de l'Énergie.)",
-		de: "Each player's basic Energy cards attached to Pokémon that has Delta on its card are both their usual Energy type and  type but provide only 1 Energy at a time. (Has no effect other than providing Energy.)",
+		'en-us': "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Each player's basic Energy cards attached to Pokémon that has δ on its card are both their usual Energy type and Metal type but provide only 1 Energy at a time. (Has no effect other than providing Energy.)",
+		'fr-fr': "Les cartes Énergie de base attachées aux Pokémon de chaque joueur possédant le symbole δ fournissent leur Énergie habituelle ainsi qu'une Énergie Métal. Elles ne fournissent qu' 1 Énergie à la fois. (Elles n'ont pas d'autre effet que de fournir de l'Énergie.)",
+		'de-de': "Each player's basic Energy cards attached to Pokémon that has Delta on its card are both their usual Energy type and  type but provide only 1 Energy at a time. (Has no effect other than providing Energy.)",
 	},
 
 	thirdParty: {

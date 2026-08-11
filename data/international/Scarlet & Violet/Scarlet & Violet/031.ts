@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Growlithe",
-		fr: "Caninos",
-		es: "Growlithe",
-		it: "Growlithe",
-		pt: "Growlithe",
-		de: "Fukano"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos",
+		'es-es': "Growlithe",
+		'it-it': "Growlithe",
+		'pt-br': "Growlithe",
+		'de-de': "Fukano"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Stoke",
-			fr: "Attisement",
-			es: "Atizador",
-			it: "Attizzatoio",
-			pt: "Carregar",
-			de: "Anheizen"
+			'en-us': "Stoke",
+			'fr-fr': "Attisement",
+			'es-es': "Atizador",
+			'it-it': "Attizzatoio",
+			'pt-br': "Carregar",
+			'de-de': "Anheizen"
 		},
 
 		effect: {
-			en: "Search your deck for up to 2 Basic {R} Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu'à 2 cartes Énergie {R} de base, puis attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja hasta 2 cartas de Energía {R} Básica y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo fino a due carte Energia base {R} e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por até 2 cartas de Energia {R} Básica no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach bis zu 2 Basis-{R}-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+			'en-us': "Search your deck for up to 2 Basic {R} Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck jusqu'à 2 cartes Énergie {R} de base, puis attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja hasta 2 cartas de Energía {R} Básica y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo fino a due carte Energia base {R} e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por até 2 cartas de Energia {R} Básica no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach bis zu 2 Basis-{R}-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Fire", "Fire", "Fire"],
 
 		name: {
-			en: "Fire Claws",
-			fr: "Griffes Enflammées",
-			es: "Garras de Fuego",
-			it: "Artigli Infuocati",
-			pt: "Garras de Fogo",
-			de: "Feuerkrallen"
+			'en-us': "Fire Claws",
+			'fr-fr': "Griffes Enflammées",
+			'es-es': "Garras de Fuego",
+			'it-it': "Artigli Infuocati",
+			'pt-br': "Garras de Fogo",
+			'de-de': "Feuerkrallen"
 		},
 
 		damage: 70
@@ -76,7 +76,7 @@ const card: Card = {
 	illustrator: "Tika Matsuno",
 
 	description: {
-		en: "It's very friendly and faithful to people. It will try to repel enemies by barking and biting.",
+		'en-us': "It's very friendly and faithful to people. It will try to repel enemies by barking and biting.",
 	},
 
 	thirdParty: {

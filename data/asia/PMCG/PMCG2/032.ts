@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガラガラ",
+		'ja-jp': "ガラガラ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Fighting"],
 			name: {
-				ja: "ボネメラン",
+				'ja-jp': "ボネメラン",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
 			},
 
 		},
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
-				ja: "友達を呼びます",
+				'ja-jp': "友達を呼びます",
 			},
 			effect: {
-				ja: "基本的なポケモンカードをファイティングで検索し、ベンチに置きます。その後、デッキをシャッフルします。 （ベンチがいっぱいの場合、この攻撃を使用できません。）",
+				'ja-jp': "基本的なポケモンカードをファイティングで検索し、ベンチに置きます。その後、デッキをシャッフルします。 （ベンチがいっぱいの場合、この攻撃を使用できません。）",
 			},
 
 		},

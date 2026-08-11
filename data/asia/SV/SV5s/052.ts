@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Vikavolt"
+		'id-id': "Vikavolt"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Vikavolt menghimpun listrik yang dibuat di dalam perut ke rahangnya yang besar dan menembakkan sinar laser berkekuatan tinggi."
+		'id-id': "Vikavolt menghimpun listrik yang dibuat di dalam perut ke rahangnya yang besar dan menembakkan sinar laser berkekuatan tinggi."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			id: "Mach Bolt"
+			'id-id': "Mach Bolt"
 		},
 
 		damage: 50,
 		cost: ["Lightning"]
 	}, {
 		name: {
-			id: "Meriam Koneksi Seri"
+			'id-id': "Meriam Koneksi Seri"
 		},
 
 		effect: {
-			id: "Kerusakan yang diberikan bertambah sejumlah 80 untuk tiap Charjabug di Cadangan sendiri."
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 80 untuk tiap Charjabug di Cadangan sendiri."
 		},
 
 		damage: "120+",

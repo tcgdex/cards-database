@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Drampa-GX",
-		fr: "Draïeul-GX",
+		'en-us': "Drampa-GX",
+		'fr-fr': "Draïeul-GX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Shiny rare",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Righteous Edge",
-				fr: "Lame Vertueuse",
+				'en-us': "Righteous Edge",
+				'fr-fr': "Lame Vertueuse",
 			},
 			effect: {
-				en: "Discard a Special Energy from your opponent's Active Pokémon.",
-				fr: "Défaussez une Énergie spéciale du Pokémon Actif de votre adversaire.",
+				'en-us': "Discard a Special Energy from your opponent's Active Pokémon.",
+				'fr-fr': "Défaussez une Énergie spéciale du Pokémon Actif de votre adversaire.",
 			},
 			damage: 20,
 
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Berserk",
-				fr: "Dracolère",
+				'en-us': "Berserk",
+				'fr-fr': "Dracolère",
 			},
 			effect: {
-				en: "If your Benched Pokémon have any damage counters on them, this attack does 70 more damage.",
-				fr: "Si des marqueurs de dégâts sont placés sur vos Pokémon de Banc, cette attaque inflige 70 dégâts supplémentaires.",
+				'en-us': "If your Benched Pokémon have any damage counters on them, this attack does 70 more damage.",
+				'fr-fr': "Si des marqueurs de dégâts sont placés sur vos Pokémon de Banc, cette attaque inflige 70 dégâts supplémentaires.",
 			},
 			damage: 80,
 
@@ -60,12 +60,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Big Wheel-GX",
-				fr: "Grande Roue-GX",
+				'en-us': "Big Wheel-GX",
+				'fr-fr': "Grande Roue-GX",
 			},
 			effect: {
-				en: "Shuffle your hand into your deck. Then, draw 10 cards. (You can't use more than 1 GX attack in a game.)",
-				fr: "Mélangez votre main avec votre deck. Ensuite, piochez 10 cartes. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'en-us': "Shuffle your hand into your deck. Then, draw 10 cards. (You can't use more than 1 GX attack in a game.)",
+				'fr-fr': "Mélangez votre main avec votre deck. Ensuite, piochez 10 cartes. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 
 		},

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bouffalant",
-		fr: "Frison",
-		es: "Bouffalant",
-		it: "Bouffalant",
-		pt: "Bouffalant",
-		de: "Bisofank"
+		'en-us': "Bouffalant",
+		'fr-fr': "Frison",
+		'es-es': "Bouffalant",
+		'it-it': "Bouffalant",
+		'pt-br': "Bouffalant",
+		'de-de': "Bisofank"
 	},
 
 	illustrator: "Nisota Niso",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Lost Headbutt",
-			fr: "Coup d'Boule Perdu",
-			es: "Testarazo Perdido",
-			it: "Bottintesta Perduto",
-			pt: "Cabeçada Perdida",
-			de: "Nirgendwo-Kopfstoß"
+			'en-us': "Lost Headbutt",
+			'fr-fr': "Coup d'Boule Perdu",
+			'es-es': "Testarazo Perdido",
+			'it-it': "Bottintesta Perduto",
+			'pt-br': "Cabeçada Perdida",
+			'de-de': "Nirgendwo-Kopfstoß"
 		},
 
 		effect: {
-			en: "Put an Energy attached to your opponent's Active Pokémon in the Lost Zone.",
-			fr: "Placez une Énergie attachée au Pokémon Actif de votre adversaire dans la Zone Perdue.",
-			es: "Pon 1 Energía unida al Pokémon Activo de tu rival en la Zona Perdida.",
-			it: "Prendi un'Energia assegnata al Pokémon attivo del tuo avversario e mettila nell'area perduta.",
-			pt: "Coloque 1 Energia ligada ao Pokémon Ativo do seu oponente na Zona Perdida.",
-			de: "Lege 1 an das Aktive Pokémon deines Gegners angelegte Energie ins Nirgendwo."
+			'en-us': "Put an Energy attached to your opponent's Active Pokémon in the Lost Zone.",
+			'fr-fr': "Placez une Énergie attachée au Pokémon Actif de votre adversaire dans la Zone Perdue.",
+			'es-es': "Pon 1 Energía unida al Pokémon Activo de tu rival en la Zona Perdida.",
+			'it-it': "Prendi un'Energia assegnata al Pokémon attivo del tuo avversario e mettila nell'area perduta.",
+			'pt-br': "Coloque 1 Energia ligada ao Pokémon Ativo do seu oponente na Zona Perdida.",
+			'de-de': "Lege 1 an das Aktive Pokémon deines Gegners angelegte Energie ins Nirgendwo."
 		},
 
 		damage: 50
@@ -47,12 +47,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Superpowered Horns",
-			fr: "Cornes Surpuissantes",
-			es: "Cuernos Superpoderosos",
-			it: "Corna Superpotenziate",
-			pt: "Chifres Superpoderosos",
-			de: "Superstarke Hörner"
+			'en-us': "Superpowered Horns",
+			'fr-fr': "Cornes Surpuissantes",
+			'es-es': "Cuernos Superpoderosos",
+			'it-it': "Corna Superpotenziate",
+			'pt-br': "Chifres Superpoderosos",
+			'de-de': "Superstarke Hörner"
 		},
 
 		damage: 120

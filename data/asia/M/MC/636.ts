@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エネルギー回収",
+		'ja-jp': "エネルギー回収",
 	},
 
 	illustrator: "Studio Bora Inc.",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のトラッシュから基本エネルギーを2枚選び、相手に見せてから、手札に加える。",
+		'ja-jp': "自分のトラッシュから基本エネルギーを2枚選び、相手に見せてから、手札に加える。",
 	},
 
 	variants: [

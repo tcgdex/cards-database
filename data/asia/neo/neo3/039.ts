@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "砂利",
+		'ja-jp': "砂利",
 	},
 
 	rarity: "Uncommon",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "地震",
+				'ja-jp': "地震",
 			},
 			effect: {
-				ja: "あなた自身のベンチ付きポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "あなた自身のベンチ付きポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 40,
 		},
 		{
 			cost: ["Fighting", "Fighting", "Fighting"],
 			name: {
-				ja: "岩の転倒",
+				'ja-jp': "岩の転倒",
 			},
 			effect: {
-				ja: "抵抗を適用しないでください。",
+				'ja-jp': "抵抗を適用しないでください。",
 			},
 			damage: 50,
 		},

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1V"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ボチ"
+		'ja-jp': "ボチ"
 	},
 
 	illustrator: "sowsow",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "人懐っこくて 寂しがり。 ちょっと かまっただけでも いつまでも 後を ついてくるぞ。"
+		'ja-jp': "人懐っこくて 寂しがり。 ちょっと かまっただけでも いつまでも 後を ついてくるぞ。"
 	},
 
 	stage: "Basic",
@@ -24,13 +24,13 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "おはかであそぶ"
+			'ja-jp': "おはかであそぶ"
 		},
 
 		damage: "10×",
 
 		effect: {
-			ja: "自分のトラッシュにあるポケモンの枚数×10ダメージ。"
+			'ja-jp': "自分のトラッシュにあるポケモンの枚数×10ダメージ。"
 		}
 	}],
 

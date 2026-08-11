@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fossil'
 
 const card: Card = {
 	name: {
-		en: "Golem",
-		fr: "Grolem",
-		de: "Geowaz"
+		'en-us': "Golem",
+		'fr-fr': "Grolem",
+		'de-de': "Geowaz"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Graveler",
-		fr: "Gravalanch"
+		'en-us': "Graveler",
+		'fr-fr': "Gravalanch"
 	},
 
 	stage: "Stage2",
@@ -39,9 +39,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Avalanche",
-				fr: "Avalanche",
-				de: "Lawine"
+				'en-us': "Avalanche",
+				'fr-fr': "Avalanche",
+				'de-de': "Lawine"
 			},
 
 			damage: 60,
@@ -55,14 +55,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Selfdestruct",
-				fr: "Destruction",
-				de: "Finale"
+				'en-us': "Selfdestruct",
+				'fr-fr': "Destruction",
+				'de-de': "Finale"
 			},
 			effect: {
-				en: "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Golem does 100 damage to itself.",
-				fr: "Inflige 20 dégâts à chacun des Pokémon du Banc de chaque joueur. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Grolem s'inflige 100 dégâts.",
-				de: "Fügt jeden Pokémon auf der bank eines jeden Spielers 20 Schadenspunkte zu. (Schwäche und resistenz für Pokémon auf der bank nicht anwenden.) Geowaz fügt sich selbst 100 Schadenspunkte zu."
+				'en-us': "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Golem does 100 damage to itself.",
+				'fr-fr': "Inflige 20 dégâts à chacun des Pokémon du Banc de chaque joueur. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Grolem s'inflige 100 dégâts.",
+				'de-de': "Fügt jeden Pokémon auf der bank eines jeden Spielers 20 Schadenspunkte zu. (Schwäche und resistenz für Pokémon auf der bank nicht anwenden.) Geowaz fügt sich selbst 100 Schadenspunkte zu."
 			},
 			damage: 100,
 
@@ -79,8 +79,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage.",
-		fr: "Son corps de pierre est indestructible. Il peut supporter des explosions de dynamite."
+		'en-us': "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage.",
+		'fr-fr': "Son corps de pierre est indestructible. Il peut supporter des explosions de dynamite."
 	},
 
 

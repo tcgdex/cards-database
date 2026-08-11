@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Dusclops",
-		fr: "Téraclope",
-		es: "Dusclops",
-		it: "Dusclops",
-		pt: "Dusclops",
-		de: "Zwirrklop"
+		'en-us': "Dusclops",
+		'fr-fr': "Téraclope",
+		'es-es': "Dusclops",
+		'it-it': "Dusclops",
+		'pt-br': "Dusclops",
+		'de-de': "Zwirrklop"
 	},
 
 	illustrator: "MAHOU",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Duskull",
-		fr: "Skelénox",
-		es: "Duskull",
-		it: "Duskull",
-		pt: "Duskull",
-		de: "Zwirrlicht"
+		'en-us': "Duskull",
+		'fr-fr': "Skelénox",
+		'es-es': "Duskull",
+		'it-it': "Duskull",
+		'pt-br': "Duskull",
+		'de-de': "Zwirrlicht"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde Folie",
-				es: "Rayo Confuso",
-				it: "Stordiraggio",
-				pt: "Raio da Confusão",
-				de: "Konfustrahl"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde Folie",
+				'es-es': "Rayo Confuso",
+				'it-it': "Stordiraggio",
+				'pt-br': "Raio da Confusão",
+				'de-de': "Konfustrahl"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent's Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 
 		},
@@ -67,20 +67,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cursed Drop",
-				fr: "Chute Maudite",
-				es: "Caída Maldita",
-				it: "Caduta Maledetta",
-				pt: "Queda Amaldiçoada",
-				de: "Verfluchter Fall"
+				'en-us': "Cursed Drop",
+				'fr-fr': "Chute Maudite",
+				'es-es': "Caída Maldita",
+				'it-it': "Caduta Maledetta",
+				'pt-br': "Queda Amaldiçoada",
+				'de-de': "Verfluchter Fall"
 			},
 			effect: {
-				en: "Put 4 damage counters on your opponent's Pokémon in any way you like.",
-				fr: "Placez 4 marqueurs de dégâts sur les Pokémon de votre adversaire, de la manière que vous voulez.",
-				es: "Pon 4 contadores de daño en los Pokémon de tu rival de la manera que desees.",
-				it: "Distribuisci a piacimento quattro segnalini danno sui Pokémon del tuo avversario.",
-				pt: "Coloque 4 contadores de danos nos Pokémon do seu oponente do jeito que desejar.",
-				de: "Verteile 4 Schadensmarken beliebig auf die Pokémon deines Gegners."
+				'en-us': "Put 4 damage counters on your opponent's Pokémon in any way you like.",
+				'fr-fr': "Placez 4 marqueurs de dégâts sur les Pokémon de votre adversaire, de la manière que vous voulez.",
+				'es-es': "Pon 4 contadores de daño en los Pokémon de tu rival de la manera que desees.",
+				'it-it': "Distribuisci a piacimento quattro segnalini danno sui Pokémon del tuo avversario.",
+				'pt-br': "Coloque 4 contadores de danos nos Pokémon do seu oponente do jeito que desejar.",
+				'de-de': "Verteile 4 Schadensmarken beliebig auf die Pokémon deines Gegners."
 			},
 
 		},
@@ -103,7 +103,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Anyone who dares peer into its body to see its spectral ball of fire will have their spirit stolen away.",
+		'en-us': "Anyone who dares peer into its body to see its spectral ball of fire will have their spirit stolen away.",
 	},
 
 	thirdParty: {

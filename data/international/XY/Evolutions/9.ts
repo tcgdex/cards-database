@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Charmander",
-		fr: "Salamèche",
-		es: "Charmander",
-		it: "Charmander",
-		pt: "Charmander",
-		de: "Glumanda"
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche",
+		'es-es': "Charmander",
+		'it-it': "Charmander",
+		'pt-br': "Charmander",
+		'de-de': "Glumanda"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				es: "Arañazo",
-				it: "Graffio",
-				pt: "Arranhão",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'es-es': "Arañazo",
+				'it-it': "Graffio",
+				'pt-br': "Arranhão",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ember",
-				fr: "Flammèche",
-				es: "Ascuas",
-				it: "Braciere",
-				pt: "Brasa",
-				de: "Glut"
+				'en-us': "Ember",
+				'fr-fr': "Flammèche",
+				'es-es': "Ascuas",
+				'it-it': "Braciere",
+				'pt-br': "Brasa",
+				'de-de': "Glut"
 			},
 			effect: {
-				en: "Discard a Fire Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie Fire attachée à ce Pokémon.",
-				es: "Descarta 1 Energía Fire unida a este Pokémon.",
-				it: "Scarta un'Energia Fire assegnata a questo Pokémon.",
-				pt: "Descarte uma Energia Fire ligada a este Pokémon.",
-				de: "Lege 1 an dieses Pokémon angelegte Fire-Energie auf deinen Ablagestapel."
+				'en-us': "Discard a Fire Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie Fire attachée à ce Pokémon.",
+				'es-es': "Descarta 1 Energía Fire unida a este Pokémon.",
+				'it-it': "Scarta un'Energia Fire assegnata a questo Pokémon.",
+				'pt-br': "Descarte uma Energia Fire ligada a este Pokémon.",
+				'de-de': "Lege 1 an dieses Pokémon angelegte Fire-Energie auf deinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
+		'en-us': "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
 	},
 
 	thirdParty: {

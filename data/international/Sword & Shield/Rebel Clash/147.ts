@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [660],
 
 	name: {
-		en: "Diggersby",
-		fr: "Excavarenne",
-		es: "Diggersby",
-		it: "Diggersby",
-		pt: "Diggersby",
-		de: "Grebbit"
+		'en-us': "Diggersby",
+		'fr-fr': "Excavarenne",
+		'es-es': "Diggersby",
+		'it-it': "Diggersby",
+		'pt-br': "Diggersby",
+		'de-de': "Grebbit"
 	},
 
 	illustrator: "kodama",
@@ -19,12 +19,12 @@ const card: Card = {
 	set: Set,
 
 	evolveFrom: {
-		en: "Bunnelby",
-		fr: "Sapereau",
-		es: "Bunnelby",
-		it: "Bunnelby",
-		pt: "Bunnelby",
-		de: "Scoppel"
+		'en-us': "Bunnelby",
+		'fr-fr': "Sapereau",
+		'es-es': "Bunnelby",
+		'it-it': "Bunnelby",
+		'pt-br': "Bunnelby",
+		'de-de': "Scoppel"
 	},
 
 	attacks: [
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mining Rush",
-				fr: "Excavation Hâtive",
-				es: "Fiebre Minera",
-				it: "Scavo Alacre",
-				pt: "Mineração Acelerada",
-				de: "Schaufelansturm"
+				'en-us': "Mining Rush",
+				'fr-fr': "Excavation Hâtive",
+				'es-es': "Fiebre Minera",
+				'it-it': "Scavo Alacre",
+				'pt-br': "Mineração Acelerada",
+				'de-de': "Schaufelansturm"
 			},
 			effect: {
-				en: "Discard up to 6 cards from the top of your deck. If you do, this attack does 30 damage for each card you discarded in this way.",
-				fr: "Défaussez jusqu'à 6 cartes du dessus de votre deck. Dans ce cas, cette attaque inflige 30 dégâts pour chaque carte défaussée de cette façon.",
-				es: "Descarta hasta 6 cartas de la parte superior de tu baraja. Si lo haces, este ataque hace 30 puntos de daño por cada carta que hayas descartado de esta manera.",
-				it: "Scarta fino a sei carte dalla cima del tuo mazzo. Se lo fai, questo attacco infligge 30 danni per ogni carta che hai scartato in questo modo.",
-				pt: "Descarte até 6 cartas de cima do seu baralho. Se fizer isto, este ataque causará 30 pontos de dano para cada carta descartada desta forma.",
-				de: "Lege bis zu 6 Karten von deinem Deck auf deinen Ablagestapel. Wenn du das machst, fügt diese Attacke für jede auf diese Weise auf deinen Ablagestapel gelegte Karte 30 Schadenspunkte zu."
+				'en-us': "Discard up to 6 cards from the top of your deck. If you do, this attack does 30 damage for each card you discarded in this way.",
+				'fr-fr': "Défaussez jusqu'à 6 cartes du dessus de votre deck. Dans ce cas, cette attaque inflige 30 dégâts pour chaque carte défaussée de cette façon.",
+				'es-es': "Descarta hasta 6 cartas de la parte superior de tu baraja. Si lo haces, este ataque hace 30 puntos de daño por cada carta que hayas descartado de esta manera.",
+				'it-it': "Scarta fino a sei carte dalla cima del tuo mazzo. Se lo fai, questo attacco infligge 30 danni per ogni carta che hai scartato in questo modo.",
+				'pt-br': "Descarte até 6 cartas de cima do seu baralho. Se fizer isto, este ataque causará 30 pontos de dano para cada carta descartada desta forma.",
+				'de-de': "Lege bis zu 6 Karten von deinem Deck auf deinen Ablagestapel. Wenn du das machst, fügt diese Attacke für jede auf diese Weise auf deinen Ablagestapel gelegte Karte 30 Schadenspunkte zu."
 			},
 			damage: "30×",
 
@@ -61,12 +61,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt Bounce",
-				fr: "Culbute Surprise",
-				es: "Bote Cabezazo",
-				it: "Rimbalzo Bottintesta",
-				pt: "Cabeçada Ricochete",
-				de: "Abrupter Kopfstoß"
+				'en-us': "Headbutt Bounce",
+				'fr-fr': "Culbute Surprise",
+				'es-es': "Bote Cabezazo",
+				'it-it': "Rimbalzo Bottintesta",
+				'pt-br': "Cabeçada Ricochete",
+				'de-de': "Abrupter Kopfstoß"
 			},
 
 			damage: 110,
@@ -90,7 +90,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "With power equal to an excavator, it can dig through dense bedrock. It's a huge help during tunnel construction."
+		'en-us': "With power equal to an excavator, it can dig through dense bedrock. It's a huge help during tunnel construction."
 	},
 
 	variants: [

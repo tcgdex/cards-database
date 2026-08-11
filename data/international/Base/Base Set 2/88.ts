@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Poliwag",
+		'en-us': "Poliwag",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Gun",
+				'en-us': "Water Gun",
 			},
 			effect: {
-				en: "Does 10 damage plus 10 damage for each Energy attached to Poliwag but not used to pay for this attack's Energy cost. Extra Energy after the end don't count.",
+				'en-us': "Does 10 damage plus 10 damage for each Energy attached to Poliwag but not used to pay for this attack's Energy cost. Extra Energy after the end don't count.",
 			},
 			damage: 10,
 
@@ -49,7 +49,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its newly grown legs prevent it from running. It appears to prefer swimming over trying to stand.",
+		'en-us': "Its newly grown legs prevent it from running. It appears to prefer swimming over trying to stand.",
 	},
 
 

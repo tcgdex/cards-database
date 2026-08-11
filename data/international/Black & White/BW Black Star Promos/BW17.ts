@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Ducklett",
-		fr: "Couaneton",
+		'en-us': "Ducklett",
+		'fr-fr': "Couaneton",
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
 			},
 
 			damage: 10,
@@ -54,7 +54,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When attacked, it uses its feathers to splash water, escaping under cover of the spray.",
+		'en-us': "When attacked, it uses its feathers to splash water, escaping under cover of the spray.",
 	},
 }
 

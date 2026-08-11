@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [289],
 
 	name: {
-		en: "Slaking"
+		'en-us': "Slaking"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Vigoroth"
+		'en-us': "Vigoroth"
 	},
 
 	description: {
-		en: "This Pokémon lives lying on its side. It only\nrolls over and moves when there is no more\ngrass to eat."
+		'en-us': "This Pokémon lives lying on its side. It only\nrolls over and moves when there is no more\ngrass to eat."
 	},
 
 	stage: "Stage2",
@@ -30,24 +30,24 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Snoozing Habit"
+			'en-us': "Snoozing Habit"
 		},
 
 		effect: {
-			en: "As long as this Pokémon is in the Active Spot, whenever you attach an Energy from your Energy Zone to it, it is now Asleep."
+			'en-us': "As long as this Pokémon is in the Active Spot, whenever you attach an Energy from your Energy Zone to it, it is now Asleep."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Knuckle Sandwich"
+			'en-us': "Knuckle Sandwich"
 		},
 
 		damage: 150,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Discard a random Energy from this Pokémon."
+			'en-us': "Discard a random Energy from this Pokémon."
 		}
 	}],
 

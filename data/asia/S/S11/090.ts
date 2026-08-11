@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤヤコマ",
+		'ja-jp': "ヤヤコマ",
 		'zh-tw': "小箭雀",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "美しい さえずりは 威嚇。 縄張りに 入った ものは 容赦なく 突きまくる。",
+		'ja-jp': "美しい さえずりは 威嚇。 縄張りに 入った ものは 容赦なく 突きまくる。",
 		'zh-tw': "婉轉的叫聲是在威嚇對方。對於闖入自己地盤的傢伙 會毫不留情地啄個不停。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "つつく",
+				'ja-jp': "つつく",
 				'zh-tw': "啄",
 			},
 			damage: 10,

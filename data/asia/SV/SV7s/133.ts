@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ยายาโคมะ",
-		id: "Fletchling"
+		'th-th': "ยายาโคมะ",
+		'id-id': "Fletchling"
 	},
 
 	illustrator: "Teeziro",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "อาศัยอยู่ตามทุ่งหญ้าป่าเขาและในเมือง ตะลุมบอนกับอิคิริงโกะเพื่อแย่งชิงอาณาเขตในเมือง",
-		id: "Fletchling hidup di padang, gunung, atau di kota. Terjadi pertikaian besar di kota ketika Pokémon ini bertarung dengan Squawkabilly untuk memperebutkan wilayah teritorial."
+		'th-th': "อาศัยอยู่ตามทุ่งหญ้าป่าเขาและในเมือง ตะลุมบอนกับอิคิริงโกะเพื่อแย่งชิงอาณาเขตในเมือง",
+		'id-id': "Fletchling hidup di padang, gunung, atau di kota. Terjadi pertikaian besar di kota ketika Pokémon ini bertarung dengan Squawkabilly untuk memperebutkan wilayah teritorial."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ส่งกลับไป",
-			id: "Kirim Balik"
+			'th-th': "ส่งกลับไป",
+			'id-id': "Kirim Balik"
 		},
 
 		effect: {
-			th: "สลับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามกับโปเกมอนบนเบนช์ {ฝ่ายตรงข้ามเลือกโปเกมอนที่จะวางบนตำแหน่งต่อสู้}",
-			id: "Tukar Pokémon Bertarung lawan dengan Pokémon Cadangan. [Pokémon yang akan dimasukkan ke Arena Bertarung dipilih oleh lawan.]"
+			'th-th': "สลับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามกับโปเกมอนบนเบนช์ {ฝ่ายตรงข้ามเลือกโปเกมอนที่จะวางบนตำแหน่งต่อสู้}",
+			'id-id': "Tukar Pokémon Bertarung lawan dengan Pokémon Cadangan. [Pokémon yang akan dimasukkan ke Arena Bertarung dipilih oleh lawan.]"
 		},
 
 		damage: 10,

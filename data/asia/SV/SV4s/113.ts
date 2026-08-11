@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Tandemaus"
+		'id-id': "Tandemaus"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Tandemaus selalu berdua pada saat apa pun. Pokémon ini membagi dua dan memakan bersama makanan yang ditemukannya."
+		'id-id': "Tandemaus selalu berdua pada saat apa pun. Pokémon ini membagi dua dan memakan bersama makanan yang ditemukannya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Damage Rush"
+			'id-id': "Damage Rush"
 		},
 
 		effect: {
-			id: "Lempar koin hingga hasilnya sisi belakang. Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lemparan dengan hasil sisi depan."
+			'id-id': "Lempar koin hingga hasilnya sisi belakang. Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lemparan dengan hasil sisi depan."
 		},
 
 		damage: "10×",

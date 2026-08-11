@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Dugtrio",
-		fr: "Triopikeur",
+		'en-us': "Dugtrio",
+		'fr-fr': "Triopikeur",
 	},
 
 	illustrator: "Toyste Beach",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Diglett",
-		fr: "Taupiqueur",
+		'en-us': "Diglett",
+		'fr-fr': "Taupiqueur",
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Earthquake",
-				fr: "Séisme",
+				'en-us': "Earthquake",
+				'fr-fr': "Séisme",
 			},
 			effect: {
-				en: "This attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 10 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "This attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 10 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 60,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Tumble",
-				fr: "Roule-Pierre",
+				'en-us': "Rock Tumble",
+				'fr-fr': "Roule-Pierre",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 60,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "In battle, it digs through the ground and strikes the unsuspecting foe from an unexpected direction.",
+		'en-us': "In battle, it digs through the ground and strikes the unsuspecting foe from an unexpected direction.",
 	},
 
 	thirdParty: {

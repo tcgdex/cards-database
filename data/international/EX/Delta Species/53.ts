@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Shelgon δ",
-		fr: "Drackhaus δ",
-		de: "Draschel"
+		'en-us': "Shelgon δ",
+		'fr-fr': "Drackhaus δ",
+		'de-de': "Draschel"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bagon",
-		fr: "Draby"
+		'en-us': "Bagon",
+		'fr-fr': "Draby"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Tight Jaw",
-				fr: "Mâchoire serrée",
-				de: "Tight Jaw"
+				'en-us': "Tight Jaw",
+				'fr-fr': "Mâchoire serrée",
+				'de-de': "Tight Jaw"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 
@@ -55,9 +55,9 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Combustion",
-				fr: "Fournaise",
-				de: "Combustion"
+				'en-us': "Combustion",
+				'fr-fr': "Fournaise",
+				'de-de': "Combustion"
 			},
 
 			damage: 40,

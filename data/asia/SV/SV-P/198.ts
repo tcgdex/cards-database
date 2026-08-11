@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	illustrator: "Susumu Maeya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "様々な 姿に 進化する。 イーブイの 遺伝子は 進化の 秘密を 解き明かす カギだ。",
+		'ja-jp': "様々な 姿に 進化する。 イーブイの 遺伝子は 進化の 秘密を 解き明かす カギだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "カラフルキャッチ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から、それぞれちがうタイプの基本エネルギーを3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札から、それぞれちがうタイプの基本エネルギーを3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 		{

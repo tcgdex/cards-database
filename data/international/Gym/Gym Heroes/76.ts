@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Bellsprout"
+		'en-us': "Erika's Bellsprout"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Careless Tackle"
+				'en-us': "Careless Tackle"
 			},
 			effect: {
-				en: "Erika's Bellsprout does 10 damage to itself."
+				'en-us': "Erika's Bellsprout does 10 damage to itself."
 			},
 			damage: 20,
 

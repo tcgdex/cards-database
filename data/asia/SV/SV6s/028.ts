@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Slugma"
+		'id-id': "Slugma"
 	},
 
 	illustrator: "Gapao",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Konon lebih banyak Slugma yang hidup di dunia primitif saat gunung berapi lebih aktif daripada sekarang."
+		'id-id': "Konon lebih banyak Slugma yang hidup di dunia primitif saat gunung berapi lebih aktif daripada sekarang."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Magma Panas"
+			'id-id': "Magma Panas"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
 		},
 
 		damage: 20,

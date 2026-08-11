@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハガネール",
+		'ja-jp': "ハガネール",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "丈夫な アゴで 岩石を かみくだき 進む。 真っ暗な 地中でも 見える 目を 持つ。",
+		'ja-jp': "丈夫な アゴで 岩石を かみくだき 進む。 真っ暗な 地中でも 見える 目を 持つ。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 170,
 			cost: ["Metal", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも50ダメージ。",
+				'ja-jp': "このポケモンにも50ダメージ。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イワーク",
+		'ja-jp': "イワーク",
 	},
 
 	retreat: 4,

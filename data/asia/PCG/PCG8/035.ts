@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "spoink",
+		'ja-jp': "spoink",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "Psywave",
+				'ja-jp': "Psywave",
 			},
 			effect: {
-				ja: "ディフェンディングポケモンに取り付けられたエネルギーの量を10回ダメージします。",
+				'ja-jp': "ディフェンディングポケモンに取り付けられたエネルギーの量を10回ダメージします。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ラム",
+				'ja-jp': "ラム",
 			},
 			damage: 20,
 		},

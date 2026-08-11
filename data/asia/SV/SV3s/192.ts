@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Pidgeotto"
+		'id-id': "Pidgeotto"
 	},
 
 	illustrator: "Jerky",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Pidgeotto memiliki wilayah teritorial yang luas. Pokémon ini mematuk secara menyeluruh penyusup yang memasuki wilayah teritorialnya."
+		'id-id': "Pidgeotto memiliki wilayah teritorial yang luas. Pokémon ini mematuk secara menyeluruh penyusup yang memasuki wilayah teritorialnya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Pukulan Sayap"
+			'id-id': "Pukulan Sayap"
 		},
 
 		damage: 40,

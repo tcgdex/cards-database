@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Dwebble",
-		fr: "Crabicoque",
-		es: "Dwebble",
-		it: "Dwebble",
-		pt: "Dwebble",
-		de: "Lithomith"
+		'en-us': "Dwebble",
+		'fr-fr': "Crabicoque",
+		'es-es': "Dwebble",
+		'it-it': "Dwebble",
+		'pt-br': "Dwebble",
+		'de-de': "Lithomith"
 	},
 
 	illustrator: "Akira Komayama",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Beat",
-				fr: "Bataille"
+				'en-us': "Beat",
+				'fr-fr': "Bataille"
 			},
 
 			damage: 10,
@@ -48,8 +48,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cut",
-				fr: "Coupe"
+				'en-us': "Cut",
+				'fr-fr': "Coupe"
 			},
 
 			damage: 30,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It makes a hole in a suitable rock. If that rock breaks, the Pokémon remains agitated until it locates a replacement.",
+		'en-us': "It makes a hole in a suitable rock. If that rock breaks, the Pokémon remains agitated until it locates a replacement.",
 	},
 
 	thirdParty: {

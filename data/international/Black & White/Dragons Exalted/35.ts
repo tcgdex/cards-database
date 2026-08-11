@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Palpitoad",
-		fr: "Batracné",
-		es: "Palpitoad",
-		it: "Palpitoad",
-		pt: "Palpitoad",
-		de: "Mebrana"
+		'en-us': "Palpitoad",
+		'fr-fr': "Batracné",
+		'es-es': "Palpitoad",
+		'it-it': "Palpitoad",
+		'pt-br': "Palpitoad",
+		'de-de': "Mebrana"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tympole",
-		fr: "Tritonde",
+		'en-us': "Tympole",
+		'fr-fr': "Tritonde",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Supersonic",
-				fr: "Ultrason",
+				'en-us': "Supersonic",
+				'fr-fr': "Ultrason",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
 			},
 
 		},
@@ -55,8 +55,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Voice",
-				fr: "Mégaphone",
+				'en-us': "Hyper Voice",
+				'fr-fr': "Mégaphone",
 			},
 
 			damage: 50,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When they vibrate the bumps on their heads, the can make wave in water or earthquake-like vibrations on land.",
+		'en-us': "When they vibrate the bumps on their heads, the can make wave in water or earthquake-like vibrations on land.",
 	},
 
 	thirdParty: {

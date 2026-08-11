@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Darumaka",
-		fr: "Darumarond",
-		es: "Darumaka",
-		it: "Darumaka",
-		pt: "Darumaka",
-		de: "Flampion"
+		'en-us': "Darumaka",
+		'fr-fr': "Darumarond",
+		'es-es': "Darumaka",
+		'it-it': "Darumaka",
+		'pt-br': "Darumaka",
+		'de-de': "Flampion"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Singe",
-				fr: "Roussi",
+				'en-us': "Singe",
+				'fr-fr': "Roussi",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				'en-us': "The Defending Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé.",
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
 			},
 
 			damage: 20,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Darumaka's droppings are hot, so people used to put them in their clothes to keep themselves warm.",
+		'en-us': "Darumaka's droppings are hot, so people used to put them in their clothes to keep themselves warm.",
 	},
 
 	thirdParty: {

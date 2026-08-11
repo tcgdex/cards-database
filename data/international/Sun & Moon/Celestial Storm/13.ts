@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Nuzleaf",
-		fr: "Pifeuil",
-		es: "Nuzleaf",
-		it: "Nuzleaf",
-		pt: "Nuzleaf",
-		de: "Blanas"
+		'en-us': "Nuzleaf",
+		'fr-fr': "Pifeuil",
+		'es-es': "Nuzleaf",
+		'it-it': "Nuzleaf",
+		'pt-br': "Nuzleaf",
+		'de-de': "Blanas"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Seedot",
-		fr: "Grainipiot",
+		'en-us': "Seedot",
+		'fr-fr': "Grainipiot",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras’Face",
-				es: "Destructor",
-				it: "Botta",
-				pt: "Pancada",
-				de: "Pfund"
+				'en-us': "Pound",
+				'fr-fr': "Écras’Face",
+				'es-es': "Destructor",
+				'it-it': "Botta",
+				'pt-br': "Pancada",
+				'de-de': "Pfund"
 			},
 
 			damage: 20,
@@ -56,20 +56,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Clear the Room",
-				fr: "Vider les Lieux",
-				es: "Hacer Sitio",
-				it: "Sgombero",
-				pt: "Expulsar da Sala",
-				de: "Rausschmeißen"
+				'en-us': "Clear the Room",
+				'fr-fr': "Vider les Lieux",
+				'es-es': "Hacer Sitio",
+				'it-it': "Sgombero",
+				'pt-br': "Expulsar da Sala",
+				'de-de': "Rausschmeißen"
 			},
 			effect: {
-				en: "Your opponent reveals their hand. Choose a Supporter card you find there. Your opponent shuffles that card into their deck.",
-				fr: "Votre adversaire dévoile sa main. Choisissez une carte Supporter que vous y trouvez. Votre adversaire mélange cette carte avec son deck.",
-				es: "Tu rival enseña las cartas de su mano. Elige 1 carta de Partidario que encuentres entre ellas. Tu rival pone esa carta en su baraja y las baraja todas.",
-				it: "Il tuo avversario mostra le carte che ha in mano. Scegli una carta Aiuto presente tra quelle carte. Il tuo avversario rimischia quella carta nel suo mazzo.",
-				pt: "Seu oponente revela a própria mão. Escolha 1 carta de Apoiador que encontrar lá. Seu oponente embaralha aquela carta no próprio baralho.",
-				de: "Dein Gegner zeigt dir seine Handkarten. Wähle 1 Unterstützerkarte, die du dort findest. Dein Gegner mischt jene Karte in sein Deck."
+				'en-us': "Your opponent reveals their hand. Choose a Supporter card you find there. Your opponent shuffles that card into their deck.",
+				'fr-fr': "Votre adversaire dévoile sa main. Choisissez une carte Supporter que vous y trouvez. Votre adversaire mélange cette carte avec son deck.",
+				'es-es': "Tu rival enseña las cartas de su mano. Elige 1 carta de Partidario que encuentres entre ellas. Tu rival pone esa carta en su baraja y las baraja todas.",
+				'it-it': "Il tuo avversario mostra le carte che ha in mano. Scegli una carta Aiuto presente tra quelle carte. Il tuo avversario rimischia quella carta nel suo mazzo.",
+				'pt-br': "Seu oponente revela a própria mão. Escolha 1 carta de Apoiador que encontrar lá. Seu oponente embaralha aquela carta no próprio baralho.",
+				'de-de': "Dein Gegner zeigt dir seine Handkarten. Wähle 1 Unterstützerkarte, die du dort findest. Dein Gegner mischt jene Karte in sein Deck."
 			},
 
 		},
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It lives deep in forests. With the leaf on its head, it makes a flute whose song makes listeners uneasy.",
+		'en-us': "It lives deep in forests. With the leaf on its head, it makes a flute whose song makes listeners uneasy.",
 	},
 
 	thirdParty: {

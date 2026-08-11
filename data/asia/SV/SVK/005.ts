@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVK"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "かがやくフーディン"
+		'ja-jp': "かがやくフーディン"
 	},
 
 	illustrator: "Akira Komayama",
@@ -18,11 +18,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ペインスプーン"
+			'ja-jp': "ペインスプーン"
 		},
 
 		effect: {
-			ja: "自分の番に1回使える。相手の場のポケモン1匹にのっているダメカンを2個まで選び、相手の別のポケモン1匹にのせ替える。"
+			'ja-jp': "自分の番に1回使える。相手の場のポケモン1匹にのっているダメカンを2個まで選び、相手の別のポケモン1匹にのせ替える。"
 		}
 	}],
 
@@ -30,13 +30,13 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "マインドルーラー"
+			'ja-jp': "マインドルーラー"
 		},
 
 		damage: "20×",
 
 		effect: {
-			ja: "相手の手札の枚数×20ダメージ。"
+			'ja-jp': "相手の手札の枚数×20ダメージ。"
 		}
 	}],
 

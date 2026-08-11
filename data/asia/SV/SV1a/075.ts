@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ニャオハ"
+		'ja-jp': "ニャオハ"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "フワフワの 体毛は 植物に 近い 成分。 こまめに 顔を 洗って 乾燥を 防ぐ。"
+		'ja-jp': "フワフワの 体毛は 植物に 近い 成分。 こまめに 顔を 洗って 乾燥を 防ぐ。"
 	},
 
 	stage: "Basic",
@@ -24,17 +24,17 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "ひざしをあつめる"
+			'ja-jp': "ひざしをあつめる"
 		},
 
 		effect: {
-			ja: "自分の山札から基本エネルギーを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。"
+			'ja-jp': "自分の山札から基本エネルギーを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。"
 		}
 	}, {
 		cost: ["Grass"],
 
 		name: {
-			ja: "タネばくだん"
+			'ja-jp': "タネばくだん"
 		},
 
 		damage: 10

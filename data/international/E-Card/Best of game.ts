@@ -1,11 +1,11 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../E-Card'
 
 const bog: Set = {
 	id: "bog",
 
 	name: {
-		en: "Best of game"
+		'en-us': "Best of game"
 	},
 
 	serie: serie,

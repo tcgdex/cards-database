@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Roucool",
-		en: "Pidgey",
-		es: "Pidgey",
-		it: "Pidgey",
-		pt: "Pidgey",
-		de: "Taubsi"
+		'fr-fr': "Roucool",
+		'en-us': "Pidgey",
+		'es-es': "Pidgey",
+		'it-it': "Pidgey",
+		'pt-br': "Pidgey",
+		'de-de': "Taubsi"
 	},
 
 	rarity: "Illustration rare",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Tornade",
-			en: "Gust",
-			es: "Tornado",
-			it: "Raffica",
-			pt: "Lufada de Vento",
-			de: "Windstoß"
+			'fr-fr': "Tornade",
+			'en-us': "Gust",
+			'es-es': "Tornado",
+			'it-it': "Raffica",
+			'pt-br': "Lufada de Vento",
+			'de-de': "Windstoß"
 		},
 
 		damage: 20
@@ -51,7 +51,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
+		'en-us': "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
 	},
 
 	variants: [

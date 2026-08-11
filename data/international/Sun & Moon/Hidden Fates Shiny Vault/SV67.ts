@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Lycanroc-GX",
-		fr: "Lougaroc-GX",
+		'en-us': "Lycanroc-GX",
+		'fr-fr': "Lougaroc-GX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Shiny rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Fighting",
 	],
 	evolveFrom: {
-		en: "Rockruff",
-		fr: "Rocabot",
+		'en-us': "Rockruff",
+		'fr-fr': "Rocabot",
 	},
 
 	suffix: "GX",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Twilight Eyes",
-				fr: "Regard du Crépuscule",
+				'en-us': "Twilight Eyes",
+				'fr-fr': "Regard du Crépuscule",
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may discard an Energy attached to your opponent's Active Pokémon.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon pendant votre tour, vous pouvez défausser une Énergie attachée au Pokémon Actif de votre adversaire.",
+				'en-us': "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may discard an Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon pendant votre tour, vous pouvez défausser une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 		},
 	],
@@ -45,8 +45,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Accelerock",
-				fr: "Vif Roc",
+				'en-us': "Accelerock",
+				'fr-fr': "Vif Roc",
 			},
 
 			damage: 120,
@@ -57,12 +57,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Splintered Shards-GX",
-				fr: "Roches-Lames-GX",
+				'en-us': "Splintered Shards-GX",
+				'fr-fr': "Roches-Lames-GX",
 			},
 			effect: {
-				en: "This attack does 30 damage for each Energy card in your opponent's discard pile. (You can't use more than 1 GX attack in a game.)",
-				fr: "Cette attaque inflige 30 dégâts pour chaque carte Énergie dans la pile de défausse de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'en-us': "This attack does 30 damage for each Energy card in your opponent's discard pile. (You can't use more than 1 GX attack in a game.)",
+				'fr-fr': "Cette attaque inflige 30 dégâts pour chaque carte Énergie dans la pile de défausse de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 			damage: 30,
 

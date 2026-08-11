@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Krokorok"
+		'en-us': "Krokorok"
 	},
 
 	illustrator: "Naoki Saito",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Sandile"
+		'en-us': "Sandile"
 	},
 
 	description: {
-		en: "Thanks to the special membrane covering its\neyes, it can see its surroundings clearly, even in\nthe middle of the night."
+		'en-us': "Thanks to the special membrane covering its\neyes, it can see its surroundings clearly, even in\nthe middle of the night."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Bite"
+			'en-us': "Bite"
 		},
 
 		damage: 40,

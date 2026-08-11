@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "テツノイワオ",
+		'ja-jp': "テツノイワオ",
 	},
 
 	illustrator: "GIDORA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "金属質の ボディらしい。 名前は 古い 本に 記された 謎の 物体から つけられた。",
+		'ja-jp': "金属質の ボディらしい。 名前は 古い 本に 記された 謎の 物体から つけられた。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 170,
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "自分の手札と相手の手札が同じ枚数でないなら、このワザは失敗。",
+				'ja-jp': "自分の手札と相手の手札が同じ枚数でないなら、このワザは失敗。",
 			},
 		},
 	],

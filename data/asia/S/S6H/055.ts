@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒメグマ",
+		'ja-jp': "ヒメグマ",
 		'zh-tw': "熊寶寶",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "食べ物が 減る 冬の前に あちこちに 食べ物を 隠す 習性を 持っている。",
+		'ja-jp': "食べ物が 減る 冬の前に あちこちに 食べ物を 隠す 習性を 持っている。",
 		'zh-tw': "有著在食物短缺的冬季來臨之前，將食物藏在各處的習性。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ひっかく",
+				'ja-jp': "ひっかく",
 				'zh-tw': "抓",
 			},
 			damage: 10,

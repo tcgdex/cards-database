@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Alomomola",
-		fr: "Mamanbo"
+		'en-us': "Alomomola",
+		'fr-fr': "Mamanbo"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -18,24 +18,24 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It gently holds injured and weak Pokémon in its\nfins. Its special membrane heals their wounds.",
-		fr: "Il berce les Pokémon blessés ou affaiblis dans ses nageoires et les guérit grâce à la membrane dont il est recouvert."
+		'en-us': "It gently holds injured and weak Pokémon in its\nfins. Its special membrane heals their wounds.",
+		'fr-fr': "Il berce les Pokémon blessés ou affaiblis dans ses nageoires et les guérit grâce à la membrane dont il est recouvert."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Water Pulse",
-			fr: "Vibraqua"
+			'en-us': "Water Pulse",
+			'fr-fr': "Vibraqua"
 		},
 
 		damage: 50,
 		cost: ["Water", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi."
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi."
 		}
 	}],
 

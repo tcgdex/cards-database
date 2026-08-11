@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Regice ex",
-		fr: "Regice ex",
-		de: "Regice ex"
+		'en-us': "Regice ex",
+		'fr-fr': "Regice ex",
+		'de-de': "Regice ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Ice Beam",
-				fr: "Laser glace",
-				de: "Eisstrahl"
+				'en-us': "Ice Beam",
+				'fr-fr': "Laser glace",
+				'de-de': "Eisstrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Iceberg Crush",
-				fr: "Broyage d'iceberg",
-				de: "Zerschmetternder Eisberg"
+				'en-us': "Iceberg Crush",
+				'fr-fr': "Broyage d'iceberg",
+				'de-de': "Zerschmetternder Eisberg"
 			},
 			effect: {
-				en: "If Regirock ex is in play, flip a coin. If heads, discard 1 Energy card attached to the Defending Pokémon.",
-				fr: "Si Regirock ex est en jeu, lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Falls sich Regirock ex im Spiel befindet, wirf 1 Münze. Bei 'Kopf' lege 1 Energiekarte von dem Verteidigenden Pokémon auf den Ablagestapel deines Gegners."
+				'en-us': "If Regirock ex is in play, flip a coin. If heads, discard 1 Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Si Regirock ex est en jeu, lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Falls sich Regirock ex im Spiel befindet, wirf 1 Münze. Bei 'Kopf' lege 1 Energiekarte von dem Verteidigenden Pokémon auf den Ablagestapel deines Gegners."
 			},
 			damage: 40,
 

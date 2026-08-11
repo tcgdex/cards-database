@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mightyena",
-		fr: "Grahyèna",
-		es: "Mightyena",
+		'en-us': "Mightyena",
+		'fr-fr': "Grahyèna",
+		'es-es': "Mightyena",
 		'es-mx': "Mightyena",
-		de: "Magnayen",
-		it: "Mightyena",
-		pt: "Mightyena"
+		'de-de': "Magnayen",
+		'it-it': "Mightyena",
+		'pt-br': "Mightyena"
 	},
 
 	evolveFrom: {
-		en: "Poochyena",
-		fr: "Medhyèna",
-		es: "Poochyena",
+		'en-us': "Poochyena",
+		'fr-fr': "Medhyèna",
+		'es-es': "Poochyena",
 		'es-mx': "Poochyena",
-		de: "Fiffyen",
-		it: "Poochyena",
-		pt: "Poochyena",
+		'de-de': "Fiffyen",
+		'it-it': "Poochyena",
+		'pt-br': "Poochyena",
 	},
 
 	illustrator: "Yano Keiji",
@@ -36,23 +36,23 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Kick Away",
-			fr: "Coud'Pied Éjecteur",
-			es: "Patadón",
+			'en-us': "Kick Away",
+			'fr-fr': "Coud'Pied Éjecteur",
+			'es-es': "Patadón",
 			'es-mx': "Patadón",
-			de: "Wegkicken",
-			it: "Calciavia",
-			pt: "Chutar para Longe"
+			'de-de': "Wegkicken",
+			'it-it': "Calciavia",
+			'pt-br': "Chutar para Longe"
 		},
 
 		effect: {
-			en: "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
-			fr: "Envoyez le Pokémon Actif de l'adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
-			es: "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
+			'en-us': "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+			'fr-fr': "Envoyez le Pokémon Actif de l'adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
+			'es-es': "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
 			'es-mx': "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
-			de: "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)",
-			it: "Sposta il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
-			pt: "Mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)"
+			'de-de': "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)",
+			'it-it': "Sposta il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
+			'pt-br': "Mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)"
 		},
 
 		damage: 50
@@ -60,13 +60,13 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Sharp Fang",
-			fr: "Croc Aiguisé",
-			es: "Colmillo Afilado",
+			'en-us': "Sharp Fang",
+			'fr-fr': "Croc Aiguisé",
+			'es-es': "Colmillo Afilado",
 			'es-mx': "Colmillo Afilado",
-			de: "Scharfe Fänge",
-			it: "Zannaffilata",
-			pt: "Presa Afiada"
+			'de-de': "Scharfe Fänge",
+			'it-it': "Zannaffilata",
+			'pt-br': "Presa Afiada"
 		},
 
 		damage: 130
@@ -82,7 +82,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It will always obey the commands of a skilled Trainer. Its behavior arises from its living in packs in ancient times.",
+		'en-us': "It will always obey the commands of a skilled Trainer. Its behavior arises from its living in packs in ancient times.",
 	},
 
 	variants: [

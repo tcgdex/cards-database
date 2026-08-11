@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S5R"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "小貓怪",
-		th: "โคลิงก์"
+		'th-th': "โคลิงก์"
 	},
 
 	illustrator: "sowsow",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "一旦感知到危險，全身的體毛就會發光，趁對手眼睛被閃到時逃之夭夭。",
-		th: "เมื่อรับรู้ถึงอันตราย ขนทั่วร่างกายจะเปล่งแสงออกมา และจะหลบหนีในช่วงที่ฝ่ายตรงข้ามตาพร่ามัวอยู่"
+		'th-th': "เมื่อรับรู้ถึงอันตราย ขนทั่วร่างกายจะเปล่งแสงออกมา และจะหลบหนีในช่วงที่ฝ่ายตรงข้ามตาพร่ามัวอยู่"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "後踢",
-			th: "เตะกลับหลัง"
+			'th-th': "เตะกลับหลัง"
 		},
 
 		damage: 20,

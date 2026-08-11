@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Dipplin"
+		'id-id': "Dipplin"
 	},
 
 	illustrator: "Saboteri",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Boah luar yang mengeluarkan kepala dan Boah dalam yang mengeluarkan ekor saling membantu dan tinggal bersama di dalam apel."
+		'id-id': "Boah luar yang mengeluarkan kepala dan Boah dalam yang mengeluarkan ekor saling membantu dan tinggal bersama di dalam apel."
 	},
 
 	stage: "Stage1",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Orkes Festival"
+			'id-id': "Orkes Festival"
 		},
 
 		effect: {
-			id: "Jika ada Lokasi Festival di Arena, Pokémon ini dapat menggunakan serangan yang dimiliki 2 kali berturut-turut. (Jika Pokémon Bertarung lawan KO akibat serangan pertama, gunakan serangan kedua setelah Pokémon Bertarung berikutnya masuk.)"
+			'id-id': "Jika ada Lokasi Festival di Arena, Pokémon ini dapat menggunakan serangan yang dimiliki 2 kali berturut-turut. (Jika Pokémon Bertarung lawan KO akibat serangan pertama, gunakan serangan kedua setelah Pokémon Bertarung berikutnya masuk.)"
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Lingkaran Teman"
+			'id-id': "Lingkaran Teman"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap Pokémon Cadangan sendiri."
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap Pokémon Cadangan sendiri."
 		},
 
 		damage: "20×",

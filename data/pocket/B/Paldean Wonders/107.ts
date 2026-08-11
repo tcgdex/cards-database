@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
     set: Set,
 
 	name: {
-		en: "Nemona",
-		fr: "Menzi",
-		es: "Mencía",
-		it: "Nemi",
-		pt: "Noêmia",
-		de: "Nemila"
+		'en-us': "Nemona",
+		'fr-fr': "Menzi",
+		'es-es': "Mencía",
+		'it-it': "Nemi",
+		'pt-br': "Noêmia",
+		'de-de': "Nemila"
 	},
 
     illustrator: "Sanosuke Sakuma",

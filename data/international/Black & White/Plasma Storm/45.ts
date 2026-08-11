@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Magneton",
-		fr: "Magnéton",
-		es: "Magneton",
-		it: "Magneton",
-		pt: "Magneton",
-		de: "Magneton"
+		'en-us': "Magneton",
+		'fr-fr': "Magnéton",
+		'es-es': "Magneton",
+		'it-it': "Magneton",
+		'pt-br': "Magneton",
+		'de-de': "Magneton"
 	},
 
 	illustrator: "match",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magnemite",
-		fr: "Magnéti",
+		'en-us': "Magnemite",
+		'fr-fr': "Magnéti",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Away",
-				fr: "Asticotage",
+				'en-us': "Knock Away",
+				'fr-fr': "Asticotage",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The stronger electromagnetic waves from the three linked Magnemite are enough to dry out surrounding moisture.",
+		'en-us': "The stronger electromagnetic waves from the three linked Magnemite are enough to dry out surrounding moisture.",
 	},
 
 	thirdParty: {

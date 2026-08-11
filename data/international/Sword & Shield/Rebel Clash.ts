@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sword & Shield'
 
 const swsh2: Set = {
 	id: "swsh2",
 
 	name: {
-		en: "Rebel Clash",
-		fr: "Clash des Rebelles",
-		es: "Choque Rebelde",
-		it: "Fragore Ribelle",
-		de: "Clash der Rebellen",
-		pt: "Rixa Rebelde"
+		'en-us': "Rebel Clash",
+		'fr-fr': "Clash des Rebelles",
+		'es-es': "Choque Rebelde",
+		'it-it': "Fragore Ribelle",
+		'de-de': "Clash der Rebellen",
+		'pt-br': "Rixa Rebelde"
 	},
 
 	tcgOnline: 'RCL',
@@ -24,7 +24,7 @@ const swsh2: Set = {
 
 	abbreviations: {
 		official: "RCL",
-		fr: "CDR"
+		'fr-fr': "CDR"
 	},
 
 	thirdParty: {

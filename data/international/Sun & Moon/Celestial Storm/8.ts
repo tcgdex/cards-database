@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Treecko",
-		fr: "Arcko",
-		es: "Treecko",
-		it: "Treecko",
-		pt: "Treecko",
-		de: "Geckarbor"
+		'en-us': "Treecko",
+		'fr-fr': "Arcko",
+		'es-es': "Treecko",
+		'it-it': "Treecko",
+		'pt-br': "Treecko",
+		'de-de': "Geckarbor"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Smack",
-				fr: "Claque",
-				es: "Palmetazo",
-				it: "Schiaffo",
-				pt: "Estalo",
-				de: "Klatscher"
+				'en-us': "Smack",
+				'fr-fr': "Claque",
+				'es-es': "Palmetazo",
+				'it-it': "Schiaffo",
+				'pt-br': "Estalo",
+				'de-de': "Klatscher"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Whap",
-				fr: "Queue Battoir",
-				es: "Coletón",
-				it: "Codabotta",
-				pt: "Surra de Cauda",
-				de: "Schweifvertrimmer"
+				'en-us': "Tail Whap",
+				'fr-fr': "Queue Battoir",
+				'es-es': "Coletón",
+				'it-it': "Codabotta",
+				'pt-br': "Surra de Cauda",
+				'de-de': "Schweifvertrimmer"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above.",
+		'en-us': "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above.",
 	},
 
 	thirdParty: {

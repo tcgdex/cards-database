@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW trainer Kit (Excadrill).ts'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Herdier",
-		fr: "Ponchien",
-		es: "Herdier",
-		it: "Herdier",
-		pt: "Herdier",
-		de: "Terribark"
+		'en-us': "Herdier",
+		'fr-fr': "Ponchien",
+		'es-es': "Herdier",
+		'it-it': "Herdier",
+		'pt-br': "Herdier",
+		'de-de': "Terribark"
 	},
 
 	illustrator: "Midori Harada",
@@ -23,12 +23,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lillipup",
-		fr: "Ponchiot",
-		es: "Lillipup",
-		it: "Lillipup",
-		pt: "Lillipup",
-		de: "Yorkleff"
+		'en-us': "Lillipup",
+		'fr-fr': "Ponchiot",
+		'es-es': "Lillipup",
+		'it-it': "Lillipup",
+		'pt-br': "Lillipup",
+		'de-de': "Yorkleff"
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Collect",
-			fr: "Collectionner"
+			'en-us': "Collect",
+			'fr-fr': "Collectionner"
 		},
 		effect: {
-			en: "Draw 3 cards.",
-			fr: "Piochez 3 cartes."
+			'en-us': "Draw 3 cards.",
+			'fr-fr': "Piochez 3 cartes."
 		}
 	}, {
 		cost: [
@@ -53,8 +53,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Bite",
-			fr: "Morsure"
+			'en-us': "Bite",
+			'fr-fr': "Morsure"
 		},
 		damage: 50
 	}],
@@ -65,7 +65,7 @@ const card: Card = {
 	}],
 
 	description: {
-		en: "It loyally follows its Trainer's orders. For ages, they have helped Trainers raise Pokémon."
+		'en-us': "It loyally follows its Trainer's orders. For ages, they have helped Trainers raise Pokémon."
 	},
 
 	retreat: 1,

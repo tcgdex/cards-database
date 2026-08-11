@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It was recently discovered that the different varieties of Pumpkaboo vary not only in size but also in the size of the souls they collect.",
+		'en-us': "It was recently discovered that the different varieties of Pumpkaboo vary not only in size but also in the size of the souls they collect.",
 	},
 
 
 	name: {
-		en: "Pumpkaboo",
-		fr: "Pitrouille",
-		es: "Pumpkaboo",
+		'en-us': "Pumpkaboo",
+		'fr-fr': "Pitrouille",
+		'es-es': "Pumpkaboo",
 		'es-mx': "Pumpkaboo",
-		de: "Irrbis",
-		it: "Pumpkaboo",
-		pt: "Pumpkaboo"
+		'de-de': "Irrbis",
+		'it-it': "Pumpkaboo",
+		'pt-br': "Pumpkaboo"
 	},
 
 	illustrator: "Jerky",
@@ -29,13 +29,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Stampede",
-			fr: "Ruée",
-			es: "Estampida",
+			'en-us': "Stampede",
+			'fr-fr': "Ruée",
+			'es-es': "Estampida",
 			'es-mx': "Estampida",
-			de: "Zertrampeln",
-			it: "Fuggi Fuggi",
-			pt: "Estouro"
+			'de-de': "Zertrampeln",
+			'it-it': "Fuggi Fuggi",
+			'pt-br': "Estouro"
 		},
 
 		cost: ["Psychic"],

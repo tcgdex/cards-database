@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Petilil"
+		'en-us': "Petilil"
 	},
 
 	illustrator: "Naoki Saito",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "If the leaves on its head are pruned with\nregularity, this Pokémon can be grown into\na fine plump shape."
+		'en-us': "If the leaves on its head are pruned with\nregularity, this Pokémon can be grown into\na fine plump shape."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Flop"
+			'en-us': "Flop"
 		},
 
 		damage: 10,

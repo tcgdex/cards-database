@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celebrations'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Cosmoem",
-		fr: "Cosmovum",
-		es: "Cosmoem",
-		it: "Cosmoem",
-		pt: "Cosmoem",
-		de: "Cosmovum"
+		'en-us': "Cosmoem",
+		'fr-fr': "Cosmovum",
+		'es-es': "Cosmoem",
+		'it-it': "Cosmoem",
+		'pt-br': "Cosmoem",
+		'de-de': "Cosmovum"
 	},
 
 	rarity: "Rare",
@@ -23,21 +23,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Star Protection",
-			fr: "Protection Stellaire",
-			es: "Protección Estelar",
-			it: "Protezione Stellare",
-			pt: "Proteção Estelar",
-			de: "Sternenschutz"
+			'en-us': "Star Protection",
+			'fr-fr': "Protection Stellaire",
+			'es-es': "Protección Estelar",
+			'it-it': "Protezione Stellare",
+			'pt-br': "Proteção Estelar",
+			'de-de': "Sternenschutz"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks.",
-			fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques.",
-			es: "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, evita todo el daño infligido a este Pokémon por ataques.",
-			it: "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, previeni tutti i danni inflitti a questo Pokémon da qualsiasi attacco.",
-			pt: "Jogue 1 moeda. Se sair cara, durante o próximo turno do seu oponente, previna todo o dano causado a este Pokémon por ataques.",
-			de: "Wirf 1 Münze. Verhindere bei Kopf während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken zugefügt wird."
+			'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks.",
+			'fr-fr': "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques.",
+			'es-es': "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, evita todo el daño infligido a este Pokémon por ataques.",
+			'it-it': "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, previeni tutti i danni inflitti a questo Pokémon da qualsiasi attacco.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, durante o próximo turno do seu oponente, previna todo o dano causado a este Pokémon por ataques.",
+			'de-de': "Wirf 1 Münze. Verhindere bei Kopf während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken zugefügt wird."
 		},
 
 		cost: ["Colorless"]
@@ -56,18 +56,18 @@ const card: Card = {
 	retreat: 3,
 
 	evolveFrom: {
-		en: "Cosmog",
-		fr: "Cosmog",
-		es: "Cosmog",
-		it: "Cosmog",
-		pt: "Cosmog",
-		de: "Cosmog"
+		'en-us': "Cosmog",
+		'fr-fr': "Cosmog",
+		'es-es': "Cosmog",
+		'it-it': "Cosmog",
+		'pt-br': "Cosmog",
+		'de-de': "Cosmog"
 	},
 
 	regulationMark: "E",
 
 	description: {
-		en: "As it absorbs light, Cosmoem continues to grow. Its golden shell is surprisingly solid."
+		'en-us': "As it absorbs light, Cosmoem continues to grow. Its golden shell is surprisingly solid."
 	},
 
 	dexId: [790],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パラセクト",
+		'ja-jp': "パラセクト",
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "ムシの 方は ほぼ 死んでいて 本体は 背中の キノコだ。 もげると もう 動かなくなる。",
+		'ja-jp': "ムシの 方は ほぼ 死んでいて 本体は 背中の キノコだ。 もげると もう 動かなくなる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "パニックほうし" },
 			effect: {
-				ja: "このポケモンがいるかぎり、ポケモンチェックのたび、相手のこんらんのポケモンにダメカンを2個のせる。",
+				'ja-jp': "このポケモンがいるかぎり、ポケモンチェックのたび、相手のこんらんのポケモンにダメカンを2個のせる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをこんらんにする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "パラス",
+		'ja-jp': "パラス",
 	},
 
 	retreat: 2,

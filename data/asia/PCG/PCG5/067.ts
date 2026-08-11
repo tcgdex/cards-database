@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Swablu",
+		'ja-jp': "Swablu",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "羽毛",
+				'ja-jp': "羽毛",
 			},
 			effect: {
-				ja: "Swabluがあなたのベンチにある限り、相手の攻撃によってSwabluに与えられたすべての損害を防ぎます。",
+				'ja-jp': "Swabluがあなたのベンチにある限り、相手の攻撃によってSwabluに与えられたすべての損害を防ぎます。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "かみそりの風",
+				'ja-jp': "かみそりの風",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
 			},
 			damage: 20,
 		},

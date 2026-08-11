@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウィルのエスペオン",
+		'ja-jp': "ウィルのエスペオン",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "テールスラップ",
+				'ja-jp': "テールスラップ",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Psychic", "Psychic", "Colorless"],
 			name: {
-				ja: "PSYBEAM",
+				'ja-jp': "PSYBEAM",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
 			},
 			damage: 30,
 		},

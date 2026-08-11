@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ズガドーン",
+		'ja-jp': "ズガドーン",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "クネクネ動いて 人に 近付くと 突然 頭を 爆発させた。 ウルトラビーストの 一種らしい。",
+		'ja-jp': "クネクネ動いて 人に 近付くと 突然 頭を 爆発させた。 ウルトラビーストの 一種らしい。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "デプスボム" },
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "ダメカン4個を、相手のポケモンに好きなようにのせる。相手のサイドの残り枚数が3枚なら、のせるダメカンの数は12個になる。",
+				'ja-jp': "ダメカン4個を、相手のポケモンに好きなようにのせる。相手のサイドの残り枚数が3枚なら、のせるダメカンの数は12個になる。",
 			},
 		},
 	],

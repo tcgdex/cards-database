@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "でんきだま",
+		'ja-jp': "でんきだま",
 	},
 
 	illustrator: "Studio Bora Inc.",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけている「ピカチュウex」が使うワザの、相手のバトル場の「ポケモンex」へのダメージは「+50」される。",
+		'ja-jp': "このカードをつけている「ピカチュウex」が使うワザの、相手のバトル場の「ポケモンex」へのダメージは「+50」される。",
 	},
 
 	variants: [

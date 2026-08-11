@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Noibat",
-		fr: "Sonistrelle",
-		es: "Noibat",
-		it: "Noibat",
-		pt: "Noibat",
-		de: "eF-eM"
+		'en-us': "Noibat",
+		'fr-fr': "Sonistrelle",
+		'es-es': "Noibat",
+		'it-it': "Noibat",
+		'pt-br': "Noibat",
+		'de-de': "eF-eM"
 	},
 
 	illustrator: "0313",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Air Slash",
-				fr: "Lame d’Air",
-				es: "Tajo Aéreo",
-				it: "Eterelama",
-				pt: "Golpe de Ar",
-				de: "Luftschnitt"
+				'en-us': "Air Slash",
+				'fr-fr': "Lame d’Air",
+				'es-es': "Tajo Aéreo",
+				'it-it': "Eterelama",
+				'pt-br': "Golpe de Ar",
+				'de-de': "Luftschnitt"
 			},
 			effect: {
-				en: "Discard an Energy from this Pokémon.",
-				fr: "Défaussez une Énergie de ce Pokémon.",
-				es: "Descarta 1 Energía de este Pokémon.",
-				it: "Scarta un’Energia assegnata a questo Pokémon.",
-				pt: "Descarte 1 Energia deste Pokémon.",
-				de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard an Energy from this Pokémon.",
+				'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+				'es-es': "Descarta 1 Energía de este Pokémon.",
+				'it-it': "Scarta un’Energia assegnata a questo Pokémon.",
+				'pt-br': "Descarte 1 Energia deste Pokémon.",
+				'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 50,
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Fruits are its favorite foods. This gourmet carefully picks out just the ripe ones using its sonar.",
+		'en-us': "Fruits are its favorite foods. This gourmet carefully picks out just the ripe ones using its sonar.",
 	},
 
 	thirdParty: {

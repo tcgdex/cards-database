@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シュバルゴ",
+		'ja-jp': "シュバルゴ",
 	},
 
 	illustrator: "DOM",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "高速で 飛び回り 鋭い やりで 相手を 突く。 不利な 相手にも 勇敢に 立ち向かう。",
+		'ja-jp': "高速で 飛び回り 鋭い やりで 相手を 突く。 不利な 相手にも 勇敢に 立ち向かう。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Metal"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カブルモ",
+		'ja-jp': "カブルモ",
 	},
 
 	retreat: 3,

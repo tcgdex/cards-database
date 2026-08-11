@@ -4,7 +4,7 @@ import serie from "../SM";
 const set: Set = {
 	id: "SM2p",
 	name: {
-		ja: "新たなる試練の向こう",
+		'ja-jp': "新たなる試練の向こう",
 	},
 
 	serie: serie,
@@ -13,7 +13,7 @@ const set: Set = {
 		official: 49,
 	},
 	releaseDate: {
-		ja: "2017-04-21",
+		'ja-jp': "2017-04-21",
 	},
 };
 

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zangoose ex",
-		fr: "Mangriff-ex",
-		es: "Zangoose ex",
+		'en-us': "Zangoose ex",
+		'fr-fr': "Mangriff-ex",
+		'es-es': "Zangoose ex",
 		'es-mx': "Zangoose ex",
-		de: "Sengo-ex",
-		it: "Zangoose-ex",
-		pt: "Zangoose ex"
+		'de-de': "Sengo-ex",
+		'it-it': "Zangoose-ex",
+		'pt-br': "Zangoose ex"
 	},
 
 	suffix: "ex",
@@ -27,23 +27,23 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Spike Draw",
-			fr: "Pique-Pioche",
-			es: "Robo Pico",
+			'en-us': "Spike Draw",
+			'fr-fr': "Pique-Pioche",
+			'es-es': "Robo Pico",
 			'es-mx': "Robo Punzante",
-			de: "Stachelzug",
-			it: "Battipesca",
-			pt: "Comprada Espinhosa"
+			'de-de': "Stachelzug",
+			'it-it': "Battipesca",
+			'pt-br': "Comprada Espinhosa"
 		},
 
 		effect: {
-			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
-			es: "Roba 2 cartas.",
+			'en-us': "Draw 2 cards.",
+			'fr-fr': "Piochez 2 cartes.",
+			'es-es': "Roba 2 cartas.",
 			'es-mx': "Roba 2 cartas.",
-			de: "Ziehe 2 Karten.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas."
+			'de-de': "Ziehe 2 Karten.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas."
 		},
 
 		damage: 20
@@ -51,23 +51,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Wild Scissors",
-			fr: "Ciseaux Sauvages",
-			es: "Tijeras Salvajes",
+			'en-us': "Wild Scissors",
+			'fr-fr': "Ciseaux Sauvages",
+			'es-es': "Tijeras Salvajes",
 			'es-mx': "Tijeras Salvajes",
-			de: "Wilde Scheren",
-			it: "Forbici Feroci",
-			pt: "Tesouras Selvagens"
+			'de-de': "Wilde Scheren",
+			'it-it': "Forbici Feroci",
+			'pt-br': "Tesouras Selvagens"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 			'es-mx': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo."
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo."
 		},
 
 		damage: 180

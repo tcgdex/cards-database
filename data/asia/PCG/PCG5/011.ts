@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "種子",
+		'ja-jp': "種子",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ドローアップ電源",
+				'ja-jp': "ドローアップ電源",
 			},
 			effect: {
-				ja: "デッキを検索してエネルギーカードを検索し、相手に見せて、手に入れてください。その後、デッキをシャッフルします。",
+				'ja-jp': "デッキを検索してエネルギーカードを検索し、相手に見せて、手に入れてください。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "連続的なタンブル",
+				'ja-jp': "連続的なタンブル",
 			},
 			effect: {
-				ja: "尾がなくなるまでコインをひっくり返します。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "尾がなくなるまでコインをひっくり返します。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dialga ex"
+		'en-us': "Dialga ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -20,18 +20,18 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Metallic Turbo"
+			'en-us': "Metallic Turbo"
 		},
 
 		damage: 30,
 		cost: ["Metal", "Metal"],
 
 		effect: {
-			en: "Take 2 {M} Energy from your Energy Zone and attach it to 1 of your Benched Pokémon."
+			'en-us': "Take 2 {M} Energy from your Energy Zone and attach it to 1 of your Benched Pokémon."
 		}
 	}, {
 		name: {
-			en: "Heavy Impact"
+			'en-us': "Heavy Impact"
 		},
 
 		damage: 100,

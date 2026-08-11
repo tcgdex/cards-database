@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Golbat",
-		fr: "Nosferalto",
-		de: "Golbat"
+		'en-us': "Golbat",
+		'fr-fr': "Nosferalto",
+		'de-de': "Golbat"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Zubat",
-		fr: "Nosferapti"
+		'en-us': "Zubat",
+		'fr-fr': "Nosferapti"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Super Poison Breath",
-				fr: "Super haleine empoisonnée",
-				de: "Super Poison Breath"
+				'en-us': "Super Poison Breath",
+				'fr-fr': "Super haleine empoisonnée",
+				'de-de': "Super Poison Breath"
 			},
 			effect: {
-				en: "Each Defending Pokémon is now Poisoned.",
-				fr: "Chaque Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Each Defending Pokémon is now Poisoned."
+				'en-us': "Each Defending Pokémon is now Poisoned.",
+				'fr-fr': "Chaque Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Each Defending Pokémon is now Poisoned."
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sonic Signal",
-				fr: "Signal ultrason",
-				de: "Sonic Signal"
+				'en-us': "Sonic Signal",
+				'fr-fr': "Signal ultrason",
+				'de-de': "Sonic Signal"
 			},
 			effect: {
-				en: "Choose 2 of your opponent's Pokémon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 2 des Pokémon de votre adversaire. Cette attaque leur inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Choose 2 of your opponent's Pokémon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Choose 2 of your opponent's Pokémon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 2 des Pokémon de votre adversaire. Cette attaque leur inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Choose 2 of your opponent's Pokémon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},

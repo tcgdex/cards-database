@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Ponyta",
-		fr: "Ponyta",
-		de: "Ponita"
+		'en-us': "Ponyta",
+		'fr-fr': "Ponyta",
+		'de-de': "Ponita"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		fr: "Ponyta",
+		'fr-fr': "Ponyta",
 	},
 
 	stage: "Basic",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Kick",
-				fr: "Coud'pattes",
-				de: "Schmetterkick"
+				'en-us': "Smash Kick",
+				'fr-fr': "Coud'pattes",
+				'de-de': "Schmetterkick"
 			},
 
 			damage: 10,
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Agility",
-				fr: "Hâte",
-				de: "Agilität"
+				'en-us': "Agility",
+				'fr-fr': "Hâte",
+				'de-de': "Agilität"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Ponyta during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Ponyta lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Ponita zugefügt würden."
+				'en-us': "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Ponyta during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Ponyta lors du prochain tour de votre adversaire.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Ponita zugefügt würden."
 			},
 			damage: 20,
 
@@ -73,8 +73,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "About an hour after birth, its fiery mane and tail grow out, giving it an impressive appearance.",
-		fr: "La crinière et la queue ardentes lui donnant sa superbe poussent une heure après sa naissance."
+		'en-us': "About an hour after birth, its fiery mane and tail grow out, giving it an impressive appearance.",
+		'fr-fr': "La crinière et la queue ardentes lui donnant sa superbe poussent une heure après sa naissance."
 	},
 
 	thirdParty: {

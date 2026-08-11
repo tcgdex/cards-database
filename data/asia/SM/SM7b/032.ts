@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メレシー",
+		'ja-jp': "メレシー",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "さほど 珍しいわけではないが キラキラと 輝く 宝石の 身体が 女性に 人気だ。",
+		'ja-jp': "さほど 珍しいわけではないが キラキラと 輝く 宝石の 身体が 女性に 人気だ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンは特性を持つポケモンからワザのダメージや効果を受けない。",
+				'ja-jp': "次の相手の番、このポケモンは特性を持つポケモンからワザのダメージや効果を受けない。",
 			},
 		},
 		{

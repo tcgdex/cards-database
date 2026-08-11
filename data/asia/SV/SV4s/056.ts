@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Woobat"
+		'id-id': "Woobat"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Sambil mengeluarkan gelombang ultrasonik, Woobat terbang berputar-putar ke sekelilingnya sambil mencari Pokémon serangga yang merupakan makanannya."
+		'id-id': "Sambil mengeluarkan gelombang ultrasonik, Woobat terbang berputar-putar ke sekelilingnya sambil mencari Pokémon serangga yang merupakan makanannya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menyerang"
+			'id-id': "Menyerang"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 10."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10."
 		},
 
 		damage: 30,

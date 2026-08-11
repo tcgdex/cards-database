@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVK"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ポッポ"
+		'ja-jp': "ポッポ"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "戦いを 好まない おとなしい 性格だが 下手に 手を 出すと 強烈に 反撃されるぞ。"
+		'ja-jp': "戦いを 好まない おとなしい 性格だが 下手に 手を 出すと 強烈に 反撃されるぞ。"
 	},
 
 	stage: "Basic",
@@ -24,17 +24,17 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "なかまをよぶ"
+			'ja-jp': "なかまをよぶ"
 		},
 
 		effect: {
-			ja: "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。"
+			'ja-jp': "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "たいあたり"
+			'ja-jp': "たいあたり"
 		},
 
 		damage: 20

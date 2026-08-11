@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "poliwag",
+		'ja-jp': "poliwag",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "催眠",
+				'ja-jp': "催眠",
 			},
 			effect: {
-				ja: "防御ポケモンは今眠っています。",
+				'ja-jp': "防御ポケモンは今眠っています。",
 			},
 		},
 		{
 			cost: ["Water"],
 			name: {
-				ja: "波のスプラッシュ",
+				'ja-jp': "波のスプラッシュ",
 			},
 			damage: 10,
 		},

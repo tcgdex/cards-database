@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mareanie",
-		fr: "Vorastérie",
-		es: "Mareanie",
-		it: "Mareanie",
-		pt: "Mareanie",
-		de: "Garstella"
+		'en-us': "Mareanie",
+		'fr-fr': "Vorastérie",
+		'es-es': "Mareanie",
+		'it-it': "Mareanie",
+		'pt-br': "Mareanie",
+		'de-de': "Garstella"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Poison Sting",
-			fr: "Dard-Venin",
-			es: "Picotazo Veneno",
-			it: "Velenospina",
-			pt: "Ferrão Venenoso",
-			de: "Giftstachel"
+			'en-us': "Poison Sting",
+			'fr-fr': "Dard-Venin",
+			'es-es': "Picotazo Veneno",
+			'it-it': "Velenospina",
+			'pt-br': "Ferrão Venenoso",
+			'de-de': "Giftstachel"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		}
 	}],
 
@@ -54,7 +54,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The first symptom of its sting is numbness. The next is an itching sensation so intense that it's impossible to resist the urge to claw at your skin.",
+		'en-us': "The first symptom of its sting is numbness. The next is an itching sensation so intense that it's impossible to resist the urge to claw at your skin.",
 	},
 
 	variants: [

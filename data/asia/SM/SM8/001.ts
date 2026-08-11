@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ストライク",
+		'ja-jp': "ストライク",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "若いうちは 山奥で 群れて 暮らし 鎌での 戦いかたや 高速移動を 修行する。",
+		'ja-jp': "若いうちは 山奥で 群れて 暮らし 鎌での 戦いかたや 高速移動を 修行する。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを3回投げる。オモテが1回なら、20ダメージ追加。オモテが2回なら、50ダメージ追加。すべてオモテなら、70ダメージ追加。",
+				'ja-jp': "コインを3回投げる。オモテが1回なら、20ダメージ追加。オモテが2回なら、50ダメージ追加。すべてオモテなら、70ダメージ追加。",
 			},
 		},
 	],

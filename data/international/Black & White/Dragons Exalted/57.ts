@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Gothitelle",
-		fr: "Sidérella",
-		es: "Gothitelle",
-		it: "Gothitelle",
-		pt: "Gothitelle",
-		de: "Morbitesse"
+		'en-us': "Gothitelle",
+		'fr-fr': "Sidérella",
+		'es-es': "Gothitelle",
+		'it-it': "Gothitelle",
+		'pt-br': "Gothitelle",
+		'de-de': "Morbitesse"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gothorita",
-		fr: "Mesmérella",
+		'en-us': "Gothorita",
+		'fr-fr': "Mesmérella",
 	},
 
 	stage: "Stage2",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Doom Decree",
-				fr: "Verdict Fatal",
+				'en-us': "Doom Decree",
+				'fr-fr': "Verdict Fatal",
 			},
 			effect: {
-				en: "Flip 2 coins. If both of them are heads, the Defending Pokémon is Knocked Out.",
-				fr: "Lancez 2 pièces. Si vous obtenez 2 côtés face, le Pokémon Défenseur est mis K.O.",
+				'en-us': "Flip 2 coins. If both of them are heads, the Defending Pokémon is Knocked Out.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez 2 côtés face, le Pokémon Défenseur est mis K.O.",
 			},
 
 		},
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Black Magic",
-				fr: "Magie Noire",
+				'en-us': "Black Magic",
+				'fr-fr': "Magie Noire",
 			},
 			effect: {
-				en: "Does 20 more damage for each of your opponent's Benched Pokémon.",
-				fr: "Inflige 20 dégâts supplémentaires pour chaque Pokémon de Banc de votre adversaire.",
+				'en-us': "Does 20 more damage for each of your opponent's Benched Pokémon.",
+				'fr-fr': "Inflige 20 dégâts supplémentaires pour chaque Pokémon de Banc de votre adversaire.",
 			},
 			damage: 40,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.",
+		'en-us': "Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.",
 	},
 
 	thirdParty: {

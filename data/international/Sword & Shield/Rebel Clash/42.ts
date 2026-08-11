@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [279],
 
 	name: {
-		en: "Pelipper",
-		fr: "Bekipan",
-		es: "Pelipper",
-		it: "Pelipper",
-		pt: "Pelipper",
-		de: "Pelipper"
+		'en-us': "Pelipper",
+		'fr-fr': "Bekipan",
+		'es-es': "Pelipper",
+		'it-it': "Pelipper",
+		'pt-br': "Pelipper",
+		'de-de': "Pelipper"
 	},
 
 	illustrator: "Eri Yamaki",
@@ -19,12 +19,12 @@ const card: Card = {
 	set: Set,
 
 	evolveFrom: {
-		en: "Wingull",
-		fr: "Goélise",
-		es: "Wingull",
-		it: "Wingull",
-		pt: "Wingull",
-		de: "Wingull"
+		'en-us': "Wingull",
+		'fr-fr': "Goélise",
+		'es-es': "Wingull",
+		'it-it': "Wingull",
+		'pt-br': "Wingull",
+		'de-de': "Wingull"
 	},
 
 	attacks: [
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-Ailes",
-				es: "Ataque Ala",
-				it: "Attacco d'Ala",
-				pt: "Ataque de Asa",
-				de: "Flügelschlag"
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-Ailes",
+				'es-es': "Ataque Ala",
+				'it-it': "Attacco d'Ala",
+				'pt-br': "Ataque de Asa",
+				'de-de': "Flügelschlag"
 			},
 
 			damage: 50,
@@ -52,20 +52,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Power Cyclone",
-				fr: "Cyclone d'Énergie",
-				es: "Ciclón Poderoso",
-				it: "Ciclone Potente",
-				pt: "Ciclone Poderoso",
-				de: "Kraftwirbel"
+				'en-us': "Power Cyclone",
+				'fr-fr': "Cyclone d'Énergie",
+				'es-es': "Ciclón Poderoso",
+				'it-it': "Ciclone Potente",
+				'pt-br': "Ciclone Poderoso",
+				'de-de': "Kraftwirbel"
 			},
 			effect: {
-				en: "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
-				fr: "Déplacez une Énergie de ce Pokémon vers l'un de vos Pokémon de Banc.",
-				es: "Mueve 1 Energía de este Pokémon a 1 de tus Pokémon en Banca.",
-				it: "Sposta un'Energia da questo Pokémon a uno di quelli nella tua panchina.",
-				pt: "Mova 1 Energia deste Pokémon para 1 dos seus Pokémon no Banco.",
-				de: "Verschiebe 1 Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
+				'en-us': "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
+				'fr-fr': "Déplacez une Énergie de ce Pokémon vers l'un de vos Pokémon de Banc.",
+				'es-es': "Mueve 1 Energía de este Pokémon a 1 de tus Pokémon en Banca.",
+				'it-it': "Sposta un'Energia da questo Pokémon a uno di quelli nella tua panchina.",
+				'pt-br': "Mova 1 Energia deste Pokémon para 1 dos seus Pokémon no Banco.",
+				'de-de': "Verschiebe 1 Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
 			},
 			damage: 110,
 
@@ -95,7 +95,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill."
+		'en-us': "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill."
 	},
 
 	variants: [

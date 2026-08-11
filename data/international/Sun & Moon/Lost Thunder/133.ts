@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Jigglypuff",
-		fr: "Rondoudou",
-		es: "Jigglypuff",
-		it: "Jigglypuff",
-		pt: "Jigglypuff",
-		de: "Pummeluff"
+		'en-us': "Jigglypuff",
+		'fr-fr': "Rondoudou",
+		'es-es': "Jigglypuff",
+		'it-it': "Jigglypuff",
+		'pt-br': "Jigglypuff",
+		'de-de': "Pummeluff"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras’Face",
-				es: "Destructor",
-				it: "Botta",
-				pt: "Pancada",
-				de: "Pfund"
+				'en-us': "Pound",
+				'fr-fr': "Écras’Face",
+				'es-es': "Destructor",
+				'it-it': "Botta",
+				'pt-br': "Pancada",
+				'de-de': "Pfund"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sing",
-				fr: "Berceuse",
-				es: "Canto",
-				it: "Canto",
-				pt: "Canção",
-				de: "Gesang"
+				'en-us': "Sing",
+				'fr-fr': "Berceuse",
+				'es-es': "Canto",
+				'it-it': "Canto",
+				'pt-br': "Canção",
+				'de-de': "Gesang"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent’s Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 
 		},
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Jigglypuff posses a vocal range that exceeds 12 octaves, but each individual's singing skill depends on its own effort.",
+		'en-us': "Jigglypuff posses a vocal range that exceeds 12 octaves, but each individual's singing skill depends on its own effort.",
 	},
 
 	thirdParty: {

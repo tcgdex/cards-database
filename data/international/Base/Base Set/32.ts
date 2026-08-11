@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Kadabra",
-		fr: "Kadabra",
-		de: "Kadabra",
-		it: "Kadabra"
+		'en-us': "Kadabra",
+		'fr-fr': "Kadabra",
+		'de-de': "Kadabra",
+		'it-it': "Kadabra"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -25,9 +25,9 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Abra",
-		fr: "Abra",
-		it: "Abra"
+		'en-us': "Abra",
+		'fr-fr': "Abra",
+		'it-it': "Abra"
 	},
 
 	stage: "Stage1",
@@ -39,16 +39,16 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Recover",
-				fr: "Soin",
-				de: "Erholung",
-				it: "Ripresa"
+				'en-us': "Recover",
+				'fr-fr': "Soin",
+				'de-de': "Erholung",
+				'it-it': "Ripresa"
 			},
 			effect: {
-				en: "Discard 1 Energy card attached to Kadabra in order use this attack. Remove all damage counters from Kadabra.",
-				fr: "Défaussez 1 carte Énergie  attachée à Kadabra pour pouvoir utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Kadabra.",
-				de: "Entferne eine auf kadabra abgelegte  Energiekarte, um diesen Angriff auszuführen. Entferne alle Schadensmarken von Kadabra.",
-				it: "Scarta una carta Energia Psico assegnata a Kadabra per poter usare questo attacco. Togli tutti i segnalini danno da Kadabra.",
+				'en-us': "Discard 1 Energy card attached to Kadabra in order use this attack. Remove all damage counters from Kadabra.",
+				'fr-fr': "Défaussez 1 carte Énergie  attachée à Kadabra pour pouvoir utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Kadabra.",
+				'de-de': "Entferne eine auf kadabra abgelegte  Energiekarte, um diesen Angriff auszuführen. Entferne alle Schadensmarken von Kadabra.",
+				'it-it': "Scarta una carta Energia Psico assegnata a Kadabra per poter usare questo attacco. Togli tutti i segnalini danno da Kadabra.",
 			},
 
 		},
@@ -59,10 +59,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Psy",
-				fr: "Super Psy",
-				de: "Super-Psychoschlag",
-				it: "Superpsico"
+				'en-us': "Super Psy",
+				'fr-fr': "Super Psy",
+				'de-de': "Super-Psychoschlag",
+				'it-it': "Superpsico"
 			},
 
 			damage: 50,
@@ -80,9 +80,9 @@ const card: Card = {
 
 
 	description: {
-		en: "It emits special alpha waves from its body that induce headaches even to those just nearby.",
-		fr: "Son corps émet des ondes alpha provoquant des migraines à ceux qui se trouvent à proximité.",
-		it: "Emette dal corpo speciali onde alfa che causano mal di testa a chiunque gli sia vicino. LIV 38 N.64"
+		'en-us': "It emits special alpha waves from its body that induce headaches even to those just nearby.",
+		'fr-fr': "Son corps émet des ondes alpha provoquant des migraines à ceux qui se trouvent à proximité.",
+		'it-it': "Emette dal corpo speciali onde alfa che causano mal di testa a chiunque gli sia vicino. LIV 38 N.64"
 	},
 
 	variants: [

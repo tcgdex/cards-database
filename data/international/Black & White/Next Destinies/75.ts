@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Bronzor",
-		fr: "Archéomire",
-		es: "Bronzor",
-		it: "Bronzor",
-		pt: "Bronzor",
-		de: "Bronzel"
+		'en-us': "Bronzor",
+		'fr-fr': "Archéomire",
+		'es-es': "Bronzor",
+		'it-it': "Bronzor",
+		'pt-br': "Bronzor",
+		'de-de': "Bronzel"
 	},
 
 	illustrator: "Naoki Saito",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Away",
-				fr: "Asticotage",
+				'en-us': "Knock Away",
+				'fr-fr': "Asticotage",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
 			},
 			damage: 10,
 
@@ -52,8 +52,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spinning Attack",
-				fr: "Attaque Tournante",
+				'en-us': "Spinning Attack",
+				'fr-fr': "Attaque Tournante",
 			},
 
 			damage: 40,
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "There are researchers who believe this Pokémon reflected like a mirror in the distant past.",
+		'en-us': "There are researchers who believe this Pokémon reflected like a mirror in the distant past.",
 	},
 
 	thirdParty: {

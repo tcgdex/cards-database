@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legend Maker'
 
 const card: Card = {
 	name: {
-		en: "Voltorb",
-		fr: "Voltorbe",
-		de: "Voltobal"
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe",
+		'de-de': "Voltobal"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Wave",
-				fr: "Cage-éclair",
-				de: "Donnerwelle"
+				'en-us': "Thunder Wave",
+				'fr-fr': "Cage-éclair",
+				'de-de': "Donnerwelle"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bouncing Ball",
-				fr: "Balle rebondissante",
-				de: "Hüpfender Ball"
+				'en-us': "Bouncing Ball",
+				'fr-fr': "Balle rebondissante",
+				'de-de': "Hüpfender Ball"
 			},
 			effect: {
-				en: "Voltorb does 10 damage to itself.",
-				fr: "Voltorbe s'inflige 10 dégâts.",
-				de: "Voltobal fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Voltorb does 10 damage to itself.",
+				'fr-fr': "Voltorbe s'inflige 10 dégâts.",
+				'de-de': "Voltobal fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

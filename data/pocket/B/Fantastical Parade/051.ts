@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [145],
 
 	name: {
-		en: "Zapdos"
+		'en-us': "Zapdos"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "Zapdos is a legendary bird Pokémon. It's said\nthat when Zapdos rubs its feathers together,\nlightning will fall immediately after."
+		'en-us': "Zapdos is a legendary bird Pokémon. It's said\nthat when Zapdos rubs its feathers together,\nlightning will fall immediately after."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Heavy Thunder"
+			'en-us': "Heavy Thunder"
 		},
 
 		cost: ["Lightning", "Lightning", "Lightning"],
 
 		effect: {
-			en: "1 other Pokémon (either yours or your opponent's) is chosen at random 1 time. Do 100 damage to the chosen Pokémon."
+			'en-us': "1 other Pokémon (either yours or your opponent's) is chosen at random 1 time. Do 100 damage to the chosen Pokémon."
 		}
 	}],
 

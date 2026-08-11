@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ベラカス"
+		'ja-jp': "ベラカス"
 	},
 
 	illustrator: "nagimiso",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "玉を 支える 体は ほとんど 動かないため 本体は 玉の中にいると 考えられている。"
+		'ja-jp': "玉を 支える 体は ほとんど 動かないため 本体は 玉の中にいると 考えられている。"
 	},
 
 	stage: "Stage1",
@@ -24,23 +24,23 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "さいきのいのり"
+			'ja-jp': "さいきのいのり"
 		},
 
 		effect: {
-			ja: "自分のトラッシュからポケモンを1枚選び、ベンチに出す。"
+			'ja-jp': "自分のトラッシュからポケモンを1枚選び、ベンチに出す。"
 		}
 	}, {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			ja: "サイケこうせん"
+			'ja-jp': "サイケこうせん"
 		},
 
 		damage: 50,
 
 		effect: {
-			ja: "相手のバトルポケモンをこんらんにする。"
+			'ja-jp': "相手のバトルポケモンをこんらんにする。"
 		}
 	}],
 

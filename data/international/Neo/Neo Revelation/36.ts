@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Piloswine",
-		fr: "Cochignon",
-		de: "Keifel"
+		'en-us': "Piloswine",
+		'fr-fr': "Cochignon",
+		'de-de': "Keifel"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Swinub",
-		fr: "Marcacrin"
+		'en-us': "Swinub",
+		'fr-fr': "Marcacrin"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nap",
-				fr: "Tit'sieste",
-				de: "Nap"
+				'en-us': "Nap",
+				'fr-fr': "Tit'sieste",
+				'de-de': "Nap"
 			},
 			effect: {
-				en: "Remove 3 damage counters from Piloswine. If it has fewer damage counters than that, remove all of them.",
-				fr: "Retirez 3 marqueurs de dégâts de Cochignon. S'il y a moins de marqueurs de dégâts sur lui, retirez-les tous.",
-				de: "Remove 3 damage counters from Piloswine. If it has fewer damage counters than that, remove all of them."
+				'en-us': "Remove 3 damage counters from Piloswine. If it has fewer damage counters than that, remove all of them.",
+				'fr-fr': "Retirez 3 marqueurs de dégâts de Cochignon. S'il y a moins de marqueurs de dégâts sur lui, retirez-les tous.",
+				'de-de': "Remove 3 damage counters from Piloswine. If it has fewer damage counters than that, remove all of them."
 			},
 
 		},
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "High-Speed Charge",
-				fr: "Charge bulldozer",
-				de: "High-Speed Charge"
+				'en-us': "High-Speed Charge",
+				'fr-fr': "Charge bulldozer",
+				'de-de': "High-Speed Charge"
 			},
 			effect: {
-				en: "Piloswine does 30 damage to itself. Piloswine can't use this attack during your next turn.",
-				fr: "Cochignon s'inflige 30 dégâts. Cochignon ne peut pas utiliser à nouveau cette attaque durant votre prochain tour.",
-				de: "Piloswine does 30 damage to itself. Piloswine can't use this attack during your next turn."
+				'en-us': "Piloswine does 30 damage to itself. Piloswine can't use this attack during your next turn.",
+				'fr-fr': "Cochignon s'inflige 30 dégâts. Cochignon ne peut pas utiliser à nouveau cette attaque durant votre prochain tour.",
+				'de-de': "Piloswine does 30 damage to itself. Piloswine can't use this attack during your next turn."
 			},
 			damage: 80,
 
@@ -87,8 +87,8 @@ const card: Card = {
 
 
 	description: {
-		en: "If it charges at an enemy, the hairs on its back stand up straight. It is very sensitive to sound.",
-		fr: "S'il charge un ennemi, les poils de son dos se dressent à la verticale. Il est très sensible aux sons."
+		'en-us': "If it charges at an enemy, the hairs on its back stand up straight. It is very sensitive to sound.",
+		'fr-fr': "S'il charge un ennemi, les poils de son dos se dressent à la verticale. Il est très sensible aux sons."
 	},
 
 

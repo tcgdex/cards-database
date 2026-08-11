@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Meditite",
-		fr: "Méditikka",
-		es: "Meditite",
-		it: "Meditite",
-		pt: "Meditite",
-		de: "Meditie"
+		'en-us': "Meditite",
+		'fr-fr': "Méditikka",
+		'es-es': "Meditite",
+		'it-it': "Meditite",
+		'pt-br': "Meditite",
+		'de-de': "Meditie"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Beat",
-			fr: "Bataille",
-			es: "Toque",
-			it: "Battuta",
-			pt: "Pulso",
-			de: "Verprügler"
+			'en-us': "Beat",
+			'fr-fr': "Bataille",
+			'es-es': "Toque",
+			'it-it': "Battuta",
+			'pt-br': "Pulso",
+			'de-de': "Verprügler"
 		},
 
 		damage: 10

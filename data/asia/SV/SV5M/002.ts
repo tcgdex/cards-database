@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クヌギダマ",
+		'ja-jp': "クヌギダマ",
 		'zh-tw': "榛果球",
-		th: "คุนุกิดามะ",
+		'th-th': "คุนุกิดามะ",
 	},
 
 	illustrator: "Midori Harada",
@@ -15,9 +15,9 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "口から 吐き出す 液体は 木の皮を つける 接着剤。 空気に 触れると 固まるのだ。",
+		'ja-jp': "口から 吐き出す 液体は 木の皮を つける 接着剤。 空気に 触れると 固まるのだ。",
 		'zh-tw': "口中吐出的液體是牠用來貼上樹皮的膠水， 一接觸到空氣就會凝固。",
-		th: "ของเหลวที่พ่นออกมาจากปากคือกาวที่เอาไว้ติดเปลือกไม้ พอโดนอากาศก็จะแข็งตัว",
+		'th-th': "ของเหลวที่พ่นออกมาจากปากคือกาวที่เอาไว้ติดเปลือกไม้ พอโดนอากาศก็จะแข็งตัว",
 	},
 
 	stage: "Basic",
@@ -25,9 +25,9 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶつかる",
+				'ja-jp': "ぶつかる",
 				'zh-tw': "衝撞",
-				th: "กระแทก",
+				'th-th': "กระแทก",
 			},
 			damage: 50,
 			cost: ["Colorless", "Colorless", "Colorless"],

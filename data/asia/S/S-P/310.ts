@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポニータ",
+		'ja-jp': "ポニータ",
 	},
 
 	illustrator: "Eri Yamaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "生まれたばかりは 走るのが へた。 仲間と かけっこを するうちに 足腰が 強く 育っていく。",
+		'ja-jp': "生まれたばかりは 走るのが へた。 仲間と かけっこを するうちに 足腰が 強く 育っていく。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンにも10ダメージ。",
+				'ja-jp': "このポケモンにも10ダメージ。",
 			},
 		},
 	],

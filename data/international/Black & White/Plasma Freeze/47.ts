@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Mr. Mime",
-		fr: "M. Mime",
-		es: "Mr. Mime",
-		it: "Mr. Mime",
-		pt: "Mr. Mime",
-		de: "Pantimos"
+		'en-us': "Mr. Mime",
+		'fr-fr': "M. Mime",
+		'es-es': "Mr. Mime",
+		'it-it': "Mr. Mime",
+		'pt-br': "Mr. Mime",
+		'de-de': "Pantimos"
 	},
 
 	illustrator: "Hiroki Asanuma",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Bench Barrier",
-				fr: "Barrière de Banc",
-				es: "Barrera de Banca",
-				it: "Panchinafranca",
-				pt: "Barreira de Banco",
-				de: "Bankbarriere"
+				'en-us': "Bench Barrier",
+				'fr-fr': "Barrière de Banc",
+				'es-es': "Barrera de Banca",
+				'it-it': "Panchinafranca",
+				'pt-br': "Barreira de Banco",
+				'de-de': "Bankbarriere"
 			},
 			effect: {
-				en: "Prevent all damage done to your Benched Pokémon by attacks.",
-				fr: "Évitez tous les dégâts infligés à vos Pokémon de Banc par des attaques.",
-				es: "Evita todo el daño infligido a tus Pokémon en Banca por ataques.",
-				it: "Previeni tutto il danno inflitto dagli attacchi ai tuoi Pokémon in panchina.",
-				pt: "Impede todos os danos causados por ataques a seus Pokémon no Banco.",
-				de: "Verhindere allen Schaden, der Pokémon auf deiner Bank durch Angriffe zugefügt wird."
+				'en-us': "Prevent all damage done to your Benched Pokémon by attacks.",
+				'fr-fr': "Évitez tous les dégâts infligés à vos Pokémon de Banc par des attaques.",
+				'es-es': "Evita todo el daño infligido a tus Pokémon en Banca por ataques.",
+				'it-it': "Previeni tutto il danno inflitto dagli attacchi ai tuoi Pokémon in panchina.",
+				'pt-br': "Impede todos os danos causados por ataques a seus Pokémon no Banco.",
+				'de-de': "Verhindere allen Schaden, der Pokémon auf deiner Bank durch Angriffe zugefügt wird."
 			},
 		},
 	],
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psy Bolt",
-				fr: "Choc Mental",
+				'en-us': "Psy Bolt",
+				'fr-fr': "Choc Mental",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 20,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It shapes an invisible wall in midair by minutely vibrating its fingertips to stop molecules in the air.",
+		'en-us': "It shapes an invisible wall in midair by minutely vibrating its fingertips to stop molecules in the air.",
 	},
 
 	thirdParty: {

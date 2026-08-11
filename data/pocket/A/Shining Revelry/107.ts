@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Shining Revelry"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Beedrill ex",
-		fr: "Dardargnan-ex",
-		es: "Beedrill ex",
-		it: "Beedrill-ex",
-		de: "Bibor-ex",
+		'en-us': "Beedrill ex",
+		'fr-fr': "Dardargnan-ex",
+		'es-es': "Beedrill ex",
+		'it-it': "Beedrill-ex",
+		'de-de': "Bibor-ex",
 		'pt-br': "Beedrill ex",
-		ko: "독침붕 ex"
+		'ko-kr': "독침붕 ex"
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -22,7 +22,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Kakuna"
+		'en-us': "Kakuna"
 	},
 
 	stage: "Stage2",
@@ -30,26 +30,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Crushing Spear",
-			fr: "Lance Destructrice",
-			es: "Lanza Devastadora",
-			it: "Lancia Devastante",
-			de: "Vernichtender Speer",
+			'en-us': "Crushing Spear",
+			'fr-fr': "Lance Destructrice",
+			'es-es': "Lanza Devastadora",
+			'it-it': "Lancia Devastante",
+			'de-de': "Vernichtender Speer",
 			'pt-br': "Lança Aniquiladora",
-			ko: "크래시스피어"
+			'ko-kr': "크래시스피어"
 		},
 
 		damage: 80,
 		cost: ["Grass", "Grass"],
 
 		effect: {
-			en: "Discard a random Energy from your opponent's Active Pokémon.",
-			fr: "Défaussez au hasard une Énergie du Pokémon Actif de votre adversaire.",
-			es: "Descarta 1 Energía aleatoria del Pokémon Activo de tu rival.",
-			it: "Rimuovi un'Energia a caso dal Pokémon attivo del tuo avversario.",
-			de: "Lege 1 zufällige Energie vom Aktiven Pokémon deines Gegners ab.",
+			'en-us': "Discard a random Energy from your opponent's Active Pokémon.",
+			'fr-fr': "Défaussez au hasard une Énergie du Pokémon Actif de votre adversaire.",
+			'es-es': "Descarta 1 Energía aleatoria del Pokémon Activo de tu rival.",
+			'it-it': "Rimuovi un'Energia a caso dal Pokémon attivo del tuo avversario.",
+			'de-de': "Lege 1 zufällige Energie vom Aktiven Pokémon deines Gegners ab.",
 			'pt-br': "Descarte 1 Energia aleatória do Pokémon Ativo do seu oponente.",
-			ko: "상대의 배틀 포켓몬에서 에너지를 랜덤으로 1개 트래쉬한다."
+			'ko-kr': "상대의 배틀 포켓몬에서 에너지를 랜덤으로 1개 트래쉬한다."
 		}
 	}],
 

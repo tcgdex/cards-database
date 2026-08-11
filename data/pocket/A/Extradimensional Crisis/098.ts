@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Aerodactyl",
-		fr: "Ptéra"
+		'en-us': "Aerodactyl",
+		'fr-fr': "Ptéra"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -17,27 +17,27 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Old Amber"
+		'en-us': "Old Amber"
 	},
 
 	description: {
-		en: "This is a ferocious Pokémon from ancient times.\nApparently even modern technology is incapable\nof producing a perfectly restored specimen.",
-		fr: "On raconte qu'aujourd'hui encore, il est impossible de restaurer à la perfection ce Pokémon féroce de l'ère préhistorique."
+		'en-us': "This is a ferocious Pokémon from ancient times.\nApparently even modern technology is incapable\nof producing a perfectly restored specimen.",
+		'fr-fr': "On raconte qu'aujourd'hui encore, il est impossible de restaurer à la perfection ce Pokémon féroce de l'ère préhistorique."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Primal Wingbeat",
-			fr: "Aile Primitive"
+			'en-us': "Primal Wingbeat",
+			'fr-fr': "Aile Primitive"
 		},
 
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent shuffles their Active Pokémon into their deck.",
-			fr: "Lancez une pièce. Si c'est face, votre adversaire mélange son Pokémon Actif avec son deck."
+			'en-us': "Flip a coin. If heads, your opponent shuffles their Active Pokémon into their deck.",
+			'fr-fr': "Lancez une pièce. Si c'est face, votre adversaire mélange son Pokémon Actif avec son deck."
 		}
 	}],
 

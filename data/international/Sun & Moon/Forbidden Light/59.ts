@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Infernape",
-		fr: "Simiabraz",
-		es: "Infernape",
-		it: "Infernape",
-		pt: "Infernape",
-		de: "Panferno"
+		'en-us': "Infernape",
+		'fr-fr': "Simiabraz",
+		'es-es': "Infernape",
+		'it-it': "Infernape",
+		'pt-br': "Infernape",
+		'de-de': "Panferno"
 	},
 
 	illustrator: "nagimiso",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Monferno",
-		fr: "Chimpenfeu",
+		'en-us': "Monferno",
+		'fr-fr': "Chimpenfeu",
 	},
 
 	stage: "Stage2",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Flaming Fighter",
-				fr: "Combattant Incandescent",
-				es: "Luchador Fogoso",
-				it: "Lottatore Fiammeggiante",
-				pt: "Lutador Flamejante",
-				de: "Flammenkämpfer"
+				'en-us': "Flaming Fighter",
+				'fr-fr': "Combattant Incandescent",
+				'es-es': "Luchador Fogoso",
+				'it-it': "Lottatore Fiammeggiante",
+				'pt-br': "Lutador Flamejante",
+				'de-de': "Flammenkämpfer"
 			},
 			effect: {
-				en: "Put 6 damage counters instead of 2 on your opponent’s Burned Pokémon between turns.",
-				fr: "Placez 6 marqueurs de dégâts au lieu de 2 sur le Pokémon Brûlé de votre adversaire entre chaque tour.",
-				es: "Pon 6 contadores de daño en vez de 2 en el Pokémon Quemado de tu rival entre turnos.",
-				it: "Tra un turno e l’altro, metti sei segnalini danno invece di due sul Pokémon bruciato del tuo avversario.",
-				pt: "Coloque 6 contadores de dano ao invés de 2 no Pokémon Queimado do seu oponente entre as vezes de jogar.",
-				de: "Lege zwischen den Zügen 6 Schadensmarken anstelle von 2 Schadensmarken auf das verbrannte Pokémon deines Gegners."
+				'en-us': "Put 6 damage counters instead of 2 on your opponent’s Burned Pokémon between turns.",
+				'fr-fr': "Placez 6 marqueurs de dégâts au lieu de 2 sur le Pokémon Brûlé de votre adversaire entre chaque tour.",
+				'es-es': "Pon 6 contadores de daño en vez de 2 en el Pokémon Quemado de tu rival entre turnos.",
+				'it-it': "Tra un turno e l’altro, metti sei segnalini danno invece di due sul Pokémon bruciato del tuo avversario.",
+				'pt-br': "Coloque 6 contadores de dano ao invés de 2 no Pokémon Queimado do seu oponente entre as vezes de jogar.",
+				'de-de': "Lege zwischen den Zügen 6 Schadensmarken anstelle von 2 Schadensmarken auf das verbrannte Pokémon deines Gegners."
 			},
 		},
 	],
@@ -62,20 +62,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Burst Punch",
-				fr: "Poing d’Enfer",
-				es: "Puño Explosivo",
-				it: "Fiammatapugno",
-				pt: "Soco Rajada",
-				de: "Explosionshieb"
+				'en-us': "Burst Punch",
+				'fr-fr': "Poing d’Enfer",
+				'es-es': "Puño Explosivo",
+				'it-it': "Fiammatapugno",
+				'pt-br': "Soco Rajada",
+				'de-de': "Explosionshieb"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+				'en-us': "Your opponent’s Active Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 			},
 			damage: 50,
 
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It tosses its enemies around with agility. It uses all its limbs to fight in its own unique style.",
+		'en-us': "It tosses its enemies around with agility. It uses all its limbs to fight in its own unique style.",
 	},
 
 	thirdParty: {

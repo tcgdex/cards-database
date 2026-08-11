@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2024'
 
 const card: Card = {
 	name: {
-		en: "Jigglypuff",
-		fr: "Rondoudou",
-		es: "Jigglypuff",
-		it: "Jigglypuff",
-		pt: "Jigglypuff",
-		de: "Pummeluff"
+		'en-us': "Jigglypuff",
+		'fr-fr': "Rondoudou",
+		'es-es': "Jigglypuff",
+		'it-it': "Jigglypuff",
+		'pt-br': "Jigglypuff",
+		'de-de': "Pummeluff"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -28,17 +28,17 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				en: "Pound",
+				'en-us': "Pound",
 			},
 			damage: 20
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				en: "Let's All Rollout",
+				'en-us': "Let's All Rollout",
 			},
 			effect: {
-				en: "This attack does 20 more damage for each of your Benched Pokémon that has the Let's Rollout Attack.",
+				'en-us': "This attack does 20 more damage for each of your Benched Pokémon that has the Let's Rollout Attack.",
 			},
 			damage: "20x",
 		},

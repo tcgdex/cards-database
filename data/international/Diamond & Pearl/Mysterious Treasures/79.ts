@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Cyndaquil",
-		fr: "Héricendre",
-		de: "Feurigel"
+		'en-us': "Cyndaquil",
+		'fr-fr': "Héricendre",
+		'de-de': "Feurigel"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,9 +29,9 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -43,9 +43,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Live Coal",
-				fr: "Charbon mutant",
-				de: "Glühende Kohlen"
+				'en-us': "Live Coal",
+				'fr-fr': "Charbon mutant",
+				'de-de': "Glühende Kohlen"
 			},
 
 			damage: 20,
@@ -63,8 +63,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It has a timid nature. If it is startled, the flames on its back burn more vigorously.",
-		fr: "Ce Pokémon est un grand timide. Les flammes sur son dos s'intensifient lorsqu'il prend peur."
+		'en-us': "It has a timid nature. If it is startled, the flames on its back burn more vigorously.",
+		'fr-fr': "Ce Pokémon est un grand timide. Les flammes sur son dos s'intensifient lorsqu'il prend peur."
 	},
 
 	thirdParty: {

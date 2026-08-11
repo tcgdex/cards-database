@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Zubat",
-		fr: "Nosferapti",
-		de: "Zubat"
+		'en-us': "Zubat",
+		'fr-fr': "Nosferapti",
+		'de-de': "Zubat"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Bite"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Bite"
 			},
 
 			damage: 10,
@@ -44,14 +44,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Spray",
-				fr: "Jet-venin",
-				de: "Poison Spray"
+				'en-us': "Poison Spray",
+				'fr-fr': "Jet-venin",
+				'de-de': "Poison Spray"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "The Defending Pokémon is now Poisoned."
 			}
 
 		},
@@ -72,8 +72,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "While flying, it constantly emits ultrasonic waves from its mouth to check its surroundings.",
-		fr: "Quand il vole, il émet des ondes ultrasoniques pour déterminer ce qui l'entoure."
+		'en-us': "While flying, it constantly emits ultrasonic waves from its mouth to check its surroundings.",
+		'fr-fr': "Quand il vole, il émet des ondes ultrasoniques pour déterminer ce qui l'entoure."
 	},
 
 

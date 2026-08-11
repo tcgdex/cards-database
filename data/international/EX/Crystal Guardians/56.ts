@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Meditite",
-		fr: "Meditikka",
-		de: "Meditie"
+		'en-us': "Meditite",
+		'fr-fr': "Meditikka",
+		'de-de': "Meditie"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Kick",
-				fr: "Koud'pied",
-				de: "Tritt"
+				'en-us': "Kick",
+				'fr-fr': "Koud'pied",
+				'de-de': "Tritt"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pure Power",
-				fr: "Pouvoir pur",
-				de: "Mentalkraft"
+				'en-us': "Pure Power",
+				'fr-fr': "Pouvoir pur",
+				'de-de': "Mentalkraft"
 			},
 			effect: {
-				en: "Put 2 damage counters on your opponent's Pokémon in any way you like.",
-				fr: "Placez 2 marqueurs de dégât sur les Pokémon de votre adversaire de la façon que vous voulez.",
-				de: "Lege 2 Schadensmarken in beliebiger Verteilung auf die gegnerischen Pokémon."
+				'en-us': "Put 2 damage counters on your opponent's Pokémon in any way you like.",
+				'fr-fr': "Placez 2 marqueurs de dégât sur les Pokémon de votre adversaire de la façon que vous voulez.",
+				'de-de': "Lege 2 Schadensmarken in beliebiger Verteilung auf die gegnerischen Pokémon."
 			},
 
 		},

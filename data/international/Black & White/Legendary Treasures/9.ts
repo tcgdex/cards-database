@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Sewaddle",
+		'en-us': "Sewaddle",
 	},
 
 	illustrator: "Yuka Morii",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leaf Boomerang",
+				'en-us': "Leaf Boomerang",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
 			},
 			damage: 20,
 
@@ -50,7 +50,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Leavanny dress it in clothes they made for it when it hatched. It hides its head in its hood while it is sleeping.",
+		'en-us': "Leavanny dress it in clothes they made for it when it hatched. It hides its head in its hood while it is sleeping.",
 	},
 
 	thirdParty: {

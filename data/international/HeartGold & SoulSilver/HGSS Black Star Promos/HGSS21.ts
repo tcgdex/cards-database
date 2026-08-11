@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HGSS Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Suicune",
-		fr: "Suicune"
+		'en-us': "Suicune",
+		'fr-fr': "Suicune"
 	},
 	illustrator: "Hideaki Hakozaki",
 	rarity: "Promo",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sheer Cold",
-				fr: "Glaciation"
+				'en-us': "Sheer Cold",
+				'fr-fr': "Glaciation"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer lors du prochain tour de votre adversaire."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer lors du prochain tour de votre adversaire."
 			},
 			damage: 50,
 
@@ -49,7 +49,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Said to be the embodiment of north winds, it can instantly purify filthy, murky water."
+		'en-us': "Said to be the embodiment of north winds, it can instantly purify filthy, murky water."
 	},
 
 	variants: [

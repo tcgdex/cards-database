@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Turtwig",
-		fr: "Tortipouss",
-		es: "Turtwig",
-		it: "Turtwig",
-		pt: "Turtwig",
-		de: "Chelast"
+		'en-us': "Turtwig",
+		'fr-fr': "Tortipouss",
+		'es-es': "Turtwig",
+		'it-it': "Turtwig",
+		'pt-br': "Turtwig",
+		'de-de': "Chelast"
 	},
 
 	illustrator: "OOYAMA",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch’Herbe",
-				es: "Hoja Afilada",
-				it: "Foglielama",
-				pt: "Folha Navalha",
-				de: "Rasierblatt"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch’Herbe",
+				'es-es': "Hoja Afilada",
+				'it-it': "Foglielama",
+				'pt-br': "Folha Navalha",
+				'de-de': "Rasierblatt"
 			},
 
 			damage: 50,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty.",
+		'en-us': "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty.",
 	},
 
 	thirdParty: {

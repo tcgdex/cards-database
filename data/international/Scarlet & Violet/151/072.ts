@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Tentacool",
-		en: "Tentacool",
-		es: "Tentacool",
-		it: "Tentacool",
-		pt: "Tentacool",
-		de: "Tentacha"
+		'fr-fr': "Tentacool",
+		'en-us': "Tentacool",
+		'es-es': "Tentacool",
+		'it-it': "Tentacool",
+		'pt-br': "Tentacool",
+		'de-de': "Tentacha"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			fr: "Picotement",
-			en: "Tingle",
-			es: "Hormigueo",
-			it: "Formicolio",
-			pt: "Formigamento",
-			de: "Kribbeln"
+			'fr-fr': "Picotement",
+			'en-us': "Tingle",
+			'es-es': "Hormigueo",
+			'it-it': "Formicolio",
+			'pt-br': "Formigamento",
+			'de-de': "Kribbeln"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Arrosage",
-			en: "Watering",
-			es: "Riego",
-			it: "Innaffiare",
-			pt: "Irrigação",
-			de: "Gießen"
+			'fr-fr': "Arrosage",
+			'en-us': "Watering",
+			'es-es': "Riego",
+			'it-it': "Innaffiare",
+			'pt-br': "Irrigação",
+			'de-de': "Gießen"
 		},
 
 		damage: 20
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "This Pokémon is mostly made of water. A Tentacool out in the ocean is very hard to spot, because its body blends in with the sea.",
+		'en-us': "This Pokémon is mostly made of water. A Tentacool out in the ocean is very hard to spot, because its body blends in with the sea.",
 	},
 
 	variants: [

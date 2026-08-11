@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "衝浪手",
 		'zh-cn': "衝浪手",
-		ja: "サーファー"
+		'ja-jp': "サーファー"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		'zh-tw': "將自己的戰鬥寶可夢與備戰寶可夢互換。然後，從牌庫抽卡直到自己的手牌滿5張為止。",
 		'zh-cn': "將自己的戰鬥寶可夢與備戰寶可夢互換。然後，從牌庫抽卡直到自己的手牌滿5張為止。",
-		ja: "自分のバトルポケモンをベンチポケモンと入れ替える。その後、自分の手札が5枚になるように、山札を引く。"
+		'ja-jp': "自分のバトルポケモンをベンチポケモンと入れ替える。その後、自分の手札が5枚になるように、山札を引く。"
 	},
 
 	variants: [

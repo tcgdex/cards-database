@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Electabuzz"
+		'en-us': "Lt. Surge's Electabuzz"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Elekid"
+		'en-us': "Elekid"
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Charge"
+				'en-us': "Charge"
 			},
 			effect: {
-				en: "Take up to 2 Lightning Energy cards from your discard pile and attach them to Lt. Surge's Electabuzz."
+				'en-us': "Take up to 2 Lightning Energy cards from your discard pile and attach them to Lt. Surge's Electabuzz."
 			},
 
 		},
@@ -44,10 +44,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Electric Current"
+				'en-us': "Electric Current"
 			},
 			effect: {
-				en: "Take 1 Lightning Energy card attached to Lt. Surge's Electabuzz and attach it to 1 of your Benched Pokémon. If you have no Benched Pokémon, discard that Energy card."
+				'en-us': "Take 1 Lightning Energy card attached to Lt. Surge's Electabuzz and attach it to 1 of your Benched Pokémon. If you have no Benched Pokémon, discard that Energy card."
 			},
 			damage: 20,
 

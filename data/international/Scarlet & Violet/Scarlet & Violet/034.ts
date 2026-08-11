@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Houndoom",
-		fr: "Démolosse",
-		es: "Houndoom",
-		it: "Houndoom",
-		pt: "Houndoom",
-		de: "Hundemon"
+		'en-us': "Houndoom",
+		'fr-fr': "Démolosse",
+		'es-es': "Houndoom",
+		'it-it': "Houndoom",
+		'pt-br': "Houndoom",
+		'de-de': "Hundemon"
 	},
 
 	rarity: "Common",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Houndour",
-		fr: "Malosse"
+		'en-us': "Houndour",
+		'fr-fr': "Malosse"
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Sharp Fang",
-			fr: "Croc Aiguisé",
-			es: "Colmillo Afilado",
-			it: "Zannaffilata",
-			pt: "Presa Afiada",
-			de: "Scharfe Fänge"
+			'en-us': "Sharp Fang",
+			'fr-fr': "Croc Aiguisé",
+			'es-es': "Colmillo Afilado",
+			'it-it': "Zannaffilata",
+			'pt-br': "Presa Afiada",
+			'de-de': "Scharfe Fänge"
 		},
 
 		damage: 30
@@ -43,21 +43,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Fire Blast",
-			fr: "Déflagration",
-			es: "Llamarada",
-			it: "Fuocobomba",
-			pt: "Rajada de Fogo",
-			de: "Feuersturm"
+			'en-us': "Fire Blast",
+			'fr-fr': "Déflagration",
+			'es-es': "Llamarada",
+			'it-it': "Fuocobomba",
+			'pt-br': "Rajada de Fogo",
+			'de-de': "Feuersturm"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte uma Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 150
@@ -84,7 +84,7 @@ const card: Card = {
 	illustrator: "hncl",
 
 	description: {
-		en: "Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests.",
+		'en-us': "Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests.",
 	},
 
 	thirdParty: {

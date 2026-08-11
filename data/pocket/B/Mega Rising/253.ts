@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rapidash ex"
+		'en-us': "Rapidash ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Ponyta"
+		'en-us': "Ponyta"
 	},
 
 	stage: "Stage1",
@@ -25,14 +25,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Sprinting Flare"
+			'en-us': "Sprinting Flare"
 		},
 
 		damage: 110,
 		cost: ["Fire", "Fire", "Fire"],
 
 		effect: {
-			en: "This attack also does 20 damage to 1 of your opponent's Benched Pokémon."
+			'en-us': "This attack also does 20 damage to 1 of your opponent's Benched Pokémon."
 		}
 	}],
 

@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chikorita",
-		fr: "Germignon",
-		de: "Endivie",
-		it: "Chikorita",
-		es: "Chikorita",
-		pt: "Chikorita",
+		'en-us': "Chikorita",
+		'fr-fr': "Germignon",
+		'de-de': "Endivie",
+		'it-it': "Chikorita",
+		'es-es': "Chikorita",
+		'pt-br': "Chikorita",
 		'es-mx': "Chikorita"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Razor Leaf",
-			fr: "Tranch'Herbe",
-			de: "Rasierblatt",
-			it: "Foglielama",
-			es: "Hoja Afilada",
-			pt: "Folha Navalha",
+			'en-us': "Razor Leaf",
+			'fr-fr': "Tranch'Herbe",
+			'de-de': "Rasierblatt",
+			'it-it': "Foglielama",
+			'es-es': "Hoja Afilada",
+			'pt-br': "Folha Navalha",
 			'es-mx': "Hojas Navaja"
 		},
 

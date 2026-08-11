@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Roggenrola",
-		fr: "Nodulithe",
-		es: "Roggenrola",
-		it: "Roggenrola",
-		pt: "Roggenrola",
-		de: "Kiesling"
+		'en-us': "Roggenrola",
+		'fr-fr': "Nodulithe",
+		'es-es': "Roggenrola",
+		'it-it': "Roggenrola",
+		'pt-br': "Roggenrola",
+		'de-de': "Kiesling"
 	},
 
 	illustrator: "Kanako Eo",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smack Down",
-				fr: "Anti-Air",
-				es: "Antiaéreo",
-				it: "Abbattimento",
-				pt: "Derrubada",
-				de: "Katapult"
+				'en-us': "Smack Down",
+				'fr-fr': "Anti-Air",
+				'es-es': "Antiaéreo",
+				'it-it': "Abbattimento",
+				'pt-br': "Derrubada",
+				'de-de': "Katapult"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon has Fighting Resistance, this attack does 50 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire a une Résistance à Fighting, cette attaque inflige 50 dégâts supplémentaires.",
-				es: "Si el Pokémon Activo de tu rival tiene Resistencia a Fighting, este ataque hace 50 puntos de daño más.",
-				it: "Se il Pokémon attivo del tuo avversario ha resistenza al tipo Fighting, questo attacco infligge 50 danni in più.",
-				pt: "Se o Pokémon Ativo do seu oponente tiver Resistência Fighting, este ataque causará 50 pontos de dano a mais.",
-				de: "Wenn das Aktive Pokémon deines Gegners eine Resistenz gegenüber Fighting-Pokémon hat, fügt diese Attacke 50 Schadenspunkte mehr zu."
+				'en-us': "If your opponent’s Active Pokémon has Fighting Resistance, this attack does 50 more damage.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire a une Résistance à Fighting, cette attaque inflige 50 dégâts supplémentaires.",
+				'es-es': "Si el Pokémon Activo de tu rival tiene Resistencia a Fighting, este ataque hace 50 puntos de daño más.",
+				'it-it': "Se il Pokémon attivo del tuo avversario ha resistenza al tipo Fighting, questo attacco infligge 50 danni in più.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente tiver Resistência Fighting, este ataque causará 50 pontos de dano a mais.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners eine Resistenz gegenüber Fighting-Pokémon hat, fügt diese Attacke 50 Schadenspunkte mehr zu."
 			},
 			damage: "20+",
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "The hexagonal cavity is its ear. It walks in the direction of sounds it hears, but if the sounds cease, it panics and topples over.",
+		'en-us': "The hexagonal cavity is its ear. It walks in the direction of sounds it hears, but if the sounds cease, it panics and topples over.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../S'
 
 const set: Set = {
 	id: 'S-P',
 	name: {
-		id: 'Kartu Promo',
-		th: 'การ์ดโปรโม ซอร์ด แอนด์ ชีลด์'
+		'id-id': 'Kartu Promo',
+		'th-th': 'การ์ดโปรโม ซอร์ด แอนด์ ชีลด์'
 	},
 
 	serie: serie,
@@ -14,8 +14,8 @@ const set: Set = {
 		official: 0
 	},
 	releaseDate: {
-		id: '2022-07-14',
-		th: '2022-05-11'
+		'id-id': '2022-07-14',
+		'th-th': '2022-05-11'
 	}
 }
 

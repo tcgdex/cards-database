@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Grumpig",
-		fr: "Groret",
-		de: "Groink"
+		'en-us': "Grumpig",
+		'fr-fr': "Groret",
+		'de-de': "Groink"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spoink",
-		fr: "Spoink"
+		'en-us': "Spoink",
+		'fr-fr': "Spoink"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Snap Tail",
-				fr: "Claquement de queue",
-				de: "Snap Tail"
+				'en-us': "Snap Tail",
+				'fr-fr': "Claquement de queue",
+				'de-de': "Snap Tail"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			}
 
 		},
@@ -53,9 +53,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psypunch",
-				fr: "Coup de poing psy",
-				de: "Psypunch"
+				'en-us': "Psypunch",
+				'fr-fr': "Coup de poing psy",
+				'de-de': "Psypunch"
 			},
 
 			damage: 40,

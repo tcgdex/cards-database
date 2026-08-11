@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Pheromosa",
-		fr: "Cancrelove",
+		'en-us': "Pheromosa",
+		'fr-fr': "Cancrelove",
 	},
 	illustrator: "Mizue",
 	rarity: "Shiny rare",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "High Jump Kick",
-				fr: "Pied Voltige",
+				'en-us': "High Jump Kick",
+				'fr-fr': "Pied Voltige",
 			},
 
 			damage: 20,
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "White Ray",
-				fr: "Rayon Blanc",
+				'en-us': "White Ray",
+				'fr-fr': "Rayon Blanc",
 			},
 			effect: {
-				en: "If you have only 1 Prize card remaining, this attack does 90 more damage.",
-				fr: "S’il vous reste exactement 1 carte Récompense, cette attaque inflige 90 dégâts supplémentaires.",
+				'en-us': "If you have only 1 Prize card remaining, this attack does 90 more damage.",
+				'fr-fr': "S’il vous reste exactement 1 carte Récompense, cette attaque inflige 90 dégâts supplémentaires.",
 			},
 			damage: 90,
 
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "One of the Ultra Beasts. It refuses to touch anything, perhaps because it senses some uncleanness in this world.",
+		'en-us': "One of the Ultra Beasts. It refuses to touch anything, perhaps because it senses some uncleanness in this world.",
 	},
 }
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Meltan",
-		fr: "Meltan",
-		es: "Meltan",
-		it: "Meltan",
-		pt: "Meltan",
-		de: "Meltan"
+		'en-us': "Meltan",
+		'fr-fr': "Meltan",
+		'es-es': "Meltan",
+		'it-it': "Meltan",
+		'pt-br': "Meltan",
+		'de-de': "Meltan"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Metal", "Metal"],
 
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			es: "Golpe Cabeza",
-			it: "Bottintesta",
-			pt: "Cabeçada",
-			de: "Kopfnuss"
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'es-es': "Golpe Cabeza",
+			'it-it': "Bottintesta",
+			'pt-br': "Cabeçada",
+			'de-de': "Kopfnuss"
 		},
 
 		damage: 50
@@ -51,7 +51,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It dissolves and eats metal. Circulating liquid metal within its body is how it generates energy.",
+		'en-us': "It dissolves and eats metal. Circulating liquid metal within its body is how it generates energy.",
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Toxtricity"
+		'id-id': "Toxtricity"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Banyak anak muda yang mengagumi gaya Toxtricity yang dengan lesunya tidak takut memprovokasi lawan apa pun."
+		'id-id': "Banyak anak muda yang mengagumi gaya Toxtricity yang dengan lesunya tidak takut memprovokasi lawan apa pun."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Memelototi"
+			'id-id': "Memelototi"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
 		},
 
 		cost: ["Lightning"]
 	}, {
 		name: {
-			id: "Mix Loud"
+			'id-id': "Mix Loud"
 		},
 
 		effect: {
-			id: "Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap tipe Pokémon Cadangan sendiri."
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap tipe Pokémon Cadangan sendiri."
 		},
 
 		damage: "50+",

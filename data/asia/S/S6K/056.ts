@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒノヤコマ",
+		'ja-jp': "ヒノヤコマ",
 		'zh-tw': "火箭雀",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "飛びはじめた 直後の スピードは すべての とりポケモンの 中でも トップクラスの 速さ なのだ。",
+		'ja-jp': "飛びはじめた 直後の スピードは すべての とりポケモンの 中でも トップクラスの 速さ なのだ。",
 		'zh-tw': "剛起飛時的速度在所有的鳥寶可夢之中是數一數二的。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "でんこうせっか",
+				'ja-jp': "でんこうせっか",
 				'zh-tw': "電光一閃",
 			},
 			damage: "20+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、20ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、20ダメージ追加。",
 				'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。",
 			},
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤヤコマ",
+		'ja-jp': "ヤヤコマ",
 	},
 
 	retreat: 1,

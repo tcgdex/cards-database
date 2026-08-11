@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Meltan",
-		en: "Meltan",
-		es: "Meltan",
-		it: "Meltan",
-		pt: "Meltan",
-		de: "Meltan"
+		'fr-fr': "Meltan",
+		'en-us': "Meltan",
+		'es-es': "Meltan",
+		'it-it': "Meltan",
+		'pt-br': "Meltan",
+		'de-de': "Meltan"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			fr: "Dissolution",
-			en: "Melt",
-			es: "Derretir",
-			it: "Liquefazione",
-			pt: "Derreter",
-			de: "Schmelzen"
+			'fr-fr': "Dissolution",
+			'en-us': "Melt",
+			'es-es': "Derretir",
+			'it-it': "Liquefazione",
+			'pt-br': "Derreter",
+			'de-de': "Schmelzen"
 		},
 
 		damage: 20
@@ -51,7 +51,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "They live as a group, but when the time comes, one strong Meltan will absorb all the others and evolve.",
+		'en-us': "They live as a group, but when the time comes, one strong Meltan will absorb all the others and evolve.",
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Wiglett"
+		'id-id': "Wiglett"
 	},
 
 	illustrator: "OKUBO",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Wiglett dapat mencium bau yang dikeluarkan Veluza yang berada dalam jarak 20 m, lalu bersembunyi di dalam pasir."
+		'id-id': "Wiglett dapat mencium bau yang dikeluarkan Veluza yang berada dalam jarak 20 m, lalu bersembunyi di dalam pasir."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Barang yang Menguntungkan"
+			'id-id': "Barang yang Menguntungkan"
 		},
 
 		effect: {
-			id: "Pilih 1 lembar Item dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
+			'id-id': "Pilih 1 lembar Item dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
 		},
 
 		cost: ["Water"]
 	}, {
 		name: {
-			id: "Aqua Bomb"
+			'id-id': "Aqua Bomb"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 20."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 20."
 		},
 
 		damage: 40,

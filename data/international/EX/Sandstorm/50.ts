@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Pelipper",
-		fr: "Bekipan",
-		de: "Pelipper"
+		'en-us': "Pelipper",
+		'fr-fr': "Bekipan",
+		'de-de': "Pelipper"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wingull",
-		fr: "Goelise"
+		'en-us': "Wingull",
+		'fr-fr': "Goelise"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
-				de: "Water Gun"
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
+				'de-de': "Water Gun"
 			},
 			effect: {
-				en: "This attack does 30 damage plus 10 more damage for each Water Energy attached to Pelipper but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
-				fr: "Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Bekipan qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
-				de: "This attack does 30 damage plus 10 more damage for each  Energy attached to Pelipper but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+				'en-us': "This attack does 30 damage plus 10 more damage for each Water Energy attached to Pelipper but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+				'fr-fr': "Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Bekipan qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
+				'de-de': "This attack does 30 damage plus 10 more damage for each  Energy attached to Pelipper but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
 			},
 			damage: "30+",
 

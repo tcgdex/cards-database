@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Patrat",
-		fr: "Ratentif",
-		es: "Patrat",
-		it: "Patrat",
-		pt: "Patrat",
-		de: "Nagelotz"
+		'en-us': "Patrat",
+		'fr-fr': "Ratentif",
+		'es-es': "Patrat",
+		'it-it': "Patrat",
+		'pt-br': "Patrat",
+		'de-de': "Nagelotz"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Fang",
-				fr: "Croc de Mort",
+				'en-us': "Hyper Fang",
+				'fr-fr': "Croc de Mort",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
 			},
 			damage: 30,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Extremely cautious, they take shifts to maintain a constant watch of their nest. They feel insecure without a lookout.",
+		'en-us': "Extremely cautious, they take shifts to maintain a constant watch of their nest. They feel insecure without a lookout.",
 	},
 
 	thirdParty: {

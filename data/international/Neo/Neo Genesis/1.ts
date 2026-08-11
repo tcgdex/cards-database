@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Ampharos",
-		fr: "Pharamp",
-		de: "Ampharos"
+		'en-us': "Ampharos",
+		'fr-fr': "Pharamp",
+		'de-de': "Ampharos"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Flaaffy",
-		fr: "Lainergie"
+		'en-us': "Flaaffy",
+		'fr-fr': "Lainergie"
 	},
 
 	stage: "Stage2",
@@ -38,14 +38,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Gigaspark",
-				fr: "Gigatincelle",
-				de: "Gigaspark"
+				'en-us': "Gigaspark",
+				'fr-fr': "Gigatincelle",
+				'de-de': "Gigaspark"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Lancez un pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et cette attaque inflige 10 dégâts à chacun des Pokémon du Banc de votre adversaire. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Lancez un pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et cette attaque inflige 10 dégâts à chacun des Pokémon du Banc de votre adversaire. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 40,
 
@@ -62,8 +62,8 @@ const card: Card = {
 
 
 	description: {
-		en: "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
-		fr: "La pointe de sa queue luit intensément et on l'aperçoit de très loin. Il sert de balise aux gens perdus."
+		'en-us': "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+		'fr-fr': "La pointe de sa queue luit intensément et on l'aperçoit de très loin. Il sert de balise aux gens perdus."
 	},
 
 

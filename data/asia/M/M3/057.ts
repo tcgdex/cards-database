@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ギルガルド",
+		'ja-jp': "ギルガルド",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "攻撃に 特化した 体勢。 鋼の 重さと 強度を 活かして 相手を 叩き割る。",
+		'ja-jp': "攻撃に 特化した 体勢。 鋼の 重さと 強度を 活かして 相手を 叩き割る。",
 	},
 
 	stage: "Stage2",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "ニダンギル",
+		'ja-jp': "ニダンギル",
 	},
 
 	retreat: 3,

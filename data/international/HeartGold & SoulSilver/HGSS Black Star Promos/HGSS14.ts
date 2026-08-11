@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HGSS Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Lapras",
-		fr: "Lokhlass"
+		'en-us': "Lapras",
+		'fr-fr': "Lokhlass"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Promo",
@@ -26,12 +26,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Ferry",
-				fr: "Transbordeur"
+				'en-us': "Ferry",
+				'fr-fr': "Transbordeur"
 			},
 			effect: {
-				en: "Search your discard pile for a Supporter card, show it to your opponent, and put it into your hand.",
-				fr: "Cherchez une carte Supporter dans votre pile de défausse, montrez-la à votre adversaire, puis ajoutez-la à votre main."
+				'en-us': "Search your discard pile for a Supporter card, show it to your opponent, and put it into your hand.",
+				'fr-fr': "Cherchez une carte Supporter dans votre pile de défausse, montrez-la à votre adversaire, puis ajoutez-la à votre main."
 			},
 
 		},
@@ -42,8 +42,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf"
+				'en-us': "Surf",
+				'fr-fr': "Surf"
 			},
 
 			damage: 40,
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It ferries people across the sea on its back. It may sing an enchanting cry if it is in a good mood."
+		'en-us': "It ferries people across the sea on its back. It may sing an enchanting cry if it is in a good mood."
 	},
 
 	variants: [

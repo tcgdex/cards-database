@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タッツー",
+		'ja-jp': "タッツー",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "サンゴの 陰に 住処を 作る。 危険を 感じると 口から 真っ黒い 墨を 吐いて 逃げる。",
+		'ja-jp': "サンゴの 陰に 住処を 作る。 危険を 感じると 口から 真っ黒い 墨を 吐いて 逃げる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンについている[水]エネルギーの数x10ダメージ追加。",
+				'ja-jp': "このポケモンについている[水]エネルギーの数x10ダメージ追加。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-Attaque",
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-Attaque",
 			},
 
 			damage: 10,
@@ -44,8 +44,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electro Ball",
-				fr: "Boule Élek",
+				'en-us': "Electro Ball",
+				'fr-fr': "Boule Élek",
 			},
 
 			damage: 60,
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its nature is to store up electricity. Forests where nests of Pikachu live are dangerous, since the trees are so often struck by lightning.",
+		'en-us': "Its nature is to store up electricity. Forests where nests of Pikachu live are dangerous, since the trees are so often struck by lightning.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガラル タチフサグマ",
+		'ja-jp': "ガラル タチフサグマ",
 	},
 
 	illustrator: "Krgc",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "凄まじい 声量を もつ。 シャウトとともに 威嚇するさまは ブロッキングと 呼ばれている。",
+		'ja-jp': "凄まじい 声量を もつ。 シャウトとともに 威嚇するさまは ブロッキングと 呼ばれている。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "70×",
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンにのっているダメカンの数×70ダメージ。",
+				'ja-jp': "相手のバトルポケモンにのっているダメカンの数×70ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ガラル マッスグマ",
+		'ja-jp': "ガラル マッスグマ",
 	},
 
 	retreat: 2,

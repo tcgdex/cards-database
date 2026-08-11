@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナックラー",
+		'ja-jp': "ナックラー",
 	},
 
 	illustrator: "Uta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "乾燥した 砂漠に 生息。 すり鉢状の 巣穴の中で 獲物を じっと 待ち続ける。",
+		'ja-jp': "乾燥した 砂漠に 生息。 すり鉢状の 巣穴の中で 獲物を じっと 待ち続ける。",
 	},
 
 	stage: "Basic",

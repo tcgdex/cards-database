@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルナアーラ",
+		'ja-jp': "ルナアーラ",
 	},
 
 	illustrator: "5ban Graphics",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "コスモッグが 進化した ♀だと いわれる。 第３の 眼が 浮かぶとき 別世界へと 飛び去っていく。",
+		'ja-jp': "コスモッグが 進化した ♀だと いわれる。 第３の 眼が 浮かぶとき 別世界へと 飛び去っていく。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "40×",
 			cost: ["Psychic"],
 			effect: {
-				ja: "このポケモンについている[超]エネルギーの数x40ダメージ。",
+				'ja-jp': "このポケモンについている[超]エネルギーの数x40ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Psychic", "Psychic", "Psychic"],
 			effect: {
-				ja: "このポケモンについているエネルギーをすべて、ベンチポケモンに好きなようにつけ替える。",
+				'ja-jp': "このポケモンについているエネルギーをすべて、ベンチポケモンに好きなようにつけ替える。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コスモウム",
+		'ja-jp': "コスモウム",
 	},
 
 	retreat: 2,

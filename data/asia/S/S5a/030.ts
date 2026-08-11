@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S5a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "迷布莉姆",
-		th: "มิบริม"
+		'th-th': "มิบริม"
 	},
 
 	illustrator: "Sekio",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "喜歡沒有人煙的地方。一旦感覺到強烈的情感，就會一溜煙地逃走。",
-		th: "ชอบสถานที่ไม่ค่อยมีคน ถ้ารู้สึกถึงอารมณ์ที่รุนแรงก็จะวิ่งหน้าตั้งหนีไปเลย"
+		'th-th': "ชอบสถานที่ไม่ค่อยมีคน ถ้ารู้สึกถึงอารมณ์ที่รุนแรงก็จะวิ่งหน้าตั้งหนีไปเลย"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "精神射擊",
-			th: "ไซโคช็อต"
+			'th-th': "ไซโคช็อต"
 		},
 
 		damage: 20,

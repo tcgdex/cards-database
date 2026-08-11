@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒットモンチャン",
+		'ja-jp': "ヒットモンチャン",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "進化の段階",
+				'ja-jp': "進化の段階",
 			},
 			effect: {
-				ja: "Hitmonchanが進化したポカモンである限り、Hitmonchanは+30 HPを取得します。",
+				'ja-jp': "Hitmonchanが進化したポカモンである限り、Hitmonchanは+30 HPを取得します。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "重いパンチ",
+				'ja-jp': "重いパンチ",
 			},
 			effect: {
-				ja: "対戦相手のベンチポケモンの数を10回ダメージします。",
+				'ja-jp': "対戦相手のベンチポケモンの数を10回ダメージします。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "スピーディーアッパーカット",
+				'ja-jp': "スピーディーアッパーカット",
 			},
 			effect: {
-				ja: "この攻撃の損傷は、脱力感、抵抗、ポケの提唱、ポケボディ、または防御ポケモンに対するその他の影響の影響を受けません。",
+				'ja-jp': "この攻撃の損傷は、脱力感、抵抗、ポケの提唱、ポケボディ、または防御ポケモンに対するその他の影響の影響を受けません。",
 			},
 			damage: 50,
 		},

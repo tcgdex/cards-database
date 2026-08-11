@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Olivado",
-		en: "Dolliv",
-		es: "Dolliv",
-		it: "Dolliv",
-		pt: "Dolliv",
-		de: "Olivinio"
+		'fr-fr': "Olivado",
+		'en-us': "Dolliv",
+		'es-es': "Dolliv",
+		'it-it': "Dolliv",
+		'pt-br': "Dolliv",
+		'de-de': "Olivinio"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 80,
 	types: ["Grass"],
 	evolveFrom: {
-		fr: "Olivini",
-		en: "Smoliv",
-		es: "Smoliv",
-		it: "Smoliv",
-		pt: "Smoliv",
-		de: "Olini"
+		'fr-fr': "Olivini",
+		'en-us': "Smoliv",
+		'es-es': "Smoliv",
+		'it-it': "Smoliv",
+		'pt-br': "Smoliv",
+		'de-de': "Olini"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			fr: "Vent Ensoleillé",
-			en: "Sunny Wind",
-			es: "Viento Soleado",
-			it: "Vento Solare",
-			pt: "Vento Ensolarado",
-			de: "Sonnige Brise"
+			'fr-fr': "Vent Ensoleillé",
+			'en-us': "Sunny Wind",
+			'es-es': "Viento Soleado",
+			'it-it': "Vento Solare",
+			'pt-br': "Vento Ensolarado",
+			'de-de': "Sonnige Brise"
 		},
 
 		effect: {
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			en: "Heal 30 damage from this Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 30
@@ -62,7 +62,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.",
+		'en-us': "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.",
 	},
 
 	variants: [

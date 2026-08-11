@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bulbasaur",
-		fr: "Bulbizarre",
-		es: "Bulbasaur",
-		it: "Bulbasaur",
-		pt: "Bulbasaur",
-		de: "Bisasam"
+		'en-us': "Bulbasaur",
+		'fr-fr': "Bulbizarre",
+		'es-es': "Bulbasaur",
+		'it-it': "Bulbasaur",
+		'pt-br': "Bulbasaur",
+		'de-de': "Bisasam"
 	},
 
 	rarity: "Promo",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Vine Whip",
-			fr: "Fouet Lianes",
-			es: "Látigo Cepa",
-			it: "Frustata",
-			pt: "Chicote de Vinha",
-			de: "Rankenhieb"
+			'en-us': "Vine Whip",
+			'fr-fr': "Fouet Lianes",
+			'es-es': "Látigo Cepa",
+			'it-it': "Frustata",
+			'pt-br': "Chicote de Vinha",
+			'de-de': "Rankenhieb"
 		},
 
 		damage: 50
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "OKACHEKE",
 	description: {
-		en: "While it is young, it uses the nutrients that are stored in the seed on its back in order to grow.",
+		'en-us': "While it is young, it uses the nutrients that are stored in the seed on its back in order to grow.",
 	},
 	variants: [
 		{

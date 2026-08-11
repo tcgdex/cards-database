@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Nintendo Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Latios",
+		'en-us': "Latios",
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -27,7 +27,7 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Super Psy",
+				'en-us': "Super Psy",
 			},
 
 			damage: 10,
@@ -40,10 +40,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Freeze Dry",
+				'en-us': "Freeze Dry",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 30,
 

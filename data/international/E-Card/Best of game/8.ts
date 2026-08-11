@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Best of game'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rocket’s Mewtwo"
+		'en-us': "Rocket’s Mewtwo"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -20,29 +20,29 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Juxtapose"
+			'en-us': "Juxtapose"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, switch the number of damage counters on Rocket’s Mewtwo with the number of damage counters on the Defending Pokémon (even if it would Knock Out either Pokémon). (It’s okay if 1 of the Pokémon has no damage counters on it.)"
+			'en-us': "Flip a coin. If heads, switch the number of damage counters on Rocket’s Mewtwo with the number of damage counters on the Defending Pokémon (even if it would Knock Out either Pokémon). (It’s okay if 1 of the Pokémon has no damage counters on it.)"
 		}
 	}, {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			en: "Hypnoblast"
+			'en-us': "Hypnoblast"
 		},
 
 		damage: 20,
 
 		effect: {
-			en: "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+			'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep."
 		}
 	}, {
 		cost: ["Psychic", "Psychic", "Psychic", "Colorless"],
 
 		name: {
-			en: "Psyburn"
+			'en-us': "Psyburn"
 		},
 
 		damage: 60

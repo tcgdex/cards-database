@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホース（デルタ種）",
+		'ja-jp': "ホース（デルタ種）",
 	},
 
 	rarity: "Uncommon",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "取り組む",
+				'ja-jp': "取り組む",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "逆スラスト",
+				'ja-jp': "逆スラスト",
 			},
 			effect: {
-				ja: "ベンチ付きポケモンを1枚馬に切り替えます。",
+				'ja-jp': "ベンチ付きポケモンを1枚馬に切り替えます。",
 			},
 			damage: 20,
 		},

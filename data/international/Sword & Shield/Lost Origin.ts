@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sword & Shield'
 
 const swsh11: Set = {
 	id: "swsh11",
 
 	name: {
-		en: "Lost Origin",
-		fr: "Origine Perdue",
-		es: "Origen Perdido",
-		de: "Verlorener Ursprung",
-		it: "Origine Perduta",
-		pt: "Origem Perdida"
+		'en-us': "Lost Origin",
+		'fr-fr': "Origine Perdue",
+		'es-es': "Origen Perdido",
+		'de-de': "Verlorener Ursprung",
+		'it-it': "Origine Perduta",
+		'pt-br': "Origem Perdida"
 	},
 
 	serie: serie,
@@ -23,7 +23,7 @@ const swsh11: Set = {
 
 	abbreviations: {
 		official: "LOR",
-		fr: "ORP"
+		'fr-fr': "ORP"
 	},
 
 	thirdParty: {

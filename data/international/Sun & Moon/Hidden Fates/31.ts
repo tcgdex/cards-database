@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo GX",
-		fr: "Mewtwo-GX",
+		'en-us': "Mewtwo GX",
+		'fr-fr': "Mewtwo-GX",
 	},
 
 	illustrator: "aky CG Works",
@@ -32,8 +32,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Psy Bolt",
-				fr: "Super Psy",
+				'en-us': "Super Psy Bolt",
+				'fr-fr': "Super Psy",
 			},
 
 			damage: 110,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psycrush GX",
-				fr: "Écrasement Psy-GX",
+				'en-us': "Psycrush GX",
+				'fr-fr': "Écrasement Psy-GX",
 			},
 			effect: {
-				en: "Discard all Energy from your opponent’s Active Pokémon. (You can’t use more than 1 GX attack in a game.)",
-				fr: "Défaussez toute l’Énergie du Pokémon Actif de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'en-us': "Discard all Energy from your opponent’s Active Pokémon. (You can’t use more than 1 GX attack in a game.)",
+				'fr-fr': "Défaussez toute l’Énergie du Pokémon Actif de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 			damage: 120,
 

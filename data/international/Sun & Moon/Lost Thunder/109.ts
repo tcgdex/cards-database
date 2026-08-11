@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Onix",
-		fr: "Onix",
-		es: "Onix",
-		it: "Onix",
-		pt: "Onix",
-		de: "Onix"
+		'en-us': "Onix",
+		'fr-fr': "Onix",
+		'es-es': "Onix",
+		'it-it': "Onix",
+		'pt-br': "Onix",
+		'de-de': "Onix"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -37,12 +37,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Land Crush",
-				fr: "Écras’Terre",
-				es: "Aterrizaje",
-				it: "Schiacciaterra",
-				pt: "Aperto de Terra",
-				de: "Schollenbrecher"
+				'en-us': "Land Crush",
+				'fr-fr': "Écras’Terre",
+				'es-es': "Aterrizaje",
+				'it-it': "Schiacciaterra",
+				'pt-br': "Aperto de Terra",
+				'de-de': "Schollenbrecher"
 			},
 
 			damage: 120,
@@ -60,7 +60,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It usually lives underground. It searches for food while boring its way through the ground at 50 miles per hour.",
+		'en-us': "It usually lives underground. It searches for food while boring its way through the ground at 50 miles per hour.",
 	},
 
 	thirdParty: {

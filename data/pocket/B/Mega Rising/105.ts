@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dusknoir"
+		'en-us': "Dusknoir"
 	},
 
 	illustrator: "nagimiso",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Dusclops"
+		'en-us': "Dusclops"
 	},
 
 	description: {
-		en: "With the mouth on its belly, Dusknoir swallows its\ntarget whole. The soul is the only thing eaten—\nDusknoir disgorges the body before departing."
+		'en-us': "With the mouth on its belly, Dusknoir swallows its\ntarget whole. The soul is the only thing eaten—\nDusknoir disgorges the body before departing."
 	},
 
 	stage: "Stage2",
@@ -30,17 +30,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Fade into Darkness"
+			'en-us': "Fade into Darkness"
 		},
 
 		effect: {
-			en: "When this Pokémon is Knocked Out, flip a coin. If heads, your opponent can't get any points for it."
+			'en-us': "When this Pokémon is Knocked Out, flip a coin. If heads, your opponent can't get any points for it."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Hammer In"
+			'en-us': "Hammer In"
 		},
 
 		damage: 80,

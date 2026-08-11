@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Zorua",
-		fr: "Zorua",
+		'en-us': "Zorua",
+		'fr-fr': "Zorua",
 	},
 	illustrator: "Saya Tsuruta",
 	rarity: "Shiny rare",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Stampede",
-				fr: "Ruée",
+				'en-us': "Stampede",
+				'fr-fr': "Ruée",
 			},
 
 			damage: 10,
@@ -41,8 +41,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
+				'en-us': "Ram",
+				'fr-fr': "Collision",
 			},
 
 			damage: 20,
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It changes so it looks like its foe, tricks it, and then uses that opportunity to flee.",
+		'en-us': "It changes so it looks like its foe, tricks it, and then uses that opportunity to flee.",
 	},
 }
 

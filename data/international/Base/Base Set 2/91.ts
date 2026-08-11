@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Sandshrew",
+		'en-us': "Sandshrew",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Sand-attack",
+				'en-us': "Sand-attack",
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Burrows deep underground in arid locations far from water. It only emerges to hunt for food.",
+		'en-us': "Burrows deep underground in arid locations far from water. It only emerges to hunt for food.",
 	},
 
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Cubone",
-		fr: "Osselait",
-		es: "Cubone",
-		it: "Cubone",
-		pt: "Cubone",
-		de: "Tragosso"
+		'en-us': "Cubone",
+		'fr-fr': "Osselait",
+		'es-es': "Cubone",
+		'it-it': "Cubone",
+		'pt-br': "Cubone",
+		'de-de': "Tragosso"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whimsy Tackle",
-				fr: "Charge Bizarre",
-				es: "Placaje Caprichoso",
-				it: "Capriccioazione",
-				pt: "Investida Fantástica",
-				de: "Launischer Tackle"
+				'en-us': "Whimsy Tackle",
+				'fr-fr': "Charge Bizarre",
+				'es-es': "Placaje Caprichoso",
+				'it-it': "Capriccioazione",
+				'pt-br': "Investida Fantástica",
+				'de-de': "Launischer Tackle"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-				pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+				'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+				'pt-br': "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 50,
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It always wears the skull of its dead mother, so no one has any idea what its hidden face looks like.",
+		'en-us': "It always wears the skull of its dead mother, so no one has any idea what its hidden face looks like.",
 	},
 
 	thirdParty: {

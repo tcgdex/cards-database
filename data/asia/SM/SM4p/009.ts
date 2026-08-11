@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アママイコ",
+		'ja-jp': "アママイコ",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "身を 守るため ヘタが 発達。 かなりの 硬さで とりポケモンに 突かれても 全然 平気だ。",
+		'ja-jp': "身を 守るため ヘタが 発達。 かなりの 硬さで とりポケモンに 突かれても 全然 平気だ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "あまいかおり" },
 			cost: ["Grass"],
 			effect: {
-				ja: "自分のポケモン1匹のHPを「30」回復する。",
+				'ja-jp': "自分のポケモン1匹のHPを「30」回復する。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、20ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、20ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アマカジ",
+		'ja-jp': "アマカジ",
 	},
 
 	retreat: 2,

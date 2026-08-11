@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Weavile ex",
-		fr: "Dimoret-ex"
+		'en-us': "Weavile ex",
+		'fr-fr': "Dimoret-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Sneasel"
+		'en-us': "Sneasel"
 	},
 
 	stage: "Stage1",
@@ -26,16 +26,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Scratching Nails",
-			fr: "Griffes Griffantes"
+			'en-us': "Scratching Nails",
+			'fr-fr': "Griffes Griffantes"
 		},
 
 		damage: 30,
 		cost: ["Darkness"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon has damage on it, this attack does 40 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire a subi des dégâts, cette attaque inflige 40 dégâts de plus."
+			'en-us': "If your opponent's Active Pokémon has damage on it, this attack does 40 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire a subi des dégâts, cette attaque inflige 40 dégâts de plus."
 		}
 	}],
 

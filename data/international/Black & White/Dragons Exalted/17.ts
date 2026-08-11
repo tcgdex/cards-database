@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Foongus",
-		fr: "Trompignon",
-		es: "Foongus",
-		it: "Foongus",
-		pt: "Foongus",
-		de: "Tarnpignon"
+		'en-us': "Foongus",
+		'fr-fr': "Trompignon",
+		'es-es': "Foongus",
+		'it-it': "Foongus",
+		'pt-br': "Foongus",
+		'de-de': "Tarnpignon"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Spin",
-				fr: "Double Tour",
+				'en-us': "Double Spin",
+				'fr-fr': "Double Tour",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 10,
 
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "For some reason, this Pokémon resembles a Poké Ball. They release poison spores to repel those who try to catch them.",
+		'en-us': "For some reason, this Pokémon resembles a Poké Ball. They release poison spores to repel those who try to catch them.",
 	},
 
 	thirdParty: {

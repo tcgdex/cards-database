@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Vaporeon",
-		fr: "Aquali",
-		es: "Vaporeon",
-		it: "Vaporeon",
-		pt: "Vaporeon",
-		de: "Aquana"
+		'en-us': "Vaporeon",
+		'fr-fr': "Aquali",
+		'es-es': "Vaporeon",
+		'it-it': "Vaporeon",
+		'pt-br': "Vaporeon",
+		'de-de': "Aquana"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Refreshing Rain",
-				fr: "Ondée Rafraîchissante",
+				'en-us': "Refreshing Rain",
+				'fr-fr': "Ondée Rafraîchissante",
 			},
 			effect: {
-				en: "Heal 30 damage from each of your Pokémon.",
-				fr: "Soignez 30 dégâts à chacun de vos Pokémon.",
+				'en-us': "Heal 30 damage from each of your Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à chacun de vos Pokémon.",
 			},
 
 		},
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gold Breaker",
-				fr: "Goliastruction",
+				'en-us': "Gold Breaker",
+				'fr-fr': "Goliastruction",
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Pokémon-EX, this attack does 50 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-EX, cette attaque inflige 50 dégâts supplémentaires.",
+				'en-us': "If the Defending Pokémon is a Pokémon-EX, this attack does 50 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon-EX, cette attaque inflige 50 dégâts supplémentaires.",
 			},
 			damage: 30,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its cell composition is similar to water molecules. As a result, it can't be seen when it melts away into water.",
+		'en-us': "Its cell composition is similar to water molecules. As a result, it can't be seen when it melts away into water.",
 	},
 
 	thirdParty: {

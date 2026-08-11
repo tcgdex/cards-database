@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プリン",
+		'ja-jp': "プリン",
 	},
 
 	illustrator: "Yumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "デパートの 寝具コーナーには プリンの 不思議な 子守唄を 収録した ＣＤが 売られている。",
+		'ja-jp': "デパートの 寝具コーナーには プリンの 不思議な 子守唄を 収録した ＣＤが 売られている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数x20ダメージ。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数x20ダメージ。",
 			},
 		},
 	],

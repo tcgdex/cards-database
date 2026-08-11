@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イダイナキバ",
+		'ja-jp': "イダイナキバ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "近年 目撃例が ある。 イダイナキバという 名は ある本に 記された 生物から 取られた。",
+		'ja-jp': "近年 目撃例が ある。 イダイナキバという 名は ある本に 記された 生物から 取られた。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチポケモンにダメカンがのっているなら、80ダメージ追加。",
+				'ja-jp': "自分のベンチポケモンにダメカンがのっているなら、80ダメージ追加。",
 			},
 		},
 	],

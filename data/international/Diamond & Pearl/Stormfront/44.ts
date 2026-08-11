@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Miltank",
-		fr: "Écrémeuh",
-		de: "Miltank"
+		'en-us': "Miltank",
+		'fr-fr': "Écrémeuh",
+		'de-de': "Miltank"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		fr: "Écrémeuh",
+		'fr-fr': "Écrémeuh",
 	},
 
 	stage: "Basic",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collectionner",
-				de: "Sammeln"
+				'en-us': "Collect",
+				'fr-fr': "Collectionner",
+				'de-de': "Sammeln"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Milk",
-				fr: "Énergie lait",
-				de: "Energiemilch"
+				'en-us': "Energy Milk",
+				'fr-fr': "Énergie lait",
+				'de-de': "Energiemilch"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. For each heads, remove 2 damage counters from 1 of your Pokémon.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, retirez à 1 de vos Pokémon 2 marqueurs de dégât.",
-				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Entferne pro \"Kopf\" 2 Schadensmarken von 1 deiner Pokémon."
+				'en-us': "Flip a coin until you get tails. For each heads, remove 2 damage counters from 1 of your Pokémon.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, retirez à 1 de vos Pokémon 2 marqueurs de dégât.",
+				'de-de': "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Entferne pro \"Kopf\" 2 Schadensmarken von 1 deiner Pokémon."
 			},
 
 		},
@@ -68,14 +68,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stomp",
-				fr: "Écrasement",
-				de: "Stampfer"
+				'en-us': "Stomp",
+				'fr-fr': "Écrasement",
+				'de-de': "Stampfer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 

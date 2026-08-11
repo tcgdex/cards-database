@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デンジャラス光線",
+		'ja-jp': "デンジャラス光線",
 		'zh-tw': "危險光線",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "相手のバトルポケモンをやけどとこんらんにする。",
+		'ja-jp': "相手のバトルポケモンをやけどとこんらんにする。",
 		'zh-tw': "將對手的戰鬥寶可夢【灼傷】與【混亂】。",
 	},
 

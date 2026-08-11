@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レントラー",
+		'ja-jp': "レントラー",
 	},
 
 	illustrator: "Taiga Kasai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "レントラーの 透視能力は 危険な ものを 発見するとき とても 役に立つのだ。",
+		'ja-jp': "レントラーの 透視能力は 危険な ものを 発見するとき とても 役に立つのだ。",
 	},
 
 	stage: "Stage2",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "holo"}],
 
 	evolveFrom: {
-		ja: "ルクシオ",
+		'ja-jp': "ルクシオ",
 	},
 
 	retreat: 0,

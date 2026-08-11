@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Magneton"
+		'en-us': "Lt. Surge's Magneton"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -25,10 +25,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Energy Charge"
+				'en-us': "Energy Charge"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), if Lt. Surge's Magneton is your Active Pokémon, you may take 1 Lightning Energy card attached to 1 of your Pokémon and attach it to Lt. Surge's Magneton. This power can't be used if Lt. Surge's Magneton is Asleep, Confused, or Paralyzed."
+				'en-us': "As often as you like during your turn (before your attack), if Lt. Surge's Magneton is your Active Pokémon, you may take 1 Lightning Energy card attached to 1 of your Pokémon and attach it to Lt. Surge's Magneton. This power can't be used if Lt. Surge's Magneton is Asleep, Confused, or Paralyzed."
 			}
 		},
 	],
@@ -42,10 +42,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Shock"
+				'en-us': "Mega Shock"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Lt. Surge's Magneton does 20 damage to itself."
+				'en-us': "Flip a coin. If tails, Lt. Surge's Magneton does 20 damage to itself."
 			},
 			damage: 50,
 

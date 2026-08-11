@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Férosinge",
-		en: "Mankey",
-		es: "Mankey",
-		it: "Mankey",
-		pt: "Mankey",
-		de: "Menki"
+		'fr-fr': "Férosinge",
+		'en-us': "Mankey",
+		'es-es': "Mankey",
+		'it-it': "Mankey",
+		'pt-br': "Mankey",
+		'de-de': "Menki"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			fr: "Balayage",
-			en: "Low Kick",
-			es: "Patada Baja",
-			it: "Colpo Basso",
-			pt: "Rasteira",
-			de: "Fußkick"
+			'fr-fr': "Balayage",
+			'en-us': "Low Kick",
+			'es-es': "Patada Baja",
+			'it-it': "Colpo Basso",
+			'pt-br': "Rasteira",
+			'de-de': "Fußkick"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			fr: "Suspension",
-			en: "Hang Down",
-			es: "Prender",
-			it: "Tirar Giù",
-			pt: "Dependurar",
-			de: "Herunterhängen"
+			'fr-fr': "Suspension",
+			'en-us': "Hang Down",
+			'es-es': "Prender",
+			'it-it': "Tirar Giù",
+			'pt-br': "Dependurar",
+			'de-de': "Herunterhängen"
 		},
 
 		damage: 30
@@ -79,7 +79,7 @@ const card: Card = {
 	illustrator: "kurumitsu",
 
 	description: {
-		en: "It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness.",
+		'en-us': "It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness.",
 	},
 }
 

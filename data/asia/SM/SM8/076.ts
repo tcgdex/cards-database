@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドデカバシ",
+		'ja-jp': "ドデカバシ",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "体内の ガスを クチバシの 中で 爆発させ 木のタネを 発射。 大岩も 粉々にする パワー。",
+		'ja-jp': "体内の ガスを クチバシの 中で 爆発させ 木のタネを 発射。 大岩も 粉々にする パワー。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "この番、このポケモンに進化していたなら、このワザは失敗。",
+				'ja-jp': "この番、このポケモンに進化していたなら、このワザは失敗。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ケララッパ",
+		'ja-jp': "ケララッパ",
 	},
 
 	retreat: 2,

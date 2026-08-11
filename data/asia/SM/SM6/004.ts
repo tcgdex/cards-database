@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コフキムシ",
+		'ja-jp': "コフキムシ",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "体を 覆う 粉が 体温を 調節するので どんな 気候や 風土の 地域でも 暮らせる。",
+		'ja-jp': "体を 覆う 粉が 体温を 調節するので どんな 気候や 風土の 地域でも 暮らせる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ちょうしんか" },
 			cost: ["Grass"],
 			effect: {
-				ja: "コインを1回投げオモテなら、自分の山札にある「ビビヨン」を1枚、この「コフキムシ」にのせて進化させる。そして山札を切る。",
+				'ja-jp': "コインを1回投げオモテなら、自分の山札にある「ビビヨン」を1枚、この「コフキムシ」にのせて進化させる。そして山札を切る。",
 			},
 		},
 	],

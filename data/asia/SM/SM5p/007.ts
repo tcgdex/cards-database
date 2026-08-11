@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒードラン",
+		'ja-jp': "ヒードラン",
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "マグマのように 燃えたぎる 血液が 体を 流れている。 火山の 洞穴に 生息する。",
+		'ja-jp': "マグマのように 燃えたぎる 血液が 体を 流れている。 火山の 洞穴に 生息する。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、2個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、2個トラッシュする。",
 			},
 		},
 	],

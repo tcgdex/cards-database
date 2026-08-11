@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Yveltal",
-		fr: "Yveltal",
+		'en-us': "Yveltal",
+		'fr-fr': "Yveltal",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Oblivion Wing",
-				fr: "Mort-Ailes",
+				'en-us': "Oblivion Wing",
+				'fr-fr': "Mort-Ailes",
 			},
 			effect: {
-				en: "Attach a Darkness Energy card from your discard pile to 1 of your Benched Pokémon.",
-				fr: "Attachez une carte Énergie Darkness de votre pile de défausse à l'un de vos Pokémon de Banc.",
+				'en-us': "Attach a Darkness Energy card from your discard pile to 1 of your Benched Pokémon.",
+				'fr-fr': "Attachez une carte Énergie Darkness de votre pile de défausse à l'un de vos Pokémon de Banc.",
 			},
 			damage: 30,
 
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Darkness Blade",
-				fr: "Lame Obscure",
+				'en-us': "Darkness Blade",
+				'fr-fr': "Lame Obscure",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon can't attack during your next turn.",
-				fr: "Lancez une pièce. Si c'est pile, ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				'en-us': "Flip a coin. If tails, this Pokémon can't attack during your next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
 			},
 			damage: 100,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Hidden away in its jet-black wings is a red passion.",
+		'en-us': "Hidden away in its jet-black wings is a red passion.",
 	},
 
 	thirdParty: {

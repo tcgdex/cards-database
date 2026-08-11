@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "湧躍鴨",
 		'zh-cn': "湧躍鴨",
-		ja: "ウェルカモ"
+		'ja-jp': "ウェルカモ"
 	},
 
 	illustrator: "OKACHEKE",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "個性勤奮，會觀察各地區的 人和寶可夢，並將其動作 融入自己的舞蹈裡。",
 		'zh-cn': "個性勤奮，會觀察各地區的 人和寶可夢，並將其動作 融入自己的舞蹈裡。",
-		ja: "様々な 地方の ポケモンや 人の 動きを 見て 自らの 踊りに 取り入れる 努力家。"
+		'ja-jp': "様々な 地方の ポケモンや 人の 動きを 見て 自らの 踊りに 取り入れる 努力家。"
 	},
 
 	stage: "Stage1",
@@ -27,7 +27,7 @@ const card: Card = {
 		name: {
 			'zh-tw': "水之刀鋒",
 			'zh-cn': "水之刀鋒",
-			ja: "アクアエッジ"
+			'ja-jp': "アクアエッジ"
 		},
 
 		damage: 40,

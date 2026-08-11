@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Switch",
-		fr: "Échange",
-		es: "Cambio",
-		it: "Scambio",
-		pt: "Substituição",
-		de: "Tausch"
+		'en-us': "Switch",
+		'fr-fr': "Échange",
+		'es-es': "Cambio",
+		'it-it': "Scambio",
+		'pt-br': "Substituição",
+		'de-de': "Tausch"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -17,12 +17,12 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Échangez votre Pokémon Actif avec l'un de vos Pokémon de Banc.",
-		en: "",
-		es: "",
-		it: "",
-		pt: "",
-		de: ""
+		'fr-fr': "Échangez votre Pokémon Actif avec l'un de vos Pokémon de Banc.",
+		'en-us': "",
+		'es-es': "",
+		'it-it': "",
+		'pt-br': "",
+		'de-de': ""
 	},
 
 	trainerType: "Item",

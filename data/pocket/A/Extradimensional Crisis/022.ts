@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Clefairy",
-		fr: "Mélofée"
+		'en-us': "Clefairy",
+		'fr-fr': "Mélofée"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "It is said that happiness will come to those who\nsee a gathering of Clefairy dancing under a\nfull moon.",
-		fr: "On dit que ceux qui voient danser un groupe de Mélofée sous la pleine lune connaîtront un grand bonheur."
+		'en-us': "It is said that happiness will come to those who\nsee a gathering of Clefairy dancing under a\nfull moon.",
+		'fr-fr': "On dit que ceux qui voient danser un groupe de Mélofée sous la pleine lune connaîtront un grand bonheur."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Pound",
-			fr: "Écras'Face"
+			'en-us': "Pound",
+			'fr-fr': "Écras'Face"
 		},
 
 		damage: 10,

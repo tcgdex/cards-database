@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケッキングex",
+		'ja-jp': "ケッキングex",
 		'zh-tw': "請假王ex",
 		'zh-cn': "請假王ex",
 	},
@@ -20,12 +20,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "さぼりたいしつ",
+				'ja-jp': "さぼりたいしつ",
 				'zh-tw': "懶怠個性",
 				'zh-cn': "懶怠個性",
 			},
 			effect: {
-				ja: "相手の場に「ポケモンex・V」がいないなら、このポケモンはワザが使えない。",
+				'ja-jp': "相手の場に「ポケモンex・V」がいないなら、このポケモンはワザが使えない。",
 				'zh-tw': "若對手的場上沒有「寶可夢【ex】・【V】」，則這隻寶可夢無法使用招式。",
 				'zh-cn': "若對手的場上沒有「寶可夢【ex】・【V】」，則這隻寶可夢無法使用招式。",
 			},
@@ -35,14 +35,14 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "グレートスイング",
+				'ja-jp': "グレートスイング",
 				'zh-tw': "偉大橫掃",
 				'zh-cn': "偉大橫掃",
 			},
 			damage: 280,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。",
 				'zh-tw': "選擇1個這隻寶可夢身上附加的能量，將其丟棄。",
 				'zh-cn': "選擇1個這隻寶可夢身上附加的能量，將其丟棄。",
 			},
@@ -63,7 +63,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤルキモノ",
+		'ja-jp': "ヤルキモノ",
 	},
 
 	retreat: 4,

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Dhelmise"
+		'id-id': "Dhelmise"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Dhelmise adalah ganggang yang mengambang di dasar laut, menempel dan mengambil alih bagian dari kapal karam, lalu terlahir kembali sebagai Pokémon hantu."
+		'id-id': "Dhelmise adalah ganggang yang mengambang di dasar laut, menempel dan mengambil alih bagian dari kapal karam, lalu terlahir kembali sebagai Pokémon hantu."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Serangan Berputar"
+			'id-id': "Serangan Berputar"
 		},
 
 		damage: 30,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Steel Anchor"
+			'id-id': "Steel Anchor"
 		},
 
 		effect: {
-			id: "Jika ada Pokémon {Logam} di Cadangan sendiri, kerusakan yang diberikan bertambah sejumlah 80."
+			'id-id': "Jika ada Pokémon {Logam} di Cadangan sendiri, kerusakan yang diberikan bertambah sejumlah 80."
 		},
 
 		damage: "80+",

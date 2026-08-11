@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Sunkern",
-		fr: "Tournegrin",
-		de: "Sonnkern"
+		'en-us': "Sunkern",
+		'fr-fr': "Tournegrin",
+		'de-de': "Sonnkern"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Minor Errand-Running",
-				fr: "Rendez-vous mineur",
-				de: "Minor Errand-Running"
+				'en-us': "Minor Errand-Running",
+				'fr-fr': "Rendez-vous mineur",
+				'de-de': "Minor Errand-Running"
 			},
 			effect: {
-				en: "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
-				de: "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+				'en-us': "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck une carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
+				'de-de': "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				de: "Rollout"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'de-de': "Rollout"
 			},
 
 			damage: 20,

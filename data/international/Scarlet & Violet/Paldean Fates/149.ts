@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Kadabra",
-		fr: "Kadabra",
-		es: "Kadabra",
-		it: "Kadabra",
-		pt: "Kadabra",
-		de: "Kadabra"
+		'en-us': "Kadabra",
+		'fr-fr': "Kadabra",
+		'es-es': "Kadabra",
+		'it-it': "Kadabra",
+		'pt-br': "Kadabra",
+		'de-de': "Kadabra"
 	},
 
 	rarity: "Shiny rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 80,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Abra",
-		fr: "Abra",
-		es: "Abra",
-		it: "Abra",
-		pt: "Abra",
-		de: "Abra"
+		'en-us': "Abra",
+		'fr-fr': "Abra",
+		'es-es': "Abra",
+		'it-it': "Abra",
+		'pt-br': "Abra",
+		'de-de': "Abra"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Teleportation Attack",
-			fr: "Attaque de Téléportation",
-			es: "Ataque Teleportador",
-			it: "Attacco Teletrasporto",
-			pt: "Golpe de Teletransporte",
-			de: "Teleportationsattacke"
+			'en-us': "Teleportation Attack",
+			'fr-fr': "Attaque de Téléportation",
+			'es-es': "Ataque Teleportador",
+			'it-it': "Attacco Teletrasporto",
+			'pt-br': "Golpe de Teletransporte",
+			'de-de': "Teleportationsattacke"
 		},
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-			es: "Cambia este Pokémon por uno de tus Pokémon en Banca.",
-			it: "Scambia questo Pokémon con uno della tua panchina.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+			'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+			'fr-fr': "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'es-es': "Cambia este Pokémon por uno de tus Pokémon en Banca.",
+			'it-it': "Scambia questo Pokémon con uno della tua panchina.",
+			'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+			'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 		},
 
 		damage: 30
@@ -81,7 +81,7 @@ const card: Card = {
 	illustrator: "Souichirou Gunjima",
 
 	description: {
-		en: "This Pokémon's telekinesis is immensely powerful. To prepare for evolution, Kadabra stores up psychic energy in the star on its forehead.",
+		'en-us': "This Pokémon's telekinesis is immensely powerful. To prepare for evolution, Kadabra stores up psychic energy in the star on its forehead.",
 	},
 
 }

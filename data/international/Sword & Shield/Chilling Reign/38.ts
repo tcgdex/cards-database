@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sealeo",
-		fr: "Phogleur",
-		es: "Sealeo",
-		it: "Sealeo",
-		pt: "Sealeo",
-		de: "Seejong"
+		'en-us': "Sealeo",
+		'fr-fr': "Phogleur",
+		'es-es': "Sealeo",
+		'it-it': "Sealeo",
+		'pt-br': "Sealeo",
+		'de-de': "Seejong"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -21,34 +21,34 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Spheal",
-		fr: "Obalie",
-		es: "Spheal",
-		it: "Spheal",
-		pt: "Spheal",
-		de: "Seemops"
+		'en-us': "Spheal",
+		'fr-fr': "Obalie",
+		'es-es': "Spheal",
+		'it-it': "Spheal",
+		'pt-br': "Spheal",
+		'de-de': "Seemops"
 	},
 
 	attacks: [{
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 30,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Aurora Beam",
-			fr: "Onde Boréale",
-			es: "Rayo Aurora",
-			it: "Raggiaurora",
-			pt: "Raio Aurora",
-			de: "Aurorastrahl"
+			'en-us': "Aurora Beam",
+			'fr-fr': "Onde Boréale",
+			'es-es': "Rayo Aurora",
+			'it-it': "Raggiaurora",
+			'pt-br': "Raio Aurora",
+			'de-de': "Aurorastrahl"
 		},
 
 		damage: 70,
@@ -67,7 +67,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Be it Spheal or a Poké Ball, it will spin any round object on its nose with the greatest of ease."
+		'en-us': "Be it Spheal or a Poké Ball, it will spin any round object on its nose with the greatest of ease."
 	},
 
 	variants: [

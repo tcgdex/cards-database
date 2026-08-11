@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Emboar EX",
-		fr: "Roitiflam EX",
-		es: "Emboar EX",
-		it: "Emboar EX",
-		pt: "Emboar EX",
-		de: "Flambirex EX"
+		'en-us': "Emboar EX",
+		'fr-fr': "Roitiflam EX",
+		'es-es': "Emboar EX",
+		'it-it': "Emboar EX",
+		'pt-br': "Emboar EX",
+		'de-de': "Flambirex EX"
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spiral Punch",
-				fr: "Coup d'Poing Spirale",
-				es: "Puño en Espiral",
-				it: "Spiralpugno",
-				pt: "Soco Espiral",
-				de: "Spiralschlag"
+				'en-us': "Spiral Punch",
+				'fr-fr': "Coup d'Poing Spirale",
+				'es-es': "Puño en Espiral",
+				'it-it': "Spiralpugno",
+				'pt-br': "Soco Espiral",
+				'de-de': "Spiralschlag"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 20 more damage for each heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
-				es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño más por cada cara.",
-				it: "Lancia una moneta finché non esce croce. Ogni volta che esce testa, questo attacco infligge 20 danni in più.",
-				pt: "Jogue uma moeda até sair coroa. Este ataque causa 20 de danos adicionais para cada cara.",
-				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip a coin until you get tails. This attack does 20 more damage for each heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño más por cada cara.",
+				'it-it': "Lancia una moneta finché non esce croce. Ogni volta che esce testa, questo attacco infligge 20 danni in più.",
+				'pt-br': "Jogue uma moeda até sair coroa. Este ataque causa 20 de danos adicionais para cada cara.",
+				'de-de': "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "20+",
 
@@ -61,20 +61,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strong Flare",
-				fr: "Flamboiement Intense",
-				es: "Fuerte Llama",
-				it: "Vampata Potente",
-				pt: "Labareda Forte",
-				de: "Großes Auflodern"
+				'en-us': "Strong Flare",
+				'fr-fr': "Flamboiement Intense",
+				'es-es': "Fuerte Llama",
+				'it-it': "Vampata Potente",
+				'pt-br': "Labareda Forte",
+				'de-de': "Großes Auflodern"
 			},
 			effect: {
-				en: "Discard 2 Energy attached to this Pokémon.",
-				fr: "Défaussez 2 Énergies attachées à ce Pokémon.",
-				es: "Descarta 2 Energías unidas a este Pokémon.",
-				it: "Scarta due Energie assegnate a questo Pokémon.",
-				pt: "Descarte 2 Energias ligadas a este Pokémon.",
-				de: "Lege 2 an dieses Pokémon angelegte Energien auf deinen Ablagestapel."
+				'en-us': "Discard 2 Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez 2 Énergies attachées à ce Pokémon.",
+				'es-es': "Descarta 2 Energías unidas a este Pokémon.",
+				'it-it': "Scarta due Energie assegnate a questo Pokémon.",
+				'pt-br': "Descarte 2 Energias ligadas a este Pokémon.",
+				'de-de': "Lege 2 an dieses Pokémon angelegte Energien auf deinen Ablagestapel."
 			},
 			damage: 150,
 

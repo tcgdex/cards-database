@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   
 	name: {
-		en: "Meowscarada",
-		fr: "Miascarade",
-		es: "Meowscarada",
-		it: "Meowscarada",
-		de: "Maskagato",
+		'en-us': "Meowscarada",
+		'fr-fr': "Miascarade",
+		'es-es': "Meowscarada",
+		'it-it': "Meowscarada",
+		'de-de': "Maskagato",
 		'pt-br': "Meowscarada",
-		ko: "마스카나"
+		'ko-kr': "마스카나"
 	},
 
   suffix: "EX",
@@ -23,13 +23,13 @@ const card: Card = {
   hp: 160,
   types: ["Grass"],
   evolveFrom: {
-		en: "Floragato",
-		fr: "Matourgeon",
-		es: "Floragato",
-		it: "Floragato",
-		de: "Feliospa",
+		'en-us': "Floragato",
+		'fr-fr': "Matourgeon",
+		'es-es': "Floragato",
+		'it-it': "Floragato",
+		'de-de': "Feliospa",
 		'pt-br': "Floragato",
-		ko: "나로테"
+		'ko-kr': "나로테"
   },
   stage: "Stage2",
   attacks: [

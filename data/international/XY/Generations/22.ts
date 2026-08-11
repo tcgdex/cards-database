@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Magikarp",
-		fr: "Magicarpe",
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Epic Splash",
-				fr: "Trempette Épique",
+				'en-us': "Epic Splash",
+				'fr-fr': "Trempette Épique",
 			},
 			effect: {
-				en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
-				fr: "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien.",
+				'en-us': "Flip 2 coins. If either of them is tails, this attack does nothing.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien.",
 			},
 			damage: 30,
 
@@ -52,7 +52,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today.",
+		'en-us': "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today.",
 	},
 
 	thirdParty: {

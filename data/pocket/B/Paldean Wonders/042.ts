@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Ampibidou",
-		en: "Bellibolt",
-		es: "Bellibolt",
-		it: "Bellibolt",
-		pt: "Bellibolt",
-		de: "Wampitz"
+		'fr-fr': "Ampibidou",
+		'en-us': "Bellibolt",
+		'es-es': "Bellibolt",
+		'it-it': "Bellibolt",
+		'pt-br': "Bellibolt",
+		'de-de': "Wampitz"
   },
   suffix: "EX",
   illustrator: "PLANETA Yamashita",
@@ -20,12 +20,12 @@ const card: Card = {
   hp: 160,
   types: ["Lightning"],
   evolveFrom: {
-		fr: "Têtampoule",
-		en: "Tadbulb",
-		es: "Tadbulb",
-		it: "Tadbulb",
-		pt: "Tadbulb",
-		de: "Blipp"
+		'fr-fr': "Têtampoule",
+		'en-us': "Tadbulb",
+		'es-es': "Tadbulb",
+		'it-it': "Tadbulb",
+		'pt-br': "Tadbulb",
+		'de-de': "Blipp"
   },
   stage: "Stage1",
   attacks: [

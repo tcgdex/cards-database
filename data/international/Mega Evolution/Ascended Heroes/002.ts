@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Erika's Gloom",
-		fr: "Ortide d'Erika",
-		es: "Gloom de Erika",
+		'en-us': "Erika's Gloom",
+		'fr-fr': "Ortide d'Erika",
+		'es-es': "Gloom de Erika",
 		'es-mx': "Gloom de Erika",
-		de: "Erikas Duflor",
-		it: "Gloom di Erika",
-		pt: "Gloom da Érica"
+		'de-de': "Erikas Duflor",
+		'it-it': "Gloom di Erika",
+		'pt-br': "Gloom da Érica"
 	},
 
 	evolveFrom: {
-		en: "Erika's Oddish",
-		fr: "Mystherbe d'Erika",
-		es: "Oddish de Erika",
+		'en-us': "Erika's Oddish",
+		'fr-fr': "Mystherbe d'Erika",
+		'es-es': "Oddish de Erika",
 		'es-mx': "Oddish de Erika",
-		de: "Erikas Myrapla",
-		it: "Oddish di Erika",
-		pt: "Oddish da Érica",
+		'de-de': "Erikas Myrapla",
+		'it-it': "Oddish di Erika",
+		'pt-br': "Oddish da Érica",
 	},
 
 	illustrator: "MARINA Chikazawa",
@@ -35,23 +35,23 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Poison Spray",
-			fr: "Pulvérisation Toxique",
-			es: "Aerosol Venenoso",
+			'en-us': "Poison Spray",
+			'fr-fr': "Pulvérisation Toxique",
+			'es-es': "Aerosol Venenoso",
 			'es-mx': "Aerosol Venenoso",
-			de: "Giftspray",
-			it: "Spruzzo Velenoso",
-			pt: "Spray de Veneno"
+			'de-de': "Giftspray",
+			'it-it': "Spruzzo Velenoso",
+			'pt-br': "Spray de Veneno"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
 			'es-mx': "El Pokémon Activo de tu rival ahora está Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado."
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado."
 		},
 
 		damage: 50
@@ -67,7 +67,7 @@ const card: Card = {
 	regulationMark: "J",
 
 	description: {
-		en: "It secretes a sticky, drool-like nectar. Though sweet, it smells too repulsive to get very close.",
+		'en-us': "It secretes a sticky, drool-like nectar. Though sweet, it smells too repulsive to get very close.",
 	},
 
 	variants: [

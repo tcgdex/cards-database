@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Lucario",
-		fr: "Lucario",
-		de: "Lucario"
+		'en-us': "Lucario",
+		'fr-fr': "Lucario",
+		'de-de': "Lucario"
 	},
 
 	illustrator: "Takashi Yamaguchi",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Riolu",
-		fr: "Riolu",
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dimension Sphere",
-				fr: "Sphère dimensionnelle",
-				de: "Dimensiossphäre"
+				'en-us': "Dimension Sphere",
+				'fr-fr': "Sphère dimensionnelle",
+				'de-de': "Dimensiossphäre"
 			},
 			effect: {
-				en: "Does 30 damage plus 20 more damage for each of your Pokémon in the Lost Zone.",
-				fr: "Inflige 30 dégâts plus 20 dégâts supplémentaires pour chacun de vos Pokémon se trouvant dans la Zone Perdue.",
-				de: "Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jedes deiner Pokémon im Nirgendwo zu."
+				'en-us': "Does 30 damage plus 20 more damage for each of your Pokémon in the Lost Zone.",
+				'fr-fr': "Inflige 30 dégâts plus 20 dégâts supplémentaires pour chacun de vos Pokémon se trouvant dans la Zone Perdue.",
+				'de-de': "Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jedes deiner Pokémon im Nirgendwo zu."
 			},
 			damage: "30+",
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sky Uppercut",
-				fr: "Stratopercut",
-				de: "Himmelhieb"
+				'en-us': "Sky Uppercut",
+				'fr-fr': "Stratopercut",
+				'de-de': "Himmelhieb"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance.",
-				de: "Der Schaden dieses Angrffs wird durch Resistenz nicht verändert."
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance.",
+				'de-de': "Der Schaden dieses Angrffs wird durch Resistenz nicht verändert."
 			},
 			damage: 70,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It's said that no foe can remain invisible to Lucario, since it can detect auras. Even foes it could not otherwise see.",
+		'en-us': "It's said that no foe can remain invisible to Lucario, since it can detect auras. Even foes it could not otherwise see.",
 	},
 
 	variants: [

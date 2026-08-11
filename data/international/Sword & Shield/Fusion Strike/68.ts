@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Panpour",
-		fr: "Flotajou",
-		es: "Panpour",
-		it: "Panpour",
-		pt: "Panpour",
-		de: "Sodamak"
+		'en-us': "Panpour",
+		'fr-fr': "Flotajou",
+		'es-es': "Panpour",
+		'it-it': "Panpour",
+		'pt-br': "Panpour",
+		'de-de': "Sodamak"
 	},
 
 	rarity: "Common",
@@ -30,30 +30,30 @@ const card: Card = {
 	illustrator: "Sekio",
 
 	description: {
-		en: "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large."
+		'en-us': "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large."
 	},
 
 	attacks: [{
 		cost: ["Water"],
 
 		name: {
-			en: "Pry",
-			fr: "Fouineur",
-			de: "Herumschnuppern",
-			es: "Fisgonear",
-			pt: "Bisbilhotar",
-			it: "Impiccione"
+			'en-us': "Pry",
+			'fr-fr': "Fouineur",
+			'de-de': "Herumschnuppern",
+			'es-es': "Fisgonear",
+			'pt-br': "Bisbilhotar",
+			'it-it': "Impiccione"
 		},
 
 		damage: 10,
 
 		effect: {
-			en: "Your opponent reveals their hand.",
-			fr: "Votre adversaire dévoile sa main.",
-			de: "Dein Gegner zeigt dir seine Handkarten.",
-			es: "Tu rival enseña las cartas de su mano.",
-			pt: "Seu oponente revela a própria mão.",
-			it: "Il tuo avversario mostra le carte che ha in mano."
+			'en-us': "Your opponent reveals their hand.",
+			'fr-fr': "Votre adversaire dévoile sa main.",
+			'de-de': "Dein Gegner zeigt dir seine Handkarten.",
+			'es-es': "Tu rival enseña las cartas de su mano.",
+			'pt-br': "Seu oponente revela a própria mão.",
+			'it-it': "Il tuo avversario mostra le carte che ha in mano."
 		}
 	}],
 

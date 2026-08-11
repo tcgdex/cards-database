@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [228],
 
 	name: {
-		en: "Houndour"
+		'en-us': "Houndour"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "It uses different kinds of cries for communicating\nwith others of its kind and for pursuing its prey."
+		'en-us': "It uses different kinds of cries for communicating\nwith others of its kind and for pursuing its prey."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Roar"
+			'en-us': "Roar"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)"
+			'en-us': "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)"
 		}
 	}],
 

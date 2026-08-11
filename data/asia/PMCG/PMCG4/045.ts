@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コラッタ",
+		'ja-jp': "コラッタ",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "トリック",
+				'ja-jp': "トリック",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前に）</em> </em>、デッキのトップカードで賞品を1つ切り替えることができます。ラッタタが眠っている、混乱し、麻痺している場合、この力は使用できません。",
+				'ja-jp': "ターン中に（攻撃の前に）</em> </em>、デッキのトップカードで賞品を1つ切り替えることができます。ラッタタが眠っている、混乱し、麻痺している場合、この力は使用できません。",
 			},
 		}],
 
@@ -30,10 +30,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "クイック攻撃",
+				'ja-jp': "クイック攻撃",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて10ダメージを与えます。尾の場合、この攻撃は10ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて10ダメージを与えます。尾の場合、この攻撃は10ダメージを与えます。",
 			},
 		},
 	],

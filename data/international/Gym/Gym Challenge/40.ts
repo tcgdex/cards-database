@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Erika's Clefairy"
+		'en-us': "Erika's Clefairy"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lunar Power"
+				'en-us': "Lunar Power"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your deck for a card that evolves from 1 of your Benched Pokémon and put that card on that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward."
+				'en-us': "Flip a coin. If heads, search your deck for a card that evolves from 1 of your Benched Pokémon and put that card on that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward."
 			},
 
 		},
@@ -40,7 +40,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Moon Kick"
+				'en-us': "Moon Kick"
 			},
 
 			damage: 20,

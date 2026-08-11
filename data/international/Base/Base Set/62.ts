@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Sandshrew",
-		fr: "Sabelette",
-		de: "Sandan",
-		it: "Sandshrew"
+		'en-us': "Sandshrew",
+		'fr-fr': "Sabelette",
+		'de-de': "Sandan",
+		'it-it': "Sandshrew"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,16 +32,16 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Sand-attack",
-				fr: "Jet de Sable",
-				de: "Sandwirbel",
-				it: "Turbosabbia"
+				'en-us': "Sand-attack",
+				'fr-fr': "Jet de Sable",
+				'de-de': "Sandwirbel",
+				'it-it': "Turbosabbia"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire doit lancer une pièce. Si c'est pile, l'attaque est sans effet.",
-				de: "Falls das verteidigende Pokémon während des nächsten gegnerischen Zugs anzugreifen versucht, wirft Dein Gegner eine Münze. Bei 'Zahl' zeigt dieser Angriff keine Wirkung.",
-				it: "Se durante il prossimo turno del tuo avversario il Pokémon difensore prova ad attaccare, il tuo avversario deve lanciare una moneta. Se esce croce, quell'attacco non ha alcun effetto."
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire doit lancer une pièce. Si c'est pile, l'attaque est sans effet.",
+				'de-de': "Falls das verteidigende Pokémon während des nächsten gegnerischen Zugs anzugreifen versucht, wirft Dein Gegner eine Münze. Bei 'Zahl' zeigt dieser Angriff keine Wirkung.",
+				'it-it': "Se durante il prossimo turno del tuo avversario il Pokémon difensore prova ad attaccare, il tuo avversario deve lanciare una moneta. Se esce croce, quell'attacco non ha alcun effetto."
 
 			},
 			damage: 10,
@@ -66,9 +66,9 @@ const card: Card = {
 
 
 	description: {
-		en: "Burrows deep underground in arid locations far from water. It only emerges to hunt for food.",
-		fr: "Il s'enterre dans les régions arides et désertiques. Il émerge seulement pour chasser.",
-		it: "Vive in tane sotterranee in località aride, lontano da fonti d'acqua. Riappare solo quando è alla ricerca di cibo. LIV 12, N.27"
+		'en-us': "Burrows deep underground in arid locations far from water. It only emerges to hunt for food.",
+		'fr-fr': "Il s'enterre dans les régions arides et désertiques. Il émerge seulement pour chasser.",
+		'it-it': "Vive in tane sotterranee in località aride, lontano da fonti d'acqua. Riappare solo quando è alla ricerca di cibo. LIV 12, N.27"
 	},
 
 	variants: [

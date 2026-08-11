@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Seadra δ",
-		fr: "Hypocéan δ",
-		de: "Seemon"
+		'en-us': "Seadra δ",
+		'fr-fr': "Hypocéan δ",
+		'de-de': "Seemon"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Horsea",
-		fr: "Hypotrempe"
+		'en-us': "Horsea",
+		'fr-fr': "Hypotrempe"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Searing Flame",
-				fr: "Flammes calcinantes",
-				de: "Sengende Flammen"
+				'en-us': "Searing Flame",
+				'fr-fr': "Flammes calcinantes",
+				'de-de': "Sengende Flammen"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
+				'en-us': "The Defending Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 10,
 
@@ -56,9 +56,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Combustion",
-				fr: "Fournaise",
-				de: "Glühen"
+				'en-us': "Combustion",
+				'fr-fr': "Fournaise",
+				'de-de': "Glühen"
 			},
 
 			damage: 40,

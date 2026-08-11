@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤドラン",
+		'ja-jp': "ヤドラン",
 	},
 
 	illustrator: "CHORISO",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "くっついている シェルダーは 尻尾から にじみでる うま味が 欲しくて ずっと 離れない。",
+		'ja-jp': "くっついている シェルダーは 尻尾から にじみでる うま味が 欲しくて ずっと 離れない。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分の手札が1枚もないなら、160ダメージ追加。",
+				'ja-jp': "自分の手札が1枚もないなら、160ダメージ追加。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤドン",
+		'ja-jp': "ヤドン",
 	},
 
 	retreat: 3,

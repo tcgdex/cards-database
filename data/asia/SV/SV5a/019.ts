@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヘイガニ",
+		'ja-jp': "ヘイガニ",
 		'zh-tw': "龍蝦小兵",
-		th: "เฮกานิ"
+		'th-th': "เฮกานิ"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -18,9 +18,9 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "水質が 悪くても 平気なので ほかの 水ポケモンと エサの 奪い合いがなく どんどん 増えた。",
+		'ja-jp': "水質が 悪くても 平気なので ほかの 水ポケモンと エサの 奪い合いがなく どんどん 増えた。",
 		'zh-tw': "即使水質惡劣也不以為意，因此 不會和其他水寶可夢爭奪食物， 使得牠們的數量不斷增加。",
-		th: "แม้ว่าคุณภาพน้ำจะไม่ดีก็ไม่มีปัญหา จึงไม่ต้องแย่งอาหารกับโปเกมอนน้ำตัวอื่น ๆ ทำให้จำนวนของมันเพิ่มขึ้นเรื่อย ๆ"
+		'th-th': "แม้ว่าคุณภาพน้ำจะไม่ดีก็ไม่มีปัญหา จึงไม่ต้องแย่งอาหารกับโปเกมอนน้ำตัวอื่น ๆ ทำให้จำนวนของมันเพิ่มขึ้นเรื่อย ๆ"
 	},
 
 	stage: "Basic",
@@ -29,9 +29,9 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			ja: "はさむ",
+			'ja-jp': "はさむ",
 			'zh-tw': "夾住",
-			th: "หนีบ"
+			'th-th': "หนีบ"
 		},
 
 		damage: 60

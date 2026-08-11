@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Alolan Diglett",
-		fr: "Taupiqueur d’Alola",
-		es: "Diglett de Alola",
-		it: "Diglett di Alola",
-		pt: "Diglett de Alola",
-		de: "Alola-Digda"
+		'en-us': "Alolan Diglett",
+		'fr-fr': "Taupiqueur d’Alola",
+		'es-es': "Diglett de Alola",
+		'it-it': "Diglett di Alola",
+		'pt-br': "Diglett de Alola",
+		'de-de': "Alola-Digda"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -32,12 +32,12 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 10,
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Although it's powerful enough to dig right through volcanic rock, it doesn't allow itself to be seen very often.",
+		'en-us': "Although it's powerful enough to dig right through volcanic rock, it doesn't allow itself to be seen very often.",
 	},
 
 	thirdParty: {

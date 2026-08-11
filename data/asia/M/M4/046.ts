@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤジロン",
+		'ja-jp': "ヤジロン",
 	},
 
 	illustrator: "Tomomi Ozaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "一本足で 回転しながら 移動する。 逆さまに なって 回転する ヤジロンも 見かける。",
+		'ja-jp': "一本足で 回転しながら 移動する。 逆さまに なって 回転する ヤジロンも 見かける。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Fighting"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数×30ダメージ。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数×30ダメージ。",
 			},
 		},
 	],

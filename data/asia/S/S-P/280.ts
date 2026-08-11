@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トゲチック",
+		'ja-jp': "トゲチック",
 	},
 
 	illustrator: "Narumi Sato",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "心優しい 人の 前に 幸せを もたらすため 姿を 現すと 言われている。",
+		'ja-jp': "心優しい 人の 前に 幸せを もたらすため 姿を 現すと 言われている。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "しあわせボイス" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のバトルポケモンのHPを「30」回復する。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のバトルポケモンのHPを「30」回復する。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "トゲピー",
+		'ja-jp': "トゲピー",
 	},
 
 	retreat: 1,

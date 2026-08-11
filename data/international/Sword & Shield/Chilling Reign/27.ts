@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Raboot",
-		fr: "Lapyro",
-		es: "Raboot",
-		it: "Raboot",
-		pt: "Raboot",
-		de: "Kickerlo"
+		'en-us': "Raboot",
+		'fr-fr': "Lapyro",
+		'es-es': "Raboot",
+		'it-it': "Raboot",
+		'pt-br': "Raboot",
+		'de-de': "Kickerlo"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -21,31 +21,31 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Scorbunny",
-		fr: "Flambino",
-		es: "Scorbunny",
-		it: "Scorbunny",
-		pt: "Scorbunny",
-		de: "Hopplo"
+		'en-us': "Scorbunny",
+		'fr-fr': "Flambino",
+		'es-es': "Scorbunny",
+		'it-it': "Scorbunny",
+		'pt-br': "Scorbunny",
+		'de-de': "Hopplo"
 	},
 
 	attacks: [{
 		name: {
-			en: "Volley Kick",
-			fr: "Reprise de Volée",
-			es: "Patada Volea",
-			it: "Calciata al Volo",
-			pt: "Voleio",
-			de: "Volleyschuss"
+			'en-us': "Volley Kick",
+			'fr-fr': "Reprise de Volée",
+			'es-es': "Patada Volea",
+			'it-it': "Calciata al Volo",
+			'pt-br': "Voleio",
+			'de-de': "Volleyschuss"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 60,
@@ -64,7 +64,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It kicks berries right off the branches of trees and then juggles them with its feet, practicing its footwork."
+		'en-us': "It kicks berries right off the branches of trees and then juggles them with its feet, practicing its footwork."
 	},
 
 	variants: [

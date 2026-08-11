@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Staryu",
-		de: "Sterndu"
+		'en-us': "Staryu",
+		'de-de': "Sterndu"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Healing",
-				de: "Energieauffrischung"
+				'en-us': "Energy Healing",
+				'de-de': "Energieauffrischung"
 			},
 			effect: {
-				en: "Remove 2 damage counters from Staryu for each Energy attached to it. If it has fewer damage counters than that, remove all of them.",
-				de: "Entferne für jede an Sterndu angelegte Energie 2 Schadensmarken von ihm. Wenn es weniger Schadensmarken hat, entferne alle."
+				'en-us': "Remove 2 damage counters from Staryu for each Energy attached to it. If it has fewer damage counters than that, remove all of them.",
+				'de-de': "Entferne für jede an Sterndu angelegte Energie 2 Schadensmarken von ihm. Wenn es weniger Schadensmarken hat, entferne alle."
 			},
 
 		},
@@ -42,12 +42,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Doubleslap",
-				de: "Duplexhieb"
+				'en-us': "Doubleslap",
+				'de-de': "Duplexhieb"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "10×",
 

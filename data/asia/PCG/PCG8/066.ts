@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Aggron Ex",
+		'ja-jp': "Aggron Ex",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "威圧的な鎧",
+				'ja-jp': "威圧的な鎧",
 			},
 			effect: {
-				ja: "Aggron ExがあなたのアクティブなPokã©Monである限り、あなたの相手の基本的なPokã©Monは、Pokã©PowersまたはPokã©-Bodiesを攻撃または使用することはできません。",
+				'ja-jp': "Aggron ExがあなたのアクティブなPokã©Monである限り、あなたの相手の基本的なPokã©Monは、Pokã©PowersまたはPokã©-Bodiesを攻撃または使用することはできません。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "分割爆弾",
+				'ja-jp': "分割爆弾",
 			},
 			effect: {
-				ja: "対戦相手のポケモンの2つを選択してください。この攻撃は、それぞれに30のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "対戦相手のポケモンの2つを選択してください。この攻撃は、それぞれに30のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 		},
 		{
 			cost: ["Metal", "Metal", "Colorless", "Colorless"],
 			name: {
-				ja: "メガ・バーン",
+				'ja-jp': "メガ・バーン",
 			},
 			effect: {
-				ja: "次のターン中、Aggron ExはMega Burnを使用できません。",
+				'ja-jp': "次のターン中、Aggron ExはMega Burnを使用できません。",
 			},
 			damage: 100,
 		},

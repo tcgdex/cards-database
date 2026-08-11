@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [308],
 
 	name: {
-		en: "Medicham"
+		'en-us': "Medicham"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Meditite"
+		'en-us': "Meditite"
 	},
 
 	description: {
-		en: "It elegantly avoids attacks with dance-like\nsteps, then launches a devastating blow in\nthe same motion."
+		'en-us': "It elegantly avoids attacks with dance-like\nsteps, then launches a devastating blow in\nthe same motion."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Psykick"
+			'en-us': "Psykick"
 		},
 
 		damage: 50,
 		cost: ["Fighting", "Colorless"],
 
 		effect: {
-			en: "If this Pokémon has any {P} Energy attached, this attack does 50 more damage."
+			'en-us': "If this Pokémon has any {P} Energy attached, this attack does 50 more damage."
 		}
 	}],
 

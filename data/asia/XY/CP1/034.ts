@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダブルマグマエネルギー",
+		'ja-jp': "ダブルマグマエネルギー",
 	},
 
 	illustrator: "5ban Graphics",
@@ -12,7 +12,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		ja: "このカードは「マグマ団」のポケモンにしかつけられず、つけた番の終わりにトラッシュする。このカードはポケモンについているかぎり、[闘]エネルギー2個ぶんとしてはたらく。（このカードが「マグマ団」のポケモン以外についているなら、トラッシュする。）",
+		'ja-jp': "このカードは「マグマ団」のポケモンにしかつけられず、つけた番の終わりにトラッシュする。このカードはポケモンについているかぎり、[闘]エネルギー2個ぶんとしてはたらく。（このカードが「マグマ団」のポケモン以外についているなら、トラッシュする。）",
 	},
 
 	variants: [

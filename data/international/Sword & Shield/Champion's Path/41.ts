@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [559],
 
 	name: {
-		en: "Scraggy",
-		fr: "Baggiguane",
-		es: "Scraggy",
-		it: "Scraggy",
-		pt: "Scraggy",
-		de: "Zurrokex"
+		'en-us': "Scraggy",
+		'fr-fr': "Baggiguane",
+		'es-es': "Scraggy",
+		'it-it': "Scraggy",
+		'pt-br': "Scraggy",
+		'de-de': "Zurrokex"
 	},
 
 	illustrator: "miki kudo",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stampede",
-				fr: "Ruée",
-				es: "Estampida",
-				it: "Fuggi Fuggi",
-				pt: "Estouro",
-				de: "Zertrampeln"
+				'en-us': "Stampede",
+				'fr-fr': "Ruée",
+				'es-es': "Estampida",
+				'it-it': "Fuggi Fuggi",
+				'pt-br': "Estouro",
+				'de-de': "Zertrampeln"
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 20,
@@ -79,7 +79,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "If it locks eyes with you, watch out! Nothing and no one is safe from the reckless headbutts of this troublesome Pokémon."
+		'en-us': "If it locks eyes with you, watch out! Nothing and no one is safe from the reckless headbutts of this troublesome Pokémon."
 	},
 
 	thirdParty: {

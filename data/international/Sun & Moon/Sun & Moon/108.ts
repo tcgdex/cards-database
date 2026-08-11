@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Toucannon",
-		fr: "Bazoucan",
-		es: "Toucannon",
-		it: "Toucannon",
-		pt: "Toucannon",
-		de: "Tukanon"
+		'en-us': "Toucannon",
+		'fr-fr': "Bazoucan",
+		'es-es': "Toucannon",
+		'it-it': "Toucannon",
+		'pt-br': "Toucannon",
+		'de-de': "Tukanon"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Trumbeak",
-		fr: "Piclairon",
+		'en-us': "Trumbeak",
+		'fr-fr': "Piclairon",
 	},
 
 	stage: "Stage2",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Echoed Voice",
-				fr: "Écho",
-				es: "Eco Voz",
-				it: "Echeggiavoce",
-				pt: "Voz Ecoante",
-				de: "Widerhall"
+				'en-us': "Echoed Voice",
+				'fr-fr': "Écho",
+				'es-es': "Eco Voz",
+				'it-it': "Echeggiavoce",
+				'pt-br': "Voz Ecoante",
+				'de-de': "Widerhall"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon’s Echoed Voice attack does 60 more damage (before applying Weakness and Resistance).",
-				fr: "Pendant votre prochain tour, l’attaque Écho de ce Pokémon inflige 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
-				es: "Durante tu próximo turno, el ataque Eco Voz de este Pokémon hace 60 puntos de daño más (antes de aplicar Debilidad y Resistencia).",
-				it: "Durante il tuo prossimo turno, l’attacco Echeggiavoce di questo Pokémon infligge 60 danni in più, prima di aver applicato debolezza e resistenza.",
-				pt: "Durante a sua próxima vez de jogar, o ataque Voz Ecoante deste Pokémon causará 60 pontos de dano a mais (antes de aplicar Fraqueza e Resistência).",
-				de: "Während deines nächsten Zuges fügt die Attacke Widerhall dieses Pokémon 60 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "During your next turn, this Pokémon’s Echoed Voice attack does 60 more damage (before applying Weakness and Resistance).",
+				'fr-fr': "Pendant votre prochain tour, l’attaque Écho de ce Pokémon inflige 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				'es-es': "Durante tu próximo turno, el ataque Eco Voz de este Pokémon hace 60 puntos de daño más (antes de aplicar Debilidad y Resistencia).",
+				'it-it': "Durante il tuo prossimo turno, l’attacco Echeggiavoce di questo Pokémon infligge 60 danni in più, prima di aver applicato debolezza e resistenza.",
+				'pt-br': "Durante a sua próxima vez de jogar, o ataque Voz Ecoante deste Pokémon causará 60 pontos de dano a mais (antes de aplicar Fraqueza e Resistência).",
+				'de-de': "Während deines nächsten Zuges fügt die Attacke Widerhall dieses Pokémon 60 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 			damage: 60,
 
@@ -65,20 +65,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beak Blast",
-				fr: "Bec-Canon",
-				es: "Pico Cañón",
-				it: "Cannonbecco",
-				pt: "Bico Explosivo",
-				de: "Schnabelkanone"
+				'en-us': "Beak Blast",
+				'fr-fr': "Bec-Canon",
+				'es-es': "Pico Cañón",
+				'it-it': "Cannonbecco",
+				'pt-br': "Bico Explosivo",
+				'de-de': "Schnabelkanone"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Burned.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Quemado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene bruciato.",
-				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Queimado.",
-				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt verbrannt."
+				'en-us': "Flip a coin. If heads, your opponent’s Active Pokémon is now Burned.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Quemado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene bruciato.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Queimado.",
+				'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt verbrannt."
 			},
 			damage: 100,
 
@@ -102,7 +102,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Within its beak, its internal gas ignites, explosively launching seeds with enough power to pulverize boulders.",
+		'en-us': "Within its beak, its internal gas ignites, explosively launching seeds with enough power to pulverize boulders.",
 	},
 
 	thirdParty: {

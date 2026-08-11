@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カシオペア",
+		'ja-jp': "カシオペア",
 		'zh-tw': "仙后",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードは、自分の手札がこのカード1枚だけのときにしか使えない。自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。",
+		'ja-jp': "このカードは、自分の手札がこのカード1枚だけのときにしか使えない。自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。",
 		'zh-tw': "這張卡只有在自己的手牌只有這1張時才可使用。 從自己的牌庫任意選擇最多2張卡加入手牌。並且重洗牌庫。",
 	},
 

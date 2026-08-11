@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Mysdibule",
-		en: "Mawile",
-		es: "Mawile",
-		it: "Mawile",
-		pt: "Mawile",
-		de: "Flunkifer"
+		'fr-fr': "Mysdibule",
+		'en-us': "Mawile",
+		'es-es': "Mawile",
+		'it-it': "Mawile",
+		'pt-br': "Mawile",
+		'de-de': "Flunkifer"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			fr: "Mâchouille Malicieuse",
-			en: "Mischievous Crunch",
-			es: "Trituración Malvada",
-			it: "Sgranocchio Birichino",
-			pt: "Mastigada Maliciosa",
-			de: "Gemeiner Knirscher"
+			'fr-fr': "Mâchouille Malicieuse",
+			'en-us': "Mischievous Crunch",
+			'es-es': "Trituración Malvada",
+			'it-it': "Sgranocchio Birichino",
+			'pt-br': "Mastigada Maliciosa",
+			'de-de': "Gemeiner Knirscher"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 30 dégâts pour chaque Énergie {P} attachée à ce Pokémon.",
-			en: "This attack does 30 damage for each {P} Energy attached to this Pokémon.",
-			es: "Este ataque hace 30 puntos de daño por cada Energía {P} unida a este Pokémon.",
-			it: "Questo attacco infligge 30 danni per ogni Energia {P} assegnata a questo Pokémon.",
-			pt: "Este ataque causa 30 pontos de dano para cada Energia {P} ligada a este Pokémon.",
-			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte {P}-Energie 30 Schadenspunkte zu."
+			'fr-fr': "Cette attaque inflige 30 dégâts pour chaque Énergie {P} attachée à ce Pokémon.",
+			'en-us': "This attack does 30 damage for each {P} Energy attached to this Pokémon.",
+			'es-es': "Este ataque hace 30 puntos de daño por cada Energía {P} unida a este Pokémon.",
+			'it-it': "Questo attacco infligge 30 danni per ogni Energia {P} assegnata a questo Pokémon.",
+			'pt-br': "Este ataque causa 30 pontos de dano para cada Energia {P} ligada a este Pokémon.",
+			'de-de': "Diese Attacke fügt für jede an dieses Pokémon angelegte {P}-Energie 30 Schadenspunkte zu."
 		},
 
 		damage: "30×"
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed.",
+		'en-us': "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed.",
 	},
 
 	variants: [

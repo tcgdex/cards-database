@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Ariados"
+		'id-id': "Ariados"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Pokémon yang tidak membuat sarangnya di tempat tertentu. Ia akan berkeliaran mencari makanannya setelah lingkungan sekitar menjadi gelap."
+		'id-id': "Pokémon yang tidak membuat sarangnya di tempat tertentu. Ia akan berkeliaran mencari makanannya setelah lingkungan sekitar menjadi gelap."
 	},
 
 	stage: "Stage1",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Big Net"
+			'id-id': "Big Net"
 		},
 
 		effect: {
-			id: "Selama Pokémon ini ada di Arena, Energi yang dibutuhkan oleh Pokémon Evolusi di Arena Bertarung lawan untuk Mundur bertambah 1."
+			'id-id': "Selama Pokémon ini ada di Arena, Energi yang dibutuhkan oleh Pokémon Evolusi di Arena Bertarung lawan untuk Mundur bertambah 1."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Belitan Benang"
+			'id-id': "Belitan Benang"
 		},
 
 		effect: {
-			id: "Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap Energi yang dibutuhkan oleh Pokémon Bertarung lawan untuk Mundur."
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap Energi yang dibutuhkan oleh Pokémon Bertarung lawan untuk Mundur."
 		},
 
 		damage: "10+",

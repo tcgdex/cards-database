@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴース",
+		'ja-jp': "ゴース",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "睡眠ガス",
+				'ja-jp': "睡眠ガス",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御するポケモンは今眠っています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御するポケモンは今眠っています。",
 			},
 
 		},
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "Destiny Bond",
+				'ja-jp': "Destiny Bond",
 			},
 			effect: {
-				ja: "この攻撃を使用するために、ガストリーに取り付けられた1つのサイキックエネルギーカードを捨てます。相手の次のターン中にポケモンが激しくノックアウトした場合、そのポケモンをノックアウトします。",
+				'ja-jp': "この攻撃を使用するために、ガストリーに取り付けられた1つのサイキックエネルギーカードを捨てます。相手の次のターン中にポケモンが激しくノックアウトした場合、そのポケモンをノックアウトします。",
 			},
 
 		},

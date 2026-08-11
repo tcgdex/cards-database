@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Golduck"
+		'en-us': "Sabrina's Golduck"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Psyduck"
+		'en-us': "Psyduck"
 	},
 
 	stage: "Stage1",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Damage Shift"
+				'en-us': "Damage Shift"
 			},
 			effect: {
-				en: "Move 1 damage counter from each of your Pokémon that has any on it to the Defending Pokémon. (Don't apply Weakness and Resistance.)"
+				'en-us': "Move 1 damage counter from each of your Pokémon that has any on it to the Defending Pokémon. (Don't apply Weakness and Resistance.)"
 			},
 
 		},
@@ -46,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Spray"
+				'en-us': "Water Spray"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage."
 			},
 			damage: "20+",
 

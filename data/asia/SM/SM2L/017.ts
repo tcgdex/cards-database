@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラゴローニャ",
+		'ja-jp': "アローラゴローニャ",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "電気を帯びた 岩石を 発射。 命中 せずとも かするだけで 相手は 痺れ 失神する。",
+		'ja-jp': "電気を帯びた 岩石を 発射。 命中 せずとも かするだけで 相手は 痺れ 失神する。",
 	},
 
 	stage: "Stage2",
@@ -24,14 +24,14 @@ const card: Card = {
 			damage: "80×",
 			cost: ["Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[雷]エネルギーの数ぶんコインを投げ、オモテの数x80ダメージ。",
+				'ja-jp': "このポケモンについている[雷]エネルギーの数ぶんコインを投げ、オモテの数x80ダメージ。",
 			},
 		},
 		{
 			name: { ja: "ヘビーボンバー 200-" },
 			cost: ["Lightning", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンのにげるためのエネルギーの数x30ダメージぶん、このワザのダメージは小さくなる。",
+				'ja-jp': "相手のバトルポケモンのにげるためのエネルギーの数x30ダメージぶん、このワザのダメージは小さくなる。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アローラゴローン",
+		'ja-jp': "アローラゴローン",
 	},
 
 	retreat: 4,

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Poochyena"
+		'id-id': "Poochyena"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Poochyena mengejar-ngejar mangsa bersama gerombolannya. Mereka menghabisi mangsa tersebut ketika telah lelah, tetapi terkadang mereka kabur karena dilawan balik."
+		'id-id': "Poochyena mengejar-ngejar mangsa bersama gerombolannya. Mereka menghabisi mangsa tersebut ketika telah lelah, tetapi terkadang mereka kabur karena dilawan balik."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Step Beruntun"
+			'id-id': "Step Beruntun"
 		},
 
 		effect: {
-			id: "Lempar koin hingga hasilnya sisi belakang. Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lemparan dengan hasil sisi depan."
+			'id-id': "Lempar koin hingga hasilnya sisi belakang. Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lemparan dengan hasil sisi depan."
 		},
 
 		damage: "10×",
 		cost: ["Darkness"]
 	}, {
 		name: {
-			id: "Taring Kegelapan"
+			'id-id': "Taring Kegelapan"
 		},
 
 		damage: 20,

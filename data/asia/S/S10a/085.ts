@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ススキ",
+		'ja-jp': "ススキ",
 	},
 
 	illustrator: "Hitoshi Ariga",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札を2枚引く。自分のバトルポケモンが名前に「ヒスイ」とつくポケモンなら、さらに2枚引く。",
+		'ja-jp': "自分の山札を2枚引く。自分のバトルポケモンが名前に「ヒスイ」とつくポケモンなら、さらに2枚引く。",
 	},
 
 	variants: [

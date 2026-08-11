@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Zapdos"
+		'en-us': "Zapdos"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder"
+				'en-us': "Thunder"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Zapdos does 30 damage to itself."
+				'en-us': "Flip a coin. If tails, Zapdos does 30 damage to itself."
 			},
 			damage: 60,
 
@@ -46,10 +46,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunderbolt"
+				'en-us': "Thunderbolt"
 			},
 			effect: {
-				en: "Discard all Energy cards attached to Zapdos or this attack does nothing."
+				'en-us': "Discard all Energy cards attached to Zapdos or this attack does nothing."
 			},
 			damage: 100,
 
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A legendary bird Pokémon said to appear from clouds while wielding enormous lightning bolts."
+		'en-us': "A legendary bird Pokémon said to appear from clouds while wielding enormous lightning bolts."
 	},
 
 	variants: [

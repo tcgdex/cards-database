@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Reshiram",
+		'en-us': "Reshiram",
 	},
 
 	illustrator: "Aya Kusube",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Outrage",
+				'en-us': "Outrage",
 			},
 			effect: {
-				en: "Does 10 more damage for each damage counter on this Pokémon.",
+				'en-us': "Does 10 more damage for each damage counter on this Pokémon.",
 			},
 			damage: 20,
 
@@ -45,10 +45,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blue Flare",
+				'en-us': "Blue Flare",
 			},
 			effect: {
-				en: "Discard 2 Fire Energy attached to this Pokémon.",
+				'en-us': "Discard 2 Fire Energy attached to this Pokémon.",
 			},
 			damage: 120,
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it.",
+		'en-us': "This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it.",
 	},
 
 	thirdParty: {

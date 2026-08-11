@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Elekid"
+		'id-id': "Elekid"
 	},
 
 	illustrator: "aoki",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Elekid masih belum pintar dalam menampung listrik. Pokémon ini menyelinap diam-diam ke rumah penduduk dan mencari soket listrik untuk memakan listrik."
+		'id-id': "Elekid masih belum pintar dalam menampung listrik. Pokémon ini menyelinap diam-diam ke rumah penduduk dan mencari soket listrik untuk memakan listrik."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Tembakan Berlistrik"
+			'id-id': "Tembakan Berlistrik"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan sejumlah 30 kepada 1 Pokémon lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 30 kepada 1 Pokémon lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
 		}
 	}],
 

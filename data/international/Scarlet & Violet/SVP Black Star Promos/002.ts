@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Fuecoco",
-		fr: "Chochodile",
-		es: "Fuecoco",
-		it: "Fuecoco",
-		pt: "Fuecoco",
-		de: "Krokel"
+		'en-us': "Fuecoco",
+		'fr-fr': "Chochodile",
+		'es-es': "Fuecoco",
+		'it-it': "Fuecoco",
+		'pt-br': "Fuecoco",
+		'de-de': "Krokel"
 	},
 
 	rarity: "Promo",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Super Singe",
-			fr: "Super Roussi",
-			es: "Superquemadura",
-			it: "Super Scottata",
-			pt: "Superchamuscada",
-			de: "Super-Versengung"
+			'en-us': "Super Singe",
+			'fr-fr': "Super Roussi",
+			'es-es': "Superquemadura",
+			'it-it': "Super Scottata",
+			'pt-br': "Superchamuscada",
+			'de-de': "Super-Versengung"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+			'en-us': "Your opponent's Active Pokémon is now Burned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 		},
 
 		damage: 30
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "Ryuta Fuse",
 	description: {
-		en: "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
+		'en-us': "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
 	},
 	variants: [
 		{

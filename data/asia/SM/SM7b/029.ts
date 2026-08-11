@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キルリア",
+		'ja-jp': "キルリア",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "サイコパワーを 操り まわりの 空間を ねじ曲げる ことで 未来を 見通す ことが できる。",
+		'ja-jp': "サイコパワーを 操り まわりの 空間を ねじ曲げる ことで 未来を 見通す ことが できる。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Fairy", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ラルトス",
+		'ja-jp': "ラルトス",
 	},
 
 	retreat: 1,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Sawk",
-		fr: "Karaclée",
-		es: "Sawk",
-		it: "Sawk",
-		pt: "Sawk",
-		de: "Karadonis"
+		'en-us': "Sawk",
+		'fr-fr': "Karaclée",
+		'es-es': "Sawk",
+		'it-it': "Sawk",
+		'pt-br': "Sawk",
+		'de-de': "Karadonis"
 	},
 
 	illustrator: "Naoki Saito",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Low Sweep",
-				fr: "Balayette",
+				'en-us': "Low Sweep",
+				'fr-fr': "Balayette",
 			},
 
 			damage: 20,
@@ -47,8 +47,8 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Beatdown",
-				fr: "Dérouillée",
+				'en-us': "Beatdown",
+				'fr-fr': "Dérouillée",
 			},
 
 			damage: 40,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The sound of Sawk punching boulders and trees can be heard all the way from the mountains where they train.",
+		'en-us': "The sound of Sawk punching boulders and trees can be heard all the way from the mountains where they train.",
 	},
 
 	thirdParty: {

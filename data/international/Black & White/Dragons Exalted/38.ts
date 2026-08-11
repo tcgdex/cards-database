@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Mareep",
-		fr: "Wattouat",
-		es: "Mareep",
-		it: "Mareep",
-		pt: "Mareep",
-		de: "Voltilamm"
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat",
+		'es-es': "Mareep",
+		'it-it': "Mareep",
+		'pt-br': "Mareep",
+		'de-de': "Voltilamm"
 	},
 
 	illustrator: "sui",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cotton Guard",
-				fr: "Cotogarde",
+				'en-us': "Cotton Guard",
+				'fr-fr': "Cotogarde",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'en-us': "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Jolt",
-				fr: "Secousse Tonnerre",
+				'en-us': "Thunder Jolt",
+				'fr-fr': "Secousse Tonnerre",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 10 dégâts.",
+				'en-us': "Flip a coin. If tails, this Pokémon does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 10 dégâts.",
 			},
 			damage: 30,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking.",
+		'en-us': "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking.",
 	},
 
 	thirdParty: {

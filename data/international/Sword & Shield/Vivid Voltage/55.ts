@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [595],
 
 	name: {
-		en: "Joltik",
-		fr: "Statitik",
-		es: "Joltik",
-		it: "Joltik",
-		pt: "Joltik",
-		de: "Wattzapf"
+		'en-us': "Joltik",
+		'fr-fr': "Statitik",
+		'es-es': "Joltik",
+		'it-it': "Joltik",
+		'pt-br': "Joltik",
+		'de-de': "Wattzapf"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Bug Bite",
-				fr: "Piqûre",
-				es: "Picadura",
-				it: "Coleomorso",
-				pt: "Picada",
-				de: "Käferbiss"
+				'en-us': "Bug Bite",
+				'fr-fr': "Piqûre",
+				'es-es': "Picadura",
+				'it-it': "Coleomorso",
+				'pt-br': "Picada",
+				'de-de': "Käferbiss"
 			},
 
 			damage: 20,
@@ -56,7 +56,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Joltik can be found clinging to other Pokémon. It's soaking up static electricity because it can't produce a charge on its own."
+		'en-us': "Joltik can be found clinging to other Pokémon. It's soaking up static electricity because it can't produce a charge on its own."
 	},
 
 	variants: [

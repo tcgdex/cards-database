@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Spearow",
-		fr: "Piafabec",
-		es: "Spearow",
-		it: "Spearow",
-		pt: "Spearow",
-		de: "Habitak"
+		'en-us': "Spearow",
+		'fr-fr': "Piafabec",
+		'es-es': "Spearow",
+		'it-it': "Spearow",
+		'pt-br': "Spearow",
+		'de-de': "Habitak"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Glide",
-				fr: "Glissement",
-				es: "Planeo",
-				it: "Aliante",
-				pt: "Planeio",
-				de: "Gleiten"
+				'en-us': "Glide",
+				'fr-fr': "Glissement",
+				'es-es': "Planeo",
+				'it-it': "Aliante",
+				'pt-br': "Planeio",
+				'de-de': "Gleiten"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Speed Dive",
-				fr: "Plongée Rapide",
-				es: "Picado Rápido",
-				it: "Immersione Rapida",
-				pt: "Mergulho Veloz",
-				de: "Tempohechtsprung"
+				'en-us': "Speed Dive",
+				'fr-fr': "Plongée Rapide",
+				'es-es': "Picado Rápido",
+				'it-it': "Immersione Rapida",
+				'pt-br': "Mergulho Veloz",
+				'de-de': "Tempohechtsprung"
 			},
 
 			damage: 20,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its reckless nature leads it to stand up to others—even large Pokémon—if it has to protect its territory.",
+		'en-us': "Its reckless nature leads it to stand up to others—even large Pokémon—if it has to protect its territory.",
 	},
 
 	thirdParty: {

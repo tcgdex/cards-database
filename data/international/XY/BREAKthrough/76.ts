@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Sandslash",
-		fr: "Sablaireau",
-		es: "Sandslash",
-		it: "Sandslash",
-		pt: "Sandslash",
-		de: "Sandamer"
+		'en-us': "Sandslash",
+		'fr-fr': "Sablaireau",
+		'es-es': "Sandslash",
+		'it-it': "Sandslash",
+		'pt-br': "Sandslash",
+		'de-de': "Sandamer"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sandshrew",
-		fr: "Sabelette",
-		es: "Sandshrew",
-		it: "Sandshrew",
-		pt: "Sandshrew",
-		de: "Sandan"
+		'en-us': "Sandshrew",
+		'fr-fr': "Sabelette",
+		'es-es': "Sandshrew",
+		'it-it': "Sandshrew",
+		'pt-br': "Sandshrew",
+		'de-de': "Sandan"
 	},
 
 	stage: "Stage1",
@@ -43,12 +43,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				es: "Cuchillada",
-				it: "Lacerazione",
-				pt: "Talho",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'es-es': "Cuchillada",
+				'it-it': "Lacerazione",
+				'pt-br': "Talho",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 20,
@@ -61,20 +61,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swift",
-				fr: "Météores",
-				es: "Rapidez",
-				it: "Comete",
-				pt: "Ataque Veloz",
-				de: "Sternschauer"
+				'en-us': "Swift",
+				'fr-fr': "Météores",
+				'es-es': "Rapidez",
+				'it-it': "Comete",
+				'pt-br': "Ataque Veloz",
+				'de-de': "Sternschauer"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, or any other effects on your opponent's Active Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon Actif de votre adversaire.",
-				es: "El daño de este ataque no se ve afectado por Debilidad, Resistencia o cualquier otro efecto en el Pokémon Activo de tu rival.",
-				it: "I danni di questo attacco non sono influenzati dalla debolezza, dalla resistenza o da qualsiasi altro effetto presente sul Pokémon attivo del tuo avversario.",
-				pt: "Os danos deste ataque não são afetados por Fraqueza, Resistência, ou qualquer outro efeito no Pokémon Ativo do seu oponente.",
-				de: "Der Schaden dieses Angriffs wird durch Schwäche, Resistenz oder alle anderen Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, or any other effects on your opponent's Active Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon Actif de votre adversaire.",
+				'es-es': "El daño de este ataque no se ve afectado por Debilidad, Resistencia o cualquier otro efecto en el Pokémon Activo de tu rival.",
+				'it-it': "I danni di questo attacco non sono influenzati dalla debolezza, dalla resistenza o da qualsiasi altro effetto presente sul Pokémon attivo del tuo avversario.",
+				'pt-br': "Os danos deste ataque não são afetados por Fraqueza, Resistência, ou qualquer outro efeito no Pokémon Ativo do seu oponente.",
+				'de-de': "Der Schaden dieses Angriffs wird durch Schwäche, Resistenz oder alle anderen Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
 			},
 			damage: 80,
 
@@ -91,7 +91,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
+		'en-us': "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Ninjask",
-		fr: "Ninjask",
-		de: "Ninjask"
+		'en-us': "Ninjask",
+		'fr-fr': "Ninjask",
+		'de-de': "Ninjask"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nincada",
-		fr: "Ningale"
+		'en-us': "Nincada",
+		'fr-fr': "Ningale"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Supersonic",
-				fr: "Ultrason",
-				de: "Supersonic"
+				'en-us': "Supersonic",
+				'fr-fr': "Ultrason",
+				'de-de': "Supersonic"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending ´Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Flip a coin. If heads, the Defending ´Pokémon is now Confused."
 			},
 			damage: 10,
 
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sonic Wing",
-				fr: "Aile supersonique",
-				de: "Sonic Wing"
+				'en-us': "Sonic Wing",
+				'fr-fr': "Aile supersonique",
+				'de-de': "Sonic Wing"
 			},
 			effect: {
-				en: "This attack's damage is not affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				de: "This attack's damage is not affected by Resistance."
+				'en-us': "This attack's damage is not affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'de-de': "This attack's damage is not affected by Resistance."
 			},
 			damage: 30,
 

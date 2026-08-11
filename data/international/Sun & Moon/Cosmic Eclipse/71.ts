@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Chinchou",
-		fr: "Loupio",
-		es: "Chinchou",
-		it: "Chinchou",
-		pt: "Chinchou",
-		de: "Lampi"
+		'en-us': "Chinchou",
+		'fr-fr': "Loupio",
+		'es-es': "Chinchou",
+		'it-it': "Chinchou",
+		'pt-br': "Chinchou",
+		'de-de': "Lampi"
 	},
 
 	illustrator: "Sekio",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scout",
-				fr: "Espionnage",
-				es: "Explorar",
-				it: "Esplorazione",
-				pt: "Explorador",
-				de: "Späher"
+				'en-us': "Scout",
+				'fr-fr': "Espionnage",
+				'es-es': "Explorar",
+				'it-it': "Esplorazione",
+				'pt-br': "Explorador",
+				'de-de': "Späher"
 			},
 			effect: {
-				en: "Your opponent reveals their hand.",
-				fr: "Votre adversaire dévoile sa main.",
-				es: "Tu rival enseña las cartas de su mano.",
-				it: "Il tuo avversario mostra le carte che ha in mano.",
-				pt: "Seu oponente revela a própria mão.",
-				de: "Dein Gegner zeigt dir seine Handkarten."
+				'en-us': "Your opponent reveals their hand.",
+				'fr-fr': "Votre adversaire dévoile sa main.",
+				'es-es': "Tu rival enseña las cartas de su mano.",
+				'it-it': "Il tuo avversario mostra le carte che ha in mano.",
+				'pt-br': "Seu oponente revela a própria mão.",
+				'de-de': "Dein Gegner zeigt dir seine Handkarten."
 			},
 
 		},
@@ -56,12 +56,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Razor Fin",
-				fr: "Aileron-Rasoir",
-				es: "Aleta Afilada",
-				it: "Pinnalama",
-				pt: "Barbatana Cortante",
-				de: "Rasierflosse"
+				'en-us': "Razor Fin",
+				'fr-fr': "Aileron-Rasoir",
+				'es-es': "Aleta Afilada",
+				'it-it': "Pinnalama",
+				'pt-br': "Barbatana Cortante",
+				'de-de': "Rasierflosse"
 			},
 
 			damage: 10,
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its two antennae glow softly to lure in prey, making it a useful Pokémon for night fishing.",
+		'en-us': "Its two antennae glow softly to lure in prey, making it a useful Pokémon for night fishing.",
 	},
 
 	thirdParty: {

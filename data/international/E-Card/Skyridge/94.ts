@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Seel",
-		de: "Jurob"
+		'en-us': "Seel",
+		'de-de': "Jurob"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Cold Breath",
-				de: "Kalter Atem"
+				'en-us': "Cold Breath",
+				'de-de': "Kalter Atem"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				de: "Wirf eine Münze. Bei\"Kopf\" schläft das verteidigende Pokémon jetzt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'de-de': "Wirf eine Münze. Bei\"Kopf\" schläft das verteidigende Pokémon jetzt."
 			},
 			damage: 10,
 

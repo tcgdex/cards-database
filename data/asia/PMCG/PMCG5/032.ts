@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カスミのゴルダック",
+		'ja-jp': "カスミのゴルダック",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "電子ビーム",
+				'ja-jp': "電子ビーム",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、MistyのGolduckに取り付けられたすべてのエネルギーカードを捨ててください。",
+				'ja-jp': "コインをひっくり返します。尾の場合、MistyのGolduckに取り付けられたすべてのエネルギーカードを捨ててください。",
 			},
 			damage: 40,
 		},
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "スーパー除去",
+				'ja-jp': "スーパー除去",
 			},
 			effect: {
-				ja: "コインをひっくり返します。ヘッドの場合は、エネルギーカードを備えた相手のポケモンのそれぞれに1枚のエネルギーカードを選択し、それらのエネルギーカードを破棄します。",
+				'ja-jp': "コインをひっくり返します。ヘッドの場合は、エネルギーカードを備えた相手のポケモンのそれぞれに1枚のエネルギーカードを選択し、それらのエネルギーカードを破棄します。",
 			},
 		},
 	],

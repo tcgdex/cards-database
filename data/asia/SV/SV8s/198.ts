@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Vibrava"
+		'id-id': "Vibrava"
 	},
 
 	illustrator: "toriyufu",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Ia memvibrasikan sayapnya dengan sangat kencang untuk menghasilkan gelombang ultrasonik. Ia melelehkan mangsanya yang pingsan dengan cairan pencernaannya."
+		'id-id': "Ia memvibrasikan sayapnya dengan sangat kencang untuk menghasilkan gelombang ultrasonik. Ia melelehkan mangsanya yang pingsan dengan cairan pencernaannya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Suara Melengking"
+			'id-id': "Suara Melengking"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, kerusakan akibat serangan yang diterima Pokémon yang menerima serangan ini bertambah sejumlah 50."
+			'id-id': "Pada giliran sendiri berikutnya, kerusakan akibat serangan yang diterima Pokémon yang menerima serangan ini bertambah sejumlah 50."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Cutter Wind"
+			'id-id': "Cutter Wind"
 		},
 
 		damage: 50,

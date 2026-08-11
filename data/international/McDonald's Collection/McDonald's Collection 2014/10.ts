@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2014'
 
 const card: Card = {
@@ -7,12 +7,12 @@ const card: Card = {
 	],
 	illustrator: "5ban Graphics",
 	description: {
-		en: "They use their large ears to dig burrows. They will dig the whole night through."
+		'en-us': "They use their large ears to dig burrows. They will dig the whole night through."
 	},
 	set: Set,
 	name: {
-		en: "Bunnelby",
-		fr: "Sapereau",
+		'en-us': "Bunnelby",
+		'fr-fr': "Sapereau",
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
 			},
 			damage: "20",
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Relicanth",
-		fr: "Relicanth",
-		de: "Relicanth"
+		'en-us': "Relicanth",
+		'fr-fr': "Relicanth",
+		'de-de': "Relicanth"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Deep Sea Pressure",
-				fr: "Pression abyssale",
-				de: "Tiefseedruck"
+				'en-us': "Deep Sea Pressure",
+				'fr-fr': "Pression abyssale",
+				'de-de': "Tiefseedruck"
 			},
 			effect: {
-				en: "During your opponent's next turn, the Defending Pokémon's Retreat Cost is ColorlessColorless more.",
-				fr: "Lors du prochain tour de votre adversaire, le Coût de retraite du Pokémon Défenseur est  de plus.",
-				de: "Während des nächsten Zuges deines Gegners sind die Rückzugskosten des Verteidigenden Pokémon um  erhöht."
+				'en-us': "During your opponent's next turn, the Defending Pokémon's Retreat Cost is ColorlessColorless more.",
+				'fr-fr': "Lors du prochain tour de votre adversaire, le Coût de retraite du Pokémon Défenseur est  de plus.",
+				'de-de': "Während des nächsten Zuges deines Gegners sind die Rückzugskosten des Verteidigenden Pokémon um  erhöht."
 			},
 			damage: 20,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Wave",
-				fr: "Aqua-vague",
-				de: "Aquawelle"
+				'en-us': "Aqua Wave",
+				'fr-fr': "Aqua-vague",
+				'de-de': "Aquawelle"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 40 damage plus 10 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 40 damage plus 10 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque face.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "40+",
 
@@ -73,7 +73,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A rare Pokémon discovered during a deep-sea exploration. It has not changed in over 100 million years."
+		'en-us': "A rare Pokémon discovered during a deep-sea exploration. It has not changed in over 100 million years."
 	},
 
 	variants: [

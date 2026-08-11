@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガチグマ",
+		'ja-jp': "ガチグマ",
 		'zh-tw': "月月熊",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ヒスイの地に 敷かれし 湿地の土こそ 頑丈なる体躯と 泥炭を 自在に 扱う 新たな 器量 もたらしたと 考察す。",
+		'ja-jp': "ヒスイの地に 敷かれし 湿地の土こそ 頑丈なる体躯と 泥炭を 自在に 扱う 新たな 器量 もたらしたと 考察す。",
 		'zh-tw': "考察結果顯示，正是遍布在洗翠大地上的濕地土壤，造就了牠堅實 的軀體和自在運用泥炭的新能力。",
 	},
 
@@ -23,24 +23,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ピートハント",
+				'ja-jp': "ピートハント",
 				'zh-tw': "泥炭搜尋",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュから好きなカードを2枚まで選び、相手に見せて、手札に加える。",
+				'ja-jp': "自分のトラッシュから好きなカードを2枚まで選び、相手に見せて、手札に加える。",
 				'zh-tw': "從自己的棄牌區任意選擇最多2張卡，在給對手看過後加入手牌。",
 			},
 		},
 		{
 			name: {
-				ja: "きょたいでつっこむ",
+				'ja-jp': "きょたいでつっこむ",
 				'zh-tw': "巨體碰撞",
 			},
 			damage: 200,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを2個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。",
 				'zh-tw': "選擇2個這隻寶可夢身上附加的能量，將其丟棄。",
 			},
 		},
@@ -60,7 +60,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "リングマ",
+		'ja-jp': "リングマ",
 	},
 
 	retreat: 4,

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Iron Treads"
+		'id-id': "Iron Treads"
 	},
 
 	illustrator: "Tonji Matsuno",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Terdapat laporan kesaksian atas Pokémon ini dalam beberapa tahun terakhir. Pokémon yang mirip dengan objek misterius yang tertera dalam jurnal ekspedisi kuno."
+		'id-id': "Terdapat laporan kesaksian atas Pokémon ini dalam beberapa tahun terakhir. Pokémon yang mirip dengan objek misterius yang tertera dalam jurnal ekspedisi kuno."
 	},
 
 	stage: "Basic",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Dual Core"
+			'id-id': "Dual Core"
 		},
 
 		effect: {
-			id: "Selama Pokémon ini mengenakan Pemacu Energi Futur, Pokémon ini menjadi 2 tipe yaitu {Petarung} dan {Logam}."
+			'id-id': "Selama Pokémon ini mengenakan Pemacu Energi Futur, Pokémon ini menjadi 2 tipe yaitu {Petarung} dan {Logam}."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Pass Wheel"
+			'id-id': "Pass Wheel"
 		},
 
 		effect: {
-			id: "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu pindahkan ke Pokémon Cadangan."
+			'id-id': "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu pindahkan ke Pokémon Cadangan."
 		},
 
 		damage: 60,

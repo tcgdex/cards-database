@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S12"
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "圓絲蛛",
-		th: "อิโตมารุ",
-		ja: "イトマル"
+		'th-th': "อิโตมารุ",
+		'ja-jp': "イトマル"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -17,8 +17,8 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "牙齒的毒性並不強烈，但用來削弱那些掛在蛛網上 無法動彈的獵物是綽綽有餘。",
-		th: "พิษที่เขี้ยวไม่ร้ายแรงเท่าไหร่ แต่ก็เพียงพอให้เหยื่อที่มาเกาะรังอ่อนแรงลง",
-		ja: "キバの 毒は さほど 強くないが 巣に かかって 動けない 獲物を 弱らせるには 充分。"
+		'th-th': "พิษที่เขี้ยวไม่ร้ายแรงเท่าไหร่ แต่ก็เพียงพอให้เหยื่อที่มาเกาะรังอ่อนแรงลง",
+		'ja-jp': "キバの 毒は さほど 強くないが 巣に かかって 動けない 獲物を 弱らせるには 充分。"
 	},
 
 	stage: "Basic",
@@ -26,8 +26,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "蟲咬",
-			th: "แมลงกัด",
-			ja: "むしくい"
+			'th-th': "แมลงกัด",
+			'ja-jp': "むしくい"
 		},
 
 		damage: 30,

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Shellder"
+		'en-us': "Misty's Shellder"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle"
+				'en-us': "Tackle"
 			},
 
 			damage: 10,
@@ -39,10 +39,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Clamp"
+				'en-us': "Clamp"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing (not even damage)."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing (not even damage)."
 			},
 
 		},

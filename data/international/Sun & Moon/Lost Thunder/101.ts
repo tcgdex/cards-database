@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Litwick",
-		fr: "Funécire",
-		es: "Litwick",
-		it: "Litwick",
-		pt: "Litwick",
-		de: "Lichtel"
+		'en-us': "Litwick",
+		'fr-fr': "Funécire",
+		'es-es': "Litwick",
+		'it-it': "Litwick",
+		'pt-br': "Litwick",
+		'de-de': "Lichtel"
 	},
 
 	illustrator: "Asako Ito",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Haunt",
-				fr: "Hanter",
-				es: "Espanto",
-				it: "Infestare",
-				pt: "Assombrar",
-				de: "Spuk"
+				'en-us': "Haunt",
+				'fr-fr': "Hanter",
+				'es-es': "Espanto",
+				'it-it': "Infestare",
+				'pt-br': "Assombrar",
+				'de-de': "Spuk"
 			},
 			effect: {
-				en: "Put 1 damage counter on your opponent’s Active Pokémon.",
-				fr: "Placez un marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
-				es: "Pon 1 contador de daño en el Pokémon Activo de tu rival.",
-				it: "Metti un segnalino danno sul Pokémon attivo del tuo avversario.",
-				pt: "Coloque 1 contador de dano no Pokémon Ativo do seu oponente.",
-				de: "Lege 1 Schadensmarke auf das Aktive Pokémon deines Gegners."
+				'en-us': "Put 1 damage counter on your opponent’s Active Pokémon.",
+				'fr-fr': "Placez un marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
+				'es-es': "Pon 1 contador de daño en el Pokémon Activo de tu rival.",
+				'it-it': "Metti un segnalino danno sul Pokémon attivo del tuo avversario.",
+				'pt-br': "Coloque 1 contador de dano no Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 1 Schadensmarke auf das Aktive Pokémon deines Gegners."
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Litwick shines a light that absorbs the life energy of people and Pokémon, which becomes the fuel that it burns.",
+		'en-us': "Litwick shines a light that absorbs the life energy of people and Pokémon, which becomes the fuel that it burns.",
 	},
 
 	thirdParty: {

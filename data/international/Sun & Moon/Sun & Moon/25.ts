@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Torracat",
-		fr: "Matoufeu",
-		es: "Torracat",
-		it: "Torracat",
-		pt: "Torracat",
-		de: "Miezunder"
+		'en-us': "Torracat",
+		'fr-fr': "Matoufeu",
+		'es-es': "Torracat",
+		'it-it': "Torracat",
+		'pt-br': "Torracat",
+		'de-de': "Miezunder"
 	},
 
 	illustrator: "TOKIYA",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Litten",
-		fr: "Flamiaou",
+		'en-us': "Litten",
+		'fr-fr': "Flamiaou",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fury Swipes",
-				fr: "Combo-Griffe",
-				es: "Golpes Furia",
-				it: "Sfuriate",
-				pt: "Golpes de Fúria",
-				de: "Kratzfurie"
+				'en-us': "Fury Swipes",
+				'fr-fr': "Combo-Griffe",
+				'es-es': "Golpes Furia",
+				'it-it': "Sfuriate",
+				'pt-br': "Golpes de Fúria",
+				'de-de': "Kratzfurie"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 20 damage for each heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
-				es: "Lanza 3 monedas. Este ataque hace 20 puntos de daño por cada cara.",
-				it: "Lancia tre volte una moneta. Questo attacco infligge 20 danni ogni volta che esce testa.",
-				pt: "Jogue 3 moedas. Este ataque causa 20 pontos de dano para cada cara.",
-				de: "Wirf 3 Münzen. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu."
+				'en-us': "Flip 3 coins. This attack does 20 damage for each heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 3 monedas. Este ataque hace 20 puntos de daño por cada cara.",
+				'it-it': "Lancia tre volte una moneta. Questo attacco infligge 20 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 3 moedas. Este ataque causa 20 pontos de dano para cada cara.",
+				'de-de': "Wirf 3 Münzen. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu."
 			},
 			damage: "20×",
 
@@ -64,20 +64,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-Flammes",
-				es: "Lanzallamas",
-				it: "Lanciafiamme",
-				pt: "Lança-chamas",
-				de: "Flammenwurf"
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-Flammes",
+				'es-es': "Lanzallamas",
+				'it-it': "Lanciafiamme",
+				'pt-br': "Lança-chamas",
+				'de-de': "Flammenwurf"
 			},
 			effect: {
-				en: "Discard an Energy from this Pokémon.",
-				fr: "Défaussez une Énergie de ce Pokémon.",
-				es: "Descarta 1 Energía de este Pokémon.",
-				it: "Scarta un’Energia assegnata a questo Pokémon.",
-				pt: "Descarte 1 Energia deste Pokémon.",
-				de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard an Energy from this Pokémon.",
+				'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+				'es-es': "Descarta 1 Energía de este Pokémon.",
+				'it-it': "Scarta un’Energia assegnata a questo Pokémon.",
+				'pt-br': "Descarte 1 Energia deste Pokémon.",
+				'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 90,
 
@@ -94,7 +94,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "At its throat, it bears a bell of fire. The bell rings brightly whenever this Pokémon spits fire.",
+		'en-us': "At its throat, it bears a bell of fire. The bell rings brightly whenever this Pokémon spits fire.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Dratini δ",
-		fr: "Minidraco δ",
-		de: "Dratini"
+		'en-us': "Dratini δ",
+		'fr-fr': "Minidraco δ",
+		'de-de': "Dratini"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hook",
-				fr: "Crochet",
-				de: "Hook"
+				'en-us': "Hook",
+				'fr-fr': "Crochet",
+				'de-de': "Hook"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Jolt",
-				fr: "Secousse tonnerre",
-				de: "Thunder Jolt"
+				'en-us': "Thunder Jolt",
+				'fr-fr': "Secousse tonnerre",
+				'de-de': "Thunder Jolt"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Dratini does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Minidraco s'inflige 10 dégâts.",
-				de: "Flip a coin. If tails, Dratini does 10 damage to itself."
+				'en-us': "Flip a coin. If tails, Dratini does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Minidraco s'inflige 10 dégâts.",
+				'de-de': "Flip a coin. If tails, Dratini does 10 damage to itself."
 			},
 			damage: 30,
 

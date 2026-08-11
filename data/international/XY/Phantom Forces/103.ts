@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Roller Skates",
-		fr: "Rollers",
-		es: "Patines",
-		it: "Pattini",
-		pt: "Patins",
-		de: "Rollerskates"
+		'en-us': "Roller Skates",
+		'fr-fr': "Rollers",
+		'es-es': "Patines",
+		'it-it': "Pattini",
+		'pt-br': "Patins",
+		'de-de': "Rollerskates"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,12 +17,12 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Lancez une pièce. Si c'est face, piochez 3 cartes.",
-		en: "Flip a coin. If heads, draw 3 cards.",
-		es: "Lanza 1 moneda. Si sale cara, roba 3 cartas.",
-		it: "Lancia una moneta. Se esce testa, pesca tre carte.",
-		pt: "Jogue uma moeda. Se sair cara, compre 3 cards.",
-		de: "Wirf 1 Münze. Ziehe bei \"Kopf\" 3 Karten."
+		'fr-fr': "Lancez une pièce. Si c'est face, piochez 3 cartes.",
+		'en-us': "Flip a coin. If heads, draw 3 cards.",
+		'es-es': "Lanza 1 moneda. Si sale cara, roba 3 cartas.",
+		'it-it': "Lancia una moneta. Se esce testa, pesca tre carte.",
+		'pt-br': "Jogue uma moeda. Se sair cara, compre 3 cards.",
+		'de-de': "Wirf 1 Münze. Ziehe bei \"Kopf\" 3 Karten."
 	},
 
 	trainerType: "Item",

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Numel",
-		fr: "Chamallot",
-		de: "Camaub"
+		'en-us': "Numel",
+		'fr-fr': "Chamallot",
+		'de-de': "Camaub"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'de-de': "Walzer"
 			},
 
 			damage: 10,
@@ -42,14 +42,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Kindle",
-				fr: "Enflammer",
-				de: "Anzünden"
+				'en-us': "Kindle",
+				'fr-fr': "Enflammer",
+				'de-de': "Anzünden"
 			},
 			effect: {
-				en: "Discard a Fire Energy card attached to Numel and then discard an Energy card attached to the Defending Pokémon.",
-				fr: "Défaussez une carte Énergie  attachée à Chamallot puis une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Lege 1 -Energiekarte von Camaub auf deinen Ablagestapel und lege danach eine Energiekarte vom Verteidigenden Pokémon auf den Ablagestapel deines Gegners."
+				'en-us': "Discard a Fire Energy card attached to Numel and then discard an Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Défaussez une carte Énergie  attachée à Chamallot puis une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Lege 1 -Energiekarte von Camaub auf deinen Ablagestapel und lege danach eine Energiekarte vom Verteidigenden Pokémon auf den Ablagestapel deines Gegners."
 			},
 			damage: 10,
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Skorupi",
-		fr: "Rapion",
-		de: "Pionskora"
+		'en-us': "Skorupi",
+		'fr-fr': "Rapion",
+		'de-de': "Pionskora"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Paralyzing Clamp",
-				fr: "Griffe paralysante",
-				de: "Lähmschnapper"
+				'en-us': "Paralyzing Clamp",
+				'fr-fr': "Griffe paralysante",
+				'de-de': "Lähmschnapper"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen. Bei \"Kopf\" ist das Verteidigenede Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, cette attaque ne fait rien. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen. Bei \"Kopf\" ist das Verteidigenede Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -54,7 +54,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It burrows under the sand to lie in wait for prey. Its tail claws can inject its prey with a savage poison."
+		'en-us': "It burrows under the sand to lie in wait for prey. Its tail claws can inject its prey with a savage poison."
 	},
 
 	variants: [

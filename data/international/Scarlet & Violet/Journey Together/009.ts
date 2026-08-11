@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Karrablast",
-		fr: "Carabing",
-		es: "Karrablast",
-		de: "Laukaps",
-		it: "Karrablast",
-		pt: "Karrablast",
+		'en-us': "Karrablast",
+		'fr-fr': "Carabing",
+		'es-es': "Karrablast",
+		'de-de': "Laukaps",
+		'it-it': "Karrablast",
+		'pt-br': "Karrablast",
 		'es-mx': "Karrablast"
 	},
 
@@ -25,22 +25,22 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Push Down",
-			fr: "Recul",
-			es: "Oprimir",
-			de: "Runterdrücken",
-			it: "Spintonare",
-			pt: "Rebaixar",
+			'en-us': "Push Down",
+			'fr-fr': "Recul",
+			'es-es': "Oprimir",
+			'de-de': "Runterdrücken",
+			'it-it': "Spintonare",
+			'pt-br': "Rebaixar",
 			'es-mx': "Oprimir"
 		},
 
 		effect: {
-			en: "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
-			fr: "Envoyez le Pokémon Actif de l'adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
-			es: "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
-			de: "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)",
-			it: "Sposta il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
-			pt: "Mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)",
+			'en-us': "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+			'fr-fr': "Envoyez le Pokémon Actif de l'adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
+			'es-es': "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
+			'de-de': "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)",
+			'it-it': "Sposta il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
+			'pt-br': "Mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)",
 			'es-mx': "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo)."
 		},
 

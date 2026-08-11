@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウリムー",
+		'ja-jp': "ウリムー",
 	},
 
 	illustrator: "Eri Yamaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "エサを 探すため 鼻を こすり合わせ 地面を 掘っている。 たまに 温泉を 掘り当てる。",
+		'ja-jp': "エサを 探すため 鼻を こすり合わせ 地面を 掘っている。 たまに 温泉を 掘り当てる。",
 	},
 
 	stage: "Basic",

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クリムガン",
+		'ja-jp': "クリムガン",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "日光を 翼で 受けて 体を 温める。 体温が 下がると 動けなくなってしまう。",
+		'ja-jp': "日光を 翼で 受けて 体を 温める。 体温が 下がると 動けなくなってしまう。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "さめはだ" },
 			effect: {
-				ja: "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを3個のせる。",
+				'ja-jp': "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを3個のせる。",
 			},
 		},
 	],

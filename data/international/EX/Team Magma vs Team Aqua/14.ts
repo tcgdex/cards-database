@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Crawdaunt",
-		fr: "Colhomard de Team Aqua",
-		de: "Team Aquas Krebutack"
+		'en-us': "Team Aqua's Crawdaunt",
+		'fr-fr': "Colhomard de Team Aqua",
+		'de-de': "Team Aquas Krebutack"
 	},
 
 	illustrator: "Nakaoka",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Reaction",
-				fr: "Allergie poison",
-				de: "Poison Reaction"
+				'en-us': "Poison Reaction",
+				'fr-fr': "Allergie poison",
+				'de-de': "Poison Reaction"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur est Empoisonné, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 20 more damage."
+				'en-us': "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 20 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est Empoisonné, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 20 more damage."
 			},
 			damage: "20+",
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Claw",
-				fr: "Double-griffe",
-				de: "Double Claw"
+				'en-us': "Double Claw",
+				'fr-fr': "Double-griffe",
+				'de-de': "Double Claw"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads."
+				'en-us': "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads."
 			},
 			damage: "30+",
 

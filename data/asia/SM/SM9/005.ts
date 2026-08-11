@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スピアー",
+		'ja-jp': "スピアー",
 	},
 
 	illustrator: "You Iribi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "両手と お尻にある ３本の 毒針で 相手を 刺して 刺して 刺しまくって 攻撃する。",
+		'ja-jp': "両手と お尻にある ３本の 毒針で 相手を 刺して 刺して 刺しまくって 攻撃する。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "みちづればり" },
 			cost: ["Grass"],
 			effect: {
-				ja: "このワザは、このポケモンにダメカンがのっているときにしか使えない。おたがいのバトルポケモンをきぜつさせる。",
+				'ja-jp': "このワザは、このポケモンにダメカンがのっているときにしか使えない。おたがいのバトルポケモンをきぜつさせる。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも10ダメージ。",
+				'ja-jp': "このポケモンにも10ダメージ。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コクーン",
+		'ja-jp': "コクーン",
 	},
 
 	retreat: 1,

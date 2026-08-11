@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シャワーズ",
+		'ja-jp': "シャワーズ",
 		'zh-tw': "嘟嘟利V",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "シャワーズの 全身の ひれが 小刻みに 震えはじめるのは 数時間後に 雨が降る しるし。",
+		'ja-jp': "シャワーズの 全身の ひれが 小刻みに 震えはじめるのは 数時間後に 雨が降る しるし。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "みずがくれ" },
 			effect: {
-				ja: "このポケモンは、ベンチにいるかぎり、ワザのダメージを受けない。",
+				'ja-jp': "このポケモンは、ベンチにいるかぎり、ワザのダメージを受けない。",
 			},
 		},
 	],
@@ -32,13 +32,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ハイドロポンプ",
+				'ja-jp': "ハイドロポンプ",
 				'zh-tw': "接二連三",
 			},
 			damage: "60+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[水]エネルギーの数×20ダメージ追加。",
+				'ja-jp': "このポケモンについている[水]エネルギーの数×20ダメージ追加。",
 				'zh-tw': "在下個自己的回合，這隻寶可夢使用的招式，對對手的戰鬥寶可夢造成的傷害「+80」點。",
 			},
 		},
@@ -58,7 +58,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 2,

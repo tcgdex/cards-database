@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shroodle",
-		fr: "Gribouraigne",
-		es: "Shroodle",
-		it: "Shroodle",
-		pt: "Shroodle",
-		de: "Sproxi"
+		'en-us': "Shroodle",
+		'fr-fr': "Gribouraigne",
+		'es-es': "Shroodle",
+		'it-it': "Shroodle",
+		'pt-br': "Shroodle",
+		'de-de': "Sproxi"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Spray Fluid",
-			fr: "Fluide Éclaboussant",
-			es: "Fluido Rociado",
-			it: "Fluidospray",
-			pt: "Fluido Spray",
-			de: "Sprühwasser"
+			'en-us': "Spray Fluid",
+			'fr-fr': "Fluide Éclaboussant",
+			'es-es': "Fluido Rociado",
+			'it-it': "Fluidospray",
+			'pt-br': "Fluido Spray",
+			'de-de': "Sprühwasser"
 		},
 
 		damage: 20

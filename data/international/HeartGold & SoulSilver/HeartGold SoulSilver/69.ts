@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Jynx",
-		fr: "Lippoutou",
-		de: "Rossana"
+		'en-us': "Jynx",
+		'fr-fr': "Lippoutou",
+		'de-de': "Rossana"
 	},
 
 	illustrator: "Midori Harada",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mimic",
-				fr: "Copie",
-				de: "Mimikry"
+				'en-us': "Mimic",
+				'fr-fr': "Copie",
+				'de-de': "Mimikry"
 			},
 			effect: {
-				en: "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent's hand.",
-				fr: "Mélangez votre main dans votre deck. Ensuite, piochez un nombre de cartes égal au nombre de cartes de la main de votre adversaire.",
-				de: "Mische deine Handkarten in dein Deck. Zähle danach die Anzahl der Karten auf der Hand deines Gegners und ziehe ebenso viele Karten."
+				'en-us': "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent's hand.",
+				'fr-fr': "Mélangez votre main dans votre deck. Ensuite, piochez un nombre de cartes égal au nombre de cartes de la main de votre adversaire.",
+				'de-de': "Mische deine Handkarten in dein Deck. Zähle danach die Anzahl der Karten auf der Hand deines Gegners und ziehe ebenso viele Karten."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lick",
-				fr: "Léchouille",
-				de: "Schlecker"
+				'en-us': "Lick",
+				'fr-fr': "Léchouille",
+				'de-de': "Schlecker"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It rocks its body rhythmically. It appears to alter the rhythm depending on how it is feeling."
+		'en-us': "It rocks its body rhythmically. It appears to alter the rhythm depending on how it is feeling."
 	},
 
 	variants: [

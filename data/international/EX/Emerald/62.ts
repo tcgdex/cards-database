@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Rhyhorn",
-		fr: "Rhinocorne",
-		de: "Rihorn"
+		'en-us': "Rhyhorn",
+		'fr-fr': "Rhinocorne",
+		'de-de': "Rihorn"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Attack",
-				fr: "Koud'korne",
-				de: "Horn Attack"
+				'en-us': "Horn Attack",
+				'fr-fr': "Koud'korne",
+				'de-de': "Horn Attack"
 			},
 
 			damage: 10,
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Drill",
-				fr: "Empal'korne",
-				de: "Horn Drill"
+				'en-us': "Horn Drill",
+				'fr-fr': "Empal'korne",
+				'de-de': "Horn Drill"
 			},
 
 			damage: 20,

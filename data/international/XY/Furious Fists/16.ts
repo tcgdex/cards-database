@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Poliwhirl",
-		fr: "Têtarte",
-		es: "Poliwhirl",
-		it: "Poliwhirl",
-		pt: "Poliwhirl",
-		de: "Quaputzi"
+		'en-us': "Poliwhirl",
+		'fr-fr': "Têtarte",
+		'es-es': "Poliwhirl",
+		'it-it': "Poliwhirl",
+		'pt-br': "Poliwhirl",
+		'de-de': "Quaputzi"
 	},
 
 	illustrator: "Kanako Eo",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Poliwag",
-		fr: "Ptitard",
-		es: "Poliwag",
-		it: "Poliwag",
-		pt: "Poliwag",
-		de: "Quapsel"
+		'en-us': "Poliwag",
+		'fr-fr': "Ptitard",
+		'es-es': "Poliwag",
+		'it-it': "Poliwag",
+		'pt-br': "Poliwag",
+		'de-de': "Quapsel"
 	},
 
 	stage: "Stage1",
@@ -43,12 +43,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Rain Splash",
-				fr: "Pluie Éclaboussante",
-				es: "Golpe de Lluvia",
-				it: "Spruzzapioggia",
-				pt: "Chuva Borrifante",
-				de: "Regenplatscher"
+				'en-us': "Rain Splash",
+				'fr-fr': "Pluie Éclaboussante",
+				'es-es': "Golpe de Lluvia",
+				'it-it': "Spruzzapioggia",
+				'pt-br': "Chuva Borrifante",
+				'de-de': "Regenplatscher"
 			},
 
 			damage: 20,
@@ -61,20 +61,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Finishing Blow",
-				fr: "Coup de Grâce",
-				es: "Golpe de Gracia",
-				it: "Ultimocolpo",
-				pt: "Golpe Final",
-				de: "Finalhieb"
+				'en-us': "Finishing Blow",
+				'fr-fr': "Coup de Grâce",
+				'es-es': "Golpe de Gracia",
+				'it-it': "Ultimocolpo",
+				'pt-br': "Golpe Final",
+				'de-de': "Finalhieb"
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 50 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire a déjà des marqueurs de dégâts, cette attaque inflige 50 dégâts supplémentaires.",
-				es: "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 50 puntos de daño más.",
-				it: "Se il Pokémon attivo del tuo avversario ha dei segnalini danno, questo attacco infligge 50 danni in più.",
-				pt: "Se o Pokémon Ativo do seu oponente já possuir contadores de danos, esse ataque causará 50 de danos adicionais.",
-				de: "Wenn auf dem Aktiven Pokémon deines Gegners bereits mindestens 1 Schadensmarke liegt, fügt dieser Angriff 50 weitere Schadenspunkte zu."
+				'en-us': "If your opponent's Active Pokémon already has any damage counters on it, this attack does 50 more damage.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire a déjà des marqueurs de dégâts, cette attaque inflige 50 dégâts supplémentaires.",
+				'es-es': "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 50 puntos de daño más.",
+				'it-it': "Se il Pokémon attivo del tuo avversario ha dei segnalini danno, questo attacco infligge 50 danni in più.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente já possuir contadores de danos, esse ataque causará 50 de danos adicionais.",
+				'de-de': "Wenn auf dem Aktiven Pokémon deines Gegners bereits mindestens 1 Schadensmarke liegt, fügt dieser Angriff 50 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 
@@ -91,7 +91,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It can live in or out of water. When out of water, it constantly sweats to keep its body slimy.",
+		'en-us': "It can live in or out of water. When out of water, it constantly sweats to keep its body slimy.",
 	},
 
 	thirdParty: {

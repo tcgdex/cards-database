@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Dracolosse",
-		en: "Dragonite",
-		es: "Dragonite",
-		it: "Dragonite",
-		pt: "Dragonite",
-		de: "Dragoran"
+		'fr-fr': "Dracolosse",
+		'en-us': "Dragonite",
+		'es-es': "Dragonite",
+		'it-it': "Dragonite",
+		'pt-br': "Dragonite",
+		'de-de': "Dragoran"
 	},
 
 	rarity: "Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 180,
 	types: ["Dragon"],
 	evolveFrom: {
-		fr: "Draco",
-		en: "Dragonair",
-		es: "Dragonair",
-		it: "Dragonair",
-		pt: "Dragonair",
-		de: "Dragonir"
+		'fr-fr': "Draco",
+		'en-us': "Dragonair",
+		'es-es': "Dragonair",
+		'it-it': "Dragonair",
+		'pt-br': "Dragonair",
+		'de-de': "Dragonir"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			fr: "Propulsion de Croisière",
-			en: "Jet Cruise",
-			es: "Travesía Propulsión",
-			it: "Crociera Jet",
-			pt: "Navegação a Jato",
-			de: "Jet-Cruisen"
+			'fr-fr': "Propulsion de Croisière",
+			'en-us': "Jet Cruise",
+			'es-es': "Travesía Propulsión",
+			'it-it': "Crociera Jet",
+			'pt-br': "Navegação a Jato",
+			'de-de': "Jet-Cruisen"
 		},
 
 		effect: {
-			fr: "Vos Pokémon en jeu n'ont pas de Coût de Retraite.",
-			en: "Your Pokémon in play have no Retreat Cost.",
-			es: "Tus Pokémon en juego no tienen ningún Coste de Retirada.",
-			it: "I tuoi Pokémon in gioco non hanno costo di ritirata.",
-			pt: "Seus Pokémon em jogo não têm custo de Recuo.",
-			de: "Deine Pokémon im Spiel haben keine Rückzugskosten."
+			'fr-fr': "Vos Pokémon en jeu n'ont pas de Coût de Retraite.",
+			'en-us': "Your Pokémon in play have no Retreat Cost.",
+			'es-es': "Tus Pokémon en juego no tienen ningún Coste de Retirada.",
+			'it-it': "I tuoi Pokémon in gioco non hanno costo di ritirata.",
+			'pt-br': "Seus Pokémon em jogo não têm custo de Recuo.",
+			'de-de': "Deine Pokémon im Spiel haben keine Rückzugskosten."
 		}
 	}],
 
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Water", "Lightning"],
 
 		name: {
-			fr: "Draco-Choc",
-			en: "Dragon Pulse",
-			es: "Pulso Dragón",
-			it: "Dragopulsar",
-			pt: "Pulso do Dragão",
-			de: "Drachenpuls"
+			'fr-fr': "Draco-Choc",
+			'en-us': "Dragon Pulse",
+			'es-es': "Pulso Dragón",
+			'it-it': "Dragopulsar",
+			'pt-br': "Pulso do Dragão",
+			'de-de': "Drachenpuls"
 		},
 
 		effect: {
-			fr: "Défaussez les 2 cartes du dessus de votre deck.",
-			en: "Discard the top 2 cards of your deck.",
-			es: "Descarta las 2 primeras cartas de tu baraja.",
-			it: "Scarta le prime due carte del tuo mazzo.",
-			pt: "Descarte as 2 cartas de cima do seu baralho.",
-			de: "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel."
+			'fr-fr': "Défaussez les 2 cartes du dessus de votre deck.",
+			'en-us': "Discard the top 2 cards of your deck.",
+			'es-es': "Descarta las 2 primeras cartas de tu baraja.",
+			'it-it': "Scarta le prime due carte del tuo mazzo.",
+			'pt-br': "Descarte as 2 cartas de cima do seu baralho.",
+			'de-de': "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel."
 		},
 
 		damage: 180
@@ -78,7 +78,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It is said that somewhere in the ocean lies an island where these gather. Only they live there.",
+		'en-us': "It is said that somewhere in the ocean lies an island where these gather. Only they live there.",
 	},
 
 	variants: [

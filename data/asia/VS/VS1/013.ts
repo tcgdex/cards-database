@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Bugsy's Scizor",
+		'ja-jp': "Bugsy's Scizor",
 	},
 
 	rarity: "Holo Rare",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "スラッシュ",
+				'ja-jp': "スラッシュ",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Metal", "Colorless"],
 			name: {
-				ja: "スチールヘッドバット",
+				'ja-jp': "スチールヘッドバット",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて10ダメージを与えます。尾の場合、この攻撃は20ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて10ダメージを与えます。尾の場合、この攻撃は20ダメージを与えます。",
 			},
 		},
 	],

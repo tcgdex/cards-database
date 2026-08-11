@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スリーパー",
+		'ja-jp': "スリーパー",
 	},
 
 	illustrator: "OOYAMA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "出会った者を 取りあえず 眠らせ その夢を 味見。 いい夢を 見ていたら そのまま 連れ去る。",
+		'ja-jp': "出会った者を 取りあえず 眠らせ その夢を 味見。 いい夢を 見ていたら そのまま 連れ去る。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンにのっているダメカンの数x10ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンにのっているダメカンの数x10ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "スリープ",
+		'ja-jp': "スリープ",
 	},
 
 	retreat: 2,

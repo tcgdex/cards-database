@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マチスのライチュウ",
+		'ja-jp': "マチスのライチュウ",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Lightning"],
 			name: {
-				ja: "ケルザップ",
+				'ja-jp': "ケルザップ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は20のダメージに加えて、防御ポケモンにさらに30ダメージを与え、サージ中佐のライチュに取り付けられたすべての稲妻エネルギーカードを破棄します。尾の場合、この攻撃は20ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は20のダメージに加えて、防御ポケモンにさらに30ダメージを与え、サージ中佐のライチュに取り付けられたすべての稲妻エネルギーカードを破棄します。尾の場合、この攻撃は20ダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Lightning", "Lightning", "Colorless", "Colorless"],
 			name: {
-				ja: "サンダータックル",
+				'ja-jp': "サンダータックル",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。 Tailsの場合、SurgeのRaichu中tはそれ自体に20のダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。 Tailsの場合、SurgeのRaichu中tはそれ自体に20のダメージを与えます。",
 			},
 			damage: 40,
 		},

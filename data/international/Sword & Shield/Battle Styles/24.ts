@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pignite",
-		fr: "Grotichon",
-		es: "Pignite",
-		it: "Pignite",
-		pt: "Pignite",
-		de: "Ferkokel"
+		'en-us': "Pignite",
+		'fr-fr': "Grotichon",
+		'es-es': "Pignite",
+		'it-it': "Pignite",
+		'pt-br': "Pignite",
+		'de-de': "Ferkokel"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -21,34 +21,34 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Tepig",
-		fr: "Gruikui",
-		es: "Tepig",
-		it: "Tepig",
-		pt: "Tepig",
-		de: "Floink"
+		'en-us': "Tepig",
+		'fr-fr': "Gruikui",
+		'es-es': "Tepig",
+		'it-it': "Tepig",
+		'pt-br': "Tepig",
+		'de-de': "Floink"
 	},
 
 	attacks: [{
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 30,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Combustion",
-			fr: "Fournaise",
-			es: "Combustión",
-			it: "Fuoco Continuo",
-			pt: "Combustão",
-			de: "Glühen"
+			'en-us': "Combustion",
+			'fr-fr': "Fournaise",
+			'es-es': "Combustión",
+			'it-it': "Fuoco Continuo",
+			'pt-br': "Combustão",
+			'de-de': "Glühen"
 		},
 
 		damage: 90,
@@ -67,7 +67,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke."
+		'en-us': "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke."
 	},
 
 	variants: [

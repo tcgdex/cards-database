@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴニョニョ",
+		'ja-jp': "ゴニョニョ",
 	},
 
 	illustrator: "Shibuzoh.",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "危険を 察知すると ジェット機と 同じ 音量の 鳴き声を 上げて 敵を ひるませるのだ。",
+		'ja-jp': "危険を 察知すると ジェット機と 同じ 音量の 鳴き声を 上げて 敵を ひるませるのだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ごうきゅう" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "このワザは、後攻プレイヤーの最初の番にだけ使える。次の相手の番、相手は手札からトレーナーズを出して使えない。",
+				'ja-jp': "このワザは、後攻プレイヤーの最初の番にだけ使える。次の相手の番、相手は手札からトレーナーズを出して使えない。",
 			},
 		},
 		{

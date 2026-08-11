@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サンカーン",
+		'ja-jp': "サンカーン",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ロールアウトする",
+				'ja-jp': "ロールアウトする",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "ブロット",
+				'ja-jp': "ブロット",
 			},
 			effect: {
-				ja: "サンカーンにダメージカウンターがある場合は、それらの1つを削除します。",
+				'ja-jp': "サンカーンにダメージカウンターがある場合は、それらの1つを削除します。",
 			},
 			damage: 10,
 		},

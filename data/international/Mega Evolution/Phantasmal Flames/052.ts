@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vibrava",
-		fr: "Vibraninf",
-		es: "Vibrava",
+		'en-us': "Vibrava",
+		'fr-fr': "Vibraninf",
+		'es-es': "Vibrava",
 		'es-mx': "Vibrava",
-		de: "Vibrava",
-		it: "Vibrava",
-		pt: "Vibrava"
+		'de-de': "Vibrava",
+		'it-it': "Vibrava",
+		'pt-br': "Vibrava"
 	},
 
 	evolveFrom: {
-		en: "Trapinch",
-		fr: "Kraknoix",
-		es: "Trapinch",
+		'en-us': "Trapinch",
+		'fr-fr': "Kraknoix",
+		'es-es': "Trapinch",
 		'es-mx': "Trapinch",
-		de: "Knacklion",
-		it: "Trapinch",
-		pt: "Trapinch",
+		'de-de': "Knacklion",
+		'it-it': "Trapinch",
+		'pt-br': "Trapinch",
 	},
 
 	rarity: "Common",
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			en: "Super Vibration",
-			fr: "Super Vibration",
-			es: "Supervibración",
+			'en-us': "Super Vibration",
+			'fr-fr': "Super Vibration",
+			'es-es': "Supervibración",
 			'es-mx': "Supervibración",
-			de: "Superschwingung",
-			it: "Vibrazione Super",
-			pt: "Supervibração"
+			'de-de': "Superschwingung",
+			'it-it': "Vibrazione Super",
+			'pt-br': "Supervibração"
 		},
 
 		damage: 60
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Rather than using its underdeveloped wings for flight, it rubs them together, emitting ultrasonic waves to attack its enemies.",
+		'en-us': "Rather than using its underdeveloped wings for flight, it rubs them together, emitting ultrasonic waves to attack its enemies.",
 	},
 
 	illustrator: "Miki Tanaka",

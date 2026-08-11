@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Pokémon Rumble'
 
 const card: Card = {
 	name: {
-		en: "Rattata"
+		'en-us': "Rattata"
 	},
 
 	illustrator: undefined,
@@ -28,7 +28,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite"
+				'en-us': "Bite"
 			},
 
 			damage: 20,

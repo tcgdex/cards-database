@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Vulpix",
-		fr: "Goupix",
-		de: "Vulpix"
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix",
+		'de-de': "Vulpix"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Bite"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Bite"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Firebreathing",
-				fr: "Souffle-feu",
-				de: "Firebreathing"
+				'en-us': "Firebreathing",
+				'fr-fr': "Souffle-feu",
+				'de-de': "Firebreathing"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
 			},
 			damage: "20+",
 

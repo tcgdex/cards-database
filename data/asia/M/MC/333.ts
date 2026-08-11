@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ペロッパフ",
+		'ja-jp': "ペロッパフ",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "わたあめのような 甘くて ベタつく 白い 糸を 出して 相手を 絡め取り 動きを 封じる。",
+		'ja-jp': "わたあめのような 甘くて ベタつく 白い 糸を 出して 相手を 絡め取り 動きを 封じる。",
 	},
 
 	stage: "Basic",

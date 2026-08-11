@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Igglybuff",
-		fr: "Toudoudou",
-		de: "Fluffeluff"
+		'en-us': "Igglybuff",
+		'fr-fr': "Toudoudou",
+		'de-de': "Fluffeluff"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Sweet Sleeping Face",
-				fr: "Joli visage endormi",
-				de: "Niedliches Schlafgesicht"
+				'en-us': "Sweet Sleeping Face",
+				'fr-fr': "Joli visage endormi",
+				'de-de': "Niedliches Schlafgesicht"
 			},
 			effect: {
-				en: "As long as Igglybuff is Asleep, prevent all damage done to Igglybuff by attacks.",
-				fr: "Tant que Toudoudou reste Endormi, prévenez tous les dégâts qui peuvent lui être infligés par des attaques.",
-				de: "Solange Fluffeluff schläft, verhindere allen Schaden, der Fluffeluff durch Angriffe zugefügt wird."
+				'en-us': "As long as Igglybuff is Asleep, prevent all damage done to Igglybuff by attacks.",
+				'fr-fr': "Tant que Toudoudou reste Endormi, prévenez tous les dégâts qui peuvent lui être infligés par des attaques.",
+				'de-de': "Solange Fluffeluff schläft, verhindere allen Schaden, der Fluffeluff durch Angriffe zugefügt wird."
 			}
 		},
 	],
@@ -43,14 +43,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Graffiti",
-				fr: "Graffiti",
-				de: "Graffiti"
+				'en-us': "Graffiti",
+				'fr-fr': "Graffiti",
+				'de-de': "Graffiti"
 			},
 			effect: {
-				en: "Igglybuff is now Asleep. During your opponent's next turn, the attack cost of each of the Defending Pokémon's attacks is Colorless more.",
-				fr: "Toudoudou est maintenant Endormi. Au prochain tour de votre adversaire, le coût de l’attaque de chaque Pokémon Défenseur est plus élevé de Colorless.",
-				de: "Fluffeluff schläft jetzt. Während des nächsten Zuges deines Gegners kosten die Angriffe jedes Verteidigenden Pokémons  mehr."
+				'en-us': "Igglybuff is now Asleep. During your opponent's next turn, the attack cost of each of the Defending Pokémon's attacks is Colorless more.",
+				'fr-fr': "Toudoudou est maintenant Endormi. Au prochain tour de votre adversaire, le coût de l’attaque de chaque Pokémon Défenseur est plus élevé de Colorless.",
+				'de-de': "Fluffeluff schläft jetzt. Während des nächsten Zuges deines Gegners kosten die Angriffe jedes Verteidigenden Pokémons  mehr."
 			},
 
 		},
@@ -59,7 +59,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Its extremely flexible and elastic body makes it bounce continuously—anytime, anywhere."
+		'en-us': "Its extremely flexible and elastic body makes it bounce continuously—anytime, anywhere."
 	},
 
 	variants: [

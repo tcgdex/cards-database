@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Virizion"
+		'en-us': "Virizion"
 	},
 
 	illustrator: "Takeshi Nakamura",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "It darts around opponents with a flurry of quick\nmovements, slicing them up with its horns."
+		'en-us': "It darts around opponents with a flurry of quick\nmovements, slicing them up with its horns."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Sacred Sword"
+			'en-us': "Sacred Sword"
 		},
 
 		damage: 110,
 		cost: ["Grass", "Grass", "Colorless"],
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use Sacred Sword."
+			'en-us': "During your next turn, this Pokémon can't use Sacred Sword."
 		}
 	}],
 

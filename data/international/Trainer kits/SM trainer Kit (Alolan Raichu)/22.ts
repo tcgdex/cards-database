@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM trainer Kit (Alolan Raichu)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drowzee",
-		fr: "Soporifik",
-		es: "Drowzee",
-		it: "Drowzee",
-		pt: "Drowzee",
-		de: "Traumato"
+		'en-us': "Drowzee",
+		'fr-fr': "Soporifik",
+		'es-es': "Drowzee",
+		'it-it': "Drowzee",
+		'pt-br': "Drowzee",
+		'de-de': "Traumato"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psychic Boom"
+				'en-us': "Psychic Boom"
 			},
 			effect: {
-				en: "This attack does 10 damage times the amount of Energy attached to your opponent's Active Pokémon."
+				'en-us': "This attack does 10 damage times the amount of Energy attached to your opponent's Active Pokémon."
 			},
 			damage: "10×"
 		},
@@ -40,7 +40,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt"
+				'en-us': "Headbutt"
 			},
 			damage: 20
 		},

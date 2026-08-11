@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユレイドル",
+		'ja-jp': "ユレイドル",
 	},
 
 	illustrator: "otumami",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "普段は 浅瀬の 海底に 棲み 潮が 引くと そのまま 陸に あがって 獲物を 探していた。",
+		'ja-jp': "普段は 浅瀬の 海底に 棲み 潮が 引くと そのまま 陸に あがって 獲物を 探していた。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ゆらゆらしばり" },
 			effect: {
-				ja: "このポケモンがいるかぎり、相手の特殊状態のポケモンは、にげられない。",
+				'ja-jp': "このポケモンがいるかぎり、相手の特殊状態のポケモンは、にげられない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 110,
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "リリーラ",
+		'ja-jp': "リリーラ",
 	},
 
 	retreat: 3,

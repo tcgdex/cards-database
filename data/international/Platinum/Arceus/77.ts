@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Tangela",
-		de: "Tangela"
+		'en-us': "Tangela",
+		'de-de': "Tangela"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				de: "Sammeln"
+				'en-us': "Collect",
+				'de-de': "Sammeln"
 			},
 			effect: {
-				en: "Draw a card.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stun Spore",
-				de: "Stachelspore"
+				'en-us': "Stun Spore",
+				'de-de': "Stachelspore"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The blue vines shrouding its body are covered in a growth of fine hair. It is known to be ticklish."
+		'en-us': "The blue vines shrouding its body are covered in a growth of fine hair. It is known to be ticklish."
 	},
 
 	variants: [

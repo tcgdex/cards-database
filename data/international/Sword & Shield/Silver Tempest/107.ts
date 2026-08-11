@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Honchkrow",
-		fr: "Corboss",
-		es: "Honchkrow",
-		it: "Honchkrow",
-		pt: "Honchkrow",
-		de: "Kramshef"
+		'en-us': "Honchkrow",
+		'fr-fr': "Corboss",
+		'es-es': "Honchkrow",
+		'it-it': "Honchkrow",
+		'pt-br': "Honchkrow",
+		'de-de': "Kramshef"
 	},
 
 	illustrator: "aoki",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Murkrow",
-		fr: "Cornèbre",
-		es: "Murkrow",
-		it: "Murkrow",
-		pt: "Murkrow",
-		de: "Kramurx"
+		'en-us': "Murkrow",
+		'fr-fr': "Cornèbre",
+		'es-es': "Murkrow",
+		'it-it': "Murkrow",
+		'pt-br': "Murkrow",
+		'de-de': "Kramurx"
 	},
 
 	stage: "Stage1",
@@ -35,41 +35,41 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Triple Draw",
-			fr: "Triple Pioche",
-			es: "Triple Robo",
-			it: "Pescata Tripla",
-			pt: "Compra Tripla",
-			de: "Dreifachzug"
+			'en-us': "Triple Draw",
+			'fr-fr': "Triple Pioche",
+			'es-es': "Triple Robo",
+			'it-it': "Pescata Tripla",
+			'pt-br': "Compra Tripla",
+			'de-de': "Dreifachzug"
 		},
 
 		effect: {
-			en: "Draw 3 cards.",
-			fr: "Piochez 3 cartes.",
-			es: "Roba 3 cartas.",
-			it: "Pesca tre carte.",
-			pt: "Compre 3 cartas.",
-			de: "Ziehe 3 Karten."
+			'en-us': "Draw 3 cards.",
+			'fr-fr': "Piochez 3 cartes.",
+			'es-es': "Roba 3 cartas.",
+			'it-it': "Pesca tre carte.",
+			'pt-br': "Compre 3 cartas.",
+			'de-de': "Ziehe 3 Karten."
 		}
 	}, {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			en: "Callous Wings",
-			fr: "Ailes Cruelles",
-			es: "Alas Despiadadas",
-			it: "Ali Spietate",
-			pt: "Asas Impiedosas",
-			de: "Kompromisslose Flügel"
+			'en-us': "Callous Wings",
+			'fr-fr': "Ailes Cruelles",
+			'es-es': "Alas Despiadadas",
+			'it-it': "Ali Spietate",
+			'pt-br': "Asas Impiedosas",
+			'de-de': "Kompromisslose Flügel"
 		},
 
 		effect: {
-			en: "You may switch this Pokémon with 1 of your Benched Murkrow.",
-			fr: "Vous pouvez échanger ce Pokémon contre l'un de vos Cornèbre de Banc.",
-			es: "Puedes cambiar este Pokémon por 1 de tus Murkrow en Banca.",
-			it: "Puoi scambiare questo Pokémon con un Murkrow della tua panchina.",
-			pt: "Você pode trocar este Pokémon por 1 dos seus Murkrow no Banco.",
-			de: "Du kannst dieses Pokémon gegen 1 Kramurx auf deiner Bank austauschen."
+			'en-us': "You may switch this Pokémon with 1 of your Benched Murkrow.",
+			'fr-fr': "Vous pouvez échanger ce Pokémon contre l'un de vos Cornèbre de Banc.",
+			'es-es': "Puedes cambiar este Pokémon por 1 de tus Murkrow en Banca.",
+			'it-it': "Puoi scambiare questo Pokémon con un Murkrow della tua panchina.",
+			'pt-br': "Você pode trocar este Pokémon por 1 dos seus Murkrow no Banco.",
+			'de-de': "Du kannst dieses Pokémon gegen 1 Kramurx auf deiner Bank austauschen."
 		},
 
 		damage: 120
@@ -92,7 +92,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its goons take care of most of the fighting for it. The only time it dirties its own hands is in delivering a final blow to finish off an opponent.",
+		'en-us': "Its goons take care of most of the fighting for it. The only time it dirties its own hands is in delivering a final blow to finish off an opponent.",
 	},
 
 	variants: [

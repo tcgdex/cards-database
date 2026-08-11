@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウデッポウ"
+		'ja-jp': "ウデッポウ"
 	},
 	illustrator: "Tomokazu Komiya",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Water"],
 	description: {
-		ja: "右腕のハサミの中でガスを爆発させて水を発射。飛んでいるポケモンを狙い撃つ。"
+		'ja-jp': "右腕のハサミの中でガスを爆発させて水を発射。飛んでいるポケモンを狙い撃つ。"
 	},
 	stage: "Basic",
 	attacks: [{
 		name: {
-			ja: "スプラッシュ"
+			'ja-jp': "スプラッシュ"
 		},
 		damage: 50,
 		cost: ["Water", "Water"]

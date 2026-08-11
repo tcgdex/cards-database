@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Machop",
-		fr: "Machoc",
-		de: "Machollo"
+		'en-us': "Machop",
+		'fr-fr': "Machoc",
+		'de-de': "Machollo"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Chop",
-				fr: "Coup tranchant",
-				de: "Chop"
+				'en-us': "Chop",
+				'fr-fr': "Coup tranchant",
+				'de-de': "Chop"
 			},
 
 			damage: 10,
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Punch",
-				fr: "Koud'poing",
-				de: "Punch"
+				'en-us': "Punch",
+				'fr-fr': "Koud'poing",
+				'de-de': "Punch"
 			},
 
 			damage: 20,
@@ -65,8 +65,8 @@ const card: Card = {
 
 
 	description: {
-		en: "When bored, this super-strong Pokémon trains by lifting rocks.",
-		fr: "Quand il s'ennuie, ce Pokémon super fort s'entraîne en soulevant des rochers."
+		'en-us': "When bored, this super-strong Pokémon trains by lifting rocks.",
+		'fr-fr': "Quand il s'ennuie, ce Pokémon super fort s'entraîne en soulevant des rochers."
 	},
 
 

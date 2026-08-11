@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サルノリ",
+		'ja-jp': "サルノリ",
 		'zh-tw': "敲音猴",
-		th: "ซารุโนริ",
+		'th-th': "ซารุโนริ",
 	},
 
 	illustrator: "Tomomi Ozaki",
@@ -15,9 +15,9 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "特別な スティックで リズムを 刻むと 草花を 元気にする パワーが 音波になって 広がる。",
+		'ja-jp': "特別な スティックで リズムを 刻むと 草花を 元気にする パワーが 音波になって 広がる。",
 		'zh-tw': "當牠用特別的木棒敲奏時， 能夠給予花草活力的力量 就會變成音波擴散開來。",
-		th: "เมื่อใช้แท่งไม้พิเศษเคาะจังหวะดนตรี พลังที่ทำให้ต้นไม้ดอกไม้ร่าเริงจะกลายเป็นคลื่นเสียงแผ่ขยายออกไป",
+		'th-th': "เมื่อใช้แท่งไม้พิเศษเคาะจังหวะดนตรี พลังที่ทำให้ต้นไม้ดอกไม้ร่าเริงจะกลายเป็นคลื่นเสียงแผ่ขยายออกไป",
 	},
 
 	stage: "Basic",
@@ -25,18 +25,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "けとばす",
+				'ja-jp': "けとばす",
 				'zh-tw': "踢飛",
-				th: "ดีด",
+				'th-th': "ดีด",
 			},
 			damage: 10,
 			cost: ["Grass"],
 		},
 		{
 			name: {
-				ja: "えだづき",
+				'ja-jp': "えだづき",
 				'zh-tw': "木枝突刺",
-				th: "ต่อกิ่ง",
+				'th-th': "ต่อกิ่ง",
 			},
 			damage: 30,
 			cost: ["Grass", "Grass"],

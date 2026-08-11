@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Goldeen",
-		fr: "Poissirène",
-		es: "Goldeen",
-		it: "Goldeen",
-		pt: "Goldeen",
-		de: "Goldini"
+		'en-us': "Goldeen",
+		'fr-fr': "Poissirène",
+		'es-es': "Goldeen",
+		'it-it': "Goldeen",
+		'pt-br': "Goldeen",
+		'de-de': "Goldini"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collecte",
-				es: "Coleccionar",
-				it: "Tassa",
-				pt: "Coleta",
-				de: "Sammeln"
+				'en-us': "Collect",
+				'fr-fr': "Collecte",
+				'es-es': "Coleccionar",
+				'it-it': "Tassa",
+				'pt-br': "Coleta",
+				'de-de': "Sammeln"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				es: "Roba 1 carta.",
-				it: "Pesca una carta.",
-				pt: "Compre 1 carta.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'es-es': "Roba 1 carta.",
+				'it-it': "Pesca una carta.",
+				'pt-br': "Compre 1 carta.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Waterfall",
-				fr: "Cascade",
-				es: "Cascada",
-				it: "Cascata",
-				pt: "Cachoeira",
-				de: "Kaskade"
+				'en-us': "Waterfall",
+				'fr-fr': "Cascade",
+				'es-es': "Cascada",
+				'it-it': "Cascata",
+				'pt-br': "Cachoeira",
+				'de-de': "Kaskade"
 			},
 
 			damage: 20,
@@ -88,7 +88,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its dorsal, pectoral, and tail fins wave elegantly in water. That is why it is known as the Water Dancer."
+		'en-us': "Its dorsal, pectoral, and tail fins wave elegantly in water. That is why it is known as the Water Dancer."
 	},
 
 	thirdParty: {

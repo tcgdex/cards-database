@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピカチュウex",
+		'ja-jp': "ピカチュウex",
 	},
 
 	illustrator: "James Turner",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "がんばりハート" },
 			effect: {
-				ja: "このポケモンのHPがまんたんの状態で、このポケモンがワザのダメージを受けてきぜつするとき、きぜつせず、残りHPが「10」の状態で場に残る。",
+				'ja-jp': "このポケモンのHPがまんたんの状態で、このポケモンがワザのダメージを受けてきぜつするとき、きぜつせず、残りHPが「10」の状態で場に残る。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 300,
 			cost: ["Grass", "Lightning", "Metal"],
 			effect: {
-				ja: "このポケモンについているエネルギーを3個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを3個選び、トラッシュする。",
 			},
 		},
 	],

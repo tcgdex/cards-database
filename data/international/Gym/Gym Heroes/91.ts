@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Abra"
+		'en-us': "Sabrina's Abra"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Energy Loop"
+				'en-us': "Energy Loop"
 			},
 			effect: {
-				en: "Return a Psychic Energy card attached to Sabrina's Abra to your hand in order to use this attack."
+				'en-us': "Return a Psychic Energy card attached to Sabrina's Abra to your hand in order to use this attack."
 			},
 			damage: 20,
 

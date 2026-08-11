@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Alakazam"
+		'en-us': "Sabrina's Alakazam"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kadabra"
+		'en-us': "Kadabra"
 	},
 
 	stage: "Stage2",
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Psylink"
+				'en-us': "Psylink"
 			},
 			effect: {
-				en: "Sabrina's Alakazam always has a copy of every attack your Psychic Pokémon in play have (including their Energy costs and anything else required in order to use those attacks, such as discarding Energy cards). This power can't be used if Sabrina's Alakazam is Asleep, Confused, or Paralyzed."
+				'en-us': "Sabrina's Alakazam always has a copy of every attack your Psychic Pokémon in play have (including their Energy costs and anything else required in order to use those attacks, such as discarding Energy cards). This power can't be used if Sabrina's Alakazam is Asleep, Confused, or Paralyzed."
 			}
 		},
 	],
@@ -46,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Burn"
+				'en-us': "Mega Burn"
 			},
 			effect: {
-				en: "You can't use this attack during your next turn."
+				'en-us': "You can't use this attack during your next turn."
 			},
 			damage: 60,
 

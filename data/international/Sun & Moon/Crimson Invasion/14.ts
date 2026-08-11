@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Camerupt",
-		fr: "Camérupt",
-		es: "Camerupt",
-		it: "Camerupt",
-		pt: "Camerupt",
-		de: "Camerupt"
+		'en-us': "Camerupt",
+		'fr-fr': "Camérupt",
+		'es-es': "Camerupt",
+		'it-it': "Camerupt",
+		'pt-br': "Camerupt",
+		'de-de': "Camerupt"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Numel",
-		fr: "Chamallot",
+		'en-us': "Numel",
+		'fr-fr': "Chamallot",
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Continuous Headbutt",
-				fr: "Coup d’Boule Sans Fin",
-				es: "Golpe Cabeza Continuo",
-				it: "Bottintesta Continue",
-				pt: "Cabeçada Contínua",
-				de: "Anhaltender Kopfstoß"
+				'en-us': "Continuous Headbutt",
+				'fr-fr': "Coup d’Boule Sans Fin",
+				'es-es': "Golpe Cabeza Continuo",
+				'it-it': "Bottintesta Continue",
+				'pt-br': "Cabeçada Contínua",
+				'de-de': "Anhaltender Kopfstoß"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 80 damage for each heads.",
-				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 80 dégâts multipliés par le nombre de côtés face.",
-				es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 80 puntos de daño por cada cara.",
-				it: "Lancia una moneta finché non esce croce. Questo attacco infligge 80 danni ogni volta che esce testa.",
-				pt: "Jogue 1 moeda até sair coroa. Este ataque causa 80 pontos de dano para cada cara.",
-				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu."
+				'en-us': "Flip a coin until you get tails. This attack does 80 damage for each heads.",
+				'fr-fr': "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 80 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 80 puntos de daño por cada cara.",
+				'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 80 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 1 moeda até sair coroa. Este ataque causa 80 pontos de dano para cada cara.",
+				'de-de': "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu."
 			},
 			damage: "80×",
 
@@ -67,20 +67,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Searing Flame",
-				fr: "Flammes Calcinantes",
-				es: "Llama Abrasadora",
-				it: "Fiamme Ustionanti",
-				pt: "Chama Cauterizante",
-				de: "Sengende Flammen"
+				'en-us': "Searing Flame",
+				'fr-fr': "Flammes Calcinantes",
+				'es-es': "Llama Abrasadora",
+				'it-it': "Fiamme Ustionanti",
+				'pt-br': "Chama Cauterizante",
+				'de-de': "Sengende Flammen"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+				'en-us': "Your opponent’s Active Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 			},
 			damage: 120,
 
@@ -97,7 +97,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "The volcanoes on its back have a major eruption every 10 years—or whenever it becomes really angry.",
+		'en-us': "The volcanoes on its back have a major eruption every 10 years—or whenever it becomes really angry.",
 	},
 
 	thirdParty: {

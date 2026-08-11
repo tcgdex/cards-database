@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Archen",
-		fr: "Arkéapti",
-		es: "Archen",
-		it: "Archen",
-		pt: "Archen",
-		de: "Flapteryx"
+		'en-us': "Archen",
+		'fr-fr': "Arkéapti",
+		'es-es': "Archen",
+		'it-it': "Archen",
+		'pt-br': "Archen",
+		'de-de': "Flapteryx"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Unidentified Fossil",
-		fr: "Fossile Inconnu",
-		es: "Fósil Desconocido",
-		it: "Fossile Sconosciuto",
-		pt: "Fóssil Não Identificado",
-		de: "Unbekanntes Fossil"
+		'en-us': "Unidentified Fossil",
+		'fr-fr': "Fossile Inconnu",
+		'es-es': "Fósil Desconocido",
+		'it-it': "Fossile Sconosciuto",
+		'pt-br': "Fóssil Não Identificado",
+		'de-de': "Unbekanntes Fossil"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Flap",
-			fr: "Battement",
-			es: "Aleteo",
-			it: "Alabattito",
-			pt: "Asa",
-			de: "Flattern"
+			'en-us': "Flap",
+			'fr-fr': "Battement",
+			'es-es': "Aleteo",
+			'it-it': "Alabattito",
+			'pt-br': "Asa",
+			'de-de': "Flattern"
 		},
 
 		damage: 30
@@ -48,12 +48,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Claw Slash",
-			fr: "Tranch'Griffe",
-			es: "Cuchillada Garra",
-			it: "Lacerartiglio",
-			pt: "Golpe de Garra",
-			de: "Klauenschlitzer"
+			'en-us': "Claw Slash",
+			'fr-fr': "Tranch'Griffe",
+			'es-es': "Cuchillada Garra",
+			'it-it': "Lacerartiglio",
+			'pt-br': "Golpe de Garra",
+			'de-de': "Klauenschlitzer"
 		},
 
 		damage: 80
@@ -76,7 +76,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon was successfully restored from a fossil. As research suggested, Archen is unable to fly. But it's very good at jumping.",
+		'en-us': "This Pokémon was successfully restored from a fossil. As research suggested, Archen is unable to fly. But it's very good at jumping.",
 	},
 
 	variants: [

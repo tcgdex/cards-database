@@ -1,13 +1,13 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Platinum'
 
 const pl3: Set = {
 	id: "pl3",
 
 	name: {
-		en: "Supreme Victors",
-		fr: "Vainqueurs Suprêmes",
-		de: "Ultimative Sieger"
+		'en-us': "Supreme Victors",
+		'fr-fr': "Vainqueurs Suprêmes",
+		'de-de': "Ultimative Sieger"
 	},
 
 	serie: serie,
@@ -21,7 +21,7 @@ const pl3: Set = {
 
 	abbreviations: {
 		official: "SV",
-		fr: "VSU"
+		'fr-fr': "VSU"
 	},
 
 	thirdParty: {

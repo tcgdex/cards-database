@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Houndour",
-		fr: "Malosse",
-		es: "Houndour",
-		it: "Houndour",
-		pt: "Houndour",
-		de: "Hunduster"
+		'en-us': "Houndour",
+		'fr-fr': "Malosse",
+		'es-es': "Houndour",
+		'it-it': "Houndour",
+		'pt-br': "Houndour",
+		'de-de': "Hunduster"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Rear Kick",
-				fr: "Ruade",
-				es: "Patada Trasera",
-				it: "Retrocalcio",
-				pt: "Chute Traseiro",
-				de: "Rückwärtskick"
+				'en-us': "Rear Kick",
+				'fr-fr': "Ruade",
+				'es-es': "Patada Trasera",
+				'it-it': "Retrocalcio",
+				'pt-br': "Chute Traseiro",
+				'de-de': "Rückwärtskick"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Darkness Fang",
-				fr: "Croc Obscur",
-				es: "Colmillo de Oscuridad",
-				it: "Oscurizanna",
-				pt: "Presa Sombria",
-				de: "Fänge der Dunkelheit"
+				'en-us': "Darkness Fang",
+				'fr-fr': "Croc Obscur",
+				'es-es': "Colmillo de Oscuridad",
+				'it-it': "Oscurizanna",
+				'pt-br': "Presa Sombria",
+				'de-de': "Fänge der Dunkelheit"
 			},
 
 			damage: 20,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Around dawn, its ominous howl echoes through the area to announce that this is its territory.",
+		'en-us': "Around dawn, its ominous howl echoes through the area to announce that this is its territory.",
 	},
 
 	thirdParty: {

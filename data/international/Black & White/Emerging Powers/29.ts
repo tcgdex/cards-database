@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Cubchoo",
-		fr: "Polarhume",
-		es: "Cubchoo",
-		it: "Cubchoo",
-		pt: "Cubchoo",
-		de: "Petznief"
+		'en-us': "Cubchoo",
+		'fr-fr': "Polarhume",
+		'es-es': "Cubchoo",
+		'it-it': "Cubchoo",
+		'pt-br': "Cubchoo",
+		'de-de': "Petznief"
 	},
 
 	illustrator: "Kanako Eo",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Icicle Punch",
-				fr: "Poing Stalactite",
+				'en-us': "Icicle Punch",
+				'fr-fr': "Poing Stalactite",
 			},
 
 			damage: 30,
@@ -54,7 +54,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its nose is always running. It sniffs the snot back up because the mucus provides the raw material for its moves.",
+		'en-us': "Its nose is always running. It sniffs the snot back up because the mucus provides the raw material for its moves.",
 	},
 
 	thirdParty: {

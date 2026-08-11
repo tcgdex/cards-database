@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Lucario",
-		fr: "Lucario",
-		es: "Lucario",
-		it: "Lucario",
-		pt: "Lucario",
-		de: "Lucario"
+		'en-us': "Lucario",
+		'fr-fr': "Lucario",
+		'es-es': "Lucario",
+		'it-it': "Lucario",
+		'pt-br': "Lucario",
+		'de-de': "Lucario"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Riolu",
-		fr: "Riolu",
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Precognitive Aura",
-				fr: "Aura Prémonitoire",
-				es: "Aura Premonitoria",
-				it: "Aura Precognitiva",
-				pt: "Aura Precógnita",
-				de: "Vorhersehende Aura"
+				'en-us': "Precognitive Aura",
+				'fr-fr': "Aura Prémonitoire",
+				'es-es': "Aura Premonitoria",
+				'it-it': "Aura Precognitiva",
+				'pt-br': "Aura Precógnita",
+				'de-de': "Vorhersehende Aura"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if you have Garchomp in play, you may search your deck for a card and put it into your hand. Then, shuffle your deck.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), si vous avez Carchacrok en jeu, vous pouvez chercher une carte dans votre deck puis l’ajouter à votre main. Mélangez ensuite votre deck.",
-				es: "Una vez durante tu turno (antes de tu ataque), si tienes a Garchomp en juego, puedes buscar en tu baraja 1 carta y ponerla en tu mano. Después, baraja las cartas de tu baraja.",
-				it: "Una sola volta durante il tuo turno, prima di attaccare, se hai Garchomp in gioco, puoi cercare nel tuo mazzo una carta qualsiasi e aggiungerla a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
-				pt: "Uma vez durante a sua vez de jogar (antes de atacar), se você tiver Garchomp em jogo, poderá procurar por 1 carta no seu baralho e colocá-la na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du, wenn du Knakrack im Spiel hast, dein Deck nach 1 Karte durchsuchen und sie auf deine Hand nehmen. Mische anschließend dein Deck."
+				'en-us': "Once during your turn (before your attack), if you have Garchomp in play, you may search your deck for a card and put it into your hand. Then, shuffle your deck.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), si vous avez Carchacrok en jeu, vous pouvez chercher une carte dans votre deck puis l’ajouter à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Una vez durante tu turno (antes de tu ataque), si tienes a Garchomp en juego, puedes buscar en tu baraja 1 carta y ponerla en tu mano. Después, baraja las cartas de tu baraja.",
+				'it-it': "Una sola volta durante il tuo turno, prima di attaccare, se hai Garchomp in gioco, puoi cercare nel tuo mazzo una carta qualsiasi e aggiungerla a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Uma vez durante a sua vez de jogar (antes de atacar), se você tiver Garchomp em jogo, poderá procurar por 1 carta no seu baralho e colocá-la na sua mão. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Einmal während deines Zuges (bevor du angreifst) kannst du, wenn du Knakrack im Spiel hast, dein Deck nach 1 Karte durchsuchen und sie auf deine Hand nehmen. Mische anschließend dein Deck."
 			},
 		},
 	],
@@ -62,20 +62,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Missile Jab",
-				fr: "Coup Propulsé",
-				es: "Puya Misil",
-				it: "Missilpugno",
-				pt: "Soco Míssil",
-				de: "Wieselflinke Gerade"
+				'en-us': "Missile Jab",
+				'fr-fr': "Coup Propulsé",
+				'es-es': "Puya Misil",
+				'it-it': "Missilpugno",
+				'pt-br': "Soco Míssil",
+				'de-de': "Wieselflinke Gerade"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				es: "El daño de este ataque no se ve afectado por Resistencia.",
-				it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-				pt: "O dano deste ataque não é afetado por Resistência.",
-				de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+				'en-us': "This attack’s damage isn’t affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+				'it-it': "I danni di questo attacco non sono influenzati dalla resistenza.",
+				'pt-br': "O dano deste ataque não é afetado por Resistência.",
+				'de-de': "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
 			},
 			damage: 70,
 
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They can detect the species of a living being—and its emotions—from over half a mile away. They control auras and hunt their prey in packs.",
+		'en-us': "They can detect the species of a living being—and its emotions—from over half a mile away. They control auras and hunt their prey in packs.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG7"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キングドラ（デルタ種）",
+		'ja-jp': "キングドラ（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ドラゴンの呪い",
+				'ja-jp': "ドラゴンの呪い",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前に）、KingdraがアクティブなPokã©Monである場合、カードにDeltaを使用した相手のPokã©Monの1つに2つのダメージカウンターを入れることができます。 Kingdraが特別な状態の影響を受けている場合、このパワーは使用できません。",
+				'ja-jp': "ターン中（攻撃の前に）、KingdraがアクティブなPokã©Monである場合、カードにDeltaを使用した相手のPokã©Monの1つに2つのダメージカウンターを入れることができます。 Kingdraが特別な状態の影響を受けている場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,16 +29,16 @@ const card: Card = {
 		{
 			cost: ["Fire", "Colorless"],
 			name: {
-				ja: "余分な炎",
+				'ja-jp': "余分な炎",
 			},
 			effect: {
-				ja: "防御ポケモンがポケモンエクスの場合、この攻撃は30ダメージに加えて30ダメージを与えます。",
+				'ja-jp': "防御ポケモンがポケモンエクスの場合、この攻撃は30ダメージに加えて30ダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Fire", "Metal", "Colorless", "Colorless"],
 			name: {
-				ja: "ヒートブラスト",
+				'ja-jp': "ヒートブラスト",
 			},
 			damage: 80,
 		},

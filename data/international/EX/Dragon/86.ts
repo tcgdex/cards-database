@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Low Pressure System",
-		fr: "Système à basse pression",
-		de: "Tiefdrucksystem"
+		'en-us': "Low Pressure System",
+		'fr-fr': "Système à basse pression",
+		'de-de': "Tiefdrucksystem"
 	},
 
 	illustrator: "Shin-ichi Yoshikawa",
@@ -15,9 +15,9 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	effect: {
-		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Each Grass and Lightning Pokémon in play (both yours and your opponent's) gets +10 HP.",
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez -la si une autre carte Stade est mise en jeu.",
-		de: "Each  and  Pokémon in play (both yours and your opponent's) gets +10HP.",
+		'en-us': "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Each Grass and Lightning Pokémon in play (both yours and your opponent's) gets +10 HP.",
+		'fr-fr': "Cette carte reste en jeu lorsque vous la jouez. Défaussez -la si une autre carte Stade est mise en jeu.",
+		'de-de': "Each  and  Pokémon in play (both yours and your opponent's) gets +10HP.",
 	},
 
 	retreat: 0,

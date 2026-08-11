@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Golbat",
-		fr: "Nosferalto",
-		de: "Golbat"
+		'en-us': "Golbat",
+		'fr-fr': "Nosferalto",
+		'de-de': "Golbat"
 	},
 
 	illustrator: "Midori Harada",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Zubat",
-		fr: "Nosferapti"
+		'en-us': "Zubat",
+		'fr-fr': "Nosferapti"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Supersonic",
-				fr: "Ultrason",
-				de: "Supersonic"
+				'en-us': "Supersonic",
+				'fr-fr': "Ultrason",
+				'de-de': "Supersonic"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
-				de: "The Defending Pokémon is now Confused."
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "The Defending Pokémon is now Confused."
 			},
 
 		},
@@ -51,9 +51,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharp Fang",
-				fr: "Croc aiguisé",
-				de: "Sharp Fang"
+				'en-us': "Sharp Fang",
+				'fr-fr': "Croc aiguisé",
+				'de-de': "Sharp Fang"
 			},
 
 			damage: 20,

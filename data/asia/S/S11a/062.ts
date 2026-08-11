@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "きんきゅうゼリー",
+		'ja-jp': "きんきゅうゼリー",
 		'zh-tw': "緊急果凍",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいの番の終わりに、このカードをつけているポケモンの残りHPが「30」以下でダメカンがのっているなら、そのポケモンのHPを「120」回復する。その後、このカードをトラッシュする。",
+		'ja-jp': "おたがいの番の終わりに、このカードをつけているポケモンの残りHPが「30」以下でダメカンがのっているなら、そのポケモンのHPを「120」回復する。その後、このカードをトラッシュする。",
 		'zh-tw': "寶可夢道具卡，附於自己的寶可夢使用。1隻寶可夢只可附上1張寶可夢道具卡，並且保持附加狀態。",
 	},
 

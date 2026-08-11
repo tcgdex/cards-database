@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Yanma",
-		fr: "Yanma",
-		de: "Yanma"
+		'en-us': "Yanma",
+		'fr-fr': "Yanma",
+		'de-de': "Yanma"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Grand Loop",
-				fr: "Grande boucle",
-				de: "Grand Loop"
+				'en-us': "Grand Loop",
+				'fr-fr': "Grande boucle",
+				'de-de': "Grand Loop"
 			},
 			effect: {
-				en: "Draw 2 cards. You may switch Yanma with 1 of your Benched Pokémon.",
-				fr: "Piochez 2 cartes. Vous pouvez échanger Yanma avec 1 des Pokémon de votre Banc.",
-				de: "Draw 2 cards. You may switch Yanma with 1 of your Benched Pokémon."
+				'en-us': "Draw 2 cards. You may switch Yanma with 1 of your Benched Pokémon.",
+				'fr-fr': "Piochez 2 cartes. Vous pouvez échanger Yanma avec 1 des Pokémon de votre Banc.",
+				'de-de': "Draw 2 cards. You may switch Yanma with 1 of your Benched Pokémon."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spinning Tail",
-				fr: "Queue tournante",
-				de: "Spinning Tail"
+				'en-us': "Spinning Tail",
+				'fr-fr': "Queue tournante",
+				'de-de': "Spinning Tail"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Flip a coin. If heads, this attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Flip a coin. If heads, this attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Flip a coin. If heads, this attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},

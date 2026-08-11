@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Grafaiai",
-		fr: "Tag-Tag",
-		de: "Affiti",
-		it: "Grafaiai",
-		es: "Grafaiai",
-		pt: "Grafaiai",
+		'en-us': "Grafaiai",
+		'fr-fr': "Tag-Tag",
+		'de-de': "Affiti",
+		'it-it': "Grafaiai",
+		'es-es': "Grafaiai",
+		'pt-br': "Grafaiai",
 		'es-mx': "Grafaiai"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Shroodle",
-		fr: "Gribouraigne",
-		de: "Sproxi",
-		it: "Shroodle",
-		es: "Shroodle",
-		pt: "Shroodle",
+		'en-us': "Shroodle",
+		'fr-fr': "Gribouraigne",
+		'de-de': "Sproxi",
+		'it-it': "Shroodle",
+		'es-es': "Shroodle",
+		'pt-br': "Shroodle",
 		'es-mx': "Shroodle"
 	},
 	stage: "Stage1",
@@ -35,22 +35,22 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Miraculous Paint",
-			fr: "Peinture Miraculeuse",
-			de: "Wunderfarbe",
-			it: "Pittura Miracolosa",
-			es: "Pintura Milagrosa",
-			pt: "Tinta Miraculosa",
+			'en-us': "Miraculous Paint",
+			'fr-fr': "Peinture Miraculeuse",
+			'de-de': "Wunderfarbe",
+			'it-it': "Pittura Miracolosa",
+			'es-es': "Pintura Milagrosa",
+			'pt-br': "Tinta Miraculosa",
 			'es-mx': "Pintura Milagrosa"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, choose a Special Condition. Your opponent's Active Pokémon is now affected by that Special Condition.",
-			fr: "Lancez une pièce. Si c'est face, choisissez un État Spécial. Le Pokémon Actif de votre adversaire est maintenant affecté par cet État Spécial.",
-			de: "Wirf 1 Münze. Wähle bei Kopf 1 Speziellen Zustand. Das Aktive Pokémon deines Gegners ist jetzt von jenem Speziellen Zustand betroffen.",
-			it: "Lancia una moneta. Se esce testa, scegli una condizione speciale. Il Pokémon attivo del tuo avversario viene influenzato da quella condizione speciale.",
-			es: "Lanza 1 moneda. Si sale cara, elige una Condición Especial. El Pokémon Activo de tu rival pasa a estar afectado por esa Condición Especial.",
-			pt: "Jogue uma moeda. Se sair cara, escolha uma Condição Especial. O Pokémon Ativo do seu oponente agora está afetado por aquela Condição Especial.",
+			'en-us': "Flip a coin. If heads, choose a Special Condition. Your opponent's Active Pokémon is now affected by that Special Condition.",
+			'fr-fr': "Lancez une pièce. Si c'est face, choisissez un État Spécial. Le Pokémon Actif de votre adversaire est maintenant affecté par cet État Spécial.",
+			'de-de': "Wirf 1 Münze. Wähle bei Kopf 1 Speziellen Zustand. Das Aktive Pokémon deines Gegners ist jetzt von jenem Speziellen Zustand betroffen.",
+			'it-it': "Lancia una moneta. Se esce testa, scegli una condizione speciale. Il Pokémon attivo del tuo avversario viene influenzato da quella condizione speciale.",
+			'es-es': "Lanza 1 moneda. Si sale cara, elige una Condición Especial. El Pokémon Activo de tu rival pasa a estar afectado por esa Condición Especial.",
+			'pt-br': "Jogue uma moeda. Se sair cara, escolha uma Condição Especial. O Pokémon Ativo do seu oponente agora está afetado por aquela Condição Especial.",
 			'es-mx': "Lanza 1 moneda. Si sale cara, elige 1 Condición Especial. El Pokémon Activo de tu rival ahora se ve afectado por esa Condición Especial."
 		},
 

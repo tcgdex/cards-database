@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [428],
 
 	name: {
-		en: "Mega Lopunny ex"
+		'en-us': "Mega Lopunny ex"
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Buneary"
+		'en-us': "Buneary"
 	},
 
 	description: {
-		en: "It swings its ears like whips and strikes its\nenemies with them. It has an intensely\ncombative disposition."
+		'en-us': "It swings its ears like whips and strikes its\nenemies with them. It has an intensely\ncombative disposition."
 	},
 
 	stage: "Stage1",
@@ -29,14 +29,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Rapid Smashers"
+			'en-us': "Rapid Smashers"
 		},
 
 		damage: 90,
 		cost: ["Fighting", "Fighting"],
 
 		effect: {
-			en: "Flip 2 coins. This attack does 90 damage for each heads. Your opponent's Active Pokémon is now Confused."
+			'en-us': "Flip 2 coins. This attack does 90 damage for each heads. Your opponent's Active Pokémon is now Confused."
 		}
 	}],
 

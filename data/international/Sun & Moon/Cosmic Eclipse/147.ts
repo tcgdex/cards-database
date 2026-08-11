@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Cottonee",
-		fr: "Doudouvet",
-		es: "Cottonee",
-		it: "Cottonee",
-		pt: "Cottonee",
-		de: "Waumboll"
+		'en-us': "Cottonee",
+		'fr-fr': "Doudouvet",
+		'es-es': "Cottonee",
+		'it-it': "Cottonee",
+		'pt-br': "Cottonee",
+		'de-de': "Waumboll"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lost March",
-				fr: "Marche Perdue",
-				es: "Marcha Perdida",
-				it: "Marcia Perduta",
-				pt: "Marcha Perdida",
-				de: "Nirgendwo-Marsch"
+				'en-us': "Lost March",
+				'fr-fr': "Marche Perdue",
+				'es-es': "Marcha Perdida",
+				'it-it': "Marcia Perduta",
+				'pt-br': "Marcha Perdida",
+				'de-de': "Nirgendwo-Marsch"
 			},
 			effect: {
-				en: "This attack does 20 damage for each of your Pokémon, except ◇ (Prism Star) Pokémon, in the Lost Zone.",
-				fr: "Cette attaque inflige 20 dégâts pour chacun de vos Pokémon dans la Zone Perdue, à l’exception des Pokémon {*} (Prisme Étoile).",
-				es: "Este ataque hace 20 puntos de daño por cada uno de tus Pokémon en la Zona Perdida, excepto los Pokémon de {*} (Estrella Prisma).",
-				it: "Questo attacco infligge 20 danni per ogni tuo Pokémon nell’area perduta, a eccezione dei Pokémon {*} (stella prisma).",
-				pt: "Este ataque causa 20 pontos de dano para cada um dos seus Pokémon na Zona Perdida, exceto por seus Pokémon {*} (Estrela Prisma).",
-				de: "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl deiner Pokémon, außer {*}-Pokémon (Prisma-Stern-Pokémon), im Nirgendwo zu."
+				'en-us': "This attack does 20 damage for each of your Pokémon, except ◇ (Prism Star) Pokémon, in the Lost Zone.",
+				'fr-fr': "Cette attaque inflige 20 dégâts pour chacun de vos Pokémon dans la Zone Perdue, à l’exception des Pokémon {*} (Prisme Étoile).",
+				'es-es': "Este ataque hace 20 puntos de daño por cada uno de tus Pokémon en la Zona Perdida, excepto los Pokémon de {*} (Estrella Prisma).",
+				'it-it': "Questo attacco infligge 20 danni per ogni tuo Pokémon nell’area perduta, a eccezione dei Pokémon {*} (stella prisma).",
+				'pt-br': "Este ataque causa 20 pontos de dano para cada um dos seus Pokémon na Zona Perdida, exceto por seus Pokémon {*} (Estrela Prisma).",
+				'de-de': "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl deiner Pokémon, außer {*}-Pokémon (Prisma-Stern-Pokémon), im Nirgendwo zu."
 			},
 			damage: "20×",
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "To protect itself, it shoots cotton from its body. When it gets wet in the rain, its cotton grows moist and heavy, and it can't move as well.",
+		'en-us': "To protect itself, it shoots cotton from its body. When it gets wet in the rain, its cotton grows moist and heavy, and it can't move as well.",
 	},
 
 	thirdParty: {

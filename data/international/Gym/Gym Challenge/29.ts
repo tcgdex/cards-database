@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Gengar"
+		'en-us': "Sabrina's Gengar"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Haunter"
+		'en-us': "Haunter"
 	},
 
 	stage: "Stage2",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Dark Wave"
+				'en-us': "Dark Wave"
 			},
 			effect: {
-				en: "All Pokémon Powers stop working until the end of your opponent's next turn."
+				'en-us': "All Pokémon Powers stop working until the end of your opponent's next turn."
 			},
 			damage: 20,
 
@@ -47,10 +47,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Shadow Bind"
+				'en-us': "Shadow Bind"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn."
 			},
 			damage: 40,
 

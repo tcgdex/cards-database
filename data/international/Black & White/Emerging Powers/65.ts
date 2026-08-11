@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Liepard",
-		fr: "Léopardus",
-		es: "Liepard",
-		it: "Liepard",
-		pt: "Liepard",
-		de: "Kleoparda"
+		'en-us': "Liepard",
+		'fr-fr': "Léopardus",
+		'es-es': "Liepard",
+		'it-it': "Liepard",
+		'pt-br': "Liepard",
+		'de-de': "Kleoparda"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Purrloin",
-		fr: "Chacripan",
+		'en-us': "Purrloin",
+		'fr-fr': "Chacripan",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Feint Attack",
-				fr: "Feinte",
+				'en-us': "Feint Attack",
+				'fr-fr': "Feinte",
 			},
 			effect: {
-				en: "Does 30 damage to 1 of your opponent's Pokémon. This attack's damage isn't affected by Weakness, Resistance, or any other effects on that Pokémon.",
-				fr: "Inflige 30 dégâts à 1 des Pokémon de votre adversaire. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon ciblé.",
+				'en-us': "Does 30 damage to 1 of your opponent's Pokémon. This attack's damage isn't affected by Weakness, Resistance, or any other effects on that Pokémon.",
+				'fr-fr': "Inflige 30 dégâts à 1 des Pokémon de votre adversaire. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon ciblé.",
 			},
 
 		},
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Claw Rend",
-				fr: "Déchirure",
+				'en-us': "Claw Rend",
+				'fr-fr': "Déchirure",
 			},
 			effect: {
-				en: "If the Defending Pokémon already has any damage counters on it, this attack does 30 more damage.",
-				fr: "Si le Pokémon Défenseur a déjà des marqueurs de dégâts, cette attaque inflige 30 dégâts supplémentaires.",
+				'en-us': "If the Defending Pokémon already has any damage counters on it, this attack does 30 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur a déjà des marqueurs de dégâts, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: 50,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "These Pokémon vanish and appear unexpectedly. Many Trainers are drawn to their beautiful form and fur.",
+		'en-us': "These Pokémon vanish and appear unexpectedly. Many Trainers are drawn to their beautiful form and fur.",
 	},
 
 	thirdParty: {

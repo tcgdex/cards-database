@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドンファン",
+		'ja-jp': "ドンファン",
 	},
 
 	illustrator: "Julie Hang",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "普段は 落ち着いているが 一度 怒らせると 体を 丸めて 回転しながら 突っ込んでくる。",
+		'ja-jp': "普段は 落ち着いているが 一度 怒らせると 体を 丸めて 回転しながら 突っ込んでくる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Fighting"],
 			effect: {
-				ja: "次の自分の番、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+120」される。",
+				'ja-jp': "次の自分の番、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+120」される。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを2個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴマゾウ",
+		'ja-jp': "ゴマゾウ",
 	},
 
 	retreat: 3,

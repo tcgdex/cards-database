@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Persian",
-		fr: "Persian",
-		es: "Persian",
-		it: "Persian",
-		pt: "Persian",
-		de: "Snobilikat"
+		'en-us': "Persian",
+		'fr-fr': "Persian",
+		'es-es': "Persian",
+		'it-it': "Persian",
+		'pt-br': "Persian",
+		'de-de': "Snobilikat"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Meowth",
-		fr: "Miaouss",
-		es: "Meowth",
-		it: "Meowth",
-		pt: "Meowth",
-		de: "Mauzi"
+		'en-us': "Meowth",
+		'fr-fr': "Miaouss",
+		'es-es': "Meowth",
+		'it-it': "Meowth",
+		'pt-br': "Meowth",
+		'de-de': "Mauzi"
 	},
 
 	stage: "Stage1",
@@ -40,41 +40,41 @@ const card: Card = {
 	illustrator: "Lee HyunJung",
 
 	description: {
-		en: "Its elegant and refined behavior clashes with that of the barbaric Perrserker. The relationship between the two is one of mutual disdain."
+		'en-us': "Its elegant and refined behavior clashes with that of the barbaric Perrserker. The relationship between the two is one of mutual disdain."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Pay Day",
-			fr: "Jackpot",
-			de: "Zahltag",
-			es: "Día de Pago",
-			pt: "Dia de Pagamento",
-			it: "Giornopaga"
+			'en-us': "Pay Day",
+			'fr-fr': "Jackpot",
+			'de-de': "Zahltag",
+			'es-es': "Día de Pago",
+			'pt-br': "Dia de Pagamento",
+			'it-it': "Giornopaga"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			de: "Ziehe 1 Karte.",
-			es: "Roba 1 carta.",
-			pt: "Compre 1 carta.",
-			it: "Pesca una carta."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'de-de': "Ziehe 1 Karte.",
+			'es-es': "Roba 1 carta.",
+			'pt-br': "Compre 1 carta.",
+			'it-it': "Pesca una carta."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			de: "Biss",
-			es: "Mordisco",
-			pt: "Mordida",
-			it: "Morso"
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'de-de': "Biss",
+			'es-es': "Mordisco",
+			'pt-br': "Mordida",
+			'it-it': "Morso"
 		},
 
 		damage: 70

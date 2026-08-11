@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "いちげきウーラオスV",
+		'ja-jp': "いちげきウーラオスV",
 	},
 
 	illustrator: "Yuu Nishida",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "とぎすます" },
 			cost: ["Fighting"],
 			effect: {
-				ja: "自分の山札から[闘]エネルギーを2枚まで選び、このポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から[闘]エネルギーを2枚まで選び、このポケモンにつける。そして山札を切る。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「インパクトブロー」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「インパクトブロー」が使えない。",
 			},
 		},
 	],

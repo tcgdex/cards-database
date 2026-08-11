@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Golisopod ex"
+		'id-id': "Golisopod ex"
 	},
 
 	illustrator: "Oku",
@@ -17,18 +17,18 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Aqua Blade"
+			'id-id': "Aqua Blade"
 		},
 
 		damage: 70,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Satu Tebasan Menjauh"
+			'id-id': "Satu Tebasan Menjauh"
 		},
 
 		effect: {
-			id: "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash. Setelah itu, tukar Pokémon ini dengan Pokémon Cadangan."
+			'id-id': "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash. Setelah itu, tukar Pokémon ini dengan Pokémon Cadangan."
 		},
 
 		damage: 170,

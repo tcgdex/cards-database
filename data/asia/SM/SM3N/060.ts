@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マーシャドーGX",
+		'ja-jp': "マーシャドーGX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "シャドーハント" },
 			effect: {
-				ja: "このポケモンは、自分のトラッシュにあるたねポケモンが持っているワザを、すべて使える。［ワザを使うためのエネルギーは必要。］",
+				'ja-jp': "このポケモンは、自分のトラッシュにあるたねポケモンが持っているワザを、すべて使える。［ワザを使うためのエネルギーは必要。］",
 			},
 		},
 	],
@@ -35,7 +35,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Fighting"],
 			effect: {
-				ja: "このポケモンについている基本エネルギーの数x50ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "このポケモンについている基本エネルギーの数x50ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

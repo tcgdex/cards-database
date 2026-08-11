@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Cryodo",
-		en: "Arctibax",
-		es: "Arctibax",
-		it: "Arctibax",
-		pt: "Arctibax",
-		de: "Cryospino"
+		'fr-fr': "Cryodo",
+		'en-us': "Arctibax",
+		'es-es': "Arctibax",
+		'it-it': "Arctibax",
+		'pt-br': "Arctibax",
+		'de-de': "Cryospino"
 	},
 
 	rarity: "Illustration rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Water"],
 	evolveFrom: {
-		fr: "Frigodo",
-		en: "Frigibax",
-		es: "Frigibax",
-		it: "Frigibax",
-		pt: "Frigibax",
-		de: "Frospino"
+		'fr-fr': "Frigodo",
+		'en-us': "Frigibax",
+		'es-es': "Frigibax",
+		'it-it': "Frigibax",
+		'pt-br': "Frigibax",
+		'de-de': "Frospino"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			fr: "Aileron Aiguisé",
-			en: "Sharp Fin",
-			es: "Cortaleta",
-			it: "Pinnaffilata",
-			pt: "Barbatana Afiada",
-			de: "Schneidige Flosse"
+			'fr-fr': "Aileron Aiguisé",
+			'en-us': "Sharp Fin",
+			'es-es': "Cortaleta",
+			'it-it': "Pinnaffilata",
+			'pt-br': "Barbatana Afiada",
+			'de-de': "Schneidige Flosse"
 		},
 
 		damage: 40
@@ -45,12 +45,12 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			fr: "Impact Glacial",
-			en: "Frost Smash",
-			es: "Golpe Gélido",
-			it: "Gelocolpo",
-			pt: "Pancada Congelada",
-			de: "Frostschlag"
+			'fr-fr': "Impact Glacial",
+			'en-us': "Frost Smash",
+			'es-es': "Golpe Gélido",
+			'it-it': "Gelocolpo",
+			'pt-br': "Pancada Congelada",
+			'de-de': "Frostschlag"
 		},
 
 		damage: 80
@@ -79,7 +79,7 @@ const card: Card = {
 	illustrator: "Tomokazu Komiya",
 
 	description: {
-		en: "Arctibax freezes the air around it, protecting its face with an ice mask and turning its dorsal fin into a blade of ice.",
+		'en-us': "Arctibax freezes the air around it, protecting its face with an ice mask and turning its dorsal fin into a blade of ice.",
 	},
 }
 

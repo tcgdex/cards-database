@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Emolga",
-		fr: "Emolga",
-		es: "Emolga",
-		it: "Emolga",
-		pt: "Emolga",
-		de: "Emolga"
+		'en-us': "Emolga",
+		'fr-fr': "Emolga",
+		'es-es': "Emolga",
+		'it-it': "Emolga",
+		'pt-br': "Emolga",
+		'de-de': "Emolga"
 	},
 
 	illustrator: "Akira Komayama",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bounce",
-				fr: "Rebond",
+				'en-us': "Bounce",
+				'fr-fr': "Rebond",
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
 			},
 			damage: 30,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The energy made in its cheeks' electric pouches is stored inside its membrane and released while it is gliding.",
+		'en-us': "The energy made in its cheeks' electric pouches is stored inside its membrane and released while it is gliding.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Ninetales",
-		fr: "Feunard",
-		es: "Ninetales",
-		it: "Ninetales",
-		pt: "Ninetales",
-		de: "Vulnona"
+		'en-us': "Ninetales",
+		'fr-fr': "Feunard",
+		'es-es': "Ninetales",
+		'it-it': "Ninetales",
+		'pt-br': "Ninetales",
+		'de-de': "Vulnona"
 	},
 
 	illustrator: "Megumi Higuchi",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vulpix",
-		fr: "Goupix",
-		es: "Vulpix",
-		it: "Vulpix",
-		pt: "Vulpix",
-		de: "Vulpix"
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix",
+		'es-es': "Vulpix",
+		'it-it': "Vulpix",
+		'pt-br': "Vulpix",
+		'de-de': "Vulpix"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flame Cloak",
-				fr: "Manteau de Feu",
-				es: "Manto Ígneo",
-				it: "Radunafuoco",
-				pt: "Manto de Chamas",
-				de: "Flammenumhang"
+				'en-us': "Flame Cloak",
+				'fr-fr': "Manteau de Feu",
+				'es-es': "Manto Ígneo",
+				'it-it': "Radunafuoco",
+				'pt-br': "Manto de Chamas",
+				'de-de': "Flammenumhang"
 			},
 			effect: {
-				en: "Attach a Fire Energy card from your discard pile to this Pokémon.",
-				fr: "Attachez une carte Énergie Fire de votre pile de défausse à ce Pokémon.",
-				es: "Une 1 carta de Energía Fire de tu pila de descartes a este Pokémon.",
-				it: "Assegna a questo Pokémon una carta Energia Fire dalla tua pila degli scarti.",
-				pt: "Ligue 1 carta de Energia Fire da sua pilha de descarte a este Pokémon.",
-				de: "Lege 1 Fire-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+				'en-us': "Attach a Fire Energy card from your discard pile to this Pokémon.",
+				'fr-fr': "Attachez une carte Énergie Fire de votre pile de défausse à ce Pokémon.",
+				'es-es': "Une 1 carta de Energía Fire de tu pila de descartes a este Pokémon.",
+				'it-it': "Assegna a questo Pokémon una carta Energia Fire dalla tua pila degli scarti.",
+				'pt-br': "Ligue 1 carta de Energia Fire da sua pilha de descarte a este Pokémon.",
+				'de-de': "Lege 1 Fire-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 			},
 			damage: 30,
 
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Mane",
-				fr: "Crinière de Feu",
-				es: "Crin de Fuego",
-				it: "Criniera di Fuoco",
-				pt: "Crina de Fogo",
-				de: "Flammenmähne"
+				'en-us': "Fire Mane",
+				'fr-fr': "Crinière de Feu",
+				'es-es': "Crin de Fuego",
+				'it-it': "Criniera di Fuoco",
+				'pt-br': "Crina de Fogo",
+				'de-de': "Flammenmähne"
 			},
 
 			damage: 70,
@@ -98,7 +98,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers."
+		'en-us': "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers."
 	},
 
 	thirdParty: {

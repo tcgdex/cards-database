@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [58],
 
 	name: {
-		en: "Growlithe",
-		fr: "Caninos",
-		es: "Growlithe",
-		it: "Growlithe",
-		pt: "Growlithe",
-		de: "Fukano"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos",
+		'es-es': "Growlithe",
+		'it-it': "Growlithe",
+		'pt-br': "Growlithe",
+		'de-de': "Fukano"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -24,20 +24,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Odor Sleuth",
-				fr: "Flair",
-				es: "Rastreo",
-				it: "Segugio",
-				pt: "Farejador",
-				de: "Schnüffler"
+				'en-us': "Odor Sleuth",
+				'fr-fr': "Flair",
+				'es-es': "Rastreo",
+				'it-it': "Segugio",
+				'pt-br': "Farejador",
+				'de-de': "Schnüffler"
 			},
 			effect: {
-				en: "Flip a coin. If heads, put a card from your discard pile into your hand.",
-				fr: "Lancez une pièce. Si c'est face, ajoutez une carte de votre pile de défausse à votre main.",
-				es: "Lanza 1 moneda. Si sale cara, pon 1 carta de tu pila de descartes en tu mano.",
-				it: "Lancia una moneta. Se esce testa, prendi una carta dalla tua pila degli scarti e aggiungila a quelle che hai in mano.",
-				pt: "Jogue 1 moeda. Se sair cara, coloque 1 carta da sua pilha de descarte na sua mão.",
-				de: "Wirf 1 Münze. Nimm bei Kopf 1 Karte aus deinem Ablagestapel auf deine Hand."
+				'en-us': "Flip a coin. If heads, put a card from your discard pile into your hand.",
+				'fr-fr': "Lancez une pièce. Si c'est face, ajoutez une carte de votre pile de défausse à votre main.",
+				'es-es': "Lanza 1 moneda. Si sale cara, pon 1 carta de tu pila de descartes en tu mano.",
+				'it-it': "Lancia una moneta. Se esce testa, prendi una carta dalla tua pila degli scarti e aggiungila a quelle che hai in mano.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, coloque 1 carta da sua pilha de descarte na sua mão.",
+				'de-de': "Wirf 1 Münze. Nimm bei Kopf 1 Karte aus deinem Ablagestapel auf deine Hand."
 			},
 
 		},
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Claws",
-				fr: "Griffes Enflammées",
-				es: "Garras de Fuego",
-				it: "Artigli Infuocati",
-				pt: "Garras de Fogo",
-				de: "Feuerkrallen"
+				'en-us': "Fire Claws",
+				'fr-fr': "Griffes Enflammées",
+				'es-es': "Garras de Fuego",
+				'it-it': "Artigli Infuocati",
+				'pt-br': "Garras de Fogo",
+				'de-de': "Feuerkrallen"
 			},
 
 			damage: 60,
@@ -77,7 +77,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes."
+		'en-us': "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes."
 	},
 
 	variants: [

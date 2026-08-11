@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハンター",
+		'ja-jp': "ハンター",
 	},
 
 	rarity: "Uncommon",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "悪夢",
+				'ja-jp': "悪夢",
 			},
 			effect: {
-				ja: "防御ポケモンは今眠っています。",
+				'ja-jp': "防御ポケモンは今眠っています。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "夢の食べる人",
+				'ja-jp': "夢の食べる人",
 			},
 			effect: {
-				ja: "防御ポケモンが眠っていない場合、この攻撃は何もしません。",
+				'ja-jp': "防御ポケモンが眠っていない場合、この攻撃は何もしません。",
 			},
 			damage: 50,
 		},

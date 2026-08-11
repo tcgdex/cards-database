@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Igglybuff",
-		fr: "Toudoudou",
-		de: "Fluffeluff"
+		'en-us': "Igglybuff",
+		'fr-fr': "Toudoudou",
+		'de-de': "Fluffeluff"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -29,21 +29,21 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Gaze",
-				fr: "Regard",
-				de: "Anstarren"
+				'en-us': "Gaze",
+				'fr-fr': "Regard",
+				'de-de': "Anstarren"
 			},
 			effect: {
-				en: "Once during your turn (before you attack), choose 1 of your opponent's Benched Pokémon that has a Pokémon Power. That power stops working until the end of this turn. This effect ends if that Pokémon leaves the Bench. (Pokémon Power)",
-				fr: "Une fois pendant votre tour (avant votre attaque), choisissez 1 des Pokémon du Banc de votre adversaire qui a un Pouvoir Pokémon. Ce pouvoir cesse de fonctionner jusqu'à la fin du tour. L'effet de ce pouvoir cesse si le Pokémon quitte le Banc.",
-				de: "Wähle einmal während deines Zuges (vor deinem Angriff) eines der Pokémon auf der Bank deines Gegners, dass eine Pokémon-Power hat. Diese Power verliert bis zum Ende dieses Zuges ihre Wirkung. Dieser Effekt endet, wenn dieses Pokémon die Bank verlässt.\n\nWenn dieses Baby-Pokémon dein aktives Pokémon ist und dein Gegner einen Angriff ankündigt, wirft dein Gegner eine Münze (noch bevor er alles andere tut). Bei \"Zahl\" endet der Zug deines Gegners."
+				'en-us': "Once during your turn (before you attack), choose 1 of your opponent's Benched Pokémon that has a Pokémon Power. That power stops working until the end of this turn. This effect ends if that Pokémon leaves the Bench. (Pokémon Power)",
+				'fr-fr': "Une fois pendant votre tour (avant votre attaque), choisissez 1 des Pokémon du Banc de votre adversaire qui a un Pouvoir Pokémon. Ce pouvoir cesse de fonctionner jusqu'à la fin du tour. L'effet de ce pouvoir cesse si le Pokémon quitte le Banc.",
+				'de-de': "Wähle einmal während deines Zuges (vor deinem Angriff) eines der Pokémon auf der Bank deines Gegners, dass eine Pokémon-Power hat. Diese Power verliert bis zum Ende dieses Zuges ihre Wirkung. Dieser Effekt endet, wenn dieses Pokémon die Bank verlässt.\n\nWenn dieses Baby-Pokémon dein aktives Pokémon ist und dein Gegner einen Angriff ankündigt, wirft dein Gegner eine Münze (noch bevor er alles andere tut). Bei \"Zahl\" endet der Zug deines Gegners."
 			},
 		},
 	],
 
 	description: {
-		en: "It has a very soft body. If it starts to roll, it will bounce all over and be impossible to stop.",
-		fr: "Son corps extrêmement flexible et élastique le fait rebondir continuellement — tout le temps, et dans toutes les directions."
+		'en-us': "It has a very soft body. If it starts to roll, it will bounce all over and be impossible to stop.",
+		'fr-fr': "Son corps extrêmement flexible et élastique le fait rebondir continuellement — tout le temps, et dans toutes les directions."
 	},
 
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Baltoy",
-		fr: "Balbuto",
-		es: "Baltoy",
-		it: "Baltoy",
-		pt: "Baltoy",
-		de: "Puppance"
+		'en-us': "Baltoy",
+		'fr-fr': "Balbuto",
+		'es-es': "Baltoy",
+		'it-it': "Baltoy",
+		'pt-br': "Baltoy",
+		'de-de': "Puppance"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Slap",
-				fr: "Gifle",
-				es: "Bofetón",
-				it: "Sberla",
-				pt: "Tapa",
-				de: "Hieb"
+				'en-us': "Slap",
+				'fr-fr': "Gifle",
+				'es-es': "Bofetón",
+				'it-it': "Sberla",
+				'pt-br': "Tapa",
+				'de-de': "Hieb"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spinning Attack",
-				fr: "Attaque Tournante",
-				es: "Ataque Giratorio",
-				it: "Attacco Rotante",
-				pt: "Ataque Giratório",
-				de: "Rundumangriff"
+				'en-us': "Spinning Attack",
+				'fr-fr': "Attaque Tournante",
+				'es-es': "Ataque Giratorio",
+				'it-it': "Attacco Rotante",
+				'pt-br': "Ataque Giratório",
+				'de-de': "Rundumangriff"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It moves by spinning on its foot. It is a rare Pokémon that was discovered in ancient ruins.",
+		'en-us': "It moves by spinning on its foot. It is a rare Pokémon that was discovered in ancient ruins.",
 	},
 
 	thirdParty: {

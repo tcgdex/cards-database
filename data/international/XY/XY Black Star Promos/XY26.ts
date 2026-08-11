@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Pyroar",
-		fr: "Némélios",
+		'en-us': "Pyroar",
+		'fr-fr': "Némélios",
 	},
 
 	illustrator: "5ban Graphics",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Litleo",
-		fr: "Hélionceau",
+		'en-us': "Litleo",
+		'fr-fr': "Hélionceau",
 	},
 
 	stage: "Stage1",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crunch",
-				fr: "Mâchouille",
+				'en-us': "Crunch",
+				'fr-fr': "Mâchouille",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				'en-us': "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 30,
 
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Royal Flare",
-				fr: "Flamme Royale",
+				'en-us': "Royal Flare",
+				'fr-fr': "Flamme Royale",
 			},
 			effect: {
-				en: "Discard 2 Energy attached to this Pokémon.",
-				fr: "Défaussez 2 Énergies attachées à ce Pokémon.",
+				'en-us': "Discard 2 Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez 2 Énergies attachées à ce Pokémon.",
 			},
 			damage: 120,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The male with the largest mane of fire is the leader of the pride.",
+		'en-us': "The male with the largest mane of fire is the leader of the pride.",
 	},
 
 	thirdParty: {

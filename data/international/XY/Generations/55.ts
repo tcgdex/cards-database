@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Doduo",
-		fr: "Doduo",
+		'en-us': "Doduo",
+		'fr-fr': "Doduo",
 	},
 
 	illustrator: "Eri Yamaki",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Stab",
-				fr: "Entaille Double",
+				'en-us': "Double Stab",
+				'fr-fr': "Entaille Double",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: "10×",
 
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Doduo Delivery",
-				fr: "Livraison Doduo",
+				'en-us': "Doduo Delivery",
+				'fr-fr': "Livraison Doduo",
 			},
 			effect: {
-				en: "Draw 2 cards.",
-				fr: "Piochez 2 cartes.",
+				'en-us': "Draw 2 cards.",
+				'fr-fr': "Piochez 2 cartes.",
 			},
 
 		},
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The brains in its two heads appear to communicate emotions to each other with a telepathic power.",
+		'en-us': "The brains in its two heads appear to communicate emotions to each other with a telepathic power.",
 	},
 
 	thirdParty: {

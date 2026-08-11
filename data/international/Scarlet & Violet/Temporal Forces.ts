@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Scarlet & Violet'
 
 const set: Set = {
 	id: "sv05",
 
 	name: {
-		de: "Gewalten der Zeit",
-		en: "Temporal Forces",
-		es: "Fuerzas Temporales",
-		fr: "Forces Temporelles",
-		it: "Cronoforze",
-		pt: "Forças Temporais"
+		'de-de': "Gewalten der Zeit",
+		'en-us': "Temporal Forces",
+		'es-es': "Fuerzas Temporales",
+		'fr-fr': "Forces Temporelles",
+		'it-it': "Cronoforze",
+		'pt-br': "Forças Temporais"
 	},
 
 	serie: serie,
@@ -23,7 +23,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "TEF",
-		fr: "FTP"
+		'fr-fr': "FTP"
 	},
 
 	thirdParty: {

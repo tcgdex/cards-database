@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tangela",
-		fr: "Saquedeneu",
-		es: "Tangela",
-		it: "Tangela",
-		pt: "Tangela",
-		de: "Tangela"
+		'en-us': "Tangela",
+		'fr-fr': "Saquedeneu",
+		'es-es': "Tangela",
+		'it-it': "Tangela",
+		'pt-br': "Tangela",
+		'de-de': "Tangela"
 	},
 
 	illustrator: "kurumitsu",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Beat",
-			fr: "Bataille",
-			es: "Toque",
-			it: "Battuta",
-			pt: "Pulso",
-			de: "Verprügler"
+			'en-us': "Beat",
+			'fr-fr': "Bataille",
+			'es-es': "Toque",
+			'it-it': "Battuta",
+			'pt-br': "Pulso",
+			'de-de': "Verprügler"
 		},
 
 		damage: 10
@@ -38,12 +38,12 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			en: "Vine Whip",
-			fr: "Fouet Lianes",
-			es: "Látigo Cepa",
-			it: "Frustata",
-			pt: "Chicote de Vinha",
-			de: "Rankenhieb"
+			'en-us': "Vine Whip",
+			'fr-fr': "Fouet Lianes",
+			'es-es': "Látigo Cepa",
+			'it-it': "Frustata",
+			'pt-br': "Chicote de Vinha",
+			'de-de': "Rankenhieb"
 		},
 
 		damage: 60
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Hidden beneath a tangle of vines that grows nonstop even if the vines are torn off, this Pokémon's true appearance remains a mystery.",
+		'en-us': "Hidden beneath a tangle of vines that grows nonstop even if the vines are torn off, this Pokémon's true appearance remains a mystery.",
 	},
 
 	

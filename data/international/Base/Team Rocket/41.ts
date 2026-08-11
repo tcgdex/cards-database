@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Dark Muk",
-		fr: "Grotadmorv obscur",
-		de: "Dunkles Sleimok"
+		'en-us': "Dark Muk",
+		'fr-fr': "Grotadmorv obscur",
+		'de-de': "Dunkles Sleimok"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Grimer",
-		fr: "Tadmorv"
+		'en-us': "Grimer",
+		'fr-fr': "Tadmorv"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Sticky Goo",
-				fr: "Boue collante",
-				de: "Sticky Goo"
+				'en-us': "Sticky Goo",
+				'fr-fr': "Boue collante",
+				'de-de': "Sticky Goo"
 			},
 			effect: {
-				en: "As long as Dark Muk is your Active Pokémon, your opponent pays 2 more to retreat his or her Active Pokémon. This power stops working while Dark Muk is Asleep, Confused, or Paralyzed.",
-				fr: "Tant que Grotadmorv obscur est votre Pokémon Actif, votre adversaire paye  supplémentaires pour faire battre en retraite son Pokémon Actif. Ce pouvoir cesse de fonctionner quand Grotadmorv obscur est Endormi, Confus ou Paralysé.",
-				de: "As long as Dark Muk is your Active Pokémon, your opponent pays   more to retreat his or her Active Pokémon. This power stops working while Dark Muk is Asleep, Confused,or Paralyed."
+				'en-us': "As long as Dark Muk is your Active Pokémon, your opponent pays 2 more to retreat his or her Active Pokémon. This power stops working while Dark Muk is Asleep, Confused, or Paralyzed.",
+				'fr-fr': "Tant que Grotadmorv obscur est votre Pokémon Actif, votre adversaire paye  supplémentaires pour faire battre en retraite son Pokémon Actif. Ce pouvoir cesse de fonctionner quand Grotadmorv obscur est Endormi, Confus ou Paralysé.",
+				'de-de': "As long as Dark Muk is your Active Pokémon, your opponent pays   more to retreat his or her Active Pokémon. This power stops working while Dark Muk is Asleep, Confused,or Paralyed."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sludge Punch",
-				fr: "Point gadoue",
-				de: "Sludge Punch"
+				'en-us': "Sludge Punch",
+				'fr-fr': "Point gadoue",
+				'de-de': "Sludge Punch"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "The Defending Pokémon is now Poisoned."
 			},
 			damage: 20,
 
@@ -77,8 +77,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Muks appear suddenly, spreading sludge everywhere. Whenever one appears in a city, panic ensues.",
-		fr: "Les Grotadmorv apparaissent sans prévenir, répandant de la gadoue partout. À chaque fois qu'ils apparaissent dans une cité, la panique s'ensuit."
+		'en-us': "Muks appear suddenly, spreading sludge everywhere. Whenever one appears in a city, panic ensues.",
+		'fr-fr': "Les Grotadmorv apparaissent sans prévenir, répandant de la gadoue partout. À chaque fois qu'ils apparaissent dans une cité, la panique s'ensuit."
 	},
 
 

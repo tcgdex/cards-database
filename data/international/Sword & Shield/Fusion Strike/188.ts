@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Meltan",
-		fr: "Meltan",
-		es: "Meltan",
-		it: "Meltan",
-		pt: "Meltan",
-		de: "Meltan"
+		'en-us': "Meltan",
+		'fr-fr': "Meltan",
+		'es-es': "Meltan",
+		'it-it': "Meltan",
+		'pt-br': "Meltan",
+		'de-de': "Meltan"
 	},
 
 	rarity: "Common",
@@ -36,39 +36,39 @@ const card: Card = {
 	illustrator: "Teeziro",
 
 	description: {
-		en: "It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel."
+		'en-us': "It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel."
 	},
 
 	attacks: [{
 		cost: ["Metal"],
 
 		name: {
-			en: "Iron Intake",
-			fr: "Apport en Fer",
-			de: "Eisenaufnahme",
-			es: "Ingesta de Hierro",
-			pt: "Ingestão de Ferro",
-			it: "Fabbisogno di Ferro"
+			'en-us': "Iron Intake",
+			'fr-fr': "Apport en Fer",
+			'de-de': "Eisenaufnahme",
+			'es-es': "Ingesta de Hierro",
+			'pt-br': "Ingestão de Ferro",
+			'it-it': "Fabbisogno di Ferro"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			it: "Cura questo Pokémon da 30 danni."
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			de: "Kopfnuss",
-			es: "Golpe Cabeza",
-			pt: "Cabeçada",
-			it: "Bottintesta"
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'de-de': "Kopfnuss",
+			'es-es': "Golpe Cabeza",
+			'pt-br': "Cabeçada",
+			'it-it': "Bottintesta"
 		},
 
 		damage: 20

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Luvdisc",
-		fr: "Lovdisc",
-		de: "Liebiskus"
+		'en-us': "Luvdisc",
+		'fr-fr': "Lovdisc",
+		'de-de': "Liebiskus"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Loving Draw",
-				fr: "Bonne pioche",
-				de: "Loving Draw"
+				'en-us': "Loving Draw",
+				'fr-fr': "Bonne pioche",
+				'de-de': "Loving Draw"
 			},
 			effect: {
-				en: "Draw cards until you have the same number of cards in your hand as your opponent has in his or her hand.",
-				fr: "Piochez des cartes jusqu'à ce que vous ayez autant de cartes en main que votre adversaire.",
-				de: "Draw cards until you have the same number of cards in your hand as your opponent has in his or her hand."
+				'en-us': "Draw cards until you have the same number of cards in your hand as your opponent has in his or her hand.",
+				'fr-fr': "Piochez des cartes jusqu'à ce que vous ayez autant de cartes en main que votre adversaire.",
+				'de-de': "Draw cards until you have the same number of cards in your hand as your opponent has in his or her hand."
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Sweet Temptation",
-				fr: "Douce tentation",
-				de: "Sweet Temptation"
+				'en-us': "Sweet Temptation",
+				'fr-fr': "Douce tentation",
+				'de-de': "Sweet Temptation"
 			},
 			effect: {
-				en: "Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. This attack does 10 damage to the new Defending Pokémon.",
-				fr: "Échangez 1 des Pokémon de Banc de votre adversaire avec 1 des Pokémon Défenseurs. Votre adversaire choisit le Pokémon Défenseur à échanger. Cette attaque inflige 10 dégâts au nouveau Pokémon Défenseur.",
-				de: "Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. This attack does 10 damage to the new Defending Pokémon."
+				'en-us': "Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. This attack does 10 damage to the new Defending Pokémon.",
+				'fr-fr': "Échangez 1 des Pokémon de Banc de votre adversaire avec 1 des Pokémon Défenseurs. Votre adversaire choisit le Pokémon Défenseur à échanger. Cette attaque inflige 10 dégâts au nouveau Pokémon Défenseur.",
+				'de-de': "Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. This attack does 10 damage to the new Defending Pokémon."
 			},
 
 		},

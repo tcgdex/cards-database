@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビビヨン",
+		'ja-jp': "ビビヨン",
 	},
 
 	illustrator: "mingo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "生まれた 土地の 気候や 風土の 影響により 模様が 変わる。 花咲く 土地の 姿。",
+		'ja-jp': "生まれた 土地の 気候や 風土の 影響により 模様が 変わる。 花咲く 土地の 姿。",
 	},
 
 	stage: "Stage2",
@@ -28,7 +28,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "コフーライ",
+		'ja-jp': "コフーライ",
 	},
 
 	retreat: 1,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミミッキュVMAX",
+		'ja-jp': "ミミッキュVMAX",
 		'zh-tw': "謎擬ＱVMAX",
 	},
 
@@ -18,24 +18,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "オカルトナンバー",
+				'ja-jp': "オカルトナンバー",
 				'zh-tw': "靈異數字",
 			},
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "ダメカン4個を、相手のポケモンに好きなようにのせる。この番、自分の手札から「アセロラの予感」を出して使っていたなら、のせるダメカンの数は13個になる。",
+				'ja-jp': "ダメカン4個を、相手のポケモンに好きなようにのせる。この番、自分の手札から「アセロラの予感」を出して使っていたなら、のせるダメカンの数は13個になる。",
 				'zh-tw': "將4個傷害指示物以任意方式放置於對手的寶可夢身上。在這個回合，若從自己的手牌使出了「阿塞蘿拉的預感」，則放置的傷害指示物的數量改為13個。",
 			},
 		},
 		{
 			name: {
-				ja: "ダイシャドー",
+				'ja-jp': "ダイシャドー",
 				'zh-tw': "極巨暗影",
 			},
 			damage: 120,
 			cost: ["Psychic", "Psychic"],
 			effect: {
-				ja: "相手の手札からオモテを見ないで1枚選び、トラッシュする。",
+				'ja-jp': "相手の手札からオモテを見ないで1枚選び、トラッシュする。",
 				'zh-tw': "在不看正面的情況下，選擇1張對手的手牌，將其丟棄。",
 			},
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ミミッキュV",
+		'ja-jp': "ミミッキュV",
 	},
 
 	retreat: 1,

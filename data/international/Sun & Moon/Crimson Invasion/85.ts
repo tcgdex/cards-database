@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Minccino",
-		fr: "Chinchidou",
-		es: "Minccino",
-		it: "Minccino",
-		pt: "Minccino",
-		de: "Picochilla"
+		'en-us': "Minccino",
+		'fr-fr': "Chinchidou",
+		'es-es': "Minccino",
+		'it-it': "Minccino",
+		'pt-br': "Minccino",
+		'de-de': "Picochilla"
 	},
 
 	illustrator: "kodama",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tickle",
-				fr: "Chatouille",
-				es: "Cosquillas",
-				it: "Solletico",
-				pt: "Cócegas",
-				de: "Spaßkanone"
+				'en-us': "Tickle",
+				'fr-fr': "Chatouille",
+				'es-es': "Cosquillas",
+				'it-it': "Solletico",
+				'pt-br': "Cócegas",
+				'de-de': "Spaßkanone"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 10,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Minccino greet each other by grooming one another thoroughly with their tails.",
+		'en-us': "Minccino greet each other by grooming one another thoroughly with their tails.",
 	},
 
 	thirdParty: {

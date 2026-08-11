@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Dunsparce",
-		fr: "Insolourdo",
-		es: "Dunsparce",
-		it: "Dunsparce",
-		pt: "Dunsparce",
-		de: "Dummisel"
+		'en-us': "Dunsparce",
+		'fr-fr': "Insolourdo",
+		'es-es': "Dunsparce",
+		'it-it': "Dunsparce",
+		'pt-br': "Dunsparce",
+		'de-de': "Dummisel"
 	},
 
 	illustrator: "Yuka Morii",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Burrow",
-				fr: "Terrier",
-				es: "Escarbar",
-				it: "Buca",
-				pt: "Toca",
-				de: "Verbuddeln"
+				'en-us': "Burrow",
+				'fr-fr': "Terrier",
+				'es-es': "Escarbar",
+				'it-it': "Buca",
+				'pt-br': "Toca",
+				'de-de': "Verbuddeln"
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-				es: "Descarta la primera carta de la baraja de tu rival.",
-				it: "Scarta la carta in cima al mazzo del tuo avversario.",
-				pt: "Descarte o card de cima do baralho do seu oponente.",
-				de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard the top card of your opponent's deck.",
+				'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+				'es-es': "Descarta la primera carta de la baraja de tu rival.",
+				'it-it': "Scarta la carta in cima al mazzo del tuo avversario.",
+				'pt-br': "Descarte o card de cima do baralho do seu oponente.",
+				'de-de': "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				es: "Desenrollar",
-				it: "Rotolamento",
-				pt: "Rolagem",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'es-es': "Desenrollar",
+				'it-it': "Rotolamento",
+				'pt-br': "Rolagem",
+				'de-de': "Walzer"
 			},
 
 			damage: 20,
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It digs into the ground with its tail and makes a mazelike nest. It can fly just a little.",
+		'en-us': "It digs into the ground with its tail and makes a mazelike nest. It can fly just a little.",
 	},
 
 	thirdParty: {

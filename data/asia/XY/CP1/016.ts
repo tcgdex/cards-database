@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アクア団のポチエナ",
+		'ja-jp': "アクア団のポチエナ",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "ポチエナの するどい 嗅覚は 敵の 侵入を すぐに 察知するぞ。 とても 優秀な 見張り番だ！",
+		'ja-jp': "ポチエナの するどい 嗅覚は 敵の 侵入を すぐに 察知するぞ。 とても 優秀な 見張り番だ！",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ほえる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+				'ja-jp': "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
 			},
 		},
 		{

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Snorlax",
-		fr: "Ronflex",
+		'en-us': "Snorlax",
+		'fr-fr': "Ronflex",
 	},
 
 	illustrator: "Akira Komayama",
@@ -33,8 +33,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Incredible Snore",
-				fr: "Ronflement Incroyable",
+				'en-us': "Incredible Snore",
+				'fr-fr': "Ronflement Incroyable",
 			},
 
 			damage: 100,
@@ -52,7 +52,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It doesn't do anything other than eat and sleep. When prompted to make a serious effort, though, it apparently displays awesome power.",
+		'en-us': "It doesn't do anything other than eat and sleep. When prompted to make a serious effort, though, it apparently displays awesome power.",
 	},
 
 	thirdParty: {

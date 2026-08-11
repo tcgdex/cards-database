@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シェイミ",
+		'ja-jp': "シェイミ",
 	},
 
 	illustrator: "tono",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "はなのカーテン" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分のベンチポケモン（「ルールを持つポケモン」をのぞく）全員は、相手のワザのダメージを受けない。",
+				'ja-jp': "このポケモンがいるかぎり、自分のベンチポケモン（「ルールを持つポケモン」をのぞく）全員は、相手のワザのダメージを受けない。",
 			},
 		},
 	],

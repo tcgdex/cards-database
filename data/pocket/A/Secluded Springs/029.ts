@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Stunfisk",
-		fr: "Limonde"
+		'en-us': "Stunfisk",
+		'fr-fr': "Limonde"
 	},
 
 	illustrator: "Naoki Saito",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "Thanks to bacteria that lived in the mud flats with\nit, this Pokémon developed the organs it uses to\ngenerate electricity.",
-		fr: "Les vasières sont son habitat de prédilection. Il a développé un organe générant de l'électricité grâce aux bactéries présentes dans la boue."
+		'en-us': "Thanks to bacteria that lived in the mud flats with\nit, this Pokémon developed the organs it uses to\ngenerate electricity.",
+		'fr-fr': "Les vasières sont son habitat de prédilection. Il a développé un organe générant de l'électricité grâce aux bactéries présentes dans la boue."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Static Shock",
-			fr: "Choc Statique"
+			'en-us': "Static Shock",
+			'fr-fr': "Choc Statique"
 		},
 
 		damage: 50,

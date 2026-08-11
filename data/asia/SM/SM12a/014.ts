@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アマージョ",
+		'ja-jp': "アマージョ",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "美しい 蹴り技の 使い手。 キックボクシングの チャンピオンも 一撃で ノックアウトするぞ。",
+		'ja-jp': "美しい 蹴り技の 使い手。 キックボクシングの チャンピオンも 一撃で ノックアウトするぞ。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "じょおうのほうび" },
 			effect: {
-				ja: "自分の番に1回使える。自分のトラッシュにある[草]エネルギーを1枚、バトルポケモンにつける。",
+				'ja-jp': "自分の番に1回使える。自分のトラッシュにある[草]エネルギーを1枚、バトルポケモンにつける。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アママイコ",
+		'ja-jp': "アママイコ",
 	},
 
 	retreat: 2,

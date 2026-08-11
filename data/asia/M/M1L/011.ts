@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キュウコン",
+		'ja-jp': "キュウコン",
 	},
 
 	illustrator: "satoma",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "９本の 尻尾には それぞれ 違う 神秘的な 力が 秘められている という 話だ。",
+		'ja-jp': "９本の 尻尾には それぞれ 違う 神秘的な 力が 秘められている という 話だ。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "ロコン",
+		'ja-jp': "ロコン",
 	},
 
 	retreat: 1,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Klang",
-		fr: "Clic",
-		es: "Klang",
-		it: "Klang",
-		pt: "Klang",
-		de: "Kliklak"
+		'en-us': "Klang",
+		'fr-fr': "Clic",
+		'es-es': "Klang",
+		'it-it': "Klang",
+		'pt-br': "Klang",
+		'de-de': "Kliklak"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Klink",
-		fr: "Tic",
+		'en-us': "Klink",
+		'fr-fr': "Tic",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Bind",
-				fr: "Étreinte",
+				'en-us': "Bind",
+				'fr-fr': "Étreinte",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 10,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gear Grind",
-				fr: "Lancécrou",
+				'en-us': "Gear Grind",
+				'fr-fr': "Lancécrou",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 60 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 60 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 60,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "By changing the direction in which it rotates, it communicates its feelings to others. When angry, it rotates faster.",
+		'en-us': "By changing the direction in which it rotates, it communicates its feelings to others. When angry, it rotates faster.",
 	},
 
 	thirdParty: {

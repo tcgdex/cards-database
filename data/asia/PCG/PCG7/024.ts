@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG7"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ギャラドス（デルタ種）",
+		'ja-jp': "ギャラドス（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "デルタリアクター",
+				'ja-jp': "デルタリアクター",
 			},
 			effect: {
-				ja: "ホロンがその名に載っているスタジアムカードが存在している限り、カードにデルタを持っているポカンはそれぞれ、防御するポカンにさらに10ダメージを与えます（脱力感と抵抗を適用する前）。",
+				'ja-jp': "ホロンがその名に載っているスタジアムカードが存在している限り、カードにデルタを持っているポカンはそれぞれ、防御するポカンにさらに10ダメージを与えます（脱力感と抵抗を適用する前）。",
 			},
 		}],
 
@@ -29,17 +29,17 @@ const card: Card = {
 		{
 			cost: ["Metal", "Colorless"],
 			name: {
-				ja: "ハイパービーム",
+				'ja-jp': "ハイパービーム",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、防御ポケモンに取り付けられたエネルギーカードを捨てます。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、防御ポケモンに取り付けられたエネルギーカードを捨てます。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Lightning", "Metal", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "重い衝撃",
+				'ja-jp': "重い衝撃",
 			},
 			damage: 80,
 		},

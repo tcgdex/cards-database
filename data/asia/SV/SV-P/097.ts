@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モトトカゲ",
+		'ja-jp': "モトトカゲ",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "大昔から 人を 背中に 乗せていたらしい。 １万年前の 壁画に 様子が 描かれている。",
+		'ja-jp': "大昔から 人を 背中に 乗せていたらしい。 １万年前の 壁画に 様子が 描かれている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ガンガンダッシュ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数ぶん、自分の山札を引く。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数ぶん、自分の山札を引く。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],

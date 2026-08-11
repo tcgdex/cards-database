@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "กิเกียร์",
-		id: "Klang"
+		'th-th': "กิเกียร์",
+		'id-id': "Klang"
 	},
 
 	illustrator: "Mina Nakai",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		th: "เวลาเอาจริงเฟืองด้านนอกของเฟืองใหญ่กับเฟืองเล็กจะประกบกัน ความเร็วในการหมุนจะเพิ่มขึ้นอย่างก้าวกระโดด",
-		id: "Saat sedang serius, gerigi di sisi luar roda gigi besar dan roda gigi kecil akan saling bertepatan. Kecepatan putar Klang akan meningkat drastis."
+		'th-th': "เวลาเอาจริงเฟืองด้านนอกของเฟืองใหญ่กับเฟืองเล็กจะประกบกัน ความเร็วในการหมุนจะเพิ่มขึ้นอย่างก้าวกระโดด",
+		'id-id': "Saat sedang serius, gerigi di sisi luar roda gigi besar dan roda gigi kecil akan saling bertepatan. Kecepatan putar Klang akan meningkat drastis."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "ไอออนแท็กเกิล",
-			id: "Iron Tackle"
+			'th-th': "ไอออนแท็กเกิล",
+			'id-id': "Iron Tackle"
 		},
 
 		effect: {
-			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 20 ด้วย",
-			id: "Pokémon ini juga menerima kerusakan sejumlah 20."
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 20 ด้วย",
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 20."
 		},
 
 		damage: 60,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Palkia",
-		fr: "Palkia",
-		es: "Palkia",
-		it: "Palkia",
-		pt: "Palkia",
-		de: "Palkia"
+		'en-us': "Palkia",
+		'fr-fr': "Palkia",
+		'es-es': "Palkia",
+		'it-it': "Palkia",
+		'pt-br': "Palkia",
+		'de-de': "Palkia"
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spiral Drain",
-				fr: "Spirale Épuisante",
-				es: "Drenaje Espiral",
-				it: "Assorbimento Spirale",
-				pt: "Dreno Espiral",
-				de: "Spiralsauger"
+				'en-us': "Spiral Drain",
+				'fr-fr': "Spirale Épuisante",
+				'es-es': "Drenaje Espiral",
+				'it-it': "Assorbimento Spirale",
+				'pt-br': "Dreno Espiral",
+				'de-de': "Spiralsauger"
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts à ce Pokémon.",
-				es: "Cura 30 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 30 danni.",
-				pt: "Cure 30 pontos de dano deste Pokémon.",
-				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon.",
+				'es-es': "Cura 30 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 30 danni.",
+				'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+				'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 30,
 
@@ -60,12 +60,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Blade",
-				fr: "Hydrolame",
-				es: "Hoja Agua",
-				it: "Idrolama",
-				pt: "Lâmina de Água",
-				de: "Aquaklinge"
+				'en-us': "Aqua Blade",
+				'fr-fr': "Hydrolame",
+				'es-es': "Hoja Agua",
+				'it-it': "Idrolama",
+				'pt-br': "Lâmina de Água",
+				'de-de': "Aquaklinge"
 			},
 
 			damage: 100,
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is said to live in a gap in the spatial dimension parallel to ours. It appears in mythology.",
+		'en-us': "It is said to live in a gap in the spatial dimension parallel to ours. It appears in mythology.",
 	},
 
 	thirdParty: {

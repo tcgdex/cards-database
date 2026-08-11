@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "奇諾栗鼠",
-		ja: "チラチーノ"
+		'ja-jp': "チラチーノ"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "潔癖使得牠連一絲灰塵都無法容忍，會把自己身上 滲出的油塗在巢上保持清潔。",
-		ja: "塵ひとつ 許せない 潔癖。 体から 染み出る 油を 巣に 塗りつけ コーティングする。"
+		'ja-jp': "塵ひとつ 許せない 潔癖。 体から 染み出る 油を 巣に 塗りつけ コーティングする。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "巴掌",
-			ja: "ビンタ"
+			'ja-jp': "ビンタ"
 		},
 
 		damage: 40,
@@ -32,12 +32,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "三旋擊",
-			ja: "トリプルアクセル"
+			'ja-jp': "トリプルアクセル"
 		},
 
 		effect: {
 			'zh-tw': "擲3次硬幣，造成正面出現的次數×50點傷害。",
-			ja: "コインを3回投げ、オモテの数×50ダメージ。"
+			'ja-jp': "コインを3回投げ、オモテの数×50ダメージ。"
 		},
 
 		damage: "50×",

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Seel",
-		de: "Jurob"
+		'en-us': "Seel",
+		'de-de': "Jurob"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Headbutt",
-				de: "Doppelte Kopfnuss"
+				'en-us': "Double Headbutt",
+				'de-de': "Doppelte Kopfnuss"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
 			damage: "10×",
 
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Beam",
-				de: "Eisstrahl"
+				'en-us': "Ice Beam",
+				'de-de': "Eisstrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Minun",
-		fr: "Negapi",
-		de: "Minun"
+		'en-us': "Minun",
+		'fr-fr': "Negapi",
+		'de-de': "Minun"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sniff Out",
-				fr: "Flairer",
-				de: "Sniff Out"
+				'en-us': "Sniff Out",
+				'fr-fr': "Flairer",
+				'de-de': "Sniff Out"
 			},
 			effect: {
-				en: "Put any 1 card from your discard pile into your hand.",
-				fr: "Placez n'importe quelle carte de votre pile de défausse dans votre main.",
-				de: "Put any 1 card from your discard pile into your hand."
+				'en-us': "Put any 1 card from your discard pile into your hand.",
+				'fr-fr': "Placez n'importe quelle carte de votre pile de défausse dans votre main.",
+				'de-de': "Put any 1 card from your discard pile into your hand."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Negative Spark",
-				fr: "Étincelle négative",
-				de: "Negative Spark"
+				'en-us': "Negative Spark",
+				'fr-fr': "Étincelle négative",
+				'de-de': "Negative Spark"
 			},
 			effect: {
-				en: "Does 20 damage to each of your opponent's Pokémon that has any Poké-Bodies. Don't apply Weakness and Resistance.",
-				fr: "Inflige 20 dégâts à chacun des Pokémon de votre adversaire possédant des Poké-Bodies. Vous ne pouvez pas appliquer la Faiblesse et la Résistance.",
-				de: "Does 20 damage to each of your opponent's Pokémon that has any Poke-Bodies. Don't apply Weakness and Resistance."
+				'en-us': "Does 20 damage to each of your opponent's Pokémon that has any Poké-Bodies. Don't apply Weakness and Resistance.",
+				'fr-fr': "Inflige 20 dégâts à chacun des Pokémon de votre adversaire possédant des Poké-Bodies. Vous ne pouvez pas appliquer la Faiblesse et la Résistance.",
+				'de-de': "Does 20 damage to each of your opponent's Pokémon that has any Poke-Bodies. Don't apply Weakness and Resistance."
 			},
 
 		},

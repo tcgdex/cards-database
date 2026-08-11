@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dartrix"
+		'en-us': "Dartrix"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -17,24 +17,24 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Rowlet"
+		'en-us': "Rowlet"
 	},
 
 	description: {
-		en: "This narcissistic Pokémon is a clean freak. If you\ndon't groom it diligently, it may stop listening to you."
+		'en-us': "This narcissistic Pokémon is a clean freak. If you\ndon't groom it diligently, it may stop listening to you."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Skill Dive"
+			'en-us': "Skill Dive"
 		},
 
 		cost: ["Grass"],
 
 		effect: {
-			en: "This attack does 20 damage to 1 of your opponent's Pokémon."
+			'en-us': "This attack does 20 damage to 1 of your opponent's Pokémon."
 		}
 	}],
 

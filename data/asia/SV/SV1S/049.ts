@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "イダイナキバex",
+		'ja-jp': "イダイナキバex",
 		'zh-tw': "雄偉牙ex",
-		th: "งายักษ์ex",
-		id: "Great Tusk ex"
+		'th-th': "งายักษ์ex",
+		'id-id': "Great Tusk ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -23,37 +23,37 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "がんばんくずし",
+			'ja-jp': "がんばんくずし",
 			'zh-tw': "岩盤崩裂",
-			th: "ทำลายฐานราก",
-			id: "Peruntuh Batuan Dasar"
+			'th-th': "ทำลายฐานราก",
+			'id-id': "Peruntuh Batuan Dasar"
 		},
 
 		damage: 40,
 
 		effect: {
-			ja: "場に出ているスタジアムをトラッシュする。",
+			'ja-jp': "場に出ているスタジアムをトラッシュする。",
 			'zh-tw': "將場上的競技場卡丟棄。",
-			th: "ทิ้งการ์ดสเตเดียมที่วางอยู่บนกระดานที่ตำแหน่งทิ้งการ์ด",
-			id: "Buang Stadium yang ada di Arena ke Trash."
+			'th-th': "ทิ้งการ์ดสเตเดียมที่วางอยู่บนกระดานที่ตำแหน่งทิ้งการ์ด",
+			'id-id': "Buang Stadium yang ada di Arena ke Trash."
 		}
 	}, {
 		cost: ["Fighting", "Fighting", "Fighting"],
 
 		name: {
-			ja: "ギガントタスク",
+			'ja-jp': "ギガントタスク",
 			'zh-tw': "巨烈長牙",
-			th: "ปฏิบัติการใหญ่",
-			id: "Gigant Tusk"
+			'th-th': "ปฏิบัติการใหญ่",
+			'id-id': "Gigant Tusk"
 		},
 
 		damage: 250,
 
 		effect: {
-			ja: "このポケモンにも50ダメージ。",
+			'ja-jp': "このポケモンにも50ダメージ。",
 			'zh-tw': "這隻寶可夢也受到50點傷害。",
-			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 50 ด้วย",
-			id: "Pokémon ini juga menerima kerusakan sejumlah 50."
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 50 ด้วย",
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 50."
 		}
 	}],
 

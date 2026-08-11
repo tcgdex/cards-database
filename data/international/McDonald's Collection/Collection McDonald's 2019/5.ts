@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Noadkoko d'Alola",
+		'fr-fr': "Noadkoko d'Alola",
 	},
 
 	rarity: "None",
@@ -17,7 +17,7 @@ const card: Card = {
 
 
 	evolveFrom: {
-		fr: "Noeunoeuf"
+		'fr-fr': "Noeunoeuf"
 	},
 	stage: "Stage1",
 	retreat: 3,
@@ -33,11 +33,11 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				fr: "Balancement Tropical"
+				'fr-fr': "Balancement Tropical"
 			},
 			damage: "20+",
 			effect: {
-				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque type de carte Énergie de base dans votre pile de défausse. Vous ne pouvez pas ajouter plus de 100 dégâts de cette façon."
+				'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires pour chaque type de carte Énergie de base dans votre pile de défausse. Vous ne pouvez pas ajouter plus de 100 dégâts de cette façon."
 			}
 		},
 	],

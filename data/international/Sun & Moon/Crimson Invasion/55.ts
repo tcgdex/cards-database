@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Stufful",
-		fr: "Nounourson",
-		es: "Stufful",
-		it: "Stufful",
-		pt: "Stufful",
-		de: "Velursi"
+		'en-us': "Stufful",
+		'fr-fr': "Nounourson",
+		'es-es': "Stufful",
+		'it-it': "Stufful",
+		'pt-br': "Stufful",
+		'de-de': "Velursi"
 	},
 
 	illustrator: "Kanako Eo",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flop",
-				fr: "Flop",
-				es: "Vuelta",
-				it: "Tonfo",
-				pt: "Baque",
-				de: "Plumps"
+				'en-us': "Flop",
+				'fr-fr': "Flop",
+				'es-es': "Vuelta",
+				'it-it': "Tonfo",
+				'pt-br': "Baque",
+				'de-de': "Plumps"
 			},
 
 			damage: 30,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Despite its adorable appearance, when it gets angry and flails about, its arms and legs could knock a pro wrestler sprawling.",
+		'en-us': "Despite its adorable appearance, when it gets angry and flails about, its arms and legs could knock a pro wrestler sprawling.",
 	},
 
 	thirdParty: {

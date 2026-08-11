@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Growlithe",
-		fr: "Caninos",
-		de: "Fukano"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos",
+		'de-de': "Fukano"
 	},
 
 	illustrator: "Naoki Saito",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Biss"
 			},
 
 			damage: 10,
@@ -44,9 +44,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Combustion",
-				fr: "Fournaise",
-				de: "Glühen"
+				'en-us': "Combustion",
+				'fr-fr': "Fournaise",
+				'de-de': "Glühen"
 			},
 
 			damage: 40,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes."
+		'en-us': "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes."
 	},
 
 	variants: [

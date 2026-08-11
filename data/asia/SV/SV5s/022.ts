@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Rellor"
+		'id-id': "Rellor"
 	},
 
 	illustrator: "Saboteri",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Rellor mematangkan energi evolusi sambil menggelindingkan bola lumpur. Pada akhirnya, waktu evolusi Pokémon ini akan tiba."
+		'id-id': "Rellor mematangkan energi evolusi sambil menggelindingkan bola lumpur. Pada akhirnya, waktu evolusi Pokémon ini akan tiba."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Gasak Sedikit"
+			'id-id': "Gasak Sedikit"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 10."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10."
 		},
 
 		damage: 30,

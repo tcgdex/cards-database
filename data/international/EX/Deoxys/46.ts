@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Silcoon",
-		fr: "Armulys",
-		de: "Schaloko"
+		'en-us': "Silcoon",
+		'fr-fr': "Armulys",
+		'de-de': "Schaloko"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wurmple",
-		fr: "Chenipotte"
+		'en-us': "Wurmple",
+		'fr-fr': "Chenipotte"
 	},
 
 	stage: "Stage1",
@@ -36,9 +36,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				de: "Ram"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'de-de': "Ram"
 			},
 
 			damage: 10,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Advanced Armor",
-				fr: "Super armure",
-				de: "Advanced Armor"
+				'en-us': "Advanced Armor",
+				'fr-fr': "Super armure",
+				'de-de': "Advanced Armor"
 			},
 			effect: {
-				en: "During your opponent's next turn, prevent all effects of attacks, including damage, done to Silcoon by your opponent's Evolved Pokémon.",
-				fr: "Lors du prochain tour de votre adversaire, prévenez tous les effets d'attaque, dégâts inclus, infligés à Armulys par le Pokémon Évolué de votre adversaire.",
-				de: "During your opponent's next turn, prevent all effects of attacks, including damage, done to Silcoon by your opponent's Evolved Pokémon."
+				'en-us': "During your opponent's next turn, prevent all effects of attacks, including damage, done to Silcoon by your opponent's Evolved Pokémon.",
+				'fr-fr': "Lors du prochain tour de votre adversaire, prévenez tous les effets d'attaque, dégâts inclus, infligés à Armulys par le Pokémon Évolué de votre adversaire.",
+				'de-de': "During your opponent's next turn, prevent all effects of attacks, including damage, done to Silcoon by your opponent's Evolved Pokémon."
 			},
 
 		},

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Electrike",
-		de: "Frizelbliz"
+		'en-us': "Electrike",
+		'de-de': "Frizelbliz"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				de: "Biss"
+				'en-us': "Bite",
+				'de-de': "Biss"
 			},
 
 			damage: 10,
@@ -54,7 +54,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Using electricity stored in its fur, it stimulates its muscles to heighten its reaction speed."
+		'en-us': "Using electricity stored in its fur, it stimulates its muscles to heighten its reaction speed."
 	},
 
 	variants: [

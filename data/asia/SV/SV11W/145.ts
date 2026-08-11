@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナットレイ",
+		'ja-jp': "ナットレイ",
 	},
 
 	illustrator: "Minahamu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "３本の トゲつき 触手を 振り回して 戦う。 鋼の トゲは たたきつけると 大岩を 粉砕する 破壊力だ。",
+		'ja-jp': "３本の トゲつき 触手を 振り回して 戦う。 鋼の トゲは たたきつけると 大岩を 粉砕する 破壊力だ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "パワーウィップ" },
 			cost: ["Metal"],
 			effect: {
-				ja: "相手のポケモン1匹に、このポケモンについているエネルギーの数×20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、このポケモンについているエネルギーの数×20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "テッシード",
+		'ja-jp': "テッシード",
 	},
 
 	retreat: 3,

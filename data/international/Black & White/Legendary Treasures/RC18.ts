@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Minccino",
+		'en-us': "Minccino",
 	},
 
 	illustrator: "sui",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Slap",
+				'en-us': "Tail Slap",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
 			},
 			damage: 10,
 
@@ -49,7 +49,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Minccino greet each other by grooming one another thoroughly with their tails.",
+		'en-us': "Minccino greet each other by grooming one another thoroughly with their tails.",
 	},
 
 	thirdParty: {

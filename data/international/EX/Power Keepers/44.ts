@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Baltoy",
-		fr: "Balbuto",
-		de: "Puppance"
+		'en-us': "Baltoy",
+		'fr-fr': "Balbuto",
+		'de-de': "Puppance"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psybeam",
-				fr: "Rafale psy",
-				de: "Psystrahl"
+				'en-us': "Psybeam",
+				'fr-fr': "Rafale psy",
+				'de-de': "Psystrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -49,9 +49,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spinning Attack",
-				fr: "Attaque tournante",
-				de: "Rundumangriff"
+				'en-us': "Spinning Attack",
+				'fr-fr': "Attaque tournante",
+				'de-de': "Rundumangriff"
 			},
 
 			damage: 20,

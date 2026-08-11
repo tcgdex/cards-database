@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コロボーシ",
+		'ja-jp': "コロボーシ",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "触角を ぶつけ合って 鳴らす 音で 仲間と 会話をする。 音色は 秋の 夜の 風物詩。",
+		'ja-jp': "触角を ぶつけ合って 鳴らす 音で 仲間と 会話をする。 音色は 秋の 夜の 風物詩。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "もってくる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を1枚引く。",
+				'ja-jp': "自分の山札を1枚引く。",
 			},
 		},
 		{

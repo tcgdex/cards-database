@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イエッサン",
+		'ja-jp': "イエッサン",
 		'zh-tw': "博士的研究（維羅博士）",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "頭の ツノで 相手の 気持ちを 感じとる。 オスは 従者の ように 主のそばで 世話を焼く。",
+		'ja-jp': "頭の ツノで 相手の 気持ちを 感じとる。 オスは 従者の ように 主のそばで 世話を焼く。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			name: { ja: "てだすけ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から基本エネルギーを1枚選び、ベンチポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から基本エネルギーを1枚選び、ベンチポケモンにつける。そして山札を切る。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数×20ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数×20ダメージ追加。",
 			},
 		},
 	],

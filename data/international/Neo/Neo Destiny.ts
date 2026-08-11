@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Neo'
 
 const neo4: Set = {
 	id: "neo4",
 
 	name: {
-		en: "Neo Destiny",
-		fr: "Neo Destiny",
-		de: "Neo Destiny",
-		it: "Neo Destiny"
+		'en-us': "Neo Destiny",
+		'fr-fr': "Neo Destiny",
+		'de-de': "Neo Destiny",
+		'it-it': "Neo Destiny"
 	},
 
 	serie: serie,
@@ -22,7 +22,7 @@ const neo4: Set = {
 
 	abbreviations: {
 		official: "N4",
-		fr: "NDT"
+		'fr-fr': "NDT"
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Walrein",
-		fr: "Kaimorse de la Team Aqua",
-		pt: "Walrein da Equipe Aqua",
+		'en-us': "Team Aqua's Walrein",
+		'fr-fr': "Kaimorse de la Team Aqua",
+		'pt-br': "Walrein da Equipe Aqua",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -24,9 +24,9 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Team Aqua's Sealeo",
-		fr: "Phogleur de la Team Aqua",
-		pt: "Sealeo da Equipe Aqua",
+		'en-us': "Team Aqua's Sealeo",
+		'fr-fr': "Phogleur de la Team Aqua",
+		'pt-br': "Sealeo da Equipe Aqua",
 	},
 
 	stage: "Stage2",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Power Blow",
-				fr: "Coup Puissant",
-				pt: "Golpe Poderoso",
+				'en-us': "Power Blow",
+				'fr-fr': "Coup Puissant",
+				'pt-br': "Golpe Poderoso",
 			},
 			effect: {
-				en: "This attack does 30 damage times the amount of Energy attached to this Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts multipliés par le nombre d'Énergies attachées à ce Pokémon.",
-				pt: "Esse ataque causa 30 de danos vezes a quantidade de Energia ligada a este Pokémon",
+				'en-us': "This attack does 30 damage times the amount of Energy attached to this Pokémon.",
+				'fr-fr': "Cette attaque inflige 30 dégâts multipliés par le nombre d'Énergies attachées à ce Pokémon.",
+				'pt-br': "Esse ataque causa 30 de danos vezes a quantidade de Energia ligada a este Pokémon",
 			},
 			damage: "30×",
 
@@ -57,14 +57,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dual Blizzard",
-				fr: "Double Blizzard",
-				pt: "Nevasca Dupla",
+				'en-us': "Dual Blizzard",
+				'fr-fr': "Double Blizzard",
+				'pt-br': "Nevasca Dupla",
 			},
 			effect: {
-				en: "Discard 2 {W} Energy attached to this Pokémon. This attack does 80 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Défaussez 2 Énergies {W} attachées à ce Pokémon. Cette attaque inflige 80 dégâts à 2 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				pt: "Descarte 2 Energias {W} ligadas a este Pokémon. Este ataque causa 80 de danos a 2 dos Pokémon de seu oponente. (Não aplique Fraqueza ou Resistência a Pokémon no Banco.)",
+				'en-us': "Discard 2 {W} Energy attached to this Pokémon. This attack does 80 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Défaussez 2 Énergies {W} attachées à ce Pokémon. Cette attaque inflige 80 dégâts à 2 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'pt-br': "Descarte 2 Energias {W} ligadas a este Pokémon. Este ataque causa 80 de danos a 2 dos Pokémon de seu oponente. (Não aplique Fraqueza ou Resistência a Pokémon no Banco.)",
 			},
 
 		},
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It's good at attacks that freeze opponents with a powerful cold snap. Then, it pulverizes a frozen foe with its sharp tusks!",
+		'en-us': "It's good at attacks that freeze opponents with a powerful cold snap. Then, it pulverizes a frozen foe with its sharp tusks!",
 	},
 
 	thirdParty: {

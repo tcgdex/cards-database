@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [350],
 
 	name: {
-		en: "Milotic",
-		fr: "Milobellus",
-		es: "Milotic",
-		it: "Milotic",
-		pt: "Milotic",
-		de: "Milotic"
+		'en-us': "Milotic",
+		'fr-fr': "Milobellus",
+		'es-es': "Milotic",
+		'it-it': "Milotic",
+		'pt-br': "Milotic",
+		'de-de': "Milotic"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -24,32 +24,32 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Feebas",
-		fr: "Barpau",
-		es: "Feebas",
-		it: "Feebas",
-		pt: "Feebas",
-		de: "Barschwa"
+		'en-us': "Feebas",
+		'fr-fr': "Barpau",
+		'es-es': "Feebas",
+		'it-it': "Feebas",
+		'pt-br': "Feebas",
+		'de-de': "Barschwa"
 	},
 
 	abilities: [
 		{
 			type: "Ability",
 			name: {
-				en: "Bright Heal",
-				fr: "Soin Lumineux",
-				es: "Cura Brillante",
-				it: "Lumicura",
-				pt: "Cura Brilhante",
-				de: "Helle Heilung"
+				'en-us': "Bright Heal",
+				'fr-fr': "Soin Lumineux",
+				'es-es': "Cura Brillante",
+				'it-it': "Lumicura",
+				'pt-br': "Cura Brilhante",
+				'de-de': "Helle Heilung"
 			},
 			effect: {
-				en: "Once during your turn, you may heal 20 damage from each of your Pokémon.",
-				fr: "Une fois pendant votre tour, vous pouvez soigner 20 dégâts de chacun de vos Pokémon.",
-				es: "Una vez durante tu turno, puedes curar 20 puntos de daño a cada uno de tus Pokémon.",
-				it: "Una sola volta durante il tuo turno, puoi curare ciascuno dei tuoi Pokémon da 20 danni.",
-				pt: "Uma vez durante o seu turno, você poderá curar 20 pontos de dano de cada um dos seus Pokémon.",
-				de: "Einmal während deines Zuges kannst du 20 Schadenspunkte bei jedem deiner Pokémon heilen."
+				'en-us': "Once during your turn, you may heal 20 damage from each of your Pokémon.",
+				'fr-fr': "Une fois pendant votre tour, vous pouvez soigner 20 dégâts de chacun de vos Pokémon.",
+				'es-es': "Una vez durante tu turno, puedes curar 20 puntos de daño a cada uno de tus Pokémon.",
+				'it-it': "Una sola volta durante il tuo turno, puoi curare ciascuno dei tuoi Pokémon da 20 danni.",
+				'pt-br': "Uma vez durante o seu turno, você poderá curar 20 pontos de dano de cada um dos seus Pokémon.",
+				'de-de': "Einmal während deines Zuges kannst du 20 Schadenspunkte bei jedem deiner Pokémon heilen."
 			},
 		},
 	],
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
-				es: "Surf",
-				it: "Surf",
-				pt: "Surfar",
-				de: "Surfer"
+				'en-us': "Surf",
+				'fr-fr': "Surf",
+				'es-es': "Surf",
+				'it-it': "Surf",
+				'pt-br': "Surfar",
+				'de-de': "Surfer"
 			},
 
 			damage: 80,
@@ -89,7 +89,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Milotic has provided inspiration to many artists. It has even been referred to as the most beautiful Pokémon of all."
+		'en-us': "Milotic has provided inspiration to many artists. It has even been referred to as the most beautiful Pokémon of all."
 	},
 
 	variants: [

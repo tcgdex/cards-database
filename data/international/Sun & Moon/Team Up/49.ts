@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Helioptile",
-		fr: "Galvaran",
-		es: "Helioptile",
-		it: "Helioptile",
-		pt: "Helioptile",
-		de: "Eguana"
+		'en-us': "Helioptile",
+		'fr-fr': "Galvaran",
+		'es-es': "Helioptile",
+		'it-it': "Helioptile",
+		'pt-br': "Helioptile",
+		'de-de': "Eguana"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras’Face",
-				es: "Destructor",
-				it: "Botta",
-				pt: "Pancada",
-				de: "Pfund"
+				'en-us': "Pound",
+				'fr-fr': "Écras’Face",
+				'es-es': "Destructor",
+				'it-it': "Botta",
+				'pt-br': "Pancada",
+				'de-de': "Pfund"
 			},
 
 			damage: 10,
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Static Shock",
-				fr: "Choc Statique",
-				es: "Impacto Estático",
-				it: "Shock Statico",
-				pt: "Choque de Estática",
-				de: "Statischer Schock"
+				'en-us': "Static Shock",
+				'fr-fr': "Choc Statique",
+				'es-es': "Impacto Estático",
+				'it-it': "Shock Statico",
+				'pt-br': "Choque de Estática",
+				'de-de': "Statischer Schock"
 			},
 
 			damage: 40,
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The frills on either side of its head have cells that generate electricity when exposed to sunlight.",
+		'en-us': "The frills on either side of its head have cells that generate electricity when exposed to sunlight.",
 	},
 
 	thirdParty: {

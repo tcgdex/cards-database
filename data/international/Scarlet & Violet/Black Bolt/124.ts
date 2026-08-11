@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drilbur",
-		fr: "Rototaupe",
-		de: "Rotomurf",
-		it: "Drilbur",
-		pt: "Drilbur",
-		es: "Drilbur",
+		'en-us': "Drilbur",
+		'fr-fr': "Rototaupe",
+		'de-de': "Rotomurf",
+		'it-it': "Drilbur",
+		'pt-br': "Drilbur",
+		'es-es': "Drilbur",
 		'es-mx': "Drilbur"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Mud-Slap",
-			fr: "Coud'Boue",
-			de: "Lehmschelle",
-			it: "Fangosberla",
-			pt: "Tapa de Lama",
-			es: "Bofetón Lodo",
+			'en-us': "Mud-Slap",
+			'fr-fr': "Coud'Boue",
+			'de-de': "Lehmschelle",
+			'it-it': "Fangosberla",
+			'pt-br': "Tapa de Lama",
+			'es-es': "Bofetón Lodo",
 			'es-mx': "Bofetón Lodo"
 		},
 
@@ -40,12 +40,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			en: "Corkscrew Punch",
-			fr: "Poing Tire-Bouchon",
-			de: "Korkenzieherhieb",
-			it: "Pugno Rotante",
-			pt: "Soco Saca-rolha",
-			es: "Puño Tirabuzón",
+			'en-us': "Corkscrew Punch",
+			'fr-fr': "Poing Tire-Bouchon",
+			'de-de': "Korkenzieherhieb",
+			'it-it': "Pugno Rotante",
+			'pt-br': "Soco Saca-rolha",
+			'es-es': "Puño Tirabuzón",
 			'es-mx': "Puño Sacacorchos"
 		},
 

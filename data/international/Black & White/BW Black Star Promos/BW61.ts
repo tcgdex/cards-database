@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Keldeo-EX",
-		fr: "Keldeo ex",
+		'en-us': "Keldeo-EX",
+		'fr-fr': "Keldeo ex",
 	},
 	illustrator: "Toyste Beach",
 	rarity: "Rare",
@@ -25,12 +25,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Rush In",
-				fr: "Intervention",
+				'en-us': "Rush In",
+				'fr-fr': "Intervention",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if this Pokémon is on your Bench, you may switch this Pokémon with your Active Pokémon.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon est sur votre Banc, vous pouvez échanger ce Pokémon avec votre Pokémon Actif.",
+				'en-us': "Once during your turn (before your attack), if this Pokémon is on your Bench, you may switch this Pokémon with your Active Pokémon.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon est sur votre Banc, vous pouvez échanger ce Pokémon avec votre Pokémon Actif.",
 			},
 		},
 	],
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Secret Sword",
-				fr: "Lame Ointe",
+				'en-us': "Secret Sword",
+				'fr-fr': "Lame Ointe",
 			},
 			effect: {
-				en: "Does 20 more damage for each Water Energy attached to this Pokémon.",
-				fr: "Inflige 20 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+				'en-us': "Does 20 more damage for each Water Energy attached to this Pokémon.",
+				'fr-fr': "Inflige 20 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
 			},
 			damage: 50,
 

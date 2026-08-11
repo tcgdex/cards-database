@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラッキー",
+		'ja-jp': "ラッキー",
 	},
 
 	illustrator: "MAHOU",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "数が 少ないうえに 逃げ足の 速い ポケモンなので 見つけた 人は 運が いいぞ。",
+		'ja-jp': "数が 少ないうえに 逃げ足の 速い ポケモンなので 見つけた 人は 運が いいぞ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "いやしのまい" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のポケモン全員のHPを、それぞれ「20」回復する。",
+				'ja-jp': "自分のポケモン全員のHPを、それぞれ「20」回復する。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンにダメカンがのっているなら、このワザは失敗。",
+				'ja-jp': "相手のバトルポケモンにダメカンがのっているなら、このワザは失敗。",
 			},
 		},
 	],

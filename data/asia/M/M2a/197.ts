@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒビキのマグカルゴ",
+		'ja-jp': "ヒビキのマグカルゴ",
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "火山の 火口付近で 暮らす。 マグマが 冷えて 固まった 殻に 炎エネルギーを 蓄えている。",
+		'ja-jp': "火山の 火口付近で 暮らす。 マグマが 冷えて 固まった 殻に 炎エネルギーを 蓄えている。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "とけてながれる" },
 			effect: {
-				ja: "このポケモンにエネルギーがついていないなら、このポケモンのにげるためのエネルギーは、すべてなくなる。",
+				'ja-jp': "このポケモンにエネルギーがついていないなら、このポケモンのにげるためのエネルギーは、すべてなくなる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "70×",
 			cost: ["Fire", "Fire", "Fire"],
 			effect: {
-				ja: "このポケモンについている[R]エネルギーを5枚までトラッシュし、その枚数×70ダメージ。",
+				'ja-jp': "このポケモンについている[R]エネルギーを5枚までトラッシュし、その枚数×70ダメージ。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒビキのマグマッグ",
+		'ja-jp': "ヒビキのマグマッグ",
 	},
 
 	retreat: 3,

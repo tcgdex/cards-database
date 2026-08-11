@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Palkia G",
-		fr: "Palkia ",
-		de: "Palkia G"
+		'en-us': "Palkia G",
+		'fr-fr': "Palkia ",
+		'de-de': "Palkia G"
 	},
 
 	illustrator: "Yusuke Ishikawa",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Splashing Turn",
-				fr: "Tour éclaboussant",
-				de: "Splashing Turn"
+				'en-us': "Splashing Turn",
+				'fr-fr': "Tour éclaboussant",
+				'de-de': "Splashing Turn"
 			},
 			effect: {
-				en: "You may switch Palkia G with 1 of your Benched Pokémon.",
-				fr: "Vous pouvez échanger Palkia  avec 1 de vos Pokémon de Banc.",
-				de: "You may switch Palkia G with 1 of your Benched Pokémon."
+				'en-us': "You may switch Palkia G with 1 of your Benched Pokémon.",
+				'fr-fr': "Vous pouvez échanger Palkia  avec 1 de vos Pokémon de Banc.",
+				'de-de': "You may switch Palkia G with 1 of your Benched Pokémon."
 			},
 			damage: 20,
 
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pearl Breath",
-				fr: "Haleine de perle",
-				de: "Pearl Breath"
+				'en-us': "Pearl Breath",
+				'fr-fr': "Haleine de perle",
+				'de-de': "Pearl Breath"
 			},
 			effect: {
-				en: "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
-				de: "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
+				'de-de': "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 50,
 

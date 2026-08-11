@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "オリーニョ"
+		'ja-jp': "オリーニョ"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "フレッシュな 香りの 美味しい オイルを 分けてくれる。 古くから 人間と 共存してきた。"
+		'ja-jp': "フレッシュな 香りの 美味しい オイルを 分けてくれる。 古くから 人間と 共存してきた。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ビンタ"
+			'ja-jp': "ビンタ"
 		},
 
 		damage: 20
@@ -32,13 +32,13 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "オイルかけ"
+			'ja-jp': "オイルかけ"
 		},
 
 		damage: 40,
 
 		effect: {
-			ja: "次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを1回投げる。ウラならそのワザは失敗。"
+			'ja-jp': "次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを1回投げる。ウラならそのワザは失敗。"
 		}
 	}],
 

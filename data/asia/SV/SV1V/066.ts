@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1V"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "イッカネズミ",
+		'ja-jp': "イッカネズミ",
 		'zh-tw': "一家鼠",
-		th: "อิกคาเนซูมิ",
-		id: "Maushold"
+		'th-th': "อิกคาเนซูมิ",
+		'id-id': "Maushold"
 	},
 
 	illustrator: "KIYOTAKA OSHIYAMA",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "大きな ２匹が 子どもたちを 守りながら 戦う。 強い 相手には 全員で 立ち向かう。",
+		'ja-jp': "大きな ２匹が 子どもたちを 守りながら 戦う。 強い 相手には 全員で 立ち向かう。",
 		'zh-tw': "身型大的２隻會在戰鬥的同時保護著孩子。對抗實力 強大的對手時會集體出陣。",
-		th: "ตัวใหญ่ 2 ตัวจะคอยปกป้องพวกตัวเล็กพลางต่อสู้ไปด้วย จะเผชิญหน้ากับคู่ต่อสู้ที่แข็งแกร่งด้วยกันทุกตัว",
-		id: "Dua ekor Maushold besar bertarung sambil melindungi anak-anak mereka. Seluruh Pokémon ini ikut bertarung menghadapi musuh yang kuat."
+		'th-th': "ตัวใหญ่ 2 ตัวจะคอยปกป้องพวกตัวเล็กพลางต่อสู้ไปด้วย จะเผชิญหน้ากับคู่ต่อสู้ที่แข็งแกร่งด้วยกันทุกตัว",
+		'id-id': "Dua ekor Maushold besar bertarung sambil melindungi anak-anak mereka. Seluruh Pokémon ini ikut bertarung menghadapi musuh yang kuat."
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ビンタ",
+			'ja-jp': "ビンタ",
 			'zh-tw': "巴掌",
-			th: "ตบ",
-			id: "Menampar"
+			'th-th': "ตบ",
+			'id-id': "Menampar"
 		},
 
 		damage: 40
@@ -42,19 +42,19 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ファミリーアタック",
+			'ja-jp': "ファミリーアタック",
 			'zh-tw': "家族攻擊",
-			th: "แฟมิลีแอทแทก",
-			id: "Family Attack"
+			'th-th': "แฟมิลีแอทแทก",
+			'id-id': "Family Attack"
 		},
 
 		damage: "70×",
 
 		effect: {
-			ja: "自分の場の「イッカネズミ」の数×70ダメージ。",
+			'ja-jp': "自分の場の「イッカネズミ」の数×70ダメージ。",
 			'zh-tw': "造成自己的場上的「一家鼠」的數量×70點傷害。",
-			th: "แดเมจจะเท่ากับจำนวน [อิกคาเนซูมิ] บนกระดานฝ่ายเรา x70",
-			id: "Serangan ini memberikan kerusakan sejumlah 70 untuk tiap Maushold di Arena sendiri."
+			'th-th': "แดเมจจะเท่ากับจำนวน [อิกคาเนซูมิ] บนกระดานฝ่ายเรา x70",
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 70 untuk tiap Maushold di Arena sendiri."
 		}
 	}],
 

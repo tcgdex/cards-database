@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Pansear",
-		fr: "Flamajou",
-		es: "Pansear",
-		it: "Pansear",
-		pt: "Pansear",
-		de: "Grillmak"
+		'en-us': "Pansear",
+		'fr-fr': "Flamajou",
+		'es-es': "Pansear",
+		'it-it': "Pansear",
+		'pt-br': "Pansear",
+		'de-de': "Grillmak"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
 			},
 
 			damage: 20,
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Fire",
-				fr: "Double Feu",
+				'en-us': "Double Fire",
+				'fr-fr': "Double Feu",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 40 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 40,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Very intelligent, it roasts berries before eating them. It likes to help people.",
+		'en-us': "Very intelligent, it roasts berries before eating them. It likes to help people.",
 	},
 
 	thirdParty: {

@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Night Stretcher",
-		fr: "Civière Nocturne",
-		de: "Nachttrage",
-		it: "Barella Notturna",
-		es: "Camilla Nocturna",
-		pt: "Maca Noturna",
+		'en-us': "Night Stretcher",
+		'fr-fr': "Civière Nocturne",
+		'de-de': "Nachttrage",
+		'it-it': "Barella Notturna",
+		'es-es': "Camilla Nocturna",
+		'pt-br': "Maca Noturna",
 		'es-mx': "Camilla Nocturna"
 	},
 
@@ -19,12 +19,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Put a Pokémon or a Basic Energy card from your discard pile into your hand.",
-		fr: "Ajoutez un Pokémon ou une carte Énergie de base de votre pile de défausse à votre main.",
-		de: "Nimm 1 Pokémon oder 1 Basis-Energiekarte aus deinem Ablagestapel auf deine Hand.",
-		it: "Prendi un Pokémon o una carta Energia base dalla tua pila degli scarti e aggiungi la carta a quelle che hai in mano.",
-		es: "Pon 1 Pokémon o 1 carta de Energía Básica de tu pila de descartes en tu mano.",
-		pt: "Coloque um Pokémon ou uma carta de Energia Básica da sua pilha de descarte na sua mão.",
+		'en-us': "Put a Pokémon or a Basic Energy card from your discard pile into your hand.",
+		'fr-fr': "Ajoutez un Pokémon ou une carte Énergie de base de votre pile de défausse à votre main.",
+		'de-de': "Nimm 1 Pokémon oder 1 Basis-Energiekarte aus deinem Ablagestapel auf deine Hand.",
+		'it-it': "Prendi un Pokémon o una carta Energia base dalla tua pila degli scarti e aggiungi la carta a quelle che hai in mano.",
+		'es-es': "Pon 1 Pokémon o 1 carta de Energía Básica de tu pila de descartes en tu mano.",
+		'pt-br': "Coloque um Pokémon ou uma carta de Energia Básica da sua pilha de descarte na sua mão.",
 		'es-mx': "Pon 1 Pokémon o 1 carta de Energía Básica de tu pila de descartes en tu mano."
 	},
 

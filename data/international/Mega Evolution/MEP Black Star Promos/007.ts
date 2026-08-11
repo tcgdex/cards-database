@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Psyduck",
-		fr: "Psykokwak",
-		de: "Enton",
-		it: "Psyduck",
-		es: "Psyduck",
-		pt: "Psyduck"
+		'en-us': "Psyduck",
+		'fr-fr': "Psykokwak",
+		'de-de': "Enton",
+		'it-it': "Psyduck",
+		'es-es': "Psyduck",
+		'pt-br': "Psyduck"
 	},
 
 	illustrator: "Jiro Sasumo",
@@ -25,21 +25,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Damp",
-			fr: "Moiteur",
-			de: "Feuchtigkeit",
-			it: "Umidità",
-			es: "Humedad",
-			pt: "Umidade"
+			'en-us': "Damp",
+			'fr-fr': "Moiteur",
+			'de-de': "Feuchtigkeit",
+			'it-it': "Umidità",
+			'es-es': "Humedad",
+			'pt-br': "Umidade"
 		},
 
 		effect: {
-			en: "Pokémon in play (both yours and your opponent's) lose all Abilities that require those Pokémon to be Knocked Out.",
-			fr: "Les Pokémon en jeu (les vôtres et ceux de votre adversaire) perdent tout talent qui demande au Pokémon l'utilisant de se mettre K.O.",
-			de: "Pokémon im Spiel (deine und die deines Gegners) verlieren alle Fähigkeiten, die erfordern, dass diese Pokémon kampfunfähig gemacht werden.",
-			it: "I Pokémon in gioco (sia tuoi che del tuo avversario) perdono tutte le abilità che richiedono che quei Pokémon vengano messi KO.",
-			es: "Los Pokémon en juego (tanto tuyos como de tu rival) pierden todas las habilidades que requieren que esos Pokémon sean Fuera de Combate.",
-			pt: "Os Pokémon em jogo (tanto seus quanto do seu oponente) perdem todas as Habilidades que exigem que esses Pokémon sejam Nocauteados."
+			'en-us': "Pokémon in play (both yours and your opponent's) lose all Abilities that require those Pokémon to be Knocked Out.",
+			'fr-fr': "Les Pokémon en jeu (les vôtres et ceux de votre adversaire) perdent tout talent qui demande au Pokémon l'utilisant de se mettre K.O.",
+			'de-de': "Pokémon im Spiel (deine und die deines Gegners) verlieren alle Fähigkeiten, die erfordern, dass diese Pokémon kampfunfähig gemacht werden.",
+			'it-it': "I Pokémon in gioco (sia tuoi che del tuo avversario) perdono tutte le abilità che richiedono che quei Pokémon vengano messi KO.",
+			'es-es': "Los Pokémon en juego (tanto tuyos como de tu rival) pierden todas las habilidades que requieren que esos Pokémon sean Fuera de Combate.",
+			'pt-br': "Os Pokémon em jogo (tanto seus quanto do seu oponente) perdem todas as Habilidades que exigem que esses Pokémon sejam Nocauteados."
 		}
 	}],
 
@@ -47,12 +47,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Collision",
-			fr: "Collision",
-			de: "Kollision",
-			it: "Collisione",
-			es: "Colisión",
-			pt: "Colisão"
+			'en-us': "Collision",
+			'fr-fr': "Collision",
+			'de-de': "Kollision",
+			'it-it': "Collisione",
+			'es-es': "Colisión",
+			'pt-br': "Colisão"
 		},
 
 		damage: 20

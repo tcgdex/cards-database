@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika"
+		'en-us': "Erika"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -12,7 +12,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "You may draw up to 3 cards, then your opponent may draw up to 3 cards."
+		'en-us': "You may draw up to 3 cards, then your opponent may draw up to 3 cards."
 	},
 	variants: [
 		{

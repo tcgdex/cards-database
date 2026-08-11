@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Weedle",
-		fr: "Aspicot",
-		de: "Hornliu"
+		'en-us': "Weedle",
+		'fr-fr': "Aspicot",
+		'de-de': "Hornliu"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la famille",
-				de: "Familienruf"
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la famille",
+				'de-de': "Familienruf"
 			},
 			effect: {
-				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach 1 Basis-Pokémon-Karte und lege sie auf deine Bank. Mische dein Deck danach."
+				'en-us': "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach 1 Basis-Pokémon-Karte und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "String Shot",
-				fr: "Sécrétion",
-				de: "Fadenschuss"
+				'en-us': "String Shot",
+				'fr-fr': "Sécrétion",
+				'de-de': "Fadenschuss"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It eats its weight in leaves every day. It fends off attackers with the needle on its head.",
+		'en-us': "It eats its weight in leaves every day. It fends off attackers with the needle on its head.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Sunkern",
-		fr: "Tournegrin",
-		de: "Sonnkern"
+		'en-us': "Sunkern",
+		'fr-fr': "Tournegrin",
+		'de-de': "Sonnkern"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Growth",
-				fr: "Croissance",
-				de: "Wachstum"
+				'en-us': "Growth",
+				'fr-fr': "Croissance",
+				'de-de': "Wachstum"
 			},
 			effect: {
-				en: "Flip a coin. If heads, you may attach up to 2 Energy cards from your hand to Sunkern.",
-				fr: "Lancez une pièce. Si c'est face, vous pouvez attacher jusqu'à 2 cartes Énergies  de votre main à Tournegrin.",
-				de: "Wirf eine Münze. Bei 'Kopf' kannst du bis zu zwei -Energiekarten aus deiner Hand an Sonnkern anlegen."
+				'en-us': "Flip a coin. If heads, you may attach up to 2 Energy cards from your hand to Sunkern.",
+				'fr-fr': "Lancez une pièce. Si c'est face, vous pouvez attacher jusqu'à 2 cartes Énergies  de votre main à Tournegrin.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' kannst du bis zu zwei -Energiekarten aus deiner Hand an Sonnkern anlegen."
 			},
 
 		},
@@ -49,14 +49,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Mega Drain",
-				fr: "Mega-sangsue",
-				de: "Megasauger"
+				'en-us': "Mega Drain",
+				'fr-fr': "Mega-sangsue",
+				'de-de': "Megasauger"
 			},
 			effect: {
-				en: "Remove a number of damage counters from Sunkern equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Sunkern has fewer damage counters than that, remove all of them.",
-				fr: "Retirez de Tournegrin un nombre de marqueurs de dégâts égal à la moitié des dégâts infligés au Pokémon Défenseur (après application de la Faiblesse et de la Résistance) (arrondi à la dizaine la plus proche). Si Tournegrin a moins de dégâts que cela, retirez-les tous.",
-				de: "Entferne Schaden von Sonnkern in Höhe der Hälfte des Schadens, der dem verteidigenden Pokémon zugefügt wurde (nachdem Schwäche und Resistenz verrechnet wurden) (auf die nächsten 10 aufgerundet). Falls Sonnkern weniger Schaden hat, entferne alle."
+				'en-us': "Remove a number of damage counters from Sunkern equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Sunkern has fewer damage counters than that, remove all of them.",
+				'fr-fr': "Retirez de Tournegrin un nombre de marqueurs de dégâts égal à la moitié des dégâts infligés au Pokémon Défenseur (après application de la Faiblesse et de la Résistance) (arrondi à la dizaine la plus proche). Si Tournegrin a moins de dégâts que cela, retirez-les tous.",
+				'de-de': "Entferne Schaden von Sonnkern in Höhe der Hälfte des Schadens, der dem verteidigenden Pokémon zugefügt wurde (nachdem Schwäche und Resistenz verrechnet wurden) (auf die nächsten 10 aufgerundet). Falls Sonnkern weniger Schaden hat, entferne alle."
 			},
 			damage: 30,
 
@@ -73,8 +73,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It may drop out of the sky suddenly. If attacked by a Spearow, it violently shakes its leaves.",
-		fr: "Il tombe parfois du ciel sans prévenir. Quand un Piafabec l'attaque, il secoue violemment ses feuilles."
+		'en-us': "It may drop out of the sky suddenly. If attacked by a Spearow, it violently shakes its leaves.",
+		'fr-fr': "Il tombe parfois du ciel sans prévenir. Quand un Piafabec l'attaque, il secoue violemment ses feuilles."
 	},
 
 

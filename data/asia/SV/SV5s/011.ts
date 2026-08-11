@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Grotle"
+		'id-id': "Grotle"
 	},
 
 	illustrator: "Uninori",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Grotle hidup di sekitar perairan di dalam hutan. Pada siang hari, Pokémon ini keluar hutan untuk memberikan cahaya pada pohon di tempurungnya."
+		'id-id': "Grotle hidup di sekitar perairan di dalam hutan. Pada siang hari, Pokémon ini keluar hutan untuk memberikan cahaya pada pohon di tempurungnya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Potongan Iai"
+			'id-id': "Potongan Iai"
 		},
 
 		damage: 20,
 		cost: ["Grass"]
 	}, {
 		name: {
-			id: "Serudukan Tempurung"
+			'id-id': "Serudukan Tempurung"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 20."
+			'id-id': "Pada giliran lawan berikutnya, kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 20."
 		},
 
 		damage: 50,

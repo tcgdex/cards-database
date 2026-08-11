@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤンチャム",
+		'ja-jp': "ヤンチャム",
 	},
 
 	illustrator: "Motofumi Fujiwara",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ゴロンダの あとを 子分の ように ついていく。 大きな 失敗を すると 葉っぱを 取られてしまう。",
+		'ja-jp': "ゴロンダの あとを 子分の ように ついていく。 大きな 失敗を すると 葉っぱを 取られてしまう。",
 	},
 
 	stage: "Basic",

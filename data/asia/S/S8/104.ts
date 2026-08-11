@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パルスワンV",
+		'ja-jp': "パルスワンV",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Lightning"],
 			effect: {
-				ja: "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

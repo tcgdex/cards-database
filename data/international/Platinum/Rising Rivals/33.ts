@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Snorlax",
-		fr: "Ronflex Niv. 37",
-		de: "Relaxo"
+		'en-us': "Snorlax",
+		'fr-fr': "Ronflex Niv. 37",
+		'de-de': "Relaxo"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Pick and Collect",
-				fr: "Choisir et collectionner",
-				de: "Auswählen und Einsammeln"
+				'en-us': "Pick and Collect",
+				'fr-fr': "Choisir et collectionner",
+				'de-de': "Auswählen und Einsammeln"
 			},
 			effect: {
-				en: "Search your discard pile for up to 4 basic Energy cards, show them to your opponent, and put them into your hand.",
-				fr: "Choisissez dans votre pile de défausse jusqu'à 4 cartes Énergie de base, montrez-les à votre adversaire et placez-les dans votre main.",
-				de: "Durchsuche deinen Ablagestapel nach bis zu 4 Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf die Hand."
+				'en-us': "Search your discard pile for up to 4 basic Energy cards, show them to your opponent, and put them into your hand.",
+				'fr-fr': "Choisissez dans votre pile de défausse jusqu'à 4 cartes Énergie de base, montrez-les à votre adversaire et placez-les dans votre main.",
+				'de-de': "Durchsuche deinen Ablagestapel nach bis zu 4 Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf die Hand."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Roll Over",
-				fr: "Se retourner",
-				de: "Umdrehen"
+				'en-us': "Roll Over",
+				'fr-fr': "Se retourner",
+				'de-de': "Umdrehen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, both Snorlax and the Defending Pokémon are now Asleep. If tails, Snorlax is now Asleep.",
-				fr: "Lancez une pièce. Si c'est face, Ronflex et le Pokémon Défenseur sont maintenant Endormis. Si c'est pile, Ronflex est maintenant Endormi.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" schlafen Relaxo und das Verteidigende Pokémon jetzt. Bei \"Zahl\" schläft Relaxo jetzt."
+				'en-us': "Flip a coin. If heads, both Snorlax and the Defending Pokémon are now Asleep. If tails, Snorlax is now Asleep.",
+				'fr-fr': "Lancez une pièce. Si c'est face, Ronflex et le Pokémon Défenseur sont maintenant Endormis. Si c'est pile, Ronflex est maintenant Endormi.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" schlafen Relaxo und das Verteidigende Pokémon jetzt. Bei \"Zahl\" schläft Relaxo jetzt."
 			},
 			damage: 60,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It stops eating only to sleep. It doesn't feel full unless it eats nearly 900 pounds a day."
+		'en-us': "It stops eating only to sleep. It doesn't feel full unless it eats nearly 900 pounds a day."
 	},
 
 	variants: [

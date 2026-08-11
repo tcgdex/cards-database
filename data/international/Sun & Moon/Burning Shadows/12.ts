@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Pansage",
-		fr: "Feuillajou",
-		es: "Pansage",
-		it: "Pansage",
-		pt: "Pansage",
-		de: "Vegimak"
+		'en-us': "Pansage",
+		'fr-fr': "Feuillajou",
+		'es-es': "Pansage",
+		'it-it': "Pansage",
+		'pt-br': "Pansage",
+		'de-de': "Vegimak"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Vine Whip",
-				fr: "Fouet Lianes",
-				es: "Látigo Cepa",
-				it: "Frustata",
-				pt: "Chicote de Vinha",
-				de: "Rankenhieb"
+				'en-us': "Vine Whip",
+				'fr-fr': "Fouet Lianes",
+				'es-es': "Látigo Cepa",
+				'it-it': "Frustata",
+				'pt-br': "Chicote de Vinha",
+				'de-de': "Rankenhieb"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It shares the leaf on its head with weary-looking Pokémon. These leaves are known to relieve stress.",
+		'en-us': "It shares the leaf on its head with weary-looking Pokémon. These leaves are known to relieve stress.",
 	},
 
 	thirdParty: {

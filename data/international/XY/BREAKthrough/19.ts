@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Quilava",
-		fr: "Feurisson",
-		es: "Quilava",
-		it: "Quilava",
-		pt: "Quilava",
-		de: "Igelavar"
+		'en-us': "Quilava",
+		'fr-fr': "Feurisson",
+		'es-es': "Quilava",
+		'it-it': "Quilava",
+		'pt-br': "Quilava",
+		'de-de': "Igelavar"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cyndaquil",
-		fr: "Héricendre",
-		es: "Cyndaquil",
-		it: "Cyndaquil",
-		pt: "Cyndaquil",
-		de: "Feurigel"
+		'en-us': "Cyndaquil",
+		'fr-fr': "Héricendre",
+		'es-es': "Cyndaquil",
+		'it-it': "Cyndaquil",
+		'pt-br': "Cyndaquil",
+		'de-de': "Feurigel"
 	},
 
 	stage: "Stage1",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mini Eruption",
-				fr: "Mini-Éruption",
-				es: "Miniestallido",
-				it: "Minieruzione",
-				pt: "Mini Erupção",
-				de: "Kleine Eruption"
+				'en-us': "Mini Eruption",
+				'fr-fr': "Mini-Éruption",
+				'es-es': "Miniestallido",
+				'it-it': "Minieruzione",
+				'pt-br': "Mini Erupção",
+				'de-de': "Kleine Eruption"
 			},
 			effect: {
-				en: "Discard the top card of your deck. If that card is an Energy card, this attack does 30 more damage.",
-				fr: "Défaussez la carte du dessus de votre deck. Si c'est une carte Énergie, cette attaque inflige 30 dégâts supplémentaires.",
-				es: "Descarta la primera carta de tu baraja. Si es una carta de Energía, este ataque hace 30 puntos de daño más.",
-				it: "Scarta la prima carta del tuo mazzo. Se è una carta Energia, questo attacco infligge 30 danni in più.",
-				pt: "Descarte o card de cima do seu baralho. Se aquele card for um card de Energia, este ataque causará 30 de danos adicionais.",
-				de: "Du kannst die oberste Karte deines Decks auf deinen Ablagestapel legen. Falls es eine Energiekarte ist, fügt dieser Angriff 30 weitere Schadenspunkte zu."
+				'en-us': "Discard the top card of your deck. If that card is an Energy card, this attack does 30 more damage.",
+				'fr-fr': "Défaussez la carte du dessus de votre deck. Si c'est une carte Énergie, cette attaque inflige 30 dégâts supplémentaires.",
+				'es-es': "Descarta la primera carta de tu baraja. Si es una carta de Energía, este ataque hace 30 puntos de daño más.",
+				'it-it': "Scarta la prima carta del tuo mazzo. Se è una carta Energia, questo attacco infligge 30 danni in più.",
+				'pt-br': "Descarte o card de cima do seu baralho. Se aquele card for um card de Energia, este ataque causará 30 de danos adicionais.",
+				'de-de': "Du kannst die oberste Karte deines Decks auf deinen Ablagestapel legen. Falls es eine Energiekarte ist, fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Be careful if it turns its back during battle. It means that it will attack with the fire on its back.",
+		'en-us': "Be careful if it turns its back during battle. It means that it will attack with the fire on its back.",
 	},
 
 	thirdParty: {

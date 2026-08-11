@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Golem"
+		'en-us': "Brock's Golem"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Graveler"
+		'en-us': "Graveler"
 	},
 
 	stage: "Stage2",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Slide"
+				'en-us': "Rock Slide"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose up to 3 of them. This attack does 10 damgae to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "If your opponent has any Benched Pokémon, choose up to 3 of them. This attack does 10 damgae to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 20,
 
@@ -49,7 +49,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fissure"
+				'en-us': "Fissure"
 			},
 
 			damage: 50,

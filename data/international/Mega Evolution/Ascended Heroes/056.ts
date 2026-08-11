@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Raichu",
-		fr: "Raichu",
-		es: "Raichu",
+		'en-us': "Raichu",
+		'fr-fr': "Raichu",
+		'es-es': "Raichu",
 		'es-mx': "Raichu",
-		de: "Raichu",
-		it: "Raichu",
-		pt: "Raichu"
+		'de-de': "Raichu",
+		'it-it': "Raichu",
+		'pt-br': "Raichu"
 	},
 
 	evolveFrom: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		es: "Pikachu",
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'es-es': "Pikachu",
 		'es-mx': "Pikachu",
-		de: "Pikachu",
-		it: "Pikachu",
-		pt: "Pikachu",
+		'de-de': "Pikachu",
+		'it-it': "Pikachu",
+		'pt-br': "Pikachu",
 	},
 
 	illustrator: "Iori Suzuki",
@@ -36,23 +36,23 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Quick Blow",
-			fr: "Coup d'Poing Éclair",
-			es: "Golpe Rápido",
+			'en-us': "Quick Blow",
+			'fr-fr': "Coup d'Poing Éclair",
+			'es-es': "Golpe Rápido",
 			'es-mx': "Golpe Rápido",
-			de: "Schnellschlag",
-			it: "Colpo Veloce",
-			pt: "Golpe Rápido"
+			'de-de': "Schnellschlag",
+			'it-it': "Colpo Veloce",
+			'pt-br': "Golpe Rápido"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 50 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 50 puntos de daño más.",
+			'en-us': "Flip a coin. If heads, this attack does 50 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 50 puntos de daño más.",
 			'es-mx': "Lanza 1 moneda. Si sale cara, este ataque hace 50 puntos de daño más.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 50 Schadenspunkte mehr zu.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 50 danni in più.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 50 pontos de dano a mais."
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 50 Schadenspunkte mehr zu.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 50 danni in più.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 50 pontos de dano a mais."
 		},
 
 		damage: "20+"
@@ -60,23 +60,23 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			en: "Strong Volt",
-			fr: "Décharge Foudroyante",
-			es: "Descarga Fulminante",
+			'en-us': "Strong Volt",
+			'fr-fr': "Décharge Foudroyante",
+			'es-es': "Descarga Fulminante",
 			'es-mx': "Voltio Fulminante",
-			de: "Voltkraft",
-			it: "Supervolt",
-			pt: "Tensão Intensa"
+			'de-de': "Voltkraft",
+			'it-it': "Supervolt",
+			'pt-br': "Tensão Intensa"
 		},
 
 		effect: {
-			en: "Discard a {L} Energy from this Pokémon.",
-			fr: "Défaussez une Énergie {L} de ce Pokémon.",
-			es: "Descarta 1 Energía {L} de este Pokémon.",
+			'en-us': "Discard a {L} Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie {L} de ce Pokémon.",
+			'es-es': "Descarta 1 Energía {L} de este Pokémon.",
 			'es-mx': "Descarta 1 Energía {L} de este Pokémon.",
-			de: "Lege 1 {L}-Energie von diesem Pokémon auf deinen Ablagestapel.",
-			it: "Scarta un'Energia {L} da questo Pokémon.",
-			pt: "Descarte uma Energia {L} deste Pokémon."
+			'de-de': "Lege 1 {L}-Energie von diesem Pokémon auf deinen Ablagestapel.",
+			'it-it': "Scarta un'Energia {L} da questo Pokémon.",
+			'pt-br': "Descarte uma Energia {L} deste Pokémon."
 		},
 
 		damage: 150
@@ -92,7 +92,7 @@ const card: Card = {
 	regulationMark: "J",
 
 	description: {
-		en: "When its electricity builds, its muscles are stimulated, and it becomes more aggressive than usual.",
+		'en-us': "When its electricity builds, its muscles are stimulated, and it becomes more aggressive than usual.",
 	},
 
 	variants: [

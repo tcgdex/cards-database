@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Dewott",
-		fr: "Mateloutre",
-		es: "Dewott",
-		it: "Dewott",
-		pt: "Dewott",
-		de: "Zwottronin"
+		'en-us': "Dewott",
+		'fr-fr': "Mateloutre",
+		'es-es': "Dewott",
+		'it-it': "Dewott",
+		'pt-br': "Dewott",
+		'de-de': "Zwottronin"
 	},
 
 	illustrator: "match",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Oshawott",
-		fr: "Moustillon",
+		'en-us': "Oshawott",
+		'fr-fr': "Moustillon",
 	},
 
 	stage: "Stage1",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Rain Splash",
-				fr: "Pluie Éclaboussante",
+				'en-us': "Rain Splash",
+				'fr-fr': "Pluie Éclaboussante",
 			},
 
 			damage: 20,
@@ -53,8 +53,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Waterfall",
-				fr: "Cascade",
+				'en-us': "Waterfall",
+				'fr-fr': "Cascade",
 			},
 
 			damage: 50,
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Strict training is how it learns its flowing double-scalchop technique.",
+		'en-us': "Strict training is how it learns its flowing double-scalchop technique.",
 	},
 
 	thirdParty: {

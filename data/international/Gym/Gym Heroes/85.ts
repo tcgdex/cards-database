@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Goldeen"
+		'en-us': "Misty's Goldeen"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Attack"
+				'en-us': "Fury Attack"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10x",
 
@@ -40,10 +40,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Supersonic"
+				'en-us': "Supersonic"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 
 		},

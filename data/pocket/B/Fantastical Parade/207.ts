@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [126],
 
 	name: {
-		en: "Magmar"
+		'en-us': "Magmar"
 	},
 
 	illustrator: "MAHOU",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "Magmar dispatches its prey with fire. But it\nregrets this habit once it realizes that it has\nburned its intended prey to a charred crisp."
+		'en-us': "Magmar dispatches its prey with fire. But it\nregrets this habit once it realizes that it has\nburned its intended prey to a charred crisp."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Stoke"
+			'en-us': "Stoke"
 		},
 
 		cost: ["Fire"],
 
 		effect: {
-			en: "Take a {R} Energy from your Energy Zone and attach it to this Pokémon."
+			'en-us': "Take a {R} Energy from your Energy Zone and attach it to this Pokémon."
 		}
 	}],
 

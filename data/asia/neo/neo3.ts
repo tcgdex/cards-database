@@ -1,10 +1,10 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../neo'
 
 const set: Set = {
 	id: 'neo3',
 	name: {
-		ja: 'めざめる伝説'
+		'ja-jp': 'めざめる伝説'
 	},
 
 	serie: serie,

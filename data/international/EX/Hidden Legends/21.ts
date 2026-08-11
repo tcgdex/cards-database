@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Metang",
-		fr: "Metang",
-		de: "Metang"
+		'en-us': "Metang",
+		'fr-fr': "Metang",
+		'de-de': "Metang"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Beldum",
-		fr: "Terhal"
+		'en-us': "Beldum",
+		'fr-fr': "Terhal"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Load",
-				fr: "Charge métallique",
-				de: "Metal Load"
+				'en-us': "Metal Load",
+				'fr-fr': "Charge métallique",
+				'de-de': "Metal Load"
 			},
 			effect: {
-				en: "Search your discard pile for a Metal Energy card and attach it to Metang.",
-				fr: "Choisissez une carte Énergie  dans votre pile de défausse et attachez-la à Metang.",
-				de: "Search your discard pile for a  Energy card and attach it to Metang."
+				'en-us': "Search your discard pile for a Metal Energy card and attach it to Metang.",
+				'fr-fr': "Choisissez une carte Énergie  dans votre pile de défausse et attachez-la à Metang.",
+				'de-de': "Search your discard pile for a  Energy card and attach it to Metang."
 			},
 
 		},
@@ -51,9 +51,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Claw",
-				fr: "Griffe acier",
-				de: "Metal Claw"
+				'en-us': "Metal Claw",
+				'fr-fr': "Griffe acier",
+				'de-de': "Metal Claw"
 			},
 
 			damage: 30,

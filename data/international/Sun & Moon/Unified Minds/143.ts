@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Cottonee",
-		fr: "Doudouvet",
-		es: "Cottonee",
-		it: "Cottonee",
-		pt: "Cottonee",
-		de: "Waumboll"
+		'en-us': "Cottonee",
+		'fr-fr': "Doudouvet",
+		'es-es': "Cottonee",
+		'it-it': "Cottonee",
+		'pt-br': "Cottonee",
+		'de-de': "Waumboll"
 	},
 
 	illustrator: "Asako Ito",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dust Gathering",
-				fr: "Ramasse Poussière",
-				es: "Concentración de Polvo",
-				it: "Coglipolvere",
-				pt: "Coleta de Poeira",
-				de: "Staubfänger"
+				'en-us': "Dust Gathering",
+				'fr-fr': "Ramasse Poussière",
+				'es-es': "Concentración de Polvo",
+				'it-it': "Coglipolvere",
+				'pt-br': "Coleta de Poeira",
+				'de-de': "Staubfänger"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				es: "Roba 1 carta.",
-				it: "Pesca una carta.",
-				pt: "Compre 1 carta.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'es-es': "Roba 1 carta.",
+				'it-it': "Pesca una carta.",
+				'pt-br': "Compre 1 carta.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "To protect itself, it shoots cotton from its body. When it gets wet in the rain, its cotton grows moist and heavy, and it can't move as well.",
+		'en-us': "To protect itself, it shoots cotton from its body. When it gets wet in the rain, its cotton grows moist and heavy, and it can't move as well.",
 	},
 
 	thirdParty: {

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポータウン",
+		'ja-jp': "ポータウン",
 	},
 
 	illustrator: "5ban Graphics",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのプレイヤーが、それぞれ手札からポケモンを出して進化させるたび、そのポケモンにダメカンを3個のせる。",
+		'ja-jp': "おたがいのプレイヤーが、それぞれ手札からポケモンを出して進化させるたび、そのポケモンにダメカンを3個のせる。",
 	},
 
 	variants: [

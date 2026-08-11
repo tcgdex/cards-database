@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Sylveon-GX",
-		fr: "Nymphali-GX",
+		'en-us': "Sylveon-GX",
+		'fr-fr': "Nymphali-GX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Shiny rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Fairy",
 	],
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
 	},
 
 	suffix: "GX",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Magical Ribbon",
-				fr: "Ruban Magique",
+				'en-us': "Magical Ribbon",
+				'fr-fr': "Ruban Magique",
 			},
 			effect: {
-				en: "Search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.",
-				fr: "Cherchez jusqu’à 3 cartes dans votre deck et ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.",
+				'fr-fr': "Cherchez jusqu’à 3 cartes dans votre deck et ajoutez-les à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -47,8 +47,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fairy Wind",
-				fr: "Vent Féérique",
+				'en-us': "Fairy Wind",
+				'fr-fr': "Vent Féérique",
 			},
 
 			damage: 110,
@@ -61,12 +61,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Plea-GX",
-				fr: "Supplique-GX",
+				'en-us': "Plea-GX",
+				'fr-fr': "Supplique-GX",
 			},
 			effect: {
-				en: "Put 2 of your opponent's Benched Pokémon and all cards attached to them into your opponent's hand. (You can't use more than 1 GX attack in a game.)",
-				fr: "Placez 2 des Pokémon de Banc de votre adversaire et toutes les cartes qui leur sont attachées dans la main de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'en-us': "Put 2 of your opponent's Benched Pokémon and all cards attached to them into your opponent's hand. (You can't use more than 1 GX attack in a game.)",
+				'fr-fr': "Placez 2 des Pokémon de Banc de votre adversaire et toutes les cartes qui leur sont attachées dans la main de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 
 		},

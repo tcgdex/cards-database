@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダブルアクアエネルギー",
+		'ja-jp': "ダブルアクアエネルギー",
 	},
 
 	illustrator: "5ban Graphics",
@@ -12,7 +12,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		ja: "このカードは「アクア団」のポケモンにしかつけられず、つけた番の終わりにトラッシュする。このカードはポケモンについているかぎり、[水]エネルギー2個ぶんとしてはたらく。（このカードが「アクア団」のポケモン以外についているなら、トラッシュする。）",
+		'ja-jp': "このカードは「アクア団」のポケモンにしかつけられず、つけた番の終わりにトラッシュする。このカードはポケモンについているかぎり、[水]エネルギー2個ぶんとしてはたらく。（このカードが「アクア団」のポケモン以外についているなら、トラッシュする。）",
 	},
 
 	variants: [

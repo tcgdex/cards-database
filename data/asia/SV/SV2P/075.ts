@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "セビエ"
+		'ja-jp': "セビエ"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "背びれで 熱を 吸収して 氷エネルギーに 変換する。 高温ほど エネルギーが 溜まる。"
+		'ja-jp': "背びれで 熱を 吸収して 氷エネルギーに 変換する。 高温ほど エネルギーが 溜まる。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			ja: "たいあたり"
+			'ja-jp': "たいあたり"
 		},
 
 		damage: 30

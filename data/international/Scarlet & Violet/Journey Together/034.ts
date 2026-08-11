@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Octillery",
-		fr: "Octillery",
-		es: "Octillery",
-		de: "Octillery",
-		it: "Octillery",
-		pt: "Octillery",
+		'en-us': "Octillery",
+		'fr-fr': "Octillery",
+		'es-es': "Octillery",
+		'de-de': "Octillery",
+		'it-it': "Octillery",
+		'pt-br': "Octillery",
 		'es-mx': "Octillery"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Remoraid",
-		fr: "Rémoraid",
-		es: "Remoraid",
-		de: "Remoraid",
-		it: "Remoraid",
-		pt: "Remoraid",
+		'en-us': "Remoraid",
+		'fr-fr': "Rémoraid",
+		'es-es': "Remoraid",
+		'de-de': "Remoraid",
+		'it-it': "Remoraid",
+		'pt-br': "Remoraid",
 		'es-mx': "Remoraid"
 	},
 	stage: "Stage1",
@@ -34,22 +34,22 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Aqua Wash",
-			fr: "Aqua-Lavage",
-			es: "Limpieza Acuática",
-			de: "Aquawäsche",
-			it: "Idrolavaggio",
-			pt: "Limpeza Aquática",
+			'en-us': "Aqua Wash",
+			'fr-fr': "Aqua-Lavage",
+			'es-es': "Limpieza Acuática",
+			'de-de': "Aquawäsche",
+			'it-it': "Idrolavaggio",
+			'pt-br': "Limpeza Aquática",
 			'es-mx': "Acualavado"
 		},
 
 		effect: {
-			en: "You may put an Energy attached to your opponent's Active Pokémon into their hand.",
-			fr: "Vous pouvez ajouter à la main de votre adversaire une Énergie attachée à son Pokémon Actif.",
-			es: "Puedes poner 1 Energía unida al Pokémon Activo de tu rival en su mano.",
-			de: "Du kannst deinem Gegner 1 an sein Aktives Pokémon angelegte Energie auf seine Hand geben.",
-			it: "Puoi prendere un'Energia assegnata al Pokémon attivo del tuo avversario e aggiungerla alle carte che ha in mano.",
-			pt: "Você pode colocar uma Energia ligada ao Pokémon Ativo do seu oponente na mão dele.",
+			'en-us': "You may put an Energy attached to your opponent's Active Pokémon into their hand.",
+			'fr-fr': "Vous pouvez ajouter à la main de votre adversaire une Énergie attachée à son Pokémon Actif.",
+			'es-es': "Puedes poner 1 Energía unida al Pokémon Activo de tu rival en su mano.",
+			'de-de': "Du kannst deinem Gegner 1 an sein Aktives Pokémon angelegte Energie auf seine Hand geben.",
+			'it-it': "Puoi prendere un'Energia assegnata al Pokémon attivo del tuo avversario e aggiungerla alle carte che ha in mano.",
+			'pt-br': "Você pode colocar uma Energia ligada ao Pokémon Ativo do seu oponente na mão dele.",
 			'es-mx': "Puedes poner 1 Energía unida al Pokémon Activo de tu rival en su mano."
 		},
 
@@ -58,22 +58,22 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Octo Beatdown",
-			fr: "Octo-Dérouillée",
-			es: "Octogolpe",
-			de: "Octoprügel",
-			it: "Polpobatosta",
-			pt: "Soco Tentacular",
+			'en-us': "Octo Beatdown",
+			'fr-fr': "Octo-Dérouillée",
+			'es-es': "Octogolpe",
+			'de-de': "Octoprügel",
+			'it-it': "Polpobatosta",
+			'pt-br': "Soco Tentacular",
 			'es-mx': "Octopaliza"
 		},
 
 		effect: {
-			en: "Flip a coin until you get tails. This attack does 90 damage for each heads.",
-			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 90 dégâts pour chaque côté face.",
-			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 90 puntos de daño por cada cara.",
-			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 90 Schadenspunkte pro Kopf zu.",
-			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 90 danni ogni volta che esce testa.",
-			pt: "Jogue uma moeda até sair coroa. Este ataque causa 90 pontos de dano para cada cara.",
+			'en-us': "Flip a coin until you get tails. This attack does 90 damage for each heads.",
+			'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 90 dégâts pour chaque côté face.",
+			'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 90 puntos de daño por cada cara.",
+			'de-de': "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 90 Schadenspunkte pro Kopf zu.",
+			'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 90 danni ogni volta che esce testa.",
+			'pt-br': "Jogue uma moeda até sair coroa. Este ataque causa 90 pontos de dano para cada cara.",
 			'es-mx': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 90 puntos de daño por cada cara."
 		},
 

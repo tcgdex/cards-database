@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Squirtle",
-		fr: "Carapuce",
-		de: "Schiggy"
+		'en-us': "Squirtle",
+		'fr-fr': "Carapuce",
+		'de-de': "Schiggy"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -32,9 +32,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shell Attack",
-				fr: "Carap'attaque",
-				de: "Panzerangriff"
+				'en-us': "Shell Attack",
+				'fr-fr': "Carap'attaque",
+				'de-de': "Panzerangriff"
 			},
 
 			damage: 20,
@@ -52,8 +52,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Cute Pokémon that charms people with its innocent eyes. Loves swimming all day long.",
-		fr: "Ce mignon Pokémon charme les gens avec ses yeux innocents. Il passe ses journées à nager"
+		'en-us': "Cute Pokémon that charms people with its innocent eyes. Loves swimming all day long.",
+		'fr-fr': "Ce mignon Pokémon charme les gens avec ses yeux innocents. Il passe ses journées à nager"
 	},
 
 

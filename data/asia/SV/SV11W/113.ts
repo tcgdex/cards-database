@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バチュル",
+		'ja-jp': "バチュル",
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "街中で 暮らす バチュルは 民家の コンセントから 電気を 吸い取る 術を 覚えている。",
+		'ja-jp': "街中で 暮らす バチュルは 民家の コンセントから 電気を 吸い取る 術を 覚えている。",
 	},
 
 	stage: "Basic",

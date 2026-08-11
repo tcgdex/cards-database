@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マッギョ",
+		'ja-jp': "マッギョ",
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "干潟が すみか。 泥に 棲む 細菌に よって 電気を つくる 器官が 発達した。",
+		'ja-jp': "干潟が すみか。 泥に 棲む 細菌に よって 電気を つくる 器官が 発達した。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。さらに、そのポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。さらに、そのポケモンについているエネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],

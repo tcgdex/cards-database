@@ -4,7 +4,7 @@ import serie from "../SM";
 const set: Set = {
 	id: "SM3p",
 	name: {
-		ja: "ひかる伝説",
+		'ja-jp': "ひかる伝説",
 	},
 
 	serie: serie,
@@ -13,7 +13,7 @@ const set: Set = {
 		official: 72,
 	},
 	releaseDate: {
-		ja: "2017-07-15",
+		'ja-jp': "2017-07-15",
 	},
 };
 

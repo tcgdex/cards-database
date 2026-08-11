@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Golisopod"
+		'id-id': "Golisopod"
 	},
 
 	illustrator: "nagimiso",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Golisopod tinggal dalam lubang di dasar laut atau kapal tenggelam. Pokémon ini bertarung melawan Grapploct, dan Pokémon yang kalah akan menjadi makanan Pokémon yang menang."
+		'id-id': "Golisopod tinggal dalam lubang di dasar laut atau kapal tenggelam. Pokémon ini bertarung melawan Grapploct, dan Pokémon yang kalah akan menjadi makanan Pokémon yang menang."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Power Cross"
+			'id-id': "Power Cross"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap lembar Kartu Pegangan lawan."
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap lembar Kartu Pegangan lawan."
 		},
 
 		damage: "20×",
 		cost: ["Water"]
 	}, {
 		name: {
-			id: "Melawan Arus"
+			'id-id': "Melawan Arus"
 		},
 
 		damage: 130,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Rapidash",
-		fr: "Galopa",
-		de: "Gallopa"
+		'en-us': "Rapidash",
+		'fr-fr': "Galopa",
+		'de-de': "Gallopa"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ponyta",
-		fr: "Ponyta",
+		'en-us': "Ponyta",
+		'fr-fr': "Ponyta",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Overrun",
-				fr: "Dépassement",
-				de: "Überrennen"
+				'en-us': "Overrun",
+				'fr-fr': "Dépassement",
+				'de-de': "Überrennen"
 			},
 			effect: {
-				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 20,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blaze Up",
-				fr: "S'embraser",
-				de: "Auflodern"
+				'en-us': "Blaze Up",
+				'fr-fr': "S'embraser",
+				'de-de': "Auflodern"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Fire Energy attached to Rapidash and this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Galopa et cette attaque inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Wirf 1 Münze. Bei \"Zahl\" lege eine -Energie, die an Gallopa angelegt ist, auf deinen Ablagestapel und dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Flip a coin. If tails, discard a Fire Energy attached to Rapidash and this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Galopa et cette attaque inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" lege eine -Energie, die an Gallopa angelegt ist, auf deinen Ablagestapel und dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 50,
 
@@ -78,8 +78,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It gallops at nearly 150 mph. With its mane blazing ferociously, it races as if it were an arrow.",
-		fr: "Son galop dépasse les 240 km/h. Il file comme une flèche, laissant flotter sa crinière ardente."
+		'en-us': "It gallops at nearly 150 mph. With its mane blazing ferociously, it races as if it were an arrow.",
+		'fr-fr': "Son galop dépasse les 240 km/h. Il file comme une flèche, laissant flotter sa crinière ardente."
 	},
 
 	thirdParty: {

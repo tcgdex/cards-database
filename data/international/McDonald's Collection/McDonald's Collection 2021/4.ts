@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2021'
 
 const card: Card = {
 	name: {
-		en: "Turtwig",
-		fr: "Tortipouss"
+		'en-us': "Turtwig",
+		'fr-fr': "Tortipouss"
 	},
 
 	illustrator: "OOYAMA",
@@ -31,8 +31,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge"
+				'en-us': "Tackle",
+				'fr-fr': "Charge"
 			},
 
 			damage: 20,
@@ -45,8 +45,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'Herbe"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'Herbe"
 			},
 
 			damage: 50,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty."
+		'en-us': "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty."
 	},
 
 	variants: [

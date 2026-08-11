@@ -1,12 +1,12 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Platinum'
 
 const ru1: Set = {
 	id: "ru1",
 
 	name: {
-		en: "Pokémon Rumble",
-		es: "Pokémon Rumble"
+		'en-us': "Pokémon Rumble",
+		'es-es': "Pokémon Rumble"
 	},
 
 	serie: serie,

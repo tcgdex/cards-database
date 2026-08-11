@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Swablu",
+		'ja-jp': "Swablu",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "綿毛",
+				'ja-jp': "綿毛",
 			},
 			effect: {
-				ja: "Swabluが対戦相手の攻撃によって損傷または影響を受け、すでに少なくとも1つのダメージカウンターがあるときはいつでも、コインをひっくり返します。頭の場合は、Swabluに行われた損害を含む、その攻撃のすべての影響を防ぎます。",
+				'ja-jp': "Swabluが対戦相手の攻撃によって損傷または影響を受け、すでに少なくとも1つのダメージカウンターがあるときはいつでも、コインをひっくり返します。頭の場合は、Swabluに行われた損害を含む、その攻撃のすべての影響を防ぎます。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ペック",
+				'ja-jp': "ペック",
 			},
 			damage: 10,
 		},

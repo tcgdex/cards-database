@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナゲツケサル",
+		'ja-jp': "ナゲツケサル",
 	},
 
 	illustrator: "Naoki Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "２０匹前後の グループを つくる。 その結束は 非常に 固く 絶対 仲間を 見捨てない。",
+		'ja-jp': "２０匹前後の グループを つくる。 その結束は 非常に 固く 絶対 仲間を 見捨てない。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "なげつける" },
 			cost: ["Fighting"],
 			effect: {
-				ja: "相手のベンチポケモン1匹に、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹に、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチの「ナゲツケサル」の数x30ダメージ追加。",
+				'ja-jp': "自分のベンチの「ナゲツケサル」の数x30ダメージ追加。",
 			},
 		},
 	],

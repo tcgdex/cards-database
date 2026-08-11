@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "REMORAID",
+		'ja-jp': "REMORAID",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "家族を呼びます",
+				'ja-jp': "家族を呼びます",
 			},
 			effect: {
-				ja: "デッキを検索して、基本的なポケモンを探して、ベンチに置きます。その後、デッキをシャッフルします。",
+				'ja-jp': "デッキを検索して、基本的なポケモンを探して、ベンチに置きます。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "スプラッシュ",
+				'ja-jp': "スプラッシュ",
 			},
 			damage: 10,
 		},

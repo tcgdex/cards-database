@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Diglett",
-		fr: "Taupiqueur",
-		de: "Digda",
-		it: "Diglett"
+		'en-us': "Diglett",
+		'fr-fr': "Taupiqueur",
+		'de-de': "Digda",
+		'it-it': "Diglett"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Dig",
-				fr: "Tunnel",
-				de: "Schaufler",
-				it: "Fossa"
+				'en-us': "Dig",
+				'fr-fr': "Tunnel",
+				'de-de': "Schaufler",
+				'it-it': "Fossa"
 			},
 
 			damage: 10,
@@ -47,10 +47,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mud Slap",
-				fr: "Jet de boue",
-				de: "Schlammbad",
-				it: "Fangosberla"
+				'en-us': "Mud Slap",
+				'fr-fr': "Jet de boue",
+				'de-de': "Schlammbad",
+				'it-it': "Fangosberla"
 			},
 
 			damage: 30,
@@ -73,9 +73,9 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Lives about three feet underground, where it feeds on plant roots. It sometimes appears above ground.",
-		fr: "Il vit à un mètre sous la terre et se nourrit de racines. Il apparaît rarement à la surface.",
-		it: "Vive sotto terra, dove sopravvive mangiando le radici di varie piante. Ogni tanto risale in superficie. LIV 8 N.50"
+		'en-us': "Lives about three feet underground, where it feeds on plant roots. It sometimes appears above ground.",
+		'fr-fr': "Il vit à un mètre sous la terre et se nourrit de racines. Il apparaît rarement à la surface.",
+		'it-it': "Vive sotto terra, dove sopravvive mangiando le radici di varie piante. Ogni tanto risale in superficie. LIV 8 N.50"
 	},
 
 	variants: [

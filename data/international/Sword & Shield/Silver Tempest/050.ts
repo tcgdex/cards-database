@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Raichu",
-		fr: "Raichu",
-		es: "Raichu",
-		it: "Raichu",
-		pt: "Raichu",
-		de: "Raichu"
+		'en-us': "Raichu",
+		'fr-fr': "Raichu",
+		'es-es': "Raichu",
+		'it-it': "Raichu",
+		'pt-br': "Raichu",
+		'de-de': "Raichu"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		es: "Pikachu",
-		it: "Pikachu",
-		pt: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'es-es': "Pikachu",
+		'it-it': "Pikachu",
+		'pt-br': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Ambushing Spark",
-			fr: "Étincelle Guet-Apens",
-			es: "Chispa Emboscada",
-			it: "Scintillagguato",
-			pt: "Tocaia Cintilante",
-			de: "Überfallfunke"
+			'en-us': "Ambushing Spark",
+			'fr-fr': "Étincelle Guet-Apens",
+			'es-es': "Chispa Emboscada",
+			'it-it': "Scintillagguato",
+			'pt-br': "Tocaia Cintilante",
+			'de-de': "Überfallfunke"
 		},
 
 		effect: {
-			en: "If your opponent has used their VSTAR Power during this game, this attack does 100 more damage.",
-			fr: "Si votre adversaire a utilisé sa Puissance VSTAR pendant cette partie, cette attaque inflige 100 dégâts supplémentaires.",
-			es: "Si tu rival ha usado su Poder V-ASTRO durante esta partida, este ataque hace 100 puntos de daño más.",
-			it: "Se il tuo avversario ha usato il suo Potere V ASTRO durante questa partita, questo attacco infligge 100 danni in più.",
-			pt: "Se o seu oponente usou o Poder V-ASTRO dele(a) durante esta partida, este ataque causará 100 pontos de dano a mais.",
-			de: "Wenn dein Gegner während dieses Spiels seine VSTAR-Power eingesetzt hat, fügt diese Attacke 100 Schadenspunkte mehr zu."
+			'en-us': "If your opponent has used their VSTAR Power during this game, this attack does 100 more damage.",
+			'fr-fr': "Si votre adversaire a utilisé sa Puissance VSTAR pendant cette partie, cette attaque inflige 100 dégâts supplémentaires.",
+			'es-es': "Si tu rival ha usado su Poder V-ASTRO durante esta partida, este ataque hace 100 puntos de daño más.",
+			'it-it': "Se il tuo avversario ha usato il suo Potere V ASTRO durante questa partita, questo attacco infligge 100 danni in più.",
+			'pt-br': "Se o seu oponente usou o Poder V-ASTRO dele(a) durante esta partida, este ataque causará 100 pontos de dano a mais.",
+			'de-de': "Wenn dein Gegner während dieses Spiels seine VSTAR-Power eingesetzt hat, fügt diese Attacke 100 Schadenspunkte mehr zu."
 		},
 
 		damage: "40+"
@@ -57,12 +57,12 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			en: "Electric Ball",
-			fr: "Boule de Foudre",
-			es: "Bola Eléctrica",
-			it: "Lamposfera",
-			pt: "Bola de Eletricidade",
-			de: "Stromball"
+			'en-us': "Electric Ball",
+			'fr-fr': "Boule de Foudre",
+			'es-es': "Bola Eléctrica",
+			'it-it': "Lamposfera",
+			'pt-br': "Bola de Eletricidade",
+			'de-de': "Stromball"
 		},
 
 		damage: 120
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its long tail serves as a ground to protect itself from its own high-voltage power.",
+		'en-us': "Its long tail serves as a ground to protect itself from its own high-voltage power.",
 	},
 
 	variants: [

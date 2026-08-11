@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジュナイパーGX",
+		'ja-jp': "ジュナイパーGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "フェザーアロー" },
 			effect: {
-				ja: "自分の番に1回使える。相手のポケモン1匹に、ダメカンを2個のせる。",
+				'ja-jp': "自分の番に1回使える。相手のポケモン1匹に、ダメカンを2個のせる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			name: { ja: "ホロウハントGX" },
 			cost: ["Grass"],
 			effect: {
-				ja: "自分のトラッシュにある好きなカードを3枚、相手に見せてから、手札に加える。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分のトラッシュにある好きなカードを3枚、相手に見せてから、手札に加える。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "フクスロー",
+		'ja-jp': "フクスロー",
 	},
 
 	retreat: 2,

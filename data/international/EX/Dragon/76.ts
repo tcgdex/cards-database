@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Taillow",
-		fr: "Nirondelle",
-		de: "Schwalbini"
+		'en-us': "Taillow",
+		'fr-fr': "Nirondelle",
+		'de-de': "Schwalbini"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlwind",
-				fr: "Cyclone",
-				de: "Wirbelwind"
+				'en-us': "Whirlwind",
+				'fr-fr': "Cyclone",
+				'de-de': "Wirbelwind"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur contre l'un des Pokémon de son Banc.",
-				de: "Dein gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur contre l'un des Pokémon de son Banc.",
+				'de-de': "Dein gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 
 		},

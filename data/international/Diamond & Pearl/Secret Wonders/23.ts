@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Banette",
-		fr: "Branette",
-		de: "Banette"
+		'en-us': "Banette",
+		'fr-fr': "Branette",
+		'de-de': "Banette"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shuppet",
-		fr: "Polichombr",
+		'en-us': "Shuppet",
+		'fr-fr': "Polichombr",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Ghost Head",
-				fr: "Tête fantôme",
-				de: "Geisterkopf"
+				'en-us': "Ghost Head",
+				'fr-fr': "Tête fantôme",
+				'de-de': "Geisterkopf"
 			},
 			effect: {
-				en: "Put as many damage counters as you like on Banette. (You can't put more than Banette's remaining HP.) Put that many damage counters on the Defending Pokémon.",
-				fr: "Placez sur Branette autant de marqueurs de dégât que vous le voulez. (Vous ne pouvez pas placer plus de marqueurs qu'il ne reste de PV à Branette.) Placez autant de marqueurs de dégât sur le Pokémon Défenseur.",
-				de: "Lege eine beliebige Anzahl Schadensmarken auf Banette. (Du kannst höchstens so viele Schadensmarken auf Banette legen, dass seine verbleibenden KP genau 0 betragen.) Lege die gleiche Anzahl Schadensmarken auf das Verteidigende Pokémon."
+				'en-us': "Put as many damage counters as you like on Banette. (You can't put more than Banette's remaining HP.) Put that many damage counters on the Defending Pokémon.",
+				'fr-fr': "Placez sur Branette autant de marqueurs de dégât que vous le voulez. (Vous ne pouvez pas placer plus de marqueurs qu'il ne reste de PV à Branette.) Placez autant de marqueurs de dégât sur le Pokémon Défenseur.",
+				'de-de': "Lege eine beliebige Anzahl Schadensmarken auf Banette. (Du kannst höchstens so viele Schadensmarken auf Banette legen, dass seine verbleibenden KP genau 0 betragen.) Lege die gleiche Anzahl Schadensmarken auf das Verteidigende Pokémon."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Spiteful Pain",
-				fr: "Douleur malveillante",
-				de: "Tückischer Schmerz"
+				'en-us': "Spiteful Pain",
+				'fr-fr': "Douleur malveillante",
+				'de-de': "Tückischer Schmerz"
 			},
 			effect: {
-				en: "If Banette is in your discard pile, this attack does 40 damage plus 40 more damage. Then, search your discard pile for Banette, show it to your opponent, and shuffle it into your deck.",
-				fr: "Si Branette se trouve dans votre pile de défausse, cette attaque inflige 40 dégât plus 40 dégât supplémentaires. Ensuite, cherchez Branette dans votre pile de défausse , montrez-le à votre adversaire et mélangez-le à votre deck.",
-				de: "Wenn sich mindestens 1 Banette-Karte in deinem Ablagestapel befindet, fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu. danach durchsuche deinen Ablagestapel nach einer Banette-Karte, zeige sie deinem Gegner und mische sie in dein Deck."
+				'en-us': "If Banette is in your discard pile, this attack does 40 damage plus 40 more damage. Then, search your discard pile for Banette, show it to your opponent, and shuffle it into your deck.",
+				'fr-fr': "Si Branette se trouve dans votre pile de défausse, cette attaque inflige 40 dégât plus 40 dégât supplémentaires. Ensuite, cherchez Branette dans votre pile de défausse , montrez-le à votre adversaire et mélangez-le à votre deck.",
+				'de-de': "Wenn sich mindestens 1 Banette-Karte in deinem Ablagestapel befindet, fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu. danach durchsuche deinen Ablagestapel nach einer Banette-Karte, zeige sie deinem Gegner und mische sie in dein Deck."
 			},
 			damage: "40+",
 
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A doll that became a Pokémon over its grudge from being junked. It seeks the child that disowned it.",
+		'en-us': "A doll that became a Pokémon over its grudge from being junked. It seeks the child that disowned it.",
 	},
 
 	thirdParty: {

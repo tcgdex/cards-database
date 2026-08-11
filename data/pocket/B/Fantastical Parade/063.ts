@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [280],
 
 	name: {
-		en: "Ralts"
+		'en-us': "Ralts"
 	},
 
 	illustrator: "mingo",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "It is highly attuned to the emotions of people\nand Pokémon. It hides if it senses hostility."
+		'en-us': "It is highly attuned to the emotions of people\nand Pokémon. It hides if it senses hostility."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Confuse Ray"
+			'en-us': "Confuse Ray"
 		},
 
 		cost: ["Psychic"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused."
+			'en-us': "Your opponent's Active Pokémon is now Confused."
 		}
 	}],
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lucario V",
-		fr: "Lucario V",
-		es: "Lucario V",
-		it: "Lucario V",
-		pt: "Lucario V",
-		de: "Lucario V"
+		'en-us': "Lucario V",
+		'fr-fr': "Lucario V",
+		'es-es': "Lucario V",
+		'it-it': "Lucario V",
+		'pt-br': "Lucario V",
+		'de-de': "Lucario V"
 	},
 
 	rarity: "Holo Rare V",
@@ -34,12 +34,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Aura Sphere",
-			fr: "Aurasphère",
-			de: "Aurasphäre",
-			es: "Esfera Aural",
-			pt: "Aura Esférica",
-			it: "Forzasfera"
+			'en-us': "Aura Sphere",
+			'fr-fr': "Aurasphère",
+			'de-de': "Aurasphäre",
+			'es-es': "Esfera Aural",
+			'pt-br': "Aura Esférica",
+			'it-it': "Forzasfera"
 		},
 
 		damage: 120

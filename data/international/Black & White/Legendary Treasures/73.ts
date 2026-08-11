@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Solosis",
+		'en-us': "Solosis",
 	},
 
 	illustrator: "HiRON",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
+				'en-us': "Rollout",
 			},
 
 			damage: 10,
@@ -47,7 +47,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They drive away attackers by unleashing psychic power. They can use telepathy to talk with others",
+		'en-us': "They drive away attackers by unleashing psychic power. They can use telepathy to talk with others",
 	},
 
 	thirdParty: {

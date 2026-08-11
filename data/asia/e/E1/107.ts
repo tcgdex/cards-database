@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグビー",
+		'ja-jp': "マグビー",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Fire"],
 			name: {
-				ja: "エネルギーキャッチ",
+				'ja-jp': "エネルギーキャッチ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、捨てられた山から基本的なエネルギーカードを手に入れてください。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、捨てられた山から基本的なエネルギーカードを手に入れてください。",
 			},
 		},
 	],

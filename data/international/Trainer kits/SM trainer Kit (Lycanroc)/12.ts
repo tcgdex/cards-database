@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM trainer Kit (Lycanroc)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Yungoos",
-		fr: "Manglouton",
-		es: "Yungoos",
-		it: "Yungoos",
-		pt: "Yungoos",
-		de: "Mangunior"
+		'en-us': "Yungoos",
+		'fr-fr': "Manglouton",
+		'es-es': "Yungoos",
+		'it-it': "Yungoos",
+		'pt-br': "Yungoos",
+		'de-de': "Mangunior"
 	},
 
 	illustrator: "match",
@@ -27,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle"
+				'en-us': "Tackle"
 			},
 			damage: 10
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite"
+				'en-us': "Bite"
 			},
 			damage: 20
 		},

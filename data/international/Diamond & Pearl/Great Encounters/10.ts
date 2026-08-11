@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Tangrowth",
-		fr: "Bouldeneu",
-		de: "Tangoloss"
+		'en-us': "Tangrowth",
+		'fr-fr': "Bouldeneu",
+		'de-de': "Tangoloss"
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tangela",
-		fr: "Saquedeneu",
+		'en-us': "Tangela",
+		'fr-fr': "Saquedeneu",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Power Whip",
-				fr: "Mégafouet",
-				de: "Blattgeißel"
+				'en-us': "Power Whip",
+				'fr-fr': "Mégafouet",
+				'de-de': "Blattgeißel"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage for each basic Energy card attached to Tangrowth to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts pour chaque carte Énergie de base attachée à Bouldeneu. (Vous ne pouvez pas appliquer la Faiblesse ou la Résistance aux Pokémon de Banc).",
-				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte für jede Energie von an Tangoloss angelegten Basis-Energiekarten zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 10 damage for each basic Energy card attached to Tangrowth to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts pour chaque carte Énergie de base attachée à Bouldeneu. (Vous ne pouvez pas appliquer la Faiblesse ou la Résistance aux Pokémon de Banc).",
+				'de-de': "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte für jede Energie von an Tangoloss angelegten Basis-Energiekarten zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stick and Absorb",
-				fr: "Colle et absorbe",
-				de: "Festkleben und Einsaugen"
+				'en-us': "Stick and Absorb",
+				'fr-fr': "Colle et absorbe",
+				'de-de': "Festkleben und Einsaugen"
 			},
 			effect: {
-				en: "Remove 3 damage counters from Tangrowth. The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Retirez à Bouldeneu 3 marqueurs de dégât. Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
-				de: "Entferne 3 Schadensmarken von Tangoloss. Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+				'en-us': "Remove 3 damage counters from Tangrowth. The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Retirez à Bouldeneu 3 marqueurs de dégât. Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				'de-de': "Entferne 3 Schadensmarken von Tangoloss. Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 60,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It ensnares prey by extending arms made of vines. Losing arms to predators does not trouble it.",
+		'en-us': "It ensnares prey by extending arms made of vines. Losing arms to predators does not trouble it.",
 	},
 
 	thirdParty: {

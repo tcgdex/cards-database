@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レジアイス",
+		'ja-jp': "レジアイス",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "氷河の 中で 数千年 眠っていたと 言われている。 マグマでも 体は 溶けない。",
+		'ja-jp': "氷河の 中で 数千年 眠っていたと 言われている。 マグマでも 体は 溶けない。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ひょうざんのたて" },
 			effect: {
-				ja: "自分の場に「レジロック」がいるなら、このポケモンは、相手の2進化ポケモンからワザのダメージや効果を受けない。",
+				'ja-jp': "自分の場に「レジロック」がいるなら、このポケモンは、相手の2進化ポケモンからワザのダメージや効果を受けない。",
 			},
 		},
 	],

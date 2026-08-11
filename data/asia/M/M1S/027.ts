@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コイル"
+		'ja-jp': "コイル"
 	},
 	illustrator: "Krgc",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Lightning"],
 	description: {
-		ja: "左右にあるユニットからだす電磁波で重力をさえぎり空に浮かぶのだ。"
+		'ja-jp': "左右にあるユニットからだす電磁波で重力をさえぎり空に浮かぶのだ。"
 	},
 	stage: "Basic",
 	attacks: [{
 		name: {
-			ja: "ビーム"
+			'ja-jp': "ビーム"
 		},
 		damage: 10,
 		cost: ["Lightning"]

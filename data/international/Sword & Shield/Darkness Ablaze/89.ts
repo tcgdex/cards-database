@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [328],
 
 	name: {
-		en: "Trapinch",
-		fr: "Kraknoix",
-		es: "Trapinch",
-		it: "Trapinch",
-		pt: "Trapinch",
-		de: "Knacklion"
+		'en-us': "Trapinch",
+		'fr-fr': "Kraknoix",
+		'es-es': "Trapinch",
+		'it-it': "Trapinch",
+		'pt-br': "Trapinch",
+		'de-de': "Knacklion"
 	},
 
 	illustrator: "Asako Ito",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Land's Pulse",
-				fr: "Vibration Terrestre",
-				es: "Pulso Telúrico",
-				it: "Pulsazione Tellurica",
-				pt: "Pulso da Terra",
-				de: "Bodenpuls"
+				'en-us': "Land's Pulse",
+				'fr-fr': "Vibration Terrestre",
+				'es-es': "Pulso Telúrico",
+				'it-it': "Pulsazione Tellurica",
+				'pt-br': "Pulso da Terra",
+				'de-de': "Bodenpuls"
 			},
 			effect: {
-				en: "If a Stadium is in play, this attack does 10 more damage.",
-				fr: "Si un Stade est en jeu, cette attaque inflige 10 dégâts supplémentaires.",
-				es: "Si hay un Estadio en juego, este ataque hace 10 puntos de daño más.",
-				it: "Se c'è in gioco una carta Stadio, questo attacco infligge 10 danni in più.",
-				pt: "Se um Estádio estiver em jogo, este ataque causará 10 pontos de dano a mais.",
-				de: "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 10 Schadenspunkte mehr zu."
+				'en-us': "If a Stadium is in play, this attack does 10 more damage.",
+				'fr-fr': "Si un Stade est en jeu, cette attaque inflige 10 dégâts supplémentaires.",
+				'es-es': "Si hay un Estadio en juego, este ataque hace 10 puntos de daño más.",
+				'it-it': "Se c'è in gioco una carta Stadio, questo attacco infligge 10 danni in più.",
+				'pt-br': "Se um Estádio estiver em jogo, este ataque causará 10 pontos de dano a mais.",
+				'de-de': "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 10 Schadenspunkte mehr zu."
 			},
 			damage: "10+",
 
@@ -63,7 +63,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its nest is a sloped, bowl-like pit in the desert. Once something has fallen in, there is no escape."
+		'en-us': "Its nest is a sloped, bowl-like pit in the desert. Once something has fallen in, there is no escape."
 	},
 
 	variants: [

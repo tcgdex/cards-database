@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Aggron",
-		fr: "Galeking",
-		es: "Aggron",
-		it: "Aggron",
-		pt: "Aggron",
-		de: "Stolloss"
+		'en-us': "Aggron",
+		'fr-fr': "Galeking",
+		'es-es': "Aggron",
+		'it-it': "Aggron",
+		'pt-br': "Aggron",
+		'de-de': "Stolloss"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lairon",
-		fr: "Galegon",
+		'en-us': "Lairon",
+		'fr-fr': "Galegon",
 	},
 
 	stage: "Stage2",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Back",
-				fr: "Dégagement",
+				'en-us': "Knock Back",
+				'fr-fr': "Dégagement",
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
 			},
 			damage: 50,
 
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aura of the Land",
-				fr: "Aura de la Terre",
+				'en-us': "Aura of the Land",
+				'fr-fr': "Aura de la Terre",
 			},
 			effect: {
-				en: "Does 20 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 20 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire). (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "Does 20 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 20 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire). (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 80,
 
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It claims an entire mountain as its own. The more wounds it has, the more it has battled, so don't take it lightly.",
+		'en-us': "It claims an entire mountain as its own. The more wounds it has, the more it has battled, so don't take it lightly.",
 	},
 
 	thirdParty: {

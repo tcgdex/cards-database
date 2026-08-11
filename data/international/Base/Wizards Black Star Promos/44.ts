@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Magmar",
+		'en-us': "Magmar",
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Burning Fire",
+				'en-us': "Burning Fire",
 			},
 			effect: {
-				en: "When you use this attack, you may discard any number of Energy cards attached to your Pokémon in play. This attack does 10 damage plus 10 more damage for each Energy card you discarded in this way.",
+				'en-us': "When you use this attack, you may discard any number of Energy cards attached to your Pokémon in play. This attack does 10 damage plus 10 more damage for each Energy card you discarded in this way.",
 			},
 			damage: 10,
 
@@ -42,7 +42,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magma Punch",
+				'en-us': "Magma Punch",
 			},
 
 			damage: 40,
@@ -69,7 +69,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
+		'en-us': "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
 	},
 }
 

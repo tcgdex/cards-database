@@ -1,14 +1,14 @@
-import { Serie } from 'models/serie'
+import { Serie } from 'models/database/serie'
 
 const set: Serie = {
 	id: "sm",
 	name: {
-		en: "Sun & Moon",
-		fr: "Soleil et Lune",
-		es: "Sol y Luna",
-		it: "Sole e Luna",
-		de: "Sonne & Mond",
-		pt: "Sol e Lua"
+		'en-us': "Sun & Moon",
+		'fr-fr': "Soleil et Lune",
+		'es-es': "Sol y Luna",
+		'it-it': "Sole e Luna",
+		'de-de': "Sonne & Mond",
+		'pt-br': "Sol e Lua"
 	},
 
 	energies: [

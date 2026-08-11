@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナツメのヤドラン",
+		'ja-jp': "ナツメのヤドラン",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "昼寝",
+				'ja-jp': "昼寝",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、サブリナのスローブロとサブリナのスローブロから3つのダメージカウンターを削除しました。 SabrinaのSlowbroのダメージカウンターがそれよりも少ない場合、それらすべてを削除します。",
+				'ja-jp': "コインをひっくり返します。頭の場合、サブリナのスローブロとサブリナのスローブロから3つのダメージカウンターを削除しました。 SabrinaのSlowbroのダメージカウンターがそれよりも少ない場合、それらすべてを削除します。",
 			},
 		},
 		{
 			cost: ["Psychic", "Colorless", "Colorless"],
 			name: {
-				ja: "叫ぶヘッドバット",
+				'ja-jp': "叫ぶヘッドバット",
 			},
 			effect: {
-				ja: "次のターン中にこの攻撃を使用することはできません。",
+				'ja-jp': "次のターン中にこの攻撃を使用することはできません。",
 			},
 			damage: 40,
 		},

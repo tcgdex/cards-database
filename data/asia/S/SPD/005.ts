@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SPD"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "代歐奇希斯V",
-		ja: "デオキシスV"
+		'ja-jp': "デオキシスV"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -19,12 +19,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "精神強念",
-			ja: "サイコキネシス"
+			'ja-jp': "サイコキネシス"
 		},
 
 		effect: {
 			'zh-tw': "增加對手的戰鬥寶可夢身上附加的能量的數量×30點傷害。",
-			ja: "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。"
+			'ja-jp': "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。"
 		},
 
 		damage: "30＋",
@@ -32,7 +32,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "力量刀鋒",
-			ja: "パワーエッジ"
+			'ja-jp': "パワーエッジ"
 		},
 
 		damage: 140,

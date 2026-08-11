@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リリーラ",
+		'ja-jp': "リリーラ",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "古代の 暖かい 海に いた。 海草に 化け 獲物を 待ち伏せ 近寄ったところを 丸呑みにする。",
+		'ja-jp': "古代の 暖かい 海に いた。 海草に 化け 獲物を 待ち伏せ 近寄ったところを 丸呑みにする。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "あやしいひかり" },
 			cost: ["Grass"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 		{

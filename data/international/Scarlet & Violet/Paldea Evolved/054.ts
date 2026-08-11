@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Piétacé",
-		en: "Cetoddle",
-		es: "Cetoddle",
-		it: "Cetoddle",
-		pt: "Cetoddle",
-		de: "Flaniwal"
+		'fr-fr': "Piétacé",
+		'en-us': "Cetoddle",
+		'es-es': "Cetoddle",
+		'it-it': "Cetoddle",
+		'pt-br': "Cetoddle",
+		'de-de': "Flaniwal"
 	},
 
 	rarity: "Common",
@@ -24,41 +24,41 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Repos",
-			en: "Rest",
-			es: "Descanso",
-			it: "Riposo",
-			pt: "Descansar",
-			de: "Erholung"
+			'fr-fr': "Repos",
+			'en-us': "Rest",
+			'es-es': "Descanso",
+			'it-it': "Riposo",
+			'pt-br': "Descansar",
+			'de-de': "Erholung"
 		},
 
 		effect: {
-			fr: "Ce Pokémon est maintenant Endormi. Soignez 60 dégâts de ce Pokémon.",
-			en: "This Pokémon is now Asleep. Heal 60 damage from it.",
-			es: "Este Pokémon pasa a estar Dormido. Cúrale 60 puntos de daño.",
-			it: "Questo Pokémon viene addormentato. Curalo da 60 danni.",
-			pt: "Este Pokémon agora está Adormecido. Cure 60 pontos de dano dele.",
-			de: "Dieses Pokémon schläft jetzt. Heile 60 Schadenspunkte bei diesem Pokémon."
+			'fr-fr': "Ce Pokémon est maintenant Endormi. Soignez 60 dégâts de ce Pokémon.",
+			'en-us': "This Pokémon is now Asleep. Heal 60 damage from it.",
+			'es-es': "Este Pokémon pasa a estar Dormido. Cúrale 60 puntos de daño.",
+			'it-it': "Questo Pokémon viene addormentato. Curalo da 60 danni.",
+			'pt-br': "Este Pokémon agora está Adormecido. Cure 60 pontos de dano dele.",
+			'de-de': "Dieses Pokémon schläft jetzt. Heile 60 Schadenspunkte bei diesem Pokémon."
 		}
 	}, {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			fr: "Damoclès",
-			en: "Double-Edge",
-			es: "Doble Filo",
-			it: "Sdoppiatore",
-			pt: "Faca de Dois Gumes",
-			de: "Risikotackle"
+			'fr-fr': "Damoclès",
+			'en-us': "Double-Edge",
+			'es-es': "Doble Filo",
+			'it-it': "Sdoppiatore",
+			'pt-br': "Faca de Dois Gumes",
+			'de-de': "Risikotackle"
 		},
 
 		effect: {
-			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
-			en: "This Pokémon also does 10 damage to itself.",
-			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
+			'fr-fr': "Ce Pokémon s'inflige aussi 10 dégâts.",
+			'en-us': "This Pokémon also does 10 damage to itself.",
+			'es-es': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 10 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
 		},
 
 		damage: 50
@@ -95,7 +95,7 @@ const card: Card = {
 	illustrator: "Saya Tsuruta",
 
 	description: {
-		en: "This species left the ocean and began living on land a very long time ago. It seems to be closely related to Wailmer.",
+		'en-us': "This species left the ocean and began living on land a very long time ago. It seems to be closely related to Wailmer.",
 	},
 }
 

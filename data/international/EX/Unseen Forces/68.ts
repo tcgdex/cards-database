@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Poliwhirl",
-		fr: "Tetarte",
-		de: "Quaputzi"
+		'en-us': "Poliwhirl",
+		'fr-fr': "Tetarte",
+		'de-de': "Quaputzi"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Poliwag",
-		fr: "Ptitard"
+		'en-us': "Poliwag",
+		'fr-fr': "Ptitard"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Ball",
-				fr: "Boule d'énergie",
-				de: "Energy Ball"
+				'en-us': "Energy Ball",
+				'fr-fr': "Boule d'énergie",
+				'de-de': "Energy Ball"
 			},
 			effect: {
-				en: "Does 30 damage plus 10 more damage for each Energy attached to Poliwhirl but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
-				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Tetarte qui n'a pas été utilisée pour payer le Coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
-				de: "Does 30 damage plus 10 more damage for each Energy attached to Poliwhirl but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+				'en-us': "Does 30 damage plus 10 more damage for each Energy attached to Poliwhirl but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+				'fr-fr': "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Tetarte qui n'a pas été utilisée pour payer le Coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
+				'de-de': "Does 30 damage plus 10 more damage for each Energy attached to Poliwhirl but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
 			},
 			damage: "30+",
 

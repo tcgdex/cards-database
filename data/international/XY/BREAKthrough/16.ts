@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Skiddo",
-		fr: "Cabriolaine",
-		es: "Skiddo",
-		it: "Skiddo",
-		pt: "Skiddo",
-		de: "Mähikel"
+		'en-us': "Skiddo",
+		'fr-fr': "Cabriolaine",
+		'es-es': "Skiddo",
+		'it-it': "Skiddo",
+		'pt-br': "Skiddo",
+		'de-de': "Mähikel"
 	},
 
 	illustrator: "Kanako Eo",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'Herbe",
-				es: "Hoja Afilada",
-				it: "Foglielama",
-				pt: "Folha Navalha",
-				de: "Rasierblatt"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'Herbe",
+				'es-es': "Hoja Afilada",
+				'it-it': "Foglielama",
+				'pt-br': "Folha Navalha",
+				'de-de': "Rasierblatt"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rising Lunge",
-				fr: "Botte Secrète",
-				es: "Embestida Ascendente",
-				it: "Elevazione",
-				pt: "Investida Ascendente",
-				de: "Aufwärtsstoß"
+				'en-us': "Rising Lunge",
+				'fr-fr': "Botte Secrète",
+				'es-es': "Embestida Ascendente",
+				'it-it': "Elevazione",
+				'pt-br': "Investida Ascendente",
+				'de-de': "Aufwärtsstoß"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-				pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+				'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 20 de danos adicionais.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "If it has sunshine and water, it doesn't need to eat, because it can generate energy from the leaves on its back.",
+		'en-us': "If it has sunshine and water, it doesn't need to eat, because it can generate energy from the leaves on its back.",
 	},
 
 	thirdParty: {

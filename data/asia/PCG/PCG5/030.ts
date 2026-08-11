@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "clamperl",
+		'ja-jp': "clamperl",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "鉄の防御",
+				'ja-jp': "鉄の防御",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、対戦相手の次のターン中にClamperlに行われたダメージを含む攻撃のすべての影響を防ぎます。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、対戦相手の次のターン中にClamperlに行われたダメージを含む攻撃のすべての影響を防ぎます。",
 			},
 		},
 		{
 			cost: ["Water"],
 			name: {
-				ja: "クランプスプラッシュ",
+				'ja-jp': "クランプスプラッシュ",
 			},
 			damage: 10,
 		},

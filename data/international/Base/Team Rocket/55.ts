@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Eevee",
-		fr: "Évoli",
-		de: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
+		'de-de': "Evoli"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sand-attack",
-				fr: "Jet de sable",
-				de: "Sand-attack"
+				'en-us': "Sand-attack",
+				'fr-fr': "Jet de sable",
+				'de-de': "Sand-attack"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flip a coin. if tails, that attack does nothing."
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'de-de': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flip a coin. if tails, that attack does nothing."
 			},
 			damage: 10,
 
@@ -76,8 +76,8 @@ const card: Card = {
 
 
 	description: {
-		en: "A rare and unique Pokémon about which little is known, as few have been captured.",
-		fr: "On ne sait pas grand chose sur ce Pokémon rare et unique, car très peu ont été capturés."
+		'en-us': "A rare and unique Pokémon about which little is known, as few have been captured.",
+		'fr-fr': "On ne sait pas grand chose sur ce Pokémon rare et unique, car très peu ont été capturés."
 	},
 
 

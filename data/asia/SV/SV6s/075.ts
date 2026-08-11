@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Wattrel"
+		'id-id': "Wattrel"
 	},
 
 	illustrator: "Teeziro",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Wattrel membuat sarangnya pada tebing di pesisir pantai. Sarang Pokémon ini populer dengan tekstur dan rasanya yang renyah nan unik."
+		'id-id': "Wattrel membuat sarangnya pada tebing di pesisir pantai. Sarang Pokémon ini populer dengan tekstur dan rasanya yang renyah nan unik."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Sengatan Listrik"
+			'id-id': "Sengatan Listrik"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
 		},
 
 		damage: 10,

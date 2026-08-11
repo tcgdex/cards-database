@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Swablu",
-		fr: "Tylton",
-		de: "Wablu"
+		'en-us': "Swablu",
+		'fr-fr': "Tylton",
+		'de-de': "Wablu"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Feathery",
-				fr: "Doux comme une plume",
-				de: "Feathery"
+				'en-us': "Feathery",
+				'fr-fr': "Doux comme une plume",
+				'de-de': "Feathery"
 			},
 			effect: {
-				en: "As long as Swablu is on your Bench, prevent all damage done to Swablu by opponent's attacks.",
-				fr: "Tant que Tylton est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques de votre adversaire.",
-				de: "As long as Swablu is on your Bench, prevent all damage done to Swablu by opponent's attacks."
+				'en-us': "As long as Swablu is on your Bench, prevent all damage done to Swablu by opponent's attacks.",
+				'fr-fr': "Tant que Tylton est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques de votre adversaire.",
+				'de-de': "As long as Swablu is on your Bench, prevent all damage done to Swablu by opponent's attacks."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Wind",
-				fr: "Coupe-vent",
-				de: "Razor Wind"
+				'en-us': "Razor Wind",
+				'fr-fr': "Coupe-vent",
+				'de-de': "Razor Wind"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Flip a coin. If tails, this attack does nothing."
 			},
 			damage: 20,
 

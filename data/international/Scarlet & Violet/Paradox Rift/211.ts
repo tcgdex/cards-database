@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Aipom",
-		fr: "Capumain",
-		es: "Aipom",
-		it: "Aipom",
-		pt: "Aipom",
-		de: "Griffel"
+		'en-us': "Aipom",
+		'fr-fr': "Capumain",
+		'es-es': "Aipom",
+		'it-it': "Aipom",
+		'pt-br': "Aipom",
+		'de-de': "Griffel"
 	},
 
 	rarity: "Illustration rare",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Filch",
-			fr: "Maraudage",
-			es: "Birlar",
-			it: "Furtarello",
-			pt: "Furtar",
-			de: "Mopsen"
+			'en-us': "Filch",
+			'fr-fr': "Maraudage",
+			'es-es': "Birlar",
+			'it-it': "Furtarello",
+			'pt-br': "Furtar",
+			'de-de': "Mopsen"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			es: "Roba 1 carta.",
-			it: "Pesca una carta.",
-			pt: "Compre uma carta.",
-			de: "Ziehe 1 Karte."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'es-es': "Roba 1 carta.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre uma carta.",
+			'de-de': "Ziehe 1 Karte."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Smack",
-			fr: "Claque",
-			es: "Palmetazo",
-			it: "Schiaffo",
-			pt: "Estalo",
-			de: "Klatscher"
+			'en-us': "Smack",
+			'fr-fr': "Claque",
+			'es-es': "Palmetazo",
+			'it-it': "Schiaffo",
+			'pt-br': "Estalo",
+			'de-de': "Klatscher"
 		},
 
 		damage: 20
@@ -65,7 +65,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It searches for prey from the tops of trees. When it spots its favorite food, Bounsweet, Aipom gets excited and pounces.",
+		'en-us': "It searches for prey from the tops of trees. When it spots its favorite food, Bounsweet, Aipom gets excited and pounces.",
 	},
 
 	variants: [

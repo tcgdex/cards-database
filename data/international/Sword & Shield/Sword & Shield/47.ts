@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Seaking",
-		fr: "Poissoroy",
-		es: "Seaking",
-		it: "Seaking",
-		pt: "Seaking",
-		de: "Golking"
+		'en-us': "Seaking",
+		'fr-fr': "Poissoroy",
+		'es-es': "Seaking",
+		'it-it': "Seaking",
+		'pt-br': "Seaking",
+		'de-de': "Golking"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Goldeen",
-		fr: "Poissirène",
-		es: "Goldeen",
-		it: "Goldeen",
-		pt: "Goldeen",
-		de: "Goldini"
+		'en-us': "Goldeen",
+		'fr-fr': "Poissirène",
+		'es-es': "Goldeen",
+		'it-it': "Goldeen",
+		'pt-br': "Goldeen",
+		'de-de': "Goldini"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Ripping Horn",
-				fr: "Corne Déchirante",
-				es: "Cuerno Desgarrador",
-				it: "Squarciacorno",
-				pt: "Chifre Lacerante",
-				de: "Reißendes Horn"
+				'en-us': "Ripping Horn",
+				'fr-fr': "Corne Déchirante",
+				'es-es': "Cuerno Desgarrador",
+				'it-it': "Squarciacorno",
+				'pt-br': "Chifre Lacerante",
+				'de-de': "Reißendes Horn"
 			},
 			effect: {
-				en: "Flip 3 coins. For each heads, discard an Energy from your opponent's Active Pokémon.",
-				fr: "Lancez 3 pièces. Pour chaque côté face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
-				es: "Lanza 3 monedas. Por cada cara, descarta 1 Energía del Pokémon Activo de tu rival.",
-				it: "Lancia tre volte una moneta. Ogni volta che esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
-				pt: "Jogue 3 moedas. Para cada cara, descarte 1 Energia do Pokémon Ativo do seu oponente.",
-				de: "Wirf 3 Münzen. Lege pro Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+				'en-us': "Flip 3 coins. For each heads, discard an Energy from your opponent's Active Pokémon.",
+				'fr-fr': "Lancez 3 pièces. Pour chaque côté face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
+				'es-es': "Lanza 3 monedas. Por cada cara, descarta 1 Energía del Pokémon Activo de tu rival.",
+				'it-it': "Lancia tre volte una moneta. Ogni volta che esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
+				'pt-br': "Jogue 3 moedas. Para cada cara, descarte 1 Energia do Pokémon Ativo do seu oponente.",
+				'de-de': "Wirf 3 Münzen. Lege pro Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -66,12 +66,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pierce",
-				fr: "Transpercement",
-				es: "Perforar",
-				it: "Perforare",
-				pt: "Perfurar",
-				de: "Durchbohren"
+				'en-us': "Pierce",
+				'fr-fr': "Transpercement",
+				'es-es': "Perforar",
+				'it-it': "Perforare",
+				'pt-br': "Perfurar",
+				'de-de': "Durchbohren"
 			},
 
 			damage: 50,
@@ -97,7 +97,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Using its horn, it bores holes in riverbed boulders, making nests to prevent its eggs from washing away."
+		'en-us': "Using its horn, it bores holes in riverbed boulders, making nests to prevent its eggs from washing away."
 	},
 
 	thirdParty: {

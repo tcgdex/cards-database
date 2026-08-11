@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Pineco",
-		fr: "Pomdepik",
-		de: "Tannza"
+		'en-us': "Pineco",
+		'fr-fr': "Pomdepik",
+		'de-de': "Tannza"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'de-de': "Walzer"
 			},
 
 			damage: 10,
@@ -49,7 +49,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It hangs and waits for flying insect prey to come near. It does not move about much on its own."
+		'en-us': "It hangs and waits for flying insect prey to come near. It does not move about much on its own."
 	},
 
 	variants: [

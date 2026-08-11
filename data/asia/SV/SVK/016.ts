@@ -1,18 +1,18 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVK"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ダークパッチ"
+		'ja-jp': "ダークパッチ"
 	},
 
 	illustrator: "Ryo Ueda",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のトラッシュから「基本エネルギー」を1枚選び、ベンチのポケモンにつける。"
+		'ja-jp': "自分のトラッシュから「基本エネルギー」を1枚選び、ベンチのポケモンにつける。"
 	},
 
 	trainerType: "Item",

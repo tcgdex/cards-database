@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Cubone",
+		'en-us': "Cubone",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Snivel",
+				'en-us': "Snivel",
 			},
 			effect: {
-				en: "If the Defending Pokémon attacks Cubone during your opponent's next turn, any damage done by the attack is reduced by 20 (after applying Weakness and Resistance). (Benching either Pokémon ends this effect.)",
+				'en-us': "If the Defending Pokémon attacks Cubone during your opponent's next turn, any damage done by the attack is reduced by 20 (after applying Weakness and Resistance). (Benching either Pokémon ends this effect.)",
 			},
 
 		},
@@ -42,10 +42,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Rage",
+				'en-us': "Rage",
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each damage counter on Cubone.",
+				'en-us': "Does 10 damage plus 10 more damage for each damage counter on Cubone.",
 			},
 			damage: 10,
 
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Because it never removes its skull helmet, no one has ever seen this Pokémon's real face.",
+		'en-us': "Because it never removes its skull helmet, no one has ever seen this Pokémon's real face.",
 	},
 
 

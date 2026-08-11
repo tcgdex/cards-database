@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Latias ☆",
-		fr: "Latias ☆",
-		de: "Latias ☆"
+		'en-us': "Latias ☆",
+		'fr-fr': "Latias ☆",
+		'de-de': "Latias ☆"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Miraculous Light",
-				fr: "Lumière soignante",
-				de: "Healing Light"
+				'en-us': "Miraculous Light",
+				'fr-fr': "Lumière soignante",
+				'de-de': "Healing Light"
 			},
 			effect: {
-				en: "Remove 1 damage counter from each of your Pokémon (including Latias ☆).",
-				fr: "Retirez 1 marqueur de dégât à chacun de vos Pokémon (Latias ☆ inclus).",
-				de: "Remove 1 damage counter from each of your Pokémon (including Latias ☆)."
+				'en-us': "Remove 1 damage counter from each of your Pokémon (including Latias ☆).",
+				'fr-fr': "Retirez 1 marqueur de dégât à chacun de vos Pokémon (Latias ☆ inclus).",
+				'de-de': "Remove 1 damage counter from each of your Pokémon (including Latias ☆)."
 			},
 			damage: 10,
 
@@ -50,14 +50,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Shooting Star",
-				fr: "Étoile filante",
-				de: "Shooting Star"
+				'en-us': "Shooting Star",
+				'fr-fr': "Étoile filante",
+				'de-de': "Shooting Star"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Pokémon-ex, discard all Energy cards attached to Latias ☆ and this attack does 50 damage plus 100 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-ex, défaussez toutes les cartes Énergie attachées à Latias ☆. Cette attaque inflige 50 dégâts plus 100 dégâts supplémentaires.",
-				de: "If the Defending Pokémon is Pokémon-ex, dicard all Energy cards attached to Latias ☆ and this attack does 50 damage plus 100 more damage."
+				'en-us': "If the Defending Pokémon is Pokémon-ex, discard all Energy cards attached to Latias ☆ and this attack does 50 damage plus 100 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon-ex, défaussez toutes les cartes Énergie attachées à Latias ☆. Cette attaque inflige 50 dégâts plus 100 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon is Pokémon-ex, dicard all Energy cards attached to Latias ☆ and this attack does 50 damage plus 100 more damage."
 			},
 			damage: "50+",
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Dialga G LV.X",
-		fr: "Dialga ",
-		de: "Dialga G"
+		'en-us': "Dialga G LV.X",
+		'fr-fr': "Dialga ",
+		'de-de': "Dialga G"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -28,14 +28,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Time Crystal",
-				fr: "Crystal temporel",
-				de: "Time Crystal"
+				'en-us': "Time Crystal",
+				'fr-fr': "Crystal temporel",
+				'de-de': "Time Crystal"
 			},
 			effect: {
-				en: "Each Pokémon (both yours and your opponent's) (excluding Pokémon SP) can't use any Poké-Bodies.",
-				fr: "Chaque Pokémon (les vôtres et ceux de votre adversaire) (Pokémon SP exclus) ne peut pas utiliser de Poké-Bodies.",
-				de: "Each Pokémon (both yours and your opponent's) (excluding Pokémon SP) can't use any Poké-Bodies."
+				'en-us': "Each Pokémon (both yours and your opponent's) (excluding Pokémon SP) can't use any Poké-Bodies.",
+				'fr-fr': "Chaque Pokémon (les vôtres et ceux de votre adversaire) (Pokémon SP exclus) ne peut pas utiliser de Poké-Bodies.",
+				'de-de': "Each Pokémon (both yours and your opponent's) (excluding Pokémon SP) can't use any Poké-Bodies."
 			}
 		},
 	],
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Remove Lost",
-				fr: "Retire-perte",
-				de: "Remove Lost"
+				'en-us': "Remove Lost",
+				'fr-fr': "Retire-perte",
+				'de-de': "Remove Lost"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. For each heads, remove an Energy card attached to the Defending Pokémon and put it in the Lost Zone.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, retirez au Pokémon Défenseur une carte Énergie et placez-la dans la Zone Perdue.",
-				de: "Flip a coin until you get tails. For each heads, remove an Energy card attached to the Defending Pokémon and put it in the Lost Zone."
+				'en-us': "Flip a coin until you get tails. For each heads, remove an Energy card attached to the Defending Pokémon and put it in the Lost Zone.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, retirez au Pokémon Défenseur une carte Énergie et placez-la dans la Zone Perdue.",
+				'de-de': "Flip a coin until you get tails. For each heads, remove an Energy card attached to the Defending Pokémon and put it in the Lost Zone."
 			},
 			damage: 80,
 

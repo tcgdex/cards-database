@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Houndstone",
-		fr: "Tomberro",
-		es: "Houndstone",
-		it: "Houndstone",
-		pt: "Houndstone",
-		de: "Friedwuff"
+		'en-us': "Houndstone",
+		'fr-fr': "Tomberro",
+		'es-es': "Houndstone",
+		'it-it': "Houndstone",
+		'pt-br': "Houndstone",
+		'de-de': "Friedwuff"
 	},
 
 	rarity: "Rare",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Greavard",
-		fr: "Toutombe"
+		'en-us': "Greavard",
+		'fr-fr': "Toutombe"
 	},
 
 	stage: "Stage1",
@@ -30,21 +30,21 @@ const card: Card = {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			en: "Last Respects",
-			fr: "Hommage Posthume",
-			es: "Homenaje Póstumo",
-			it: "Omaggio ai KO",
-			pt: "Último Adeus",
-			de: "Letzte Ehre"
+			'en-us': "Last Respects",
+			'fr-fr': "Hommage Posthume",
+			'es-es': "Homenaje Póstumo",
+			'it-it': "Omaggio ai KO",
+			'pt-br': "Último Adeus",
+			'de-de': "Letzte Ehre"
 		},
 
 		effect: {
-			en: "This attack does 10 more damage for each {P} Pokémon in your discard pile.",
-			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Pokémon {P} dans votre pile de défausse.",
-			es: "Este ataque hace 10 puntos de daño más por cada Pokémon {P} en tu pila de descartes.",
-			it: "Questo attacco infligge 10 danni in più per ogni Pokémon {P} nella tua pila degli scarti.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada Pokémon {P} na sua pilha de descarte.",
-			de: "Diese Attacke fügt für jedes {P}-Pokémon in deinem Ablagestapel 10 Schadenspunkte mehr zu."
+			'en-us': "This attack does 10 more damage for each {P} Pokémon in your discard pile.",
+			'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chaque Pokémon {P} dans votre pile de défausse.",
+			'es-es': "Este ataque hace 10 puntos de daño más por cada Pokémon {P} en tu pila de descartes.",
+			'it-it': "Questo attacco infligge 10 danni in più per ogni Pokémon {P} nella tua pila degli scarti.",
+			'pt-br': "Este ataque causa 10 pontos de dano a mais para cada Pokémon {P} na sua pilha de descarte.",
+			'de-de': "Diese Attacke fügt für jedes {P}-Pokémon in deinem Ablagestapel 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+"
@@ -74,7 +74,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "A lovingly mourned Pokémon was reborn as Houndstone. It doesn't like anyone touching the protuberance atop its head.",
+		'en-us': "A lovingly mourned Pokémon was reborn as Houndstone. It doesn't like anyone touching the protuberance atop its head.",
 	},
 
 	thirdParty: {

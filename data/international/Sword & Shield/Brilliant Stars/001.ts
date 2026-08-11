@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Exeggcute",
-		fr: "Noeunoeuf",
-		es: "Exeggcute",
-		it: "Exeggcute",
-		pt: "Exeggcute",
-		de: "Owei"
+		'en-us': "Exeggcute",
+		'fr-fr': "Noeunoeuf",
+		'es-es': "Exeggcute",
+		'it-it': "Exeggcute",
+		'pt-br': "Exeggcute",
+		'de-de': "Owei"
 	},
 
 	illustrator: "0313",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 10
@@ -38,12 +38,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Seed Bomb",
-			fr: "Canon Graine",
-			es: "Bomba Germen",
-			it: "Semebomba",
-			pt: "Bomba de Sementes",
-			de: "Samenbomben"
+			'en-us': "Seed Bomb",
+			'fr-fr': "Canon Graine",
+			'es-es': "Bomba Germen",
+			'it-it': "Semebomba",
+			'pt-br': "Bomba de Sementes",
+			'de-de': "Samenbomben"
 		},
 
 		damage: 20
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Though it may look like it's just a bunch of eggs, it's a proper Pokémon. Exeggcute communicates with others of its kind via telepathy, apparently.",
+		'en-us': "Though it may look like it's just a bunch of eggs, it's a proper Pokémon. Exeggcute communicates with others of its kind via telepathy, apparently.",
 	},
 
 	variants: [

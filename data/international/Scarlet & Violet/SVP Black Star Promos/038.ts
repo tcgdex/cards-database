@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Togekiss",
-		fr: "Togekiss",
-		es: "Togekiss",
-		it: "Togekiss",
-		pt: "Togekiss",
-		de: "Togekiss"
+		'en-us': "Togekiss",
+		'fr-fr': "Togekiss",
+		'es-es': "Togekiss",
+		'it-it': "Togekiss",
+		'pt-br': "Togekiss",
+		'de-de': "Togekiss"
 	},
 
 	rarity: "Promo",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 150,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Togetic",
-		fr: "Togetic",
-		es: "Togetic",
-		it: "Togetic",
-		pt: "Togetic",
-		de: "Togetic"
+		'en-us': "Togetic",
+		'fr-fr': "Togetic",
+		'es-es': "Togetic",
+		'it-it': "Togetic",
+		'pt-br': "Togetic",
+		'de-de': "Togetic"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Precious Gift",
-			fr: "Don Précieux",
-			es: "Regalo Valioso",
-			it: "Dono Prezioso",
-			pt: "Presente Precioso",
-			de: "Kostbares Geschenk"
+			'en-us': "Precious Gift",
+			'fr-fr': "Don Précieux",
+			'es-es': "Regalo Valioso",
+			'it-it': "Dono Prezioso",
+			'pt-br': "Presente Precioso",
+			'de-de': "Kostbares Geschenk"
 		},
 
 		effect: {
-			en: "Once at the end of your turn (after your attack), you may use this Ability. Draw cards until you have 8 cards in your hand.",
-			fr: "Une fois à la fin de votre tour (après votre attaque), vous pouvez utiliser ce talent. Piochez des cartes jusqu'à en avoir 8 en main.",
-			es: "Una vez al final de tu turno (después de tu ataque), puedes usar esta habilidad. Roba cartas hasta que tengas 8 cartas en tu mano.",
-			it: "Una sola volta alla fine del tuo turno, dopo il tuo attacco, puoi usare questa abilità. Pesca fino ad avere otto carte in mano.",
-			pt: "Uma vez no final do seu turno (depois do seu ataque), você poderá usar esta Habilidade. Compre cartas até ter 8 cartas na sua mão.",
-			de: "Einmal am Ende deines Zuges (nachdem du angegriffen hast) kannst du diese Fähigkeit einsetzen. Ziehe so lange Karten, bis du 8 Karten auf deiner Hand hast."
+			'en-us': "Once at the end of your turn (after your attack), you may use this Ability. Draw cards until you have 8 cards in your hand.",
+			'fr-fr': "Une fois à la fin de votre tour (après votre attaque), vous pouvez utiliser ce talent. Piochez des cartes jusqu'à en avoir 8 en main.",
+			'es-es': "Una vez al final de tu turno (después de tu ataque), puedes usar esta habilidad. Roba cartas hasta que tengas 8 cartas en tu mano.",
+			'it-it': "Una sola volta alla fine del tuo turno, dopo il tuo attacco, puoi usare questa abilità. Pesca fino ad avere otto carte in mano.",
+			'pt-br': "Uma vez no final do seu turno (depois do seu ataque), você poderá usar esta Habilidade. Compre cartas até ter 8 cartas na sua mão.",
+			'de-de': "Einmal am Ende deines Zuges (nachdem du angegriffen hast) kannst du diese Fähigkeit einsetzen. Ziehe so lange Karten, bis du 8 Karten auf deiner Hand hast."
 		}
 	}],
 
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Power Cyclone",
-			fr: "Cyclone d'Énergie",
-			es: "Ciclón Poderoso",
-			it: "Ciclone Potente",
-			pt: "Ciclone Poderoso",
-			de: "Kraftwirbel"
+			'en-us': "Power Cyclone",
+			'fr-fr': "Cyclone d'Énergie",
+			'es-es': "Ciclón Poderoso",
+			'it-it': "Ciclone Potente",
+			'pt-br': "Ciclone Poderoso",
+			'de-de': "Kraftwirbel"
 		},
 
 		effect: {
-			en: "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
-			fr: "Déplacez une Énergie de ce Pokémon vers l'un de vos Pokémon de Banc.",
-			es: "Mueve 1 Energía de este Pokémon a uno de tus Pokémon en Banca.",
-			it: "Sposta un'Energia da questo Pokémon a uno di quelli nella tua panchina.",
-			pt: "Mova uma Energia deste Pokémon para 1 dos seus Pokémon no Banco.",
-			de: "Verschiebe 1 Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
+			'en-us': "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
+			'fr-fr': "Déplacez une Énergie de ce Pokémon vers l'un de vos Pokémon de Banc.",
+			'es-es': "Mueve 1 Energía de este Pokémon a uno de tus Pokémon en Banca.",
+			'it-it': "Sposta un'Energia da questo Pokémon a uno di quelli nella tua panchina.",
+			'pt-br': "Mova uma Energia deste Pokémon para 1 dos seus Pokémon no Banco.",
+			'de-de': "Verschiebe 1 Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
 		},
 
 		damage: 110
@@ -84,7 +84,7 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "OKACHEKE",
 	description: {
-		en: "Known as a bringer of blessings, it's been depicted on good-luck charms since ancient times.",
+		'en-us': "Known as a bringer of blessings, it's been depicted on good-luck charms since ancient times.",
 	},
 	variants: [
 		{

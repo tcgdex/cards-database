@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Lotad",
-		fr: "Nénupiot",
-		es: "Lotad",
-		it: "Lotad",
-		pt: "Lotad",
-		de: "Loturzel"
+		'en-us': "Lotad",
+		'fr-fr': "Nénupiot",
+		'es-es': "Lotad",
+		'it-it': "Lotad",
+		'pt-br': "Lotad",
+		'de-de': "Loturzel"
 	},
 
 	rarity: "Common",
@@ -23,32 +23,32 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Call for Family",
-			fr: "Appel à la Famille",
-			es: "Llamar a la Familia",
-			it: "Cerca Famiglia",
-			pt: "Call for Family",
-			de: "Familienruf"
+			'en-us': "Call for Family",
+			'fr-fr': "Appel à la Famille",
+			'es-es': "Llamar a la Familia",
+			'it-it': "Cerca Famiglia",
+			'pt-br': "Call for Family",
+			'de-de': "Familienruf"
 		},
 
 		effect: {
-			en: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu'à 2 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja hasta 2 Pokémon Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo fino a due Pokémon Base e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-			pt: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
-			de: "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
+			'en-us': "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck jusqu'à 2 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja hasta 2 Pokémon Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo fino a due Pokémon Base e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
+			'de-de': "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Rain Splash",
-			fr: "Pluie Éclaboussante",
-			es: "Golpe de Lluvia",
-			it: "Spruzzapioggia",
-			pt: "Rain Splash",
-			de: "Regenplatscher"
+			'en-us': "Rain Splash",
+			'fr-fr': "Pluie Éclaboussante",
+			'es-es': "Golpe de Lluvia",
+			'it-it': "Spruzzapioggia",
+			'pt-br': "Rain Splash",
+			'de-de': "Regenplatscher"
 		},
 
 		damage: 20,
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its leaf grew too large for it to live on land. That is how it began to live floating in the water."
+		'en-us': "Its leaf grew too large for it to live on land. That is how it began to live floating in the water."
 	},
 
 	dexId: [270],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミガルーサex",
+		'ja-jp': "ミガルーサex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: "120+",
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "のぞむなら、自分の手札をすべてトラッシュする。トラッシュした場合、120ダメージ追加。",
+				'ja-jp': "のぞむなら、自分の手札をすべてトラッシュする。トラッシュした場合、120ダメージ追加。",
 			},
 		},
 	],

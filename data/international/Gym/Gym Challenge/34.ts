@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Brock's Graveler"
+		'en-us': "Brock's Graveler"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Geodude"
+		'en-us': "Geodude"
 	},
 
 	stage: "Stage1",
@@ -32,7 +32,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle"
+				'en-us': "Tackle"
 			},
 
 			damage: 20,
@@ -45,10 +45,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Detonate"
+				'en-us': "Detonate"
 			},
 			effect: {
-				en: "Does 10 damage to each Pokémon on each player's bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Brock's Graveler does 50 damage to itself. If there is a Stadium card in play, discard it."
+				'en-us': "Does 10 damage to each Pokémon on each player's bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Brock's Graveler does 50 damage to itself. If there is a Stadium card in play, discard it."
 			},
 			damage: 50,
 

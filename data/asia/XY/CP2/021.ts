@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホワイトキュレム",
+		'ja-jp': "ホワイトキュレム",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Fire", "Fire", "Water", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「フレアブリザード」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「フレアブリザード」が使えない。",
 			},
 		},
 	],

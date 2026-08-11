@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "natu",
+		'ja-jp': "natu",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "先見性",
+				'ja-jp': "先見性",
 			},
 			effect: {
-				ja: "いずれかのプレイヤーのデッキのトップ3カードを見て、好きなように再配置します。",
+				'ja-jp': "いずれかのプレイヤーのデッキのトップ3カードを見て、好きなように再配置します。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "除去ビーム",
+				'ja-jp': "除去ビーム",
 			},
 			effect: {
-				ja: "防衛ポケモンにエネルギーカードが付いている場合は、コインをひっくり返します。頭の場合は、それらのエネルギーカードの1つを選択して廃棄します。",
+				'ja-jp': "防衛ポケモンにエネルギーカードが付いている場合は、コインをひっくり返します。頭の場合は、それらのエネルギーカードの1つを選択して廃棄します。",
 			},
 			damage: 10,
 		},

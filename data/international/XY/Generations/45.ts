@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Golem",
-		fr: "Grolem",
+		'en-us': "Golem",
+		'fr-fr': "Grolem",
 	},
 
 	illustrator: "Hasuno",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Graveler",
-		fr: "Gravalanch",
+		'en-us': "Graveler",
+		'fr-fr': "Gravalanch",
 	},
 
 	stage: "Stage2",
@@ -37,12 +37,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stone Edge",
-				fr: "Lame de Roc",
+				'en-us': "Stone Edge",
+				'fr-fr': "Lame de Roc",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: "60+",
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Explosion",
-				fr: "Explosion",
+				'en-us': "Explosion",
+				'fr-fr': "Explosion",
 			},
 			effect: {
-				en: "This Pokémon does 100 damage to itself.",
-				fr: "Ce Pokémon s'inflige 100 dégâts.",
+				'en-us': "This Pokémon does 100 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 100 dégâts.",
 			},
 			damage: 150,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It tumbles down mountains, leaving grooves from peak to base. Stay clear of these grooves.",
+		'en-us': "It tumbles down mountains, leaving grooves from peak to base. Stay clear of these grooves.",
 	},
 
 	thirdParty: {

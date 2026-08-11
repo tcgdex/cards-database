@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Blissey",
-		fr: "Leuphorie",
+		'en-us': "Blissey",
+		'fr-fr': "Leuphorie",
 	},
 
 	illustrator: "Akira Komayama",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Chansey",
-		fr: "Leveinard",
+		'en-us': "Chansey",
+		'fr-fr': "Leveinard",
 	},
 
 	stage: "Stage1",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Slap",
-				fr: "Torgnoles",
+				'en-us': "Double Slap",
+				'fr-fr': "Torgnoles",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 40 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: "40×",
 
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nurse's Egg",
-				fr: "Œuf Soin",
+				'en-us': "Nurse's Egg",
+				'fr-fr': "Œuf Soin",
 			},
 			effect: {
-				en: "Heal 100 damage from each of your Benched Pokémon. Then, discard 2 Energy attached to this Pokémon.",
-				fr: "Soignez 100 dégâts à chacun de vos Pokémon de Banc. Ensuite, défaussez 2 Énergies attachées à ce Pokémon.",
+				'en-us': "Heal 100 damage from each of your Benched Pokémon. Then, discard 2 Energy attached to this Pokémon.",
+				'fr-fr': "Soignez 100 dégâts à chacun de vos Pokémon de Banc. Ensuite, défaussez 2 Énergies attachées à ce Pokémon.",
 			},
 
 		},
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The eggs it lays are filled with happiness. Eating even one bite will bring a smile to anyone.",
+		'en-us': "The eggs it lays are filled with happiness. Eating even one bite will bring a smile to anyone.",
 	},
 
 	thirdParty: {

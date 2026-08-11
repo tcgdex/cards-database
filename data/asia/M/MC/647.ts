@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デンジャラス光線",
+		'ja-jp': "デンジャラス光線",
 	},
 
 	illustrator: "inose yukie",
 	category: "Trainer",
 
 	effect: {
-		ja: "相手のバトルポケモンをやけどとこんらんにする。",
+		'ja-jp': "相手のバトルポケモンをやけどとこんらんにする。",
 	},
 
 	variants: [

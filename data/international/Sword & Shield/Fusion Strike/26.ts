@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Appletun V",
-		fr: "Dratatin V",
-		es: "Appletun V",
-		it: "Appletun V",
-		pt: "Appletun V",
-		de: "Schlapfel V"
+		'en-us': "Appletun V",
+		'fr-fr': "Dratatin V",
+		'es-es': "Appletun V",
+		'it-it': "Appletun V",
+		'pt-br': "Appletun V",
+		'de-de': "Schlapfel V"
 	},
 
 	rarity: "Holo Rare V",
@@ -34,12 +34,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			de: "Kopfnuss",
-			es: "Golpe Cabeza",
-			pt: "Cabeçada",
-			it: "Bottintesta"
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'de-de': "Kopfnuss",
+			'es-es': "Golpe Cabeza",
+			'pt-br': "Cabeçada",
+			'it-it': "Bottintesta"
 		},
 
 		damage: 30
@@ -47,23 +47,23 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			en: "Sweet Impact",
-			fr: "Impact Douceur",
-			de: "Süßer Einschlag",
-			es: "Dulce Impacto",
-			pt: "Impacto Doce",
-			it: "Impatto Dolce"
+			'en-us': "Sweet Impact",
+			'fr-fr': "Impact Douceur",
+			'de-de': "Süßer Einschlag",
+			'es-es': "Dulce Impacto",
+			'pt-br': "Impacto Doce",
+			'it-it': "Impatto Dolce"
 		},
 
 		damage: 100,
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			it: "Cura questo Pokémon da 30 danni."
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni."
 		}
 	}],
 

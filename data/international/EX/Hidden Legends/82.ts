@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Whismur",
-		fr: "Chuchmur",
-		de: "Flurmel"
+		'en-us': "Whismur",
+		'fr-fr': "Chuchmur",
+		'de-de': "Flurmel"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wail",
-				fr: "Gémissement",
-				de: "Wail"
+				'en-us': "Wail",
+				'fr-fr': "Gémissement",
+				'de-de': "Wail"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
-				de: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
+				'de-de': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
 			},
 			damage: 10,
 

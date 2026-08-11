@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Totodile",
-		fr: "Kaiminus",
-		de: "Karnimani"
+		'en-us': "Totodile",
+		'fr-fr': "Kaiminus",
+		'de-de': "Karnimani"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,9 +29,9 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Biss"
 			},
 
 			damage: 10,
@@ -42,14 +42,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Shining Fang",
-				fr: "Croc brillant",
-				de: "Blitzende Reißzähne"
+				'en-us': "Shining Fang",
+				'fr-fr': "Croc brillant",
+				'de-de': "Blitzende Reißzähne"
 			},
 			effect: {
-				en: "If the Defending Pokémon already has any damage counters on it, this attack does 10 damage plus 10 more damage.",
-				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wenn bereits Schadensmarken auf dem Verteidigenden Pokémon liegen, fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				'en-us': "If the Defending Pokémon already has any damage counters on it, this attack does 10 damage plus 10 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Wenn bereits Schadensmarken auf dem Verteidigenden Pokémon liegen, fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -66,8 +66,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It has the habit of biting anything with its developed jaws. Even its Trainer need to be careful.",
-		fr: "Il broie tout ce qu'il trouve avec ses mâchoires puissantes. Même son dresseur doit s'en méfier."
+		'en-us': "It has the habit of biting anything with its developed jaws. Even its Trainer need to be careful.",
+		'fr-fr': "Il broie tout ce qu'il trouve avec ses mâchoires puissantes. Même son dresseur doit s'en méfier."
 	},
 
 	thirdParty: {

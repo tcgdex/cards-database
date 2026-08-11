@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホロンのマグネトン",
+		'ja-jp': "ホロンのマグネトン",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Metal", "Colorless"],
 			name: {
-				ja: "余分なボール",
+				'ja-jp': "余分なボール",
 			},
 			effect: {
-				ja: "防御ポケモンがポケモンエクスの場合、この攻撃は30ダメージと20ダメージを与えます。",
+				'ja-jp': "防御ポケモンがポケモンエクスの場合、この攻撃は30ダメージと20ダメージを与えます。",
 			},
 		},
 	],

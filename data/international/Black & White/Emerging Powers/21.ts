@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Darmanitan",
-		fr: "Darumacho",
-		es: "Darmanitan",
-		it: "Darmanitan",
-		pt: "Darmanitan",
-		de: "Flampivian"
+		'en-us': "Darmanitan",
+		'fr-fr': "Darumacho",
+		'es-es': "Darmanitan",
+		'it-it': "Darmanitan",
+		'pt-br': "Darmanitan",
+		'de-de': "Flampivian"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Darumaka",
-		fr: "Darumarond",
+		'en-us': "Darumaka",
+		'fr-fr': "Darumarond",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Smash",
-				fr: "Éclate-Roc",
+				'en-us': "Rock Smash",
+				'fr-fr': "Éclate-Roc",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Punch",
-				fr: "Poing de Feu",
+				'en-us': "Fire Punch",
+				'fr-fr': "Poing de Feu",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				'en-us': "The Defending Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé.",
 			},
 			damage: 70,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its internal fire burns at 2,500º F, making enough power that it can destroy a dump truck with one punch.",
+		'en-us': "Its internal fire burns at 2,500º F, making enough power that it can destroy a dump truck with one punch.",
 	},
 
 	thirdParty: {

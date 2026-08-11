@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Grookey",
-		fr: "Ouistempo",
-		es: "Grookey",
-		it: "Grookey",
-		pt: "Grookey",
-		de: "Chimpep"
+		'en-us': "Grookey",
+		'fr-fr': "Ouistempo",
+		'es-es': "Grookey",
+		'it-it': "Grookey",
+		'pt-br': "Grookey",
+		'de-de': "Chimpep"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Smash Kick",
-			fr: "Coud'Pattes",
-			es: "Patada Destrucción",
-			it: "Calcio Esplosivo",
-			pt: "Chute Poderoso",
-			de: "Schmetterkick"
+			'en-us': "Smash Kick",
+			'fr-fr': "Coud'Pattes",
+			'es-es': "Patada Destrucción",
+			'it-it': "Calcio Esplosivo",
+			'pt-br': "Chute Poderoso",
+			'de-de': "Schmetterkick"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			en: "Branch Poke",
-			fr: "Tapotige",
-			es: "Punzada Rama",
-			it: "Ramostoccata",
-			pt: "Cutucada com Galho",
-			de: "Zweigstoß"
+			'en-us': "Branch Poke",
+			'fr-fr': "Tapotige",
+			'es-es': "Punzada Rama",
+			'it-it': "Ramostoccata",
+			'pt-br': "Cutucada com Galho",
+			'de-de': "Zweigstoß"
 		},
 
 		damage: 30
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area.",
+		'en-us': "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area.",
 	},
 
 	variants: [

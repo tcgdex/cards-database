@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Grillepattes",
-		en: "Sizzlipede",
-		es: "Sizzlipede",
-		it: "Sizzlipede",
-		pt: "Sizzlipede",
-		de: "Thermopod"
+		'fr-fr': "Grillepattes",
+		'en-us': "Sizzlipede",
+		'es-es': "Sizzlipede",
+		'it-it': "Sizzlipede",
+		'pt-br': "Sizzlipede",
+		'de-de': "Thermopod"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -22,24 +22,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Morsure",
-			en: "Bite",
-			es: "Mordisco",
-			it: "Morso",
-			pt: "Mordida",
-			de: "Biss"
+			'fr-fr': "Morsure",
+			'en-us': "Bite",
+			'es-es': "Mordisco",
+			'it-it': "Morso",
+			'pt-br': "Mordida",
+			'de-de': "Biss"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Fournaise",
-			en: "Combustion",
-			es: "Combustión",
-			it: "Fuoco Continuo",
-			pt: "Combustão",
-			de: "Glühen"
+			'fr-fr': "Fournaise",
+			'en-us': "Combustion",
+			'es-es': "Combustión",
+			'it-it': "Fuoco Continuo",
+			'pt-br': "Combustão",
+			'de-de': "Glühen"
 		},
 
 		damage: 50,
@@ -56,7 +56,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot."
+		'en-us': "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot."
 	},
 
 	variants: [

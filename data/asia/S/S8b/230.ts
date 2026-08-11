@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガラル フリーザーV",
+		'ja-jp': "ガラル フリーザーV",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "さいこうちく" },
 			effect: {
-				ja: "自分の番に、自分の手札を2枚トラッシュするなら、1回使える。自分の山札を1枚引く。",
+				'ja-jp': "自分の番に、自分の手札を2枚トラッシュするなら、1回使える。自分の山札を1枚引く。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 110,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 	],

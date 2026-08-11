@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Steelix Ex",
+		'ja-jp': "Steelix Ex",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "毒抵抗",
+				'ja-jp': "毒抵抗",
 			},
 			effect: {
-				ja: "Steelix Exは毒されることはできません。",
+				'ja-jp': "Steelix Exは毒されることはできません。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Metal", "Colorless", "Colorless"],
 			name: {
-				ja: "金属電荷",
+				'ja-jp': "金属電荷",
 			},
 			effect: {
-				ja: "Steelix Exに1つのダメージカウンターを置きます。",
+				'ja-jp': "Steelix Exに1つのダメージカウンターを置きます。",
 			},
 			damage: 70,
 		},
 		{
 			cost: ["Fighting", "Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "土砂崩れ",
+				'ja-jp': "土砂崩れ",
 			},
 			effect: {
-				ja: "Steelix Exに取り付けられた2つの戦闘エネルギーを捨て、相手のポケモンを1つ選択します。この攻撃は、そのポケモンに100のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "Steelix Exに取り付けられた2つの戦闘エネルギーを捨て、相手のポケモンを1つ選択します。この攻撃は、そのポケモンに100のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 		},
 	],

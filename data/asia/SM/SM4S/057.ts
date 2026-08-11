@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マッシブーンGX",
+		'ja-jp': "マッシブーンGX",
 	},
 
 	illustrator: "",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Fighting"],
 			effect: {
-				ja: "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Fighting", "Fighting", "Fighting"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 		{
@@ -36,7 +36,7 @@ const card: Card = {
 			damage: "40×",
 			cost: ["Fighting", "Fighting", "Fighting"],
 			effect: {
-				ja: "自分のサイドの枚数x40ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分のサイドの枚数x40ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

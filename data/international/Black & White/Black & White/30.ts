@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Dewott",
-		fr: "Mateloutre",
-		es: "Dewott",
-		it: "Dewott",
-		pt: "Dewott",
-		de: "Zwottronin"
+		'en-us': "Dewott",
+		'fr-fr': "Mateloutre",
+		'es-es': "Dewott",
+		'it-it': "Dewott",
+		'pt-br': "Dewott",
+		'de-de': "Zwottronin"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Oshawott",
-		fr: "Moustillon",
+		'en-us': "Oshawott",
+		'fr-fr': "Moustillon",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Tail",
-				fr: "Hydroqueue",
+				'en-us': "Aqua Tail",
+				'fr-fr': "Hydroqueue",
 			},
 			effect: {
-				en: "Flip a coin for each Water Energy attached to this Pokémon. This attack does 10 more damage for each heads.",
-				fr: "Lancez une pièce pour chaque Énergie Water attachée à ce Pokémon. Cette attaque inflige 10 dégâts supplémentaires pour chaque côté face.",
+				'en-us': "Flip a coin for each Water Energy attached to this Pokémon. This attack does 10 more damage for each heads.",
+				'fr-fr': "Lancez une pièce pour chaque Énergie Water attachée à ce Pokémon. Cette attaque inflige 10 dégâts supplémentaires pour chaque côté face.",
 			},
 			damage: 30,
 
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Scalchop techniques differ from one Dewott to another. It never neglects maintaining its scalchops.",
+		'en-us': "Scalchop techniques differ from one Dewott to another. It never neglects maintaining its scalchops.",
 	},
 
 	thirdParty: {

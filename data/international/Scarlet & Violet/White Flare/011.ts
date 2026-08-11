@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tepig",
-		fr: "Gruikui",
-		de: "Floink",
-		it: "Tepig",
-		pt: "Tepig",
-		es: "Tepig",
+		'en-us': "Tepig",
+		'fr-fr': "Gruikui",
+		'de-de': "Floink",
+		'it-it': "Tepig",
+		'pt-br': "Tepig",
+		'es-es': "Tepig",
 		'es-mx': "Tepig"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			de: "Tackle",
-			it: "Azione",
-			pt: "Investida",
-			es: "Placaje",
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'de-de': "Tackle",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'es-es': "Placaje",
 			'es-mx': "Tacleada"
 		},
 
@@ -40,12 +40,12 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			en: "Rollout",
-			fr: "Roulade",
-			de: "Walzer",
-			it: "Rotolamento",
-			pt: "Rolagem",
-			es: "Rodar",
+			'en-us': "Rollout",
+			'fr-fr': "Roulade",
+			'de-de': "Walzer",
+			'it-it': "Rotolamento",
+			'pt-br': "Rolagem",
+			'es-es': "Rodar",
 			'es-mx': "Rodada"
 		},
 

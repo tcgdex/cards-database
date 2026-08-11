@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ノコッチ",
+		'ja-jp': "ノコッチ",
 	},
 
 	illustrator: "Asako Ito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "暗い場所に 迷路を 作る。 だれかに みられると 尻尾で 地面を 掘って 逃げようとする。",
+		'ja-jp': "暗い場所に 迷路を 作る。 だれかに みられると 尻尾で 地面を 掘って 逃げようとする。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "いれかわる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 		{

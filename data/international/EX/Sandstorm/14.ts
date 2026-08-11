@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Zangoose",
-		fr: "Mangriff",
-		de: "Sengo"
+		'en-us': "Zangoose",
+		'fr-fr': "Mangriff",
+		'de-de': "Sengo"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Poison Resistance",
-				fr: "Résistance au poison",
-				de: "Poison Resistance"
+				'en-us': "Poison Resistance",
+				'fr-fr': "Résistance au poison",
+				'de-de': "Poison Resistance"
 			},
 			effect: {
-				en: "Zangoose can't be Poisoned.",
-				fr: "Mangriff ne peut pas être Empoisonné.",
-				de: "Zangoose can't be Poisoned."
+				'en-us': "Zangoose can't be Poisoned.",
+				'fr-fr': "Mangriff ne peut pas être Empoisonné.",
+				'de-de': "Zangoose can't be Poisoned."
 			}
 		},
 	],
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Target Slash",
-				fr: "Tranche-cible",
-				de: "Target Slash"
+				'en-us': "Target Slash",
+				'fr-fr': "Tranche-cible",
+				'de-de': "Target Slash"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Seviper, this attack does 10 damage plus 30 more damage.",
-				fr: "Si Seviper est le Pokémon Défenseur, cette attaque inflige 40 dégâts.",
-				de: "If the Defending Pokémon is a Seviper, this attack does 10 damage plus 30 more damage."
+				'en-us': "If the Defending Pokémon is Seviper, this attack does 10 damage plus 30 more damage.",
+				'fr-fr': "Si Seviper est le Pokémon Défenseur, cette attaque inflige 40 dégâts.",
+				'de-de': "If the Defending Pokémon is a Seviper, this attack does 10 damage plus 30 more damage."
 			},
 			damage: "10+",
 
@@ -64,14 +64,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Slash",
-				fr: "Super entaille",
-				de: "Super Slash"
+				'en-us': "Super Slash",
+				'fr-fr': "Super entaille",
+				'de-de': "Super Slash"
 			},
 			effect: {
-				en: "If the Defending Pokémon is an Evolved Pokémon, this attack does 30 damage plus 30 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon Évolué, cette attaque inflige 60 dégâts.",
-				de: "If the Defending Pokémon is an Evolved Pokémon, this attack does 30 damage plus 30 more damage."
+				'en-us': "If the Defending Pokémon is an Evolved Pokémon, this attack does 30 damage plus 30 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon Évolué, cette attaque inflige 60 dégâts.",
+				'de-de': "If the Defending Pokémon is an Evolved Pokémon, this attack does 30 damage plus 30 more damage."
 			},
 			damage: "30+",
 

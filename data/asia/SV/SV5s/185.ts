@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Iron Leaves ex"
+		'id-id': "Iron Leaves ex"
 	},
 
 	illustrator: "nagimiso",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Rapid Vernier"
+			'id-id': "Rapid Vernier"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan ke Cadangan. Tukar Pokémon ini dengan Pokémon Bertarung. Jika ditukar, pilih sesukanya Energi yang dikenakan pada Pokémon di Arena sendiri, lalu pindahkan ke Pokémon ini."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan ke Cadangan. Tukar Pokémon ini dengan Pokémon Bertarung. Jika ditukar, pilih sesukanya Energi yang dikenakan pada Pokémon di Arena sendiri, lalu pindahkan ke Pokémon ini."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Prism Edge"
+			'id-id': "Prism Edge"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 180,

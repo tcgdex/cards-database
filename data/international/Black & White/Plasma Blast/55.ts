@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Houndour",
-		fr: "Malosse",
-		es: "Houndour",
-		it: "Houndour",
-		pt: "Houndour",
-		de: "Hunduster"
+		'en-us': "Houndour",
+		'fr-fr': "Malosse",
+		'es-es': "Houndour",
+		'it-it': "Houndour",
+		'pt-br': "Houndour",
+		'de-de': "Hunduster"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Roar",
-				fr: "Hurlement",
+				'en-us': "Roar",
+				'fr-fr': "Hurlement",
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ambush",
-				fr: "Embuscade",
+				'en-us': "Ambush",
+				'fr-fr': "Embuscade",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is smart enough to hunt in packs. It uses a variety of cries for communicating with others.",
+		'en-us': "It is smart enough to hunt in packs. It uses a variety of cries for communicating with others.",
 	},
 
 	thirdParty: {

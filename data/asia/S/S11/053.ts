@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドロンチ",
+		'ja-jp': "ドロンチ",
 		'zh-tw': "多龍奇",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "飛行速度は 時速２００キロ。 ドラメシヤと いっしょに 戦い 無事に 進化するまで 世話をする。",
+		'ja-jp': "飛行速度は 時速２００キロ。 ドラメシヤと いっしょに 戦い 無事に 進化するまで 世話をする。",
 		'zh-tw': "飛行速度為每小時２００公里。與多龍梅西亞一起戰鬥， 到牠進化為止都會細心照顧。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ホロウショット",
+				'ja-jp': "ホロウショット",
 				'zh-tw': "陰森射擊",
 			},
 			damage: 40,
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ドラメシヤ",
+		'ja-jp': "ドラメシヤ",
 	},
 
 	retreat: 1,

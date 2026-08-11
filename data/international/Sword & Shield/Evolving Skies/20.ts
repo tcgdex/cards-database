@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Victini",
-		fr: "Victini",
-		es: "Victini",
-		it: "Victini",
-		pt: "Victini",
-		de: "Victini"
+		'en-us': "Victini",
+		'fr-fr': "Victini",
+		'es-es': "Victini",
+		'it-it': "Victini",
+		'pt-br': "Victini",
+		'de-de': "Victini"
 	},
 
 	rarity: "Holo Rare",
@@ -23,21 +23,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Victory Dive",
-			fr: "Plongée Victorieuse",
-			es: "Salto Victoria",
-			it: "Picchiata Vittoriosa",
-			pt: "Victory Dive",
-			de: "Triumphzug"
+			'en-us': "Victory Dive",
+			'fr-fr': "Plongée Victorieuse",
+			'es-es': "Salto Victoria",
+			'it-it': "Picchiata Vittoriosa",
+			'pt-br': "Victory Dive",
+			'de-de': "Triumphzug"
 		},
 
 		effect: {
-			en: "You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
-			fr: "Vous pouvez chercher dans votre deck jusqu'à 2 cartes, puis les ajouter à votre main. Mélangez ensuite votre deck.",
-			es: "Puedes buscar en tu baraja hasta 2 cartas y ponerlas en tu mano. Después, baraja las cartas de tu baraja.",
-			it: "Puoi cercare nel tuo mazzo fino a due carte e aggiungerle a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			pt: "You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
-			de: "Du kannst dein Deck nach bis zu 2 Karten durchsuchen und sie auf deine Hand nehmen. Mische anschließend dein Deck."
+			'en-us': "You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
+			'fr-fr': "Vous pouvez chercher dans votre deck jusqu'à 2 cartes, puis les ajouter à votre main. Mélangez ensuite votre deck.",
+			'es-es': "Puedes buscar en tu baraja hasta 2 cartas y ponerlas en tu mano. Después, baraja las cartas de tu baraja.",
+			'it-it': "Puoi cercare nel tuo mazzo fino a due carte e aggiungerle a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
+			'de-de': "Du kannst dein Deck nach bis zu 2 Karten durchsuchen und sie auf deine Hand nehmen. Mische anschließend dein Deck."
 		},
 
 		damage: 30,
@@ -52,7 +52,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it shares the infinite energy it creates, that being's entire body will be overflowing with power."
+		'en-us': "When it shares the infinite energy it creates, that being's entire body will be overflowing with power."
 	},
 
 	dexId: [494],

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Luxray ex"
+		'id-id': "Luxray ex"
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -17,22 +17,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Mata Bersinar Menusuk"
+			'id-id': "Mata Bersinar Menusuk"
 		},
 
 		effect: {
-			id: "Lihat Kartu Pegangan lawan, pilih 1 kartu di antaranya, lalu buang ke Trash."
+			'id-id': "Lihat Kartu Pegangan lawan, pilih 1 kartu di antaranya, lalu buang ke Trash."
 		},
 
 		damage: 120,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Bolt Strike"
+			'id-id': "Bolt Strike"
 		},
 
 		effect: {
-			id: "Buang semua Energi yang dikenakan pada Pokémon ini ke Trash."
+			'id-id': "Buang semua Energi yang dikenakan pada Pokémon ini ke Trash."
 		},
 
 		damage: 250,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ネッコアラ",
+		'ja-jp': "ネッコアラ",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "寝たまま 生まれ 寝たまま 死ぬ。 すべての 行動は みている 夢に よる 寝相 らしい。",
+		'ja-jp': "寝たまま 生まれ 寝たまま 死ぬ。 すべての 行動は みている 夢に よる 寝相 らしい。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ぜったいねむり" },
 			effect: {
-				ja: "このポケモンがバトル場にいるかぎり、手札からこのポケモンにエネルギーをつけるたび、このポケモンをねむりにする。",
+				'ja-jp': "このポケモンがバトル場にいるかぎり、手札からこのポケモンにエネルギーをつけるたび、このポケモンをねむりにする。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザは、このポケモンがねむりなら、使える。このポケモンがねむりでないなら、このワザは失敗。",
+				'ja-jp': "このワザは、このポケモンがねむりなら、使える。このポケモンがねむりでないなら、このワザは失敗。",
 			},
 		},
 	],

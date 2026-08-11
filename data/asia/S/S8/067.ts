@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドリュウズ",
+		'ja-jp': "ドリュウズ",
 		'zh-tw': "龍頭地鼠",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "別名 ドリルキング。 地中を 掘り進む 速度は 時速１５０キロに 達する。",
+		'ja-jp': "別名 ドリルキング。 地中を 掘り進む 速度は 時速１５０キロに 達する。",
 		'zh-tw': "別名鑽頭王。在地底下挖掘前進的速度高達每小時１５０公里。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "メタルクロー",
+				'ja-jp': "メタルクロー",
 				'zh-tw': "金屬爪",
 			},
 			damage: 50,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "がんせきふうじ",
+				'ja-jp': "がんせきふうじ",
 				'zh-tw': "岩石封鎖",
 			},
 			damage: 120,
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 				'zh-tw': "在下個對手的回合，受到這個招式的寶可夢無法撤退。",
 			},
 		},
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モグリュー",
+		'ja-jp': "モグリュー",
 	},
 
 	retreat: 2,

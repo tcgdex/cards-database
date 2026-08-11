@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Tepig",
-		fr: "Gruikui",
+		'en-us': "Tepig",
+		'fr-fr': "Gruikui",
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Common",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Singe",
-				fr: "Roussi",
+				'en-us': "Singe",
+				'fr-fr': "Roussi",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
 			},
 
 		},
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Firebreathing",
-				fr: "Souffle-Feu",
+				'en-us': "Firebreathing",
+				'fr-fr': "Souffle-Feu",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 10,
 
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It can deftly dodge its foe's attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
+		'en-us': "It can deftly dodge its foe's attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
 	},
 }
 

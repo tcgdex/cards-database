@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Base'
 
 const basep: Set = {
 	id: "basep",
 
 	name: {
-		en: "Wizards Black Star Promos",
-		fr: "Wizards Black Star Promos",
-		it: "Wizards Black Star Promos",
-		es: "Wizards Black Star Promos",
-		de: "Wizards Black Star Promos",
+		'en-us': "Wizards Black Star Promos",
+		'fr-fr': "Wizards Black Star Promos",
+		'it-it': "Wizards Black Star Promos",
+		'es-es': "Wizards Black Star Promos",
+		'de-de': "Wizards Black Star Promos",
 	},
 
 	serie: serie,

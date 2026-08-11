@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Rockruff",
-		fr: "Rocabot",
-		es: "Rockruff",
-		it: "Rockruff",
-		pt: "Rockruff",
-		de: "Wuffels"
+		'en-us': "Rockruff",
+		'fr-fr': "Rocabot",
+		'es-es': "Rockruff",
+		'it-it': "Rockruff",
+		'pt-br': "Rockruff",
+		'de-de': "Wuffels"
 	},
 
 	illustrator: "match",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Throw",
-				fr: "Jet-Pierres",
-				es: "Lanzarrocas",
-				it: "Sassata",
-				pt: "Lançamento de Rocha",
-				de: "Steinwurf"
+				'en-us': "Rock Throw",
+				'fr-fr': "Jet-Pierres",
+				'es-es': "Lanzarrocas",
+				'it-it': "Sassata",
+				'pt-br': "Lançamento de Rocha",
+				'de-de': "Steinwurf"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It's considered to be a good Pokémon for beginners because of its friendliness, but its disposition grows rougher as it grows up.",
+		'en-us': "It's considered to be a good Pokémon for beginners because of its friendliness, but its disposition grows rougher as it grows up.",
 	},
 }
 

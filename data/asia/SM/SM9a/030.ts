@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カラマネロ",
+		'ja-jp': "カラマネロ",
 	},
 
 	illustrator: "Yusuke Ohmura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "強力な さいみんじゅつを 使う。 それを 利用し 悪事を 働く者は 後を 絶たない。",
+		'ja-jp': "強力な さいみんじゅつを 使う。 それを 利用し 悪事を 働く者は 後を 絶たない。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "さいみんしはい" },
 			cost: ["Darkness"],
 			effect: {
-				ja: "相手の手札を見る。のぞむなら、その中にあるポケモンを、1枚トラッシュする。その場合、そのポケモンが持っているワザ（GXワザをのぞく）を1つ選び、このワザとして使う。",
+				'ja-jp': "相手の手札を見る。のぞむなら、その中にあるポケモンを、1枚トラッシュする。その場合、そのポケモンが持っているワザ（GXワザをのぞく）を1つ選び、このワザとして使う。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手の山札を上から1枚トラッシュする。",
+				'ja-jp': "相手の山札を上から1枚トラッシュする。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マーイーカ",
+		'ja-jp': "マーイーカ",
 	},
 
 	retreat: 1,

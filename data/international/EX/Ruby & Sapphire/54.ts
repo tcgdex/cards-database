@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Koffing",
-		fr: "Smogo",
-		de: "Smogon"
+		'en-us': "Koffing",
+		'fr-fr': "Smogo",
+		'de-de': "Smogon"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-edge",
-				fr: "Damoclès",
-				de: "Austeiler"
+				'en-us': "Double-edge",
+				'fr-fr': "Damoclès",
+				'de-de': "Austeiler"
 			},
 			effect: {
-				en: "Koffing does 10 damage to itself.",
-				fr: "Smogo s'inflige 10 dégâts.",
-				de: "Smogon fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Koffing does 10 damage to itself.",
+				'fr-fr': "Smogo s'inflige 10 dégâts.",
+				'de-de': "Smogon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Snorlax",
+		'en-us': "Snorlax",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Munchlax",
+		'en-us': "Munchlax",
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Thick Skinned",
+				'en-us': "Thick Skinned",
 			},
 			effect: {
-				en: "Snorlax can't become Asleep, Confused, Paralyzed, or Poisoned. This power can't be used if Snorlax is already Asleep, Confused, or Paralyzed.",
+				'en-us': "Snorlax can't become Asleep, Confused, Paralyzed, or Poisoned. This power can't be used if Snorlax is already Asleep, Confused, or Paralyzed.",
 			},
 		},
 	],
@@ -48,10 +48,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam",
+				'en-us': "Body Slam",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 30,
 
@@ -75,7 +75,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",
+		'en-us': "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",
 	},
 
 

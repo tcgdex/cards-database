@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニューラ",
+		'ja-jp': "ニューラ",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "ツメで タマゴに 穴を 開けて 中味を すする。 ブリーダーに 憎まれ 駆除 されることもある。",
+		'ja-jp': "ツメで タマゴに 穴を 開けて 中味を すする。 ブリーダーに 憎まれ 駆除 されることもある。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10×",
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数x10ダメージ。",
+				'ja-jp': "コインを3回投げ、オモテの数x10ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Darkness", "Darkness"],
 			effect: {
-				ja: "自分の場のポケモンの数ぶんコインを投げ、オモテの数x30ダメージ。",
+				'ja-jp': "自分の場のポケモンの数ぶんコインを投げ、オモテの数x30ダメージ。",
 			},
 		},
 	],

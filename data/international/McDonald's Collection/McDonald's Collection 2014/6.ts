@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2014'
 
 const card: Card = {
@@ -7,12 +7,12 @@ const card: Card = {
 	],
 	illustrator: "5ban Graphics",
 	description: {
-		en: "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight."
+		'en-us': "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight."
 	},
 	set: Set,
 	name: {
-		en: "Inkay",
-		fr: "Sepiatop",
+		'en-us': "Inkay",
+		'fr-fr': "Sepiatop",
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -27,8 +27,8 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
 			},
 			damage: "10",
 		},

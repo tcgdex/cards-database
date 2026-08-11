@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガメノデス",
+		'ja-jp': "ガメノデス",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "手足にも 脳が あり 勝手に 動けるが 普段は 頭の ガメノデスの 命令に 従う。",
+		'ja-jp': "手足にも 脳が あり 勝手に 動けるが 普段は 頭の ガメノデスの 命令に 従う。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "自分の手札が7枚なら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "自分の手札が7枚なら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カメテテ",
+		'ja-jp': "カメテテ",
 	},
 
 	retreat: 3,

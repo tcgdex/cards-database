@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レジギガス",
+		'ja-jp': "レジギガス",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "特殊な 氷山や 岩石 マグマから 自分の 姿に 似た ポケモンを つくったと 言われる。",
+		'ja-jp': "特殊な 氷山や 岩石 マグマから 自分の 姿に 似た ポケモンを つくったと 言われる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "いにしえのふういん" },
 			effect: {
-				ja: "自分のベンチに「レジロック」「レジアイス」「レジスチル」がいないなら、このポケモンはワザが使えない。",
+				'ja-jp': "自分のベンチに「レジロック」「レジアイス」「レジスチル」がいないなら、このポケモンはワザが使えない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "場に出ているスタジアムをトラッシュする。",
+				'ja-jp': "場に出ているスタジアムをトラッシュする。",
 			},
 		},
 	],

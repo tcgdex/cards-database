@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ホップのウールー",
+		'ja-jp': "ホップのウールー",
 		'zh-tw': "赫普的毛辮羊",
 		'zh-cn': "赫普的毛辮羊"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "毛が 伸びすぎると 動けない。 ウールーの 体毛で 織られた 布は 驚くほど 丈夫。",
+		'ja-jp': "毛が 伸びすぎると 動けない。 ウールーの 体毛で 織られた 布は 驚くほど 丈夫。",
 		'zh-tw': "要是身上的毛長得太長就會 不能動彈。用毛辮羊的體毛 織成的布結實得讓人吃驚。",
 		'zh-cn': "要是身上的毛長得太長就會 不能動彈。用毛辮羊的體毛 織成的布結實得讓人吃驚。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "けとばす",
+			'ja-jp': "けとばす",
 			'zh-tw': "踢飛",
 			'zh-cn': "踢飛"
 		},

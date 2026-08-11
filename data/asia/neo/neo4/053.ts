@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "v",
+		'ja-jp': "v",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "消える[vanish]",
+				'ja-jp': "消える[vanish]",
 			},
 			effect: {
-				ja: "手から[v]をプレイすると、コインをひっくり返すことができます。頭の場合は、その名前（[v]以外の）が手にないポクモンの1を返します。 <em>（そのカードに添付されたすべてのカードを破棄します。）</em>",
+				'ja-jp': "手から[v]をプレイすると、コインをひっくり返すことができます。頭の場合は、その名前（[v]以外の）が手にないポクモンの1を返します。 <em>（そのカードに添付されたすべてのカードを破棄します。）</em>",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "隠された力",
+				'ja-jp': "隠された力",
 			},
 			damage: 10,
 		},

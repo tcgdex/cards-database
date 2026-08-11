@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キューボン",
+		'ja-jp': "キューボン",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ビート",
+				'ja-jp': "ビート",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "怒り",
+				'ja-jp': "怒り",
 			},
 			effect: {
-				ja: "キューボンの各ダメージカウンターで10ダメージに加えて10ダメージを与えます。",
+				'ja-jp': "キューボンの各ダメージカウンターで10ダメージに加えて10ダメージを与えます。",
 			},
 		},
 	],

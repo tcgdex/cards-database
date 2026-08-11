@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リザード",
+		'ja-jp': "リザード",
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "尻尾を 振り回して 相手を なぎ倒し 鋭い ツメで ズタズタに ひきさいてしまう。",
+		'ja-jp': "尻尾を 振り回して 相手を なぎ倒し 鋭い ツメで ズタズタに ひきさいてしまう。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Fire", "Fire"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒトカゲ",
+		'ja-jp': "ヒトカゲ",
 	},
 
 	retreat: 2,

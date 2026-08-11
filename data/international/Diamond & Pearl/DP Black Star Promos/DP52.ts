@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../DP Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Darkrai",
-		de: "Darkrai"
+		'en-us': "Darkrai",
+		'de-de': "Darkrai"
 	},
 	illustrator: "Wataru Kawahara",
 	rarity: "Common",
@@ -25,12 +25,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Darkness Aura",
-				de: "Darkness Aura"
+				'en-us': "Darkness Aura",
+				'de-de': "Darkness Aura"
 			},
 			effect: {
-				en: "If you have Cresselia in play, each of Darkrai's attacks does 20 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
-				de: "If you have Cresselia in play, each of Darkrai's attacks does 20 more damage to the Defending Pokémon (before applying Weakness and Resistance)."
+				'en-us': "If you have Cresselia in play, each of Darkrai's attacks does 20 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+				'de-de': "If you have Cresselia in play, each of Darkrai's attacks does 20 more damage to the Defending Pokémon (before applying Weakness and Resistance)."
 			},
 		},
 	],
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnoblast",
-				de: "Hypnoblast"
+				'en-us': "Hypnoblast",
+				'de-de': "Hypnoblast"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Asleep."
 			},
 			damage: 60,
 
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "To protect itself, it afflicts those around it with nightmares. However, it means no harm.",
+		'en-us': "To protect itself, it afflicts those around it with nightmares. However, it means no harm.",
 	},
 
 	variants: [

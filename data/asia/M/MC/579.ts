@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スバメ",
+		'ja-jp': "スバメ",
 	},
 
 	illustrator: "Ayako Ozaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "寒い 季節は 苦手。暖かい 土地を 探し １日 ３００キロの 距離を 飛んで 移動する。",
+		'ja-jp': "寒い 季節は 苦手。暖かい 土地を 探し １日 ３００キロの 距離を 飛んで 移動する。",
 	},
 
 	stage: "Basic",

@@ -1,11 +1,11 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../XYb'
 
 const set: Set = {
 	id: 'CP6',
 	name: {
-		ja: 'ポケットモンスターカードゲーム 拡張パック 20th Anniversary',
-		ko: 'BASE PACK 20th Anniversary'
+		'ja-jp': 'ポケットモンスターカードゲーム 拡張パック 20th Anniversary',
+		'ko-kr': 'BASE PACK 20th Anniversary'
 	},
 
 	serie: serie,

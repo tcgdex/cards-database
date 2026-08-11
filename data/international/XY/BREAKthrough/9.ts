@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Chespin",
-		fr: "Marisson",
-		es: "Chespin",
-		it: "Chespin",
-		pt: "Chespin",
-		de: "Igamaro"
+		'en-us': "Chespin",
+		'fr-fr': "Marisson",
+		'es-es': "Chespin",
+		'it-it': "Chespin",
+		'pt-br': "Chespin",
+		'de-de': "Igamaro"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Tree Climb",
-				fr: "Escal'Arbre",
-				es: "Trepar Árboles",
-				it: "Rampicalbero",
-				pt: "Escalada em Árvore",
-				de: "Baumkletterer"
+				'en-us': "Tree Climb",
+				'fr-fr': "Escal'Arbre",
+				'es-es': "Trepar Árboles",
+				'it-it': "Rampicalbero",
+				'pt-br': "Escalada em Árvore",
+				'de-de': "Baumkletterer"
 			},
 			effect: {
-				en: "Search your deck for a Grass Energy card, reveal it, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez une carte Énergie Grass dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja 1 carta de Energía Grass, enséñala y ponla en tu mano. Baraja las cartas de tu baraja después.",
-				it: "Cerca nel tuo mazzo una carta Energia Grass, mostrala e aggiungila alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure em seu baralho um card de Energia Grass, revele-o e coloque-o em sua mão. Em seguida, embaralhe seus cards.",
-				de: "Durchsuche dein Deck nach 1 Grass-Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				'en-us': "Search your deck for a Grass Energy card, reveal it, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez une carte Énergie Grass dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja 1 carta de Energía Grass, enséñala y ponla en tu mano. Baraja las cartas de tu baraja después.",
+				'it-it': "Cerca nel tuo mazzo una carta Energia Grass, mostrala e aggiungila alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure em seu baralho um card de Energia Grass, revele-o e coloque-o em sua mão. Em seguida, embaralhe seus cards.",
+				'de-de': "Durchsuche dein Deck nach 1 Grass-Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Seed Bomb",
-				fr: "Canon Graine",
-				es: "Bomba Germen",
-				it: "Semebomba",
-				pt: "Bomba de Sementes",
-				de: "Samenbomben"
+				'en-us': "Seed Bomb",
+				'fr-fr': "Canon Graine",
+				'es-es': "Bomba Germen",
+				'it-it': "Semebomba",
+				'pt-br': "Bomba de Sementes",
+				'de-de': "Samenbomben"
 			},
 
 			damage: 30,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
+		'en-us': "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
 	},
 
 	thirdParty: {

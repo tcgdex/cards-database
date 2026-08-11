@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Mew-EX",
+		'en-us': "Mew-EX",
 	},
 	illustrator: "MAHOU",
 	rarity: "Ultra Rare",
@@ -24,10 +24,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Versatile",
+				'en-us': "Versatile",
 			},
 			effect: {
-				en: "This Pokémon can use the attacks of any Pokémon in play (both yours and your opponent's). (You still need the necessary Energy to use each attack.)",
+				'en-us': "This Pokémon can use the attacks of any Pokémon in play (both yours and your opponent's). (You still need the necessary Energy to use each attack.)",
 			},
 		},
 	],
@@ -37,10 +37,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Replace",
+				'en-us': "Replace",
 			},
 			effect: {
-				en: "Move as many Energy attached to your Pokémon to your other Pokémon in any way you like.",
+				'en-us': "Move as many Energy attached to your Pokémon to your other Pokémon in any way you like.",
 			},
 
 		},

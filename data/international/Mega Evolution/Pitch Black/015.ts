@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pitch Black"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wailmer",
-		fr: "Wailmer",
-		es: "Wailmer",
+		'en-us': "Wailmer",
+		'fr-fr': "Wailmer",
+		'es-es': "Wailmer",
 		'es-mx': "Wailmer",
-		de: "Wailmer",
-		it: "Wailmer",
-		pt: "Wailmer"
+		'de-de': "Wailmer",
+		'it-it': "Wailmer",
+		'pt-br': "Wailmer"
 	},
 
 	illustrator: "Asako Ito",
@@ -24,13 +24,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Water Gun",
-			fr: "Pistolet à O",
-			es: "Pistola Agua",
+			'en-us': "Water Gun",
+			'fr-fr': "Pistolet à O",
+			'es-es': "Pistola Agua",
 			'es-mx': "Chorro de Agua",
-			de: "Aquaknarre",
-			it: "Pistolacqua",
-			pt: "Revólver d'Água"
+			'de-de': "Aquaknarre",
+			'it-it': "Pistolacqua",
+			'pt-br': "Revólver d'Água"
 		},
 
 		cost: ["Water", "Water"],
@@ -38,13 +38,13 @@ const card: Card = {
 		damage: 40
 	}, {
 		name: {
-			en: "Wave Splash",
-			fr: "Grosse Vague",
-			es: "Chapoteo Ondulante",
+			'en-us': "Wave Splash",
+			'fr-fr': "Grosse Vague",
+			'es-es': "Chapoteo Ondulante",
 			'es-mx': "Acuasalpicadura",
-			de: "Wellenplatscher",
-			it: "Schizzi d'Onda",
-			pt: "Onda Borrifante"
+			'de-de': "Wellenplatscher",
+			'it-it': "Schizzi d'Onda",
+			'pt-br': "Onda Borrifante"
 		},
 
 		cost: ["Water", "Water", "Water"],

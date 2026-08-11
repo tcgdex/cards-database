@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トロピウス",
+		'ja-jp': "トロピウス",
 	},
 
 	illustrator: "Atsuya Uki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "いつも 同じ 果物ばかり 食べていたら のど元に とても 美味しい 果物が 生えてきた。",
+		'ja-jp': "いつも 同じ 果物ばかり 食べていたら のど元に とても 美味しい 果物が 生えてきた。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "かじつのみのり" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の手札を1枚トラッシュする。その後、自分の山札を3枚引く。",
+				'ja-jp': "自分の手札を1枚トラッシュする。その後、自分の山札を3枚引く。",
 			},
 		},
 		{

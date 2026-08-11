@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "オンバット"
+		'ja-jp': "オンバット"
 	},
 
 	illustrator: "sowsow",
@@ -16,7 +16,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "大きな 耳から 超音波を 出して エサの 果物を 探す。 カジッチュを エサと 間違える。"
+		'ja-jp': "大きな 耳から 超音波を 出して エサの 果物を 探す。 カジッチュを エサと 間違える。"
 	},
 
 	stage: "Basic",
@@ -25,13 +25,13 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "クイックドロー"
+			'ja-jp': "クイックドロー"
 		},
 
 		damage: 10,
 
 		effect: {
-			ja: "自分の山札を1枚引く。"
+			'ja-jp': "自分の山札を1枚引く。"
 		}
 	}],
 

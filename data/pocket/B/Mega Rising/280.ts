@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mega Absol ex"
+		'en-us': "Mega Absol ex"
 	},
 
 	illustrator: "kawayoo",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "As the energy of Mega Evolution fills it, its fur\nbristles. What you see on its back are not true\nwings, and this Pokémon isn't able to fly."
+		'en-us': "As the energy of Mega Evolution fills it, its fur\nbristles. What you see on its back are not true\nwings, and this Pokémon isn't able to fly."
 	},
 
 	stage: "Basic",
@@ -25,14 +25,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Darkness Claw"
+			'en-us': "Darkness Claw"
 		},
 
 		damage: 80,
 		cost: ["Darkness", "Darkness"],
 
 		effect: {
-			en: "Your opponent reveals their hand. Choose a Supporter card you find there and discard it."
+			'en-us': "Your opponent reveals their hand. Choose a Supporter card you find there and discard it."
 		}
 	}],
 

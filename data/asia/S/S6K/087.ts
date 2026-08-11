@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メタグロスVMAX",
+		'ja-jp': "メタグロスVMAX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "でんじきゅうちゃく" },
 			cost: ["Metal"],
 			effect: {
-				ja: "自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Metal", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンの「ダイラッシュ」のダメージは「+150」される。",
+				'ja-jp': "次の自分の番、このポケモンの「ダイラッシュ」のダメージは「+150」される。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "メタグロスV",
+		'ja-jp': "メタグロスV",
 	},
 
 	retreat: 3,

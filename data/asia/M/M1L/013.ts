@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガバクーダex",
+		'ja-jp': "メガバクーダex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "",
+		'ja-jp': "",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "holo"}],
 
 	evolveFrom: {
-		ja: "ドンメル",
+		'ja-jp': "ドンメル",
 	},
 
 	retreat: 4,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Rapidash",
+		'ja-jp': "Rapidash",
 	},
 
 	rarity: "Rare",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "オーバーラン",
+				'ja-jp': "オーバーラン",
 			},
 			effect: {
-				ja: "相手がベンチ付きポケモンを持っている場合は、コインをひっくり返します。ヘッドの場合、それらのうちの1つを選択すると、この攻撃はそれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "相手がベンチ付きポケモンを持っている場合は、コインをひっくり返します。ヘッドの場合、それらのうちの1つを選択すると、この攻撃はそれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Fire", "Fire", "Colorless"],
 			name: {
-				ja: "炎の尾",
+				'ja-jp': "炎の尾",
 			},
 			damage: 40,
 		},

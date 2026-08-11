@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コライドン",
+		'ja-jp': "コライドン",
 		'zh-tw': "月光丘陵",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "拳で 大地を 引き裂いたと 古い 探検記に 記された ツバサノオウの 正体らしい。",
+		'ja-jp': "拳で 大地を 引き裂いたと 古い 探検記に 記された ツバサノオウの 正体らしい。",
 	},
 
 	stage: "Basic",
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 190,
 			cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを3個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを3個選び、トラッシュする。",
 			},
 		},
 	],

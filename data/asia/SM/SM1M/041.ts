@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グランブル",
+		'ja-jp': "グランブル",
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "ブルー 以上に 臆病。 見た目との ギャップが うけて 若い 女性に 大人気。",
+		'ja-jp': "ブルー 以上に 臆病。 見た目との ギャップが うけて 若い 女性に 大人気。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Fairy"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Fairy", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにダメカンがのっているなら、80ダメージ追加。",
+				'ja-jp': "このポケモンにダメカンがのっているなら、80ダメージ追加。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ブルー",
+		'ja-jp': "ブルー",
 	},
 
 	retreat: 2,

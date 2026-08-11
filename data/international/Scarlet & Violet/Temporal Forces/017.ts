@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sawsbuck",
-		fr: "Haydaim",
-		es: "Sawsbuck",
-		it: "Sawsbuck",
-		pt: "Sawsbuck",
-		de: "Kronjuwild"
+		'en-us': "Sawsbuck",
+		'fr-fr': "Haydaim",
+		'es-es': "Sawsbuck",
+		'it-it': "Sawsbuck",
+		'pt-br': "Sawsbuck",
+		'de-de': "Kronjuwild"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Deerling",
-		fr: "Vivaldaim",
-		es: "Deerling",
-		it: "Deerling",
-		pt: "Deerling",
-		de: "Sesokitz"
+		'en-us': "Deerling",
+		'fr-fr': "Vivaldaim",
+		'es-es': "Deerling",
+		'it-it': "Deerling",
+		'pt-br': "Deerling",
+		'de-de': "Sesokitz"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Changing Seasons",
-			fr: "Changement de Saison",
-			es: "Cambio de Estaciones",
-			it: "Alternastagioni",
-			pt: "Mudança de Estações",
-			de: "Wechsel der Jahreszeiten"
+			'en-us': "Changing Seasons",
+			'fr-fr': "Changement de Saison",
+			'es-es': "Cambio de Estaciones",
+			'it-it': "Alternastagioni",
+			'pt-br': "Mudança de Estações",
+			'de-de': "Wechsel der Jahreszeiten"
 		},
 
 		effect: {
-			en: "Once during your turn, you may search your deck for a Stadium card, reveal it, and put it into your hand. Then, shuffle your deck.",
-			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck une carte Stade, la montrer, puis l'ajouter à votre main. Mélangez ensuite votre deck.",
-			es: "Una vez durante tu turno, puedes buscar en tu baraja 1 carta de Estadio, enseñarla y ponerla en tu mano. Después, baraja las cartas de tu baraja.",
-			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta Stadio, mostrarla e aggiungerla alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			pt: "Uma vez durante o seu turno, você poderá procurar por uma carta de Estádio no seu baralho, revelá-la e colocá-la na sua mão. Em seguida, embaralhe o seu baralho.",
-			de: "Einmal während deines Zuges kannst du dein Deck nach 1 Stadionkarte durchsuchen, sie deinem Gegner zeigen und auf deine Hand nehmen. Mische anschließend dein Deck."
+			'en-us': "Once during your turn, you may search your deck for a Stadium card, reveal it, and put it into your hand. Then, shuffle your deck.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez chercher dans votre deck une carte Stade, la montrer, puis l'ajouter à votre main. Mélangez ensuite votre deck.",
+			'es-es': "Una vez durante tu turno, puedes buscar en tu baraja 1 carta de Estadio, enseñarla y ponerla en tu mano. Después, baraja las cartas de tu baraja.",
+			'it-it': "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta Stadio, mostrarla e aggiungerla alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Uma vez durante o seu turno, você poderá procurar por uma carta de Estádio no seu baralho, revelá-la e colocá-la na sua mão. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Einmal während deines Zuges kannst du dein Deck nach 1 Stadionkarte durchsuchen, sie deinem Gegner zeigen und auf deine Hand nehmen. Mische anschließend dein Deck."
 		}
 	}],
 
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Superpowered Horns",
-			fr: "Cornes Surpuissantes",
-			es: "Cuernos Superpoderosos",
-			it: "Corna Superpotenziate",
-			pt: "Chifres Superpoderosos",
-			de: "Superstarke Hörner"
+			'en-us': "Superpowered Horns",
+			'fr-fr': "Cornes Surpuissantes",
+			'es-es': "Cuernos Superpoderosos",
+			'it-it': "Corna Superpotenziate",
+			'pt-br': "Chifres Superpoderosos",
+			'de-de': "Superstarke Hörner"
 		},
 
 		damage: 110
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Sawsbuck in their Autumn Form are known for having very short tempers. The males fight each other incessantly.",
+		'en-us': "Sawsbuck in their Autumn Form are known for having very short tempers. The males fight each other incessantly.",
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2018'
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Growlithe"
+		'en-us': "Growlithe"
 	},
 
 	rarity: "None",
@@ -20,10 +20,10 @@ const card: Card = {
 				"Fire", "Colorless", "Colorless",
 			],
 			name: {
-				en: "Take Down",
+				'en-us': "Take Down",
 			},
 			effect: {
-				en: "This Pokémon does 20 damage to itself"
+				'en-us': "This Pokémon does 20 damage to itself"
 			},
 			damage: 60,
 		},

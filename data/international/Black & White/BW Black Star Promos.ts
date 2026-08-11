@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Black & White'
 
 const bwp: Set = {
 	id: "bwp",
 
 	name: {
-		en: "BW Black Star Promos",
-		fr: "Promo BW",
-		es: "NB Promo",
-		it: "NB Promo",
-		de: "SW Promokarten"
+		'en-us': "BW Black Star Promos",
+		'fr-fr': "Promo BW",
+		'es-es': "NB Promo",
+		'it-it': "NB Promo",
+		'de-de': "SW Promokarten"
 	},
 
 	serie: serie,
@@ -23,7 +23,7 @@ const bwp: Set = {
 
 	abbreviations: {
 		official: "BWP",
-		fr: "PBW"
+		'fr-fr': "PBW"
 	},
 
 	thirdParty: {

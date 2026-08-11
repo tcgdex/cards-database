@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キングドラ",
+		'ja-jp': "キングドラ",
 	},
 
 	illustrator: "Taira Akitsu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "どんな 生き物も 降りられない 深い 海の底で 眠りながら 力を 蓄えている という。",
+		'ja-jp': "どんな 生き物も 降りられない 深い 海の底で 眠りながら 力を 蓄えている という。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かいていのぬし" },
 			effect: {
-				ja: "自分のバトルポケモンが、相手のポケモンからワザのダメージを受けてきぜつするたび、1回使える。きぜつしたポケモンについている[水]エネルギーを好きなだけ選び、このポケモンにつけ替える。",
+				'ja-jp': "自分のバトルポケモンが、相手のポケモンからワザのダメージを受けてきぜつするたび、1回使える。きぜつしたポケモンについている[水]エネルギーを好きなだけ選び、このポケモンにつけ替える。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "40×",
 			cost: ["Water"],
 			effect: {
-				ja: "このポケモンについている[水]エネルギーの数×40ダメージ。",
+				'ja-jp': "このポケモンについている[水]エネルギーの数×40ダメージ。",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シードラ",
+		'ja-jp': "シードラ",
 	},
 
 	retreat: 1,

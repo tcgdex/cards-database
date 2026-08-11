@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "シュバルゴ",
+		'ja-jp': "シュバルゴ",
 		'zh-tw': "騎士蝸牛",
 		'zh-cn': "騎士蝸牛"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "槍を 構え 敵へ 突撃。 ネギガナイトとの 決闘を 描いた 絵画が 有名。",
+		'ja-jp': "槍を 構え 敵へ 突撃。 ネギガナイトとの 決闘を 描いた 絵画が 有名。",
 		'zh-tw': "會舉起長矛突擊敵人。 有一幅名畫描繪著 牠和蔥遊兵決鬥的場景。",
 		'zh-cn': "會舉起長矛突擊敵人。 有一幅名畫描繪著 牠和蔥遊兵決鬥的場景。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "つきさす",
+			'ja-jp': "つきさす",
 			'zh-tw': "突刺",
 			'zh-cn': "突刺"
 		},
@@ -39,7 +39,7 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			ja: "アイアンバスター",
+			'ja-jp': "アイアンバスター",
 			'zh-tw': "鐵之光炮",
 			'zh-cn': "鐵之光炮"
 		},
@@ -47,7 +47,7 @@ const card: Card = {
 		damage: 120,
 
 		effect: {
-			ja: "次の自分の番、このポケモンはワザが使えない。",
+			'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
 			'zh-cn': "在下個自己的回合，這隻寶可夢無法使用招式。"
 		}

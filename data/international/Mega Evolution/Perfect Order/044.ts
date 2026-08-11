@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
@@ -7,23 +7,23 @@ const card: Card = {
 	dexId: [696],
 
 	name: {
-		en: "Tyrunt",
-		fr: "Ptyranidur",
-		es: "Tyrunt",
+		'en-us': "Tyrunt",
+		'fr-fr': "Ptyranidur",
+		'es-es': "Tyrunt",
 		'es-mx': "Tyrunt",
-		de: "Balgoras",
-		it: "Tyrunt",
-		pt: "Tyrunt"
+		'de-de': "Balgoras",
+		'it-it': "Tyrunt",
+		'pt-br': "Tyrunt"
 	},
 
 	evolveFrom: {
-		en: "Antique Jaw Fossil",
-		fr: "Fossile Mâchoire Ancien",
-		es: "Fósil Mandíbula Antiguo",
+		'en-us': "Antique Jaw Fossil",
+		'fr-fr': "Fossile Mâchoire Ancien",
+		'es-es': "Fósil Mandíbula Antiguo",
 		'es-mx': "Fósil Mandíbula Antiguo",
-		de: "Antikes Kieferfossil",
-		it: "Vecchio Fossilmascella",
-		pt: "Fóssil de Mandíbula Arcaico",
+		'de-de': "Antikes Kieferfossil",
+		'it-it': "Vecchio Fossilmascella",
+		'pt-br': "Fóssil de Mandíbula Arcaico",
 	},
 
 	illustrator: "Tomomi Kaneko",
@@ -37,23 +37,23 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Get Angry",
-			fr: "Coléreux",
-			es: "Enfadarse",
+			'en-us': "Get Angry",
+			'fr-fr': "Coléreux",
+			'es-es': "Enfadarse",
 			'es-mx': "Enojarse",
-			de: "Rotsehen",
-			it: "Tutte le Furie",
-			pt: "Dar Piti"
+			'de-de': "Rotsehen",
+			'it-it': "Tutte le Furie",
+			'pt-br': "Dar Piti"
 		},
 
 		effect: {
-			en: "This attack does 20 damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
-			es: "Este ataque hace 20 puntos de daño por cada contador de daño en este Pokémon.",
+			'en-us': "This attack does 20 damage for each damage counter on this Pokémon.",
+			'fr-fr': "Cette attaque inflige 20 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
+			'es-es': "Este ataque hace 20 puntos de daño por cada contador de daño en este Pokémon.",
 			'es-mx': "Este ataque hace 20 puntos de daño por cada contador de daño en este Pokémon.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 20 Schadenspunkte zu.",
-			it: "Questo attacco infligge 20 danni per ogni segnalino danno presente su questo Pokémon.",
-			pt: "Este ataque causa 20 pontos de dano para cada contador de dano neste Pokémon."
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 20 Schadenspunkte zu.",
+			'it-it': "Questo attacco infligge 20 danni per ogni segnalino danno presente su questo Pokémon.",
+			'pt-br': "Este ataque causa 20 pontos de dano para cada contador de dano neste Pokémon."
 		},
 
 		damage: "20×"

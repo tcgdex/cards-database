@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Southern Islands'
 
 const card: Card = {
 	name: {
-		en: "Pidgeot",
+		'en-us': "Pidgeot",
 	},
 
 	illustrator: "Keiko Fukuyama",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pidgeotto",
+		'en-us': "Pidgeotto",
 	},
 
 	stage: "Stage2",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Supersonic Flight",
+				'en-us': "Supersonic Flight",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
 			},
 			damage: 40,
 
@@ -50,7 +50,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slicing Wind",
+				'en-us': "Slicing Wind",
 			},
 
 			damage: 50,
@@ -73,7 +73,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "This Pokémon searches for food while flying at Mach 2. Its large claws make fearsome weapons.",
+		'en-us': "This Pokémon searches for food while flying at Mach 2. Its large claws make fearsome weapons.",
 	},
 
 	variants: [

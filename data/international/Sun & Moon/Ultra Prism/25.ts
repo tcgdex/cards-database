@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Salandit",
-		fr: "Tritox",
-		es: "Salandit",
-		it: "Salandit",
-		pt: "Salandit",
-		de: "Molunk"
+		'en-us': "Salandit",
+		'fr-fr': "Tritox",
+		'es-es': "Salandit",
+		'it-it': "Salandit",
+		'pt-br': "Salandit",
+		'de-de': "Molunk"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Live Coal",
-				fr: "Charbon Mutant",
-				es: "Carbón Activado",
-				it: "Carboni Ardenti",
-				pt: "Carvão Vivo",
-				de: "Glühende Kohlen"
+				'en-us': "Live Coal",
+				'fr-fr': "Charbon Mutant",
+				'es-es': "Carbón Activado",
+				'it-it': "Carboni Ardenti",
+				'pt-br': "Carvão Vivo",
+				'de-de': "Glühende Kohlen"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Combustion",
-				fr: "Fournaise",
-				es: "Combustión",
-				it: "Fuoco Continuo",
-				pt: "Combustão",
-				de: "Glühen"
+				'en-us': "Combustion",
+				'fr-fr': "Fournaise",
+				'es-es': "Combustión",
+				'it-it': "Fuoco Continuo",
+				'pt-br': "Combustão",
+				'de-de': "Glühen"
 			},
 
 			damage: 30,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Volcanoes or dry, craggy places are its home. It emanates a sweet-smelling poisonous gas that attracts bug Pokémon, then attacks them.",
+		'en-us': "Volcanoes or dry, craggy places are its home. It emanates a sweet-smelling poisonous gas that attracts bug Pokémon, then attacks them.",
 	},
 
 	thirdParty: {

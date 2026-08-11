@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヌズリーフ",
+		'ja-jp': "ヌズリーフ",
 	},
 
 	rarity: "Uncommon",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ポンド",
+				'ja-jp': "ポンド",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Darkness", "Colorless"],
 			name: {
-				ja: "略奪",
+				'ja-jp': "略奪",
 			},
 			effect: {
-				ja: "ダメージを与える前に、防御ポケモンに取り付けられたすべてのトレーナーカードを捨ててください。",
+				'ja-jp': "ダメージを与える前に、防御ポケモンに取り付けられたすべてのトレーナーカードを捨ててください。",
 			},
 			damage: 30,
 		},

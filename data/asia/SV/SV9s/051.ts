@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ยาจิลอน <ของไดโกะ>",
-		id: "Baltoy <Steven>"
+		'th-th': "ยาจิลอน <ของไดโกะ>",
+		'id-id': "Baltoy <Steven>"
 	},
 
 	illustrator: "Tonji Matsuno",
@@ -15,28 +15,28 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		th: "ถูกค้นพบในซากโบราณสถาน เคลื่อนตัวไปพร้อม ๆ กับหมุนตัว แม้ เวลานอนตอนกลางคืนก็ยืนด้วยขาข้างเดียว",
-		id: "Ditemukan di reruntuhan peninggalan kuno. Baltoy bergerak sambil berputar. Pada malam hari saat tidur pun, Pokémon ini berdiri dengan satu kaki."
+		'th-th': "ถูกค้นพบในซากโบราณสถาน เคลื่อนตัวไปพร้อม ๆ กับหมุนตัว แม้ เวลานอนตอนกลางคืนก็ยืนด้วยขาข้างเดียว",
+		'id-id': "Ditemukan di reruntuhan peninggalan kuno. Baltoy bergerak sambil berputar. Pada malam hari saat tidur pun, Pokémon ini berdiri dengan satu kaki."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "สัญญาณเรียกรวมตัว",
-			id: "Sinyal Pemanggilan"
+			'th-th': "สัญญาณเรียกรวมตัว",
+			'id-id': "Sinyal Pemanggilan"
 		},
 
 		effect: {
-			th: "เลือกการ์ด [โปเกมอนของไดโกะ] ที่เป็นโปเกมอน[พื้นฐาน]ได้สูงสุด 2 ใบ จากสำรับการ์ดฝ่ายเรา วางบนเบนช์ แล้วสับสำรับการ์ด",
-			id: "Pilih paling banyak 2 lembar Pokémon Steven yang merupakan Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
+			'th-th': "เลือกการ์ด [โปเกมอนของไดโกะ] ที่เป็นโปเกมอน[พื้นฐาน]ได้สูงสุด 2 ใบ จากสำรับการ์ดฝ่ายเรา วางบนเบนช์ แล้วสับสำรับการ์ด",
+			'id-id': "Pilih paling banyak 2 lembar Pokémon Steven yang merupakan Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "บอลโทรจิต",
-			id: "Bola Psikis"
+			'th-th': "บอลโทรจิต",
+			'id-id': "Bola Psikis"
 		},
 
 		damage: 20,

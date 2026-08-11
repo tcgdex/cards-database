@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フクスロー",
+		'ja-jp': "フクスロー",
 		'zh-tw': "投羽梟",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "刃羽根 と 呼ばれる ナイフのような 羽根を 立て続けに 投げて 敵の 急所を 確実に つらぬく。",
+		'ja-jp': "刃羽根 と 呼ばれる ナイフのような 羽根を 立て続けに 投げて 敵の 急所を 確実に つらぬく。",
 		'zh-tw': "連續投出被稱為是 刃羽的刀般銳利羽毛， 能精準地貫穿敵人要害。",
 	},
 
@@ -23,19 +23,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "だんけつのつばさ",
+				'ja-jp': "だんけつのつばさ",
 				'zh-tw': "團結之翼",
 			},
 			damage: "20×",
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュにある、ワザ「だんけつのつばさ」を持つポケモンの枚数×20ダメージ。",
+				'ja-jp': "自分のトラッシュにある、ワザ「だんけつのつばさ」を持つポケモンの枚数×20ダメージ。",
 				'zh-tw': "造成自己的棄牌區的，持有「團結之翼」招式的寶可夢卡的張數×20點傷害。",
 			},
 		},
 		{
 			name: {
-				ja: "カッターウインド",
+				'ja-jp': "カッターウインド",
 				'zh-tw': "利刃之風",
 			},
 			damage: 30,
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モクロー",
+		'ja-jp': "モクロー",
 	},
 
 	retreat: 1,

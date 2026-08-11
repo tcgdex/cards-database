@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Nintendo Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Grovyle",
-		fr: "Massko"
+		'en-us': "Grovyle",
+		'fr-fr': "Massko"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Grass",
 	],
 	evolveFrom: {
-		en: "Treecko",
-		fr: "Arcko"
+		'en-us': "Treecko",
+		'fr-fr': "Arcko"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Breath",
-				fr: "Haleine empoisonnée"
+				'en-us': "Poison Breath",
+				'fr-fr': "Haleine empoisonnée"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné."
 			},
 
 		},
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swift",
-				fr: "Météores"
+				'en-us': "Swift",
+				'fr-fr': "Météores"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Body ou tout autre effet sur le Pokémon Défenseur."
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts infligés par cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Body ou tout autre effet sur le Pokémon Défenseur."
 			},
 			damage: 30,
 

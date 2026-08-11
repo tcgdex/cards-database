@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Alph Lithograph",
-		fr: "Lithographie d’Alpha",
-		de: "Alph Lithograph"
+		'en-us': "Alph Lithograph",
+		'fr-fr': "Lithographie d’Alpha",
+		'de-de': "Alph Lithograph"
 	},
 
 	illustrator: "Milky Isobe",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "REGARDEZ TOUTES VOS CARTES RECOMPENSE QUI SONT FACE CACHEE!",
-		en: "LOOK AT ALL OF YOUR FACE DOWN PRIZE CARDS!",
-		de: "Schau dir deine verdeckten Preiskarten an!"
+		'fr-fr': "REGARDEZ TOUTES VOS CARTES RECOMPENSE QUI SONT FACE CACHEE!",
+		'en-us': "LOOK AT ALL OF YOUR FACE DOWN PRIZE CARDS!",
+		'de-de': "Schau dir deine verdeckten Preiskarten an!"
 	},
 
 	trainerType: "Item",

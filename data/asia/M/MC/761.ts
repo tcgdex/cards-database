@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガメガニウムex",
+		'ja-jp': "メガメガニウムex",
 	},
 
 	illustrator: "Tika Matsuno",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "70+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[G]エネルギーの数×50ダメージ追加。",
+				'ja-jp': "このポケモンについている[G]エネルギーの数×50ダメージ追加。",
 			},
 		},
 	],
@@ -38,7 +38,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ベイリーフ",
+		'ja-jp': "ベイリーフ",
 	},
 
 	retreat: 2,

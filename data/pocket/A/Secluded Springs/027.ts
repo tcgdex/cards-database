@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eelektrik",
-		fr: "Lampéroie"
+		'en-us': "Eelektrik",
+		'fr-fr': "Lampéroie"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Tynamo"
+		'en-us': "Tynamo"
 	},
 
 	description: {
-		en: "They coil around foes and shock them with\nelectricity-generating organs that seem simply\nto be circular patterns.",
-		fr: "Ses taches rondes sont des organes qui émettent de l'électricité. Il s'enroule autour de ses proies et les électrocute."
+		'en-us': "They coil around foes and shock them with\nelectricity-generating organs that seem simply\nto be circular patterns.",
+		'fr-fr': "Ses taches rondes sont des organes qui émettent de l'électricité. Il s'enroule autour de ses proies et les électrocute."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Electro Ball",
-			fr: "Boule Élek"
+			'en-us': "Electro Ball",
+			'fr-fr': "Boule Élek"
 		},
 
 		damage: 50,

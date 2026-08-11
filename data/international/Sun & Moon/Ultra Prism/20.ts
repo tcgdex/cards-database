@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Chimchar",
-		fr: "Ouisticram",
-		es: "Chimchar",
-		it: "Chimchar",
-		pt: "Chimchar",
-		de: "Panflam"
+		'en-us': "Chimchar",
+		'fr-fr': "Ouisticram",
+		'es-es': "Chimchar",
+		'it-it': "Chimchar",
+		'pt-br': "Chimchar",
+		'de-de': "Panflam"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flare",
-				fr: "Flamboiement",
-				es: "Llama",
-				it: "Fiammata",
-				pt: "Chama",
-				de: "Flackern"
+				'en-us': "Flare",
+				'fr-fr': "Flamboiement",
+				'es-es': "Llama",
+				'it-it': "Fiammata",
+				'pt-br': "Chama",
+				'de-de': "Flackern"
 			},
 
 			damage: 20,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick.",
+		'en-us': "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick.",
 	},
 
 	thirdParty: {

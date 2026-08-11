@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Venipede",
-		fr: "Venipatte",
-		es: "Venipede",
-		it: "Venipede",
-		pt: "Venipede",
-		de: "Toxiped"
+		'en-us': "Venipede",
+		'fr-fr': "Venipatte",
+		'es-es': "Venipede",
+		'it-it': "Venipede",
+		'pt-br': "Venipede",
+		'de-de': "Toxiped"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
+				'en-us': "Ram",
+				'fr-fr': "Collision",
 			},
 
 			damage: 10,
@@ -48,8 +48,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
 			},
 
 			damage: 30,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it.",
+		'en-us': "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it.",
 	},
 
 	thirdParty: {

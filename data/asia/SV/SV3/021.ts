@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "キバニア",
+		'ja-jp': "キバニア",
 		'zh-tw': "利牙魚",
-		th: "คิบาเนีย"
+		'th-th': "คิบาเนีย"
 	},
 
 	illustrator: "Jerky",
@@ -18,9 +18,9 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "鋭い キバと たくましい 顎を もつ。 船乗りたちは キバニアの すみかには けっして 近づかない。",
+		'ja-jp': "鋭い キバと たくましい 顎を もつ。 船乗りたちは キバニアの すみかには けっして 近づかない。",
 		'zh-tw': "擁有銳利的牙齒和結實的下巴。船員們絕對不會去靠近利牙魚棲息的地方。",
-		th: "มีเขี้ยวที่คมและกรามอันทรงพลังอยู่ ลูกเรือจะไม่เข้าใกล้รังของคิบาเนียเป็นอันขาด"
+		'th-th': "มีเขี้ยวที่คมและกรามอันทรงพลังอยู่ ลูกเรือจะไม่เข้าใกล้รังของคิบาเนียเป็นอันขาด"
 	},
 
 	stage: "Basic",
@@ -29,9 +29,9 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "するどいキバ",
+			'ja-jp': "するどいキバ",
 			'zh-tw': "銳利之牙",
-			th: "เขี้ยวคม"
+			'th-th': "เขี้ยวคม"
 		},
 
 		damage: 20

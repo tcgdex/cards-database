@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Mimikyu",
-		fr: "Mimiqui",
-		es: "Mimikyu",
-		it: "Mimikyu",
-		pt: "Mimikyu",
-		de: "Mimigma"
+		'en-us': "Mimikyu",
+		'fr-fr': "Mimiqui",
+		'es-es': "Mimikyu",
+		'it-it': "Mimikyu",
+		'pt-br': "Mimikyu",
+		'de-de': "Mimigma"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Filch",
-				fr: "Maraudage",
-				es: "Birlar",
-				it: "Furtarello",
-				pt: "Furtar",
-				de: "Mopsen"
+				'en-us': "Filch",
+				'fr-fr': "Maraudage",
+				'es-es': "Birlar",
+				'it-it': "Furtarello",
+				'pt-br': "Furtar",
+				'de-de': "Mopsen"
 			},
 			effect: {
-				en: "Draw 2 cards.",
-				fr: "Piochez 2 cartes.",
-				es: "Roba 2 cartas.",
-				it: "Pesca due carte.",
-				pt: "Compre 2 cartas.",
-				de: "Ziehe 2 Karten."
+				'en-us': "Draw 2 cards.",
+				'fr-fr': "Piochez 2 cartes.",
+				'es-es': "Roba 2 cartas.",
+				'it-it': "Pesca due carte.",
+				'pt-br': "Compre 2 cartas.",
+				'de-de': "Ziehe 2 Karten."
 			},
 
 		},
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Copycat",
-				fr: "Photocopie",
-				es: "Copión",
-				it: "Copione",
-				pt: "Imitador",
-				de: "Imitator"
+				'en-us': "Copycat",
+				'fr-fr': "Photocopie",
+				'es-es': "Copión",
+				'it-it': "Copione",
+				'pt-br': "Imitador",
+				'de-de': "Imitator"
 			},
 			effect: {
-				en: "If your opponent’s Pokémon used an attack that isn’t a GX attack during their last turn, use it as this attack.",
-				fr: "Si le Pokémon de votre adversaire a utilisé une attaque autre qu’une attaque GX pendant son dernier tour, utilisez-la en tant que cette attaque.",
-				es: "Si alguno de los Pokémon de tu rival usó un ataque que no es un ataque GX durante su último turno, úsalo para este ataque.",
-				it: "Se uno dei Pokémon del tuo avversario ha usato un attacco che non è un attacco GX durante il suo ultimo turno, usalo al posto di questo attacco.",
-				pt: "Se o Pokémon do seu oponente usou um ataque que não era um ataque GX durante a última vez dele(a) jogar, use-o como este ataque.",
-				de: "Wenn das Pokémon deines Gegners während seines letzten Zuges eine Attacke eingesetzt hat, die keine GX-Attacke ist, setze sie als diese Attacke ein."
+				'en-us': "If your opponent’s Pokémon used an attack that isn’t a GX attack during their last turn, use it as this attack.",
+				'fr-fr': "Si le Pokémon de votre adversaire a utilisé une attaque autre qu’une attaque GX pendant son dernier tour, utilisez-la en tant que cette attaque.",
+				'es-es': "Si alguno de los Pokémon de tu rival usó un ataque que no es un ataque GX durante su último turno, úsalo para este ataque.",
+				'it-it': "Se uno dei Pokémon del tuo avversario ha usato un attacco che non è un attacco GX durante il suo ultimo turno, usalo al posto di questo attacco.",
+				'pt-br': "Se o Pokémon do seu oponente usou um ataque que não era um ataque GX durante a última vez dele(a) jogar, use-o como este ataque.",
+				'de-de': "Wenn das Pokémon deines Gegners während seines letzten Zuges eine Attacke eingesetzt hat, die keine GX-Attacke ist, setze sie als diese Attacke ein."
 			},
 
 		},
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its actual appearance is unknown. A scholar who saw what was under its rag was overwhelmed by horror and died of the shock.",
+		'en-us': "Its actual appearance is unknown. A scholar who saw what was under its rag was overwhelmed by horror and died of the shock.",
 	},
 }
 

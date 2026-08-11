@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マフォクシー",
+		'ja-jp': "マフォクシー",
 	},
 
 	illustrator: "Gemi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "摂氏３０００度の 炎の 渦を 超能力で 操る。 敵を 渦で 包み 焼きつくす。",
+		'ja-jp': "摂氏３０００度の 炎の 渦を 超能力で 操る。 敵を 渦で 包み 焼きつくす。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "フレアマジック" },
 			effect: {
-				ja: "自分の番に、自分の手札から「基本[R]エネルギー」を1枚トラッシュするなら、1回使える。自分の手札が7枚になるように、山札を引く。",
+				'ja-jp': "自分の番に、自分の手札から「基本[R]エネルギー」を1枚トラッシュするなら、1回使える。自分の手札が7枚になるように、山札を引く。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Fire", "Fire"],
 			effect: {
-				ja: "おたがいのポケモン全員についているエネルギーの数×30ダメージ。",
+				'ja-jp': "おたがいのポケモン全員についているエネルギーの数×30ダメージ。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "テールナー",
+		'ja-jp': "テールナー",
 	},
 
 	retreat: 2,

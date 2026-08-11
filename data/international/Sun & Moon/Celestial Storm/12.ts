@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Seedot",
-		fr: "Grainipiot",
-		es: "Seedot",
-		it: "Seedot",
-		pt: "Seedot",
-		de: "Samurzel"
+		'en-us': "Seedot",
+		'fr-fr': "Grainipiot",
+		'es-es': "Seedot",
+		'it-it': "Seedot",
+		'pt-br': "Seedot",
+		'de-de': "Samurzel"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stampede",
-				fr: "Ruée",
-				es: "Estampida",
-				it: "Fuggi Fuggi",
-				pt: "Estouro",
-				de: "Zertrampeln"
+				'en-us': "Stampede",
+				'fr-fr': "Ruée",
+				'es-es': "Estampida",
+				'it-it': "Fuggi Fuggi",
+				'pt-br': "Estouro",
+				'de-de': "Zertrampeln"
 			},
 
 			damage: 30,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When it dangles from a tree branch, it looks just like an acorn. It enjoys scaring other Pokémon.",
+		'en-us': "When it dangles from a tree branch, it looks just like an acorn. It enjoys scaring other Pokémon.",
 	},
 
 	thirdParty: {

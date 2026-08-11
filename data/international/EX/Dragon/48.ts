@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Whiscash",
-		fr: "Barbicha",
-		de: "Welsar"
+		'en-us': "Whiscash",
+		'fr-fr': "Barbicha",
+		'de-de': "Welsar"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Barboach",
-		fr: "Barloche"
+		'en-us': "Barboach",
+		'fr-fr': "Barloche"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Submerge",
-				fr: "Submerger",
-				de: "Submerge"
+				'en-us': "Submerge",
+				'fr-fr': "Submerger",
+				'de-de': "Submerge"
 			},
 			effect: {
-				en: "As long as Whiscash is on your Bench, prevent all damage done to Whiscash by your opponent's attacks.",
-				fr: "Tant que Barbicha est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques de votre adversaire.",
-				de: "As long as Whiscash is on your Bench, prevent all damage done to Whiscash by opponent's attacks."
+				'en-us': "As long as Whiscash is on your Bench, prevent all damage done to Whiscash by your opponent's attacks.",
+				'fr-fr': "Tant que Barbicha est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques de votre adversaire.",
+				'de-de': "As long as Whiscash is on your Bench, prevent all damage done to Whiscash by opponent's attacks."
 			},
 		},
 	],
@@ -51,9 +51,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
-				de: "Surf"
+				'en-us': "Surf",
+				'fr-fr': "Surf",
+				'de-de': "Surf"
 			},
 
 			damage: 30,
@@ -67,14 +67,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnitude",
-				fr: "Ampleur",
-				de: "Magnitude"
+				'en-us': "Magnitude",
+				'fr-fr': "Ampleur",
+				'de-de': "Magnitude"
 			},
 			effect: {
-				en: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon du Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
-				de: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun des Pokémon du Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
+				'de-de': "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 60,
 

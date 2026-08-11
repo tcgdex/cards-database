@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Moltres",
-		de: "Lavados"
+		'en-us': "Moltres",
+		'de-de': "Lavados"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -26,12 +26,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Fire Immunity",
-				de: "Feuer-Immunität"
+				'en-us': "Fire Immunity",
+				'de-de': "Feuer-Immunität"
 			},
 			effect: {
-				en: "You can't attach Fire Energy cards from your hand to Moltres.",
-				de: "Du kannst keine -Energiekarten aus deiner Hand an Lavados anlegen."
+				'en-us': "You can't attach Fire Energy cards from your hand to Moltres.",
+				'de-de': "Du kannst keine -Energiekarten aus deiner Hand an Lavados anlegen."
 			},
 		},
 	],
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect Fire",
-				de: "Feuersammeln"
+				'en-us': "Collect Fire",
+				'de-de': "Feuersammeln"
 			},
 			effect: {
-				en: "If there are any Fire Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Moltres.",
-				de: "Wenn mindestens eine -Energiekarte in deinem Ablagestapel ist, wirf eine Münze. Lege bei \"Kopf\" eine davon an Lavados an."
+				'en-us': "If there are any Fire Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Moltres.",
+				'de-de': "Wenn mindestens eine -Energiekarte in deinem Ablagestapel ist, wirf eine Münze. Lege bei \"Kopf\" eine davon an Lavados an."
 			},
 			damage: 10,
 
@@ -60,12 +60,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Burning Tail",
-				de: "Brennender Schweif"
+				'en-us': "Burning Tail",
+				'de-de': "Brennender Schweif"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Fire Energy card attached to Moltres.",
-				de: "Wirf eine Münze. Lege bei \"Zahl\" eine an Lavados angelegte -Energiekarte auf deinen Ablagestapel."
+				'en-us': "Flip a coin. If tails, discard a Fire Energy card attached to Moltres.",
+				'de-de': "Wirf eine Münze. Lege bei \"Zahl\" eine an Lavados angelegte -Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 60,
 

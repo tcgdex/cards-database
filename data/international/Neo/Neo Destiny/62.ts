@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Dark Octillery",
-		fr: "Octillery obscur",
-		de: "Dunkles Octillery"
+		'en-us': "Dark Octillery",
+		'fr-fr': "Octillery obscur",
+		'de-de': "Dunkles Octillery"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Remoraid",
-		fr: "Rémoraid"
+		'en-us': "Remoraid",
+		'fr-fr': "Rémoraid"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Ink Blast",
-				fr: "Explosion d'encre",
-				de: "Tintenstrahl"
+				'en-us': "Ink Blast",
+				'fr-fr': "Explosion d'encre",
+				'de-de': "Tintenstrahl"
 			},
 			effect: {
-				en: "This attack does 20 damage plus 10 more damage for each Energy attached to Dark Octillery but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
-				fr: "Cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Octillery obscur mais non utilisée pour payer le coût d'Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette manière.",
-				de: "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jeden an Dunkles Octillery angelegte Energiekarte, die nicht verwendet wurde, um für die Energiekosten dieses Angriffs zu bezahlen, zu. Du kannst auf diese Weise höchstens 20 weitere Schadenspunkte zufügen."
+				'en-us': "This attack does 20 damage plus 10 more damage for each Energy attached to Dark Octillery but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+				'fr-fr': "Cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Octillery obscur mais non utilisée pour payer le coût d'Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette manière.",
+				'de-de': "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jeden an Dunkles Octillery angelegte Energiekarte, die nicht verwendet wurde, um für die Energiekosten dieses Angriffs zu bezahlen, zu. Du kannst auf diese Weise höchstens 20 weitere Schadenspunkte zufügen."
 			},
 			damage: "20+",
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tentacle Wrap",
-				fr: "Roule tentacule",
-				de: "Tentakelumarmung"
+				'en-us': "Tentacle Wrap",
+				'fr-fr': "Roule tentacule",
+				'de-de': "Tentakelumarmung"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, during your opponent's next turn, your opponent pays more to retreat the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, pendant le prochain tour de votre adversaire, votre adversaire paie  supplémentaires pour faire battre en retraite le Pokémon Défenseur.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt. Bei 'Zahl' bezahlt dein Gegner während seines nächsten Zuges  mehr, wenn er das verteidigende Pokémon zurückziehen will."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, during your opponent's next turn, your opponent pays more to retreat the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, pendant le prochain tour de votre adversaire, votre adversaire paie  supplémentaires pour faire battre en retraite le Pokémon Défenseur.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt. Bei 'Zahl' bezahlt dein Gegner während seines nächsten Zuges  mehr, wenn er das verteidigende Pokémon zurückziehen will."
 			},
 			damage: 20,
 
@@ -78,8 +78,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It likes to sleep in rock caves and will even steal other Octillery's nests.",
-		fr: "Il aime dormir dans les cavernes sous-marines et il lui arrive même de voler le nid d'un autre Octillery."
+		'en-us': "It likes to sleep in rock caves and will even steal other Octillery's nests.",
+		'fr-fr': "Il aime dormir dans les cavernes sous-marines et il lui arrive même de voler le nid d'un autre Octillery."
 	},
 
 

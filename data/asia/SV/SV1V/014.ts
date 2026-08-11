@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1V"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "スコヴィラン",
+		'ja-jp': "スコヴィラン",
 		'zh-tw': "狠辣椒",
-		th: "สโกวิลเลิน",
-		id: "Scovillain"
+		'th-th': "สโกวิลเลิน",
+		'id-id': "Scovillain"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "グリーンヘッドは 辛み成分に 脳が 刺激されて 凶暴化。 暴れだすと 手がつけられない。",
+		'ja-jp': "グリーンヘッドは 辛み成分に 脳が 刺激されて 凶暴化。 暴れだすと 手がつけられない。",
 		'zh-tw': "綠色的頭因為腦部受到了辣味成分的刺激而變得凶暴。 一旦暴怒起來就會一發不可收拾。",
-		th: "หัวสีเขียวนั้นมีนิสัยดุร้ายเพราะสมองถูกกระตุ้นด้วยสารเผ็ดร้อน หากเริ่มอาละวาดก็ยากที่จะจัดการได้",
-		id: "Scovillain kepala hijau menjadi ganas karena otaknya distimulasi oleh komponen pedas. Pokémon ini tidak dapat dihentikan jika mulai mengamuk."
+		'th-th': "หัวสีเขียวนั้นมีนิสัยดุร้ายเพราะสมองถูกกระตุ้นด้วยสารเผ็ดร้อน หากเริ่มอาละวาดก็ยากที่จะจัดการได้",
+		'id-id': "Scovillain kepala hijau menjadi ganas karena otaknya distimulasi oleh komponen pedas. Pokémon ini tidak dapat dihentikan jika mulai mengamuk."
 	},
 
 	stage: "Stage1",
@@ -31,37 +31,37 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ホットバイト",
+			'ja-jp': "ホットバイト",
 			'zh-tw': "滾燙啃咬",
-			th: "ฮอตไบต์",
-			id: "Hot Bite"
+			'th-th': "ฮอตไบต์",
+			'id-id': "Hot Bite"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "相手のバトルポケモンをやけどにする。",
+			'ja-jp': "相手のバトルポケモンをやけどにする。",
 			'zh-tw': "將對手的戰鬥寶可夢【灼傷】。",
-			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ไหม้]",
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
+			'th-th': "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ไหม้]",
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
 		}
 	}, {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			ja: "げきからヒーハー",
+			'ja-jp': "げきからヒーハー",
 			'zh-tw': "尖叫辣",
-			th: "เผ็ดซี้ดซ้าด",
-			id: "Pedas Ekstrem Yuhuu"
+			'th-th': "เผ็ดซี้ดซ้าด",
+			'id-id': "Pedas Ekstrem Yuhuu"
 		},
 
 		damage: "90+",
 
 		effect: {
-			ja: "このポケモンにエネルギーがついているなら、90ダメージ追加。",
+			'ja-jp': "このポケモンにエネルギーがついているなら、90ダメージ追加。",
 			'zh-tw': "若這隻寶可夢身上附有【火】能量卡，則增加90點傷害。",
-			th: "ถ้าโปเกมอนนี้มีพลังงาน[ไฟ]ติดอยู่ การโจมตีนี้จะเพิ่มแดเมจอีก 90",
-			id: "Jika Pokémon ini mengenakan Energi {Api}, kerusakan yang diberikan bertambah sejumlah 90."
+			'th-th': "ถ้าโปเกมอนนี้มีพลังงาน[ไฟ]ติดอยู่ การโจมตีนี้จะเพิ่มแดเมจอีก 90",
+			'id-id': "Jika Pokémon ini mengenakan Energi {Api}, kerusakan yang diberikan bertambah sejumlah 90."
 		}
 	}],
 

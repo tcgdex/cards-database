@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジュラルドンV",
+		'ja-jp': "ジュラルドンV",
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 140,
 			cost: ["Fighting", "Metal", "Metal"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-30」される。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-30」される。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スローブロ",
+		'ja-jp': "スローブロ",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "デュアルアーマー",
+				'ja-jp': "デュアルアーマー",
 			},
 			effect: {
-				ja: "Slowbroに精神エネルギーが付着している限り、Slowbroは水と精神型の両方です。",
+				'ja-jp': "Slowbroに精神エネルギーが付着している限り、Slowbroは水と精神型の両方です。",
 			},
 		}],
 
@@ -29,17 +29,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "並列ゲイン",
+				'ja-jp': "並列ゲイン",
 			},
 			effect: {
-				ja: "各ポケモン（スローブロを含む）から1つのダメージカウンターを取り外します。",
+				'ja-jp': "各ポケモン（スローブロを含む）から1つのダメージカウンターを取り外します。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				ja: "ローリングタックル",
+				'ja-jp': "ローリングタックル",
 			},
 			damage: 50,
 		},

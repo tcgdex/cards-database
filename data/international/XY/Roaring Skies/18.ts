@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Wingull",
-		fr: "Goélise",
-		es: "Wingull",
-		it: "Wingull",
-		pt: "Wingull",
-		de: "Wingull"
+		'en-us': "Wingull",
+		'fr-fr': "Goélise",
+		'es-es': "Wingull",
+		'it-it': "Wingull",
+		'pt-br': "Wingull",
+		'de-de': "Wingull"
 	},
 
 	illustrator: "MAHOU",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
-				es: "Pistola Agua",
-				it: "Pistolacqua",
-				pt: "Revólver d'Água",
-				de: "Aquaknarre"
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
+				'es-es': "Pistola Agua",
+				'it-it': "Pistolacqua",
+				'pt-br': "Revólver d'Água",
+				'de-de': "Aquaknarre"
 			},
 
 			damage: 10,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It makes its nest on steep sea cliffs. Riding updrafts, it soars to great heights.",
+		'en-us': "It makes its nest on steep sea cliffs. Riding updrafts, it soars to great heights.",
 	},
 
 	thirdParty: {

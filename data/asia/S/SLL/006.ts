@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SLL"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "土地雲",
-		ja: "ランドロス"
+		'ja-jp': "ランドロス"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "吸收風與雷後轉化成的能量能夠給予土壤營養，讓大地變得豐饒。",
-		ja: "風や 雷を 取りこみ 変えた エネルギーが 土に 栄養を 与えて 大地を 豊かに する。"
+		'ja-jp': "風や 雷を 取りこみ 変えた エネルギーが 土に 栄養を 与えて 大地を 豊かに する。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "巴掌撲擊",
-			ja: "はりて"
+			'ja-jp': "はりて"
 		},
 
 		damage: 20,
@@ -32,12 +32,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "粉碎刀鋒",
-			ja: "スマッシュエッジ"
+			'ja-jp': "スマッシュエッジ"
 		},
 
 		effect: {
 			'zh-tw': "選擇2個這隻寶可夢身上附加的能量，將其丟棄。",
-			ja: "このポケモンについているエネルギーを2個選び、トラッシュする。"
+			'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。"
 		},
 
 		damage: 130,

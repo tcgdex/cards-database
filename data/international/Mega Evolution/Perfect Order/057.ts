@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
@@ -7,23 +7,23 @@ const card: Card = {
 	dexId: [680],
 
 	name: {
-		en: "Doublade",
-		fr: "Dimoclès",
-		es: "Doublade",
+		'en-us': "Doublade",
+		'fr-fr': "Dimoclès",
+		'es-es': "Doublade",
 		'es-mx': "Doublade",
-		de: "Duokles",
-		it: "Doublade",
-		pt: "Doublade"
+		'de-de': "Duokles",
+		'it-it': "Doublade",
+		'pt-br': "Doublade"
 	},
 
 	evolveFrom: {
-		en: "Honedge",
-		fr: "Monorpale",
-		es: "Honedge",
+		'en-us': "Honedge",
+		'fr-fr': "Monorpale",
+		'es-es': "Honedge",
 		'es-mx': "Honedge",
-		de: "Gramokles",
-		it: "Honedge",
-		pt: "Honedge",
+		'de-de': "Gramokles",
+		'it-it': "Honedge",
+		'pt-br': "Honedge",
 	},
 
 	illustrator: "Kamome Shirahama",
@@ -37,23 +37,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Weaponized Swords",
-			fr: "Épées Armes",
-			es: "Espadas Pertrechadas",
+			'en-us': "Weaponized Swords",
+			'fr-fr': "Épées Armes",
+			'es-es': "Espadas Pertrechadas",
 			'es-mx': "Espadas Pertrechadas",
-			de: "Kollektive Klingenkraft",
-			it: "Spade Belliche",
-			pt: "Espadas Armadas"
+			'de-de': "Kollektive Klingenkraft",
+			'it-it': "Spade Belliche",
+			'pt-br': "Espadas Armadas"
 		},
 
 		effect: {
-			en: "Reveal any number of Honedge, Doublade, and Aegislash from your hand, and this attack does 60 damage for each card you revealed in this way.",
-			fr: "Montrez le nombre voulu de Monorpale, de Dimoclès et d'Exagide de votre main. Cette attaque inflige 60 dégâts pour chaque carte montrée de cette façon.",
-			es: "Enseña cualquier cantidad de Honedge, Doublade y Aegislash de tu mano, y este ataque hace 60 puntos de daño por cada carta que hayas enseñado de esta manera.",
+			'en-us': "Reveal any number of Honedge, Doublade, and Aegislash from your hand, and this attack does 60 damage for each card you revealed in this way.",
+			'fr-fr': "Montrez le nombre voulu de Monorpale, de Dimoclès et d'Exagide de votre main. Cette attaque inflige 60 dégâts pour chaque carte montrée de cette façon.",
+			'es-es': "Enseña cualquier cantidad de Honedge, Doublade y Aegislash de tu mano, y este ataque hace 60 puntos de daño por cada carta que hayas enseñado de esta manera.",
 			'es-mx': "Muestra cualquier cantidad de Honedge, Doublade y Aegislash de tu mano, y este ataque hace 60 puntos de daño por cada carta que mostraste de esta manera.",
-			de: "Zeige deinem Gegner beliebig viele Gramokles, Duokles und Durengard auf deiner Hand, und diese Attacke fügt für jede auf diese Weise gezeigte Karte 60 Schadenspunkte zu.",
-			it: "Mostra un numero qualsiasi di Honedge, Doublade e Aegislash che hai in mano e questo attacco infligge 60 danni per ogni carta che hai mostrato in questo modo.",
-			pt: "Revele qualquer número de Honedge, Doublade e Aegislash na sua mão, e este ataque causa 60 pontos de dano para cada carta revelada desta forma."
+			'de-de': "Zeige deinem Gegner beliebig viele Gramokles, Duokles und Durengard auf deiner Hand, und diese Attacke fügt für jede auf diese Weise gezeigte Karte 60 Schadenspunkte zu.",
+			'it-it': "Mostra un numero qualsiasi di Honedge, Doublade e Aegislash che hai in mano e questo attacco infligge 60 danni per ogni carta che hai mostrato in questo modo.",
+			'pt-br': "Revele qualquer número de Honedge, Doublade e Aegislash na sua mão, e este ataque causa 60 pontos de dano para cada carta revelada desta forma."
 		},
 
 		damage: "60×"

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Camerupt",
-		fr: "Camerupt",
-		de: "Camerupt"
+		'en-us': "Camerupt",
+		'fr-fr': "Camerupt",
+		'de-de': "Camerupt"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Numel",
-		fr: "Chamallot"
+		'en-us': "Numel",
+		'fr-fr': "Chamallot"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnitude",
-				fr: "Ampleur",
-				de: "Intensität"
+				'en-us': "Magnitude",
+				'fr-fr': "Ampleur",
+				'de-de': "Intensität"
 			},
 			effect: {
-				en: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Dieser Angriff fügt allen Pokémon auf der Bank 10 Schadenspunkte zu (deinen und den gegnerischen). (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Dieser Angriff fügt allen Pokémon auf der Bank 10 Schadenspunkte zu (deinen und den gegnerischen). (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 20,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				de: "Bodycheck"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'de-de': "Bodycheck"
 			},
 			effect: {
-				en: "Camerupt does 10 damage to itself.",
-				fr: "Camerupt s'inflige 10 dégâts.",
-				de: "Camerupt fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Camerupt does 10 damage to itself.",
+				'fr-fr': "Camerupt s'inflige 10 dégâts.",
+				'de-de': "Camerupt fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 60,
 

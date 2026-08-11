@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "モンジャラ",
+		'ja-jp': "モンジャラ",
 		'zh-tw': "蔓藤怪",
-		th: "มอนจารา"
+		'th-th': "มอนจารา"
 	},
 
 	illustrator: "Yoriyuki Ikegami",
@@ -18,9 +18,9 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "ちぎれても 無限に 伸びる ツルの 奥の 正体は いまだ 解明されていない。",
+		'ja-jp': "ちぎれても 無限に 伸びる ツルの 奥の 正体は いまだ 解明されていない。",
 		'zh-tw': "藤蔓即使斷了也會繼續無限地生長。藤蔓下的 真面目至今仍是個謎。",
-		th: "แม้เถาวัลย์จะขาดก็ยืดยาวออกมาได้ไม่มีที่สิ้นสุด ตัวตนลึก ๆ ที่แท้จริงของมัน จนทุกวันนี้ก็ยังพิสูจน์ไม่ได้"
+		'th-th': "แม้เถาวัลย์จะขาดก็ยืดยาวออกมาได้ไม่มีที่สิ้นสุด ตัวตนลึก ๆ ที่แท้จริงของมัน จนทุกวันนี้ก็ยังพิสูจน์ไม่ได้"
 	},
 
 	stage: "Basic",
@@ -29,9 +29,9 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ひっぱたく",
+			'ja-jp': "ひっぱたく",
 			'zh-tw': "重摑",
-			th: "ตบแรง"
+			'th-th': "ตบแรง"
 		},
 
 		damage: 10
@@ -39,9 +39,9 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "つるでうつ",
+			'ja-jp': "つるでうつ",
 			'zh-tw': "藤蔓攻擊",
-			th: "โจมตีด้วยเถาวัลย์"
+			'th-th': "โจมตีด้วยเถาวัลย์"
 		},
 
 		damage: 30

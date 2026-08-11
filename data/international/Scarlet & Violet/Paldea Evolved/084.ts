@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Grodoudou",
-		en: "Wigglytuff",
-		es: "Wigglytuff",
-		it: "Wigglytuff",
-		pt: "Wigglytuff",
-		de: "Knuddeluff"
+		'fr-fr': "Grodoudou",
+		'en-us': "Wigglytuff",
+		'es-es': "Wigglytuff",
+		'it-it': "Wigglytuff",
+		'pt-br': "Wigglytuff",
+		'de-de': "Knuddeluff"
 	},
 
 	rarity: "Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Psychic"],
 	evolveFrom: {
-		fr: "Rondoudou",
-		en: "Jigglypuff",
-		es: "Jigglypuff",
-		it: "Jigglypuff",
-		pt: "Jigglypuff",
-		de: "Pummeluff"
+		'fr-fr': "Rondoudou",
+		'en-us': "Jigglypuff",
+		'es-es': "Jigglypuff",
+		'it-it': "Jigglypuff",
+		'pt-br': "Jigglypuff",
+		'de-de': "Pummeluff"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			fr: "Thérapie Bouboule",
-			en: "Balloon Therapy",
-			es: "Terapia Globo",
-			it: "Terapia Pallone",
-			pt: "Terapia de Balão",
-			de: "Ballontherapie"
+			'fr-fr': "Thérapie Bouboule",
+			'en-us': "Balloon Therapy",
+			'es-es': "Terapia Globo",
+			'it-it': "Terapia Pallone",
+			'pt-br': "Terapia de Balão",
+			'de-de': "Ballontherapie"
 		},
 
 		effect: {
-			fr: "Une fois pendant votre tour, vous pouvez attacher une carte Énergie Thérapeutique de votre main à l'un de vos Pokémon.",
-			en: "Once during your turn, you may attach a Therapeutic Energy card from your hand to 1 of your Pokémon.",
-			es: "Una vez durante tu turno, puedes unir 1 carta de Energía Terapéutica de tu mano a uno de tus Pokémon.",
-			it: "Una sola volta durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon una carta Energia Terapeutica dalla tua mano.",
-			pt: "Uma vez durante o seu turno, você poderá ligar uma carta Energia Terapêutica da sua mão a 1 dos seus Pokémon.",
-			de: "Einmal während deines Zuges kannst du 1 Therapie-Energiekarte aus deiner Hand an 1 deiner Pokémon anlegen."
+			'fr-fr': "Une fois pendant votre tour, vous pouvez attacher une carte Énergie Thérapeutique de votre main à l'un de vos Pokémon.",
+			'en-us': "Once during your turn, you may attach a Therapeutic Energy card from your hand to 1 of your Pokémon.",
+			'es-es': "Una vez durante tu turno, puedes unir 1 carta de Energía Terapéutica de tu mano a uno de tus Pokémon.",
+			'it-it': "Una sola volta durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon una carta Energia Terapeutica dalla tua mano.",
+			'pt-br': "Uma vez durante o seu turno, você poderá ligar uma carta Energia Terapêutica da sua mão a 1 dos seus Pokémon.",
+			'de-de': "Einmal während deines Zuges kannst du 1 Therapie-Energiekarte aus deiner Hand an 1 deiner Pokémon anlegen."
 		}
 	}],
 
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Coup Magique",
-			en: "Magical Shot",
-			es: "Disparo Mágico",
-			it: "Magicolpo",
-			pt: "Tiro Mágico",
-			de: "Magischer Schuss"
+			'fr-fr': "Coup Magique",
+			'en-us': "Magical Shot",
+			'es-es': "Disparo Mágico",
+			'it-it': "Magicolpo",
+			'pt-br': "Tiro Mágico",
+			'de-de': "Magischer Schuss"
 		},
 
 		damage: 100
@@ -96,7 +96,7 @@ const card: Card = {
 	illustrator: "Hitoshi Ariga",
 
 	description: {
-		en: "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam.",
+		'en-us': "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam.",
 	},
 }
 

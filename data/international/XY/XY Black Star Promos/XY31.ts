@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Xerneas",
-		fr: "Xerneas",
+		'en-us': "Xerneas",
+		'fr-fr': "Xerneas",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aurora Gain",
-				fr: "Puissance Boréale",
+				'en-us': "Aurora Gain",
+				'fr-fr': "Puissance Boréale",
 			},
 			effect: {
-				en: "During your opponent's next turn, this Pokémon has no Weakness.",
-				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon n'a pas de Faiblesse.",
+				'en-us': "During your opponent's next turn, this Pokémon has no Weakness.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, ce Pokémon n'a pas de Faiblesse.",
 			},
 			damage: 50,
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Light of Life",
-				fr: "Lumière de l'Existence",
+				'en-us': "Light of Life",
+				'fr-fr': "Lumière de l'Existence",
 			},
 			effect: {
-				en: "If your opponent has Yveltal (including Yveltal-EX) in play, this attack does 40 more damage.",
-				fr: "Si votre adversaire a Yveltal (y compris Yveltal-EX) en jeu, cette attaque inflige 40 dégâts supplémentaires.",
+				'en-us': "If your opponent has Yveltal (including Yveltal-EX) in play, this attack does 40 more damage.",
+				'fr-fr': "Si votre adversaire a Yveltal (y compris Yveltal-EX) en jeu, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: "80＋",
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
+		'en-us': "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
 	},
 
 	thirdParty: {

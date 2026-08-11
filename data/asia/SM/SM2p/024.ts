@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤブクロン",
+		'ja-jp': "ヤブクロン",
 	},
 
 	illustrator: "Yuka Morii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "不衛生な 場所が 好き。 アローラでは よく ベトベターに 追いまわされる 姿を みかける。",
+		'ja-jp': "不衛生な 場所が 好き。 アローラでは よく ベトベターに 追いまわされる 姿を みかける。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ふみならす" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手の山札を上から1枚トラッシュする。",
+				'ja-jp': "相手の山札を上から1枚トラッシュする。",
 			},
 		},
 		{

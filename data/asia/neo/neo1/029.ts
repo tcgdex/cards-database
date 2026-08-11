@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シードラ",
+		'ja-jp': "シードラ",
 	},
 
 	rarity: "Uncommon",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "バブル",
+				'ja-jp': "バブル",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Water", "Water"],
 			name: {
-				ja: "泥のスプラッシュ",
+				'ja-jp': "泥のスプラッシュ",
 			},
 			effect: {
-				ja: "対戦相手がベンチポケモンを持っている場合は、1つを選択してコインをひっくり返します。頭の場合、この攻撃はそのポケモンに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "対戦相手がベンチポケモンを持っている場合は、1つを選択してコインをひっくり返します。頭の場合、この攻撃はそのポケモンに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 30,
 		},

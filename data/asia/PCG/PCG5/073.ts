@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アロン",
+		'ja-jp': "アロン",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "自己充電",
+				'ja-jp': "自己充電",
 			},
 			effect: {
-				ja: "手からアロンに金属エネルギーカードを取り付けます。",
+				'ja-jp': "手からアロンに金属エネルギーカードを取り付けます。",
 			},
 		},
 		{
 			cost: ["Metal", "Colorless"],
 			name: {
-				ja: "ヘッドバット",
+				'ja-jp': "ヘッドバット",
 			},
 			damage: 20,
 		},

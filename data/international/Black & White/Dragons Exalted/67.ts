@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Gigalith",
-		fr: "Gigalithe",
-		es: "Gigalith",
-		it: "Gigalith",
-		pt: "Gigalith",
-		de: "Brockoloss"
+		'en-us': "Gigalith",
+		'fr-fr': "Gigalithe",
+		'es-es': "Gigalith",
+		'it-it': "Gigalith",
+		'pt-br': "Gigalith",
+		'de-de': "Brockoloss"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Boldore",
-		fr: "Géolithe",
+		'en-us': "Boldore",
+		'fr-fr': "Géolithe",
 	},
 
 	stage: "Stage2",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Revenge Cannon",
-				fr: "Canon Talion",
+				'en-us': "Revenge Cannon",
+				'fr-fr': "Canon Talion",
 			},
 			effect: {
-				en: "Does 10 more damage for each damage counter on each of your Benched Pokémon.",
-				fr: "Inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur chacun de vos Pokémon de Banc.",
+				'en-us': "Does 10 more damage for each damage counter on each of your Benched Pokémon.",
+				'fr-fr': "Inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur chacun de vos Pokémon de Banc.",
 			},
 			damage: 10,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reckless Charge",
-				fr: "Attaque Imprudente",
+				'en-us': "Reckless Charge",
+				'fr-fr': "Attaque Imprudente",
 			},
 			effect: {
-				en: "This Pokémon does 40 damage to itself.",
-				fr: "Ce Pokémon s'inflige 40 dégâts.",
+				'en-us': "This Pokémon does 40 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 40 dégâts.",
 			},
 			damage: 120,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "The solar energy absorbed by its body's orange crystals is magnified internally are fired from its mouth.",
+		'en-us': "The solar energy absorbed by its body's orange crystals is magnified internally are fired from its mouth.",
 	},
 
 	thirdParty: {

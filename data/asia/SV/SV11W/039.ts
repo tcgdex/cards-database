@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ゴチミル",
+		'ja-jp': "ゴチミル",
 	},
 
 	illustrator: "Mousho",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "催眠術で ポケモンや 人を 操る。 眠ったまま ゴチミルに 連れ去られる 昔話が 各地に 残っている。",
+		'ja-jp': "催眠術で ポケモンや 人を 操る。 眠ったまま ゴチミルに 連れ去られる 昔話が 各地に 残っている。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			name: { ja: "フォーチュンアイ" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手の山札を上から5枚見て、好きな順番に入れ替えて、山札の上にもどす。",
+				'ja-jp': "相手の山札を上から5枚見て、好きな順番に入れ替えて、山札の上にもどす。",
 			},
 		},
 		{
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴチム",
+		'ja-jp': "ゴチム",
 	},
 
 	retreat: 1,

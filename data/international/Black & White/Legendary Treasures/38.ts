@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Dewott",
+		'en-us': "Dewott",
 	},
 
 	illustrator: "Mizue",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Oshawott",
+		'en-us': "Oshawott",
 	},
 
 	stage: "Stage1",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Tail",
+				'en-us': "Aqua Tail",
 			},
 			effect: {
-				en: "Flip a coin for each Water Energy attached to this Pokémon. This attack does 10 more damage for each heads.",
+				'en-us': "Flip a coin for each Water Energy attached to this Pokémon. This attack does 10 more damage for each heads.",
 			},
 			damage: 30,
 
@@ -54,7 +54,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Scalchop techniques differ from one Dewott to another. It never neglects maintaining its scalchops.",
+		'en-us': "Scalchop techniques differ from one Dewott to another. It never neglects maintaining its scalchops.",
 	},
 
 	thirdParty: {

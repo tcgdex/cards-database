@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Efflèche",
-		en: "Dartrix",
-		es: "Dartrix",
-		it: "Dartrix",
-		pt: "Dartrix",
-		de: "Arboretoss"
+		'fr-fr': "Efflèche",
+		'en-us': "Dartrix",
+		'es-es': "Dartrix",
+		'it-it': "Dartrix",
+		'pt-br': "Dartrix",
+		'de-de': "Arboretoss"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Grass"],
 	evolveFrom: {
-		fr: "Brindibou",
-		en: "Rowlet",
-		es: "Rowlet",
-		it: "Rowlet",
-		pt: "Rowlet",
-		de: "Bauz"
+		'fr-fr': "Brindibou",
+		'en-us': "Rowlet",
+		'es-es': "Rowlet",
+		'it-it': "Rowlet",
+		'pt-br': "Rowlet",
+		'de-de': "Bauz"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			fr: "Passer à Travers",
-			en: "Shoot Through",
-			es: "Cruzar Rápido",
-			it: "Sparainmezzo",
-			pt: "Tiro Vazante",
-			de: "Durchschießen"
+			'fr-fr': "Passer à Travers",
+			'en-us': "Shoot Through",
+			'es-es': "Cruzar Rápido",
+			'it-it': "Sparainmezzo",
+			'pt-br': "Tiro Vazante",
+			'de-de': "Durchschießen"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige aussi 20 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-			en: "This attack also does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			es: "Este ataque también hace 20 puntos de daño a uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-			it: "Questo attacco infligge anche 20 danni a uno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-			pt: "Este ataque também causa 20 pontos de dano a 1 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
-			de: "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+			'fr-fr': "Cette attaque inflige aussi 20 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			'en-us': "This attack also does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'es-es': "Este ataque también hace 20 puntos de daño a uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			'it-it': "Questo attacco infligge anche 20 danni a uno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			'pt-br': "Este ataque também causa 20 pontos de dano a 1 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
+			'de-de': "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		},
 
 		damage: 40
@@ -62,7 +62,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Supremely sensitive to the presence of others, it can detect opponents standing behind it, flinging its sharp feathers to take them out.",
+		'en-us': "Supremely sensitive to the presence of others, it can detect opponents standing behind it, flinging its sharp feathers to take them out.",
 	},
 
 	variants: [

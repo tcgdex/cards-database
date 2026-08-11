@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Cloyster",
-		fr: "Crustabri",
-		es: "Cloyster",
-		it: "Cloyster",
-		pt: "Cloyster",
-		de: "Austos"
+		'en-us': "Cloyster",
+		'fr-fr': "Crustabri",
+		'es-es': "Cloyster",
+		'it-it': "Cloyster",
+		'pt-br': "Cloyster",
+		'de-de': "Austos"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shellder",
-		fr: "Kokiyas",
-		es: "Shellder",
-		it: "Shellder",
-		pt: "Shellder",
-		de: "Muschas"
+		'en-us': "Shellder",
+		'fr-fr': "Kokiyas",
+		'es-es': "Shellder",
+		'it-it': "Shellder",
+		'pt-br': "Shellder",
+		'de-de': "Muschas"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Sudden Grip",
-				fr: "Pince Surprise",
-				es: "Presa Súbita",
-				it: "Presa Improvvisa",
-				pt: "Agarramento Súbito",
-				de: "Zuschnappen"
+				'en-us': "Sudden Grip",
+				'fr-fr': "Pince Surprise",
+				'es-es': "Presa Súbita",
+				'it-it': "Presa Improvvisa",
+				'pt-br': "Agarramento Súbito",
+				'de-de': "Zuschnappen"
 			},
 			effect: {
-				en: "If this Pokémon evolved from Shellder during this turn, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Si ce Pokémon a évolué de Kokiyas pendant ce tour, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Si este Pokémon ha evolucionado de Shellder durante este turno, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Se questo Pokémon si è evoluto da Shellder durante questo turno, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Se este Pokémon evoluiu do Shellder durante esta vez de jogar, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wenn sich dieses Pokémon während dieses Zuges aus Muschas entwickelt hat, ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "If this Pokémon evolved from Shellder during this turn, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Si ce Pokémon a évolué de Kokiyas pendant ce tour, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Si este Pokémon ha evolucionado de Shellder durante este turno, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Se questo Pokémon si è evoluto da Shellder durante questo turno, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Se este Pokémon evoluiu do Shellder durante esta vez de jogar, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wenn sich dieses Pokémon während dieses Zuges aus Muschas entwickelt hat, ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 10,
 
@@ -68,12 +68,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
-				es: "Surf",
-				it: "Surf",
-				pt: "Surfe",
-				de: "Surfer"
+				'en-us': "Surf",
+				'fr-fr': "Surf",
+				'es-es': "Surf",
+				'it-it': "Surf",
+				'pt-br': "Surfe",
+				'de-de': "Surfer"
 			},
 
 			damage: 70,
@@ -91,7 +91,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its shell is extremely hard. It cannot be shattered, even with a bomb. The shell opens only when it is attacking.",
+		'en-us': "Its shell is extremely hard. It cannot be shattered, even with a bomb. The shell opens only when it is attacking.",
 	},
 
 	thirdParty: {

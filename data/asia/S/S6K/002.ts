@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レディアン",
+		'ja-jp': "レディアン",
 		'zh-tw': "安瓢蟲",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "きらめく 粉を 振りまきながら 夜空を 飛ぶ。 粉が 身体に つくと いいことが あるといわれる。",
+		'ja-jp': "きらめく 粉を 振りまきながら 夜空を 飛ぶ。 粉が 身体に つくと いいことが あるといわれる。",
 		'zh-tw': "一邊撒落閃閃發亮的粉末，一邊在夜空中飛翔。據說如果身上沾到這種粉末，就會有好事發生。",
 	},
 
@@ -23,25 +23,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "クイックドロー",
+				'ja-jp': "クイックドロー",
 				'zh-tw': "快速抽出",
 			},
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を2枚引く。",
+				'ja-jp': "自分の山札を2枚引く。",
 				'zh-tw': "從自己的牌庫抽出2張卡。",
 			},
 		},
 		{
 			name: {
-				ja: "エアスラッシュ",
+				'ja-jp': "エアスラッシュ",
 				'zh-tw': "空氣斬",
 			},
 			damage: 100,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。",
 				'zh-tw': "選擇1個這隻寶可夢身上附加的能量，將其丟棄。",
 			},
 		},
@@ -61,7 +61,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "レディバ",
+		'ja-jp': "レディバ",
 	},
 
 	retreat: 1,

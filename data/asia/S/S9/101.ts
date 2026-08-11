@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "シェイミV"
+		'ja-jp': "シェイミV"
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -19,7 +19,7 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "はばたく"
+			'ja-jp': "はばたく"
 		},
 
 		damage: 30
@@ -27,13 +27,13 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "リベンジバースト"
+			'ja-jp': "リベンジバースト"
 		},
 
 		damage: "60＋",
 
 		effect: {
-			ja: "相手がすでにとったサイドの枚数×40ダメージ追加。"
+			'ja-jp': "相手がすでにとったサイドの枚数×40ダメージ追加。"
 		}
 	}],
 

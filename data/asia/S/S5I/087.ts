@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S5I";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フヨウ",
+		'ja-jp': "フヨウ",
 	},
 
 	illustrator: "Kagemaru Himeno",
 	category: "Trainer",
 
 	effect: {
-		ja: "この番、自分の「ポケモンVMAX」が使うワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+		'ja-jp': "この番、自分の「ポケモンVMAX」が使うワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Turtonator"
+		'en-us': "Turtonator"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "Eating sulfur in its volcanic habitat is what causes\nexplosive compounds to develop in its shell.\nIts droppings are also dangerously explosive."
+		'en-us': "Eating sulfur in its volcanic habitat is what causes\nexplosive compounds to develop in its shell.\nIts droppings are also dangerously explosive."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Shell Trap"
+			'en-us': "Shell Trap"
 		},
 
 		damage: 40,
 		cost: ["Fire", "Fire"],
 
 		effect: {
-			en: "During your opponent's next turn, if this Pokémon is damaged by an attack, do 20 damage to the Attacking Pokémon."
+			'en-us': "During your opponent's next turn, if this Pokémon is damaged by an attack, do 20 damage to the Attacking Pokémon."
 		}
 	}],
 

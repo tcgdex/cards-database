@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../S'
 
 const set: Set = {
 	id: 'S10b',
 
 	name: {
-		ja: 'Pokémon GO',
-		ko: 'Pokémon GO',
+		'ja-jp': 'Pokémon GO',
+		'ko-kr': 'Pokémon GO',
 		'zh-tw': 'Pokémon GO',
-		id: 'Pokémon GO',
-		th: 'Pokémon GO'
+		'id-id': 'Pokémon GO',
+		'th-th': 'Pokémon GO'
 	},
 
 	serie: serie,
@@ -19,10 +19,10 @@ const set: Set = {
 	},
 
 	releaseDate: {
-		ja: '2022-06-17',
+		'ja-jp': '2022-06-17',
 		'zh-tw': '2022-06-17',
-		th: '2022-06-24',
-		id: '2022-06-17'
+		'th-th': '2022-06-24',
+		'id-id': '2022-06-17'
 	},
 
 	thirdParty: {

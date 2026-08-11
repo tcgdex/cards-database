@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヒスイ ジュナイパーVSTAR"
+		'ja-jp': "ヒスイ ジュナイパーVSTAR"
 	},
 
 	illustrator: "5ban Graphics",
@@ -18,25 +18,25 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			ja: "サマーソルトフェザー"
+			'ja-jp': "サマーソルトフェザー"
 		},
 
 		damage: "160＋",
 
 		effect: {
-			ja: "のぞむなら、自分の手札からエネルギーを3枚までトラッシュし、その枚数×30ダメージ追加。"
+			'ja-jp': "のぞむなら、自分の手札からエネルギーを3枚までトラッシュし、その枚数×30ダメージ追加。"
 		}
 	}, {
 		name: {
-			ja: "特性"
+			'ja-jp': "特性"
 		}
 	}, {
 		name: {
-			ja: "フウウンスター"
+			'ja-jp': "フウウンスター"
 		},
 
 		effect: {
-			ja: "自分の番に使える。自分の手札が8枚になるように、山札を引く。［対戦中、自分はVSTARパワーを1回しか使えない。］"
+			'ja-jp': "自分の番に使える。自分の手札が8枚になるように、山札を引く。［対戦中、自分はVSTARパワーを1回しか使えない。］"
 		}
 	}],
 

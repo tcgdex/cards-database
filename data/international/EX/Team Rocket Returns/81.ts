@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Wooper",
-		de: "Felino"
+		'en-us': "Wooper",
+		'de-de': "Felino"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Saturation",
-				de: "Saturation"
+				'en-us': "Saturation",
+				'de-de': "Saturation"
 			},
 			effect: {
-				en: "When you attach a Water Energy card from your hand to Wooper, remove all Special Conditions and 1 damage counter from Wooper.\"",
-				de: "When you attach a  Energy card from your hand to Wooper, remoce all Special Conditions and 1 damage counter from Wooper."
+				'en-us': "When you attach a Water Energy card from your hand to Wooper, remove all Special Conditions and 1 damage counter from Wooper.\"",
+				'de-de': "When you attach a  Energy card from your hand to Wooper, remoce all Special Conditions and 1 damage counter from Wooper."
 			},
 		},
 	],
@@ -44,8 +44,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Wave Splash",
-				de: "Wave Splash"
+				'en-us': "Wave Splash",
+				'de-de': "Wave Splash"
 			},
 
 			damage: 10,

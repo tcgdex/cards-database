@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フレレオン（デルタ種）",
+		'ja-jp': "フレレオン（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "デルタ検索",
+				'ja-jp': "デルタ検索",
 			},
 			effect: {
-				ja: "デッキを検索してホロンエネルギーカードを調べ、フレアロンに添付してください。その後、デッキをシャッフルします。",
+				'ja-jp': "デッキを検索してホロンエネルギーカードを調べ、フレアロンに添付してください。その後、デッキをシャッフルします。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fire", "Metal", "Colorless"],
 			name: {
-				ja: "火傷を返します",
+				'ja-jp': "火傷を返します",
 			},
 			effect: {
-				ja: "フレアロンに取り付けられたエネルギーカードを手に返すことができます。もしそうなら、防御するポケモンは燃やされます。",
+				'ja-jp': "フレアロンに取り付けられたエネルギーカードを手に返すことができます。もしそうなら、防御するポケモンは燃やされます。",
 			},
 			damage: 50,
 		},

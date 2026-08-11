@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Armarouge ex",
-		fr: "Carmadura-ex",
-		es: "Armarouge ex",
-		it: "Armarouge-ex",
-		pt: "Armarouge ex",
-		de: "Crimanzo-ex"
+		'en-us': "Armarouge ex",
+		'fr-fr': "Carmadura-ex",
+		'es-es': "Armarouge ex",
+		'it-it': "Armarouge-ex",
+		'pt-br': "Armarouge ex",
+		'de-de': "Crimanzo-ex"
 	},
 
 	rarity: "Promo",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 260,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Charcadet",
-		fr: "Charbambin",
-		es: "Charcadet",
-		it: "Charcadet",
-		pt: "Charcadet",
-		de: "Knarbon"
+		'en-us': "Charcadet",
+		'fr-fr': "Charbambin",
+		'es-es': "Charcadet",
+		'it-it': "Charcadet",
+		'pt-br': "Charcadet",
+		'de-de': "Knarbon"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Armor Cannon",
-			fr: "Canon Armure",
-			es: "Cañón Armadura",
-			it: "Corazza Cannone",
-			pt: "Canhão de Armadura",
-			de: "Rüstungskanone"
+			'en-us': "Armor Cannon",
+			'fr-fr': "Canon Armure",
+			'es-es': "Cañón Armadura",
+			'it-it': "Corazza Cannone",
+			'pt-br': "Canhão de Armadura",
+			'de-de': "Rüstungskanone"
 		},
 
 		effect: {
-			en: "Discard a {R} Energy from this Pokémon.",
-			fr: "Défaussez une Énergie {R} de ce Pokémon.",
-			es: "Descarta 1 Energía {R} de este Pokémon.",
-			it: "Scarta un'Energia {R} da questo Pokémon.",
-			pt: "Descarte uma Energia {R} deste Pokémon.",
-			de: "Lege 1 {R}-Energie von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard a {R} Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie {R} de ce Pokémon.",
+			'es-es': "Descarta 1 Energía {R} de este Pokémon.",
+			'it-it': "Scarta un'Energia {R} da questo Pokémon.",
+			'pt-br': "Descarte uma Energia {R} deste Pokémon.",
+			'de-de': "Lege 1 {R}-Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 200

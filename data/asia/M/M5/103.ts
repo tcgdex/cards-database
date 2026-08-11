@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エネルギーつけかえ",
+		'ja-jp': "エネルギーつけかえ",
 	},
 
 	illustrator: "Studio Bora Inc.",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の場のポケモンについている基本エネルギーを1個選び、自分の別のポケモンにつけ替える。",
+		'ja-jp': "自分の場のポケモンについている基本エネルギーを1個選び、自分の別のポケモンにつけ替える。",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 3'
 
 const card: Card = {
 	name: {
-		en: "Eevee",
-		fr: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Evoli"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge"
+				'en-us': "Tackle",
+				'fr-fr': "Charge"
 			},
 
 			damage: 10,
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier"
 			},
 			effect: {
-				en: "Eevee does 10 damage to itself.",
-				fr: "Evoli s'inflige 10 dégâts."
+				'en-us': "Eevee does 10 damage to itself.",
+				'fr-fr': "Evoli s'inflige 10 dégâts."
 			},
 			damage: 30,
 

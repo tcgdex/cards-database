@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パルデア ケンタロス",
+		'ja-jp': "パルデア ケンタロス",
 	},
 
 	illustrator: "Taiga Kasai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "高温の 鼻息を 吹きだすので ブレイズ種と 名づけられた。 ３本の 尻尾を 束ねている。",
+		'ja-jp': "高温の 鼻息を 吹きだすので ブレイズ種と 名づけられた。 ３本の 尻尾を 束ねている。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "90+",
 			cost: ["Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが1進化ポケモンなら、90ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが1進化ポケモンなら、90ダメージ追加。",
 			},
 		},
 	],

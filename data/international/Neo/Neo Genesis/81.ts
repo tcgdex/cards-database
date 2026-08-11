@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Totodile",
-		fr: "Kaiminus",
-		de: "Karnimani"
+		'en-us': "Totodile",
+		'fr-fr': "Kaiminus",
+		'de-de': "Karnimani"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leer",
-				fr: "Groz'yeux",
-				de: "Leer"
+				'en-us': "Leer",
+				'fr-fr': "Groz'yeux",
+				'de-de': "Leer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can't attack Totodile during your opponent's next turn. (Benching or evolving either Pokémon ends this effect.)",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer Kaiminus pendant le prochain tour de votre adversaire. (Envoyer l'un des deux Pokémon sur son Banc ou le faire évoluer met fin à cet effet.)",
-				de: "Flip a coin. If heads, the Defending Pokémon can't attack Totodile during your opponent's next turn. (Benching or evolving either Pokémon ends this effect.)"
+				'en-us': "Flip a coin. If heads, the Defending Pokémon can't attack Totodile during your opponent's next turn. (Benching or evolving either Pokémon ends this effect.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer Kaiminus pendant le prochain tour de votre adversaire. (Envoyer l'un des deux Pokémon sur son Banc ou le faire évoluer met fin à cet effet.)",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon can't attack Totodile during your opponent's next turn. (Benching or evolving either Pokémon ends this effect.)"
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Fury Swipes",
-				fr: "Combo-griffe",
-				de: "Fury Swipes"
+				'en-us': "Fury Swipes",
+				'fr-fr': "Combo-griffe",
+				'de-de': "Fury Swipes"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 3 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 3 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10x",
 
@@ -71,8 +71,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its well-developed jaws are powerful and capable of crushing anything. Even its trainer must be careful.",
-		fr: "Sa mâchoire super développée est puissante et capable de broyer n'importe quoi. Même ses dresseurs doivent être prudents."
+		'en-us': "Its well-developed jaws are powerful and capable of crushing anything. Even its trainer must be careful.",
+		'fr-fr': "Sa mâchoire super développée est puissante et capable de broyer n'importe quoi. Même ses dresseurs doivent être prudents."
 	},
 
 

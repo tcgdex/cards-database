@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トロピウス",
+		'ja-jp': "トロピウス",
 	},
 
 	illustrator: "sowsow",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "アローラに棲む トロピウスの 首に 実る フサは 他の 地方より 格別に 甘くて もう最高。",
+		'ja-jp': "アローラに棲む トロピウスの 首に 実る フサは 他の 地方より 格別に 甘くて もう最高。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "こうごうせい" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある[草]エネルギーを1枚、自分のポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札にある[草]エネルギーを1枚、自分のポケモンにつける。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「30」回復する。",
+				'ja-jp': "このポケモンのHPを「30」回復する。",
 			},
 		},
 	],

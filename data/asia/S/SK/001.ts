@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SK"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "櫻花寶",
-		ja: "チェリンボ"
+		'ja-jp': "チェリンボ"
 	},
 
 	illustrator: "Akira Komayama",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "身體越紅的櫻花寶含有的營養越豐富，味道也很甜很好吃。",
-		ja: "体が 赤い チェリンボほど 栄養が 多く 玉の 味も 甘くて おいしいよ。"
+		'ja-jp': "体が 赤い チェリンボほど 栄養が 多く 玉の 味も 甘くて おいしいよ。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "樹葉",
-			ja: "このは"
+			'ja-jp': "このは"
 		},
 
 		damage: 10,

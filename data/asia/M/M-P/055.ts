@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミカルゲ",
+		'ja-jp': "ミカルゲ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "いつも 悪さばかり していたら 不思議な 術で 本体を 要石に 縛りつけられた。",
+		'ja-jp': "いつも 悪さばかり していたら 不思議な 術で 本体を 要石に 縛りつけられた。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ふういんのさけび" },
 			effect: {
-				ja: "このポケモンがいるかぎり、おたがいのプレイヤーは、手札から「ACE SPEC」のカードを出して使えない。",
+				'ja-jp': "このポケモンがいるかぎり、おたがいのプレイヤーは、手札から「ACE SPEC」のカードを出して使えない。",
 			},
 		},
 	],
@@ -33,7 +33,7 @@ const card: Card = {
 			name: { ja: "オカルトミラー" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の手札をすべて山札にもどし、山札を切る。その後、相手の手札の枚数ぶん、自分の山札を引く。",
+				'ja-jp': "自分の手札をすべて山札にもどし、山札を切る。その後、相手の手札の枚数ぶん、自分の山札を引く。",
 			},
 		},
 	],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Darmanitan",
-		fr: "Darumacho",
-		es: "Darmanitan",
-		it: "Darmanitan",
-		pt: "Darmanitan",
-		de: "Flampivian"
+		'en-us': "Darmanitan",
+		'fr-fr': "Darumacho",
+		'es-es': "Darmanitan",
+		'it-it': "Darmanitan",
+		'pt-br': "Darmanitan",
+		'de-de': "Flampivian"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Darumaka",
-		fr: "Darumarond",
+		'en-us': "Darumaka",
+		'fr-fr': "Darumarond",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Synchrodraw",
-				fr: "Pioche Synchro",
+				'en-us': "Synchrodraw",
+				'fr-fr': "Pioche Synchro",
 			},
 			effect: {
-				en: "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent's hand.",
-				fr: "Mélangez votre main avec votre deck. Ensuite, piochez un nombre de cartes égal au nombre de cartes dans la main de votre adversaire.",
+				'en-us': "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent's hand.",
+				'fr-fr': "Mélangez votre main avec votre deck. Ensuite, piochez un nombre de cartes égal au nombre de cartes dans la main de votre adversaire.",
 			},
 
 		},
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "DarMAXitan",
-				fr: "DaruMax",
+				'en-us': "DarMAXitan",
+				'fr-fr': "DaruMax",
 			},
 			effect: {
-				en: "Flip a coin for each Energy attached to this Pokémon. This attack does 50 damage times the number of heads.",
-				fr: "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip a coin for each Energy attached to this Pokémon. This attack does 50 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 50,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "When weakened in battle, it transforms into a stone statue. Then it sharpens its mind and fights on mentally.",
+		'en-us': "When weakened in battle, it transforms into a stone statue. Then it sharpens its mind and fights on mentally.",
 	},
 
 	thirdParty: {

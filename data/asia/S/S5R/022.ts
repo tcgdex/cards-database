@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S5R"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "鐵炮魚",
-		th: "เทปโปโอ"
+		'th-th': "เทปโปโอ"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "會用變成吸盤狀的背鰭吸附在巨翅飛魚身上，吃牠平常吃剩下的東西。",
-		th: "ใช้ครีบหลังที่แปลงรูปเป็นเหมือนปุ่มดูดเกาะติดแมนไทน์ เพื่อรอรับของที่กินเหลือ"
+		'th-th': "ใช้ครีบหลังที่แปลงรูปเป็นเหมือนปุ่มดูดเกาะติดแมนไทน์ เพื่อรอรับของที่กินเหลือ"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "水槍",
-			th: "ปืนฉีดน้ำ"
+			'th-th': "ปืนฉีดน้ำ"
 		},
 
 		damage: 10,
@@ -32,7 +32,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "銳利鰭",
-			th: "ครีบแหลมคม"
+			'th-th': "ครีบแหลมคม"
 		},
 
 		damage: 20,

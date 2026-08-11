@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アグロン",
+		'ja-jp': "アグロン",
 	},
 
 	rarity: "Holo Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "重い打撃",
+				'ja-jp': "重い打撃",
 			},
 			effect: {
-				ja: "Aggronのダメージカウンターごとに70ダメージから10ダメージを差し引いた。 AggronにはReact Energy Cardが接続されている場合、この攻撃は代わりに70のダメージを与えます。",
+				'ja-jp': "Aggronのダメージカウンターごとに70ダメージから10ダメージを差し引いた。 AggronにはReact Energy Cardが接続されている場合、この攻撃は代わりに70のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Fighting", "Metal", "Colorless", "Colorless"],
 			name: {
-				ja: "バウンドクラッシュ",
+				'ja-jp': "バウンドクラッシュ",
 			},
 			effect: {
-				ja: "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに60のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）次のターン中、アグロンはバウンドクラッシュを使用できません。",
+				'ja-jp': "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに60のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）次のターン中、アグロンはバウンドクラッシュを使用できません。",
 			},
 		},
 	],

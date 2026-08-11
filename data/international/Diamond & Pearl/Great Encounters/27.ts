@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Primeape",
-		fr: "Colossinge",
-		de: "Rasaff"
+		'en-us': "Primeape",
+		'fr-fr': "Colossinge",
+		'de-de': "Rasaff"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mankey",
-		fr: "Férosinge",
+		'en-us': "Mankey",
+		'fr-fr': "Férosinge",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Anger Point",
-				fr: "Colérique",
-				de: "Kurzschluss"
+				'en-us': "Anger Point",
+				'fr-fr': "Colérique",
+				'de-de': "Kurzschluss"
 			},
 			effect: {
-				en: "If Primeape has any damage counters on it, Primeape's attacks do 40 more damage to the Active Pokémon (before applying Weakness and Resistance).",
-				fr: "Si Colossinge possède des marqueurs de dégât, ses attaques infligent 40 dégâts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance).",
-				de: "Wenn auf Rasaff mindestens 1 Schadensmarke liegt, fügen Rasaffs Angriffe den Aktiven Pokémon 40 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "If Primeape has any damage counters on it, Primeape's attacks do 40 more damage to the Active Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Si Colossinge possède des marqueurs de dégât, ses attaques infligent 40 dégâts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "Wenn auf Rasaff mindestens 1 Schadensmarke liegt, fügen Rasaffs Angriffe den Aktiven Pokémon 40 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whump",
-				fr: "Boom",
-				de: "Ffumpp"
+				'en-us': "Whump",
+				'fr-fr': "Boom",
+				'de-de': "Ffumpp"
 			},
 			effect: {
-				en: "Primeape is now Confused. Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
-				fr: "Colosinge est maintenant Confus. Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer lors du prochain tour de votre adversaire.",
-				de: "Rasaff ist jetzt verwirrt. Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon im nächsten Zug deines Gegners nicht angreifen."
+				'en-us': "Primeape is now Confused. Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
+				'fr-fr': "Colosinge est maintenant Confus. Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer lors du prochain tour de votre adversaire.",
+				'de-de': "Rasaff ist jetzt verwirrt. Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon im nächsten Zug deines Gegners nicht angreifen."
 			},
 			damage: 50,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It grows angry if you see its eyes and gets angrier if you run. If you beat it, it gets even madder.",
+		'en-us': "It grows angry if you see its eyes and gets angrier if you run. If you beat it, it gets even madder.",
 	},
 
 	thirdParty: {

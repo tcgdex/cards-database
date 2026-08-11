@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Goupix",
-		en: "Vulpix",
-		es: "Vulpix",
-		it: "Vulpix",
-		pt: "Vulpix",
-		de: "Vulpix"
+		'fr-fr': "Goupix",
+		'en-us': "Vulpix",
+		'es-es': "Vulpix",
+		'it-it': "Vulpix",
+		'pt-br': "Vulpix",
+		'de-de': "Vulpix"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			fr: "Fournaise",
-			en: "Combustion",
-			es: "Combustión",
-			it: "Fuoco Continuo",
-			pt: "Combustão",
-			de: "Glühen"
+			'fr-fr': "Fournaise",
+			'en-us': "Combustion",
+			'es-es': "Combustión",
+			'it-it': "Fuoco Continuo",
+			'pt-br': "Combustão",
+			'de-de': "Glühen"
 		},
 
 		damage: 10
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			fr: "Onde Folie",
-			en: "Confuse Ray",
-			es: "Rayo Confuso",
-			it: "Stordiraggio",
-			pt: "Raio da Confusão",
-			de: "Konfusstrahl"
+			'fr-fr': "Onde Folie",
+			'en-us': "Confuse Ray",
+			'es-es': "Rayo Confuso",
+			'it-it': "Stordiraggio",
+			'pt-br': "Raio da Confusão",
+			'de-de': "Konfusstrahl"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			en: "Your opponent's Active Pokémon is now Confused.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
 		damage: 20
@@ -67,7 +67,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm.",
+		'en-us': "As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm.",
 	},
 
 	variants: [

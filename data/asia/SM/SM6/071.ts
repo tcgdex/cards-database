@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホルビー",
+		'ja-jp': "ホルビー",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "シャベルのような 耳を 持つ。 穴掘りで 鍛えた 耳は 太い 根っこを 断ち切る 威力だ。",
+		'ja-jp': "シャベルのような 耳を 持つ。 穴掘りで 鍛えた 耳は 太い 根っこを 断ち切る 威力だ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "もってくる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を1枚引く。",
+				'ja-jp': "自分の山札を1枚引く。",
 			},
 		},
 		{

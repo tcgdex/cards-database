@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Swadloon",
-		fr: "Couverdure",
-		es: "Swadloon",
-		it: "Swadloon",
-		pt: "Swadloon",
-		de: "Folikon"
+		'en-us': "Swadloon",
+		'fr-fr': "Couverdure",
+		'es-es': "Swadloon",
+		'it-it': "Swadloon",
+		'pt-br': "Swadloon",
+		'de-de': "Folikon"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sewaddle",
-		fr: "Larveyette",
+		'en-us': "Sewaddle",
+		'fr-fr': "Larveyette",
 	},
 
 	stage: "Stage1",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Ronge",
+				'en-us': "Gnaw",
+				'fr-fr': "Ronge",
 			},
 
 			damage: 20,
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Razor Leaf",
-				fr: "Double Tranch'Herbe",
+				'en-us': "Double Razor Leaf",
+				'fr-fr': "Double Tranch'Herbe",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 50 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 50,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It protects itself from the cold by wrapping up in leaves. It stays on the move, eating leaves in forests.",
+		'en-us': "It protects itself from the cold by wrapping up in leaves. It stays on the move, eating leaves in forests.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Nintendo Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Flygon",
-		fr: "Libegon"
+		'en-us': "Flygon",
+		'fr-fr': "Libegon"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Colorless",
 	],
 	evolveFrom: {
-		en: "Vibrava",
-		fr: "Vibraninf"
+		'en-us': "Vibrava",
+		'fr-fr': "Vibraninf"
 	},
 	stage: "Stage2",
 
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sand Pit",
-				fr: "Bac à sable"
+				'en-us': "Sand Pit",
+				'fr-fr': "Bac à sable"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite avant la fin du prochain tour de votre adversaire."
+				'en-us': "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite avant la fin du prochain tour de votre adversaire."
 			},
 			damage: 20,
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragonbreath",
-				fr: "Dracosouffle"
+				'en-us': "Dragonbreath",
+				'fr-fr': "Dracosouffle"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, cette attaque est sans effet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, cette attaque est sans effet."
 			},
 			damage: 80,
 

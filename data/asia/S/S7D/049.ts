@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジュラルドンVMAX",
+		'ja-jp': "ジュラルドンVMAX",
 		'zh-tw': "鋁鋼龍VMAX",
 	},
 
@@ -19,11 +19,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "まてんろう",
+				'ja-jp': "まてんろう",
 				'zh-tw': "摩天樓",
 			},
 			effect: {
-				ja: "このポケモンは、特殊エネルギーがついている相手のポケモンから、ワザのダメージを受けない。",
+				'ja-jp': "このポケモンは、特殊エネルギーがついている相手のポケモンから、ワザのダメージを受けない。",
 				'zh-tw': "這隻寶可夢不會受到對手的身上附有特殊能量的寶可夢招式的傷害。",
 			},
 		},
@@ -32,13 +32,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "キョダイフンサイ",
+				'ja-jp': "キョダイフンサイ",
 				'zh-tw': "超極巨碎骨粉身",
 			},
 			damage: 220,
 			cost: ["Fighting", "Metal", "Metal"],
 			effect: {
-				ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 				'zh-tw': "這個招式的傷害不計算對手的戰鬥寶可夢身上的附加效果。",
 			},
 		},
@@ -58,7 +58,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ジュラルドンV",
+		'ja-jp': "ジュラルドンV",
 	},
 
 	retreat: 3,

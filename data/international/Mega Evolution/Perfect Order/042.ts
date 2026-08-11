@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
@@ -7,13 +7,13 @@ const card: Card = {
 	dexId: [688],
 
 	name: {
-		en: "Binacle",
-		fr: "Opermine",
-		es: "Binacle",
+		'en-us': "Binacle",
+		'fr-fr': "Opermine",
+		'es-es': "Binacle",
 		'es-mx': "Binacle",
-		de: "Bithora",
-		it: "Binacle",
-		pt: "Binacle"
+		'de-de': "Bithora",
+		'it-it': "Binacle",
+		'pt-br': "Binacle"
 	},
 
 	illustrator: "nagimiso",
@@ -27,35 +27,35 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Double Draw",
-			fr: "Double Pioche",
-			es: "Roba Doble",
+			'en-us': "Double Draw",
+			'fr-fr': "Double Pioche",
+			'es-es': "Roba Doble",
 			'es-mx': "Doble Robo",
-			de: "Zweifachzug",
-			it: "Pescata Doppia",
-			pt: "Compra Dupla"
+			'de-de': "Zweifachzug",
+			'it-it': "Pescata Doppia",
+			'pt-br': "Compra Dupla"
 		},
 
 		effect: {
-			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
-			es: "Roba 2 cartas.",
+			'en-us': "Draw 2 cards.",
+			'fr-fr': "Piochez 2 cartes.",
+			'es-es': "Roba 2 cartas.",
 			'es-mx': "Roba 2 cartas.",
-			de: "Ziehe 2 Karten.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas."
+			'de-de': "Ziehe 2 Karten.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas."
 		}
 	}, {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			en: "Scratch",
-			fr: "Griffe",
-			es: "Arañazo",
+			'en-us': "Scratch",
+			'fr-fr': "Griffe",
+			'es-es': "Arañazo",
 			'es-mx': "Arañazo",
-			de: "Kratzer",
-			it: "Graffio",
-			pt: "Arranhão"
+			'de-de': "Kratzer",
+			'it-it': "Graffio",
+			'pt-br': "Arranhão"
 		},
 
 		damage: 30

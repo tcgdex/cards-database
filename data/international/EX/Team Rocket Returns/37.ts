@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Dark Houndoom",
-		de: "Dunkles Hundemon"
+		'en-us': "Dark Houndoom",
+		'de-de': "Dunkles Hundemon"
 	},
 
 	illustrator: "Nakaoka",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Houndour",
+		'en-us': "Houndour",
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Fire Breath",
-				de: "Fire Breath"
+				'en-us': "Fire Breath",
+				'de-de': "Fire Breath"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Dark Houndoom is your Active Pokémon, you may flip a coin. If heads, the Defending Pokémon (choose 1 if there are 2) is now Burned. This power can't be used if Dark Houndoom is affected by a Special Condition.",
-				de: "Once during your turn (before your attack), if Dark Houndoom is your Active Pokémon, you may flip a coin. If heads, the Defending Pokémon (choose 1 if there are 2) is now Burned. This power can't be used if Dark Houndoom is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), if Dark Houndoom is your Active Pokémon, you may flip a coin. If heads, the Defending Pokémon (choose 1 if there are 2) is now Burned. This power can't be used if Dark Houndoom is affected by a Special Condition.",
+				'de-de': "Once during your turn (before your attack), if Dark Houndoom is your Active Pokémon, you may flip a coin. If heads, the Defending Pokémon (choose 1 if there are 2) is now Burned. This power can't be used if Dark Houndoom is affected by a Special Condition."
 			},
 		},
 	],
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Payback",
-				de: "Fire Payback"
+				'en-us': "Fire Payback",
+				'de-de': "Fire Payback"
 			},
 			effect: {
-				en: "If you have less Benched Pokémon than your opponent, this attack does 40 damage plus 20 more damage.",
-				de: "If you have less Benched Pokémon than your opponent, this attack does 40 damage plus 20 more damage."
+				'en-us': "If you have less Benched Pokémon than your opponent, this attack does 40 damage plus 20 more damage.",
+				'de-de': "If you have less Benched Pokémon than your opponent, this attack does 40 damage plus 20 more damage."
 			},
 			damage: "40+",
 

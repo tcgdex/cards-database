@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Donphan",
-		fr: "Donphan"
+		'en-us': "Donphan",
+		'fr-fr': "Donphan"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -18,12 +18,12 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Phanpy"
+		'en-us': "Phanpy"
 	},
 
 	description: {
-		en: "Donphan is covered in tough hide, so even being\nhit by a car won't faze this Pokémon. However, it\nis extremely susceptible to rain.",
-		fr: "Sa peau est si dure qu'une collision avec une voiture le laisserait indifférent. En revanche, il est extrêmement sensible à la pluie."
+		'en-us': "Donphan is covered in tough hide, so even being\nhit by a car won't faze this Pokémon. However, it\nis extremely susceptible to rain.",
+		'fr-fr': "Sa peau est si dure qu'une collision avec une voiture le laisserait indifférent. En revanche, il est extrêmement sensible à la pluie."
 	},
 
 	stage: "Stage1",
@@ -32,20 +32,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Exoskeleton",
-			fr: "Exosquelette"
+			'en-us': "Exoskeleton",
+			'fr-fr': "Exosquelette"
 		},
 
 		effect: {
-			en: "This Pokémon takes −20 damage from attacks.",
-			fr: "Ce Pokémon subit − 20 dégâts provenant des attaques."
+			'en-us': "This Pokémon takes −20 damage from attacks.",
+			'fr-fr': "Ce Pokémon subit − 20 dégâts provenant des attaques."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Land Crush",
-			fr: "Écras'Terre"
+			'en-us': "Land Crush",
+			'fr-fr': "Écras'Terre"
 		},
 
 		damage: 80,

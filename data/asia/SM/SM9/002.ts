@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビードル",
+		'ja-jp': "ビードル",
 	},
 
 	illustrator: "Shibuzoh.",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "森や 草地に 多く 生息。 頭の 先に ５センチぐらいの 小さく 鋭い 毒針を持つ。",
+		'ja-jp': "森や 草地に 多く 生息。 頭の 先に ５センチぐらいの 小さく 鋭い 毒針を持つ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "からめてひっぱる" },
 			cost: ["Grass"],
 			effect: {
-				ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+				'ja-jp': "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
 			},
 		},
 		{

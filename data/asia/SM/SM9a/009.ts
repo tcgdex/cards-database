@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トサキント",
+		'ja-jp': "トサキント",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "美しい 尾びれが 特徴だが トサキント同士は ツノの 太さと 鋭さを 競い合っているらしい。",
+		'ja-jp': "美しい 尾びれが 特徴だが トサキント同士は ツノの 太さと 鋭さを 競い合っているらしい。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Water"],
 			effect: {
-				ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
 			},
 		},
 	],

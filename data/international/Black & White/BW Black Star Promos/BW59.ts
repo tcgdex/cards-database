@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "White Kyurem",
-		fr: "Kyurem Blanc",
+		'en-us': "White Kyurem",
+		'fr-fr': "Kyurem Blanc",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Damage Rush",
-				fr: "Charge Destructrice",
+				'en-us': "Damage Rush",
+				'fr-fr': "Charge Destructrice",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 20 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip a coin until you get tails. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 20,
 
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cold Fire",
-				fr: "Flammes de Glace",
+				'en-us': "Cold Fire",
+				'fr-fr': "Flammes de Glace",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 40 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 40 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: 80,
 
@@ -71,7 +71,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This legendary ice Pokémon waits for a hero to fill in the missing parts of its body with truth or ideals.",
+		'en-us': "This legendary ice Pokémon waits for a hero to fill in the missing parts of its body with truth or ideals.",
 	},
 }
 

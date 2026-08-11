@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Marnie's Morgrem",
-		fr: "Fourbelin de Rosemary",
-		de: "Marys Pelzebub",
-		it: "Morgrem di Mary",
-		es: "Morgrem de Roxy",
-		pt: "Morgrem da Marine",
+		'en-us': "Marnie's Morgrem",
+		'fr-fr': "Fourbelin de Rosemary",
+		'de-de': "Marys Pelzebub",
+		'it-it': "Morgrem di Mary",
+		'es-es': "Morgrem de Roxy",
+		'pt-br': "Morgrem da Marine",
 		'es-mx': "Morgrem de Marnie"
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Marnie's Impidimp",
-		fr: "Grimalin de Rosemary",
-		de: "Marys Bähmon",
-		it: "Impidimp di Mary",
-		es: "Impidimp de Roxy",
-		pt: "Impidimp da Marine",
+		'en-us': "Marnie's Impidimp",
+		'fr-fr': "Grimalin de Rosemary",
+		'de-de': "Marys Bähmon",
+		'it-it': "Impidimp di Mary",
+		'es-es': "Impidimp de Roxy",
+		'pt-br': "Impidimp da Marine",
 		'es-mx': "Impidimp de Marnie"
 	},
 	stage: "Stage1",
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Darkness", "Darkness"],
 
 		name: {
-			en: "Corkscrew Punch",
-			fr: "Poing Tire-Bouchon",
-			de: "Korkenzieherhieb",
-			it: "Pugno Rotante",
-			es: "Puño Tirabuzón",
-			pt: "Soco Saca-rolha",
+			'en-us': "Corkscrew Punch",
+			'fr-fr': "Poing Tire-Bouchon",
+			'de-de': "Korkenzieherhieb",
+			'it-it': "Pugno Rotante",
+			'es-es': "Puño Tirabuzón",
+			'pt-br': "Soco Saca-rolha",
 			'es-mx': "Puño Sacacorchos"
 		},
 

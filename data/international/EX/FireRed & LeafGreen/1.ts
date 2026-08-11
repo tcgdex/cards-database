@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Beedrill",
-		fr: "Dardargnan",
-		de: "Bibor"
+		'en-us': "Beedrill",
+		'fr-fr': "Dardargnan",
+		'de-de': "Bibor"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kakuna",
-		fr: "Coconfort"
+		'en-us': "Kakuna",
+		'fr-fr': "Coconfort"
 	},
 
 	stage: "Stage2",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Sting",
-				fr: "Dard-venin",
-				de: "Poison Sting"
+				'en-us': "Poison Sting",
+				'fr-fr': "Dard-venin",
+				'de-de': "Poison Sting"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "The Defending Pokémon is now Poisoned."
 			},
 			damage: 20,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Link Needle",
-				fr: "Dards en chaîne",
-				de: "Link Needle"
+				'en-us': "Link Needle",
+				'fr-fr': "Dards en chaîne",
+				'de-de': "Link Needle"
 			},
 			effect: {
-				en: "This attack does 50 damage plus 30 more damage for each Beedrill (excluding this one) you have in play.",
-				fr: "Cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires pour chaque Dardargnan que vous avez en jeu (sans compter celui-ci).",
-				de: "This attack does 50 damage plus 30 more damage for each Beedrill (excluding this one)you have in play."
+				'en-us': "This attack does 50 damage plus 30 more damage for each Beedrill (excluding this one) you have in play.",
+				'fr-fr': "Cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires pour chaque Dardargnan que vous avez en jeu (sans compter celui-ci).",
+				'de-de': "This attack does 50 damage plus 30 more damage for each Beedrill (excluding this one)you have in play."
 			},
 			damage: 50,
 

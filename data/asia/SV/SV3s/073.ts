@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Houndstone"
+		'id-id': "Houndstone"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Houndstone biasanya tidur di dalam makam. Pokémon yang paling setia di antara Pokémon anjing lainnya."
+		'id-id': "Houndstone biasanya tidur di dalam makam. Pokémon yang paling setia di antara Pokémon anjing lainnya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Tendangan Belakang"
+			'id-id': "Tendangan Belakang"
 		},
 
 		damage: 30,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Gigih Mati-matian"
+			'id-id': "Gigih Mati-matian"
 		},
 
 		effect: {
-			id: "Jika sisa Kartu Point lawan adalah 4 atau 2 lembar, kerusakan yang diberikan bertambah sejumlah 120."
+			'id-id': "Jika sisa Kartu Point lawan adalah 4 atau 2 lembar, kerusakan yang diberikan bertambah sejumlah 120."
 		},
 
 		damage: "80+",

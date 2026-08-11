@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴルーグ",
+		'ja-jp': "ゴルーグ",
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "古代人が 労働力 として ゴルーグを 発明したといわれる。 主の 命令に 忠実だ。",
+		'ja-jp': "古代人が 労働力 として ゴルーグを 発明したといわれる。 主の 命令に 忠実だ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Psychic"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分のトラッシュにサポートがあるなら、このワザは失敗。",
+				'ja-jp': "自分のトラッシュにサポートがあるなら、このワザは失敗。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴビット",
+		'ja-jp': "ゴビット",
 	},
 
 	retreat: 4,

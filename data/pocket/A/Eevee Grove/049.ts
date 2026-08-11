@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Meltan",
-		fr: "Meltan"
+		'en-us': "Meltan",
+		'fr-fr': "Meltan"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "It dissolves and eats metal. Circulating liquid\nmetal within its body is how it generates energy.",
-		fr: "Il se nourrit du métal qu'il fait fondre, et produit de l'énergie en faisant circuler du métal liquide dans son corps."
+		'en-us': "It dissolves and eats metal. Circulating liquid\nmetal within its body is how it generates energy.",
+		'fr-fr': "Il se nourrit du métal qu'il fait fondre, et produit de l'énergie en faisant circuler du métal liquide dans son corps."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule"
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule"
 		},
 
 		damage: 20,

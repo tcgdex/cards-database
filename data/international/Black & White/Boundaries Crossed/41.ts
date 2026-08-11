@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Samurott",
-		fr: "Clamiral",
-		es: "Samurott",
-		it: "Samurott",
-		pt: "Samurott",
-		de: "Admurai"
+		'en-us': "Samurott",
+		'fr-fr': "Clamiral",
+		'es-es': "Samurott",
+		'it-it': "Samurott",
+		'pt-br': "Samurott",
+		'de-de': "Admurai"
 	},
 
 	illustrator: "match",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dewott",
-		fr: "Mateloutre",
+		'en-us': "Dewott",
+		'fr-fr': "Mateloutre",
 	},
 
 	stage: "Stage2",
@@ -40,8 +40,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Waterfall",
-				fr: "Cascade",
+				'en-us': "Waterfall",
+				'fr-fr': "Cascade",
 			},
 
 			damage: 50,
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Destructive Whirlpool",
-				fr: "Siphon Destructeur",
+				'en-us': "Destructive Whirlpool",
+				'fr-fr': "Siphon Destructeur",
 			},
 			effect: {
-				en: "Discard an Energy attached to the Defending Pokémon.",
-				fr: "Défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 80,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them quiets everybody.",
+		'en-us': "One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them quiets everybody.",
 	},
 
 	thirdParty: {

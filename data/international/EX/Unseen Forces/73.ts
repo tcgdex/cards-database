@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Slugma",
-		fr: "Limagma",
-		de: "Schneckmag"
+		'en-us': "Slugma",
+		'fr-fr': "Limagma",
+		'de-de': "Schneckmag"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Yawn",
-				fr: "Baillement",
-				de: "Yawn"
+				'en-us': "Yawn",
+				'fr-fr': "Baillement",
+				'de-de': "Yawn"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Headbutt"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Headbutt"
 			},
 
 			damage: 10,

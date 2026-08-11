@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Druddigon",
-		fr: "Drakkarmin",
+		'en-us': "Druddigon",
+		'fr-fr': "Drakkarmin",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Common",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Taunt",
-				fr: "Provoc",
+				'en-us': "Taunt",
+				'fr-fr': "Provoc",
 			},
 			effect: {
-				en: "Switch 1 of your opponent's Benched Pokémon with the Defending Pokémon.",
-				fr: "Échangez 1 des Pokémon de Banc de votre adversaire avec le Pokémon Défenseur.",
+				'en-us': "Switch 1 of your opponent's Benched Pokémon with the Defending Pokémon.",
+				'fr-fr': "Échangez 1 des Pokémon de Banc de votre adversaire avec le Pokémon Défenseur.",
 			},
 
 		},
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Boost Claw",
-				fr: "Griffoboost",
+				'en-us': "Boost Claw",
+				'fr-fr': "Griffoboost",
 			},
 			effect: {
-				en: "During your next turn, each of this Pokémon's attacks does 30 more damage (before applying Weakness and Resistance).",
-				fr: "Pendant votre prochain tour, chaque attaque de ce Pokémon inflige 30 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				'en-us': "During your next turn, each of this Pokémon's attacks does 30 more damage (before applying Weakness and Resistance).",
+				'fr-fr': "Pendant votre prochain tour, chaque attaque de ce Pokémon inflige 30 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: 60,
 
@@ -68,7 +68,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It runs through the narrow tunnels formed by Excadrill and Onix. It uses its sharp claws to catch prey.",
+		'en-us': "It runs through the narrow tunnels formed by Excadrill and Onix. It uses its sharp claws to catch prey.",
 	},
 }
 

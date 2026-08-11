@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sword & Shield'
 
 const swsh8: Set = {
 	id: "swsh8",
 
 	name: {
-		en: "Fusion Strike",
-		fr: "Poing de Fusion",
-		es: "Golpe Fusión",
-		it: "Colpo Fusione",
-		de: "Fusions Angriff",
-		pt: "Golpe Fusão"
+		'en-us': "Fusion Strike",
+		'fr-fr': "Poing de Fusion",
+		'es-es': "Golpe Fusión",
+		'it-it': "Colpo Fusione",
+		'de-de': "Fusions Angriff",
+		'pt-br': "Golpe Fusão"
 	},
 
 	tcgOnline: 'FST',
@@ -24,7 +24,7 @@ const swsh8: Set = {
 
 	abbreviations: {
 		official: "FST",
-		fr: "PDF"
+		'fr-fr': "PDF"
 	},
 
 	thirdParty: {

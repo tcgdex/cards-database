@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "スナヘビ",
+		'ja-jp': "スナヘビ",
 		'zh-tw': "沙包蛇",
-		th: "ซึนะเฮบิ",
-		id: "Silicobra"
+		'th-th': "ซึนะเฮบิ",
+		'id-id': "Silicobra"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "風船のように 伸び縮む 首の 袋は 脱皮を 重ねるたびに 伸縮性が 増していく。",
+		'ja-jp': "風船のように 伸び縮む 首の 袋は 脱皮を 重ねるたびに 伸縮性が 増していく。",
 		'zh-tw': "頸部的囊袋就像氣球一樣能伸縮自如，而隨著不斷 蛻皮，伸縮性會隨之增加。",
-		th: "ถุงที่คอยืดหดได้เหมือนลูกโป่ง ยิ่งลอกคราบมากเท่าไหร่ ถุงที่คอก็จะยืดหยุ่นมากขึ้นเท่านั้น",
-		id: "Kantong di leher Silicobra yang dapat memanjang dan memendek seperti balon akan menjadi makin elastis setiap kali ia berganti kulit."
+		'th-th': "ถุงที่คอยืดหดได้เหมือนลูกโป่ง ยิ่งลอกคราบมากเท่าไหร่ ถุงที่คอก็จะยืดหยุ่นมากขึ้นเท่านั้น",
+		'id-id': "Kantong di leher Silicobra yang dapat memanjang dan memendek seperti balon akan menjadi makin elastis setiap kali ia berganti kulit."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			ja: "どろかけ",
+			'ja-jp': "どろかけ",
 			'zh-tw': "擲泥",
-			th: "สาดโคลน",
-			id: "Semprotan Lumpur"
+			'th-th': "สาดโคลน",
+			'id-id': "Semprotan Lumpur"
 		},
 
 		damage: 30

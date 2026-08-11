@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Weepinbell",
+		'en-us': "Weepinbell",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bellsprout",
+		'en-us': "Bellsprout",
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poisonpowder",
+				'en-us': "Poisonpowder",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 			},
 
 		},
@@ -46,7 +46,7 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Razor Leaf",
+				'en-us': "Razor Leaf",
 			},
 
 			damage: 30,
@@ -64,7 +64,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It spits out poisonpowder to immobilize the enemy, and then finishes the enemy with a spray of acid.",
+		'en-us': "It spits out poisonpowder to immobilize the enemy, and then finishes the enemy with a spray of acid.",
 	},
 
 

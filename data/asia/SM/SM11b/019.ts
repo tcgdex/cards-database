@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レアコイル",
+		'ja-jp': "レアコイル",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "謎の 電波を 発信 しており レアコイルが 棲んでいる 場所では 精密機器が 故障してしまう。",
+		'ja-jp': "謎の 電波を 発信 しており レアコイルが 棲んでいる 場所では 精密機器が 故障してしまう。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "しょうしゅうしんごう" },
 			effect: {
-				ja: "自分の番に1回使えて、使ったなら、このポケモンをきぜつさせる。自分の山札にあるサポートを3枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の番に1回使えて、使ったなら、このポケモンをきぜつさせる。自分の山札にあるサポートを3枚まで、相手に見せてから、手札に加える。そして山札を切る。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コイル",
+		'ja-jp': "コイル",
 	},
 
 	retreat: 2,

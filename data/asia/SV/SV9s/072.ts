@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โดโรบังโค",
-		id: "Mudbray"
+		'th-th': "โดโรบังโค",
+		'id-id': "Mudbray"
 	},
 
 	illustrator: "Aliya Chen",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		th: "โคลนที่ติดอยู่คือดินที่เคี้ยวซ้ำแล้วซ้ำเล่า ไม่ว่าจะตากแดดนานขนาดไหน ก็ไม่แห้ง",
-		id: "Lumpur yang menyelimuti Mudbray adalah hasil memamah biak setelah memakan tanah. Lumpur tersebut tidak akan kering meskipun berjemur dalam waktu yang lama."
+		'th-th': "โคลนที่ติดอยู่คือดินที่เคี้ยวซ้ำแล้วซ้ำเล่า ไม่ว่าจะตากแดดนานขนาดไหน ก็ไม่แห้ง",
+		'id-id': "Lumpur yang menyelimuti Mudbray adalah hasil memamah biak setelah memakan tanah. Lumpur tersebut tidak akan kering meskipun berjemur dalam waktu yang lama."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "วิ่งแรง",
-			id: "Berlari"
+			'th-th': "วิ่งแรง",
+			'id-id': "Berlari"
 		},
 
 		effect: {
-			th: "ทอยเหรียญจนกว่าจะออกก้อย แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x40",
-			id: "Lempar koin hingga hasilnya sisi belakang. Serangan ini memberikan kerusakan sejumlah 40 untuk tiap lemparan dengan hasil sisi depan."
+			'th-th': "ทอยเหรียญจนกว่าจะออกก้อย แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x40",
+			'id-id': "Lempar koin hingga hasilnya sisi belakang. Serangan ini memberikan kerusakan sejumlah 40 untuk tiap lemparan dengan hasil sisi depan."
 		},
 
 		damage: "40×",

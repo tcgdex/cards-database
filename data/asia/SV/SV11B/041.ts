@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダブラン",
+		'ja-jp': "ダブラン",
 	},
 
 	illustrator: "LINNE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "２つに 分裂した 脳みそを 持っているため いきなり 違う 行動を とることが あるのだ。",
+		'ja-jp': "２つに 分裂した 脳みそを 持っているため いきなり 違う 行動を とることが あるのだ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "さいぼうしんか" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の場のポケモン1匹から進化するカードを、自分の山札から1枚選び、そのポケモンにのせて進化させる。そして山札を切る。",
+				'ja-jp': "自分の場のポケモン1匹から進化するカードを、自分の山札から1枚選び、そのポケモンにのせて進化させる。そして山札を切る。",
 			},
 		},
 		{ name: { ja: "しるをとばす" }, damage: 30, cost: ["Colorless"] },
@@ -39,7 +39,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ユニラン",
+		'ja-jp': "ユニラン",
 	},
 
 	retreat: 1,

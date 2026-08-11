@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [660],
 
 	name: {
-		en: "Diggersby",
-		fr: "Excavarenne",
-		es: "Diggersby",
-		it: "Diggersby",
-		pt: "Diggersby",
-		de: "Grebbit"
+		'en-us': "Diggersby",
+		'fr-fr': "Excavarenne",
+		'es-es': "Diggersby",
+		'it-it': "Diggersby",
+		'pt-br': "Diggersby",
+		'de-de': "Grebbit"
 	},
 
 	illustrator: "0313",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bunnelby",
-		fr: "Sapereau",
-		es: "Bunnelby",
-		it: "Bunnelby",
-		pt: "Bunnelby",
-		de: "Scoppel"
+		'en-us': "Bunnelby",
+		'fr-fr': "Sapereau",
+		'es-es': "Bunnelby",
+		'it-it': "Bunnelby",
+		'pt-br': "Bunnelby",
+		'de-de': "Scoppel"
 	},
 
 	attacks: [
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer In",
-				fr: "Enfoncement",
-				es: "Martillear",
-				it: "Martello",
-				pt: "Martelada",
-				de: "Einhämmern"
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncement",
+				'es-es': "Martillear",
+				'it-it': "Martello",
+				'pt-br': "Martelada",
+				'de-de': "Einhämmern"
 			},
 
 			damage: 90,
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Land Crush",
-				fr: "Écras'Terre",
-				es: "Aterrizaje",
-				it: "Schiacciaterra",
-				pt: "Aperto de Terra",
-				de: "Schollenbrecher"
+				'en-us': "Land Crush",
+				'fr-fr': "Écras'Terre",
+				'es-es': "Aterrizaje",
+				'it-it': "Schiacciaterra",
+				'pt-br': "Aperto de Terra",
+				'de-de': "Schollenbrecher"
 			},
 
 			damage: 140,
@@ -86,7 +86,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "With power equal to an excavator, it can dig through dense bedrock. It's a huge help during tunnel construction."
+		'en-us': "With power equal to an excavator, it can dig through dense bedrock. It's a huge help during tunnel construction."
 	},
 
 	variants: [

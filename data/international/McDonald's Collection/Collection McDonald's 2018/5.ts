@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Caninos",
+		'fr-fr': "Caninos",
 	},
 
 	rarity: "None",
@@ -22,10 +22,10 @@ const card: Card = {
 		{
 			cost: ["Fire", "Colorless", "Colorless"],
 			name: {
-				fr: "Bélier"
+				'fr-fr': "Bélier"
 			},
 			effect: {
-				fr: "Ce Pokémon s'inflige 20 dégâts."
+				'fr-fr': "Ce Pokémon s'inflige 20 dégâts."
 			},
 			damage: 60
 		}

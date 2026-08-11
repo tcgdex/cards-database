@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Charmander",
-		fr: "Salamèche",
-		de: "Glumanda"
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche",
+		'de-de': "Glumanda"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flare",
-				fr: "Intimidation",
-				de: "Flare"
+				'en-us': "Flare",
+				'fr-fr': "Intimidation",
+				'de-de': "Flare"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rage",
-				fr: "Frénésie",
-				de: "Rage"
+				'en-us': "Rage",
+				'fr-fr': "Frénésie",
+				'de-de': "Rage"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each damage counter on Charmander.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Salamèche.",
-				de: "Does 10 damage plus 10 more damage for each damage counter on Charmander"
+				'en-us': "Does 10 damage plus 10 more damage for each damage counter on Charmander.",
+				'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Salamèche.",
+				'de-de': "Does 10 damage plus 10 more damage for each damage counter on Charmander"
 			},
 			damage: "10+",
 

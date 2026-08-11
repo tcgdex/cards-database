@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Gabite",
-		fr: "Carmache",
-		es: "Gabite",
-		it: "Gabite",
-		pt: "Gabite",
-		de: "Knarksel"
+		'en-us': "Gabite",
+		'fr-fr': "Carmache",
+		'es-es': "Gabite",
+		'it-it': "Gabite",
+		'pt-br': "Gabite",
+		'de-de': "Knarksel"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gible",
-		fr: "Griknot",
+		'en-us': "Gible",
+		'fr-fr': "Griknot",
 	},
 
 	stage: "Stage1",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
 			},
 
 			damage: 20,
@@ -52,12 +52,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Shred",
-				fr: "Déchiquetage",
+				'en-us': "Shred",
+				'fr-fr': "Déchiquetage",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by any effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Défenseur.",
+				'en-us': "This attack's damage isn't affected by any effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Défenseur.",
 			},
 			damage: 40,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest.",
+		'en-us': "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest.",
 	},
 
 	thirdParty: {

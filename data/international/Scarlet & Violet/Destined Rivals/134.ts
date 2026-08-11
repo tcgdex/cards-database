@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Marnie's Impidimp",
-		fr: "Grimalin de Rosemary",
-		de: "Marys Bähmon",
-		it: "Impidimp di Mary",
-		es: "Impidimp de Roxy",
-		pt: "Impidimp da Marine",
+		'en-us': "Marnie's Impidimp",
+		'fr-fr': "Grimalin de Rosemary",
+		'de-de': "Marys Bähmon",
+		'it-it': "Impidimp di Mary",
+		'es-es': "Impidimp de Roxy",
+		'pt-br': "Impidimp da Marine",
 		'es-mx': "Impidimp de Marnie"
 	},
 
@@ -28,34 +28,34 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Filch",
-			fr: "Maraudage",
-			de: "Mopsen",
-			it: "Furtarello",
-			es: "Birlar",
-			pt: "Furtar",
+			'en-us': "Filch",
+			'fr-fr': "Maraudage",
+			'de-de': "Mopsen",
+			'it-it': "Furtarello",
+			'es-es': "Birlar",
+			'pt-br': "Furtar",
 			'es-mx': "Hurtar"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			de: "Ziehe 1 Karte.",
-			it: "Pesca una carta.",
-			es: "Roba 1 carta.",
-			pt: "Compre uma carta.",
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'de-de': "Ziehe 1 Karte.",
+			'it-it': "Pesca una carta.",
+			'es-es': "Roba 1 carta.",
+			'pt-br': "Compre uma carta.",
 			'es-mx': "Roba 1 carta."
 		}
 	}, {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Corkscrew Punch",
-			fr: "Poing Tire-Bouchon",
-			de: "Korkenzieherhieb",
-			it: "Pugno Rotante",
-			es: "Puño Tirabuzón",
-			pt: "Soco Saca-rolha",
+			'en-us': "Corkscrew Punch",
+			'fr-fr': "Poing Tire-Bouchon",
+			'de-de': "Korkenzieherhieb",
+			'it-it': "Pugno Rotante",
+			'es-es': "Puño Tirabuzón",
+			'pt-br': "Soco Saca-rolha",
 			'es-mx': "Puño Sacacorchos"
 		},
 

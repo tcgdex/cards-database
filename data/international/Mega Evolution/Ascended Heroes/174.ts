@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Larry's Braviary",
-		fr: "Gueriaigle d'Okuba",
-		es: "Braviary de Laureano",
+		'en-us': "Larry's Braviary",
+		'fr-fr': "Gueriaigle d'Okuba",
+		'es-es': "Braviary de Laureano",
 		'es-mx': "Braviary de Laureano",
-		de: "Aokis Washakwil",
-		it: "Braviary di Ubaldo",
-		pt: "Braviary do Lauro"
+		'de-de': "Aokis Washakwil",
+		'it-it': "Braviary di Ubaldo",
+		'pt-br': "Braviary do Lauro"
 	},
 
 	evolveFrom: {
-		en: "Larry's Rufflet",
-		fr: "Furaiglon d'Okuba",
-		es: "Rufflet de Laureano",
+		'en-us': "Larry's Rufflet",
+		'fr-fr': "Furaiglon d'Okuba",
+		'es-es': "Rufflet de Laureano",
 		'es-mx': "Rufflet de Laureano",
-		de: "Aokis Geronimatz",
-		it: "Rufflet di Ubaldo",
-		pt: "Rufflet do Lauro",
+		'de-de': "Aokis Geronimatz",
+		'it-it': "Rufflet di Ubaldo",
+		'pt-br': "Rufflet do Lauro",
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -35,23 +35,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Clutch",
-			fr: "Serre",
-			es: "Embrague",
+			'en-us': "Clutch",
+			'fr-fr': "Serre",
+			'es-es': "Embrague",
 			'es-mx': "Enganchar",
-			de: "Greifer",
-			it: "Grinfie",
-			pt: "Agarramento"
+			'de-de': "Greifer",
+			'it-it': "Grinfie",
+			'pt-br': "Agarramento"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
-			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
-			es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
+			'en-us': "During your opponent's next turn, the Defending Pokémon can't retreat.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
+			'es-es': "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
 			'es-mx': "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
-			de: "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen.",
-			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-			pt: "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar."
+			'de-de': "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen.",
+			'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+			'pt-br': "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar."
 		},
 
 		damage: 50
@@ -59,23 +59,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Brave Bird",
-			fr: "Rapace",
-			es: "Pájaro Osado",
+			'en-us': "Brave Bird",
+			'fr-fr': "Rapace",
+			'es-es': "Pájaro Osado",
 			'es-mx': "Ave Brava",
-			de: "Sturzflug",
-			it: "Baldeali",
-			pt: "Pássaro Bravo"
+			'de-de': "Sturzflug",
+			'it-it': "Baldeali",
+			'pt-br': "Pássaro Bravo"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 			'es-mx': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo."
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo."
 		},
 
 		damage: 120
@@ -97,7 +97,7 @@ const card: Card = {
 	regulationMark: "J",
 
 	description: {
-		en: "For the sake of its friends, this brave warrior of the sky will not stop battling, even if injured.",
+		'en-us': "For the sake of its friends, this brave warrior of the sky will not stop battling, even if injured.",
 	},
 
 	variants: [

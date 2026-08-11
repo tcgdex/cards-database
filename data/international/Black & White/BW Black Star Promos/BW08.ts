@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Oshawott",
-		fr: "Moustillon",
+		'en-us': "Oshawott",
+		'fr-fr': "Moustillon",
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleep Pulse",
-				fr: "Pouls Dodo",
+				'en-us': "Sleep Pulse",
+				'fr-fr': "Pouls Dodo",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
 			},
 
 		},
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surprise Attack",
-				fr: "Attaque Surprise",
+				'en-us': "Surprise Attack",
+				'fr-fr': "Attaque Surprise",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 			},
 			damage: 30,
 
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The scalchop on its stomach is made from the same elements as claws. It detaches the scalchop for use as a blade.",
+		'en-us': "The scalchop on its stomach is made from the same elements as claws. It detaches the scalchop for use as a blade.",
 	},
 }
 

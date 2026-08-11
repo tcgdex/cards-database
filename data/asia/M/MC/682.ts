@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シロナのパワーウエイト",
+		'ja-jp': "シロナのパワーウエイト",
 	},
 
 	illustrator: "Studio Bora Inc.",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけている「シロナのポケモン」の最大HPは「＋70」される。",
+		'ja-jp': "このカードをつけている「シロナのポケモン」の最大HPは「＋70」される。",
 	},
 
 	variants: [

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Excadrill",
-		fr: "Minotaupe",
-		es: "Excadrill",
-		it: "Excadrill",
-		pt: "Excadrill",
-		de: "Stalobor"
+		'en-us': "Excadrill",
+		'fr-fr': "Minotaupe",
+		'es-es': "Excadrill",
+		'it-it': "Excadrill",
+		'pt-br': "Excadrill",
+		'de-de': "Stalobor"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Drilbur",
-		fr: "Rototaupe",
+		'en-us': "Drilbur",
+		'fr-fr': "Rototaupe",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Eleventh Hour Tackle",
-				fr: "Tacle Désespéré",
-				es: "Placaje de Última Hora",
-				it: "Azione in Extremis",
-				pt: "Investida de Última Hora",
-				de: "Notstampfer"
+				'en-us': "Eleventh Hour Tackle",
+				'fr-fr': "Tacle Désespéré",
+				'es-es': "Placaje de Última Hora",
+				'it-it': "Azione in Extremis",
+				'pt-br': "Investida de Última Hora",
+				'de-de': "Notstampfer"
 			},
 			effect: {
-				en: "If there are 3 or fewer cards in your deck, this attack does 150 more damage.",
-				fr: "S’il y a 3 cartes ou moins dans votre deck, cette attaque inflige 150 dégâts supplémentaires.",
-				es: "Si hay 3 cartas o menos en tu baraja, este ataque hace 150 puntos de daño más.",
-				it: "Se ci sono tre o meno carte nel tuo mazzo, questo attacco infligge 150 danni in più.",
-				pt: "Se houver 3 ou menos cartas no seu baralho, este ataque causará 150 pontos de dano a mais.",
-				de: "Wenn 3 oder weniger Karten in deinem Deck sind, fügt diese Attacke 150 Schadenspunkte mehr zu."
+				'en-us': "If there are 3 or fewer cards in your deck, this attack does 150 more damage.",
+				'fr-fr': "S’il y a 3 cartes ou moins dans votre deck, cette attaque inflige 150 dégâts supplémentaires.",
+				'es-es': "Si hay 3 cartas o menos en tu baraja, este ataque hace 150 puntos de daño más.",
+				'it-it': "Se ci sono tre o meno carte nel tuo mazzo, questo attacco infligge 150 danni in più.",
+				'pt-br': "Se houver 3 ou menos cartas no seu baralho, este ataque causará 150 pontos de dano a mais.",
+				'de-de': "Wenn 3 oder weniger Karten in deinem Deck sind, fügt diese Attacke 150 Schadenspunkte mehr zu."
 			},
 			damage: "30+",
 
@@ -62,20 +62,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Drill Bazooka",
-				fr: "Perceuse Bazooka",
-				es: "Bazooka Taladro",
-				it: "Bazooka Perforante",
-				pt: "Bazuca Perfurante",
-				de: "Bazooka-Bohrer"
+				'en-us': "Drill Bazooka",
+				'fr-fr': "Perceuse Bazooka",
+				'es-es': "Bazooka Taladro",
+				'it-it': "Bazooka Perforante",
+				'pt-br': "Bazuca Perfurante",
+				'de-de': "Bazooka-Bohrer"
 			},
 			effect: {
-				en: "Discard the top 4 cards of your deck.",
-				fr: "Défaussez les 4 cartes du dessus de votre deck.",
-				es: "Descarta las 4 primeras cartas de tu baraja.",
-				it: "Scarta le prime quattro carte del tuo mazzo.",
-				pt: "Descarte as 4 primeiras cartas do seu baralho.",
-				de: "Lege die obersten 4 Karten deines Decks auf deinen Ablagestapel."
+				'en-us': "Discard the top 4 cards of your deck.",
+				'fr-fr': "Défaussez les 4 cartes du dessus de votre deck.",
+				'es-es': "Descarta las 4 primeras cartas de tu baraja.",
+				'it-it': "Scarta le prime quattro carte del tuo mazzo.",
+				'pt-br': "Descarte as 4 primeiras cartas do seu baralho.",
+				'de-de': "Lege die obersten 4 Karten deines Decks auf deinen Ablagestapel."
 			},
 			damage: 120,
 
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It can help in tunnel construction. Its drill has evolved into steel strong enough to bore through iron plates.",
+		'en-us': "It can help in tunnel construction. Its drill has evolved into steel strong enough to bore through iron plates.",
 	},
 
 	thirdParty: {

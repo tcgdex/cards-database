@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S5I";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バンギラスV",
+		'ja-jp': "バンギラスV",
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手の山札を上から2枚トラッシュする。",
+				'ja-jp': "相手の山札を上から2枚トラッシュする。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 240,
 			cost: ["Darkness", "Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分の山札を上から4枚トラッシュする。",
+				'ja-jp': "自分の山札を上から4枚トラッシュする。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シール",
+		'ja-jp': "シール",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "コールドブレス",
+				'ja-jp': "コールドブレス",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御するポケモンは今眠っています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御するポケモンは今眠っています。",
 			},
 			damage: 10,
 		},

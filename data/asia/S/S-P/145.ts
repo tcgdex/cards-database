@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミロカロス",
+		'ja-jp': "ミロカロス",
 		'zh-tw': "卡比獸",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "もっとも 美しい ポケモンとも 呼ばれ 多くの 芸術家に インスピレーションを 与えてきた。",
+		'ja-jp': "もっとも 美しい ポケモンとも 呼ばれ 多くの 芸術家に インスピレーションを 与えてきた。",
 		'zh-tw': "每天不吃下４００公斤的食物絕不會善罷甘休。吃飽了就會開始睡覺。",
 	},
 
@@ -25,7 +25,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ブライトヒール" },
 			effect: {
-				ja: "自分の番に1回使える。自分のポケモン全員のHPを、それぞれ「20」回復する。",
+				'ja-jp': "自分の番に1回使える。自分のポケモン全員のHPを、それぞれ「20」回復する。",
 			},
 		},
 	],
@@ -33,7 +33,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "なみのり",
+				'ja-jp': "なみのり",
 				'zh-tw': "滾動衝撞",
 			},
 			damage: 80,
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒンバス",
+		'ja-jp': "ヒンバス",
 	},
 
 	retreat: 2,

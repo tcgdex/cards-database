@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Whimsicott",
-		fr: "Farfaduvet",
-		es: "Whimsicott",
-		it: "Whimsicott",
-		pt: "Whimsicott",
-		de: "Elfun"
+		'en-us': "Whimsicott",
+		'fr-fr': "Farfaduvet",
+		'es-es': "Whimsicott",
+		'it-it': "Whimsicott",
+		'pt-br': "Whimsicott",
+		'de-de': "Elfun"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cottonee",
-		fr: "Doudouvet",
-		es: "Cottonee",
-		it: "Cottonee",
-		pt: "Cottonee",
-		de: "Waumboll"
+		'en-us': "Cottonee",
+		'fr-fr': "Doudouvet",
+		'es-es': "Cottonee",
+		'it-it': "Cottonee",
+		'pt-br': "Cottonee",
+		'de-de': "Waumboll"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Windy Mischief",
-				fr: "Espièglerie Venteuse",
-				es: "Jugarreta Torbellino",
-				it: "Vento Birichino",
-				pt: "Travessura Ventosa",
-				de: "Windiges Unheil"
+				'en-us': "Windy Mischief",
+				'fr-fr': "Espièglerie Venteuse",
+				'es-es': "Jugarreta Torbellino",
+				'it-it': "Vento Birichino",
+				'pt-br': "Travessura Ventosa",
+				'de-de': "Windiges Unheil"
 			},
 			effect: {
-				en: "Move all damage counters from 1 of your Benched Pokémon to your opponent's Active Pokémon.",
-				fr: "Déplacez tous les marqueurs de dégâts de l'un de vos Pokémon de Banc vers le Pokémon Actif de votre adversaire.",
-				es: "Mueve todos los contadores de daño de 1 de tus Pokémon en Banca al Pokémon Activo de tu rival.",
-				it: "Sposta tutti i segnalini danno da uno dei tuoi Pokémon in panchina al Pokémon attivo del tuo avversario.",
-				pt: "Mova todos os marcadores de danos acima de 1 dos seus Pokémon no Banco para o Pokémon Ativo do seu oponente.",
-				de: "Verschiebe alle Schadensmarken von 1 Pokémon auf deiner Bank auf das Aktive Pokémon deines Gegners."
+				'en-us': "Move all damage counters from 1 of your Benched Pokémon to your opponent's Active Pokémon.",
+				'fr-fr': "Déplacez tous les marqueurs de dégâts de l'un de vos Pokémon de Banc vers le Pokémon Actif de votre adversaire.",
+				'es-es': "Mueve todos los contadores de daño de 1 de tus Pokémon en Banca al Pokémon Activo de tu rival.",
+				'it-it': "Sposta tutti i segnalini danno da uno dei tuoi Pokémon in panchina al Pokémon attivo del tuo avversario.",
+				'pt-br': "Mova todos os marcadores de danos acima de 1 dos seus Pokémon no Banco para o Pokémon Ativo do seu oponente.",
+				'de-de': "Verschiebe alle Schadensmarken von 1 Pokémon auf deiner Bank auf das Aktive Pokémon deines Gegners."
 			},
 
 		},
@@ -66,12 +66,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rolling Tackle",
-				fr: "Roulé-Boulé",
-				es: "Placaje Giro",
-				it: "Rollazione",
-				pt: "Golpe de Colisão Rolante",
-				de: "Rolltackle"
+				'en-us': "Rolling Tackle",
+				'fr-fr': "Roulé-Boulé",
+				'es-es': "Placaje Giro",
+				'it-it': "Rollazione",
+				'pt-br': "Golpe de Colisão Rolante",
+				'de-de': "Rolltackle"
 			},
 
 			damage: 30,
@@ -96,7 +96,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Like the wind, it can slip through any gap, no matter how small. It leaves balls of white fluff behind.",
+		'en-us': "Like the wind, it can slip through any gap, no matter how small. It leaves balls of white fluff behind.",
 	},
 
 	thirdParty: {

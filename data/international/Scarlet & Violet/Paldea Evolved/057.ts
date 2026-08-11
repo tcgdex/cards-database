@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Frigodo",
-		en: "Frigibax",
-		es: "Frigibax",
-		it: "Frigibax",
-		pt: "Frigibax",
-		de: "Frospino"
+		'fr-fr': "Frigodo",
+		'en-us': "Frigibax",
+		'es-es': "Frigibax",
+		'it-it': "Frigibax",
+		'pt-br': "Frigibax",
+		'de-de': "Frospino"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			fr: "Charge",
-			en: "Tackle",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'fr-fr': "Charge",
+			'en-us': "Tackle",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 30
@@ -66,7 +66,7 @@ const card: Card = {
 	illustrator: "Akira Komayama",
 
 	description: {
-		en: "Frigibax absorbs heat through its dorsal fin and converts the heat into ice energy. The higher the temperature, the more energy Frigibax stores.",
+		'en-us': "Frigibax absorbs heat through its dorsal fin and converts the heat into ice energy. The higher the temperature, the more energy Frigibax stores.",
 	},
 }
 

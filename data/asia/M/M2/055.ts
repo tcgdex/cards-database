@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワルビアル",
+		'ja-jp': "ワルビアル",
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "強力な あごで 噛みつくと そのまま 思い切り 体を ひねり 獲物を 切断する。",
+		'ja-jp': "強力な あごで 噛みつくと そのまま 思い切り 体を ひねり 獲物を 切断する。",
 	},
 
 	stage: "Stage2",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "ワルビル",
+		'ja-jp': "ワルビル",
 	},
 
 	retreat: 3,

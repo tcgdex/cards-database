@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Dark Electrode",
-		fr: "Electrode obscur",
-		de: "Dunkles Lektrobal"
+		'en-us': "Dark Electrode",
+		'fr-fr': "Electrode obscur",
+		'de-de': "Dunkles Lektrobal"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Voltorb",
-		fr: "Voltorbe"
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe"
 	},
 
 	stage: "Stage1",
@@ -36,9 +36,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rolling Tackle",
-				fr: "Plaquage roulant",
-				de: "Rolling Tackle"
+				'en-us': "Rolling Tackle",
+				'fr-fr': "Plaquage roulant",
+				'de-de': "Rolling Tackle"
 			},
 
 			damage: 10,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Energy Bomb",
-				fr: "Bombe à Énergie",
-				de: "Energy Bomb"
+				'en-us': "Energy Bomb",
+				'fr-fr': "Bombe à Énergie",
+				'de-de': "Energy Bomb"
 			},
 			effect: {
-				en: "Take all Energy cards attached to Dark Electrode and attach them to your Benched Pokémon (in any way you choose). If you have no Benched Pokémon, discard all Energy cards attached to Dark Electrode.",
-				fr: "Prenez toutes les cartes Énergie attachées à Electrode obscur et attachez-les aux Pokémon de votre Banc (selon votre choix). Si vous n'avez pas Pokémon sur votre Banc, défaussez toutes les cartes Énergie attachées à Electrode obscur.",
-				de: "Take all Energy cards attached to Dark Electrode and attach them to your benched Pokémon (in any way you choose). If you have no Benched Pokémon, discard all Energy cards attached to Dark Electrode."
+				'en-us': "Take all Energy cards attached to Dark Electrode and attach them to your Benched Pokémon (in any way you choose). If you have no Benched Pokémon, discard all Energy cards attached to Dark Electrode.",
+				'fr-fr': "Prenez toutes les cartes Énergie attachées à Electrode obscur et attachez-les aux Pokémon de votre Banc (selon votre choix). Si vous n'avez pas Pokémon sur votre Banc, défaussez toutes les cartes Énergie attachées à Electrode obscur.",
+				'de-de': "Take all Energy cards attached to Dark Electrode and attach them to your benched Pokémon (in any way you choose). If you have no Benched Pokémon, discard all Energy cards attached to Dark Electrode."
 			},
 			damage: 30,
 
@@ -74,8 +74,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Some researchers hypothesize that Electrode may actually be a form of energy instead of having an actual body.",
-		fr: "Certains chercheurs pensent que Electrode pourrait être une forme d'énergie au lieu de posséder un corps réel."
+		'en-us': "Some researchers hypothesize that Electrode may actually be a form of energy instead of having an actual body.",
+		'fr-fr': "Certains chercheurs pensent que Electrode pourrait être une forme d'énergie au lieu de posséder un corps réel."
 	},
 
 

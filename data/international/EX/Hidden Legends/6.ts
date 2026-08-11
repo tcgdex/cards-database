@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Exploud",
-		fr: "Brouhabam",
-		de: "Krawumms"
+		'en-us': "Exploud",
+		'fr-fr': "Brouhabam",
+		'de-de': "Krawumms"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Loudred",
-		fr: "Ramboum"
+		'en-us': "Loudred",
+		'fr-fr': "Ramboum"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Breaking Sound",
-				fr: "Assourdissant",
-				de: "Breaking Sound"
+				'en-us': "Breaking Sound",
+				'fr-fr': "Assourdissant",
+				'de-de': "Breaking Sound"
 			},
 			effect: {
-				en: "Does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bass Control",
-				fr: "Super basse",
-				de: "Bass Control"
+				'en-us': "Bass Control",
+				'fr-fr': "Super basse",
+				'de-de': "Bass Control"
 			},
 			effect: {
-				en: "Does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 30 dégâts à 1 des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 30 dégâts à 1 des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},
@@ -69,14 +69,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunderous Roar",
-				fr: "Rugissement tonitruant",
-				de: "Thunderous Roar"
+				'en-us': "Thunderous Roar",
+				'fr-fr': "Rugissement tonitruant",
+				'de-de': "Thunderous Roar"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
-				de: "The Defending Pokémon is now Confused."
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "The Defending Pokémon is now Confused."
 			},
 			damage: 30,
 
@@ -89,9 +89,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Voice",
-				fr: "Voix haut perchée",
-				de: "Hyper Voice"
+				'en-us': "Hyper Voice",
+				'fr-fr': "Voix haut perchée",
+				'de-de': "Hyper Voice"
 			},
 
 			damage: 60,

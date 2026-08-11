@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ペルシアン",
+		'ja-jp': "ペルシアン",
 	},
 
 	illustrator: "Whisker",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "気性が 激しく 尻尾を まっすぐ 立てたら 要注意。 とびかかって 噛みつく 前触れだ。",
+		'ja-jp': "気性が 激しく 尻尾を まっすぐ 立てたら 要注意。 とびかかって 噛みつく 前触れだ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数×50ダメージ。",
+				'ja-jp': "コインを3回投げ、オモテの数×50ダメージ。",
 			},
 		},
 		{
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニャース",
+		'ja-jp': "ニャース",
 	},
 
 	retreat: 1,

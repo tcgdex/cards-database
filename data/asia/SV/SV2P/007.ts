@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "アマカジ",
+		'ja-jp': "アマカジ",
 		'zh-tw': "甜竹竹",
-		th: "อมาคาจิ",
-		id: "Bounsweet"
+		'th-th': "อมาคาจิ",
+		'id-id': "Bounsweet"
 	},
 
 	illustrator: "Kurata So",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "果物を 煮詰めたような 甘い 汗を かくため 甘味の 少ない 昔は とても 重宝された。",
+		'ja-jp': "果物を 煮詰めたような 甘い 汗を かくため 甘味の 少ない 昔は とても 重宝された。",
 		'zh-tw': "汗水帶著像是經過熬煮的水果甜味，在過去甜食尚少 的時代相當受到人們珍視。",
-		th: "เพราะเหงื่อหวานราวกับน้ำผลไม้ที่เคี่ยว เลยมีค่ามากในอดีตที่ขนมยังมีน้อย",
-		id: "Bounsweet sangat bermanfaat pada zaman dahulu ketika pemanis masih sedikit karena ia mengeluarkan keringat manis yang rasanya seperti buah yang dimasak."
+		'th-th': "เพราะเหงื่อหวานราวกับน้ำผลไม้ที่เคี่ยว เลยมีค่ามากในอดีตที่ขนมยังมีน้อย",
+		'id-id': "Bounsweet sangat bermanfaat pada zaman dahulu ketika pemanis masih sedikit karena ia mengeluarkan keringat manis yang rasanya seperti buah yang dimasak."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "ふむ",
+			'ja-jp': "ふむ",
 			'zh-tw': "踩",
-			th: "เหยียบ",
-			id: "Menginjak"
+			'th-th': "เหยียบ",
+			'id-id': "Menginjak"
 		},
 
 		damage: 10
@@ -42,19 +42,19 @@ const card: Card = {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			ja: "とつげき",
+			'ja-jp': "とつげき",
 			'zh-tw': "突擊",
-			th: "ประจัญบาน",
-			id: "Menyerang"
+			'th-th': "ประจัญบาน",
+			'id-id': "Menyerang"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "このポケモンにも10ダメージ。",
+			'ja-jp': "このポケモンにも10ダメージ。",
 			'zh-tw': "這隻寶可夢也受到10點傷害。",
-			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
-			id: "Pokémon ini juga menerima kerusakan sejumlah 10."
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10."
 		}
 	}],
 

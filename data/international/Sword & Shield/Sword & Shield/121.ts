@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Skorupi",
-		fr: "Rapion",
-		es: "Skorupi",
-		it: "Skorupi",
-		pt: "Skorupi",
-		de: "Pionskora"
+		'en-us': "Skorupi",
+		'fr-fr': "Rapion",
+		'es-es': "Skorupi",
+		'it-it': "Skorupi",
+		'pt-br': "Skorupi",
+		'de-de': "Pionskora"
 	},
 
 	illustrator: "sowsow",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Poison Sting",
-				fr: "Dard-Venin",
-				es: "Picotazo Veneno",
-				it: "Velenospina",
-				pt: "Ferrão Venenoso",
-				de: "Giftstachel"
+				'en-us': "Poison Sting",
+				'fr-fr': "Dard-Venin",
+				'es-es': "Picotazo Veneno",
+				'it-it': "Velenospina",
+				'pt-br': "Ferrão Venenoso",
+				'de-de': "Giftstachel"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+				'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 
 		},
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slashing Claw",
-				fr: "Griffe Taillante",
-				es: "Garra Cuchillazo",
-				it: "Artigli Laceranti",
-				pt: "Garra Cortadora",
-				de: "Schlitzende Klaue"
+				'en-us': "Slashing Claw",
+				'fr-fr': "Griffe Taillante",
+				'es-es': "Garra Cuchillazo",
+				'it-it': "Artigli Laceranti",
+				'pt-br': "Garra Cortadora",
+				'de-de': "Schlitzende Klaue"
 			},
 
 			damage: 50,
@@ -84,7 +84,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It attacks using the claws on its tail. Once locked in its grip, its prey is unable to move as this Pokémon's poison seeps in."
+		'en-us': "It attacks using the claws on its tail. Once locked in its grip, its prey is unable to move as this Pokémon's poison seeps in."
 	},
 
 	dexId: [451],

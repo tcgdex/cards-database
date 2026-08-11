@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "มาฟีทิฟ",
-		id: "Mabosstiff"
+		'th-th': "มาฟีทิฟ",
+		'id-id': "Mabosstiff"
 	},
 
 	illustrator: "KIYOTAKA OSHIYAMA",
@@ -15,8 +15,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		th: "ชอบเล่นกับเด็กมาก โดยปกติจะมีนิสัยอ่อนโยน แต่เมื่อถึงคราวต้องปกป้องครอบครัวจะมีสีหน้าเปลี่ยนไป",
-		id: "Mabosstiff sangat suka bermain dengan anak-anak. Biasanya Pokémon ini bersikap hangat, namun raut wajah berubah ketika melindungi keluarganya."
+		'th-th': "ชอบเล่นกับเด็กมาก โดยปกติจะมีนิสัยอ่อนโยน แต่เมื่อถึงคราวต้องปกป้องครอบครัวจะมีสีหน้าเปลี่ยนไป",
+		'id-id': "Mabosstiff sangat suka bermain dengan anak-anak. Biasanya Pokémon ini bersikap hangat, namun raut wajah berubah ketika melindungi keluarganya."
 	},
 
 	stage: "Stage1",
@@ -25,25 +25,25 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			th: "เสียงเห่าหอนข่มขวัญ",
-			id: "Lolongan Intimidasi"
+			'th-th': "เสียงเห่าหอนข่มขวัญ",
+			'id-id': "Lolongan Intimidasi"
 		},
 
 		effect: {
-			th: "ใช้ได้ 1 ครั้งในเทิร์นฝ่ายเรา สลับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามกับโปเกมอนบนเบนช์ {ฝ่ายตรงข้ามเลือกโปเกมอนที่จะวางบนตำแหน่งต่อสู้}",
-			id: "Dapat digunakan 1 kali pada giliran sendiri. Tukar Pokémon Bertarung lawan dengan Pokémon Cadangan. [Pokémon yang akan dimasukkan ke Arena Bertarung dipilih oleh lawan.]"
+			'th-th': "ใช้ได้ 1 ครั้งในเทิร์นฝ่ายเรา สลับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามกับโปเกมอนบนเบนช์ {ฝ่ายตรงข้ามเลือกโปเกมอนที่จะวางบนตำแหน่งต่อสู้}",
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri. Tukar Pokémon Bertarung lawan dengan Pokémon Cadangan. [Pokémon yang akan dimasukkan ke Arena Bertarung dipilih oleh lawan.]"
 		}
 	}],
 
 	attacks: [{
 		name: {
-			th: "ไวลด์แท็กเกิล",
-			id: "Wild Tackle"
+			'th-th': "ไวลด์แท็กเกิล",
+			'id-id': "Wild Tackle"
 		},
 
 		effect: {
-			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 30 ด้วย",
-			id: "Pokémon ini juga menerima kerusakan sejumlah 30."
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 30 ด้วย",
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 30."
 		},
 
 		damage: 160,

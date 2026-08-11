@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Psyduck"
+		'en-us': "Sabrina's Psyduck"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch"
+				'en-us': "Scratch"
 			},
 
 			damage: 10,
@@ -38,10 +38,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Random ESP"
+				'en-us': "Random ESP"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, this attack does no damage and Sabrina's Psyduck is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, this attack does no damage and Sabrina's Psyduck is now Confused."
 			},
 			damage: 20,
 

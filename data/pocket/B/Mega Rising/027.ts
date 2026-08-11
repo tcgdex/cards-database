@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rillaboom"
+		'en-us': "Rillaboom"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Thwackey"
+		'en-us': "Thwackey"
 	},
 
 	description: {
-		en: "The one with the best drumming techniques\nbecomes the boss of the troop. It has a gentle\ndisposition and values harmony among its group."
+		'en-us': "The one with the best drumming techniques\nbecomes the boss of the troop. It has a gentle\ndisposition and values harmony among its group."
 	},
 
 	stage: "Stage2",
@@ -30,17 +30,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Captivating Rhythm"
+			'en-us': "Captivating Rhythm"
 		},
 
 		effect: {
-			en: "Once during your turn, you may flip a coin. If heads, switch in 1 of your opponent's Benched Pokémon to the Active Spot."
+			'en-us': "Once during your turn, you may flip a coin. If heads, switch in 1 of your opponent's Benched Pokémon to the Active Spot."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Drum Rush"
+			'en-us': "Drum Rush"
 		},
 
 		damage: 120,

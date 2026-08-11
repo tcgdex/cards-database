@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Scizor E4",
-		fr: "Cizayox  Niv. 49",
-		de: "Scherox 4"
+		'en-us': "Scizor E4",
+		'fr-fr': "Cizayox  Niv. 49",
+		'de-de': "Scherox 4"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
@@ -27,9 +27,9 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Cut",
-				fr: "Coupe",
-				de: "Zerschneider"
+				'en-us': "Cut",
+				'fr-fr': "Coupe",
+				'de-de': "Zerschneider"
 			},
 
 			damage: 20,
@@ -42,14 +42,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crushing Blow",
-				fr: "Coup écrasant",
-				de: "Brechschlag"
+				'en-us': "Crushing Blow",
+				'fr-fr': "Coup écrasant",
+				'de-de': "Brechschlag"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 40,
 

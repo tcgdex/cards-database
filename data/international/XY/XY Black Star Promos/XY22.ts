@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Darkrai",
-		fr: "Darkrai",
+		'en-us': "Darkrai",
+		'fr-fr': "Darkrai",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnoblast",
-				fr: "Hypnoblast",
+				'en-us': "Hypnoblast",
+				'fr-fr': "Hypnoblast",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'en-us': "Your opponent's Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			},
 			damage: 30,
 
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Deep Wind",
-				fr: "Vent Puissant",
+				'en-us': "Deep Wind",
+				'fr-fr': "Vent Puissant",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is Asleep, this attack does 60 more damage and heal 30 damage from this Pokémon.",
-				fr: "Si le Pokémon Actif de votre adversaire est Endormi, cette attaque inflige 60 dégâts supplémentaires et vous soignez 30 dégâts à ce Pokémon.",
+				'en-us': "If your opponent's Active Pokémon is Asleep, this attack does 60 more damage and heal 30 damage from this Pokémon.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est Endormi, cette attaque inflige 60 dégâts supplémentaires et vous soignez 30 dégâts à ce Pokémon.",
 			},
 			damage: "60＋",
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It chases people and Pokémon from its territory by causing them to experience deep, nightmarish slumbers.",
+		'en-us': "It chases people and Pokémon from its territory by causing them to experience deep, nightmarish slumbers.",
 	},
 
 	thirdParty: {

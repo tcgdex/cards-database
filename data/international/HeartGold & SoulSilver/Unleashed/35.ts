@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Numel",
-		fr: "Chamallot",
-		de: "Camaub"
+		'en-us': "Numel",
+		'fr-fr': "Chamallot",
+		'de-de': "Camaub"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare Bonus",
-				fr: "Bonus d’intimidation",
-				de: "Flammenbonus"
+				'en-us': "Flare Bonus",
+				'fr-fr': "Bonus d’intimidation",
+				'de-de': "Flammenbonus"
 			},
 			effect: {
-				en: "Discard a Fire Energy card from your hand. Then, draw 3 cards.",
-				fr: "Défaussez une carte Énergie Fire de votre main. Ensuite, piochez 3 cartes.",
-				de: "Lege 1 -Energiekarte von deiner Hand auf deinen Ablagestapel. Ziehe danach 3 Karten."
+				'en-us': "Discard a Fire Energy card from your hand. Then, draw 3 cards.",
+				'fr-fr': "Défaussez une carte Énergie Fire de votre main. Ensuite, piochez 3 cartes.",
+				'de-de': "Lege 1 -Energiekarte von deiner Hand auf deinen Ablagestapel. Ziehe danach 3 Karten."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Combustion",
-				fr: "Fournaise",
-				de: "Glühen"
+				'en-us': "Combustion",
+				'fr-fr': "Fournaise",
+				'de-de': "Glühen"
 			},
 
 			damage: 40,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The flaming magma it stores in the hump on its back is the source of its tremendous power."
+		'en-us': "The flaming magma it stores in the hump on its back is the source of its tremendous power."
 	},
 
 	variants: [

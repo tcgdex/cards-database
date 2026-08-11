@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "わるいペルシアン",
+		'ja-jp': "わるいペルシアン",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "誘惑",
+				'ja-jp': "誘惑",
 			},
 			effect: {
-				ja: "相手がベンチ付きポケモンを持っている場合は、コインをひっくり返します。頭の場合は、対戦相手のベンチポケモンの1つを選択し、防御ポケモンで切り替えます。",
+				'ja-jp': "相手がベンチ付きポケモンを持っている場合は、コインをひっくり返します。頭の場合は、対戦相手のベンチポケモンの1つを選択し、防御ポケモンで切り替えます。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "毒爪",
+				'ja-jp': "毒爪",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。",
 			},
 			damage: 10,
 		},

@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../EX'
 
 const ex13: Set = {
 	id: "ex13",
 
 	name: {
-		en: "Holon Phantoms",
-		fr: "EX Fantômes Holon",
-		it: "EX Fantasmi di Holon",
-		de: "EX Holon Phantoms"
+		'en-us': "Holon Phantoms",
+		'fr-fr': "EX Fantômes Holon",
+		'it-it': "EX Fantasmi di Holon",
+		'de-de': "EX Holon Phantoms"
 	},
 
 	serie: serie,
@@ -22,7 +22,7 @@ const ex13: Set = {
 
 	abbreviations: {
 		official: "HP",
-		fr: "FAN"
+		'fr-fr': "FAN"
 	},
 
 	thirdParty: {

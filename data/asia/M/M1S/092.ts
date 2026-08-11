@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガサーナイトex"
+		'ja-jp': "メガサーナイトex"
 	},
 	illustrator: "5ban Graphics",
 	category: "Pokemon",
@@ -22,23 +22,23 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "キルリア"
+		'ja-jp': "キルリア"
 	},
 	attacks: [{
 		name: {
-			ja: "あふれるねがい"
+			'ja-jp': "あふれるねがい"
 		},
 		effect: {
-			ja: "自分のベンチポケモン全員に、山札から「基本超エネルギー」を1枚ずつつける。そして山札を切る。"
+			'ja-jp': "自分のベンチポケモン全員に、山札から「基本超エネルギー」を1枚ずつつける。そして山札を切る。"
 		},
 		cost: ["Psychic"]
 	}, {
 		name: {
-			ja: "メガシンフォニア"
+			'ja-jp': "メガシンフォニア"
 		},
 		damage: "50×",
 		effect: {
-			ja: "自分のポケモン全員についている超エネルギーの数×50ダメージ。"
+			'ja-jp': "自分のポケモン全員についている超エネルギーの数×50ダメージ。"
 		},
 		cost: ["Psychic"]
 	}],

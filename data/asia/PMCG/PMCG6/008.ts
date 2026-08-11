@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キョウのドガース",
+		'ja-jp': "キョウのドガース",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "臭いガス",
+				'ja-jp': "臭いガス",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は各ベンチポケモン（あなた自身を含む）に10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は各ベンチポケモン（あなた自身を含む）に10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 10,
 		},

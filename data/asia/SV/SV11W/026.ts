@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "バイバニラ",
+		'ja-jp': "バイバニラ",
 	},
 
 	illustrator: "cochi8i",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "水を 大量に 飲み込んで 体内で 雪雲を 作る。 猛吹雪で 敵を 苦しめる。",
+		'ja-jp': "水を 大量に 飲み込んで 体内で 雪雲を 作る。 猛吹雪で 敵を 苦しめる。",
 	},
 
 	stage: "Stage2",
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "90x",
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数×90ダメージ。1回でもオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを2回投げ、オモテの数×90ダメージ。1回でもオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "バニリッチ",
+		'ja-jp': "バニリッチ",
 	},
 
 	retreat: 2,

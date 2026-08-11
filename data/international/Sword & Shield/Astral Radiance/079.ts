@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hippopotas",
-		fr: "Hippopotas",
-		es: "Hippopotas",
-		it: "Hippopotas",
-		pt: "Hippopotas",
-		de: "Hippopotas"
+		'en-us': "Hippopotas",
+		'fr-fr': "Hippopotas",
+		'es-es': "Hippopotas",
+		'it-it': "Hippopotas",
+		'pt-br': "Hippopotas",
+		'de-de': "Hippopotas"
 	},
 
 	illustrator: "nagimiso",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Mud-Slap",
-			fr: "Coud'Boue",
-			es: "Bofetón Lodo",
-			it: "Fangosberla",
-			pt: "Tapa de Lama",
-			de: "Lehmschelle"
+			'en-us': "Mud-Slap",
+			'fr-fr': "Coud'Boue",
+			'es-es': "Bofetón Lodo",
+			'it-it': "Fangosberla",
+			'pt-br': "Tapa de Lama",
+			'de-de': "Lehmschelle"
 		},
 
 		damage: 30
@@ -38,12 +38,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Rolling Tackle",
-			fr: "Roulé-Boulé",
-			es: "Placaje Giro",
-			it: "Rollazione",
-			pt: "Golpe de Colisão Rolante",
-			de: "Rolltackle"
+			'en-us': "Rolling Tackle",
+			'fr-fr': "Roulé-Boulé",
+			'es-es': "Placaje Giro",
+			'it-it': "Rollazione",
+			'pt-br': "Golpe de Colisão Rolante",
+			'de-de': "Rolltackle"
 		},
 
 		damage: 90
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Though large and languid, Hippopotas is difficult to detect due to its tendency to burrow into and lurk beneath the soil. When agitated or excited, it expels sand from its nostrils.",
+		'en-us': "Though large and languid, Hippopotas is difficult to detect due to its tendency to burrow into and lurk beneath the soil. When agitated or excited, it expels sand from its nostrils.",
 	},
 
 	variants: [

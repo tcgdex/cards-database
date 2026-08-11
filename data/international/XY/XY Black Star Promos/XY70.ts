@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Tyrantrum EX",
-		fr: "Rexillius EX",
+		'en-us': "Tyrantrum EX",
+		'fr-fr': "Rexillius EX",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Despotic Fang",
-				fr: "Croc Despotique",
+				'en-us': "Despotic Fang",
+				'fr-fr': "Croc Despotique",
 			},
 			effect: {
-				en: "Damage from this Pokémon's attacks isn't affected by any effects on your opponent's Active Pokémon.",
-				fr: "Les dégâts des attaques de ce Pokémon ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
+				'en-us': "Damage from this Pokémon's attacks isn't affected by any effects on your opponent's Active Pokémon.",
+				'fr-fr': "Les dégâts des attaques de ce Pokémon ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
 			},
 		},
 	],
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Impact",
-				fr: "Impact du Dragon"
+				'en-us': "Dragon Impact",
+				'fr-fr': "Impact du Dragon"
 			},
 			effect: {
-				en: "Discard 3 Energy attached to this Pokémon.",
-				fr: "Défaussez 3 Énergies attachées à ce Pokémon."
+				'en-us': "Discard 3 Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez 3 Énergies attachées à ce Pokémon."
 			},
 			damage: 190,
 

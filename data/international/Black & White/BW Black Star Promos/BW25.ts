@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Scraggy",
-		fr: "Baggiguane",
+		'en-us': "Scraggy",
+		'fr-fr': "Baggiguane",
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Common",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Paralyzing Gaze",
-				fr: "Regard Paralysant",
+				'en-us': "Paralyzing Gaze",
+				'fr-fr': "Regard Paralysant",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 
 		},
@@ -44,8 +44,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "High Jump Kick",
-				fr: "Pied Voltige",
+				'en-us': "High Jump Kick",
+				'fr-fr': "Pied Voltige",
 			},
 
 			damage: 30,
@@ -70,7 +70,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It immediately headbutts anyone that makes eye contact with it. Its skull is massively thick.",
+		'en-us': "It immediately headbutts anyone that makes eye contact with it. Its skull is massively thick.",
 	},
 }
 

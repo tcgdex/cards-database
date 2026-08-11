@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เซราโอรา"
+		'th-th': "เซราโอรา"
 	},
 
 	illustrator: "Kazumasa Yasukuni",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		th: "วิ่งด้วยความเร็วที่เทียบเท่าฟ้าแลบแล้วเข้าฉีกกระชากศัตรูด้วยกรงเล็บที่ปล่อยไฟฟ้าแรงสูง"
+		'th-th': "วิ่งด้วยความเร็วที่เทียบเท่าฟ้าแลบแล้วเข้าฉีกกระชากศัตรูด้วยกรงเล็บที่ปล่อยไฟฟ้าแรงสูง"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "คอมแบตธันเดอร์"
+			'th-th': "คอมแบตธันเดอร์"
 		},
 
 		effect: {
-			th: "แดเมจจะเพิ่มตามจำนวนโปเกมอนบนเบนช์ฝ่ายตรงข้าม x20"
+			'th-th': "แดเมจจะเพิ่มตามจำนวนโปเกมอนบนเบนช์ฝ่ายตรงข้าม x20"
 		},
 
 		damage: "20+",

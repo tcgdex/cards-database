@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デンチュラ",
+		'ja-jp': "デンチュラ",
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "敵に 襲われると 電気を 帯びた 糸を たくさん 吐き出して 電気の バリアを 作る。",
+		'ja-jp': "敵に 襲われると 電気を 帯びた 糸を たくさん 吐き出して 電気の バリアを 作る。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "きんちょうかん" },
 			effect: {
-				ja: "このポケモンは、相手が手札からグッズまたはサポートを出して使ったとき、その効果を受けない。",
+				'ja-jp': "このポケモンは、相手が手札からグッズまたはサポートを出して使ったとき、その効果を受けない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Lightning"],
 			effect: {
-				ja: "自分のトラッシュにある好きなカードを1枚、相手に見せてから、手札に加える。",
+				'ja-jp': "自分のトラッシュにある好きなカードを1枚、相手に見せてから、手札に加える。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "バチュル",
+		'ja-jp': "バチュル",
 	},
 
 	retreat: 1,

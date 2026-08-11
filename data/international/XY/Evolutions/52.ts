@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo EX",
-		fr: "Mewtwo EX",
-		es: "Mewtwo EX",
-		it: "Mewtwo EX",
-		pt: "Mewtwo EX",
-		de: "Mewtu EX"
+		'en-us': "Mewtwo EX",
+		'fr-fr': "Mewtwo EX",
+		'es-es': "Mewtwo EX",
+		'it-it': "Mewtwo EX",
+		'pt-br': "Mewtwo EX",
+		'de-de': "Mewtu EX"
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Absorption",
-				fr: "Absorption d'énergie",
-				es: "Absorción de Energía",
-				it: "Assorbienergia",
-				pt: "Absorção de Energia",
-				de: "Energieaufnahme"
+				'en-us': "Energy Absorption",
+				'fr-fr': "Absorption d'énergie",
+				'es-es': "Absorción de Energía",
+				'it-it': "Assorbienergia",
+				'pt-br': "Absorção de Energia",
+				'de-de': "Energieaufnahme"
 			},
 			effect: {
-				en: "Attach an Energy card from your discard pile to this Pokémon.",
-				fr: "Attachez une carte Énergie de votre pile de défausse à ce Pokémon.",
-				es: "Une 1 carta de Energía de tu pila de descartes a este Pokémon.",
-				it: "Assegna a questo Pokémon una carta Energia dalla tua pila degli scarti.",
-				pt: "Ligue um card de Energia da sua pilha de descarte a este Pokémon.",
-				de: "Nimm 1 Energiekarte von deinem Ablagestapel und lege sie an dieses Pokémon an."
+				'en-us': "Attach an Energy card from your discard pile to this Pokémon.",
+				'fr-fr': "Attachez une carte Énergie de votre pile de défausse à ce Pokémon.",
+				'es-es': "Une 1 carta de Energía de tu pila de descartes a este Pokémon.",
+				'it-it': "Assegna a questo Pokémon una carta Energia dalla tua pila degli scarti.",
+				'pt-br': "Ligue um card de Energia da sua pilha de descarte a este Pokémon.",
+				'de-de': "Nimm 1 Energiekarte von deinem Ablagestapel und lege sie an dieses Pokémon an."
 			},
 
 		},
@@ -56,20 +56,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Regeneration",
-				fr: "Rétablissement",
-				es: "Reanimación",
-				it: "Rigenerazione",
-				pt: "Regeneração",
-				de: "Regeneration"
+				'en-us': "Regeneration",
+				'fr-fr': "Rétablissement",
+				'es-es': "Reanimación",
+				'it-it': "Rigenerazione",
+				'pt-br': "Regeneração",
+				'de-de': "Regeneration"
 			},
 			effect: {
-				en: "Heal 60 damage from this Pokémon.",
-				fr: "Soignez 60 dégâts à ce Pokémon.",
-				es: "Cura 60 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 60 danni.",
-				pt: "Cure 60 de danos deste Pokémon.",
-				de: "Heile 60 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 60 damage from this Pokémon.",
+				'fr-fr': "Soignez 60 dégâts à ce Pokémon.",
+				'es-es': "Cura 60 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 60 danni.",
+				'pt-br': "Cure 60 de danos deste Pokémon.",
+				'de-de': "Heile 60 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -81,12 +81,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psyburn",
-				fr: "Brûlure Psy",
-				es: "Psicoquemadura",
-				it: "Psicobrucia",
-				pt: "Queimadura Psíquica",
-				de: "Psychoverbrennung"
+				'en-us': "Psyburn",
+				'fr-fr': "Brûlure Psy",
+				'es-es': "Psicoquemadura",
+				'it-it': "Psicobrucia",
+				'pt-br': "Queimadura Psíquica",
+				'de-de': "Psychoverbrennung"
 			},
 
 			damage: 110,

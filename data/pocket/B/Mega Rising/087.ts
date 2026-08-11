@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Luxio"
+		'en-us': "Luxio"
 	},
 
 	illustrator: "NC Empire",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Shinx"
+		'en-us': "Shinx"
 	},
 
 	description: {
-		en: "By gathering their tails together, they collectively\ngenerate powerful electricity from their claws."
+		'en-us': "By gathering their tails together, they collectively\ngenerate powerful electricity from their claws."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Bite"
+			'en-us': "Bite"
 		},
 
 		damage: 30,

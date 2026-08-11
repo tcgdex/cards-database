@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Snom",
-		fr: "Frissonille",
-		es: "Snom",
-		it: "Snom",
-		pt: "Snom",
-		de: "Snomnom"
+		'en-us': "Snom",
+		'fr-fr': "Frissonille",
+		'es-es': "Snom",
+		'it-it': "Snom",
+		'pt-br': "Snom",
+		'de-de': "Snomnom"
 	},
 
 	rarity: "Common",
@@ -30,28 +30,28 @@ const card: Card = {
 	illustrator: "Yuka Morii",
 
 	description: {
-		en: "It eats snow that piles up on the ground. The more snow it eats, the bigger and more impressive the spikes on its back grow."
+		'en-us': "It eats snow that piles up on the ground. The more snow it eats, the bigger and more impressive the spikes on its back grow."
 	},
 
 	attacks: [{
 		cost: ["Water"],
 
 		name: {
-			en: "Find Ice",
-			fr: "Chercheur de Glace",
-			de: "Eis finden",
-			es: "Encontrar Hielo",
-			pt: "Encontrar Gelo",
-			it: "Trovaghiaccio"
+			'en-us': "Find Ice",
+			'fr-fr': "Chercheur de Glace",
+			'de-de': "Eis finden",
+			'es-es': "Encontrar Hielo",
+			'pt-br': "Encontrar Gelo",
+			'it-it': "Trovaghiaccio"
 		},
 
 		effect: {
-			en: "Search your deck for up to 2 {W} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu'à 2 cartes Énergie {W}, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
-			de: "Durchsuche dein Deck nach bis zu 2 {W}-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
-			es: "Busca en tu baraja hasta 2 cartas de Energía {W}, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
-			pt: "Procure por até 2 cartas de Energia {W} no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
-			it: "Cerca nel tuo mazzo fino a due carte Energia {W}, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo."
+			'en-us': "Search your deck for up to 2 {W} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck jusqu'à 2 cartes Énergie {W}, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+			'de-de': "Durchsuche dein Deck nach bis zu 2 {W}-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+			'es-es': "Busca en tu baraja hasta 2 cartas de Energía {W}, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
+			'pt-br': "Procure por até 2 cartas de Energia {W} no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
+			'it-it': "Cerca nel tuo mazzo fino a due carte Energia {W}, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo."
 		}
 	}],
 

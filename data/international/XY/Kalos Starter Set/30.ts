@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Kalos Starter Set'
 
 const card: Card = {
 	name: {
-		en: "Bunnelby",
-		fr: "Sapereau",
-		es: "Bunnelby",
-		it: "Bunnelby",
-		pt: "Bunnelby",
-		de: "Scoppel"
+		'en-us': "Bunnelby",
+		'fr-fr': "Sapereau",
+		'es-es': "Bunnelby",
+		'it-it': "Bunnelby",
+		'pt-br': "Bunnelby",
+		'de-de': "Scoppel"
 	},
 
 	illustrator: "5ban Graphics",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They use their large ears to dig burrows. They will dig the whole night through.",
+		'en-us': "They use their large ears to dig burrows. They will dig the whole night through.",
 	},
 
 	thirdParty: {

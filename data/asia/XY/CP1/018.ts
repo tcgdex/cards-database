@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アクア団のグラエナ",
+		'ja-jp': "アクア団のグラエナ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "統率力 バツグンの コンビネーション 攻撃が 得意！ 襲われたら 手も足も 出ないぞ。",
+		'ja-jp': "統率力 バツグンの コンビネーション 攻撃が 得意！ 襲われたら 手も足も 出ないぞ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "自分の場の「アクア団」のポケモンの数ぶんコインを投げ、オモテの数x30ダメージ。",
+				'ja-jp': "自分の場の「アクア団」のポケモンの数ぶんコインを投げ、オモテの数x30ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アクア団のポチエナ",
+		'ja-jp': "アクア団のポチエナ",
 	},
 
 	retreat: 1,

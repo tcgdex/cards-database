@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Bellossom",
-		fr: "Joliflor",
-		es: "Bellossom",
-		it: "Bellossom",
-		pt: "Bellossom",
-		de: "Blubella"
+		'en-us': "Bellossom",
+		'fr-fr': "Joliflor",
+		'es-es': "Bellossom",
+		'it-it': "Bellossom",
+		'pt-br': "Bellossom",
+		'de-de': "Blubella"
 	},
 
 	illustrator: "Mizue",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gloom",
-		fr: "Ortide",
-		es: "Gloom",
-		it: "Gloom",
-		pt: "Gloom",
-		de: "Duflor"
+		'en-us': "Gloom",
+		'fr-fr': "Ortide",
+		'es-es': "Gloom",
+		'it-it': "Gloom",
+		'pt-br': "Gloom",
+		'de-de': "Duflor"
 	},
 
 	stage: "Stage2",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Windmill",
-				fr: "Moulin à Vent",
-				es: "Molino de Viento",
-				it: "Mulino",
-				pt: "Moinho de Vento",
-				de: "Windmühle"
+				'en-us': "Windmill",
+				'fr-fr': "Moulin à Vent",
+				'es-es': "Molino de Viento",
+				'it-it': "Mulino",
+				'pt-br': "Moinho de Vento",
+				'de-de': "Windmühle"
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
-				es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-				it: "Scambia questo Pokémon con uno della tua panchina.",
-				pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
+				'es-es': "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+				'it-it': "Scambia questo Pokémon con uno della tua panchina.",
+				'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+				'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 20,
 
@@ -67,20 +67,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flower Tornado",
-				fr: "Floramixeur",
-				es: "Tornado Floral",
-				it: "Vortifiore",
-				pt: "Tornado de Flores",
-				de: "Blumenmixer"
+				'en-us': "Flower Tornado",
+				'fr-fr': "Floramixeur",
+				'es-es': "Tornado Floral",
+				'it-it': "Vortifiore",
+				'pt-br': "Tornado de Flores",
+				'de-de': "Blumenmixer"
 			},
 			effect: {
-				en: "Move as many Grass Energy attached to your Pokémon to your other Pokémon in any way you like.",
-				fr: "Déplacez autant d'Énergies Grass attachées à vos Pokémon que vous voulez vers vos autres Pokémon, de la manière que vous voulez.",
-				es: "Mueve tantas Energías Grass unidas a tus Pokémon como quieras a tus otros Pokémon de la manera que desees.",
-				it: "Distribuisci a piacimento tutte le Energie Grass assegnate ai tuoi Pokémon.",
-				pt: "Mova tantas Energias Grass ligadas aos seus Pokémon quanto desejar para seus outros Pokémon.",
-				de: "Verschiebe beliebig viele an deine Pokémon angelegten Grass-Energien nach Belieben auf deine anderen Pokémon."
+				'en-us': "Move as many Grass Energy attached to your Pokémon to your other Pokémon in any way you like.",
+				'fr-fr': "Déplacez autant d'Énergies Grass attachées à vos Pokémon que vous voulez vers vos autres Pokémon, de la manière que vous voulez.",
+				'es-es': "Mueve tantas Energías Grass unidas a tus Pokémon como quieras a tus otros Pokémon de la manera que desees.",
+				'it-it': "Distribuisci a piacimento tutte le Energie Grass assegnate ai tuoi Pokémon.",
+				'pt-br': "Mova tantas Energias Grass ligadas aos seus Pokémon quanto desejar para seus outros Pokémon.",
+				'de-de': "Verschiebe beliebig viele an deine Pokémon angelegten Grass-Energien nach Belieben auf deine anderen Pokémon."
 			},
 			damage: 60,
 
@@ -97,7 +97,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open.",
+		'en-us': "When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open.",
 	},
 
 	thirdParty: {

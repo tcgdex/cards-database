@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ledyba",
-		fr: "Coxy",
-		es: "Ledyba",
-		it: "Ledyba",
-		pt: "Ledyba",
-		de: "Ledyba"
+		'en-us': "Ledyba",
+		'fr-fr': "Coxy",
+		'es-es': "Ledyba",
+		'it-it': "Ledyba",
+		'pt-br': "Ledyba",
+		'de-de': "Ledyba"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Headbutt Bounce",
-			fr: "Culbute Surprise",
-			es: "Bote Cabezazo",
-			it: "Rimbalzo Bottintesta",
-			pt: "Cabeçada Ricochete",
-			de: "Abrupter Kopfstoß"
+			'en-us': "Headbutt Bounce",
+			'fr-fr': "Culbute Surprise",
+			'es-es': "Bote Cabezazo",
+			'it-it': "Rimbalzo Bottintesta",
+			'pt-br': "Cabeçada Ricochete",
+			'de-de': "Abrupter Kopfstoß"
 		},
 
 		damage: 30

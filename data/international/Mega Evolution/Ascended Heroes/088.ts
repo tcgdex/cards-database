@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Kirlia",
-		fr: "Kirlia",
-		es: "Kirlia",
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia",
+		'es-es': "Kirlia",
 		'es-mx': "Kirlia",
-		de: "Kirlia",
-		it: "Kirlia",
-		pt: "Kirlia"
+		'de-de': "Kirlia",
+		'it-it': "Kirlia",
+		'pt-br': "Kirlia"
 	},
 
 	evolveFrom: {
-		en: "Ralts",
-		fr: "Tarsal",
-		es: "Ralts",
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal",
+		'es-es': "Ralts",
 		'es-mx': "Ralts",
-		de: "Trasla",
-		it: "Ralts",
-		pt: "Ralts",
+		'de-de': "Trasla",
+		'it-it': "Ralts",
+		'pt-br': "Ralts",
 	},
 
 	illustrator: "satoma",
@@ -36,35 +36,35 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Call Sign",
-			fr: "Signe d'Appel",
-			es: "Señal de Llamada",
+			'en-us': "Call Sign",
+			'fr-fr': "Signe d'Appel",
+			'es-es': "Señal de Llamada",
 			'es-mx': "Señal de Llamado",
-			de: "Rufzeichen",
-			it: "Chiamata",
-			pt: "Sinal de Chamada"
+			'de-de': "Rufzeichen",
+			'it-it': "Chiamata",
+			'pt-br': "Sinal de Chamada"
 		},
 
 		effect: {
-			en: "Search your deck for up to 3 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu'à 3 Pokémon, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja hasta 3 Pokémon, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
+			'en-us': "Search your deck for up to 3 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck jusqu'à 3 Pokémon, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja hasta 3 Pokémon, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
 			'es-mx': "Busca en tu mazo hasta 3 Pokémon, muéstralos y ponlos en tu mano. Después, baraja tu mazo.",
-			de: "Durchsuche dein Deck nach bis zu 3 Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
-			it: "Cerca nel tuo mazzo fino a tre Pokémon, mostrali e aggiungili alle carte che hai in mano. Poi rimischia il tuo mazzo.",
-			pt: "Procure por até 3 Pokémon no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho."
+			'de-de': "Durchsuche dein Deck nach bis zu 3 Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+			'it-it': "Cerca nel tuo mazzo fino a tre Pokémon, mostrali e aggiungili alle carte che hai in mano. Poi rimischia il tuo mazzo.",
+			'pt-br': "Procure por até 3 Pokémon no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho."
 		}
 	}, {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Psyshot",
-			fr: "Piqûre Psy",
-			es: "Disparo Psi",
+			'en-us': "Psyshot",
+			'fr-fr': "Piqûre Psy",
+			'es-es': "Disparo Psi",
 			'es-mx': "Psicodisparo",
-			de: "Psychoschuss",
-			it: "Psicosparo",
-			pt: "Tiro Psíquico"
+			'de-de': "Psychoschuss",
+			'it-it': "Psicosparo",
+			'pt-br': "Tiro Psíquico"
 		},
 
 		damage: 30
@@ -86,7 +86,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "It has a psychic power that enables it to distort the space around it and see into the future.",
+		'en-us': "It has a psychic power that enables it to distort the space around it and see into the future.",
 	},
 
 	variants: [

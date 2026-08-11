@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メタポッド",
+		'ja-jp': "メタポッド",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "外骨格",
+				'ja-jp': "外骨格",
 			},
 			effect: {
-				ja: "メタポッドへの攻撃によって与えられたすべての損傷は、衰弱と抵抗を適用した後）20増加します。",
+				'ja-jp': "メタポッドへの攻撃によって与えられたすべての損傷は、衰弱と抵抗を適用した後）20増加します。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ロールアウトする",
+				'ja-jp': "ロールアウトする",
 			},
 			damage: 10,
 		},

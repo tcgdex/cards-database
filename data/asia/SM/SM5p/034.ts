@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エンペルト",
+		'ja-jp': "エンペルト",
 	},
 
 	illustrator: "nagimiso",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "クチバシから 伸びている ３本の ツノは 強さの 象徴。 リーダーが 一番 大きい。",
+		'ja-jp': "クチバシから 伸びている ３本の ツノは 強さの 象徴。 リーダーが 一番 大きい。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Metal", "Colorless"],
 			effect: {
-				ja: "おたがいのベンチポケモンの数x20ダメージ。",
+				'ja-jp': "おたがいのベンチポケモンの数x20ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ポッタイシ",
+		'ja-jp': "ポッタイシ",
 	},
 
 	retreat: 2,

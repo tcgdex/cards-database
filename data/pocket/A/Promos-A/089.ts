@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Promos-A"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Audino",
-		es: "Audino"
+		'en-us': "Audino",
+		'es-es': "Audino"
 	},
 
 	illustrator: "MAHOU",
@@ -18,24 +18,24 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "This Pokémon has a kind heart. By touching with its feelers,\nAudino can gauge other creatures' feelings and physical conditions.",
-		es: "Un Pokémon gentil que es capaz de comprender\nlos sentimientos y averiguar el estado de salud\nde todo aquel que toque con sus antenas."
+		'en-us': "This Pokémon has a kind heart. By touching with its feelers,\nAudino can gauge other creatures' feelings and physical conditions.",
+		'es-es': "Un Pokémon gentil que es capaz de comprender\nlos sentimientos y averiguar el estado de salud\nde todo aquel que toque con sus antenas."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Drain Slap",
-			es: "Absorbebofetón"
+			'en-us': "Drain Slap",
+			'es-es': "Absorbebofetón"
 		},
 
 		damage: 40,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Heal 10 damage from this Pokémon.",
-			es: "Cura 10 puntos de daño a este Pokémon."
+			'en-us': "Heal 10 damage from this Pokémon.",
+			'es-es': "Cura 10 puntos de daño a este Pokémon."
 		}
 	}],
 

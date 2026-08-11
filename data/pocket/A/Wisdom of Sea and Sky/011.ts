@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ledyba",
-		fr: "Coxy"
+		'en-us': "Ledyba",
+		'fr-fr': "Coxy"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "These very cowardly Pokémon join together and\nuse Reflect to protect their nest.",
-		fr: "Extrêmement timide, ce Pokémon défend le nid qu'il partage avec ses congénères en utilisant Protection."
+		'en-us': "These very cowardly Pokémon join together and\nuse Reflect to protect their nest.",
+		'fr-fr': "Extrêmement timide, ce Pokémon défend le nid qu'il partage avec ses congénères en utilisant Protection."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Bug Bite",
-			fr: "Piqûre"
+			'en-us': "Bug Bite",
+			'fr-fr': "Piqûre"
 		},
 
 		damage: 20,

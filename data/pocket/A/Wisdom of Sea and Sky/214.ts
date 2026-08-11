@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magikarp",
-		fr: "Magicarpe"
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -18,23 +18,23 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "An underpowered, pathetic Pokémon. It may\njump high on rare occasions but never more\nthan seven feet.",
-		fr: "Un Pokémon tout à fait pathétique. En de très rares occasions, il est capable de sauter haut, mais jamais à plus de deux mètres."
+		'en-us': "An underpowered, pathetic Pokémon. It may\njump high on rare occasions but never more\nthan seven feet.",
+		'fr-fr': "Un Pokémon tout à fait pathétique. En de très rares occasions, il est capable de sauter haut, mais jamais à plus de deux mètres."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Leap Out",
-			fr: "Bondir"
+			'en-us': "Leap Out",
+			'fr-fr': "Bondir"
 		},
 
 		cost: ["Water"],
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc."
+			'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+			'fr-fr': "Échangez ce Pokémon contre l'un de vos Pokémon de Banc."
 		}
 	}],
 

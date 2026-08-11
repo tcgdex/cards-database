@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Gastly",
+		'en-us': "Gastly",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Sleeping Gas",
+				'en-us': "Sleeping Gas",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 			},
 
 		},
@@ -42,10 +42,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Destiny Bond",
+				'en-us': "Destiny Bond",
 			},
 			effect: {
-				en: "Discard 1 Energy card attached to Gastly in order to use this attack. If a Pokémon Knocks Out Gastly during your opponent's next turn, Knock Out that Pokémon.",
+				'en-us': "Discard 1 Energy card attached to Gastly in order to use this attack. If a Pokémon Knocks Out Gastly during your opponent's next turn, Knock Out that Pokémon.",
 			},
 
 		},
@@ -59,7 +59,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Almost invisible, this gaseous Pokémon cloaks the target and puts it to sleep without notice.",
+		'en-us': "Almost invisible, this gaseous Pokémon cloaks the target and puts it to sleep without notice.",
 	},
 
 

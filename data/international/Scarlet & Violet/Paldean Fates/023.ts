@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Exeggcute",
-		fr: "Noeunoeuf",
-		es: "Exeggcute",
-		it: "Exeggcute",
-		pt: "Exeggcute",
-		de: "Owei"
+		'en-us': "Exeggcute",
+		'fr-fr': "Noeunoeuf",
+		'es-es': "Exeggcute",
+		'it-it': "Exeggcute",
+		'pt-br': "Exeggcute",
+		'de-de': "Owei"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Hypnosis",
-			fr: "Hypnose",
-			es: "Hipnosis",
-			it: "Ipnosi",
-			pt: "Hipnose",
-			de: "Hypnose"
+			'en-us': "Hypnosis",
+			'fr-fr': "Hypnose",
+			'es-es': "Hipnosis",
+			'it-it': "Ipnosi",
+			'pt-br': "Hipnose",
+			'de-de': "Hypnose"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Rolling Tackle",
-			fr: "Roulé-Boulé",
-			es: "Placaje Giro",
-			it: "Rollazione",
-			pt: "Golpe de Colisão Rolante",
-			de: "Rolltackle"
+			'en-us': "Rolling Tackle",
+			'fr-fr': "Roulé-Boulé",
+			'es-es': "Placaje Giro",
+			'it-it': "Rollazione",
+			'pt-br': "Golpe de Colisão Rolante",
+			'de-de': "Rolltackle"
 		},
 
 		damage: 30
@@ -92,7 +92,7 @@ const card: Card = {
 	illustrator: "Kariya",
 
 	description: {
-		en: "These Pokémon get nervous when they're not in a group of six. The minute even one member of the group goes missing, Exeggcute become cowardly.",
+		'en-us': "These Pokémon get nervous when they're not in a group of six. The minute even one member of the group goes missing, Exeggcute become cowardly.",
 	},
 
 }

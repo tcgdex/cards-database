@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Zoroark",
-		fr: "Zoroark",
+		'en-us': "Zoroark",
+		'fr-fr': "Zoroark",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Common",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Darkness",
 	],
 	evolveFrom: {
-		en: "Zorua",
-		fr: "Zorua",
+		'en-us': "Zorua",
+		'fr-fr': "Zorua",
 	},
 	stage: "Stage1",
 
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Punishment",
-				fr: "Punition",
+				'en-us': "Punishment",
+				'fr-fr': "Punition",
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Stage 2 Pokémon, this attack does 20 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon de Niveau 2, cette attaque inflige 20 dégâts supplémentaires",
+				'en-us': "If the Defending Pokémon is a Stage 2 Pokémon, this attack does 20 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon de Niveau 2, cette attaque inflige 20 dégâts supplémentaires",
 			},
 			damage: 20,
 
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Snarl",
-				fr: "Aboiement",
+				'en-us': "Snarl",
+				'fr-fr': "Aboiement",
 			},
 			effect: {
-				en: "During your opponent's next turn, damage from the Defending Pokémon attacks is reduced by 20.",
-				fr: "Pendant le prochain tour de votre adversaire, les dégâts infligés par les attaques du Pokémon Défenseur sont réduits de 20.",
+				'en-us': "During your opponent's next turn, damage from the Defending Pokémon attacks is reduced by 20.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, les dégâts infligés par les attaques du Pokémon Défenseur sont réduits de 20.",
 			},
 			damage: 60,
 
@@ -77,7 +77,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
+		'en-us': "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
 	},
 }
 

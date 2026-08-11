@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lycanroc ex",
-		fr: "Lougaroc-ex"
+		'en-us': "Lycanroc ex",
+		'fr-fr': "Lougaroc-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Rockruff"
+		'en-us': "Rockruff"
 	},
 
 	stage: "Stage1",
@@ -26,16 +26,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Lycanfang",
-			fr: "Lougacroc"
+			'en-us': "Lycanfang",
+			'fr-fr': "Lougacroc"
 		},
 
 		damage: 130,
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		effect: {
-			en: "Discard a {F} Energy from this Pokémon.",
-			fr: "Défaussez une Énergie {F} de ce Pokémon."
+			'en-us': "Discard a {F} Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie {F} de ce Pokémon."
 		}
 	}],
 

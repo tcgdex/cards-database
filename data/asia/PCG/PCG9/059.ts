@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニドリーナ（デルタ種）",
+		'ja-jp': "ニドリーナ（デルタ種）",
 	},
 
 	rarity: "Uncommon",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "毒物",
+				'ja-jp': "毒物",
 			},
 			effect: {
-				ja: "防御ポケモンは現在中毒になっています。",
+				'ja-jp': "防御ポケモンは現在中毒になっています。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Metal", "Colorless", "Colorless"],
 			name: {
-				ja: "リアキック",
+				'ja-jp': "リアキック",
 			},
 			damage: 40,
 		},

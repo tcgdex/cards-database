@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Yveltal",
-		fr: "Yveltal",
-		es: "Yveltal",
-		it: "Yveltal",
-		pt: "Yveltal",
-		de: "Yveltal"
+		'en-us': "Yveltal",
+		'fr-fr': "Yveltal",
+		'es-es': "Yveltal",
+		'it-it': "Yveltal",
+		'pt-br': "Yveltal",
+		'de-de': "Yveltal"
 	},
 
 	illustrator: "sui",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Blow Through",
-				fr: "Grosse Bourrasque",
-				es: "Gran Torbellino",
-				it: "Colposecco",
-				pt: "Sopro Intenso",
-				de: "Durchdringender Strahl"
+				'en-us': "Blow Through",
+				'fr-fr': "Grosse Bourrasque",
+				'es-es': "Gran Torbellino",
+				'it-it': "Colposecco",
+				'pt-br': "Sopro Intenso",
+				'de-de': "Durchdringender Strahl"
 			},
 			effect: {
-				en: "If there is any Stadium card in play, this attack does 20 more damage.",
-				fr: "S’il y a une carte Stade en jeu, cette attaque inflige 20 dégâts supplémentaires.",
-				es: "Si hay alguna carta de Estadio en juego, este ataque hace 20 puntos de daño más.",
-				it: "Se c’è una carta Stadio in gioco, questo attacco infligge 20 danni in più.",
-				pt: "Se houver alguma carta de Estádio em jogo, este ataque causará 20 pontos de dano a mais.",
-				de: "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 20 Schadenspunkte mehr zu."
+				'en-us': "If there is any Stadium card in play, this attack does 20 more damage.",
+				'fr-fr': "S’il y a une carte Stade en jeu, cette attaque inflige 20 dégâts supplémentaires.",
+				'es-es': "Si hay alguna carta de Estadio en juego, este ataque hace 20 puntos de daño más.",
+				'it-it': "Se c’è una carta Stadio in gioco, questo attacco infligge 20 danni in più.",
+				'pt-br': "Se houver alguma carta de Estádio em jogo, este ataque causará 20 pontos de dano a mais.",
+				'de-de': "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 20 Schadenspunkte mehr zu."
 			},
 			damage: "20+",
 
@@ -59,20 +59,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shadow Impact",
-				fr: "Impact Lugubre",
-				es: "Impacto Sombra",
-				it: "Impatto Ombra",
-				pt: "Impacto Sombrio",
-				de: "Schatteneinschlag"
+				'en-us': "Shadow Impact",
+				'fr-fr': "Impact Lugubre",
+				'es-es': "Impacto Sombra",
+				'it-it': "Impatto Ombra",
+				'pt-br': "Impacto Sombrio",
+				'de-de': "Schatteneinschlag"
 			},
 			effect: {
-				en: "Put 3 damage counters on 1 of your Pokémon.",
-				fr: "Placez 3 marqueurs de dégâts sur l’un de vos Pokémon.",
-				es: "Pon 3 contadores de daño en 1 de tus Pokémon.",
-				it: "Metti tre segnalini danno su uno dei tuoi Pokémon.",
-				pt: "Coloque 3 contadores de dano em 1 dos seus Pokémon.",
-				de: "Lege 3 Schadensmarken auf 1 deiner Pokémon."
+				'en-us': "Put 3 damage counters on 1 of your Pokémon.",
+				'fr-fr': "Placez 3 marqueurs de dégâts sur l’un de vos Pokémon.",
+				'es-es': "Pon 3 contadores de daño en 1 de tus Pokémon.",
+				'it-it': "Metti tre segnalini danno su uno dei tuoi Pokémon.",
+				'pt-br': "Coloque 3 contadores de dano em 1 dos seus Pokémon.",
+				'de-de': "Lege 3 Schadensmarken auf 1 deiner Pokémon."
 			},
 			damage: 120,
 
@@ -96,7 +96,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When this legendary Pokémon's wings and tail feathers spread wide and glow red, it absorbs the life force of living creatures.",
+		'en-us': "When this legendary Pokémon's wings and tail feathers spread wide and glow red, it absorbs the life force of living creatures.",
 	},
 
 	thirdParty: {

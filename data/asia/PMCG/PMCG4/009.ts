@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "わるいゴルバット",
+		'ja-jp': "わるいゴルバット",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "スニーク攻撃",
+				'ja-jp': "スニーク攻撃",
 			},
 			effect: {
-				ja: "ターン中に、このポケモンを手から演奏すると、対戦相手のポケモンの1人に10ダメージを与えることができます。 <em>（ベンチポクモンに衰弱と抵抗を適用しないでください。）</em>",
+				'ja-jp': "ターン中に、このポケモンを手から演奏すると、対戦相手のポケモンの1人に10ダメージを与えることができます。 <em>（ベンチポクモンに衰弱と抵抗を適用しないでください。）</em>",
 			},
 		}],
 
@@ -30,10 +30,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "フリッター",
+				'ja-jp': "フリッター",
 			},
 			effect: {
-				ja: "この攻撃は、対戦相手のポケモンの1つに20のダメージを与えます。この攻撃の損傷は、脱力感や抵抗の影響を受けません。",
+				'ja-jp': "この攻撃は、対戦相手のポケモンの1つに20のダメージを与えます。この攻撃の損傷は、脱力感や抵抗の影響を受けません。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Simisage"
+		'en-us': "Simisage"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Pansage"
+		'en-us': "Pansage"
 	},
 
 	description: {
-		en: "Ill tempered, it fights by swinging its barbed tail\naround wildly. The leaf growing on its head is\nvery bitter."
+		'en-us': "Ill tempered, it fights by swinging its barbed tail\naround wildly. The leaf growing on its head is\nvery bitter."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Fury Swipes"
+			'en-us': "Fury Swipes"
 		},
 
 		damage: 40,
 		cost: ["Grass", "Colorless"],
 
 		effect: {
-			en: "Flip 3 coins. This attack does 40 damage for each heads."
+			'en-us': "Flip 3 coins. This attack does 40 damage for each heads."
 		}
 	}],
 

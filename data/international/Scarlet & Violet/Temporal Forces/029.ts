@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magcargo",
-		fr: "Volcaropod",
-		es: "Magcargo",
-		it: "Magcargo",
-		pt: "Magcargo",
-		de: "Magcargo"
+		'en-us': "Magcargo",
+		'fr-fr': "Volcaropod",
+		'es-es': "Magcargo",
+		'it-it': "Magcargo",
+		'pt-br': "Magcargo",
+		'de-de': "Magcargo"
 	},
 
 	rarity: "Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Slugma",
-		fr: "Limagma",
-		es: "Slugma",
-		it: "Slugma",
-		pt: "Slugma",
-		de: "Schneckmag"
+		'en-us': "Slugma",
+		'fr-fr': "Limagma",
+		'es-es': "Slugma",
+		'it-it': "Slugma",
+		'pt-br': "Slugma",
+		'de-de': "Schneckmag"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Lava Zone",
-			fr: "Zone de Lave",
-			es: "Zona de Lava",
-			it: "Area Lavica",
-			pt: "Zona de Lava",
-			de: "Lavazone"
+			'en-us': "Lava Zone",
+			'fr-fr': "Zone de Lave",
+			'es-es': "Zona de Lava",
+			'it-it': "Area Lavica",
+			'pt-br': "Zona de Lava",
+			'de-de': "Lavazone"
 		},
 
 		effect: {
-			en: "Whenever your opponent's Active Pokémon moves to the Bench during their turn, their new Active Pokémon is now Burned.",
-			fr: "À chaque fois que le Pokémon Actif de votre adversaire se déplace vers le Banc pendant son tour, son nouveau Pokémon Actif est maintenant Brûlé.",
-			es: "Cada vez que el Pokémon Activo de tu rival se mueva a la Banca durante su turno, su nuevo Pokémon Activo pasa a estar Quemado.",
-			it: "Ogni volta che il Pokémon attivo del tuo avversario si sposta in panchina durante il suo turno, il suo nuovo Pokémon attivo viene bruciato.",
-			pt: "Sempre que o Pokémon Ativo do seu oponente for movido para o Banco durante o turno dele, o novo Pokémon Ativo dele agora estará Queimado.",
-			de: "Jedes Mal, wenn das Aktive Pokémon deines Gegners während seines Zuges auf die Bank wechselt, ist sein neues Aktives Pokémon jetzt verbrannt."
+			'en-us': "Whenever your opponent's Active Pokémon moves to the Bench during their turn, their new Active Pokémon is now Burned.",
+			'fr-fr': "À chaque fois que le Pokémon Actif de votre adversaire se déplace vers le Banc pendant son tour, son nouveau Pokémon Actif est maintenant Brûlé.",
+			'es-es': "Cada vez que el Pokémon Activo de tu rival se mueva a la Banca durante su turno, su nuevo Pokémon Activo pasa a estar Quemado.",
+			'it-it': "Ogni volta che il Pokémon attivo del tuo avversario si sposta in panchina durante il suo turno, il suo nuovo Pokémon attivo viene bruciato.",
+			'pt-br': "Sempre que o Pokémon Ativo do seu oponente for movido para o Banco durante o turno dele, o novo Pokémon Ativo dele agora estará Queimado.",
+			'de-de': "Jedes Mal, wenn das Aktive Pokémon deines Gegners während seines Zuges auf die Bank wechselt, ist sein neues Aktives Pokémon jetzt verbrannt."
 		}
 	}],
 
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Fire", "Colorless", "Colorless"],
 
 		name: {
-			en: "Heat Blast",
-			fr: "Explosion de Chaleur",
-			es: "Explosión de Calor",
-			it: "Caldobomba",
-			pt: "Raio de Calor",
-			de: "Hitzestoß"
+			'en-us': "Heat Blast",
+			'fr-fr': "Explosion de Chaleur",
+			'es-es': "Explosión de Calor",
+			'it-it': "Caldobomba",
+			'pt-br': "Raio de Calor",
+			'de-de': "Hitzestoß"
 		},
 
 		damage: 100
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Its brittle shell occasionally spouts intense flames that circulate throughout its body.",
+		'en-us': "Its brittle shell occasionally spouts intense flames that circulate throughout its body.",
 	},
 
 	variants: [

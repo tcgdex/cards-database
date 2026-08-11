@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Cherubi",
-		fr: "Ceribou",
-		de: "Kikugi"
+		'en-us': "Cherubi",
+		'fr-fr': "Ceribou",
+		'de-de': "Kikugi"
 	},
 
 	illustrator: "match",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It evolves by sucking the energy out of the small ball where it had been storing nutrients."
+		'en-us': "It evolves by sucking the energy out of the small ball where it had been storing nutrients."
 	},
 
 	variants: [

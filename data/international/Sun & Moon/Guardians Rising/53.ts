@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Gothorita",
-		fr: "Mesmérella",
-		es: "Gothorita",
-		it: "Gothorita",
-		pt: "Gothorita",
-		de: "Hypnomorba"
+		'en-us': "Gothorita",
+		'fr-fr': "Mesmérella",
+		'es-es': "Gothorita",
+		'it-it': "Gothorita",
+		'pt-br': "Gothorita",
+		'de-de': "Hypnomorba"
 	},
 
 	illustrator: "kawayoo",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gothita",
-		fr: "Scrutella",
+		'en-us': "Gothita",
+		'fr-fr': "Scrutella",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Slap",
-				fr: "Gifle",
-				es: "Bofetón",
-				it: "Sberla",
-				pt: "Tapa",
-				de: "Hieb"
+				'en-us': "Slap",
+				'fr-fr': "Gifle",
+				'es-es': "Bofetón",
+				'it-it': "Sberla",
+				'pt-br': "Tapa",
+				'de-de': "Hieb"
 			},
 
 			damage: 20,
@@ -56,20 +56,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psybeam",
-				fr: "Rafale Psy",
-				es: "Psicorrayo",
-				it: "Psicoraggio",
-				pt: "Feixe Psíquico",
-				de: "Psystrahl"
+				'en-us': "Psybeam",
+				'fr-fr': "Rafale Psy",
+				'es-es': "Psicorrayo",
+				'it-it': "Psicoraggio",
+				'pt-br': "Feixe Psíquico",
+				'de-de': "Psystrahl"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent’s Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Starlight is the source of their power. At night, they mark star positions by using psychic power to float stones.",
+		'en-us': "Starlight is the source of their power. At night, they mark star positions by using psychic power to float stones.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Naclstack",
-		fr: "Amassel",
-		es: "Naclstack",
-		it: "Naclstack",
-		pt: "Naclstack",
-		de: "Sedisal"
+		'en-us': "Naclstack",
+		'fr-fr': "Amassel",
+		'es-es': "Naclstack",
+		'it-it': "Naclstack",
+		'pt-br': "Naclstack",
+		'de-de': "Sedisal"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Nacli",
-		fr: "Selutin",
-		es: "Nacli",
-		it: "Nacli",
-		pt: "Nacli",
-		de: "Geosali"
+		'en-us': "Nacli",
+		'fr-fr': "Selutin",
+		'es-es': "Nacli",
+		'it-it': "Nacli",
+		'pt-br': "Nacli",
+		'de-de': "Geosali"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			en: "Rocky Tackle",
-			fr: "Tacle Rocailleux",
-			es: "Placaje Rocoso",
-			it: "Azione Rocciosa",
-			pt: "Investida Pedregosa",
-			de: "Steiniger Tackle"
+			'en-us': "Rocky Tackle",
+			'fr-fr': "Tacle Rocailleux",
+			'es-es': "Placaje Rocoso",
+			'it-it': "Azione Rocciosa",
+			'pt-br': "Investida Pedregosa",
+			'de-de': "Steiniger Tackle"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 80
@@ -62,7 +62,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "This Pokémon dry cures its prey by spraying salt over them. The curing process steals away the water in the prey's body.",
+		'en-us': "This Pokémon dry cures its prey by spraying salt over them. The curing process steals away the water in the prey's body.",
 	},
 
 	variants: [

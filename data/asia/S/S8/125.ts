@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モココ",
+		'ja-jp': "モココ",
 	},
 
 	illustrator: "Studio Bora Inc.",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "次の相手の番、相手は手札からグッズを出して使えない。",
+				'ja-jp': "次の相手の番、相手は手札からグッズを出して使えない。",
 			},
 		},
 	],
@@ -39,7 +39,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "メリープ",
+		'ja-jp': "メリープ",
 	},
 
 	retreat: 2,

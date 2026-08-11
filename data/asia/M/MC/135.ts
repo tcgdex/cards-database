@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エンニュート",
+		'ja-jp': "エンニュート",
 	},
 
 	illustrator: "Taiga Kasai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "エンニュートの 群れ同士が 鉢合わせると フェロモンガスで オスを 奪い合う 争いになる。",
+		'ja-jp': "エンニュートの 群れ同士が 鉢合わせると フェロモンガスで オスを 奪い合う 争いになる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "いきなりあぶる" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手は相手自身の手札を1枚選び、トラッシュする。この番、このポケモンが「ヤトウモリ」から進化していたなら、さらに2枚トラッシュする。",
+				'ja-jp': "相手は相手自身の手札を1枚選び、トラッシュする。この番、このポケモンが「ヤトウモリ」から進化していたなら、さらに2枚トラッシュする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤトウモリ",
+		'ja-jp': "ヤトウモリ",
 	},
 
 	retreat: 1,

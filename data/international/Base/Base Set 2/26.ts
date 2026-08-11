@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Kangaskhan",
+		'en-us': "Kangaskhan",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fetch",
+				'en-us': "Fetch",
 			},
 			effect: {
-				en: "Draw a card.",
+				'en-us': "Draw a card.",
 			},
 
 		},
@@ -44,10 +44,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Comet Punch",
+				'en-us': "Comet Punch",
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
+				'en-us': "Flip 4 coins. This attack does 20 damage times the number of heads.",
 			},
 			damage: 20,
 
@@ -71,7 +71,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The infant rarely ventures out of its mother's protective pouch until it is three years old.",
+		'en-us': "The infant rarely ventures out of its mother's protective pouch until it is three years old.",
 	},
 
 

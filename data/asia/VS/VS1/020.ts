@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モーティのニネタール",
+		'ja-jp': "モーティのニネタール",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Fire"],
 			name: {
-				ja: "will-o-wispに電話してください",
+				'ja-jp': "will-o-wispに電話してください",
 			},
 			effect: {
-				ja: "3コインをフリップします。各ヘッドについて、廃棄の山から1枚のファイアエネルギーカードを選択し、手に入れます。",
+				'ja-jp': "3コインをフリップします。各ヘッドについて、廃棄の山から1枚のファイアエネルギーカードを選択し、手に入れます。",
 			},
 		},
 		{
 			cost: ["Fire", "Colorless"],
 			name: {
-				ja: "フリッカリングフレーム",
+				'ja-jp': "フリッカリングフレーム",
 			},
 			effect: {
-				ja: "防御ポケモンは今眠っています。",
+				'ja-jp': "防御ポケモンは今眠っています。",
 			},
 			damage: 20,
 		},

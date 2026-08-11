@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skrelp",
-		fr: "Venalgue",
-		es: "Skrelp",
-		it: "Skrelp",
-		pt: "Skrelp",
-		de: "Algitt"
+		'en-us': "Skrelp",
+		'fr-fr': "Venalgue",
+		'es-es': "Skrelp",
+		'it-it': "Skrelp",
+		'pt-br': "Skrelp",
+		'de-de': "Algitt"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 10
@@ -38,12 +38,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Melt",
-			fr: "Dissolution",
-			es: "Derretir",
-			it: "Liquefazione",
-			pt: "Derreter",
-			de: "Schmelzen"
+			'en-us': "Melt",
+			'fr-fr': "Dissolution",
+			'es-es': "Derretir",
+			'it-it': "Liquefazione",
+			'pt-br': "Derreter",
+			'de-de': "Schmelzen"
 		},
 
 		damage: 20
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It drifts in the ocean, blending in with floating seaweed. When other Pokémon come to feast on the seaweed, Skrelp feasts on them instead.",
+		'en-us': "It drifts in the ocean, blending in with floating seaweed. When other Pokémon come to feast on the seaweed, Skrelp feasts on them instead.",
 	},
 
 	

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Poochyena"
+		'id-id': "Poochyena"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Pokémon yang bersifat keras hati. Poochyena mengejar-ngejar mangsa yang ditargetkan hingga mangsa tersebut letih dan kelelahan."
+		'id-id': "Pokémon yang bersifat keras hati. Poochyena mengejar-ngejar mangsa yang ditargetkan hingga mangsa tersebut letih dan kelelahan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menggerogoti Habis"
+			'id-id': "Menggerogoti Habis"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 20."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 20."
 		},
 
 		damage: "30+",

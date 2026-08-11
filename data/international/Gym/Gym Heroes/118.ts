@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Secret Mission"
+		'en-us': "Secret Mission"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -12,7 +12,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Look at your opponent's hand. Then, you may discard as many other cards as you want from your hand and draw that many cards."
+		'en-us': "Look at your opponent's hand. Then, you may discard as many other cards as you want from your hand and draw that many cards."
 	},
 	variants: [
 		{

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドラミドロ",
+		'ja-jp': "ドラミドロ",
 	},
 
 	illustrator: "Midori Harada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "凶暴で 寄ってきた 相手に 毒液を 吹きかける。 なぜだか ダダリンとだけは とっても 仲良し。",
+		'ja-jp': "凶暴で 寄ってきた 相手に 毒液を 吹きかける。 なぜだか ダダリンとだけは とっても 仲良し。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "どくばいよう" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンがどくなら、そのどくでのせるダメカンの数は10個になる。",
+				'ja-jp': "相手のバトルポケモンがどくなら、そのどくでのせるダメカンの数は10個になる。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "クズモー",
+		'ja-jp': "クズモー",
 	},
 
 	retreat: 1,

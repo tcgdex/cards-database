@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "mewtwo（デルタ種）",
+		'ja-jp': "mewtwo（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "デルタスイッチ",
+				'ja-jp': "デルタスイッチ",
 			},
 			effect: {
-				ja: "ターン中に、手からMewtwoをベンチに置くと、Pokã©Monに取り付けられた基本エネルギーカードを他のPokã©Mon（Mewtwoを除く）に任意の方法で移動できます。",
+				'ja-jp': "ターン中に、手からMewtwoをベンチに置くと、Pokã©Monに取り付けられた基本エネルギーカードを他のPokã©Mon（Mewtwoを除く）に任意の方法で移動できます。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Fire", "Metal"],
 			name: {
-				ja: "エネルギーバースト",
+				'ja-jp': "エネルギーバースト",
 			},
 			effect: {
-				ja: "Mewtwoと防御ポケモンに付随するエネルギーの総量を10回ダメージします。",
+				'ja-jp': "Mewtwoと防御ポケモンに付随するエネルギーの総量を10回ダメージします。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Rare Candy",
-		fr: "Super bonbon",
-		de: "Sonderbonbon"
+		'en-us': "Rare Candy",
+		'fr-fr': "Super bonbon",
+		'de-de': "Sonderbonbon"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Choose 1 of your Basic Pokémon in play. If you have a Stage 1 or Stage 2 card that evolves from that Pokémon in your hand, put that card on the Basic Pokémon. (This counts as evolving that Pokémon.)",
-		fr: "Choisissez 1 de vos Pokémon de base en jeu. Si vous possédez dans votre main une carte Niveau 1 ou Niveau 2 qui évolue de ce Pokémon, placez-la sur le Pokémon de base. (Vous le faites ainsi évoluer.)",
-		de: "Wähle 1 deiner Basis-Pokémon im Spiel. Falls du eine Phase 1- oder Phase 2-Karte auf der Hand hast, die sich aus diesem Pokémon entwickelt, lege sie auf das Basis-Pokémon. (Das zählt als Entwickeln des gewählten Pokémon.)"
+		'en-us': "Choose 1 of your Basic Pokémon in play. If you have a Stage 1 or Stage 2 card that evolves from that Pokémon in your hand, put that card on the Basic Pokémon. (This counts as evolving that Pokémon.)",
+		'fr-fr': "Choisissez 1 de vos Pokémon de base en jeu. Si vous possédez dans votre main une carte Niveau 1 ou Niveau 2 qui évolue de ce Pokémon, placez-la sur le Pokémon de base. (Vous le faites ainsi évoluer.)",
+		'de-de': "Wähle 1 deiner Basis-Pokémon im Spiel. Falls du eine Phase 1- oder Phase 2-Karte auf der Hand hast, die sich aus diesem Pokémon entwickelt, lege sie auf das Basis-Pokémon. (Das zählt als Entwickeln des gewählten Pokémon.)"
 	},
 
 	trainerType: "Item",

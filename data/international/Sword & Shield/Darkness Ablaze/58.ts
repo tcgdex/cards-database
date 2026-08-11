@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [309],
 
 	name: {
-		en: "Electrike",
-		fr: "Dynavolt",
-		es: "Electrike",
-		it: "Electrike",
-		pt: "Electrike",
-		de: "Frizelbliz"
+		'en-us': "Electrike",
+		'fr-fr': "Dynavolt",
+		'es-es': "Electrike",
+		'it-it': "Electrike",
+		'pt-br': "Electrike",
+		'de-de': "Frizelbliz"
 	},
 
 	illustrator: "Yumi",
@@ -30,20 +30,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunderbolt",
-				fr: "Tonnerre",
-				es: "Rayo",
-				it: "Fulmine",
-				pt: "Relâmpago",
-				de: "Donnerblitz"
+				'en-us': "Thunderbolt",
+				'fr-fr': "Tonnerre",
+				'es-es': "Rayo",
+				'it-it': "Fulmine",
+				'pt-br': "Relâmpago",
+				'de-de': "Donnerblitz"
 			},
 			effect: {
-				en: "Discard all Energy from this Pokémon.",
-				fr: "Défaussez toute l'Énergie de ce Pokémon.",
-				es: "Descarta todas las Energías de este Pokémon.",
-				it: "Scarta tutte le Energie da questo Pokémon.",
-				pt: "Descarte todas as Energias deste Pokémon.",
-				de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard all Energy from this Pokémon.",
+				'fr-fr': "Défaussez toute l'Énergie de ce Pokémon.",
+				'es-es': "Descarta todas las Energías de este Pokémon.",
+				'it-it': "Scarta tutte le Energie da questo Pokémon.",
+				'pt-br': "Descarte todas as Energias deste Pokémon.",
+				'de-de': "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 50,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches."
+		'en-us': "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches."
 	},
 
 	variants: [

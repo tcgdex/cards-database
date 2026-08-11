@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Alomomola",
-		fr: "Mamanbo",
-		es: "Alomomola",
-		it: "Alomomola",
-		pt: "Alomomola",
-		de: "Mamolida"
+		'en-us': "Alomomola",
+		'fr-fr': "Mamanbo",
+		'es-es': "Alomomola",
+		'it-it': "Alomomola",
+		'pt-br': "Alomomola",
+		'de-de': "Mamolida"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mysterious Beam",
-				fr: "Rayon Mystérieux",
+				'en-us': "Mysterious Beam",
+				'fr-fr': "Rayon Mystérieux",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 30,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Slap",
-				fr: "Torgnoles",
+				'en-us': "Double Slap",
+				'fr-fr': "Torgnoles",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 50 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 50,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The special membrane enveloping Alomomola has the ability to heal wounds.",
+		'en-us': "The special membrane enveloping Alomomola has the ability to heal wounds.",
 	},
 
 	thirdParty: {

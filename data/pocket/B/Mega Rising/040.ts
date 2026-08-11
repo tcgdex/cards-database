@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Darmanitan"
+		'en-us': "Darmanitan"
 	},
 
 	illustrator: "kawayoo",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Darumaka"
+		'en-us': "Darumaka"
 	},
 
 	description: {
-		en: "This Pokémon's power level rises along with the\ntemperature of its fire, which can reach 2,500\ndegrees Fahrenheit."
+		'en-us': "This Pokémon's power level rises along with the\ntemperature of its fire, which can reach 2,500\ndegrees Fahrenheit."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Darmani-Hands"
+			'en-us': "Darmani-Hands"
 		},
 
 		damage: 80,
 		cost: ["Fire", "Fire", "Fire", "Colorless"],
 
 		effect: {
-			en: "Flip 2 coins. This attack does 30 more damage for each heads."
+			'en-us': "Flip 2 coins. This attack does 30 more damage for each heads."
 		}
 	}],
 

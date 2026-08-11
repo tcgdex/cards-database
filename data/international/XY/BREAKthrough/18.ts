@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Cyndaquil",
-		fr: "Héricendre",
-		es: "Cyndaquil",
-		it: "Cyndaquil",
-		pt: "Cyndaquil",
-		de: "Feurigel"
+		'en-us': "Cyndaquil",
+		'fr-fr': "Héricendre",
+		'es-es': "Cyndaquil",
+		'it-it': "Cyndaquil",
+		'pt-br': "Cyndaquil",
+		'de-de': "Feurigel"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ember",
-				fr: "Flammèche",
-				es: "Ascuas",
-				it: "Braciere",
-				pt: "Brasa",
-				de: "Glut"
+				'en-us': "Ember",
+				'fr-fr': "Flammèche",
+				'es-es': "Ascuas",
+				'it-it': "Braciere",
+				'pt-br': "Brasa",
+				'de-de': "Glut"
 			},
 			effect: {
-				en: "Discard a Fire Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie Fire attachée à ce Pokémon.",
-				es: "Descarta 1 Energía Fire unida a este Pokémon.",
-				it: "Scarta un'Energia Fire assegnata a questo Pokémon.",
-				pt: "Descarte uma Energia Fire ligada a este Pokémon.",
-				de: "Lege 1 an dieses Pokémon angelegte Fire-Energie auf deinen Ablagestapel."
+				'en-us': "Discard a Fire Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie Fire attachée à ce Pokémon.",
+				'es-es': "Descarta 1 Energía Fire unida a este Pokémon.",
+				'it-it': "Scarta un'Energia Fire assegnata a questo Pokémon.",
+				'pt-br': "Descarte uma Energia Fire ligada a este Pokémon.",
+				'de-de': "Lege 1 an dieses Pokémon angelegte Fire-Energie auf deinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has a timid nature. If it is startled, the flames on its back burn more vigorously.",
+		'en-us': "It has a timid nature. If it is startled, the flames on its back burn more vigorously.",
 	},
 
 	thirdParty: {

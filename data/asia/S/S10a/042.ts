@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴルバット",
+		'ja-jp': "ゴルバット",
 		'zh-tw': "大嘴蝠",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "生き物の 血液が 好物。 腹ペコの 仲間に 吸った 血を 分け与えることも あるという。",
+		'ja-jp': "生き物の 血液が 好物。 腹ペコの 仲間に 吸った 血を 分け与えることも あるという。",
 		'zh-tw': "喜歡吸食生物的血液。據說還會將吸來的血 分給空腹的夥伴。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かみつく",
+				'ja-jp': "かみつく",
 				'zh-tw': "咬住",
 			},
 			damage: 30,
@@ -51,7 +51,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ズバット",
+		'ja-jp': "ズバット",
 	},
 
 	retreat: 0,

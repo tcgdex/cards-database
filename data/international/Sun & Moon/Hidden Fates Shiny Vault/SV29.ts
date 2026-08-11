@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Magnezone",
-		fr: "Magnézone",
+		'en-us': "Magnezone",
+		'fr-fr': "Magnézone",
 	},
 	illustrator: "Misa Tsutsui",
 	rarity: "Shiny rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Metal",
 	],
 	evolveFrom: {
-		en: "Magneton",
-		fr: "Magnéton",
+		'en-us': "Magneton",
+		'fr-fr': "Magnéton",
 	},
 	stage: "Stage2",
 
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Magnetic Circuit",
-				fr: "Circuit Magnétique",
+				'en-us': "Magnetic Circuit",
+				'fr-fr': "Circuit Magnétique",
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may attach a Metal Energy card from your hand to 1 of your Pokémon.",
-				fr: "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie Metal de votre main à l’un de vos Pokémon.",
+				'en-us': "As often as you like during your turn (before your attack), you may attach a Metal Energy card from your hand to 1 of your Pokémon.",
+				'fr-fr': "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie Metal de votre main à l’un de vos Pokémon.",
 			},
 		},
 	],
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Zap Cannon",
-				fr: "Élecanon",
+				'en-us': "Zap Cannon",
+				'fr-fr': "Élecanon",
 			},
 			effect: {
-				en: "This Pokémon can't use Zap Cannon during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Élecanon pendant votre prochain tour.",
+				'en-us': "This Pokémon can't use Zap Cannon during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Élecanon pendant votre prochain tour.",
 			},
 			damage: 130,
 
@@ -75,7 +75,7 @@ const card: Card = {
 
 
 	description: {
-		en: "As it zooms through the sky, this Pokémon seems to be receiving signals of unknown origin, while transmitting signals of unknown purpose.",
+		'en-us': "As it zooms through the sky, this Pokémon seems to be receiving signals of unknown origin, while transmitting signals of unknown purpose.",
 	},
 }
 

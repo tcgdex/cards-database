@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バサギリVSTAR",
+		'ja-jp': "バサギリVSTAR",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "相手のベンチの「ポケモンV」1匹にも、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチの「ポケモンV」1匹にも、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Fighting"],
 			effect: {
-				ja: "自分のトラッシュにあるポケモンの枚数×30ダメージ。［対戦中、自分はVSTARパワーを1回しか使えない。］",
+				'ja-jp': "自分のトラッシュにあるポケモンの枚数×30ダメージ。［対戦中、自分はVSTARパワーを1回しか使えない。］",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "バサギリV",
+		'ja-jp': "バサギリV",
 	},
 
 	retreat: 2,

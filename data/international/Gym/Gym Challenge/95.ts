@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Drowzee"
+		'en-us': "Sabrina's Drowzee"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Energy Support"
+				'en-us': "Energy Support"
 			},
 			effect: {
-				en: "Search your deck for a Psychic Energy card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
+				'en-us': "Search your deck for a Psychic Energy card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
 			},
 
 		},
@@ -40,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mind Shock"
+				'en-us': "Mind Shock"
 			},
 			effect: {
-				en: "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
+				'en-us': "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
 			},
 			damage: 20,
 

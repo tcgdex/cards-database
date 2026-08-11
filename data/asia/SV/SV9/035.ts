@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カゲボウズ",
+		'ja-jp': "カゲボウズ",
 		'zh-tw': "怨影娃娃",
 		'zh-cn': "怨影娃娃"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "恨みや 妬みの 感情が 大好物。 ピンと立った ツノが 人間の 気持ちを キャッチする。",
+		'ja-jp': "恨みや 妬みの 感情が 大好物。 ピンと立った ツノが 人間の 気持ちを キャッチする。",
 		'zh-tw': "最愛吃像是怨恨和嫉妒 這類的感情。會用豎立 的角來察覺人類的心情。",
 		'zh-cn': "最愛吃像是怨恨和嫉妒 這類的感情。會用豎立 的角來察覺人類的心情。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "ホロウショット",
+			'ja-jp': "ホロウショット",
 			'zh-tw': "陰森射擊",
 			'zh-cn': "陰森射擊"
 		},

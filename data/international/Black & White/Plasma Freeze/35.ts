@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Chinchou",
-		fr: "Loupio",
-		es: "Chinchou",
-		it: "Chinchou",
-		pt: "Chinchou",
-		de: "Lampi"
+		'en-us': "Chinchou",
+		'fr-fr': "Loupio",
+		'es-es': "Chinchou",
+		'it-it': "Chinchou",
+		'pt-br': "Chinchou",
+		'de-de': "Lampi"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Static Shock",
-				fr: "Choc Statique",
+				'en-us': "Static Shock",
+				'fr-fr': "Choc Statique",
 			},
 
 			damage: 20,
@@ -54,7 +54,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It discharges positive and negative electricity from its antenna tips to shock its foes.",
+		'en-us': "It discharges positive and negative electricity from its antenna tips to shock its foes.",
 	},
 
 	thirdParty: {

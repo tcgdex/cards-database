@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Metagross",
-		fr: "Metalosse",
-		de: "Metagross"
+		'en-us': "Metagross",
+		'fr-fr': "Metalosse",
+		'de-de': "Metagross"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Metang",
-		fr: "Metang"
+		'en-us': "Metang",
+		'fr-fr': "Metang"
 	},
 
 	stage: "Stage2",
@@ -33,14 +33,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Metal Juncture",
-				fr: "Jointure métallique",
-				de: "Metal Juncture"
+				'en-us': "Metal Juncture",
+				'fr-fr': "Jointure métallique",
+				'de-de': "Metal Juncture"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may move a Metal Energy card attached to 1 of your Benched Pokémon to your Active Pokémon. This power can't be used if Metagross is affected by a Special Condition.",
-				fr: "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), vous pouvez déplacer une carte Énergie  attachée à 1 des Pokémon de votre Banc sur votre Pokémon Actif. Ce pouvoir ne peut pas être utilisé si Metalosse est affecté par un État Spécial.",
-				de: "As often you like during your turn (before your attack), you may move a  Energy card attached to 1 of your Benched Pokémon to your Active Pokémon. This power can't be used if Metagross is affected by a Special Condition."
+				'en-us': "As often as you like during your turn (before your attack), you may move a Metal Energy card attached to 1 of your Benched Pokémon to your Active Pokémon. This power can't be used if Metagross is affected by a Special Condition.",
+				'fr-fr': "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), vous pouvez déplacer une carte Énergie  attachée à 1 des Pokémon de votre Banc sur votre Pokémon Actif. Ce pouvoir ne peut pas être utilisé si Metalosse est affecté par un État Spécial.",
+				'de-de': "As often you like during your turn (before your attack), you may move a  Energy card attached to 1 of your Benched Pokémon to your Active Pokémon. This power can't be used if Metagross is affected by a Special Condition."
 			}
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Squared Attack",
-				fr: "Attaque carrée",
-				de: "Squared Attack"
+				'en-us': "Squared Attack",
+				'fr-fr': "Attaque carrée",
+				'de-de': "Squared Attack"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Flip 4 coins. This attack does 30 damage times the number of heads."
+				'en-us': "Flip 4 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 4 coins. This attack does 30 damage times the number of heads."
 			},
 			damage: "30×",
 

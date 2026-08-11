@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Bronzor",
-		fr: "Archéomire",
-		es: "Bronzor",
-		it: "Bronzor",
-		pt: "Bronzor",
-		de: "Bronzel"
+		'en-us': "Bronzor",
+		'fr-fr': "Archéomire",
+		'es-es': "Bronzor",
+		'it-it': "Bronzor",
+		'pt-br': "Bronzor",
+		'de-de': "Bronzel"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Iron Defense",
-				fr: "Mur de Fer",
-				es: "Defensa Férrea",
-				it: "Ferroscudo",
-				pt: "Defesa de Ferro",
-				de: "Eisenabwehr"
+				'en-us': "Iron Defense",
+				'fr-fr': "Mur de Fer",
+				'es-es': "Defensa Férrea",
+				'it-it': "Ferroscudo",
+				'pt-br': "Defesa de Ferro",
+				'de-de': "Eisenabwehr"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
-				es: "Lanza 1 moneda. Si sale cara, evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon durante el próximo turno de tu rival.",
-				it: "Lancia una moneta. Se esce testa, previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon durante il prossimo turno del tuo avversario.",
-				pt: "Jogue uma moeda. Se sair cara, todos os efeitos dos ataques causados a este Pokémon serão prevenidos, inclusive danos, durante a próxima vez de jogar do seu oponente.",
-				de: "Wirf 1 Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon zugefügt werden."
+				'en-us': "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
+				'es-es': "Lanza 1 moneda. Si sale cara, evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon durante el próximo turno de tu rival.",
+				'it-it': "Lancia una moneta. Se esce testa, previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon durante il prossimo turno del tuo avversario.",
+				'pt-br': "Jogue uma moeda. Se sair cara, todos os efeitos dos ataques causados a este Pokémon serão prevenidos, inclusive danos, durante a próxima vez de jogar do seu oponente.",
+				'de-de': "Wirf 1 Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon zugefügt werden."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer In",
-				fr: "Enfoncement",
-				es: "Martillear",
-				it: "Martello",
-				pt: "Martelada",
-				de: "Einhämmern"
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncement",
+				'es-es': "Martillear",
+				'it-it': "Martello",
+				'pt-br': "Martelada",
+				'de-de': "Einhämmern"
 			},
 
 			damage: 20,
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.",
+		'en-us': "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.",
 	},
 
 	thirdParty: {

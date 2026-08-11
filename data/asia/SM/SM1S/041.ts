@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アブリー",
+		'ja-jp': "アブリー",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "花のミツや 花粉が 餌。 オーラを 感じる 力を 持ち 咲きそうな 花を 見分けている。",
+		'ja-jp': "花のミツや 花粉が 餌。 オーラを 感じる 力を 持ち 咲きそうな 花を 見分けている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Fairy"],
 			effect: {
-				ja: "次の相手の番、このポケモンがワザのダメージを受けるとき、自分はコインを1回投げる。オモテなら、このポケモンはそのダメージを受けない。",
+				'ja-jp': "次の相手の番、このポケモンがワザのダメージを受けるとき、自分はコインを1回投げる。オモテなら、このポケモンはそのダメージを受けない。",
 			},
 		},
 	],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Sawk",
-		fr: "Karaclée",
-		es: "Sawk",
-		it: "Sawk",
-		pt: "Sawk",
-		de: "Karadonis"
+		'en-us': "Sawk",
+		'fr-fr': "Karaclée",
+		'es-es': "Sawk",
+		'it-it': "Sawk",
+		'pt-br': "Sawk",
+		'de-de': "Karadonis"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Defensive Stance",
-				fr: "Posture Défensive",
+				'en-us': "Defensive Stance",
+				'fr-fr': "Posture Défensive",
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon. Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Soignez 30 dégâts à ce Pokémon. Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
+				'en-us': "Heal 30 damage from this Pokémon. Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon. Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
 			},
 
 		},
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Karate Chop",
-				fr: "Poing-Karaté",
+				'en-us': "Karate Chop",
+				'fr-fr': "Poing-Karaté",
 			},
 			effect: {
-				en: "Does 70 damage minus 10 damage for each damage counter on this Pokémon.",
-				fr: "Inflige 70 dégâts moins 10 dégâts pour chaque marqueur de dégâts placé sur ce Pokémon.",
+				'en-us': "Does 70 damage minus 10 damage for each damage counter on this Pokémon.",
+				'fr-fr': "Inflige 70 dégâts moins 10 dégâts pour chaque marqueur de dégâts placé sur ce Pokémon.",
 			},
 			damage: 70,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Tying their belts gets them pumped and makes their punches more destructive. Disturbing their training angers them.",
+		'en-us': "Tying their belts gets them pumped and makes their punches more destructive. Disturbing their training angers them.",
 	},
 
 	thirdParty: {

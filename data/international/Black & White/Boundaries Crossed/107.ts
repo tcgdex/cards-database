@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Farfetch’d",
-		fr: "Canarticho",
-		es: "Farfetch’d",
-		it: "Farfetch’d",
-		pt: "Farfetch’d",
-		de: "Porenta"
+		'en-us': "Farfetch’d",
+		'fr-fr': "Canarticho",
+		'es-es': "Farfetch’d",
+		'it-it': "Farfetch’d",
+		'pt-br': "Farfetch’d",
+		'de-de': "Porenta"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hard Swing",
-				fr: "Gnon Vigoureux",
+				'en-us': "Hard Swing",
+				'fr-fr': "Gnon Vigoureux",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -62,7 +62,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It can't live without the stalk it holds. That's why it defends the stalk from attackers with its life.",
+		'en-us': "It can't live without the stalk it holds. That's why it defends the stalk from attackers with its life.",
 	},
 }
 

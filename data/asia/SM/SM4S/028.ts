@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カラカラ",
+		'ja-jp': "カラカラ",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "死に別れた 母を 思いだして 大声で 泣く。 声を聞きつけた バルジーナに 空から 狙われる。",
+		'ja-jp': "死に別れた 母を 思いだして 大声で 泣く。 声を聞きつけた バルジーナに 空から 狙われる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "にらみつける" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 		{

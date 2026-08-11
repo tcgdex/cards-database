@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Ho-Oh",
-		th: "โฮโอ"
+		'id-id': "Ho-Oh",
+		'th-th': "โฮโอ"
 	},
 
 	illustrator: "kodama",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Pokémon yang terdapat pada mitos dengan kisah tubuhnya bersinar tujuh warna dan pelangi muncul setelah ia terbang.",
-		th: "โปเกมอนที่ถูกเล่าขานในเทพนิยายว่าร่างกายเปล่งประกาย 7 สี และจะมีสายรุ้งปรากฏหลังจากที่มันโบยบินผ่านไป"
+		'id-id': "Pokémon yang terdapat pada mitos dengan kisah tubuhnya bersinar tujuh warna dan pelangi muncul setelah ia terbang.",
+		'th-th': "โปเกมอนที่ถูกเล่าขานในเทพนิยายว่าร่างกายเปล่งประกาย 7 สี และจะมีสายรุ้งปรากฏหลังจากที่มันโบยบินผ่านไป"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Mengepak",
-			th: "ตีปีก"
+			'id-id': "Mengepak",
+			'th-th': "ตีปีก"
 		},
 
 		damage: 50,
 		cost: ["Fire", "Colorless"]
 	}, {
 		name: {
-			id: "Shine Blaze",
-			th: "ไชน์เบลซ"
+			'id-id': "Shine Blaze",
+			'th-th': "ไชน์เบลซ"
 		},
 
 		effect: {
-			id: "Jika ada Pokémon Terastal di Cadangan sendiri, kerusakan yang diberikan bertambah sejumlah 100.",
-			th: "ถ้าบนเบนช์ฝ่ายเรามีโปเกมอน [เทรัสตัล] อยู่ การโจมตีนี้จะเพิ่มแดเมจอีก 100"
+			'id-id': "Jika ada Pokémon Terastal di Cadangan sendiri, kerusakan yang diberikan bertambah sejumlah 100.",
+			'th-th': "ถ้าบนเบนช์ฝ่ายเรามีโปเกมอน [เทรัสตัล] อยู่ การโจมตีนี้จะเพิ่มแดเมจอีก 100"
 		},
 
 		damage: "100+",

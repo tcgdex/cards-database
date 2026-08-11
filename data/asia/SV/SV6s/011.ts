@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Leafeon"
+		'id-id': "Leafeon"
 	},
 
 	illustrator: "Kuroimori",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Makin muda Leafeon, makin kuat aroma daun mudanya. Seiring dengan pertambahan umur, aroma Pokémon ini menjadi seperti bau daun gugur."
+		'id-id': "Makin muda Leafeon, makin kuat aroma daun mudanya. Seiring dengan pertambahan umur, aroma Pokémon ini menjadi seperti bau daun gugur."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Berkah Daun Muda"
+			'id-id': "Berkah Daun Muda"
 		},
 
 		effect: {
-			id: "Pilih 1 lembar Energi Dasar {Daun} dari Kartu Pegangan sendiri, lalu kenakan pada Pokémon Cadangan. Setelah itu, pulihkan HP Pokémon yang telah dikenakan Energi sepenuhnya."
+			'id-id': "Pilih 1 lembar Energi Dasar {Daun} dari Kartu Pegangan sendiri, lalu kenakan pada Pokémon Cadangan. Setelah itu, pulihkan HP Pokémon yang telah dikenakan Energi sepenuhnya."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Solar Beam"
+			'id-id': "Solar Beam"
 		},
 
 		damage: 70,

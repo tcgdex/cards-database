@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Haunter"
+		'id-id': "Haunter"
 	},
 
 	illustrator: "DOM",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Haunter suka bersembunyi di dalam gelap, lalu menepuk pundak manusia dengan tangan gasnya. Sentuhannya membuat tubuh tidak akan berhenti gemetar."
+		'id-id': "Haunter suka bersembunyi di dalam gelap, lalu menepuk pundak manusia dengan tangan gasnya. Sentuhannya membuat tubuh tidak akan berhenti gemetar."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Tidur Singkat Hitam"
+			'id-id': "Tidur Singkat Hitam"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
 		},
 
 		damage: 40,

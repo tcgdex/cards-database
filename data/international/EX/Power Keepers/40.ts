@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Vibrava",
-		fr: "Vibraninf",
-		de: "Vibrava"
+		'en-us': "Vibrava",
+		'fr-fr': "Vibraninf",
+		'de-de': "Vibrava"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Trapinch",
-		fr: "Kraknoix"
+		'en-us': "Trapinch",
+		'fr-fr': "Kraknoix"
 	},
 
 	stage: "Stage1",
@@ -37,9 +37,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'de-de': "Ramme"
 			},
 
 			damage: 20,
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragonbreath",
-				fr: "Dracosouffle",
-				de: "Feuerodem"
+				'en-us': "Dragonbreath",
+				'fr-fr': "Dracosouffle",
+				'de-de': "Feuerodem"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 60,
 

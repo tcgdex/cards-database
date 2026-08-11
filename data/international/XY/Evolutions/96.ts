@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Fighting Energy",
-		fr: "Énergie Combat",
-		es: "Energía Lucha",
-		it: "Energia Lotta",
-		pt: "Energia de Luta",
-		de: "Kampf-Energie"
+		'en-us': "Fighting Energy",
+		'fr-fr': "Énergie Combat",
+		'es-es': "Energía Lucha",
+		'it-it': "Energia Lotta",
+		'pt-br': "Energia de Luta",
+		'de-de': "Kampf-Energie"
 	},
 
 	rarity: "Common",

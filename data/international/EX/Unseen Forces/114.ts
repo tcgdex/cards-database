@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Raikou ☆",
-		fr: "Raikou ☆",
-		de: "Raikou ☆"
+		'en-us': "Raikou ☆",
+		'fr-fr': "Raikou ☆",
+		'de-de': "Raikou ☆"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lightning Turn",
-				fr: "Tour éclair",
-				de: "Lightning Turn"
+				'en-us': "Lightning Turn",
+				'fr-fr': "Tour éclair",
+				'de-de': "Lightning Turn"
 			},
 			effect: {
-				en: "Switch Raikou ☆ with 1 of your Benched Pokémon.",
-				fr: "Échangez Raikou ☆ avec 1 des Pokémon de votre Banc.",
-				de: "Switch Raikou ☆ with 1 of your Benched Pokémon."
+				'en-us': "Switch Raikou ☆ with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez Raikou ☆ avec 1 des Pokémon de votre Banc.",
+				'de-de': "Switch Raikou ☆ with 1 of your Benched Pokémon."
 			},
 			damage: 20,
 
@@ -51,14 +51,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Meta Voltage",
-				fr: "Méta voltage",
-				de: "Meta Voltage"
+				'en-us': "Meta Voltage",
+				'fr-fr': "Méta voltage",
+				'de-de': "Meta Voltage"
 			},
 			effect: {
-				en: "If you have less Prize cards left than your opponent, this attack does 40 damage to each of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "S'il vous reste moins de cartes Récompense que votre adversaire, cette attaque inflige 40 dégâts à chacun de vos Pokémon. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "If you have lass Prize cards leftthan your opponent, this attack does 40 damage to each of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "If you have less Prize cards left than your opponent, this attack does 40 damage to each of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "S'il vous reste moins de cartes Récompense que votre adversaire, cette attaque inflige 40 dégâts à chacun de vos Pokémon. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "If you have lass Prize cards leftthan your opponent, this attack does 40 damage to each of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 70,
 

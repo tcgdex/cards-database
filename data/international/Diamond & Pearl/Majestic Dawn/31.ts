@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Toxicroak",
-		fr: "Coatox",
-		de: "Toxiquak"
+		'en-us': "Toxicroak",
+		'fr-fr': "Coatox",
+		'de-de': "Toxiquak"
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Croagunk",
-		fr: "Cradopaud",
+		'en-us': "Croagunk",
+		'fr-fr': "Cradopaud",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Paralyze Poison",
-				fr: "Poison paralysant",
-				de: "Lähmendes Gift"
+				'en-us': "Paralyze Poison",
+				'fr-fr': "Poison paralysant",
+				'de-de': "Lähmendes Gift"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned. Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt und vegiftet."
+				'en-us': "The Defending Pokémon is now Poisoned. Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné. Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet. Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt und vegiftet."
 			},
 			damage: 20,
 
@@ -55,9 +55,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 60,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The toxin made in its poison sacs is pumped to the knuckle claws through tubes down its arms.",
+		'en-us': "The toxin made in its poison sacs is pumped to the knuckle claws through tubes down its arms.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Litwick",
-		fr: "Funécire",
-		es: "Litwick",
-		it: "Litwick",
-		pt: "Litwick",
-		de: "Lichtel"
+		'en-us': "Litwick",
+		'fr-fr': "Funécire",
+		'es-es': "Litwick",
+		'it-it': "Litwick",
+		'pt-br': "Litwick",
+		'de-de': "Lichtel"
 	},
 
 	illustrator: "Naoki Saito",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Teleportation Burst",
-				fr: "Téléportation Explosive",
+				'en-us': "Teleportation Burst",
+				'fr-fr': "Téléportation Explosive",
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "While shining a light and pretending to be a guide, it leaches off the life force of any who follow it.",
+		'en-us': "While shining a light and pretending to be a guide, it leaches off the life force of any who follow it.",
 	},
 
 	thirdParty: {

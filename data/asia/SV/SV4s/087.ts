@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Purrloin"
+		'id-id': "Purrloin"
 	},
 
 	illustrator: "0313",
@@ -14,21 +14,21 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Dengan tingkahnya yang imut, Purrloin membuat lawannya lengah. Saat lawan menghampirinya, Pokémon ini menggaruk lawan dengan cakarnya yang tajam dan menertawakannya."
+		'id-id': "Dengan tingkahnya yang imut, Purrloin membuat lawannya lengah. Saat lawan menghampirinya, Pokémon ini menggaruk lawan dengan cakarnya yang tajam dan menertawakannya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menginjak"
+			'id-id': "Menginjak"
 		},
 
 		damage: 10,
 		cost: ["Darkness"]
 	}, {
 		name: {
-			id: "Tendangan Kucing"
+			'id-id': "Tendangan Kucing"
 		},
 
 		damage: 30,

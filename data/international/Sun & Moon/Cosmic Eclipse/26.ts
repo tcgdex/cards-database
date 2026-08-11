@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Slugma",
-		fr: "Limagma",
-		es: "Slugma",
-		it: "Slugma",
-		pt: "Slugma",
-		de: "Schneckmag"
+		'en-us': "Slugma",
+		'fr-fr': "Limagma",
+		'es-es': "Slugma",
+		'it-it': "Slugma",
+		'pt-br': "Slugma",
+		'de-de': "Schneckmag"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Singe",
-				fr: "Roussi",
-				es: "Quemadura",
-				it: "Scottata",
-				pt: "Chamuscada",
-				de: "Versengung"
+				'en-us': "Singe",
+				'fr-fr': "Roussi",
+				'es-es': "Quemadura",
+				'it-it': "Scottata",
+				'pt-br': "Chamuscada",
+				'de-de': "Versengung"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+				'en-us': "Your opponent’s Active Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.",
+		'en-us': "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.",
 	},
 
 	thirdParty: {

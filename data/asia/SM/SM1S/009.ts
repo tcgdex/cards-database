@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガーディ",
+		'ja-jp': "ガーディ",
 	},
 
 	illustrator: "MAHOU",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "利口で 忠実。 ただし 見知らぬ者や 縄張りを 侵す 者には 吠えたてて いかく するぞ。",
+		'ja-jp': "利口で 忠実。 ただし 見知らぬ者や 縄張りを 侵す 者には 吠えたてて いかく するぞ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも20ダメージ。",
+				'ja-jp': "このポケモンにも20ダメージ。",
 			},
 		},
 	],

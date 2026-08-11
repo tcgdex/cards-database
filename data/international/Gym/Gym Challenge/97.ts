@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Gastly"
+		'en-us': "Sabrina's Gastly"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -25,10 +25,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Gaseous Form"
+				'en-us': "Gaseous Form"
 			},
 			effect: {
-				en: "Sabrina's Gastly gets +10 HP for each Psychic Energy card attached to it. This power works even if Sabrina's Gastly is Asleep, Confused, or Paralyzed."
+				'en-us': "Sabrina's Gastly gets +10 HP for each Psychic Energy card attached to it. This power works even if Sabrina's Gastly is Asleep, Confused, or Paralyzed."
 			}
 		},
 	],
@@ -40,7 +40,7 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Suffocating Gas"
+				'en-us': "Suffocating Gas"
 			},
 
 			damage: 30,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Blitzle",
-		fr: "Zébibron",
-		es: "Blitzle",
-		it: "Blitzle",
-		pt: "Blitzle",
-		de: "Elezeba"
+		'en-us': "Blitzle",
+		'fr-fr': "Zébibron",
+		'es-es': "Blitzle",
+		'it-it': "Blitzle",
+		'pt-br': "Blitzle",
+		'de-de': "Elezeba"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Agility",
-				fr: "Hâte",
+				'en-us': "Agility",
+				'fr-fr': "Hâte",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
+				'en-us': "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When thunderclouds cover the sky, it will appear. It can catch lightning with its mane and store the electricity.",
+		'en-us': "When thunderclouds cover the sky, it will appear. It can catch lightning with its mane and store the electricity.",
 	},
 
 	thirdParty: {

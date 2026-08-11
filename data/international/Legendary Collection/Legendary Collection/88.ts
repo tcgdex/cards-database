@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Psyduck"
+		'en-us': "Psyduck"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Dizziness"
+				'en-us': "Dizziness"
 			},
 			effect: {
-				en: "Draw a card."
+				'en-us': "Draw a card."
 			},
 
 		},
@@ -40,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun"
+				'en-us': "Water Gun"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each Water Energy attached to Psyduck but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+				'en-us': "Does 20 damage plus 10 more damage for each Water Energy attached to Psyduck but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
 			},
 			damage: "20+",
 
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It is often seen holding its head in its paws, as if it were suffering from a headache."
+		'en-us': "It is often seen holding its head in its paws, as if it were suffering from a headache."
 	},
 
 	variants: [

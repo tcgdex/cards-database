@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Team Rocket's Zubat",
-		fr: "Nosferapti de la Team Rocket",
-		de: "Team Rockets Zubat",
-		it: "Zubat del Team Rocket",
-		es: "Zubat del Team Rocket",
-		pt: "Zubat da Equipe Rocket",
+		'en-us': "Team Rocket's Zubat",
+		'fr-fr': "Nosferapti de la Team Rocket",
+		'de-de': "Team Rockets Zubat",
+		'it-it': "Zubat del Team Rocket",
+		'es-es': "Zubat del Team Rocket",
+		'pt-br': "Zubat da Equipe Rocket",
 		'es-mx': "Zubat del Equipo Rocket"
 	},
 
@@ -28,22 +28,22 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Poison Spray",
-			fr: "Pulvérisation Toxique",
-			de: "Giftspray",
-			it: "Spruzzo Velenoso",
-			es: "Aerosol Venenoso",
-			pt: "Spray de Veneno",
+			'en-us': "Poison Spray",
+			'fr-fr': "Pulvérisation Toxique",
+			'de-de': "Giftspray",
+			'it-it': "Spruzzo Velenoso",
+			'es-es': "Aerosol Venenoso",
+			'pt-br': "Spray de Veneno",
 			'es-mx': "Aerosol Venenoso"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
 			'es-mx': "El Pokémon Activo de tu rival ahora está Envenenado."
 		}
 	}],

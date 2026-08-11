@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Rhyhorn",
-		de: "Rihorn"
+		'en-us': "Rhyhorn",
+		'de-de': "Rihorn"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Attack",
-				de: "Hornattacke"
+				'en-us': "Horn Attack",
+				'de-de': "Hornattacke"
 			},
 
 			damage: 10,
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Retaliate",
-				de: "Vergeltung"
+				'en-us': "Retaliate",
+				'de-de': "Vergeltung"
 			},
 			effect: {
-				en: "This attack does 10 damage times the number of damage counters on Rhyhorn.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl an Schadensmarken auf Rihorn zu."
+				'en-us': "This attack does 10 damage times the number of damage counters on Rhyhorn.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl an Schadensmarken auf Rihorn zu."
 			},
 			damage: "10×",
 

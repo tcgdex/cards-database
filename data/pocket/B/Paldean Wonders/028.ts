@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Superdofin",
-		en: "Palafin",
-		es: "Palafin",
-		it: "Palafin",
-		pt: "Palafin",
-		de: "Delfinator"
+		'fr-fr': "Superdofin",
+		'en-us': "Palafin",
+		'es-es': "Palafin",
+		'it-it': "Palafin",
+		'pt-br': "Palafin",
+		'de-de': "Delfinator"
   },
   illustrator: "Souichirou Gunjima",
   rarity: "Three Diamond",
@@ -18,12 +18,12 @@ const card: Card = {
   types: ["Water"],
   dexId: [964],
   evolveFrom: {
-		fr: "Dofin",
-		en: "Finizen",
-		es: "Finizen",
-		it: "Finizen",
-		pt: "Finizen",
-		de: "Normifin"
+		'fr-fr': "Dofin",
+		'en-us': "Finizen",
+		'es-es': "Finizen",
+		'it-it': "Finizen",
+		'pt-br': "Finizen",
+		'de-de': "Normifin"
   },
   description: {
     en: "This hero of the ocean swims at a speed of 50 knots and saves drowning people and Pokémon.",

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Pupitar",
-		fr: "Ymphect",
-		de: "Pupitar"
+		'en-us': "Pupitar",
+		'fr-fr': "Ymphect",
+		'de-de': "Pupitar"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Larvitar",
-		fr: "Embrylex"
+		'en-us': "Larvitar",
+		'fr-fr': "Embrylex"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer In",
-				fr: "Enfoncer",
-				de: "Einhämmern"
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncer",
+				'de-de': "Einhämmern"
 			},
 
 			damage: 30,
@@ -50,9 +50,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Speed Attack",
-				fr: "Attaque rapide",
-				de: "Tempoangriff"
+				'en-us': "Speed Attack",
+				'fr-fr': "Attaque rapide",
+				'de-de': "Tempoangriff"
 			},
 
 			damage: 50,
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Even sealed in its shell, it can move freely. Hard and fast, it has outstanding destructive power."
+		'en-us': "Even sealed in its shell, it can move freely. Hard and fast, it has outstanding destructive power."
 	},
 
 	variants: [

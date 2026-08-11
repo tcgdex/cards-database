@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アリアドス",
+		'ja-jp': "アリアドス",
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "尻からも 口からも 糸をだす。 糸で 獲物を 絡め取り ゆっくりと 体液を すする。",
+		'ja-jp': "尻からも 口からも 糸をだす。 糸で 獲物を 絡め取り ゆっくりと 体液を すする。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、相手が手札からグッズまたはサポートを出して使ったとき、その効果を受けない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、相手が手札からグッズまたはサポートを出して使ったとき、その効果を受けない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イトマル",
+		'ja-jp': "イトマル",
 	},
 
 	retreat: 1,

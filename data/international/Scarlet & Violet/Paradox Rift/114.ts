@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Purrloin",
-		fr: "Chacripan",
-		es: "Purrloin",
-		it: "Purrloin",
-		pt: "Purrloin",
-		de: "Felilou"
+		'en-us': "Purrloin",
+		'fr-fr': "Chacripan",
+		'es-es': "Purrloin",
+		'it-it': "Purrloin",
+		'pt-br': "Purrloin",
+		'de-de': "Felilou"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Stampede",
-			fr: "Ruée",
-			es: "Estampida",
-			it: "Fuggi Fuggi",
-			pt: "Estouro",
-			de: "Zertrampeln"
+			'en-us': "Stampede",
+			'fr-fr': "Ruée",
+			'es-es': "Estampida",
+			'it-it': "Fuggi Fuggi",
+			'pt-br': "Estouro",
+			'de-de': "Zertrampeln"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Cat Kick",
-			fr: "Coup d'Patte",
-			es: "Patada Gato",
-			it: "Calciogatto",
-			pt: "Chute do Gato",
-			de: "Katzenkick"
+			'en-us': "Cat Kick",
+			'fr-fr': "Coup d'Patte",
+			'es-es': "Patada Gato",
+			'it-it': "Calciogatto",
+			'pt-br': "Chute do Gato",
+			'de-de': "Katzenkick"
 		},
 
 		damage: 30
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Opponents that get drawn in by its adorable behavior come away with stinging scratches from its claws and stinging pride from its laughter.",
+		'en-us': "Opponents that get drawn in by its adorable behavior come away with stinging scratches from its claws and stinging pride from its laughter.",
 	},
 
 	variants: [

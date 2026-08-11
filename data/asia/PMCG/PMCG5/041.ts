@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マチスのエレブー",
+		'ja-jp': "マチスのエレブー",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "充電",
+				'ja-jp': "充電",
 			},
 			effect: {
-				ja: "廃棄パイルから最大2枚の稲妻エネルギーカードを取り、それらをサージ中将のエレクトアバズに取り付けます。",
+				'ja-jp': "廃棄パイルから最大2枚の稲妻エネルギーカードを取り、それらをサージ中将のエレクトアバズに取り付けます。",
 			},
 		},
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "排出",
+				'ja-jp': "排出",
 			},
 			effect: {
-				ja: "この攻撃を使用するために、Surge Lt. SurgeのElectabuzzに取り付けられたすべてのLightningエネルギーカードを廃棄します。廃棄した稲妻エネルギーカードの数に等しい多数のコインをひっくり返します。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
+				'ja-jp': "この攻撃を使用するために、Surge Lt. SurgeのElectabuzzに取り付けられたすべてのLightningエネルギーカードを廃棄します。廃棄した稲妻エネルギーカードの数に等しい多数のコインをひっくり返します。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
 			},
 		},
 	],

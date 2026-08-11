@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Clefairy",
-		fr: "Mélofée",
+		'en-us': "Clefairy",
+		'fr-fr': "Mélofée",
 	},
 
 	illustrator: "kirisAki",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras’Face",
+				'en-us': "Pound",
+				'fr-fr': "Écras’Face",
 			},
 
 			damage: 10,
@@ -43,8 +43,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Moon Dance",
-				fr: "Danse à la Lune",
+				'en-us': "Moon Dance",
+				'fr-fr': "Danse à la Lune",
 			},
 
 			damage: 30,
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They're popular, but they're rare. Trainers who show them off recklessly may be targeted by thieves.",
+		'en-us': "They're popular, but they're rare. Trainers who show them off recklessly may be targeted by thieves.",
 	},
 
 	thirdParty: {

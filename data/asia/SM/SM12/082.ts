@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エレザード",
+		'ja-jp': "エレザード",
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "エリマキを 広げて 発電する。 エレザード １匹で 高層ビルで 必要な 電気を 作れるのだ。",
+		'ja-jp': "エリマキを 広げて 発電する。 エレザード １匹で 高層ビルで 必要な 電気を 作れるのだ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手の場に[雷]ポケモンがいるなら、90ダメージ追加。",
+				'ja-jp': "相手の場に[雷]ポケモンがいるなら、90ダメージ追加。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "エリキテル",
+		'ja-jp': "エリキテル",
 	},
 
 	retreat: 1,

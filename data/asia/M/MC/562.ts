@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハピナスex",
+		'ja-jp': "ハピナスex",
 	},
 
 	illustrator: "Iwamoto05",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ハッピースイッチ" },
 			effect: {
-				ja: "自分の番に1回使える。自分の場のポケモンについている基本エネルギーを1個選び、自分の別のポケモンにつけ替える。",
+				'ja-jp': "自分の番に1回使える。自分の場のポケモンについている基本エネルギーを1個選び、自分の別のポケモンにつけ替える。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "のぞむなら、自分の手札が6枚になるように、山札を引く。",
+				'ja-jp': "のぞむなら、自分の手札が6枚になるように、山札を引く。",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ラッキー",
+		'ja-jp': "ラッキー",
 	},
 
 	retreat: 4,

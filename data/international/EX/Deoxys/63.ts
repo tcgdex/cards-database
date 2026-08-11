@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Lotad",
-		fr: "Nenupiot",
-		de: "Loturzel"
+		'en-us': "Lotad",
+		'fr-fr': "Nenupiot",
+		'de-de': "Loturzel"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rain Splash",
-				fr: "Pluie éclaboussante",
-				de: "Rain Splash"
+				'en-us': "Rain Splash",
+				'fr-fr': "Pluie éclaboussante",
+				'de-de': "Rain Splash"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Wave",
-				fr: "Aqua-vague",
-				de: "Aqua Wave"
+				'en-us': "Aqua Wave",
+				'fr-fr': "Aqua-vague",
+				'de-de': "Aqua Wave"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
 			},
 			damage: "20+",
 

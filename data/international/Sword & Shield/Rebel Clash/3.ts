@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [12],
 
 	name: {
-		en: "Butterfree",
-		fr: "Papilusion",
-		es: "Butterfree",
-		it: "Butterfree",
-		pt: "Butterfree",
-		de: "Smettbo"
+		'en-us': "Butterfree",
+		'fr-fr': "Papilusion",
+		'es-es': "Butterfree",
+		'it-it': "Butterfree",
+		'pt-br': "Butterfree",
+		'de-de': "Smettbo"
 	},
 
 	illustrator: "Taira Akitsu",
@@ -19,12 +19,12 @@ const card: Card = {
 	set: Set,
 
 	evolveFrom: {
-		en: "Metapod",
-		fr: "Chrysacier",
-		es: "Metapod",
-		it: "Metapod",
-		pt: "Metapod",
-		de: "Safcon"
+		'en-us': "Metapod",
+		'fr-fr': "Chrysacier",
+		'es-es': "Metapod",
+		'it-it': "Metapod",
+		'pt-br': "Metapod",
+		'de-de': "Safcon"
 	},
 
 	attacks: [
@@ -33,20 +33,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Panic Poison",
-				fr: "Poison Panique",
-				es: "Pánico Venenoso",
-				it: "Velenostress",
-				pt: "Veneno do Pânico",
-				de: "Panikgift"
+				'en-us': "Panic Poison",
+				'fr-fr': "Poison Panique",
+				'es-es': "Pánico Venenoso",
+				'it-it': "Velenostress",
+				'pt-br': "Veneno do Pânico",
+				'de-de': "Panikgift"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Burned, Confused, and Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé, Confus et Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido, Envenenado y Quemado.",
-				it: "Il Pokémon attivo del tuo avversario viene bruciato, confuso e avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso, Envenenado e Queimado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt, verwirrt und vergiftet."
+				'en-us': "Your opponent's Active Pokémon is now Burned, Confused, and Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé, Confus et Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido, Envenenado y Quemado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene bruciato, confuso e avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso, Envenenado e Queimado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt, verwirrt und vergiftet."
 			},
 			damage: 30,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cutting Wind",
-				fr: "Vent Glacial",
-				es: "Viento Helado",
-				it: "Vento Tagliente",
-				pt: "Vento Dilacerante",
-				de: "Schneidender Wind"
+				'en-us': "Cutting Wind",
+				'fr-fr': "Vent Glacial",
+				'es-es': "Viento Helado",
+				'it-it': "Vento Tagliente",
+				'pt-br': "Vento Dilacerante",
+				'de-de': "Schneidender Wind"
 			},
 
 			damage: 80,
@@ -86,7 +86,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "In battle, it flaps its wings at great speed to release highly toxic dust into the air."
+		'en-us': "In battle, it flaps its wings at great speed to release highly toxic dust into the air."
 	},
 
 	variants: [

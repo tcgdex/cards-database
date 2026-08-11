@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Shaymin",
-		fr: "Shaymin",
-		de: "Shaymin"
+		'en-us': "Shaymin",
+		'fr-fr': "Shaymin",
+		'de-de': "Shaymin"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Flower Aroma",
-				fr: "Arôme floral",
-				de: "Flower Aroma"
+				'en-us': "Flower Aroma",
+				'fr-fr': "Arôme floral",
+				'de-de': "Flower Aroma"
 			},
 			effect: {
-				en: "Remove 2 damage counters from Shaymin. The Defending Pokémon is now Asleep.",
-				fr: "Retirez à Shaymin 2 marqueurs de dégât. Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Remove 2 damge counters from Shaymin. The Defending Pokémon is now Asleep."
+				'en-us': "Remove 2 damage counters from Shaymin. The Defending Pokémon is now Asleep.",
+				'fr-fr': "Retirez à Shaymin 2 marqueurs de dégât. Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Remove 2 damge counters from Shaymin. The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Damage Aid",
-				fr: "Aide aux dégâts",
-				de: "Damage Aid"
+				'en-us': "Damage Aid",
+				'fr-fr': "Aide aux dégâts",
+				'de-de': "Damage Aid"
 			},
 			effect: {
-				en: "If the Defending Pokémon is affected by a Special Condition, this attack does 30 damage plus 50 more damage. Then, remove all Special Conditions from the Defending Pokémon.",
-				fr: "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 30 dégâts plus 50 dégâts supplémentaires. Ensuite, retirez au Pokémon Défenseur tous ses États Spéciaux.",
-				de: "If the Defending Pokémon is affected by a Special Condition, this attack does 30 damage plus 50 more damage. Then, remove all Special Conditions from the Defending Pokémon."
+				'en-us': "If the Defending Pokémon is affected by a Special Condition, this attack does 30 damage plus 50 more damage. Then, remove all Special Conditions from the Defending Pokémon.",
+				'fr-fr': "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 30 dégâts plus 50 dégâts supplémentaires. Ensuite, retirez au Pokémon Défenseur tous ses États Spéciaux.",
+				'de-de': "If the Defending Pokémon is affected by a Special Condition, this attack does 30 damage plus 50 more damage. Then, remove all Special Conditions from the Defending Pokémon."
 			},
 			damage: "30+",
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives in flower patches and avoids detection by curling up to look like a flowering plant."
+		'en-us': "It lives in flower patches and avoids detection by curling up to look like a flowering plant."
 	},
 
 	variants: [

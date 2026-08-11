@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 3'
 
 const card: Card = {
 	name: {
-		en: "Minun",
-		fr: "Negapi"
+		'en-us': "Minun",
+		'fr-fr': "Negapi"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cheer Up",
-				fr: "Courage !"
+				'en-us': "Cheer Up",
+				'fr-fr': "Courage !"
 			},
 			effect: {
-				en: "Draw a card. If you have Plusle in play, draw 2 cards instead.",
-				fr: "Piochez une carte. Si vous avez Posipi en jeu, piochez 2 cartes à la place."
+				'en-us': "Draw a card. If you have Plusle in play, draw 2 cards instead.",
+				'fr-fr': "Piochez une carte. Si vous avez Posipi en jeu, piochez 2 cartes à la place."
 			},
 
 		},
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Negative Ion",
-				fr: "Ion négatif"
+				'en-us': "Negative Ion",
+				'fr-fr': "Ion négatif"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 10 (before applying Weakness and Resistance).",
-				fr: "Lors du prochain tour de votre adversaire, tous dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 10 (avant application de la Faiblesse et de la Résistance)."
+				'en-us': "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 10 (before applying Weakness and Resistance).",
+				'fr-fr': "Lors du prochain tour de votre adversaire, tous dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 10 (avant application de la Faiblesse et de la Résistance)."
 			},
 			damage: 20,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Power Bolt",
-				fr: "« Boulon d'alimentation »"
+				'en-us': "Power Bolt",
+				'fr-fr': "« Boulon d'alimentation »"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon that has any Poké-Powers. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon de votre adversaire qui a un Poké-Power. Cette attaque inflige 30 dégâts à ce Pokémon. (N'appliquez pas la Faiblesse et la Résistance aux Pokémon de Banc.)"
+				'en-us': "Choose 1 of your opponent's Pokémon that has any Poké-Powers. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire qui a un Poké-Power. Cette attaque inflige 30 dégâts à ce Pokémon. (N'appliquez pas la Faiblesse et la Résistance aux Pokémon de Banc.)"
 			}
 
 		},

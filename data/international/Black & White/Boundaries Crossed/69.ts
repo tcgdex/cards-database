@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Musharna",
-		fr: "Mushana",
-		es: "Musharna",
-		it: "Musharna",
-		pt: "Musharna",
-		de: "Somnivora"
+		'en-us': "Musharna",
+		'fr-fr': "Mushana",
+		'es-es': "Musharna",
+		'it-it': "Musharna",
+		'pt-br': "Musharna",
+		'de-de': "Somnivora"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Munna",
-		fr: "Munna",
+		'en-us': "Munna",
+		'fr-fr': "Munna",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Telekinesis",
-				fr: "Lévikinésie",
+				'en-us': "Telekinesis",
+				'fr-fr': "Lévikinésie",
 			},
 			effect: {
-				en: "This attack does 30 damage to 1 of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Cette attaque inflige 30 dégâts à 1 des Pokémon de votre adversaire. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				'en-us': "This attack does 30 damage to 1 of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
+				'fr-fr': "Cette attaque inflige 30 dégâts à 1 des Pokémon de votre adversaire. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
 			},
 
 		},
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dream Waltz",
-				fr: "Valse Rêveuse",
+				'en-us': "Dream Waltz",
+				'fr-fr': "Valse Rêveuse",
 			},
 			effect: {
-				en: "This attack can be used even if this Pokémon is Asleep. If this Pokémon is Asleep, this attack does 30 more damage.",
-				fr: "Cette attaque peut être utilisée même si ce Pokémon est Endormi. Si ce Pokémon est Endormi, cette attaque inflige 30 dégâts supplémentaires.",
+				'en-us': "This attack can be used even if this Pokémon is Asleep. If this Pokémon is Asleep, this attack does 30 more damage.",
+				'fr-fr': "Cette attaque peut être utilisée même si ce Pokémon est Endormi. Si ce Pokémon est Endormi, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: 60,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "The dream mist coming from its forehead changes into many different colors depending on the dream that was eaten.",
+		'en-us': "The dream mist coming from its forehead changes into many different colors depending on the dream that was eaten.",
 	},
 
 	thirdParty: {

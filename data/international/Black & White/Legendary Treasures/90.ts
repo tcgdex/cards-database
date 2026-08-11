@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Zoroark",
+		'en-us': "Zoroark",
 	},
 
 	illustrator: "match",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Zorua",
+		'en-us': "Zorua",
 	},
 
 	stage: "Stage1",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Brutal Bash",
+				'en-us': "Brutal Bash",
 			},
 			effect: {
-				en: "Does 20 damage times the number of Darkness Pokémon you have in play.",
+				'en-us': "Does 20 damage times the number of Darkness Pokémon you have in play.",
 			},
 			damage: 20,
 
@@ -48,10 +48,10 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Dark Rush",
+				'en-us': "Dark Rush",
 			},
 			effect: {
-				en: "Does 20 damage times the number of damage counters on this Pokémon.",
+				'en-us': "Does 20 damage times the number of damage counters on this Pokémon.",
 			},
 			damage: 20,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
+		'en-us': "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
 	},
 
 	thirdParty: {

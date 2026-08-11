@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Charibari",
-		en: "Cufant",
-		es: "Cufant",
-		it: "Cufant",
-		pt: "Cufant",
-		de: "Kupfanti"
+		'fr-fr': "Charibari",
+		'en-us': "Cufant",
+		'es-es': "Cufant",
+		'it-it': "Cufant",
+		'pt-br': "Cufant",
+		'de-de': "Kupfanti"
 	},
 
 	illustrator: "0313",
@@ -22,12 +22,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Force",
-			en: "Strength",
-			es: "Fuerza",
-			it: "Forza",
-			pt: "Força",
-			de: "Stärke"
+			'fr-fr': "Force",
+			'en-us': "Strength",
+			'es-es': "Fuerza",
+			'it-it': "Forza",
+			'pt-br': "Força",
+			'de-de': "Stärke"
 		},
 
 		damage: 60,
@@ -51,7 +51,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It digs up the ground with its trunk. It's also very strong, being able to carry loads of over five tons without any problem at all."
+		'en-us': "It digs up the ground with its trunk. It's also very strong, being able to carry loads of over five tons without any problem at all."
 	},
 
 	variants: [

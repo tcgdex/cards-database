@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Snorunt",
-		fr: "Stalgamin",
-		es: "Snorunt",
-		it: "Snorunt",
-		pt: "Snorunt",
-		de: "Schneppke"
+		'en-us': "Snorunt",
+		'fr-fr': "Stalgamin",
+		'es-es': "Snorunt",
+		'it-it': "Snorunt",
+		'pt-br': "Snorunt",
+		'de-de': "Schneppke"
 	},
 
 	illustrator: "otumami",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			es: "Golpe Cabeza",
-			it: "Bottintesta",
-			pt: "Cabeçada",
-			de: "Kopfnuss"
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'es-es': "Golpe Cabeza",
+			'it-it': "Bottintesta",
+			'pt-br': "Cabeçada",
+			'de-de': "Kopfnuss"
 		},
 
 		damage: 30
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It can only survive in cold areas. It bounces happily around, even in environments as cold as -150 degrees Fahrenheit.",
+		'en-us': "It can only survive in cold areas. It bounces happily around, even in environments as cold as -150 degrees Fahrenheit.",
 	},
 
 	

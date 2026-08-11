@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [67],
 
 	name: {
-		en: "Machoke",
-		fr: "Machopeur",
-		es: "Machoke",
-		it: "Machoke",
-		pt: "Machoke",
-		de: "Maschock"
+		'en-us': "Machoke",
+		'fr-fr': "Machopeur",
+		'es-es': "Machoke",
+		'it-it': "Machoke",
+		'pt-br': "Machoke",
+		'de-de': "Maschock"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Machop",
-		fr: "Machoc"
+		'en-us': "Machop",
+		'fr-fr': "Machoc"
 	},
 
 	attacks: [
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage",
-				es: "Patada Baja",
-				it: "Colpo Basso",
-				pt: "Rasteira",
-				de: "Fußkick"
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage",
+				'es-es': "Patada Baja",
+				'it-it': "Colpo Basso",
+				'pt-br': "Rasteira",
+				'de-de': "Fußkick"
 			},
 
 			damage: 30,
@@ -52,20 +52,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pummel",
-				fr: "Martelage",
-				es: "Aporrear",
-				it: "Legnata",
-				pt: "Esmurrar",
-				de: "Trommler"
+				'en-us': "Pummel",
+				'fr-fr': "Martelage",
+				'es-es': "Aporrear",
+				'it-it': "Legnata",
+				'pt-br': "Esmurrar",
+				'de-de': "Trommler"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 70 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 70 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 70 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 70 danni in più.",
-				pt: "Jogue 1 moeda. Se sair cara, este ataque causará 70 pontos de dano a mais.",
-				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 70 Schadenspunkte mehr zu."
+				'en-us': "Flip a coin. If heads, this attack does 70 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 70 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 70 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 70 danni in più.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 70 pontos de dano a mais.",
+				'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 70 Schadenspunkte mehr zu."
 			},
 			damage: "50+",
 
@@ -92,7 +92,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions."
+		'en-us': "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions."
 	},
 
 	thirdParty: {

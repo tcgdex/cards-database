@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サイトウ",
+		'ja-jp': "サイトウ",
 	},
 
 	illustrator: "Souichirou Gunjima",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札を上から5枚トラッシュし、その中にあるエネルギーをすべて、ベンチの[闘]ポケモンに好きなようにつける。",
+		'ja-jp': "自分の山札を上から5枚トラッシュし、その中にあるエネルギーをすべて、ベンチの[闘]ポケモンに好きなようにつける。",
 	},
 
 	variants: [

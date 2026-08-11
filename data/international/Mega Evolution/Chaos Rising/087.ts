@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
 
 	description: {
-		en: "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
+		'en-us': "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
 	},
 
 
 	name: {
-		en: "Chespin",
-		fr: "Marisson",
-		es: "Chespin",
+		'en-us': "Chespin",
+		'fr-fr': "Marisson",
+		'es-es': "Chespin",
 		'es-mx': "Chespin",
-		de: "Igamaro",
-		it: "Chespin",
-		pt: "Chespin"
+		'de-de': "Igamaro",
+		'it-it': "Chespin",
+		'pt-br': "Chespin"
 	},
 
 	illustrator: "Atsushi Furusawa",
@@ -29,26 +29,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Beat",
-			fr: "Bataille",
-			es: "Toque",
+			'en-us': "Beat",
+			'fr-fr': "Bataille",
+			'es-es': "Toque",
 			'es-mx': "Golpeteo",
-			de: "Verprügler",
-			it: "Battuta",
-			pt: "Pulso"
+			'de-de': "Verprügler",
+			'it-it': "Battuta",
+			'pt-br': "Pulso"
 		},
 
 		cost: ["Grass"],
 		damage: 10
 	}, {
 		name: {
-			en: "Spike Sting",
-			fr: "Pic Piquant",
-			es: "Picotazo Púas",
+			'en-us': "Spike Sting",
+			'fr-fr': "Pic Piquant",
+			'es-es': "Picotazo Púas",
 			'es-mx': "Piquete de Púas",
-			de: "Stachelstich",
-			it: "Aculeopuntura",
-			pt: "Ferroada de Espinhos"
+			'de-de': "Stachelstich",
+			'it-it': "Aculeopuntura",
+			'pt-br': "Ferroada de Espinhos"
 		},
 
 		cost: ["Grass", "Grass"],

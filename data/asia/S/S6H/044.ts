@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サダイジャVMAX",
+		'ja-jp': "サダイジャVMAX",
 		'zh-tw': "沙螺蟒VMAX",
 	},
 
@@ -18,13 +18,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "サンドインパルス",
+				'ja-jp': "サンドインパルス",
 				'zh-tw': "超極巨旋風氣旋",
 			},
 			damage: 60,
 			cost: ["Fighting"],
 			effect: {
-				ja: "相手のベンチポケモン全員にも、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン全員にも、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 				'zh-tw': "選擇自己的場上寶可夢身上附加的任意數量的能量，以任意方式改附於自己的寶可夢身上。",
 			},
 		},
@@ -33,7 +33,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "自分の場のポケモンについているエネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。",
+				'ja-jp': "自分の場のポケモンについているエネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "サダイジャV",
+		'ja-jp': "サダイジャV",
 	},
 
 	retreat: 3,

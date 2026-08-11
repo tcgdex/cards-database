@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../My First Battle"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arcanine",
+		'en-us': "Arcanine",
 	},
 
 	rarity: "None",
@@ -14,7 +14,7 @@ const card: Card = {
 	hp: 140,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Growlithe",
+		'en-us': "Growlithe",
 	},
 	stage: "Stage1",
 
@@ -22,11 +22,11 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Fire"],
 
 		name: {
-			en: "Flare Blitz",
+			'en-us': "Flare Blitz",
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage",
+			'en-us': "Flip a coin. If heads, this attack does 30 more damage",
 		},
 
 		damage: "90+"

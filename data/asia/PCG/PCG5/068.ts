@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Altaria Ex",
+		'ja-jp': "Altaria Ex",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ミスト",
+				'ja-jp': "ミスト",
 			},
 			effect: {
-				ja: "ステージ2の進化したポカモン（あなたと対戦相手の両方）からの攻撃によってaltaria Exに与えられた損害は30減少します（脱力感と抵抗を適用した後）。",
+				'ja-jp': "ステージ2の進化したポカモン（あなたと対戦相手の両方）からの攻撃によってaltaria Exに与えられた損害は30減少します（脱力感と抵抗を適用した後）。",
 			},
 		}],
 
@@ -29,17 +29,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ダイビング",
+				'ja-jp': "ダイビング",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Water", "Lightning", "Colorless"],
 			name: {
-				ja: "ドラゴンミスト",
+				'ja-jp': "ドラゴンミスト",
 			},
 			effect: {
-				ja: "この攻撃の損傷は、抵抗、ポケの提唱、ポケボディ、または防御ポケモンに対するその他の影響の影響を受けません。",
+				'ja-jp': "この攻撃の損傷は、抵抗、ポケの提唱、ポケボディ、または防御ポケモンに対するその他の影響の影響を受けません。",
 			},
 			damage: 70,
 		},

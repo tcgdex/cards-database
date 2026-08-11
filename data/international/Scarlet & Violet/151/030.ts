@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Nidorina",
-		en: "Nidorina",
-		es: "Nidorina",
-		it: "Nidorina",
-		pt: "Nidorina",
-		de: "Nidorina"
+		'fr-fr': "Nidorina",
+		'en-us': "Nidorina",
+		'es-es': "Nidorina",
+		'it-it': "Nidorina",
+		'pt-br': "Nidorina",
+		'de-de': "Nidorina"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Darkness"],
 	evolveFrom: {
-		fr: "Nidoran♀",
-		en: "Nidoran♀",
-		es: "Nidoran♀",
-		it: "Nidoran♀",
-		pt: "Nidoran♀",
-		de: "Nidoran♀"
+		'fr-fr': "Nidoran♀",
+		'en-us': "Nidoran♀",
+		'es-es': "Nidoran♀",
+		'it-it': "Nidoran♀",
+		'pt-br': "Nidoran♀",
+		'de-de': "Nidoran♀"
 	},
 	stage: "Stage1",
 
@@ -32,32 +32,32 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			fr: "Rassemblement Familial",
-			en: "Fetch Family",
-			es: "Buscar a la Familia",
-			it: "Radunafamiglia",
-			pt: "Buscar a Família",
-			de: "Familientreffen"
+			'fr-fr': "Rassemblement Familial",
+			'en-us': "Fetch Family",
+			'es-es': "Buscar a la Familia",
+			'it-it': "Radunafamiglia",
+			'pt-br': "Buscar a Família",
+			'de-de': "Familientreffen"
 		},
 
 		effect: {
-			fr: "Cherchez dans votre deck jusqu'à 3 Pokémon, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
-			en: "Search your deck for up to 3 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
-			es: "Busca en tu baraja hasta 3 Pokémon, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo fino a tre Pokémon, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por até 3 Pokémon no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach bis zu 3 Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+			'fr-fr': "Cherchez dans votre deck jusqu'à 3 Pokémon, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+			'en-us': "Search your deck for up to 3 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+			'es-es': "Busca en tu baraja hasta 3 Pokémon, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo fino a tre Pokémon, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por até 3 Pokémon no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach bis zu 3 Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			fr: "Croc Aiguisé",
-			en: "Sharp Fang",
-			es: "Colmillo Afilado",
-			it: "Zannaffilata",
-			pt: "Presa Afiada",
-			de: "Scharfe Fänge"
+			'fr-fr': "Croc Aiguisé",
+			'en-us': "Sharp Fang",
+			'es-es': "Colmillo Afilado",
+			'it-it': "Zannaffilata",
+			'pt-br': "Presa Afiada",
+			'de-de': "Scharfe Fänge"
 		},
 
 		damage: 50
@@ -73,7 +73,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "If the group is threatened, these Pokémon will band together to assault enemies with a chorus of ultrasonic waves.",
+		'en-us': "If the group is threatened, these Pokémon will band together to assault enemies with a chorus of ultrasonic waves.",
 	},
 
 	variants: [

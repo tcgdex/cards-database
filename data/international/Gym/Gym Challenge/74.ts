@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Giovanni's Meowth"
+		'en-us': "Giovanni's Meowth"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cat Fleas"
+				'en-us': "Cat Fleas"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 
 		},
@@ -41,7 +41,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cat Kick"
+				'en-us': "Cat Kick"
 			},
 
 			damage: 30,

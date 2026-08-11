@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ガブリアスV"
+		'ja-jp': "ガブリアスV"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -19,7 +19,7 @@ const card: Card = {
 		cost: ["Water", "Fighting", "Colorless"],
 
 		name: {
-			ja: "ドラゴンクロー"
+			'ja-jp': "ドラゴンクロー"
 		},
 
 		damage: 120
@@ -27,11 +27,11 @@ const card: Card = {
 		cost: ["Water", "Fighting", "Fighting", "Colorless"],
 
 		name: {
-			ja: "ソニックストライク"
+			'ja-jp': "ソニックストライク"
 		},
 
 		effect: {
-			ja: "このポケモンについているエネルギーを3個トラッシュし、相手のポケモン1匹に、220ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			'ja-jp': "このポケモンについているエネルギーを3個トラッシュし、相手のポケモン1匹に、220ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
 		}
 	}],
 

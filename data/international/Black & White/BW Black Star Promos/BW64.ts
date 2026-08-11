@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Drifblim",
-		fr: "Grodrive",
+		'en-us': "Drifblim",
+		'fr-fr': "Grodrive",
 	},
 	illustrator: "Naoki Saito",
 	rarity: "Common",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Psychic",
 	],
 	evolveFrom: {
-		en: "Drifloon",
-		fr: "Baudrive",
+		'en-us': "Drifloon",
+		'fr-fr': "Baudrive",
 	},
 	stage: "Stage1",
 
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shadow Steal",
-				fr: "Vol d'Ombre",
+				'en-us': "Shadow Steal",
+				'fr-fr': "Vol d'Ombre",
 			},
 			effect: {
-				en: "Does 50 damage times the number of Special Energy cards in your opponent's discard pile.",
-				fr: "Inflige 50 dégâts multipliés par le nombre de cartes Énergie spéciale dans la pile de défausse de votre adversaire.",
+				'en-us': "Does 50 damage times the number of Special Energy cards in your opponent's discard pile.",
+				'fr-fr': "Inflige 50 dégâts multipliés par le nombre de cartes Énergie spéciale dans la pile de défausse de votre adversaire.",
 			},
 			damage: 50,
 
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Plentiful Placement",
-				fr: "Placement Multiple",
+				'en-us': "Plentiful Placement",
+				'fr-fr': "Placement Multiple",
 			},
 			effect: {
-				en: "Put 4 damage counters on 1 of your opponent's Pokémon.",
-				fr: "Placez 4 marqueurs de dégâts sur 1 des Pokémon de votre adversaire.",
+				'en-us': "Put 4 damage counters on 1 of your opponent's Pokémon.",
+				'fr-fr': "Placez 4 marqueurs de dégâts sur 1 des Pokémon de votre adversaire.",
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 
 
 	description: {
-		en: "At dusk, swarms of them are carried aloft on winds. When noticed, they suddenly vanish.",
+		'en-us': "At dusk, swarms of them are carried aloft on winds. When noticed, they suddenly vanish.",
 	},
 }
 

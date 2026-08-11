@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Breloom",
-		fr: "Chapignon",
-		de: "Kapilz"
+		'en-us': "Breloom",
+		'fr-fr': "Chapignon",
+		'de-de': "Kapilz"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shroomish",
-		fr: "Balignon"
+		'en-us': "Shroomish",
+		'fr-fr': "Balignon"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leaf Poison",
-				fr: "Feuille-poison",
-				de: "Leaf Poison"
+				'en-us': "Leaf Poison",
+				'fr-fr': "Feuille-poison",
+				'de-de': "Leaf Poison"
 			},
 			effect: {
-				en: "If Breloom has any Grass Energy attached to it, the Defending Pokémon is now Poisoned.",
-				fr: "Si Chapignon possède des Énergies , le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "If Breloom has any  Energy attached to it, the Defending Pokémon is now Poisoned."
+				'en-us': "If Breloom has any Grass Energy attached to it, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Si Chapignon possède des Énergies , le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "If Breloom has any  Energy attached to it, the Defending Pokémon is now Poisoned."
 			},
 			damage: 20,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hustle Punch",
-				fr: "Pousse-poing",
-				de: "Hustle Punch"
+				'en-us': "Hustle Punch",
+				'fr-fr': "Pousse-poing",
+				'de-de': "Hustle Punch"
 			},
 			effect: {
-				en: "During your next turn, Hustle Punch attack's base damage is 50 instead of 70.",
-				fr: "Lors de votre prochain tour, les dégâts de base de l'attaque Pousse-poing sont de 50 au lieu de 70.",
-				de: "During your next turn, Hustle Punch attack's base damage is 50 instead of 70."
+				'en-us': "During your next turn, Hustle Punch attack's base damage is 50 instead of 70.",
+				'fr-fr': "Lors de votre prochain tour, les dégâts de base de l'attaque Pousse-poing sont de 50 au lieu de 70.",
+				'de-de': "During your next turn, Hustle Punch attack's base damage is 50 instead of 70."
 			},
 			damage: "70-",
 

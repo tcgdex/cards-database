@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Shining Revelry"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lickitung",
-		fr: "Excelangue",
-		es: "Lickitung",
-		it: "Lickitung",
-		de: "Schlurp",
+		'en-us': "Lickitung",
+		'fr-fr': "Excelangue",
+		'es-es': "Lickitung",
+		'it-it': "Lickitung",
+		'de-de': "Schlurp",
 		'pt-br': "Lickitung",
-		ko: "내루미"
+		'ko-kr': "내루미"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -23,26 +23,26 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "If this Pokémon's sticky saliva gets on you and you don't clean it off, an intense itch will set in. The itch won't go away, either.",
-		fr: "Si sa salive gluante entre en contact avec la peau\net qu'on ne l'essuie pas bien, elle provoque de\nterribles démangeaisons qui ne s'arrêtent jamais.",
-		es: "Si sus lametones no se tratan a tiempo,\nsu saliva pegajosa y urticante puede\nprovocar picores persistentes.",
-		it: "La sua saliva appiccicosa provoca\nun prurito terribile che non dà tregua\nse le parti leccate non vengono ripulite.",
-		de: "Wäscht man sich nach der Berührung mit seinem\nklebrigen Speichel nicht, setzt bald ein starker\nJuckreiz ein, der nicht mehr zu stoppen ist.",
+		'en-us': "If this Pokémon's sticky saliva gets on you and you don't clean it off, an intense itch will set in. The itch won't go away, either.",
+		'fr-fr': "Si sa salive gluante entre en contact avec la peau\net qu'on ne l'essuie pas bien, elle provoque de\nterribles démangeaisons qui ne s'arrêtent jamais.",
+		'es-es': "Si sus lametones no se tratan a tiempo,\nsu saliva pegajosa y urticante puede\nprovocar picores persistentes.",
+		'it-it': "La sua saliva appiccicosa provoca\nun prurito terribile che non dà tregua\nse le parti leccate non vengono ripulite.",
+		'de-de': "Wäscht man sich nach der Berührung mit seinem\nklebrigen Speichel nicht, setzt bald ein starker\nJuckreiz ein, der nicht mehr zu stoppen ist.",
 		'pt-br': "Se você entrar em contato com a saliva grudenta\ndeste Pokémon e não se limpar, sentirá uma\ncoceira intensa. E a coceira não parará.",
-		ko: "끈적끈적한 타액에 접촉한 후\n그대로 방치하면 굉장히 가렵고\n급기야 멈출 수 없게 된다."
+		'ko-kr': "끈적끈적한 타액에 접촉한 후\n그대로 방치하면 굉장히 가렵고\n급기야 멈출 수 없게 된다."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Rollout",
-			fr: "Roulade",
-			es: "Rodar",
-			it: "Rotolamento",
-			de: "Walzer",
+			'en-us': "Rollout",
+			'fr-fr': "Roulade",
+			'es-es': "Rodar",
+			'it-it': "Rotolamento",
+			'de-de': "Walzer",
 			'pt-br': "Rolagem",
-			ko: "구르기"
+			'ko-kr': "구르기"
 		},
 
 		damage: 30,

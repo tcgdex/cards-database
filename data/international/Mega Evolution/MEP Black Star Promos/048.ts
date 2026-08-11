@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Totodile",
-		fr: "Kaiminus",
-		es: "Totodile",
+		'en-us': "Totodile",
+		'fr-fr': "Kaiminus",
+		'es-es': "Totodile",
 		'es-mx': "Totodile",
-		de: "Karnimani",
-		it: "Totodile",
-		pt: "Totodile"
+		'de-de': "Karnimani",
+		'it-it': "Totodile",
+		'pt-br': "Totodile"
 	},
 
 	illustrator: "Saboteri",
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			es: "Mordisco",
-			it: "Morso",
-			pt: "Mordida",
-			de: "Biss"
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'es-es': "Mordisco",
+			'it-it': "Morso",
+			'pt-br': "Mordida",
+			'de-de': "Biss"
 		},
 
 		damage: 50

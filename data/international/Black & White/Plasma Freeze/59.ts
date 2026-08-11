@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Mankey",
-		fr: "Férosinge",
-		es: "Mankey",
-		it: "Mankey",
-		pt: "Mankey",
-		de: "Menki"
+		'en-us': "Mankey",
+		'fr-fr': "Férosinge",
+		'es-es': "Mankey",
+		'it-it': "Mankey",
+		'pt-br': "Mankey",
+		'de-de': "Menki"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
 			},
 
 			damage: 20,
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives in treetop colonies. If one becomes enraged, the whole colony rampages for no reason.",
+		'en-us': "It lives in treetop colonies. If one becomes enraged, the whole colony rampages for no reason.",
 	},
 
 	thirdParty: {

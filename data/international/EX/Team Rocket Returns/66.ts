@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Magnemite",
-		de: "Magnetilo"
+		'en-us': "Magnemite",
+		'de-de': "Magnetilo"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sonicboom",
-				de: "Sonicboom"
+				'en-us': "Sonicboom",
+				'de-de': "Sonicboom"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness or Resistance.",
-				de: "This attack's damage isn't affected by Weakness or Resistance."
+				'en-us': "This attack's damage isn't affected by Weakness or Resistance.",
+				'de-de': "This attack's damage isn't affected by Weakness or Resistance."
 			},
 			damage: 10,
 

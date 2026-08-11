@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Joltik",
-		fr: "Statitik",
-		es: "Joltik",
-		it: "Joltik",
-		pt: "Joltik",
-		de: "Wattzapf"
+		'en-us': "Joltik",
+		'fr-fr': "Statitik",
+		'es-es': "Joltik",
+		'it-it': "Joltik",
+		'pt-br': "Joltik",
+		'de-de': "Wattzapf"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Static Shock",
-				fr: "Choc Statique"
+				'en-us': "Static Shock",
+				'fr-fr': "Choc Statique"
 			},
 
 			damage: 20,
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch.",
+		'en-us': "They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch.",
 	},
 
 	thirdParty: {

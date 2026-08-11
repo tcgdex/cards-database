@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Snorunt",
-		fr: "Stalgamin",
-		de: "Schneppke"
+		'en-us': "Snorunt",
+		'fr-fr': "Stalgamin",
+		'de-de': "Schneppke"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collectionner",
-				de: "Sammeln"
+				'en-us': "Collect",
+				'fr-fr': "Collectionner",
+				'de-de': "Sammeln"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Snowball",
-				fr: "Boule de neige",
-				de: "Schneeball"
+				'en-us': "Snowball",
+				'fr-fr': "Boule de neige",
+				'de-de': "Schneeball"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -71,8 +71,8 @@ const card: Card = {
 
 
 	description: {
-		en: "In the snow country, certain folklore says a house will prosper if a SNORUNT lives there.",
-		fr: "Selon un vieux dicton des régions enneigées : \"Stalgamin dans la maison, richesse à l'horizon\"."
+		'en-us': "In the snow country, certain folklore says a house will prosper if a SNORUNT lives there.",
+		'fr-fr': "Selon un vieux dicton des régions enneigées : \"Stalgamin dans la maison, richesse à l'horizon\"."
 	},
 
 	thirdParty: {

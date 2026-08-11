@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キノガッサ",
+		'ja-jp': "キノガッサ",
 		'zh-tw': "斗笠菇",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "毒の 胞子を ばらまき 吸いこんで 苦しむ 相手に 強烈な パンチを くらわせる。",
+		'ja-jp': "毒の 胞子を ばらまき 吸いこんで 苦しむ 相手に 強烈な パンチを くらわせる。",
 		'zh-tw': "會撒出毒孢子，然後再讓因吸入孢子而痛苦不堪的對手吃上一記重拳。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ずつき",
+				'ja-jp': "ずつき",
 				'zh-tw': "頭錘",
 			},
 			damage: 30,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "インパクトブロー",
+				'ja-jp': "インパクトブロー",
 				'zh-tw': "衝擊打擊",
 			},
 			damage: 150,
 			cost: ["Grass", "Grass", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「インパクトブロー」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「インパクトブロー」が使えない。",
 				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用「衝擊打擊」。",
 			},
 		},
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "キノココ",
+		'ja-jp': "キノココ",
 	},
 
 	retreat: 2,

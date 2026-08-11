@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Hitmonlee",
-		fr: "Kicklee",
-		de: "Kicklee"
+		'en-us': "Hitmonlee",
+		'fr-fr': "Kicklee",
+		'de-de': "Kicklee"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Kick",
-				fr: "Koud'pied",
-				de: "Tritt"
+				'en-us': "Kick",
+				'fr-fr': "Koud'pied",
+				'de-de': "Tritt"
 			},
 
 			damage: 20,
@@ -44,9 +44,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "High Jump Kick",
-				fr: "Pied voltige",
-				de: "Turmkick"
+				'en-us': "High Jump Kick",
+				'fr-fr': "Pied voltige",
+				'de-de': "Turmkick"
 			},
 
 			damage: 60,
@@ -64,7 +64,7 @@ const card: Card = {
 
 
 	description: {
-		en: "If it starts kicking repeatedly, both legs will stretch even longer to strike a fleeing foe.",
+		'en-us': "If it starts kicking repeatedly, both legs will stretch even longer to strike a fleeing foe.",
 	},
 
 	variants: [

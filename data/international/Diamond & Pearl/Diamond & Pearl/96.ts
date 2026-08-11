@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Roselia",
-		fr: "Roselia",
-		de: "Roselia"
+		'en-us': "Roselia",
+		'fr-fr': "Roselia",
+		'de-de': "Roselia"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Toxic Spikes",
-				fr: "Pics Toxik",
-				de: "Giftspitzen"
+				'en-us': "Toxic Spikes",
+				'fr-fr': "Pics Toxik",
+				'de-de': "Giftspitzen"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned. If Roselia is evolved from Budew, this attack does 10 damage to the Defending Pokémon.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Si Roselia évolue de Rozbouton, cette attaque inflige 10 dégâts au Pokémon Défenseur.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Wenn Roselia sich aus Knospi entwickelt hat, fügt dieser Angriff dem Verteidigenden Pokémon 10 Schadenspunkte zu."
+				'en-us': "The Defending Pokémon is now Poisoned. If Roselia is evolved from Budew, this attack does 10 damage to the Defending Pokémon.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné. Si Roselia évolue de Rozbouton, cette attaque inflige 10 dégâts au Pokémon Défenseur.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet. Wenn Roselia sich aus Knospi entwickelt hat, fügt dieser Angriff dem Verteidigenden Pokémon 10 Schadenspunkte zu."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sweet Spike",
-				fr: "Douce pointe",
-				de: "Süßer Stachel"
+				'en-us': "Sweet Spike",
+				'fr-fr': "Douce pointe",
+				'de-de': "Süßer Stachel"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep. Remove 2 damage counters from 1 of your Pokémon.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi. Retirez à 1 de vos Pokémon 2 marqueurs de dégât.",
-				de: "Das Verteidigende Pokémon schläft jetzt. Entferne 2 Schadensmarken von 1 deiner Pokémon."
+				'en-us': "The Defending Pokémon is now Asleep. Remove 2 damage counters from 1 of your Pokémon.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi. Retirez à 1 de vos Pokémon 2 marqueurs de dégât.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt. Entferne 2 Schadensmarken von 1 deiner Pokémon."
 			},
 			damage: 10,
 
@@ -72,8 +72,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "ROSELIA raised on clean drinking water are known to grow vividly colored flowers.",
-		fr: "Les Roselia élevés avec une eau claire et potable font de ravissantes fleurs bariolées."
+		'en-us': "ROSELIA raised on clean drinking water are known to grow vividly colored flowers.",
+		'fr-fr': "Les Roselia élevés avec une eau claire et potable font de ravissantes fleurs bariolées."
 	},
 
 	thirdParty: {

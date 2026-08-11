@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Swirlix",
-		fr: "Sucroquin",
-		es: "Swirlix",
-		it: "Swirlix",
-		pt: "Swirlix",
-		de: "Flauschling"
+		'en-us': "Swirlix",
+		'fr-fr': "Sucroquin",
+		'es-es': "Swirlix",
+		'it-it': "Swirlix",
+		'pt-br': "Swirlix",
+		'de-de': "Flauschling"
 	},
 
 	illustrator: "MAHOU",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Cotton Guard",
-				fr: "Cotogarde",
-				es: "Rizo Algodón",
-				it: "Cotonscudo",
-				pt: "Proteção de Algodão",
-				de: "Watteschild"
+				'en-us': "Cotton Guard",
+				'fr-fr': "Cotogarde",
+				'es-es': "Rizo Algodón",
+				'it-it': "Cotonscudo",
+				'pt-br': "Proteção de Algodão",
+				'de-de': "Watteschild"
 			},
 			effect: {
-				en: "During your opponent’s next turn, this Pokémon takes 10 less damage from attacks (after applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 10 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-				es: "Durante el próximo turno de tu rival, los ataques hacen 10 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-				it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 10 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-				pt: "Durante a próxima vez de jogar do seu oponente, este Pokémon receberá 10 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
-				de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 10 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "During your opponent’s next turn, this Pokémon takes 10 less damage from attacks (after applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, ce Pokémon subit 10 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+				'es-es': "Durante el próximo turno de tu rival, los ataques hacen 10 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+				'it-it': "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 10 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+				'pt-br': "Durante a próxima vez de jogar do seu oponente, este Pokémon receberá 10 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
+				'de-de': "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 10 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 10,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "To entangle its opponents in battle, it extrudes white threads as sweet and sticky as cotton candy.",
+		'en-us': "To entangle its opponents in battle, it extrudes white threads as sweet and sticky as cotton candy.",
 	},
 
 	thirdParty: {

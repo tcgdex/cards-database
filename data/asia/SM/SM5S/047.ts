@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ベロベルト",
+		'ja-jp': "ベロベルト",
 	},
 
 	illustrator: "Yumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "だえきには どんな 物も 溶かす 成分が たっぷり 含まれており なめられると いつまでも しびれる。",
+		'ja-jp': "だえきには どんな 物も 溶かす 成分が たっぷり 含まれており なめられると いつまでも しびれる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数x50ダメージ追加。最初のコインがウラなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数x50ダメージ追加。最初のコインがウラなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ベロリンガ",
+		'ja-jp': "ベロリンガ",
 	},
 
 	retreat: 3,

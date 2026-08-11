@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	name: {
-		en: "Skwovet",
-		fr: "Rongourmand",
-		es: "Skwovet",
-		it: "Skwovet",
-		pt: "Skwovet",
-		de: "Raffel"
+		'en-us': "Skwovet",
+		'fr-fr': "Rongourmand",
+		'es-es': "Skwovet",
+		'it-it': "Skwovet",
+		'pt-br': "Skwovet",
+		'de-de': "Raffel"
 	},
 
 	illustrator: "Mina Nakai",
@@ -23,12 +23,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 20,
@@ -69,7 +69,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Found throughout the Galar region, this Pokémon becomes uneasy if its cheeks are ever completely empty of berries."
+		'en-us': "Found throughout the Galar region, this Pokémon becomes uneasy if its cheeks are ever completely empty of berries."
 	},
 
 	variants: [

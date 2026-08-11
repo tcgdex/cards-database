@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マチスのイーブイ",
+		'ja-jp': "マチスのイーブイ",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,16 +19,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "驚き",
+				'ja-jp': "驚き",
 			},
 			effect: {
-				ja: "相手の手からランダムなカードを見てください。あなたの対戦相手はそのカードを彼または彼女のデッキにシャッフルします。",
+				'ja-jp': "相手の手からランダムなカードを見てください。あなたの対戦相手はそのカードを彼または彼女のデッキにシャッフルします。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "傷",
+				'ja-jp': "傷",
 			},
 			damage: 20,
 		},

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Plasma Energy",
-		fr: "Énergie Plasma",
-		es: "Energía Plasma",
-		it: "Energia Plasma",
-		pt: "Energia de Plasma",
-		de: "Plasma-Energie"
+		'en-us': "Plasma Energy",
+		'fr-fr': "Énergie Plasma",
+		'es-es': "Energía Plasma",
+		'it-it': "Energia Plasma",
+		'pt-br': "Energia de Plasma",
+		'de-de': "Plasma-Energie"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,12 +17,12 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Cette carte fournit de l’Énergie Colorless.",
-		en: "This card provides Colorless Energy.",
-		es: "Esta carta proporciona Energía Colorless.",
-		it: "Cette carte fournit de l’Énergie Colorless.",
-		pt: "Este card fornece Energia Colorless.",
-		de: "Diese Karte liefert Colorless-Energie."
+		'fr-fr': "Cette carte fournit de l’Énergie Colorless.",
+		'en-us': "This card provides Colorless Energy.",
+		'es-es': "Esta carta proporciona Energía Colorless.",
+		'it-it': "Cette carte fournit de l’Énergie Colorless.",
+		'pt-br': "Este card fornece Energia Colorless.",
+		'de-de': "Diese Karte liefert Colorless-Energie."
 	},
 
 	energyType: "Special",

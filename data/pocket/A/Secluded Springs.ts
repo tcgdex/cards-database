@@ -1,18 +1,18 @@
-import { Set } from '../../interfaces'
-import serie from '../Pokémon TCG Pocket'
+import { Set } from 'models/database/set'
+import serie from '../A'
 
 const set: Set = {
 	id: "A4a",
 
 	name: {
-		en: "Secluded Springs",
-		de: "Verborgene Quelle",
-		es: "Manantial Oculto",
-		fr: "Source Secrète",
-		it: "Sorgenti Recondite",
+		'en-us': "Secluded Springs",
+		'de-de': "Verborgene Quelle",
+		'es-es': "Manantial Oculto",
+		'fr-fr': "Source Secrète",
+		'it-it': "Sorgenti Recondite",
 		'pt-br': "Nascentes Reclusas",
-		ko: '미지의 수역',
-		ja: '未知なる水域',
+		'ko-kr': '미지의 수역',
+		'ja-jp': '未知なる水域',
 		'zh-tw': '未知水域',
 		'zh-cn': '未知水域'
 	},
@@ -26,7 +26,7 @@ const set: Set = {
 	boosters: {
 		suicune: {
 			name: {
-				en: 'Suicune themed booster pack' // still not sure how to name the boosters...
+				'en-us': 'Suicune themed booster pack' // still not sure how to name the boosters...
 			}
 		}
 	},

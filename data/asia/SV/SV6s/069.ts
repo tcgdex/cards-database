@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Emolga"
+		'id-id': "Emolga"
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Emolga terbang bagaikan menari di langit sambil memancarkan listrik. Imut, tetapi merepotkan."
+		'id-id': "Emolga terbang bagaikan menari di langit sambil memancarkan listrik. Imut, tetapi merepotkan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Sky Wave"
+			'id-id': "Sky Wave"
 		},
 
 		effect: {
-			id: "Serangan ini juga memberikan kerusakan masing-masing sejumlah 10 kepada semua Pokémon Cadangan kedua pemain. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
+			'id-id': "Serangan ini juga memberikan kerusakan masing-masing sejumlah 10 kepada semua Pokémon Cadangan kedua pemain. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
 		},
 
 		damage: 10,

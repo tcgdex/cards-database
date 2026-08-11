@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Barboach",
-		fr: "Barloche",
-		de: "Schmerbe"
+		'en-us': "Barboach",
+		'fr-fr': "Barloche",
+		'de-de': "Schmerbe"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mud Spit",
-				fr: "Crachat de boue",
-				de: "Lehmspucker"
+				'en-us': "Mud Spit",
+				'fr-fr': "Crachat de boue",
+				'de-de': "Lehmspucker"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff jedem Pokémon deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff jedem Pokémon deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -61,8 +61,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It coats its entire body with a slimy fluid so it can squirm and slip away if grabbed.",
-		fr: "Il enduit son corps d'une substance visqueuse pour glisser et se libérer quand on l'agrippe."
+		'en-us': "It coats its entire body with a slimy fluid so it can squirm and slip away if grabbed.",
+		'fr-fr': "Il enduit son corps d'une substance visqueuse pour glisser et se libérer quand on l'agrippe."
 	},
 
 	thirdParty: {

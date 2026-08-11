@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ダイオウドウex"
+		'ja-jp': "ダイオウドウex"
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -19,11 +19,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ブロンズボディ"
+			'ja-jp': "ブロンズボディ"
 		},
 
 		effect: {
-			ja: "このポケモンが受けるワザのダメージは「-30」される。"
+			'ja-jp': "このポケモンが受けるワザのダメージは「-30」される。"
 		}
 	}],
 
@@ -31,13 +31,13 @@ const card: Card = {
 		cost: ["Metal", "Metal", "Colorless"],
 
 		name: {
-			ja: "ノーズクエイク"
+			'ja-jp': "ノーズクエイク"
 		},
 
 		damage: 260,
 
 		effect: {
-			ja: "自分のベンチポケモン全員にも、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			'ja-jp': "自分のベンチポケモン全員にも、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
 		}
 	}],
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤレユータン",
+		'ja-jp': "ヤレユータン",
 	},
 
 	illustrator: "Saboteri",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "森の奥で 静かに 暮らす。 マントのような 紫の 毛は 歳を 重ねるほどに 長くなる。",
+		'ja-jp': "森の奥で 静かに 暮らす。 マントのような 紫の 毛は 歳を 重ねるほどに 長くなる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "よわみをにぎる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の自分の番の終わりまで、このワザを受けたポケモンの弱点は[C]タイプになる。［弱点は「×2」でダメージ計算をする。］",
+				'ja-jp': "次の自分の番の終わりまで、このワザを受けたポケモンの弱点は[C]タイプになる。［弱点は「×2」でダメージ計算をする。］",
 			},
 		},
 		{

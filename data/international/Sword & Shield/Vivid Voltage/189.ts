@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Monthracite VMAX",
-		en: "Coalossal VMAX",
-		es: "Coalossal VMAX",
-		it: "Coalossal VMAX",
-		pt: "Coalossal VMAX",
-		de: "Montecarbo VMAX"
+		'fr-fr': "Monthracite VMAX",
+		'en-us': "Coalossal VMAX",
+		'es-es': "Coalossal VMAX",
+		'it-it': "Coalossal VMAX",
+		'pt-br': "Coalossal VMAX",
+		'de-de': "Montecarbo VMAX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -21,43 +21,43 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		fr: "Monthracite-V",
-		en: "Coalossal V",
-		es: "Coalossal V",
-		it: "Coalossal-V",
-		pt: "Coalossal V",
-		de: "Montecarbo-V"
+		'fr-fr': "Monthracite-V",
+		'en-us': "Coalossal V",
+		'es-es': "Coalossal V",
+		'it-it': "Coalossal-V",
+		'pt-br': "Coalossal V",
+		'de-de': "Montecarbo-V"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Tir Éruptif",
-			en: "Eruption Shot",
-			es: "Disparo Erupción",
-			it: "Colpo Eruzione",
-			pt: "Disparo Vulcânico",
-			de: "Eruptionsgeschoss"
+			'fr-fr': "Tir Éruptif",
+			'en-us': "Eruption Shot",
+			'es-es': "Disparo Erupción",
+			'it-it': "Colpo Eruzione",
+			'pt-br': "Disparo Vulcânico",
+			'de-de': "Eruptionsgeschoss"
 		},
 
 		effect: {
-			fr: "Défaussez la carte du dessus de votre deck. Si cette carte est une Énergie, cette attaque inflige 90 dégâts supplémentaires et vous attachez cette carte-là à ce Pokémon.",
-			en: "Discard the top card of your deck. If that card is an Energy card, this attack does 90 more damage, and attach that card to this Pokémon.",
-			es: "Descarta la primera carta de tu baraja. Si es una carta de Energía, este ataque hace 90 puntos de daño más, y unes esa carta a este Pokémon.",
-			it: "Scarta la prima carta del tuo mazzo. Se quella carta è una carta Energia, questo attacco infligge 90 danni in più, poi assegnala a questo Pokémon.",
-			pt: "Descarte a carta de cima do seu baralho. Se aquela carta for uma carta de Energia, este ataque causará 90 pontos de dano a mais, e ligue aquela carta a este Pokémon.",
-			de: "Lege die oberste Karte deines Decks auf deinen Ablagestapel. Wenn jene Karte eine Energiekarte ist, lege sie an dieses Pokémon an, und diese Attacke fügt 90 Schadenspunkte mehr zu."
+			'fr-fr': "Défaussez la carte du dessus de votre deck. Si cette carte est une Énergie, cette attaque inflige 90 dégâts supplémentaires et vous attachez cette carte-là à ce Pokémon.",
+			'en-us': "Discard the top card of your deck. If that card is an Energy card, this attack does 90 more damage, and attach that card to this Pokémon.",
+			'es-es': "Descarta la primera carta de tu baraja. Si es una carta de Energía, este ataque hace 90 puntos de daño más, y unes esa carta a este Pokémon.",
+			'it-it': "Scarta la prima carta del tuo mazzo. Se quella carta è una carta Energia, questo attacco infligge 90 danni in più, poi assegnala a questo Pokémon.",
+			'pt-br': "Descarte a carta de cima do seu baralho. Se aquela carta for uma carta de Energia, este ataque causará 90 pontos de dano a mais, e ligue aquela carta a este Pokémon.",
+			'de-de': "Lege die oberste Karte deines Decks auf deinen Ablagestapel. Wenn jene Karte eine Energiekarte ist, lege sie an dieses Pokémon an, und diese Attacke fügt 90 Schadenspunkte mehr zu."
 		},
 
 		damage: "40+",
 		cost: ["Fighting"]
 	}, {
 		name: {
-			fr: "Rocher G-Max",
-			en: "G-Max Boulder",
-			es: "Gigarroca",
-			it: "Gigamacigno",
-			pt: "Rocha G-Max",
-			de: "Giga-Felsbrocken"
+			'fr-fr': "Rocher G-Max",
+			'en-us': "G-Max Boulder",
+			'es-es': "Gigarroca",
+			'it-it': "Gigamacigno",
+			'pt-br': "Rocha G-Max",
+			'de-de': "Giga-Felsbrocken"
 		},
 
 		damage: 240,

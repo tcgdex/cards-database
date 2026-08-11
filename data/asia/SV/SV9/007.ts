@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カブルモ",
+		'ja-jp': "カブルモ",
 		'zh-tw': "蓋蓋蟲",
 		'zh-cn': "蓋蓋蟲"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "口から 吐き出す 液体で チョボマキの 殻を 溶かす。 中身 だけを いただくのだ。",
+		'ja-jp': "口から 吐き出す 液体で チョボマキの 殻を 溶かす。 中身 だけを いただくのだ。",
 		'zh-tw': "用嘴裡吐出的液體 來融化小嘴蝸的殼， 只會去吃裡面的身體。",
 		'zh-cn': "用嘴裡吐出的液體 來融化小嘴蝸的殼， 只會去吃裡面的身體。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "つきとばす",
+			'ja-jp': "つきとばす",
 			'zh-tw': "推倒",
 			'zh-cn': "推倒"
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 		damage: 10,
 
 		effect: {
-			ja: "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+			'ja-jp': "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
 			'zh-tw': "將對手的戰鬥寶可夢與備戰寶可夢互換。[由對手選擇放置於戰鬥場的寶可夢。]",
 			'zh-cn': "將對手的戰鬥寶可夢與備戰寶可夢互換。[由對手選擇放置於戰鬥場的寶可夢。]"
 		}

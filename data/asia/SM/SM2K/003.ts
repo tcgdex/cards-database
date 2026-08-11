@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウツボット",
+		'ja-jp': "ウツボット",
 	},
 
 	illustrator: "TOKIYA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "ジャングルの 奥地に ウツボット ばかり いる 地帯が あって 行ったら ２度と 帰ってこれない。",
+		'ja-jp': "ジャングルの 奥地に ウツボット ばかり いる 地帯が あって 行ったら ２度と 帰ってこれない。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Grass"],
 			effect: {
-				ja: "相手のバトルポケモンをどくとやけどとこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをどくとやけどとこんらんにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「20」回復する。次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "このポケモンのHPを「20」回復する。次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ウツドン",
+		'ja-jp': "ウツドン",
 	},
 
 	retreat: 2,

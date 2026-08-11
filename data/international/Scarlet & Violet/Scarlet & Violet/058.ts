@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cetoddle",
-		fr: "Piétacé",
-		es: "Cetoddle",
-		it: "Cetoddle",
-		pt: "Cetoddle",
-		de: "Flaniwal"
+		'en-us': "Cetoddle",
+		'fr-fr': "Piétacé",
+		'es-es': "Cetoddle",
+		'it-it': "Cetoddle",
+		'pt-br': "Cetoddle",
+		'de-de': "Flaniwal"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 30
@@ -56,7 +56,7 @@ const card: Card = {
 	illustrator: "Shin Nagasawa",
 
 	description: {
-		en: "It lives in frigid regions in pods of five or so individuals. It loves the minerals found in snow and ice.",
+		'en-us': "It lives in frigid regions in pods of five or so individuals. It loves the minerals found in snow and ice.",
 	},
 
 	thirdParty: {

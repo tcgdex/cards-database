@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Zorua",
-		fr: "Zorua",
-		es: "Zorua",
-		it: "Zorua",
-		pt: "Zorua",
-		de: "Zorua"
+		'en-us': "Zorua",
+		'fr-fr': "Zorua",
+		'es-es': "Zorua",
+		'it-it': "Zorua",
+		'pt-br': "Zorua",
+		'de-de': "Zorua"
 	},
 
 	illustrator: "Toyste Beach",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				es: "Arañazo",
-				it: "Graffio",
-				pt: "Arranhão",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'es-es': "Arañazo",
+				'it-it': "Graffio",
+				'pt-br': "Arranhão",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nasty Plot",
-				fr: "Machination",
-				es: "Maquinación",
-				it: "Congiura",
-				pt: "Trama Maldosa",
-				de: "Ränkeschmied"
+				'en-us': "Nasty Plot",
+				'fr-fr': "Machination",
+				'es-es': "Maquinación",
+				'it-it': "Congiura",
+				'pt-br': "Trama Maldosa",
+				'de-de': "Ränkeschmied"
 			},
 			effect: {
-				en: "Search your deck for a card and put it into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez une carte dans votre deck et ajoutez-la à votre main. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja 1 carta y ponla en tu mano. Baraja las cartas de tu baraja después.",
-				it: "Cerca nel tuo mazzo una carta qualsiasi e aggiungila a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure um card em seu baralho e coloque-o em sua mão. Em seguida, embaralhe seus cards.",
-				de: "Durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				'en-us': "Search your deck for a card and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez une carte dans votre deck et ajoutez-la à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja 1 carta y ponla en tu mano. Baraja las cartas de tu baraja después.",
+				'it-it': "Cerca nel tuo mazzo una carta qualsiasi e aggiungila a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure um card em seu baralho e coloque-o em sua mão. Em seguida, embaralhe seus cards.",
+				'de-de': "Durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It changes so it looks like its foe, tricks it, and then uses that opportunity to flee.",
+		'en-us': "It changes so it looks like its foe, tricks it, and then uses that opportunity to flee.",
 	},
 
 	thirdParty: {

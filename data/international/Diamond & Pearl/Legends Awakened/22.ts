@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Crawdaunt",
-		fr: "Colhomard",
-		de: "Krebutack"
+		'en-us': "Crawdaunt",
+		'fr-fr': "Colhomard",
+		'de-de': "Krebutack"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Corphish",
-		fr: "Krebscorps",
+		'en-us': "Corphish",
+		'fr-fr': "Krebscorps",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gripthrow",
-				fr: "Lance-grippe",
-				de: "Wurfgriff"
+				'en-us': "Gripthrow",
+				'fr-fr': "Lance-grippe",
+				'de-de': "Wurfgriff"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent returns the Defending Pokémon and all cards attached to it to his or her hand.",
-				fr: "Lancez une pièce. Si c'est face, votre adversaire reprend dans sa main le Pokémon Défenseur ainsi que toutes les cartes qui lui sont attachées.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" nimmt dein Gegner das Verteidigende Pokémon und alle daran angelegten Karten auf seine Hand zurück."
+				'en-us': "Flip a coin. If heads, your opponent returns the Defending Pokémon and all cards attached to it to his or her hand.",
+				'fr-fr': "Lancez une pièce. Si c'est face, votre adversaire reprend dans sa main le Pokémon Défenseur ainsi que toutes les cartes qui lui sont attachées.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" nimmt dein Gegner das Verteidigende Pokémon und alle daran angelegten Karten auf seine Hand zurück."
 			},
 
 		},
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Prop-up Pinchers",
-				fr: "Pinces calantes",
-				de: "Greifzangen"
+				'en-us': "Prop-up Pinchers",
+				'fr-fr': "Pinces calantes",
+				'de-de': "Greifzangen"
 			},
 			effect: {
-				en: "If Crawdaunt has a Technical Machine card attached to it, this attack does 50 damage plus 30 more damage.",
-				fr: "Si Colhomard possède une carte Machine Technique, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wenn an Krebutack eine Technische Maschine angelegt ist, fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "If Crawdaunt has a Technical Machine card attached to it, this attack does 50 damage plus 30 more damage.",
+				'fr-fr': "Si Colhomard possède une carte Machine Technique, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "Wenn an Krebutack eine Technische Maschine angelegt ist, fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 
@@ -86,8 +86,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is a ruffian that uses its pincers to pick up and toss out other Pokémon from its pond.",
-		fr: "C'est un voyou qui utilise ses pinces pour chasser les autres Pokémon hors de sa mare."
+		'en-us': "It is a ruffian that uses its pincers to pick up and toss out other Pokémon from its pond.",
+		'fr-fr': "C'est un voyou qui utilise ses pinces pour chasser les autres Pokémon hors de sa mare."
 	},
 
 	thirdParty: {

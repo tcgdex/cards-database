@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Energy Removal",
-		fr: "Suppression d'Énergie",
-		de: "Energie-Absauger",
-		it: "Distruzione di Energia"
+		'en-us': "Energy Removal",
+		'fr-fr': "Suppression d'Énergie",
+		'de-de': "Energie-Absauger",
+		'it-it': "Distruzione di Energia"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,10 +15,10 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it.",
-		fr: "Choisissez 1 carte Énergie attachée à 1 des Pokémon de votre adversaire et défaussez-la.",
-		de: "Wähle eine auf einem Pokémon Deines gegners abgelegte Energiekarte und entferne sie.",
-		it: "Scegli una carta Energia assegnata a uno dei Pokémon del tuo avversario e scartala."
+		'en-us': "Choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it.",
+		'fr-fr': "Choisissez 1 carte Énergie attachée à 1 des Pokémon de votre adversaire et défaussez-la.",
+		'de-de': "Wähle eine auf einem Pokémon Deines gegners abgelegte Energiekarte und entferne sie.",
+		'it-it': "Scegli una carta Energia assegnata a uno dei Pokémon del tuo avversario e scartala."
 	},
 
 	variants: [

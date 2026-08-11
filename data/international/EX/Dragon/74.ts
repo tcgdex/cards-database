@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Spoink",
-		fr: "Spoink",
-		de: "Spoink"
+		'en-us': "Spoink",
+		'fr-fr': "Spoink",
+		'de-de': "Spoink"
 	},
 
 	illustrator: "Midori Harada",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hop",
-				fr: "Trempette",
-				de: "Hop"
+				'en-us': "Hop",
+				'fr-fr': "Trempette",
+				'de-de': "Hop"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psybeam",
-				fr: "Rafale psy",
-				de: "Psybeam"
+				'en-us': "Psybeam",
+				'fr-fr': "Rafale psy",
+				'de-de': "Psybeam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 10,
 

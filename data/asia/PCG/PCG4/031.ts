@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スムーチュム",
+		'ja-jp': "スムーチュム",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "赤ちゃんの進化",
+				'ja-jp': "赤ちゃんの進化",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前に）一度、Jynxを手からsmoochum（これは進化するSmoochumとしてカウント）に置き、Smoochumからすべてのダメージカウンターを削除することができます。",
+				'ja-jp': "ターン中（攻撃の前に）一度、Jynxを手からsmoochum（これは進化するSmoochumとしてカウント）に置き、Smoochumからすべてのダメージカウンターを削除することができます。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "吹き飛ばされたキス",
+				'ja-jp': "吹き飛ばされたキス",
 			},
 			effect: {
-				ja: "相手のポケモンの1つに1つのダメージカウンターを置きます。",
+				'ja-jp': "相手のポケモンの1つに1つのダメージカウンターを置きます。",
 			},
 		},
 	],

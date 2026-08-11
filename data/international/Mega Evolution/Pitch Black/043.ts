@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pitch Black"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Primeape",
-		fr: "Colossinge",
-		es: "Primeape",
+		'en-us': "Primeape",
+		'fr-fr': "Colossinge",
+		'es-es': "Primeape",
 		'es-mx': "Primeape",
-		de: "Rasaff",
-		it: "Primeape",
-		pt: "Primeape"
+		'de-de': "Rasaff",
+		'it-it': "Primeape",
+		'pt-br': "Primeape"
 	},
 
 	illustrator: "GOSSAN",
@@ -22,20 +22,20 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Mankey"
+		'en-us': "Mankey"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Corkscrew Punch",
-			fr: "Poing Tire-Bouchon",
-			es: "Puño Tirabuzón",
+			'en-us': "Corkscrew Punch",
+			'fr-fr': "Poing Tire-Bouchon",
+			'es-es': "Puño Tirabuzón",
 			'es-mx': "Puño Sacacorchos",
-			de: "Korkenzieherhieb",
-			it: "Pugno Rotante",
-			pt: "Soco Saca-rolha"
+			'de-de': "Korkenzieherhieb",
+			'it-it': "Pugno Rotante",
+			'pt-br': "Soco Saca-rolha"
 		},
 
 		cost: ["Colorless", "Colorless"],

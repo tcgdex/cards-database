@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Dugtrio",
-		fr: "Triopikeur",
-		de: "Digdri"
+		'en-us': "Dugtrio",
+		'fr-fr': "Triopikeur",
+		'de-de': "Digdri"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Diglett",
-		fr: "Taupiqueur"
+		'en-us': "Diglett",
+		'fr-fr': "Taupiqueur"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Sinkhole",
-				fr: "Chausse-trappe",
-				de: "Sinkhole"
+				'en-us': "Sinkhole",
+				'fr-fr': "Chausse-trappe",
+				'de-de': "Sinkhole"
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon retreats, put 2 damage counters on that Pokémon.",
-				fr: "Si le Pokémon Actif de votre adversaire bat en retraite, placez 2 marqueurs de dégât sur ce Pokémon.",
-				de: "If your opponent's Active Pokémon retreats, put 2 damage counters on that Pokémon."
+				'en-us': "If your opponent's Active Pokémon retreats, put 2 damage counters on that Pokémon.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire bat en retraite, placez 2 marqueurs de dégât sur ce Pokémon.",
+				'de-de': "If your opponent's Active Pokémon retreats, put 2 damage counters on that Pokémon."
 			}
 		},
 	],
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Push Down",
-				fr: "Renverser",
-				de: "Push Down"
+				'en-us': "Push Down",
+				'fr-fr': "Renverser",
+				'de-de': "Push Down"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
-				de: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				'de-de': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
 			},
 			damage: 30,
 
@@ -70,14 +70,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnitude",
-				fr: "Ampleur",
-				de: "Magnitude"
+				'en-us': "Magnitude",
+				'fr-fr': "Ampleur",
+				'de-de': "Magnitude"
 			},
 			effect: {
-				en: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon de Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun des Pokémon de Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 70,
 

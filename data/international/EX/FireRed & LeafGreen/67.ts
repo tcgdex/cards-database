@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Magikarp",
-		fr: "Magicarpe",
-		de: "Karpador"
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe",
+		'de-de': "Karpador"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surprise Attack",
-				fr: "Attaque surprise",
-				de: "Überraschungsangriff"
+				'en-us': "Surprise Attack",
+				'fr-fr': "Attaque surprise",
+				'de-de': "Überraschungsangriff"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 10,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ascension",
-				fr: "Ascension",
-				de: "Aufstieg"
+				'en-us': "Ascension",
+				'fr-fr': "Ascension",
+				'de-de': "Aufstieg"
 			},
 			effect: {
-				en: "Search your deck for a card that evolves from Magikarp and put it on Magikarp. (This counts as evolving Magikarp.) Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck une carte qui évolue de Magicarpe et placez-la sur Magicarpe. (Vous faites ainsi évoluer Magicarpe.) Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach einer Evolutionskarte auf der \"Entsteht aus Karpador\" steht und lege sie auf Karpador (das zählt als Entwickeln von Karpador). Mische dein Deck danach."
+				'en-us': "Search your deck for a card that evolves from Magikarp and put it on Magikarp. (This counts as evolving Magikarp.) Shuffle your deck afterward.",
+				'fr-fr': "Cherchez dans votre deck une carte qui évolue de Magicarpe et placez-la sur Magicarpe. (Vous faites ainsi évoluer Magicarpe.) Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach einer Evolutionskarte auf der \"Entsteht aus Karpador\" steht und lege sie auf Karpador (das zählt als Entwickeln von Karpador). Mische dein Deck danach."
 			},
 
 		},

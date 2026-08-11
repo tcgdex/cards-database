@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Escavalier",
-		fr: "Lançargot",
-		es: "Escavalier",
-		de: "Cavalanzas",
-		it: "Escavalier",
-		pt: "Escavalier",
+		'en-us': "Escavalier",
+		'fr-fr': "Lançargot",
+		'es-es': "Escavalier",
+		'de-de': "Cavalanzas",
+		'it-it': "Escavalier",
+		'pt-br': "Escavalier",
 		'es-mx': "Escavalier"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Metal"],
 	evolveFrom: {
-		en: "Karrablast",
-		fr: "Carabing",
-		es: "Karrablast",
-		de: "Laukaps",
-		it: "Karrablast",
-		pt: "Karrablast",
+		'en-us': "Karrablast",
+		'fr-fr': "Carabing",
+		'es-es': "Karrablast",
+		'de-de': "Laukaps",
+		'it-it': "Karrablast",
+		'pt-br': "Karrablast",
 		'es-mx': "Karrablast"
 	},
 	stage: "Stage1",
@@ -34,12 +34,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Pierce",
-			fr: "Transpercement",
-			es: "Perforar",
-			de: "Durchbohren",
-			it: "Perforare",
-			pt: "Perfurar",
+			'en-us': "Pierce",
+			'fr-fr': "Transpercement",
+			'es-es': "Perforar",
+			'de-de': "Durchbohren",
+			'it-it': "Perforare",
+			'pt-br': "Perfurar",
 			'es-mx': "Perforar"
 		},
 
@@ -48,22 +48,22 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			en: "Iron Buster",
-			fr: "Buster de Fer",
-			es: "Destructor Férreo",
-			de: "Eisensprenger",
-			it: "Ferro Distruttivo",
-			pt: "Destruidor Férreo",
+			'en-us': "Iron Buster",
+			'fr-fr': "Buster de Fer",
+			'es-es': "Destructor Férreo",
+			'de-de': "Eisensprenger",
+			'it-it': "Ferro Distruttivo",
+			'pt-br': "Destruidor Férreo",
 			'es-mx': "Destructor Férreo"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
 			'es-mx': "Durante tu próximo turno, este Pokémon no puede atacar."
 		},
 

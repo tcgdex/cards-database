@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ソルロック",
+		'ja-jp': "ソルロック",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "太陽エネルギーが パワーの 源 なので 昼間は 強い。 回転すると 体が 光る。",
+		'ja-jp': "太陽エネルギーが パワーの 源 なので 昼間は 強い。 回転すると 体が 光る。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ダブルドロー" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を2枚引く。",
+				'ja-jp': "自分の山札を2枚引く。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Fighting"],
 			effect: {
-				ja: "場にスタジアムが出ているなら、20ダメージ追加。",
+				'ja-jp': "場にスタジアムが出ているなら、20ダメージ追加。",
 			},
 		},
 	],

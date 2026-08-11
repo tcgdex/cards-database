@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ニューラ",
+		'ja-jp': "ニューラ",
 		'zh-tw': "狃拉",
-		id: "Sneasel"
+		'id-id': "Sneasel"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "自分が 目立たないよう 暗闇に まぎれて 獲物に 襲いかかる とても ずる賢い ポケモン。",
+		'ja-jp': "自分が 目立たないよう 暗闇に まぎれて 獲物に 襲いかかる とても ずる賢い ポケモン。",
 		'zh-tw': "會潛藏在黑暗中使自己變得不起眼，然後伺機襲擊獵物， 是非常狡詐的寶可夢。",
-		id: "Sneasel adalah Pokémon yang sangat licik. Agar tidak terlihat mencolok, Pokémon ini bersembunyi di dalam kegelapan, kemudian menyerang mangsanya."
+		'id-id': "Sneasel adalah Pokémon yang sangat licik. Agar tidak terlihat mencolok, Pokémon ini bersembunyi di dalam kegelapan, kemudian menyerang mangsanya."
 	},
 
 	stage: "Basic",
@@ -28,9 +28,9 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			ja: "ツメをたてる",
+			'ja-jp': "ツメをたてる",
 			'zh-tw': "豎爪",
-			id: "Memasang Cakar"
+			'id-id': "Memasang Cakar"
 		},
 
 		damage: 20

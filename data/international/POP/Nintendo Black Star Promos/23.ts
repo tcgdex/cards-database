@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Nintendo Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Metang",
+		'en-us': "Metang",
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -18,7 +18,7 @@ const card: Card = {
 		"Metal",
 	],
 	evolveFrom: {
-		en: "Beldum",
+		'en-us': "Beldum",
 	},
 	stage: "Stage1",
 
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Load",
+				'en-us': "Metal Load",
 			},
 			effect: {
-				en: "Search your discard pile for a Metal Energy card and attach it to Metang.",
+				'en-us': "Search your discard pile for a Metal Energy card and attach it to Metang.",
 			},
 
 		},
@@ -42,7 +42,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Claw",
+				'en-us': "Metal Claw",
 			},
 
 			damage: 30,

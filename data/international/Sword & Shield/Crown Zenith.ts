@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sword & Shield'
 
 const swsh125: Set = {
 	id: "swsh12.5",
 
 	name: {
-		en: "Crown Zenith",
-		fr: "Zénith Suprême",
-		es: "Cenit Supremo",
-		it: "Zenit Regale",
-		de: "Zenit der Könige",
-		pt: "Realeza Absoluta"
+		'en-us': "Crown Zenith",
+		'fr-fr': "Zénith Suprême",
+		'es-es': "Cenit Supremo",
+		'it-it': "Zenit Regale",
+		'de-de': "Zenit der Könige",
+		'pt-br': "Realeza Absoluta"
 	},
 
 	serie: serie,
@@ -23,7 +23,7 @@ const swsh125: Set = {
 
 	abbreviations: {
 		official: "CRZ",
-		fr: "ZEN"
+		'fr-fr': "ZEN"
 	},
 
 	thirdParty: {

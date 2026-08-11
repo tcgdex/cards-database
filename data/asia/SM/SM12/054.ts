@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダイノーズ",
+		'ja-jp': "ダイノーズ",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "チビノーズと 呼ばれる ユニットを 操るが たまに 迷子に なって 帰ってこないことも あるらしい。",
+		'ja-jp': "チビノーズと 呼ばれる ユニットを 操るが たまに 迷子に なって 帰ってこないことも あるらしい。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Metal", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数×40ダメージ追加。",
+				'ja-jp': "コインを3回投げ、オモテの数×40ダメージ追加。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ノズパス",
+		'ja-jp': "ノズパス",
 	},
 
 	retreat: 3,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Timburr",
-		fr: "Charpenti",
-		es: "Timburr",
-		it: "Timburr",
-		pt: "Timburr",
-		de: "Praktibalk"
+		'en-us': "Timburr",
+		'fr-fr': "Charpenti",
+		'es-es': "Timburr",
+		'it-it': "Timburr",
+		'pt-br': "Timburr",
+		'de-de': "Praktibalk"
 	},
 
 	illustrator: "Mizue",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage"
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage"
 			},
 
 			damage: 10,
@@ -48,8 +48,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer In",
-				fr: "Enfoncer"
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncer"
 			},
 
 			damage: 30,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "These Pokémon appear at building sites and help out with construction. They always carry squared logs.",
+		'en-us': "These Pokémon appear at building sites and help out with construction. They always carry squared logs.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バケッチャ",
+		'ja-jp': "バケッチャ",
 		'zh-tw': "南瓜精",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "かぼちゃの 穴から 照らしている 光は 見た 人や ポケモンを 催眠状態にして 操る。",
+		'ja-jp': "かぼちゃの 穴から 照らしている 光は 見た 人や ポケモンを 催眠状態にして 操る。",
 		'zh-tw': "南瓜的洞裡發出的光會催眠並控制看到牠的人和寶可夢。",
 	},
 
@@ -24,11 +24,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "かぼちゃのあな",
+				'ja-jp': "かぼちゃのあな",
 				'zh-tw': "南瓜洞穴",
 			},
 			effect: {
-				ja: "自分の番に、このカードを手札からベンチに出したとき、1回使える。場に出ているスタジアムをトラッシュする。",
+				'ja-jp': "自分の番に、このカードを手札からベンチに出したとき、1回使える。場に出ているスタジアムをトラッシュする。",
 				'zh-tw': "在自己的回合，當從手牌將這張卡放置於備戰區時，可使用1次。將場上的競技場卡丟棄。",
 			},
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ふむ",
+				'ja-jp': "ふむ",
 				'zh-tw': "踩",
 			},
 			damage: 20,

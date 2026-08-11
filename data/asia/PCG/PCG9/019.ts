@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "altaria ex（デルタ種）",
+		'ja-jp': "altaria ex（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "余分なブースト",
+				'ja-jp': "余分なブースト",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前）に一度、手からステージ2のPokã©Mon-Exの1つに基本的なエネルギーカードを添付することができます。 Altaria Exが特別な状態の影響を受ける場合、この電力は使用できません。",
+				'ja-jp': "ターン中（攻撃の前）に一度、手からステージ2のPokã©Mon-Exの1つに基本的なエネルギーカードを添付することができます。 Altaria Exが特別な状態の影響を受ける場合、この電力は使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				ja: "癒しの光",
+				'ja-jp': "癒しの光",
 			},
 			effect: {
-				ja: "各ポケモンから1つのダメージカウンターを取り外します。",
+				'ja-jp': "各ポケモンから1つのダメージカウンターを取り外します。",
 			},
 			damage: 60,
 		},

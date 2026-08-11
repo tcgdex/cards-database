@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Snorunt",
-		fr: "Stalgamin",
-		es: "Snorunt",
-		it: "Snorunt",
-		pt: "Snorunt",
-		de: "Schneppke"
+		'en-us': "Snorunt",
+		'fr-fr': "Stalgamin",
+		'es-es': "Snorunt",
+		'it-it': "Snorunt",
+		'pt-br': "Snorunt",
+		'de-de': "Schneppke"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Icicle",
-				fr: "Concrétion Glacée",
-				es: "Témpano",
-				it: "Stalattite",
-				pt: "Pingente de Gelo",
-				de: "Eiszapfen"
+				'en-us': "Icicle",
+				'fr-fr': "Concrétion Glacée",
+				'es-es': "Témpano",
+				'it-it': "Stalattite",
+				'pt-br': "Pingente de Gelo",
+				'de-de': "Eiszapfen"
 			},
 
 			damage: 20,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It feeds mainly on ice and snow. It's only able to survive in a limited number of places in the warm Alola region.",
+		'en-us': "It feeds mainly on ice and snow. It's only able to survive in a limited number of places in the warm Alola region.",
 	},
 
 	thirdParty: {

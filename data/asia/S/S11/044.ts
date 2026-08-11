@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤミラミ",
+		'ja-jp': "ヤミラミ",
 		'zh-tw': "勾魂眼",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "宝石の 瞳が 怪しく 輝くとき 人の 魂を 奪うと 恐れられる ポケモン。",
+		'ja-jp': "宝石の 瞳が 怪しく 輝くとき 人の 魂を 奪うと 恐れられる ポケモン。",
 		'zh-tw': "寶石的眼睛發出詭異光芒時，就會攝取人的魂魄。 是令人恐懼的寶可夢。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ひっかく",
+				'ja-jp': "ひっかく",
 				'zh-tw': "抓",
 			},
 			damage: 20,
@@ -31,12 +31,12 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ロストマイン",
+				'ja-jp': "ロストマイン",
 				'zh-tw': "放逐礦山",
 			},
 			cost: ["Psychic"],
 			effect: {
-				ja: "このワザは、自分のロストゾーンにカードが10枚以上あるときにしか使えない。ダメカン12個を、相手のポケモンに好きなようにのせる。",
+				'ja-jp': "このワザは、自分のロストゾーンにカードが10枚以上あるときにしか使えない。ダメカン12個を、相手のポケモンに好きなようにのせる。",
 				'zh-tw': "這個招式只有在自己的放逐區有10張以上的卡時才可使用。將12個傷害指示物以任意方式放置於對手的寶可夢身上。",
 			},
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マシェード",
+		'ja-jp': "マシェード",
 	},
 
 	illustrator: "Naoki Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "夜中に マシェードの棲む 森に いくのは 危険。 怪しい光に 惑わされ 二度と 帰れなくなる。",
+		'ja-jp': "夜中に マシェードの棲む 森に いくのは 危険。 怪しい光に 惑わされ 二度と 帰れなくなる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Fairy", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数x30ダメージぶん、このポケモンのHPを回復する。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数x30ダメージぶん、このポケモンのHPを回復する。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Fairy", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ネマシュ",
+		'ja-jp': "ネマシュ",
 	},
 
 	retreat: 2,

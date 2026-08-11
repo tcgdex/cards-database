@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホエルコ",
+		'ja-jp': "ホエルコ",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "口を 開いたまま 泳いで 海水ごと エサを 食う。 いらない 水は 鼻から 噴き出し 捨てる。",
+		'ja-jp': "口を 開いたまま 泳いで 海水ごと エサを 食う。 いらない 水は 鼻から 噴き出し 捨てる。",
 	},
 
 	stage: "Basic",

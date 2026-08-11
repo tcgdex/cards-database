@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pokémon GO"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spinarak",
-		fr: "Mimigal",
-		es: "Spinarak",
-		it: "Spinarak",
-		pt: "Spinarak",
-		de: "Webarak"
+		'en-us': "Spinarak",
+		'fr-fr': "Mimigal",
+		'es-es': "Spinarak",
+		'it-it': "Spinarak",
+		'pt-br': "Spinarak",
+		'de-de': "Webarak"
 	},
 
 	illustrator: "Yuka Morii",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Poison Sting",
-			fr: "Dard-Venin",
-			es: "Picotazo Veneno",
-			it: "Velenospina",
-			pt: "Ferrão Venenoso",
-			de: "Giftstachel"
+			'en-us': "Poison Sting",
+			'fr-fr': "Dard-Venin",
+			'es-es': "Picotazo Veneno",
+			'it-it': "Velenospina",
+			'pt-br': "Ferrão Venenoso",
+			'de-de': "Giftstachel"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Envenenado.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Envenenado.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt vergiftet."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene avvelenato.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Envenenado.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt vergiftet."
 		},
 
 		damage: 10
@@ -56,7 +56,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web.",
+		'en-us': "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web.",
 	},
 
 

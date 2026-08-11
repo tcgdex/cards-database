@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒスイ ニューラ",
+		'ja-jp': "ヒスイ ニューラ",
 		'zh-tw': "洗翠 狃拉",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "鉤爪 逞しく 断崖絶壁を 踏破するに 有利な 形状。 先端より 毒液 滴り 獲物 捕らえしとき 神経を 侵す。",
+		'ja-jp': "鉤爪 逞しく 断崖絶壁を 踏破するに 有利な 形状。 先端より 毒液 滴り 獲物 捕らえしとき 神経を 侵す。",
 		'zh-tw': "強健的爪子形狀有助於在斷崖絕壁上行動自如。爪子尖端滴出的毒液會在 捉住獵物時侵襲其神經。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ひっかく",
+				'ja-jp': "ひっかく",
 				'zh-tw': "抓",
 			},
 			damage: 10,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ツメできりさく",
+				'ja-jp': "ツメできりさく",
 				'zh-tw': "利爪劈擊",
 			},
 			damage: 30,

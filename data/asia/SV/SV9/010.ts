@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ニャオハ",
+		'ja-jp': "ニャオハ",
 		'zh-tw': "新葉喵",
 		'zh-cn': "新葉喵"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "フワフワの 体毛は 植物に 近い 成分。 こまめに 顔を 洗って 乾燥を 防ぐ。",
+		'ja-jp': "フワフワの 体毛は 植物に 近い 成分。 こまめに 顔を 洗って 乾燥を 防ぐ。",
 		'zh-tw': "毛茸茸的體毛有著 近似於植物的成分。 會勤快地洗臉以防止乾燥。",
 		'zh-cn': "毛茸茸的體毛有著 近似於植物的成分。 會勤快地洗臉以防止乾燥。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ふみまくる",
+			'ja-jp': "ふみまくる",
 			'zh-tw': "狂踩",
 			'zh-cn': "狂踩"
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 		damage: "10×",
 
 		effect: {
-			ja: "コインを3回投げ、オモテの数×10ダメージ。",
+			'ja-jp': "コインを3回投げ、オモテの数×10ダメージ。",
 			'zh-tw': "擲3次硬幣，造成正面出現的次數×10點傷害。",
 			'zh-cn': "擲3次硬幣，造成正面出現的次數×10點傷害。"
 		}

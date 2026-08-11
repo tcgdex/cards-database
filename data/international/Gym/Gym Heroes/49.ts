@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Weepinbell"
+		'en-us': "Erika's Weepinbell"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bellsprout"
+		'en-us': "Bellsprout"
 	},
 
 	stage: "Stage1",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleep Poison"
+				'en-us': "Sleep Poison"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep and Poisoned."
+				'en-us': "The Defending Pokémon is now Asleep and Poisoned."
 			},
 			damage: 10,
 
@@ -47,7 +47,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vine Whip"
+				'en-us': "Vine Whip"
 			},
 
 			damage: 40,

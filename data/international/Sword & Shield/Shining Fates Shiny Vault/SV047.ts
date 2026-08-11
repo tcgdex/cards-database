@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Ponyta de Galar",
-		en: "Galarian Ponyta",
-		es: "Ponyta de Galar",
-		it: "Ponyta di Galar",
-		pt: "Ponyta de Galar",
-		de: "Galar-Ponita"
+		'fr-fr': "Ponyta de Galar",
+		'en-us': "Galarian Ponyta",
+		'es-es': "Ponyta de Galar",
+		'it-it': "Ponyta di Galar",
+		'pt-br': "Ponyta de Galar",
+		'de-de': "Galar-Ponita"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Choc Mental",
-			en: "Psy Bolt",
-			es: "Rayo Psi",
-			it: "Psico",
-			pt: "Raio Psíquico",
-			de: "Mentale Blockade"
+			'fr-fr': "Choc Mental",
+			'en-us': "Psy Bolt",
+			'es-es': "Rayo Psi",
+			'it-it': "Psico",
+			'pt-br': "Raio Psíquico",
+			'de-de': "Mentale Blockade"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		},
 
 		damage: 10,
@@ -58,7 +58,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "This Pokémon will look into your eyes and read the contents of your heart. If it finds evil there, it promptly hides away."
+		'en-us': "This Pokémon will look into your eyes and read the contents of your heart. If it finds evil there, it promptly hides away."
 	},
 
 	variants: [

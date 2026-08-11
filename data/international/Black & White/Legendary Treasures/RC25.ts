@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Meloetta-EX",
+		'en-us': "Meloetta-EX",
 	},
 	illustrator: "Eske Yoshinob",
 	rarity: "Ultra Rare",
@@ -28,10 +28,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Brilliant Voice",
+				'en-us': "Brilliant Voice",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, the Defending Pokémon is now Confused.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, the Defending Pokémon is now Confused.",
 			},
 			damage: 20,
 
@@ -43,10 +43,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Round",
+				'en-us': "Round",
 			},
 			effect: {
-				en: "Does 30 damage times the number of your Pokémon that have the Round attack.",
+				'en-us': "Does 30 damage times the number of your Pokémon that have the Round attack.",
 			},
 			damage: 30,
 

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Nintendo Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Torchic",
+		'en-us': "Torchic",
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -28,10 +28,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ember",
+				'en-us': "Ember",
 			},
 			effect: {
-				en: "Discard a Fire Energy card attached to Torchic.",
+				'en-us': "Discard a Fire Energy card attached to Torchic.",
 			},
 			damage: 30,
 

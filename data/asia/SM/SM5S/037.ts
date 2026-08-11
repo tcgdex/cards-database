@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジバコイル",
+		'ja-jp': "ジバコイル",
 	},
 
 	illustrator: "Yoshinobu Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "怪電波を 発信 しながら 空を 飛び回り 未知の 電波を 受信 していると いう。",
+		'ja-jp': "怪電波を 発信 しながら 空を 飛び回り 未知の 電波を 受信 していると いう。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "マグネサーキット" },
 			effect: {
-				ja: "自分の番に何回でも使える。自分の手札にある[鋼]エネルギーを1枚、自分のポケモンにつける。",
+				'ja-jp': "自分の番に何回でも使える。自分の手札にある[鋼]エネルギーを1枚、自分のポケモンにつける。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Metal", "Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「でんじほう」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「でんじほう」が使えない。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "レアコイル",
+		'ja-jp': "レアコイル",
 	},
 
 	retreat: 2,

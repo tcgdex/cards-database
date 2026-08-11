@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Delcatty ex",
+		'ja-jp': "Delcatty ex",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "制約",
+				'ja-jp': "制約",
 			},
 			effect: {
-				ja: "ターン中（攻撃前）に、このパワーを使用できます。各プレイヤーは、そのプレーヤーが手に6枚のカードを持っているまでカードを捨てます。 （最初に廃棄します。）Delcatty Exが特別な状態の影響を受ける場合、このパワーは使用できません。",
+				'ja-jp': "ターン中（攻撃前）に、このパワーを使用できます。各プレイヤーは、そのプレーヤーが手に6枚のカードを持っているまでカードを捨てます。 （最初に廃棄します。）Delcatty Exが特別な状態の影響を受ける場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,16 +29,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "上流",
+				'ja-jp': "上流",
 			},
 			effect: {
-				ja: "すべてのエネルギーカードの廃棄パイルを検索します。この攻撃は、そこにあるエネルギーカードの数の10回ダメージを与えます。それらを相手に見せて、あなたのデッキの上に置きます。その後、デッキをシャッフルします。",
+				'ja-jp': "すべてのエネルギーカードの廃棄パイルを検索します。この攻撃は、そこにあるエネルギーカードの数の10回ダメージを与えます。それらを相手に見せて、あなたのデッキの上に置きます。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "テールスラップ",
+				'ja-jp': "テールスラップ",
 			},
 			damage: 60,
 		},

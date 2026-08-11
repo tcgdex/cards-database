@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フレフワン",
+		'ja-jp': "フレフワン",
 	},
 
 	illustrator: "Mori Yuu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "においが 強すぎるため よほど 好きな トレーナーでなければ 連れて 歩くのは キツイのだ。",
+		'ja-jp': "においが 強すぎるため よほど 好きな トレーナーでなければ 連れて 歩くのは キツイのだ。",
 	},
 
 	stage: "Stage1",
@@ -28,7 +28,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "シュシュプ",
+		'ja-jp': "シュシュプ",
 	},
 
 	retreat: 1,

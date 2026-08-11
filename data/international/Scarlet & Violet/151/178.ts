@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Saquedeneu",
-		en: "Tangela",
-		es: "Tangela",
-		it: "Tangela",
-		pt: "Tangela",
-		de: "Tangela"
+		'fr-fr': "Saquedeneu",
+		'en-us': "Tangela",
+		'es-es': "Tangela",
+		'it-it': "Tangela",
+		'pt-br': "Tangela",
+		'de-de': "Tangela"
 	},
 
 	rarity: "Illustration rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			fr: "Emmêlement Délicat",
-			en: "Tactful Tangling",
-			es: "Enredo Sutil",
-			it: "Groviglio Gentile",
-			pt: "Emaranhamento Delicado",
-			de: "Taktvolles Knäuel"
+			'fr-fr': "Emmêlement Délicat",
+			'en-us': "Tactful Tangling",
+			'es-es': "Enredo Sutil",
+			'it-it': "Groviglio Gentile",
+			'pt-br': "Emaranhamento Delicado",
+			'de-de': "Taktvolles Knäuel"
 		},
 
 		effect: {
-			fr: "Si vous avez joué Invitation d'Erika de votre main pendant ce tour, cette attaque inflige 60 dégâts supplémentaires.",
-			en: "If you played Erika's Invitation from your hand during this turn, this attack does 60 more damage.",
-			es: "Si has jugado una carta de Invitación de Erika de tu mano durante este turno, este ataque hace 60 puntos de daño más.",
-			it: "Se hai giocato Invito di Erika dalla tua mano durante questo turno, questo attacco infligge 60 danni in più.",
-			pt: "Se você jogou Convite da Érica da sua mão durante este turno, este ataque causará 60 pontos de dano a mais.",
-			de: "Wenn du Erikas Einladung während dieses Zuges aus deiner Hand gespielt hast, fügt diese Attacke 60 Schadenspunkte mehr zu."
+			'fr-fr': "Si vous avez joué Invitation d'Erika de votre main pendant ce tour, cette attaque inflige 60 dégâts supplémentaires.",
+			'en-us': "If you played Erika's Invitation from your hand during this turn, this attack does 60 more damage.",
+			'es-es': "Si has jugado una carta de Invitación de Erika de tu mano durante este turno, este ataque hace 60 puntos de daño más.",
+			'it-it': "Se hai giocato Invito di Erika dalla tua mano durante questo turno, questo attacco infligge 60 danni in più.",
+			'pt-br': "Se você jogou Convite da Érica da sua mão durante este turno, este ataque causará 60 pontos de dano a mais.",
+			'de-de': "Wenn du Erikas Einladung während dieses Zuges aus deiner Hand gespielt hast, fügt diese Attacke 60 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Hidden beneath a tangle of vines that grows nonstop even if the vines are torn off, this Pokémon's true appearance remains a mystery.",
+		'en-us': "Hidden beneath a tangle of vines that grows nonstop even if the vines are torn off, this Pokémon's true appearance remains a mystery.",
 	},
 
 	variants: [

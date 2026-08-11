@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Porygon2"
+		'id-id': "Porygon2"
 	},
 
 	illustrator: "kurumitsu",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Setelah dipasangi fungsi kecerdasan buatan, Porygon2 mulai saling berbincang menggunakan bahasa yang hanya dipahami oleh mereka."
+		'id-id': "Setelah dipasangi fungsi kecerdasan buatan, Porygon2 mulai saling berbincang menggunakan bahasa yang hanya dipahami oleh mereka."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Power Ball"
+			'id-id': "Power Ball"
 		},
 
 		effect: {
-			id: "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
+			'id-id': "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
 		},
 
 		damage: 50,

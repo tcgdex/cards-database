@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤンチャム",
+		'ja-jp': "ヤンチャム",
 	},
 
 	illustrator: "Midori Harada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "咥えている 葉っぱに 意味は なく ただの かっこつけ。 やんちゃなので 素人トレーナーには 向かない。",
+		'ja-jp': "咥えている 葉っぱに 意味は なく ただの かっこつけ。 やんちゃなので 素人トレーナーには 向かない。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Fighting"],
 			effect: {
-				ja: "このポケモンに[悪]エネルギーがついているなら、30ダメージ追加。",
+				'ja-jp': "このポケモンに[悪]エネルギーがついているなら、30ダメージ追加。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ペリッパー",
+		'ja-jp': "ペリッパー",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "餌集めは 若い ♂の 仕事。 大きなクチバシに 餌を 溜めて 仲間が 待つ 巣まで 運ぶ。",
+		'ja-jp': "餌集めは 若い ♂の 仕事。 大きなクチバシに 餌を 溜めて 仲間が 待つ 巣まで 運ぶ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについている[炎]エネルギーを、1個トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについている[炎]エネルギーを、1個トラッシュする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "キャモメ",
+		'ja-jp': "キャモメ",
 	},
 
 	retreat: 2,

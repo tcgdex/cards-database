@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance Trainer Gallery"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mightyena",
-		fr: "Grahyèna",
-		es: "Mightyena",
-		it: "Mightyena",
-		pt: "Mightyena",
-		de: "Magnayen"
+		'en-us': "Mightyena",
+		'fr-fr': "Grahyèna",
+		'es-es': "Mightyena",
+		'it-it': "Mightyena",
+		'pt-br': "Mightyena",
+		'de-de': "Magnayen"
 	},
 
 	illustrator: "GOSSAN",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Poochyena",
-		fr: "Medhyèna",
-		es: "Poochyena",
-		it: "Poochyena",
-		pt: "Poochyena",
-		de: "Fiffyen"
+		'en-us': "Poochyena",
+		'fr-fr': "Medhyèna",
+		'es-es': "Poochyena",
+		'it-it': "Poochyena",
+		'pt-br': "Poochyena",
+		'de-de': "Fiffyen"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Hustle Bark",
-			fr: "Aboiement Acharné",
-			es: "Ladrido Apremiante",
-			it: "Abbaiare Frenetico",
-			pt: "Latido Alvoroçado",
-			de: "Ehrgeiziges Bellen"
+			'en-us': "Hustle Bark",
+			'fr-fr': "Aboiement Acharné",
+			'es-es': "Ladrido Apremiante",
+			'it-it': "Abbaiare Frenetico",
+			'pt-br': "Latido Alvoroçado",
+			'de-de': "Ehrgeiziges Bellen"
 		},
 
 		effect: {
-			en: "If your opponent has any Pokémon VMAX in play, this Pokémon's attacks cost ColorlessColorlessColorless less.",
-			fr: "Si votre adversaire a au moins un Pokémon-VMAX en jeu, les attaques de ce Pokémon coûtent ColorlessColorlessColorless de moins.",
-			es: "Si tu rival tiene algún Pokémon VMAX en juego, los ataques de este Pokémon cuestan ColorlessColorlessColorless menos.",
-			it: "Se il tuo avversario ha dei Pokémon-VMAX in gioco, il costo degli attacchi di questo Pokémon è ridotto di ColorlessColorlessColorless.",
-			pt: "Se o seu oponente tiver algum Pokémon VMAX em jogo, os ataques deste Pokémon custarão ColorlessColorlessColorless a menos.",
-			de: "Wenn dein Gegner mindestens 1 Pokémon-VMAX im Spiel hat, verringern sich die Kosten der Attacken dieses Pokémon um ColorlessColorlessColorless."
+			'en-us': "If your opponent has any Pokémon VMAX in play, this Pokémon's attacks cost ColorlessColorlessColorless less.",
+			'fr-fr': "Si votre adversaire a au moins un Pokémon-VMAX en jeu, les attaques de ce Pokémon coûtent ColorlessColorlessColorless de moins.",
+			'es-es': "Si tu rival tiene algún Pokémon VMAX en juego, los ataques de este Pokémon cuestan ColorlessColorlessColorless menos.",
+			'it-it': "Se il tuo avversario ha dei Pokémon-VMAX in gioco, il costo degli attacchi di questo Pokémon è ridotto di ColorlessColorlessColorless.",
+			'pt-br': "Se o seu oponente tiver algum Pokémon VMAX em jogo, os ataques deste Pokémon custarão ColorlessColorlessColorless a menos.",
+			'de-de': "Wenn dein Gegner mindestens 1 Pokémon-VMAX im Spiel hat, verringern sich die Kosten der Attacken dieses Pokémon um ColorlessColorlessColorless."
 		}
 	}],
 
@@ -57,21 +57,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Wild Tackle",
-			fr: "Tacle Brutal",
-			es: "Placaje Salvaje",
-			it: "Azionferoce",
-			pt: "Investida Feroz",
-			de: "Wilder Tackle"
+			'en-us': "Wild Tackle",
+			'fr-fr': "Tacle Brutal",
+			'es-es': "Placaje Salvaje",
+			'it-it': "Azionferoce",
+			'pt-br': "Investida Feroz",
+			'de-de': "Wilder Tackle"
 		},
 
 		effect: {
-			en: "This Pokémon also does 50 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 50 dégâts.",
-			es: "Este Pokémon también se hace 50 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 50 danni a se stesso.",
-			pt: "Este Pokémon também causa 50 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 50 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 50 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 50 dégâts.",
+			'es-es': "Este Pokémon también se hace 50 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 50 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 50 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 50 Schadenspunkte zu."
 		},
 
 		damage: 160
@@ -88,7 +88,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It chases down prey in a pack of around ten. They defeat foes with perfectly coordinated teamwork.",
+		'en-us': "It chases down prey in a pack of around ten. They defeat foes with perfectly coordinated teamwork.",
 	},
 
 	variants: [

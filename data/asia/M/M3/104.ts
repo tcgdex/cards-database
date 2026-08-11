@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワンダーパッチ",
+		'ja-jp': "ワンダーパッチ",
 	},
 
 	illustrator: "Studio Bora Inc.",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のトラッシュから「基本エネルギー」を1枚選び、ベンチのポケモンにつける。",
+		'ja-jp': "自分のトラッシュから「基本エネルギー」を1枚選び、ベンチのポケモンにつける。",
 	},
 
 	variants: [{"type": "holo"}],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホルード",
+		'ja-jp': "ホルード",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "大きな 耳は １トンを 超える 岩を 楽に 持ち上げる パワー。 工事現場で 大活躍する。",
+		'ja-jp': "大きな 耳は １トンを 超える 岩を 楽に 持ち上げる パワー。 工事現場で 大活躍する。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手の山札を上から1枚トラッシュする。",
+				'ja-jp': "相手の山札を上から1枚トラッシュする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ホルビー",
+		'ja-jp': "ホルビー",
 	},
 
 	retreat: 3,

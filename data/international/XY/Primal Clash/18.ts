@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Illumise",
-		fr: "Lumivole",
-		es: "Illumise",
-		it: "Illumise",
-		pt: "Illumise",
-		de: "Illumise"
+		'en-us': "Illumise",
+		'fr-fr': "Lumivole",
+		'es-es': "Illumise",
+		'it-it': "Illumise",
+		'pt-br': "Illumise",
+		'de-de': "Illumise"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Helping Hand",
-				fr: "Coup d'Main",
-				es: "Refuerzo",
-				it: "Altruismo",
-				pt: "Mãozinha",
-				de: "Rechte Hand"
+				'en-us': "Helping Hand",
+				'fr-fr': "Coup d'Main",
+				'es-es': "Refuerzo",
+				'it-it': "Altruismo",
+				'pt-br': "Mãozinha",
+				'de-de': "Rechte Hand"
 			},
 			effect: {
-				en: "Search your deck for a basic Energy card and attach it to 1 of your Benched Pokémon. Shuffle your deck afterward.",
-				fr: "Cherchez une carte Énergie de base dans votre deck et attachez-la à l'un de vos Pokémon de Banc. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja 1 carta de Energía Básica y únela a 1 de tus Pokémon en Banca. Baraja las cartas de tu baraja después.",
-				it: "Cerca nel tuo mazzo una carta Energia base e assegnala a uno dei tuoi Pokémon in panchina. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure em seu baralho um card de Energia básica e ligue-o a 1 dos seus Pokémon no Banco. Em seguida, embaralhe seus cards.",
-				de: "Durchsuche dein Deck nach 1 Basis-Energiekarte und lege sie an 1 Pokémon auf deiner Bank an. Mische anschließend dein Deck."
+				'en-us': "Search your deck for a basic Energy card and attach it to 1 of your Benched Pokémon. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez une carte Énergie de base dans votre deck et attachez-la à l'un de vos Pokémon de Banc. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja 1 carta de Energía Básica y únela a 1 de tus Pokémon en Banca. Baraja las cartas de tu baraja después.",
+				'it-it': "Cerca nel tuo mazzo una carta Energia base e assegnala a uno dei tuoi Pokémon in panchina. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure em seu baralho um card de Energia básica e ligue-o a 1 dos seus Pokémon no Banco. Em seguida, embaralhe seus cards.",
+				'de-de': "Durchsuche dein Deck nach 1 Basis-Energiekarte und lege sie an 1 Pokémon auf deiner Bank an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -56,20 +56,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Twirling Sign",
-				fr: "Signe Virevoltant",
-				es: "Señal Pirueta",
-				it: "Segnale Roteante",
-				pt: "Sinal Espiral",
-				de: "Kreiselndes Schild"
+				'en-us': "Twirling Sign",
+				'fr-fr': "Signe Virevoltant",
+				'es-es': "Señal Pirueta",
+				'it-it': "Segnale Roteante",
+				'pt-br': "Sinal Espiral",
+				'de-de': "Kreiselndes Schild"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent's Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "With its sweet aroma, it guides Volbeat to draw signs with light in the night sky.",
+		'en-us': "With its sweet aroma, it guides Volbeat to draw signs with light in the night sky.",
 	},
 
 	thirdParty: {

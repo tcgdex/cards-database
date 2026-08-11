@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ベベノム",
+		'ja-jp': "ベベノム",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "異世界に おいては 旅立ちの パートナーに 選ばれるほど 親しまれている ウルトラビースト。",
+		'ja-jp': "異世界に おいては 旅立ちの パートナーに 選ばれるほど 親しまれている ウルトラビースト。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "アイオープナー" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "ウラになっている自分のサイドのオモテをすべて見てから、もとにもどす。",
+				'ja-jp': "ウラになっている自分のサイドのオモテをすべて見てから、もとにもどす。",
 			},
 		},
 		{

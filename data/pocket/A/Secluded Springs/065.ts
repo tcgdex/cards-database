@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zangoose",
-		fr: "Mangriff"
+		'en-us': "Zangoose",
+		'fr-fr': "Mangriff"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -18,8 +18,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It's Seviper's archrival. To threaten those\nit encounters, it fans out the claws on its\nfront paws.",
-		fr: "Mangriff est l'ennemi juré de Séviper. Quand il le croise, il sort instantanément ses griffes pour l'intimider."
+		'en-us': "It's Seviper's archrival. To threaten those\nit encounters, it fans out the claws on its\nfront paws.",
+		'fr-fr': "Mangriff est l'ennemi juré de Séviper. Quand il le croise, il sort instantanément ses griffes pour l'intimider."
 	},
 
 	stage: "Basic",
@@ -28,20 +28,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Counterattack",
-			fr: "Contre-Attaque"
+			'en-us': "Counterattack",
+			'fr-fr': "Contre-Attaque"
 		},
 
 		effect: {
-			en: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon.",
-			fr: "Si ce Pokémon est sur le Poste Actif et subit les dégâts d'une attaque d'un Pokémon de votre adversaire, le Pokémon Attaquant subit 20 dégâts."
+			'en-us': "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon.",
+			'fr-fr': "Si ce Pokémon est sur le Poste Actif et subit les dégâts d'une attaque d'un Pokémon de votre adversaire, le Pokémon Attaquant subit 20 dégâts."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Slash",
-			fr: "Tranche"
+			'en-us': "Slash",
+			'fr-fr': "Tranche"
 		},
 
 		damage: 50,

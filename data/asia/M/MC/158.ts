@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カスミのギャラドス",
+		'ja-jp': "カスミのギャラドス",
 	},
 
 	illustrator: "GOSSAN",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "一度 姿を 現すと まわりを すべて 焼き尽くさないと 怒りが 鎮まらない という。",
+		'ja-jp': "一度 姿を 現すと まわりを すべて 焼き尽くさないと 怒りが 鎮まらない という。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "70×",
 			cost: ["Water"],
 			effect: {
-				ja: "自分の山札を上から7枚トラッシュし、その中にある「カスミのポケモン」の枚数×70ダメージ。",
+				'ja-jp': "自分の山札を上から7枚トラッシュし、その中にある「カスミのポケモン」の枚数×70ダメージ。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カスミのコイキング",
+		'ja-jp': "カスミのコイキング",
 	},
 
 	retreat: 4,

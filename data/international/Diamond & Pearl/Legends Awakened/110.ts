@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Numel",
-		fr: "Chamallot",
-		de: "Camaub"
+		'en-us': "Numel",
+		'fr-fr': "Chamallot",
+		'de-de': "Camaub"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'de-de': "Walzer"
 			},
 
 			damage: 10,
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Singe",
-				fr: "Roussir",
-				de: "Versengung"
+				'en-us': "Singe",
+				'fr-fr': "Roussir",
+				'de-de': "Versengung"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verbrannt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: 30,
 
@@ -70,8 +70,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its humped back stores intensely hot magma. In rain, the magma cools, slowing its movement.",
-		fr: "Son dos bosse renferme une lave bouillonnante. Elle refroidit par temps de pluie, ce qui le ralentit."
+		'en-us': "Its humped back stores intensely hot magma. In rain, the magma cools, slowing its movement.",
+		'fr-fr': "Son dos bosse renferme une lave bouillonnante. Elle refroidit par temps de pluie, ce qui le ralentit."
 	},
 
 	thirdParty: {

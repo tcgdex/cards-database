@@ -1,13 +1,13 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Trainer kits'
 
 const set: Set = {
 	id: "tk-bw-z",
 
 	name: {
-		en: "BW trainer Kit (Zoroark)",
-		fr: "BW Kit du dresseur (Zoroark)",
-		es: "Kit de Entrenador XY (Pikachu Enmascarada)",
+		'en-us': "BW trainer Kit (Zoroark)",
+		'fr-fr': "BW Kit du dresseur (Zoroark)",
+		'es-es': "Kit de Entrenador XY (Pikachu Enmascarada)",
 	},
 
 	serie: serie,
@@ -20,7 +20,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "TK5Z",
-		fr: "ZOR"
+		'fr-fr': "ZOR"
 	},
 
 	thirdParty: {

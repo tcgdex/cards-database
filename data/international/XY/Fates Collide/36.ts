@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Diglett",
-		fr: "Taupiqueur",
-		es: "Diglett",
-		it: "Diglett",
-		pt: "Diglett",
-		de: "Digda"
+		'en-us': "Diglett",
+		'fr-fr': "Taupiqueur",
+		'es-es': "Diglett",
+		'it-it': "Diglett",
+		'pt-br': "Diglett",
+		'de-de': "Digda"
 	},
 
 	illustrator: "TOKIYA",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Its skin is very thin. If it is exposed to light, its blood heats up, causing it to grow weak.",
+		'en-us': "Its skin is very thin. If it is exposed to light, its blood heats up, causing it to grow weak.",
 	},
 
 	thirdParty: {

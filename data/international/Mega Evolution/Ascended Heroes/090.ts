@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shuppet",
-		fr: "Polichombr",
-		es: "Shuppet",
+		'en-us': "Shuppet",
+		'fr-fr': "Polichombr",
+		'es-es': "Shuppet",
 		'es-mx': "Shuppet",
-		de: "Shuppet",
-		it: "Shuppet",
-		pt: "Shuppet"
+		'de-de': "Shuppet",
+		'it-it': "Shuppet",
+		'pt-br': "Shuppet"
 	},
 
 	illustrator: "miki kudo",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Spooky Shot",
-			fr: "Tir Effrayant",
-			es: "Disparo Embrujado",
+			'en-us': "Spooky Shot",
+			'fr-fr': "Tir Effrayant",
+			'es-es': "Disparo Embrujado",
 			'es-mx': "Disparo Espeluznante",
-			de: "Spukschuss",
-			it: "Colpomistero",
-			pt: "Tiro Assustador"
+			'de-de': "Spukschuss",
+			'it-it': "Colpomistero",
+			'pt-br': "Tiro Assustador"
 		},
 
 		damage: 20
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "It loves to feed on feelings like envy and malice. Its upright horn catches the emotions of people.",
+		'en-us': "It loves to feed on feelings like envy and malice. Its upright horn catches the emotions of people.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゲンガー",
+		'ja-jp': "ゲンガー",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "影に憑きて 命 狙いし ポケモン。 己が影 ひとりでに 笑いしときは 一刻も早く 清めの札 握るべし。",
+		'ja-jp': "影に憑きて 命 狙いし ポケモン。 己が影 ひとりでに 笑いしときは 一刻も早く 清めの札 握るべし。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ならくのうらもん" },
 			effect: {
-				ja: "このカードがトラッシュにあるなら、自分の番に1回使える。このカードをベンチに出す。その後、このポケモンにダメカンを3個のせる。",
+				'ja-jp': "このカードがトラッシュにあるなら、自分の番に1回使える。このカードをベンチに出す。その後、このポケモンにダメカンを3個のせる。",
 			},
 		},
 	],
@@ -33,7 +33,7 @@ const card: Card = {
 			name: { ja: "スクリームサークル" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のベンチポケモンの数×2個ぶんのダメカンを、相手のバトルポケモンにのせる。",
+				'ja-jp': "相手のベンチポケモンの数×2個ぶんのダメカンを、相手のバトルポケモンにのせる。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴースト",
+		'ja-jp': "ゴースト",
 	},
 
 	retreat: 2,

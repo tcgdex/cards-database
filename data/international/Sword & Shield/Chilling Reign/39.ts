@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Walrein",
-		fr: "Kaimorse",
-		es: "Walrein",
-		it: "Walrein",
-		pt: "Walrein",
-		de: "Walraisa"
+		'en-us': "Walrein",
+		'fr-fr': "Kaimorse",
+		'es-es': "Walrein",
+		'it-it': "Walrein",
+		'pt-br': "Walrein",
+		'de-de': "Walraisa"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -21,43 +21,43 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Sealeo",
-		fr: "Phogleur",
-		es: "Sealeo",
-		it: "Sealeo",
-		pt: "Sealeo",
-		de: "Seejong"
+		'en-us': "Sealeo",
+		'fr-fr': "Phogleur",
+		'es-es': "Sealeo",
+		'it-it': "Sealeo",
+		'pt-br': "Sealeo",
+		'de-de': "Seejong"
 	},
 
 	attacks: [{
 		name: {
-			en: "Aurora Beam",
-			fr: "Onde Boréale",
-			es: "Rayo Aurora",
-			it: "Raggiaurora",
-			pt: "Raio Aurora",
-			de: "Aurorastrahl"
+			'en-us': "Aurora Beam",
+			'fr-fr': "Onde Boréale",
+			'es-es': "Rayo Aurora",
+			'it-it': "Raggiaurora",
+			'pt-br': "Raio Aurora",
+			'de-de': "Aurorastrahl"
 		},
 
 		damage: 70,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Hail Prison",
-			fr: "Prison de Grêle",
-			es: "Prisión de Granizo",
-			it: "Prigione di Grandine",
-			pt: "Prisão de Granizo",
-			de: "Hagelknast"
+			'en-us': "Hail Prison",
+			'fr-fr': "Prison de Grêle",
+			'es-es': "Prisión de Granizo",
+			'it-it': "Prigione di Grandine",
+			'pt-br': "Prisão de Granizo",
+			'de-de': "Hagelknast"
 		},
 
 		effect: {
-			en: "Discard 2 Energy from this Pokémon. Your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Défaussez 2 Énergies de ce Pokémon. Le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			es: "Descarta 2 Energías de este Pokémon. El Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Scarta due Energie da questo Pokémon. Il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Descarte 2 Energias deste Pokémon. O Pokémon Ativo do seu oponente agora está Paralisado.",
-			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel. Das Aktive Pokémon deines Gegners ist jetzt paralysiert."
+			'en-us': "Discard 2 Energy from this Pokémon. Your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Défaussez 2 Énergies de ce Pokémon. Le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'es-es': "Descarta 2 Energías de este Pokémon. El Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Scarta due Energie da questo Pokémon. Il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Descarte 2 Energias deste Pokémon. O Pokémon Ativo do seu oponente agora está Paralisado.",
+			'de-de': "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel. Das Aktive Pokémon deines Gegners ist jetzt paralysiert."
 		},
 
 		damage: 160,
@@ -76,7 +76,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "It shatters drift ice with its strong tusks. Its thick layer of blubber repels enemy attacks."
+		'en-us': "It shatters drift ice with its strong tusks. Its thick layer of blubber repels enemy attacks."
 	},
 
 	variants: [

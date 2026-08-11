@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [450],
 
 	name: {
-		en: "Hippowdon",
-		fr: "Hippodocus",
-		es: "Hippowdon",
-		it: "Hippowdon",
-		pt: "Hippowdon",
-		de: "Hippoterus"
+		'en-us': "Hippowdon",
+		'fr-fr': "Hippodocus",
+		'es-es': "Hippowdon",
+		'it-it': "Hippowdon",
+		'pt-br': "Hippowdon",
+		'de-de': "Hippoterus"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Hippopotas",
-		fr: "Hippopotas",
-		es: "Hippopotas",
-		it: "Hippopotas",
-		pt: "Hippopotas",
-		de: "Hippopotas"
+		'en-us': "Hippopotas",
+		'fr-fr': "Hippopotas",
+		'es-es': "Hippopotas",
+		'it-it': "Hippopotas",
+		'pt-br': "Hippopotas",
+		'de-de': "Hippopotas"
 	},
 
 	attacks: [
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Triple Smash",
-				fr: "Triple Éclate",
-				es: "Golpe Triple",
-				it: "Tripla Schiacciata",
-				pt: "Pancada Tripla",
-				de: "Dreifachschmetterer"
+				'en-us': "Triple Smash",
+				'fr-fr': "Triple Éclate",
+				'es-es': "Golpe Triple",
+				'it-it': "Tripla Schiacciata",
+				'pt-br': "Pancada Tripla",
+				'de-de': "Dreifachschmetterer"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 80 damage for each heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 80 dégâts pour chaque côté face.",
-				es: "Lanza 3 monedas. Este ataque hace 80 puntos de daño por cada cara.",
-				it: "Lancia tre volte una moneta. Questo attacco infligge 80 danni ogni volta che esce testa.",
-				pt: "Jogue 3 moedas. Este ataque causa 80 pontos de dano para cada cara.",
-				de: "Wirf 3 Münzen. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu."
+				'en-us': "Flip 3 coins. This attack does 80 damage for each heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 80 dégâts pour chaque côté face.",
+				'es-es': "Lanza 3 monedas. Este ataque hace 80 puntos de daño por cada cara.",
+				'it-it': "Lancia tre volte una moneta. Questo attacco infligge 80 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 3 moedas. Este ataque causa 80 pontos de dano para cada cara.",
+				'de-de': "Wirf 3 Münzen. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu."
 			},
 			damage: "80×",
 
@@ -66,12 +66,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Land Crush",
-				fr: "Écras'Terre",
-				es: "Aterrizaje",
-				it: "Schiacciaterra",
-				pt: "Aperto de Terra",
-				de: "Schollenbrecher"
+				'en-us': "Land Crush",
+				'fr-fr': "Écras'Terre",
+				'es-es': "Aterrizaje",
+				'it-it': "Schiacciaterra",
+				'pt-br': "Aperto de Terra",
+				'de-de': "Schollenbrecher"
 			},
 
 			damage: 150,
@@ -93,7 +93,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Stones can get stuck in the ports on their bodies. Dwebble help dislodge such stones, so Hippowdon look after these Pokémon."
+		'en-us': "Stones can get stuck in the ports on their bodies. Dwebble help dislodge such stones, so Hippowdon look after these Pokémon."
 	},
 
 	variants: [

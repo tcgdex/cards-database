@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Palkia-EX",
-		fr: "Palkia EX",
-		es: "Palkia-EX",
-		it: "Palkia-EX",
-		pt: "Palkia-EX",
-		de: "Palkia-EX"
+		'en-us': "Palkia-EX",
+		'fr-fr': "Palkia EX",
+		'es-es': "Palkia-EX",
+		'it-it': "Palkia-EX",
+		'pt-br': "Palkia-EX",
+		'de-de': "Palkia-EX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strafe",
-				fr: "Rase-Motte",
+				'en-us': "Strafe",
+				'fr-fr': "Rase-Motte",
 			},
 			effect: {
-				en: "You may switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Vous pouvez échanger ce Pokémon avec 1 de vos Pokémon de Banc.",
+				'en-us': "You may switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Vous pouvez échanger ce Pokémon avec 1 de vos Pokémon de Banc.",
 			},
 			damage: 50,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dimension Heal",
-				fr: "Soin Dimensionnel",
+				'en-us': "Dimension Heal",
+				'fr-fr': "Soin Dimensionnel",
 			},
 			effect: {
-				en: "Heal from this Pokémon 20 damage for each Plasma Energy attached to this Pokémon.",
-				fr: "Soignez à ce Pokémon 20 dégâts pour chaque Énergie Plasma attachée à ce Pokémon.",
+				'en-us': "Heal from this Pokémon 20 damage for each Plasma Energy attached to this Pokémon.",
+				'fr-fr': "Soignez à ce Pokémon 20 dégâts pour chaque Énergie Plasma attachée à ce Pokémon.",
 			},
 			damage: 80,
 

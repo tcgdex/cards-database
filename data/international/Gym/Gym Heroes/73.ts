@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Vulpix"
+		'en-us': "Brock's Vulpix"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,7 +27,7 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flame"
+				'en-us': "Flame"
 			},
 
 			damage: 20,
@@ -39,10 +39,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack"
+				'en-us': "Quick Attack"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
 			},
 			damage: "10+",
 

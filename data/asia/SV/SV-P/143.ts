@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エネルギーシール",
+		'ja-jp': "エネルギーシール",
 	},
 
 	illustrator: "Ayaka Yoshida",
 	category: "Trainer",
 
 	effect: {
-		ja: "コインを1回投げオモテなら、自分のトラッシュから基本エネルギーを1枚選び、ベンチポケモンにつける。",
+		'ja-jp': "コインを1回投げオモテなら、自分のトラッシュから基本エネルギーを1枚選び、ベンチポケモンにつける。",
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Clefable",
-		fr: "Melodelfe",
-		de: "Pixi"
+		'en-us': "Clefable",
+		'fr-fr': "Melodelfe",
+		'de-de': "Pixi"
 	},
 
 	illustrator: "Midori Harada",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Clefairy",
-		fr: "Mélofée"
+		'en-us': "Clefairy",
+		'fr-fr': "Mélofée"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shining Fingers",
-				fr: "Doigts brillants",
-				de: "Shining Fingers"
+				'en-us': "Shining Fingers",
+				'fr-fr': "Doigts brillants",
+				'de-de': "Shining Fingers"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Extra Comet Punch",
-				fr: "Poing météore",
-				de: "Extra Comet Punch"
+				'en-us': "Extra Comet Punch",
+				'fr-fr': "Poing météore",
+				'de-de': "Extra Comet Punch"
 			},
 			effect: {
-				en: "During your next turn, Extra Comet Punch does 30 damage plus 30 more damage.",
-				fr: "Lors de votre prochain tour, Poing météore inflige 30 dégâts plus 30 dégâts supplémentaires.",
-				de: "During your next turn, Extra Comet Punch does 30 damage plus 30 more damage."
+				'en-us': "During your next turn, Extra Comet Punch does 30 damage plus 30 more damage.",
+				'fr-fr': "Lors de votre prochain tour, Poing météore inflige 30 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "During your next turn, Extra Comet Punch does 30 damage plus 30 more damage."
 			},
 			damage: "30+",
 

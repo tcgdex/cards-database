@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Alolan Grimer",
-		fr: "Tadmorv d’Alola",
-		es: "Grimer de Alola",
-		it: "Grimer di Alola",
-		pt: "Grimer de Alola",
-		de: "Alola-Sleima"
+		'en-us': "Alolan Grimer",
+		'fr-fr': "Tadmorv d’Alola",
+		'es-es': "Grimer de Alola",
+		'it-it': "Grimer di Alola",
+		'pt-br': "Grimer de Alola",
+		'de-de': "Alola-Sleima"
 	},
 
 	illustrator: "Naoki Saito",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Super Poison Breath",
-				fr: "Super Haleine Empoisonnée",
-				es: "Aliento Supervenenoso",
-				it: "Super Velenospiro",
-				pt: "Super-hálito Venenoso",
-				de: "Super-Gifthauch"
+				'en-us': "Super Poison Breath",
+				'fr-fr': "Super Haleine Empoisonnée",
+				'es-es': "Aliento Supervenenoso",
+				'it-it': "Super Velenospiro",
+				'pt-br': "Super-hálito Venenoso",
+				'de-de': "Super-Gifthauch"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Envenenado.",
-				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, your opponent’s Active Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Envenenado.",
+				'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt vergiftet."
 			},
 
 		},
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras’Face",
-				es: "Destructor",
-				it: "Botta",
-				pt: "Pancada",
-				de: "Pfund"
+				'en-us': "Pound",
+				'fr-fr': "Écras’Face",
+				'es-es': "Destructor",
+				'it-it': "Botta",
+				'pt-br': "Pancada",
+				'de-de': "Pfund"
 			},
 
 			damage: 40,
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "The crystals on Grimer's body are lumps of toxins. If one falls off, lethal poisons leak out.",
+		'en-us': "The crystals on Grimer's body are lumps of toxins. If one falls off, lethal poisons leak out.",
 	},
 
 	thirdParty: {

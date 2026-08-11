@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Ponyta",
-		fr: "Ponyta",
-		de: "Ponita"
+		'en-us': "Ponyta",
+		'fr-fr': "Ponyta",
+		'de-de': "Ponita"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stomp",
-				fr: "Écrasement",
-				de: "Stomp"
+				'en-us': "Stomp",
+				'fr-fr': "Écrasement",
+				'de-de': "Stomp"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
 			},
 			damage: "20+",
 

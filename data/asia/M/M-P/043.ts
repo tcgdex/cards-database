@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団のミュウツーex",
+		'ja-jp': "ロケット団のミュウツーex",
 	},
 
 	illustrator: "aky CG Works",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "パワーセーバー" },
 			effect: {
-				ja: "自分の場の「ロケット団のポケモン」が4匹以上のときにしか、このポケモンはワザが使えない。",
+				'ja-jp': "自分の場の「ロケット団のポケモン」が4匹以上のときにしか、このポケモンはワザが使えない。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "160+",
 			cost: ["Psychic", "Psychic", "Colorless"],
 			effect: {
-				ja: "のぞむなら、自分のベンチポケモンについているエネルギーを2枚までトラッシュし、その枚数×60ダメージ追加。",
+				'ja-jp': "のぞむなら、自分のベンチポケモンについているエネルギーを2枚までトラッシュし、その枚数×60ダメージ追加。",
 			},
 		},
 	],

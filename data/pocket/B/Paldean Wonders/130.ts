@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
     set: Set,
 
 	name: {
-		fr: "Glaivodo",
-		en: "Baxcalibur",
-		es: "Baxcalibur",
-		it: "Baxcalibur",
-		pt: "Baxcalibur",
-		de: "Espinodon"
+		'fr-fr': "Glaivodo",
+		'en-us': "Baxcalibur",
+		'es-es': "Baxcalibur",
+		'it-it': "Baxcalibur",
+		'pt-br': "Baxcalibur",
+		'de-de': "Espinodon"
 	},
 
     illustrator: "PLANETA Igarashi",
@@ -22,27 +22,27 @@ const card: Card = {
     dexId: [998],
 
 	evolveFrom: {
-		fr: "Cryodo",
-		en: "Arctibax",
-		es: "Arctibax",
-		it: "Arctibax",
-		pt: "Arctibax",
-		de: "Cryospino"
+		'fr-fr': "Cryodo",
+		'en-us': "Arctibax",
+		'es-es': "Arctibax",
+		'it-it': "Arctibax",
+		'pt-br': "Arctibax",
+		'de-de': "Cryospino"
 	},
     stage: "Stage2",
 
 	description: {
-		en: "It launches itself into battle by flipping upside down and spewing frigid air from its mouth. It finishes opponents off with its dorsal blade.",
+		'en-us': "It launches itself into battle by flipping upside down and spewing frigid air from its mouth. It finishes opponents off with its dorsal blade.",
 	},
 
 	abilities: [
 		{
 		type: "Ability",
 		name: {
-			en: "Ice Maker",
+			'en-us': "Ice Maker",
 		},
 		effect: {
-			en: "Once during your turn, you may take a Water Energy from your Energy Zone and attach it to the Water Pokémon in the Active Spot.",
+			'en-us': "Once during your turn, you may take a Water Energy from your Energy Zone and attach it to the Water Pokémon in the Active Spot.",
 		},
 		},
 	],
@@ -50,12 +50,12 @@ const card: Card = {
 	attacks: [
 		{
 		name: {
-			fr: "Queue Destructrice",
-			en: "Buster Tail",
-			es: "Cola Destructora",
-			it: "Coda Distruttrice",
-			pt: "Cauda Aniquiladora",
-			de: "Zertrümmernder Schweif"
+			'fr-fr': "Queue Destructrice",
+			'en-us': "Buster Tail",
+			'es-es': "Cola Destructora",
+			'it-it': "Coda Distruttrice",
+			'pt-br': "Cauda Aniquiladora",
+			'de-de': "Zertrümmernder Schweif"
 		},
 		damage: "90",
 		cost: ["Water", "Water", "Water"],

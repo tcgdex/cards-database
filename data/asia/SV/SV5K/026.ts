@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マリル",
+		'ja-jp': "マリル",
 	},
 
 	illustrator: "yuu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "全身の 体毛は 水を 弾く 性質を 持ち 水浴び しても 乾いている。",
+		'ja-jp': "全身の 体毛は 水を 弾く 性質を 持ち 水浴び しても 乾いている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10×",
 			cost: ["Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数×10ダメージ。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数×10ダメージ。",
 			},
 		},
 		{

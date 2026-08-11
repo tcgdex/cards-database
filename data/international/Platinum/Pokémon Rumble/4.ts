@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Pokémon Rumble'
 
 const card: Card = {
 	name: {
-		en: "Heatran"
+		'en-us': "Heatran"
 	},
 
 	illustrator: undefined,
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Boiler"
+				'en-us': "Heat Boiler"
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Water Pokémon, this attack does 60 damage plus 40 more damage."
+				'en-us': "If the Defending Pokémon is a Water Pokémon, this attack does 60 damage plus 40 more damage."
 			},
 			damage: "60+",
 

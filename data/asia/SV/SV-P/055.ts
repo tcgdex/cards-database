@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マフィティフex",
+		'ja-jp': "マフィティフex",
 		'zh-tw': "閃電鳥ex",
 	},
 
@@ -18,13 +18,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ひるませる",
+				'ja-jp': "ひるませる",
 				'zh-tw': "閃電連彈",
 			},
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-50」される。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-50」される。",
 				'zh-tw': "對手的身上放置有傷害指示物的1隻備戰寶可夢也受到90點傷害。[在備戰區不計算弱點・抵抗力。]",
 			},
 		},
@@ -33,7 +33,7 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチポケモンにダメカンがのっているなら、120ダメージ追加。",
+				'ja-jp': "自分のベンチポケモンにダメカンがのっているなら、120ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "オラチフ",
+		'ja-jp': "オラチフ",
 	},
 
 	retreat: 3,

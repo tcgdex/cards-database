@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rayquaza V",
-		fr: "Rayquaza V",
-		es: "Rayquaza V",
-		it: "Rayquaza V",
-		pt: "Rayquaza V",
-		de: "Rayquaza V"
+		'en-us': "Rayquaza V",
+		'fr-fr': "Rayquaza V",
+		'es-es': "Rayquaza V",
+		'it-it': "Rayquaza V",
+		'pt-br': "Rayquaza V",
+		'de-de': "Rayquaza V"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -26,21 +26,21 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Dragon Pulse",
-			fr: "Draco-Choc",
-			es: "Pulso Dragón",
-			it: "Dragopulsar",
-			pt: "Pulso do Dragão",
-			de: "Drachenpuls"
+			'en-us': "Dragon Pulse",
+			'fr-fr': "Draco-Choc",
+			'es-es': "Pulso Dragón",
+			'it-it': "Dragopulsar",
+			'pt-br': "Pulso do Dragão",
+			'de-de': "Drachenpuls"
 		},
 
 		effect: {
-			en: "Discard the top 2 cards of your deck.",
-			fr: "Défaussez les 2 cartes du dessus de votre deck.",
-			es: "Descarta las 2 primeras cartas de tu baraja.",
-			it: "Scarta le prime due carte del tuo mazzo.",
-			pt: "Descarte as 2 cartas de cima do seu baralho.",
-			de: "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel."
+			'en-us': "Discard the top 2 cards of your deck.",
+			'fr-fr': "Défaussez les 2 cartes du dessus de votre deck.",
+			'es-es': "Descarta las 2 primeras cartas de tu baraja.",
+			'it-it': "Scarta le prime due carte del tuo mazzo.",
+			'pt-br': "Descarte as 2 cartas de cima do seu baralho.",
+			'de-de': "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel."
 		},
 
 		damage: 40
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Fire", "Lightning"],
 
 		name: {
-			en: "Spiral Burst",
-			fr: "Spirale Détonante",
-			es: "Explosión en Espiral",
-			it: "Spiralscoppio",
-			pt: "Explosão Espiralada",
-			de: "Spiral-Detonation"
+			'en-us': "Spiral Burst",
+			'fr-fr': "Spirale Détonante",
+			'es-es': "Explosión en Espiral",
+			'it-it': "Spiralscoppio",
+			'pt-br': "Explosão Espiralada",
+			'de-de': "Spiral-Detonation"
 		},
 
 		effect: {
-			en: "You may discard up to 2 basic Fire Energy or up to 2 basic Lightning Energy from this Pokémon. This attack does 80 more damage for each card you discarded in this way.",
-			fr: "Vous pouvez défausser jusqu'à 2 Énergies Fire de base ou jusqu'à 2 Énergies Lightning de base de ce Pokémon. Cette attaque inflige 80 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
-			es: "Puedes descartar hasta 2 Energías Fire Básicas o hasta 2 Energías Lightning Básicas de este Pokémon. Este ataque hace 80 puntos de daño más por cada carta que hayas descartado de esta manera.",
-			it: "Puoi scartare fino a due Energie base Fire o due Energie base Lightning da questo Pokémon. Questo attacco infligge 80 danni in più per ogni carta che hai scartato in questo modo.",
-			pt: "Você pode descartar até 2 Energias Fire básicas ou até 2 Energias Lightning básicas deste Pokémon. Este ataque causa 80 pontos de dano a mais para cada carta descartada desta forma.",
-			de: "Du kannst bis zu 2 Basis-Fire-Energien oder bis zu 2 Basis-Lightning-Energien von diesem Pokémon auf deinen Ablagestapel legen. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 80 Schadenspunkte mehr zu."
+			'en-us': "You may discard up to 2 basic Fire Energy or up to 2 basic Lightning Energy from this Pokémon. This attack does 80 more damage for each card you discarded in this way.",
+			'fr-fr': "Vous pouvez défausser jusqu'à 2 Énergies Fire de base ou jusqu'à 2 Énergies Lightning de base de ce Pokémon. Cette attaque inflige 80 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
+			'es-es': "Puedes descartar hasta 2 Energías Fire Básicas o hasta 2 Energías Lightning Básicas de este Pokémon. Este ataque hace 80 puntos de daño más por cada carta que hayas descartado de esta manera.",
+			'it-it': "Puoi scartare fino a due Energie base Fire o due Energie base Lightning da questo Pokémon. Questo attacco infligge 80 danni in più per ogni carta che hai scartato in questo modo.",
+			'pt-br': "Você pode descartar até 2 Energias Fire básicas ou até 2 Energias Lightning básicas deste Pokémon. Este ataque causa 80 pontos de dano a mais para cada carta descartada desta forma.",
+			'de-de': "Du kannst bis zu 2 Basis-Fire-Energien oder bis zu 2 Basis-Lightning-Energien von diesem Pokémon auf deinen Ablagestapel legen. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "20+"

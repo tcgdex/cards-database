@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Boustiflor",
-		en: "Weepinbell",
-		es: "Weepinbell",
-		it: "Weepinbell",
-		pt: "Weepinbell",
-		de: "Ultrigaria"
+		'fr-fr': "Boustiflor",
+		'en-us': "Weepinbell",
+		'es-es': "Weepinbell",
+		'it-it': "Weepinbell",
+		'pt-br': "Weepinbell",
+		'de-de': "Ultrigaria"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Grass"],
 	evolveFrom: {
-		fr: "Chétiflor",
-		en: "Bellsprout",
-		es: "Bellsprout",
-		it: "Bellsprout",
-		pt: "Bellsprout",
-		de: "Knofensa"
+		'fr-fr': "Chétiflor",
+		'en-us': "Bellsprout",
+		'es-es': "Bellsprout",
+		'it-it': "Bellsprout",
+		'pt-br': "Bellsprout",
+		'de-de': "Knofensa"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			fr: "Coupe",
-			en: "Cut",
-			es: "Corte",
-			it: "Taglio",
-			pt: "Cortar",
-			de: "Zerschneider"
+			'fr-fr': "Coupe",
+			'en-us': "Cut",
+			'es-es': "Corte",
+			'it-it': "Taglio",
+			'pt-br': "Cortar",
+			'de-de': "Zerschneider"
 		},
 
 		damage: 30
@@ -45,12 +45,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			fr: "Fluide Éclaboussant",
-			en: "Spray Fluid",
-			es: "Fluido Rociado",
-			it: "Fluidospray",
-			pt: "Fluido Spray",
-			de: "Sprühwasser"
+			'fr-fr': "Fluide Éclaboussant",
+			'en-us': "Spray Fluid",
+			'es-es': "Fluido Rociado",
+			'it-it': "Fluidospray",
+			'pt-br': "Fluido Spray",
+			'de-de': "Sprühwasser"
 		},
 
 		damage: 50
@@ -66,7 +66,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It spits out Poison Powder to immobilize the enemy and then finishes it with a spray of Acid.",
+		'en-us': "It spits out Poison Powder to immobilize the enemy and then finishes it with a spray of Acid.",
 	},
 
 	variants: [

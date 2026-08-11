@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エテボース",
+		'ja-jp': "エテボース",
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "居心地の良い 木を 巡って ナゲツケサルのグループと 縄張りを 争っている。 結果は ５分だ。",
+		'ja-jp': "居心地の良い 木を 巡って ナゲツケサルのグループと 縄張りを 争っている。 結果は ５分だ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "カムカムキャッチ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を2枚引く。",
+				'ja-jp': "自分の山札を2枚引く。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "60×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の手札を2枚までトラッシュし、その枚数×60ダメージ。",
+				'ja-jp': "自分の手札を2枚までトラッシュし、その枚数×60ダメージ。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "エイパム",
+		'ja-jp': "エイパム",
 	},
 
 	retreat: 1,

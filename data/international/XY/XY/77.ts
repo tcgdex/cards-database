@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Malamar",
-		fr: "Sepiatroce",
-		es: "Malamar",
-		it: "Malamar",
-		pt: "Malamar",
-		de: "Calamanero"
+		'en-us': "Malamar",
+		'fr-fr': "Sepiatroce",
+		'es-es': "Malamar",
+		'it-it': "Malamar",
+		'pt-br': "Malamar",
+		'de-de': "Calamanero"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Inkay",
-		fr: "Sepiatop",
-		es: "Inkay",
-		it: "Inkay",
-		pt: "Inkay",
-		de: "Iscalar"
+		'en-us': "Inkay",
+		'fr-fr': "Sepiatop",
+		'es-es': "Inkay",
+		'it-it': "Inkay",
+		'pt-br': "Inkay",
+		'de-de': "Iscalar"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mental Panic",
-				fr: "Panique Mentale",
-				es: "Pánico Mental",
-				it: "Psicostress",
-				pt: "Pânico Mental",
-				de: "Panikgedanke"
+				'en-us': "Mental Panic",
+				'fr-fr': "Panique Mentale",
+				'es-es': "Pánico Mental",
+				'it-it': "Psicostress",
+				'pt-br': "Pânico Mental",
+				'de-de': "Panikgedanke"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c'est pile, son attaque ne fait rien.",
-				es: "Si el Pokémon Defensor intenta atacar durante el próximo turno de tu rival, este lanza 1 moneda. Si sale cruz, ese ataque no hace nada.",
-				it: "Se durante il prossimo turno del tuo avversario il Pokémon difensore prova ad attaccare, il tuo avversario lancia una moneta. Se esce croce, quell'attacco non ha effetto.",
-				pt: "Se o Pokémon Defensor tentar atacar durante a próxima vez de jogar do seu oponente, seu oponente jogará uma moeda. Se sair coroa, o ataque não fará nada.",
-				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c'est pile, son attaque ne fait rien.",
+				'es-es': "Si el Pokémon Defensor intenta atacar durante el próximo turno de tu rival, este lanza 1 moneda. Si sale cruz, ese ataque no hace nada.",
+				'it-it': "Se durante il prossimo turno del tuo avversario il Pokémon difensore prova ad attaccare, il tuo avversario lancia una moneta. Se esce croce, quell'attacco non ha effetto.",
+				'pt-br': "Se o Pokémon Defensor tentar atacar durante a próxima vez de jogar do seu oponente, seu oponente jogará uma moeda. Se sair coroa, o ataque não fará nada.",
+				'de-de': "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -68,20 +68,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Puncture",
-				fr: "Perforation",
-				es: "Pinchazo",
-				it: "Perforazione",
-				pt: "Perfuração",
-				de: "Durchdringen"
+				'en-us': "Puncture",
+				'fr-fr': "Perforation",
+				'es-es': "Pinchazo",
+				'it-it': "Perforazione",
+				'pt-br': "Perfuração",
+				'de-de': "Durchdringen"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				es: "El daño de este ataque no se ve afectado por Resistencia.",
-				it: "Il danno di questo attacco non è influenzato dalla resistenza.",
-				pt: "Os danos deste ataque não são afetados por Resistência.",
-				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+				'it-it': "Il danno di questo attacco non è influenzato dalla resistenza.",
+				'pt-br': "Os danos deste ataque não são afetados por Resistência.",
+				'de-de': "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 70,
 
@@ -105,7 +105,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It wields the most compelling hypnotic powers of any Pokémon, and it forces others to do whatever it wants.",
+		'en-us': "It wields the most compelling hypnotic powers of any Pokémon, and it forces others to do whatever it wants.",
 	},
 
 	thirdParty: {

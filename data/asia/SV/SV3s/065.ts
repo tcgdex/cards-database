@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Espeon"
+		'id-id': "Espeon"
 	},
 
 	illustrator: "Cona Nitanda",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Ujung ekor Espeon yang terbelah dua sedikit bergoyang ketika sedang membaca pergerakan lawan."
+		'id-id': "Ujung ekor Espeon yang terbelah dua sedikit bergoyang ketika sedang membaca pergerakan lawan."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Psychodamage"
+			'id-id': "Psychodamage"
 		},
 
 		effect: {
-			id: "Kerusakan yang diberikan bertambah sejumlah 10 untuk tiap Token Kerusakan yang dimiliki Pokémon Bertarung lawan."
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 10 untuk tiap Token Kerusakan yang dimiliki Pokémon Bertarung lawan."
 		},
 
 		damage: "30+",
 		cost: ["Psychic"]
 	}, {
 		name: {
-			id: "Psikokinesis"
+			'id-id': "Psikokinesis"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
 		},
 
 		damage: 60,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブルーノのマチャンプ",
+		'ja-jp': "ブルーノのマチャンプ",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "ダブルラリアット",
+				'ja-jp': "ダブルラリアット",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の50回のダメージ時間を実行します。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の50回のダメージ時間を実行します。",
 			},
 		},
 	],

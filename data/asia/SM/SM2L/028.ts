@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メテノ",
+		'ja-jp': "メテノ",
 	},
 
 	illustrator: "Naoki Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "大気中の チリを 喰っている。 喰った チリの 成分に よって コアの 色合いが 決まる。",
+		'ja-jp': "大気中の チリを 喰っている。 喰った チリの 成分に よって コアの 色合いが 決まる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 190,
 			cost: ["Fighting", "Fighting", "Fighting"],
 			effect: {
-				ja: "このポケモンをきぜつさせる。",
+				'ja-jp': "このポケモンをきぜつさせる。",
 			},
 		},
 	],

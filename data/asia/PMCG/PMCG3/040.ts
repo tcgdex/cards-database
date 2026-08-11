@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カブトプス",
+		'ja-jp': "カブトプス",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Fighting"],
 			name: {
-				ja: "鋭い鎌",
+				'ja-jp': "鋭い鎌",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Fighting", "Fighting", "Fighting", "Fighting"],
 			name: {
-				ja: "吸収する",
+				'ja-jp': "吸収する",
 			},
 			effect: {
-				ja: "Kabutopsから多くのダメージカウンターを削除し、防御ポケモンに与えられたダメージの半分に等しい（衰弱と抵抗を適用した後）（最も近い10に丸められた）。 Kabutopsがそれよりも少ないダメージカウンターを持っている場合は、それらすべてを削除します。",
+				'ja-jp': "Kabutopsから多くのダメージカウンターを削除し、防御ポケモンに与えられたダメージの半分に等しい（衰弱と抵抗を適用した後）（最も近い10に丸められた）。 Kabutopsがそれよりも少ないダメージカウンターを持っている場合は、それらすべてを削除します。",
 			},
 			damage: 40,
 		},

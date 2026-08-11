@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Noctowl",
-		fr: "Noarfang",
-		de: "Noctuh"
+		'en-us': "Noctowl",
+		'fr-fr': "Noarfang",
+		'de-de': "Noctuh"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Hoothoot",
-		fr: "Hoothoot"
+		'en-us': "Hoothoot",
+		'fr-fr': "Hoothoot"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Night Sight",
-				fr: "Vision de nuit",
-				de: "Nachtblick"
+				'en-us': "Night Sight",
+				'fr-fr': "Vision de nuit",
+				'de-de': "Nachtblick"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may draw a card. This power can't be used if Noctowl is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez piocher une carte. Ce pouvoir ne peut pas être utilisé si Noarfang est affecté par un État spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Karte ziehen. Diese Poké-Power kann nicht benutzt werden, wenn Noctuh von einem Speziellen Zustand betroffen ist."
+				'en-us': "Once during your turn (before your attack), you may draw a card. This power can't be used if Noctowl is affected by a Special Condition.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez piocher une carte. Ce pouvoir ne peut pas être utilisé si Noarfang est affecté par un État spécial.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Karte ziehen. Diese Poké-Power kann nicht benutzt werden, wenn Noctuh von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Extrasensory",
-				fr: "Extrasenseur",
-				de: "Sondersensor"
+				'en-us': "Extrasensory",
+				'fr-fr': "Extrasenseur",
+				'de-de': "Sondersensor"
 			},
 			effect: {
-				en: "If you have the same number of cards in your hand as your opponent, this attack does 40 damage plus 40 more damage.",
-				fr: "Si vous avez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires.",
-				de: "Wenn du die gleiche Anzahl Karten auf der Hand hast wie dein Gegner, fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu."
+				'en-us': "If you have the same number of cards in your hand as your opponent, this attack does 40 damage plus 40 more damage.",
+				'fr-fr': "Si vous avez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires.",
+				'de-de': "Wenn du die gleiche Anzahl Karten auf der Hand hast wie dein Gegner, fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark."
+		'en-us': "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark."
 	},
 
 	variants: [

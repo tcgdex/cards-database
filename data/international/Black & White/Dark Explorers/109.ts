@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Gardevoir",
-		fr: "Gardevoir",
-		es: "Gardevoir",
-		it: "Gardevoir",
-		pt: "Gardevoir",
-		de: "Guardevoir"
+		'en-us': "Gardevoir",
+		'fr-fr': "Gardevoir",
+		'es-es': "Gardevoir",
+		'it-it': "Gardevoir",
+		'pt-br': "Gardevoir",
+		'de-de': "Guardevoir"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kirlia",
-		fr: "Kirlia"
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia"
 	},
 
 	stage: "Stage2",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Psychic Mirage",
-				fr: "Mirage Psychique",
-				es: "Espejismo Psíquico",
-				it: "Psicomiraggio",
-				pt: "Miragem Psíquica",
-				de: "Psycho-Trugbild"
+				'en-us': "Psychic Mirage",
+				'fr-fr': "Mirage Psychique",
+				'es-es': "Espejismo Psíquico",
+				'it-it': "Psicomiraggio",
+				'pt-br': "Miragem Psíquica",
+				'de-de': "Psycho-Trugbild"
 			},
 			effect: {
-				en: "Each basic Psychic Energy attached to your Psychic Pokémon provides PsychicPsychic Energy. You can't apply more than 1 Psychic Mirage Ability at a time.",
-				fr: "",
-				es: "",
-				it: "",
-				pt: "",
-				de: ""
+				'en-us': "Each basic Psychic Energy attached to your Psychic Pokémon provides PsychicPsychic Energy. You can't apply more than 1 Psychic Mirage Ability at a time.",
+				'fr-fr': "",
+				'es-es': "",
+				'it-it': "",
+				'pt-br': "",
+				'de-de': ""
 			},
 		},
 	],
@@ -64,12 +64,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mind Shock",
-				fr: "Choc Cérébral"
+				'en-us': "Mind Shock",
+				'fr-fr': "Choc Cérébral"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance."
+				'en-us': "This attack's damage isn't affected by Weakness or Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance."
 			},
 			damage: 60,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
+		'en-us': "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
 	},
 
 	thirdParty: {

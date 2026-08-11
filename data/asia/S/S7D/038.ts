@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゾウドウ",
+		'ja-jp': "ゾウドウ",
 		'zh-tw': "銅象",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "力仕事なら お任せ。 銅の 体は 雨で 錆び 鮮やかな 緑に 変わる。",
+		'ja-jp': "力仕事なら お任せ。 銅の 体は 雨で 錆び 鮮やかな 緑に 変わる。",
 		'zh-tw': "擅長需要力氣的工作。銅質的身體會因雨水而生鏽，轉變成鮮豔的綠色。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ころがる",
+				'ja-jp': "ころがる",
 				'zh-tw': "滾動",
 			},
 			damage: 10,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "10まんばりき",
+				'ja-jp': "10まんばりき",
 				'zh-tw': "十萬馬力",
 			},
 			damage: 80,
 			cost: ["Metal", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも20ダメージ。",
+				'ja-jp': "このポケモンにも20ダメージ。",
 				'zh-tw': "這隻寶可夢也受到20點傷害。",
 			},
 		},

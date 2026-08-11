@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Yanmega",
-		en: "Yanmega",
-		es: "Yanmega",
-		it: "Yanmega",
-		pt: "Yanmega",
-		de: "Yanmega"
+		'fr-fr': "Yanmega",
+		'en-us': "Yanmega",
+		'es-es': "Yanmega",
+		'it-it': "Yanmega",
+		'pt-br': "Yanmega",
+		'de-de': "Yanmega"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -21,39 +21,39 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		fr: "Yanma",
-		en: "Yanma"
+		'fr-fr': "Yanma",
+		'en-us': "Yanma"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Piqûre",
-			en: "Bug Bite",
-			es: "Picadura",
-			it: "Coleomorso",
-			pt: "Picada",
-			de: "Käferbiss"
+			'fr-fr': "Piqûre",
+			'en-us': "Bug Bite",
+			'es-es': "Picadura",
+			'it-it': "Coleomorso",
+			'pt-br': "Picada",
+			'de-de': "Käferbiss"
 		},
 
 		damage: 30,
 		cost: ["Grass"]
 	}, {
 		name: {
-			fr: "Descente en Piqué",
-			en: "Nosedive",
-			es: "Ataque en Picado",
-			it: "Rapidiscesa",
-			pt: "Mergulhar de Bico",
-			de: "Sturzflugangriff"
+			'fr-fr': "Descente en Piqué",
+			'en-us': "Nosedive",
+			'es-es': "Ataque en Picado",
+			'it-it': "Rapidiscesa",
+			'pt-br': "Mergulhar de Bico",
+			'de-de': "Sturzflugangriff"
 		},
 
 		effect: {
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			en: "This Pokémon also does 30 damage to itself.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 120,
@@ -72,7 +72,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "This six-legged Pokémon is easily capable of transporting an adult in flight. The wings on its tail help it stay balanced."
+		'en-us': "This six-legged Pokémon is easily capable of transporting an adult in flight. The wings on its tail help it stay balanced."
 	},
 
 	variants: [

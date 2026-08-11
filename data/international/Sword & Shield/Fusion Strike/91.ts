@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shinx",
-		fr: "Lixy",
-		es: "Shinx",
-		it: "Shinx",
-		pt: "Shinx",
-		de: "Sheinux"
+		'en-us': "Shinx",
+		'fr-fr': "Lixy",
+		'es-es': "Shinx",
+		'it-it': "Shinx",
+		'pt-br': "Shinx",
+		'de-de': "Sheinux"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Naoyo Kimura",
 
 	description: {
-		en: "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded."
+		'en-us': "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded."
 	},
 
 	attacks: [{
 		cost: ["Lightning"],
 
 		name: {
-			en: "Gnaw",
-			fr: "Ronge",
-			de: "Nagen",
-			es: "Roer",
-			pt: "Roída",
-			it: "Rosicchiamento"
+			'en-us': "Gnaw",
+			'fr-fr': "Ronge",
+			'de-de': "Nagen",
+			'es-es': "Roer",
+			'pt-br': "Roída",
+			'it-it': "Rosicchiamento"
 		},
 
 		damage: 10
@@ -50,12 +50,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Electric Claws",
-			fr: "Griffes Électriques",
-			de: "Elektrokrallen",
-			es: "Garras Eléctricas",
-			pt: "Garras Elétricas",
-			it: "Artigli Elettrici"
+			'en-us': "Electric Claws",
+			'fr-fr': "Griffes Électriques",
+			'de-de': "Elektrokrallen",
+			'es-es': "Garras Eléctricas",
+			'pt-br': "Garras Elétricas",
+			'it-it': "Artigli Elettrici"
 		},
 
 		damage: 20

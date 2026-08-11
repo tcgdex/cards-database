@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "พัลเดีย อูปา",
-		id: "Paldean Wooper"
+		'th-th': "พัลเดีย อูปา",
+		'id-id': "Paldean Wooper"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		th: "หลังจากที่แพ้สงครามแย่งชิงอาณาเขตจนต้องมาอาศัยอยู่บนบก ก็ปรับตัวให้มีเมือกพิษปกป้องร่างกาย",
-		id: "Membran beracun melindungi tubuh Wooper yang hidup di darat setelah kalah dalam pertarungan perebutan wilayah teritorial."
+		'th-th': "หลังจากที่แพ้สงครามแย่งชิงอาณาเขตจนต้องมาอาศัยอยู่บนบก ก็ปรับตัวให้มีเมือกพิษปกป้องร่างกาย",
+		'id-id': "Membran beracun melindungi tubuh Wooper yang hidup di darat setelah kalah dalam pertarungan perebutan wilayah teritorial."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ของเหลวพิษ",
-			id: "Cairan Racun"
+			'th-th': "ของเหลวพิษ",
+			'id-id': "Cairan Racun"
 		},
 
 		effect: {
-			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[พิษ]",
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Racun."
+			'th-th': "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[พิษ]",
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Racun."
 		},
 
 		cost: ["Darkness"]

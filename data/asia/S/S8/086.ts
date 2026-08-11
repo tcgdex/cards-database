@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨクバリスVMAX",
+		'ja-jp': "ヨクバリスVMAX",
 		'zh-tw': "藏飽栗鼠VMAX",
 	},
 
@@ -18,25 +18,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "まるもうけ",
+				'ja-jp': "まるもうけ",
 				'zh-tw': "零成本",
 			},
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージで、相手のたねポケモンがきぜつしたなら、サイドを2枚多くとる。",
+				'ja-jp': "このワザのダメージで、相手のたねポケモンがきぜつしたなら、サイドを2枚多くとる。",
 				'zh-tw': "若這個招式的傷害將對手的【基礎】寶可夢【氣絕】，則多獲得2張獎賞卡。",
 			},
 		},
 		{
 			name: {
-				ja: "ダイゴウヨク",
+				'ja-jp': "ダイゴウヨク",
 				'zh-tw': "極巨強慾",
 			},
 			damage: 160,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分の山札を3枚引く。",
+				'ja-jp': "自分の山札を3枚引く。",
 				'zh-tw': "從自己的牌庫抽出3張卡。",
 			},
 		},
@@ -56,7 +56,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヨクバリスV",
+		'ja-jp': "ヨクバリスV",
 	},
 
 	retreat: 3,

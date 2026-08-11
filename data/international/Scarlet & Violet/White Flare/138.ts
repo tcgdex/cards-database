@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scraggy",
-		fr: "Baggiguane",
-		de: "Zurrokex",
-		it: "Scraggy",
-		pt: "Scraggy",
-		es: "Scraggy",
+		'en-us': "Scraggy",
+		'fr-fr': "Baggiguane",
+		'de-de': "Zurrokex",
+		'it-it': "Scraggy",
+		'pt-br': "Scraggy",
+		'es-es': "Scraggy",
 		'es-mx': "Scraggy"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			de: "Kopfnuss",
-			it: "Bottintesta",
-			pt: "Cabeçada",
-			es: "Golpe Cabeza",
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'de-de': "Kopfnuss",
+			'it-it': "Bottintesta",
+			'pt-br': "Cabeçada",
+			'es-es': "Golpe Cabeza",
 			'es-mx': "Golpe Cabeza"
 		},
 
@@ -40,12 +40,12 @@ const card: Card = {
 		cost: ["Darkness", "Darkness"],
 
 		name: {
-			en: "Invade",
-			fr: "Envahissement",
-			de: "Einmarschieren",
-			it: "Scorreria",
-			pt: "Invadir",
-			es: "Invadir",
+			'en-us': "Invade",
+			'fr-fr': "Envahissement",
+			'de-de': "Einmarschieren",
+			'it-it': "Scorreria",
+			'pt-br': "Invadir",
+			'es-es': "Invadir",
 			'es-mx': "Invadir"
 		},
 

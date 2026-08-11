@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "いちげきウーラオスVMAX",
+		'ja-jp': "いちげきウーラオスVMAX",
 		'zh-tw': "一擊武道熊師VMAX",
 	},
 
@@ -18,7 +18,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "せいけんづき",
+				'ja-jp': "せいけんづき",
 				'zh-tw': "正拳突",
 			},
 			damage: 100,
@@ -26,13 +26,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "キョダイイチゲキ",
+				'ja-jp': "キョダイイチゲキ",
 				'zh-tw': "超極巨奪命一擊",
 			},
 			damage: 270,
 			cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、すべてトラッシュする。このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このポケモンについているエネルギーを、すべてトラッシュする。このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 				'zh-tw': "將這隻寶可夢身上附加的能量全部丟棄。這個招式的傷害不計算對手的戰鬥寶可夢身上的附加效果。",
 			},
 		},
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "いちげきウーラオスV",
+		'ja-jp': "いちげきウーラオスV",
 	},
 
 	retreat: 3,

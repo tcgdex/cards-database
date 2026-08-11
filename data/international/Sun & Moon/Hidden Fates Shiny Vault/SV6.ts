@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Charmander",
-		fr: "Salamèche",
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche",
 	},
 	illustrator: "kirisAki",
 	rarity: "Shiny rare",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Fang",
-				fr: "Crocs Feu",
+				'en-us': "Fire Fang",
+				'fr-fr': "Crocs Feu",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Burned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				'en-us': "Your opponent's Active Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
 			},
 			damage: 20,
 
@@ -53,7 +53,7 @@ const card: Card = {
 
 
 	description: {
-		en: "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
+		'en-us': "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
 	},
 }
 

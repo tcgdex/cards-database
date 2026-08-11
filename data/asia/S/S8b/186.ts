@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アップリュー",
+		'ja-jp': "アップリュー",
 	},
 
 	illustrator: "Misaki Hashimoto",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "すっぱい りんごを 食べて 進化。 火傷する ほど 強酸性の 液体を 頬袋に 溜める。",
+		'ja-jp': "すっぱい りんごを 食べて 進化。 火傷する ほど 強酸性の 液体を 頬袋に 溜める。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "アップルドロップ" },
 			effect: {
-				ja: "自分の番に1回使える。相手のポケモン1匹に、ダメカンを2個のせる。その後、このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
+				'ja-jp': "自分の番に1回使える。相手のポケモン1匹に、ダメカンを2個のせる。その後、このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カジッチュ",
+		'ja-jp': "カジッチュ",
 	},
 
 	retreat: 1,

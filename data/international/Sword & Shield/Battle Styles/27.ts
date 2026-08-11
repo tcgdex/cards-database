@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Salandit",
-		fr: "Tritox",
-		es: "Salandit",
-		it: "Salandit",
-		pt: "Salandit",
-		de: "Molunk"
+		'en-us': "Salandit",
+		'fr-fr': "Tritox",
+		'es-es': "Salandit",
+		'it-it': "Salandit",
+		'pt-br': "Salandit",
+		'de-de': "Molunk"
 	},
 
 	illustrator: "Yuka Morii",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Call Sign",
-			fr: "Signe d'Appel",
-			es: "Señal de Llamada",
-			it: "Chiamata",
-			pt: "Sinal de Chamada",
-			de: "Rufzeichen"
+			'en-us': "Call Sign",
+			'fr-fr': "Signe d'Appel",
+			'es-es': "Señal de Llamada",
+			'it-it': "Chiamata",
+			'pt-br': "Sinal de Chamada",
+			'de-de': "Rufzeichen"
 		},
 
 		effect: {
-			en: "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck un Pokémon, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja 1 Pokémon, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo un Pokémon, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por 1 Pokémon no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+			'en-us': "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck un Pokémon, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja 1 Pokémon, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo un Pokémon, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por 1 Pokémon no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 		},
 
 		cost: ["Fire"]
@@ -54,7 +54,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "This sneaky Pokémon will slink behind its prey and immobilize it with poisonous gas before the prey even realizes Salandit is there."
+		'en-us': "This sneaky Pokémon will slink behind its prey and immobilize it with poisonous gas before the prey even realizes Salandit is there."
 	},
 
 	variants: [

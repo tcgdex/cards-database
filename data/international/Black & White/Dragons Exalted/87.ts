@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Gible",
-		fr: "Griknot",
-		es: "Gible",
-		it: "Gible",
-		pt: "Gible",
-		de: "Kaumalat"
+		'en-us': "Gible",
+		'fr-fr': "Griknot",
+		'es-es': "Gible",
+		'it-it': "Gible",
+		'pt-br': "Gible",
+		'de-de': "Kaumalat"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Sand-Attack",
-				fr: "Jet de Sable",
+				'en-us': "Sand-Attack",
+				'fr-fr': "Jet de Sable",
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c'est pile, son attaque ne fait rien.",
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c'est pile, son attaque ne fait rien.",
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Away",
-				fr: "Asticotage",
+				'en-us': "Knock Away",
+				'fr-fr': "Asticotage",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 10,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It attacks using its huge mouth. While its attacks are powerful, it hurts itself out of clumsiness, too.",
+		'en-us': "It attacks using its huge mouth. While its attacks are powerful, it hurts itself out of clumsiness, too.",
 	},
 
 	thirdParty: {

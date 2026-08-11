@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブルー",
+		'ja-jp': "ブルー",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "唸り声は 相手を 不安に させる。 普段は のんびり屋で １日の 半分は 寝ているよ。",
+		'ja-jp': "唸り声は 相手を 不安に させる。 普段は のんびり屋で １日の 半分は 寝ているよ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Fairy"],
 			effect: {
-				ja: "自分の手札にあるトレーナーズを2枚までトラッシュし、その枚数x20ダメージ。",
+				'ja-jp': "自分の手札にあるトレーナーズを2枚までトラッシュし、その枚数x20ダメージ。",
 			},
 		},
 	],

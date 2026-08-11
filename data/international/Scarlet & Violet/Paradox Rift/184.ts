@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dottler",
-		fr: "Coléodôme",
-		es: "Dottler",
-		it: "Dottler",
-		pt: "Dottler",
-		de: "Keradar"
+		'en-us': "Dottler",
+		'fr-fr': "Coléodôme",
+		'es-es': "Dottler",
+		'it-it': "Dottler",
+		'pt-br': "Dottler",
+		'de-de': "Keradar"
 	},
 
 	rarity: "Illustration rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 80,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Blipbug",
-		fr: "Larvadar",
-		es: "Blipbug",
-		it: "Blipbug",
-		pt: "Blipbug",
-		de: "Sensect"
+		'en-us': "Blipbug",
+		'fr-fr': "Larvadar",
+		'es-es': "Blipbug",
+		'it-it': "Blipbug",
+		'pt-br': "Blipbug",
+		'de-de': "Sensect"
 	},
 	stage: "Stage1",
 
@@ -32,32 +32,32 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Protect",
-			fr: "Abri",
-			es: "Protección",
-			it: "Protezione",
-			pt: "Proteção",
-			de: "Schutzschild"
+			'en-us': "Protect",
+			'fr-fr': "Abri",
+			'es-es': "Protección",
+			'it-it': "Protezione",
+			'pt-br': "Proteção",
+			'de-de': "Schutzschild"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.",
-			fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, évitez tous les dégâts et les effets d'attaques infligés à ce Pokémon.",
-			es: "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, se evitan todo el daño y todos los efectos de los ataques infligidos a este Pokémon.",
-			it: "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, previeni sia i danni che gli effetti degli attacchi inflitti a questo Pokémon.",
-			pt: "Jogue uma moeda. Se sair cara, durante o próximo turno do seu oponente, previna todo o dano e os efeitos de ataques causados a este Pokémon.",
-			de: "Wirf 1 Münze. Verhindere bei Kopf während des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken, die diesem Pokémon zugefügt werden."
+			'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.",
+			'fr-fr': "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, évitez tous les dégâts et les effets d'attaques infligés à ce Pokémon.",
+			'es-es': "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, se evitan todo el daño y todos los efectos de los ataques infligidos a este Pokémon.",
+			'it-it': "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, previeni sia i danni che gli effetti degli attacchi inflitti a questo Pokémon.",
+			'pt-br': "Jogue uma moeda. Se sair cara, durante o próximo turno do seu oponente, previna todo o dano e os efeitos de ataques causados a este Pokémon.",
+			'de-de': "Wirf 1 Münze. Verhindere bei Kopf während des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken, die diesem Pokémon zugefügt werden."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Zen Headbutt",
-			fr: "Psykoud'Boul",
-			es: "Cabezazo Zen",
-			it: "Cozzata Zen",
-			pt: "Cabeçada Zen",
-			de: "Zen-Kopfstoß"
+			'en-us': "Zen Headbutt",
+			'fr-fr': "Psykoud'Boul",
+			'es-es': "Cabezazo Zen",
+			'it-it': "Cozzata Zen",
+			'pt-br': "Cabeçada Zen",
+			'de-de': "Zen-Kopfstoß"
 		},
 
 		damage: 20
@@ -73,7 +73,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "As it grows inside its shell, it uses its psychic abilities to monitor the outside world and prepare for evolution.",
+		'en-us': "As it grows inside its shell, it uses its psychic abilities to monitor the outside world and prepare for evolution.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラプラスex",
+		'ja-jp': "ラプラスex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Water"],
 			effect: {
-				ja: "このポケモンについている[W]エネルギーの数×30ダメージ。このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "このポケモンについている[W]エネルギーの数×30ダメージ。このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 		{

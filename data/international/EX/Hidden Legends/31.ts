@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Claydol",
-		fr: "Kaorine",
-		de: "Lepumentas"
+		'en-us': "Claydol",
+		'fr-fr': "Kaorine",
+		'de-de': "Lepumentas"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Baltoy",
-		fr: "Balbuto"
+		'en-us': "Baltoy",
+		'fr-fr': "Balbuto"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Beam",
-				fr: "Ultralaser",
-				de: "Hyper Beam"
+				'en-us': "Hyper Beam",
+				'fr-fr': "Ultralaser",
+				'de-de': "Hyper Beam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard 1 Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez 1 Énergie attachée au Pokémon Défenseur.",
-				de: "Flip a coin. If heads, discard 1 Energy card attached to the Defending Pokémon."
+				'en-us': "Flip a coin. If heads, discard 1 Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez 1 Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Flip a coin. If heads, discard 1 Energy card attached to the Defending Pokémon."
 			},
 			damage: 20,
 
@@ -54,9 +54,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				de: "Ram"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'de-de': "Ram"
 			},
 
 			damage: 50,

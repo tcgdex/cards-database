@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒヒダルマ",
+		'ja-jp': "ヒヒダルマ",
 	},
 
 	illustrator: "Midori Harada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "激しい 戦いで 傷つくと 岩のように 固まり 黙考して 心を 研ぎ澄ませるのだ。",
+		'ja-jp': "激しい 戦いで 傷つくと 岩のように 固まり 黙考して 心を 研ぎ澄ませるのだ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "おにびさがし" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある[炎]エネルギーを3枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札にある[炎]エネルギーを3枚まで、相手に見せてから、手札に加える。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 110,
 			cost: ["Fire", "Fire"],
 			effect: {
-				ja: "このポケモンについている[炎]エネルギーを、すべてトラッシュする。",
+				'ja-jp': "このポケモンについている[炎]エネルギーを、すべてトラッシュする。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ダルマッカ",
+		'ja-jp': "ダルマッカ",
 	},
 
 	retreat: 3,

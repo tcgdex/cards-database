@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2021'
 
 const card: Card = {
 	name: {
-		en: "Totodile",
-		fr: "Kaiminus",
+		'en-us': "Totodile",
+		'fr-fr': "Kaiminus",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Fury Strikes",
-				fr: "Attaques Furieuses",
+				'en-us': "Fury Strikes",
+				'fr-fr': "Attaques Furieuses",
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: "10×",
 
@@ -52,7 +52,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is small but rough and tough. It won’t hesitate to take a bite out of anything that moves."
+		'en-us': "It is small but rough and tough. It won’t hesitate to take a bite out of anything that moves."
 	},
 
     variants: [

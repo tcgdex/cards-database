@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Grapploct",
-		fr: "Krakos",
-		es: "Grapploct",
-		it: "Grapploct",
-		pt: "Grapploct",
-		de: "Kaocto"
+		'en-us': "Grapploct",
+		'fr-fr': "Krakos",
+		'es-es': "Grapploct",
+		'it-it': "Grapploct",
+		'pt-br': "Grapploct",
+		'de-de': "Kaocto"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Clobbopus",
-		fr: "Poulpaf",
-		es: "Clobbopus",
-		it: "Clobbopus",
-		pt: "Clobbopus",
-		de: "Klopptopus"
+		'en-us': "Clobbopus",
+		'fr-fr': "Poulpaf",
+		'es-es': "Clobbopus",
+		'it-it': "Clobbopus",
+		'pt-br': "Clobbopus",
+		'de-de': "Klopptopus"
 	},
 
 	stage: "Stage1",
@@ -40,19 +40,19 @@ const card: Card = {
 	illustrator: "Souichirou Gunjima",
 
 	description: {
-		en: "Searching for an opponent to test its skills against, it emerges onto land. Once the battle is over, it returns to the sea."
+		'en-us': "Searching for an opponent to test its skills against, it emerges onto land. Once the battle is over, it returns to the sea."
 	},
 
 	attacks: [{
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Lunge Out",
-			fr: "Allonger",
-			de: "Sprungangriff",
-			es: "Arremeter",
-			pt: "Bote",
-			it: "Affondo Lungo"
+			'en-us': "Lunge Out",
+			'fr-fr': "Allonger",
+			'de-de': "Sprungangriff",
+			'es-es': "Arremeter",
+			'pt-br': "Bote",
+			'it-it': "Affondo Lungo"
 		},
 
 		damage: 40
@@ -60,12 +60,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			en: "Magnum Punch",
-			fr: "Poing Magnum",
-			de: "Magnum-Schlag",
-			es: "Puño Magnum",
-			pt: "Soco Magnum",
-			it: "Superpugno"
+			'en-us': "Magnum Punch",
+			'fr-fr': "Poing Magnum",
+			'de-de': "Magnum-Schlag",
+			'es-es': "Puño Magnum",
+			'pt-br': "Soco Magnum",
+			'it-it': "Superpugno"
 		},
 
 		damage: 90

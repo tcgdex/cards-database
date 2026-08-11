@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "シャンデラ"
+		'ja-jp': "シャンデラ"
 	},
 
 	illustrator: "chibi",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "古びた 洋館に 棲みつく。 腕の 炎を 妖しく 揺らし 相手を 催眠に かけるぞ。"
+		'ja-jp': "古びた 洋館に 棲みつく。 腕の 炎を 妖しく 揺らし 相手を 催眠に かけるぞ。"
 	},
 
 	stage: "Stage2",
@@ -24,11 +24,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "やまあぶり"
+			'ja-jp': "やまあぶり"
 		},
 
 		effect: {
-			ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手の山札を上から3枚トラッシュする。"
+			'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手の山札を上から3枚トラッシュする。"
 		}
 	}],
 
@@ -36,7 +36,7 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			ja: "ヒートブラスト"
+			'ja-jp': "ヒートブラスト"
 		},
 
 		damage: 90

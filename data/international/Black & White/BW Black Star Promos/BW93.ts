@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Umbreon",
-		fr: "Noctali",
+		'en-us': "Umbreon",
+		'fr-fr': "Noctali",
 	},
 	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
 	rarity: "Common",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Darkness",
 	],
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shadow Drain",
-				fr: "Sangsue de l'Ombre",
+				'en-us': "Shadow Drain",
+				'fr-fr': "Sangsue de l'Ombre",
 			},
 			effect: {
-				en: "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
-				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur.",
+				'en-us': "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
+				'fr-fr': "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur.",
 			},
 			damage: 30,
 
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slashing Strike",
-				fr: "Coup Déchirant",
+				'en-us': "Slashing Strike",
+				'fr-fr': "Coup Déchirant",
 			},
 			effect: {
-				en: "This Pokémon can't use Slashing Strike during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Coup Déchirant pendant votre prochain tour.",
+				'en-us': "This Pokémon can't use Slashing Strike during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Coup Déchirant pendant votre prochain tour.",
 			},
 			damage: 80,
 
@@ -78,7 +78,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When exposed to the moon's aura, the rings on its body glow faintly and it gains a mysterious power.",
+		'en-us': "When exposed to the moon's aura, the rings on its body glow faintly and it gains a mysterious power.",
 	},
 }
 

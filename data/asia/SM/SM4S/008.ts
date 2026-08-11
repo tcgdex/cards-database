@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バクーダ",
+		'ja-jp': "バクーダ",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "背中の コブの 火山は １０年ごとに 大噴火 するが 激しく 怒っても 噴火する。",
+		'ja-jp': "背中の コブの 火山は １０年ごとに 大噴火 するが 激しく 怒っても 噴火する。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "80×",
 			cost: ["Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数x80ダメージ。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数x80ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Fire", "Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ドンメル",
+		'ja-jp': "ドンメル",
 	},
 
 	retreat: 4,

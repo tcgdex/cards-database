@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラサンド",
+		'ja-jp': "アローラサンド",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "氷の 上で サンドを 滑らせ その距離を 競う。 古来から 続く アローラの祭りの ひとつ。",
+		'ja-jp': "氷の 上で サンドを 滑らせ その距離を 競う。 古来から 続く アローラの祭りの ひとつ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10×",
 			cost: [],
 			effect: {
-				ja: "コインを3回投げ、オモテの数x10ダメージ。",
+				'ja-jp': "コインを3回投げ、オモテの数x10ダメージ。",
 			},
 		},
 	],

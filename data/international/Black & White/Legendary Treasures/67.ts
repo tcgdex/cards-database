@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Trubbish",
+		'en-us': "Trubbish",
 	},
 
 	illustrator: "kawayoo",
@@ -30,7 +30,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
+				'en-us': "Pound",
 			},
 
 			damage: 20,
@@ -43,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Gas",
+				'en-us': "Poison Gas",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
+				'en-us': "The Defending Pokémon is now Poisoned.",
 			},
 			damage: 30,
 
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Inhaling the gas they belch will make you sleep for a week. They prefer unsanitary places.",
+		'en-us': "Inhaling the gas they belch will make you sleep for a week. They prefer unsanitary places.",
 	},
 
 	thirdParty: {

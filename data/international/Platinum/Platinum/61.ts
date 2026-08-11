@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Seviper",
-		fr: "Seviper",
-		de: "Vipitis"
+		'en-us': "Seviper",
+		'fr-fr': "Seviper",
+		'de-de': "Vipitis"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Shed Skin",
-				fr: "Mue",
-				de: "Shed Skin"
+				'en-us': "Shed Skin",
+				'fr-fr': "Mue",
+				'de-de': "Shed Skin"
 			},
 			effect: {
-				en: "Remove 4 damage counters from Seviper.",
-				fr: "Retirez à Seviper 4 marqueurs de dégât.",
-				de: "Remove 4 damage counters from Seviper."
+				'en-us': "Remove 4 damage counters from Seviper.",
+				'fr-fr': "Retirez à Seviper 4 marqueurs de dégât.",
+				'de-de': "Remove 4 damage counters from Seviper."
 			},
 
 		},
@@ -43,14 +43,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Bite and Escape",
-				fr: "Mordre avant de s'échapper",
-				de: "Bite and Escape"
+				'en-us': "Bite and Escape",
+				'fr-fr': "Mordre avant de s'échapper",
+				'de-de': "Bite and Escape"
 			},
 			effect: {
-				en: "You may switch Seviper with 1 of your Benched Pokémon.",
-				fr: "Vous pouvez échanger Seviper avec 1 des Pokémon de votre Banc.",
-				de: "You may switch Seviper with 1 of your Benched Pokémon."
+				'en-us': "You may switch Seviper with 1 of your Benched Pokémon.",
+				'fr-fr': "Vous pouvez échanger Seviper avec 1 des Pokémon de votre Banc.",
+				'de-de': "You may switch Seviper with 1 of your Benched Pokémon."
 			},
 			damage: 20,
 
@@ -62,14 +62,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Paralyze Poison",
-				fr: "Poison paralysant",
-				de: "Paralyze Poison"
+				'en-us': "Paralyze Poison",
+				'fr-fr': "Poison paralysant",
+				'de-de': "Paralyze Poison"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned. Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned. Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisened."
+				'en-us': "The Defending Pokémon is now Poisoned. Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné. Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné.",
+				'de-de': "The Defending Pokémon is now Poisoned. Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisened."
 			},
 			damage: 40,
 

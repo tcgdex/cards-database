@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダークライGX",
+		'ja-jp': "ダークライGX",
 	},
 
 	illustrator: "PLANETA",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "リザレクション" },
 			effect: {
-				ja: "このカードがトラッシュにあるなら、自分の番に1回使える。このカードをベンチに出す。その後、自分のトラッシュにある[悪]エネルギーを1枚、このカードにつける。",
+				'ja-jp': "このカードがトラッシュにあるなら、自分の番に1回使える。このカードをベンチに出す。その後、自分のトラッシュにある[悪]エネルギーを1枚、このカードにつける。",
 			},
 		},
 	],
@@ -30,14 +30,14 @@ const card: Card = {
 			damage: 130,
 			cost: ["Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。",
 			},
 		},
 		{
 			name: { ja: "デッドエンドGX" },
 			cost: ["Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが特殊状態なら、そのポケモンをきぜつさせる。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のバトルポケモンが特殊状態なら、そのポケモンをきぜつさせる。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

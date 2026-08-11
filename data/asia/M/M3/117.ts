@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガジガルデex",
+		'ja-jp': "メガジガルデex",
 	},
 
 	illustrator: "takuyoa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "",
+		'ja-jp': "",
 	},
 
 	stage: "Basic",
@@ -24,14 +24,14 @@ const card: Card = {
 			damage: 200,
 			cost: ["Fighting", "Fighting", "Fighting"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
 			},
 		},
 		{
 			name: { ja: "ムニキスゼロ" },
 			cost: ["Fighting", "Fighting", "Fighting", "Fighting", "Fighting"],
 			effect: {
-				ja: "相手のポケモン全員に対して、それぞれ1回ずつコインを投げ、オモテが出たポケモン全員に、それぞれ150ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン全員に対して、それぞれ1回ずつコインを投げ、オモテが出たポケモン全員に、それぞれ150ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

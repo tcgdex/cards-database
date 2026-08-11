@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2023'
 
 const card: Card = {
 	name: {
-		en: "Cyclizar",
-		fr: "Motorizard",
-		es: "Cyclizar",
-		it: "Cyclizar",
-		pt: "Cyclizar",
-		de: "Mopex"
+		'en-us': "Cyclizar",
+		'fr-fr': "Motorizard",
+		'es-es': "Cyclizar",
+		'it-it': "Cyclizar",
+		'pt-br': "Cyclizar",
+		'de-de': "Mopex"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -28,21 +28,21 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				en: "Touring",
+				'en-us': "Touring",
 			},
 			effect: {
-				en: "Draw 2 cards.",
+				'en-us': "Draw 2 cards.",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				en: "Speed Attack",
-				fr: "Attaque Rapide",
-				es: "Ataque Veloz",
-				it: "Attacco Rapido",
-				pt: "Ataque Veloz",
-				de: "Tempoattacke"
+				'en-us': "Speed Attack",
+				'fr-fr': "Attaque Rapide",
+				'es-es': "Ataque Veloz",
+				'it-it': "Attacco Rapido",
+				'pt-br': "Ataque Veloz",
+				'de-de': "Tempoattacke"
 			},
 			damage: 100,
 		},

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pawmo",
-		fr: "Pohmotte",
-		es: "Pawmo",
-		it: "Pawmo",
-		pt: "Pawmo",
-		de: "Pamamo"
+		'en-us': "Pawmo",
+		'fr-fr': "Pohmotte",
+		'es-es': "Pawmo",
+		'it-it': "Pawmo",
+		'pt-br': "Pawmo",
+		'de-de': "Pamamo"
 	},
 
 	rarity: "Shiny rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Lightning"],
 	evolveFrom: {
-		en: "Pawmi",
-		fr: "Pohm",
-		es: "Pawmi",
-		it: "Pawmi",
-		pt: "Pawmi",
-		de: "Pamo"
+		'en-us': "Pawmi",
+		'fr-fr': "Pohm",
+		'es-es': "Pawmi",
+		'it-it': "Pawmi",
+		'pt-br': "Pawmi",
+		'de-de': "Pamo"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Thunder Shock",
-			fr: "Éclair",
-			es: "Impactrueno",
-			it: "Tuonoshock",
-			pt: "Trovoada de Choques",
-			de: "Donnerschock"
+			'en-us': "Thunder Shock",
+			'fr-fr': "Éclair",
+			'es-es': "Impactrueno",
+			'it-it': "Tuonoshock",
+			'pt-br': "Trovoada de Choques",
+			'de-de': "Donnerschock"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		},
 
 		damage: 30
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			en: "Head Bolt",
-			fr: "Éclair Frontal",
-			es: "Rayo de Cabeza",
-			it: "Zuccalampo",
-			pt: "Raio de Cabeça",
-			de: "Kopf-Blitz"
+			'en-us': "Head Bolt",
+			'fr-fr': "Éclair Frontal",
+			'es-es': "Rayo de Cabeza",
+			'it-it': "Zuccalampo",
+			'pt-br': "Raio de Cabeça",
+			'de-de': "Kopf-Blitz"
 		},
 
 		damage: 70
@@ -88,7 +88,7 @@ const card: Card = {
 	illustrator: "Mizue",
 
 	description: {
-		en: "Pawmo uses a unique fighting technique in which it uses its forepaws to strike foes and zap them with electricity from its paw pads simultaneously.",
+		'en-us': "Pawmo uses a unique fighting technique in which it uses its forepaws to strike foes and zap them with electricity from its paw pads simultaneously.",
 	},
 
 }

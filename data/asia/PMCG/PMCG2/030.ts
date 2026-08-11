@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サイホーン",
+		'ja-jp': "サイホーン",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "Leer",
+				'ja-jp': "Leer",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防衛ポケモンは相手の次のターン中に攻撃することはできません。 （いずれかのポケモンがこの効果を終了するかのいずれかのベンチを作成します。）",
+				'ja-jp': "コインをひっくり返します。頭の場合、防衛ポケモンは相手の次のターン中に攻撃することはできません。 （いずれかのポケモンがこの効果を終了するかのいずれかのベンチを作成します。）",
 			},
 
 		},
 		{
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "ホーン攻撃",
+				'ja-jp': "ホーン攻撃",
 			},
 			damage: 30,
 		},

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [297],
 
 	name: {
-		en: "Hariyama"
+		'en-us': "Hariyama"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Makuhita"
+		'en-us': "Makuhita"
 	},
 
 	description: {
-		en: "It stomps on the ground to build power.\nIt can send a 10-ton truck flying with a\nstraight-arm punch."
+		'en-us': "It stomps on the ground to build power.\nIt can send a 10-ton truck flying with a\nstraight-arm punch."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Megaton Slap Push"
+			'en-us': "Megaton Slap Push"
 		},
 
 		damage: 90,

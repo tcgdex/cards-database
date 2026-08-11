@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Klefki",
-		fr: "Trousselin",
-		es: "Klefki",
-		it: "Klefki",
-		pt: "Klefki",
-		de: "Clavion"
+		'en-us': "Klefki",
+		'fr-fr': "Trousselin",
+		'es-es': "Klefki",
+		'it-it': "Klefki",
+		'pt-br': "Klefki",
+		'de-de': "Clavion"
 	},
 
 	rarity: "Common",
@@ -36,30 +36,30 @@ const card: Card = {
 	illustrator: "MAHOU",
 
 	description: {
-		en: "Long ago it lived in mines, but once the minerals that make up its diet became scarcer, Klefki began appearing in human settlements."
+		'en-us': "Long ago it lived in mines, but once the minerals that make up its diet became scarcer, Klefki began appearing in human settlements."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Unlock",
-			fr: "Déverrouillage",
-			de: "Aufschließen",
-			es: "Abrir el Cerrojo",
-			pt: "Destrancar",
-			it: "Apertura"
+			'en-us': "Unlock",
+			'fr-fr': "Déverrouillage",
+			'de-de': "Aufschließen",
+			'es-es': "Abrir el Cerrojo",
+			'pt-br': "Destrancar",
+			'it-it': "Apertura"
 		},
 
 		damage: 10,
 
 		effect: {
-			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
-			de: "Ziehe 2 Karten.",
-			es: "Roba 2 cartas.",
-			pt: "Compre 2 cartas.",
-			it: "Pesca due carte."
+			'en-us': "Draw 2 cards.",
+			'fr-fr': "Piochez 2 cartes.",
+			'de-de': "Ziehe 2 Karten.",
+			'es-es': "Roba 2 cartas.",
+			'pt-br': "Compre 2 cartas.",
+			'it-it': "Pesca due carte."
 		}
 	}],
 

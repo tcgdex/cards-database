@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Arcanine"
+		'en-us': "Blaine's Arcanine"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Growlithe"
+		'en-us': "Growlithe"
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Tackle"
+				'en-us': "Heat Tackle"
 			},
 			effect: {
-				en: "Blaine's Arcanine does 10 damage to itself."
+				'en-us': "Blaine's Arcanine does 10 damage to itself."
 			},
 			damage: 40,
 
@@ -49,10 +49,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Firestorm"
+				'en-us': "Firestorm"
 			},
 			effect: {
-				en: "Discard 3 Fire Energy cards attached to Blaine's Arcanine in order to use this attack."
+				'en-us': "Discard 3 Fire Energy cards attached to Blaine's Arcanine in order to use this attack."
 			},
 			damage: 120,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミーガニウム",
+		'ja-jp': "ミーガニウム",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "癒しの香り",
+				'ja-jp': "癒しの香り",
 			},
 			effect: {
-				ja: "MeganiumがアクティブなPokã©Monである限り、各Pokã©Mon（Pokã©Mon-Exを除く）（あなたと対戦相手の両方を除く）から1つのダメージカウンターを削除します。",
+				'ja-jp': "MeganiumがアクティブなPokã©Monである限り、各Pokã©Mon（Pokã©Mon-Exを除く）（あなたと対戦相手の両方を除く）から1つのダメージカウンターを削除します。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Grass", "Colorless"],
 			name: {
-				ja: "弾力性のある動き",
+				'ja-jp': "弾力性のある動き",
 			},
 			effect: {
-				ja: "Meganiumに最大5つのダメージカウンターを配置できます。そうした場合、この攻撃は50のダメージと、この方法でMeganiumに置いたダメージカウンターごとに10ダメージをさらに10回かけます。",
+				'ja-jp': "Meganiumに最大5つのダメージカウンターを配置できます。そうした場合、この攻撃は50のダメージと、この方法でMeganiumに置いたダメージカウンターごとに10ダメージをさらに10回かけます。",
 			},
 		},
 	],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Chandelure",
-		fr: "Lugulabre",
-		es: "Chandelure",
-		it: "Chandelure",
-		pt: "Chandelure",
-		de: "Skelabra"
+		'en-us': "Chandelure",
+		'fr-fr': "Lugulabre",
+		'es-es': "Chandelure",
+		'it-it': "Chandelure",
+		'pt-br': "Chandelure",
+		'de-de': "Skelabra"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lampent",
-		fr: "Mélancolux",
+		'en-us': "Lampent",
+		'fr-fr': "Mélancolux",
 	},
 
 	stage: "Stage2",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Shady Move",
-				fr: "Déplacement Louche",
-				es: "Movimiento Sombrío",
-				it: "Ombramossa",
-				pt: "Movimento Umbroso",
-				de: "Zwielichtige Aktion"
+				'en-us': "Shady Move",
+				'fr-fr': "Déplacement Louche",
+				'es-es': "Movimiento Sombrío",
+				'it-it': "Ombramossa",
+				'pt-br': "Movimento Umbroso",
+				'de-de': "Zwielichtige Aktion"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may move 1 damage counter from 1 Pokémon to another Pokémon.",
-				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez déplacer 1 marqueur de dégâts d'un Pokémon à un autre Pokémon.",
-				es: "Once during your turn (before your attack), you may move 1 damage counter from 1 Pokémon to another Pokémon.",
-				it: "d",
-				pt: "Once during your turn (before your attack), you may move 1 damage counter from 1 Pokémon to another Pokémon.",
-				de: "Once during your turn (before your attack), you may move 1 damage counter from 1 Pokémon to another Pokémon."
+				'en-us': "Once during your turn (before your attack), you may move 1 damage counter from 1 Pokémon to another Pokémon.",
+				'fr-fr': "Une fois pendant votre tour (avant votre attaque), vous pouvez déplacer 1 marqueur de dégâts d'un Pokémon à un autre Pokémon.",
+				'es-es': "Once during your turn (before your attack), you may move 1 damage counter from 1 Pokémon to another Pokémon.",
+				'it-it': "d",
+				'pt-br': "Once during your turn (before your attack), you may move 1 damage counter from 1 Pokémon to another Pokémon.",
+				'de-de': "Once during your turn (before your attack), you may move 1 damage counter from 1 Pokémon to another Pokémon."
 			},
 		},
 	],
@@ -61,20 +61,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Super Singe",
-				fr: "Super Roussi",
-				es: "Superquemadura",
-				it: "Super Scottata",
-				pt: "Superchamuscada",
-				de: "Super-Versengung"
+				'en-us': "Super Singe",
+				'fr-fr': "Super Roussi",
+				'es-es': "Superquemadura",
+				'it-it': "Super Scottata",
+				'pt-br': "Superchamuscada",
+				'de-de': "Super-Versengung"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+				'en-us': "Your opponent’s Active Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 			},
 			damage: 50,
 
@@ -91,7 +91,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Being consumed in Chandelure's flame burns up the spirit, leaving the body behind.",
+		'en-us': "Being consumed in Chandelure's flame burns up the spirit, leaving the body behind.",
 	},
 
 	thirdParty: {

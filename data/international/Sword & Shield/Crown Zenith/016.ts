@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zarude",
-		fr: "Zarude",
-		es: "Zarude",
-		it: "Zarude",
-		pt: "Zarude",
-		de: "Zarude"
+		'en-us': "Zarude",
+		'fr-fr': "Zarude",
+		'es-es': "Zarude",
+		'it-it': "Zarude",
+		'pt-br': "Zarude",
+		'de-de': "Zarude"
 	},
 
 	illustrator: "Shiburingaru",
@@ -25,41 +25,41 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Drag Off",
-			fr: "Traîne",
-			es: "Jalón",
-			it: "Trascinato Via",
-			pt: "Arrastar para Fora",
-			de: "Wegzerren"
+			'en-us': "Drag Off",
+			'fr-fr': "Traîne",
+			'es-es': "Jalón",
+			'it-it': "Trascinato Via",
+			'pt-br': "Arrastar para Fora",
+			'de-de': "Wegzerren"
 		},
 
 		effect: {
-			en: "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. This attack does 20 damage to the new Active Pokémon.",
-			fr: "Échangez l'un des Pokémon de Banc de votre adversaire contre son Pokémon Actif. Cette attaque inflige 20 dégâts au nouveau Pokémon Actif.",
-			es: "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo. Este ataque hace 20 puntos de daño al nuevo Pokémon Activo.",
-			it: "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo. Questo attacco infligge 20 danni al nuovo Pokémon attivo.",
-			pt: "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a). Este ataque causa 20 pontos de dano ao novo Pokémon Ativo.",
-			de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus. Diese Attacke fügt dem neuen Aktiven Pokémon 20 Schadenspunkte zu."
+			'en-us': "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. This attack does 20 damage to the new Active Pokémon.",
+			'fr-fr': "Échangez l'un des Pokémon de Banc de votre adversaire contre son Pokémon Actif. Cette attaque inflige 20 dégâts au nouveau Pokémon Actif.",
+			'es-es': "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo. Este ataque hace 20 puntos de daño al nuevo Pokémon Activo.",
+			'it-it': "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo. Questo attacco infligge 20 danni al nuovo Pokémon attivo.",
+			'pt-br': "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a). Este ataque causa 20 pontos de dano ao novo Pokémon Ativo.",
+			'de-de': "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus. Diese Attacke fügt dem neuen Aktiven Pokémon 20 Schadenspunkte zu."
 		}
 	}, {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			en: "Triple Whip",
-			fr: "Triple Fouet",
-			es: "Triple Latigazo",
-			it: "Triplafrustata",
-			pt: "Chicote Triplo",
-			de: "Tripelpeitsche"
+			'en-us': "Triple Whip",
+			'fr-fr': "Triple Fouet",
+			'es-es': "Triple Latigazo",
+			'it-it': "Triplafrustata",
+			'pt-br': "Chicote Triplo",
+			'de-de': "Tripelpeitsche"
 		},
 
 		effect: {
-			en: "Flip 3 coins. This attack does 70 damage for each heads.",
-			fr: "Lancez 3 pièces. Cette attaque inflige 70 dégâts pour chaque côté face.",
-			es: "Lanza 3 monedas. Este ataque hace 70 puntos de daño por cada cara.",
-			it: "Lancia tre volte una moneta. Questo attacco infligge 70 danni ogni volta che esce testa.",
-			pt: "Jogue 3 moedas. Este ataque causa 70 pontos de dano para cada cara.",
-			de: "Wirf 3 Münzen. Diese Attacke fügt 70 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip 3 coins. This attack does 70 damage for each heads.",
+			'fr-fr': "Lancez 3 pièces. Cette attaque inflige 70 dégâts pour chaque côté face.",
+			'es-es': "Lanza 3 monedas. Este ataque hace 70 puntos de daño por cada cara.",
+			'it-it': "Lancia tre volte una moneta. Questo attacco infligge 70 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 3 moedas. Este ataque causa 70 pontos de dano para cada cara.",
+			'de-de': "Wirf 3 Münzen. Diese Attacke fügt 70 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "70×"
@@ -76,7 +76,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Within dense forests, this Pokémon lives in a pack with others of its kind. It's incredibly aggressive, and the other Pokémon of the forest fear it.",
+		'en-us': "Within dense forests, this Pokémon lives in a pack with others of its kind. It's incredibly aggressive, and the other Pokémon of the forest fear it.",
 	},
 
 	

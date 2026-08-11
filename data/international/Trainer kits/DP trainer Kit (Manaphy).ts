@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Trainer kits'
 
 const set: Set = {
 	id: "tk-dp-m",
 
 	name: {
-		en: "DP trainer Kit (Manaphy)",
-		it: "Diamond & Pearl trainer Kit (Manaphy)",
-		fr: "DP Kit dresseur (Manaphy)",
-		es: "Kit de Entrenador Diamante & Perla (Manaphy)",
+		'en-us': "DP trainer Kit (Manaphy)",
+		'it-it': "Diamond & Pearl trainer Kit (Manaphy)",
+		'fr-fr': "DP Kit dresseur (Manaphy)",
+		'es-es': "Kit de Entrenador Diamante & Perla (Manaphy)",
 	},
 
 	serie: serie,
@@ -21,7 +21,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "TK3M",
-		fr: "MAN"
+		'fr-fr': "MAN"
 	},
 	thirdParty: {
 		tcgplayer: 609

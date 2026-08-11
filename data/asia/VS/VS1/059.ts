@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリカのベロッソム",
+		'ja-jp': "エリカのベロッソム",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Grass", "Grass"],
 			name: {
-				ja: "フラワーカッター",
+				'ja-jp': "フラワーカッター",
 			},
 			effect: {
-				ja: "3コインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
+				'ja-jp': "3コインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Growlithe",
-		fr: "Caninos",
-		de: "Fukano"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos",
+		'de-de': "Fukano"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ember",
-				fr: "Flammèche",
-				de: "Ember"
+				'en-us': "Ember",
+				'fr-fr': "Flammèche",
+				'de-de': "Ember"
 			},
 			effect: {
-				en: "Discard a Fire Energy card attached to Growlithe.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Caninos.",
-				de: "Discard a  Energy card attached to Growlithe."
+				'en-us': "Discard a Fire Energy card attached to Growlithe.",
+				'fr-fr': "Défaussez-vous d'une carte Énergie  attachée à Caninos.",
+				'de-de': "Discard a  Energy card attached to Growlithe."
 			},
 			damage: 30,
 

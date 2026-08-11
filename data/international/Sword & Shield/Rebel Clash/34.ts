@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [631],
 
 	name: {
-		en: "Heatmor",
-		fr: "Aflamanoir",
-		es: "Heatmor",
-		it: "Heatmor",
-		pt: "Heatmor",
-		de: "Furnifraß"
+		'en-us': "Heatmor",
+		'fr-fr': "Aflamanoir",
+		'es-es': "Heatmor",
+		'it-it': "Heatmor",
+		'pt-br': "Heatmor",
+		'de-de': "Furnifraß"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -24,20 +24,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lick",
-				fr: "Léchouille",
-				es: "Lengüetazo",
-				it: "Leccata",
-				pt: "Lambida",
-				de: "Schlecker"
+				'en-us': "Lick",
+				'fr-fr': "Léchouille",
+				'es-es': "Lengüetazo",
+				'it-it': "Leccata",
+				'pt-br': "Lambida",
+				'de-de': "Schlecker"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
-				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -49,20 +49,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-Flammes",
-				es: "Lanzallamas",
-				it: "Lanciafiamme",
-				pt: "Lança-chamas",
-				de: "Flammenwurf"
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-Flammes",
+				'es-es': "Lanzallamas",
+				'it-it': "Lanciafiamme",
+				'pt-br': "Lança-chamas",
+				'de-de': "Flammenwurf"
 			},
 			effect: {
-				en: "Discard an Energy from this Pokémon.",
-				fr: "Défaussez une Énergie de ce Pokémon.",
-				es: "Descarta 1 Energía de este Pokémon.",
-				it: "Scarta un'Energia da questo Pokémon.",
-				pt: "Descarte 1 Energia deste Pokémon.",
-				de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard an Energy from this Pokémon.",
+				'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+				'es-es': "Descarta 1 Energía de este Pokémon.",
+				'it-it': "Scarta un'Energia da questo Pokémon.",
+				'pt-br': "Descarte 1 Energia deste Pokémon.",
+				'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 120,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "There's a hole in its tail that allows it to draw in the air it needs to keep its fire burning. If the hole gets blocked, this Pokémon will fall ill."
+		'en-us': "There's a hole in its tail that allows it to draw in the air it needs to keep its fire burning. If the hole gets blocked, this Pokémon will fall ill."
 	},
 
 	variants: [

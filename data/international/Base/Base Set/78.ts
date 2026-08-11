@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Scoop Up",
-		fr: "Rappel",
-		de: "Aufwisch",
-		it: "Recupero",
+		'en-us': "Scoop Up",
+		'fr-fr': "Rappel",
+		'de-de': "Aufwisch",
+		'it-it': "Recupero",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,10 +15,10 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Choose 1 of your Pokémon in play and return its Basic Pokémon card to your hand. (Discard all cards attached to that card.)",
-		fr: "Choisissez 1 de vos Pokémon en jeu et reprenez sa carte Pokémon de base dans votre main. (Défaussez toutes les cartes attachées à cette carte.)",
-		de: "Wähle eines Deiner Pokémon im Spiel und nimm seine Basis-Karte auf Deine Hand zurück (Entferne alle auf dieser Karte abgelegte Karten.)",
-		it: "Scegli uno dei tuoi Pokémon in gioco e riprendi in mano la carta del suo Pokémon Base. (Scarta tutte le altre carte assegnate a quel Pokémon Base.)"
+		'en-us': "Choose 1 of your Pokémon in play and return its Basic Pokémon card to your hand. (Discard all cards attached to that card.)",
+		'fr-fr': "Choisissez 1 de vos Pokémon en jeu et reprenez sa carte Pokémon de base dans votre main. (Défaussez toutes les cartes attachées à cette carte.)",
+		'de-de': "Wähle eines Deiner Pokémon im Spiel und nimm seine Basis-Karte auf Deine Hand zurück (Entferne alle auf dieser Karte abgelegte Karten.)",
+		'it-it': "Scegli uno dei tuoi Pokémon in gioco e riprendi in mano la carta del suo Pokémon Base. (Scarta tutte le altre carte assegnate a quel Pokémon Base.)"
 	},
 
 	variants: [

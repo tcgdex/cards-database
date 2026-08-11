@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Hariyama ex",
+		'ja-jp': "Hariyama ex",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "指揮オーラ",
+				'ja-jp': "指揮オーラ",
 			},
 			effect: {
-				ja: "Hariyama Exがあなたのアクティブなポカモンである限り、あなたの対戦相手は彼または彼女の手からスタジアムカードをプレイすることができません。",
+				'ja-jp': "Hariyama Exがあなたのアクティブなポカモンである限り、あなたの対戦相手は彼または彼女の手からスタジアムカードをプレイすることができません。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "ノックオフ",
+				'ja-jp': "ノックオフ",
 			},
 			effect: {
-				ja: "対戦相手の手から1枚のカードを探して廃棄せずに選択してください。",
+				'ja-jp': "対戦相手の手から1枚のカードを探して廃棄せずに選択してください。",
 			},
 			damage: 40,
 		},
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
-				ja: "ピボットスロー",
+				'ja-jp': "ピボットスロー",
 			},
 			effect: {
-				ja: "対戦相手の次のターン中、攻撃によってHariyama Exに与えられた損害は10増加します（脱力感と抵抗を適用する前に）。",
+				'ja-jp': "対戦相手の次のターン中、攻撃によってHariyama Exに与えられた損害は10増加します（脱力感と抵抗を適用する前に）。",
 			},
 			damage: 80,
 		},

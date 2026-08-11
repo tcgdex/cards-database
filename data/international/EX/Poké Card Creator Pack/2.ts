@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Poké Card Creator Pack'
 
 const card: Card = {
 	name: {
-		en: "Wurmple"
+		'en-us': "Wurmple"
 	},
 
 	illustrator: "Katie Gross",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gooey Thread"
+				'en-us': "Gooey Thread"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat until the end of your opponent's next turn."
+				'en-us': "The Defending Pokémon can't retreat until the end of your opponent's next turn."
 			},
 			damage: 10,
 
@@ -44,10 +44,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Claws"
+				'en-us': "Poison Claws"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing."
+				'en-us': "Flip a coin. If tails, this attack does nothing."
 			},
 			damage: 40,
 

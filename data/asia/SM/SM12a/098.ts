@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エルフーン",
+		'ja-jp': "エルフーン",
 	},
 
 	illustrator: "Yumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "民家に 忍び込み 大切な ものを 隠したり 部屋中に 綿を まき散らす 厄介者だ。",
+		'ja-jp': "民家に 忍び込み 大切な ものを 隠したり 部屋中に 綿を まき散らす 厄介者だ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "すきまのポケット" },
 			cost: ["Fairy"],
 			effect: {
-				ja: "分の手札を1枚、ロストゾーンに置く。その後、自分の山札を3枚引く。",
+				'ja-jp': "分の手札を1枚、ロストゾーンに置く。その後、自分の山札を3枚引く。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "分のロストゾーンにあるポケモン（♢（プリズムスター）をのぞく）の枚数×20ダメージ。",
+				'ja-jp': "分のロストゾーンにあるポケモン（♢（プリズムスター）をのぞく）の枚数×20ダメージ。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モンメン",
+		'ja-jp': "モンメン",
 	},
 
 	retreat: 0,

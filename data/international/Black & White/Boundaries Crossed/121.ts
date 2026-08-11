@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Herdier",
-		fr: "Ponchien",
-		es: "Herdier",
-		it: "Herdier",
-		pt: "Herdier",
-		de: "Terribark"
+		'en-us': "Herdier",
+		'fr-fr': "Ponchien",
+		'es-es': "Herdier",
+		'it-it': "Herdier",
+		'pt-br': "Herdier",
+		'de-de': "Terribark"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lillipup",
-		fr: "Ponchiot",
+		'en-us': "Lillipup",
+		'fr-fr': "Ponchiot",
 	},
 
 	stage: "Stage1",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
 			},
 
 			damage: 20,
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				'en-us': "This Pokémon does 10 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 10 dégâts.",
 			},
 			damage: 60,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This very loyal Pokémon helps trainers, and it also takes care of other Pokémon.",
+		'en-us': "This very loyal Pokémon helps trainers, and it also takes care of other Pokémon.",
 	},
 
 	thirdParty: {

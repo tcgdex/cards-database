@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Raticate"
+		'en-us': "Raticate"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rattata"
+		'en-us': "Rattata"
 	},
 
 	stage: "Stage1",
@@ -31,7 +31,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite"
+				'en-us': "Bite"
 			},
 
 			damage: 20,
@@ -44,10 +44,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Fang"
+				'en-us': "Super Fang"
 			},
 			effect: {
-				en: "Does damage to the Defending Pokémon equal to half the Defending Pokémon's remaining HP (rounded up to the nearest 10)."
+				'en-us': "Does damage to the Defending Pokémon equal to half the Defending Pokémon's remaining HP (rounded up to the nearest 10)."
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It uses its whiskers to maintain its balance. It seems to slow down if they are cut off."
+		'en-us': "It uses its whiskers to maintain its balance. It seems to slow down if they are cut off."
 	},
 
 	variants: [

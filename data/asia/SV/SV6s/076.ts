@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Kilowattrel"
+		'id-id': "Kilowattrel"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Kilowattrel menyimpan listrik yang dibuat menggunakan sayapnya di kantong tenggorokannya. Pokémon ini tidak pandai berenang karena kandungan minyak pada bulunya sangat sedikit."
+		'id-id': "Kilowattrel menyimpan listrik yang dibuat menggunakan sayapnya di kantong tenggorokannya. Pokémon ini tidak pandai berenang karena kandungan minyak pada bulunya sangat sedikit."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Muatan Tenaga Angin"
+			'id-id': "Muatan Tenaga Angin"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, kerusakan akibat serangan yang digunakan oleh Pokémon ini kepada Pokémon Bertarung lawan bertambah sejumlah 120."
+			'id-id': "Pada giliran sendiri berikutnya, kerusakan akibat serangan yang digunakan oleh Pokémon ini kepada Pokémon Bertarung lawan bertambah sejumlah 120."
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Strong Volt"
+			'id-id': "Strong Volt"
 		},
 
 		effect: {
-			id: "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
+			'id-id': "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
 		},
 
 		damage: 100,

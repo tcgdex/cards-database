@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Maractus",
-		fr: "Maracachi",
-		es: "Maractus",
-		it: "Maractus",
-		pt: "Maractus",
-		de: "Maracamba"
+		'en-us': "Maractus",
+		'fr-fr': "Maracachi",
+		'es-es': "Maractus",
+		'it-it': "Maractus",
+		'pt-br': "Maractus",
+		'de-de': "Maracamba"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Constant Rattle",
-				fr: "Secousses Successives",
+				'en-us': "Constant Rattle",
+				'fr-fr': "Secousses Successives",
 			},
 			effect: {
-				en: "Flip 3 coins. If 1 of them is heads, this attack does 10 damage. If 2 of them are heads, this attack does 30 damage. If all of them are heads, this attack does 60 damage.",
-				fr: "Lancez 3 pièces. Si vous obtenez un côté face, cette attaque inflige 10 dégâts. Si vous obtenez 2 côtés face, cette attaque inflige 30 dégâts. Si vous obtenez seulement des côtés face, cette attaque inflige 60 dégâts.",
+				'en-us': "Flip 3 coins. If 1 of them is heads, this attack does 10 damage. If 2 of them are heads, this attack does 30 damage. If all of them are heads, this attack does 60 damage.",
+				'fr-fr': "Lancez 3 pièces. Si vous obtenez un côté face, cette attaque inflige 10 dégâts. Si vous obtenez 2 côtés face, cette attaque inflige 30 dégâts. Si vous obtenez seulement des côtés face, cette attaque inflige 60 dégâts.",
 			},
 
 		},
@@ -50,12 +50,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Giga Drain",
-				fr: "Giga-Sangsue",
+				'en-us': "Giga Drain",
+				'fr-fr': "Giga-Sangsue",
 			},
 			effect: {
-				en: "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
-				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur.",
+				'en-us': "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
+				'fr-fr': "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur.",
 			},
 			damage: 50,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Arid regions are their habitat. They move rhythmically, making a sound similar to maracas.",
+		'en-us': "Arid regions are their habitat. They move rhythmically, making a sound similar to maracas.",
 	},
 
 	thirdParty: {

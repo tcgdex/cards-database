@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガシグナル"
+		'ja-jp': "メガシグナル"
 	},
 	illustrator: "Inose yukie",
 	category: "Trainer",
@@ -20,7 +20,7 @@ const card: Card = {
 
 	trainerType: "Item",
 	effect: {
-		ja: "自分の山札から「メガシンカex」を1枚選び、相手に見せて手札に加える。そして山札を切る。"
+		'ja-jp': "自分の山札から「メガシンカex」を1枚選び、相手に見せて手札に加える。そして山札を切る。"
 	},
 	regulationMark: "I",
 	rarity: "Uncommon"

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Tympole",
-		fr: "Tritonde",
-		es: "Tympole",
-		it: "Tympole",
-		pt: "Tympole",
-		de: "Schallquap"
+		'en-us': "Tympole",
+		'fr-fr': "Tritonde",
+		'es-es': "Tympole",
+		'it-it': "Tympole",
+		'pt-br': "Tympole",
+		'de-de': "Schallquap"
 	},
 
 	illustrator: "Asako Ito",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flail Around",
-				fr: "Fléau Bougeant",
-				es: "Aleteo Frenético",
-				it: "Flagellamento",
-				pt: "Espancamento",
-				de: "Rumrudern"
+				'en-us': "Flail Around",
+				'fr-fr': "Fléau Bougeant",
+				'es-es': "Aleteo Frenético",
+				'it-it': "Flagellamento",
+				'pt-br': "Espancamento",
+				'de-de': "Rumrudern"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage for each heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
-				es: "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
-				it: "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
-				pt: "Jogue 3 moedas. Este ataque causa 10 pontos de dano para cada cara.",
-				de: "Wirf 3 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
+				'en-us': "Flip 3 coins. This attack does 10 damage for each heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
+				'es-es': "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+				'it-it': "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 3 moedas. Este ataque causa 10 pontos de dano para cada cara.",
+				'de-de': "Wirf 3 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
 			},
 			damage: "10×",
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "By vibrating its cheeks, it emits sound waves imperceptible to humans and warns others of danger.",
+		'en-us': "By vibrating its cheeks, it emits sound waves imperceptible to humans and warns others of danger.",
 	},
 
 	thirdParty: {

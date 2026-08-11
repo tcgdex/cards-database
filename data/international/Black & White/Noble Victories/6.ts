@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Dwebble",
-		fr: "Crabicoque",
-		es: "Dwebble",
-		it: "Dwebble",
-		pt: "Dwebble",
-		de: "Lithomith"
+		'en-us': "Dwebble",
+		'fr-fr': "Crabicoque",
+		'es-es': "Dwebble",
+		'it-it': "Dwebble",
+		'pt-br': "Dwebble",
+		'de-de': "Lithomith"
 	},
 
 	illustrator: "MAHOU",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Withdraw",
-				fr: "Repli",
+				'en-us': "Withdraw",
+				'fr-fr': "Repli",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, évitez tous les dégâts infligés à ce Pokémon par des attaques pendant le prochain tour de votre adversaire.",
+				'en-us': "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, évitez tous les dégâts infligés à ce Pokémon par des attaques pendant le prochain tour de votre adversaire.",
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
 			},
 
 			damage: 20,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The Pokémon can easily melt holes in hard rocks with a liquid secreted from its mouth.",
+		'en-us': "The Pokémon can easily melt holes in hard rocks with a liquid secreted from its mouth.",
 	},
 
 	thirdParty: {

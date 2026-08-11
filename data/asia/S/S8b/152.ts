@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コルニの気合い",
+		'ja-jp': "コルニの気合い",
 		'zh-tw': "可爾妮的氣勢",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の手札が6枚になるように、山札を引く。",
+		'ja-jp': "自分の手札が6枚になるように、山札を引く。",
 		'zh-tw': "從牌庫抽卡直到自己的手牌滿6張為止。",
 	},
 

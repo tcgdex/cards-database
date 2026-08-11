@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポケモン回収サイクロン",
+		'ja-jp': "ポケモン回収サイクロン",
 	},
 
 	illustrator: "Toyste Beach",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の場のポケモンを1匹選び、そのポケモンと、ついているすべてのカードを、手札にもどす。",
+		'ja-jp': "自分の場のポケモンを1匹選び、そのポケモンと、ついているすべてのカードを、手札にもどす。",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団のニドリーノ",
+		'ja-jp': "ロケット団のニドリーノ",
 		'zh-tw': "<火箭隊的>尼多力諾",
 		'zh-cn': "<火箭隊的>尼多力諾",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "神経質で 喧嘩っ早い。 体内の アドレナリンが 増えると 毒素の 濃度も 高まるぞ。",
+		'ja-jp': "神経質で 喧嘩っ早い。 体内の アドレナリンが 増えると 毒素の 濃度も 高まるぞ。",
 		'zh-tw': "神經質且容易發脾氣打架。 當體內的腎上腺素增加時， 毒素的濃度也會提升。",
 		'zh-cn': "神經質且容易發脾氣打架。 當體內的腎上腺素增加時， 毒素的濃度也會提升。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶちかます",
+				'ja-jp': "ぶちかます",
 				'zh-tw': "頭突",
 				'zh-cn': "頭突",
 			},
@@ -34,14 +34,14 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "つのでえぐる",
+				'ja-jp': "つのでえぐる",
 				'zh-tw': "角裂",
 				'zh-cn': "角裂",
 			},
 			damage: "60+",
 			cost: ["Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンにダメカンがのっているなら、60ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンにダメカンがのっているなら、60ダメージ追加。",
 				'zh-tw': "若對手的戰鬥寶可夢身上放置有傷害指示物，則增加60點傷害。",
 				'zh-cn': "若對手的戰鬥寶可夢身上放置有傷害指示物，則增加60點傷害。",
 			},
@@ -62,7 +62,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ロケット団のニドラン♂",
+		'ja-jp': "ロケット団のニドラン♂",
 	},
 
 	retreat: 2,

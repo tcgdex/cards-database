@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Slowpoke",
-		fr: "Ramoloss",
+		'en-us': "Slowpoke",
+		'fr-fr': "Ramoloss",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spacing Out",
-				fr: "Trou d'Mémoire",
+				'en-us': "Spacing Out",
+				'fr-fr': "Trou d'Mémoire",
 			},
 			effect: {
-				en: "Flip a coin. If heads, heal 10 damage from this Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, soignez 10 dégâts à ce Pokémon.",
+				'en-us': "Flip a coin. If heads, heal 10 damage from this Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, soignez 10 dégâts à ce Pokémon.",
 			},
 
 		},
@@ -45,12 +45,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Scavenge",
-				fr: "Farfouille",
+				'en-us': "Scavenge",
+				'fr-fr': "Farfouille",
 			},
 			effect: {
-				en: "Discard a Psychic Energy attached to this Pokémon. If you do, put an Item card from your discard pile into your hand.",
-				fr: "Défaussez une Énergie Psychic attachée à ce Pokémon. Dans ce cas, prenez une carte Objet dans votre pile de défausse et ajoutez-la à votre main.",
+				'en-us': "Discard a Psychic Energy attached to this Pokémon. If you do, put an Item card from your discard pile into your hand.",
+				'fr-fr': "Défaussez une Énergie Psychic attachée à ce Pokémon. Dans ce cas, prenez une carte Objet dans votre pile de défausse et ajoutez-la à votre main.",
 			},
 
 		},
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is always vacantly lost in thought, but no one knows what it is thinking about. It is good at fishing with its tail.",
+		'en-us': "It is always vacantly lost in thought, but no one knows what it is thinking about. It is good at fishing with its tail.",
 	},
 
 	thirdParty: {

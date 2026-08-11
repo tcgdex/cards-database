@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Mary's Request",
-		fr: "La requête de Lula",
-		de: "Magits Anfrage"
+		'en-us': "Mary's Request",
+		'fr-fr': "La requête de Lula",
+		'de-de': "Magits Anfrage"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -15,9 +15,9 @@ const card: Card = {
 	trainerType: "Supporter",
 
 	effect: {
-		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Draw a card. If you don't have any Stage 2 Evolved Pokémon in play, draw 2 more cards.",
-		fr: "Piochez une carte. Si vous n'avez pas de Pokémon Évolués de niveau 2 en jeu, piochez 2 cartes supplémentaires.",
-		de: "Draw a card. If you don't have any Stage 2 Evolved Pokémon in play, draw 2 more cards.",
+		'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Draw a card. If you don't have any Stage 2 Evolved Pokémon in play, draw 2 more cards.",
+		'fr-fr': "Piochez une carte. Si vous n'avez pas de Pokémon Évolués de niveau 2 en jeu, piochez 2 cartes supplémentaires.",
+		'de-de': "Draw a card. If you don't have any Stage 2 Evolved Pokémon in play, draw 2 more cards.",
 	},
 
 

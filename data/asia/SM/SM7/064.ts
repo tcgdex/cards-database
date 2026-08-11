@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コモルー",
+		'ja-jp': "コモルー",
 	},
 
 	illustrator: "Asako Ito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "洞穴の 奥に じっと 潜み 何も 喰わず 何も 飲まない。 なぜ 死なないのかは 不明だ。",
+		'ja-jp': "洞穴の 奥に じっと 潜み 何も 喰わず 何も 飲まない。 なぜ 死なないのかは 不明だ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Fire", "Water"],
 			effect: {
-				ja: "このポケモンにダメカンがのっているなら、50ダメージ追加。",
+				'ja-jp': "このポケモンにダメカンがのっているなら、50ダメージ追加。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "タツベイ",
+		'ja-jp': "タツベイ",
 	},
 
 	retreat: 3,

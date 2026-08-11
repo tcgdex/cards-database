@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Croconaw δ",
-		fr: "Crocrodil δ",
-		de: "Tyracroc"
+		'en-us': "Croconaw δ",
+		'fr-fr': "Crocrodil δ",
+		'de-de': "Tyracroc"
 	},
 
 	illustrator: "Yuka Morii",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Totodile",
-		fr: "Kaiminus"
+		'en-us': "Totodile",
+		'fr-fr': "Kaiminus"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scary Face",
-				fr: "Grimace",
-				de: "Grimasse"
+				'en-us': "Scary Face",
+				'fr-fr': "Grimace",
+				'de-de': "Grimasse"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can't attack or retreat during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer ou battre en retraite lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon bis zum Ende des nächsten gegnerischen Zuges weder angreifen noch sich zurückziehen."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon can't attack or retreat during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer ou battre en retraite lors du prochain tour de votre adversaire.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon bis zum Ende des nächsten gegnerischen Zuges weder angreifen noch sich zurückziehen."
 			},
 
 		},
@@ -54,9 +54,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 50,

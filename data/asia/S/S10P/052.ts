@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ベロリンガ",
+		'ja-jp': "ベロリンガ",
 		'zh-tw': "大舌頭",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ネバネバした 唾液に 触れたまま 放っておくと ものすごい 痒みが はじまり とまらなくなるぞ。",
+		'ja-jp': "ネバネバした 唾液に 触れたまま 放っておくと ものすごい 痒みが はじまり とまらなくなるぞ。",
 		'zh-tw': "沾到牠黏糊糊的唾液後如果放著不管，就會變得 奇癢無比，而且癢個不停。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "よだれ",
+				'ja-jp': "よだれ",
 				'zh-tw': "口水",
 			},
 			damage: 30,

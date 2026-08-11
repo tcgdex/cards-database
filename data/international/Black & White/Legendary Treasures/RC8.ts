@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Ralts",
+		'en-us': "Ralts",
 	},
 
 	illustrator: "Mizue",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hypnotic Gaze",
+				'en-us': "Hypnotic Gaze",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
+				'en-us': "The Defending Pokémon is now Asleep.",
 			},
 
 		},
@@ -42,7 +42,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
+				'en-us': "Pound",
 			},
 
 			damage: 20,
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
+		'en-us': "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
 	},
 
 	thirdParty: {

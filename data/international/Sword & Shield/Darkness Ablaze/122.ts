@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [305],
 
 	name: {
-		en: "Lairon",
-		fr: "Galegon",
-		es: "Lairon",
-		it: "Lairon",
-		pt: "Lairon",
-		de: "Stollrak"
+		'en-us': "Lairon",
+		'fr-fr': "Galegon",
+		'es-es': "Lairon",
+		'it-it': "Lairon",
+		'pt-br': "Lairon",
+		'de-de': "Stollrak"
 	},
 
 	illustrator: "Mizue",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Aron",
-		fr: "Galekid",
-		es: "Aron",
-		it: "Aron",
-		pt: "Aron",
-		de: "Stollunior"
+		'en-us': "Aron",
+		'fr-fr': "Galekid",
+		'es-es': "Aron",
+		'it-it': "Aron",
+		'pt-br': "Aron",
+		'de-de': "Stollunior"
 	},
 
 	attacks: [
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Away",
-				fr: "Asticotage",
-				es: "Derribar",
-				it: "Scaraventa",
-				pt: "Jogar Longe",
-				de: "Zurückschlagen"
+				'en-us': "Knock Away",
+				'fr-fr': "Asticotage",
+				'es-es': "Derribar",
+				'it-it': "Scaraventa",
+				'pt-br': "Jogar Longe",
+				'de-de': "Zurückschlagen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
-				pt: "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
-				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
+				'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
 			},
 			damage: "30+",
 
@@ -64,12 +64,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lunge Out",
-				fr: "Allonger",
-				es: "Arremeter",
-				it: "Affondo Lungo",
-				pt: "Bote",
-				de: "Sprungangriff"
+				'en-us': "Lunge Out",
+				'fr-fr': "Allonger",
+				'es-es': "Arremeter",
+				'it-it': "Affondo Lungo",
+				'pt-br': "Bote",
+				'de-de': "Sprungangriff"
 			},
 
 			damage: 50,
@@ -98,7 +98,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It habitually shows off its strength with the sparks it creates by ramming its steel body into boulders."
+		'en-us': "It habitually shows off its strength with the sparks it creates by ramming its steel body into boulders."
 	},
 
 	variants: [

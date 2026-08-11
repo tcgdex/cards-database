@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Silicobra",
-		fr: "Dunaja",
-		es: "Silicobra",
-		it: "Silicobra",
-		pt: "Silicobra",
-		de: "Salanga"
+		'en-us': "Silicobra",
+		'fr-fr': "Dunaja",
+		'es-es': "Silicobra",
+		'it-it': "Silicobra",
+		'pt-br': "Silicobra",
+		'de-de': "Salanga"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Mud-Slap",
-			fr: "Coud'Boue",
-			es: "Bofetón Lodo",
-			it: "Fangosberla",
-			pt: "Tapa de Lama",
-			de: "Lehmschelle"
+			'en-us': "Mud-Slap",
+			'fr-fr': "Coud'Boue",
+			'es-es': "Bofetón Lodo",
+			'it-it': "Fangosberla",
+			'pt-br': "Tapa de Lama",
+			'de-de': "Lehmschelle"
 		},
 
 		damage: 30
@@ -54,7 +54,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Silicobra's neck pouch, which can inflate and deflate like a balloon, gets more elastic each time Silicobra sheds its skin.",
+		'en-us': "Silicobra's neck pouch, which can inflate and deflate like a balloon, gets more elastic each time Silicobra sheds its skin.",
 	},
 
 	thirdParty: {

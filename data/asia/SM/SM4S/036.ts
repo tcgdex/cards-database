@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シュバルゴ",
+		'ja-jp': "シュバルゴ",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "チョボマキから 奪った 殻で 体を 覆い ガードしながら ２本の ヤリで 突いてくる。",
+		'ja-jp': "チョボマキから 奪った 殻で 体を 覆い ガードしながら ２本の ヤリで 突いてくる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Metal"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数x30ダメージ。",
+				'ja-jp': "コインを3回投げ、オモテの数x30ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カブルモ",
+		'ja-jp': "カブルモ",
 	},
 
 	retreat: 2,

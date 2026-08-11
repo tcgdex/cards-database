@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Emolga",
+		'en-us': "Emolga",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
+				'en-us': "Call for Family",
 			},
 			effect: {
-				en: "Search your deck for 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+				'en-us': "Search your deck for 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
 			},
 
 		},
@@ -41,7 +41,7 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Static Shock",
+				'en-us': "Static Shock",
 			},
 
 			damage: 20,
@@ -64,7 +64,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It glides on its outstretched membrane while shocking foes with the electricity stored in the pouches on its cheeks.",
+		'en-us': "It glides on its outstretched membrane while shocking foes with the electricity stored in the pouches on its cheeks.",
 	},
 
 	thirdParty: {

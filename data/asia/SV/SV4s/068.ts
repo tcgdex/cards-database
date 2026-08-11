@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Tinkaton"
+		'id-id': "Tinkaton"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Tinkaton mengayun-ayunkan palu yang beratnya melebihi 100 kilogram dengan mudahnya, lalu merebut barang yang diinginkannya dan membawanya pulang."
+		'id-id': "Tinkaton mengayun-ayunkan palu yang beratnya melebihi 100 kilogram dengan mudahnya, lalu merebut barang yang diinginkannya dan membawanya pulang."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			id: "Serangan Tunggal Kehancuran"
+			'id-id': "Serangan Tunggal Kehancuran"
 		},
 
 		effect: {
-			id: "Pilih 1 Energi yang dikenakan pada Pokémon Bertarung lawan, lalu buang ke Trash."
+			'id-id': "Pilih 1 Energi yang dikenakan pada Pokémon Bertarung lawan, lalu buang ke Trash."
 		},
 
 		damage: 30,
 		cost: ["Psychic"]
 	}, {
 		name: {
-			id: "Palu Logam Paduan"
+			'id-id': "Palu Logam Paduan"
 		},
 
 		effect: {
-			id: "Jika Pokémon ini mengenakan Energi {Logam}, kerusakan yang diberikan bertambah sejumlah 120."
+			'id-id': "Jika Pokémon ini mengenakan Energi {Logam}, kerusakan yang diberikan bertambah sejumlah 120."
 		},
 
 		damage: "60+",

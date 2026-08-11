@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Bellossom",
-		fr: "Joliflor",
-		de: "Blubella"
+		'en-us': "Bellossom",
+		'fr-fr': "Joliflor",
+		'de-de': "Blubella"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gloom",
-		fr: "Ortide"
+		'en-us': "Gloom",
+		'fr-fr': "Ortide"
 	},
 
 	stage: "Stage2",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sweet Nectar",
-				fr: "Doux nectar",
-				de: "Süßer Nektar"
+				'en-us': "Sweet Nectar",
+				'fr-fr': "Doux nectar",
+				'de-de': "Süßer Nektar"
 			},
 			effect: {
-				en: "Flip a coin. If heads, remove all damage counters from 1 of your Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, retirez tous les marqueurs de dégâts d'un de vos Pokémon.",
-				de: "Wirf eine Münze. Entferne bei 'Kopf' alle Schadensmarken von einem deiner Pokémon."
+				'en-us': "Flip a coin. If heads, remove all damage counters from 1 of your Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, retirez tous les marqueurs de dégâts d'un de vos Pokémon.",
+				'de-de': "Wirf eine Münze. Entferne bei 'Kopf' alle Schadensmarken von einem deiner Pokémon."
 			},
 
 		},
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flower Dance",
-				fr: "Valse des fleurs",
-				de: "Blumentanz"
+				'en-us': "Flower Dance",
+				'fr-fr': "Valse des fleurs",
+				'de-de': "Blumentanz"
 			},
 			effect: {
-				en: "Does 30 damage times the number of cards with Bellossom in their names that you have in play (including this one).",
-				fr: "Inflige 30 dégâts multipliés par le nombre de cartes que vous avez en jeu et dont le nom contient Joliflor (y compris celle-ci).",
-				de: "Fügt 30 Schadenspunkte mal der Anzahl an Karten mit Blubella im Titel, die du im Spiel hast (einschließlich dieser), zu."
+				'en-us': "Does 30 damage times the number of cards with Bellossom in their names that you have in play (including this one).",
+				'fr-fr': "Inflige 30 dégâts multipliés par le nombre de cartes que vous avez en jeu et dont le nom contient Joliflor (y compris celle-ci).",
+				'de-de': "Fügt 30 Schadenspunkte mal der Anzahl an Karten mit Blubella im Titel, die du im Spiel hast (einschließlich dieser), zu."
 			},
 			damage: "30x",
 
@@ -78,8 +78,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Plentiful in the tropics. When it dances, its petals rub together and make a pleasant ringing sound.",
-		fr: "Il pullule sous les tropiques. Lorsqu'il danse, ses pétales se frottent en faisant un agréable son de cloches."
+		'en-us': "Plentiful in the tropics. When it dances, its petals rub together and make a pleasant ringing sound.",
+		'fr-fr': "Il pullule sous les tropiques. Lorsqu'il danse, ses pétales se frottent en faisant un agréable son de cloches."
 	},
 
 

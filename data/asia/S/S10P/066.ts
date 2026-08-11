@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タイサイ",
+		'ja-jp': "タイサイ",
 		'zh-tw': "曉白",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのプレイヤーは、それぞれ、自分の手札をオモテにして、おたがいに見せ合う。自分の山札を3枚引く。",
+		'ja-jp': "おたがいのプレイヤーは、それぞれ、自分の手札をオモテにして、おたがいに見せ合う。自分の山札を3枚引く。",
 		'zh-tw': "雙方玩家各將自己的手牌翻到正面後，雙方互看。從自己的牌庫抽出3張卡。",
 	},
 

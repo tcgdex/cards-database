@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Energy Switch",
-		fr: "Échange d’Énergie",
-		es: "Interruptor de Energía",
-		it: "Scambio di Energia",
-		pt: "Substituição de Energia",
-		de: "Energie-Umschalter"
+		'en-us': "Energy Switch",
+		'fr-fr': "Échange d’Énergie",
+		'es-es': "Interruptor de Energía",
+		'it-it': "Scambio di Energia",
+		'pt-br': "Substituição de Energia",
+		'de-de': "Energie-Umschalter"
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -17,12 +17,12 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Déplacez une Énergie de base de l’un de vos Pokémon vers un autre de vos Pokémon.",
-		en: "Move a basic Energy from 1 of your Pokémon to another of your Pokémon.",
-		es: "Mueve una Energía Básica de 1 de tus Pokémon a otro de tus Pokémon.",
-		it: "Sposta un’Energia base da uno dei tuoi Pokémon a un altro.",
-		pt: "Mova uma Energia básica de 1 dos seus Pokémon para outro dos seus Pokémon.",
-		de: "Verschiebe 1 an 1 deiner Pokémon angelegte Basis-Energie auf ein anderes deiner Pokémon."
+		'fr-fr': "Déplacez une Énergie de base de l’un de vos Pokémon vers un autre de vos Pokémon.",
+		'en-us': "Move a basic Energy from 1 of your Pokémon to another of your Pokémon.",
+		'es-es': "Mueve una Energía Básica de 1 de tus Pokémon a otro de tus Pokémon.",
+		'it-it': "Sposta un’Energia base da uno dei tuoi Pokémon a un altro.",
+		'pt-br': "Mova uma Energia básica de 1 dos seus Pokémon para outro dos seus Pokémon.",
+		'de-de': "Verschiebe 1 an 1 deiner Pokémon angelegte Basis-Energie auf ein anderes deiner Pokémon."
 	},
 
 	trainerType: "Item",

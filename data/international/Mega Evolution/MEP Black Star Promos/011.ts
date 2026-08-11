@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mega Latias ex",
-		fr: "Méga-Latias-ex",
-		de: "Mega-Latias-ex",
-		it: "Mega Latias-ex",
-		es: "Mega-Latias ex",
-		pt: "Mega Latias ex",
+		'en-us': "Mega Latias ex",
+		'fr-fr': "Méga-Latias-ex",
+		'de-de': "Mega-Latias-ex",
+		'it-it': "Mega Latias-ex",
+		'es-es': "Mega-Latias ex",
+		'pt-br': "Mega Latias ex",
 		'es-mx': "Mega-Latias ex"
 	},
 
@@ -27,22 +27,22 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Strafe",
-			fr: "Bombarder",
-			de: "Beharken",
-			it: "Mitragliare",
-			es: "Pasada de Ataque",
-			pt: "Bombardear",
+			'en-us': "Strafe",
+			'fr-fr': "Bombarder",
+			'de-de': "Beharken",
+			'it-it': "Mitragliare",
+			'es-es': "Pasada de Ataque",
+			'pt-br': "Bombardear",
 			'es-mx': "Ataque de Revés"
 		},
 
 		effect: {
-			en: "You may switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Vous pouvez échanger ce Pokémon contre l'un de vos Pokémon de Banc.",
-			de: "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen.",
-			it: "Puoi scambiare questo Pokémon con uno nella tua panchina.",
-			es: "Puedes cambiar este Pokémon por uno de tus Pokémon en Banca.",
-			pt: "Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
+			'en-us': "You may switch this Pokémon with 1 of your Benched Pokémon.",
+			'fr-fr': "Vous pouvez échanger ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'de-de': "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen.",
+			'it-it': "Puoi scambiare questo Pokémon con uno nella tua panchina.",
+			'es-es': "Puedes cambiar este Pokémon por uno de tus Pokémon en Banca.",
+			'pt-br': "Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
 			'es-mx': "Puedes cambiar este Pokémon por 1 de tus Pokémon en Banca."
 		},
 
@@ -51,22 +51,22 @@ const card: Card = {
 		cost: ["Fire", "Psychic", "Colorless"],
 
 		name: {
-			en: "Illusory Impulse",
-			fr: "Impulsion Illusoire",
-			de: "Illusorischer Impuls",
-			it: "Impulso Illusorio",
-			es: "Impulso Ilusorio",
-			pt: "Impulso Ilusório",
+			'en-us': "Illusory Impulse",
+			'fr-fr': "Impulsion Illusoire",
+			'de-de': "Illusorischer Impuls",
+			'it-it': "Impulso Illusorio",
+			'es-es': "Impulso Ilusorio",
+			'pt-br': "Impulso Ilusório",
 			'es-mx': "Impulso Ilusorio"
 		},
 
 		effect: {
-			en: "Discard all Energy from this Pokémon.",
-			fr: "Défaussez toutes les Énergies de ce Pokémon.",
-			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel.",
-			it: "Scarta tutte le Energie da questo Pokémon.",
-			es: "Descarta todas las Energías de este Pokémon.",
-			pt: "Descarte todas as Energias deste Pokémon.",
+			'en-us': "Discard all Energy from this Pokémon.",
+			'fr-fr': "Défaussez toutes les Énergies de ce Pokémon.",
+			'de-de': "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel.",
+			'it-it': "Scarta tutte le Energie da questo Pokémon.",
+			'es-es': "Descarta todas las Energías de este Pokémon.",
+			'pt-br': "Descarte todas as Energias deste Pokémon.",
 			'es-mx': "Descarta todas las Energías de este Pokémon."
 		},
 

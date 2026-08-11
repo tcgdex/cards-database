@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "泳圈鼬",
-		ja: "ブイゼル"
+		'ja-jp': "ブイゼル"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "使脖子上的浮囊膨脹，從水面露出臉， 觀察著周圍的樣子。",
-		ja: "首の 浮き袋を ふくらませ 水面から 顔を だして 辺りの 様子を うかがっている。"
+		'ja-jp': "首の 浮き袋を ふくらませ 水面から 顔を だして 辺りの 様子を うかがっている。"
 	},
 
 	stage: "Basic",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "高速移動",
-			ja: "こうそくいどう"
+			'ja-jp': "こうそくいどう"
 		},
 
 		effect: {
 			'zh-tw': "擲1次硬幣若為正面，則在下個對手的回合，這隻寶可夢不會受到招式的傷害與效果的影響。",
-			ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。"
+			'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。"
 		},
 
 		damage: 20,

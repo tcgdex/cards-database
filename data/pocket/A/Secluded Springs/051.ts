@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Inkay",
-		fr: "Sepiatop"
+		'en-us': "Inkay",
+		'fr-fr': "Sepiatop"
 	},
 
 	illustrator: "miki kudo",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "It spins while making its luminescent spots flash.\nThese spots allow it to communicate with others\nby using different patterns of light.",
-		fr: "Il fait clignoter son corps lumineux en tournoyant. Il communique avec ses congénères à l'aide de signaux de lumière."
+		'en-us': "It spins while making its luminescent spots flash.\nThese spots allow it to communicate with others\nby using different patterns of light.",
+		'fr-fr': "Il fait clignoter son corps lumineux en tournoyant. Il communique avec ses congénères à l'aide de signaux de lumière."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Tackle",
-			fr: "Charge"
+			'en-us': "Tackle",
+			'fr-fr': "Charge"
 		},
 
 		damage: 20,

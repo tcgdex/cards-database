@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Wailmer",
-		fr: "Wailmer",
-		es: "Wailmer",
-		it: "Wailmer",
-		pt: "Wailmer",
-		de: "Wailmer"
+		'en-us': "Wailmer",
+		'fr-fr': "Wailmer",
+		'es-es': "Wailmer",
+		'it-it': "Wailmer",
+		'pt-br': "Wailmer",
+		'de-de': "Wailmer"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lullaby",
-				fr: "Comptine",
+				'en-us': "Lullaby",
+				'fr-fr': "Comptine",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
 			},
 
 		},
@@ -50,8 +50,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
 			},
 
 			damage: 30,
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "On sunny days, it lands on beaches to bounce like a ball and play. It spouts water from its nose.",
+		'en-us': "On sunny days, it lands on beaches to bounce like a ball and play. It spouts water from its nose.",
 	},
 
 	thirdParty: {

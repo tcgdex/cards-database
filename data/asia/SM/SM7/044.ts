@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デオキシス",
+		'ja-jp': "デオキシス",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "宇宙ウイルスが 突然変異を 起こして ポケモンに なった。 オーロラの 近くに 現れる。",
+		'ja-jp': "宇宙ウイルスが 突然変異を 起こして ポケモンに なった。 オーロラの 近くに 現れる。",
 	},
 
 	stage: "Basic",
@@ -24,14 +24,14 @@ const card: Card = {
 			damage: 20,
 			cost: ["Psychic"],
 			effect: {
-				ja: "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 		{
 			name: { ja: "スピアダイブ" },
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のポケモン1匹に、50ダメージ。このワザのダメージは弱点・抵抗力を計算しない。",
+				'ja-jp': "相手のポケモン1匹に、50ダメージ。このワザのダメージは弱点・抵抗力を計算しない。",
 			},
 		},
 	],

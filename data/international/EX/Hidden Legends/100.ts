@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Vileplume ex",
-		fr: "Rafflesia ex",
-		de: "Giflor ex"
+		'en-us': "Vileplume ex",
+		'fr-fr': "Rafflesia ex",
+		'de-de': "Giflor ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gloom",
-		fr: "Ortide"
+		'en-us': "Gloom",
+		'fr-fr': "Ortide"
 	},
 
 	suffix: "ex",
@@ -33,14 +33,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Block Dust",
-				fr: "Bloque-poussière",
-				de: "Block Dust"
+				'en-us': "Block Dust",
+				'fr-fr': "Bloque-poussière",
+				'de-de': "Block Dust"
 			},
 			effect: {
-				en: "As long as Vileplume ex is your Active Pokémon, your opponent can't play any Trainer cards (except for Supporter cards) from his or her hand.",
-				fr: "Tant que Rafflesia ex est votre Pokémon Actif, votre adversaire ne peut pas jouer de cartes Dresseur de sa main (cartes Supporter exclues).",
-				de: "As long as Vileplume ex is your Active Pokémon, your opponent can't play any Trainer cards (except for Supporter cards) from his or her hand."
+				'en-us': "As long as Vileplume ex is your Active Pokémon, your opponent can't play any Trainer cards (except for Supporter cards) from his or her hand.",
+				'fr-fr': "Tant que Rafflesia ex est votre Pokémon Actif, votre adversaire ne peut pas jouer de cartes Dresseur de sa main (cartes Supporter exclues).",
+				'de-de': "As long as Vileplume ex is your Active Pokémon, your opponent can't play any Trainer cards (except for Supporter cards) from his or her hand."
 			}
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Special Formula",
-				fr: "Formule spéciale",
-				de: "Special Formula"
+				'en-us': "Special Formula",
+				'fr-fr': "Formule spéciale",
+				'de-de': "Special Formula"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep and Poisoned. If tails, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi et Empoisonné. Si c'est pile, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Asleep and Poisoned. If tails, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep and Poisoned. If tails, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi et Empoisonné. Si c'est pile, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Asleep and Poisoned. If tails, the Defending Pokémon is now Confused."
 			},
 			damage: 50,
 

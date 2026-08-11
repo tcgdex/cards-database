@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Manectric",
-		fr: "Elecsprint de Team Aqua",
-		de: "Team Aquas Voltenso"
+		'en-us': "Team Aqua's Manectric",
+		'fr-fr': "Elecsprint de Team Aqua",
+		'de-de': "Team Aquas Voltenso"
 	},
 
 	illustrator: "K. Utsunomiya",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Beam",
-				fr: "Aqua-laser",
-				de: "Aqua Beam"
+				'en-us': "Aqua Beam",
+				'fr-fr': "Aqua-laser",
+				'de-de': "Aqua Beam"
 			},
 			effect: {
-				en: "If the Defending Pokémon has Team Magma in its name, the Defending Pokémon is now Confused.",
-				fr: "Si le nom du Pokémon Défenseur comporte Team Magma, le Pokémon Défenseur est maintenant Confus.",
-				de: "If the Defending Pokémon has Team Magma in its name, the Defending Pokémon is now Confused."
+				'en-us': "If the Defending Pokémon has Team Magma in its name, the Defending Pokémon is now Confused.",
+				'fr-fr': "Si le nom du Pokémon Défenseur comporte Team Magma, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "If the Defending Pokémon has Team Magma in its name, the Defending Pokémon is now Confused."
 			},
 			damage: 20,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Chaos Crush",
-				fr: "Écrasement chaotique",
-				de: "Chaos Crush"
+				'en-us': "Chaos Crush",
+				'fr-fr': "Écrasement chaotique",
+				'de-de': "Chaos Crush"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Confused, discard an Energy card attached to the Defending Pokémon.",
-				fr: "Si le Pokémon Défenseur est Confus, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "If the Defending Pokémon is Confused, discard an Energy card attached to the Defending Pokémon."
+				'en-us': "If the Defending Pokémon is Confused, discard an Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Si le Pokémon Défenseur est Confus, défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "If the Defending Pokémon is Confused, discard an Energy card attached to the Defending Pokémon."
 			},
 			damage: 50,
 

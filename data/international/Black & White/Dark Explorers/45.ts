@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Tynamo",
-		fr: "Anchwatt",
-		es: "Tynamo",
-		it: "Tynamo",
-		pt: "Tynamo",
-		de: "Zapplardin"
+		'en-us': "Tynamo",
+		'fr-fr': "Anchwatt",
+		'es-es': "Tynamo",
+		'it-it': "Tynamo",
+		'pt-br': "Tynamo",
+		'de-de': "Zapplardin"
 	},
 
 	illustrator: "Akira Komayama",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Spark",
-				fr: "Étincelle"
+				'en-us': "Spark",
+				'fr-fr': "Étincelle"
 			},
 			effect: {
-				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+				'en-us': "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "These Pokémon move in schools. They have an electricity-generating organ, so they discharge electricity if in danger.",
+		'en-us': "These Pokémon move in schools. They have an electricity-generating organ, so they discharge electricity if in danger.",
 	},
 
 	thirdParty: {

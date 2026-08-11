@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Natu",
-		fr: "Natu",
-		es: "Natu",
-		it: "Natu",
-		pt: "Natu",
-		de: "Natu"
+		'en-us': "Natu",
+		'fr-fr': "Natu",
+		'es-es': "Natu",
+		'it-it': "Natu",
+		'pt-br': "Natu",
+		'de-de': "Natu"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				es: "Picotazo",
-				it: "Beccata",
-				pt: "Bicada",
-				de: "Schnabel"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'es-es': "Picotazo",
+				'it-it': "Beccata",
+				'pt-br': "Bicada",
+				'de-de': "Schnabel"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots.",
+		'en-us': "It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots.",
 	},
 
 	thirdParty: {

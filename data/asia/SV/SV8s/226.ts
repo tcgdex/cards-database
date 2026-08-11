@@ -1,18 +1,18 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Tatapan Jasmine"
+		'id-id': "Tatapan Jasmine"
 	},
 
 	illustrator: "Taira Akitsu",
 	category: "Trainer",
 
 	effect: {
-		id: "Pada giliran lawan berikutnya, kerusakan akibat serangan dari Pokémon lawan yang diterima semua Pokémon sendiri berkurang sejumlah 30. (Termasuk Pokémon yang baru dimasukkan ke Arena.)"
+		'id-id': "Pada giliran lawan berikutnya, kerusakan akibat serangan dari Pokémon lawan yang diterima semua Pokémon sendiri berkurang sejumlah 30. (Termasuk Pokémon yang baru dimasukkan ke Arena.)"
 	},
 
 	trainerType: "Supporter",

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トルネロスVMAX",
+		'ja-jp': "トルネロスVMAX",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: "120+",
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "場にスタジアムが出ているなら、120ダメージ追加。その後、そのスタジアムをトラッシュする。",
+				'ja-jp': "場にスタジアムが出ているなら、120ダメージ追加。その後、そのスタジアムをトラッシュする。",
 			},
 		},
 	],
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "トルネロスV",
+		'ja-jp': "トルネロスV",
 	},
 
 	retreat: 2,

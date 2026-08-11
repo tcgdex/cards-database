@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガラル サンダーV",
+		'ja-jp': "ガラル サンダーV",
 		'zh-tw': "伽勒爾 閃電鳥V",
 	},
 
@@ -19,11 +19,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "とうそうほんのう",
+				'ja-jp': "とうそうほんのう",
 				'zh-tw': "鬥爭本能",
 			},
 			effect: {
-				ja: "相手の場の「ポケモンV」の数ぶん、このポケモンがワザを使うための【無】エネルギーは少なくなる。",
+				'ja-jp': "相手の場の「ポケモンV」の数ぶん、このポケモンがワザを使うための【無】エネルギーは少なくなる。",
 				'zh-tw': "這隻寶可夢使用招式所需的【無】能量，減少對手的場上的「寶可夢【V】」的數量。",
 			},
 		},
@@ -32,13 +32,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "らいめいげり",
+				'ja-jp': "らいめいげり",
 				'zh-tw': "雷鳴蹴擊",
 			},
 			damage: 170,
 			cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "ダメージを与える前に、相手のバトルポケモンについている特殊エネルギーを1個選び、トラッシュする。",
+				'ja-jp': "ダメージを与える前に、相手のバトルポケモンについている特殊エネルギーを1個選び、トラッシュする。",
 				'zh-tw': "在造成傷害前，選擇1個對手的戰鬥寶可夢身上附加的特殊能量，將其丟棄。",
 			},
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナンジャモのズピカ",
+		'ja-jp': "ナンジャモのズピカ",
 	},
 
 	illustrator: "kurumitsu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "尻尾を 振って 発電する。 危険を 感じると 頭を 点滅させて 仲間に 伝える。",
+		'ja-jp': "尻尾を 振って 発電する。 危険を 感じると 頭を 点滅させて 仲間に 伝える。",
 	},
 
 	stage: "Basic",

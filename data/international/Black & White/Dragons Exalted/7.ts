@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Silcoon",
-		fr: "Armulys",
-		es: "Silcoon",
-		it: "Silcoon",
-		pt: "Silcoon",
-		de: "Schaloko"
+		'en-us': "Silcoon",
+		'fr-fr': "Armulys",
+		'es-es': "Silcoon",
+		'it-it': "Silcoon",
+		'pt-br': "Silcoon",
+		'de-de': "Schaloko"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wurmple",
-		fr: "Chenipotte",
+		'en-us': "Wurmple",
+		'fr-fr': "Chenipotte",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Harden",
-				fr: "Armure",
+				'en-us': "Harden",
+				'fr-fr': "Armure",
 			},
 			effect: {
-				en: "During your opponent's next turn, if this Pokémon would be damaged by an attack, prevent that attack's damage done to this Pokémon if that damage is 60 or less.",
-				fr: "Pendant le prochain tour de votre adversaire, si ce Pokémon doit subir les dégâts d'une attaque, évitez les dégâts infligés à ce Pokémon si ces dégâts sont de 60 ou moins.",
+				'en-us': "During your opponent's next turn, if this Pokémon would be damaged by an attack, prevent that attack's damage done to this Pokémon if that damage is 60 or less.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, si ce Pokémon doit subir les dégâts d'une attaque, évitez les dégâts infligés à ce Pokémon si ces dégâts sont de 60 ou moins.",
 			},
 
 		},
@@ -55,8 +55,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bug Bite",
-				fr: "Piqûre",
+				'en-us': "Bug Bite",
+				'fr-fr': "Piqûre",
 			},
 
 			damage: 40,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It wraps silk around the branches of a tree. It drinks rainwater on its silk while awaiting evolution.",
+		'en-us': "It wraps silk around the branches of a tree. It drinks rainwater on its silk while awaiting evolution.",
 	},
 
 	thirdParty: {

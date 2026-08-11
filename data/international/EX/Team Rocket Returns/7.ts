@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Dark Marowak",
-		de: "Dunkles Knogga"
+		'en-us': "Dark Marowak",
+		'de-de': "Dunkles Knogga"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cubone",
+		'en-us': "Cubone",
 	},
 
 	stage: "Stage1",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Brick Smash",
-				de: "Brick Smash"
+				'en-us': "Brick Smash",
+				'de-de': "Brick Smash"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				de: "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+				'en-us': "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'de-de': "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
 			},
 			damage: 30,
 
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hard Bone",
-				de: "Hard Bone"
+				'en-us': "Hard Bone",
+				'de-de': "Hard Bone"
 			},
 			effect: {
-				en: "Discard a Basic Pokémon or Evolution card from your hand or this attack does nothing.",
-				de: "Discard a Basic Pokémon or Evolution card from your hand or this attack does nothing."
+				'en-us': "Discard a Basic Pokémon or Evolution card from your hand or this attack does nothing.",
+				'de-de': "Discard a Basic Pokémon or Evolution card from your hand or this attack does nothing."
 			},
 			damage: 70,
 

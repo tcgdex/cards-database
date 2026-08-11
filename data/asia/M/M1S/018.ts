@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガユキノオーex"
+		'ja-jp': "メガユキノオーex"
 	},
 	illustrator: "5ban Graphics",
 	category: "Pokemon",
@@ -22,24 +22,24 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ユキカブリ"
+		'ja-jp': "ユキカブリ"
 	},
 	attacks: [{
 		name: {
-			ja: "アバランチハンマー"
+			'ja-jp': "アバランチハンマー"
 		},
 		damage: "100×",
 		effect: {
-			ja: "自分の山札を上から6枚トラッシュし、その中にある「基本水エネルギー」の枚数×100ダメージ。"
+			'ja-jp': "自分の山札を上から6枚トラッシュし、その中にある「基本水エネルギー」の枚数×100ダメージ。"
 		},
 		cost: ["Water", "Water"]
 	}, {
 		name: {
-			ja: "フロストバリア"
+			'ja-jp': "フロストバリア"
 		},
 		damage: 200,
 		effect: {
-			ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。"
+			'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。"
 		},
 		cost: ["Water", "Water", "Water"]
 	}],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	name: {
-		en: "Galarian Darumaka",
-		fr: "Darumarond de Galar",
-		es: "Darumaka de Galar",
-		it: "Darumaka di Galar",
-		pt: "Darumaka de Galar",
-		de: "Galar-Flampion"
+		'en-us': "Galarian Darumaka",
+		'fr-fr': "Darumarond de Galar",
+		'es-es': "Darumaka de Galar",
+		'it-it': "Darumaka di Galar",
+		'pt-br': "Darumaka de Galar",
+		'de-de': "Galar-Flampion"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'Boule",
-				es: "Golpe Cabeza",
-				it: "Bottintesta",
-				pt: "Cabeçada",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'Boule",
+				'es-es': "Golpe Cabeza",
+				'it-it': "Bottintesta",
+				'pt-br': "Cabeçada",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 20,
@@ -72,7 +72,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It lived in snowy areas for so long that its fire sac cooled off and atrophied. It now has an organ that generates cold instead."
+		'en-us': "It lived in snowy areas for so long that its fire sac cooled off and atrophied. It now has an organ that generates cold instead."
 	},
 
 	variants: [

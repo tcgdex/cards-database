@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "リオル"
+		'ja-jp': "リオル"
 	},
 
 	illustrator: "Nelnal",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "仲間同士で 波動を 出して コミュニケーションを とっている。 一晩中 走り続けられる。"
+		'ja-jp': "仲間同士で 波動を 出して コミュニケーションを とっている。 一晩中 走り続けられる。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "パンチ"
+			'ja-jp': "パンチ"
 		},
 
 		damage: 10
@@ -32,13 +32,13 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			ja: "とつげき"
+			'ja-jp': "とつげき"
 		},
 
 		damage: 50,
 
 		effect: {
-			ja: "このポケモンにも20ダメージ。"
+			'ja-jp': "このポケモンにも20ダメージ。"
 		}
 	}],
 

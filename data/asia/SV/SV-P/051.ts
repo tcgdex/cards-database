@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "セゴール",
+		'ja-jp': "セゴール",
 		'zh-tw': "比克提尼ex",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "まわりの 空気を 凍らせて 氷のマスクで 顔を 守り 背びれを 氷の剣に 変える。",
+		'ja-jp': "まわりの 空気を 凍らせて 氷のマスクで 顔を 守り 背びれを 氷の剣に 変える。",
 	},
 
 	stage: "Stage1",
@@ -22,7 +22,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "するどいひれ",
+				'ja-jp': "するどいひれ",
 				'zh-tw': "狡兔三窟",
 			},
 			damage: 40,
@@ -30,7 +30,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "フロストスマッシュ",
+				'ja-jp': "フロストスマッシュ",
 				'zh-tw': "勝利火焰",
 			},
 			damage: 80,
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "セビエ",
+		'ja-jp': "セビエ",
 	},
 
 	retreat: 2,

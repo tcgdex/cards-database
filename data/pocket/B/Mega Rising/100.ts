@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mismagius"
+		'en-us': "Mismagius"
 	},
 
 	illustrator: "NC Empire",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Misdreavus"
+		'en-us': "Misdreavus"
 	},
 
 	description: {
-		en: "Its cries sound like incantations to torment the\nfoe. It appears where you least expect it."
+		'en-us': "Its cries sound like incantations to torment the\nfoe. It appears where you least expect it."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Spooky Shot"
+			'en-us': "Spooky Shot"
 		},
 
 		damage: 70,

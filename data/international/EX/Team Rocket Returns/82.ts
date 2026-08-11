@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Zubat",
-		de: "Zubat"
+		'en-us': "Zubat",
+		'de-de': "Zubat"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Streak",
-				de: "Dark Streak"
+				'en-us': "Dark Streak",
+				'de-de': "Dark Streak"
 			},
 			effect: {
-				en: "Flip a coin. If heads, each Defending Pokémon is now Paralyzed.",
-				de: "Flip a coin. If heads, each Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, each Defending Pokémon is now Paralyzed.",
+				'de-de': "Flip a coin. If heads, each Defending Pokémon is now Paralyzed."
 			},
 
 		},
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ambush",
-				de: "Ambush"
+				'en-us': "Ambush",
+				'de-de': "Ambush"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				de: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'de-de': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
 			},
 			damage: "20+",
 

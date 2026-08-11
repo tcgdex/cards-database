@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Swoobat",
-		fr: "Rhinolove",
-		es: "Swoobat",
-		it: "Swoobat",
-		pt: "Swoobat",
-		de: "Fletiamo"
+		'en-us': "Swoobat",
+		'fr-fr': "Rhinolove",
+		'es-es': "Swoobat",
+		'it-it': "Swoobat",
+		'pt-br': "Swoobat",
+		'de-de': "Fletiamo"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Woobat",
-		fr: "Chovsourir",
+		'en-us': "Woobat",
+		'fr-fr': "Chovsourir",
 	},
 
 	stage: "Stage1",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psyshot",
-				fr: "Piqûre Psy",
+				'en-us': "Psyshot",
+				'fr-fr': "Piqûre Psy",
 			},
 
 			damage: 30,
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Phat Sound",
-				fr: "Cri Perçant",
+				'en-us': "Phat Sound",
+				'fr-fr': "Cri Perçant",
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Anyone who comes into contact with the ultrasonic waves emitted by a courting male experiences a positive mood shift.",
+		'en-us': "Anyone who comes into contact with the ultrasonic waves emitted by a courting male experiences a positive mood shift.",
 	},
 
 	thirdParty: {

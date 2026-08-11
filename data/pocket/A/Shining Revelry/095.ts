@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Shining Revelry"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bibarel ex",
-		fr: "Castorno-ex",
-		es: "Bibarel ex",
-		it: "Bibarel-ex",
-		de: "Bidifas-ex",
+		'en-us': "Bibarel ex",
+		'fr-fr': "Castorno-ex",
+		'es-es': "Bibarel ex",
+		'it-it': "Bibarel-ex",
+		'de-de': "Bidifas-ex",
 		'pt-br': "Bibarel ex",
-		ko: "비버통 ex"
+		'ko-kr': "비버통 ex"
 	},
 
 	illustrator: "USGMEN",
@@ -23,7 +23,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Bidoof"
+		'en-us': "Bidoof"
 	},
 
 	stage: "Stage1",
@@ -31,26 +31,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Carefree Press",
-			fr: "Pression Insouciante",
-			es: "Presión Despreocupada",
-			it: "Pressa Spensierata",
-			de: "Entspannter Druck",
+			'en-us': "Carefree Press",
+			'fr-fr': "Pression Insouciante",
+			'es-es': "Presión Despreocupada",
+			'it-it': "Pressa Spensierata",
+			'de-de': "Entspannter Druck",
 			'pt-br': "Aperto Despreocupado",
-			ko: "유유자적 프레스"
+			'ko-kr': "유유자적 프레스"
 		},
 
 		damage: 100,
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon.",
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon.",
 			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
-			ko: "이 포켓몬의 HP를 30회복."
+			'ko-kr': "이 포켓몬의 HP를 30회복."
 		}
 	}],
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウインディ",
+		'ja-jp': "ウインディ",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "大昔に とある 武将と ともに 戦い 国を 治めた という 伝説が 残されている。",
+		'ja-jp': "大昔に とある 武将と ともに 戦い 国を 治めた という 伝説が 残されている。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Fire", "Fire", "Fire"],
 			effect: {
-				ja: "自分のトラッシュにある[炎]エネルギーを2枚、ベンチポケモン1匹につける。",
+				'ja-jp': "自分のトラッシュにある[炎]エネルギーを2枚、ベンチポケモン1匹につける。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 190,
 			cost: ["Fire", "Fire", "Fire", "Fire"],
 			effect: {
-				ja: "このポケモンにも50ダメージ。",
+				'ja-jp': "このポケモンにも50ダメージ。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ガーディ",
+		'ja-jp': "ガーディ",
 	},
 
 	retreat: 4,

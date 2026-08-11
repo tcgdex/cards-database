@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カエンジシ"
+		'ja-jp': "カエンジシ"
 	},
 
 	illustrator: "Po-Suzuki",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "群れの メスが 協力して 獲物を 仕留める。 メスたちの おかげで 群れが 飢えないのだ。"
+		'ja-jp': "群れの メスが 協力して 獲物を 仕留める。 メスたちの おかげで 群れが 飢えないのだ。"
 	},
 
 	stage: "Stage1",
@@ -24,23 +24,23 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "こがす"
+			'ja-jp': "こがす"
 		},
 
 		effect: {
-			ja: "相手のバトルポケモンをやけどにする。"
+			'ja-jp': "相手のバトルポケモンをやけどにする。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "かけぬける"
+			'ja-jp': "かけぬける"
 		},
 
 		damage: 60,
 
 		effect: {
-			ja: "相手のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			'ja-jp': "相手のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
 		}
 	}],
 

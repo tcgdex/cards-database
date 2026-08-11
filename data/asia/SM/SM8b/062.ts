@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マッシブーン",
+		'ja-jp': "マッシブーン",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "謎の 生物 ＵＢ。 一発の パンチで ダンプカーを 粉砕する 光景が 目撃 された。",
+		'ja-jp': "謎の 生物 ＵＢ。 一発の パンチで ダンプカーを 粉砕する 光景が 目撃 された。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Fighting"],
 			effect: {
-				ja: "相手のサイドの残り枚数が4枚なら、90ダメージ追加。",
+				'ja-jp': "相手のサイドの残り枚数が4枚なら、90ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x20ダメージ追加。",
+				'ja-jp': "コインを2回投げ、オモテの数x20ダメージ追加。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴローン",
+		'ja-jp': "ゴローン",
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "崖を 登り 山頂を 目指す。 てっぺんに 着くなり すぐに 来た 山道を 転がり 落ちていく。",
+		'ja-jp': "崖を 登り 山頂を 目指す。 てっぺんに 着くなり すぐに 来た 山道を 転がり 落ちていく。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イシツブテ",
+		'ja-jp': "イシツブテ",
 	},
 
 	retreat: 4,

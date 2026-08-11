@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sizzlipede",
-		fr: "Grillepattes",
-		de: "Thermopod",
-		it: "Sizzlipede",
-		es: "Sizzlipede",
-		pt: "Sizzlipede",
+		'en-us': "Sizzlipede",
+		'fr-fr': "Grillepattes",
+		'de-de': "Thermopod",
+		'it-it': "Sizzlipede",
+		'es-es': "Sizzlipede",
+		'pt-br': "Sizzlipede",
 		'es-mx': "Sizzlipede"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			de: "Ramme",
-			it: "Carica",
-			es: "Apisonar",
-			pt: "Aríete",
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'de-de': "Ramme",
+			'it-it': "Carica",
+			'es-es': "Apisonar",
+			'pt-br': "Aríete",
 			'es-mx': "Colisión"
 		},
 
@@ -40,12 +40,12 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Combustion",
-			fr: "Fournaise",
-			de: "Glühen",
-			it: "Fuoco Continuo",
-			es: "Combustión",
-			pt: "Combustão",
+			'en-us': "Combustion",
+			'fr-fr': "Fournaise",
+			'de-de': "Glühen",
+			'it-it': "Fuoco Continuo",
+			'es-es': "Combustión",
+			'pt-br': "Combustão",
 			'es-mx': "Combustión"
 		},
 

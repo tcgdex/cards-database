@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Slakoth",
-		fr: "Parecool",
-		es: "Slakoth",
-		it: "Slakoth",
-		pt: "Slakoth",
-		de: "Bummelz"
+		'en-us': "Slakoth",
+		'fr-fr': "Parecool",
+		'es-es': "Slakoth",
+		'it-it': "Slakoth",
+		'pt-br': "Slakoth",
+		'de-de': "Bummelz"
 	},
 
 	illustrator: "Kanako Eo",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smack 'n' Slack",
-				fr: "Raclée Dodo",
+				'en-us': "Smack 'n' Slack",
+				'fr-fr': "Raclée Dodo",
 			},
 			effect: {
-				en: "This Pokémon is now Asleep.",
-				fr: "Ce Pokémon est maintenant Endormi.",
+				'en-us': "This Pokémon is now Asleep.",
+				'fr-fr': "Ce Pokémon est maintenant Endormi.",
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It spends nearly all its time in a day sprawled out. Just seeing it makes one drowsy.",
+		'en-us': "It spends nearly all its time in a day sprawled out. Just seeing it makes one drowsy.",
 	},
 
 	thirdParty: {

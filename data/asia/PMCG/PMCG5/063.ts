@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリカのミニリュウ",
+		'ja-jp': "エリカのミニリュウ",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "奇妙な障壁",
+				'ja-jp': "奇妙な障壁",
 			},
 			effect: {
-				ja: "基本的なPokmon <em>（あなた自身を含む）による攻撃がエリカのDratini <em>（脱力感と抵抗を適用した後）</em>に20以上のダメージを与えたときはいつでも、その損傷を10に減らします（攻撃の他の効果はまだ起こります）",
+				'ja-jp': "基本的なPokmon <em>（あなた自身を含む）による攻撃がエリカのDratini <em>（脱力感と抵抗を適用した後）</em>に20以上のダメージを与えたときはいつでも、その損傷を10に減らします（攻撃の他の効果はまだ起こります）",
 			},
 		}],
 
@@ -30,10 +30,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "テールストライク",
+				'ja-jp': "テールストライク",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて20ダメージを与えます。尾の場合、この攻撃は10ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて20ダメージを与えます。尾の場合、この攻撃は10ダメージを与えます。",
 			},
 		},
 	],

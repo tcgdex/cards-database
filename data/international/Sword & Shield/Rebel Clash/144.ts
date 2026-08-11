@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [520],
 
 	name: {
-		en: "Tranquill",
-		fr: "Colombeau",
-		es: "Tranquill",
-		it: "Tranquill",
-		pt: "Tranquill",
-		de: "Navitaub"
+		'en-us': "Tranquill",
+		'fr-fr': "Colombeau",
+		'es-es': "Tranquill",
+		'it-it': "Tranquill",
+		'pt-br': "Tranquill",
+		'de-de': "Navitaub"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -19,12 +19,12 @@ const card: Card = {
 	set: Set,
 
 	evolveFrom: {
-		en: "Pidove",
-		fr: "Poichigeon",
-		es: "Pidove",
-		it: "Pidove",
-		pt: "Pidove",
-		de: "Dusselgurr"
+		'en-us': "Pidove",
+		'fr-fr': "Poichigeon",
+		'es-es': "Pidove",
+		'it-it': "Pidove",
+		'pt-br': "Pidove",
+		'de-de': "Dusselgurr"
 	},
 
 	attacks: [
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Wing",
-				fr: "Aile Tranchante",
-				es: "Ala Cortante",
-				it: "Ala Tagliente",
-				pt: "Asa Cortante",
-				de: "Rasierflügel"
+				'en-us': "Razor Wing",
+				'fr-fr': "Aile Tranchante",
+				'es-es': "Ala Cortante",
+				'it-it': "Ala Tagliente",
+				'pt-br': "Asa Cortante",
+				'de-de': "Rasierflügel"
 			},
 
 			damage: 40,
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gust",
-				fr: "Tornade",
-				es: "Tornado",
-				it: "Raffica",
-				pt: "Lufada de Vento",
-				de: "Windstoß"
+				'en-us': "Gust",
+				'fr-fr': "Tornade",
+				'es-es': "Tornado",
+				'it-it': "Raffica",
+				'pt-br': "Lufada de Vento",
+				'de-de': "Windstoß"
 			},
 
 			damage: 60,
@@ -88,7 +88,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It can fly moderately quickly. No matter how far it travels, it can always find its way back to its master and its nest."
+		'en-us': "It can fly moderately quickly. No matter how far it travels, it can always find its way back to its master and its nest."
 	},
 
 	variants: [

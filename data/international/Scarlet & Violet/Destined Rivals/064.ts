@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cetoddle",
-		fr: "Piétacé",
-		de: "Flaniwal",
-		it: "Cetoddle",
-		es: "Cetoddle",
-		pt: "Cetoddle",
+		'en-us': "Cetoddle",
+		'fr-fr': "Piétacé",
+		'de-de': "Flaniwal",
+		'it-it': "Cetoddle",
+		'es-es': "Cetoddle",
+		'pt-br': "Cetoddle",
 		'es-mx': "Cetoddle"
 	},
 
@@ -28,12 +28,12 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Gentle Slap",
-			fr: "Gifle Douce",
-			de: "Sanfter Hieb",
-			it: "Schiaffetto",
-			es: "Bofetada Gentil",
-			pt: "Tapinha",
+			'en-us': "Gentle Slap",
+			'fr-fr': "Gifle Douce",
+			'de-de': "Sanfter Hieb",
+			'it-it': "Schiaffetto",
+			'es-es': "Bofetada Gentil",
+			'pt-br': "Tapinha",
 			'es-mx': "Cachetadita"
 		},
 
@@ -42,12 +42,12 @@ const card: Card = {
 		cost: ["Water", "Water", "Water", "Colorless"],
 
 		name: {
-			en: "Frost Smash",
-			fr: "Impact Glacial",
-			de: "Frostschlag",
-			it: "Gelocolpo",
-			es: "Golpe Gélido",
-			pt: "Pancada Congelada",
+			'en-us': "Frost Smash",
+			'fr-fr': "Impact Glacial",
+			'de-de': "Frostschlag",
+			'it-it': "Gelocolpo",
+			'es-es': "Golpe Gélido",
+			'pt-br': "Pancada Congelada",
 			'es-mx': "Golpazo Gélido"
 		},
 

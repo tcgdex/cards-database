@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Sableye",
-		fr: "Ténéfix",
-		es: "Sableye",
-		it: "Sableye",
-		pt: "Sableye",
-		de: "Zobiris"
+		'en-us': "Sableye",
+		'fr-fr': "Ténéfix",
+		'es-es': "Sableye",
+		'it-it': "Sableye",
+		'pt-br': "Sableye",
+		'de-de': "Zobiris"
 	},
 
 	illustrator: "kawayoo",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde Folie"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde Folie"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
 			},
 			damage: 10,
 
@@ -49,12 +49,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Junk Hunt",
-				fr: "Marché aux Puces"
+				'en-us': "Junk Hunt",
+				'fr-fr': "Marché aux Puces"
 			},
 			effect: {
-				en: "Put 2 Item cards from your discard pile into your hand.",
-				fr: "Ajoutez 2 cartes Objet de votre pile de défausse à votre main."
+				'en-us': "Put 2 Item cards from your discard pile into your hand.",
+				'fr-fr': "Ajoutez 2 cartes Objet de votre pile de défausse à votre main."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It hides in the darkness of caves. Its diet of gems has transformed its eyes into gemstones.",
+		'en-us': "It hides in the darkness of caves. Its diet of gems has transformed its eyes into gemstones.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Poliwhirl",
-		fr: "Têtarte",
-		de: "Quaputzi"
+		'en-us': "Poliwhirl",
+		'fr-fr': "Têtarte",
+		'de-de': "Quaputzi"
 	},
 
 	illustrator: "Yuka Morii",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Poliwag",
-		fr: "Ptitard"
+		'en-us': "Poliwag",
+		'fr-fr': "Ptitard"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Punch",
-				fr: "Koud'poing",
-				de: "Hieb"
+				'en-us': "Punch",
+				'fr-fr': "Koud'poing",
+				'de-de': "Hieb"
 			},
 
 			damage: 20,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bubblebeam",
-				fr: "Bulles d'O",
-				de: "Blubbstrahl"
+				'en-us': "Bubblebeam",
+				'fr-fr': "Bulles d'O",
+				'de-de': "Blubbstrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf'ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf'ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 

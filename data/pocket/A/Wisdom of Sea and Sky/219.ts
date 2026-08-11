@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Jolteon",
-		fr: "Voltali"
+		'en-us': "Jolteon",
+		'fr-fr': "Voltali"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -18,28 +18,28 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Eevee"
+		'en-us': "Eevee"
 	},
 
 	description: {
-		en: "It concentrates the weak electric charges emitted\nby its cells and launches wicked lightning bolts.",
-		fr: "Il concentre la faible charge électrique générée par chacune de ses cellules pour projeter de puissants éclairs."
+		'en-us': "It concentrates the weak electric charges emitted\nby its cells and launches wicked lightning bolts.",
+		'fr-fr': "Il concentre la faible charge électrique générée par chacune de ses cellules pour projeter de puissants éclairs."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Beginning Bolt",
-			fr: "Premier Éclair"
+			'en-us': "Beginning Bolt",
+			'fr-fr': "Premier Éclair"
 		},
 
 		damage: 40,
 		cost: ["Lightning"],
 
 		effect: {
-			en: "If this Pokémon evolved during this turn, this attack does 20 more damage.",
-			fr: "Si ce Pokémon a évolué pendant ce tour, cette attaque inflige 20 dégâts supplémentaires."
+			'en-us': "If this Pokémon evolved during this turn, this attack does 20 more damage.",
+			'fr-fr': "Si ce Pokémon a évolué pendant ce tour, cette attaque inflige 20 dégâts supplémentaires."
 		}
 	}],
 

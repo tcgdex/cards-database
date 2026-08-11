@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Swanna",
-		fr: "Lakmécygne",
-		es: "Swanna",
-		it: "Swanna",
-		pt: "Swanna",
-		de: "Swaroness"
+		'en-us': "Swanna",
+		'fr-fr': "Lakmécygne",
+		'es-es': "Swanna",
+		'it-it': "Swanna",
+		'pt-br': "Swanna",
+		'de-de': "Swaroness"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ducklett",
-		fr: "Couaneton",
+		'en-us': "Ducklett",
+		'fr-fr': "Couaneton",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aerial Ace",
-				fr: "Aéropique",
+				'en-us': "Aerial Ace",
+				'fr-fr': "Aéropique",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Defog",
-				fr: "Anti-Brume",
+				'en-us': "Defog",
+				'fr-fr': "Anti-Brume",
 			},
 			effect: {
-				en: "You may discard any Stadium card in play. If you do, this attack does 40 more damage.",
-				fr: "Vous pouvez défausser une carte Stade en jeu. Dans ce cas, cette attaque inflige 40 dégâts supplémentaires.",
+				'en-us': "You may discard any Stadium card in play. If you do, this attack does 40 more damage.",
+				'fr-fr': "Vous pouvez défausser une carte Stade en jeu. Dans ce cas, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: 60,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Despite their elegant appearance, they can flap their wings strongly and fly for thousands of miles.",
+		'en-us': "Despite their elegant appearance, they can flap their wings strongly and fly for thousands of miles.",
 	},
 
 	thirdParty: {

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Emboar",
+		'en-us': "Emboar",
 	},
 
 	illustrator: "Kanako Eo",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pignite",
+		'en-us': "Pignite",
 	},
 
 	stage: "Stage2",
@@ -31,10 +31,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Inferno Fandango",
+				'en-us': "Inferno Fandango",
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may attach a Fire Energy card from your hand to 1 of your Pokémon.",
+				'en-us': "As often as you like during your turn (before your attack), you may attach a Fire Energy card from your hand to 1 of your Pokémon.",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Crash",
+				'en-us': "Heat Crash",
 			},
 
 			damage: 80,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
+		'en-us': "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
 	},
 
 	thirdParty: {

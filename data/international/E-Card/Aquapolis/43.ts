@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Vileplume",
-		fr: "Rafflesia",
-		de: "Giflor"
+		'en-us': "Vileplume",
+		'fr-fr': "Rafflesia",
+		'de-de': "Giflor"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gloom",
-		fr: "Ortide"
+		'en-us': "Gloom",
+		'fr-fr': "Ortide"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Scent",
-				fr: "Senteur empoisonnée",
-				de: "Poison Scent"
+				'en-us': "Poison Scent",
+				'fr-fr': "Senteur empoisonnée",
+				'de-de': "Poison Scent"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned and Confused. If tails, the Defending Pokémon is now Poisoned and Asleep.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné et Confus. Si c'est pile, le Pokémon Défenseur est maintenant Empoisonné et Endormi.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned and Confused. If tails, the Defending Pokémon is now Poisoned and Asleep."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned and Confused. If tails, the Defending Pokémon is now Poisoned and Asleep.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné et Confus. Si c'est pile, le Pokémon Défenseur est maintenant Empoisonné et Endormi.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Poisoned and Confused. If tails, the Defending Pokémon is now Poisoned and Asleep."
 			}
 
 		},
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Addictive Pollen",
-				fr: "Pollen drogué",
-				de: "Addictive Pollen"
+				'en-us': "Addictive Pollen",
+				'fr-fr': "Pollen drogué",
+				'de-de': "Addictive Pollen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent can't play Supporter cards during his or her next turn.",
-				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Supporter pendant son prochain tour.",
-				de: "Flip a coin. If heads, your opponent can't play Supporter cards during his or her next turn."
+				'en-us': "Flip a coin. If heads, your opponent can't play Supporter cards during his or her next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Supporter pendant son prochain tour.",
+				'de-de': "Flip a coin. If heads, your opponent can't play Supporter cards during his or her next turn."
 			},
 			damage: 40,
 

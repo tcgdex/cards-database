@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Spheal",
-		fr: "Obalie Niv. 18",
-		de: "Seemops"
+		'en-us': "Spheal",
+		'fr-fr': "Obalie Niv. 18",
+		'de-de': "Seemops"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -30,15 +30,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Powder Snow",
-				fr: "Poudreuse",
-				de: "Pulverschnee"
+				'en-us': "Powder Snow",
+				'fr-fr': "Poudreuse",
+				'de-de': "Pulverschnee"
 			},
 
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 			damage: 10
@@ -49,9 +49,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Ball",
-				fr: "Ball'glace",
-				de: "Frostbeule"
+				'en-us': "Ice Ball",
+				'fr-fr': "Ball'glace",
+				'de-de': "Frostbeule"
 			},
 
 			damage: 20,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It rolls across ice floes to reach shore because its body is poorly shaped for swimming."
+		'en-us': "It rolls across ice floes to reach shore because its body is poorly shaped for swimming."
 	},
 
 	variants: [

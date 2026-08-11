@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Slugma",
-		fr: "Limagma",
-		de: "Schneckmag"
+		'en-us': "Slugma",
+		'fr-fr': "Limagma",
+		'de-de': "Schneckmag"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magma Ring",
-				fr: "Anneau magma",
-				de: "Magma Ring"
+				'en-us': "Magma Ring",
+				'fr-fr': "Anneau magma",
+				'de-de': "Magma Ring"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite avant la fin du prochain tour de votre adversaire.",
-				de: "The Defending Pokémon can't retreat during your opponent's next turn."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite avant la fin du prochain tour de votre adversaire.",
+				'de-de': "The Defending Pokémon can't retreat during your opponent's next turn."
 			},
 			damage: 10,
 
@@ -49,9 +49,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare",
-				fr: "Intimidation",
-				de: "Flare"
+				'en-us': "Flare",
+				'fr-fr': "Intimidation",
+				'de-de': "Flare"
 			},
 
 			damage: 20,

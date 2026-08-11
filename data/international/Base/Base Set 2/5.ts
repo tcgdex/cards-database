@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Clefable",
+		'en-us': "Clefable",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Clefairy",
+		'en-us': "Clefairy",
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metronome",
+				'en-us': "Metronome",
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding Energy cards. (No matter what type the Defending Pokémon is, Clefable's type is still Colorless.)",
+				'en-us': "Choose 1 of the Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding Energy cards. (No matter what type the Defending Pokémon is, Clefable's type is still Colorless.)",
 			},
 
 		},
@@ -46,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Minimize",
+				'en-us': "Minimize",
 			},
 			effect: {
-				en: "All damage done by attacks to Clefable during your opponent's next turn is reduce by 20 (after applying Weakness and Resistance).",
+				'en-us': "All damage done by attacks to Clefable during your opponent's next turn is reduce by 20 (after applying Weakness and Resistance).",
 			},
 
 		},
@@ -72,7 +72,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A timid Fairy Pokémon that is rarely seen. It will run and hide the moment it senses people.",
+		'en-us': "A timid Fairy Pokémon that is rarely seen. It will run and hide the moment it senses people.",
 	},
 
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴクリン",
+		'ja-jp': "ゴクリン",
 	},
 
 	illustrator: "Yuka Morii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "なんでも 消化する 胃袋。 消化する ときに 発生する ガスは 強烈な 悪臭だ。",
+		'ja-jp': "なんでも 消化する 胃袋。 消化する ときに 発生する ガスは 強烈な 悪臭だ。",
 	},
 
 	stage: "Basic",
@@ -23,14 +23,14 @@ const card: Card = {
 			name: { ja: "あくび" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 		{
 			name: { ja: "どくえき" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Butterfree",
-		fr: "Papilusion",
+		'en-us': "Butterfree",
+		'fr-fr': "Papilusion",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Metapod",
-		fr: "Chrysacier",
+		'en-us': "Metapod",
+		'fr-fr': "Chrysacier",
 	},
 
 	stage: "Stage2",
@@ -36,8 +36,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gust",
-				fr: "Tornade",
+				'en-us': "Gust",
+				'fr-fr': "Tornade",
 			},
 
 			damage: 80,
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its wings are covered in toxic scales. If it finds bird Pokémon going after Caterpie, Butterfree sprinkles its scales on them to drive them off.",
+		'en-us': "Its wings are covered in toxic scales. If it finds bird Pokémon going after Caterpie, Butterfree sprinkles its scales on them to drive them off.",
 	},
 
 	thirdParty: {

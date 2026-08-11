@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Pineco",
-		fr: "Pomdepik",
-		de: "Tannza"
+		'en-us': "Pineco",
+		'fr-fr': "Pomdepik",
+		'de-de': "Tannza"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -29,15 +29,15 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Focus Energy",
-				fr: "Puissance",
-				de: "Energiefokus"
+				'en-us': "Focus Energy",
+				'fr-fr': "Puissance",
+				'de-de': "Energiefokus"
 			},
 
 		effect: {
-			en: "During your next turn, Pineco's Surprise Attack attack's base damage is 80",
-			fr: "Pendant votre prochain tour, l'Attaque surprise de Pomdepik inflige 80 dégâts de base.",
-			de: "In deinem nächsten Zug beträgt der Grundschaden von Tannzas Überraschungsangriff 80 Schadenspunkte."
+			'en-us': "During your next turn, Pineco's Surprise Attack attack's base damage is 80",
+			'fr-fr': "Pendant votre prochain tour, l'Attaque surprise de Pomdepik inflige 80 dégâts de base.",
+			'de-de': "In deinem nächsten Zug beträgt der Grundschaden von Tannzas Überraschungsangriff 80 Schadenspunkte."
 		}
 		},
 		{
@@ -46,14 +46,14 @@ const card: Card = {
 				'Colorless'
 			],
 			name: {
-				en: 'Surprise Attack',
-				fr: "Attaque surprise",
-				de: "Überraschungsangriff"
+				'en-us': 'Surprise Attack',
+				'fr-fr': "Attaque surprise",
+				'de-de': "Überraschungsangriff"
 			},
 			effect: {
-				en: 'Flip a coin. If tails, this attack does nothing.',
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': 'Flip a coin. If tails, this attack does nothing.',
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 40
 		}
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
+		'en-us': "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
 	},
 
 	variants: [

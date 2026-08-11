@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Ferroseed",
-		fr: "Grindur",
-		es: "Ferroseed",
-		it: "Ferroseed",
-		pt: "Ferroseed",
-		de: "Kastadur"
+		'en-us': "Ferroseed",
+		'fr-fr': "Grindur",
+		'es-es': "Ferroseed",
+		'it-it': "Ferroseed",
+		'pt-br': "Ferroseed",
+		'de-de': "Kastadur"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Harden",
-				fr: "Armure",
-				es: "Fortaleza",
-				it: "Rafforzatore",
-				pt: "Endurecer",
-				de: "Härtner"
+				'en-us': "Harden",
+				'fr-fr': "Armure",
+				'es-es': "Fortaleza",
+				'it-it': "Rafforzatore",
+				'pt-br': "Endurecer",
+				'de-de': "Härtner"
 			},
 			effect: {
-				en: "During your opponent's next turn, if this Pokémon would be damaged by an attack, prevent that attack's damage done to this Pokémon if that damage is 60 or less.",
-				fr: "Pendant le prochain tour de votre adversaire, si ce Pokémon doit subir les dégâts d'une attaque, évitez les dégâts infligés à ce Pokémon si ces dégâts sont de 60 ou moins.",
-				es: "Durante el próximo turno de tu rival, si este Pokémon fuera a resultar dañado por un ataque, evita el daño infligido por ese ataque a este Pokémon si el daño es de 60 puntos o menos.",
-				it: "Durante il prossimo turno del tuo avversario, se questo Pokémon sta per essere danneggiato da un attacco, previeni i danni di quell'attacco inflitti a questo Pokémon se quei danni sono 60 o meno.",
-				pt: "Durante a próxima vez de jogar do seu oponente, se este Pokémon estiver prestes a sofrer danos causados por um ataque, previna os danos causados pelo ataque a este Pokémon se eles forem 60 ou menos.",
-				de: "Wenn diesem Pokémon während des nächsten Zuges deines Gegners durch einen Angriff 60 oder weniger Schadenspunkte zugefügt werden, verhindere diesen Schaden."
+				'en-us': "During your opponent's next turn, if this Pokémon would be damaged by an attack, prevent that attack's damage done to this Pokémon if that damage is 60 or less.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, si ce Pokémon doit subir les dégâts d'une attaque, évitez les dégâts infligés à ce Pokémon si ces dégâts sont de 60 ou moins.",
+				'es-es': "Durante el próximo turno de tu rival, si este Pokémon fuera a resultar dañado por un ataque, evita el daño infligido por ese ataque a este Pokémon si el daño es de 60 puntos o menos.",
+				'it-it': "Durante il prossimo turno del tuo avversario, se questo Pokémon sta per essere danneggiato da un attacco, previeni i danni di quell'attacco inflitti a questo Pokémon se quei danni sono 60 o meno.",
+				'pt-br': "Durante a próxima vez de jogar do seu oponente, se este Pokémon estiver prestes a sofrer danos causados por um ataque, previna os danos causados pelo ataque a este Pokémon se eles forem 60 ou menos.",
+				'de-de': "Wenn diesem Pokémon während des nächsten Zuges deines Gegners durch einen Angriff 60 oder weniger Schadenspunkte zugefügt werden, verhindere diesen Schaden."
 			},
 
 		},
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It absorbs the iron it finds in the rock while clinging to the ceiling. It shoots spikes when in danger.",
+		'en-us': "It absorbs the iron it finds in the rock while clinging to the ceiling. It shoots spikes when in danger.",
 	},
 
 	thirdParty: {

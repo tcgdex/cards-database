@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Oinkologne",
-		fr: "Fragroin",
-		es: "Oinkologne",
-		it: "Oinkologne",
-		pt: "Oinkologne",
-		de: "Fragrunz"
+		'en-us': "Oinkologne",
+		'fr-fr': "Fragroin",
+		'es-es': "Oinkologne",
+		'it-it': "Oinkologne",
+		'pt-br': "Oinkologne",
+		'de-de': "Fragrunz"
 	},
 
 	rarity: "Uncommon",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Lechonk",
-		fr: "Gourmelet"
+		'en-us': "Lechonk",
+		'fr-fr': "Gourmelet"
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 50
@@ -43,21 +43,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Leg Stomp",
-			fr: "Jambes Lourdes",
-			es: "Patada Pisotón",
-			it: "Artopestone",
-			pt: "Pisoteada de Pernas",
-			de: "Beinstampfer"
+			'en-us': "Leg Stomp",
+			'fr-fr': "Jambes Lourdes",
+			'es-es': "Patada Pisotón",
+			'it-it': "Artopestone",
+			'pt-br': "Pisoteada de Pernas",
+			'de-de': "Beinstampfer"
 		},
 
 		effect: {
-			en: "Flip a coin. If tails, during your next turn, this Pokémon can't attack.",
-			fr: "Lancez une pièce. Si c'est pile, pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Lanza 1 moneda. Si sale cruz, este Pokémon no puede atacar durante tu próximo turno.",
-			it: "Lancia una moneta. Se esce croce, durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Jogue uma moeda. Se sair coroa, durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Wirf 1 Münze. Bei Zahl kann dieses Pokémon während deines nächsten Zuges nicht angreifen."
+			'en-us': "Flip a coin. If tails, during your next turn, this Pokémon can't attack.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este Pokémon no puede atacar durante tu próximo turno.",
+			'it-it': "Lancia una moneta. Se esce croce, durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Jogue uma moeda. Se sair coroa, durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Wirf 1 Münze. Bei Zahl kann dieses Pokémon während deines nächsten Zuges nicht angreifen."
 		},
 
 		damage: 130
@@ -84,7 +84,7 @@ const card: Card = {
 	illustrator: "kirisAki",
 
 	description: {
-		en: "Oinkologne is proud of its fine, glossy skin. It emits a concentrated scent from the tip of its tail.",
+		'en-us': "Oinkologne is proud of its fine, glossy skin. It emits a concentrated scent from the tip of its tail.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Joltik",
-		fr: "Statitik",
-		es: "Joltik",
-		it: "Joltik",
-		pt: "Joltik",
-		de: "Wattzapf"
+		'en-us': "Joltik",
+		'fr-fr': "Statitik",
+		'es-es': "Joltik",
+		'it-it': "Joltik",
+		'pt-br': "Joltik",
+		'de-de': "Wattzapf"
 	},
 
 	illustrator: "Motofumi Fujiwara",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Flop",
-				fr: "Flop",
-				es: "Vuelta",
-				it: "Tonfo",
-				pt: "Baque",
-				de: "Plumps"
+				'en-us': "Flop",
+				'fr-fr': "Flop",
+				'es-es': "Vuelta",
+				'it-it': "Tonfo",
+				'pt-br': "Baque",
+				'de-de': "Plumps"
 			},
 
 			damage: 10,
@@ -60,7 +60,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Joltik can be found clinging to other Pokémon. It's soaking up static electricity because it can't produce a charge on its own."
+		'en-us': "Joltik can be found clinging to other Pokémon. It's soaking up static electricity because it can't produce a charge on its own."
 	},
 
 	dexId: [595],

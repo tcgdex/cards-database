@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Magmar",
-		fr: "Magmar",
-		de: "Magmar"
+		'en-us': "Magmar",
+		'fr-fr': "Magmar",
+		'de-de': "Magmar"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flare",
-				fr: "Intimidation",
-				de: "Flackern"
+				'en-us': "Flare",
+				'fr-fr': "Intimidation",
+				'de-de': "Flackern"
 			},
 
 			damage: 20,
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-flamme",
-				de: "Flammenwurf"
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-flamme",
+				'de-de': "Flammenwurf"
 			},
 			effect: {
-				en: "Discard an Energy attached to Magmar.",
-				fr: "Défaussez une Énergie attachée à Magmar.",
-				de: "Lege 1 an Magmar angelegte Energie auf deinen Ablagestapel."
+				'en-us': "Discard an Energy attached to Magmar.",
+				'fr-fr': "Défaussez une Énergie attachée à Magmar.",
+				'de-de': "Lege 1 an Magmar angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 50,
 
@@ -70,8 +70,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Born in the spout of a volcano, its body is covered by flames that shimmer like the sun.",
-		fr: "Il est né au milieu d'un volcan. Son corps est couvert de flammes qui flambent comme un soleil."
+		'en-us': "Born in the spout of a volcano, its body is covered by flames that shimmer like the sun.",
+		'fr-fr': "Il est né au milieu d'un volcan. Son corps est couvert de flammes qui flambent comme un soleil."
 	},
 
 	thirdParty: {

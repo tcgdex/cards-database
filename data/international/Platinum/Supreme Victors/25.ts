@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Dodrio",
-		fr: "Dodrio",
-		de: "Dodri"
+		'en-us': "Dodrio",
+		'fr-fr': "Dodrio",
+		'de-de': "Dodri"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Doduo",
-		fr: "Doduo"
+		'en-us': "Doduo",
+		'fr-fr': "Doduo"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Echo Draw",
-				fr: "Pioche renvoi",
-				de: "Echo-Zug"
+				'en-us': "Echo Draw",
+				'fr-fr': "Pioche renvoi",
+				'de-de': "Echo-Zug"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may draw a card. This power can't be used if Dodrio is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez piocher une carte. Ce pouvoir ne peut pas être utilisé si Dodrio est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Karte ziehen. Diese Poké-Power kann nicht benutzt werden, wenn Dodri von einem Speziellen Zustand betroffen ist."
+				'en-us': "Once during your turn (before your attack), you may draw a card. This power can't be used if Dodrio is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez piocher une carte. Ce pouvoir ne peut pas être utilisé si Dodrio est affecté par un État Spécial.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Karte ziehen. Diese Poké-Power kann nicht benutzt werden, wenn Dodri von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -52,9 +52,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drill Peck",
-				fr: "Bec vrille",
-				de: "Bohrschnabel"
+				'en-us': "Drill Peck",
+				'fr-fr': "Bec vrille",
+				'de-de': "Bohrschnabel"
 			},
 
 			damage: 50,
@@ -75,7 +75,7 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "When Doduo evolves into this odd breed, one of its heads splits into two. It runs at nearly 40 mph."
+		'en-us': "When Doduo evolves into this odd breed, one of its heads splits into two. It runs at nearly 40 mph."
 	},
 
 	retreat: 0,

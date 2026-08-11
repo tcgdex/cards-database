@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shaymin",
-		fr: "Shaymin",
-		es: "Shaymin",
-		pt: "Shaymin",
-		it: "Shaymin",
-		de: "Shaymin"
+		'en-us': "Shaymin",
+		'fr-fr': "Shaymin",
+		'es-es': "Shaymin",
+		'pt-br': "Shaymin",
+		'it-it': "Shaymin",
+		'de-de': "Shaymin"
 	},
 
 	rarity: "Uncommon",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Reflect Energy",
-			fr: "Renvoi d'Énergie",
-			es: "Reflejar Energía",
-			pt: "Refletir Energia",
-			it: "Rifletti Energia",
-			de: "Energiereflexion"
+			'en-us': "Reflect Energy",
+			'fr-fr': "Renvoi d'Énergie",
+			'es-es': "Reflejar Energía",
+			'pt-br': "Refletir Energia",
+			'it-it': "Rifletti Energia",
+			'de-de': "Energiereflexion"
 		},
 
 		effect: {
-			en: "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
-			fr: "Déplacez une Énergie de ce Pokémon vers l'un de vos Pokémon de Banc.",
-			es: "Mueve 1 Energía de este Pokémon a uno de tus Pokémon en Banca.",
-			pt: "Mova uma Energia deste Pokémon para 1 dos seus Pokémon no Banco.",
-			it: "Sposta un'Energia da questo Pokémon a uno di quelli nella tua panchina.",
-			de: "Verschiebe 1 Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
+			'en-us': "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
+			'fr-fr': "Déplacez une Énergie de ce Pokémon vers l'un de vos Pokémon de Banc.",
+			'es-es': "Mueve 1 Energía de este Pokémon a uno de tus Pokémon en Banca.",
+			'pt-br': "Mova uma Energia deste Pokémon para 1 dos seus Pokémon no Banco.",
+			'it-it': "Sposta un'Energia da questo Pokémon a uno di quelli nella tua panchina.",
+			'de-de': "Verschiebe 1 Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
 		},
 
 		damage: 60

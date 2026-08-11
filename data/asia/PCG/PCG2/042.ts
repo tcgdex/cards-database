@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ベルダム",
+		'ja-jp': "ベルダム",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ひっくり返します",
+				'ja-jp': "ひっくり返します",
 			},
 			effect: {
-				ja: "Beldumはそれ自体に10ダメージを与え、この損傷に衰弱と抵抗を適用しないでください。",
+				'ja-jp': "Beldumはそれ自体に10ダメージを与え、この損傷に衰弱と抵抗を適用しないでください。",
 			},
 			damage: 30,
 		},

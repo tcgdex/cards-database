@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Cacnea",
-		fr: "Cacnea",
-		de: "Tuska"
+		'en-us': "Cacnea",
+		'fr-fr': "Cacnea",
+		'de-de': "Tuska"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la famille",
-				de: "Familienruf"
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la famille",
+				'de-de': "Familienruf"
 			},
 			effect: {
-				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach1 Basis-Pokémon-Karte und lege sie auf deine Bank. Mische dein Deck danach."
+				'en-us': "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach1 Basis-Pokémon-Karte und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rising Lunge",
-				fr: "Botte secrète",
-				de: "Aufwärtsstoß"
+				'en-us': "Rising Lunge",
+				'fr-fr': "Botte secrète",
+				'de-de': "Aufwärtsstoß"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 

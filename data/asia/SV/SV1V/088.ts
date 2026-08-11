@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1V"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "マフィティフ"
+		'ja-jp': "マフィティフ"
 	},
 
 	illustrator: "OKACHEKE",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "子どもと 遊ぶことが 大好き。 普段は 温厚だが 家族を 守るとき 形相が 変わる。"
+		'ja-jp': "子どもと 遊ぶことが 大好き。 普段は 温厚だが 家族を 守るとき 形相が 変わる。"
 	},
 
 	stage: "Stage1",
@@ -24,11 +24,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "いかくのとおぼえ"
+			'ja-jp': "いかくのとおぼえ"
 		},
 
 		effect: {
-			ja: "自分の番に1回使える。相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］"
+			'ja-jp': "自分の番に1回使える。相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］"
 		}
 	}],
 
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			ja: "ワイルドタックル"
+			'ja-jp': "ワイルドタックル"
 		},
 
 		damage: 160,
 
 		effect: {
-			ja: "このポケモンにも30ダメージ。"
+			'ja-jp': "このポケモンにも30ダメージ。"
 		}
 	}],
 

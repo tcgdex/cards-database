@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドラゴナイトex（デルタ種）",
+		'ja-jp': "ドラゴナイトex（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "defen",
+				'ja-jp': "defen",
 			},
 			effect: {
-				ja: "対戦相手は、対戦相手の次のターン中に手からトレーナーカード（サポーターカードを除く）をプレイできません。",
+				'ja-jp': "対戦相手は、対戦相手の次のターン中に手からトレーナーカード（サポーターカードを除く）をプレイできません。",
 			},
 			damage: 40,
 		},
 		{
 			cost: ["Grass", "Grass", "Colorless", "Colorless"],
 			name: {
-				ja: "ドラゴン・ロア",
+				'ja-jp': "ドラゴン・ロア",
 			},
 			effect: {
-				ja: "防御ポケモンに8つのダメージカウンターを置きます。この攻撃によってそのポケモンがノックアウトされる場合、相手のベンチ付きポケモンの防御ポケモンを好きなようにノックアウトするために必要ではないダメージカウンターを入れてください。",
+				'ja-jp': "防御ポケモンに8つのダメージカウンターを置きます。この攻撃によってそのポケモンがノックアウトされる場合、相手のベンチ付きポケモンの防御ポケモンを好きなようにノックアウトするために必要ではないダメージカウンターを入れてください。",
 			},
 		},
 	],

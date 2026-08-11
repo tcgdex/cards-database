@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Tinkatuff"
+		'id-id': "Tinkatuff"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Gunung rongsokan logam adalah sarangnya. Untuk menguji kekuatan palunya, para Tinkatuff saling memukul satu sama lain dengan kencang."
+		'id-id': "Gunung rongsokan logam adalah sarangnya. Untuk menguji kekuatan palunya, para Tinkatuff saling memukul satu sama lain dengan kencang."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Ayunan Logam Paduan"
+			'id-id': "Ayunan Logam Paduan"
 		},
 
 		effect: {
-			id: "Jika Pokémon ini mengenakan Energi {Logam}, kerusakan yang diberikan bertambah sejumlah 40."
+			'id-id': "Jika Pokémon ini mengenakan Energi {Logam}, kerusakan yang diberikan bertambah sejumlah 40."
 		},
 
 		damage: "20+",

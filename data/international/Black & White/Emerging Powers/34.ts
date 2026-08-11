@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Galvantula",
-		fr: "Mygavolt",
-		es: "Galvantula",
-		it: "Galvantula",
-		pt: "Galvantula",
-		de: "Voltula"
+		'en-us': "Galvantula",
+		'fr-fr': "Mygavolt",
+		'es-es': "Galvantula",
+		'it-it': "Galvantula",
+		'pt-br': "Galvantula",
+		'de-de': "Voltula"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Joltik",
-		fr: "Statitik",
+		'en-us': "Joltik",
+		'fr-fr': "Statitik",
 	},
 
 	stage: "Stage1",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Ronge",
+				'en-us': "Gnaw",
+				'fr-fr': "Ronge",
 			},
 
 			damage: 20,
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stun Needle",
-				fr: "Para-Dard",
+				'en-us': "Stun Needle",
+				'fr-fr': "Para-Dard",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 30,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "When attacked, they create an electric barrier by spitting out many electrically charged threads.",
+		'en-us': "When attacked, they create an electric barrier by spitting out many electrically charged threads.",
 	},
 
 	thirdParty: {

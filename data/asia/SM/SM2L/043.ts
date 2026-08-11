@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミルホッグ",
+		'ja-jp': "ミルホッグ",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "体内の 発光物質で 目玉や 体を 光らせ 襲ってきた 敵を ひるませる。",
+		'ja-jp': "体内の 発光物質で 目玉や 体を 光らせ 襲ってきた 敵を ひるませる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "しなさだめ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手の山札を上から2枚見て、どちらか1枚をトラッシュし、残りのカードは山札の上にもどす。",
+				'ja-jp': "相手の山札を上から2枚見て、どちらか1枚をトラッシュし、残りのカードは山札の上にもどす。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "60×",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x60ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数x60ダメージ。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ミネズミ",
+		'ja-jp': "ミネズミ",
 	},
 
 	retreat: 1,

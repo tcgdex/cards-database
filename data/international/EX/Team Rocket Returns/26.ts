@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Quagsire",
-		de: "Morlord"
+		'en-us': "Quagsire",
+		'de-de': "Morlord"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -23,7 +23,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wooper",
+		'en-us': "Wooper",
 	},
 
 	stage: "Stage1",
@@ -32,12 +32,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Saturation",
-				de: "Saturation"
+				'en-us': "Saturation",
+				'de-de': "Saturation"
 			},
 			effect: {
-				en: "When you attach a Water Energy card from your hand to Quagsire, remove all Special Conditions and 2 damage counters from Quagsire.\"",
-				de: "When you attach a  Energy card from your hand to Quagsire, remove all Special Conditions and 2 damage counters from Quagsire."
+				'en-us': "When you attach a Water Energy card from your hand to Quagsire, remove all Special Conditions and 2 damage counters from Quagsire.\"",
+				'de-de': "When you attach a  Energy card from your hand to Quagsire, remove all Special Conditions and 2 damage counters from Quagsire."
 			},
 		},
 	],
@@ -48,12 +48,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Hyper Pump",
-				de: "Hyper Pump"
+				'en-us': "Hyper Pump",
+				'de-de': "Hyper Pump"
 			},
 			effect: {
-				en: "Does 20 damage plus 20 more damage for each basic Energy card attached to Quagsire but not used to pay for this attack's Energy cost. You can't add more than 60 damage in this way.",
-				de: "Does 20 damage plus 20 more damage for each basic Energy card attached to Quagsire but not user to pay for this attack's Energy cost. You can't add more than 60 damage in this way."
+				'en-us': "Does 20 damage plus 20 more damage for each basic Energy card attached to Quagsire but not used to pay for this attack's Energy cost. You can't add more than 60 damage in this way.",
+				'de-de': "Does 20 damage plus 20 more damage for each basic Energy card attached to Quagsire but not user to pay for this attack's Energy cost. You can't add more than 60 damage in this way."
 			},
 			damage: "20+",
 

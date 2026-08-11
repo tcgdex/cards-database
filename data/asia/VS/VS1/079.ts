@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コガのクロバット",
+		'ja-jp': "コガのクロバット",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "翼攻撃",
+				'ja-jp': "翼攻撃",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Grass", "Colorless", "Colorless"],
 			name: {
-				ja: "毒の噛み込み",
+				'ja-jp': "毒の噛み込み",
 			},
 			effect: {
-				ja: "この攻撃が防御ポケモンを損傷すると、防御ポケモンが毒され、そのダメージの半分に等しいコガのクロバットから多くのダメージカウンターを除去します（最も近い10に丸められます）。 KogaのCrobatのダメージカウンターがそれよりも少ない場合は、それらすべてを削除します。",
+				'ja-jp': "この攻撃が防御ポケモンを損傷すると、防御ポケモンが毒され、そのダメージの半分に等しいコガのクロバットから多くのダメージカウンターを除去します（最も近い10に丸められます）。 KogaのCrobatのダメージカウンターがそれよりも少ない場合は、それらすべてを削除します。",
 			},
 			damage: 10,
 		},

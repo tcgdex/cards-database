@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Rouleau Céleste Mille Poings",
-		en: "Rapid Strike Scroll of the Skies",
-		es: "Pergamino Celestial Golpe Fluido",
-		it: "Rotolo dei Cieli Colpo Rapido",
-		pt: "Pergaminho dos Céus Golpe Fluido",
-		de: "Fließender-Angriff-Himmelsrolle"
+		'fr-fr': "Rouleau Céleste Mille Poings",
+		'en-us': "Rapid Strike Scroll of the Skies",
+		'es-es': "Pergamino Celestial Golpe Fluido",
+		'it-it': "Rotolo dei Cieli Colpo Rapido",
+		'pt-br': "Pergaminho dos Céus Golpe Fluido",
+		'de-de': "Fließender-Angriff-Himmelsrolle"
 	},
 
 	illustrator: "5ban Graphics",
@@ -18,12 +18,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Le Pokémon Mille Poings auquel cette carte est attachée peut utiliser l'attaque sur cette carte. (Vous avez toujours besoin de l'Énergie nécessaire pour utiliser cette attaque.)",
-		en: "The Rapid Strike Pokémon this card is attached to can use the attack on this card. (You still need the necessary Energy to use this attack.)",
-		es: "El Pokémon Golpe Fluido al que esté unida esta carta puede usar el ataque de esta carta. (Sigues necesitando las Energías necesarias para usar este ataque).",
-		it: "Il Pokémon Colpo Rapido a cui è assegnata questa carta può usare l'attacco di questa carta. Devi comunque avere l'Energia necessaria per usare questo attacco.",
-		pt: "O Pokémon Golpe Fluido ao qual esta carta está ligada pode usar o ataque desta carta (você ainda precisa da Energia necessária para usar este ataque).",
-		de: "Das Fließender-Angriff-Pokémon, an das diese Karte angelegt ist, kann die Attacke auf dieser Karte einsetzen. (Du benötigst jedoch die für diese Attacke notwendige Energie.)"
+		'fr-fr': "Le Pokémon Mille Poings auquel cette carte est attachée peut utiliser l'attaque sur cette carte. (Vous avez toujours besoin de l'Énergie nécessaire pour utiliser cette attaque.)",
+		'en-us': "The Rapid Strike Pokémon this card is attached to can use the attack on this card. (You still need the necessary Energy to use this attack.)",
+		'es-es': "El Pokémon Golpe Fluido al que esté unida esta carta puede usar el ataque de esta carta. (Sigues necesitando las Energías necesarias para usar este ataque).",
+		'it-it': "Il Pokémon Colpo Rapido a cui è assegnata questa carta può usare l'attacco di questa carta. Devi comunque avere l'Energia necessaria per usare questo attacco.",
+		'pt-br': "O Pokémon Golpe Fluido ao qual esta carta está ligada pode usar o ataque desta carta (você ainda precisa da Energia necessária para usar este ataque).",
+		'de-de': "Das Fließender-Angriff-Pokémon, an das diese Karte angelegt ist, kann die Attacke auf dieser Karte einsetzen. (Du benötigst jedoch die für diese Attacke notwendige Energie.)"
 	},
 
 	trainerType: "Tool",

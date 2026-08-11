@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クサイハナ",
+		'ja-jp': "クサイハナ",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "猛烈な クサさ！ それなのに １０００人に １人ぐらい これを 好んで かぐ 人がいる。",
+		'ja-jp': "猛烈な クサさ！ それなのに １０００人に １人ぐらい これを 好んで かぐ 人がいる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "たまらんかおり" },
 			effect: {
-				ja: "自分の番に1回使える。コインを1回投げオモテなら、相手の手札を見て、その中にあるたねポケモンを1枚、相手のベンチに出す。",
+				'ja-jp': "自分の番に1回使える。コインを1回投げオモテなら、相手の手札を見て、その中にあるたねポケモンを1枚、相手のベンチに出す。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ナゾノクサ",
+		'ja-jp': "ナゾノクサ",
 	},
 
 	retreat: 2,

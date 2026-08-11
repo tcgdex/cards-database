@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モンメン",
+		'ja-jp': "モンメン",
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "仲間を みつけると くっつく。 あまりに たくさん くっつきすぎて 入道雲 みたいになることも。",
+		'ja-jp': "仲間を みつけると くっつく。 あまりに たくさん くっつきすぎて 入道雲 みたいになることも。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10×",
 			cost: ["Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数x10ダメージ。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数x10ダメージ。",
 			},
 		},
 	],

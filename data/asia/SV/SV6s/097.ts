@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Sandshrew"
+		'id-id': "Sandshrew"
 	},
 
 	illustrator: "Tetsu Kayama",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Meski terjatuh dari tempat setinggi apa pun, ia dapat memantul dan terselamatkan dengan membulatkan tubuhnya."
+		'id-id': "Meski terjatuh dari tempat setinggi apa pun, ia dapat memantul dan terselamatkan dengan membulatkan tubuhnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menggelinding"
+			'id-id': "Menggelinding"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Cakaran Ganda"
+			'id-id': "Cakaran Ganda"
 		},
 
 		effect: {
-			id: "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 20 untuk tiap lemparan dengan hasil sisi depan."
+			'id-id': "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 20 untuk tiap lemparan dengan hasil sisi depan."
 		},
 
 		damage: "20×",

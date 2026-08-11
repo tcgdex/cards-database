@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Whimsicott",
-		fr: "Farfaduvet",
-		es: "Whimsicott",
-		it: "Whimsicott",
-		pt: "Whimsicott",
-		de: "Elfun"
+		'en-us': "Whimsicott",
+		'fr-fr': "Farfaduvet",
+		'es-es': "Whimsicott",
+		'it-it': "Whimsicott",
+		'pt-br': "Whimsicott",
+		'de-de': "Elfun"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cottonee",
-		fr: "Doudouvet",
+		'en-us': "Cottonee",
+		'fr-fr': "Doudouvet",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fluffy Tag",
-				fr: "Accolade Duveteuse",
+				'en-us': "Fluffy Tag",
+				'fr-fr': "Accolade Duveteuse",
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon. During your next turn, the attacks of that Pokémon do 40 more damage to the Active Pokémon (before applying Weakness and Resistance).",
-				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc. Pendant votre prochain tour, les attaques du Pokémon échangé infligent 40 dégâts supplémentaires aux Pokémon Actifs (avant application de la Faiblesse et de la Résistance).",
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon. During your next turn, the attacks of that Pokémon do 40 more damage to the Active Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Échangez ce Pokémon avec 1 de vos Pokémon de Banc. Pendant votre prochain tour, les attaques du Pokémon échangé infligent 40 dégâts supplémentaires aux Pokémon Actifs (avant application de la Faiblesse et de la Résistance).",
 			},
 
 		},
@@ -53,12 +53,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Stun Spore",
-				fr: "Para-Spore",
+				'en-us': "Stun Spore",
+				'fr-fr': "Para-Spore",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 20,
 
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They appear along with whirlwinds. They pull pranks, such as moving furniture and leaving balls of cotton in homes.",
+		'en-us': "They appear along with whirlwinds. They pull pranks, such as moving furniture and leaving balls of cotton in homes.",
 	},
 
 	thirdParty: {

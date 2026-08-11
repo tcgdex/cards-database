@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チャオブー",
+		'ja-jp': "チャオブー",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "食べるほどに 燃やすものが 増えて 胃袋内の 炎が 強まり パワーも どんどん あふれ出すのだ。",
+		'ja-jp': "食べるほどに 燃やすものが 増えて 胃袋内の 炎が 強まり パワーも どんどん あふれ出すのだ。",
 	},
 
 	stage: "Stage1",
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ポカブ",
+		'ja-jp': "ポカブ",
 	},
 
 	retreat: 4,

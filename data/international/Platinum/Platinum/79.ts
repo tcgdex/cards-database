@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Lapras",
-		fr: "Lokhlass",
-		de: "Lapras"
+		'en-us': "Lapras",
+		'fr-fr': "Lokhlass",
+		'de-de': "Lapras"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Grind",
-				fr: "Écrase",
-				de: "Grind"
+				'en-us': "Grind",
+				'fr-fr': "Écrase",
+				'de-de': "Grind"
 			},
 			effect: {
-				en: "Does 10 damage times the amount of Energy attached to Lapras.",
-				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées à Lokhlass",
-				de: "Does 10 damage times the amount of Energy attached to Lapras."
+				'en-us': "Does 10 damage times the amount of Energy attached to Lapras.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées à Lokhlass",
+				'de-de': "Does 10 damage times the amount of Energy attached to Lapras."
 			},
 			damage: "10×",
 
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Beam",
-				fr: "Laser glace",
-				de: "Ice Beam"
+				'en-us': "Ice Beam",
+				'fr-fr': "Laser glace",
+				'de-de': "Ice Beam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 30,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It loves crossing the sea with people and Pokémon on its back. It understands human speech."
+		'en-us': "It loves crossing the sea with people and Pokémon on its back. It understands human speech."
 	},
 
 	variants: [

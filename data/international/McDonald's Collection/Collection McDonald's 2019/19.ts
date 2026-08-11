@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Artikodin",
+		'fr-fr': "Artikodin",
 	},
 
 	rarity: "None",
@@ -36,18 +36,18 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				fr: "Tornade"
+				'fr-fr': "Tornade"
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Water", "Water", "Colorless"],
 			name: {
-				fr: "Glaciation"
+				'fr-fr': "Glaciation"
 			},
 			damage: 100,
 			effect: {
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire."
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire."
 			}
 		},
 	],

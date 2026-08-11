@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 8'
 
 const card: Card = {
 	name: {
-		en: "Roseanne’s Research",
+		'en-us': "Roseanne’s Research",
 	},
 
 	illustrator: "Kanako Eo",
@@ -12,7 +12,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Search your deck for up to 2 in any combination of Basic Pokémon and basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward."
+		'en-us': "Search your deck for up to 2 in any combination of Basic Pokémon and basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward."
 	},
 
 	trainerType: "Supporter",

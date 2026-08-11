@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVAL"
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "咩利羊",
-		th: "เมรีป",
-		id: "Mareep"
+		'th-th': "เมรีป",
+		'id-id': "Mareep"
 	},
 
 	illustrator: "Narumi Sato",
@@ -17,8 +17,8 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "體毛會不斷地變長。即使每到夏天就會掉光， 也能在１週內長回原樣。",
-		th: "ขนตามตัวจะยาวขึ้นเรื่อย ๆ พอถึงหน้าร้อนจะผลัดขนออกทั้งหมด แต่ไม่ถึงสัปดาห์ก็จะขึ้นกลับมาเป็นเหมือนเดิม",
-		id: "Bulu Mareep tumbuh terus. Seluruh bulu Pokémon ini akan rontok pada musim panas, namun akan kembali seperti semula dalam 1 minggu."
+		'th-th': "ขนตามตัวจะยาวขึ้นเรื่อย ๆ พอถึงหน้าร้อนจะผลัดขนออกทั้งหมด แต่ไม่ถึงสัปดาห์ก็จะขึ้นกลับมาเป็นเหมือนเดิม",
+		'id-id': "Bulu Mareep tumbuh terus. Seluruh bulu Pokémon ini akan rontok pada musim panas, namun akan kembali seperti semula dalam 1 minggu."
 	},
 
 	stage: "Basic",
@@ -26,8 +26,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "劈哩啪啦",
-			th: "ประกายไฟ",
-			id: "Berpijar-pijar"
+			'th-th': "ประกายไฟ",
+			'id-id': "Berpijar-pijar"
 		},
 
 		damage: 10,
@@ -35,8 +35,8 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "電球",
-			th: "อิเล็กทริกบอล",
-			id: "Electro Ball"
+			'th-th': "อิเล็กทริกบอล",
+			'id-id': "Electro Ball"
 		},
 
 		damage: 40,

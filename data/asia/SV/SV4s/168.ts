@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Maushold ex"
+		'id-id': "Maushold ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Solid Bersatu Padu"
+			'id-id': "Solid Bersatu Padu"
 		},
 
 		effect: {
-			id: "Saat Pokémon ini ada di Arena Bertarung dan menerima kerusakan akibat serangan dari Pokémon lawan, letakkan 3 Token Kerusakan untuk tiap Tandemaus dan Maushold (termasuk Pokémon {ex}) di Arena sendiri pada Pokémon yang telah menggunakan serangan."
+			'id-id': "Saat Pokémon ini ada di Arena Bertarung dan menerima kerusakan akibat serangan dari Pokémon lawan, letakkan 3 Token Kerusakan untuk tiap Tandemaus dan Maushold (termasuk Pokémon {ex}) di Arena sendiri pada Pokémon yang telah menggunakan serangan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Gigi Kerakusan"
+			'id-id': "Gigi Kerakusan"
 		},
 
 		effect: {
-			id: "Ambil 2 kartu dari atas Deck sendiri."
+			'id-id': "Ambil 2 kartu dari atas Deck sendiri."
 		},
 
 		damage: 120,

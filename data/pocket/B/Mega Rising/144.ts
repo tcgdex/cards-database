@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Palossand"
+		'en-us': "Palossand"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Sandygast"
+		'en-us': "Sandygast"
 	},
 
 	description: {
-		en: "From the hollows in its arms, it fires the bones\nof its victims, which are all dried up after being\ndrained of their vitality."
+		'en-us': "From the hollows in its arms, it fires the bones\nof its victims, which are all dried up after being\ndrained of their vitality."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Life Sucker"
+			'en-us': "Life Sucker"
 		},
 
 		damage: 70,
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon."
+			'en-us': "Heal 20 damage from this Pokémon."
 		}
 	}],
 

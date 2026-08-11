@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミミロップ",
+		'ja-jp': "ミミロップ",
 		'zh-tw': "長耳兔",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "まわりの 様子を つねに 気にして 危険が およぶと 破壊力 抜群の キックを おみまいする。",
+		'ja-jp': "まわりの 様子を つねに 気にして 危険が およぶと 破壊力 抜群の キックを おみまいする。",
 		'zh-tw': "總是注意著周圍的狀況。危險逼近時，就會給對手 奉上破壞力十足的踢腿。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "けとばす",
+				'ja-jp': "けとばす",
 				'zh-tw': "踢飛",
 			},
 			damage: 30,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "にどげり",
+				'ja-jp': "にどげり",
 				'zh-tw': "二連踢",
 			},
 			damage: "100×",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数×100ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数×100ダメージ。",
 				'zh-tw': "擲2次硬幣，造成正面出現的次數×100點傷害。",
 			},
 		},
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ミミロル",
+		'ja-jp': "ミミロル",
 	},
 
 	retreat: 1,

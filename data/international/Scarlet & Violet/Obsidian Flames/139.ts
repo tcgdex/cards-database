@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Tritox",
-		en: "Salandit",
-		es: "Salandit",
-		it: "Salandit",
-		pt: "Salandit",
-		de: "Molunk"
+		'fr-fr': "Tritox",
+		'en-us': "Salandit",
+		'es-es': "Salandit",
+		'it-it': "Salandit",
+		'pt-br': "Salandit",
+		'de-de': "Molunk"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			fr: "Gaz Suffocant",
-			en: "Suffocating Gas",
-			es: "Gas Sofocante",
-			it: "Gas Soffocante",
-			pt: "Gás Asfixiante",
-			de: "Würgegas"
+			'fr-fr': "Gaz Suffocant",
+			'en-us': "Suffocating Gas",
+			'es-es': "Gas Sofocante",
+			'it-it': "Gas Soffocante",
+			'pt-br': "Gás Asfixiante",
+			'de-de': "Würgegas"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			fr: "Griffe",
-			en: "Scratch",
-			es: "Arañazo",
-			it: "Graffio",
-			pt: "Arranhão",
-			de: "Kratzer"
+			'fr-fr': "Griffe",
+			'en-us': "Scratch",
+			'es-es': "Arañazo",
+			'it-it': "Graffio",
+			'pt-br': "Arranhão",
+			'de-de': "Kratzer"
 		},
 
 		damage: 30
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It taunts its prey and lures them into narrow, rocky areas where it then sprays them with toxic gas to make them dizzy and take them down.",
+		'en-us': "It taunts its prey and lures them into narrow, rocky areas where it then sprays them with toxic gas to make them dizzy and take them down.",
 	},
 
 	variants: [

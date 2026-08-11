@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sword & Shield'
 
 const swsh10: Set = {
 	id: "swsh10",
 
 	name: {
-		en: "Astral Radiance",
-		fr: "Astres Radieux",
-		es: "Resplandor Astral",
-		it: "Lucentezza Siderale",
-		de: "Astralglanz",
-		pt: "Estrelas Radiantes"
+		'en-us': "Astral Radiance",
+		'fr-fr': "Astres Radieux",
+		'es-es': "Resplandor Astral",
+		'it-it': "Lucentezza Siderale",
+		'de-de': "Astralglanz",
+		'pt-br': "Estrelas Radiantes"
 	},
 
 	tcgOnline: 'ASR',
@@ -24,7 +24,7 @@ const swsh10: Set = {
 
 	abbreviations: {
 		official: "ASR",
-		fr: "ASR"
+		'fr-fr': "ASR"
 	},
 
 	thirdParty: {

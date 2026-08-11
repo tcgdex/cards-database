@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Petilil",
-		fr: "Chlorobule",
-		es: "Petilil",
-		it: "Petilil",
-		pt: "Petilil",
-		de: "Lilminip"
+		'en-us': "Petilil",
+		'fr-fr': "Chlorobule",
+		'es-es': "Petilil",
+		'it-it': "Petilil",
+		'pt-br': "Petilil",
+		'de-de': "Lilminip"
 	},
 
 	rarity: "Common",
@@ -23,12 +23,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Seed Bomb",
-			fr: "Canon Graine",
-			es: "Bomba Germen",
-			it: "Semebomba",
-			pt: "Seed Bomb",
-			de: "Samenbomben"
+			'en-us': "Seed Bomb",
+			'fr-fr': "Canon Graine",
+			'es-es': "Bomba Germen",
+			'it-it': "Semebomba",
+			'pt-br': "Seed Bomb",
+			'de-de': "Samenbomben"
 		},
 
 		damage: 20,
@@ -43,7 +43,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They prefer clean water and soil. When the environment they live in turns bad, the whole bunch will up and move to a new area."
+		'en-us': "They prefer clean water and soil. When the environment they live in turns bad, the whole bunch will up and move to a new area."
 	},
 
 	dexId: [548],

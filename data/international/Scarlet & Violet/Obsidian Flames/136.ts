@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Darkrai",
-		en: "Darkrai",
-		es: "Darkrai",
-		it: "Darkrai",
-		pt: "Darkrai",
-		de: "Darkrai"
+		'fr-fr': "Darkrai",
+		'en-us': "Darkrai",
+		'es-es': "Darkrai",
+		'it-it': "Darkrai",
+		'pt-br': "Darkrai",
+		'de-de': "Darkrai"
 	},
 
 	rarity: "Rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			fr: "Sommeil Obscur",
-			en: "Dark Slumber",
-			es: "Letargo Oscuro",
-			it: "Sonno Oscuro",
-			pt: "Sono Sombrio",
-			de: "Dunkler Schlummer"
+			'fr-fr': "Sommeil Obscur",
+			'en-us': "Dark Slumber",
+			'es-es': "Letargo Oscuro",
+			'it-it': "Sonno Oscuro",
+			'pt-br': "Sono Sombrio",
+			'de-de': "Dunkler Schlummer"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 		},
 
 		damage: 20
@@ -46,21 +46,21 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			fr: "Cyclone Nocturne",
-			en: "Night Cyclone",
-			es: "Ciclón Nocturno",
-			it: "Ciclone Notturno",
-			pt: "Ciclone Noturno",
-			de: "Nachtsturm"
+			'fr-fr': "Cyclone Nocturne",
+			'en-us': "Night Cyclone",
+			'es-es': "Ciclón Nocturno",
+			'it-it': "Ciclone Notturno",
+			'pt-br': "Ciclone Noturno",
+			'de-de': "Nachtsturm"
 		},
 
 		effect: {
-			fr: "Déplacez toutes les Énergies de ce Pokémon vers vos Pokémon de Banc comme il vous plaît.",
-			en: "Move all Energy from this Pokémon to your Benched Pokémon in any way you like.",
-			es: "Mueve todas las Energías de este Pokémon a tus Pokémon en Banca de la manera que desees.",
-			it: "Sposta tutte le Energie da questo Pokémon a quelli nella tua panchina nel modo che preferisci.",
-			pt: "Mova todas as Energias deste Pokémon para os seus Pokémon no Banco como desejar.",
-			de: "Verschiebe alle Energien von diesem Pokémon beliebig auf die Pokémon auf deiner Bank."
+			'fr-fr': "Déplacez toutes les Énergies de ce Pokémon vers vos Pokémon de Banc comme il vous plaît.",
+			'en-us': "Move all Energy from this Pokémon to your Benched Pokémon in any way you like.",
+			'es-es': "Mueve todas las Energías de este Pokémon a tus Pokémon en Banca de la manera que desees.",
+			'it-it': "Sposta tutte le Energie da questo Pokémon a quelli nella tua panchina nel modo che preferisci.",
+			'pt-br': "Mova todas as Energias deste Pokémon para os seus Pokémon no Banco como desejar.",
+			'de-de': "Verschiebe alle Energien von diesem Pokémon beliebig auf die Pokémon auf deiner Bank."
 		},
 
 		damage: 120
@@ -76,7 +76,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
+		'en-us': "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
 	},
 
 	variants: [

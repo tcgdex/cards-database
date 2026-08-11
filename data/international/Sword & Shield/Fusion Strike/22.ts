@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rillaboom V",
-		fr: "Gorythmic V",
-		es: "Rillaboom V",
-		it: "Rillaboom V",
-		pt: "Rillaboom V",
-		de: "Gortrom V"
+		'en-us': "Rillaboom V",
+		'fr-fr': "Gorythmic V",
+		'es-es': "Rillaboom V",
+		'it-it': "Rillaboom V",
+		'pt-br': "Rillaboom V",
+		'de-de': "Gortrom V"
 	},
 
 	rarity: "Holo Rare V",
@@ -34,34 +34,34 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Drain Punch",
-			fr: "Vampi-Poing",
-			de: "Ableithieb",
-			es: "Puño Drenaje",
-			pt: "Soco Dreno",
-			it: "Assorbipugno"
+			'en-us': "Drain Punch",
+			'fr-fr': "Vampi-Poing",
+			'de-de': "Ableithieb",
+			'es-es': "Puño Drenaje",
+			'pt-br': "Soco Dreno",
+			'it-it': "Assorbipugno"
 		},
 
 		damage: 60,
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			it: "Cura questo Pokémon da 30 danni."
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni."
 		}
 	}, {
 		cost: ["Grass", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Drum Rush",
-			fr: "Charge Tambour",
-			de: "Trommelansturm",
-			es: "Embestida Percusión",
-			pt: "Investida de Tambores",
-			it: "Raffica di Tamburi"
+			'en-us': "Drum Rush",
+			'fr-fr': "Charge Tambour",
+			'de-de': "Trommelansturm",
+			'es-es': "Embestida Percusión",
+			'pt-br': "Investida de Tambores",
+			'it-it': "Raffica di Tamburi"
 		},
 
 		damage: 160

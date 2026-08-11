@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドロバンコ",
+		'ja-jp': "ドロバンコ",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "足に まとわりついた 泥が グリップに なり 力強い 走りを 実現しているのだ。",
+		'ja-jp': "足に まとわりついた 泥が グリップに なり 力強い 走りを 実現しているのだ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Fighting", "Fighting"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x30ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数x30ダメージ。",
 			},
 		},
 	],

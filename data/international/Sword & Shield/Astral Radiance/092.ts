@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hisuian Sneasel",
-		fr: "Farfuret de Hisui",
-		es: "Sneasel de Hisui",
-		it: "Sneasel di Hisui",
-		pt: "Sneasel de Hisui",
-		de: "Hisui-Sniebel"
+		'en-us': "Hisuian Sneasel",
+		'fr-fr': "Farfuret de Hisui",
+		'es-es': "Sneasel de Hisui",
+		'it-it': "Sneasel di Hisui",
+		'pt-br': "Sneasel de Hisui",
+		'de-de': "Hisui-Sniebel"
 	},
 
 	illustrator: "Mizue",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Scratch",
-			fr: "Griffe",
-			es: "Arañazo",
-			it: "Graffio",
-			pt: "Arranhão",
-			de: "Kratzer"
+			'en-us': "Scratch",
+			'fr-fr': "Griffe",
+			'es-es': "Arañazo",
+			'it-it': "Graffio",
+			'pt-br': "Arranhão",
+			'de-de': "Kratzer"
 		},
 
 		damage: 10
@@ -38,12 +38,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Claw Slash",
-			fr: "Tranch'Griffe",
-			es: "Cuchillada Garra",
-			it: "Lacerartiglio",
-			pt: "Golpe de Garra",
-			de: "Klauenschlitzer"
+			'en-us': "Claw Slash",
+			'fr-fr': "Tranch'Griffe",
+			'es-es': "Cuchillada Garra",
+			'it-it': "Lacerartiglio",
+			'pt-br': "Golpe de Garra",
+			'de-de': "Klauenschlitzer"
 		},
 
 		damage: 30
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its sturdy, curved claws are ideal for traversing precipitous cliffs. From the tips of these claws drips a venom that infiltrates the nerves of any prey caught in Sneasel's grasp.",
+		'en-us': "Its sturdy, curved claws are ideal for traversing precipitous cliffs. From the tips of these claws drips a venom that infiltrates the nerves of any prey caught in Sneasel's grasp.",
 	},
 
 	variants: [

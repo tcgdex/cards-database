@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラティオス",
+		'ja-jp': "ラティオス",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "高い 知能を 持ち 人間の 言葉を 理解する。 争いを 嫌う 優しい ポケモンだ。",
+		'ja-jp': "高い 知能を 持ち 人間の 言葉を 理解する。 争いを 嫌う 優しい ポケモンだ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の場の[竜]タイプの進化ポケモンの数x50ダメージ。",
+				'ja-jp': "自分の場の[竜]タイプの進化ポケモンの数x50ダメージ。",
 			},
 		},
 	],

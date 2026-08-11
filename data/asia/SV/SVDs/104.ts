@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "แอร์มุโด",
-		id: "Skarmory"
+		'th-th': "แอร์มุโด",
+		'id-id': "Skarmory"
 	},
 
 	illustrator: "Takeshi Nakamura",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		th: "เพราะมีการนำขนที่ร่วงออกมาทำเป็นดาบ จึงได้รับความนิยมสูงในการนำมาทำเป็นแบบของตราประจำตระกูล",
-		id: "Bulu rontok Skarmory dapat dibuat menjadi pedang, sehingga Pokémon ini populer sebagai desain lambang kebesaran."
+		'th-th': "เพราะมีการนำขนที่ร่วงออกมาทำเป็นดาบ จึงได้รับความนิยมสูงในการนำมาทำเป็นแบบของตราประจำตระกูล",
+		'id-id': "Bulu rontok Skarmory dapat dibuat menjadi pedang, sehingga Pokémon ini populer sebagai desain lambang kebesaran."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "จิก",
-			id: "Mematuk"
+			'th-th': "จิก",
+			'id-id': "Mematuk"
 		},
 
 		damage: 20,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "สตีลสแลช",
-			id: "Steel Slash"
+			'th-th': "สตีลสแลช",
+			'id-id': "Steel Slash"
 		},
 
 		effect: {
-			th: "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ [สตีลสแลช] ไม่ได้",
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan Steel Slash."
+			'th-th': "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ [สตีลสแลช] ไม่ได้",
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan Steel Slash."
 		},
 
 		damage: 120,

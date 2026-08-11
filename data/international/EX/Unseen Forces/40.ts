@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Lanturn",
-		fr: "Lanturn",
-		de: "Lanturn"
+		'en-us': "Lanturn",
+		'fr-fr': "Lanturn",
+		'de-de': "Lanturn"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Chinchou",
-		fr: "Loupio"
+		'en-us': "Chinchou",
+		'fr-fr': "Loupio"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Energy Stream",
-				fr: "Courant d'énergie",
-				de: "Energy Stream"
+				'en-us': "Energy Stream",
+				'fr-fr': "Courant d'énergie",
+				'de-de': "Energy Stream"
 			},
 			effect: {
-				en: "Search your discard pile for a basic Energy card and attach it to Lanturn.",
-				fr: "Choisissez dans votre pile de défausse une carte Énergie de base et attachez-la à Lanturn.",
-				de: "Search your discard pile for a basic Energy card and attach it to Lanturn."
+				'en-us': "Search your discard pile for a basic Energy card and attach it to Lanturn.",
+				'fr-fr': "Choisissez dans votre pile de défausse une carte Énergie de base et attachez-la à Lanturn.",
+				'de-de': "Search your discard pile for a basic Energy card and attach it to Lanturn."
 			},
 			damage: 20,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				de: "Take Down"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'de-de': "Take Down"
 			},
 			effect: {
-				en: "Lanturn does 10 damage to itself.",
-				fr: "Lanturn s'inflige 10 dégâts.",
-				de: "Lanturn does 10 damage to itself."
+				'en-us': "Lanturn does 10 damage to itself.",
+				'fr-fr': "Lanturn s'inflige 10 dégâts.",
+				'de-de': "Lanturn does 10 damage to itself."
 			},
 			damage: 50,
 

@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "クワッス",
+		'ja-jp': "クワッス",
 		'zh-tw': "潤水鴨",
-		id: "Quaxly"
+		'id-id': "Quaxly"
 	},
 
 	illustrator: "GIDORA",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "昔 遠い 土地から やって来て 棲みついた。 羽から 分泌する ジェルは 水と 汚れを 弾く。",
+		'ja-jp': "昔 遠い 土地から やって来て 棲みついた。 羽から 分泌する ジェルは 水と 汚れを 弾く。",
 		'zh-tw': "很久以前從遠方來到了這裡棲息。羽毛分泌出的 凝膠有防水和防污的效果。",
-		id: "Dulu, Quaxly bermigrasi dari daerah yang jauh. Gel yang disekresi dari bulunya menangkis air dan kotoran."
+		'id-id': "Dulu, Quaxly bermigrasi dari daerah yang jauh. Gel yang disekresi dari bulunya menangkis air dan kotoran."
 	},
 
 	stage: "Basic",
@@ -28,17 +28,17 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "とつげき",
+			'ja-jp': "とつげき",
 			'zh-tw': "突擊",
-			id: "Menyerang"
+			'id-id': "Menyerang"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "このポケモンにも10ダメージ。",
+			'ja-jp': "このポケモンにも10ダメージ。",
 			'zh-tw': "這隻寶可夢也受到10點傷害。",
-			id: "Pokémon ini juga menerima kerusakan sejumlah 10."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10."
 		}
 	}],
 

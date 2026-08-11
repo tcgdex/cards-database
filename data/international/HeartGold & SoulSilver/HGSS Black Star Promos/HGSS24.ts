@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HGSS Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Hitmonchan",
-		fr: "Tygnon"
+		'en-us': "Hitmonchan",
+		'fr-fr': "Tygnon"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Promo",
@@ -26,12 +26,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Detect",
-				fr: "Détection"
+				'en-us': "Detect",
+				'fr-fr': "Détection"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to Hitmonchan during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à Tygnon pendant le prochain tour de votre adversaire."
+				'en-us': "Flip a coin. If heads, prevent all effects of attacks, including damage, done to Hitmonchan during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à Tygnon pendant le prochain tour de votre adversaire."
 			},
 
 		},
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sky Uppercut",
-				fr: "Stratopercut"
+				'en-us': "Sky Uppercut",
+				'fr-fr': "Stratopercut"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance."
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance."
 			},
 			damage: 30,
 
@@ -62,7 +62,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its punches slice the air. However, it seems to need a short break after fighting for three minutes."
+		'en-us': "Its punches slice the air. However, it seems to need a short break after fighting for three minutes."
 	},
 
 	variants: [

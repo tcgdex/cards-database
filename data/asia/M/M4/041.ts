@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パンプジンex",
+		'ja-jp': "パンプジンex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Psychic"],
 			effect: {
-				ja: "ダメカンがのっている自分のベンチポケモンの数×50ダメージ追加。",
+				'ja-jp': "ダメカンがのっている自分のベンチポケモンの数×50ダメージ追加。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 140,
 			cost: ["Psychic", "Psychic"],
 			effect: {
-				ja: "相手の手札からオモテを見ないで1枚選び、トラッシュする。",
+				'ja-jp': "相手の手札からオモテを見ないで1枚選び、トラッシュする。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "バケッチャ",
+		'ja-jp': "バケッチャ",
 	},
 
 	retreat: 2,

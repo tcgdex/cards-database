@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドラパルトex",
+		'ja-jp': "ドラパルトex",
 		'zh-tw': "多龍巴魯托ex",
-		th: "โดราพัลท์ex",
+		'th-th': "โดราพัลท์ex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,25 +19,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ジェットヘッド",
+				'ja-jp': "ジェットヘッド",
 				'zh-tw': "噴射頭擊",
-				th: "เจ็ตเฮด",
+				'th-th': "เจ็ตเฮด",
 			},
 			damage: 70,
 			cost: ["Colorless"],
 		},
 		{
 			name: {
-				ja: "ファントムダイブ",
+				'ja-jp': "ファントムダイブ",
 				'zh-tw': "幻影奇襲",
-				th: "แฟนธอมไดฟ์",
+				'th-th': "แฟนธอมไดฟ์",
 			},
 			damage: 200,
 			cost: ["Fire", "Psychic"],
 			effect: {
-				ja: "ダメカン6個を、相手のベンチポケモンに好きなようにのせる。",
+				'ja-jp': "ダメカン6個を、相手のベンチポケモンに好きなようにのせる。",
 				'zh-tw': "將6個傷害指示物以任意方式放置於對手的備戰寶可夢身上。",
-				th: "วางตัวนับแดเมจ 6 ตัว บนโปเกมอนบนเบนช์ฝ่ายตรงข้ามตามชอบ",
+				'th-th': "วางตัวนับแดเมจ 6 ตัว บนโปเกมอนบนเบนช์ฝ่ายตรงข้ามตามชอบ",
 			},
 		},
 	],
@@ -56,7 +56,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ドロンチ",
+		'ja-jp': "ドロンチ",
 	},
 
 	retreat: 1,

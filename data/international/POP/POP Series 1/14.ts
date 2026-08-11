@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 1'
 
 const card: Card = {
 	name: {
-		en: "Surskit",
-		fr: "Arakdo"
+		'en-us': "Surskit",
+		'fr-fr': "Arakdo"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Bubble",
-				fr: "Écume"
+				'en-us': "Bubble",
+				'fr-fr': "Écume"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 10,
 

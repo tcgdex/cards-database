@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../My First Battle"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Grass Energy",
+		'en-us': "Grass Energy",
 	},
 
 	rarity: "None",

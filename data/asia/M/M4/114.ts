@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガゲッコウガex",
+		'ja-jp': "メガゲッコウガex",
 	},
 
 	illustrator: "Susumu Maeya",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ひっさつしゅりけん" },
 			effect: {
-				ja: "このポケモンがバトル場にいて、自分の番に、自分の手札から「基本[W]エネルギー」を1枚トラッシュするなら、1回使える。相手のポケモン1匹に、ダメカンを6個のせる。",
+				'ja-jp': "このポケモンがバトル場にいて、自分の番に、自分の手札から「基本[W]エネルギー」を1枚トラッシュするなら、1回使える。相手のポケモン1匹に、ダメカンを6個のせる。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "120+",
 			cost: ["Water", "Water"],
 			effect: {
-				ja: "のぞむなら、このポケモンについている[W]エネルギーを1個手札にもどし、80ダメージ追加。",
+				'ja-jp': "のぞむなら、このポケモンについている[W]エネルギーを1個手札にもどし、80ダメージ追加。",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゲコガシラ",
+		'ja-jp': "ゲコガシラ",
 	},
 
 	retreat: 1,

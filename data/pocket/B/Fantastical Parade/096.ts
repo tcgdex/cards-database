@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [88],
 
 	name: {
-		en: "Alolan Grimer"
+		'en-us': "Alolan Grimer"
 	},
 
 	illustrator: "Sekio",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "Alolan Grimer will gladly gobble up any kind\nof trash, making it a widely used and popular\nPokémon at garbage disposal facilities."
+		'en-us': "Alolan Grimer will gladly gobble up any kind\nof trash, making it a widely used and popular\nPokémon at garbage disposal facilities."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Pound"
+			'en-us': "Pound"
 		},
 
 		damage: 20,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Corphish",
-		fr: "Écrapince",
-		de: "Krebscorps"
+		'en-us': "Corphish",
+		'fr-fr': "Écrapince",
+		'de-de': "Krebscorps"
 	},
 
 	illustrator: "Takao Unno",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Exoskeleton",
-				fr: "Exosquelette",
-				de: "Exoskeleton"
+				'en-us': "Exoskeleton",
+				'fr-fr': "Exosquelette",
+				'de-de': "Exoskeleton"
 			},
 			effect: {
-				en: "Any damage done to Corphish by attacks is reduced by 10 (after applying Weakness and Resistance).",
-				fr: "Les dégâts infligés à Écrapince par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
-				de: "Any damage done to Corphish by attacks is reduced by 10 (after applying Weakness and Resistance)."
+				'en-us': "Any damage done to Corphish by attacks is reduced by 10 (after applying Weakness and Resistance).",
+				'fr-fr': "Les dégâts infligés à Écrapince par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Any damage done to Corphish by attacks is reduced by 10 (after applying Weakness and Resistance)."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Chop",
-				fr: "Double coup",
-				de: "Double Chop"
+				'en-us': "Double Chop",
+				'fr-fr': "Double coup",
+				'de-de': "Double Chop"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10x",
 

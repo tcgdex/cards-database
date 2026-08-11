@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Alolan Marowak",
-		fr: "Ossatueur d'Alola",
-		es: "Marowak de Alola",
-		de: "Alola-Knogga",
-		it: "Marowak di Alola",
-		pt: "Marowak de Alola",
+		'en-us': "Alolan Marowak",
+		'fr-fr': "Ossatueur d'Alola",
+		'es-es': "Marowak de Alola",
+		'de-de': "Alola-Knogga",
+		'it-it': "Marowak di Alola",
+		'pt-br': "Marowak de Alola",
 		'es-mx': "Marowak de Alola"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Cubone",
-		fr: "Osselait",
-		es: "Cubone",
-		de: "Tragosso",
-		it: "Cubone",
-		pt: "Cubone",
+		'en-us': "Cubone",
+		'fr-fr': "Osselait",
+		'es-es': "Cubone",
+		'de-de': "Tragosso",
+		'it-it': "Cubone",
+		'pt-br': "Cubone",
 		'es-mx': "Cubone"
 	},
 	stage: "Stage1",
@@ -34,22 +34,22 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Retaliate",
-			fr: "Vengeance",
-			es: "Represalia",
-			de: "Heimzahlung",
-			it: "Nemesi",
-			pt: "Retaliação",
+			'en-us': "Retaliate",
+			'fr-fr': "Vengeance",
+			'es-es': "Represalia",
+			'de-de': "Heimzahlung",
+			'it-it': "Nemesi",
+			'pt-br': "Retaliação",
 			'es-mx': "Represalia"
 		},
 
 		effect: {
-			en: "If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 90 more damage.",
-			fr: "Si au moins l'un de vos Pokémon a été mis K.O. par les dégâts d'une attaque pendant le dernier tour de votre adversaire, cette attaque inflige 90 dégâts supplémentaires.",
-			es: "Si alguno de tus Pokémon quedó Fuera de Combate por el daño de un ataque durante el último turno de tu rival, este ataque hace 90 puntos de daño más.",
-			de: "Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke kampfunfähig wurde, fügt diese Attacke 90 Schadenspunkte mehr zu.",
-			it: "Se uno qualsiasi dei tuoi Pokémon è stato messo KO dai danni inflitti da un attacco durante l'ultimo turno del tuo avversario, questo attacco infligge 90 danni in più.",
-			pt: "Se algum dos seus Pokémon tiver sido Nocauteado pelo dano de um ataque durante o último turno do seu oponente, este ataque causará 90 pontos de dano a mais.",
+			'en-us': "If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 90 more damage.",
+			'fr-fr': "Si au moins l'un de vos Pokémon a été mis K.O. par les dégâts d'une attaque pendant le dernier tour de votre adversaire, cette attaque inflige 90 dégâts supplémentaires.",
+			'es-es': "Si alguno de tus Pokémon quedó Fuera de Combate por el daño de un ataque durante el último turno de tu rival, este ataque hace 90 puntos de daño más.",
+			'de-de': "Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke kampfunfähig wurde, fügt diese Attacke 90 Schadenspunkte mehr zu.",
+			'it-it': "Se uno qualsiasi dei tuoi Pokémon è stato messo KO dai danni inflitti da un attacco durante l'ultimo turno del tuo avversario, questo attacco infligge 90 danni in più.",
+			'pt-br': "Se algum dos seus Pokémon tiver sido Nocauteado pelo dano de um ataque durante o último turno do seu oponente, este ataque causará 90 pontos de dano a mais.",
 			'es-mx': "Si alguno de tus Pokémon quedó Fuera de Combate por el daño de un ataque durante el último turno de tu rival, este ataque hace 90 puntos de daño más."
 		},
 
@@ -58,12 +58,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Will-O-Wisp",
-			fr: "Feu Follet",
-			es: "Fuego Fatuo",
-			de: "Irrlicht",
-			it: "Fuocofatuo",
-			pt: "Fogo Fátuo",
+			'en-us': "Will-O-Wisp",
+			'fr-fr': "Feu Follet",
+			'es-es': "Fuego Fatuo",
+			'de-de': "Irrlicht",
+			'it-it': "Fuocofatuo",
+			'pt-br': "Fogo Fátuo",
 			'es-mx': "Fuego Fatuo"
 		},
 

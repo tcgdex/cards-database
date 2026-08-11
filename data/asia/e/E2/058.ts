@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Eevee",
+		'ja-jp': "Eevee",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "充電します",
+				'ja-jp': "充電します",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、デッキを検索してエネルギーカードを探してEeveeに取り付けます。その後、デッキをシャッフルします。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、デッキを検索してエネルギーカードを探してEeveeに取り付けます。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "突進",
+				'ja-jp': "突進",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
 			},
 			damage: 20,
 		},

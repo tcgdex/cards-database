@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カツラのガーディ",
+		'ja-jp': "カツラのガーディ",
 	},
 	illustrator: "Atsuko Nishida",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Fire", "Fire"],
 			name: {
-				ja: "炎",
+				'ja-jp': "炎",
 			},
 			effect: {
-				ja: "相手のベンチで各草のポケモンに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "相手のベンチで各草のポケモンに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 20,
 		},

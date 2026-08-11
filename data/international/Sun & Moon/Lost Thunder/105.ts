@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Mareanie",
-		fr: "Vorastérie",
-		es: "Mareanie",
-		it: "Mareanie",
-		pt: "Mareanie",
-		de: "Garstella"
+		'en-us': "Mareanie",
+		'fr-fr': "Vorastérie",
+		'es-es': "Mareanie",
+		'it-it': "Mareanie",
+		'pt-br': "Mareanie",
+		'de-de': "Garstella"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				es: "Picotazo",
-				it: "Beccata",
-				pt: "Bicada",
-				de: "Schnabel"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'es-es': "Picotazo",
+				'it-it': "Beccata",
+				'pt-br': "Bicada",
+				'de-de': "Schnabel"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pin Missile",
-				fr: "Dard-Nuée",
-				es: "Pin Misil",
-				it: "Missilspillo",
-				pt: "Míssil de Espinhos",
-				de: "Nadelrakete"
+				'en-us': "Pin Missile",
+				'fr-fr': "Dard-Nuée",
+				'es-es': "Pin Misil",
+				'it-it': "Missilspillo",
+				'pt-br': "Míssil de Espinhos",
+				'de-de': "Nadelrakete"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 10 damage for each heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
-				es: "Lanza 4 monedas. Este ataque hace 10 puntos de daño por cada cara.",
-				it: "Lancia quattro volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
-				pt: "Jogue 4 moedas. Este ataque causa 10 pontos de dano para cada cara.",
-				de: "Wirf 4 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
+				'en-us': "Flip 4 coins. This attack does 10 damage for each heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
+				'es-es': "Lanza 4 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+				'it-it': "Lancia quattro volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 4 moedas. Este ataque causa 10 pontos de dano para cada cara.",
+				'de-de': "Wirf 4 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
 			},
 			damage: "10×",
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It plunges the poison spike on its head into its prey. When the prey has weakened, Mareanie deals the finishing blow with its 10 tentacles.",
+		'en-us': "It plunges the poison spike on its head into its prey. When the prey has weakened, Mareanie deals the finishing blow with its 10 tentacles.",
 	},
 
 	thirdParty: {

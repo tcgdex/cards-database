@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミニリュウ",
+		'ja-jp': "ミニリュウ",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "とある 釣り師が １０時間の ファイトの 末に 釣り上げて 存在が 確認 された。",
+		'ja-jp': "とある 釣り師が １０時間の ファイトの 末に 釣り上げて 存在が 確認 された。",
 	},
 
 	stage: "Basic",

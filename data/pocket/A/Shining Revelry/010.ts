@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Shining Revelry"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charizard ex",
-		fr: "Dracaufeu-ex",
-		es: "Charizard ex",
-		it: "Charizard-ex",
-		de: "Glurak-ex",
+		'en-us': "Charizard ex",
+		'fr-fr': "Dracaufeu-ex",
+		'es-es': "Charizard ex",
+		'it-it': "Charizard-ex",
+		'de-de': "Glurak-ex",
 		'pt-br': "Charizard ex",
-		ko: "리자몽 ex"
+		'ko-kr': "리자몽 ex"
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -23,7 +23,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Charmeleon"
+		'en-us': "Charmeleon"
 	},
 
 	stage: "Stage2",
@@ -31,35 +31,35 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Stoke",
-			fr: "Attisement",
-			es: "Atizador",
-			it: "Attizzatoio",
-			de: "Anheizen",
+			'en-us': "Stoke",
+			'fr-fr': "Attisement",
+			'es-es': "Atizador",
+			'it-it': "Attizzatoio",
+			'de-de': "Anheizen",
 			'pt-br': "Carregar",
-			ko: "타오르기"
+			'ko-kr': "타오르기"
 		},
 
 		cost: ["Fire"],
 
 		effect: {
-			en: "Take 3 {R} Energy from your Energy Zone and attach it to this Pokémon.",
-			fr: "Prenez 3 Énergies {R} de votre zone Énergie et attachez-les à ce Pokémon.",
-			es: "Une 3 Energías {R} de tu área de Energía a este Pokémon.",
-			it: "Prendi 3 Energie {R} dalla tua Zona Energia e assegnale a questo Pokémon.",
-			de: "Lege 3 {R}-Energien aus deinem Energiebereich an dieses Pokémon an.",
+			'en-us': "Take 3 {R} Energy from your Energy Zone and attach it to this Pokémon.",
+			'fr-fr': "Prenez 3 Énergies {R} de votre zone Énergie et attachez-les à ce Pokémon.",
+			'es-es': "Une 3 Energías {R} de tu área de Energía a este Pokémon.",
+			'it-it': "Prendi 3 Energie {R} dalla tua Zona Energia e assegnale a questo Pokémon.",
+			'de-de': "Lege 3 {R}-Energien aus deinem Energiebereich an dieses Pokémon an.",
 			'pt-br': "Pegue 3 Energias {R} da sua Zona de Energia e ligue-as a este Pokémon.",
-			ko: "자신의 에너지존에서 {R}에너지를 3개 내보내 이 포켓몬에게 붙인다."
+			'ko-kr': "자신의 에너지존에서 {R}에너지를 3개 내보내 이 포켓몬에게 붙인다."
 		}
 	}, {
 		name: {
-			en: "Steam Artillery",
-			fr: "Artillerie Vapeur",
-			es: "Artillería de Vapor",
-			it: "Artiglieria Vapore",
-			de: "Dampfgeschütz",
+			'en-us': "Steam Artillery",
+			'fr-fr': "Artillerie Vapeur",
+			'es-es': "Artillería de Vapor",
+			'it-it': "Artiglieria Vapore",
+			'de-de': "Dampfgeschütz",
 			'pt-br': "Artilharia de Vapor",
-			ko: "타오르는대포"
+			'ko-kr': "타오르는대포"
 		},
 
 		damage: 150,

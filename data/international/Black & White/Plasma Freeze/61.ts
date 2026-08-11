@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Onix",
-		fr: "Onix",
-		es: "Onix",
-		it: "Onix",
-		pt: "Onix",
-		de: "Onix"
+		'en-us': "Onix",
+		'fr-fr': "Onix",
+		'es-es': "Onix",
+		'it-it': "Onix",
+		'pt-br': "Onix",
+		'de-de': "Onix"
 	},
 
 	illustrator: "Toyste Beach",
@@ -36,8 +36,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
 			},
 
 			damage: 30,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swing Around",
-				fr: "Balançoire",
+				'en-us': "Swing Around",
+				'fr-fr': "Balançoire",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 60 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 60 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 60,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Opening its large mouth, it ingests massive amounts of soil and creates long tunnels.",
+		'en-us': "Opening its large mouth, it ingests massive amounts of soil and creates long tunnels.",
 	},
 
 	thirdParty: {

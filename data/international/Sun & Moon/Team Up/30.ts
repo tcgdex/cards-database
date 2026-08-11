@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Gyarados",
-		fr: "Léviator",
-		es: "Gyarados",
-		it: "Gyarados",
-		pt: "Gyarados",
-		de: "Garados"
+		'en-us': "Gyarados",
+		'fr-fr': "Léviator",
+		'es-es': "Gyarados",
+		'it-it': "Gyarados",
+		'pt-br': "Gyarados",
+		'de-de': "Garados"
 	},
 
 	illustrator: "Hasuno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magikarp",
-		fr: "Magicarpe",
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Distilled Blast",
-				fr: "Explosion Distillée",
-				es: "Explosión Destilada",
-				it: "Stillabomba",
-				pt: "Explosão Destilada",
-				de: "Destillierter Schlag"
+				'en-us': "Distilled Blast",
+				'fr-fr': "Explosion Distillée",
+				'es-es': "Explosión Destilada",
+				'it-it': "Stillabomba",
+				'pt-br': "Explosão Destilada",
+				'de-de': "Destillierter Schlag"
 			},
 			effect: {
-				en: "Reveal the top 7 cards of your deck. This attack does 30 more damage times the amount of Water Energy you find there. Then, shuffle those Energy cards back into your deck and discard the other cards.",
-				fr: "Montrez les 7 cartes du dessus de votre deck. Cette attaque inflige 30 dégâts supplémentaires multipliés par le nombre d’Énergies Water que vous y trouvez. Ensuite, mélangez ces cartes Énergie avec votre deck et défaussez les autres cartes.",
-				es: "Enseña las 7 primeras cartas de tu baraja. Este ataque hace 30 puntos de daño más por cada Energía Water que encuentres entre ellas. Después, pon esas cartas de Energía de nuevo en tu baraja, barájalas todas y descarta el resto de cartas.",
-				it: "Mostra le prime sette carte del tuo mazzo. Questo attacco infligge 30 danni in più per ogni Energia Water presente tra quelle carte. Poi rimischia quelle carte Energia nel tuo mazzo e scarta le altre carte.",
-				pt: "Revele as 7 primeiras cartas do seu baralho. Este ataque causa 30 pontos de dano a mais vezes a quantidade de Energia Water que encontrar lá. Em seguida, embaralhe aquelas cartas de Energia de volta no seu baralho e descarte as demais cartas.",
-				de: "Zeige deinem Gegner die obersten 7 Karten deines Decks. Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der Water-Energien zu, die du dort findest. Mische anschließend jene Energiekarten zurück in dein Deck und lege die anderen Karten auf deinen Ablagestapel."
+				'en-us': "Reveal the top 7 cards of your deck. This attack does 30 more damage times the amount of Water Energy you find there. Then, shuffle those Energy cards back into your deck and discard the other cards.",
+				'fr-fr': "Montrez les 7 cartes du dessus de votre deck. Cette attaque inflige 30 dégâts supplémentaires multipliés par le nombre d’Énergies Water que vous y trouvez. Ensuite, mélangez ces cartes Énergie avec votre deck et défaussez les autres cartes.",
+				'es-es': "Enseña las 7 primeras cartas de tu baraja. Este ataque hace 30 puntos de daño más por cada Energía Water que encuentres entre ellas. Después, pon esas cartas de Energía de nuevo en tu baraja, barájalas todas y descarta el resto de cartas.",
+				'it-it': "Mostra le prime sette carte del tuo mazzo. Questo attacco infligge 30 danni in più per ogni Energia Water presente tra quelle carte. Poi rimischia quelle carte Energia nel tuo mazzo e scarta le altre carte.",
+				'pt-br': "Revele as 7 primeiras cartas do seu baralho. Este ataque causa 30 pontos de dano a mais vezes a quantidade de Energia Water que encontrar lá. Em seguida, embaralhe aquelas cartas de Energia de volta no seu baralho e descarte as demais cartas.",
+				'de-de': "Zeige deinem Gegner die obersten 7 Karten deines Decks. Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der Water-Energien zu, die du dort findest. Mische anschließend jene Energiekarten zurück in dein Deck und lege die anderen Karten auf deinen Ablagestapel."
 			},
 			damage: "30+",
 
@@ -64,20 +64,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Hyper Beam",
-				fr: "Ultralaser",
-				es: "Hiperrayo",
-				it: "Iper Raggio",
-				pt: "Hiper-raio",
-				de: "Hyperstrahl"
+				'en-us': "Hyper Beam",
+				'fr-fr': "Ultralaser",
+				'es-es': "Hiperrayo",
+				'it-it': "Iper Raggio",
+				'pt-br': "Hiper-raio",
+				'de-de': "Hyperstrahl"
 			},
 			effect: {
-				en: "Discard an Energy from your opponent’s Active Pokémon.",
-				fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
-				es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-				it: "Scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
-				de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard an Energy from your opponent’s Active Pokémon.",
+				'fr-fr': "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+				'es-es': "Descarta 1 Energía del Pokémon Activo de tu rival.",
+				'it-it': "Scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 100,
 
@@ -94,7 +94,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It fires hyper beams in all directions, burning the surrounding area to ash. There are some regions where it's called \"the deity of destruction.\"",
+		'en-us': "It fires hyper beams in all directions, burning the surrounding area to ash. There are some regions where it's called \"the deity of destruction.\"",
 	},
 
 	thirdParty: {

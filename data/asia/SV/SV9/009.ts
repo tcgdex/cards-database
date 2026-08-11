@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "アギルダー",
+		'ja-jp': "アギルダー",
 		'zh-tw': "敏捷蟲",
 		'zh-cn': "敏捷蟲"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "殻を 脱ぎ捨て 身軽に なった。 帯状の 粘膜を 体に 巻きつけ 乾燥を 防ぐ。",
+		'ja-jp': "殻を 脱ぎ捨て 身軽に なった。 帯状の 粘膜を 体に 巻きつけ 乾燥を 防ぐ。",
 		'zh-tw': "脫殼後變得更輕巧了。 為了防止乾燥，會將 帶狀的黏膜裹在身上。",
 		'zh-cn': "脫殼後變得更輕巧了。 為了防止乾燥，會將 帶狀的黏膜裹在身上。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "うつせみポイズン",
+			'ja-jp': "うつせみポイズン",
 			'zh-tw': "褪殼猛毒",
 			'zh-cn': "褪殼猛毒"
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 		damage: 70,
 
 		effect: {
-			ja: "相手のバトルポケモンをどくとこんらんにする。このポケモンをベンチポケモンと入れ替える。",
+			'ja-jp': "相手のバトルポケモンをどくとこんらんにする。このポケモンをベンチポケモンと入れ替える。",
 			'zh-tw': "將對手的戰鬥寶可夢【中毒】與【混亂】。將這隻寶可夢與備戰寶可夢互換。",
 			'zh-cn': "將對手的戰鬥寶可夢【中毒】與【混亂】。將這隻寶可夢與備戰寶可夢互換。"
 		}

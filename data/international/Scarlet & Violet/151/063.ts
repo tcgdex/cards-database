@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Abra",
-		en: "Abra",
-		es: "Abra",
-		it: "Abra",
-		pt: "Abra",
-		de: "Abra"
+		'fr-fr': "Abra",
+		'en-us': "Abra",
+		'es-es': "Abra",
+		'it-it': "Abra",
+		'pt-br': "Abra",
+		'de-de': "Abra"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			fr: "Piqûre Psy",
-			en: "Psyshot",
-			es: "Disparo Psi",
-			it: "Psicosparo",
-			pt: "Tiro Psíquico",
-			de: "Psychoschuss"
+			'fr-fr': "Piqûre Psy",
+			'en-us': "Psyshot",
+			'es-es': "Disparo Psi",
+			'it-it': "Psicosparo",
+			'pt-br': "Tiro Psíquico",
+			'de-de': "Psychoschuss"
 		},
 
 		damage: 20
@@ -51,7 +51,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Abra can teleport in its sleep. Apparently the more deeply Abra sleeps, the farther its teleportations go.",
+		'en-us': "Abra can teleport in its sleep. Apparently the more deeply Abra sleeps, the farther its teleportations go.",
 	},
 
 	variants: [

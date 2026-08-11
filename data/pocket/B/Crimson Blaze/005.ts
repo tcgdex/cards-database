@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [167],
 
 	name: {
-		en: "Spinarak"
+		'en-us': "Spinarak"
 	},
 
 	illustrator: "kodama",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "Although the poison from its fangs isn't that\nstrong, it's potent enough to weaken prey that\ngets caught in its web."
+		'en-us': "Although the poison from its fangs isn't that\nstrong, it's potent enough to weaken prey that\ngets caught in its web."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Sting"
+			'en-us': "Sting"
 		},
 
 		damage: 20,

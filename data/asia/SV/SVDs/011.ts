@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โอลีเนียว",
-		id: "Dolliv"
+		'th-th': "โอลีเนียว",
+		'id-id': "Dolliv"
 	},
 
 	illustrator: "Mizue",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		th: "จะแบ่งน้ำมันแสนอร่อยที่มีกลิ่นหอมสดใหม่ให้ อาศัยอยู่ร่วมกับมนุษย์มาตั้งแต่อดีตกาล",
-		id: "Dolliv membagikan minyak lezat beraroma segar. Pokémon ini telah hidup bersama manusia sejak zaman dahulu."
+		'th-th': "จะแบ่งน้ำมันแสนอร่อยที่มีกลิ่นหอมสดใหม่ให้ อาศัยอยู่ร่วมกับมนุษย์มาตั้งแต่อดีตกาล",
+		'id-id': "Dolliv membagikan minyak lezat beraroma segar. Pokémon ini telah hidup bersama manusia sejak zaman dahulu."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "สายลมพระอาทิตย์",
-			id: "Angin Surya"
+			'th-th': "สายลมพระอาทิตย์",
+			'id-id': "Angin Surya"
 		},
 
 		effect: {
-			th: "ฟื้นฟู HP ของโปเกมอนนี้ [30]",
-			id: "Pulihkan HP Pokémon ini sejumlah 30."
+			'th-th': "ฟื้นฟู HP ของโปเกมอนนี้ [30]",
+			'id-id': "Pulihkan HP Pokémon ini sejumlah 30."
 		},
 
 		damage: 30,

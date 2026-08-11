@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Team Rocket's Nidoran♂",
-		fr: "Nidoran♂ de la Team Rocket",
-		de: "Team Rockets Nidoran♂",
-		it: "Nidoran♂ del Team Rocket",
-		es: "Nidoran♂ del Team Rocket",
-		pt: "Nidoran♂ da Equipe Rocket",
+		'en-us': "Team Rocket's Nidoran♂",
+		'fr-fr': "Nidoran♂ de la Team Rocket",
+		'de-de': "Team Rockets Nidoran♂",
+		'it-it': "Nidoran♂ del Team Rocket",
+		'es-es': "Nidoran♂ del Team Rocket",
+		'pt-br': "Nidoran♂ da Equipe Rocket",
 		'es-mx': "Nidoran♂ del Equipo Rocket"
 	},
 
@@ -28,12 +28,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Pierce",
-			fr: "Transpercement",
-			de: "Durchbohren",
-			it: "Perforare",
-			es: "Perforar",
-			pt: "Perfurar",
+			'en-us': "Pierce",
+			'fr-fr': "Transpercement",
+			'de-de': "Durchbohren",
+			'it-it': "Perforare",
+			'es-es': "Perforar",
+			'pt-br': "Perfurar",
 			'es-mx': "Perforar"
 		},
 
@@ -42,12 +42,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			de: "Einhämmern",
-			it: "Martello",
-			es: "Martillear",
-			pt: "Martelada",
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'de-de': "Einhämmern",
+			'it-it': "Martello",
+			'es-es': "Martillear",
+			'pt-br': "Martelada",
 			'es-mx': "Martillar"
 		},
 

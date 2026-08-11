@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [299],
 
 	name: {
-		en: "Nosepass",
-		fr: "Tarinor",
-		es: "Nosepass",
-		it: "Nosepass",
-		pt: "Nosepass",
-		de: "Nasgnet"
+		'en-us': "Nosepass",
+		'fr-fr': "Tarinor",
+		'es-es': "Nosepass",
+		'it-it': "Nosepass",
+		'pt-br': "Nosepass",
+		'de-de': "Nasgnet"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -24,12 +24,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rolling Tackle",
-				fr: "Roulé-Boulé",
-				es: "Placaje Giro",
-				it: "Rollazione",
-				pt: "Golpe de Colisão Rolante",
-				de: "Rolltackle"
+				'en-us': "Rolling Tackle",
+				'fr-fr': "Roulé-Boulé",
+				'es-es': "Placaje Giro",
+				'it-it': "Rollazione",
+				'pt-br': "Golpe de Colisão Rolante",
+				'de-de': "Rolltackle"
 			},
 
 			damage: 50,
@@ -71,7 +71,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It hunts without twitching a muscle by pulling in its prey with powerful magnetism. But sometimes it pulls natural enemies in close."
+		'en-us': "It hunts without twitching a muscle by pulling in its prey with powerful magnetism. But sometimes it pulls natural enemies in close."
 	},
 
 	variants: [

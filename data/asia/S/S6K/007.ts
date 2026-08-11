@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バチンキー",
+		'ja-jp': "バチンキー",
 		'zh-tw': "啪咚猴",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "激しい ビートを 刻むことに 夢中になる あまり 戦いで 相手が 気絶しても 気づかない。",
+		'ja-jp': "激しい ビートを 刻むことに 夢中になる あまり 戦いで 相手が 気絶しても 気づかない。",
 		'zh-tw': "打著激烈的節拍戰鬥時，由於過於忘我，甚至不會意識到自己已經把對手打昏了。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "はたきおとす",
+				'ja-jp': "はたきおとす",
 				'zh-tw': "拍落",
 			},
 			damage: 30,
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "相手の手札からオモテを見ないで1枚選び、トラッシュする。",
+				'ja-jp': "相手の手札からオモテを見ないで1枚選び、トラッシュする。",
 				'zh-tw': "在不看正面的情況下，選擇1張對手的手牌，將其丟棄。",
 			},
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "サルノリ",
+		'ja-jp': "サルノリ",
 	},
 
 	retreat: 2,

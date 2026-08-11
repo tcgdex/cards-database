@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キャタピー",
+		'ja-jp': "キャタピー",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ヘッドバット",
+				'ja-jp': "ヘッドバット",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "絡み合ったスレッド",
+				'ja-jp': "絡み合ったスレッド",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 10,
 		},

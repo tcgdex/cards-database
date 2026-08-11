@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Honchkrow",
-		fr: "Corboss",
-		es: "Honchkrow",
-		it: "Honchkrow",
-		pt: "Honchkrow",
-		de: "Kramshef"
+		'en-us': "Honchkrow",
+		'fr-fr': "Corboss",
+		'es-es': "Honchkrow",
+		'it-it': "Honchkrow",
+		'pt-br': "Honchkrow",
+		'de-de': "Kramshef"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Murkrow",
-		fr: "Cornèbre",
-		es: "Murkrow",
-		it: "Murkrow",
-		pt: "Murkrow",
-		de: "Kramurx"
+		'en-us': "Murkrow",
+		'fr-fr': "Cornèbre",
+		'es-es': "Murkrow",
+		'it-it': "Murkrow",
+		'pt-br': "Murkrow",
+		'de-de': "Kramurx"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Hypnoblast",
-				fr: "Hypnoblast",
-				es: "Hipnorrayo",
-				it: "Ipnobomba",
-				pt: "Borrifada Hipnótica",
-				de: "Hypnoschuss"
+				'en-us': "Hypnoblast",
+				'fr-fr': "Hypnoblast",
+				'es-es': "Hipnorrayo",
+				'it-it': "Ipnobomba",
+				'pt-br': "Borrifada Hipnótica",
+				'de-de': "Hypnoschuss"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent's Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 20,
 
@@ -68,20 +68,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nightmare Mambo",
-				fr: "Valse Hantée",
-				es: "Mambo Pesadilla",
-				it: "Incubo Mambo",
-				pt: "Mambo do Pesadelo",
-				de: "Albtraum-Mambo"
+				'en-us': "Nightmare Mambo",
+				'fr-fr': "Valse Hantée",
+				'es-es': "Mambo Pesadilla",
+				'it-it': "Incubo Mambo",
+				'pt-br': "Mambo do Pesadelo",
+				'de-de': "Albtraum-Mambo"
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is Asleep, this attack does 60 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire est Endormi, cette attaque inflige 60 dégâts supplémentaires.",
-				es: "Si el Pokémon Activo de tu rival está Dormido, este ataque hace 60 puntos de daño más.",
-				it: "Se il Pokémon attivo del tuo avversario è addormentato, questo attacco infligge 60 danni in più.",
-				pt: "Se o Pokémon Ativo do seu oponente estiver Adormecido, esse ataque causará 60 de danos adicionais.",
-				de: "Wenn das Aktive Pokémon deines Gegners schläft, fügt dieser Angriff 60 weitere Schadenspunkte zu."
+				'en-us': "If your opponent's Active Pokémon is Asleep, this attack does 60 more damage.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est Endormi, cette attaque inflige 60 dégâts supplémentaires.",
+				'es-es': "Si el Pokémon Activo de tu rival está Dormido, este ataque hace 60 puntos de daño más.",
+				'it-it': "Se il Pokémon attivo del tuo avversario è addormentato, questo attacco infligge 60 danni in più.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente estiver Adormecido, esse ataque causará 60 de danos adicionais.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners schläft, fügt dieser Angriff 60 weitere Schadenspunkte zu."
 			},
 			damage: "60+",
 
@@ -105,7 +105,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If one utters a deep cry, many Murkrow gather quickly. For this, it is called \"Summoner of Night.\"",
+		'en-us': "If one utters a deep cry, many Murkrow gather quickly. For this, it is called \"Summoner of Night.\"",
 	},
 
 	thirdParty: {

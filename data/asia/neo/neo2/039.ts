@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "houndour（u）",
+		'ja-jp': "houndour（u）",
 	},
 
 	rarity: "Uncommon",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "噛む",
+				'ja-jp': "噛む",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Darkness", "Colorless"],
 			name: {
-				ja: "略奪",
+				'ja-jp': "略奪",
 			},
 			effect: {
-				ja: "ダメージを与える前に、防御ポケモンに取り付けられたすべてのトレーナーカードを捨てます（ダメージに影響する前）。",
+				'ja-jp': "ダメージを与える前に、防御ポケモンに取り付けられたすべてのトレーナーカードを捨てます（ダメージに影響する前）。",
 			},
 			damage: 20,
 		},

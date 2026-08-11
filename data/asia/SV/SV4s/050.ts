@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Zebstrika"
+		'id-id': "Zebstrika"
 	},
 
 	illustrator: "GOSSAN",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Pokémon ini memiliki kecepatan seketika yang secepat kilat. Ketika Zebstrika berlari dengan kecepatan penuh, suara guntur bergema ke sekelilingnya."
+		'id-id': "Pokémon ini memiliki kecepatan seketika yang secepat kilat. Ketika Zebstrika berlari dengan kecepatan penuh, suara guntur bergema ke sekelilingnya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Ringkikan Meletus"
+			'id-id': "Ringkikan Meletus"
 		},
 
 		effect: {
-			id: "Pilih Energi Dasar {Listrik} dari Trash sendiri paling banyak sejumlah Kartu Point yang telah diambil lawan, lalu kenakan sesukanya pada Pokémon sendiri."
+			'id-id': "Pilih Energi Dasar {Listrik} dari Trash sendiri paling banyak sejumlah Kartu Point yang telah diambil lawan, lalu kenakan sesukanya pada Pokémon sendiri."
 		},
 
 		cost: ["Lightning"]
 	}, {
 		name: {
-			id: "Guntur"
+			'id-id': "Guntur"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 50."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 50."
 		},
 
 		damage: 150,

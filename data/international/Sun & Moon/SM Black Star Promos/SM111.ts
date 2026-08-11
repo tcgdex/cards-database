@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Ash's Pikachu",
-		fr: "Pikachu de Sacha",
+		'en-us': "Ash's Pikachu",
+		'fr-fr': "Pikachu de Sacha",
 	},
 	illustrator: "2017 Pikachu Project",
 	rarity: "Promo",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-Attaque",
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-Attaque",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts supplémentaires.",
 			},
 			damage: 10,
 
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Volt Tackle",
-				fr: "Électacle",
+				'en-us': "Volt Tackle",
+				'fr-fr': "Électacle",
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s’inflige 10 dégâts.",
+				'en-us': "This Pokémon does 10 damage to itself.",
+				'fr-fr': "Ce Pokémon s’inflige 10 dégâts.",
 			},
 			damage: 60,
 
@@ -74,7 +74,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This form of Pikachu is somewhat rare. It wears the hat of its Trainer, who is also its partner.",
+		'en-us': "This form of Pikachu is somewhat rare. It wears the hat of its Trainer, who is also its partner.",
 	},
 }
 

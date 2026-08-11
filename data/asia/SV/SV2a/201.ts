@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リザードンex",
+		'ja-jp': "リザードンex",
 		'zh-tw': "噴火龍ex",
-		th: "ลิซาร์ดอนex",
-		id: "Charizard ex",
+		'th-th': "ลิซาร์ดอนex",
+		'id-id': "Charizard ex",
 	},
 
 	illustrator: "miki kudo",
@@ -20,34 +20,34 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ブレイブウイング",
+				'ja-jp': "ブレイブウイング",
 				'zh-tw': "無畏之翼",
-				th: "เบรฟวิง",
-				id: "Brave Wing",
+				'th-th': "เบรฟวิง",
+				'id-id': "Brave Wing",
 			},
 			damage: "60+",
 			cost: ["Fire"],
 			effect: {
-				ja: "このポケモンにダメカンがのっているなら、100ダメージ追加。",
+				'ja-jp': "このポケモンにダメカンがのっているなら、100ダメージ追加。",
 				'zh-tw': "若這隻寶可夢身上放置有傷害指示物，則增加100點傷害。",
-				th: "ถ้าโปเกมอนนี้มีตัวนับแดเมจวางอยู่ การโจมตีนี้จะเพิ่มแดเมจอีก 100",
-				id: "Jika Pokémon ini memiliki Token Kerusakan, kerusakan yang diberikan bertambah sejumlah 100.",
+				'th-th': "ถ้าโปเกมอนนี้มีตัวนับแดเมจวางอยู่ การโจมตีนี้จะเพิ่มแดเมจอีก 100",
+				'id-id': "Jika Pokémon ini memiliki Token Kerusakan, kerusakan yang diberikan bertambah sejumlah 100.",
 			},
 		},
 		{
 			name: {
-				ja: "ばくえんのうず",
+				'ja-jp': "ばくえんのうず",
 				'zh-tw': "爆焰旋渦",
-				th: "วงล้อระเบิดไฟ",
-				id: "Pusaran Ledakan Api",
+				'th-th': "วงล้อระเบิดไฟ",
+				'id-id': "Pusaran Ledakan Api",
 			},
 			damage: 330,
 			cost: ["Fire", "Fire", "Fire", "Fire"],
 			effect: {
-				ja: "このポケモンについているエネルギーを3個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを3個選び、トラッシュする。",
 				'zh-tw': "選擇3個這隻寶可夢身上附加的能量，將其丟棄。",
-				th: "เลือกพลังงานที่ติดอยู่กับโปเกมอนนี้ 3 ลูก ทิ้งที่ตำแหน่งทิ้งการ์ด",
-				id: "Pilih 3 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash.",
+				'th-th': "เลือกพลังงานที่ติดอยู่กับโปเกมอนนี้ 3 ลูก ทิ้งที่ตำแหน่งทิ้งการ์ด",
+				'id-id': "Pilih 3 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash.",
 			},
 		},
 	],
@@ -65,7 +65,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "リザード",
+		'ja-jp': "リザード",
 	},
 
 	retreat: 2,

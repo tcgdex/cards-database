@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タマタマ",
+		'ja-jp': "タマタマ",
 	},
 
 	illustrator: "Yuka Morii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "６匹で １人前の ポケモン。 マケンカニに よく 狙われるが 念力を 使って 撃退する。",
+		'ja-jp': "６匹で １人前の ポケモン。 マケンカニに よく 狙われるが 念力を 使って 撃退する。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ふえる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある「タマタマ」を1枚、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札にある「タマタマ」を1枚、ベンチに出す。そして山札を切る。",
 			},
 		},
 	],

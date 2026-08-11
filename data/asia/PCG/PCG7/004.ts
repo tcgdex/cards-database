@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG7"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マンキー（デルタ種）",
+		'ja-jp': "マンキー（デルタ種）",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "麻痺する視線",
+				'ja-jp': "麻痺する視線",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 		},
 		{
 			cost: ["Fire", "Colorless"],
 			name: {
-				ja: "ローキック",
+				'ja-jp': "ローキック",
 			},
 			damage: 20,
 		},

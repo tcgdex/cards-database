@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガディアンシーex",
+		'ja-jp': "メガディアンシーex",
 	},
 
 	illustrator: "DOM",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ダイヤコート" },
 			effect: {
-				ja: "このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "このポケモンが受けるワザのダメージは「-30」される。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "120×",
 			cost: ["Psychic", "Psychic"],
 			effect: {
-				ja: "このポケモンについているエネルギーを2枚までトラッシュし、その枚数×120ダメージ。",
+				'ja-jp': "このポケモンについているエネルギーを2枚までトラッシュし、その枚数×120ダメージ。",
 			},
 		},
 	],

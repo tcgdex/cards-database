@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "照らされます",
+		'ja-jp': "照らされます",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ビーコン保護",
+				'ja-jp': "ビーコン保護",
 			},
 			effect: {
-				ja: "Volbeatがプレイされている限り、その名前が暗くなっている相手のPokã©Monからの攻撃によって照らされるために、損傷を含むすべての効果を防​​ぎます。",
+				'ja-jp': "Volbeatがプレイされている限り、その名前が暗くなっている相手のPokã©Monからの攻撃によって照らされるために、損傷を含むすべての効果を防​​ぎます。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "家族を呼びます",
+				'ja-jp': "家族を呼びます",
 			},
 			effect: {
-				ja: "デッキを検索して、基本的なポケモンを探して、ベンチに置きます。  その後、デッキをシャッフルします。",
+				'ja-jp': "デッキを検索して、基本的なポケモンを探して、ベンチに置きます。  その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "奇妙なラスピン",
+				'ja-jp': "奇妙なラスピン",
 			},
 			effect: {
-				ja: "防御ポケモンが進化したポケモンである場合、防御ポケモンは混乱しています。",
+				'ja-jp': "防御ポケモンが進化したポケモンである場合、防御ポケモンは混乱しています。",
 			},
 			damage: 20,
 		},

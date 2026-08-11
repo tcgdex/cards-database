@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Empoleon",
-		fr: "Pingoléon",
-		es: "Empoleon",
-		it: "Empoleon",
-		pt: "Empoleon",
-		de: "Impoleon"
+		'en-us': "Empoleon",
+		'fr-fr': "Pingoléon",
+		'es-es': "Empoleon",
+		'it-it': "Empoleon",
+		'pt-br': "Empoleon",
+		'de-de': "Impoleon"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Prinplup",
-		fr: "Prinplouf",
+		'en-us': "Prinplup",
+		'fr-fr': "Prinplouf",
 	},
 
 	stage: "Stage2",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Diving Draw",
-				fr: "Plonge et Pioche",
-				es: "Robo Buceo",
-				it: "Pescafonda",
-				pt: "Saque Mergulho",
-				de: "Unterwasserzieher"
+				'en-us': "Diving Draw",
+				'fr-fr': "Plonge et Pioche",
+				'es-es': "Robo Buceo",
+				'it-it': "Pescafonda",
+				'pt-br': "Saque Mergulho",
+				'de-de': "Unterwasserzieher"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may discard a card from your hand. If you do, draw 2 cards.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser une carte de votre main. Dans ce cas, piochez 2 cartes.",
-				es: "Una vez durante tu turno (antes de tu ataque), puedes descartar una carta de tu mano. Si lo haces, roba 2 cartas.",
-				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi scartare una delle carte che hai in mano. Se lo fai, pesca due carte.",
-				pt: "Uma vez na sua vez de jogar (antes de atacar), você pode descartar um card da sua mão. Se fizer isso, compre 2 cards.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Karte von deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, ziehe 2 Karten."
+				'en-us': "Once during your turn (before your attack), you may discard a card from your hand. If you do, draw 2 cards.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser une carte de votre main. Dans ce cas, piochez 2 cartes.",
+				'es-es': "Una vez durante tu turno (antes de tu ataque), puedes descartar una carta de tu mano. Si lo haces, roba 2 cartas.",
+				'it-it': "Una sola volta durante il tuo turno, prima di attaccare, puoi scartare una delle carte che hai in mano. Se lo fai, pesca due carte.",
+				'pt-br': "Uma vez na sua vez de jogar (antes de atacar), você pode descartar um card da sua mão. Se fizer isso, compre 2 cards.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Karte von deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, ziehe 2 Karten."
 			},
 		},
 	],
@@ -61,12 +61,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Attack Command",
-				fr: "Ordre d'Assaut",
+				'en-us': "Attack Command",
+				'fr-fr': "Ordre d'Assaut",
 			},
 			effect: {
-				en: "Does 10 damage times the number of Pokémon in play (both yours and your opponent's).",
-				fr: "Inflige 10 dégâts multipliés par le nombre de Pokémon en jeu (les vôtres et ceux de votre adversaire).",
+				'en-us': "Does 10 damage times the number of Pokémon in play (both yours and your opponent's).",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de Pokémon en jeu (les vôtres et ceux de votre adversaire).",
 			},
 			damage: 10,
 
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
+		'en-us': "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
 	},
 
 	thirdParty: {

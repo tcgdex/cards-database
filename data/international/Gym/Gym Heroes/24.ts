@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Zubat"
+		'en-us': "Brock's Zubat"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Alert"
+				'en-us': "Alert"
 			},
 			effect: {
-				en: "Draw a card. Then, switch Brock's Zubat with 1 of your Benched Pokémon. You can't use this attack if your Bench is empty."
+				'en-us': "Draw a card. Then, switch Brock's Zubat with 1 of your Benched Pokémon. You can't use this attack if your Bench is empty."
 			},
 
 		},
@@ -40,7 +40,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack"
+				'en-us': "Wing Attack"
 			},
 
 			damage: 20,

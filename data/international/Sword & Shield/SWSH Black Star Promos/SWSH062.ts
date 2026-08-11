@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
@@ -19,12 +19,12 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Pikachu VMAX",
-		fr: "Pikachu VMAX",
-		de: "Pikachu VMAX",
-		es: "Pikachu VMAX",
-		pt: "Pikachu VMAX",
-		it: "Pikachu VMAX"
+		'en-us': "Pikachu VMAX",
+		'fr-fr': "Pikachu VMAX",
+		'de-de': "Pikachu VMAX",
+		'es-es': "Pikachu VMAX",
+		'pt-br': "Pikachu VMAX",
+		'it-it': "Pikachu VMAX"
 	},
 
 	rarity: "Promo",
@@ -34,33 +34,33 @@ const card: Card = {
 	stage: "VMAX",
 
 	evolveFrom: {
-		fr: "Pikachu-V",
-		de: "Pikachu-V",
-		es: "Pikachu V",
-		pt: "Pikachu V",
-		it: "Pikachu-V",
-		en: "Pikachu V"
+		'fr-fr': "Pikachu-V",
+		'de-de': "Pikachu-V",
+		'es-es': "Pikachu V",
+		'pt-br': "Pikachu V",
+		'it-it': "Pikachu-V",
+		'en-us': "Pikachu V"
 	},
 
 	attacks: [{
 		cost: ["Lightning", "Lightning", "Lightning"],
 
 		name: {
-			fr: "Électacle G-Max",
-			de: "Giga-Volttackle",
-			es: "Gigaplacaje Eléctrico",
-			pt: "Investida Trovão G-Max",
-			it: "Gigalocomovolt",
-			en: "G-Max Volt Tackle"
+			'fr-fr': "Électacle G-Max",
+			'de-de': "Giga-Volttackle",
+			'es-es': "Gigaplacaje Eléctrico",
+			'pt-br': "Investida Trovão G-Max",
+			'it-it': "Gigalocomovolt",
+			'en-us': "G-Max Volt Tackle"
 		},
 
 		effect: {
-			fr: "Vous pouvez défausser toute l'Énergie de ce Pokémon. Dans ce cas, cette attaque inflige 150 dégâts supplémentaires.",
-			de: "Du kannst alle Energien von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 150 Schadenspunkte mehr zu.",
-			es: "Puedes descartar todas las Energías de este Pokémon. Si lo haces, este ataque hace 150 puntos de daño más.",
-			pt: "Você pode descartar todas as Energias deste Pokémon. Se fizer isto, este ataque causará 150 pontos de dano a mais.",
-			it: "Puoi scartare tutte le Energie da questo Pokémon. Se lo fai, questo attacco infligge 150 danni in più.",
-			en: "You may discard all Energy from this Pokémon. If you do, this attack does 150 more damage."
+			'fr-fr': "Vous pouvez défausser toute l'Énergie de ce Pokémon. Dans ce cas, cette attaque inflige 150 dégâts supplémentaires.",
+			'de-de': "Du kannst alle Energien von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 150 Schadenspunkte mehr zu.",
+			'es-es': "Puedes descartar todas las Energías de este Pokémon. Si lo haces, este ataque hace 150 puntos de daño más.",
+			'pt-br': "Você pode descartar todas as Energias deste Pokémon. Se fizer isto, este ataque causará 150 pontos de dano a mais.",
+			'it-it': "Puoi scartare tutte le Energie da questo Pokémon. Se lo fai, questo attacco infligge 150 danni in più.",
+			'en-us': "You may discard all Energy from this Pokémon. If you do, this attack does 150 more damage."
 		},
 
 		damage: "120+"

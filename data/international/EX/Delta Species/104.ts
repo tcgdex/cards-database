@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Holon Energy FF",
-		fr: "Énergie Holon FF",
-		de: "Holon-Energie FK"
+		'en-us': "Holon Energy FF",
+		'fr-fr': "Énergie Holon FF",
+		'de-de': "Holon-Energie FK"
 	},
 
 	illustrator: "Takumi Akabane",
@@ -15,9 +15,9 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		en: "Holon Energy FF provides Colorless Energy. If the Pokémon that Holon Energy FF is attached to also has a basic Fire Energy card attached to it, that Pokémon has no Weakness. If the Pokémon that Holon Energy FF is attached to also has a basic Fighting Energy card attached to it, damage done by that Pokémon's attack isn't affected by Resistance. Ignore these effects if Holon Energy FF is attached to Pokémon-ex.",
-		de: "Holon Energy FF provides  Energy.\nIf the Pokémon that Holon Energy FF is attached to also has a basic  Energy card attached to it, that Pokémon has no Weakness. If the Pokémon that Holon Energy FF is attached to also has a basic  Enegy card attached to it, damage done by that Pokémon's attack isn't affected by Resistance. Ignore these effects if Holon Energy FF is attached to Pokémon-ex.",
-		fr: "Si le Pokémon auquel Énergie Holon FF est attachée possède également une carte Énergie de base Feu, il ne possède pas de Faiblesse. Si le Pokémon auquel Énergie Holon FF est attachée possède également une carte Énergie de base Combat, les dégâts infligés par son attaque ne sont pas affectés par la Résistance. Ignorez ces effets si Énergie Holon FF est attachée à un Pokémon-ex.",
+		'en-us': "Holon Energy FF provides Colorless Energy. If the Pokémon that Holon Energy FF is attached to also has a basic Fire Energy card attached to it, that Pokémon has no Weakness. If the Pokémon that Holon Energy FF is attached to also has a basic Fighting Energy card attached to it, damage done by that Pokémon's attack isn't affected by Resistance. Ignore these effects if Holon Energy FF is attached to Pokémon-ex.",
+		'de-de': "Holon Energy FF provides  Energy.\nIf the Pokémon that Holon Energy FF is attached to also has a basic  Energy card attached to it, that Pokémon has no Weakness. If the Pokémon that Holon Energy FF is attached to also has a basic  Enegy card attached to it, damage done by that Pokémon's attack isn't affected by Resistance. Ignore these effects if Holon Energy FF is attached to Pokémon-ex.",
+		'fr-fr': "Si le Pokémon auquel Énergie Holon FF est attachée possède également une carte Énergie de base Feu, il ne possède pas de Faiblesse. Si le Pokémon auquel Énergie Holon FF est attachée possède également une carte Énergie de base Combat, les dégâts infligés par son attaque ne sont pas affectés par la Résistance. Ignorez ces effets si Énergie Holon FF est attachée à un Pokémon-ex.",
 	},
 
 	thirdParty: {

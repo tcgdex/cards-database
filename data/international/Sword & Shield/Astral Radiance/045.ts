@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Keldeo",
-		fr: "Keldeo",
-		es: "Keldeo",
-		it: "Keldeo",
-		pt: "Keldeo",
-		de: "Keldeo"
+		'en-us': "Keldeo",
+		'fr-fr': "Keldeo",
+		'es-es': "Keldeo",
+		'it-it': "Keldeo",
+		'pt-br': "Keldeo",
+		'de-de': "Keldeo"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Smash Kick",
-			fr: "Coud'Pattes",
-			es: "Patada Destrucción",
-			it: "Calcio Esplosivo",
-			pt: "Chute Poderoso",
-			de: "Schmetterkick"
+			'en-us': "Smash Kick",
+			'fr-fr': "Coud'Pattes",
+			'es-es': "Patada Destrucción",
+			'it-it': "Calcio Esplosivo",
+			'pt-br': "Chute Poderoso",
+			'de-de': "Schmetterkick"
 		},
 
 		damage: 20
@@ -38,21 +38,21 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Line Force",
-			fr: "Force Linéaire",
-			es: "Fuerza Lineal",
-			it: "Schieraforza",
-			pt: "Força Linear",
-			de: "Gebündelte Kraft"
+			'en-us': "Line Force",
+			'fr-fr': "Force Linéaire",
+			'es-es': "Fuerza Lineal",
+			'it-it': "Schieraforza",
+			'pt-br': "Força Linear",
+			'de-de': "Gebündelte Kraft"
 		},
 
 		effect: {
-			en: "This attack does 20 more damage for each of your Benched Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chacun de vos Pokémon de Banc.",
-			es: "Este ataque hace 20 puntos de daño más por cada uno de tus Pokémon en Banca.",
-			it: "Questo attacco infligge 20 danni in più per ogni Pokémon nella tua panchina.",
-			pt: "Este ataque causa 20 pontos de dano a mais para cada Pokémon no seu Banco.",
-			de: "Diese Attacke fügt für jedes Pokémon auf deiner Bank 20 Schadenspunkte mehr zu."
+			'en-us': "This attack does 20 more damage for each of your Benched Pokémon.",
+			'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires pour chacun de vos Pokémon de Banc.",
+			'es-es': "Este ataque hace 20 puntos de daño más por cada uno de tus Pokémon en Banca.",
+			'it-it': "Questo attacco infligge 20 danni in più per ogni Pokémon nella tua panchina.",
+			'pt-br': "Este ataque causa 20 pontos de dano a mais para cada Pokémon no seu Banco.",
+			'de-de': "Diese Attacke fügt für jedes Pokémon auf deiner Bank 20 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
+		'en-us': "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
 	},
 
 	variants: [

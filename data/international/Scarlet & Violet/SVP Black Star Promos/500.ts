@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Terapagos & Friends",
+		'en-us': "Terapagos & Friends",
 	},
 	rarity: "Promo",
 	category: "Pokemon",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Colorless","Colorless","Colorless","Colorless"],
 			name: {
-				en: "A Grand Adventure with Friends",
+				'en-us': "A Grand Adventure with Friends",
 			},
 			effect:{
-				en: "This attack does 100 damage for each of your Pokémon in play."
+				'en-us': "This attack does 100 damage for each of your Pokémon in play."
 			},
 			damage: "100×",
 		}

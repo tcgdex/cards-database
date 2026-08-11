@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Gossifleur",
-		fr: "Tournicoton",
-		es: "Gossifleur",
-		it: "Gossifleur",
-		pt: "Gossifleur",
-		de: "Cottini"
+		'en-us': "Gossifleur",
+		'fr-fr': "Tournicoton",
+		'es-es': "Gossifleur",
+		'it-it': "Gossifleur",
+		'pt-br': "Gossifleur",
+		'de-de': "Cottini"
 	},
 
 	rarity: "Common",
@@ -23,21 +23,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Blot",
-			fr: "Pâté",
-			es: "Absorción",
-			it: "Macchia",
-			pt: "Blot",
-			de: "Klecks"
+			'en-us': "Blot",
+			'fr-fr': "Pâté",
+			'es-es': "Absorción",
+			'it-it': "Macchia",
+			'pt-br': "Blot",
+			'de-de': "Klecks"
 		},
 
 		effect: {
-			en: "Heal 10 damage from this Pokémon.",
-			fr: "Soignez 10 dégâts de ce Pokémon.",
-			es: "Cura 10 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 10 danni.",
-			pt: "Heal 10 damage from this Pokémon.",
-			de: "Heile 10 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 10 damage from this Pokémon.",
+			'fr-fr': "Soignez 10 dégâts de ce Pokémon.",
+			'es-es': "Cura 10 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 10 danni.",
+			'pt-br': "Heal 10 damage from this Pokémon.",
+			'de-de': "Heile 10 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 10,
@@ -52,7 +52,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon."
+		'en-us': "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon."
 	},
 
 	dexId: [829],

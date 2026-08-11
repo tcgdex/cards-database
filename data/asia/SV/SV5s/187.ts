@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Walking Wake ex"
+		'id-id': "Walking Wake ex"
 	},
 
 	illustrator: "Teeziro",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Ombak Besar Biru Tua"
+			'id-id': "Ombak Besar Biru Tua"
 		},
 
 		effect: {
-			id: "Kerusakan akibat serangan yang digunakan oleh Pokémon ini tidak terpengaruh oleh efek yang sedang dialami Pokémon Bertarung lawan."
+			'id-id': "Kerusakan akibat serangan yang digunakan oleh Pokémon ini tidak terpengaruh oleh efek yang sedang dialami Pokémon Bertarung lawan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Catharsis Roar"
+			'id-id': "Catharsis Roar"
 		},
 
 		effect: {
-			id: "Jika Pokémon Bertarung lawan mengalami Kondisi Khusus, kerusakan yang diberikan bertambah sejumlah 120."
+			'id-id': "Jika Pokémon Bertarung lawan mengalami Kondisi Khusus, kerusakan yang diberikan bertambah sejumlah 120."
 		},
 
 		damage: "120+",

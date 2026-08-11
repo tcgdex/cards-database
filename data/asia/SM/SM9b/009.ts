@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カメール",
+		'ja-jp': "カメール",
 	},
 
 	illustrator: "Hiroki Asanuma",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ポカンと 頭を たたかれるとき 甲羅に 引っこんで 避ける。でも ちょっとだけ 尻尾が 出ているよ。",
+		'ja-jp': "ポカンと 頭を たたかれるとき 甲羅に 引っこんで 避ける。でも ちょっとだけ 尻尾が 出ているよ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かたいこうら" },
 			effect: {
-				ja: "このポケモンが受けるワザのダメージは「-20」される。",
+				'ja-jp': "このポケモンが受けるワザのダメージは「-20」される。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Water", "Water"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゼニガメ",
+		'ja-jp': "ゼニガメ",
 	},
 
 	retreat: 2,

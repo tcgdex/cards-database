@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Batracné",
-		en: "Palpitoad",
-		es: "Palpitoad",
-		it: "Palpitoad",
-		pt: "Palpitoad",
-		de: "Mebrana"
+		'fr-fr': "Batracné",
+		'en-us': "Palpitoad",
+		'es-es': "Palpitoad",
+		'it-it': "Palpitoad",
+		'pt-br': "Palpitoad",
+		'de-de': "Mebrana"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Water"],
 	evolveFrom: {
-		fr: "Tritonde",
-		en: "Tympole",
-		es: "Tympole",
-		it: "Tympole",
-		pt: "Tympole",
-		de: "Schallquap"
+		'fr-fr': "Tritonde",
+		'en-us': "Tympole",
+		'es-es': "Tympole",
+		'it-it': "Tympole",
+		'pt-br': "Tympole",
+		'de-de': "Schallquap"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			fr: "Pluie Éclaboussante",
-			en: "Rain Splash",
-			es: "Golpe de Lluvia",
-			it: "Spruzzapioggia",
-			pt: "Chuva Borrifante",
-			de: "Regenplatscher"
+			'fr-fr': "Pluie Éclaboussante",
+			'en-us': "Rain Splash",
+			'es-es': "Golpe de Lluvia",
+			'it-it': "Spruzzapioggia",
+			'pt-br': "Chuva Borrifante",
+			'de-de': "Regenplatscher"
 		},
 
 		damage: 50
@@ -53,7 +53,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "On occasion, their cries are sublimely pleasing to the ear. Palpitoad with larger lumps on their bodies can sing with a wider range of sounds.",
+		'en-us': "On occasion, their cries are sublimely pleasing to the ear. Palpitoad with larger lumps on their bodies can sing with a wider range of sounds.",
 	},
 
 	variants: [

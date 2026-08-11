@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キバゴ",
+		'ja-jp': "キバゴ",
 	},
 
 	illustrator: "Taiga Kasai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "木の実を キバで 砕いて 食べる。 何回も 生え変わることで 強く 鋭い キバに なる。",
+		'ja-jp': "木の実を キバで 砕いて 食べる。 何回も 生え変わることで 強く 鋭い キバに なる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ちからをあつめる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から基本エネルギーを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札から基本エネルギーを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 	],

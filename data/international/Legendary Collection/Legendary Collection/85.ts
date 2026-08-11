@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Pidgey"
+		'en-us': "Pidgey"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -28,10 +28,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlwind"
+				'en-us': "Whirlwind"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. (Do the damage before switching the Pokémon.)"
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. (Do the damage before switching the Pokémon.)"
 			},
 			damage: 10,
 
@@ -55,7 +55,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand."
+		'en-us': "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand."
 	},
 
 	variants: [

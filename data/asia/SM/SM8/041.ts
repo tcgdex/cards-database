@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アンノーン",
+		'ja-jp': "アンノーン",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "古代文明の 文字に 似ている。 文字が 先か アンノーンが 先か 世界の 七不思議の ひとつ。",
+		'ja-jp': "古代文明の 文字に 似ている。 文字が 先か アンノーンが 先か 世界の 七不思議の ひとつ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "DAMAGE[ダメージ]" },
 			effect: {
-				ja: "このポケモンがバトル場にいるなら、自分の番に1回使える。自分のベンチポケモン全員にのっているダメカンの数が66個以上なら、この対戦は自分の勝ちになる。",
+				'ja-jp': "このポケモンがバトル場にいるなら、自分の番に1回使える。自分のベンチポケモン全員にのっているダメカンの数が66個以上なら、この対戦は自分の勝ちになる。",
 			},
 		},
 	],

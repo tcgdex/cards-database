@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 		'zh-tw': "電肚蛙",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "環境の 変化に すぐさま 合わせられるよう いくつもの 進化の 可能性を 秘めている。",
+		'ja-jp': "環境の 変化に すぐさま 合わせられるよう いくつもの 進化の 可能性を 秘めている。",
 		'zh-tw': "只要伸縮肥嘟嘟的身體，就能讓肚子上的發電臍產生大量的電氣。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "なかまをよぶ",
+				'ja-jp': "なかまをよぶ",
 				'zh-tw': "電磁波",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。",
 				'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。",
 			},
 		},
 		{
 			name: {
-				ja: "たいあたり",
+				'ja-jp': "たいあたり",
 				'zh-tw': "雙峰伏特",
 			},
 			damage: 30,

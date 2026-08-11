@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Revavroom ex"
+		'id-id': "Revavroom ex"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Tune Up"
+			'id-id': "Tune Up"
 		},
 
 		effect: {
-			id: "Pokémon ini dapat mengenakan paling banyak 4 lembar Pokémon Tool. (Saat Pokémon ini menjadi tidak memiliki Ability ini, pemain membuang ke Trash hingga Pokémon Tool tersisa 1 lembar.)"
+			'id-id': "Pokémon ini dapat mengenakan paling banyak 4 lembar Pokémon Tool. (Saat Pokémon ini menjadi tidak memiliki Ability ini, pemain membuang ke Trash hingga Pokémon Tool tersisa 1 lembar.)"
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Wild Drift"
+			'id-id': "Wild Drift"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 30."
+			'id-id': "Pada giliran lawan berikutnya, kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 30."
 		},
 
 		damage: 170,

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Togepi",
-		fr: "Togepi",
-		es: "Togepi",
+		'en-us': "Togepi",
+		'fr-fr': "Togepi",
+		'es-es': "Togepi",
 		'es-mx': "Togepi",
-		de: "Togepi",
-		it: "Togepi",
-		pt: "Togepi"
+		'de-de': "Togepi",
+		'it-it': "Togepi",
+		'pt-br': "Togepi"
 	},
 
 	illustrator: "Yoko Hishida",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Pound",
-			fr: "Écras'Face",
-			es: "Destructor",
+			'en-us': "Pound",
+			'fr-fr': "Écras'Face",
+			'es-es': "Destructor",
 			'es-mx': "Destructor",
-			de: "Klaps",
-			it: "Botta",
-			pt: "Pancada"
+			'de-de': "Klaps",
+			'it-it': "Botta",
+			'pt-br': "Pancada"
 		},
 
 		damage: 30
@@ -48,7 +48,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
+		'en-us': "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
 	},
 
 	variants: [

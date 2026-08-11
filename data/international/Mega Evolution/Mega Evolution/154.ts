@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Stufful",
-		fr: "Nounourson",
-		de: "Velursi",
-		it: "Stufful",
-		es: "Stufful",
-		pt: "Stufful",
+		'en-us': "Stufful",
+		'fr-fr': "Nounourson",
+		'de-de': "Velursi",
+		'it-it': "Stufful",
+		'es-es': "Stufful",
+		'pt-br': "Stufful",
 		'es-mx': "Stufful"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Light Punch",
-			fr: "Poing Léger",
-			de: "Leichter Hieb",
-			it: "Pugnetto",
-			es: "Puño Ligero",
-			pt: "Soco de Luz",
+			'en-us': "Light Punch",
+			'fr-fr': "Poing Léger",
+			'de-de': "Leichter Hieb",
+			'it-it': "Pugnetto",
+			'es-es': "Puño Ligero",
+			'pt-br': "Soco de Luz",
 			'es-mx': "Puño Ligero"
 		},
 
@@ -40,12 +40,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Flop",
-			fr: "Flop",
-			de: "Plumps",
-			it: "Tonfo",
-			es: "Vuelta",
-			pt: "Baque",
+			'en-us': "Flop",
+			'fr-fr': "Flop",
+			'de-de': "Plumps",
+			'it-it': "Tonfo",
+			'es-es': "Vuelta",
+			'pt-br': "Baque",
 			'es-mx': "Desplome"
 		},
 

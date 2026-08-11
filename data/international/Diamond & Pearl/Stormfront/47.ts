@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Pupitar",
-		fr: "Ymphect",
-		de: "Pupitar"
+		'en-us': "Pupitar",
+		'fr-fr': "Ymphect",
+		'de-de': "Pupitar"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Larvitar",
-		fr: "Embrylex",
+		'en-us': "Larvitar",
+		'fr-fr': "Embrylex",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Energy Protection",
-				fr: "Protection d'Énergie",
-				de: "Energieschutz"
+				'en-us': "Energy Protection",
+				'fr-fr': "Protection d'Énergie",
+				'de-de': "Energieschutz"
 			},
 			effect: {
-				en: "Any damage done to Pupitar by attacks is reduced by 10 for each Energy attached to Pupitar (after applying Weakness and Resistance). You can't reduce more than 30 damage in this way.",
-				fr: "Tous dégâts infligés à Ymphect par des attaques sont réduits de 10 pour chaque Énergie qui lui est attachée (après application de la Faiblesse et de la Résistance). Vous ne pouvez pas réduire de plus de 30 dégâts de cette façon.",
-				de: "Schaden, der Pupitar durch Angriffe zugefügt wird, wird für jede an Pupitar angelegte Energie um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden). Der Schaden kann auf diese Weise nicht um mehr als 30 Schadenspunkte reduziert werden."
+				'en-us': "Any damage done to Pupitar by attacks is reduced by 10 for each Energy attached to Pupitar (after applying Weakness and Resistance). You can't reduce more than 30 damage in this way.",
+				'fr-fr': "Tous dégâts infligés à Ymphect par des attaques sont réduits de 10 pour chaque Énergie qui lui est attachée (après application de la Faiblesse et de la Résistance). Vous ne pouvez pas réduire de plus de 30 dégâts de cette façon.",
+				'de-de': "Schaden, der Pupitar durch Angriffe zugefügt wird, wird für jede an Pupitar angelegte Energie um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden). Der Schaden kann auf diese Weise nicht um mehr als 30 Schadenspunkte reduziert werden."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Smash",
-				fr: "Éclate-roc",
-				de: "Zertrümmerer"
+				'en-us': "Rock Smash",
+				'fr-fr': "Éclate-roc",
+				'de-de': "Zertrümmerer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -84,8 +84,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its body is hard as bedrock. By venting pressurized gas, it can launch itself like a rocket.",
-		fr: "Son corps est dur comme la pierre souterraine. Il file comme une fusée en expulsant des gaz."
+		'en-us': "Its body is hard as bedrock. By venting pressurized gas, it can launch itself like a rocket.",
+		'fr-fr': "Son corps est dur comme la pierre souterraine. Il file comme une fusée en expulsant des gaz."
 	},
 
 	thirdParty: {

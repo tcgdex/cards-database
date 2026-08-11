@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "BugsyのLedian",
+		'ja-jp': "BugsyのLedian",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "取り組む",
+				'ja-jp': "取り組む",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "彗星パンチ",
+				'ja-jp': "彗星パンチ",
 			},
 			effect: {
-				ja: "4コインをひっくり返します。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "4コインをひっくり返します。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 		},
 	],

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Oranguru",
-		fr: "Gouroutan"
+		'en-us': "Oranguru",
+		'fr-fr': "Gouroutan"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It normally spends its time meditating in the\ntreetops. It throws Poké Balls and gives other\nPokémon orders as it pleases.",
-		fr: "Il médite généralement en haut des arbres. Il se permet de lancer des Poké Balls sur les autres Pokémon et leur donne des ordres."
+		'en-us': "It normally spends its time meditating in the\ntreetops. It throws Poké Balls and gives other\nPokémon orders as it pleases.",
+		'fr-fr': "Il médite généralement en haut des arbres. Il se permet de lancer des Poké Balls sur les autres Pokémon et leur donne des ordres."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement"
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement"
 		},
 
 		damage: 70,

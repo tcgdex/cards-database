@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レックウザ",
+		'ja-jp': "レックウザ",
 	},
 
 	illustrator: "so-taro",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "はるか 上空の オゾン層の 中を 飛んでいるため 最近まで 姿を 見た 者は いなかった。",
+		'ja-jp': "はるか 上空の オゾン層の 中を 飛んでいるため 最近まで 姿を 見た 者は いなかった。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],

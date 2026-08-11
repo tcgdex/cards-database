@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Nintendo Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Rayquaza ex",
-		fr: "Rayquaza ex"
+		'en-us': "Rayquaza ex",
+		'fr-fr': "Rayquaza ex"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Common",
@@ -25,12 +25,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Frenzy",
-				fr: "Folie furieuse"
+				'en-us': "Frenzy",
+				'fr-fr': "Folie furieuse"
 			},
 			effect: {
-				en: "As long as your opponent has Kyogre, Kyogre ex, Groudon, or Groudon ex in play, Rayquaza ex's attacks do 40 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
-				fr: "Tant que votre adversaire possède Kyogre, Kyogre ex, Groudon, Groudon ex en jeu, les attaques de Rayquaza ex infligent 40 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance)."
+				'en-us': "As long as your opponent has Kyogre, Kyogre ex, Groudon, or Groudon ex in play, Rayquaza ex's attacks do 40 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Tant que votre adversaire possède Kyogre, Kyogre ex, Groudon, Groudon ex en jeu, les attaques de Rayquaza ex infligent 40 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance)."
 			},
 		},
 	],
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Bind",
-				fr: "Aveuglement draconique"
+				'en-us': "Dragon Bind",
+				'fr-fr': "Aveuglement draconique"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez 1 pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez 1 pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 20,
 
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Twister",
-				fr: "Ouragan"
+				'en-us': "Twister",
+				'fr-fr': "Ouragan"
 			},
 			effect: {
-				en: "Flip 2 coins. If both are tails, this attack does nothing. For each heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez 2 pièces. Si ce sont deux piles, cette attaque est sans effet. Pour chaque face, défaussez une Énergie attachée au Pokémon Défenseur."
+				'en-us': "Flip 2 coins. If both are tails, this attack does nothing. For each heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez 2 pièces. Si ce sont deux piles, cette attaque est sans effet. Pour chaque face, défaussez une Énergie attachée au Pokémon Défenseur."
 			},
 			damage: 50,
 

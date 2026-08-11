@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Jigglypuff",
+		'en-us': "Jigglypuff",
 	},
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "First Aid",
+				'en-us': "First Aid",
 			},
 			effect: {
-				en: "Remove 1 damage counter from Jigglypuff.",
+				'en-us': "Remove 1 damage counter from Jigglypuff.",
 			},
 
 		},
@@ -41,10 +41,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-Edge",
+				'en-us': "Double-Edge",
 			},
 			effect: {
-				en: "Jigglypuff does 20 damage to itself.",
+				'en-us': "Jigglypuff does 20 damage to itself.",
 			},
 			damage: 40,
 
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+		'en-us': "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
 	},
 
 	variants: [

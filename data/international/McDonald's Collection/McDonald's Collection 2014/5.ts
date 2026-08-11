@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2014'
 
 const card: Card = {
@@ -8,11 +8,11 @@ const card: Card = {
 	set: Set,
 	illustrator: "MAHOU",
 	description: {
-		en: "It raises its tail to check its surroundings. The tail is sometimes struck by lightning in this pose.",
+		'en-us': "It raises its tail to check its surroundings. The tail is sometimes struck by lightning in this pose.",
 	},
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -27,12 +27,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nuzzle",
-				fr: "Frotte-Frimousse",
+				'en-us': "Nuzzle",
+				'fr-fr': "Frotte-Frimousse",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 		},
 		{
@@ -41,13 +41,13 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-Attaque",
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-Attaque",
 			},
 			damage: "20+",
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
 			},
 		},
 	],

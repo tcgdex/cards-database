@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アーボック",
+		'ja-jp': "アーボック",
 	},
 
 	rarity: "Holo Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "毒スプレー",
+				'ja-jp': "毒スプレー",
 			},
 			effect: {
-				ja: "防御ポケモンは現在中毒になっています。",
+				'ja-jp': "防御ポケモンは現在中毒になっています。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "毒反応",
+				'ja-jp': "毒反応",
 			},
 			effect: {
-				ja: "防御ポケモンが毒されている場合、この攻撃は20ダメージに加えて20ダメージを与えます。",
+				'ja-jp': "防御ポケモンが毒されている場合、この攻撃は20ダメージに加えて20ダメージを与えます。",
 			},
 		},
 	],

@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [133],
 
 	name: {
-		en: "Eevee",
-		fr: "Évoli",
-		es: "Eevee",
-		it: "Eevee",
-		pt: "Eevee",
-		de: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
+		'es-es': "Eevee",
+		'it-it': "Eevee",
+		'pt-br': "Eevee",
+		'de-de': "Evoli"
 	},
 
 	illustrator: "Lee HyunJung",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Ronge",
-				es: "Roer",
-				it: "Rosicchiamento",
-				pt: "Roída",
-				de: "Nagen"
+				'en-us': "Gnaw",
+				'fr-fr': "Ronge",
+				'es-es': "Roer",
+				'it-it': "Rosicchiamento",
+				'pt-br': "Roída",
+				'de-de': "Nagen"
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Whap",
-				fr: "Queue Battoir",
-				es: "Coletón",
-				it: "Codabotta",
-				pt: "Surra de Cauda",
-				de: "Schweifvertrimmer"
+				'en-us': "Tail Whap",
+				'fr-fr': "Queue Battoir",
+				'es-es': "Coletón",
+				'it-it': "Codabotta",
+				'pt-br': "Surra de Cauda",
+				'de-de': "Schweifvertrimmer"
 			},
 
 			damage: 20,
@@ -73,7 +73,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It has the ability to alter the composition of its body to suit its surrounding environment."
+		'en-us': "It has the ability to alter the composition of its body to suit its surrounding environment."
 	},
 
 	variants: [

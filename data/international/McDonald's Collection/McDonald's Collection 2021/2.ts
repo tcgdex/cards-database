@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2021'
 
 const card: Card = {
 	name: {
-		en: "Chikorita",
-		fr: "Germignon"
+		'en-us': "Chikorita",
+		'fr-fr': "Germignon"
 	},
 
 	illustrator: "sowsow",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Mini Drain",
-				fr: "Mini-Assèchement"
+				'en-us': "Mini Drain",
+				'fr-fr': "Mini-Assèchement"
 			},
 			effect: {
-				en: "Heal 10 damage from this Pokémon.",
-				fr: "Soignez 10 dégâts à ce Pokémon."
+				'en-us': "Heal 10 damage from this Pokémon.",
+				'fr-fr': "Soignez 10 dégâts à ce Pokémon."
 			},
 			damage: 10,
 
@@ -52,7 +52,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It uses the leaf on its head to determine the temperature and humidity. It loves to sunbathe."
+		'en-us': "It uses the leaf on its head to determine the temperature and humidity. It loves to sunbathe."
 	},
 
 	variants: [

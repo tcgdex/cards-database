@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Linoone"
+		'en-us': "Linoone"
 	},
 
 	illustrator: "match",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Zigzagoon"
+		'en-us': "Zigzagoon"
 	},
 
 	description: {
-		en: "It uses its explosive speed and razor-sharp claws\nto bring down prey. Running along winding\npaths is not its strong suit."
+		'en-us': "It uses its explosive speed and razor-sharp claws\nto bring down prey. Running along winding\npaths is not its strong suit."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Jet Headbutt"
+			'en-us': "Jet Headbutt"
 		},
 
 		damage: 40,

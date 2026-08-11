@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Probopass"
+		'id-id': "Probopass"
 	},
 
 	illustrator: "takuyoa",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Probopass menggunakan 3 unit kecil untuk menangkap mangsa dan bertarung dengan musuh. Tubuh utama umumnya hanya memberi perintah saja."
+		'id-id': "Probopass menggunakan 3 unit kecil untuk menangkap mangsa dan bertarung dengan musuh. Tubuh utama umumnya hanya memberi perintah saja."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Triple Nose"
+			'id-id': "Triple Nose"
 		},
 
 		effect: {
-			id: "Lempar koin 3 kali. Serangan ini memberikan kerusakan sejumlah 40 untuk tiap lemparan dengan hasil sisi depan."
+			'id-id': "Lempar koin 3 kali. Serangan ini memberikan kerusakan sejumlah 40 untuk tiap lemparan dengan hasil sisi depan."
 		},
 
 		damage: "40×",
 		cost: ["Metal", "Colorless"]
 	}, {
 		name: {
-			id: "Iron Buster"
+			'id-id': "Iron Buster"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 160,

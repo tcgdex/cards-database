@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レアコイル",
+		'ja-jp': "レアコイル",
 	},
 
 	illustrator: "Nisota Niso",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "連結した タイプの コイルは 太陽の 黒点が 多いとき たくさん 現れると 言われる。",
+		'ja-jp': "連結した タイプの コイルは 太陽の 黒点が 多いとき たくさん 現れると 言われる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かじょうほうでん" },
 			effect: {
-				ja: "自分の番に1回使えて、使ったなら、このポケモンをきぜつさせる。自分のトラッシュから基本エネルギーを3枚まで選び、自分の[L]ポケモンに好きなようにつける。",
+				'ja-jp': "自分の番に1回使えて、使ったなら、このポケモンをきぜつさせる。自分のトラッシュから基本エネルギーを3枚まで選び、自分の[L]ポケモンに好きなようにつける。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コイル",
+		'ja-jp': "コイル",
 	},
 
 	retreat: 1,

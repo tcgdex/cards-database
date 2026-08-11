@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โฮโฮ",
-		id: "Hoothoot"
+		'th-th': "โฮโฮ",
+		'id-id': "Hoothoot"
 	},
 
 	illustrator: "Yukihiro Tada",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "เพราะบอกเวลาได้อย่างเที่ยงตรง จึงมีดินแดนที่เชื่อว่ามันเป็นเทพแห่งปัญญาผู้รู้ซึ้งถึงสัจจะของโลก",
-		id: "Dikarenakan ia dapat memberitahukan waktu dengan tepat, terdapat negara yang memuja Pokémon ini sebagai Dewa Kebijaksanaan yang maha tahu tentang kebenaran dunia."
+		'th-th': "เพราะบอกเวลาได้อย่างเที่ยงตรง จึงมีดินแดนที่เชื่อว่ามันเป็นเทพแห่งปัญญาผู้รู้ซึ้งถึงสัจจะของโลก",
+		'id-id': "Dikarenakan ia dapat memberitahukan waktu dengan tepat, terdapat negara yang memuja Pokémon ini sebagai Dewa Kebijaksanaan yang maha tahu tentang kebenaran dunia."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ตีสามครั้ง",
-			id: "Menusuk Tiga Kali"
+			'th-th': "ตีสามครั้ง",
+			'id-id': "Menusuk Tiga Kali"
 		},
 
 		effect: {
-			th: "ทอยเหรียญ 3 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x10",
-			id: "Lempar koin 3 kali. Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lemparan dengan hasil sisi depan."
+			'th-th': "ทอยเหรียญ 3 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x10",
+			'id-id': "Lempar koin 3 kali. Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lemparan dengan hasil sisi depan."
 		},
 
 		damage: "10×",

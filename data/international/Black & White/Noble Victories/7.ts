@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Crustle",
-		fr: "Crabaraque",
-		es: "Crustle",
-		it: "Crustle",
-		pt: "Crustle",
-		de: "Castellith"
+		'en-us': "Crustle",
+		'fr-fr': "Crabaraque",
+		'es-es': "Crustle",
+		'it-it': "Crustle",
+		'pt-br': "Crustle",
+		'de-de': "Castellith"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dwebble",
-		fr: "Crabicoque",
+		'en-us': "Dwebble",
+		'fr-fr': "Crabicoque",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "X-Scissor",
-				fr: "Plaie-Croix",
+				'en-us': "X-Scissor",
+				'fr-fr': "Plaie-Croix",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 50 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 50 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reckless Charge",
-				fr: "Attaque Imprudente",
+				'en-us': "Reckless Charge",
+				'fr-fr': "Attaque Imprudente",
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				'en-us': "This Pokémon does 10 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 10 dégâts.",
 			},
 			damage: 80,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Competing for territory, Crustle fight viciously. The one whose boulder is broken is the loser of the battle.",
+		'en-us': "Competing for territory, Crustle fight viciously. The one whose boulder is broken is the loser of the battle.",
 	},
 
 	thirdParty: {

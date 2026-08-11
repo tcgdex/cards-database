@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hoothoot",
-		fr: "Hoothoot",
-		es: "Hoothoot",
-		pt: "Hoothoot",
-		it: "Hoothoot",
-		de: "Hoothoot"
+		'en-us': "Hoothoot",
+		'fr-fr': "Hoothoot",
+		'es-es': "Hoothoot",
+		'pt-br': "Hoothoot",
+		'it-it': "Hoothoot",
+		'de-de': "Hoothoot"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Insomnia",
-			fr: "Insomnia",
-			es: "Insomnio",
-			pt: "Insônia",
-			it: "Insonnia",
-			de: "Insomnia"
+			'en-us': "Insomnia",
+			'fr-fr': "Insomnia",
+			'es-es': "Insomnio",
+			'pt-br': "Insônia",
+			'it-it': "Insonnia",
+			'de-de': "Insomnia"
 		},
 
 		effect: {
-			en: "This Pokémon can't be Asleep.",
-			fr: "Ce Pokémon ne peut pas être Endormi.",
-			es: "Este Pokémon no puede pasar a estar Dormido.",
-			pt: "Este Pokémon não pode ser Adormecido.",
-			it: "Questo Pokémon non può venire addormentato.",
-			de: "Dieses Pokémon kann nicht von Schlaf betroffen werden."
+			'en-us': "This Pokémon can't be Asleep.",
+			'fr-fr': "Ce Pokémon ne peut pas être Endormi.",
+			'es-es': "Este Pokémon no puede pasar a estar Dormido.",
+			'pt-br': "Este Pokémon não pode ser Adormecido.",
+			'it-it': "Questo Pokémon non può venire addormentato.",
+			'de-de': "Dieses Pokémon kann nicht von Schlaf betroffen werden."
 		}
 	}],
 
@@ -46,12 +46,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			pt: "Investida",
-			it: "Azione",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'pt-br': "Investida",
+			'it-it': "Azione",
+			'de-de': "Tackle"
 		},
 
 		damage: 20

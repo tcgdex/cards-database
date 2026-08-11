@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Dark Dugtrio",
-		fr: "Triopikeur obscur",
-		de: "Dunkles Digdri"
+		'en-us': "Dark Dugtrio",
+		'fr-fr': "Triopikeur obscur",
+		'de-de': "Dunkles Digdri"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Diglett",
-		fr: "Taupiqueur"
+		'en-us': "Diglett",
+		'fr-fr': "Taupiqueur"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Sinkhole",
-				fr: "Chausse-trappe",
-				de: "erdloch"
+				'en-us': "Sinkhole",
+				'fr-fr': "Chausse-trappe",
+				'de-de': "erdloch"
 			},
 			effect: {
-				en: "Whenever your opponent's Active Pokémon retreats, your opponent flips a coin. If tails, this power does 20 damage to that Pokémon. (Don't apply Weakness and Resistance.) This power stops working while Dark Dugtrio is Asleep, Confused, or Paralyzed.",
-				fr: "Chaque fois que le Pokémon Actif de votre adversaire bat en retraite, votre adversaire lance une pièce. Si c'est pile, ce pouvoir inflige 20 dégâts à ce Pokémon. (N'appliquez pas la Faiblesse et la Résistance). Ce pouvoir cesse de fonctionner lorsque Triopikeur obscur est Endormi, Confus ou Paralysé.",
-				de: "Jedesmal, wenn sich das aktive Pokémon deines Gegners zurückzieht, wirft dein Gegner eine Münze. Bei Zahl fügt diese Fähigkeit diesem Pokémon 20 Schadenspunkte zu. (Schwäche und Resistenz nicht anwenden.) Diese Fähigkeit verliert ihre Wirkung, solangeDunkles Digdri schläft, verwirrt oder gelähmt ist."
+				'en-us': "Whenever your opponent's Active Pokémon retreats, your opponent flips a coin. If tails, this power does 20 damage to that Pokémon. (Don't apply Weakness and Resistance.) This power stops working while Dark Dugtrio is Asleep, Confused, or Paralyzed.",
+				'fr-fr': "Chaque fois que le Pokémon Actif de votre adversaire bat en retraite, votre adversaire lance une pièce. Si c'est pile, ce pouvoir inflige 20 dégâts à ce Pokémon. (N'appliquez pas la Faiblesse et la Résistance). Ce pouvoir cesse de fonctionner lorsque Triopikeur obscur est Endormi, Confus ou Paralysé.",
+				'de-de': "Jedesmal, wenn sich das aktive Pokémon deines Gegners zurückzieht, wirft dein Gegner eine Münze. Bei Zahl fügt diese Fähigkeit diesem Pokémon 20 Schadenspunkte zu. (Schwäche und Resistenz nicht anwenden.) Diese Fähigkeit verliert ihre Wirkung, solangeDunkles Digdri schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Knock Down",
-				fr: "Renversement",
-				de: "Niederreissen"
+				'en-us': "Knock Down",
+				'fr-fr': "Renversement",
+				'de-de': "Niederreissen"
 			},
 			effect: {
-				en: "Your opponent flips a coin. If tails, this attack does 20 damage plus 20 more damage; if heads, this attack does 20 damage.",
-				fr: "Votre adversaire lance une pièce. Si c'est pile, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires ; si c'est face, cette attaque inflige 20 dégâts.",
-				de: "Dein Gegner wirft eine Münze. Bei Zahl fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Scadenspunkte zu. Bei Kopf fügt dieser Angriff 20 Schadenspunkte zu."
+				'en-us': "Your opponent flips a coin. If tails, this attack does 20 damage plus 20 more damage; if heads, this attack does 20 damage.",
+				'fr-fr': "Votre adversaire lance une pièce. Si c'est pile, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires ; si c'est face, cette attaque inflige 20 dégâts.",
+				'de-de': "Dein Gegner wirft eine Münze. Bei Zahl fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Scadenspunkte zu. Bei Kopf fügt dieser Angriff 20 Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -84,8 +84,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Digs large sinkholes in the ground and tries to trap its enemies in them.",
-		fr: "Il creuse de larges pièges dans le sol afin d'attraper ses ennemis."
+		'en-us': "Digs large sinkholes in the ground and tries to trap its enemies in them.",
+		'fr-fr': "Il creuse de larges pièges dans le sol afin d'attraper ses ennemis."
 	},
 
 

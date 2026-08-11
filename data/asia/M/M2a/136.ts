@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホップのカビゴン",
+		'ja-jp': "ホップのカビゴン",
 	},
 
 	illustrator: "OKACHEKE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "眠っているとき以外は つねに エサを 食べている 大食らい。 １日に ４００キロも たいらげる。",
+		'ja-jp': "眠っているとき以外は つねに エサを 食べている 大食らい。 １日に ４００キロも たいらげる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ふとっぱら" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分の「ホップのポケモン」が使うワザの、相手のバトルポケモンへのダメージは「+30」される。この効果は、この特性を持つポケモンが何匹いても、重ならない。",
+				'ja-jp': "このポケモンがいるかぎり、自分の「ホップのポケモン」が使うワザの、相手のバトルポケモンへのダメージは「+30」される。この効果は、この特性を持つポケモンが何匹いても、重ならない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 140,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも80ダメージ。",
+				'ja-jp': "このポケモンにも80ダメージ。",
 			},
 		},
 	],

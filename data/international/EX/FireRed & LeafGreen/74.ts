@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Plasma",
-				fr: "Plasma",
-				de: "Plasma"
+				'en-us': "Plasma",
+				'fr-fr': "Plasma",
+				'de-de': "Plasma"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your discard pile for a Lightning Energy card and attach it to Pikachu.",
-				fr: "Lancez une pièce. Si c'est face, cherchez une carte Énergie  dans votre pile de défausse et attachez-la à Pikachu.",
-				de: "Flip a coin. If heads, search your discard pile for a  Energy card and attach it to Pikachu."
+				'en-us': "Flip a coin. If heads, search your discard pile for a Lightning Energy card and attach it to Pikachu.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cherchez une carte Énergie  dans votre pile de défausse et attachez-la à Pikachu.",
+				'de-de': "Flip a coin. If heads, search your discard pile for a  Energy card and attach it to Pikachu."
 			},
 			damage: 10,
 

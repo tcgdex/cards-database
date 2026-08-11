@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ralts",
-		fr: "Tarsal",
-		es: "Ralts",
-		it: "Ralts",
-		pt: "Ralts",
-		de: "Trasla"
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal",
+		'es-es': "Ralts",
+		'it-it': "Ralts",
+		'pt-br': "Ralts",
+		'de-de': "Trasla"
 	},
 
 	rarity: "Shiny rare",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Psyshot",
-			fr: "Piqûre Psy",
-			es: "Disparo Psi",
-			it: "Psicosparo",
-			pt: "Tiro Psíquico",
-			de: "Psychoschuss"
+			'en-us': "Psyshot",
+			'fr-fr': "Piqûre Psy",
+			'es-es': "Disparo Psi",
+			'it-it': "Psicosparo",
+			'pt-br': "Tiro Psíquico",
+			'de-de': "Psychoschuss"
 		},
 
 		damage: 30
@@ -64,7 +64,7 @@ const card: Card = {
 	illustrator: "yuu",
 
 	description: {
-		en: "The horns on its head provide a strong power that enables it to sense people's emotions.",
+		'en-us': "The horns on its head provide a strong power that enables it to sense people's emotions.",
 	},
 
 }

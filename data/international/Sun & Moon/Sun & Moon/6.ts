@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Pinsir",
-		fr: "Scarabrute",
-		es: "Pinsir",
-		it: "Pinsir",
-		pt: "Pinsir",
-		de: "Pinsir"
+		'en-us': "Pinsir",
+		'fr-fr': "Scarabrute",
+		'es-es': "Pinsir",
+		'it-it': "Pinsir",
+		'pt-br': "Pinsir",
+		'de-de': "Pinsir"
 	},
 
 	illustrator: "DemizuPosuka",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Roof Fling",
-				fr: "Lance Auvent",
-				es: "Lanzar al Techo",
-				it: "Sfondatetto",
-				pt: "Arremesso ao Teto",
-				de: "Dachschleuder"
+				'en-us': "Roof Fling",
+				'fr-fr': "Lance Auvent",
+				'es-es': "Lanzar al Techo",
+				'it-it': "Sfondatetto",
+				'pt-br': "Arremesso ao Teto",
+				'de-de': "Dachschleuder"
 			},
 			effect: {
-				en: "Flip a coin. If heads, put your opponent’s Active Pokémon and all cards attached to it into your opponent’s hand.",
-				fr: "Lancez une pièce. Si c’est face, placez le Pokémon Actif de votre adversaire et toutes les cartes qui lui sont attachées dans la main de votre adversaire.",
-				es: "Lanza 1 moneda. Si sale cara, pon el Pokémon Activo de tu rival y todas las cartas unidas a él en la mano de tu rival.",
-				it: "Lancia una moneta. Se esce testa, prendi il Pokémon attivo del tuo avversario e tutte le carte a esso assegnate e aggiungili alle carte che ha in mano il tuo avversario.",
-				pt: "Jogue 1 moeda. Se sair cara, coloque o Pokémon Ativo do seu oponente e todas as cartas ligadas a ele na mão do seu oponente.",
-				de: "Wirf 1 Münze. Lege bei Kopf das Aktive Pokémon deines Gegners und alle an es angelegten Karten auf seine Hand."
+				'en-us': "Flip a coin. If heads, put your opponent’s Active Pokémon and all cards attached to it into your opponent’s hand.",
+				'fr-fr': "Lancez une pièce. Si c’est face, placez le Pokémon Actif de votre adversaire et toutes les cartes qui lui sont attachées dans la main de votre adversaire.",
+				'es-es': "Lanza 1 moneda. Si sale cara, pon el Pokémon Activo de tu rival y todas las cartas unidas a él en la mano de tu rival.",
+				'it-it': "Lancia una moneta. Se esce testa, prendi il Pokémon attivo del tuo avversario e tutte le carte a esso assegnate e aggiungili alle carte che ha in mano il tuo avversario.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, coloque o Pokémon Ativo do seu oponente e todas as cartas ligadas a ele na mão do seu oponente.",
+				'de-de': "Wirf 1 Münze. Lege bei Kopf das Aktive Pokémon deines Gegners und alle an es angelegten Karten auf seine Hand."
 			},
 
 		},
@@ -58,12 +58,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Guillotine",
-				fr: "Guillotine",
-				es: "Guillotina",
-				it: "Ghigliottina",
-				pt: "Guilhotina",
-				de: "Guillotine"
+				'en-us': "Guillotine",
+				'fr-fr': "Guillotine",
+				'es-es': "Guillotina",
+				'it-it': "Ghigliottina",
+				'pt-br': "Guilhotina",
+				'de-de': "Guillotine"
 			},
 
 			damage: 50,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "One solid blow from its horns is enough to split apart a large tree. Its greatest rival in Alola is Vikavolt.",
+		'en-us': "One solid blow from its horns is enough to split apart a large tree. Its greatest rival in Alola is Vikavolt.",
 	},
 
 	thirdParty: {

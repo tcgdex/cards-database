@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キルリア",
+		'ja-jp': "キルリア",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "落ち着いた心",
+				'ja-jp': "落ち着いた心",
 			},
 			effect: {
-				ja: "Kirliaから3つのダメージカウンターを削除します。",
+				'ja-jp': "Kirliaから3つのダメージカウンターを削除します。",
 			},
 		},
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "サイキックブーム",
+				'ja-jp': "サイキックブーム",
 			},
 			effect: {
-				ja: "20ダメージに加えて、防御ポケモンに付着した各エネルギーに対してさらに10ダメージを与えます。",
+				'ja-jp': "20ダメージに加えて、防御ポケモンに付着した各エネルギーに対してさらに10ダメージを与えます。",
 			},
 		},
 	],

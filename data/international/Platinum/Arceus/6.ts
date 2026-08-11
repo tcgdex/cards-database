@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Mothim",
-		de: "Moterpel"
+		'en-us': "Mothim",
+		'de-de': "Moterpel"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Burmy"
+		'en-us': "Burmy"
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Cloak Party",
-				de: "Umhangteam"
+				'en-us': "Cloak Party",
+				'de-de': "Umhangteam"
 			},
 			effect: {
-				en: "Search your deck for up to 3 in any combination of Burmy and Wormadam, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
-				de: "Durchsuche dein Deck nach bis zu 3 Karten in beliebiger Kombination aus Burmy- und Burmadame-Karten, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+				'en-us': "Search your deck for up to 3 in any combination of Burmy and Wormadam, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+				'de-de': "Durchsuche dein Deck nach bis zu 3 Karten in beliebiger Kombination aus Burmy- und Burmadame-Karten, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Assist",
-				de: "Energieförderung"
+				'en-us': "Energy Assist",
+				'de-de': "Energieförderung"
 			},
 			effect: {
-				en: "Seach your discard pile for a basic Energy card and attach it to 1 of your Benched Pokémon.",
-				de: "Durchsuche deinen Ablagestapel nach 1 Basis-Energiekarte und lege sie an 1 Pokémon auf deiner Bank an."
+				'en-us': "Seach your discard pile for a basic Energy card and attach it to 1 of your Benched Pokémon.",
+				'de-de': "Durchsuche deinen Ablagestapel nach 1 Basis-Energiekarte und lege sie an 1 Pokémon auf deiner Bank an."
 			},
 			damage: 30,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "While it loves floral honey, it won't gather any itself. Instead, it plots to steal some from Combee."
+		'en-us': "While it loves floral honey, it won't gather any itself. Instead, it plots to steal some from Combee."
 	},
 
 	variants: [

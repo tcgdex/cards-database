@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../web1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ディグレット",
+		'ja-jp': "ディグレット",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "ペック",
+				'ja-jp': "ペック",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "旅をします",
+				'ja-jp': "旅をします",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて10ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて10ダメージを与えます。",
 			},
 		},
 	],

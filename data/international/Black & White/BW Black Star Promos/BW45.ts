@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo-EX",
-		fr: "Mewtwo ex",
+		'en-us': "Mewtwo-EX",
+		'fr-fr': "Mewtwo ex",
 	},
 	illustrator: "Shizurow",
 	rarity: "Rare",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "X Ball",
-				fr: "X Ball",
+				'en-us': "X Ball",
+				'fr-fr': "X Ball",
 			},
 			effect: {
-				en: "Does 20 damage times the amount of Energy attached to this Pokémon and the Defending Pokémon.",
-				fr: "Inflige 20 dégâts multipliés par le nombre d'Énergies attachées à ce Pokémon et au Pokémon Défenseur.",
+				'en-us': "Does 20 damage times the amount of Energy attached to this Pokémon and the Defending Pokémon.",
+				'fr-fr': "Inflige 20 dégâts multipliés par le nombre d'Énergies attachées à ce Pokémon et au Pokémon Défenseur.",
 			},
 			damage: 20,
 
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psydrive",
-				fr: "Psykoforce",
+				'en-us': "Psydrive",
+				'fr-fr': "Psykoforce",
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon.",
 			},
 			damage: 120,
 

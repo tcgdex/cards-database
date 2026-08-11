@@ -1,11 +1,11 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../SV'
 
 const set: Set = {
 	id: 'SVAL',
 	name: {
 		'zh-tw': '起始組合ex 呆火鱷&電龍 ex',
-		id: 'Sprigatito & Lucario ex'
+		'id-id': 'Sprigatito & Lucario ex'
 	},
 
 	serie: serie,
@@ -15,8 +15,8 @@ const set: Set = {
 	},
 	releaseDate: {
 		'zh-tw': '2023-08-11',
-		id: '2023-03-03',
-		th: '2023-02-24'
+		'id-id': '2023-03-03',
+		'th-th': '2023-02-24'
 	}
 }
 

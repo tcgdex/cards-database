@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Oinkologne ex",
-		fr: "Fragroin-ex",
-		es: "Oinkologne ex",
-		it: "Oinkologne-ex",
-		pt: "Oinkologne ex",
-		de: "Fragrunz-ex"
+		'en-us': "Oinkologne ex",
+		'fr-fr': "Fragroin-ex",
+		'es-es': "Oinkologne ex",
+		'it-it': "Oinkologne-ex",
+		'pt-br': "Oinkologne ex",
+		'de-de': "Fragrunz-ex"
 	},
 
 	rarity: "Ultra Rare",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Lechonk",
-		fr: "Gourmelet"
+		'en-us': "Lechonk",
+		'fr-fr': "Gourmelet"
 	},
 
 	stage: "Stage1",
@@ -30,21 +30,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Maddening Scent",
-			fr: "Senteur Affolante",
-			es: "Fragancia Exasperante",
-			it: "Aroma Esasperante",
-			pt: "Aroma Enlouquecedor",
-			de: "Wahnsinniger Geruch"
+			'en-us': "Maddening Scent",
+			'fr-fr': "Senteur Affolante",
+			'es-es': "Fragancia Exasperante",
+			'it-it': "Aroma Esasperante",
+			'pt-br': "Aroma Enlouquecedor",
+			'de-de': "Wahnsinniger Geruch"
 		},
 
 		effect: {
-			en: "This attack does 30 more damage for each of your opponent's Benched Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chacun des Pokémon de Banc de votre adversaire.",
-			es: "Este ataque hace 30 puntos de daño más por cada uno de los Pokémon en Banca de tu rival.",
-			it: "Questo attacco infligge 30 danni in più per ogni Pokémon nella panchina del tuo avversario.",
-			pt: "Este ataque causa 30 pontos de dano a mais para cada Pokémon no Banco do seu oponente.",
-			de: "Diese Attacke fügt für jedes Pokémon auf der Bank deines Gegners 30 Schadenspunkte mehr zu."
+			'en-us': "This attack does 30 more damage for each of your opponent's Benched Pokémon.",
+			'fr-fr': "Cette attaque inflige 30 dégâts supplémentaires pour chacun des Pokémon de Banc de votre adversaire.",
+			'es-es': "Este ataque hace 30 puntos de daño más por cada uno de los Pokémon en Banca de tu rival.",
+			'it-it': "Questo attacco infligge 30 danni in più per ogni Pokémon nella panchina del tuo avversario.",
+			'pt-br': "Este ataque causa 30 pontos de dano a mais para cada Pokémon no Banco do seu oponente.",
+			'de-de': "Diese Attacke fügt für jedes Pokémon auf der Bank deines Gegners 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -52,21 +52,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Heavy Stomp",
-			fr: "Jambes de Plomb",
-			es: "Fuerte Pisotón",
-			it: "Gran Pestone",
-			pt: "Pisoteada Pesada",
-			de: "Schwerer Stampfer"
+			'en-us': "Heavy Stomp",
+			'fr-fr': "Jambes de Plomb",
+			'es-es': "Fuerte Pisotón",
+			'it-it': "Gran Pestone",
+			'pt-br': "Pisoteada Pesada",
+			'de-de': "Schwerer Stampfer"
 		},
 
 		effect: {
-			en: "Flip a coin. If tails, during your next turn, this Pokémon can't attack.",
-			fr: "Lancez une pièce. Si c'est pile, pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Lanza 1 moneda. Si sale cruz, este Pokémon no puede atacar durante tu próximo turno.",
-			it: "Lancia una moneta. Se esce croce, durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Jogue uma moeda. Se sair coroa, durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Wirf 1 Münze. Bei Zahl kann dieses Pokémon während deines nächsten Zuges nicht angreifen."
+			'en-us': "Flip a coin. If tails, during your next turn, this Pokémon can't attack.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este Pokémon no puede atacar durante tu próximo turno.",
+			'it-it': "Lancia una moneta. Se esce croce, durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Jogue uma moeda. Se sair coroa, durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Wirf 1 Münze. Bei Zahl kann dieses Pokémon während deines nächsten Zuges nicht angreifen."
 		},
 
 		damage: 210

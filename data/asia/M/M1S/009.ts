@@ -1,26 +1,26 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダダリン"
+		'ja-jp': "ダダリン"
 	},
 	illustrator: "Haru Akasaka",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Grass"],
 	description: {
-		ja: "海に 錨を 下して 獲物を 待ち伏せ。 大物の ホエルオーを 捕まえて 生気を 吸い取る。"
+		'ja-jp': "海に 錨を 下して 獲物を 待ち伏せ。 大物の ホエルオーを 捕まえて 生気を 吸い取る。"
 	},
 	stage: "Basic",
 	attacks: [{
 		name: {
-			ja: "グラウンドパワー"
+			'ja-jp': "グラウンドパワー"
 		},
 		damage: "30+",
 		effect: {
-			ja: "場に自分のスタジアムが出ているなら、50ダメージ追加。"
+			'ja-jp': "場に自分のスタジアムが出ているなら、50ダメージ追加。"
 		},
 		cost: ["Grass", "Colorless"]
 	}],

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Rocket's Zapdos"
+		'en-us': "Rocket's Zapdos"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Plasma"
+				'en-us': "Plasma"
 			},
 			effect: {
-				en: "If there are any Lightning Energy cards in your discard pile, attach 1 of them to Rocket's Zapdos."
+				'en-us': "If there are any Lightning Energy cards in your discard pile, attach 1 of them to Rocket's Zapdos."
 			},
 			damage: 20,
 
@@ -43,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electroburn"
+				'en-us': "Electroburn"
 			},
 			effect: {
-				en: "Rocket's Zapdos does damage to itself equal to 10 times the number of Lightning Energy cards attached to it."
+				'en-us': "Rocket's Zapdos does damage to itself equal to 10 times the number of Lightning Energy cards attached to it."
 			},
 			damage: 70,
 

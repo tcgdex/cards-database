@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Chamallot",
-		en: "Numel",
-		es: "Numel",
-		it: "Numel",
-		pt: "Numel",
-		de: "Camaub"
+		'fr-fr': "Chamallot",
+		'en-us': "Numel",
+		'es-es': "Numel",
+		'it-it': "Numel",
+		'pt-br': "Numel",
+		'de-de': "Camaub"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			fr: "Magma Ardent",
-			en: "Hot Magma",
-			es: "Magma Caliente",
-			it: "Magma Bollente",
-			pt: "Magma Cálido",
-			de: "Heißes Magma"
+			'fr-fr': "Magma Ardent",
+			'en-us': "Hot Magma",
+			'es-es': "Magma Caliente",
+			'it-it': "Magma Bollente",
+			'pt-br': "Magma Cálido",
+			'de-de': "Heißes Magma"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			en: "Your opponent's Active Pokémon is now Burned.",
-			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			'en-us': "Your opponent's Active Pokémon is now Burned.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 		},
 
 		damage: 20
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Magma of almost 2,200 degrees Fahrenheit courses through its body. When it grows cold, the magma hardens and slows it.",
+		'en-us': "Magma of almost 2,200 degrees Fahrenheit courses through its body. When it grows cold, the magma hardens and slows it.",
 	},
 
 	variants: [

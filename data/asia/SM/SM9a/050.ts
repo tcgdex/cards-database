@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キョウの罠",
+		'ja-jp': "キョウの罠",
 	},
 
 	illustrator: "Megumi Mizutani",
 	category: "Trainer",
 
 	effect: {
-		ja: "相手のバトルポケモンをどくとこんらんにする。",
+		'ja-jp': "相手のバトルポケモンをどくとこんらんにする。",
 	},
 
 	variants: [

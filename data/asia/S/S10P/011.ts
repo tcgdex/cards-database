@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポニータ",
+		'ja-jp': "ポニータ",
 		'zh-tw': "小火馬",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "草原にて 群れを成し 暮らす。 産まれたての仔に 炎のたてがみは 無く １時間ほどで 生えそろう。",
+		'ja-jp': "草原にて 群れを成し 暮らす。 産まれたての仔に 炎のたてがみは 無く １時間ほどで 生えそろう。",
 		'zh-tw': "在草原上群居生活。剛誕生的 幼崽身上沒有火焰鬃毛，而是會 在出生後一小時左右長出來。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ほのおのしっぽ",
+				'ja-jp': "ほのおのしっぽ",
 				'zh-tw': "火之尾",
 			},
 			damage: 20,

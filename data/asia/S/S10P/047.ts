@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トリデプス",
+		'ja-jp': "トリデプス",
 		'zh-tw': "護城龍",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "約１億年前の ポケモン。 恐ろしく 頑丈な 顔は 鋼鉄以上の 硬度を 持つ。",
+		'ja-jp': "約１億年前の ポケモン。 恐ろしく 頑丈な 顔は 鋼鉄以上の 硬度を 持つ。",
 		'zh-tw': "大約１億年前的寶可夢。 結實到極點的臉擁有 超越鋼鐵的硬度。",
 	},
 
@@ -24,11 +24,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "げんしのとりで",
+				'ja-jp': "げんしのとりで",
 				'zh-tw': "原始要塞",
 			},
 			effect: {
-				ja: "このポケモンがいるかぎり、自分のポケモン全員が、相手の「ポケモンV」から受けるワザのダメージは「-30」される。",
+				'ja-jp': "このポケモンがいるかぎり、自分のポケモン全員が、相手の「ポケモンV」から受けるワザのダメージは「-30」される。",
 				'zh-tw': "只要這隻寶可夢在場上，自己的所有寶可夢受到對手的「寶可夢【V】」招式的傷害「-30」點。",
 			},
 		},
@@ -37,13 +37,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "アイアンタックル",
+				'ja-jp': "アイアンタックル",
 				'zh-tw': "鐵之衝撞",
 			},
 			damage: 180,
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 				'zh-tw': "這隻寶可夢也受到30點傷害。",
 			},
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "タテトプス",
+		'ja-jp': "タテトプス",
 	},
 
 	retreat: 4,

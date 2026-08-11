@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Floatzel",
-		fr: "Mustéflott",
-		de: "Bojelin",
-		it: "Floatzel",
-		es: "Floatzel",
-		pt: "Floatzel",
+		'en-us': "Floatzel",
+		'fr-fr': "Mustéflott",
+		'de-de': "Bojelin",
+		'it-it': "Floatzel",
+		'es-es': "Floatzel",
+		'pt-br': "Floatzel",
 		'es-mx': "Floatzel"
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Buizel",
-		fr: "Mustébouée",
-		de: "Bamelin",
-		it: "Buizel",
-		es: "Buizel",
-		pt: "Buizel",
+		'en-us': "Buizel",
+		'fr-fr': "Mustébouée",
+		'de-de': "Bamelin",
+		'it-it': "Buizel",
+		'es-es': "Buizel",
+		'pt-br': "Buizel",
 		'es-mx': "Buizel"
 	},
 	stage: "Stage1",
@@ -37,22 +37,22 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Whirlpool",
-			fr: "Siphon",
-			de: "Whirlpool",
-			it: "Mulinello",
-			es: "Torbellino",
-			pt: "Redemoinho",
+			'en-us': "Whirlpool",
+			'fr-fr': "Siphon",
+			'de-de': "Whirlpool",
+			'it-it': "Mulinello",
+			'es-es': "Torbellino",
+			'pt-br': "Redemoinho",
 			'es-mx': "Remolino"
 		},
 
 		effect: {
-			en: "Discard an Energy from your opponent's Active Pokémon.",
-			fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
-			de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
-			it: "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
-			es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-			pt: "Descarte uma Energia do Pokémon Ativo do seu oponente.",
+			'en-us': "Discard an Energy from your opponent's Active Pokémon.",
+			'fr-fr': "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			'de-de': "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+			'it-it': "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			'es-es': "Descarta 1 Energía del Pokémon Activo de tu rival.",
+			'pt-br': "Descarte uma Energia do Pokémon Ativo do seu oponente.",
 			'es-mx': "Descarta 1 Energía del Pokémon Activo de tu rival."
 		},
 
@@ -61,22 +61,22 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Aqua Slash",
-			fr: "Aqua Slash",
-			de: "Aquaschlag",
-			it: "Idrosquarcio",
-			es: "Cuchillada Acuática",
-			pt: "Aqua Corte",
+			'en-us': "Aqua Slash",
+			'fr-fr': "Aqua Slash",
+			'de-de': "Aquaschlag",
+			'it-it': "Idrosquarcio",
+			'es-es': "Cuchillada Acuática",
+			'pt-br': "Aqua Corte",
 			'es-mx': "Cuchillada Acuática"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
 			'es-mx': "Durante tu próximo turno, este Pokémon no puede atacar."
 		},
 

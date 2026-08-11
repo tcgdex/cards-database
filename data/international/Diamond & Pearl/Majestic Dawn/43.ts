@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Pachirisu",
-		fr: "Pachirisu",
-		de: "Pachirisu"
+		'en-us': "Pachirisu",
+		'fr-fr': "Pachirisu",
+		'de-de': "Pachirisu"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Trans Tail",
-				fr: "Trans-queue",
-				de: "Transferschweif"
+				'en-us': "Trans Tail",
+				'fr-fr': "Trans-queue",
+				'de-de': "Transferschweif"
 			},
 			effect: {
-				en: "Search your discard pile for a Lightning Energy card, show it to your opponent, and put it into your hand.",
-				fr: "Cherchez dans votre pile de défausse une carte Énergie Fighting, montrez-la à votre adversaire et placez-la dans votre main.",
-				de: "Durchsuche deinen Ablagestapel nach 1 -Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand."
+				'en-us': "Search your discard pile for a Lightning Energy card, show it to your opponent, and put it into your hand.",
+				'fr-fr': "Cherchez dans votre pile de défausse une carte Énergie Fighting, montrez-la à votre adversaire et placez-la dans votre main.",
+				'de-de': "Durchsuche deinen Ablagestapel nach 1 -Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thundershock",
-				fr: "Éclair",
-				de: "Donnerschock"
+				'en-us': "Thundershock",
+				'fr-fr': "Éclair",
+				'de-de': "Donnerschock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It makes electricity with pouches in its cheeks and shoots charges from its tail. It lives atop trees.",
+		'en-us': "It makes electricity with pouches in its cheeks and shoots charges from its tail. It lives atop trees.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Ludicolo",
-		fr: "Ludicolo",
-		de: "Kappalores"
+		'en-us': "Ludicolo",
+		'fr-fr': "Ludicolo",
+		'de-de': "Kappalores"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lombre",
-		fr: "Lombre"
+		'en-us': "Lombre",
+		'fr-fr': "Lombre"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Rain Dish",
-				fr: "Cuvette",
-				de: "Regengenuss"
+				'en-us': "Rain Dish",
+				'fr-fr': "Cuvette",
+				'de-de': "Regengenuss"
 			},
 			effect: {
-				en: "At any time between turns, remove 1 damage counter from Ludicolo.",
-				fr: "N'importe quand entre deux tours, retirez un marqueur de dégât à Ludicolo.",
-				de: "Entferne zu einem beliebigen Zeitpunkt zwischen zwei Zügen 1 Schadensmarke von Kappalores."
+				'en-us': "At any time between turns, remove 1 damage counter from Ludicolo.",
+				'fr-fr': "N'importe quand entre deux tours, retirez un marqueur de dégât à Ludicolo.",
+				'de-de': "Entferne zu einem beliebigen Zeitpunkt zwischen zwei Zügen 1 Schadensmarke von Kappalores."
 			}
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Punch",
-				fr: "Hydro-poing",
-				de: "Hydroschlag"
+				'en-us': "Hydro Punch",
+				'fr-fr': "Hydro-poing",
+				'de-de': "Hydroschlag"
 			},
 			effect: {
-				en: "Does 50 damage plus 10 more damage for each Water Energy attached to Ludicolo but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
-				fr: "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Ludicolo qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
-				de: "Dieser Angriff fügt 50 Schadenspunkte plus 10 weitere Schadenspunkte for jede an Kappalores angelegte -Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 20 Schadenspunkte hinzufügen."
+				'en-us': "Does 50 damage plus 10 more damage for each Water Energy attached to Ludicolo but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+				'fr-fr': "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Ludicolo qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
+				'de-de': "Dieser Angriff fügt 50 Schadenspunkte plus 10 weitere Schadenspunkte for jede an Kappalores angelegte -Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 20 Schadenspunkte hinzufügen."
 			},
 			damage: "50+",
 

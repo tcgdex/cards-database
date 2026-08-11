@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Vullaby",
-		fr: "Vostourno",
-		es: "Vullaby",
-		it: "Vullaby",
-		pt: "Vullaby",
-		de: "Skallyk"
+		'en-us': "Vullaby",
+		'fr-fr': "Vostourno",
+		'es-es': "Vullaby",
+		'it-it': "Vullaby",
+		'pt-br': "Vullaby",
+		'de-de': "Skallyk"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Surprise Attack",
-				fr: "Attaque Surprise",
+				'en-us': "Surprise Attack",
+				'fr-fr': "Attaque Surprise",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
 			},
 			damage: 20,
 
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its wings are too tiny to allow it to fly. As the time approaches for it to evolve, it discards the bones it was wearing.",
+		'en-us': "Its wings are too tiny to allow it to fly. As the time approaches for it to evolve, it discards the bones it was wearing.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デンジュモクGX",
+		'ja-jp': "デンジュモクGX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "フラッシュヘッド" },
 			effect: {
-				ja: "このポケモンは、特殊エネルギーがついている相手のポケモンから、ワザのダメージを受けない。",
+				'ja-jp': "このポケモンは、特殊エネルギーがついている相手のポケモンから、ワザのダメージを受けない。",
 			},
 		},
 	],
@@ -30,14 +30,14 @@ const card: Card = {
 			damage: 100,
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "相手の山札を上から1枚トラッシュする。",
+				'ja-jp': "相手の山札を上から1枚トラッシュする。",
 			},
 		},
 		{
 			name: { ja: "ライトニングGX" },
 			cost: ["Lightning"],
 			effect: {
-				ja: "相手の手札を見て、その中にあるカードを1枚、ウラにして相手のサイドとして置く。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手の手札を見て、その中にあるカードを1枚、ウラにして相手のサイドとして置く。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

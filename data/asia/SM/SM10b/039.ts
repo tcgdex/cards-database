@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨルノズク",
+		'ja-jp': "ヨルノズク",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "暗闇でも はっきり 見える 目を 持っており 獲物を 逃がさない。 闇夜の 帝王とも 呼ばれる。",
+		'ja-jp': "暗闇でも はっきり 見える 目を 持っており 獲物を 逃がさない。 闇夜の 帝王とも 呼ばれる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "やみうち" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "ダメカンがのっている相手のポケモン1匹に、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "ダメカンがのっている相手のポケモン1匹に、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ホーホー",
+		'ja-jp': "ホーホー",
 	},
 
 	retreat: 1,

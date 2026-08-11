@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Rattata",
-		fr: "Rattata",
-		de: "Rattfratz"
+		'en-us': "Rattata",
+		'fr-fr': "Rattata",
+		'de-de': "Rattfratz"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collectionner",
-				de: "Collect"
+				'en-us': "Collect",
+				'fr-fr': "Collectionner",
+				'de-de': "Collect"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Draw a card."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Draw a card."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Scratch"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Scratch"
 			},
 
 			damage: 10,

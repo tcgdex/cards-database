@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メノクラゲ",
+		'ja-jp': "メノクラゲ",
 	},
 
 	illustrator: "Shibuzoh.",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ビーチなどで 干からびているが まだ 生きていることも 多い。 水に 浸せば ふやけて 復活。",
+		'ja-jp': "ビーチなどで 干からびているが まだ 生きていることも 多い。 水に 浸せば ふやけて 復活。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンのHPは、回復しない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンのHPは、回復しない。",
 			},
 		},
 	],

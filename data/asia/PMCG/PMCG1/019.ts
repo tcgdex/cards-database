@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウィンディ",
+		'ja-jp': "ウィンディ",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Fire", "Fire", "Colorless"],
 			name: {
-				ja: "火炎放射器",
+				'ja-jp': "火炎放射器",
 			},
 			effect: {
-				ja: "アルカニンに取り付けられた1つの消防エネルギーカードを廃棄すると、この攻撃は何もしません。",
+				'ja-jp': "アルカニンに取り付けられた1つの消防エネルギーカードを廃棄すると、この攻撃は何もしません。",
 			},
 			damage: 50,
 		},
 		{
 			cost: ["Fire", "Fire", "Colorless", "Colorless"],
 			name: {
-				ja: "降ろす",
+				'ja-jp': "降ろす",
 			},
 			effect: {
-				ja: "アルカニンはそれ自体に30のダメージを与えます。",
+				'ja-jp': "アルカニンはそれ自体に30のダメージを与えます。",
 			},
 			damage: 80,
 		},

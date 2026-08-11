@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴルダック",
+		'ja-jp': "ゴルダック",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "PsyShock",
+				'ja-jp': "PsyShock",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Water", "Water", "Colorless"],
 			name: {
-				ja: "ハイパービーム",
+				'ja-jp': "ハイパービーム",
 			},
 			effect: {
-				ja: "防御するポケモンにエネルギーカードが接続されている場合は、それらの1つを選択して破棄します。",
+				'ja-jp': "防御するポケモンにエネルギーカードが接続されている場合は、それらの1つを選択して破棄します。",
 			},
 			damage: 20,
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スターミー（デルタ種）",
+		'ja-jp': "スターミー（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "金属ナビゲーション",
+				'ja-jp': "金属ナビゲーション",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前）になったら、デッキを金属エネルギーカードで検索し、スターミーに取り付けることができます。その後、デッキをシャッフルします。 Starmieが特別な状態の影響を受けている場合、このパワーは使用できません。",
+				'ja-jp': "ターン中（攻撃の前）になったら、デッキを金属エネルギーカードで検索し、スターミーに取り付けることができます。その後、デッキをシャッフルします。 Starmieが特別な状態の影響を受けている場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "集める",
+				'ja-jp': "集める",
 			},
 			effect: {
-				ja: "3枚のカードを描きます。",
+				'ja-jp': "3枚のカードを描きます。",
 			},
 		},
 		{
 			cost: ["Metal"],
 			name: {
-				ja: "エネルギーループ",
+				'ja-jp': "エネルギーループ",
 			},
 			effect: {
-				ja: "スターミーに取り付けられたエネルギーカードをあなたの手に返します。",
+				'ja-jp': "スターミーに取り付けられたエネルギーカードをあなたの手に返します。",
 			},
 			damage: 30,
 		},

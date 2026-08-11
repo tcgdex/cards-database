@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "未定のp",
+		'ja-jp': "未定のp",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "実行[実行]",
+				'ja-jp': "実行[実行]",
 			},
 			effect: {
-				ja: "攻撃が対戦相手の最後のターン中に[P]に損傷を受けていない場合、[P]がアクティブなポクモンであった場合、[P]の隠されたパワーアタックは、防御するポクモンにはるかに多くのダメージを与えます。このパワーは、[P]が混乱していなくても使用できます。",
+				'ja-jp': "攻撃が対戦相手の最後のターン中に[P]に損傷を受けていない場合、[P]がアクティブなポクモンであった場合、[P]の隠されたパワーアタックは、防御するポクモンにはるかに多くのダメージを与えます。このパワーは、[P]が混乱していなくても使用できます。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "隠された力",
+				'ja-jp': "隠された力",
 			},
 			damage: 10,
 		},

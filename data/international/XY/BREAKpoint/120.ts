@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "M Scizor EX",
-		fr: "M-Cizayox EX",
-		es: "M-Scizor EX",
-		it: "M Scizor EX",
-		pt: "M-Scizor EX",
-		de: "M-Scherox EX"
+		'en-us': "M Scizor EX",
+		'fr-fr': "M-Cizayox EX",
+		'es-es': "M-Scizor EX",
+		'it-it': "M Scizor EX",
+		'pt-br': "M-Scizor EX",
+		'de-de': "M-Scherox EX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Scizor-EX",
-		fr: "Cizayox-EX",
-		es: "Scizor-EX",
-		it: "Scizor-EX",
-		pt: "Scizor-EX",
-		de: "Scherox-EX"
+		'en-us': "Scizor-EX",
+		'fr-fr': "Cizayox-EX",
+		'es-es': "Scizor-EX",
+		'it-it': "Scizor-EX",
+		'pt-br': "Scizor-EX",
+		'de-de': "Scherox-EX"
 	},
 
 	stage: "MEGA",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Iron Crusher",
-				fr: "Écrase Fer",
-				es: "Triturahierros",
-				it: "Schiacciata Ferrea",
-				pt: "Esmagador de Ferro",
-				de: "Eisenbeißer"
+				'en-us': "Iron Crusher",
+				'fr-fr': "Écrase Fer",
+				'es-es': "Triturahierros",
+				'it-it': "Schiacciata Ferrea",
+				'pt-br': "Esmagador de Ferro",
+				'de-de': "Eisenbeißer"
 			},
 			effect: {
-				en: "You may discard a Special Energy attached to your opponent's Active Pokémon or a Stadium card in play.",
-				fr: "Vous pouvez défausser une carte Énergie spéciale attachée au Pokémon Actif de votre adversaire ou une carte Stade en jeu.",
-				es: "Puedes descartar 1 Energía Especial unida al Pokémon Activo de tu rival o 1 carta de Estadio en juego.",
-				it: "Puoi scartare una Energia speciale assegnata al Pokémon attivo del tuo avversario o una carta Stadio in gioco.",
-				pt: "Você pode descartar uma Energia Especial ligada ao Pokémon Ativo do seu oponente ou um card de Estádio em jogo.",
-				de: "Du kannst 1 an das Aktive Pokémon deines Gegners angelegte Spezial-Energie auf dessen Ablagestapel oder 1 Stadionkarte im Spiel auf den Ablagestapel legen."
+				'en-us': "You may discard a Special Energy attached to your opponent's Active Pokémon or a Stadium card in play.",
+				'fr-fr': "Vous pouvez défausser une carte Énergie spéciale attachée au Pokémon Actif de votre adversaire ou une carte Stade en jeu.",
+				'es-es': "Puedes descartar 1 Energía Especial unida al Pokémon Activo de tu rival o 1 carta de Estadio en juego.",
+				'it-it': "Puoi scartare una Energia speciale assegnata al Pokémon attivo del tuo avversario o una carta Stadio in gioco.",
+				'pt-br': "Você pode descartar uma Energia Especial ligada ao Pokémon Ativo do seu oponente ou um card de Estádio em jogo.",
+				'de-de': "Du kannst 1 an das Aktive Pokémon deines Gegners angelegte Spezial-Energie auf dessen Ablagestapel oder 1 Stadionkarte im Spiel auf den Ablagestapel legen."
 			},
 			damage: 120,
 

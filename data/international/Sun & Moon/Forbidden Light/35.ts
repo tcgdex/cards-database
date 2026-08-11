@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Magneton",
-		fr: "Magnéton",
-		es: "Magneton",
-		it: "Magneton",
-		pt: "Magneton",
-		de: "Magneton"
+		'en-us': "Magneton",
+		'fr-fr': "Magnéton",
+		'es-es': "Magneton",
+		'it-it': "Magneton",
+		'pt-br': "Magneton",
+		'de-de': "Magneton"
 	},
 
 	illustrator: "kirisAki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magnemite",
-		fr: "Magnéti",
+		'en-us': "Magnemite",
+		'fr-fr': "Magnéti",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 20,
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Zap Cannon",
-				fr: "Élecanon",
-				es: "Electrocañón",
-				it: "Falcecannone",
-				pt: "Canhão Zap",
-				de: "Blitzkanone"
+				'en-us': "Zap Cannon",
+				'fr-fr': "Élecanon",
+				'es-es': "Electrocañón",
+				'it-it': "Falcecannone",
+				'pt-br': "Canhão Zap",
+				'de-de': "Blitzkanone"
 			},
 			effect: {
-				en: "This Pokémon can’t use Zap Cannon during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Élecanon pendant votre prochain tour.",
-				es: "Este Pokémon no puede usar Electrocañón durante tu próximo turno.",
-				it: "Durante il tuo prossimo turno, questo Pokémon non può usare Falcecannone.",
-				pt: "Este Pokémon não poderá usar Canhão Zap durante a sua próxima vez de jogar.",
-				de: "Dieses Pokémon kann Blitzkanone während deines nächsten Zuges nicht einsetzen."
+				'en-us': "This Pokémon can’t use Zap Cannon during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Élecanon pendant votre prochain tour.",
+				'es-es': "Este Pokémon no puede usar Electrocañón durante tu próximo turno.",
+				'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Falcecannone.",
+				'pt-br': "Este Pokémon não poderá usar Canhão Zap durante a sua próxima vez de jogar.",
+				'de-de': "Dieses Pokémon kann Blitzkanone während deines nächsten Zuges nicht einsetzen."
 			},
 			damage: 80,
 
@@ -94,7 +94,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has about three times the electrical power of Magnemite. For some reason, outbreaks of this Pokémon happen when lots of sunspots appear.",
+		'en-us': "It has about three times the electrical power of Magnemite. For some reason, outbreaks of this Pokémon happen when lots of sunspots appear.",
 	},
 
 	thirdParty: {

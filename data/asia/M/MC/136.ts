@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バクガメス",
+		'ja-jp': "バクガメス",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "爆薬で コーティングされた 甲羅を 背負う。 攻撃してきた 敵を 大爆発で 返り討ち。",
+		'ja-jp': "爆薬で コーティングされた 甲羅を 背負う。 攻撃してきた 敵を 大爆発で 返り討ち。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "はきだしショット" },
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン1匹に、40ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹に、40ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{

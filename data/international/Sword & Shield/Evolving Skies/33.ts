@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Lombre",
-		fr: "Lombre",
-		es: "Lombre",
-		it: "Lombre",
-		pt: "Lombre",
-		de: "Lombrero"
+		'en-us': "Lombre",
+		'fr-fr': "Lombre",
+		'es-es': "Lombre",
+		'it-it': "Lombre",
+		'pt-br': "Lombre",
+		'de-de': "Lombrero"
 	},
 
 	rarity: "Uncommon",
@@ -23,12 +23,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Wave Splash",
-			fr: "Grosse Vague",
-			es: "Chapoteo Ondulante",
-			it: "Schizzi d'Onda",
-			pt: "Wave Splash",
-			de: "Wellenplatscher"
+			'en-us': "Wave Splash",
+			'fr-fr': "Grosse Vague",
+			'es-es': "Chapoteo Ondulante",
+			'it-it': "Schizzi d'Onda",
+			'pt-br': "Wave Splash",
+			'de-de': "Wellenplatscher"
 		},
 
 		damage: 50,
@@ -43,16 +43,16 @@ const card: Card = {
 	retreat: 1,
 
 	evolveFrom: {
-		en: "Lotad",
-		fr: "Nénupiot",
-		es: "Lotad",
-		it: "Lotad",
-		pt: "Lotad",
-		de: "Loturzel"
+		'en-us': "Lotad",
+		'fr-fr': "Nénupiot",
+		'es-es': "Lotad",
+		'it-it': "Lotad",
+		'pt-br': "Lotad",
+		'de-de': "Loturzel"
 	},
 
 	description: {
-		en: "It lives at the water's edge where it is sunny. It sleeps on a bed of water grass by day and becomes active at night."
+		'en-us': "It lives at the water's edge where it is sunny. It sleeps on a bed of water grass by day and becomes active at night."
 	},
 
 	dexId: [271],

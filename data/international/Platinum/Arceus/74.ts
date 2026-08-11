@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Shinx",
-		de: "Sheinux"
+		'en-us': "Shinx",
+		'de-de': "Sheinux"
 	},
 
 	illustrator: "sui",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				de: "Nagen"
+				'en-us': "Gnaw",
+				'de-de': "Nagen"
 			},
 
 			damage: 10,
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swagger",
-				de: "Angeberei"
+				'en-us': "Swagger",
+				'de-de': "Angeberei"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 20,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The extension and contraction of its muscles generates electricity. It glows when in trouble."
+		'en-us': "The extension and contraction of its muscles generates electricity. It glows when in trouble."
 	},
 
 	variants: [

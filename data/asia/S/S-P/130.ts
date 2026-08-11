@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒバニー",
+		'ja-jp': "ヒバニー",
 		'zh-tw': "草苗龜",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "戦う 準備が 整うと 鼻の 頭と 足の 裏の 肉球が 高熱を 発する。",
+		'ja-jp': "戦う 準備が 整うと 鼻の 頭と 足の 裏の 肉球が 高熱を 発する。",
 		'zh-tw': "用全身進行光合作用，製造氧氣。當口渴的時候，頭上的葉子就會枯萎。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ひのこ",
+				'ja-jp': "ひのこ",
 				'zh-tw': "咬住",
 			},
 			damage: 30,
 			cost: ["Fire"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],

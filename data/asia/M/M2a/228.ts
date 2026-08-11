@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガルカリオex",
+		'ja-jp': "メガルカリオex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Fighting"],
 			effect: {
-				ja: "自分のトラッシュから「基本[F]エネルギー」を3枚まで選び、ベンチポケモンに好きなようにつける。",
+				'ja-jp': "自分のトラッシュから「基本[F]エネルギー」を3枚まで選び、ベンチポケモンに好きなようにつける。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 270,
 			cost: ["Fighting", "Fighting"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「メガブレイブ」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「メガブレイブ」が使えない。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "リオル",
+		'ja-jp': "リオル",
 	},
 
 	retreat: 2,

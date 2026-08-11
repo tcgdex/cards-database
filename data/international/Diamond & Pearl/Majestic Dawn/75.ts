@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Starly",
-		fr: "Étourmi",
-		de: "Staralili"
+		'en-us': "Starly",
+		'fr-fr': "Étourmi",
+		'de-de': "Staralili"
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlwind",
-				fr: "Cyclone",
-				de: "Wirbelwind"
+				'en-us': "Whirlwind",
+				'fr-fr': "Cyclone",
+				'de-de': "Wirbelwind"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
-				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				'de-de': "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 10,
 
@@ -49,9 +49,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flap",
-				fr: "Battement",
-				de: "Flattern"
+				'en-us': "Flap",
+				'fr-fr': "Battement",
+				'de-de': "Flattern"
 			},
 
 			damage: 20,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Usually with a large flock, it is barely noticeable when alone. Its cries are very strident.",
+		'en-us': "Usually with a large flock, it is barely noticeable when alone. Its cries are very strident.",
 	},
 
 	thirdParty: {

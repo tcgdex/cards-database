@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Gible",
-		fr: "Griknot",
-		de: "Kaumalat"
+		'en-us': "Gible",
+		'fr-fr': "Griknot",
+		'de-de': "Kaumalat"
 	},
 
 	illustrator: "Hiroki Fuchino",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Push Down",
-				fr: "Renverser",
-				de: "Runterdrücken"
+				'en-us': "Push Down",
+				'fr-fr': "Renverser",
+				'de-de': "Runterdrücken"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
-				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				'de-de': "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 10,
 
@@ -55,8 +55,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.",
-		fr: "Il niche dans les petits trous horizontaux des murs des grottes. Il bondit pour saisir sa proie."
+		'en-us': "It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.",
+		'fr-fr': "Il niche dans les petits trous horizontaux des murs des grottes. Il bondit pour saisir sa proie."
 	},
 
 	thirdParty: {

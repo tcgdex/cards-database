@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Vulpix",
-		fr: "Goupix",
-		de: "Vulpix"
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix",
+		'de-de': "Vulpix"
 	},
 
 	illustrator: "TOKIYA",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Singe",
-				fr: "Roussir",
-				de: "Versengung"
+				'en-us': "Singe",
+				'fr-fr': "Roussir",
+				'de-de': "Versengung"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ember",
-				fr: "Flammèche",
-				de: "Glut"
+				'en-us': "Ember",
+				'fr-fr': "Flammèche",
+				'de-de': "Glut"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Fire Energy attached to Vulpix.",
-				fr: "Lancez une pièce. Si c’est pile, défaussez-vous d’une carte Énergie Fire attachée à Goupix.",
-				de: "Wirf eine Münze. Bei \"Zahl\" lege 1 an Vulpix angelegte -Energie auf deinen Ablagestapel."
+				'en-us': "Flip a coin. If tails, discard a Fire Energy attached to Vulpix.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, défaussez-vous d’une carte Énergie Fire attachée à Goupix.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" lege 1 an Vulpix angelegte -Energie auf deinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If it is attacked by an enemy that is stronger than itself, it feigns injury to fool the enemy and escapes."
+		'en-us': "If it is attacked by an enemy that is stronger than itself, it feigns injury to fool the enemy and escapes."
 	},
 
 	variants: [

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "からておうの稽古",
+		'ja-jp': "からておうの稽古",
 	},
 
 	illustrator: "GOSSAN",
 	category: "Trainer",
 
 	effect: {
-		ja: "この番、自分のポケモンが使うワザの、相手のバトル場の「ポケモンex」へのダメージは「+40」される。",
+		'ja-jp': "この番、自分のポケモンが使うワザの、相手のバトル場の「ポケモンex」へのダメージは「+40」される。",
 	},
 
 	variants: [

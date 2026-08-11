@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ライチュウ",
+		'ja-jp': "ライチュウ",
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "身体に 電気が たまるに つれ 攻撃的に。 実は 電気が ストレスなのでは という 説もある。",
+		'ja-jp': "身体に 電気が たまるに つれ 攻撃的に。 実は 電気が ストレスなのでは という 説もある。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ほっぺすりすり" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Lightning"],
 			effect: {
-				ja: "自分の場のポケモンについている[雷]エネルギーの数×20ダメージ。",
+				'ja-jp': "自分の場のポケモンについている[雷]エネルギーの数×20ダメージ。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ピカチュウ",
+		'ja-jp': "ピカチュウ",
 	},
 
 	retreat: 2,

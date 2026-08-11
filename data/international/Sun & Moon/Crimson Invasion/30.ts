@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		es: "Pikachu",
-		it: "Pikachu",
-		pt: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'es-es': "Pikachu",
+		'it-it': "Pikachu",
+		'pt-br': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pika Draw",
-				fr: "Pika Dessin",
-				es: "Robo Pika",
-				it: "Pika-Pesca",
-				pt: "Compra Pikachu",
-				de: "Pika-Zug"
+				'en-us': "Pika Draw",
+				'fr-fr': "Pika Dessin",
+				'es-es': "Robo Pika",
+				'it-it': "Pika-Pesca",
+				'pt-br': "Compra Pikachu",
+				'de-de': "Pika-Zug"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				es: "Roba 1 carta.",
-				it: "Pesca una carta.",
-				pt: "Compre 1 carta.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'es-es': "Roba 1 carta.",
+				'it-it': "Pesca una carta.",
+				'pt-br': "Compre 1 carta.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-Attaque",
-				es: "Ataque Rápido",
-				it: "Attacco Rapido",
-				pt: "Ataque Rápido",
-				de: "Ruckzuckhieb"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-Attaque",
+				'es-es': "Ataque Rápido",
+				'it-it': "Attacco Rapido",
+				'pt-br': "Ataque Rápido",
+				'de-de': "Ruckzuckhieb"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-				pt: "Jogue 1 moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
-				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
+				'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
 			},
 			damage: "20+",
 
@@ -94,7 +94,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A plan was recently announced to gather many Pikachu and make an electric power plant.",
+		'en-us': "A plan was recently announced to gather many Pikachu and make an electric power plant.",
 	},
 
 	thirdParty: {

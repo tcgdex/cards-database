@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [117],
 
 	name: {
-		en: "Seadra"
+		'en-us': "Seadra"
 	},
 
 	illustrator: "Taiga Kasai",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Horsea"
+		'en-us': "Horsea"
 	},
 
 	description: {
-		en: "It's the males that raise the offspring. While\nSeadra are raising young, the spines on their\nbacks secrete thicker and stronger poison."
+		'en-us': "It's the males that raise the offspring. While\nSeadra are raising young, the spines on their\nbacks secrete thicker and stronger poison."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Razor Fin"
+			'en-us': "Razor Fin"
 		},
 
 		damage: 50,

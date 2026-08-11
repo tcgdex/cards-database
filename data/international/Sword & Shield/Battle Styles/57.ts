@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Baltoy",
-		fr: "Balbuto",
-		es: "Baltoy",
-		it: "Baltoy",
-		pt: "Baltoy",
-		de: "Puppance"
+		'en-us': "Baltoy",
+		'fr-fr': "Balbuto",
+		'es-es': "Baltoy",
+		'it-it': "Baltoy",
+		'pt-br': "Baltoy",
+		'de-de': "Puppance"
 	},
 
 	illustrator: "sui",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Self-Destruct",
-			fr: "Destruction",
-			es: "Autodestrucción",
-			it: "Autodistruzione",
-			pt: "Autodestruição",
-			de: "Finale"
+			'en-us': "Self-Destruct",
+			'fr-fr': "Destruction",
+			'es-es': "Autodestrucción",
+			'it-it': "Autodistruzione",
+			'pt-br': "Autodestruição",
+			'de-de': "Finale"
 		},
 
 		effect: {
-			en: "This Pokémon also does 60 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 60 dégâts.",
-			es: "Este Pokémon también se hace 60 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 60 danni a se stesso.",
-			pt: "Este Pokémon também causa 60 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 60 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 60 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 60 dégâts.",
+			'es-es': "Este Pokémon también se hace 60 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 60 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 60 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 60 Schadenspunkte zu."
 		},
 
 		damage: 60,
@@ -60,7 +60,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep."
+		'en-us': "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep."
 	},
 
 	variants: [

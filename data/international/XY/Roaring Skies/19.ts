@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Pelipper",
-		fr: "Bekipan",
-		es: "Pelipper",
-		it: "Pelipper",
-		pt: "Pelipper",
-		de: "Pelipper"
+		'en-us': "Pelipper",
+		'fr-fr': "Bekipan",
+		'es-es': "Pelipper",
+		'it-it': "Pelipper",
+		'pt-br': "Pelipper",
+		'de-de': "Pelipper"
 	},
 
 	illustrator: "Midori Harada",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wingull",
-		fr: "Goélise",
-		es: "Wingull",
-		it: "Wingull",
-		pt: "Wingull",
-		de: "Wingull"
+		'en-us': "Wingull",
+		'fr-fr': "Goélise",
+		'es-es': "Wingull",
+		'it-it': "Wingull",
+		'pt-br': "Wingull",
+		'de-de': "Wingull"
 	},
 
 	stage: "Stage1",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swallow",
-				fr: "Avale",
-				es: "Tragar",
-				it: "Introenergia",
-				pt: "Engolir",
-				de: "Verzehrer"
+				'en-us': "Swallow",
+				'fr-fr': "Avale",
+				'es-es': "Tragar",
+				'it-it': "Introenergia",
+				'pt-br': "Engolir",
+				'de-de': "Verzehrer"
 			},
 			effect: {
-				en: "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
-				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Actif de votre adversaire.",
-				es: "Cura a este Pokémon el mismo número de puntos de daño que hayas infligido al Pokémon Activo de tu rival.",
-				it: "Cura questo Pokémon da una quantità di danni pari a quelli inflitti al Pokémon attivo del tuo avversario.",
-				pt: "Cure deste Pokémon a mesma quantidade de danos que você causou ao Pokémon Ativo do seu oponente.",
-				de: "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Aktiven Pokémon deines Gegners zugefügt hast."
+				'en-us': "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
+				'fr-fr': "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Actif de votre adversaire.",
+				'es-es': "Cura a este Pokémon el mismo número de puntos de daño que hayas infligido al Pokémon Activo de tu rival.",
+				'it-it': "Cura questo Pokémon da una quantità di danni pari a quelli inflitti al Pokémon attivo del tuo avversario.",
+				'pt-br': "Cure deste Pokémon a mesma quantidade de danos que você causou ao Pokémon Ativo do seu oponente.",
+				'de-de': "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Aktiven Pokémon deines Gegners zugefügt hast."
 			},
 			damage: 30,
 
@@ -70,20 +70,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Pulse",
-				fr: "Vibraqua",
-				es: "Hidropulso",
-				it: "Idropulsar",
-				pt: "Pulso d'Água",
-				de: "Aquawelle"
+				'en-us': "Water Pulse",
+				'fr-fr': "Vibraqua",
+				'es-es': "Hidropulso",
+				'it-it': "Idropulsar",
+				'pt-br': "Pulso d'Água",
+				'de-de': "Aquawelle"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent's Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 70,
 
@@ -107,7 +107,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill.",
+		'en-us': "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "sudowoodo",
+		'ja-jp': "sudowoodo",
 	},
 
 	rarity: "Holo Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "コピー",
+				'ja-jp': "コピー",
 			},
 			effect: {
-				ja: "防御ポケモンの攻撃の1つを選択します。その攻撃をコピーします。 Sudowoodoにその攻撃を使用するのに必要なエネルギーがない場合、この攻撃は何もしません。 （その攻撃を使用するために必要な他のことをまだしなければなりません。）",
+				'ja-jp': "防御ポケモンの攻撃の1つを選択します。その攻撃をコピーします。 Sudowoodoにその攻撃を使用するのに必要なエネルギーがない場合、この攻撃は何もしません。 （その攻撃を使用するために必要な他のことをまだしなければなりません。）",
 			},
 		},
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "エネルギーの引き分け",
+				'ja-jp': "エネルギーの引き分け",
 			},
 			effect: {
-				ja: "デッキを検索して、基本的なエネルギーカードを調べ、sudowoodoに添付してください。その後、デッキをシャッフルします。",
+				'ja-jp': "デッキを検索して、基本的なエネルギーカードを調べ、sudowoodoに添付してください。その後、デッキをシャッフルします。",
 			},
 		},
 	],

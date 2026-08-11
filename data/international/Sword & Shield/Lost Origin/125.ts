@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bronzor",
-		fr: "Archéomire",
-		es: "Bronzor",
-		it: "Bronzor",
-		pt: "Bronzor",
-		de: "Bronzel"
+		'en-us': "Bronzor",
+		'fr-fr': "Archéomire",
+		'es-es': "Bronzor",
+		'it-it': "Bronzor",
+		'pt-br': "Bronzor",
+		'de-de': "Bronzel"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Spinning Attack",
-			fr: "Attaque Tournante",
-			es: "Ataque Giratorio",
-			it: "Attacco Rotante",
-			pt: "Ataque Giratório",
-			de: "Rundumangriff"
+			'en-us': "Spinning Attack",
+			'fr-fr': "Attaque Tournante",
+			'es-es': "Ataque Giratorio",
+			'it-it': "Attacco Rotante",
+			'pt-br': "Ataque Giratório",
+			'de-de': "Rundumangriff"
 		},
 
 		damage: 10

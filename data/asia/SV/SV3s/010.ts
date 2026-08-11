@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Capsakid"
+		'id-id': "Capsakid"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Makin lama Capsakid berjemur, komponen pedas dalam tubuhnya makin bertambah, dan serangan jurusnya menjadi makin pedas."
+		'id-id': "Makin lama Capsakid berjemur, komponen pedas dalam tubuhnya makin bertambah, dan serangan jurusnya menjadi makin pedas."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menyerang"
+			'id-id': "Menyerang"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 10."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10."
 		},
 
 		damage: 30,

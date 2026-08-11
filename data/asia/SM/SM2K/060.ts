@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フィールドブロアー",
+		'ja-jp': "フィールドブロアー",
 	},
 
 	illustrator: "",
 	category: "Trainer",
 
 	effect: {
-		ja: "場にある「ポケモンのどうぐ」または「スタジアム」を、2枚までトラッシュする。",
+		'ja-jp': "場にある「ポケモンのどうぐ」または「スタジアム」を、2枚までトラッシュする。",
 	},
 
 	variants: [

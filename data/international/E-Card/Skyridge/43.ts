@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Piloswine",
-		de: "Keifel"
+		'en-us': "Piloswine",
+		'de-de': "Keifel"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Swinub",
+		'en-us': "Swinub",
 	},
 
 	stage: "Stage1",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Impaling Tusk",
-				de: "Durchbohrender Stoßzahn"
+				'en-us': "Impaling Tusk",
+				'de-de': "Durchbohrender Stoßzahn"
 			},
 
 			damage: 40,
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Continuous Charge",
-				de: "Dauernder Ansturm"
+				'en-us': "Continuous Charge",
+				'de-de': "Dauernder Ansturm"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 30 damage plus 20 more damage for each heads. Put a damage counter on Piloswine for each heads.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte pro geworfenem \"Kopf\" zu. Lege für jeden \"Kopf\" eine Schadensmarke auf Keifel."
+				'en-us': "Flip 4 coins. This attack does 30 damage plus 20 more damage for each heads. Put a damage counter on Piloswine for each heads.",
+				'de-de': "Wirf 4 Münzen. Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte pro geworfenem \"Kopf\" zu. Lege für jeden \"Kopf\" eine Schadensmarke auf Keifel."
 			},
 			damage: "30+",
 

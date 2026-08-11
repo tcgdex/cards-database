@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2022'
 
 const card: Card = {
 	name: {
-		en: "Smeargle",
-		fr: "Queulorior",
-		es: "Smeargle",
-		it: "Smeargle",
-		pt: "Smeargle",
-		de: "Farbeagle"
+		'en-us': "Smeargle",
+		'fr-fr': "Queulorior",
+		'es-es': "Smeargle",
+		'it-it': "Smeargle",
+		'pt-br': "Smeargle",
+		'de-de': "Farbeagle"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				en: "Live Painting",
+				'en-us': "Live Painting",
 			},
 			effect: {
-				en: "Reveal any number of basic Energy cards from your hand. This attack does 30 more damage for each type of basic Energy you revealed in this way.",
+				'en-us': "Reveal any number of basic Energy cards from your hand. This attack does 30 more damage for each type of basic Energy you revealed in this way.",
 			},
 			damage: "30+"
 		},

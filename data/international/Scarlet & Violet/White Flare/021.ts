@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Oshawott",
-		fr: "Moustillon",
-		de: "Ottaro",
-		it: "Oshawott",
-		pt: "Oshawott",
-		es: "Oshawott",
+		'en-us': "Oshawott",
+		'fr-fr': "Moustillon",
+		'de-de': "Ottaro",
+		'it-it': "Oshawott",
+		'pt-br': "Oshawott",
+		'es-es': "Oshawott",
 		'es-mx': "Oshawott"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			de: "Tackle",
-			it: "Azione",
-			pt: "Investida",
-			es: "Placaje",
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'de-de': "Tackle",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'es-es': "Placaje",
 			'es-mx': "Tacleada"
 		},
 
@@ -40,12 +40,12 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			en: "Water Gun",
-			fr: "Pistolet à O",
-			de: "Aquaknarre",
-			it: "Pistolacqua",
-			pt: "Revólver d'Água",
-			es: "Pistola Agua",
+			'en-us': "Water Gun",
+			'fr-fr': "Pistolet à O",
+			'de-de': "Aquaknarre",
+			'it-it': "Pistolacqua",
+			'pt-br': "Revólver d'Água",
+			'es-es': "Pistola Agua",
 			'es-mx': "Chorro de Agua"
 		},
 

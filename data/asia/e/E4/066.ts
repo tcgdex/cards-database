@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クレファ",
+		'ja-jp': "クレファ",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "エネルギーリサイクル",
+				'ja-jp': "エネルギーリサイクル",
 			},
 			effect: {
-				ja: "廃棄の山からデッキに基本的なエネルギーカードをシャッフルします。",
+				'ja-jp': "廃棄の山からデッキに基本的なエネルギーカードをシャッフルします。",
 			},
 		},
 	],

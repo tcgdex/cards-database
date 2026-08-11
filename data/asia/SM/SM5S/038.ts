@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タテトプス",
+		'ja-jp': "タテトプス",
 	},
 
 	illustrator: "so-taro",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "頑丈な 顔の おかげで 敵は 少なかったと 思われる。 太古の ジャングルに 棲んでいた。",
+		'ja-jp': "頑丈な 顔の おかげで 敵は 少なかったと 思われる。 太古の ジャングルに 棲んでいた。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Metal", "Colorless"],
 			effect: {
-				ja: "このポケモンにも10ダメージ。",
+				'ja-jp': "このポケモンにも10ダメージ。",
 			},
 		},
 		{

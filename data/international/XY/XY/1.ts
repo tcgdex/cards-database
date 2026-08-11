@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Venusaur EX",
-		fr: "Florizarre EX",
-		es: "Venusaur EX",
-		it: "Venusaur EX",
-		pt: "Venusaur EX",
-		de: "Bisaflor EX"
+		'en-us': "Venusaur EX",
+		'fr-fr': "Florizarre EX",
+		'es-es': "Venusaur EX",
+		'it-it': "Venusaur EX",
+		'pt-br': "Venusaur EX",
+		'de-de': "Bisaflor EX"
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -36,20 +36,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Powder",
-				fr: "Poudre Toxik",
-				es: "Polvo Veneno",
-				it: "Velenpolvere",
-				pt: "Pó Venenoso",
-				de: "Giftpuder"
+				'en-us': "Poison Powder",
+				'fr-fr': "Poudre Toxik",
+				'es-es': "Polvo Veneno",
+				'it-it': "Velenpolvere",
+				'pt-br': "Pó Venenoso",
+				'de-de': "Giftpuder"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+				'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 			damage: 60,
 
@@ -62,20 +62,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jungle Hammer",
-				fr: "Marteau Végétal",
-				es: "Martillo Selva",
-				it: "Martelgiungla",
-				pt: "Martelo da Selva",
-				de: "Dschungel-Hammer"
+				'en-us': "Jungle Hammer",
+				'fr-fr': "Marteau Végétal",
+				'es-es': "Martillo Selva",
+				'it-it': "Martelgiungla",
+				'pt-br': "Martelo da Selva",
+				'de-de': "Dschungel-Hammer"
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts à ce Pokémon.",
-				es: "Cura 30 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 30 danni.",
-				pt: "Cure 30 de danos deste Pokémon.",
-				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon.",
+				'es-es': "Cura 30 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 30 danni.",
+				'pt-br': "Cure 30 de danos deste Pokémon.",
+				'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 90,
 

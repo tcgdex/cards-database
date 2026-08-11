@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ファイヤーメモリ",
+		'ja-jp': "ファイヤーメモリ",
 	},
 
 	illustrator: "5ban Graphics",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけている「シルヴァディGX」は、ポケモンになる。",
+		'ja-jp': "このカードをつけている「シルヴァディGX」は、ポケモンになる。",
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S5R"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "磨牙彩皮魚",
-		th: "ฮากิกิชิริ"
+		'th-th': "ฮากิกิชิริ"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "厚實的皮膚連好壞星的針也無法穿透。會用結實的牙齒把針咬碎之後吃下去。",
-		th: "มีหนังหนาขนาดที่หนามของฮิโดอิเดะก็แทงไม่เข้า จะกัดหนามกินด้วยฟันที่แข็งแรง"
+		'th-th': "มีหนังหนาขนาดที่หนามของฮิโดอิเดะก็แทงไม่เข้า จะกัดหนามกินด้วยฟันที่แข็งแรง"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "咬住",
-			th: "กัดติด"
+			'th-th': "กัดติด"
 		},
 
 		damage: 20,
@@ -32,7 +32,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "衝浪",
-			th: "โต้คลื่น"
+			'th-th': "โต้คลื่น"
 		},
 
 		damage: 110,

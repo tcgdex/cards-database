@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サンダー",
+		'ja-jp': "サンダー",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Lightning", "Lightning", "Lightning"],
 			name: {
-				ja: "雷雨",
+				'ja-jp': "雷雨",
 			},
 			effect: {
-				ja: "対戦相手のベンチ付きポケモンごとに、コインをひっくり返します。頭の場合、この攻撃はそのポケモンに20のダメージを与えます。 （ベンチ付きポケモンに衰弱と抵抗を適用しないでください。）それから、ザプドスは尾の数の10ダメージ=それ自体に対して10回ダメージを与えます。",
+				'ja-jp': "対戦相手のベンチ付きポケモンごとに、コインをひっくり返します。頭の場合、この攻撃はそのポケモンに20のダメージを与えます。 （ベンチ付きポケモンに衰弱と抵抗を適用しないでください。）それから、ザプドスは尾の数の10ダメージ=それ自体に対して10回ダメージを与えます。",
 			},
 			damage: 40,
 		},

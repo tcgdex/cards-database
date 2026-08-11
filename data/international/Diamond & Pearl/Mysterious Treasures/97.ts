@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Seel",
-		fr: "Otaria",
-		de: "Jurob"
+		'en-us': "Seel",
+		'fr-fr': "Otaria",
+		'de-de': "Jurob"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Freezing Headbutt",
-				fr: "Coup d'boule gelant",
-				de: "Frostige Kopfnuss"
+				'en-us': "Freezing Headbutt",
+				'fr-fr': "Coup d'boule gelant",
+				'de-de': "Frostige Kopfnuss"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -56,8 +56,8 @@ const card: Card = {
 
 
 	description: {
-		en: "A Pokémon that lives on icebergs. It swims in the sea using the point on its head to break up ice.",
-		fr: "Un habitant des icebergs. En mer, il utilise la corne sur sa tête pour briser la banquise."
+		'en-us': "A Pokémon that lives on icebergs. It swims in the sea using the point on its head to break up ice.",
+		'fr-fr': "Un habitant des icebergs. En mer, il utilise la corne sur sa tête pour briser la banquise."
 	},
 
 	thirdParty: {

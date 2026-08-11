@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Bagon",
-		fr: "Draby",
-		de: "Kindwurm"
+		'en-us': "Bagon",
+		'fr-fr': "Draby",
+		'de-de': "Kindwurm"
 	},
 
 	illustrator: "Takao Unno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Singe",
-				fr: "Roussir",
-				de: "Singe"
+				'en-us': "Singe",
+				'fr-fr': "Roussir",
+				'de-de': "Singe"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Flip a coin. If heads, the Defending Pokémon Pokémon is now Burned."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon Pokémon is now Burned."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Doubleslap",
-				fr: "Torgnoles",
-				de: "Doubleslap"
+				'en-us': "Doubleslap",
+				'fr-fr': "Torgnoles",
+				'de-de': "Doubleslap"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10x",
 

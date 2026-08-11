@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "おむかえちょうちん",
+		'ja-jp': "おむかえちょうちん",
 		'zh-tw': "渡魂燈籠",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のトラッシュから「いちげき」のサポートを1枚選び、相手に見せて、手札に加える。",
+		'ja-jp': "自分のトラッシュから「いちげき」のサポートを1枚選び、相手に見せて、手札に加える。",
 		'zh-tw': "從自己的棄牌區選擇1張「一擊」支援者卡，在給對手看過後加入手牌。",
 	},
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Carvanha",
-		fr: "Carvanha",
-		es: "Carvanha",
-		it: "Carvanha",
-		pt: "Carvanha",
-		de: "Kanivanha"
+		'en-us': "Carvanha",
+		'fr-fr': "Carvanha",
+		'es-es': "Carvanha",
+		'it-it': "Carvanha",
+		'pt-br': "Carvanha",
+		'de-de': "Kanivanha"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Wave Splash",
-			fr: "Grosse Vague",
-			es: "Chapoteo Ondulante",
-			it: "Schizzi d'Onda",
-			pt: "Onda Borrifante",
-			de: "Wellenplatscher"
+			'en-us': "Wave Splash",
+			'fr-fr': "Grosse Vague",
+			'es-es': "Chapoteo Ondulante",
+			'it-it': "Schizzi d'Onda",
+			'pt-br': "Onda Borrifante",
+			'de-de': "Wellenplatscher"
 		},
 
 		damage: 30
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It won't attack while it's alone—not even if it spots prey. Instead, it waits for other Carvanha to join it, and then the Pokémon attack as a group.",
+		'en-us': "It won't attack while it's alone—not even if it spots prey. Instead, it waits for other Carvanha to join it, and then the Pokémon attack as a group.",
 	},
 
 	variants: [

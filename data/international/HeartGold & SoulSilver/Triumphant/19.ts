@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Dugtrio",
-		fr: "Triopikeur",
-		de: "Digdri"
+		'en-us': "Dugtrio",
+		'fr-fr': "Triopikeur",
+		'de-de': "Digdri"
 	},
 
 	illustrator: "Shizurow",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Diglett",
-		fr: "Taupiqueur"
+		'en-us': "Diglett",
+		'fr-fr': "Taupiqueur"
 	},
 
 	stage: "Stage1",
@@ -34,9 +34,9 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Dig",
-				fr: "Tunnel",
-				de: "Schaufler"
+				'en-us': "Dig",
+				'fr-fr': "Tunnel",
+				'de-de': "Schaufler"
 			},
 
 			damage: 30,
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sand Impact",
-				fr: "Impact sablonneux",
-				de: "Sandiger Einschlag"
+				'en-us': "Sand Impact",
+				'fr-fr': "Impact sablonneux",
+				'de-de': "Sandiger Einschlag"
 			},
 			effect: {
-				en: "Flip a coin for each Fighting Energy attached to Dugtrio. This attack does 50 damage plus 20 more damage for each heads.",
-				fr: "Lancez une pièce pour chaque Énergie Fighting attachée à Triopikeur. Cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque côté face.",
-				de: "Wirf für jede an Digdri angelegte -Energie 1 Münze. Dieser Angriff fügt 50 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip a coin for each Fighting Energy attached to Dugtrio. This attack does 50 damage plus 20 more damage for each heads.",
+				'fr-fr': "Lancez une pièce pour chaque Énergie Fighting attachée à Triopikeur. Cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque côté face.",
+				'de-de': "Wirf für jede an Digdri angelegte -Energie 1 Münze. Dieser Angriff fügt 50 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "50+",
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Extremely powerful, they can dig through even the hardest ground to a depth of over 60 miles."
+		'en-us': "Extremely powerful, they can dig through even the hardest ground to a depth of over 60 miles."
 	},
 
 	variants: [

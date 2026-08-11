@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Skitty",
-		fr: "Skitty",
-		de: "Eneco"
+		'en-us': "Skitty",
+		'fr-fr': "Skitty",
+		'de-de': "Eneco"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Catch",
-				fr: "Attrape-énergie",
-				de: "Energy Catch"
+				'en-us': "Energy Catch",
+				'fr-fr': "Attrape-énergie",
+				'de-de': "Energy Catch"
 			},
 			effect: {
-				en: "Search your discard pile for a basic Energy card, show it to your opponent, and put it into your hand.",
-				fr: "Choisissez dans votre pile de défausse une carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main.",
-				de: "Search your discard pile for a basic Energy card, show it to your opponent, and put it into your hand."
+				'en-us': "Search your discard pile for a basic Energy card, show it to your opponent, and put it into your hand.",
+				'fr-fr': "Choisissez dans votre pile de défausse une carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main.",
+				'de-de': "Search your discard pile for a basic Energy card, show it to your opponent, and put it into your hand."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-edge",
-				fr: "Damoclès",
-				de: "Double-Edge"
+				'en-us': "Double-edge",
+				'fr-fr': "Damoclès",
+				'de-de': "Double-Edge"
 			},
 			effect: {
-				en: "Skitty does 10 damage to itself.",
-				fr: "Skitty s'inflige 10 dégâts.",
-				de: "Skitty does 10 damage to itself."
+				'en-us': "Skitty does 10 damage to itself.",
+				'fr-fr': "Skitty s'inflige 10 dégâts.",
+				'de-de': "Skitty does 10 damage to itself."
 			},
 			damage: 30,
 

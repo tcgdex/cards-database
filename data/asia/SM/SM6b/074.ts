@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "TVレポーター",
+		'ja-jp': "TVレポーター",
 	},
 
 	illustrator: "nagimiso",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札を3枚引く。その後、自分の手札を1枚トラッシュする。",
+		'ja-jp': "自分の山札を3枚引く。その後、自分の手札を1枚トラッシュする。",
 	},
 
 	variants: [

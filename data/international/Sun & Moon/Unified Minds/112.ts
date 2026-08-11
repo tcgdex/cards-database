@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Gible",
-		fr: "Griknot",
-		es: "Gible",
-		it: "Gible",
-		pt: "Gible",
-		de: "Kaumalat"
+		'en-us': "Gible",
+		'fr-fr': "Griknot",
+		'es-es': "Gible",
+		'it-it': "Gible",
+		'pt-br': "Gible",
+		'de-de': "Kaumalat"
 	},
 
 	illustrator: "Asako Ito",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Stampede",
-				fr: "Ruée",
-				es: "Estampida",
-				it: "Fuggi Fuggi",
-				pt: "Estouro",
-				de: "Zertrampeln"
+				'en-us': "Stampede",
+				'fr-fr': "Ruée",
+				'es-es': "Estampida",
+				'it-it': "Fuggi Fuggi",
+				'pt-br': "Estouro",
+				'de-de': "Zertrampeln"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt Bounce",
-				fr: "Culbute Surprise",
-				es: "Bote Cabezazo",
-				it: "Rimbalzo Bottintesta",
-				pt: "Cabeçada Ricochete",
-				de: "Abrupter Kopfstoß"
+				'en-us': "Headbutt Bounce",
+				'fr-fr': "Culbute Surprise",
+				'es-es': "Bote Cabezazo",
+				'it-it': "Rimbalzo Bottintesta",
+				'pt-br': "Cabeçada Ricochete",
+				'de-de': "Abrupter Kopfstoß"
 			},
 
 			damage: 30,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It reacts to anything that moves—flies right at it and bites it. Sometimes it injures itself, but it doesn't care too much.",
+		'en-us': "It reacts to anything that moves—flies right at it and bites it. Sometimes it injures itself, but it doesn't care too much.",
 	},
 
 	thirdParty: {

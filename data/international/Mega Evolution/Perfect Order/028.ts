@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
@@ -7,23 +7,23 @@ const card: Card = {
 	dexId: [405],
 
 	name: {
-		en: "Luxray",
-		fr: "Luxray",
-		es: "Luxray",
+		'en-us': "Luxray",
+		'fr-fr': "Luxray",
+		'es-es': "Luxray",
 		'es-mx': "Luxray",
-		de: "Luxtra",
-		it: "Luxray",
-		pt: "Luxray"
+		'de-de': "Luxtra",
+		'it-it': "Luxray",
+		'pt-br': "Luxray"
 	},
 
 	evolveFrom: {
-		en: "Luxio",
-		fr: "Luxio",
-		es: "Luxio",
+		'en-us': "Luxio",
+		'fr-fr': "Luxio",
+		'es-es': "Luxio",
 		'es-mx': "Luxio",
-		de: "Luxio",
-		it: "Luxio",
-		pt: "Luxio",
+		'de-de': "Luxio",
+		'it-it': "Luxio",
+		'pt-br': "Luxio",
 	},
 
 	illustrator: "Taiga Kasai",
@@ -37,23 +37,23 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Incessant Onslaught",
-			fr: "Assauts Continuels",
-			es: "Embestida Incesante",
+			'en-us': "Incessant Onslaught",
+			'fr-fr': "Assauts Continuels",
+			'es-es': "Embestida Incesante",
 			'es-mx': "Asalto Incesante",
-			de: "Unablässiger Ansturm",
-			it: "Offensiva Continua",
-			pt: "Sova Sem Fim"
+			'de-de': "Unablässiger Ansturm",
+			'it-it': "Offensiva Continua",
+			'pt-br': "Sova Sem Fim"
 		},
 
 		effect: {
-			en: "This attack does 70 damage for each Prize card you have taken.",
-			fr: "Cette attaque inflige 70 dégâts pour chaque carte Récompense que vous avez récupérée.",
-			es: "Este ataque hace 70 puntos de daño por cada carta de Premio que hayas cogido.",
+			'en-us': "This attack does 70 damage for each Prize card you have taken.",
+			'fr-fr': "Cette attaque inflige 70 dégâts pour chaque carte Récompense que vous avez récupérée.",
+			'es-es': "Este ataque hace 70 puntos de daño por cada carta de Premio que hayas cogido.",
 			'es-mx': "Este ataque hace 70 puntos de daño por cada carta de Premio que hayas tomado.",
-			de: "Diese Attacke fügt für jede von dir genommene Preiskarte 70 Schadenspunkte zu.",
-			it: "Questo attacco infligge 70 danni per ogni carta Premio che hai preso.",
-			pt: "Este ataque causa 70 pontos de dano para cada carta de Prêmio que você pegou."
+			'de-de': "Diese Attacke fügt für jede von dir genommene Preiskarte 70 Schadenspunkte zu.",
+			'it-it': "Questo attacco infligge 70 danni per ogni carta Premio che hai preso.",
+			'pt-br': "Este ataque causa 70 pontos de dano para cada carta de Prêmio que você pegou."
 		},
 
 		damage: "70×"
@@ -61,23 +61,23 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			en: "Strong Volt",
-			fr: "Décharge Foudroyante",
-			es: "Descarga Fulminante",
+			'en-us': "Strong Volt",
+			'fr-fr': "Décharge Foudroyante",
+			'es-es': "Descarga Fulminante",
 			'es-mx': "Voltio Fulminante",
-			de: "Voltkraft",
-			it: "Supervolt",
-			pt: "Tensão Intensa"
+			'de-de': "Voltkraft",
+			'it-it': "Supervolt",
+			'pt-br': "Tensão Intensa"
 		},
 
 		effect: {
-			en: "Discard 2 Energy from this Pokémon.",
-			fr: "Défaussez 2 Énergies de ce Pokémon.",
-			es: "Descarta 2 Energías de este Pokémon.",
+			'en-us': "Discard 2 Energy from this Pokémon.",
+			'fr-fr': "Défaussez 2 Énergies de ce Pokémon.",
+			'es-es': "Descarta 2 Energías de este Pokémon.",
 			'es-mx': "Descarta 2 Energías de este Pokémon.",
-			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel.",
-			it: "Scarta due Energie da questo Pokémon.",
-			pt: "Descarte 2 Energias deste Pokémon."
+			'de-de': "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel.",
+			'it-it': "Scarta due Energie da questo Pokémon.",
+			'pt-br': "Descarte 2 Energias deste Pokémon."
 		},
 
 		damage: 200

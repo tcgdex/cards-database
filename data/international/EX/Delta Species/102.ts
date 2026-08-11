@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Switch",
-		fr: "Échange",
-		de: "Tausch"
+		'en-us': "Switch",
+		'fr-fr': "Échange",
+		'de-de': "Tausch"
 	},
 
 	illustrator: "Hiromichi Sugiyama",
@@ -15,9 +15,9 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		en: "Switch 1 of your Active Pokémon with 1 of your Benched Pokémon.",
-		fr: "Échangez 1 de vos Pokémon Actifs avec 1 de vos Pokémon de Banc.",
-		de: "Switch 1 of your Active Pokémon with 1 of your Benched Pokémon."
+		'en-us': "Switch 1 of your Active Pokémon with 1 of your Benched Pokémon.",
+		'fr-fr': "Échangez 1 de vos Pokémon Actifs avec 1 de vos Pokémon de Banc.",
+		'de-de': "Switch 1 of your Active Pokémon with 1 of your Benched Pokémon."
 	},
 
 	thirdParty: {

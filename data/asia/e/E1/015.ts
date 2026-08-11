@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コルサラ",
+		'ja-jp': "コルサラ",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "取り組む",
+				'ja-jp': "取り組む",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				ja: "スパイクキャノン",
+				'ja-jp': "スパイクキャノン",
 			},
 			effect: {
-				ja: "3コインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。",
+				'ja-jp': "3コインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。",
 			},
 		},
 	],

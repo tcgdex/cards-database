@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Mudkip",
-		fr: "Gobou",
-		de: "Hydropi"
+		'en-us': "Mudkip",
+		'fr-fr': "Gobou",
+		'de-de': "Hydropi"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nap",
-				fr: "Tit'sieste",
-				de: "Nickerchen"
+				'en-us': "Nap",
+				'fr-fr': "Tit'sieste",
+				'de-de': "Nickerchen"
 			},
 			effect: {
-				en: "Remove 2 damage counters from Mudkip.",
-				fr: "Retirez à Gobou 2 marqueurs de dégât.",
-				de: "Entferne 2 Schadensmarken von Hydropi."
+				'en-us': "Remove 2 damage counters from Mudkip.",
+				'fr-fr': "Retirez à Gobou 2 marqueurs de dégât.",
+				'de-de': "Entferne 2 Schadensmarken von Hydropi."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Waterfall",
-				fr: "Cascade",
-				de: "Kaskade"
+				'en-us': "Waterfall",
+				'fr-fr': "Cascade",
+				'de-de': "Kaskade"
 			},
 
 			damage: 20,

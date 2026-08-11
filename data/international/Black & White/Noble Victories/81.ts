@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Pawniard",
-		fr: "Scalpion",
-		es: "Pawniard",
-		it: "Pawniard",
-		pt: "Pawniard",
-		de: "Gladiantri"
+		'en-us': "Pawniard",
+		'fr-fr': "Scalpion",
+		'es-es': "Pawniard",
+		'it-it': "Pawniard",
+		'pt-br': "Pawniard",
+		'de-de': "Gladiantri"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Pierce",
-				fr: "Transpercement",
+				'en-us': "Pierce",
+				'fr-fr': "Transpercement",
 			},
 
 			damage: 10,
@@ -47,8 +47,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cut",
-				fr: "Coupe",
+				'en-us': "Cut",
+				'fr-fr': "Coupe",
 			},
 
 			damage: 20,
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Blades comprise this Pokémon's entire body. If battling dulls the blades, it sharpens them on stones by the river.",
+		'en-us': "Blades comprise this Pokémon's entire body. If battling dulls the blades, it sharpens them on stones by the river.",
 	},
 
 	thirdParty: {

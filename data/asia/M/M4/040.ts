@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バケッチャ",
+		'ja-jp': "バケッチャ",
 	},
 
 	illustrator: "Jerky",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "体の 大きさだけでなく 連れ去る 魂の サイズも 違う 別の 品種と 最近 判明した。",
+		'ja-jp': "体の 大きさだけでなく 連れ去る 魂の サイズも 違う 別の 品種と 最近 判明した。",
 	},
 
 	stage: "Basic",

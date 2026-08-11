@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ギャラドスex",
+		'ja-jp': "ギャラドスex",
 		'zh-tw': "暴鯉龍ex",
-		th: "เกียราดอสex",
-		id: "Gyarados ex"
+		'th-th': "เกียราดอสex",
+		'id-id': "Gyarados ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -23,10 +23,10 @@ const card: Card = {
 		cost: ["Water", "Water", "Water"],
 
 		name: {
-			ja: "たきのぼり",
+			'ja-jp': "たきのぼり",
 			'zh-tw': "攀瀑",
-			th: "ปีนน้ำตก",
-			id: "Melawan Arus"
+			'th-th': "ปีนน้ำตก",
+			'id-id': "Melawan Arus"
 		},
 
 		damage: 100
@@ -34,19 +34,19 @@ const card: Card = {
 		cost: ["Water", "Water", "Water", "Colorless", "Colorless"],
 
 		name: {
-			ja: "タイラントテール",
+			'ja-jp': "タイラントテール",
 			'zh-tw': "暴君尾",
-			th: "ไทแรนต์เทล",
-			id: "Tyrant Tail"
+			'th-th': "ไทแรนต์เทล",
+			'id-id': "Tyrant Tail"
 		},
 
 		damage: "180+",
 
 		effect: {
-			ja: "相手のバトルポケモンにダメカンがのっているなら、180ダメージ追加。",
+			'ja-jp': "相手のバトルポケモンにダメカンがのっているなら、180ダメージ追加。",
 			'zh-tw': "若對手的戰鬥寶可夢身上放置有傷害指示物，則增加180點傷害。",
-			th: "ถ้าโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามมีตัวนับแดเมจวางอยู่ การโจมตีนี้จะเพิ่มแดเมจอีก 180",
-			id: "Jika Pokémon Bertarung lawan memiliki Token Kerusakan, kerusakan yang diberikan bertambah sejumlah 180."
+			'th-th': "ถ้าโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามมีตัวนับแดเมจวางอยู่ การโจมตีนี้จะเพิ่มแดเมจอีก 180",
+			'id-id': "Jika Pokémon Bertarung lawan memiliki Token Kerusakan, kerusakan yang diberikan bertambah sejumlah 180."
 		}
 	}],
 

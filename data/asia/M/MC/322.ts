@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デスカーン",
+		'ja-jp': "デスカーン",
 	},
 
 	illustrator: "Bun Toujo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "近づいた 人間を 飲みこんで ミイラに してしまうという ウワサ。 金塊を 好んで 食べる。",
+		'ja-jp': "近づいた 人間を 飲みこんで ミイラに してしまうという ウワサ。 金塊を 好んで 食べる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "のびるダメカーン" },
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "自分のベンチポケモンを1匹選び、選んだポケモンにのっているダメカンをすべて、相手のポケモン1匹にのせ替える。",
+				'ja-jp': "自分のベンチポケモンを1匹選び、選んだポケモンにのっているダメカンをすべて、相手のポケモン1匹にのせ替える。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "デスマス",
+		'ja-jp': "デスマス",
 	},
 
 	retreat: 2,

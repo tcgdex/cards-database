@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カメックス",
+		'ja-jp': "カメックス",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "体が 重たく のしかかって 相手を 気絶させる。 ピンチのときは 殻に 隠れる。",
+		'ja-jp': "体が 重たく のしかかって 相手を 気絶させる。 ピンチのときは 殻に 隠れる。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "パワースコール" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札を上から6枚見て、その中にある[水]エネルギーを好きなだけ、自分のポケモンに好きなようにつける。残りのカードは山札にもどして切る。",
+				'ja-jp': "自分の番に1回使える。自分の山札を上から6枚見て、その中にある[水]エネルギーを好きなだけ、自分のポケモンに好きなようにつける。残りのカードは山札にもどして切る。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Water", "Water", "Water"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カメール",
+		'ja-jp': "カメール",
 	},
 
 	retreat: 3,

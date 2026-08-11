@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハスブレロ",
+		'ja-jp': "ハスブレロ",
 	},
 
 	illustrator: "Mousho",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "キタカミの 古い 伝承には いたずら好きの 子供が ポケモンに 生まれ変わったと 記されている。",
+		'ja-jp': "キタカミの 古い 伝承には いたずら好きの 子供が ポケモンに 生まれ変わったと 記されている。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Water", "Water"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ハスボー",
+		'ja-jp': "ハスボー",
 	},
 
 	retreat: 1,

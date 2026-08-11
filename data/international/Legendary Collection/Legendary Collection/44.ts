@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Graveler"
+		'en-us': "Graveler"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Geodude"
+		'en-us': "Geodude"
 	},
 
 	stage: "Stage1",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Harden"
+				'en-us': "Harden"
 			},
 			effect: {
-				en: "During your opponent's next turn, whenever 30 or less damage is done to Graveler (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)"
+				'en-us': "During your opponent's next turn, whenever 30 or less damage is done to Graveler (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)"
 			},
 
 		},
@@ -46,7 +46,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Throw"
+				'en-us': "Rock Throw"
 			},
 
 			damage: 40,
@@ -64,7 +64,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction."
+		'en-us': "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction."
 	},
 
 	variants: [

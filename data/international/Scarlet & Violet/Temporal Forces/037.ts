@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Centiskorch",
-		fr: "Scolocendre",
-		es: "Centiskorch",
-		it: "Centiskorch",
-		pt: "Centiskorch",
-		de: "Infernopod"
+		'en-us': "Centiskorch",
+		'fr-fr': "Scolocendre",
+		'es-es': "Centiskorch",
+		'it-it': "Centiskorch",
+		'pt-br': "Centiskorch",
+		'de-de': "Infernopod"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Sizzlipede",
-		fr: "Grillepattes",
-		es: "Sizzlipede",
-		it: "Sizzlipede",
-		pt: "Sizzlipede",
-		de: "Thermopod"
+		'en-us': "Sizzlipede",
+		'fr-fr': "Grillepattes",
+		'es-es': "Sizzlipede",
+		'it-it': "Sizzlipede",
+		'pt-br': "Sizzlipede",
+		'de-de': "Thermopod"
 	},
 	stage: "Stage1",
 
@@ -32,41 +32,41 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Singe",
-			fr: "Roussi",
-			es: "Quemadura",
-			it: "Scottata",
-			pt: "Chamuscada",
-			de: "Versengung"
+			'en-us': "Singe",
+			'fr-fr': "Roussi",
+			'es-es': "Quemadura",
+			'it-it': "Scottata",
+			'pt-br': "Chamuscada",
+			'de-de': "Versengung"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+			'en-us': "Your opponent's Active Pokémon is now Burned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 		}
 	}, {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			en: "Charring Breath",
-			fr: "Souffle Incendiaire",
-			es: "Aliento Incendiario",
-			it: "Incenerespiro",
-			pt: "Hálito Carbonizador",
-			de: "Schwelender Atem"
+			'en-us': "Charring Breath",
+			'fr-fr': "Souffle Incendiaire",
+			'es-es': "Aliento Incendiario",
+			'it-it': "Incenerespiro",
+			'pt-br': "Hálito Carbonizador",
+			'de-de': "Schwelender Atem"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon isn't Burned, this attack does nothing.",
-			fr: "Si le Pokémon Actif de votre adversaire n'est pas Brûlé, cette attaque ne fait rien.",
-			es: "Si el Pokémon Activo de tu rival no está Quemado, este ataque no hace nada.",
-			it: "Se il Pokémon attivo del tuo avversario non è bruciato, questo attacco non ha effetto.",
-			pt: "Se o Pokémon Ativo do seu oponente não estiver Queimado, este ataque não fará nada.",
-			de: "Wenn das Aktive Pokémon deines Gegners nicht verbrannt ist, hat diese Attacke keine Auswirkungen."
+			'en-us': "If your opponent's Active Pokémon isn't Burned, this attack does nothing.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire n'est pas Brûlé, cette attaque ne fait rien.",
+			'es-es': "Si el Pokémon Activo de tu rival no está Quemado, este ataque no hace nada.",
+			'it-it': "Se il Pokémon attivo del tuo avversario non è bruciato, questo attacco non ha effetto.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente não estiver Queimado, este ataque não fará nada.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners nicht verbrannt ist, hat diese Attacke keine Auswirkungen."
 		},
 
 		damage: 180
@@ -82,7 +82,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "When it heats up, its body temperature reaches about 1,500 degrees Fahrenheit. It lashes its body like a whip and launches itself at enemies.",
+		'en-us': "When it heats up, its body temperature reaches about 1,500 degrees Fahrenheit. It lashes its body like a whip and launches itself at enemies.",
 	},
 
 	variants: [

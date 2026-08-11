@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マーシャドー",
+		'ja-jp': "マーシャドー",
 	},
 
 	illustrator: "0313",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "相手の 影に 潜って 動きや 力を 真似る。 真似ているうちに 本物 よりも 強くなるぞ。",
+		'ja-jp': "相手の 影に 潜って 動きや 力を 真似る。 真似ているうちに 本物 よりも 強くなるぞ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "かげまね" },
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが持っているワザ（GXワザをのぞく）を1つ選び、このワザとして使う。",
+				'ja-jp': "相手のバトルポケモンが持っているワザ（GXワザをのぞく）を1つ選び、このワザとして使う。",
 			},
 		},
 	],

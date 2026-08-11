@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タイカイデンex",
+		'ja-jp': "タイカイデンex",
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: "40+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[L]エネルギーの数×40ダメージ追加。",
+				'ja-jp': "このポケモンについている[L]エネルギーの数×40ダメージ追加。",
 			},
 		},
 	],
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カイデン",
+		'ja-jp': "カイデン",
 	},
 
 	retreat: 0,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハリーセン",
+		'ja-jp': "ハリーセン",
 		'zh-tw': "千針魚",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "全身の 小さな 針は ウロコが 変化したもの。 刺さると 毒で 気を失う。",
+		'ja-jp': "全身の 小さな 針は ウロコが 変化したもの。 刺さると 毒で 気を失う。",
 		'zh-tw': "全身上下的小針是由鱗片變化而來的。如果被刺中的話，就會中毒並陷入昏迷。",
 	},
 
@@ -24,11 +24,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "はれつばり",
+				'ja-jp': "はれつばり",
 				'zh-tw': "破裂針",
 			},
 			effect: {
-				ja: "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けてきぜつしたとき、ワザを使ったポケモンにダメカンを6個のせる。",
+				'ja-jp': "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けてきぜつしたとき、ワザを使ったポケモンにダメカンを6個のせる。",
 				'zh-tw': "當這隻寶可夢在戰鬥場上受到對手的寶可夢招式的傷害而【氣絕】時，在使用招式的寶可夢身上放置6個傷害指示物。",
 			},
 		},
@@ -37,13 +37,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "どくづき",
+				'ja-jp': "どくづき",
 				'zh-tw': "毒擊",
 			},
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【中毒】。",
 			},
 		},

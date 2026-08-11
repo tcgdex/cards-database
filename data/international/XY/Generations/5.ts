@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Butterfree",
-		fr: "Papilusion",
+		'en-us': "Butterfree",
+		'fr-fr': "Papilusion",
 	},
 
 	illustrator: "miki kudo",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Metapod",
-		fr: "Chrysacier",
+		'en-us': "Metapod",
+		'fr-fr': "Chrysacier",
 	},
 
 	stage: "Stage2",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Quiver Dance",
-				fr: "Papillodanse",
+				'en-us': "Quiver Dance",
+				'fr-fr': "Papillodanse",
 			},
 			effect: {
-				en: "Search your deck for a basic Energy card and attach it to this Pokémon. Shuffle your deck afterward. If you attached Energy in this way, heal 40 damage from this Pokémon.",
-				fr: "Cherchez une carte Énergie de base dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck. Si vous avez attaché de l'Énergie de cette façon, soignez 40 dégâts à ce Pokémon.",
+				'en-us': "Search your deck for a basic Energy card and attach it to this Pokémon. Shuffle your deck afterward. If you attached Energy in this way, heal 40 damage from this Pokémon.",
+				'fr-fr': "Cherchez une carte Énergie de base dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck. Si vous avez attaché de l'Énergie de cette façon, soignez 40 dégâts à ce Pokémon.",
 			},
 
 		},
@@ -51,8 +51,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gust",
-				fr: "Tornade",
+				'en-us': "Gust",
+				'fr-fr': "Tornade",
 			},
 
 			damage: 70,
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It loves the honey of flowers and can locate flower patches that have even tiny amounts of pollen.",
+		'en-us': "It loves the honey of flowers and can locate flower patches that have even tiny amounts of pollen.",
 	},
 
 	thirdParty: {

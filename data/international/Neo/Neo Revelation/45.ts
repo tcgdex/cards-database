@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Goldeen",
-		fr: "Poissirène",
-		de: "Goldini"
+		'en-us': "Goldeen",
+		'fr-fr': "Poissirène",
+		'de-de': "Goldini"
 	},
 
 	illustrator: "Yuka Morii",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fin Smack",
-				fr: "Coud'nageoire",
-				de: "Fin Smack"
+				'en-us': "Fin Smack",
+				'fr-fr': "Coud'nageoire",
+				'de-de': "Fin Smack"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10x",
 
@@ -53,8 +53,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Its dorsal, pectoral and tail fins wave elegantly in the water. That is why it is known as the water dancer.",
-		fr: "Ses nageoires dorsales, pectorales et sa queue s'agitent élégamment dans l'eau. C'est pour cette raison qu'on le surnomme le danseur aquatique."
+		'en-us': "Its dorsal, pectoral and tail fins wave elegantly in the water. That is why it is known as the water dancer.",
+		'fr-fr': "Ses nageoires dorsales, pectorales et sa queue s'agitent élégamment dans l'eau. C'est pour cette raison qu'on le surnomme le danseur aquatique."
 	},
 
 

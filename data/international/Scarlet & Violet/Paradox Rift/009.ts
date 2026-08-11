@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Steenee",
-		fr: "Candine",
-		es: "Steenee",
-		it: "Steenee",
-		pt: "Steenee",
-		de: "Frubaila"
+		'en-us': "Steenee",
+		'fr-fr': "Candine",
+		'es-es': "Steenee",
+		'it-it': "Steenee",
+		'pt-br': "Steenee",
+		'de-de': "Frubaila"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Bounsweet",
-		fr: "Croquine",
-		es: "Bounsweet",
-		it: "Bounsweet",
-		pt: "Bounsweet",
-		de: "Frubberl"
+		'en-us': "Bounsweet",
+		'fr-fr': "Croquine",
+		'es-es': "Bounsweet",
+		'it-it': "Bounsweet",
+		'pt-br': "Bounsweet",
+		'de-de': "Frubberl"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Spinning Attack",
-			fr: "Attaque Tournante",
-			es: "Ataque Giratorio",
-			it: "Attacco Rotante",
-			pt: "Ataque Giratório",
-			de: "Rundumangriff"
+			'en-us': "Spinning Attack",
+			'fr-fr': "Attaque Tournante",
+			'es-es': "Ataque Giratorio",
+			'it-it': "Attacco Rotante",
+			'pt-br': "Ataque Giratório",
+			'de-de': "Rundumangriff"
 		},
 
 		damage: 30
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			en: "Double Spin",
-			fr: "Double Tour",
-			es: "Doble Giro",
-			it: "Doppioturbo",
-			pt: "Giro Duplo",
-			de: "Doppeldreher"
+			'en-us': "Double Spin",
+			'fr-fr': "Double Tour",
+			'es-es': "Doble Giro",
+			'it-it': "Doppioturbo",
+			'pt-br': "Giro Duplo",
+			'de-de': "Doppeldreher"
 		},
 
 		effect: {
-			en: "Flip 2 coins. This attack does 40 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts pour chaque côté face.",
-			es: "Lanza 2 monedas. Este ataque hace 40 puntos de daño por cada cara.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 40 pontos de dano para cada cara.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip 2 coins. This attack does 40 damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 40 dégâts pour chaque côté face.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 40 puntos de daño por cada cara.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 40 pontos de dano para cada cara.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "40×"
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Steenee spreads a sweet scent that makes others feel invigorated. This same scent is popular for antiperspirants.",
+		'en-us': "Steenee spreads a sweet scent that makes others feel invigorated. This same scent is popular for antiperspirants.",
 	},
 
 	variants: [

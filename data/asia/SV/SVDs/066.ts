@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ปิคซีex",
-		id: "Clefable ex"
+		'th-th': "ปิคซีex",
+		'id-id': "Clefable ex"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -20,25 +20,25 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			th: "โซนพื้นผิวดวงจันทร์",
-			id: "Zona Permukaan Bulan"
+			'th-th': "โซนพื้นผิวดวงจันทร์",
+			'id-id': "Zona Permukaan Bulan"
 		},
 
 		effect: {
-			th: "ตราบใดที่โปเกมอนนี้ยังอยู่ พลังงานสำหรับ[หนี]ของโปเกมอนฝ่ายเราทุกตัวที่มีพลังงาน[พลังจิต]ติดอยู่ ทั้งหมดจะหายไป",
-			id: "Selama Pokémon ini ada di Arena, semua Pokémon sendiri yang mengenakan Energi {Psychic} menjadi tidak membutuhkan Energi untuk Mundur."
+			'th-th': "ตราบใดที่โปเกมอนนี้ยังอยู่ พลังงานสำหรับ[หนี]ของโปเกมอนฝ่ายเราทุกตัวที่มีพลังงาน[พลังจิต]ติดอยู่ ทั้งหมดจะหายไป",
+			'id-id': "Selama Pokémon ini ada di Arena, semua Pokémon sendiri yang mengenakan Energi {Psychic} menjadi tidak membutuhkan Energi untuk Mundur."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			th: "มูนวันเดอร์",
-			id: "Moon Wonder"
+			'th-th': "มูนวันเดอร์",
+			'id-id': "Moon Wonder"
 		},
 
 		effect: {
-			th: "เลือกพลังงาน[พลังจิต]ที่ติดอยู่กับโปเกมอนบนกระดานฝ่ายเราตามจำนวนที่ชอบ ย้ายไปติดกับโปเกมอนฝ่ายเราตามชอบ",
-			id: "Pilih sesukanya Energi {Psychic} yang dikenakan pada Pokémon di Arena sendiri, lalu pindahkan sesukanya ke Pokémon sendiri."
+			'th-th': "เลือกพลังงาน[พลังจิต]ที่ติดอยู่กับโปเกมอนบนกระดานฝ่ายเราตามจำนวนที่ชอบ ย้ายไปติดกับโปเกมอนฝ่ายเราตามชอบ",
+			'id-id': "Pilih sesukanya Energi {Psychic} yang dikenakan pada Pokémon di Arena sendiri, lalu pindahkan sesukanya ke Pokémon sendiri."
 		},
 
 		damage: 170,

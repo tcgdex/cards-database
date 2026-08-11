@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Steelix",
+		'ja-jp': "Steelix",
 	},
 
 	rarity: "Holo Rare",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "取り組む",
+				'ja-jp': "取り組む",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Metal", "Colorless", "Colorless"],
 			name: {
-				ja: "テールクラッシュ",
+				'ja-jp': "テールクラッシュ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は30ダメージに加えて20ダメージを与えます。尾の場合、この攻撃は30のダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は30ダメージに加えて20ダメージを与えます。尾の場合、この攻撃は30のダメージを与えます。",
 			},
 		},
 	],

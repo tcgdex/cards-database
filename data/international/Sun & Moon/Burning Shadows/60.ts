@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Meowstic",
-		fr: "Mistigrix",
-		es: "Meowstic",
-		it: "Meowstic",
-		pt: "Meowstic",
-		de: "Psiaugon"
+		'en-us': "Meowstic",
+		'fr-fr': "Mistigrix",
+		'es-es': "Meowstic",
+		'it-it': "Meowstic",
+		'pt-br': "Meowstic",
+		'de-de': "Psiaugon"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Espurr",
-		fr: "Psystigri",
+		'en-us': "Espurr",
+		'fr-fr': "Psystigri",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Allure",
-				fr: "Allure",
-				es: "Atractivo",
-				it: "Affascinante",
-				pt: "Fascinar",
-				de: "Verlockung"
+				'en-us': "Allure",
+				'fr-fr': "Allure",
+				'es-es': "Atractivo",
+				'it-it': "Affascinante",
+				'pt-br': "Fascinar",
+				'de-de': "Verlockung"
 			},
 			effect: {
-				en: "Draw 3 cards.",
-				fr: "Piochez 3 cartes.",
-				es: "Roba 3 cartas.",
-				it: "Pesca tre carte.",
-				pt: "Compre 3 cartas.",
-				de: "Ziehe 3 Karten."
+				'en-us': "Draw 3 cards.",
+				'fr-fr': "Piochez 3 cartes.",
+				'es-es': "Roba 3 cartas.",
+				'it-it': "Pesca tre carte.",
+				'pt-br': "Compre 3 cartas.",
+				'de-de': "Ziehe 3 Karten."
 			},
 
 		},
@@ -62,20 +62,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hand Kinesis",
-				fr: "Télékinésie en Main",
-				es: "Manoquinesis",
-				it: "Manocinèsi",
-				pt: "Cinese de Mão",
-				de: "Handkinese"
+				'en-us': "Hand Kinesis",
+				'fr-fr': "Télékinésie en Main",
+				'es-es': "Manoquinesis",
+				'it-it': "Manocinèsi",
+				'pt-br': "Cinese de Mão",
+				'de-de': "Handkinese"
 			},
 			effect: {
-				en: "This attack does 10 damage for each card in your hand.",
-				fr: "Cette attaque inflige 10 dégâts pour chaque carte dans votre main.",
-				es: "Este ataque hace 10 puntos de daño por cada carta en tu mano.",
-				it: "Questo attacco infligge 10 danni per ogni carta nella tua mano.",
-				pt: "Este ataque causa 10 pontos de dano para cada carta na sua mão.",
-				de: "Diese Attacke fügt 10 Schadenspunkte mal der Anzahl der Karten auf deiner Hand zu."
+				'en-us': "This attack does 10 damage for each card in your hand.",
+				'fr-fr': "Cette attaque inflige 10 dégâts pour chaque carte dans votre main.",
+				'es-es': "Este ataque hace 10 puntos de daño por cada carta en tu mano.",
+				'it-it': "Questo attacco infligge 10 danni per ogni carta nella tua mano.",
+				'pt-br': "Este ataque causa 10 pontos de dano para cada carta na sua mão.",
+				'de-de': "Diese Attacke fügt 10 Schadenspunkte mal der Anzahl der Karten auf deiner Hand zu."
 			},
 			damage: "10×",
 
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When in danger, it raises its ears and releases enough psychic power to grind a 10-ton truck to dust.",
+		'en-us': "When in danger, it raises its ears and releases enough psychic power to grind a 10-ton truck to dust.",
 	},
 
 	thirdParty: {

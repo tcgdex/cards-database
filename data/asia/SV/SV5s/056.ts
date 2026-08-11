@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Mr. Mime"
+		'id-id': "Mr. Mime"
 	},
 
 	illustrator: "Nelnal",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Banyak ilmuwan yang berpendapat bahwa telapak tangan Mr. Mime tumbuh besar untuk melakukan pantomim."
+		'id-id': "Banyak ilmuwan yang berpendapat bahwa telapak tangan Mr. Mime tumbuh besar untuk melakukan pantomim."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Pertunjukan Persis"
+			'id-id': "Pertunjukan Persis"
 		},
 
 		effect: {
-			id: "Lihat Kartu Pegangan lawan. Pemain dapat memilih 1 lembar Supporter yang ada di antaranya, lalu menggunakan efek Supporter tersebut sebagai efek serangan ini."
+			'id-id': "Lihat Kartu Pegangan lawan. Pemain dapat memilih 1 lembar Supporter yang ada di antaranya, lalu menggunakan efek Supporter tersebut sebagai efek serangan ini."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Telepati Menyeramkan"
+			'id-id': "Telepati Menyeramkan"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
 		},
 
 		damage: 20,

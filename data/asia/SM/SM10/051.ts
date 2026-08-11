@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バルキー",
+		'ja-jp': "バルキー",
 	},
 
 	illustrator: "Mina Nakai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "いつでも 元気いっぱい。 強くなるため 負けても 負けても 相手に 立ち向かっていく。",
+		'ja-jp': "いつでも 元気いっぱい。 強くなるため 負けても 負けても 相手に 立ち向かっていく。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "わんぱくキック" },
 			effect: {
-				ja: "自分の番に1回使えて、使ったなら、自分の番は終わる。コインを1回投げオモテなら、相手のポケモン1匹に、ダメカンを3個のせる。",
+				'ja-jp': "自分の番に1回使えて、使ったなら、自分の番は終わる。コインを1回投げオモテなら、相手のポケモン1匹に、ダメカンを3個のせる。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カスミのメノクラゲ",
+		'ja-jp': "カスミのメノクラゲ",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "クリスタルビーム",
+				'ja-jp': "クリスタルビーム",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、対戦相手は次のターン中に防御ポケモンにエネルギーカードを取り付けることができません。",
+				'ja-jp': "コインをひっくり返します。頭の場合、対戦相手は次のターン中に防御ポケモンにエネルギーカードを取り付けることができません。",
 			},
 			damage: 20,
 		},

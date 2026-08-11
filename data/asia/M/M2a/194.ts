@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アゲハント",
+		'ja-jp': "アゲハント",
 	},
 
 	illustrator: "Mori Yuu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "色 鮮やかな 羽の 模様が 特徴。 細い 口を 伸ばして 花の 甘い ミツを 吸い取る。",
+		'ja-jp': "色 鮮やかな 羽の 模様が 特徴。 細い 口を 伸ばして 花の 甘い ミツを 吸い取る。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Grass"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "80×",
 			cost: ["Grass"],
 			effect: {
-				ja: "相手の手札を見て、その中にあるエネルギーの枚数×80ダメージ。",
+				'ja-jp': "相手の手札を見て、その中にあるエネルギーの枚数×80ダメージ。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カラサリス",
+		'ja-jp': "カラサリス",
 	},
 
 	retreat: 1,

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scatterbug",
-		fr: "Lépidonille",
-		es: "Scatterbug",
-		it: "Scatterbug",
-		pt: "Scatterbug",
-		de: "Purmel"
+		'en-us': "Scatterbug",
+		'fr-fr': "Lépidonille",
+		'es-es': "Scatterbug",
+		'it-it': "Scatterbug",
+		'pt-br': "Scatterbug",
+		'de-de': "Purmel"
 	},
 
 	illustrator: "Midori Harada",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Surprise Attack",
-			fr: "Attaque Surprise",
-			es: "Ataque Sorpresa",
-			it: "Attacco a Sorpresa",
-			pt: "Ataque Surpresa",
-			de: "Überraschungsangriff"
+			'en-us': "Surprise Attack",
+			'fr-fr': "Attaque Surprise",
+			'es-es': "Ataque Sorpresa",
+			'it-it': "Attacco a Sorpresa",
+			'pt-br': "Ataque Surpresa",
+			'de-de': "Überraschungsangriff"
 		},
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-			pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
-			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+			'pt-br': "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+			'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 		},
 
 		damage: 30,
@@ -55,7 +55,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The powder that covers its body regulates its temperature, so it can live in any region or climate."
+		'en-us': "The powder that covers its body regulates its temperature, so it can live in any region or climate."
 	},
 
 	variants: [

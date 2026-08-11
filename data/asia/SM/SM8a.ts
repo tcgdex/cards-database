@@ -1,11 +1,11 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../SM'
 
 const set: Set = {
 	id: 'SM8a',
 	name: {
-		ja: 'ダークオーダー',
-		ko: '다크오더'
+		'ja-jp': 'ダークオーダー',
+		'ko-kr': '다크오더'
 	},
 
 	serie: serie,

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ハルクジラ"
+		'ja-jp': "ハルクジラ"
 	},
 
 	illustrator: "Jerky",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "氷エネルギーの 集中する 上あごの ツノが 超低温になって 周囲を 凍らせる。"
+		'ja-jp': "氷エネルギーの 集中する 上あごの ツノが 超低温になって 周囲を 凍らせる。"
 	},
 
 	stage: "Stage1",
@@ -24,11 +24,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "がっちりボディ"
+			'ja-jp': "がっちりボディ"
 		},
 
 		effect: {
-			ja: "このポケモンが受けるワザのダメージは「-30」される。"
+			'ja-jp': "このポケモンが受けるワザのダメージは「-30」される。"
 		}
 	}],
 
@@ -36,7 +36,7 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "デンジャーマウス"
+			'ja-jp': "デンジャーマウス"
 		},
 
 		damage: 150

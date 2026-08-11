@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クルマユ",
+		'ja-jp': "クルマユ",
 	},
 
 	illustrator: "0313",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "クルマユの 住む 森は 草木が よく 育つ。 クルマユが 落ち葉を 栄養分に 変えているのだ。",
+		'ja-jp': "クルマユの 住む 森は 草木が よく 育つ。 クルマユが 落ち葉を 栄養分に 変えているのだ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "はっぱヒール" },
 			effect: {
-				ja: "自分の番に1回使える。自分のバトルポケモンのHPを「20」回復する。",
+				'ja-jp': "自分の番に1回使える。自分のバトルポケモンのHPを「20」回復する。",
 			},
 		},
 	],
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "クルミル",
+		'ja-jp': "クルミル",
 	},
 
 	retreat: 2,

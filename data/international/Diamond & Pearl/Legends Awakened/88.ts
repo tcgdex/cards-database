@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Chinchou",
-		fr: "Loupio",
-		de: "Lampi"
+		'en-us': "Chinchou",
+		'fr-fr': "Loupio",
+		'de-de': "Lampi"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Fin",
-				fr: "Aileron-rasoir",
-				de: "Rasierflosse"
+				'en-us': "Razor Fin",
+				'fr-fr': "Aileron-rasoir",
+				'de-de': "Rasierflosse"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Spark",
-				fr: "Aqua-étincelle",
-				de: "Aquafunke"
+				'en-us': "Aqua Spark",
+				'fr-fr': "Aqua-étincelle",
+				'de-de': "Aquafunke"
 			},
 			effect: {
-				en: "If Chinchou has any Water Energy attached to it, this attack does 20 damage plus 10 more damage.",
-				fr: "Si Loupio possède de l'Énergie Water, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wenn an Lampi mindestens 1 -Energie angelegt ist, fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu"
+				'en-us': "If Chinchou has any Water Energy attached to it, this attack does 20 damage plus 10 more damage.",
+				'fr-fr': "Si Loupio possède de l'Énergie Water, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Wenn an Lampi mindestens 1 -Energie angelegt ist, fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu"
 			},
 			damage: "20+",
 
@@ -69,8 +69,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It discharges positive and negative electricity from its antenna tips to shock its foes.",
-		fr: "Il envoie des décharges électriques positives et négatives du bout des antennes pour paralyser sa proie."
+		'en-us': "It discharges positive and negative electricity from its antenna tips to shock its foes.",
+		'fr-fr': "Il envoie des décharges électriques positives et négatives du bout des antennes pour paralyser sa proie."
 	},
 
 	thirdParty: {

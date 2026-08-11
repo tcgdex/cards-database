@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Champion\'s Path'
 
 const card: Card = {
 	name: {
-		en: "Wailord V",
-		fr: "Wailord V",
-		es: "Wailord V",
-		it: "Wailord V",
-		pt: "Wailord V",
-		de: "Wailord V"
+		'en-us': "Wailord V",
+		'fr-fr': "Wailord V",
+		'es-es': "Wailord V",
+		'it-it': "Wailord V",
+		'pt-br': "Wailord V",
+		'de-de': "Wailord V"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -28,20 +28,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Draw Up",
-				fr: "Puiser",
-				es: "Alzar",
-				it: "Pesca Alta",
-				pt: "Erguer",
-				de: "Schöpfen"
+				'en-us': "Draw Up",
+				'fr-fr': "Puiser",
+				'es-es': "Alzar",
+				'it-it': "Pesca Alta",
+				'pt-br': "Erguer",
+				'de-de': "Schöpfen"
 			},
 			effect: {
-				en: "Attach up to 3 Water Energy cards from your discard pile to this Pokémon.",
-				fr: "Attachez jusqu'à 3 cartes Énergie Water de votre pile de défausse à ce Pokémon.",
-				es: "Une hasta 3 cartas de Energía Water de tu pila de descartes a este Pokémon.",
-				it: "Assegna a questo Pokémon fino a tre carte Energia Water dalla tua pila degli scarti.",
-				pt: "Ligue até 3 cartas de Energia Water da sua pilha de descarte a este Pokémon.",
-				de: "Lege bis zu 3 Water-Energiekarten aus deinem Ablagestapel an dieses Pokémon an."
+				'en-us': "Attach up to 3 Water Energy cards from your discard pile to this Pokémon.",
+				'fr-fr': "Attachez jusqu'à 3 cartes Énergie Water de votre pile de défausse à ce Pokémon.",
+				'es-es': "Une hasta 3 cartas de Energía Water de tu pila de descartes a este Pokémon.",
+				'it-it': "Assegna a questo Pokémon fino a tre carte Energia Water dalla tua pila degli scarti.",
+				'pt-br': "Ligue até 3 cartas de Energia Water da sua pilha de descarte a este Pokémon.",
+				'de-de': "Lege bis zu 3 Water-Energiekarten aus deinem Ablagestapel an dieses Pokémon an."
 			},
 
 		},
@@ -53,20 +53,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Ocean Waves",
-				fr: "Vagues Océaniques",
-				es: "Olas Oceánicas",
-				it: "Onde Oceaniche",
-				pt: "Ondas Oceânicas",
-				de: "Ozeanwellen"
+				'en-us': "Ocean Waves",
+				'fr-fr': "Vagues Océaniques",
+				'es-es': "Olas Oceánicas",
+				'it-it': "Onde Oceaniche",
+				'pt-br': "Ondas Oceânicas",
+				'de-de': "Ozeanwellen"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 120 damage for each heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 120 dégâts pour chaque côté face.",
-				es: "Lanza 3 monedas. Este ataque hace 120 puntos de daño por cada cara.",
-				it: "Lancia tre volte una moneta. Questo attacco infligge 120 danni ogni volta che esce testa.",
-				pt: "Jogue 3 moedas. Este ataque causa 120 pontos de dano para cada cara.",
-				de: "Wirf 3 Münzen. Diese Attacke fügt 120 Schadenspunkte pro Kopf zu."
+				'en-us': "Flip 3 coins. This attack does 120 damage for each heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 120 dégâts pour chaque côté face.",
+				'es-es': "Lanza 3 monedas. Este ataque hace 120 puntos de daño por cada cara.",
+				'it-it': "Lancia tre volte una moneta. Questo attacco infligge 120 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 3 moedas. Este ataque causa 120 pontos de dano para cada cara.",
+				'de-de': "Wirf 3 Münzen. Diese Attacke fügt 120 Schadenspunkte pro Kopf zu."
 			},
 			damage: "120×",
 

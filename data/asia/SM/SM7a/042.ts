@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マギアナ",
+		'ja-jp': "マギアナ",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "機械仕掛けの 身体は ただの 器。 ソウルハートと 呼ばれる 人造の 魂が 本体。",
+		'ja-jp': "機械仕掛けの 身体は ただの 器。 ソウルハートと 呼ばれる 人造の 魂が 本体。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ちいさなおつかい" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある基本エネルギーを2枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札にある基本エネルギーを2枚まで、相手に見せてから、手札に加える。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Metal", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数x20ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数x20ダメージ追加。",
 			},
 		},
 	],

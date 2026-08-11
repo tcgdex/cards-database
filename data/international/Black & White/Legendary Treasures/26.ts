@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Pignite",
+		'en-us': "Pignite",
 	},
 
 	illustrator: "Kanako Eo",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tepig",
+		'en-us': "Tepig",
 	},
 
 	stage: "Stage1",
@@ -34,7 +34,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
+				'en-us': "Rollout",
 			},
 
 			damage: 20,
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
+				'en-us': "Flamethrower",
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
+				'en-us': "Discard an Energy attached to this Pokémon.",
 			},
 			damage: 70,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "When its internal fire flares up, its movements grow sharper and faster. When it trouble, it emits smoke.",
+		'en-us': "When its internal fire flares up, its movements grow sharper and faster. When it trouble, it emits smoke.",
 	},
 
 	thirdParty: {

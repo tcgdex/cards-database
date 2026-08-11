@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブラックキュレムex",
+		'ja-jp': "ブラックキュレムex",
 	},
 
 	illustrator: "kawayoo",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが[N]ポケモンなら、そのポケモンをマヒにする。",
+				'ja-jp': "相手のバトルポケモンが[N]ポケモンなら、そのポケモンをマヒにする。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 250,
 			cost: ["Water", "Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 			},
 		},
 	],

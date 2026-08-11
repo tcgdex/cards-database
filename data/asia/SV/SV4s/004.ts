@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Simisage"
+		'id-id': "Simisage"
 	},
 
 	illustrator: "Kurata So",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Simisage memiliki temperamen tinggi dan bertarung dengan mengayunkan ekor berdurinya. Daun di kepalanya sangat pahit."
+		'id-id': "Simisage memiliki temperamen tinggi dan bertarung dengan mengayunkan ekor berdurinya. Daun di kepalanya sangat pahit."
 	},
 
 	stage: "Stage1",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Monkey Trio"
+			'id-id': "Monkey Trio"
 		},
 
 		effect: {
-			id: "Jika ada Simisage, Simisear, dan Simipour di Arena sendiri, Pokémon ini menjadi tidak membutuhkan Energi {Bening} untuk menggunakan serangan."
+			'id-id': "Jika ada Simisage, Simisear, dan Simipour di Arena sendiri, Pokémon ini menjadi tidak membutuhkan Energi {Bening} untuk menggunakan serangan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Jarum Sodokan Tangan"
+			'id-id': "Jarum Sodokan Tangan"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan akibat serangan dari Pokémon yang memiliki Ability (selain Simisage)."
+			'id-id': "Pada giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan akibat serangan dari Pokémon yang memiliki Ability (selain Simisage)."
 		},
 
 		damage: 100,

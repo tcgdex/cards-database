@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルナトーン",
+		'ja-jp': "ルナトーン",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "満月の 夜になると 活発に 活動するため 月の 満ち欠けと 関係していると 言われている。",
+		'ja-jp': "満月の 夜になると 活発に 活動するため 月の 満ち欠けと 関係していると 言われている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かいふくふうじ" },
 			effect: {
-				ja: "自分の場に「ソルロック」がいるなら、おたがいのポケモン全員のHPは、回復しない。",
+				'ja-jp': "自分の場に「ソルロック」がいるなら、おたがいのポケモン全員のHPは、回復しない。",
 			},
 		},
 	],

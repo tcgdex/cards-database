@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガエンブオーex",
+		'ja-jp': "メガエンブオーex",
 	},
 
 	illustrator: "nagimiso",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 320,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンにも60ダメージ。",
+				'ja-jp': "このポケモンにも60ダメージ。",
 			},
 		},
 	],
@@ -38,7 +38,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チャオブー",
+		'ja-jp': "チャオブー",
 	},
 
 	retreat: 4,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [509],
 
 	name: {
-		en: "Purrloin"
+		'en-us': "Purrloin"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "Opponents that get drawn in by its adorable\nbehavior come away with stinging scratches from\nits claws and stinging pride from its laughter."
+		'en-us': "Opponents that get drawn in by its adorable\nbehavior come away with stinging scratches from\nits claws and stinging pride from its laughter."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Trip Over"
+			'en-us': "Trip Over"
 		},
 
 		damage: 10,
 		cost: ["Darkness"],
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage."
+			'en-us': "Flip a coin. If heads, this attack does 30 more damage."
 		}
 	}],
 

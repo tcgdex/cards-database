@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "togetic",
+		'ja-jp': "togetic",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "聖なる盾",
+				'ja-jp': "聖なる盾",
 			},
 			effect: {
-				ja: "攻撃のすべての影響を防ぎ、ダメージは、その名前が暗くなっている相手のPokã©Monによって行われます。",
+				'ja-jp': "攻撃のすべての影響を防ぎ、ダメージは、その名前が暗くなっている相手のPokã©Monによって行われます。",
 			},
 		}],
 
@@ -29,17 +29,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ダイビング",
+				'ja-jp': "ダイビング",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "虹の動き",
+				'ja-jp': "虹の動き",
 			},
 			effect: {
-				ja: "対戦相手のベンチポケモンの攻撃の1つを選択します。レインボーは、エネルギーコストを除いて、その攻撃をコピーします。 （あなたはまだその攻撃に必要な他のことをしなければなりません。）（ポケモンがどんなタイプであっても、Togeticのタイプはまだ無色です。）Togeticはその攻撃を実行します。",
+				'ja-jp': "対戦相手のベンチポケモンの攻撃の1つを選択します。レインボーは、エネルギーコストを除いて、その攻撃をコピーします。 （あなたはまだその攻撃に必要な他のことをしなければなりません。）（ポケモンがどんなタイプであっても、Togeticのタイプはまだ無色です。）Togeticはその攻撃を実行します。",
 			},
 		},
 	],

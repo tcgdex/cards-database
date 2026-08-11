@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "レパルダス",
+		'ja-jp': "レパルダス",
 	},
 
 	illustrator: "Yuu Nishida",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "神出鬼没な ポケモン。 美しい スタイルと 毛並みが 多くの トレーナーを ひきつける。",
+		'ja-jp': "神出鬼没な ポケモン。 美しい スタイルと 毛並みが 多くの トレーナーを ひきつける。",
 	},
 
 	stage: "Stage1",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Darkness"],
 			effect: {
-				ja: "相手の手札からオモテを見ないで1枚選び、トラッシュする。",
+				'ja-jp': "相手の手札からオモテを見ないで1枚選び、トラッシュする。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チョロネコ",
+		'ja-jp': "チョロネコ",
 	},
 
 	retreat: 1,

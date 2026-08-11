@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "วูลู <ของฮ็อป>",
-		id: "Wooloo <Hop>"
+		'th-th': "วูลู <ของฮ็อป>",
+		'id-id': "Wooloo <Hop>"
 	},
 
 	illustrator: "Tomomi Ozaki",
@@ -15,16 +15,16 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "ถ้าปล่อยขนไว้ยาวเกินไปจะขยับตัวไม่ได้ ผ้าที่ทอขึ้นจากขนตามตัวของ วูลูทนทานจนน่าประหลาดใจ",
-		id: "Wooloo tidak dapat bergerak jika bulunya tumbuh terlalu panjang. Kain yang dirajut menggunakan bulu Wooloo sangat kuat."
+		'th-th': "ถ้าปล่อยขนไว้ยาวเกินไปจะขยับตัวไม่ได้ ผ้าที่ทอขึ้นจากขนตามตัวของ วูลูทนทานจนน่าประหลาดใจ",
+		'id-id': "Wooloo tidak dapat bergerak jika bulunya tumbuh terlalu panjang. Kain yang dirajut menggunakan bulu Wooloo sangat kuat."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ดีด",
-			id: "Tendangan Penghempas"
+			'th-th': "ดีด",
+			'id-id': "Tendangan Penghempas"
 		},
 
 		damage: 50,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Galarian Linoone",
-		fr: "Linéon de Galar",
-		es: "Linoone de Galar",
-		it: "Linoone di Galar",
-		pt: "Linoone de Galar",
-		de: "Galar-Geradaks"
+		'en-us': "Galarian Linoone",
+		'fr-fr': "Linéon de Galar",
+		'es-es': "Linoone de Galar",
+		'it-it': "Linoone di Galar",
+		'pt-br': "Linoone de Galar",
+		'de-de': "Galar-Geradaks"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Galarian Zigzagoon",
-		fr: "Zigzaton de Galar",
-		es: "Zigzagoon de Galar",
-		it: "Zigzagoon di Galar",
-		pt: "Zigzagoon de Galar",
-		de: "Galar-Zigzachs"
+		'en-us': "Galarian Zigzagoon",
+		'fr-fr': "Zigzaton de Galar",
+		'es-es': "Zigzagoon de Galar",
+		'it-it': "Zigzagoon di Galar",
+		'pt-br': "Zigzagoon de Galar",
+		'de-de': "Galar-Zigzachs"
 	},
 
 	stage: "Stage1",
@@ -40,19 +40,19 @@ const card: Card = {
 	illustrator: "sowsow",
 
 	description: {
-		en: "This very aggressive Pokémon will recklessly challenge opponents stronger than itself."
+		'en-us': "This very aggressive Pokémon will recklessly challenge opponents stronger than itself."
 	},
 
 	attacks: [{
 		cost: ["Darkness"],
 
 		name: {
-			en: "Rear Kick",
-			fr: "Ruade",
-			de: "Rückwärtskick",
-			es: "Patada Trasera",
-			pt: "Chute Traseiro",
-			it: "Retrocalcio"
+			'en-us': "Rear Kick",
+			'fr-fr': "Ruade",
+			'de-de': "Rückwärtskick",
+			'es-es': "Patada Trasera",
+			'pt-br': "Chute Traseiro",
+			'it-it': "Retrocalcio"
 		},
 
 		damage: 30

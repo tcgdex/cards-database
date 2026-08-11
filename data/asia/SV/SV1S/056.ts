@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コマタナ",
+		'ja-jp': "コマタナ",
 		'zh-tw': "駒刀小兵",
-		th: "โคมาทานา",
-		id: "Pawniard"
+		'th-th': "โคมาทานา",
+		'id-id': "Pawniard"
 	},
 
 	illustrator: "sowsow",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "強敵にも 恐れず 挑む。 いざとなると 相手に しがみつき 体中の 刃で 貫く。",
+		'ja-jp': "強敵にも 恐れず 挑む。 いざとなると 相手に しがみつき 体中の 刃で 貫く。",
 		'zh-tw': "遇上強敵也是不畏挑戰。在緊要關頭時會緊緊抓住對手， 以身上的刀刃將其刺穿。",
-		th: "ต่อกรกับศัตรูที่แข็งแกร่งอย่างไม่เกรงกลัว พอถึงยามคับขันจะเกาะติดศัตรูแน่นแล้วใช้ใบมีดทั่วทั้งตัวแทง",
-		id: "Pawniard tidak takut menantang lawan kuat sekalipun. Ketika waktunya tiba, Pokémon ini mencengkeram lawan dan menusuknya dengan pedang di tubuhnya."
+		'th-th': "ต่อกรกับศัตรูที่แข็งแกร่งอย่างไม่เกรงกลัว พอถึงยามคับขันจะเกาะติดศัตรูแน่นแล้วใช้ใบมีดทั่วทั้งตัวแทง",
+		'id-id': "Pawniard tidak takut menantang lawan kuat sekalipun. Ketika waktunya tiba, Pokémon ini mencengkeram lawan dan menusuknya dengan pedang di tubuhnya."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ひっかく",
+			'ja-jp': "ひっかく",
 			'zh-tw': "抓",
-			th: "ข่วน",
-			id: "Menggaruk"
+			'th-th': "ข่วน",
+			'id-id': "Menggaruk"
 		},
 
 		damage: 10
@@ -42,10 +42,10 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			ja: "つきさす",
+			'ja-jp': "つきさす",
 			'zh-tw': "突刺",
-			th: "แทง",
-			id: "Melubangi"
+			'th-th': "แทง",
+			'id-id': "Melubangi"
 		},
 
 		damage: 20

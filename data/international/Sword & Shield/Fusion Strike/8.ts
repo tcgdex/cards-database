@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Simisage",
-		fr: "Feuiloutan",
-		es: "Simisage",
-		it: "Simisage",
-		pt: "Simisage",
-		de: "Vegichita"
+		'en-us': "Simisage",
+		'fr-fr': "Feuiloutan",
+		'es-es': "Simisage",
+		'it-it': "Simisage",
+		'pt-br': "Simisage",
+		'de-de': "Vegichita"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Pansage",
-		fr: "Feuillajou",
-		es: "Pansage",
-		it: "Pansage",
-		pt: "Pansage",
-		de: "Vegimak"
+		'en-us': "Pansage",
+		'fr-fr': "Feuillajou",
+		'es-es': "Pansage",
+		'it-it': "Pansage",
+		'pt-br': "Pansage",
+		'de-de': "Vegimak"
 	},
 
 	stage: "Stage1",
@@ -40,41 +40,41 @@ const card: Card = {
 	illustrator: "Akira Komayama",
 
 	description: {
-		en: "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter."
+		'en-us': "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter."
 	},
 
 	attacks: [{
 		cost: ["Grass"],
 
 		name: {
-			en: "Return",
-			fr: "Retour",
-			de: "Rückkehr",
-			es: "Retribución",
-			pt: "Retorno",
-			it: "Ritorno"
+			'en-us': "Return",
+			'fr-fr': "Retour",
+			'de-de': "Rückkehr",
+			'es-es': "Retribución",
+			'pt-br': "Retorno",
+			'it-it': "Ritorno"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "You may draw cards until you have 6 cards in your hand.",
-			fr: "Vous pouvez piocher des cartes jusqu'à en avoir 6 en main.",
-			de: "Du kannst so viele Karten ziehen, bis du 6 Karten auf der Hand hast.",
-			es: "Puedes robar cartas hasta que tengas 6 cartas en tu mano.",
-			pt: "Você pode comprar cartas até ter 6 cartas na sua mão.",
-			it: "Puoi pescare fino ad avere sei carte in mano."
+			'en-us': "You may draw cards until you have 6 cards in your hand.",
+			'fr-fr': "Vous pouvez piocher des cartes jusqu'à en avoir 6 en main.",
+			'de-de': "Du kannst so viele Karten ziehen, bis du 6 Karten auf der Hand hast.",
+			'es-es': "Puedes robar cartas hasta que tengas 6 cartas en tu mano.",
+			'pt-br': "Você pode comprar cartas até ter 6 cartas na sua mão.",
+			'it-it': "Puoi pescare fino ad avere sei carte in mano."
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Whip Smash",
-			fr: "Frappe Fouet",
-			de: "Peitschenschlag",
-			es: "Golpe Látigo",
-			pt: "Chicote Esmagador",
-			it: "Frustata Devastante"
+			'en-us': "Whip Smash",
+			'fr-fr': "Frappe Fouet",
+			'de-de': "Peitschenschlag",
+			'es-es': "Golpe Látigo",
+			'pt-br': "Chicote Esmagador",
+			'it-it': "Frustata Devastante"
 		},
 
 		damage: 70

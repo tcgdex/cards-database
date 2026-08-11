@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Golurk",
-		fr: "Golemastoc",
-		es: "Golurk",
-		it: "Golurk",
-		pt: "Golurk",
-		de: "Golgantes"
+		'en-us': "Golurk",
+		'fr-fr': "Golemastoc",
+		'es-es': "Golurk",
+		'it-it': "Golurk",
+		'pt-br': "Golurk",
+		'de-de': "Golgantes"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Golett",
-		fr: "Gringolem",
+		'en-us': "Golett",
+		'fr-fr': "Gringolem",
 	},
 
 	stage: "Stage1",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer Arm",
-				fr: "Marto-Poing",
+				'en-us': "Hammer Arm",
+				'fr-fr': "Marto-Poing",
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
+				'en-us': "Discard the top card of your opponent's deck.",
+				'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
 			},
 			damage: 60,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hurricane Punch",
-				fr: "Poing Ouragan",
+				'en-us': "Hurricane Punch",
+				'fr-fr': "Poing Ouragan",
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 50 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 4 coins. This attack does 50 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 50,
 
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It is said that Golurk were ordered to protect people and Pokémon by the ancient people who made them.",
+		'en-us': "It is said that Golurk were ordered to protect people and Pokémon by the ancient people who made them.",
 	},
 
 	thirdParty: {

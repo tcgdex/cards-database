@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャラコ",
+		'ja-jp': "ジャラコ",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "頭の ウロコで 岩や 地面を バシバシ 叩き 相手を 威嚇。 音で 仲間と 連絡も とる。",
+		'ja-jp': "頭の ウロコで 岩や 地面を バシバシ 叩き 相手を 威嚇。 音で 仲間と 連絡も とる。",
 	},
 
 	stage: "Basic",

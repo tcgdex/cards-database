@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Gravalanch",
-		en: "Graveler",
-		es: "Graveler",
-		it: "Graveler",
-		pt: "Graveler",
-		de: "Georok"
+		'fr-fr': "Gravalanch",
+		'en-us': "Graveler",
+		'es-es': "Graveler",
+		'it-it': "Graveler",
+		'pt-br': "Graveler",
+		'de-de': "Georok"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Fighting"],
 	evolveFrom: {
-		fr: "Racaillou",
-		en: "Geodude",
-		es: "Geodude",
-		it: "Geodude",
-		pt: "Geodude",
-		de: "Kleinstein"
+		'fr-fr': "Racaillou",
+		'en-us': "Geodude",
+		'es-es': "Geodude",
+		'it-it': "Geodude",
+		'pt-br': "Geodude",
+		'de-de': "Kleinstein"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			fr: "Canon à Pierres",
-			en: "Rock Cannon",
-			es: "Cañón Roca",
-			it: "Rocciocannone",
-			pt: "Canhão de Rochas",
-			de: "Felskanone"
+			'fr-fr': "Canon à Pierres",
+			'en-us': "Rock Cannon",
+			'es-es': "Cañón Roca",
+			'it-it': "Rocciocannone",
+			'pt-br': "Canhão de Rochas",
+			'de-de': "Felskanone"
 		},
 
 		effect: {
-			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 40 dégâts pour chaque côté face.",
-			en: "Flip a coin until you get tails. This attack does 40 damage for each heads.",
-			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 40 puntos de daño por cada cara.",
-			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 40 danni ogni volta che esce testa.",
-			pt: "Jogue uma moeda até sair coroa. Este ataque causa 40 pontos de dano para cada cara.",
-			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu."
+			'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 40 dégâts pour chaque côté face.",
+			'en-us': "Flip a coin until you get tails. This attack does 40 damage for each heads.",
+			'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 40 puntos de daño por cada cara.",
+			'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 40 danni ogni volta che esce testa.",
+			'pt-br': "Jogue uma moeda até sair coroa. Este ataque causa 40 pontos de dano para cada cara.",
+			'de-de': "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "40×"
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Gros Impact",
-			en: "Heavy Impact",
-			es: "Impacto Pesado",
-			it: "Impatto Pesante",
-			pt: "Impacto Pesado",
-			de: "Schwerer Einschlag"
+			'fr-fr': "Gros Impact",
+			'en-us': "Heavy Impact",
+			'es-es': "Impacto Pesado",
+			'it-it': "Impatto Pesante",
+			'pt-br': "Impacto Pesado",
+			'de-de': "Schwerer Einschlag"
 		},
 
 		damage: 60
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It travels by rolling down cliffs. If it falls into a river, it will explode with its last gasp.",
+		'en-us': "It travels by rolling down cliffs. If it falls into a river, it will explode with its last gasp.",
 	},
 
 	variants: [

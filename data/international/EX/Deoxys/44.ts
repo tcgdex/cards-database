@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Plusle",
-		fr: "Posipi",
-		de: "Plusle"
+		'en-us': "Plusle",
+		'fr-fr': "Posipi",
+		'de-de': "Plusle"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la famille",
-				de: "Call for Family"
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la famille",
+				'de-de': "Call for Family"
 			},
 			effect: {
-				en: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck jusqu'à 2 Pokémon de base et placez-les sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward."
+				'en-us': "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez dans votre deck jusqu'à 2 Pokémon de base et placez-les sur votre Banc. Ensuite, mélangez votre deck.",
+				'de-de': "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Positive Spark",
-				fr: "Étincelle positive",
-				de: "Positive Spark"
+				'en-us': "Positive Spark",
+				'fr-fr': "Étincelle positive",
+				'de-de': "Positive Spark"
 			},
 			effect: {
-				en: "Does 20 damage to each of your opponent's Pokémon that has any Poké-Powers. Don't apply Weakness and Resistance.",
-				fr: "Inflige 20 dégâts à chacun des Pokémon de votre adversaire possédant des Poké-Powers. Vous ne pouvez pas appliquer la Faiblesse et la Résistance.",
-				de: "Does 20 damage to each of your opponent's Pokémon that has any Poke-Powers. Don't apply Weakness and resistance."
+				'en-us': "Does 20 damage to each of your opponent's Pokémon that has any Poké-Powers. Don't apply Weakness and Resistance.",
+				'fr-fr': "Inflige 20 dégâts à chacun des Pokémon de votre adversaire possédant des Poké-Powers. Vous ne pouvez pas appliquer la Faiblesse et la Résistance.",
+				'de-de': "Does 20 damage to each of your opponent's Pokémon that has any Poke-Powers. Don't apply Weakness and resistance."
 			},
 
 		},

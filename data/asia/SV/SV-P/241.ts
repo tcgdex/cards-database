@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オーダイル",
+		'ja-jp': "オーダイル",
 	},
 
 	illustrator: "Acorviart",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "大きく 力強い あごで 噛みつくと そのまま 首を振って 相手を ずたずたに 引きちぎる。",
+		'ja-jp': "大きく 力強い あごで 噛みつくと そのまま 首を振って 相手を ずたずたに 引きちぎる。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 140,
 			cost: ["Water", "Water", "Water", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アリゲイツ",
+		'ja-jp': "アリゲイツ",
 	},
 
 	retreat: 3,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Kabuto",
-		fr: "Kabuto",
-		de: "Kabuto"
+		'en-us': "Kabuto",
+		'fr-fr': "Kabuto",
+		'de-de': "Kabuto"
 	},
 
 	illustrator: "Yuka Morii",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Revive Friends",
-				fr: "Réanimation",
-				de: "Revive Friends"
+				'en-us': "Revive Friends",
+				'fr-fr': "Réanimation",
+				'de-de': "Revive Friends"
 			},
 			effect: {
-				en: "Once during your turn (before you attack), you may flip a coin. If heads, search your deck for a card named Kabuto and put it on your Bench. Shuffle your deck afterward. Treat the new Kabuto as a Basic Pokémon. This power can't be used if Kabuto is Asleep, Confused, or Paralyzed (or if your Bench is full).",
-				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, cherchez dans votre deck une carte Kabuto et placez-la sur votre Banc. Mélangez ensuite votre deck. Utilisez le nouveau Kabuto comme un Pokémon de base. Ce pouvoir ne peut pas être utilisé si Kabuto est Endormi, Confus ou Paralysé (ou si votre Banc est plein).",
-				de: "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a card named Kabuto and put it on your Bench. Shuffle your deck afterward. Treat the new Kabuto as a Basic Pokémon. This power can't be used if Kabuto is Asleep, Confused, or Paralyzed (or if your Bench is full)."
+				'en-us': "Once during your turn (before you attack), you may flip a coin. If heads, search your deck for a card named Kabuto and put it on your Bench. Shuffle your deck afterward. Treat the new Kabuto as a Basic Pokémon. This power can't be used if Kabuto is Asleep, Confused, or Paralyzed (or if your Bench is full).",
+				'fr-fr': "Une fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, cherchez dans votre deck une carte Kabuto et placez-la sur votre Banc. Mélangez ensuite votre deck. Utilisez le nouveau Kabuto comme un Pokémon de base. Ce pouvoir ne peut pas être utilisé si Kabuto est Endormi, Confus ou Paralysé (ou si votre Banc est plein).",
+				'de-de': "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a card named Kabuto and put it on your Bench. Shuffle your deck afterward. Treat the new Kabuto as a Basic Pokémon. This power can't be used if Kabuto is Asleep, Confused, or Paralyzed (or if your Bench is full)."
 			},
 		},
 	],
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Work Together",
-				fr: "Synergie",
-				de: "Work Together"
+				'en-us': "Work Together",
+				'fr-fr': "Synergie",
+				'de-de': "Work Together"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage for each Omanyte, Omastar, Kabuto, and Kabutops on your Bench.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque fait 10 dégâts plus 10 dégâts supplémentaires pour chaque Amonita, Amonistar, Kabuto et Kabutops sur votre Banc.",
-				de: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage for each Omanyte, Omastar, Kabuto, and Kabutops on your Bench."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage for each Omanyte, Omastar, Kabuto, and Kabutops on your Bench.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque fait 10 dégâts plus 10 dégâts supplémentaires pour chaque Amonita, Amonistar, Kabuto et Kabutops sur votre Banc.",
+				'de-de': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage for each Omanyte, Omastar, Kabuto, and Kabutops on your Bench."
 			},
 			damage: "10+",
 
@@ -72,8 +72,8 @@ const card: Card = {
 
 
 	description: {
-		en: "On rare occasions, some have been found as fossils which they became while hiding on the ocean floor.",
-		fr: "Parfois, ces Pokémon sont devenus des fossiles en voulant se cacher au fond de l'océan."
+		'en-us': "On rare occasions, some have been found as fossils which they became while hiding on the ocean floor.",
+		'fr-fr': "Parfois, ces Pokémon sont devenus des fossiles en voulant se cacher au fond de l'océan."
 	},
 
 

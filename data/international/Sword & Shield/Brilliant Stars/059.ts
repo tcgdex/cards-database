@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Claydol",
-		fr: "Kaorine",
-		es: "Claydol",
-		it: "Claydol",
-		pt: "Claydol",
-		de: "Lepumentas"
+		'en-us': "Claydol",
+		'fr-fr': "Kaorine",
+		'es-es': "Claydol",
+		'it-it': "Claydol",
+		'pt-br': "Claydol",
+		'de-de': "Lepumentas"
 	},
 
 	illustrator: "Kazuma Koda",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Baltoy",
-		fr: "Balbuto",
-		es: "Baltoy",
-		it: "Baltoy",
-		pt: "Baltoy",
-		de: "Puppance"
+		'en-us': "Baltoy",
+		'fr-fr': "Balbuto",
+		'es-es': "Baltoy",
+		'it-it': "Baltoy",
+		'pt-br': "Baltoy",
+		'de-de': "Puppance"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Spinning Attack",
-			fr: "Attaque Tournante",
-			es: "Ataque Giratorio",
-			it: "Attacco Rotante",
-			pt: "Ataque Giratório",
-			de: "Rundumangriff"
+			'en-us': "Spinning Attack",
+			'fr-fr': "Attaque Tournante",
+			'es-es': "Ataque Giratorio",
+			'it-it': "Attacco Rotante",
+			'pt-br': "Ataque Giratório",
+			'de-de': "Rundumangriff"
 		},
 
 		damage: 40
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Coinciding Figures",
-			fr: "Caractères Correspondants",
-			es: "Figuras Coincidentes",
-			it: "Statue Identiche",
-			pt: "Figuras Espelhadas",
-			de: "Übereinstimmende Zahlen"
+			'en-us': "Coinciding Figures",
+			'fr-fr': "Caractères Correspondants",
+			'es-es': "Figuras Coincidentes",
+			'it-it': "Statue Identiche",
+			'pt-br': "Figuras Espelhadas",
+			'de-de': "Übereinstimmende Zahlen"
 		},
 
 		effect: {
-			en: "If you and your opponent have the same number of Benched Pokémon, this attack does 90 more damage.",
-			fr: "Si vous avez le même nombre de Pokémon de Banc que votre adversaire, cette attaque inflige 90 dégâts supplémentaires.",
-			es: "Si tu rival y tú tenéis la misma cantidad de Pokémon en Banca, este ataque hace 90 puntos de daño más.",
-			it: "Se tu e il tuo avversario avete lo stesso numero di Pokémon in panchina, questo attacco infligge 90 danni in più.",
-			pt: "Se você e o seu oponente tiverem o mesmo número de Pokémon no Banco, este ataque causará 90 pontos de dano a mais.",
-			de: "Wenn du genauso viele Pokémon auf der Bank hast wie dein Gegner, fügt diese Attacke 90 Schadenspunkte mehr zu."
+			'en-us': "If you and your opponent have the same number of Benched Pokémon, this attack does 90 more damage.",
+			'fr-fr': "Si vous avez le même nombre de Pokémon de Banc que votre adversaire, cette attaque inflige 90 dégâts supplémentaires.",
+			'es-es': "Si tu rival y tú tenéis la misma cantidad de Pokémon en Banca, este ataque hace 90 puntos de daño más.",
+			'it-it': "Se tu e il tuo avversario avete lo stesso numero di Pokémon in panchina, questo attacco infligge 90 danni in più.",
+			'pt-br': "Se você e o seu oponente tiverem o mesmo número de Pokémon no Banco, este ataque causará 90 pontos de dano a mais.",
+			'de-de': "Wenn du genauso viele Pokémon auf der Bank hast wie dein Gegner, fügt diese Attacke 90 Schadenspunkte mehr zu."
 		},
 
 		damage: "90+"
@@ -85,7 +85,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This mysterious Pokémon started life as an ancient clay figurine made over 20,000 years ago.",
+		'en-us': "This mysterious Pokémon started life as an ancient clay figurine made over 20,000 years ago.",
 	},
 
 	variants: [

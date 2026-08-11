@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤナップ",
+		'ja-jp': "ヤナップ",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "元気の ない ポケモンに 頭の 葉っぱを 分け与える。 疲れを 取る 効果が あるのだ。",
+		'ja-jp': "元気の ない ポケモンに 頭の 葉っぱを 分け与える。 疲れを 取る 効果が あるのだ。",
 	},
 
 	stage: "Basic",

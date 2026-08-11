@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mawile",
-		fr: "Mysdibule"
+		'en-us': "Mawile",
+		'fr-fr': "Mysdibule"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "It uses its docile-looking face to lull foes into\ncomplacency, then bites with its huge,\nrelentless jaws.",
-		fr: "Trompés par son visage innocent, ses ennemis se font happer par ses énormes mâchoires et ne peuvent plus s'échapper."
+		'en-us': "It uses its docile-looking face to lull foes into\ncomplacency, then bites with its huge,\nrelentless jaws.",
+		'fr-fr': "Trompés par son visage innocent, ses ennemis se font happer par ses énormes mâchoires et ne peuvent plus s'échapper."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Bite",
-			fr: "Morsure"
+			'en-us': "Bite",
+			'fr-fr': "Morsure"
 		},
 
 		damage: 30,

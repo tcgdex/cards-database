@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Trapinch δ",
-		fr: "Kraknoix δ",
-		de: "Knacklion"
+		'en-us': "Trapinch δ",
+		'fr-fr': "Kraknoix δ",
+		'de-de': "Knacklion"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Big Bite",
-				fr: "Grosse morsure",
-				de: "Mächtiger Biss"
+				'en-us': "Big Bite",
+				'fr-fr': "Grosse morsure",
+				'de-de': "Mächtiger Biss"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne pourra pas battre en retraite lors du prochain tour de votre adversaire.",
-				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne pourra pas battre en retraite lors du prochain tour de votre adversaire.",
+				'de-de': "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 10,
 
@@ -49,9 +49,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud Slap",
-				fr: "Coud'boue",
-				de: "Lehmschelle"
+				'en-us': "Mud Slap",
+				'fr-fr': "Coud'boue",
+				'de-de': "Lehmschelle"
 			},
 
 			damage: 20,

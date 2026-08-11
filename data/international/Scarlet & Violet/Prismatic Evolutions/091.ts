@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Noivern ex",
-		fr: "Bruyverne-ex",
-		es: "Noivern ex",
-		pt: "Noivern ex",
-		it: "Noivern-ex",
-		de: "UHaFnir-ex"
+		'en-us': "Noivern ex",
+		'fr-fr': "Bruyverne-ex",
+		'es-es': "Noivern ex",
+		'pt-br': "Noivern ex",
+		'it-it': "Noivern-ex",
+		'de-de': "UHaFnir-ex"
 	},
 
 	rarity: "Double rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 270,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Noibat",
-		fr: "Sonistrelle",
-		es: "Noibat",
-		pt: "Noibat",
-		it: "Noibat",
-		de: "eF-eM"
+		'en-us': "Noibat",
+		'fr-fr': "Sonistrelle",
+		'es-es': "Noibat",
+		'pt-br': "Noibat",
+		'it-it': "Noibat",
+		'de-de': "eF-eM"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Strafe",
-			fr: "Bombarder",
-			es: "Pasada de Ataque",
-			pt: "Bombardear",
-			it: "Mitragliare",
-			de: "Beharken"
+			'en-us': "Strafe",
+			'fr-fr': "Bombarder",
+			'es-es': "Pasada de Ataque",
+			'pt-br': "Bombardear",
+			'it-it': "Mitragliare",
+			'de-de': "Beharken"
 		},
 
 		effect: {
-			en: "You may switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Vous pouvez échanger ce Pokémon contre l'un de vos Pokémon de Banc.",
-			es: "Puedes cambiar este Pokémon por uno de tus Pokémon en Banca.",
-			pt: "Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
-			it: "Puoi scambiare questo Pokémon con uno della tua panchina.",
-			de: "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen."
+			'en-us': "You may switch this Pokémon with 1 of your Benched Pokémon.",
+			'fr-fr': "Vous pouvez échanger ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'es-es': "Puedes cambiar este Pokémon por uno de tus Pokémon en Banca.",
+			'pt-br': "Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
+			'it-it': "Puoi scambiare questo Pokémon con uno della tua panchina.",
+			'de-de': "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen."
 		},
 
 		damage: 50
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Sonic Blast",
-			fr: "Explosion Sonique",
-			es: "Explosión Sónica",
-			pt: "Estouro Sônico",
-			it: "Scoppio Sonico",
-			de: "Überschallstoß"
+			'en-us': "Sonic Blast",
+			'fr-fr': "Explosion Sonique",
+			'es-es': "Explosión Sónica",
+			'pt-br': "Estouro Sônico",
+			'it-it': "Scoppio Sonico",
+			'de-de': "Überschallstoß"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 220

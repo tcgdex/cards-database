@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デオキシスVMAX",
+		'ja-jp': "デオキシスVMAX",
 		'zh-tw': "代歐奇希斯VMAX",
 	},
 
@@ -19,11 +19,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "プロテクトDNA",
+				'ja-jp': "プロテクトDNA",
 				'zh-tw': "防護DNA",
 			},
 			effect: {
-				ja: "このポケモンがいるかぎり、自分のポケモン全員が、相手の「ポケモンVSTAR」から受けるワザのダメージは「-30」される。",
+				'ja-jp': "このポケモンがいるかぎり、自分のポケモン全員が、相手の「ポケモンVSTAR」から受けるワザのダメージは「-30」される。",
 				'zh-tw': "只要這隻寶可夢在場上，自己的所有寶可夢受到對手的「寶可夢【VSTAR】」招式的傷害「-30」點。",
 			},
 		},
@@ -32,13 +32,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ダイドレイン",
+				'ja-jp': "ダイドレイン",
 				'zh-tw': "極巨吸取",
 			},
 			damage: 160,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「30」回復する。",
+				'ja-jp': "このポケモンのHPを「30」回復する。",
 				'zh-tw': "將這隻寶可夢恢復「30」HP。",
 			},
 		},
@@ -58,7 +58,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "デオキシスV",
+		'ja-jp': "デオキシスV",
 	},
 
 	retreat: 3,

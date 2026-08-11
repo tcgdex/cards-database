@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Servine",
+		'en-us': "Servine",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Snivy",
+		'en-us': "Snivy",
 	},
 
 	stage: "Stage1",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wring Out",
+				'en-us': "Wring Out",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy attached to the Defending Pokémon.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy attached to the Defending Pokémon.",
 			},
 			damage: 30,
 
@@ -61,7 +61,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques.",
+		'en-us': "They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques.",
 	},
 
 	thirdParty: {

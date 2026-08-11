@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [67],
 
 	name: {
-		en: "Machoke"
+		'en-us': "Machoke"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Machop"
+		'en-us': "Machop"
 	},
 
 	description: {
-		en: "Its formidable body never gets tired. It helps\npeople by doing work such as the moving of\nheavy goods."
+		'en-us': "Its formidable body never gets tired. It helps\npeople by doing work such as the moving of\nheavy goods."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Chop"
+			'en-us': "Chop"
 		},
 
 		damage: 40,

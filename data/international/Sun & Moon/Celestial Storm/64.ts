@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Shuppet",
-		fr: "Polichombr",
-		es: "Shuppet",
-		it: "Shuppet",
-		pt: "Shuppet",
-		de: "Shuppet"
+		'en-us': "Shuppet",
+		'fr-fr': "Polichombr",
+		'es-es': "Shuppet",
+		'it-it': "Shuppet",
+		'pt-br': "Shuppet",
+		'de-de': "Shuppet"
 	},
 
 	illustrator: "Eri Yamaki",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Perplex",
-				fr: "Affolement",
-				es: "Desconcierto",
-				it: "Sconcerto",
-				pt: "Perplexo",
-				de: "Perplex"
+				'en-us': "Perplex",
+				'fr-fr': "Affolement",
+				'es-es': "Desconcierto",
+				'it-it': "Sconcerto",
+				'pt-br': "Perplexo",
+				'de-de': "Perplex"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent’s Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live.",
+		'en-us': "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live.",
 	},
 
 	thirdParty: {

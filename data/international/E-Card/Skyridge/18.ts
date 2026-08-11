@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Magcargo",
-		de: "Magcargo"
+		'en-us': "Magcargo",
+		'de-de': "Magcargo"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Slugma",
+		'en-us': "Slugma",
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Streaming Mantle",
-				de: "Fließende Umhüllung"
+				'en-us': "Streaming Mantle",
+				'de-de': "Fließende Umhüllung"
 			},
 			effect: {
-				en: "When you play Magcargo from your hand to evolve your Active Pokémon, you may discard the top 3 cards of your deck and and then shuffle 3 basic Energy cards from your discard pile into your deck. If you do, your opponent does the same.",
-				de: "Wenn du Magcargo aus deiner Hand spielst, um dein aktives Pokémon zu entwickeln, kannst du die obersten 3 Karten deines Decks auf deinen Ablagestapel legen und dann 3 Basis-Energiekarten aus deinem Ablagestapel in dein Deck mischen. Falls du dies tust, tut es dein Gegner ebenfalls."
+				'en-us': "When you play Magcargo from your hand to evolve your Active Pokémon, you may discard the top 3 cards of your deck and and then shuffle 3 basic Energy cards from your discard pile into your deck. If you do, your opponent does the same.",
+				'de-de': "Wenn du Magcargo aus deiner Hand spielst, um dein aktives Pokémon zu entwickeln, kannst du die obersten 3 Karten deines Decks auf deinen Ablagestapel legen und dann 3 Basis-Energiekarten aus deinem Ablagestapel in dein Deck mischen. Falls du dies tust, tut es dein Gegner ebenfalls."
 			},
 		},
 	],
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crushing Lava",
-				de: "Erdrückende Lava"
+				'en-us': "Crushing Lava",
+				'de-de': "Erdrückende Lava"
 			},
 			effect: {
-				en: "You may discard a Fire or Fighting basic Energy card attached to Magcargo. If you discard a Fire Energy card in this way, the Defending Pokémon is now Burned. If you discard a Fighting Energy card in this way, this attack does 40 damage plus 20 more damage.",
-				de: "Du kannst eine an Magcargo angelegte - oder -Basis-Energiekarte auf deinen Ablagestapel legen. Legst du auf diese Weise eine -Energiekarte auf deinen Ablagestapel, ist das verteidigende Pokémon jetzt verbrannt. Legst du auf diese Weise eine -Energiekarte auf deinen Ablagestapel, fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "You may discard a Fire or Fighting basic Energy card attached to Magcargo. If you discard a Fire Energy card in this way, the Defending Pokémon is now Burned. If you discard a Fighting Energy card in this way, this attack does 40 damage plus 20 more damage.",
+				'de-de': "Du kannst eine an Magcargo angelegte - oder -Basis-Energiekarte auf deinen Ablagestapel legen. Legst du auf diese Weise eine -Energiekarte auf deinen Ablagestapel, ist das verteidigende Pokémon jetzt verbrannt. Legst du auf diese Weise eine -Energiekarte auf deinen Ablagestapel, fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 

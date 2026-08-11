@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Mawile",
-		fr: "Mysdibule",
-		es: "Mawile",
-		it: "Mawile",
-		pt: "Mawile",
-		de: "Flunkifer"
+		'en-us': "Mawile",
+		'fr-fr': "Mysdibule",
+		'es-es': "Mawile",
+		'it-it': "Mawile",
+		'pt-br': "Mawile",
+		'de-de': "Flunkifer"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Find a Friend",
-				fr: "Trouver un Ami",
-				es: "Encontrar un Amigo",
-				it: "Trovamico",
-				pt: "Encontre um Amigo",
-				de: "Freunde finden"
+				'en-us': "Find a Friend",
+				'fr-fr': "Trouver un Ami",
+				'es-es': "Encontrar un Amigo",
+				'it-it': "Trovamico",
+				'pt-br': "Encontre um Amigo",
+				'de-de': "Freunde finden"
 			},
 			effect: {
-				en: "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
-				fr: "Cherchez dans votre deck un Pokémon, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja 1 Pokémon, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
-				it: "Cerca nel tuo mazzo un Pokémon, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure por 1 Pokémon no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+				'en-us': "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+				'fr-fr': "Cherchez dans votre deck un Pokémon, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja 1 Pokémon, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo un Pokémon, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por 1 Pokémon no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -52,20 +52,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crunch",
-				fr: "Mâchouille",
-				es: "Triturar",
-				it: "Sgranocchio",
-				pt: "Mastigada",
-				de: "Knirscher"
+				'en-us': "Crunch",
+				'fr-fr': "Mâchouille",
+				'es-es': "Triturar",
+				'it-it': "Sgranocchio",
+				'pt-br': "Mastigada",
+				'de-de': "Knirscher"
 			},
 			effect: {
-				en: "Discard an Energy from your opponent's Active Pokémon.",
-				fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
-				es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-				it: "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
-				pt: "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
-				de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard an Energy from your opponent's Active Pokémon.",
+				'fr-fr': "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+				'es-es': "Descarta 1 Energía del Pokémon Activo de tu rival.",
+				'it-it': "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
+				'pt-br': "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 40,
 
@@ -97,7 +97,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed."
+		'en-us': "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed."
 	},
 
 	dexId: [303],

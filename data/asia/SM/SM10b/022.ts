@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レアコイル",
+		'ja-jp': "レアコイル",
 	},
 
 	illustrator: "Yumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "謎の 電波を 発信 しており レアコイルが 棲んでいる 場所では 精密機器が 故障してしまう。",
+		'ja-jp': "謎の 電波を 発信 しており レアコイルが 棲んでいる 場所では 精密機器が 故障してしまう。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "40×",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数×40ダメージ。",
+				'ja-jp': "コインを3回投げ、オモテの数×40ダメージ。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コイル",
+		'ja-jp': "コイル",
 	},
 
 	retreat: 2,

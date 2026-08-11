@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カリキリ",
+		'ja-jp': "カリキリ",
 	},
 
 	illustrator: "nisimono",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "落ち着いて 日光浴 できるよう カリキリ専用の フラワーポットを 与える トレーナーも 多い。",
+		'ja-jp': "落ち着いて 日光浴 できるよう カリキリ専用の フラワーポットを 与える トレーナーも 多い。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Grass"],
 			effect: {
-				ja: "このポケモンにも10ダメージ。",
+				'ja-jp': "このポケモンにも10ダメージ。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Psyduck"
+		'en-us': "Psyduck"
 	},
 
 	illustrator: "nagimiso",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "If its chronic headache peaks, it may exhibit\nodd powers. It seems unable to recall such an\nepisode."
+		'en-us': "If its chronic headache peaks, it may exhibit\nodd powers. It seems unable to recall such an\nepisode."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Rain Splash"
+			'en-us': "Rain Splash"
 		},
 
 		damage: 20,

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホミカの演奏",
+		'ja-jp': "ホミカの演奏",
 	},
 
 	illustrator: "Nobusawa/Mochipuyo",
 	category: "Trainer",
 
 	effect: {
-		ja: "次の相手の番、相手のどくのポケモンは、にげられない。（新しくどくにしたポケモンもふくむ。）",
+		'ja-jp': "次の相手の番、相手のどくのポケモンは、にげられない。（新しくどくにしたポケモンもふくむ。）",
 	},
 
 	variants: [

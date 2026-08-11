@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガラル ギャロップV",
+		'ja-jp': "ガラル ギャロップV",
 	},
 
 	illustrator: "Saki Hayashiro",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "リブラホーン" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のポケモン1匹に、そのポケモンの残りHPが「100」になるように、ダメカンをのせる。",
+				'ja-jp': "相手のポケモン1匹に、そのポケモンの残りHPが「100」になるように、ダメカンをのせる。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Psychic", "Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。",
 			},
 		},
 	],

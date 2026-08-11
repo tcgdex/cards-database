@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2022'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		es: "Pikachu",
-		it: "Pikachu",
-		pt: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'es-es': "Pikachu",
+		'it-it': "Pikachu",
+		'pt-br': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	illustrator: "chibi",
@@ -28,21 +28,21 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				en: "Energize",
+				'en-us': "Energize",
 			},
 			effect: {
-				en: "Attach a Lightning Energy card from your discard pile to this Pokémon."
+				'en-us': "Attach a Lightning Energy card from your discard pile to this Pokémon."
 			}
 		},
 		{
 			cost: ["Lightning", "Colorless", "Colorless"],
 			name: {
-				en: "Electro Ball",
-				fr: "Boule Élek",
-				es: "Bola Voltio",
-				it: "Energisfera",
-				pt: "Bola Elétrica",
-				de: "Elektroball"
+				'en-us': "Electro Ball",
+				'fr-fr': "Boule Élek",
+				'es-es': "Bola Voltio",
+				'it-it': "Energisfera",
+				'pt-br': "Bola Elétrica",
+				'de-de': "Elektroball"
 			},
 			damage: 30,
 		},

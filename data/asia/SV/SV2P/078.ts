@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ゴチミル"
+		'ja-jp': "ゴチミル"
 	},
 
 	illustrator: "SIE NANAHARA",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "催眠術で 子どもを 眠らせ 連れ去ってしまう。 星明りが きらめく 夜には 注意しろ。"
+		'ja-jp': "催眠術で 子どもを 眠らせ 連れ去ってしまう。 星明りが きらめく 夜には 注意しろ。"
 	},
 
 	stage: "Stage1",
@@ -24,19 +24,19 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "サイコトリップ"
+			'ja-jp': "サイコトリップ"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "相手のバトルポケモンをこんらんにする。"
+			'ja-jp': "相手のバトルポケモンをこんらんにする。"
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "ちょうねんりき"
+			'ja-jp': "ちょうねんりき"
 		},
 
 		damage: 40

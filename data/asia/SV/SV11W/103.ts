@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フタチマル",
+		'ja-jp': "フタチマル",
 	},
 
 	illustrator: "Taira Akitsu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "流れるような 太刀さばきで ２枚の ホタチを あつかう 技は 厳しい 修業によって 身につける。",
+		'ja-jp': "流れるような 太刀さばきで ２枚の ホタチを あつかう 技は 厳しい 修業によって 身につける。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30x",
 			cost: ["Water"],
 			effect: {
-				ja: "このポケモンについているエネルギーの数×30ダメージ。",
+				'ja-jp': "このポケモンについているエネルギーの数×30ダメージ。",
 			},
 		},
 	],
@@ -38,7 +38,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ミジュマル",
+		'ja-jp': "ミジュマル",
 	},
 
 	retreat: 1,

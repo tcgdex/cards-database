@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Team Rocket's Blipbug",
-		fr: "Larvadar de la Team Rocket",
-		de: "Team Rockets Sensect",
-		it: "Blipbug del Team Rocket",
-		es: "Blipbug del Team Rocket",
-		pt: "Blipbug da Equipe Rocket",
+		'en-us': "Team Rocket's Blipbug",
+		'fr-fr': "Larvadar de la Team Rocket",
+		'de-de': "Team Rockets Sensect",
+		'it-it': "Blipbug del Team Rocket",
+		'es-es': "Blipbug del Team Rocket",
+		'pt-br': "Blipbug da Equipe Rocket",
 		'es-mx': "Blipbug del Equipo Rocket"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Searching Eyes",
-			fr: "Yeux Scrutateurs",
-			de: "Suchende Augen",
-			it: "Sguardo Inquisitorio",
-			es: "Ojos Escrutadores",
-			pt: "Olhar Minucioso",
+			'en-us': "Searching Eyes",
+			'fr-fr': "Yeux Scrutateurs",
+			'de-de': "Suchende Augen",
+			'it-it': "Sguardo Inquisitorio",
+			'es-es': "Ojos Escrutadores",
+			'pt-br': "Olhar Minucioso",
 			'es-mx': "Ojos Fisgones"
 		},
 
 		effect: {
-			en: "Look at 1 of your opponent's face-down Prize cards.",
-			fr: "Regardez l'une des cartes Récompense de votre adversaire (actuellement face cachée).",
-			de: "Schau dir 1 der verdeckten Preiskarten deines Gegners an.",
-			it: "Guarda una delle carte Premio coperte del tuo avversario.",
-			es: "Mira 1 de las cartas de Premio de tu rival que están boca abajo.",
-			pt: "Olhe 1 das cartas de Prêmio viradas para baixo do seu oponente.",
+			'en-us': "Look at 1 of your opponent's face-down Prize cards.",
+			'fr-fr': "Regardez l'une des cartes Récompense de votre adversaire (actuellement face cachée).",
+			'de-de': "Schau dir 1 der verdeckten Preiskarten deines Gegners an.",
+			'it-it': "Guarda una delle carte Premio coperte del tuo avversario.",
+			'es-es': "Mira 1 de las cartas de Premio de tu rival que están boca abajo.",
+			'pt-br': "Olhe 1 das cartas de Prêmio viradas para baixo do seu oponente.",
 			'es-mx': "Mira 1 de las cartas de Premio de tu rival que están boca abajo."
 		}
 	}],

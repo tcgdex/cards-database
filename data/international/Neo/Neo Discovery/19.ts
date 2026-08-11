@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Butterfree",
-		fr: "Papilusion",
-		de: "Smettbo"
+		'en-us': "Butterfree",
+		'fr-fr': "Papilusion",
+		'de-de': "Smettbo"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Metapod",
-		fr: "Chrysacier"
+		'en-us': "Metapod",
+		'fr-fr': "Chrysacier"
 	},
 
 	stage: "Stage2",
@@ -38,15 +38,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Magic Dust",
-				fr: "Poussière magique",
-				de: "Zauberstaub"
+				'en-us': "Magic Dust",
+				'fr-fr': "Poussière magique",
+				'de-de': "Zauberstaub"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now either Asleep, Confused, Paralyzed, or Poisoned (your choice).",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est Endormi, Confus, Paralysé ou Empoisonné (selon votre choix).",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist schläft das verteidigende Pokémon jetzt oder ist verwirrt, gelähmt oder vergiftet (such es dir aus)."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now either Asleep, Confused, Paralyzed, or Poisoned (your choice).",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est Endormi, Confus, Paralysé ou Empoisonné (selon votre choix).",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist schläft das verteidigende Pokémon jetzt oder ist verwirrt, gelähmt oder vergiftet (such es dir aus)."
 			},
 
 			damage: 20
@@ -58,14 +58,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Reverse",
-				fr: "Hyper Inversion",
-				de: "Hyperumkehr"
+				'en-us': "Hyper Reverse",
+				'fr-fr': "Hyper Inversion",
+				'de-de': "Hyperumkehr"
 			},
 			effect: {
-				en: "Does 10 damage times the number of Energy cards attached to the Defending Pokémon. After doing damage, remove a number of damage counters from Butterfree equal to the amount of damage done to the Defending Pokémon (after applying Weakness and Resistance).",
-				fr: "Infligez 10 dégâts multipliés par le nombre de cartes Énergie attachées au Pokémon Défenseur. Après avoir appliqué les dégâts, retirez autant de marqueurs de dégâts à Papilusion que le Pokémon Défenseur en a reçu (après application de la Faiblesse et de la Résistance).",
-				de: "Fügt 10 Schadenspunkte mal der Anzahl an Energie, die an das verteidigende Pokémon angelegt ist, zu. Entferne, nachdem der Schaden zugefügt ist, soviel Schaden von Smettbo, wie dem verteidigenden Pokémon Schadenspunkte zugefügt wurden (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "Does 10 damage times the number of Energy cards attached to the Defending Pokémon. After doing damage, remove a number of damage counters from Butterfree equal to the amount of damage done to the Defending Pokémon (after applying Weakness and Resistance).",
+				'fr-fr': "Infligez 10 dégâts multipliés par le nombre de cartes Énergie attachées au Pokémon Défenseur. Après avoir appliqué les dégâts, retirez autant de marqueurs de dégâts à Papilusion que le Pokémon Défenseur en a reçu (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Fügt 10 Schadenspunkte mal der Anzahl an Energie, die an das verteidigende Pokémon angelegt ist, zu. Entferne, nachdem der Schaden zugefügt ist, soviel Schaden von Smettbo, wie dem verteidigenden Pokémon Schadenspunkte zugefügt wurden (nachdem Schwäche und Resistenz verrechnet wurden)."
 			}
 
 		},
@@ -86,8 +86,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It collects honey every day. It rubs honey onto the hairs on its legs to carry it back to its nest.",
-		fr: "Il ramasse du miel tous les jours en le frottant contre les poils de ses pattes pour le rapporter dans son nid."
+		'en-us': "It collects honey every day. It rubs honey onto the hairs on its legs to carry it back to its nest.",
+		'fr-fr': "Il ramasse du miel tous les jours en le frottant contre les poils de ses pattes pour le rapporter dans son nid."
 	},
 
 

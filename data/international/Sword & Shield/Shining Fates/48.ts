@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Roublenard",
-		en: "Thievul",
-		es: "Thievul",
-		it: "Thievul",
-		pt: "Thievul",
-		de: "Gaunux"
+		'fr-fr': "Roublenard",
+		'en-us': "Thievul",
+		'es-es': "Thievul",
+		'it-it': "Thievul",
+		'pt-br': "Thievul",
+		'de-de': "Gaunux"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -21,47 +21,47 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		fr: "Goupilou",
-		en: "Nickit"
+		'fr-fr': "Goupilou",
+		'en-us': "Nickit"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Appel à la Rescousse",
-			en: "Call for Goons",
-			es: "Llamar a los Subordinados",
-			it: "Cerca Base",
-			pt: "Chamar os Capangas",
-			de: "Einsatztruppenruf"
+			'fr-fr': "Appel à la Rescousse",
+			'en-us': "Call for Goons",
+			'es-es': "Llamar a los Subordinados",
+			'it-it': "Cerca Base",
+			'pt-br': "Chamar os Capangas",
+			'de-de': "Einsatztruppenruf"
 		},
 
 		effect: {
-			fr: "Cherchez dans votre deck jusqu'à 3 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
-			en: "Search your deck for up to 3 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
-			es: "Busca en tu baraja hasta 3 Pokémon Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo fino a tre Pokémon Base e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por até 3 Pokémon Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach bis zu 3 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
+			'fr-fr': "Cherchez dans votre deck jusqu'à 3 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
+			'en-us': "Search your deck for up to 3 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
+			'es-es': "Busca en tu baraja hasta 3 Pokémon Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo fino a tre Pokémon Base e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por até 3 Pokémon Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach bis zu 3 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Coinçage",
-			en: "Corner",
-			es: "Arrinconar",
-			it: "Trappola",
-			pt: "Quina",
-			de: "Bedrängen"
+			'fr-fr': "Coinçage",
+			'en-us': "Corner",
+			'es-es': "Arrinconar",
+			'it-it': "Trappola",
+			'pt-br': "Quina",
+			'de-de': "Bedrängen"
 		},
 
 		effect: {
-			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
-			en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
-			es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
-			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-			pt: "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar.",
-			de: "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
+			'fr-fr': "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
+			'en-us': "During your opponent's next turn, the Defending Pokémon can't retreat.",
+			'es-es': "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
+			'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+			'pt-br': "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar.",
+			'de-de': "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
 		},
 
 		damage: 80,
@@ -80,7 +80,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it."
+		'en-us': "It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it."
 	},
 
 	variants: [

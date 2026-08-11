@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ファイヤー",
+		'ja-jp': "ファイヤー",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "昔から 火の鳥伝説として 知られる。 羽ばたくたびに 羽が 明るく 燃え上がり 美しい。",
+		'ja-jp': "昔から 火の鳥伝説として 知られる。 羽ばたくたびに 羽が 明るく 燃え上がり 美しい。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "やまやき" },
 			cost: ["Fire"],
 			effect: {
-				ja: "このポケモンについている[炎]エネルギーをすべてトラッシュし、そのエネルギーの数ぶん、相手の山札をトラッシュする。",
+				'ja-jp': "このポケモンについている[炎]エネルギーをすべてトラッシュし、そのエネルギーの数ぶん、相手の山札をトラッシュする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Fire", "Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、3個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、3個トラッシュする。",
 			},
 		},
 	],

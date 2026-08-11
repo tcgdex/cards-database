@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Heatmor",
-		fr: "Aflamanoir"
+		'en-us': "Heatmor",
+		'fr-fr': "Aflamanoir"
 	},
 
 	illustrator: "match",
@@ -18,24 +18,24 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "There's a hole in its tail that allows it to draw in\nthe air it needs to keep its fire burning. If the\nhole gets blocked, this Pokémon will fall ill.",
-		fr: "Il aspire de l'air par le bout de sa queue et produit ainsi sa fameuse langue de feu. Si on lui bouche la queue, il se sent mal."
+		'en-us': "There's a hole in its tail that allows it to draw in\nthe air it needs to keep its fire burning. If the\nhole gets blocked, this Pokémon will fall ill.",
+		'fr-fr': "Il aspire de l'air par le bout de sa queue et produit ainsi sa fameuse langue de feu. Si on lui bouche la queue, il se sent mal."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Roasting Heat",
-			fr: "Rôtissoire"
+			'en-us': "Roasting Heat",
+			'fr-fr': "Rôtissoire"
 		},
 
 		damage: 30,
 		cost: ["Fire", "Fire"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon is Burned, this attack does 60 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est Brûlé, cette attaque inflige 60 dégâts de plus."
+			'en-us': "If your opponent's Active Pokémon is Burned, this attack does 60 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est Brûlé, cette attaque inflige 60 dégâts de plus."
 		}
 	}],
 

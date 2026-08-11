@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Hypocéan",
-		en: "Seadra",
-		es: "Seadra",
-		it: "Seadra",
-		pt: "Seadra",
-		de: "Seemon"
+		'fr-fr': "Hypocéan",
+		'en-us': "Seadra",
+		'es-es': "Seadra",
+		'it-it': "Seadra",
+		'pt-br': "Seadra",
+		'de-de': "Seemon"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 80,
 	types: ["Water"],
 	evolveFrom: {
-		fr: "Hypotrempe",
-		en: "Horsea",
-		es: "Horsea",
-		it: "Horsea",
-		pt: "Horsea",
-		de: "Seeper"
+		'fr-fr': "Hypotrempe",
+		'en-us': "Horsea",
+		'es-es': "Horsea",
+		'it-it': "Horsea",
+		'pt-br': "Horsea",
+		'de-de': "Seeper"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Encre Aveuglante",
-			en: "Blinding Ink",
-			es: "Tinta Cegadora",
-			it: "Inchiostro Accecante",
-			pt: "Tinta Ofuscante",
-			de: "Blendende Tinte"
+			'fr-fr': "Encre Aveuglante",
+			'en-us': "Blinding Ink",
+			'es-es': "Tinta Cegadora",
+			'it-it': "Inchiostro Accecante",
+			'pt-br': "Tinta Ofuscante",
+			'de-de': "Blendende Tinte"
 		},
 
 		effect: {
-			fr: "Pendant le prochain tour de votre adversaire, si le Pokémon Défenseur essaie d'utiliser une attaque, votre adversaire lance 2 pièces. S'il obtient au moins un côté pile, l'attaque n'est pas lancée.",
-			en: "During your opponent's next turn, if the Defending Pokémon tries to use an attack, your opponent flips 2 coins. If either of them is tails, that attack doesn't happen.",
-			es: "Durante el próximo turno de tu rival, si el Pokémon Defensor intenta usar un ataque, tu rival lanza 2 monedas. Si sale cruz en alguna de ellas, ese ataque no se lleva a cabo.",
-			it: "Durante il prossimo turno del tuo avversario, se il Pokémon difensore prova a usare un attacco, il tuo avversario lancia due volte una moneta. Se esce almeno una volta croce, quell'attacco non ha luogo.",
-			pt: "Durante o próximo turno do seu oponente, se o Pokémon Defensor tentar usar um ataque, seu oponente jogará 2 moedas. Se qualquer uma delas sair coroa, aquele ataque não acontecerá.",
-			de: "Wenn das Verteidigende Pokémon während des nächsten Zuges deines Gegners versucht, eine Attacke einzusetzen, wirft dein Gegner 2 Münzen. Zeigt mindestens 1 Zahl, wird jene Attacke nicht ausgeführt."
+			'fr-fr': "Pendant le prochain tour de votre adversaire, si le Pokémon Défenseur essaie d'utiliser une attaque, votre adversaire lance 2 pièces. S'il obtient au moins un côté pile, l'attaque n'est pas lancée.",
+			'en-us': "During your opponent's next turn, if the Defending Pokémon tries to use an attack, your opponent flips 2 coins. If either of them is tails, that attack doesn't happen.",
+			'es-es': "Durante el próximo turno de tu rival, si el Pokémon Defensor intenta usar un ataque, tu rival lanza 2 monedas. Si sale cruz en alguna de ellas, ese ataque no se lleva a cabo.",
+			'it-it': "Durante il prossimo turno del tuo avversario, se il Pokémon difensore prova a usare un attacco, il tuo avversario lancia due volte una moneta. Se esce almeno una volta croce, quell'attacco non ha luogo.",
+			'pt-br': "Durante o próximo turno do seu oponente, se o Pokémon Defensor tentar usar um ataque, seu oponente jogará 2 moedas. Se qualquer uma delas sair coroa, aquele ataque não acontecerá.",
+			'de-de': "Wenn das Verteidigende Pokémon während des nächsten Zuges deines Gegners versucht, eine Attacke einzusetzen, wirft dein Gegner 2 Münzen. Zeigt mindestens 1 Zahl, wird jene Attacke nicht ausgeführt."
 		},
 
 		damage: 50
@@ -62,7 +62,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Seadra's mouth is slender, but its suction power is strong. In an instant, Seadra can suck in food that's larger than the opening of its mouth.",
+		'en-us': "Seadra's mouth is slender, but its suction power is strong. In an instant, Seadra can suck in food that's larger than the opening of its mouth.",
 	},
 
 	variants: [

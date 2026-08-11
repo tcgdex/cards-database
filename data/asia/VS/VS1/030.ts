@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャスミンのジョルテオン",
+		'ja-jp': "ジャスミンのジョルテオン",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "迅速",
+				'ja-jp': "迅速",
 			},
 			effect: {
-				ja: "この攻撃の損傷は、脱力感、抵抗、ポケの提唱、ポケボディ、または防御ポケモンへのその他の影響の影響を受けません。",
+				'ja-jp': "この攻撃の損傷は、脱力感、抵抗、ポケの提唱、ポケボディ、または防御ポケモンへのその他の影響の影響を受けません。",
 			},
 			damage: 20,
 		},

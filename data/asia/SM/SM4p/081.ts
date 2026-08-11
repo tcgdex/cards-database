@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハピナス",
+		'ja-jp': "ハピナス",
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "幸せが つまっていると いわれる ハピナスの タマゴを 食べれば どんな 凶暴な ポケモンも 穏やかに。",
+		'ja-jp': "幸せが つまっていると いわれる ハピナスの タマゴを 食べれば どんな 凶暴な ポケモンも 穏やかに。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "うみたてタマゴ" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のバトルポケモンのHPを「80」回復する。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のバトルポケモンのHPを「80」回復する。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも80ダメージ。",
+				'ja-jp': "このポケモンにも80ダメージ。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ラッキー",
+		'ja-jp': "ラッキー",
 	},
 
 	retreat: 4,

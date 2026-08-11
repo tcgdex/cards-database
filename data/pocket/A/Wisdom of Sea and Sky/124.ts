@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skarmory ex",
-		fr: "Airmure-ex"
+		'en-us': "Skarmory ex",
+		'fr-fr': "Airmure-ex"
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -21,16 +21,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Steel Wing",
-			fr: "Ailes d'Acier"
+			'en-us': "Steel Wing",
+			'fr-fr': "Ailes d'Acier"
 		},
 
 		damage: 70,
 		cost: ["Metal", "Metal"],
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes −20 damage from attacks.",
-			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit − 20 dégâts provenant des attaques."
+			'en-us': "During your opponent's next turn, this Pokémon takes −20 damage from attacks.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, ce Pokémon subit − 20 dégâts provenant des attaques."
 		}
 	}],
 

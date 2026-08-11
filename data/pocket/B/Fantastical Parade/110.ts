@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [52],
 
 	name: {
-		en: "Galarian Meowth"
+		'en-us': "Galarian Meowth"
 	},
 
 	illustrator: "0313",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "These daring Pokémon have coins on their\nforeheads. Darker coins are harder, and harder\ncoins garner more respect among Meowth."
+		'en-us': "These daring Pokémon have coins on their\nforeheads. Darker coins are harder, and harder\ncoins garner more respect among Meowth."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Slash"
+			'en-us': "Slash"
 		},
 
 		damage: 20,

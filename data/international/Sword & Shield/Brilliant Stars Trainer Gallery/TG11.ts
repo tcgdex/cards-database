@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars Trainer Gallery"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eevee",
-		fr: "Évoli",
-		es: "Eevee",
-		it: "Eevee",
-		pt: "Eevee",
-		de: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
+		'es-es': "Eevee",
+		'it-it': "Eevee",
+		'pt-br': "Eevee",
+		'de-de': "Evoli"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -25,32 +25,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Vee-Search",
-			fr: "Vé-Chercher",
-			es: "Vee por V",
-			it: "Cerca V",
-			pt: "Busca V",
-			de: "V-Suche"
+			'en-us': "Vee-Search",
+			'fr-fr': "Vé-Chercher",
+			'es-es': "Vee por V",
+			'it-it': "Cerca V",
+			'pt-br': "Busca V",
+			'de-de': "V-Suche"
 		},
 
 		effect: {
-			en: "Search your deck for up to 3 Pokémon V, reveal them, and put them into your hand. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu'à 3 Pokémon-V, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja hasta 3 Pokémon V, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo fino a tre Pokémon-V, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por até 3 Pokémon V no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach bis zu 3 Pokémon-V, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+			'en-us': "Search your deck for up to 3 Pokémon V, reveal them, and put them into your hand. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck jusqu'à 3 Pokémon-V, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja hasta 3 Pokémon V, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo fino a tre Pokémon-V, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por até 3 Pokémon V no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach bis zu 3 Pokémon-V, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Stampede",
-			fr: "Ruée",
-			es: "Estampida",
-			it: "Fuggi Fuggi",
-			pt: "Estouro",
-			de: "Zertrampeln"
+			'en-us': "Stampede",
+			'fr-fr': "Ruée",
+			'es-es': "Estampida",
+			'it-it': "Fuggi Fuggi",
+			'pt-br': "Estouro",
+			'de-de': "Zertrampeln"
 		},
 
 		damage: 20
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
+		'en-us': "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
 	},
 
 	variants: [

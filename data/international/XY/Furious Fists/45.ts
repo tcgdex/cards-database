@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Machoke",
-		fr: "Machopeur",
-		es: "Machoke",
-		it: "Machoke",
-		pt: "Machoke",
-		de: "Maschock"
+		'en-us': "Machoke",
+		'fr-fr': "Machopeur",
+		'es-es': "Machoke",
+		'it-it': "Machoke",
+		'pt-br': "Machoke",
+		'de-de': "Maschock"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Machop",
-		fr: "Machoc",
-		es: "Machop",
-		it: "Machop",
-		pt: "Machop",
-		de: "Machollo"
+		'en-us': "Machop",
+		'fr-fr': "Machoc",
+		'es-es': "Machop",
+		'it-it': "Machop",
+		'pt-br': "Machop",
+		'de-de': "Machollo"
 	},
 
 	stage: "Stage1",
@@ -44,12 +44,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Beatdown",
-				fr: "Dérouillée",
-				es: "Derrumbar",
-				it: "Batosta",
-				pt: "Abater",
-				de: "Niederprügler"
+				'en-us': "Beatdown",
+				'fr-fr': "Dérouillée",
+				'es-es': "Derrumbar",
+				'it-it': "Batosta",
+				'pt-br': "Abater",
+				'de-de': "Niederprügler"
 			},
 
 			damage: 40,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions.",
+		'en-us': "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions.",
 	},
 
 	thirdParty: {

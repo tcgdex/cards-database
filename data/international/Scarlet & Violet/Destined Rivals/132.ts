@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Marnie's Scraggy",
-		fr: "Baggiguane de Rosemary",
-		de: "Marys Zurrokex",
-		it: "Scraggy di Mary",
-		es: "Scraggy de Roxy",
-		pt: "Scraggy da Marine",
+		'en-us': "Marnie's Scraggy",
+		'fr-fr': "Baggiguane de Rosemary",
+		'de-de': "Marys Zurrokex",
+		'it-it': "Scraggy di Mary",
+		'es-es': "Scraggy de Roxy",
+		'pt-br': "Scraggy da Marine",
 		'es-mx': "Scraggy de Marnie"
 	},
 
@@ -28,22 +28,22 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Crunch",
-			fr: "Mâchouille",
-			de: "Knirscher",
-			it: "Sgranocchio",
-			es: "Triturar",
-			pt: "Mastigada",
+			'en-us': "Crunch",
+			'fr-fr': "Mâchouille",
+			'de-de': "Knirscher",
+			'it-it': "Sgranocchio",
+			'es-es': "Triturar",
+			'pt-br': "Mastigada",
 			'es-mx': "Triturar"
 		},
 
 		effect: {
-			en: "Discard an Energy from your opponent's Active Pokémon.",
-			fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
-			de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
-			it: "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
-			es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-			pt: "Descarte uma Energia do Pokémon Ativo do seu oponente.",
+			'en-us': "Discard an Energy from your opponent's Active Pokémon.",
+			'fr-fr': "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			'de-de': "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+			'it-it': "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			'es-es': "Descarta 1 Energía del Pokémon Activo de tu rival.",
+			'pt-br': "Descarte uma Energia do Pokémon Ativo do seu oponente.",
 			'es-mx': "Descarta 1 Energía del Pokémon Activo de tu rival."
 		},
 

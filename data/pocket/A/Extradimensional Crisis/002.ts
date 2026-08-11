@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lilligant",
-		fr: "Fragilady"
+		'en-us': "Lilligant",
+		'fr-fr': "Fragilady"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Petilil"
+		'en-us': "Petilil"
 	},
 
 	description: {
-		en: "The fragrance of the garland on its head has\na relaxing effect, but taking care of it is very\ndifficult.",
-		fr: "La fleur sur sa tête émet un parfum qui apaise instantanément, mais elle est très difficile à entretenir."
+		'en-us': "The fragrance of the garland on its head has\na relaxing effect, but taking care of it is very\ndifficult.",
+		'fr-fr': "La fleur sur sa tête émet un parfum qui apaise instantanément, mais elle est très difficile à entretenir."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Cut",
-			fr: "Coupe"
+			'en-us': "Cut",
+			'fr-fr': "Coupe"
 		},
 
 		damage: 60,

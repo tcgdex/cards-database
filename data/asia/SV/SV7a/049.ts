@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "毛頭小鷹",
 		'zh-cn': "毛頭小鷹",
-		ja: "ワシボン"
+		'ja-jp': "ワシボン"
 	},
 
 	illustrator: "Nakamura Ippan",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "用尖尖的爪子刺穿獵物 後啄食。雖然也會吃樹果， 但基本上是肉食性寶可夢。",
 		'zh-cn': "用尖尖的爪子刺穿獵物 後啄食。雖然也會吃樹果， 但基本上是肉食性寶可夢。",
-		ja: "尖ったツメを 獲物に 突き立て ついばんでいる。 木の実も 食べるが 基本的に 肉食のポケモン。"
+		'ja-jp': "尖ったツメを 獲物に 突き立て ついばんでいる。 木の実も 食べるが 基本的に 肉食のポケモン。"
 	},
 
 	stage: "Basic",
@@ -27,7 +27,7 @@ const card: Card = {
 		name: {
 			'zh-tw': "羽擊",
 			'zh-cn': "羽擊",
-			ja: "はばたく"
+			'ja-jp': "はばたく"
 		},
 
 		damage: 30,

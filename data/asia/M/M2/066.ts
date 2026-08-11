@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エイパム",
+		'ja-jp': "エイパム",
 	},
 
 	illustrator: "Saboteri",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "高い 木の上で 暮らしている。 枝から 枝へ 飛び移るとき 尻尾で 巧みに バランスをとる。",
+		'ja-jp': "高い 木の上で 暮らしている。 枝から 枝へ 飛び移るとき 尻尾で 巧みに バランスをとる。",
 	},
 
 	stage: "Basic",

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Grimer",
-		fr: "Tadmorv",
-		de: "Sleima"
+		'en-us': "Grimer",
+		'fr-fr': "Tadmorv",
+		'de-de': "Sleima"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Division",
-				fr: "Division",
-				de: "Division"
+				'en-us': "Division",
+				'fr-fr': "Division",
+				'de-de': "Division"
 			},
 			effect: {
-				en: "Search your deck for Grimer and put it onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez Tadmorv dans votre deck et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Search your deck for Grimer and put it onto your Bench. Shuffle your deck afterward."
+				'en-us': "Search your deck for Grimer and put it onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez Tadmorv dans votre deck et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+				'de-de': "Search your deck for Grimer and put it onto your Bench. Shuffle your deck afterward."
 			},
 
 		},
@@ -43,14 +43,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Poison Gas",
-				fr: "Gaz toxik",
-				de: "Poison Gas"
+				'en-us': "Poison Gas",
+				'fr-fr': "Gaz toxik",
+				'de-de': "Poison Gas"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "The Defending Pokémon is now Poisoned."
 			},
 
 		},
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It was born when sludge in a dirty stream was exposed to the moon's X-rays. It appears among filth."
+		'en-us': "It was born when sludge in a dirty stream was exposed to the moon's X-rays. It appears among filth."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "こくばバドレックスVMAX",
+		'ja-jp': "こくばバドレックスVMAX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "めいかいのとびら" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札から[超]エネルギーを1枚選び、自分のベンチの[超]ポケモンにつける。その後、自分の山札を2枚引く。",
+				'ja-jp': "自分の番に1回使える。自分の手札から[超]エネルギーを1枚選び、自分のベンチの[超]ポケモンにつける。その後、自分の山札を2枚引く。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分の場のポケモンについている[超]エネルギーの数×30ダメージ追加。",
+				'ja-jp': "自分の場のポケモンについている[超]エネルギーの数×30ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "こくばバドレックスV",
+		'ja-jp': "こくばバドレックスV",
 	},
 
 	retreat: 2,

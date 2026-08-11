@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アオキのムックル",
+		'ja-jp': "アオキのムックル",
 	},
 
 	illustrator: "Natsumi Miyanose",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "群れを 作ることで １匹での 弱さを カバーし合っているが 群れが 大きくなると もめだす。",
+		'ja-jp': "群れを 作ることで １匹での 弱さを カバーし合っているが 群れが 大きくなると もめだす。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ちいさなおつかい" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から基本エネルギーを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札から基本エネルギーを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 		{

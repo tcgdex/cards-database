@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "盔甲鳥",
 		'zh-cn': "盔甲鳥",
-		ja: "エアームド"
+		'ja-jp': "エアームド"
 	},
 
 	illustrator: "kawayoo",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "由於脫落的羽毛又薄 又銳利，據說以前曾 被當成劍來使用。",
 		'zh-cn': "由於脫落的羽毛又薄 又銳利，據說以前曾 被當成劍來使用。",
-		ja: "抜け落ちた 羽根は 薄く 鋭いので 刀として 使われていたことも あったらしい。"
+		'ja-jp': "抜け落ちた 羽根は 薄く 鋭いので 刀として 使われていたことも あったらしい。"
 	},
 
 	stage: "Basic",
@@ -27,13 +27,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "鋼翼",
 			'zh-cn': "鋼翼",
-			ja: "はがねのつばさ"
+			'ja-jp': "はがねのつばさ"
 		},
 
 		effect: {
 			'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-30」點。",
 			'zh-cn': "在下個對手的回合，這隻寶可夢受到招式的傷害「-30」點。",
-			ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。"
+			'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。"
 		},
 
 		damage: 50,

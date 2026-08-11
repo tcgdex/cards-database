@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Hariyama",
-		fr: "Hariyama",
-		de: "Hariyama"
+		'en-us': "Hariyama",
+		'fr-fr': "Hariyama",
+		'de-de': "Hariyama"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Makuhita",
-		fr: "Makuhita"
+		'en-us': "Makuhita",
+		'fr-fr': "Makuhita"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cross-Cut",
-				fr: "Coupe transversale",
-				de: "Cross-Cut"
+				'en-us': "Cross-Cut",
+				'fr-fr': "Coupe transversale",
+				'de-de': "Cross-Cut"
 			},
 			effect: {
-				en: "If the Defending Pokémon is an Evolved Pokémon, this attack does 20 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon Évolué, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "If the Defending Pokémon is an Evolved Pokémon, this attack does 20 damage plus 20 more damage."
+				'en-us': "If the Defending Pokémon is an Evolved Pokémon, this attack does 20 damage plus 20 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon Évolué, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon is an Evolved Pokémon, this attack does 20 damage plus 20 more damage."
 			},
 			damage: "20+",
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shove",
-				fr: "Bousculer",
-				de: "Shove"
+				'en-us': "Shove",
+				'fr-fr': "Bousculer",
+				'de-de': "Shove"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 40,
 

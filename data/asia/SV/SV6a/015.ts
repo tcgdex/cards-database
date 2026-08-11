@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブロロロームex",
+		'ja-jp': "ブロロロームex",
 		'zh-tw': "普隆隆姆ex",
 	},
 
@@ -18,25 +18,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "アクセルフラッシュ",
+				'ja-jp': "アクセルフラッシュ",
 				'zh-tw': "暴衝閃光",
 			},
 			damage: "20+",
 			cost: ["Metal"],
 			effect: {
-				ja: "この番、このポケモンがベンチからバトル場に出ていたなら、120ダメージ追加。",
+				'ja-jp': "この番、このポケモンがベンチからバトル場に出ていたなら、120ダメージ追加。",
 				'zh-tw': "在這個回合，若從備戰區將這隻寶可夢放置於戰鬥場，則增加120點傷害。",
 			},
 		},
 		{
 			name: {
-				ja: "スピードブレイク",
+				'ja-jp': "スピードブレイク",
 				'zh-tw': "高速破壞",
 			},
 			damage: 250,
 			cost: ["Metal", "Metal", "Metal"],
 			effect: {
-				ja: "このポケモンと、ついているすべてのカードを、トラッシュする。",
+				'ja-jp': "このポケモンと、ついているすべてのカードを、トラッシュする。",
 				'zh-tw': "將這隻寶可夢與附加的卡全部丟棄。",
 			},
 		},
@@ -56,7 +56,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ブロロン",
+		'ja-jp': "ブロロン",
 	},
 
 	retreat: 1,

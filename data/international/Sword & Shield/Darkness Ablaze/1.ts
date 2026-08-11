@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	name: {
-		en: "Butterfree V",
-		fr: "Papilusion V",
-		es: "Butterfree V",
-		it: "Butterfree V",
-		pt: "Butterfree V",
-		de: "Smettbo V"
+		'en-us': "Butterfree V",
+		'fr-fr': "Papilusion V",
+		'es-es': "Butterfree V",
+		'it-it': "Butterfree V",
+		'pt-br': "Butterfree V",
+		'de-de': "Smettbo V"
 	},
 
 	illustrator: "Saki Hayashiro",
@@ -28,20 +28,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Dizzying Poison",
-				fr: "Poison Étourdissant",
-				es: "Veneno Mareante",
-				it: "Stordiveleno",
-				pt: "Veneno Vertiginoso",
-				de: "Schwindelerregendes Gift"
+				'en-us': "Dizzying Poison",
+				'fr-fr': "Poison Étourdissant",
+				'es-es': "Veneno Mareante",
+				'it-it': "Stordiveleno",
+				'pt-br': "Veneno Vertiginoso",
+				'de-de': "Schwindelerregendes Gift"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused and Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido y Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso e avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso e Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt und vergiftet."
+				'en-us': "Your opponent's Active Pokémon is now Confused and Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido y Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso e avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso e Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt und vergiftet."
 			},
 
 		},
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blasting Wind",
-				fr: "Vent Impitoyable",
-				es: "Vientos Explosivos",
-				it: "Vento Distruttivo",
-				pt: "Vendaval Avassalador",
-				de: "Peitschender Wind"
+				'en-us': "Blasting Wind",
+				'fr-fr': "Vent Impitoyable",
+				'es-es': "Vientos Explosivos",
+				'it-it': "Vento Distruttivo",
+				'pt-br': "Vendaval Avassalador",
+				'de-de': "Peitschender Wind"
 			},
 
 			damage: 130,

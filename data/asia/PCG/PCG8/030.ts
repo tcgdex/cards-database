@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "電気",
+		'ja-jp': "電気",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "スニッフアウト",
+				'ja-jp': "スニッフアウト",
 			},
 			effect: {
-				ja: "廃棄の山から1枚のカードを手に入れます。",
+				'ja-jp': "廃棄の山から1枚のカードを手に入れます。",
 			},
 		},
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "素早い打撃",
+				'ja-jp': "素早い打撃",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて10ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて10ダメージを与えます。",
 			},
 		},
 	],

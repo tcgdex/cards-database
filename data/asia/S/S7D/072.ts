@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダストダスV",
+		'ja-jp': "ダストダスV",
 	},
 
 	illustrator: "aky CG Works",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "相手のバトルポケモンをどくにする。次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 		{

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニンフィアV",
+		'ja-jp': "ニンフィアV",
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ドリームギフト" },
 			effect: {
-				ja: "自分の番に1回使えて、使ったなら、自分の番は終わる。自分の山札からグッズを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の番に1回使えて、使ったなら、自分の番は終わる。自分の山札からグッズを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 	],

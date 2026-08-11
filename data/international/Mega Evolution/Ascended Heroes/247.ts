@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dreepy",
-		fr: "Fantyrm",
-		es: "Dreepy",
+		'en-us': "Dreepy",
+		'fr-fr': "Fantyrm",
+		'es-es': "Dreepy",
 		'es-mx': "Dreepy",
-		de: "Grolldra",
-		it: "Dreepy",
-		pt: "Dreepy"
+		'de-de': "Grolldra",
+		'it-it': "Dreepy",
+		'pt-br': "Dreepy"
 	},
 
 	illustrator: "Jerky",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Petty Grudge",
-			fr: "Rancune Mesquine",
-			es: "Rencor Ruin",
+			'en-us': "Petty Grudge",
+			'fr-fr': "Rancune Mesquine",
+			'es-es': "Rencor Ruin",
 			'es-mx': "Rencor Ruin",
-			de: "Mini-Groll",
-			it: "Rancormeschino",
-			pt: "Rancinho"
+			'de-de': "Mini-Groll",
+			'it-it': "Rancormeschino",
+			'pt-br': "Rancinho"
 		},
 
 		damage: 10
@@ -40,13 +40,13 @@ const card: Card = {
 		cost: ["Fire", "Psychic"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			es: "Mordisco",
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'es-es': "Mordisco",
 			'es-mx': "Mordida",
-			de: "Biss",
-			it: "Morso",
-			pt: "Mordida"
+			'de-de': "Biss",
+			'it-it': "Morso",
+			'pt-br': "Mordida"
 		},
 
 		damage: 40
@@ -56,7 +56,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It has a habit of biting at Clauncher even though it doesn’t feed on them. This is said to be vestigial behavior from when Dreepy was alive.",
+		'en-us': "It has a habit of biting at Clauncher even though it doesn’t feed on them. This is said to be vestigial behavior from when Dreepy was alive.",
 	},
 
 	variants: [

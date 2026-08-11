@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アマカジ",
+		'ja-jp': "アマカジ",
 		'zh-tw': "甜竹竹",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "襲われた ときに 流す 汗は 甘くて 美味しい。 その 香りが さらに 敵を 増やしてしまうのだ。",
+		'ja-jp': "襲われた ときに 流す 汗は 甘くて 美味しい。 その 香りが さらに 敵を 増やしてしまうのだ。",
 		'zh-tw': "受到襲擊時流下的汗水非常甜美可口。那種香氣會吸引更多敵人的注意。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "はねる",
+				'ja-jp': "はねる",
 				'zh-tw': "羽擊",
 			},
 			damage: 30,

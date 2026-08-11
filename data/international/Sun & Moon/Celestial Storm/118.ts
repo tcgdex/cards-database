@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Loudred",
-		fr: "Ramboum",
-		es: "Loudred",
-		it: "Loudred",
-		pt: "Loudred",
-		de: "Krakeelo"
+		'en-us': "Loudred",
+		'fr-fr': "Ramboum",
+		'es-es': "Loudred",
+		'it-it': "Loudred",
+		'pt-br': "Loudred",
+		'de-de': "Krakeelo"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Whismur",
-		fr: "Chuchmur",
+		'en-us': "Whismur",
+		'fr-fr': "Chuchmur",
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cracking Voice",
-				fr: "Super Voix",
-				es: "Voz Quebrada",
-				it: "Spaccavoce",
-				pt: "Voz Demolidora",
-				de: "Schriller Schrei"
+				'en-us': "Cracking Voice",
+				'fr-fr': "Super Voix",
+				'es-es': "Voz Quebrada",
+				'it-it': "Spaccavoce",
+				'pt-br': "Voz Demolidora",
+				'de-de': "Schriller Schrei"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent’s Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: 60,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "The shock waves from its cries can tip over trucks. It stamps its feet to power up.",
+		'en-us': "The shock waves from its cries can tip over trucks. It stamps its feet to power up.",
 	},
 
 	thirdParty: {

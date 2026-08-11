@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グソクムシャ",
+		'ja-jp': "グソクムシャ",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "鋭く 巨大な ツメで 一閃。 空気や 海水さえ 一刀両断の 腕前。",
+		'ja-jp': "鋭く 巨大な ツメで 一閃。 空気や 海水さえ 一刀両断の 腕前。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "そうこう" },
 			effect: {
-				ja: "このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "このポケモンが受けるワザのダメージは「-30」される。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが「ポケモンGX・EX」なら、70ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが「ポケモンGX・EX」なら、70ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コソクムシ",
+		'ja-jp': "コソクムシ",
 	},
 
 	retreat: 2,

@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤドン",
+		'ja-jp': "ヤドン",
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -19,16 +19,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "午後の昼寝",
+				'ja-jp': "午後の昼寝",
 			},
 			effect: {
-				ja: "デッキをサイキックエネルギーカードに検索し、slowpokeに添付してください。その後、デッキをシャッフルします。",
+				'ja-jp': "デッキをサイキックエネルギーカードに検索し、slowpokeに添付してください。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "ヘッドバット",
+				'ja-jp': "ヘッドバット",
 			},
 			damage: 10,
 		},

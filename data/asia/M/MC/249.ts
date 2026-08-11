@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シママ",
+		'ja-jp': "シママ",
 	},
 
 	illustrator: "kamonabe",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "落雷の 多い 土地を 好む。 たてがみで 雷を 受け止め 体に 電気を 溜めこむのだ。",
+		'ja-jp': "落雷の 多い 土地を 好む。 たてがみで 雷を 受け止め 体に 電気を 溜めこむのだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "くわえる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を1枚引く。",
+				'ja-jp': "自分の山札を1枚引く。",
 			},
 		},
 		{

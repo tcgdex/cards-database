@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Mantine",
-		de: "Mantax"
+		'en-us': "Mantine",
+		'de-de': "Mantax"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Fin Smack",
-				de: "Flossenknaller"
+				'en-us': "Fin Smack",
+				'de-de': "Flossenknaller"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
 			damage: "10×",
 
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Sonic",
-				de: "Wassersonar"
+				'en-us': "Aqua Sonic",
+				'de-de': "Wassersonar"
 			},
 			effect: {
-				en: "Don't apply Resistance.",
-				de: "Wende keine Resistenz an."
+				'en-us': "Don't apply Resistance.",
+				'de-de': "Wende keine Resistenz an."
 			},
 			damage: 30,
 

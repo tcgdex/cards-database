@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Samurott",
-		fr: "Clamiral",
-		es: "Samurott",
-		it: "Samurott",
-		pt: "Samurott",
-		de: "Admurai"
+		'en-us': "Samurott",
+		'fr-fr': "Clamiral",
+		'es-es': "Samurott",
+		'it-it': "Samurott",
+		'pt-br': "Samurott",
+		'de-de': "Admurai"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dewott",
-		fr: "Mateloutre",
+		'en-us': "Dewott",
+		'fr-fr': "Mateloutre",
 	},
 
 	stage: "Stage2",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Shell Armor",
-				fr: "Coque Armure",
-				es: "Caparazón",
-				it: "Guscioscudo",
-				pt: "Armadura de Concha",
-				de: "Panzerhaut"
+				'en-us': "Shell Armor",
+				'fr-fr': "Coque Armure",
+				'es-es': "Caparazón",
+				'it-it': "Guscioscudo",
+				'pt-br': "Armadura de Concha",
+				'de-de': "Panzerhaut"
 			},
 			effect: {
-				en: "Any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
-				es: "Cualquier daño hecho a este Pokémon por ataques se reduce en 20 (después de aplicar Debilidad y Resistencia).",
-				it: "I danni inflitti a questo Pokémon dagli attacchi sono ridotti di 20, dopo aver applicato debolezza e resistenza.",
-				pt: "Qualquer dano causado por ataques neste Pokémon é reduzido em 20 (após aplicar Fraqueza e Resistência).",
-				de: "Schaden, der diesem Pokémon durch Angriffe zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "Any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'es-es': "Cualquier daño hecho a este Pokémon por ataques se reduce en 20 (después de aplicar Debilidad y Resistencia).",
+				'it-it': "I danni inflitti a questo Pokémon dagli attacchi sono ridotti di 20, dopo aver applicato debolezza e resistenza.",
+				'pt-br': "Qualquer dano causado por ataques neste Pokémon é reduzido em 20 (após aplicar Fraqueza e Resistência).",
+				'de-de': "Schaden, der diesem Pokémon durch Angriffe zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Pump",
-				fr: "Hydrocanon",
+				'en-us': "Hydro Pump",
+				'fr-fr': "Hydrocanon",
 			},
 			effect: {
-				en: "Does 10 more damage for each Water Energy attached to this Pokémon.",
-				fr: "Inflige 10 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+				'en-us': "Does 10 more damage for each Water Energy attached to this Pokémon.",
+				'fr-fr': "Inflige 10 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
 			},
 			damage: 70,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Part of the armor on its anterior legs becomes a giant sword. Its cry alone is enough to intimidate most enemies.",
+		'en-us': "Part of the armor on its anterior legs becomes a giant sword. Its cry alone is enough to intimidate most enemies.",
 	},
 
 	thirdParty: {

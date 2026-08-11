@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Ampharos",
-		fr: "Pharamp",
-		de: "Ampharos"
+		'en-us': "Ampharos",
+		'fr-fr': "Pharamp",
+		'de-de': "Ampharos"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Flaaffy",
-		fr: "Lainergie"
+		'en-us': "Flaaffy",
+		'fr-fr': "Lainergie"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Energy Connect",
-				fr: "Connexion d'énergie",
-				de: "Energy Connect"
+				'en-us': "Energy Connect",
+				'fr-fr': "Connexion d'énergie",
+				'de-de': "Energy Connect"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may move a basic Energy card attached to 1 of your Benched Pokémon to your Active Pokémon. This power can't be used if Ampharos is affected by a Special Condition.",
-				fr: "Aussi souvent que vous le voulez lors de votre tour (avant votre attaque), vous pouvez déplacer une carte Énergie de base attachée à 1 des Pokémon de votre Banc et la placer sur votre Pokémon Actif. Ce pouvoir ne peut pas être utilisé si Pharamp est affecté par un État Spécial.",
-				de: "As often as you like during your turn (before your attack), you may move a basic Energy card attached to 1 of your Benched Pokémon to your Active Pokémon. This power can't be used if Ampharos is affected by a Special Condition."
+				'en-us': "As often as you like during your turn (before your attack), you may move a basic Energy card attached to 1 of your Benched Pokémon to your Active Pokémon. This power can't be used if Ampharos is affected by a Special Condition.",
+				'fr-fr': "Aussi souvent que vous le voulez lors de votre tour (avant votre attaque), vous pouvez déplacer une carte Énergie de base attachée à 1 des Pokémon de votre Banc et la placer sur votre Pokémon Actif. Ce pouvoir ne peut pas être utilisé si Pharamp est affecté par un État Spécial.",
+				'de-de': "As often as you like during your turn (before your attack), you may move a basic Energy card attached to 1 of your Benched Pokémon to your Active Pokémon. This power can't be used if Ampharos is affected by a Special Condition."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Miraculous Thunder",
-				fr: "Éclair miraculeux",
-				de: "Miraculous Thunder"
+				'en-us': "Miraculous Thunder",
+				'fr-fr': "Éclair miraculeux",
+				'de-de': "Miraculous Thunder"
 			},
 			effect: {
-				en: "You may discard all Lightning Energy attached to Ampharos. If you do, the Defending Pokémon is now Burned and Confused.",
-				fr: "Vous pouvez défausser toutes les Énergies  attachées à Pharamp. Le Pokémon Défenseur est alors Brûlé et Confus.",
-				de: "You may discard all  Energy cards attached to Ampharos. If you do, the Defending Pokémon is now Burned and Confused."
+				'en-us': "You may discard all Lightning Energy attached to Ampharos. If you do, the Defending Pokémon is now Burned and Confused.",
+				'fr-fr': "Vous pouvez défausser toutes les Énergies  attachées à Pharamp. Le Pokémon Défenseur est alors Brûlé et Confus.",
+				'de-de': "You may discard all  Energy cards attached to Ampharos. If you do, the Defending Pokémon is now Burned and Confused."
 			},
 			damage: 50,
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Metapod",
-		fr: "Chrysacier",
-		de: "Safcon"
+		'en-us': "Metapod",
+		'fr-fr': "Chrysacier",
+		'de-de': "Safcon"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Caterpie",
-		fr: "Chenipan"
+		'en-us': "Caterpie",
+		'fr-fr': "Chenipan"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Green Shield",
-				fr: "Bouclier vert",
-				de: "Grüner Schild"
+				'en-us': "Green Shield",
+				'fr-fr': "Bouclier vert",
+				'de-de': "Grüner Schild"
 			},
 			effect: {
-				en: "Each of your Grass Pokémon has no Weakness.",
-				fr: "Vos Pokémon Grass ne subissent plus la Faiblesse.",
-				de: "Jedes deiner -Pokémon hat keine Schwäche mehr."
+				'en-us': "Each of your Grass Pokémon has no Weakness.",
+				'fr-fr': "Vos Pokémon Grass ne subissent plus la Faiblesse.",
+				'de-de': "Jedes deiner -Pokémon hat keine Schwäche mehr."
 			}
 		},
 	],
@@ -51,9 +51,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharpen",
-				fr: "Affûtage",
-				de: "Schärfer"
+				'en-us': "Sharpen",
+				'fr-fr': "Affûtage",
+				'de-de': "Schärfer"
 			},
 
 			damage: 20,
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It prepares for evolution by hardening its shell as much as possible to protect its soft body."
+		'en-us': "It prepares for evolution by hardening its shell as much as possible to protect its soft body."
 	},
 
 	variants: [

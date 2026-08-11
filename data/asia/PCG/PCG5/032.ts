@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴアビー",
+		'ja-jp': "ゴアビー",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "反応ブースター",
+				'ja-jp': "反応ブースター",
 			},
 			effect: {
-				ja: "すべてのHuntailとGorebyssに取り付けられた各React Energyカードは、あらゆるタイプの2つのエネルギーを提供しますが、エネルギーを提供する以外に効果はありません。",
+				'ja-jp': "すべてのHuntailとGorebyssに取り付けられた各React Energyカードは、あらゆるタイプの2つのエネルギーを提供しますが、エネルギーを提供する以外に効果はありません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "ハイドロポンプ",
+				'ja-jp': "ハイドロポンプ",
 			},
 			effect: {
-				ja: "30のダメージに加えて、Gorebyssに取り付けられた水エネルギーごとに20のダメージがさらに20件ありますが、この攻撃のエネルギーコストの支払いには使用されません。この方法で40以上のダメージを追加することはできません。",
+				'ja-jp': "30のダメージに加えて、Gorebyssに取り付けられた水エネルギーごとに20のダメージがさらに20件ありますが、この攻撃のエネルギーコストの支払いには使用されません。この方法で40以上のダメージを追加することはできません。",
 			},
 		},
 	],

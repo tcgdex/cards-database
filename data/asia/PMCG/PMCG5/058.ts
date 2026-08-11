@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリカのプリン",
+		'ja-jp': "エリカのプリン",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "グループ療法",
+				'ja-jp': "グループ療法",
 			},
 			effect: {
-				ja: "あなたとあなたの対戦相手は、それぞれのポケモンのそれぞれから1つのダメージカウンターを削除します。",
+				'ja-jp': "あなたとあなたの対戦相手は、それぞれのポケモンのそれぞれから1つのダメージカウンターを削除します。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "引っ張られたパンチ",
+				'ja-jp': "引っ張られたパンチ",
 			},
 			effect: {
-				ja: "防御するポケモンにダメージカウンターがない場合、この攻撃は40のダメージを与えます。ダメージがある場合、この攻撃は10ダメージを与えます。",
+				'ja-jp': "防御するポケモンにダメージカウンターがない場合、この攻撃は40のダメージを与えます。ダメージがある場合、この攻撃は10ダメージを与えます。",
 			},
 		},
 	],

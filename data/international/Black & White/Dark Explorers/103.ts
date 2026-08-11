@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Entei-EX",
-		fr: "Entei-EX",
-		es: "Entei-EX",
-		it: "Entei-EX",
-		pt: "Entei-EX",
-		de: "Entei-EX"
+		'en-us': "Entei-EX",
+		'fr-fr': "Entei-EX",
+		'es-es': "Entei-EX",
+		'it-it': "Entei-EX",
+		'pt-br': "Entei-EX",
+		'de-de': "Entei-EX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Fang",
-				fr: "Crocs Feu"
+				'en-us': "Fire Fang",
+				'fr-fr': "Crocs Feu"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé."
+				'en-us': "The Defending Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé."
 			},
 			damage: 30,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Grand Flame",
-				fr: "Flamme Colossale"
+				'en-us': "Grand Flame",
+				'fr-fr': "Flamme Colossale"
 			},
 			effect: {
-				en: "Attach a Fire Energy card from your discard pile to 1 of your Benched Pokémon.",
-				fr: "Attachez une carte Énergie  de votre pile de défausse à 1 de vos Pokémon de Banc."
+				'en-us': "Attach a Fire Energy card from your discard pile to 1 of your Benched Pokémon.",
+				'fr-fr': "Attachez une carte Énergie  de votre pile de défausse à 1 de vos Pokémon de Banc."
 			},
 			damage: 90,
 

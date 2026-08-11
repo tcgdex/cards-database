@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Ursaluna Bulan Merah ex"
+		'id-id': "Ursaluna Bulan Merah ex"
 	},
 
 	illustrator: "aky CG Works",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Jurus Terlatih"
+			'id-id': "Jurus Terlatih"
 		},
 
 		effect: {
-			id: "Energi {Bening} yang dibutuhkan oleh Pokémon ini untuk menggunakan Bulan Darah berkurang untuk tiap lembar Kartu Point yang telah diambil lawan."
+			'id-id': "Energi {Bening} yang dibutuhkan oleh Pokémon ini untuk menggunakan Bulan Darah berkurang untuk tiap lembar Kartu Point yang telah diambil lawan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Bulan Darah"
+			'id-id': "Bulan Darah"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 240,

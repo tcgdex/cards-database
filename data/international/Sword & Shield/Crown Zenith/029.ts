@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Seel",
-		fr: "Otaria",
-		es: "Seel",
-		it: "Seel",
-		pt: "Seel",
-		de: "Jurob"
+		'en-us': "Seel",
+		'fr-fr': "Otaria",
+		'es-es': "Seel",
+		'it-it': "Seel",
+		'pt-br': "Seel",
+		'de-de': "Jurob"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			es: "Golpe Cabeza",
-			it: "Bottintesta",
-			pt: "Cabeçada",
-			de: "Kopfnuss"
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'es-es': "Golpe Cabeza",
+			'it-it': "Bottintesta",
+			'pt-br': "Cabeçada",
+			'de-de': "Kopfnuss"
 		},
 
 		damage: 10
@@ -38,12 +38,12 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Rain Splash",
-			fr: "Pluie Éclaboussante",
-			es: "Golpe de Lluvia",
-			it: "Spruzzapioggia",
-			pt: "Chuva Borrifante",
-			de: "Regenplatscher"
+			'en-us': "Rain Splash",
+			'fr-fr': "Pluie Éclaboussante",
+			'es-es': "Golpe de Lluvia",
+			'it-it': "Spruzzapioggia",
+			'pt-br': "Chuva Borrifante",
+			'de-de': "Regenplatscher"
 		},
 
 		damage: 20
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Thanks to its thick fat, cold seas don't bother it at all, but it gets tired pretty easily in warm waters.",
+		'en-us': "Thanks to its thick fat, cold seas don't bother it at all, but it gets tired pretty easily in warm waters.",
 	},
 
 	

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Tentacool",
-		fr: "Tentacool",
-		de: "Tentacha"
+		'en-us': "Tentacool",
+		'fr-fr': "Tentacool",
+		'de-de': "Tentacha"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Gentle Wrap",
-				fr: "Enveloppe douce",
-				de: "Sanfte Umarmung"
+				'en-us': "Gentle Wrap",
+				'fr-fr': "Enveloppe douce",
+				'de-de': "Sanfte Umarmung"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
-				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'de-de': "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 10,
 
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It drifts aimlessly in waves. Very difficult to see in water, it may not be noticed until it stings."
+		'en-us': "It drifts aimlessly in waves. Very difficult to see in water, it may not be noticed until it stings."
 	},
 
 	variants: [

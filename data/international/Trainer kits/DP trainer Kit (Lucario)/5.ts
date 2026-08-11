@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../DP trainer Kit (Lucario)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Machop",
-		fr: "Machoc"
+		'en-us': "Machop",
+		'fr-fr': "Machoc"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,8 +27,8 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage"
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage"
 			},
 			damage: 20
 		}
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It hefts a GRAVELER repeatedly to strengthen its entire body. It uses every type of martial arts."
+		'en-us': "It hefts a GRAVELER repeatedly to strengthen its entire body. It uses every type of martial arts."
 	},
 
 	retreat: 2,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Vaporeon ex",
-		fr: "Aquali ex",
-		de: "Aquana ex"
+		'en-us': "Vaporeon ex",
+		'fr-fr': "Aquali ex",
+		'de-de': "Aquana ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Evoli"
 	},
 
 	suffix: "ex",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Evolutionary Swirl",
-				fr: "Tourbillon évolutif",
-				de: "Evolutionary Swirl"
+				'en-us': "Evolutionary Swirl",
+				'fr-fr': "Tourbillon évolutif",
+				'de-de': "Evolutionary Swirl"
 			},
 			effect: {
-				en: "Once during your turn, when you play Vaporeon ex from your hand to evolve 1 of your Pokémon, you may have your opponent shuffle his or her hand into his or her deck. Then, your opponent draws up to 4 cards.",
-				fr: "Une seule fois lors de votre tour, lorsque vous jouez Aquali ex de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez demander à votre adversaire de mélanger sa main avec son deck. Ensuite, votre adversaire pioche 4 cartes.",
-				de: "Once during your turn, when you play Vaporeon ex from your hand to evolve 1 of your Pokémon, you may have your opponent shuffle his or her hand into his or her deck. Then, your opponent draws up to 4 cards."
+				'en-us': "Once during your turn, when you play Vaporeon ex from your hand to evolve 1 of your Pokémon, you may have your opponent shuffle his or her hand into his or her deck. Then, your opponent draws up to 4 cards.",
+				'fr-fr': "Une seule fois lors de votre tour, lorsque vous jouez Aquali ex de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez demander à votre adversaire de mélanger sa main avec son deck. Ensuite, votre adversaire pioche 4 cartes.",
+				'de-de': "Once during your turn, when you play Vaporeon ex from your hand to evolve 1 of your Pokémon, you may have your opponent shuffle his or her hand into his or her deck. Then, your opponent draws up to 4 cards."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Fastwave",
-				fr: "Lame de fond",
-				de: "Fastwave"
+				'en-us': "Fastwave",
+				'fr-fr': "Lame de fond",
+				'de-de': "Fastwave"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
-				de: "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+				'en-us': "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
+				'de-de': "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
 			},
 			damage: 40,
 
@@ -72,9 +72,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Hydrosplash",
-				fr: "Hydro-éclaboussure",
-				de: "Hydrosplash"
+				'en-us': "Hydrosplash",
+				'fr-fr': "Hydro-éclaboussure",
+				'de-de': "Hydrosplash"
 			},
 
 			damage: 60,

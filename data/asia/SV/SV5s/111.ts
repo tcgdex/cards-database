@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Dudunsparce"
+		'id-id': "Dudunsparce"
 	},
 
 	illustrator: "Teeziro",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Dudunsparce membuat sarangnya dengan melubangi batuan dasar jauh di bawah tanah menggunakan ekor kerasnya. Panjang sarangnya mencapai 10 km."
+		'id-id': "Dudunsparce membuat sarangnya dengan melubangi batuan dasar jauh di bawah tanah menggunakan ekor kerasnya. Panjang sarangnya mencapai 10 km."
 	},
 
 	stage: "Stage1",
@@ -23,17 +23,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Ambil Kabur"
+			'id-id': "Ambil Kabur"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri. Ambil 3 kartu dari atas Deck sendiri. Setelah itu, kocok kembali Pokémon ini dan semua kartu yang dikenakannya ke Deck."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri. Ambil 3 kartu dari atas Deck sendiri. Setelah itu, kocok kembali Pokémon ini dan semua kartu yang dikenakannya ke Deck."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Land Crush"
+			'id-id': "Land Crush"
 		},
 
 		damage: 90,

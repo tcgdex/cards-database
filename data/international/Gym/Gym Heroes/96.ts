@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Venonat"
+		'en-us': "Sabrina's Venonat"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Antennae"
+				'en-us': "Poison Antennae"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned."
+				'en-us': "The Defending Pokémon is now Poisoned."
 			},
 			damage: 10,
 
@@ -41,10 +41,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Removal Beam"
+				'en-us': "Removal Beam"
 			},
 			effect: {
-				en: "If the Defending Pokémon has any Energy cards attached to it, flip a coin. If heads, choose 1 of those Energy cards and discard it."
+				'en-us': "If the Defending Pokémon has any Energy cards attached to it, flip a coin. If heads, choose 1 of those Energy cards and discard it."
 			},
 			damage: 20,
 

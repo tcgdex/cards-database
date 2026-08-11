@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Mienfoo",
-		fr: "Kungfouine",
-		es: "Mienfoo",
-		it: "Mienfoo",
-		pt: "Mienfoo",
-		de: "Lin-Fu"
+		'en-us': "Mienfoo",
+		'fr-fr': "Kungfouine",
+		'es-es': "Mienfoo",
+		'it-it': "Mienfoo",
+		'pt-br': "Mienfoo",
+		'de-de': "Lin-Fu"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Steady Punch",
-				fr: "Poing Énergétique",
+				'en-us': "Steady Punch",
+				'fr-fr': "Poing Énergétique",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "In fights, they dominate with onslaughts of flowing, continuous attacks. With their sharp claws, they cut enemies.",
+		'en-us': "In fights, they dominate with onslaughts of flowing, continuous attacks. With their sharp claws, they cut enemies.",
 	},
 
 	thirdParty: {

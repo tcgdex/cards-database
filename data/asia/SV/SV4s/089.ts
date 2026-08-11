@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Trubbish"
+		'id-id': "Trubbish"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Trubbish menyukai tempat kotor. Jika kamar tidak dibersihkan dan dibiarkan dalam keadaan kotor oleh sampah, dia pun akan muncul dan menetap di kamar tersebut."
+		'id-id': "Trubbish menyukai tempat kotor. Jika kamar tidak dibersihkan dan dibiarkan dalam keadaan kotor oleh sampah, dia pun akan muncul dan menetap di kamar tersebut."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Gas yang Menyelimuti"
+			'id-id': "Gas yang Menyelimuti"
 		},
 
 		damage: 10,
 		cost: ["Darkness"]
 	}, {
 		name: {
-			id: "Venom Hit"
+			'id-id': "Venom Hit"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Racun."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Racun."
 		},
 
 		damage: 30,

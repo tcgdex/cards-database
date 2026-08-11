@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Piplup",
-		fr: "Tiplouf",
-		de: "Plinfa"
+		'en-us': "Piplup",
+		'fr-fr': "Tiplouf",
+		'de-de': "Plinfa"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,9 +29,9 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				de: "Schnabel"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'de-de': "Schnabel"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Splash",
-				fr: "Éclaboussure",
-				de: "Wasserplatscher"
+				'en-us': "Water Splash",
+				'fr-fr': "Éclaboussure",
+				'de-de': "Wasserplatscher"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -67,8 +67,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
-		fr: "Il est fier et déteste accepter la nourriture qu'on lui offre. Son pelage épais le protège du froid."
+		'en-us': "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
+		'fr-fr': "Il est fier et déteste accepter la nourriture qu'on lui offre. Son pelage épais le protège du froid."
 	},
 
 	thirdParty: {

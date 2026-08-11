@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒスイ ゾロアークV",
+		'ja-jp': "ヒスイ ゾロアークV",
 	},
 
 	illustrator: "aky CG Works",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 30,
 			cost: [],
 			effect: {
-				ja: "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。",
 			},
 		},
 	],

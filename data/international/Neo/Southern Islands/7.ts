@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Southern Islands'
 
 const card: Card = {
 	name: {
-		en: "Ledyba",
+		'en-us': "Ledyba",
 	},
 
 	illustrator: "Keiko Fukuyama",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
+				'en-us': "Gnaw",
 			},
 
 			damage: 10,
@@ -41,10 +41,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Agility",
+				'en-us': "Agility",
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Ledyba.",
+				'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Ledyba.",
 			},
 			damage: 20,
 
@@ -68,7 +68,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When it senses enemies approaching, this Pokémon releases an orange fluid from the joints in its legs and flees.",
+		'en-us': "When it senses enemies approaching, this Pokémon releases an orange fluid from the joints in its legs and flees.",
 	},
 
 	variants: [

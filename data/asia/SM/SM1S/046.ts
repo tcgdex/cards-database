@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨーテリー",
+		'ja-jp': "ヨーテリー",
 	},
 
 	illustrator: "MAHOU",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "キャンキャン 吠えたり しないので マンション暮らしの トレーナーに 人気の 高い ポケモン。",
+		'ja-jp': "キャンキャン 吠えたり しないので マンション暮らしの トレーナーに 人気の 高い ポケモン。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ふるいたてる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+20」される。",
+				'ja-jp': "次の自分の番、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+20」される。",
 			},
 		},
 		{

@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sun & Moon'
 
 const sm9: Set = {
 	id: "sm9",
 
 	name: {
-		en: "Team Up",
-		fr: "Duo de Choc",
-		es: "Union de Aliados",
-		it: "Gioco di Squadra",
-		de: "Teams Sind Trumpf",
-		pt: "União de Aliados"
+		'en-us': "Team Up",
+		'fr-fr': "Duo de Choc",
+		'es-es': "Union de Aliados",
+		'it-it': "Gioco di Squadra",
+		'de-de': "Teams Sind Trumpf",
+		'pt-br': "União de Aliados"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const sm9: Set = {
 
 	abbreviations: {
 		official: "TEU",
-		fr: "DDC"
+		'fr-fr': "DDC"
 	},
 
 	thirdParty: {

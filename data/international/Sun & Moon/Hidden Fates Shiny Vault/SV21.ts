@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Riolu",
-		fr: "Riolu",
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
 	},
 	illustrator: "Misa Tsutsui",
 	rarity: "Shiny rare",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Detect",
-				fr: "Détection",
+				'en-us': "Detect",
+				'fr-fr': "Détection",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c’est face, évitez tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
+				'en-us': "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c’est face, évitez tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
 			},
 
 		},
@@ -42,8 +42,8 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Jab",
-				fr: "Taquet",
+				'en-us': "Jab",
+				'fr-fr': "Taquet",
 			},
 
 			damage: 10,
@@ -63,7 +63,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It's tough enough to run right through the night, and it's also a hard worker, but it's still just a youngster.",
+		'en-us': "It's tough enough to run right through the night, and it's also a hard worker, but it's still just a youngster.",
 	},
 }
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Riolu",
-		fr: "Riolu",
-		es: "Riolu",
-		it: "Riolu",
-		pt: "Riolu",
-		de: "Riolu"
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
+		'es-es': "Riolu",
+		'it-it': "Riolu",
+		'pt-br': "Riolu",
+		'de-de': "Riolu"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Punch",
-				fr: "Koud'Poing",
+				'en-us': "Punch",
+				'fr-fr': "Koud'Poing",
 			},
 
 			damage: 10,
@@ -47,8 +47,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Kick",
-				fr: "Koud'Pied",
+				'en-us': "Kick",
+				'fr-fr': "Koud'Pied",
 			},
 
 			damage: 20,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves.",
+		'en-us': "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves.",
 	},
 
 	thirdParty: {

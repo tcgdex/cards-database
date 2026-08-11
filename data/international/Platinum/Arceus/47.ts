@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Rapidash",
-		de: "Gallopa"
+		'en-us': "Rapidash",
+		'de-de': "Gallopa"
 	},
 
 	illustrator: "Midori Harada",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ponyta"
+		'en-us': "Ponyta"
 	},
 
 	stage: "Stage1",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Searing Flame",
-				de: "Sengende Flammen"
+				'en-us': "Searing Flame",
+				'de-de': "Sengende Flammen"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
+				'en-us': "The Defending Pokémon is now Burned.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 10,
 
@@ -48,8 +48,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare",
-				de: "Flackern"
+				'en-us': "Flare",
+				'de-de': "Flackern"
 			},
 
 			damage: 40,
@@ -65,7 +65,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "When at an all-out gallop, its blazing mane sparkles, enhancing its beautiful appearance."
+		'en-us': "When at an all-out gallop, its blazing mane sparkles, enhancing its beautiful appearance."
 	},
 
 	variants: [

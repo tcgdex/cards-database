@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เชมิน",
-		id: "Shaymin"
+		'th-th': "เชมิน",
+		'id-id': "Shaymin"
 	},
 
 	illustrator: "tono",
@@ -15,8 +15,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		th: "ว่ากันว่าจะบินเพื่อส่งความรู้สึกขอบคุณต่อฤดูที่ดอกกราซิเดียเบ่งบาน",
-		id: "Kabarnya Shaymin terbang pergi pada musim bunga Gracidea bermekaran untuk menyampaikan rasa syukur."
+		'th-th': "ว่ากันว่าจะบินเพื่อส่งความรู้สึกขอบคุณต่อฤดูที่ดอกกราซิเดียเบ่งบาน",
+		'id-id': "Kabarnya Shaymin terbang pergi pada musim bunga Gracidea bermekaran untuk menyampaikan rasa syukur."
 	},
 
 	stage: "Basic",
@@ -25,20 +25,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			th: "ม่านดอกไม้",
-			id: "Tirai Bunga"
+			'th-th': "ม่านดอกไม้",
+			'id-id': "Tirai Bunga"
 		},
 
 		effect: {
-			th: "ตราบใดที่โปเกมอนนี้ยังอยู่ โปเกมอนบนเบนช์ฝ่ายเราทุกตัว (ยกเว้น [โปเกมอน ที่มีกฎ]) จะไม่ได้รับแดเมจของท่าต่อสู้จากฝ่ายตรงข้าม",
-			id: "Selama Pokémon ini ada di Arena, semua Pokémon Cadangan sendiri (selain Pokémon yang memiliki Peraturan) tidak menerima kerusakan akibat serangan lawan."
+			'th-th': "ตราบใดที่โปเกมอนนี้ยังอยู่ โปเกมอนบนเบนช์ฝ่ายเราทุกตัว (ยกเว้น [โปเกมอน ที่มีกฎ]) จะไม่ได้รับแดเมจของท่าต่อสู้จากฝ่ายตรงข้าม",
+			'id-id': "Selama Pokémon ini ada di Arena, semua Pokémon Cadangan sendiri (selain Pokémon yang memiliki Peraturan) tidak menerima kerusakan akibat serangan lawan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			th: "ดีด",
-			id: "Tendangan Penghempas"
+			'th-th': "ดีด",
+			'id-id': "Tendangan Penghempas"
 		},
 
 		damage: 30,

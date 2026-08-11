@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	dexId: [25],
 
 	name: {
-		fr: "Pikachu",
-		en: "Pikachu",
-		es: "Pikachu",
-		it: "Pikachu",
-		pt: "Pikachu",
-		de: "Pikachu"
+		'fr-fr': "Pikachu",
+		'en-us': "Pikachu",
+		'es-es': "Pikachu",
+		'it-it': "Pikachu",
+		'pt-br': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				fr: "Énergisant",
-				en: "Energize",
+				'fr-fr': "Énergisant",
+				'en-us': "Energize",
 			},
 			effect: {
-				fr: "Attachez une carte Énergie Lightning de votre pile de défausse à ce Pokémon.",
-				en: "Attach a Lightning Energy card from your discard pile to this Pokémon."
+				'fr-fr': "Attachez une carte Énergie Lightning de votre pile de défausse à ce Pokémon.",
+				'en-us': "Attach a Lightning Energy card from your discard pile to this Pokémon."
 			},
 
 		},
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				fr: "Tonnerre",
-				en: "Thunderbolt",
+				'fr-fr': "Tonnerre",
+				'en-us': "Thunderbolt",
 			},
 			effect: {
-				en: "Discard all Energy attached to this Pokémon.",
-				fr: "Défaussez toutes les Énergies attachées à ce Pokémon.",
+				'en-us': "Discard all Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez toutes les Énergies attachées à ce Pokémon.",
 			},
 			damage: 80,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This is an extremely rare Pikachu card. You're very lucky to have found it!",
+		'en-us': "This is an extremely rare Pikachu card. You're very lucky to have found it!",
 	},
 
 	thirdParty: {

@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Abra",
-		fr: "Abra",
-		de: "Abra",
-		it: "Abra",
-		es: "Abra",
-		pt: "Abra",
+		'en-us': "Abra",
+		'fr-fr': "Abra",
+		'de-de': "Abra",
+		'it-it': "Abra",
+		'es-es': "Abra",
+		'pt-br': "Abra",
 		'es-mx': "Abra"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Teleportation Attack",
-			fr: "Attaque de Téléportation",
-			de: "Teleportationsattacke",
-			it: "Attacco Teletrasporto",
-			es: "Ataque Teleportador",
-			pt: "Golpe de Teletransporte",
+			'en-us': "Teleportation Attack",
+			'fr-fr': "Attaque de Téléportation",
+			'de-de': "Teleportationsattacke",
+			'it-it': "Attacco Teletrasporto",
+			'es-es': "Ataque Teleportador",
+			'pt-br': "Golpe de Teletransporte",
 			'es-mx': "Ataque Teletransportador"
 		},
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus.",
-			it: "Scambia questo Pokémon con uno nella tua panchina.",
-			es: "Cambia este Pokémon por uno de tus Pokémon en Banca.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+			'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+			'fr-fr': "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus.",
+			'it-it': "Scambia questo Pokémon con uno nella tua panchina.",
+			'es-es': "Cambia este Pokémon por uno de tus Pokémon en Banca.",
+			'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
 			'es-mx': "Cambia este Pokémon por 1 de tus Pokémon en Banca."
 		},
 

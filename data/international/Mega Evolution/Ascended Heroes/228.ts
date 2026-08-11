@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Weavile",
-		fr: "Dimoret",
-		es: "Weavile",
+		'en-us': "Weavile",
+		'fr-fr': "Dimoret",
+		'es-es': "Weavile",
 		'es-mx': "Weavile",
-		de: "Snibunna",
-		it: "Weavile",
-		pt: "Weavile"
+		'de-de': "Snibunna",
+		'it-it': "Weavile",
+		'pt-br': "Weavile"
 	},
 
 	evolveFrom: {
-		en: "Sneasel",
-		fr: "Farfuret",
-		es: "Sneasel",
+		'en-us': "Sneasel",
+		'fr-fr': "Farfuret",
+		'es-es': "Sneasel",
 		'es-mx': "Sneasel",
-		de: "Sniebel",
-		it: "Sneasel",
-		pt: "Sneasel",
+		'de-de': "Sniebel",
+		'it-it': "Sneasel",
+		'pt-br': "Sneasel",
 	},
 
 	illustrator: "Uninori",
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Slash",
-			fr: "Tranche",
-			es: "Cuchillada",
+			'en-us': "Slash",
+			'fr-fr': "Tranche",
+			'es-es': "Cuchillada",
 			'es-mx': "Cuchillada",
-			de: "Schlitzer",
-			it: "Lacerazione",
-			pt: "Talho"
+			'de-de': "Schlitzer",
+			'it-it': "Lacerazione",
+			'pt-br': "Talho"
 		},
 
 		damage: 40
@@ -50,23 +50,23 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			en: "Hail Claw",
-			fr: "Griffe Grêle",
-			es: "Garra Granizo",
+			'en-us': "Hail Claw",
+			'fr-fr': "Griffe Grêle",
+			'es-es': "Garra Granizo",
 			'es-mx': "Garra Granizo",
-			de: "Hagelklaue",
-			it: "Artiglio di Grandine",
-			pt: "Garra de Granizo"
+			'de-de': "Hagelklaue",
+			'it-it': "Artiglio di Grandine",
+			'pt-br': "Garra de Granizo"
 		},
 
 		effect: {
-			en: "Discard all Energy from this Pokémon. Your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Défaussez toutes les Énergies de ce Pokémon. Le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			es: "Descarta todas las Energías de este Pokémon. El Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'en-us': "Discard all Energy from this Pokémon. Your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Défaussez toutes les Énergies de ce Pokémon. Le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'es-es': "Descarta todas las Energías de este Pokémon. El Pokémon Activo de tu rival pasa a estar Paralizado.",
 			'es-mx': "Descarta todas las Energías de este Pokémon. El Pokémon Activo de tu rival ahora está Paralizado.",
-			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel. Das Aktive Pokémon deines Gegners ist jetzt paralysiert.",
-			it: "Scarta tutte le Energie da questo Pokémon. Il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Descarte todas as Energias deste Pokémon. O Pokémon Ativo do seu oponente agora está Paralisado."
+			'de-de': "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel. Das Aktive Pokémon deines Gegners ist jetzt paralysiert.",
+			'it-it': "Scarta tutte le Energie da questo Pokémon. Il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Descarte todas as Energias deste Pokémon. O Pokémon Ativo do seu oponente agora está Paralisado."
 		},
 
 		damage: 70
@@ -82,7 +82,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "They travel in groups of four or five, leaving signs for one another on trees and rocks. They bring down their prey with coordinated attacks.",
+		'en-us': "They travel in groups of four or five, leaving signs for one another on trees and rocks. They bring down their prey with coordinated attacks.",
 	},
 
 	variants: [

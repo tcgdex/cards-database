@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sandile",
-		fr: "Mascaïman",
-		es: "Sandile",
-		it: "Sandile",
-		pt: "Sandile",
-		de: "Ganovil"
+		'en-us': "Sandile",
+		'fr-fr': "Mascaïman",
+		'es-es': "Sandile",
+		'it-it': "Sandile",
+		'pt-br': "Sandile",
+		'de-de': "Ganovil"
 	},
 
 	rarity: "Illustration rare",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Gnaw",
-			fr: "Ronge",
-			es: "Roer",
-			it: "Rosicchiamento",
-			pt: "Roída",
-			de: "Nagen"
+			'en-us': "Gnaw",
+			'fr-fr': "Ronge",
+			'es-es': "Roer",
+			'it-it': "Rosicchiamento",
+			'pt-br': "Roída",
+			'de-de': "Nagen"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 30
@@ -66,7 +66,7 @@ const card: Card = {
 	illustrator: "Nurikabe",
 
 	description: {
-		en: "It submerges itself in sand and moves as if swimming. This wise behavior keeps its enemies from finding it and maintains its temperature.",
+		'en-us': "It submerges itself in sand and moves as if swimming. This wise behavior keeps its enemies from finding it and maintains its temperature.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Seedot",
-		fr: "Grainipiot",
-		de: "Samurzel"
+		'en-us': "Seedot",
+		'fr-fr': "Grainipiot",
+		'de-de': "Samurzel"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 10,

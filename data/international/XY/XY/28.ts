@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Talonflame",
-		fr: "Flambusard",
-		es: "Talonflame",
-		it: "Talonflame",
-		pt: "Talonflame",
-		de: "Fiaro"
+		'en-us': "Talonflame",
+		'fr-fr': "Flambusard",
+		'es-es': "Talonflame",
+		'it-it': "Talonflame",
+		'pt-br': "Talonflame",
+		'de-de': "Fiaro"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Fletchinder",
-		fr: "Braisillon",
-		es: "Fletchinder",
-		it: "Fletchinder",
-		pt: "Fletchinder",
-		de: "Dartignis"
+		'en-us': "Fletchinder",
+		'fr-fr': "Braisillon",
+		'es-es': "Fletchinder",
+		'it-it': "Fletchinder",
+		'pt-br': "Fletchinder",
+		'de-de': "Dartignis"
 	},
 
 	stage: "Stage2",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Devastating Wind",
-				fr: "Vent Dévastateur",
-				es: "Viento Devastador",
-				it: "Devastavento",
-				pt: "Vento Devastador",
-				de: "Wind der Verwüstung"
+				'en-us': "Devastating Wind",
+				'fr-fr': "Vent Dévastateur",
+				'es-es': "Viento Devastador",
+				'it-it': "Devastavento",
+				'pt-br': "Vento Devastador",
+				'de-de': "Wind der Verwüstung"
 			},
 			effect: {
-				en: "Your opponent shuffles his or her hand into his or her deck and draws 4 cards.",
-				fr: "Votre adversaire mélange sa main avec son deck et pioche 4 cartes.",
-				es: "Tu rival baraja las cartas de su mano en su baraja y roba 4 cartas.",
-				it: "Il tuo avversario rimischia le carte che ha in mano nel proprio mazzo e poi pesca quattro carte.",
-				pt: "Seu oponente embaralha a mão no próprio deck e compra 4 cards.",
-				de: "Dein Gegner mischt seine Hand zurück in sein Deck und zieht 4 Karten."
+				'en-us': "Your opponent shuffles his or her hand into his or her deck and draws 4 cards.",
+				'fr-fr': "Votre adversaire mélange sa main avec son deck et pioche 4 cartes.",
+				'es-es': "Tu rival baraja las cartas de su mano en su baraja y roba 4 cartas.",
+				'it-it': "Il tuo avversario rimischia le carte che ha in mano nel proprio mazzo e poi pesca quattro carte.",
+				'pt-br': "Seu oponente embaralha a mão no próprio deck e compra 4 cards.",
+				'de-de': "Dein Gegner mischt seine Hand zurück in sein Deck und zieht 4 Karten."
 			},
 
 		},
@@ -66,20 +66,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flare Blitz",
-				fr: "Boutefeu",
-				es: "Envite Ígneo",
-				it: "Fuococarica",
-				pt: "Blitz de Labaredas",
-				de: "Flammenblitz"
+				'en-us': "Flare Blitz",
+				'fr-fr': "Boutefeu",
+				'es-es': "Envite Ígneo",
+				'it-it': "Fuococarica",
+				'pt-br': "Blitz de Labaredas",
+				'de-de': "Flammenblitz"
 			},
 			effect: {
-				en: "Discard all Fire Energy attached to this Pokémon.",
-				fr: "Défaussez toutes les Énergies Fire attachées à ce Pokémon.",
-				es: "Descarta todas las Energías Fire unidas a este Pokémon.",
-				it: "Scarta tutte le Energie Fire assegnate a questo Pokémon.",
-				pt: "Descarte toda a Energia Fire ligada a este Pokémon.",
-				de: "Lege alle an dieses Pokémon angelegten Fire-Energien auf deinen Ablagestapel."
+				'en-us': "Discard all Fire Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez toutes les Énergies Fire attachées à ce Pokémon.",
+				'es-es': "Descarta todas las Energías Fire unidas a este Pokémon.",
+				'it-it': "Scarta tutte le Energie Fire assegnate a questo Pokémon.",
+				'pt-br': "Descarte toda a Energia Fire ligada a este Pokémon.",
+				'de-de': "Lege alle an dieses Pokémon angelegten Fire-Energien auf deinen Ablagestapel."
 			},
 			damage: 100,
 
@@ -103,7 +103,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "In the fever of an exciting battle, it showers embers from the gaps between its feathers and takes to the air.",
+		'en-us': "In the fever of an exciting battle, it showers embers from the gaps between its feathers and takes to the air.",
 	},
 
 	thirdParty: {

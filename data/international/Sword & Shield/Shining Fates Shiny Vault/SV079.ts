@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Linéon de Galar",
-		en: "Galarian Linoone",
-		es: "Linoone de Galar",
-		it: "Linoone di Galar",
-		pt: "Linoone de Galar",
-		de: "Galar-Geradaks"
+		'fr-fr': "Linéon de Galar",
+		'en-us': "Galarian Linoone",
+		'es-es': "Linoone de Galar",
+		'it-it': "Linoone di Galar",
+		'pt-br': "Linoone de Galar",
+		'de-de': "Galar-Geradaks"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -21,39 +21,39 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		fr: "Zigzaton de Galar",
-		en: "Galarian Zigzagoon"
+		'fr-fr': "Zigzaton de Galar",
+		'en-us': "Galarian Zigzagoon"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Tranche-Nuit",
-			en: "Night Slash",
-			es: "Tajo Umbrío",
-			it: "Nottesferza",
-			pt: "Talho Noturno",
-			de: "Nachthieb"
+			'fr-fr': "Tranche-Nuit",
+			'en-us': "Night Slash",
+			'es-es': "Tajo Umbrío",
+			'it-it': "Nottesferza",
+			'pt-br': "Talho Noturno",
+			'de-de': "Nachthieb"
 		},
 
 		effect: {
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-			it: "Scambia questo Pokémon con uno della tua panchina.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+			'fr-fr': "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+			'es-es': "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+			'it-it': "Scambia questo Pokémon con uno della tua panchina.",
+			'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+			'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 		},
 
 		damage: 20,
 		cost: ["Darkness"]
 	}, {
 		name: {
-			fr: "Enfoncement",
-			en: "Hammer In",
-			es: "Martillear",
-			it: "Martello",
-			pt: "Martelada",
-			de: "Einhämmern"
+			'fr-fr': "Enfoncement",
+			'en-us': "Hammer In",
+			'es-es': "Martillear",
+			'it-it': "Martello",
+			'pt-br': "Martelada",
+			'de-de': "Einhämmern"
 		},
 
 		damage: 70,
@@ -70,7 +70,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "This very aggressive Pokémon will recklessly challenge opponents stronger than itself."
+		'en-us': "This very aggressive Pokémon will recklessly challenge opponents stronger than itself."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユキノオー",
+		'ja-jp': "ユキノオー",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ブリザードを 発生させて あたり 一面を 真っ白に してしまう。 別名 アイスモンスター。",
+		'ja-jp': "ブリザードを 発生させて あたり 一面を 真っ白に してしまう。 別名 アイスモンスター。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンに[水]エネルギーがついているなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "相手のバトルポケモンに[水]エネルギーがついているなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 140,
 			cost: ["Water", "Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも20ダメージ。",
+				'ja-jp': "このポケモンにも20ダメージ。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ユキカブリ",
+		'ja-jp': "ユキカブリ",
 	},
 
 	retreat: 4,

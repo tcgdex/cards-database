@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Dartrix",
-		fr: "Efflèche",
+		'en-us': "Dartrix",
+		'fr-fr': "Efflèche",
 	},
 	illustrator: "Shigenori Negishi",
 	rarity: "Shiny rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Grass",
 	],
 	evolveFrom: {
-		en: "Rowlet",
-		fr: "Brindibou",
+		'en-us': "Rowlet",
+		'fr-fr': "Brindibou",
 	},
 	stage: "Stage1",
 
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharp Blade Quill",
-				fr: "Plum’acérée Tranchante",
+				'en-us': "Sharp Blade Quill",
+				'fr-fr': "Plum’acérée Tranchante",
 			},
 			effect: {
-				en: "This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 20 dégâts à l’un des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 20 dégâts à l’un des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leaf Blade",
-				fr: "Lame-Feuille",
+				'en-us': "Leaf Blade",
+				'fr-fr': "Lame-Feuille",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 50,
 
@@ -71,7 +71,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A bit of a dandy, it spends its free time preening its wings. Its preoccupation with any dirt on its plumage can leave it unable to battle.",
+		'en-us': "A bit of a dandy, it spends its free time preening its wings. Its preoccupation with any dirt on its plumage can leave it unable to battle.",
 	},
 }
 

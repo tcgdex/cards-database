@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Zubat",
-		fr: "Nosferapti",
-		es: "Zubat",
-		it: "Zubat",
-		pt: "Zubat",
-		de: "Zubat"
+		'en-us': "Zubat",
+		'fr-fr': "Nosferapti",
+		'es-es': "Zubat",
+		'it-it': "Zubat",
+		'pt-br': "Zubat",
+		'de-de': "Zubat"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spiral Drain",
-				fr: "Spirale Épuisante",
+				'en-us': "Spiral Drain",
+				'fr-fr': "Spirale Épuisante",
 			},
 			effect: {
-				en: "Heal 10 damage from this Pokémon.",
-				fr: "Soignez 10 dégâts à ce Pokémon.",
+				'en-us': "Heal 10 damage from this Pokémon.",
+				'fr-fr': "Soignez 10 dégâts à ce Pokémon.",
 			},
 			damage: 10,
 
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It does not need eyes, because it emits ultrasonic waves to check its surrounding while it flies.",
+		'en-us': "It does not need eyes, because it emits ultrasonic waves to check its surrounding while it flies.",
 	},
 
 	thirdParty: {

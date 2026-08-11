@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ดารุมักกะ <ของ N>",
-		id: "Darumaka <N>"
+		'th-th': "ดารุมักกะ <ของ N>",
+		'id-id': "Darumaka <N>"
 	},
 
 	illustrator: "Gemi",
@@ -15,24 +15,24 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		th: "ในขณะที่หลับอยู่ไม่ว่าจะดึงหรือผลักยังไงก็ไม่ล้ม เป็นลวดลายของ เครื่องรางนำโชคที่ได้รับความนิยมสูง",
-		id: "Saat sedang tidur, Darumaka tidak akan terguling meskipun didorong atau ditarik. Populer sebagai simbol benda pembawa keberuntungan."
+		'th-th': "ในขณะที่หลับอยู่ไม่ว่าจะดึงหรือผลักยังไงก็ไม่ล้ม เป็นลวดลายของ เครื่องรางนำโชคที่ได้รับความนิยมสูง",
+		'id-id': "Saat sedang tidur, Darumaka tidak akan terguling meskipun didorong atau ditarik. Populer sebagai simbol benda pembawa keberuntungan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "กลิ้งโจมตี",
-			id: "Tubrukan Menggelinding"
+			'th-th': "กลิ้งโจมตี",
+			'id-id': "Tubrukan Menggelinding"
 		},
 
 		damage: 20,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			th: "ไฟ",
-			id: "Api"
+			'th-th': "ไฟ",
+			'id-id': "Api"
 		},
 
 		damage: 50,

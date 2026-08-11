@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コモルー",
+		'ja-jp': "コモルー",
 	},
 
 	illustrator: "Julie Hang",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "殻の 中では 爆発的な スピードで 細胞が 変化し 進化の 準備を しているぞ。",
+		'ja-jp': "殻の 中では 爆発的な スピードで 細胞が 変化し 進化の 準備を しているぞ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "タツベイ",
+		'ja-jp': "タツベイ",
 	},
 
 	retreat: 2,

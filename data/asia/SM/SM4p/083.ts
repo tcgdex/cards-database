@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "アンバランス かつ 不安定な 遺伝子を 持っており 様々な 進化の 可能性を 秘めている。",
+		'ja-jp': "アンバランス かつ 不安定な 遺伝子を 持っており 様々な 進化の 可能性を 秘めている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチポケモンのタイプの数x10ダメージ。",
+				'ja-jp': "自分のベンチポケモンのタイプの数x10ダメージ。",
 			},
 		},
 	],

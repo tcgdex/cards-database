@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sprigatito",
-		fr: "Poussacha",
-		es: "Sprigatito",
-		de: "Felori",
-		it: "Sprigatito",
-		pt: "Sprigatito",
+		'en-us': "Sprigatito",
+		'fr-fr': "Poussacha",
+		'es-es': "Sprigatito",
+		'de-de': "Felori",
+		'it-it': "Sprigatito",
+		'pt-br': "Sprigatito",
 		'es-mx': "Sprigatito"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Leafage",
-			fr: "Feuillage",
-			es: "Follaje",
-			it: "Fogliame",
-			pt: "Folhagem",
-			de: "Blattwerk"
+			'en-us': "Leafage",
+			'fr-fr': "Feuillage",
+			'es-es': "Follaje",
+			'it-it': "Fogliame",
+			'pt-br': "Folhagem",
+			'de-de': "Blattwerk"
 		},
 
 

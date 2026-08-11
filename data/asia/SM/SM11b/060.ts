@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハガネール",
+		'ja-jp': "ハガネール",
 	},
 
 	illustrator: "Avec Yoko",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "地中の 高い 圧力と 熱で 鍛えられた 体は あらゆる 金属よりも 硬い。",
+		'ja-jp': "地中の 高い 圧力と 熱で 鍛えられた 体は あらゆる 金属よりも 硬い。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の手札にあるにげるためのエネルギーが4個のポケモンを好きなだけトラッシュし、その枚数×50ダメージ。",
+				'ja-jp': "自分の手札にあるにげるためのエネルギーが4個のポケモンを好きなだけトラッシュし、その枚数×50ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "100×",
 			cost: ["Metal", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数×100ダメージ。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数×100ダメージ。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イワーク",
+		'ja-jp': "イワーク",
 	},
 
 	retreat: 4,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タケシのダグトリオ",
+		'ja-jp': "タケシのダグトリオ",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "低く横になる",
+				'ja-jp': "低く横になる",
 			},
 			effect: {
-				ja: "対戦相手の次のターン中にブロックのDugtrioに与えられたすべての損害は、20（脱力感と抵抗を適用した後）に20減ります。",
+				'ja-jp': "対戦相手の次のターン中にブロックのDugtrioに与えられたすべての損害は、20（脱力感と抵抗を適用した後）に20減ります。",
 			},
 		},
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
-				ja: "アースドリル",
+				'ja-jp': "アースドリル",
 			},
 			effect: {
-				ja: "この攻撃は、BrockのDugtrioが昨年ターンのLie Low Attackを使用していない限り使用できません。",
+				'ja-jp': "この攻撃は、BrockのDugtrioが昨年ターンのLie Low Attackを使用していない限り使用できません。",
 			},
 			damage: 60,
 		},

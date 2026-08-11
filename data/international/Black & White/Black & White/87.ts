@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Audino",
-		fr: "Nanméouïe",
-		es: "Audino",
-		it: "Audino",
-		pt: "Audino",
-		de: "Ohrdoch"
+		'en-us': "Audino",
+		'fr-fr': "Nanméouïe",
+		'es-es': "Audino",
+		'it-it': "Audino",
+		'pt-br': "Audino",
+		'de-de': "Ohrdoch"
 	},
 
 	illustrator: "MAHOU",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Doubleslap",
-				fr: "Torgnoles",
+				'en-us': "Doubleslap",
+				'fr-fr': "Torgnoles",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 30,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling.",
+		'en-us': "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling.",
 	},
 
 	thirdParty: {

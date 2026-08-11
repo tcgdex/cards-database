@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Gyarados",
-		fr: "Léviator",
-		de: "Garados"
+		'en-us': "Gyarados",
+		'fr-fr': "Léviator",
+		'de-de': "Garados"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magikarp",
-		fr: "Magicarpe"
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe"
 	},
 
 	stage: "Stage1",
@@ -36,9 +36,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Splash",
-				fr: "Hydro-éclaboussure",
-				de: "Hydroplatscher"
+				'en-us': "Hydro Splash",
+				'fr-fr': "Hydro-éclaboussure",
+				'de-de': "Hydroplatscher"
 			},
 
 			damage: 50,
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Beam",
-				fr: "Ultralaser",
-				de: "Hyperstrahl"
+				'en-us': "Hyper Beam",
+				'fr-fr': "Ultralaser",
+				'de-de': "Hyperstrahl"
 			},
 			effect: {
-				en: "Discard an Energy card attached to the Defending Pokémon.",
-				fr: "Défaussez-vous d’une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				'en-us': "Discard an Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Défaussez-vous d’une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 80,
 
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it."
+		'en-us': "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it."
 	},
 
 	variants: [

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Shelgon",
-		fr: "Drackhaus",
-		es: "Shelgon",
-		it: "Shelgon",
-		pt: "Shelgon",
-		de: "Draschel"
+		'en-us': "Shelgon",
+		'fr-fr': "Drackhaus",
+		'es-es': "Shelgon",
+		'it-it': "Shelgon",
+		'pt-br': "Shelgon",
+		'de-de': "Draschel"
 	},
 
 	illustrator: "sui",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bagon",
-		fr: "Draby",
-		es: "Bagon",
-		it: "Bagon",
-		pt: "Bagon",
-		de: "Kindwurm"
+		'en-us': "Bagon",
+		'fr-fr': "Draby",
+		'es-es': "Bagon",
+		'it-it': "Bagon",
+		'pt-br': "Bagon",
+		'de-de': "Kindwurm"
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Exoskeleton",
-				fr: "Exosquelette",
-				es: "Exosqueleto",
-				it: "Esoscheletro",
-				pt: "Exo-esqueleto",
-				de: "Exoskelett"
+				'en-us': "Exoskeleton",
+				'fr-fr': "Exosquelette",
+				'es-es': "Exosqueleto",
+				'it-it': "Esoscheletro",
+				'pt-br': "Exo-esqueleto",
+				'de-de': "Exoskelett"
 			},
 			effect: {
-				en: "Any damage done to this Pokémon by attacks is reduced by 10 (after applying Weakness and Resistance).",
-				fr: "Tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
-				es: "Cualquier daño infligido a este Pokémon por ataques se reduce en 10 (después de aplicar Debilidad y Resistencia).",
-				it: "I danni inflitti a questo Pokémon dagli attacchi sono ridotti di 10, dopo aver applicato debolezza e resistenza.",
-				pt: "Qualquer dano causado a este Pokémon por ataques será reduzido em 10 (após a aplicação de Fraqueza e Resistência).",
-				de: "Schaden, der diesem Pokémon durch Angriffe zugefügt wird, wird um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "Any damage done to this Pokémon by attacks is reduced by 10 (after applying Weakness and Resistance).",
+				'fr-fr': "Tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				'es-es': "Cualquier daño infligido a este Pokémon por ataques se reduce en 10 (después de aplicar Debilidad y Resistencia).",
+				'it-it': "I danni inflitti a questo Pokémon dagli attacchi sono ridotti di 10, dopo aver applicato debolezza e resistenza.",
+				'pt-br': "Qualquer dano causado a este Pokémon por ataques será reduzido em 10 (após a aplicação de Fraqueza e Resistência).",
+				'de-de': "Schaden, der diesem Pokémon durch Angriffe zugefügt wird, wird um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rolling Tackle",
-				fr: "Roulé-Boulé",
-				es: "Placaje Giro",
-				it: "Rollazione",
-				pt: "Golpe de Colisão Rolante",
-				de: "Rolltackle"
+				'en-us': "Rolling Tackle",
+				'fr-fr': "Roulé-Boulé",
+				'es-es': "Placaje Giro",
+				'it-it': "Rollazione",
+				'pt-br': "Golpe de Colisão Rolante",
+				'de-de': "Rolltackle"
 			},
 
 			damage: 60,
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its armored body makes all attacks bounce off. The armor is too tough, however, making it heavy and somewhat sluggish.",
+		'en-us': "Its armored body makes all attacks bounce off. The armor is too tough, however, making it heavy and somewhat sluggish.",
 	},
 
 	thirdParty: {

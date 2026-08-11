@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トランセル",
+		'ja-jp': "トランセル",
 	},
 
 	illustrator: "Yuka Morii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "カラの中には トロトロの 中身が 詰まっている。 ほぼ動かないのは ウッカリ 中身が こぼれないため。",
+		'ja-jp': "カラの中には トロトロの 中身が 詰まっている。 ほぼ動かないのは ウッカリ 中身が こぼれないため。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "てっぺき" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。",
+				'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "キャタピー",
+		'ja-jp': "キャタピー",
 	},
 
 	retreat: 3,

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "デンチュラ",
+		'ja-jp': "デンチュラ",
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "敵に 襲われると 電気を 帯びた 糸を たくさん 吐き出して 電気の バリアを 作る。",
+		'ja-jp': "敵に 襲われると 電気を 帯びた 糸を たくさん 吐き出して 電気の バリアを 作る。",
 	},
 
 	stage: "Stage1",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: "50x",
 			cost: ["Lightning"],
 			effect: {
-				ja: "このポケモンについているエネルギーをすべてトラッシュし、その枚数×50ダメージ。",
+				'ja-jp': "このポケモンについているエネルギーをすべてトラッシュし、その枚数×50ダメージ。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "バチュル",
+		'ja-jp': "バチュル",
 	},
 
 	retreat: 1,

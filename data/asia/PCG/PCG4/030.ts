@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オクリリー",
+		'ja-jp': "オクリリー",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "スーパー吸引カップ",
+				'ja-jp': "スーパー吸引カップ",
 			},
 			effect: {
-				ja: "オクタイラがあなたのアクティブなポカモンである限り、あなたの相手のポカモンは退却することはできません。",
+				'ja-jp': "オクタイラがあなたのアクティブなポカモンである限り、あなたの相手のポカモンは退却することはできません。",
 			},
 		}],
 
@@ -29,16 +29,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "立っている",
+				'ja-jp': "立っている",
 			},
 			effect: {
-				ja: "オクリリーに取り付けられたエネルギーカードを廃棄します。次のターン中に、八典のパルスブラスト攻撃のベースダメージは120です。",
+				'ja-jp': "オクリリーに取り付けられたエネルギーカードを廃棄します。次のターン中に、八典のパルスブラスト攻撃のベースダメージは120です。",
 			},
 		},
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "パルスブラスト",
+				'ja-jp': "パルスブラスト",
 			},
 			damage: 30,
 		},

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Whirlipede"
+		'id-id': "Whirlipede"
 	},
 
 	illustrator: "Krgc",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Whirlipede berputar dengan kecepatan tinggi dan menabrakkan dirinya kepada lawannya. Kecepatan maksimal Pokémon ini mencapai sekitar 100 km/jam."
+		'id-id': "Whirlipede berputar dengan kecepatan tinggi dan menabrakkan dirinya kepada lawannya. Kecepatan maksimal Pokémon ini mencapai sekitar 100 km/jam."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Poison Circle"
+			'id-id': "Poison Circle"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Racun. Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Racun. Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
 		},
 
 		cost: ["Darkness"]
 	}, {
 		name: {
-			id: "Serangan Berputar"
+			'id-id': "Serangan Berputar"
 		},
 
 		damage: 60,

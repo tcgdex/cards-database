@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Lunala",
-		fr: "Lunala",
-		es: "Lunala",
-		it: "Lunala",
-		pt: "Lunala",
-		de: "Lunala"
+		'en-us': "Lunala",
+		'fr-fr': "Lunala",
+		'es-es': "Lunala",
+		'it-it': "Lunala",
+		'pt-br': "Lunala",
+		'de-de': "Lunala"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cosmoem",
-		fr: "Cosmovum",
+		'en-us': "Cosmoem",
+		'fr-fr': "Cosmovum",
 	},
 
 	stage: "Stage2",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Shatter Shot",
-				fr: "Coup Fracassant",
-				es: "Proyectil Estallido",
-				it: "Frantumacolpo",
-				pt: "Tiro de Estilhaçar",
-				de: "Splitterschuss"
+				'en-us': "Shatter Shot",
+				'fr-fr': "Coup Fracassant",
+				'es-es': "Proyectil Estallido",
+				'it-it': "Frantumacolpo",
+				'pt-br': "Tiro de Estilhaçar",
+				'de-de': "Splitterschuss"
 			},
 			effect: {
-				en: "This attack does 40 damage times the amount of Psychic Energy attached to this Pokémon.",
-				fr: "Cette attaque inflige 40 dégâts multipliés par le nombre d’Énergies Psychic attachées à ce Pokémon.",
-				es: "Este ataque hace 40 puntos de daño por cada Energía Psychic unida a este Pokémon.",
-				it: "Questo attacco infligge 40 danni per ogni Energia Psychic assegnata a questo Pokémon.",
-				pt: "Este ataque causa 40 pontos de dano vezes a quantidade de Energia Psychic ligada a este Pokémon.",
-				de: "Diese Attacke fügt 40 Schadenspunkte mal der Anzahl der an dieses Pokémon angelegten Psychic-Energien zu."
+				'en-us': "This attack does 40 damage times the amount of Psychic Energy attached to this Pokémon.",
+				'fr-fr': "Cette attaque inflige 40 dégâts multipliés par le nombre d’Énergies Psychic attachées à ce Pokémon.",
+				'es-es': "Este ataque hace 40 puntos de daño por cada Energía Psychic unida a este Pokémon.",
+				'it-it': "Questo attacco infligge 40 danni per ogni Energia Psychic assegnata a questo Pokémon.",
+				'pt-br': "Este ataque causa 40 pontos de dano vezes a quantidade de Energia Psychic ligada a este Pokémon.",
+				'de-de': "Diese Attacke fügt 40 Schadenspunkte mal der Anzahl der an dieses Pokémon angelegten Psychic-Energien zu."
 			},
 			damage: "40×",
 
@@ -64,20 +64,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Wings of the Moone",
-				fr: "Ailes du Halo Lunaire",
-				es: "Alas de la Luna",
-				it: "Ali Lunari",
-				pt: "Asas Lunares",
-				de: "Mondscheiben-Flügel"
+				'en-us': "Wings of the Moone",
+				'fr-fr': "Ailes du Halo Lunaire",
+				'es-es': "Alas de la Luna",
+				'it-it': "Ali Lunari",
+				'pt-br': "Asas Lunares",
+				'de-de': "Mondscheiben-Flügel"
 			},
 			effect: {
-				en: "Move all Energy from this Pokémon to your Benched Pokémon in any way you like.",
-				fr: "Déplacez toutes les Énergies de ce Pokémon vers vos Pokémon de Banc, de la manière que vous voulez.",
-				es: "Mueve todas las Energías de este Pokémon a tus Pokémon en Banca de la manera que desees.",
-				it: "Sposta a piacimento tutte le Energie da questo Pokémon a quelli nella tua panchina.",
-				pt: "Mova todas as Energias deste Pokémon para os seus Pokémon no Banco como desejar.",
-				de: "Verschiebe alle Energien von diesem Pokémon beliebig auf die Pokémon auf deiner Bank."
+				'en-us': "Move all Energy from this Pokémon to your Benched Pokémon in any way you like.",
+				'fr-fr': "Déplacez toutes les Énergies de ce Pokémon vers vos Pokémon de Banc, de la manière que vous voulez.",
+				'es-es': "Mueve todas las Energías de este Pokémon a tus Pokémon en Banca de la manera que desees.",
+				'it-it': "Sposta a piacimento tutte le Energie da questo Pokémon a quelli nella tua panchina.",
+				'pt-br': "Mova todas as Energias deste Pokémon para os seus Pokémon no Banco como desejar.",
+				'de-de': "Verschiebe alle Energien von diesem Pokémon beliebig auf die Pokémon auf deiner Bank."
 			},
 			damage: 130,
 
@@ -101,7 +101,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is said to be a female evolution of Cosmog. When its third eye activates, away it flies to another world.",
+		'en-us': "It is said to be a female evolution of Cosmog. When its third eye activates, away it flies to another world.",
 	},
 
 	thirdParty: {

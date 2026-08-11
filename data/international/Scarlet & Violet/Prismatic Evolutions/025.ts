@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Glaceon",
-		fr: "Givrali",
-		es: "Glaceon",
-		pt: "Glaceon",
-		it: "Glaceon",
-		de: "Glaziola"
+		'en-us': "Glaceon",
+		'fr-fr': "Givrali",
+		'es-es': "Glaceon",
+		'pt-br': "Glaceon",
+		'it-it': "Glaceon",
+		'de-de': "Glaziola"
 	},
 
 	rarity: "Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
-		es: "Eevee",
-		pt: "Eevee",
-		it: "Eevee",
-		de: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
+		'es-es': "Eevee",
+		'pt-br': "Eevee",
+		'it-it': "Eevee",
+		'de-de': "Evoli"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Permeating Chill",
-			fr: "Froid Pénétrant",
-			es: "Frío Penetrante",
-			pt: "Frio Penetrante",
-			it: "Gelo Pungente",
-			de: "Durchdringende Kälte"
+			'en-us': "Permeating Chill",
+			'fr-fr': "Froid Pénétrant",
+			'es-es': "Frío Penetrante",
+			'pt-br': "Frio Penetrante",
+			'it-it': "Gelo Pungente",
+			'de-de': "Durchdringende Kälte"
 		},
 
 		effect: {
-			en: "At the end of your opponent's next turn, put 9 damage counters on the Defending Pokémon.",
-			fr: "À la fin du prochain tour de votre adversaire, placez 9 marqueurs de dégâts sur le Pokémon Défenseur.",
-			es: "Al final del próximo turno de tu rival, pon 9 contadores de daño en el Pokémon Defensor.",
-			pt: "Coloque 9 contadores de dano no Pokémon Defensor no final do próximo turno do seu oponente.",
-			it: "Alla fine del prossimo turno del tuo avversario, metti nove segnalini danno sul Pokémon difensore.",
-			de: "Lege am Ende des nächsten Zuges deines Gegners 9 Schadensmarken auf das Verteidigende Pokémon."
+			'en-us': "At the end of your opponent's next turn, put 9 damage counters on the Defending Pokémon.",
+			'fr-fr': "À la fin du prochain tour de votre adversaire, placez 9 marqueurs de dégâts sur le Pokémon Défenseur.",
+			'es-es': "Al final del próximo turno de tu rival, pon 9 contadores de daño en el Pokémon Defensor.",
+			'pt-br': "Coloque 9 contadores de dano no Pokémon Defensor no final do próximo turno do seu oponente.",
+			'it-it': "Alla fine del prossimo turno del tuo avversario, metti nove segnalini danno sul Pokémon difensore.",
+			'de-de': "Lege am Ende des nächsten Zuges deines Gegners 9 Schadensmarken auf das Verteidigende Pokémon."
 		},
 
 		damage: 30
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Icicle Missile",
-			fr: "Missile Stalactite",
-			es: "Misil Carámbano",
-			pt: "Míssil Gélido",
-			it: "Missilghiaccio",
-			de: "Eiszapfenrakete"
+			'en-us': "Icicle Missile",
+			'fr-fr': "Missile Stalactite",
+			'es-es': "Misil Carámbano",
+			'pt-br': "Míssil Gélido",
+			'it-it': "Missilghiaccio",
+			'de-de': "Eiszapfenrakete"
 		},
 
 		damage: 70

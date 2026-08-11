@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Golbat"
+		'en-us': "Brock's Golbat"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Zubat"
+		'en-us': "Zubat"
 	},
 
 	stage: "Stage1",
@@ -31,7 +31,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dive"
+				'en-us': "Dive"
 			},
 
 			damage: 20,
@@ -44,10 +44,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spiral Dive"
+				'en-us': "Spiral Dive"
 			},
 			effect: {
-				en: "Does 10 damage to each of your opponent's Pokémon. Don't apply Weakness and Resistance."
+				'en-us': "Does 10 damage to each of your opponent's Pokémon. Don't apply Weakness and Resistance."
 			},
 			damage: 10,
 

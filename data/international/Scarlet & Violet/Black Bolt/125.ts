@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Timburr",
-		fr: "Charpenti",
-		de: "Praktibalk",
-		it: "Timburr",
-		pt: "Timburr",
-		es: "Timburr",
+		'en-us': "Timburr",
+		'fr-fr': "Charpenti",
+		'de-de': "Praktibalk",
+		'it-it': "Timburr",
+		'pt-br': "Timburr",
+		'es-es': "Timburr",
 		'es-mx': "Timburr"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Low Kick",
-			fr: "Balayage",
-			de: "Fußkick",
-			it: "Colpo Basso",
-			pt: "Rasteira",
-			es: "Patada Baja",
+			'en-us': "Low Kick",
+			'fr-fr': "Balayage",
+			'de-de': "Fußkick",
+			'it-it': "Colpo Basso",
+			'pt-br': "Rasteira",
+			'es-es': "Patada Baja",
 			'es-mx': "Patada Baja"
 		},
 
@@ -40,12 +40,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			en: "Strength",
-			fr: "Force",
-			de: "Stärke",
-			it: "Forza",
-			pt: "Força",
-			es: "Fuerza",
+			'en-us': "Strength",
+			'fr-fr': "Force",
+			'de-de': "Stärke",
+			'it-it': "Forza",
+			'pt-br': "Força",
+			'es-es': "Fuerza",
 			'es-mx': "Fuerza"
 		},
 

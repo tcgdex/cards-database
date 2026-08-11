@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ซุพีคา",
-		id: "Tadbulb"
+		'th-th': "ซุพีคา",
+		'id-id': "Tadbulb"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		th: "แกว่งหางเพื่อผลิตไฟฟ้า เมื่อรู้สึกถึงอันตรายจะทำให้ไฟบนหัวกะพริบเพื่อแจ้งพวกพ้อง",
-		id: "Tadbulb menghasilkan listrik dengan menggoyangkan ekornya. Ketika merasakan adanya bahaya, Pokémon ini memberitahukan sesamanya dengan mengedipkan cahaya kepalanya."
+		'th-th': "แกว่งหางเพื่อผลิตไฟฟ้า เมื่อรู้สึกถึงอันตรายจะทำให้ไฟบนหัวกะพริบเพื่อแจ้งพวกพ้อง",
+		'id-id': "Tadbulb menghasilkan listrik dengan menggoyangkan ekornya. Ketika merasakan adanya bahaya, Pokémon ini memberitahukan sesamanya dengan mengedipkan cahaya kepalanya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ช็อตไฟฟ้า",
-			id: "Serangan Listrik"
+			'th-th': "ช็อตไฟฟ้า",
+			'id-id': "Serangan Listrik"
 		},
 
 		effect: {
-			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
-			id: "Pokémon ini juga menerima kerusakan sejumlah 10."
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10."
 		},
 
 		damage: 40,

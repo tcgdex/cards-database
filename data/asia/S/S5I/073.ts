@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S5I";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミミッキュV",
+		'ja-jp': "ミミッキュV",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ダミードール" },
 			effect: {
-				ja: "自分の番に、このカードを手札からベンチに出したとき、1回使える。次の相手の番の終わりまで、この「ミミッキュV」は、相手のポケモンからワザのダメージを受けない。",
+				'ja-jp': "自分の番に、このカードを手札からベンチに出したとき、1回使える。次の相手の番の終わりまで、この「ミミッキュV」は、相手のポケモンからワザのダメージを受けない。",
 			},
 		},
 	],
@@ -29,7 +29,7 @@ const card: Card = {
 			name: { ja: "うらやむひとみ" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手がすでにとったサイドの枚数×3個ぶんのダメカンを、相手のバトルポケモンにのせる。",
+				'ja-jp': "相手がすでにとったサイドの枚数×3個ぶんのダメカンを、相手のバトルポケモンにのせる。",
 			},
 		},
 	],

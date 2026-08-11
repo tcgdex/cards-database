@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Potion",
-		fr: "Potion",
-		de: "Trank"
+		'en-us': "Potion",
+		'fr-fr': "Potion",
+		'de-de': "Trank"
 	},
 
 	illustrator: "Shin-ichi Yoshikawa",
@@ -15,9 +15,9 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		en: "Remove 2 damage counters from 1 of your Pokémon (remove 1 damage counter if that Pokémon has only 1).",
-		fr: "Retirez 2 marqueurs de dégât à 1 de vos Pokémon (retirez-en 1 si ce Pokémon n'en possède qu'1).",
-		de: "Remove 2 damage counters from 1 of your Pokémon (remove 1 damage counter if that Pokémon has only 1)."
+		'en-us': "Remove 2 damage counters from 1 of your Pokémon (remove 1 damage counter if that Pokémon has only 1).",
+		'fr-fr': "Retirez 2 marqueurs de dégât à 1 de vos Pokémon (retirez-en 1 si ce Pokémon n'en possède qu'1).",
+		'de-de': "Remove 2 damage counters from 1 of your Pokémon (remove 1 damage counter if that Pokémon has only 1)."
 	},
 
 

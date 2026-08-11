@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [339],
 
 	name: {
-		en: "Barboach",
-		fr: "Barloche",
-		es: "Barboach",
-		it: "Barboach",
-		pt: "Barboach",
-		de: "Schmerbe"
+		'en-us': "Barboach",
+		'fr-fr': "Barloche",
+		'es-es': "Barboach",
+		'it-it': "Barboach",
+		'pt-br': "Barboach",
+		'de-de': "Schmerbe"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,12 +24,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Razor Fin",
-				fr: "Aileron-Rasoir",
-				es: "Aleta Afilada",
-				it: "Pinnalama",
-				pt: "Barbatana Cortante",
-				de: "Rasierflosse"
+				'en-us': "Razor Fin",
+				'fr-fr': "Aileron-Rasoir",
+				'es-es': "Aleta Afilada",
+				'it-it': "Pinnalama",
+				'pt-br': "Barbatana Cortante",
+				'de-de': "Rasierflosse"
 			},
 
 			damage: 10,
@@ -53,7 +53,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its slimy body is hard to grasp. In one region, it is said to have been born from hardened mud."
+		'en-us': "Its slimy body is hard to grasp. In one region, it is said to have been born from hardened mud."
 	},
 
 	variants: [

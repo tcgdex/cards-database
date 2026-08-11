@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パチリス",
+		'ja-jp': "パチリス",
 	},
 
 	illustrator: "tono",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "ほっぺに 電気袋を 持つ ポケモンの 仲間。 尻尾から 溜まった 電気を 放出する。",
+		'ja-jp': "ほっぺに 電気袋を 持つ ポケモンの 仲間。 尻尾から 溜まった 電気を 放出する。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Lightning"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンに、相手が手札からエネルギーをつけるたび、そのポケモンにダメカンを8個のせる。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンに、相手が手札からエネルギーをつけるたび、そのポケモンにダメカンを8個のせる。",
 			},
 		},
 	],

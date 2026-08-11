@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Chespin",
-		fr: "Marisson",
-		es: "Chespin",
-		it: "Chespin",
-		pt: "Chespin",
-		de: "Igamaro"
+		'en-us': "Chespin",
+		'fr-fr': "Marisson",
+		'es-es': "Chespin",
+		'it-it': "Chespin",
+		'pt-br': "Chespin",
+		'de-de': "Igamaro"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nosh",
-				fr: "Casse-Croûte",
-				es: "Piscolabis",
-				it: "Spuntino",
-				pt: "Mordiscar",
-				de: "Snack"
+				'en-us': "Nosh",
+				'fr-fr': "Casse-Croûte",
+				'es-es': "Piscolabis",
+				'it-it': "Spuntino",
+				'pt-br': "Mordiscar",
+				'de-de': "Snack"
 			},
 			effect: {
-				en: "Heal 20 damage from this Pokémon.",
-				fr: "Soignez 20 dégâts à ce Pokémon.",
-				es: "Cura 20 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 20 danni.",
-				pt: "Cure 20 de danos deste Pokémon.",
-				de: "Heile 20 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 20 damage from this Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à ce Pokémon.",
+				'es-es': "Cura 20 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 20 danni.",
+				'pt-br': "Cure 20 de danos deste Pokémon.",
+				'de-de': "Heile 20 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Seed Bomb",
-				fr: "Canon Graine",
-				es: "Bomba Germen",
-				it: "Semebomba",
-				pt: "Bomba de Sementes",
-				de: "Samenbomben"
+				'en-us': "Seed Bomb",
+				'fr-fr': "Canon Graine",
+				'es-es': "Bomba Germen",
+				'it-it': "Semebomba",
+				'pt-br': "Bomba de Sementes",
+				'de-de': "Samenbomben"
 			},
 
 			damage: 30,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Such a thick shell of wood covers its head and back that even a direct hit from a truck wouldn't faze it.",
+		'en-us': "Such a thick shell of wood covers its head and back that even a direct hit from a truck wouldn't faze it.",
 	},
 
 	thirdParty: {

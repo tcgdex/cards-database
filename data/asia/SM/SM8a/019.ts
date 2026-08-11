@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラベトベトン",
+		'ja-jp': "アローラベトベトン",
 	},
 
 	illustrator: "Midori Harada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "意外に 大人しく なつくが 餌の ゴミを ずっと あげていないと 家の 家具を 壊して 喰らいだす。",
+		'ja-jp': "意外に 大人しく なつくが 餌の ゴミを ずっと あげていないと 家の 家具を 壊して 喰らいだす。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "いかものぐい" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手の山札を上から6枚見て、その中にあるグッズを、好きなだけトラッシュする。残りのカードは山札にもどして切る。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手の山札を上から6枚見て、その中にあるグッズを、好きなだけトラッシュする。残りのカードは山札にもどして切る。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アローラベトベター",
+		'ja-jp': "アローラベトベター",
 	},
 
 	retreat: 3,

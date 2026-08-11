@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG7"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カルバンハ（デルタ種）",
+		'ja-jp': "カルバンハ（デルタ種）",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "噛む",
+				'ja-jp': "噛む",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "無謀な料金",
+				'ja-jp': "無謀な料金",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、Carvanhaはそれ自体に10ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。尾の場合、Carvanhaはそれ自体に10ダメージを与えます。",
 			},
 			damage: 30,
 		},

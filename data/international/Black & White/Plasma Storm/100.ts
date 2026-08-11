@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Dodrio",
-		fr: "Dodrio",
-		es: "Dodrio",
-		it: "Dodrio",
-		pt: "Dodrio",
-		de: "Dodri"
+		'en-us': "Dodrio",
+		'fr-fr': "Dodrio",
+		'es-es': "Dodrio",
+		'it-it': "Dodrio",
+		'pt-br': "Dodrio",
+		'de-de': "Dodri"
 	},
 
 	illustrator: "kawayoo",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Doduo",
-		fr: "Doduo",
+		'en-us': "Doduo",
+		'fr-fr': "Doduo",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Raging Pecks",
-				fr: "Bec Enragé",
+				'en-us': "Raging Pecks",
+				'fr-fr': "Bec Enragé",
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 30 damage times the number of heads. This Pokémon is now Confused.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face. Ce Pokémon est maintenant Confus.",
+				'en-us': "Flip 3 coins. This attack does 30 damage times the number of heads. This Pokémon is now Confused.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face. Ce Pokémon est maintenant Confus.",
 			},
 			damage: 30,
 
@@ -56,8 +56,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drill Peck",
-				fr: "Bec Vrille",
+				'en-us': "Drill Peck",
+				'fr-fr': "Bec Vrille",
 			},
 
 			damage: 60,
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When Doduo evolves into this odd breed, one of its heads splits into two. It runs at nearly 40 mph.",
+		'en-us': "When Doduo evolves into this odd breed, one of its heads splits into two. It runs at nearly 40 mph.",
 	},
 
 	thirdParty: {

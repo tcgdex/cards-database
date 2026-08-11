@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メタグロス",
+		'ja-jp': "メタグロス",
 	},
 
 	illustrator: "TOKIYA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "２匹の メタングが 連結。 ４つの 脳の 並列処理で どんな 計算も あっという間。",
+		'ja-jp': "２匹の メタングが 連結。 ４つの 脳の 並列処理で どんな 計算も あっという間。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "エクステンド" },
 			effect: {
-				ja: "このポケモンがバトル場にいるかぎり、自分の「ダイゴの決断」を使っても、自分の番は終わらない。",
+				'ja-jp': "このポケモンがバトル場にいるかぎり、自分の「ダイゴの決断」を使っても、自分の番は終わらない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Metal"],
 			effect: {
-				ja: "次の自分の番、このポケモンの「コメットパンチ」のダメージは「+60」される。",
+				'ja-jp': "次の自分の番、このポケモンの「コメットパンチ」のダメージは「+60」される。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "メタング",
+		'ja-jp': "メタング",
 	},
 
 	retreat: 4,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Drilbur",
-		fr: "Rototaupe",
-		es: "Drilbur",
-		it: "Drilbur",
-		pt: "Drilbur",
-		de: "Rotomurf"
+		'en-us': "Drilbur",
+		'fr-fr': "Rototaupe",
+		'es-es': "Drilbur",
+		'it-it': "Drilbur",
+		'pt-br': "Drilbur",
+		'de-de': "Rotomurf"
 	},
 
 	illustrator: "match",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hone Claws",
-				fr: "Aiguisage",
+				'en-us': "Hone Claws",
+				'fr-fr': "Aiguisage",
 			},
 			effect: {
-				en: "During your next turn, each of this Pokémon's attacks does 30 more damage (before applying Weakness and Resistance).",
-				fr: "Pendant votre prochain tour, chaque attaque de ce Pokémon inflige 30 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				'en-us': "During your next turn, each of this Pokémon's attacks does 30 more damage (before applying Weakness and Resistance).",
+				'fr-fr': "Pendant votre prochain tour, chaque attaque de ce Pokémon inflige 30 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
 
 		},
@@ -48,8 +48,8 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
 			},
 
 			damage: 10,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It can dig through the ground at a speed of 30 mph. It could give a car running aboveground a good race.",
+		'en-us': "It can dig through the ground at a speed of 30 mph. It could give a car running aboveground a good race.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニンフィア",
+		'ja-jp': "ニンフィア",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "ひとたび 戦いとなれば 自分の 何倍もある ドラゴンポケモンにも いっさい怯まず 飛びかかっていく。",
+		'ja-jp': "ひとたび 戦いとなれば 自分の 何倍もある ドラゴンポケモンにも いっさい怯まず 飛びかかっていく。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Fairy"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-30」される。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-30」される。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Fairy", "Colorless", "Colorless"],
 			effect: {
-				ja: "この番、手札から「TAG TEAM」のサポートを出して使っていたなら、80ダメージ追加。",
+				'ja-jp': "この番、手札から「TAG TEAM」のサポートを出して使っていたなら、80ダメージ追加。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 2,

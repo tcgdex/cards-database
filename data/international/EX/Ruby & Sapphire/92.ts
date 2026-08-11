@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Switch",
-		fr: "Passe-passe",
-		de: "Tausch"
+		'en-us': "Switch",
+		'fr-fr': "Passe-passe",
+		'de-de': "Tausch"
 	},
 
 	illustrator: "Hiromichi Sugiyama",
@@ -15,9 +15,9 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		en: "Switch 1 of your Active Pokémon with 1 of your Benched Pokémon.",
-		fr: "Échangez un de vos Pokémon Actifs contre un des Pokémon de votre Banc.",
-		de: "Tausche 1 deiner Aktiven Pokémon mit 1 der Pokémon auf deiner Bank aus."
+		'en-us': "Switch 1 of your Active Pokémon with 1 of your Benched Pokémon.",
+		'fr-fr': "Échangez un de vos Pokémon Actifs contre un des Pokémon de votre Banc.",
+		'de-de': "Tausche 1 deiner Aktiven Pokémon mit 1 der Pokémon auf deiner Bank aus."
 	},
 
 

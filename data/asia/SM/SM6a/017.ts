@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラプラス",
+		'ja-jp': "ラプラス",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "密漁で 絶滅寸前に。 大切に 保護 された 結果 逆に 増え過ぎてきたという。",
+		'ja-jp': "密漁で 絶滅寸前に。 大切に 保護 された 結果 逆に 増え過ぎてきたという。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Water"],
 			effect: {
-				ja: "相手のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "70+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[水]エネルギーの数x10ダメージ追加。",
+				'ja-jp': "このポケモンについている[水]エネルギーの数x10ダメージ追加。",
 			},
 		},
 	],

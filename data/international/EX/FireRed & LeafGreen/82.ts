@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Squirtle",
-		fr: "Carapuce",
-		de: "Schiggy"
+		'en-us': "Squirtle",
+		'fr-fr': "Carapuce",
+		'de-de': "Schiggy"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Sleepy Ball",
-				fr: "Boule dodo",
-				de: "Sleepy Ball"
+				'en-us': "Sleepy Ball",
+				'fr-fr': "Boule dodo",
+				'de-de': "Sleepy Ball"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 

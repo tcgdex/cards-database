@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Darmanitan",
-		fr: "Darumacho",
-		es: "Darmanitan",
-		it: "Darmanitan",
-		pt: "Darmanitan",
-		de: "Flampivian"
+		'en-us': "Darmanitan",
+		'fr-fr': "Darumacho",
+		'es-es': "Darmanitan",
+		'it-it': "Darmanitan",
+		'pt-br': "Darmanitan",
+		'de-de': "Flampivian"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Darumaka",
-		fr: "Darumarond",
+		'en-us': "Darumaka",
+		'fr-fr': "Darumarond",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Fang",
-				fr: "Crocs Feu",
+				'en-us': "Fire Fang",
+				'fr-fr': "Crocs Feu",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				'en-us': "The Defending Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé.",
 			},
 			damage: 20,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thrash",
-				fr: "Mania",
+				'en-us': "Thrash",
+				'fr-fr': "Mania",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage. If tails, this Pokémon does 20 damage to itself.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires. Si c’est pile, ce Pokémon s’inflige 20 dégâts.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage. If tails, this Pokémon does 20 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires. Si c’est pile, ce Pokémon s’inflige 20 dégâts.",
 			},
 			damage: 70,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When weakened in battle, it transforms into a stone statue, then it sharpens its mind and fights on mentally.",
+		'en-us': "When weakened in battle, it transforms into a stone statue, then it sharpens its mind and fights on mentally.",
 	},
 
 	thirdParty: {

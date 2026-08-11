@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Gothitelle",
-		fr: "Sidérella",
-		es: "Gothitelle",
-		it: "Gothitelle",
-		pt: "Gothitelle",
-		de: "Morbitesse"
+		'en-us': "Gothitelle",
+		'fr-fr': "Sidérella",
+		'es-es': "Gothitelle",
+		'it-it': "Gothitelle",
+		'pt-br': "Gothitelle",
+		'de-de': "Morbitesse"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gothorita",
-		fr: "Mesmérella",
+		'en-us': "Gothorita",
+		'fr-fr': "Mesmérella",
 	},
 
 	stage: "Stage2",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Smack",
-				fr: "Claque",
+				'en-us': "Smack",
+				'fr-fr': "Claque",
 			},
 
 			damage: 30,
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mental Shock",
-				fr: "Choc Émotionnel",
+				'en-us': "Mental Shock",
+				'fr-fr': "Choc Émotionnel",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus. Si c'est pile, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus. Si c'est pile, défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 60,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They can predict the future from the placement and movement of the stars. They can see Trainers' life spans.",
+		'en-us': "They can predict the future from the placement and movement of the stars. They can see Trainers' life spans.",
 	},
 
 	thirdParty: {

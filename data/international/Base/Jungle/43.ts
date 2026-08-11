@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Jungle'
 
 const card: Card = {
 	name: {
-		en: "Primeape",
-		fr: "Colossinge",
-		de: "Rasaff"
+		'en-us': "Primeape",
+		'fr-fr': "Colossinge",
+		'de-de': "Rasaff"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mankey",
-		fr: "Férosinge"
+		'en-us': "Mankey",
+		'fr-fr': "Férosinge"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Fury Swipes",
-				fr: "Combo-griffe",
-				de: "Kratzfurie"
+				'en-us': "Fury Swipes",
+				'fr-fr': "Combo-griffe",
+				'de-de': "Kratzfurie"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt, 20 Schadenspunkte zu."
+				'en-us': "Flip 3 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt, 20 Schadenspunkte zu."
 			},
 			damage: "20x",
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tantrum",
-				fr: "Mauvaise humeur",
-				de: "Trotzanfall"
+				'en-us': "Tantrum",
+				'fr-fr': "Mauvaise humeur",
+				'de-de': "Trotzanfall"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Primeape is now Confused (after doing damage).",
-				fr: "Lancez une pièce. Si c'est pile, Colossinge est maintenant Confus (après le calcul des dégâts).",
-				de: "Wirf eine Münze. Bei 'Zahl' ist Rasaff jetzt verwirrt (nach der Schadensverteilung)."
+				'en-us': "Flip a coin. If tails, Primeape is now Confused (after doing damage).",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Colossinge est maintenant Confus (après le calcul des dégâts).",
+				'de-de': "Wirf eine Münze. Bei 'Zahl' ist Rasaff jetzt verwirrt (nach der Schadensverteilung)."
 			},
 			damage: 50,
 
@@ -80,8 +80,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Always furious and tenacious to boot. It will not abandon chasing its quarry until its quarry is caught.",
-		fr: "Agressif et teigneux, il poursuit son gibier jusqu'à épuisement complet."
+		'en-us': "Always furious and tenacious to boot. It will not abandon chasing its quarry until its quarry is caught.",
+		'fr-fr': "Agressif et teigneux, il poursuit son gibier jusqu'à épuisement complet."
 	},
 
 

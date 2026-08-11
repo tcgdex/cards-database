@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY trainer Kit (Pikachu Libre)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Electabuzz",
-		fr: "Élektek",
-		es: "Electabuzz",
-		it: "Electabuzz",
-		pt: "Electabuzz",
-		de: "Elektek"
+		'en-us': "Electabuzz",
+		'fr-fr': "Élektek",
+		'es-es': "Electabuzz",
+		'it-it': "Electabuzz",
+		'pt-br': "Electabuzz",
+		'de-de': "Elektek"
 	},
 
 	rarity: "Common",

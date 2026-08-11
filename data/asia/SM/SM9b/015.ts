@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アーボック",
+		'ja-jp': "アーボック",
 	},
 
 	illustrator: "Yukiko Baba",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "最新の 研究で お腹の 模様は ２０種類 以上の パターンが あることが 判明。",
+		'ja-jp': "最新の 研究で お腹の 模様は ２０種類 以上の パターンが あることが 判明。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "前の自分の番、このポケモンが「まきつく」を使っていたなら、120ダメージ追加。",
+				'ja-jp': "前の自分の番、このポケモンが「まきつく」を使っていたなら、120ダメージ追加。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アーボ",
+		'ja-jp': "アーボ",
 	},
 
 	retreat: 2,

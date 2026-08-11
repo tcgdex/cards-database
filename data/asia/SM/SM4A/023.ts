@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マンキー",
+		'ja-jp': "マンキー",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "前触れもなく 突然 怒る。 暴れまくって 誰も いなくなると 孤独に 耐えられなくて また怒る。",
+		'ja-jp': "前触れもなく 突然 怒る。 暴れまくって 誰も いなくなると 孤独に 耐えられなくて また怒る。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10×",
 			cost: ["Fighting"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数x10ダメージ。",
+				'ja-jp': "コインを3回投げ、オモテの数x10ダメージ。",
 			},
 		},
 	],

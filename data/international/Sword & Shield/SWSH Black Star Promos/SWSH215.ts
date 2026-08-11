@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Morpeko V-UNION",
-		de: "Morpeko V-UNION",
-		es: "Morpeko V-UNIÓN",
-		pt: "Morpeko V-UNIÃO",
-		it: "Morpeko V UNIONE",
-		en: "Morpeko V-UNION"
+		'fr-fr': "Morpeko V-UNION",
+		'de-de': "Morpeko V-UNION",
+		'es-es': "Morpeko V-UNIÓN",
+		'pt-br': "Morpeko V-UNIÃO",
+		'it-it': "Morpeko V UNIONE",
+		'en-us': "Morpeko V-UNION"
 	},
 
 	rarity: "Promo",

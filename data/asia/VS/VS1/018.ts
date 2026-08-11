@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホイットニーのフレット",
+		'ja-jp': "ホイットニーのフレット",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "傷",
+				'ja-jp': "傷",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "スラム",
+				'ja-jp': "スラム",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。",
 			},
 		},
 	],

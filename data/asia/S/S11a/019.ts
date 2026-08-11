@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ボルケニオン",
+		'ja-jp': "ボルケニオン",
 		'zh-tw': "波爾凱尼恩",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "背中の アームから 体内の 水蒸気を 噴射する。 山 ひとつ 吹き飛ばす 威力。",
+		'ja-jp': "背中の アームから 体内の 水蒸気を 噴射する。 山 ひとつ 吹き飛ばす 威力。",
 		'zh-tw': "從背上的手臂噴出體內的水蒸氣。有著將整座山轟飛的威力。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶちかます",
+				'ja-jp': "ぶちかます",
 				'zh-tw': "頭突",
 			},
 			damage: 30,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ハイドロバーン",
+				'ja-jp': "ハイドロバーン",
 				'zh-tw': "水炮灼燒",
 			},
 			damage: "80+",
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンに[W]エネルギーがついているなら、80ダメージ追加。",
+				'ja-jp': "このポケモンに[W]エネルギーがついているなら、80ダメージ追加。",
 				'zh-tw': "若這隻寶可夢身上附有【水】能量，則增加80點傷害。",
 			},
 		},

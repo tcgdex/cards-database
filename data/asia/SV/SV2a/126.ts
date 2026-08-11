@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブーバー",
+		'ja-jp': "ブーバー",
 		'zh-tw': "鴨嘴火獸",
-		th: "บูเบอร์",
-		id: "Magmar",
+		'th-th': "บูเบอร์",
+		'id-id': "Magmar",
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -16,10 +16,10 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "全身が つねに 燃えている。 火事を 起こす 原因の ひとつとして 恐れられる。",
+		'ja-jp': "全身が つねに 燃えている。 火事を 起こす 原因の ひとつとして 恐れられる。",
 		'zh-tw': "全身時時刻刻都在燃燒。人們認為牠是引起火災的 原因之一，非常畏懼牠。",
-		th: "ทั่วตัวนั้นเผาไหม้อยู่ตลอดเวลา เป็นที่หวาดกลัวเพราะเป็นหนึ่งในสาเหตุของไฟไหม้",
-		id: "Seluruh tubuh Magmar selalu terbakar. Pokémon ini ditakuti sebagai salah satu penyebab terjadinya kebakaran.",
+		'th-th': "ทั่วตัวนั้นเผาไหม้อยู่ตลอดเวลา เป็นที่หวาดกลัวเพราะเป็นหนึ่งในสาเหตุของไฟไหม้",
+		'id-id': "Seluruh tubuh Magmar selalu terbakar. Pokémon ini ditakuti sebagai salah satu penyebab terjadinya kebakaran.",
 	},
 
 	stage: "Basic",
@@ -27,28 +27,28 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ひだね",
+				'ja-jp': "ひだね",
 				'zh-tw': "火種",
-				th: "เชื้อไฟ",
-				id: "Nyala Api",
+				'th-th': "เชื้อไฟ",
+				'id-id': "Nyala Api",
 			},
 			damage: 10,
 			cost: ["Fire"],
 		},
 		{
 			name: {
-				ja: "フレアコンボ",
+				'ja-jp': "フレアコンボ",
 				'zh-tw': "閃焰合擊",
-				th: "แฟลร์คอมโบ",
-				id: "Flare Combo",
+				'th-th': "แฟลร์คอมโบ",
+				'id-id': "Flare Combo",
 			},
 			damage: "80+",
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "自分のベンチに「エレブー」がいるなら、80ダメージ追加。",
+				'ja-jp': "自分のベンチに「エレブー」がいるなら、80ダメージ追加。",
 				'zh-tw': "若自己的備戰區有「電擊獸」，則增加80點傷害。",
-				th: "ถ้าบนเบนช์ฝ่ายเรามี [เอเลบู] อยู่ การโจมตีนี้จะเพิ่มแดเมจอีก 80",
-				id: "Jika ada Electabuzz di Cadangan sendiri, kerusakan yang diberikan bertambah sejumlah 80.",
+				'th-th': "ถ้าบนเบนช์ฝ่ายเรามี [เอเลบู] อยู่ การโจมตีนี้จะเพิ่มแดเมจอีก 80",
+				'id-id': "Jika ada Electabuzz di Cadangan sendiri, kerusakan yang diberikan bertambah sejumlah 80.",
 			},
 		},
 	],

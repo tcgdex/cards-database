@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Growlithe"
+		'en-us': "Growlithe"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "It's very friendly and faithful to people. It will try\nto repel enemies by barking and biting."
+		'en-us': "It's very friendly and faithful to people. It will try\nto repel enemies by barking and biting."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Dig Claws"
+			'en-us': "Dig Claws"
 		},
 
 		damage: 20,

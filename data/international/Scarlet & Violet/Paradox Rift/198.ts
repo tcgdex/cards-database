@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gimmighoul",
-		fr: "Mordudor",
-		es: "Gimmighoul",
-		it: "Gimmighoul",
-		pt: "Gimmighoul",
-		de: "Gierspenst"
+		'en-us': "Gimmighoul",
+		'fr-fr': "Mordudor",
+		'es-es': "Gimmighoul",
+		'it-it': "Gimmighoul",
+		'pt-br': "Gimmighoul",
+		'de-de': "Gierspenst"
 	},
 
 	rarity: "Illustration rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Continuous Coin Toss",
-			fr: "Lancer de Pièce Continu",
-			es: "Lanzamiento Incesante de Monedas",
-			it: "Lanciomoneta Continuo",
-			pt: "Jogadas de Moeda Contínuas",
-			de: "Dauermünzwurf"
+			'en-us': "Continuous Coin Toss",
+			'fr-fr': "Lancer de Pièce Continu",
+			'es-es': "Lanzamiento Incesante de Monedas",
+			'it-it': "Lanciomoneta Continuo",
+			'pt-br': "Jogadas de Moeda Contínuas",
+			'de-de': "Dauermünzwurf"
 		},
 
 		effect: {
-			en: "Flip a coin until you get tails. This attack does 20 damage for each heads.",
-			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 20 dégâts pour chaque côté face.",
-			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño por cada cara.",
-			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 20 danni ogni volta che esce testa.",
-			pt: "Jogue uma moeda até sair coroa. Este ataque causa 20 pontos de dano para cada cara.",
-			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip a coin until you get tails. This attack does 20 damage for each heads.",
+			'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 20 dégâts pour chaque côté face.",
+			'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño por cada cara.",
+			'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 20 danni ogni volta che esce testa.",
+			'pt-br': "Jogue uma moeda até sair coroa. Este ataque causa 20 pontos de dano para cada cara.",
+			'de-de': "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "20×"
@@ -60,7 +60,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure.",
+		'en-us': "This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure.",
 	},
 
 	variants: [

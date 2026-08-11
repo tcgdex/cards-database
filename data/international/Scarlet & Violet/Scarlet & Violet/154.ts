@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lechonk",
-		fr: "Gourmelet",
-		es: "Lechonk",
-		it: "Lechonk",
-		pt: "Lechonk",
-		de: "Ferkuli"
+		'en-us': "Lechonk",
+		'fr-fr': "Gourmelet",
+		'es-es': "Lechonk",
+		'it-it': "Lechonk",
+		'pt-br': "Lechonk",
+		'de-de': "Ferkuli"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Repelling Odor",
-			fr: "Odeur Repoussante",
-			es: "Olor Repelente",
-			it: "Odore Repellente",
-			pt: "Odor Repelente",
-			de: "Abstoßender Gestank"
+			'en-us': "Repelling Odor",
+			'fr-fr': "Odeur Repoussante",
+			'es-es': "Olor Repelente",
+			'it-it': "Odore Repellente",
+			'pt-br': "Odor Repelente",
+			'de-de': "Abstoßender Gestank"
 		},
 
 		effect: {
-			en: "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
-			fr: "Envoyez le Pokémon Actif de l'adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
-			es: "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
-			it: "Sposta il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
-			pt: "Mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)",
-			de: "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)"
+			'en-us': "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+			'fr-fr': "Envoyez le Pokémon Actif de l'adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
+			'es-es': "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
+			'it-it': "Sposta il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
+			'pt-br': "Mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)",
+			'de-de': "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)"
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Stampede",
-			fr: "Ruée",
-			es: "Estampida",
-			it: "Fuggi Fuggi",
-			pt: "Estouro",
-			de: "Zertrampeln"
+			'en-us': "Stampede",
+			'fr-fr': "Ruée",
+			'es-es': "Estampida",
+			'it-it': "Fuggi Fuggi",
+			'pt-br': "Estouro",
+			'de-de': "Zertrampeln"
 		},
 
 		damage: 20
@@ -76,7 +76,7 @@ const card: Card = {
 	illustrator: "Teeziro",
 
 	description: {
-		en: "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
+		'en-us': "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
 	},
 
 	thirdParty: {

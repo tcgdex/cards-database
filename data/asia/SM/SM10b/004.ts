@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カリキリ",
+		'ja-jp': "カリキリ",
 	},
 
 	illustrator: "Yuka Morii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "日が 昇ると ４枚の 葉っぱを 広げ 日光浴。 頭の 先から いい 匂いが するよ。",
+		'ja-jp': "日が 昇ると ４枚の 葉っぱを 広げ 日光浴。 頭の 先から いい 匂いが するよ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "あまいかおり" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のポケモン1匹のHPを「30」回復する。",
+				'ja-jp': "自分のポケモン1匹のHPを「30」回復する。",
 			},
 		},
 		{

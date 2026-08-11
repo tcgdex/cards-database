@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒドイデ",
+		'ja-jp': "ヒドイデ",
 	},
 
 	illustrator: "match",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "頭に ある 毒トゲで 獲物を ズブリ。 弱ったところを １０本の 触手で 捕らえ 止めを 刺す。",
+		'ja-jp': "頭に ある 毒トゲで 獲物を ズブリ。 弱ったところを １０本の 触手で 捕らえ 止めを 刺す。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "どくばり" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 			},
 		},
 	],

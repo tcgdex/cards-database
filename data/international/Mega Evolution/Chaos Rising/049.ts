@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It emits ultrasonic waves from its mouth to check its surroundings. Even in tight caves, Zubat flies around with skill.",
+		'en-us': "It emits ultrasonic waves from its mouth to check its surroundings. Even in tight caves, Zubat flies around with skill.",
 	},
 
 
 	name: {
-		en: "Zubat",
-		fr: "Nosferapti",
-		es: "Zubat",
+		'en-us': "Zubat",
+		'fr-fr': "Nosferapti",
+		'es-es': "Zubat",
 		'es-mx': "Zubat",
-		de: "Zubat",
-		it: "Zubat",
-		pt: "Zubat"
+		'de-de': "Zubat",
+		'it-it': "Zubat",
+		'pt-br': "Zubat"
 	},
 
 	illustrator: "Mékayu",
@@ -29,25 +29,25 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Supersonic",
-			fr: "Ultrason",
-			es: "Supersónico",
+			'en-us': "Supersonic",
+			'fr-fr': "Ultrason",
+			'es-es': "Supersónico",
 			'es-mx': "Supersónico",
-			de: "Superschall",
-			it: "Supersuono",
-			pt: "Supersônico"
+			'de-de': "Superschall",
+			'it-it': "Supersuono",
+			'pt-br': "Supersônico"
 		},
 
 		cost: ["Darkness"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
 			'es-mx': "El Pokémon Activo de tu rival ahora está Confundido.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso."
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso."
 		}
 	}],
 

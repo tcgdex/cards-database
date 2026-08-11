@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Houndour",
-		fr: "Malosse",
-		de: "Hunduster"
+		'en-us': "Houndour",
+		'fr-fr': "Malosse",
+		'de-de': "Hunduster"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Ember",
-				fr: "Flammèche",
-				de: "Glut"
+				'en-us': "Ember",
+				'fr-fr': "Flammèche",
+				'de-de': "Glut"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Fire Energy attached to Houndour.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Malosse.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" entferne 1 -Energie, die an Hunduster angelegt ist, und lege sie auf deinen Ablagestapel."
+				'en-us': "Flip a coin. If tails, discard a Fire Energy attached to Houndour.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Malosse.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" entferne 1 -Energie, die an Hunduster angelegt ist, und lege sie auf deinen Ablagestapel."
 			},
 			damage: 20,
 
@@ -49,9 +49,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Kick",
-				fr: "Coud'pattes",
-				de: "Schmetterkick"
+				'en-us': "Smash Kick",
+				'fr-fr': "Coud'pattes",
+				'de-de': "Schmetterkick"
 			},
 
 			damage: 20,
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It conveys its feelings using different cries. It works in a pack to cleverly take down prey.",
+		'en-us': "It conveys its feelings using different cries. It works in a pack to cleverly take down prey.",
 	},
 
 	thirdParty: {

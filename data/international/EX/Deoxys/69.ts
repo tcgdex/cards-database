@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Phanpy",
-		fr: "Phanpy",
-		de: "Phanpy"
+		'en-us': "Phanpy",
+		'fr-fr': "Phanpy",
+		'de-de': "Phanpy"
 	},
 
 	illustrator: "Yuka Morii",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Corkscrew Punch",
-				fr: "Poing en tire-bouchon",
-				de: "Corkscrew Punch"
+				'en-us': "Corkscrew Punch",
+				'fr-fr': "Poing en tire-bouchon",
+				'de-de': "Corkscrew Punch"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Spin",
-				fr: "Double tour",
-				de: "Double Spin"
+				'en-us': "Double Spin",
+				'fr-fr': "Double tour",
+				'de-de': "Double Spin"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 20 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 20 damage times the number of heads."
 			},
 			damage: "20x",
 

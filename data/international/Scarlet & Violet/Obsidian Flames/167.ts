@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Zigzaton",
-		en: "Zigzagoon",
-		es: "Zigzagoon",
-		it: "Zigzagoon",
-		pt: "Zigzagoon",
-		de: "Zigzachs"
+		'fr-fr': "Zigzaton",
+		'en-us': "Zigzagoon",
+		'es-es': "Zigzagoon",
+		'it-it': "Zigzagoon",
+		'pt-br': "Zigzagoon",
+		'de-de': "Zigzachs"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Culbute Surprise",
-			en: "Headbutt Bounce",
-			es: "Bote Cabezazo",
-			it: "Rimbalzo Bottintesta",
-			pt: "Cabeçada Ricochete",
-			de: "Abrupter Kopfstoß"
+			'fr-fr': "Culbute Surprise",
+			'en-us': "Headbutt Bounce",
+			'es-es': "Bote Cabezazo",
+			'it-it': "Rimbalzo Bottintesta",
+			'pt-br': "Cabeçada Ricochete",
+			'de-de': "Abrupter Kopfstoß"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Tranch'Griffe",
-			en: "Claw Slash",
-			es: "Cuchillada Garra",
-			it: "Lacerartiglio",
-			pt: "Golpe de Garra",
-			de: "Klauenschlitzer"
+			'fr-fr': "Tranch'Griffe",
+			'en-us': "Claw Slash",
+			'es-es': "Cuchillada Garra",
+			'it-it': "Lacerartiglio",
+			'pt-br': "Golpe de Garra",
+			'de-de': "Klauenschlitzer"
 		},
 
 		damage: 20
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "A Pokémon with abundant curiosity. It shows an interest in everything, so it always zigzags.",
+		'en-us': "A Pokémon with abundant curiosity. It shows an interest in everything, so it always zigzags.",
 	},
 
 	variants: [

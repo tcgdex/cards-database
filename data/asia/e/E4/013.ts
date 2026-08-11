@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "forretress",
+		'ja-jp': "forretress",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "外骨格",
+				'ja-jp': "外骨格",
 			},
 			effect: {
-				ja: "攻撃によってforretressへのすべての損傷は10増加します（衰弱と抵抗を適用した後）。",
+				'ja-jp': "攻撃によってforretressへのすべての損傷は10増加します（衰弱と抵抗を適用した後）。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "シェル破裂",
+				'ja-jp': "シェル破裂",
 			},
 			effect: {
-				ja: "この攻撃は、相手のベンチポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "この攻撃は、相手のベンチポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 		},
 		{
 			cost: ["Grass", "Colorless", "Colorless"],
 			name: {
-				ja: "ダブルスピン",
+				'ja-jp': "ダブルスピン",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の40回のダメージ倍になります。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の40回のダメージ倍になります。",
 			},
 		},
 	],

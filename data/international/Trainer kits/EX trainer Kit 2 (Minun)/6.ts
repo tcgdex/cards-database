@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit 2 (Minun).ts'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Minun",
-		fr: "Negapi"
+		'en-us': "Minun",
+		'fr-fr': "Negapi"
 	},
 
 	illustrator: "Katsura Tabata",
@@ -26,12 +26,12 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Drawup Power",
-			fr: "Pouvoir bloquant"
+			'en-us': "Drawup Power",
+			'fr-fr': "Pouvoir bloquant"
 		},
 		effect: {
-			en: "Search your deck for an Energy card, show it to your opponent, and put into your hand. Shuffle your deck afterward.",
-			fr: "Choisissez une carte Énergie dans votre deck, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck."
+			'en-us': "Search your deck for an Energy card, show it to your opponent, and put into your hand. Shuffle your deck afterward.",
+			'fr-fr': "Choisissez une carte Énergie dans votre deck, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck."
 		}
 	}, {
 		cost: [
@@ -39,12 +39,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Front Spark",
-			fr: "Étincelle avant"
+			'en-us': "Front Spark",
+			'fr-fr': "Étincelle avant"
 		},
 		effect: {
-			en: "Does 10 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+			'en-us': "Does 10 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
 		},
 		damage: 20
 	}],

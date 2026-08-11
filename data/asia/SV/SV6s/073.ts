@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Tadbulb"
+		'id-id': "Tadbulb"
 	},
 
 	illustrator: "nisimono",
@@ -14,21 +14,21 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Tadbulb mengambang menggunakan listrik yang tersimpan di tubuhnya. Pokémon ini mengambang lebih tinggi dibandingkan biasanya saat bercuaca awan petir."
+		'id-id': "Tadbulb mengambang menggunakan listrik yang tersimpan di tubuhnya. Pokémon ini mengambang lebih tinggi dibandingkan biasanya saat bercuaca awan petir."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Serudukan"
+			'id-id': "Serudukan"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Electro Ball"
+			'id-id': "Electro Ball"
 		},
 
 		damage: 20,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [208],
 
 	name: {
-		en: "Mega Steelix ex"
+		'en-us': "Mega Steelix ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Onix"
+		'en-us': "Onix"
 	},
 
 	description: {
-		en: "To protect itself from opponents' attacks, it uses\nmagnetism to control pieces of its hard outer\nshell that have flaked off."
+		'en-us': "To protect itself from opponents' attacks, it uses\nmagnetism to control pieces of its hard outer\nshell that have flaked off."
 	},
 
 	stage: "Stage1",
@@ -29,14 +29,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Adamantine Rolling"
+			'en-us': "Adamantine Rolling"
 		},
 
 		damage: 120,
 		cost: ["Metal", "Metal", "Colorless", "Colorless"],
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes  damage from attacks and has no Weakness."
+			'en-us': "During your opponent's next turn, this Pokémon takes  damage from attacks and has no Weakness."
 		}
 	}],
 

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Zekrom-EX",
+		'en-us': "Zekrom-EX",
 	},
 
 	illustrator: "Shizurow",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Glinting Claw",
+				'en-us': "Glinting Claw",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
 			},
 			damage: 50,
 
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strong Volt",
+				'en-us': "Strong Volt",
 			},
 			effect: {
-				en: "Discard 2 Energy attached to this Pokémon.",
+				'en-us': "Discard 2 Energy attached to this Pokémon.",
 			},
 			damage: 150,
 

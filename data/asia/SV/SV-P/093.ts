@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サナギラス",
+		'ja-jp': "サナギラス",
 		'zh-tw': "泰姆",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "体内で 圧縮させた ガスを 勢いよく 噴出させ 飛んで 暴れまわる サナギだ。",
+		'ja-jp': "体内で 圧縮させた ガスを 勢いよく 噴出させ 飛んで 暴れまわる サナギだ。",
 	},
 
 	stage: "Stage1",
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Fighting", "Fighting"],
 			effect: {
-				ja: "自分のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "自分のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヨーギラス",
+		'ja-jp': "ヨーギラス",
 	},
 
 	retreat: 1,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デンチュラex",
+		'ja-jp': "デンチュラex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "110+",
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが「ポケモンex・V」なら、110ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが「ポケモンex・V」なら、110ダメージ追加。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Grass", "Lightning", "Fighting"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、すべてトラッシュする。次の相手の番、相手は手札からグッズを出して使えない。",
+				'ja-jp': "このポケモンについているエネルギーを、すべてトラッシュする。次の相手の番、相手は手札からグッズを出して使えない。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "バチュル",
+		'ja-jp': "バチュル",
 	},
 
 	retreat: 1,

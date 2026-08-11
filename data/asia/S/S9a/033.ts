@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "奇魯莉安",
-		ja: "キルリア"
+		'ja-jp': "キルリア"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "當訓練家高興的時候，奇魯莉安會充滿能量， 開心地轉著圈跳舞。",
-		ja: "トレーナーが 喜ぶと キルリアに エネルギーが 満ちあふれ 楽しそうに くるくると 踊る。"
+		'ja-jp': "トレーナーが 喜ぶと キルリアに エネルギーが 満ちあふれ 楽しそうに くるくると 踊る。"
 	},
 
 	stage: "Stage1",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "瞬間移動突擊",
-			ja: "テレポートブレイク"
+			'ja-jp': "テレポートブレイク"
 		},
 
 		effect: {
 			'zh-tw': "將這隻寶可夢與備戰寶可夢互換。",
-			ja: "このポケモンをベンチポケモンと入れ替える。"
+			'ja-jp': "このポケモンをベンチポケモンと入れ替える。"
 		},
 
 		damage: 30,

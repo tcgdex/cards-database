@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Pikachu"
+		'en-us': "Lt. Surge's Pikachu"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pichu"
+		'en-us': "Pichu"
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Charge"
+				'en-us': "Charge"
 			},
 			effect: {
-				en: "Take 1 Lightning Energy card from your discard pile and attach it to Lt. Surge's Pikachu."
+				'en-us': "Take 1 Lightning Energy card from your discard pile and attach it to Lt. Surge's Pikachu."
 			},
 
 		},
@@ -44,10 +44,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Lightning Tail"
+				'en-us': "Lightning Tail"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 

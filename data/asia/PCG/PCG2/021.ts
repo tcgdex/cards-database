@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "staryu",
+		'ja-jp': "staryu",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "急速なスピン",
+				'ja-jp': "急速なスピン",
 			},
 			effect: {
-				ja: "対戦相手は、ベンチ付きポケモンの1つで防御ポケモンを切り替えます。ベンチ付きポケモンの1つでStaryuを切り替えます。",
+				'ja-jp': "対戦相手は、ベンチ付きポケモンの1つで防御ポケモンを切り替えます。ベンチ付きポケモンの1つでStaryuを切り替えます。",
 			},
 			damage: 10,
 		},

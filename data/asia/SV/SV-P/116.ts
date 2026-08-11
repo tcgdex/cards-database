@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポリゴン2",
+		'ja-jp': "ポリゴン2",
 	},
 
 	illustrator: "GOSSAN",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ＡＩ機能を 搭載した 結果 ポリゴン２ 同士にしか わからない 謎の 言語を 話しはじめた。",
+		'ja-jp': "ＡＩ機能を 搭載した 結果 ポリゴン２ 同士にしか わからない 謎の 言語を 話しはじめた。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],
@@ -43,7 +43,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ポリゴン",
+		'ja-jp': "ポリゴン",
 	},
 
 	retreat: 1,

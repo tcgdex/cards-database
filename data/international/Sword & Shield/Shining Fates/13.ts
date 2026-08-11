@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Gorythmic",
-		en: "Rillaboom",
-		es: "Rillaboom",
-		it: "Rillaboom",
-		pt: "Rillaboom",
-		de: "Gortrom"
+		'fr-fr': "Gorythmic",
+		'en-us': "Rillaboom",
+		'es-es': "Rillaboom",
+		'it-it': "Rillaboom",
+		'pt-br': "Rillaboom",
+		'de-de': "Gortrom"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -21,40 +21,40 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		fr: "Badabouin",
-		en: "Thwackey"
+		'fr-fr': "Badabouin",
+		'en-us': "Thwackey"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			fr: "Rythme Voltaïque",
-			en: "Voltage Beat",
-			es: "Ritmo Voltaje",
-			it: "Battuta Folgorante",
-			pt: "Ritmo Voltaico",
-			de: "Blitztrommeln"
+			'fr-fr': "Rythme Voltaïque",
+			'en-us': "Voltage Beat",
+			'es-es': "Ritmo Voltaje",
+			'it-it': "Battuta Folgorante",
+			'pt-br': "Ritmo Voltaico",
+			'de-de': "Blitztrommeln"
 		},
 
 		effect: {
-			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck jusqu'à 2 cartes Énergie Grass, puis les attacher à l'un de vos Pokémon. Mélangez ensuite votre deck.",
-			en: "Once during your turn, you may search your deck for up to 2 Grass Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck.",
-			es: "Una vez durante tu turno, puedes buscar en tu baraja hasta 2 cartas de Energía Grass y unirlas a 1 de tus Pokémon. Después, baraja las cartas de tu baraja.",
-			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo fino a due carte Energia Grass e assegnarle a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
-			pt: "Uma vez durante o seu turno, você poderá procurar por até 2 cartas de Energia Grass no seu baralho e ligá-las a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho.",
-			de: "Einmal während deines Zuges kannst du dein Deck nach bis zu 2 Grass-Energiekarten durchsuchen und sie an 1 deiner Pokémon anlegen. Mische anschließend dein Deck."
+			'fr-fr': "Une fois pendant votre tour, vous pouvez chercher dans votre deck jusqu'à 2 cartes Énergie Grass, puis les attacher à l'un de vos Pokémon. Mélangez ensuite votre deck.",
+			'en-us': "Once during your turn, you may search your deck for up to 2 Grass Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck.",
+			'es-es': "Una vez durante tu turno, puedes buscar en tu baraja hasta 2 cartas de Energía Grass y unirlas a 1 de tus Pokémon. Después, baraja las cartas de tu baraja.",
+			'it-it': "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo fino a due carte Energia Grass e assegnarle a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Uma vez durante o seu turno, você poderá procurar por até 2 cartas de Energia Grass no seu baralho e ligá-las a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Einmal während deines Zuges kannst du dein Deck nach bis zu 2 Grass-Energiekarten durchsuchen und sie an 1 deiner Pokémon anlegen. Mische anschließend dein Deck."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			fr: "Enfoncement",
-			en: "Hammer In",
-			es: "Martillear",
-			it: "Martello",
-			pt: "Martelada",
-			de: "Einhämmern"
+			'fr-fr': "Enfoncement",
+			'en-us': "Hammer In",
+			'es-es': "Martillear",
+			'it-it': "Martello",
+			'pt-br': "Martelada",
+			'de-de': "Einhämmern"
 		},
 
 		damage: 140,
@@ -73,7 +73,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle."
+		'en-us': "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle."
 	},
 
 	variants: [

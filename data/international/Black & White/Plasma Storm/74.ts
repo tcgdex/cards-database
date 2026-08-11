@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Solrock",
-		fr: "Solaroc",
-		es: "Solrock",
-		it: "Solrock",
-		pt: "Solrock",
-		de: "Sonnfel"
+		'en-us': "Solrock",
+		'fr-fr': "Solaroc",
+		'es-es': "Solrock",
+		'it-it': "Solrock",
+		'pt-br': "Solrock",
+		'de-de': "Sonnfel"
 	},
 
 	illustrator: "Kouji Tajima",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Burn",
-				fr: "Chaleur Brûlante",
+				'en-us': "Heat Burn",
+				'fr-fr': "Chaleur Brûlante",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				'en-us': "The Defending Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé.",
 			},
 			damage: 20,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Explosion",
-				fr: "Explosion",
+				'en-us': "Explosion",
+				'fr-fr': "Explosion",
 			},
 			effect: {
-				en: "This Pokémon does 90 damage to itself.",
-				fr: "Ce Pokémon s'inflige 90 dégâts.",
+				'en-us': "This Pokémon does 90 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 90 dégâts.",
 			},
 			damage: 90,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Solar energy is the source of its power, so it is strong during the daytime. When it spins, its body shines.",
+		'en-us': "Solar energy is the source of its power, so it is strong during the daytime. When it spins, its body shines.",
 	},
 
 	thirdParty: {

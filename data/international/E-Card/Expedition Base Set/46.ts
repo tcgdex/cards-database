@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Feraligatr",
-		fr: "Aligatueur",
-		de: "Impergator"
+		'en-us': "Feraligatr",
+		'fr-fr': "Aligatueur",
+		'de-de': "Impergator"
 	},
 
 	illustrator: "Hiromichi Sugiyama",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Croconaw",
-		fr: "Crocrodil"
+		'en-us': "Croconaw",
+		'fr-fr': "Crocrodil"
 	},
 
 	stage: "Stage2",
@@ -34,9 +34,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Slash"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Slash"
 			},
 
 			damage: 20,
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Claw",
-				fr: "Combo-griffe",
-				de: "Double Claw"
+				'en-us': "Double Claw",
+				'fr-fr': "Combo-griffe",
+				'de-de': "Double Claw"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face.",
-				de: "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads."
+				'en-us': "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face.",
+				'de-de': "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads."
 			},
 			damage: "30+",
 

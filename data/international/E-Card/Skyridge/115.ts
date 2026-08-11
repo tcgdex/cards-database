@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Weedle",
-		de: "Hornliu"
+		'en-us': "Weedle",
+		'de-de': "Hornliu"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Entangling Thread",
-				de: "Einwickelnder Faden"
+				'en-us': "Entangling Thread",
+				'de-de': "Einwickelnder Faden"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -42,12 +42,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Horn",
-				de: "Gifthorn"
+				'en-us': "Poison Horn",
+				'de-de': "Gifthorn"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 		},

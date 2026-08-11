@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [95],
 
 	name: {
-		en: "Onix"
+		'en-us': "Onix"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It rapidly bores through the ground at 50 mph by\nsquirming and twisting its massive, rugged body."
+		'en-us': "It rapidly bores through the ground at 50 mph by\nsquirming and twisting its massive, rugged body."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Dig"
+			'en-us': "Dig"
 		},
 
 		damage: 30,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon."
+			'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon."
 		}
 	}],
 

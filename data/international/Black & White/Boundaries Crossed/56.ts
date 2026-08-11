@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Blitzle",
-		fr: "Zébibron",
-		es: "Blitzle",
-		it: "Blitzle",
-		pt: "Blitzle",
-		de: "Elezeba"
+		'en-us': "Blitzle",
+		'fr-fr': "Zébibron",
+		'es-es': "Blitzle",
+		'it-it': "Blitzle",
+		'pt-br': "Blitzle",
+		'de-de': "Elezeba"
 	},
 
 	illustrator: "Midori Harada",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Kick",
-				fr: "Coud'Pattes",
+				'en-us': "Smash Kick",
+				'fr-fr': "Coud'Pattes",
 			},
 
 			damage: 10,
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate.",
+		'en-us': "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate.",
 	},
 
 	thirdParty: {

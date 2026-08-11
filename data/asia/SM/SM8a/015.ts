@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨーギラス",
+		'ja-jp': "ヨーギラス",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "地底 奥深くで 生まれる。 まわりの 土を たいらげると 地上に 現われ サナギになる。",
+		'ja-jp': "地底 奥深くで 生まれる。 まわりの 土を たいらげると 地上に 現われ サナギになる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 	],

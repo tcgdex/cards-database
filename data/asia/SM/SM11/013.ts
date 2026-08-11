@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケイコウオ",
+		'ja-jp': "ケイコウオ",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ピンク色の 模様は 夜になると 光りだす。 ダイバーに 人気なので リゾート地では 餌付けされることも。",
+		'ja-jp': "ピンク色の 模様は 夜になると 光りだす。 ダイバーに 人気なので リゾート地では 餌付けされることも。",
 	},
 
 	stage: "Basic",

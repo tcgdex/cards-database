@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エレキブルex",
+		'ja-jp': "エレキブルex",
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "デュアルボルト" },
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "相手のポケモン2匹に、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン2匹に、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "180+",
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "このワザを使うためのエネルギーより、2個多くエネルギーがついているなら、100ダメージ追加。",
+				'ja-jp': "このワザを使うためのエネルギーより、2個多くエネルギーがついているなら、100ダメージ追加。",
 			},
 		},
 	],
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "エレブー",
+		'ja-jp': "エレブー",
 	},
 
 	retreat: 4,

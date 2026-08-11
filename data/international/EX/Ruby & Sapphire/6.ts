@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Dustox",
-		fr: "Papinox",
-		de: "Pudox"
+		'en-us': "Dustox",
+		'fr-fr': "Papinox",
+		'de-de': "Pudox"
 	},
 
 	illustrator: "Midori Harada",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cascoon",
-		fr: "Blindalys"
+		'en-us': "Cascoon",
+		'fr-fr': "Blindalys"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Protective Dust",
-				fr: "Poussière protectrice",
-				de: "Protective Dust"
+				'en-us': "Protective Dust",
+				'fr-fr': "Poussière protectrice",
+				'de-de': "Protective Dust"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, except damage, done to Dustox by the Attacking Pokémon.",
-				fr: "Prévenez tous les effets d'attaques, excepté les dégâts, infligés à Papinox par le Pokémon Attaquant.",
-				de: "Prevent all effects of attacks, except damage, done to Dustox by the Attacking Pokémon."
+				'en-us': "Prevent all effects of attacks, except damage, done to Dustox by the Attacking Pokémon.",
+				'fr-fr': "Prévenez tous les effets d'attaques, excepté les dégâts, infligés à Papinox par le Pokémon Attaquant.",
+				'de-de': "Prevent all effects of attacks, except damage, done to Dustox by the Attacking Pokémon."
 			}
 		},
 	],
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Toxic",
-				fr: "Toxik",
-				de: "Toxic"
+				'en-us': "Toxic",
+				'fr-fr': "Toxik",
+				'de-de': "Toxic"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez deux marqueurs de dégât sur le Pokémon Défenseur entre les deux tours.",
-				de: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the defending Pokémon between turns."
+				'en-us': "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné. Placez deux marqueurs de dégât sur le Pokémon Défenseur entre les deux tours.",
+				'de-de': "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the defending Pokémon between turns."
 			},
 
 		},
@@ -69,9 +69,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gust",
-				fr: "Tornade",
-				de: "Gust"
+				'en-us': "Gust",
+				'fr-fr': "Tornade",
+				'de-de': "Gust"
 			},
 
 			damage: 50,

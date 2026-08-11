@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [38],
 
 	name: {
-		en: "Alolan Ninetales ex"
+		'en-us': "Alolan Ninetales ex"
 	},
 
 	illustrator: "mashu",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Alolan Vulpix"
+		'en-us': "Alolan Vulpix"
 	},
 
 	stage: "Stage1",
@@ -25,14 +25,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Binding Snow"
+			'en-us': "Binding Snow"
 		},
 
 		damage: 80,
 		cost: ["Water", "Water"],
 
 		effect: {
-			en: "During your opponent's next turn, they can't take any Energy from their Energy Zone to attach to their Active Pokémon."
+			'en-us': "During your opponent's next turn, they can't take any Energy from their Energy Zone to attach to their Active Pokémon."
 		}
 	}],
 

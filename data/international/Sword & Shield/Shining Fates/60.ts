@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Recherches Professorales (Professeure Keteleeria)",
-		en: "Professor's Research (Professor Juniper)",
-		es: "Investigación de Profesores",
-		it: "Ricerca Accademica",
-		pt: "Pesquisa de Professores",
-		de: "Forschung des Professors"
+		'fr-fr': "Recherches Professorales (Professeure Keteleeria)",
+		'en-us': "Professor's Research (Professor Juniper)",
+		'es-es': "Investigación de Profesores",
+		'it-it': "Ricerca Accademica",
+		'pt-br': "Pesquisa de Professores",
+		'de-de': "Forschung des Professors"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -18,12 +18,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Défaussez votre main, puis piochez 7 cartes.",
-		en: "Discard your hand and draw 7 cards.",
-		es: "Descarta las cartas de tu mano y roba 7 cartas.",
-		it: "Scarta le carte che hai in mano e pesca sette carte.",
-		pt: "Descarte a sua mão e compre 7 cartas.",
-		de: "Lege deine Handkarten auf deinen Ablagestapel und ziehe 7 Karten."
+		'fr-fr': "Défaussez votre main, puis piochez 7 cartes.",
+		'en-us': "Discard your hand and draw 7 cards.",
+		'es-es': "Descarta las cartas de tu mano y roba 7 cartas.",
+		'it-it': "Scarta le carte che hai in mano e pesca sette carte.",
+		'pt-br': "Descarte a sua mão e compre 7 cartas.",
+		'de-de': "Lege deine Handkarten auf deinen Ablagestapel und ziehe 7 Karten."
 	},
 
 	trainerType: "Supporter",

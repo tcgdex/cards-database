@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Swalot",
-		fr: "Avaltout",
-		de: "Schlukwech"
+		'en-us': "Swalot",
+		'fr-fr': "Avaltout",
+		'de-de': "Schlukwech"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gulpin",
-		fr: "Gloupti"
+		'en-us': "Gulpin",
+		'fr-fr': "Gloupti"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blot",
-				fr: "Pâté",
-				de: "Blot"
+				'en-us': "Blot",
+				'fr-fr': "Pâté",
+				'de-de': "Blot"
 			},
 			effect: {
-				en: "Remove 1 damage counter from Swalot.",
-				fr: "Retirez à Avaltout un marqueur de dégât.",
-				de: "Remove 1 damage counter from Swalot."
+				'en-us': "Remove 1 damage counter from Swalot.",
+				'fr-fr': "Retirez à Avaltout un marqueur de dégât.",
+				'de-de': "Remove 1 damage counter from Swalot."
 			},
 			damage: 20,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Breath",
-				fr: "Haleine empoisonnée",
-				de: "Poisoned Breath"
+				'en-us': "Poison Breath",
+				'fr-fr': "Haleine empoisonnée",
+				'de-de': "Poisoned Breath"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "The Defending Pokémon is now Poisoned."
 			},
 			damage: 40,
 

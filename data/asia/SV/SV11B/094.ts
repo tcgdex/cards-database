@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カブルモ",
+		'ja-jp': "カブルモ",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "チョボマキと 一緒に いるときに 電気的な 刺激を 受けると 進化する 不思議な ポケモンだ。",
+		'ja-jp': "チョボマキと 一緒に いるときに 電気的な 刺激を 受けると 進化する 不思議な ポケモンだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "しげきしんか" },
 			effect: {
-				ja: "自分の場に「チョボマキ」がいるなら、このポケモンは、最初の自分の番や、出したばかりの番でも進化できる。",
+				'ja-jp': "自分の場に「チョボマキ」がいるなら、このポケモンは、最初の自分の番や、出したばかりの番でも進化できる。",
 			},
 		},
 	],

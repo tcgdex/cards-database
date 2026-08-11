@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ブロロン",
+		'ja-jp': "ブロロン",
 		'zh-tw': "噗隆隆",
-		th: "โบรรอน",
-		id: "Varoom"
+		'th-th': "โบรรอน",
+		'id-id': "Varoom"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "スクラップ工場に 放置された エンジンに 謎の 毒ポケモンが 入り込んで 生まれたと 言われる。",
+		'ja-jp': "スクラップ工場に 放置された エンジンに 謎の 毒ポケモンが 入り込んで 生まれたと 言われる。",
 		'zh-tw': "據說牠是神秘的毒寶可夢鑽進了被放置在廢鐵工廠 的引擎裡而誕生的。",
-		th: "ว่ากันว่าเกิดจากการที่โปเกมอนพิษปริศนาเข้าไปในเครื่องยนต์ที่ถูกทิ้งไว้ในโรงงานเศษเหล็ก",
-		id: "Dikatakan bahwa Varoom terlahir dari Pokémon racun misterius yang masuk ke dalam mesin terbengkalai di pabrik besi bekas."
+		'th-th': "ว่ากันว่าเกิดจากการที่โปเกมอนพิษปริศนาเข้าไปในเครื่องยนต์ที่ถูกทิ้งไว้ในโรงงานเศษเหล็ก",
+		'id-id': "Dikatakan bahwa Varoom terlahir dari Pokémon racun misterius yang masuk ke dalam mesin terbengkalai di pabrik besi bekas."
 	},
 
 	stage: "Basic",
@@ -31,17 +31,17 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "どくガス",
+			'ja-jp': "どくガス",
 			'zh-tw': "毒瓦斯",
-			th: "ก๊าซพิษ",
-			id: "Gas Beracun"
+			'th-th': "ก๊าซพิษ",
+			'id-id': "Gas Beracun"
 		},
 
 		effect: {
-			ja: "相手のバトルポケモンをどくにする。",
+			'ja-jp': "相手のバトルポケモンをどくにする。",
 			'zh-tw': "將對手的戰鬥寶可夢【中毒】。",
-			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[พิษ]",
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Racun."
+			'th-th': "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[พิษ]",
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Racun."
 		}
 	}],
 

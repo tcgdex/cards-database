@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コダック",
+		'ja-jp': "コダック",
 	},
 
 	illustrator: "Shibuzoh.",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "自分の 意思とは 関係なく 時折 念力が でてきて 頭が 痛くて 鳴いている。",
+		'ja-jp': "自分の 意思とは 関係なく 時折 念力が でてきて 頭が 痛くて 鳴いている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "へんなねんぱ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "おたがいのバトルポケモンを、それぞれこんらんにする。",
+				'ja-jp': "おたがいのバトルポケモンを、それぞれこんらんにする。",
 			},
 		},
 	],

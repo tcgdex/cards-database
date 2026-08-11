@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "テツノコウベ",
+		'ja-jp': "テツノコウベ",
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "古い 書物に 記された テツノコウベという 物体は このポケモンかも しれない。",
+		'ja-jp': "古い 書物に 記された テツノコウベという 物体は このポケモンかも しれない。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "オートマーシャル" },
 			effect: {
-				ja: "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを3個のせる。",
+				'ja-jp': "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを3個のせる。",
 			},
 		},
 	],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Joltik",
-		fr: "Statitik",
-		es: "Joltik",
-		it: "Joltik",
-		pt: "Joltik",
-		de: "Wattzapf"
+		'en-us': "Joltik",
+		'fr-fr': "Statitik",
+		'es-es': "Joltik",
+		'it-it': "Joltik",
+		'pt-br': "Joltik",
+		'de-de': "Wattzapf"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Attach",
-				fr: "Accrochage",
-				es: "Pegarse",
-				it: "Appiccicoso",
-				pt: "Conectar",
-				de: "Festkleben"
+				'en-us': "Attach",
+				'fr-fr': "Accrochage",
+				'es-es': "Pegarse",
+				'it-it': "Appiccicoso",
+				'pt-br': "Conectar",
+				'de-de': "Festkleben"
 			},
 
 			damage: 10,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch.",
+		'en-us': "They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch.",
 	},
 
 	thirdParty: {

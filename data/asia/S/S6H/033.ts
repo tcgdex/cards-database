@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラルトス",
+		'ja-jp': "ラルトス",
 		'zh-tw': "拉魯拉絲",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "赤いツノで 人や ポケモンの 温かな 気持ちを キャッチすると 全身が ほのかに 熱くなる。",
+		'ja-jp': "赤いツノで 人や ポケモンの 温かな 気持ちを キャッチすると 全身が ほのかに 熱くなる。",
 		'zh-tw': "用紅色的角感知到人和寶可夢的溫情後，全身也會變得有點暖暖的。",
 	},
 
@@ -25,7 +25,7 @@ const card: Card = {
 			name: { ja: "あやしいひかり" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 	],

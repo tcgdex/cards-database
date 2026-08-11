@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Kadabra",
-		fr: "Kadabra",
-		de: "Kadabra"
+		'en-us': "Kadabra",
+		'fr-fr': "Kadabra",
+		'de-de': "Kadabra"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Abra",
-		fr: "Abra"
+		'en-us': "Abra",
+		'fr-fr': "Abra"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Recall",
-				fr: "Rappel d'énergie",
-				de: "Energierückgewinnung"
+				'en-us': "Energy Recall",
+				'fr-fr': "Rappel d'énergie",
+				'de-de': "Energierückgewinnung"
 			},
 			effect: {
-				en: "Attach 2 basic Energy cards from your discard pile to Kadabra (1 if you have only 1).",
-				fr: "Attachez 2 cartes Énergie de base de votre pile de défausse à Kadabra (1 seule si vous n'en avez qu'une).",
-				de: "Lege 2 Basis-Energiekarten aus deinem Ablagestapel an Kadabra an (1, wenn du nur 1 hast)."
+				'en-us': "Attach 2 basic Energy cards from your discard pile to Kadabra (1 if you have only 1).",
+				'fr-fr': "Attachez 2 cartes Énergie de base de votre pile de défausse à Kadabra (1 seule si vous n'en avez qu'une).",
+				'de-de': "Lege 2 Basis-Energiekarten aus deinem Ablagestapel an Kadabra an (1, wenn du nur 1 hast)."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde folie",
-				de: "Konfustrahl"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde folie",
+				'de-de': "Konfustrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 

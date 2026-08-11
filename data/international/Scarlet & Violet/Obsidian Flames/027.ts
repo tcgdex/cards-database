@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Reptincel",
-		en: "Charmeleon",
-		es: "Charmeleon",
-		it: "Charmeleon",
-		pt: "Charmeleon",
-		de: "Glutexo"
+		'fr-fr': "Reptincel",
+		'en-us': "Charmeleon",
+		'es-es': "Charmeleon",
+		'it-it': "Charmeleon",
+		'pt-br': "Charmeleon",
+		'de-de': "Glutexo"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Fire"],
 	evolveFrom: {
-		fr: "Salamèche",
-		en: "Charmander",
-		es: "Charmander",
-		it: "Charmander",
-		pt: "Charmander",
-		de: "Glumanda"
+		'fr-fr': "Salamèche",
+		'en-us': "Charmander",
+		'es-es': "Charmander",
+		'it-it': "Charmander",
+		'pt-br': "Charmander",
+		'de-de': "Glumanda"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			fr: "Charge Énergétique",
-			en: "Heat Tackle",
-			es: "Placaje Ardiente",
-			it: "Calorazione",
-			pt: "Golpe de Colisão Aquecido",
-			de: "Hitze-Tackle"
+			'fr-fr': "Charge Énergétique",
+			'en-us': "Heat Tackle",
+			'es-es': "Placaje Ardiente",
+			'it-it': "Calorazione",
+			'pt-br': "Golpe de Colisão Aquecido",
+			'de-de': "Hitze-Tackle"
 		},
 
 		effect: {
-			fr: "Ce Pokémon s'inflige aussi 20 dégâts.",
-			en: "This Pokémon also does 20 damage to itself.",
-			es: "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 20 danni a se stesso.",
-			pt: "Este Pokémon também causa 20 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu."
+			'fr-fr': "Ce Pokémon s'inflige aussi 20 dégâts.",
+			'en-us': "This Pokémon also does 20 damage to itself.",
+			'es-es': "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 20 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 20 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu."
 		},
 
 		damage: 70
@@ -62,7 +62,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.",
+		'en-us': "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.",
 	},
 
 	variants: [

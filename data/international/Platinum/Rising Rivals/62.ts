@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Gliscor E4",
-		fr: "Scorvol  Niv. 53",
-		de: "Skorgo 4"
+		'en-us': "Gliscor E4",
+		'fr-fr': "Scorvol  Niv. 53",
+		'de-de': "Skorgo 4"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -27,9 +27,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Irongrip",
-				fr: "Poigne de fer",
-				de: "Eiserner Griff"
+				'en-us': "Irongrip",
+				'fr-fr': "Poigne de fer",
+				'de-de': "Eiserner Griff"
 			},
 
 			damage: 10,
@@ -41,14 +41,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Loaded Needle",
-				fr: "Aiguille chargée",
-				de: "Geladene Nadel"
+				'en-us': "Loaded Needle",
+				'fr-fr': "Aiguille chargée",
+				'de-de': "Geladene Nadel"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 30 more damage. If tails, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 30 dégâts supplémentaires. Si c'est pile, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 30 weitere Schadenspunkte zu. Bei \"Zahl\" ist das Verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 30 more damage. If tails, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 30 dégâts supplémentaires. Si c'est pile, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 30 weitere Schadenspunkte zu. Bei \"Zahl\" ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 			damage: "10+",
 

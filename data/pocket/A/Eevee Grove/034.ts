@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sylveon ex",
-		fr: "Nymphali-ex"
+		'en-us': "Sylveon ex",
+		'fr-fr': "Nymphali-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Eevee"
+		'en-us': "Eevee"
 	},
 
 	stage: "Stage1",
@@ -28,20 +28,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Happy Ribbon",
-			fr: "Ruban du Bonheur"
+			'en-us': "Happy Ribbon",
+			'fr-fr': "Ruban du Bonheur"
 		},
 
 		effect: {
-			en: "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may draw 2 cards.",
-			fr: "Une fois lors de votre tour, lorsque vous jouez ce Pokémon de votre main pour faire évoluer un de vos Pokémon, vous pouvez piocher 2 cartes."
+			'en-us': "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may draw 2 cards.",
+			'fr-fr': "Une fois lors de votre tour, lorsque vous jouez ce Pokémon de votre main pour faire évoluer un de vos Pokémon, vous pouvez piocher 2 cartes."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Fairy Wind",
-			fr: "Vent Féérique"
+			'en-us': "Fairy Wind",
+			'fr-fr': "Vent Féérique"
 		},
 
 		damage: 70,

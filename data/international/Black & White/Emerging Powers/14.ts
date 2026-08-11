@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Lilligant",
-		fr: "Fragilady",
-		es: "Lilligant",
-		it: "Lilligant",
-		pt: "Lilligant",
-		de: "Dressella"
+		'en-us': "Lilligant",
+		'fr-fr': "Fragilady",
+		'es-es': "Lilligant",
+		'it-it': "Lilligant",
+		'pt-br': "Lilligant",
+		'de-de': "Dressella"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Petilil",
-		fr: "Chlorobule",
+		'en-us': "Petilil",
+		'fr-fr': "Chlorobule",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Bemusing Aroma",
-				fr: "Parfum Troublant",
+				'en-us': "Bemusing Aroma",
+				'fr-fr': "Parfum Troublant",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned. If tails, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné. Si c'est pile, le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned. If tails, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné. Si c'est pile, le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: 20,
 
@@ -56,8 +56,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cut",
-				fr: "Coupe",
+				'en-us': "Cut",
+				'fr-fr': "Coupe",
 			},
 
 			damage: 60,
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Even veteran Trainers face a challenge in getting its beautiful flower to bloom. This Pokémon is popular with celebrities.",
+		'en-us': "Even veteran Trainers face a challenge in getting its beautiful flower to bloom. This Pokémon is popular with celebrities.",
 	},
 
 	thirdParty: {

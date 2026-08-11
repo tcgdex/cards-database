@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Nのレシラム",
+		'ja-jp': "Nのレシラム",
 	},
 
 	illustrator: "rika",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "人が 真実を 蔑ろにして 欲に まみれると 炎で 国を 焼きつくすと 神話に 描かれた。",
+		'ja-jp': "人が 真実を 蔑ろにして 欲に まみれると 炎で 国を 焼きつくすと 神話に 描かれた。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Fire", "Lightning"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数×20ダメージ。",
+				'ja-jp': "このポケモンにのっているダメカンの数×20ダメージ。",
 			},
 		},
 		{

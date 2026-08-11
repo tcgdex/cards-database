@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルギアGX",
+		'ja-jp': "ルギアGX",
 	},
 
 	illustrator: "",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数x30ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数x30ダメージ追加。",
 			},
 		},
 		{
@@ -28,14 +28,14 @@ const card: Card = {
 			damage: 170,
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「わだつみのやいば」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「わだつみのやいば」が使えない。",
 			},
 		},
 		{
 			name: { ja: "ロストパージGX" },
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンと、ついているすべてのカードを、ロストゾーンに置く。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のバトルポケモンと、ついているすべてのカードを、ロストゾーンに置く。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

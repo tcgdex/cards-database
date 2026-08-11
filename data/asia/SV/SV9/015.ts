@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "Nのダルマッカ",
+		'ja-jp': "Nのダルマッカ",
 		'zh-tw': "N的火紅不倒翁",
 		'zh-cn': "N的火紅不倒翁"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "寝ているときは 押しても 引いても けっして 倒れない。 縁起ものの モチーフとして 人気が 高い。",
+		'ja-jp': "寝ているときは 押しても 引いても けっして 倒れない。 縁起ものの モチーフとして 人気が 高い。",
 		'zh-tw': "在牠睡覺的時候， 無論是推是拉，牠都不會倒下。 因為象徵著吉利而大受歡迎。",
 		'zh-cn': "在牠睡覺的時候， 無論是推是拉，牠都不會倒下。 因為象徵著吉利而大受歡迎。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ころがりタックル",
+			'ja-jp': "ころがりタックル",
 			'zh-tw': "滾動衝撞",
 			'zh-cn': "滾動衝撞"
 		},
@@ -39,7 +39,7 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			ja: "ほのお",
+			'ja-jp': "ほのお",
 			'zh-tw': "火焰",
 			'zh-cn': "火焰"
 		},

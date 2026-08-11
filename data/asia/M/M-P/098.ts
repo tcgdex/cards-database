@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シュシュプ",
+		'ja-jp': "シュシュプ",
 	},
 
 	illustrator: "Terada Tera",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "昔の 貴婦人たちは 香水の かわりに 好みの 香りを 出す シュシュプを 連れていたという。",
+		'ja-jp': "昔の 貴婦人たちは 香水の かわりに 好みの 香りを 出す シュシュプを 連れていたという。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "あまいかおり" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のポケモン1匹のHPを「30」回復する。",
+				'ja-jp': "自分のポケモン1匹のHPを「30」回復する。",
 			},
 		},
 		{

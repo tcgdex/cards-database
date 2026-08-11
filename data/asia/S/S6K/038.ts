@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガマガル",
+		'ja-jp': "ガマガル",
 		'zh-tw': "藍蟾蜍",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "きれいな 声で 鳴くこともある。 体の 突起が 大きいほど 広い 音域で 鳴けるのだ。",
+		'ja-jp': "きれいな 声で 鳴くこともある。 体の 突起が 大きいほど 広い 音域で 鳴けるのだ。",
 		'zh-tw': "有時也會發出悅耳的叫聲。身上突起物越大的藍蟾蜍越能以更廣的音域來鳴叫。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ふむ",
+				'ja-jp': "ふむ",
 				'zh-tw': "踩",
 			},
 			damage: 20,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ベロではたく",
+				'ja-jp': "ベロではたく",
 				'zh-tw': "舌擊",
 			},
 			damage: 50,
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "オタマロ",
+		'ja-jp': "オタマロ",
 	},
 
 	retreat: 3,

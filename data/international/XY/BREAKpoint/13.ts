@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Camerupt",
-		fr: "Camérupt",
-		es: "Camerupt",
-		it: "Camerupt",
-		pt: "Camerupt",
-		de: "Camerupt"
+		'en-us': "Camerupt",
+		'fr-fr': "Camérupt",
+		'es-es': "Camerupt",
+		'it-it': "Camerupt",
+		'pt-br': "Camerupt",
+		'de-de': "Camerupt"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Numel",
-		fr: "Chamallot",
-		es: "Numel",
-		it: "Numel",
-		pt: "Numel",
-		de: "Camaub"
+		'en-us': "Numel",
+		'fr-fr': "Chamallot",
+		'es-es': "Numel",
+		'it-it': "Numel",
+		'pt-br': "Numel",
+		'de-de': "Camaub"
 	},
 
 	stage: "Stage1",
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 30,
@@ -62,20 +62,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Eruption",
-				fr: "Éruption",
-				es: "Estallido",
-				it: "Eruzione",
-				pt: "Erupção",
-				de: "Eruption"
+				'en-us': "Eruption",
+				'fr-fr': "Éruption",
+				'es-es': "Estallido",
+				'it-it': "Eruzione",
+				'pt-br': "Erupção",
+				'de-de': "Eruption"
 			},
 			effect: {
-				en: "Each player discards the top card of his or her deck. This attack does 60 more damage for each Energy card discarded in this way.",
-				fr: "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 60 dégâts supplémentaires pour chaque carte Énergie défaussée de cette façon.",
-				es: "Cada jugador descarta la primera carta de su baraja. Este ataque hace 60 puntos de daño más por cada carta de Energía descartada de esta manera.",
-				it: "Ciascun giocatore scarta la prima carta del proprio mazzo. Questo attacco infligge 60 danni in più per ogni carta Energia scartata in questo modo.",
-				pt: "Cada jogador descarta o card de cima do próprio baralho. Este ataque causa 60 de danos adicionais para cada card de Energia descartado desta forma.",
-				de: "Jeder Spieler legt die oberste Karte seines Decks auf seinen Ablagestapel. Dieser Angriff fügt 60 weitere Schadenspunkte für jede Energie zu, die auf diese Weise auf den Ablagestapel gelegt wurde."
+				'en-us': "Each player discards the top card of his or her deck. This attack does 60 more damage for each Energy card discarded in this way.",
+				'fr-fr': "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 60 dégâts supplémentaires pour chaque carte Énergie défaussée de cette façon.",
+				'es-es': "Cada jugador descarta la primera carta de su baraja. Este ataque hace 60 puntos de daño más por cada carta de Energía descartada de esta manera.",
+				'it-it': "Ciascun giocatore scarta la prima carta del proprio mazzo. Questo attacco infligge 60 danni in più per ogni carta Energia scartata in questo modo.",
+				'pt-br': "Cada jogador descarta o card de cima do próprio baralho. Este ataque causa 60 de danos adicionais para cada card de Energia descartado desta forma.",
+				'de-de': "Jeder Spieler legt die oberste Karte seines Decks auf seinen Ablagestapel. Dieser Angriff fügt 60 weitere Schadenspunkte für jede Energie zu, die auf diese Weise auf den Ablagestapel gelegt wurde."
 			},
 			damage: "80+",
 
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "If angered, the humps on its back erupt in a shower of molten lava. It lives in the craters of volcanoes.",
+		'en-us': "If angered, the humps on its back erupt in a shower of molten lava. It lives in the craters of volcanoes.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Nidoking",
-		fr: "Nidoking",
-		de: "Nidoking"
+		'en-us': "Nidoking",
+		'fr-fr': "Nidoking",
+		'de-de': "Nidoking"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidorino",
-		fr: "Nidorino"
+		'en-us': "Nidorino",
+		'fr-fr': "Nidorino"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Earth Rage",
-				fr: "Frénésie-terre",
-				de: "Earth Rage"
+				'en-us': "Earth Rage",
+				'fr-fr': "Frénésie-terre",
+				'de-de': "Earth Rage"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Nidoking is your Active Pokémon, you may flip a coin. If heads, put a damage counter on each of your opponent's Benched Pokémon. This power can't be used if Nidoking is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), si Nidoking est votre Pokémon Actif, vous pouvez lancer une pièce. Si c'est face, placez un marqueur de dégâts sur chacun des Pokémon du Banc de votre adversaire. Ce pouvoir ne peut pas être utilisé si Nidoking est affecté par un État spécial.",
-				de: "Once during your turn (before your attack), if Nidoking is your Active Pokémon, you may flip a coin. If heads, put a damage counter on each of your opponent's Benched Pokémon. This power can't be used if Nidoking is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), if Nidoking is your Active Pokémon, you may flip a coin. If heads, put a damage counter on each of your opponent's Benched Pokémon. This power can't be used if Nidoking is affected by a Special Condition.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), si Nidoking est votre Pokémon Actif, vous pouvez lancer une pièce. Si c'est face, placez un marqueur de dégâts sur chacun des Pokémon du Banc de votre adversaire. Ce pouvoir ne peut pas être utilisé si Nidoking est affecté par un État spécial.",
+				'de-de': "Once during your turn (before your attack), if Nidoking is your Active Pokémon, you may flip a coin. If heads, put a damage counter on each of your opponent's Benched Pokémon. This power can't be used if Nidoking is affected by a Special Condition."
 			}
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giant Horn",
-				fr: "Corne géante",
-				de: "Giant Horn"
+				'en-us': "Giant Horn",
+				'fr-fr': "Corne géante",
+				'de-de': "Giant Horn"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 50 damage plus 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 50 damage plus 30 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 50 damage plus 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "Flip a coin. If heads, this attack does 50 damage plus 30 more damage."
 			},
 			damage: "50+",
 

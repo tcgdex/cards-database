@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モロバレル",
+		'ja-jp': "モロバレル",
 	},
 
 	illustrator: "Kurata So",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "両腕の モンスターボールに 似た カサを ゆらゆらと 動かして 獲物を 誘う ダンスを 踊る。",
+		'ja-jp': "両腕の モンスターボールに 似た カサを ゆらゆらと 動かして 獲物を 誘う ダンスを 踊る。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが特殊状態なら、120ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが特殊状態なら、120ダメージ追加。",
 			},
 		},
 		{
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "タマゲタケ",
+		'ja-jp': "タマゲタケ",
 	},
 
 	retreat: 2,

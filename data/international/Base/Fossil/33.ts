@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fossil'
 
 const card: Card = {
 	name: {
-		en: "Gastly",
-		fr: "Fantominus",
-		de: "Nebulak"
+		'en-us': "Gastly",
+		'fr-fr': "Fantominus",
+		'de-de': "Nebulak"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Lick",
-				fr: "Léchouille",
-				de: "Schlecker"
+				'en-us': "Lick",
+				'fr-fr': "Léchouille",
+				'de-de': "Schlecker"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Energy Conversion",
-				fr: "Conversion d'Énergie",
-				de: "Energieverwandlung"
+				'en-us': "Energy Conversion",
+				'fr-fr': "Conversion d'Énergie",
+				'de-de': "Energieverwandlung"
 			},
 			effect: {
-				en: "Put up to 2 Energy cards from your discard pile into your hand. Gastly does 10 damage to itself.",
-				fr: "Placez jusqu'à 2 cartes Énergie de votre pile de défausse dans votre main. Fantominus s'inflige 10 dégâts.",
-				de: "Nimm bis zu zwei Energiekarten von deinem Ablagestapel auf deine hand. nebulak fügt sich selbst 10 schadenspunkte zu."
+				'en-us': "Put up to 2 Energy cards from your discard pile into your hand. Gastly does 10 damage to itself.",
+				'fr-fr': "Placez jusqu'à 2 cartes Énergie de votre pile de défausse dans votre main. Fantominus s'inflige 10 dégâts.",
+				'de-de': "Nimm bis zu zwei Energiekarten von deinem Ablagestapel auf deine hand. nebulak fügt sich selbst 10 schadenspunkte zu."
 			},
 
 		},
@@ -70,8 +70,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "A mysterious Pokémon. Some say it is a lifeform from another dimension, while other believe it is formed from smog.",
-		fr: "Un Pokémon mystérieux. Certains pensent qu'il vient d'une autre dimension, d'autres croient qu'il est formé de brouillard."
+		'en-us': "A mysterious Pokémon. Some say it is a lifeform from another dimension, while other believe it is formed from smog.",
+		'fr-fr': "Un Pokémon mystérieux. Certains pensent qu'il vient d'une autre dimension, d'autres croient qu'il est formé de brouillard."
 	},
 
 

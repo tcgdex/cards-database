@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Omanyte",
-		de: "Amonitas"
+		'en-us': "Omanyte",
+		'de-de': "Amonitas"
 	},
 
 	illustrator: "Aya Kusube",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Helix Fossil"
+		'en-us': "Helix Fossil"
 	},
 
 	stage: "Stage1",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Collect",
-				de: "Sammeln"
+				'en-us': "Collect",
+				'de-de': "Sammeln"
 			},
 			effect: {
-				en: "Draw 3 cards.",
-				de: "Ziehe 3 Karten"
+				'en-us': "Draw 3 cards.",
+				'de-de': "Ziehe 3 Karten"
 			},
 
 		},
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tickle",
-				de: "Spaßkanone"
+				'en-us': "Tickle",
+				'de-de': "Spaßkanone"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas."
+		'en-us': "A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas."
 	},
 
 	variants: [

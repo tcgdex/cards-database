@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Lucario",
-		fr: "Lucario",
-		es: "Lucario",
-		it: "Lucario",
-		pt: "Lucario",
-		de: "Lucario"
+		'en-us': "Lucario",
+		'fr-fr': "Lucario",
+		'es-es': "Lucario",
+		'it-it': "Lucario",
+		'pt-br': "Lucario",
+		'de-de': "Lucario"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Riolu",
-		fr: "Riolu",
-		es: "Riolu",
-		it: "Riolu",
-		pt: "Riolu",
-		de: "Riolu"
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
+		'es-es': "Riolu",
+		'it-it': "Riolu",
+		'pt-br': "Riolu",
+		'de-de': "Riolu"
 	},
 
 	stage: "Stage1",
@@ -43,12 +43,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Beatdown",
-				fr: "Dérouillée",
-				es: "Derrumbar",
-				it: "Batosta",
-				pt: "Abater",
-				de: "Niederprügler"
+				'en-us': "Beatdown",
+				'fr-fr': "Dérouillée",
+				'es-es': "Derrumbar",
+				'it-it': "Batosta",
+				'pt-br': "Abater",
+				'de-de': "Niederprügler"
 			},
 
 			damage: 40,
@@ -61,12 +61,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnum Kick",
-				fr: "Coup d'Pied Magnum",
-				es: "Patada Mágnum",
-				it: "Supercalcio",
-				pt: "Chute Magnum",
-				de: "Magnumtritt"
+				'en-us': "Magnum Kick",
+				'fr-fr': "Coup d'Pied Magnum",
+				'es-es': "Patada Mágnum",
+				'it-it': "Supercalcio",
+				'pt-br': "Chute Magnum",
+				'de-de': "Magnumtritt"
 			},
 
 			damage: 70,
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "By reading the auras of all things, it can tell how others are feeling from over half a mile away.",
+		'en-us': "By reading the auras of all things, it can tell how others are feeling from over half a mile away.",
 	},
 
 	thirdParty: {

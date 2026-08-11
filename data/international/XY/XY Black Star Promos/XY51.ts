@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Kyogre",
-		fr: "Kyogre",
+		'en-us': "Kyogre",
+		'fr-fr': "Kyogre",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spring Tides",
-				fr: "Marée Naissante",
+				'en-us': "Spring Tides",
+				'fr-fr': "Marée Naissante",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: "30×",
 
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ocean Cyclone",
-				fr: "Cyclone Océanique"
+				'en-us': "Ocean Cyclone",
+				'fr-fr': "Cyclone Océanique"
 			},
 			effect: {
-				en: "This attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+				'en-us': "This attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 80,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench.",
+		'en-us': "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Grotle",
-		fr: "Boskara",
-		de: "Chelcarain"
+		'en-us': "Grotle",
+		'fr-fr': "Boskara",
+		'de-de': "Chelcarain"
 	},
 
 	illustrator: "match",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Turtwig",
-		fr: "Tortipouss"
+		'en-us': "Turtwig",
+		'fr-fr': "Tortipouss"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch’herbe",
-				de: "Rasierblatt"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch’herbe",
+				'de-de': "Rasierblatt"
 			},
 
 			damage: 30,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleep Powder",
-				fr: "Poudre dodo",
-				de: "Schlafpuder"
+				'en-us': "Sleep Powder",
+				'fr-fr': "Poudre dodo",
+				'de-de': "Schlafpuder"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Endormi.",
-				de: "Wirf eine Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt."
 			},
 			damage: 50,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A Grotle that lives in the forest is said to have its own secret springwater."
+		'en-us': "A Grotle that lives in the forest is said to have its own secret springwater."
 	},
 
 	variants: [

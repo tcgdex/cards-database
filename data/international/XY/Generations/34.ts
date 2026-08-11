@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Haunter",
-		fr: "Spectrum",
+		'en-us': "Haunter",
+		'fr-fr': "Spectrum",
 	},
 
 	illustrator: "Midori Harada",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gastly",
-		fr: "Fantominus",
+		'en-us': "Gastly",
+		'fr-fr': "Fantominus",
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Gothic Fear",
-				fr: "Peur Gothique",
+				'en-us': "Gothic Fear",
+				'fr-fr': "Peur Gothique",
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may leave both Active Pokémon Confused.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon, vous pouvez laisser les deux Pokémon Actifs Confus.",
+				'en-us': "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may leave both Active Pokémon Confused.",
+				'fr-fr': "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon, vous pouvez laisser les deux Pokémon Actifs Confus.",
 			},
 		},
 	],
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Ring",
-				fr: "Anneau de Poison",
+				'en-us': "Poison Ring",
+				'fr-fr': "Anneau de Poison",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned. That Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Ce dernier ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'en-us': "Your opponent's Active Pokémon is now Poisoned. That Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Ce dernier ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 
 		},
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It licks with its gaseous tongue to steal the victim's life force. It lurks in darkness for prey.",
+		'en-us': "It licks with its gaseous tongue to steal the victim's life force. It lurks in darkness for prey.",
 	},
 
 	thirdParty: {

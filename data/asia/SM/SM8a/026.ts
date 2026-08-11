@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゾロアーク",
+		'ja-jp': "ゾロアーク",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "相手を 化かす ことで 群れの 安全を 守ってきた ポケモン。 仲間同士の 結束が 固い。",
+		'ja-jp': "相手を 化かす ことで 群れの 安全を 守ってきた ポケモン。 仲間同士の 結束が 固い。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ちょうはつ" },
 			cost: ["Darkness"],
 			effect: {
-				ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+				'ja-jp': "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のトラッシュにあるポケモンの枚数x20ダメージ。与えられるダメージはポケモン10枚ぶんまで。",
+				'ja-jp': "自分のトラッシュにあるポケモンの枚数x20ダメージ。与えられるダメージはポケモン10枚ぶんまで。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゾロア",
+		'ja-jp': "ゾロア",
 	},
 
 	retreat: 2,

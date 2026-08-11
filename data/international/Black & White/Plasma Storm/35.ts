@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Vanillite",
-		fr: "Sorbébé",
-		es: "Vanillite",
-		it: "Vanillite",
-		pt: "Vanillite",
-		de: "Gelatini"
+		'en-us': "Vanillite",
+		'fr-fr': "Sorbébé",
+		'es-es': "Vanillite",
+		'it-it': "Vanillite",
+		'pt-br': "Vanillite",
+		'de-de': "Gelatini"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Snow Squall",
-				fr: "Rafale de Neige",
+				'en-us': "Snow Squall",
+				'fr-fr': "Rafale de Neige",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Theoretically, this Pokémon formed from icicles bathed in energy from the morning sun. Their breath is -58° F.",
+		'en-us': "Theoretically, this Pokémon formed from icicles bathed in energy from the morning sun. Their breath is -58° F.",
 	},
 
 	thirdParty: {

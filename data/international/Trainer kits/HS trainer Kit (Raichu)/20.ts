@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HS trainer Kit (Raichu)'
 
 const card: Card = {
 	name: {
-		en: "Mareep",
+		'en-us': "Mareep",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -22,10 +22,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Static Electricity",
+				'en-us': "Static Electricity",
 			},
 			effect: {
-				en: "Search your deck for a number of Lightning Energy cards up to the number of Mareep in play (both yours and your opponent's) and attach them to Mareep. Shuffle your deck afterward.",
+				'en-us': "Search your deck for a number of Lightning Energy cards up to the number of Mareep in play (both yours and your opponent's) and attach them to Mareep. Shuffle your deck afterward.",
 			},
 		},
 		{
@@ -34,7 +34,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
+				'en-us': "Ram",
 			},
 			damage: 20,
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Chikorita",
-		fr: "Germignon",
-		de: "Endivie"
+		'en-us': "Chikorita",
+		'fr-fr': "Germignon",
+		'de-de': "Endivie"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Headbutt"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Headbutt"
 			},
 
 			damage: 10,
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'herbe",
-				de: "Razor Leaf"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'herbe",
+				'de-de': "Razor Leaf"
 			},
 
 			damage: 20,

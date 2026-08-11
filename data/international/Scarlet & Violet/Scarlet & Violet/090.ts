@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drifblim",
-		fr: "Grodrive",
-		es: "Drifblim",
-		it: "Drifblim",
-		pt: "Drifblim",
-		de: "Drifzepeli"
+		'en-us': "Drifblim",
+		'fr-fr': "Grodrive",
+		'es-es': "Drifblim",
+		'it-it': "Drifblim",
+		'pt-br': "Drifblim",
+		'de-de': "Drifzepeli"
 	},
 
 	rarity: "Uncommon",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Drifloon",
-		fr: "Baudrive"
+		'en-us': "Drifloon",
+		'fr-fr': "Baudrive"
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Gust",
-			fr: "Tornade",
-			es: "Tornado",
-			it: "Raffica",
-			pt: "Lufada de Vento",
-			de: "Windstoß"
+			'en-us': "Gust",
+			'fr-fr': "Tornade",
+			'es-es': "Tornado",
+			'it-it': "Raffica",
+			'pt-br': "Lufada de Vento",
+			'de-de': "Windstoß"
 		},
 
 		damage: 30
@@ -43,21 +43,21 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Psychic"],
 
 		name: {
-			en: "Curse Spreading",
-			fr: "Malédiction Disséminée",
-			es: "Maldición Dispersa",
-			it: "Spargimaledizione",
-			pt: "Maldição Alastrante",
-			de: "Ausbreitender Fluch"
+			'en-us': "Curse Spreading",
+			'fr-fr': "Malédiction Disséminée",
+			'es-es': "Maldición Dispersa",
+			'it-it': "Spargimaledizione",
+			'pt-br': "Maldição Alastrante",
+			'de-de': "Ausbreitender Fluch"
 		},
 
 		effect: {
-			en: "Put 8 damage counters on your opponent's Pokémon in any way you like.",
-			fr: "Placez 8 marqueurs de dégâts sur les Pokémon de votre adversaire comme il vous plaît.",
-			es: "Pon 8 contadores de daño en los Pokémon de tu rival de la manera que desees.",
-			it: "Metti otto segnalini danno sui Pokémon del tuo avversario nel modo che preferisci.",
-			pt: "Coloque 8 contadores de dano nos Pokémon do seu oponente como desejar.",
-			de: "Lege 8 Schadensmarken beliebig auf die Pokémon deines Gegners."
+			'en-us': "Put 8 damage counters on your opponent's Pokémon in any way you like.",
+			'fr-fr': "Placez 8 marqueurs de dégâts sur les Pokémon de votre adversaire comme il vous plaît.",
+			'es-es': "Pon 8 contadores de daño en los Pokémon de tu rival de la manera que desees.",
+			'it-it': "Metti otto segnalini danno sui Pokémon del tuo avversario nel modo che preferisci.",
+			'pt-br': "Coloque 8 contadores de dano nos Pokémon do seu oponente como desejar.",
+			'de-de': "Lege 8 Schadensmarken beliebig auf die Pokémon deines Gegners."
 		}
 	}],
 
@@ -88,7 +88,7 @@ const card: Card = {
 	illustrator: "Yuu Nishida",
 
 	description: {
-		en: "It can generate and release gas within its body. That's how it can control the altitude of its drift.",
+		'en-us': "It can generate and release gas within its body. That's how it can control the altitude of its drift.",
 	},
 
 	thirdParty: {

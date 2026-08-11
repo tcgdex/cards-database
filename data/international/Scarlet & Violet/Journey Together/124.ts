@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Audino",
-		fr: "Nanméouïe",
-		es: "Audino",
-		de: "Ohrdoch",
-		it: "Audino",
-		pt: "Audino",
+		'en-us': "Audino",
+		'fr-fr': "Nanméouïe",
+		'es-es': "Audino",
+		'de-de': "Ohrdoch",
+		'it-it': "Audino",
+		'pt-br': "Audino",
 		'es-mx': "Audino"
 	},
 
@@ -25,34 +25,34 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Beckon",
-			fr: "Invite",
-			es: "Hacer Señas",
-			de: "Herbeiwinken",
-			it: "Appello",
-			pt: "Aceno",
+			'en-us': "Beckon",
+			'fr-fr': "Invite",
+			'es-es': "Hacer Señas",
+			'de-de': "Herbeiwinken",
+			'it-it': "Appello",
+			'pt-br': "Aceno",
 			'es-mx': "Invitar"
 		},
 
 		effect: {
-			en: "Put a Supporter card from your discard pile into your hand.",
-			fr: "Ajoutez une carte Supporter de votre pile de défausse à votre main.",
-			es: "Pon 1 carta de Partidario de tu pila de descartes en tu mano.",
-			de: "Nimm 1 Unterstützerkarte aus deinem Ablagestapel auf deine Hand.",
-			it: "Prendi una carta Aiuto dalla tua pila degli scarti e aggiungila alle carte che hai in mano.",
-			pt: "Coloque uma carta de Apoiador da sua pilha de descarte na sua mão.",
+			'en-us': "Put a Supporter card from your discard pile into your hand.",
+			'fr-fr': "Ajoutez une carte Supporter de votre pile de défausse à votre main.",
+			'es-es': "Pon 1 carta de Partidario de tu pila de descartes en tu mano.",
+			'de-de': "Nimm 1 Unterstützerkarte aus deinem Ablagestapel auf deine Hand.",
+			'it-it': "Prendi una carta Aiuto dalla tua pila degli scarti e aggiungila alle carte che hai in mano.",
+			'pt-br': "Coloque uma carta de Apoiador da sua pilha de descarte na sua mão.",
 			'es-mx': "Pon 1 carta de Partidario de tu pila de descartes en tu mano."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Zen Headbutt",
-			fr: "Psykoud'Boul",
-			es: "Cabezazo Zen",
-			de: "Zen-Kopfstoß",
-			it: "Cozzata Zen",
-			pt: "Cabeçada Zen",
+			'en-us': "Zen Headbutt",
+			'fr-fr': "Psykoud'Boul",
+			'es-es': "Cabezazo Zen",
+			'de-de': "Zen-Kopfstoß",
+			'it-it': "Cozzata Zen",
+			'pt-br': "Cabeçada Zen",
 			'es-mx': "Cabezazo Zen"
 		},
 

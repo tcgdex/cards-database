@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "わるいベトベトン",
+		'ja-jp': "わるいベトベトン",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "粘着性のグー",
+				'ja-jp': "粘着性のグー",
 			},
 			effect: {
-				ja: "暗いMukがあなたのアクティブなポケモンである限り、あなたの対戦相手は彼または彼女のアクティブなポケモンを後退させるために無色の無色のより多くを支払います。このパワーは、暗いムックが眠っている、混乱し、麻痺している間に機能しなくなります。",
+				'ja-jp': "暗いMukがあなたのアクティブなポケモンである限り、あなたの対戦相手は彼または彼女のアクティブなポケモンを後退させるために無色の無色のより多くを支払います。このパワーは、暗いムックが眠っている、混乱し、麻痺している間に機能しなくなります。",
 			},
 		}],
 
@@ -30,10 +30,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "スラッジパンチ",
+				'ja-jp': "スラッジパンチ",
 			},
 			effect: {
-				ja: "防御ポケモンは現在中毒になっています。",
+				'ja-jp': "防御ポケモンは現在中毒になっています。",
 			},
 			damage: 20,
 		},

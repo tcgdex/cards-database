@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フーパ",
+		'ja-jp': "フーパ",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "空間を ゆがめる リングで あらゆる ものを 離れた 場所へ 飛ばしてしまう トラブルメーカー。",
+		'ja-jp': "空間を ゆがめる リングで あらゆる ものを 離れた 場所へ 飛ばしてしまう トラブルメーカー。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "くすねる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を2枚引く。",
+				'ja-jp': "自分の山札を2枚引く。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],

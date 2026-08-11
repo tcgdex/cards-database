@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Spiritomb",
-		fr: "Spiritomb",
-		de: "Kryppuck"
+		'en-us': "Spiritomb",
+		'fr-fr': "Spiritomb",
+		'de-de': "Kryppuck"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Curse Breath",
-				fr: "Haleine maléfique",
-				de: "Fluchhauch"
+				'en-us': "Curse Breath",
+				'fr-fr': "Haleine maléfique",
+				'de-de': "Fluchhauch"
 			},
 			effect: {
-				en: "Once during your turn, when you put Spiritomb from your hand onto your Bench, you may put 1 damage counter on all Pokémon that already have any damage counters on them (both yours and your opponent's). You can't use more than 1 Curse Breath Poké-Power each turn.",
-				fr: "Une seule fois lors de votre tour, lorsque vous placez Spiritomb de votre main sur votre Banc, vous pouvez placer 1 marqueur de dégât sur tous les Pokémon possédant déjà des marqueurs de dégât (les vôtres et ceux de votre adversaire). Vous ne pouvez pas utiliser plus d'1 Poké-Power Haleine maléfique par tour.",
-				de: "Einmal während deines Zuges kannst du, wenn du Kryppuk von deiner Hand auf deine Bank legst, 1 Schadensmarke auf jedes Pokémon (deine und die deines Gegners) legen, auf dem bereits mindestens 1 Schadensmarke liegt. Du kannst nicht mehr als 1 Fluchhauch Poké-Power pro Zug benutzen."
+				'en-us': "Once during your turn, when you put Spiritomb from your hand onto your Bench, you may put 1 damage counter on all Pokémon that already have any damage counters on them (both yours and your opponent's). You can't use more than 1 Curse Breath Poké-Power each turn.",
+				'fr-fr': "Une seule fois lors de votre tour, lorsque vous placez Spiritomb de votre main sur votre Banc, vous pouvez placer 1 marqueur de dégât sur tous les Pokémon possédant déjà des marqueurs de dégât (les vôtres et ceux de votre adversaire). Vous ne pouvez pas utiliser plus d'1 Poké-Power Haleine maléfique par tour.",
+				'de-de': "Einmal während deines Zuges kannst du, wenn du Kryppuk von deiner Hand auf deine Bank legst, 1 Schadensmarke auf jedes Pokémon (deine und die deines Gegners) legen, auf dem bereits mindestens 1 Schadensmarke liegt. Du kannst nicht mehr als 1 Fluchhauch Poké-Power pro Zug benutzen."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Transfer Pain",
-				fr: "Transfert de douleur",
-				de: "Schmerztransfer"
+				'en-us': "Transfer Pain",
+				'fr-fr': "Transfert de douleur",
+				'de-de': "Schmerztransfer"
 			},
 			effect: {
-				en: "Move 1 damage counter from 1 of your Pokémon to 1 of your opponent's Pokémon.",
-				fr: "Déplacez 1 marqueur de dégât d'1 de vos Pokémon sur 1 des Pokémon de votre adversaire.",
-				de: "Entferne 1 Schadensmarke von 1 deiner Pokémon und lege sie auf 1 Pokémon deines Gegners."
+				'en-us': "Move 1 damage counter from 1 of your Pokémon to 1 of your opponent's Pokémon.",
+				'fr-fr': "Déplacez 1 marqueur de dégât d'1 de vos Pokémon sur 1 des Pokémon de votre adversaire.",
+				'de-de': "Entferne 1 Schadensmarke von 1 deiner Pokémon und lege sie auf 1 Pokémon deines Gegners."
 			},
 
 		},
@@ -70,8 +70,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A Pokémon that was formed by 108 spirits. It is bound to a fissure in an odd keystone.",
-		fr: "Un Pokémon composé de 108 esprits. Il provient d'une fissure dans une clé de voûte étrange."
+		'en-us': "A Pokémon that was formed by 108 spirits. It is bound to a fissure in an odd keystone.",
+		'fr-fr': "Un Pokémon composé de 108 esprits. Il provient d'une fissure dans une clé de voûte étrange."
 	},
 
 	thirdParty: {

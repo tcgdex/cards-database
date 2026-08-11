@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メタング",
+		'ja-jp': "メタング",
 	},
 
 	illustrator: "Kazumasa Yasukuni",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "２匹の ダンバルが 合体した。 鋼の ボディは ジェット機と 衝突しても 傷つかない。",
+		'ja-jp': "２匹の ダンバルが 合体した。 鋼の ボディは ジェット機と 衝突しても 傷つかない。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ダンバル",
+		'ja-jp': "ダンバル",
 	},
 
 	retreat: 2,

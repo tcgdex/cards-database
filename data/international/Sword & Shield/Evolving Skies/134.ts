@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Herdier",
-		fr: "Ponchien",
-		es: "Herdier",
-		it: "Herdier",
-		pt: "Herdier",
-		de: "Terribark"
+		'en-us': "Herdier",
+		'fr-fr': "Ponchien",
+		'es-es': "Herdier",
+		'it-it': "Herdier",
+		'pt-br': "Herdier",
+		'de-de': "Terribark"
 	},
 
 	rarity: "Uncommon",
@@ -23,33 +23,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Tackle",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Tackle",
+			'de-de': "Tackle"
 		},
 
 		damage: 30,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Take Down",
-			fr: "Bélier",
-			es: "Derribo",
-			it: "Riduttore",
-			pt: "Take Down",
-			de: "Bodycheck"
+			'en-us': "Take Down",
+			'fr-fr': "Bélier",
+			'es-es': "Derribo",
+			'it-it': "Riduttore",
+			'pt-br': "Take Down",
+			'de-de': "Bodycheck"
 		},
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 20 dégâts.",
-			es: "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 20 danni a se stesso.",
-			pt: "This Pokémon also does 20 damage to itself.",
-			de: "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 20 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 20 dégâts.",
+			'es-es': "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 20 danni a se stesso.",
+			'pt-br': "This Pokémon also does 20 damage to itself.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu."
 		},
 
 		damage: 80,
@@ -65,16 +65,16 @@ const card: Card = {
 	dexId: [507],
 
 	evolveFrom: {
-		en: "Lillipup",
-		fr: "Ponchiot",
-		es: "Lillipup",
-		it: "Lillipup",
-		pt: "Lillipup",
-		de: "Yorkleff"
+		'en-us': "Lillipup",
+		'fr-fr': "Ponchiot",
+		'es-es': "Lillipup",
+		'it-it': "Lillipup",
+		'pt-br': "Lillipup",
+		'de-de': "Yorkleff"
 	},
 
 	description: {
-		en: "It has been living with people for so long that portrayals of it can be found on the walls of caves from long, long ago."
+		'en-us': "It has been living with people for so long that portrayals of it can be found on the walls of caves from long, long ago."
 	},
 
 	regulationMark: "E",

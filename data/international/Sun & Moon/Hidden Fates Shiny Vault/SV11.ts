@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Froakie",
-		fr: "Grenousse",
+		'en-us': "Froakie",
+		'fr-fr': "Grenousse",
 	},
 	illustrator: "sui",
 	rarity: "Shiny rare",
@@ -25,12 +25,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Frubbles",
-				fr: "Grebulles",
+				'en-us': "Frubbles",
+				'fr-fr': "Grebulles",
 			},
 			effect: {
-				en: "If this Pokémon has any Water Energy attached to it, it has no Retreat Cost.",
-				fr: "Si de l’Énergie Water est attachée à ce Pokémon, il n’a pas de coût de Retraite.",
+				'en-us': "If this Pokémon has any Water Energy attached to it, it has no Retreat Cost.",
+				'fr-fr': "Si de l’Énergie Water est attachée à ce Pokémon, il n’a pas de coût de Retraite.",
 			},
 		},
 	],
@@ -41,8 +41,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flop",
-				fr: "Flop",
+				'en-us': "Flop",
+				'fr-fr': "Flop",
 			},
 
 			damage: 20,
@@ -62,7 +62,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
+		'en-us': "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
 	},
 }
 

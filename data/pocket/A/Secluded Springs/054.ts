@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dragalge",
-		fr: "Kravarech"
+		'en-us': "Dragalge",
+		'fr-fr': "Kravarech"
 	},
 
 	illustrator: "5ban Graphics",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Skrelp"
+		'en-us': "Skrelp"
 	},
 
 	description: {
-		en: "Using a liquid poison, Dragalge indiscriminately\nattacks anything that wanders into its territory.\nThis poison can corrode the undersides of boats.",
-		fr: "Il attaque tout intrus pénétrant sur son territoire avec un poison si puissant qu'il est capable de dissoudre la coque des bateaux."
+		'en-us': "Using a liquid poison, Dragalge indiscriminately\nattacks anything that wanders into its territory.\nThis poison can corrode the undersides of boats.",
+		'fr-fr': "Il attaque tout intrus pénétrant sur son territoire avec un poison si puissant qu'il est capable de dissoudre la coque des bateaux."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Sludge Bomb",
-			fr: "Bombe Beurk"
+			'en-us': "Sludge Bomb",
+			'fr-fr': "Bombe Beurk"
 		},
 
 		damage: 70,

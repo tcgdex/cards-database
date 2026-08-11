@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celebrations Classic Collection'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Venusaur",
-		fr: "Florizarre",
+		'en-us': "Venusaur",
+		'fr-fr': "Florizarre",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -20,8 +20,8 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				en: "Solarbeam",
-				fr: "Lance-Soleil",
+				'en-us': "Solarbeam",
+				'fr-fr': "Lance-Soleil",
 			},
 			damage: 60,
 			cost: [
@@ -42,7 +42,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+		'en-us': "This plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
 	},
 
 	variants: [

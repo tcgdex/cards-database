@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "อาซานัน",
-		id: "Meditite"
+		'th-th': "อาซานัน",
+		'id-id': "Meditite"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -15,28 +15,28 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		th: "นั่งสมาธิเพื่อขัดเกลาพลังจิตให้เพิ่มขึ้นและลอยขึ้นกลางอากาศ จะกินผลไม้แค่ 1 ผลต่อวัน",
-		id: "Meditite meningkatkan energi jiwanya dengan bermeditasi, lalu melayang di udara. Pokémon ini memakan 1 buah beri per harinya."
+		'th-th': "นั่งสมาธิเพื่อขัดเกลาพลังจิตให้เพิ่มขึ้นและลอยขึ้นกลางอากาศ จะกินผลไม้แค่ 1 ผลต่อวัน",
+		'id-id': "Meditite meningkatkan energi jiwanya dengan bermeditasi, lalu melayang di udara. Pokémon ini memakan 1 buah beri per harinya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "เข้าฌาน",
-			id: "Meditasi"
+			'th-th': "เข้าฌาน",
+			'id-id': "Meditasi"
 		},
 
 		effect: {
-			th: "ฟื้นฟู HP ของโปเกมอนนี้ [20]",
-			id: "Pulihkan HP Pokémon ini sejumlah 20."
+			'th-th': "ฟื้นฟู HP ของโปเกมอนนี้ [20]",
+			'id-id': "Pulihkan HP Pokémon ini sejumlah 20."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "สับ",
-			id: "Chop"
+			'th-th': "สับ",
+			'id-id': "Chop"
 		},
 
 		damage: 50,

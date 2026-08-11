@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグカルゴGX",
+		'ja-jp': "マグカルゴGX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "クラッシュチャージ" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札を上から1枚トラッシュし、そのカードが基本エネルギーなら、自分のポケモンにつける。",
+				'ja-jp': "自分の番に1回使える。自分の山札を上から1枚トラッシュし、そのカードが基本エネルギーなら、自分のポケモンにつける。",
 			},
 		},
 	],
@@ -30,14 +30,14 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンについている基本エネルギーを好きなだけトラッシュし、その枚数x50ダメージ追加。",
+				'ja-jp': "このポケモンについている基本エネルギーを好きなだけトラッシュし、その枚数x50ダメージ追加。",
 			},
 		},
 		{
 			name: { ja: "マッグバンGX" },
 			cost: ["Fire"],
 			effect: {
-				ja: "相手の山札を上から5枚トラッシュする。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手の山札を上から5枚トラッシュする。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マグマッグ",
+		'ja-jp': "マグマッグ",
 	},
 
 	retreat: 3,

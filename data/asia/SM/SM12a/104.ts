@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピジョン",
+		'ja-jp': "ピジョン",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "足の ツメが 発達している。 エサの タマタマを つかんで １００キロ先の 巣まで 運ぶ。",
+		'ja-jp': "足の ツメが 発達している。 エサの タマタマを つかんで １００キロ先の 巣まで 運ぶ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "エアメール" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札を上から2枚見て、どちらか1枚を手札に加える。残りのカードは、山札の下にもどす。",
+				'ja-jp': "自分の番に1回使える。自分の山札を上から2枚見て、どちらか1枚を手札に加える。残りのカードは、山札の下にもどす。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ポッポ",
+		'ja-jp': "ポッポ",
 	},
 
 	retreat: 1,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Pimito",
-		en: "Capsakid",
-		es: "Capsakid",
-		it: "Capsakid",
-		pt: "Capsakid",
-		de: "Chilingel"
+		'fr-fr': "Pimito",
+		'en-us': "Capsakid",
+		'es-es': "Capsakid",
+		'it-it': "Capsakid",
+		'pt-br': "Capsakid",
+		'de-de': "Chilingel"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Double Coup d'Boule",
-			en: "Double Headbutt",
-			es: "Doble Cabezazo",
-			it: "Doppia Bottintesta",
-			pt: "Cabeçada Dupla",
-			de: "Doppelte Kopfnuss"
+			'fr-fr': "Double Coup d'Boule",
+			'en-us': "Double Headbutt",
+			'es-es': "Doble Cabezazo",
+			'it-it': "Doppia Bottintesta",
+			'pt-br': "Cabeçada Dupla",
+			'de-de': "Doppelte Kopfnuss"
 		},
 
 		effect: {
-			fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts pour chaque côté face.",
-			en: "Flip 2 coins. This attack does 50 damage for each heads.",
-			es: "Lanza 2 monedas. Este ataque hace 50 puntos de daño por cada cara.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 50 danni ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 50 pontos de dano para cada cara.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 50 Schadenspunkte pro Kopf zu."
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 50 dégâts pour chaque côté face.",
+			'en-us': "Flip 2 coins. This attack does 50 damage for each heads.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 50 puntos de daño por cada cara.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 50 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 50 pontos de dano para cada cara.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 50 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "50×"
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "The more sunlight this Pokémon bathes in, the more spicy chemicals are produced by its body, and thus the spicier its moves become.",
+		'en-us': "The more sunlight this Pokémon bathes in, the more spicy chemicals are produced by its body, and thus the spicier its moves become.",
 	},
 
 	variants: [

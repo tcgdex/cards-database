@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Gloom δ",
-		fr: "Ortide δ",
-		de: "Duflor"
+		'en-us': "Gloom δ",
+		'fr-fr': "Ortide δ",
+		'de-de': "Duflor"
 	},
 
 	illustrator: "Midori Harada",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Oddish",
-		fr: "Mystherbe"
+		'en-us': "Oddish",
+		'fr-fr': "Mystherbe"
 	},
 
 	stage: "Stage1",
@@ -36,9 +36,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drool",
-				fr: "Gluant",
-				de: "Sabbern"
+				'en-us': "Drool",
+				'fr-fr': "Gluant",
+				'de-de': "Sabbern"
 			},
 
 			damage: 20,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Acid",
-				fr: "Acide",
-				de: "Säure"
+				'en-us': "Acid",
+				'fr-fr': "Acide",
+				'de-de': "Säure"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne pourra pas battre en retraite lors du prochain tour de votre adversaire.",
-				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne pourra pas battre en retraite lors du prochain tour de votre adversaire.",
+				'de-de': "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 30,
 

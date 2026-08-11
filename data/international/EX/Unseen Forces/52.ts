@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Chinchou",
-		fr: "Loupio",
-		de: "Lampi"
+		'en-us': "Chinchou",
+		'fr-fr': "Loupio",
+		'de-de': "Lampi"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Wave",
-				fr: "Cage-éclair",
-				de: "Thunder Wave"
+				'en-us': "Thunder Wave",
+				'fr-fr': "Cage-éclair",
+				'de-de': "Thunder Wave"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Razor Fin",
-				fr: "Aileron-rasoir",
-				de: "Razor Fin"
+				'en-us': "Razor Fin",
+				'fr-fr': "Aileron-rasoir",
+				'de-de': "Razor Fin"
 			},
 
 			damage: 10,

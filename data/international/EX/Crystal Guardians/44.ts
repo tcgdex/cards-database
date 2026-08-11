@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Aron",
-		fr: "Galekid",
-		de: "Stollunior"
+		'en-us': "Aron",
+		'fr-fr': "Galekid",
+		'de-de': "Stollunior"
 	},
 
 	illustrator: "Aya Kusube",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flail",
-				fr: "Fléau",
-				de: "Dreschflegel"
+				'en-us': "Flail",
+				'fr-fr': "Fléau",
+				'de-de': "Dreschflegel"
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on Aron.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Galekid.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Stollunior zu."
+				'en-us': "Does 10 damage times the number of damage counters on Aron.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Galekid.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Stollunior zu."
 			},
 			damage: "10x",
 

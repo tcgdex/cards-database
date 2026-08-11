@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ライコウ",
+		'ja-jp': "ライコウ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "雨雲を 背負っているので どんなときでも 雷を 出せる。 雷とともに 落ちてきたという。",
+		'ja-jp': "雨雲を 背負っているので どんなときでも 雷を 出せる。 雷とともに 落ちてきたという。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Lightning"],
 			effect: {
-				ja: "自分のトラッシュにある[雷]エネルギーを1枚、ベンチポケモンにつける。",
+				'ja-jp': "自分のトラッシュにある[雷]エネルギーを1枚、ベンチポケモンにつける。",
 			},
 		},
 		{

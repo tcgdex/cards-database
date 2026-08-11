@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スウラー",
+		'ja-jp': "スウラー",
 	},
 
 	rarity: "Rare",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "急なダイビング",
+				'ja-jp': "急なダイビング",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、対戦相手の次のターン中にスウェローに行われたダメージを含む攻撃のすべての影響を防ぎます。テールの場合、次のターン中に、スウェローのグライド攻撃のベースダメージは100です。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、対戦相手の次のターン中にスウェローに行われたダメージを含む攻撃のすべての影響を防ぎます。テールの場合、次のターン中に、スウェローのグライド攻撃のベースダメージは100です。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "グライド",
+				'ja-jp': "グライド",
 			},
 			damage: 40,
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニンフィア",
+		'ja-jp': "ニンフィア",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "恐ろしい ドラゴンポケモンを 美しい ニンフィアが 退治する 童話が ガラル地方に 残る。",
+		'ja-jp': "恐ろしい ドラゴンポケモンを 美しい ニンフィアが 退治する 童話が ガラル地方に 残る。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Psychic"],
 			effect: {
-				ja: "のぞむなら、相手のバトルポケモンについているエネルギーを1個選び、相手の手札にもどす。",
+				'ja-jp': "のぞむなら、相手のバトルポケモンについているエネルギーを1個選び、相手の手札にもどす。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "70+",
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "この番、手札からサポートを出して使っていたなら、70ダメージ追加。",
+				'ja-jp': "この番、手札からサポートを出して使っていたなら、70ダメージ追加。",
 			},
 		},
 	],
@@ -51,7 +51,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 1,

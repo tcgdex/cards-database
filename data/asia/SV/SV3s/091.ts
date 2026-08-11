@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Lycanroc"
+		'id-id': "Lycanroc"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Lycanroc menyayat siapa pun yang mendekatinya dengan surai batunya. Bahkan, Pokémon ini tidak mematuhi perintah pelatihnya jika ia tidak menyukainya."
+		'id-id': "Lycanroc menyayat siapa pun yang mendekatinya dengan surai batunya. Bahkan, Pokémon ini tidak mematuhi perintah pelatihnya jika ia tidak menyukainya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Taring Menghabisi"
+			'id-id': "Taring Menghabisi"
 		},
 
 		effect: {
-			id: "Jika Pokémon Bertarung lawan tidak memiliki Token Kerusakan, serangan ini gagal."
+			'id-id': "Jika Pokémon Bertarung lawan tidak memiliki Token Kerusakan, serangan ini gagal."
 		},
 
 		damage: 90,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			id: "Cakar Penebas"
+			'id-id': "Cakar Penebas"
 		},
 
 		damage: 100,

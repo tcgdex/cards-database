@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Venonat",
-		fr: "Mimitoss",
-		es: "Venonat",
-		it: "Venonat",
-		pt: "Venonat",
-		de: "Bluzuk"
+		'en-us': "Venonat",
+		'fr-fr': "Mimitoss",
+		'es-es': "Venonat",
+		'it-it': "Venonat",
+		'pt-br': "Venonat",
+		'de-de': "Bluzuk"
 	},
 
 	illustrator: "kirisAki",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Radar Eyes",
-				fr: "Regard Radar",
-				es: "Ojos de Radar",
-				it: "Sguardo Radar",
-				pt: "Olhos de Radar",
-				de: "Radaraugen"
+				'en-us': "Radar Eyes",
+				'fr-fr': "Regard Radar",
+				'es-es': "Ojos de Radar",
+				'it-it': "Sguardo Radar",
+				'pt-br': "Olhos de Radar",
+				'de-de': "Radaraugen"
 			},
 			effect: {
-				en: "Look at the top 7 cards of your deck and put 1 of them into your hand. Shuffle the other cards back into your deck.",
-				fr: "Regardez les 7 cartes du dessus de votre deck, puis ajoutez l’une d’entre elles à votre main. Mélangez les autres cartes avec votre deck.",
-				es: "Mira las 7 primeras cartas de tu baraja y pon 1 de ellas en tu mano. Pon el resto de cartas de nuevo en tu baraja y barájalas todas.",
-				it: "Guarda le prime sette carte del tuo mazzo e aggiungi una di esse alle carte che hai in mano. Poi rimischia le altre carte nel tuo mazzo.",
-				pt: "Olhe as 7 primeiras cartas do seu baralho e coloque 1 delas na sua mão. Embaralhe as demais cartas de volta no seu baralho.",
-				de: "Schau dir die obersten 7 Karten deines Decks an und nimm 1 von ihnen auf deine Hand. Mische die anderen Karten zurück in dein Deck."
+				'en-us': "Look at the top 7 cards of your deck and put 1 of them into your hand. Shuffle the other cards back into your deck.",
+				'fr-fr': "Regardez les 7 cartes du dessus de votre deck, puis ajoutez l’une d’entre elles à votre main. Mélangez les autres cartes avec votre deck.",
+				'es-es': "Mira las 7 primeras cartas de tu baraja y pon 1 de ellas en tu mano. Pon el resto de cartas de nuevo en tu baraja y barájalas todas.",
+				'it-it': "Guarda le prime sette carte del tuo mazzo e aggiungi una di esse alle carte che hai in mano. Poi rimischia le altre carte nel tuo mazzo.",
+				'pt-br': "Olhe as 7 primeiras cartas do seu baralho e coloque 1 delas na sua mão. Embaralhe as demais cartas de volta no seu baralho.",
+				'de-de': "Schau dir die obersten 7 Karten deines Decks an und nimm 1 von ihnen auf deine Hand. Mische die anderen Karten zurück in dein Deck."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flop",
-				fr: "Flop",
-				es: "Vuelta",
-				it: "Tonfo",
-				pt: "Baque",
-				de: "Plumps"
+				'en-us': "Flop",
+				'fr-fr': "Flop",
+				'es-es': "Vuelta",
+				'it-it': "Tonfo",
+				'pt-br': "Baque",
+				'de-de': "Plumps"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its big eyes are actually clusters of tiny eyes. At night, its kind is drawn by light.",
+		'en-us': "Its big eyes are actually clusters of tiny eyes. At night, its kind is drawn by light.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ウッウ"
+		'ja-jp': "ウッウ"
 	},
 
 	illustrator: "Fujimoto Gold",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "物覚えは 悪すぎだが 脳に 使う エネルギーを ぎりぎりにして そのぶんを 戦いに 回すのだ。"
+		'ja-jp': "物覚えは 悪すぎだが 脳に 使う エネルギーを ぎりぎりにして そのぶんを 戦いに 回すのだ。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "みずでっぽう"
+			'ja-jp': "みずでっぽう"
 		},
 
 		damage: 20
@@ -32,11 +32,11 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "スピットシュート"
+			'ja-jp': "スピットシュート"
 		},
 
 		effect: {
-			ja: "このポケモンについているエネルギーをすべてトラッシュし、相手のポケモン1匹に、120ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			'ja-jp': "このポケモンについているエネルギーをすべてトラッシュし、相手のポケモン1匹に、120ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
 		}
 	}],
 

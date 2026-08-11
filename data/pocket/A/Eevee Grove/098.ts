@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Kirlia",
-		fr: "Kirlia"
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Ralts"
+		'en-us': "Ralts"
 	},
 
 	description: {
-		en: "It has a psychic power that enables it to distort\nthe space around it and see into the future.",
-		fr: "Grâce à ses pouvoirs psychiques, il peut distordre l'espace-temps et ainsi voir l'avenir."
+		'en-us': "It has a psychic power that enables it to distort\nthe space around it and see into the future.",
+		'fr-fr': "Grâce à ses pouvoirs psychiques, il peut distordre l'espace-temps et ainsi voir l'avenir."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Slap",
-			fr: "Gifle"
+			'en-us': "Slap",
+			'fr-fr': "Gifle"
 		},
 
 		damage: 20,

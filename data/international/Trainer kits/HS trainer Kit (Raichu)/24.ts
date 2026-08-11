@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HS trainer Kit (Raichu)'
 
 const card: Card = {
 	name: {
-		en: "Switch",
+		'en-us': "Switch",
 	},
 
 	illustrator: "Hideaki Hakozaki",

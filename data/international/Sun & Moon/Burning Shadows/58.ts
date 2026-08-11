@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Scolipede",
-		fr: "Brutapode",
-		es: "Scolipede",
-		it: "Scolipede",
-		pt: "Scolipede",
-		de: "Cerapendra"
+		'en-us': "Scolipede",
+		'fr-fr': "Brutapode",
+		'es-es': "Scolipede",
+		'it-it': "Scolipede",
+		'pt-br': "Scolipede",
+		'de-de': "Cerapendra"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Whirlipede",
-		fr: "Scobolide",
+		'en-us': "Whirlipede",
+		'fr-fr': "Scobolide",
 	},
 
 	stage: "Stage2",
@@ -41,20 +41,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Horn",
-				fr: "Corne Empoisonnée",
-				es: "Cuerno Veneno",
-				it: "Velencorno",
-				pt: "Chifre Venenoso",
-				de: "Gifthorn"
+				'en-us': "Poison Horn",
+				'fr-fr': "Corne Empoisonnée",
+				'es-es': "Cuerno Veneno",
+				'it-it': "Velencorno",
+				'pt-br': "Chifre Venenoso",
+				'de-de': "Gifthorn"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+				'en-us': "Your opponent’s Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 			damage: 80,
 
@@ -67,20 +67,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steamroller",
-				fr: "Bulldoboule",
-				es: "Rodillo de Púas",
-				it: "Rulloduro",
-				pt: "Rolo Compressor",
-				de: "Quetschwalze"
+				'en-us': "Steamroller",
+				'fr-fr': "Bulldoboule",
+				'es-es': "Rodillo de Púas",
+				'it-it': "Rulloduro",
+				'pt-br': "Rolo Compressor",
+				'de-de': "Quetschwalze"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				es: "El daño de este ataque no se ve afectado por Resistencia.",
-				it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-				pt: "O dano deste ataque não é afetado por Resistência.",
-				de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+				'en-us': "This attack’s damage isn’t affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+				'it-it': "I danni di questo attacco non sono influenzati dalla resistenza.",
+				'pt-br': "O dano deste ataque não é afetado por Resistência.",
+				'de-de': "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
 			},
 			damage: 140,
 
@@ -97,7 +97,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It clasps its prey with the claws on its neck until it stops moving. Then it finishes it off with deadly poison.",
+		'en-us': "It clasps its prey with the claws on its neck until it stops moving. Then it finishes it off with deadly poison.",
 	},
 
 	thirdParty: {

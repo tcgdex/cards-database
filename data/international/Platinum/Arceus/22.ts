@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Manectric",
-		de: "Voltenso"
+		'en-us': "Manectric",
+		'de-de': "Voltenso"
 	},
 
 	illustrator: "Mana Ibe",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Electrike"
+		'en-us': "Electrike"
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Second Bite",
-				de: "Wunde Stelle"
+				'en-us': "Second Bite",
+				'de-de': "Wunde Stelle"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
-				de: "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf dem Verteidigenden Pokémon zu."
+				'en-us': "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
+				'de-de': "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf dem Verteidigenden Pokémon zu."
 			},
 			damage: "20+",
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swift",
-				de: "Sternschauer"
+				'en-us': "Swift",
+				'de-de': "Sternschauer"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				de: "Schwäche, Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'de-de': "Schwäche, Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
 			},
 			damage: 50,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts."
+		'en-us': "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts."
 	},
 
 	variants: [

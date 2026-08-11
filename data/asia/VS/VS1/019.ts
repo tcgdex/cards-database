@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホイットニーのミルタンク",
+		'ja-jp': "ホイットニーのミルタンク",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "防衛カール",
+				'ja-jp': "防衛カール",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、相手の次のターン中に攻撃によってホイットニーのミルタンクに与えられたすべてのダメージを防ぎます。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、相手の次のターン中に攻撃によってホイットニーのミルタンクに与えられたすべてのダメージを防ぎます。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ロールアウトする",
+				'ja-jp': "ロールアウトする",
 			},
 			damage: 20,
 		},

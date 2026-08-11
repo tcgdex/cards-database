@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pitch Black"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Maschiff",
-		fr: "Grondogue",
-		es: "Maschiff",
+		'en-us': "Maschiff",
+		'fr-fr': "Grondogue",
+		'es-es': "Maschiff",
 		'es-mx': "Maschiff",
-		de: "Mobtiff",
-		it: "Maschiff",
-		pt: "Maschiff"
+		'de-de': "Mobtiff",
+		'it-it': "Maschiff",
+		'pt-br': "Maschiff"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -24,13 +24,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			es: "Mordisco",
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'es-es': "Mordisco",
 			'es-mx': "Mordida",
-			de: "Biss",
-			it: "Morso",
-			pt: "Mordida"
+			'de-de': "Biss",
+			'it-it': "Morso",
+			'pt-br': "Mordida"
 		},
 
 		cost: ["Darkness", "Darkness"],

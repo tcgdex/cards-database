@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Machop",
-		fr: "Machoc",
-		es: "Machop",
-		it: "Machop",
-		pt: "Machop",
-		de: "Machollo"
+		'en-us': "Machop",
+		'fr-fr': "Machoc",
+		'es-es': "Machop",
+		'it-it': "Machop",
+		'pt-br': "Machop",
+		'de-de': "Machollo"
 	},
 
 	illustrator: "Yuka Morii",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Punch",
-			fr: "Koud'Poing",
-			es: "Puño",
-			it: "Pugno",
-			pt: "Soco",
-			de: "Boxhieb"
+			'en-us': "Punch",
+			'fr-fr': "Koud'Poing",
+			'es-es': "Puño",
+			'it-it': "Pugno",
+			'pt-br': "Soco",
+			'de-de': "Boxhieb"
 		},
 
 		damage: 20

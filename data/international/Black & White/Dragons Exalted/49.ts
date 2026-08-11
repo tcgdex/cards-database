@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Drifloon",
-		fr: "Baudrive",
-		es: "Drifloon",
-		it: "Drifloon",
-		pt: "Drifloon",
-		de: "Driftlon"
+		'en-us': "Drifloon",
+		'fr-fr': "Baudrive",
+		'es-es': "Drifloon",
+		'it-it': "Drifloon",
+		'pt-br': "Drifloon",
+		'de-de': "Driftlon"
 	},
 
 	illustrator: "MAHOU",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Sneaky Placement",
-				fr: "Placement Vicieux",
+				'en-us': "Sneaky Placement",
+				'fr-fr': "Placement Vicieux",
 			},
 			effect: {
-				en: "Put 1 damage counter on 1 of your opponent's Pokémon.",
-				fr: "Placez 1 marqueur de dégâts sur 1 des Pokémon de votre adversaire.",
+				'en-us': "Put 1 damage counter on 1 of your opponent's Pokémon.",
+				'fr-fr': "Placez 1 marqueur de dégâts sur 1 des Pokémon de votre adversaire.",
 			},
 
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Because of the way it floats aimlessly, an old folktale calls it a \"Signpost for Wandering Spirits.\"",
+		'en-us': "Because of the way it floats aimlessly, an old folktale calls it a \"Signpost for Wandering Spirits.\"",
 	},
 
 	thirdParty: {

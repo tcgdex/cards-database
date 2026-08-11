@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โบจิ",
-		id: "Greavard"
+		'th-th': "โบจิ",
+		'id-id': "Greavard"
 	},
 
 	illustrator: "yuu",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		th: "เชื่องกับมนุษย์และขี้เหงา หากให้ความสนใจหรือดูแลมันแม้เพียงเล็กน้อยมันจะตามติดไปตลอด",
-		id: "Sifat Greavard jinak dan mudah kesepian. Pokémon ini akan terus mengikutimu meskipun kamu hanya memberinya sedikit perhatian."
+		'th-th': "เชื่องกับมนุษย์และขี้เหงา หากให้ความสนใจหรือดูแลมันแม้เพียงเล็กน้อยมันจะตามติดไปตลอด",
+		'id-id': "Sifat Greavard jinak dan mudah kesepian. Pokémon ini akan terus mengikutimu meskipun kamu hanya memberinya sedikit perhatian."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "เล่นในหลุมศพ",
-			id: "Main di Kuburan"
+			'th-th': "เล่นในหลุมศพ",
+			'id-id': "Main di Kuburan"
 		},
 
 		effect: {
-			th: "แดเมจจะเท่ากับจำนวนการ์ดโปเกมอน[พลังจิต]ที่อยู่บนตำแหน่งทิ้งการ์ดฝ่ายเรา x10",
-			id: "Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lembar Pokémon {Psychic} yang ada di Trash sendiri."
+			'th-th': "แดเมจจะเท่ากับจำนวนการ์ดโปเกมอน[พลังจิต]ที่อยู่บนตำแหน่งทิ้งการ์ดฝ่ายเรา x10",
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lembar Pokémon {Psychic} yang ada di Trash sendiri."
 		},
 
 		damage: "10×",

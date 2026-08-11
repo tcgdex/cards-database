@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Nintendo Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Meowth",
+		'en-us': "Meowth",
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Plunder",
+				'en-us': "Plunder",
 			},
 			effect: {
-				en: "Before doing damage, discard all Trainer cards attached to the Defending Pokémon (before they affect the damage).",
+				'en-us': "Before doing damage, discard all Trainer cards attached to the Defending Pokémon (before they affect the damage).",
 			},
 			damage: 10,
 
@@ -41,7 +41,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
+				'en-us': "Scratch",
 			},
 
 			damage: 20,

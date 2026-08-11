@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サンドパン",
+		'ja-jp': "サンドパン",
 	},
 
 	illustrator: "imoniii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "すばしっこく 走りまわり 背中の針と 鋭いツメでの 攻撃が 得意。",
+		'ja-jp': "すばしっこく 走りまわり 背中の針と 鋭いツメでの 攻撃が 得意。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "サンド",
+		'ja-jp': "サンド",
 	},
 
 	retreat: 1,

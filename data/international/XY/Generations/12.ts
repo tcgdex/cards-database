@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "M Charizard EX",
-		fr: "M-Dracaufeu-EX",
+		'en-us': "M Charizard EX",
+		'fr-fr': "M-Dracaufeu-EX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charizard-EX",
-		fr: "Dracaufeu-EX",
+		'en-us': "Charizard-EX",
+		'fr-fr': "Dracaufeu-EX",
 	},
 
 	stage: "MEGA",
@@ -38,12 +38,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Typhoon",
-				fr: "Typhon Ardent",
+				'en-us': "Heat Typhoon",
+				'fr-fr': "Typhon Ardent",
 			},
 			effect: {
-				en: "Flip a coin for each Fire Energy attached to this Pokémon. This attack does 50 more damage for each heads.",
-				fr: "Lancez une pièce pour chaque Énergie Fire attachée à ce Pokémon. Cette attaque inflige 50 dégâts supplémentaires pour chaque côté face.",
+				'en-us': "Flip a coin for each Fire Energy attached to this Pokémon. This attack does 50 more damage for each heads.",
+				'fr-fr': "Lancez une pièce pour chaque Énergie Fire attachée à ce Pokémon. Cette attaque inflige 50 dégâts supplémentaires pour chaque côté face.",
 			},
 			damage: "100+",
 

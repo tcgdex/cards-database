@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Archen",
-		fr: "Arkéapti",
-		es: "Archen",
-		it: "Archen",
-		pt: "Archen",
-		de: "Flapteryx"
+		'en-us': "Archen",
+		'fr-fr': "Arkéapti",
+		'es-es': "Archen",
+		'it-it': "Archen",
+		'pt-br': "Archen",
+		'de-de': "Flapteryx"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Rock Throw",
-				fr: "Jet-Pierres",
+				'en-us': "Rock Throw",
+				'fr-fr': "Jet-Pierres",
 			},
 
 			damage: 20,
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Acrobatics",
-				fr: "Acrobatie",
+				'en-us': "Acrobatics",
+				'fr-fr': "Acrobatie",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				'en-us': "Flip 2 coins. This attack does 20 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
 			},
 			damage: 20,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Said to be an ancestor of bird Pokémon, they were unable to fly and moved about by hopping from one branch to another.",
+		'en-us': "Said to be an ancestor of bird Pokémon, they were unable to fly and moved about by hopping from one branch to another.",
 	},
 
 	thirdParty: {

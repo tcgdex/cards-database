@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Toedscool",
-		fr: "Terracool",
-		es: "Toedscool",
-		de: "Tentagra",
-		it: "Toedscool",
-		pt: "Toedscool",
+		'en-us': "Toedscool",
+		'fr-fr': "Terracool",
+		'es-es': "Toedscool",
+		'de-de': "Tentagra",
+		'it-it': "Toedscool",
+		'pt-br': "Toedscool",
 		'es-mx': "Toedscool"
   },
   illustrator: "Oswaldo KATO",

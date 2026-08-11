@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Espathra",
-		fr: "Cléopsytra",
-		es: "Espathra",
-		it: "Espathra",
-		pt: "Espathra",
-		de: "Psiopatra"
+		'en-us': "Espathra",
+		'fr-fr': "Cléopsytra",
+		'es-es': "Espathra",
+		'it-it': "Espathra",
+		'pt-br': "Espathra",
+		'de-de': "Psiopatra"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Flittle",
-		fr: "Flotillon",
-		es: "Flittle",
-		it: "Flittle",
-		pt: "Flittle",
-		de: "Flattutu"
+		'en-us': "Flittle",
+		'fr-fr': "Flotillon",
+		'es-es': "Flittle",
+		'it-it': "Flittle",
+		'pt-br': "Flittle",
+		'de-de': "Flattutu"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Psychic Flash",
-			fr: "Flash Psy",
-			es: "Destello Psíquico",
-			it: "Psicoflash",
-			pt: "Clarão Psíquico",
-			de: "Psycho-Blitz"
+			'en-us': "Psychic Flash",
+			'fr-fr': "Flash Psy",
+			'es-es': "Destello Psíquico",
+			'it-it': "Psicoflash",
+			'pt-br': "Clarão Psíquico",
+			'de-de': "Psycho-Blitz"
 		},
 
 		damage: 50

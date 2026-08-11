@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [28],
 
 	name: {
-		en: "Sandslash"
+		'en-us': "Sandslash"
 	},
 
 	illustrator: "MAHOU",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Sandshrew"
+		'en-us': "Sandshrew"
 	},
 
 	description: {
-		en: "It climbs trees by hooking on with its sharp claws.\nSandslash shares the berries it gathers, dropping\nthem down to Sandshrew waiting below the tree."
+		'en-us': "It climbs trees by hooking on with its sharp claws.\nSandslash shares the berries it gathers, dropping\nthem down to Sandshrew waiting below the tree."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Cut"
+			'en-us': "Cut"
 		},
 
 		damage: 50,

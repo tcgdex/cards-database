@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Joltik",
-		fr: "Statitik",
-		es: "Joltik",
-		it: "Joltik",
-		pt: "Joltik",
-		de: "Wattzapf"
+		'en-us': "Joltik",
+		'fr-fr': "Statitik",
+		'es-es': "Joltik",
+		'it-it': "Joltik",
+		'pt-br': "Joltik",
+		'de-de': "Wattzapf"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Flail Around",
-			fr: "Fléau Bougeant",
-			es: "Aleteo Frenético",
-			it: "Flagellamento",
-			pt: "Espancamento",
-			de: "Rumrudern"
+			'en-us': "Flail Around",
+			'fr-fr': "Fléau Bougeant",
+			'es-es': "Aleteo Frenético",
+			'it-it': "Flagellamento",
+			'pt-br': "Espancamento",
+			'de-de': "Rumrudern"
 		},
 
 		effect: {
-			en: "Flip 3 coins. This attack does 10 damage for each heads.",
-			fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
-			es: "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
-			it: "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
-			pt: "Jogue 3 moedas. Este ataque causa 10 pontos de dano para cada cara.",
-			de: "Wirf 3 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip 3 coins. This attack does 10 damage for each heads.",
+			'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
+			'es-es': "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+			'it-it': "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 3 moedas. Este ataque causa 10 pontos de dano para cada cara.",
+			'de-de': "Wirf 3 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "10×"
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Joltik latch on to other Pokémon and suck out static electricity. They're often found sticking to Yamper's hindquarters.",
+		'en-us': "Joltik latch on to other Pokémon and suck out static electricity. They're often found sticking to Yamper's hindquarters.",
 	},
 
 	variants: [

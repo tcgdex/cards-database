@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shinx",
-		fr: "Lixy",
-		es: "Shinx",
-		it: "Shinx",
-		pt: "Shinx",
-		de: "Sheinux"
+		'en-us': "Shinx",
+		'fr-fr': "Lixy",
+		'es-es': "Shinx",
+		'it-it': "Shinx",
+		'pt-br': "Shinx",
+		'de-de': "Sheinux"
 	},
 
 	illustrator: "Mizue",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Gnaw",
-			fr: "Ronge",
-			es: "Roer",
-			it: "Rosicchiamento",
-			pt: "Roída",
-			de: "Nagen"
+			'en-us': "Gnaw",
+			'fr-fr': "Ronge",
+			'es-es': "Roer",
+			'it-it': "Rosicchiamento",
+			'pt-br': "Roída",
+			'de-de': "Nagen"
 		},
 
 		damage: 10
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon generates electricity by contracting its muscles. Excited trembling is a sign that Shinx is generating a tremendous amount of electricity.",
+		'en-us': "This Pokémon generates electricity by contracting its muscles. Excited trembling is a sign that Shinx is generating a tremendous amount of electricity.",
 	},
 
 	variants: [

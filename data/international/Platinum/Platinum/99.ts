@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Torchic",
-		fr: "Poussifeu",
-		de: "Flemmli"
+		'en-us': "Torchic",
+		'fr-fr': "Poussifeu",
+		'de-de': "Flemmli"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Focus Energy",
-				fr: "Puissance",
-				de: "Focus Energy"
+				'en-us': "Focus Energy",
+				'fr-fr': "Puissance",
+				'de-de': "Focus Energy"
 			},
 			effect: {
-				en: "During your next turn, Torchic's Fire Shard attack's base damage is 80.",
-				fr: "Lors de votre prochain tour, les dégâts de base de l'attaque Écharde de feu de Poussifeu sont de 80.",
-				de: "During your next turn, Torchic's Fire Shard attack's base damage is 80."
+				'en-us': "During your next turn, Torchic's Fire Shard attack's base damage is 80.",
+				'fr-fr': "Lors de votre prochain tour, les dégâts de base de l'attaque Écharde de feu de Poussifeu sont de 80.",
+				'de-de': "During your next turn, Torchic's Fire Shard attack's base damage is 80."
 			},
 
 		},
@@ -43,14 +43,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fire Shard",
-				fr: "Écharde de feu",
-				de: "Fire Shard"
+				'en-us': "Fire Shard",
+				'fr-fr': "Écharde de feu",
+				'de-de': "Fire Shard"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Flip a coin. If tails, this attack does nothing."
 			},
 			damage: 20,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees F."
+		'en-us': "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees F."
 	},
 
 	variants: [

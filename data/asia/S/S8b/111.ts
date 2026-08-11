@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "いちげきウーラオス",
+		'ja-jp': "いちげきウーラオス",
 		'zh-tw': "一擊武道熊師",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "遠い 地方の 山岳地帯で 暮らす。 断崖絶壁を 走り 足腰を 鍛え 技を 磨く。",
+		'ja-jp': "遠い 地方の 山岳地帯で 暮らす。 断崖絶壁を 走り 足腰を 鍛え 技を 磨く。",
 		'zh-tw': "棲息在遙遠地區的山岳地帶。會在斷崖絕壁上來回奔跑 鍛鍊下盤，磨練招式。",
 	},
 
@@ -23,25 +23,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "フィールドクラッシュ",
+				'ja-jp': "フィールドクラッシュ",
 				'zh-tw': "場地粉碎",
 			},
 			damage: 50,
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "場に出ている相手のスタジアムをトラッシュする。",
+				'ja-jp': "場に出ている相手のスタジアムをトラッシュする。",
 				'zh-tw': "將場上的對手的競技場卡丟棄。",
 			},
 		},
 		{
 			name: {
-				ja: "しゅらのこぶし",
+				'ja-jp': "しゅらのこぶし",
 				'zh-tw': "修羅拳",
 			},
 			damage: "100+",
 			cost: ["Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "このポケモンにダメカンがのっているなら、100ダメージ追加。",
+				'ja-jp': "このポケモンにダメカンがのっているなら、100ダメージ追加。",
 				'zh-tw': "若這隻寶可夢身上放置有傷害指示物，則增加100點傷害。",
 			},
 		},
@@ -61,7 +61,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ダクマ",
+		'ja-jp': "ダクマ",
 	},
 
 	retreat: 2,

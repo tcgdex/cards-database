@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Meganium",
-		fr: "Meganium",
-		de: "Meganie"
+		'en-us': "Meganium",
+		'fr-fr': "Meganium",
+		'de-de': "Meganie"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bayleef",
-		fr: "Macronium"
+		'en-us': "Bayleef",
+		'fr-fr': "Macronium"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Soothing Aroma",
-				fr: "Arôme apaisant",
-				de: "Beruhigendes Aroma"
+				'en-us': "Soothing Aroma",
+				'fr-fr': "Arôme apaisant",
+				'de-de': "Beruhigendes Aroma"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may flip a coin. If heads, remove 1 damage counter from each of your Pokémon that has any. This power can't be used if Meganium is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, retirez un marqueur de dégât de chacun de vos Pokémon ayant des marqueurs de dégâts. Ce pouvoir ne peut pas être utilisé si Meganium est affecté par un État spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Münze werfen. Entferne bei \"Kopf\" von jedem deiner Pokémon, auf dem Schadensmarken liegen, 1 der Schadensmarken. Diese Fähigkeit kann nicht verwendet werden, falls Meganie von einem Speziellen Zustand betroffen ist."
+				'en-us': "Once during your turn (before your attack), you may flip a coin. If heads, remove 1 damage counter from each of your Pokémon that has any. This power can't be used if Meganium is affected by a Special Condition.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, retirez un marqueur de dégât de chacun de vos Pokémon ayant des marqueurs de dégâts. Ce pouvoir ne peut pas être utilisé si Meganium est affecté par un État spécial.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Münze werfen. Entferne bei \"Kopf\" von jedem deiner Pokémon, auf dem Schadensmarken liegen, 1 der Schadensmarken. Diese Fähigkeit kann nicht verwendet werden, falls Meganie von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poisonpowder",
-				fr: "Poudre toxik",
-				de: "Giftpuder"
+				'en-us': "Poisonpowder",
+				'fr-fr': "Poudre toxik",
+				'de-de': "Giftpuder"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 40,
 

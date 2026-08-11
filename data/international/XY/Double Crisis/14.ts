@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Aggron",
-		fr: "Galeking de la Team Magma",
-		pt: "Aggron da Equipe Magma ",
+		'en-us': "Team Magma's Aggron",
+		'fr-fr': "Galeking de la Team Magma",
+		'pt-br': "Aggron da Equipe Magma ",
 	},
 
 	illustrator: "TOKIYA",
@@ -24,9 +24,9 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Team Magma's Lairon",
-		fr: "Galegon de la Team Magma",
-		pt: "Lairon da Equipe Magma",
+		'en-us': "Team Magma's Lairon",
+		'fr-fr': "Galegon de la Team Magma",
+		'pt-br': "Lairon da Equipe Magma",
 	},
 
 	stage: "Stage2",
@@ -38,14 +38,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Stomp",
-				fr: "Écras'Roc",
-				pt: "Pisoteada de Pedra",
+				'en-us': "Rock Stomp",
+				'fr-fr': "Écras'Roc",
+				'pt-br': "Pisoteada de Pedra",
 			},
 			effect: {
-				en: "Discard as many {F} Energy attached to your Pokémon as you like. This attack does 40 damage times the amount of {F} Energy you discarded.",
-				fr: "Défaussez autant d'Énergies {F} attachées à vos Pokémon que vous voulez. Cette attaque inflige 40 dégâts multipliés par le nombre de cartes Énergie {F} que vous avez défaussées.",
-				pt: "Descarte tantas Energias {F} ligadas a seus Pokémon quanto desejar. Esse ataque causa 40 de danos vezes a quantidade de Energia {F} descartada.",
+				'en-us': "Discard as many {F} Energy attached to your Pokémon as you like. This attack does 40 damage times the amount of {F} Energy you discarded.",
+				'fr-fr': "Défaussez autant d'Énergies {F} attachées à vos Pokémon que vous voulez. Cette attaque inflige 40 dégâts multipliés par le nombre de cartes Énergie {F} que vous avez défaussées.",
+				'pt-br': "Descarte tantas Energias {F} ligadas a seus Pokémon quanto desejar. Esse ataque causa 40 de danos vezes a quantidade de Energia {F} descartada.",
 			},
 			damage: "40×",
 
@@ -58,14 +58,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Boulder Storm",
-				fr: "Tempête de Roche",
-				pt: "Tempestade de Rochas",
+				'en-us': "Boulder Storm",
+				'fr-fr': "Tempête de Roche",
+				'pt-br': "Tempestade de Rochas",
 			},
 			effect: {
-				en: "This attack does 20 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire ayant au moins 1 marqueur de dégâts. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				pt: "Esse ataque causa 20 de danos a cada um dos Pokémon no Banco do seu oponente que já possui contadores de danos. (Não aplique Fraqueza e Resistência a Pokémon no Banco.)",
+				'en-us': "This attack does 20 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire ayant au moins 1 marqueur de dégâts. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'pt-br': "Esse ataque causa 20 de danos a cada um dos Pokémon no Banco do seu oponente que já possui contadores de danos. (Não aplique Fraqueza e Resistência a Pokémon no Banco.)",
 			},
 			damage: 120,
 
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Aggron's metal horns can smash through any defenses, no matter how strong!",
+		'en-us': "Aggron's metal horns can smash through any defenses, no matter how strong!",
 	},
 
 	thirdParty: {

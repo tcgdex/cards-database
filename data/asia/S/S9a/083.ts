@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "スターミーV"
+		'ja-jp': "スターミーV"
 	},
 
 	illustrator: "Akira Komayama",
@@ -19,25 +19,25 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "スピードスター"
+			'ja-jp': "スピードスター"
 		},
 
 		damage: 50,
 
 		effect: {
-			ja: "このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。"
+			'ja-jp': "このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。"
 		}
 	}, {
 		cost: ["Water", "Water"],
 
 		name: {
-			ja: "エナジースパイラル"
+			'ja-jp': "エナジースパイラル"
 		},
 
 		damage: "50×",
 
 		effect: {
-			ja: "相手の場のポケモンについているエネルギーの数×50ダメージ。"
+			'ja-jp': "相手の場のポケモンについているエネルギーの数×50ダメージ。"
 		}
 	}],
 

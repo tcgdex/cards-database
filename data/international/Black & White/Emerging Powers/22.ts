@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Panpour",
-		fr: "Flotajou",
-		es: "Panpour",
-		it: "Panpour",
-		pt: "Panpour",
-		de: "Sodamak"
+		'en-us': "Panpour",
+		'fr-fr': "Flotajou",
+		'es-es': "Panpour",
+		'it-it': "Panpour",
+		'pt-br': "Panpour",
+		'de-de': "Sodamak"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collecte",
+				'en-us': "Collect",
+				'fr-fr': "Collecte",
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
 			},
 
 			damage: 20,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It does not thrive in dry environments. It keeps itself damp by shooting water stored in its head tuft from its tail.",
+		'en-us': "It does not thrive in dry environments. It keeps itself damp by shooting water stored in its head tuft from its tail.",
 	},
 
 	thirdParty: {

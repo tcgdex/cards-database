@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Roserade",
-		fr: "Roserade",
-		de: "Roserade"
+		'en-us': "Roserade",
+		'fr-fr': "Roserade",
+		'de-de': "Roserade"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Roselia",
-		fr: "Roselia",
+		'en-us': "Roselia",
+		'fr-fr': "Roselia",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sleep Poison",
-				fr: "Poison dodo",
-				de: "Schlafgift"
+				'en-us': "Sleep Poison",
+				'fr-fr': "Poison dodo",
+				'de-de': "Schlafgift"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep and Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi et Empoisonné.",
-				de: "Das Verteidigende Pokémon schläft jetzt und ist vergiftet."
+				'en-us': "The Defending Pokémon is now Asleep and Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi et Empoisonné.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt und ist vergiftet."
 			},
 			damage: 20,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magical Leaf",
-				fr: "Feuillemagik",
-				de: "Zauberblatt"
+				'en-us': "Magical Leaf",
+				'fr-fr': "Feuillemagik",
+				'de-de': "Zauberblatt"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 40 damage plus 30 more damage and remove 3 damage counters from Roserade.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires. Retirez à Roserade 3 marqueurs de dégât.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu und entferne 3 Schadensmarken von Roserade."
+				'en-us': "Flip a coin. If heads, this attack does 40 damage plus 30 more damage and remove 3 damage counters from Roserade.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires. Retirez à Roserade 3 marqueurs de dégât.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu und entferne 3 Schadensmarken von Roserade."
 			},
 			damage: "40+",
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It attracts prey with a sweet aroma, then downs it with thorny whips hidden in its arms.",
+		'en-us': "It attracts prey with a sweet aroma, then downs it with thorny whips hidden in its arms.",
 	},
 
 	thirdParty: {

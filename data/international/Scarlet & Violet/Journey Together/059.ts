@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shuppet",
-		fr: "Polichombr",
-		es: "Shuppet",
-		de: "Shuppet",
-		it: "Shuppet",
-		pt: "Shuppet",
+		'en-us': "Shuppet",
+		'fr-fr': "Polichombr",
+		'es-es': "Shuppet",
+		'de-de': "Shuppet",
+		'it-it': "Shuppet",
+		'pt-br': "Shuppet",
 		'es-mx': "Shuppet"
 	},
 
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Spooky Shot",
-			fr: "Tir Effrayant",
-			es: "Disparo Embrujado",
-			de: "Spukschuss",
-			it: "Colpomistero",
-			pt: "Tiro Assustador",
+			'en-us': "Spooky Shot",
+			'fr-fr': "Tir Effrayant",
+			'es-es': "Disparo Embrujado",
+			'de-de': "Spukschuss",
+			'it-it': "Colpomistero",
+			'pt-br': "Tiro Assustador",
 			'es-mx': "Disparo Espeluznante"
 		},
 

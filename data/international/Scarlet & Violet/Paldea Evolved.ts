@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Scarlet & Violet'
 
 const set: Set = {
 	id: "sv02",
 
 	name: {
-		de: "Entwicklungen in Paldea",
-		en: "Paldea Evolved",
-		es: "Evoluciones en Paldea",
-		fr: "Évolutions à Paldea",
-		it: "Evoluzioni a Paldea",
-		pt: "Evoluções em Paldea"
+		'de-de': "Entwicklungen in Paldea",
+		'en-us': "Paldea Evolved",
+		'es-es': "Evoluciones en Paldea",
+		'fr-fr': "Évolutions à Paldea",
+		'it-it': "Evoluzioni a Paldea",
+		'pt-br': "Evoluções em Paldea"
 	},
 
 	serie: serie,
@@ -23,7 +23,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "PAL",
-		fr: "EAP"
+		'fr-fr': "EAP"
 	},
 
 	thirdParty: {

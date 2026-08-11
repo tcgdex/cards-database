@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Kricketot",
-		fr: "Crikzik",
-		de: "Zirpurze"
+		'en-us': "Kricketot",
+		'fr-fr': "Crikzik",
+		'de-de': "Zirpurze"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 10,
@@ -43,9 +43,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beat",
-				fr: "Bataille",
-				de: "Verprügler"
+				'en-us': "Beat",
+				'fr-fr': "Bataille",
+				'de-de': "Verprügler"
 			},
 
 			damage: 20,
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its legs are short. Whenever it stumbles, its stiff antennae clack with a xylophone-like sound."
+		'en-us': "Its legs are short. Whenever it stumbles, its stiff antennae clack with a xylophone-like sound."
 	},
 
 	variants: [

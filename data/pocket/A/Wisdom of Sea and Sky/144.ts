@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dunsparce",
-		fr: "Insolourdo"
+		'en-us': "Dunsparce",
+		'fr-fr': "Insolourdo"
 	},
 
 	illustrator: "Kazuma Koda",
@@ -18,24 +18,24 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It creates mazes in dark locations. When spotted,\nit flees into the ground by digging with its tail.",
-		fr: "Il construit des labyrinthes dans les endroits sombres. Si quelqu'un le repère, il fuit en creusant le sol à l'aide de sa queue."
+		'en-us': "It creates mazes in dark locations. When spotted,\nit flees into the ground by digging with its tail.",
+		'fr-fr': "Il construit des labyrinthes dans les endroits sombres. Si quelqu'un le repère, il fuit en creusant le sol à l'aide de sa queue."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Sudden Flash",
-			fr: "Flash Surprise"
+			'en-us': "Sudden Flash",
+			'fr-fr': "Flash Surprise"
 		},
 
 		damage: 20,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
 		}
 	}],
 

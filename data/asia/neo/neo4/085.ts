@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "jigglypuff",
+		'ja-jp': "jigglypuff",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "拡大する",
+				'ja-jp': "拡大する",
 			},
 			effect: {
-				ja: "対戦相手の次のターン中にジグリプフに与えられたすべての損傷は、衰弱と抵抗を適用した後）10増加します。",
+				'ja-jp': "対戦相手の次のターン中にジグリプフに与えられたすべての損傷は、衰弱と抵抗を適用した後）10増加します。",
 			},
 			damage: 10,
 		},

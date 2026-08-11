@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Altaria C",
-		fr: "Altaria ",
-		de: "Altaria C"
+		'en-us': "Altaria C",
+		'fr-fr': "Altaria ",
+		'de-de': "Altaria C"
 	},
 	illustrator: "kawayoo",
 	rarity: "Uncommon",
@@ -28,14 +28,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sing",
-				fr: "Berceuse",
-				de: "Gesang"
+				'en-us': "Sing",
+				'fr-fr': "Berceuse",
+				'de-de': "Gesang"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sonic Wing",
-				fr: "Aile supersonique",
-				de: "Überschallflügel"
+				'en-us': "Sonic Wing",
+				'fr-fr': "Aile supersonique",
+				'de-de': "Überschallflügel"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'de-de': "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 30,
 

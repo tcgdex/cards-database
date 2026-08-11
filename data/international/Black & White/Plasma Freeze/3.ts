@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Beedrill",
-		fr: "Dardargnan",
-		es: "Beedrill",
-		it: "Beedrill",
-		pt: "Beedrill",
-		de: "Bibor"
+		'en-us': "Beedrill",
+		'fr-fr': "Dardargnan",
+		'es-es': "Beedrill",
+		'it-it': "Beedrill",
+		'pt-br': "Beedrill",
+		'de-de': "Bibor"
 	},
 
 	illustrator: "kawayoo",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kakuna",
-		fr: "Coconfort",
+		'en-us': "Kakuna",
+		'fr-fr': "Coconfort",
 	},
 
 	stage: "Stage2",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Swift Sting",
-				fr: "Piqûre Vive",
+				'en-us': "Swift Sting",
+				'fr-fr': "Piqûre Vive",
 			},
 			effect: {
-				en: "If this Pokémon has full HP, this attack does 40 more damage, and the Defending Pokémon is now Confused and Poisoned.",
-				fr: "Si ce Pokémon a tous ses PV, cette attaque inflige 40 dégâts supplémentaires, et le Pokémon Défenseur est maintenant Confus et Empoisonné.",
+				'en-us': "If this Pokémon has full HP, this attack does 40 more damage, and the Defending Pokémon is now Confused and Poisoned.",
+				'fr-fr': "Si ce Pokémon a tous ses PV, cette attaque inflige 40 dégâts supplémentaires, et le Pokémon Défenseur est maintenant Confus et Empoisonné.",
 			},
 			damage: 20,
 
@@ -56,8 +56,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pierce",
-				fr: "Transpercement",
+				'en-us': "Pierce",
+				'fr-fr': "Transpercement",
 			},
 
 			damage: 60,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Its best attack involves flying around at high speed, striking with poison needles, then flying off.",
+		'en-us': "Its best attack involves flying around at high speed, striking with poison needles, then flying off.",
 	},
 
 	thirdParty: {

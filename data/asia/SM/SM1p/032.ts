@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バンバドロ",
+		'ja-jp': "バンバドロ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "口から 吐く 泥は 固まると 雨風にも 強いので 昔の 家の 壁には よく塗られている。",
+		'ja-jp': "口から 吐く 泥は 固まると 雨風にも 強いので 昔の 家の 壁には よく塗られている。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "このポケモンに「ポケモンのどうぐ」がついているなら、60ダメージ追加。",
+				'ja-jp': "このポケモンに「ポケモンのどうぐ」がついているなら、60ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "このポケモンにも40ダメージ。",
+				'ja-jp': "このポケモンにも40ダメージ。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ドロバンコ",
+		'ja-jp': "ドロバンコ",
 	},
 
 	retreat: 4,

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mawile",
-		fr: "Mysdibule"
+		'en-us': "Mawile",
+		'fr-fr': "Mysdibule"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -18,24 +18,24 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "It uses its docile-looking face to lull foes into\ncomplacency, then bites with its huge,\nrelentless jaws.",
-		fr: "Trompés par son visage innocent, ses ennemis se font happer par ses énormes mâchoires et ne peuvent plus s'échapper."
+		'en-us': "It uses its docile-looking face to lull foes into\ncomplacency, then bites with its huge,\nrelentless jaws.",
+		'fr-fr': "Trompés par son visage innocent, ses ennemis se font happer par ses énormes mâchoires et ne peuvent plus s'échapper."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Powerful Vise",
-			fr: "Étau Costaud"
+			'en-us': "Powerful Vise",
+			'fr-fr': "Étau Costaud"
 		},
 
 		damage: 30,
 		cost: ["Metal", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
 		}
 	}],
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Magmar ex",
-		fr: "Magmar ex",
-		de: "Magmar ex"
+		'en-us': "Magmar ex",
+		'fr-fr': "Magmar ex",
+		'de-de': "Magmar ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Smokescreen",
-				fr: "Brouillard",
-				de: "Smokescreen"
+				'en-us': "Smokescreen",
+				'fr-fr': "Brouillard",
+				'de-de': "Smokescreen"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaye d'attaquer pendant le prochain tour de votre adversaire, votre adversaire doit lancer une pièce. Si c'est pile, l'attaque est sans effet.",
-				de: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur essaye d'attaquer pendant le prochain tour de votre adversaire, votre adversaire doit lancer une pièce. Si c'est pile, l'attaque est sans effet.",
+				'de-de': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
 			},
 			damage: 10,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Singe",
-				fr: "Ça sent le roussi !",
-				de: "Super Singe"
+				'en-us': "Super Singe",
+				'fr-fr': "Ça sent le roussi !",
+				'de-de': "Super Singe"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
-				de: "The Defending Pokémon is now Burned."
+				'en-us': "The Defending Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "The Defending Pokémon is now Burned."
 			},
 			damage: 40,
 

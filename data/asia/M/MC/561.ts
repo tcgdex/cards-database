@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラッキー",
+		'ja-jp': "ラッキー",
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "持っている タマゴを 割らないように 気をつけて 歩く。 でも 逃げ足は とても 速い。",
+		'ja-jp': "持っている タマゴを 割らないように 気をつけて 歩く。 でも 逃げ足は とても 速い。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ラッキーアタッチ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の手札から基本エネルギーを1枚選び、自分のポケモンにつける。",
+				'ja-jp': "自分の手札から基本エネルギーを1枚選び、自分のポケモンにつける。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],

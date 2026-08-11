@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Barboach",
-		fr: "Barloche",
-		es: "Barboach",
-		it: "Barboach",
-		pt: "Barboach",
-		de: "Schmerbe"
+		'en-us': "Barboach",
+		'fr-fr': "Barloche",
+		'es-es': "Barboach",
+		'it-it': "Barboach",
+		'pt-br': "Barboach",
+		'de-de': "Schmerbe"
 	},
 
 	illustrator: "sui",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hook",
-				fr: "Crochet",
-				es: "Garfio",
-				it: "Uncino",
-				pt: "Gancho",
-				de: "Haken"
+				'en-us': "Hook",
+				'fr-fr': "Crochet",
+				'es-es': "Garfio",
+				'it-it': "Uncino",
+				'pt-br': "Gancho",
+				'de-de': "Haken"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud-Slap",
-				fr: "Coud’Boue",
-				es: "Bofetón Lodo",
-				it: "Fangosberla",
-				pt: "Tiro de Lama",
-				de: "Lehmschelle"
+				'en-us': "Mud-Slap",
+				'fr-fr': "Coud’Boue",
+				'es-es': "Bofetón Lodo",
+				'it-it': "Fangosberla",
+				'pt-br': "Tiro de Lama",
+				'de-de': "Lehmschelle"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its two whiskers provide a sensitive radar. Even in muddy waters, it can detect its prey's location.",
+		'en-us': "Its two whiskers provide a sensitive radar. Even in muddy waters, it can detect its prey's location.",
 	},
 
 	thirdParty: {

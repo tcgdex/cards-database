@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニャヒート",
+		'ja-jp': "ニャヒート",
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "なつくと トレーナーにも 甘えるが 力は 強く ツメも 鋭い。 全身 傷だらけに されるぞ。",
+		'ja-jp': "なつくと トレーナーにも 甘えるが 力は 強く ツメも 鋭い。 全身 傷だらけに されるぞ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Fire"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニャビー",
+		'ja-jp': "ニャビー",
 	},
 
 	retreat: 1,

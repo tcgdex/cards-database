@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S5I";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヘルガー",
+		'ja-jp': "ヘルガー",
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "いちげきのほうこう" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札から「いちげきエネルギー」を1枚選び、自分の「いちげき」のポケモンにつける。そして山札を切る。その後、つけたポケモンにダメカンを2個のせる。",
+				'ja-jp': "自分の番に1回使える。自分の山札から「いちげきエネルギー」を1枚選び、自分の「いちげき」のポケモンにつける。そして山札を切る。その後、つけたポケモンにダメカンを2個のせる。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "デルビル",
+		'ja-jp': "デルビル",
 	},
 
 	retreat: 2,

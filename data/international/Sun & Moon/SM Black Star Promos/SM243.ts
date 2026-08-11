@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Regigigas",
-		fr: "Regigigas",
-		es: "Regigigas",
-		it: "Regigigas",
-		pt: "Regigigas",
-		de: "Regigigas"
+		'en-us': "Regigigas",
+		'fr-fr': "Regigigas",
+		'es-es': "Regigigas",
+		'it-it': "Regigigas",
+		'pt-br': "Regigigas",
+		'de-de': "Regigigas"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -22,35 +22,35 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			es: "Martillear",
-			it: "Martello",
-			pt: "Martelada",
-			de: "Einhämmern"
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'es-es': "Martillear",
+			'it-it': "Martello",
+			'pt-br': "Martelada",
+			'de-de': "Einhämmern"
 		},
 
 		damage: 60,
 		cost: ["Colorless", "Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Regiblast",
-			fr: "Regi-Explosion",
-			es: "Regiexplosión",
-			it: "Bomba Regi",
-			pt: "Regexplosão",
-			de: "Registoß"
+			'en-us': "Regiblast",
+			'fr-fr': "Regi-Explosion",
+			'es-es': "Regiexplosión",
+			'it-it': "Bomba Regi",
+			'pt-br': "Regexplosão",
+			'de-de': "Registoß"
 		},
 
 		damage: 180,
 
 		effect: {
-			en: "Discard the top card of your opponent’s deck.",
-			fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-			es: "Descarta la primera carta de la baraja de tu rival.",
-			it: "Scarta la prima carta del mazzo del tuo avversario.",
-			pt: "Descarte a primeira carta do baralho do seu oponente.",
-			de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+			'en-us': "Discard the top card of your opponent’s deck.",
+			'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+			'es-es': "Descarta la primera carta de la baraja de tu rival.",
+			'it-it': "Scarta la prima carta del mazzo del tuo avversario.",
+			'pt-br': "Descarte a primeira carta do baralho do seu oponente.",
+			'de-de': "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 		},
 
 		cost: ["Fighting", "Metal", "Water", "Colorless", "Colorless"]
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It is said to have made Pokémon that look like itself from a special ice mountain, rocks, and magma.",
+		'en-us': "It is said to have made Pokémon that look like itself from a special ice mountain, rocks, and magma.",
 	},
 }
 

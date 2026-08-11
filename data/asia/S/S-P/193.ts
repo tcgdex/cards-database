@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホルビー",
+		'ja-jp': "ホルビー",
 		'zh-tw': "挖洞兄弟",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "耳で 穴を 掘るのが 得意。 地下１０メートルに とどく 巣穴を 一晩で つくってしまう。",
+		'ja-jp': "耳で 穴を 掘るのが 得意。 地下１０メートルに とどく 巣穴を 一晩で つくってしまう。",
 	},
 
 	stage: "Basic",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分のトラッシュにある、ワザ「マッドパーティ」を持つポケモンの数×20ダメージ。",
+				'ja-jp': "自分のトラッシュにある、ワザ「マッドパーティ」を持つポケモンの数×20ダメージ。",
 			},
 		},
 	],

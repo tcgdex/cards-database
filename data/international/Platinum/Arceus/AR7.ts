@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Arceus",
-		fr: "Arceus",
-		de: "Arceus"
+		'en-us': "Arceus",
+		'fr-fr': "Arceus",
+		'de-de': "Arceus"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mind Bend",
-				fr: "Contrôleur d'esprit",
-				de: "Gedankenverbiegung"
+				'en-us': "Mind Bend",
+				'fr-fr': "Contrôleur d'esprit",
+				'de-de': "Gedankenverbiegung"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
-				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 40,
 
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is told in mythology that this Pokémon was born before the universe even existed."
+		'en-us': "It is told in mythology that this Pokémon was born before the universe even existed."
 	},
 
 	variants: [

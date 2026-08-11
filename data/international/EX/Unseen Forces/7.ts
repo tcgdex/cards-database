@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Houndoom",
-		fr: "Demolosse",
-		de: "Hundemon"
+		'en-us': "Houndoom",
+		'fr-fr': "Demolosse",
+		'de-de': "Hundemon"
 	},
 
 	illustrator: "Midori Harada",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Houndour",
-		fr: "Malosse"
+		'en-us': "Houndour",
+		'fr-fr': "Malosse"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Lonesome",
-				fr: "Solitaire",
-				de: "Lonesome"
+				'en-us': "Lonesome",
+				'fr-fr': "Solitaire",
+				'de-de': "Lonesome"
 			},
 			effect: {
-				en: "As long as you have less Pokémon in play than your opponent, your opponent can't play any Trainer cards (except for Supporter cards) from his or her hand.",
-				fr: "Tant que vous avez moins de Pokémon en jeu que votre adversaire, il ou elle ne peut pas jouer de cartes Dresseur (cartes Supporter exclues) de sa main.",
-				de: "As long as you have less Pokémon in play than your opponent, your opponent can't play Trainer cards (except for Supporter cards) from his or her hand."
+				'en-us': "As long as you have less Pokémon in play than your opponent, your opponent can't play any Trainer cards (except for Supporter cards) from his or her hand.",
+				'fr-fr': "Tant que vous avez moins de Pokémon en jeu que votre adversaire, il ou elle ne peut pas jouer de cartes Dresseur (cartes Supporter exclues) de sa main.",
+				'de-de': "As long as you have less Pokémon in play than your opponent, your opponent can't play Trainer cards (except for Supporter cards) from his or her hand."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tight Jaw",
-				fr: "Mâchoire serrée",
-				de: "Tight Jaw"
+				'en-us': "Tight Jaw",
+				'fr-fr': "Mâchoire serrée",
+				'de-de': "Tight Jaw"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 
@@ -72,14 +72,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-flamme",
-				de: "Flammenwurf"
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-flamme",
+				'de-de': "Flammenwurf"
 			},
 			effect: {
-				en: "Discard a Fire Energy attached to Houndoom.",
-				fr: "Défaussez une Énergie  attachée à Demolosse.",
-				de: "Discard a  Energy attached to Houndoom."
+				'en-us': "Discard a Fire Energy attached to Houndoom.",
+				'fr-fr': "Défaussez une Énergie  attachée à Demolosse.",
+				'de-de': "Discard a  Energy attached to Houndoom."
 			},
 			damage: 70,
 

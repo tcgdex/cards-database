@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ズピカ",
+		'ja-jp': "ズピカ",
 		'zh-tw': "光蚪仔",
-		th: "ซุพีคา",
-		id: "Tadbulb"
+		'th-th': "ซุพีคา",
+		'id-id': "Tadbulb"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "尻尾を 振って 発電する。 危険を 感じると 頭を 点滅させて 仲間に 伝える。",
+		'ja-jp': "尻尾を 振って 発電する。 危険を 感じると 頭を 点滅させて 仲間に 伝える。",
 		'zh-tw': "會搖尾巴來發電。感覺到有危險時， 會閃爍頭部通知夥伴。",
-		th: "แกว่งหางเพื่อผลิตไฟฟ้า เมื่อรู้สึกถึงอันตรายจะทำให้ไฟบนหัวกะพริบเพื่อแจ้งพวกพ้อง",
-		id: "Tadbulb menghasilkan listrik dengan menggoyangkan ekornya. Ketika merasakan adanya bahaya, Pokémon ini memberitahukan sesamanya dengan mengedipkan cahaya kepalanya."
+		'th-th': "แกว่งหางเพื่อผลิตไฟฟ้า เมื่อรู้สึกถึงอันตรายจะทำให้ไฟบนหัวกะพริบเพื่อแจ้งพวกพ้อง",
+		'id-id': "Tadbulb menghasilkan listrik dengan menggoyangkan ekornya. Ketika merasakan adanya bahaya, Pokémon ini memberitahukan sesamanya dengan mengedipkan cahaya kepalanya."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ふむ",
+			'ja-jp': "ふむ",
 			'zh-tw': "踩",
-			th: "เหยียบ",
-			id: "Menginjak"
+			'th-th': "เหยียบ",
+			'id-id': "Menginjak"
 		},
 
 		damage: 10
@@ -42,10 +42,10 @@ const card: Card = {
 		cost: ["Lightning", "Lightning"],
 
 		name: {
-			ja: "バチバチ",
+			'ja-jp': "バチバチ",
 			'zh-tw': "劈哩啪啦",
-			th: "ประกายไฟ",
-			id: "Berpijar-pijar"
+			'th-th': "ประกายไฟ",
+			'id-id': "Berpijar-pijar"
 		},
 
 		damage: 30

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Kirlia",
-		fr: "Kirlia",
-		de: "Kirlia"
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia",
+		'de-de': "Kirlia"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ralts",
-		fr: "Tarsal"
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psyshock",
-				fr: "Choc psy",
-				de: "Psychoschock"
+				'en-us': "Psyshock",
+				'fr-fr': "Choc psy",
+				'de-de': "Psychoschock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Link Blast",
-				fr: "Explosion en série",
-				de: "Vereinigende Explosion"
+				'en-us': "Link Blast",
+				'fr-fr': "Explosion en série",
+				'de-de': "Vereinigende Explosion"
 			},
 			effect: {
-				en: "If Kirlia and the Defending Pokémon have a different amount of Energy attached to them, this attack's base damage is 30 instead of 60.",
-				fr: "Si Kirlia et le Pokémon Défenseur possèdent un nombre d'Énergies différent, les dégâts de base de cette attaque sont de 30 au lieu de 60.",
-				de: "Wenn an Kirlia und das Verteidigende Pokémon unterschiedlich viel Energie angelegt ist, beträgt der Grundschaden dieses Angriffs 30 Schadenspunkte anstelle von 60 Schadenspunkte"
+				'en-us': "If Kirlia and the Defending Pokémon have a different amount of Energy attached to them, this attack's base damage is 30 instead of 60.",
+				'fr-fr': "Si Kirlia et le Pokémon Défenseur possèdent un nombre d'Énergies différent, les dégâts de base de cette attaque sont de 30 au lieu de 60.",
+				'de-de': "Wenn an Kirlia und das Verteidigende Pokémon unterschiedlich viel Energie angelegt ist, beträgt der Grundschaden dieses Angriffs 30 Schadenspunkte anstelle von 60 Schadenspunkte"
 			},
 			damage: 60,
 

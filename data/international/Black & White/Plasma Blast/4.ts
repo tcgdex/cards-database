@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Cradily",
-		fr: "Vacilys",
-		es: "Cradily",
-		it: "Cradily",
-		pt: "Cradily",
-		de: "Wielie"
+		'en-us': "Cradily",
+		'fr-fr': "Vacilys",
+		'es-es': "Cradily",
+		'it-it': "Cradily",
+		'pt-br': "Cradily",
+		'de-de': "Wielie"
 	},
 
 	illustrator: "kawayoo",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lileep",
-		fr: "Lilia",
+		'en-us': "Lileep",
+		'fr-fr': "Lilia",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Lifesplosion",
-				fr: "Explovie",
+				'en-us': "Lifesplosion",
+				'fr-fr': "Explovie",
 			},
 			effect: {
-				en: "For each Energy attached to this Pokémon, search your deck for a Stage 2 Pokémon and put it onto your Bench. Shuffle your deck afterward.",
-				fr: "Pour chaque Énergie attachée à ce Pokémon, cherchez un Pokémon de Niveau 2 dans votre deck et placez-le sur votre Banc. Mélangez ensuite votre deck.",
+				'en-us': "For each Energy attached to this Pokémon, search your deck for a Stage 2 Pokémon and put it onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Pour chaque Énergie attachée à ce Pokémon, cherchez un Pokémon de Niveau 2 dans votre deck et placez-le sur votre Banc. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spiral Drain",
-				fr: "Spirale Épuisante",
+				'en-us': "Spiral Drain",
+				'fr-fr': "Spirale Épuisante",
 			},
 			effect: {
-				en: "Heal 20 damage from this Pokémon.",
-				fr: "Soignez 20 dégâts à ce Pokémon.",
+				'en-us': "Heal 20 damage from this Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à ce Pokémon.",
 			},
 			damage: 60,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It lives in the shallows of warm seas. When the tide goes out, it digs up prey from beaches.",
+		'en-us': "It lives in the shallows of warm seas. When the tide goes out, it digs up prey from beaches.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Geodude",
-		fr: "Racaillou",
-		de: "Kleinstein"
+		'en-us': "Geodude",
+		'fr-fr': "Racaillou",
+		'de-de': "Kleinstein"
 	},
 
 	illustrator: "Aya Kusube",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Rock Hurl",
-				fr: "Lance-pierre",
-				de: "Steinschleuderer"
+				'en-us': "Rock Hurl",
+				'fr-fr': "Lance-pierre",
+				'de-de': "Steinschleuderer"
 			},
 			effect: {
-				en: "Don't apply Resistance.",
-				fr: "N'appliquez pas la Résistance.",
-				de: "Wende Resistenz nicht an."
+				'en-us': "Don't apply Resistance.",
+				'fr-fr': "N'appliquez pas la Résistance.",
+				'de-de': "Wende Resistenz nicht an."
 			},
 			damage: 10,
 

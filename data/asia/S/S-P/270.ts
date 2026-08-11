@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グレイシアV",
+		'ja-jp': "グレイシアV",
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Water"],
 			effect: {
-				ja: "自分の山札から[W]エネルギーを1枚選び、このポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から[W]エネルギーを1枚選び、このポケモンにつける。そして山札を切る。",
 			},
 		},
 		{

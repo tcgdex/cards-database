@@ -1,26 +1,26 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イーユイ"
+		'ja-jp': "イーユイ"
 	},
 	illustrator: "Gemi",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Fire"],
 	description: {
-		ja: "３０００度の炎を操る。岩や砂利を溶かして作ったマグマの海をゆうゆうと泳ぐ。"
+		'ja-jp': "３０００度の炎を操る。岩や砂利を溶かして作ったマグマの海をゆうゆうと泳ぐ。"
 	},
 	stage: "Basic",
 	attacks: [{
 		name: {
-			ja: "やけつくだいち"
+			'ja-jp': "やけつくだいち"
 		},
 		damage: 40,
 		effect: {
-			ja: "場に出ている相手のスタジアムをトラッシュする。トラッシュした場合、次の相手の番、相手は手札からスタジアムを出せない。"
+			'ja-jp': "場に出ている相手のスタジアムをトラッシュする。トラッシュした場合、次の相手の番、相手は手札からスタジアムを出せない。"
 		},
 		cost: ["Fire"]
 	}],

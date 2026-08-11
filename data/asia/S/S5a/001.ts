@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S5a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "獨角蟲",
-		th: "บีเดิล"
+		'th-th': "บีเดิล"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "毒針非常厲害。鮮豔的體色是用來警告對手的。",
-		th: "เข็มพิษมันมีพิษรุนแรงมาก สีสันตามตัวที่ดูเด่นสะดุดตาก็เพื่อทำให้ฝ่ายตรงข้ามคอยระวังตัว"
+		'th-th': "เข็มพิษมันมีพิษรุนแรงมาก สีสันตามตัวที่ดูเด่นสะดุดตาก็เพื่อทำให้ฝ่ายตรงข้ามคอยระวังตัว"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "突刺",
-			th: "แทง"
+			'th-th': "แทง"
 		},
 
 		damage: 20,

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2019'
 
 const card: Card = {
@@ -9,21 +9,21 @@ const card: Card = {
 	dexId: [133],
 
 	description: {
-		en: "Current studies show it can evolve into an incredible eight different species of Pokémon."
+		'en-us': "Current studies show it can evolve into an incredible eight different species of Pokémon."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Gnaw"
+			'en-us': "Gnaw"
 		},
 
 		damage: 20
 	}],
 
 	name: {
-		en: "Eevee"
+		'en-us': "Eevee"
 	},
 
 	rarity: "None",

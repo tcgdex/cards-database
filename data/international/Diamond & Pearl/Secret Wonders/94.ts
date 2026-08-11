@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Mareep",
-		fr: "Wattouat",
-		de: "Voltilamm"
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat",
+		'de-de': "Voltilamm"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thundershock",
-				fr: "Éclair",
-				de: "Donnerschock"
+				'en-us': "Thundershock",
+				'fr-fr': "Éclair",
+				'de-de': "Donnerschock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -49,9 +49,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Static Shock",
-				fr: "Choc statique",
-				de: "Statischer Schock"
+				'en-us': "Static Shock",
+				'fr-fr': "Choc statique",
+				'de-de': "Statischer Schock"
 			},
 
 			damage: 20,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking.",
+		'en-us': "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking.",
 	},
 
 	thirdParty: {

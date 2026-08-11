@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Milotic ex"
+		'id-id': "Milotic ex"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Sisik Gemerlap"
+			'id-id': "Sisik Gemerlap"
 		},
 
 		effect: {
-			id: "Pokémon ini tidak menerima kerusakan dan efek akibat serangan dari Pokémon Terastal lawan."
+			'id-id': "Pokémon ini tidak menerima kerusakan dan efek akibat serangan dari Pokémon Terastal lawan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Hypnosplash"
+			'id-id': "Hypnosplash"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
 		},
 
 		damage: 160,

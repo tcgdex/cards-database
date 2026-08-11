@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM trainer Kit (Alolan Raichu)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Stufful",
-		fr: "Nounourson",
-		es: "Stufful",
-		it: "Stufful",
-		pt: "Stufful",
-		de: "Velursi"
+		'en-us': "Stufful",
+		'fr-fr': "Nounourson",
+		'es-es': "Stufful",
+		'it-it': "Stufful",
+		'pt-br': "Stufful",
+		'de-de': "Velursi"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -28,7 +28,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle"
+				'en-us': "Tackle"
 			},
 			damage: 30
 		},

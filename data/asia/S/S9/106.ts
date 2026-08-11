@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ライチュウV"
+		'ja-jp': "ライチュウV"
 	},
 
 	illustrator: "MUGENUP",
@@ -19,23 +19,23 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			ja: "ファストチャージ"
+			'ja-jp': "ファストチャージ"
 		},
 
 		effect: {
-			ja: "このワザは、先攻プレイヤーの最初の番でも使える。自分の山札からエネルギーを1枚選び、このポケモンにつける。そして山札を切る。"
+			'ja-jp': "このワザは、先攻プレイヤーの最初の番でも使える。自分の山札からエネルギーを1枚選び、このポケモンにつける。そして山札を切る。"
 		}
 	}, {
 		cost: ["Lightning", "Lightning"],
 
 		name: {
-			ja: "ダイナミックスパーク"
+			'ja-jp': "ダイナミックスパーク"
 		},
 
 		damage: "60×",
 
 		effect: {
-			ja: "自分の場のポケモンについているエネルギーを好きなだけトラッシュし、その枚数×60ダメージ。"
+			'ja-jp': "自分の場のポケモンについているエネルギーを好きなだけトラッシュし、その枚数×60ダメージ。"
 		}
 	}],
 

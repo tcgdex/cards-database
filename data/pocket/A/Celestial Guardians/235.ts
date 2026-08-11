@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Celestial Guardians"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Machamp ex",
-		fr: "Mackogneur-ex",
-		es: "Machamp ex",
-		it: "Machamp-ex",
-		de: "Machomei-ex",
+		'en-us': "Machamp ex",
+		'fr-fr': "Mackogneur-ex",
+		'es-es': "Machamp ex",
+		'it-it': "Machamp-ex",
+		'de-de': "Machomei-ex",
 		'pt-br': "Machamp ex",
-		ko: "괴력몬 ex"
+		'ko-kr': "괴력몬 ex"
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -23,7 +23,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Machoke"
+		'en-us': "Machoke"
 	},
 
 	stage: "Stage2",
@@ -31,13 +31,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Mega Punch",
-			fr: "Ultimapoing",
-			es: "Megapuño",
-			it: "Megapugno",
-			de: "Megahieb",
+			'en-us': "Mega Punch",
+			'fr-fr': "Ultimapoing",
+			'es-es': "Megapuño",
+			'it-it': "Megapugno",
+			'de-de': "Megahieb",
 			'pt-br': "Megassoco",
-			ko: "메가톤펀치"
+			'ko-kr': "메가톤펀치"
 		},
 
 		damage: 120,

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Alolan Dugtrio ex"
+		'en-us': "Alolan Dugtrio ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Alolan Diglett"
+		'en-us': "Alolan Diglett"
 	},
 
 	stage: "Stage1",
@@ -25,14 +25,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Triplet Headbutt"
+			'en-us': "Triplet Headbutt"
 		},
 
 		damage: 60,
 		cost: ["Metal", "Colorless"],
 
 		effect: {
-			en: "Flip 3 coins. This attack does 60 damage for each heads."
+			'en-us': "Flip 3 coins. This attack does 60 damage for each heads."
 		}
 	}],
 

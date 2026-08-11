@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "vileplume",
+		'ja-jp': "vileplume",
 	},
 
 	rarity: "Holo Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "毒の香り",
+				'ja-jp': "毒の香り",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御するポケモンは毒され、混乱しています。尾の場合、防御するポケモンは毒され、眠っています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御するポケモンは毒され、混乱しています。尾の場合、防御するポケモンは毒され、眠っています。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "中毒性の花粉",
+				'ja-jp': "中毒性の花粉",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、対戦相手は次のターン中にサポーターカードをプレイできません。",
+				'ja-jp': "コインをひっくり返します。頭の場合、対戦相手は次のターン中にサポーターカードをプレイできません。",
 			},
 			damage: 40,
 		},

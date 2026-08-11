@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウォーグル",
+		'ja-jp': "ウォーグル",
 	},
 
 	illustrator: "chibi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "向こう傷の 多い ものほど 勇敢とされ 後ろ傷の 多い ものは 群れで バカに される。",
+		'ja-jp': "向こう傷の 多い ものほど 勇敢とされ 後ろ傷の 多い ものは 群れで バカに される。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 140,
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、2個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、2個トラッシュする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ワシボン",
+		'ja-jp': "ワシボン",
 	},
 
 	retreat: 1,

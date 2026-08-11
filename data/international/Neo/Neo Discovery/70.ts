@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Weedle",
-		fr: "Aspicot",
-		de: "Hornliu"
+		'en-us': "Weedle",
+		'fr-fr': "Aspicot",
+		'de-de': "Hornliu"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -32,15 +32,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Spike Stab",
-				fr: "Koud'pic",
-				de: "Stachelstich"
+				'en-us': "Spike Stab",
+				'fr-fr': "Koud'pic",
+				'de-de': "Stachelstich"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, this attack does nothing (not even damage).",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Si c'est pile, cette attaque ne fait rien (pas même de dégâts).",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist der verteidigende Pokémon jetzt vergiftet. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen (nicht einmal Schadenspunkte)."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, this attack does nothing (not even damage).",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Si c'est pile, cette attaque ne fait rien (pas même de dégâts).",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist der verteidigende Pokémon jetzt vergiftet. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen (nicht einmal Schadenspunkte)."
 			},
 
 			damage: 20
@@ -57,8 +57,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",
-		fr: "Son dard empoisonné est très puissant. Son corps de couleur criarde est conçu pour repousser ses ennemis."
+		'en-us': "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",
+		'fr-fr': "Son dard empoisonné est très puissant. Son corps de couleur criarde est conçu pour repousser ses ennemis."
 	},
 
 

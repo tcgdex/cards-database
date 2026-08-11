@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Clefairy",
-		fr: "Mélofée",
-		es: "Clefairy",
-		it: "Clefairy",
-		pt: "Clefairy",
-		de: "Piepi"
+		'en-us': "Clefairy",
+		'fr-fr': "Mélofée",
+		'es-es': "Clefairy",
+		'it-it': "Clefairy",
+		'pt-br': "Clefairy",
+		'de-de': "Piepi"
 	},
 
 	illustrator: "match",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Moonblast",
-				fr: "Pouvoir Lunaire",
-				es: "Fuerza Lunar",
-				it: "Forza Lunare",
-				pt: "Explosão Lunar",
-				de: "Mondgewalt"
+				'en-us': "Moonblast",
+				'fr-fr': "Pouvoir Lunaire",
+				'es-es': "Fuerza Lunar",
+				'it-it': "Forza Lunare",
+				'pt-br': "Explosão Lunar",
+				'de-de': "Mondgewalt"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 10 (before applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 10 (avant application de la Faiblesse et de la Résistance).",
-				es: "Durante el próximo turno de tu rival, cualquier daño infligido por ataques del Pokémon Defensor se reduce en 10 (antes de aplicar Debilidad y Resistencia).",
-				it: "Durante il prossimo turno del tuo avversario, i danni inflitti dagli attacchi del Pokémon difensore sono ridotti di 10, prima di aver applicato debolezza e resistenza.",
-				pt: "Durante a próxima vez de jogar do seu oponente, qualquer dano causado por ataques pelo Pokémon Defensor será reduzido em 10 (antes da aplicação de Fraqueza e Resistência).",
-				de: "Während des nächsten Zuges deines Gegners wird Schaden, der durch Angriffe des Verteidigenden Pokémon zugefügt wird, um 10 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 10 (before applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 10 (avant application de la Faiblesse et de la Résistance).",
+				'es-es': "Durante el próximo turno de tu rival, cualquier daño infligido por ataques del Pokémon Defensor se reduce en 10 (antes de aplicar Debilidad y Resistencia).",
+				'it-it': "Durante il prossimo turno del tuo avversario, i danni inflitti dagli attacchi del Pokémon difensore sono ridotti di 10, prima di aver applicato debolezza e resistenza.",
+				'pt-br': "Durante a próxima vez de jogar do seu oponente, qualquer dano causado por ataques pelo Pokémon Defensor será reduzido em 10 (antes da aplicação de Fraqueza e Resistência).",
+				'de-de': "Während des nächsten Zuges deines Gegners wird Schaden, der durch Angriffe des Verteidigenden Pokémon zugefügt wird, um 10 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 			damage: 10,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.",
+		'en-us': "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.",
 	},
 
 	thirdParty: {

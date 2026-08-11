@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガゲンガーex",
+		'ja-jp': "メガゲンガーex",
 	},
 
 	illustrator: "Taiga Kasai",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かげかくし" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分の[D]ポケモンが、相手の「ポケモンex」からワザのダメージを受けてきぜつしたとき、とられるサイドは1枚少なくなる。この特性の効果は重ならない。",
+				'ja-jp': "このポケモンがいるかぎり、自分の[D]ポケモンが、相手の「ポケモンex」からワザのダメージを受けてきぜつしたとき、とられるサイドは1枚少なくなる。この特性の効果は重ならない。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 230,
 			cost: ["Darkness", "Darkness"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴースト",
+		'ja-jp': "ゴースト",
 	},
 
 	retreat: 2,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Stoutland",
-		fr: "Mastouffe",
-		es: "Stoutland",
-		it: "Stoutland",
-		pt: "Stoutland",
-		de: "Bissbark"
+		'en-us': "Stoutland",
+		'fr-fr': "Mastouffe",
+		'es-es': "Stoutland",
+		'it-it': "Stoutland",
+		'pt-br': "Stoutland",
+		'de-de': "Bissbark"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Herdier",
-		fr: "Ponchien"
+		'en-us': "Herdier",
+		'fr-fr': "Ponchien"
 	},
 
 	stage: "Stage2",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Special Fang",
-				fr: "Croc Spécial"
+				'en-us': "Special Fang",
+				'fr-fr': "Croc Spécial"
 			},
 			effect: {
-				en: "If this Pokémon has any Special Energy attached to it, this attack does 40 more damage.",
-				fr: "Si de l'Énergie spéciale est attachée à ce Pokémon, cette attaque inflige 40 dégâts supplémentaires."
+				'en-us': "If this Pokémon has any Special Energy attached to it, this attack does 40 more damage.",
+				'fr-fr': "Si de l'Énergie spéciale est attachée à ce Pokémon, cette attaque inflige 40 dégâts supplémentaires."
 			},
 			damage: 40,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ferocious Bellow",
-				fr: "Grognement Féroce"
+				'en-us': "Ferocious Bellow",
+				'fr-fr': "Grognement Féroce"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 30 (avant application de la Faiblesse et de la Résistance)."
+				'en-us': "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 30 (avant application de la Faiblesse et de la Résistance)."
 			},
 			damage: 60,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It rescues people stranded by blizzards in the mountains. Its shaggy fur shields it from the cold.",
+		'en-us': "It rescues people stranded by blizzards in the mountains. Its shaggy fur shields it from the cold.",
 	},
 
 	thirdParty: {

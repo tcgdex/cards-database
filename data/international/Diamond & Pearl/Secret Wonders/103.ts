@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Rattata",
-		fr: "Rattata",
-		de: "Rattfratz"
+		'en-us': "Rattata",
+		'fr-fr': "Rattata",
+		'de-de': "Rattfratz"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Whip",
-				fr: "Mouvemend'keu",
-				de: "Rutenschlag"
+				'en-us': "Tail Whip",
+				'fr-fr': "Mouvemend'keu",
+				'de-de': "Rutenschlag"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon im nächsten Zug deines Gegners nicht angreifen."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer lors du prochain tour de votre adversaire.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon im nächsten Zug deines Gegners nicht angreifen."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Biss"
 			},
 
 			damage: 20,
@@ -65,7 +65,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Cautious in the extreme, its hardy vitality lets it live in any kind of environment.",
+		'en-us': "Cautious in the extreme, its hardy vitality lets it live in any kind of environment.",
 	},
 
 	thirdParty: {

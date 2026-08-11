@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジンクス",
+		'ja-jp': "ジンクス",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "進化の段階",
+				'ja-jp': "進化の段階",
 			},
 			effect: {
-				ja: "Jynxが進化したポカモンである限り、Jynxに与えられた損傷を除いて、相手の攻撃のすべての影響を防ぎ、Jynxは弱さを持っていません。",
+				'ja-jp': "Jynxが進化したポカモンである限り、Jynxに与えられた損傷を除いて、相手の攻撃のすべての影響を防ぎ、Jynxは弱さを持っていません。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "凍結光",
+				'ja-jp': "凍結光",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。尾の場合、防御するポケモンが燃やされます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。尾の場合、防御するポケモンが燃やされます。",
 			},
 		},
 		{
 			cost: ["Water", "Psychic", "Colorless"],
 			name: {
-				ja: "純粋な力",
+				'ja-jp': "純粋な力",
 			},
 			effect: {
-				ja: "相手のポケモンに4つのダメージカウンターを、好きなように配置します。",
+				'ja-jp': "相手のポケモンに4つのダメージカウンターを、好きなように配置します。",
 			},
 		},
 	],

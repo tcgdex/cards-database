@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デカヌチャン",
+		'ja-jp': "デカヌチャン",
 	},
 
 	illustrator: "DOM",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "知能が 高く とても 豪快。 ハンマーで 岩を 殴り飛ばして 空飛ぶ アーマーガアを 狙う。",
+		'ja-jp': "知能が 高く とても 豪快。 ハンマーで 岩を 殴り飛ばして 空飛ぶ アーマーガアを 狙う。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手の手札からオモテを見ないで1枚選び、トラッシュする。",
+				'ja-jp': "相手の手札からオモテを見ないで1枚選び、トラッシュする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 220,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも60ダメージ。",
+				'ja-jp': "このポケモンにも60ダメージ。",
 			},
 		},
 	],
@@ -51,7 +51,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ナカヌチャン",
+		'ja-jp': "ナカヌチャン",
 	},
 
 	retreat: 2,

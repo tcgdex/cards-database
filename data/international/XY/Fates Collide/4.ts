@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Mothim",
-		fr: "Papilord",
-		es: "Mothim",
-		it: "Mothim",
-		pt: "Mothim",
-		de: "Moterpel"
+		'en-us': "Mothim",
+		'fr-fr': "Papilord",
+		'es-es': "Mothim",
+		'it-it': "Mothim",
+		'pt-br': "Mothim",
+		'de-de': "Moterpel"
 	},
 
 	illustrator: "MAHOU",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Burmy",
-		fr: "Cheniti",
-		es: "Burmy",
-		it: "Burmy",
-		pt: "Burmy",
-		de: "Burmy"
+		'en-us': "Burmy",
+		'fr-fr': "Cheniti",
+		'es-es': "Burmy",
+		'it-it': "Burmy",
+		'pt-br': "Burmy",
+		'de-de': "Burmy"
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Wormadam First",
-				fr: "Cheniselle d'Abord",
-				es: "Wormadam Primero",
-				it: "Prima Wormadam",
-				pt: "As Wormadam Primeiro",
-				de: "Burmadame zuerst"
+				'en-us': "Wormadam First",
+				'fr-fr': "Cheniselle d'Abord",
+				'es-es': "Wormadam Primero",
+				'it-it': "Prima Wormadam",
+				'pt-br': "As Wormadam Primeiro",
+				'de-de': "Burmadame zuerst"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Wormadam to another of your Pokémon.",
-				fr: "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez déplacer 1 marqueur de dégâts de l'un de vos Cheniselle vers un autre de vos Pokémon.",
-				es: "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes mover 1 contador de daño de 1 de tus Wormadam a otro de tus Pokémon.",
-				it: "Durante il tuo turno, prima di attaccare, puoi spostare un segnalino danno da uno dei tuoi Wormadam a un altro dei tuoi Pokémon tutte le volte che vuoi.",
-				pt: "Tantas vezes quanto desejar durante sua vez de jogar (antes de atacar), você pode mover 1 contador de danos de 1 de suas Wormadam para outro dos seus Pokémon.",
-				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 Schadensmarke von 1 deiner Burmadame auf ein anderes deiner Pokémon verschieben."
+				'en-us': "As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Wormadam to another of your Pokémon.",
+				'fr-fr': "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez déplacer 1 marqueur de dégâts de l'un de vos Cheniselle vers un autre de vos Pokémon.",
+				'es-es': "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes mover 1 contador de daño de 1 de tus Wormadam a otro de tus Pokémon.",
+				'it-it': "Durante il tuo turno, prima di attaccare, puoi spostare un segnalino danno da uno dei tuoi Wormadam a un altro dei tuoi Pokémon tutte le volte che vuoi.",
+				'pt-br': "Tantas vezes quanto desejar durante sua vez de jogar (antes de atacar), você pode mover 1 contador de danos de 1 de suas Wormadam para outro dos seus Pokémon.",
+				'de-de': "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 Schadensmarke von 1 deiner Burmadame auf ein anderes deiner Pokémon verschieben."
 			},
 		},
 	],
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gust",
-				fr: "Tornade",
-				es: "Tornado",
-				it: "Raffica",
-				pt: "Lufada de Vento",
-				de: "Windstoß"
+				'en-us': "Gust",
+				'fr-fr': "Tornade",
+				'es-es': "Tornado",
+				'it-it': "Raffica",
+				'pt-br': "Lufada de Vento",
+				'de-de': "Windstoß"
 			},
 
 			damage: 60,
@@ -97,7 +97,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It flutters around at night and steals honey from the Combee hive.",
+		'en-us': "It flutters around at night and steals honey from the Combee hive.",
 	},
 
 	thirdParty: {

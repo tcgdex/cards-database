@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Houndour",
-		fr: "Malosse de Team Magma",
-		de: "Team Magmas Hunduster"
+		'en-us': "Team Magma's Houndour",
+		'fr-fr': "Malosse de Team Magma",
+		'de-de': "Team Magmas Hunduster"
 	},
 
 	illustrator: "Atsuko Ujiie",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Combustion",
-				fr: "Fournaise",
-				de: "Combustion"
+				'en-us': "Combustion",
+				'fr-fr': "Fournaise",
+				'de-de': "Combustion"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Singe",
-				fr: "Ça sent le roussi !",
-				de: "Super Singe"
+				'en-us': "Super Singe",
+				'fr-fr': "Ça sent le roussi !",
+				'de-de': "Super Singe"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
-				de: "The Defending Pokémon is now Burned."
+				'en-us': "The Defending Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "The Defending Pokémon is now Burned."
 			},
 			damage: 10,
 

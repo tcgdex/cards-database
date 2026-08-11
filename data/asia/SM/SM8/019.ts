@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バクフーン",
+		'ja-jp': "バクフーン",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "燃えさかる 体毛を こすり合わせ 爆風を 起こして 攻撃する。 大技を 隠し持っている。",
+		'ja-jp': "燃えさかる 体毛を こすり合わせ 爆風を 起こして 攻撃する。 大技を 隠し持っている。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "バーニングエナジー" },
 			effect: {
-				ja: "自分の番に1回使える。この番の終わりまで、自分の場のポケモンについているエネルギーは、すべて[炎]エネルギーとしてあつかう。（新しく場に出したカードもふくむ。）",
+				'ja-jp': "自分の番に1回使える。この番の終わりまで、自分の場のポケモンについているエネルギーは、すべて[炎]エネルギーとしてあつかう。（新しく場に出したカードもふくむ。）",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Fire", "Fire", "Fire", "Fire"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーを2個、ロストゾーンに置く。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーを2個、ロストゾーンに置く。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マグマラシ",
+		'ja-jp': "マグマラシ",
 	},
 
 	retreat: 2,

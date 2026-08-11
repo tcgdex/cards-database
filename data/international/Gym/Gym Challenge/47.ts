@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Koga's Kakuna"
+		'en-us': "Koga's Kakuna"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Weedle"
+		'en-us': "Weedle"
 	},
 
 	stage: "Stage1",
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Emerge"
+				'en-us': "Emerge"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for an Evolution card named Koga's Beedrill and put it on Koga's Kakuna. (This counts as evolving Koga's Kakuna.) Shuffle your deck afterward. This power can't be used if Koga's Kakuna is Asleep, Confused, or Paralyzed."
+				'en-us': "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for an Evolution card named Koga's Beedrill and put it on Koga's Kakuna. (This counts as evolving Koga's Kakuna.) Shuffle your deck afterward. This power can't be used if Koga's Kakuna is Asleep, Confused, or Paralyzed."
 			}
 		},
 	],
@@ -43,10 +43,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Toxic Secretion"
+				'en-us': "Toxic Secretion"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player's turn (even if it was already Poisoned)."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player's turn (even if it was already Poisoned)."
 			},
 
 		},

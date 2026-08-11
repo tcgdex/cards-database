@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Tangrowth"
+		'id-id': "Tangrowth"
 	},
 
 	illustrator: "LINNE",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Hasil penelitian terbaru menunjukkan bahwa 2 lengan Tangrowth yang dapat dipanjangkan dengan sesukanya ini sebenarnya kumpulan jalar yang disatukan."
+		'id-id': "Hasil penelitian terbaru menunjukkan bahwa 2 lengan Tangrowth yang dapat dipanjangkan dengan sesukanya ini sebenarnya kumpulan jalar yang disatukan."
 	},
 
 	stage: "Stage1",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Tubuh Hutan"
+			'id-id': "Tubuh Hutan"
 		},
 
 		effect: {
-			id: "Kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 30."
+			'id-id': "Kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 30."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Menyelungkupi"
+			'id-id': "Menyelungkupi"
 		},
 
 		effect: {
-			id: "Kerusakan akibat serangan ini berkurang sejumlah 10 untuk tiap Token Kerusakan yang dimiliki Pokémon ini."
+			'id-id': "Kerusakan akibat serangan ini berkurang sejumlah 10 untuk tiap Token Kerusakan yang dimiliki Pokémon ini."
 		},
 
 		damage: "150-",

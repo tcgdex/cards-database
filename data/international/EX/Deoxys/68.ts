@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Numel",
-		fr: "Chamallot",
-		de: "Camaub"
+		'en-us': "Numel",
+		'fr-fr': "Chamallot",
+		'de-de': "Camaub"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Dense",
-				fr: "Épais",
-				de: "Dense"
+				'en-us': "Dense",
+				'fr-fr': "Épais",
+				'de-de': "Dense"
 			},
 			effect: {
-				en: "Any damage done to Numel by attacks from Evolved Pokémon (both yours and your opponent's) is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Les dégâts infligés à Chamallot par des attaques de Pokémon Évolués (les vôtres et ceux de votre adversaire) sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
-				de: "Any damage done to Numel by attacks from Evolved Pokémon (both yours and your opponent's) is reduced by 20 (after applying Weakness and Resistance)."
+				'en-us': "Any damage done to Numel by attacks from Evolved Pokémon (both yours and your opponent's) is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Les dégâts infligés à Chamallot par des attaques de Pokémon Évolués (les vôtres et ceux de votre adversaire) sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Any damage done to Numel by attacks from Evolved Pokémon (both yours and your opponent's) is reduced by 20 (after applying Weakness and Resistance)."
 			},
 		},
 	],
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				de: "Ram"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'de-de': "Ram"
 			},
 
 			damage: 10,

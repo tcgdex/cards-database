@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ズガドーン",
+		'ja-jp': "ズガドーン",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "クネクネ動いて 人に 近付くと 突然 頭を 爆発させた。 ウルトラビーストの 一種らしい。",
+		'ja-jp': "クネクネ動いて 人に 近付くと 突然 頭を 爆発させた。 ウルトラビーストの 一種らしい。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Fire"],
 			effect: {
-				ja: "ウラになっている自分のサイドを1枚、オモテにする。そのカードが[炎]エネルギーなら、50ダメージ追加。（対戦が終わるまで、そのサイドはオモテのまま。）",
+				'ja-jp': "ウラになっている自分のサイドを1枚、オモテにする。そのカードが[炎]エネルギーなら、50ダメージ追加。（対戦が終わるまで、そのサイドはオモテのまま。）",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Fire", "Fire", "Fire"],
 			effect: {
-				ja: "自分の手札にある[炎]エネルギーを好きなだけトラッシュし、その枚数x50ダメージ。",
+				'ja-jp': "自分の手札にある[炎]エネルギーを好きなだけトラッシュし、その枚数x50ダメージ。",
 			},
 		},
 	],

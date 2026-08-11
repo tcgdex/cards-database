@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "feraligatr",
+		'ja-jp': "feraligatr",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "津波少佐",
+				'ja-jp': "津波少佐",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前に）、FeraligatrがアクティブなPokmonであり、相手がPokmonをベンチしている場合、対戦相手は1枚のベンチポクモンでアクティブなPokmonを切り替えます。いずれにせよ、ベンチを持っている場合は、Pokmonをベンチしている場合は、それらの1つを使用してFeraligatrを切り替えます。 Feraligatrが特別な状態の影響を受けている場合、このパワーは使用できません。",
+				'ja-jp': "ターン中（攻撃の前に）、FeraligatrがアクティブなPokmonであり、相手がPokmonをベンチしている場合、対戦相手は1枚のベンチポクモンでアクティブなPokmonを切り替えます。いずれにせよ、ベンチを持っている場合は、Pokmonをベンチしている場合は、それらの1つを使用してFeraligatrを切り替えます。 Feraligatrが特別な状態の影響を受けている場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Water", "Water", "Colorless", "Colorless"],
 			name: {
-				ja: "レンディングジョーズ",
+				'ja-jp': "レンディングジョーズ",
 			},
 			effect: {
-				ja: "防御ポケモンにダメージカウンターがない場合、この攻撃のベースダメージは70ではなく40です。",
+				'ja-jp': "防御ポケモンにダメージカウンターがない場合、この攻撃のベースダメージは70ではなく40です。",
 			},
 			damage: 70,
 		},

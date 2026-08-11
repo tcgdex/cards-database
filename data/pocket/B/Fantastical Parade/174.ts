@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [509],
 
 	name: {
-		en: "Purrloin"
+		'en-us': "Purrloin"
 	},
 
 	illustrator: "Yoriyuki Ikegami",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "Opponents that get drawn in by its adorable\nbehavior come away with stinging scratches from\nits claws and stinging pride from its laughter."
+		'en-us': "Opponents that get drawn in by its adorable\nbehavior come away with stinging scratches from\nits claws and stinging pride from its laughter."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Whiny Voice"
+			'en-us': "Whiny Voice"
 		},
 
 		cost: ["Darkness"],
 
 		effect: {
-			en: "Flip a coin. If heads, look at a random card from your opponent's hand and shuffle it into their deck."
+			'en-us': "Flip a coin. If heads, look at a random card from your opponent's hand and shuffle it into their deck."
 		}
 	}],
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オリーヴァex",
+		'ja-jp': "オリーヴァex",
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "オイルマシンガン" },
 			cost: ["Grass"],
 			effect: {
-				ja: "相手のポケモンを6回選び、選んだポケモン全員に、弱点・抵抗力を計算せず、選んだ回数×20ダメージ。（1匹を2回以上選べる。）",
+				'ja-jp': "相手のポケモンを6回選び、選んだポケモン全員に、弱点・抵抗力を計算せず、選んだ回数×20ダメージ。（1匹を2回以上選べる。）",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンの特殊状態を、すべて回復する。",
+				'ja-jp': "このポケモンの特殊状態を、すべて回復する。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "オリーニョ",
+		'ja-jp': "オリーニョ",
 	},
 
 	retreat: 2,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drampa",
-		fr: "Draïeul",
-		es: "Drampa",
-		de: "Sen-Long",
-		it: "Drampa",
-		pt: "Drampa",
+		'en-us': "Drampa",
+		'fr-fr': "Draïeul",
+		'es-es': "Drampa",
+		'de-de': "Sen-Long",
+		'it-it': "Drampa",
+		'pt-br': "Drampa",
 		'es-mx': "Drampa"
 	},
 
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			de: "Ramme",
-			it: "Carica",
-			pt: "Aríete",
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'de-de': "Ramme",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
 			'es-mx': "Colisión"
 		},
 
@@ -39,12 +39,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Dragon Claw",
-			fr: "Draco-Griffe",
-			es: "Garra Dragón",
-			de: "Drachenklaue",
-			it: "Dragartigli",
-			pt: "Garra de Dragão",
+			'en-us': "Dragon Claw",
+			'fr-fr': "Draco-Griffe",
+			'es-es': "Garra Dragón",
+			'de-de': "Drachenklaue",
+			'it-it': "Dragartigli",
+			'pt-br': "Garra de Dragão",
 			'es-mx': "Garra Dragón"
 		},
 

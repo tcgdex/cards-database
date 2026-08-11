@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Gulpin",
-		fr: "Gloupti",
-		es: "Gulpin",
-		it: "Gulpin",
-		pt: "Gulpin",
-		de: "Schluppuck"
+		'en-us': "Gulpin",
+		'fr-fr': "Gloupti",
+		'es-es': "Gulpin",
+		'it-it': "Gulpin",
+		'pt-br': "Gulpin",
+		'de-de': "Schluppuck"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Poison Gas",
-				fr: "Gaz Toxik",
-				es: "Gas Venenoso",
-				it: "Velenogas",
-				pt: "Gás Venenoso",
-				de: "Giftwolke"
+				'en-us': "Poison Gas",
+				'fr-fr': "Gaz Toxik",
+				'es-es': "Gas Venenoso",
+				'it-it': "Velenogas",
+				'pt-br': "Gás Venenoso",
+				'de-de': "Giftwolke"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Envenenado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Envenenado.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt vergiftet."
 			},
 
 		},
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sludge Bomb",
-				fr: "Bomb-Beurk",
-				es: "Bomba Lodo",
-				it: "Fangobomba",
-				pt: "Bomba de Lodo",
-				de: "Matschbombe"
+				'en-us': "Sludge Bomb",
+				'fr-fr': "Bomb-Beurk",
+				'es-es': "Bomba Lodo",
+				'it-it': "Fangobomba",
+				'pt-br': "Bomba de Lodo",
+				'de-de': "Matschbombe"
 			},
 
 			damage: 30,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has a small heart and brain. Its stomach compromises most of its body, with enzymes to dissolve anything.",
+		'en-us': "It has a small heart and brain. Its stomach compromises most of its body, with enzymes to dissolve anything.",
 	},
 
 	thirdParty: {

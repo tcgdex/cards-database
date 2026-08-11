@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Chinchou",
-		fr: "Loupio",
-		es: "Chinchou",
-		it: "Chinchou",
-		pt: "Chinchou",
-		de: "Lampi"
+		'en-us': "Chinchou",
+		'fr-fr': "Loupio",
+		'es-es': "Chinchou",
+		'it-it': "Chinchou",
+		'pt-br': "Chinchou",
+		'de-de': "Lampi"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse Vague",
-				es: "Chapoteo Ondulante",
-				it: "Schizzi d'Onda",
-				pt: "Onda Borrifante",
-				de: "Wellenplatscher"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse Vague",
+				'es-es': "Chapoteo Ondulante",
+				'it-it': "Schizzi d'Onda",
+				'pt-br': "Onda Borrifante",
+				'de-de': "Wellenplatscher"
 			},
 
 			damage: 20,
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It shoots positive and negative electricity between the tips of its two antennae and zaps its enemies.",
+		'en-us': "It shoots positive and negative electricity between the tips of its two antennae and zaps its enemies.",
 	},
 
 	thirdParty: {

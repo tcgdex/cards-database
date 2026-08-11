@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Dracaufeu-ex",
-		en: "Charizard ex",
-		es: "Charizard ex",
-		it: "Charizard-ex",
-		pt: "Charizard ex",
-		de: "Glurak-ex"
+		'fr-fr': "Dracaufeu-ex",
+		'en-us': "Charizard ex",
+		'es-es': "Charizard ex",
+		'it-it': "Charizard-ex",
+		'pt-br': "Charizard ex",
+		'de-de': "Glurak-ex"
 	},
 
 	rarity: "Ultra Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 330,
 	types: ["Fire"],
 	evolveFrom: {
-		fr: "Reptincel",
-		en: "Charmeleon",
-		es: "Charmeleon",
-		it: "Charmeleon",
-		pt: "Charmeleon",
-		de: "Glutexo"
+		'fr-fr': "Reptincel",
+		'en-us': "Charmeleon",
+		'es-es': "Charmeleon",
+		'it-it': "Charmeleon",
+		'pt-br': "Charmeleon",
+		'de-de': "Glutexo"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			fr: "Aile de Bravoure",
-			en: "Brave Wing",
-			es: "Ala Osada",
-			it: "Ala Impavida",
-			pt: "Asa Intrépida",
-			de: "Tapfere Flügel"
+			'fr-fr': "Aile de Bravoure",
+			'en-us': "Brave Wing",
+			'es-es': "Ala Osada",
+			'it-it': "Ala Impavida",
+			'pt-br': "Asa Intrépida",
+			'de-de': "Tapfere Flügel"
 		},
 
 		effect: {
-			fr: "Si au moins un marqueur de dégâts est placé sur ce Pokémon, cette attaque inflige 100 dégâts supplémentaires.",
-			en: "If this Pokémon has any damage counters on it, this attack does 100 more damage.",
-			es: "Si este Pokémon tiene algún contador de daño sobre él, este ataque hace 100 puntos de daño más.",
-			it: "Se questo Pokémon ha dei segnalini danno, questo attacco infligge 100 danni in più.",
-			pt: "Se este Pokémon tiver algum contador de dano nele, este ataque causará 100 pontos de dano a mais.",
-			de: "Wenn auf diesem Pokémon mindestens 1 Schadensmarke liegt, fügt diese Attacke 100 Schadenspunkte mehr zu."
+			'fr-fr': "Si au moins un marqueur de dégâts est placé sur ce Pokémon, cette attaque inflige 100 dégâts supplémentaires.",
+			'en-us': "If this Pokémon has any damage counters on it, this attack does 100 more damage.",
+			'es-es': "Si este Pokémon tiene algún contador de daño sobre él, este ataque hace 100 puntos de daño más.",
+			'it-it': "Se questo Pokémon ha dei segnalini danno, questo attacco infligge 100 danni in più.",
+			'pt-br': "Se este Pokémon tiver algum contador de dano nele, este ataque causará 100 pontos de dano a mais.",
+			'de-de': "Wenn auf diesem Pokémon mindestens 1 Schadensmarke liegt, fügt diese Attacke 100 Schadenspunkte mehr zu."
 		},
 
 		damage: "60+"
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Fire", "Fire"],
 
 		name: {
-			fr: "Vortex Explosif",
-			en: "Explosive Vortex",
-			es: "Vórtice Explosivo",
-			it: "Vortice Esplosivo",
-			pt: "Vórtice Explosivo",
-			de: "Explosiver Wirbel"
+			'fr-fr': "Vortex Explosif",
+			'en-us': "Explosive Vortex",
+			'es-es': "Vórtice Explosivo",
+			'it-it': "Vortice Esplosivo",
+			'pt-br': "Vórtice Explosivo",
+			'de-de': "Explosiver Wirbel"
 		},
 
 		effect: {
-			fr: "Défaussez 3 Énergies de ce Pokémon.",
-			en: "Discard 3 Energy from this Pokémon.",
-			es: "Descarta 3 Energías de este Pokémon.",
-			it: "Scarta tre Energie da questo Pokémon.",
-			pt: "Descarte 3 Energias deste Pokémon.",
-			de: "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel."
+			'fr-fr': "Défaussez 3 Énergies de ce Pokémon.",
+			'en-us': "Discard 3 Energy from this Pokémon.",
+			'es-es': "Descarta 3 Energías de este Pokémon.",
+			'it-it': "Scarta tre Energie da questo Pokémon.",
+			'pt-br': "Descarte 3 Energias deste Pokémon.",
+			'de-de': "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 330

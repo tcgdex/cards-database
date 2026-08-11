@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Doduo",
-		fr: "Doduo",
-		de: "Dodu"
+		'en-us': "Doduo",
+		'fr-fr': "Doduo",
+		'de-de': "Dodu"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Run Around",
-				fr: "Courrir dans tous les sens",
-				de: "Run Around"
+				'en-us': "Run Around",
+				'fr-fr': "Courrir dans tous les sens",
+				'de-de': "Run Around"
 			},
 			effect: {
-				en: "Switch Doduo with 1 of your Benched Pokémon.",
-				fr: "Échangez Doduo avec 1 des Pokémon de votre Banc.",
-				de: "Switch Doduo with 1 of your Benched Pokémon."
+				'en-us': "Switch Doduo with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez Doduo avec 1 des Pokémon de votre Banc.",
+				'de-de': "Switch Doduo with 1 of your Benched Pokémon."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Random Peck",
-				fr: "Coup d'bec au pif",
-				de: "Random Peck"
+				'en-us': "Random Peck",
+				'fr-fr': "Coup d'bec au pif",
+				'de-de': "Random Peck"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage plus 10 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque face.",
-				de: "Flip 2 coins. This attack does 10 damage plus more damage for each heads."
+				'en-us': "Flip 2 coins. This attack does 10 damage plus 10 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque face.",
+				'de-de': "Flip 2 coins. This attack does 10 damage plus more damage for each heads."
 			},
 			damage: "10+",
 

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Minccino",
+		'en-us': "Minccino",
 	},
 
 	illustrator: "Midori Harada",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
+				'en-us': "Call for Family",
 			},
 			effect: {
-				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
+				'en-us': "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
 			},
 
 		},
@@ -42,7 +42,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Smack",
+				'en-us': "Tail Smack",
 			},
 
 			damage: 20,
@@ -60,7 +60,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "These Pokémon prefer a tidy habitat. They are always sweeping and dusting, using their tails as brooms.",
+		'en-us': "These Pokémon prefer a tidy habitat. They are always sweeping and dusting, using their tails as brooms.",
 	},
 
 	thirdParty: {

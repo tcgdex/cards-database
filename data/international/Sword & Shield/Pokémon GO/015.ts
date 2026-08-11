@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pokémon GO"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Squirtle",
-		fr: "Carapuce",
-		es: "Squirtle",
-		it: "Squirtle",
-		pt: "Squirtle",
-		de: "Schiggy"
+		'en-us': "Squirtle",
+		'fr-fr': "Carapuce",
+		'es-es': "Squirtle",
+		'it-it': "Squirtle",
+		'pt-br': "Squirtle",
+		'de-de': "Schiggy"
 	},
 
 	illustrator: "sowsow",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Water Gun",
-			fr: "Pistolet à O",
-			es: "Pistola Agua",
-			it: "Pistolacqua",
-			pt: "Revólver d'Água",
-			de: "Aquaknarre"
+			'en-us': "Water Gun",
+			'fr-fr': "Pistolet à O",
+			'es-es': "Pistola Agua",
+			'it-it': "Pistolacqua",
+			'pt-br': "Revólver d'Água",
+			'de-de': "Aquaknarre"
 		},
 
 		damage: 20
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When it retracts its long neck into its shell, it squirts out water with vigorous force.",
+		'en-us': "When it retracts its long neck into its shell, it squirts out water with vigorous force.",
 	},
 
 	

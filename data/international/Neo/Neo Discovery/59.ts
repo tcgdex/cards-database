@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Natu",
-		fr: "Natu",
-		de: "Natu"
+		'en-us': "Natu",
+		'fr-fr': "Natu",
+		'de-de': "Natu"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde folie",
-				de: "Konfustrahl"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde folie",
+				'de-de': "Konfustrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -62,8 +62,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots.",
-		fr: "Il picore souvent le sol à la recherche de nourriture mais, de temps en temps, il saute sur les branches pour picorer des pousses."
+		'en-us': "It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots.",
+		'fr-fr': "Il picore souvent le sol à la recherche de nourriture mais, de temps en temps, il saute sur les branches pour picorer des pousses."
 	},
 
 

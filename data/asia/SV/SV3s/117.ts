@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Thievul"
+		'id-id': "Thievul"
 	},
 
 	illustrator: "SIE NANAHARA",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Thievul berkeliling untuk mencuri makanan dan telur menggunakan tubuh lincah dan cakar tajamnya. Boltund adalah musuh alaminya."
+		'id-id': "Thievul berkeliling untuk mencuri makanan dan telur menggunakan tubuh lincah dan cakar tajamnya. Boltund adalah musuh alaminya."
 	},
 
 	stage: "Stage1",
@@ -23,17 +23,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Jambret"
+			'id-id': "Jambret"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan untuk melakukan evolusi. Lihat Kartu Pegangan lawan, pilih 2 lembar Energi di antaranya, lalu kocok kembali ke Deck lawan."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan untuk melakukan evolusi. Lihat Kartu Pegangan lawan, pilih 2 lembar Energi di antaranya, lalu kocok kembali ke Deck lawan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Cakar Penyayat"
+			'id-id': "Cakar Penyayat"
 		},
 
 		damage: 60,

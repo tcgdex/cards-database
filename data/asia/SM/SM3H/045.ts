@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バッフロン",
+		'ja-jp': "バッフロン",
 	},
 
 	illustrator: "TOKIYA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "見境なく 突進して 頭突きを 食らわせる。 走っている 列車を 脱線させる 破壊力。",
+		'ja-jp': "見境なく 突進して 頭突きを 食らわせる。 走っている 列車を 脱線させる 破壊力。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "のぞむなら、場に出ているスタジアムをトラッシュする。",
+				'ja-jp': "のぞむなら、場に出ているスタジアムをトラッシュする。",
 			},
 		},
 	],

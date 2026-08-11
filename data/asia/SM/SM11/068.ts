@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カイリュー",
+		'ja-jp': "カイリュー",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "荒れ狂う 海も ものともせずに 飛んでいく。 その姿を 見かけた 船長は 海の化身と 呼んだ。",
+		'ja-jp': "荒れ狂う 海も ものともせずに 飛んでいく。 その姿を 見かけた 船長は 海の化身と 呼んだ。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ハリケーンチャージ" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札から[水]エネルギーと[雷]エネルギーをそれぞれ1枚まで選び、自分のポケモンに好きなようにつける。",
+				'ja-jp': "自分の番に1回使える。自分の手札から[水]エネルギーと[雷]エネルギーをそれぞれ1枚まで選び、自分のポケモンに好きなようにつける。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 170,
 			cost: ["Water", "Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、3個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、3個トラッシュする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ハクリュー",
+		'ja-jp': "ハクリュー",
 	},
 
 	retreat: 2,

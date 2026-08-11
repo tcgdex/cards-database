@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "狃拉",
-		ja: "ニューラ"
+		'ja-jp': "ニューラ"
 	},
 
 	illustrator: "yuu",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "手指中藏有鋒利的爪子。會突然伸出利爪， 讓襲擊自己的對手心生怯意。",
-		ja: "鋭いツメを 指の 中に 隠している。 いきなり 伸ばして 襲ってきた 相手を ひるませる。"
+		'ja-jp': "鋭いツメを 指の 中に 隠している。 いきなり 伸ばして 襲ってきた 相手を ひるませる。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "抓",
-			ja: "ひっかく"
+			'ja-jp': "ひっかく"
 		},
 
 		damage: 10,
@@ -32,7 +32,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "劈開",
-			ja: "きりさく"
+			'ja-jp': "きりさく"
 		},
 
 		damage: 20,

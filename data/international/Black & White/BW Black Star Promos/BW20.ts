@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Serperior",
-		fr: "Majaspic",
+		'en-us': "Serperior",
+		'fr-fr': "Majaspic",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Grass",
 	],
 	evolveFrom: {
-		en: "Servine",
-		fr: "Lianaja",
+		'en-us': "Servine",
+		'fr-fr': "Lianaja",
 	},
 	stage: "Stage2",
 
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Royal Heal",
+				'en-us': "Royal Heal",
 			},
 			effect: {
-				en: "At any time between turns, heal 10 damage from each of your Pokémon.",
+				'en-us': "At any time between turns, heal 10 damage from each of your Pokémon.",
 			},
 		},
 	],
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leaf Tornado",
-				fr: "Phytomixeur",
+				'en-us': "Leaf Tornado",
+				'fr-fr': "Phytomixeur",
 			},
 			effect: {
-				en: "Move as many Grass Energy attached to your Pokémon to your other Pokémon in any way you like.",
-				fr: "Déplacez autant d’Énergies Grass attachées à vos Pokémon que vous voulez vers vos autres Pokémon, de la manière que vous voulez.",
+				'en-us': "Move as many Grass Energy attached to your Pokémon to your other Pokémon in any way you like.",
+				'fr-fr': "Déplacez autant d’Énergies Grass attachées à vos Pokémon que vous voulez vers vos autres Pokémon, de la manière que vous voulez.",
 			},
 			damage: 60,
 
@@ -71,7 +71,7 @@ const card: Card = {
 
 
 	description: {
-		en: "They raise their heads to intimidate opponents but only give their all when fighting a powerful opponent.",
+		'en-us': "They raise their heads to intimidate opponents but only give their all when fighting a powerful opponent.",
 	},
 }
 

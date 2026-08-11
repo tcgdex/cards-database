@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fossil'
 
 const card: Card = {
 	name: {
-		en: "Omastar",
-		fr: "Amonistar",
-		de: "Amoroso"
+		'en-us': "Omastar",
+		'fr-fr': "Amonistar",
+		'de-de': "Amoroso"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Omanyte",
-		fr: "Amonita"
+		'en-us': "Omanyte",
+		'fr-fr': "Amonita"
 	},
 
 	stage: "Stage2",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
-				de: "Aquaknarre"
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
+				'de-de': "Aquaknarre"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each Energy attached to Omastar but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Amonistar en plus du coût d'Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
-				de: "Fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf Amoroso abgelegte -Energiekarte zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich nicht mehr als 20 Schadenpunkte auf diese Art und Weise hinzufügen."
+				'en-us': "Does 20 damage plus 10 more damage for each Energy attached to Omastar but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+				'fr-fr': "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Amonistar en plus du coût d'Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
+				'de-de': "Fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf Amoroso abgelegte -Energiekarte zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich nicht mehr als 20 Schadenpunkte auf diese Art und Weise hinzufügen."
 			},
 			damage: "20+",
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Spike Cannon",
-				fr: "Picanon",
-				de: "Dornkanone"
+				'en-us': "Spike Cannon",
+				'fr-fr': "Picanon",
+				'de-de': "Dornkanone"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Wirf zwei Münzen. Dieser Angriff fügt jedesmal wenn die Münze 'Kopf' zeigt 20 Schadenspunkte zu."
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf zwei Münzen. Dieser Angriff fügt jedesmal wenn die Münze 'Kopf' zeigt 20 Schadenspunkte zu."
 			},
 			damage: "30x",
 
@@ -79,8 +79,8 @@ const card: Card = {
 
 
 	description: {
-		en: "A prehistoric Pokémon that died out when its heavy shell made it impossible for it to catch prey.",
-		fr: "Un Pokémon préhistorique qui disparut quand sa coquille devint trop lourde à déplacer."
+		'en-us': "A prehistoric Pokémon that died out when its heavy shell made it impossible for it to catch prey.",
+		'fr-fr': "Un Pokémon préhistorique qui disparut quand sa coquille devint trop lourde à déplacer."
 	},
 
 

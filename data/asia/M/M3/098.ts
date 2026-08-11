@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イベルタルex",
+		'ja-jp': "イベルタルex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "",
+		'ja-jp': "",
 	},
 
 	stage: "Basic",

@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Seedot",
-		fr: "Grainipiot",
-		de: "Samurzel",
-		it: "Seedot",
-		es: "Seedot",
-		pt: "Seedot",
+		'en-us': "Seedot",
+		'fr-fr': "Grainipiot",
+		'de-de': "Samurzel",
+		'it-it': "Seedot",
+		'es-es': "Seedot",
+		'pt-br': "Seedot",
 		'es-mx': "Seedot"
 	},
 
@@ -26,34 +26,34 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Nap",
-			fr: "Tit'Sieste",
-			de: "Nickerchen",
-			it: "Pausa",
-			es: "Siesta",
-			pt: "Soneca",
+			'en-us': "Nap",
+			'fr-fr': "Tit'Sieste",
+			'de-de': "Nickerchen",
+			'it-it': "Pausa",
+			'es-es': "Siesta",
+			'pt-br': "Soneca",
 			'es-mx': "Siesta"
 		},
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon.",
-			fr: "Soignez 20 dégâts de ce Pokémon.",
-			de: "Heile 20 Schadenspunkte bei diesem Pokémon.",
-			it: "Cura questo Pokémon da 20 danni.",
-			es: "Cura 20 puntos de daño a este Pokémon.",
-			pt: "Cure 20 pontos de dano deste Pokémon.",
+			'en-us': "Heal 20 damage from this Pokémon.",
+			'fr-fr': "Soignez 20 dégâts de ce Pokémon.",
+			'de-de': "Heile 20 Schadenspunkte bei diesem Pokémon.",
+			'it-it': "Cura questo Pokémon da 20 danni.",
+			'es-es': "Cura 20 puntos de daño a este Pokémon.",
+			'pt-br': "Cure 20 pontos de dano deste Pokémon.",
 			'es-mx': "Cura 20 puntos de daño a este Pokémon."
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Seed Bomb",
-			fr: "Canon Graine",
-			de: "Samenbomben",
-			it: "Semebomba",
-			es: "Bomba Germen",
-			pt: "Bomba de Sementes",
+			'en-us': "Seed Bomb",
+			'fr-fr': "Canon Graine",
+			'de-de': "Samenbomben",
+			'it-it': "Semebomba",
+			'es-es': "Bomba Germen",
+			'pt-br': "Bomba de Sementes",
 			'es-mx': "Bomba Semilla"
 		},
 

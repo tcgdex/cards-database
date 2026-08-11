@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピッピ",
+		'ja-jp': "ピッピ",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "歌う",
+				'ja-jp': "歌う",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、相手のアクティブなポケモンは眠っています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、相手のアクティブなポケモンは眠っています。",
 			},
 
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "メトロノーム",
+				'ja-jp': "メトロノーム",
 			},
 			effect: {
-				ja: "対戦相手のアクティブなポケモンの攻撃の1つを選択し、この攻撃として使用します。",
+				'ja-jp': "対戦相手のアクティブなポケモンの攻撃の1つを選択し、この攻撃として使用します。",
 			},
 
 		},

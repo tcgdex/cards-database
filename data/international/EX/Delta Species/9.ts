@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Latios δ",
-		fr: "Latios δ",
-		de: "Latios"
+		'en-us': "Latios δ",
+		'fr-fr': "Latios δ",
+		'de-de': "Latios"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -30,14 +30,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Delta Aura",
-				fr: "Aura Delta",
-				de: "Delta-Aura"
+				'en-us': "Delta Aura",
+				'fr-fr': "Aura Delta",
+				'de-de': "Delta-Aura"
 			},
 			effect: {
-				en: "If you have Latias or Latias ex in play, the attack cost of Latios's Psychic Force is now Lightning Metal Colorless.",
-				fr: "Si vous avez un Latias ou un Latias ex en jeu, le Coût de l'attaque Force psychique de Latios est maintenant .",
-				de: "Wenn du Latias oder Latias ex im Spiel hast, kostet Latios Psychomacht nur noch   ."
+				'en-us': "If you have Latias or Latias ex in play, the attack cost of Latios's Psychic Force is now Lightning Metal Colorless.",
+				'fr-fr': "Si vous avez un Latias ou un Latias ex en jeu, le Coût de l'attaque Force psychique de Latios est maintenant .",
+				'de-de': "Wenn du Latias oder Latias ex im Spiel hast, kostet Latios Psychomacht nur noch   ."
 			},
 		},
 	],
@@ -49,9 +49,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Claw",
-				fr: "Dracogriffe",
-				de: "Drachenklaue"
+				'en-us': "Dragon Claw",
+				'fr-fr': "Dracogriffe",
+				'de-de': "Drachenklaue"
 			},
 
 			damage: 20,
@@ -66,14 +66,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic Force",
-				fr: "Force psychique",
-				de: "Psychomacht"
+				'en-us': "Psychic Force",
+				'fr-fr': "Force psychique",
+				'de-de': "Psychomacht"
 			},
 			effect: {
-				en: "If your opponent has no Stage 2 Evolved Pokémon in play, this attack does nothing.",
-				fr: "Si votre adversaire n'a pas de Pokémon Évolué de niveau 2 en jeu, cette attaque est sans effet.",
-				de: "Wenn dein Gegner kein entwickeltes Pokémon der Phase 2 im Spiel hat, hat dieser Angriff keine Auswirkung."
+				'en-us': "If your opponent has no Stage 2 Evolved Pokémon in play, this attack does nothing.",
+				'fr-fr': "Si votre adversaire n'a pas de Pokémon Évolué de niveau 2 en jeu, cette attaque est sans effet.",
+				'de-de': "Wenn dein Gegner kein entwickeltes Pokémon der Phase 2 im Spiel hat, hat dieser Angriff keine Auswirkung."
 			},
 			damage: 80,
 

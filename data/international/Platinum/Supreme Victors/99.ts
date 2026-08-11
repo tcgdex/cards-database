@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Combee",
-		fr: "Apitrini",
-		de: "Wadribie"
+		'en-us': "Combee",
+		'fr-fr': "Apitrini",
+		'de-de': "Wadribie"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Nap",
-				fr: "Tit'sieste",
-				de: "Nickerchen"
+				'en-us': "Nap",
+				'fr-fr': "Tit'sieste",
+				'de-de': "Nickerchen"
 			},
 			effect: {
-				en: "Remove 2 damage counters from Combee.",
-				fr: "Retirez à Apitrini 2 marqueurs de dégât.",
-				de: "Entferne 2 Schadensmarken von Wadribie."
+				'en-us': "Remove 2 damage counters from Combee.",
+				'fr-fr': "Retirez à Apitrini 2 marqueurs de dégât.",
+				'de-de': "Entferne 2 Schadensmarken von Wadribie."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Zzzt",
-				fr: "Bzzz",
-				de: "Piiieks"
+				'en-us': "Zzzt",
+				'fr-fr': "Bzzz",
+				'de-de': "Piiieks"
 			},
 
 			damage: 20,
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The trio is together from birth. It constantly gathers honey from flowers to please Vespiquen."
+		'en-us': "The trio is together from birth. It constantly gathers honey from flowers to please Vespiquen."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワカシャモ",
+		'ja-jp': "ワカシャモ",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "戦いに なると 体内の 炎が 激しく 燃え上がる。 キックは 破壊力 抜群だ。",
+		'ja-jp': "戦いに なると 体内の 炎が 激しく 燃え上がる。 キックは 破壊力 抜群だ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x30ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数x30ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アチャモ",
+		'ja-jp': "アチャモ",
 	},
 
 	retreat: 1,

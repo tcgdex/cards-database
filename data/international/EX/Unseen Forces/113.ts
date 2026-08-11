@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Entei ☆",
-		fr: "Entei ☆",
-		de: "Entei ☆"
+		'en-us': "Entei ☆",
+		'fr-fr': "Entei ☆",
+		'de-de': "Entei ☆"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Burning Turn",
-				fr: "Tour brûlant",
-				de: "Burning Turn"
+				'en-us': "Burning Turn",
+				'fr-fr': "Tour brûlant",
+				'de-de': "Burning Turn"
 			},
 			effect: {
-				en: "Switch Entei ☆ with 1 of your Benched Pokémon.",
-				fr: "Échangez Entei ☆ avec 1 de vos Pokémon de Banc.",
-				de: "Switch Entei ☆ with 1 of your Benched Pokémon."
+				'en-us': "Switch Entei ☆ with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez Entei ☆ avec 1 de vos Pokémon de Banc.",
+				'de-de': "Switch Entei ☆ with 1 of your Benched Pokémon."
 			},
 			damage: 20,
 
@@ -51,14 +51,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Detonation",
-				fr: "Détonation",
-				de: "Detonation"
+				'en-us': "Detonation",
+				'fr-fr': "Détonation",
+				'de-de': "Detonation"
 			},
 			effect: {
-				en: "If you have less Prize cards left than your opponent, discard the top 10 cards from your deck.",
-				fr: "S'il vous reste moins de cartes Récompense que votre adversaire, défaussez les 10 cartes du dessus de votre deck.",
-				de: "If you have less Prize cards left than your opponent, discard the top 10 cards from your deck."
+				'en-us': "If you have less Prize cards left than your opponent, discard the top 10 cards from your deck.",
+				'fr-fr': "S'il vous reste moins de cartes Récompense que votre adversaire, défaussez les 10 cartes du dessus de votre deck.",
+				'de-de': "If you have less Prize cards left than your opponent, discard the top 10 cards from your deck."
 			},
 			damage: 70,
 

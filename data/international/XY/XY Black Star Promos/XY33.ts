@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Trevor",
-		fr: "Trovato",
+		'en-us': "Trevor",
+		'fr-fr': "Trovato",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,8 +13,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Cherchez un Pokémon dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
-		en: "Search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward."
+		'fr-fr': "Cherchez un Pokémon dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+		'en-us': "Search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward."
 	},
 
 	trainerType: "Supporter",

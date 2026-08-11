@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "M Kangaskhan EX",
-		fr: "M-Kangourex EX",
-		es: "M-Kangaskhan EX",
-		it: "M Kangaskhan EX",
-		pt: "M-Kangaskhan EX",
-		de: "M-Kangama EX"
+		'en-us': "M Kangaskhan EX",
+		'fr-fr': "M-Kangourex EX",
+		'es-es': "M-Kangaskhan EX",
+		'it-it': "M Kangaskhan EX",
+		'pt-br': "M-Kangaskhan EX",
+		'de-de': "M-Kangama EX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kangaskhan-EX",
-		fr: "Kangourex-EX",
-		es: "Kangaskhan-EX",
-		it: "Kangaskhan-EX",
-		pt: "Kangaskhan-EX",
-		de: "Kangama-EX"
+		'en-us': "Kangaskhan-EX",
+		'fr-fr': "Kangourex-EX",
+		'es-es': "Kangaskhan-EX",
+		'it-it': "Kangaskhan-EX",
+		'pt-br': "Kangaskhan-EX",
+		'de-de': "Kangama-EX"
 	},
 
 	stage: "MEGA",
@@ -45,20 +45,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wham Bam Punch",
-				fr: "Poing Boum",
-				es: "Pum Catapum",
-				it: "Scazzottata",
-				pt: "Soco Violento",
-				de: "Ratzfatz Punch"
+				'en-us': "Wham Bam Punch",
+				'fr-fr': "Poing Boum",
+				'es-es': "Pum Catapum",
+				'it-it': "Scazzottata",
+				'pt-br': "Soco Violento",
+				'de-de': "Ratzfatz Punch"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 30 more damage for each heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
-				es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 30 puntos de daño más por cada cara.",
-				it: "Lancia una moneta finché non esce croce. Ogni volta che esce testa, questo attacco infligge 30 danni in più.",
-				pt: "Jogue uma moeda até sair coroa. Este ataque causa 30 de danos adicionais para cada cara.",
-				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 30 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip a coin until you get tails. This attack does 30 more damage for each heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
+				'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 30 puntos de daño más por cada cara.",
+				'it-it': "Lancia una moneta finché non esce croce. Ogni volta che esce testa, questo attacco infligge 30 danni in più.",
+				'pt-br': "Jogue uma moeda até sair coroa. Este ataque causa 30 de danos adicionais para cada cara.",
+				'de-de': "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 30 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "100+",
 

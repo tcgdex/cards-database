@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Colossinge",
-		en: "Primeape",
-		es: "Primeape",
-		it: "Primeape",
-		pt: "Primeape",
-		de: "Rasaff"
+		'fr-fr': "Colossinge",
+		'en-us': "Primeape",
+		'es-es': "Primeape",
+		'it-it': "Primeape",
+		'pt-br': "Primeape",
+		'de-de': "Rasaff"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Fighting"],
 	evolveFrom: {
-		fr: "Férosinge",
-		en: "Mankey",
-		es: "Mankey",
-		it: "Mankey",
-		pt: "Mankey",
-		de: "Menki"
+		'fr-fr': "Férosinge",
+		'en-us': "Mankey",
+		'es-es': "Mankey",
+		'it-it': "Mankey",
+		'pt-br': "Mankey",
+		'de-de': "Menki"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			fr: "Balayage",
-			en: "Low Kick",
-			es: "Patada Baja",
-			it: "Colpo Basso",
-			pt: "Rasteira",
-			de: "Fußkick"
+			'fr-fr': "Balayage",
+			'en-us': "Low Kick",
+			'es-es': "Patada Baja",
+			'it-it': "Colpo Basso",
+			'pt-br': "Rasteira",
+			'de-de': "Fußkick"
 		},
 
 		damage: 30
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			fr: "Martelage",
-			en: "Pummel",
-			es: "Aporrear",
-			it: "Legnata",
-			pt: "Esmurrar",
-			de: "Trommler"
+			'fr-fr': "Martelage",
+			'en-us': "Pummel",
+			'es-es': "Aporrear",
+			'it-it': "Legnata",
+			'pt-br': "Esmurrar",
+			'de-de': "Trommler"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts supplémentaires.",
-			en: "Flip a coin. If heads, this attack does 60 more damage.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 60 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 60 danni in più.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 60 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 60 Schadenspunkte mehr zu."
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts supplémentaires.",
+			'en-us': "Flip a coin. If heads, this attack does 60 more damage.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 60 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 60 danni in più.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 60 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 60 Schadenspunkte mehr zu."
 		},
 
 		damage: "60+"
@@ -96,7 +96,7 @@ const card: Card = {
 	illustrator: "Shin Nagasawa",
 
 	description: {
-		en: "It becomes wildly furious if it even senses someone looking at it. It chases anyone that meets its glare.",
+		'en-us': "It becomes wildly furious if it even senses someone looking at it. It chases anyone that meets its glare.",
 	},
 }
 

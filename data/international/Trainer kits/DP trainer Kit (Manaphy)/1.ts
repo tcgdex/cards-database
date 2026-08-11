@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../DP trainer Kit (Manaphy)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Buizel",
-		fr: "Mustébouée"
+		'en-us': "Buizel",
+		'fr-fr': "Mustébouée"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,12 +27,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Splash About",
-				fr: "Grosse trempette"
+				'en-us': "Splash About",
+				'fr-fr': "Grosse trempette"
 			},
 			effect: {
-				en: "If Buizel has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage.",
-				fr: "Si Mustébouée possède moins d'Énergies que le Pokémon Défenseur, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+				'en-us': "If Buizel has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage.",
+				'fr-fr': "Si Mustébouée possède moins d'Énergies que le Pokémon Défenseur, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
 			},
 			damage: "10+"
 		}
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It has a flotation that is like an inflatable collar. It floats on water with its head out."
+		'en-us': "It has a flotation that is like an inflatable collar. It floats on water with its head out."
 	},
 
 	retreat: 1,

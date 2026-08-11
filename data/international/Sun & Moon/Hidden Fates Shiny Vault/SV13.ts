@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Voltorb",
-		fr: "Voltorbe",
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe",
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Shiny rare",
@@ -25,12 +25,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Floating Electrons",
-				fr: "Électrons Flottants",
+				'en-us': "Floating Electrons",
+				'fr-fr': "Électrons Flottants",
 			},
 			effect: {
-				en: "If this Pokémon has any Energy attached to it, it has no Retreat Cost.",
-				fr: "Si de l’Énergie est attachée à ce Pokémon, il n’a pas de Coût de Retraite.",
+				'en-us': "If this Pokémon has any Energy attached to it, it has no Retreat Cost.",
+				'fr-fr': "Si de l’Énergie est attachée à ce Pokémon, il n’a pas de Coût de Retraite.",
 			},
 		},
 	],
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Shock",
-				fr: "Éclair",
+				'en-us': "Thunder Shock",
+				'fr-fr': "Éclair",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 			damage: 20,
 
@@ -70,7 +70,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people.",
+		'en-us': "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people.",
 	},
 }
 

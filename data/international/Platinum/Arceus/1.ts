@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Charizard",
-		de: "Glurak"
+		'en-us': "Charizard",
+		'de-de': "Glurak"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmeleon"
+		'en-us': "Charmeleon"
 	},
 
 	stage: "Stage2",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Fire Formation",
-				de: "Feuerformation"
+				'en-us': "Fire Formation",
+				'de-de': "Feuerformation"
 			},
 			effect: {
-				en: "Each of Charizard's attacks does 10 more damage for each Fire Pokémon on your Bench to your opponent's Active Pokémon (before applying Weakness and Resistance).",
-				de: "Jeder Angriff von Glurak fügt den Aktiven Pokémon deines Gegners für jedes -Pokémon auf deiner Bank 10 zusätzliche Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "Each of Charizard's attacks does 10 more damage for each Fire Pokémon on your Bench to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+				'de-de': "Jeder Angriff von Glurak fügt den Aktiven Pokémon deines Gegners für jedes -Pokémon auf deiner Bank 10 zusätzliche Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			}
 		},
 	],
@@ -46,8 +46,8 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fire Wing",
-				de: "Feuerflügel"
+				'en-us': "Fire Wing",
+				'de-de': "Feuerflügel"
 			},
 
 			damage: 30,
@@ -60,12 +60,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Burning Tail",
-				de: "Brennender Schweif"
+				'en-us': "Burning Tail",
+				'de-de': "Brennender Schweif"
 			},
 			effect: {
-				en: "Discard a Fire Energy attached to Charizard.",
-				de: "Lege 1 -Energie, die an Glurak angelegt ist, auf deinen Ablagestapel."
+				'en-us': "Discard a Fire Energy attached to Charizard.",
+				'de-de': "Lege 1 -Energie, die an Glurak angelegt ist, auf deinen Ablagestapel."
 			},
 			damage: 80,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドラゴンエア",
+		'ja-jp': "ドラゴンエア",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Water"],
 			name: {
-				ja: "スパイラルウェーブ",
+				'ja-jp': "スパイラルウェーブ",
 			},
 			effect: {
-				ja: "尾がなくなるまでコインをひっくり返します。この攻撃は、ヘッド数の20倍のダメージを与えます。",
+				'ja-jp': "尾がなくなるまでコインをひっくり返します。この攻撃は、ヘッド数の20倍のダメージを与えます。",
 			},
 		},
 	],

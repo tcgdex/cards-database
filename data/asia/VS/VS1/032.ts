@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "JasmineのSteelix",
+		'ja-jp': "JasmineのSteelix",
 	},
 
 	rarity: "Common",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "バインド",
+				'ja-jp': "バインド",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Metal", "Colorless"],
 			name: {
-				ja: "鉄の尾",
+				'ja-jp': "鉄の尾",
 			},
 			effect: {
-				ja: "尾がなくなるまでコインをひっくり返します。この攻撃は、ヘッド数の20倍のダメージを与えます。",
+				'ja-jp': "尾がなくなるまでコインをひっくり返します。この攻撃は、ヘッド数の20倍のダメージを与えます。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カスミのギャラドス",
+		'ja-jp': "カスミのギャラドス",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "反乱",
+				'ja-jp': "反乱",
 			},
 			effect: {
-				ja: "MistyのGyaradosが攻撃するたびに、2コインをひっくり返します。両方が尾である場合、その攻撃は何もしません。代わりに、MistyのGyaradosとすべてのカードをデッキに添付します。 <em>（MistyのGyaradosが混乱していても、このパワーは機能します。）</em>",
+				'ja-jp': "MistyのGyaradosが攻撃するたびに、2コインをひっくり返します。両方が尾である場合、その攻撃は何もしません。代わりに、MistyのGyaradosとすべてのカードをデッキに添付します。 <em>（MistyのGyaradosが混乱していても、このパワーは機能します。）</em>",
 			},
 		}],
 
@@ -30,7 +30,7 @@ const card: Card = {
 		{
 			cost: ["Water", "Water", "Water", "Water"],
 			name: {
-				ja: "津波",
+				'ja-jp': "津波",
 			},
 			damage: 70,
 		},

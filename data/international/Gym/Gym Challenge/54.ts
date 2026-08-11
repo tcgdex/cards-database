@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Misty's Dewgong"
+		'en-us': "Misty's Dewgong"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Seel"
+		'en-us': "Seel"
 	},
 
 	stage: "Stage1",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Ice Throw"
+				'en-us': "Ice Throw"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Fighting, this attack's base damage is doubled."
+				'en-us': "If the Defending Pokémon is Fighting, this attack's base damage is doubled."
 			},
 
 		},
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down"
+				'en-us': "Take Down"
 			},
 			effect: {
-				en: "Misty's Dewgong does 20 damage to itself."
+				'en-us': "Misty's Dewgong does 20 damage to itself."
 			},
 			damage: 60,
 

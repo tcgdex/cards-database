@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Scraggy",
-		fr: "Baggiguane",
-		es: "Scraggy",
-		it: "Scraggy",
-		pt: "Scraggy",
-		de: "Zurrokex"
+		'en-us': "Scraggy",
+		'fr-fr': "Baggiguane",
+		'es-es': "Scraggy",
+		'it-it': "Scraggy",
+		'pt-br': "Scraggy",
+		'de-de': "Zurrokex"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'Boule",
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'Boule",
 			},
 
 			damage: 10,
@@ -47,8 +47,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage",
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage",
 			},
 
 			damage: 20,
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Proud of its sturdy skull, it suddenly headbutts everything, but its weight makes it unstable, too.",
+		'en-us': "Proud of its sturdy skull, it suddenly headbutts everything, but its weight makes it unstable, too.",
 	},
 
 	thirdParty: {

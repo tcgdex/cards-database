@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラ ゴローニャ",
+		'ja-jp': "アローラ ゴローニャ",
 	},
 
 	illustrator: "Takeshi Nakamura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "電気を帯びた 岩を 発射。 命中 せずとも かするだけで 相手は 痺れ 失神する。",
+		'ja-jp': "電気を帯びた 岩を 発射。 命中 せずとも かするだけで 相手は 痺れ 失神する。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "70×",
 			cost: ["Lightning"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数×70ダメージ。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数×70ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "このポケモンにも40ダメージ。",
+				'ja-jp': "このポケモンにも40ダメージ。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アローラゴローン",
+		'ja-jp': "アローラゴローン",
 	},
 
 	retreat: 4,

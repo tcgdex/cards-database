@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルガルガン",
+		'ja-jp': "ルガルガン",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "手強い 相手を 前に するほど 血が 高ぶる。 勝つためなら 我が身を かえりみず 襲いかかる。",
+		'ja-jp': "手強い 相手を 前に するほど 血が 高ぶる。 勝つためなら 我が身を かえりみず 襲いかかる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Fighting"],
 			effect: {
-				ja: "相手のバトルポケモンがたねポケモンなら、30ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンがたねポケモンなら、30ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イワンコ",
+		'ja-jp': "イワンコ",
 	},
 
 	retreat: 2,

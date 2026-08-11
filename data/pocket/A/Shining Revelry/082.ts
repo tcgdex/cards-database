@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Shining Revelry"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu ex",
-		fr: "Pikachu-ex",
-		es: "Pikachu ex",
-		it: "Pikachu-ex",
-		de: "Pikachu-ex",
+		'en-us': "Pikachu ex",
+		'fr-fr': "Pikachu-ex",
+		'es-es': "Pikachu ex",
+		'it-it': "Pikachu-ex",
+		'de-de': "Pikachu-ex",
 		'pt-br': "Pikachu ex",
-		ko: "피카츄 ex"
+		'ko-kr': "피카츄 ex"
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -26,26 +26,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Thunderbolt",
-			fr: "Tonnerre",
-			es: "Rayo",
-			it: "Fulmine",
-			de: "Donnerblitz",
+			'en-us': "Thunderbolt",
+			'fr-fr': "Tonnerre",
+			'es-es': "Rayo",
+			'it-it': "Fulmine",
+			'de-de': "Donnerblitz",
 			'pt-br': "Relâmpago",
-			ko: "10만볼트"
+			'ko-kr': "10만볼트"
 		},
 
 		damage: 150,
 		cost: ["Lightning", "Lightning", "Lightning"],
 
 		effect: {
-			en: "Discard all Energy from this Pokémon.",
-			fr: "Défaussez toutes les Énergies de ce Pokémon.",
-			es: "Descarta todas las Energías de este Pokémon.",
-			it: "Rimuovi tutte le Energie assegnate a questo Pokémon.",
-			de: "Lege alle Energien von diesem Pokémon ab.",
+			'en-us': "Discard all Energy from this Pokémon.",
+			'fr-fr': "Défaussez toutes les Énergies de ce Pokémon.",
+			'es-es': "Descarta todas las Energías de este Pokémon.",
+			'it-it': "Rimuovi tutte le Energie assegnate a questo Pokémon.",
+			'de-de': "Lege alle Energien von diesem Pokémon ab.",
 			'pt-br': "Descarte todas as Energias deste Pokémon.",
-			ko: "이 포켓몬에서 에너지를 모두 트래쉬한다."
+			'ko-kr': "이 포켓몬에서 에너지를 모두 트래쉬한다."
 		}
 	}],
 

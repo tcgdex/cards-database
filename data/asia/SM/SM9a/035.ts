@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トゲチック",
+		'ja-jp': "トゲチック",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "優しい人の そばに いないと 元気が 出なくなってしまう。 羽を動かさずに 空に浮かべる。",
+		'ja-jp': "優しい人の そばに いないと 元気が 出なくなってしまう。 羽を動かさずに 空に浮かべる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "エネギフト" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の手札にあるエネルギーを1枚、ベンチポケモンにつける。",
+				'ja-jp': "自分の手札にあるエネルギーを1枚、ベンチポケモンにつける。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "トゲピー",
+		'ja-jp': "トゲピー",
 	},
 
 	retreat: 1,

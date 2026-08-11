@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フラベベ",
+		'ja-jp': "フラベベ",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "気に入った 花を 見つけると 一生 その花と 暮らす。 風に 乗って 気ままに 漂う。",
+		'ja-jp': "気に入った 花を 見つけると 一生 その花と 暮らす。 風に 乗って 気ままに 漂う。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ひみつのめぐみ" },
 			cost: ["Fairy"],
 			effect: {
-				ja: "自分のトラッシュにあるポケモンと基本エネルギーを合計3枚、相手に見せてから、山札にもどして切る。",
+				'ja-jp': "自分のトラッシュにあるポケモンと基本エネルギーを合計3枚、相手に見せてから、山札にもどして切る。",
 			},
 		},
 	],

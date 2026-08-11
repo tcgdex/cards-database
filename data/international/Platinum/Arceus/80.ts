@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Wingull",
-		de: "Wingull"
+		'en-us': "Wingull",
+		'de-de': "Wingull"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Glide",
-				de: "Gleiten"
+				'en-us': "Glide",
+				'de-de': "Gleiten"
 			},
 
 			damage: 10,
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slashing Strike",
-				de: "Schlitzender Schlag"
+				'en-us': "Slashing Strike",
+				'de-de': "Schlitzender Schlag"
 			},
 			effect: {
-				en: "During your next turn, Wingull can't use Slashing Strike.",
-				de: "Wingull kann Schlitzender Schlag in deinem nächsten Zug nicht einsetzen."
+				'en-us': "During your next turn, Wingull can't use Slashing Strike.",
+				'de-de': "Wingull kann Schlitzender Schlag in deinem nächsten Zug nicht einsetzen."
 			},
 			damage: 30,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill."
+		'en-us': "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill."
 	},
 
 	variants: [

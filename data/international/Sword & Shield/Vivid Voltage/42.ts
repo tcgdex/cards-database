@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	name: {
-		en: "Barraskewda",
-		fr: "Hastacuda",
-		es: "Barraskewda",
-		it: "Barraskewda",
-		pt: "Barraskewda",
-		de: "Barrakiefa"
+		'en-us': "Barraskewda",
+		'fr-fr': "Hastacuda",
+		'es-es': "Barraskewda",
+		'it-it': "Barraskewda",
+		'pt-br': "Barraskewda",
+		'de-de': "Barrakiefa"
 	},
 
 	illustrator: "Akira Komayama",
@@ -23,12 +23,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Arrokuda",
-		fr: "Embrochet",
-		es: "Arrokuda",
-		it: "Arrokuda",
-		pt: "Arrokuda",
-		de: "Pikuda"
+		'en-us': "Arrokuda",
+		'fr-fr': "Embrochet",
+		'es-es': "Arrokuda",
+		'it-it': "Arrokuda",
+		'pt-br': "Arrokuda",
+		'de-de': "Pikuda"
 	},
 
 	attacks: [
@@ -37,20 +37,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Targeted Skewer",
-				fr: "Cible Transpercée",
-				es: "Ensarta Direccionada",
-				it: "Spiedo Mirato",
-				pt: "Espeto na Mira",
-				de: "Gezielter Spieß"
+				'en-us': "Targeted Skewer",
+				'fr-fr': "Cible Transpercée",
+				'es-es': "Ensarta Direccionada",
+				'it-it': "Spiedo Mirato",
+				'pt-br': "Espeto na Mira",
+				'de-de': "Gezielter Spieß"
 			},
 			effect: {
-				en: "This attack does 20 damage to 1 of your opponent's Benched Pokémon for each damage counter on that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 20 dégâts à l'un des Pokémon de Banc de votre adversaire pour chaque marqueur de dégâts sur ce Pokémon-là. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				es: "Este ataque hace 20 puntos de daño a 1 de los Pokémon en Banca de tu rival por cada contador de daño en ese Pokémon. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-				it: "Questo attacco infligge 20 danni a uno dei Pokémon in panchina del tuo avversario per ogni segnalino danno su quel Pokémon. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-				pt: "Este ataque causa 20 pontos de dano a 1 dos Pokémon no Banco do seu oponente para cada contador de dano naquele Pokémon (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
-				de: "Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners für jede Schadensmarke auf jenem Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "This attack does 20 damage to 1 of your opponent's Benched Pokémon for each damage counter on that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 20 dégâts à l'un des Pokémon de Banc de votre adversaire pour chaque marqueur de dégâts sur ce Pokémon-là. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'es-es': "Este ataque hace 20 puntos de daño a 1 de los Pokémon en Banca de tu rival por cada contador de daño en ese Pokémon. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+				'it-it': "Questo attacco infligge 20 danni a uno dei Pokémon in panchina del tuo avversario per ogni segnalino danno su quel Pokémon. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+				'pt-br': "Este ataque causa 20 pontos de dano a 1 dos Pokémon no Banco do seu oponente para cada contador de dano naquele Pokémon (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
+				'de-de': "Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners für jede Schadensmarke auf jenem Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -60,12 +60,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jet Headbutt",
-				fr: "Bélier Volant",
-				es: "Turbocabezazo",
-				it: "Zuccata Jet",
-				pt: "Cabeçada a Jato",
-				de: "Flinke Kopfnuss"
+				'en-us': "Jet Headbutt",
+				'fr-fr': "Bélier Volant",
+				'es-es': "Turbocabezazo",
+				'it-it': "Zuccata Jet",
+				'pt-br': "Cabeçada a Jato",
+				'de-de': "Flinke Kopfnuss"
 			},
 
 			damage: 60,
@@ -87,7 +87,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "This Pokémon has a jaw that's as sharp as a spear and as strong as steel. Apparently Barraskewda's flesh is surprisingly tasty, too."
+		'en-us': "This Pokémon has a jaw that's as sharp as a spear and as strong as steel. Apparently Barraskewda's flesh is surprisingly tasty, too."
 	},
 
 	variants: [

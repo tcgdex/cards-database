@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2016'
 
 const card: Card = {
@@ -9,7 +9,7 @@ const card: Card = {
 	dexId: [39],
 
 	description: {
-		en: "It captivates foes with its huge, round eyes, then lulls them to sleep by singing a soothing melody."
+		'en-us': "It captivates foes with its huge, round eyes, then lulls them to sleep by singing a soothing melody."
 	},
 
 	hp: 60,
@@ -19,26 +19,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Rollout",
-			fr: "Roulade"
+			'en-us': "Rollout",
+			'fr-fr': "Roulade"
 		},
 
 		damage: 10
 	}, {
 		name: {
-			en: "Heartfelt Song",
-			fr: "Chanson du Cœur"
+			'en-us': "Heartfelt Song",
+			'fr-fr': "Chanson du Cœur"
 		},
 
 		effect: {
-			en: "Discard a Darkness Energy attached to your opponent’s Active Pokémon.",
-			fr: "Défaussez une Énergie  attachée au Pokémon Actif de votre adversaire."
+			'en-us': "Discard a Darkness Energy attached to your opponent’s Active Pokémon.",
+			'fr-fr': "Défaussez une Énergie  attachée au Pokémon Actif de votre adversaire."
 		}
 	}],
 
 	name: {
-		en: "Jigglypuff",
-		fr: "Rondoudou"
+		'en-us': "Jigglypuff",
+		'fr-fr': "Rondoudou"
 	},
 
 	rarity: "None",

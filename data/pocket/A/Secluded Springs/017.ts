@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slowpoke",
-		fr: "Ramoloss"
+		'en-us': "Slowpoke",
+		'fr-fr': "Ramoloss"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It is incredibly slow and dopey. It takes five\nseconds for it to feel pain when under attack.",
-		fr: "Ce Pokémon est très lent et apathique. Il lui faut cinq secondes pour ressentir la douleur provoquée par une attaque."
+		'en-us': "It is incredibly slow and dopey. It takes five\nseconds for it to feel pain when under attack.",
+		'fr-fr': "Ce Pokémon est très lent et apathique. Il lui faut cinq secondes pour ressentir la douleur provoquée par une attaque."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Water Gun",
-			fr: "Pistolet à O"
+			'en-us': "Water Gun",
+			'fr-fr': "Pistolet à O"
 		},
 
 		damage: 20,

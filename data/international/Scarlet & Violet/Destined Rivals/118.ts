@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Team Rocket's Nidorino",
-		fr: "Nidorino de la Team Rocket",
-		de: "Team Rockets Nidorino",
-		it: "Nidorino del Team Rocket",
-		es: "Nidorino del Team Rocket",
-		pt: "Nidorino da Equipe Rocket",
+		'en-us': "Team Rocket's Nidorino",
+		'fr-fr': "Nidorino de la Team Rocket",
+		'de-de': "Team Rockets Nidorino",
+		'it-it': "Nidorino del Team Rocket",
+		'es-es': "Nidorino del Team Rocket",
+		'pt-br': "Nidorino da Equipe Rocket",
 		'es-mx': "Nidorino del Equipo Rocket"
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Team Rocket's Nidoran♂",
-		fr: "Nidoran♂ de la Team Rocket",
-		de: "Team Rockets Nidoran♂",
-		it: "Nidoran♂ del Team Rocket",
-		es: "Nidoran♂ del Team Rocket",
-		pt: "Nidoran♂ da Equipe Rocket",
+		'en-us': "Team Rocket's Nidoran♂",
+		'fr-fr': "Nidoran♂ de la Team Rocket",
+		'de-de': "Team Rockets Nidoran♂",
+		'it-it': "Nidoran♂ del Team Rocket",
+		'es-es': "Nidoran♂ del Team Rocket",
+		'pt-br': "Nidoran♂ da Equipe Rocket",
 		'es-mx': "Nidoran♂ del Equipo Rocket"
 	},
 	stage: "Stage1",
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			de: "Einhämmern",
-			it: "Martello",
-			es: "Martillear",
-			pt: "Martelada",
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'de-de': "Einhämmern",
+			'it-it': "Martello",
+			'es-es': "Martillear",
+			'pt-br': "Martelada",
 			'es-mx': "Martillar"
 		},
 
@@ -51,22 +51,22 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Horn Rend",
-			fr: "Corne Déchiquetante",
-			de: "Hornreißer",
-			it: "Cornilaceranti",
-			es: "Quebrar",
-			pt: "Laceração de Chifres",
+			'en-us': "Horn Rend",
+			'fr-fr': "Corne Déchiquetante",
+			'de-de': "Hornreißer",
+			'it-it': "Cornilaceranti",
+			'es-es': "Quebrar",
+			'pt-br': "Laceração de Chifres",
 			'es-mx': "Cuerno Desgarrador"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 60 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire a déjà au moins un marqueur de dégâts, cette attaque inflige 60 dégâts supplémentaires.",
-			de: "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 60 Schadenspunkte mehr zu.",
-			it: "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 60 danni in più.",
-			es: "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 60 puntos de daño más.",
-			pt: "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 60 pontos de dano a mais.",
+			'en-us': "If your opponent's Active Pokémon already has any damage counters on it, this attack does 60 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire a déjà au moins un marqueur de dégâts, cette attaque inflige 60 dégâts supplémentaires.",
+			'de-de': "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 60 Schadenspunkte mehr zu.",
+			'it-it': "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 60 danni in più.",
+			'es-es': "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 60 puntos de daño más.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 60 pontos de dano a mais.",
 			'es-mx': "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 60 puntos de daño más."
 		},
 

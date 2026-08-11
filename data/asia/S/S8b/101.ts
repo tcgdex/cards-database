@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブラッキーVMAX",
+		'ja-jp': "ブラッキーVMAX",
 		'zh-tw': "月亮伊布VMAX",
 	},
 
@@ -19,11 +19,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ダークシグナル",
+				'ja-jp': "ダークシグナル",
 				'zh-tw': "黑暗信號",
 			},
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
 				'zh-tw': "在自己的回合，當從手牌使出這張卡並完成進化時，可使用1次。選擇1隻對手的備戰寶可夢，與戰鬥寶可夢互換。",
 			},
 		},
@@ -32,7 +32,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ダイアーク",
+				'ja-jp': "ダイアーク",
 				'zh-tw': "極巨惡霸",
 			},
 			damage: 160,
@@ -54,7 +54,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ブラッキーV",
+		'ja-jp': "ブラッキーV",
 	},
 
 	retreat: 2,

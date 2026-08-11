@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Carnivine",
-		fr: "Vortente",
-		es: "Carnivine",
-		it: "Carnivine",
-		pt: "Carnivine",
-		de: "Venuflibis"
+		'en-us': "Carnivine",
+		'fr-fr': "Vortente",
+		'es-es': "Carnivine",
+		'it-it': "Carnivine",
+		'pt-br': "Carnivine",
+		'de-de': "Venuflibis"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Flick Poison",
-				fr: "Pichenette de Poison",
-				es: "Sacudida de Veneno",
-				it: "Velenogiro",
-				pt: "Salpicar Veneno",
-				de: "Springendes Gift"
+				'en-us': "Flick Poison",
+				'fr-fr': "Pichenette de Poison",
+				'es-es': "Sacudida de Veneno",
+				'it-it': "Velenogiro",
+				'pt-br': "Salpicar Veneno",
+				'de-de': "Springendes Gift"
 			},
 			effect: {
-				en: "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon. The new Active Pokémon is now Poisoned.",
-				fr: "Échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif. Le nouveau Pokémon Actif est maintenant Empoisonné.",
-				es: "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo. El nuevo Pokémon Activo pasa a estar Envenenado.",
-				it: "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo. Il nuovo Pokémon attivo viene avvelenato.",
-				pt: "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a). O novo Pokémon Ativo agora está Envenenado.",
-				de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus. Das neue Aktive Pokémon ist jetzt vergiftet."
+				'en-us': "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon. The new Active Pokémon is now Poisoned.",
+				'fr-fr': "Échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif. Le nouveau Pokémon Actif est maintenant Empoisonné.",
+				'es-es': "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo. El nuevo Pokémon Activo pasa a estar Envenenado.",
+				'it-it': "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo. Il nuovo Pokémon attivo viene avvelenato.",
+				'pt-br': "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a). O novo Pokémon Ativo agora está Envenenado.",
+				'de-de': "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus. Das neue Aktive Pokémon ist jetzt vergiftet."
 			},
 
 		},
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crunch",
-				fr: "Mâchouille",
-				es: "Triturar",
-				it: "Sgranocchio",
-				pt: "Mastigada",
-				de: "Knirscher"
+				'en-us': "Crunch",
+				'fr-fr': "Mâchouille",
+				'es-es': "Triturar",
+				'it-it': "Sgranocchio",
+				'pt-br': "Mastigada",
+				'de-de': "Knirscher"
 			},
 			effect: {
-				en: "Discard an Energy from your opponent’s Active Pokémon.",
-				fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
-				es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-				it: "Scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
-				de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard an Energy from your opponent’s Active Pokémon.",
+				'fr-fr': "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+				'es-es': "Descarta 1 Energía del Pokémon Activo de tu rival.",
+				'it-it': "Scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey.",
+		'en-us': "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey.",
 	},
 
 	thirdParty: {

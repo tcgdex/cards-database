@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Swablu",
-		fr: "Tylton",
+		'en-us': "Swablu",
+		'fr-fr': "Tylton",
 	},
 	illustrator: "Shigenori Negishi",
 	rarity: "Shiny rare",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collecte",
+				'en-us': "Collect",
+				'fr-fr': "Collecte",
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
 			},
 
 		},
@@ -43,8 +43,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
 			},
 
 			damage: 20,
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty.",
+		'en-us': "It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty.",
 	},
 }
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Keldeo",
-		fr: "Keldeo",
-		es: "Keldeo",
-		it: "Keldeo",
-		pt: "Keldeo",
-		de: "Keldeo"
+		'en-us': "Keldeo",
+		'fr-fr': "Keldeo",
+		'es-es': "Keldeo",
+		'it-it': "Keldeo",
+		'pt-br': "Keldeo",
+		'de-de': "Keldeo"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slicing Blade",
-				fr: "Lame Tranchante",
+				'en-us': "Slicing Blade",
+				'fr-fr': "Lame Tranchante",
 			},
 
 			damage: 30,
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Pump",
-				fr: "Hydrocanon",
+				'en-us': "Hydro Pump",
+				'fr-fr': "Hydrocanon",
 			},
 			effect: {
-				en: "Does 10 more damage for each Water Energy attached to this Pokémon.",
-				fr: "Inflige 10 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+				'en-us': "Does 10 more damage for each Water Energy attached to this Pokémon.",
+				'fr-fr': "Inflige 10 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
 			},
 			damage: 60,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It crosses the world, running over the surfaces of oceans and rivers. It appears at scenic waterfronts.",
+		'en-us': "It crosses the world, running over the surfaces of oceans and rivers. It appears at scenic waterfronts.",
 	},
 
 	thirdParty: {

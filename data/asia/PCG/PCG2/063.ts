@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シェルゴン",
+		'ja-jp': "シェルゴン",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "難しい保護",
+				'ja-jp': "難しい保護",
 			},
 			effect: {
-				ja: "ポカンからの攻撃によってシェルゴンに与えられたすべての損害を防ぎます。",
+				'ja-jp': "ポカンからの攻撃によってシェルゴンに与えられたすべての損害を防ぎます。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Fire", "Water"],
 			name: {
-				ja: "ロックスマッシュ",
+				'ja-jp': "ロックスマッシュ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は30ダメージに加えて10ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は30ダメージに加えて10ダメージを与えます。",
 			},
 		},
 	],

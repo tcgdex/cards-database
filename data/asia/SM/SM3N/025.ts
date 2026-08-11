@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニャオニクス",
+		'ja-jp': "ニャオニクス",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "危険が 迫ると 耳を 持ち上げ １０トン トラックを ひねりつぶす サイコパワーを 解放する。",
+		'ja-jp': "危険が 迫ると 耳を 持ち上げ １０トン トラックを ひねりつぶす サイコパワーを 解放する。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ひきつける" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分の山札を3枚引く。",
+				'ja-jp': "自分の山札を3枚引く。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "10×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の手札の枚数x10ダメージ。",
+				'ja-jp': "自分の手札の枚数x10ダメージ。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニャスパー",
+		'ja-jp': "ニャスパー",
 	},
 
 	retreat: 1,

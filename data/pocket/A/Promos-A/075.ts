@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Promos-A"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Kartana",
-		es: "Kartana"
+		'en-us': "Kartana",
+		'es-es': "Kartana"
 	},
 
 	illustrator: "Hasuno",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "This Ultra Beast's body, which is as thin\nas paper, is like a sharpened sword.",
-		es: "El cuerpo de este Ultraente es fino como el papel\ny tan cortante como una espada recién afilada",
+		'en-us': "This Ultra Beast's body, which is as thin\nas paper, is like a sharpened sword.",
+		'es-es': "El cuerpo de este Ultraente es fino como el papel\ny tan cortante como una espada recién afilada",
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Thrash Metal",
-			es: "Thrash Metal"
+			'en-us': "Thrash Metal",
+			'es-es': "Thrash Metal"
 		},
 
 		damage: 40,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ソーナンス",
+		'ja-jp': "ソーナンス",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "光や ショックを 嫌う。 攻撃されると 体が ふくらみ 反撃が 強力に なる。",
+		'ja-jp': "光や ショックを 嫌う。 攻撃されると 体が ふくらみ 反撃が 強力に なる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "がまんのかべ" },
 			effect: {
-				ja: "このポケモンがバトル場にいるかぎり、おたがいの場・手札・トラッシュにあるポケモン（[超]ポケモンはのぞく）の特性は、すべてなくなる。",
+				'ja-jp': "このポケモンがバトル場にいるかぎり、おたがいの場・手札・トラッシュにあるポケモン（[超]ポケモンはのぞく）の特性は、すべてなくなる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンにのっているダメカンの数x10ダメージを追加。",
+				'ja-jp': "相手のバトルポケモンにのっているダメカンの数x10ダメージを追加。",
 			},
 		},
 	],

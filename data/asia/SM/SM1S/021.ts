@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ズバット",
+		'ja-jp': "ズバット",
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "昼間は 洞穴で 寝ている。 目が ないので 超音波で 周りを 確認しながら 飛ぶ。",
+		'ja-jp': "昼間は 洞穴で 寝ている。 目が ないので 超音波で 周りを 確認しながら 飛ぶ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "おどろかす" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手の手札からオモテを見ないで1枚選び、そのカードのオモテを見てから、相手の山札にもどして切る。",
+				'ja-jp': "相手の手札からオモテを見ないで1枚選び、そのカードのオモテを見てから、相手の山札にもどして切る。",
 			},
 		},
 	],

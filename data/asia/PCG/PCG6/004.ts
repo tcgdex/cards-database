@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴルバット",
+		'ja-jp': "ゴルバット",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "スーパーポイズンブレス",
+				'ja-jp': "スーパーポイズンブレス",
 			},
 			effect: {
-				ja: "それぞれの防御ポケモンは現在中毒になっています。",
+				'ja-jp': "それぞれの防御ポケモンは現在中毒になっています。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ソニック信号",
+				'ja-jp': "ソニック信号",
 			},
 			effect: {
-				ja: "対戦相手のポケモンの2つを選択してください。この攻撃は、それぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "対戦相手のポケモンの2つを選択してください。この攻撃は、それぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 		},
 	],

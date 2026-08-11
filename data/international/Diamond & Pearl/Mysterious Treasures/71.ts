@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Aron",
-		fr: "Galekid",
-		de: "Stollunior"
+		'en-us': "Aron",
+		'fr-fr': "Galekid",
+		'de-de': "Stollunior"
 	},
 
 	illustrator: "Yuka Morii",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steel Tackle",
-				fr: "Charge d'acier",
-				de: "Stahltackle"
+				'en-us': "Steel Tackle",
+				'fr-fr': "Charge d'acier",
+				'de-de': "Stahltackle"
 			},
 			effect: {
-				en: "Aron does 10 damage to itself.",
-				fr: "Galekid s'inflige 10 dégâts.",
-				de: "Stollunior fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Aron does 10 damage to itself.",
+				'fr-fr': "Galekid s'inflige 10 dégâts.",
+				'de-de': "Stollunior fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -63,8 +63,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It usually lives deep in mountains. However, hunger may drive it to eat railroad tracks and cars.",
-		fr: "Il vit habituellement au cœur des montagnes. Affamé, il dévore parfois des rails et des voitures."
+		'en-us': "It usually lives deep in mountains. However, hunger may drive it to eat railroad tracks and cars.",
+		'fr-fr': "Il vit habituellement au cœur des montagnes. Affamé, il dévore parfois des rails et des voitures."
 	},
 
 	thirdParty: {

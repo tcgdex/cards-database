@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Pinsir",
-		fr: "Scarabrute",
-		de: "Pinsir"
+		'en-us': "Pinsir",
+		'fr-fr': "Scarabrute",
+		'de-de': "Pinsir"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Crust",
-				fr: "Croûte",
-				de: "Crust"
+				'en-us': "Crust",
+				'fr-fr': "Croûte",
+				'de-de': "Crust"
 			},
 			effect: {
-				en: "Any damage done to Pinsir by attacks from your opponent's Basic Pokémon is reduced by 30 (after applying Weakness and Resistance).",
-				fr: "Les dégâts infligés à Scarabrute par des attaques du Pokémon de base de votre adversaire sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
-				de: "Any damage done to Pinsir by attacks from your opponent's Basic Pokémon is reduced by 30 (after applying Weakness and Resistance)."
+				'en-us': "Any damage done to Pinsir by attacks from your opponent's Basic Pokémon is reduced by 30 (after applying Weakness and Resistance).",
+				'fr-fr': "Les dégâts infligés à Scarabrute par des attaques du Pokémon de base de votre adversaire sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Any damage done to Pinsir by attacks from your opponent's Basic Pokémon is reduced by 30 (after applying Weakness and Resistance)."
 			}
 		},
 	],
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sonicboom",
-				fr: "Sonicboom",
-				de: "Sonicboom"
+				'en-us': "Sonicboom",
+				'fr-fr': "Sonicboom",
+				'de-de': "Sonicboom"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
-				de: "This attack's damage isn't affected by Weakness or Resistance."
+				'en-us': "This attack's damage isn't affected by Weakness or Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				'de-de': "This attack's damage isn't affected by Weakness or Resistance."
 			},
 			damage: 30,
 

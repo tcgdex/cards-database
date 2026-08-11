@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラプラス",
+		'ja-jp': "ラプラス",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "アシスト",
+				'ja-jp': "アシスト",
 			},
 			effect: {
-				ja: "デッキを検索してサポーターカードを探し、相手に見せて、手に入れてください。その後、デッキをシャッフルします。",
+				'ja-jp': "デッキを検索してサポーターカードを探し、相手に見せて、手に入れてください。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Water", "Water", "Colorless"],
 			name: {
-				ja: "催眠芽球",
+				'ja-jp': "催眠芽球",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御するポケモンは今眠っています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御するポケモンは今眠っています。",
 			},
 			damage: 30,
 		},

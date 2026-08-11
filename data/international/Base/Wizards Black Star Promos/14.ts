@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo",
-		fr: "Mewtwo"
+		'en-us': "Mewtwo",
+		'fr-fr': "Mewtwo"
 	},
 
 	illustrator: "Benimaru Itoh",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Energy Absorption",
-				fr: "Absorption d'Énergie"
+				'en-us': "Energy Absorption",
+				'fr-fr': "Absorption d'Énergie"
 			},
 			effect: {
-				en: "Choose up to 2 Energy cards from your discard pile and attach them to Mewtwo.",
-				fr: "Choisissez jusqu'à 2 cartes Énergie de votre pile de défausse et attachez-les à Mewtwo."
+				'en-us': "Choose up to 2 Energy cards from your discard pile and attach them to Mewtwo.",
+				'fr-fr': "Choisissez jusqu'à 2 cartes Énergie de votre pile de défausse et attachez-les à Mewtwo."
 			},
 
 		},
@@ -46,8 +46,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psyburn",
-				fr: "Brûlepsy"
+				'en-us': "Psyburn",
+				'fr-fr': "Brûlepsy"
 			},
 
 			damage: 40,
@@ -65,8 +65,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Years of genetic experiments resulted in the creation of this never-before-seen violent Pokémon.",
-		fr: "Ce Pokémon violent, jamais vu auparavant, est le fruit de nombreuses années d'expériences génétiques."
+		'en-us': "Years of genetic experiments resulted in the creation of this never-before-seen violent Pokémon.",
+		'fr-fr': "Ce Pokémon violent, jamais vu auparavant, est le fruit de nombreuses années d'expériences génétiques."
 	},
 
 	variants: [

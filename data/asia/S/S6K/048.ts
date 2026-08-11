@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダーテング",
+		'ja-jp': "ダーテング",
 		'zh-tw': "狡猾天狗",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "森の 奥で ひっそりと 暮らす。 大きな 団扇を あおぐと 木枯らしが 吹くと いわれている。",
+		'ja-jp': "森の 奥で ひっそりと 暮らす。 大きな 団扇を あおぐと 木枯らしが 吹くと いわれている。",
 		'zh-tw': "在森林深處靜靜地生活。據說當牠搧動大大的團扇，就會刮起冬日寒風。",
 	},
 
@@ -23,24 +23,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "テングッバイ",
+				'ja-jp': "テングッバイ",
 				'zh-tw': "天狗再見",
 			},
 			cost: ["Darkness"],
 			effect: {
-				ja: "ダメカンがのっている相手のバトルポケモンと、ついているすべてのカードを、相手の手札にもどす。",
+				'ja-jp': "ダメカンがのっている相手のバトルポケモンと、ついているすべてのカードを、相手の手札にもどす。",
 				'zh-tw': "將身上放置有傷害指示物的對手的戰鬥寶可夢與附加的卡，全部放回對手的手牌。",
 			},
 		},
 		{
 			name: {
-				ja: "こがらしせんぷう",
+				'ja-jp': "こがらしせんぷう",
 				'zh-tw': "寒冬旋風",
 			},
 			damage: 130,
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手の手札からオモテを見ないで1枚選び、トラッシュする。",
+				'ja-jp': "相手の手札からオモテを見ないで1枚選び、トラッシュする。",
 				'zh-tw': "在不看正面的情況下，選擇1張對手的手牌，將其丟棄。",
 			},
 		},
@@ -60,7 +60,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コノハナ",
+		'ja-jp': "コノハナ",
 	},
 
 	retreat: 3,

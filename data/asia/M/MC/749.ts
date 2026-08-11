@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジュペッタ",
+		'ja-jp': "ジュペッタ",
 	},
 
 	illustrator: "YASHIRO Nanaco",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "捨てられた ぬいぐるみに 怨念が 溜まって ポケモンになった。 薄暗い 路地裏で 見かける。",
+		'ja-jp': "捨てられた ぬいぐるみに 怨念が 溜まって ポケモンになった。 薄暗い 路地裏で 見かける。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "のろいのことば" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手は相手自身の手札を3枚選び、山札にもどして切る。",
+				'ja-jp': "相手は相手自身の手札を3枚選び、山札にもどして切る。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カゲボウズ",
+		'ja-jp': "カゲボウズ",
 	},
 
 	retreat: 1,

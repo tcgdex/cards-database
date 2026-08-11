@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Azumarill",
-		th: "มาริลลิ"
+		'id-id': "Azumarill",
+		'th-th': "มาริลลิ"
 	},
 
 	illustrator: "Orca",
@@ -15,8 +15,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Dengan memfokuskan pendengarannya, Azumarill dapat mendengar apa saja yang ada di dalam sungai berarus deras.",
-		th: "ถ้าตั้งใจฟังดี ๆ จะสามารถแยกแยะได้ว่าอะไรอยู่ในแม่น้ำที่ไหลเชี่ยว"
+		'id-id': "Dengan memfokuskan pendengarannya, Azumarill dapat mendengar apa saja yang ada di dalam sungai berarus deras.",
+		'th-th': "ถ้าตั้งใจฟังดี ๆ จะสามารถแยกแยะได้ว่าอะไรอยู่ในแม่น้ำที่ไหลเชี่ยว"
 	},
 
 	stage: "Stage1",
@@ -25,25 +25,25 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Gelembung Kilau-mengilau",
-			th: "ฟองแวววาว"
+			'id-id': "Gelembung Kilau-mengilau",
+			'th-th': "ฟองแวววาว"
 		},
 
 		effect: {
-			id: "Jika ada Pokémon Terastal di Arena sendiri, Energi yang dibutuhkan oleh Pokémon ini untuk menggunakan Serudukan Nekat menjadi 1 Energi {Psychic}.",
-			th: "ถ้าบนกระดานฝ่ายเรามีโปเกมอน [เทรัสตัล] อยู่ พลังงานสำหรับใช้ [กระแทก สุดแรง] ของโปเกมอนนี้ จะเป็นพลังงาน[พลังจิต] 1 ลูก"
+			'id-id': "Jika ada Pokémon Terastal di Arena sendiri, Energi yang dibutuhkan oleh Pokémon ini untuk menggunakan Serudukan Nekat menjadi 1 Energi {Psychic}.",
+			'th-th': "ถ้าบนกระดานฝ่ายเรามีโปเกมอน [เทรัสตัล] อยู่ พลังงานสำหรับใช้ [กระแทก สุดแรง] ของโปเกมอนนี้ จะเป็นพลังงาน[พลังจิต] 1 ลูก"
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Serudukan Nekat",
-			th: "กระแทกสุดแรง"
+			'id-id': "Serudukan Nekat",
+			'th-th': "กระแทกสุดแรง"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 50.",
-			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 50 ด้วย"
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 50.",
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 50 ด้วย"
 		},
 
 		damage: 230,

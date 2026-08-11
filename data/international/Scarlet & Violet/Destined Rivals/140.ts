@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Forretress",
-		fr: "Foretress",
-		de: "Forstellka",
-		it: "Forretress",
-		es: "Forretress",
-		pt: "Forretress",
+		'en-us': "Forretress",
+		'fr-fr': "Foretress",
+		'de-de': "Forstellka",
+		'it-it': "Forretress",
+		'es-es': "Forretress",
+		'pt-br': "Forretress",
 		'es-mx': "Forretress"
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Metal"],
 	evolveFrom: {
-		en: "Pineco",
-		fr: "Pomdepik",
-		de: "Tannza",
-		it: "Pineco",
-		es: "Pineco",
-		pt: "Pineco",
+		'en-us': "Pineco",
+		'fr-fr': "Pomdepik",
+		'de-de': "Tannza",
+		'it-it': "Pineco",
+		'es-es': "Pineco",
+		'pt-br': "Pineco",
 		'es-mx': "Pineco"
 	},
 	stage: "Stage1",
@@ -37,22 +37,22 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Iron Shake-Up",
-			fr: "Mélange de Fer",
-			de: "Eisernes Schütteln",
-			it: "Rimpasto Metallico",
-			es: "Sacudida Férrea",
-			pt: "Sacudida de Ferro",
+			'en-us': "Iron Shake-Up",
+			'fr-fr': "Mélange de Fer",
+			'de-de': "Eisernes Schütteln",
+			'it-it': "Rimpasto Metallico",
+			'es-es': "Sacudida Férrea",
+			'pt-br': "Sacudida de Ferro",
 			'es-mx': "Sacudida Férrea"
 		},
 
 		effect: {
-			en: "You may move any amount of {M} Energy from your Pokémon to your other Pokémon in any way you like.",
-			fr: "Vous pouvez déplacer autant d'Énergies {M} que vous le voulez de vos Pokémon vers vos autres Pokémon, comme il vous plaît.",
-			de: "Du kannst beliebig viele {M}-Energien von deinen Pokémon beliebig auf deine anderen Pokémon verschieben.",
-			it: "Puoi spostare un numero qualsiasi di Energie {M} dall'uno all'altro dei tuoi Pokémon nel modo che preferisci.",
-			es: "Puedes mover cualquier cantidad de Energías {M} de tus Pokémon a tus otros Pokémon de la manera que desees.",
-			pt: "Você pode mover qualquer quantidade de Energia {M} dos seus Pokémon para outros Pokémon seus como desejar.",
+			'en-us': "You may move any amount of {M} Energy from your Pokémon to your other Pokémon in any way you like.",
+			'fr-fr': "Vous pouvez déplacer autant d'Énergies {M} que vous le voulez de vos Pokémon vers vos autres Pokémon, comme il vous plaît.",
+			'de-de': "Du kannst beliebig viele {M}-Energien von deinen Pokémon beliebig auf deine anderen Pokémon verschieben.",
+			'it-it': "Puoi spostare un numero qualsiasi di Energie {M} dall'uno all'altro dei tuoi Pokémon nel modo che preferisci.",
+			'es-es': "Puedes mover cualquier cantidad de Energías {M} de tus Pokémon a tus otros Pokémon de la manera que desees.",
+			'pt-br': "Você pode mover qualquer quantidade de Energia {M} dos seus Pokémon para outros Pokémon seus como desejar.",
 			'es-mx': "Puedes mover cualquier cantidad de Energías {M} de tus Pokémon a tus otros Pokémon de la manera que quieras."
 		},
 
@@ -61,22 +61,22 @@ const card: Card = {
 		cost: ["Metal", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Hurricane of Needles",
-			fr: "Ouragan d'Aiguilles",
-			de: "Nadelorkan",
-			it: "Tifone di Aghi",
-			es: "Huracán de Púas",
-			pt: "Furacão de Agulhas",
+			'en-us': "Hurricane of Needles",
+			'fr-fr': "Ouragan d'Aiguilles",
+			'de-de': "Nadelorkan",
+			'it-it': "Tifone di Aghi",
+			'es-es': "Huracán de Púas",
+			'pt-br': "Furacão de Agulhas",
 			'es-mx': "Huracán de Púas"
 		},
 
 		effect: {
-			en: "Flip 4 coins. This attack does 80 damage for each heads.",
-			fr: "Lancez 4 pièces. Cette attaque inflige 80 dégâts pour chaque côté face.",
-			de: "Wirf 4 Münzen. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu.",
-			it: "Lancia quattro volte una moneta. Questo attacco infligge 80 danni ogni volta che esce testa.",
-			es: "Lanza 4 monedas. Este ataque hace 80 puntos de daño por cada cara.",
-			pt: "Jogue 4 moedas. Este ataque causa 80 pontos de dano para cada cara.",
+			'en-us': "Flip 4 coins. This attack does 80 damage for each heads.",
+			'fr-fr': "Lancez 4 pièces. Cette attaque inflige 80 dégâts pour chaque côté face.",
+			'de-de': "Wirf 4 Münzen. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu.",
+			'it-it': "Lancia quattro volte una moneta. Questo attacco infligge 80 danni ogni volta che esce testa.",
+			'es-es': "Lanza 4 monedas. Este ataque hace 80 puntos de daño por cada cara.",
+			'pt-br': "Jogue 4 moedas. Este ataque causa 80 pontos de dano para cada cara.",
 			'es-mx': "Lanza 4 monedas. Este ataque hace 80 puntos de daño por cada cara."
 		},
 

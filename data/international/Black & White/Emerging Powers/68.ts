@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Vullaby",
-		fr: "Vostourno",
-		es: "Vullaby",
-		it: "Vullaby",
-		pt: "Vullaby",
-		de: "Skallyk"
+		'en-us': "Vullaby",
+		'fr-fr': "Vostourno",
+		'es-es': "Vullaby",
+		'it-it': "Vullaby",
+		'pt-br': "Vullaby",
+		'de-de': "Skallyk"
 	},
 
 	illustrator: "sui",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Rear Guard",
-				fr: "Garde Arrière",
+				'en-us': "Rear Guard",
+				'fr-fr': "Garde Arrière",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 30 (after applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
+				'en-us': "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 30 (after applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gust",
-				fr: "Tornade",
+				'en-us': "Gust",
+				'fr-fr': "Tornade",
 			},
 
 			damage: 20,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They tend to guard their posteriors with suitable bones they have found. They pursue weak Pokémon.",
+		'en-us': "They tend to guard their posteriors with suitable bones they have found. They pursue weak Pokémon.",
 	},
 
 	thirdParty: {

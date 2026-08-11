@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Sudowoodo",
-		fr: "Simularbre",
-		de: "Mogelbaum"
+		'en-us': "Sudowoodo",
+		'fr-fr': "Simularbre",
+		'de-de': "Mogelbaum"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flail",
-				fr: "Fléau",
-				de: "Dreschflegel"
+				'en-us': "Flail",
+				'fr-fr': "Fléau",
+				'de-de': "Dreschflegel"
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on Sudowoodo.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Simularbre.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Mogelbaum zu."
+				'en-us': "Does 10 damage times the number of damage counters on Sudowoodo.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Simularbre.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Mogelbaum zu."
 			},
 			damage: "10x",
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Wood Hammer",
-				fr: "Martobois",
-				de: "Holzhammer"
+				'en-us': "Wood Hammer",
+				'fr-fr': "Martobois",
+				'de-de': "Holzhammer"
 			},
 			effect: {
-				en: "Sudowoodo does 30 damage to itself.",
-				fr: "Simularbre s'inflige 30 dégâts.",
-				de: "Mogelbaum fügt sich slebst 30 Schadenspunkte zu."
+				'en-us': "Sudowoodo does 30 damage to itself.",
+				'fr-fr': "Simularbre s'inflige 30 dégâts.",
+				'de-de': "Mogelbaum fügt sich slebst 30 Schadenspunkte zu."
 			},
 			damage: 50,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It stands along paths pretending to be a tree. If it starts raining, it seems to disappear.",
+		'en-us': "It stands along paths pretending to be a tree. If it starts raining, it seems to disappear.",
 	},
 
 	thirdParty: {

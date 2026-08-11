@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Bramblin"
+		'id-id': "Bramblin"
 	},
 
 	illustrator: "Tetsu Kayama",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Bramblin bergulir ditiup angin di padang gurun tanpa mengetahui tujuannya. Pokémon ini sangat benci jika tubuhnya menjadi basah."
+		'id-id': "Bramblin bergulir ditiup angin di padang gurun tanpa mengetahui tujuannya. Pokémon ini sangat benci jika tubuhnya menjadi basah."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Duri Penusuk"
+			'id-id': "Duri Penusuk"
 		},
 
 		damage: 30,

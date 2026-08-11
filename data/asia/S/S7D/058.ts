@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "すりかえカップ",
+		'ja-jp': "すりかえカップ",
 		'zh-tw': "掉包杯",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の手札を1枚選び、山札の上のカードと入れ替える。",
+		'ja-jp': "自分の手札を1枚選び、山札の上のカードと入れ替える。",
 		'zh-tw': "選擇1張自己的手牌，與牌庫上方的卡互換。",
 	},
 

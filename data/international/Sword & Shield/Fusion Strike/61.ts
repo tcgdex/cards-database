@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mantine",
-		fr: "Démanta",
-		es: "Mantine",
-		it: "Mantine",
-		pt: "Mantine",
-		de: "Mantax"
+		'en-us': "Mantine",
+		'fr-fr': "Démanta",
+		'es-es': "Mantine",
+		'it-it': "Mantine",
+		'pt-br': "Mantine",
+		'de-de': "Mantax"
 	},
 
 	rarity: "Common",
@@ -30,41 +30,41 @@ const card: Card = {
 	illustrator: "Saya Tsuruta",
 
 	description: {
-		en: "As it majestically swims, it doesn't care if Remoraid attach to it to scavenge for its leftovers."
+		'en-us': "As it majestically swims, it doesn't care if Remoraid attach to it to scavenge for its leftovers."
 	},
 
 	attacks: [{
 		cost: ["Water"],
 
 		name: {
-			en: "Bounce",
-			fr: "Rebond",
-			de: "Sprungfeder",
-			es: "Bote",
-			pt: "Ricochete",
-			it: "Rimbalzo"
+			'en-us': "Bounce",
+			'fr-fr': "Rebond",
+			'de-de': "Sprungfeder",
+			'es-es': "Bote",
+			'pt-br': "Ricochete",
+			'it-it': "Rimbalzo"
 		},
 
 		damage: 20,
 
 		effect: {
-			en: "You may switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Vous pouvez échanger ce Pokémon contre l'un de vos Pokémon de Banc.",
-			de: "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen.",
-			es: "Puedes cambiar este Pokémon por 1 de tus Pokémon en Banca.",
-			pt: "Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
-			it: "Puoi scambiare questo Pokémon con uno della tua panchina."
+			'en-us': "You may switch this Pokémon with 1 of your Benched Pokémon.",
+			'fr-fr': "Vous pouvez échanger ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'de-de': "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen.",
+			'es-es': "Puedes cambiar este Pokémon por 1 de tus Pokémon en Banca.",
+			'pt-br': "Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
+			'it-it': "Puoi scambiare questo Pokémon con uno della tua panchina."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Wave Splash",
-			fr: "Grosse Vague",
-			de: "Wellenplatscher",
-			es: "Chapoteo Ondulante",
-			pt: "Onda Borrifante",
-			it: "Schizzi d'Onda"
+			'en-us': "Wave Splash",
+			'fr-fr': "Grosse Vague",
+			'de-de': "Wellenplatscher",
+			'es-es': "Chapoteo Ondulante",
+			'pt-br': "Onda Borrifante",
+			'it-it': "Schizzi d'Onda"
 		},
 
 		damage: 80

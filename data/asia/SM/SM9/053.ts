@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オコリザル",
+		'ja-jp': "オコリザル",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "怒らせた 相手を 許さず 追い続ける。 叩きのめして 動かなくなっても まだ 許さない。",
+		'ja-jp': "怒らせた 相手を 許さず 追い続ける。 叩きのめして 動かなくなっても まだ 許さない。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "場にスタジアムが出ているなら、80ダメージ追加。その後、そのスタジアムをトラッシュする。",
+				'ja-jp': "場にスタジアムが出ているなら、80ダメージ追加。その後、そのスタジアムをトラッシュする。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マンキー",
+		'ja-jp': "マンキー",
 	},
 
 	retreat: 1,

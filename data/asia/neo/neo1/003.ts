@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レディバ",
+		'ja-jp': "レディバ",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "超音速",
+				'ja-jp': "超音速",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
 			},
 		},
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "彗星パンチ",
+				'ja-jp': "彗星パンチ",
 			},
 			effect: {
-				ja: "4コインをひっくり返します。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "4コインをひっくり返します。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 		},
 	],

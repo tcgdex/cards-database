@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Gloom",
-		fr: "Ortide",
-		es: "Gloom",
-		it: "Gloom",
-		pt: "Gloom",
-		de: "Duflor"
+		'en-us': "Gloom",
+		'fr-fr': "Ortide",
+		'es-es': "Gloom",
+		'it-it': "Gloom",
+		'pt-br': "Gloom",
+		'de-de': "Duflor"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Oddish",
-		fr: "Mystherbe",
-		es: "Oddish",
-		it: "Oddish",
-		pt: "Oddish",
-		de: "Myrapla"
+		'en-us': "Oddish",
+		'fr-fr': "Mystherbe",
+		'es-es': "Oddish",
+		'it-it': "Oddish",
+		'pt-br': "Oddish",
+		'de-de': "Myrapla"
 	},
 
 	stage: "Stage1",
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drool",
-				fr: "Gluant",
-				es: "Babeo",
-				it: "Sbavare",
-				pt: "Babar",
-				de: "Sabbern"
+				'en-us': "Drool",
+				'fr-fr': "Gluant",
+				'es-es': "Babeo",
+				'it-it': "Sbavare",
+				'pt-br': "Babar",
+				'de-de': "Sabbern"
 			},
 
 			damage: 30,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
+		'en-us': "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
 	},
 
 	thirdParty: {

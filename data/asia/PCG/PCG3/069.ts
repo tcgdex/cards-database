@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Rocket's Suicune Ex",
+		'ja-jp': "Rocket's Suicune Ex",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "暗くて明確です",
+				'ja-jp': "暗くて明確です",
 			},
 			effect: {
-				ja: "RocketのSuicune Exが暗闇のエネルギーを持っている限り、RocketのSuicune Exは特別な条件の影響を受けることはできません。",
+				'ja-jp': "RocketのSuicune Exが暗闇のエネルギーを持っている限り、RocketのSuicune Exは特別な条件の影響を受けることはできません。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "氷の風",
+				'ja-jp': "氷の風",
 			},
 			effect: {
-				ja: "防御ポケモンは今眠っています。",
+				'ja-jp': "防御ポケモンは今眠っています。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Water", "Water", "Colorless"],
 			name: {
-				ja: "ハイパースプラッシュ",
+				'ja-jp': "ハイパースプラッシュ",
 			},
 			effect: {
-				ja: "防御ポケモンがステージ2の進化したポケモンである場合、この攻撃は50ダメージに加えて40ダメージを与えます。",
+				'ja-jp': "防御ポケモンがステージ2の進化したポケモンである場合、この攻撃は50ダメージに加えて40ダメージを与えます。",
 			},
 		},
 	],

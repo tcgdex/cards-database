@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Zubat",
-		fr: "Nosferapti",
-		de: "Zubat"
+		'en-us': "Zubat",
+		'fr-fr': "Nosferapti",
+		'de-de': "Zubat"
 	},
 
 	illustrator: "Midori Harada",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Turn",
-				fr: "Vif retournement",
-				de: "Quick Turn"
+				'en-us': "Quick Turn",
+				'fr-fr': "Vif retournement",
+				'de-de': "Quick Turn"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10×",
 
@@ -46,14 +46,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Surprise",
-				fr: "Surprise",
-				de: "Surprise"
+				'en-us': "Surprise",
+				'fr-fr': "Surprise",
+				'de-de': "Surprise"
 			},
 			effect: {
-				en: "Choose 1 card from your opponent's hand without looking. Look at the card you chose, then have your opponent shuffle that card into his or her deck.",
-				fr: "Choisissez sans regarder une carte de la main de votre adversaire. Regardez cette carte. Votre adversaire doit ensuite la mélanger à son deck.",
-				de: "Choose 1 card from your opponent's hand without looking. Look at the card you chose, then have your opponent shuffle that card into his or her deck."
+				'en-us': "Choose 1 card from your opponent's hand without looking. Look at the card you chose, then have your opponent shuffle that card into his or her deck.",
+				'fr-fr': "Choisissez sans regarder une carte de la main de votre adversaire. Regardez cette carte. Votre adversaire doit ensuite la mélanger à son deck.",
+				'de-de': "Choose 1 card from your opponent's hand without looking. Look at the card you chose, then have your opponent shuffle that card into his or her deck."
 			},
 
 		},

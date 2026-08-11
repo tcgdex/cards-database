@@ -1,21 +1,21 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
 
 	description: {
-		en: "As its body grows larger, its six warm tails become more beautiful, with a more luxurious coat of fur.",
+		'en-us': "As its body grows larger, its six warm tails become more beautiful, with a more luxurious coat of fur.",
 	},
 
 	name: {
-		en: "Vulpix",
-		fr: "Goupix",
-		es: "Vulpix",
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix",
+		'es-es': "Vulpix",
 		'es-mx': "Vulpix",
-		de: "Vulpix",
-		it: "Vulpix",
-		pt: "Vulpix"
+		'de-de': "Vulpix",
+		'it-it': "Vulpix",
+		'pt-br': "Vulpix"
 	},
 
 	illustrator: "Yoshimoto Yoshimon",
@@ -28,25 +28,25 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Singe",
-			fr: "Roussi",
-			es: "Quemadura",
+			'en-us': "Singe",
+			'fr-fr': "Roussi",
+			'es-es': "Quemadura",
 			'es-mx': "Quemadura",
-			de: "Versengung",
-			it: "Scottata",
-			pt: "Chamuscada"
+			'de-de': "Versengung",
+			'it-it': "Scottata",
+			'pt-br': "Chamuscada"
 		},
 
 		cost: ["Fire"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			'en-us': "Your opponent's Active Pokémon is now Burned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
 			'es-mx': "El Pokémon Activo de tu rival ahora está Quemado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado."
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado."
 		}
 	}],
 

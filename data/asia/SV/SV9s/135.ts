@@ -1,20 +1,20 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ปราสาทของ N",
-		id: "Istana N"
+		'th-th': "ปราสาทของ N",
+		'id-id': "Istana N"
 	},
 
 	illustrator: "AYUMI ODASHIMA",
 	category: "Trainer",
 
 	effect: {
-		th: "พลังงานสำหรับ[หนี]ของ [โปเกมอนของ N] บนกระดานของทั้งสองฝ่ายทุกตัว ทั้งหมดจะหายไป",
-		id: "Semua Pokémon N di Arena kedua pemain menjadi tidak membutuhkan Energi untuk Mundur."
+		'th-th': "พลังงานสำหรับ[หนี]ของ [โปเกมอนของ N] บนกระดานของทั้งสองฝ่ายทุกตัว ทั้งหมดจะหายไป",
+		'id-id': "Semua Pokémon N di Arena kedua pemain menjadi tidak membutuhkan Energi untuk Mundur."
 	},
 
 	trainerType: "Stadium",

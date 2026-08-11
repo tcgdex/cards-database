@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Donphan",
-		fr: "Donphan",
-		de: "Donphan"
+		'en-us': "Donphan",
+		'fr-fr': "Donphan",
+		'de-de': "Donphan"
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Phanpy",
-		fr: "Phanpy"
+		'en-us': "Phanpy",
+		'fr-fr': "Phanpy"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Exoskeleton",
-				fr: "Exosquelette",
-				de: "Exoskelett"
+				'en-us': "Exoskeleton",
+				'fr-fr': "Exosquelette",
+				'de-de': "Exoskelett"
 			},
 			effect: {
-				en: "Any damage done to Donphan by attacks is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Tout dégât infligé à Donphan par des attaques est réduit de 20 (après application de la Faiblesse et de la Résistance).",
-				de: "Schaden, der Donphan durch Angriffe zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "Any damage done to Donphan by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Tout dégât infligé à Donphan par des attaques est réduit de 20 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Schaden, der Donphan durch Angriffe zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			}
 		},
 	],
@@ -50,14 +50,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Earthquake",
-				fr: "Séisme",
-				de: "Erdbeben"
+				'en-us': "Earthquake",
+				'fr-fr': "Séisme",
+				'de-de': "Erdbeben"
 			},
 			effect: {
-				en: "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon de votre Banc. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
-				de: "Dieser Angriff fügt jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun des Pokémon de votre Banc. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
+				'de-de': "Dieser Angriff fügt jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 
@@ -69,9 +69,9 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Heavy Impact",
-				fr: "Gros impact",
-				de: "Schwerer Einschlag"
+				'en-us': "Heavy Impact",
+				'fr-fr': "Gros impact",
+				'de-de': "Schwerer Einschlag"
 			},
 
 			damage: 90,

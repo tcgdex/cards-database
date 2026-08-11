@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Mightyena"
+		'id-id': "Mightyena"
 	},
 
 	illustrator: "kawayoo",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Ketika bau mangsa yang berada di kejauhan tercium, gerombolan Pokémon ini akan mulai bergerak secara serentak sesuai perintah pemimpinnya."
+		'id-id': "Ketika bau mangsa yang berada di kejauhan tercium, gerombolan Pokémon ini akan mulai bergerak secara serentak sesuai perintah pemimpinnya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Berburu Menggerombol"
+			'id-id': "Berburu Menggerombol"
 		},
 
 		effect: {
-			id: "Jika ada Mightyena di Cadangan sendiri, kerusakan yang diberikan bertambah sejumlah 90."
+			'id-id': "Jika ada Mightyena di Cadangan sendiri, kerusakan yang diberikan bertambah sejumlah 90."
 		},
 
 		damage: "30+",
 		cost: ["Darkness"]
 	}, {
 		name: {
-			id: "Memojokkan"
+			'id-id': "Memojokkan"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
+			'id-id': "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
 		},
 
 		damage: 60,

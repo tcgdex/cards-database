@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キルリア",
+		'ja-jp': "キルリア",
 	},
 
 	illustrator: "sowsow",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "トレーナーの 明るい 気持ちが サイコパワーの 源。楽しい 気分に なると クルクル 踊る。",
+		'ja-jp': "トレーナーの 明るい 気持ちが サイコパワーの 源。楽しい 気分に なると クルクル 踊る。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "さいみんじゅつ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ラルトス",
+		'ja-jp': "ラルトス",
 	},
 
 	retreat: 1,

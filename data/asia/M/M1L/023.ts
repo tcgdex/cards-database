@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バルキー",
+		'ja-jp': "バルキー",
 	},
 
 	illustrator: "OKUBO",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "様々な 相手と 戦うなかで 自分に 合った 格闘スタイルを 模索する ひたむきな ポケモン。",
+		'ja-jp': "様々な 相手と 戦うなかで 自分に 合った 格闘スタイルを 模索する ひたむきな ポケモン。",
 	},
 
 	stage: "Basic",

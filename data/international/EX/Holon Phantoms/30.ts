@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Relicanth",
-		fr: "Relicanth",
-		de: "Relicanth"
+		'en-us': "Relicanth",
+		'fr-fr': "Relicanth",
+		'de-de': "Relicanth"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Aqua Lift",
-				fr: "Aqua-élévation",
-				de: "Aquatransporter"
+				'en-us': "Aqua Lift",
+				'fr-fr': "Aqua-élévation",
+				'de-de': "Aquatransporter"
 			},
 			effect: {
-				en: "If Relicanth has any Water Energy attached to it, the Retreat Cost for Relicanth is 0.",
-				fr: "Si Relicanth possède des Énergies , son Coût de retraite est de 0.",
-				de: "Wenn mindestens 1 -Energie an Relicanth angelegt ist, hat Relicanth Rückzugskosten 0."
+				'en-us': "If Relicanth has any Water Energy attached to it, the Retreat Cost for Relicanth is 0.",
+				'fr-fr': "Si Relicanth possède des Énergies , son Coût de retraite est de 0.",
+				'de-de': "Wenn mindestens 1 -Energie an Relicanth angelegt ist, hat Relicanth Rückzugskosten 0."
 			},
 		},
 	],
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Away",
-				fr: "Asticotage",
-				de: "Zurückschlagen"
+				'en-us': "Knock Away",
+				'fr-fr': "Asticotage",
+				'de-de': "Zurückschlagen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 10 Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 10 Schadenspunkte zu."
 			},
 			damage: "20+",
 

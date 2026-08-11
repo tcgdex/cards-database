@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Basculin",
-		fr: "Bargantua",
-		es: "Basculin",
-		it: "Basculin",
-		pt: "Basculin",
-		de: "Barschuft"
+		'en-us': "Basculin",
+		'fr-fr': "Bargantua",
+		'es-es': "Basculin",
+		'it-it': "Basculin",
+		'pt-br': "Basculin",
+		'de-de': "Barschuft"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Crunch",
-				fr: "Mâchouille",
+				'en-us': "Crunch",
+				'fr-fr': "Mâchouille",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c’est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c’est face, défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 30,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Red and blue Basculin get along so poorly, they'll start fighting instantly. These Pokémon are very hostile.",
+		'en-us': "Red and blue Basculin get along so poorly, they'll start fighting instantly. These Pokémon are very hostile.",
 	},
 
 	thirdParty: {

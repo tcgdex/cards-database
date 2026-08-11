@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drakloak",
-		fr: "Dispareptil",
-		es: "Drakloak",
-		it: "Drakloak",
-		pt: "Drakloak",
-		de: "Phandra"
+		'en-us': "Drakloak",
+		'fr-fr': "Dispareptil",
+		'es-es': "Drakloak",
+		'it-it': "Drakloak",
+		'pt-br': "Drakloak",
+		'de-de': "Phandra"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Dreepy",
-		fr: "Fantyrm",
-		es: "Dreepy",
-		it: "Dreepy",
-		pt: "Dreepy",
-		de: "Grolldra"
+		'en-us': "Dreepy",
+		'fr-fr': "Fantyrm",
+		'es-es': "Dreepy",
+		'it-it': "Dreepy",
+		'pt-br': "Dreepy",
+		'de-de': "Grolldra"
 	},
 
 	stage: "Stage1",
@@ -46,19 +46,19 @@ const card: Card = {
 	illustrator: "HYOGONOSUKE",
 
 	description: {
-		en: "Without a Dreepy to place on its head and care for, it gets so uneasy it'll try to substitute any Pokémon it finds for the missing Dreepy."
+		'en-us': "Without a Dreepy to place on its head and care for, it gets so uneasy it'll try to substitute any Pokémon it finds for the missing Dreepy."
 	},
 
 	attacks: [{
 		cost: ["Psychic"],
 
 		name: {
-			en: "Spooky Shot",
-			fr: "Tir Effrayant",
-			de: "Spukschuss",
-			es: "Disparo Embrujado",
-			pt: "Tiro Assustador",
-			it: "Colpomistero"
+			'en-us': "Spooky Shot",
+			'fr-fr': "Tir Effrayant",
+			'de-de': "Spukschuss",
+			'es-es': "Disparo Embrujado",
+			'pt-br': "Tiro Assustador",
+			'it-it': "Colpomistero"
 		},
 
 		damage: 20
@@ -66,23 +66,23 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "U-turn",
-			fr: "Demi-Tour",
-			de: "Kehrtwende",
-			es: "Ida y Vuelta",
-			pt: "Fazer Retorno",
-			it: "Retromarcia"
+			'en-us': "U-turn",
+			'fr-fr': "Demi-Tour",
+			'de-de': "Kehrtwende",
+			'es-es': "Ida y Vuelta",
+			'pt-br': "Fazer Retorno",
+			'it-it': "Retromarcia"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus.",
-			es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-			it: "Scambia questo Pokémon con uno della tua panchina."
+			'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+			'fr-fr': "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus.",
+			'es-es': "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+			'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+			'it-it': "Scambia questo Pokémon con uno della tua panchina."
 		}
 	}],
 

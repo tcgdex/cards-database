@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Gamble"
+		'en-us': "Blaine's Gamble"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -12,7 +12,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Discard any number of other cards from your hand, then flip a coin. If heads, draw twice that many cards."
+		'en-us': "Discard any number of other cards from your hand, then flip a coin. If heads, draw twice that many cards."
 	},
 	variants: [
 		{

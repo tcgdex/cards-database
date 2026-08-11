@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 1'
 
 const card: Card = {
 	name: {
-		en: "Beautifly",
-		fr: "Charmillon"
+		'en-us': "Beautifly",
+		'fr-fr': "Charmillon"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Silcoon",
-		fr: "Armulys"
+		'en-us': "Silcoon",
+		'fr-fr': "Armulys"
 	},
 
 	stage: "Stage2",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blot",
-				fr: "Pâté"
+				'en-us': "Blot",
+				'fr-fr': "Pâté"
 			},
 			effect: {
-				en: "Remove 1 damage counter from Beautifly.",
-				fr: "Retirez à Charmillon 1 marqueur de dégât."
+				'en-us': "Remove 1 damage counter from Beautifly.",
+				'fr-fr': "Retirez à Charmillon 1 marqueur de dégât."
 			},
 			damage: 30,
 
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlwind",
-				fr: "Cyclone"
+				'en-us': "Whirlwind",
+				'fr-fr': "Cyclone"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc."
 			},
 			damage: 40,
 

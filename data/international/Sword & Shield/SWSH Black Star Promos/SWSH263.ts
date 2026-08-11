@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Zeraora V",
-		de: "Zeraora V",
-		es: "Zeraora V",
-		pt: "Zeraora V",
-		it: "Zeraora V",
-		en: "Zeraora V"
+		'fr-fr': "Zeraora V",
+		'de-de': "Zeraora V",
+		'es-es': "Zeraora V",
+		'pt-br': "Zeraora V",
+		'it-it': "Zeraora V",
+		'en-us': "Zeraora V"
 	},
 
 	rarity: "Promo",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			fr: "Tranch'Griffe",
-			de: "Klauenschlitzer",
-			es: "Cuchillada Garra",
-			pt: "Golpe de Garra",
-			it: "Lacerartiglio",
-			en: "Claw Slash"
+			'fr-fr': "Tranch'Griffe",
+			'de-de': "Klauenschlitzer",
+			'es-es': "Cuchillada Garra",
+			'pt-br': "Golpe de Garra",
+			'it-it': "Lacerartiglio",
+			'en-us': "Claw Slash"
 		},
 
 		damage: 50
@@ -38,21 +38,21 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			fr: "Éclair du Tonnerre",
-			de: "Donnernder Einschlag",
-			es: "Rayo Atronador",
-			pt: "Raio Estrondoso",
-			it: "Fulmine Tonante",
-			en: "Thunderous Bolt"
+			'fr-fr': "Éclair du Tonnerre",
+			'de-de': "Donnernder Einschlag",
+			'es-es': "Rayo Atronador",
+			'pt-br': "Raio Estrondoso",
+			'it-it': "Fulmine Tonante",
+			'en-us': "Thunderous Bolt"
 		},
 
 		effect: {
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			en: "During your next turn, this Pokémon can't attack."
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'en-us': "During your next turn, this Pokémon can't attack."
 		},
 
 		damage: 190

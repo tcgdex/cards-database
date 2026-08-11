@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "名探偵ピカチュウ",
+		'ja-jp': "名探偵ピカチュウ",
 		'zh-tw': "機器鶘",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "ウンチクを 語るのが 好き。 表情 豊かで おっさん みたいな ピカチュウ。",
+		'ja-jp': "ウンチクを 語るのが 好き。 表情 豊かで おっさん みたいな ピカチュウ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			name: { ja: "とぼとぼかえる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 		{

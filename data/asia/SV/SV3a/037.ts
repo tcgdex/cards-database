@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ズルッグ",
+		'ja-jp': "ズルッグ",
 		'zh-tw': "滑滑小子",
-		th: "ซึรุกกุ"
+		'th-th': "ซึรุกกุ"
 	},
 
 	illustrator: "sowsow",
@@ -18,9 +18,9 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "丈夫な 皮で 身を 守る。 皮が 伸びきるとき 進化を 迎えると いわれる。",
+		'ja-jp': "丈夫な 皮で 身を 守る。 皮が 伸びきるとき 進化を 迎えると いわれる。",
 		'zh-tw': "用結實的皮保護身體。據說在皮伸展到極限時， 牠就會開始進化。",
-		th: "มีหนังที่แข็งทนทานปกป้องร่างกาย ว่ากันว่าจะเข้าสู่การวิวัฒนาการเมื่อหนังนี้ยืดเต็มที่แล้ว"
+		'th-th': "มีหนังที่แข็งทนทานปกป้องร่างกาย ว่ากันว่าจะเข้าสู่การวิวัฒนาการเมื่อหนังนี้ยืดเต็มที่แล้ว"
 	},
 
 	stage: "Basic",
@@ -29,9 +29,9 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "けたぐり",
+			'ja-jp': "けたぐり",
 			'zh-tw': "踢倒",
-			th: "เตะเรียด"
+			'th-th': "เตะเรียด"
 		},
 
 		damage: 10
@@ -39,9 +39,9 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			ja: "ヘッドバット",
+			'ja-jp': "ヘッドバット",
 			'zh-tw': "頭撞",
-			th: "เฮดบัตต์"
+			'th-th': "เฮดบัตต์"
 		},
 
 		damage: 50

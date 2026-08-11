@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Slakoth",
-		fr: "Parecool",
-		de: "Bummelz"
+		'en-us': "Slakoth",
+		'fr-fr': "Parecool",
+		'de-de': "Bummelz"
 	},
 
 	illustrator: "Yuka Morii",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drowsy",
-				fr: "Ensommeillé",
-				de: "Schlaftrunken"
+				'en-us': "Drowsy",
+				'fr-fr': "Ensommeillé",
+				'de-de': "Schlaftrunken"
 			},
 			effect: {
-				en: "Both Slakoth and the Defending Pokémon are now Asleep.",
-				fr: "Parecool et le Pokémon Défenseur sont maintenant Endormis.",
-				de: "Bummelz und das Verteidigende Pokémon schlafen jetzt."
+				'en-us': "Both Slakoth and the Defending Pokémon are now Asleep.",
+				'fr-fr': "Parecool et le Pokémon Défenseur sont maintenant Endormis.",
+				'de-de': "Bummelz und das Verteidigende Pokémon schlafen jetzt."
 			},
 
 		},
@@ -54,8 +54,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It spends nearly all its time in a day sprawled out. Just seeing it makes one drowsy.",
-		fr: "Il passe le plus clair de son temps affalé. Rien qu'à le voir, on a envie de bâiller."
+		'en-us': "It spends nearly all its time in a day sprawled out. Just seeing it makes one drowsy.",
+		'fr-fr': "Il passe le plus clair de son temps affalé. Rien qu'à le voir, on a envie de bâiller."
 	},
 
 	thirdParty: {

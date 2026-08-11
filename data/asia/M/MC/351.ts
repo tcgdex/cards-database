@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハカドッグex",
+		'ja-jp': "ハカドッグex",
 	},
 
 	illustrator: "takuyoa",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数×20ダメージ追加。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数×20ダメージ追加。",
 			},
 		},
 	],
@@ -38,7 +38,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ボチ",
+		'ja-jp': "ボチ",
 	},
 
 	retreat: 3,

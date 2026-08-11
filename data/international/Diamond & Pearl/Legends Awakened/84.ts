@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Beldum",
-		fr: "Terhal",
-		de: "Tanhel"
+		'en-us': "Beldum",
+		'fr-fr': "Terhal",
+		'de-de': "Tanhel"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Allure",
-				fr: "Allure",
-				de: "Verlockung"
+				'en-us': "Allure",
+				'fr-fr': "Allure",
+				'de-de': "Verlockung"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -75,8 +75,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It converses with others by using magnetic pulses. In a swarm, they move in perfect unison.",
-		fr: "Il dialogue avec les siens par impulsions magnétiques. En bande, ils se déplacent à l'unisson."
+		'en-us': "It converses with others by using magnetic pulses. In a swarm, they move in perfect unison.",
+		'fr-fr': "Il dialogue avec les siens par impulsions magnétiques. En bande, ils se déplacent à l'unisson."
 	},
 
 	thirdParty: {

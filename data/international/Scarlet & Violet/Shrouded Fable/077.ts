@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Shrouded Fable"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Fraxure",
-		fr: "Incisache",
-		es: "Fraxure",
-		it: "Fraxure",
-		pt: "Fraxure",
-		de: "Sharfax"
+		'en-us': "Fraxure",
+		'fr-fr': "Incisache",
+		'es-es': "Fraxure",
+		'it-it': "Fraxure",
+		'pt-br': "Fraxure",
+		'de-de': "Sharfax"
 	},
 
 	rarity: "Illustration rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Dragon"],
 	evolveFrom: {
-		en: "Axew",
-		fr: "Coupenotte",
-		es: "Axew",
-		it: "Axew",
-		pt: "Axew",
-		de: "Milza"
+		'en-us': "Axew",
+		'fr-fr': "Coupenotte",
+		'es-es': "Axew",
+		'it-it': "Axew",
+		'pt-br': "Axew",
+		'de-de': "Milza"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Unnerve",
-			fr: "Tension",
-			es: "Nerviosismo",
-			it: "Agitazione",
-			pt: "Enervar",
-			de: "Anspannung"
+			'en-us': "Unnerve",
+			'fr-fr': "Tension",
+			'es-es': "Nerviosismo",
+			'it-it': "Agitazione",
+			'pt-br': "Enervar",
+			'de-de': "Anspannung"
 		},
 
 		effect: {
-			en: "Whenever your opponent plays an Item or Supporter card from their hand, prevent all effects of that card done to this Pokémon.",
-			fr: "Chaque fois que votre adversaire joue une carte Objet ou Supporter de sa main, évitez tous les effets de cette carte sur ce Pokémon.",
-			es: "Cada vez que tu rival juegue una carta de Objeto o de Partidario de su mano, se evitan todos los efectos de esa carta infligidos a este Pokémon.",
-			it: "Ogni volta che il tuo avversario gioca una carta Strumento o Aiuto che ha in mano, previeni tutti gli effetti di quella carta su questo Pokémon.",
-			pt: "Sempre que seu oponente jogar uma carta de Item ou de Apoiador da mão dele, previna todos os efeitos daquela carta causados a este Pokémon.",
-			de: "Verhindere jedes Mal, wenn dein Gegner 1 Item- oder Unterstützerkarte aus seiner Hand spielt, alle Effekte jener Karte, die diesem Pokémon zugefügt werden."
+			'en-us': "Whenever your opponent plays an Item or Supporter card from their hand, prevent all effects of that card done to this Pokémon.",
+			'fr-fr': "Chaque fois que votre adversaire joue une carte Objet ou Supporter de sa main, évitez tous les effets de cette carte sur ce Pokémon.",
+			'es-es': "Cada vez que tu rival juegue una carta de Objeto o de Partidario de su mano, se evitan todos los efectos de esa carta infligidos a este Pokémon.",
+			'it-it': "Ogni volta che il tuo avversario gioca una carta Strumento o Aiuto che ha in mano, previeni tutti gli effetti di quella carta su questo Pokémon.",
+			'pt-br': "Sempre que seu oponente jogar uma carta de Item ou de Apoiador da mão dele, previna todos os efeitos daquela carta causados a este Pokémon.",
+			'de-de': "Verhindere jedes Mal, wenn dein Gegner 1 Item- oder Unterstützerkarte aus seiner Hand spielt, alle Effekte jener Karte, die diesem Pokémon zugefügt werden."
 		}
 	}],
 
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Fighting", "Metal"],
 
 		name: {
-			en: "Dragon Pulse",
-			fr: "Draco-Choc",
-			es: "Pulso Dragón",
-			it: "Dragopulsar",
-			pt: "Pulso do Dragão",
-			de: "Drachenpuls"
+			'en-us': "Dragon Pulse",
+			'fr-fr': "Draco-Choc",
+			'es-es': "Pulso Dragón",
+			'it-it': "Dragopulsar",
+			'pt-br': "Pulso do Dragão",
+			'de-de': "Drachenpuls"
 		},
 
 		effect: {
-			en: "Discard the top card of your deck.",
-			fr: "Défaussez la carte du dessus de votre deck.",
-			es: "Descarta la primera carta de tu baraja.",
-			it: "Scarta la prima carta del tuo mazzo.",
-			pt: "Descarte a carta de cima do seu baralho.",
-			de: "Lege die oberste Karte deines Decks auf deinen Ablagestapel."
+			'en-us': "Discard the top card of your deck.",
+			'fr-fr': "Défaussez la carte du dessus de votre deck.",
+			'es-es': "Descarta la primera carta de tu baraja.",
+			'it-it': "Scarta la prima carta del tuo mazzo.",
+			'pt-br': "Descarte a carta de cima do seu baralho.",
+			'de-de': "Lege die oberste Karte deines Decks auf deinen Ablagestapel."
 		},
 
 		damage: 80

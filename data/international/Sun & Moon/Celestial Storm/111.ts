@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Wingull",
-		fr: "Goélise",
-		es: "Wingull",
-		it: "Wingull",
-		pt: "Wingull",
-		de: "Wingull"
+		'en-us': "Wingull",
+		'fr-fr': "Goélise",
+		'es-es': "Wingull",
+		'it-it': "Wingull",
+		'pt-br': "Wingull",
+		'de-de': "Wingull"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Glide",
-				fr: "Glissement",
-				es: "Planeo",
-				it: "Aliante",
-				pt: "Planeio",
-				de: "Gleiten"
+				'en-us': "Glide",
+				'fr-fr': "Glissement",
+				'es-es': "Planeo",
+				'it-it': "Aliante",
+				'pt-br': "Planeio",
+				'de-de': "Gleiten"
 			},
 
 			damage: 10,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Fishermen keep an eye out for Wingull in the sky, because wherever they're circling, the ocean is sure to be teeming with fish Pokémon.",
+		'en-us': "Fishermen keep an eye out for Wingull in the sky, because wherever they're circling, the ocean is sure to be teeming with fish Pokémon.",
 	},
 
 	thirdParty: {

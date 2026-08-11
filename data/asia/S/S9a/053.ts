@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "洗翠 大劍鬼VSTAR",
-		ja: "ヒスイ ダイケンキVSTAR"
+		'ja-jp': "ヒスイ ダイケンキVSTAR"
 	},
 
 	illustrator: "5ban Graphics",
@@ -30,27 +30,27 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "狠心利刃",
-			ja: "むじひなやいば"
+			'ja-jp': "むじひなやいば"
 		},
 
 		effect: {
 			'zh-tw': "若對手的戰鬥寶可夢身上放置有傷害指示物，則增加110點傷害。",
-			ja: "相手のバトルポケモンにダメカンがのっているなら、110ダメージ追加。"
+			'ja-jp': "相手のバトルポケモンにダメカンがのっているなら、110ダメージ追加。"
 		},
 
 		damage: "110＋",
 		cost: ["Darkness", "Darkness"]
 	}, {
 		name: {
-			ja: "特性"
+			'ja-jp': "特性"
 		}
 	}, {
 		name: {
-			ja: "ザンゲツスター"
+			'ja-jp': "ザンゲツスター"
 		},
 
 		effect: {
-			ja: "自分の番に使える。相手のポケモン1匹に、ダメカンを4個のせる。［対戦中、自分はVSTARパワーを1回しか使えない。］"
+			'ja-jp': "自分の番に使える。相手のポケモン1匹に、ダメカンを4個のせる。［対戦中、自分はVSTARパワーを1回しか使えない。］"
 		}
 	}],
 

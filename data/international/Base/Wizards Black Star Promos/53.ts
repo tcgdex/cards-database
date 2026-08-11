@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Suicune",
+		'en-us': "Suicune",
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -24,10 +24,10 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Pure Body",
+				'en-us': "Pure Body",
 			},
 			effect: {
-				en: "To attach a Water Energy card from your hand to Suicune, you must discard an Energy card attached to Suicune. (Attach the Water Energy, and then discard an Energy card from Suicune.)",
+				'en-us': "To attach a Water Energy card from your hand to Suicune, you must discard an Energy card attached to Suicune. (Attach the Water Energy, and then discard an Energy card from Suicune.)",
 			},
 		},
 	],
@@ -39,10 +39,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypno Wave",
+				'en-us': "Hypno Wave",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage and the Defending Pokémon is now Asleep.",
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage and the Defending Pokémon is now Asleep.",
 			},
 			damage: 30,
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Marill",
-		fr: "Marill",
-		es: "Marill",
-		it: "Marill",
-		pt: "Marill",
-		de: "Marill"
+		'en-us': "Marill",
+		'fr-fr': "Marill",
+		'es-es': "Marill",
+		'it-it': "Marill",
+		'pt-br': "Marill",
+		'de-de': "Marill"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Ball Roll",
-			fr: "Boulé-Roulade",
-			es: "Rodabola",
-			it: "Rotopalla",
-			pt: "Rolo Bola",
-			de: "Ballrolle"
+			'en-us': "Ball Roll",
+			'fr-fr': "Boulé-Roulade",
+			'es-es': "Rodabola",
+			'it-it': "Rotopalla",
+			'pt-br': "Rolo Bola",
+			'de-de': "Ballrolle"
 		},
 
 		effect: {
-			en: "Flip a coin until you get tails. This attack does 10 damage for each heads.",
-			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 10 dégâts pour chaque côté face.",
-			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 10 puntos de daño por cada cara.",
-			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 10 danni ogni volta che esce testa.",
-			pt: "Jogue uma moeda até sair coroa. Este ataque causa 10 pontos de dano para cada cara.",
-			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip a coin until you get tails. This attack does 10 damage for each heads.",
+			'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 10 dégâts pour chaque côté face.",
+			'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 10 puntos de daño por cada cara.",
+			'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 10 danni ogni volta che esce testa.",
+			'pt-br': "Jogue uma moeda até sair coroa. Este ataque causa 10 pontos de dano para cada cara.",
+			'de-de': "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "10×"
@@ -46,12 +46,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Magical Shot",
-			fr: "Coup Magique",
-			es: "Disparo Mágico",
-			it: "Magicolpo",
-			pt: "Tiro Mágico",
-			de: "Magischer Schuss"
+			'en-us': "Magical Shot",
+			'fr-fr': "Coup Magique",
+			'es-es': "Disparo Mágico",
+			'it-it': "Magicolpo",
+			'pt-br': "Tiro Mágico",
+			'de-de': "Magischer Schuss"
 		},
 
 		damage: 40
@@ -67,7 +67,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "The fur on its body naturally repels water. It can stay dry even when it plays in the water.",
+		'en-us': "The fur on its body naturally repels water. It can stay dry even when it plays in the water.",
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Sunflora"
+		'id-id': "Sunflora"
 	},
 
 	illustrator: "Ounishi",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Untuk mengubah cahaya matahari menjadi energi, Sunflora selalu menghadap ke arah matahari selama siang hari."
+		'id-id': "Untuk mengubah cahaya matahari menjadi energi, Sunflora selalu menghadap ke arah matahari selama siang hari."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Serangan Balik Pancaran Matahari"
+			'id-id': "Serangan Balik Pancaran Matahari"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan sejumlah 60 untuk tiap Energi {Api} yang dikenakan pada semua Pokémon lawan."
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 60 untuk tiap Energi {Api} yang dikenakan pada semua Pokémon lawan."
 		},
 
 		damage: "60×",
 		cost: ["Grass"]
 	}, {
 		name: {
-			id: "Mega Drain"
+			'id-id': "Mega Drain"
 		},
 
 		effect: {
-			id: "Pulihkan HP Pokémon ini sejumlah 30."
+			'id-id': "Pulihkan HP Pokémon ini sejumlah 30."
 		},
 
 		damage: 50,

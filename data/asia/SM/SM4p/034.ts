@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラベトベター",
+		'ja-jp': "アローラベトベター",
 	},
 
 	illustrator: "Naoki Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "結晶は 毒素の 塊。 ベトベターの 身体から 落ちると 死に至る 毒素が 漏れだすぞ。",
+		'ja-jp': "結晶は 毒素の 塊。 ベトベターの 身体から 落ちると 死に至る 毒素が 漏れだすぞ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "どくのいき" },
 			cost: [],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをどくにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをどくにする。",
 			},
 		},
 		{

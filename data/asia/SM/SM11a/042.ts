@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラベトベトン",
+		'ja-jp': "アローラベトベトン",
 	},
 
 	illustrator: "MAHOU",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "体内にある 毒の 種類は １００ 以上。 毒と 毒の 化学反応が 命の 源。",
+		'ja-jp': "体内にある 毒の 種類は １００ 以上。 毒と 毒の 化学反応が 命の 源。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくとやけどとこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをどくとやけどとこんらんにする。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アローラベトベター",
+		'ja-jp': "アローラベトベター",
 	},
 
 	retreat: 4,

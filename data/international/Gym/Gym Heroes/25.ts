@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Clefairy"
+		'en-us': "Erika's Clefairy"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cleffa"
+		'en-us': "Cleffa"
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Moonwatching"
+				'en-us': "Moonwatching"
 			},
 			effect: {
-				en: "Search your deck for a basic Energy card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
+				'en-us': "Search your deck for a basic Energy card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
 			},
 
 		},
@@ -44,10 +44,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Comet Slap"
+				'en-us': "Comet Slap"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10x",
 

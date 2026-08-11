@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カバルドン",
+		'ja-jp': "カバルドン",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "体内に ためた 砂を 体の 穴から 噴き上げて 巨大な 竜巻を 作り 攻撃する。",
+		'ja-jp': "体内に ためた 砂を 体の 穴から 噴き上げて 巨大な 竜巻を 作り 攻撃する。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Fighting", "Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンのにげるためのエネルギーの数x10ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンのにげるためのエネルギーの数x10ダメージ追加。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒポポタス",
+		'ja-jp': "ヒポポタス",
 	},
 
 	retreat: 4,

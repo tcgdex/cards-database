@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "チオンジェンex"
+		'ja-jp': "チオンジェンex"
 	},
 
 	illustrator: "takuyoa",
@@ -19,17 +19,17 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			ja: "むさぼるつた"
+			'ja-jp': "むさぼるつた"
 		},
 
 		effect: {
-			ja: "相手のベンチポケモン1匹に、相手がすでにとったサイドの枚数×60ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			'ja-jp': "相手のベンチポケモン1匹に、相手がすでにとったサイドの枚数×60ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
 		}
 	}, {
 		cost: ["Grass", "Grass", "Grass", "Colorless"],
 
 		name: {
-			ja: "フォレストバーン"
+			'ja-jp': "フォレストバーン"
 		},
 
 		damage: 220

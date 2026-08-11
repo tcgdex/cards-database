@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シュバルゴ",
+		'ja-jp': "シュバルゴ",
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "チョボマキから 奪った 殻で 体を 覆い ガードしながら ２本の ヤリで 突いてくる。",
+		'ja-jp': "チョボマキから 奪った 殻で 体を 覆い ガードしながら ２本の ヤリで 突いてくる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Metal"],
 			effect: {
-				ja: "相手のバトルポケモンにダメカンがのっていないなら、このワザは失敗。",
+				'ja-jp': "相手のバトルポケモンにダメカンがのっていないなら、このワザは失敗。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カブルモ",
+		'ja-jp': "カブルモ",
 	},
 
 	retreat: 3,

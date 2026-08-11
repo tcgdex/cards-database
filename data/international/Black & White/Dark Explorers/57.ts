@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Excadrill",
-		fr: "Minotaupe",
-		es: "Excadrill",
-		it: "Excadrill",
-		pt: "Excadrill",
-		de: "Stalobor"
+		'en-us': "Excadrill",
+		'fr-fr': "Minotaupe",
+		'es-es': "Excadrill",
+		'it-it': "Excadrill",
+		'pt-br': "Excadrill",
+		'de-de': "Stalobor"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Drilbur",
-		fr: "Rototaupe"
+		'en-us': "Drilbur",
+		'fr-fr': "Rototaupe"
 	},
 
 	stage: "Stage1",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reinforced Drill",
-				fr: "Perceuse Renforcée"
+				'en-us': "Reinforced Drill",
+				'fr-fr': "Perceuse Renforcée"
 			},
 			effect: {
-				en: "If this Pokémon has a Pokémon Tool card attached to it, this attack does 30 more damage.",
-				fr: "Si une carte Outil Pokémon est attachée à ce Pokémon, cette attaque inflige 30 dégâts supplémentaires."
+				'en-us': "If this Pokémon has a Pokémon Tool card attached to it, this attack does 30 more damage.",
+				'fr-fr': "Si une carte Outil Pokémon est attachée à ce Pokémon, cette attaque inflige 30 dégâts supplémentaires."
 			},
 			damage: 50,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mach Claw",
-				fr: "Instagriffe"
+				'en-us': "Mach Claw",
+				'fr-fr': "Instagriffe"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
 			},
 			damage: 70,
 
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It can help in tunnel construction. Its drill has evolved into steel strong enough to bore through iron plates.",
+		'en-us': "It can help in tunnel construction. Its drill has evolved into steel strong enough to bore through iron plates.",
 	},
 
 	thirdParty: {

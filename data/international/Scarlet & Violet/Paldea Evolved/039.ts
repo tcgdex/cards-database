@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Charbambin",
-		en: "Charcadet",
-		es: "Charcadet",
-		it: "Charcadet",
-		pt: "Charcadet",
-		de: "Knarbon"
+		'fr-fr': "Charbambin",
+		'en-us': "Charcadet",
+		'es-es': "Charcadet",
+		'it-it': "Charcadet",
+		'pt-br': "Charcadet",
+		'de-de': "Knarbon"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Charbon Mutant",
-			en: "Live Coal",
-			es: "Carbón Activado",
-			it: "Carboni Ardenti",
-			pt: "Carvão Vivo",
-			de: "Glühende Kohlen"
+			'fr-fr': "Charbon Mutant",
+			'en-us': "Live Coal",
+			'es-es': "Carbón Activado",
+			'it-it': "Carboni Ardenti",
+			'pt-br': "Carvão Vivo",
+			'de-de': "Glühende Kohlen"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Poing Magnum",
-			en: "Magnum Punch",
-			es: "Puño Mágnum",
-			it: "Superpugno",
-			pt: "Soco Magnum",
-			de: "Magnum-Schlag"
+			'fr-fr': "Poing Magnum",
+			'en-us': "Magnum Punch",
+			'es-es': "Puño Mágnum",
+			'it-it': "Superpugno",
+			'pt-br': "Soco Magnum",
+			'de-de': "Magnum-Schlag"
 		},
 
 		damage: 50
@@ -79,7 +79,7 @@ const card: Card = {
 	illustrator: "KEIICHIRO ITO",
 
 	description: {
-		en: "Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.",
+		'en-us': "Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.",
 	},
 }
 

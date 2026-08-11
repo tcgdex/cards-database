@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Luvdisc",
-		fr: "Lovdisc",
-		es: "Luvdisc",
-		it: "Luvdisc",
-		pt: "Luvdisc",
-		de: "Liebiskus"
+		'en-us': "Luvdisc",
+		'fr-fr': "Lovdisc",
+		'es-es': "Luvdisc",
+		'it-it': "Luvdisc",
+		'pt-br': "Luvdisc",
+		'de-de': "Liebiskus"
 	},
 
 	illustrator: "Sekio",
@@ -25,32 +25,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Matching Look",
-			fr: "Apparence Assortie",
-			es: "A la Par",
-			it: "Copia Look",
-			pt: "Visual Combinado",
-			de: "Partnerlook"
+			'en-us': "Matching Look",
+			'fr-fr': "Apparence Assortie",
+			'es-es': "A la Par",
+			'it-it': "Copia Look",
+			'pt-br': "Visual Combinado",
+			'de-de': "Partnerlook"
 		},
 
 		effect: {
-			en: "Each player reveals the top 2 cards of their deck, then draws those cards.",
-			fr: "Chaque joueur montre les 2 cartes du dessus de son deck, puis pioche ces cartes.",
-			es: "Cada jugador enseña las 2 primeras cartas de su baraja y luego roba esas cartas.",
-			it: "Ciascun giocatore mostra le prime due carte del proprio mazzo, quindi pesca quelle carte.",
-			pt: "Cada jogador revela as 2 cartas de cima do próprio baralho e, em seguida, compra aquelas cartas.",
-			de: "Jeder Spieler zeigt die obersten 2 Karten seines Decks und zieht anschließend jene Karten."
+			'en-us': "Each player reveals the top 2 cards of their deck, then draws those cards.",
+			'fr-fr': "Chaque joueur montre les 2 cartes du dessus de son deck, puis pioche ces cartes.",
+			'es-es': "Cada jugador enseña las 2 primeras cartas de su baraja y luego roba esas cartas.",
+			'it-it': "Ciascun giocatore mostra le prime due carte del proprio mazzo, quindi pesca quelle carte.",
+			'pt-br': "Cada jogador revela as 2 cartas de cima do próprio baralho e, em seguida, compra aquelas cartas.",
+			'de-de': "Jeder Spieler zeigt die obersten 2 Karten seines Decks und zieht anschließend jene Karten."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 30

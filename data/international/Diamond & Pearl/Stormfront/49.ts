@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Scyther",
-		fr: "Insécateur",
-		de: "Sichlor"
+		'en-us': "Scyther",
+		'fr-fr': "Insécateur",
+		'de-de': "Sichlor"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		fr: "Insécateur",
+		'fr-fr': "Insécateur",
 	},
 
 	stage: "Basic",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swords Dance",
-				fr: "Danse-lames",
-				de: "Schwerttanz"
+				'en-us': "Swords Dance",
+				'fr-fr': "Danse-lames",
+				'de-de': "Schwerttanz"
 			},
 			effect: {
-				en: "During your next turn, Scyther's Slashing Strike attack's base damage is 60.",
-				fr: "Lors de votre prochain tour, les dégâts de base de l'attaque Coup déchirant d'Insécateur sont de 60.",
-				de: "In deinem nächsten Zug beträgt der Grundschaden von Sichlors Angriff Schlitzender Schlag 60 Schadenspunkte."
+				'en-us': "During your next turn, Scyther's Slashing Strike attack's base damage is 60.",
+				'fr-fr': "Lors de votre prochain tour, les dégâts de base de l'attaque Coup déchirant d'Insécateur sont de 60.",
+				'de-de': "In deinem nächsten Zug beträgt der Grundschaden von Sichlors Angriff Schlitzender Schlag 60 Schadenspunkte."
 			},
 
 		},
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slashing Strike",
-				fr: "Coup déchirant",
-				de: "Schlitzender Schlag"
+				'en-us': "Slashing Strike",
+				'fr-fr': "Coup déchirant",
+				'de-de': "Schlitzender Schlag"
 			},
 			effect: {
-				en: "During your next turn, Scyther can't use Slashing Strike.",
-				fr: "Lors de votre prochain tour, Insécateur ne peut pas utiliser Coup déchirant.",
-				de: "Sichlor kann Schlitzender Schlag in deinem nächsten Zug nicht einsetzen."
+				'en-us': "During your next turn, Scyther can't use Slashing Strike.",
+				'fr-fr': "Lors de votre prochain tour, Insécateur ne peut pas utiliser Coup déchirant.",
+				'de-de': "Sichlor kann Schlitzender Schlag in deinem nächsten Zug nicht einsetzen."
 			},
 			damage: 30,
 
@@ -81,8 +81,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It is nearly impossible to parry its attacking scythes. Its movements are like a ninja's.",
-		fr: "Ses coups de faux sont pratiquement imparables. Il se déplace comme un ninja."
+		'en-us': "It is nearly impossible to parry its attacking scythes. Its movements are like a ninja's.",
+		'fr-fr': "Ses coups de faux sont pratiquement imparables. Il se déplace comme un ninja."
 	},
 
 	thirdParty: {

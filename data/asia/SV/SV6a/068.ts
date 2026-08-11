@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨマワル",
+		'ja-jp': "ヨマワル",
 	},
 
 	illustrator: "James Turner",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "真っ赤な ひとつ目で 睨みつけられ 生体エネルギーを 吸われるとき ひどい 寒気に 襲われる。",
+		'ja-jp': "真っ赤な ひとつ目で 睨みつけられ 生体エネルギーを 吸われるとき ひどい 寒気に 襲われる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "むかえにいく" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分のトラッシュから「ヨマワル」を3枚まで選び、ベンチに出す。",
+				'ja-jp': "自分のトラッシュから「ヨマワル」を3枚まで選び、ベンチに出す。",
 			},
 		},
 		{

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Minccino",
-		fr: "Chinchidou",
-		es: "Minccino",
-		it: "Minccino",
-		pt: "Minccino",
-		de: "Picochilla"
+		'en-us': "Minccino",
+		'fr-fr': "Chinchidou",
+		'es-es': "Minccino",
+		'it-it': "Minccino",
+		'pt-br': "Minccino",
+		'de-de': "Picochilla"
 	},
 
 	illustrator: "Mizue",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Smack",
-				fr: "Coup de Queue",
-				es: "Bofetón Cola",
-				it: "Codasberla",
-				pt: "Ataque de Cauda",
-				de: "Schweifstreich"
+				'en-us': "Tail Smack",
+				'fr-fr': "Coup de Queue",
+				'es-es': "Bofetón Cola",
+				'it-it': "Codasberla",
+				'pt-br': "Ataque de Cauda",
+				'de-de': "Schweifstreich"
 			},
 
 			damage: 20,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "These Pokémon prefer a tidy habitat. They are always sweeping and dusting, using their tails as brooms.",
+		'en-us': "These Pokémon prefer a tidy habitat. They are always sweeping and dusting, using their tails as brooms.",
 	},
 
 	thirdParty: {

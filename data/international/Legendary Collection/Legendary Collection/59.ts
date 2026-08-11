@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Primeape"
+		'en-us': "Primeape"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mankey"
+		'en-us': "Mankey"
 	},
 
 	stage: "Stage1",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Fury Swipes"
+				'en-us': "Fury Swipes"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 20 damage times the number of heads."
+				'en-us': "Flip 3 coins. This attack does 20 damage times the number of heads."
 			},
 			damage: "20×",
 
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tantrum"
+				'en-us': "Tantrum"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Primeape is now Confused (after doing damage)."
+				'en-us': "Flip a coin. If tails, Primeape is now Confused (after doing damage)."
 			},
 			damage: 50,
 
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Always furious and tenacious to boot. It will not abandon chasing its quarry until its quarry is caught."
+		'en-us': "Always furious and tenacious to boot. It will not abandon chasing its quarry until its quarry is caught."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Dark Electrode",
-		de: "Dunkles Lektrobal"
+		'en-us': "Dark Electrode",
+		'de-de': "Dunkles Lektrobal"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Voltorb",
+		'en-us': "Voltorb",
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Darkness Navigation",
-				de: "Darkness Navigation"
+				'en-us': "Darkness Navigation",
+				'de-de': "Darkness Navigation"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Dark Electrode has no Energy attached to it, you may search your deck for a Darkness or Dark Metal Energy and attach it to Dark Electrode. Shuffle your deck afterward. This power can't be used if Dark Electrode is affected by a Special Condition.",
-				de: "Once during your turn (before you attack), if Dark Electrode has no Energy attached to it, you may search your deck for a  or Dark Metal Energy and attach it to Dark Electrode. Shuffle your deck afterward. This power can't be used if Dark Electrode is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), if Dark Electrode has no Energy attached to it, you may search your deck for a Darkness or Dark Metal Energy and attach it to Dark Electrode. Shuffle your deck afterward. This power can't be used if Dark Electrode is affected by a Special Condition.",
+				'de-de': "Once during your turn (before you attack), if Dark Electrode has no Energy attached to it, you may search your deck for a  or Dark Metal Energy and attach it to Dark Electrode. Shuffle your deck afterward. This power can't be used if Dark Electrode is affected by a Special Condition."
 			},
 		},
 	],
@@ -49,12 +49,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Energy Bomb",
-				de: "Energy Bomb"
+				'en-us': "Energy Bomb",
+				'de-de': "Energy Bomb"
 			},
 			effect: {
-				en: "You may move all Energy cards attached to Dark Electrode to your Benched Pokémon in any way you like.",
-				de: "You may move all Energy cards attached to Dark Electrode to your Benched Pokémon in any way you like."
+				'en-us': "You may move all Energy cards attached to Dark Electrode to your Benched Pokémon in any way you like.",
+				'de-de': "You may move all Energy cards attached to Dark Electrode to your Benched Pokémon in any way you like."
 			},
 			damage: 30,
 

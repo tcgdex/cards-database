@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sandaconda V",
-		fr: "Dunaconda V",
-		es: "Sandaconda V",
-		it: "Sandaconda V",
-		pt: "Sandaconda V",
-		de: "Sanaconda V"
+		'en-us': "Sandaconda V",
+		'fr-fr': "Dunaconda V",
+		'es-es': "Sandaconda V",
+		'it-it': "Sandaconda V",
+		'pt-br': "Sandaconda V",
+		'de-de': "Sanaconda V"
 	},
 
 	rarity: "Ultra Rare",
@@ -34,21 +34,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Wall of Sand",
-			fr: "Muraille de Sable",
-			de: "Sandfeste",
-			es: "Muro de Arena",
-			pt: "Muralha de Areia",
-			it: "Murosabbia"
+			'en-us': "Wall of Sand",
+			'fr-fr': "Muraille de Sable",
+			'de-de': "Sandfeste",
+			'es-es': "Muro de Arena",
+			'pt-br': "Muralha de Areia",
+			'it-it': "Murosabbia"
 		},
 
 		effect: {
-			en: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
-			fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			de: "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
-			es: "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-			pt: "Este Pokémon recebe 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
-			it: "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza."
+			'en-us': "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+			'fr-fr': "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			'de-de': "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
+			'es-es': "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			'pt-br': "Este Pokémon recebe 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
+			'it-it': "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza."
 		}
 	}],
 
@@ -56,12 +56,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Land Crush",
-			fr: "Écras'Terre",
-			de: "Schollenbrecher",
-			es: "Aterrizaje",
-			pt: "Aperto de Terra",
-			it: "Schiacciaterra"
+			'en-us': "Land Crush",
+			'fr-fr': "Écras'Terre",
+			'de-de': "Schollenbrecher",
+			'es-es': "Aterrizaje",
+			'pt-br': "Aperto de Terra",
+			'it-it': "Schiacciaterra"
 		},
 
 		damage: 140

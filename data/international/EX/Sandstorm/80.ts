@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Slakoth",
-		fr: "Parecool",
-		de: "Bummelz"
+		'en-us': "Slakoth",
+		'fr-fr': "Parecool",
+		'de-de': "Bummelz"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lazy Punch",
-				fr: "Ramollo-poing",
-				de: "Müder Schlag"
+				'en-us': "Lazy Punch",
+				'fr-fr': "Ramollo-poing",
+				'de-de': "Müder Schlag"
 			},
 			effect: {
-				en: "Slakoth can't attack during your next turn.",
-				fr: "Parecool ne peut pas attaquer lors de votre prochain tour.",
-				de: "Bummelz kann in deinem nächsten Zug nicht angreifen."
+				'en-us': "Slakoth can't attack during your next turn.",
+				'fr-fr': "Parecool ne peut pas attaquer lors de votre prochain tour.",
+				'de-de': "Bummelz kann in deinem nächsten Zug nicht angreifen."
 			},
 			damage: 10,
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Quartermac",
-		en: "Passimian",
-		es: "Passimian",
-		it: "Passimian",
-		pt: "Passimian",
-		de: "Quartermak"
+		'fr-fr': "Quartermac",
+		'en-us': "Passimian",
+		'es-es': "Passimian",
+		'it-it': "Passimian",
+		'pt-br': "Passimian",
+		'de-de': "Quartermak"
 	},
 
 	rarity: "Uncommon",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			fr: "Passe Décisive",
-			en: "Make the Assist",
-			es: "Prestar Ayuda",
-			it: "Fare un Assist",
-			pt: "Dar Assistência",
-			de: "Zuspielen"
+			'fr-fr': "Passe Décisive",
+			'en-us': "Make the Assist",
+			'es-es': "Prestar Ayuda",
+			'it-it': "Fare un Assist",
+			'pt-br': "Dar Assistência",
+			'de-de': "Zuspielen"
 		},
 
 		effect: {
-			fr: "Déplacez une Énergie de ce Pokémon vers l'un de vos Pokémon de Banc.",
-			en: "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
-			es: "Mueve 1 Energía de este Pokémon a uno de tus Pokémon en Banca.",
-			it: "Sposta un'Energia da questo Pokémon a uno di quelli nella tua panchina.",
-			pt: "Mova uma Energia deste Pokémon para 1 dos seus Pokémon no Banco.",
-			de: "Verschiebe 1 Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
+			'fr-fr': "Déplacez une Énergie de ce Pokémon vers l'un de vos Pokémon de Banc.",
+			'en-us': "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
+			'es-es': "Mueve 1 Energía de este Pokémon a uno de tus Pokémon en Banca.",
+			'it-it': "Sposta un'Energia da questo Pokémon a uno di quelli nella tua panchina.",
+			'pt-br': "Mova uma Energia deste Pokémon para 1 dos seus Pokémon no Banco.",
+			'de-de': "Verschiebe 1 Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
 		},
 
 		damage: 70
@@ -75,7 +75,7 @@ const card: Card = {
 	illustrator: "Jerky",
 
 	description: {
-		en: "This Pokémon battles by throwing hard berries. It won't obey a Trainer who throws Poké Balls without skill.",
+		'en-us': "This Pokémon battles by throwing hard berries. It won't obey a Trainer who throws Poké Balls without skill.",
 	},
 }
 

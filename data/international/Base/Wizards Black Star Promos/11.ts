@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Eevee",
+		'en-us': "Eevee",
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -24,10 +24,10 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Chain Reaction",
+				'en-us': "Chain Reaction",
 			},
 			effect: {
-				en: "This power can only be used when a Pokémon evolves. Search your deck for a card that evolves from Eevee and attach it to Eevee. This counts as evolving Eevee. Shuffle your deck afterward. This power can't be used if Eevee is Asleep, Confused, or Paralyzed.",
+				'en-us': "This power can only be used when a Pokémon evolves. Search your deck for a card that evolves from Eevee and attach it to Eevee. This counts as evolving Eevee. Shuffle your deck afterward. This power can't be used if Eevee is Asleep, Confused, or Paralyzed.",
 			},
 		},
 	],
@@ -37,7 +37,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
+				'en-us': "Bite",
 			},
 
 			damage: 20,
@@ -58,7 +58,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Its genetic code is irregular. It may mutate if it is exposed to radiation from elemental stones.",
+		'en-us': "Its genetic code is irregular. It may mutate if it is exposed to radiation from elemental stones.",
 	},
 
 	variants: [

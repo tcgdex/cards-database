@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Metang δ",
-		fr: "Metang δ",
-		de: "Metang"
+		'en-us': "Metang δ",
+		'fr-fr': "Metang δ",
+		'de-de': "Metang"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Beldum",
-		fr: "Terhal"
+		'en-us': "Beldum",
+		'fr-fr': "Terhal"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharp Claws",
-				fr: "Griffes affûtées",
-				de: "Sharp Claws"
+				'en-us': "Sharp Claws",
+				'fr-fr': "Griffes affûtées",
+				'de-de': "Sharp Claws"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
 			},
 			damage: "20+",
 
@@ -56,9 +56,9 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Magnetic Blast",
-				fr: "Explosion magnétique",
-				de: "Magnetic Blast"
+				'en-us': "Magnetic Blast",
+				'fr-fr': "Explosion magnétique",
+				'de-de': "Magnetic Blast"
 			},
 
 			damage: 50,

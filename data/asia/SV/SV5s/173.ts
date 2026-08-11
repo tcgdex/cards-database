@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Iron Crown ex"
+		'id-id': "Iron Crown ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Cobalt Command"
+			'id-id': "Cobalt Command"
 		},
 
 		effect: {
-			id: "Selama Pokémon ini ada di Arena, kerusakan akibat serangan yang digunakan oleh Pokémon Futur sendiri (selain Iron Crown {ex}) kepada Pokémon Bertarung lawan bertambah sejumlah 20."
+			'id-id': "Selama Pokémon ini ada di Arena, kerusakan akibat serangan yang digunakan oleh Pokémon Futur sendiri (selain Iron Crown {ex}) kepada Pokémon Bertarung lawan bertambah sejumlah 20."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Twin Shotel"
+			'id-id': "Twin Shotel"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan masing-masing sejumlah 50 kepada 2 Pokémon lawan. Kerusakan akibat serangan ini tidak terpengaruh oleh Kelemahan, Resistansi, dan efek yang sedang dialami Pokémon yang menerima kerusakan."
+			'id-id': "Serangan ini memberikan kerusakan masing-masing sejumlah 50 kepada 2 Pokémon lawan. Kerusakan akibat serangan ini tidak terpengaruh oleh Kelemahan, Resistansi, dan efek yang sedang dialami Pokémon yang menerima kerusakan."
 		},
 
 		cost: ["Psychic", "Colorless", "Colorless"]

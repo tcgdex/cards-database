@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Hippowdon",
-		fr: "Hippodocus",
-		es: "Hippowdon",
-		it: "Hippowdon",
-		pt: "Hippowdon",
-		de: "Hippoterus"
+		'en-us': "Hippowdon",
+		'fr-fr': "Hippodocus",
+		'es-es': "Hippowdon",
+		'it-it': "Hippowdon",
+		'pt-br': "Hippowdon",
+		'de-de': "Hippoterus"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Hippopotas",
-		fr: "Hippopotas",
-		es: "Hippopotas",
-		it: "Hippopotas",
-		pt: "Hippopotas",
-		de: "Hippopotas"
+		'en-us': "Hippopotas",
+		'fr-fr': "Hippopotas",
+		'es-es': "Hippopotas",
+		'it-it': "Hippopotas",
+		'pt-br': "Hippopotas",
+		'de-de': "Hippopotas"
 	},
 
 	stage: "Stage1",
@@ -45,20 +45,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Resistance Desert",
-				fr: "Résistance Désertique",
-				es: "Resistencia Desierto",
-				it: "Silicoscudo",
-				pt: "Deserto de Resistência",
-				de: "Wüste des Widerstands"
+				'en-us': "Resistance Desert",
+				'fr-fr': "Résistance Désertique",
+				'es-es': "Resistencia Desierto",
+				'it-it': "Silicoscudo",
+				'pt-br': "Deserto de Resistência",
+				'de-de': "Wüste des Widerstands"
 			},
 			effect: {
-				en: "During your opponent's next turn, prevent all effects of attacks, including damage, done to this Pokémon by Pokémon-EX.",
-				fr: "Pendant le prochain tour de votre adversaire, évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon par des Pokémon-EX.",
-				es: "Durante el próximo turno de tu rival, evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon por Pokémon-EX.",
-				it: "Durante il prossimo turno del tuo avversario, previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon da Pokémon-EX.",
-				pt: "Durante a próxima vez de jogar do seu oponente, impedirá todos os efeitos dos ataques, inclusive danos, feitos a este Pokémon por Pokémon-EX.",
-				de: "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon durch Pokémon-EX während des nächsten Zuges deines Gegners zugefügt werden."
+				'en-us': "During your opponent's next turn, prevent all effects of attacks, including damage, done to this Pokémon by Pokémon-EX.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon par des Pokémon-EX.",
+				'es-es': "Durante el próximo turno de tu rival, evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon por Pokémon-EX.",
+				'it-it': "Durante il prossimo turno del tuo avversario, previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon da Pokémon-EX.",
+				'pt-br': "Durante a próxima vez de jogar do seu oponente, impedirá todos os efeitos dos ataques, inclusive danos, feitos a este Pokémon por Pokémon-EX.",
+				'de-de': "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon durch Pokémon-EX während des nächsten Zuges deines Gegners zugefügt werden."
 			},
 			damage: 60,
 
@@ -71,20 +71,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-Edge",
-				fr: "Damoclès",
-				es: "Doble Filo",
-				it: "Sdoppiatore",
-				pt: "Faca de Dois Gumes",
-				de: "Risikotackle"
+				'en-us': "Double-Edge",
+				'fr-fr': "Damoclès",
+				'es-es': "Doble Filo",
+				'it-it': "Sdoppiatore",
+				'pt-br': "Faca de Dois Gumes",
+				'de-de': "Risikotackle"
 			},
 			effect: {
-				en: "This Pokémon does 20 damage to itself.",
-				fr: "Ce Pokémon s'inflige 20 dégâts.",
-				es: "Este Pokémon se hace 20 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 20 danni a se stesso.",
-				pt: "Esse Pokémon causa 20 de danos a ele mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 20 Schadenspunkte zu."
+				'en-us': "This Pokémon does 20 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 20 dégâts.",
+				'es-es': "Este Pokémon se hace 20 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 20 danni a se stesso.",
+				'pt-br': "Esse Pokémon causa 20 de danos a ele mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 100,
 
@@ -101,7 +101,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It blasts internally stored sand from ports on its body to create a towering twister for attack.",
+		'en-us': "It blasts internally stored sand from ports on its body to create a towering twister for attack.",
 	},
 
 	thirdParty: {

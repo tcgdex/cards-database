@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドータクン",
+		'ja-jp': "ドータクン",
 		'zh-tw': "青銅鐘",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "鐘の音の如き 声色にて 鳴けば 異界へと 通じる 穴 開くと 言われ 古来より 神として 奉られたり。",
+		'ja-jp': "鐘の音の如き 声色にて 鳴けば 異界へと 通じる 穴 開くと 言われ 古来より 神として 奉られたり。",
 		'zh-tw': "據說當牠發出鐘聲般的音色時，通往異界的洞穴便會開啟。 自古就被視為神而受到供奉。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶつかる",
+				'ja-jp': "ぶつかる",
 				'zh-tw': "衝撞",
 			},
 			damage: 30,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "じゅうりょくおとし",
+				'ja-jp': "じゅうりょくおとし",
 				'zh-tw': "重力墜擊",
 			},
 			damage: "40+",
 			cost: ["Metal", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンのにげるためのエネルギーの数×40ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンのにげるためのエネルギーの数×40ダメージ追加。",
 				'zh-tw': "增加對手的戰鬥寶可夢【撤退】所需的能量的數量×40點傷害。",
 			},
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ドーミラー",
+		'ja-jp': "ドーミラー",
 	},
 
 	retreat: 3,

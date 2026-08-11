@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジジーロン",
+		'ja-jp': "ジジーロン",
 	},
 
 	illustrator: "Scav",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "心優しい 性質。 だが 一度 怒りに かられると 激しい 息吹で あたりを 破壊 し尽くす。",
+		'ja-jp': "心優しい 性質。 だが 一度 怒りに かられると 激しい 息吹で あたりを 破壊 し尽くす。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「ドラゴンストライク」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「ドラゴンストライク」が使えない。",
 			},
 		},
 	],

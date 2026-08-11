@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エイパム",
+		'ja-jp': "エイパム",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "シッポで いろんなことを していたら 手先は 不器用に なってしまった。 高い 木の上に 巣を 作る。",
+		'ja-jp': "シッポで いろんなことを していたら 手先は 不器用に なってしまった。 高い 木の上に 巣を 作る。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ちょろちょろテール" },
 			effect: {
-				ja: "自分の番に1回使える。相手の山札を上から1枚、オモテを見ないで、相手の山札の下にもどす。",
+				'ja-jp': "自分の番に1回使える。相手の山札を上から1枚、オモテを見ないで、相手の山札の下にもどす。",
 			},
 		},
 	],

@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sun & Moon'
 
 const sm35: Set = {
 	id: "sm3.5",
 
 	name: {
-		en: "Shining Legends",
-		fr: "Légendes Brillantes",
-		es: "Leyendas Luminosas",
-		it: "Leggende Iridescenti",
-		de: "Schimmernde Legenden",
-		pt: "Lendas Luminescentes"
+		'en-us': "Shining Legends",
+		'fr-fr': "Légendes Brillantes",
+		'es-es': "Leyendas Luminosas",
+		'it-it': "Leggende Iridescenti",
+		'de-de': "Schimmernde Legenden",
+		'pt-br': "Lendas Luminescentes"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const sm35: Set = {
 
 	abbreviations: {
 		official: "SLG",
-		fr: "LBR"
+		'fr-fr': "LBR"
 	},
 
 	thirdParty: {

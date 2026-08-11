@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Metang",
-		fr: "Metang",
-		de: "Metang"
+		'en-us': "Metang",
+		'fr-fr': "Metang",
+		'de-de': "Metang"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Beldum",
-		fr: "Terhal"
+		'en-us': "Beldum",
+		'fr-fr': "Terhal"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic Boom",
-				fr: "Psycho-boom",
-				de: "Psychic Boom"
+				'en-us': "Psychic Boom",
+				'fr-fr': "Psycho-boom",
+				'de-de': "Psychic Boom"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
-				de: "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
+				'en-us': "Does 10 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
+				'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
 			},
 			damage: "10+",
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Blow",
-				fr: "Coup d'poing éclair",
-				de: "Quick Blow"
+				'en-us': "Quick Blow",
+				'fr-fr': "Coup d'poing éclair",
+				'de-de': "Quick Blow"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 40 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 40 damage plus 20 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 40 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Flip a coin. If heads, this attack does 40 damage plus 20 more damage."
 			},
 			damage: "40+",
 

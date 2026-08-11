@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Sigilyph",
+		'en-us': "Sigilyph",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -27,10 +27,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Safeguard",
+				'en-us': "Safeguard",
 			},
 			effect: {
-				en: "Prevent all effects of attacks, including damage, done to this Pokémon by Pokémon-EX.",
+				'en-us': "Prevent all effects of attacks, including damage, done to this Pokémon by Pokémon-EX.",
 			},
 		},
 	],
@@ -43,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic",
+				'en-us': "Psychic",
 			},
 			effect: {
-				en: "Does 10 more damage for each Energy attached to the Defending Pokémon.",
+				'en-us': "Does 10 more damage for each Energy attached to the Defending Pokémon.",
 			},
 			damage: 50,
 
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The guardians of an ancient city, they use their psychic power to attack enemies that invade their territory.",
+		'en-us': "The guardians of an ancient city, they use their psychic power to attack enemies that invade their territory.",
 	},
 
 	thirdParty: {

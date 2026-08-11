@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Scrafty",
-		fr: "Baggaïd",
-		es: "Scrafty",
-		it: "Scrafty",
-		pt: "Scrafty",
-		de: "Irokex"
+		'en-us': "Scrafty",
+		'fr-fr': "Baggaïd",
+		'es-es': "Scrafty",
+		'it-it': "Scrafty",
+		'pt-br': "Scrafty",
+		'de-de': "Irokex"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Scraggy",
-		fr: "Baggiguane",
+		'en-us': "Scraggy",
+		'fr-fr': "Baggiguane",
 	},
 
 	stage: "Stage1",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dangerous Head",
-				fr: "Tête Dangereuse",
-				es: "Cabeza Peligrosa",
-				it: "Rischio Testata",
-				pt: "Cabeça Perigosa",
-				de: "Gefährlicher Kopf"
+				'en-us': "Dangerous Head",
+				'fr-fr': "Tête Dangereuse",
+				'es-es': "Cabeza Peligrosa",
+				'it-it': "Rischio Testata",
+				'pt-br': "Cabeça Perigosa",
+				'de-de': "Gefährlicher Kopf"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is a Basic Pokémon, this attack does 50 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon de base, cette attaque inflige 50 dégâts supplémentaires.",
-				es: "Si el Pokémon Activo de tu rival es un Pokémon Básico, este ataque hace 50 puntos de daño más.",
-				it: "Se il Pokémon attivo del tuo avversario è un Pokémon Base, questo attacco infligge 50 danni in più.",
-				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Básico, este ataque causará 50 pontos de dano a mais.",
-				de: "Wenn das Aktive Pokémon deines Gegners ein Basis-Pokémon ist, fügt diese Attacke 50 Schadenspunkte mehr zu."
+				'en-us': "If your opponent’s Active Pokémon is a Basic Pokémon, this attack does 50 more damage.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon de base, cette attaque inflige 50 dégâts supplémentaires.",
+				'es-es': "Si el Pokémon Activo de tu rival es un Pokémon Básico, este ataque hace 50 puntos de daño más.",
+				'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon Base, questo attacco infligge 50 danni in più.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon Básico, este ataque causará 50 pontos de dano a mais.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners ein Basis-Pokémon ist, fügt diese Attacke 50 Schadenspunkte mehr zu."
 			},
 			damage: "20+",
 
@@ -65,12 +65,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer In",
-				fr: "Enfoncement",
-				es: "Martillear",
-				it: "Martello",
-				pt: "Martelada",
-				de: "Einhämmern"
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncement",
+				'es-es': "Martillear",
+				'it-it': "Martello",
+				'pt-br': "Martelada",
+				'de-de': "Einhämmern"
 			},
 
 			damage: 90,
@@ -95,7 +95,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It pulls up its shed skin to protect itself while it kicks. The bigger the crest, the more respected it is.",
+		'en-us': "It pulls up its shed skin to protect itself while it kicks. The bigger the crest, the more respected it is.",
 	},
 
 	thirdParty: {

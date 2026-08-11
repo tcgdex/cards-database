@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Ymphect",
-		en: "Pupitar",
-		es: "Pupitar",
-		it: "Pupitar",
-		pt: "Pupitar",
-		de: "Pupitar"
+		'fr-fr': "Ymphect",
+		'en-us': "Pupitar",
+		'es-es': "Pupitar",
+		'it-it': "Pupitar",
+		'pt-br': "Pupitar",
+		'de-de': "Pupitar"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Fighting"],
 	evolveFrom: {
-		fr: "Embrylex",
-		en: "Larvitar",
-		es: "Larvitar",
-		it: "Larvitar",
-		pt: "Larvitar",
-		de: "Larvitar"
+		'fr-fr': "Embrylex",
+		'en-us': "Larvitar",
+		'es-es': "Larvitar",
+		'it-it': "Larvitar",
+		'pt-br': "Larvitar",
+		'de-de': "Larvitar"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Culbute Surprise",
-			en: "Headbutt Bounce",
-			es: "Bote Cabezazo",
-			it: "Rimbalzo Bottintesta",
-			pt: "Cabeçada Ricochete",
-			de: "Abrupter Kopfstoß"
+			'fr-fr': "Culbute Surprise",
+			'en-us': "Headbutt Bounce",
+			'es-es': "Bote Cabezazo",
+			'it-it': "Rimbalzo Bottintesta",
+			'pt-br': "Cabeçada Ricochete",
+			'de-de': "Abrupter Kopfstoß"
 		},
 
 		damage: 50
@@ -81,7 +81,7 @@ const card: Card = {
 	illustrator: "Shigenori Negishi",
 
 	description: {
-		en: "This pupa flies around wildly by venting with great force the gas pressurized inside its body.",
+		'en-us': "This pupa flies around wildly by venting with great force the gas pressurized inside its body.",
 	},
 }
 

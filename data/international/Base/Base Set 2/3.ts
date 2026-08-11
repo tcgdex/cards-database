@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Chansey",
+		'en-us': "Chansey",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scrunch",
+				'en-us': "Scrunch",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Chansey during your opponent's next turn. (Any other effects of attacks still happen.)",
+				'en-us': "Flip a coin. If heads, prevent all damage done to Chansey during your opponent's next turn. (Any other effects of attacks still happen.)",
 			},
 
 		},
@@ -45,10 +45,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-edge",
+				'en-us': "Double-edge",
 			},
 			effect: {
-				en: "Chansey does 80 damage to itself.",
+				'en-us': "Chansey does 80 damage to itself.",
 			},
 			damage: 80,
 
@@ -72,7 +72,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A rare and elusive Pokémon that is said to bring happiness to those who manage to catch it.",
+		'en-us': "A rare and elusive Pokémon that is said to bring happiness to those who manage to catch it.",
 	},
 
 

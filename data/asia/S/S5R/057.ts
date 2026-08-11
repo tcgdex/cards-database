@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S5R"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "魅力喵",
-		th: "เนียรุมา"
+		'th-th': "เนียรุมา"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "魅力喵心情好的時候，會用尾巴展現像韻律體操的彩帶般的美麗動作。",
-		th: "เนียรุมาที่อารมณ์ดีจะใช้หางเคลื่อนไหวอย่างงดงามเหมือนกับริบบิ้นในกีฬายิมนาสติก"
+		'th-th': "เนียรุมาที่อารมณ์ดีจะใช้หางเคลื่อนไหวอย่างงดงามเหมือนกับริบบิ้นในกีฬายิมนาสติก"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "喵踢",
-			th: "ลูกเตะแมวเหมียว"
+			'th-th': "ลูกเตะแมวเหมียว"
 		},
 
 		damage: 10,
@@ -32,7 +32,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "利爪劈擊",
-			th: "กรงเล็บฉีกร่าง"
+			'th-th': "กรงเล็บฉีกร่าง"
 		},
 
 		damage: 40,

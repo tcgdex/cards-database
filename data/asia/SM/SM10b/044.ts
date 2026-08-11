@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ノーマルZたいあたり",
+		'ja-jp': "ノーマルZたいあたり",
 	},
 
 	illustrator: "5ban Graphics",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけている、ワザ「たいあたり」を持つポケモンは、このカードに書かれているGXワザを使える。［ワザを使うためのエネルギーは必要。］",
+		'ja-jp': "このカードをつけている、ワザ「たいあたり」を持つポケモンは、このカードに書かれているGXワザを使える。［ワザを使うためのエネルギーは必要。］",
 	},
 
 	attacks: [
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "200+",
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数×40ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数×40ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

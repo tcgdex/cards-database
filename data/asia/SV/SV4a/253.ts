@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ケーシィ",
+		'ja-jp': "ケーシィ",
 		'zh-tw': "凱西",
-		id: "Abra"
+		'id-id': "Abra"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "眠ったまま テレポート できる。 眠りが 深いほど 離れた 場所に 移動する という。",
+		'ja-jp': "眠ったまま テレポート できる。 眠りが 深いほど 離れた 場所に 移動する という。",
 		'zh-tw': "就算在睡夢中也能使用瞬間移動。據說當牠睡得越熟， 瞬間移動的距離就會越遠。",
-		id: "Abra dapat melakukan teleportasi sambil tidur. Konon, makin nyenyak tidurnya, makin jauh jarak teleportasinya."
+		'id-id': "Abra dapat melakukan teleportasi sambil tidur. Konon, makin nyenyak tidurnya, makin jauh jarak teleportasinya."
 	},
 
 	stage: "Basic",
@@ -28,9 +28,9 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "サイコショット",
+			'ja-jp': "サイコショット",
 			'zh-tw': "精神射擊",
-			id: "Psyshot"
+			'id-id': "Psyshot"
 		},
 
 		damage: 20

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [659],
 
 	name: {
-		en: "Bunnelby"
+		'en-us': "Bunnelby"
 	},
 
 	illustrator: "Akira Komayama",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It's very sensitive to danger. The sound of\nCorviknight's flapping will have Bunnelby\ndigging a hole to hide underground in moments."
+		'en-us': "It's very sensitive to danger. The sound of\nCorviknight's flapping will have Bunnelby\ndigging a hole to hide underground in moments."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Gnaw"
+			'en-us': "Gnaw"
 		},
 
 		damage: 20,

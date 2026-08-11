@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Silcoon",
-		fr: "Armulys",
-		de: "Schaloko"
+		'en-us': "Silcoon",
+		'fr-fr': "Armulys",
+		'de-de': "Schaloko"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wurmple",
-		fr: "Chenipotte"
+		'en-us': "Wurmple",
+		'fr-fr': "Chenipotte"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Ascension",
-				fr: "Ascension",
-				de: "Ascension"
+				'en-us': "Ascension",
+				'fr-fr': "Ascension",
+				'de-de': "Ascension"
 			},
 			effect: {
-				en: "Search your deck for a card that evolves from Silcoon and put it onto Silcoon. (This counts as evolving Silcoon.) Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une carte qui évolue d'Armulys et placez-la sur Armulys. (Vous le faites ainsi évoluer.) Ensuite, mélangez votre deck.",
-				de: "Search your deck for a card that evolves from Silcoon and put it onto Silcoon. (This counts as evolving Silcoon.) Shuffle your deck afterward."
+				'en-us': "Search your deck for a card that evolves from Silcoon and put it onto Silcoon. (This counts as evolving Silcoon.) Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck une carte qui évolue d'Armulys et placez-la sur Armulys. (Vous le faites ainsi évoluer.) Ensuite, mélangez votre deck.",
+				'de-de': "Search your deck for a card that evolves from Silcoon and put it onto Silcoon. (This counts as evolving Silcoon.) Shuffle your deck afterward."
 			},
 
 		},
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sticky String",
-				fr: "Ficelle collante",
-				de: "Sticky String"
+				'en-us': "Sticky String",
+				'fr-fr': "Ficelle collante",
+				'de-de': "Sticky String"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It wraps silk around the branches of a tree. It drinks rainwater on its silk while awaiting evolution."
+		'en-us': "It wraps silk around the branches of a tree. It drinks rainwater on its silk while awaiting evolution."
 	},
 
 	variants: [

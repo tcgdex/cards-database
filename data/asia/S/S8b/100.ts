@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブラッキーV",
+		'ja-jp': "ブラッキーV",
 		'zh-tw': "月亮伊布V",
 	},
 
@@ -18,25 +18,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "くろいまなざし",
+				'ja-jp': "くろいまなざし",
 				'zh-tw': "黑色目光",
 			},
 			damage: 30,
 			cost: ["Darkness"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 				'zh-tw': "在下個對手的回合，受到這個招式的寶可夢無法撤退。",
 			},
 		},
 		{
 			name: {
-				ja: "げっこうのやいば",
+				'ja-jp': "げっこうのやいば",
 				'zh-tw': "月光利刃",
 			},
 			damage: "80+",
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにダメカンがのっているなら、80ダメージ追加。",
+				'ja-jp': "このポケモンにダメカンがのっているなら、80ダメージ追加。",
 				'zh-tw': "若這隻寶可夢身上放置有傷害指示物，則增加80點傷害。",
 			},
 		},

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Underground Expedition",
-		de: "Expedition ins Unterirdische"
+		'en-us': "Underground Expedition",
+		'de-de': "Expedition ins Unterirdische"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -14,8 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "You can play only 1 Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Look at the bottom 4 cards of your deck. Put 2 of those cards into your hand, and then return the remaining cards to the bottom of your deck in any order.",
-		de: "Schaue dir die 4 untersten Karten deines Decks an. Nimm 2 dieser Karten auf deine Hand und lege die übrigen Karten in beliebiger Reihenfolge unter dein Deck zurück."
+		'en-us': "You can play only 1 Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Look at the bottom 4 cards of your deck. Put 2 of those cards into your hand, and then return the remaining cards to the bottom of your deck in any order.",
+		'de-de': "Schaue dir die 4 untersten Karten deines Decks an. Nimm 2 dieser Karten auf deine Hand und lege die übrigen Karten in beliebiger Reihenfolge unter dein Deck zurück."
 	},
 
 	attacks: [
@@ -23,7 +23,7 @@ const card: Card = {
 			// name intentionally left blank
 			name: {},
 			effect: {
-				en: "Look at the bottom 4 cards of your deck. Put 2 of those cards into your hand, and then return the remaining cards to the bottom of your deck in any order."
+				'en-us': "Look at the bottom 4 cards of your deck. Put 2 of those cards into your hand, and then return the remaining cards to the bottom of your deck in any order."
 			}
 		}
 	],

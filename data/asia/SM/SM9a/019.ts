@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゼラオラ",
+		'ja-jp': "ゼラオラ",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "両手足の ツメを 帯電させ 相手を 八つ裂き。 かわされても 飛び散る 電撃で 感電させる。",
+		'ja-jp': "両手足の ツメを 帯電させ 相手を 八つ裂き。 かわされても 飛び散る 電撃で 感電させる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Lightning"],
 			effect: {
-				ja: "相手のバトルポケモンについている特殊エネルギーを、1個トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについている特殊エネルギーを、1個トラッシュする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[雷]エネルギーをすべてトラッシュし、その枚数x50ダメージ。",
+				'ja-jp': "このポケモンについている[雷]エネルギーをすべてトラッシュし、その枚数x50ダメージ。",
 			},
 		},
 	],

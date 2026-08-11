@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu"
 	},
 	illustrator: "Mizue",
 	rarity: "Common",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Whap",
-				fr: "Queue Battoir"
+				'en-us': "Tail Whap",
+				'fr-fr': "Queue Battoir"
 			},
 
 			damage: 10,
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thundershock",
-				fr: "Éclair"
+				'en-us': "Thundershock",
+				'fr-fr': "Éclair"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 30,
 
@@ -68,7 +68,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
+		'en-us': "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
 	},
 }
 

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Nidoran ♂"
+		'en-us': "Nidoran ♂"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -25,10 +25,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Horn Hazard"
+				'en-us': "Horn Hazard"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing."
+				'en-us': "Flip a coin. If tails, this attack does nothing."
 			},
 
 		},
@@ -43,7 +43,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Stiffens its ears to sense danger. The larger, more powerful of its horns secretes venom."
+		'en-us': "Stiffens its ears to sense danger. The larger, more powerful of its horns secretes venom."
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [458],
 
 	name: {
-		en: "Mantyke"
+		'en-us': "Mantyke"
 	},
 
 	illustrator: "Taiga Kasai",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It's highly friendly and easily tamed. Tours that\ntake people swimming with Mantyke are a\nsuper-popular beach activity."
+		'en-us': "It's highly friendly and easily tamed. Tours that\ntake people swimming with Mantyke are a\nsuper-popular beach activity."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Splashy Toss"
+			'en-us': "Splashy Toss"
 		},
 
 		effect: {
-			en: "Take a {W} Energy from your Energy Zone and attach it to 1 of your Benched Basic Pokémon."
+			'en-us': "Take a {W} Energy from your Energy Zone and attach it to 1 of your Benched Basic Pokémon."
 		}
 	}],
 

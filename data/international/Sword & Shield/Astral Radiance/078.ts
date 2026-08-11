@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lucario V",
-		fr: "Lucario V",
-		es: "Lucario V",
-		it: "Lucario V",
-		pt: "Lucario V",
-		de: "Lucario V"
+		'en-us': "Lucario V",
+		'fr-fr': "Lucario V",
+		'es-es': "Lucario V",
+		'it-it': "Lucario V",
+		'pt-br': "Lucario V",
+		'de-de': "Lucario V"
 	},
 
 	illustrator: "takuyoa",
@@ -26,21 +26,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Crushing Punch",
-			fr: "Poing Dévastateur",
-			es: "Puñetazo Devastador",
-			it: "Pugno Spaccatutto",
-			pt: "Soco Esmagador",
-			de: "Schmetterhieb"
+			'en-us': "Crushing Punch",
+			'fr-fr': "Poing Dévastateur",
+			'es-es': "Puñetazo Devastador",
+			'it-it': "Pugno Spaccatutto",
+			'pt-br': "Soco Esmagador",
+			'de-de': "Schmetterhieb"
 		},
 
 		effect: {
-			en: "Discard a Special Energy from your opponent's Active Pokémon.",
-			fr: "Défaussez une Énergie spéciale du Pokémon Actif de votre adversaire.",
-			es: "Descarta 1 Energía Especial del Pokémon Activo de tu rival.",
-			it: "Scarta un'Energia speciale dal Pokémon attivo del tuo avversario.",
-			pt: "Descarte 1 Energia Especial do Pokémon Ativo do seu oponente.",
-			de: "Lege 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+			'en-us': "Discard a Special Energy from your opponent's Active Pokémon.",
+			'fr-fr': "Défaussez une Énergie spéciale du Pokémon Actif de votre adversaire.",
+			'es-es': "Descarta 1 Energía Especial del Pokémon Activo de tu rival.",
+			'it-it': "Scarta un'Energia speciale dal Pokémon attivo del tuo avversario.",
+			'pt-br': "Descarte 1 Energia Especial do Pokémon Ativo do seu oponente.",
+			'de-de': "Lege 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 50
@@ -48,12 +48,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			en: "Cyclone Kick",
-			fr: "Pied Cyclone",
-			es: "Patada Ciclón",
-			it: "Calciovento",
-			pt: "Chute Ciclone",
-			de: "Wirbeltritt"
+			'en-us': "Cyclone Kick",
+			'fr-fr': "Pied Cyclone",
+			'es-es': "Patada Ciclón",
+			'it-it': "Calciovento",
+			'pt-br': "Chute Ciclone",
+			'de-de': "Wirbeltritt"
 		},
 
 		damage: 120

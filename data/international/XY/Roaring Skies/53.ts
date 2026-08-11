@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Altaria",
-		fr: "Altaria",
-		es: "Altaria",
-		it: "Altaria",
-		pt: "Altaria",
-		de: "Altaria"
+		'en-us': "Altaria",
+		'fr-fr': "Altaria",
+		'es-es': "Altaria",
+		'it-it': "Altaria",
+		'pt-br': "Altaria",
+		'de-de': "Altaria"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Swablu",
-		fr: "Tylton",
-		es: "Swablu",
-		it: "Swablu",
-		pt: "Swablu",
-		de: "Wablu"
+		'en-us': "Swablu",
+		'fr-fr': "Tylton",
+		'es-es': "Swablu",
+		'it-it': "Swablu",
+		'pt-br': "Swablu",
+		'de-de': "Wablu"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Song of Echoes",
-				fr: "Écho Mélodique",
-				es: "Canción de Ecos",
-				it: "Ecocanoro",
-				pt: "Som do Eco",
-				de: "Echogesang"
+				'en-us': "Song of Echoes",
+				'fr-fr': "Écho Mélodique",
+				'es-es': "Canción de Ecos",
+				'it-it': "Ecocanoro",
+				'pt-br': "Som do Eco",
+				'de-de': "Echogesang"
 			},
 			effect: {
-				en: "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of Benched Pokémon (both yours and your opponent's).",
-				fr: "Mélangez votre main avec votre deck. Ensuite, piochez un nombre de cartes égal au nombre de Pokémon de Banc (les vôtres et ceux de votre adversaire).",
-				es: "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba un número de cartas igual al número de Pokémon en Banca (tanto tuyos como de tu rival).",
-				it: "Metti le carte che hai in mano nel tuo mazzo e rimischialo. Poi pesca un numero di carte pari al numero di Pokémon in panchina, sia tuoi che del tuo avversario.",
-				pt: "Embaralhe a mão no seu baralho. Em seguida, compre um número de cards igual ao número de Pokémon no Banco (tanto seus quanto do seu oponente).",
-				de: "Mische deine Handkarten in dein Deck. Ziehe anschließend genauso viele Karten, wie sich Pokémon auf der Bank befinden (deiner und der deines Gegners)."
+				'en-us': "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of Benched Pokémon (both yours and your opponent's).",
+				'fr-fr': "Mélangez votre main avec votre deck. Ensuite, piochez un nombre de cartes égal au nombre de Pokémon de Banc (les vôtres et ceux de votre adversaire).",
+				'es-es': "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba un número de cartas igual al número de Pokémon en Banca (tanto tuyos como de tu rival).",
+				'it-it': "Metti le carte che hai in mano nel tuo mazzo e rimischialo. Poi pesca un numero di carte pari al numero di Pokémon in panchina, sia tuoi che del tuo avversario.",
+				'pt-br': "Embaralhe a mão no seu baralho. Em seguida, compre um número de cards igual ao número de Pokémon no Banco (tanto seus quanto do seu oponente).",
+				'de-de': "Mische deine Handkarten in dein Deck. Ziehe anschließend genauso viele Karten, wie sich Pokémon auf der Bank befinden (deiner und der deines Gegners)."
 			},
 
 		},
@@ -66,20 +66,20 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Midnight Eyes",
-				fr: "Yeux de Minuit",
-				es: "Ojos Medianoche",
-				it: "Sguardo a Mezzanotte",
-				pt: "Olhos da Meia-Noite",
-				de: "Mitternachtsaugen"
+				'en-us': "Midnight Eyes",
+				'fr-fr': "Yeux de Minuit",
+				'es-es': "Ojos Medianoche",
+				'it-it': "Sguardo a Mezzanotte",
+				'pt-br': "Olhos da Meia-Noite",
+				'de-de': "Mitternachtsaugen"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent's Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 30,
 
@@ -96,7 +96,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.",
+		'en-us': "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.",
 	},
 
 	thirdParty: {

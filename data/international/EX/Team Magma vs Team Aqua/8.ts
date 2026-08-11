@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Claydol",
-		fr: "Kaorine de Team Magma",
-		de: "Team Magmas Lepumentas"
+		'en-us': "Team Magma's Claydol",
+		'fr-fr': "Kaorine de Team Magma",
+		'de-de': "Team Magmas Lepumentas"
 	},
 
 	illustrator: "Zu-Ka",
@@ -28,14 +28,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Magma Switch",
-				fr: "Échange de Magma",
-				de: "Magma Switch"
+				'en-us': "Magma Switch",
+				'fr-fr': "Échange de Magma",
+				'de-de': "Magma Switch"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may move an Energy card attached to your Pokémon with Team Magma in its name to another of your Pokémon. This power can't be used if Team Magma's Claydol is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez déplacer une carte Énergie attachée à un Pokémon dont le nom comporte Team Magma à un autre de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Kaorine de Team Magma est affecté par un État Spécial.",
-				de: "Once during your turn (before your attack), you may move an Energy card attached to your Pokémon with Team Magma in its name to another of your Pokémon. This power can't be used if Team Magma's Claydol is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), you may move an Energy card attached to your Pokémon with Team Magma in its name to another of your Pokémon. This power can't be used if Team Magma's Claydol is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez déplacer une carte Énergie attachée à un Pokémon dont le nom comporte Team Magma à un autre de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Kaorine de Team Magma est affecté par un État Spécial.",
+				'de-de': "Once during your turn (before your attack), you may move an Energy card attached to your Pokémon with Team Magma in its name to another of your Pokémon. This power can't be used if Team Magma's Claydol is affected by a Special Condition."
 			}
 		},
 	],
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Hand",
-				fr: "Main sombre",
-				de: "Dark Hand"
+				'en-us': "Dark Hand",
+				'fr-fr': "Main sombre",
+				'de-de': "Dark Hand"
 			},
 			effect: {
-				en: "If you have more cards in your hand than your opponent, this attack does 40 damage plus 20 more damage.",
-				fr: "Si vous avez plus de cartes en main que votre adversaire, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
-				de: "If you have more cards in your hand than your opponent, this attack does 40 damage plus 20 more damage."
+				'en-us': "If you have more cards in your hand than your opponent, this attack does 40 damage plus 20 more damage.",
+				'fr-fr': "Si vous avez plus de cartes en main que votre adversaire, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "If you have more cards in your hand than your opponent, this attack does 40 damage plus 20 more damage."
 			},
 			damage: "40+",
 

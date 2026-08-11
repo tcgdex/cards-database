@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レジスチル",
+		'ja-jp': "レジスチル",
 	},
 
 	illustrator: "Shiburingaru",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "伸び縮みする 柔らかさも あるが どんな 金属よりも 頑丈な 不思議な 物質で できている。",
+		'ja-jp': "伸び縮みする 柔らかさも あるが どんな 金属よりも 頑丈な 不思議な 物質で できている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Metal", "Colorless"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数×10ダメージ追加。",
+				'ja-jp': "このポケモンにのっているダメカンの数×10ダメージ追加。",
 			},
 		},
 	],

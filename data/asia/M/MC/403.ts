@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルガルガン",
+		'ja-jp': "ルガルガン",
 	},
 
 	illustrator: "Yoshioka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "鋭い ツメや キバで 獲物を 襲う。 信頼する トレーナーの 指示には 忠実に 従う。",
+		'ja-jp': "鋭い ツメや キバで 獲物を 襲う。 信頼する トレーナーの 指示には 忠実に 従う。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュから「基本[F]エネルギー」を2枚まで選び、ベンチポケモンに好きなようにつける。",
+				'ja-jp': "自分のトラッシュから「基本[F]エネルギー」を2枚まで選び、ベンチポケモンに好きなようにつける。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イワンコ",
+		'ja-jp': "イワンコ",
 	},
 
 	retreat: 1,

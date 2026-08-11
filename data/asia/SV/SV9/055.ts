@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ガケガニ",
+		'ja-jp': "ガケガニ",
 		'zh-tw': "毛崖蟹",
 		'zh-cn': "毛崖蟹"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "逆さまになって 崖の 上から 獲物を 狙うが 頭に 血が上るので 長くは 待てない。",
+		'ja-jp': "逆さまになって 崖の 上から 獲物を 狙うが 頭に 血が上るので 長くは 待てない。",
 		'zh-tw': "會倒立在懸崖上等獵物上門， 但由於那會讓牠的血液倒流， 因此等不了太長的時間。",
 		'zh-cn': "會倒立在懸崖上等獵物上門， 但由於那會讓牠的血液倒流， 因此等不了太長的時間。"
 	},
@@ -29,13 +29,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ちょっきんバサミ",
+			'ja-jp': "ちょっきんバサミ",
 			'zh-tw': "喀嚓鉗",
 			'zh-cn': "喀嚓鉗"
 		},
 
 		effect: {
-			ja: "コインを2回投げ、オモテの数ぶん、相手のバトルポケモンについているエネルギーを選び、トラッシュする。",
+			'ja-jp': "コインを2回投げ、オモテの数ぶん、相手のバトルポケモンについているエネルギーを選び、トラッシュする。",
 			'zh-tw': "擲2次硬幣，選擇與正面出現的次數相同數量的對手的戰鬥寶可夢身上附加的能量，將其丟棄。",
 			'zh-cn': "擲2次硬幣，選擇與正面出現的次數相同數量的對手的戰鬥寶可夢身上附加的能量，將其丟棄。"
 		}
@@ -43,7 +43,7 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ぶちかます",
+			'ja-jp': "ぶちかます",
 			'zh-tw': "頭突",
 			'zh-cn': "頭突"
 		},

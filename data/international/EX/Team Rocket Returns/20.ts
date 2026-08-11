@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Dark Tyranitar",
-		de: "Dunkles Despotar"
+		'en-us': "Dark Tyranitar",
+		'de-de': "Dunkles Despotar"
 	},
 
 	illustrator: "Kyoko Koizumi",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dark Pupitar",
+		'en-us': "Dark Pupitar",
 	},
 
 	stage: "Stage2",
@@ -33,12 +33,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Sand Damage",
-				de: "Sand Damage"
+				'en-us': "Sand Damage",
+				'de-de': "Sand Damage"
 			},
 			effect: {
-				en: "As long as Dark Tyranitar is your Active Pokémon, put 1 damage counter on each of your opponent's Benched Basic Pokémon between turns. You can't use more than 1 Sand Damage Poké-Body between turns.",
-				de: "As long as Dark Tyranitar is your Active Pokémon, put 1 damage counter on each of your opponent's Benched Basic Pokémon between turns. You can't use more than 1 Sand Damage Poké-Body between turns."
+				'en-us': "As long as Dark Tyranitar is your Active Pokémon, put 1 damage counter on each of your opponent's Benched Basic Pokémon between turns. You can't use more than 1 Sand Damage Poké-Body between turns.",
+				'de-de': "As long as Dark Tyranitar is your Active Pokémon, put 1 damage counter on each of your opponent's Benched Basic Pokémon between turns. You can't use more than 1 Sand Damage Poké-Body between turns."
 			},
 		},
 	],
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Second Strike",
-				de: "Second Strike"
+				'en-us': "Second Strike",
+				'de-de': "Second Strike"
 			},
 			effect: {
-				en: "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 50 damage plus 20 more damage.",
-				de: "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 50 damage plus 20 more damage."
+				'en-us': "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 50 damage plus 20 more damage.",
+				'de-de': "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 50 damage plus 20 more damage."
 			},
 			damage: "50+",
 

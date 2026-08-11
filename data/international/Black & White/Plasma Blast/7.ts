@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Shelmet",
-		fr: "Escargaume",
-		es: "Shelmet",
-		it: "Shelmet",
-		pt: "Shelmet",
-		de: "Schnuthelm"
+		'en-us': "Shelmet",
+		'fr-fr': "Escargaume",
+		'es-es': "Shelmet",
+		'it-it': "Shelmet",
+		'pt-br': "Shelmet",
+		'de-de': "Schnuthelm"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Yawn",
-				fr: "Bâillement",
+				'en-us': "Yawn",
+				'fr-fr': "Bâillement",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
+				'en-us': "Ram",
+				'fr-fr': "Collision",
 			},
 
 			damage: 20,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "When it and Karrablast are together, and both receive electrical stimulation, they both evolve.",
+		'en-us': "When it and Karrablast are together, and both receive electrical stimulation, they both evolve.",
 	},
 
 	thirdParty: {

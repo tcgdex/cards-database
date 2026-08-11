@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Jellicent"
+		'en-us': "Jellicent"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Frillish"
+		'en-us': "Frillish"
 	},
 
 	description: {
-		en: "Whenever a full moon hangs in the night sky,\nschools of Jellicent gather near the surface of\nthe sea, waiting for their prey to appear."
+		'en-us': "Whenever a full moon hangs in the night sky,\nschools of Jellicent gather near the surface of\nthe sea, waiting for their prey to appear."
 	},
 
 	stage: "Stage1",
@@ -30,17 +30,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Bouncy Body"
+			'en-us': "Bouncy Body"
 		},
 
 		effect: {
-			en: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, take a {W} Energy from your Energy Zone and attach it to 1 of your Benched Pokémon."
+			'en-us': "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, take a {W} Energy from your Energy Zone and attach it to 1 of your Benched Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Surf"
+			'en-us': "Surf"
 		},
 
 		damage: 60,

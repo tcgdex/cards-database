@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sharpedo",
-		fr: "Sharpedo",
-		es: "Sharpedo",
-		it: "Sharpedo",
-		pt: "Sharpedo",
-		de: "Tohaido"
+		'en-us': "Sharpedo",
+		'fr-fr': "Sharpedo",
+		'es-es': "Sharpedo",
+		'it-it': "Sharpedo",
+		'pt-br': "Sharpedo",
+		'de-de': "Tohaido"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Carvanha",
-		fr: "Carvanha",
-		es: "Carvanha",
-		it: "Carvanha",
-		pt: "Carvanha",
-		de: "Kanivanha"
+		'en-us': "Carvanha",
+		'fr-fr': "Carvanha",
+		'es-es': "Carvanha",
+		'it-it': "Carvanha",
+		'pt-br': "Carvanha",
+		'de-de': "Kanivanha"
 	},
 
 	stage: "Stage1",
@@ -40,19 +40,19 @@ const card: Card = {
 	illustrator: "Hasuno",
 
 	description: {
-		en: "It drinks in seawater and jets it from its rear to propel itself. It's very sensitive to the scent of blood."
+		'en-us': "It drinks in seawater and jets it from its rear to propel itself. It's very sensitive to the scent of blood."
 	},
 
 	attacks: [{
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Sharp Fang",
-			fr: "Croc Aiguisé",
-			de: "Scharfe Fänge",
-			es: "Colmillo Afilado",
-			pt: "Presa Afiada",
-			it: "Zannaffilata"
+			'en-us': "Sharp Fang",
+			'fr-fr': "Croc Aiguisé",
+			'de-de': "Scharfe Fänge",
+			'es-es': "Colmillo Afilado",
+			'pt-br': "Presa Afiada",
+			'it-it': "Zannaffilata"
 		},
 
 		damage: 70

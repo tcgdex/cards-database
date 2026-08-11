@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Goldeen",
-		fr: "Poissirène",
-		es: "Goldeen",
-		it: "Goldeen",
-		pt: "Goldeen",
-		de: "Goldini"
+		'en-us': "Goldeen",
+		'fr-fr': "Poissirène",
+		'es-es': "Goldeen",
+		'it-it': "Goldeen",
+		'pt-br': "Goldeen",
+		'de-de': "Goldini"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Attack",
-				fr: "Koud'Korne",
-				es: "Cornada",
-				it: "Incornata",
-				pt: "Ataque de Chifre",
-				de: "Hornattacke"
+				'en-us': "Horn Attack",
+				'fr-fr': "Koud'Korne",
+				'es-es': "Cornada",
+				'it-it': "Incornata",
+				'pt-br': "Ataque de Chifre",
+				'de-de': "Hornattacke"
 			},
 
 			damage: 10,
@@ -65,7 +65,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its dorsal and pectoral fins are strongly developed like muscles. It can swim at a speed of five knots."
+		'en-us': "Its dorsal and pectoral fins are strongly developed like muscles. It can swim at a speed of five knots."
 	},
 
 	thirdParty: {

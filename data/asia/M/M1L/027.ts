@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ソルロック",
+		'ja-jp': "ソルロック",
 	},
 
 	illustrator: "Whisker",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "太陽エネルギーが パワーの  源 なので 昼間は 強い。  回転すると 体が 光る。",
+		'ja-jp': "太陽エネルギーが パワーの  源 なので 昼間は 強い。  回転すると 体が 光る。",
 	},
 
 	stage: "Basic",

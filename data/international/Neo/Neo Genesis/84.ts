@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Ecogym",
-		fr: "Ecostade",
-		de: "Ecogym*"
+		'en-us': "Ecogym",
+		'fr-fr': "Ecostade",
+		'de-de': "Ecogym*"
 	},
 
 	illustrator: undefined,
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Whenever an attack, Pokémon Power, or Trainer card discards another player's non-Colorless Energy card from a Pokémon, return that Energy card to its owner's hand. (Energy cards that are discarded when that Pokémon is Knocked Out don't count.)",
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez cette carte si une autre carte Stade arrive en jeu.\n\nÀ chaque fois qu'une attaque, un Pouvoir Pokémon ou une carte Dresseur fait défausser une carte Énergie non- d'un autre joueur d'un Pokémon, retournez cette carte Énergie dans la main de son propriétaire. (Les cartes Énergie qui sont défaussées lorsque ce Pokémon est mis K.O. ne comptent pas.)",
-		de: "Whenever an attack, Pokémon Power, or Trainer card discards another player's non- Energy card from a Pokémon, return that Energy card to its owner's hand. (Energy cards that are discarded when that Pokémon is Knocked Out don't count.)"
+		'en-us': "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Whenever an attack, Pokémon Power, or Trainer card discards another player's non-Colorless Energy card from a Pokémon, return that Energy card to its owner's hand. (Energy cards that are discarded when that Pokémon is Knocked Out don't count.)",
+		'fr-fr': "Cette carte reste en jeu lorsque vous la jouez. Défaussez cette carte si une autre carte Stade arrive en jeu.\n\nÀ chaque fois qu'une attaque, un Pouvoir Pokémon ou une carte Dresseur fait défausser une carte Énergie non- d'un autre joueur d'un Pokémon, retournez cette carte Énergie dans la main de son propriétaire. (Les cartes Énergie qui sont défaussées lorsque ce Pokémon est mis K.O. ne comptent pas.)",
+		'de-de': "Whenever an attack, Pokémon Power, or Trainer card discards another player's non- Energy card from a Pokémon, return that Energy card to its owner's hand. (Energy cards that are discarded when that Pokémon is Knocked Out don't count.)"
 	},
 
 

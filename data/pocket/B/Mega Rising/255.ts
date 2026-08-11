@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mega Gyarados ex"
+		'en-us': "Mega Gyarados ex"
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Magikarp"
+		'en-us': "Magikarp"
 	},
 
 	description: {
-		en: "Mega Evolution also affects its brain, leaving\nno other function except its destructive instinct\nto burn everything to cinders."
+		'en-us': "Mega Evolution also affects its brain, leaving\nno other function except its destructive instinct\nto burn everything to cinders."
 	},
 
 	stage: "Stage1",
@@ -29,14 +29,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Mega Blaster"
+			'en-us': "Mega Blaster"
 		},
 
 		damage: 140,
 		cost: ["Water", "Water", "Water", "Colorless"],
 
 		effect: {
-			en: "Discard the top 3 cards of your opponent's deck."
+			'en-us': "Discard the top 3 cards of your opponent's deck."
 		}
 	}],
 

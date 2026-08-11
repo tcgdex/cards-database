@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴチルゼル",
+		'ja-jp': "ゴチルゼル",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "強力な サイコパワーの 影響で ゴチルゼルの 周囲の 空間が ねじれ 何万光年も 遠くの 星空が 映る。",
+		'ja-jp': "強力な サイコパワーの 影響で ゴチルゼルの 周囲の 空間が ねじれ 何万光年も 遠くの 星空が 映る。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "トラクタービーム" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンに30ダメージ。",
+				'ja-jp': "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンに30ダメージ。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "このポケモンと相手のバトルポケモンについているエネルギーの数が同じなら、80ダメージ追加。",
+				'ja-jp': "このポケモンと相手のバトルポケモンについているエネルギーの数が同じなら、80ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴチミル",
+		'ja-jp': "ゴチミル",
 	},
 
 	retreat: 2,

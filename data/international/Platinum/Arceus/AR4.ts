@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Arceus",
-		fr: "Arceus",
-		de: "Arceus"
+		'en-us': "Arceus",
+		'fr-fr': "Arceus",
+		'de-de': "Arceus"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fastwave",
-				fr: "Lame de fond",
-				de: "Rasende Schallwelle"
+				'en-us': "Fastwave",
+				'fr-fr': "Lame de fond",
+				'de-de': "Rasende Schallwelle"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
-				de: "Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf den Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
+				'en-us': "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
+				'de-de': "Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf den Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
 			},
 			damage: 50,
 
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is told in mythology that this Pokémon was born before the universe even existed."
+		'en-us': "It is told in mythology that this Pokémon was born before the universe even existed."
 	},
 
 	variants: [

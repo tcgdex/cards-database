@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Groudon Star",
-		fr: "Groudon ☆",
-		de: "Groudon *"
+		'en-us': "Groudon Star",
+		'fr-fr': "Groudon ☆",
+		'de-de': "Groudon *"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Critical Collection",
-				fr: "Collection difficile",
-				de: "Critical Collection"
+				'en-us': "Critical Collection",
+				'fr-fr': "Collection difficile",
+				'de-de': "Critical Collection"
 			},
 			effect: {
-				en: "Count the number of Prize cards your opponent has taken. Search your discard pile for up to that many Fighting Energy cards and attach them to Groudon Star.",
-				fr: "Comptabilisez le nombre de cartes Récompense récoltées par votre adversaire. Cherchez dans votre pile de défausse le même nombre de cartes Énergie  et attachez-les à Groudon .",
-				de: "Count the number of Prize cards your opponent has taken. Search your discard pile for up to that many  Energy cards and attach them to Groudon *."
+				'en-us': "Count the number of Prize cards your opponent has taken. Search your discard pile for up to that many Fighting Energy cards and attach them to Groudon Star.",
+				'fr-fr': "Comptabilisez le nombre de cartes Récompense récoltées par votre adversaire. Cherchez dans votre pile de défausse le même nombre de cartes Énergie  et attachez-les à Groudon .",
+				'de-de': "Count the number of Prize cards your opponent has taken. Search your discard pile for up to that many  Energy cards and attach them to Groudon *."
 			},
 			damage: 10,
 
@@ -52,14 +52,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Ground Slash",
-				fr: "Tranch'sol",
-				de: "Ground Slash"
+				'en-us': "Ground Slash",
+				'fr-fr': "Tranch'sol",
+				'de-de': "Ground Slash"
 			},
 			effect: {
-				en: "Discard a Fighting Energy card attached to Groudon Star.",
-				fr: "Défaussez une carte Énergie  attachée à Groudon .",
-				de: "Discard a Energy card attached to Groudon *."
+				'en-us': "Discard a Fighting Energy card attached to Groudon Star.",
+				'fr-fr': "Défaussez une carte Énergie  attachée à Groudon .",
+				'de-de': "Discard a Energy card attached to Groudon *."
 			},
 			damage: 80,
 

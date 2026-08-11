@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アルセウスVSTAR",
+		'ja-jp': "アルセウスVSTAR",
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "スターバース" },
 			effect: {
-				ja: "自分の番に使える。自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。［対戦中、自分はVSTARパワーを1回しか使えない。］",
+				'ja-jp': "自分の番に使える。自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。［対戦中、自分はVSTARパワーを1回しか使えない。］",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分の山札から基本エネルギーを3枚まで選び、自分の「ポケモンV」に好きなようにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から基本エネルギーを3枚まで選び、自分の「ポケモンV」に好きなようにつける。そして山札を切る。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アルセウスV",
+		'ja-jp': "アルセウスV",
 	},
 
 	retreat: 2,

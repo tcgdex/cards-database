@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Swirlix",
-		fr: "Sucroquin",
-		es: "Swirlix",
-		it: "Swirlix",
-		pt: "Swirlix",
-		de: "Flauschling"
+		'en-us': "Swirlix",
+		'fr-fr': "Sucroquin",
+		'es-es': "Swirlix",
+		'it-it': "Swirlix",
+		'pt-br': "Swirlix",
+		'de-de': "Flauschling"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Lick Away",
-				fr: "Lèche-Lèche",
-				es: "Lametazo",
-				it: "Leccavia",
-				pt: "Lamber para Longe",
-				de: "Wegschlecken"
+				'en-us': "Lick Away",
+				'fr-fr': "Lèche-Lèche",
+				'es-es': "Lametazo",
+				'it-it': "Leccavia",
+				'pt-br': "Lamber para Longe",
+				'de-de': "Wegschlecken"
 			},
 			effect: {
-				en: "Remove all Special Conditions from this Pokémon.",
-				fr: "Retirez tous les États Spéciaux de ce Pokémon.",
-				es: "Elimina todas las Condiciones Especiales de este Pokémon.",
-				it: "Rimuovi tutte le condizioni speciali da questo Pokémon.",
-				pt: "Remova todas as Condições Especiais deste Pokémon.",
-				de: "Alle Speziellen Zustände auf diesem Pokémon verlieren ihre Wirkung."
+				'en-us': "Remove all Special Conditions from this Pokémon.",
+				'fr-fr': "Retirez tous les États Spéciaux de ce Pokémon.",
+				'es-es': "Elimina todas las Condiciones Especiales de este Pokémon.",
+				'it-it': "Rimuovi tutte le condizioni speciali da questo Pokémon.",
+				'pt-br': "Remova todas as Condições Especiais deste Pokémon.",
+				'de-de': "Alle Speziellen Zustände auf diesem Pokémon verlieren ihre Wirkung."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "To entangle its opponents in battle, it extrudes white threads as sweet and as sticky as cotton candy.",
+		'en-us': "To entangle its opponents in battle, it extrudes white threads as sweet and as sticky as cotton candy.",
 	},
 
 	thirdParty: {

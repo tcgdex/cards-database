@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Shining Noctowl",
-		fr: "Noarfang brillant",
-		de: "Schimmerndes Noctuh"
+		'en-us': "Shining Noctowl",
+		'fr-fr': "Noarfang brillant",
+		'de-de': "Schimmerndes Noctuh"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -33,14 +33,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flashing Eyes",
-				fr: "Yeux clignotants",
-				de: "Leuchtende Augen"
+				'en-us': "Flashing Eyes",
+				'fr-fr': "Yeux clignotants",
+				'de-de': "Leuchtende Augen"
 			},
 			effect: {
-				en: "Flip 3 coins. If exactly 1 is heads, the Defending Pokémon is now Asleep. If exactly 2 are heads, the Defending Pokémon is now Confused. If all 3 are heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez 3 pièces. S'il y a une face, le Pokémon Défenseur est maintenant Endormi. S'il y a 2 faces, le Pokémon Défenseur est maintenant Confus. S'il y a 3 faces, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf drei Münzen. Wenn genau einmal 'Kopf' fällt, schläft das verteidigende Pokémon jetzt. Wenn genau zweimal 'Kopf' fällt, ist das verteidigende Pokémon jetzt verwirrt. Wenn jedes Mal 'KopfÄ fällt, ist das verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip 3 coins. If exactly 1 is heads, the Defending Pokémon is now Asleep. If exactly 2 are heads, the Defending Pokémon is now Confused. If all 3 are heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez 3 pièces. S'il y a une face, le Pokémon Défenseur est maintenant Endormi. S'il y a 2 faces, le Pokémon Défenseur est maintenant Confus. S'il y a 3 faces, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf drei Münzen. Wenn genau einmal 'Kopf' fällt, schläft das verteidigende Pokémon jetzt. Wenn genau zweimal 'Kopf' fällt, ist das verteidigende Pokémon jetzt verwirrt. Wenn jedes Mal 'KopfÄ fällt, ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -64,8 +64,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It speeds up its thought processes by turning its head around 180 degrees.",
-		fr: "Il accélère la vitesse à laquelle il pense en tournant sa tête à 180 degrés."
+		'en-us': "It speeds up its thought processes by turning its head around 180 degrees.",
+		'fr-fr': "Il accélère la vitesse à laquelle il pense en tournant sa tête à 180 degrés."
 	},
 
 

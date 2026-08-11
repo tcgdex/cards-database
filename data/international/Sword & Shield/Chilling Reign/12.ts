@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sawsbuck",
-		fr: "Haydaim",
-		es: "Sawsbuck",
-		it: "Sawsbuck",
-		pt: "Sawsbuck",
-		de: "Kronjuwild"
+		'en-us': "Sawsbuck",
+		'fr-fr': "Haydaim",
+		'es-es': "Sawsbuck",
+		'it-it': "Sawsbuck",
+		'pt-br': "Sawsbuck",
+		'de-de': "Kronjuwild"
 	},
 
 	illustrator: "Sekio",
@@ -21,43 +21,43 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Deerling",
-		fr: "Vivaldaim",
-		es: "Deerling",
-		it: "Deerling",
-		pt: "Deerling",
-		de: "Sesokitz"
+		'en-us': "Deerling",
+		'fr-fr': "Vivaldaim",
+		'es-es': "Deerling",
+		'it-it': "Deerling",
+		'pt-br': "Deerling",
+		'de-de': "Sesokitz"
 	},
 
 	attacks: [{
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 30,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Winter Horn",
-			fr: "Corne Hivernale",
-			es: "Cornamenta Invernal",
-			it: "Corna Invernali",
-			pt: "Chifre Invernal",
-			de: "Winterhorn"
+			'en-us': "Winter Horn",
+			'fr-fr': "Corne Hivernale",
+			'es-es': "Cornamenta Invernal",
+			'it-it': "Corna Invernali",
+			'pt-br': "Chifre Invernal",
+			'de-de': "Winterhorn"
 		},
 
 		effect: {
-			en: "If you have a Stadium in play, this attack does 80 more damage.",
-			fr: "Si vous avez un Stade en jeu, cette attaque inflige 80 dégâts supplémentaires.",
-			es: "Si tienes un Estadio en juego, este ataque hace 80 puntos de daño más.",
-			it: "Se hai in gioco una carta Stadio, questo attacco infligge 80 danni in più.",
-			pt: "Se você tiver um Estádio em jogo, este ataque causará 80 pontos de dano a mais.",
-			de: "Wenn du eine Stadionkarte im Spiel hast, fügt diese Attacke 80 Schadenspunkte mehr zu."
+			'en-us': "If you have a Stadium in play, this attack does 80 more damage.",
+			'fr-fr': "Si vous avez un Stade en jeu, cette attaque inflige 80 dégâts supplémentaires.",
+			'es-es': "Si tienes un Estadio en juego, este ataque hace 80 puntos de daño más.",
+			'it-it': "Se hai in gioco una carta Stadio, questo attacco infligge 80 danni in più.",
+			'pt-br': "Se você tiver um Estádio em jogo, este ataque causará 80 pontos de dano a mais.",
+			'de-de': "Wenn du eine Stadionkarte im Spiel hast, fügt diese Attacke 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+",
@@ -76,7 +76,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "They migrate according to the seasons. People can tell the season by looking at Sawsbuck's horns."
+		'en-us': "They migrate according to the seasons. People can tell the season by looking at Sawsbuck's horns."
 	},
 
 	variants: [

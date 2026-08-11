@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "インテレオン"
+		'ja-jp': "インテレオン"
 	},
 	illustrator: "akagi",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],
 	description: {
-		ja: "目の特殊なレンズを使って相手の体温などを感知して急所を見抜き攻撃する。"
+		'ja-jp': "目の特殊なレンズを使って相手の体温などを感知して急所を見抜き攻撃する。"
 	},
 	stage: "Stage2",
 	variants: [
@@ -25,23 +25,23 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ジメレオン"
+		'ja-jp': "ジメレオン"
 	},
 	attacks: [{
 		name: {
-			ja: "しとめる"
+			'ja-jp': "しとめる"
 		},
 		effect: {
-			ja: "おたがいの場のポケモン（このポケモンをのぞく）の中から、残りHPが一番少ないポケモンを1匹選び、きぜつさせる。"
+			'ja-jp': "おたがいの場のポケモン（このポケモンをのぞく）の中から、残りHPが一番少ないポケモンを1匹選び、きぜつさせる。"
 		},
 		cost: ["Water"]
 	}, {
 		name: {
-			ja: "ウォーターショット"
+			'ja-jp': "ウォーターショット"
 		},
 		damage: 110,
 		effect: {
-			ja: "このポケモンについているエネルギーを1個選び、トラッシュする。"
+			'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。"
 		},
 		cost: ["Water"]
 	}],

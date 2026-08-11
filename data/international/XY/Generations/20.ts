@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Cloyster",
-		fr: "Crustabri",
+		'en-us': "Cloyster",
+		'fr-fr': "Crustabri",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shellder",
-		fr: "Kokiyas",
+		'en-us': "Shellder",
+		'fr-fr': "Kokiyas",
 	},
 
 	stage: "Stage1",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Clamp Crush",
-				fr: "Pince Broyeuse",
+				'en-us': "Clamp Crush",
+				'fr-fr': "Pince Broyeuse",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed and discard an Energy attached to that Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé, et vous défaussez une Énergie lui étant attachée.",
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed and discard an Energy attached to that Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé, et vous défaussez une Énergie lui étant attachée.",
 			},
 			damage: 30,
 
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spike Cannon",
-				fr: "Picanon",
+				'en-us': "Spike Cannon",
+				'fr-fr': "Picanon",
 			},
 			effect: {
-				en: "Flip 5 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 5 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 5 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 5 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: "30×",
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Cloyster that live in seas with harsh tidal currents grow large, sharp spikes on their shells.",
+		'en-us': "Cloyster that live in seas with harsh tidal currents grow large, sharp spikes on their shells.",
 	},
 
 	thirdParty: {

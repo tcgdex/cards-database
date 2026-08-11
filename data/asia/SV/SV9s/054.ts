@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "จุปเป็ตตะ",
-		id: "Banette"
+		'th-th': "จุปเป็ตตะ",
+		'id-id': "Banette"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -15,28 +15,28 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		th: "จิตเคียดแค้นสั่งสมในตัวตุ๊กตาที่ถูกทิ้งจนกลายเป็นโปเกมอน พบเจอได้ ในตรอกมืดสลัว",
-		id: "Perasaan dendam terkumpul pada boneka yang dibuang dan berubah menjadi Pokémon. Banette dapat dijumpai di lorong jalan yang gelap."
+		'th-th': "จิตเคียดแค้นสั่งสมในตัวตุ๊กตาที่ถูกทิ้งจนกลายเป็นโปเกมอน พบเจอได้ ในตรอกมืดสลัว",
+		'id-id': "Perasaan dendam terkumpul pada boneka yang dibuang dan berubah menjadi Pokémon. Banette dapat dijumpai di lorong jalan yang gelap."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "ถ้อยคำสาปแช่ง",
-			id: "Kata-kata Kutukan"
+			'th-th': "ถ้อยคำสาปแช่ง",
+			'id-id': "Kata-kata Kutukan"
 		},
 
 		effect: {
-			th: "ฝ่ายตรงข้ามเลือกการ์ดบนมือฝ่ายตรงข้ามเอง 3 ใบ ใส่กลับไปในสำรับการ์ด แล้วสับ",
-			id: "Lawan memilih 3 lembar Kartu Pegangannya, lalu mengocoknya kembali ke Deck."
+			'th-th': "ฝ่ายตรงข้ามเลือกการ์ดบนมือฝ่ายตรงข้ามเอง 3 ใบ ใส่กลับไปในสำรับการ์ด แล้วสับ",
+			'id-id': "Lawan memilih 3 lembar Kartu Pegangannya, lalu mengocoknya kembali ke Deck."
 		},
 
 		cost: ["Psychic"]
 	}, {
 		name: {
-			th: "ฮอลโลว์ช็อต",
-			id: "Hollow Shot"
+			'th-th': "ฮอลโลว์ช็อต",
+			'id-id': "Hollow Shot"
 		},
 
 		damage: 70,

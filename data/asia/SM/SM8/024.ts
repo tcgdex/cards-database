@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤドン",
+		'ja-jp': "ヤドン",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ヤドンの尻尾を 干したあと 塩水で 煮込んだ 料理は アローラの 家庭の 味。",
+		'ja-jp': "ヤドンの尻尾を 干したあと 塩水で 煮込んだ 料理は アローラの 家庭の 味。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "あくび" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 	],

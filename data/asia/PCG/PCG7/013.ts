@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG7"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Bellossom（デルタ種）",
+		'ja-jp': "Bellossom（デルタ種）",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "フェローシップ",
+				'ja-jp': "フェローシップ",
 			},
 			effect: {
-				ja: "Bellossomは、すべての奇妙な、暗がり、vileplume、vileplume ex、またはあなたがプレイしている他のBellossomの攻撃を独自のものとして使用できます。 （各攻撃を使用するために必要なエネルギーが必要です。）",
+				'ja-jp': "Bellossomは、すべての奇妙な、暗がり、vileplume、vileplume ex、またはあなたがプレイしている他のBellossomの攻撃を独自のものとして使用できます。 （各攻撃を使用するために必要なエネルギーが必要です。）",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "アクアフラワー",
+				'ja-jp': "アクアフラワー",
 			},
 			effect: {
-				ja: "対戦相手の次のターン中、Bellossomには弱点はありません。",
+				'ja-jp': "対戦相手の次のターン中、Bellossomには弱点はありません。",
 			},
 			damage: 40,
 		},

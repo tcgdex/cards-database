@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Leafeon",
-		fr: "Phyllali",
-		es: "Leafeon",
-		pt: "Leafeon",
-		it: "Leafeon",
-		de: "Folipurba"
+		'en-us': "Leafeon",
+		'fr-fr': "Phyllali",
+		'es-es': "Leafeon",
+		'pt-br': "Leafeon",
+		'it-it': "Leafeon",
+		'de-de': "Folipurba"
 	},
 
 	rarity: "Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
-		es: "Eevee",
-		pt: "Eevee",
-		it: "Eevee",
-		de: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
+		'es-es': "Eevee",
+		'pt-br': "Eevee",
+		'it-it': "Eevee",
+		'de-de': "Evoli"
 	},
 	stage: "Stage1",
 
@@ -32,32 +32,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Leaflet Blessings",
-			fr: "Bénédictions Folioles",
-			es: "Bendiciones de los Folíolos",
-			pt: "Bênçãos das Folhinhas",
-			it: "Preghiera di Foglioline",
-			de: "Blättchensegen"
+			'en-us': "Leaflet Blessings",
+			'fr-fr': "Bénédictions Folioles",
+			'es-es': "Bendiciones de los Folíolos",
+			'pt-br': "Bênçãos das Folhinhas",
+			'it-it': "Preghiera di Foglioline",
+			'de-de': "Blättchensegen"
 		},
 
 		effect: {
-			en: "Attach a Basic {G} Energy card from your hand to 1 of your Benched Pokémon. If you do, heal all damage from that Pokémon.",
-			fr: "Attachez une carte Énergie {G} de base de votre main à l'un de vos Pokémon de Banc. Dans ce cas, soignez tous les dégâts de ce Pokémon-là.",
-			es: "Une 1 carta de Energía {G} Básica de tu mano a uno de tus Pokémon en Banca. Si lo haces, cura todos los puntos de daño a ese Pokémon.",
-			pt: "Ligue uma carta de Energia {G} Básica da sua mão a 1 dos seus Pokémon no Banco. Se fizer isto, cure todo o dano daquele Pokémon.",
-			it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia base {G} dalla tua mano. Se lo fai, cura quel Pokémon da tutti i danni.",
-			de: "Lege 1 Basis-{G}-Energiekarte aus deiner Hand an 1 Pokémon auf deiner Bank an. Wenn du das machst, heile allen Schaden bei jenem Pokémon."
+			'en-us': "Attach a Basic {G} Energy card from your hand to 1 of your Benched Pokémon. If you do, heal all damage from that Pokémon.",
+			'fr-fr': "Attachez une carte Énergie {G} de base de votre main à l'un de vos Pokémon de Banc. Dans ce cas, soignez tous les dégâts de ce Pokémon-là.",
+			'es-es': "Une 1 carta de Energía {G} Básica de tu mano a uno de tus Pokémon en Banca. Si lo haces, cura todos los puntos de daño a ese Pokémon.",
+			'pt-br': "Ligue uma carta de Energia {G} Básica da sua mão a 1 dos seus Pokémon no Banco. Se fizer isto, cure todo o dano daquele Pokémon.",
+			'it-it': "Assegna a uno dei tuoi Pokémon in panchina una carta Energia base {G} dalla tua mano. Se lo fai, cura quel Pokémon da tutti i danni.",
+			'de-de': "Lege 1 Basis-{G}-Energiekarte aus deiner Hand an 1 Pokémon auf deiner Bank an. Wenn du das machst, heile allen Schaden bei jenem Pokémon."
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Solar Beam",
-			fr: "Lance-Soleil",
-			es: "Rayo Solar",
-			pt: "Raio Solar",
-			it: "Solarraggio",
-			de: "Solarstrahl"
+			'en-us': "Solar Beam",
+			'fr-fr': "Lance-Soleil",
+			'es-es': "Rayo Solar",
+			'pt-br': "Raio Solar",
+			'it-it': "Solarraggio",
+			'de-de': "Solarstrahl"
 		},
 
 		damage: 70

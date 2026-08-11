@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レディアン",
+		'ja-jp': "レディアン",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "星明りが エネルギーと いわれるが 普通に 木の実も 大好物。 昼間は 草に 包まって 寝てる。",
+		'ja-jp': "星明りが エネルギーと いわれるが 普通に 木の実も 大好物。 昼間は 草に 包まって 寝てる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Grass"],
 			effect: {
-				ja: "このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "40×",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを4回投げ、オモテの数x40ダメージ。",
+				'ja-jp': "コインを4回投げ、オモテの数x40ダメージ。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "レディバ",
+		'ja-jp': "レディバ",
 	},
 
 	retreat: 1,

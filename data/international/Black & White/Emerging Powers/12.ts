@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Whimsicott",
-		fr: "Farfaduvet",
-		es: "Whimsicott",
-		it: "Whimsicott",
-		pt: "Whimsicott",
-		de: "Elfun"
+		'en-us': "Whimsicott",
+		'fr-fr': "Farfaduvet",
+		'es-es': "Whimsicott",
+		'it-it': "Whimsicott",
+		'pt-br': "Whimsicott",
+		'de-de': "Elfun"
 	},
 
 	illustrator: "Mizue",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cottonee",
-		fr: "Doudouvet",
+		'en-us': "Cottonee",
+		'fr-fr': "Doudouvet",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Encore",
-				fr: "Encore",
+				'en-us': "Encore",
+				'fr-fr': "Encore",
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon's attacks. During your opponent's next turn, that Pokémon can use only that attack.",
-				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Pendant le prochain tour de votre adversaire, le Pokémon ciblé ne peut utiliser que l'attaque choisie.",
+				'en-us': "Choose 1 of the Defending Pokémon's attacks. During your opponent's next turn, that Pokémon can use only that attack.",
+				'fr-fr': "Choisissez 1 des attaques du Pokémon Défenseur. Pendant le prochain tour de votre adversaire, le Pokémon ciblé ne peut utiliser que l'attaque choisie.",
 			},
 			damage: 20,
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "U-turn",
-				fr: "Demi-Tour",
+				'en-us': "U-turn",
+				'fr-fr': "Demi-Tour",
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
 			},
 			damage: 40,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Riding whirlwinds, they appear. These Pokémon sneak through gaps into houses and cause all sorts of mischief.",
+		'en-us': "Riding whirlwinds, they appear. These Pokémon sneak through gaps into houses and cause all sorts of mischief.",
 	},
 
 	thirdParty: {

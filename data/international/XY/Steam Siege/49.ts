@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Lampent",
-		fr: "Mélancolux",
-		es: "Lampent",
-		it: "Lampent",
-		pt: "Lampent",
-		de: "Laternecto"
+		'en-us': "Lampent",
+		'fr-fr': "Mélancolux",
+		'es-es': "Lampent",
+		'it-it': "Lampent",
+		'pt-br': "Lampent",
+		'de-de': "Laternecto"
 	},
 
 	illustrator: "miki kudo",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Litwick",
-		fr: "Funécire",
-		es: "Litwick",
-		it: "Litwick",
-		pt: "Litwick",
-		de: "Lichtel"
+		'en-us': "Litwick",
+		'fr-fr': "Funécire",
+		'es-es': "Litwick",
+		'it-it': "Litwick",
+		'pt-br': "Litwick",
+		'de-de': "Lichtel"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mirror Mirror",
-				fr: "Miroir",
-				es: "Espejo Espejito",
-				it: "Specchio Specchio",
-				pt: "Espelho Espelho",
-				de: "Spieglein, Spieglein"
+				'en-us': "Mirror Mirror",
+				'fr-fr': "Miroir",
+				'es-es': "Espejo Espejito",
+				'it-it': "Specchio Specchio",
+				'pt-br': "Espelho Espelho",
+				'de-de': "Spieglein, Spieglein"
 			},
 			effect: {
-				en: "Each player either draws or discards cards until that player has 4 cards in his or her hand. (Your opponent does this first.)",
-				fr: "Chaque joueur pioche ou défausse des cartes jusqu'à avoir 4 cartes dans sa main. (Votre adversaire le fait en premier.)",
-				es: "Cada jugador roba o descarta cartas hasta tener 4 cartas en su mano. (Tu rival lo hace primero).",
-				it: "Ciascun giocatore pesca o scarta carte fino ad avere quattro carte in mano. Inizia il tuo avversario.",
-				pt: "Cada jogador compra ou descarta cards até ter 4 cards na mão dele(a). (Seu oponente faz isso primeiro.)",
-				de: "Jeder Spieler muss so viele Karten ziehen oder ablegen, bis der Spieler 4 Karten auf der Hand hat. (Dein Gegner beginnt.)"
+				'en-us': "Each player either draws or discards cards until that player has 4 cards in his or her hand. (Your opponent does this first.)",
+				'fr-fr': "Chaque joueur pioche ou défausse des cartes jusqu'à avoir 4 cartes dans sa main. (Votre adversaire le fait en premier.)",
+				'es-es': "Cada jugador roba o descarta cartas hasta tener 4 cartas en su mano. (Tu rival lo hace primero).",
+				'it-it': "Ciascun giocatore pesca o scarta carte fino ad avere quattro carte in mano. Inizia il tuo avversario.",
+				'pt-br': "Cada jogador compra ou descarta cards até ter 4 cards na mão dele(a). (Seu oponente faz isso primeiro.)",
+				'de-de': "Jeder Spieler muss so viele Karten ziehen oder ablegen, bis der Spieler 4 Karten auf der Hand hat. (Dein Gegner beginnt.)"
 			},
 
 		},
@@ -66,20 +66,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flickering Flames",
-				fr: "Flammes Vacillantes",
-				es: "Llamas Titilantes",
-				it: "Guizzafiamme",
-				pt: "Chamas Tremeluzentes",
-				de: "Züngelnde Flammen"
+				'en-us': "Flickering Flames",
+				'fr-fr': "Flammes Vacillantes",
+				'es-es': "Llamas Titilantes",
+				'it-it': "Guizzafiamme",
+				'pt-br': "Chamas Tremeluzentes",
+				'de-de': "Züngelnde Flammen"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent's Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 20,
 
@@ -103,7 +103,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It arrives near the moment of death and steals spirit from the body.",
+		'en-us': "It arrives near the moment of death and steals spirit from the body.",
 	},
 
 	thirdParty: {

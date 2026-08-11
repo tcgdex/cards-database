@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミニリュウ",
+		'ja-jp': "ミニリュウ",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "とある 釣り師が １０時間の ファイトの 末に 釣り上げて 存在が 確認 された。",
+		'ja-jp': "とある 釣り師が １０時間の ファイトの 末に 釣り上げて 存在が 確認 された。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "しんかのきざし" },
 			cost: ["Grass"],
 			effect: {
-				ja: "自分の山札にある「ミニリュウ」「ハクリュー」「カイリュー」を1枚ずつ、相手に見せてから、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札にある「ミニリュウ」「ハクリュー」「カイリュー」を1枚ずつ、相手に見せてから、手札に加える。そして山札を切る。",
 			},
 		},
 		{

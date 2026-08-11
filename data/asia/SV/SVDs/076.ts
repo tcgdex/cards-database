@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โมนเมน",
-		id: "Cottonee"
+		'th-th': "โมนเมน",
+		'id-id': "Cottonee"
 	},
 
 	illustrator: "kurumitsu",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		th: "เนื้อผ้าที่ทอด้วยฝ้ายของวาตะชิรากะผสมกับของโมนเมนนั้นสวยงาม นำไปใช้ทำสินค้าของแบรนด์หรู ๆ",
-		id: "Kain bahan yang ditenun menggunakan campuran kapas Cottonee dan Eldegoss sangatlah cantik dan digunakan pada produk bermerek dengan kualitas tinggi."
+		'th-th': "เนื้อผ้าที่ทอด้วยฝ้ายของวาตะชิรากะผสมกับของโมนเมนนั้นสวยงาม นำไปใช้ทำสินค้าของแบรนด์หรู ๆ",
+		'id-id': "Kain bahan yang ditenun menggunakan campuran kapas Cottonee dan Eldegoss sangatlah cantik dan digunakan pada produk bermerek dengan kualitas tinggi."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "โจมตีตามใจฉัน",
-			id: "Serbuan Semaunya"
+			'th-th': "โจมตีตามใจฉัน",
+			'id-id': "Serbuan Semaunya"
 		},
 
 		effect: {
-			th: "ทอยเหรียญ 1 ครั้งถ้าออกก้อย ท่าต่อสู้นี้จะล้มเหลว",
-			id: "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal."
+			'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกก้อย ท่าต่อสู้นี้จะล้มเหลว",
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal."
 		},
 
 		damage: 30,

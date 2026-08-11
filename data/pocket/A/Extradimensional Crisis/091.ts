@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Froakie",
-		fr: "Grenousse"
+		'en-us': "Froakie",
+		'fr-fr': "Grenousse"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -17,16 +17,16 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It secretes flexible bubbles from its chest and back.\nThe bubbles reduce the damage it would otherwise\ntake when attacked.",
-		fr: "Sa poitrine et son dos sécrètent une mousse qui lui permet de subir moins de dégâts en amortissant le choc des attaques."
+		'en-us': "It secretes flexible bubbles from its chest and back.\nThe bubbles reduce the damage it would otherwise\ntake when attacked.",
+		'fr-fr': "Sa poitrine et son dos sécrètent une mousse qui lui permet de subir moins de dégâts en amortissant le choc des attaques."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Flop",
-			fr: "Flop"
+			'en-us': "Flop",
+			'fr-fr': "Flop"
 		},
 
 		damage: 10,

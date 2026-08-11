@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Veluza",
-		fr: "Délestin",
-		es: "Veluza",
-		it: "Veluza",
-		pt: "Veluza",
-		de: "Agiluza"
+		'en-us': "Veluza",
+		'fr-fr': "Délestin",
+		'es-es': "Veluza",
+		'it-it': "Veluza",
+		'pt-br': "Veluza",
+		'de-de': "Agiluza"
   },
   illustrator: "Oswaldo KATO",
   rarity: "One Diamond",

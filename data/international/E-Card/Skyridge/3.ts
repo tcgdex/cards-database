@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Arcanine",
-		de: "Arkani"
+		'en-us': "Arcanine",
+		'de-de': "Arkani"
 	},
 
 	illustrator: "Aya Kusube",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Growlithe",
+		'en-us': "Growlithe",
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Energy Recharge",
-				de: "Energy Recharge"
+				'en-us': "Energy Recharge",
+				'de-de': "Energy Recharge"
 			},
 			effect: {
-				en: "When you play Arcanine from your hand to evolve your Active Pokémon, you may flip 3 coins. For each heads, choose a basic Energy card from your discard pile and attach it to Arcanine.",
-				de: "When your play Arcanine from your hand to evolve your Active Pokémon, you may flip 3 coins. For each heads, choose a basic Energy card from your discard pile and attach it to Arcanine."
+				'en-us': "When you play Arcanine from your hand to evolve your Active Pokémon, you may flip 3 coins. For each heads, choose a basic Energy card from your discard pile and attach it to Arcanine.",
+				'de-de': "When your play Arcanine from your hand to evolve your Active Pokémon, you may flip 3 coins. For each heads, choose a basic Energy card from your discard pile and attach it to Arcanine."
 			},
 		},
 	],
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shake",
-				de: "Shake"
+				'en-us': "Shake",
+				'de-de': "Shake"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
-				de: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
+				'de-de': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any."
 			},
 			damage: 10,
 
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "White Flames",
-				de: "White Flames"
+				'en-us': "White Flames",
+				'de-de': "White Flames"
 			},
 			effect: {
-				en: "Discard all Fire Energy cards attached to Arcanine.",
-				de: "Discard all  Energy cards attached to Arcanine."
+				'en-us': "Discard all Fire Energy cards attached to Arcanine.",
+				'de-de': "Discard all  Energy cards attached to Arcanine."
 			},
 			damage: 70,
 

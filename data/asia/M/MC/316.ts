@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アグノム",
+		'ja-jp': "アグノム",
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "意思の神と 呼ばれている。 湖の 底で 眠り続け 世界の バランスを とっている。",
+		'ja-jp': "意思の神と 呼ばれている。 湖の 底で 眠り続け 世界の バランスを とっている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "相手のポケモン全員にのっているダメカンの数×10ダメージ追加。",
+				'ja-jp': "相手のポケモン全員にのっているダメカンの数×10ダメージ追加。",
 			},
 		},
 	],

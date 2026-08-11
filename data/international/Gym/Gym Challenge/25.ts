@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Koga's Arbok"
+		'en-us': "Koga's Arbok"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ekans"
+		'en-us': "Ekans"
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Buildup"
+				'en-us': "Poison Buildup"
 			},
 			effect: {
-				en: "Koga's Arbok is now Poisoned."
+				'en-us': "Koga's Arbok is now Poisoned."
 			},
 
 		},
@@ -44,10 +44,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Power"
+				'en-us': "Poison Power"
 			},
 			effect: {
-				en: "If Koga's Arbok is Poisoned, this attack's base damage is 40 instead of 20 and the Defending Pokémon is now Poisoned."
+				'en-us': "If Koga's Arbok is Poisoned, this attack's base damage is 40 instead of 20 and the Defending Pokémon is now Poisoned."
 			},
 
 		},

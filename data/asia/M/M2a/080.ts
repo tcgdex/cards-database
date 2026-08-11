@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レイスポス",
+		'ja-jp': "レイスポス",
 	},
 
 	illustrator: "Taiga Kasai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "視覚 以外の 五感を 使い 様子を 探る。 蹴られたものは 魂を 抜かれてしまうという。",
+		'ja-jp': "視覚 以外の 五感を 使い 様子を 探る。 蹴られたものは 魂を 抜かれてしまうという。",
 	},
 
 	stage: "Basic",
@@ -28,7 +28,7 @@ const card: Card = {
 			name: { ja: "ファントムビット" },
 			cost: ["Psychic", "Psychic", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーをすべてトラッシュし、相手のポケモン1匹に、ダメカンを12個のせる。",
+				'ja-jp': "このポケモンについているエネルギーをすべてトラッシュし、相手のポケモン1匹に、ダメカンを12個のせる。",
 			},
 		},
 	],

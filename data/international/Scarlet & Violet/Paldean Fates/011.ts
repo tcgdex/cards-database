@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Numel",
-		fr: "Chamallot",
-		es: "Numel",
-		it: "Numel",
-		pt: "Numel",
-		de: "Camaub"
+		'en-us': "Numel",
+		'fr-fr': "Chamallot",
+		'es-es': "Numel",
+		'it-it': "Numel",
+		'pt-br': "Numel",
+		'de-de': "Camaub"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Singe",
-			fr: "Roussi",
-			es: "Quemadura",
-			it: "Scottata",
-			pt: "Chamuscada",
-			de: "Versengung"
+			'en-us': "Singe",
+			'fr-fr': "Roussi",
+			'es-es': "Quemadura",
+			'it-it': "Scottata",
+			'pt-br': "Chamuscada",
+			'de-de': "Versengung"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+			'en-us': "Your opponent's Active Pokémon is now Burned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 		}
 	}, {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Heat Blast",
-			fr: "Explosion de Chaleur",
-			es: "Explosión de Calor",
-			it: "Caldobomba",
-			pt: "Raio de Calor",
-			de: "Hitzestoß"
+			'en-us': "Heat Blast",
+			'fr-fr': "Explosion de Chaleur",
+			'es-es': "Explosión de Calor",
+			'it-it': "Caldobomba",
+			'pt-br': "Raio de Calor",
+			'de-de': "Hitzestoß"
 		},
 
 		damage: 60
@@ -86,7 +86,7 @@ const card: Card = {
 	illustrator: "Mina Nakai",
 
 	description: {
-		en: "Magma of almost 2,200 degrees Fahrenheit courses through its body. When it grows cold, the magma hardens and slows it.",
+		'en-us': "Magma of almost 2,200 degrees Fahrenheit courses through its body. When it grows cold, the magma hardens and slows it.",
 	},
 
 }

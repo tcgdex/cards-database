@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フラフィー",
+		'ja-jp': "フラフィー",
 	},
 
 	rarity: "Common",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "サンダーウェーブ",
+				'ja-jp': "サンダーウェーブ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Lightning", "Colorless", "Colorless"],
 			name: {
-				ja: "雷",
+				'ja-jp': "雷",
 			},
 			effect: {
-				ja: "Flaaffyはそれ自体に10ダメージを与えます。",
+				'ja-jp': "Flaaffyはそれ自体に10ダメージを与えます。",
 			},
 			damage: 50,
 		},

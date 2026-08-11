@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Farigiraf",
-		en: "Farigiraf",
-		es: "Farigiraf",
-		it: "Farigiraf",
-		pt: "Farigiraf",
-		de: "Farigiraf"
+		'fr-fr': "Farigiraf",
+		'en-us': "Farigiraf",
+		'es-es': "Farigiraf",
+		'it-it': "Farigiraf",
+		'pt-br': "Farigiraf",
+		'de-de': "Farigiraf"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Colorless"],
 	evolveFrom: {
-		fr: "Girafarig",
-		en: "Girafarig",
-		es: "Girafarig",
-		it: "Girafarig",
-		pt: "Girafarig",
-		de: "Girafarig"
+		'fr-fr': "Girafarig",
+		'en-us': "Girafarig",
+		'es-es': "Girafarig",
+		'it-it': "Girafarig",
+		'pt-br': "Girafarig",
+		'de-de': "Girafarig"
 	},
 	stage: "Stage1",
 
@@ -32,32 +32,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Soit l'Un Soit l'Autre",
-			en: "Either Face",
-			es: "Dos Caras",
-			it: "Sceglifaccia",
-			pt: "Qualquer Face",
-			de: "Gesichtswahl"
+			'fr-fr': "Soit l'Un Soit l'Autre",
+			'en-us': "Either Face",
+			'es-es': "Dos Caras",
+			'it-it': "Sceglifaccia",
+			'pt-br': "Qualquer Face",
+			'de-de': "Gesichtswahl"
 		},
 
 		effect: {
-			fr: "Choisissez un joueur. Ce joueur-là mélange sa main avec son deck et pioche 4 cartes.",
-			en: "Choose a player. That player shuffles their hand into their deck and draws 4 cards.",
-			es: "Elige un jugador. Ese jugador pone las cartas de su mano en su baraja, las baraja todas y roba 4 cartas.",
-			it: "Scegli un giocatore. Quel giocatore rimischia le carte che ha in mano nel proprio mazzo e pesca quattro carte.",
-			pt: "Escolha um jogador. Aquele jogador embaralha a mão dele no baralho dele e compra 4 cartas.",
-			de: "Wähle 1 Spieler. Jener Spieler mischt seine Handkarten in sein Deck und zieht 4 Karten."
+			'fr-fr': "Choisissez un joueur. Ce joueur-là mélange sa main avec son deck et pioche 4 cartes.",
+			'en-us': "Choose a player. That player shuffles their hand into their deck and draws 4 cards.",
+			'es-es': "Elige un jugador. Ese jugador pone las cartas de su mano en su baraja, las baraja todas y roba 4 cartas.",
+			'it-it': "Scegli un giocatore. Quel giocatore rimischia le carte che ha in mano nel proprio mazzo e pesca quattro carte.",
+			'pt-br': "Escolha um jogador. Aquele jogador embaralha a mão dele no baralho dele e compra 4 cartas.",
+			'de-de': "Wähle 1 Spieler. Jener Spieler mischt seine Handkarten in sein Deck und zieht 4 Karten."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Puissant Rayon",
-			en: "Power Beam",
-			es: "Rayo de Luz Poderoso",
-			it: "Raggiopotenza",
-			pt: "Raio de Poder",
-			de: "Power-Strahl"
+			'fr-fr': "Puissant Rayon",
+			'en-us': "Power Beam",
+			'es-es': "Rayo de Luz Poderoso",
+			'it-it': "Raggiopotenza",
+			'pt-br': "Raio de Poder",
+			'de-de': "Power-Strahl"
 		},
 
 		damage: 130
@@ -94,7 +94,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "Now that the brain waves from the head and tail are synced up, the psychic power of this Pokémon is 10 times stronger than Girafarig's.",
+		'en-us': "Now that the brain waves from the head and tail are synced up, the psychic power of this Pokémon is 10 times stronger than Girafarig's.",
 	},
 }
 

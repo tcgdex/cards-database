@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Altaria",
-		fr: "Altaria",
-		de: "Altaria"
+		'en-us': "Altaria",
+		'fr-fr': "Altaria",
+		'de-de': "Altaria"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Swablu",
-		fr: "Tylton"
+		'en-us': "Swablu",
+		'fr-fr': "Tylton"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Midnight Eyes",
-				fr: "Yeux de minuit",
-				de: "Midnight Eyes"
+				'en-us': "Midnight Eyes",
+				'fr-fr': "Yeux de minuit",
+				'de-de': "Midnight Eyes"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 			damage: 20,
 
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Perish Song",
-				fr: "Requiem",
-				de: "Perish Song"
+				'en-us': "Perish Song",
+				'fr-fr': "Requiem",
+				'de-de': "Perish Song"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Asleep and was damaged or affected by Midnight Eyes during your last turn, the Defending Pokémon is Knocked Out.",
-				fr: "Si le Pokémon Défenseur est Endormi et que l'attaque Yeux de minuit lui a infligé des dégâts lors de votre tour précédent, il est mis K.O.",
-				de: "If the Defending Pokémo is Asleep and was damaged or affected by Midnight Eyes during your last turn, the Defending Pokémon is Knocked Out."
+				'en-us': "If the Defending Pokémon is Asleep and was damaged or affected by Midnight Eyes during your last turn, the Defending Pokémon is Knocked Out.",
+				'fr-fr': "Si le Pokémon Défenseur est Endormi et que l'attaque Yeux de minuit lui a infligé des dégâts lors de votre tour précédent, il est mis K.O.",
+				'de-de': "If the Defending Pokémo is Asleep and was damaged or affected by Midnight Eyes during your last turn, the Defending Pokémon is Knocked Out."
 			},
 
 		},
@@ -69,14 +69,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Healing Song",
-				fr: "Chanson guérisseuse",
-				de: "Healing Song"
+				'en-us': "Healing Song",
+				'fr-fr': "Chanson guérisseuse",
+				'de-de': "Healing Song"
 			},
 			effect: {
-				en: "Remove 1 damage counter from each of your Pokémon.",
-				fr: "Retirez à chacun de vos Pokémon 1 marqueur de dégât.",
-				de: "Remove 1 damage counter from each of your Pokémon."
+				'en-us': "Remove 1 damage counter from each of your Pokémon.",
+				'fr-fr': "Retirez à chacun de vos Pokémon 1 marqueur de dégât.",
+				'de-de': "Remove 1 damage counter from each of your Pokémon."
 			},
 			damage: 40,
 

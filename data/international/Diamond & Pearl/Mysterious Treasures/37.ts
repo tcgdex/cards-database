@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Unown I",
-		fr: "Zarbi",
-		de: "Icognito I"
+		'en-us': "Unown I",
+		'fr-fr': "Zarbi",
+		'de-de': "Icognito I"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "ITEM",
-				fr: "INVENTAIRE",
-				de: "ITEM"
+				'en-us': "ITEM",
+				'fr-fr': "INVENTAIRE",
+				'de-de': "ITEM"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if you have Unown I, Unown T, Unown E, and Unown M on your Bench, you may search your deck for a Trainer card, show it to your opponent, and put it into your hand. Shuffle your deck afterward. You can't use more than 1 ITEM Poké-Power each turn.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), si vous avez Zarbi I, Zarbi T, Zarbi E, et Zarbi M sur votre Banc, vous pouvez choisir dans votre deck une carte Dresseur. Montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck. Vous ne pouvez pas utiliser plus d'1 Poké-Power INVENTAIRE par tour.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn sich Icognito I, Icognito T, Icognito E und Icognito M auf deiner Bank befinden, dein Deck nach einer Trainerkarte durchsuchen. Zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach. Du kannst nicht mehr als 1 ITEM Poké-Power pro Zug einsetzen."
+				'en-us': "Once during your turn (before your attack), if you have Unown I, Unown T, Unown E, and Unown M on your Bench, you may search your deck for a Trainer card, show it to your opponent, and put it into your hand. Shuffle your deck afterward. You can't use more than 1 ITEM Poké-Power each turn.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), si vous avez Zarbi I, Zarbi T, Zarbi E, et Zarbi M sur votre Banc, vous pouvez choisir dans votre deck une carte Dresseur. Montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck. Vous ne pouvez pas utiliser plus d'1 Poké-Power INVENTAIRE par tour.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn sich Icognito I, Icognito T, Icognito E und Icognito M auf deiner Bank befinden, dein Deck nach einer Trainerkarte durchsuchen. Zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach. Du kannst nicht mehr als 1 ITEM Poké-Power pro Zug einsetzen."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hidden Power",
-				fr: "Puissance cachée",
-				de: "Kraftreserve"
+				'en-us': "Hidden Power",
+				'fr-fr': "Puissance cachée",
+				'de-de': "Kraftreserve"
 			},
 			effect: {
-				en: "Choose an Energy card attached to the Defending Pokémon and put it face down. Treat that card as a Special Energy card that provides Colorless Energy and doesn't have any effect other than providing Energy. Put that card face up at the end of your opponent's next turn.",
-				fr: "Choisissez une carte Énergie attachée au Pokémon Défenseur et placez-la face cachée. Traitez cette carte comme une carte Énergie Spéciale qui fournit de l'Énergie Colorless et qui n'a pas d'autre effet que de fournir de l'Énergie. Retournez cette carte à la fin du prochain tour de votre adversaire.",
-				de: "Wähle eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, und verdecke sie. Behandle diese Karte wie eine Spezialenergiekarte, die -Energie liefert und keinen anderen Effekt hat, als Energie zu liefern. Decke die Karte am Ende des nächsten Zuges deines Gegners wieder auf."
+				'en-us': "Choose an Energy card attached to the Defending Pokémon and put it face down. Treat that card as a Special Energy card that provides Colorless Energy and doesn't have any effect other than providing Energy. Put that card face up at the end of your opponent's next turn.",
+				'fr-fr': "Choisissez une carte Énergie attachée au Pokémon Défenseur et placez-la face cachée. Traitez cette carte comme une carte Énergie Spéciale qui fournit de l'Énergie Colorless et qui n'a pas d'autre effet que de fournir de l'Énergie. Retournez cette carte à la fin du prochain tour de votre adversaire.",
+				'de-de': "Wähle eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, und verdecke sie. Behandle diese Karte wie eine Spezialenergiekarte, die -Energie liefert und keinen anderen Effekt hat, als Energie zu liefern. Decke die Karte am Ende des nächsten Zuges deines Gegners wieder auf."
 			},
 
 		},
@@ -70,8 +70,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Shaped like ancient writing, it is a huge mystery whether language or UNOWN came first.",
-		fr: "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou du Zarbi est apparu en premier."
+		'en-us': "Shaped like ancient writing, it is a huge mystery whether language or UNOWN came first.",
+		'fr-fr': "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou du Zarbi est apparu en premier."
 	},
 
 	variants: [

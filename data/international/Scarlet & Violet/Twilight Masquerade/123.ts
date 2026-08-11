@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Heatran",
-		fr: "Heatran",
-		es: "Heatran",
-		it: "Heatran",
-		pt: "Heatran",
-		de: "Heatran"
+		'en-us': "Heatran",
+		'fr-fr': "Heatran",
+		'es-es': "Heatran",
+		'it-it': "Heatran",
+		'pt-br': "Heatran",
+		'de-de': "Heatran"
 	},
 
 	rarity: "Rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Incandescent Body",
-			fr: "Corps Incandescent",
-			es: "Cuerpo Incandescente",
-			it: "Corpo Incandescente",
-			pt: "Corpo Incandescente",
-			de: "Innere Weißglut"
+			'en-us': "Incandescent Body",
+			'fr-fr': "Corps Incandescent",
+			'es-es': "Cuerpo Incandescente",
+			'it-it': "Corpo Incandescente",
+			'pt-br': "Corpo Incandescente",
+			'de-de': "Innere Weißglut"
 		},
 
 		effect: {
-			en: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Burned.",
-			fr: "Si ce Pokémon est sur le Poste Actif et qu'il subit les dégâts d'une attaque d'un Pokémon de votre adversaire (même si ce Pokémon est mis K.O.), le Pokémon Attaquant est maintenant Brûlé.",
-			es: "Si este Pokémon está en el Puesto Activo y resulta dañado por un ataque de los Pokémon de tu rival (incluso si este Pokémon queda Fuera de Combate), el Pokémon Atacante pasa a estar Quemado.",
-			it: "Se questo Pokémon è in posizione attiva e viene danneggiato da un attacco di un Pokémon del tuo avversario, anche se viene messo KO, il Pokémon attaccante viene bruciato.",
-			pt: "Se este Pokémon estiver no Campo Ativo e for danificado por um ataque dos Pokémon do seu oponente (mesmo que este Pokémon seja Nocauteado), o Pokémon Atacante agora estará Queimado.",
-			de: "Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), ist das Angreifende Pokémon jetzt verbrannt."
+			'en-us': "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Burned.",
+			'fr-fr': "Si ce Pokémon est sur le Poste Actif et qu'il subit les dégâts d'une attaque d'un Pokémon de votre adversaire (même si ce Pokémon est mis K.O.), le Pokémon Attaquant est maintenant Brûlé.",
+			'es-es': "Si este Pokémon está en el Puesto Activo y resulta dañado por un ataque de los Pokémon de tu rival (incluso si este Pokémon queda Fuera de Combate), el Pokémon Atacante pasa a estar Quemado.",
+			'it-it': "Se questo Pokémon è in posizione attiva e viene danneggiato da un attacco di un Pokémon del tuo avversario, anche se viene messo KO, il Pokémon attaccante viene bruciato.",
+			'pt-br': "Se este Pokémon estiver no Campo Ativo e for danificado por um ataque dos Pokémon do seu oponente (mesmo que este Pokémon seja Nocauteado), o Pokémon Atacante agora estará Queimado.",
+			'de-de': "Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), ist das Angreifende Pokémon jetzt verbrannt."
 		}
 	}],
 
@@ -46,21 +46,21 @@ const card: Card = {
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		name: {
-			en: "Steel Burst",
-			fr: "Explosion Acier",
-			es: "Explosión Acero",
-			it: "Scoppiacciaio",
-			pt: "Explosão de Aço",
-			de: "Stahlausbruch"
+			'en-us': "Steel Burst",
+			'fr-fr': "Explosion Acier",
+			'es-es': "Explosión Acero",
+			'it-it': "Scoppiacciaio",
+			'pt-br': "Explosão de Aço",
+			'de-de': "Stahlausbruch"
 		},
 
 		effect: {
-			en: "Discard all {M} Energy from this Pokémon. This attack does 50 damage for each card you discarded in this way.",
-			fr: "Défaussez toutes les Énergies {M} de ce Pokémon. Cette attaque inflige 50 dégâts pour chaque carte défaussée de cette façon.",
-			es: "Descarta todas las Energías {M} de este Pokémon. Este ataque hace 50 puntos de daño por cada carta que hayas descartado de esta manera.",
-			it: "Scarta tutte le Energie {M} da questo Pokémon. Questo attacco infligge 50 danni per ogni carta che hai scartato in questo modo.",
-			pt: "Descarte todas as Energias {M} deste Pokémon. Este ataque causa 50 pontos de dano para cada carta descartada desta forma.",
-			de: "Lege alle {M}-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 50 Schadenspunkte zu."
+			'en-us': "Discard all {M} Energy from this Pokémon. This attack does 50 damage for each card you discarded in this way.",
+			'fr-fr': "Défaussez toutes les Énergies {M} de ce Pokémon. Cette attaque inflige 50 dégâts pour chaque carte défaussée de cette façon.",
+			'es-es': "Descarta todas las Energías {M} de este Pokémon. Este ataque hace 50 puntos de daño por cada carta que hayas descartado de esta manera.",
+			'it-it': "Scarta tutte le Energie {M} da questo Pokémon. Questo attacco infligge 50 danni per ogni carta che hai scartato in questo modo.",
+			'pt-br': "Descarte todas as Energias {M} deste Pokémon. Este ataque causa 50 pontos de dano para cada carta descartada desta forma.",
+			'de-de': "Lege alle {M}-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 50 Schadenspunkte zu."
 		},
 
 		damage: "50×"
@@ -82,7 +82,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls.",
+		'en-us': "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls.",
 	},
 
 	variants: [

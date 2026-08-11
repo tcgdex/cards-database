@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "はくばバドレックスV",
+		'ja-jp': "はくばバドレックスV",
 		'zh-tw': "白馬蕾冠王V",
 	},
 
@@ -18,7 +18,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "つきさす",
+				'ja-jp': "つきさす",
 				'zh-tw': "突刺",
 			},
 			damage: 40,
@@ -26,13 +26,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ブリザードランス",
+				'ja-jp': "ブリザードランス",
 				'zh-tw': "雪矛",
 			},
 			damage: 200,
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを2個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。",
 				'zh-tw': "選擇2個這隻寶可夢身上附加的能量，將其丟棄。",
 			},
 		},

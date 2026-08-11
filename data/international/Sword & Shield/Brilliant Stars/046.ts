@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Electabuzz",
-		fr: "Élektek",
-		es: "Electabuzz",
-		it: "Electabuzz",
-		pt: "Electabuzz",
-		de: "Elektek"
+		'en-us': "Electabuzz",
+		'fr-fr': "Élektek",
+		'es-es': "Electabuzz",
+		'it-it': "Electabuzz",
+		'pt-br': "Electabuzz",
+		'de-de': "Elektek"
 	},
 
 	illustrator: "OKACHEKE",
@@ -25,32 +25,32 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Thunder Wave",
-			fr: "Cage Éclair",
-			es: "Onda Trueno",
-			it: "Tuononda",
-			pt: "Onda de Trovão",
-			de: "Donnerwelle"
+			'en-us': "Thunder Wave",
+			'fr-fr': "Cage Éclair",
+			'es-es': "Onda Trueno",
+			'it-it': "Tuononda",
+			'pt-br': "Onda de Trovão",
+			'de-de': "Donnerwelle"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		}
 	}, {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Head Bolt",
-			fr: "Éclair Frontal",
-			es: "Rayo de Cabeza",
-			it: "Zuccalampo",
-			pt: "Raio de Cabeça",
-			de: "Kopf-Blitz"
+			'en-us': "Head Bolt",
+			'fr-fr': "Éclair Frontal",
+			'es-es': "Rayo de Cabeza",
+			'it-it': "Zuccalampo",
+			'pt-br': "Raio de Cabeça",
+			'de-de': "Kopf-Blitz"
 		},
 
 		damage: 30
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Many power plants keep Ground-type Pokémon around as a defense against Electabuzz that come seeking electricity.",
+		'en-us': "Many power plants keep Ground-type Pokémon around as a defense against Electabuzz that come seeking electricity.",
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Cradopaud",
-		en: "Croagunk",
-		es: "Croagunk",
-		it: "Croagunk",
-		pt: "Croagunk",
-		de: "Glibunkel"
+		'fr-fr': "Cradopaud",
+		'en-us': "Croagunk",
+		'es-es': "Croagunk",
+		'it-it': "Croagunk",
+		'pt-br': "Croagunk",
+		'de-de': "Glibunkel"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			fr: "Dard-Venin",
-			en: "Poison Sting",
-			es: "Picotazo Veneno",
-			it: "Velenospina",
-			pt: "Ferrão Venenoso",
-			de: "Giftstachel"
+			'fr-fr': "Dard-Venin",
+			'en-us': "Poison Sting",
+			'es-es': "Picotazo Veneno",
+			'it-it': "Velenospina",
+			'pt-br': "Ferrão Venenoso",
+			'de-de': "Giftstachel"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		},
 
 		damage: 10
@@ -75,7 +75,7 @@ const card: Card = {
 	illustrator: "kawayoo",
 
 	description: {
-		en: "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",
+		'en-us': "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",
 	},
 }
 

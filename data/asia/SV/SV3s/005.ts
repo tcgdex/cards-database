@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Shuckle"
+		'id-id': "Shuckle"
 	},
 
 	illustrator: "Kurata So",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Tanpa disadari, beri yang ditimbun Shuckle di dalam tempurungnya yang berbentuk seperti pot berubah menjadi jus kental yang pekat."
+		'id-id': "Tanpa disadari, beri yang ditimbun Shuckle di dalam tempurungnya yang berbentuk seperti pot berubah menjadi jus kental yang pekat."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Aroma Beri"
+			'id-id': "Aroma Beri"
 		},
 
 		effect: {
-			id: "Pilih 1 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
+			'id-id': "Pilih 1 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Guard Press"
+			'id-id': "Guard Press"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 30."
+			'id-id': "Pada giliran lawan berikutnya, kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 30."
 		},
 
 		damage: 30,

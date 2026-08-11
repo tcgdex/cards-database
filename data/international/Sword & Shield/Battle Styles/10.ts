@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Durant",
-		fr: "Fermite",
-		es: "Durant",
-		it: "Durant",
-		pt: "Durant",
-		de: "Fermicula"
+		'en-us': "Durant",
+		'fr-fr': "Fermite",
+		'es-es': "Durant",
+		'it-it': "Durant",
+		'pt-br': "Durant",
+		'de-de': "Fermicula"
 	},
 
 	illustrator: "kodama",
@@ -22,33 +22,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Vise Grip",
-			fr: "Force Poigne",
-			es: "Agarre",
-			it: "Presa",
-			pt: "Agarramento Compressor",
-			de: "Klammer"
+			'en-us': "Vise Grip",
+			'fr-fr': "Force Poigne",
+			'es-es': "Agarre",
+			'it-it': "Presa",
+			'pt-br': "Agarramento Compressor",
+			'de-de': "Klammer"
 		},
 
 		damage: 20,
 		cost: ["Grass"]
 	}, {
 		name: {
-			en: "Devour",
-			fr: "Voracité",
-			es: "Devorar",
-			it: "Divoratore",
-			pt: "Devorar",
-			de: "Verschlinger"
+			'en-us': "Devour",
+			'fr-fr': "Voracité",
+			'es-es': "Devorar",
+			'it-it': "Divoratore",
+			'pt-br': "Devorar",
+			'de-de': "Verschlinger"
 		},
 
 		effect: {
-			en: "For each of your Durant in play, discard the top card of your opponent's deck.",
-			fr: "Pour chacun de vos Fermite en jeu, défaussez la carte du dessus du deck de votre adversaire.",
-			es: "Por cada uno de tus Durant en juego, descarta la primera carta de la baraja de tu rival.",
-			it: "Per ogni tuo Durant in gioco, scarta la prima carta del mazzo del tuo avversario.",
-			pt: "Para cada um dos seus Durant em jogo, descarte a carta de cima do baralho do seu oponente.",
-			de: "Lege für jedes deiner Fermicula im Spiel die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+			'en-us': "For each of your Durant in play, discard the top card of your opponent's deck.",
+			'fr-fr': "Pour chacun de vos Fermite en jeu, défaussez la carte du dessus du deck de votre adversaire.",
+			'es-es': "Por cada uno de tus Durant en juego, descarta la primera carta de la baraja de tu rival.",
+			'it-it': "Per ogni tuo Durant in gioco, scarta la prima carta del mazzo del tuo avversario.",
+			'pt-br': "Para cada um dos seus Durant em jogo, descarte a carta de cima do baralho do seu oponente.",
+			'de-de': "Lege für jedes deiner Fermicula im Spiel die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 		},
 
 		cost: ["Colorless", "Colorless"]
@@ -66,7 +66,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "With their large mandibles, these Pokémon can crunch their way through rock. They work together to protect their eggs from Sandaconda."
+		'en-us': "With their large mandibles, these Pokémon can crunch their way through rock. They work together to protect their eggs from Sandaconda."
 	},
 
 	variants: [

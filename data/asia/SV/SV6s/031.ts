@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Chimchar"
+		'id-id': "Chimchar"
 	},
 
 	illustrator: "Jerky",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Api di bagian belakang Chimchar menggunakan bahan bakar gas yang dibuat di dalam perutnya. Meskipun kehujanan, api tersebut tidak akan padam."
+		'id-id': "Api di bagian belakang Chimchar menggunakan bahan bakar gas yang dibuat di dalam perutnya. Meskipun kehujanan, api tersebut tidak akan padam."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Meniupkan Api"
+			'id-id': "Meniupkan Api"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 20."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 20."
 		},
 
 		damage: "20+",

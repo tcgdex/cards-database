@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../My First Battle"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gyarados",
+		'en-us': "Gyarados",
 	},
 
 	rarity: "None",
@@ -14,7 +14,7 @@ const card: Card = {
 	hp: 160,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Magikarp",
+		'en-us': "Magikarp",
 	},
 	stage: "Stage1",
 
@@ -22,11 +22,11 @@ const card: Card = {
 		cost: ["Water", "Water", "Water"],
 
 		name: {
-			en: "Tail Smash",
+			'en-us': "Tail Smash",
 		},
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
 		},
 
 		damage: 90
@@ -34,7 +34,7 @@ const card: Card = {
 		cost: ["Water", "Water", "Water", "Water"],
 
 		name: {
-			en: "Hyper Beam",
+			'en-us': "Hyper Beam",
 		},
 
 		damage: 120

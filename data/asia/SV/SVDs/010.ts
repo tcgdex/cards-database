@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "มินีฟ",
-		id: "Smoliv"
+		'th-th': "มินีฟ",
+		'id-id': "Smoliv"
 	},
 
 	illustrator: "Masako Tomii",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		th: "ปล่อยน้ำมันออกมาจากผลบนหัวเพื่อปกป้องตัวเองจากศัตรู น้ำมันนั้นทั้งขมและฝาดจนน่าตกใจ",
-		id: "Smoliv melindungi diri dari musuh dengan mengeluarkan minyak dari buah di kepalanya. Rasa minyaknya sangat pahit dan sepat."
+		'th-th': "ปล่อยน้ำมันออกมาจากผลบนหัวเพื่อปกป้องตัวเองจากศัตรู น้ำมันนั้นทั้งขมและฝาดจนน่าตกใจ",
+		'id-id': "Smoliv melindungi diri dari musuh dengan mengeluarkan minyak dari buah di kepalanya. Rasa minyaknya sangat pahit dan sepat."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ดูดซับ",
-			id: "Menyerap"
+			'th-th': "ดูดซับ",
+			'id-id': "Menyerap"
 		},
 
 		effect: {
-			th: "ฟื้นฟู HP ของโปเกมอนนี้ [10]",
-			id: "Pulihkan HP Pokémon ini sejumlah 10."
+			'th-th': "ฟื้นฟู HP ของโปเกมอนนี้ [10]",
+			'id-id': "Pulihkan HP Pokémon ini sejumlah 10."
 		},
 
 		damage: 10,

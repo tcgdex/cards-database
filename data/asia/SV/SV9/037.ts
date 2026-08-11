@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ダンバル",
+		'ja-jp': "ダンバル",
 		'zh-tw': "鐵啞鈴",
 		'zh-cn': "鐵啞鈴"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "体から 出ている 磁力と 地上の 磁力を 反発させて 空に 浮かぶのだ。",
+		'ja-jp': "体から 出ている 磁力と 地上の 磁力を 反発させて 空に 浮かぶのだ。",
 		'zh-tw': "會讓身上發出的磁力和 地上的磁力相互排斥， 藉此飄浮在空中。",
 		'zh-cn': "會讓身上發出的磁力和 地上的磁力相互排斥， 藉此飄浮在空中。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "かいてんアタック",
+			'ja-jp': "かいてんアタック",
 			'zh-tw': "迴轉攻擊",
 			'zh-cn': "迴轉攻擊"
 		},
@@ -39,7 +39,7 @@ const card: Card = {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			ja: "ビーム",
+			'ja-jp': "ビーム",
 			'zh-tw': "光束",
 			'zh-cn': "光束"
 		},

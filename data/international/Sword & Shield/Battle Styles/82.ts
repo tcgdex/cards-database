@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sandaconda",
-		fr: "Dunaconda",
-		es: "Sandaconda",
-		it: "Sandaconda",
-		pt: "Sandaconda",
-		de: "Sanaconda"
+		'en-us': "Sandaconda",
+		'fr-fr': "Dunaconda",
+		'es-es': "Sandaconda",
+		'it-it': "Sandaconda",
+		'pt-br': "Sandaconda",
+		'de-de': "Sanaconda"
 	},
 
 	illustrator: "hatachu",
@@ -21,43 +21,43 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Silicobra",
-		fr: "Dunaja",
-		es: "Silicobra",
-		it: "Silicobra",
-		pt: "Silicobra",
-		de: "Salanga"
+		'en-us': "Silicobra",
+		'fr-fr': "Dunaja",
+		'es-es': "Silicobra",
+		'it-it': "Silicobra",
+		'pt-br': "Silicobra",
+		'de-de': "Salanga"
 	},
 
 	attacks: [{
 		name: {
-			en: "Big Sand Cannon",
-			fr: "Gros Canon Sableux",
-			es: "Cañonazo de Arena",
-			it: "Grancannone di Sabbia",
-			pt: "Grande Canhão de Areia",
-			de: "Große Sandkanone"
+			'en-us': "Big Sand Cannon",
+			'fr-fr': "Gros Canon Sableux",
+			'es-es': "Cañonazo de Arena",
+			'it-it': "Grancannone di Sabbia",
+			'pt-br': "Grande Canhão de Areia",
+			'de-de': "Große Sandkanone"
 		},
 
 		effect: {
-			en: "Discard the top 6 cards of your deck. This attack does 60 damage for each Fighting Energy card you discarded in this way.",
-			fr: "Défaussez les 6 cartes du dessus de votre deck. Cette attaque inflige 60 dégâts pour chaque carte Énergie Fighting défaussée de cette façon.",
-			es: "Descarta las 6 primeras cartas de tu baraja. Este ataque hace 60 puntos de daño por cada carta de Energía Fighting que hayas descartado de esta manera.",
-			it: "Scarta le prime sei carte del tuo mazzo. Questo attacco infligge 60 danni per ogni carta Energia Fighting che hai scartato in questo modo.",
-			pt: "Descarte as 6 cartas de cima do seu baralho. Este ataque causa 60 pontos de dano para cada carta de Energia Fighting descartada desta forma.",
-			de: "Lege die obersten 6 Karten deines Decks auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Fighting-Energiekarte 60 Schadenspunkte zu."
+			'en-us': "Discard the top 6 cards of your deck. This attack does 60 damage for each Fighting Energy card you discarded in this way.",
+			'fr-fr': "Défaussez les 6 cartes du dessus de votre deck. Cette attaque inflige 60 dégâts pour chaque carte Énergie Fighting défaussée de cette façon.",
+			'es-es': "Descarta las 6 primeras cartas de tu baraja. Este ataque hace 60 puntos de daño por cada carta de Energía Fighting que hayas descartado de esta manera.",
+			'it-it': "Scarta le prime sei carte del tuo mazzo. Questo attacco infligge 60 danni per ogni carta Energia Fighting che hai scartato in questo modo.",
+			'pt-br': "Descarte as 6 cartas de cima do seu baralho. Este ataque causa 60 pontos de dano para cada carta de Energia Fighting descartada desta forma.",
+			'de-de': "Lege die obersten 6 Karten deines Decks auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Fighting-Energiekarte 60 Schadenspunkte zu."
 		},
 
 		damage: "60×",
 		cost: ["Fighting"]
 	}, {
 		name: {
-			en: "Skull Bash",
-			fr: "Coud'Krâne",
-			es: "Cabezazo",
-			it: "Capocciata",
-			pt: "Quebra-crânio",
-			de: "Schädelwumme"
+			'en-us': "Skull Bash",
+			'fr-fr': "Coud'Krâne",
+			'es-es': "Cabezazo",
+			'it-it': "Capocciata",
+			'pt-br': "Quebra-crânio",
+			'de-de': "Schädelwumme"
 		},
 
 		damage: 120,
@@ -76,7 +76,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Its unique style of coiling allows it to blast sand out of its sand sac more efficiently."
+		'en-us': "Its unique style of coiling allows it to blast sand out of its sand sac more efficiently."
 	},
 
 	variants: [

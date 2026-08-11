@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Jolteon ex"
+		'en-us': "Jolteon ex"
 	},
 
 	illustrator: "kodama",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Eevee"
+		'en-us': "Eevee"
 	},
 
 	stage: "Stage1",
@@ -27,17 +27,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Electromagnetic Wall"
+			'en-us': "Electromagnetic Wall"
 		},
 
 		effect: {
-			en: "As long as this Pokémon is in the Active Spot, whenever your opponent attaches an Energy from their Energy Zone to 1 of their Pokémon, do 20 damage to that Pokémon."
+			'en-us': "As long as this Pokémon is in the Active Spot, whenever your opponent attaches an Energy from their Energy Zone to 1 of their Pokémon, do 20 damage to that Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Mach Bolt"
+			'en-us': "Mach Bolt"
 		},
 
 		damage: 80,

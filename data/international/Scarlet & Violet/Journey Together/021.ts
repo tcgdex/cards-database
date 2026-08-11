@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magmortar",
-		fr: "Maganon",
-		es: "Magmortar",
-		de: "Magbrant",
-		it: "Magmortar",
-		pt: "Magmortar",
+		'en-us': "Magmortar",
+		'fr-fr': "Maganon",
+		'es-es': "Magmortar",
+		'de-de': "Magbrant",
+		'it-it': "Magmortar",
+		'pt-br': "Magmortar",
 		'es-mx': "Magmortar"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Magmar",
-		fr: "Magmar",
-		es: "Magmar",
-		de: "Magmar",
-		it: "Magmar",
-		pt: "Magmar",
+		'en-us': "Magmar",
+		'fr-fr': "Magmar",
+		'es-es': "Magmar",
+		'de-de': "Magmar",
+		'it-it': "Magmar",
+		'pt-br': "Magmar",
 		'es-mx': "Magmar"
 	},
 	stage: "Stage1",
@@ -34,22 +34,22 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Magma Surge",
-			fr: "Déferlante de Magma",
-			es: "Aluvión Magma",
-			de: "Magmawoge",
-			it: "Ondata di Magma",
-			pt: "Rebentação de Magma",
+			'en-us': "Magma Surge",
+			'fr-fr': "Déferlante de Magma",
+			'es-es': "Aluvión Magma",
+			'de-de': "Magmawoge",
+			'it-it': "Ondata di Magma",
+			'pt-br': "Rebentação de Magma",
 			'es-mx': "Oleada de Magma"
 		},
 
 		effect: {
-			en: "During Pokémon Checkup, put 3 more damage counters on your opponent's Burned Pokémon.",
-			fr: "Pendant le Contrôle Pokémon, placez 3 marqueurs de dégâts supplémentaires sur les Pokémon Brûlés de votre adversaire.",
-			es: "Durante el Chequeo Pokémon, pon 3 contadores de daño más en el Pokémon Quemado de tu rival.",
-			de: "Lege beim Pokémon-Check 3 Schadensmarken mehr auf die verbrannten Pokémon deines Gegners.",
-			it: "Metti altri tre segnalini danno sui Pokémon bruciati del tuo avversario durante il controllo Pokémon.",
-			pt: "Durante o Checape Pokémon, coloque 3 contadores de dano a mais nos Pokémon Queimados do seu oponente.",
+			'en-us': "During Pokémon Checkup, put 3 more damage counters on your opponent's Burned Pokémon.",
+			'fr-fr': "Pendant le Contrôle Pokémon, placez 3 marqueurs de dégâts supplémentaires sur les Pokémon Brûlés de votre adversaire.",
+			'es-es': "Durante el Chequeo Pokémon, pon 3 contadores de daño más en el Pokémon Quemado de tu rival.",
+			'de-de': "Lege beim Pokémon-Check 3 Schadensmarken mehr auf die verbrannten Pokémon deines Gegners.",
+			'it-it': "Metti altri tre segnalini danno sui Pokémon bruciati del tuo avversario durante il controllo Pokémon.",
+			'pt-br': "Durante o Checape Pokémon, coloque 3 contadores de dano a mais nos Pokémon Queimados do seu oponente.",
 			'es-mx': "Durante el Chequeo Pokémon, pon 3 contadores de daño más en el Pokémon Quemado de tu rival."
 		}
 	}],
@@ -58,22 +58,22 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Searing Flame",
-			fr: "Flammes Calcinantes",
-			es: "Llama Abrasadora",
-			de: "Sengende Flammen",
-			it: "Fiamme Ustionanti",
-			pt: "Chama Cauterizante",
+			'en-us': "Searing Flame",
+			'fr-fr': "Flammes Calcinantes",
+			'es-es': "Llama Abrasadora",
+			'de-de': "Sengende Flammen",
+			'it-it': "Fiamme Ustionanti",
+			'pt-br': "Chama Cauterizante",
 			'es-mx': "Llama Abrasadora"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Burned.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Quemado.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt verbrannt.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene bruciato.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Queimado.",
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Burned.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Quemado.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt verbrannt.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene bruciato.",
+			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Queimado.",
 			'es-mx': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival ahora está Quemado."
 		},
 

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Tapu Koko ex"
+		'id-id': "Tapu Koko ex"
 	},
 
 	illustrator: "hncl",
@@ -17,22 +17,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Revenge Shock"
+			'id-id': "Revenge Shock"
 		},
 
 		effect: {
-			id: "Jika pada giliran lawan sebelumnya, ada Pokémon sendiri yang KO karena kerusakan akibat serangan, kerusakan yang diberikan bertambah sejumlah 90, lalu ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
+			'id-id': "Jika pada giliran lawan sebelumnya, ada Pokémon sendiri yang KO karena kerusakan akibat serangan, kerusakan yang diberikan bertambah sejumlah 90, lalu ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
 		},
 
 		damage: "30+",
 		cost: ["Lightning", "Colorless"]
 	}, {
 		name: {
-			id: "Aliran Listrik Ekstrem"
+			'id-id': "Aliran Listrik Ekstrem"
 		},
 
 		effect: {
-			id: "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
+			'id-id': "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
 		},
 
 		damage: 180,

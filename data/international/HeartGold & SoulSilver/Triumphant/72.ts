@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Ponyta",
-		fr: "Ponyta",
-		de: "Ponita"
+		'en-us': "Ponyta",
+		'fr-fr': "Ponyta",
+		'de-de': "Ponita"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rear Kick",
-				fr: "Ruade",
-				de: "Rückwärtskick"
+				'en-us': "Rear Kick",
+				'fr-fr': "Ruade",
+				'de-de': "Rückwärtskick"
 			},
 
 			damage: 10,
@@ -43,9 +43,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare",
-				fr: "Intimidation",
-				de: "Flackern"
+				'en-us': "Flare",
+				'fr-fr': "Intimidation",
+				'de-de': "Flackern"
 			},
 
 			damage: 20,
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is a weak runner immediately after birth. It gradually becomes faster by chasing after its parents."
+		'en-us': "It is a weak runner immediately after birth. It gradually becomes faster by chasing after its parents."
 	},
 
 	variants: [

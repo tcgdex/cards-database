@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブリジュラス",
+		'ja-jp': "ブリジュラス",
 	},
 
 	illustrator: "toriyufu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "まわりから 静電気を 集める。 四つん這いの 体勢で 撃ち出す ビームは 絶大な 威力。",
+		'ja-jp': "まわりから 静電気を 集める。 四つん這いの 体勢で 撃ち出す ビームは 絶大な 威力。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "ジュラルドン",
+		'ja-jp': "ジュラルドン",
 	},
 
 	retreat: 2,

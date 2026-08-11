@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レディバ",
+		'ja-jp': "レディバ",
 		'zh-tw': "芭瓢蟲",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "とっても 臆病な ポケモン。 仲間と 一緒に リフレクターを 張って 巣を 守って いるのだ。",
+		'ja-jp': "とっても 臆病な ポケモン。 仲間と 一緒に リフレクターを 張って 巣を 守って いるのだ。",
 		'zh-tw': "非常膽小的寶可夢。會和夥伴一起張開反射壁，藉此保護巢穴。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "もってくる",
+				'ja-jp': "もってくる",
 				'zh-tw': "呼喚",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を1枚引く。",
+				'ja-jp': "自分の山札を1枚引く。",
 				'zh-tw': "從自己的牌庫抽出1張卡。",
 			},
 		},
 		{
 			name: {
-				ja: "パンチ",
+				'ja-jp': "パンチ",
 				'zh-tw': "出拳",
 			},
 			damage: 20,

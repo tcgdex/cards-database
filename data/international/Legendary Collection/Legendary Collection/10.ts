@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Flareon"
+		'en-us': "Flareon"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee"
+		'en-us': "Eevee"
 	},
 
 	stage: "Stage1",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack"
+				'en-us': "Quick Attack"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
 			},
 			damage: "10+",
 
@@ -48,10 +48,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower"
+				'en-us': "Flamethrower"
 			},
 			effect: {
-				en: "Discard 1 Fire Energy card attached to Flareon or this attack does nothing."
+				'en-us': "Discard 1 Fire Energy card attached to Flareon or this attack does nothing."
 			},
 			damage: 60,
 
@@ -68,7 +68,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When storing thermal energy in its body, its temperature could soar to over 1600 degrees."
+		'en-us': "When storing thermal energy in its body, its temperature could soar to over 1600 degrees."
 	},
 
 	variants: [

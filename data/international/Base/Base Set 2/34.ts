@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Butterfree",
+		'en-us': "Butterfree",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Metapod",
+		'en-us': "Metapod",
 	},
 
 	stage: "Stage2",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlwind",
+				'en-us': "Whirlwind",
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
+				'en-us': "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
 			},
 			damage: 20,
 
@@ -50,10 +50,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Mega Drain",
+				'en-us': "Mega Drain",
 			},
 			effect: {
-				en: "Remove a number of damage counters from Butterfree equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10).",
+				'en-us': "Remove a number of damage counters from Butterfree equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10).",
 			},
 			damage: 40,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "In battle, it flaps its wings at high speed to release highly toxic dust into the air.",
+		'en-us': "In battle, it flaps its wings at high speed to release highly toxic dust into the air.",
 	},
 
 

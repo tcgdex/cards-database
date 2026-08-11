@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Dark Wartortle"
+		'en-us': "Dark Wartortle"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Squirtle"
+		'en-us': "Squirtle"
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Doubleslap"
+				'en-us': "Doubleslap"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10×",
 
@@ -45,10 +45,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mirror Shell"
+				'en-us': "Mirror Shell"
 			},
 			effect: {
-				en: "If an attack does damage to Dark Wartortle during your opponent's next turn (even if Dark Wartortle is Knocked Out), Dark Wartortle does an equal amount of damage to the Defending Pokémon."
+				'en-us': "If an attack does damage to Dark Wartortle during your opponent's next turn (even if Dark Wartortle is Knocked Out), Dark Wartortle does an equal amount of damage to the Defending Pokémon."
 			},
 
 		},
@@ -64,7 +64,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A Pokémon with a negative attitude, it hides in its shell whenever it's in a bad mood—which is often."
+		'en-us': "A Pokémon with a negative attitude, it hides in its shell whenever it's in a bad mood—which is often."
 	},
 
 	variants: [

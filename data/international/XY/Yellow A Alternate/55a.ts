@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Yellow A Alternate'
 
 const card: Card = {
 	name: {
-		en: "M Lucario-EX",
-		fr: "M-Lucario-ex",
+		'en-us': "M Lucario-EX",
+		'fr-fr': "M-Lucario-ex",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
@@ -18,8 +18,8 @@ const card: Card = {
 		"Fighting",
 	],
 	evolveFrom: {
-		en: "Lucario-ex",
-		fr: "Lucario-ex",
+		'en-us': "Lucario-ex",
+		'fr-fr': "Lucario-ex",
 	},
 	stage: "MEGA",
 
@@ -32,12 +32,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Rising Fist",
-				fr: "Poing Imminent",
+				'en-us': "Rising Fist",
+				'fr-fr': "Poing Imminent",
 			},
 			effect: {
-				en: "Discard an Energy attached to your opponent’s Active Pokémon.",
-				fr: "Défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				'en-us': "Discard an Energy attached to your opponent’s Active Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 140,
 

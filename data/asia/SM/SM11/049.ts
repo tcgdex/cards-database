@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モグリュー",
+		'ja-jp': "モグリュー",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "両手の ツメを 重ね合わせて 体を 高速 回転させると 猛スピードで 地中を 進む。",
+		'ja-jp': "両手の ツメを 重ね合わせて 体を 高速 回転させると 猛スピードで 地中を 進む。",
 	},
 
 	stage: "Basic",

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
     set: Set,
 
 	name: {
-		en: "Tinkatuff",
-		fr: "Forgella",
-		es: "Tinkatuff",
-		it: "Tinkatuff",
-		de: "Tafforgita",
+		'en-us': "Tinkatuff",
+		'fr-fr': "Forgella",
+		'es-es': "Tinkatuff",
+		'it-it': "Tinkatuff",
+		'de-de': "Tafforgita",
 		'pt-br': "Tinkatuff",
-		ko: "벼리짱"
+		'ko-kr': "벼리짱"
 	},
 
     illustrator: "kurumitsu",
@@ -23,12 +23,12 @@ const card: Card = {
     dexId: [958],
     
 	evolveFrom: {
-		en: "Tinkatink",
-		fr: "Forgerette",
-		de: "Forgita",
-		it: "Tinkatink",
-		es: "Tinkatink",
-		pt: "Tinkatink",
+		'en-us': "Tinkatink",
+		'fr-fr': "Forgerette",
+		'de-de': "Forgita",
+		'it-it': "Tinkatink",
+		'es-es': "Tinkatink",
+		'pt-br': "Tinkatink",
 		'es-mx': "Tinkatink"
 	},
     stage: "Stage1",
@@ -40,13 +40,13 @@ const card: Card = {
     attacks: [
         {
 		name: {
-			en: "Light Punch",
-			fr: "Poing Léger",
-			es: "Puño Ligero",
-			it: "Pugnetto",
-			de: "Leichter Hieb",
+			'en-us': "Light Punch",
+			'fr-fr': "Poing Léger",
+			'es-es': "Puño Ligero",
+			'it-it': "Pugnetto",
+			'de-de': "Leichter Hieb",
 			'pt-br': "Soco de Luz",
-			ko: "치기"
+			'ko-kr': "치기"
 		},
         damage: "50",
         cost: ["Metal", "Colorless"],

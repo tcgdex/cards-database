@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Tepig",
-		fr: "Gruikui",
-		es: "Tepig",
-		it: "Tepig",
-		pt: "Tepig",
-		de: "Floink"
+		'en-us': "Tepig",
+		'fr-fr': "Gruikui",
+		'es-es': "Tepig",
+		'it-it': "Tepig",
+		'pt-br': "Tepig",
+		'de-de': "Floink"
 	},
 
 	illustrator: "Mina Nakai",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Live Coal",
-				fr: "Charbon Mutant",
-				es: "Carbón Activado",
-				it: "Carboni Ardenti",
-				pt: "Carvão Vivo",
-				de: "Glühende Kohlen"
+				'en-us': "Live Coal",
+				'fr-fr': "Charbon Mutant",
+				'es-es': "Carbón Activado",
+				'it-it': "Carboni Ardenti",
+				'pt-br': "Carvão Vivo",
+				'de-de': "Glühende Kohlen"
 			},
 
 			damage: 10,
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				es: "Desenrollar",
-				it: "Rotolamento",
-				pt: "Rolagem",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'es-es': "Desenrollar",
+				'it-it': "Rotolamento",
+				'pt-br': "Rolagem",
+				'de-de': "Walzer"
 			},
 
 			damage: 40,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It can deftly dodge its foe's attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
+		'en-us': "It can deftly dodge its foe's attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
 	},
 
 	thirdParty: {

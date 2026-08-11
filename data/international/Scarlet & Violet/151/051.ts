@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Triopikeur",
-		en: "Dugtrio",
-		es: "Dugtrio",
-		it: "Dugtrio",
-		pt: "Dugtrio",
-		de: "Digdri"
+		'fr-fr': "Triopikeur",
+		'en-us': "Dugtrio",
+		'es-es': "Dugtrio",
+		'it-it': "Dugtrio",
+		'pt-br': "Dugtrio",
+		'de-de': "Digdri"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Fighting"],
 	evolveFrom: {
-		fr: "Taupiqueur",
-		en: "Diglett",
-		es: "Diglett",
-		it: "Diglett",
-		pt: "Diglett",
-		de: "Digda"
+		'fr-fr': "Taupiqueur",
+		'en-us': "Diglett",
+		'es-es': "Diglett",
+		'it-it': "Diglett",
+		'pt-br': "Diglett",
+		'de-de': "Digda"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			fr: "Culbute Surprise",
-			en: "Headbutt Bounce",
-			es: "Bote Cabezazo",
-			it: "Rimbalzo Bottintesta",
-			pt: "Cabeçada Ricochete",
-			de: "Abrupter Kopfstoß"
+			'fr-fr': "Culbute Surprise",
+			'en-us': "Headbutt Bounce",
+			'es-es': "Bote Cabezazo",
+			'it-it': "Rimbalzo Bottintesta",
+			'pt-br': "Cabeçada Ricochete",
+			'de-de': "Abrupter Kopfstoß"
 		},
 
 		damage: 40
@@ -45,12 +45,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			fr: "Boue-Bombe",
-			en: "Mud Bomb",
-			es: "Bomba Fango",
-			it: "Pantanobomba",
-			pt: "Bomba de Lama",
-			de: "Schlammbombe"
+			'fr-fr': "Boue-Bombe",
+			'en-us': "Mud Bomb",
+			'es-es': "Bomba Fango",
+			'it-it': "Pantanobomba",
+			'pt-br': "Bomba de Lama",
+			'de-de': "Schlammbombe"
 		},
 
 		damage: 80
@@ -66,7 +66,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Its three heads bob separately up and down to loosen the soil nearby, making it easier for it to burrow.",
+		'en-us': "Its three heads bob separately up and down to loosen the soil nearby, making it easier for it to burrow.",
 	},
 
 	variants: [

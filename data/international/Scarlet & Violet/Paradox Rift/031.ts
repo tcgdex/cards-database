@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Seadra",
-		fr: "Hypocéan",
-		es: "Seadra",
-		it: "Seadra",
-		pt: "Seadra",
-		de: "Seemon"
+		'en-us': "Seadra",
+		'fr-fr': "Hypocéan",
+		'es-es': "Seadra",
+		'it-it': "Seadra",
+		'pt-br': "Seadra",
+		'de-de': "Seemon"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Horsea",
-		fr: "Hypotrempe",
-		es: "Horsea",
-		it: "Horsea",
-		pt: "Horsea",
-		de: "Seeper"
+		'en-us': "Horsea",
+		'fr-fr': "Hypotrempe",
+		'es-es': "Horsea",
+		'it-it': "Horsea",
+		'pt-br': "Horsea",
+		'de-de': "Seeper"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Bubble Beam",
-			fr: "Bulles d'O",
-			es: "Rayo Burbuja",
-			it: "Bollaraggio",
-			pt: "Jato de Bolhas",
-			de: "Blubbstrahl"
+			'en-us': "Bubble Beam",
+			'fr-fr': "Bulles d'O",
+			'es-es': "Rayo Burbuja",
+			'it-it': "Bollaraggio",
+			'pt-br': "Jato de Bolhas",
+			'de-de': "Blubbstrahl"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		},
 
 		damage: 50
@@ -62,7 +62,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Seadra's mouth is slender, but its suction power is strong. In an instant, Seadra can suck in food that's larger than the opening of its mouth.",
+		'en-us': "Seadra's mouth is slender, but its suction power is strong. In an instant, Seadra can suck in food that's larger than the opening of its mouth.",
 	},
 
 	variants: [

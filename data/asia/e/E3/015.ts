@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タンゲラ",
+		'ja-jp': "タンゲラ",
 	},
 
 	rarity: "Common",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "くすぐるブドウ",
+				'ja-jp': "くすぐるブドウ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防衛ポケモンは相手の次のターン中に攻撃することはできません。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防衛ポケモンは相手の次のターン中に攻撃することはできません。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Grass", "Colorless", "Colorless"],
 			name: {
-				ja: "ダブルキック",
+				'ja-jp': "ダブルキック",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
 			},
 		},
 	],

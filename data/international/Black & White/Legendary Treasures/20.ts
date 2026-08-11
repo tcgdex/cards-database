@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Vulpix",
+		'en-us': "Vulpix",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Firebreathing",
+				'en-us': "Firebreathing",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 more damage.",
+				'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
 			},
 			damage: 20,
 
@@ -50,7 +50,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm.",
+		'en-us': "As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm.",
 	},
 
 	thirdParty: {

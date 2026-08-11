@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Eelektross",
-		fr: "Ohmassacre",
-		es: "Eelektross",
-		it: "Eelektross",
-		pt: "Eelektross",
-		de: "Zapplarang"
+		'en-us': "Eelektross",
+		'fr-fr': "Ohmassacre",
+		'es-es': "Eelektross",
+		'it-it': "Eelektross",
+		'pt-br': "Eelektross",
+		'de-de': "Zapplarang"
 	},
 
 	illustrator: "hatachu",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eelektrik",
-		fr: "Lampéroie",
+		'en-us': "Eelektrik",
+		'fr-fr': "Lampéroie",
 	},
 
 	stage: "Stage2",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Clamp",
-				fr: "Pince des Ténèbres",
-				es: "Tenaza Oscura",
-				it: "Buiotenaglia",
-				pt: "Grampo da Escuridão",
-				de: "Dunkler Klammergriff"
+				'en-us': "Dark Clamp",
+				'fr-fr': "Pince des Ténèbres",
+				'es-es': "Tenaza Oscura",
+				'it-it': "Buiotenaglia",
+				'pt-br': "Grampo da Escuridão",
+				'de-de': "Dunkler Klammergriff"
 			},
 			effect: {
-				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
-				es: "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
-				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-				pt: "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
-				de: "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can’t retreat during your opponent’s next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'es-es': "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
+				'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+				'pt-br': "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
+				'de-de': "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 50,
 
@@ -65,20 +65,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vacuum Bolt",
-				fr: "Éclair Aspiré",
-				es: "Rayo Ventosa",
-				it: "Vuotobolide",
-				pt: "Aspirador de Raio",
-				de: "Saugblitz"
+				'en-us': "Vacuum Bolt",
+				'fr-fr': "Éclair Aspiré",
+				'es-es': "Rayo Ventosa",
+				'it-it': "Vuotobolide",
+				'pt-br': "Aspirador de Raio",
+				'de-de': "Saugblitz"
 			},
 			effect: {
-				en: "You may do 80 more damage. If you do, this attack does 80 damage to 1 of your Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Vous pouvez infliger 80 dégâts supplémentaires. Dans ce cas, cette attaque inflige 80 dégâts à l’un de vos Pokémon. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				es: "Puedes hacer 80 puntos de daño más. Si lo haces, este ataque hace 80 puntos de daño a 1 de tus Pokémon. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-				it: "Puoi infliggere 80 danni in più. Se lo fai, questo attacco infligge 80 danni a uno dei tuoi Pokémon. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
-				pt: "Você pode causar 80 pontos de dano a mais. Se fizer isto, este ataque causará 80 pontos de dano a 1 dos seus Pokémon (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
-				de: "Du kannst 80 Schadenspunkte mehr zufügen. Wenn du das machst, fügt diese Attacke 1 deiner Pokémon 80 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "You may do 80 more damage. If you do, this attack does 80 damage to 1 of your Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Vous pouvez infliger 80 dégâts supplémentaires. Dans ce cas, cette attaque inflige 80 dégâts à l’un de vos Pokémon. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'es-es': "Puedes hacer 80 puntos de daño más. Si lo haces, este ataque hace 80 puntos de daño a 1 de tus Pokémon. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+				'it-it': "Puoi infliggere 80 danni in più. Se lo fai, questo attacco infligge 80 danni a uno dei tuoi Pokémon. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
+				'pt-br': "Você pode causar 80 pontos de dano a mais. Se fizer isto, este ataque causará 80 pontos de dano a 1 dos seus Pokémon (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
+				'de-de': "Du kannst 80 Schadenspunkte mehr zufügen. Wenn du das machst, fügt diese Attacke 1 deiner Pokémon 80 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: "80+",
 
@@ -102,7 +102,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "With their sucker mouths, they suck in prey. Then they use their fangs to shock the prey with electricity.",
+		'en-us': "With their sucker mouths, they suck in prey. Then they use their fangs to shock the prey with electricity.",
 	},
 
 	thirdParty: {

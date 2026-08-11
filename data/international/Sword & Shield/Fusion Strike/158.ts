@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tyranitar V",
-		fr: "Tyranocif V",
-		es: "Tyranitar V",
-		it: "Tyranitar V",
-		pt: "Tyranitar V",
-		de: "Despotar V"
+		'en-us': "Tyranitar V",
+		'fr-fr': "Tyranocif V",
+		'es-es': "Tyranitar V",
+		'it-it': "Tyranitar V",
+		'pt-br': "Tyranitar V",
+		'de-de': "Despotar V"
 	},
 
 	rarity: "Holo Rare V",
@@ -34,12 +34,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			de: "Einhämmern",
-			es: "Martillear",
-			pt: "Martelada",
-			it: "Martello"
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'de-de': "Einhämmern",
+			'es-es': "Martillear",
+			'pt-br': "Martelada",
+			'it-it': "Martello"
 		},
 
 		damage: 80
@@ -47,12 +47,12 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Land Crush",
-			fr: "Écras'Terre",
-			de: "Schollenbrecher",
-			es: "Aterrizaje",
-			pt: "Aperto de Terra",
-			it: "Schiacciaterra"
+			'en-us': "Land Crush",
+			'fr-fr': "Écras'Terre",
+			'de-de': "Schollenbrecher",
+			'es-es': "Aterrizaje",
+			'pt-br': "Aperto de Terra",
+			'it-it': "Schiacciaterra"
 		},
 
 		damage: 150

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Wooloo",
-		fr: "Moumouton",
-		es: "Wooloo",
-		it: "Wooloo",
-		pt: "Wooloo",
-		de: "Wolly"
+		'en-us': "Wooloo",
+		'fr-fr': "Moumouton",
+		'es-es': "Wooloo",
+		'it-it': "Wooloo",
+		'pt-br': "Wooloo",
+		'de-de': "Wolly"
 	},
 
 	illustrator: "Mizue",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'Boule",
-				es: "Golpe Cabeza",
-				it: "Bottintesta",
-				pt: "Cabeçada",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'Boule",
+				'es-es': "Golpe Cabeza",
+				'it-it': "Bottintesta",
+				'pt-br': "Cabeçada",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 50,
@@ -78,7 +78,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its curly fleece is such an effective cushion that this Pokémon could fall off a cliff and stand right back up at the bottom, unharmed."
+		'en-us': "Its curly fleece is such an effective cushion that this Pokémon could fall off a cliff and stand right back up at the bottom, unharmed."
 	},
 
 	dexId: [831],

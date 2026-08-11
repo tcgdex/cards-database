@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Linoone",
-		fr: "Lineon",
-		de: "Geradaks"
+		'en-us': "Linoone",
+		'fr-fr': "Lineon",
+		'de-de': "Geradaks"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Zigzagoon",
-		fr: "Zigzaton"
+		'en-us': "Zigzagoon",
+		'fr-fr': "Zigzaton"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Seek Out",
-				fr: "À la recherche",
-				de: "Seek Out"
+				'en-us': "Seek Out",
+				'fr-fr': "À la recherche",
+				'de-de': "Seek Out"
 			},
 			effect: {
-				en: "Search your deck for up to 2 cards and put them into your hand. Shuffle your deck afterward.",
-				fr: "Choisissez deux cartes dans votre deck. Montrez-les à votre adversaire et placez-les dans votre main. Mélangez ensuite votre deck.",
-				de: "Search your deck for up to 2 cards and put them into your hand. Shuffle your deck afterward."
+				'en-us': "Search your deck for up to 2 cards and put them into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez deux cartes dans votre deck. Montrez-les à votre adversaire et placez-les dans votre main. Mélangez ensuite votre deck.",
+				'de-de': "Search your deck for up to 2 cards and put them into your hand. Shuffle your deck afterward."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Continuous Headbutt",
-				fr: "Coup d'boule sans fin",
-				de: "Continuous Headbutt"
+				'en-us': "Continuous Headbutt",
+				'fr-fr': "Coup d'boule sans fin",
+				'de-de': "Continuous Headbutt"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 40 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à ce que ce soit pile. Cette attaque inflige 40 dégâts multipliés par le nombre de face.",
-				de: "Flip a coin until you get tails. This attack does 40 damage times the number of heads."
+				'en-us': "Flip a coin until you get tails. This attack does 40 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que ce soit pile. Cette attaque inflige 40 dégâts multipliés par le nombre de face.",
+				'de-de': "Flip a coin until you get tails. This attack does 40 damage times the number of heads."
 			},
 			damage: "40×",
 

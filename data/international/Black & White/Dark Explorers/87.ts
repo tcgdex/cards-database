@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Herdier",
-		fr: "Ponchien",
-		es: "Herdier",
-		it: "Herdier",
-		pt: "Herdier",
-		de: "Terribark"
+		'en-us': "Herdier",
+		'fr-fr': "Ponchien",
+		'es-es': "Herdier",
+		'it-it': "Herdier",
+		'pt-br': "Herdier",
+		'de-de': "Terribark"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lillipup",
-		fr: "Ponchiot"
+		'en-us': "Lillipup",
+		'fr-fr': "Ponchiot"
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Roar",
-				fr: "Hurlement"
+				'en-us': "Roar",
+				'fr-fr': "Hurlement"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc."
 			},
 
 		},
@@ -54,8 +54,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge"
+				'en-us': "Tackle",
+				'fr-fr': "Charge"
 			},
 
 			damage: 30,
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has a black, cape-like fur that is very hard and decreases the amount of damage it receives.",
+		'en-us': "It has a black, cape-like fur that is very hard and decreases the amount of damage it receives.",
 	},
 
 	thirdParty: {

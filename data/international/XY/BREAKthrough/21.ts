@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Houndoom EX",
-		fr: "Démolosse EX",
-		es: "Houndoom EX",
-		it: "Houndoom EX",
-		pt: "Houndoom EX",
-		de: "Hundemon EX"
+		'en-us': "Houndoom EX",
+		'fr-fr': "Démolosse EX",
+		'es-es': "Houndoom EX",
+		'it-it': "Houndoom EX",
+		'pt-br': "Houndoom EX",
+		'de-de': "Hundemon EX"
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Melting Horn",
-				fr: "Corne de Fusion",
-				es: "Cuerno Derretidor",
-				it: "Scioglicorno",
-				pt: "Chifre de Fusão",
-				de: "Schmelzhorn"
+				'en-us': "Melting Horn",
+				'fr-fr': "Corne de Fusion",
+				'es-es': "Cuerno Derretidor",
+				'it-it': "Scioglicorno",
+				'pt-br': "Chifre de Fusão",
+				'de-de': "Schmelzhorn"
 			},
 			effect: {
-				en: "Discard the top 2 cards of your opponent's deck.",
-				fr: "Défaussez les 2 cartes du dessus du deck de votre adversaire.",
-				es: "Descarta las 2 primeras cartas de la baraja de tu rival.",
-				it: "Scarta le prime due carte del mazzo del tuo avversario.",
-				pt: "Descarte os 2 cards de cima do baralho do seu oponente.",
-				de: "Lege die obersten 2 Karten vom Deck deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard the top 2 cards of your opponent's deck.",
+				'fr-fr': "Défaussez les 2 cartes du dessus du deck de votre adversaire.",
+				'es-es': "Descarta las 2 primeras cartas de la baraja de tu rival.",
+				'it-it': "Scarta le prime due carte del mazzo del tuo avversario.",
+				'pt-br': "Descarte os 2 cards de cima do baralho do seu oponente.",
+				'de-de': "Lege die obersten 2 Karten vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -57,20 +57,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Grand Flame",
-				fr: "Flamme Colossale",
-				es: "Llama Colosal",
-				it: "Megafiammata",
-				pt: "Grande Chama",
-				de: "Gewaltige Flamme"
+				'en-us': "Grand Flame",
+				'fr-fr': "Flamme Colossale",
+				'es-es': "Llama Colosal",
+				'it-it': "Megafiammata",
+				'pt-br': "Grande Chama",
+				'de-de': "Gewaltige Flamme"
 			},
 			effect: {
-				en: "Attach a Fire Energy card from your discard pile to 1 of your Benched Pokémon.",
-				fr: "Attachez une carte Énergie Fire de votre pile de défausse à l'un de vos Pokémon de Banc.",
-				es: "Une 1 carta de Energía Fire de tu pila de descartes a 1 de tus Pokémon en Banca.",
-				it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia Fire dalla tua pila degli scarti.",
-				pt: "Ligue um card de Energia Fire da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-				de: "Lege 1 Fire-Energiekarte von deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
+				'en-us': "Attach a Fire Energy card from your discard pile to 1 of your Benched Pokémon.",
+				'fr-fr': "Attachez une carte Énergie Fire de votre pile de défausse à l'un de vos Pokémon de Banc.",
+				'es-es': "Une 1 carta de Energía Fire de tu pila de descartes a 1 de tus Pokémon en Banca.",
+				'it-it': "Assegna a uno dei tuoi Pokémon in panchina una carta Energia Fire dalla tua pila degli scarti.",
+				'pt-br': "Ligue um card de Energia Fire da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
+				'de-de': "Lege 1 Fire-Energiekarte von deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
 			},
 			damage: 50,
 

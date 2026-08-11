@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ไคริวex",
-		id: "Dragonite ex"
+		'th-th': "ไคริวex",
+		'id-id': "Dragonite ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -18,21 +18,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			th: "โจมตีด้วยปีก",
-			id: "Pukulan Sayap"
+			'th-th': "โจมตีด้วยปีก",
+			'id-id': "Pukulan Sayap"
 		},
 
 		damage: 70,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "ดาวตกทำลาย",
-			id: "Meteor Pemecah"
+			'th-th': "ดาวตกทำลาย",
+			'id-id': "Meteor Pemecah"
 		},
 
 		effect: {
-			th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว การโจมตีนี้จะเพิ่มแดเมจอีก 140 ถ้าออกก้อย เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 140. Jika hasilnya sisi belakang, pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกหัว การโจมตีนี้จะเพิ่มแดเมจอีก 140 ถ้าออกก้อย เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 140. Jika hasilnya sisi belakang, pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: "140+",

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ファンピー",
+		'ja-jp': "ファンピー",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "フレイル",
+				'ja-jp': "フレイル",
 			},
 			effect: {
-				ja: "この攻撃は、Phanpyのダメージ数の数の10回のダメージを与えます。",
+				'ja-jp': "この攻撃は、Phanpyのダメージ数の数の10回のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "ロールアウトする",
+				'ja-jp': "ロールアウトする",
 			},
 			damage: 20,
 		},

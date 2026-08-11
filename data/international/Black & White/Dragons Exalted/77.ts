@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Skuntank",
-		fr: "Moufflair",
-		es: "Skuntank",
-		it: "Skuntank",
-		pt: "Skuntank",
-		de: "Skuntank"
+		'en-us': "Skuntank",
+		'fr-fr': "Moufflair",
+		'es-es': "Skuntank",
+		'it-it': "Skuntank",
+		'pt-br': "Skuntank",
+		'de-de': "Skuntank"
 	},
 
 	illustrator: "Midori Harada",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Stunky",
-		fr: "Moufouette",
+		'en-us': "Stunky",
+		'fr-fr': "Moufouette",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Smogscreen",
-				fr: "Brouillard Venimeux",
+				'en-us': "Smogscreen",
+				'fr-fr': "Brouillard Venimeux",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned. If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c'est pile, son attaque ne fait rien.",
+				'en-us': "The Defending Pokémon is now Poisoned. If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné. Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c'est pile, son attaque ne fait rien.",
 			},
 			damage: 20,
 
@@ -56,8 +56,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer In",
-				fr: "Enfoncer",
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncer",
 			},
 
 			damage: 80,
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It attacks by spraying a horribly smelly fluid from the tip of its tail. Attacks from above confound it.",
+		'en-us': "It attacks by spraying a horribly smelly fluid from the tip of its tail. Attacks from above confound it.",
 	},
 
 	thirdParty: {

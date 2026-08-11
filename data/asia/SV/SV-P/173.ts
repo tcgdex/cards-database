@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨルノズク",
+		'ja-jp': "ヨルノズク",
 	},
 
 	illustrator: "matazo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "非常に 柔らかい 羽は 飛ぶとき 音を 出さないので こっそり 獲物に 近づける。",
+		'ja-jp': "非常に 柔らかい 羽は 飛ぶとき 音を 出さないので こっそり 獲物に 近づける。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ほうせきさがし" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、自分の場に「テラスタル」のポケモンがいるなら、1回使える。自分の山札からトレーナーズを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、自分の場に「テラスタル」のポケモンがいるなら、1回使える。自分の山札からトレーナーズを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ホーホー",
+		'ja-jp': "ホーホー",
 	},
 
 	retreat: 1,

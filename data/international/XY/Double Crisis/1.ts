@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Numel",
-		fr: "Chamallot de la Team Magma",
-		pt: "Numel da Equipe Magma",
+		'en-us': "Team Magma's Numel",
+		'fr-fr': "Chamallot de la Team Magma",
+		'pt-br': "Numel da Equipe Magma",
 	},
 
 	illustrator: "Akira Komayama",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ember",
-				fr: "Flammèche",
-				pt: "Brasa",
+				'en-us': "Ember",
+				'fr-fr': "Flammèche",
+				'pt-br': "Brasa",
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon.",
-				pt: "Descarte uma Energia ligada a este Pokémon.",
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon.",
+				'pt-br': "Descarte uma Energia ligada a este Pokémon.",
 			},
 			damage: 30,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "No matter how heavy the cargo, we can transport it to our destination with ease, thanks to Numel.",
+		'en-us': "No matter how heavy the cargo, we can transport it to our destination with ease, thanks to Numel.",
 	},
 
 	thirdParty: {

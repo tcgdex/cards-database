@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Onix",
-		fr: "Onix"
+		'en-us': "Onix",
+		'fr-fr': "Onix"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "As it digs through the ground, it absorbs many\nhard objects. This is what makes its body so solid.",
-		fr: "Il absorbe des éléments solides en creusant le sol, ce qui le rend plus robuste."
+		'en-us': "As it digs through the ground, it absorbs many\nhard objects. This is what makes its body so solid.",
+		'fr-fr': "Il absorbe des éléments solides en creusant le sol, ce qui le rend plus robuste."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule"
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule"
 		},
 
 		damage: 50,

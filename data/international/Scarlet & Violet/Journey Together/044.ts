@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Alolan Geodude",
-		fr: "Racaillou d'Alola",
-		es: "Geodude de Alola",
-		de: "Alola-Kleinstein",
-		it: "Geodude di Alola",
-		pt: "Geodude de Alola",
+		'en-us': "Alolan Geodude",
+		'fr-fr': "Racaillou d'Alola",
+		'es-es': "Geodude de Alola",
+		'de-de': "Alola-Kleinstein",
+		'it-it': "Geodude di Alola",
+		'pt-br': "Geodude de Alola",
 		'es-mx': "Geodude de Alola"
 	},
 
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Knuckle Punch",
-			fr: "Coud'Phalange",
-			es: "Puño con Nudillos",
-			de: "Knöchelhieb",
-			it: "Noccapugno",
-			pt: "Soco com Punho",
+			'en-us': "Knuckle Punch",
+			'fr-fr': "Coud'Phalange",
+			'es-es': "Puño con Nudillos",
+			'de-de': "Knöchelhieb",
+			'it-it': "Noccapugno",
+			'pt-br': "Soco com Punho",
 			'es-mx': "Puño con Nudillos"
 		},
 
@@ -39,12 +39,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Tiny Charge",
-			fr: "Décharge Mineure",
-			es: "Carga Diminuta",
-			de: "Mini-Stromstoß",
-			it: "Sottocarica Minuscola",
-			pt: "Carga Pequenina",
+			'en-us': "Tiny Charge",
+			'fr-fr': "Décharge Mineure",
+			'es-es': "Carga Diminuta",
+			'de-de': "Mini-Stromstoß",
+			'it-it': "Sottocarica Minuscola",
+			'pt-br': "Carga Pequenina",
 			'es-mx': "Minicarga"
 		},
 

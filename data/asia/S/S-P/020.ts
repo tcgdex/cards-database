@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コオリッポV",
+		'ja-jp': "コオリッポV",
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "れいききゅうしゅう" },
 			effect: {
-				ja: "自分の番に、自分の手札から[水]エネルギーをこのポケモンにつけるたび、このポケモンのHPを「30」回復する。",
+				'ja-jp': "自分の番に、自分の手札から[水]エネルギーをこのポケモンにつけるたび、このポケモンのHPを「30」回復する。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

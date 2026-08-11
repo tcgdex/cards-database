@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Xatu δ",
-		fr: "Xatu δ",
-		de: "Xatu"
+		'en-us': "Xatu δ",
+		'fr-fr': "Xatu δ",
+		'de-de': "Xatu"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Natu",
-		fr: "Natu"
+		'en-us': "Natu",
+		'fr-fr': "Natu"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Extra Feather",
-				fr: "Plume supplémentaire",
-				de: "Extra-Feder"
+				'en-us': "Extra Feather",
+				'fr-fr': "Plume supplémentaire",
+				'de-de': "Extra-Feder"
 			},
 			effect: {
-				en: "Each of your Stage 2 Pokémon-ex does 10 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
-				fr: "Chacun de vos Pokémon-ex de Niveau 2 inflige 10 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance).",
-				de: "Jedes deiner Pokémon-ex der Phase 2 fügt dem Verteidigenden Pokémon 10 zusätzliche Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "Each of your Stage 2 Pokémon-ex does 10 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Chacun de vos Pokémon-ex de Niveau 2 inflige 10 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "Jedes deiner Pokémon-ex der Phase 2 fügt dem Verteidigenden Pokémon 10 zusätzliche Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde folie",
-				de: "Konfustrahl"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde folie",
+				'de-de': "Konfustrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 

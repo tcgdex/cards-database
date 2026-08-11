@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Kalos Starter Set'
 
 const card: Card = {
 	name: {
-		en: "Bidoof",
-		fr: "Keunotor",
-		es: "Bidoof",
-		it: "Bidoof",
-		pt: "Bidoof",
-		de: "Bidiza"
+		'en-us': "Bidoof",
+		'fr-fr': "Keunotor",
+		'es-es': "Bidoof",
+		'it-it': "Bidoof",
+		'pt-br': "Bidoof",
+		'de-de': "Bidiza"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				es: "Desenrollar",
-				it: "Rotolamento",
-				pt: "Rolagem",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'es-es': "Desenrollar",
+				'it-it': "Rotolamento",
+				'pt-br': "Rolagem",
+				'de-de': "Walzer"
 			},
 
 			damage: 60,
@@ -59,7 +59,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+		'en-us': "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
 	},
 
 	thirdParty: {

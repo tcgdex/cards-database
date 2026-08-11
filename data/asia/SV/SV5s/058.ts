@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Azumarill"
+		'id-id': "Azumarill"
 	},
 
 	illustrator: "Makura Tami",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Telinga panjang Azumarill adalah sensor yang luar biasa. Dengan mendengar suara di dalam air, Pokémon ini mengetahui apa yang bergerak di situ."
+		'id-id': "Telinga panjang Azumarill adalah sensor yang luar biasa. Dengan mendengar suara di dalam air, Pokémon ini mengetahui apa yang bergerak di situ."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Main Kasar"
+			'id-id': "Main Kasar"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 30."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 30."
 		},
 
 		damage: "30+",
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Power Tackle"
+			'id-id': "Power Tackle"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 140,

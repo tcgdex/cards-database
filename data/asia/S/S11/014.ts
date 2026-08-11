@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キュウコン",
+		'ja-jp': "キュウコン",
 		'zh-tw': "九尾",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "しっぽの １本 １本に 神通力が 込められている。 １０００年 生きると 言われる。",
+		'ja-jp': "しっぽの １本 １本に 神通力が 込められている。 １０００年 生きると 言われる。",
 		'zh-tw': "每一根尾巴裡都蘊含著神通力。據說牠的壽命 長達１０００年。",
 	},
 
@@ -23,24 +23,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "みつめる",
+				'ja-jp': "みつめる",
 				'zh-tw': "目不轉睛",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【睡眠】。",
 			},
 		},
 		{
 			name: {
-				ja: "しゃくねつのいぶき",
+				'ja-jp': "しゃくねつのいぶき",
 				'zh-tw': "灼熱氣息",
 			},
 			damage: 120,
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
 			},
 		},
@@ -60,7 +60,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ロコン",
+		'ja-jp': "ロコン",
 	},
 
 	retreat: 1,

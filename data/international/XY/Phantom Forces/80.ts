@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Chansey",
-		fr: "Leveinard",
-		es: "Chansey",
-		it: "Chansey",
-		pt: "Chansey",
-		de: "Chaneira"
+		'en-us': "Chansey",
+		'fr-fr': "Leveinard",
+		'es-es': "Chansey",
+		'it-it': "Chansey",
+		'pt-br': "Chansey",
+		'de-de': "Chaneira"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nap",
-				fr: "Tit'Sieste",
-				es: "Siesta",
-				it: "Pausa",
-				pt: "Soneca",
-				de: "Nickerchen"
+				'en-us': "Nap",
+				'fr-fr': "Tit'Sieste",
+				'es-es': "Siesta",
+				'it-it': "Pausa",
+				'pt-br': "Soneca",
+				'de-de': "Nickerchen"
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts à ce Pokémon.",
-				es: "Cura 30 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 30 danni.",
-				pt: "Cure 30 de danos deste Pokémon.",
-				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon.",
+				'es-es': "Cura 30 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 30 danni.",
+				'pt-br': "Cure 30 de danos deste Pokémon.",
+				'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lucky Punch",
-				fr: "Poing Chance",
-				es: "Puño Suerte",
-				it: "Fortunpugno",
-				pt: "Soco da Sorte",
-				de: "Lucky Punch"
+				'en-us': "Lucky Punch",
+				'fr-fr': "Poing Chance",
+				'es-es': "Puño Suerte",
+				'it-it': "Fortunpugno",
+				'pt-br': "Soco da Sorte",
+				'de-de': "Lucky Punch"
 			},
 			effect: {
-				en: "If you don't have exactly 7 cards in your hand, this attack does nothing.",
-				fr: "Si vous n'avez pas exactement 7 cartes dans votre main, cette attaque ne fait rien.",
-				es: "Si no tienes exactamente 7 cartas en tu mano, este ataque no hace nada.",
-				it: "Se non hai esattamente sette carte in mano, questo attacco non ha effetto.",
-				pt: "Se você não tiver exatamente 7 cards na mão, esse ataque não fará nada.",
-				de: "Dieser Angriff hat keine Auswirkungen, wenn du nicht genau 7 Karten auf der Hand hast."
+				'en-us': "If you don't have exactly 7 cards in your hand, this attack does nothing.",
+				'fr-fr': "Si vous n'avez pas exactement 7 cartes dans votre main, cette attaque ne fait rien.",
+				'es-es': "Si no tienes exactamente 7 cartas en tu mano, este ataque no hace nada.",
+				'it-it': "Se non hai esattamente sette carte in mano, questo attacco non ha effetto.",
+				'pt-br': "Se você não tiver exatamente 7 cards na mão, esse ataque não fará nada.",
+				'de-de': "Dieser Angriff hat keine Auswirkungen, wenn du nicht genau 7 Karten auf der Hand hast."
 			},
 			damage: 100,
 
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It is said to deliver happiness. Being compassionate, it shares its egg with injured people.",
+		'en-us': "It is said to deliver happiness. Being compassionate, it shares its egg with injured people.",
 	},
 
 	thirdParty: {

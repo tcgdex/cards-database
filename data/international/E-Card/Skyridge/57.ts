@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Gastly",
-		de: "Nebulak"
+		'en-us': "Gastly",
+		'de-de': "Nebulak"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Haunt",
-				de: "Grusel"
+				'en-us': "Haunt",
+				'de-de': "Grusel"
 			},
 			effect: {
-				en: "Put a damage counter on the Defending Pokémon.",
-				de: "Lege eine Schadensmarke auf das verteidigende Pokémon."
+				'en-us': "Put a damage counter on the Defending Pokémon.",
+				'de-de': "Lege eine Schadensmarke auf das verteidigende Pokémon."
 			}
 
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Metagross",
-		fr: "Metalosse",
-		de: "Metagross"
+		'en-us': "Metagross",
+		'fr-fr': "Metalosse",
+		'de-de': "Metagross"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Metang",
-		fr: "Metang"
+		'en-us': "Metang",
+		'fr-fr': "Metang"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Gravitation",
-				fr: "Gravitation",
-				de: "Schwerkraft"
+				'en-us': "Gravitation",
+				'fr-fr': "Gravitation",
+				'de-de': "Schwerkraft"
 			},
 			effect: {
-				en: "Each Pokémon in play (both yours and your opponent's) gets -20 HP. No more than 20 HP can be reduced by all Gravitation Poké-Bodies.",
-				fr: "Retirez 20 PV à chaque Pokémon en jeu (les vôtres et ceux de votre adversaire). Les Poké-Bodies Gravitation ne peuvent pas retirer plus de 20 PV.",
-				de: "Jedes Pokémon im Spiel (deine und die deines Gegners) erhält -20 KP. Durch alle Schwerkraft Poke-Body können so nicht mehr als 20 KP abgezogen werden."
+				'en-us': "Each Pokémon in play (both yours and your opponent's) gets -20 HP. No more than 20 HP can be reduced by all Gravitation Poké-Bodies.",
+				'fr-fr': "Retirez 20 PV à chaque Pokémon en jeu (les vôtres et ceux de votre adversaire). Les Poké-Bodies Gravitation ne peuvent pas retirer plus de 20 PV.",
+				'de-de': "Jedes Pokémon im Spiel (deine und die deines Gegners) erhält -20 KP. Durch alle Schwerkraft Poke-Body können so nicht mehr als 20 KP abgezogen werden."
 			}
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Geo Impact",
-				fr: "Géo-impact",
-				de: "Geo-Aufprall"
+				'en-us': "Geo Impact",
+				'fr-fr': "Géo-impact",
+				'de-de': "Geo-Aufprall"
 			},
 			effect: {
-				en: "If you have a Stadium card in play, this attack does 20 damage to each of your opponent's Benched Pokémon that is the same type as the Defending Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Si vous avez une carte Stade en jeu, cette attaque inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire étant du même type que le Pokémon Défenseur. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Wenn du 1 Stadion-Karte im Spiel hast, fügt dieser Angriff jedem Pokémon auf der Bank deines Gegners, das denselben Typ wie das Verteidigende Pokémon hat, 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "If you have a Stadium card in play, this attack does 20 damage to each of your opponent's Benched Pokémon that is the same type as the Defending Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Si vous avez une carte Stade en jeu, cette attaque inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire étant du même type que le Pokémon Défenseur. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Wenn du 1 Stadion-Karte im Spiel hast, fügt dieser Angriff jedem Pokémon auf der Bank deines Gegners, das denselben Typ wie das Verteidigende Pokémon hat, 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Metang combined to form it. With four brains, it has the intelligence of a supercomputer."
+		'en-us': "Metang combined to form it. With four brains, it has the intelligence of a supercomputer."
 	},
 
 	variants: [

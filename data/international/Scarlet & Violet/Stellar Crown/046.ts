@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Electabuzz",
-		fr: "Élektek",
-		es: "Electabuzz",
-		it: "Electabuzz",
-		pt: "Electabuzz",
-		de: "Elektek"
+		'en-us': "Electabuzz",
+		'fr-fr': "Élektek",
+		'es-es': "Electabuzz",
+		'it-it': "Electabuzz",
+		'pt-br': "Electabuzz",
+		'de-de': "Elektek"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			es: "Coleccionar",
-			it: "Tassa",
-			pt: "Coleta",
-			de: "Sammeln"
+			'en-us': "Collect",
+			'fr-fr': "Collecte",
+			'es-es': "Coleccionar",
+			'it-it': "Tassa",
+			'pt-br': "Coleta",
+			'de-de': "Sammeln"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			es: "Roba 1 carta.",
-			it: "Pesca una carta.",
-			pt: "Compre uma carta.",
-			de: "Ziehe 1 Karte."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'es-es': "Roba 1 carta.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre uma carta.",
+			'de-de': "Ziehe 1 Karte."
 		}
 	}, {
 		cost: ["Lightning", "Lightning"],
 
 		name: {
-			en: "Magnum Punch",
-			fr: "Poing Magnum",
-			es: "Puño Mágnum",
-			it: "Superpugno",
-			pt: "Soco Magnum",
-			de: "Magnum-Schlag"
+			'en-us': "Magnum Punch",
+			'fr-fr': "Poing Magnum",
+			'es-es': "Puño Mágnum",
+			'it-it': "Superpugno",
+			'pt-br': "Soco Magnum",
+			'de-de': "Magnum-Schlag"
 		},
 
 		damage: 40

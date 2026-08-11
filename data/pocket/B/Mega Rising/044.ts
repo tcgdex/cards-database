@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Heatmor"
+		'en-us': "Heatmor"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "A flame serves as its tongue, melting through the\nhard shell of Durant so that Heatmor can devour\ntheir insides."
+		'en-us': "A flame serves as its tongue, melting through the\nhard shell of Durant so that Heatmor can devour\ntheir insides."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Tongue Whip"
+			'en-us': "Tongue Whip"
 		},
 
 		cost: ["Fire"],
 
 		effect: {
-			en: "This attack does 30 damage to 1 of your opponent's Benched Pokémon."
+			'en-us': "This attack does 30 damage to 1 of your opponent's Benched Pokémon."
 		}
 	}],
 

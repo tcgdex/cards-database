@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Lucario",
+		'en-us': "Lucario",
 	},
 
 	illustrator: "MAHOU",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Riolu",
+		'en-us': "Riolu",
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Reflexive Retaliation",
+				'en-us': "Reflexive Retaliation",
 			},
 			effect: {
-				en: "If this Pokémon is your Active Pokémon and is damaged by an opponent’s attack (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon.",
+				'en-us': "If this Pokémon is your Active Pokémon and is damaged by an opponent’s attack (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon.",
 			},
 		},
 	],
@@ -46,10 +46,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Aura Sphere",
+				'en-us': "Aura Sphere",
 			},
 			effect: {
-				en: "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'en-us': "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 50,
 
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away.",
+		'en-us': "A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away.",
 	},
 
 	thirdParty: {

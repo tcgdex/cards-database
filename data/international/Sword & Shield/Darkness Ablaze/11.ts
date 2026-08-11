@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [722],
 
 	name: {
-		en: "Rowlet",
-		fr: "Brindibou",
-		es: "Rowlet",
-		it: "Rowlet",
-		pt: "Rowlet",
-		de: "Bauz"
+		'en-us': "Rowlet",
+		'fr-fr': "Brindibou",
+		'es-es': "Rowlet",
+		'it-it': "Rowlet",
+		'pt-br': "Rowlet",
+		'de-de': "Bauz"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -27,20 +27,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Sky Circus",
-				fr: "Cirque Céleste",
-				es: "Circo Aéreo",
-				it: "Circo Aereo",
-				pt: "Circo Aéreo",
-				de: "Himmelszirkus"
+				'en-us': "Sky Circus",
+				'fr-fr': "Cirque Céleste",
+				'es-es': "Circo Aéreo",
+				'it-it': "Circo Aereo",
+				'pt-br': "Circo Aéreo",
+				'de-de': "Himmelszirkus"
 			},
 			effect: {
-				en: "If you played Bird Keeper from your hand during this turn, ignore all Energy in this Pokémon's attack costs.",
-				fr: "Si vous avez joué Ornithologue de votre main pendant ce tour, ignorez toutes les Énergies dans les coûts d'attaques de ce Pokémon.",
-				es: "Si has jugado 1 carta de Ornitólogo de tu mano durante este turno, ignora todas las Energías en el coste de los ataques de este Pokémon.",
-				it: "Se hai giocato Avicoltore dalla tua mano durante questo turno, ignora tutte le Energie necessarie per usare gli attacchi di questo Pokémon.",
-				pt: "Se você jogou Ornitólogo da sua mão durante este turno, ignore todas as Energias nos custos dos ataques deste Pokémon.",
-				de: "Wenn du Vogel-Profi während dieses Zuges aus deiner Hand gespielt hast, ignoriere alle Energien in den Attackenkosten dieses Pokémon."
+				'en-us': "If you played Bird Keeper from your hand during this turn, ignore all Energy in this Pokémon's attack costs.",
+				'fr-fr': "Si vous avez joué Ornithologue de votre main pendant ce tour, ignorez toutes les Énergies dans les coûts d'attaques de ce Pokémon.",
+				'es-es': "Si has jugado 1 carta de Ornitólogo de tu mano durante este turno, ignora todas las Energías en el coste de los ataques de este Pokémon.",
+				'it-it': "Se hai giocato Avicoltore dalla tua mano durante questo turno, ignora tutte le Energie necessarie per usare gli attacchi di questo Pokémon.",
+				'pt-br': "Se você jogou Ornitólogo da sua mão durante este turno, ignore todas as Energias nos custos dos ataques deste Pokémon.",
+				'de-de': "Wenn du Vogel-Profi während dieses Zuges aus deiner Hand gespielt hast, ignoriere alle Energien in den Attackenkosten dieses Pokémon."
 			},
 		},
 	],
@@ -53,20 +53,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wind Shard",
-				fr: "Éclat Volant",
-				es: "Esquirla al Viento",
-				it: "Ventoscheggia",
-				pt: "Caco de Vento",
-				de: "Windscherbe"
+				'en-us': "Wind Shard",
+				'fr-fr': "Éclat Volant",
+				'es-es': "Esquirla al Viento",
+				'it-it': "Ventoscheggia",
+				'pt-br': "Caco de Vento",
+				'de-de': "Windscherbe"
 			},
 			effect: {
-				en: "This attack does 60 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 60 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				es: "Este ataque hace 60 puntos de daño a 1 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-				it: "Questo attacco infligge 60 danni a uno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-				pt: "Este ataque causa 60 pontos de dano a 1 dos Pokémon no Banco do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
-				de: "Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners 60 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "This attack does 60 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 60 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'es-es': "Este ataque hace 60 puntos de daño a 1 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+				'it-it': "Questo attacco infligge 60 danni a uno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+				'pt-br': "Este ataque causa 60 pontos de dano a 1 dos Pokémon no Banco do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
+				'de-de': "Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners 60 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -86,7 +86,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "At a distance, it launches its sharp feathers while flying about. If the enemy gets too close, Rowlet switches tactics and delivers vicious kicks."
+		'en-us': "At a distance, it launches its sharp feathers while flying about. If the enemy gets too close, Rowlet switches tactics and delivers vicious kicks."
 	},
 
 	variants: [

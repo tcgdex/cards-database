@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マーマネ",
+		'ja-jp': "マーマネ",
 	},
 
 	illustrator: "Sanosuke Sakuma",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードは、自分の手札を2枚トラッシュしなければ使えない。自分の山札を4枚引く。",
+		'ja-jp': "このカードは、自分の手札を2枚トラッシュしなければ使えない。自分の山札を4枚引く。",
 	},
 
 	variants: [

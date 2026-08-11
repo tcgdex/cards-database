@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Alakazam E4",
-		fr: "Alakazam  Niv. 56",
-		de: "Simsala 4"
+		'en-us': "Alakazam E4",
+		'fr-fr': "Alakazam  Niv. 56",
+		'de-de': "Simsala 4"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
@@ -27,14 +27,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Recover",
-				fr: "Soin",
-				de: "Genesung"
+				'en-us': "Recover",
+				'fr-fr': "Soin",
+				'de-de': "Genesung"
 			},
 			effect: {
-				en: "Discard a Psychic Energy attached to Alakazam E4 and remove 4 damage counters from Alakazam E4.",
-				fr: "Défaussez une carte Énergie Psychic attachée à Alakazam  et retirez-lui 4 marqueurs de dégât.",
-				de: "Lege 1 an Simsala 4 angelegte -Energie auf deinen Ablagestapel und entferne 4 Schadensmarken von Simsala 4."
+				'en-us': "Discard a Psychic Energy attached to Alakazam E4 and remove 4 damage counters from Alakazam E4.",
+				'fr-fr': "Défaussez une carte Énergie Psychic attachée à Alakazam  et retirez-lui 4 marqueurs de dégât.",
+				'de-de': "Lege 1 an Simsala 4 angelegte -Energie auf deinen Ablagestapel und entferne 4 Schadensmarken von Simsala 4."
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mysterious Beam",
-				fr: "Rayon mystérieux",
-				de: "Seltsamer Strahl"
+				'en-us': "Mysterious Beam",
+				'fr-fr': "Rayon mystérieux",
+				'de-de': "Seltsamer Strahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 

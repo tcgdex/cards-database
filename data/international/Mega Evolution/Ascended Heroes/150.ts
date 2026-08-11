@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dratini",
-		fr: "Minidraco",
-		es: "Dratini",
+		'en-us': "Dratini",
+		'fr-fr': "Minidraco",
+		'es-es': "Dratini",
 		'es-mx': "Dratini",
-		de: "Dratini",
-		it: "Dratini",
-		pt: "Dratini"
+		'de-de': "Dratini",
+		'it-it': "Dratini",
+		'pt-br': "Dratini"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Water", "Lightning"],
 
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			es: "Golpe Cabeza",
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'es-es': "Golpe Cabeza",
 			'es-mx': "Golpe Cabeza",
-			de: "Kopfnuss",
-			it: "Bottintesta",
-			pt: "Cabeçada"
+			'de-de': "Kopfnuss",
+			'it-it': "Bottintesta",
+			'pt-br': "Cabeçada"
 		},
 
 		damage: 30
@@ -42,7 +42,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "This Pokémon is full of life energy. It continually sheds its skin and grows steadily larger.",
+		'en-us': "This Pokémon is full of life energy. It continually sheds its skin and grows steadily larger.",
 	},
 
 	variants: [

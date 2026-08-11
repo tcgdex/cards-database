@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Kirlia",
-		fr: "Kirlia",
-		de: "Kirlia"
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia",
+		'de-de': "Kirlia"
 	},
 
 	illustrator: "Midori Harada",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ralts",
-		fr: "Tarsal"
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Calm Mind",
-				fr: "Plénitude",
-				de: "Calm Mind"
+				'en-us': "Calm Mind",
+				'fr-fr': "Plénitude",
+				'de-de': "Calm Mind"
 			},
 			effect: {
-				en: "Remove 3 damage counters from Kirlia.",
-				fr: "Retirez à Kirlia 3 marqueurs de dégât.",
-				de: "Remove 3 damage counters from Kirlia."
+				'en-us': "Remove 3 damage counters from Kirlia.",
+				'fr-fr': "Retirez à Kirlia 3 marqueurs de dégât.",
+				'de-de': "Remove 3 damage counters from Kirlia."
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic Boom",
-				fr: "Psycho-boom",
-				de: "Psychic Boom"
+				'en-us': "Psychic Boom",
+				'fr-fr': "Psycho-boom",
+				'de-de': "Psychic Boom"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
-				de: "Does 20 damage plus 10 more damage for each Energy attached to the Defending Pokémon."
+				'en-us': "Does 20 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
+				'fr-fr': "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Does 20 damage plus 10 more damage for each Energy attached to the Defending Pokémon."
 			},
 			damage: "20+",
 

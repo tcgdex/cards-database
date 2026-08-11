@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フォクスライ",
+		'ja-jp': "フォクスライ",
 	},
 
 	illustrator: "GOTO minori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "狙った 獲物は こっそり マーキング。 においを 辿って 油断 したころ 盗みに 来るぞ。",
+		'ja-jp': "狙った 獲物は こっそり マーキング。 においを 辿って 油断 したころ 盗みに 来るぞ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "スキルシーフ" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の手札が1枚もないなら、相手の場のポケモンが持つワザを1つ選び、このワザとして使う。",
+				'ja-jp': "自分の手札が1枚もないなら、相手の場のポケモンが持つワザを1つ選び、このワザとして使う。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "クスネ",
+		'ja-jp': "クスネ",
 	},
 
 	retreat: 1,

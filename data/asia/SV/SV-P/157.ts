@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ズルッグ",
+		'ja-jp': "ズルッグ",
 	},
 
 	illustrator: "OKUBO",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "視線が 合ったら 危険！ 相手を 選ばず 頭突きで 襲ってくる 厄介者だ。",
+		'ja-jp': "視線が 合ったら 危険！ 相手を 選ばず 頭突きで 襲ってくる 厄介者だ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Darkness"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
 			},
 		},
 	],

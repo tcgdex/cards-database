@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Delcatty"
+		'id-id': "Delcatty"
 	},
 
 	illustrator: "Keisin",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Delcatty sangat membenci tempat kotor. Ia selalu merawat bulunya di tempat yang nyaman."
+		'id-id': "Delcatty sangat membenci tempat kotor. Ia selalu merawat bulunya di tempat yang nyaman."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Ekor Pengecoh"
+			'id-id': "Ekor Pengecoh"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
 		},
 
 		damage: 30,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Energy Mixer"
+			'id-id': "Energy Mixer"
 		},
 
 		effect: {
-			id: "Pilih sesukanya Energi yang dikenakan pada Pokémon di Arena sendiri, lalu pindahkan sesukanya ke Pokémon sendiri."
+			'id-id': "Pilih sesukanya Energi yang dikenakan pada Pokémon di Arena sendiri, lalu pindahkan sesukanya ke Pokémon sendiri."
 		},
 
 		damage: 110,

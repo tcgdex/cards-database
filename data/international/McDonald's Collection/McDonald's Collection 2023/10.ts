@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2023'
 
 const card: Card = {
 	name: {
-		en: "Sandaconda",
-		fr: "Dunaconda",
-		es: "Sandaconda",
-		it: "Sandaconda",
-		pt: "Sandaconda",
-		de: "Sanaconda"
+		'en-us': "Sandaconda",
+		'fr-fr': "Dunaconda",
+		'es-es': "Sandaconda",
+		'it-it': "Sandaconda",
+		'pt-br': "Sandaconda",
+		'de-de': "Sanaconda"
 	},
 
 	illustrator: "Yuya Oka",
@@ -25,29 +25,29 @@ const card: Card = {
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Silicobra",
-		fr: "Dunaja",
-		es: "Silicobra",
-		it: "Silicobra",
-		pt: "Silicobra",
-		de: "Salanga"
+		'en-us': "Silicobra",
+		'fr-fr': "Dunaja",
+		'es-es': "Silicobra",
+		'it-it': "Silicobra",
+		'pt-br': "Silicobra",
+		'de-de': "Salanga"
 	},
 
 	attacks: [
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
-				en: "Skull Bash",
+				'en-us': "Skull Bash",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
 			name: {
-				en: "Sandstorm Spray",
+				'en-us': "Sandstorm Spray",
 			},
 			effect: {
-				en: "Discard 2 Energy from this Pokémon. If you discarded any Energy in this way, your opponent shuffles their Active Pokémon and all attached cards into their deck.",
+				'en-us': "Discard 2 Energy from this Pokémon. If you discarded any Energy in this way, your opponent shuffles their Active Pokémon and all attached cards into their deck.",
 			},
 		},
 	],

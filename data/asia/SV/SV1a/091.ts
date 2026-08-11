@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "パルデア ドオーex"
+		'ja-jp': "パルデア ドオーex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -19,11 +19,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "どくのぬまち"
+			'ja-jp': "どくのぬまち"
 		},
 
 		effect: {
-			ja: "場にスタジアムが出ているなら、自分の番に1回使える。相手のバトルポケモンをどくにする。"
+			'ja-jp': "場にスタジアムが出ているなら、自分の番に1回使える。相手のバトルポケモンをどくにする。"
 		}
 	}],
 
@@ -31,13 +31,13 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ニードルボーン"
+			'ja-jp': "ニードルボーン"
 		},
 
 		damage: 200,
 
 		effect: {
-			ja: "コインを1回投げウラなら、次の自分の番、このポケモンはワザが使えない。"
+			'ja-jp': "コインを1回投げウラなら、次の自分の番、このポケモンはワザが使えない。"
 		}
 	}],
 

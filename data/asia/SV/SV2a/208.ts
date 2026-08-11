@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミュウex",
+		'ja-jp': "ミュウex",
 	},
 
 	illustrator: "aky CG Works",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "リスタート" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札が3枚になるように、山札を引く。",
+				'ja-jp': "自分の番に1回使える。自分の手札が3枚になるように、山札を引く。",
 			},
 		},
 	],
@@ -29,7 +29,7 @@ const card: Card = {
 			name: { ja: "ゲノムハック" },
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが持っているワザを1つ選び、このワザとして使う。",
+				'ja-jp': "相手のバトルポケモンが持っているワザを1つ選び、このワザとして使う。",
 			},
 		},
 	],

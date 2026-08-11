@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fossil'
 
 const card: Card = {
 	name: {
-		en: "Hypno",
-		fr: "Hypnomade",
-		de: "Hypno"
+		'en-us': "Hypno",
+		'fr-fr': "Hypnomade",
+		'de-de': "Hypno"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Drowzee",
-		fr: "Soporifik"
+		'en-us': "Drowzee",
+		'fr-fr': "Soporifik"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Prophecy",
-				fr: "Prophétie",
-				de: "Vorhersagung"
+				'en-us': "Prophecy",
+				'fr-fr': "Prophétie",
+				'de-de': "Vorhersagung"
 			},
 			effect: {
-				en: "Look at up to 3 cards from the top of either player's deck and rearrange them as you like.",
-				fr: "Regardez jusqu'à 3 cartes du dessus du deck d'un des deux joueurs et réarrangez-les comme bon vous semble.",
-				de: "Schaue dir bis zu drei der obersten Karten vom Deck deines Gegners oder deinem eigenen Deck an und lege sie in beliebiger Reihenfolge wieder auf das Deck zurück."
+				'en-us': "Look at up to 3 cards from the top of either player's deck and rearrange them as you like.",
+				'fr-fr': "Regardez jusqu'à 3 cartes du dessus du deck d'un des deux joueurs et réarrangez-les comme bon vous semble.",
+				'de-de': "Schaue dir bis zu drei der obersten Karten vom Deck deines Gegners oder deinem eigenen Deck an und lege sie in beliebiger Reihenfolge wieder auf das Deck zurück."
 			},
 
 		},
@@ -54,14 +54,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Dark Mind",
-				fr: "Sombre-esprit",
-				de: "Finsteres Gemüt"
+				'en-us': "Dark Mind",
+				'fr-fr': "Sombre-esprit",
+				'de-de': "Finsteres Gemüt"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 10 dégâts. (Ne pas appliquer la Résistance et la Faiblesse au Pokémon du Banc.)",
-				de: "Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen. Dieser Angriff fügt ihm 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
+				'en-us': "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 10 dégâts. (Ne pas appliquer la Résistance et la Faiblesse au Pokémon du Banc.)",
+				'de-de': "Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen. Dieser Angriff fügt ihm 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
 			},
 			damage: 30,
 
@@ -78,8 +78,8 @@ const card: Card = {
 
 
 	description: {
-		en: "When it locks eyes with an enemy, it will use a mix of psi moves such as Hypnosis and Confusion.",
-		fr: "En fixant son adversaire, il l'assaille avec les attaques Psy Hypnose et Convulsion."
+		'en-us': "When it locks eyes with an enemy, it will use a mix of psi moves such as Hypnosis and Confusion.",
+		'fr-fr': "En fixant son adversaire, il l'assaille avec les attaques Psy Hypnose et Convulsion."
 	},
 
 

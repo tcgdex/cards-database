@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴルーグ",
+		'ja-jp': "ゴルーグ",
 		'zh-tw': "泥偶巨人",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "体内に エネルギーを 生み出す 永久機関が あると いうが 未だに 解明は されていない。",
+		'ja-jp': "体内に エネルギーを 生み出す 永久機関が あると いうが 未だに 解明は されていない。",
 		'zh-tw': "雖然有人認為牠體內有著生成能量的永動機，但至今仍未得到證實。",
 	},
 
@@ -23,25 +23,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "きょうかパンチ",
+				'ja-jp': "きょうかパンチ",
 				'zh-tw': "強化拳",
 			},
 			damage: "60+",
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンに「ポケモンのどうぐ」がついているなら、90ダメージ追加。",
+				'ja-jp': "このポケモンに「ポケモンのどうぐ」がついているなら、90ダメージ追加。",
 				'zh-tw': "若這隻寶可夢身上附有「寶可夢道具」，則增加90點傷害。",
 			},
 		},
 		{
 			name: {
-				ja: "メガトンフォール",
+				'ja-jp': "メガトンフォール",
 				'zh-tw': "百萬噸墜落",
 			},
 			damage: 190,
 			cost: ["Psychic", "Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 				'zh-tw': "這隻寶可夢也受到30點傷害。",
 			},
 		},
@@ -61,7 +61,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴビット",
+		'ja-jp': "ゴビット",
 	},
 
 	retreat: 4,

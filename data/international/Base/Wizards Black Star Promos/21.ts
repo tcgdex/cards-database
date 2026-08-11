@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Moltres",
-		fr: "Sulfura"
+		'en-us': "Moltres",
+		'fr-fr': "Sulfura"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Hyper Flame",
-				fr: "Super flamme"
+				'en-us': "Hyper Flame",
+				'fr-fr': "Super flamme"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard 1 Energy card attached to Moltres. If tails, discard all Energy cards attached to Moltres. If you can't discard Energy cards, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie  attachée à Sulfura. Si c'est pile, défaussez toutes les cartes Énergies attachées à Sulfura. Vous ne pouvez utiliser cette attaque que si vous pouvez défausser des cartes Énergies attachées à Sulfura."
+				'en-us': "Flip a coin. If heads, discard 1 Energy card attached to Moltres. If tails, discard all Energy cards attached to Moltres. If you can't discard Energy cards, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une carte Énergie  attachée à Sulfura. Si c'est pile, défaussez toutes les cartes Énergies attachées à Sulfura. Vous ne pouvez utiliser cette attaque que si vous pouvez défausser des cartes Énergies attachées à Sulfura."
 			},
 			damage: 60,
 
@@ -54,8 +54,8 @@ const card: Card = {
 
 
 	description: {
-		en: "The flames on this legendary Pokémon's wings burn so brightly that they can make night seem like day.",
-		fr: "Les flammes des ailes de ce Pokémon légendaire brûlent d'un feu si ardent qu'elles permettent de voir la nuit comme en plein jour."
+		'en-us': "The flames on this legendary Pokémon's wings burn so brightly that they can make night seem like day.",
+		'fr-fr': "Les flammes des ailes de ce Pokémon légendaire brûlent d'un feu si ardent qu'elles permettent de voir la nuit comme en plein jour."
 	},
 
 	variants: [

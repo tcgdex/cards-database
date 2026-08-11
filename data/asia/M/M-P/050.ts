@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ふうせん",
+		'ja-jp': "ふうせん",
 	},
 
 	illustrator: "Studio Bora Inc.",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけているポケモンは、にげるためのエネルギーが2個ぶん少なくなる。",
+		'ja-jp': "このカードをつけているポケモンは、にげるためのエネルギーが2個ぶん少なくなる。",
 	},
 
 	variants: [

@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Clefairy",
-		fr: "Mélofée",
-		de: "Piepi",
-		it: "Clefairy"
+		'en-us': "Clefairy",
+		'fr-fr': "Mélofée",
+		'de-de': "Piepi",
+		'it-it': "Clefairy"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,16 +32,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sing",
-				fr: "Berceuse",
-				de: "Gesang",
-				it: "Canto"
+				'en-us': "Sing",
+				'fr-fr': "Berceuse",
+				'de-de': "Gesang",
+				'it-it': "Canto"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon schlafend.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Addormentato."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon schlafend.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon Difensore è Addormentato."
 			},
 
 		},
@@ -52,16 +52,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metronome",
-				fr: "Métronome",
-				de: "Metronom",
-				it: "Metronomo"
+				'en-us': "Metronome",
+				'fr-fr': "Métronome",
+				'de-de': "Metronom",
+				'it-it': "Metronomo"
 			},
 			effect: {
-				en: "Choose 1 of Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding energy cards. (No matter what type the defender is, Clefairy's type is still Colorless.)",
-				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Métronome copie cette attaque à l'exception de son coût d'Énergie et de toute autre action requise pour utiliser cette attaque, comme par exemple, défausser des cartes Énergie. (Quel que soit le type du Pokémon Défenseur, Mélofée demeure de type Incolore.)",
-				de: "Wähle einen der Angriffe des verteidigenden Pokémon. Metronom kopiert diesen Angriff, außer seiner Energiekosten und was sonst noch für den Einsatz dieses Angriffs erforderlich ist, wie z.B. das Entfernen von Energiekarten. (Unabhängig vom Typ des Verteidigenden Pokémon ist der Typ der Piepi immer noch farblos.)",
-				it: "Scegli uno degli attacchi del Pokémon difensore. Il Metronomo copia quell'attacco, ad esclusione dei suoi costi di Energia e altre azioni necessarie per portare a termine  quell'attacco, come scartare carte Energia. (Indipendetemente dal tipo di Pokémon Difensore, Clefairy rimane di tipo Incolore.)"
+				'en-us': "Choose 1 of Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding energy cards. (No matter what type the defender is, Clefairy's type is still Colorless.)",
+				'fr-fr': "Choisissez 1 des attaques du Pokémon Défenseur. Métronome copie cette attaque à l'exception de son coût d'Énergie et de toute autre action requise pour utiliser cette attaque, comme par exemple, défausser des cartes Énergie. (Quel que soit le type du Pokémon Défenseur, Mélofée demeure de type Incolore.)",
+				'de-de': "Wähle einen der Angriffe des verteidigenden Pokémon. Metronom kopiert diesen Angriff, außer seiner Energiekosten und was sonst noch für den Einsatz dieses Angriffs erforderlich ist, wie z.B. das Entfernen von Energiekarten. (Unabhängig vom Typ des Verteidigenden Pokémon ist der Typ der Piepi immer noch farblos.)",
+				'it-it': "Scegli uno degli attacchi del Pokémon difensore. Il Metronomo copia quell'attacco, ad esclusione dei suoi costi di Energia e altre azioni necessarie per portare a termine  quell'attacco, come scartare carte Energia. (Indipendetemente dal tipo di Pokémon Difensore, Clefairy rimane di tipo Incolore.)"
 			},
 
 		},
@@ -84,9 +84,9 @@ const card: Card = {
 
 
 	description: {
-		en: "Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
-		fr: "Très recherché pour son aura mystique, il est très rare et ne vit que dans des endroits précis.",
-		it: "Grazioso e magico, questo Pokémon è molto ammirato. È raro e si trova solo in determinate località. LIV 14 N.35"
+		'en-us': "Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
+		'fr-fr': "Très recherché pour son aura mystique, il est très rare et ne vit que dans des endroits précis.",
+		'it-it': "Grazioso e magico, questo Pokémon è molto ammirato. È raro e si trova solo in determinate località. LIV 14 N.35"
 	},
 
 	variants: [

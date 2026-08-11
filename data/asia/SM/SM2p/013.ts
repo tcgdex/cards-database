@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラロコン",
+		'ja-jp': "アローラロコン",
 	},
 
 	illustrator: "You Iribi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "マイナス５０度の 冷気を 吐く。 アローラの老人は ケオケオという 昔の 名前で 呼ぶことも。",
+		'ja-jp': "マイナス５０度の 冷気を 吐く。 アローラの老人は ケオケオという 昔の 名前で 呼ぶことも。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "みちしるべ" },
 			cost: [],
 			effect: {
-				ja: "自分の山札にあるポケモンを2枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札にあるポケモンを2枚まで、相手に見せてから、手札に加える。そして山札を切る。",
 			},
 		},
 		{

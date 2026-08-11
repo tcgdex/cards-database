@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legend Maker'
 
 const card: Card = {
 	name: {
-		en: "React Energy",
-		fr: "Énergie réaction",
-		de: "Reaktions-Energie"
+		'en-us': "React Energy",
+		'fr-fr': "Énergie réaction",
+		'de-de': "Reaktions-Energie"
 	},
 
 	illustrator: "Takumi Akabane",
@@ -15,9 +15,9 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		en: "React Energy provides Colorless Energy.",
-		de: "Reaktions-Energie liefert  Energie.",
-		fr: "Énergie réaction fournit une Énergie Incolore.",
+		'en-us': "React Energy provides Colorless Energy.",
+		'de-de': "Reaktions-Energie liefert  Energie.",
+		'fr-fr': "Énergie réaction fournit une Énergie Incolore.",
 	},
 
 	thirdParty: {

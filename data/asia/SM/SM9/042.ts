@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニドラン♂",
+		'ja-jp': "ニドラン♂",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "草むらの 上に 耳だけ 出して まわりの 気配を 探る。 猛毒の ツノで 身を 守る。",
+		'ja-jp': "草むらの 上に 耳だけ 出して まわりの 気配を 探る。 猛毒の ツノで 身を 守る。",
 	},
 
 	stage: "Basic",

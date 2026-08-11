@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "キリキザン",
+		'ja-jp': "キリキザン",
 		'zh-tw': "劈斬司令",
-		id: "Bisharp"
+		'id-id': "Bisharp"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "コマタナを 率いて 群れを 成す。 縄張りを 賭けて 争い 負けた 群れは 吸収されていくのだ。",
+		'ja-jp': "コマタナを 率いて 群れを 成す。 縄張りを 賭けて 争い 負けた 群れは 吸収されていくのだ。",
 		'zh-tw': "率領駒刀小兵成群結隊。輸掉賭上地盤之爭的群體， 會一個接一個地遭到吸收。",
-		id: "Bisharp membentuk pasukan dan memimpin para Pawniard. Pasukan yang kalah dalam pertarungan perebutan wilayah teritorial akan diserap oleh pasukan pemenang."
+		'id-id': "Bisharp membentuk pasukan dan memimpin para Pawniard. Pasukan yang kalah dalam pertarungan perebutan wilayah teritorial akan diserap oleh pasukan pemenang."
 	},
 
 	stage: "Stage1",
@@ -28,9 +28,9 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			ja: "ダークカッター",
+			'ja-jp': "ダークカッター",
 			'zh-tw': "暗黑利刃",
-			id: "Kegelapan Pemotong"
+			'id-id': "Kegelapan Pemotong"
 		},
 
 		damage: 40
@@ -38,17 +38,17 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			ja: "もろはぎり",
+			'ja-jp': "もろはぎり",
 			'zh-tw': "雙刃斬",
-			id: "Sabetan Luka Bersama"
+			'id-id': "Sabetan Luka Bersama"
 		},
 
 		damage: 120,
 
 		effect: {
-			ja: "このポケモンにも30ダメージ。",
+			'ja-jp': "このポケモンにも30ダメージ。",
 			'zh-tw': "這隻寶可夢也受到30點傷害。",
-			id: "Pokémon ini juga menerima kerusakan sejumlah 30."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 30."
 		}
 	}],
 

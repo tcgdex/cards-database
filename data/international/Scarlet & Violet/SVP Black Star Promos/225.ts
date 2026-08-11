@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu"
 	},
 	rarity: "Promo",
 	category: "Pokemon",
@@ -20,12 +20,12 @@ const card: Card = {
 		{
 			cost: ["Lightning","Lightning","Colorless"],
 			name: {
-				en: "Scrappy Spark",
-				fr: "Étincelle Querelleuse"
+				'en-us': "Scrappy Spark",
+				'fr-fr': "Étincelle Querelleuse"
 			},
 			effect: {
-				en:	"Flip a coin until you get tails. This attack does 30 more damage for each heads.",
-				fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face."
+				'en-us': 	"Flip a coin until you get tails. This attack does 30 more damage for each heads.",
+				'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face."
 			},
 			damage: "30+"
 		},

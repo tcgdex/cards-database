@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヘイラッシャ",
+		'ja-jp': "ヘイラッシャ",
 		'zh-tw': "潤水鴨",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "大食らいだが エサを 取るのは 苦手。 シャリタツと コンビを 組んで 獲物を 捕らえるのだ。",
+		'ja-jp': "大食らいだが エサを 取るのは 苦手。 シャリタツと コンビを 組んで 獲物を 捕らえるのだ。",
 		'zh-tw': "很久以前從遠方來到了 這裡棲息。羽毛分泌出的 凝膠有防水和防污的效果。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶちかます",
+				'ja-jp': "ぶちかます",
 				'zh-tw': "水沫",
 			},
 			damage: 60,
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Water", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、すべてオモテなら、100ダメージ追加。",
+				'ja-jp': "コインを2回投げ、すべてオモテなら、100ダメージ追加。",
 			},
 		},
 	],

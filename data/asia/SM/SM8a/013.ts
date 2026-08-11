@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エレザード",
+		'ja-jp': "エレザード",
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "電気で 筋肉を 刺激すると １００メートルを ５秒で 走る 脚力に パワーアップする。",
+		'ja-jp': "電気で 筋肉を 刺激すると １００メートルを ５秒で 走る 脚力に パワーアップする。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "でんじスパーク" },
 			cost: ["Lightning"],
 			effect: {
-				ja: "相手のポケモン1匹に、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンをベンチの[雷]ポケモンと入れ替える。",
+				'ja-jp': "このポケモンをベンチの[雷]ポケモンと入れ替える。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "エリキテル",
+		'ja-jp': "エリキテル",
 	},
 
 	retreat: 1,

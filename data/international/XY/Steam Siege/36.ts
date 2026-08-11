@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Bergmite",
-		fr: "Grelaçon",
-		es: "Bergmite",
-		it: "Bergmite",
-		pt: "Bergmite",
-		de: "Arktip"
+		'en-us': "Bergmite",
+		'fr-fr': "Grelaçon",
+		'es-es': "Bergmite",
+		'it-it': "Bergmite",
+		'pt-br': "Bergmite",
+		'de-de': "Arktip"
 	},
 
 	illustrator: "Midori Harada",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Ice Block",
-				fr: "Bloc de Glace",
-				es: "Bloque de Hielo",
-				it: "Crioblocco",
-				pt: "Bloco de Gelo",
-				de: "Eisblockade"
+				'en-us': "Ice Block",
+				'fr-fr': "Bloc de Glace",
+				'es-es': "Bloque de Hielo",
+				'it-it': "Crioblocco",
+				'pt-br': "Bloco de Gelo",
+				'de-de': "Eisblockade"
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts à ce Pokémon.",
-				es: "Cura 30 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 30 danni.",
-				pt: "Cure 30 de danos deste Pokémon.",
-				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon.",
+				'es-es': "Cura 30 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 30 danni.",
+				'pt-br': "Cure 30 de danos deste Pokémon.",
+				'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Icy Snow",
-				fr: "Verglas",
-				es: "Nieve Helada",
-				it: "Geloneve",
-				pt: "Neve Congelada",
-				de: "Eisiger Schnee"
+				'en-us': "Icy Snow",
+				'fr-fr': "Verglas",
+				'es-es': "Nieve Helada",
+				'it-it': "Geloneve",
+				'pt-br': "Neve Congelada",
+				'de-de': "Eisiger Schnee"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Using air of -150 degrees Fahrenheit, they freeze opponents solid. They live in herds above the snow line on mountains.",
+		'en-us': "Using air of -150 degrees Fahrenheit, they freeze opponents solid. They live in herds above the snow line on mountains.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モジャンボ",
+		'ja-jp': "モジャンボ",
 	},
 
 	illustrator: "LINNE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "自在に 伸びる ２本の 腕は じつは ツルが 束になったものと 最近の 研究で わかった。",
+		'ja-jp': "自在に 伸びる ２本の 腕は じつは ツルが 束になったものと 最近の 研究で わかった。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "みつりんボディ" },
 			effect: {
-				ja: "このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "このポケモンが受けるワザのダメージは「-30」される。",
 			},
 		},
 	],
@@ -33,7 +33,7 @@ const card: Card = {
 			name: { ja: "おおいかぶさる 150-" },
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数×10ダメージぶん、このワザのダメージは小さくなる。",
+				'ja-jp': "このポケモンにのっているダメカンの数×10ダメージぶん、このワザのダメージは小さくなる。",
 			},
 		},
 	],
@@ -51,7 +51,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モンジャラ",
+		'ja-jp': "モンジャラ",
 	},
 
 	retreat: 4,

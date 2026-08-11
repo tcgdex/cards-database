@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gastly",
-		fr: "Fantominus",
-		es: "Gastly",
-		it: "Gastly",
-		pt: "Gastly",
-		de: "Nebulak"
+		'en-us': "Gastly",
+		'fr-fr': "Fantominus",
+		'es-es': "Gastly",
+		'it-it': "Gastly",
+		'pt-br': "Gastly",
+		'de-de': "Nebulak"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Furtive Drop",
-			fr: "Chute Furtive",
-			es: "Caída Furtiva",
-			it: "Lascito Furtivo",
-			pt: "Gota Furtiva",
-			de: "Hinterhältiger Fall"
+			'en-us': "Furtive Drop",
+			'fr-fr': "Chute Furtive",
+			'es-es': "Caída Furtiva",
+			'it-it': "Lascito Furtivo",
+			'pt-br': "Gota Furtiva",
+			'de-de': "Hinterhältiger Fall"
 		},
 
 		effect: {
-			en: "Put 1 damage counter on your opponent's Active Pokémon.",
-			fr: "Placez un marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
-			es: "Pon 1 contador de daño en el Pokémon Activo de tu rival.",
-			it: "Metti un segnalino danno sul Pokémon attivo del tuo avversario.",
-			pt: "Coloque 1 contador de dano no Pokémon Ativo do seu oponente.",
-			de: "Lege 1 Schadensmarke auf das Aktive Pokémon deines Gegners."
+			'en-us': "Put 1 damage counter on your opponent's Active Pokémon.",
+			'fr-fr': "Placez un marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
+			'es-es': "Pon 1 contador de daño en el Pokémon Activo de tu rival.",
+			'it-it': "Metti un segnalino danno sul Pokémon attivo del tuo avversario.",
+			'pt-br': "Coloque 1 contador de dano no Pokémon Ativo do seu oponente.",
+			'de-de': "Lege 1 Schadensmarke auf das Aktive Pokémon deines Gegners."
 		}
 	}],
 

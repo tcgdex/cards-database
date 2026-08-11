@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Marill",
-		fr: "Marill",
-		es: "Marill",
-		it: "Marill",
-		pt: "Marill",
-		de: "Marill"
+		'en-us': "Marill",
+		'fr-fr': "Marill",
+		'es-es': "Marill",
+		'it-it': "Marill",
+		'pt-br': "Marill",
+		'de-de': "Marill"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Rollout",
-			fr: "Roulade",
-			es: "Rodar",
-			it: "Rotolamento",
-			pt: "Rolagem",
-			de: "Walzer"
+			'en-us': "Rollout",
+			'fr-fr': "Roulade",
+			'es-es': "Rodar",
+			'it-it': "Rotolamento",
+			'pt-br': "Rolagem",
+			'de-de': "Walzer"
 		},
 
 		damage: 10

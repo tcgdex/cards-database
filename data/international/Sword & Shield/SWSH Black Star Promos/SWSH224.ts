@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Melmetal V",
-		de: "Melmetal V",
-		es: "Melmetal V",
-		pt: "Melmetal V",
-		it: "Melmetal V",
-		en: "Melmetal V"
+		'fr-fr': "Melmetal V",
+		'de-de': "Melmetal V",
+		'es-es': "Melmetal V",
+		'pt-br': "Melmetal V",
+		'it-it': "Melmetal V",
+		'en-us': "Melmetal V"
 	},
 
 	rarity: "Promo",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Metal", "Metal"],
 
 		name: {
-			fr: "Bras Chargeur",
-			de: "Armaufladung",
-			es: "Carga Brazo",
-			pt: "Carga de Braço",
-			it: "Bracciocarica",
-			en: "Arm Charge"
+			'fr-fr': "Bras Chargeur",
+			'de-de': "Armaufladung",
+			'es-es': "Carga Brazo",
+			'pt-br': "Carga de Braço",
+			'it-it': "Bracciocarica",
+			'en-us': "Arm Charge"
 		},
 
 		effect: {
-			fr: "Vous pouvez attacher une carte Énergie {M} de votre main à ce Pokémon.",
-			de: "Du kannst 1 {M}-Energiekarte aus deiner Hand an dieses Pokémon anlegen.",
-			es: "Puedes unir 1 carta de Energía {M} de tu mano a este Pokémon.",
-			pt: "Você pode ligar 1 carta de Energia {M} da sua mão a este Pokémon.",
-			it: "Puoi assegnare a questo Pokémon una carta Energia {M} dalla tua mano.",
-			en: "You may attach a {M} Energy card from your hand to this Pokémon."
+			'fr-fr': "Vous pouvez attacher une carte Énergie {M} de votre main à ce Pokémon.",
+			'de-de': "Du kannst 1 {M}-Energiekarte aus deiner Hand an dieses Pokémon anlegen.",
+			'es-es': "Puedes unir 1 carta de Energía {M} de tu mano a este Pokémon.",
+			'pt-br': "Você pode ligar 1 carta de Energia {M} da sua mão a este Pokémon.",
+			'it-it': "Puoi assegnare a questo Pokémon una carta Energia {M} dalla tua mano.",
+			'en-us': "You may attach a {M} Energy card from your hand to this Pokémon."
 		},
 
 		damage: 50
@@ -47,12 +47,12 @@ const card: Card = {
 		cost: ["Metal", "Metal", "Metal"],
 
 		name: {
-			fr: "Ultimapoing",
-			de: "Megahieb",
-			es: "Megapuño",
-			pt: "Megassoco",
-			it: "Megapugno",
-			en: "Mega Punch"
+			'fr-fr': "Ultimapoing",
+			'de-de': "Megahieb",
+			'es-es': "Megapuño",
+			'pt-br': "Megassoco",
+			'it-it': "Megapugno",
+			'en-us': "Mega Punch"
 		},
 
 		damage: 140

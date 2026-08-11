@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Compagnol",
-		en: "Tandemaus",
-		es: "Tandemaus",
-		it: "Tandemaus",
-		pt: "Tandemaus",
-		de: "Zwieps"
+		'fr-fr': "Compagnol",
+		'en-us': "Tandemaus",
+		'es-es': "Tandemaus",
+		'it-it': "Tandemaus",
+		'pt-br': "Tandemaus",
+		'de-de': "Zwieps"
   },
   illustrator: "Akira Komayama",
   rarity: "One Diamond",

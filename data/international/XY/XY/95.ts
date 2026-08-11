@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Slurpuff",
-		fr: "Cupcanaille",
-		es: "Slurpuff",
-		it: "Slurpuff",
-		pt: "Slurpuff",
-		de: "Sabbaione"
+		'en-us': "Slurpuff",
+		'fr-fr': "Cupcanaille",
+		'es-es': "Slurpuff",
+		'it-it': "Slurpuff",
+		'pt-br': "Slurpuff",
+		'de-de': "Sabbaione"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Swirlix",
-		fr: "Sucroquin",
-		es: "Swirlix",
-		it: "Swirlix",
-		pt: "Swirlix",
-		de: "Flauschling"
+		'en-us': "Swirlix",
+		'fr-fr': "Sucroquin",
+		'es-es': "Swirlix",
+		'it-it': "Swirlix",
+		'pt-br': "Swirlix",
+		'de-de': "Flauschling"
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Sweet Veil",
-				fr: "Gluco-Voile",
-				es: "Velo Dulce",
-				it: "Dolcevelo",
-				pt: "Véu Doce",
-				de: "Zuckerhülle"
+				'en-us': "Sweet Veil",
+				'fr-fr': "Gluco-Voile",
+				'es-es': "Velo Dulce",
+				'it-it': "Dolcevelo",
+				'pt-br': "Véu Doce",
+				'de-de': "Zuckerhülle"
 			},
 			effect: {
-				en: "Each of your Pokémon that has any Fairy Energy attached to it can't be affected by any Special Conditions. (Remove any Special Conditions affecting those Pokémon.)",
-				fr: "Chacun de vos Pokémon auquel de l'Énergie Fairy est attachée ne peut être affecté par aucun État Spécial. (Retirez tous les États Spéciaux affectant les Pokémon concernés.)",
-				es: "Cada uno de tus Pokémon que tenga alguna Energía Fairy unida a él no se puede ver afectado por ninguna Condición Especial. (Elimina cualquier Condición Especial que afecte a esos Pokémon).",
-				it: "Nessuno dei tuoi Pokémon che ha delle Energie Fairy assegnate può essere influenzato da condizioni speciali (rimuovi tutte le condizioni speciali che influenzano tali Pokémon).",
-				pt: "Cada um de seus Pokémon que possuir qualquer Energia Fairy ligada a ele não poderá ser afetado por nenhuma Condição Especial. (Remova todas as Condições Especiais que afetam esses Pokémon.)",
-				de: "Jedes deiner Pokémon, an das Fairy-Energie angelegt ist, kann nicht von Speziellen Zuständen betroffen werden. (Alle Speziellen Zustände auf diesen Pokémon verlieren ihre Wirkung.)"
+				'en-us': "Each of your Pokémon that has any Fairy Energy attached to it can't be affected by any Special Conditions. (Remove any Special Conditions affecting those Pokémon.)",
+				'fr-fr': "Chacun de vos Pokémon auquel de l'Énergie Fairy est attachée ne peut être affecté par aucun État Spécial. (Retirez tous les États Spéciaux affectant les Pokémon concernés.)",
+				'es-es': "Cada uno de tus Pokémon que tenga alguna Energía Fairy unida a él no se puede ver afectado por ninguna Condición Especial. (Elimina cualquier Condición Especial que afecte a esos Pokémon).",
+				'it-it': "Nessuno dei tuoi Pokémon che ha delle Energie Fairy assegnate può essere influenzato da condizioni speciali (rimuovi tutte le condizioni speciali che influenzano tali Pokémon).",
+				'pt-br': "Cada um de seus Pokémon que possuir qualquer Energia Fairy ligada a ele não poderá ser afetado por nenhuma Condição Especial. (Remova todas as Condições Especiais que afetam esses Pokémon.)",
+				'de-de': "Jedes deiner Pokémon, an das Fairy-Energie angelegt ist, kann nicht von Speziellen Zuständen betroffen werden. (Alle Speziellen Zustände auf diesen Pokémon verlieren ihre Wirkung.)"
 			},
 		},
 	],
@@ -66,20 +66,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Draining Kiss",
-				fr: "Vampibaiser",
-				es: "Beso Drenaje",
-				it: "Dragonair",
-				pt: "Beijo Drenante",
-				de: "Diebeskuss"
+				'en-us': "Draining Kiss",
+				'fr-fr': "Vampibaiser",
+				'es-es': "Beso Drenaje",
+				'it-it': "Dragonair",
+				'pt-br': "Beijo Drenante",
+				'de-de': "Diebeskuss"
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts à ce Pokémon.",
-				es: "Cura 30 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 30 danni.",
-				pt: "Cure 30 de danos deste Pokémon.",
-				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon.",
+				'es-es': "Cura 30 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 30 danni.",
+				'pt-br': "Cure 30 de danos deste Pokémon.",
+				'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 30,
 
@@ -103,7 +103,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It can distinguish the faintest of scents. It puts its sensitive sense of smell to use by helping pastry chefs in their work.",
+		'en-us': "It can distinguish the faintest of scents. It puts its sensitive sense of smell to use by helping pastry chefs in their work.",
 	},
 
 	thirdParty: {

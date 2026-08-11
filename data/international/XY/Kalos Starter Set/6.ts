@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Kalos Starter Set'
 
 const card: Card = {
 	name: {
-		en: "Slugma",
-		fr: "Limagma",
-		es: "Slugma",
-		it: "Slugma",
-		pt: "Slugma",
-		de: "Schneckmag"
+		'en-us': "Slugma",
+		'fr-fr': "Limagma",
+		'es-es': "Slugma",
+		'it-it': "Slugma",
+		'pt-br': "Slugma",
+		'de-de': "Schneckmag"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Combustion",
-				fr: "Fournaise",
-				es: "Combustión",
-				it: "Fuoco Continuo",
-				pt: "Combustão",
-				de: "Glühen"
+				'en-us': "Combustion",
+				'fr-fr': "Fournaise",
+				'es-es': "Combustión",
+				'it-it': "Fuoco Continuo",
+				'pt-br': "Combustão",
+				'de-de': "Glühen"
 			},
 
 			damage: 20,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.",
+		'en-us': "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.",
 	},
 
 	thirdParty: {

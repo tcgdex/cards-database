@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニンフィア",
+		'ja-jp': "ニンフィア",
 	},
 
 	illustrator: "0313",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "獲物を 見つけると リボン状の 触角を 揺らし 油断 させ スキが できると 飛びかかる。",
+		'ja-jp': "獲物を 見つけると リボン状の 触角を 揺らし 油断 させ スキが できると 飛びかかる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "めくばせ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手の手札を見る。のぞむなら、その中にあるサポートを、1枚トラッシュする。その場合、そのサポートの効果を、このワザの効果として使う。",
+				'ja-jp': "相手の手札を見る。のぞむなら、その中にあるサポートを、1枚トラッシュする。その場合、そのサポートの効果を、このワザの効果として使う。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 1,

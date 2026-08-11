@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Piplup",
-		fr: "Tiplouf",
-		es: "Piplup",
-		it: "Piplup",
-		pt: "Piplup",
-		de: "Plinfa"
+		'en-us': "Piplup",
+		'fr-fr': "Tiplouf",
+		'es-es': "Piplup",
+		'it-it': "Piplup",
+		'pt-br': "Piplup",
+		'de-de': "Plinfa"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Fury Attack",
-				fr: "Furie"
+				'en-us': "Fury Attack",
+				'fr-fr': "Furie"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face."
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face."
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
+		'en-us': "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
 	},
 
 	thirdParty: {

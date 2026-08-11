@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カメテテ",
+		'ja-jp': "カメテテ",
 	},
 
 	illustrator: "nagimiso",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "２匹の カメテテが ひとつの 岩で 暮らす。 ケンカすると どちらかが ほかの 岩に 移る。",
+		'ja-jp': "２匹の カメテテが ひとつの 岩で 暮らす。 ケンカすると どちらかが ほかの 岩に 移る。",
 	},
 
 	stage: "Basic",

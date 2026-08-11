@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ティラニターエクス",
+		'ja-jp': "ティラニターエクス",
 	},
 
 	rarity: "Holo Rare",
@@ -18,40 +18,40 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "粉砕",
+				'ja-jp': "粉砕",
 			},
 			effect: {
-				ja: "プレイ中のスタジアムカードを捨ててください。",
+				'ja-jp': "プレイ中のスタジアムカードを捨ててください。",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "脱線",
+				'ja-jp': "脱線",
 			},
 			effect: {
-				ja: "防御ポケモンに取り付けられた特別なエネルギーカードを捨てます。",
+				'ja-jp': "防御ポケモンに取り付けられた特別なエネルギーカードを捨てます。",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Fighting", "Darkness", "Colorless"],
 			name: {
-				ja: "ミックスアップ",
+				'ja-jp': "ミックスアップ",
 			},
 			effect: {
-				ja: "あなたの対戦相手は彼または彼女のデッキの一番上のカードを捨てます。",
+				'ja-jp': "あなたの対戦相手は彼または彼女のデッキの一番上のカードを捨てます。",
 			},
 			damage: 70,
 		},
 		{
 			cost: ["Fighting", "Darkness", "Darkness", "Colorless"],
 			name: {
-				ja: "コントロールを失う",
+				'ja-jp': "コントロールを失う",
 			},
 			effect: {
-				ja: "デッキのトップ3カードを捨ててください。",
+				'ja-jp': "デッキのトップ3カードを捨ててください。",
 			},
 			damage: 120,
 		},

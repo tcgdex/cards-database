@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spinarak",
-		fr: "Mimigal"
+		'en-us': "Spinarak",
+		'fr-fr': "Mimigal"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "It lies still in the same pose for days in its web,\nwaiting for its unsuspecting prey to wander close.",
-		fr: "Il reste immobile dans sa toile pendant des jours. Il attend que sa proie se rapproche pour la capturer."
+		'en-us': "It lies still in the same pose for days in its web,\nwaiting for its unsuspecting prey to wander close.",
+		'fr-fr': "Il reste immobile dans sa toile pendant des jours. Il attend que sa proie se rapproche pour la capturer."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Pierce",
-			fr: "Transpercement"
+			'en-us': "Pierce",
+			'fr-fr': "Transpercement"
 		},
 
 		damage: 20,

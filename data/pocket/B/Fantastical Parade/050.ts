@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [26],
 
 	name: {
-		en: "Alolan Raichu"
+		'en-us': "Alolan Raichu"
 	},
 
 	illustrator: "Akira Komayama",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Pikachu"
+		'en-us': "Pikachu"
 	},
 
 	description: {
-		en: "This Pokémon rides on its tail while it uses\nits psychic powers to levitate. It attacks with\nstar-shaped thunderbolts."
+		'en-us': "This Pokémon rides on its tail while it uses\nits psychic powers to levitate. It attacks with\nstar-shaped thunderbolts."
 	},
 
 	stage: "Stage1",
@@ -30,23 +30,23 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Surge Surfer"
+			'en-us': "Surge Surfer"
 		},
 
 		effect: {
-			en: "If a Stadium is in play, this Pokémon has no Retreat Cost."
+			'en-us': "If a Stadium is in play, this Pokémon has no Retreat Cost."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Thunder Spear"
+			'en-us': "Thunder Spear"
 		},
 
 		cost: ["Lightning", "Lightning"],
 
 		effect: {
-			en: "This attack does 50 damage to 1 of your opponent's Pokémon."
+			'en-us': "This attack does 50 damage to 1 of your opponent's Pokémon."
 		}
 	}],
 

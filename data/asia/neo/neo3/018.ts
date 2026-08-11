@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジンクス",
+		'ja-jp': "ジンクス",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "おやすみなさいキスのフリーズキス",
+				'ja-jp': "おやすみなさいキスのフリーズキス",
 			},
 			effect: {
-				ja: "防御ポケモンは今眠っています。",
+				'ja-jp': "防御ポケモンは今眠っています。",
 			},
 		},
 		{
 			cost: ["Psychic", "Psychic", "Colorless"],
 			name: {
-				ja: "奇妙なダンス",
+				'ja-jp': "奇妙なダンス",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて20ダメージを与え、防御ポケモンが混乱しています。尾の場合、この攻撃は20ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて20ダメージを与え、防御ポケモンが混乱しています。尾の場合、この攻撃は20ダメージを与えます。",
 			},
 		},
 	],

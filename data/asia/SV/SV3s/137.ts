@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Pidgey"
+		'id-id': "Pidgey"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Meski Pidgey berkepribadian tenang dan tidak menyukai pertikaian, ia akan melawan balik dengan ganas jika diganggu."
+		'id-id': "Meski Pidgey berkepribadian tenang dan tidak menyukai pertikaian, ia akan melawan balik dengan ganas jika diganggu."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Hembusan Angin"
+			'id-id': "Hembusan Angin"
 		},
 
 		damage: 20,

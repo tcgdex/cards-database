@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Magmar",
-		fr: "Magmar",
-		es: "Magmar",
-		it: "Magmar",
-		pt: "Magmar",
-		de: "Magmar"
+		'en-us': "Magmar",
+		'fr-fr': "Magmar",
+		'es-es': "Magmar",
+		'it-it': "Magmar",
+		'pt-br': "Magmar",
+		'de-de': "Magmar"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fire Punch",
-				fr: "Poing de Feu",
-				es: "Puño Fuego",
-				it: "Fuocopugno",
-				pt: "Soco de Fogo",
-				de: "Feuerschlag"
+				'en-us': "Fire Punch",
+				'fr-fr': "Poing de Feu",
+				'es-es': "Puño Fuego",
+				'it-it': "Fuocopugno",
+				'pt-br': "Soco de Fogo",
+				'de-de': "Feuerschlag"
 			},
 
 			damage: 30,
@@ -53,20 +53,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-Flammes",
-				es: "Lanzallamas",
-				it: "Lanciafiamme",
-				pt: "Lança-chamas",
-				de: "Flammenwurf"
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-Flammes",
+				'es-es': "Lanzallamas",
+				'it-it': "Lanciafiamme",
+				'pt-br': "Lança-chamas",
+				'de-de': "Flammenwurf"
 			},
 			effect: {
-				en: "Discard a Fire Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie Fire attachée à ce Pokémon.",
-				es: "Descarta 1 Energía Fire unida a este Pokémon.",
-				it: "Scarta un'Energia Fire assegnata a questo Pokémon.",
-				pt: "Descarte uma Energia Fire ligada a este Pokémon.",
-				de: "Lege 1 an dieses Pokémon angelegte Fire-Energie auf deinen Ablagestapel."
+				'en-us': "Discard a Fire Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie Fire attachée à ce Pokémon.",
+				'es-es': "Descarta 1 Energía Fire unida a este Pokémon.",
+				'it-it': "Scarta un'Energia Fire assegnata a questo Pokémon.",
+				'pt-br': "Descarte uma Energia Fire ligada a este Pokémon.",
+				'de-de': "Lege 1 an dieses Pokémon angelegte Fire-Energie auf deinen Ablagestapel."
 			},
 			damage: 60,
 
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Found near the mouth of a volcano. This fire-breather's body temperature is nearly 2,200 degrees Fahrenheit.",
+		'en-us': "Found near the mouth of a volcano. This fire-breather's body temperature is nearly 2,200 degrees Fahrenheit.",
 	},
 
 	thirdParty: {

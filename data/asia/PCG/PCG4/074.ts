@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タイログ",
+		'ja-jp': "タイログ",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "赤ちゃんの進化",
+				'ja-jp': "赤ちゃんの進化",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前に）一度、Hitmonlee、Hitmonchan、またはHitmontopを手からティログに置き（これは進化するタイログとしてカウントされます）、Tyrogueからすべてのダメージカウンターを削除することができます。",
+				'ja-jp': "ターン中（攻撃の前に）一度、Hitmonlee、Hitmonchan、またはHitmontopを手からティログに置き（これは進化するタイログとしてカウントされます）、Tyrogueからすべてのダメージカウンターを削除することができます。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "必死のパンチ",
+				'ja-jp': "必死のパンチ",
 			},
 			effect: {
-				ja: "10回ダメージを与えます。",
+				'ja-jp': "10回ダメージを与えます。",
 			},
 		},
 	],

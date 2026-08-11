@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [747],
 
 	name: {
-		en: "Mareanie",
-		fr: "Vorastérie",
-		es: "Mareanie",
-		it: "Mareanie",
-		pt: "Mareanie",
-		de: "Garstella"
+		'en-us': "Mareanie",
+		'fr-fr': "Vorastérie",
+		'es-es': "Mareanie",
+		'it-it': "Mareanie",
+		'pt-br': "Mareanie",
+		'de-de': "Garstella"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Regeneration",
-				fr: "Rétablissement",
-				es: "Reanimación",
-				it: "Rigenerazione",
-				pt: "Regeneração",
-				de: "Regeneration"
+				'en-us': "Regeneration",
+				'fr-fr': "Rétablissement",
+				'es-es': "Reanimación",
+				'it-it': "Rigenerazione",
+				'pt-br': "Regeneração",
+				'de-de': "Regeneration"
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts de ce Pokémon.",
-				es: "Cura 30 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 30 danni.",
-				pt: "Cure 30 pontos de dano deste Pokémon.",
-				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+				'es-es': "Cura 30 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 30 danni.",
+				'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+				'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -52,20 +52,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Tentacles",
-				fr: "Tentacules Empoisonnés",
-				es: "Tentáculos Venenosos",
-				it: "Tentacoli Velenosi",
-				pt: "Tentáculos Venenosos",
-				de: "Giftige Tentakel"
+				'en-us': "Poison Tentacles",
+				'fr-fr': "Tentacules Empoisonnés",
+				'es-es': "Tentáculos Venenosos",
+				'it-it': "Tentacoli Velenosi",
+				'pt-br': "Tentáculos Venenosos",
+				'de-de': "Giftige Tentakel"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+				'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 			damage: 20,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The first symptom of its sting is numbness. The next is an itching sensation so intense that it's impossible to resist the urge to claw at your skin."
+		'en-us': "The first symptom of its sting is numbness. The next is an itching sensation so intense that it's impossible to resist the urge to claw at your skin."
 	},
 
 	variants: [

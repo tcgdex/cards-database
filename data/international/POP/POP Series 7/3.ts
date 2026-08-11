@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 7'
 
 const card: Card = {
 	name: {
-		en: "Latias",
-		fr: "Latias"
+		'en-us': "Latias",
+		'fr-fr': "Latias"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Miraculous Light",
-				fr: "Lumière miraculeuse"
+				'en-us': "Miraculous Light",
+				'fr-fr': "Lumière miraculeuse"
 			},
 			effect: {
-				en: "Remove 2 damage counters and all Special Conditions from Latias.",
-				fr: "Retirez à Latias 2 marqueurs de dégât ainsi que tous ses États Spéciaux."
+				'en-us': "Remove 2 damage counters and all Special Conditions from Latias.",
+				'fr-fr': "Retirez à Latias 2 marqueurs de dégât ainsi que tous ses États Spéciaux."
 			},
 			damage: 10,
 
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mist Ball",
-				fr: "Boule de brume"
+				'en-us': "Mist Ball",
+				'fr-fr': "Boule de brume"
 			},
 			effect: {
-				en: "Discard a Fire and a Water Energy attached to Latias.",
-				fr: "Défaussez une Énergie  et une Énergie  attachée à Latias."
+				'en-us': "Discard a Fire and a Water Energy attached to Latias.",
+				'fr-fr': "Défaussez une Énergie  et une Énergie  attachée à Latias."
 			},
 			damage: 80,
 
@@ -70,8 +70,8 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "Its body is covered with a down that can refract light in such a way that it becomes invisble.",
-		fr: "Son corps est recouvert d'un duvet qui reflète la lumière et le rend invisible."
+		'en-us': "Its body is covered with a down that can refract light in such a way that it becomes invisble.",
+		'fr-fr': "Son corps est recouvert d'un duvet qui reflète la lumière et le rend invisible."
 	},
 
 	retreat: 1,

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Ekans",
-		fr: "Abo",
+		'en-us': "Ekans",
+		'fr-fr': "Abo",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -31,8 +31,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Whap",
-				fr: "Queue Battoir",
+				'en-us': "Tail Whap",
+				'fr-fr': "Queue Battoir",
 			},
 
 			damage: 30,
@@ -50,7 +50,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "By dislocating its jaw, it can swallow prey larger than itself. After a meal, it curls up and rests.",
+		'en-us': "By dislocating its jaw, it can swallow prey larger than itself. After a meal, it curls up and rests.",
 	},
 
 	thirdParty: {

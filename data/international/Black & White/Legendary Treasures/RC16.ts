@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Ursaring",
+		'en-us': "Ursaring",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Teddiursa",
+		'en-us': "Teddiursa",
 	},
 
 	stage: "Stage1",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Picnic Weather",
+				'en-us': "Picnic Weather",
 			},
 			effect: {
-				en: "Put a Teddiursa from your discard pile onto your Bench. Then, attach an Energy card from your discard pile to that Pokémon.",
+				'en-us': "Put a Teddiursa from your discard pile onto your Bench. Then, attach an Energy card from your discard pile to that Pokémon.",
 			},
 
 		},
@@ -49,10 +49,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Swipes",
+				'en-us': "Fury Swipes",
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 50 damage times the number of heads.",
+				'en-us': "Flip 3 coins. This attack does 50 damage times the number of heads.",
 			},
 			damage: 50,
 
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "In its territory, it leaves scratches on trees that bear delicious berries or fruits.",
+		'en-us': "In its territory, it leaves scratches on trees that bear delicious berries or fruits.",
 	},
 
 	thirdParty: {

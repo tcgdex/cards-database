@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Espurr",
-		fr: "Psystigri",
-		es: "Espurr",
-		it: "Espurr",
-		pt: "Espurr",
-		de: "Psiau"
+		'en-us': "Espurr",
+		'fr-fr': "Psystigri",
+		'es-es': "Espurr",
+		'it-it': "Espurr",
+		'pt-br': "Espurr",
+		'de-de': "Psiau"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psyshot",
-				fr: "Piqûre Psy",
-				es: "Disparo Psi",
-				it: "Psicosparo",
-				pt: "Tiro Psíquico",
-				de: "Psychoschuss"
+				'en-us': "Psyshot",
+				'fr-fr': "Piqûre Psy",
+				'es-es': "Disparo Psi",
+				'it-it': "Psicosparo",
+				'pt-br': "Tiro Psíquico",
+				'de-de': "Psychoschuss"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fake Out",
-				fr: "Bluff",
-				es: "Sorpresa",
-				it: "Bruciapelo",
-				pt: "Fingimento",
-				de: "Mogelhieb"
+				'en-us': "Fake Out",
+				'fr-fr': "Bluff",
+				'es-es': "Sorpresa",
+				'it-it': "Bruciapelo",
+				'pt-br': "Fingimento",
+				'de-de': "Mogelhieb"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 10,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The organ that emits its intense psychic power is sheltered by its ears to keep power from leaking out.",
+		'en-us': "The organ that emits its intense psychic power is sheltered by its ears to keep power from leaking out.",
 	},
 
 	thirdParty: {

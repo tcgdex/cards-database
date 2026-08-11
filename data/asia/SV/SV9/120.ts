@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ノココッチex"
+		'ja-jp': "ノココッチex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,25 +20,25 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ぎゃっきょうテール"
+			'ja-jp': "ぎゃっきょうテール"
 		},
 
 		damage: "60×",
 
 		effect: {
-			ja: "相手の場の「ポケモンex」の数×60ダメージ。"
+			'ja-jp': "相手の場の「ポケモンex」の数×60ダメージ。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ドリルブレイク"
+			'ja-jp': "ドリルブレイク"
 		},
 
 		damage: 150,
 
 		effect: {
-			ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。"
+			'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。"
 		}
 	}],
 

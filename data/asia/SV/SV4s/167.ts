@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Altaria ex"
+		'id-id': "Altaria ex"
 	},
 
 	illustrator: "Saki Hayashiro",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Humming Heal"
+			'id-id': "Humming Heal"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri. Pulihkan HP semua Pokémon sendiri masing-masing sejumlah 20."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri. Pulihkan HP semua Pokémon sendiri masing-masing sejumlah 20."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Aura Cahaya"
+			'id-id': "Aura Cahaya"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, Pokémon ini tidak menerima efek akibat serangan yang digunakan oleh Pokémon lawan."
+			'id-id': "Pada giliran lawan berikutnya, Pokémon ini tidak menerima efek akibat serangan yang digunakan oleh Pokémon lawan."
 		},
 
 		damage: 140,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Nidoran♂",
-		fr: "Nidoran♂",
-		es: "Nidoran♂",
-		it: "Nidoran♂",
-		pt: "Nidoran♂",
-		de: "Nidoran♂"
+		'en-us': "Nidoran♂",
+		'fr-fr': "Nidoran♂",
+		'es-es': "Nidoran♂",
+		'it-it': "Nidoran♂",
+		'pt-br': "Nidoran♂",
+		'de-de': "Nidoran♂"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hit Back",
-				fr: "Réplique",
+				'en-us': "Hit Back",
+				'fr-fr': "Réplique",
 			},
 			effect: {
-				en: "If this Pokémon has no damage counters on it, this attack does nothing.",
-				fr: "Si ce Pokémon n'a aucun marqueur de dégâts, cette attaque ne fait rien.",
+				'en-us': "If this Pokémon has no damage counters on it, this attack does nothing.",
+				'fr-fr': "Si ce Pokémon n'a aucun marqueur de dégâts, cette attaque ne fait rien.",
 			},
 			damage: 30,
 
@@ -56,7 +56,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It scans its surroundings by raising its ears out of the grass. Its toxic horn is for protection.",
+		'en-us': "It scans its surroundings by raising its ears out of the grass. Its toxic horn is for protection.",
 	},
 }
 

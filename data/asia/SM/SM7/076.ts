@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エネコロロ",
+		'ja-jp': "エネコロロ",
 	},
 
 	illustrator: "Sekio",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "美しい 毛並みを 持ち 女性トレーナーに 大人気。 決まった 住処を 持たない。",
+		'ja-jp': "美しい 毛並みを 持ち 女性トレーナーに 大人気。 決まった 住処を 持たない。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "フレンドサーチ" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のトラッシュにあるサポートを2枚、相手に見せてから、手札に加える。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のトラッシュにあるサポートを2枚、相手に見せてから、手札に加える。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "エネコ",
+		'ja-jp': "エネコ",
 	},
 
 	retreat: 1,

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヒスイ ダイケンキV"
+		'ja-jp': "ヒスイ ダイケンキV"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,23 +19,23 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			ja: "つづらおとし"
+			'ja-jp': "つづらおとし"
 		},
 
 		effect: {
-			ja: "相手の場のポケモンについている「ポケモンのどうぐ」を2枚まで選び、トラッシュする。"
+			'ja-jp': "相手の場のポケモンについている「ポケモンのどうぐ」を2枚まで選び、トラッシュする。"
 		}
 	}, {
 		cost: ["Darkness", "Darkness", "Darkness"],
 
 		name: {
-			ja: "シャドースラッシュ"
+			'ja-jp': "シャドースラッシュ"
 		},
 
 		damage: 180,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを1個選び、トラッシュする。"
+			'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。"
 		}
 	}],
 

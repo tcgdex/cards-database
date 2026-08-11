@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤレユータン",
+		'ja-jp': "ヤレユータン",
 	},
 
 	illustrator: "Naoki Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "普段は 木の上で 瞑想して 過ごす。 勝手にモンスターボールを 投げて ポケモンに 命令する。",
+		'ja-jp': "普段は 木の上で 瞑想して 過ごす。 勝手にモンスターボールを 投げて ポケモンに 命令する。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "けんじゃのといかけ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の手札からポケモンを1枚、ウラにして置く。その後、相手はそのポケモンのタイプを答える。そのカードをオモテにして、正解なら、相手は山札を4枚引く。不正解なら、自分は山札を4枚引く。そして置いたカードを手札にもどす。",
+				'ja-jp': "自分の手札からポケモンを1枚、ウラにして置く。その後、相手はそのポケモンのタイプを答える。そのカードをオモテにして、正解なら、相手は山札を4枚引く。不正解なら、自分は山札を4枚引く。そして置いたカードを手札にもどす。",
 			},
 		},
 		{

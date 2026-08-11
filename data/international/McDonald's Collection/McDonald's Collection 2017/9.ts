@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2017'
 
 const card: Card = {
@@ -7,8 +7,8 @@ const card: Card = {
 	],
 	set: Set,
 	name: {
-		en: "Alolan Diglett",
-		fr: "Taupiqueur d'Alola",
+		'en-us': "Alolan Diglett",
+		'fr-fr': "Taupiqueur d'Alola",
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -21,12 +21,12 @@ const card: Card = {
 		{
 			cost: [],
 			name: {
-				en: "Spelunk",
-				fr: "Spéléologue",
+				'en-us': "Spelunk",
+				'fr-fr': "Spéléologue",
 			},
 			effect: {
-				en: "Look at the top 3 cards of your deck and put them back in any order.",
-				fr: "Regardez les 3 cartes du dessus de votre deck et replacez-les dans l'ordre de votre choix.",
+				'en-us': "Look at the top 3 cards of your deck and put them back in any order.",
+				'fr-fr': "Regardez les 3 cartes du dessus de votre deck et replacez-les dans l'ordre de votre choix.",
 			},
 		},
 		{
@@ -34,8 +34,8 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Mud-Slap",
-				fr: "Coud'Boue",
+				'en-us': "Mud-Slap",
+				'fr-fr': "Coud'Boue",
 			},
 			damage: "10",
 		},

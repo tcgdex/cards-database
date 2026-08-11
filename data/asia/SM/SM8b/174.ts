@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デンジュモク",
+		'ja-jp': "デンジュモク",
 	},
 
 	illustrator: "Naoki Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "ウルトラホールから 出現した。 発電所を 襲撃 したため 電気が エネルギーと おもわれる。",
+		'ja-jp': "ウルトラホールから 出現した。 発電所を 襲撃 したため 電気が エネルギーと おもわれる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Lightning"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "自分のサイドの残り枚数が3枚なら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "自分のサイドの残り枚数が3枚なら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],

@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Wartortle",
-		fr: "Carabaffe",
-		de: "Schillok",
-		it: "Wartortle"
+		'en-us': "Wartortle",
+		'fr-fr': "Carabaffe",
+		'de-de': "Schillok",
+		'it-it': "Wartortle"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -25,9 +25,9 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Squirtle",
-		fr: "Carapuce",
-		it: "Squirtle"
+		'en-us': "Squirtle",
+		'fr-fr': "Carapuce",
+		'it-it': "Squirtle"
 	},
 
 	stage: "Stage1",
@@ -39,16 +39,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Withdraw",
-				fr: "Repli",
-				de: "Panzerschutz",
-				it: "Ritirata"
+				'en-us': "Withdraw",
+				'fr-fr': "Repli",
+				'de-de': "Panzerschutz",
+				'it-it': "Ritirata"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Wartortle during your opponent's next turn. (Any other effects of attacks still happen.)",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Carabaffe pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
-				de: "Wirf eine Münze. Bei 'Kopf' verhindere allen Schaden, der Schillok während des nächsten Zugs Deines Gegners zugefühgt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)",
-				it: "Lancia una moneta. Se esce testa, preveni tutti i danni inflitti a Wartortle durante il prossimo turno del tuo avversario. (Tutti gli effetti degli attacchi restano validi.)",
+				'en-us': "Flip a coin. If heads, prevent all damage done to Wartortle during your opponent's next turn. (Any other effects of attacks still happen.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Carabaffe pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' verhindere allen Schaden, der Schillok während des nächsten Zugs Deines Gegners zugefühgt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)",
+				'it-it': "Lancia una moneta. Se esce testa, preveni tutti i danni inflitti a Wartortle durante il prossimo turno del tuo avversario. (Tutti gli effetti degli attacchi restano validi.)",
 			},
 
 		},
@@ -59,10 +59,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Biss",
-				it: "Morso"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Biss",
+				'it-it': "Morso"
 			},
 
 			damage: 40,
@@ -80,9 +80,9 @@ const card: Card = {
 
 
 	description: {
-		en: "Often hides in water to stalk unweary prey. When swimming quickly, it moves its ears to maintain balance.",
-		fr: "Il se cache au fond de l'eau pour guetter sa proie. Ses oreilles sont des gouvernails.",
-		it: "Spesso di nasconde nell'acqua per sorprendere le prede. Quando nuota rapidamente, muove le orecchie per mantenersi in equilibrio. LIV 22 N.8"
+		'en-us': "Often hides in water to stalk unweary prey. When swimming quickly, it moves its ears to maintain balance.",
+		'fr-fr': "Il se cache au fond de l'eau pour guetter sa proie. Ses oreilles sont des gouvernails.",
+		'it-it': "Spesso di nasconde nell'acqua per sorprendere le prede. Quando nuota rapidamente, muove le orecchie per mantenersi in equilibrio. LIV 22 N.8"
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グリガー",
+		'ja-jp': "グリガー",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "スタンポイズン",
+				'ja-jp': "スタンポイズン",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御するポケモンは今や麻痺し、毒されます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御するポケモンは今や麻痺し、毒されます。",
 			},
 			damage: 10,
 		},

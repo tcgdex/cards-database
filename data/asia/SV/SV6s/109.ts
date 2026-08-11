@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Glimmora"
+		'id-id': "Glimmora"
 	},
 
 	illustrator: "Kazumasa Yasukuni",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Belakangan ini diketahui bahwa kelopak bunga energi racun Glimmora yang mengkristal mirip dengan Permata Terastal."
+		'id-id': "Belakangan ini diketahui bahwa kelopak bunga energi racun Glimmora yang mengkristal mirip dengan Permata Terastal."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Racun Syaraf"
+			'id-id': "Racun Syaraf"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Racun dan Lumpuh."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Racun dan Lumpuh."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Venoshock"
+			'id-id': "Venoshock"
 		},
 
 		effect: {
-			id: "Jika Pokémon Bertarung lawan mengalami kondisi Racun, kerusakan yang diberikan bertambah sejumlah 100."
+			'id-id': "Jika Pokémon Bertarung lawan mengalami kondisi Racun, kerusakan yang diberikan bertambah sejumlah 100."
 		},
 
 		damage: "30+",

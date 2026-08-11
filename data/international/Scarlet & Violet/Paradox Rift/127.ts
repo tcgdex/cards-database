@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ferroseed",
-		fr: "Grindur",
-		es: "Ferroseed",
-		it: "Ferroseed",
-		pt: "Ferroseed",
-		de: "Kastadur"
+		'en-us': "Ferroseed",
+		'fr-fr': "Grindur",
+		'es-es': "Ferroseed",
+		'it-it': "Ferroseed",
+		'pt-br': "Ferroseed",
+		'de-de': "Kastadur"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			en: "Spike Sting",
-			fr: "Pic Piquant",
-			es: "Picotazo Púas",
-			it: "Aculeopuntura",
-			pt: "Ferroada de Espinhos",
-			de: "Stachelstich"
+			'en-us': "Spike Sting",
+			'fr-fr': "Pic Piquant",
+			'es-es': "Picotazo Púas",
+			'it-it': "Aculeopuntura",
+			'pt-br': "Ferroada de Espinhos",
+			'de-de': "Stachelstich"
 		},
 
 		damage: 30
@@ -51,7 +51,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Mossy caves are their preferred dwellings. Enzymes contained in mosses help Ferroseed's spikes grow big and strong.",
+		'en-us': "Mossy caves are their preferred dwellings. Enzymes contained in mosses help Ferroseed's spikes grow big and strong.",
 	},
 
 	variants: [

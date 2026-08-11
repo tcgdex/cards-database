@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フリーザー",
+		'ja-jp': "フリーザー",
 	},
 
 	illustrator: "Yusuke Ohmura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "伝説の とりポケモン。 空気中の 水分を 凍らせ 吹雪を 作り出すことが できる。",
+		'ja-jp': "伝説の とりポケモン。 空気中の 水分を 凍らせ 吹雪を 作り出すことが できる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ブリザードヴェール" },
 			effect: {
-				ja: "このポケモンがバトル場にいるかぎり、自分のベンチの[水]ポケモン全員は、相手が手札からサポートを出して使ったとき、その効果を受けない。",
+				'ja-jp': "このポケモンがバトル場にいるかぎり、自分のベンチの[水]ポケモン全員は、相手が手札からサポートを出して使ったとき、その効果を受けない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Water", "Water"],
 			effect: {
-				ja: "このポケモンについている[水]エネルギーを2個、ベンチポケモン1匹につけ替える。",
+				'ja-jp': "このポケモンについている[水]エネルギーを2個、ベンチポケモン1匹につけ替える。",
 			},
 		},
 	],

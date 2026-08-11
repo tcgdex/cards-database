@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エーフィ",
+		'ja-jp': "エーフィ",
 		'zh-tw': "黑魯加",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "額の 珠から サイコパワーを 放射して 戦う。 パワーが つきると 珠の 色が くすむ。",
+		'ja-jp': "額の 珠から サイコパワーを 放射して 戦う。 パワーが つきると 珠の 色が くすむ。",
 		'zh-tw': "特徵是令人不寒而慄的長嚎。過去人們認為牠是來自 地獄的使者，對牠十分畏懼。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ねんりき",
+				'ja-jp': "ねんりき",
 				'zh-tw': "暗之牙",
 			},
 			damage: 20,
 			cost: ["Psychic"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 		{
@@ -37,7 +37,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数×40ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数×40ダメージ追加。",
 			},
 		},
 	],
@@ -56,7 +56,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 1,

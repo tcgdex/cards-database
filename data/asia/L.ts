@@ -1,8 +1,8 @@
-import { Serie } from '../interfaces'
+import { Serie } from 'models/database/serie'
 
 const serie: Serie = {
 	name: {
-		ja: 'LEGEND'
+		'ja-jp': 'LEGEND'
 	},
 	id: 'L'
 }

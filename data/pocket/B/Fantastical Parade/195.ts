@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [806],
 
 	name: {
-		en: "Blacephalon ex"
+		'en-us': "Blacephalon ex"
 	},
 
 	illustrator: "YASHIRO Nanaco",
@@ -20,24 +20,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Singe"
+			'en-us': "Singe"
 		},
 
 		cost: ["Fire"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned."
+			'en-us': "Your opponent's Active Pokémon is now Burned."
 		}
 	}, {
 		name: {
-			en: "Pop-Punk"
+			'en-us': "Pop-Punk"
 		},
 
 		damage: 140,
 		cost: ["Fire", "Fire", "Fire"],
 
 		effect: {
-			en: "Discard 3 {R} Energy from this Pokémon."
+			'en-us': "Discard 3 {R} Energy from this Pokémon."
 		}
 	}],
 

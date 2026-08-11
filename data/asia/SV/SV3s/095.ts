@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Glimmet"
+		'id-id': "Glimmet"
 	},
 
 	illustrator: "GIDORA",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Glimmet menyerap nutrisi dari dinding gua. Kelopak bunga yang terbuat dari kristal beracun menyelimuti tubuh Pokémon ini."
+		'id-id': "Glimmet menyerap nutrisi dari dinding gua. Kelopak bunga yang terbuat dari kristal beracun menyelimuti tubuh Pokémon ini."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Serpihan Racun"
+			'id-id': "Serpihan Racun"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Racun."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Racun."
 		},
 
 		damage: 20,

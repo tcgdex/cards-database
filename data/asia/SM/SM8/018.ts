@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグマラシ",
+		'ja-jp': "マグマラシ",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "戦闘中 背中を 向けたら 要注意。 背中の 炎で 攻撃してくる 前触れだ。",
+		'ja-jp': "戦闘中 背中を 向けたら 要注意。 背中の 炎で 攻撃してくる 前触れだ。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Fire", "Fire", "Fire"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒノアラシ",
+		'ja-jp': "ヒノアラシ",
 	},
 
 	retreat: 2,

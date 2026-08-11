@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [77],
 
 	name: {
-		en: "Galarian Ponyta"
+		'en-us': "Galarian Ponyta"
 	},
 
 	illustrator: "Orca",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "This Pokémon will look into your eyes and read\nthe contents of your heart. If it finds evil there,\nit promptly hides away."
+		'en-us': "This Pokémon will look into your eyes and read\nthe contents of your heart. If it finds evil there,\nit promptly hides away."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Flop"
+			'en-us': "Flop"
 		},
 
 		damage: 10,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "臭臭花",
-		ja: "クサイハナ"
+		'ja-jp': "クサイハナ"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "雌蕊會散發一種極其強烈的惡臭， 能讓２公里外的人昏倒。",
-		ja: "めしべが 放つ とてつもなく 臭い においは ２キロ先まで とどき 気を 失わせる。"
+		'ja-jp': "めしべが 放つ とてつもなく 臭い においは ２キロ先まで とどき 気を 失わせる。"
 	},
 
 	stage: "Stage1",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "吸取",
-			ja: "すいとる"
+			'ja-jp': "すいとる"
 		},
 
 		effect: {
 			'zh-tw': "將這隻寶可夢恢復「30」HP。",
-			ja: "このポケモンのHPを「30」回復する。"
+			'ja-jp': "このポケモンのHPを「30」回復する。"
 		},
 
 		damage: 30,

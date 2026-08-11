@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チコリータ"
+		'ja-jp': "チコリータ"
 	},
 	illustrator: "kamonabe",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Grass"],
 	description: {
-		ja: "日差しを浴びるのが大好き。頭の葉っぱを使って暖かい場所を探す。"
+		'ja-jp': "日差しを浴びるのが大好き。頭の葉っぱを使って暖かい場所を探す。"
 	},
 	stage: "Basic",
 	attacks: [{
 		name: {
-			ja: "はっぱカッター"
+			'ja-jp': "はっぱカッター"
 		},
 		damage: 20,
 		cost: ["Grass"]

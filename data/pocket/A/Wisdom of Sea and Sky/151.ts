@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Elemental Switch",
-		fr: "Échange Élémentaire"
+		'en-us': "Elemental Switch",
+		'fr-fr': "Échange Élémentaire"
 	},
 
 	illustrator: "Toyste Beach",
@@ -14,8 +14,8 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Move a {R}, {W}, or {L} Energy from 1 of your Benched Pokémon to your Active Pokémon.",
-		fr: "Déplacez une Énergie {R}, {W} ou {L} d'un de vos Pokémon de Banc vers votre Pokémon Actif."
+		'en-us': "Move a {R}, {W}, or {L} Energy from 1 of your Benched Pokémon to your Active Pokémon.",
+		'fr-fr': "Déplacez une Énergie {R}, {W} ou {L} d'un de vos Pokémon de Banc vers votre Pokémon Actif."
 	},
 
 	trainerType: "Item",

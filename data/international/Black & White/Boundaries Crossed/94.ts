@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Scizor",
-		fr: "Cizayox",
-		es: "Scizor",
-		it: "Scizor",
-		pt: "Scizor",
-		de: "Scherox"
+		'en-us': "Scizor",
+		'fr-fr': "Cizayox",
+		'es-es': "Scizor",
+		'it-it': "Scizor",
+		'pt-br': "Scizor",
+		'de-de': "Scherox"
 	},
 
 	illustrator: "Hiroki Asanuma",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Scyther",
-		fr: "Insécateur",
+		'en-us': "Scyther",
+		'fr-fr': "Insécateur",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steel Slash",
-				fr: "Tranche Acier",
+				'en-us': "Steel Slash",
+				'fr-fr': "Tranche Acier",
 			},
 			effect: {
-				en: "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Pokémon-EX.",
-				fr: "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon-EX.",
+				'en-us': "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Pokémon-EX.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon-EX.",
 			},
 			damage: 40,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slashing Strike",
-				fr: "Coup Déchirant",
+				'en-us': "Slashing Strike",
+				'fr-fr': "Coup Déchirant",
 			},
 			effect: {
-				en: "This Pokémon can't use Slashing Strike during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Coup Déchirant pendant votre prochain tour.",
+				'en-us': "This Pokémon can't use Slashing Strike during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Coup Déchirant pendant votre prochain tour.",
 			},
 			damage: 100,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It raises its pincers with eyelike markings for intimidation. It also swings them down dangerously.",
+		'en-us': "It raises its pincers with eyelike markings for intimidation. It also swings them down dangerously.",
 	},
 
 	thirdParty: {

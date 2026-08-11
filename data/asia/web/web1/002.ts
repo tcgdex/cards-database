@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../web1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニドラン",
+		'ja-jp': "ニドラン",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "フォーカスエネルギー",
+				'ja-jp': "フォーカスエネルギー",
 			},
 			effect: {
-				ja: "次のターン中、ニドランのホーンラッシュ攻撃のベースダメージは2倍になります。",
+				'ja-jp': "次のターン中、ニドランのホーンラッシュ攻撃のベースダメージは2倍になります。",
 			},
 		},
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "ホーンラッシュ",
+				'ja-jp': "ホーンラッシュ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
 			},
 			damage: 40,
 		},

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Excadrill",
-		fr: "Minotaupe",
-		es: "Excadrill",
-		it: "Excadrill",
-		pt: "Excadrill",
-		de: "Stalobor"
+		'en-us': "Excadrill",
+		'fr-fr': "Minotaupe",
+		'es-es': "Excadrill",
+		'it-it': "Excadrill",
+		'pt-br': "Excadrill",
+		'de-de': "Stalobor"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Drilbur",
-		fr: "Rototaupe",
+		'en-us': "Drilbur",
+		'fr-fr': "Rototaupe",
 	},
 
 	stage: "Stage1",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Claw",
-				fr: "Griffe Acier",
+				'en-us': "Metal Claw",
+				'fr-fr': "Griffe Acier",
 			},
 
 			damage: 30,
@@ -53,12 +53,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Drill Run",
-				fr: "Tunnelier",
+				'en-us': "Drill Run",
+				'fr-fr': "Tunnelier",
 			},
 			effect: {
-				en: "Discard an Energy attached to the Defending Pokémon.",
-				fr: "Défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 80,
 
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It can help in tunnel construction. Its drill has evolved into steel strong enough to bore through iron plates.",
+		'en-us': "It can help in tunnel construction. Its drill has evolved into steel strong enough to bore through iron plates.",
 	},
 
 	thirdParty: {

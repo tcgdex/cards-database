@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Riolu",
+		'en-us': "Riolu",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Punch",
+				'en-us': "Punch",
 			},
 
 			damage: 10,
@@ -41,10 +41,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
+				'en-us': "Quick Attack",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
 			},
 			damage: 10,
 
@@ -61,7 +61,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves.",
+		'en-us': "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves.",
 	},
 
 	thirdParty: {

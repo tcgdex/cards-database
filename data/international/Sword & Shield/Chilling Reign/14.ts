@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Steenee",
-		fr: "Candine",
-		es: "Steenee",
-		it: "Steenee",
-		pt: "Steenee",
-		de: "Frubaila"
+		'en-us': "Steenee",
+		'fr-fr': "Candine",
+		'es-es': "Steenee",
+		'it-it': "Steenee",
+		'pt-br': "Steenee",
+		'de-de': "Frubaila"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -21,43 +21,43 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Bounsweet",
-		fr: "Croquine",
-		es: "Bounsweet",
-		it: "Bounsweet",
-		pt: "Bounsweet",
-		de: "Frubberl"
+		'en-us': "Bounsweet",
+		'fr-fr': "Croquine",
+		'es-es': "Bounsweet",
+		'it-it': "Bounsweet",
+		'pt-br': "Bounsweet",
+		'de-de': "Frubberl"
 	},
 
 	attacks: [{
 		name: {
-			en: "Splash",
-			fr: "Trempette",
-			es: "Salpicadura",
-			it: "Splash",
-			pt: "Borrifada",
-			de: "Platscher"
+			'en-us': "Splash",
+			'fr-fr': "Trempette",
+			'es-es': "Salpicadura",
+			'it-it': "Splash",
+			'pt-br': "Borrifada",
+			'de-de': "Platscher"
 		},
 
 		damage: 20,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Stomp",
-			fr: "Écrasement",
-			es: "Pisotón",
-			it: "Pestone",
-			pt: "Pisotear",
-			de: "Stampfer"
+			'en-us': "Stomp",
+			'fr-fr': "Écrasement",
+			'es-es': "Pisotón",
+			'it-it': "Pestone",
+			'pt-br': "Pisotear",
+			'de-de': "Stampfer"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
-			pt: "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
+			'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "50+",
@@ -76,7 +76,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Any Corvisquire that pecks at this Pokémon will be greeted with a smack from its sepals followed by a sharp kick."
+		'en-us': "Any Corvisquire that pecks at this Pokémon will be greeted with a smack from its sepals followed by a sharp kick."
 	},
 
 	variants: [

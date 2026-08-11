@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シャワーズ",
+		'ja-jp': "シャワーズ",
 	},
 
 	illustrator: "Jiro Sasumo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "シャワーズの 全身の ひれが 小刻みに 震えはじめるのは 数時間後に 雨が降る しるし。",
+		'ja-jp': "シャワーズの 全身の ひれが 小刻みに 震えはじめるのは 数時間後に 雨が降る しるし。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "げきりゅうのめざめ" },
 			effect: {
-				ja: "このポケモンに「メモリーカプセル」がついているなら、おたがいの場の[炎]ポケモンの特性は、すべてなくなる。",
+				'ja-jp': "このポケモンに「メモリーカプセル」がついているなら、おたがいの場の[炎]ポケモンの特性は、すべてなくなる。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 2,

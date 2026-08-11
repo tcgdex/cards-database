@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../SV'
 
 const set: Set = {
 	id: 'SV2a',
 
 	name: {
-		ja: 'ポケモンカード151',
-		ko: '포켓몬 카드 151',
+		'ja-jp': 'ポケモンカード151',
+		'ko-kr': '포켓몬 카드 151',
 		'zh-tw': '寶可夢卡牌151',
-		id: 'Kartu Pokémon 151',
-		th: 'โปเกมอนการ์ด 151'
+		'id-id': 'Kartu Pokémon 151',
+		'th-th': 'โปเกมอนการ์ด 151'
 	},
 
 	serie: serie,
@@ -19,10 +19,10 @@ const set: Set = {
 	},
 
 	releaseDate: {
-		ja: '2023-06-16',
+		'ja-jp': '2023-06-16',
 		'zh-tw': '2023-06-30',
-		id: '2023-07-28',
-		th: '2023-07-28'
+		'id-id': '2023-07-28',
+		'th-th': '2023-07-28'
 	},
 
 	thirdParty: {

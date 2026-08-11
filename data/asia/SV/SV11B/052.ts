@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ローブシン",
+		'ja-jp': "ローブシン",
 	},
 
 	illustrator: "Shinya Mizuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "コンクリートを 作る 技術は ２０００年前に ローブシンから 教わったと 考えられている。",
+		'ja-jp': "コンクリートを 作る 技術は ２０００年前に ローブシンから 教わったと 考えられている。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "マスターアーツ" },
 			effect: {
-				ja: "このポケモンについているエネルギー1個につき、このポケモンの最大HPは「＋40」される。",
+				'ja-jp': "このポケモンについているエネルギー1個につき、このポケモンの最大HPは「＋40」される。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ドテッコツ",
+		'ja-jp': "ドテッコツ",
 	},
 
 	retreat: 3,

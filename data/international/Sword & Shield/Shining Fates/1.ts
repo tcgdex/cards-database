@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Yanma",
-		en: "Yanma",
-		es: "Yanma",
-		it: "Yanma",
-		pt: "Yanma",
-		de: "Yanma"
+		'fr-fr': "Yanma",
+		'en-us': "Yanma",
+		'es-es': "Yanma",
+		'it-it': "Yanma",
+		'pt-br': "Yanma",
+		'de-de': "Yanma"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,24 +22,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Charge",
-			en: "Tackle",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'fr-fr': "Charge",
+			'en-us': "Tackle",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 10,
 		cost: ["Grass"]
 	}, {
 		name: {
-			fr: "Cru-Ailes",
-			en: "Wing Attack",
-			es: "Ataque Ala",
-			it: "Attacco d'Ala",
-			pt: "Ataque de Asa",
-			de: "Flügelschlag"
+			'fr-fr': "Cru-Ailes",
+			'en-us': "Wing Attack",
+			'es-es': "Ataque Ala",
+			'it-it': "Attacco d'Ala",
+			'pt-br': "Ataque de Asa",
+			'de-de': "Flügelschlag"
 		},
 
 		damage: 30,
@@ -58,7 +58,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area."
+		'en-us': "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area."
 	},
 
 	variants: [

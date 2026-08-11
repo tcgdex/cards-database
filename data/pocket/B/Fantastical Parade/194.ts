@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [1017],
 
 	name: {
-		en: "Teal Mask Ogerpon ex"
+		'en-us': "Teal Mask Ogerpon ex"
 	},
 
 	illustrator: "imoniii",
@@ -22,24 +22,24 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Soothing Wind"
+			'en-us': "Soothing Wind"
 		},
 
 		effect: {
-			en: "Each of your Pokémon that has any Energy attached recovers from all Special Conditions and can't be affected by any Special Conditions."
+			'en-us': "Each of your Pokémon that has any Energy attached recovers from all Special Conditions and can't be affected by any Special Conditions."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Energized Leaves"
+			'en-us': "Energized Leaves"
 		},
 
 		damage: 60,
 		cost: ["Grass", "Grass"],
 
 		effect: {
-			en: "If the amount of Energy attached to both Active Pokémon is 5 or more, this attack does 60 more damage."
+			'en-us': "If the amount of Energy attached to both Active Pokémon is 5 or more, this attack does 60 more damage."
 		}
 	}],
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Terraiste de Paldea",
-		en: "Paldean Clodsire",
-		es: "Clodsire de Paldea",
-		it: "Clodsire di Paldea",
-		pt: "Clodsire de Paldea",
-		de: "Paldea-Suelord"
+		'fr-fr': "Terraiste de Paldea",
+		'en-us': "Paldean Clodsire",
+		'es-es': "Clodsire de Paldea",
+		'it-it': "Clodsire di Paldea",
+		'pt-br': "Clodsire de Paldea",
+		'de-de': "Paldea-Suelord"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Darkness"],
 	evolveFrom: {
-		fr: "Axoloto de Paldea",
-		en: "Paldean Wooper",
-		es: "Wooper de Paldea",
-		it: "Wooper di Paldea",
-		pt: "Wooper de Paldea",
-		de: "Paldea-Felino"
+		'fr-fr': "Axoloto de Paldea",
+		'en-us': "Paldean Wooper",
+		'es-es': "Wooper de Paldea",
+		'it-it': "Wooper di Paldea",
+		'pt-br': "Wooper de Paldea",
+		'de-de': "Paldea-Felino"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			fr: "Anneau de Poison",
-			en: "Poison Ring",
-			es: "Anillo Venenoso",
-			it: "Velenanello",
-			pt: "Anel de Veneno",
-			de: "Giftring"
+			'fr-fr': "Anneau de Poison",
+			'en-us': "Poison Ring",
+			'es-es': "Anillo Venenoso",
+			'it-it': "Velenanello",
+			'pt-br': "Anel de Veneno",
+			'de-de': "Giftring"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas battre en retraite.",
-			en: "Your opponent's Active Pokémon is now Poisoned. During your opponent's next turn, that Pokémon can't retreat.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado. Durante el próximo turno de tu rival, ese Pokémon no puede retirarse.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato. Durante il prossimo turno del tuo avversario, quel Pokémon non può ritirarsi.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado. Durante o próximo turno do seu oponente, aquele Pokémon não poderá recuar.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Während des nächsten Zuges deines Gegners kann sich jenes Pokémon nicht zurückziehen."
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas battre en retraite.",
+			'en-us': "Your opponent's Active Pokémon is now Poisoned. During your opponent's next turn, that Pokémon can't retreat.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado. Durante el próximo turno de tu rival, ese Pokémon no puede retirarse.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato. Durante il prossimo turno del tuo avversario, quel Pokémon non può ritirarsi.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado. Durante o próximo turno do seu oponente, aquele Pokémon não poderá recuar.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Während des nächsten Zuges deines Gegners kann sich jenes Pokémon nicht zurückziehen."
 		},
 
 		damage: 20
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Marteau Boueux",
-			en: "Muddy Hammer",
-			es: "Martillo Lodoso",
-			it: "Fangomartello",
-			pt: "Martelo Lamacento",
-			de: "Schlammhammer"
+			'fr-fr': "Marteau Boueux",
+			'en-us': "Muddy Hammer",
+			'es-es': "Martillo Lodoso",
+			'it-it': "Fangomartello",
+			'pt-br': "Martelo Lamacento",
+			'de-de': "Schlammhammer"
 		},
 
 		effect: {
-			fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-			en: "Discard the top card of your opponent's deck.",
-			es: "Descarta la primera carta de la baraja de tu rival.",
-			it: "Scarta la prima carta del mazzo del tuo avversario.",
-			pt: "Descarte a carta de cima do baralho do seu oponente.",
-			de: "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
+			'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+			'en-us': "Discard the top card of your opponent's deck.",
+			'es-es': "Descarta la primera carta de la baraja de tu rival.",
+			'it-it': "Scarta la prima carta del mazzo del tuo avversario.",
+			'pt-br': "Descarte a carta de cima do baralho do seu oponente.",
+			'de-de': "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 100
@@ -84,7 +84,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "When attacked, this Pokémon will retaliate by sticking thick spines out from its body. It's a risky move that puts everything on the line.",
+		'en-us': "When attacked, this Pokémon will retaliate by sticking thick spines out from its body. It's a risky move that puts everything on the line.",
 	},
 
 	variants: [

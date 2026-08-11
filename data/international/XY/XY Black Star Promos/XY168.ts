@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "M Garchomp-EX",
-		fr: "M-Carchacrok-EX"
+		'en-us': "M Garchomp-EX",
+		'fr-fr': "M-Carchacrok-EX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Promo",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Dragon",
 	],
 	evolveFrom: {
-		en: "Garchomp-EX",
-		fr: "Carchacrok-EX"
+		'en-us': "Garchomp-EX",
+		'fr-fr': "Carchacrok-EX"
 	},
 	stage: "MEGA",
 
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crimson Edge",
-				fr: "Tranchant Écarlate"
+				'en-us': "Crimson Edge",
+				'fr-fr': "Tranchant Écarlate"
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself for each damage counter on it.",
-				fr: "Ce Pokémon s'inflige 10 dégâts pour chaque marqueur de dégâts placé sur ce Pokémon."
+				'en-us': "This Pokémon does 10 damage to itself for each damage counter on it.",
+				'fr-fr': "Ce Pokémon s'inflige 10 dégâts pour chaque marqueur de dégâts placé sur ce Pokémon."
 			},
 			damage: 180,
 

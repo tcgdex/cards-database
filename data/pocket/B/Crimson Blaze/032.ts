@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [577],
 
 	name: {
-		en: "Solosis"
+		'en-us': "Solosis"
 	},
 
 	illustrator: "osare",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Many say that the special liquid covering this\nPokémon's body would allow it to survive in\nthe vacuum of space."
+		'en-us': "Many say that the special liquid covering this\nPokémon's body would allow it to survive in\nthe vacuum of space."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Rollout"
+			'en-us': "Rollout"
 		},
 
 		damage: 20,

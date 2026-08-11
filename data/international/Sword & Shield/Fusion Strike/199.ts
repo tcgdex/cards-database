@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Meowth",
-		fr: "Miaouss",
-		es: "Meowth",
-		it: "Meowth",
-		pt: "Meowth",
-		de: "Mauzi"
+		'en-us': "Meowth",
+		'fr-fr': "Miaouss",
+		'es-es': "Meowth",
+		'it-it': "Meowth",
+		'pt-br': "Meowth",
+		'de-de': "Mauzi"
 	},
 
 	rarity: "Common",
@@ -30,30 +30,30 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "It washes its face regularly to keep the coin on its forehead spotless. It doesn't get along with Galarian Meowth."
+		'en-us': "It washes its face regularly to keep the coin on its forehead spotless. It doesn't get along with Galarian Meowth."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Pay Day",
-			fr: "Jackpot",
-			de: "Zahltag",
-			es: "Día de Pago",
-			pt: "Dia de Pagamento",
-			it: "Giornopaga"
+			'en-us': "Pay Day",
+			'fr-fr': "Jackpot",
+			'de-de': "Zahltag",
+			'es-es': "Día de Pago",
+			'pt-br': "Dia de Pagamento",
+			'it-it': "Giornopaga"
 		},
 
 		damage: 10,
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			de: "Ziehe 1 Karte.",
-			es: "Roba 1 carta.",
-			pt: "Compre 1 carta.",
-			it: "Pesca una carta."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'de-de': "Ziehe 1 Karte.",
+			'es-es': "Roba 1 carta.",
+			'pt-br': "Compre 1 carta.",
+			'it-it': "Pesca una carta."
 		}
 	}],
 

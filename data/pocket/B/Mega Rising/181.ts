@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pidgeotto"
+		'en-us': "Pidgeotto"
 	},
 
 	illustrator: "Mizue",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Pidgey"
+		'en-us': "Pidgey"
 	},
 
 	description: {
-		en: "Very protective of its sprawling territorial area,\nthis Pokémon will fiercely peck at any intruder."
+		'en-us': "Very protective of its sprawling territorial area,\nthis Pokémon will fiercely peck at any intruder."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Speed Wing"
+			'en-us': "Speed Wing"
 		},
 
 		damage: 40,

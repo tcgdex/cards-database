@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Granbull",
-		fr: "Granbull",
-		de: "Granbull"
+		'en-us': "Granbull",
+		'fr-fr': "Granbull",
+		'de-de': "Granbull"
 	},
 
 	illustrator: "Mizue",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Snubbull",
-		fr: "Snubbull"
+		'en-us': "Snubbull",
+		'fr-fr': "Snubbull"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Timid Tackle",
-				fr: "Charge timide",
-				de: "Scheutackle"
+				'en-us': "Timid Tackle",
+				'fr-fr': "Charge timide",
+				'de-de': "Scheutackle"
 			},
 			effect: {
-				en: "Granbull does 20 damage to itself. Switch Granbull with 1 of your Benched Pokémon.",
-				fr: "Granbull s'inflige 20 dégâts. Échangez Granbull avec l'un des Pokémon de votre Banc.",
-				de: "Granbull fügt sich selbst 20 Schadenspunkte zu. Tausche Granbull gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Granbull does 20 damage to itself. Switch Granbull with 1 of your Benched Pokémon.",
+				'fr-fr': "Granbull s'inflige 20 dégâts. Échangez Granbull avec l'un des Pokémon de votre Banc.",
+				'de-de': "Granbull fügt sich selbst 20 Schadenspunkte zu. Tausche Granbull gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 50,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Chomp",
-				fr: "Mâche",
-				de: "Champ"
+				'en-us': "Chomp",
+				'fr-fr': "Mâche",
+				'de-de': "Champ"
 			},
 			effect: {
-				en: "Does 40 damage plus 10 more damage for each damage counter on Granbull.",
-				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Granbull.",
-				de: "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Granbull zu."
+				'en-us': "Does 40 damage plus 10 more damage for each damage counter on Granbull.",
+				'fr-fr': "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Granbull.",
+				'de-de': "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Granbull zu."
 			},
 			damage: "40+",
 
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Because its fangs are too heavy, it always keeps its head tilted down. However, its bite is powerful.",
+		'en-us': "Because its fangs are too heavy, it always keeps its head tilted down. However, its bite is powerful.",
 	},
 
 	variants: [

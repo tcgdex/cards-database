@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラナッシーV",
+		'ja-jp': "アローラナッシーV",
 	},
 
 	illustrator: "MUGENUP",
@@ -19,14 +19,14 @@ const card: Card = {
 			name: { ja: "のびのびそだつ" },
 			cost: ["Grass"],
 			effect: {
-				ja: "コインを1回投げオモテなら、自分の山札から[G]エネルギーを5枚まで選び、自分のポケモンに好きなようにつける。そして山札を切る。",
+				'ja-jp': "コインを1回投げオモテなら、自分の山札から[G]エネルギーを5枚まで選び、自分のポケモンに好きなようにつける。そして山札を切る。",
 			},
 		},
 		{
 			name: { ja: "ブンブンヘッド" },
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のポケモン1匹に、このポケモンについている[G]エネルギーの数×30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、このポケモンについている[G]エネルギーの数×30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

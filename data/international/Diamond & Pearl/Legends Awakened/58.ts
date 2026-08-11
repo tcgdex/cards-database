@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Lanturn",
-		fr: "Lanturn",
-		de: "Lanturn"
+		'en-us': "Lanturn",
+		'fr-fr': "Lanturn",
+		'de-de': "Lanturn"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Chinchou",
-		fr: "Lampi",
+		'en-us': "Chinchou",
+		'fr-fr': "Lampi",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strong Current",
-				fr: "Courant fort",
-				de: "Starke Strömung"
+				'en-us': "Strong Current",
+				'fr-fr': "Courant fort",
+				'de-de': "Starke Strömung"
 			},
 			effect: {
-				en: "Move an Energy card attached to the Defending Pokémon to another of your opponent's Pokémon.",
-				fr: "Déplacez une carte Énergie attachée au Pokémon Défenseur sur un autre des Pokémon de votre adversaire.",
-				de: "Entferne 1 an das Verteidigende Pokémon angelegte Energiekarte und lege sie an 1 anderes Pokémon deines Gegners an."
+				'en-us': "Move an Energy card attached to the Defending Pokémon to another of your opponent's Pokémon.",
+				'fr-fr': "Déplacez une carte Énergie attachée au Pokémon Défenseur sur un autre des Pokémon de votre adversaire.",
+				'de-de': "Entferne 1 an das Verteidigende Pokémon angelegte Energiekarte und lege sie an 1 anderes Pokémon deines Gegners an."
 			},
 			damage: 20,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde folie",
-				de: "Konfustrahl"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde folie",
+				'de-de': "Konfustrahl"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
-				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 40,
 
@@ -79,8 +79,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Lanturn's light can shine up from great depths. It is nicknamed \"The Deep-Sea Star.\"",
-		fr: "La lumière de LANTURN surgit des profondeurs. On le surnomme \"étoile des profondeurs\"."
+		'en-us': "Lanturn's light can shine up from great depths. It is nicknamed \"The Deep-Sea Star.\"",
+		'fr-fr': "La lumière de LANTURN surgit des profondeurs. On le surnomme \"étoile des profondeurs\"."
 	},
 
 	thirdParty: {

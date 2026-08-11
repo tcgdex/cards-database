@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Koffing",
-		fr: "Smogo",
-		de: "Smogon"
+		'en-us': "Koffing",
+		'fr-fr': "Smogo",
+		'de-de': "Smogon"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Confusion Gas",
-				fr: "Confu-gaz",
-				de: "Confusion Gas"
+				'en-us': "Confusion Gas",
+				'fr-fr': "Confu-gaz",
+				'de-de': "Confusion Gas"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
-				de: "The Defending Pokémon is now Confused."
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "The Defending Pokémon is now Confused."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				de: "Ram"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'de-de': "Ram"
 			},
 
 			damage: 20,

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サカキの追放",
+		'ja-jp': "サカキの追放",
 	},
 
 	illustrator: "TOKIYA",
 	category: "Trainer",
 
 	effect: {
-		ja: "ダメカンがのっていない自分のベンチポケモンを2匹まで選び、選んだポケモンと、ついているすべてのカードを、トラッシュする。",
+		'ja-jp': "ダメカンがのっていない自分のベンチポケモンを2匹まで選び、選んだポケモンと、ついているすべてのカードを、トラッシュする。",
 	},
 
 	variants: [

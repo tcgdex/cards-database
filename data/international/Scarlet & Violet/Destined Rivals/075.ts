@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Electrike",
-		fr: "Dynavolt",
-		de: "Frizelbliz",
-		it: "Electrike",
-		es: "Electrike",
-		pt: "Electrike",
+		'en-us': "Electrike",
+		'fr-fr': "Dynavolt",
+		'de-de': "Frizelbliz",
+		'it-it': "Electrike",
+		'es-es': "Electrike",
+		'pt-br': "Electrike",
 		'es-mx': "Electrike"
 	},
 
@@ -28,12 +28,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Rear Kick",
-			fr: "Ruade",
-			de: "Rückwärtskick",
-			it: "Retrocalcio",
-			es: "Patada Trasera",
-			pt: "Chute Traseiro",
+			'en-us': "Rear Kick",
+			'fr-fr': "Ruade",
+			'de-de': "Rückwärtskick",
+			'it-it': "Retrocalcio",
+			'es-es': "Patada Trasera",
+			'pt-br': "Chute Traseiro",
 			'es-mx': "Patada Trasera"
 		},
 
@@ -42,12 +42,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Tiny Bolt",
-			fr: "Foudre Minuscule",
-			de: "Mini-Blitz",
-			it: "Minifulmine",
-			es: "Relampaguito",
-			pt: "Corisquinho",
+			'en-us': "Tiny Bolt",
+			'fr-fr': "Foudre Minuscule",
+			'de-de': "Mini-Blitz",
+			'it-it': "Minifulmine",
+			'es-es': "Relampaguito",
+			'pt-br': "Corisquinho",
 			'es-mx': "Minirrayo"
 		},
 

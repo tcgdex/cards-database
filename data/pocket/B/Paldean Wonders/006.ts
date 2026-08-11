@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Nymble",
-		fr: "Lilliterelle",
-		es: "Nymble",
-		de: "Micrick",
-		it: "Nymble",
-		pt: "Nymble",
+		'en-us': "Nymble",
+		'fr-fr': "Lilliterelle",
+		'es-es': "Nymble",
+		'de-de': "Micrick",
+		'it-it': "Nymble",
+		'pt-br': "Nymble",
 		'es-mx': "Nymble"
   },
   illustrator: "Kouki Saitou",
@@ -26,18 +26,18 @@ const card: Card = {
     {
       name: {
         en: "U-turn",
-				fr: "Demi-Tour",
-				de: "Kehrtwende",
-				it: "Retromarcia",
-				es: "Ida y Vuelta",
-				pt: "Fazer Retorno",
+				'fr-fr': "Demi-Tour",
+				'de-de': "Kehrtwende",
+				'it-it': "Retromarcia",
+				'es-es': "Ida y Vuelta",
+				'pt-br': "Fazer Retorno",
 				'es-mx': "Ida y Vuelta"
       },
       damage: "10",
       cost: ["Colorless"],
       effect: {
         en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
+				'fr-fr': "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
       },
     },
   ],

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Southern Islands'
 
 const card: Card = {
 	name: {
-		en: "Exeggutor",
+		'en-us': "Exeggutor",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Exeggcute",
+		'en-us': "Exeggcute",
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sharpshooter",
+				'en-us': "Sharpshooter",
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. Flip a number of coins equal to the number of Grass Energy attached to Exeggutor. This attack does 10 damage times the number of heads to that Pokémon. Don't apply Weakness and Resistance.",
+				'en-us': "Choose 1 of your opponent's Pokémon. Flip a number of coins equal to the number of Grass Energy attached to Exeggutor. This attack does 10 damage times the number of heads to that Pokémon. Don't apply Weakness and Resistance.",
 			},
 
 		},
@@ -52,7 +52,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon has a unique cry, as all three of its heads are always talking independently of one another.",
+		'en-us': "This Pokémon has a unique cry, as all three of its heads are always talking independently of one another.",
 	},
 
 	variants: [

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Torchic",
-		fr: "Poussifeu",
-		es: "Torchic",
-		it: "Torchic",
-		pt: "Torchic",
-		de: "Flemmli"
+		'en-us': "Torchic",
+		'fr-fr': "Poussifeu",
+		'es-es': "Torchic",
+		'it-it': "Torchic",
+		'pt-br': "Torchic",
+		'de-de': "Flemmli"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-Attaque",
-				es: "Ataque Rápido",
-				it: "Attacco Rapido",
-				pt: "Ataque Rápido",
-				de: "Ruckzuckhieb"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-Attaque",
+				'es-es': "Ataque Rápido",
+				'it-it': "Attacco Rapido",
+				'pt-br': "Ataque Rápido",
+				'de-de': "Ruckzuckhieb"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
-				pt: "Jogue uma moeda. Se sair cara, esse ataque causará 30 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+				'pt-br': "Jogue uma moeda. Se sair cara, esse ataque causará 30 de danos adicionais.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has a flame sac inside its belly that perpetually burns. It feels warm if it is hugged.",
+		'en-us': "It has a flame sac inside its belly that perpetually burns. It feels warm if it is hugged.",
 	},
 
 	thirdParty: {

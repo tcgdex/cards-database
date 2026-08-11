@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Patrat",
-		fr: "Ratentif",
-		es: "Patrat",
-		it: "Patrat",
-		pt: "Patrat",
-		de: "Nagelotz"
+		'en-us': "Patrat",
+		'fr-fr': "Ratentif",
+		'es-es': "Patrat",
+		'it-it': "Patrat",
+		'pt-br': "Patrat",
+		'de-de': "Nagelotz"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
 			},
 
 			damage: 10,
@@ -47,8 +47,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
 			},
 
 			damage: 20,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Using food stored in cheek pouches, they can keep watches for days. They use their tails to communicate with others.",
+		'en-us': "Using food stored in cheek pouches, they can keep watches for days. They use their tails to communicate with others.",
 	},
 
 	thirdParty: {

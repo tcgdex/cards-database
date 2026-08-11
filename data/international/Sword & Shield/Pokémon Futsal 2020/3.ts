@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Pokémon Futsal 2020'
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Grookey on the Ball"
+		'en-us': "Grookey on the Ball"
 	},
 
 	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
@@ -14,7 +14,7 @@ const card: Card = {
 	category: "Pokemon",
 
 	description: {
-		en: "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area."
+		'en-us': "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area."
 	},
 
 	hp: 60,
@@ -25,17 +25,17 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Tenacious Defense"
+			'en-us': "Tenacious Defense"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, the Defending Pokémon can't retreat."
+			'en-us': "During your opponent's next turn, the Defending Pokémon can't retreat."
 		}
 	}, {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			en: "Razor Leaf"
+			'en-us': "Razor Leaf"
 		},
 
 		damage: 50

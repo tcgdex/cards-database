@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Bagon δ",
-		fr: "Draby δ",
-		de: "Kindwurm"
+		'en-us': "Bagon δ",
+		'fr-fr': "Draby δ",
+		'de-de': "Kindwurm"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Ember",
-				fr: "Flammèche",
-				de: "Ember"
+				'en-us': "Ember",
+				'fr-fr': "Flammèche",
+				'de-de': "Ember"
 			},
 			effect: {
-				en: "Discard a Fire Energy card attached to Bagon.",
-				fr: "Défaussez une carte Énergie  attachée à Draby.",
-				de: "Discard a  Energy card attached to Bagon."
+				'en-us': "Discard a Fire Energy card attached to Bagon.",
+				'fr-fr': "Défaussez une carte Énergie  attachée à Draby.",
+				'de-de': "Discard a  Energy card attached to Bagon."
 			},
 			damage: 30,
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Beldum",
-		fr: "Terhal",
-		de: "Tanhel"
+		'en-us': "Beldum",
+		'fr-fr': "Terhal",
+		'de-de': "Tanhel"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la famille",
-				de: "Call for Family"
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la famille",
+				'de-de': "Call for Family"
 			},
 			effect: {
-				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
-				fr: "Choisissez un Pokémon de base dans votre deck et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Search your deck for a Basic Pokémon and put it into your Bench. Shuffle your deck afterward."
+				'en-us': "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez un Pokémon de base dans votre deck et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+				'de-de': "Search your deck for a Basic Pokémon and put it into your Bench. Shuffle your deck afterward."
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Metal Ball",
-				fr: "Boule métallique",
-				de: "Metal Ball"
+				'en-us': "Metal Ball",
+				'fr-fr': "Boule métallique",
+				'de-de': "Metal Ball"
 			},
 			effect: {
-				en: "Put 1 damage counter on the Defending Pokémon.",
-				fr: "Placez 1 marqueur de dégât sur le Pokémon Défenseur.",
-				de: "Put 1 damage counter on the Defending Pokémon."
+				'en-us': "Put 1 damage counter on the Defending Pokémon.",
+				'fr-fr': "Placez 1 marqueur de dégât sur le Pokémon Défenseur.",
+				'de-de': "Put 1 damage counter on the Defending Pokémon."
 			},
 
 		},

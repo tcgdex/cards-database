@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ethan's Slugma",
-		fr: "Limagma de Luth",
-		es: "Slugma de Eco",
+		'en-us': "Ethan's Slugma",
+		'fr-fr': "Limagma de Luth",
+		'es-es': "Slugma de Eco",
 		'es-mx': "Slugma de Ethan",
-		de: "Klarins Schneckmag",
-		it: "Slugma di Armonio",
-		pt: "Slugma do Ethan"
+		'de-de': "Klarins Schneckmag",
+		'it-it': "Slugma di Armonio",
+		'pt-br': "Slugma do Ethan"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -25,13 +25,13 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Steady Firebreathing",
-			fr: "Crachage de Feu Régulier",
-			es: "Lanzallamas Continuo",
+			'en-us': "Steady Firebreathing",
+			'fr-fr': "Crachage de Feu Régulier",
+			'es-es': "Lanzallamas Continuo",
 			'es-mx': "Escupefuego",
-			de: "Stetiger Feuerhauch",
-			it: "Soffiofuoco Mirato",
-			pt: "Hálito de Fogo Constante"
+			'de-de': "Stetiger Feuerhauch",
+			'it-it': "Soffiofuoco Mirato",
+			'pt-br': "Hálito de Fogo Constante"
 		},
 
 		damage: 20
@@ -47,7 +47,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Its lava body can cool and chip away at times, but a magma bath will heal it right up.",
+		'en-us': "Its lava body can cool and chip away at times, but a magma bath will heal it right up.",
 	},
 
 	variants: [

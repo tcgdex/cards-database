@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Natu",
-		fr: "Natu",
-		de: "Natu"
+		'en-us': "Natu",
+		'fr-fr': "Natu",
+		'de-de': "Natu"
 	},
 
 	illustrator: "sui",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				de: "Schnabel"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'de-de': "Schnabel"
 			},
 
 			damage: 10,
@@ -42,14 +42,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Teleport",
-				fr: "Téléport",
-				de: "Teleport"
+				'en-us': "Teleport",
+				'fr-fr': "Téléport",
+				'de-de': "Teleport"
 			},
 			effect: {
-				en: "Switch Natu with 1 of your Benched Pokémon.",
-				fr: "Échangez Natu avec l’un des Pokémon de votre Banc.",
-				de: "Tausche Natu gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Switch Natu with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez Natu avec l’un des Pokémon de votre Banc.",
+				'de-de': "Tausche Natu gegen 1 Pokémon auf deiner Bank aus."
 			},
 
 		},
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots."
+		'en-us': "It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Poliwrath",
+		'ja-jp': "Poliwrath",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "プランジ",
+				'ja-jp': "プランジ",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前に）一度、Poliwrathがベンチにいる場合、コインをひっくり返すことができます。頭の場合は、アクティブなポクモンに取り付けられたすべてのエネルギーカードを持っていて、PoliWrathに取り付けます。次に、アクティブなポクモンでpoliwrathを切り替えます。",
+				'ja-jp': "ターン中（攻撃の前に）一度、Poliwrathがベンチにいる場合、コインをひっくり返すことができます。頭の場合は、アクティブなポクモンに取り付けられたすべてのエネルギーカードを持っていて、PoliWrathに取り付けます。次に、アクティブなポクモンでpoliwrathを切り替えます。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Water", "Water", "Colorless", "Colorless"],
 			name: {
-				ja: "ウォーターパンチ",
+				'ja-jp': "ウォーターパンチ",
 			},
 			effect: {
-				ja: "Poliwrathに付着した水エネルギーの量に等しい多数のコインをひっくり返します。この攻撃は、40のダメージに加えて、各ヘッドに対してさらに10ダメージを与えます。",
+				'ja-jp': "Poliwrathに付着した水エネルギーの量に等しい多数のコインをひっくり返します。この攻撃は、40のダメージに加えて、各ヘッドに対してさらに10ダメージを与えます。",
 			},
 		},
 	],

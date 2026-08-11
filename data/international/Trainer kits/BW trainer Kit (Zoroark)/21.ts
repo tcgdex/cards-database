@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW trainer Kit (Zoroark).ts'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pidove",
-		fr: "Poichigeon",
-		es: "Pidove",
-		it: "Pidove",
-		pt: "Pidove",
-		de: "Dusselgurr"
+		'en-us': "Pidove",
+		'fr-fr': "Poichigeon",
+		'es-es': "Pidove",
+		'it-it': "Pidove",
+		'pt-br': "Pidove",
+		'de-de': "Dusselgurr"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -28,12 +28,12 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Quick Attack",
-			fr: "Vive-Attaque"
+			'en-us': "Quick Attack",
+			'fr-fr': "Vive-Attaque"
 		},
 		effect: {
-			en: "Flip a coin. If heads, this attack does 10 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires."
+			'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires."
 		},
 		damage: "10+"
 	}],
@@ -49,7 +49,7 @@ const card: Card = {
 	}],
 
 	description: {
-		en: "Each follows its Trainer's orders as best it can, but they sometimes fail to understand complicated commands."
+		'en-us': "Each follows its Trainer's orders as best it can, but they sometimes fail to understand complicated commands."
 	},
 
 	retreat: 1,

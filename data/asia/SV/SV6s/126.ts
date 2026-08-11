@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Applin"
+		'id-id': "Applin"
 	},
 
 	illustrator: "Teeziro",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		id: "Applin hidup di dalam buah apel. Jika apelnya habis, Pokémon ini akan melemah karena kehilangan cairan tubuhnya."
+		'id-id': "Applin hidup di dalam buah apel. Jika apelnya habis, Pokémon ini akan melemah karena kehilangan cairan tubuhnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Mencari Teman"
+			'id-id': "Mencari Teman"
 		},
 
 		effect: {
-			id: "Pilih 1 lembar Pokémon dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
+			'id-id': "Pilih 1 lembar Pokémon dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Tubrukan Menggelinding"
+			'id-id': "Tubrukan Menggelinding"
 		},
 
 		damage: 30,

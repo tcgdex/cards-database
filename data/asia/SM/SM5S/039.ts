@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トリデプス",
+		'ja-jp': "トリデプス",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "ラムパルドと 似た 場所に いた。 ２匹が 争い 共倒れに なった 化石が 見つかることも。",
+		'ja-jp': "ラムパルドと 似た 場所に いた。 ２匹が 争い 共倒れに なった 化石が 見つかることも。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "だいちのたて" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分の[鋼]ポケモン全員は、特殊エネルギーがついている相手のポケモンから、ワザのダメージを受けない。",
+				'ja-jp': "このポケモンがいるかぎり、自分の[鋼]ポケモン全員は、特殊エネルギーがついている相手のポケモンから、ワザのダメージを受けない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 110,
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "のぞむなら、相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+				'ja-jp': "のぞむなら、相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "タテトプス",
+		'ja-jp': "タテトプス",
 	},
 
 	retreat: 3,

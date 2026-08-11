@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Joltik",
-		fr: "Statitik",
-		es: "Joltik",
-		it: "Joltik",
-		pt: "Joltik",
-		de: "Wattzapf"
+		'en-us': "Joltik",
+		'fr-fr': "Statitik",
+		'es-es': "Joltik",
+		'it-it': "Joltik",
+		'pt-br': "Joltik",
+		'de-de': "Wattzapf"
 	},
 
 	illustrator: "TOKIYA",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Ronge",
-				es: "Roer",
-				it: "Rosicchiamento",
-				pt: "Roída",
-				de: "Nagen"
+				'en-us': "Gnaw",
+				'fr-fr': "Ronge",
+				'es-es': "Roer",
+				'it-it': "Rosicchiamento",
+				'pt-br': "Roída",
+				'de-de': "Nagen"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Night March",
-				fr: "Marche Nocturne",
-				es: "Marcha Nocturna",
-				it: "Marcia Notturna",
-				pt: "Marcha Noturna",
-				de: "Nachtwanderung"
+				'en-us': "Night March",
+				'fr-fr': "Marche Nocturne",
+				'es-es': "Marcha Nocturna",
+				'it-it': "Marcia Notturna",
+				'pt-br': "Marcha Noturna",
+				'de-de': "Nachtwanderung"
 			},
 			effect: {
-				en: "This attack does 20 damage times the number of Pokémon in your discard pile that have the Night March attack.",
-				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre de Pokémon dans votre pile de défausse possédant l'attaque Marche Nocturne.",
-				es: "Este ataque hace 20 puntos de daño por cada Pokémon en tu pila de descartes que tenga el ataque Marcha Nocturna.",
-				it: "Questo attacco infligge 20 danni per ogni Pokémon nella tua pila degli scarti che conosce l'attacco Marcia Notturna.",
-				pt: "Esse ataque causa 20 de danos vezes o número de Pokémon em sua pilha de descarte que possuem o ataque Marcha Noturna.",
-				de: "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der Pokémon in deinem Ablagestapel, die Nachtwanderung beherrschen, zu."
+				'en-us': "This attack does 20 damage times the number of Pokémon in your discard pile that have the Night March attack.",
+				'fr-fr': "Cette attaque inflige 20 dégâts multipliés par le nombre de Pokémon dans votre pile de défausse possédant l'attaque Marche Nocturne.",
+				'es-es': "Este ataque hace 20 puntos de daño por cada Pokémon en tu pila de descartes que tenga el ataque Marcha Nocturna.",
+				'it-it': "Questo attacco infligge 20 danni per ogni Pokémon nella tua pila degli scarti che conosce l'attacco Marcia Notturna.",
+				'pt-br': "Esse ataque causa 20 de danos vezes o número de Pokémon em sua pilha de descarte que possuem o ataque Marcha Noturna.",
+				'de-de': "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der Pokémon in deinem Ablagestapel, die Nachtwanderung beherrschen, zu."
 			},
 			damage: "20×",
 
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Since it can't generate its own electricity, it sticks onto large-bodied Pokémon and absorbs static electricity.",
+		'en-us': "Since it can't generate its own electricity, it sticks onto large-bodied Pokémon and absorbs static electricity.",
 	},
 
 	thirdParty: {

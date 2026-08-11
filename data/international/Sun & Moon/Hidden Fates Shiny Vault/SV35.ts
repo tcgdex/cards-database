@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Kirlia",
-		fr: "Kirlia",
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia",
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Shiny rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Fairy",
 	],
 	evolveFrom: {
-		en: "Ralts",
-		fr: "Tarsal",
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal",
 	},
 	stage: "Stage1",
 
@@ -31,8 +31,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smack",
-				fr: "Claque",
+				'en-us': "Smack",
+				'fr-fr': "Claque",
 			},
 
 			damage: 20,
@@ -44,8 +44,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magical Shot",
-				fr: "Coup Magique",
+				'en-us': "Magical Shot",
+				'fr-fr': "Coup Magique",
 			},
 
 			damage: 30,
@@ -70,7 +70,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The cheerful spirit of its Trainer gives it energy for its psychokinetic power. It spins and dances when happy.",
+		'en-us': "The cheerful spirit of its Trainer gives it energy for its psychokinetic power. It spins and dances when happy.",
 	},
 }
 

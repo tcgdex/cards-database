@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Koga's Pidgey"
+		'en-us': "Koga's Pidgey"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Messenger"
+				'en-us': "Messenger"
 			},
 			effect: {
-				en: "Put Koga's Pidgey and all cards attached to it on top of your deck. Then search your deck for any Basic Pokémon or Evolution card not named Koga's Pidgey. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
+				'en-us': "Put Koga's Pidgey and all cards attached to it on top of your deck. Then search your deck for any Basic Pokémon or Evolution card not named Koga's Pidgey. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
 			},
 
 		},
@@ -40,7 +40,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack"
+				'en-us': "Wing Attack"
 			},
 
 			damage: 20,

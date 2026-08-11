@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Elgyem",
-		fr: "Lewsor",
-		es: "Elgyem",
-		it: "Elgyem",
-		pt: "Elgyem",
-		de: "Pygraulon"
+		'en-us': "Elgyem",
+		'fr-fr': "Lewsor",
+		'es-es': "Elgyem",
+		'it-it': "Elgyem",
+		'pt-br': "Elgyem",
+		'de-de': "Pygraulon"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psyshot",
-				fr: "Piqûre Psy",
+				'en-us': "Psyshot",
+				'fr-fr': "Piqûre Psy",
 			},
 
 			damage: 30,
@@ -54,7 +54,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Rumors of its origin are linked to a UFO crash site in the desert 50 years ago.",
+		'en-us': "Rumors of its origin are linked to a UFO crash site in the desert 50 years ago.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "こくばバドレックスVMAX",
+		'ja-jp': "こくばバドレックスVMAX",
 		'zh-tw': "黑馬蕾冠王VMAX",
 	},
 
@@ -20,7 +20,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "めいかいのとびら" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札から[超]エネルギーを1枚選び、自分のベンチの[超]ポケモンにつける。その後、自分の山札を2枚引く。",
+				'ja-jp': "自分の番に1回使える。自分の手札から[超]エネルギーを1枚選び、自分のベンチの[超]ポケモンにつける。その後、自分の山札を2枚引く。",
 			},
 		},
 	],
@@ -28,13 +28,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ダイガイスト",
+				'ja-jp': "ダイガイスト",
 				'zh-tw': "極巨之魂",
 			},
 			damage: "10+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分の場のポケモンについている[超]エネルギーの数×30ダメージ追加。",
+				'ja-jp': "自分の場のポケモンについている[超]エネルギーの数×30ダメージ追加。",
 				'zh-tw': "增加自己的場上寶可夢身上附加的【超】能量的數量×30點傷害。",
 			},
 		},
@@ -54,7 +54,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "こくばバドレックスV",
+		'ja-jp': "こくばバドレックスV",
 	},
 
 	retreat: 2,

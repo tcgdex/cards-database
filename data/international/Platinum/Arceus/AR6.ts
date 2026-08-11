@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Arceus",
-		fr: "Arceus",
-		de: "Arceus"
+		'en-us': "Arceus",
+		'fr-fr': "Arceus",
+		'de-de': "Arceus"
 	},
 
 	illustrator: "Wataru Kawahara",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lightning Turn",
-				fr: "Tour éclair",
-				de: "Blitzartige Drehung"
+				'en-us': "Lightning Turn",
+				'fr-fr': "Tour éclair",
+				'de-de': "Blitzartige Drehung"
 			},
 			effect: {
-				en: "Switch Arceus with 1 of your Benched Pokémon.",
-				fr: "Échangez Arceus avec 1 des Pokémon de votre Banc.",
-				de: "Tausche Arceus gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Switch Arceus with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez Arceus avec 1 des Pokémon de votre Banc.",
+				'de-de': "Tausche Arceus gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 30,
 
@@ -61,7 +61,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms."
+		'en-us': "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms."
 	},
 
 	variants: [

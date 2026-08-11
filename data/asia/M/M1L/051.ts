@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サーフゴー",
+		'ja-jp': "サーフゴー",
 	},
 
 	illustrator: "Yukihiro Tada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "１０００枚の コインで 体が できているらしい。 人懐こく だれとでも すぐに 仲良くなれる。",
+		'ja-jp': "１０００枚の コインで 体が できているらしい。 人懐こく だれとでも すぐに 仲良くなれる。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "コレクレー",
+		'ja-jp': "コレクレー",
 	},
 
 	retreat: 2,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドンカラス",
+		'ja-jp': "ドンカラス",
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "夜行性。 一声 鳴けば １００匹を 超える 子分の ヤミカラスが 集結する。",
+		'ja-jp': "夜行性。 一声 鳴けば １００匹を 超える 子分の ヤミカラスが 集結する。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "だましうち" },
 			cost: ["Darkness"],
 			effect: {
-				ja: "相手のポケモン1匹に、30ダメージ。このワザのダメージは、弱点・抵抗力と、ダメージを受けるポケモンにかかっている効果を計算しない。",
+				'ja-jp': "相手のポケモン1匹に、30ダメージ。このワザのダメージは、弱点・抵抗力と、ダメージを受けるポケモンにかかっている効果を計算しない。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手の場のポケモンにのっているダメカンの数x10ダメージ追加。",
+				'ja-jp': "相手の場のポケモンにのっているダメカンの数x10ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤミカラス",
+		'ja-jp': "ヤミカラス",
 	},
 
 	retreat: 1,

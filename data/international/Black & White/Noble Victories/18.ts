@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Heatmor",
-		fr: "Aflamanoir",
-		es: "Heatmor",
-		it: "Heatmor",
-		pt: "Heatmor",
-		de: "Furnifraß"
+		'en-us': "Heatmor",
+		'fr-fr': "Aflamanoir",
+		'es-es': "Heatmor",
+		'it-it': "Heatmor",
+		'pt-br': "Heatmor",
+		'de-de': "Furnifraß"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Singe",
-				fr: "Roussi",
+				'en-us': "Singe",
+				'fr-fr': "Roussi",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				'en-us': "The Defending Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé.",
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Incinerate",
-				fr: "Calcination",
+				'en-us': "Incinerate",
+				'fr-fr': "Calcination",
 			},
 			effect: {
-				en: "Before doing damage, discard a Pokémon Tool card attached to the Defending Pokémon.",
-				fr: "Avant d'infliger des dégâts, défaussez une carte Outil Pokémon attachée au Pokémon Défenseur.",
+				'en-us': "Before doing damage, discard a Pokémon Tool card attached to the Defending Pokémon.",
+				'fr-fr': "Avant d'infliger des dégâts, défaussez une carte Outil Pokémon attachée au Pokémon Défenseur.",
 			},
 			damage: 30,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Using their very hot, flame-covered tongues, they burn through Durant's steel bodies and consume their insides.",
+		'en-us': "Using their very hot, flame-covered tongues, they burn through Durant's steel bodies and consume their insides.",
 	},
 
 	thirdParty: {

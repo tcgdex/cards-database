@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG7"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カブト（デルタ種）",
+		'ja-jp': "カブト（デルタ種）",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "不気味な光",
+				'ja-jp': "不気味な光",
 			},
 			effect: {
-				ja: "防御ポケモンは今混乱しています。",
+				'ja-jp': "防御ポケモンは今混乱しています。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "シェル攻撃",
+				'ja-jp': "シェル攻撃",
 			},
 			damage: 20,
 		},

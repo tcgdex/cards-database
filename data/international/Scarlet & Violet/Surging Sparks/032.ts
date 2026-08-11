@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charcadet",
-		fr: "Charbambin",
-		es: "Charcadet",
-		it: "Charcadet",
-		pt: "Charcadet",
-		de: "Knarbon"
+		'en-us': "Charcadet",
+		'fr-fr': "Charbambin",
+		'es-es': "Charcadet",
+		'it-it': "Charcadet",
+		'pt-br': "Charcadet",
+		'de-de': "Knarbon"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Will-O-Wisp",
-			fr: "Feu Follet",
-			es: "Fuego Fatuo",
-			it: "Fuocofatuo",
-			pt: "Fogo Fátuo",
-			de: "Irrlicht"
+			'en-us': "Will-O-Wisp",
+			'fr-fr': "Feu Follet",
+			'es-es': "Fuego Fatuo",
+			'it-it': "Fuocofatuo",
+			'pt-br': "Fogo Fátuo",
+			'de-de': "Irrlicht"
 		},
 
 		damage: 20

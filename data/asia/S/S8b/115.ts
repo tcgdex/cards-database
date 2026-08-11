@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アーマーガアV",
+		'ja-jp': "アーマーガアV",
 		'zh-tw': "鋼鎧鴉V",
 	},
 
@@ -18,25 +18,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "わしづかみ",
+				'ja-jp': "わしづかみ",
 				'zh-tw': "緊抓",
 			},
 			damage: 30,
 			cost: ["Metal"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 				'zh-tw': "在下個對手的回合，受到這個招式的寶可夢無法撤退。",
 			},
 		},
 		{
 			name: {
-				ja: "スカイハリケーン",
+				'ja-jp': "スカイハリケーン",
 				'zh-tw': "天空颶風",
 			},
 			damage: 190,
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「スカイハリケーン」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「スカイハリケーン」が使えない。",
 				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用「天空颶風」。",
 			},
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Seedot",
-		fr: "Grainipiot",
-		de: "Samurzel"
+		'en-us': "Seedot",
+		'fr-fr': "Grainipiot",
+		'de-de': "Samurzel"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Surprise Attack",
-				fr: "Attaque Surprise",
-				de: "Überaschungsangriff"
+				'en-us': "Surprise Attack",
+				'fr-fr': "Attaque Surprise",
+				'de-de': "Überaschungsangriff"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkung."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkung."
 			},
 			damage: 30,
 

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Absol",
-		fr: "Absol",
-		es: "Absol",
+		'en-us': "Absol",
+		'fr-fr': "Absol",
+		'es-es': "Absol",
 		'es-mx': "Absol",
-		de: "Absol",
-		it: "Absol",
-		pt: "Absol"
+		'de-de': "Absol",
+		'it-it': "Absol",
+		'pt-br': "Absol"
 	},
 
 	rarity: "Common",
@@ -26,35 +26,35 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Allure",
-			fr: "Allure",
-			es: "Atractivo",
+			'en-us': "Allure",
+			'fr-fr': "Allure",
+			'es-es': "Atractivo",
 			'es-mx': "Atraer",
-			de: "Verlockung",
-			it: "Affascinante",
-			pt: "Fascinar"
+			'de-de': "Verlockung",
+			'it-it': "Affascinante",
+			'pt-br': "Fascinar"
 		},
 
 		effect: {
-			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
-			es: "Roba 2 cartas.",
+			'en-us': "Draw 2 cards.",
+			'fr-fr': "Piochez 2 cartes.",
+			'es-es': "Roba 2 cartas.",
 			'es-mx': "Roba 2 cartas.",
-			de: "Ziehe 2 Karten.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas."
+			'de-de': "Ziehe 2 Karten.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas."
 		}
 	}, {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Dark Cutter",
-			fr: "Tranch'Obscur",
-			es: "Cuchilla Oscura",
+			'en-us': "Dark Cutter",
+			'fr-fr': "Tranch'Obscur",
+			'es-es': "Cuchilla Oscura",
 			'es-mx': "Corte Oscuro",
-			de: "Dunkler Zerschneider",
-			it: "Oscurotaglio",
-			pt: "Cortador de Escuridão"
+			'de-de': "Dunkler Zerschneider",
+			'it-it': "Oscurotaglio",
+			'pt-br': "Cortador de Escuridão"
 		},
 
 		damage: 60
@@ -70,7 +70,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Because of this Pokémon's ability to detect danger, people mistook Absol as a bringer of doom.",
+		'en-us': "Because of this Pokémon's ability to detect danger, people mistook Absol as a bringer of doom.",
 	},
 
 	illustrator: "Takumi Wada",

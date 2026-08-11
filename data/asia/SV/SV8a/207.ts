@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "イルカマンex",
-		id: "Palafin ex",
+		'ja-jp': "イルカマンex",
+		'id-id': "Palafin ex",
 		'zh-tw': "海豚俠ex",
 		'zh-cn': "海豚俠ex"
 	},
@@ -23,15 +23,15 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "マイティソウル",
-			id: "Jiwa Perkasa",
+			'ja-jp': "マイティソウル",
+			'id-id': "Jiwa Perkasa",
 			'zh-tw': "全能靈魂",
 			'zh-cn': "全能靈魂"
 		},
 
 		effect: {
-			ja: "このカードは、「イルカマン」の特性「マイティチェンジ」の効果によってしか場に出せない。",
-			id: "Kartu ini hanya dapat dimasukkan ke Arena menggunakan efek dari Ability Menjadi Perkasa Palafin.",
+			'ja-jp': "このカードは、「イルカマン」の特性「マイティチェンジ」の効果によってしか場に出せない。",
+			'id-id': "Kartu ini hanya dapat dimasukkan ke Arena menggunakan efek dari Ability Menjadi Perkasa Palafin.",
 			'zh-tw': "這張卡只可依據「海豚俠」的特性「全能變身」的效果放置於場上。",
 			'zh-cn': "這張卡只可依據「海豚俠」的特性「全能變身」的效果放置於場上。"
 		}
@@ -41,8 +41,8 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "ギガインパクト",
-			id: "Giga Impact",
+			'ja-jp': "ギガインパクト",
+			'id-id': "Giga Impact",
 			'zh-tw': "終極衝擊",
 			'zh-cn': "終極衝擊"
 		},
@@ -50,8 +50,8 @@ const card: Card = {
 		damage: 250,
 
 		effect: {
-			ja: "次の自分の番、このポケモンはワザが使えない。",
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan.",
+			'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan.",
 			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
 			'zh-cn': "在下個自己的回合，這隻寶可夢無法使用招式。"
 		}

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ライチュ",
+		'ja-jp': "ライチュ",
 	},
 
 	rarity: "Uncommon",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "サンダーショック",
+				'ja-jp': "サンダーショック",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Lightning", "Lightning", "Lightning"],
 			name: {
-				ja: "落雷",
+				'ja-jp': "落雷",
 			},
 			effect: {
-				ja: "Raichuに取り付けられたすべてのLightningエネルギーカードを捨てることができます。もしそうなら、この攻撃は80のダメージを与えます。",
+				'ja-jp': "Raichuに取り付けられたすべてのLightningエネルギーカードを捨てることができます。もしそうなら、この攻撃は80のダメージを与えます。",
 			},
 			damage: 40,
 		},

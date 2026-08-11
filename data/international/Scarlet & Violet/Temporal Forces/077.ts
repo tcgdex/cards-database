@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scream Tail",
-		fr: "Hurle-Queue",
-		es: "Colagrito",
-		it: "Codaurlante",
-		pt: "Cauda Brado",
-		de: "Brüllschweif"
+		'en-us': "Scream Tail",
+		'fr-fr': "Hurle-Queue",
+		'es-es': "Colagrito",
+		'it-it': "Codaurlante",
+		'pt-br': "Cauda Brado",
+		'de-de': "Brüllschweif"
 	},
 
 	rarity: "Uncommon",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Supportive Singing",
-			fr: "Chant Encourageant",
-			es: "Canto de Auxilio",
-			it: "Canto Solidale",
-			pt: "Canto Encorajador",
-			de: "Unterstützender Gesang"
+			'en-us': "Supportive Singing",
+			'fr-fr': "Chant Encourageant",
+			'es-es': "Canto de Auxilio",
+			'it-it': "Canto Solidale",
+			'pt-br': "Canto Encorajador",
+			'de-de': "Unterstützender Gesang"
 		},
 
 		effect: {
-			en: "Heal 100 damage from 1 of your Benched Ancient Pokémon.",
-			fr: "Soignez 100 dégâts de l'un de vos Pokémon Temps passé de Banc.",
-			es: "Cura 100 puntos de daño a uno de tus Pokémon del pasado en Banca.",
-			it: "Cura uno dei tuoi Pokémon Tempo Passato in panchina da 100 danni.",
-			pt: "Cure 100 pontos de dano de 1 dos seus Pokémon Ancestrais no Banco.",
-			de: "Heile 100 Schadenspunkte bei 1 Pokémon aus der Vergangenheit auf deiner Bank."
+			'en-us': "Heal 100 damage from 1 of your Benched Ancient Pokémon.",
+			'fr-fr': "Soignez 100 dégâts de l'un de vos Pokémon Temps passé de Banc.",
+			'es-es': "Cura 100 puntos de daño a uno de tus Pokémon del pasado en Banca.",
+			'it-it': "Cura uno dei tuoi Pokémon Tempo Passato in panchina da 100 danni.",
+			'pt-br': "Cure 100 pontos de dano de 1 dos seus Pokémon Ancestrais no Banco.",
+			'de-de': "Heile 100 Schadenspunkte bei 1 Pokémon aus der Vergangenheit auf deiner Bank."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Hyper Voice",
-			fr: "Mégaphone",
-			es: "Vozarrón",
-			it: "Granvoce",
-			pt: "Hipervoz",
-			de: "Schallwelle"
+			'en-us': "Hyper Voice",
+			'fr-fr': "Mégaphone",
+			'es-es': "Vozarrón",
+			'it-it': "Granvoce",
+			'pt-br': "Hipervoz",
+			'de-de': "Schallwelle"
 		},
 
 		damage: 40
@@ -71,7 +71,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "There has been only one reported sighting of this Pokémon. It resembles a mysterious creature depicted in an old expedition journal.",
+		'en-us': "There has been only one reported sighting of this Pokémon. It resembles a mysterious creature depicted in an old expedition journal.",
 	},
 
 	variants: [

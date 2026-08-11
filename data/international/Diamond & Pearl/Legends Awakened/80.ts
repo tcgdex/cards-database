@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Unown W",
-		fr: "Zarbi W",
-		de: "Icognito W"
+		'en-us': "Unown W",
+		'fr-fr': "Zarbi W",
+		'de-de': "Icognito W"
 	},
 
 	illustrator: "Kazuaki Aihara",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "WALL",
-				fr: "WALL",
-				de: "WALL"
+				'en-us': "WALL",
+				'fr-fr': "WALL",
+				'de-de': "WALL"
 			},
 			effect: {
-				en: "As long as Unown W is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 10 (after applying Weakness and Resistance).",
-				fr: "Tant que Zarbi V est votre Pokémon Actif, tous dégâts infligés à vos Pokémon par une attaque de votre adversaire sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
-				de: "Solange Icognito W dein Aktives Pokémon ist, wird Schaden, der deinen Pokémon durch gegnerische Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "As long as Unown W is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 10 (after applying Weakness and Resistance).",
+				'fr-fr': "Tant que Zarbi V est votre Pokémon Actif, tous dégâts infligés à vos Pokémon par une attaque de votre adversaire sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Solange Icognito W dein Aktives Pokémon ist, wird Schaden, der deinen Pokémon durch gegnerische Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hidden Power",
-				fr: "Puissance cachée",
-				de: "Kraftreserve"
+				'en-us': "Hidden Power",
+				'fr-fr': "Puissance cachée",
+				'de-de': "Kraftreserve"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Ziehe 1 Karte."
 			},
 			damage: 50,
 
@@ -73,8 +73,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Shaped like an ancient writing, it is a huge mystery whether language or Unown came first.",
-		fr: "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de ZARBI est apparu en premier."
+		'en-us': "Shaped like an ancient writing, it is a huge mystery whether language or Unown came first.",
+		'fr-fr': "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de ZARBI est apparu en premier."
 	},
 
 	variants: [

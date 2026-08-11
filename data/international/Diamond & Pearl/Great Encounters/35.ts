@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Combusken",
-		fr: "Galifeu",
-		de: "Jungglut"
+		'en-us': "Combusken",
+		'fr-fr': "Galifeu",
+		'de-de': "Jungglut"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Torchic",
-		fr: "Poussifeu",
+		'en-us': "Torchic",
+		'fr-fr': "Poussifeu",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Bulk Up",
-				fr: "Gonflette",
-				de: "Protzer"
+				'en-us': "Bulk Up",
+				'fr-fr': "Gonflette",
+				'de-de': "Protzer"
 			},
 			effect: {
-				en: "During your next turn, each of Combusken's attacks does 30 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
-				fr: "Lors de votre prochain tour, chacune des attaques de Galifeu inflige 30 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance).",
-				de: "In deinem nächsten Zug fügen Junggluts Angriffe dem Verteidigenden Pokémon 30 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "During your next turn, each of Combusken's attacks does 30 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Lors de votre prochain tour, chacune des attaques de Galifeu inflige 30 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "In deinem nächsten Zug fügen Junggluts Angriffe dem Verteidigenden Pokémon 30 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 			damage: 30,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Kick",
-				fr: "Double pied",
-				de: "Doppelkick"
+				'en-us': "Double Kick",
+				'fr-fr': "Double pied",
+				'de-de': "Doppelkick"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 50 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "50x",
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its kicking mastery lets it loose 10 kicks per second. It emits sharp cries to intimidate foes.",
+		'en-us': "Its kicking mastery lets it loose 10 kicks per second. It emits sharp cries to intimidate foes.",
 	},
 
 	thirdParty: {

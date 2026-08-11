@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hole-Digging Shovel",
-		fr: "Pelle à Creuser des Trous",
-		es: "Pala Cavahoyos",
+		'en-us': "Hole-Digging Shovel",
+		'fr-fr': "Pelle à Creuser des Trous",
+		'es-es': "Pala Cavahoyos",
 		'es-mx': "Pala Cavahoyos",
-		de: "Buddelschaufel",
-		it: "Pala Scavabuche",
-		pt: "Pá de Cavar"
+		'de-de': "Buddelschaufel",
+		'it-it': "Pala Scavabuche",
+		'pt-br': "Pá de Cavar"
 	},
 
 	illustrator: "Toyste Beach",
@@ -19,13 +19,13 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Discard the top 2 cards of your deck.",
-		fr: "Défaussez les 2 cartes du dessus de votre deck.",
-		es: "Descarta las 2 primeras cartas de tu baraja.",
+		'en-us': "Discard the top 2 cards of your deck.",
+		'fr-fr': "Défaussez les 2 cartes du dessus de votre deck.",
+		'es-es': "Descarta las 2 primeras cartas de tu baraja.",
 		'es-mx': "Descarta las primeras 2 cartas de tu mazo.",
-		de: "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel.",
-		it: "Scarta le prime due carte del tuo mazzo.",
-		pt: "Descarte as 2 cartas de cima do seu baralho."
+		'de-de': "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel.",
+		'it-it': "Scarta le prime due carte del tuo mazzo.",
+		'pt-br': "Descarte as 2 cartas de cima do seu baralho."
 	},
 
 	trainerType: "Item",

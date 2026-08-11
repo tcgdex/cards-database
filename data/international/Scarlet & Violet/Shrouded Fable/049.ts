@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Shrouded Fable"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Persian",
-		fr: "Persian",
-		es: "Persian",
-		it: "Persian",
-		pt: "Persian",
-		de: "Snobilikat"
+		'en-us': "Persian",
+		'fr-fr': "Persian",
+		'es-es': "Persian",
+		'it-it': "Persian",
+		'pt-br': "Persian",
+		'de-de': "Snobilikat"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Meowth",
-		fr: "Miaouss",
-		es: "Meowth",
-		it: "Meowth",
-		pt: "Meowth",
-		de: "Mauzi"
+		'en-us': "Meowth",
+		'fr-fr': "Miaouss",
+		'es-es': "Meowth",
+		'it-it': "Meowth",
+		'pt-br': "Meowth",
+		'de-de': "Mauzi"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Fury Swipes",
-			fr: "Combo-Griffe",
-			es: "Golpes Furia",
-			it: "Sfuriate",
-			pt: "Golpes de Fúria",
-			de: "Kratzfurie"
+			'en-us': "Fury Swipes",
+			'fr-fr': "Combo-Griffe",
+			'es-es': "Golpes Furia",
+			'it-it': "Sfuriate",
+			'pt-br': "Golpes de Fúria",
+			'de-de': "Kratzfurie"
 		},
 
 		effect: {
-			en: "Flip 3 coins. This attack does 50 damage for each heads.",
-			fr: "Lancez 3 pièces. Cette attaque inflige 50 dégâts pour chaque côté face.",
-			es: "Lanza 3 monedas. Este ataque hace 50 puntos de daño por cada cara.",
-			it: "Lancia tre volte una moneta. Questo attacco infligge 50 danni ogni volta che esce testa.",
-			pt: "Jogue 3 moedas. Este ataque causa 50 pontos de dano para cada cara.",
-			de: "Wirf 3 Münzen. Diese Attacke fügt 50 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip 3 coins. This attack does 50 damage for each heads.",
+			'fr-fr': "Lancez 3 pièces. Cette attaque inflige 50 dégâts pour chaque côté face.",
+			'es-es': "Lanza 3 monedas. Este ataque hace 50 puntos de daño por cada cara.",
+			'it-it': "Lancia tre volte una moneta. Questo attacco infligge 50 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 3 moedas. Este ataque causa 50 pontos de dano para cada cara.",
+			'de-de': "Wirf 3 Münzen. Diese Attacke fügt 50 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "50×"
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Slashing Claw",
-			fr: "Griffe Taillante",
-			es: "Garra Cuchillazo",
-			it: "Artigli Laceranti",
-			pt: "Garra Cortadora",
-			de: "Schlitzende Klaue"
+			'en-us': "Slashing Claw",
+			'fr-fr': "Griffe Taillante",
+			'es-es': "Garra Cuchillazo",
+			'it-it': "Artigli Laceranti",
+			'pt-br': "Garra Cortadora",
+			'de-de': "Schlitzende Klaue"
 		},
 
 		damage: 100

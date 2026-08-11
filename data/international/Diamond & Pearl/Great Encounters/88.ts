@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Togepi",
-		fr: "Togepi",
-		de: "Togepi"
+		'en-us': "Togepi",
+		'fr-fr': "Togepi",
+		'de-de': "Togepi"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Yawn",
-				fr: "Baillement",
-				de: "Gähnen"
+				'en-us': "Yawn",
+				'fr-fr': "Baillement",
+				'de-de': "Gähnen"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Find a friend",
-				fr: "Trouver un ami",
-				de: "Freunde finden"
+				'en-us': "Find a friend",
+				'fr-fr': "Trouver un ami",
+				'de-de': "Freunde finden"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your deck for a Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, choisissez un Pokémon dans votre deck, montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" durchsuche dein Deck nach einer Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+				'en-us': "Flip a coin. If heads, search your deck for a Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Lancez une pièce. Si c'est face, choisissez un Pokémon dans votre deck, montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" durchsuche dein Deck nach einer Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its shell is said to be stuffed with happiness that it shares with kindhearted people.",
+		'en-us': "Its shell is said to be stuffed with happiness that it shares with kindhearted people.",
 	},
 
 	thirdParty: {

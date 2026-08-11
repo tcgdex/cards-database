@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Drapion E4",
-		fr: "Drascore  Niv. 53",
-		de: "Piondragi 4"
+		'en-us': "Drapion E4",
+		'fr-fr': "Drascore  Niv. 53",
+		'de-de': "Piondragi 4"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -28,14 +28,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam",
-				fr: "Plaquage",
-				de: "Bodyslam"
+				'en-us': "Body Slam",
+				'fr-fr': "Plaquage",
+				'de-de': "Bodyslam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Impact",
-				fr: "Méga impact",
-				de: "Mega Einschlag"
+				'en-us': "Mega Impact",
+				'fr-fr': "Méga impact",
+				'de-de': "Mega Einschlag"
 			},
 
 			damage: 70,

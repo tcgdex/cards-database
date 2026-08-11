@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コアメモリ",
+		'ja-jp': "コアメモリ",
 	},
 
 	illustrator: "Toyste Beach",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけている「メガジガルデex」は、このカードに書かれているワザを使える。［ワザを使うためのエネルギーは必要。］",
+		'ja-jp': "このカードをつけている「メガジガルデex」は、このカードに書かれているワザを使える。［ワザを使うためのエネルギーは必要。］",
 	},
 
 	variants: [{"type": "normal"}],

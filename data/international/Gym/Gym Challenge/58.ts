@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Kadabra"
+		'en-us': "Sabrina's Kadabra"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Abra"
+		'en-us': "Abra"
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Life Drain"
+				'en-us': "Life Drain"
 			},
 			effect: {
-				en: "Flip a coin. If heads, put a number of damage counters on the Defending Pokémon so that its remaining HP are 10."
+				'en-us': "Flip a coin. If heads, put a number of damage counters on the Defending Pokémon so that its remaining HP are 10."
 			},
 
 		},
@@ -45,7 +45,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psyshot"
+				'en-us': "Psyshot"
 			},
 
 			damage: 30,

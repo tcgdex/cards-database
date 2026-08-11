@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マンティン",
+		'ja-jp': "マンティン",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "波紋",
+				'ja-jp': "波紋",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前）に一度、Pokã©Mon（マンティンを除く）の1つから1つのダメージカウンターを削除できます。マンチンが特別な状態の影響を受けている場合、この力は使用できません。",
+				'ja-jp': "ターン中（攻撃の前）に一度、Pokã©Mon（マンティンを除く）の1つから1つのダメージカウンターを削除できます。マンチンが特別な状態の影響を受けている場合、この力は使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "アクアスラッシュ",
+				'ja-jp': "アクアスラッシュ",
 			},
 			effect: {
-				ja: "マンティンは次のターン中に攻撃することはできません。",
+				'ja-jp': "マンティンは次のターン中に攻撃することはできません。",
 			},
 			damage: 30,
 		},

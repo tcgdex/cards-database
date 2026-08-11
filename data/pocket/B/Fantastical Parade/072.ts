@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [711],
 
 	name: {
-		en: "Gourgeist"
+		'en-us': "Gourgeist"
 	},
 
 	illustrator: "kirisAki",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Pumpkaboo"
+		'en-us': "Pumpkaboo"
 	},
 
 	description: {
-		en: "In the darkness of a new-moon night, Gourgeist\nwill come knocking. Whoever answers the door\nwill be swept off to the afterlife."
+		'en-us': "In the darkness of a new-moon night, Gourgeist\nwill come knocking. Whoever answers the door\nwill be swept off to the afterlife."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Soul Shot"
+			'en-us': "Soul Shot"
 		},
 
 		damage: 70,
 		cost: ["Psychic"],
 
 		effect: {
-			en: "Discard a card from your hand. If you can't, this attack does nothing."
+			'en-us': "Discard a card from your hand. If you can't, this attack does nothing."
 		}
 	}],
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Caninos",
-		en: "Growlithe",
-		es: "Growlithe",
-		it: "Growlithe",
-		pt: "Growlithe",
-		de: "Fukano"
+		'fr-fr': "Caninos",
+		'en-us': "Growlithe",
+		'es-es': "Growlithe",
+		'it-it': "Growlithe",
+		'pt-br': "Growlithe",
+		'de-de': "Fukano"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			fr: "Évaporation",
-			en: "Vaporize",
-			es: "Vaporizar",
-			it: "Vaporizzare",
-			pt: "Evaporar",
-			de: "Vaporisieren"
+			'fr-fr': "Évaporation",
+			'en-us': "Vaporize",
+			'es-es': "Vaporizar",
+			'it-it': "Vaporizzare",
+			'pt-br': "Evaporar",
+			'de-de': "Vaporisieren"
 		},
 
 		effect: {
-			fr: "Défaussez une Énergie {W} du Pokémon Actif de votre adversaire.",
-			en: "Discard a {W} Energy from your opponent's Active Pokémon.",
-			es: "Descarta 1 Energía {W} del Pokémon Activo de tu rival.",
-			it: "Scarta un'Energia {W} dal Pokémon attivo del tuo avversario.",
-			pt: "Descarte uma Energia {W} do Pokémon Ativo do seu oponente.",
-			de: "Lege 1 {W}-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+			'fr-fr': "Défaussez une Énergie {W} du Pokémon Actif de votre adversaire.",
+			'en-us': "Discard a {W} Energy from your opponent's Active Pokémon.",
+			'es-es': "Descarta 1 Energía {W} del Pokémon Activo de tu rival.",
+			'it-it': "Scarta un'Energia {W} dal Pokémon attivo del tuo avversario.",
+			'pt-br': "Descarte uma Energia {W} do Pokémon Ativo do seu oponente.",
+			'de-de': "Lege 1 {W}-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 10
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.",
+		'en-us': "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.",
 	},
 
 	variants: [

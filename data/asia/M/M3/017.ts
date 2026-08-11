@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バクガメス",
+		'ja-jp': "バクガメス",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "爆薬で コーティングされた  甲羅を 背負う。 攻撃してきた  敵を 大爆発で 返り討ち。",
+		'ja-jp': "爆薬で コーティングされた  甲羅を 背負う。 攻撃してきた  敵を 大爆発で 返り討ち。",
 	},
 
 	stage: "Basic",

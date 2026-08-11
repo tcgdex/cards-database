@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Magcargo",
-		fr: "Volcaropod",
-		de: "Magcargo"
+		'en-us': "Magcargo",
+		'fr-fr': "Volcaropod",
+		'de-de': "Magcargo"
 	},
 
 	illustrator: "Aya Kusube",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Slugma",
-		fr: "Limagma"
+		'en-us': "Slugma",
+		'fr-fr': "Limagma"
 	},
 
 	stage: "Stage1",
@@ -36,9 +36,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Headbutt"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Headbutt"
 			},
 
 			damage: 20,
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Burning Ball",
-				fr: "Boule brûlante",
-				de: "Burning Ball"
+				'en-us': "Burning Ball",
+				'fr-fr': "Boule brûlante",
+				'de-de': "Burning Ball"
 			},
 			effect: {
-				en: "If Magcargo has at least 2 Fire Energy attached to it, the Defending Pokémon is now Burned.",
-				fr: "Si Volcaropod possède au moins 2 Énergies , le Pokémon Défenseur est maintenant Brûlé.",
-				de: "If Magcargo has at least 2  Energy attached to it, the Defending Pokémon is now Burned."
+				'en-us': "If Magcargo has at least 2 Fire Energy attached to it, the Defending Pokémon is now Burned.",
+				'fr-fr': "Si Volcaropod possède au moins 2 Énergies , le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "If Magcargo has at least 2  Energy attached to it, the Defending Pokémon is now Burned."
 			},
 			damage: 50,
 

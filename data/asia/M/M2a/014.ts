@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イワパレス",
+		'ja-jp': "イワパレス",
 	},
 
 	illustrator: "Po-Suzuki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "太い ツメが 最大の 武器。 ドサイドンの プロテクターにさえ ひびを 入れるほど 硬いぞ。",
+		'ja-jp': "太い ツメが 最大の 武器。 ドサイドンの プロテクターにさえ ひびを 入れるほど 硬いぞ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "しんぴのいしやど" },
 			effect: {
-				ja: "このポケモンは、相手の「ポケモンex」からワザのダメージを受けない。",
+				'ja-jp': "このポケモンは、相手の「ポケモンex」からワザのダメージを受けない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 	],
@@ -65,7 +65,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イシズマイ",
+		'ja-jp': "イシズマイ",
 	},
 
 	retreat: 3,

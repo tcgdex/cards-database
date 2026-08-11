@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アブソル",
+		'ja-jp': "アブソル",
 	},
 
 	illustrator: "nagimiso",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "災いを もたらすと いわれるが 実際には おだやかな 性質。 災害の 危機を 人に 伝える。",
+		'ja-jp': "災いを もたらすと いわれるが 実際には おだやかな 性質。 災害の 危機を 人に 伝える。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "あくのはき" },
 			effect: {
-				ja: "このポケモンがいるかぎり、相手のバトル場のたねポケモンのにげるためのエネルギーは、1個ぶん多くなる。",
+				'ja-jp': "このポケモンがいるかぎり、相手のバトル場のたねポケモンのにげるためのエネルギーは、1個ぶん多くなる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンのにげるためのエネルギーの数x30ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンのにげるためのエネルギーの数x30ダメージ追加。",
 			},
 		},
 	],

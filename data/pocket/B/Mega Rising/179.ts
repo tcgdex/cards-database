@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Goodra"
+		'en-us': "Goodra"
 	},
 
 	illustrator: "Nagomi Nijo",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Dragon"],
 
 	evolveFrom: {
-		en: "Sliggoo"
+		'en-us': "Sliggoo"
 	},
 
 	description: {
-		en: "This Pokémon is uncontrollable when enraged.\nIt rampages on and on, lashing its tail with\nenough power to send a dump truck flying."
+		'en-us': "This Pokémon is uncontrollable when enraged.\nIt rampages on and on, lashing its tail with\nenough power to send a dump truck flying."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Spiral Drain"
+			'en-us': "Spiral Drain"
 		},
 
 		damage: 100,
 		cost: ["Water", "Psychic", "Colorless"],
 
 		effect: {
-			en: "Heal 40 damage from this Pokémon."
+			'en-us': "Heal 40 damage from this Pokémon."
 		}
 	}],
 

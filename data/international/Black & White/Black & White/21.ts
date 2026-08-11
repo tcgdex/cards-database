@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Pansear",
-		fr: "Flamajou",
-		es: "Pansear",
-		it: "Pansear",
-		pt: "Pansear",
-		de: "Grillmak"
+		'en-us': "Pansear",
+		'fr-fr': "Flamajou",
+		'es-es': "Pansear",
+		'it-it': "Pansear",
+		'pt-br': "Pansear",
+		'de-de': "Grillmak"
 	},
 
 	illustrator: "match",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
 			},
 
 			damage: 10,
@@ -48,8 +48,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Live Coal",
-				fr: "Charbon Mutant",
+				'en-us': "Live Coal",
+				'fr-fr': "Charbon Mutant",
 			},
 
 			damage: 30,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it is angered, the temperature of its head tuft reaches 600° F. It uses its tuft to roast berries.",
+		'en-us': "When it is angered, the temperature of its head tuft reaches 600° F. It uses its tuft to roast berries.",
 	},
 
 	thirdParty: {

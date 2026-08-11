@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
@@ -16,7 +16,7 @@ const card: Card = {
     types: ["Lightning"],
 
 	evolveFrom: {
-		fr: "Pikachu"
+		'fr-fr': "Pikachu"
 	},
     stage: "Stage1",
     retreat: 2,

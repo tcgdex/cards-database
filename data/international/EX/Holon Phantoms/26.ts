@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Rayquaza δ",
-		fr: "Rayquaza δ",
-		de: "Rayquaza"
+		'en-us': "Rayquaza δ",
+		'fr-fr': "Rayquaza δ",
+		'de-de': "Rayquaza"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Outrage",
-				fr: "Colère",
-				de: "Wutanfall"
+				'en-us': "Outrage",
+				'fr-fr': "Colère",
+				'de-de': "Wutanfall"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing. If heads, this attack does 10 damage plus 10 more damage for each damage counter on Rayquaza.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Rayquaza.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus weitere 10 Schadenspunkte mal der Anzahl Schadensmarken auf Rayquaza zu."
+				'en-us': "Flip a coin. If tails, this attack does nothing. If heads, this attack does 10 damage plus 10 more damage for each damage counter on Rayquaza.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Rayquaza.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus weitere 10 Schadenspunkte mal der Anzahl Schadensmarken auf Rayquaza zu."
 			},
 			damage: "10+",
 
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-flamme",
-				de: "Flammenwurf"
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-flamme",
+				'de-de': "Flammenwurf"
 			},
 			effect: {
-				en: "Discard 1 Fire Energy attached to Rayquaza.",
-				fr: "Défaussez 1 Énergie  attachée à Rayquaza.",
-				de: "Lege 1 an Rayquaza angelegte -Energie auf deinen Ablagestapel."
+				'en-us': "Discard 1 Fire Energy attached to Rayquaza.",
+				'fr-fr': "Défaussez 1 Énergie  attachée à Rayquaza.",
+				'de-de': "Lege 1 an Rayquaza angelegte -Energie auf deinen Ablagestapel."
 			},
 			damage: 40,
 

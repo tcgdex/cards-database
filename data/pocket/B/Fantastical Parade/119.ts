@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [680],
 
 	name: {
-		en: "Doublade"
+		'en-us': "Doublade"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Honedge"
+		'en-us': "Honedge"
 	},
 
 	description: {
-		en: "The two swords employ a strategy of rapidly\nalternating between offense and defense to\nbring down their prey."
+		'en-us': "The two swords employ a strategy of rapidly\nalternating between offense and defense to\nbring down their prey."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Dual Blades"
+			'en-us': "Dual Blades"
 		},
 
 		damage: 40,
 		cost: ["Metal", "Metal"],
 
 		effect: {
-			en: "Flip 2 coins. This attack does 40 damage for each heads."
+			'en-us': "Flip 2 coins. This attack does 40 damage for each heads."
 		}
 	}],
 

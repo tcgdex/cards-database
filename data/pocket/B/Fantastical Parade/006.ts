@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [331],
 
 	name: {
-		en: "Cacnea"
+		'en-us': "Cacnea"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "It lives in arid locations. Its yellow flowers bloom\nonce a year."
+		'en-us': "It lives in arid locations. Its yellow flowers bloom\nonce a year."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Corkscrew Punch"
+			'en-us': "Corkscrew Punch"
 		},
 
 		damage: 30,

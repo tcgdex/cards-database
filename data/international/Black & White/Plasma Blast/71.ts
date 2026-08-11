@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Kangaskhan",
-		fr: "Kangourex",
-		es: "Kangaskhan",
-		it: "Kangaskhan",
-		pt: "Kangaskhan",
-		de: "Kangama"
+		'en-us': "Kangaskhan",
+		'fr-fr': "Kangourex",
+		'es-es': "Kangaskhan",
+		'it-it': "Kangaskhan",
+		'pt-br': "Kangaskhan",
+		'de-de': "Kangama"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la Famille",
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la Famille",
 			},
 			effect: {
-				en: "Search your deck for 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez 2 Pokémon de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez 2 Pokémon de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Comet Punch",
-				fr: "Poing Comète",
+				'en-us': "Comet Punch",
+				'fr-fr': "Poing Comète",
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 4 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 20,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It raises its offspring in its belly pouch. It lets the baby play only when it feels safe.",
+		'en-us': "It raises its offspring in its belly pouch. It lets the baby play only when it feels safe.",
 	},
 
 	thirdParty: {

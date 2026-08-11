@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "電擊獸",
-		ja: "エレブー"
+		'ja-jp': "エレブー"
 	},
 
 	illustrator: "OKACHEKE",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "很多發電廠會用地面屬性的寶可夢當守衛，藉以對抗 想伺機偷吃電力的電擊獸。",
-		ja: "電気を 狙う エレブーの 対策に じめんポケモンを 置く 発電所は 多い。"
+		'ja-jp': "電気を 狙う エレブーの 対策に じめんポケモンを 置く 発電所は 多い。"
 	},
 
 	stage: "Basic",
@@ -24,19 +24,19 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "電磁波",
-			ja: "でんじは"
+			'ja-jp': "でんじは"
 		},
 
 		effect: {
 			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。",
-			ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。"
+			'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。"
 		},
 
 		cost: ["Lightning"]
 	}, {
 		name: {
 			'zh-tw': "伏特頭擊",
-			ja: "ヘッドボルト"
+			'ja-jp': "ヘッドボルト"
 		},
 
 		damage: 30,

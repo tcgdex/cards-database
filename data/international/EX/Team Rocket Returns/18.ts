@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Dark Sandslash",
-		de: "Dunkles Sandamer"
+		'en-us': "Dark Sandslash",
+		'de-de': "Dunkles Sandamer"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sandshrew",
+		'en-us': "Sandshrew",
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Poison Payback",
-				de: "Poison Payback"
+				'en-us': "Poison Payback",
+				'de-de': "Poison Payback"
 			},
 			effect: {
-				en: "If Dark Sandslash is your Active Pokémon and is damaged by an opponent's attack (even if Dark Sandslash is Knocked Out), the Attacking Pokémon is now Poisoned.",
-				de: "If Dark Sandslash is your Active Pokémon and is damaged by an opponent's attack (even if Dark Sandslash is Knocked Out), the Attacking Pokémon is now Poisoned."
+				'en-us': "If Dark Sandslash is your Active Pokémon and is damaged by an opponent's attack (even if Dark Sandslash is Knocked Out), the Attacking Pokémon is now Poisoned.",
+				'de-de': "If Dark Sandslash is your Active Pokémon and is damaged by an opponent's attack (even if Dark Sandslash is Knocked Out), the Attacking Pokémon is now Poisoned."
 			},
 		},
 	],
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swift",
-				de: "Swift"
+				'en-us': "Swift",
+				'de-de': "Swift"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				de: "This attack's damage isn't affected by Weakness, resistance, Poke-Pwers, Poke-Bodies, or any other effects on the Defending Pokémon."
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'de-de': "This attack's damage isn't affected by Weakness, resistance, Poke-Pwers, Poke-Bodies, or any other effects on the Defending Pokémon."
 			},
 			damage: 50,
 

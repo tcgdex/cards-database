@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホエルオー",
+		'ja-jp': "ホエルオー",
 		'zh-tw': "吼鯨王",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "大きな 体を 波の上で ジャンプさせ 衝撃を 生みだし 相手を 気絶 させることがある。",
+		'ja-jp': "大きな 体を 波の上で ジャンプさせ 衝撃を 生みだし 相手を 気絶 させることがある。",
 		'zh-tw': "有時會讓大大的身體在波浪上跳躍，藉此 製造出衝擊讓對手昏迷。",
 	},
 
@@ -24,11 +24,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ジャンボサイズ",
+				'ja-jp': "ジャンボサイズ",
 				'zh-tw': "超大尺寸",
 			},
 			effect: {
-				ja: "このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "このポケモンが受けるワザのダメージは「-30」される。",
 				'zh-tw': "這隻寶可夢受到招式的傷害「-30」點。",
 			},
 		},
@@ -37,13 +37,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "スペシャルウェーブ",
+				'ja-jp': "スペシャルウェーブ",
 				'zh-tw': "特殊波",
 			},
 			damage: "120+",
 			cost: ["Water", "Water", "Water", "Colorless"],
 			effect: {
-				ja: "このポケモンに特殊エネルギーがついているなら、120ダメージ追加。",
+				'ja-jp': "このポケモンに特殊エネルギーがついているなら、120ダメージ追加。",
 				'zh-tw': "若這隻寶可夢身上附有特殊能量，則增加120點傷害。",
 			},
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ホエルコ",
+		'ja-jp': "ホエルコ",
 	},
 
 	retreat: 4,

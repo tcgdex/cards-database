@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Tangrowth",
+		'en-us': "Tangrowth",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tangela",
+		'en-us': "Tangela",
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Bind Down",
+				'en-us': "Bind Down",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
 			},
 			damage: 30,
 
@@ -49,10 +49,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flog",
+				'en-us': "Flog",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
 			},
 			damage: 60,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Even if one of its arms is eaten, it's fine. The Pokémon regenerates quickly and will go right back to normal.",
+		'en-us': "Even if one of its arms is eaten, it's fine. The Pokémon regenerates quickly and will go right back to normal.",
 	},
 
 	thirdParty: {

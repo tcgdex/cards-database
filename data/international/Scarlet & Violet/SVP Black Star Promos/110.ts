@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Darkrai ex",
-		fr: "Darkrai-ex",
-		es: "Darkrai ex",
-		it: "Darkrai-ex",
-		pt: "Darkrai ex",
-		de: "Darkrai-ex"
+		'en-us': "Darkrai ex",
+		'fr-fr': "Darkrai-ex",
+		'es-es': "Darkrai ex",
+		'it-it': "Darkrai-ex",
+		'pt-br': "Darkrai ex",
+		'de-de': "Darkrai-ex"
 	},
 
 	rarity: "Promo",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Wind of Darkness",
-			fr: "Vent Obscur",
-			es: "Viento de Oscuridad",
-			it: "Vento dell'Oscurità",
-			pt: "Vento da Escuridão",
-			de: "Wind der Finsternis"
+			'en-us': "Wind of Darkness",
+			'fr-fr': "Vent Obscur",
+			'es-es': "Viento de Oscuridad",
+			'it-it': "Vento dell'Oscurità",
+			'pt-br': "Vento da Escuridão",
+			'de-de': "Wind der Finsternis"
 		},
 
 		damage: 40
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Night Impact",
-			fr: "Impact Nocturne",
-			es: "Impacto Nocturno",
-			it: "Impatto Notturno",
-			pt: "Impacto Noturno",
-			de: "Nachteinschlag"
+			'en-us': "Night Impact",
+			'fr-fr': "Impact Nocturne",
+			'es-es': "Impacto Nocturno",
+			'it-it': "Impatto Notturno",
+			'pt-br': "Impacto Noturno",
+			'de-de': "Nachteinschlag"
 		},
 
 		damage: 110

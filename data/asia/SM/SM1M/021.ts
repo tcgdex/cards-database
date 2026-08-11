@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トゲデマル",
+		'ja-jp': "トゲデマル",
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "背中の 長い 毛は 導雷針。 落雷を 引き寄せ 雷を 浴びると 電気袋に 溜め込む。",
+		'ja-jp': "背中の 長い 毛は 導雷針。 落雷を 引き寄せ 雷を 浴びると 電気袋に 溜め込む。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "まるくなる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。",
+				'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Lightning"],
 			effect: {
-				ja: "このポケモンについている[雷]エネルギーをすべてトラッシュし、その枚数x30ダメージ。",
+				'ja-jp': "このポケモンについている[雷]エネルギーをすべてトラッシュし、その枚数x30ダメージ。",
 			},
 		},
 	],

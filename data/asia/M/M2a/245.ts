@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダイゴのメタグロスex",
+		'ja-jp': "ダイゴのメタグロスex",
 	},
 
 	illustrator: "chibi",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "エクスブート" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札から「基本[P]エネルギー」と「基本[M]エネルギー」をそれぞれ1枚まで選び、自分の[P]または[M]ポケモンに好きなようにつける。そして山札を切る。",
+				'ja-jp': "自分の番に1回使える。自分の山札から「基本[P]エネルギー」と「基本[M]エネルギー」をそれぞれ1枚まで選び、自分の[P]または[M]ポケモンに好きなようにつける。そして山札を切る。",
 			},
 		},
 	],
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ダイゴのメタング",
+		'ja-jp': "ダイゴのメタング",
 	},
 
 	retreat: 3,

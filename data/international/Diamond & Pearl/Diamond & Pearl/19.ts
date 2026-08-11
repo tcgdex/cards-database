@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Beautifly",
-		fr: "Charmillon",
-		de: "Papinella"
+		'en-us': "Beautifly",
+		'fr-fr': "Charmillon",
+		'de-de': "Papinella"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Silcoon",
-		fr: "Armulys",
+		'en-us': "Silcoon",
+		'fr-fr': "Armulys",
 	},
 
 	stage: "Stage2",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlwind",
-				fr: "Cyclone",
-				de: "Wirbelwind"
+				'en-us': "Whirlwind",
+				'fr-fr': "Cyclone",
+				'de-de': "Wirbelwind"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
-				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
+				'de-de': "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 30,
 
@@ -57,14 +57,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giga Drain",
-				fr: "Giga-sangsue",
-				de: "Gigasauger"
+				'en-us': "Giga Drain",
+				'fr-fr': "Giga-sangsue",
+				'de-de': "Gigasauger"
 			},
 			effect: {
-				en: "After your attack, remove from Beautifly the number of damage counters equal to the damage you did to the Defending Pokémon.",
-				fr: "Après votre attaque, retirez à Charmillon autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur.",
-				de: "Entferne nach deinem Angriff Schadensmarken von Papinella entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon zugefügt wurden."
+				'en-us': "After your attack, remove from Beautifly the number of damage counters equal to the damage you did to the Defending Pokémon.",
+				'fr-fr': "Après votre attaque, retirez à Charmillon autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur.",
+				'de-de': "Entferne nach deinem Angriff Schadensmarken von Papinella entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon zugefügt wurden."
 			},
 			damage: 50,
 
@@ -88,8 +88,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has an aggressive nature. It stabs prey with its long, narrow mouth to drain the prey's fluids.",
-		fr: "Il est très agressif. Il pique sa proie avec son long museau étroit et absorbe sa vitalité."
+		'en-us': "It has an aggressive nature. It stabs prey with its long, narrow mouth to drain the prey's fluids.",
+		'fr-fr': "Il est très agressif. Il pique sa proie avec son long museau étroit et absorbe sa vitalité."
 	},
 
 	thirdParty: {

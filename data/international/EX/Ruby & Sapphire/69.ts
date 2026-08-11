@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Shroomish",
-		fr: "Balignon",
-		de: "Knilz"
+		'en-us': "Shroomish",
+		'fr-fr': "Balignon",
+		'de-de': "Knilz"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleep Powder",
-				fr: "Poudre dodo",
-				de: "Sleep Powder"
+				'en-us': "Sleep Powder",
+				'fr-fr': "Poudre dodo",
+				'de-de': "Sleep Powder"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 

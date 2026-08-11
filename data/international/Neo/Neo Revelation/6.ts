@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Entei",
-		fr: "Entei",
-		de: "Entei"
+		'en-us': "Entei",
+		'fr-fr': "Entei",
+		'de-de': "Entei"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Howl",
-				fr: "Aboiement",
-				de: "Gebrüll"
+				'en-us': "Howl",
+				'fr-fr': "Aboiement",
+				'de-de': "Gebrüll"
 			},
 			effect: {
-				en: "When you play Entei from your hand, you may discard the top 5 cards from your deck. (if you have fewer cards in your deck than that, discard all of them.) If any of those are Fire Energy cards, attach them to any of your Fire Pokémon of your choice. Using this power ends your turn.",
-				fr: "Lorsque vous jouez Entei depuis votre main, vous pouvez défausser les 5 cartes du dessus de votre deck. (Si vous avez moins de 5 cartes dans votre deck, défaussez-les toutes). Si certaines de ces cartes sont des cartes Énergie , attachez-les à l'un des Pokémon  de votre choix. Utiliser ce pouvoir termine votre tour.",
-				de: "Wenn du Entei aus deiner Hand ausspielst, kannst du die obersten 5 Karten deines Decks auf deinen Ablagestapel legen. (Wenn weniger Karten Karten in deinem Deck sind, müsstest du alle ablegen). Wenn unter diesen Karten -Energiekarten sind, lege diese an beliebig viele deiner -Pokémon deiner deiner Wahl an. Wenn du diese Fähigkeit anwendest, ist dein Zug danach vorbei."
+				'en-us': "When you play Entei from your hand, you may discard the top 5 cards from your deck. (if you have fewer cards in your deck than that, discard all of them.) If any of those are Fire Energy cards, attach them to any of your Fire Pokémon of your choice. Using this power ends your turn.",
+				'fr-fr': "Lorsque vous jouez Entei depuis votre main, vous pouvez défausser les 5 cartes du dessus de votre deck. (Si vous avez moins de 5 cartes dans votre deck, défaussez-les toutes). Si certaines de ces cartes sont des cartes Énergie , attachez-les à l'un des Pokémon  de votre choix. Utiliser ce pouvoir termine votre tour.",
+				'de-de': "Wenn du Entei aus deiner Hand ausspielst, kannst du die obersten 5 Karten deines Decks auf deinen Ablagestapel legen. (Wenn weniger Karten Karten in deinem Deck sind, müsstest du alle ablegen). Wenn unter diesen Karten -Energiekarten sind, lege diese an beliebig viele deiner -Pokémon deiner deiner Wahl an. Wenn du diese Fähigkeit anwendest, ist dein Zug danach vorbei."
 			},
 		},
 	],
@@ -49,14 +49,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Searing Flames",
-				fr: "Flammes calcinantes",
-				de: "Sengende Flammen"
+				'en-us': "Searing Flames",
+				'fr-fr': "Flammes calcinantes",
+				'de-de': "Sengende Flammen"
 			},
 			effect: {
-				en: "Discard 2 Energy cards attached to Entei or this attack does nothing.",
-				fr: "Défaussez 2 cartes Énergie  attachées à Entei pour utiliser cette attaque.",
-				de: "Lege 2 an Entei angelegte -Energiekarten auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkungen."
+				'en-us': "Discard 2 Energy cards attached to Entei or this attack does nothing.",
+				'fr-fr': "Défaussez 2 cartes Énergie  attachées à Entei pour utiliser cette attaque.",
+				'de-de': "Lege 2 an Entei angelegte -Energiekarten auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkungen."
 			},
 			damage: 60,
 
@@ -73,8 +73,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Volcanoes erupt when it barks. Unable to restrain its extreme power, it races headlong around the land.",
-		fr: "Son cri déclenche des éruptions volcaniques. Incapable de contrôler son extrême puissance, il fonce tête baissée dans tout le pays."
+		'en-us': "Volcanoes erupt when it barks. Unable to restrain its extreme power, it races headlong around the land.",
+		'fr-fr': "Son cri déclenche des éruptions volcaniques. Incapable de contrôler son extrême puissance, il fonce tête baissée dans tout le pays."
 	},
 
 

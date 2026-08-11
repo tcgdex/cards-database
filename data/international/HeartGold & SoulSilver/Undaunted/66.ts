@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Slowpoke",
-		fr: "Ramoloss",
-		de: "Flegmon"
+		'en-us': "Slowpoke",
+		'fr-fr': "Ramoloss",
+		'de-de': "Flegmon"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rambunctious Party",
-				fr: "Méga-boum",
-				de: "Wilde Party"
+				'en-us': "Rambunctious Party",
+				'fr-fr': "Méga-boum",
+				'de-de': "Wilde Party"
 			},
 			effect: {
-				en: "Look at the top 5 cards of your deck. Choose as many Basic Pokémon as you like and put them onto your Bench. Shuffle the other cards back into your deck.",
-				fr: "Regardez les 5 cartes du dessus de votre deck. Choisissez autant de Pokémon de base que vous le voulez et placez-les sur votre Banc. Mélangez les autres cartes avec votre deck.",
-				de: "Schau dir die obersten 5 Karten deines Decks an. Wähle beliebig viele Basis-Pokémon-Karten und lege sie auf die Bank. Misch dein Deck anschließend."
+				'en-us': "Look at the top 5 cards of your deck. Choose as many Basic Pokémon as you like and put them onto your Bench. Shuffle the other cards back into your deck.",
+				'fr-fr': "Regardez les 5 cartes du dessus de votre deck. Choisissez autant de Pokémon de base que vous le voulez et placez-les sur votre Banc. Mélangez les autres cartes avec votre deck.",
+				'de-de': "Schau dir die obersten 5 Karten deines Decks an. Wähle beliebig viele Basis-Pokémon-Karten und lege sie auf die Bank. Misch dein Deck anschließend."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rain Splash",
-				fr: "Pluie éclaboussante",
-				de: "Regenplatscher"
+				'en-us': "Rain Splash",
+				'fr-fr': "Pluie éclaboussante",
+				'de-de': "Regenplatscher"
 			},
 
 			damage: 20,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A sweet sap leaks from its tail’s tip. Although not nutritious, the tail is pleasant to chew on."
+		'en-us': "A sweet sap leaks from its tail’s tip. Although not nutritious, the tail is pleasant to chew on."
 	},
 
 	variants: [

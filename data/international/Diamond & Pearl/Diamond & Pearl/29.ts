@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Hippowdon",
-		fr: "Hippodocus",
-		de: "Hippoterus"
+		'en-us': "Hippowdon",
+		'fr-fr': "Hippodocus",
+		'de-de': "Hippoterus"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Hippopotas",
-		fr: "Hippopotas",
+		'en-us': "Hippopotas",
+		'fr-fr': "Hippopotas",
 	},
 
 	stage: "Stage1",
@@ -38,14 +38,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vacuum Up",
-				fr: "Aspirer",
-				de: "Ansaugbiss"
+				'en-us': "Vacuum Up",
+				'fr-fr': "Aspirer",
+				'de-de': "Ansaugbiss"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
-				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				'de-de': "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 40,
 
@@ -58,14 +58,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sand Eject",
-				fr: "Jeteur de sable",
-				de: "Sandausstoß"
+				'en-us': "Sand Eject",
+				'fr-fr': "Jeteur de sable",
+				'de-de': "Sandausstoß"
 			},
 			effect: {
-				en: "During your next turn, if an attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 40 more damage.",
-				fr: "Lors de votre prochain tour, si une attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), cette attaque inflige 40 dégâts supplémentaires.",
-				de: "Während deines nächsten Zuges, wenn ein Angriff dem Verteidigenden Pokémon Schaden zufügt (nachdem Schwäche und Resistenz verrechnet wurden), fügt dieser Angriff 40 weitere Schadenspunkte zu."
+				'en-us': "During your next turn, if an attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 40 more damage.",
+				'fr-fr': "Lors de votre prochain tour, si une attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), cette attaque inflige 40 dégâts supplémentaires.",
+				'de-de': "Während deines nächsten Zuges, wenn ein Angriff dem Verteidigenden Pokémon Schaden zufügt (nachdem Schwäche und Resistenz verrechnet wurden), fügt dieser Angriff 40 weitere Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -89,8 +89,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It blasts internally stored sand from ports on its body to create a towering twister for attack.",
-		fr: "Il emmagasine du sable qu'il expulse en tornades par les pores de sa peau pour attaquer."
+		'en-us': "It blasts internally stored sand from ports on its body to create a towering twister for attack.",
+		'fr-fr': "Il emmagasine du sable qu'il expulse en tornades par les pores de sa peau pour attaquer."
 	},
 
 	thirdParty: {

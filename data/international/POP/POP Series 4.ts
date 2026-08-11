@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../POP'
 
 const pop4: Set = {
 	id: "pop4",
 
 	name: {
-		en: "POP Series 4",
-		fr: "POP Série 4",
-		it: "POP Serie 4",
-		de: "POP Serie 4",
+		'en-us': "POP Series 4",
+		'fr-fr': "POP Série 4",
+		'it-it': "POP Serie 4",
+		'de-de': "POP Serie 4",
 	},
 
 	serie: serie,
@@ -21,7 +21,7 @@ const pop4: Set = {
 
 	abbreviations: {
 		official: "P4",
-		fr: "P04"
+		'fr-fr': "P04"
 	},
 
 	thirdParty: {

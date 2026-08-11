@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Litten",
-		fr: "Flamiaou",
-		es: "Litten",
-		it: "Litten",
-		pt: "Litten",
-		de: "Flamiau"
+		'en-us': "Litten",
+		'fr-fr': "Flamiaou",
+		'es-es': "Litten",
+		'it-it': "Litten",
+		'pt-br': "Litten",
+		'de-de': "Flamiau"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare",
-				fr: "Flamboiement",
-				es: "Llama",
-				it: "Fiammata",
-				pt: "Labareda",
-				de: "Flackern"
+				'en-us': "Flare",
+				'fr-fr': "Flamboiement",
+				'es-es': "Llama",
+				'it-it': "Fiammata",
+				'pt-br': "Labareda",
+				'de-de': "Flackern"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "While grooming itself, it builds up fur inside its stomach. It sets the fur alight and spews fiery attacks, which change based on how it coughs.",
+		'en-us': "While grooming itself, it builds up fur inside its stomach. It sets the fur alight and spews fiery attacks, which change based on how it coughs.",
 	},
 }
 

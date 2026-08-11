@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴロンダ",
+		'ja-jp': "ゴロンダ",
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "竹の 葉っぱの 揺れで 敵の 動きを 読む。 ケンカっ早いが 仲間への 情は 厚い。",
+		'ja-jp': "竹の 葉っぱの 揺れで 敵の 動きを 読む。 ケンカっ早いが 仲間への 情は 厚い。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "このポケモンにダメカンがのっているなら、50ダメージ追加し、おたがいのバトルポケモンをこんらんにする。",
+				'ja-jp': "このポケモンにダメカンがのっているなら、50ダメージ追加し、おたがいのバトルポケモンをこんらんにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x40ダメージ追加。",
+				'ja-jp': "コインを2回投げ、オモテの数x40ダメージ追加。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤンチャム",
+		'ja-jp': "ヤンチャム",
 	},
 
 	retreat: 3,

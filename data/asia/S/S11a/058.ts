@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ペラップ",
+		'ja-jp': "ペラップ",
 		'zh-tw': "聒噪鳥",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "人の 言葉を 覚えて 鳴く。 仲間が 一か所に 集まると みんな 同じ 言葉を 覚える。",
+		'ja-jp': "人の 言葉を 覚えて 鳴く。 仲間が 一か所に 集まると みんな 同じ 言葉を 覚える。",
 		'zh-tw': "學習人類的語言來鳴叫。當夥伴們聚集在同一個地方時，大家就會學會同樣的詞語。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "サイクルドロー",
+				'ja-jp': "サイクルドロー",
 				'zh-tw': "循環抽出",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の手札を1枚トラッシュする。その後、自分の山札を2枚引く。",
+				'ja-jp': "自分の手札を1枚トラッシュする。その後、自分の山札を2枚引く。",
 				'zh-tw': "將自己的1張手牌丟棄。然後，從自己的牌庫抽出2張卡。",
 			},
 		},
 		{
 			name: {
-				ja: "はばたく",
+				'ja-jp': "はばたく",
 				'zh-tw': "羽擊",
 			},
 			damage: 10,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Staryu",
-		fr: "Stari",
-		de: "Sterndu"
+		'en-us': "Staryu",
+		'fr-fr': "Stari",
+		'de-de': "Sterndu"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spinning Attack",
-				fr: "Attaque tournante",
-				de: "Spinning Attack"
+				'en-us': "Spinning Attack",
+				'fr-fr': "Attaque tournante",
+				'de-de': "Spinning Attack"
 			},
 
 			damage: 20,

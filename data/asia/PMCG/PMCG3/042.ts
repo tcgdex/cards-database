@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メタモン",
+		'ja-jp': "メタモン",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "変身",
+				'ja-jp': "変身",
 			},
 			effect: {
-				ja: "DittoがアクティブなPokmonである場合、それが型、ヒットポイント、脱力感などを含む防御ポクモンと同じカードであるかのように扱います。同上は、他のポクモンのコピーではありません。",
+				'ja-jp': "DittoがアクティブなPokmonである場合、それが型、ヒットポイント、脱力感などを含む防御ポクモンと同じカードであるかのように扱います。同上は、他のポクモンのコピーではありません。",
 			},
 		}],
 

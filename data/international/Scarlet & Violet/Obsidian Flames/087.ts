@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Snubbull",
-		en: "Snubbull",
-		es: "Snubbull",
-		it: "Snubbull",
-		pt: "Snubbull",
-		de: "Snubbull"
+		'fr-fr': "Snubbull",
+		'en-us': "Snubbull",
+		'es-es': "Snubbull",
+		'it-it': "Snubbull",
+		'pt-br': "Snubbull",
+		'de-de': "Snubbull"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			fr: "Ronge",
-			en: "Gnaw",
-			es: "Roer",
-			it: "Rosicchiamento",
-			pt: "Roída",
-			de: "Nagen"
+			'fr-fr': "Ronge",
+			'en-us': "Gnaw",
+			'es-es': "Roer",
+			'it-it': "Rosicchiamento",
+			'pt-br': "Roída",
+			'de-de': "Nagen"
 		},
 
 		damage: 10
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			fr: "Damoclès",
-			en: "Double-Edge",
-			es: "Doble Filo",
-			it: "Sdoppiatore",
-			pt: "Faca de Dois Gumes",
-			de: "Risikotackle"
+			'fr-fr': "Damoclès",
+			'en-us': "Double-Edge",
+			'es-es': "Doble Filo",
+			'it-it': "Sdoppiatore",
+			'pt-br': "Faca de Dois Gumes",
+			'de-de': "Risikotackle"
 		},
 
 		effect: {
-			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
-			en: "This Pokémon also does 10 damage to itself.",
-			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
+			'fr-fr': "Ce Pokémon s'inflige aussi 10 dégâts.",
+			'en-us': "This Pokémon also does 10 damage to itself.",
+			'es-es': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 10 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
 		},
 
 		damage: 30
@@ -67,7 +67,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "In contrast to its appearance, it's quite timid. When playing with other puppy Pokémon, it sometimes gets bullied.",
+		'en-us': "In contrast to its appearance, it's quite timid. When playing with other puppy Pokémon, it sometimes gets bullied.",
 	},
 
 	variants: [

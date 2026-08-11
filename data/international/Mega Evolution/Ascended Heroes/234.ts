@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Banette",
-		fr: "Branette",
-		es: "Banette",
+		'en-us': "Banette",
+		'fr-fr': "Branette",
+		'es-es': "Banette",
 		'es-mx': "Banette",
-		de: "Banette",
-		it: "Banette",
-		pt: "Banette"
+		'de-de': "Banette",
+		'it-it': "Banette",
+		'pt-br': "Banette"
 	},
 
 	evolveFrom: {
-		en: "Shuppet",
-		fr: "Polichombr",
-		es: "Shuppet",
+		'en-us': "Shuppet",
+		'fr-fr': "Polichombr",
+		'es-es': "Shuppet",
 		'es-mx': "Shuppet",
-		de: "Shuppet",
-		it: "Shuppet",
-		pt: "Shuppet",
+		'de-de': "Shuppet",
+		'it-it': "Shuppet",
+		'pt-br': "Shuppet",
 	},
 
 	illustrator: "YASHIRO Nanaco",
@@ -36,35 +36,35 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Cursed Words",
-			fr: "Paroles Maudites",
-			es: "Palabras Malditas",
+			'en-us': "Cursed Words",
+			'fr-fr': "Paroles Maudites",
+			'es-es': "Palabras Malditas",
 			'es-mx': "Palabras Malditas",
-			de: "Verfluchte Worte",
-			it: "Parole Maledette",
-			pt: "Rogar Praga"
+			'de-de': "Verfluchte Worte",
+			'it-it': "Parole Maledette",
+			'pt-br': "Rogar Praga"
 		},
 
 		effect: {
-			en: "Your opponent chooses 3 cards from their hand and shuffles those cards into their deck.",
-			fr: "Votre adversaire choisit 3 cartes de sa main et les mélange avec son deck.",
-			es: "Tu rival elige 3 cartas de su mano, las pone en su baraja y las baraja todas.",
+			'en-us': "Your opponent chooses 3 cards from their hand and shuffles those cards into their deck.",
+			'fr-fr': "Votre adversaire choisit 3 cartes de sa main et les mélange avec son deck.",
+			'es-es': "Tu rival elige 3 cartas de su mano, las pone en su baraja y las baraja todas.",
 			'es-mx': "Tu rival elige 3 cartas de su mano, las pone en su mazo y las baraja todas.",
-			de: "Dein Gegner wählt 3 Karten aus seiner Hand und mischt jene Karten in sein Deck.",
-			it: "Il tuo avversario sceglie tre carte che ha in mano e le rimischia nel suo mazzo.",
-			pt: "Seu oponente escolhe 3 cartas da mão dele e embaralha aquelas cartas no baralho dele."
+			'de-de': "Dein Gegner wählt 3 Karten aus seiner Hand und mischt jene Karten in sein Deck.",
+			'it-it': "Il tuo avversario sceglie tre carte che ha in mano e le rimischia nel suo mazzo.",
+			'pt-br': "Seu oponente escolhe 3 cartas da mão dele e embaralha aquelas cartas no baralho dele."
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Spooky Shot",
-			fr: "Tir Effrayant",
-			es: "Disparo Embrujado",
+			'en-us': "Spooky Shot",
+			'fr-fr': "Tir Effrayant",
+			'es-es': "Disparo Embrujado",
 			'es-mx': "Disparo Espeluznante",
-			de: "Spukschuss",
-			it: "Colpomistero",
-			pt: "Tiro Assustador"
+			'de-de': "Spukschuss",
+			'it-it': "Colpomistero",
+			'pt-br': "Tiro Assustador"
 		},
 
 		damage: 70
@@ -86,7 +86,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "This Pokémon developed from an abandoned doll that amassed a grudge. It is seen in dark alleys.",
+		'en-us': "This Pokémon developed from an abandoned doll that amassed a grudge. It is seen in dark alleys.",
 	},
 
 	variants: [

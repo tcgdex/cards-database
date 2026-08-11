@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Seismitoad",
-		fr: "Crapustule",
-		es: "Seismitoad",
-		it: "Seismitoad",
-		pt: "Seismitoad",
-		de: "Branawarz"
+		'en-us': "Seismitoad",
+		'fr-fr': "Crapustule",
+		'es-es': "Seismitoad",
+		'it-it': "Seismitoad",
+		'pt-br': "Seismitoad",
+		'de-de': "Branawarz"
 	},
 
 	illustrator: "Kanako Eo",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Palpitoad",
-		fr: "Batracné",
-		es: "Palpitoad",
-		it: "Palpitoad",
-		pt: "Palpitoad",
-		de: "Mebrana"
+		'en-us': "Palpitoad",
+		'fr-fr': "Batracné",
+		'es-es': "Palpitoad",
+		'it-it': "Palpitoad",
+		'pt-br': "Palpitoad",
+		'de-de': "Mebrana"
 	},
 
 	stage: "Stage2",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Siphon Off",
-				fr: "Aspiration",
-				es: "Sacar a Sifón",
-				it: "Risucchio",
-				pt: "Sifão Desativado",
-				de: "Abzapfen"
+				'en-us': "Siphon Off",
+				'fr-fr': "Aspiration",
+				'es-es': "Sacar a Sifón",
+				'it-it': "Risucchio",
+				'pt-br': "Sifão Desativado",
+				'de-de': "Abzapfen"
 			},
 			effect: {
-				en: "Attach 3 Energy cards from your discard pile to this Pokémon.",
-				fr: "Attachez 3 cartes Énergie de votre pile de défausse à ce Pokémon.",
-				es: "Une 3 cartas de Energía de tu pila de descartes a este Pokémon.",
-				it: "Assegna a questo Pokémon tre carte Energia dalla tua pila degli scarti.",
-				pt: "Ligue 3 cards de Energia da sua pilha de descarte a este Pokémon.",
-				de: "Lege 3 Energiekarten von deinem Ablagestapel an dieses Pokémon an."
+				'en-us': "Attach 3 Energy cards from your discard pile to this Pokémon.",
+				'fr-fr': "Attachez 3 cartes Énergie de votre pile de défausse à ce Pokémon.",
+				'es-es': "Une 3 cartas de Energía de tu pila de descartes a este Pokémon.",
+				'it-it': "Assegna a questo Pokémon tre carte Energia dalla tua pila degli scarti.",
+				'pt-br': "Ligue 3 cards de Energia da sua pilha de descarte a este Pokémon.",
+				'de-de': "Lege 3 Energiekarten von deinem Ablagestapel an dieses Pokémon an."
 			},
 
 		},
@@ -68,20 +68,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Shaky Fall",
-				fr: "Chute Précaire",
-				es: "Caída Tambaleante",
-				it: "Capitombolo",
-				pt: "Queda Trêmula",
-				de: "Holpriger Fall"
+				'en-us': "Shaky Fall",
+				'fr-fr': "Chute Précaire",
+				'es-es': "Caída Tambaleante",
+				'it-it': "Capitombolo",
+				'pt-br': "Queda Trêmula",
+				'de-de': "Holpriger Fall"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused. That Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus. Le Pokémon ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido. Ese Pokémon no puede retirarse durante el próximo turno de tu rival.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso. Durante il prossimo turno del tuo avversario, quel Pokémon non può ritirarsi.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso. Aquele Pokémon não poderá recuar durante a próxima vez de jogar do seu oponente.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt. Jenes Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+				'en-us': "Your opponent's Active Pokémon is now Confused. That Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus. Le Pokémon ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido. Ese Pokémon no puede retirarse durante el próximo turno de tu rival.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso. Durante il prossimo turno del tuo avversario, quel Pokémon non può ritirarsi.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso. Aquele Pokémon não poderá recuar durante a próxima vez de jogar do seu oponente.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt. Jenes Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 90,
 
@@ -98,7 +98,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "They shoot paralyzing liquid from their head bumps. They use vibration to hurt their opponents.",
+		'en-us': "They shoot paralyzing liquid from their head bumps. They use vibration to hurt their opponents.",
 	},
 
 	thirdParty: {

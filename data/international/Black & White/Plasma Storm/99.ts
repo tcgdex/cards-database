@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Doduo",
-		fr: "Doduo",
-		es: "Doduo",
-		it: "Doduo",
-		pt: "Doduo",
-		de: "Dodu"
+		'en-us': "Doduo",
+		'fr-fr': "Doduo",
+		'es-es': "Doduo",
+		'it-it': "Doduo",
+		'pt-br': "Doduo",
+		'de-de': "Dodu"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gatling Peck",
-				fr: "Mitra-Bec",
+				'en-us': "Gatling Peck",
+				'fr-fr': "Mitra-Bec",
 			},
 			effect: {
-				en: "Flip 5 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 5 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 5 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 5 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 10,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The brains in its two heads appear to communicate emotions to each other with telepathic power.",
+		'en-us': "The brains in its two heads appear to communicate emotions to each other with telepathic power.",
 	},
 
 	thirdParty: {

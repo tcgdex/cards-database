@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Mudbray"
+		'id-id': "Mudbray"
 	},
 
 	illustrator: "Narumi Sato",
@@ -14,21 +14,21 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Lumpur yang menyelimuti Mudbray adalah hasil memamah biak setelah memakan tanah. Lumpur tersebut tidak akan kering meskipun berjemur dalam waktu yang lama."
+		'id-id': "Lumpur yang menyelimuti Mudbray adalah hasil memamah biak setelah memakan tanah. Lumpur tersebut tidak akan kering meskipun berjemur dalam waktu yang lama."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Tendangan Penghempas"
+			'id-id': "Tendangan Penghempas"
 		},
 
 		damage: 10,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			id: "Semprotan Lumpur"
+			'id-id': "Semprotan Lumpur"
 		},
 
 		damage: 50,

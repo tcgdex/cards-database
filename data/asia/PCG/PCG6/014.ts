@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Pupitar（デルタ種）",
+		'ja-jp': "Pupitar（デルタ種）",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "麻痺する視線",
+				'ja-jp': "麻痺する視線",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 		},
 		{
 			cost: ["Fire", "Colorless", "Colorless"],
 			name: {
-				ja: "ダブルエッジ",
+				'ja-jp': "ダブルエッジ",
 			},
 			effect: {
-				ja: "Pupitarはそれ自体に10ダメージを与えます。",
+				'ja-jp': "Pupitarはそれ自体に10ダメージを与えます。",
 			},
 			damage: 40,
 		},

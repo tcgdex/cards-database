@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Throh",
-		fr: "Judokrak",
-		es: "Throh",
-		it: "Throh",
-		pt: "Throh",
-		de: "Jiutesto"
+		'en-us': "Throh",
+		'fr-fr': "Judokrak",
+		'es-es': "Throh",
+		'it-it': "Throh",
+		'pt-br': "Throh",
+		'de-de': "Jiutesto"
 	},
 
 	illustrator: "Naoki Saito",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Freestyle Strike",
-				fr: "Randori",
+				'en-us': "Freestyle Strike",
+				'fr-fr': "Randori",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 30,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shoulder Throw",
-				fr: "Projection Martiale",
+				'en-us': "Shoulder Throw",
+				'fr-fr': "Projection Martiale",
 			},
 			effect: {
-				en: "Does 80 damage minus 20 damage for each Colorless in the Defending Pokémon's Retreat Cost.",
-				fr: "Inflige 80 dégâts moins 20 dégâts pour chaque Colorless dans le coût de Retraite du Pokémon Défenseur.",
+				'en-us': "Does 80 damage minus 20 damage for each Colorless in the Defending Pokémon's Retreat Cost.",
+				'fr-fr': "Inflige 80 dégâts moins 20 dégâts pour chaque Colorless dans le coût de Retraite du Pokémon Défenseur.",
 			},
 			damage: 80,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "When it encounters a foe bigger than itself, it wants to throw it. It changes belts as it gets stronger.",
+		'en-us': "When it encounters a foe bigger than itself, it wants to throw it. It changes belts as it gets stronger.",
 	},
 
 	thirdParty: {

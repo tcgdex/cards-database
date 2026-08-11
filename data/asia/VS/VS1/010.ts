@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Bugsy's Pinsir",
+		'ja-jp': "Bugsy's Pinsir",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "Vise Grip",
+				'ja-jp': "Vise Grip",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "二重吸い込み",
+				'ja-jp': "二重吸い込み",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。",
 			},
 		},
 	],

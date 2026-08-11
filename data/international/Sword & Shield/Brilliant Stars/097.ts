@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Aggron VMAX",
-		fr: "Galeking VMAX",
-		es: "Aggron VMAX",
-		it: "Aggron VMAX",
-		pt: "Aggron VMAX",
-		de: "Stolloss VMAX"
+		'en-us': "Aggron VMAX",
+		'fr-fr': "Galeking VMAX",
+		'es-es': "Aggron VMAX",
+		'it-it': "Aggron VMAX",
+		'pt-br': "Aggron VMAX",
+		'de-de': "Stolloss VMAX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Aggron V",
-		fr: "Galeking-V",
-		es: "Aggron V",
-		it: "Aggron-V",
-		pt: "Aggron V",
-		de: "Stolloss-V"
+		'en-us': "Aggron V",
+		'fr-fr': "Galeking-V",
+		'es-es': "Aggron V",
+		'it-it': "Aggron-V",
+		'pt-br': "Aggron V",
+		'de-de': "Stolloss-V"
 	},
 
 	stage: "VMAX",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		name: {
-			en: "Cracking Stomp",
-			fr: "Piétinement Écrasant",
-			es: "Pisotón Quebrantador",
-			it: "Spaccapestone",
-			pt: "Pisoteada Demolidora",
-			de: "Demolierender Stampfer"
+			'en-us': "Cracking Stomp",
+			'fr-fr': "Piétinement Écrasant",
+			'es-es': "Pisotón Quebrantador",
+			'it-it': "Spaccapestone",
+			'pt-br': "Pisoteada Demolidora",
+			'de-de': "Demolierender Stampfer"
 		},
 
 		effect: {
-			en: "Discard the top card of your opponent's deck.",
-			fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-			es: "Descarta la primera carta de la baraja de tu rival.",
-			it: "Scarta la prima carta del mazzo del tuo avversario.",
-			pt: "Descarte a carta de cima do baralho do seu oponente.",
-			de: "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
+			'en-us': "Discard the top card of your opponent's deck.",
+			'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+			'es-es': "Descarta la primera carta de la baraja de tu rival.",
+			'it-it': "Scarta la prima carta del mazzo del tuo avversario.",
+			'pt-br': "Descarte a carta de cima do baralho do seu oponente.",
+			'de-de': "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 150
@@ -57,21 +57,21 @@ const card: Card = {
 		cost: ["Metal", "Metal", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Max Take Down",
-			fr: "Bélieromax",
-			es: "Maxiderribo",
-			it: "Dynariduttore",
-			pt: "Desmantelar Max",
-			de: "Dyna-Bodycheck"
+			'en-us': "Max Take Down",
+			'fr-fr': "Bélieromax",
+			'es-es': "Maxiderribo",
+			'it-it': "Dynariduttore",
+			'pt-br': "Desmantelar Max",
+			'de-de': "Dyna-Bodycheck"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 270

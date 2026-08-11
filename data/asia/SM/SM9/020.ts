@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゼニガメ",
+		'ja-jp': "ゼニガメ",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "甲羅に 閉じこもり 身を 守る。 相手の すきを 見逃さず 水を 噴き出して 反撃する。",
+		'ja-jp': "甲羅に 閉じこもり 身を 守る。 相手の すきを 見逃さず 水を 噴き出して 反撃する。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "こうらフロート" },
 			effect: {
-				ja: "場に自分のスタジアムが出ているなら、このポケモンのにげるためのエネルギーは、すべてなくなる。",
+				'ja-jp': "場に自分のスタジアムが出ているなら、このポケモンのにげるためのエネルギーは、すべてなくなる。",
 			},
 		},
 	],

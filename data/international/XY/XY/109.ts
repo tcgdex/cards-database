@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Herdier",
-		fr: "Ponchien",
-		es: "Herdier",
-		it: "Herdier",
-		pt: "Herdier",
-		de: "Terribark"
+		'en-us': "Herdier",
+		'fr-fr': "Ponchien",
+		'es-es': "Herdier",
+		'it-it': "Herdier",
+		'pt-br': "Herdier",
+		'de-de': "Terribark"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lillipup",
-		fr: "Ponchiot",
-		es: "Lillipup",
-		it: "Lillipup",
-		pt: "Lillipup",
-		de: "Yorkleff"
+		'en-us': "Lillipup",
+		'fr-fr': "Ponchiot",
+		'es-es': "Lillipup",
+		'it-it': "Lillipup",
+		'pt-br': "Lillipup",
+		'de-de': "Yorkleff"
 	},
 
 	stage: "Stage1",
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 20,
@@ -62,20 +62,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jump On",
-				fr: "Saut",
-				es: "Asaltar",
-				it: "Salta Su",
-				pt: "Pular em Cima",
-				de: "Draufspringen"
+				'en-us': "Jump On",
+				'fr-fr': "Saut",
+				'es-es': "Asaltar",
+				'it-it': "Salta Su",
+				'pt-br': "Pular em Cima",
+				'de-de': "Draufspringen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-				pt: "Jogue uma moeda. Se sair cara, esse ataque causará 20 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+				'pt-br': "Jogue uma moeda. Se sair cara, esse ataque causará 20 de danos adicionais.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This very loyal Pokémon helps Trainers, and it also takes care of other Pokémon.",
+		'en-us': "This very loyal Pokémon helps Trainers, and it also takes care of other Pokémon.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "N's Klink",
-		fr: "Tic de N",
-		es: "Klink de N",
-		de: "Ns Klikk",
-		it: "Klink di N",
-		pt: "Klink do N",
+		'en-us': "N's Klink",
+		'fr-fr': "Tic de N",
+		'es-es': "Klink de N",
+		'de-de': "Ns Klikk",
+		'it-it': "Klink di N",
+		'pt-br': "Klink do N",
 		'es-mx': "Klink de N"
 	},
 
@@ -25,22 +25,22 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Double Spin",
-			fr: "Double Tour",
-			es: "Doble Giro",
-			de: "Doppeldreher",
-			it: "Doppioturbo",
-			pt: "Giro Duplo",
+			'en-us': "Double Spin",
+			'fr-fr': "Double Tour",
+			'es-es': "Doble Giro",
+			'de-de': "Doppeldreher",
+			'it-it': "Doppioturbo",
+			'pt-br': "Giro Duplo",
 			'es-mx': "Doble Giro"
 		},
 
 		effect: {
-			en: "Flip 2 coins. This attack does 10 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
-			es: "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 10 pontos de dano para cada cara.",
+			'en-us': "Flip 2 coins. This attack does 10 damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 10 pontos de dano para cada cara.",
 			'es-mx': "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara."
 		},
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カブト",
+		'ja-jp': "カブト",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "カブトの鎧",
+				'ja-jp': "カブトの鎧",
 			},
 			effect: {
-				ja: "攻撃が<em>（あなた自身でさえ）</em>がカブト<em>に損傷を与えるとき（脱力と抵抗を適用した後）</em>、その攻撃はカブトへのダメージの半分しかありません（最も近い10に丸められます）。 <em>（攻撃の他の効果はまだ発生します。）</em>このパワーは機能しなくなり、カブトは特別な状態の影響を受けます。",
+				'ja-jp': "攻撃が<em>（あなた自身でさえ）</em>がカブト<em>に損傷を与えるとき（脱力と抵抗を適用した後）</em>、その攻撃はカブトへのダメージの半分しかありません（最も近い10に丸められます）。 <em>（攻撃の他の効果はまだ発生します。）</em>このパワーは機能しなくなり、カブトは特別な状態の影響を受けます。",
 			},
 		}],
 
@@ -30,7 +30,7 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "傷",
+				'ja-jp': "傷",
 			},
 			damage: 10,
 		},

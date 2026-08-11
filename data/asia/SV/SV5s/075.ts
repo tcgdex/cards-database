@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Golett"
+		'id-id': "Golett"
 	},
 
 	illustrator: "miki kudo",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Pokémon zaman purba yang dibuat dari tanah liat. Ada juga Golett yang terus-menerus menjejerkan batu besar walaupun tidak jelas alasannya."
+		'id-id': "Pokémon zaman purba yang dibuat dari tanah liat. Ada juga Golett yang terus-menerus menjejerkan batu besar walaupun tidak jelas alasannya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Pertahanan Besi"
+			'id-id': "Pertahanan Besi"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, pada giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan akibat serangan."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, pada giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan akibat serangan."
 		},
 
 		cost: ["Fighting"]
 	}, {
 		name: {
-			id: "Pukulan"
+			'id-id': "Pukulan"
 		},
 
 		damage: 40,

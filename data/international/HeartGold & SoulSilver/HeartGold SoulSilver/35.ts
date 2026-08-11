@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Bayleef",
-		fr: "Macronium",
-		de: "Lorblatt"
+		'en-us': "Bayleef",
+		'fr-fr': "Macronium",
+		'de-de': "Lorblatt"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Chikorita",
-		fr: "Germignon"
+		'en-us': "Chikorita",
+		'fr-fr': "Germignon"
 	},
 
 	stage: "Stage1",
@@ -34,9 +34,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer In",
-				fr: "Enfoncer",
-				de: "Einhämmern"
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncer",
+				'de-de': "Einhämmern"
 			},
 
 			damage: 20,
@@ -49,9 +49,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch’herbe",
-				de: "Rasierblatt"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch’herbe",
+				'de-de': "Rasierblatt"
 			},
 
 			damage: 50,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health."
+		'en-us': "A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health."
 	},
 
 	variants: [

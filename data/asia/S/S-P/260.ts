@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リオル",
+		'ja-jp': "リオル",
 	},
 
 	illustrator: "Taira Akitsu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "一晩中 走っていられる スタミナを もつ。 活発で 散歩の 相手は たいへん。",
+		'ja-jp': "一晩中 走っていられる スタミナを もつ。 活発で 散歩の 相手は たいへん。",
 	},
 
 	stage: "Basic",

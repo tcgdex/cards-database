@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Barbaracle",
-		fr: "Golgopathe",
-		es: "Barbaracle",
-		it: "Barbaracle",
-		pt: "Barbaracle",
-		de: "Thanathora"
+		'en-us': "Barbaracle",
+		'fr-fr': "Golgopathe",
+		'es-es': "Barbaracle",
+		'it-it': "Barbaracle",
+		'pt-br': "Barbaracle",
+		'de-de': "Thanathora"
 	},
 
 	illustrator: "kirisAki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Binacle",
-		fr: "Opermine",
+		'en-us': "Binacle",
+		'fr-fr': "Opermine",
 	},
 
 	stage: "Stage1",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Seven Shock",
-				fr: "Choc à Sept",
-				es: "Impacto Siete",
-				it: "Eptashock",
-				pt: "Choque do Sete",
-				de: "Siebenschock"
+				'en-us': "Seven Shock",
+				'fr-fr': "Choc à Sept",
+				'es-es': "Impacto Siete",
+				'it-it': "Eptashock",
+				'pt-br': "Choque do Sete",
+				'de-de': "Siebenschock"
 			},
 			effect: {
-				en: "If you have exactly 7 cards in your hand, your opponent’s Active Pokémon is now Paralyzed.",
-				fr: "S’il vous reste exactement 7 cartes en main, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Si tienes exactamente 7 cartas en tu mano, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Se hai esattamente sette carte in mano, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Se você tiver exatamente 7 cartas na sua mão, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wenn du genau 7 Karten auf deiner Hand hast, ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "If you have exactly 7 cards in your hand, your opponent’s Active Pokémon is now Paralyzed.",
+				'fr-fr': "S’il vous reste exactement 7 cartes en main, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Si tienes exactamente 7 cartas en tu mano, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Se hai esattamente sette carte in mano, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Se você tiver exatamente 7 cartas na sua mão, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wenn du genau 7 Karten auf deiner Hand hast, ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 30,
 
@@ -65,12 +65,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Claw Slash",
-				fr: "Tranch’Griffe",
-				es: "Cuchillada Garra",
-				it: "Lacerartiglio",
-				pt: "Golpe de Garra",
-				de: "Klauenschlitzer"
+				'en-us': "Claw Slash",
+				'fr-fr': "Tranch’Griffe",
+				'es-es': "Cuchillada Garra",
+				'it-it': "Lacerartiglio",
+				'pt-br': "Golpe de Garra",
+				'de-de': "Klauenschlitzer"
 			},
 
 			damage: 90,
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Barbaracle's legs and hands have minds of their own, and they will move independently. But they usually follow the head's orders.",
+		'en-us': "Barbaracle's legs and hands have minds of their own, and they will move independently. But they usually follow the head's orders.",
 	},
 
 	thirdParty: {

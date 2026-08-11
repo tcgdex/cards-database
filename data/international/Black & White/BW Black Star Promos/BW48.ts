@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Altaria",
-		fr: "Altaria",
+		'en-us': "Altaria",
+		'fr-fr': "Altaria",
 	},
 	illustrator: "HiRON",
 	rarity: "Common",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Dragon",
 	],
 	evolveFrom: {
-		en: "Swablu",
-		fr: "Swablu",
+		'en-us': "Swablu",
+		'fr-fr': "Swablu",
 	},
 	stage: "Stage1",
 
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Fight Song",
-				fr: "Hymne au Combat",
+				'en-us': "Fight Song",
+				'fr-fr': "Hymne au Combat",
 			},
 			effect: {
-				en: "Your Dragon Pokémon's attacks do 20 more damage to the Active Pokémon (before applying Weakness and Resistance).",
-				fr: "Les attaques de vos Pokémon Dragon infligent 20 dégâts supplémentaires aux Pokémon Actifs (avant application de la Faiblesse et de la Résistance).",
+				'en-us': "Your Dragon Pokémon's attacks do 20 more damage to the Active Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Les attaques de vos Pokémon Dragon infligent 20 dégâts supplémentaires aux Pokémon Actifs (avant application de la Faiblesse et de la Résistance).",
 			},
 		},
 	],
@@ -45,8 +45,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Glide",
-				fr: "Glissement",
+				'en-us': "Glide",
+				'fr-fr': "Glissement",
 			},
 
 			damage: 40,
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "If it bonds with a person, it will gently envelop the friend with its soft wings, then hum.",
+		'en-us': "If it bonds with a person, it will gently envelop the friend with its soft wings, then hum.",
 	},
 }
 

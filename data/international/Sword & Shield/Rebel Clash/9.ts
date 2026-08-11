@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [272],
 
 	name: {
-		en: "Ludicolo",
-		fr: "Ludicolo",
-		es: "Ludicolo",
-		it: "Ludicolo",
-		pt: "Ludicolo",
-		de: "Kappalores"
+		'en-us': "Ludicolo",
+		'fr-fr': "Ludicolo",
+		'es-es': "Ludicolo",
+		'it-it': "Ludicolo",
+		'pt-br': "Ludicolo",
+		'de-de': "Kappalores"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -19,12 +19,12 @@ const card: Card = {
 	set: Set,
 
 	evolveFrom: {
-		en: "Lombre",
-		fr: "Lombre",
-		es: "Lombre",
-		it: "Lombre",
-		pt: "Lombre",
-		de: "Lombrero"
+		'en-us': "Lombre",
+		'fr-fr': "Lombre",
+		'es-es': "Lombre",
+		'it-it': "Lombre",
+		'pt-br': "Lombre",
+		'de-de': "Lombrero"
 	},
 
 	attacks: [
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spirited Rushdown",
-				fr: "Ruée Impétueuse",
-				es: "Asalto Vigoroso",
-				it: "Impeto Vigoroso",
-				pt: "Ofensiva Espirituosa",
-				de: "Beherzter Sturmrausch"
+				'en-us': "Spirited Rushdown",
+				'fr-fr': "Ruée Impétueuse",
+				'es-es': "Asalto Vigoroso",
+				'it-it': "Impeto Vigoroso",
+				'pt-br': "Ofensiva Espirituosa",
+				'de-de': "Beherzter Sturmrausch"
 			},
 			effect: {
-				en: "This attack does 60 damage for each Prize card you have taken.",
-				fr: "Cette attaque inflige 60 dégâts pour chaque carte Récompense que vous avez récupérée.",
-				es: "Este ataque hace 60 puntos de daño por cada carta de Premio que hayas cogido.",
-				it: "Questo attacco infligge 60 danni per ogni carta Premio che hai preso.",
-				pt: "Este ataque causa 60 pontos de dano para cada carta de Prêmio que você pegou.",
-				de: "Diese Attacke fügt für jede von dir genommene Preiskarte 60 Schadenspunkte zu."
+				'en-us': "This attack does 60 damage for each Prize card you have taken.",
+				'fr-fr': "Cette attaque inflige 60 dégâts pour chaque carte Récompense que vous avez récupérée.",
+				'es-es': "Este ataque hace 60 puntos de daño por cada carta de Premio que hayas cogido.",
+				'it-it': "Questo attacco infligge 60 danni per ogni carta Premio che hai preso.",
+				'pt-br': "Este ataque causa 60 pontos de dano para cada carta de Prêmio que você pegou.",
+				'de-de': "Diese Attacke fügt für jede von dir genommene Preiskarte 60 Schadenspunkte zu."
 			},
 			damage: "60×",
 
@@ -59,20 +59,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Drain",
-				fr: "Méga-Sangsue",
-				es: "Megaagotar",
-				it: "Megassorbimento",
-				pt: "Megadreno",
-				de: "Megasauger"
+				'en-us': "Mega Drain",
+				'fr-fr': "Méga-Sangsue",
+				'es-es': "Megaagotar",
+				'it-it': "Megassorbimento",
+				'pt-br': "Megadreno",
+				'de-de': "Megasauger"
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts de ce Pokémon.",
-				es: "Cura 30 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 30 danni.",
-				pt: "Cure 30 pontos de dano deste Pokémon.",
-				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+				'es-es': "Cura 30 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 30 danni.",
+				'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+				'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 120,
 
@@ -95,7 +95,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "The rhythm of bright, festive music activates Ludicolo's cells, making it more powerful."
+		'en-us': "The rhythm of bright, festive music activates Ludicolo's cells, making it more powerful."
 	},
 
 	variants: [

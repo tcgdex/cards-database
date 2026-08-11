@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "seccepile ex（デルタ種）",
+		'ja-jp': "seccepile ex（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "余分な液体",
+				'ja-jp': "余分な液体",
 			},
 			effect: {
-				ja: "各プレイヤーのpokã©mon-exは、攻撃を使用するために{{e}}より多くのエネルギーを支払うことができません。各ポカモンは、1つ以上の余分な液体Pokã©Bodyによって影響を受けることはできません。",
+				'ja-jp': "各プレイヤーのpokã©mon-exは、攻撃を使用するために{{e}}より多くのエネルギーを支払うことができません。各ポカモンは、1つ以上の余分な液体Pokã©Bodyによって影響を受けることはできません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "パワーリベンジ",
+				'ja-jp': "パワーリベンジ",
 			},
 			effect: {
-				ja: "対戦相手が取った各賞カードに対して60のダメージと10件のダメージがさらに10件のダメージを与えます。",
+				'ja-jp': "対戦相手が取った各賞カードに対して60のダメージと10件のダメージがさらに10件のダメージを与えます。",
 			},
 		},
 	],

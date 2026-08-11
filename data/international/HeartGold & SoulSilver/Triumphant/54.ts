@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Yanmega",
-		fr: "Yanmega",
-		de: "Yanmega"
+		'en-us': "Yanmega",
+		'fr-fr': "Yanmega",
+		'de-de': "Yanmega"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Yanma",
-		fr: "Yanma"
+		'en-us': "Yanma",
+		'fr-fr': "Yanma"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Shoot Through",
-				fr: "Passer à travers",
-				de: "Durchschießen"
+				'en-us': "Shoot Through",
+				'fr-fr': "Passer à travers",
+				'de-de': "Durchschießen"
 			},
 			effect: {
-				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à l’un des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à l’un des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'de-de': "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 20,
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "U-turn",
-				fr: "Demi-Tour",
-				de: "Kehrtwende"
+				'en-us': "U-turn",
+				'fr-fr': "Demi-Tour",
+				'de-de': "Kehrtwende"
 			},
 			effect: {
-				en: "Switch Yanmega with 1 of your Benched Pokémon.",
-				fr: "Échangez Yanmega avec l’un de vos Pokémon de Banc.",
-				de: "Tausche Yanmega gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Switch Yanmega with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez Yanmega avec l’un de vos Pokémon de Banc.",
+				'de-de': "Tausche Yanmega gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 50,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The beat of its wings is so powerful that it accidentally dislodges full-grown trees when it takes off in flight."
+		'en-us': "The beat of its wings is so powerful that it accidentally dislodges full-grown trees when it takes off in flight."
 	},
 
 	variants: [

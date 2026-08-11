@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Swoobat",
-		fr: "Rhinolove",
-		es: "Swoobat",
-		it: "Swoobat",
-		pt: "Swoobat",
-		de: "Fletiamo"
+		'en-us': "Swoobat",
+		'fr-fr': "Rhinolove",
+		'es-es': "Swoobat",
+		'it-it': "Swoobat",
+		'pt-br': "Swoobat",
+		'de-de': "Fletiamo"
 	},
 
 	rarity: "Uncommon",
@@ -23,21 +23,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Synchro Woofer",
-			fr: "Fréquence Synchro",
-			es: "Frecuencia Sincronizada",
-			it: "Sincrowoofer",
-			pt: "Synchro Woofer",
-			de: "Synchro-Woofer"
+			'en-us': "Synchro Woofer",
+			'fr-fr': "Fréquence Synchro",
+			'es-es': "Frecuencia Sincronizada",
+			'it-it': "Sincrowoofer",
+			'pt-br': "Synchro Woofer",
+			'de-de': "Synchro-Woofer"
 		},
 
 		effect: {
-			en: "If you have the same number of cards in your hand as your opponent, this attack does 80 more damage.",
-			fr: "Si vous avez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
-			es: "Si tienes la misma cantidad de cartas en tu mano que tu rival, este ataque hace 80 puntos de daño más.",
-			it: "Se hai lo stesso numero di carte in mano del tuo avversario, questo attacco infligge 80 danni in più.",
-			pt: "If you have the same number of cards in your hand as your opponent, this attack does 80 more damage.",
-			de: "Wenn du genauso viele Karten auf der Hand hast wie dein Gegner, fügt diese Attacke 80 Schadenspunkte mehr zu."
+			'en-us': "If you have the same number of cards in your hand as your opponent, this attack does 80 more damage.",
+			'fr-fr': "Si vous avez le même nombre de cartes dans votre main que votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
+			'es-es': "Si tienes la misma cantidad de cartas en tu mano que tu rival, este ataque hace 80 puntos de daño más.",
+			'it-it': "Se hai lo stesso numero di carte in mano del tuo avversario, questo attacco infligge 80 danni in più.",
+			'pt-br': "If you have the same number of cards in your hand as your opponent, this attack does 80 more damage.",
+			'de-de': "Wenn du genauso viele Karten auf der Hand hast wie dein Gegner, fügt diese Attacke 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+",
@@ -57,16 +57,16 @@ const card: Card = {
 	retreat: 1,
 
 	evolveFrom: {
-		en: "Woobat",
-		fr: "Chovsourir",
-		es: "Woobat",
-		it: "Woobat",
-		pt: "Woobat",
-		de: "Fleknoil"
+		'en-us': "Woobat",
+		'fr-fr': "Chovsourir",
+		'es-es': "Woobat",
+		'it-it': "Woobat",
+		'pt-br': "Woobat",
+		'de-de': "Fleknoil"
 	},
 
 	description: {
-		en: "The auspicious shape of this Pokémon's nose apparently led some regions to consider Swoobat a symbol of good luck."
+		'en-us': "The auspicious shape of this Pokémon's nose apparently led some regions to consider Swoobat a symbol of good luck."
 	},
 
 	dexId: [528],

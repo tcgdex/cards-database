@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "タタッコ"
+		'ja-jp': "タタッコ"
 	},
 
 	illustrator: "USGMEN",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "餌を 求め 地上に 上がる。 好奇心旺盛で 目にしたものは とりあえず 触手で 殴る。"
+		'ja-jp': "餌を 求め 地上に 上がる。 好奇心旺盛で 目にしたものは とりあえず 触手で 殴る。"
 	},
 
 	stage: "Basic",
@@ -24,13 +24,13 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "ちょっとつっこむ"
+			'ja-jp': "ちょっとつっこむ"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "このポケモンにも10ダメージ。"
+			'ja-jp': "このポケモンにも10ダメージ。"
 		}
 	}],
 

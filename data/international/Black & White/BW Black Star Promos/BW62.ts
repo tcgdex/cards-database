@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Black Kyurem-EX",
-		fr: "Kyurem Noir ex",
+		'en-us': "Black Kyurem-EX",
+		'fr-fr': "Kyurem Noir ex",
 	},
 	illustrator: "Eske Yoshinob",
 	rarity: "Rare",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Fang",
-				fr: "Croc de Dragon",
+				'en-us': "Dragon Fang",
+				'fr-fr': "Croc de Dragon",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 60,
 
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Freeze Shock",
-				fr: "Éclair Gelé",
+				'en-us': "Freeze Shock",
+				'fr-fr': "Éclair Gelé",
 			},
 			effect: {
-				en: "This Pokémon can't attack during your next turn.",
-				fr: "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				'en-us': "This Pokémon can't attack during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
 			},
 			damage: 150,
 

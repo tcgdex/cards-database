@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scyther",
-		fr: "Insécateur",
-		es: "Scyther",
-		it: "Scyther",
-		pt: "Scyther",
-		de: "Sichlor"
+		'en-us': "Scyther",
+		'fr-fr': "Insécateur",
+		'es-es': "Scyther",
+		'it-it': "Scyther",
+		'pt-br': "Scyther",
+		'de-de': "Sichlor"
 	},
 
 	illustrator: "Uta",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Quick Blow",
-			fr: "Coup d'Poing Éclair",
-			es: "Golpe Rápido",
-			it: "Colpo Veloce",
-			pt: "Golpe Rápido",
-			de: "Schnellschlag"
+			'en-us': "Quick Blow",
+			'fr-fr': "Coup d'Poing Éclair",
+			'es-es': "Golpe Rápido",
+			'it-it': "Colpo Veloce",
+			'pt-br': "Golpe Rápido",
+			'de-de': "Schnellschlag"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
-			pt: "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
+			'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
@@ -56,7 +56,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The large, wickedly sharp scythes on its forearms are truly fearsome weapons. Prey's attempts to flee are unfailingly thwarted by this Pokémon's nimble motions.",
+		'en-us': "The large, wickedly sharp scythes on its forearms are truly fearsome weapons. Prey's attempts to flee are unfailingly thwarted by this Pokémon's nimble motions.",
 	},
 
 	variants: [

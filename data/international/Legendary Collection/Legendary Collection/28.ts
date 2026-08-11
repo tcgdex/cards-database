@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Magneton"
+		'en-us': "Magneton"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magnemite"
+		'en-us': "Magnemite"
 	},
 
 	stage: "Stage1",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sonicboom"
+				'en-us': "Sonicboom"
 			},
 			effect: {
-				en: "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
+				'en-us': "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
 			},
 			damage: 20,
 
@@ -48,10 +48,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Selfdestruct"
+				'en-us': "Selfdestruct"
 			},
 			effect: {
-				en: "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magneton does 100 damage to itself."
+				'en-us': "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magneton does 100 damage to itself."
 			},
 			damage: 100,
 
@@ -68,7 +68,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Formed by several Magnemites linked together. They frequently appear when sunspots flare up."
+		'en-us': "Formed by several Magnemites linked together. They frequently appear when sunspots flare up."
 	},
 
 	variants: [

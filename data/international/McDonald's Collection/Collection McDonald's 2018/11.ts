@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Ptitard",
+		'fr-fr': "Ptitard",
 	},
 
 	rarity: "None",
@@ -29,18 +29,18 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				fr: "Pistolet à O"
+				'fr-fr': "Pistolet à O"
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				fr: "Hydrocanon"
+				'fr-fr': "Hydrocanon"
 			},
 			damage: "30+",
 			effect: {
-				fr: "Cette attaque inflige 10 dégâts supplémentaires multipliés par le nombre d'Énergies [Water] attachées à ce Pokémon."
+				'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires multipliés par le nombre d'Énergies [Water] attachées à ce Pokémon."
 			}
 		},
 	],

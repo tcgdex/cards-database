@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Regice ex",
-		fr: "Regice ex",
-		de: "Regice ex"
+		'en-us': "Regice ex",
+		'fr-fr': "Regice ex",
+		'de-de': "Regice ex"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -28,14 +28,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Crystal Body",
-				fr: "Corps de cristal",
-				de: "Crystal Body"
+				'en-us': "Crystal Body",
+				'fr-fr': "Corps de cristal",
+				'de-de': "Crystal Body"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, except damage, done to Regice ex by the Attacking Pokémon.",
-				fr: "Prévenez tous les effets d'attaques, dégâts exclus, infligés à Regice ex par le Pokémon Attaquant.",
-				de: "Prevent all effects of attacks, except damage, done to regice ex by the Attacking Pokémon."
+				'en-us': "Prevent all effects of attacks, except damage, done to Regice ex by the Attacking Pokémon.",
+				'fr-fr': "Prévenez tous les effets d'attaques, dégâts exclus, infligés à Regice ex par le Pokémon Attaquant.",
+				'de-de': "Prevent all effects of attacks, except damage, done to regice ex by the Attacking Pokémon."
 			}
 		},
 	],
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Freeze Lock",
-				fr: "Verrou-gel",
-				de: "Freeze Lock"
+				'en-us': "Freeze Lock",
+				'fr-fr': "Verrou-gel",
+				'de-de': "Freeze Lock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent can't attach Energy cards from his or her hand to the Defending Pokémon during his or her next turn.",
-				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas attacher de cartes Énergie de sa main au Pokémon Défenseur lors de son prochain tour.",
-				de: "Flip a coin. If heads, your opponent can't attach Energy cards from his or her hand to the Defending Pokémon during this or her next turn."
+				'en-us': "Flip a coin. If heads, your opponent can't attach Energy cards from his or her hand to the Defending Pokémon during his or her next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, votre adversaire ne peut pas attacher de cartes Énergie de sa main au Pokémon Défenseur lors de son prochain tour.",
+				'de-de': "Flip a coin. If heads, your opponent can't attach Energy cards from his or her hand to the Defending Pokémon during this or her next turn."
 			},
 			damage: 60,
 

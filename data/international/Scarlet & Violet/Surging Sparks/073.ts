@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Marill",
-		fr: "Marill",
-		es: "Marill",
-		it: "Marill",
-		pt: "Marill",
-		de: "Marill"
+		'en-us': "Marill",
+		'fr-fr': "Marill",
+		'es-es': "Marill",
+		'it-it': "Marill",
+		'pt-br': "Marill",
+		'de-de': "Marill"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Rolling Tackle",
-			fr: "Roulé-Boulé",
-			es: "Placaje Giro",
-			it: "Rollazione",
-			pt: "Golpe de Colisão Rolante",
-			de: "Rolltackle"
+			'en-us': "Rolling Tackle",
+			'fr-fr': "Roulé-Boulé",
+			'es-es': "Placaje Giro",
+			'it-it': "Rollazione",
+			'pt-br': "Golpe de Colisão Rolante",
+			'de-de': "Rolltackle"
 		},
 
 		damage: 20

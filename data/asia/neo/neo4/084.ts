@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Shining Steelix",
+		'ja-jp': "Shining Steelix",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Metal", "Metal", "Fighting", "Fighting"],
 			name: {
-				ja: "地球を砕く",
+				'ja-jp': "地球を砕く",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は各ベンチポケモン（あなたと相手）に10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）尾の場合、この攻撃は何もしません。いずれにせよ、Shining Steelixは次のターン中に攻撃することはできません。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は各ベンチポケモン（あなたと相手）に10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）尾の場合、この攻撃は何もしません。いずれにせよ、Shining Steelixは次のターン中に攻撃することはできません。",
 			},
 			damage: 80,
 		},

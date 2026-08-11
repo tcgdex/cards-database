@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [815],
 
 	name: {
-		en: "Cinderace V",
-		fr: "Pyrobut V",
-		es: "Cinderace V",
-		it: "Cinderace V",
-		pt: "Cinderace V",
-		de: "Liberlo V"
+		'en-us': "Cinderace V",
+		'fr-fr': "Pyrobut V",
+		'es-es': "Cinderace V",
+		'it-it': "Cinderace V",
+		'pt-br': "Cinderace V",
+		'de-de': "Liberlo V"
 	},
 
 	illustrator: "5ban Graphics",
@@ -22,20 +22,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Field Runner",
-				fr: "Coureur de Fond",
-				es: "",
-				it: "",
-				pt: "",
-				de: ""
+				'en-us': "Field Runner",
+				'fr-fr': "Coureur de Fond",
+				'es-es': "",
+				'it-it': "",
+				'pt-br': "",
+				'de-de': ""
 			},
 			effect: {
-				en: "If a Stadium is in play, this Pokémon has no Retreat Cost.",
-				fr: "Si un Stade est en jeu, ce Pokémon n'a pas de Coût de Retraite.",
-				es: "Si hay un Estadio en juego, este Pokémon no tiene ningún Coste de Retirada.",
-				it: "Se c'è in gioco una carta Stadio, questo Pokémon non ha costo di ritirata.",
-				pt: "Se um Estádio estiver em jogo, este Pokémon não terá custo de Recuo.",
-				de: "Wenn eine Stadionkarte im Spiel ist, hat dieses Pokémon keine Rückzugskosten."
+				'en-us': "If a Stadium is in play, this Pokémon has no Retreat Cost.",
+				'fr-fr': "Si un Stade est en jeu, ce Pokémon n'a pas de Coût de Retraite.",
+				'es-es': "Si hay un Estadio en juego, este Pokémon no tiene ningún Coste de Retirada.",
+				'it-it': "Se c'è in gioco una carta Stadio, questo Pokémon non ha costo di ritirata.",
+				'pt-br': "Se um Estádio estiver em jogo, este Pokémon não terá custo de Recuo.",
+				'de-de': "Wenn eine Stadionkarte im Spiel ist, hat dieses Pokémon keine Rückzugskosten."
 			},
 		},
 	],
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crimson Legs",
-				fr: "Jambes Carmin",
-				es: "Extremidades Carmesís",
-				it: "Arti Incandescenti",
-				pt: "Pernas Carmesins",
-				de: "Rote Beine"
+				'en-us': "Crimson Legs",
+				'fr-fr': "Jambes Carmin",
+				'es-es': "Extremidades Carmesís",
+				'it-it': "Arti Incandescenti",
+				'pt-br': "Pernas Carmesins",
+				'de-de': "Rote Beine"
 			},
 
 			damage: 140,

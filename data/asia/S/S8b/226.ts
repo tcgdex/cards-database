@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モルペコV-UNION",
+		'ja-jp': "モルペコV-UNION",
 	},
 
 	illustrator: "Yuu Nishida",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "ユニオンゲイン" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュから[L]エネルギーを2枚まで選び、このポケモンにつける。",
+				'ja-jp': "自分のトラッシュから[L]エネルギーを2枚まで選び、このポケモンにつける。",
 			},
 		},
 	],

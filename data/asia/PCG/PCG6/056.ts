@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グルードンスター",
+		'ja-jp': "グルードンスター",
 	},
 
 	rarity: "Shiny rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "重要なコレクション",
+				'ja-jp': "重要なコレクション",
 			},
 			effect: {
-				ja: "対戦相手が取った賞金の数を数えます。その多くのファイティングエネルギーカードまで廃棄の山を検索し、Groudon {{Star | This Pokemon}}にそれらを取り付けます。",
+				'ja-jp': "対戦相手が取った賞金の数を数えます。その多くのファイティングエネルギーカードまで廃棄の山を検索し、Groudon {{Star | This Pokemon}}にそれらを取り付けます。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fighting", "Fighting", "Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "グラウンドスラッシュ",
+				'ja-jp': "グラウンドスラッシュ",
 			},
 			effect: {
-				ja: "Groudon {{star | this Pokemon}}に取り付けられたファイティングエネルギーカードを捨てます。",
+				'ja-jp': "Groudon {{star | this Pokemon}}に取り付けられたファイティングエネルギーカードを捨てます。",
 			},
 			damage: 80,
 		},

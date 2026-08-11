@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "aipom",
+		'ja-jp': "aipom",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "盗みます",
+				'ja-jp': "盗みます",
 			},
 			effect: {
-				ja: "Shuffle Aipomとすべてのカードがデッキに取り付けられています。コインをひっくり返します。頭の場合は、廃棄の山からカードをデッキにシャッフルします。",
+				'ja-jp': "Shuffle Aipomとすべてのカードがデッキに取り付けられています。コインをひっくり返します。頭の場合は、廃棄の山からカードをデッキにシャッフルします。",
 			},
 		},
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "テールラップ",
+				'ja-jp': "テールラップ",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 		},
 	],

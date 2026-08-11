@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Pikachu"
+		'id-id': "Pikachu"
 	},
 
 	illustrator: "kodama",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Dikatakan saat beberapa Pikachu berkumpul, listrik dahsyat akan terkumpul di sana dan petir dapat menyambar."
+		'id-id': "Dikatakan saat beberapa Pikachu berkumpul, listrik dahsyat akan terkumpul di sana dan petir dapat menyambar."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Percikan Elektromagnetik"
+			'id-id': "Percikan Elektromagnetik"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan sejumlah 10 kepada 1 Pokémon lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 10 kepada 1 Pokémon lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
 		},
 
 		cost: ["Lightning"]

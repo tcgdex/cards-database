@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Skiddo",
-		fr: "Cabriolaine",
-		es: "Skiddo",
-		it: "Skiddo",
-		pt: "Skiddo",
-		de: "Mähikel"
+		'en-us': "Skiddo",
+		'fr-fr': "Cabriolaine",
+		'es-es': "Skiddo",
+		'it-it': "Skiddo",
+		'pt-br': "Skiddo",
+		'de-de': "Mähikel"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lead",
-				fr: "Mentor",
-				es: "Liderazgo",
-				it: "Guidare",
-				pt: "Liderar",
-				de: "Führen"
+				'en-us': "Lead",
+				'fr-fr': "Mentor",
+				'es-es': "Liderazgo",
+				'it-it': "Guidare",
+				'pt-br': "Liderar",
+				'de-de': "Führen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your deck for a Supporter card, reveal it, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, cherchez une carte Supporter dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
-				es: "Lanza 1 moneda. Si sale cara, busca en tu baraja 1 carta de Partidario, enséñala y ponla en tu mano. Baraja las cartas de tu baraja después.",
-				it: "Lancia una moneta. Se esce testa, cerca nel tuo mazzo una carta Aiuto, mostrala e aggiungila alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-				pt: "Jogue uma moeda. Se sair cara, procure em seu baralho um card de Apoiador, revele-o e coloque em sua mão. Em seguida, embaralhe seus cards.",
-				de: "Wirf 1 Münze. Durchsuche bei \"Kopf\" dein Deck nach 1 Unterstützerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				'en-us': "Flip a coin. If heads, search your deck for a Supporter card, reveal it, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cherchez une carte Supporter dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Lanza 1 moneda. Si sale cara, busca en tu baraja 1 carta de Partidario, enséñala y ponla en tu mano. Baraja las cartas de tu baraja después.",
+				'it-it': "Lancia una moneta. Se esce testa, cerca nel tuo mazzo una carta Aiuto, mostrala e aggiungila alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Jogue uma moeda. Se sair cara, procure em seu baralho um card de Apoiador, revele-o e coloque em sua mão. Em seguida, embaralhe seus cards.",
+				'de-de': "Wirf 1 Münze. Durchsuche bei \"Kopf\" dein Deck nach 1 Unterstützerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 40,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Thought to be one of the first Pokémon to live in harmony with humans, it has a placid disposition.",
+		'en-us': "Thought to be one of the first Pokémon to live in harmony with humans, it has a placid disposition.",
 	},
 
 	thirdParty: {

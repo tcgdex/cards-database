@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Snorunt",
-		fr: "Stalgamin",
-		es: "Snorunt",
-		it: "Snorunt",
-		pt: "Snorunt",
-		de: "Schneppke"
+		'en-us': "Snorunt",
+		'fr-fr': "Stalgamin",
+		'es-es': "Snorunt",
+		'it-it': "Snorunt",
+		'pt-br': "Snorunt",
+		'de-de': "Schneppke"
 	},
 
 	illustrator: "sui",
@@ -25,32 +25,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			es: "Coleccionar",
-			it: "Tassa",
-			pt: "Coleta",
-			de: "Sammeln"
+			'en-us': "Collect",
+			'fr-fr': "Collecte",
+			'es-es': "Coleccionar",
+			'it-it': "Tassa",
+			'pt-br': "Coleta",
+			'de-de': "Sammeln"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			es: "Roba 1 carta.",
-			it: "Pesca una carta.",
-			pt: "Compre 1 carta.",
-			de: "Ziehe 1 Karte."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'es-es': "Roba 1 carta.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre 1 carta.",
+			'de-de': "Ziehe 1 Karte."
 		}
 	}, {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Icy Snow",
-			fr: "Verglas",
-			es: "Nieve Helada",
-			it: "Geloneve",
-			pt: "Neve Congelada",
-			de: "Eisiger Schnee"
+			'en-us': "Icy Snow",
+			'fr-fr': "Verglas",
+			'es-es': "Nieve Helada",
+			'it-it': "Geloneve",
+			'pt-br': "Neve Congelada",
+			'de-de': "Eisiger Schnee"
 		},
 
 		damage: 20
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It's said that if they are seen at midnight, they'll cause heavy snow. They eat snow and ice to survive.",
+		'en-us': "It's said that if they are seen at midnight, they'll cause heavy snow. They eat snow and ice to survive.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Thundurus",
-		fr: "Fulguris",
+		'en-us': "Thundurus",
+		'fr-fr': "Fulguris",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Charge",
-				fr: "Chargeur",
+				'en-us': "Charge",
+				'fr-fr': "Chargeur",
 			},
 			effect: {
-				en: "Search your deck for a Lightning Energy card and attach it to this Pokémon. Shuffle your deck afterward.",
-				fr: "Cherchez une carte Énergie Lightning dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for a Lightning Energy card and attach it to this Pokémon. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez une carte Énergie Lightning dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Disaster Volt",
-				fr: "Éclair Désastre",
+				'en-us': "Disaster Volt",
+				'fr-fr': "Éclair Désastre",
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon.",
 			},
 			damage: 80,
 
@@ -68,7 +68,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.",
+		'en-us': "The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.",
 	},
 }
 

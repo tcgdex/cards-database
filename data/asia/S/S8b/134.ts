@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "活力の壺",
+		'ja-jp': "活力の壺",
 		'zh-tw': "活力之壺",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のトラッシュから「いちげきエネルギー」を2枚まで選び、相手に見せて、山札にもどして切る。",
+		'ja-jp': "自分のトラッシュから「いちげきエネルギー」を2枚まで選び、相手に見せて、山札にもどして切る。",
 		'zh-tw': "從自己的棄牌區選擇最多2張「一擊能量」卡，在給對手看過後放回牌庫並重洗。",
 	},
 

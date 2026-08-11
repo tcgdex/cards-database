@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Roselia",
-		fr: "Rosélia",
-		es: "Roselia",
-		it: "Roselia",
-		pt: "Roselia",
-		de: "Roselia"
+		'en-us': "Roselia",
+		'fr-fr': "Rosélia",
+		'es-es': "Roselia",
+		'it-it': "Roselia",
+		'pt-br': "Roselia",
+		'de-de': "Roselia"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Needling Sting",
-				fr: "Piqûre Piquante",
+				'en-us': "Needling Sting",
+				'fr-fr': "Piqûre Piquante",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 10,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The more healthy the Roselia, the more pleasant its flowers' aroma. Its scent deeply relaxes people.",
+		'en-us': "The more healthy the Roselia, the more pleasant its flowers' aroma. Its scent deeply relaxes people.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オーロット&ヨノワールGX",
+		'ja-jp': "オーロット&ヨノワールGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,14 +20,14 @@ const card: Card = {
 			damage: 150,
 			cost: ["Psychic", "Psychic", "Psychic"],
 			effect: {
-				ja: "手の手札からオモテを見ないで2枚選び、そのカードのオモテを見てから、相手の山札にもどして切る。",
+				'ja-jp': "手の手札からオモテを見ないで2枚選び、そのカードのオモテを見てから、相手の山札にもどして切る。",
 			},
 		},
 		{
 			name: { ja: "ペイルムーンGX" },
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "の相手の番の終わりに、このワザを受けたポケモンはきぜつする。追加で[超]エネルギーが1個ついているなら、相手のバトルポケモンについているエネルギーを、すべてトラッシュする。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "の相手の番の終わりに、このワザを受けたポケモンはきぜつする。追加で[超]エネルギーが1個ついているなら、相手のバトルポケモンについているエネルギーを、すべてトラッシュする。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

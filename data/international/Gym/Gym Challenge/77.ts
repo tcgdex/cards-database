@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Koga's Ekans"
+		'en-us': "Koga's Ekans"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Fast-Acting Poison"
+				'en-us': "Fast-Acting Poison"
 			},
 			effect: {
-				en: "Flip 2 coins. If both are heads, the Defending Pokémon is now Confused and Poisoned."
+				'en-us': "Flip 2 coins. If both are heads, the Defending Pokémon is now Confused and Poisoned."
 			},
 
 		},

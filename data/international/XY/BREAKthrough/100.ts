@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Ralts",
-		fr: "Tarsal",
-		es: "Ralts",
-		it: "Ralts",
-		pt: "Ralts",
-		de: "Trasla"
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal",
+		'es-es': "Ralts",
+		'it-it': "Ralts",
+		'pt-br': "Ralts",
+		'de-de': "Trasla"
 	},
 
 	illustrator: "Aya Kusube",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mumble",
-				fr: "Murmure",
-				es: "Farfullar",
-				it: "Borbottio",
-				pt: "Resmungo",
-				de: "Grummeln"
+				'en-us': "Mumble",
+				'fr-fr': "Murmure",
+				'es-es': "Farfullar",
+				'it-it': "Borbottio",
+				'pt-br': "Resmungo",
+				'de-de': "Grummeln"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magical Shot",
-				fr: "Coup Magique",
-				es: "Disparo Mágico",
-				it: "Magicolpo",
-				pt: "Tiro Mágico",
-				de: "Magischer Schuss"
+				'en-us': "Magical Shot",
+				'fr-fr': "Coup Magique",
+				'es-es': "Disparo Mágico",
+				'it-it': "Magicolpo",
+				'pt-br': "Tiro Mágico",
+				'de-de': "Magischer Schuss"
 			},
 
 			damage: 20,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is highly attuned to the emotions of people and Pokémon. It hides if it senses hostility.",
+		'en-us': "It is highly attuned to the emotions of people and Pokémon. It hides if it senses hostility.",
 	},
 
 	thirdParty: {

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โกรอนดะ",
-		id: "Pangoro"
+		'th-th': "โกรอนดะ",
+		'id-id': "Pangoro"
 	},
 
 	illustrator: "nagimiso",
@@ -15,34 +15,34 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		th: "ใช้ใบไม้อ่านการเคลื่อนไหวของคู่ต่อสู้ ใช้หมัดเดียวบดรถบรรทุก เทท้ายขนาดใหญ่ให้เป็นเศษ ๆ ได้",
-		id: "Pangoro membaca gerakan lawan menggunakan daunnya. Ia memiliki pukulan yang mampu membuat truk jungkit besar sekalipun menjadi rongsokan dengan sekali pukul."
+		'th-th': "ใช้ใบไม้อ่านการเคลื่อนไหวของคู่ต่อสู้ ใช้หมัดเดียวบดรถบรรทุก เทท้ายขนาดใหญ่ให้เป็นเศษ ๆ ได้",
+		'id-id': "Pangoro membaca gerakan lawan menggunakan daunnya. Ia memiliki pukulan yang mampu membuat truk jungkit besar sekalipun menjadi rongsokan dengan sekali pukul."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "ตอกย้ำซ้ำเติม",
-			id: "Cari Gara-gara"
+			'th-th': "ตอกย้ำซ้ำเติม",
+			'id-id': "Cari Gara-gara"
 		},
 
 		effect: {
-			th: "เลือกท่าต่อสู้ที่โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามมี 1 ท่า เทิร์นถัดไปของ ฝ่ายตรงข้าม โปเกมอนที่ได้รับท่าต่อสู้นี้ จะใช้ท่าต่อสู้ที่ถูกเลือกไว้ไม่ได้",
-			id: "Pilih 1 serangan yang dimiliki Pokémon Bertarung lawan. Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat menggunakan serangan yang telah dipilih."
+			'th-th': "เลือกท่าต่อสู้ที่โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามมี 1 ท่า เทิร์นถัดไปของ ฝ่ายตรงข้าม โปเกมอนที่ได้รับท่าต่อสู้นี้ จะใช้ท่าต่อสู้ที่ถูกเลือกไว้ไม่ได้",
+			'id-id': "Pilih 1 serangan yang dimiliki Pokémon Bertarung lawan. Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat menggunakan serangan yang telah dipilih."
 		},
 
 		damage: 30,
 		cost: ["Darkness"]
 	}, {
 		name: {
-			th: "พาวเวอร์แท็กเกิล",
-			id: "Power Tackle"
+			'th-th': "พาวเวอร์แท็กเกิล",
+			'id-id': "Power Tackle"
 		},
 
 		effect: {
-			th: "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'th-th': "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 160,

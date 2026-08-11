@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コソクムシ",
+		'ja-jp': "コソクムシ",
 	},
 
 	illustrator: "match",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "臆病で たくさんの 足を ばたつかせ 必死に 逃げまわる。 逃げたあとは ピカピカ 綺麗。",
+		'ja-jp': "臆病で たくさんの 足を ばたつかせ 必死に 逃げまわる。 逃げたあとは ピカピカ 綺麗。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "チョロにげ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
+				'ja-jp': "このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
 			},
 		},
 		{

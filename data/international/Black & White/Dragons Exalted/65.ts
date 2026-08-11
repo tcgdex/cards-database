@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Roggenrola",
-		fr: "Nodulithe",
-		es: "Roggenrola",
-		it: "Roggenrola",
-		pt: "Roggenrola",
-		de: "Kiesling"
+		'en-us': "Roggenrola",
+		'fr-fr': "Nodulithe",
+		'es-es': "Roggenrola",
+		'it-it': "Roggenrola",
+		'pt-br': "Roggenrola",
+		'de-de': "Kiesling"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stone Edge",
-				fr: "Lame de Roc",
+				'en-us': "Stone Edge",
+				'fr-fr': "Lame de Roc",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 10,
 
@@ -52,8 +52,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer In",
-				fr: "Enfoncer",
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncer",
 			},
 
 			damage: 40,
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "They were discovered a hundred years ago in an earthquake fissure. Inside each one is an energy core.",
+		'en-us': "They were discovered a hundred years ago in an earthquake fissure. Inside each one is an energy core.",
 	},
 
 	thirdParty: {

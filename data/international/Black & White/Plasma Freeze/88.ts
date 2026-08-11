@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Raticate",
-		fr: "Rattatac",
-		es: "Raticate",
-		it: "Raticate",
-		pt: "Raticate",
-		de: "Rattikarl"
+		'en-us': "Raticate",
+		'fr-fr': "Rattatac",
+		'es-es': "Raticate",
+		'it-it': "Raticate",
+		'pt-br': "Raticate",
+		'de-de': "Rattikarl"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rattata",
-		fr: "Rattata",
+		'en-us': "Rattata",
+		'fr-fr': "Rattata",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Transfer Junk",
-				fr: "Transfert de Camelote",
+				'en-us': "Transfer Junk",
+				'fr-fr': "Transfert de Camelote",
 			},
 			effect: {
-				en: "Put a Team Plasma Pokémon, a Team Plasma Trainer card, and a Team Plasma Energy card from your discard pile into your hand.",
-				fr: "Ajoutez un Pokémon de la Team Plasma, une carte Dresseur de la Team Plasma et une carte Énergie de la Team Plasma de votre pile de défausse à votre main.",
+				'en-us': "Put a Team Plasma Pokémon, a Team Plasma Trainer card, and a Team Plasma Energy card from your discard pile into your hand.",
+				'fr-fr': "Ajoutez un Pokémon de la Team Plasma, une carte Dresseur de la Team Plasma et une carte Énergie de la Team Plasma de votre pile de défausse à votre main.",
 			},
 
 		},
@@ -54,8 +54,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
 			},
 
 			damage: 30,
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "With its long fangs, this surprisingly violent Pokémon can gnaw away even thick concrete with ease.",
+		'en-us': "With its long fangs, this surprisingly violent Pokémon can gnaw away even thick concrete with ease.",
 	},
 
 	thirdParty: {

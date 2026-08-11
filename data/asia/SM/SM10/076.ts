@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カビゴン",
+		'ja-jp': "カビゴン",
 	},
 
 	illustrator: "kanahei",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "食うか 寝るかしか していないが なにかの きっかけで 本気を出すと 凄い パワーを 発揮するらしい。",
+		'ja-jp': "食うか 寝るかしか していないが なにかの きっかけで 本気を出すと 凄い パワーを 発揮するらしい。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ながらぐい" },
 			effect: {
-				ja: "ポケモンチェックのたび、このポケモンのHPを「10」回復する。",
+				'ja-jp': "ポケモンチェックのたび、このポケモンのHPを「10」回復する。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが「TAG TEAM」なら、120ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが「TAG TEAM」なら、120ダメージ追加。",
 			},
 		},
 	],

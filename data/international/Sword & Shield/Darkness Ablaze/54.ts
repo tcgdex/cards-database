@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	name: {
-		en: "Arctovish",
-		fr: "Hydragla",
-		es: "Arctovish",
-		it: "Arctovish",
-		pt: "Arctovish",
-		de: "Pescryodon"
+		'en-us': "Arctovish",
+		'fr-fr': "Hydragla",
+		'es-es': "Arctovish",
+		'it-it': "Arctovish",
+		'pt-br': "Arctovish",
+		'de-de': "Pescryodon"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -23,12 +23,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rare Fossil",
-		fr: "Fossile Rare",
-		es: "Fósil Raro",
-		it: "Fossile Raro",
-		pt: "Fóssil Raro",
-		de: "Seltenes Fossil"
+		'en-us': "Rare Fossil",
+		'fr-fr': "Fossile Rare",
+		'es-es': "Fósil Raro",
+		'it-it': "Fossile Raro",
+		'pt-br': "Fóssil Raro",
+		'de-de': "Seltenes Fossil"
 	},
 
 	attacks: [
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hard Face",
-				fr: "Visage Dur",
-				es: "Cara Resistente",
-				it: "Musoduro",
-				pt: "Cara Dura",
-				de: "Harte Oberfläche"
+				'en-us': "Hard Face",
+				'fr-fr': "Visage Dur",
+				'es-es': "Cara Resistente",
+				'it-it': "Musoduro",
+				'pt-br': "Cara Dura",
+				'de-de': "Harte Oberfläche"
 			},
 			effect: {
-				en: "During your opponent's next turn, this Pokémon takes 60 less damage from attacks (after applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 60 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-				es: "Durante el próximo turno de tu rival, los ataques hacen 60 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-				it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 60 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-				pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 60 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
-				de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 60 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "During your opponent's next turn, this Pokémon takes 60 less damage from attacks (after applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, ce Pokémon subit 60 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+				'es-es': "Durante el próximo turno de tu rival, los ataques hacen 60 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+				'it-it': "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 60 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+				'pt-br': "Durante o próximo turno do seu oponente, este Pokémon receberá 60 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
+				'de-de': "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 60 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 90,
 
@@ -65,20 +65,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cold Breath",
-				fr: "Souffle Froid",
-				es: "Aliento Frío",
-				it: "Alito Ibernante",
-				pt: "Respiração Fria",
-				de: "Eisiger Atem"
+				'en-us': "Cold Breath",
+				'fr-fr': "Souffle Froid",
+				'es-es': "Aliento Frío",
+				'it-it': "Alito Ibernante",
+				'pt-br': "Respiração Fria",
+				'de-de': "Eisiger Atem"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent's Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 130,
 
@@ -99,7 +99,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Though it's able to capture prey by freezing its surroundings, it has trouble eating the prey afterward because its mouth is on top of its head."
+		'en-us': "Though it's able to capture prey by freezing its surroundings, it has trouble eating the prey afterward because its mouth is on top of its head."
 	},
 
 	variants: [

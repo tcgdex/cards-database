@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shuppet",
-		fr: "Polichombr",
-		es: "Shuppet",
-		it: "Shuppet",
-		pt: "Shuppet",
-		de: "Shuppet"
+		'en-us': "Shuppet",
+		'fr-fr': "Polichombr",
+		'es-es': "Shuppet",
+		'it-it': "Shuppet",
+		'pt-br': "Shuppet",
+		'de-de': "Shuppet"
 	},
 
 	illustrator: "OKACHEKE",
@@ -22,12 +22,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Will-O-Wisp",
-			fr: "Feu Follet",
-			es: "Fuego Fatuo",
-			it: "Fuocofatuo",
-			pt: "Fogo Fátuo",
-			de: "Irrlicht"
+			'en-us': "Will-O-Wisp",
+			'fr-fr': "Feu Follet",
+			'es-es': "Fuego Fatuo",
+			'it-it': "Fuocofatuo",
+			'pt-br': "Fogo Fátuo",
+			'de-de': "Irrlicht"
 		},
 
 		damage: 20,
@@ -51,7 +51,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "There's a proverb that says, \"Shun the house where Shuppet gather in the growing dusk.\""
+		'en-us': "There's a proverb that says, \"Shun the house where Shuppet gather in the growing dusk.\""
 	},
 
 	variants: [

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Toxicroak",
-		fr: "Coatox",
-		es: "Toxicroak",
-		it: "Toxicroak",
-		pt: "Toxicroak",
-		de: "Toxiquak"
+		'en-us': "Toxicroak",
+		'fr-fr': "Coatox",
+		'es-es': "Toxicroak",
+		'it-it': "Toxicroak",
+		'pt-br': "Toxicroak",
+		'de-de': "Toxiquak"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -22,12 +22,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Croagunk",
-		fr: "Cradopaud",
-		es: "Croagunk",
-		it: "Croagunk",
-		pt: "Croagunk",
-		de: "Glibunkel"
+		'en-us': "Croagunk",
+		'fr-fr': "Cradopaud",
+		'es-es': "Croagunk",
+		'it-it': "Croagunk",
+		'pt-br': "Croagunk",
+		'de-de': "Glibunkel"
 	},
 
 	stage: "Stage1",
@@ -36,20 +36,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "More Poison",
-				fr: "Poison Sans Fin",
-				es: "Veneno Plus",
-				it: "Più Veleno",
-				pt: "Veneno a Mais",
-				de: "Giftschub"
+				'en-us': "More Poison",
+				'fr-fr': "Poison Sans Fin",
+				'es-es': "Veneno Plus",
+				'it-it': "Più Veleno",
+				'pt-br': "Veneno a Mais",
+				'de-de': "Giftschub"
 			},
 			effect: {
-				en: "Put 2 more damage counters on your opponent's Poisoned Pokémon during Pokémon Checkup.",
-				fr: "Pendant le Contrôle Pokémon, placez 2 marqueurs de dégâts supplémentaires sur les Pokémon Empoisonnés de votre adversaire.",
-				es: "Pon 2 contadores de daño más en los Pokémon Envenenados de tu rival durante el Chequeo Pokémon.",
-				it: "Metti altri due segnalini danno sui Pokémon avvelenati del tuo avversario durante il controllo Pokémon.",
-				pt: "Coloque 2 contadores de dano a mais nos Pokémon Envenenados do seu oponente durante o Checape Pokémon.",
-				de: "Lege beim Pokémon-Check 2 Schadensmarken mehr auf die vergifteten Pokémon deines Gegners."
+				'en-us': "Put 2 more damage counters on your opponent's Poisoned Pokémon during Pokémon Checkup.",
+				'fr-fr': "Pendant le Contrôle Pokémon, placez 2 marqueurs de dégâts supplémentaires sur les Pokémon Empoisonnés de votre adversaire.",
+				'es-es': "Pon 2 contadores de daño más en los Pokémon Envenenados de tu rival durante el Chequeo Pokémon.",
+				'it-it': "Metti altri due segnalini danno sui Pokémon avvelenati del tuo avversario durante il controllo Pokémon.",
+				'pt-br': "Coloque 2 contadores de dano a mais nos Pokémon Envenenados do seu oponente durante o Checape Pokémon.",
+				'de-de': "Lege beim Pokémon-Check 2 Schadensmarken mehr auf die vergifteten Pokémon deines Gegners."
 			},
 		},
 	],
@@ -62,20 +62,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Claws",
-				fr: "Griffes Empoisonnées",
-				es: "Garras Venenosas",
-				it: "Velenartigli",
-				pt: "Garras Venenosas",
-				de: "Giftkrallen"
+				'en-us': "Poison Claws",
+				'fr-fr': "Griffes Empoisonnées",
+				'es-es': "Garras Venenosas",
+				'it-it': "Velenartigli",
+				'pt-br': "Garras Venenosas",
+				'de-de': "Giftkrallen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Envenenado.",
-				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Envenenado.",
+				'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt vergiftet."
 			},
 			damage: 70,
 
@@ -100,7 +100,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It bounces toward opponents and gouges them with poisonous claws. No more than a scratch is needed to knock out its adversaries."
+		'en-us': "It bounces toward opponents and gouges them with poisonous claws. No more than a scratch is needed to knock out its adversaries."
 	},
 
 	dexId: [454],

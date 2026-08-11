@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Machop",
+		'en-us': "Machop",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Low Kick",
+				'en-us': "Low Kick",
 			},
 
 			damage: 20,
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Loves to build its muscles. It trains in all styles of martial arts to become even stronger.",
+		'en-us': "Loves to build its muscles. It trains in all styles of martial arts to become even stronger.",
 	},
 
 

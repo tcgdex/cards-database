@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Sawk",
-		fr: "Karaclée",
-		es: "Sawk",
-		it: "Sawk",
-		pt: "Sawk",
-		de: "Karadonis"
+		'en-us': "Sawk",
+		'fr-fr': "Karaclée",
+		'es-es': "Sawk",
+		'it-it': "Sawk",
+		'pt-br': "Sawk",
+		'de-de': "Karadonis"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Five Fierce Chops",
-				fr: "Volée de Coups",
+				'en-us': "Five Fierce Chops",
+				'fr-fr': "Volée de Coups",
 			},
 			effect: {
-				en: "Flip 5 coins. This attack does 20 damage times the number of heads. This Pokémon can't attack during your next turn.",
-				fr: "Lancez 5 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face. Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				'en-us': "Flip 5 coins. This attack does 20 damage times the number of heads. This Pokémon can't attack during your next turn.",
+				'fr-fr': "Lancez 5 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face. Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
 			},
 			damage: 20,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Tying their belts gets them pumped and makes their punches more destructive. Disturbing their training angers them.",
+		'en-us': "Tying their belts gets them pumped and makes their punches more destructive. Disturbing their training angers them.",
 	},
 
 	thirdParty: {

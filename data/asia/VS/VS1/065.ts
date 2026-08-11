@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャニーンのアリアドス",
+		'ja-jp': "ジャニーンのアリアドス",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ストリングショット",
+				'ja-jp': "ストリングショット",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 		},
 		{
 			cost: ["Grass", "Grass", "Colorless"],
 			name: {
-				ja: "毒の牙",
+				'ja-jp': "毒の牙",
 			},
 			effect: {
-				ja: "防御ポケモンは現在中毒になっています。",
+				'ja-jp': "防御ポケモンは現在中毒になっています。",
 			},
 			damage: 20,
 		},

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Gogoat",
-		fr: "Chevroum",
-		es: "Gogoat",
-		it: "Gogoat",
-		pt: "Gogoat",
-		de: "Chevrumm"
+		'en-us': "Gogoat",
+		'fr-fr': "Chevroum",
+		'es-es': "Gogoat",
+		'it-it': "Gogoat",
+		'pt-br': "Gogoat",
+		'de-de': "Chevrumm"
 	},
 
 	illustrator: "You Iribi",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Skiddo",
-		fr: "Cabriolaine",
+		'en-us': "Skiddo",
+		'fr-fr': "Cabriolaine",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Sap Sipper",
-				fr: "Herbivore",
-				es: "Herbívoro",
-				it: "Mangiaerba",
-				pt: "Engolidor de Seiva",
-				de: "Vegetarier"
+				'en-us': "Sap Sipper",
+				'fr-fr': "Herbivore",
+				'es-es': "Herbívoro",
+				'it-it': "Mangiaerba",
+				'pt-br': "Engolidor de Seiva",
+				'de-de': "Vegetarier"
 			},
 			effect: {
-				en: "This Pokémon’s attacks do 80 more damage to your opponent’s Grass Pokémon (before applying Weakness and Resistance).",
-				fr: "Les attaques de ce Pokémon infligent 80 dégâts supplémentaires aux Pokémon Grass de votre adversaire (avant application de la Faiblesse et de la Résistance).",
-				es: "Los ataques de este Pokémon hacen 80 puntos de daño más a los Pokémon Grass de tu rival (antes de aplicar Debilidad y Resistencia).",
-				it: "Gli attacchi di questo Pokémon infliggono 80 danni in più ai Pokémon Grass del tuo avversario, prima di aver applicato debolezza e resistenza.",
-				pt: "Os ataques deste Pokémon causam 80 pontos de dano a mais aos Pokémon Grass do seu oponente (antes de aplicar Fraqueza e Resistência).",
-				de: "Die Attacken dieses Pokémon fügen den Grass-Pokémon deines Gegners 80 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "This Pokémon’s attacks do 80 more damage to your opponent’s Grass Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Les attaques de ce Pokémon infligent 80 dégâts supplémentaires aux Pokémon Grass de votre adversaire (avant application de la Faiblesse et de la Résistance).",
+				'es-es': "Los ataques de este Pokémon hacen 80 puntos de daño más a los Pokémon Grass de tu rival (antes de aplicar Debilidad y Resistencia).",
+				'it-it': "Gli attacchi di questo Pokémon infliggono 80 danni in più ai Pokémon Grass del tuo avversario, prima di aver applicato debolezza e resistenza.",
+				'pt-br': "Os ataques deste Pokémon causam 80 pontos de dano a mais aos Pokémon Grass do seu oponente (antes de aplicar Fraqueza e Resistência).",
+				'de-de': "Die Attacken dieses Pokémon fügen den Grass-Pokémon deines Gegners 80 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],
@@ -63,20 +63,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Leech",
-				fr: "Encornebois",
-				es: "Asta Drenaje",
-				it: "Legnicorno",
-				pt: "Chifre Sugador",
-				de: "Holzgeweih"
+				'en-us': "Horn Leech",
+				'fr-fr': "Encornebois",
+				'es-es': "Asta Drenaje",
+				'it-it': "Legnicorno",
+				'pt-br': "Chifre Sugador",
+				'de-de': "Holzgeweih"
 			},
 			effect: {
-				en: "Heal 20 damage from this Pokémon.",
-				fr: "Soignez 20 dégâts à ce Pokémon.",
-				es: "Cura 20 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 20 danni.",
-				pt: "Cure 20 pontos de dano deste Pokémon.",
-				de: "Heile 20 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 20 damage from this Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à ce Pokémon.",
+				'es-es': "Cura 20 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 20 danni.",
+				'pt-br': "Cure 20 pontos de dano deste Pokémon.",
+				'de-de': "Heile 20 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 80,
 
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It can tell how its trainer is feeling by subtle shifts in the grip on its horns. This empathetic sense lets them run as if one being.",
+		'en-us': "It can tell how its trainer is feeling by subtle shifts in the grip on its horns. This empathetic sense lets them run as if one being.",
 	},
 
 	thirdParty: {

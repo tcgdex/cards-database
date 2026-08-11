@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サニーゴ",
+		'ja-jp': "サニーゴ",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "頭の 枝を 狙い ヒドイデが 追いかけてくると 自分で 枝を ポキリと 折って 逃げだすよ。",
+		'ja-jp': "頭の 枝を 狙い ヒドイデが 追いかけてくると 自分で 枝を ポキリと 折って 逃げだすよ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "バブルシュート" },
 			cost: ["Water"],
 			effect: {
-				ja: "相手のポケモン1匹に、このポケモンについている[水]エネルギーの数x20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、このポケモンについている[水]エネルギーの数x20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	name: {
-		en: "Rolycoly",
-		fr: "Charbi",
-		es: "Rolycoly",
-		it: "Rolycoly",
-		pt: "Rolycoly",
-		de: "Klonkett"
+		'en-us': "Rolycoly",
+		'fr-fr': "Charbi",
+		'es-es': "Rolycoly",
+		'it-it': "Rolycoly",
+		'pt-br': "Rolycoly",
+		'de-de': "Klonkett"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -23,12 +23,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 10,
@@ -52,7 +52,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Most of its body has the same composition as coal. Fittingly, this Pokémon was first discovered in coal mines about 400 years ago."
+		'en-us': "Most of its body has the same composition as coal. Fittingly, this Pokémon was first discovered in coal mines about 400 years ago."
 	},
 
 	variants: [

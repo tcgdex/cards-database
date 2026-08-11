@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Bronzor",
-		fr: "Archéomire",
-		es: "Bronzor",
-		it: "Bronzor",
-		pt: "Bronzor",
-		de: "Bronzel"
+		'en-us': "Bronzor",
+		'fr-fr': "Archéomire",
+		'es-es': "Bronzor",
+		'it-it': "Bronzor",
+		'pt-br': "Bronzor",
+		'de-de': "Bronzel"
 	},
 
 	illustrator: "Akira Komayama",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Ancient people believed that the pattern on Bronzor's back contained a mysterious power.",
+		'en-us': "Ancient people believed that the pattern on Bronzor's back contained a mysterious power.",
 	},
 
 	thirdParty: {

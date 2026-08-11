@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カプ・コケコ",
+		'ja-jp': "カプ・コケコ",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "目にも 止まらぬ スピードで 敵を かく乱する。 ひどく 怒りっぽいが なんで 怒ったかは すぐ 忘れる。",
+		'ja-jp': "目にも 止まらぬ スピードで 敵を かく乱する。 ひどく 怒りっぽいが なんで 怒ったかは すぐ 忘れる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「フラッシュボルト」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「フラッシュボルト」が使えない。",
 			},
 		},
 	],

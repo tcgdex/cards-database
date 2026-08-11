@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Vanillish",
-		fr: "Sorboul",
-		es: "Vanillish",
-		it: "Vanillish",
-		pt: "Vanillish",
-		de: "Gelatroppo"
+		'en-us': "Vanillish",
+		'fr-fr': "Sorboul",
+		'es-es': "Vanillish",
+		'it-it': "Vanillish",
+		'pt-br': "Vanillish",
+		'de-de': "Gelatroppo"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vanillite",
-		fr: "Sorbébé",
+		'en-us': "Vanillite",
+		'fr-fr': "Sorbébé",
 	},
 
 	stage: "Stage1",
@@ -40,8 +40,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Icy Snow",
-				fr: "Verglas",
+				'en-us': "Icy Snow",
+				'fr-fr': "Verglas",
 			},
 
 			damage: 30,
@@ -59,7 +59,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They cool down the surrounding air and create ice particles, which they use to freeze their foes.",
+		'en-us': "They cool down the surrounding air and create ice particles, which they use to freeze their foes.",
 	},
 
 	thirdParty: {

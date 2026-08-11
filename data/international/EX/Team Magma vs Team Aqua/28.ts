@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Lanturn",
-		fr: "Lanturn de Team Aqua",
-		de: "Team Aquas Lanturn"
+		'en-us': "Team Aqua's Lanturn",
+		'fr-fr': "Lanturn de Team Aqua",
+		'de-de': "Team Aquas Lanturn"
 	},
 
 	illustrator: "Jungo Suzuki",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Auxiliary Light",
-				fr: "Lumière subsidiaire",
-				de: "Auxiliary Light"
+				'en-us': "Auxiliary Light",
+				'fr-fr': "Lumière subsidiaire",
+				'de-de': "Auxiliary Light"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may attach a basic Energy card from your hand to Team Aqua's Lanturn. Put 2 damage counters on Team Aqua's Lanturn. This power can't be used if Team Aqua's Lanturn is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez attacher une carte Énergie de base de votre main à Lanturn de Team Aqua. Placez 2 marqueurs de dégât sur Lanturn de Team Aqua. Ce pouvoir ne peut pas être utilisé si Lanturn de Team Aqua est affecté par un État Spécial.",
-				de: "Once during your turn (before your attack), you may attach a basic Energy card from your hand to Team Aqua's Lanturn. Put 2 damage counters on Team Aqua's Lanturn. This power can't be used if Team Aqua's Lanturn is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), you may attach a basic Energy card from your hand to Team Aqua's Lanturn. Put 2 damage counters on Team Aqua's Lanturn. This power can't be used if Team Aqua's Lanturn is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez attacher une carte Énergie de base de votre main à Lanturn de Team Aqua. Placez 2 marqueurs de dégât sur Lanturn de Team Aqua. Ce pouvoir ne peut pas être utilisé si Lanturn de Team Aqua est affecté par un État Spécial.",
+				'de-de': "Once during your turn (before your attack), you may attach a basic Energy card from your hand to Team Aqua's Lanturn. Put 2 damage counters on Team Aqua's Lanturn. This power can't be used if Team Aqua's Lanturn is affected by a Special Condition."
 			}
 		},
 	],
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lightning Ball",
-				fr: "Boule éclair",
-				de: "Lightning Ball"
+				'en-us': "Lightning Ball",
+				'fr-fr': "Boule éclair",
+				'de-de': "Lightning Ball"
 			},
 
 			damage: 50,

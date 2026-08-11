@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダークライVSTAR",
+		'ja-jp': "ダークライVSTAR",
 		'zh-tw': "達克萊伊VSTAR",
 	},
 
@@ -19,11 +19,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "スターアビス",
+				'ja-jp': "スターアビス",
 				'zh-tw': "星星深淵",
 			},
 			effect: {
-				ja: "自分の番に使える。自分のトラッシュからグッズを2枚まで選び、相手に見せて、手札に加える。［対戦中、自分はVSTARパワーを1回しか使えない。］",
+				'ja-jp': "自分の番に使える。自分のトラッシュからグッズを2枚まで選び、相手に見せて、手札に加える。［対戦中、自分はVSTARパワーを1回しか使えない。］",
 				'zh-tw': "在自己的回合時可使用。從自己的棄牌區選擇最多2張物品卡，在給對手看過後加入手牌。[對戰中，己方只可使用1次【VSTAR】力量。]",
 			},
 		},
@@ -32,13 +32,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "あくのはどう",
+				'ja-jp': "あくのはどう",
 				'zh-tw': "惡之波動",
 			},
 			damage: "30+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の場のポケモンについている[D]エネルギーの数×30ダメージ追加。",
+				'ja-jp': "自分の場のポケモンについている[D]エネルギーの数×30ダメージ追加。",
 				'zh-tw': "增加自己的場上寶可夢身上附加的【惡】能量的數量×30點傷害。",
 			},
 		},
@@ -58,7 +58,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ダークライV",
+		'ja-jp': "ダークライV",
 	},
 
 	retreat: 2,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Skiploom",
-		fr: "Floravol",
-		de: "Hubelupf"
+		'en-us': "Skiploom",
+		'fr-fr': "Floravol",
+		'de-de': "Hubelupf"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Hoppip",
-		fr: "Granivol"
+		'en-us': "Hoppip",
+		'fr-fr': "Granivol"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poisonpowder",
-				fr: "Poudre toxik",
-				de: "Giftpuder"
+				'en-us': "Poisonpowder",
+				'fr-fr': "Poudre toxik",
+				'de-de': "Giftpuder"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 10,
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Stun Spore",
-				fr: "Para-spore",
-				de: "Stachelspore"
+				'en-us': "Stun Spore",
+				'fr-fr': "Para-spore",
+				'de-de': "Stachelspore"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -82,8 +82,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "The bloom on top of its head opens and closes as the temperature fluctuates up and down.",
-		fr: "La fleur du sommet de sa tête s'ouvre et se ferme en fonction des fluctuations de températures."
+		'en-us': "The bloom on top of its head opens and closes as the temperature fluctuates up and down.",
+		'fr-fr': "La fleur du sommet de sa tête s'ouvre et se ferme en fonction des fluctuations de températures."
 	},
 
 

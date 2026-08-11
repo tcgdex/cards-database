@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Feebas",
-		fr: "Barpau",
-		es: "Feebas",
-		it: "Feebas",
-		pt: "Feebas",
-		de: "Barschwa"
+		'en-us': "Feebas",
+		'fr-fr': "Barpau",
+		'es-es': "Feebas",
+		'it-it': "Feebas",
+		'pt-br': "Feebas",
+		'de-de': "Barschwa"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Add-a-Dash",
-				fr: "Rallonge",
+				'en-us': "Add-a-Dash",
+				'fr-fr': "Rallonge",
 			},
 			effect: {
-				en: "Flip 2 coins. For each heads, draw a card.",
-				fr: "Lancez 2 pièces. Pour chaque côté face, piochez une carte.",
+				'en-us': "Flip 2 coins. For each heads, draw a card.",
+				'fr-fr': "Lancez 2 pièces. Pour chaque côté face, piochez une carte.",
 			},
 
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water.",
+		'en-us': "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water.",
 	},
 
 	thirdParty: {

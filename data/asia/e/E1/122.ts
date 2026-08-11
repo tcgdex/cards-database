@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴーレム",
+		'ja-jp': "ゴーレム",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ロックボディ",
+				'ja-jp': "ロックボディ",
 			},
 			effect: {
-				ja: "ゴーレムへの攻撃によって与えられたすべての損傷は、衰弱と抵抗を適用した後）10増加します。",
+				'ja-jp': "ゴーレムへの攻撃によって与えられたすべての損傷は、衰弱と抵抗を適用した後）10増加します。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "岩の転倒",
+				'ja-jp': "岩の転倒",
 			},
 			effect: {
-				ja: "抵抗を適用しないでください。",
+				'ja-jp': "抵抗を適用しないでください。",
 			},
 			damage: 60,
 		},

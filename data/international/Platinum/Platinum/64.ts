@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Vigoroth",
-		fr: "Vigoroth",
-		de: "Muntier"
+		'en-us': "Vigoroth",
+		'fr-fr': "Vigoroth",
+		'de-de': "Muntier"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Slakoth",
-		fr: "Parecool"
+		'en-us': "Slakoth",
+		'fr-fr': "Parecool"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reckless Charge",
-				fr: "Attaque imprudente",
-				de: "Reckless Charge"
+				'en-us': "Reckless Charge",
+				'fr-fr': "Attaque imprudente",
+				'de-de': "Reckless Charge"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Vigoroth does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Vigoroth s'inflige 10 dégâts.",
-				de: "Flip a coin. If tails, Vigoroth does 10 damage to itself."
+				'en-us': "Flip a coin. If tails, Vigoroth does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Vigoroth s'inflige 10 dégâts.",
+				'de-de': "Flip a coin. If tails, Vigoroth does 10 damage to itself."
 			},
 			damage: 30,
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fight Back",
-				fr: "Rendre les coups",
-				de: "Fight Back"
+				'en-us': "Fight Back",
+				'fr-fr': "Rendre les coups",
+				'de-de': "Fight Back"
 			},
 			effect: {
-				en: "If Vigoroth has any damage counters on it, this attack does 50 damage plus 20 more damage.",
-				fr: "Si Vigoroth possède des marqueurs de dégât, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires.",
-				de: "If Vigoroth has any damage counters on it, this attack does 50 damage plus 20 more damage."
+				'en-us': "If Vigoroth has any damage counters on it, this attack does 50 damage plus 20 more damage.",
+				'fr-fr': "Si Vigoroth possède des marqueurs de dégât, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "If Vigoroth has any damage counters on it, this attack does 50 damage plus 20 more damage."
 			},
 			damage: "50+",
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its heart beats at a tenfold tempo, so it cannot sit still even for a moment."
+		'en-us': "Its heart beats at a tenfold tempo, so it cannot sit still even for a moment."
 	},
 
 	variants: [

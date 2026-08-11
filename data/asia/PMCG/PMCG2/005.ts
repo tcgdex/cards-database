@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マダツボミ",
+		'ja-jp': "マダツボミ",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "つる鞭",
+				'ja-jp': "つる鞭",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "家族を呼びます",
+				'ja-jp': "家族を呼びます",
 			},
 			effect: {
-				ja: "Bellsproutという名前の基本的なポケモンをデッキに検索し、ベンチに置きます。その後、デッキをシャッフルします。 （ベンチがいっぱいの場合、この攻撃を使用できません。）",
+				'ja-jp': "Bellsproutという名前の基本的なポケモンをデッキに検索し、ベンチに置きます。その後、デッキをシャッフルします。 （ベンチがいっぱいの場合、この攻撃を使用できません。）",
 			},
 
 		},

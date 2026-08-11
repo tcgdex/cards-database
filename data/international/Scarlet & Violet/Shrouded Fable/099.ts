@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Shrouded Fable"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Basic Metal Energy",
-		fr: "Énergie Metal de base",
-		es: "Energía Metal Básica",
-		it: "Energia base Metal",
-		pt: "Energia Metal Básica",
-		de: "Basis-Metal-Energie"
+		'en-us': "Basic Metal Energy",
+		'fr-fr': "Énergie Metal de base",
+		'es-es': "Energía Metal Básica",
+		'it-it': "Energia base Metal",
+		'pt-br': "Energia Metal Básica",
+		'de-de': "Basis-Metal-Energie"
 	},
 
 	rarity: "Hyper rare",

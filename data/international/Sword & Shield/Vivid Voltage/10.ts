@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [273],
 
 	name: {
-		en: "Seedot",
-		fr: "Grainipiot",
-		es: "Seedot",
-		it: "Seedot",
-		pt: "Seedot",
-		de: "Samurzel"
+		'en-us': "Seedot",
+		'fr-fr': "Grainipiot",
+		'es-es': "Seedot",
+		'it-it': "Seedot",
+		'pt-br': "Seedot",
+		'de-de': "Samurzel"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 10,
@@ -56,7 +56,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "If it remains still, it looks just like a real nut. It delights in surprising foraging Pokémon."
+		'en-us': "If it remains still, it looks just like a real nut. It delights in surprising foraging Pokémon."
 	},
 
 	variants: [

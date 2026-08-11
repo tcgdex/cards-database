@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Silicobra",
-		fr: "Dunaja",
-		es: "Silicobra",
-		it: "Silicobra",
-		pt: "Silicobra",
-		de: "Salanga"
+		'en-us': "Silicobra",
+		'fr-fr': "Dunaja",
+		'es-es': "Silicobra",
+		'it-it': "Silicobra",
+		'pt-br': "Silicobra",
+		'de-de': "Salanga"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'Boule",
-				es: "Golpe Cabeza",
-				it: "Bottintesta",
-				pt: "Cabeçada",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'Boule",
+				'es-es': "Golpe Cabeza",
+				'it-it': "Bottintesta",
+				'pt-br': "Cabeçada",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Whap",
-				fr: "Queue Battoir",
-				es: "Coletón",
-				it: "Codabotta",
-				pt: "Surra de Cauda",
-				de: "Schweifvertrimmer"
+				'en-us': "Tail Whap",
+				'fr-fr': "Queue Battoir",
+				'es-es': "Coletón",
+				'it-it': "Codabotta",
+				'pt-br': "Surra de Cauda",
+				'de-de': "Schweifvertrimmer"
 			},
 
 			damage: 20,
@@ -77,7 +77,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "As it digs, it swallows sand and stores it in its neck pouch. The pouch can hold more than 17 pounds of sand."
+		'en-us': "As it digs, it swallows sand and stores it in its neck pouch. The pouch can hold more than 17 pounds of sand."
 	},
 
 	dexId: [843],

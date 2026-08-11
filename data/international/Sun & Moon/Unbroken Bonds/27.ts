@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Litten",
-		fr: "Flamiaou",
-		es: "Litten",
-		it: "Litten",
-		pt: "Litten",
-		de: "Flamiau"
+		'en-us': "Litten",
+		'fr-fr': "Flamiaou",
+		'es-es': "Litten",
+		'it-it': "Litten",
+		'pt-br': "Litten",
+		'de-de': "Flamiau"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Caturday",
-				fr: "Chamedi",
-				es: "Sábado Gatuno",
-				it: "Giornogatto",
-				pt: "Dia de Gato",
-				de: "Schnurrtag"
+				'en-us': "Caturday",
+				'fr-fr': "Chamedi",
+				'es-es': "Sábado Gatuno",
+				'it-it': "Giornogatto",
+				'pt-br': "Dia de Gato",
+				'de-de': "Schnurrtag"
 			},
 			effect: {
-				en: "Draw a card. If you do, this Pokémon is now Asleep.",
-				fr: "Piochez une carte. Dans ce cas, ce Pokémon est maintenant Endormi.",
-				es: "Roba 1 carta. Si lo haces, este Pokémon pasa a estar Dormido.",
-				it: "Pesca una carta. Se lo fai, questo Pokémon viene addormentato.",
-				pt: "Compre 1 carta. Se fizer isto, este Pokémon será Adormecido.",
-				de: "Ziehe 1 Karte. Wenn du das machst, schläft dieses Pokémon jetzt."
+				'en-us': "Draw a card. If you do, this Pokémon is now Asleep.",
+				'fr-fr': "Piochez une carte. Dans ce cas, ce Pokémon est maintenant Endormi.",
+				'es-es': "Roba 1 carta. Si lo haces, este Pokémon pasa a estar Dormido.",
+				'it-it': "Pesca una carta. Se lo fai, questo Pokémon viene addormentato.",
+				'pt-br': "Compre 1 carta. Se fizer isto, este Pokémon será Adormecido.",
+				'de-de': "Ziehe 1 Karte. Wenn du das machst, schläft dieses Pokémon jetzt."
 			},
 
 		},
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Big Bite",
-				fr: "Grosse Morsure",
-				es: "Gran Mordisco",
-				it: "Grande Morso",
-				pt: "Mordidona",
-				de: "Mächtiger Biss"
+				'en-us': "Big Bite",
+				'fr-fr': "Grosse Morsure",
+				'es-es': "Gran Mordisco",
+				'it-it': "Grande Morso",
+				'pt-br': "Mordidona",
+				'de-de': "Mächtiger Biss"
 			},
 			effect: {
-				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
-				es: "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
-				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-				pt: "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
-				de: "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can’t retreat during your opponent’s next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'es-es': "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
+				'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+				'pt-br': "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
+				'de-de': "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 60,
 
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If you try too hard to get close to it, it won't open up to you. Even if you do grow close, giving it too much affection is still a no-no.",
+		'en-us': "If you try too hard to get close to it, it won't open up to you. Even if you do grow close, giving it too much affection is still a no-no.",
 	},
 
 	thirdParty: {

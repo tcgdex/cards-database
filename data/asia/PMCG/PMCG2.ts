@@ -1,10 +1,10 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../PMCG'
 
 const set: Set = {
 	id: 'PMCG2',
 	name: {
-		ja: 'ポケモンジャングル'
+		'ja-jp': 'ポケモンジャングル'
 	},
 
 	serie: serie,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Zapdos -038/092",
+		'ja-jp': "Zapdos -038/092",
 	},
 
 	rarity: "Holo Rare",
@@ -17,10 +17,10 @@ const card: Card = {
 	abilities: [
 		{
 			name: {
-				ja: "ライトニング対策",
+				'ja-jp': "ライトニング対策",
 			},
 			effect: {
-				ja: "手からザプドスに稲妻エネルギーカードを取り付けることはできません。",
+				'ja-jp': "手からザプドスに稲妻エネルギーカードを取り付けることはできません。",
 			},
 		}],
 
@@ -28,20 +28,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "プラズマ",
+				'ja-jp': "プラズマ",
 			},
 			effect: {
-				ja: "廃棄パイルに稲妻エネルギーカードがある場合は、コインをひっくり返します。頭の場合は、それらの1つをZapdosに取り付けます。",
+				'ja-jp': "廃棄パイルに稲妻エネルギーカードがある場合は、コインをひっくり返します。頭の場合は、それらの1つをZapdosに取り付けます。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Lightning", "Lightning", "Colorless", "Colorless"],
 			name: {
-				ja: "稲妻",
+				'ja-jp': "稲妻",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、zapdosに2つのダメージカウンターを入れます。",
+				'ja-jp': "コインをひっくり返します。尾の場合、zapdosに2つのダメージカウンターを入れます。",
 			},
 			damage: 60,
 		},

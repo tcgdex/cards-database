@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Moltres"
+		'en-us': "Moltres"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Wildfire"
+				'en-us': "Wildfire"
 			},
 			effect: {
-				en: "You may discard any number of Fire Energy cards attached to Moltres when you use this attack. If you do, discard that many cards from the top of your opponent's deck."
+				'en-us': "You may discard any number of Fire Energy cards attached to Moltres when you use this attack. If you do, discard that many cards from the top of your opponent's deck."
 			},
 
 		},
@@ -42,10 +42,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Dive Bomb"
+				'en-us': "Dive Bomb"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing."
+				'en-us': "Flip a coin. If tails, this attack does nothing."
 			},
 
 		},
@@ -61,7 +61,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames."
+		'en-us': "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames."
 	},
 
 	variants: [

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Zebstrika",
-		th: "ซีบรายกา"
+		'id-id': "Zebstrika",
+		'th-th': "ซีบรายกา"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -15,24 +15,24 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Begitu mendengar guntur, kelompok Pokémon ini mengejar awan petir agar Blitzle di dalam kelompoknya bisa mengecas dari petir.",
-		th: "เมื่อได้ยินเสียงฟ้าร้อง จะไล่ตามเมฆฝนฟ้าคะนองไปเป็นฝูง เพื่อให้ ชิมามาในฝูงชาร์จไฟจากสายฟ้าได้"
+		'id-id': "Begitu mendengar guntur, kelompok Pokémon ini mengejar awan petir agar Blitzle di dalam kelompoknya bisa mengecas dari petir.",
+		'th-th': "เมื่อได้ยินเสียงฟ้าร้อง จะไล่ตามเมฆฝนฟ้าคะนองไปเป็นฝูง เพื่อให้ ชิมามาในฝูงชาร์จไฟจากสายฟ้าได้"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Kick",
-			th: "เตะ"
+			'id-id': "Kick",
+			'th-th': "เตะ"
 		},
 
 		damage: 30,
 		cost: ["Lightning"]
 	}, {
 		name: {
-			id: "Mach Bolt",
-			th: "มัคโบลต์"
+			'id-id': "Mach Bolt",
+			'th-th': "มัคโบลต์"
 		},
 
 		damage: 120,

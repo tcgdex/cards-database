@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スリーパー",
+		'ja-jp': "スリーパー",
 		'zh-tw': "引夢貘人",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "どんなときでも 持っている 振り子を 決まったリズムで 揺らしている。 近寄ると なぜか 眠くなる。",
+		'ja-jp': "どんなときでも 持っている 振り子を 決まったリズムで 揺らしている。 近寄ると なぜか 眠くなる。",
 		'zh-tw': "會以固定的節奏擺動著 形影不離的鐘擺。一靠近牠 就會不由自主地昏昏欲睡。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "はくちゅうむ",
+				'ja-jp': "はくちゅうむ",
 				'zh-tw': "白日夢",
 			},
 			damage: 80,
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンに、相手が手札からエネルギーをつけたなら、相手の番は終わる。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンに、相手が手札からエネルギーをつけたなら、相手の番は終わる。",
 				'zh-tw': "在下個對手的回合，若對手從手牌將能量卡附於受到這個招式的寶可夢身上，則對手的回合結束。",
 			},
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "スリープ",
+		'ja-jp': "スリープ",
 	},
 
 	retreat: 2,

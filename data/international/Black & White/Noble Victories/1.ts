@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Sewaddle",
-		fr: "Larveyette",
-		es: "Sewaddle",
-		it: "Sewaddle",
-		pt: "Sewaddle",
-		de: "Strawickl"
+		'en-us': "Sewaddle",
+		'fr-fr': "Larveyette",
+		'es-es': "Sewaddle",
+		'it-it': "Sewaddle",
+		'pt-br': "Sewaddle",
+		'de-de': "Strawickl"
 	},
 
 	illustrator: "Mizue",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leaf Boomerang",
-				fr: "Feuille-Boomerang",
+				'en-us': "Leaf Boomerang",
+				'fr-fr': "Feuille-Boomerang",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 20,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Leavanny dress it in clothes they made for it when it hatched. It hides its head in its hood while it is sleeping.",
+		'en-us': "Leavanny dress it in clothes they made for it when it hatched. It hides its head in its hood while it is sleeping.",
 	},
 
 	thirdParty: {

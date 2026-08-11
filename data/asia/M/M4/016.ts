@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "テッポウオ",
+		'ja-jp': "テッポウオ",
 	},
 
 	illustrator: "Mori Yuu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "口から 噴き出す 水流は １００メートル先で 動く 獲物に だって 命中する。",
+		'ja-jp': "口から 噴き出す 水流は １００メートル先で 動く 獲物に だって 命中する。",
 	},
 
 	stage: "Basic",

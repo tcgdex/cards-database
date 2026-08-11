@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Pelipper",
-		fr: "Bekipan",
-		es: "Pelipper",
-		it: "Pelipper",
-		pt: "Pelipper",
-		de: "Pelipper"
+		'en-us': "Pelipper",
+		'fr-fr': "Bekipan",
+		'es-es': "Pelipper",
+		'it-it': "Pelipper",
+		'pt-br': "Pelipper",
+		'de-de': "Pelipper"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wingull",
-		fr: "Goélise",
+		'en-us': "Wingull",
+		'fr-fr': "Goélise",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Firefighting",
-				fr: "Anti-Flammes",
-				es: "Antiincendios",
-				it: "Estinzione",
-				pt: "Apagar Incêndios",
-				de: "Feuerwehr"
+				'en-us': "Firefighting",
+				'fr-fr': "Anti-Flammes",
+				'es-es': "Antiincendios",
+				'it-it': "Estinzione",
+				'pt-br': "Apagar Incêndios",
+				'de-de': "Feuerwehr"
 			},
 			effect: {
-				en: "Discard a Fire Energy from your opponent’s Active Pokémon.",
-				fr: "Défaussez une Énergie Fire du Pokémon Actif de votre adversaire.",
-				es: "Descarta 1 Energía Fire del Pokémon Activo de tu rival.",
-				it: "Scarta un’Energia Fire assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Descarte 1 Energia Fire do Pokémon Ativo do seu oponente.",
-				de: "Lege 1 Fire-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard a Fire Energy from your opponent’s Active Pokémon.",
+				'fr-fr': "Défaussez une Énergie Fire du Pokémon Actif de votre adversaire.",
+				'es-es': "Descarta 1 Energía Fire del Pokémon Activo de tu rival.",
+				'it-it': "Scarta un’Energia Fire assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Descarte 1 Energia Fire do Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 1 Fire-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -64,20 +64,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Pulse",
-				fr: "Vibraqua",
-				es: "Hidropulso",
-				it: "Idropulsar",
-				pt: "Pulso d’Água",
-				de: "Aquawelle"
+				'en-us': "Water Pulse",
+				'fr-fr': "Vibraqua",
+				'es-es': "Hidropulso",
+				'it-it': "Idropulsar",
+				'pt-br': "Pulso d’Água",
+				'de-de': "Aquawelle"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent’s Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 80,
 
@@ -101,7 +101,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Gathering food is the work of young males. They store food in their capacious beaks and carry it back to others waiting in the nest.",
+		'en-us': "Gathering food is the work of young males. They store food in their capacious beaks and carry it back to others waiting in the nest.",
 	},
 
 	thirdParty: {

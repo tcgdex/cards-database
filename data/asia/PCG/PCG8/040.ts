@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Dusclops",
+		'ja-jp': "Dusclops",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "呪われたまぶしさ",
+				'ja-jp': "呪われたまぶしさ",
 			},
 			effect: {
-				ja: "DusclopsがアクティブなPokã©Monである限り、相手は彼または彼女の手からアクティブなPokã©Monに特別なエネルギーカード（暗闇と金属のエネルギーカードを除く）を添付することはできません。",
+				'ja-jp': "DusclopsがアクティブなPokã©Monである限り、相手は彼または彼女の手からアクティブなPokã©Monに特別なエネルギーカード（暗闇と金属のエネルギーカードを除く）を添付することはできません。",
 			},
 		}],
 
@@ -29,17 +29,17 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "will-o'-the-wisp",
+				'ja-jp': "will-o'-the-wisp",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Psychic", "Psychic", "Colorless"],
 			name: {
-				ja: "サイキックシールド",
+				'ja-jp': "サイキックシールド",
 			},
 			effect: {
-				ja: "対戦相手の次のターン中に、相手のポケモンエクスによるダスクロップに行われるダメージを含む攻撃のすべての影響を防ぎます。",
+				'ja-jp': "対戦相手の次のターン中に、相手のポケモンエクスによるダスクロップに行われるダメージを含む攻撃のすべての影響を防ぎます。",
 			},
 			damage: 50,
 		},

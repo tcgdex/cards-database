@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Omanyte"
+		'en-us': "Omanyte"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -25,10 +25,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Clairvoyance"
+				'en-us': "Clairvoyance"
 			},
 			effect: {
-				en: "Your opponent plays with his or her hand face up. This power stops working while Omanyte is affected by a Special Condition."
+				'en-us': "Your opponent plays with his or her hand face up. This power stops working while Omanyte is affected by a Special Condition."
 			}
 		},
 	],
@@ -39,10 +39,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Gun"
+				'en-us': "Water Gun"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each Water Energy attached to Omanyte but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+				'en-us': "Does 10 damage plus 10 more damage for each Water Energy attached to Omanyte but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
 			},
 			damage: "10+",
 
@@ -59,7 +59,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Although long extinct, in rare cases, it can be genetically resurrected from fossils."
+		'en-us': "Although long extinct, in rare cases, it can be genetically resurrected from fossils."
 	},
 
 	variants: [

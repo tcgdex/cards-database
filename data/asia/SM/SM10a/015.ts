@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フワライド",
+		'ja-jp': "フワライド",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "夕闇を 風に 乗って 飛ぶ フワライドに 捕まると あの世へ 運ばれるという ウワサだ。",
+		'ja-jp': "夕闇を 風に 乗って 飛ぶ フワライドに 捕まると あの世へ 運ばれるという ウワサだ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "タッグキャリー" },
 			effect: {
-				ja: "自分の番に1回使える。自分のバトル場のTAG TEAMのポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "自分の番に1回使える。自分のバトル場のTAG TEAMのポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "フワンテ",
+		'ja-jp': "フワンテ",
 	},
 
 	retreat: 1,

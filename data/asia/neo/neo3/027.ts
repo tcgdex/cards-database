@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フラフィー",
+		'ja-jp': "フラフィー",
 	},
 
 	rarity: "Uncommon",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "電動パンチ",
+				'ja-jp': "電動パンチ",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Lightning", "Colorless", "Colorless"],
 			name: {
-				ja: "テールショック",
+				'ja-jp': "テールショック",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は相手のベンチポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は相手のベンチポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 30,
 		},

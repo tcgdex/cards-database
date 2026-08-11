@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Jynx",
-		fr: "Lippoutou",
-		de: "Rossana",
-		it: "Jynx"
+		'en-us': "Jynx",
+		'fr-fr': "Lippoutou",
+		'de-de': "Rossana",
+		'it-it': "Jynx"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,16 +32,16 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Doubleslap",
-				fr: "Torgnoles",
-				de: "Duplexhieb",
-				it: "Doppiasberla"
+				'en-us': "Doubleslap",
+				'fr-fr': "Torgnoles",
+				'de-de': "Duplexhieb",
+				'it-it': "Doppiasberla"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze Kopf zeigt, 10 Schadenspunkte zu.",
-				it: "Lancia 2 volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze Kopf zeigt, 10 Schadenspunkte zu.",
+				'it-it': "Lancia 2 volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa."
 			},
 			damage: "10x",
 
@@ -53,16 +53,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Meditate",
-				fr: "Yoga",
-				de: "Meditation",
-				it: "Meditazione"
+				'en-us': "Meditate",
+				'fr-fr': "Yoga",
+				'de-de': "Meditation",
+				'it-it': "Meditazione"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur le Pokémon Défenseur.",
-				de: "Fügt 20 Schadenspunkte plus 10 weitere für jede auf dem verteidigenden Pokémon abgelegte Schadensmarke zu.",
-				it: "Infligge 20 danni più altri 10 danni per ogni segnalino danno sul Pokémon Difensore."
+				'en-us': "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
+				'fr-fr': "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur le Pokémon Défenseur.",
+				'de-de': "Fügt 20 Schadenspunkte plus 10 weitere für jede auf dem verteidigenden Pokémon abgelegte Schadensmarke zu.",
+				'it-it': "Infligge 20 danni più altri 10 danni per ogni segnalino danno sul Pokémon Difensore."
 
 			},
 			damage: "20+",
@@ -80,9 +80,9 @@ const card: Card = {
 
 
 	description: {
-		en: "Merely by meditating, the Pokémon launches a powerful psychic energy attack.",
-		fr: "Il lui suffit de méditer pour lancer une puissante attaque psychique.",
-		it: "Con la sola forza del pensiero, Questo Pokémon lancia un potente attacco di energia psichica. LIV 23 N.124"
+		'en-us': "Merely by meditating, the Pokémon launches a powerful psychic energy attack.",
+		'fr-fr': "Il lui suffit de méditer pour lancer une puissante attaque psychique.",
+		'it-it': "Con la sola forza del pensiero, Questo Pokémon lancia un potente attacco di energia psichica. LIV 23 N.124"
 	},
 
 	variants: [

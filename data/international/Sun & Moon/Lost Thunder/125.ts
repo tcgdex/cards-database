@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Steelix",
-		fr: "Steelix",
-		es: "Steelix",
-		it: "Steelix",
-		pt: "Steelix",
-		de: "Stahlos"
+		'en-us': "Steelix",
+		'fr-fr': "Steelix",
+		'es-es': "Steelix",
+		'it-it': "Steelix",
+		'pt-br': "Steelix",
+		'de-de': "Stahlos"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Onix",
-		fr: "Onix",
+		'en-us': "Onix",
+		'fr-fr': "Onix",
 	},
 
 	stage: "Stage1",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer In",
-				fr: "Enfoncement",
-				es: "Martillear",
-				it: "Martello",
-				pt: "Martelada",
-				de: "Einhämmern"
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncement",
+				'es-es': "Martillear",
+				'it-it': "Martello",
+				'pt-br': "Martelada",
+				'de-de': "Einhämmern"
 			},
 
 			damage: 90,
@@ -60,20 +60,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Iron Tackle",
-				fr: "Charge de Fer",
-				es: "Bloqueo de Hierro",
-				it: "Azione Ferrea",
-				pt: "Golpe de Colisão Férreo",
-				de: "Eisentackle"
+				'en-us': "Iron Tackle",
+				'fr-fr': "Charge de Fer",
+				'es-es': "Bloqueo de Hierro",
+				'it-it': "Azione Ferrea",
+				'pt-br': "Golpe de Colisão Férreo",
+				'de-de': "Eisentackle"
 			},
 			effect: {
-				en: "This Pokémon does 50 damage to itself.",
-				fr: "Ce Pokémon s’inflige 50 dégâts.",
-				es: "Este Pokémon se hace 50 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 50 danni a se stesso.",
-				pt: "Este Pokémon causa 50 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 50 Schadenspunkte zu."
+				'en-us': "This Pokémon does 50 damage to itself.",
+				'fr-fr': "Ce Pokémon s’inflige 50 dégâts.",
+				'es-es': "Este Pokémon se hace 50 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 50 danni a se stesso.",
+				'pt-br': "Este Pokémon causa 50 pontos de dano a si mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 50 Schadenspunkte zu."
 			},
 			damage: 170,
 
@@ -97,7 +97,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It chews its way through boulders with its sturdy jaws. Its eyes can see in the darkness underground.",
+		'en-us': "It chews its way through boulders with its sturdy jaws. Its eyes can see in the darkness underground.",
 	},
 
 	thirdParty: {

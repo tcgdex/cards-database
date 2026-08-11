@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Swanna",
-		fr: "Lakmécygne",
-		es: "Swanna",
-		it: "Swanna",
-		pt: "Swanna",
-		de: "Swaroness"
+		'en-us': "Swanna",
+		'fr-fr': "Lakmécygne",
+		'es-es': "Swanna",
+		'it-it': "Swanna",
+		'pt-br': "Swanna",
+		'de-de': "Swaroness"
 	},
 
 	illustrator: "Sekio",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Ducklett",
-		fr: "Couaneton",
-		es: "Ducklett",
-		it: "Ducklett",
-		pt: "Ducklett",
-		de: "Piccolente"
+		'en-us': "Ducklett",
+		'fr-fr': "Couaneton",
+		'es-es': "Ducklett",
+		'it-it': "Ducklett",
+		'pt-br': "Ducklett",
+		'de-de': "Piccolente"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Water Pulse",
-			fr: "Vibraqua",
-			es: "Hidropulso",
-			it: "Idropulsar",
-			pt: "Pulso d'Água",
-			de: "Aquawelle"
+			'en-us': "Water Pulse",
+			'fr-fr': "Vibraqua",
+			'es-es': "Hidropulso",
+			'it-it': "Idropulsar",
+			'pt-br': "Pulso d'Água",
+			'de-de': "Aquawelle"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 		},
 
 		damage: 20
@@ -57,21 +57,21 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			en: "Air Slash",
-			fr: "Lame d'Air",
-			es: "Tajo Aéreo",
-			it: "Eterelama",
-			pt: "Golpe de Ar",
-			de: "Luftschnitt"
+			'en-us': "Air Slash",
+			'fr-fr': "Lame d'Air",
+			'es-es': "Tajo Aéreo",
+			'it-it': "Eterelama",
+			'pt-br': "Golpe de Ar",
+			'de-de': "Luftschnitt"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte 1 Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte 1 Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 130

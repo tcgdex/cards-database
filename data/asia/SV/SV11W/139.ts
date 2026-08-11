@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダストダス",
+		'ja-jp': "ダストダス",
 	},
 
 	illustrator: "Gapao",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "左腕で 相手を 絞めつけて 口から 吐き出す 悪臭の 毒ガスで とどめを 刺すのだ。",
+		'ja-jp': "左腕で 相手を 絞めつけて 口から 吐き出す 悪臭の 毒ガスで とどめを 刺すのだ。",
 	},
 
 	stage: "Stage1",
@@ -37,7 +37,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤブクロン",
+		'ja-jp': "ヤブクロン",
 	},
 
 	retreat: 3,

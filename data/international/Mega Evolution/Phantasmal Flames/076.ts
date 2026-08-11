@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Jigglypuff",
-		fr: "Rondoudou",
-		es: "Jigglypuff",
+		'en-us': "Jigglypuff",
+		'fr-fr': "Rondoudou",
+		'es-es': "Jigglypuff",
 		'es-mx': "Jigglypuff",
-		de: "Pummeluff",
-		it: "Jigglypuff",
-		pt: "Jigglypuff"
+		'de-de': "Pummeluff",
+		'it-it': "Jigglypuff",
+		'pt-br': "Jigglypuff"
 	},
 
 	rarity: "Common",
@@ -26,23 +26,23 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Ball Roll",
-			fr: "Boulé-Roulade",
-			es: "Rodabola",
+			'en-us': "Ball Roll",
+			'fr-fr': "Boulé-Roulade",
+			'es-es': "Rodabola",
 			'es-mx': "Bola Rodante",
-			de: "Ballrolle",
-			it: "Rotopalla",
-			pt: "Rolo Bola"
+			'de-de': "Ballrolle",
+			'it-it': "Rotopalla",
+			'pt-br': "Rolo Bola"
 		},
 
 		effect: {
-			en: "Flip a coin until you get tails. This attack does 20 damage for each heads.",
-			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 20 dégâts pour chaque côté face.",
-			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño por cada cara.",
+			'en-us': "Flip a coin until you get tails. This attack does 20 damage for each heads.",
+			'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 20 dégâts pour chaque côté face.",
+			'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño por cada cara.",
 			'es-mx': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño por cada cara.",
-			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu.",
-			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 20 danni ogni volta che esce testa.",
-			pt: "Jogue uma moeda até sair coroa. Este ataque causa 20 pontos de dano para cada cara."
+			'de-de': "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu.",
+			'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 20 danni ogni volta che esce testa.",
+			'pt-br': "Jogue uma moeda até sair coroa. Este ataque causa 20 pontos de dano para cada cara."
 		},
 
 		damage: "20×"
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+		'en-us': "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
 	},
 
 	illustrator: "Naoyo Kimura",

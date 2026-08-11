@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2022'
 
 const card: Card = {
 	name: {
-		en: "Lapras",
-		fr: "Lokhlass",
-		es: "Lapras",
-		it: "Lapras",
-		pt: "Lapras",
-		de: "Lapras"
+		'en-us': "Lapras",
+		'fr-fr': "Lokhlass",
+		'es-es': "Lapras",
+		'it-it': "Lapras",
+		'pt-br': "Lapras",
+		'de-de': "Lapras"
 	},
 
 	illustrator: "Atsushi Furusawa",
@@ -28,19 +28,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				en: "Wintry Call",
+				'en-us': "Wintry Call",
 			},
 			effect: {
-				en: "Search your deck for up to 2 Melony cards, reveal them, and put them into your hand. Then, shuffle your deck."
+				'en-us': "Search your deck for up to 2 Melony cards, reveal them, and put them into your hand. Then, shuffle your deck."
 			}
 		},
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				en: "Icy Wind",
+				'en-us': "Icy Wind",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep."
+				'en-us': "Your opponent's Active Pokémon is now Asleep."
 			},
 			damage: 50,
 		},

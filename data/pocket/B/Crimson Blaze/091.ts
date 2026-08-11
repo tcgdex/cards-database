@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [6],
 
 	name: {
-		en: "Charizard"
+		'en-us': "Charizard"
 	},
 
 	illustrator: "Taiga Kasai",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Charmeleon"
+		'en-us': "Charmeleon"
 	},
 
 	description: {
-		en: "Its wings can carry this Pokémon close to an\naltitude of 4,600 feet. It blows out fire at very\nhigh temperatures."
+		'en-us': "Its wings can carry this Pokémon close to an\naltitude of 4,600 feet. It blows out fire at very\nhigh temperatures."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Inferno Onrush"
+			'en-us': "Inferno Onrush"
 		},
 
 		damage: 150,
 		cost: ["Fire", "Fire", "Fire", "Colorless"],
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself."
+			'en-us': "This Pokémon also does 30 damage to itself."
 		}
 	}],
 

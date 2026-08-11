@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アシレーヌ",
+		'ja-jp': "アシレーヌ",
 	},
 
 	illustrator: "Taira Akitsu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "歌姫の 異名を 持つ。 月夜の 晩に 群れを 率いて 歌う 姿は 幻想的。",
+		'ja-jp': "歌姫の 異名を 持つ。 月夜の 晩に 群れを 率いて 歌う 姿は 幻想的。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "まんたんメロディ" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のポケモン1匹のHPを、すべて回復する。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のポケモン1匹のHPを、すべて回復する。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "このポケモンと、ついているすべてのカードを、山札にもどして切る。",
+				'ja-jp': "このポケモンと、ついているすべてのカードを、山札にもどして切る。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "オシャマリ",
+		'ja-jp': "オシャマリ",
 	},
 
 	retreat: 2,

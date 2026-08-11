@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグカルゴ",
+		'ja-jp': "マグカルゴ",
 	},
 
 	rarity: "Uncommon",
@@ -17,10 +17,10 @@ const card: Card = {
 	abilities: [
 		{
 			name: {
-				ja: "マグマプール",
+				'ja-jp': "マグマプール",
 			},
 			effect: {
-				ja: "Magcargoがアクティブなポケモンであり、ベンチに移動する場合は、Magcargoに取り付けられた1つのFire Energyカードを削除し、新しいアクティブポケモンに取り付けます。 <em>（リトリートコストを支払うために使用したエネルギーカードを選択することはできません。）</em>",
+				'ja-jp': "Magcargoがアクティブなポケモンであり、ベンチに移動する場合は、Magcargoに取り付けられた1つのFire Energyカードを削除し、新しいアクティブポケモンに取り付けます。 <em>（リトリートコストを支払うために使用したエネルギーカードを選択することはできません。）</em>",
 			},
 		}],
 
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			cost: ["Fire", "Fire", "Fire"],
 			name: {
-				ja: "溶岩流",
+				'ja-jp': "溶岩流",
 			},
 			effect: {
-				ja: "この攻撃を使用すると、Magcargoに取り付けられた火災エネルギーカードを廃棄することができます。もしそうなら、この攻撃は40ダメージに加えて、この方法で廃棄した火災エネルギーカードごとに20のダメージをさらに20回かけます。",
+				'ja-jp': "この攻撃を使用すると、Magcargoに取り付けられた火災エネルギーカードを廃棄することができます。もしそうなら、この攻撃は40ダメージに加えて、この方法で廃棄した火災エネルギーカードごとに20のダメージをさらに20回かけます。",
 			},
 		},
 	],

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Slakoth",
-		th: "นามาเคโร"
+		'id-id': "Slakoth",
+		'th-th': "นามาเคโร"
 	},
 
 	illustrator: "Aya Kusube",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Sosok Slakoth yang bermalas-malasan merangsang rasa malas orang yang melihatnya.",
-		th: "สภาพเกียจคร้านของนามาเคโรนั้นกระตุ้นความขี้เกียจของคนที่มองดู เป็นอย่างมาก"
+		'id-id': "Sosok Slakoth yang bermalas-malasan merangsang rasa malas orang yang melihatnya.",
+		'th-th': "สภาพเกียจคร้านของนามาเคโรนั้นกระตุ้นความขี้เกียจของคนที่มองดู เป็นอย่างมาก"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Bersantai",
-			th: "ทำตัวเรื่อยเฉื่อย"
+			'id-id': "Bersantai",
+			'th-th': "ทำตัวเรื่อยเฉื่อย"
 		},
 
 		effect: {
-			id: "Pulihkan HP Pokémon ini sejumlah 60. Pada giliran sendiri berikutnya, Pokémon ini tidak dapat Mundur.",
-			th: "ฟื้นฟู HP ของโปเกมอนนี้ [60] เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะหนี ไม่ได้"
+			'id-id': "Pulihkan HP Pokémon ini sejumlah 60. Pada giliran sendiri berikutnya, Pokémon ini tidak dapat Mundur.",
+			'th-th': "ฟื้นฟู HP ของโปเกมอนนี้ [60] เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะหนี ไม่ได้"
 		},
 
 		cost: ["Colorless"]

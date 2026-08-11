@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [808],
 
 	name: {
-		en: "Meltan",
-		fr: "Meltan",
-		es: "Meltan",
-		it: "Meltan",
-		pt: "Meltan",
-		de: "Meltan"
+		'en-us': "Meltan",
+		'fr-fr': "Meltan",
+		'es-es': "Meltan",
+		'it-it': "Meltan",
+		'pt-br': "Meltan",
+		'de-de': "Meltan"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'Boule",
-				es: "Golpe Cabeza",
-				it: "Bottintesta",
-				pt: "Cabeçada",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'Boule",
+				'es-es': "Golpe Cabeza",
+				'it-it': "Bottintesta",
+				'pt-br': "Cabeçada",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beam",
-				fr: "Rayon",
-				es: "Transmisión",
-				it: "Raggio",
-				pt: "Feixe",
-				de: "Strahl"
+				'en-us': "Beam",
+				'fr-fr': "Rayon",
+				'es-es': "Transmisión",
+				'it-it': "Raggio",
+				'pt-br': "Feixe",
+				'de-de': "Strahl"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It dissolves and eats metal. Circulating liquid metal within its body is how it generates energy."
+		'en-us': "It dissolves and eats metal. Circulating liquid metal within its body is how it generates energy."
 	},
 
 	variants: [

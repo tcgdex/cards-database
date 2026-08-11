@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アクア団の幹部",
+		'ja-jp': "アクア団の幹部",
 	},
 
 	illustrator: "GAME FREAK inc.",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のトラッシュから基本エネルギーを1枚選び、自分のバトル場にいる「アクア団」のポケモンにつける。",
+		'ja-jp': "自分のトラッシュから基本エネルギーを1枚選び、自分のバトル場にいる「アクア団」のポケモンにつける。",
 	},
 
 	variants: [

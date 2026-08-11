@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Grovyle",
-		fr: "Massko",
-		es: "Grovyle",
-		it: "Grovyle",
-		pt: "Grovyle",
-		de: "Reptain"
+		'en-us': "Grovyle",
+		'fr-fr': "Massko",
+		'es-es': "Grovyle",
+		'it-it': "Grovyle",
+		'pt-br': "Grovyle",
+		'de-de': "Reptain"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Treecko",
-		fr: "Arcko",
+		'en-us': "Treecko",
+		'fr-fr': "Arcko",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Sunshine Grace",
-				fr: "Grâce Solaire",
-				es: "Gracia Solar",
-				it: "Belsole",
-				pt: "Atração Solar",
-				de: "Sonnenmut"
+				'en-us': "Sunshine Grace",
+				'fr-fr': "Grâce Solaire",
+				'es-es': "Gracia Solar",
+				'it-it': "Belsole",
+				'pt-br': "Atração Solar",
+				'de-de': "Sonnenmut"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may search your deck for a Grass Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez chercher un Pokémon Grass dans votre deck, le montrer, puis l’ajouter à votre main. Mélangez ensuite votre deck.",
-				es: "Una vez durante tu turno (antes de tu ataque), puedes buscar en tu baraja 1 Pokémon Grass, enseñarlo y ponerlo en tu mano. Después, baraja las cartas de tu baraja.",
-				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi cercare nel tuo mazzo un Pokémon Grass, mostrarlo e aggiungerlo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode procurar por 1 Pokémon Grass no seu baralho, revelá-lo e colocá-lo na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du dein Deck nach 1 Grass-Pokémon durchsuchen, es deinem Gegner zeigen und auf deine Hand nehmen. Mische anschließend dein Deck."
+				'en-us': "Once during your turn (before your attack), you may search your deck for a Grass Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez chercher un Pokémon Grass dans votre deck, le montrer, puis l’ajouter à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Una vez durante tu turno (antes de tu ataque), puedes buscar en tu baraja 1 Pokémon Grass, enseñarlo y ponerlo en tu mano. Después, baraja las cartas de tu baraja.",
+				'it-it': "Una sola volta durante il tuo turno, prima di attaccare, puoi cercare nel tuo mazzo un Pokémon Grass, mostrarlo e aggiungerlo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Uma vez durante a sua vez de jogar (antes de atacar), você pode procurar por 1 Pokémon Grass no seu baralho, revelá-lo e colocá-lo na sua mão. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Einmal während deines Zuges (bevor du angreifst) kannst du dein Deck nach 1 Grass-Pokémon durchsuchen, es deinem Gegner zeigen und auf deine Hand nehmen. Mische anschließend dein Deck."
 			},
 		},
 	],
@@ -62,12 +62,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Slicing Blade",
-				fr: "Lame Tranchante",
-				es: "Cuchilla Cortante",
-				it: "Affettalama",
-				pt: "Lâmina Fatiante",
-				de: "Schwertschneide"
+				'en-us': "Slicing Blade",
+				'fr-fr': "Lame Tranchante",
+				'es-es': "Cuchilla Cortante",
+				'it-it': "Affettalama",
+				'pt-br': "Lâmina Fatiante",
+				'de-de': "Schwertschneide"
 			},
 
 			damage: 40,
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
+		'en-us': "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
 	},
 
 	thirdParty: {

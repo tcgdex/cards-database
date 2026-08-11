@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Mudkip",
-		fr: "Gobou",
-		de: "Hydropi"
+		'en-us': "Mudkip",
+		'fr-fr': "Gobou",
+		'de-de': "Hydropi"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Tail Strike",
-				fr: "Attaque caudale",
-				de: "Tail Strike"
+				'en-us': "Tail Strike",
+				'fr-fr': "Attaque caudale",
+				'de-de': "Tail Strike"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
 			},
 			damage: "10+",
 

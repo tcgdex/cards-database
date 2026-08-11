@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Nintendo Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Pikachu δ",
+		'en-us': "Pikachu δ",
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Common",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Wave",
+				'en-us': "Thunder Wave",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 
 		},
@@ -40,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Iron Tail",
+				'en-us': "Iron Tail",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 20 damage times the number of heads.",
+				'en-us': "Flip a coin until you get tails. This attack does 20 damage times the number of heads.",
 			},
 			damage: 20,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヌズリーフ",
+		'ja-jp': "ヌズリーフ",
 	},
 
 	rarity: "Rare",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "自己充電",
+				'ja-jp': "自己充電",
 			},
 			effect: {
-				ja: "あなたの手からヌズリーフに暗闇のエネルギーカードを取り付けます。",
+				'ja-jp': "あなたの手からヌズリーフに暗闇のエネルギーカードを取り付けます。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "コークスクリューパンチ",
+				'ja-jp': "コークスクリューパンチ",
 			},
 			damage: 40,
 		},

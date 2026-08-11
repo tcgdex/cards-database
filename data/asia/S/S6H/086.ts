@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サダイジャVMAX",
+		'ja-jp': "サダイジャVMAX",
 	},
 
 	illustrator: "aky CG Works",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Fighting"],
 			effect: {
-				ja: "相手のベンチポケモン全員にも、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン全員にも、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "自分の場のポケモンについているエネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。",
+				'ja-jp': "自分の場のポケモンについているエネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "サダイジャV",
+		'ja-jp': "サダイジャV",
 	},
 
 	retreat: 3,

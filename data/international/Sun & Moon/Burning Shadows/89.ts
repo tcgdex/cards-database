@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Inkay",
-		fr: "Sepiatop",
-		es: "Inkay",
-		it: "Inkay",
-		pt: "Inkay",
-		de: "Iscalar"
+		'en-us': "Inkay",
+		'fr-fr': "Sepiatop",
+		'es-es': "Inkay",
+		'it-it': "Inkay",
+		'pt-br': "Inkay",
+		'de-de': "Iscalar"
 	},
 
 	illustrator: "OOYAMA",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Constrict",
-				fr: "Constriction",
-				es: "Restricción",
-				it: "Limitazione",
-				pt: "Contrair",
-				de: "Umklammerung"
+				'en-us': "Constrict",
+				'fr-fr': "Constriction",
+				'es-es': "Restricción",
+				'it-it': "Limitazione",
+				'pt-br': "Contrair",
+				'de-de': "Umklammerung"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight.",
+		'en-us': "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight.",
 	},
 
 	thirdParty: {

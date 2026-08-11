@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Toxel"
+		'id-id': "Toxel"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Toxel tetap baik-baik saja meskipun meminum air kotor. Dengan organ di dalam tubuhnya, Pokémon ini menyaring air tersebut menjadi cairan beracun yang tidak berbahaya bagi dirinya."
+		'id-id': "Toxel tetap baik-baik saja meskipun meminum air kotor. Dengan organ di dalam tubuhnya, Pokémon ini menyaring air tersebut menjadi cairan beracun yang tidak berbahaya bagi dirinya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Gasak Sedikit"
+			'id-id': "Gasak Sedikit"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 10."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10."
 		},
 
 		damage: 30,

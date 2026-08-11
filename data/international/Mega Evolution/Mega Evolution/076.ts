@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Riolu",
-		fr: "Riolu",
-		de: "Riolu",
-		it: "Riolu",
-		es: "Riolu",
-		pt: "Riolu",
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
+		'de-de': "Riolu",
+		'it-it': "Riolu",
+		'es-es': "Riolu",
+		'pt-br': "Riolu",
 		'es-mx': "Riolu"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Accelerating Stab",
-			fr: "Poignard Accélérateur",
-			de: "Beschleunigter Stich",
-			it: "Pugnalata Rapida",
-			es: "Puñalada Aceleradora",
-			pt: "Estocada Aceleratória",
+			'en-us': "Accelerating Stab",
+			'fr-fr': "Poignard Accélérateur",
+			'de-de': "Beschleunigter Stich",
+			'it-it': "Pugnalata Rapida",
+			'es-es': "Puñalada Aceleradora",
+			'pt-br': "Estocada Aceleratória",
 			'es-mx': "Cuchillada Aceleradora"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use Accelerating Stab.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Poignard Accélérateur.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon Beschleunigter Stich nicht einsetzen.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Pugnalata Rapida.",
-			es: "Durante tu próximo turno, este Pokémon no puede usar Puñalada Aceleradora.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Estocada Aceleratória.",
+			'en-us': "During your next turn, this Pokémon can't use Accelerating Stab.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Poignard Accélérateur.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon Beschleunigter Stich nicht einsetzen.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Pugnalata Rapida.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede usar Puñalada Aceleradora.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar Estocada Aceleratória.",
 			'es-mx': "Durante tu próximo turno, este Pokémon no puede usar Cuchillada Aceleradora."
 		},
 

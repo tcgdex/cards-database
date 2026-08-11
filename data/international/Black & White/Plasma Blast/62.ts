@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Bagon",
-		fr: "Draby",
-		es: "Bagon",
-		it: "Bagon",
-		pt: "Bagon",
-		de: "Kindwurm"
+		'en-us': "Bagon",
+		'fr-fr': "Draby",
+		'es-es': "Bagon",
+		'it-it': "Bagon",
+		'pt-br': "Bagon",
+		'de-de': "Kindwurm"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'Boule",
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'Boule",
 			},
 
 			damage: 10,
@@ -47,8 +47,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Dragon Claw",
-				fr: "Dracogriffe",
+				'en-us': "Dragon Claw",
+				'fr-fr': "Dracogriffe",
 			},
 
 			damage: 20,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Dreaming of one day flying, it practices by leaping off cliffs every day.",
+		'en-us': "Dreaming of one day flying, it practices by leaping off cliffs every day.",
 	},
 
 	thirdParty: {

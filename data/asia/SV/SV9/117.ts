@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "Nのゾロアークex"
+		'ja-jp': "Nのゾロアークex"
 	},
 
 	illustrator: "takuyoa",
@@ -20,11 +20,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "とりひき"
+			'ja-jp': "とりひき"
 		},
 
 		effect: {
-			ja: "自分の番に、自分の手札を1枚トラッシュするなら、1回使える。自分の山札を2枚引く。"
+			'ja-jp': "自分の番に、自分の手札を1枚トラッシュするなら、1回使える。自分の山札を2枚引く。"
 		}
 	}],
 
@@ -32,11 +32,11 @@ const card: Card = {
 		cost: ["Darkness", "Darkness"],
 
 		name: {
-			ja: "ナイトジョーカー"
+			'ja-jp': "ナイトジョーカー"
 		},
 
 		effect: {
-			ja: "自分のベンチの「Nのポケモン」が持つワザを1つ選び、このワザとして使う。"
+			'ja-jp': "自分のベンチの「Nのポケモン」が持つワザを1つ選び、このワザとして使う。"
 		}
 	}],
 

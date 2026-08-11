@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コフキムシ",
+		'ja-jp': "コフキムシ",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "体を 覆う 粉が 体温を 調節するので どんな 気候や 風土の 地域でも 暮らせる。",
+		'ja-jp': "体を 覆う 粉が 体温を 調節するので どんな 気候や 風土の 地域でも 暮らせる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "いじょうはっせい" },
 			effect: {
-				ja: "後攻プレイヤーの最初の自分の番にだけ1回使える。自分の山札にある「コフーライ」「ビビヨン」を1枚ずつ、相手に見せてから、手札に加える。そして山札を切る。",
+				'ja-jp': "後攻プレイヤーの最初の自分の番にだけ1回使える。自分の山札にある「コフーライ」「ビビヨン」を1枚ずつ、相手に見せてから、手札に加える。そして山札を切る。",
 			},
 		},
 	],

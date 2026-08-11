@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
     set: Set,
 
 	name: {
-		en: "Greavard",
-		fr: "Toutombe",
-		de: "Gruff",
-		it: "Greavard",
-		es: "Greavard",
-		pt: "Greavard",
+		'en-us': "Greavard",
+		'fr-fr': "Toutombe",
+		'de-de': "Gruff",
+		'it-it': "Greavard",
+		'es-es': "Greavard",
+		'pt-br': "Greavard",
 		'es-mx': "Greavard"
 	},
 

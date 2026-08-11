@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オリジンパルキアVSTAR",
+		'ja-jp': "オリジンパルキアVSTAR",
 		'zh-tw': "起源帕路奇亞VSTAR",
 	},
 
@@ -19,11 +19,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "スターポータル",
+				'ja-jp': "スターポータル",
 				'zh-tw': "星星入口",
 			},
 			effect: {
-				ja: "自分の番に使える。自分のトラッシュから[W]エネルギーを3枚まで選び、自分の[W]ポケモンに好きなようにつける。［対戦中、自分はVSTARパワーを1回しか使えない。］",
+				'ja-jp': "自分の番に使える。自分のトラッシュから[W]エネルギーを3枚まで選び、自分の[W]ポケモンに好きなようにつける。［対戦中、自分はVSTARパワーを1回しか使えない。］",
 				'zh-tw': "在自己的回合時可使用。從自己的棄牌區選擇最多3張【水】能量卡，以任意方式附於自己的【水】寶可夢身上。[對戰中，己方只可使用1次【VSTAR】力量。]",
 			},
 		},
@@ -32,13 +32,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "あくうのうねり",
+				'ja-jp': "あくうのうねり",
 				'zh-tw': "亞空潮漩",
 			},
 			damage: "60+",
 			cost: ["Water", "Water"],
 			effect: {
-				ja: "おたがいのベンチポケモンの数×20ダメージ追加。",
+				'ja-jp': "おたがいのベンチポケモンの数×20ダメージ追加。",
 				'zh-tw': "增加雙方的備戰寶可夢的數量×20點傷害。",
 			},
 		},
@@ -58,7 +58,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "nullV",
+		'ja-jp': "nullV",
 	},
 
 	retreat: 2,

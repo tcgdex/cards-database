@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Giratina",
-		fr: "Giratina"
+		'en-us': "Giratina",
+		'fr-fr': "Giratina"
 	},
 
 	illustrator: "5ban Graphics",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Devour Light",
-				fr: "Dévore Lumière"
+				'en-us': "Devour Light",
+				'fr-fr': "Dévore Lumière"
 			},
 			effect: {
-				en: "Each Pokemon BREAK has no Abilities (this includes Abilities of its previous Evolution).",
-				fr: "Aucun Pokémon TURBO n'a de talents (cela inclut les talents de sa précédente Évolution)."
+				'en-us': "Each Pokemon BREAK has no Abilities (this includes Abilities of its previous Evolution).",
+				'fr-fr': "Aucun Pokémon TURBO n'a de talents (cela inclut les talents de sa précédente Évolution)."
 			},
 		},
 	],
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shadow Claw",
-				fr: "Griffe Ombre"
+				'en-us': "Shadow Claw",
+				'fr-fr': "Griffe Ombre"
 			},
 			effect: {
-				en: "Discard a random card from your opponent's hand.",
-				fr: "Défaussez au hasard une carte de la main de votre adversaire."
+				'en-us': "Discard a random card from your opponent's hand.",
+				'fr-fr': "Défaussez au hasard une carte de la main de votre adversaire."
 			},
 			damage: 110,
 
@@ -76,7 +76,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
+		'en-us': "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
 	},
 
 	thirdParty: {

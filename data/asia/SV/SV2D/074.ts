@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ライチュウ"
+		'ja-jp': "ライチュウ"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "尻尾が アースの 役目をはたして 電気を 地面に 逃がすので 自分自身は しびれたりしない。"
+		'ja-jp': "尻尾が アースの 役目をはたして 電気を 地面に 逃がすので 自分自身は しびれたりしない。"
 	},
 
 	stage: "Stage1",
@@ -24,23 +24,23 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "エレキチャージ"
+			'ja-jp': "エレキチャージ"
 		},
 
 		effect: {
-			ja: "自分の山札から「基本エネルギー」を2枚まで選び、このポケモンにつける。そして山札を切る。"
+			'ja-jp': "自分の山札から「基本エネルギー」を2枚まで選び、このポケモンにつける。そして山札を切る。"
 		}
 	}, {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			ja: "10まんボルト"
+			'ja-jp': "10まんボルト"
 		},
 
 		damage: 200,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを、すべてトラッシュする。"
+			'ja-jp': "このポケモンについているエネルギーを、すべてトラッシュする。"
 		}
 	}],
 

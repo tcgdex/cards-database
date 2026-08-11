@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [47],
 
 	name: {
-		en: "Parasect",
-		fr: "Parasect",
-		es: "Parasect",
-		it: "Parasect",
-		pt: "Parasect",
-		de: "Parasek"
+		'en-us': "Parasect",
+		'fr-fr': "Parasect",
+		'es-es': "Parasect",
+		'it-it': "Parasect",
+		'pt-br': "Parasect",
+		'de-de': "Parasek"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Paras",
-		fr: "Paras",
-		es: "Paras",
-		it: "Paras",
-		pt: "Paras",
-		de: "Paras"
+		'en-us': "Paras",
+		'fr-fr': "Paras",
+		'es-es': "Paras",
+		'it-it': "Paras",
+		'pt-br': "Paras",
+		'de-de': "Paras"
 	},
 
 	attacks: [
@@ -38,20 +38,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Mushroom Tackle",
-				fr: "Champi-Charge",
-				es: "Placaje Seta",
-				it: "Fungo-azione",
-				pt: "Colisão do Cogumelo",
-				de: "Pilztackle"
+				'en-us': "Mushroom Tackle",
+				'fr-fr': "Champi-Charge",
+				'es-es': "Placaje Seta",
+				'it-it': "Fungo-azione",
+				'pt-br': "Colisão do Cogumelo",
+				'de-de': "Pilztackle"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
-				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 30,
 
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Solar Beam",
-				fr: "Lance-Soleil",
-				es: "Rayo Solar",
-				it: "Solarraggio",
-				pt: "Raio Solar",
-				de: "Solarstrahl"
+				'en-us': "Solar Beam",
+				'fr-fr': "Lance-Soleil",
+				'es-es': "Rayo Solar",
+				'it-it': "Solarraggio",
+				'pt-br': "Raio Solar",
+				'de-de': "Solarstrahl"
 			},
 
 			damage: 110,
@@ -90,7 +90,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "The bug is mostly dead, with the mushroom on its back having become the main body. If the mushroom comes off, the bug stops moving."
+		'en-us': "The bug is mostly dead, with the mushroom on its back having become the main body. If the mushroom comes off, the bug stops moving."
 	},
 
 	variants: [

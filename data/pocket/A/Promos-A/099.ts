@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Promos-A"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Marill"
+		'en-us': "Marill"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "The fur on its body naturally repels water. It can\nstay dry even when it plays in the water."
+		'en-us': "The fur on its body naturally repels water. It can\nstay dry even when it plays in the water."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Tackle"
+			'en-us': "Tackle"
 		},
 
 		damage: 10,

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Woobat",
+		'en-us': "Woobat",
 	},
 
 	illustrator: "Mizue",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Dual Cut",
+				'en-us': "Dual Cut",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The heart-shaped mark left on a body after a Woobat has been attached to it is said to bring good fortune.",
+		'en-us': "The heart-shaped mark left on a body after a Woobat has been attached to it is said to bring good fortune.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Quagsire GL",
-		fr: "Maraiste  Niv. 34",
-		de: "Morlord GL"
+		'en-us': "Quagsire GL",
+		'fr-fr': "Maraiste  Niv. 34",
+		'de-de': "Morlord GL"
 	},
 
 	illustrator: "Midori Harada",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Submerge",
-				fr: "Submerger",
-				de: "Untertauchen"
+				'en-us': "Submerge",
+				'fr-fr': "Submerger",
+				'de-de': "Untertauchen"
 			},
 			effect: {
-				en: "As long as Quagsire GL is on your Bench, prevent all damage done to Quagsire GL by attacks (both yours and your opponent's).",
-				fr: "Tant que Maraiste  est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques (de vos Pokémon et des Pokémon de votre adversaire).",
-				de: "Solange Morlord GL auf deiner Bank ist, verhindere allen Schaden, der Morlord GL durch Angriffe (deine und die deines Gegners) zugefügt würde."
+				'en-us': "As long as Quagsire GL is on your Bench, prevent all damage done to Quagsire GL by attacks (both yours and your opponent's).",
+				'fr-fr': "Tant que Maraiste  est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques (de vos Pokémon et des Pokémon de votre adversaire).",
+				'de-de': "Solange Morlord GL auf deiner Bank ist, verhindere allen Schaden, der Morlord GL durch Angriffe (deine und die deines Gegners) zugefügt würde."
 			}
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Punch and Run",
-				fr: "Frapper et partir en courant",
-				de: "Schlagen und Rennen"
+				'en-us': "Punch and Run",
+				'fr-fr': "Frapper et partir en courant",
+				'de-de': "Schlagen und Rennen"
 			},
 			effect: {
-				en: "You may switch Quagsire GL with 1 of your Benched Pokémon.",
-				fr: "Vous pouvez échanger Maraiste  avec 1 des Pokémon de votre Banc.",
-				de: "Du kannst Morlord GL gegen 1 Pokémon auf deiner Bank austauschen."
+				'en-us': "You may switch Quagsire GL with 1 of your Benched Pokémon.",
+				'fr-fr': "Vous pouvez échanger Maraiste  avec 1 des Pokémon de votre Banc.",
+				'de-de': "Du kannst Morlord GL gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 			damage: 40,
 

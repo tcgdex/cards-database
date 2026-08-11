@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コダック",
+		'ja-jp': "コダック",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "念力を 使うと 頭痛が するので 普段は なるべく 何も しないで ボーっと 過ごしているよ。",
+		'ja-jp': "念力を 使うと 頭痛が するので 普段は なるべく 何も しないで ボーっと 過ごしているよ。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "おたがいのバトルポケモンを、それぞれこんらんにする。",
+				'ja-jp': "おたがいのバトルポケモンを、それぞれこんらんにする。",
 			},
 		},
 	],

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drowzee",
-		fr: "Soporifik",
-		es: "Drowzee",
-		it: "Drowzee",
-		pt: "Drowzee",
-		de: "Traumato"
+		'en-us': "Drowzee",
+		'fr-fr': "Soporifik",
+		'es-es': "Drowzee",
+		'it-it': "Drowzee",
+		'pt-br': "Drowzee",
+		'de-de': "Traumato"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Psypunch",
-			fr: "Coup de Poing Psy",
-			es: "Psicopuño",
-			it: "Psicopugno",
-			pt: "Soco Psíquico",
-			de: "Psyhieb"
+			'en-us': "Psypunch",
+			'fr-fr': "Coup de Poing Psy",
+			'es-es': "Psicopuño",
+			'it-it': "Psicopugno",
+			'pt-br': "Soco Psíquico",
+			'de-de': "Psyhieb"
 		},
 
 		damage: 10
@@ -38,21 +38,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Hypnotic Ray",
-			fr: "Onde Hypnotique",
-			es: "Rayo Hipnótico",
-			it: "Ipnoraggio",
-			pt: "Raio Hipnótico",
-			de: "Hypnotischer Strahl"
+			'en-us': "Hypnotic Ray",
+			'fr-fr': "Onde Hypnotique",
+			'es-es': "Rayo Hipnótico",
+			'it-it': "Ipnoraggio",
+			'pt-br': "Raio Hipnótico",
+			'de-de': "Hypnotischer Strahl"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 		},
 
 		damage: 20
@@ -75,7 +75,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It puts its prey to sleep and devours their dreams. It seems that bad dreams taste sour, so Drowzee doesn't particularly like eating them.",
+		'en-us': "It puts its prey to sleep and devours their dreams. It seems that bad dreams taste sour, so Drowzee doesn't particularly like eating them.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S5I";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アップリューVMAX",
+		'ja-jp': "アップリューVMAX",
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "キョダイローリング 250-" },
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数×10ダメージぶん、このワザのダメージは小さくなる。",
+				'ja-jp': "このポケモンにのっているダメカンの数×10ダメージぶん、このワザのダメージは小さくなる。",
 			},
 		},
 	],
@@ -38,7 +38,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アップリューV",
+		'ja-jp': "アップリューV",
 	},
 
 	retreat: 3,

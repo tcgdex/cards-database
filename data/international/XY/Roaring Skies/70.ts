@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Taillow",
-		fr: "Nirondelle",
-		es: "Taillow",
-		it: "Taillow",
-		pt: "Taillow",
-		de: "Schwalbini"
+		'en-us': "Taillow",
+		'fr-fr': "Nirondelle",
+		'es-es': "Taillow",
+		'it-it': "Taillow",
+		'pt-br': "Taillow",
+		'de-de': "Schwalbini"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Peck",
-				fr: "Double Picpic",
-				es: "Doble Picotazo",
-				it: "Beccata Doppia",
-				pt: "Bicada Dupla",
-				de: "Doppelschnabel"
+				'en-us': "Double Peck",
+				'fr-fr': "Double Picpic",
+				'es-es': "Doble Picotazo",
+				'it-it': "Beccata Doppia",
+				'pt-br': "Bicada Dupla",
+				'de-de': "Doppelschnabel"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
-				es: "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
-				it: "Lancia due volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
-				pt: "Jogue 2 moedas. Este ataque causa 10 de danos vezes o número de caras.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+				'it-it': "Lancia due volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 2 moedas. Este ataque causa 10 de danos vezes o número de caras.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "10×",
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It dislikes cold seasons. They migrate to other lands in search of warmth, flying over 180 miles a day.",
+		'en-us': "It dislikes cold seasons. They migrate to other lands in search of warmth, flying over 180 miles a day.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Whismur",
-		fr: "Chuchmur",
-		es: "Whismur",
-		it: "Whismur",
-		pt: "Whismur",
-		de: "Flurmel"
+		'en-us': "Whismur",
+		'fr-fr': "Chuchmur",
+		'es-es': "Whismur",
+		'it-it': "Whismur",
+		'pt-br': "Whismur",
+		'de-de': "Flurmel"
 	},
 
 	illustrator: "Midori Harada",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shout",
-				fr: "Braillement",
+				'en-us': "Shout",
+				'fr-fr': "Braillement",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard a random card from your opponent's hand.",
-				fr: "Lancez une pièce. Si c'est face, défaussez au hasard une carte de la main de votre adversaire.",
+				'en-us': "Flip a coin. If heads, discard a random card from your opponent's hand.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez au hasard une carte de la main de votre adversaire.",
 			},
 
 		},
@@ -50,8 +50,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Voice",
-				fr: "Mégaphone",
+				'en-us': "Hyper Voice",
+				'fr-fr': "Mégaphone",
 			},
 
 			damage: 30,
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Usually, its cries are like quiet murmurs. If frightened, it shrieks at the same volume as a jet plane.",
+		'en-us': "Usually, its cries are like quiet murmurs. If frightened, it shrieks at the same volume as a jet plane.",
 	},
 
 	thirdParty: {

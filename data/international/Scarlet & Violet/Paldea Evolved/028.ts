@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Tauros de Paldea",
-		en: "Paldean Tauros",
-		es: "Tauros de Paldea",
-		it: "Tauros di Paldea",
-		pt: "Tauros de Paldea",
-		de: "Paldea-Tauros"
+		'fr-fr': "Tauros de Paldea",
+		'en-us': "Paldean Tauros",
+		'es-es': "Tauros de Paldea",
+		'it-it': "Tauros di Paldea",
+		'pt-br': "Tauros de Paldea",
+		'de-de': "Paldea-Tauros"
 	},
 
 	rarity: "Uncommon",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Cornes Furieuses",
-			en: "Raging Horns",
-			es: "Cuernos Embravecidos",
-			it: "Corna Furiose",
-			pt: "Chifres Indomáveis",
-			de: "Rasende Hörner"
+			'fr-fr': "Cornes Furieuses",
+			'en-us': "Raging Horns",
+			'es-es': "Cuernos Embravecidos",
+			'it-it': "Corna Furiose",
+			'pt-br': "Chifres Indomáveis",
+			'de-de': "Rasende Hörner"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
-			en: "This attack does 10 more damage for each damage counter on this Pokémon.",
-			es: "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
-			it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte mehr zu."
+			'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
+			'en-us': "This attack does 10 more damage for each damage counter on this Pokémon.",
+			'es-es': "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
+			'it-it': "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
+			'pt-br': "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "20+"
@@ -46,21 +46,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			fr: "Ruée Flamboyante",
-			en: "Blaze Dash",
-			es: "Embestida Ardiente",
-			it: "Corsa Infuocata",
-			pt: "Arremetida de Labareda",
-			de: "Flammenspurt"
+			'fr-fr': "Ruée Flamboyante",
+			'en-us': "Blaze Dash",
+			'es-es': "Embestida Ardiente",
+			'it-it': "Corsa Infuocata",
+			'pt-br': "Arremetida de Labareda",
+			'de-de': "Flammenspurt"
 		},
 
 		effect: {
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			en: "Discard an Energy from this Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'en-us': "Discard an Energy from this Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte uma Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 120
@@ -97,7 +97,7 @@ const card: Card = {
 	illustrator: "AKIRA EGAWA",
 
 	description: {
-		en: "People call this kind of Tauros the Blaze Breed due to the hot air it snorts from its nostrils. Its three tails are intertwined.",
+		'en-us': "People call this kind of Tauros the Blaze Breed due to the hot air it snorts from its nostrils. Its three tails are intertwined.",
 	},
 }
 

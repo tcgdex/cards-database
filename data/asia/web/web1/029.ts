@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../web1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Dugtrio",
+		'ja-jp': "Dugtrio",
 	},
 
 	rarity: "Uncommon",
@@ -17,10 +17,10 @@ const card: Card = {
 	abilities: [
 		{
 			name: {
-				ja: "地下に行きます",
+				'ja-jp': "地下に行きます",
 			},
 			effect: {
-				ja: "このポケモンがあなたのベンチにある限り、攻撃<em>（あなたと相手の両方）でこのポケモンに与えられたすべての損害を防ぎます</em>。",
+				'ja-jp': "このポケモンがあなたのベンチにある限り、攻撃<em>（あなたと相手の両方）でこのポケモンに与えられたすべての損害を防ぎます</em>。",
 			},
 		}],
 
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Fighting", "Fighting"],
 			name: {
-				ja: "地球の波",
+				'ja-jp': "地球の波",
 			},
 			effect: {
-				ja: "この攻撃は、対戦相手のベンチポケモンの2つに10ダメージを与えます。 （ベンチポケモンに衰弱や抵抗を適用しないでください。）",
+				'ja-jp': "この攻撃は、対戦相手のベンチポケモンの2つに10ダメージを与えます。 （ベンチポケモンに衰弱や抵抗を適用しないでください。）",
 			},
 			damage: 30,
 		},

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Bagon",
-		fr: "Draby",
-		es: "Bagon",
-		it: "Bagon",
-		pt: "Bagon",
-		de: "Kindwurm"
+		'en-us': "Bagon",
+		'fr-fr': "Draby",
+		'es-es': "Bagon",
+		'it-it': "Bagon",
+		'pt-br': "Bagon",
+		'de-de': "Kindwurm"
 	},
 
 	rarity: "Common",
@@ -23,24 +23,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Gnaw",
-			fr: "Ronge",
-			es: "Roer",
-			it: "Rosicchiamento",
-			pt: "Gnaw",
-			de: "Nagen"
+			'en-us': "Gnaw",
+			'fr-fr': "Ronge",
+			'es-es': "Roer",
+			'it-it': "Rosicchiamento",
+			'pt-br': "Gnaw",
+			'de-de': "Nagen"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			es: "Golpe Cabeza",
-			it: "Bottintesta",
-			pt: "Headbutt",
-			de: "Kopfnuss"
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'es-es': "Golpe Cabeza",
+			'it-it': "Bottintesta",
+			'pt-br': "Headbutt",
+			'de-de': "Kopfnuss"
 		},
 
 		damage: 30,
@@ -51,7 +51,7 @@ const card: Card = {
 	dexId: [371],
 
 	description: {
-		en: "Some theories suggest that its behavior of forcefully bashing its head into things stimulates cells that affect its evolution."
+		'en-us': "Some theories suggest that its behavior of forcefully bashing its head into things stimulates cells that affect its evolution."
 	},
 
 	regulationMark: "E",

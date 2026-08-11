@@ -1,12 +1,12 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Black & White'
 
 const rc: Set = {
 	id: "rc",
 
 	name: {
-		en: "Radiant Collection",
-		fr: "Radiant Collection"
+		'en-us': "Radiant Collection",
+		'fr-fr': "Radiant Collection"
 	},
 
 	serie: serie,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Munchlax",
-		fr: "Goinfrex Niv. 13",
-		de: "Mampfaxo"
+		'en-us': "Munchlax",
+		'fr-fr': "Goinfrex Niv. 13",
+		'de-de': "Mampfaxo"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Baby Evolution",
-				fr: "Évolution bébé",
-				de: "Baby Evolution"
+				'en-us': "Baby Evolution",
+				'fr-fr': "Évolution bébé",
+				'de-de': "Baby Evolution"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may put Snorlax from your hand onto Munchlax (this counts as evolving Munchlax) and remove all damage counters from Munchlax.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Ronflex de votre main sur Goinfrex (vous le faites ainsi évoluer) et lui retirer tous ses marqueurs de dégât.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du Relaxo von deiner Hand auf Mampfaxo legen (das zählt als Entwickeln von Mampfaxo). Entferne alle Schadensmarken von Mampfaxo."
+				'en-us': "Once during your turn (before your attack), you may put Snorlax from your hand onto Munchlax (this counts as evolving Munchlax) and remove all damage counters from Munchlax.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Ronflex de votre main sur Goinfrex (vous le faites ainsi évoluer) et lui retirer tous ses marqueurs de dégât.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du Relaxo von deiner Hand auf Mampfaxo legen (das zählt als Entwickeln von Mampfaxo). Entferne alle Schadensmarken von Mampfaxo."
 			}
 		},
 	],
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rest",
-				fr: "Repos",
-				de: "Ruhe"
+				'en-us': "Rest",
+				'fr-fr': "Repos",
+				'de-de': "Ruhe"
 			},
 			effect: {
-				en: "Remove all Special Conditions and 6 damage counters from Munchlax. Munchlax is now Asleep.",
-				fr: "Retirez à Goinfrex tous ses États Spéciaux ainsi que 6 marqueurs de dégât. Goinfrex est maintenant Endormi.",
-				de: "Entferne alle Speziellen Zustände und 6 Schadensmarken von Mampfaxo. Mampfaxo schläft jetzt."
+				'en-us': "Remove all Special Conditions and 6 damage counters from Munchlax. Munchlax is now Asleep.",
+				'fr-fr': "Retirez à Goinfrex tous ses États Spéciaux ainsi que 6 marqueurs de dégât. Goinfrex est maintenant Endormi.",
+				'de-de': "Entferne alle Speziellen Zustände und 6 Schadensmarken von Mampfaxo. Mampfaxo schläft jetzt."
 			},
 
 		},
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "In its desperation to gulp down food, it forgets about the food it has hidden under its fur."
+		'en-us': "In its desperation to gulp down food, it forgets about the food it has hidden under its fur."
 	},
 
 	variants: [

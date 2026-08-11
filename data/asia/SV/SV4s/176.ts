@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Iron Hands ex"
+		'id-id': "Iron Hands ex"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -17,18 +17,18 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Arm Press"
+			'id-id': "Arm Press"
 		},
 
 		damage: 160,
 		cost: ["Lightning", "Lightning", "Colorless"]
 	}, {
 		name: {
-			id: "Amplifikasi Syukur"
+			'id-id': "Amplifikasi Syukur"
 		},
 
 		effect: {
-			id: "Jika Pokémon lawan KO karena kerusakan akibat serangan ini, ambil Kartu Point 1 lembar lebih banyak."
+			'id-id': "Jika Pokémon lawan KO karena kerusakan akibat serangan ini, ambil Kartu Point 1 lembar lebih banyak."
 		},
 
 		damage: 120,

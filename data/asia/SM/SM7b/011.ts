@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミツハニー",
+		'ja-jp': "ミツハニー",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "集めた ミツを 住処に 運ぶ。 夜には たくさんの ミツハニーが 重なって ハチの巣になり 眠る。",
+		'ja-jp': "集めた ミツを 住処に 運ぶ。 夜には たくさんの ミツハニーが 重なって ハチの巣になり 眠る。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ビーマーチ" },
 			cost: ["Grass"],
 			effect: {
-				ja: "自分の山札にある「ミツハニー」を3枚まで、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札にある「ミツハニー」を3枚まで、ベンチに出す。そして山札を切る。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ノココッチ"
+		'ja-jp': "ノココッチ"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "硬い 尻尾で 地中 深くの 岩盤を くり抜き 巣を 作る。 巣穴は 長さ１０キロに およぶ。"
+		'ja-jp': "硬い 尻尾で 地中 深くの 岩盤を くり抜き 巣を 作る。 巣穴は 長さ１０キロに およぶ。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "どろかけ"
+			'ja-jp': "どろかけ"
 		},
 
 		damage: 30
@@ -32,13 +32,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ほりにげフラッシュ"
+			'ja-jp': "ほりにげフラッシュ"
 		},
 
 		damage: 100,
 
 		effect: {
-			ja: "相手のバトルポケモンをマヒにする。このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。"
+			'ja-jp': "相手のバトルポケモンをマヒにする。このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。"
 		}
 	}],
 

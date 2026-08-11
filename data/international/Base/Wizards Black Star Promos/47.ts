@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Mew",
+		'en-us': "Mew",
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -24,10 +24,10 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Neutral Shield",
+				'en-us': "Neutral Shield",
 			},
 			effect: {
-				en: "Mew is not affected by attacks made by Evolved Pokémon. This power turns off if Mew is Asleep, Confused, or Paralyzed.",
+				'en-us': "Mew is not affected by attacks made by Evolved Pokémon. This power turns off if Mew is Asleep, Confused, or Paralyzed.",
 			},
 		},
 	],
@@ -37,10 +37,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psyshock",
+				'en-us': "Psyshock",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 
 
 	description: {
-		en: "So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.",
+		'en-us': "So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.",
 	},
 
 	variants: [

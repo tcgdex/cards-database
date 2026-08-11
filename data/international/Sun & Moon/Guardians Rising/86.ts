@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Probopass",
-		fr: "Tarinorme",
-		es: "Probopass",
-		it: "Probopass",
-		pt: "Probopass",
-		de: "Voluminas"
+		'en-us': "Probopass",
+		'fr-fr': "Tarinorme",
+		'es-es': "Probopass",
+		'it-it': "Probopass",
+		'pt-br': "Probopass",
+		'de-de': "Voluminas"
 	},
 
 	illustrator: "Yoshinobu Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nosepass",
-		fr: "Tarinor",
+		'en-us': "Nosepass",
+		'fr-fr': "Tarinor",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Energy Link",
-				fr: "Chaîne d’Énergie",
-				es: "Vínculo de Energía",
-				it: "Legame Energetico",
-				pt: "Elo de Energia",
-				de: "Energie-Verbindung"
+				'en-us': "Energy Link",
+				'fr-fr': "Chaîne d’Énergie",
+				'es-es': "Vínculo de Energía",
+				'it-it': "Legame Energetico",
+				'pt-br': "Elo de Energia",
+				'de-de': "Energie-Verbindung"
 			},
 			effect: {
-				en: "Attach an Energy card from your discard pile to this Pokémon.",
-				fr: "Attachez une carte Énergie de votre pile de défausse à ce Pokémon.",
-				es: "Une 1 carta de Energía de tu pila de descartes a este Pokémon.",
-				it: "Assegna a questo Pokémon una carta Energia dalla tua pila degli scarti.",
-				pt: "Ligue 1 carta de Energia da sua pilha de descarte a este Pokémon.",
-				de: "Lege 1 Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+				'en-us': "Attach an Energy card from your discard pile to this Pokémon.",
+				'fr-fr': "Attachez une carte Énergie de votre pile de défausse à ce Pokémon.",
+				'es-es': "Une 1 carta de Energía de tu pila de descartes a este Pokémon.",
+				'it-it': "Assegna a questo Pokémon una carta Energia dalla tua pila degli scarti.",
+				'pt-br': "Ligue 1 carta de Energia da sua pilha de descarte a este Pokémon.",
+				'de-de': "Lege 1 Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 			},
 			damage: 30,
 
@@ -65,12 +65,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Power Gem",
-				fr: "Rayon Gemme",
-				es: "Joya de Luz",
-				it: "Gemmoforza",
-				pt: "Gema Poderosa",
-				de: "Juwelenkraft"
+				'en-us': "Power Gem",
+				'fr-fr': "Rayon Gemme",
+				'es-es': "Joya de Luz",
+				'it-it': "Gemmoforza",
+				'pt-br': "Gema Poderosa",
+				'de-de': "Juwelenkraft"
 			},
 
 			damage: 120,
@@ -95,7 +95,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It radiates such a powerful magnetic field that nearby electrical appliances become unusable.",
+		'en-us': "It radiates such a powerful magnetic field that nearby electrical appliances become unusable.",
 	},
 
 	thirdParty: {

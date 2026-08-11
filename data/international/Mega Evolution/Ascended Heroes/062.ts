@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Stunfisk",
-		fr: "Limonde",
-		es: "Stunfisk",
+		'en-us': "Stunfisk",
+		'fr-fr': "Limonde",
+		'es-es': "Stunfisk",
 		'es-mx': "Stunfisk",
-		de: "Flunschlik",
-		it: "Stunfisk",
-		pt: "Stunfisk"
+		'de-de': "Flunschlik",
+		'it-it': "Stunfisk",
+		'pt-br': "Stunfisk"
 	},
 
 	illustrator: "Tetsu Kayama",
@@ -26,23 +26,23 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Pouncing Trap",
-			fr: "Piège Bondissant",
-			es: "Trampa Brinco",
+			'en-us': "Pouncing Trap",
+			'fr-fr': "Piège Bondissant",
+			'es-es': "Trampa Brinco",
 			'es-mx': "Trampa Asaltante",
-			de: "Sprungfalle",
-			it: "Trappola Scattante",
-			pt: "Armadilha Saltitante"
+			'de-de': "Sprungfalle",
+			'it-it': "Trappola Scattante",
+			'pt-br': "Armadilha Saltitante"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, the Defending Pokémon can't retreat. During your next turn, the Defending Pokémon takes 100 more damage from attacks (after applying Weakness and Resistance).",
-			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite. Pendant votre prochain tour, le Pokémon Défenseur subit 100 dégâts supplémentaires provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse. Durante tu próximo turno, los ataques hacen 100 puntos de daño más al Pokémon Defensor (después de aplicar Debilidad y Resistencia).",
+			'en-us': "During your opponent's next turn, the Defending Pokémon can't retreat. During your next turn, the Defending Pokémon takes 100 more damage from attacks (after applying Weakness and Resistance).",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite. Pendant votre prochain tour, le Pokémon Défenseur subit 100 dégâts supplémentaires provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			'es-es': "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse. Durante tu próximo turno, los ataques hacen 100 puntos de daño más al Pokémon Defensor (después de aplicar Debilidad y Resistencia).",
 			'es-mx': "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse. Durante tu próximo turno, el Pokémon Defensor recibe 100 puntos de daño más de ataques (después de aplicar Debilidad y Resistencia).",
-			de: "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen. Während deines nächsten Zuges werden dem Verteidigenden Pokémon durch Attacken 100 Schadenspunkte mehr zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
-			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi. Durante il tuo prossimo turno, il Pokémon difensore subisce 100 danni in più dagli attacchi, dopo aver applicato debolezza e resistenza.",
-			pt: "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar. Durante o seu próximo turno, o Pokémon Defensor receberá 100 pontos de dano a mais de ataques (depois de aplicar Fraqueza e Resistência)."
+			'de-de': "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen. Während deines nächsten Zuges werden dem Verteidigenden Pokémon durch Attacken 100 Schadenspunkte mehr zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
+			'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi. Durante il tuo prossimo turno, il Pokémon difensore subisce 100 danni in più dagli attacchi, dopo aver applicato debolezza e resistenza.",
+			'pt-br': "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar. Durante o seu próximo turno, o Pokémon Defensor receberá 100 pontos de dano a mais de ataques (depois de aplicar Fraqueza e Resistência)."
 		},
 
 		damage: 30
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a jolt of electricity.",
+		'en-us': "It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a jolt of electricity.",
 	},
 
 	variants: [

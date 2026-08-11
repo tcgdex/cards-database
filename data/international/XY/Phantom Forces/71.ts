@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Diancie",
-		fr: "Diancie",
-		es: "Diancie",
-		it: "Diancie",
-		pt: "Diancie",
-		de: "Diancie"
+		'en-us': "Diancie",
+		'fr-fr': "Diancie",
+		'es-es': "Diancie",
+		'it-it': "Diancie",
+		'pt-br': "Diancie",
+		'de-de': "Diancie"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Sparkle",
-				fr: "Éclat",
-				es: "Brillo",
-				it: "Scintillio",
-				pt: "Centelha",
-				de: "Glitzern"
+				'en-us': "Sparkle",
+				'fr-fr': "Éclat",
+				'es-es': "Brillo",
+				'it-it': "Scintillio",
+				'pt-br': "Centelha",
+				'de-de': "Glitzern"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c'est pile, son attaque ne fait rien.",
-				es: "Si el Pokémon Defensor intenta atacar durante el próximo turno de tu rival, este lanza 1 moneda. Si sale cruz, ese ataque no hace nada.",
-				it: "Se durante il prossimo turno del tuo avversario il Pokémon difensore prova ad attaccare, il tuo avversario lancia una moneta. Se esce croce, quell'attacco non ha effetto.",
-				pt: "Se o Pokémon Defensor tentar atacar durante a próxima vez de jogar do seu oponente, seu oponente jogará uma moeda. Se sair coroa, o ataque não fará nada.",
-				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c'est pile, son attaque ne fait rien.",
+				'es-es': "Si el Pokémon Defensor intenta atacar durante el próximo turno de tu rival, este lanza 1 moneda. Si sale cruz, ese ataque no hace nada.",
+				'it-it': "Se durante il prossimo turno del tuo avversario il Pokémon difensore prova ad attaccare, il tuo avversario lancia una moneta. Se esce croce, quell'attacco non ha effetto.",
+				'pt-br': "Se o Pokémon Defensor tentar atacar durante a próxima vez de jogar do seu oponente, seu oponente jogará uma moeda. Se sair coroa, o ataque não fará nada.",
+				'de-de': "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 
 		},
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Diamond Storm",
-				fr: "Orage Adamantin",
-				es: "Tormenta de Diamantes",
-				it: "Diamantempesta",
-				pt: "Tempestade Diamante",
-				de: "Diamantsturm"
+				'en-us': "Diamond Storm",
+				'fr-fr': "Orage Adamantin",
+				'es-es': "Tormenta de Diamantes",
+				'it-it': "Diamantempesta",
+				'pt-br': "Tempestade Diamante",
+				'de-de': "Diamantsturm"
 			},
 			effect: {
-				en: "Heal 30 damage from each of your Fairy Pokémon.",
-				fr: "Soignez 30 dégâts à chacun de vos Pokémon Fairy.",
-				es: "Cura 30 puntos de daño a cada uno de tus Pokémon Fairy.",
-				it: "Cura ciascuno dei tuoi Pokémon Fairy da 30 danni.",
-				pt: "Cura 30 de danos de cada um dos seus Pokémon Fairy.",
-				de: "Heile 30 Schadenspunkte bei jedem deiner Fairy-Pokémon."
+				'en-us': "Heal 30 damage from each of your Fairy Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à chacun de vos Pokémon Fairy.",
+				'es-es': "Cura 30 puntos de daño a cada uno de tus Pokémon Fairy.",
+				'it-it': "Cura ciascuno dei tuoi Pokémon Fairy da 30 danni.",
+				'pt-br': "Cura 30 de danos de cada um dos seus Pokémon Fairy.",
+				'de-de': "Heile 30 Schadenspunkte bei jedem deiner Fairy-Pokémon."
 			},
 			damage: 60,
 
@@ -95,7 +95,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world.",
+		'en-us': "A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Tandemaus"
+		'id-id': "Tandemaus"
 	},
 
 	illustrator: "Akira Komayama",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Tandemaus selalu berdua pada saat apa pun. Pokémon ini membagi dua dan memakan bersama makanan yang ditemukannya."
+		'id-id': "Tandemaus selalu berdua pada saat apa pun. Pokémon ini membagi dua dan memakan bersama makanan yang ditemukannya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Tergelincir"
+			'id-id': "Tergelincir"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 40,

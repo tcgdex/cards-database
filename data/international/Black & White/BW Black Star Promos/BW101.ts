@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Genesect",
-		fr: "Genesect",
+		'en-us': "Genesect",
+		'fr-fr': "Genesect",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Common",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Beam",
-				fr: "Ultralaser",
+				'en-us': "Hyper Beam",
+				'fr-fr': "Ultralaser",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 30,
 
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Breaker Bazooka",
-				fr: "Bazooka Infernal",
+				'en-us': "Breaker Bazooka",
+				'fr-fr': "Bazooka Infernal",
 			},
 			effect: {
-				en: "Discard all Grass Energy attached to this Pokémon.",
-				fr: "Défaussez toutes les Énergies Grass attachées à ce Pokémon.",
+				'en-us': "Discard all Grass Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez toutes les Énergies Grass attachées à ce Pokémon.",
 			},
 			damage: 100,
 
@@ -70,7 +70,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.",
+		'en-us': "This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.",
 	},
 }
 

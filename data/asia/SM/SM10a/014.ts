@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フワンテ",
+		'ja-jp': "フワンテ",
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "丸い 身体の 中に たくさんの 魂が 詰まっている。 誰かを 道連れにするたび 膨らんでいく。",
+		'ja-jp': "丸い 身体の 中に たくさんの 魂が 詰まっている。 誰かを 道連れにするたび 膨らんでいく。",
 	},
 
 	stage: "Basic",

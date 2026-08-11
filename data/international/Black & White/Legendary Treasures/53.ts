@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo",
+		'en-us': "Mewtwo",
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -30,7 +30,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Power Edge",
+				'en-us': "Power Edge",
 			},
 
 			damage: 30,
@@ -44,10 +44,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psyslash",
+				'en-us': "Psyslash",
 			},
 			effect: {
-				en: "Discard 2 Energy attached to this Pokémon.",
+				'en-us': "Discard 2 Energy attached to this Pokémon.",
 			},
 			damage: 120,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
+		'en-us': "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
 	},
 
 	thirdParty: {

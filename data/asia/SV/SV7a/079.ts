@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "フライゴンex"
+		'ja-jp': "フライゴンex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,23 +19,23 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "ストームバック"
+			'ja-jp': "ストームバック"
 		},
 
 		damage: 130,
 
 		effect: {
-			ja: "のぞむなら、このポケモンをベンチポケモンと入れ替える。"
+			'ja-jp': "のぞむなら、このポケモンをベンチポケモンと入れ替える。"
 		}
 	}, {
 		cost: ["Water", "Fighting", "Metal"],
 
 		name: {
-			ja: "ペリドットソニック"
+			'ja-jp': "ペリドットソニック"
 		},
 
 		effect: {
-			ja: "相手の「ポケモンex・V」全員に、それぞれ100ダメージ。このワザのダメージは弱点・抵抗力を計算しない。"
+			'ja-jp': "相手の「ポケモンex・V」全員に、それぞれ100ダメージ。このワザのダメージは弱点・抵抗力を計算しない。"
 		}
 	}],
 

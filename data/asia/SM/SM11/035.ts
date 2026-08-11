@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スコルピ",
+		'ja-jp': "スコルピ",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "尻尾の ツメで 獲物を 挟み 毒を 送りこむ。毒が 効くまで 絶対に 放さない 執念。",
+		'ja-jp': "尻尾の ツメで 獲物を 挟み 毒を 送りこむ。毒が 効くまで 絶対に 放さない 執念。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "はたきおとす" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手の手札からオモテを見ないで、1枚トラッシュする。",
+				'ja-jp': "相手の手札からオモテを見ないで、1枚トラッシュする。",
 			},
 		},
 		{

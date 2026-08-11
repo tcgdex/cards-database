@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チョボマキ",
+		'ja-jp': "チョボマキ",
 		'zh-tw': "小嘴蝸",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "電気 エネルギーに 反応する 不思議な 体質。 カブルモと ともに いると なぜか 進化する。",
+		'ja-jp': "電気 エネルギーに 反応する 不思議な 体質。 カブルモと ともに いると なぜか 進化する。",
 		'zh-tw': "有著會對電能產生反應的奇異體質。不知為何，和蓋蓋蟲待在一起就會進化。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "スピットビーム",
+				'ja-jp': "スピットビーム",
 				'zh-tw': "噴吐光束",
 			},
 			damage: 20,

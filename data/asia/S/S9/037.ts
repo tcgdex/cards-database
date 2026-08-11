@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "小貓怪",
-		ja: "コリンク"
+		'ja-jp': "コリンク"
 	},
 
 	illustrator: "Mizue",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "能利用肌肉的伸縮來產生電流。當牠全身都在抖動時， 就代表牠正在激烈地發電。",
-		ja: "筋肉の 収縮で 電気を つくる。 武者震いは 激しく 発電している 証拠。"
+		'ja-jp': "筋肉の 収縮で 電気を つくる。 武者震いは 激しく 発電している 証拠。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "咬",
-			ja: "かじる"
+			'ja-jp': "かじる"
 		},
 
 		damage: 10,

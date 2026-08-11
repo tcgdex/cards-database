@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クレセリア",
+		'ja-jp': "クレセリア",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "みなぎるひかり" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分の山札から「基本[P]エネルギー」を2枚まで選び、このポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から「基本[P]エネルギー」を2枚まで選び、このポケモンにつける。そして山札を切る。",
 			},
 		},
 		{

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Avalugg"
+		'en-us': "Avalugg"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Bergmite"
+		'en-us': "Bergmite"
 	},
 
 	description: {
-		en: "This Pokémon uses its massive icy body to flatten\nanything that gets in its way. When it's floating\nout on the ocean, it looks exactly like drift ice."
+		'en-us': "This Pokémon uses its massive icy body to flatten\nanything that gets in its way. When it's floating\nout on the ocean, it looks exactly like drift ice."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Frost Barrier"
+			'en-us': "Frost Barrier"
 		},
 
 		damage: 70,
 		cost: ["Water", "Water", "Colorless"],
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes −20 damage from attacks."
+			'en-us': "During your opponent's next turn, this Pokémon takes −20 damage from attacks."
 		}
 	}],
 

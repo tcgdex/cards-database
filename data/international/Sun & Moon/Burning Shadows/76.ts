@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Lycanroc",
-		fr: "Lougaroc",
-		es: "Lycanroc",
-		it: "Lycanroc",
-		pt: "Lycanroc",
-		de: "Wolwerock"
+		'en-us': "Lycanroc",
+		'fr-fr': "Lougaroc",
+		'es-es': "Lycanroc",
+		'it-it': "Lycanroc",
+		'pt-br': "Lycanroc",
+		'de-de': "Wolwerock"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rockruff",
-		fr: "Rocabot",
+		'en-us': "Rockruff",
+		'fr-fr': "Rocabot",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Throw",
-				fr: "Jet-Pierres",
-				es: "Lanzarrocas",
-				it: "Sassata",
-				pt: "Lançamento de Rocha",
-				de: "Steinwurf"
+				'en-us': "Rock Throw",
+				'fr-fr': "Jet-Pierres",
+				'es-es': "Lanzarrocas",
+				'it-it': "Sassata",
+				'pt-br': "Lançamento de Rocha",
+				'de-de': "Steinwurf"
 			},
 
 			damage: 30,
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Accelerock",
-				fr: "Vif Roc",
-				es: "Roca Veloz",
-				it: "Rocciarapida",
-				pt: "Rocha Veloz",
-				de: "Turbofelsen"
+				'en-us': "Accelerock",
+				'fr-fr': "Vif Roc",
+				'es-es': "Roca Veloz",
+				'it-it': "Rocciarapida",
+				'pt-br': "Rocha Veloz",
+				'de-de': "Turbofelsen"
 			},
 
 			damage: 100,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its quick movements confuse its enemies. Well equipped with claws and fangs, it also uses the sharp rocks in its mane as weapons.",
+		'en-us': "Its quick movements confuse its enemies. Well equipped with claws and fangs, it also uses the sharp rocks in its mane as weapons.",
 	},
 
 	thirdParty: {

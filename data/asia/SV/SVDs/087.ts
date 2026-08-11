@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ริโอลุ",
-		id: "Riolu"
+		'th-th': "ริโอลุ",
+		'id-id': "Riolu"
 	},
 
 	illustrator: "chibi",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		th: "ใช้คลื่นพลังในการสื่อสารกับพวกเดียวกัน สามารถวิ่งติดต่อกันได้ทั้งคืน",
-		id: "Riolu mengeluarkan gelombang aura untuk berkomunikasi dengan kawannya. Pokémon ini dapat terus berlari sepanjang malam."
+		'th-th': "ใช้คลื่นพลังในการสื่อสารกับพวกเดียวกัน สามารถวิ่งติดต่อกันได้ทั้งคืน",
+		'id-id': "Riolu mengeluarkan gelombang aura untuk berkomunikasi dengan kawannya. Pokémon ini dapat terus berlari sepanjang malam."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "หมัด",
-			id: "Pukulan"
+			'th-th': "หมัด",
+			'id-id': "Pukulan"
 		},
 
 		damage: 10,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			th: "ประจัญบาน",
-			id: "Menyerang"
+			'th-th': "ประจัญบาน",
+			'id-id': "Menyerang"
 		},
 
 		effect: {
-			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 20 ด้วย",
-			id: "Pokémon ini juga menerima kerusakan sejumlah 20."
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 20 ด้วย",
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 20."
 		},
 
 		damage: 50,

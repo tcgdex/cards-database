@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Crawdaunt",
-		fr: "Colhomard",
-		de: "Krebutack"
+		'en-us': "Crawdaunt",
+		'fr-fr': "Colhomard",
+		'de-de': "Krebutack"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Corphish",
-		fr: "Écrapince"
+		'en-us': "Corphish",
+		'fr-fr': "Écrapince"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Poison Claws",
-				fr: "Griffes empoisonnées",
-				de: "Giftkrallen"
+				'en-us': "Poison Claws",
+				'fr-fr': "Griffes empoisonnées",
+				'de-de': "Giftkrallen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 			damage: 10,
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rend",
-				fr: "Déchirer",
-				de: "Reißer"
+				'en-us': "Rend",
+				'fr-fr': "Déchirer",
+				'de-de': "Reißer"
 			},
 			effect: {
-				en: "If the Defending Pokémon has any damage counters on it, this attack does 30 damage plus 30 more damage.",
-				fr: "Si le Pokémon Défenseur possède des marqueurs de dégât, cette attaque inflige 60 dégâts.",
-				de: "Wenn auf dem Verteidigenden Pokémon mindestens 1 Schadensmarke liegt, fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "If the Defending Pokémon has any damage counters on it, this attack does 30 damage plus 30 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur possède des marqueurs de dégât, cette attaque inflige 60 dégâts.",
+				'de-de': "Wenn auf dem Verteidigenden Pokémon mindestens 1 Schadensmarke liegt, fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Clemont's Backpack"
+		'en-us': "Clemont's Backpack"
 	},
 
 	illustrator: "AYUMI ODASHIMA",
@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "During this turn, attacks used by your Magneton or Heliolisk do +20 damage to your opponent's Pokémon."
+		'en-us': "During this turn, attacks used by your Magneton or Heliolisk do +20 damage to your opponent's Pokémon."
 	},
 
 	trainerType: "Item"

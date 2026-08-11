@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビークイン",
+		'ja-jp': "ビークイン",
 	},
 
 	illustrator: "chibi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "胴体が 子供たちの 巣穴に なっている。 ミツハニーの 集めた ミツで 子供たちを 育てる。",
+		'ja-jp': "胴体が 子供たちの 巣穴に なっている。 ミツハニーの 集めた ミツで 子供たちを 育てる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Grass"],
 			effect: {
-				ja: "自分のベンチに[草]ポケモンが5匹いないなら、このワザは失敗。",
+				'ja-jp': "自分のベンチに[草]ポケモンが5匹いないなら、このワザは失敗。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ミツハニー",
+		'ja-jp': "ミツハニー",
 	},
 
 	retreat: 2,

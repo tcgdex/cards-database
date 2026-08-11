@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Torkoal",
-		fr: "Chartor",
-		es: "Torkoal",
-		it: "Torkoal",
-		pt: "Torkoal",
-		de: "Qurtel"
+		'en-us': "Torkoal",
+		'fr-fr': "Chartor",
+		'es-es': "Torkoal",
+		'it-it': "Torkoal",
+		'pt-br': "Torkoal",
+		'de-de': "Qurtel"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flame Cloak",
-				fr: "Manteau de Feu"
+				'en-us': "Flame Cloak",
+				'fr-fr': "Manteau de Feu"
 			},
 			effect: {
-				en: "Flip a coin. If heads, attach a Fire Energy card from your discard pile to this Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, attachez une carte Énergie  de votre pile de défausse à ce Pokémon."
+				'en-us': "Flip a coin. If heads, attach a Fire Energy card from your discard pile to this Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, attachez une carte Énergie  de votre pile de défausse à ce Pokémon."
 			},
 			damage: 10,
 
@@ -51,8 +51,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Blast",
-				fr: "Explosion de Chaleur"
+				'en-us': "Heat Blast",
+				'fr-fr': "Explosion de Chaleur"
 			},
 
 			damage: 60,
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It burns coal inside its shell for energy. It blows out black soot if it is endangered.",
+		'en-us': "It burns coal inside its shell for energy. It blows out black soot if it is endangered.",
 	},
 
 	thirdParty: {

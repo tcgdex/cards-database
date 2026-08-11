@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ライコウスター",
+		'ja-jp': "ライコウスター",
 	},
 
 	rarity: "Shiny rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "稲妻ターン",
+				'ja-jp': "稲妻ターン",
 			},
 			effect: {
-				ja: "raikou {{star | this pokemon}}をベンチしたポケモンを1枚切り替えます。",
+				'ja-jp': "raikou {{star | this pokemon}}をベンチしたポケモンを1枚切り替えます。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Lightning", "Lightning", "Lightning"],
 			name: {
-				ja: "メタ電圧",
+				'ja-jp': "メタ電圧",
 			},
 			effect: {
-				ja: "対戦相手よりも賞品が少ない場合、この攻撃はそれぞれのポケモンに40のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "対戦相手よりも賞品が少ない場合、この攻撃はそれぞれのポケモンに40のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 70,
 		},

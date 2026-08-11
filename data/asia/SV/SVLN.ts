@@ -1,10 +1,10 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../SV'
 
 const set: Set = {
 	id: 'SVLN',
 	name: {
-		ja: 'スターターセット テラスタイプ：ステラ ニンフィアex'
+		'ja-jp': 'スターターセット テラスタイプ：ステラ ニンフィアex'
 	},
 
 	serie: serie,
@@ -13,7 +13,7 @@ const set: Set = {
 		official: 22
 	},
 	releaseDate: {
-		ja: '2024-08-30'
+		'ja-jp': '2024-08-30'
 	}
 }
 

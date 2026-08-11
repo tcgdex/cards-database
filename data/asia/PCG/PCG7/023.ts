@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG7"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "pidgeot（デルタ種）",
+		'ja-jp': "pidgeot（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "デルタリザーブ",
+				'ja-jp': "デルタリザーブ",
 			},
 			effect: {
-				ja: "PidgeotにHolon Energy Cardsが接続されている限り、各プレイヤーのPokã©Mon（カードにデルタを持っているPokã©Monを除く）はPokã©Powersを使用できません。",
+				'ja-jp': "PidgeotにHolon Energy Cardsが接続されている限り、各プレイヤーのPokã©Mon（カードにデルタを持っているPokã©Monを除く）はPokã©Powersを使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Metal", "Colorless"],
 			name: {
-				ja: "回転爪",
+				'ja-jp': "回転爪",
 			},
 			effect: {
-				ja: "Pidgeotに取り付けられたエネルギーカードを破棄できます。そうした場合は、廃棄パイルを検索して、エネルギーカード（廃棄したものを除く）を検索し、pidgeotに取り付けます。",
+				'ja-jp': "Pidgeotに取り付けられたエネルギーカードを破棄できます。そうした場合は、廃棄パイルを検索して、エネルギーカード（廃棄したものを除く）を検索し、pidgeotに取り付けます。",
 			},
 			damage: 50,
 		},

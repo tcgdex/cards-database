@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガダークライex",
+		'ja-jp': "メガダークライex",
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -20,14 +20,14 @@ const card: Card = {
 			damage: "110+",
 			cost: ["Darkness", "Darkness"],
 			effect: {
-				ja: "自分のベンチポケモンにダメカンがのっているなら、110ダメージ追加。",
+				'ja-jp': "自分のベンチポケモンにダメカンがのっているなら、110ダメージ追加。",
 			},
 		},
 		{
 			name: { ja: "アビスアイ" },
 			cost: ["Darkness", "Darkness", "Darkness"],
 			effect: {
-				ja: "相手のバトルポケモンが特殊状態なら、そのポケモンをきぜつさせる。",
+				'ja-jp': "相手のバトルポケモンが特殊状態なら、そのポケモンをきぜつさせる。",
 			},
 		},
 	],

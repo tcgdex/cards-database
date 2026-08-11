@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Rattata",
-		fr: "Rattata",
-		de: "Rattfratz"
+		'en-us': "Rattata",
+		'fr-fr': "Rattata",
+		'de-de': "Rattfratz"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Ronge",
-				de: "Nagen"
+				'en-us': "Gnaw",
+				'fr-fr': "Ronge",
+				'de-de': "Nagen"
 			},
 
 			damage: 20,
@@ -49,7 +49,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Living wherever there is food available, it ceaselessly scavenges for edibles the entire day."
+		'en-us': "Living wherever there is food available, it ceaselessly scavenges for edibles the entire day."
 	},
 
 	variants: [

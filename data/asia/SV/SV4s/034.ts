@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Panpour"
+		'id-id': "Panpour"
 	},
 
 	illustrator: "Natsumi Yoshida",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Air yang ditampung pada jambul di kepala Panpour penuh dengan gizi. Tanaman yang disiram dengan air tersebut akan tumbuh besar."
+		'id-id': "Air yang ditampung pada jambul di kepala Panpour penuh dengan gizi. Tanaman yang disiram dengan air tersebut akan tumbuh besar."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Memanggil Teman"
+			'id-id': "Memanggil Teman"
 		},
 
 		effect: {
-			id: "Pilih 1 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
+			'id-id': "Pilih 1 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Aura Air"
+			'id-id': "Aura Air"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
 		},
 
 		damage: 30,

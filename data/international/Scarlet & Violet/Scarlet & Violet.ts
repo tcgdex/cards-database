@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Scarlet & Violet'
 
 const set: Set = {
 	id: "sv01",
 
 	name: {
-		de: "Karmesin & Purpur",
-		en: "Scarlet & Violet",
-		es: "Escarlata y Púrpura",
-		fr: "Écarlate et Violet",
-		it: "Scarlatto e Violetto",
-		pt: "Escarlate e Violeta"
+		'de-de': "Karmesin & Purpur",
+		'en-us': "Scarlet & Violet",
+		'es-es': "Escarlata y Púrpura",
+		'fr-fr': "Écarlate et Violet",
+		'it-it': "Scarlatto e Violetto",
+		'pt-br': "Escarlate e Violeta"
 	},
 
 	serie: serie,
@@ -23,7 +23,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "SVI",
-		fr: "E&V"
+		'fr-fr': "E&V"
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Cottonee",
-		fr: "Doudouvet",
-		es: "Cottonee",
-		it: "Cottonee",
-		pt: "Cottonee",
-		de: "Waumboll"
+		'en-us': "Cottonee",
+		'fr-fr': "Doudouvet",
+		'es-es': "Cottonee",
+		'it-it': "Cottonee",
+		'pt-br': "Cottonee",
+		'de-de': "Waumboll"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Attach",
-				fr: "Accrochage",
-				es: "Pegarse",
-				it: "Appiccicoso",
-				pt: "Conectar",
-				de: "Festkleben"
+				'en-us': "Attach",
+				'fr-fr': "Accrochage",
+				'es-es': "Pegarse",
+				'it-it': "Appiccicoso",
+				'pt-br': "Conectar",
+				'de-de': "Festkleben"
 			},
 
 			damage: 10,
@@ -65,7 +65,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It shoots cotton from its body to protect itself. If it gets caught up in hurricane-strength winds, it can get sent to the other side of the Earth."
+		'en-us': "It shoots cotton from its body to protect itself. If it gets caught up in hurricane-strength winds, it can get sent to the other side of the Earth."
 	},
 
 	thirdParty: {

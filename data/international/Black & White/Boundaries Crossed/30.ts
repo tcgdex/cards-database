@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Wartortle",
-		fr: "Carabaffe",
-		es: "Wartortle",
-		it: "Wartortle",
-		pt: "Wartortle",
-		de: "Schillok"
+		'en-us': "Wartortle",
+		'fr-fr': "Carabaffe",
+		'es-es': "Wartortle",
+		'it-it': "Wartortle",
+		'pt-br': "Wartortle",
+		'de-de': "Schillok"
 	},
 
 	illustrator: "Mizue",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Squirtle",
-		fr: "Carapuce",
+		'en-us': "Squirtle",
+		'fr-fr': "Carapuce",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Withdraw",
-				fr: "Repli",
+				'en-us': "Withdraw",
+				'fr-fr': "Repli",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, évitez tous les dégâts infligés à ce Pokémon par des attaques pendant le prochain tour de votre adversaire.",
+				'en-us': "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, évitez tous les dégâts infligés à ce Pokémon par des attaques pendant le prochain tour de votre adversaire.",
 			},
 
 		},
@@ -55,8 +55,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Waterfall",
-				fr: "Cascade",
+				'en-us': "Waterfall",
+				'fr-fr': "Cascade",
 			},
 
 			damage: 60,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.",
+		'en-us': "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.",
 	},
 
 	thirdParty: {

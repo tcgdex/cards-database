@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [723],
 
 	name: {
-		en: "Dartrix",
-		fr: "Efflèche",
-		es: "Dartrix",
-		it: "Dartrix",
-		pt: "Dartrix",
-		de: "Arboretoss"
+		'en-us': "Dartrix",
+		'fr-fr': "Efflèche",
+		'es-es': "Dartrix",
+		'it-it': "Dartrix",
+		'pt-br': "Dartrix",
+		'de-de': "Arboretoss"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rowlet",
-		fr: "Brindibou",
-		es: "Rowlet",
-		it: "Rowlet",
-		pt: "Rowlet",
-		de: "Bauz"
+		'en-us': "Rowlet",
+		'fr-fr': "Brindibou",
+		'es-es': "Rowlet",
+		'it-it': "Rowlet",
+		'pt-br': "Rowlet",
+		'de-de': "Bauz"
 	},
 
 	attacks: [
@@ -38,12 +38,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'Herbe",
-				es: "Hoja Afilada",
-				it: "Foglielama",
-				pt: "Folha Navalha",
-				de: "Rasierblatt"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'Herbe",
+				'es-es': "Hoja Afilada",
+				'it-it': "Foglielama",
+				'pt-br': "Folha Navalha",
+				'de-de': "Rasierblatt"
 			},
 
 			damage: 40,
@@ -65,7 +65,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It throws one knifelike feather after another at its enemies, and each one precisely strikes a weak point. These feathers are known as blade quills."
+		'en-us': "It throws one knifelike feather after another at its enemies, and each one precisely strikes a weak point. These feathers are known as blade quills."
 	},
 
 	variants: [

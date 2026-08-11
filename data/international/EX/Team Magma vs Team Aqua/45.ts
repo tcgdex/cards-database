@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Slowpoke",
-		fr: "Ramoloss",
-		de: "Flegmon"
+		'en-us': "Slowpoke",
+		'fr-fr': "Ramoloss",
+		'de-de': "Flegmon"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Amnesia",
-				fr: "Amnésie",
-				de: "Amnesia"
+				'en-us': "Amnesia",
+				'fr-fr': "Amnésie",
+				'de-de': "Amnesia"
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
-				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Le Pokémon Défenseur ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire.",
-				de: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn."
+				'en-us': "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
+				'fr-fr': "Choisissez 1 des attaques du Pokémon Défenseur. Le Pokémon Défenseur ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire.",
+				'de-de': "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Strike",
-				fr: "Attaque caudale",
-				de: "Tail Strike"
+				'en-us': "Tail Strike",
+				'fr-fr': "Attaque caudale",
+				'de-de': "Tail Strike"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
 			},
 			damage: "10+",
 

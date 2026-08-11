@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Heliolisk",
-		fr: "Iguolta",
-		de: "Elezard",
-		it: "Heliolisk",
-		es: "Heliolisk",
-		pt: "Heliolisk",
+		'en-us': "Heliolisk",
+		'fr-fr': "Iguolta",
+		'de-de': "Elezard",
+		'it-it': "Heliolisk",
+		'es-es': "Heliolisk",
+		'pt-br': "Heliolisk",
 		'es-mx': "Heliolisk"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Lightning"],
 	evolveFrom: {
-		en: "Helioptile",
-		fr: "Galvaran",
-		de: "Eguana",
-		it: "Helioptile",
-		es: "Helioptile",
-		pt: "Helioptile",
+		'en-us': "Helioptile",
+		'fr-fr': "Galvaran",
+		'de-de': "Eguana",
+		'it-it': "Helioptile",
+		'es-es': "Helioptile",
+		'pt-br': "Helioptile",
 		'es-mx': "Helioptile"
 	},
 	stage: "Stage1",
@@ -35,22 +35,22 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Dazzle Blast",
-			fr: "Explosion de Lumière",
-			de: "Blendende Explosion",
-			it: "Accecobomba",
-			es: "Destello Deslumbrante",
-			pt: "Explosão Fascinante",
+			'en-us': "Dazzle Blast",
+			'fr-fr': "Explosion de Lumière",
+			'de-de': "Blendende Explosion",
+			'it-it': "Accecobomba",
+			'es-es': "Destello Deslumbrante",
+			'pt-br': "Explosão Fascinante",
 			'es-mx': "Explosión Deslumbrante"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
 			'es-mx': "El Pokémon Activo de tu rival ahora está Confundido."
 		},
 
@@ -59,12 +59,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Head Bolt",
-			fr: "Éclair Frontal",
-			de: "Kopf-Blitz",
-			it: "Zuccalampo",
-			es: "Rayo de Cabeza",
-			pt: "Raio de Cabeça",
+			'en-us': "Head Bolt",
+			'fr-fr': "Éclair Frontal",
+			'de-de': "Kopf-Blitz",
+			'it-it': "Zuccalampo",
+			'es-es': "Rayo de Cabeza",
+			'pt-br': "Raio de Cabeça",
 			'es-mx': "Rayo Capital"
 		},
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Gloom",
-		fr: "Ortide",
-		de: "Duflor"
+		'en-us': "Gloom",
+		'fr-fr': "Ortide",
+		'de-de': "Duflor"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Oddish",
-		fr: "Mystherbe"
+		'en-us': "Oddish",
+		'fr-fr': "Mystherbe"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Miracle Powder",
-				fr: "Poudre miracle",
-				de: "Wunderstaub"
+				'en-us': "Miracle Powder",
+				'fr-fr': "Poudre miracle",
+				'de-de': "Wunderstaub"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 Special Condition. The Defending Pokémon is now affected by that Special Condition.",
-				fr: "Lancez une pièce. Si c’est face, choisissez un État Spécial. Le Pokémon Défenseur est maintenant affecté par cet État Spécial.",
-				de: "Wirf eine Münze. Wähle bei \"Kopf\" 1 Speziellen Zustand. Das Verteidigende Pokémon ist jetzt vom gewählten Speziellen Zustand betroffen."
+				'en-us': "Flip a coin. If heads, choose 1 Special Condition. The Defending Pokémon is now affected by that Special Condition.",
+				'fr-fr': "Lancez une pièce. Si c’est face, choisissez un État Spécial. Le Pokémon Défenseur est maintenant affecté par cet État Spécial.",
+				'de-de': "Wirf eine Münze. Wähle bei \"Kopf\" 1 Speziellen Zustand. Das Verteidigende Pokémon ist jetzt vom gewählten Speziellen Zustand betroffen."
 			},
 			damage: 30,
 
@@ -59,7 +59,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched."
+		'en-us': "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched."
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bounsweet",
-		fr: "Croquine",
-		es: "Bounsweet",
-		it: "Bounsweet",
-		pt: "Bounsweet",
-		de: "Frubberl"
+		'en-us': "Bounsweet",
+		'fr-fr': "Croquine",
+		'es-es': "Bounsweet",
+		'it-it': "Bounsweet",
+		'pt-br': "Bounsweet",
+		'de-de': "Frubberl"
 	},
 
 	illustrator: "MAHOU",
@@ -22,12 +22,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Splash",
-			fr: "Trempette",
-			es: "Salpicadura",
-			it: "Splash",
-			pt: "Borrifada",
-			de: "Platscher"
+			'en-us': "Splash",
+			'fr-fr': "Trempette",
+			'es-es': "Salpicadura",
+			'it-it': "Splash",
+			'pt-br': "Borrifada",
+			'de-de': "Platscher"
 		},
 
 		damage: 30,
@@ -46,7 +46,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "When under attack, it secretes a sweet and delicious sweat. The scent only calls more enemies to it."
+		'en-us': "When under attack, it secretes a sweet and delicious sweat. The scent only calls more enemies to it."
 	},
 
 	variants: [

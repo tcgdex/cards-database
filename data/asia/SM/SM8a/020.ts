@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バンギラス",
+		'ja-jp': "バンギラス",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "バンギラスが 暴れると 山が 崩れ 川が 埋まるため 地図を 書き換える ことになる。",
+		'ja-jp': "バンギラスが 暴れると 山が 崩れ 川が 埋まるため 地図を 書き換える ことになる。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "スピンテール" },
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のポケモン全員に、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン全員に、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "130+",
 			cost: ["Darkness", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが「ポケモンGX・EX」なら、100ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが「ポケモンGX・EX」なら、100ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "サナギラス",
+		'ja-jp': "サナギラス",
 	},
 
 	retreat: 4,

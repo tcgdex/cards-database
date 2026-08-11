@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars Trainer Gallery"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Single Strike Style Mustard",
-		fr: "Mustar Style Poing Final",
-		es: "Mostaz Estilo Brusco",
-		it: "Mustard Stile Singolcolpo",
-		pt: "Mostarda Estilo Golpe Decisivo",
-		de: "Fokussierter-Stil-Mastrich"
+		'en-us': "Single Strike Style Mustard",
+		'fr-fr': "Mustar Style Poing Final",
+		'es-es': "Mostaz Estilo Brusco",
+		'it-it': "Mustard Stile Singolcolpo",
+		'pt-br': "Mostarda Estilo Golpe Decisivo",
+		'de-de': "Fokussierter-Stil-Mastrich"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -18,12 +18,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "$$$CARD.RULES.MISSING.TOKEN$$$",
-		fr: "$$$CARD.RULES.MISSING.TOKEN$$$",
-		es: "$$$CARD.RULES.MISSING.TOKEN$$$",
-		it: "$$$CARD.RULES.MISSING.TOKEN$$$",
-		pt: "$$$CARD.RULES.MISSING.TOKEN$$$",
-		de: "$$$CARD.RULES.MISSING.TOKEN$$$"
+		'en-us': "$$$CARD.RULES.MISSING.TOKEN$$$",
+		'fr-fr': "$$$CARD.RULES.MISSING.TOKEN$$$",
+		'es-es': "$$$CARD.RULES.MISSING.TOKEN$$$",
+		'it-it': "$$$CARD.RULES.MISSING.TOKEN$$$",
+		'pt-br': "$$$CARD.RULES.MISSING.TOKEN$$$",
+		'de-de': "$$$CARD.RULES.MISSING.TOKEN$$$"
 	},
 
 	trainerType: "Supporter",

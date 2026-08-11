@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Florges",
-		fr: "Florges",
-		es: "Florges",
-		it: "Florges",
-		pt: "Florges",
-		de: "Florges"
+		'en-us': "Florges",
+		'fr-fr': "Florges",
+		'es-es': "Florges",
+		'it-it': "Florges",
+		'pt-br': "Florges",
+		'de-de': "Florges"
 	},
 
 	rarity: "Holo Rare",
@@ -25,41 +25,41 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Rapid Strike Connection",
-			fr: "Connexion Mille Poings",
-			es: "Conexión Golpe Fluido",
-			it: "Connessione Colpo Rapido",
-			pt: "Rapid Strike Connection",
-			de: "Fließender-Angriff-Verbindung"
+			'en-us': "Rapid Strike Connection",
+			'fr-fr': "Connexion Mille Poings",
+			'es-es': "Conexión Golpe Fluido",
+			'it-it': "Connessione Colpo Rapido",
+			'pt-br': "Rapid Strike Connection",
+			'de-de': "Fließender-Angriff-Verbindung"
 		},
 
 		effect: {
-			en: "As often as you like during your turn, you may move an Energy from 1 of your Pokémon to 1 of your Rapid Strike Pokémon.",
-			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez déplacer une Énergie de l'un de vos Pokémon vers l'un de vos Pokémon Mille Poings.",
-			es: "Todas las veces que quieras durante tu turno, puedes mover 1 Energía de 1 de tus Pokémon a 1 de tus Pokémon Golpe Fluido.",
-			it: "Durante il tuo turno, puoi spostare un'Energia da uno dei tuoi Pokémon a uno dei tuoi Pokémon Colpo Rapido tutte le volte che vuoi.",
-			pt: "As often as you like during your turn, you may move an Energy from 1 of your Pokémon to 1 of your Rapid Strike Pokémon.",
-			de: "Beliebig oft während deines Zuges kannst du 1 Energie von 1 deiner Pokémon auf 1 deiner Fließender-Angriff-Pokémon verschieben."
+			'en-us': "As often as you like during your turn, you may move an Energy from 1 of your Pokémon to 1 of your Rapid Strike Pokémon.",
+			'fr-fr': "Autant de fois que vous le voulez pendant votre tour, vous pouvez déplacer une Énergie de l'un de vos Pokémon vers l'un de vos Pokémon Mille Poings.",
+			'es-es': "Todas las veces que quieras durante tu turno, puedes mover 1 Energía de 1 de tus Pokémon a 1 de tus Pokémon Golpe Fluido.",
+			'it-it': "Durante il tuo turno, puoi spostare un'Energia da uno dei tuoi Pokémon a uno dei tuoi Pokémon Colpo Rapido tutte le volte che vuoi.",
+			'pt-br': "As often as you like during your turn, you may move an Energy from 1 of your Pokémon to 1 of your Rapid Strike Pokémon.",
+			'de-de': "Beliebig oft während deines Zuges kannst du 1 Energie von 1 deiner Pokémon auf 1 deiner Fließender-Angriff-Pokémon verschieben."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Wonder Shine",
-			fr: "Éclat Merveilleux",
-			es: "Brillo Prodigioso",
-			it: "Luce Meraviglia",
-			pt: "Wonder Shine",
-			de: "Wunderglanz"
+			'en-us': "Wonder Shine",
+			'fr-fr': "Éclat Merveilleux",
+			'es-es': "Brillo Prodigioso",
+			'it-it': "Luce Meraviglia",
+			'pt-br': "Wonder Shine",
+			'de-de': "Wunderglanz"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "Your opponent's Active Pokémon is now Confused.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'pt-br': "Your opponent's Active Pokémon is now Confused.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
 		damage: 110,
@@ -74,16 +74,16 @@ const card: Card = {
 	retreat: 2,
 
 	evolveFrom: {
-		en: "Floette",
-		fr: "Floette",
-		es: "Floette",
-		it: "Floette",
-		pt: "Floette",
-		de: "Floette"
+		'en-us': "Floette",
+		'fr-fr': "Floette",
+		'es-es': "Floette",
+		'it-it': "Floette",
+		'pt-br': "Floette",
+		'de-de': "Floette"
 	},
 
 	description: {
-		en: "Its life can span several hundred years. It's said to devote its entire life to protecting gardens."
+		'en-us': "Its life can span several hundred years. It's said to devote its entire life to protecting gardens."
 	},
 
 	dexId: [671],

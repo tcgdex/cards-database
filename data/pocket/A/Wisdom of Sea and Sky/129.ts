@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spearow",
-		fr: "Piafabec"
+		'en-us': "Spearow",
+		'fr-fr': "Piafabec"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Its reckless nature leads it to stand up to\nothers—even large Pokémon—if it has to protect\nits territory.",
-		fr: "Un Pokémon téméraire qui n'hésite pas à affronter des Pokémon plus gros que lui pour protéger son territoire."
+		'en-us': "Its reckless nature leads it to stand up to\nothers—even large Pokémon—if it has to protect\nits territory.",
+		'fr-fr': "Un Pokémon téméraire qui n'hésite pas à affronter des Pokémon plus gros que lui pour protéger son territoire."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Glide",
-			fr: "Glissement"
+			'en-us': "Glide",
+			'fr-fr': "Glissement"
 		},
 
 		damage: 10,

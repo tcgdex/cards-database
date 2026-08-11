@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pokémon GO"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Larvitar",
-		fr: "Embrylex",
-		es: "Larvitar",
-		it: "Larvitar",
-		pt: "Larvitar",
-		de: "Larvitar"
+		'en-us': "Larvitar",
+		'fr-fr': "Embrylex",
+		'es-es': "Larvitar",
+		'it-it': "Larvitar",
+		'pt-br': "Larvitar",
+		'de-de': "Larvitar"
 	},
 
 	illustrator: "sui",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Rock Smash",
-			fr: "Éclate-Roc",
-			es: "Golpe Roca",
-			it: "Spaccaroccia",
-			pt: "Esmagamento de Pedras",
-			de: "Zertrümmerer"
+			'en-us': "Rock Smash",
+			'fr-fr': "Éclate-Roc",
+			'es-es': "Golpe Roca",
+			'it-it': "Spaccaroccia",
+			'pt-br': "Esmagamento de Pedras",
+			'de-de': "Zertrümmerer"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 10 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
-			pt: "Jogue 1 moeda. Se sair cara, este ataque causará 10 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 10 Schadenspunkte mehr zu."
+			'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 10 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -56,7 +56,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil.",
+		'en-us': "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil.",
 	},
 
 	

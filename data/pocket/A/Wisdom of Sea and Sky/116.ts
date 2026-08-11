@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Weavile",
-		fr: "Dimoret"
+		'en-us': "Weavile",
+		'fr-fr': "Dimoret"
 	},
 
 	illustrator: "kawayoo",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Sneasel"
+		'en-us': "Sneasel"
 	},
 
 	description: {
-		en: "Evolution made it even more devious.\nIt communicates by clawing signs in boulders.",
-		fr: "L'évolution l'a rendu encore plus retors. Il communique en gravant des marques dans les pierres avec ses griffes."
+		'en-us': "Evolution made it even more devious.\nIt communicates by clawing signs in boulders.",
+		'fr-fr': "L'évolution l'a rendu encore plus retors. Il communique en gravant des marques dans les pierres avec ses griffes."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Slash",
-			fr: "Tranche"
+			'en-us': "Slash",
+			'fr-fr': "Tranche"
 		},
 
 		damage: 50,

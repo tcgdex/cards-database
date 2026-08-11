@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Scrafty",
-		fr: "Baggaïd",
-		es: "Scrafty",
-		it: "Scrafty",
-		pt: "Scrafty",
-		de: "Irokex"
+		'en-us': "Scrafty",
+		'fr-fr': "Baggaïd",
+		'es-es': "Scrafty",
+		'it-it': "Scrafty",
+		'pt-br': "Scrafty",
+		'de-de': "Irokex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Scraggy",
-		fr: "Baggiguane",
+		'en-us': "Scraggy",
+		'fr-fr': "Baggiguane",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Kick Away",
-				fr: "Coud'Pied Éjecteur",
+				'en-us': "Kick Away",
+				'fr-fr': "Coud'Pied Éjecteur",
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
 			},
 			damage: 30,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reinforced Headbutt",
-				fr: "Coup d’Boule Renforcé",
+				'en-us': "Reinforced Headbutt",
+				'fr-fr': "Coup d’Boule Renforcé",
 			},
 			effect: {
-				en: "If this Pokémon has a Pokémon Tool card attached to it, this attack does 50 more damage.",
-				fr: "Si une carte Outil Pokémon est attachée à ce Pokémon, cette attaque inflige 50 dégâts supplémentaires.",
+				'en-us': "If this Pokémon has a Pokémon Tool card attached to it, this attack does 50 more damage.",
+				'fr-fr': "Si une carte Outil Pokémon est attachée à ce Pokémon, cette attaque inflige 50 dégâts supplémentaires.",
 			},
 			damage: 50,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It pulls up its shed skin to protect itself while it kicks. The bigger the crest, the more respected it is.",
+		'en-us': "It pulls up its shed skin to protect itself while it kicks. The bigger the crest, the more respected it is.",
 	},
 
 	thirdParty: {

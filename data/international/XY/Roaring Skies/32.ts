@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Banette",
-		fr: "Branette",
-		es: "Banette",
-		it: "Banette",
-		pt: "Banette",
-		de: "Banette"
+		'en-us': "Banette",
+		'fr-fr': "Branette",
+		'es-es': "Banette",
+		'it-it': "Banette",
+		'pt-br': "Banette",
+		'de-de': "Banette"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shuppet",
-		fr: "Polichombr",
-		es: "Shuppet",
-		it: "Shuppet",
-		pt: "Shuppet",
-		de: "Shuppet"
+		'en-us': "Shuppet",
+		'fr-fr': "Polichombr",
+		'es-es': "Shuppet",
+		'it-it': "Shuppet",
+		'pt-br': "Shuppet",
+		'de-de': "Shuppet"
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ancient Trait",
 			name: {
-				fr: "Évolution Δ",
-				en: "Δ Evolution",
-				es: "{title}:",
-				it: "{title}:",
-				pt: "{title}:",
-				de: "{title}:"
+				'fr-fr': "Évolution Δ",
+				'en-us': "Δ Evolution",
+				'es-es': "{title}:",
+				'it-it': "{title}:",
+				'pt-br': "{title}:",
+				'de-de': "{title}:"
 			},
 			effect: {
-				fr: "Vous pouvez jouer cette carte de votre main pour faire évoluer un Pokémon pendant votre premier tour ou pendant le tour où vous le jouez.",
-				en: "You may play this card from your hand to evolve a Pokémon during your first turn or the turn you play that Pokémon.",
-				es: "{title}: Puedes jugar esta carta de tu mano para hacer evolucionar a 1 Pokémon durante tu primer turno o durante el turno en que pongas en juego a ese Pokémon.",
-				it: "{title}: Puoi giocare questa carta dalla tua mano per far evolvere un Pokémon durante il tuo primo turno o durante il turno in cui l'hai giocato.",
-				pt: "{title}: Você pode jogar este card de sua mão para evoluir um Pokémon durante sua primeira vez de jogar ou no turno em que jogar aquele Pokémon.",
-				de: "{title}: Du kannst diese Karte von deiner Hand spielen, um 1 Pokémon während deines ersten Zuges oder des Zuges, in dem du es spielst, zu entwickeln."
+				'fr-fr': "Vous pouvez jouer cette carte de votre main pour faire évoluer un Pokémon pendant votre premier tour ou pendant le tour où vous le jouez.",
+				'en-us': "You may play this card from your hand to evolve a Pokémon during your first turn or the turn you play that Pokémon.",
+				'es-es': "{title}: Puedes jugar esta carta de tu mano para hacer evolucionar a 1 Pokémon durante tu primer turno o durante el turno en que pongas en juego a ese Pokémon.",
+				'it-it': "{title}: Puoi giocare questa carta dalla tua mano per far evolvere un Pokémon durante il tuo primo turno o durante il turno in cui l'hai giocato.",
+				'pt-br': "{title}: Você pode jogar este card de sua mão para evoluir um Pokémon durante sua primeira vez de jogar ou no turno em que jogar aquele Pokémon.",
+				'de-de': "{title}: Du kannst diese Karte von deiner Hand spielen, um 1 Pokémon während deines ersten Zuges oder des Zuges, in dem du es spielst, zu entwickeln."
 			},
 		},
 	],
@@ -65,20 +65,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Evolution Jammer",
-				fr: "Bloqueur d'Évolution",
-				es: "Interferente de Evolución",
-				it: "Evolviblocco",
-				pt: "Atolador de Evolução",
-				de: "Evolutionsstörer"
+				'en-us': "Evolution Jammer",
+				'fr-fr': "Bloqueur d'Évolution",
+				'es-es': "Interferente de Evolución",
+				'it-it': "Evolviblocco",
+				'pt-br': "Atolador de Evolução",
+				'de-de': "Evolutionsstörer"
 			},
 			effect: {
-				en: "Your opponent can't play any Pokémon from his or her hand to evolve his or her Pokémon during his or her next turn.",
-				fr: "Aucun joueur ne peut jouer de Pokémon de sa main pour faire évoluer ses Pokémon pendant son prochain tour.",
-				es: "Tu rival no puede jugar ningún Pokémon de su mano para evolucionar a sus Pokémon durante su turno.",
-				it: "Il tuo avversario non può giocare dei Pokémon dalla propria mano per far evolvere altri Pokémon durante il suo prossimo turno.",
-				pt: "Seu oponente não poderá jogar nenhum Pokémon da própria mão para evoluir o Pokémon dele ou dela durante a próxima vez de jogar desse oponente.",
-				de: "Dein Gegner kann keine Pokémon von seiner Hand spielen, um seine Pokémon während seines nächsten Zuges zu entwickeln."
+				'en-us': "Your opponent can't play any Pokémon from his or her hand to evolve his or her Pokémon during his or her next turn.",
+				'fr-fr': "Aucun joueur ne peut jouer de Pokémon de sa main pour faire évoluer ses Pokémon pendant son prochain tour.",
+				'es-es': "Tu rival no puede jugar ningún Pokémon de su mano para evolucionar a sus Pokémon durante su turno.",
+				'it-it': "Il tuo avversario non può giocare dei Pokémon dalla propria mano per far evolvere altri Pokémon durante il suo prossimo turno.",
+				'pt-br': "Seu oponente não poderá jogar nenhum Pokémon da própria mão para evoluir o Pokémon dele ou dela durante a próxima vez de jogar desse oponente.",
+				'de-de': "Dein Gegner kann keine Pokémon von seiner Hand spielen, um seine Pokémon während seines nächsten Zuges zu entwickeln."
 			},
 			damage: 20,
 
@@ -89,20 +89,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Curse Deeply",
-				fr: "Malédiction Intense",
-				es: "Profunda Maldición",
-				it: "Sortilegio",
-				pt: "Maldição Profunda",
-				de: "Nachhaltiger Fluch"
+				'en-us': "Curse Deeply",
+				'fr-fr': "Malédiction Intense",
+				'es-es': "Profunda Maldición",
+				'it-it': "Sortilegio",
+				'pt-br': "Maldição Profunda",
+				'de-de': "Nachhaltiger Fluch"
 			},
 			effect: {
-				en: "Put 5 damage counters on your opponent's Active Pokémon.",
-				fr: "Placez 5 marqueurs de dégâts sur le Pokémon Actif de votre adversaire.",
-				es: "Pon 5 contadores de daño en el Pokémon Activo de tu rival.",
-				it: "Metti cinque segnalini danno sul Pokémon attivo del tuo avversario.",
-				pt: "Coloque 5 contadores de danos no Pokémon Ativo do seu oponente.",
-				de: "Lege 5 Schadensmarken auf das Aktive Pokémon deines Gegners."
+				'en-us': "Put 5 damage counters on your opponent's Active Pokémon.",
+				'fr-fr': "Placez 5 marqueurs de dégâts sur le Pokémon Actif de votre adversaire.",
+				'es-es': "Pon 5 contadores de daño en el Pokémon Activo de tu rival.",
+				'it-it': "Metti cinque segnalini danno sul Pokémon attivo del tuo avversario.",
+				'pt-br': "Coloque 5 contadores de danos no Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 5 Schadensmarken auf das Aktive Pokémon deines Gegners."
 			},
 
 		},
@@ -125,7 +125,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Strong feelings of hatred turned a puppet into a Pokémon. If it opens its mouth, its cursed energy escapes.",
+		'en-us': "Strong feelings of hatred turned a puppet into a Pokémon. If it opens its mouth, its cursed energy escapes.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Breloom"
+		'en-us': "Breloom"
 	},
 
 	illustrator: "Mizue",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Shroomish"
+		'en-us': "Shroomish"
 	},
 
 	description: {
-		en: "The seeds on its tail are made of toxic spores.\nIt knocks out foes with quick, virtually invisible\npunches."
+		'en-us': "The seeds on its tail are made of toxic spores.\nIt knocks out foes with quick, virtually invisible\npunches."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Seed Bomb"
+			'en-us': "Seed Bomb"
 		},
 
 		damage: 40,

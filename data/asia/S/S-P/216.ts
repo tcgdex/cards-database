@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グレイシア",
+		'ja-jp': "グレイシア",
 		'zh-tw': "雷吉艾勒奇V",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "グレイシアが 放つ 冷気は パウダースノーを つくりだし スキー場に ひっぱりだこ。",
+		'ja-jp': "グレイシアが 放つ 冷気は パウダースノーを つくりだし スキー場に ひっぱりだこ。",
 	},
 
 	stage: "Stage1",
@@ -22,24 +22,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "あられ",
+				'ja-jp': "あられ",
 				'zh-tw': "切換伏特",
 			},
 			cost: ["Water"],
 			effect: {
-				ja: "相手のポケモン全員に、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン全員に、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 				'zh-tw': "將這隻寶可夢與備戰寶可夢互換。",
 			},
 		},
 		{
 			name: {
-				ja: "フロストタイフーン",
+				'ja-jp': "フロストタイフーン",
 				'zh-tw': "雷電堡壘",
 			},
 			damage: 120,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「フロストタイフーン」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「フロストタイフーン」が使えない。",
 				'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-100」點。",
 			},
 		},
@@ -59,7 +59,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 1,

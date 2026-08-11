@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Ampibidou",
-		en: "Bellibolt",
-		es: "Bellibolt",
-		it: "Bellibolt",
-		pt: "Bellibolt",
-		de: "Wampitz"
+		'fr-fr': "Ampibidou",
+		'en-us': "Bellibolt",
+		'es-es': "Bellibolt",
+		'it-it': "Bellibolt",
+		'pt-br': "Bellibolt",
+		'de-de': "Wampitz"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Lightning"],
 	evolveFrom: {
-		fr: "Têtampoule",
-		en: "Tadbulb",
-		es: "Tadbulb",
-		it: "Tadbulb",
-		pt: "Tadbulb",
-		de: "Blipp"
+		'fr-fr': "Têtampoule",
+		'en-us': "Tadbulb",
+		'es-es': "Tadbulb",
+		'it-it': "Tadbulb",
+		'pt-br': "Tadbulb",
+		'de-de': "Blipp"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			fr: "Électrojectile",
-			en: "Electrobullet",
-			es: "Electrobala",
-			it: "Elettrodardo",
-			pt: "Bala Elétrica",
-			de: "Elektrokugel"
+			'fr-fr': "Électrojectile",
+			'en-us': "Electrobullet",
+			'es-es': "Electrobala",
+			'it-it': "Elettrodardo",
+			'pt-br': "Bala Elétrica",
+			'de-de': "Elektrokugel"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige aussi 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-			en: "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			es: "Este ataque también hace 30 puntos de daño a uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-			it: "Questo attacco infligge anche 30 danni a uno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-			pt: "Este ataque também causa 30 pontos de dano a 1 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
-			de: "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+			'fr-fr': "Cette attaque inflige aussi 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			'en-us': "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'es-es': "Este ataque también hace 30 puntos de daño a uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			'it-it': "Questo attacco infligge anche 30 danni a uno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			'pt-br': "Este ataque também causa 30 pontos de dano a 1 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
+			'de-de': "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		},
 
 		damage: 70
@@ -62,7 +62,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "When this Pokémon expands and contracts its wobbly body, the belly-button dynamo in its stomach produces a huge amount of electricity.",
+		'en-us': "When this Pokémon expands and contracts its wobbly body, the belly-button dynamo in its stomach produces a huge amount of electricity.",
 	},
 
 	variants: [

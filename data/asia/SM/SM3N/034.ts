@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラコラッタ",
+		'ja-jp': "アローラコラッタ",
 	},
 
 	illustrator: "nagimiso",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "前歯で ドアを かじり 民家に 侵入。 ヒゲを ひくつかせ 餌を 探しだし 盗んでいくぞ。",
+		'ja-jp': "前歯で ドアを かじり 民家に 侵入。 ヒゲを ひくつかせ 餌を 探しだし 盗んでいくぞ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "きあいだめ" },
 			cost: [],
 			effect: {
-				ja: "次の自分の番、このポケモンの「かみつく」のダメージは「60」になる。",
+				'ja-jp': "次の自分の番、このポケモンの「かみつく」のダメージは「60」になる。",
 			},
 		},
 		{

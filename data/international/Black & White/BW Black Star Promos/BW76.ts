@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Electrode",
-		fr: "Électrode",
+		'en-us': "Electrode",
+		'fr-fr': "Électrode",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Common",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Lightning",
 	],
 	evolveFrom: {
-		en: "Voltorb",
-		fr: "Voltorbe",
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe",
 	},
 	stage: "Stage1",
 
@@ -31,12 +31,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Electribeam",
-				fr: "Rayon Électrique",
+				'en-us': "Electribeam",
+				'fr-fr': "Rayon Électrique",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 20,
 
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Self Destruct",
-				fr: "Destruction",
+				'en-us': "Self Destruct",
+				'fr-fr': "Destruction",
 			},
 			effect: {
-				en: "This Pokémon does 100 damage to itself.",
-				fr: "Ce Pokémon s'inflige 100 dégâts.",
+				'en-us': "This Pokémon does 100 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 100 dégâts.",
 			},
 			damage: 100,
 
@@ -72,7 +72,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It is known to drift on winds if it is bloated to bursting with stored electricity.",
+		'en-us': "It is known to drift on winds if it is bloated to bursting with stored electricity.",
 	},
 }
 

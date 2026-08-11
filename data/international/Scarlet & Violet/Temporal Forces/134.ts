@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tranquill",
-		fr: "Colombeau",
-		es: "Tranquill",
-		it: "Tranquill",
-		pt: "Tranquill",
-		de: "Navitaub"
+		'en-us': "Tranquill",
+		'fr-fr': "Colombeau",
+		'es-es': "Tranquill",
+		'it-it': "Tranquill",
+		'pt-br': "Tranquill",
+		'de-de': "Navitaub"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 80,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Pidove",
-		fr: "Poichigeon",
-		es: "Pidove",
-		it: "Pidove",
-		pt: "Pidove",
-		de: "Dusselgurr"
+		'en-us': "Pidove",
+		'fr-fr': "Poichigeon",
+		'es-es': "Pidove",
+		'it-it': "Pidove",
+		'pt-br': "Pidove",
+		'de-de': "Dusselgurr"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Speed Dive",
-			fr: "Plongée Rapide",
-			es: "Picado Rápido",
-			it: "Immersione Rapida",
-			pt: "Mergulho Veloz",
-			de: "Tempohechtsprung"
+			'en-us': "Speed Dive",
+			'fr-fr': "Plongée Rapide",
+			'es-es': "Picado Rápido",
+			'it-it': "Immersione Rapida",
+			'pt-br': "Mergulho Veloz",
+			'de-de': "Tempohechtsprung"
 		},
 
 		damage: 20
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Jet Wing",
-			fr: "Aile Jet",
-			es: "Ala Propulsión",
-			it: "Ala Jet",
-			pt: "Asa a Jato",
-			de: "Jet-Flügel"
+			'en-us': "Jet Wing",
+			'fr-fr': "Aile Jet",
+			'es-es': "Ala Propulsión",
+			'it-it': "Ala Jet",
+			'pt-br': "Asa a Jato",
+			'de-de': "Jet-Flügel"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 70
@@ -81,7 +81,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It can fly moderately quickly. No matter how far it travels, it can always find its way back to its master and its nest.",
+		'en-us': "It can fly moderately quickly. No matter how far it travels, it can always find its way back to its master and its nest.",
 	},
 
 	variants: [

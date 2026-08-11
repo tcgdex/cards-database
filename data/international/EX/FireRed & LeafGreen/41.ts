@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Nidorino",
-		fr: "Nidorino",
-		de: "Nidorino"
+		'en-us': "Nidorino",
+		'fr-fr': "Nidorino",
+		'de-de': "Nidorino"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nindoran ♂",
-		fr: "Nidoran"
+		'en-us': "Nindoran ♂",
+		'fr-fr': "Nidoran"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Stab",
-				fr: "Coup double",
-				de: "Double Stab"
+				'en-us': "Double Stab",
+				'fr-fr': "Coup double",
+				'de-de': "Double Stab"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 20 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 20 damage times the number of heads."
 			},
 			damage: "20x",
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rend",
-				fr: "Déchirer",
-				de: "Rend"
+				'en-us': "Rend",
+				'fr-fr': "Déchirer",
+				'de-de': "Rend"
 			},
 			effect: {
-				en: "If the Defending Pokémon already has any damage counters on it, this attack does 30 damage plus 30 more damage.",
-				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque lui inflige 30 dégâts plus 30 dégâts supplémentaires.",
-				de: "If the Defending Pokémon already has any damage counters on it, this attack does 30 damage plus 30 more damage."
+				'en-us': "If the Defending Pokémon already has any damage counters on it, this attack does 30 damage plus 30 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque lui inflige 30 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon already has any damage counters on it, this attack does 30 damage plus 30 more damage."
 			},
 			damage: "30+",
 

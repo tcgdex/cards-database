@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Grookey",
-		fr: "Ouistempo",
-		es: "Grookey",
-		it: "Grookey",
-		pt: "Grookey",
-		de: "Chimpep"
+		'en-us': "Grookey",
+		'fr-fr': "Ouistempo",
+		'es-es': "Grookey",
+		'it-it': "Grookey",
+		'pt-br': "Grookey",
+		'de-de': "Chimpep"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				es: "Arañazo",
-				it: "Graffio",
-				pt: "Arranhão",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'es-es': "Arañazo",
+				'it-it': "Graffio",
+				'pt-br': "Arranhão",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beat",
-				fr: "Bataille",
-				es: "Toque",
-				it: "Battuta",
-				pt: "Pulso",
-				de: "Verprügler"
+				'en-us': "Beat",
+				'fr-fr': "Bataille",
+				'es-es': "Toque",
+				'it-it': "Battuta",
+				'pt-br': "Pulso",
+				'de-de': "Verprügler"
 			},
 
 			damage: 20,
@@ -77,7 +77,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area."
+		'en-us': "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area."
 	},
 
 	dexId: [810],

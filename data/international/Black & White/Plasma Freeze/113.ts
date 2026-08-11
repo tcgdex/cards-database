@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Latios-EX",
-		fr: "Latios-EX",
-		es: "Latios-EX",
-		it: "Latios-EX",
-		pt: "Latios-EX",
-		de: "Latios-EX"
+		'en-us': "Latios-EX",
+		'fr-fr': "Latios-EX",
+		'es-es': "Latios-EX",
+		'it-it': "Latios-EX",
+		'pt-br': "Latios-EX",
+		'de-de': "Latios-EX"
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Ultra Rare",
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mach Flight",
-				fr: "Vol Supersonique",
+				'en-us': "Mach Flight",
+				'fr-fr': "Vol Supersonique",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 			damage: 40,
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Luster Purge",
-				fr: "Lumi-Éclat",
+				'en-us': "Luster Purge",
+				'fr-fr': "Lumi-Éclat",
 			},
 			effect: {
-				en: "Discard all Energy attached to this Pokémon.",
-				fr: "Défaussez toutes les Énergies attachées à ce Pokémon.",
+				'en-us': "Discard all Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez toutes les Énergies attachées à ce Pokémon.",
 			},
 			damage: 150,
 

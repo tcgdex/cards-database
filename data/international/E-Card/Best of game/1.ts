@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Best of game'
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Electabuzz"
+		'en-us': "Electabuzz"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,7 +22,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Normally found near power plants, it can wander away and cause major blackouts in cities."
+		'en-us': "Normally found near power plants, it can wander away and cause major blackouts in cities."
 	},
 
 	hp: 70,
@@ -34,25 +34,25 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Thundershock"
+			'en-us': "Thundershock"
 		},
 
 		damage: 10,
 
 		effect: {
-			en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 		}
 	}, {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Thunderpunch"
+			'en-us': "Thunderpunch"
 		},
 
 		damage: "30+",
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, the attack does 30 damage and Electabuzz does 10 damage to itself."
+			'en-us': "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, the attack does 30 damage and Electabuzz does 10 damage to itself."
 		}
 	}],
 

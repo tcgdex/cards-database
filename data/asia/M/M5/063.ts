@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガドリュウズex",
+		'ja-jp': "メガドリュウズex",
 	},
 
 	illustrator: "Keisuke Azuma",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Metal", "Metal"],
 			effect: {
-				ja: "相手の山札を上から2枚トラッシュする。",
+				'ja-jp': "相手の山札を上から2枚トラッシュする。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: "200+",
 			cost: ["Metal", "Metal", "Metal"],
 			effect: {
-				ja: "このワザを使うためのエネルギーより、2個多くエネルギーがついているなら、130ダメージ追加。",
+				'ja-jp': "このワザを使うためのエネルギーより、2個多くエネルギーがついているなら、130ダメージ追加。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モグリュー",
+		'ja-jp': "モグリュー",
 	},
 
 	retreat: 4,

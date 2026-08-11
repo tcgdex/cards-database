@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cynthia's Gible",
-		fr: "Griknot de Cynthia",
-		de: "Cynthias Kaumalat",
-		it: "Gible di Camilla",
-		es: "Gible de Cintia",
-		pt: "Gible da Cíntia",
+		'en-us': "Cynthia's Gible",
+		'fr-fr': "Griknot de Cynthia",
+		'de-de': "Cynthias Kaumalat",
+		'it-it': "Gible di Camilla",
+		'es-es': "Gible de Cintia",
+		'pt-br': "Gible da Cíntia",
 		'es-mx': "Gible de Cynthia"
 	},
 
@@ -28,22 +28,22 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Rock Hurl",
-			fr: "Lance-Pierre",
-			de: "Steinschleuderer",
-			it: "Scaglia Pietre",
-			es: "Lanzamiento de Rocas",
-			pt: "Lançamento de Pedras",
+			'en-us': "Rock Hurl",
+			'fr-fr': "Lance-Pierre",
+			'de-de': "Steinschleuderer",
+			'it-it': "Scaglia Pietre",
+			'es-es': "Lanzamiento de Rocas",
+			'pt-br': "Lançamento de Pedras",
 			'es-mx': "Lanzamiento de Rocas"
 		},
 
 		effect: {
-			en: "This attack's damage isn't affected by Resistance.",
-			fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-			de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert.",
-			it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-			es: "El daño de este ataque no se ve afectado por Resistencia.",
-			pt: "O dano deste ataque não é afetado por Resistência.",
+			'en-us': "This attack's damage isn't affected by Resistance.",
+			'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+			'de-de': "Der Schaden dieser Attacke wird durch Resistenz nicht verändert.",
+			'it-it': "I danni di questo attacco non sono influenzati dalla resistenza.",
+			'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+			'pt-br': "O dano deste ataque não é afetado por Resistência.",
 			'es-mx': "El daño de este ataque no se ve afectado por Resistencia."
 		},
 

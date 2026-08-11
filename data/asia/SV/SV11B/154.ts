@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハトーボー",
+		'ja-jp': "ハトーボー",
 	},
 
 	illustrator: "cochi8i",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "どんなに 遠く 離れても トレーナーの もとに かならず もどってくる ことが できる。",
+		'ja-jp': "どんなに 遠く 離れても トレーナーの もとに かならず もどってくる ことが できる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。オモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。オモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
 			},
 		},
 	],
@@ -35,7 +35,7 @@ const card: Card = {
 	variants: [{ type: "holo" }],
 
 	evolveFrom: {
-		ja: "マメパト",
+		'ja-jp': "マメパト",
 	},
 
 	retreat: 0,

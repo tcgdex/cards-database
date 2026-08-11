@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
     set: Set,
 
 	name: {
-		en: "Pawmi",
-		fr: "Pohm",
-		es: "Pawmi",
-		it: "Pawmi",
-		de: "Pamo",
+		'en-us': "Pawmi",
+		'fr-fr': "Pohm",
+		'es-es': "Pawmi",
+		'it-it': "Pawmi",
+		'de-de': "Pamo",
 		'pt-br': "Pawmi",
-		ko: "빠모"
+		'ko-kr': "빠모"
 	},
 
     illustrator: "whomor Inc.",
@@ -31,12 +31,12 @@ const card: Card = {
     attacks: [
         {
 			name: {
-				en: "Random Spark",
-				fr: "Étincelle Surprise",
-				es: "Chispa al Azar",
-				it: "Scintilla Casuale",
-				pt: "Fagulha Aleatória",
-				de: "Zufälliger Funke"
+				'en-us': "Random Spark",
+				'fr-fr': "Étincelle Surprise",
+				'es-es': "Chispa al Azar",
+				'it-it': "Scintilla Casuale",
+				'pt-br': "Fagulha Aleatória",
+				'de-de': "Zufälliger Funke"
 			},
 
             cost: ["Lightning"],

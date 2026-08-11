@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Avalugg",
-		fr: "Séracrawl",
-		es: "Avalugg",
-		it: "Avalugg",
-		pt: "Avalugg",
-		de: "Arktilas"
+		'en-us': "Avalugg",
+		'fr-fr': "Séracrawl",
+		'es-es': "Avalugg",
+		'it-it': "Avalugg",
+		'pt-br': "Avalugg",
+		'de-de': "Arktilas"
 	},
 
 	illustrator: "sowsow",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bergmite",
-		fr: "Grelaçon",
+		'en-us': "Bergmite",
+		'fr-fr': "Grelaçon",
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Frozen Ground",
-				fr: "Terrain Gelé",
-				es: "Suelo Congelado",
-				it: "Terra Congelata",
-				pt: "Solo Congelado",
-				de: "Gefrorener Boden"
+				'en-us': "Frozen Ground",
+				'fr-fr': "Terrain Gelé",
+				'es-es': "Suelo Congelado",
+				'it-it': "Terra Congelata",
+				'pt-br': "Solo Congelado",
+				'de-de': "Gefrorener Boden"
 			},
 			effect: {
-				en: "Your opponent can’t play any Stadium cards from their hand during their next turn.",
-				fr: "Votre adversaire ne peut pas jouer de carte Stade de sa main pendant son prochain tour.",
-				es: "Tu rival no puede jugar ninguna carta de Estadio de su mano durante su próximo turno.",
-				it: "Il tuo avversario non può giocare le carte Stadio che ha in mano durante il suo prossimo turno.",
-				pt: "Seu oponente não poderá jogar nenhuma carta de Estádio da própria mão durante a próxima vez dele(a) jogar.",
-				de: "Dein Gegner kann während seines nächsten Zuges keine Stadionkarten aus seiner Hand spielen."
+				'en-us': "Your opponent can’t play any Stadium cards from their hand during their next turn.",
+				'fr-fr': "Votre adversaire ne peut pas jouer de carte Stade de sa main pendant son prochain tour.",
+				'es-es': "Tu rival no puede jugar ninguna carta de Estadio de su mano durante su próximo turno.",
+				'it-it': "Il tuo avversario non può giocare le carte Stadio che ha in mano durante il suo prossimo turno.",
+				'pt-br': "Seu oponente não poderá jogar nenhuma carta de Estádio da própria mão durante a próxima vez dele(a) jogar.",
+				'de-de': "Dein Gegner kann während seines nächsten Zuges keine Stadionkarten aus seiner Hand spielen."
 			},
 			damage: 80,
 
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Skull Bash",
-				fr: "Coud’Krâne",
-				es: "Cabezazo",
-				it: "Capocciata",
-				pt: "Quebra-crânio",
-				de: "Schädelwumme"
+				'en-us': "Skull Bash",
+				'fr-fr': "Coud’Krâne",
+				'es-es': "Cabezazo",
+				'it-it': "Capocciata",
+				'pt-br': "Quebra-crânio",
+				'de-de': "Schädelwumme"
 			},
 
 			damage: 100,
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "The way several Bergmite huddle on its back makes it look like an aircraft carrier made of ice.",
+		'en-us': "The way several Bergmite huddle on its back makes it look like an aircraft carrier made of ice.",
 	},
 
 	thirdParty: {

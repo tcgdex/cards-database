@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2016'
 
 const card: Card = {
@@ -9,7 +9,7 @@ const card: Card = {
 	dexId: [133],
 
 	description: {
-		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions."
+		'en-us': "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions."
 	},
 
 	hp: 60,
@@ -19,28 +19,28 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Tackle",
-			fr: "Charge"
+			'en-us': "Tackle",
+			'fr-fr': "Charge"
 		},
 
 		damage: 10
 	}, {
 		name: {
-			en: "Lunge",
-			fr: "Coup Rapide"
+			'en-us': "Lunge",
+			'fr-fr': "Coup Rapide"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
 		}
 	}],
 
 	name: {
-		en: "Eevee",
-		fr: "Évoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli"
 	},
 
 	rarity: "None",

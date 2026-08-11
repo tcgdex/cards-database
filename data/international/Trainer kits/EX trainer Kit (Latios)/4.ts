@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit (Latios)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magnemite",
-		fr: "Magneti"
+		'en-us': "Magnemite",
+		'fr-fr': "Magneti"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -25,8 +25,8 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Rollout",
-			fr: "Roulade"
+			'en-us': "Rollout",
+			'fr-fr': "Roulade"
 		},
 		damage: 10
 	}, {
@@ -35,8 +35,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Hook",
-			fr: "Crochet"
+			'en-us': "Hook",
+			'fr-fr': "Crochet"
 		},
 		damage: 20
 	}],

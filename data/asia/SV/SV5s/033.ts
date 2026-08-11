@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Centiskorch"
+		'id-id': "Centiskorch"
 	},
 
 	illustrator: "Krgc",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Suhu tubuh Centiskorch saat memancarkan panas mencapai sekitar 800 ºC. Pokémon ini akan loncat menyerang sambil mengelokkan tubuhnya bagaikan pecut."
+		'id-id': "Suhu tubuh Centiskorch saat memancarkan panas mencapai sekitar 800 ºC. Pokémon ini akan loncat menyerang sambil mengelokkan tubuhnya bagaikan pecut."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Menghanguskan"
+			'id-id': "Menghanguskan"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
 		},
 
 		cost: ["Fire"]
 	}, {
 		name: {
-			id: "Embusan Hitam Gosong"
+			'id-id': "Embusan Hitam Gosong"
 		},
 
 		effect: {
-			id: "Jika Pokémon Bertarung lawan tidak mengalami kondisi Luka Bakar, serangan ini gagal."
+			'id-id': "Jika Pokémon Bertarung lawan tidak mengalami kondisi Luka Bakar, serangan ini gagal."
 		},
 
 		damage: 180,

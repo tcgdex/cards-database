@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "デカヌチャンex"
+		'ja-jp': "デカヌチャンex"
 	},
 
 	illustrator: "takuyoa",
@@ -19,25 +19,25 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ビッグハンマー"
+			'ja-jp': "ビッグハンマー"
 		},
 
 		damage: "30×",
 
 		effect: {
-			ja: "自分の手札の枚数×30ダメージ。"
+			'ja-jp': "自分の手札の枚数×30ダメージ。"
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ふんさいプレス"
+			'ja-jp': "ふんさいプレス"
 		},
 
 		damage: 140,
 
 		effect: {
-			ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。"
+			'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。"
 		}
 	}],
 

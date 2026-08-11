@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2019'
 
 const card: Card = {
@@ -9,23 +9,23 @@ const card: Card = {
 	dexId: [92],
 
 	description: {
-		en: "Should a strange light be seen flickering in an abandoned building, Gastly is lurking there."
+		'en-us': "Should a strange light be seen flickering in an abandoned building, Gastly is lurking there."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Ominous Eyes"
+			'en-us': "Ominous Eyes"
 		},
 
 		effect: {
-			en: "Put 1 damage counter on 1 of your opponent’s Pokémon."
+			'en-us': "Put 1 damage counter on 1 of your opponent’s Pokémon."
 		}
 	}],
 
 	name: {
-		en: "Gastly"
+		'en-us': "Gastly"
 	},
 
 	rarity: "None",

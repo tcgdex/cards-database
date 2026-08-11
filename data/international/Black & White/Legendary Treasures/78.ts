@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Meloetta",
+		'en-us': "Meloetta",
 	},
 
 	illustrator: "kawayoo",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psychic",
+				'en-us': "Psychic",
 			},
 			effect: {
-				en: "Does 20 more damage for each Energy attached to the Defending Pokémon.",
+				'en-us': "Does 20 more damage for each Energy attached to the Defending Pokémon.",
 			},
 			damage: 10,
 
@@ -44,10 +44,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Echoed Voice",
+				'en-us': "Echoed Voice",
 			},
 			effect: {
-				en: "During your next turn, this Pokémon's Echoed Voice attack does 50 more damage (before applying Weakness and Resistance).",
+				'en-us': "During your next turn, this Pokémon's Echoed Voice attack does 50 more damage (before applying Weakness and Resistance).",
 			},
 			damage: 50,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The melodies sung by Meloetta have the power to make Pokémon that hear them happy or sad.",
+		'en-us': "The melodies sung by Meloetta have the power to make Pokémon that hear them happy or sad.",
 	},
 
 	thirdParty: {

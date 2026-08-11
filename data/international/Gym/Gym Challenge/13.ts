@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Misty's Gyarados"
+		'en-us': "Misty's Gyarados"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magikarp"
+		'en-us': "Magikarp"
 	},
 
 	stage: "Stage1",
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Rebellion"
+				'en-us': "Rebellion"
 			},
 			effect: {
-				en: "Whenever Misty's Gyarados attacks, flip 2 coins. If both of them are tails, that attack does nothing. Instead, shuffle Misty's Gyarados and all cards attached to it into your deck. (This power works even if Misty's Gyarados is Confused.)"
+				'en-us': "Whenever Misty's Gyarados attacks, flip 2 coins. If both of them are tails, that attack does nothing. Instead, shuffle Misty's Gyarados and all cards attached to it into your deck. (This power works even if Misty's Gyarados is Confused.)"
 			}
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Tidal Wave"
+				'en-us': "Tidal Wave"
 			},
 
 			damage: 70,

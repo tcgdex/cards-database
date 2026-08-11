@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Erika's Jigglypuff"
+		'en-us': "Erika's Jigglypuff"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Group Therapy"
+				'en-us': "Group Therapy"
 			},
 			effect: {
-				en: "You and your opponent remove 1 damage counter from each of your Pokémon with damage counters on them."
+				'en-us': "You and your opponent remove 1 damage counter from each of your Pokémon with damage counters on them."
 			},
 
 		},
@@ -40,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pulled Punch"
+				'en-us': "Pulled Punch"
 			},
 			effect: {
-				en: "If the Defending Pokémon has no damage counters on it, this attack does 40 damage. If it has any damage counters on it, this attack does 10 damage."
+				'en-us': "If the Defending Pokémon has no damage counters on it, this attack does 40 damage. If it has any damage counters on it, this attack does 10 damage."
 			},
 
 		},

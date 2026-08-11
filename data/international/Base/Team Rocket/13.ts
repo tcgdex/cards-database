@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Dark Vileplume",
-		fr: "Rafflesia obscur",
-		de: "Dunkles Giflor"
+		'en-us': "Dark Vileplume",
+		'fr-fr': "Rafflesia obscur",
+		'de-de': "Dunkles Giflor"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gloom",
-		fr: "Ortide obscur"
+		'en-us': "Gloom",
+		'fr-fr': "Ortide obscur"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Hay Fever",
-				fr: "Rhume des foins",
-				de: "Heuschnupfen"
+				'en-us': "Hay Fever",
+				'fr-fr': "Rhume des foins",
+				'de-de': "Heuschnupfen"
 			},
 			effect: {
-				en: "No Trainer cards can be played. This power stops working while Dark Vileplume is Asleep, Confused, or Paralyzed.",
-				fr: "Aucune carte Dresseur ne peut être jouée. Ce pouvoir cesse de fonctionner lorsque Rafflesia obscur est Endormi, Confus ou Paralysé.",
-				de: "Es können keine Trainerkarten gespielt werden. Diese Fähigkeit verliert ihre Wirkung, solange Dunkles Giftlor schläft, verwirrt oder gelähmt ist."
+				'en-us': "No Trainer cards can be played. This power stops working while Dark Vileplume is Asleep, Confused, or Paralyzed.",
+				'fr-fr': "Aucune carte Dresseur ne peut être jouée. Ce pouvoir cesse de fonctionner lorsque Rafflesia obscur est Endormi, Confus ou Paralysé.",
+				'de-de': "Es können keine Trainerkarten gespielt werden. Diese Fähigkeit verliert ihre Wirkung, solange Dunkles Giftlor schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Petal Whirlwind",
-				fr: "Tourbillon de pétales",
-				de: "Blätterwirbelsturm"
+				'en-us': "Petal Whirlwind",
+				'fr-fr': "Tourbillon de pétales",
+				'de-de': "Blätterwirbelsturm"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 30 damage times the number of heads. If you get 2 or more heads, Dark Vileplume is now Confused (after dealing damage).",
-				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces. Si vous obtenez 2 faces ou plus, Rafflesia obscur est maintenant Confus (après application des dégâts).",
-				de: "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt, 30 Schadenspunkte zu. Falls du zweimal oder öfter 'Kopf' wirfst, ist Dunkles Giflor jetzt verwirrt (nach der Schadensverteilung)."
+				'en-us': "Flip 3 coins. This attack does 30 damage times the number of heads. If you get 2 or more heads, Dark Vileplume is now Confused (after dealing damage).",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces. Si vous obtenez 2 faces ou plus, Rafflesia obscur est maintenant Confus (après application des dégâts).",
+				'de-de': "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt, 30 Schadenspunkte zu. Falls du zweimal oder öfter 'Kopf' wirfst, ist Dunkles Giflor jetzt verwirrt (nach der Schadensverteilung)."
 			},
 			damage: "30x",
 
@@ -78,8 +78,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Perhaps because of their strong-smelling pollen, other Pokémon do not approach areas where Vileplumes live.",
-		fr: "Les autres Pokémon restent à l'écart des endroits où vivent les Rafflesia, peut être en raison du fort parfum de leur pollen."
+		'en-us': "Perhaps because of their strong-smelling pollen, other Pokémon do not approach areas where Vileplumes live.",
+		'fr-fr': "Les autres Pokémon restent à l'écart des endroits où vivent les Rafflesia, peut être en raison du fort parfum de leur pollen."
 	},
 
 

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Machop",
-		fr: "Machoc",
+		'en-us': "Machop",
+		'fr-fr': "Machoc",
 	},
 
 	illustrator: "Mina Nakai",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Knuckle Punch",
-				fr: "Coud'Phalange",
+				'en-us': "Knuckle Punch",
+				'fr-fr': "Coud'Phalange",
 			},
 
 			damage: 10,
@@ -49,7 +49,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It hefts a Graveler repeatedly to strengthen its entire body. It uses every type of martial arts.",
+		'en-us': "It hefts a Graveler repeatedly to strengthen its entire body. It uses every type of martial arts.",
 	},
 
 	thirdParty: {

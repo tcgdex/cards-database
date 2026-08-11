@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Shelmet",
-		fr: "Escargaume",
-		es: "Shelmet",
-		it: "Shelmet",
-		pt: "Shelmet",
-		de: "Schnuthelm"
+		'en-us': "Shelmet",
+		'fr-fr': "Escargaume",
+		'es-es': "Shelmet",
+		'it-it': "Shelmet",
+		'pt-br': "Shelmet",
+		'de-de': "Schnuthelm"
 	},
 
 	illustrator: "OOYAMA",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Absorb",
-				fr: "Vol-Vie",
-				es: "Absorber",
-				it: "Assorbimento",
-				pt: "Absorção",
-				de: "Absorber"
+				'en-us': "Absorb",
+				'fr-fr': "Vol-Vie",
+				'es-es': "Absorber",
+				'it-it': "Assorbimento",
+				'pt-br': "Absorção",
+				'de-de': "Absorber"
 			},
 			effect: {
-				en: "Heal 10 damage from this Pokémon.",
-				fr: "Soignez 10 dégâts à ce Pokémon.",
-				es: "Cura 10 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 10 danni.",
-				pt: "Cure 10 pontos de dano deste Pokémon.",
-				de: "Heile 10 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 10 damage from this Pokémon.",
+				'fr-fr': "Soignez 10 dégâts à ce Pokémon.",
+				'es-es': "Cura 10 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 10 danni.",
+				'pt-br': "Cure 10 pontos de dano deste Pokémon.",
+				'de-de': "Heile 10 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 10,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "When it and Karrablast are together, and both receive electrical stimulation, they both evolve.",
+		'en-us': "When it and Karrablast are together, and both receive electrical stimulation, they both evolve.",
 	},
 
 	thirdParty: {

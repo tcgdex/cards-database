@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [609],
 
 	name: {
-		en: "Chandelure"
+		'en-us': "Chandelure"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Lampent"
+		'en-us': "Lampent"
 	},
 
 	description: {
-		en: "It absorbs spirits, which it then burns. By waving\nthe flames on its arms, it puts its foes into a\nhypnotic trance."
+		'en-us': "It absorbs spirits, which it then burns. By waving\nthe flames on its arms, it puts its foes into a\nhypnotic trance."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Past Friends"
+			'en-us': "Past Friends"
 		},
 
 		damage: 60,
 		cost: ["Psychic", "Psychic"],
 
 		effect: {
-			en: "This attack does 20 more damage for each Supporter card in your discard pile."
+			'en-us': "This attack does 20 more damage for each Supporter card in your discard pile."
 		}
 	}],
 

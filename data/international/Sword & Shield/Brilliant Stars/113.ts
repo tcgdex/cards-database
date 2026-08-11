@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Druddigon",
-		fr: "Drakkarmin",
-		es: "Druddigon",
-		it: "Druddigon",
-		pt: "Druddigon",
-		de: "Shardrago"
+		'en-us': "Druddigon",
+		'fr-fr': "Drakkarmin",
+		'es-es': "Druddigon",
+		'it-it': "Druddigon",
+		'pt-br': "Druddigon",
+		'de-de': "Shardrago"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Fire", "Water"],
 
 		name: {
-			en: "Revenge",
-			fr: "Vendetta",
-			es: "Desquite",
-			it: "Vendetta",
-			pt: "Vingança",
-			de: "Vergeltung"
+			'en-us': "Revenge",
+			'fr-fr': "Vendetta",
+			'es-es': "Desquite",
+			'it-it': "Vendetta",
+			'pt-br': "Vingança",
+			'de-de': "Vergeltung"
 		},
 
 		effect: {
-			en: "If any of your Pokémon were Knocked Out by damage from an attack from your opponent's Pokémon during their last turn, this attack does 120 more damage.",
-			fr: "Si au moins l'un de vos Pokémon a été mis K.O. par les dégâts d'une attaque d'un Pokémon de votre adversaire pendant son dernier tour, cette attaque inflige 120 dégâts supplémentaires.",
-			es: "Si alguno de tus Pokémon quedó Fuera de Combate por el daño de un ataque de los Pokémon de tu rival durante su último turno, este ataque hace 120 puntos de daño más.",
-			it: "Se uno qualsiasi dei tuoi Pokémon è stato messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario durante il suo ultimo turno, questo attacco infligge 120 danni in più.",
-			pt: "Se algum dos seus Pokémon tiver sido Nocauteado pelo dano de um ataque dos Pokémon do seu oponente durante o último turno dele(a), este ataque causará 120 pontos de dano a mais.",
-			de: "Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke der Pokémon deines Gegners kampfunfähig wurde, fügt diese Attacke 120 Schadenspunkte mehr zu."
+			'en-us': "If any of your Pokémon were Knocked Out by damage from an attack from your opponent's Pokémon during their last turn, this attack does 120 more damage.",
+			'fr-fr': "Si au moins l'un de vos Pokémon a été mis K.O. par les dégâts d'une attaque d'un Pokémon de votre adversaire pendant son dernier tour, cette attaque inflige 120 dégâts supplémentaires.",
+			'es-es': "Si alguno de tus Pokémon quedó Fuera de Combate por el daño de un ataque de los Pokémon de tu rival durante su último turno, este ataque hace 120 puntos de daño más.",
+			'it-it': "Se uno qualsiasi dei tuoi Pokémon è stato messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario durante il suo ultimo turno, questo attacco infligge 120 danni in più.",
+			'pt-br': "Se algum dos seus Pokémon tiver sido Nocauteado pelo dano de um ataque dos Pokémon do seu oponente durante o último turno dele(a), este ataque causará 120 pontos de dano a mais.",
+			'de-de': "Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke der Pokémon deines Gegners kampfunfähig wurde, fügt diese Attacke 120 Schadenspunkte mehr zu."
 		},
 
 		damage: "40+"
@@ -47,12 +47,12 @@ const card: Card = {
 		cost: ["Fire", "Water", "Colorless"],
 
 		name: {
-			en: "Dragon Claw",
-			fr: "Draco-Griffe",
-			es: "Garra Dragón",
-			it: "Dragartigli",
-			pt: "Garra de Dragão",
-			de: "Drachenklaue"
+			'en-us': "Dragon Claw",
+			'fr-fr': "Draco-Griffe",
+			'es-es': "Garra Dragón",
+			'it-it': "Dragartigli",
+			'pt-br': "Garra de Dragão",
+			'de-de': "Drachenklaue"
 		},
 
 		damage: 120
@@ -63,7 +63,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Druddigon are vicious and cunning. They take up residence in nests dug out by other Pokémon, treating the stolen nests as their own lairs.",
+		'en-us': "Druddigon are vicious and cunning. They take up residence in nests dug out by other Pokémon, treating the stolen nests as their own lairs.",
 	},
 
 	variants: [

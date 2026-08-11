@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Beheeyem",
-		fr: "Neitram",
-		es: "Beheeyem",
-		it: "Beheeyem",
-		pt: "Beheeyem",
-		de: "Megalon"
+		'en-us': "Beheeyem",
+		'fr-fr': "Neitram",
+		'es-es': "Beheeyem",
+		'it-it': "Beheeyem",
+		'pt-br': "Beheeyem",
+		'de-de': "Megalon"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Elgyem",
-		fr: "Lewsor",
+		'en-us': "Elgyem",
+		'fr-fr': "Lewsor",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psypunch",
-				fr: "Coup de Poing Psy",
-				es: "Psicopuño",
-				it: "Psicopugno",
-				pt: "Soco Psíquico",
-				de: "Psyhieb"
+				'en-us': "Psypunch",
+				'fr-fr': "Coup de Poing Psy",
+				'es-es': "Psicopuño",
+				'it-it': "Psicopugno",
+				'pt-br': "Soco Psíquico",
+				'de-de': "Psyhieb"
 			},
 
 			damage: 20,
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mysterious Noise",
-				fr: "Bruit Mystérieux",
-				es: "Ruido Misterioso",
-				it: "Rumore Misterioso",
-				pt: "Ruído Misterioso",
-				de: "Geheimnisvolle Laute"
+				'en-us': "Mysterious Noise",
+				'fr-fr': "Bruit Mystérieux",
+				'es-es': "Ruido Misterioso",
+				'it-it': "Rumore Misterioso",
+				'pt-br': "Ruído Misterioso",
+				'de-de': "Geheimnisvolle Laute"
 			},
 			effect: {
-				en: "Shuffle this Pokémon and all cards attached to it into your deck. Your opponent can’t play any Item cards from their hand during their next turn.",
-				fr: "Mélangez ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck. Votre adversaire ne peut pas jouer de carte Objet de sa main pendant son prochain tour.",
-				es: "Pon este Pokémon y todas las cartas unidas a él en tu baraja, y barájalas todas. Tu rival no puede jugar ninguna carta de Objeto de su mano durante su próximo turno.",
-				it: "Rimischia questo Pokémon e tutte le carte a esso assegnate nel tuo mazzo. Il tuo avversario non può giocare le carte Strumento che ha in mano durante il suo prossimo turno.",
-				pt: "Embaralhe este Pokémon e todas as cartas ligadas a ele no seu baralho. Seu oponente não poderá jogar nenhuma carta de Item da própria mão durante a próxima vez dele(a) jogar.",
-				de: "Mische dieses Pokémon und alle an es angelegten Karten in dein Deck. Dein Gegner kann während seines nächsten Zuges keine Itemkarten aus seiner Hand spielen."
+				'en-us': "Shuffle this Pokémon and all cards attached to it into your deck. Your opponent can’t play any Item cards from their hand during their next turn.",
+				'fr-fr': "Mélangez ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck. Votre adversaire ne peut pas jouer de carte Objet de sa main pendant son prochain tour.",
+				'es-es': "Pon este Pokémon y todas las cartas unidas a él en tu baraja, y barájalas todas. Tu rival no puede jugar ninguna carta de Objeto de su mano durante su próximo turno.",
+				'it-it': "Rimischia questo Pokémon e tutte le carte a esso assegnate nel tuo mazzo. Il tuo avversario non può giocare le carte Strumento che ha in mano durante il suo prossimo turno.",
+				'pt-br': "Embaralhe este Pokémon e todas as cartas ligadas a ele no seu baralho. Seu oponente não poderá jogar nenhuma carta de Item da própria mão durante a próxima vez dele(a) jogar.",
+				'de-de': "Mische dieses Pokémon und alle an es angelegten Karten in dein Deck. Dein Gegner kann während seines nächsten Zuges keine Itemkarten aus seiner Hand spielen."
 			},
 			damage: 90,
 
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "With its psychic powers, it rewrites its opponents' memories. You, too, may have already had your memories rewritten.",
+		'en-us': "With its psychic powers, it rewrites its opponents' memories. You, too, may have already had your memories rewritten.",
 	},
 
 	thirdParty: {

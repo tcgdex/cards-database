@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Jirachi",
-		fr: "Jirachi",
-		de: "Jirachi"
+		'en-us': "Jirachi",
+		'fr-fr': "Jirachi",
+		'de-de': "Jirachi"
 	},
 
 	illustrator: "match",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Stardust Song",
-				fr: "Chanson céleste",
-				de: "Lied des Sternenstaubs"
+				'en-us': "Stardust Song",
+				'fr-fr': "Chanson céleste",
+				'de-de': "Lied des Sternenstaubs"
 			},
 			effect: {
-				en: "Once during your turn, when you put Jirachi from your hand onto your Bench, you may flip 3 coins. For each heads, search your discard pile for a Psychic Energy card and attach it to Jirachi.",
-				fr: "Une seule fois lors de votre tour, lorsque vous placez Jirachi de votre main sur votre Banc, vous pouvez lancer 3 pièces. Pour chaque côté face, récupérez une carte Énergie  de votre pile de défausse et attachez-la à Jirachi.",
-				de: "Einmal während deines Zuges kannst du, wenn du Jirachi von deiner Hand auf deine Bank legst, 3 Münzen werfen. Durchsuche pro \"Kopf\" deinen Ablagestapel nach einer -Energiekarte und lege sie an Jirachi an."
+				'en-us': "Once during your turn, when you put Jirachi from your hand onto your Bench, you may flip 3 coins. For each heads, search your discard pile for a Psychic Energy card and attach it to Jirachi.",
+				'fr-fr': "Une seule fois lors de votre tour, lorsque vous placez Jirachi de votre main sur votre Banc, vous pouvez lancer 3 pièces. Pour chaque côté face, récupérez une carte Énergie  de votre pile de défausse et attachez-la à Jirachi.",
+				'de-de': "Einmal während deines Zuges kannst du, wenn du Jirachi von deiner Hand auf deine Bank legst, 3 Münzen werfen. Durchsuche pro \"Kopf\" deinen Ablagestapel nach einer -Energiekarte und lege sie an Jirachi an."
 			},
 		},
 	],
@@ -45,14 +45,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Time Hollow",
-				fr: "Creux temporel",
-				de: "Zeitumkehrung"
+				'en-us': "Time Hollow",
+				'fr-fr': "Creux temporel",
+				'de-de': "Zeitumkehrung"
 			},
 			effect: {
-				en: "Choose a number of your opponent's Stage 1 or Stage 2 Evolved Pokémon up to the amount of Energy attached to Jirachi. Remove the highest Stage Evolution card from each of those Pokémon and put those cards back into your opponent's hand.",
-				fr: "Choisissez au maximum autant de cartes Pokémon Évolution de votre adversaire (niveau 1 ou 2) qu'il y a de cartes Énergie attachées à Jirachi. Retirez les cartes Évolution de niveau le plus élevé de ces Pokémon et remettez-les dans la main de votre adversaire.",
-				de: "Wähle maximal so viele entwickelte Phase-1- oder Phase-2 Pokémon deines Gegners, wie Energien an Jirachi angelegt sind. Entferne die höchste Evolutionskarte von jedem der gewählten Pokémon. Dein Gegner nimmt diese Karten auf seine Hand zurück."
+				'en-us': "Choose a number of your opponent's Stage 1 or Stage 2 Evolved Pokémon up to the amount of Energy attached to Jirachi. Remove the highest Stage Evolution card from each of those Pokémon and put those cards back into your opponent's hand.",
+				'fr-fr': "Choisissez au maximum autant de cartes Pokémon Évolution de votre adversaire (niveau 1 ou 2) qu'il y a de cartes Énergie attachées à Jirachi. Retirez les cartes Évolution de niveau le plus élevé de ces Pokémon et remettez-les dans la main de votre adversaire.",
+				'de-de': "Wähle maximal so viele entwickelte Phase-1- oder Phase-2 Pokémon deines Gegners, wie Energien an Jirachi angelegt sind. Entferne die höchste Evolutionskarte von jedem der gewählten Pokémon. Dein Gegner nimmt diese Karten auf seine Hand zurück."
 			},
 
 		},
@@ -68,7 +68,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Generations have believed that any wish written on a note on its head will come true when it awakens.",
+		'en-us': "Generations have believed that any wish written on a note on its head will come true when it awakens.",
 	},
 
 	variants: [

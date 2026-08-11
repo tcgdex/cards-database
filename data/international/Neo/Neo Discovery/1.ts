@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Espeon",
-		fr: "Mentali",
-		de: "Psiana"
+		'en-us': "Espeon",
+		'fr-fr': "Mentali",
+		'de-de': "Psiana"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli"
 	},
 
 	stage: "Stage1",
@@ -37,9 +37,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Bite"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Bite"
 			},
 
 			damage: 20,
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic",
-				fr: "Psyko",
-				de: "Psychic"
+				'en-us': "Psychic",
+				'fr-fr': "Psyko",
+				'de-de': "Psychic"
 			},
 			effect: {
-				en: "Does 30 damage plus 10 more for each Energy Card attached to the Defending Pokémon.",
-				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie attachée au Pokémon Défenseur.",
-				de: "Doaes 30 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
+				'en-us': "Does 30 damage plus 10 more for each Energy Card attached to the Defending Pokémon.",
+				'fr-fr': "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Doaes 30 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
 			},
 			damage: "30+",
 
@@ -74,8 +74,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It uses the fine hair that covers its body to sense air currents and predict its enemy's actions.",
-		fr: "La belle fourrure qui recouvre son corps peut sentir les courants aériens et prédire les actions de son ennemi."
+		'en-us': "It uses the fine hair that covers its body to sense air currents and predict its enemy's actions.",
+		'fr-fr': "La belle fourrure qui recouvre son corps peut sentir les courants aériens et prédire les actions de son ennemi."
 	},
 
 

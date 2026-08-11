@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Cacturne",
-		fr: "Cacturne",
-		es: "Cacturne",
-		it: "Cacturne",
-		pt: "Cacturne",
-		de: "Noktuska"
+		'en-us': "Cacturne",
+		'fr-fr': "Cacturne",
+		'es-es': "Cacturne",
+		'it-it': "Cacturne",
+		'pt-br': "Cacturne",
+		'de-de': "Noktuska"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cacnea",
-		fr: "Cacnea",
+		'en-us': "Cacnea",
+		'fr-fr': "Cacnea",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Rapid-Fire Needles",
-				fr: "Salve d'Aiguilles",
+				'en-us': "Rapid-Fire Needles",
+				'fr-fr': "Salve d'Aiguilles",
 			},
 			effect: {
-				en: "Does 30 damage to 1 of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 30 dégâts à 1 de vos Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "Does 30 damage to 1 of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 30 dégâts à 1 de vos Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 60,
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Payback",
-				fr: "Représailles",
+				'en-us': "Payback",
+				'fr-fr': "Représailles",
 			},
 			effect: {
-				en: "If your opponent has only 1 Prize card left, this attack does 60 more damage and discard an Energy attached to the Defending Pokémon.",
-				fr: "S'il ne reste qu'une seule carte Récompense à votre adversaire, cette attaque inflige 60 dégâts supplémentaires et vous défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "If your opponent has only 1 Prize card left, this attack does 60 more damage and discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "S'il ne reste qu'une seule carte Récompense à votre adversaire, cette attaque inflige 60 dégâts supplémentaires et vous défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 30,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It becomes active at night, seeking prey that is exhausted from the day's desert heat.",
+		'en-us': "It becomes active at night, seeking prey that is exhausted from the day's desert heat.",
 	},
 
 	thirdParty: {

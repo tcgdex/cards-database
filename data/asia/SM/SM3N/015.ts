@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シビシラス",
+		'ja-jp': "シビシラス",
 	},
 
 	illustrator: "Asako Ito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "１匹の 電力は 小さいが たくさんの シビシラスが つながると 雷と 同じ 威力になる。",
+		'ja-jp': "１匹の 電力は 小さいが たくさんの シビシラスが つながると 雷と 同じ 威力になる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Lightning"],
 			effect: {
-				ja: "相手のバトルポケモンに[水]エネルギーがついているなら、30ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンに[水]エネルギーがついているなら、30ダメージ追加。",
 			},
 		},
 	],

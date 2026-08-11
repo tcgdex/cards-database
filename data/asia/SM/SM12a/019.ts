@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブースター",
+		'ja-jp': "ブースター",
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "大きく 空気を 吸い込むのは 攻撃の サイン。 １７００度の 炎が 襲ってくるぞ。",
+		'ja-jp': "大きく 空気を 吸い込むのは 攻撃の サイン。 １７００度の 炎が 襲ってくるぞ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "パワーエール" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分の場の「イーブイ」から進化する「ポケモンGX」が使うワザの、相手のバトルポケモンへのダメージは「+30」される。この効果は、この特性を持つポケモンが何匹いても、重ならない",
+				'ja-jp': "このポケモンがいるかぎり、自分の場の「イーブイ」から進化する「ポケモンGX」が使うワザの、相手のバトルポケモンへのダメージは「+30」される。この効果は、この特性を持つポケモンが何匹いても、重ならない",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "のポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "のポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 2,

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Rocket's Entei ex",
-		de: "Rockets Entei ex"
+		'en-us': "Rocket's Entei ex",
+		'de-de': "Rockets Entei ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Dark Condition",
-				de: "Dark Condition"
+				'en-us': "Dark Condition",
+				'de-de': "Dark Condition"
 			},
 			effect: {
-				en: "As long as Rocket's Entei ex has any Darkness Energy attached to it, Rocket's Entei ex has no Weakness.\"",
-				de: "As long as Rocket's Entei ex has any  Energy attached to it, Reocket's Entei ex has no Weakness."
+				'en-us': "As long as Rocket's Entei ex has any Darkness Energy attached to it, Rocket's Entei ex has no Weakness.\"",
+				'de-de': "As long as Rocket's Entei ex has any  Energy attached to it, Reocket's Entei ex has no Weakness."
 			},
 		},
 	],
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Link",
-				de: "Energy Link"
+				'en-us': "Energy Link",
+				'de-de': "Energy Link"
 			},
 			effect: {
-				en: "Search your discard pile for an Energy card and attach it to Rocket's Entei ex.",
-				de: "Search your discard pile for an Energy card and attach it to Rocket's Entei ex."
+				'en-us': "Search your discard pile for an Energy card and attach it to Rocket's Entei ex.",
+				'de-de': "Search your discard pile for an Energy card and attach it to Rocket's Entei ex."
 			},
 			damage: 10,
 
@@ -61,12 +61,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Volcanic Ash",
-				de: "Volcanic Ash"
+				'en-us': "Volcanic Ash",
+				'de-de': "Volcanic Ash"
 			},
 			effect: {
-				en: "Discard 2 Energy attached to Rocket's Entei ex and then choose 1 of your opponent's Pok��mon. This attack does 60 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				de: "Discard 2 Energy attached to Rocket's Entei ex and then choose 1 of your opponent's Pokémon. This attack does 60 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Discard 2 Energy attached to Rocket's Entei ex and then choose 1 of your opponent's Pok��mon. This attack does 60 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'de-de': "Discard 2 Energy attached to Rocket's Entei ex and then choose 1 of your opponent's Pokémon. This attack does 60 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},

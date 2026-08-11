@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒスイ ゾロア",
+		'ja-jp': "ヒスイ ゾロア",
 		'zh-tw': "洗翠 索羅亞",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "死した魂 ヒスイの地にて 蘇る。 怨嗟は 力となり 頭より 立ち昇り 相手の姿に 変じ 恨み 晴らしたり。",
+		'ja-jp': "死した魂 ヒスイの地にて 蘇る。 怨嗟は 力となり 頭より 立ち昇り 相手の姿に 変じ 恨み 晴らしたり。",
 		'zh-tw': "死後靈魂在洗翠地區復甦。怨恨化為力量，從其頭部冉冉飄升。 會化成對手的樣貌去洗刷仇恨。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "もってくる",
+				'ja-jp': "もってくる",
 				'zh-tw': "呼喚",
 			},
 			cost: [],
 			effect: {
-				ja: "自分の山札を1枚引く。",
+				'ja-jp': "自分の山札を1枚引く。",
 				'zh-tw': "從自己的牌庫抽出1張卡。",
 			},
 		},
 		{
 			name: {
-				ja: "つぶやく",
+				'ja-jp': "つぶやく",
 				'zh-tw': "囈語",
 			},
 			damage: 10,

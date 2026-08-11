@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムゲンダイナV",
+		'ja-jp': "ムゲンダイナV",
 		'zh-tw': "無極汰那V",
 	},
 
@@ -18,25 +18,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "パワーアクセル",
+				'ja-jp': "パワーアクセル",
 				'zh-tw': "衝力",
 			},
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "のぞむなら、自分の手札から[悪]エネルギーを1枚選び、ベンチポケモンにつける。",
+				'ja-jp': "のぞむなら、自分の手札から[悪]エネルギーを1枚選び、ベンチポケモンにつける。",
 				'zh-tw': "若希望，從自己的手牌選擇1張【惡】能量卡，附於備戰寶可夢身上。",
 			},
 		},
 		{
 			name: {
-				ja: "ダイマックスほう",
+				'ja-jp': "ダイマックスほう",
 				'zh-tw': "極巨炮",
 			},
 			damage: "120+",
 			cost: ["Darkness", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが「ポケモンVMAX」なら、120ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが「ポケモンVMAX」なら、120ダメージ追加。",
 				'zh-tw': "若對手的戰鬥寶可夢為「寶可夢【VMAX】」，則增加120點傷害。",
 			},
 		},

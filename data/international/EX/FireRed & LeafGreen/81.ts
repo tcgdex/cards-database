@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Spearow",
-		fr: "Piafabec",
-		de: "Habitak"
+		'en-us': "Spearow",
+		'fr-fr': "Piafabec",
+		'de-de': "Habitak"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Claw",
-				fr: "Mâchoire",
-				de: "Claw"
+				'en-us': "Claw",
+				'fr-fr': "Mâchoire",
+				'de-de': "Claw"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Flip a coin. If tails, this attack does nothing."
 			},
 			damage: 10,
 
@@ -49,9 +49,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-aile",
-				de: "Wing Attack"
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-aile",
+				'de-de': "Wing Attack"
 			},
 
 			damage: 20,

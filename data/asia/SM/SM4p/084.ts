@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レックウザ",
+		'ja-jp': "レックウザ",
 	},
 
 	illustrator: "Yoshinobu Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "雲より はるか上の オゾン層に 生息しているため 地上から 姿を 見ることは できない。",
+		'ja-jp': "雲より はるか上の オゾン層に 生息しているため 地上から 姿を 見ることは できない。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分のトラッシュにある基本エネルギーを2枚、自分のベンチポケモン1匹につける。",
+				'ja-jp': "自分のトラッシュにある基本エネルギーを2枚、自分のベンチポケモン1匹につける。",
 			},
 		},
 		{

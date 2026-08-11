@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カイデン",
+		'ja-jp': "カイデン",
 		'zh-tw': "電海燕",
-		th: "ไคเด็น",
-		id: "Wattrel"
+		'th-th': "ไคเด็น",
+		'id-id': "Wattrel"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "翼の 骨は 風を 受けると 電気を 作る。 海に 飛び込み 獲物を 感電させて 捕らえる。",
+		'ja-jp': "翼の 骨は 風を 受けると 電気を 作る。 海に 飛び込み 獲物を 感電させて 捕らえる。",
 		'zh-tw': "當翅膀的骨頭受到風吹時，就能製造出電力。會衝進 海裡讓獵物觸電後將其捕獲。",
-		th: "กระดูกที่ปีกจะผลิตกระแสไฟฟ้าเมื่อได้รับลม จะดำดิ่งลงสู่ทะเลเพื่อจับเหยื่อด้วยการช็อตด้วยไฟฟ้า",
-		id: "Kerangka sayap Wattrel menciptakan listrik jika menerima angin. Pokémon ini terjun ke laut, menyetrum mangsa, dan menangkapnya."
+		'th-th': "กระดูกที่ปีกจะผลิตกระแสไฟฟ้าเมื่อได้รับลม จะดำดิ่งลงสู่ทะเลเพื่อจับเหยื่อด้วยการช็อตด้วยไฟฟ้า",
+		'id-id': "Kerangka sayap Wattrel menciptakan listrik jika menerima angin. Pokémon ini terjun ke laut, menyetrum mangsa, dan menangkapnya."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			ja: "バチバチ",
+			'ja-jp': "バチバチ",
 			'zh-tw': "劈哩啪啦",
-			th: "ประกายไฟ",
-			id: "Berpijar-pijar"
+			'th-th': "ประกายไฟ",
+			'id-id': "Berpijar-pijar"
 		},
 
 		damage: 20

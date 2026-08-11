@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG7"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "exeggcute（デルタ種）",
+		'ja-jp': "exeggcute（デルタ種）",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ロールアウトする",
+				'ja-jp': "ロールアウトする",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "ペブルスロー",
+				'ja-jp': "ペブルスロー",
 			},
 			effect: {
-				ja: "対戦相手のベンチポケモンを1つ選択します。この攻撃は、そのポケモンに20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "対戦相手のベンチポケモンを1つ選択します。この攻撃は、そのポケモンに20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 		},
 	],

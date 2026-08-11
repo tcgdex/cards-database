@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビブラーバ",
+		'ja-jp': "ビブラーバ",
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ハネを 振動させ 超音波を 放つ。 気絶した 獲物を 砂の 中に 生き埋めにして 保存する。",
+		'ja-jp': "ハネを 振動させ 超音波を 放つ。 気絶した 獲物を 砂の 中に 生き埋めにして 保存する。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "うるさいはおと" },
 			effect: {
-				ja: "このポケモンは、相手が手札からサポートを出して使ったとき、その効果を受けない。",
+				'ja-jp': "このポケモンは、相手が手札からサポートを出して使ったとき、その効果を受けない。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ナックラー",
+		'ja-jp': "ナックラー",
 	},
 
 	retreat: 1,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Team Rocket's Tarountula",
-		fr: "Tissenboule de la Team Rocket",
-		de: "Team Rockets Tarundel",
-		it: "Tarountula del Team Rocket",
-		es: "Tarountula del Team Rocket",
-		pt: "Tarountula da Equipe Rocket",
+		'en-us': "Team Rocket's Tarountula",
+		'fr-fr': "Tissenboule de la Team Rocket",
+		'de-de': "Team Rockets Tarundel",
+		'it-it': "Tarountula del Team Rocket",
+		'es-es': "Tarountula del Team Rocket",
+		'pt-br': "Tarountula da Equipe Rocket",
 		'es-mx': "Tarountula del Equipo Rocket"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Take Down",
-			fr: "Bélier",
-			de: "Bodycheck",
-			it: "Riduttore",
-			es: "Derribo",
-			pt: "Desmantelar",
+			'en-us': "Take Down",
+			'fr-fr': "Bélier",
+			'de-de': "Bodycheck",
+			'it-it': "Riduttore",
+			'es-es': "Derribo",
+			'pt-br': "Desmantelar",
 			'es-mx': "Derribo"
 		},
 
 		effect: {
-			en: "This Pokémon also does 10 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
-			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu.",
-			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+			'en-us': "This Pokémon also does 10 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 10 dégâts.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu.",
+			'it-it': "Questo Pokémon infligge anche 10 danni a se stesso.",
+			'es-es': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
+			'pt-br': "Este Pokémon também causa 10 pontos de dano a si mesmo.",
 			'es-mx': "Este Pokémon también se hace 10 puntos de daño a sí mismo."
 		},
 

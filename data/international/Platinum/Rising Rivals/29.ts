@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Nidoking",
-		fr: "Nidoking Niv. 59",
-		de: "Nidoking"
+		'en-us': "Nidoking",
+		'fr-fr': "Nidoking Niv. 59",
+		'de-de': "Nidoking"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidorino",
-		fr: "Nidorino"
+		'en-us': "Nidorino",
+		'fr-fr': "Nidorino"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Territoriality",
-				fr: "Territorialité",
-				de: "Rasierverhalten"
+				'en-us': "Territoriality",
+				'fr-fr': "Territorialité",
+				'de-de': "Rasierverhalten"
 			},
 			effect: {
-				en: "If your Active Pokémon is damaged by an opponent's attack (even if that Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon. You can't put more than 2 damage counters in this way.",
-				fr: "Si l'attaque de votre adversaire inflige des dégâts à votre Pokémon Actif (même si ce Pokémon est mis K.O), placez 2 marqueurs de dégât sur le Pokémon Attaquant. Vous ne pouvez pas placer plus de 2 marqueurs de dégât de cette façon.",
-				de: "Wenn dein Aktives Pokémon durch einen gegnerischen Angriff Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 2 Schadensmarken auf das Angreifende Pokémon. Du kannst auf diese Weise nicht mehr als 2 Schadensmarken verteilen."
+				'en-us': "If your Active Pokémon is damaged by an opponent's attack (even if that Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon. You can't put more than 2 damage counters in this way.",
+				'fr-fr': "Si l'attaque de votre adversaire inflige des dégâts à votre Pokémon Actif (même si ce Pokémon est mis K.O), placez 2 marqueurs de dégât sur le Pokémon Attaquant. Vous ne pouvez pas placer plus de 2 marqueurs de dégât de cette façon.",
+				'de-de': "Wenn dein Aktives Pokémon durch einen gegnerischen Angriff Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 2 Schadensmarken auf das Angreifende Pokémon. Du kannst auf diese Weise nicht mehr als 2 Schadensmarken verteilen."
 			}
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fling Away",
-				fr: "Catapulte",
-				de: "Wegschleudern"
+				'en-us': "Fling Away",
+				'fr-fr': "Catapulte",
+				'de-de': "Wegschleudern"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, this attack's base damage is 30 instead of 60 and this attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Si votre adversaire possède des Pokémon de Banc, les dégâts de base de cette attaque sont de 30 au lieu de 60 et cette attaque inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
-				de: "Wenn dein Gegner mindestens 1 Pokémon auf seiner Bank hat, beträgt der Grundschaden dieses Angriffs 30 Schadenspunkte anstelle von 60 Schadenspunkten und dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "If your opponent has any Benched Pokémon, this attack's base damage is 30 instead of 60 and this attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Si votre adversaire possède des Pokémon de Banc, les dégâts de base de cette attaque sont de 30 au lieu de 60 et cette attaque inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
+				'de-de': "Wenn dein Gegner mindestens 1 Pokémon auf seiner Bank hat, beträgt der Grundschaden dieses Angriffs 30 Schadenspunkte anstelle von 60 Schadenspunkten und dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 
@@ -72,14 +72,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giga Horn",
-				fr: "Giga corne",
-				de: "Gigahorn"
+				'en-us': "Giga Horn",
+				'fr-fr': "Giga corne",
+				'de-de': "Gigahorn"
 			},
 			effect: {
-				en: "Flip 2 coins. If both of them are tails, this attack does nothing.",
-				fr: "Lancez 2 pièces. Si ce sont des piles, cette attaque est sans effet.",
-				de: "Wirf 2 Münzen. Wenn beide \"Zahl\" zeigen, hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip 2 coins. If both of them are tails, this attack does nothing.",
+				'fr-fr': "Lancez 2 pièces. Si ce sont des piles, cette attaque est sans effet.",
+				'de-de': "Wirf 2 Münzen. Wenn beide \"Zahl\" zeigen, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 100,
 

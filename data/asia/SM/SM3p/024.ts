@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フローゼル",
+		'ja-jp': "フローゼル",
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "発達した 浮き袋で 浮かぶ。 おぼれた 人を 救助する 手伝いを している ポケモンだ。",
+		'ja-jp': "発達した 浮き袋で 浮かぶ。 おぼれた 人を 救助する 手伝いを している ポケモンだ。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ブイゼル",
+		'ja-jp': "ブイゼル",
 	},
 
 	retreat: 1,

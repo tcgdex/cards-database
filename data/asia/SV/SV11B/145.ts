@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バルジーナ",
+		'ja-jp': "バルジーナ",
 	},
 
 	illustrator: "Bun Toujo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "骨を 拾い 集めて 巣作り。 弱った 獲物を 脚で つかみ 骨の 巣まで 軽々と 運ぶ。",
+		'ja-jp': "骨を 拾い 集めて 巣作り。 弱った 獲物を 脚で つかみ 骨の 巣まで 軽々と 運ぶ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "えものをねらう" },
 			effect: {
-				ja: "自分の番に1回使える。相手の手札を見て、その中から、HPが「70」以下のたねポケモンを1枚選び、相手のベンチに出す。",
+				'ja-jp': "自分の番に1回使える。相手の手札を見て、その中から、HPが「70」以下のたねポケモンを1枚選び、相手のベンチに出す。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	variants: [{ type: "holo" }],
 
 	evolveFrom: {
-		ja: "バルチャイ",
+		'ja-jp': "バルチャイ",
 	},
 
 	retreat: 1,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Arcanine",
-		fr: "Arcanin",
-		de: "Arkani"
+		'en-us': "Arcanine",
+		'fr-fr': "Arcanin",
+		'de-de': "Arkani"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Growlithe",
-		fr: "Caninos"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Fire Veil",
-				fr: "Voile feu",
-				de: "Feuerschleier"
+				'en-us': "Fire Veil",
+				'fr-fr': "Voile feu",
+				'de-de': "Feuerschleier"
 			},
 			effect: {
-				en: "If Arcanine is your Active Pokémon and is damaged by an opponent's attack (even if Arcanine is Knocked Out), the Attacking Pokémon is now Burned.",
-				fr: "Si Arcanin est votre Pokémon Actif et que l'attaque de votre adversaire lui inflige des dégâts (même si Arcanin est mis K.O), le Pokémon Attaquant est maintenant Brûlé.",
-				de: "Wenn Arkani dein Aktives Pokémon ist und ihm Schaden durch einen gegnerischen Angriff zugefügt wird (auch wenn Arkani kampfunfähig gemacht wird), ist das Angreifende Pokémon jetzt verbrannt."
+				'en-us': "If Arcanine is your Active Pokémon and is damaged by an opponent's attack (even if Arcanine is Knocked Out), the Attacking Pokémon is now Burned.",
+				'fr-fr': "Si Arcanin est votre Pokémon Actif et que l'attaque de votre adversaire lui inflige des dégâts (même si Arcanin est mis K.O), le Pokémon Attaquant est maintenant Brûlé.",
+				'de-de': "Wenn Arkani dein Aktives Pokémon ist und ihm Schaden durch einen gegnerischen Angriff zugefügt wird (auch wenn Arkani kampfunfähig gemacht wird), ist das Angreifende Pokémon jetzt verbrannt."
 			}
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Burn Up",
-				fr: "Brûlure",
-				de: "Wegbrennen"
+				'en-us': "Burn Up",
+				'fr-fr': "Brûlure",
+				'de-de': "Wegbrennen"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard all Fire Energy cards attached to Arcanine.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez toutes les cartes Énergie  attachées à Arcanin.",
-				de: "Wirf 1 Münze. Bei 'Zahl' lege alle an Arkani angelegten -Energiekarten auf deinen Ablagestapel."
+				'en-us': "Flip a coin. If tails, discard all Fire Energy cards attached to Arcanine.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez toutes les cartes Énergie  attachées à Arcanin.",
+				'de-de': "Wirf 1 Münze. Bei 'Zahl' lege alle an Arkani angelegten -Energiekarten auf deinen Ablagestapel."
 			},
 			damage: 60,
 

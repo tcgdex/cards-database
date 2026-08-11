@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Groudon",
-		fr: "Groudon",
-		de: "Groudon"
+		'en-us': "Groudon",
+		'fr-fr': "Groudon",
+		'de-de': "Groudon"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,9 +29,9 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Slash"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Slash"
 			},
 
 			damage: 20,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Eruption",
-				fr: "Éruption",
-				de: "Eruption"
+				'en-us': "Eruption",
+				'fr-fr': "Éruption",
+				'de-de': "Eruption"
 			},
 			effect: {
-				en: "Each player discards the top card of his or her deck. This attack does 40 damage plus 20 more damage for each Energy card discarded in this way.",
-				fr: "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie défaussée de cette façon.",
-				de: "Each Player discards the top card of his or her deck. This attack does 40 damage plus 10 more for each energie discarded in this way."
+				'en-us': "Each player discards the top card of his or her deck. This attack does 40 damage plus 20 more damage for each Energy card discarded in this way.",
+				'fr-fr': "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie défaussée de cette façon.",
+				'de-de': "Each Player discards the top card of his or her deck. This attack does 40 damage plus 10 more for each energie discarded in this way."
 			},
 			damage: "40+",
 

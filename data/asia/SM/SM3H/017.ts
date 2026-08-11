@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シードラ",
+		'ja-jp': "シードラ",
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "うかつに 触ろうとすると 体中に 生える トゲに 刺されて 気絶することもある。",
+		'ja-jp': "うかつに 触ろうとすると 体中に 生える トゲに 刺されて 気絶することもある。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ウォーターアロー" },
 			cost: ["Water"],
 			effect: {
-				ja: "相手のポケモン1匹に、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -41,7 +41,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "タッツー",
+		'ja-jp': "タッツー",
 	},
 
 	retreat: 1,

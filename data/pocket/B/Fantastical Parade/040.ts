@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [615],
 
 	name: {
-		en: "Cryogonal"
+		'en-us': "Cryogonal"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "Cryogonal uses its chains of ice to constrict its\nopponents and then flash-freezes them where\nthey stand."
+		'en-us': "Cryogonal uses its chains of ice to constrict its\nopponents and then flash-freezes them where\nthey stand."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Frozen Lock"
+			'en-us': "Frozen Lock"
 		},
 
 		damage: 20,
 		cost: ["Water"],
 
 		effect: {
-			en: "During your opponent's next turn, they can't play any Item cards from their hand."
+			'en-us': "During your opponent's next turn, they can't play any Item cards from their hand."
 		}
 	}],
 

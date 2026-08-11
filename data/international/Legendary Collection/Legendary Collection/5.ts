@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Dark Dragonite"
+		'en-us': "Dark Dragonite"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dragonair"
+		'en-us': "Dragonair"
 	},
 
 	stage: "Stage2",
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Summon Minions"
+				'en-us': "Summon Minions"
 			},
 			effect: {
-				en: "When you play Dark Dragonite from your hand, search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward."
+				'en-us': "When you play Dark Dragonite from your hand, search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward."
 			}
 		},
 	],
@@ -46,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giant Tail"
+				'en-us': "Giant Tail"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing."
+				'en-us': "Flip a coin. If tails, this attack does nothing."
 			},
 
 		},
@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Sometimes called \"The God of Destruction.\" Its wings are able to support it in spite of its massive weight."
+		'en-us': "Sometimes called \"The God of Destruction.\" Its wings are able to support it in spite of its massive weight."
 	},
 
 	variants: [

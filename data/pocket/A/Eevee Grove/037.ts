@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Alcremie",
-		fr: "Charmilly"
+		'en-us': "Alcremie",
+		'fr-fr': "Charmilly"
 	},
 
 	illustrator: "Mizue",
@@ -18,28 +18,28 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Milcery"
+		'en-us': "Milcery"
 	},
 
 	description: {
-		en: "When it trusts a Trainer, it will treat them\nto berries it's decorated with cream.",
-		fr: "Il offre aux Dresseurs auxquels il accorde toute sa confiance des Baies décorées avec de la crème."
+		'en-us': "When it trusts a Trainer, it will treat them\nto berries it's decorated with cream.",
+		'fr-fr': "Il offre aux Dresseurs auxquels il accorde toute sa confiance des Baies décorées avec de la crème."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Sweets Overload",
-			fr: "Avalanche Sucrée"
+			'en-us': "Sweets Overload",
+			'fr-fr': "Avalanche Sucrée"
 		},
 
 		damage: 40,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "This attack does 40 damage for each time your Pokémon used Sweets Relay during this game.",
-			fr: "Cette attaque inflige 40 dégâts pour chaque utilisation de  par vos Pokémon pendant cette partie."
+			'en-us': "This attack does 40 damage for each time your Pokémon used Sweets Relay during this game.",
+			'fr-fr': "Cette attaque inflige 40 dégâts pour chaque utilisation de  par vos Pokémon pendant cette partie."
 		}
 	}],
 

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tangela",
-		fr: "Saquedeneu"
+		'en-us': "Tangela",
+		'fr-fr': "Saquedeneu"
 	},
 
 	illustrator: "OOYAMA",
@@ -18,24 +18,24 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "Hidden beneath a tangle of vines that grows\nnonstop even if the vines are torn off, this\nPokémon's true appearance remains a mystery.",
-		fr: "On ne sait toujours pas ce qui se cache sous ses lianes. Même si on les coupe, elles repoussent à l'infini."
+		'en-us': "Hidden beneath a tangle of vines that grows\nnonstop even if the vines are torn off, this\nPokémon's true appearance remains a mystery.",
+		'fr-fr': "On ne sait toujours pas ce qui se cache sous ses lianes. Même si on les coupe, elles repoussent à l'infini."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Sleep Powder",
-			fr: "Poudre Dodo"
+			'en-us': "Sleep Powder",
+			'fr-fr': "Poudre Dodo"
 		},
 
 		damage: 20,
 		cost: ["Grass", "Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi."
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi."
 		}
 	}],
 

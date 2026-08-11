@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Palkia",
-		fr: "Palkia",
+		'en-us': "Palkia",
+		'fr-fr': "Palkia",
 	},
 
 	illustrator: "Naoki Saito",
@@ -31,8 +31,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse Vague",
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse Vague",
 			},
 
 			damage: 30,
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cross Slicer",
-				fr: "Tranch'Croix"
+				'en-us': "Cross Slicer",
+				'fr-fr': "Tranch'Croix"
 			},
 			effect: {
-				en: "Your opponent can't attach Energy from his or her hand to the Defending Pokémon during his or her next turn.",
-				fr: "Votre adversaire ne peut pas attacher d'Énergie de sa main au Pokémon Défenseur pendant son prochain tour."
+				'en-us': "Your opponent can't attach Energy from his or her hand to the Defending Pokémon during his or her next turn.",
+				'fr-fr': "Votre adversaire ne peut pas attacher d'Énergie de sa main au Pokémon Défenseur pendant son prochain tour."
 			},
 			damage: 80,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.",
+		'en-us': "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.",
 	},
 
 	thirdParty: {

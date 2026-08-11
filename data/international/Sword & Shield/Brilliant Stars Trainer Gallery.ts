@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sword & Shield'
 
 const swsh9tg: Set = {
 	id: "swsh9tg",
 
 	name: {
-		en: "Brilliant Stars Trainer Gallery",
-		fr: "Stars Étincelantes Galerie de Dresseurs",
-		es: "Astros Brillantes Galería de Entrenador",
-		it: "Astri Lucenti Galleria Allenatori",
-		de: "Strahlende Sterne Trainer-Galerie",
-		pt: "Astros Cintilantes Galeria de Treinador"
+		'en-us': "Brilliant Stars Trainer Gallery",
+		'fr-fr': "Stars Étincelantes Galerie de Dresseurs",
+		'es-es': "Astros Brillantes Galería de Entrenador",
+		'it-it': "Astri Lucenti Galleria Allenatori",
+		'de-de': "Strahlende Sterne Trainer-Galerie",
+		'pt-br': "Astros Cintilantes Galeria de Treinador"
 	},
 
 	tcgOnline: 'BRS',
@@ -24,7 +24,7 @@ const swsh9tg: Set = {
 
 	abbreviations: {
 		official: "BRS:TG",
-		fr: "STA:TG"
+		'fr-fr': "STA:TG"
 	}
 }
 

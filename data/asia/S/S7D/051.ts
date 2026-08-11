@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤルキモノ",
+		'ja-jp': "ヤルキモノ",
 		'zh-tw': "過動猿",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "体を 動かしていないと ストレスが たまりすぎて 具合が 悪くなって しまうのだ。",
+		'ja-jp': "体を 動かしていないと ストレスが たまりすぎて 具合が 悪くなって しまうのだ。",
 		'zh-tw': "如果不活動身體，就會累積過多的壓力，使身體狀況變糟。",
 	},
 
@@ -23,19 +23,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "たたきこわす",
+				'ja-jp': "たたきこわす",
 				'zh-tw': "敲壞",
 			},
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "場に出ているスタジアムをトラッシュする。",
+				'ja-jp': "場に出ているスタジアムをトラッシュする。",
 				'zh-tw': "將場上的競技場卡丟棄。",
 			},
 		},
 		{
 			name: {
-				ja: "きりさく",
+				'ja-jp': "きりさく",
 				'zh-tw': "劈開",
 			},
 			damage: 50,
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ナマケロ",
+		'ja-jp': "ナマケロ",
 	},
 
 	retreat: 1,

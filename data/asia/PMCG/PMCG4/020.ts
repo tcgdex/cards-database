@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コイキング",
+		'ja-jp': "コイキング",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "フロップ",
+				'ja-jp': "フロップ",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Water", "Water", "Water"],
 			name: {
-				ja: "急速な進化",
+				'ja-jp': "急速な進化",
 			},
 			effect: {
-				ja: "Magikarpから進化するカードをデッキで検索し、このポケモンに置いてください。 （これはこのポケモンを進化させるものとしてカウントされます。）その後、デッキをシャッフルします。",
+				'ja-jp': "Magikarpから進化するカードをデッキで検索し、このポケモンに置いてください。 （これはこのポケモンを進化させるものとしてカウントされます。）その後、デッキをシャッフルします。",
 			},
 		},
 	],

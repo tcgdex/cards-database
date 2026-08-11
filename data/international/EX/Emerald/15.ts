@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Kyogre",
-		fr: "Kyogre",
-		de: "Kyogre"
+		'en-us': "Kyogre",
+		'fr-fr': "Kyogre",
+		'de-de': "Kyogre"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scary Face",
-				fr: "Grimace",
-				de: "Scary Face"
+				'en-us': "Scary Face",
+				'fr-fr': "Grimace",
+				'de-de': "Scary Face"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can't attack or retreat during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut ni attaquer ni battre en retraite lors du prochain tour de votre adversaire.",
-				de: "Flip a coin. If heads, the Defending Pokémon can't attack or retreat during your opponent's next turn."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon can't attack or retreat during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut ni attaquer ni battre en retraite lors du prochain tour de votre adversaire.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon can't attack or retreat during your opponent's next turn."
 			},
 
 		},
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Pump",
-				fr: "Hydrocanon",
-				de: "Hydro Pump"
+				'en-us': "Hydro Pump",
+				'fr-fr': "Hydrocanon",
+				'de-de': "Hydro Pump"
 			},
 			effect: {
-				en: "Does 40 damage plus 10 more damage for each Water Energy attached to Kyogre but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
-				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Kyogre qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
-				de: "Does 40 damage plus 10 more damage for each @water Energy attached to Kyogre but not used pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+				'en-us': "Does 40 damage plus 10 more damage for each Water Energy attached to Kyogre but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+				'fr-fr': "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Kyogre qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
+				'de-de': "Does 40 damage plus 10 more damage for each @water Energy attached to Kyogre but not used pay for this attack's Energy cost. You can't add more than 20 damage in this way."
 			},
 			damage: "40+",
 

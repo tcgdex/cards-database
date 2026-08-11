@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Aron",
-		fr: "Galekid",
-		de: "Stollunior"
+		'en-us': "Aron",
+		'fr-fr': "Galekid",
+		'de-de': "Stollunior"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Teary Eyes",
-				fr: "Des larmes dans les yeux",
-				de: "Tränende Augen"
+				'en-us': "Teary Eyes",
+				'fr-fr': "Des larmes dans les yeux",
+				'de-de': "Tränende Augen"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Aron by attacks is reduced by 10.",
-				fr: "Pendant le prochain tour de votre adversaire, les dégâts infligés à Galekid sont réduits de 10.",
-				de: "Während des nächsten Zuges deines Gegners wird jeder Schaden, der Stollunior durch Angriffe zugefügt wird, um 10 Schadenspunkte reduziert."
+				'en-us': "During your opponent's next turn, any damage done to Aron by attacks is reduced by 10.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, les dégâts infligés à Galekid sont réduits de 10.",
+				'de-de': "Während des nächsten Zuges deines Gegners wird jeder Schaden, der Stollunior durch Angriffe zugefügt wird, um 10 Schadenspunkte reduziert."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Charge",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Charge",
+				'de-de': "Ramme"
 			},
 
 			damage: 20,

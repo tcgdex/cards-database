@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Dusclops",
-		fr: "Téraclope",
-		es: "Dusclops",
-		it: "Dusclops",
-		pt: "Dusclops",
-		de: "Zwirrklop"
+		'en-us': "Dusclops",
+		'fr-fr': "Téraclope",
+		'es-es': "Dusclops",
+		'it-it': "Dusclops",
+		'pt-br': "Dusclops",
+		'de-de': "Zwirrklop"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Duskull",
-		fr: "Skelénox",
+		'en-us': "Duskull",
+		'fr-fr': "Skelénox",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Astonish",
-				fr: "Étonnement",
+				'en-us': "Astonish",
+				'fr-fr': "Étonnement",
 			},
 			effect: {
-				en: "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck.",
-				fr: "Choisissez une carte au hasard de la main de votre adversaire. Votre adversaire montre la carte choisie et la mélange avec son deck.",
+				'en-us': "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck.",
+				'fr-fr': "Choisissez une carte au hasard de la main de votre adversaire. Votre adversaire montre la carte choisie et la mélange avec son deck.",
 			},
 
 		},
@@ -55,8 +55,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psyshot",
-				fr: "Piqûre Psy",
+				'en-us': "Psyshot",
+				'fr-fr': "Piqûre Psy",
 			},
 
 			damage: 40,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It seeks drifting will-o'-the-wisps and sucks them into its empty body. What happens inside is a mystery.",
+		'en-us': "It seeks drifting will-o'-the-wisps and sucks them into its empty body. What happens inside is a mystery.",
 	},
 
 	thirdParty: {

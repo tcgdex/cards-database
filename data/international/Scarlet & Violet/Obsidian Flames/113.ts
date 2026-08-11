@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Excavarenne",
-		en: "Diggersby",
-		es: "Diggersby",
-		it: "Diggersby",
-		pt: "Diggersby",
-		de: "Grebbit"
+		'fr-fr': "Excavarenne",
+		'en-us': "Diggersby",
+		'es-es': "Diggersby",
+		'it-it': "Diggersby",
+		'pt-br': "Diggersby",
+		'de-de': "Grebbit"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Fighting"],
 	evolveFrom: {
-		fr: "Sapereau",
-		en: "Bunnelby",
-		es: "Bunnelby",
-		it: "Bunnelby",
-		pt: "Bunnelby",
-		de: "Scoppel"
+		'fr-fr': "Sapereau",
+		'en-us': "Bunnelby",
+		'es-es': "Bunnelby",
+		'it-it': "Bunnelby",
+		'pt-br': "Bunnelby",
+		'de-de': "Scoppel"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Coud'Boue",
-			en: "Mud-Slap",
-			es: "Bofetón Lodo",
-			it: "Fangosberla",
-			pt: "Tapa de Lama",
-			de: "Lehmschelle"
+			'fr-fr': "Coud'Boue",
+			'en-us': "Mud-Slap",
+			'es-es': "Bofetón Lodo",
+			'it-it': "Fangosberla",
+			'pt-br': "Tapa de Lama",
+			'de-de': "Lehmschelle"
 		},
 
 		damage: 50
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			fr: "Marteau Frappeur",
-			en: "Knocking Hammer",
-			es: "Martillo Impacto",
-			it: "Martello Battente",
-			pt: "Martelo Detonador",
-			de: "Klopfender Hammer"
+			'fr-fr': "Marteau Frappeur",
+			'en-us': "Knocking Hammer",
+			'es-es': "Martillo Impacto",
+			'it-it': "Martello Battente",
+			'pt-br': "Martelo Detonador",
+			'de-de': "Klopfender Hammer"
 		},
 
 		effect: {
-			fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-			en: "Discard the top card of your opponent's deck.",
-			es: "Descarta la primera carta de la baraja de tu rival.",
-			it: "Scarta la prima carta del mazzo del tuo avversario.",
-			pt: "Descarte a carta de cima do baralho do seu oponente.",
-			de: "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
+			'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+			'en-us': "Discard the top card of your opponent's deck.",
+			'es-es': "Descarta la primera carta de la baraja de tu rival.",
+			'it-it': "Scarta la prima carta del mazzo del tuo avversario.",
+			'pt-br': "Descarte a carta de cima do baralho do seu oponente.",
+			'de-de': "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 120
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "The fur on its belly retains heat exceptionally well. People used to make heavy winter clothing from fur shed by this Pokémon.",
+		'en-us': "The fur on its belly retains heat exceptionally well. People used to make heavy winter clothing from fur shed by this Pokémon.",
 	},
 
 	variants: [

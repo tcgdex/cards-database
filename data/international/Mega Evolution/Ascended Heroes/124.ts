@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Haunter",
-		fr: "Spectrum",
-		es: "Haunter",
+		'en-us': "Haunter",
+		'fr-fr': "Spectrum",
+		'es-es': "Haunter",
 		'es-mx': "Haunter",
-		de: "Alpollo",
-		it: "Haunter",
-		pt: "Haunter"
+		'de-de': "Alpollo",
+		'it-it': "Haunter",
+		'pt-br': "Haunter"
 	},
 
 	evolveFrom: {
-		en: "Gastly",
-		fr: "Fantominus",
-		es: "Gastly",
+		'en-us': "Gastly",
+		'fr-fr': "Fantominus",
+		'es-es': "Gastly",
 		'es-mx': "Gastly",
-		de: "Nebulak",
-		it: "Gastly",
-		pt: "Gastly",
+		'de-de': "Nebulak",
+		'it-it': "Gastly",
+		'pt-br': "Gastly",
 	},
 
 	illustrator: "Rianti Hidayat",
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Spooky Shot",
-			fr: "Tir Effrayant",
-			es: "Disparo Embrujado",
+			'en-us': "Spooky Shot",
+			'fr-fr': "Tir Effrayant",
+			'es-es': "Disparo Embrujado",
 			'es-mx': "Disparo Espeluznante",
-			de: "Spukschuss",
-			it: "Colpomistero",
-			pt: "Tiro Assustador"
+			'de-de': "Spukschuss",
+			'it-it': "Colpomistero",
+			'pt-br': "Tiro Assustador"
 		},
 
 		damage: 40
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
+		'en-us': "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
 	},
 
 	variants: [

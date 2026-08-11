@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マタドガス",
+		'ja-jp': "マタドガス",
 	},
 
 	illustrator: "Motofumi Fujiwara",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "どちらかが ふくらむと 片方は しぼむ 双子の ドガース。いつも 体内の 毒ガスを 混ぜている。",
+		'ja-jp': "どちらかが ふくらむと 片方は しぼむ 双子の ドガース。いつも 体内の 毒ガスを 混ぜている。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ぶっとびボム" },
 			effect: {
-				ja: "自分の番に、このカードが「ホミカ」の効果でトラッシュされたとき、1回使える。相手のポケモン全員に、それぞれダメカンを1個のせる。（ダメカンをのせるのは「ホミカ」の効果のあと。）",
+				'ja-jp': "自分の番に、このカードが「ホミカ」の効果でトラッシュされたとき、1回使える。相手のポケモン全員に、それぞれダメカンを1個のせる。（ダメカンをのせるのは「ホミカ」の効果のあと。）",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "このポケモンと、ついているすべてのカードを、トラッシュする。",
+				'ja-jp': "このポケモンと、ついているすべてのカードを、トラッシュする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ドガース",
+		'ja-jp': "ドガース",
 	},
 
 	retreat: 2,

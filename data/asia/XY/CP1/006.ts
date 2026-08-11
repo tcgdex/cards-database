@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アクア団のカイオーガEX",
+		'ja-jp': "アクア団のカイオーガEX",
 	},
 
 	illustrator: "nagimiso",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "パワーセーバー" },
 			effect: {
-				ja: "おたがいの場にいる「アクア団」のポケモンの合計が4匹以下なら、このポケモンはワザが使えない。",
+				'ja-jp': "おたがいの場にいる「アクア団」のポケモンの合計が4匹以下なら、このポケモンはワザが使えない。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Water", "Water", "Water", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンのにげるために必要なエネルギーの数x20ダメージを追加。",
+				'ja-jp': "相手のバトルポケモンのにげるために必要なエネルギーの数x20ダメージを追加。",
 			},
 		},
 	],

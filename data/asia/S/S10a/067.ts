@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウォロ",
+		'ja-jp': "ウォロ",
 		'zh-tw': "望羅",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のベンチの「ポケモンV」を1匹選び、そのポケモンと、ついているすべてのカードを、トラッシュする。",
+		'ja-jp': "自分のベンチの「ポケモンV」を1匹選び、そのポケモンと、ついているすべてのカードを、トラッシュする。",
 		'zh-tw': "選擇1隻自己的備戰區的「寶可夢【V】」，將那隻寶可夢與附加的卡全部丟棄。",
 	},
 

@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Tangela",
-		fr: "Saquedeneu",
-		de: "Tangela",
-		it: "Tangela"
+		'en-us': "Tangela",
+		'fr-fr': "Saquedeneu",
+		'de-de': "Tangela",
+		'it-it': "Tangela"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -33,16 +33,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bind",
-				fr: "Étreinte",
-				de: "Klammergriff",
-				it: "Legatutto"
+				'en-us': "Bind",
+				'fr-fr': "Étreinte",
+				'de-de': "Klammergriff",
+				'it-it': "Legatutto"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
 			},
 			damage: 20,
 
@@ -54,16 +54,16 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poisonpowder",
-				fr: "Poudre Toxik",
-				de: "Giftpuder",
-				it: "Velenpolvere"
+				'en-us': "Poisonpowder",
+				'fr-fr': "Poudre Toxik",
+				'de-de': "Giftpuder",
+				'it-it': "Velenpolvere"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "das verteidigende Pokémon ist vergiftet.",
-				it: "Il Pokémon Difensore è Avvelenato."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "das verteidigende Pokémon ist vergiftet.",
+				'it-it': "Il Pokémon Difensore è Avvelenato."
 			},
 			damage: 20,
 
@@ -80,9 +80,9 @@ const card: Card = {
 
 
 	description: {
-		en: "Its whole body is swathed with wide vines that are similar to seaweed. These vines shake as it walks.",
-		fr: "Son corps est recouvert de lianes similaires à des algues. Elles bougent quand il marche.",
-		it: "Il suo corpo è avvolto interamente da larghi rampicanti simili ad alghe, che si agitano quando cammina. LIV 8 N.114"
+		'en-us': "Its whole body is swathed with wide vines that are similar to seaweed. These vines shake as it walks.",
+		'fr-fr': "Son corps est recouvert de lianes similaires à des algues. Elles bougent quand il marche.",
+		'it-it': "Il suo corpo è avvolto interamente da larghi rampicanti simili ad alghe, che si agitano quando cammina. LIV 8 N.114"
 
 	},
 

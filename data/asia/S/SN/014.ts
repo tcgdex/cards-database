@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SN"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "傷藥",
-		ja: "きずぐすり"
+		'ja-jp': "きずぐすり"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -14,7 +14,7 @@ const card: Card = {
 
 	effect: {
 		'zh-tw': "選擇自己的1隻寶可夢，恢復「30」HP。",
-		ja: "自分のポケモンを1匹選び、HPを「30」回復する。"
+		'ja-jp': "自分のポケモンを1匹選び、HPを「30」回復する。"
 	},
 
 	trainerType: "Item",

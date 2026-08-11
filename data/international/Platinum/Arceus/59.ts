@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Charmander",
-		de: "Glumanda"
+		'en-us': "Charmander",
+		'de-de': "Glumanda"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Friends",
-				de: "Freundesruf"
+				'en-us': "Call for Friends",
+				'de-de': "Freundesruf"
 			},
 			effect: {
-				en: "Search your deck for a Fire Basic Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				de: "Durchsuche dein Deck nach 1 -Basis-Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+				'en-us': "Search your deck for a Fire Basic Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'de-de': "Durchsuche dein Deck nach 1 -Basis-Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -43,8 +43,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steady Firebreathing",
-				de: "Stetiger Feuerhauch"
+				'en-us': "Steady Firebreathing",
+				'de-de': "Stetiger Feuerhauch"
 			},
 
 			damage: 20,
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely."
+		'en-us': "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely."
 	},
 
 	variants: [

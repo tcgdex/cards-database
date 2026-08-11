@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Chandelure"
+		'id-id': "Chandelure"
 	},
 
 	illustrator: "saino misaki",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Chandelure mengisap roh dan membakarnya. Ia mengayunkan api di lengannya dan membuat lawannya terhipnotis."
+		'id-id': "Chandelure mengisap roh dan membakarnya. Ia mengayunkan api di lengannya dan membuat lawannya terhipnotis."
 	},
 
 	stage: "Stage2",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Penerangan Penjerat"
+			'id-id': "Penerangan Penjerat"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri. Kedua pemain masing-masing mengambil 1 kartu dari atas Deck."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri. Kedua pemain masing-masing mengambil 1 kartu dari atas Deck."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Mind Ruler"
+			'id-id': "Mind Ruler"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan sejumlah 30 untuk tiap lembar Kartu Pegangan lawan."
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 30 untuk tiap lembar Kartu Pegangan lawan."
 		},
 
 		damage: "30×",

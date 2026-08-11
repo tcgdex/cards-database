@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウェルカモ",
+		'ja-jp': "ウェルカモ",
 	},
 
 	illustrator: "OKACHEKE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "様々な 地方の ポケモンや 人の 動きを 見て 自らの 踊りに 取り入れる 努力家。",
+		'ja-jp': "様々な 地方の ポケモンや 人の 動きを 見て 自らの 踊りに 取り入れる 努力家。",
 	},
 
 	stage: "Stage1",
@@ -39,7 +39,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "クワッス",
+		'ja-jp': "クワッス",
 	},
 
 	retreat: 1,

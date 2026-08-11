@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	name: {
-		en: "Mew V",
-		fr: "Mew V",
-		es: "Mew V",
-		it: "Mew V",
-		pt: "Mew V",
-		de: "Mew V"
+		'en-us': "Mew V",
+		'fr-fr': "Mew V",
+		'es-es': "Mew V",
+		'it-it': "Mew V",
+		'pt-br': "Mew V",
+		'de-de': "Mew V"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "X Ball",
-				fr: "X Ball",
-				es: "Bola X",
-				it: "Sfera X",
-				pt: "Bola X",
-				de: "X-Ball"
+				'en-us': "X Ball",
+				'fr-fr': "X Ball",
+				'es-es': "Bola X",
+				'it-it': "Sfera X",
+				'pt-br': "Bola X",
+				'de-de': "X-Ball"
 			},
 			effect: {
-				en: "This attack does 30 damage for each Energy attached to both Active Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts pour chaque Énergie attachée aux deux Pokémon Actifs.",
-				es: "Este ataque hace 30 puntos de daño por cada Energía unida a ambos Pokémon Activos.",
-				it: "Questo attacco infligge 30 danni per ogni Energia assegnata a ciascuno dei Pokémon attivi.",
-				pt: "Este ataque causa 30 pontos de dano para cada Energia ligada a ambos os Pokémon Ativos.",
-				de: "Diese Attacke fügt für jede an beide Aktive Pokémon angelegte Energie 30 Schadenspunkte zu."
+				'en-us': "This attack does 30 damage for each Energy attached to both Active Pokémon.",
+				'fr-fr': "Cette attaque inflige 30 dégâts pour chaque Énergie attachée aux deux Pokémon Actifs.",
+				'es-es': "Este ataque hace 30 puntos de daño por cada Energía unida a ambos Pokémon Activos.",
+				'it-it': "Questo attacco infligge 30 danni per ogni Energia assegnata a ciascuno dei Pokémon attivi.",
+				'pt-br': "Este ataque causa 30 pontos de dano para cada Energia ligada a ambos os Pokémon Ativos.",
+				'de-de': "Diese Attacke fügt für jede an beide Aktive Pokémon angelegte Energie 30 Schadenspunkte zu."
 			},
 			damage: "30×",
 

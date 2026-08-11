@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [327],
 
 	name: {
-		en: "Spinda"
+		'en-us': "Spinda"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Each Spinda's spot pattern is different. With its\nstumbling movements, it evades opponents'\nattacks brilliantly!"
+		'en-us': "Each Spinda's spot pattern is different. With its\nstumbling movements, it evades opponents'\nattacks brilliantly!"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Teetering Steps"
+			'en-us': "Teetering Steps"
 		},
 
 		damage: 40,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "This Pokémon is now Confused."
+			'en-us': "This Pokémon is now Confused."
 		}
 	}],
 

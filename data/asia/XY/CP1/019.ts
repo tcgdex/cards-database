@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグマ団のグラエナ",
+		'ja-jp': "マグマ団のグラエナ",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "主人に 忠実な ポケモンだ。 どんなに 傷ついたと しても トレーナーを 守りぬくぞ。",
+		'ja-jp': "主人に 忠実な ポケモンだ。 どんなに 傷ついたと しても トレーナーを 守りぬくぞ。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが「アクア団」のポケモンなら、40ダメージを追加。",
+				'ja-jp': "相手のバトルポケモンが「アクア団」のポケモンなら、40ダメージを追加。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マグマ団のポチエナ",
+		'ja-jp': "マグマ団のポチエナ",
 	},
 
 	retreat: 1,

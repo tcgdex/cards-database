@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Bagon",
-		fr: "Draby",
-		de: "Kindwurm"
+		'en-us': "Bagon",
+		'fr-fr': "Draby",
+		'de-de': "Kindwurm"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Paralyzing Gaze",
-				fr: "Regard paralysant",
-				de: "Paralyzing Gaze"
+				'en-us': "Paralyzing Gaze",
+				'fr-fr': "Regard paralysant",
+				'de-de': "Paralyzing Gaze"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Combustion",
-				fr: "Fournaise",
-				de: "Combustion"
+				'en-us': "Combustion",
+				'fr-fr': "Fournaise",
+				'de-de': "Combustion"
 			},
 
 			damage: 20,

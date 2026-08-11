@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mythical Island"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Salazzle",
-		fr: "Malamandre",
-		es: "Salazzle",
-		it: "Salazzle",
-		de: "Amfira",
+		'en-us': "Salazzle",
+		'fr-fr': "Malamandre",
+		'es-es': "Salazzle",
+		'it-it': "Salazzle",
+		'de-de': "Amfira",
 		'pt-br': "Salazzle",
-		ko: "염뉴트"
+		'ko-kr': "염뉴트"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,43 +22,43 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Salandit"
+		'en-us': "Salandit"
 	},
 
 	description: {
-		en: "Salazzle makes its opponents light-headed with poisonous gas, then captivates them with alluring movements to turn them into loyal servants.",
-		fr: "Il étourdit ses adversaires avec son gaz toxique,\npuis il les asservit en exécutant une danse envoûtante.",
-		es: "Convierte a sus rivales en devotos súbditos\ntras marearlos con su gas venenoso y seducirlos\ncon los cautivadores movimientos de su cuerpo.",
-		it: "Trasforma gli avversari in seguaci stordendoli con del\ngas tossico per poi sedurli con movenze ammalianti.",
-		de: "Zuerst benebelt es Gegner mit Giftgas, um sie\ndanach mit fesselnden Körperbewegungen zu\nbetören und zu ergebenen Dienern zu machen.",
+		'en-us': "Salazzle makes its opponents light-headed with poisonous gas, then captivates them with alluring movements to turn them into loyal servants.",
+		'fr-fr': "Il étourdit ses adversaires avec son gaz toxique,\npuis il les asservit en exécutant une danse envoûtante.",
+		'es-es': "Convierte a sus rivales en devotos súbditos\ntras marearlos con su gas venenoso y seducirlos\ncon los cautivadores movimientos de su cuerpo.",
+		'it-it': "Trasforma gli avversari in seguaci stordendoli con del\ngas tossico per poi sedurli con movenze ammalianti.",
+		'de-de': "Zuerst benebelt es Gegner mit Giftgas, um sie\ndanach mit fesselnden Körperbewegungen zu\nbetören und zu ergebenen Dienern zu machen.",
 		'pt-br': "Salazzle deixa os oponentes zonzos com seu\ngás venenoso, depois os cativa com movimentos\nfascinantes para transformá-los em servos leais.",
-		ko: "독가스에 어질어질해진 상대를\n요염한 몸놀림으로 유혹해서\n충실한 부하로 만들어 버린다."
+		'ko-kr': "독가스에 어질어질해진 상대를\n요염한 몸놀림으로 유혹해서\n충실한 부하로 만들어 버린다."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Poison Claws",
-			fr: "Griffes Empoisonnées",
-			es: "Garras Venenosas",
-			it: "Velenartigli",
-			de: "Giftkrallen",
+			'en-us': "Poison Claws",
+			'fr-fr': "Griffes Empoisonnées",
+			'es-es': "Garras Venenosas",
+			'it-it': "Velenartigli",
+			'de-de': "Giftkrallen",
 			'pt-br': "Garras Venenosas",
-			ko: "독발톱"
+			'ko-kr': "독발톱"
 		},
 
 		damage: 30,
 		cost: ["Fire"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
 			
-			ko: "상대의 배틀 포켓몬을 독으로 만든다.",
+			'ko-kr': "상대의 배틀 포켓몬을 독으로 만든다.",
 			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado."
 		}
 	}],

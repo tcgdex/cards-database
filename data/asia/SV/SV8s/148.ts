@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Rufflet",
-		th: "วาชิบอน"
+		'id-id': "Rufflet",
+		'th-th': "วาชิบอน"
 	},
 
 	illustrator: "Nakamura Ippan",
@@ -15,16 +15,16 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Rufflet mencengkeram mangsanya dengan cakar tajamnya dan mematuk mereka. Pokémon ini juga memakan buah beri, namun pada dasarnya ia adalah karnivor.",
-		th: "ใช้กรงเล็บคมแทงแล้วจิกเหยื่อ โดยพื้นฐานแล้วเป็นโปเกมอนกินเนื้อ แต่ผลไม้ก็ทาน"
+		'id-id': "Rufflet mencengkeram mangsanya dengan cakar tajamnya dan mematuk mereka. Pokémon ini juga memakan buah beri, namun pada dasarnya ia adalah karnivor.",
+		'th-th': "ใช้กรงเล็บคมแทงแล้วจิกเหยื่อ โดยพื้นฐานแล้วเป็นโปเกมอนกินเนื้อ แต่ผลไม้ก็ทาน"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Mengepak",
-			th: "ตีปีก"
+			'id-id': "Mengepak",
+			'th-th': "ตีปีก"
 		},
 
 		damage: 30,

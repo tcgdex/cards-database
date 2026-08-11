@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Electabuzz",
-		fr: "Élektek",
-		de: "Elektek",
-		it: "Electabuzz",
-		es: "Electabuzz",
-		pt: "Electabuzz",
+		'en-us': "Electabuzz",
+		'fr-fr': "Élektek",
+		'de-de': "Elektek",
+		'it-it': "Electabuzz",
+		'es-es': "Electabuzz",
+		'pt-br': "Electabuzz",
 		'es-mx': "Electabuzz"
 	},
 
@@ -28,12 +28,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Electroslug",
-			fr: "Électro Frappe",
-			de: "Elektroschuss",
-			it: "Elettropugno",
-			es: "Electropuñetazo",
-			pt: "Soco Elétrico",
+			'en-us': "Electroslug",
+			'fr-fr': "Électro Frappe",
+			'de-de': "Elektroschuss",
+			'it-it': "Elettropugno",
+			'es-es': "Electropuñetazo",
+			'pt-br': "Soco Elétrico",
 			'es-mx': "Electropuñetazo"
 		},
 

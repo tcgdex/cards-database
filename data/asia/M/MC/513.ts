@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クレッフィ",
+		'ja-jp': "クレッフィ",
 	},
 
 	illustrator: "mingo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "昔の 貴族は 金庫の カギを 管理させる クレッフィを 代々 引き継ぎ 大切に 扱った。",
+		'ja-jp': "昔の 貴族は 金庫の カギを 管理させる クレッフィを 代々 引き継ぎ 大切に 扱った。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "さしこみドロー" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の手札を1枚トラッシュする。その後、自分の山札を2枚引く。",
+				'ja-jp': "自分の手札を1枚トラッシュする。その後、自分の山札を2枚引く。",
 			},
 		},
 		{

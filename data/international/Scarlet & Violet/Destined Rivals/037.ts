@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Team Rocket's Houndour",
-		fr: "Malosse de la Team Rocket",
-		de: "Team Rockets Hunduster",
-		it: "Houndour del Team Rocket",
-		es: "Houndour del Team Rocket",
-		pt: "Houndour da Equipe Rocket",
+		'en-us': "Team Rocket's Houndour",
+		'fr-fr': "Malosse de la Team Rocket",
+		'de-de': "Team Rockets Hunduster",
+		'it-it': "Houndour del Team Rocket",
+		'es-es': "Houndour del Team Rocket",
+		'pt-br': "Houndour da Equipe Rocket",
 		'es-mx': "Houndour del Equipo Rocket"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Steady Firebreathing",
-			fr: "Crachage de Feu Régulier",
-			de: "Stetiger Feuerhauch",
-			it: "Soffiofuoco Mirato",
-			es: "Lanzallamas Continuo",
-			pt: "Hálito de Fogo Constante",
+			'en-us': "Steady Firebreathing",
+			'fr-fr': "Crachage de Feu Régulier",
+			'de-de': "Stetiger Feuerhauch",
+			'it-it': "Soffiofuoco Mirato",
+			'es-es': "Lanzallamas Continuo",
+			'pt-br': "Hálito de Fogo Constante",
 			'es-mx': "Escupefuego"
 		},
 

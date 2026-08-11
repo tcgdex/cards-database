@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Buneary",
-		fr: "Laporeille",
-		es: "Buneary",
-		it: "Buneary",
-		pt: "Buneary",
-		de: "Haspiror"
+		'en-us': "Buneary",
+		'fr-fr': "Laporeille",
+		'es-es': "Buneary",
+		'it-it': "Buneary",
+		'pt-br': "Buneary",
+		'de-de': "Haspiror"
 	},
 
 	illustrator: "MAHOU",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'Face",
+				'en-us': "Pound",
+				'fr-fr': "Écras'Face",
 			},
 
 			damage: 10,
@@ -47,8 +47,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Kick",
-				fr: "Coud'Pattes",
+				'en-us': "Smash Kick",
+				'fr-fr': "Coud'Pattes",
 			},
 
 			damage: 20,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "By extending its rolled up ears and striking the ground, it can bound so high it surprises itself.",
+		'en-us': "By extending its rolled up ears and striking the ground, it can bound so high it surprises itself.",
 	},
 
 	thirdParty: {

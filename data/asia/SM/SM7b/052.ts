@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シンボラーGX",
+		'ja-jp': "シンボラーGX",
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ミラーカウンター" },
 			effect: {
-				ja: "このポケモンが、バトル場で相手の「ポケモンGX・EX」からワザのダメージを受けたとき、受けたダメージぶんのダメカンを、ワザを使ったポケモンにのせる。",
+				'ja-jp': "このポケモンが、バトル場で相手の「ポケモンGX・EX」からワザのダメージを受けたとき、受けたダメージぶんのダメカンを、ワザを使ったポケモンにのせる。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。",
 			},
 		},
 		{
@@ -38,7 +38,7 @@ const card: Card = {
 			damage: "60×",
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数x60ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数x60ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

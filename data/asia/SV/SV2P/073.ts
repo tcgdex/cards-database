@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "マリル"
+		'ja-jp': "マリル"
 	},
 
 	illustrator: "Atsuya Uki",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "全身の 体毛は 水を 弾く 性質を 持ち 水浴び しても 乾いている。"
+		'ja-jp': "全身の 体毛は 水を 弾く 性質を 持ち 水浴び しても 乾いている。"
 	},
 
 	stage: "Basic",
@@ -24,13 +24,13 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			ja: "バブルドレイン"
+			'ja-jp': "バブルドレイン"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "このポケモンのHPを「20」回復する。"
+			'ja-jp': "このポケモンのHPを「20」回復する。"
 		}
 	}],
 

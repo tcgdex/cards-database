@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Tympole",
-		fr: "Tritonde",
-		es: "Tympole",
-		it: "Tympole",
-		pt: "Tympole",
-		de: "Schallquap"
+		'en-us': "Tympole",
+		'fr-fr': "Tritonde",
+		'es-es': "Tympole",
+		'it-it': "Tympole",
+		'pt-br': "Tympole",
+		'de-de': "Schallquap"
 	},
 
 	rarity: "Common",
@@ -23,12 +23,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Mud-Slap",
-			fr: "Coud'Boue",
-			es: "Bofetón Lodo",
-			it: "Fangosberla",
-			pt: "Mud-Slap",
-			de: "Lehmschelle"
+			'en-us': "Mud-Slap",
+			'fr-fr': "Coud'Boue",
+			'es-es': "Bofetón Lodo",
+			'it-it': "Fangosberla",
+			'pt-br': "Mud-Slap",
+			'de-de': "Lehmschelle"
 		},
 
 		damage: 10,
@@ -43,7 +43,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It uses sound waves to communicate with others of its kind. People and other Pokémon species can't hear its cries of warning."
+		'en-us': "It uses sound waves to communicate with others of its kind. People and other Pokémon species can't hear its cries of warning."
 	},
 
 	dexId: [535],

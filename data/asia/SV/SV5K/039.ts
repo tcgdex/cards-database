@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タンドン",
+		'ja-jp': "タンドン",
 	},
 
 	illustrator: "Aya Kusube",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "晴れた 日は 草原に 出てきて 走りまわり 車輪のような 脚に 巻きこんだ 草を 食べる。",
+		'ja-jp': "晴れた 日は 草原に 出てきて 走りまわり 車輪のような 脚に 巻きこんだ 草を 食べる。",
 	},
 
 	stage: "Basic",

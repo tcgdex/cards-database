@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グレンアルマex",
+		'ja-jp': "グレンアルマex",
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[R]エネルギーを1個選び、トラッシュする。",
+				'ja-jp': "このポケモンについている[R]エネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],
@@ -38,7 +38,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カルボウ",
+		'ja-jp': "カルボウ",
 	},
 
 	retreat: 2,

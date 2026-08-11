@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY trainer Kit (Pikachu Libre)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu Libre",
-		fr: "Pikachu Catcheur",
-		es: "Pikachu Enmascarada",
-		it: "Pikachu wrestler",
-		pt: "Pikachu Mascarada",
-		de: "Wrestler-Pikachu"
+		'en-us': "Pikachu Libre",
+		'fr-fr': "Pikachu Catcheur",
+		'es-es': "Pikachu Enmascarada",
+		'it-it': "Pikachu wrestler",
+		'pt-br': "Pikachu Mascarada",
+		'de-de': "Wrestler-Pikachu"
 	},
 
 	rarity: "None",
@@ -23,25 +23,25 @@ const card: Card = {
 	illustrator: "Yoshinobu Saito",
 
 	description: {
-		en: "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs."
+		'en-us': "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs."
 	},
 
 	attacks: [{
 		name: {
-			en: "Quick Attack",
-			fr: "Vive-Attaque"
+			'en-us': "Quick Attack",
+			'fr-fr': "Vive-Attaque"
 		},
 
 		damage: "10+",
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires."
+			'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires."
 		}
 	}, {
 		name: {
-			en: "Flying Elekick",
-			fr: "Coup Élec' Volant"
+			'en-us': "Flying Elekick",
+			'fr-fr': "Coup Élec' Volant"
 		},
 
 		damage: 50

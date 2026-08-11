@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,
@@ -44,9 +44,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pika Bolt",
-				fr: "Pik'éclair",
-				de: "Pikaschuss"
+				'en-us': "Pika Bolt",
+				'fr-fr': "Pik'éclair",
+				'de-de': "Pikaschuss"
 			},
 
 			damage: 40,

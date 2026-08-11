@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピロスワイン",
+		'ja-jp': "ピロスワイン",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "寒い",
+				'ja-jp': "寒い",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御する各ポケモンは、相手の次のターン中に攻撃することはできません。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御する各ポケモンは、相手の次のターン中に攻撃することはできません。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Fighting", "Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "トン数",
+				'ja-jp': "トン数",
 			},
 			effect: {
-				ja: "60ダメージに加えて、さらに40ダメージを与えることができます。もしそうなら、Piloswineはそれ自体に30のダメージを与えます。",
+				'ja-jp': "60ダメージに加えて、さらに40ダメージを与えることができます。もしそうなら、Piloswineはそれ自体に30のダメージを与えます。",
 			},
 		},
 	],

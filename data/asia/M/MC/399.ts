@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤンチャム",
+		'ja-jp': "ヤンチャム",
 	},
 
 	illustrator: "Yuriko Akase",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "なめられないように いつも 相手を 睨みつけているが 気が 緩むと つい 笑い顔に なってしまう。",
+		'ja-jp': "なめられないように いつも 相手を 睨みつけているが 気が 緩むと つい 笑い顔に なってしまう。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
 			},
 		},
 	],

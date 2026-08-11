@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Celebi",
-		de: "Celebi"
+		'en-us': "Celebi",
+		'de-de': "Celebi"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -26,12 +26,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Crystal Type",
-				de: "Kristall-Typ"
+				'en-us': "Crystal Type",
+				'de-de': "Kristall-Typ"
 			},
 			effect: {
-				en: "Whenever you attach a Grass, Water, or Psychic basic Energy card from your hand to Celebi, Celebi's type (color) becomes the same as that type of Energy until the end of the turn.",
-				de: "Immer wenn du eine -, - oder -Basis-Energiekarte aus deiner Hand an Celebi anlegst, ändert sich Celebis Typ (Farbe) bis zum Ende des Zuges zu dem gleichen Typ wie diese Energie."
+				'en-us': "Whenever you attach a Grass, Water, or Psychic basic Energy card from your hand to Celebi, Celebi's type (color) becomes the same as that type of Energy until the end of the turn.",
+				'de-de': "Immer wenn du eine -, - oder -Basis-Energiekarte aus deiner Hand an Celebi anlegst, ändert sich Celebis Typ (Farbe) bis zum Ende des Zuges zu dem gleichen Typ wie diese Energie."
 			},
 		},
 	],
@@ -43,12 +43,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Empathic Healing",
-				de: "Empathische Heilung"
+				'en-us': "Empathic Healing",
+				'de-de': "Empathische Heilung"
 			},
 			effect: {
-				en: "Remove 2 damage counters from Celebi and each Pokémon that's the same type (color) as Celebi.",
-				de: "Entferne 2 Schadensmarken von Celebi und allen Pokémon, die den gleichen Typ (die gleiche Farbe) wie Celebi haben."
+				'en-us': "Remove 2 damage counters from Celebi and each Pokémon that's the same type (color) as Celebi.",
+				'de-de': "Entferne 2 Schadensmarken von Celebi und allen Pokémon, die den gleichen Typ (die gleiche Farbe) wie Celebi haben."
 			},
 
 		},
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mind Bend",
-				de: "Schädelbrummen"
+				'en-us': "Mind Bend",
+				'de-de': "Schädelbrummen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 

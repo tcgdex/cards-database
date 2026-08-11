@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Sharpedo ex",
-		fr: "Sharpedo ex",
-		de: "Tohaido ex"
+		'en-us': "Sharpedo ex",
+		'fr-fr': "Sharpedo ex",
+		'de-de': "Tohaido ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Carvanha",
-		fr: "Carvanha"
+		'en-us': "Carvanha",
+		'fr-fr': "Carvanha"
 	},
 
 	suffix: "ex",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drag Off",
-				fr: "Traîne",
-				de: "Drag Off"
+				'en-us': "Drag Off",
+				'fr-fr': "Traîne",
+				'de-de': "Drag Off"
 			},
 			effect: {
-				en: "Before doing damage, you may switch 1 of your opponent's Benched Pokémon with the Defending Pokémon. If you do, this attack does 20 damage to the new Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.",
-				fr: "Avant d'infliger des dégâts, vous pouvez échanger 1 des Pokémon de Banc de votre adversaire avec le Pokémon Défenseur. Cette attaque inflige alors 20 dégâts au nouveau Pokémon Défenseur. Votre adversaire choisit le Pokémon Défenseur à échanger.",
-				de: "Before doing damage, you may switch 1 of your opponent's Benched Pokémon with the Defending Pokémon. If you do, this attack does 20 damage to the new Defending Pokémon. Your opponent chooses the Defending Pokémon to switch."
+				'en-us': "Before doing damage, you may switch 1 of your opponent's Benched Pokémon with the Defending Pokémon. If you do, this attack does 20 damage to the new Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.",
+				'fr-fr': "Avant d'infliger des dégâts, vous pouvez échanger 1 des Pokémon de Banc de votre adversaire avec le Pokémon Défenseur. Cette attaque inflige alors 20 dégâts au nouveau Pokémon Défenseur. Votre adversaire choisit le Pokémon Défenseur à échanger.",
+				'de-de': "Before doing damage, you may switch 1 of your opponent's Benched Pokémon with the Defending Pokémon. If you do, this attack does 20 damage to the new Defending Pokémon. Your opponent chooses the Defending Pokémon to switch."
 			},
 			damage: 20,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Darkness Blast",
-				fr: "Explosion d'obscurité",
-				de: "Darkness Blast"
+				'en-us': "Darkness Blast",
+				'fr-fr': "Explosion d'obscurité",
+				'de-de': "Darkness Blast"
 			},
 			effect: {
-				en: "You may discard a Darkness Energy attached to Sharpedo ex. If you do, this attack does 60 damage plus 20 more damage and discard 1 Energy card attached to the Defending Pokémon.",
-				fr: "Vous pouvez défausser une Énergie  attachée à Sharpedo ex. Cette attaque inflige alors 60 dégâts plus 20 dégâts supplémentaires. Défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "You may discard a  Energy attached to Sharpedo ex. If you do, this attack does 60 damage plus 20 more damage and discard 1 Energy card attached to the Defending Pokémon."
+				'en-us': "You may discard a Darkness Energy attached to Sharpedo ex. If you do, this attack does 60 damage plus 20 more damage and discard 1 Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Vous pouvez défausser une Énergie  attachée à Sharpedo ex. Cette attaque inflige alors 60 dégâts plus 20 dégâts supplémentaires. Défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "You may discard a  Energy attached to Sharpedo ex. If you do, this attack does 60 damage plus 20 more damage and discard 1 Energy card attached to the Defending Pokémon."
 			},
 			damage: "60+",
 

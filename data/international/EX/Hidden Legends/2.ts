@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Claydol",
-		fr: "Kaorine",
-		de: "Lepumentas"
+		'en-us': "Claydol",
+		'fr-fr': "Kaorine",
+		'de-de': "Lepumentas"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Baltoy",
-		fr: "Balbuto"
+		'en-us': "Baltoy",
+		'fr-fr': "Balbuto"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Primal Pull",
-				fr: "Attraction primaire",
-				de: "Primal Pull"
+				'en-us': "Primal Pull",
+				'fr-fr': "Attraction primaire",
+				'de-de': "Primal Pull"
 			},
 			effect: {
-				en: "As long as Claydol is your Active Pokémon, each player's Evolved Pokémon pays Colorless more Energy to use its attacks.",
-				fr: "Tant que Kaorine est votre Pokémon Actif, le Pokémon Évolué de chaque joueur paye 1 Énergie  supplémentaire pour utiliser ses attaques.",
-				de: "As long as Claydol is your Active Pokémon, each player's Evolved Pokémon pays  more Energy to use its attacks."
+				'en-us': "As long as Claydol is your Active Pokémon, each player's Evolved Pokémon pays Colorless more Energy to use its attacks.",
+				'fr-fr': "Tant que Kaorine est votre Pokémon Actif, le Pokémon Évolué de chaque joueur paye 1 Énergie  supplémentaire pour utiliser ses attaques.",
+				'de-de': "As long as Claydol is your Active Pokémon, each player's Evolved Pokémon pays  more Energy to use its attacks."
 			}
 		},
 	],
@@ -50,14 +50,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Muddy Eye",
-				fr: "Oeil boueux",
-				de: "Muddy Eye"
+				'en-us': "Muddy Eye",
+				'fr-fr': "Oeil boueux",
+				'de-de': "Muddy Eye"
 			},
 			effect: {
-				en: "Does 10 damage times the number of basic Energy cards attached to Claydol and the Defending Pokémon.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de cartes Énergie de base attachées à Kaorine et au Pokémon Défenseur.",
-				de: "Does 10 damage times the number of basic Energy cards attached to Claydol and the Defending Pokémon."
+				'en-us': "Does 10 damage times the number of basic Energy cards attached to Claydol and the Defending Pokémon.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de cartes Énergie de base attachées à Kaorine et au Pokémon Défenseur.",
+				'de-de': "Does 10 damage times the number of basic Energy cards attached to Claydol and the Defending Pokémon."
 			},
 			damage: "10×",
 

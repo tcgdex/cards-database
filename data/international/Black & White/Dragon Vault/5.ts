@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Vault'
 
 const card: Card = {
 	name: {
-		en: "Dragonite",
-		fr: "Dracolosse",
+		'en-us': "Dragonite",
+		'fr-fr': "Dracolosse",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dragonair",
-		fr: "Draco",
+		'en-us': "Dragonair",
+		'fr-fr': "Draco",
 	},
 
 	stage: "Stage2",
@@ -37,12 +37,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Beam",
-				fr: "Ultralaser",
+				'en-us': "Hyper Beam",
+				'fr-fr': "Ultralaser",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 50,
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hurricane Tail",
-				fr: "Bourrasqueue",
+				'en-us': "Hurricane Tail",
+				'fr-fr': "Bourrasqueue",
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 60 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 4 coins. This attack does 60 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 60,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It is said to make its home somewhere in the sea. It guides crews of shipwrecks to shore.",
+		'en-us': "It is said to make its home somewhere in the sea. It guides crews of shipwrecks to shore.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キュウコン",
+		'ja-jp': "キュウコン",
 	},
 
 	illustrator: "You Iribi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "しつこく 執念深い 性質。 １度 恨むと 子孫を 含め １０００年間 祟り続ける。",
+		'ja-jp': "しつこく 執念深い 性質。 １度 恨むと 子孫を 含め １０００年間 祟り続ける。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "きゅうびのいざない" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札にある[炎]エネルギーを、2枚トラッシュする。その後、相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+				'ja-jp': "自分の番に1回使える。自分の手札にある[炎]エネルギーを、2枚トラッシュする。その後、相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ロコン",
+		'ja-jp': "ロコン",
 	},
 
 	retreat: 1,

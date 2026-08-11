@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Fletchinder",
-		fr: "Braisillon",
-		es: "Fletchinder",
-		it: "Fletchinder",
-		pt: "Fletchinder",
-		de: "Dartignis"
+		'en-us': "Fletchinder",
+		'fr-fr': "Braisillon",
+		'es-es': "Fletchinder",
+		'it-it': "Fletchinder",
+		'pt-br': "Fletchinder",
+		'de-de': "Dartignis"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Fletchling",
-		fr: "Passerouge",
-		es: "Fletchling",
-		it: "Fletchling",
-		pt: "Fletchling",
-		de: "Dartiri"
+		'en-us': "Fletchling",
+		'fr-fr': "Passerouge",
+		'es-es': "Fletchling",
+		'it-it': "Fletchling",
+		'pt-br': "Fletchling",
+		'de-de': "Dartiri"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck Off",
-				fr: "Picpic Piqueur",
-				es: "Picotear",
-				it: "Sbeccata",
-				pt: "Arrancar com Bico",
-				de: "Lospicken"
+				'en-us': "Peck Off",
+				'fr-fr': "Picpic Piqueur",
+				'es-es': "Picotear",
+				'it-it': "Sbeccata",
+				'pt-br': "Arrancar com Bico",
+				'de-de': "Lospicken"
 			},
 			effect: {
-				en: "Before doing damage, discard all Pokémon Tool cards attached to your opponent's Active Pokémon.",
-				fr: "Avant d'infliger des dégâts, défaussez toutes les cartes Outil Pokémon attachées au Pokémon Actif de votre adversaire.",
-				es: "Antes de infligir daño, descarta todas las cartas de Herramienta Pokémon unidas al Pokémon Activo de tu rival.",
-				it: "Prima di infliggere il danno, scarta tutte le carte Oggetto Pokémon assegnate al Pokémon attivo del tuo avversario.",
-				pt: "Antes de causar danos, descarte todos os cards de Ferramenta Pokémon ligados ao Pokémon Ativo do seu oponente.",
-				de: "Lege, bevor du Schaden zufügst, alle an das Aktive Pokémon deines Gegners angelegten Pokémon-Ausrüstungen auf den Ablagestapel deines Gegners."
+				'en-us': "Before doing damage, discard all Pokémon Tool cards attached to your opponent's Active Pokémon.",
+				'fr-fr': "Avant d'infliger des dégâts, défaussez toutes les cartes Outil Pokémon attachées au Pokémon Actif de votre adversaire.",
+				'es-es': "Antes de infligir daño, descarta todas las cartas de Herramienta Pokémon unidas al Pokémon Activo de tu rival.",
+				'it-it': "Prima di infliggere il danno, scarta tutte le carte Oggetto Pokémon assegnate al Pokémon attivo del tuo avversario.",
+				'pt-br': "Antes de causar danos, descarte todos os cards de Ferramenta Pokémon ligados ao Pokémon Ativo do seu oponente.",
+				'de-de': "Lege, bevor du Schaden zufügst, alle an das Aktive Pokémon deines Gegners angelegten Pokémon-Ausrüstungen auf den Ablagestapel deines Gegners."
 			},
 			damage: 10,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "The hotter the flame sac on its belly, the faster it can fly, but it takes some time to get the fire going.",
+		'en-us': "The hotter the flame sac on its belly, the faster it can fly, but it takes some time to get the fire going.",
 	},
 
 	thirdParty: {

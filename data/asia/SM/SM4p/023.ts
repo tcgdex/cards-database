@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラキュウコン",
+		'ja-jp': "アローラキュウコン",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "体毛から 氷の粒を 生み 敵に 浴びせかける。 怒らせると 一瞬で 氷漬けに される。",
+		'ja-jp': "体毛から 氷の粒を 生み 敵に 浴びせかける。 怒らせると 一瞬で 氷漬けに される。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ひかりのけっかい" },
 			effect: {
-				ja: "このポケモンは、相手の「ポケモンGX・EX」からワザのダメージや効果を受けない。",
+				'ja-jp': "このポケモンは、相手の「ポケモンGX・EX」からワザのダメージや効果を受けない。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アローラロコン",
+		'ja-jp': "アローラロコン",
 	},
 
 	retreat: 1,

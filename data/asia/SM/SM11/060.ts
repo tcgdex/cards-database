@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ズルズキン",
+		'ja-jp': "ズルズキン",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "粗暴だが 自分の 家族や 群れの仲間や 縄張りを とっても 大切にしている ポケモンなのだ。",
+		'ja-jp': "粗暴だが 自分の 家族や 群れの仲間や 縄張りを とっても 大切にしている ポケモンなのだ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分のサイドの枚数×20ダメージ追加。",
+				'ja-jp': "自分のサイドの枚数×20ダメージ追加。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ズルッグ",
+		'ja-jp': "ズルッグ",
 	},
 
 	retreat: 2,

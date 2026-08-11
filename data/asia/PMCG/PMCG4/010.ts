@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラフレシア",
+		'ja-jp': "ラフレシア",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "花粉症",
+				'ja-jp': "花粉症",
 			},
 			effect: {
-				ja: "トレーナーカードを再生できません。このパワーは、暗いvileplumeが眠っている、混乱し、麻痺している間に機能しなくなります。",
+				'ja-jp': "トレーナーカードを再生できません。このパワーは、暗いvileplumeが眠っている、混乱し、麻痺している間に機能しなくなります。",
 			},
 		}],
 
@@ -30,10 +30,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Grass", "Grass"],
 			name: {
-				ja: "花びらの旋風",
+				'ja-jp': "花びらの旋風",
 			},
 			effect: {
-				ja: "3コインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。 2つ以上の頭を手に入れると、ダークビレプルームが混乱しています（ダメージを受けた後）。",
+				'ja-jp': "3コインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。 2つ以上の頭を手に入れると、ダークビレプルームが混乱しています（ダメージを受けた後）。",
 			},
 		},
 	],

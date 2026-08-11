@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Xatu",
-		fr: "Xatu",
-		de: "Xatu"
+		'en-us': "Xatu",
+		'fr-fr': "Xatu",
+		'de-de': "Xatu"
 	},
 
 	illustrator: "sui",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Natu",
-		fr: "Natu"
+		'en-us': "Natu",
+		'fr-fr': "Natu"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psywave",
-				fr: "Vague psy",
-				de: "Psywelle"
+				'en-us': "Psywave",
+				'fr-fr': "Vague psy",
+				'de-de': "Psywelle"
 			},
 			effect: {
-				en: "Does 20 damage times the amount of Energy attached to the Defending Pokémon.",
-				fr: "Inflige 20 dégâts multipliés par le nombre de cartes Énergie attachées au Pokémon Défenseur.",
-				de: "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an das Verteidigende Pokémon angelegten Energien zu."
+				'en-us': "Does 20 damage times the amount of Energy attached to the Defending Pokémon.",
+				'fr-fr': "Inflige 20 dégâts multipliés par le nombre de cartes Énergie attachées au Pokémon Défenseur.",
+				'de-de': "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an das Verteidigende Pokémon angelegten Energien zu."
 			},
 			damage: "20×",
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde folie",
-				de: "Konfustrahl"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde folie",
+				'de-de': "Konfustrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 50,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "In South America, it is said that its right eye sees the future and its left eye views the past."
+		'en-us': "In South America, it is said that its right eye sees the future and its left eye views the past."
 	},
 
 	variants: [

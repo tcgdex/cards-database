@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pitch Black"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Nickit",
-		fr: "Goupilou",
-		es: "Nickit",
+		'en-us': "Nickit",
+		'fr-fr': "Goupilou",
+		'es-es': "Nickit",
 		'es-mx': "Nickit",
-		de: "Kleptifux",
-		it: "Nickit",
-		pt: "Nickit"
+		'de-de': "Kleptifux",
+		'it-it': "Nickit",
+		'pt-br': "Nickit"
 	},
 
 	illustrator: "Krgc",
@@ -24,13 +24,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Gnaw",
-			fr: "Ronge",
-			es: "Roer",
+			'en-us': "Gnaw",
+			'fr-fr': "Ronge",
+			'es-es': "Roer",
 			'es-mx': "Mordisquear",
-			de: "Nagen",
-			it: "Rosicchiamento",
-			pt: "Roída"
+			'de-de': "Nagen",
+			'it-it': "Rosicchiamento",
+			'pt-br': "Roída"
 		},
 
 		cost: ["Darkness"],
@@ -38,13 +38,13 @@ const card: Card = {
 		damage: 10
 	}, {
 		name: {
-			en: "Rear Kick",
-			fr: "Ruade",
-			es: "Patada Trasera",
+			'en-us': "Rear Kick",
+			'fr-fr': "Ruade",
+			'es-es': "Patada Trasera",
 			'es-mx': "Patada Trasera",
-			de: "Rückwärtskick",
-			it: "Retrocalcio",
-			pt: "Chute Traseiro"
+			'de-de': "Rückwärtskick",
+			'it-it': "Retrocalcio",
+			'pt-br': "Chute Traseiro"
 		},
 
 		cost: ["Darkness", "Colorless"],

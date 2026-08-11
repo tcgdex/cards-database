@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Pawniard",
-		fr: "Scalpion",
-		es: "Pawniard",
-		it: "Pawniard",
-		pt: "Pawniard",
-		de: "Gladiantri"
+		'en-us': "Pawniard",
+		'fr-fr': "Scalpion",
+		'es-es': "Pawniard",
+		'it-it': "Pawniard",
+		'pt-br': "Pawniard",
+		'de-de': "Gladiantri"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bag Slash",
-				fr: "Sac Lacéré",
-				es: "Tajo Bolsa",
-				it: "Laceraborsa",
-				pt: "Rasga-bolsa",
-				de: "Beutelschlitzer"
+				'en-us': "Bag Slash",
+				'fr-fr': "Sac Lacéré",
+				'es-es': "Tajo Bolsa",
+				'it-it': "Laceraborsa",
+				'pt-br': "Rasga-bolsa",
+				'de-de': "Beutelschlitzer"
 			},
 			effect: {
-				en: "Your opponent reveals their hand. Discard an Item card you find there.",
-				fr: "Votre adversaire dévoile sa main. Défaussez une carte Objet que vous y trouvez.",
-				es: "Tu rival enseña las cartas de su mano. Descarta 1 carta de Objeto que encuentres entre ellas.",
-				it: "Il tuo avversario mostra le carte che ha in mano. Scarta una carta Strumento presente tra esse.",
-				pt: "Seu oponente revela a própria mão. Descarte 1 carta de Item que encontrar lá.",
-				de: "Dein Gegner zeigt dir seine Handkarten. Lege 1 Itemkarte, die du dort findest, auf seinen Ablagestapel."
+				'en-us': "Your opponent reveals their hand. Discard an Item card you find there.",
+				'fr-fr': "Votre adversaire dévoile sa main. Défaussez une carte Objet que vous y trouvez.",
+				'es-es': "Tu rival enseña las cartas de su mano. Descarta 1 carta de Objeto que encuentres entre ellas.",
+				'it-it': "Il tuo avversario mostra le carte che ha in mano. Scarta una carta Strumento presente tra esse.",
+				'pt-br': "Seu oponente revela a própria mão. Descarte 1 carta de Item que encontrar lá.",
+				'de-de': "Dein Gegner zeigt dir seine Handkarten. Lege 1 Itemkarte, die du dort findest, auf seinen Ablagestapel."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sting",
-				fr: "Dard",
-				es: "Aguijonazo",
-				it: "Puntura",
-				pt: "Ferroada",
-				de: "Einstich"
+				'en-us': "Sting",
+				'fr-fr': "Dard",
+				'es-es': "Aguijonazo",
+				'it-it': "Puntura",
+				'pt-br': "Ferroada",
+				'de-de': "Einstich"
 			},
 
 			damage: 20,
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "After shredding its prey, it sharpens its blades on a stone by the river. Each Pawniard has its own favorite sharpening stone.",
+		'en-us': "After shredding its prey, it sharpens its blades on a stone by the river. Each Pawniard has its own favorite sharpening stone.",
 	},
 
 	thirdParty: {

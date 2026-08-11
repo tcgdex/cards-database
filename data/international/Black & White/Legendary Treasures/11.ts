@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Swadloon",
+		'en-us': "Swadloon",
 	},
 
 	illustrator: "sui",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sewaddle",
+		'en-us': "Sewaddle",
 	},
 
 	stage: "Stage1",
@@ -33,7 +33,7 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Tackle",
+				'en-us': "Tackle",
 			},
 
 			damage: 20,
@@ -45,10 +45,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "String Shot",
+				'en-us': "String Shot",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 20,
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Forests where Swadloon live have superb foliage because the nutrients they make from fallen leaves nourish the plant life.",
+		'en-us': "Forests where Swadloon live have superb foliage because the nutrients they make from fallen leaves nourish the plant life.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Pansage",
-		fr: "Feuillajou",
+		'en-us': "Pansage",
+		'fr-fr': "Feuillajou",
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Common",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bullet Seed",
-				fr: "Balle Graine",
+				'en-us': "Bullet Seed",
+				'fr-fr': "Balle Graine",
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 4 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 10,
 
@@ -58,7 +58,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It shares the leaf on its head with weary-looking Pokémon. These leaves are known to relieve stress.",
+		'en-us': "It shares the leaf on its head with weary-looking Pokémon. These leaves are known to relieve stress.",
 	},
 }
 

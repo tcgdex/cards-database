@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Dwebble",
-		fr: "Crabicoque",
-		es: "Dwebble",
-		it: "Dwebble",
-		pt: "Dwebble",
-		de: "Lithomith"
+		'en-us': "Dwebble",
+		'fr-fr': "Crabicoque",
+		'es-es': "Dwebble",
+		'it-it': "Dwebble",
+		'pt-br': "Dwebble",
+		'de-de': "Lithomith"
 	},
 
 	illustrator: "Midori Harada",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flail",
-				fr: "Fléau",
+				'en-us': "Flail",
+				'fr-fr': "Fléau",
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on this Pokémon.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon.",
+				'en-us': "Does 10 damage times the number of damage counters on this Pokémon.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon.",
 			},
 			damage: 10,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When it finds a stone of a suitable size, it secretes a liquid from its mouth to open up a hole to crawl into.",
+		'en-us': "When it finds a stone of a suitable size, it secretes a liquid from its mouth to open up a hole to crawl into.",
 	},
 
 	thirdParty: {

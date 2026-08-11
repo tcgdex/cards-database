@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Dracaufeu VSTAR",
-		de: "Glurak VSTAR",
-		es: "Charizard V-ASTRO",
-		pt: "Charizard V-ASTRO",
-		it: "Charizard V ASTRO",
-		en: "Charizard VSTAR"
+		'fr-fr': "Dracaufeu VSTAR",
+		'de-de': "Glurak VSTAR",
+		'es-es': "Charizard V-ASTRO",
+		'pt-br': "Charizard V-ASTRO",
+		'it-it': "Charizard V ASTRO",
+		'en-us': "Charizard VSTAR"
 	},
 
 	rarity: "Promo",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		fr: "Dracaufeu-V",
-		de: "Glurak-V",
-		es: "Charizard V",
-		pt: "Charizard V",
-		it: "Charizard-V",
-		en: "Charizard V"
+		'fr-fr': "Dracaufeu-V",
+		'de-de': "Glurak-V",
+		'es-es': "Charizard V",
+		'pt-br': "Charizard V",
+		'it-it': "Charizard-V",
+		'en-us': "Charizard V"
 	},
 
 	stage: "VSTAR",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			fr: "Feu Explosif",
-			de: "Explosives Feuer",
-			es: "Fuego Explosivo",
-			pt: "Explosão de Fogo",
-			it: "Fuoco Esplosivo",
-			en: "Explosive Fire"
+			'fr-fr': "Feu Explosif",
+			'de-de': "Explosives Feuer",
+			'es-es': "Fuego Explosivo",
+			'pt-br': "Explosão de Fogo",
+			'it-it': "Fuoco Esplosivo",
+			'en-us': "Explosive Fire"
 		},
 
 		effect: {
-			fr: "Si au moins un marqueur de dégâts est placé sur ce Pokémon, cette attaque inflige 100 dégâts supplémentaires.",
-			de: "Wenn auf diesem Pokémon mindestens 1 Schadensmarke liegt, fügt diese Attacke 100 Schadenspunkte mehr zu.",
-			es: "Si este Pokémon tiene algún contador de daño sobre él, este ataque hace 100 puntos de daño más.",
-			pt: "Se este Pokémon tiver algum contador de dano nele, este ataque causará 100 pontos de dano a mais.",
-			it: "Se questo Pokémon ha dei segnalini danno, questo attacco infligge 100 danni in più.",
-			en: "If this Pokémon has any damage counters on it, this attack does 100 more damage."
+			'fr-fr': "Si au moins un marqueur de dégâts est placé sur ce Pokémon, cette attaque inflige 100 dégâts supplémentaires.",
+			'de-de': "Wenn auf diesem Pokémon mindestens 1 Schadensmarke liegt, fügt diese Attacke 100 Schadenspunkte mehr zu.",
+			'es-es': "Si este Pokémon tiene algún contador de daño sobre él, este ataque hace 100 puntos de daño más.",
+			'pt-br': "Se este Pokémon tiver algum contador de dano nele, este ataque causará 100 pontos de dano a mais.",
+			'it-it': "Se questo Pokémon ha dei segnalini danno, questo attacco infligge 100 danni in più.",
+			'en-us': "If this Pokémon has any damage counters on it, this attack does 100 more damage."
 		},
 
 		damage: "130+"
@@ -57,21 +57,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Fire", "Colorless"],
 
 		name: {
-			fr: "Brasier Star",
-			de: "Sternengroßbrand",
-			es: "Llamarada Astro",
-			pt: "Incêndio Astral",
-			it: "Astro Fiammata",
-			en: "Star Blaze"
+			'fr-fr': "Brasier Star",
+			'de-de': "Sternengroßbrand",
+			'es-es': "Llamarada Astro",
+			'pt-br': "Incêndio Astral",
+			'it-it': "Astro Fiammata",
+			'en-us': "Star Blaze"
 		},
 
 		effect: {
-			fr: "Défaussez 2 Énergies de ce Pokémon. (Vous ne pouvez utiliser qu'une seule Puissance VSTAR par partie.)",
-			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel. (Du kannst pro Spiel nur 1 VSTAR-Power einsetzen.)",
-			es: "Descarta 2 Energías de este Pokémon. (No puedes usar más de 1 Poder V-ASTRO en una partida).",
-			pt: "Descarte 2 Energias deste Pokémon (você não pode usar mais de 1 Poder V-ASTRO por partida).",
-			it: "Scarta due Energie da questo Pokémon. Non puoi usare più di un Potere V ASTRO a partita.",
-			en: "Discard 2 Energy from this Pokémon. (You can't use more than 1 VSTAR Power in a game.)"
+			'fr-fr': "Défaussez 2 Énergies de ce Pokémon. (Vous ne pouvez utiliser qu'une seule Puissance VSTAR par partie.)",
+			'de-de': "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel. (Du kannst pro Spiel nur 1 VSTAR-Power einsetzen.)",
+			'es-es': "Descarta 2 Energías de este Pokémon. (No puedes usar más de 1 Poder V-ASTRO en una partida).",
+			'pt-br': "Descarte 2 Energias deste Pokémon (você não pode usar mais de 1 Poder V-ASTRO por partida).",
+			'it-it': "Scarta due Energie da questo Pokémon. Non puoi usare più di un Potere V ASTRO a partita.",
+			'en-us': "Discard 2 Energy from this Pokémon. (You can't use more than 1 VSTAR Power in a game.)"
 		},
 
 		damage: 320

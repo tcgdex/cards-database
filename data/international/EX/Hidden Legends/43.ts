@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Metang",
-		fr: "Metang",
-		de: "Metang"
+		'en-us': "Metang",
+		'fr-fr': "Metang",
+		'de-de': "Metang"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Beldum",
-		fr: "Terhal"
+		'en-us': "Beldum",
+		'fr-fr': "Terhal"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psyshock",
-				fr: "Choc psy",
-				de: "Psyshock"
+				'en-us': "Psyshock",
+				'fr-fr': "Choc psy",
+				'de-de': "Psyshock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Ball",
-				fr: "Boule métallique",
-				de: "Metal Ball"
+				'en-us': "Metal Ball",
+				'fr-fr': "Boule métallique",
+				'de-de': "Metal Ball"
 			},
 			effect: {
-				en: "Put 5 damage counters on the Defending Pokémon.",
-				fr: "Placez 5 marqueurs de dégât sur le Pokémon Défenseur.",
-				de: "Put 5 damage counters on the Defending Pokémon."
+				'en-us': "Put 5 damage counters on the Defending Pokémon.",
+				'fr-fr': "Placez 5 marqueurs de dégât sur le Pokémon Défenseur.",
+				'de-de': "Put 5 damage counters on the Defending Pokémon."
 			},
 
 		},

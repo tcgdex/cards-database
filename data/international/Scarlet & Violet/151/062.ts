@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Tartard",
-		en: "Poliwrath",
-		es: "Poliwrath",
-		it: "Poliwrath",
-		pt: "Poliwrath",
-		de: "Quappo"
+		'fr-fr': "Tartard",
+		'en-us': "Poliwrath",
+		'es-es': "Poliwrath",
+		'it-it': "Poliwrath",
+		'pt-br': "Poliwrath",
+		'de-de': "Quappo"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 160,
 	types: ["Water"],
 	evolveFrom: {
-		fr: "Têtarte",
-		en: "Poliwhirl",
-		es: "Poliwhirl",
-		it: "Poliwhirl",
-		pt: "Poliwhirl",
-		de: "Quaputzi"
+		'fr-fr': "Têtarte",
+		'en-us': "Poliwhirl",
+		'es-es': "Poliwhirl",
+		'it-it': "Poliwhirl",
+		'pt-br': "Poliwhirl",
+		'de-de': "Quaputzi"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			fr: "Bulles d'O",
-			en: "Bubble Beam",
-			es: "Rayo Burbuja",
-			it: "Bollaraggio",
-			pt: "Jato de Bolhas",
-			de: "Blubbstrahl"
+			'fr-fr': "Bulles d'O",
+			'en-us': "Bubble Beam",
+			'es-es': "Rayo Burbuja",
+			'it-it': "Bollaraggio",
+			'pt-br': "Jato de Bolhas",
+			'de-de': "Blubbstrahl"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		},
 
 		damage: 50
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Coup de Poing Héroïque",
-			en: "Heroic Punch",
-			es: "Puño Heroico",
-			it: "Pugno Eroico",
-			pt: "Soco Heroico",
-			de: "Heldenhafter Hieb"
+			'fr-fr': "Coup de Poing Héroïque",
+			'en-us': "Heroic Punch",
+			'es-es': "Puño Heroico",
+			'it-it': "Pugno Eroico",
+			'pt-br': "Soco Heroico",
+			'de-de': "Heldenhafter Hieb"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 150 dégâts supplémentaires.",
-			en: "Flip a coin. If heads, this attack does 150 more damage.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 150 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 150 danni in più.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 150 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 150 Schadenspunkte mehr zu."
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 150 dégâts supplémentaires.",
+			'en-us': "Flip a coin. If heads, this attack does 150 more damage.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 150 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 150 danni in più.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 150 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 150 Schadenspunkte mehr zu."
 		},
 
 		damage: "100+"
@@ -84,7 +84,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Poliwrath is skilled at both swimming and martial arts. It uses its well-trained arms to dish out powerful punches.",
+		'en-us': "Poliwrath is skilled at both swimming and martial arts. It uses its well-trained arms to dish out powerful punches.",
 	},
 
 	variants: [

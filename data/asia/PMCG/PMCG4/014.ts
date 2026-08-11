@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "わるいギャロップ",
+		'ja-jp': "わるいギャロップ",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "リアキック",
+				'ja-jp': "リアキック",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Fire", "Fire"],
 			name: {
-				ja: "炎の柱",
+				'ja-jp': "炎の柱",
 			},
 			effect: {
-				ja: "この攻撃を使用すると、Dark Rapidashに取り付けられた1つのFire Energyカードを破棄できます。そうであり、相手がベンチでポケモンを持っている場合は、そのうち1つを選択すると、この攻撃は10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "この攻撃を使用すると、Dark Rapidashに取り付けられた1つのFire Energyカードを破棄できます。そうであり、相手がベンチでポケモンを持っている場合は、そのうち1つを選択すると、この攻撃は10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 30,
 		},

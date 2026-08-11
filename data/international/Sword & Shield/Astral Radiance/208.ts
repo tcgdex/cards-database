@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Origin Forme Palkia VSTAR",
-		fr: "Palkia Originel VSTAR",
-		es: "Palkia Origen V-ASTRO",
-		it: "Palkia Originale V ASTRO",
-		pt: "Palkia Forma Origem V-ASTRO",
-		de: "Ur-Palkia VSTAR"
+		'en-us': "Origin Forme Palkia VSTAR",
+		'fr-fr': "Palkia Originel VSTAR",
+		'es-es': "Palkia Origen V-ASTRO",
+		'it-it': "Palkia Originale V ASTRO",
+		'pt-br': "Palkia Forma Origem V-ASTRO",
+		'de-de': "Ur-Palkia VSTAR"
 	},
 
 	illustrator: "aky CG Works",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Origin Forme Palkia V",
-		fr: "Palkia Originel-V",
-		es: "Palkia Origen V",
-		it: "Palkia Originale-V",
-		pt: "Palkia Forma Origem V",
-		de: "Ur-Palkia-V"
+		'en-us': "Origin Forme Palkia V",
+		'fr-fr': "Palkia Originel-V",
+		'es-es': "Palkia Origen V",
+		'it-it': "Palkia Originale-V",
+		'pt-br': "Palkia Forma Origem V",
+		'de-de': "Ur-Palkia-V"
 	},
 
 	stage: "VSTAR",
@@ -36,21 +36,21 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			en: "Subspace Swell",
-			fr: "Houle Subspatiale",
-			es: "Oleaje Subespacial",
-			it: "Sottospazio Amplificato",
-			pt: "Maré do Subespaço",
-			de: "Subraumschwall"
+			'en-us': "Subspace Swell",
+			'fr-fr': "Houle Subspatiale",
+			'es-es': "Oleaje Subespacial",
+			'it-it': "Sottospazio Amplificato",
+			'pt-br': "Maré do Subespaço",
+			'de-de': "Subraumschwall"
 		},
 
 		effect: {
-			en: "This attack does 20 more damage for each Benched Pokémon (both yours and your opponent's).",
-			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Pokémon de Banc (les vôtres et ceux de votre adversaire).",
-			es: "Este ataque hace 20 puntos de daño más por cada Pokémon en Banca (tanto tuyos como de tu rival).",
-			it: "Questo attacco infligge 20 danni in più per ogni Pokémon in panchina, sia tuo che del tuo avversario.",
-			pt: "Este ataque causa 20 pontos de dano a mais para cada Pokémon no Banco (seus e do seu oponente).",
-			de: "Diese Attacke fügt für jedes Pokémon auf der Bank (deiner und der deines Gegners) 20 Schadenspunkte mehr zu."
+			'en-us': "This attack does 20 more damage for each Benched Pokémon (both yours and your opponent's).",
+			'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires pour chaque Pokémon de Banc (les vôtres et ceux de votre adversaire).",
+			'es-es': "Este ataque hace 20 puntos de daño más por cada Pokémon en Banca (tanto tuyos como de tu rival).",
+			'it-it': "Questo attacco infligge 20 danni in più per ogni Pokémon in panchina, sia tuo che del tuo avversario.",
+			'pt-br': "Este ataque causa 20 pontos de dano a mais para cada Pokémon no Banco (seus e do seu oponente).",
+			'de-de': "Diese Attacke fügt für jedes Pokémon auf der Bank (deiner und der deines Gegners) 20 Schadenspunkte mehr zu."
 		},
 
 		damage: "60+"

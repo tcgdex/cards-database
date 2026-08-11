@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラントン",
+		'ja-jp': "ラントン",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "デュアルアーマー",
+				'ja-jp': "デュアルアーマー",
 			},
 			effect: {
-				ja: "Lanturnに水エネルギーが付着している限り、Lanturnは水と稲妻の両方のタイプです。",
+				'ja-jp': "Lanturnに水エネルギーが付着している限り、Lanturnは水と稲妻の両方のタイプです。",
 			},
 		}],
 
@@ -29,17 +29,17 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "かみそりフィン",
+				'ja-jp': "かみそりフィン",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "ウォーターガン",
+				'ja-jp': "ウォーターガン",
 			},
 			effect: {
-				ja: "40のダメージに加えて、ラントンに付着した水エネルギーごとに20のダメージがさらに20件ありますが、この攻撃のエネルギーコストの支払いには使用されません。この方法で{{sic}} 40ダメージを追加することはできません。",
+				'ja-jp': "40のダメージに加えて、ラントンに付着した水エネルギーごとに20のダメージがさらに20件ありますが、この攻撃のエネルギーコストの支払いには使用されません。この方法で{{sic}} 40ダメージを追加することはできません。",
 			},
 		},
 	],

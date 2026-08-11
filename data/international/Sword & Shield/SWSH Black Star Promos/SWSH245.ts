@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Cradopaud",
-		de: "Glibunkel",
-		es: "Croagunk",
-		pt: "Croagunk",
-		it: "Croagunk",
-		en: "Croagunk"
+		'fr-fr': "Cradopaud",
+		'de-de': "Glibunkel",
+		'es-es': "Croagunk",
+		'pt-br': "Croagunk",
+		'it-it': "Croagunk",
+		'en-us': "Croagunk"
 	},
 
 	rarity: "Promo",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			fr: "Poing Tire-Bouchon",
-			de: "Korkenzieherhieb",
-			es: "Puño Tirabuzón",
-			pt: "Soco Saca-rolha",
-			it: "Pugno Rotante",
-			en: "Corkscrew Punch"
+			'fr-fr': "Poing Tire-Bouchon",
+			'de-de': "Korkenzieherhieb",
+			'es-es': "Puño Tirabuzón",
+			'pt-br': "Soco Saca-rolha",
+			'it-it': "Pugno Rotante",
+			'en-us': "Corkscrew Punch"
 		},
 
 		damage: 20
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "Once diluted, its poison becomes medicinal. This Pokémon came into popularity after a pharmaceutical company chose it as a mascot."
+		'en-us': "Once diluted, its poison becomes medicinal. This Pokémon came into popularity after a pharmaceutical company chose it as a mascot."
 	},
 
 	thirdParty: {

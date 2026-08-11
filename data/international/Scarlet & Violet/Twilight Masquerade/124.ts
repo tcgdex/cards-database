@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Varoom",
-		fr: "Vrombi",
-		es: "Varoom",
-		it: "Varoom",
-		pt: "Varoom",
-		de: "Knattox"
+		'en-us': "Varoom",
+		'fr-fr': "Vrombi",
+		'es-es': "Varoom",
+		'it-it': "Varoom",
+		'pt-br': "Varoom",
+		'de-de': "Knattox"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Metal Coating",
-			fr: "Revêtement Métal",
-			es: "Recubrimiento Metálico",
-			it: "Metalrivestimento",
-			pt: "Camada Metálica",
-			de: "Metallbeschichtung"
+			'en-us': "Metal Coating",
+			'fr-fr': "Revêtement Métal",
+			'es-es': "Recubrimiento Metálico",
+			'it-it': "Metalrivestimento",
+			'pt-br': "Camada Metálica",
+			'de-de': "Metallbeschichtung"
 		},
 
 		effect: {
-			en: "Attach a Basic {M} Energy card from your discard pile to this Pokémon.",
-			fr: "Attachez une carte Énergie {M} de base de votre pile de défausse à ce Pokémon.",
-			es: "Une 1 carta de Energía {M} Básica de tu pila de descartes a este Pokémon.",
-			it: "Assegna a questo Pokémon una carta Energia base {M} dalla tua pila degli scarti.",
-			pt: "Ligue uma carta de Energia {M} Básica da sua pilha de descarte a este Pokémon.",
-			de: "Lege 1 Basis-{M}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+			'en-us': "Attach a Basic {M} Energy card from your discard pile to this Pokémon.",
+			'fr-fr': "Attachez une carte Énergie {M} de base de votre pile de défausse à ce Pokémon.",
+			'es-es': "Une 1 carta de Energía {M} Básica de tu pila de descartes a este Pokémon.",
+			'it-it': "Assegna a questo Pokémon una carta Energia base {M} dalla tua pila degli scarti.",
+			'pt-br': "Ligue uma carta de Energia {M} Básica da sua pilha de descarte a este Pokémon.",
+			'de-de': "Lege 1 Basis-{M}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 		}
 	}, {
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 50
@@ -71,7 +71,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "The steel section is Varoom's actual body. This Pokémon clings to rocks and converts the minerals within into energy to fuel its activities.",
+		'en-us': "The steel section is Varoom's actual body. This Pokémon clings to rocks and converts the minerals within into energy to fuel its activities.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キノガッサV",
+		'ja-jp': "キノガッサV",
 		'zh-tw': "超夢V",
 	},
 
@@ -18,18 +18,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "カウンター",
+				'ja-jp': "カウンター",
 				'zh-tw': "超念力",
 			},
 			damage: "20+",
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "前の相手の番に、このポケモンが受けたワザのダメージと同じダメージ追加。",
+				'ja-jp': "前の相手の番に、このポケモンが受けたワザのダメージと同じダメージ追加。",
 			},
 		},
 		{
 			name: {
-				ja: "マッハストレート",
+				'ja-jp': "マッハストレート",
 				'zh-tw': "轉移破壞",
 			},
 			damage: 140,

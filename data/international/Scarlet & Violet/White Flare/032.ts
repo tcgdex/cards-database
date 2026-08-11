@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zebstrika",
-		fr: "Zéblitz",
-		de: "Zebritz",
-		it: "Zebstrika",
-		pt: "Zebstrika",
-		es: "Zebstrika",
+		'en-us': "Zebstrika",
+		'fr-fr': "Zéblitz",
+		'de-de': "Zebritz",
+		'it-it': "Zebstrika",
+		'pt-br': "Zebstrika",
+		'es-es': "Zebstrika",
 		'es-mx': "Zebstrika"
 	},
 
@@ -21,12 +21,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Lightning"],
 	evolveFrom: {
-		en: "Blitzle",
-		fr: "Zébibron",
-		de: "Elezeba",
-		it: "Blitzle",
-		pt: "Blitzle",
-		es: "Blitzle",
+		'en-us': "Blitzle",
+		'fr-fr': "Zébibron",
+		'de-de': "Elezeba",
+		'it-it': "Blitzle",
+		'pt-br': "Blitzle",
+		'es-es': "Blitzle",
 		'es-mx': "Blitzle"
 	},
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Smash Kick",
-			fr: "Coud'Pattes",
-			de: "Schmetterkick",
-			it: "Calcio Esplosivo",
-			pt: "Chute Poderoso",
-			es: "Patada Destrucción",
+			'en-us': "Smash Kick",
+			'fr-fr': "Coud'Pattes",
+			'de-de': "Schmetterkick",
+			'it-it': "Calcio Esplosivo",
+			'pt-br': "Chute Poderoso",
+			'es-es': "Patada Destrucción",
 			'es-mx': "Patada Devastadora"
 		},
 
@@ -49,22 +49,22 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			en: "Electrobullet",
-			fr: "Électrojectile",
-			de: "Elektrokugel",
-			it: "Elettrodardo",
-			pt: "Bala Elétrica",
-			es: "Electrobala",
+			'en-us': "Electrobullet",
+			'fr-fr': "Électrojectile",
+			'de-de': "Elektrokugel",
+			'it-it': "Elettrodardo",
+			'pt-br': "Bala Elétrica",
+			'es-es': "Electrobala",
 			'es-mx': "Electrobala"
 		},
 
 		effect: {
-			en: "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Cette attaque inflige aussi 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-			de: "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
-			it: "Questo attacco infligge anche 30 danni a uno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-			pt: "Este ataque também causa 30 pontos de dano a 1 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
-			es: "Este ataque también hace 30 puntos de daño a uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			'en-us': "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Cette attaque inflige aussi 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			'de-de': "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+			'it-it': "Questo attacco infligge anche 30 danni a uno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			'pt-br': "Este ataque também causa 30 pontos de dano a 1 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
+			'es-es': "Este ataque también hace 30 puntos de daño a uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 			'es-mx': "Este ataque también hace 30 puntos de daño a 1 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca)."
 		},
 

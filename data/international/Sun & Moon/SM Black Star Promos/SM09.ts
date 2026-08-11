@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Togedemaru",
-		fr: "Togedemaru",
-		es: "Togedemaru",
-		it: "Togedemaru",
-		pt: "Togedemaru",
-		de: "Togedemaru"
+		'en-us': "Togedemaru",
+		'fr-fr': "Togedemaru",
+		'es-es': "Togedemaru",
+		'it-it': "Togedemaru",
+		'pt-br': "Togedemaru",
+		'de-de': "Togedemaru"
 	},
 	illustrator: "match",
 	rarity: "Promo",
@@ -32,20 +32,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Defense Curl",
-				fr: "Boul’Armure",
-				es: "Rizo Defensa",
-				it: "Ricciolscudo",
-				pt: "Espiral de Defesa",
-				de: "Einigler"
+				'en-us': "Defense Curl",
+				'fr-fr': "Boul’Armure",
+				'es-es': "Rizo Defensa",
+				'it-it': "Ricciolscudo",
+				'pt-br': "Espiral de Defesa",
+				'de-de': "Einigler"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent’s next turn.",
-				fr: "Lancez une pièce. Si c’est face, évitez tous les dégâts infligés à ce Pokémon par des attaques pendant le prochain tour de votre adversaire.",
-				es: "Lanza 1 moneda. Si sale cara, evita todo el daño infligido a este Pokémon por ataques durante el próximo turno de tu rival.",
-				it: "Lancia una moneta. Se esce testa, previeni tutti i danni da attacchi inflitti a questo Pokémon durante il prossimo turno del tuo avversario.",
-				pt: "Jogue 1 moeda. Se sair cara, prevenirá todo o dano causado a este Pokémon por ataques durante a próxima vez de jogar do seu oponente.",
-				de: "Wirf 1 Münze. Verhindere bei Kopf allen Schaden, der diesem Pokémon während des nächsten Zuges deines Gegners durch Attacken zugefügt wird."
+				'en-us': "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent’s next turn.",
+				'fr-fr': "Lancez une pièce. Si c’est face, évitez tous les dégâts infligés à ce Pokémon par des attaques pendant le prochain tour de votre adversaire.",
+				'es-es': "Lanza 1 moneda. Si sale cara, evita todo el daño infligido a este Pokémon por ataques durante el próximo turno de tu rival.",
+				'it-it': "Lancia una moneta. Se esce testa, previeni tutti i danni da attacchi inflitti a questo Pokémon durante il prossimo turno del tuo avversario.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, prevenirá todo o dano causado a este Pokémon por ataques durante a próxima vez de jogar do seu oponente.",
+				'de-de': "Wirf 1 Münze. Verhindere bei Kopf allen Schaden, der diesem Pokémon während des nächsten Zuges deines Gegners durch Attacken zugefügt wird."
 			},
 
 		},
@@ -54,20 +54,20 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Discharge",
-				fr: "Coup d’Jus",
-				es: "Chispazo",
-				it: "Scarica",
-				pt: "Descarga",
-				de: "Ladungsstoß"
+				'en-us': "Discharge",
+				'fr-fr': "Coup d’Jus",
+				'es-es': "Chispazo",
+				'it-it': "Scarica",
+				'pt-br': "Descarga",
+				'de-de': "Ladungsstoß"
 			},
 			effect: {
-				en: "Discard all Lightning Energy from this Pokémon. This attack does 30 damage for each card you discarded in this way.",
-				fr: "Défaussez toutes les Énergies Lightning de ce Pokémon. Cette attaque inflige 30 dégâts pour chaque carte défaussée de cette façon.",
-				es: "Descarta todas las Energías Lightning de este Pokémon. Este ataque hace 30 puntos de daño por cada carta que hayas descartado de esta manera.",
-				it: "Scarta tutte le Energie Lightning assegnate a questo Pokémon. Questo attacco infligge 30 danni per ogni carta che hai scartato in questo modo.",
-				pt: "Descarte todas as Energias Lightning deste Pokémon. Este ataque causa 30 pontos de dano para cada carta descartada desta forma.",
-				de: "Lege alle Fire-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 30 Schadenspunkte mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
+				'en-us': "Discard all Lightning Energy from this Pokémon. This attack does 30 damage for each card you discarded in this way.",
+				'fr-fr': "Défaussez toutes les Énergies Lightning de ce Pokémon. Cette attaque inflige 30 dégâts pour chaque carte défaussée de cette façon.",
+				'es-es': "Descarta todas las Energías Lightning de este Pokémon. Este ataque hace 30 puntos de daño por cada carta que hayas descartado de esta manera.",
+				'it-it': "Scarta tutte le Energie Lightning assegnate a questo Pokémon. Questo attacco infligge 30 danni per ogni carta che hai scartato in questo modo.",
+				'pt-br': "Descarte todas as Energias Lightning deste Pokémon. Este ataque causa 30 pontos de dano para cada carta descartada desta forma.",
+				'de-de': "Lege alle Fire-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 30 Schadenspunkte mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
 			},
 			damage: "30×",
 
@@ -91,7 +91,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The long hairs on its back act as lightning rods. The bolts of lightning it attracts are stored as energy in its electric sac.",
+		'en-us': "The long hairs on its back act as lightning rods. The bolts of lightning it attracts are stored as energy in its electric sac.",
 	},
 }
 

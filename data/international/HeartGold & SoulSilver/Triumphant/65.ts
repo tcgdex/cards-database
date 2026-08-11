@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Kricketot",
-		fr: "Crikzik",
-		de: "Zirpurze"
+		'en-us': "Kricketot",
+		'fr-fr': "Crikzik",
+		'de-de': "Zirpurze"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -30,9 +30,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beat",
-				fr: "Bataille",
-				de: "Verprügler"
+				'en-us': "Beat",
+				'fr-fr': "Bataille",
+				'de-de': "Verprügler"
 			},
 
 			damage: 30,
@@ -50,7 +50,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When its antennae hit each other, it sounds like the music of a xylophone."
+		'en-us': "When its antennae hit each other, it sounds like the music of a xylophone."
 	},
 
 	variants: [

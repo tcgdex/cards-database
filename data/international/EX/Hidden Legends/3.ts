@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Crobat",
-		fr: "Nostenfer",
-		de: "Iksbat"
+		'en-us': "Crobat",
+		'fr-fr': "Nostenfer",
+		'de-de': "Iksbat"
 	},
 
 	illustrator: "Midori Harada",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Golbat",
-		fr: "Nosferalto"
+		'en-us': "Golbat",
+		'fr-fr': "Nosferalto"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flutter Trick",
-				fr: "Astuce-voltige",
-				de: "Flutter Trick"
+				'en-us': "Flutter Trick",
+				'fr-fr': "Astuce-voltige",
+				'de-de': "Flutter Trick"
 			},
 			effect: {
-				en: "Flip a coin. If heads, look at your opponent's hand and choose 1 card. Your opponent discards the card you chose.",
-				fr: "Lancez une pièce. Si c'est face, regardez la main de votre adversaire et choisissez 1 carte. Votre adversaire doit défausser cette carte.",
-				de: "Flip a coin. If heads, look at your opponent's hand and choose 1 card. Your opponent discards the card you chose."
+				'en-us': "Flip a coin. If heads, look at your opponent's hand and choose 1 card. Your opponent discards the card you chose.",
+				'fr-fr': "Lancez une pièce. Si c'est face, regardez la main de votre adversaire et choisissez 1 carte. Votre adversaire doit défausser cette carte.",
+				'de-de': "Flip a coin. If heads, look at your opponent's hand and choose 1 card. Your opponent discards the card you chose."
 			},
 			damage: 20,
 
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Triple Poison",
-				fr: "Triple Poison",
-				de: "Triple Poison"
+				'en-us': "Triple Poison",
+				'fr-fr': "Triple Poison",
+				'de-de': "Triple Poison"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned. Put 3 damage counters instead of 1 on the Defending Pokémon between turns.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez 3 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours.",
-				de: "The Defending Pokémon is now Poisoned. Put 3 damage counters instead of 1 on the Defending Pokémon between turns."
+				'en-us': "The Defending Pokémon is now Poisoned. Put 3 damage counters instead of 1 on the Defending Pokémon between turns.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné. Placez 3 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours.",
+				'de-de': "The Defending Pokémon is now Poisoned. Put 3 damage counters instead of 1 on the Defending Pokémon between turns."
 			},
 			damage: 10,
 

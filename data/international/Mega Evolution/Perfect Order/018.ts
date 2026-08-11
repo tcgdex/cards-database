@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
@@ -7,13 +7,13 @@ const card: Card = {
 	dexId: [86],
 
 	name: {
-		en: "Seel",
-		fr: "Otaria",
-		es: "Seel",
+		'en-us': "Seel",
+		'fr-fr': "Otaria",
+		'es-es': "Seel",
 		'es-mx': "Seel",
-		de: "Jurob",
-		it: "Seel",
-		pt: "Seel"
+		'de-de': "Jurob",
+		'it-it': "Seel",
+		'pt-br': "Seel"
 	},
 
 	illustrator: "Kanami Ogata",
@@ -27,13 +27,13 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Rain Splash",
-			fr: "Pluie Éclaboussante",
-			es: "Golpe de Lluvia",
+			'en-us': "Rain Splash",
+			'fr-fr': "Pluie Éclaboussante",
+			'es-es': "Golpe de Lluvia",
 			'es-mx': "Salpicalluvia",
-			de: "Regenplatscher",
-			it: "Spruzzapioggia",
-			pt: "Chuva Borrifante"
+			'de-de': "Regenplatscher",
+			'it-it': "Spruzzapioggia",
+			'pt-br': "Chuva Borrifante"
 		},
 
 		damage: 10
@@ -41,13 +41,13 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			en: "Wave Splash",
-			fr: "Grosse Vague",
-			es: "Chapoteo Ondulante",
+			'en-us': "Wave Splash",
+			'fr-fr': "Grosse Vague",
+			'es-es': "Chapoteo Ondulante",
 			'es-mx': "Acuasalpicadura",
-			de: "Wellenplatscher",
-			it: "Schizzi d'Onda",
-			pt: "Onda Borrifante"
+			'de-de': "Wellenplatscher",
+			'it-it': "Schizzi d'Onda",
+			'pt-br': "Onda Borrifante"
 		},
 
 		damage: 30

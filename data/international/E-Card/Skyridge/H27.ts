@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Rhydon",
-		de: "Rizeros"
+		'en-us': "Rhydon",
+		'de-de': "Rizeros"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rhyhorn",
+		'en-us': "Rhyhorn",
 	},
 
 	stage: "Stage1",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stomp",
-				de: "Stampfer"
+				'en-us': "Stomp",
+				'de-de': "Stampfer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage.",
-				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 20 more damage.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -54,13 +54,13 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Giant Tail",
-				de: "Riesenschweif"
+				'en-us': "Giant Tail",
+				'de-de': "Riesenschweif"
 			},
 
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				de: "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'de-de': "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 100,

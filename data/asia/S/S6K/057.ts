@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ファイアロー",
+		'ja-jp': "ファイアロー",
 		'zh-tw': "烈箭鷹",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "とりポケモンが 主な 獲物。 急接近からの 力強い キックで 地面に 叩き落す。",
+		'ja-jp': "とりポケモンが 主な 獲物。 急接近からの 力強い キックで 地面に 叩き落す。",
 		'zh-tw': "主要的獵物是鳥寶可夢。會急速接近對手，然後用猛烈的腳踢把對手擊落到地面。",
 	},
 
@@ -23,25 +23,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "わしづかみ",
+				'ja-jp': "わしづかみ",
 				'zh-tw': "緊抓",
 			},
 			damage: 40,
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 				'zh-tw': "在下個對手的回合，受到這個招式的寶可夢無法撤退。",
 			},
 		},
 		{
 			name: {
-				ja: "ニトロダイブ",
+				'ja-jp': "ニトロダイブ",
 				'zh-tw': "火藥奇襲",
 			},
 			damage: "80+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンに[炎]エネルギーがついているなら、80ダメージ追加。",
+				'ja-jp': "このポケモンに[炎]エネルギーがついているなら、80ダメージ追加。",
 				'zh-tw': "若這隻寶可夢身上附有【火】能量，則增加80點傷害。",
 			},
 		},
@@ -61,7 +61,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒノヤコマ",
+		'ja-jp': "ヒノヤコマ",
 	},
 
 	retreat: 0,

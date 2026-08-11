@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Koga's Muk"
+		'en-us': "Koga's Muk"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Grimer"
+		'en-us': "Grimer"
 	},
 
 	stage: "Stage1",
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Energy Drain"
+				'en-us': "Energy Drain"
 			},
 			effect: {
-				en: "If an opponent's attack does damage to Koga's Muk (even if Koga's Muk is Knocked Out), flip a coin. If heads and if it has any, choose 1 Energy card attached to the attacking Pokémon and discard it. This power can't be used if Koga's Muk is already Asleep, Confused, or Paralyzed when your opponent attacks."
+				'en-us': "If an opponent's attack does damage to Koga's Muk (even if Koga's Muk is Knocked Out), flip a coin. If heads and if it has any, choose 1 Energy card attached to the attacking Pokémon and discard it. This power can't be used if Koga's Muk is already Asleep, Confused, or Paralyzed when your opponent attacks."
 			}
 		},
 	],
@@ -45,7 +45,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sludge Whirlpool"
+				'en-us': "Sludge Whirlpool"
 			},
 
 			damage: 40,

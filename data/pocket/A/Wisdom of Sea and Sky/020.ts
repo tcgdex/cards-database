@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pineco",
-		fr: "Pomdepik"
+		'en-us': "Pineco",
+		'fr-fr': "Pomdepik"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "It looks just like a pinecone. Its shell protects it\nfrom bird Pokémon that peck it by mistake.",
-		fr: "Il ressemble à une pomme de pin. Sa carapace le protège des Pokémon Oiseaux qui le picorent par erreur."
+		'en-us': "It looks just like a pinecone. Its shell protects it\nfrom bird Pokémon that peck it by mistake.",
+		'fr-fr': "Il ressemble à une pomme de pin. Sa carapace le protège des Pokémon Oiseaux qui le picorent par erreur."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Ram",
-			fr: "Collision"
+			'en-us': "Ram",
+			'fr-fr': "Collision"
 		},
 
 		damage: 30,

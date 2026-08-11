@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Bagon δ",
-		fr: "Draby δ",
-		de: "Kindwurm"
+		'en-us': "Bagon δ",
+		'fr-fr': "Draby δ",
+		'de-de': "Kindwurm"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Bite"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Bite"
 			},
 
 			damage: 10,

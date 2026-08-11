@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVHK"
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "烈焰馬",
-		th: "แกลล็อป",
-		id: "Rapidash"
+		'th-th': "แกลล็อป",
+		'id-id': "Rapidash"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -17,8 +17,8 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "任由燃燒的鬃毛隨風飄揚，以每小時２４０公里的速度 在大草原上自在奔馳。",
-		th: "วิ่งตัดทุ่งหญ้ากว้างใหญ่ด้วยความเร็ว 240 กิโลเมตรต่อชั่วโมง พร้อมกับแผงขนที่ลุกโชนไปด้วยเปลวเพลิงพลิ้วไสว",
-		id: "Rapidash mengibarkan surai membaranya dan berlari di padang rumput luas dengan kecepatan 240 km/jam."
+		'th-th': "วิ่งตัดทุ่งหญ้ากว้างใหญ่ด้วยความเร็ว 240 กิโลเมตรต่อชั่วโมง พร้อมกับแผงขนที่ลุกโชนไปด้วยเปลวเพลิงพลิ้วไสว",
+		'id-id': "Rapidash mengibarkan surai membaranya dan berlari di padang rumput luas dengan kecepatan 240 km/jam."
 	},
 
 	stage: "Stage1",
@@ -26,8 +26,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "烈焰",
-			th: "เผาไหม้",
-			id: "Lidah Api"
+			'th-th': "เผาไหม้",
+			'id-id': "Lidah Api"
 		},
 
 		damage: 20,
@@ -35,14 +35,14 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "猛火猛撞",
-			th: "ไฟลุกพุ่งเข้าใส่",
-			id: "Terjangan Kobar Api"
+			'th-th': "ไฟลุกพุ่งเข้าใส่",
+			'id-id': "Terjangan Kobar Api"
 		},
 
 		effect: {
 			'zh-tw': "這隻寶可夢也受到30點傷害。",
-			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 30 ด้วย",
-			id: "Pokémon ini juga menerima kerusakan sejumlah 30."
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 30 ด้วย",
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 30."
 		},
 
 		damage: 120,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Gliscor",
-		fr: "Scorvol",
-		es: "Gliscor",
-		it: "Gliscor",
-		pt: "Gliscor",
-		de: "Skorgro"
+		'en-us': "Gliscor",
+		'fr-fr': "Scorvol",
+		'es-es': "Gliscor",
+		'it-it': "Gliscor",
+		'pt-br': "Gliscor",
+		'de-de': "Skorgro"
 	},
 
 	illustrator: "Yoshinobu Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gligar",
-		fr: "Scorplane",
+		'en-us': "Gligar",
+		'fr-fr': "Scorplane",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Finishing Stinger",
-				fr: "Dard Final",
-				es: "Aguijón Definitivo",
-				it: "Puntura Finale",
-				pt: "Ferrão Final",
-				de: "Finalstachel"
+				'en-us': "Finishing Stinger",
+				'fr-fr': "Dard Final",
+				'es-es': "Aguijón Definitivo",
+				'it-it': "Puntura Finale",
+				'pt-br': "Ferrão Final",
+				'de-de': "Finalstachel"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon has no damage counters on it before this attack does damage, this attack does nothing.",
-				fr: "Si le Pokémon Actif de votre adversaire n’a aucun marqueur de dégâts avant que cette attaque n’inflige des dégâts, cette attaque ne fait rien.",
-				es: "Si el Pokémon Activo de tu rival no tiene ningún contador de daño sobre él antes de que este ataque inflija daño, este ataque no hace nada.",
-				it: "Se il Pokémon attivo del tuo avversario non ha segnalini danno prima che questo attacco infligga danni, questo attacco non ha effetto.",
-				pt: "Se o Pokémon Ativo do seu oponente não tiver nenhum contador de dano nele antes deste ataque causar dano, este ataque não fará nada.",
-				de: "Wenn auf dem Aktiven Pokémon deines Gegners keine Schadensmarken liegen, bevor diese Attacke Schaden zufügt, hat diese Attacke keine Auswirkungen."
+				'en-us': "If your opponent’s Active Pokémon has no damage counters on it before this attack does damage, this attack does nothing.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire n’a aucun marqueur de dégâts avant que cette attaque n’inflige des dégâts, cette attaque ne fait rien.",
+				'es-es': "Si el Pokémon Activo de tu rival no tiene ningún contador de daño sobre él antes de que este ataque inflija daño, este ataque no hace nada.",
+				'it-it': "Se il Pokémon attivo del tuo avversario non ha segnalini danno prima che questo attacco infligga danni, questo attacco non ha effetto.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente não tiver nenhum contador de dano nele antes deste ataque causar dano, este ataque não fará nada.",
+				'de-de': "Wenn auf dem Aktiven Pokémon deines Gegners keine Schadensmarken liegen, bevor diese Attacke Schaden zufügt, hat diese Attacke keine Auswirkungen."
 			},
 			damage: 70,
 
@@ -64,12 +64,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Guillotine",
-				fr: "Guillotine",
-				es: "Guillotina",
-				it: "Ghigliottina",
-				pt: "Guilhotina",
-				de: "Guillotine"
+				'en-us': "Guillotine",
+				'fr-fr': "Guillotine",
+				'es-es': "Guillotina",
+				'it-it': "Ghigliottina",
+				'pt-br': "Guilhotina",
+				'de-de': "Guillotine"
 			},
 
 			damage: 90,
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
+		'en-us': "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
 	},
 
 	thirdParty: {

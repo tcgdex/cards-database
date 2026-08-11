@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Ponyta"
+		'en-us': "Ponyta"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -28,7 +28,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Kick"
+				'en-us': "Smash Kick"
 			},
 
 			damage: 20,
@@ -40,7 +40,7 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flame Tail"
+				'en-us': "Flame Tail"
 			},
 
 			damage: 30,
@@ -58,7 +58,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its hooves are 10 times harder than diamonds. It can trample anything flat in moments."
+		'en-us': "Its hooves are 10 times harder than diamonds. It can trample anything flat in moments."
 	},
 
 	variants: [

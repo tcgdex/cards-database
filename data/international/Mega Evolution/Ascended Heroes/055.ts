@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		es: "Pikachu",
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'es-es': "Pikachu",
 		'es-mx': "Pikachu",
-		de: "Pikachu",
-		it: "Pikachu",
-		pt: "Pikachu"
+		'de-de': "Pikachu",
+		'it-it': "Pikachu",
+		'pt-br': "Pikachu"
 	},
 
 	illustrator: "kamonabe",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Tail Smack",
-			fr: "Coup de Queue",
-			es: "Bofetón Cola",
+			'en-us': "Tail Smack",
+			'fr-fr': "Coup de Queue",
+			'es-es': "Bofetón Cola",
 			'es-mx': "Cachetazo de Cola",
-			de: "Schweifschlag",
-			it: "Codasberla",
-			pt: "Ataque de Cauda"
+			'de-de': "Schweifschlag",
+			'it-it': "Codasberla",
+			'pt-br': "Ataque de Cauda"
 		},
 
 		damage: 10
@@ -40,13 +40,13 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Tiny Bolt",
-			fr: "Foudre Minuscule",
-			es: "Relampaguito",
+			'en-us': "Tiny Bolt",
+			'fr-fr': "Foudre Minuscule",
+			'es-es': "Relampaguito",
 			'es-mx': "Minirrayo",
-			de: "Mini-Blitz",
-			it: "Minifulmine",
-			pt: "Corisquinho"
+			'de-de': "Mini-Blitz",
+			'it-it': "Minifulmine",
+			'pt-br': "Corisquinho"
 		},
 
 		damage: 30

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Dragonair δ",
-		fr: "Draco δ",
-		de: "Dragonir"
+		'en-us': "Dragonair δ",
+		'fr-fr': "Draco δ",
+		'de-de': "Dragonir"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dratini",
-		fr: "Minidraco"
+		'en-us': "Dratini",
+		'fr-fr': "Minidraco"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slam",
-				fr: "Souplesse",
-				de: "Slam"
+				'en-us': "Slam",
+				'fr-fr': "Souplesse",
+				'de-de': "Slam"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 20 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 20 damage times the number of heads."
 			},
 			damage: "20x",
 
@@ -56,9 +56,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Rage",
-				fr: "Draco-rage",
-				de: "Dragon Rage"
+				'en-us': "Dragon Rage",
+				'fr-fr': "Draco-rage",
+				'de-de': "Dragon Rage"
 			},
 
 			damage: 40,

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bronzor",
-		fr: "Archéomire",
-		es: "Bronzor",
-		it: "Bronzor",
-		pt: "Bronzor",
-		de: "Bronzel"
+		'en-us': "Bronzor",
+		'fr-fr': "Archéomire",
+		'es-es': "Bronzor",
+		'it-it': "Bronzor",
+		'pt-br': "Bronzor",
+		'de-de': "Bronzel"
 	},
 
 	illustrator: "Mizue",
@@ -22,12 +22,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 30,
@@ -51,7 +51,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Polishing Bronzor to a shine makes its surface reflect the truth, according to common lore. Be that as it may, Bronzor hates being polished."
+		'en-us': "Polishing Bronzor to a shine makes its surface reflect the truth, according to common lore. Be that as it may, Bronzor hates being polished."
 	},
 
 	variants: [

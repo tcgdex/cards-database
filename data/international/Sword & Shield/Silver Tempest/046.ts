@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Keldeo",
-		fr: "Keldeo",
-		es: "Keldeo",
-		it: "Keldeo",
-		pt: "Keldeo",
-		de: "Keldeo"
+		'en-us': "Keldeo",
+		'fr-fr': "Keldeo",
+		'es-es': "Keldeo",
+		'it-it': "Keldeo",
+		'pt-br': "Keldeo",
+		'de-de': "Keldeo"
 	},
 
 	illustrator: "Atsushi Furusawa",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Wave Splash",
-			fr: "Grosse Vague",
-			es: "Chapoteo Ondulante",
-			it: "Schizzi d'Onda",
-			pt: "Onda Borrifante",
-			de: "Wellenplatscher"
+			'en-us': "Wave Splash",
+			'fr-fr': "Grosse Vague",
+			'es-es': "Chapoteo Ondulante",
+			'it-it': "Schizzi d'Onda",
+			'pt-br': "Onda Borrifante",
+			'de-de': "Wellenplatscher"
 		},
 
 		damage: 20
@@ -38,21 +38,21 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Four as One",
-			fr: "Quatre pour Un",
-			es: "Cuatro para Uno",
-			it: "Tetrasintonia",
-			pt: "Quatro em Um",
-			de: "Viererpakt"
+			'en-us': "Four as One",
+			'fr-fr': "Quatre pour Un",
+			'es-es': "Cuatro para Uno",
+			'it-it': "Tetrasintonia",
+			'pt-br': "Quatro em Um",
+			'de-de': "Viererpakt"
 		},
 
 		effect: {
-			en: "If Cobalion, Terrakion, and Virizion are on your Bench, this attack does 170 more damage.",
-			fr: "Si Cobaltium, Terrakium et Viridium sont sur votre Banc, cette attaque inflige 170 dégâts supplémentaires.",
-			es: "Si Cobalion, Terrakion y Virizion están en tu Banca, este ataque hace 170 puntos de daño más.",
-			it: "Se Cobalion, Terrakion e Virizion sono nella tua panchina, questo attacco infligge 170 danni in più.",
-			pt: "Se Cobalion, Terrakion e Virizion estiverem no seu Banco, este ataque causará 170 pontos de dano a mais.",
-			de: "Wenn sich Kobalium, Terrakium und Viridium auf deiner Bank befinden, fügt diese Attacke 170 Schadenspunkte mehr zu."
+			'en-us': "If Cobalion, Terrakion, and Virizion are on your Bench, this attack does 170 more damage.",
+			'fr-fr': "Si Cobaltium, Terrakium et Viridium sont sur votre Banc, cette attaque inflige 170 dégâts supplémentaires.",
+			'es-es': "Si Cobalion, Terrakion y Virizion están en tu Banca, este ataque hace 170 puntos de daño más.",
+			'it-it': "Se Cobalion, Terrakion e Virizion sono nella tua panchina, questo attacco infligge 170 danni in più.",
+			'pt-br': "Se Cobalion, Terrakion e Virizion estiverem no seu Banco, este ataque causará 170 pontos de dano a mais.",
+			'de-de': "Wenn sich Kobalium, Terrakium und Viridium auf deiner Bank befinden, fügt diese Attacke 170 Schadenspunkte mehr zu."
 		},
 
 		damage: "50+"
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
+		'en-us': "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
 	},
 
 	variants: [

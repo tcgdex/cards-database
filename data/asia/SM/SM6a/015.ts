@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コイキング",
+		'ja-jp': "コイキング",
 	},
 
 	illustrator: "Sekio",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "無闇に 跳ねて すぐ 襲われるが コイキングの おかげで 多くの ポケモンが 生き延びられると いう。",
+		'ja-jp': "無闇に 跳ねて すぐ 襲われるが コイキングの おかげで 多くの ポケモンが 生き延びられると いう。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Water"],
 			effect: {
-				ja: "コインを1回投げオモテなら、10ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、10ダメージ追加。",
 			},
 		},
 	],

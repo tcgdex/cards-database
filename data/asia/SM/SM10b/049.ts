@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブリザードタウン",
+		'ja-jp': "ブリザードタウン",
 	},
 
 	illustrator: "Ryo Ueda",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいの場の残りHPが「40」以下のポケモンは、ワザが使えない。",
+		'ja-jp': "おたがいの場の残りHPが「40」以下のポケモンは、ワザが使えない。",
 	},
 
 	variants: [

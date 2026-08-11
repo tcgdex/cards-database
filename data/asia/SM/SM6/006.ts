@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビビヨン",
+		'ja-jp': "ビビヨン",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "住んでいる 気候や 風土によって 羽の 模様が 違う ポケモン。 色鮮やかな りんぷんを まく。",
+		'ja-jp': "住んでいる 気候や 風土によって 羽の 模様が 違う ポケモン。 色鮮やかな りんぷんを まく。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Grass"],
 			effect: {
-				ja: "相手のバトルポケモンをどくとねむりにする。",
+				'ja-jp': "相手のバトルポケモンをどくとねむりにする。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コフーライ",
+		'ja-jp': "コフーライ",
 	},
 
 	retreat: 1,

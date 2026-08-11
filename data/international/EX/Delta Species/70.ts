@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Holon's Magnemite",
-		fr: "Magneti d'Holon",
-		de: "Holon-Magnetilo"
+		'en-us': "Holon's Magnemite",
+		'fr-fr': "Magneti d'Holon",
+		'de-de': "Holon-Magnetilo"
 	},
 
 	illustrator: "Katsura Tabata",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Linear Attack",
-				fr: "Attaque linéaire",
-				de: "Linear Attack"
+				'en-us': "Linear Attack",
+				'fr-fr': "Attaque linéaire",
+				'de-de': "Linear Attack"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},

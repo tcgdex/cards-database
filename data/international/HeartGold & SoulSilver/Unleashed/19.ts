@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Lucario",
-		fr: "Lucario",
-		de: "Lucario"
+		'en-us': "Lucario",
+		'fr-fr': "Lucario",
+		'de-de': "Lucario"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Riolu",
-		fr: "Riolu"
+		'en-us': "Riolu",
+		'fr-fr': "Riolu"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bulk Up",
-				fr: "Gonflette",
-				de: "Protzer"
+				'en-us': "Bulk Up",
+				'fr-fr': "Gonflette",
+				'de-de': "Protzer"
 			},
 			effect: {
-				en: "During your next turn, each of Lucario's attacks does 30 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
-				fr: "Lors de votre prochain tour, chaque attaque de Lucario inflige 30 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance).",
-				de: "In deinem nächsten Zug fügen Lucarios Angriffe dem Verteidigenden Pokémon 30 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "During your next turn, each of Lucario's attacks does 30 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Lors de votre prochain tour, chaque attaque de Lucario inflige 30 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "In deinem nächsten Zug fügen Lucarios Angriffe dem Verteidigenden Pokémon 30 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 			damage: 30,
 
@@ -52,9 +52,9 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Magnum Punch",
-				fr: "Poing magnum",
-				de: "Magnum-Schlag"
+				'en-us': "Magnum Punch",
+				'fr-fr': "Poing magnum",
+				'de-de': "Magnum-Schlag"
 			},
 
 			damage: 50,
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It’s said that no foe can remain invisible to Lucario, since it can detect auras, even foes it could not otherwise see."
+		'en-us': "It’s said that no foe can remain invisible to Lucario, since it can detect auras, even foes it could not otherwise see."
 	},
 
 	variants: [

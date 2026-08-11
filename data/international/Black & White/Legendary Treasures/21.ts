@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Ninetales",
+		'en-us': "Ninetales",
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vulpix",
+		'en-us': "Vulpix",
 	},
 
 	stage: "Stage1",
@@ -35,10 +35,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Color Coordination",
+				'en-us': "Color Coordination",
 			},
 			effect: {
-				en: "If this Pokémon has any basic Energy attached to it that is the same type as the Defending Pokémon, this attack does 40 more damage.",
+				'en-us': "If this Pokémon has any basic Energy attached to it that is the same type as the Defending Pokémon, this attack does 40 more damage.",
 			},
 			damage: 50,
 
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Each of its nine tails is imbued with supernatural power, and it can live for a thousand years.",
+		'en-us': "Each of its nine tails is imbued with supernatural power, and it can live for a thousand years.",
 	},
 
 	thirdParty: {

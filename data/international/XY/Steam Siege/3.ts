@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Hoppip",
-		fr: "Granivol",
-		es: "Hoppip",
-		it: "Hoppip",
-		pt: "Hoppip",
-		de: "Hoppspross"
+		'en-us': "Hoppip",
+		'fr-fr': "Granivol",
+		'es-es': "Hoppip",
+		'it-it': "Hoppip",
+		'pt-br': "Hoppip",
+		'de-de': "Hoppspross"
 	},
 
 	illustrator: "Mina Nakai",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Splash",
-				fr: "Trempette",
-				es: "Salpicadura",
-				it: "Splash",
-				pt: "Borrifada",
-				de: "Platscher"
+				'en-us': "Splash",
+				'fr-fr': "Trempette",
+				'es-es': "Salpicadura",
+				'it-it': "Splash",
+				'pt-br': "Borrifada",
+				'de-de': "Platscher"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.",
+		'en-us': "It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.",
 	},
 
 	thirdParty: {

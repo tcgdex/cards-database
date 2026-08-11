@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Swablu",
-		fr: "Tylton",
-		es: "Swablu",
-		it: "Swablu",
-		pt: "Swablu",
-		de: "Wablu"
+		'en-us': "Swablu",
+		'fr-fr': "Tylton",
+		'es-es': "Swablu",
+		'it-it': "Swablu",
+		'pt-br': "Swablu",
+		'de-de': "Wablu"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Disarming Voice",
-			fr: "Voix Enjôleuse",
-			es: "Voz Cautivadora",
-			it: "Incantavoce",
-			pt: "Voz Desarmante",
-			de: "Säuselstimme"
+			'en-us': "Disarming Voice",
+			'fr-fr': "Voix Enjôleuse",
+			'es-es': "Voz Cautivadora",
+			'it-it': "Incantavoce",
+			'pt-br': "Voz Desarmante",
+			'de-de': "Säuselstimme"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
 		damage: 10

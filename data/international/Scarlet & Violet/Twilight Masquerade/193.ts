@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Palafin ex",
-		fr: "Superdofin-ex",
-		es: "Palafin ex",
-		it: "Palafin-ex",
-		pt: "Palafin ex",
-		de: "Delfinator-ex"
+		'en-us': "Palafin ex",
+		'fr-fr': "Superdofin-ex",
+		'es-es': "Palafin ex",
+		'it-it': "Palafin-ex",
+		'pt-br': "Palafin ex",
+		'de-de': "Delfinator-ex"
 	},
 
 	rarity: "Ultra Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 340,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Finizen",
-		fr: "Dofin",
-		es: "Finizen",
-		it: "Finizen",
-		pt: "Finizen",
-		de: "Normifin"
+		'en-us': "Finizen",
+		'fr-fr': "Dofin",
+		'es-es': "Finizen",
+		'it-it': "Finizen",
+		'pt-br': "Finizen",
+		'de-de': "Normifin"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Hero's Spirit",
-			fr: "Âme Héroïque",
-			es: "Espíritu Heroico",
-			it: "Spirito dell'Eroe",
-			pt: "Espírito de Herói",
-			de: "Superheldenmut"
+			'en-us': "Hero's Spirit",
+			'fr-fr': "Âme Héroïque",
+			'es-es': "Espíritu Heroico",
+			'it-it': "Spirito dell'Eroe",
+			'pt-br': "Espírito de Herói",
+			'de-de': "Superheldenmut"
 		},
 
 		effect: {
-			en: "Put this Pokémon into play only with the effect of Palafin's Zero to Hero Ability.",
-			fr: "Ce Pokémon ne peut être mis en jeu que par l'effet du talent Supermutation de Superdofin.",
-			es: "Pon este Pokémon en juego solo con el efecto de la habilidad Cambio Heroico de Palafin.",
-			it: "Metti questo Pokémon in gioco solo per effetto dell'abilità Supercambio di Palafin.",
-			pt: "Coloque este Pokémon em jogo somente com o efeito da Habilidade Do Abismo ao Heroísmo de Palafin.",
-			de: "Bringe dieses Pokémon nur mit dem Effekt von Delfinators Fähigkeit Superwechsel ins Spiel."
+			'en-us': "Put this Pokémon into play only with the effect of Palafin's Zero to Hero Ability.",
+			'fr-fr': "Ce Pokémon ne peut être mis en jeu que par l'effet du talent Supermutation de Superdofin.",
+			'es-es': "Pon este Pokémon en juego solo con el efecto de la habilidad Cambio Heroico de Palafin.",
+			'it-it': "Metti questo Pokémon in gioco solo per effetto dell'abilità Supercambio di Palafin.",
+			'pt-br': "Coloque este Pokémon em jogo somente com o efeito da Habilidade Do Abismo ao Heroísmo de Palafin.",
+			'de-de': "Bringe dieses Pokémon nur mit dem Effekt von Delfinators Fähigkeit Superwechsel ins Spiel."
 		}
 	}],
 
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Giga Impact",
-			fr: "Giga Impact",
-			es: "Gigaimpacto",
-			it: "Gigaimpatto",
-			pt: "Gigaimpacto",
-			de: "Gigastoß"
+			'en-us': "Giga Impact",
+			'fr-fr': "Giga Impact",
+			'es-es': "Gigaimpacto",
+			'it-it': "Gigaimpatto",
+			'pt-br': "Gigaimpacto",
+			'de-de': "Gigastoß"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 250

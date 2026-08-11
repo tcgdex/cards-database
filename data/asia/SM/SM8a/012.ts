@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリキテル",
+		'ja-jp': "エリキテル",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "頭の 両わきの ひだには 太陽の 光を 浴びると 発電する 細胞が あるのだ。",
+		'ja-jp': "頭の 両わきの ひだには 太陽の 光を 浴びると 発電する 細胞が あるのだ。",
 	},
 
 	stage: "Basic",

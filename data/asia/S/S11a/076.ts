@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レシラムV",
+		'ja-jp': "レシラムV",
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "きらめくつばさ" },
 			cost: ["Fire"],
 			effect: {
-				ja: "自分の山札から基本エネルギーを2枚まで選び、自分のポケモン1匹につける。そして山札を切る。",
+				'ja-jp': "自分の山札から基本エネルギーを2枚まで選び、自分のポケモン1匹につける。そして山札を切る。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "コインを1回投げウラなら、次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "コインを1回投げウラなら、次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オノンド",
+		'ja-jp': "オノンド",
 	},
 
 	illustrator: "Taiga Kasai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "折れた キバは 生え変わらないので 戦いが 終わると 河原の 岩で キバを 丹念に 磨く。",
+		'ja-jp': "折れた キバは 生え変わらないので 戦いが 終わると 河原の 岩で キバを 丹念に 磨く。",
 	},
 
 	stage: "Stage1",
@@ -38,7 +38,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "キバゴ",
+		'ja-jp': "キバゴ",
 	},
 
 	retreat: 2,

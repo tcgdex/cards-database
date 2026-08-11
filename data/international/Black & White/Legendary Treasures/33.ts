@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Piplup",
+		'en-us': "Piplup",
 	},
 
 	illustrator: "Mizue",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Splash",
+				'en-us': "Water Splash",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
 			},
 			damage: 10,
 
@@ -50,7 +50,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
+		'en-us': "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
 	},
 
 	thirdParty: {

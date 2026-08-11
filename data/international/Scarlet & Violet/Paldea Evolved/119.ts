@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Hexadron",
-		en: "Falinks",
-		es: "Falinks",
-		it: "Falinks",
-		pt: "Falinks",
-		de: "Legios"
+		'fr-fr': "Hexadron",
+		'en-us': "Falinks",
+		'es-es': "Falinks",
+		'it-it': "Falinks",
+		'pt-br': "Falinks",
+		'de-de': "Legios"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Coup d'Boule",
-			en: "Headbutt",
-			es: "Golpe Cabeza",
-			it: "Bottintesta",
-			pt: "Cabeçada",
-			de: "Kopfnuss"
+			'fr-fr': "Coup d'Boule",
+			'en-us': "Headbutt",
+			'es-es': "Golpe Cabeza",
+			'it-it': "Bottintesta",
+			'pt-br': "Cabeçada",
+			'de-de': "Kopfnuss"
 		},
 
 		damage: 20
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Attaque Risquée Groupée",
-			en: "Reckless Charge Together",
-			es: "Carga Descuidada Conjunta",
-			it: "Carica Avventata Collettiva",
-			pt: "Carga Indomável Unida",
-			de: "Waghalsiger Team-Sturmangriff"
+			'fr-fr': "Attaque Risquée Groupée",
+			'en-us': "Reckless Charge Together",
+			'es-es': "Carga Descuidada Conjunta",
+			'it-it': "Carica Avventata Collettiva",
+			'pt-br': "Carga Indomável Unida",
+			'de-de': "Waghalsiger Team-Sturmangriff"
 		},
 
 		effect: {
-			fr: "Si Hexadron est sur votre Banc, cette attaque inflige 90 dégâts supplémentaires.",
-			en: "If Falinks is on your Bench, this attack does 90 more damage.",
-			es: "Si Falinks está en tu Banca, este ataque hace 90 puntos de daño más.",
-			it: "Se Falinks è nella tua panchina, questo attacco infligge 90 danni in più.",
-			pt: "Se Falinks estiver no seu Banco, este ataque causará 90 pontos de dano a mais.",
-			de: "Wenn sich Legios auf deiner Bank befindet, fügt diese Attacke 90 Schadenspunkte mehr zu."
+			'fr-fr': "Si Hexadron est sur votre Banc, cette attaque inflige 90 dégâts supplémentaires.",
+			'en-us': "If Falinks is on your Bench, this attack does 90 more damage.",
+			'es-es': "Si Falinks está en tu Banca, este ataque hace 90 puntos de daño más.",
+			'it-it': "Se Falinks è nella tua panchina, questo attacco infligge 90 danni in più.",
+			'pt-br': "Se Falinks estiver no seu Banco, este ataque causará 90 pontos de dano a mais.",
+			'de-de': "Wenn sich Legios auf deiner Bank befindet, fügt diese Attacke 90 Schadenspunkte mehr zu."
 		},
 
 		damage: "70+"
@@ -88,7 +88,7 @@ const card: Card = {
 	illustrator: "kurumitsu",
 
 	description: {
-		en: "The brass, which is the one that stands at the front and issues orders, is the strongest and smartest of the six.",
+		'en-us': "The brass, which is the one that stands at the front and issues orders, is the strongest and smartest of the six.",
 	},
 }
 

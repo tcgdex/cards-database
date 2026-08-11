@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Riolu",
-		fr: "Riolu",
-		es: "Riolu",
-		it: "Riolu",
-		pt: "Riolu",
-		de: "Riolu"
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
+		'es-es': "Riolu",
+		'it-it': "Riolu",
+		'pt-br': "Riolu",
+		'de-de': "Riolu"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Punch",
-			fr: "Koud'Poing",
-			es: "Puño",
-			it: "Pugno",
-			pt: "Soco",
-			de: "Boxhieb"
+			'en-us': "Punch",
+			'fr-fr': "Koud'Poing",
+			'es-es': "Puño",
+			'it-it': "Pugno",
+			'pt-br': "Soco",
+			'de-de': "Boxhieb"
 		},
 
 		damage: 10
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Reckless Charge",
-			fr: "Attaque Imprudente",
-			es: "Carga Descuidada",
-			it: "Carica Avventata",
-			pt: "Carga Indomável",
-			de: "Waghalsiger Sturmangriff"
+			'en-us': "Reckless Charge",
+			'fr-fr': "Attaque Imprudente",
+			'es-es': "Carga Descuidada",
+			'it-it': "Carica Avventata",
+			'pt-br': "Carga Indomável",
+			'de-de': "Waghalsiger Sturmangriff"
 		},
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 20 dégâts.",
-			es: "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 20 danni a se stesso.",
-			pt: "Este Pokémon também causa 20 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 20 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 20 dégâts.",
+			'es-es': "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 20 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 20 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu."
 		},
 
 		damage: 50
@@ -76,7 +76,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "They communicate with one another using their auras. They are able to run all through the night.",
+		'en-us': "They communicate with one another using their auras. They are able to run all through the night.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハウンドア（HR）",
+		'ja-jp': "ハウンドア（HR）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Fire"],
 			name: {
-				ja: "スモッグ",
+				'ja-jp': "スモッグ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fire", "Fire"],
 			name: {
-				ja: "火を集めます",
+				'ja-jp': "火を集めます",
 			},
 			effect: {
-				ja: "廃棄パイルにファイアエネルギーカードがある場合は、それらの1つを選択して、ハウンドに取り付けます。",
+				'ja-jp': "廃棄パイルにファイアエネルギーカードがある場合は、それらの1つを選択して、ハウンドに取り付けます。",
 			},
 			damage: 20,
 		},

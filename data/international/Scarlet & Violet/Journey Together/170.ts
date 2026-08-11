@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hop's Wooloo",
-		fr: "Moumouton de Nabil",
-		es: "Wooloo de Paul",
-		de: "Hops Wolly",
-		it: "Wooloo di Hop",
-		pt: "Wooloo do Lupo",
+		'en-us': "Hop's Wooloo",
+		'fr-fr': "Moumouton de Nabil",
+		'es-es': "Wooloo de Paul",
+		'de-de': "Hops Wolly",
+		'it-it': "Wooloo di Hop",
+		'pt-br': "Wooloo do Lupo",
 		'es-mx': "Wooloo de Paul"
 	},
 
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Smash Kick",
-			fr: "Coud'Pattes",
-			es: "Patada Destrucción",
-			de: "Schmetterkick",
-			it: "Calcio Esplosivo",
-			pt: "Chute Poderoso",
+			'en-us': "Smash Kick",
+			'fr-fr': "Coud'Pattes",
+			'es-es': "Patada Destrucción",
+			'de-de': "Schmetterkick",
+			'it-it': "Calcio Esplosivo",
+			'pt-br': "Chute Poderoso",
 			'es-mx': "Patada Devastadora"
 		},
 

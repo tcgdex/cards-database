@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../S'
 
 const set: Set = {
 	id: 'S8',
 
 	name: {
-		ja: 'フュージョンアーツ',
-		ko: '퓨전아츠',
+		'ja-jp': 'フュージョンアーツ',
+		'ko-kr': '퓨전아츠',
 		'zh-tw': '匯流藝術',
-		id: 'Teknik Fusion',
-		th: 'ฟิวชันอาร์ต'
+		'id-id': 'Teknik Fusion',
+		'th-th': 'ฟิวชันอาร์ต'
 	},
 
 	serie: serie,
@@ -19,10 +19,10 @@ const set: Set = {
 	},
 
 	releaseDate: {
-		ja: '2021-09-24',
+		'ja-jp': '2021-09-24',
 		'zh-tw': '2021-10-01',
-		id: '2022-01-21',
-		th: '2021-11-26'
+		'id-id': '2022-01-21',
+		'th-th': '2021-11-26'
 	},
 
 	thirdParty: {

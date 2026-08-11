@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ネンドール",
+		'ja-jp': "ネンドール",
 	},
 
 	illustrator: "Yumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "２万年前の 古代人が 泥で 作った 人形に 命が 宿ったと 言われている。",
+		'ja-jp': "２万年前の 古代人が 泥で 作った 人形に 命が 宿ったと 言われている。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "40×",
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のトラッシュにある「ダイゴの決断」の枚数x40ダメージ。",
+				'ja-jp': "自分のトラッシュにある「ダイゴの決断」の枚数x40ダメージ。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤジロン",
+		'ja-jp': "ヤジロン",
 	},
 
 	retreat: 2,

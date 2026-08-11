@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レジギガス",
+		'ja-jp': "レジギガス",
 	},
 
 	illustrator: "GOSSAN",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "縄で 縛った 大陸を 引っ張って 動かしたという 伝説が 残されている。",
+		'ja-jp': "縄で 縛った 大陸を 引っ張って 動かしたという 伝説が 残されている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュから基本エネルギーを1枚選び、このポケモンにつける。",
+				'ja-jp': "自分のトラッシュから基本エネルギーを1枚選び、このポケモンにつける。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "120×",
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数×120ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数×120ダメージ。",
 			},
 		},
 	],

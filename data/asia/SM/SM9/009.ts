@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カイロス",
+		'ja-jp': "カイロス",
 	},
 
 	illustrator: "Eri Yamaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "クワガノンと 縄張りを 争う。 アローラでは なぜか ヘラクロスと 結構 仲が 良いらしい。",
+		'ja-jp': "クワガノンと 縄張りを 争う。 アローラでは なぜか ヘラクロスと 結構 仲が 良いらしい。",
 	},
 
 	stage: "Basic",
@@ -24,14 +24,14 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 		{
 			name: { ja: "ギロチンハッグ" },
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、すべてオモテなら、相手のバトルポケモンをきぜつさせる。",
+				'ja-jp': "コインを2回投げ、すべてオモテなら、相手のバトルポケモンをきぜつさせる。",
 			},
 		},
 	],

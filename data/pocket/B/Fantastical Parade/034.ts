@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [259],
 
 	name: {
-		en: "Marshtomp"
+		'en-us': "Marshtomp"
 	},
 
 	illustrator: "sui",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Mudkip"
+		'en-us': "Mudkip"
 	},
 
 	description: {
-		en: "It is at its best when on muddy ground that offers\npoor footing. It quickly overwhelms opponents\nthat are bogged down and unable to move."
+		'en-us': "It is at its best when on muddy ground that offers\npoor footing. It quickly overwhelms opponents\nthat are bogged down and unable to move."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Surf"
+			'en-us': "Surf"
 		},
 
 		damage: 40,

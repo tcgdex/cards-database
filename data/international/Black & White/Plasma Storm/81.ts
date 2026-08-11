@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Conkeldurr",
-		fr: "Bétochef",
-		es: "Conkeldurr",
-		it: "Conkeldurr",
-		pt: "Conkeldurr",
-		de: "Meistagrif"
+		'en-us': "Conkeldurr",
+		'fr-fr': "Bétochef",
+		'es-es': "Conkeldurr",
+		'it-it': "Conkeldurr",
+		'pt-br': "Conkeldurr",
+		'de-de': "Meistagrif"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gurdurr",
-		fr: "Ouvrifier",
+		'en-us': "Gurdurr",
+		'fr-fr': "Ouvrifier",
 	},
 
 	stage: "Stage2",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Facade",
-				fr: "Façade",
+				'en-us': "Facade",
+				'fr-fr': "Façade",
 			},
 			effect: {
-				en: "If this Pokémon is Burned or Poisoned, this attack does 60 more damage.",
-				fr: "Si ce Pokémon est Brûlé ou Empoisonné, cette attaque inflige 60 dégâts supplémentaires.",
+				'en-us': "If this Pokémon is Burned or Poisoned, this attack does 60 more damage.",
+				'fr-fr': "Si ce Pokémon est Brûlé ou Empoisonné, cette attaque inflige 60 dégâts supplémentaires.",
 			},
 			damage: 60,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drain Punch",
-				fr: "Vampipoing",
+				'en-us': "Drain Punch",
+				'fr-fr': "Vampipoing",
 			},
 			effect: {
-				en: "Heal 20 damage from this Pokémon.",
-				fr: "Soignez 20 dégâts à ce Pokémon.",
+				'en-us': "Heal 20 damage from this Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à ce Pokémon.",
 			},
 			damage: 80,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Rather than rely on force, they master moves that utilize the centrifugal force of spinning concrete.",
+		'en-us': "Rather than rely on force, they master moves that utilize the centrifugal force of spinning concrete.",
 	},
 
 	thirdParty: {

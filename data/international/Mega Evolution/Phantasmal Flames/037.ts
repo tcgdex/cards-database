@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Snubbull",
-		fr: "Snubbull",
-		es: "Snubbull",
+		'en-us': "Snubbull",
+		'fr-fr': "Snubbull",
+		'es-es': "Snubbull",
 		'es-mx': "Snubbull",
-		de: "Snubbull",
-		it: "Snubbull",
-		pt: "Snubbull"
+		'de-de': "Snubbull",
+		'it-it': "Snubbull",
+		'pt-br': "Snubbull"
 	},
 
 	rarity: "Common",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
 			'es-mx': "Tacleada",
-			de: "Tackle",
-			it: "Azione",
-			pt: "Investida"
+			'de-de': "Tackle",
+			'it-it': "Azione",
+			'pt-br': "Investida"
 		},
 
 		damage: 20
@@ -48,7 +48,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "In truth, it is a cowardly Pokémon. It growls eagerly in order to hide its fear from its opponent.",
+		'en-us': "In truth, it is a cowardly Pokémon. It growls eagerly in order to hide its fear from its opponent.",
 	},
 
 	illustrator: "Gapao",

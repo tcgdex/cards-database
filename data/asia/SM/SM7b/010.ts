@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "テッカニン",
+		'ja-jp': "テッカニン",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "あまりに 高速で 動くため 姿が 見えなくなる ことがある。 樹液に 集まってくる。",
+		'ja-jp': "あまりに 高速で 動くため 姿が 見えなくなる ことがある。 樹液に 集まってくる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ぬぎのこし" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のトラッシュにある「ヌケニン」を1枚、ベンチに出す。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のトラッシュにある「ヌケニン」を1枚、ベンチに出す。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "40+",
 			cost: ["Grass"],
 			effect: {
-				ja: "コインを1回投げオモテなら、40ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、40ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ツチニン",
+		'ja-jp': "ツチニン",
 	},
 
 	retreat: 0,

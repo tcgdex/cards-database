@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レジエレキV",
+		'ja-jp': "レジエレキV",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Lightning"],
 			effect: {
-				ja: "このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-100」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-100」される。",
 			},
 		},
 	],

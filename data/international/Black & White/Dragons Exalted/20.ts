@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Magmar",
-		fr: "Magmar",
-		es: "Magmar",
-		it: "Magmar",
-		pt: "Magmar",
-		de: "Magmar"
+		'en-us': "Magmar",
+		'fr-fr': "Magmar",
+		'es-es': "Magmar",
+		'it-it': "Magmar",
+		'pt-br': "Magmar",
+		'de-de': "Magmar"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beat",
-				fr: "Bataille",
+				'en-us': "Beat",
+				'fr-fr': "Bataille",
 			},
 
 			damage: 10,
@@ -48,8 +48,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magma Punch",
-				fr: "Poing Magma",
+				'en-us': "Magma Punch",
+				'fr-fr': "Poing Magma",
 			},
 
 			damage: 50,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When it breathes deeply, heat waves form around its body, making it hard to see clearly.",
+		'en-us': "When it breathes deeply, heat waves form around its body, making it hard to see clearly.",
 	},
 
 	thirdParty: {

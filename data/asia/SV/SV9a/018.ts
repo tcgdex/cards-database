@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヒビキのマグマッグ",
+		'ja-jp': "ヒビキのマグマッグ",
 		'zh-tw': "<阿響的>熔岩蟲",
 		'zh-cn': "<阿響的>熔岩蟲"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "溶岩で できた 体は 冷えて 欠けてしまうこともあるが マグマに 浸かると 治るのだ。",
+		'ja-jp': "溶岩で できた 体は 冷えて 欠けてしまうこともあるが マグマに 浸かると 治るのだ。",
 		'zh-tw': "由熔岩構成的身體有時會因 冷卻而碎缺，但只要浸泡在 岩漿中就會恢復了。",
 		'zh-cn': "由熔岩構成的身體有時會因 冷卻而碎缺，但只要浸泡在 岩漿中就會恢復了。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "ひをはく",
+			'ja-jp': "ひをはく",
 			'zh-tw': "吐火",
 			'zh-cn': "吐火"
 		},

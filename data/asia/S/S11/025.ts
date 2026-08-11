@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホエルコ",
+		'ja-jp': "ホエルコ",
 		'zh-tw': "吼吼鯨",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "飲みこんだ 海水を 目の 上の 鼻の 穴から 噴き出し アピール。 毎日 １トンの ヨワシを 食う。",
+		'ja-jp': "飲みこんだ 海水を 目の 上の 鼻の 穴から 噴き出し アピール。 毎日 １トンの ヨワシを 食う。",
 		'zh-tw': "把喝入的海水從眼睛上方的鼻孔中噴出來吸引他人。 每天要吃１噸弱丁魚。",
 	},
 
@@ -23,19 +23,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ゴクゴクのむ",
+				'ja-jp': "ゴクゴクのむ",
 				'zh-tw': "咕嘟咕嘟喝水",
 			},
 			damage: 30,
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。",
+				'ja-jp': "相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。",
 				'zh-tw': "將這隻寶可夢恢復對對手的戰鬥寶可夢造成的傷害相同數值的HP。",
 			},
 		},
 		{
 			name: {
-				ja: "スプラッシュ",
+				'ja-jp': "スプラッシュ",
 				'zh-tw': "飛濺",
 			},
 			damage: 60,

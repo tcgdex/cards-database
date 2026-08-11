@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Energy Removal 2",
-		fr: "Suppression d'Énergie 2",
-		de: "Energie-Absauger 2"
+		'en-us': "Energy Removal 2",
+		'fr-fr': "Suppression d'Énergie 2",
+		'de-de': "Energie-Absauger 2"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,9 +15,9 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		en: "Flip a coin. If heads, choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it.",
-		fr: "Lancez une pièce. Si c'est face, choisissez 1 carte Énergie attachée à 1 des Pokémon de votre adversaire et défaussez-la.",
-		de: "Wirf 1 Münze. Wähle bei \"Kopf\" 1 Energiekarte, die an 1 Pokémon deines Gegners angelegt ist, und lege sie auf seinen Ablagestapel."
+		'en-us': "Flip a coin. If heads, choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it.",
+		'fr-fr': "Lancez une pièce. Si c'est face, choisissez 1 carte Énergie attachée à 1 des Pokémon de votre adversaire et défaussez-la.",
+		'de-de': "Wirf 1 Münze. Wähle bei \"Kopf\" 1 Energiekarte, die an 1 Pokémon deines Gegners angelegt ist, und lege sie auf seinen Ablagestapel."
 	},
 
 	thirdParty: {

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポケモンキャッチャー",
+		'ja-jp': "ポケモンキャッチャー",
 	},
 
 	illustrator: "Toyste Beach",
 	category: "Trainer",
 
 	effect: {
-		ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+		'ja-jp': "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
 	},
 
 	variants: [

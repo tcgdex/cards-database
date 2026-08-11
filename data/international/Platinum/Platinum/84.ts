@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Nosepass",
-		fr: "Tarinor",
-		de: "Nasgnet"
+		'en-us': "Nosepass",
+		'fr-fr': "Tarinor",
+		'de-de': "Nasgnet"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pull",
-				fr: "Tirer",
-				de: "Pull"
+				'en-us': "Pull",
+				'fr-fr': "Tirer",
+				'de-de': "Pull"
 			},
 			effect: {
-				en: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
-				fr: "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire.",
-				de: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon."
+				'en-us': "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
+				'fr-fr': "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire.",
+				'de-de': "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				de: "Rollout"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'de-de': "Rollout"
 			},
 
 			damage: 20,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When endangered, it may protect itself by raising its magnetism and drawing iron objects to its body."
+		'en-us': "When endangered, it may protect itself by raising its magnetism and drawing iron objects to its body."
 	},
 
 	variants: [

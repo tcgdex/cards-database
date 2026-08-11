@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Minun",
+		'en-us': "Minun",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Negative Ion",
+				'en-us': "Negative Ion",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).",
+				'en-us': "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).",
 			},
 
 		},
@@ -41,10 +41,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Electrishower",
+				'en-us': "Electrishower",
 			},
 			effect: {
-				en: "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'en-us': "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			},
 
 		},
@@ -60,7 +60,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It cheers on friends. If its friends are losing, its body lets off more and more sparks.",
+		'en-us': "It cheers on friends. If its friends are losing, its body lets off more and more sparks.",
 	},
 
 	thirdParty: {

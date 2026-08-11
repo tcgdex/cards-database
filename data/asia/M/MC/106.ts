@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビクティニ",
+		'ja-jp': "ビクティニ",
 	},
 
 	illustrator: "Shibuzoh.",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "勝利を もたらす ポケモン。 ビクティニを 連れた トレーナーは どんな 勝負にも 勝てるという。",
+		'ja-jp': "勝利を もたらす ポケモン。 ビクティニを 連れた トレーナーは どんな 勝負にも 勝てるという。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ぱたぱた" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。",
+				'ja-jp': "自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Fire"],
 			effect: {
-				ja: "相手のバトルポケモンについている特殊エネルギーを1個選び、トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについている特殊エネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガントル",
+		'ja-jp': "ガントル",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "洞窟で 地下水を 探す。 水自体は 得意では ないので ちびりちびりと ゆっくり 舐める。",
+		'ja-jp': "洞窟で 地下水を 探す。 水自体は 得意では ないので ちびりちびりと ゆっくり 舐める。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ダンゴロ",
+		'ja-jp': "ダンゴロ",
 	},
 
 	retreat: 4,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Ekans δ",
-		fr: "Abo δ",
-		de: "Rettan"
+		'en-us': "Ekans δ",
+		'fr-fr': "Abo δ",
+		'de-de': "Rettan"
 	},
 
 	illustrator: "Yuka Morii",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Biss"
 			},
 
 			damage: 10,
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Snap",
-				fr: "Coud' queue sec",
-				de: "Schweifhieb"
+				'en-us': "Tail Snap",
+				'fr-fr': "Coud' queue sec",
+				'de-de': "Schweifhieb"
 			},
 
 			damage: 20,

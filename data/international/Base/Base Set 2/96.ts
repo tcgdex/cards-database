@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Tangela",
+		'en-us': "Tangela",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bind",
+				'en-us': "Bind",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 20,
 
@@ -45,10 +45,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poisonpowder",
+				'en-us': "Poisonpowder",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
+				'en-us': "The Defending Pokémon is now Poisoned.",
 			},
 			damage: 30,
 
@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its whole body is swathed with wide vines that are similar to seaweed. These vines shake as it walks.",
+		'en-us': "Its whole body is swathed with wide vines that are similar to seaweed. These vines shake as it walks.",
 	},
 
 

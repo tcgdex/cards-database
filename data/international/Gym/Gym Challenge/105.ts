@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Giovanni's Last Resort"
+		'en-us': "Giovanni's Last Resort"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -12,7 +12,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Remove all damage counters from 1 of your Pokémon with Giovanni in its name. Then discard your hand."
+		'en-us': "Remove all damage counters from 1 of your Pokémon with Giovanni in its name. Then discard your hand."
 	},
 	variants: [
 		{

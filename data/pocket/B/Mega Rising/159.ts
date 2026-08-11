@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skrelp"
+		'en-us': "Skrelp"
 	},
 
 	illustrator: "Mina Nakai",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "This Pokémon is a poor swimmer. If it's caught in\na fierce storm, it will sometimes get washed far\naway and become unable to return to its home."
+		'en-us': "This Pokémon is a poor swimmer. If it's caught in\na fierce storm, it will sometimes get washed far\naway and become unable to return to its home."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Razor Fin"
+			'en-us': "Razor Fin"
 		},
 
 		damage: 40,

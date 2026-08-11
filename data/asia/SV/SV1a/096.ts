@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "マスカーニャex"
+		'ja-jp': "マスカーニャex"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -19,11 +19,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ブーケマジック"
+			'ja-jp': "ブーケマジック"
 		},
 
 		effect: {
-			ja: "自分の番に、自分の手札から「基本エネルギー」を1枚トラッシュするなら、1回使える。相手のベンチポケモン1匹に、ダメカンを3個のせる。"
+			'ja-jp': "自分の番に、自分の手札から「基本エネルギー」を1枚トラッシュするなら、1回使える。相手のベンチポケモン1匹に、ダメカンを3個のせる。"
 		}
 	}],
 
@@ -31,13 +31,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "スクラッチネイル"
+			'ja-jp': "スクラッチネイル"
 		},
 
 		damage: "100＋",
 
 		effect: {
-			ja: "相手のバトルポケモンにダメカンがのっているなら、120ダメージ追加。"
+			'ja-jp': "相手のバトルポケモンにダメカンがのっているなら、120ダメージ追加。"
 		}
 	}],
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スイクンV",
+		'ja-jp': "スイクンV",
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "しゅんそく" },
 			effect: {
-				ja: "このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札を1枚引く。",
+				'ja-jp': "このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札を1枚引く。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "おたがいのベンチポケモンの数×20ダメージ追加。",
+				'ja-jp': "おたがいのベンチポケモンの数×20ダメージ追加。",
 			},
 		},
 	],

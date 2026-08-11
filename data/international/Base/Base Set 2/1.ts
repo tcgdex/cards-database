@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Alakazam",
+		'en-us': "Alakazam",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kadabra",
+		'en-us': "Kadabra",
 	},
 
 	stage: "Stage2",
@@ -31,10 +31,10 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Damage Swap",
+				'en-us': "Damage Swap",
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokémon to another as long as you don't Knock Out that Pokémon. This power can't be used if Alakazam is Asleep, Confused, or Paralyzed.",
+				'en-us': "As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokémon to another as long as you don't Knock Out that Pokémon. This power can't be used if Alakazam is Asleep, Confused, or Paralyzed.",
 			},
 		},
 	],
@@ -47,10 +47,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Confuse Ray",
+				'en-us': "Confuse Ray",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 			},
 			damage: 30,
 
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its brain can outperform a supercomputer. Its intelligence quotient is said to be 5000.",
+		'en-us': "Its brain can outperform a supercomputer. Its intelligence quotient is said to be 5000.",
 	},
 
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビブラーバ",
+		'ja-jp': "ビブラーバ",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "未熟な 翅は 飛ぶことよりも 擦って 超音波を 出して 敵を 攻撃するのに 使う。",
+		'ja-jp': "未熟な 翅は 飛ぶことよりも 擦って 超音波を 出して 敵を 攻撃するのに 使う。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "ナックラー",
+		'ja-jp': "ナックラー",
 	},
 
 	retreat: 1,

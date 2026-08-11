@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Lampent",
-		fr: "Mélancolux",
-		es: "Lampent",
-		it: "Lampent",
-		pt: "Lampent",
-		de: "Laternecto"
+		'en-us': "Lampent",
+		'fr-fr': "Mélancolux",
+		'es-es': "Lampent",
+		'it-it': "Lampent",
+		'pt-br': "Lampent",
+		'de-de': "Laternecto"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Litwick",
-		fr: "Funécire",
+		'en-us': "Litwick",
+		'fr-fr': "Funécire",
 	},
 
 	stage: "Stage1",
@@ -40,8 +40,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Live Coal",
-				fr: "Charbon Mutant",
+				'en-us': "Live Coal",
+				'fr-fr': "Charbon Mutant",
 			},
 
 			damage: 20,
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Searing Flame",
-				fr: "Flammes Calcinantes",
+				'en-us': "Searing Flame",
+				'fr-fr': "Flammes Calcinantes",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				'en-us': "The Defending Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé.",
 			},
 			damage: 40,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The spirits it absorbs fuel its baleful fire. It hangs around hospitals waiting for people to pass on.",
+		'en-us': "The spirits it absorbs fuel its baleful fire. It hangs around hospitals waiting for people to pass on.",
 	},
 
 	thirdParty: {

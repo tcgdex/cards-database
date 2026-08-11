@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Fomantis",
-		fr: "Mimantis",
-		es: "Fomantis",
-		it: "Fomantis",
-		pt: "Fomantis",
-		de: "Imantis"
+		'en-us': "Fomantis",
+		'fr-fr': "Mimantis",
+		'es-es': "Fomantis",
+		'it-it': "Fomantis",
+		'pt-br': "Fomantis",
+		'de-de': "Imantis"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Synthesis",
-				fr: "Synthèse",
-				es: "Síntesis",
-				it: "Sintesi",
-				pt: "Síntese",
-				de: "Synthese"
+				'en-us': "Synthesis",
+				'fr-fr': "Synthèse",
+				'es-es': "Síntesis",
+				'it-it': "Sintesi",
+				'pt-br': "Síntese",
+				'de-de': "Synthese"
 			},
 			effect: {
-				en: "Search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.",
-				fr: "Cherchez une carte Énergie Grass dans votre deck et attachez-la à l’un de vos Pokémon. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja 1 carta de Energía Grass y únela a 1 de tus Pokémon. Después, baraja las cartas de tu baraja.",
-				it: "Cerca nel tuo mazzo una carta Energia Grass e assegnala a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure por 1 carta de Energia Grass no seu baralho e ligue-a a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach 1 Grass-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
+				'en-us': "Search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.",
+				'fr-fr': "Cherchez une carte Énergie Grass dans votre deck et attachez-la à l’un de vos Pokémon. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja 1 carta de Energía Grass y únela a 1 de tus Pokémon. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo una carta Energia Grass e assegnala a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por 1 carta de Energia Grass no seu baralho e ligue-a a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach 1 Grass-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leafage",
-				fr: "Feuillage",
-				es: "Follaje",
-				it: "Fogliame",
-				pt: "Folhagem",
-				de: "Blattwerk"
+				'en-us': "Leafage",
+				'fr-fr': "Feuillage",
+				'es-es': "Follaje",
+				'it-it': "Fogliame",
+				'pt-br': "Folhagem",
+				'de-de': "Blattwerk"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They give off a sweet and refreshing scent. Cutiefly often gather near the tall grass where Fomantis are hiding.",
+		'en-us': "They give off a sweet and refreshing scent. Cutiefly often gather near the tall grass where Fomantis are hiding.",
 	},
 
 	thirdParty: {

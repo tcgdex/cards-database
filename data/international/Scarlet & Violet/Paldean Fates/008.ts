@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charmeleon",
-		fr: "Reptincel",
-		es: "Charmeleon",
-		it: "Charmeleon",
-		pt: "Charmeleon",
-		de: "Glutexo"
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel",
+		'es-es': "Charmeleon",
+		'it-it': "Charmeleon",
+		'pt-br': "Charmeleon",
+		'de-de': "Glutexo"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Charmander",
-		fr: "Salamèche",
-		es: "Charmander",
-		it: "Charmander",
-		pt: "Charmander",
-		de: "Glumanda"
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche",
+		'es-es': "Charmander",
+		'it-it': "Charmander",
+		'pt-br': "Charmander",
+		'de-de': "Glumanda"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Flare Veil",
-			fr: "Voile Flamboyant",
-			es: "Velo Ígneo",
-			it: "Fuocovelo",
-			pt: "Véu de Chamas",
-			de: "Flammenschleier"
+			'en-us': "Flare Veil",
+			'fr-fr': "Voile Flamboyant",
+			'es-es': "Velo Ígneo",
+			'it-it': "Fuocovelo",
+			'pt-br': "Véu de Chamas",
+			'de-de': "Flammenschleier"
 		},
 
 		effect: {
-			en: "Prevent all effects of attacks used by your opponent's Pokémon done to this Pokémon. (Damage is not an effect.)",
-			fr: "Évitez tous les effets infligés à ce Pokémon provenant des attaques utilisées par les Pokémon de votre adversaire. (Les dégâts ne sont pas un effet.)",
-			es: "Se evitan todos los efectos de los ataques usados por los Pokémon de tu rival e infligidos a este Pokémon. (El daño no es un efecto).",
-			it: "Previeni tutti gli effetti inflitti a questo Pokémon dagli attacchi usati dai Pokémon del tuo avversario. I danni non sono un effetto.",
-			pt: "Previna todos os efeitos de ataques usados pelos Pokémon do seu oponente causados a este Pokémon. (Dano não é um efeito.)",
-			de: "Verhindere alle Effekte der von Pokémon deines Gegners eingesetzten Attacken, die diesem Pokémon zugefügt werden. (Schaden ist kein Effekt.)"
+			'en-us': "Prevent all effects of attacks used by your opponent's Pokémon done to this Pokémon. (Damage is not an effect.)",
+			'fr-fr': "Évitez tous les effets infligés à ce Pokémon provenant des attaques utilisées par les Pokémon de votre adversaire. (Les dégâts ne sont pas un effet.)",
+			'es-es': "Se evitan todos los efectos de los ataques usados por los Pokémon de tu rival e infligidos a este Pokémon. (El daño no es un efecto).",
+			'it-it': "Previeni tutti gli effetti inflitti a questo Pokémon dagli attacchi usati dai Pokémon del tuo avversario. I danni non sono un effetto.",
+			'pt-br': "Previna todos os efeitos de ataques usados pelos Pokémon do seu oponente causados a este Pokémon. (Dano não é um efeito.)",
+			'de-de': "Verhindere alle Effekte der von Pokémon deines Gegners eingesetzten Attacken, die diesem Pokémon zugefügt werden. (Schaden ist kein Effekt.)"
 		}
 	}],
 
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			en: "Combustion",
-			fr: "Fournaise",
-			es: "Combustión",
-			it: "Fuoco Continuo",
-			pt: "Combustão",
-			de: "Glühen"
+			'en-us': "Combustion",
+			'fr-fr': "Fournaise",
+			'es-es': "Combustión",
+			'it-it': "Fuoco Continuo",
+			'pt-br': "Combustão",
+			'de-de': "Glühen"
 		},
 
 		damage: 50
@@ -103,7 +103,7 @@ const card: Card = {
 	illustrator: "Tonji Matsuno",
 
 	description: {
-		en: "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.",
+		'en-us': "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.",
 	},
 
 }

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Meloetta",
-		fr: "Meloetta",
-		es: "Meloetta",
-		it: "Meloetta",
-		pt: "Meloetta",
-		de: "Meloetta"
+		'en-us': "Meloetta",
+		'fr-fr': "Meloetta",
+		'es-es': "Meloetta",
+		'it-it': "Meloetta",
+		'pt-br': "Meloetta",
+		'de-de': "Meloetta"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psychic",
-				fr: "Psyko",
+				'en-us': "Psychic",
+				'fr-fr': "Psyko",
 			},
 			effect: {
-				en: "Does 20 more damage for each Energy attached to the Defending Pokémon.",
-				fr: "Inflige 20 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Does 20 more damage for each Energy attached to the Defending Pokémon.",
+				'fr-fr': "Inflige 20 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 10,
 
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Echoed Voice",
-				fr: "Écho",
+				'en-us': "Echoed Voice",
+				'fr-fr': "Écho",
 			},
 			effect: {
-				en: "During your next turn, this Pokémon's Echoed Voice attack does 50 more damage (before applying Weakness and Resistance).",
-				fr: "Pendant votre prochain tour, l'attaque Écho de ce Pokémon inflige 50 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				'en-us': "During your next turn, this Pokémon's Echoed Voice attack does 50 more damage (before applying Weakness and Resistance).",
+				'fr-fr': "Pendant votre prochain tour, l'attaque Écho de ce Pokémon inflige 50 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: 50,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The melodies sung by Meloetta have the power to make Pokémon that hear them happy or sad.",
+		'en-us': "The melodies sung by Meloetta have the power to make Pokémon that hear them happy or sad.",
 	},
 
 	thirdParty: {

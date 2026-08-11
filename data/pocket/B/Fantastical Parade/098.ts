@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [263],
 
 	name: {
-		en: "Galarian Zigzagoon"
+		'en-us': "Galarian Zigzagoon"
 	},
 
 	illustrator: "kirisAki",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "Thought to be the oldest form of Zigzagoon,\nit moves in zigzags and wreaks havoc upon\nits surroundings."
+		'en-us': "Thought to be the oldest form of Zigzagoon,\nit moves in zigzags and wreaks havoc upon\nits surroundings."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Dig Claws"
+			'en-us': "Dig Claws"
 		},
 
 		damage: 20,

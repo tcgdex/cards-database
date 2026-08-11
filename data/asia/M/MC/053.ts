@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビリジオン",
+		'ja-jp': "ビリジオン",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "コバルオン テラキオンと ともに イッシュ地方の ポケモンたちを 守り続けた 伝説が 残る。",
+		'ja-jp': "コバルオン テラキオンと ともに イッシュ地方の ポケモンたちを 守り続けた 伝説が 残る。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「30」回復する。",
+				'ja-jp': "このポケモンのHPを「30」回復する。",
 			},
 		},
 		{

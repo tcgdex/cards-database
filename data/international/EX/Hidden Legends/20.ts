@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Masquerain",
-		fr: "Maskadra",
-		de: "Maskeregen"
+		'en-us': "Masquerain",
+		'fr-fr': "Maskadra",
+		'de-de': "Maskeregen"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Surskit",
-		fr: "Arakdo"
+		'en-us': "Surskit",
+		'fr-fr': "Arakdo"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlwind",
-				fr: "Cyclone",
-				de: "Whirlwind"
+				'en-us': "Whirlwind",
+				'fr-fr': "Cyclone",
+				'de-de': "Whirlwind"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
-				de: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
+				'de-de': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
 			},
 			damage: 20,
 
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Silver Wind",
-				fr: "Vent argenté",
-				de: "Silver Wind"
+				'en-us': "Silver Wind",
+				'fr-fr': "Vent argenté",
+				'de-de': "Silver Wind"
 			},
 			effect: {
-				en: "During your next turn, if an attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 30 more damage.",
-				fr: "Lors de votre prochain tour, si vous attaquez en utilisant le Vent argenté de Maskadra (après application de la Faiblesse et de la Résistance), cette attaque inflige 30 dégâts supplémentaires.",
-				de: "During your next turn, if an attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 30 more damage."
+				'en-us': "During your next turn, if an attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 30 more damage.",
+				'fr-fr': "Lors de votre prochain tour, si vous attaquez en utilisant le Vent argenté de Maskadra (après application de la Faiblesse et de la Résistance), cette attaque inflige 30 dégâts supplémentaires.",
+				'de-de': "During your next turn, if an attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 30 more damage."
 			},
 			damage: 30,
 

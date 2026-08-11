@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クレベース",
+		'ja-jp': "クレベース",
 	},
 
 	illustrator: "sowsow",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "背中に 数匹の カチコールを 乗せて 暮らす 様子は まるで 氷の 航空母艦のようだ。",
+		'ja-jp': "背中に 数匹の カチコールを 乗せて 暮らす 様子は まるで 氷の 航空母艦のようだ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、相手は手札からスタジアムを出せない。",
+				'ja-jp': "次の相手の番、相手は手札からスタジアムを出せない。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カチコール",
+		'ja-jp': "カチコール",
 	},
 
 	retreat: 4,

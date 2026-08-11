@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sylveon",
-		fr: "Nymphali",
-		es: "Sylveon",
-		pt: "Sylveon",
-		it: "Sylveon",
-		de: "Feelinara"
+		'en-us': "Sylveon",
+		'fr-fr': "Nymphali",
+		'es-es': "Sylveon",
+		'pt-br': "Sylveon",
+		'it-it': "Sylveon",
+		'de-de': "Feelinara"
 	},
 
 	rarity: "Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
-		es: "Eevee",
-		pt: "Eevee",
-		it: "Eevee",
-		de: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
+		'es-es': "Eevee",
+		'pt-br': "Eevee",
+		'it-it': "Eevee",
+		'de-de': "Evoli"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Safeguard",
-			fr: "Rune Protect",
-			es: "Velo Sagrado",
-			pt: "Salvaguarda",
-			it: "Salvaguardia",
-			de: "Bodyguard"
+			'en-us': "Safeguard",
+			'fr-fr': "Rune Protect",
+			'es-es': "Velo Sagrado",
+			'pt-br': "Salvaguarda",
+			'it-it': "Salvaguardia",
+			'de-de': "Bodyguard"
 		},
 
 		effect: {
-			en: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon ex.",
-			fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon-ex de votre adversaire.",
-			es: "Se evita todo el daño infligido a este Pokémon por ataques de los Pokémon ex de tu rival.",
-			pt: "Previna todo o dano causado a este Pokémon por ataques dos Pokémon ex do seu oponente.",
-			it: "Previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon-ex del tuo avversario.",
-			de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Pokémon-ex deines Gegners zugefügt wird."
+			'en-us': "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon ex.",
+			'fr-fr': "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon-ex de votre adversaire.",
+			'es-es': "Se evita todo el daño infligido a este Pokémon por ataques de los Pokémon ex de tu rival.",
+			'pt-br': "Previna todo o dano causado a este Pokémon por ataques dos Pokémon ex do seu oponente.",
+			'it-it': "Previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon-ex del tuo avversario.",
+			'de-de': "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Pokémon-ex deines Gegners zugefügt wird."
 		}
 	}],
 
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Magical Shot",
-			fr: "Coup Magique",
-			es: "Disparo Mágico",
-			pt: "Tiro Mágico",
-			it: "Magicolpo",
-			de: "Magischer Schuss"
+			'en-us': "Magical Shot",
+			'fr-fr': "Coup Magique",
+			'es-es': "Disparo Mágico",
+			'pt-br': "Tiro Mágico",
+			'it-it': "Magicolpo",
+			'de-de': "Magischer Schuss"
 		},
 
 		damage: 100

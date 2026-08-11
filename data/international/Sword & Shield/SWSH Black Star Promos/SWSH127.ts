@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
@@ -7,18 +7,18 @@ const card: Card = {
 	category: "Pokemon",
 
 	description: {
-		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions."
+		'en-us': "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions."
 	},
 
 	stage: "Basic",
 
 	name: {
-		en: "Eevee",
-		fr: "Évoli",
-		de: "Evoli",
-		es: "Eevee",
-		pt: "Eevee",
-		it: "Eevee"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
+		'de-de': "Evoli",
+		'es-es': "Eevee",
+		'pt-br': "Eevee",
+		'it-it': "Eevee"
 	},
 
 	rarity: "Promo",
@@ -30,32 +30,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Be Prepared",
-			fr: "Prêt à Tout",
-			de: "Vorbereitungen treffen",
-			es: "Prepárate",
-			pt: "Planejamento",
-			it: "Pronti a Tutto"
+			'en-us': "Be Prepared",
+			'fr-fr': "Prêt à Tout",
+			'de-de': "Vorbereitungen treffen",
+			'es-es': "Prepárate",
+			'pt-br': "Planejamento",
+			'it-it': "Pronti a Tutto"
 		},
 
 		effect: {
-			en: "Attach a basic Energy card from your hand to this Pokémon.",
-			fr: "Attachez une carte Énergie de base de votre main à ce Pokémon.",
-			de: "Lege 1 Basis-Energiekarte aus deiner Hand an dieses Pokémon an.",
-			es: "Une 1 carta de Energía Básica de tu mano a este Pokémon.",
-			pt: "Ligue 1 carta de Energia básica da sua mão a este Pokémon.",
-			it: "Assegna a questo Pokémon una carta Energia base dalla tua mano."
+			'en-us': "Attach a basic Energy card from your hand to this Pokémon.",
+			'fr-fr': "Attachez une carte Énergie de base de votre main à ce Pokémon.",
+			'de-de': "Lege 1 Basis-Energiekarte aus deiner Hand an dieses Pokémon an.",
+			'es-es': "Une 1 carta de Energía Básica de tu mano a este Pokémon.",
+			'pt-br': "Ligue 1 carta de Energia básica da sua mão a este Pokémon.",
+			'it-it': "Assegna a questo Pokémon una carta Energia base dalla tua mano."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			de: "Biss",
-			es: "Mordisco",
-			pt: "Mordida",
-			it: "Morso"
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'de-de': "Biss",
+			'es-es': "Mordisco",
+			'pt-br': "Mordida",
+			'it-it': "Morso"
 		},
 
 		damage: 30

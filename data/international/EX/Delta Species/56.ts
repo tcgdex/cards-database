@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Volbeat",
-		fr: "Muciole",
-		de: "Volbeat"
+		'en-us': "Volbeat",
+		'fr-fr': "Muciole",
+		'de-de': "Volbeat"
 	},
 
 	illustrator: "Midori Harada",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Extra Protection",
-				fr: "Protection supplémentaire",
-				de: "Extra Protection"
+				'en-us': "Extra Protection",
+				'fr-fr': "Protection supplémentaire",
+				'de-de': "Extra Protection"
 			},
 			effect: {
-				en: "As long as you have Illumise in play, prevent all effects, including damage, done to Volbeat by attacks from your opponent's Pokémon-ex.",
-				fr: "Tant que votre Lumivole est en jeu, prévenez tous les effets, dégâts inclus, infligés à Muciole par des attaques de Pokémon-ex de votre adversaire.",
-				de: "As long as you have Illumise in play, prevent all effects, including damage, done to Volbeat by attacks from your opponent's Pokémon-ex."
+				'en-us': "As long as you have Illumise in play, prevent all effects, including damage, done to Volbeat by attacks from your opponent's Pokémon-ex.",
+				'fr-fr': "Tant que votre Lumivole est en jeu, prévenez tous les effets, dégâts inclus, infligés à Muciole par des attaques de Pokémon-ex de votre adversaire.",
+				'de-de': "As long as you have Illumise in play, prevent all effects, including damage, done to Volbeat by attacks from your opponent's Pokémon-ex."
 			},
 		},
 	],
@@ -48,14 +48,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Swift",
-				fr: "Météores",
-				de: "Swift"
+				'en-us': "Swift",
+				'fr-fr': "Météores",
+				'de-de': "Swift"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
-				de: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
+				'de-de': "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
 			},
 			damage: 30,
 

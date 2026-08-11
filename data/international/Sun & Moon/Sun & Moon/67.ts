@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Makuhita",
-		fr: "Makuhita",
-		es: "Makuhita",
-		it: "Makuhita",
-		pt: "Makuhita",
-		de: "Makuhita"
+		'en-us': "Makuhita",
+		'fr-fr': "Makuhita",
+		'es-es': "Makuhita",
+		'it-it': "Makuhita",
+		'pt-br': "Makuhita",
+		'de-de': "Makuhita"
 	},
 
 	illustrator: "Mina Nakai",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Surprise Attack",
-				fr: "Attaque Surprise",
-				es: "Ataque Sorpresa",
-				it: "Attacco a Sorpresa",
-				pt: "Ataque Surpresa",
-				de: "Überraschungsangriff"
+				'en-us': "Surprise Attack",
+				'fr-fr': "Attaque Surprise",
+				'es-es': "Ataque Sorpresa",
+				'it-it': "Attacco a Sorpresa",
+				'pt-br': "Ataque Surpresa",
+				'de-de': "Überraschungsangriff"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
-				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-				pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
-				de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+				'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+				'pt-br': "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+				'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strength",
-				fr: "Force",
-				es: "Fuerza",
-				it: "Forza",
-				pt: "Força",
-				de: "Stärke"
+				'en-us': "Strength",
+				'fr-fr': "Force",
+				'es-es': "Fuerza",
+				'it-it': "Forza",
+				'pt-br': "Força",
+				'de-de': "Stärke"
 			},
 
 			damage: 40,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It was originally brought in from another region, but now Makuhita from Alola are more famous.",
+		'en-us': "It was originally brought in from another region, but now Makuhita from Alola are more famous.",
 	},
 
 	thirdParty: {

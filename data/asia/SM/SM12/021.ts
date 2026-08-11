@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トドグラー",
+		'ja-jp': "トドグラー",
 	},
 
 	illustrator: "miki kudo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "鼻の 神経が 敏感。 はじめて 目に する 物は 鼻で 触って 覚えるのだ。",
+		'ja-jp': "鼻の 神経が 敏感。 はじめて 目に する 物は 鼻で 触って 覚えるのだ。",
 	},
 
 	stage: "Stage1",
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "タマザラシ",
+		'ja-jp': "タマザラシ",
 	},
 
 	retreat: 3,

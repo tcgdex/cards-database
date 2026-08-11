@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Donphan",
-		fr: "Donphan",
-		de: "Donphan"
+		'en-us': "Donphan",
+		'fr-fr': "Donphan",
+		'de-de': "Donphan"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Phanpy",
-		fr: "Phanpy"
+		'en-us': "Phanpy",
+		'fr-fr': "Phanpy"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Rock Hurl",
-				fr: "Lance-pierre",
-				de: "Steinschleuderer"
+				'en-us': "Rock Hurl",
+				'fr-fr': "Lance-pierre",
+				'de-de': "Steinschleuderer"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				de: "Der Schaden dieses Angriffs wird durch die Resistenz des Verteidigenden Pokémon nicht verringert."
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'de-de': "Der Schaden dieses Angriffs wird durch die Resistenz des Verteidigenden Pokémon nicht verringert."
 			},
 			damage: 20,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Spin",
-				fr: "Double tour",
-				de: "Doppeldreher"
+				'en-us': "Double Spin",
+				'fr-fr': "Double tour",
+				'de-de': "Doppeldreher"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 50 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "50x",
 

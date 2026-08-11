@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Cascoon",
-		fr: "Blindalys",
-		es: "Cascoon",
-		it: "Cascoon",
-		pt: "Cascoon",
-		de: "Panekon"
+		'en-us': "Cascoon",
+		'fr-fr': "Blindalys",
+		'es-es': "Cascoon",
+		'it-it': "Cascoon",
+		'pt-br': "Cascoon",
+		'de-de': "Panekon"
 	},
 
 	illustrator: "Aya Kusube",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wurmple",
-		fr: "Chenipotte",
+		'en-us': "Wurmple",
+		'fr-fr': "Chenipotte",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cocoon Collector",
-				fr: "Collectionneur de Cocons",
-				es: "Colección de Crisálidas",
-				it: "Collezionista di Crisalidi",
-				pt: "Colecionador de Casulos",
-				de: "Kokonsammler"
+				'en-us': "Cocoon Collector",
+				'fr-fr': "Collectionneur de Cocons",
+				'es-es': "Colección de Crisálidas",
+				'it-it': "Collezionista di Crisalidi",
+				'pt-br': "Colecionador de Casulos",
+				'de-de': "Kokonsammler"
 			},
 			effect: {
-				en: "Search your deck for up to 4 in any combination of Silcoon and Cascoon and put them onto your Bench. Then, shuffle your deck.",
-				fr: "Cherchez une combinaison d’un maximum de 4 Armulys et Blindalys dans votre deck, et placez-les sur votre Banc. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja hasta 4 Silcoon y Cascoon, en cualquier combinación, y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
-				it: "Cerca nel tuo mazzo fino a quattro Silcoon e Cascoon in qualsiasi combinazione e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure por até 4 Silcoon e Cascoon no seu baralho em qualquer combinação e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach einer beliebigen Kombination aus bis zu 4 Schaloko und Panekon und lege sie auf deine Bank. Mische anschließend dein Deck."
+				'en-us': "Search your deck for up to 4 in any combination of Silcoon and Cascoon and put them onto your Bench. Then, shuffle your deck.",
+				'fr-fr': "Cherchez une combinaison d’un maximum de 4 Armulys et Blindalys dans votre deck, et placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja hasta 4 Silcoon y Cascoon, en cualquier combinación, y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo fino a quattro Silcoon e Cascoon in qualsiasi combinazione e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por até 4 Silcoon e Cascoon no seu baralho em qualquer combinação e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach einer beliebigen Kombination aus bis zu 4 Schaloko und Panekon und lege sie auf deine Bank. Mische anschließend dein Deck."
 			},
 
 		},
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 30,
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It never forgets any attack it endured while in the cocoon. After evolution, it seeks payback.",
+		'en-us': "It never forgets any attack it endured while in the cocoon. After evolution, it seeks payback.",
 	},
 
 	thirdParty: {

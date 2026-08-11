@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pitch Black"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Brionne",
-		fr: "Otarlette",
-		es: "Brionne",
+		'en-us': "Brionne",
+		'fr-fr': "Otarlette",
+		'es-es': "Brionne",
 		'es-mx': "Brionne",
-		de: "Marikeck",
-		it: "Brionne",
-		pt: "Brionne"
+		'de-de': "Marikeck",
+		'it-it': "Brionne",
+		'pt-br': "Brionne"
 	},
 
 	illustrator: "MINAMINAMI Take",
@@ -22,20 +22,20 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Popplio"
+		'en-us': "Popplio"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Hyper Voice",
-			fr: "Mégaphone",
-			es: "Vozarrón",
+			'en-us': "Hyper Voice",
+			'fr-fr': "Mégaphone",
+			'es-es': "Vozarrón",
 			'es-mx': "Hipervoz",
-			de: "Schallwelle",
-			it: "Granvoce",
-			pt: "Hipervoz"
+			'de-de': "Schallwelle",
+			'it-it': "Granvoce",
+			'pt-br': "Hipervoz"
 		},
 
 		cost: ["Water"],

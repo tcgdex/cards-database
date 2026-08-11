@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Beldum",
-		fr: "Terhal",
-		es: "Beldum",
-		it: "Beldum",
-		pt: "Beldum",
-		de: "Tanhel"
+		'en-us': "Beldum",
+		'fr-fr': "Terhal",
+		'es-es': "Beldum",
+		'it-it': "Beldum",
+		'pt-br': "Beldum",
+		'de-de': "Tanhel"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Calculate",
-				fr: "Calcul",
+				'en-us': "Calculate",
+				'fr-fr': "Calcul",
 			},
 			effect: {
-				en: "Look at the top 4 cards of your deck and put them back on top of your deck in any order.",
-				fr: "Regardez les 4 cartes du dessus de votre deck et replacez-les sur le dessus de votre deck dans l'ordre de votre choix.",
+				'en-us': "Look at the top 4 cards of your deck and put them back on top of your deck in any order.",
+				'fr-fr': "Regardez les 4 cartes du dessus de votre deck et replacez-les sur le dessus de votre deck dans l'ordre de votre choix.",
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psypunch",
-				fr: "Coup de Poing Psy",
+				'en-us': "Psypunch",
+				'fr-fr': "Coup de Poing Psy",
 			},
 
 			damage: 20,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its cells are all magnetic, and it communicates with others by using magnetic pulses.",
+		'en-us': "Its cells are all magnetic, and it communicates with others by using magnetic pulses.",
 	},
 
 	thirdParty: {

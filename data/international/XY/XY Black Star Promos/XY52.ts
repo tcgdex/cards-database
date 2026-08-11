@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Groudon",
-		fr: "Groudon",
+		'en-us': "Groudon",
+		'fr-fr': "Groudon",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Smash",
-				fr: "Éclate-Roc",
+				'en-us': "Rock Smash",
+				'fr-fr': "Éclate-Roc",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: "20+",
 
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Break Ground",
-				fr: "Destructerre"
+				'en-us': "Break Ground",
+				'fr-fr': "Destructerre"
 			},
 			effect: {
-				en: "This attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 10 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+				'en-us': "This attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 10 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 100,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "This legendary Pokémon is said to represent the land. It went to sleep after dueling Kyogre.",
+		'en-us': "This legendary Pokémon is said to represent the land. It went to sleep after dueling Kyogre.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Turtwig",
-		fr: "Tortipouss",
-		de: "Chelast"
+		'en-us': "Turtwig",
+		'fr-fr': "Tortipouss",
+		'de-de': "Chelast"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'de-de': "Walzer"
 			},
 
 			damage: 10,
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'herbe",
-				de: "Rasierblatt"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'herbe",
+				'de-de': "Rasierblatt"
 			},
 
 			damage: 30,
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty.",
+		'en-us': "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty.",
 	},
 
 	thirdParty: {

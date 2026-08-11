@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Hydreigon",
-		fr: "Trioxhydre",
-		es: "Hydreigon",
-		it: "Hydreigon",
-		pt: "Hydreigon",
-		de: "Trikephalo"
+		'en-us': "Hydreigon",
+		'fr-fr': "Trioxhydre",
+		'es-es': "Hydreigon",
+		'it-it': "Hydreigon",
+		'pt-br': "Hydreigon",
+		'de-de': "Trikephalo"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Zweilous",
-		fr: "Diamat",
+		'en-us': "Zweilous",
+		'fr-fr': "Diamat",
 	},
 
 	stage: "Stage2",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Consume",
-				fr: "Consumation",
+				'en-us': "Consume",
+				'fr-fr': "Consumation",
 			},
 			effect: {
-				en: "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
-				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur.",
+				'en-us': "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
+				'fr-fr': "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur.",
 			},
 			damage: 40,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Destructor Beam",
-				fr: "Rayon Destructeur",
+				'en-us': "Destructor Beam",
+				'fr-fr': "Rayon Destructeur",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 90,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "The heads on their arms do not have brains. They use all three heads to consume and destroy everything.",
+		'en-us': "The heads on their arms do not have brains. They use all three heads to consume and destroy everything.",
 	},
 
 	thirdParty: {

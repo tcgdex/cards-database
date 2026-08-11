@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Shinx"
+		'id-id': "Shinx"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Shinx menghasilkan listrik dengan kontraksi dan regangan ototnya. Ketika terdesak, bulu Pokémon ini bercahaya menyilaukan."
+		'id-id': "Shinx menghasilkan listrik dengan kontraksi dan regangan ototnya. Ketika terdesak, bulu Pokémon ini bercahaya menyilaukan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Rasa Ingin Tahu"
+			'id-id': "Rasa Ingin Tahu"
 		},
 
 		effect: {
-			id: "Lihat Kartu Pegangan lawan."
+			'id-id': "Lihat Kartu Pegangan lawan."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Berpijar-pijar"
+			'id-id': "Berpijar-pijar"
 		},
 
 		damage: 30,

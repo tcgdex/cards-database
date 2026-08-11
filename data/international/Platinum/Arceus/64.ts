@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Gastly",
-		de: "Nebulak"
+		'en-us': "Gastly",
+		'de-de': "Nebulak"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				de: "Nagen"
+				'en-us': "Gnaw",
+				'de-de': "Nagen"
 			},
 
 			damage: 10,
@@ -41,8 +41,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Suffocating Gas",
-				de: "Würgegas"
+				'en-us': "Suffocating Gas",
+				'de-de': "Würgegas"
 			},
 
 			damage: 20,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison."
+		'en-us': "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison."
 	},
 
 	variants: [

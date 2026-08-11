@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HGSS Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Meganium",
-		fr: "Meganium"
+		'en-us': "Meganium",
+		'fr-fr': "Meganium"
 	},
 	illustrator: "Noriko Hotta",
 	rarity: "Promo",
@@ -17,8 +17,8 @@ const card: Card = {
 		"Grass"
 	],
 	evolveFrom: {
-		en: "Bayleef",
-		fr: "Macronium"
+		'en-us': "Bayleef",
+		'fr-fr': "Macronium"
 	},
 	stage: "Stage2",
 
@@ -26,12 +26,12 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Leaf Trans",
-				fr: "Transfo feuille"
+				'en-us': "Leaf Trans",
+				'fr-fr': "Transfo feuille"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may move a Grass Energy attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Meganium is affected by a Special Condition.",
-				fr: "Autant de fois que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez déplacer une carte Énergie  attachée à l'un de vos Pokémon sur un autre Pokémon. Ce pouvoir ne peut pas être utilisé si Meganium est affecté par un État Spécial."
+				'en-us': "As often as you like during your turn (before your attack), you may move a Grass Energy attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Meganium is affected by a Special Condition.",
+				'fr-fr': "Autant de fois que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez déplacer une carte Énergie  attachée à l'un de vos Pokémon sur un autre Pokémon. Ce pouvoir ne peut pas être utilisé si Meganium est affecté par un État Spécial."
 			}
 		},
 	],
@@ -44,8 +44,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Solarbeam",
-				fr: "Lance-soleil"
+				'en-us': "Solarbeam",
+				'fr-fr': "Lance-soleil"
 			},
 
 			damage: 80,

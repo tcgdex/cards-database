@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スバメ",
+		'ja-jp': "スバメ",
 		'zh-tw': "傲骨燕",
 		'zh-cn': "傲骨燕",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "寒い 季節は 苦手。暖かい 土地を 探し １日 ３００キロの 距離を 飛んで 移動する。",
+		'ja-jp': "寒い 季節は 苦手。暖かい 土地を 探し １日 ３００キロの 距離を 飛んで 移動する。",
 		'zh-tw': "不擅長應付寒冷的季節。 為了尋找溫暖的地帶， 會１天飛上３００公里的距離。",
 		'zh-cn': "不擅長應付寒冷的季節。 為了尋找溫暖的地帶， 會１天飛上３００公里的距離。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "つばさでうつ",
+				'ja-jp': "つばさでうつ",
 				'zh-tw': "翅膀攻擊",
 				'zh-cn': "翅膀攻擊",
 			},

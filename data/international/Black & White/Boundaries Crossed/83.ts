@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Trapinch",
-		fr: "Kraknoix",
-		es: "Trapinch",
-		it: "Trapinch",
-		pt: "Trapinch",
-		de: "Knacklion"
+		'en-us': "Trapinch",
+		'fr-fr': "Kraknoix",
+		'es-es': "Trapinch",
+		'it-it': "Trapinch",
+		'pt-br': "Trapinch",
+		'de-de': "Knacklion"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smithereen Smash",
-				fr: "Pulvérisation",
+				'en-us': "Smithereen Smash",
+				'fr-fr': "Pulvérisation",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
 			},
 
 			damage: 20,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It makes an inescapable conical pit and lies in wait at the bottom for prey to come tumbling down.",
+		'en-us': "It makes an inescapable conical pit and lies in wait at the bottom for prey to come tumbling down.",
 	},
 
 	thirdParty: {

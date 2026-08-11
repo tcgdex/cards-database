@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Grovyle",
-		fr: "Massko",
-		de: "Reptain"
+		'en-us': "Grovyle",
+		'fr-fr': "Massko",
+		'de-de': "Reptain"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Treecko",
-		fr: "Arcko"
+		'en-us': "Treecko",
+		'fr-fr': "Arcko"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Natural Cure",
-				fr: "Remède naturel",
-				de: "Innere Kraft"
+				'en-us': "Natural Cure",
+				'fr-fr': "Remède naturel",
+				'de-de': "Innere Kraft"
 			},
 			effect: {
-				en: "When you attach a Grass Energy card from your hand to Grovyle, remove all Special Conditions from Grovyle.",
-				fr: "Lorsque vous attachez une carte Énergie  de votre main à Massko, retirez-lui tous ses États Spéciaux.",
-				de: "Wenn du eine -Energiekarte von der Hand an Reptain anlegst, verlieren alle Speziellen Zustände auf Reptain ihre Wirkung."
+				'en-us': "When you attach a Grass Energy card from your hand to Grovyle, remove all Special Conditions from Grovyle.",
+				'fr-fr': "Lorsque vous attachez une carte Énergie  de votre main à Massko, retirez-lui tous ses États Spéciaux.",
+				'de-de': "Wenn du eine -Energiekarte von der Hand an Reptain anlegst, verlieren alle Speziellen Zustände auf Reptain ihre Wirkung."
 			}
 		},
 	],
@@ -51,9 +51,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 20,

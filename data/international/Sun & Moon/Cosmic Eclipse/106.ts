@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Nosepass",
-		fr: "Tarinor",
-		es: "Nosepass",
-		it: "Nosepass",
-		pt: "Nosepass",
-		de: "Nasgnet"
+		'en-us': "Nosepass",
+		'fr-fr': "Tarinor",
+		'es-es': "Nosepass",
+		'it-it': "Nosepass",
+		'pt-br': "Nosepass",
+		'de-de': "Nasgnet"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Draw Toward",
-				fr: "Attirance",
-				es: "Acercamiento",
-				it: "Attrazione Mirata",
-				pt: "Chega Mais",
-				de: "Anziehen"
+				'en-us': "Draw Toward",
+				'fr-fr': "Attirance",
+				'es-es': "Acercamiento",
+				'it-it': "Attrazione Mirata",
+				'pt-br': "Chega Mais",
+				'de-de': "Anziehen"
 			},
 			effect: {
-				en: "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.",
-				fr: "Échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
-				es: "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
-				it: "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
-				pt: "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
-				de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
+				'en-us': "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.",
+				'fr-fr': "Échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
+				'es-es': "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
+				'it-it': "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
+				'pt-br': "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
+				'de-de': "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
 			},
 
 		},
@@ -59,20 +59,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Zap Cannon",
-				fr: "Élecanon",
-				es: "Electrocañón",
-				it: "Falcecannone",
-				pt: "Canhão Zap",
-				de: "Blitzkanone"
+				'en-us': "Zap Cannon",
+				'fr-fr': "Élecanon",
+				'es-es': "Electrocañón",
+				'it-it': "Falcecannone",
+				'pt-br': "Canhão Zap",
+				'de-de': "Blitzkanone"
 			},
 			effect: {
-				en: "This Pokémon can’t use Zap Cannon during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Élecanon pendant votre prochain tour.",
-				es: "Este Pokémon no puede usar Electrocañón durante tu próximo turno.",
-				it: "Durante il tuo prossimo turno, questo Pokémon non può usare Falcecannone.",
-				pt: "Este Pokémon não poderá usar Canhão Zap durante a sua próxima vez de jogar.",
-				de: "Dieses Pokémon kann Blitzkanone während deines nächsten Zuges nicht einsetzen."
+				'en-us': "This Pokémon can’t use Zap Cannon during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Élecanon pendant votre prochain tour.",
+				'es-es': "Este Pokémon no puede usar Electrocañón durante tu próximo turno.",
+				'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Falcecannone.",
+				'pt-br': "Este Pokémon não poderá usar Canhão Zap durante a sua próxima vez de jogar.",
+				'de-de': "Dieses Pokémon kann Blitzkanone während deines nächsten Zuges nicht einsetzen."
 			},
 			damage: 50,
 
@@ -89,7 +89,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It moves less than an inch a year, but when it's in a jam, it will spin and drill down into the ground in a split second.",
+		'en-us': "It moves less than an inch a year, but when it's in a jam, it will spin and drill down into the ground in a split second.",
 	},
 
 	thirdParty: {

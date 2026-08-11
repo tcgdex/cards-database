@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Jigglypuff",
-		fr: "Rondoudou",
-		de: "Pummeluff"
+		'en-us': "Jigglypuff",
+		'fr-fr': "Rondoudou",
+		'de-de': "Pummeluff"
 	},
 
 	illustrator: "Kenkichi Toyama",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnotic Gaze",
-				fr: "Regard hypnotique",
-				de: "Hypnotischer Blick"
+				'en-us': "Hypnotic Gaze",
+				'fr-fr': "Regard hypnotique",
+				'de-de': "Hypnotischer Blick"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Expand",
-				fr: "Pousstoidla",
-				de: "Ausdehnen"
+				'en-us': "Expand",
+				'fr-fr': "Pousstoidla",
+				'de-de': "Ausdehnen"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Jigglypuff by attacks is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Lors du prochain tour de votre adversaire, tous dégâts infligés à Rondoudou par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
-				de: "Während des nächsten Zuges deines Gegners wird Schaden, der Pummeluff durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "During your opponent's next turn, any damage done to Jigglypuff by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Lors du prochain tour de votre adversaire, tous dégâts infligés à Rondoudou par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Während des nächsten Zuges deines Gegners wird Schaden, der Pummeluff durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 20,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it wavers its big, round eyes, it begins singing a lullaby that makes everyone drowsy.",
+		'en-us': "When it wavers its big, round eyes, it begins singing a lullaby that makes everyone drowsy.",
 	},
 
 	thirdParty: {

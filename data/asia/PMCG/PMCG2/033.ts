@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サイドン",
+		'ja-jp': "サイドン",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "ホーン攻撃",
+				'ja-jp': "ホーン攻撃",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Fighting", "Fighting", "Fighting", "Fighting"],
 			name: {
-				ja: "ラム",
+				'ja-jp': "ラム",
 			},
 			effect: {
-				ja: "Rhydonはそれ自体に20のダメージを与えます。対戦相手は、ベンチ付きポケモンの1つで防御ポケモンを切り替えます。 （ポケモンを切り替える前にダメージを与えます。Rhydonがノックアウトされていても、ポケモンを切り替えてください。）",
+				'ja-jp': "Rhydonはそれ自体に20のダメージを与えます。対戦相手は、ベンチ付きポケモンの1つで防御ポケモンを切り替えます。 （ポケモンを切り替える前にダメージを与えます。Rhydonがノックアウトされていても、ポケモンを切り替えてください。）",
 			},
 			damage: 50,
 		},

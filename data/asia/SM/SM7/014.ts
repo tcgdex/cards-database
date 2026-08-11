@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダダリン",
+		'ja-jp': "ダダリン",
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "海に 漂う モズクの 魂が 生まれ変わった。 海の ゴミを モズクに 絡めて 身体を 保つ。",
+		'ja-jp': "海に 漂う モズクの 魂が 生まれ変わった。 海の ゴミを モズクに 絡めて 身体を 保つ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。",
+				'ja-jp': "相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Grass", "Grass", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],

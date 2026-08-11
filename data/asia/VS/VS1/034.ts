@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チャックのpoliwrath",
+		'ja-jp': "チャックのpoliwrath",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "強力なパンチ",
+				'ja-jp': "強力なパンチ",
 			},
 			effect: {
-				ja: "衰弱や抵抗を適用しないでください。",
+				'ja-jp': "衰弱や抵抗を適用しないでください。",
 			},
 			damage: 30,
 		},

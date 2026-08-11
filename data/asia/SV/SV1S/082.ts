@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヘイラッシャ"
+		'ja-jp': "ヘイラッシャ"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "大食らいだが エサを 取るのは 苦手。 シャリタツと コンビを 組んで 獲物を 捕らえるのだ。"
+		'ja-jp': "大食らいだが エサを 取るのは 苦手。 シャリタツと コンビを 組んで 獲物を 捕らえるのだ。"
 	},
 
 	stage: "Basic",
@@ -24,19 +24,19 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "いかりちらす"
+			'ja-jp': "いかりちらす"
 		},
 
 		damage: "50×",
 
 		effect: {
-			ja: "自分のトラッシュにある「シャリタツ」の枚数×50ダメージ。"
+			'ja-jp': "自分のトラッシュにある「シャリタツ」の枚数×50ダメージ。"
 		}
 	}, {
 		cost: ["Water", "Water", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ヘビースプラッシュ"
+			'ja-jp': "ヘビースプラッシュ"
 		},
 
 		damage: 120

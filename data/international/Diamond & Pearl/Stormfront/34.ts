@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Dusclops",
-		fr: "Teraclope",
-		de: "Zwirrklop"
+		'en-us': "Dusclops",
+		'fr-fr': "Teraclope",
+		'de-de': "Zwirrklop"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Duskull",
-		fr: "Skélénox",
+		'en-us': "Duskull",
+		'fr-fr': "Skélénox",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Dark One-eye",
-				fr: "Borgne obscur",
-				de: "Finsteres Einauge"
+				'en-us': "Dark One-eye",
+				'fr-fr': "Borgne obscur",
+				'de-de': "Finsteres Einauge"
 			},
 			effect: {
-				en: "You may discard a card from your hand. If you do, your opponent discards a card from his or her hand.",
-				fr: "Vous pouvez défausser une carte de votre main. Votre adversaire défausse alors une carte de sa main.",
-				de: "Du kannst 1 Karte von deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, legt dein Gegner 1 Karte von seiner Hand auf seinen Ablagestapel."
+				'en-us': "You may discard a card from your hand. If you do, your opponent discards a card from his or her hand.",
+				'fr-fr': "Vous pouvez défausser une carte de votre main. Votre adversaire défausse alors une carte de sa main.",
+				'de-de': "Du kannst 1 Karte von deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, legt dein Gegner 1 Karte von seiner Hand auf seinen Ablagestapel."
 			},
 			damage: 20,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ambush",
-				fr: "Embuscade",
-				de: "Hinterhalt"
+				'en-us': "Ambush",
+				'fr-fr': "Embuscade",
+				'de-de': "Hinterhalt"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 40 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 40 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -86,8 +86,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its body is hollow. It is said that those who look into its body are sucked into the void.",
-		fr: "Son corps est creux. On raconte que celui qui regarde à l'intérieur finira aspiré par le néant."
+		'en-us': "Its body is hollow. It is said that those who look into its body are sucked into the void.",
+		'fr-fr': "Son corps est creux. On raconte que celui qui regarde à l'intérieur finira aspiré par le néant."
 	},
 
 	thirdParty: {

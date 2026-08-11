@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lairon",
-		fr: "Galegon",
-		es: "Lairon",
-		it: "Lairon",
-		pt: "Lairon",
-		de: "Stollrak"
+		'en-us': "Lairon",
+		'fr-fr': "Galegon",
+		'es-es': "Lairon",
+		'it-it': "Lairon",
+		'pt-br': "Lairon",
+		'de-de': "Stollrak"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Metal"],
 	evolveFrom: {
-		en: "Aron",
-		fr: "Galekid",
-		es: "Aron",
-		it: "Aron",
-		pt: "Aron",
-		de: "Stollunior"
+		'en-us': "Aron",
+		'fr-fr': "Galekid",
+		'es-es': "Aron",
+		'it-it': "Aron",
+		'pt-br': "Aron",
+		'de-de': "Stollunior"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			en: "Steel Tackle",
-			fr: "Charge d'Acier",
-			es: "Placaje de Acero",
-			it: "Ferrazione",
-			pt: "Colisão de Aço",
-			de: "Stahltackle"
+			'en-us': "Steel Tackle",
+			'fr-fr': "Charge d'Acier",
+			'es-es': "Placaje de Acero",
+			'it-it': "Ferrazione",
+			'pt-br': "Colisão de Aço",
+			'de-de': "Stahltackle"
 		},
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 20 dégâts.",
-			es: "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 20 danni a se stesso.",
-			pt: "Este Pokémon também causa 20 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 20 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 20 dégâts.",
+			'es-es': "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 20 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 20 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu."
 		},
 
 		damage: 40
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		name: {
-			en: "Metal Claw",
-			fr: "Griffe Acier",
-			es: "Garra Metal",
-			it: "Ferrartigli",
-			pt: "Garra de Metal",
-			de: "Metallklaue"
+			'en-us': "Metal Claw",
+			'fr-fr': "Griffe Acier",
+			'es-es': "Garra Metal",
+			'it-it': "Ferrartigli",
+			'pt-br': "Garra de Metal",
+			'de-de': "Metallklaue"
 		},
 
 		damage: 60
@@ -81,7 +81,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Lairon live in mountains brimming with spring water and iron ore, so these Pokémon often came into conflict with humans in the past.",
+		'en-us': "Lairon live in mountains brimming with spring water and iron ore, so these Pokémon often came into conflict with humans in the past.",
 	},
 
 	variants: [

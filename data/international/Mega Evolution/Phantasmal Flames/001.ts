@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Oddish",
-		fr: "Mystherbe",
-		es: "Oddish",
+		'en-us': "Oddish",
+		'fr-fr': "Mystherbe",
+		'es-es': "Oddish",
 		'es-mx': "Oddish",
-		de: "Myrapla",
-		it: "Oddish",
-		pt: "Oddish"
+		'de-de': "Myrapla",
+		'it-it': "Oddish",
+		'pt-br': "Oddish"
 	},
 
 	rarity: "Common",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Seed Bomb",
-			fr: "Canon Graine",
-			es: "Bomba Germen",
+			'en-us': "Seed Bomb",
+			'fr-fr': "Canon Graine",
+			'es-es': "Bomba Germen",
 			'es-mx': "Bomba Semilla",
-			de: "Samenbomben",
-			it: "Semebomba",
-			pt: "Bomba de Sementes"
+			'de-de': "Samenbomben",
+			'it-it': "Semebomba",
+			'pt-br': "Bomba de Sementes"
 		},
 
 		damage: 20
@@ -48,7 +48,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Its scientific name is Oddium wanderus. It is said to cover distances as far as 1,000 feet when night falls, walking on its two roots.",
+		'en-us': "Its scientific name is Oddium wanderus. It is said to cover distances as far as 1,000 feet when night falls, walking on its two roots.",
 	},
 
 	illustrator: "MINAMINAMI Take",

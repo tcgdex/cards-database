@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Onix"
+		'id-id': "Onix"
 	},
 
 	illustrator: "Shiburingaru",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Onix menggali lubang secara bersemangat pada kecepatan 80 km/jam dengan menggoyang dan meliukkan tubuhnya yang besar dan kuat."
+		'id-id': "Onix menggali lubang secara bersemangat pada kecepatan 80 km/jam dengan menggoyang dan meliukkan tubuhnya yang besar dan kuat."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Tandukan Kepala Keras"
+			'id-id': "Tandukan Kepala Keras"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, pada giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan dan efek akibat serangan."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, pada giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan dan efek akibat serangan."
 		},
 
 		damage: 20,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Land Crush"
+			'id-id': "Land Crush"
 		},
 
 		damage: 80,

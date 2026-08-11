@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴロンダ",
+		'ja-jp': "ゴロンダ",
 	},
 
 	illustrator: "takashi shiraishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "気性が 荒く ケンカっ早いが 弱いものいじめは 許さない。 葉っぱで 敵の 動きを 読む。",
+		'ja-jp': "気性が 荒く ケンカっ早いが 弱いものいじめは 許さない。 葉っぱで 敵の 動きを 読む。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "自分のベンチの「ヤンチャム」にダメカンがのっているなら、120ダメージ追加。",
+				'ja-jp': "自分のベンチの「ヤンチャム」にダメカンがのっているなら、120ダメージ追加。",
 			},
 		},
 	],
@@ -61,7 +61,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤンチャム",
+		'ja-jp': "ヤンチャム",
 	},
 
 	retreat: 3,

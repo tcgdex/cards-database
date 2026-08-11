@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Morpeko"
+		'id-id': "Morpeko"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Sifat Morpeko berubah akibat hormon lapar. Pokémon ini mengamuk bagai makhluk kegelapan hingga perutnya kenyang."
+		'id-id': "Sifat Morpeko berubah akibat hormon lapar. Pokémon ini mengamuk bagai makhluk kegelapan hingga perutnya kenyang."
 	},
 
 	stage: "Basic",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Lari Kencang Perut Lapar"
+			'id-id': "Lari Kencang Perut Lapar"
 		},
 
 		effect: {
-			id: "Jika Pokémon ini tidak mengenakan Energi, Pokémon ini menjadi tidak membutuhkan Energi untuk Mundur."
+			'id-id': "Jika Pokémon ini tidak mengenakan Energi, Pokémon ini menjadi tidak membutuhkan Energi untuk Mundur."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Roda Energi"
+			'id-id': "Roda Energi"
 		},
 
 		effect: {
-			id: "Pilih 2 Energi {Kegelapan} yang dikenakan pada Pokémon ini, lalu pindahkan ke 1 Pokémon Cadangan."
+			'id-id': "Pilih 2 Energi {Kegelapan} yang dikenakan pada Pokémon ini, lalu pindahkan ke 1 Pokémon Cadangan."
 		},
 
 		damage: 70,

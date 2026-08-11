@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Torkoal",
-		fr: "Chartor",
-		es: "Torkoal",
-		it: "Torkoal",
-		pt: "Torkoal",
-		de: "Qurtel"
+		'en-us': "Torkoal",
+		'fr-fr': "Chartor",
+		'es-es': "Torkoal",
+		'it-it': "Torkoal",
+		'pt-br': "Torkoal",
+		'de-de': "Qurtel"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Stampede",
-			fr: "Ruée",
-			es: "Estampida",
-			it: "Fuggi Fuggi",
-			pt: "Estouro",
-			de: "Zertrampeln"
+			'en-us': "Stampede",
+			'fr-fr': "Ruée",
+			'es-es': "Estampida",
+			'it-it': "Fuggi Fuggi",
+			'pt-br': "Estouro",
+			'de-de': "Zertrampeln"
 		},
 
 		damage: 30
@@ -38,21 +38,21 @@ const card: Card = {
 		cost: ["Fire", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Flamethrower",
-			fr: "Lance-Flammes",
-			es: "Lanzallamas",
-			it: "Lanciafiamme",
-			pt: "Lança-chamas",
-			de: "Flammenwurf"
+			'en-us': "Flamethrower",
+			'fr-fr': "Lance-Flammes",
+			'es-es': "Lanzallamas",
+			'it-it': "Lanciafiamme",
+			'pt-br': "Lança-chamas",
+			'de-de': "Flammenwurf"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte 1 Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte 1 Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 130

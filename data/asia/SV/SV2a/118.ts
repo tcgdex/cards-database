@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トサキント",
+		'ja-jp': "トサキント",
 		'zh-tw': "角金魚",
-		th: "โทซาคินโตะ",
-		id: "Goldeen",
+		'th-th': "โทซาคินโตะ",
+		'id-id': "Goldeen",
 	},
 
 	illustrator: "SIE NANAHARA",
@@ -16,10 +16,10 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "背びれ 胸びれが 筋肉のように 発達しており 水中を ５ノットの 速さで 泳ぐ。",
+		'ja-jp': "背びれ 胸びれが 筋肉のように 発達しており 水中を ５ノットの 速さで 泳ぐ。",
 		'zh-tw': "背鰭和尾鰭像肌肉那樣發達。能夠以 ５節的速度在水中游泳。",
-		th: "ครีบหลังและครีบอกเจริญเติบโตราวกับกล้ามเนื้อ ว่ายน้ำด้วยความเร็ว 5 นอต",
-		id: "Sirip punggung dan sirip dada Goldeen tumbuh bak otot, sehingga dia bisa berenang dengan kecepatan 5 knot di dalam air.",
+		'th-th': "ครีบหลังและครีบอกเจริญเติบโตราวกับกล้ามเนื้อ ว่ายน้ำด้วยความเร็ว 5 นอต",
+		'id-id': "Sirip punggung dan sirip dada Goldeen tumbuh bak otot, sehingga dia bisa berenang dengan kecepatan 5 knot di dalam air.",
 	},
 
 	stage: "Basic",
@@ -27,26 +27,26 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "さんれんづき",
+				'ja-jp': "さんれんづき",
 				'zh-tw': "三連撞",
-				th: "พุ่งชนสามครั้ง",
-				id: "Tusukan Tiga Kali",
+				'th-th': "พุ่งชนสามครั้ง",
+				'id-id': "Tusukan Tiga Kali",
 			},
 			damage: "10×",
 			cost: ["Water"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数×10ダメージ。",
+				'ja-jp': "コインを3回投げ、オモテの数×10ダメージ。",
 				'zh-tw': "擲3次硬幣，造成正面出現的次數×10點傷害。",
-				th: "ทอยเหรียญ 3 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x10",
-				id: "Lempar koin 3 kali. Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lemparan dengan hasil sisi depan.",
+				'th-th': "ทอยเหรียญ 3 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x10",
+				'id-id': "Lempar koin 3 kali. Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lemparan dengan hasil sisi depan.",
 			},
 		},
 		{
 			name: {
-				ja: "うちみず",
+				'ja-jp': "うちみず",
 				'zh-tw': "潑灑清水",
-				th: "ราดน้ำ",
-				id: "Percikan Air",
+				'th-th': "ราดน้ำ",
+				'id-id': "Percikan Air",
 			},
 			damage: 20,
 			cost: ["Colorless", "Colorless"],

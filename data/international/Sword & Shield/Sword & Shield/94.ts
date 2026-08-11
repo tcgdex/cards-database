@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Hitmonlee",
-		fr: "Kicklee",
-		es: "Hitmonlee",
-		it: "Hitmonlee",
-		pt: "Hitmonlee",
-		de: "Kicklee"
+		'en-us': "Hitmonlee",
+		'fr-fr': "Kicklee",
+		'es-es': "Hitmonlee",
+		'it-it': "Hitmonlee",
+		'pt-br': "Hitmonlee",
+		'de-de': "Kicklee"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Low Sweep",
-				fr: "Balayette",
-				es: "Puntapié",
-				it: "Calciobasso",
-				pt: "Movimento Baixo",
-				de: "Fußtritt"
+				'en-us': "Low Sweep",
+				'fr-fr': "Balayette",
+				'es-es': "Puntapié",
+				'it-it': "Calciobasso",
+				'pt-br': "Movimento Baixo",
+				'de-de': "Fußtritt"
 			},
 
 			damage: 40,
@@ -48,20 +48,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Coordinated Strike",
-				fr: "Frappe Coordonnée",
-				es: "Golpe Coordinado",
-				it: "Attacco Coordinato",
-				pt: "Golpe Coordenado",
-				de: "Koordinierter Angriff"
+				'en-us': "Coordinated Strike",
+				'fr-fr': "Frappe Coordonnée",
+				'es-es': "Golpe Coordinado",
+				'it-it': "Attacco Coordinato",
+				'pt-br': "Golpe Coordenado",
+				'de-de': "Koordinierter Angriff"
 			},
 			effect: {
-				en: "If Hitmonchan is on your Bench, this attack does 80 more damage.",
-				fr: "Si Tygnon est sur votre Banc, cette attaque inflige 80 dégâts supplémentaires.",
-				es: "Si Hitmonchan está en tu Banca, este ataque hace 80 puntos de daño más.",
-				it: "Se Hitmonchan è nella tua panchina, questo attacco infligge 80 danni in più.",
-				pt: "Se Hitmonchan estiver no seu Banco, este ataque causará 80 pontos de dano a mais.",
-				de: "Wenn sich Nockchan auf deiner Bank befindet, fügt diese Attacke 80 Schadenspunkte mehr zu."
+				'en-us': "If Hitmonchan is on your Bench, this attack does 80 more damage.",
+				'fr-fr': "Si Tygnon est sur votre Banc, cette attaque inflige 80 dégâts supplémentaires.",
+				'es-es': "Si Hitmonchan está en tu Banca, este ataque hace 80 puntos de daño más.",
+				'it-it': "Se Hitmonchan è nella tua panchina, questo attacco infligge 80 danni in più.",
+				'pt-br': "Se Hitmonchan estiver no seu Banco, este ataque causará 80 pontos de dano a mais.",
+				'de-de': "Wenn sich Nockchan auf deiner Bank befindet, fügt diese Attacke 80 Schadenspunkte mehr zu."
 			},
 			damage: "80+",
 
@@ -86,7 +86,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick."
+		'en-us': "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick."
 	},
 
 	dexId: [106],

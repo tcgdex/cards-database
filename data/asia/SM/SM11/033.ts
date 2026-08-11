@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ソーナノ",
+		'ja-jp': "ソーナノ",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "群れで 行動する 習性。 眠る ときは 洞窟の 中で 仲間たちと 体を 寄せ合う。",
+		'ja-jp': "群れで 行動する 習性。 眠る ときは 洞窟の 中で 仲間たちと 体を 寄せ合う。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ごきげんピック" },
 			effect: {
-				ja: "自分の番に1回使えて、使ったなら、自分の番は終わる。コインを1回投げオモテなら、相手の手札からオモテを見ないで1枚選び、そのカードのオモテを見てから、相手の山札にもどして切る。",
+				'ja-jp': "自分の番に1回使えて、使ったなら、自分の番は終わる。コインを1回投げオモテなら、相手の手札からオモテを見ないで1枚選び、そのカードのオモテを見てから、相手の山札にもどして切る。",
 			},
 		},
 	],

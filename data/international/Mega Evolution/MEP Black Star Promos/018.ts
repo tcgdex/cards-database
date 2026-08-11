@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cottonee",
-		fr: "Doudouvet",
-		de: "Waumboll",
-		it: "Cottonee",
-		es: "Cottonee",
-		pt: "Cottonee"
+		'en-us': "Cottonee",
+		'fr-fr': "Doudouvet",
+		'de-de': "Waumboll",
+		'it-it': "Cottonee",
+		'es-es': "Cottonee",
+		'pt-br': "Cottonee"
 	},
 
 	illustrator: "Kariya",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			de: "Sammeln",
-			it: "Tassa",
-			es: "Coleccionar",
-			pt: "Coleta"
+			'en-us': "Collect",
+			'fr-fr': "Collecte",
+			'de-de': "Sammeln",
+			'it-it': "Tassa",
+			'es-es': "Coleccionar",
+			'pt-br': "Coleta"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			de: "Ziehe 1 Karte.",
-			it: "Pesca una carta.",
-			es: "Roba 1 carta.",
-			pt: "Compre uma carta."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'de-de': "Ziehe 1 Karte.",
+			'it-it': "Pesca una carta.",
+			'es-es': "Roba 1 carta.",
+			'pt-br': "Compre uma carta."
 		}
 	}],
 

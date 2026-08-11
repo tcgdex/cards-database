@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ducklett",
-		fr: "Couaneton"
+		'en-us': "Ducklett",
+		'fr-fr': "Couaneton"
 	},
 
 	illustrator: "MAHOU",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "When attacked, it uses its feathers to splash water,\nescaping under cover of the spray.",
-		fr: "Quand on l'attaque, il s'ébroue et fait jaillir de la vapeur d'eau de tout son corps. Il se cache dedans pour s'enfuir."
+		'en-us': "When attacked, it uses its feathers to splash water,\nescaping under cover of the spray.",
+		'fr-fr': "Quand on l'attaque, il s'ébroue et fait jaillir de la vapeur d'eau de tout son corps. Il se cache dedans pour s'enfuir."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Rain Splash",
-			fr: "Pluie Éclaboussante"
+			'en-us': "Rain Splash",
+			'fr-fr': "Pluie Éclaboussante"
 		},
 
 		damage: 10,

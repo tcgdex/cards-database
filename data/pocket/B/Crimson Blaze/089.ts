@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [44],
 
 	name: {
-		en: "Gloom"
+		'en-us': "Gloom"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Oddish"
+		'en-us': "Oddish"
 	},
 
 	description: {
-		en: "Its pistils exude an incredibly foul odor.\nThe horrid stench can cause fainting at a distance\nof 1.25 miles."
+		'en-us': "Its pistils exude an incredibly foul odor.\nThe horrid stench can cause fainting at a distance\nof 1.25 miles."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Leaf Step"
+			'en-us': "Leaf Step"
 		},
 
 		damage: 40,

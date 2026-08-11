@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローララッタ",
+		'ja-jp': "アローララッタ",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "コラッタを 率い グループをつくる。 グループには テリトリーが あり 餌を 巡り 抗争に なる。",
+		'ja-jp': "コラッタを 率い グループをつくる。 グループには テリトリーが あり 餌を 巡り 抗争に なる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: [],
 			effect: {
-				ja: "このポケモンに「ポケモンのどうぐ」がついているなら、50ダメージ追加。",
+				'ja-jp': "このポケモンに「ポケモンのどうぐ」がついているなら、50ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Darkness"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アローラコラッタ",
+		'ja-jp': "アローラコラッタ",
 	},
 
 	retreat: 3,

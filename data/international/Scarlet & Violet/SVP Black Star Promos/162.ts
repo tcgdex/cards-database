@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Houndstone ex",
-		fr: "Tomberro-ex",
-		es: "Houndstone ex",
-		it: "Houndstone-ex",
-		pt: "Houndstone ex",
-		de: "Friedwuff-ex"
+		'en-us': "Houndstone ex",
+		'fr-fr': "Tomberro-ex",
+		'es-es': "Houndstone ex",
+		'it-it': "Houndstone-ex",
+		'pt-br': "Houndstone ex",
+		'de-de': "Friedwuff-ex"
 	},
 
 	rarity: "Promo",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 260,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Greavard",
-		fr: "Toutombe",
-		es: "Greavard",
-		it: "Greavard",
-		pt: "Greavard",
-		de: "Gruff"
+		'en-us': "Greavard",
+		'fr-fr': "Toutombe",
+		'es-es': "Greavard",
+		'it-it': "Greavard",
+		'pt-br': "Greavard",
+		'de-de': "Gruff"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Horrifying Fang",
-			fr: "Croc Horrifiant",
-			es: "Colmillo Terrorífico",
-			it: "Zanna Orripilante",
-			pt: "Caninos Aterrorizantes",
-			de: "Grauenhafter Reißer"
+			'en-us': "Horrifying Fang",
+			'fr-fr': "Croc Horrifiant",
+			'es-es': "Colmillo Terrorífico",
+			'it-it': "Zanna Orripilante",
+			'pt-br': "Caninos Aterrorizantes",
+			'de-de': "Grauenhafter Reißer"
 		},
 
 		effect: {
-			en: "Flip a coin until you get tails. This attack does 20 more damage for each heads.",
-			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
-			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño más por cada cara.",
-			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 20 danni in più ogni volta che esce testa.",
-			pt: "Jogue uma moeda até sair coroa. Este ataque causa 20 pontos de dano a mais para cada cara.",
-			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 20 Schadenspunkte mehr pro Kopf zu."
+			'en-us': "Flip a coin until you get tails. This attack does 20 more damage for each heads.",
+			'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+			'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño más por cada cara.",
+			'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 20 danni in più ogni volta che esce testa.",
+			'pt-br': "Jogue uma moeda até sair coroa. Este ataque causa 20 pontos de dano a mais para cada cara.",
+			'de-de': "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 20 Schadenspunkte mehr pro Kopf zu."
 		},
 
 		damage: "100+"

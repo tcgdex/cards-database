@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Suicune ☆",
-		fr: "Suicune ☆",
-		de: "Suicune ☆"
+		'en-us': "Suicune ☆",
+		'fr-fr': "Suicune ☆",
+		'de-de': "Suicune ☆"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Splashing Turn",
-				fr: "Tour éclaboussant",
-				de: "Splashing Turn"
+				'en-us': "Splashing Turn",
+				'fr-fr': "Tour éclaboussant",
+				'de-de': "Splashing Turn"
 			},
 			effect: {
-				en: "Switch Suicune ☆ with 1 of your Benched Pokémon.",
-				fr: "Échangez Suicune ☆ avec 1 de vos Pokémon de Banc.",
-				de: "Switch Suicune ☆ with 1 of your Benched Pokémon."
+				'en-us': "Switch Suicune ☆ with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez Suicune ☆ avec 1 de vos Pokémon de Banc.",
+				'de-de': "Switch Suicune ☆ with 1 of your Benched Pokémon."
 			},
 			damage: 20,
 
@@ -51,14 +51,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Cross Wind",
-				fr: "Vent croisé",
-				de: "Cross Wind"
+				'en-us': "Cross Wind",
+				'fr-fr': "Vent croisé",
+				'de-de': "Cross Wind"
 			},
 			effect: {
-				en: "If you have less Prize cards left than your opponent, discard all Energy cards attached to all of your Pokémon.",
-				fr: "S'il vous reste moins de cartes Récompense que votre adversaire, défaussez toutes les cartes Énergie attachées à tous vos Pokémon.",
-				de: "If you have less Prize cards left than your opponent, discard all Energy cards attached to all of your Pokémon."
+				'en-us': "If you have less Prize cards left than your opponent, discard all Energy cards attached to all of your Pokémon.",
+				'fr-fr': "S'il vous reste moins de cartes Récompense que votre adversaire, défaussez toutes les cartes Énergie attachées à tous vos Pokémon.",
+				'de-de': "If you have less Prize cards left than your opponent, discard all Energy cards attached to all of your Pokémon."
 			},
 			damage: 70,
 

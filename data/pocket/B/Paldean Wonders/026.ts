@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Triopikeau",
-		en: "Wugtrio",
-		es: "Wugtrio",
-		it: "Wugtrio",
-		pt: "Wugtrio",
-		de: "Schligdri"
+		'fr-fr': "Triopikeau",
+		'en-us': "Wugtrio",
+		'es-es': "Wugtrio",
+		'it-it': "Wugtrio",
+		'pt-br': "Wugtrio",
+		'de-de': "Schligdri"
   },
   illustrator: "Kouki Saitou",
   rarity: "Two Diamond",
@@ -18,12 +18,12 @@ const card: Card = {
   types: ["Water"],
   dexId: [961],
   evolveFrom: {
-		fr: "Taupikeau",
-		en: "Wiglett",
-		es: "Wiglett",
-		it: "Wiglett",
-		pt: "Wiglett",
-		de: "Schligda"
+		'fr-fr': "Taupikeau",
+		'en-us': "Wiglett",
+		'es-es': "Wiglett",
+		'it-it': "Wiglett",
+		'pt-br': "Wiglett",
+		'de-de': "Schligda"
   },
   description: {
     en: "A variety of fish Pokémon, Wugtrio was once considered to be a regional form of Dugtrio.",

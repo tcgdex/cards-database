@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Misdreavus",
-		fr: "Feuforêve",
-		de: "Traunfugil"
+		'en-us': "Misdreavus",
+		'fr-fr': "Feuforêve",
+		'de-de': "Traunfugil"
 	},
 
 	illustrator: "Hideaki Hakozaki",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Sharpshooting",
-				fr: "Tir de précision",
-				de: "Scharfschuss"
+				'en-us': "Sharpshooting",
+				'fr-fr': "Tir de précision",
+				'de-de': "Scharfschuss"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez l’un des Pokémon de votre adversaire. Cette attaque inflige 10 dégâts à ce Pokémon. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez l’un des Pokémon de votre adversaire. Cette attaque inflige 10 dégâts à ce Pokémon. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'de-de': "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -59,7 +59,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It likes playing mischievous tricks such as screaming and wailing to startle people at night."
+		'en-us': "It likes playing mischievous tricks such as screaming and wailing to startle people at night."
 	},
 
 	variants: [

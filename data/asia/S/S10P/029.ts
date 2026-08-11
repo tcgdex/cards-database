@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユクシー",
+		'ja-jp': "ユクシー",
 		'zh-tw': "由克希",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "ユクシーの 誕生により 人々の 生活を 豊かにする 知恵が 生まれたと 言われている。",
+		'ja-jp': "ユクシーの 誕生により 人々の 生活を 豊かにする 知恵が 生まれたと 言われている。",
 		'zh-tw': "據說因為由克希的誕生， 使人們的生活變得 豐富多彩的智慧才得以出現。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ちえのみちびき",
+				'ja-jp': "ちえのみちびき",
 				'zh-tw': "智慧指引",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。",
 				'zh-tw': "從自己的牌庫任意選擇1張卡加入手牌。並且重洗牌庫。",
 			},
 		},
 		{
 			name: {
-				ja: "サイコショット",
+				'ja-jp': "サイコショット",
 				'zh-tw': "精神射擊",
 			},
 			damage: 20,

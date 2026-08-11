@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY trainer Kit (Latias)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Fletchling",
-		fr: "Passerouge",
-		es: "Fletchling",
-		it: "Fletchling",
-		pt: "Fletchling",
-		de: "Dartiri"
+		'en-us': "Fletchling",
+		'fr-fr': "Passerouge",
+		'es-es': "Fletchling",
+		'it-it': "Fletchling",
+		'pt-br': "Fletchling",
+		'de-de': "Dartiri"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -19,29 +19,29 @@ const card: Card = {
 	category: "Pokemon",
 
 	description: {
-		en: "These friendly Pokémon send signals to one another with beautiful chirps and tail-feather movements."
+		'en-us': "These friendly Pokémon send signals to one another with beautiful chirps and tail-feather movements."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Peck",
-			fr: "Picpic"
+			'en-us': "Peck",
+			'fr-fr': "Picpic"
 		},
 
 		damage: 10
 	}, {
 		name: {
-			en: "Quick Attack",
-			fr: "Vive-Attaque"
+			'en-us': "Quick Attack",
+			'fr-fr': "Vive-Attaque"
 		},
 
 		damage: "10+",
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 20 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
+			'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
 		}
 	}],
 

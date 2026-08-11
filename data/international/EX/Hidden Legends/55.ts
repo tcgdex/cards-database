@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Chikorita",
-		fr: "Germignon",
-		de: "Endivie"
+		'en-us': "Chikorita",
+		'fr-fr': "Germignon",
+		'de-de': "Endivie"
 	},
 
 	illustrator: "Shin-ichi Yoshikawa",
@@ -38,24 +38,24 @@ const card: Card = {
 	],
 
 	effect: {
-		en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+		'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 	},
 
 	attacks: [
 		{
 			name: {
-				en: "Poisonpowder",
-				fr: "Poudre toxik",
-				de: "Poisonpowder"
+				'en-us': "Poisonpowder",
+				'fr-fr': "Poudre toxik",
+				'de-de': "Poisonpowder"
 			},
 
 			cost: ["Colorless"],
 
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Flip a coin. If heads, the defending Pokémon is now Poisoned."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Flip a coin. If heads, the defending Pokémon is now Poisoned."
 			}
 		}
 	],

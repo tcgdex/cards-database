@@ -1,11 +1,11 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../McDonald\'s Collection'
 
 const set: Set = {
 	id: "2019sm-fr",
 
 	name: {
-		fr: "Collection McDonald's 2019"
+		'fr-fr': "Collection McDonald's 2019"
 	},
 
 	serie: serie,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Hydreigon",
-		fr: "Trioxhydre",
-		es: "Hydreigon",
-		it: "Hydreigon",
-		pt: "Hydreigon",
-		de: "Trikephalo"
+		'en-us': "Hydreigon",
+		'fr-fr': "Trioxhydre",
+		'es-es': "Hydreigon",
+		'it-it': "Hydreigon",
+		'pt-br': "Hydreigon",
+		'de-de': "Trikephalo"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Zweilous",
-		fr: "Diamat",
+		'en-us': "Zweilous",
+		'fr-fr': "Diamat",
 	},
 
 	stage: "Stage2",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tractorbeam",
-				fr: "Rayon Inversion",
+				'en-us': "Tractorbeam",
+				'fr-fr': "Rayon Inversion",
 			},
 			effect: {
-				en: "Switch 1 of your opponent's Benched Pokémon with the Defending Pokémon. This attack does 40 damage to the new Defending Pokémon.",
-				fr: "Échangez 1 des Pokémon de Banc de votre adversaire avec le Pokémon Défenseur. Cette attaque inflige 40 dégâts au nouveau Pokémon Défenseur.",
+				'en-us': "Switch 1 of your opponent's Benched Pokémon with the Defending Pokémon. This attack does 40 damage to the new Defending Pokémon.",
+				'fr-fr': "Échangez 1 des Pokémon de Banc de votre adversaire avec le Pokémon Défenseur. Cette attaque inflige 40 dégâts au nouveau Pokémon Défenseur.",
 			},
 
 		},
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Obsidian Fang",
-				fr: "Croc d'Obsidienne",
+				'en-us': "Obsidian Fang",
+				'fr-fr': "Croc d'Obsidienne",
 			},
 			effect: {
-				en: "Before doing damage, discard all Pokémon Tool cards attached to the Defending Pokémon.",
-				fr: "Avant d'infliger des dégâts, défaussez toutes les cartes Outil Pokémon attachées au Pokémon Défenseur.",
+				'en-us': "Before doing damage, discard all Pokémon Tool cards attached to the Defending Pokémon.",
+				'fr-fr': "Avant d'infliger des dégâts, défaussez toutes les cartes Outil Pokémon attachées au Pokémon Défenseur.",
 			},
 			damage: 80,
 
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It responds to movement by attacking. This scary, three-headed Pokémon devours everything in its path!",
+		'en-us': "It responds to movement by attacking. This scary, three-headed Pokémon devours everything in its path!",
 	},
 
 	thirdParty: {

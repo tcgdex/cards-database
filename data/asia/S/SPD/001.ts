@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SPD"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "海星星",
-		ja: "ヒトデマン"
+		'ja-jp': "ヒトデマン"
 	},
 
 	illustrator: "Yuka Morii",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "在夏天快結束時到海邊，就能看見成群的海星星 有規律地一閃一閃發光。",
-		ja: "夏の終わりの 浜辺に 行くと 規則的な リズムで 光る ヒトデマンの 群れが 見られるよ。"
+		'ja-jp': "夏の終わりの 浜辺に 行くと 規則的な リズムで 光る ヒトデマンの 群れが 見られるよ。"
 	},
 
 	stage: "Basic",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "雙重旋轉",
-			ja: "ダブルスピン"
+			'ja-jp': "ダブルスピン"
 		},
 
 		effect: {
 			'zh-tw': "擲2次硬幣，造成正面出現的次數×10點傷害。",
-			ja: "コインを2回投げ、オモテの数×10ダメージ。"
+			'ja-jp': "コインを2回投げ、オモテの数×10ダメージ。"
 		},
 
 		damage: "10×",

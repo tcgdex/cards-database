@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [300],
 
 	name: {
-		en: "Skitty",
-		fr: "Skitty",
-		es: "Skitty",
-		it: "Skitty",
-		pt: "Skitty",
-		de: "Eneco"
+		'en-us': "Skitty",
+		'fr-fr': "Skitty",
+		'es-es': "Skitty",
+		'it-it': "Skitty",
+		'pt-br': "Skitty",
+		'de-de': "Eneco"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drawup Power",
-				fr: "Pouvoir Bloquant",
-				es: "Extraer Poder",
-				it: "Prelievo Energetico",
-				pt: "Poder de Içamento",
-				de: "Kraft aufziehen"
+				'en-us': "Drawup Power",
+				'fr-fr': "Pouvoir Bloquant",
+				'es-es': "Extraer Poder",
+				'it-it': "Prelievo Energetico",
+				'pt-br': "Poder de Içamento",
+				'de-de': "Kraft aufziehen"
 			},
 			effect: {
-				en: "Search your deck for an Energy card, reveal it, and put it into your hand. Then, shuffle your deck.",
-				fr: "Cherchez dans votre deck une carte Énergie, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja 1 carta de Energía, enséñala y ponla en tu mano. Después, baraja las cartas de tu baraja.",
-				it: "Cerca nel tuo mazzo una carta Energia, mostrala e aggiungila alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure por 1 carta de Energia no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach 1 Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				'en-us': "Search your deck for an Energy card, reveal it, and put it into your hand. Then, shuffle your deck.",
+				'fr-fr': "Cherchez dans votre deck une carte Énergie, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja 1 carta de Energía, enséñala y ponla en tu mano. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo una carta Energia, mostrala e aggiungila alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por 1 carta de Energia no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach 1 Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cat Kick",
-				fr: "Coup d'Patte",
-				es: "Patada Gato",
-				it: "Calciogatto",
-				pt: "Chute do Gato",
-				de: "Katzenkick"
+				'en-us': "Cat Kick",
+				'fr-fr': "Coup d'Patte",
+				'es-es': "Patada Gato",
+				'it-it': "Calciogatto",
+				'pt-br': "Chute do Gato",
+				'de-de': "Katzenkick"
 			},
 
 			damage: 20,
@@ -79,7 +79,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It shows its cute side by chasing its own tail until it gets dizzy."
+		'en-us': "It shows its cute side by chasing its own tail until it gets dizzy."
 	},
 
 	variants: [

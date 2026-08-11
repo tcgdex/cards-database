@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Haunter",
-		fr: "Spectrum",
-		es: "Haunter",
-		it: "Haunter",
-		pt: "Haunter",
-		de: "Alpollo"
+		'en-us': "Haunter",
+		'fr-fr': "Spectrum",
+		'es-es': "Haunter",
+		'it-it': "Haunter",
+		'pt-br': "Haunter",
+		'de-de': "Alpollo"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Gastly",
-		fr: "Fantominus",
-		es: "Gastly",
-		it: "Gastly",
-		pt: "Gastly",
-		de: "Nebulak"
+		'en-us': "Gastly",
+		'fr-fr': "Fantominus",
+		'es-es': "Gastly",
+		'it-it': "Gastly",
+		'pt-br': "Gastly",
+		'de-de': "Nebulak"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Cursed Drop",
-			fr: "Chute Maudite",
-			es: "Caída Maldita",
-			it: "Caduta Maledetta",
-			pt: "Queda Amaldiçoada",
-			de: "Verfluchter Fall"
+			'en-us': "Cursed Drop",
+			'fr-fr': "Chute Maudite",
+			'es-es': "Caída Maldita",
+			'it-it': "Caduta Maledetta",
+			'pt-br': "Queda Amaldiçoada",
+			'de-de': "Verfluchter Fall"
 		},
 
 		effect: {
-			en: "Put 3 damage counters on your opponent's Pokémon in any way you like.",
-			fr: "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire comme il vous plaît.",
-			es: "Pon 3 contadores de daño en los Pokémon de tu rival de la manera que desees.",
-			it: "Metti tre segnalini danno sui Pokémon del tuo avversario nel modo che preferisci.",
-			pt: "Coloque 3 contadores de dano nos Pokémon do seu oponente como desejar.",
-			de: "Lege 3 Schadensmarken beliebig auf die Pokémon deines Gegners."
+			'en-us': "Put 3 damage counters on your opponent's Pokémon in any way you like.",
+			'fr-fr': "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire comme il vous plaît.",
+			'es-es': "Pon 3 contadores de daño en los Pokémon de tu rival de la manera que desees.",
+			'it-it': "Metti tre segnalini danno sui Pokémon del tuo avversario nel modo che preferisci.",
+			'pt-br': "Coloque 3 contadores de dano nos Pokémon do seu oponente como desejar.",
+			'de-de': "Lege 3 Schadensmarken beliebig auf die Pokémon deines Gegners."
 		}
 	}],
 

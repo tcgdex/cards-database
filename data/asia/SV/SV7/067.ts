@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "齒輪兒",
 		'zh-cn': "齒輪兒",
-		ja: "ギアル"
+		'ja-jp': "ギアル"
 	},
 
 	illustrator: "osare",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "２個身體比雙胞胎還要親近。 要是換成別的齒輪兒， 就沒有辦法好好咬合。",
 		'zh-cn': "２個身體比雙胞胎還要親近。 要是換成別的齒輪兒， 就沒有辦法好好咬合。",
-		ja: "２つの 体は 双子よりも 近い。 べつの 体同士だと いまいち うまく 噛み合わない。"
+		'ja-jp': "２つの 体は 双子よりも 近い。 べつの 体同士だと いまいち うまく 噛み合わない。"
 	},
 
 	stage: "Basic",
@@ -27,13 +27,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "吸引",
 			'zh-cn': "吸引",
-			ja: "ひきつける"
+			'ja-jp': "ひきつける"
 		},
 
 		effect: {
 			'zh-tw': "從自己的牌庫抽出1張卡。",
 			'zh-cn': "從自己的牌庫抽出1張卡。",
-			ja: "自分の山札を1枚引く。"
+			'ja-jp': "自分の山札を1枚引く。"
 		},
 
 		cost: ["Colorless"]
@@ -41,7 +41,7 @@ const card: Card = {
 		name: {
 			'zh-tw': "光束",
 			'zh-cn': "光束",
-			ja: "ビーム"
+			'ja-jp': "ビーム"
 		},
 
 		damage: 20,

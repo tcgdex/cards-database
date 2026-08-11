@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハカドッグ"
+		'ja-jp': "ハカドッグ"
 	},
 	illustrator: "Arai Kiriko",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Psychic"],
 	description: {
-		ja: "普段は墓場で眠っている。数いる犬ポケモンの中でもっとも主に忠実だ。"
+		'ja-jp': "普段は墓場で眠っている。数いる犬ポケモンの中でもっとも主に忠実だ。"
 	},
 	stage: "Stage1",
 	variants: [
@@ -25,20 +25,20 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ボチ"
+		'ja-jp': "ボチ"
 	},
 	attacks: [{
 		name: {
-			ja: "ホラーバイト"
+			'ja-jp': "ホラーバイト"
 		},
 		damage: 30,
 		effect: {
-			ja: "ウラが出るまでコインを投げ、オモテの数ぶん、相手の手札からオモテを見ないで選び、そのカードをのオモテを見て、相手の山札にもどして切る。"
+			'ja-jp': "ウラが出るまでコインを投げ、オモテの数ぶん、相手の手札からオモテを見ないで選び、そのカードをのオモテを見て、相手の山札にもどして切る。"
 		},
 		cost: ["Psychic"]
 	}, {
 		name: {
-			ja: "ぶちかます"
+			'ja-jp': "ぶちかます"
 		},
 		damage: 130,
 		cost: ["Psychic", "Psychic", "Colorless"]

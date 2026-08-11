@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤンヤンマ",
+		'ja-jp': "ヤンヤンマ",
 		'zh-tw': "蜻蜻蜓",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "高速で 羽を 羽ばたかせると 衝撃波が 発生して まわりの 窓ガラスが 割れていく。",
+		'ja-jp': "高速で 羽を 羽ばたかせると 衝撃波が 発生して まわりの 窓ガラスが 割れていく。",
 		'zh-tw': "如果高速拍動翅膀，就會產生衝擊波，把周圍的玻璃一一震碎。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "おうだんひこう",
+				'ja-jp': "おうだんひこう",
 				'zh-tw': "橫斷飛行",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のポケモン全員に、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン全員に、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 				'zh-tw': "對手的所有寶可夢各受到10點傷害。[在備戰區不計算弱點・抵抗力。]",
 			},
 		},
 		{
 			name: {
-				ja: "カッターウインド",
+				'ja-jp': "カッターウインド",
 				'zh-tw': "利刃之風",
 			},
 			damage: 70,

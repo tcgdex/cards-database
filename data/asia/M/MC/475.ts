@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バルジーナex",
+		'ja-jp': "バルジーナex",
 	},
 
 	illustrator: "Ultimateinudog",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "ほねシュート" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手の手札からオモテを見ないで1枚選び、トラッシュする。",
+				'ja-jp': "相手の手札からオモテを見ないで1枚選び、トラッシュする。",
 			},
 		},
 	],
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "バルチャイ",
+		'ja-jp': "バルチャイ",
 	},
 
 	retreat: 1,

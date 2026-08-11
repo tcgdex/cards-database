@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モロバレル",
+		'ja-jp': "モロバレル",
 	},
 
 	illustrator: "Midori Harada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "モンスターボールの カサを 見せつけ 獲物を 誘き寄せようとするが だまされる ポケモンは 少ない。",
+		'ja-jp': "モンスターボールの カサを 見せつけ 獲物を 誘き寄せようとするが だまされる ポケモンは 少ない。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ぼうはつほうし" },
 			effect: {
-				ja: "自分の番に、自分の手札からワザ「キノコのほうし」を持つポケモンを場に出すたび、1回使える。相手のバトルポケモンをどくとねむりにする。",
+				'ja-jp': "自分の番に、自分の手札からワザ「キノコのほうし」を持つポケモンを場に出すたび、1回使える。相手のバトルポケモンをどくとねむりにする。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンがどくなら、70ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンがどくなら、70ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "タマゲタケ",
+		'ja-jp': "タマゲタケ",
 	},
 
 	retreat: 2,

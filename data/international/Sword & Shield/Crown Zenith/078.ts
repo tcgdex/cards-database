@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Liepard",
-		fr: "Léopardus",
-		es: "Liepard",
-		it: "Liepard",
-		pt: "Liepard",
-		de: "Kleoparda"
+		'en-us': "Liepard",
+		'fr-fr': "Léopardus",
+		'es-es': "Liepard",
+		'it-it': "Liepard",
+		'pt-br': "Liepard",
+		'de-de': "Kleoparda"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Purrloin",
-		fr: "Chacripan",
-		es: "Purrloin",
-		it: "Purrloin",
-		pt: "Purrloin",
-		de: "Felilou"
+		'en-us': "Purrloin",
+		'fr-fr': "Chacripan",
+		'es-es': "Purrloin",
+		'it-it': "Purrloin",
+		'pt-br': "Purrloin",
+		'de-de': "Felilou"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Fury Swipes",
-			fr: "Combo-Griffe",
-			es: "Golpes Furia",
-			it: "Sfuriate",
-			pt: "Golpes de Fúria",
-			de: "Kratzfurie"
+			'en-us': "Fury Swipes",
+			'fr-fr': "Combo-Griffe",
+			'es-es': "Golpes Furia",
+			'it-it': "Sfuriate",
+			'pt-br': "Golpes de Fúria",
+			'de-de': "Kratzfurie"
 		},
 
 		effect: {
-			en: "Flip 3 coins. This attack does 40 damage for each heads.",
-			fr: "Lancez 3 pièces. Cette attaque inflige 40 dégâts pour chaque côté face.",
-			es: "Lanza 3 monedas. Este ataque hace 40 puntos de daño por cada cara.",
-			it: "Lancia tre volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa.",
-			pt: "Jogue 3 moedas. Este ataque causa 40 pontos de dano para cada cara.",
-			de: "Wirf 3 Münzen. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip 3 coins. This attack does 40 damage for each heads.",
+			'fr-fr': "Lancez 3 pièces. Cette attaque inflige 40 dégâts pour chaque côté face.",
+			'es-es': "Lanza 3 monedas. Este ataque hace 40 puntos de daño por cada cara.",
+			'it-it': "Lancia tre volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 3 moedas. Este ataque causa 40 pontos de dano para cada cara.",
+			'de-de': "Wirf 3 Münzen. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "40×"
@@ -57,12 +57,12 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Claw Slash",
-			fr: "Tranch'Griffe",
-			es: "Cuchillada Garra",
-			it: "Lacerartiglio",
-			pt: "Golpe de Garra",
-			de: "Klauenschlitzer"
+			'en-us': "Claw Slash",
+			'fr-fr': "Tranch'Griffe",
+			'es-es': "Cuchillada Garra",
+			'it-it': "Lacerartiglio",
+			'pt-br': "Golpe de Garra",
+			'de-de': "Klauenschlitzer"
 		},
 
 		damage: 110
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Don't be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon.",
+		'en-us': "Don't be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon.",
 	},
 
 	

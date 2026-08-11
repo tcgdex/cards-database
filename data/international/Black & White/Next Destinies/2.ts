@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Seedot",
-		fr: "Grainipiot",
-		es: "Seedot",
-		it: "Seedot",
-		pt: "Seedot",
-		de: "Samurzel"
+		'en-us': "Seedot",
+		'fr-fr': "Grainipiot",
+		'es-es': "Seedot",
+		'it-it': "Seedot",
+		'pt-br': "Seedot",
+		'de-de': "Samurzel"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Trip Over",
-				fr: "Croche-Pied",
+				'en-us': "Trip Over",
+				'fr-fr': "Croche-Pied",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
 			},
 			damage: 10,
 
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it dangles from a tree branch, it looks just like an acorn. It enjoys scaring other Pokémon.",
+		'en-us': "When it dangles from a tree branch, it looks just like an acorn. It enjoys scaring other Pokémon.",
 	},
 
 	thirdParty: {

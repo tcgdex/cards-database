@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "マグカルゴex"
+		'ja-jp': "マグカルゴex"
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -19,25 +19,25 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			ja: "あついマグマ"
+			'ja-jp': "あついマグマ"
 		},
 
 		damage: 70,
 
 		effect: {
-			ja: "相手のバトルポケモンをやけどにする。"
+			'ja-jp': "相手のバトルポケモンをやけどにする。"
 		}
 	}, {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			ja: "グラウンドバーン"
+			'ja-jp': "グラウンドバーン"
 		},
 
 		damage: "140＋",
 
 		effect: {
-			ja: "おたがいの山札を上から1枚ずつトラッシュし、その中にあるエネルギーの枚数×140ダメージ追加。"
+			'ja-jp': "おたがいの山札を上から1枚ずつトラッシュし、その中にあるエネルギーの枚数×140ダメージ追加。"
 		}
 	}],
 

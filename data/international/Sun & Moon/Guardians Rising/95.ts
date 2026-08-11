@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Sliggoo",
-		fr: "Colimucus",
-		es: "Sliggoo",
-		it: "Sliggoo",
-		pt: "Sliggoo",
-		de: "Viscargot"
+		'en-us': "Sliggoo",
+		'fr-fr': "Colimucus",
+		'es-es': "Sliggoo",
+		'it-it': "Sliggoo",
+		'pt-br': "Sliggoo",
+		'de-de': "Viscargot"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Goomy",
-		fr: "Mucuscule",
+		'en-us': "Goomy",
+		'fr-fr': "Mucuscule",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Division",
-				fr: "Division",
-				es: "División",
-				it: "Serie",
-				pt: "Divisão",
-				de: "Teilung"
+				'en-us': "Division",
+				'fr-fr': "Division",
+				'es-es': "División",
+				'it-it': "Serie",
+				'pt-br': "Divisão",
+				'de-de': "Teilung"
 			},
 			effect: {
-				en: "Search your deck for up to 2 Sliggoo and put them onto your Bench. Then, shuffle your deck.",
-				fr: "Cherchez jusqu’à 2 Colimucus dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja hasta 2 Sliggoo y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
-				it: "Cerca nel tuo mazzo fino a due Sliggoo e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure por até 2 Sliggoo no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 2 Viscargot und lege sie auf deine Bank. Mische anschließend dein Deck."
+				'en-us': "Search your deck for up to 2 Sliggoo and put them onto your Bench. Then, shuffle your deck.",
+				'fr-fr': "Cherchez jusqu’à 2 Colimucus dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja hasta 2 Sliggoo y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo fino a due Sliggoo e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por até 2 Sliggoo no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach bis zu 2 Viscargot und lege sie auf deine Bank. Mische anschließend dein Deck."
 			},
 
 		},
@@ -62,12 +62,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It has trouble drawing a line between friends and food. It will calmly try to melt and eat even those it gets along well with.",
+		'en-us': "It has trouble drawing a line between friends and food. It will calmly try to melt and eat even those it gets along well with.",
 	},
 
 	thirdParty: {

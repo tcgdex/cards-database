@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピカチュウ",
+		'ja-jp': "ピカチュウ",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "たくさんの ピカチュウを 集め 発電所を 造る 計画が 最近 発表 された。",
+		'ja-jp': "たくさんの ピカチュウを 集め 発電所を 造る 計画が 最近 発表 された。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Lightning"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数x20ダメージ。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数x20ダメージ。",
 			},
 		},
 	],

@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [616],
 
 	name: {
-		en: "Shelmet",
-		fr: "Escargaume",
-		es: "Shelmet",
-		it: "Shelmet",
-		pt: "Shelmet",
-		de: "Schnuthelm"
+		'en-us': "Shelmet",
+		'fr-fr': "Escargaume",
+		'es-es': "Shelmet",
+		'it-it': "Shelmet",
+		'pt-br': "Shelmet",
+		'de-de': "Schnuthelm"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spray Fluid",
-				fr: "Fluide Éclaboussant",
-				es: "Fluido Rociado",
-				it: "Fluidospray",
-				pt: "Fluido Spray",
-				de: "Sprühwasser"
+				'en-us': "Spray Fluid",
+				'fr-fr': "Fluide Éclaboussant",
+				'es-es': "Fluido Rociado",
+				'it-it': "Fluidospray",
+				'pt-br': "Fluido Spray",
+				'de-de': "Sprühwasser"
 			},
 
 			damage: 10,
@@ -56,7 +56,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "When attacked, it tightly shuts the lid of its shell. This reaction fails to protect it from Karrablast, however, because they can still get into the shell."
+		'en-us': "When attacked, it tightly shuts the lid of its shell. This reaction fails to protect it from Karrablast, however, because they can still get into the shell."
 	},
 
 	variants: [

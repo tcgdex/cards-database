@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Alolan Vulpix",
-		fr: "Goupix d’Alola",
-		es: "Vulpix de Alola",
-		it: "Vulpix di Alola",
-		pt: "Vulpix de Alola",
-		de: "Alola Vulpix"
+		'en-us': "Alolan Vulpix",
+		'fr-fr': "Goupix d’Alola",
+		'es-es': "Vulpix de Alola",
+		'it-it': "Vulpix di Alola",
+		'pt-br': "Vulpix de Alola",
+		'de-de': "Alola Vulpix"
 	},
 
 	illustrator: "You Iribi",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Beacon",
-				fr: "Flambeau",
-				es: "Señal",
-				it: "Faro",
-				pt: "Baliza",
-				de: "Lichtsignal"
+				'en-us': "Beacon",
+				'fr-fr': "Flambeau",
+				'es-es': "Señal",
+				'it-it': "Faro",
+				'pt-br': "Baliza",
+				'de-de': "Lichtsignal"
 			},
 			effect: {
-				en: "Search your deck for up to 2 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
-				fr: "Cherchez jusqu’à 2 Pokémon dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja hasta 2 Pokémon, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
-				it: "Cerca nel tuo mazzo fino a due Pokémon, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure por até 2 Pokémon no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 2 Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				'en-us': "Search your deck for up to 2 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+				'fr-fr': "Cherchez jusqu’à 2 Pokémon dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja hasta 2 Pokémon, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo fino a due Pokémon, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por até 2 Pokémon no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach bis zu 2 Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Icy Snow",
-				fr: "Verglas",
-				es: "Nieve Helada",
-				it: "Geloneve",
-				pt: "Neve Congelada",
-				de: "Eisiger Schnee"
+				'en-us': "Icy Snow",
+				'fr-fr': "Verglas",
+				'es-es': "Nieve Helada",
+				'it-it': "Geloneve",
+				'pt-br': "Neve Congelada",
+				'de-de': "Eisiger Schnee"
 			},
 
 			damage: 20,
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It exhales air colder than -58 degrees Fahrenheit. Elderly people in Alola call this Pokémon by an older name—Keokeo.",
+		'en-us': "It exhales air colder than -58 degrees Fahrenheit. Elderly people in Alola call this Pokémon by an older name—Keokeo.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Oinkologne",
-		fr: "Fragroin",
-		es: "Oinkologne",
-		it: "Oinkologne",
-		pt: "Oinkologne",
-		de: "Fragrunz"
+		'en-us': "Oinkologne",
+		'fr-fr': "Fragroin",
+		'es-es': "Oinkologne",
+		'it-it': "Oinkologne",
+		'pt-br': "Oinkologne",
+		'de-de': "Fragrunz"
 	},
 
 	rarity: "Shiny rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Lechonk",
-		fr: "Gourmelet",
-		es: "Lechonk",
-		it: "Lechonk",
-		pt: "Lechonk",
-		de: "Ferkuli"
+		'en-us': "Lechonk",
+		'fr-fr': "Gourmelet",
+		'es-es': "Lechonk",
+		'it-it': "Lechonk",
+		'pt-br': "Lechonk",
+		'de-de': "Ferkuli"
 	},
 	stage: "Stage1",
 
@@ -32,41 +32,41 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Finest Selection",
-			fr: "Premier Choix",
-			es: "Cuidada Selección",
-			it: "Assortimento Sopraffino",
-			pt: "Seleção Primorosa",
-			de: "Feinste Auslese"
+			'en-us': "Finest Selection",
+			'fr-fr': "Premier Choix",
+			'es-es': "Cuidada Selección",
+			'it-it': "Assortimento Sopraffino",
+			'pt-br': "Seleção Primorosa",
+			'de-de': "Feinste Auslese"
 		},
 
 		effect: {
-			en: "Flip 3 coins. Put a number of cards up to the number of heads from your discard pile into your hand.",
-			fr: "Lancez 3 pièces. De votre pile de défausse, ajoutez à votre main un nombre de cartes inférieur ou égal au nombre de côtés face obtenus.",
-			es: "Lanza 3 monedas. Coge de tu pila de descartes una cantidad de cartas igual o inferior al número de caras que te hayan salido y ponlas en tu mano.",
-			it: "Lancia tre volte una moneta. Prendi dalla tua pila degli scarti un numero di carte uguale o inferiore al numero di volte in cui è uscito testa e aggiungile a quelle che hai in mano.",
-			pt: "Jogue 3 moedas. Coloque um número de cartas da sua pilha de descarte na sua mão até o número de caras.",
-			de: "Wirf 3 Münzen. Nimm bis zu so viele Karten, wie du Kopf geworfen hast, aus deinem Ablagestapel auf deine Hand."
+			'en-us': "Flip 3 coins. Put a number of cards up to the number of heads from your discard pile into your hand.",
+			'fr-fr': "Lancez 3 pièces. De votre pile de défausse, ajoutez à votre main un nombre de cartes inférieur ou égal au nombre de côtés face obtenus.",
+			'es-es': "Lanza 3 monedas. Coge de tu pila de descartes una cantidad de cartas igual o inferior al número de caras que te hayan salido y ponlas en tu mano.",
+			'it-it': "Lancia tre volte una moneta. Prendi dalla tua pila degli scarti un numero di carte uguale o inferiore al numero di volte in cui è uscito testa e aggiungile a quelle che hai in mano.",
+			'pt-br': "Jogue 3 moedas. Coloque um número de cartas da sua pilha de descarte na sua mão até o número de caras.",
+			'de-de': "Wirf 3 Münzen. Nimm bis zu so viele Karten, wie du Kopf geworfen hast, aus deinem Ablagestapel auf deine Hand."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Perfume Press",
-			fr: "Pression Entêtante",
-			es: "Presión Perfume",
-			it: "Profumopressa",
-			pt: "Apertão Perfumado",
-			de: "Duftdruck"
+			'en-us': "Perfume Press",
+			'fr-fr': "Pression Entêtante",
+			'es-es': "Presión Perfume",
+			'it-it': "Profumopressa",
+			'pt-br': "Apertão Perfumado",
+			'de-de': "Duftdruck"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
 		damage: 70
@@ -95,7 +95,7 @@ const card: Card = {
 	illustrator: "Misa Tsutsui",
 
 	description: {
-		en: "This Pokémon sends a flowerlike scent wafting about. Well-developed muscles in its legs allow it to leap more than 16 feet with no trouble at all.",
+		'en-us': "This Pokémon sends a flowerlike scent wafting about. Well-developed muscles in its legs allow it to leap more than 16 feet with no trouble at all.",
 	},
 
 }

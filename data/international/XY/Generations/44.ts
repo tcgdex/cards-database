@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Graveler",
-		fr: "Gravalanch",
+		'en-us': "Graveler",
+		'fr-fr': "Gravalanch",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Geodude",
-		fr: "Racaillou",
+		'en-us': "Geodude",
+		'fr-fr': "Racaillou",
 	},
 
 	stage: "Stage1",
@@ -37,12 +37,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-Edge",
-				fr: "Damoclès",
+				'en-us': "Double-Edge",
+				'fr-fr': "Damoclès",
 			},
 			effect: {
-				en: "This Pokémon does 20 damage to itself.",
-				fr: "Ce Pokémon s'inflige 20 dégâts.",
+				'en-us': "This Pokémon does 20 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 20 dégâts.",
 			},
 			damage: 60,
 
@@ -55,8 +55,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
 			},
 
 			damage: 80,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "With a free and uncaring nature, it doesn't mind if pieces break off while it rolls down mountains.",
+		'en-us': "With a free and uncaring nature, it doesn't mind if pieces break off while it rolls down mountains.",
 	},
 
 	thirdParty: {

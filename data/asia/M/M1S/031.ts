@@ -1,26 +1,26 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラクライ"
+		'ja-jp': "ラクライ"
 	},
 	illustrator: "Naoki Saito",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Lightning"],
 	description: {
-		ja: "静電気を体毛に溜める。空気の乾燥した季節には全身から火花を散らす。"
+		'ja-jp': "静電気を体毛に溜める。空気の乾燥した季節には全身から火花を散らす。"
 	},
 	stage: "Basic",
 	attacks: [{
 		name: {
-			ja: "でんげき"
+			'ja-jp': "でんげき"
 		},
 		damage: 30,
 		effect: {
-			ja: "このポケモンにも10ダメージ。"
+			'ja-jp': "このポケモンにも10ダメージ。"
 		},
 		cost: ["Lightning"]
 	}],

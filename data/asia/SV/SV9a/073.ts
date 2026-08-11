@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ラクライ",
+		'ja-jp': "ラクライ",
 		'zh-tw': "落雷獸",
 		'zh-cn': "落雷獸"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "静電気を 体毛に 溜める。 空気の 乾燥した 季節には 全身から 火花を 散らす。",
+		'ja-jp': "静電気を 体毛に 溜める。 空気の 乾燥した 季節には 全身から 火花を 散らす。",
 		'zh-tw': "會在體毛中儲存靜電。 在空氣乾燥的季節 會從全身散發出火花。",
 		'zh-cn': "會在體毛中儲存靜電。 在空氣乾燥的季節 會從全身散發出火花。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "うしろげり",
+			'ja-jp': "うしろげり",
 			'zh-tw': "後踢",
 			'zh-cn': "後踢"
 		},
@@ -39,7 +39,7 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			ja: "プチボルト",
+			'ja-jp': "プチボルト",
 			'zh-tw': "小伏特",
 			'zh-cn': "小伏特"
 		},

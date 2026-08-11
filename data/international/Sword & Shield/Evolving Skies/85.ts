@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Hippowdon",
-		fr: "Hippodocus",
-		es: "Hippowdon",
-		it: "Hippowdon",
-		pt: "Hippowdon",
-		de: "Hippoterus"
+		'en-us': "Hippowdon",
+		'fr-fr': "Hippodocus",
+		'es-es': "Hippowdon",
+		'it-it': "Hippowdon",
+		'pt-br': "Hippowdon",
+		'de-de': "Hippoterus"
 	},
 
 	rarity: "Uncommon",
@@ -23,33 +23,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			es: "Martillear",
-			it: "Martello",
-			pt: "Hammer In",
-			de: "Einhämmern"
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'es-es': "Martillear",
+			'it-it': "Martello",
+			'pt-br': "Hammer In",
+			'de-de': "Einhämmern"
 		},
 
 		damage: 120,
 		cost: ["Fighting", "Fighting", "Colorless"]
 	}, {
 		name: {
-			en: "Sand Press",
-			fr: "Pression Sableuse",
-			es: "Presión de Arena",
-			it: "Silicopressa",
-			pt: "Sand Press",
-			de: "Sandpresse"
+			'en-us': "Sand Press",
+			'fr-fr': "Pression Sableuse",
+			'es-es': "Presión de Arena",
+			'it-it': "Silicopressa",
+			'pt-br': "Sand Press",
+			'de-de': "Sandpresse"
 		},
 
 		effect: {
-			en: "Discard 2 Energy from this Pokémon.",
-			fr: "Défaussez 2 Énergies de ce Pokémon.",
-			es: "Descarta 2 Energías de este Pokémon.",
-			it: "Scarta due Energie da questo Pokémon.",
-			pt: "Discard 2 Energy from this Pokémon.",
-			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard 2 Energy from this Pokémon.",
+			'fr-fr': "Défaussez 2 Énergies de ce Pokémon.",
+			'es-es': "Descarta 2 Energías de este Pokémon.",
+			'it-it': "Scarta due Energie da questo Pokémon.",
+			'pt-br': "Discard 2 Energy from this Pokémon.",
+			'de-de': "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 220,
@@ -64,16 +64,16 @@ const card: Card = {
 	retreat: 4,
 
 	evolveFrom: {
-		en: "Hippopotas",
-		fr: "Hippopotas",
-		es: "Hippopotas",
-		it: "Hippopotas",
-		pt: "Hippopotas",
-		de: "Hippopotas"
+		'en-us': "Hippopotas",
+		'fr-fr': "Hippopotas",
+		'es-es': "Hippopotas",
+		'it-it': "Hippopotas",
+		'pt-br': "Hippopotas",
+		'de-de': "Hippopotas"
 	},
 
 	description: {
-		en: "When roused to violence by its rage, it spews out the quantities of sand it has swallowed and whips up a sandstorm."
+		'en-us': "When roused to violence by its rage, it spews out the quantities of sand it has swallowed and whips up a sandstorm."
 	},
 
 	dexId: [450],

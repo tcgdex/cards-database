@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サボネア",
+		'ja-jp': "サボネア",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "雨が 少ない 乾燥した 地域に 生息。 １年に １回 黄色の 花を 咲かせる。",
+		'ja-jp': "雨が 少ない 乾燥した 地域に 生息。 １年に １回 黄色の 花を 咲かせる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Grass"],
 			effect: {
-				ja: "このポケモンに[悪]エネルギーがついているなら、30ダメージ追加。",
+				'ja-jp': "このポケモンに[悪]エネルギーがついているなら、30ダメージ追加。",
 			},
 		},
 	],

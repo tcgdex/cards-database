@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Decidueye ex"
+		'en-us': "Decidueye ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Dartrix"
+		'en-us': "Dartrix"
 	},
 
 	stage: "Stage2",
@@ -25,17 +25,17 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Pierce the Pain"
+			'en-us': "Pierce the Pain"
 		},
 
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "This attack does 100 damage to 1 of your opponent's Pokémon that have damage on them."
+			'en-us': "This attack does 100 damage to 1 of your opponent's Pokémon that have damage on them."
 		}
 	}, {
 		name: {
-			en: "Razor Leaf"
+			'en-us': "Razor Leaf"
 		},
 
 		damage: 80,

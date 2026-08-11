@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2023'
 
 const card: Card = {
 	name: {
-		en: "Flittle",
-		fr: "Flotillon",
-		es: "Flittle",
-		it: "Flittle",
-		pt: "Flittle",
-		de: "Flattutu"
+		'en-us': "Flittle",
+		'fr-fr': "Flotillon",
+		'es-es': "Flittle",
+		'it-it': "Flittle",
+		'pt-br': "Flittle",
+		'de-de': "Flattutu"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -28,7 +28,7 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				en: "Ram",
+				'en-us': "Ram",
 			},
 			damage: 10,
 		},

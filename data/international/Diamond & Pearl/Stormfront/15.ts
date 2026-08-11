@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Drapion",
-		fr: "Drascore",
-		de: "Piondragi"
+		'en-us': "Drapion",
+		'fr-fr': "Drascore",
+		'de-de': "Piondragi"
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Skorupi",
-		fr: "Rapion",
+		'en-us': "Skorupi",
+		'fr-fr': "Rapion",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Scorpion Grapple",
-				fr: "Lutte scorpion",
-				de: "Skorpionkralle"
+				'en-us': "Scorpion Grapple",
+				'fr-fr': "Lutte scorpion",
+				'de-de': "Skorpionkralle"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt. Bei \"Zahl\" kann sich das Verteidigende Pokémon im nächsten Zug deines Gegners nicht zurückziehen."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt. Bei \"Zahl\" kann sich das Verteidigende Pokémon im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 10,
 
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cross Poison",
-				fr: "Poison-croix",
-				de: "Giftstreich"
+				'en-us': "Cross Poison",
+				'fr-fr': "Poison-croix",
+				'de-de': "Giftstreich"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 20 damage times the number of heads. If 2 or more of them are heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces. Si vous obtenez au moins 2 faces, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu. Bei mindestens 2 Mal \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip 4 coins. This attack does 20 damage times the number of heads. If 2 or more of them are heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces. Si vous obtenez au moins 2 faces, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu. Bei mindestens 2 Mal \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 			damage: "20x",
 
@@ -71,14 +71,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Derail",
-				fr: "Dérailler",
-				de: "Entgleisen"
+				'en-us': "Derail",
+				'fr-fr': "Dérailler",
+				'de-de': "Entgleisen"
 			},
 			effect: {
-				en: "Discard all Special Energy cards attached to the Defending Pokémon.",
-				fr: "Défaussez toutes les cartes Énergie Spéciale attachées au Pokémon Défenseur.",
-				de: "Lege alle Spezialenergiekarten, die am Verteidigenden Pokémon angelegt sind, auf den Ablagestapel deines Gegners."
+				'en-us': "Discard all Special Energy cards attached to the Defending Pokémon.",
+				'fr-fr': "Défaussez toutes les cartes Énergie Spéciale attachées au Pokémon Défenseur.",
+				'de-de': "Lege alle Spezialenergiekarten, die am Verteidigenden Pokémon angelegt sind, auf den Ablagestapel deines Gegners."
 			},
 			damage: 60,
 

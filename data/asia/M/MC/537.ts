@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラ ナッシーex",
+		'ja-jp': "アローラ ナッシーex",
 	},
 
 	illustrator: "aky CG Works",
@@ -20,14 +20,14 @@ const card: Card = {
 			damage: 150,
 			cost: ["Grass", "Water"],
 			effect: {
-				ja: "自分の手札から基本エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。",
+				'ja-jp': "自分の手札から基本エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。",
 			},
 		},
 		{
 			name: { ja: "ブンブンスフェーン" },
 			cost: ["Grass", "Water", "Fighting"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトル場のたねポケモンをきぜつさせる。ウラなら、相手のベンチのたねポケモンを1匹選び、きぜつさせる。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトル場のたねポケモンをきぜつさせる。ウラなら、相手のベンチのたねポケモンを1匹選び、きぜつさせる。",
 			},
 		},
 	],
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "タマタマ",
+		'ja-jp': "タマタマ",
 	},
 
 	retreat: 3,

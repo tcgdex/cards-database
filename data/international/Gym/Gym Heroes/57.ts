@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Tentacool"
+		'en-us': "Misty's Tentacool"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -28,10 +28,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crystal Beam"
+				'en-us': "Crystal Beam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent can't attach Energy cards to the Defending Pokémon during his or her next turn."
+				'en-us': "Flip a coin. If heads, your opponent can't attach Energy cards to the Defending Pokémon during his or her next turn."
 			},
 			damage: 20,
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Cynthia's Guidance",
-		fr: "Les conseils de Cynthia",
-		de: "Cynthias Hilfe"
+		'en-us': "Cynthia's Guidance",
+		'fr-fr': "Les conseils de Cynthia",
+		'de-de': "Cynthias Hilfe"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Look at the top 7 cards of your deck, choose 1 of them, and put it into your hand. Put the other cards back on top of your deck. Shuffle your deck afterward.",
-		fr: "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.",
-		de: "Schau dir die obersten 7 Karten deines Decks an, wähle 1 davon und nimm sie auf deine Hand. Lege die anderen Karten zurück auf dein Deck. Mische dein Deck danach."
+		'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Look at the top 7 cards of your deck, choose 1 of them, and put it into your hand. Put the other cards back on top of your deck. Shuffle your deck afterward.",
+		'fr-fr': "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.",
+		'de-de': "Schau dir die obersten 7 Karten deines Decks an, wähle 1 davon und nimm sie auf deine Hand. Lege die anderen Karten zurück auf dein Deck. Mische dein Deck danach."
 	},
 
 	trainerType: "Supporter",

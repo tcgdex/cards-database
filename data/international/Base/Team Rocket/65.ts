@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Psyduck",
-		fr: "Psykokwak",
-		de: "Enton"
+		'en-us': "Psyduck",
+		'fr-fr': "Psykokwak",
+		'de-de': "Enton"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Dizziness",
-				fr: "Vertige",
-				de: "Dizziness"
+				'en-us': "Dizziness",
+				'fr-fr': "Vertige",
+				'de-de': "Dizziness"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Draw a card."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Draw a card."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
-				de: "Water Gun"
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
+				'de-de': "Water Gun"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each Energy attached to Psyduck but not used to pay for this attack. You can't add more than 20 damage in this way.",
-				fr: "Inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque Énergie  attachée à Psykokwak en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
-				de: "Does 20 damage plus 10 more damage for each  Energy attached to Psyduck but not used to pay for this attack. You can't add more than 20 damage in this way."
+				'en-us': "Does 20 damage plus 10 more damage for each Energy attached to Psyduck but not used to pay for this attack. You can't add more than 20 damage in this way.",
+				'fr-fr': "Inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque Énergie  attachée à Psykokwak en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
+				'de-de': "Does 20 damage plus 10 more damage for each  Energy attached to Psyduck but not used to pay for this attack. You can't add more than 20 damage in this way."
 			},
 			damage: "20+",
 
@@ -72,8 +72,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It is often seen holding its head in its paws, as if it were suffering from a headache.",
-		fr: "On le voit souvent se prendre la tête entre les mains, comme s'il souffrait de migraines."
+		'en-us': "It is often seen holding its head in its paws, as if it were suffering from a headache.",
+		'fr-fr': "On le voit souvent se prendre la tête entre les mains, comme s'il souffrait de migraines."
 	},
 
 

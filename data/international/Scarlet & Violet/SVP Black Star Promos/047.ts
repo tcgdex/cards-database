@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charmander",
-		fr: "Salamèche",
-		es: "Charmander",
-		it: "Charmander",
-		pt: "Charmander",
-		de: "Glumanda"
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche",
+		'es-es': "Charmander",
+		'it-it': "Charmander",
+		'pt-br': "Charmander",
+		'de-de': "Glumanda"
 	},
 
 	rarity: "Promo",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			en: "Ember",
-			fr: "Flammèche",
-			es: "Ascuas",
-			it: "Braciere",
-			pt: "Brasa",
-			de: "Glut"
+			'en-us': "Ember",
+			'fr-fr': "Flammèche",
+			'es-es': "Ascuas",
+			'it-it': "Braciere",
+			'pt-br': "Brasa",
+			'de-de': "Glut"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte uma Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 40
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "NC Empire",
 	description: {
-		en: "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
+		'en-us': "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
 	},
 	variants: [
 		{

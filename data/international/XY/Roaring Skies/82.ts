@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Fletchling",
-		fr: "Passerouge",
-		es: "Fletchling",
-		it: "Fletchling",
-		pt: "Fletchling",
-		de: "Dartiri"
+		'en-us': "Fletchling",
+		'fr-fr': "Passerouge",
+		'es-es': "Fletchling",
+		'it-it': "Fletchling",
+		'pt-br': "Fletchling",
+		'de-de': "Dartiri"
 	},
 
 	illustrator: "Kanako Eo",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Acrobatics",
-				fr: "Acrobatie",
-				es: "Acróbata",
-				it: "Acrobazia",
-				pt: "Acrobático",
-				de: "Akrobatik"
+				'en-us': "Acrobatics",
+				'fr-fr': "Acrobatie",
+				'es-es': "Acróbata",
+				'it-it': "Acrobazia",
+				'pt-br': "Acrobático",
+				'de-de': "Akrobatik"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts supplémentaires pour chaque côté face.",
-				es: "Lanza 2 monedas. Este ataque hace 10 puntos de daño más por cada cara.",
-				it: "Lancia due volte una moneta. Ogni volta che esce testa, questo attacco infligge 10 danni in più.",
-				pt: "Jogue 2 moedas. Este ataque causa 10 de danos adicionais para cada cara.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 10 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts supplémentaires pour chaque côté face.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 10 puntos de daño más por cada cara.",
+				'it-it': "Lancia due volte una moneta. Ogni volta che esce testa, questo attacco infligge 10 danni in più.",
+				'pt-br': "Jogue 2 moedas. Este ataque causa 10 de danos adicionais para cada cara.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 10 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "10+",
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Despite the beauty of its lilting voice, it's merciless to intruders that enter its territory.",
+		'en-us': "Despite the beauty of its lilting voice, it's merciless to intruders that enter its territory.",
 	},
 
 	thirdParty: {

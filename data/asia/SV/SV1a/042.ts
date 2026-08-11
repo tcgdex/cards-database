@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ナカヌチャン",
+		'ja-jp': "ナカヌチャン",
 		'zh-tw': "巧鍛匠",
-		th: "นาคานุจัง",
-		id: "Tinkatuff"
+		'th-th': "นาคานุจัง",
+		'id-id': "Tinkatuff"
 	},
 
 	illustrator: "Akira Komayama",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "大きくて 頑丈な ハンマーを 作るために キリキザンの 群れを 襲って 金属を 集める。",
+		'ja-jp': "大きくて 頑丈な ハンマーを 作るために キリキザンの 群れを 襲って 金属を 集める。",
 		'zh-tw': "為了製作又大又堅固的錘子，會去襲擊劈斬司令 的群體，藉以收集金屬。",
-		th: "จะโจมตีฝูงคิริคิซันและรวบรวมโลหะมาเพื่อสร้างค้อนที่มีขนาดใหญ่และแข็งแรง",
-		id: "Untuk membuat palu yang besar dan kuat, Tinkatuff menyerang kelompok Bisharp dan mengumpulkan logam dari mereka."
+		'th-th': "จะโจมตีฝูงคิริคิซันและรวบรวมโลหะมาเพื่อสร้างค้อนที่มีขนาดใหญ่และแข็งแรง",
+		'id-id': "Untuk membuat palu yang besar dan kuat, Tinkatuff menyerang kelompok Bisharp dan mengumpulkan logam dari mereka."
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "なぐる",
+			'ja-jp': "なぐる",
 			'zh-tw': "打擊",
-			th: "ทุบตี",
-			id: "Memukul"
+			'th-th': "ทุบตี",
+			'id-id': "Memukul"
 		},
 
 		damage: 30
@@ -42,19 +42,19 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "そこぢから",
+			'ja-jp': "そこぢから",
 			'zh-tw': "潛力",
-			th: "พลังแฝง",
-			id: "Kekuatan Laten"
+			'th-th': "พลังแฝง",
+			'id-id': "Kekuatan Laten"
 		},
 
 		damage: 80,
 
 		effect: {
-			ja: "次の自分の番、このポケモンはワザが使えない。",
+			'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
-			th: "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'th-th': "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		}
 	}],
 

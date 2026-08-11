@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イトマル",
+		'ja-jp': "イトマル",
 		'zh-tw': "圓絲蛛",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "キバの 毒は さほど 強くないが 巣に かかって 動けない 獲物を 弱らせるには 充分。",
+		'ja-jp': "キバの 毒は さほど 強くないが 巣に かかって 動けない 獲物を 弱らせるには 充分。",
 		'zh-tw': "牙齒的毒性並不強烈，但用來削弱那些掛在蛛網上無法動彈的獵物是綽綽有餘。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶらさがる",
+				'ja-jp': "ぶらさがる",
 				'zh-tw': "垂吊",
 			},
 			damage: 10,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "チクチクさす",
+				'ja-jp': "チクチクさす",
 				'zh-tw': "刺刺痛痛",
 			},
 			damage: 20,

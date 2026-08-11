@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Shieldon",
-		fr: "Dinoclier",
-		es: "Shieldon",
-		it: "Shieldon",
-		pt: "Shieldon",
-		de: "Schilterus"
+		'en-us': "Shieldon",
+		'fr-fr': "Dinoclier",
+		'es-es': "Shieldon",
+		'it-it': "Shieldon",
+		'pt-br': "Shieldon",
+		'de-de': "Schilterus"
 	},
 
 	illustrator: "Mizue",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Head",
-				fr: "Tête de Roc",
-				es: "Cabeza Roca",
-				it: "Testadura",
-				pt: "Cabeça de Pedra",
-				de: "Steinhaupt"
+				'en-us': "Rock Head",
+				'fr-fr': "Tête de Roc",
+				'es-es': "Cabeza Roca",
+				'it-it': "Testadura",
+				'pt-br': "Cabeça de Pedra",
+				'de-de': "Steinhaupt"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
-				es: "Durante el próximo turno de tu rival, cualquier daño infligido a este Pokémon por ataques se reduce en 20 (después de aplicar Debilidad y Resistencia).",
-				it: "Durante il prossimo turno del tuo avversario, i danni inflitti a questo Pokémon dagli attacchi sono ridotti di 20, dopo aver applicato debolezza e resistenza.",
-				pt: "Durante a próxima vez de jogar do seu oponente, qualquer dano causado a este Pokémon por ataques será reduzido em 20 (após a aplicação de Fraqueza e Resistência).",
-				de: "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'es-es': "Durante el próximo turno de tu rival, cualquier daño infligido a este Pokémon por ataques se reduce en 20 (después de aplicar Debilidad y Resistencia).",
+				'it-it': "Durante il prossimo turno del tuo avversario, i danni inflitti a questo Pokémon dagli attacchi sono ridotti di 20, dopo aver applicato debolezza e resistenza.",
+				'pt-br': "Durante a próxima vez de jogar do seu oponente, qualquer dano causado a este Pokémon por ataques será reduzido em 20 (após a aplicação de Fraqueza e Resistência).",
+				'de-de': "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 20,
 
@@ -60,12 +60,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer In",
-				fr: "Enfoncement",
-				es: "Martillear",
-				it: "Martello",
-				pt: "Martelada",
-				de: "Einhämmern"
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncement",
+				'es-es': "Martillear",
+				'it-it': "Martello",
+				'pt-br': "Martelada",
+				'de-de': "Einhämmern"
 			},
 
 			damage: 60,
@@ -90,16 +90,16 @@ const card: Card = {
 	retreat: 2,
 
 	evolveFrom: {
-		en: "Armor Fossil Shieldon",
-		fr: "Fossile Armure Dinoclier",
-		es: "Fósil Coraza Shieldon",
-		it: "Fossilscudo di Shieldon",
-		pt: "Fóssil Armadura de Shieldon",
-		de: "Schilterus' Panzerfossil"
+		'en-us': "Armor Fossil Shieldon",
+		'fr-fr': "Fossile Armure Dinoclier",
+		'es-es': "Fósil Coraza Shieldon",
+		'it-it': "Fossilscudo di Shieldon",
+		'pt-br': "Fóssil Armadura de Shieldon",
+		'de-de': "Schilterus' Panzerfossil"
 	},
 
 	description: {
-		en: "It was generated from a fossil dug out of a layer of clay that was older than anyone knows. It has a sturdy face.",
+		'en-us': "It was generated from a fossil dug out of a layer of clay that was older than anyone knows. It has a sturdy face.",
 	},
 
 	thirdParty: {

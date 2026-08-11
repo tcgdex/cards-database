@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [649],
 
 	name: {
-		en: "Genesect"
+		'en-us': "Genesect"
 	},
 
 	illustrator: "kawayoo",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "This ancient bug Pokémon was altered by Team\nPlasma. They upgraded the cannon on its back."
+		'en-us': "This ancient bug Pokémon was altered by Team\nPlasma. They upgraded the cannon on its back."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Metal Blast"
+			'en-us': "Metal Blast"
 		},
 
 		damage: 10,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "This attack does 20 more damage for each {M} Energy attached to this Pokémon."
+			'en-us': "This attack does 20 more damage for each {M} Energy attached to this Pokémon."
 		}
 	}],
 

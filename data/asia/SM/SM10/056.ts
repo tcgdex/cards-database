@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドンカラスGX",
+		'ja-jp': "ドンカラスGX",
 	},
 
 	illustrator: "sadaji",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "よるのしはいしゃ" },
 			effect: {
-				ja: "このポケモンがバトル場にいるかぎり、相手は手札から、「ポケモンのどうぐ」「特殊エネルギー」を出してつけられず「スタジアム」も出せない。",
+				'ja-jp': "このポケモンがバトル場にいるかぎり、相手は手札から、「ポケモンのどうぐ」「特殊エネルギー」を出してつけられず「スタジアム」も出せない。",
 			},
 		},
 	],
@@ -30,14 +30,14 @@ const card: Card = {
 			damage: 90,
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のベンチにいる「ポケモンGX・EX」2匹にも、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチにいる「ポケモンGX・EX」2匹にも、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
 			name: { ja: "アンフェアGX" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手の手札を見て、その中にあるカードを、2枚トラッシュする。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手の手札を見て、その中にあるカードを、2枚トラッシュする。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤミカラス",
+		'ja-jp': "ヤミカラス",
 	},
 
 	retreat: 2,

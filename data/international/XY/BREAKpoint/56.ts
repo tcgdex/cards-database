@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Trubbish",
-		fr: "Miamiasme",
-		es: "Trubbish",
-		it: "Trubbish",
-		pt: "Trubbish",
-		de: "Unratütox"
+		'en-us': "Trubbish",
+		'fr-fr': "Miamiasme",
+		'es-es': "Trubbish",
+		'it-it': "Trubbish",
+		'pt-br': "Trubbish",
+		'de-de': "Unratütox"
 	},
 
 	illustrator: "OOYAMA",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Acid Spray",
-				fr: "Bombe Acide",
-				es: "Bomba Ácida",
-				it: "Acidobomba",
-				pt: "Spray Ácido",
-				de: "Säurespeier"
+				'en-us': "Acid Spray",
+				'fr-fr': "Bombe Acide",
+				'es-es': "Bomba Ácida",
+				'it-it': "Acidobomba",
+				'pt-br': "Spray Ácido",
+				'de-de': "Säurespeier"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
-				es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía unida al Pokémon Activo de tu rival.",
-				it: "Lancia una moneta. Se esce testa, scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Jogue uma moeda. Se sair cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
-				de: "Wirf 1 Münze. Lege bei \"Kopf\" 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				'es-es': "Lanza 1 moneda. Si sale cara, descarta 1 Energía unida al Pokémon Activo de tu rival.",
+				'it-it': "Lancia una moneta. Se esce testa, scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Jogue uma moeda. Se sair cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
+				'de-de': "Wirf 1 Münze. Lege bei \"Kopf\" 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 10,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Inhaling the gas they belch will make you sleep for a week. They prefer unsanitary places.",
+		'en-us': "Inhaling the gas they belch will make you sleep for a week. They prefer unsanitary places.",
 	},
 
 	thirdParty: {

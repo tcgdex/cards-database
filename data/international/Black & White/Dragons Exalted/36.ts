@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Seismitoad",
-		fr: "Crapustule",
-		es: "Seismitoad",
-		it: "Seismitoad",
-		pt: "Seismitoad",
-		de: "Branawarz"
+		'en-us': "Seismitoad",
+		'fr-fr': "Crapustule",
+		'es-es': "Seismitoad",
+		'it-it': "Seismitoad",
+		'pt-br': "Seismitoad",
+		'de-de': "Branawarz"
 	},
 
 	illustrator: "kawayoo",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Palpitoad",
-		fr: "Batracné",
+		'en-us': "Palpitoad",
+		'fr-fr': "Batracné",
 	},
 
 	stage: "Stage2",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Echoed Voice",
-				fr: "Écho",
+				'en-us': "Echoed Voice",
+				'fr-fr': "Écho",
 			},
 			effect: {
-				en: "During your next turn, this Pokémon's Echoed Voice attack does 50 more damage (before applying Weakness and Resistance).",
-				fr: "Pendant votre prochain tour, l'attaque Écho de ce Pokémon inflige 50 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				'en-us': "During your next turn, this Pokémon's Echoed Voice attack does 50 more damage (before applying Weakness and Resistance).",
+				'fr-fr': "Pendant votre prochain tour, l'attaque Écho de ce Pokémon inflige 50 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: 50,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drain Punch",
-				fr: "Vampipoing",
+				'en-us': "Drain Punch",
+				'fr-fr': "Vampipoing",
 			},
 			effect: {
-				en: "Heal 20 damage from this Pokémon.",
-				fr: "Soignez 20 dégâts à ce Pokémon.",
+				'en-us': "Heal 20 damage from this Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à ce Pokémon.",
 			},
 			damage: 80,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They shoot paralyzing liquid from their head bumps. They use vibration to hurt their opponents.",
+		'en-us': "They shoot paralyzing liquid from their head bumps. They use vibration to hurt their opponents.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Dialga G",
-		fr: "Dialga ",
-		de: "Dialga G"
+		'en-us': "Dialga G",
+		'fr-fr': "Dialga ",
+		'de-de': "Dialga G"
 	},
 
 	illustrator: "Yusuke Ishikawa",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Deafen",
-				fr: "Rendre sourd",
-				de: "Deafen"
+				'en-us': "Deafen",
+				'fr-fr': "Rendre sourd",
+				'de-de': "Deafen"
 			},
 			effect: {
-				en: "Your opponent can't play any Trainer cards or Stadium cards from his or her hand during your opponent's next turn.",
-				fr: "Votre adversaire ne peut pas jouer de cartes Dresseur ou Stade de sa main lors de son prochain tour.",
-				de: "Your opponent can't play any Trainer cards or Stadium cards from his or her hand during your opponent's next turn."
+				'en-us': "Your opponent can't play any Trainer cards or Stadium cards from his or her hand during your opponent's next turn.",
+				'fr-fr': "Votre adversaire ne peut pas jouer de cartes Dresseur ou Stade de sa main lors de son prochain tour.",
+				'de-de': "Your opponent can't play any Trainer cards or Stadium cards from his or her hand during your opponent's next turn."
 			},
 			damage: 10,
 
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Second Strike",
-				fr: "Deuxième coup",
-				de: "Second Strike"
+				'en-us': "Second Strike",
+				'fr-fr': "Deuxième coup",
+				'de-de': "Second Strike"
 			},
 			effect: {
-				en: "If the Defending Pokémon already has 2 or more damage counters on it, this attack does 50 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur possède déjà au moins 2 marqueurs de dégât, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires.",
-				de: "If the Defending Pokémon already has 2 or more damage counters on it, this attack does 50 damage plus 20 more damage."
+				'en-us': "If the Defending Pokémon already has 2 or more damage counters on it, this attack does 50 damage plus 20 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur possède déjà au moins 2 marqueurs de dégât, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon already has 2 or more damage counters on it, this attack does 50 damage plus 20 more damage."
 			},
 			damage: "50+",
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルガルガン",
+		'ja-jp': "ルガルガン",
 		'zh-tw': "鬃岩狼人",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "群れを 作らず １匹で 暮らす。 自分の 力を 引き出してくれる トレーナーの いうことしか 聞かない。",
+		'ja-jp': "群れを 作らず １匹で 暮らす。 自分の 力を 引き出してくれる トレーナーの いうことしか 聞かない。",
 		'zh-tw': "不集結成群，而是單獨生活。只會聽命於能夠引出自己力量的訓練家。",
 	},
 
@@ -26,7 +26,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Fighting", "Fighting"],
 			effect: {
-				ja: "自分のトラッシュにある「いちげき」のポケモンの枚数×10ダメージ追加。",
+				'ja-jp': "自分のトラッシュにある「いちげき」のポケモンの枚数×10ダメージ追加。",
 			},
 		},
 	],
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イワンコ",
+		'ja-jp': "イワンコ",
 	},
 
 	retreat: 2,

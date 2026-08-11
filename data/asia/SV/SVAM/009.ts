@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVAM"
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "路卡利歐ex",
-		th: "ลูคาริโอex",
-		id: "Lucario ex"
+		'th-th': "ลูคาริโอex",
+		'id-id': "Lucario ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,8 +20,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "下盤踢",
-			th: "เตะต่ำ",
-			id: "Low Kick"
+			'th-th': "เตะต่ำ",
+			'id-id': "Low Kick"
 		},
 
 		damage: 60,
@@ -29,14 +29,14 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "波導彈",
-			th: "กระสุนคลื่นพลัง",
-			id: "Bola Aura"
+			'th-th': "กระสุนคลื่นพลัง",
+			'id-id': "Bola Aura"
 		},
 
 		effect: {
 			'zh-tw': "對手的1隻備戰寶可夢也受到50點傷害。[在備戰區不計算弱點・抵抗力。]",
-			th: "โปเกมอนบนเบนช์ฝ่ายตรงข้าม 1 ตัว ก็จะได้รับแดเมจ 50 ด้วย {โปเกมอนบนเบนช์จะไม่นำจุดอ่อนและความต้านทานมาคิด}",
-			id: "Serangan ini juga memberikan kerusakan sejumlah 50 kepada 1 Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
+			'th-th': "โปเกมอนบนเบนช์ฝ่ายตรงข้าม 1 ตัว ก็จะได้รับแดเมจ 50 ด้วย {โปเกมอนบนเบนช์จะไม่นำจุดอ่อนและความต้านทานมาคิด}",
+			'id-id': "Serangan ini juga memberikan kerusakan sejumlah 50 kepada 1 Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
 		},
 
 		damage: 160,

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โบรรอน",
-		id: "Varoom"
+		'th-th': "โบรรอน",
+		'id-id': "Varoom"
 	},
 
 	illustrator: "HAGIYA Kaoru",
@@ -15,28 +15,28 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		th: "ร่างที่แท้จริงคือส่วนที่เป็นเหล็กกล้า เกาะติดอยู่กับหินแล้วเปลี่ยนส่วนประกอบนั้นให้เป็นพลังงานที่ใช้ในการขับเคลื่อน",
-		id: "Tubuh baja Varoom adalah tubuh aslinya. Pokémon ini menempel di batu, mengubah kandungan batu tersebut menjadi energinya, lalu beraktivitas."
+		'th-th': "ร่างที่แท้จริงคือส่วนที่เป็นเหล็กกล้า เกาะติดอยู่กับหินแล้วเปลี่ยนส่วนประกอบนั้นให้เป็นพลังงานที่ใช้ในการขับเคลื่อน",
+		'id-id': "Tubuh baja Varoom adalah tubuh aslinya. Pokémon ini menempel di batu, mengubah kandungan batu tersebut menjadi energinya, lalu beraktivitas."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "แข็งเกร็ง",
-			id: "Kaku"
+			'th-th': "แข็งเกร็ง",
+			'id-id': "Kaku"
 		},
 
 		effect: {
-			th: "เทิร์นถัดไปของฝ่ายตรงข้าม แดเมจของท่าต่อสู้ที่โปเกมอนนี้จะได้รับจะถูก [-30]",
-			id: "Pada giliran lawan berikutnya, kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 30."
+			'th-th': "เทิร์นถัดไปของฝ่ายตรงข้าม แดเมจของท่าต่อสู้ที่โปเกมอนนี้จะได้รับจะถูก [-30]",
+			'id-id': "Pada giliran lawan berikutnya, kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 30."
 		},
 
 		cost: ["Metal"]
 	}, {
 		name: {
-			th: "กระโดดโหม่ง",
-			id: "Sundulan Meloncat"
+			'th-th': "กระโดดโหม่ง",
+			'id-id': "Sundulan Meloncat"
 		},
 
 		damage: 20,

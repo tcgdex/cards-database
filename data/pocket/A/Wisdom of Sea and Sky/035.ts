@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Darumaka",
-		fr: "Darumarond"
+		'en-us': "Darumaka",
+		'fr-fr': "Darumarond"
 	},
 
 	illustrator: "Yuka Morii",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "It derives its power from fire burning inside\nits body. If the fire dwindles, this Pokémon will\nimmediately fall asleep.",
-		fr: "La flamme qui brûle dans son corps est sa source d'énergie. Si le feu s'affaiblit, il s'endort sur-le-champ."
+		'en-us': "It derives its power from fire burning inside\nits body. If the fire dwindles, this Pokémon will\nimmediately fall asleep.",
+		'fr-fr': "La flamme qui brûle dans son corps est sa source d'énergie. Si le feu s'affaiblit, il s'endort sur-le-champ."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Flop",
-			fr: "Flop"
+			'en-us': "Flop",
+			'fr-fr': "Flop"
 		},
 
 		damage: 30,

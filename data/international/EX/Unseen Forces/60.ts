@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Houndour",
-		fr: "Malosse",
-		de: "Hunduster"
+		'en-us': "Houndour",
+		'fr-fr': "Malosse",
+		'de-de': "Hunduster"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Smog",
-				fr: "Purédpois",
-				de: "Smog"
+				'en-us': "Smog",
+				'fr-fr': "Purédpois",
+				'de-de': "Smog"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "The Defending Pokémon is now Poisoned."
 			},
 
 		},

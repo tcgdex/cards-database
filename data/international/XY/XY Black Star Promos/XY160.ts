@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Black Kyurem",
-		fr: "Kyurem Noir"
+		'en-us': "Black Kyurem",
+		'fr-fr': "Kyurem Noir"
 	},
 
 	illustrator: "kawayoo",
@@ -32,8 +32,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Wing",
-				fr: "Aile Glace"
+				'en-us': "Ice Wing",
+				'fr-fr': "Aile Glace"
 			},
 
 			damage: 60,
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Frosty Thunder",
-				fr: "Tonnerre Givré"
+				'en-us': "Frosty Thunder",
+				'fr-fr': "Tonnerre Givré"
 			},
 			effect: {
-				en: "If this Pokémon has any Lightning Energy attached to it, this attack does 20 damage to each of your opponent's Benched Pokémon. (Don't apply weakness and Resistance for Benched Pokémon.)",
-				fr: "Si de l'Énergie  est attachée à ce Pokémon, cette attaque inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+				'en-us': "If this Pokémon has any Lightning Energy attached to it, this attack does 20 damage to each of your opponent's Benched Pokémon. (Don't apply weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Si de l'Énergie  est attachée à ce Pokémon, cette attaque inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 120,
 
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
+		'en-us': "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
 	},
 
 	thirdParty: {

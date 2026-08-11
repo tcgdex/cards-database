@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Rhyperior",
-		fr: "Rhinastoc",
-		es: "Rhyperior",
-		it: "Rhyperior",
-		pt: "Rhyperior",
-		de: "Rihornior"
+		'en-us': "Rhyperior",
+		'fr-fr': "Rhinastoc",
+		'es-es': "Rhyperior",
+		'it-it': "Rhyperior",
+		'pt-br': "Rhyperior",
+		'de-de': "Rihornior"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rhydon",
-		fr: "Rhinoféros",
-		es: "Rhydon",
-		it: "Rhydon",
-		pt: "Rhydon",
-		de: "Rizeros"
+		'en-us': "Rhydon",
+		'fr-fr': "Rhinoféros",
+		'es-es': "Rhydon",
+		'it-it': "Rhydon",
+		'pt-br': "Rhydon",
+		'de-de': "Rizeros"
 	},
 
 	stage: "Stage2",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Rock Blast",
-				fr: "Boule Roc",
-				es: "Pedrada",
-				it: "Cadutamassi",
-				pt: "Explosão de Rocha",
-				de: "Felswurf"
+				'en-us': "Rock Blast",
+				'fr-fr': "Boule Roc",
+				'es-es': "Pedrada",
+				'it-it': "Cadutamassi",
+				'pt-br': "Explosão de Rocha",
+				'de-de': "Felswurf"
 			},
 			effect: {
-				en: "Flip a coin for each Fighting Energy attached to this Pokémon. This attack does 50 damage times the number of heads.",
-				fr: "Lancez une pièce pour chaque Énergie Fighting attachée à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
-				es: "Lanza 1 moneda por cada Energía Fighting unida a este Pokémon. Este ataque hace 50 puntos de daño por cada cara.",
-				it: "Lancia una moneta per ogni Energia Fighting assegnata a questo Pokémon. Questo attacco infligge 50 danni ogni volta che esce testa.",
-				pt: "Jogue uma moeda para cada Energia Fighting ligada a este Pokémon. Esse ataque causa 50 de danos vezes o número de caras.",
-				de: "Wirf für jede an dieses Pokémon angelegte Fighting-Energie 1 Münze. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip a coin for each Fighting Energy attached to this Pokémon. This attack does 50 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce pour chaque Énergie Fighting attachée à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 1 moneda por cada Energía Fighting unida a este Pokémon. Este ataque hace 50 puntos de daño por cada cara.",
+				'it-it': "Lancia una moneta per ogni Energia Fighting assegnata a questo Pokémon. Questo attacco infligge 50 danni ogni volta che esce testa.",
+				'pt-br': "Jogue uma moeda para cada Energia Fighting ligada a este Pokémon. Esse ataque causa 50 de danos vezes o número de caras.",
+				'de-de': "Wirf für jede an dieses Pokémon angelegte Fighting-Energie 1 Münze. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "50×",
 
@@ -69,20 +69,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Wrecker",
-				fr: "Roc-Boulet",
-				es: "Romperrocas",
-				it: "Devastomasso",
-				pt: "Demolidor de Pedras",
-				de: "Felswerfer"
+				'en-us': "Rock Wrecker",
+				'fr-fr': "Roc-Boulet",
+				'es-es': "Romperrocas",
+				'it-it': "Devastomasso",
+				'pt-br': "Demolidor de Pedras",
+				'de-de': "Felswerfer"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness or Resistance. This Pokémon can't attack during your next turn.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance. Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
-				es: "El daño de este ataque no se ve afectado por Debilidad o Resistencia. Este Pokémon no puede atacar durante tu próximo turno.",
-				it: "Il danno di questo attacco non è influenzato dalla debolezza o dalla resistenza. Questo Pokémon non può attaccare durante il tuo prossimo turno.",
-				pt: "Os danos desse ataque não são afetados por Fraqueza ou Resistência. Este Pokémon não poderá atacar durante sua próxima vez de jogar.",
-				de: "Der Schaden dieses Angriffs wird durch Schwäche und Resistenz nicht verändert. Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
+				'en-us': "This attack's damage isn't affected by Weakness or Resistance. This Pokémon can't attack during your next turn.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance. Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				'es-es': "El daño de este ataque no se ve afectado por Debilidad o Resistencia. Este Pokémon no puede atacar durante tu próximo turno.",
+				'it-it': "Il danno di questo attacco non è influenzato dalla debolezza o dalla resistenza. Questo Pokémon non può attaccare durante il tuo prossimo turno.",
+				'pt-br': "Os danos desse ataque não são afetados por Fraqueza ou Resistência. Este Pokémon não poderá atacar durante sua próxima vez de jogar.",
+				'de-de': "Der Schaden dieses Angriffs wird durch Schwäche und Resistenz nicht verändert. Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
 			},
 			damage: 130,
 
@@ -99,7 +99,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "From holes in its palms, it fires out Geodude. Its carapace can withstand volcanic eruptions.",
+		'en-us': "From holes in its palms, it fires out Geodude. Its carapace can withstand volcanic eruptions.",
 	},
 
 	thirdParty: {

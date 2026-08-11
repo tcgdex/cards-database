@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チョンチー",
+		'ja-jp': "チョンチー",
 	},
 
 	illustrator: "Aya Kusube",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "光の 届かない 海底に 暮らす。 触手を 光らせ 仲間と コミュニケーション。",
+		'ja-jp': "光の 届かない 海底に 暮らす。 触手を 光らせ 仲間と コミュニケーション。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン2匹にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン2匹にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オコリザル",
+		'ja-jp': "オコリザル",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Fighting"],
 			name: {
-				ja: "フューリースワイプ",
+				'ja-jp': "フューリースワイプ",
 			},
 			effect: {
-				ja: "3コインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。",
+				'ja-jp': "3コインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。",
 			},
 
 		},
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
-				ja: "かんしゃく",
+				'ja-jp': "かんしゃく",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、プライムエーパーは（ダメージを与えた後）混乱しています。",
+				'ja-jp': "コインをひっくり返します。尾の場合、プライムエーパーは（ダメージを与えた後）混乱しています。",
 			},
 			damage: 50,
 		},

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Gligar",
-		fr: "Scorplane",
-		es: "Gligar",
-		it: "Gligar",
-		pt: "Gligar",
-		de: "Skorgla"
+		'en-us': "Gligar",
+		'fr-fr': "Scorplane",
+		'es-es': "Gligar",
+		'it-it': "Gligar",
+		'pt-br': "Gligar",
+		'de-de': "Skorgla"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Cannon",
-				fr: "Canon à Pierres",
-				es: "Cañón Roca",
-				it: "Rocciocannone",
-				pt: "Canhão de Rochas",
-				de: "Felskanone"
+				'en-us': "Rock Cannon",
+				'fr-fr': "Canon à Pierres",
+				'es-es': "Cañón Roca",
+				'it-it': "Rocciocannone",
+				'pt-br': "Canhão de Rochas",
+				'de-de': "Felskanone"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 20 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
-				es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño por cada cara.",
-				it: "Lancia una moneta finché non esce croce. Questo attacco infligge 20 danni ogni volta che esce testa.",
-				pt: "Jogue uma moeda até sair coroa. Esse ataque causa 20 de danos vezes o número de caras.",
-				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip a coin until you get tails. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño por cada cara.",
+				'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 20 danni ogni volta che esce testa.",
+				'pt-br': "Jogue uma moeda até sair coroa. Esse ataque causa 20 de danos vezes o número de caras.",
+				'de-de': "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "20×",
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It usually clings to cliffs. When it spots its prey, it spreads its wings and glides down to attack.",
+		'en-us': "It usually clings to cliffs. When it spots its prey, it spreads its wings and glides down to attack.",
 	},
 
 	thirdParty: {

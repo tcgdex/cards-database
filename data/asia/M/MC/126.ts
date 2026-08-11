@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レシラムex",
+		'ja-jp': "レシラムex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: "130+",
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "相手がすでにとったサイドの枚数×50ダメージ追加。このポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "相手がすでにとったサイドの枚数×50ダメージ追加。このポケモンについているエネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],

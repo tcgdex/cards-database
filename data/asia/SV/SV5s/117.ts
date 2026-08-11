@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Unfezant"
+		'id-id': "Unfezant"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Unfezant memiliki kemampuan terbang yang tinggi. Yang betina unggul dalam stamina untuk terbang, sedangkan yang jantan unggul dalam kecepatan terbang."
+		'id-id': "Unfezant memiliki kemampuan terbang yang tinggi. Yang betina unggul dalam stamina untuk terbang, sedangkan yang jantan unggul dalam kecepatan terbang."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			id: "Reverse Wind"
+			'id-id': "Reverse Wind"
 		},
 
 		effect: {
-			id: "Pemain dapat memilih 2 Energi yang dikenakan pada Pokémon Bertarung lawan, lalu mengembalikannya ke Kartu Pegangan lawan."
+			'id-id': "Pemain dapat memilih 2 Energi yang dikenakan pada Pokémon Bertarung lawan, lalu mengembalikannya ke Kartu Pegangan lawan."
 		},
 
 		damage: 70,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Kekuatan Laten"
+			'id-id': "Kekuatan Laten"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 180,

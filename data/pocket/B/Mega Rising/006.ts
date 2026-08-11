@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cascoon"
+		'en-us': "Cascoon"
 	},
 
 	illustrator: "GOSSAN",
@@ -17,24 +17,24 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Wurmple"
+		'en-us': "Wurmple"
 	},
 
 	description: {
-		en: "It never forgets any attack it endured while in the\ncocoon. After evolution, it seeks payback."
+		'en-us': "It never forgets any attack it endured while in the\ncocoon. After evolution, it seeks payback."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Harden"
+			'en-us': "Harden"
 		},
 
 		cost: ["Grass"],
 
 		effect: {
-			en: "During your opponent's next turn, prevent all damage done to this Pokémon by attacks if that damage is 40 or less."
+			'en-us': "During your opponent's next turn, prevent all damage done to this Pokémon by attacks if that damage is 40 or less."
 		}
 	}],
 

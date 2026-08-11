@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Maschiff",
-		fr: "Grondogue",
-		es: "Maschiff",
-		it: "Maschiff",
-		pt: "Maschiff",
-		de: "Mobtiff"
+		'en-us': "Maschiff",
+		'fr-fr': "Grondogue",
+		'es-es': "Maschiff",
+		'it-it': "Maschiff",
+		'pt-br': "Maschiff",
+		'de-de': "Mobtiff"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Rear Kick",
-			fr: "Ruade",
-			es: "Patada Trasera",
-			it: "Retrocalcio",
-			pt: "Chute Traseiro",
-			de: "Rückwärtskick"
+			'en-us': "Rear Kick",
+			'fr-fr': "Ruade",
+			'es-es': "Patada Trasera",
+			'it-it': "Retrocalcio",
+			'pt-br': "Chute Traseiro",
+			'de-de': "Rückwärtskick"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Darkness Fang",
-			fr: "Croc Obscur",
-			es: "Colmillo de Oscuridad",
-			it: "Oscurizanna",
-			pt: "Presa Sombria",
-			de: "Fänge der Dunkelheit"
+			'en-us': "Darkness Fang",
+			'fr-fr': "Croc Obscur",
+			'es-es': "Colmillo de Oscuridad",
+			'it-it': "Oscurizanna",
+			'pt-br': "Presa Sombria",
+			'de-de': "Fänge der Dunkelheit"
 		},
 
 		damage: 20
@@ -69,7 +69,7 @@ const card: Card = {
 	illustrator: "kantaro",
 
 	description: {
-		en: "Its well-developed jaw and fangs are strong enough to crunch through boulders, and its thick fat makes for an excellent defense.",
+		'en-us': "Its well-developed jaw and fangs are strong enough to crunch through boulders, and its thick fat makes for an excellent defense.",
 	},
 
 	thirdParty: {

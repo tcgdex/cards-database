@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Charizard EX",
-		fr: "Dracaufeu EX",
+		'en-us': "Charizard EX",
+		'fr-fr': "Dracaufeu EX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Ascension",
-				fr: "Megascension",
+				'en-us': "Mega Ascension",
+				'fr-fr': "Megascension",
 			},
 			effect: {
-				en: "Search your deck for M Charizard-EX, reveal it, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez un M-Dracaufeu-EX dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for M Charizard-EX, reveal it, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez un M-Dracaufeu-EX dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Brave Fire",
-				fr: "Flammes de Bravoure",
+				'en-us': "Brave Fire",
+				'fr-fr': "Flammes de Bravoure",
 			},
 			effect: {
-				en: "This Pokémon does 30 damage to itself.",
-				fr: "Ce Pokémon s'inflige 30 dégâts.",
+				'en-us': "This Pokémon does 30 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 30 dégâts.",
 			},
 			damage: 120,
 

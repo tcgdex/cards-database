@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Pupitar",
-		fr: "Ymphect",
-		de: "Pupitar"
+		'en-us': "Pupitar",
+		'fr-fr': "Ymphect",
+		'de-de': "Pupitar"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Larvitar",
-		fr: "Embrylex"
+		'en-us': "Larvitar",
+		'fr-fr': "Embrylex"
 	},
 
 	stage: "Stage1",
@@ -37,9 +37,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Skull Bash",
-				fr: "Coud'krane",
-				de: "Schädelwumme"
+				'en-us': "Skull Bash",
+				'fr-fr': "Coud'krane",
+				'de-de': "Schädelwumme"
 			},
 
 			damage: 20,
@@ -51,14 +51,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Dust Devil",
-				fr: "Tempête de sable",
-				de: "Sandteufel"
+				'en-us': "Dust Devil",
+				'fr-fr': "Tempête de sable",
+				'de-de': "Sandteufel"
 			},
 			effect: {
-				en: "Does 10 damage to each non- Pokémon in play. Don't apply Weakness and Resistance.",
-				fr: "Inflige 10 dégâts à chaque Pokémon non- en jeu. N'appliquez pas la Faiblesse et la Résistance.",
-				de: "Fügt jedem Pokémon im Spiel, das nicht vom Typ  ist, 10 Schadenspunkte zu. Wende Schwäche und Resistenz nicht an."
+				'en-us': "Does 10 damage to each non- Pokémon in play. Don't apply Weakness and Resistance.",
+				'fr-fr': "Inflige 10 dégâts à chaque Pokémon non- en jeu. N'appliquez pas la Faiblesse et la Résistance.",
+				'de-de': "Fügt jedem Pokémon im Spiel, das nicht vom Typ  ist, 10 Schadenspunkte zu. Wende Schwäche und Resistenz nicht an."
 			},
 
 		},
@@ -81,8 +81,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its shell is as hard as sheet rock, and it is also very strong. Its thrashing can topple a mountain.",
-		fr: "Sa carapace est dure comme de la pierre, et elle le rend très fort. Ses coups peuvent renverser une montagne."
+		'en-us': "Its shell is as hard as sheet rock, and it is also very strong. Its thrashing can topple a mountain.",
+		'fr-fr': "Sa carapace est dure comme de la pierre, et elle le rend très fort. Ses coups peuvent renverser une montagne."
 	},
 
 

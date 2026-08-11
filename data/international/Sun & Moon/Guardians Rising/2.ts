@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Weepinbell",
-		fr: "Boustiflor",
-		es: "Weepinbell",
-		it: "Weepinbell",
-		pt: "Weepinbell",
-		de: "Ultrigaria"
+		'en-us': "Weepinbell",
+		'fr-fr': "Boustiflor",
+		'es-es': "Weepinbell",
+		'it-it': "Weepinbell",
+		'pt-br': "Weepinbell",
+		'de-de': "Ultrigaria"
 	},
 
 	illustrator: "Mina Nakai",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bellsprout",
-		fr: "Chétiflor",
+		'en-us': "Bellsprout",
+		'fr-fr': "Chétiflor",
 	},
 
 	stage: "Stage1",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Muddy Acid",
-				fr: "Acide Trouble",
-				es: "Ácido Lodoso",
-				it: "Fango Acido",
-				pt: "Ácido Lamacento",
-				de: "Lehmsäure"
+				'en-us': "Muddy Acid",
+				'fr-fr': "Acide Trouble",
+				'es-es': "Ácido Lodoso",
+				'it-it': "Fango Acido",
+				'pt-br': "Ácido Lamacento",
+				'de-de': "Lehmsäure"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy from your opponent’s Active Pokémon.",
-				fr: "Lancez une pièce. Si c’est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
-				es: "Lanza 1 moneda. Si sala cara, descarta 1 Energía del Pokémon Activo de tu rival.",
-				it: "Lancia una moneta. Se esce testa, scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Jogue 1 moeda. Se sair cara, descarte 1 Energia do Pokémon Ativo do seu oponente.",
-				de: "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+				'en-us': "Flip a coin. If heads, discard an Energy from your opponent’s Active Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c’est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
+				'es-es': "Lanza 1 moneda. Si sala cara, descarta 1 Energía del Pokémon Activo de tu rival.",
+				'it-it': "Lancia una moneta. Se esce testa, scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, descarte 1 Energia do Pokémon Ativo do seu oponente.",
+				'de-de': "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 40,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The leafy parts act as cutters for slashing foes. It spits a fluid that dissolves everything.",
+		'en-us': "The leafy parts act as cutters for slashing foes. It spits a fluid that dissolves everything.",
 	},
 
 	thirdParty: {

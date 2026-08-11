@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Roserade",
-		fr: "Roserade",
-		es: "Roserade",
-		it: "Roserade",
-		pt: "Roserade",
-		de: "Roserade"
+		'en-us': "Roserade",
+		'fr-fr': "Roserade",
+		'es-es': "Roserade",
+		'it-it': "Roserade",
+		'pt-br': "Roserade",
+		'de-de': "Roserade"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Roselia",
-		fr: "Rosélia",
+		'en-us': "Roselia",
+		'fr-fr': "Rosélia",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Crosswise Whip",
-				fr: "Fouets Croisés",
+				'en-us': "Crosswise Whip",
+				'fr-fr': "Fouets Croisés",
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 4 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 30,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Point",
-				fr: "Point Poison",
+				'en-us': "Poison Point",
+				'fr-fr': "Point Poison",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
 			},
 			damage: 60,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Each of its hands contains different toxins, but both hands can jab with near-fatal power.",
+		'en-us': "Each of its hands contains different toxins, but both hands can jab with near-fatal power.",
 	},
 
 	thirdParty: {

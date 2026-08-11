@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 		'zh-tw': "洛奇亞VSTAR",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "不安定な 遺伝子の おかげで さまざまな 進化の 可能性を 秘めている 特殊な ポケモン。",
+		'ja-jp': "不安定な 遺伝子の おかげで さまざまな 進化の 可能性を 秘めている 特殊な ポケモン。",
 	},
 
 	stage: "Basic",
@@ -22,12 +22,12 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "じゅんびする",
+				'ja-jp': "じゅんびする",
 				'zh-tw': "風暴俯衝",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の手札から基本エネルギーを1枚選び、このポケモンにつける。",
+				'ja-jp': "自分の手札から基本エネルギーを1枚選び、このポケモンにつける。",
 				'zh-tw': "若希望，將場上的競技場卡丟棄。",
 			},
 		},

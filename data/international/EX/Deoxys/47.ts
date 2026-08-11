@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Solrock",
-		fr: "Solaroc",
-		de: "Sonnfel"
+		'en-us': "Solrock",
+		'fr-fr': "Solaroc",
+		'de-de': "Sonnfel"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Sunbeam",
-				fr: "Rayon de soleil",
-				de: "Sunbeam"
+				'en-us': "Sunbeam",
+				'fr-fr': "Rayon de soleil",
+				'de-de': "Sunbeam"
 			},
 			effect: {
-				en: "The maximum HP for each Lunatone you have in play is now 80.",
-				fr: "Le total de Points de vie maximum pour chaque Seleroc que vous avez en jeu est maintenant de 80.",
-				de: "The maximum HP for each Lunastone you have in play is now 80."
+				'en-us': "The maximum HP for each Lunatone you have in play is now 80.",
+				'fr-fr': "Le total de Points de vie maximum pour chaque Seleroc que vous avez en jeu est maintenant de 80.",
+				'de-de': "The maximum HP for each Lunastone you have in play is now 80."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scorching Light",
-				fr: "Lumière aveuglante",
-				de: "Scorching Light"
+				'en-us': "Scorching Light",
+				'fr-fr': "Lumière aveuglante",
+				'de-de': "Scorching Light"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Burned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Burned."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Burned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Burned."
 			},
 
 		},
@@ -63,14 +63,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Reflected Beam",
-				fr: "Reflet lumineux",
-				de: "Reflected Beam"
+				'en-us': "Reflected Beam",
+				'fr-fr': "Reflet lumineux",
+				'de-de': "Reflected Beam"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon for each Lunatone you have in play. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon de Banc de votre adversaire. Cette attaque lui inflige 10 dégâts pour chaque Seleroc que vous avez en jeu. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
-				de: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon for each Lunastone you have in play. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon for each Lunatone you have in play. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 1 des Pokémon de Banc de votre adversaire. Cette attaque lui inflige 10 dégâts pour chaque Seleroc que vous avez en jeu. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
+				'de-de': "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon for each Lunastone you have in play. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},

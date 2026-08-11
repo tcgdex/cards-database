@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Erika's Oddish"
+		'en-us': "Erika's Oddish"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Strange Powder"
+				'en-us': "Strange Powder"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused; if tails, the Defending Pokémon is now Asleep."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused; if tails, the Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 

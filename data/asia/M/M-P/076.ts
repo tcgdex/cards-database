@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミツルの思いやり",
+		'ja-jp': "ミツルの思いやり",
 	},
 
 	illustrator: "Iori Suzuki",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の「メガシンカex」1匹のHPを、すべて回復する。その後、回復したポケモンについているエネルギーを、すべて手札にもどす。",
+		'ja-jp': "自分の「メガシンカex」1匹のHPを、すべて回復する。その後、回復したポケモンについているエネルギーを、すべて手札にもどす。",
 	},
 
 	variants: [

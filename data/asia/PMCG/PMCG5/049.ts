@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タケシのサイホーン",
+		'ja-jp': "タケシのサイホーン",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "ドリルタックル",
+				'ja-jp': "ドリルタックル",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。それらの1つまたは両方が尾の場合、この攻撃は何もしません。",
+				'ja-jp': "2つのコインをフリップします。それらの1つまたは両方が尾の場合、この攻撃は何もしません。",
 			},
 			damage: 70,
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Sandshrew",
-		fr: "Sabelette",
-		de: "Sandan"
+		'en-us': "Sandshrew",
+		'fr-fr': "Sabelette",
+		'de-de': "Sandan"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Poison Needle",
-				fr: "Dard-venin",
-				de: "Poison Needle"
+				'en-us': "Poison Needle",
+				'fr-fr': "Dard-venin",
+				'de-de': "Poison Needle"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
 			damage: 10,
 

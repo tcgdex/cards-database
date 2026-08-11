@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "White Kyurem",
-		fr: "Kyurem Blanc",
+		'en-us': "White Kyurem",
+		'fr-fr': "Kyurem Blanc",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Beam",
-				fr: "Ultralaser",
+				'en-us': "Hyper Beam",
+				'fr-fr': "Ultralaser",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				'en-us': "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 40,
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare Blizzard",
-				fr: "Blizzard Flamboyant"
+				'en-us': "Flare Blizzard",
+				'fr-fr': "Blizzard Flamboyant"
 			},
 			effect: {
-				en: "This Pokémon can't use Flare Blizzard during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Blizzard Flamboyant pendant votre prochain tour."
+				'en-us': "This Pokémon can't use Flare Blizzard during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Blizzard Flamboyant pendant votre prochain tour."
 			},
 			damage: 120,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
+		'en-us': "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
 	},
 
 	thirdParty: {

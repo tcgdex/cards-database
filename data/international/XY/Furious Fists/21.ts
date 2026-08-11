@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Cubchoo",
-		fr: "Polarhume",
-		es: "Cubchoo",
-		it: "Cubchoo",
-		pt: "Cubchoo",
-		de: "Petznief"
+		'en-us': "Cubchoo",
+		'fr-fr': "Polarhume",
+		'es-es': "Cubchoo",
+		'it-it': "Cubchoo",
+		'pt-br': "Cubchoo",
+		'de-de': "Petznief"
 	},
 
 	illustrator: "kirisAki",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Fury Swipes",
-				fr: "Combo-Griffe",
-				es: "Golpes Furia",
-				it: "Sfuriate",
-				pt: "Golpes de Fúria",
-				de: "Kratzfurie"
+				'en-us': "Fury Swipes",
+				'fr-fr': "Combo-Griffe",
+				'es-es': "Golpes Furia",
+				'it-it': "Sfuriate",
+				'pt-br': "Golpes de Fúria",
+				'de-de': "Kratzfurie"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
-				es: "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
-				it: "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
-				pt: "Jogue 3 moedas. Esse ataque causa 10 de danos vezes o número de caras.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+				'it-it': "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 3 moedas. Esse ataque causa 10 de danos vezes o número de caras.",
+				'de-de': "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "10×",
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Frost Breath",
-				fr: "Souffle Glacé",
-				es: "Vaho Gélido",
-				it: "Alitogelido",
-				pt: "Respiração de Gelo",
-				de: "Eisesodem"
+				'en-us': "Frost Breath",
+				'fr-fr': "Souffle Glacé",
+				'es-es': "Vaho Gélido",
+				'it-it': "Alitogelido",
+				'pt-br': "Respiração de Gelo",
+				'de-de': "Eisesodem"
 			},
 
 			damage: 40,
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its nose is always running. It sniffs the snot back up because the mucus provides the raw material for its moves.",
+		'en-us': "Its nose is always running. It sniffs the snot back up because the mucus provides the raw material for its moves.",
 	},
 
 	thirdParty: {

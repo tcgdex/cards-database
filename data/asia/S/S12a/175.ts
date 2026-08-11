@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブーバーン",
+		'ja-jp': "ブーバーン",
 		'zh-tw': "鴨嘴炎獸",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "大きく 息を 吸いこむと 腹の 中の 炎が 勢いを 増して 摂氏２０００度に 達する。",
+		'ja-jp': "大きく 息を 吸いこむと 腹の 中の 炎が 勢いを 増して 摂氏２０００度に 達する。",
 		'zh-tw': "大口吸氣時，肚子裡的火焰就會燃燒得更旺盛，達到攝氏２０００度。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "メガトンパンチ",
+				'ja-jp': "メガトンパンチ",
 				'zh-tw': "百萬噸重拳",
 			},
 			damage: 50,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ボルトプロージョン",
+				'ja-jp': "ボルトプロージョン",
 				'zh-tw': "伏特爆發",
 			},
 			damage: "120+",
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "自分のベンチに「エレキブル」がいるなら、120ダメージ追加。",
+				'ja-jp': "自分のベンチに「エレキブル」がいるなら、120ダメージ追加。",
 				'zh-tw': "若自己的備戰區有「電擊魔獸」，則增加120點傷害。",
 			},
 		},
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ブーバー",
+		'ja-jp': "ブーバー",
 	},
 
 	retreat: 3,

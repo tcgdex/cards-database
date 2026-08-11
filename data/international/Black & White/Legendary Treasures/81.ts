@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Gallade",
+		'en-us': "Gallade",
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kirlia",
+		'en-us': "Kirlia",
 	},
 
 	stage: "Stage2",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Nerve Shot",
+				'en-us': "Nerve Shot",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 30,
 
@@ -48,10 +48,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pandemonium Blade",
+				'en-us': "Pandemonium Blade",
 			},
 			effect: {
-				en: "Does 20 more damage for each of your Benched Pokémon that has any damage counters on it.",
+				'en-us': "Does 20 more damage for each of your Benched Pokémon that has any damage counters on it.",
 			},
 			damage: 60,
 
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When trying to protect someone, it extends its elbows as if they were swords and fights savagely.",
+		'en-us': "When trying to protect someone, it extends its elbows as if they were swords and fights savagely.",
 	},
 
 	thirdParty: {

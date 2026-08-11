@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ディグレット",
+		'ja-jp': "ディグレット",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "泥の平手打ち",
+				'ja-jp': "泥の平手打ち",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "砂ピット",
+				'ja-jp': "砂ピット",
 			},
 			effect: {
-				ja: "防御するポケモンは、相手の次のターン中に退却することはできません。",
+				'ja-jp': "防御するポケモンは、相手の次のターン中に退却することはできません。",
 			},
 			damage: 20,
 		},

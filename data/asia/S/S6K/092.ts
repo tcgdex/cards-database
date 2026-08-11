@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マルマイン",
+		'ja-jp': "マルマイン",
 	},
 
 	illustrator: "",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Lightning"],
 			effect: {
-				ja: "ダメージを与える前に、自分の場のポケモンについている「ポケモンのどうぐ」を好きなだけトラッシュし、その枚数×40ダメージ追加。",
+				'ja-jp': "ダメージを与える前に、自分の場のポケモンについている「ポケモンのどうぐ」を好きなだけトラッシュし、その枚数×40ダメージ追加。",
 			},
 		},
 		{
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ビリリダマ",
+		'ja-jp': "ビリリダマ",
 	},
 
 	retreat: 1,

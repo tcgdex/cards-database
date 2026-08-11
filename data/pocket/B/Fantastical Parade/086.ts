@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [525],
 
 	name: {
-		en: "Boldore"
+		'en-us': "Boldore"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Roggenrola"
+		'en-us': "Roggenrola"
 	},
 
 	description: {
-		en: "It relies on sound in order to monitor what's in its\nvicinity. When angered, it will attack without ever\nchanging the direction it's facing."
+		'en-us': "It relies on sound in order to monitor what's in its\nvicinity. When angered, it will attack without ever\nchanging the direction it's facing."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Power Gem"
+			'en-us': "Power Gem"
 		},
 
 		damage: 70,

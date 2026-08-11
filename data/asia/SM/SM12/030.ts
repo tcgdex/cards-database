@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ココロモリ",
+		'ja-jp': "ココロモリ",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "コンクリートも 壊せるほどの 強い 超音波を 出すとき 尻尾が 激しく 震える。",
+		'ja-jp': "コンクリートも 壊せるほどの 強い 超音波を 出すとき 尻尾が 激しく 震える。",
 	},
 
 	stage: "Stage1",
@@ -23,14 +23,14 @@ const card: Card = {
 			name: { ja: "ちょうおんぱ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 		{
 			name: { ja: "チャームスタンプ" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手は相手自身のポケモンを1匹選ぶ。そのポケモンに、90ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手は相手自身のポケモンを1匹選ぶ。そのポケモンに、90ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コロモリ",
+		'ja-jp': "コロモリ",
 	},
 
 	retreat: 1,

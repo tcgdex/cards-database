@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Lokhlass",
-		en: "Lapras",
-		es: "Lapras",
-		it: "Lapras",
-		pt: "Lapras",
-		de: "Lapras"
+		'fr-fr': "Lokhlass",
+		'en-us': "Lapras",
+		'es-es': "Lapras",
+		'it-it': "Lapras",
+		'pt-br': "Lapras",
+		'de-de': "Lapras"
 	},
 
 	rarity: "Uncommon",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			fr: "Grimpe sur mon Dos",
-			en: "Hop on My Back",
-			es: "Súbete a mi Lomo",
-			it: "Monta Su",
-			pt: "Na Garupa",
-			de: "Spring auf meinen Rücken"
+			'fr-fr': "Grimpe sur mon Dos",
+			'en-us': "Hop on My Back",
+			'es-es': "Súbete a mi Lomo",
+			'it-it': "Monta Su",
+			'pt-br': "Na Garupa",
+			'de-de': "Spring auf meinen Rücken"
 		},
 
 		effect: {
-			fr: "Cherchez dans votre deck jusqu'à 2 Pokémon, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
-			en: "Search your deck for up to 2 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
-			es: "Busca en tu baraja hasta 2 Pokémon, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo fino a due Pokémon, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por até 2 Pokémon no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach bis zu 2 Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+			'fr-fr': "Cherchez dans votre deck jusqu'à 2 Pokémon, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+			'en-us': "Search your deck for up to 2 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+			'es-es': "Busca en tu baraja hasta 2 Pokémon, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo fino a due Pokémon, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por até 2 Pokémon no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach bis zu 2 Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Aqua-Dague",
-			en: "Aqua Edge",
-			es: "Filo Agua",
-			it: "Acquataglio",
-			pt: "Aqua Gume",
-			de: "Aquaschneide"
+			'fr-fr': "Aqua-Dague",
+			'en-us': "Aqua Edge",
+			'es-es': "Filo Agua",
+			'it-it': "Acquataglio",
+			'pt-br': "Aqua Gume",
+			'de-de': "Aquaschneide"
 		},
 
 		damage: 90
@@ -65,7 +65,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Crossing icy seas is no issue for this cold-resistant Pokémon. Its smooth skin is a little cool to the touch.",
+		'en-us': "Crossing icy seas is no issue for this cold-resistant Pokémon. Its smooth skin is a little cool to the touch.",
 	},
 
 	variants: [

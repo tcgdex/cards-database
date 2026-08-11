@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Rhyhorn",
-		fr: "Rhinocorne",
-		de: "Rihorn"
+		'en-us': "Rhyhorn",
+		'fr-fr': "Rhinocorne",
+		'de-de': "Rihorn"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stomp",
-				fr: "Écrasement",
-				de: "Stampfer"
+				'en-us': "Stomp",
+				'fr-fr': "Écrasement",
+				'de-de': "Stampfer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -49,9 +49,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Drill",
-				fr: "Empal'korne",
-				de: "Hornbohrer"
+				'en-us': "Horn Drill",
+				'fr-fr': "Empal'korne",
+				'de-de': "Hornbohrer"
 			},
 
 			damage: 50,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its powerful tackles can destroy anything. However, it is too slow witted to help people work."
+		'en-us': "Its powerful tackles can destroy anything. However, it is too slow witted to help people work."
 	},
 
 	variants: [

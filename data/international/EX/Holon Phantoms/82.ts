@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Surskit",
-		fr: "Arakdo",
-		de: "Gehweiher"
+		'en-us': "Surskit",
+		'fr-fr': "Arakdo",
+		'de-de': "Gehweiher"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Hypno Wave",
-				fr: "Super hypnovague",
-				de: "Super Hypno Welle"
+				'en-us': "Super Hypno Wave",
+				'fr-fr': "Super hypnovague",
+				'de-de': "Super Hypno Welle"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 10,
 

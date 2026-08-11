@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Vikavolt",
-		fr: "Lucanon",
-		es: "Vikavolt",
-		it: "Vikavolt",
-		pt: "Vikavolt",
-		de: "Donarion"
+		'en-us': "Vikavolt",
+		'fr-fr': "Lucanon",
+		'es-es': "Vikavolt",
+		'it-it': "Vikavolt",
+		'pt-br': "Vikavolt",
+		'de-de': "Donarion"
 	},
 
 	illustrator: "Hasuno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charjabug",
-		fr: "Chrysapile",
+		'en-us': "Charjabug",
+		'fr-fr': "Chrysapile",
 	},
 
 	stage: "Stage2",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Stealthy Body",
-				fr: "Corps Furtif",
-				es: "Cuerpo Sigiloso",
-				it: "Corpo Furtivo",
-				pt: "Corpo Furtivo",
-				de: "Tarnkörper"
+				'en-us': "Stealthy Body",
+				'fr-fr': "Corps Furtif",
+				'es-es': "Cuerpo Sigiloso",
+				'it-it': "Corpo Furtivo",
+				'pt-br': "Corpo Furtivo",
+				'de-de': "Tarnkörper"
 			},
 			effect: {
-				en: "If there is any Stadium card in play, this Pokémon has no Weakness.",
-				fr: "S’il y a une carte Stade en jeu, ce Pokémon n’a pas de Faiblesse.",
-				es: "Si hay alguna carta de Estadio en juego, este Pokémon no tiene ninguna Debilidad.",
-				it: "Se c’è in gioco una carta Stadio, questo Pokémon non ha debolezza.",
-				pt: "Se houver alguma carta de Estádio em jogo, este Pokémon não terá Fraqueza.",
-				de: "Wenn eine Stadionkarte im Spiel ist, hat dieses Pokémon keine Schwäche."
+				'en-us': "If there is any Stadium card in play, this Pokémon has no Weakness.",
+				'fr-fr': "S’il y a une carte Stade en jeu, ce Pokémon n’a pas de Faiblesse.",
+				'es-es': "Si hay alguna carta de Estadio en juego, este Pokémon no tiene ninguna Debilidad.",
+				'it-it': "Se c’è in gioco una carta Stadio, questo Pokémon non ha debolezza.",
+				'pt-br': "Se houver alguma carta de Estádio em jogo, este Pokémon não terá Fraqueza.",
+				'de-de': "Wenn eine Stadionkarte im Spiel ist, hat dieses Pokémon keine Schwäche."
 			},
 		},
 	],
@@ -64,20 +64,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electricannon",
-				fr: "Canon Électrique",
-				es: "Cañón Eléctrico",
-				it: "Elettricannone",
-				pt: "Canhão Elétrico",
-				de: "Elektrokanone"
+				'en-us': "Electricannon",
+				'fr-fr': "Canon Électrique",
+				'es-es': "Cañón Eléctrico",
+				'it-it': "Elettricannone",
+				'pt-br': "Canhão Elétrico",
+				'de-de': "Elektrokanone"
 			},
 			effect: {
-				en: "You may discard all Lightning Energy from this Pokémon. If you do, this attack does 100 more damage.",
-				fr: "Vous pouvez défausser toute l’Énergie Lightning attachée à ce Pokémon. Dans ce cas, cette attaque inflige 100 dégâts supplémentaires.",
-				es: "Puedes descartar todas las Energías Lightning de este Pokémon. Si lo haces, este ataque hace 100 puntos de daño más.",
-				it: "Puoi scartare tutte le Energie Lightning assegnate a questo Pokémon. Se lo fai, questo attacco infligge 100 danni in più.",
-				pt: "Você pode descartar todas as Energias Lightning deste Pokémon. Se fizer isto, este ataque causará 100 pontos de dano a mais.",
-				de: "Du kannst alle Lightning-Energien von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 100 Schadenspunkte mehr zu."
+				'en-us': "You may discard all Lightning Energy from this Pokémon. If you do, this attack does 100 more damage.",
+				'fr-fr': "Vous pouvez défausser toute l’Énergie Lightning attachée à ce Pokémon. Dans ce cas, cette attaque inflige 100 dégâts supplémentaires.",
+				'es-es': "Puedes descartar todas las Energías Lightning de este Pokémon. Si lo haces, este ataque hace 100 puntos de daño más.",
+				'it-it': "Puoi scartare tutte le Energie Lightning assegnate a questo Pokémon. Se lo fai, questo attacco infligge 100 danni in più.",
+				'pt-br': "Você pode descartar todas as Energias Lightning deste Pokémon. Se fizer isto, este ataque causará 100 pontos de dano a mais.",
+				'de-de': "Du kannst alle Lightning-Energien von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 100 Schadenspunkte mehr zu."
 			},
 			damage: "120+",
 
@@ -101,7 +101,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has an organ that generates electricity in its abdomen. It concentrates energy in its strong jaws and fires off powerful jolts of electricity.",
+		'en-us': "It has an organ that generates electricity in its abdomen. It concentrates energy in its strong jaws and fires off powerful jolts of electricity.",
 	},
 
 	thirdParty: {

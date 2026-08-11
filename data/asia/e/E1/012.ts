@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Magikarp",
+		'ja-jp': "Magikarp",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "フレイル",
+				'ja-jp': "フレイル",
 			},
 			effect: {
-				ja: "この攻撃は、Magikarpのダメージカウンターの数の10倍のダメージを与えます。",
+				'ja-jp': "この攻撃は、Magikarpのダメージカウンターの数の10倍のダメージを与えます。",
 			},
 		},
 	],

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Exeggutor"
+		'en-us': "Exeggutor"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Exeggcute"
+		'en-us': "Exeggcute"
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Teleport"
+				'en-us': "Teleport"
 			},
 			effect: {
-				en: "Switch Exeggutor with 1 of your Benched Pokémon."
+				'en-us': "Switch Exeggutor with 1 of your Benched Pokémon."
 			},
 
 		},
@@ -43,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Big Eggsplosion"
+				'en-us': "Big Eggsplosion"
 			},
 			effect: {
-				en: "Flip a number of coins equal to the number of Energy attached to Exeggutor. This attack does 20 damage times the number of heads."
+				'en-us': "Flip a number of coins equal to the number of Energy attached to Exeggutor. This attack does 20 damage times the number of heads."
 			},
 			damage: "20×",
 
@@ -63,7 +63,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Legend has it that on rare occasions, one of its heads will drop off and continue on as an Exeggcute."
+		'en-us': "Legend has it that on rare occasions, one of its heads will drop off and continue on as an Exeggcute."
 	},
 
 	variants: [

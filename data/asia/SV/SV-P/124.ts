@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カラミンゴex",
+		'ja-jp': "カラミンゴex",
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンと相手のバトルポケモンについているエネルギーの数が同じなら、100ダメージ追加。",
+				'ja-jp': "このポケモンと相手のバトルポケモンについているエネルギーの数が同じなら、100ダメージ追加。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 			},
 		},
 	],

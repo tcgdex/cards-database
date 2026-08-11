@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バクガメス",
+		'ja-jp': "バクガメス",
 		'zh-tw': "阿馴",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "火山で 暮らし 食べた 硫黄が 甲羅の 爆薬の もとになる。 フンも 爆発する 危険物。",
+		'ja-jp': "火山で 暮らし 食べた 硫黄が 甲羅の 爆薬の もとになる。 フンも 爆発する 危険物。",
 	},
 
 	stage: "Basic",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Fire", "Fighting"],
 			effect: {
-				ja: "次の相手の番、このポケモンがワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを8個のせる。",
+				'ja-jp': "次の相手の番、このポケモンがワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを8個のせる。",
 			},
 		},
 		{

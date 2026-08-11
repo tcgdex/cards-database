@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drednaw",
-		fr: "Torgamord",
-		es: "Drednaw",
-		it: "Drednaw",
-		pt: "Drednaw",
-		de: "Kamalm"
+		'en-us': "Drednaw",
+		'fr-fr': "Torgamord",
+		'es-es': "Drednaw",
+		'it-it': "Drednaw",
+		'pt-br': "Drednaw",
+		'de-de': "Kamalm"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Chewtle",
-		fr: "Khélocrok",
-		es: "Chewtle",
-		it: "Chewtle",
-		pt: "Chewtle",
-		de: "Kamehaps"
+		'en-us': "Chewtle",
+		'fr-fr': "Khélocrok",
+		'es-es': "Chewtle",
+		'it-it': "Chewtle",
+		'pt-br': "Chewtle",
+		'de-de': "Kamehaps"
 	},
 
 	stage: "Stage1",
@@ -40,30 +40,30 @@ const card: Card = {
 	illustrator: "kodama",
 
 	description: {
-		en: "This Pokémon rapidly extends its retractable neck to sink its sharp fangs into distant enemies and take them down."
+		'en-us': "This Pokémon rapidly extends its retractable neck to sink its sharp fangs into distant enemies and take them down."
 	},
 
 	attacks: [{
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Hard Bite",
-			fr: "Morsure Profonde",
-			de: "Kräftiger Biss",
-			es: "Mordisco Contundente",
-			pt: "Mordida Agressiva",
-			it: "Supermorso"
+			'en-us': "Hard Bite",
+			'fr-fr': "Morsure Profonde",
+			'de-de': "Kräftiger Biss",
+			'es-es': "Mordisco Contundente",
+			'pt-br': "Mordida Agressiva",
+			'it-it': "Supermorso"
 		},
 
 		damage: "80+",
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 50 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts supplémentaires.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 50 Schadenspunkte mehr zu.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 50 puntos de daño más.",
-			pt: "Jogue 1 moeda. Se sair cara, este ataque causará 50 pontos de dano a mais.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 50 danni in più."
+			'en-us': "Flip a coin. If heads, this attack does 50 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts supplémentaires.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 50 Schadenspunkte mehr zu.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 50 puntos de daño más.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 50 pontos de dano a mais.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 50 danni in più."
 		}
 	}],
 

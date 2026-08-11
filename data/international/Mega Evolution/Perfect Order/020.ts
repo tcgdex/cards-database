@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
@@ -7,13 +7,13 @@ const card: Card = {
 	dexId: [120],
 
 	name: {
-		en: "Staryu",
-		fr: "Stari",
-		es: "Staryu",
+		'en-us': "Staryu",
+		'fr-fr': "Stari",
+		'es-es': "Staryu",
 		'es-mx': "Staryu",
-		de: "Sterndu",
-		it: "Staryu",
-		pt: "Staryu"
+		'de-de': "Sterndu",
+		'it-it': "Staryu",
+		'pt-br': "Staryu"
 	},
 
 	illustrator: "Takeshi Nakamura",
@@ -27,13 +27,13 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Water Gun",
-			fr: "Pistolet à O",
-			es: "Pistola Agua",
+			'en-us': "Water Gun",
+			'fr-fr': "Pistolet à O",
+			'es-es': "Pistola Agua",
 			'es-mx': "Chorro de Agua",
-			de: "Aquaknarre",
-			it: "Pistolacqua",
-			pt: "Revólver d'Água"
+			'de-de': "Aquaknarre",
+			'it-it': "Pistolacqua",
+			'pt-br': "Revólver d'Água"
 		},
 
 		damage: 20

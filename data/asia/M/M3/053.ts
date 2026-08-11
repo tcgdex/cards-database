@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パオジアン",
+		'ja-jp': "パオジアン",
 	},
 
 	illustrator: "Satoshi Ito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "大昔に 剣によって 露と消えた 者たちの 憎しみが 雪を まとい ポケモンになった。",
+		'ja-jp': "大昔に 剣によって 露と消えた 者たちの 憎しみが 雪を まとい ポケモンになった。",
 	},
 
 	stage: "Basic",

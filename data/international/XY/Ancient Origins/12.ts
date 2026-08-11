@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Virizion",
-		fr: "Viridium",
-		es: "Virizion",
-		it: "Virizion",
-		pt: "Virizion",
-		de: "Viridium"
+		'en-us': "Virizion",
+		'fr-fr': "Viridium",
+		'es-es': "Virizion",
+		'it-it': "Virizion",
+		'pt-br': "Virizion",
+		'de-de': "Viridium"
 	},
 
 	illustrator: "match",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Bail Out",
-				fr: "Renflouage",
-				es: "Sacar de Apuros",
-				it: "Soccorso",
-				pt: "Resgate",
-				de: "Freilassen"
+				'en-us': "Bail Out",
+				'fr-fr': "Renflouage",
+				'es-es': "Sacar de Apuros",
+				'it-it': "Soccorso",
+				'pt-br': "Resgate",
+				'de-de': "Freilassen"
 			},
 			effect: {
-				en: "Put 2 Pokémon from your discard pile into your hand.",
-				fr: "Ajoutez 2 Pokémon de votre pile de défausse à votre main.",
-				es: "Pon 2 Pokémon de tu pila de descartes en tu mano.",
-				it: "Prendi due Pokémon dalla tua pila degli scarti e aggiungili alle carte che hai in mano.",
-				pt: "Coloque 2 Pokémon da sua pilha de descarte em sua mão.",
-				de: "Nimm 2 Pokémon von deinem Ablagestapel auf deine Hand."
+				'en-us': "Put 2 Pokémon from your discard pile into your hand.",
+				'fr-fr': "Ajoutez 2 Pokémon de votre pile de défausse à votre main.",
+				'es-es': "Pon 2 Pokémon de tu pila de descartes en tu mano.",
+				'it-it': "Prendi due Pokémon dalla tua pila degli scarti e aggiungili alle carte che hai in mano.",
+				'pt-br': "Coloque 2 Pokémon da sua pilha de descarte em sua mão.",
+				'de-de': "Nimm 2 Pokémon von deinem Ablagestapel auf deine Hand."
 			},
 
 		},
@@ -57,20 +57,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Prize Count",
-				fr: "Compteur de Récompense",
-				es: "Cuenta de Premios",
-				it: "Contapremi",
-				pt: "Contagem de Prêmios",
-				de: "Preiszähler"
+				'en-us': "Prize Count",
+				'fr-fr': "Compteur de Récompense",
+				'es-es': "Cuenta de Premios",
+				'it-it': "Contapremi",
+				'pt-br': "Contagem de Prêmios",
+				'de-de': "Preiszähler"
 			},
 			effect: {
-				en: "If you have more Prize cards left than your opponent, this attack does 80 more damage.",
-				fr: "S'il vous reste plus de cartes Récompense que votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
-				es: "Si te quedan más cartas de Premio que a tu rival, este ataque hace 80 puntos de daño más.",
-				it: "Se il numero di carte Premio che ti restano è superiore a quello del tuo avversario, questo attacco infligge 80 danni in più.",
-				pt: "Se sobrarem a você mais cards de Prêmios do que ao seu oponente, este ataque causará 80 de danos adicionais.",
-				de: "Wenn du mehr Preiskarten übrig hast als dein Gegner, fügt dieser Angriff 80 weitere Schadenspunkte zu."
+				'en-us': "If you have more Prize cards left than your opponent, this attack does 80 more damage.",
+				'fr-fr': "S'il vous reste plus de cartes Récompense que votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
+				'es-es': "Si te quedan más cartas de Premio que a tu rival, este ataque hace 80 puntos de daño más.",
+				'it-it': "Se il numero di carte Premio che ti restano è superiore a quello del tuo avversario, questo attacco infligge 80 danni in più.",
+				'pt-br': "Se sobrarem a você mais cards de Prêmios do que ao seu oponente, este ataque causará 80 de danos adicionais.",
+				'de-de': "Wenn du mehr Preiskarten übrig hast als dein Gegner, fügt dieser Angriff 80 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Legends say this Pokémon confounded opponents with its swift movements.",
+		'en-us': "Legends say this Pokémon confounded opponents with its swift movements.",
 	},
 
 	thirdParty: {

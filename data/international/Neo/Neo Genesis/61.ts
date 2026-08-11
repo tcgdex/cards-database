@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Hoppip",
-		fr: "Granivol",
-		de: "Hoppspross"
+		'en-us': "Hoppip",
+		'fr-fr': "Granivol",
+		'de-de': "Hoppspross"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hop",
-				fr: "Hop",
-				de: "Hüpfer"
+				'en-us': "Hop",
+				'fr-fr': "Hop",
+				'de-de': "Hüpfer"
 			},
 
 			damage: 10,
@@ -44,14 +44,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sprout",
-				fr: "Pousse",
-				de: "Sprössling"
+				'en-us': "Sprout",
+				'fr-fr': "Pousse",
+				'de-de': "Sprössling"
 			},
 			effect: {
-				en: "Search your deck for a Basic Pokémon named Hoppip and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
-				fr: "Cherchez un Pokémon de base nommé Granivol dans votre deck et placez-le sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)",
-				de: "Durchsuche dein Deck nach einer Basis-Pokémon-Karte mi dem Namen Hoppspross und lege sie auf deine Bank. Mische dein Deck danach. (Du kannst diesen Angriff nicht verwenden, wenn deine Bank voll ist."
+				'en-us': "Search your deck for a Basic Pokémon named Hoppip and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
+				'fr-fr': "Cherchez un Pokémon de base nommé Granivol dans votre deck et placez-le sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)",
+				'de-de': "Durchsuche dein Deck nach einer Basis-Pokémon-Karte mi dem Namen Hoppspross und lege sie auf deine Bank. Mische dein Deck danach. (Du kannst diesen Angriff nicht verwenden, wenn deine Bank voll ist."
 			},
 
 		},
@@ -72,8 +72,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "To keep from being blown away by the wind, they gather in clusters. They do enjoy gentle breezes, though.",
-		fr: "Afin de ne pas être emportés par le vent, ils se regroupent. Toutefois, ils apprécient une légère brise."
+		'en-us': "To keep from being blown away by the wind, they gather in clusters. They do enjoy gentle breezes, though.",
+		'fr-fr': "Afin de ne pas être emportés par le vent, ils se regroupent. Toutefois, ils apprécient une légère brise."
 	},
 
 

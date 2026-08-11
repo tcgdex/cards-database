@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Deino",
-		fr: "Solochi",
-		es: "Deino",
-		it: "Deino",
-		pt: "Deino",
-		de: "Kapuno"
+		'en-us': "Deino",
+		'fr-fr': "Solochi",
+		'es-es': "Deino",
+		'it-it': "Deino",
+		'pt-br': "Deino",
+		'de-de': "Kapuno"
 	},
 
 	illustrator: "miki kudo",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d’Boule",
-				es: "Golpe Cabeza",
-				it: "Bottintesta",
-				pt: "Cabeçada",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d’Boule",
+				'es-es': "Golpe Cabeza",
+				'it-it': "Bottintesta",
+				'pt-br': "Cabeçada",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 20,
@@ -53,20 +53,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surprise Attack",
-				fr: "Attaque Surprise",
-				es: "Ataque Sorpresa",
-				it: "Attacco a Sorpresa",
-				pt: "Ataque Surpresa",
-				de: "Überraschungsangriff"
+				'en-us': "Surprise Attack",
+				'fr-fr': "Attaque Surprise",
+				'es-es': "Ataque Sorpresa",
+				'it-it': "Attacco a Sorpresa",
+				'pt-br': "Ataque Surpresa",
+				'de-de': "Überraschungsangriff"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
-				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-				pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
-				de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+				'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+				'pt-br': "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+				'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 			},
 			damage: 60,
 
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They cannot see, so they tackle and bite to learn about their surroundings. Their bodies are covered in wounds.",
+		'en-us': "They cannot see, so they tackle and bite to learn about their surroundings. Their bodies are covered in wounds.",
 	},
 
 	thirdParty: {

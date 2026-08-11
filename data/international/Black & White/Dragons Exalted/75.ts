@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Houndoom",
-		fr: "Démolosse",
-		es: "Houndoom",
-		it: "Houndoom",
-		pt: "Houndoom",
-		de: "Hundemon"
+		'en-us': "Houndoom",
+		'fr-fr': "Démolosse",
+		'es-es': "Houndoom",
+		'it-it': "Houndoom",
+		'pt-br': "Houndoom",
+		'de-de': "Hundemon"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Houndour",
-		fr: "Malosse",
+		'en-us': "Houndour",
+		'fr-fr': "Malosse",
 	},
 
 	stage: "Stage1",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
 			},
 
 			damage: 30,
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Fang",
-				fr: "Crocs Feu",
+				'en-us': "Fire Fang",
+				'fr-fr': "Crocs Feu",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				'en-us': "The Defending Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé.",
 			},
 			damage: 70,
 
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The flames it breathes when angry contain toxins. If they cause a burn, it will hurt forever.",
+		'en-us': "The flames it breathes when angry contain toxins. If they cause a burn, it will hurt forever.",
 	},
 
 	thirdParty: {

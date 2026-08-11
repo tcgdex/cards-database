@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ho-Oh",
-		fr: "Ho-Oh",
-		es: "Ho-Oh",
-		it: "Ho-Oh",
-		pt: "Ho-Oh",
-		de: "Ho-Oh"
+		'en-us': "Ho-Oh",
+		'fr-fr': "Ho-Oh",
+		'es-es': "Ho-Oh",
+		'it-it': "Ho-Oh",
+		'pt-br': "Ho-Oh",
+		'de-de': "Ho-Oh"
 	},
 
 	rarity: "Uncommon",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Flap",
-			fr: "Battement",
-			es: "Aleteo",
-			it: "Alabattito",
-			pt: "Asa",
-			de: "Flattern"
+			'en-us': "Flap",
+			'fr-fr': "Battement",
+			'es-es': "Aleteo",
+			'it-it': "Alabattito",
+			'pt-br': "Asa",
+			'de-de': "Flattern"
 		},
 
 		damage: 50
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Shining Blaze",
-			fr: "Brasier Brillant",
-			es: "Llamarada Radiante",
-			it: "Fiammata Luminosa",
-			pt: "Incêndio Brilhante",
-			de: "Glühender Glanz"
+			'en-us': "Shining Blaze",
+			'fr-fr': "Brasier Brillant",
+			'es-es': "Llamarada Radiante",
+			'it-it': "Fiammata Luminosa",
+			'pt-br': "Incêndio Brilhante",
+			'de-de': "Glühender Glanz"
 		},
 
 		effect: {
-			en: "If you have any Tera Pokémon on your Bench, this attack does 100 more damage.",
-			fr: "Si vous avez au moins un Pokémon Téracristal sur votre Banc, cette attaque inflige 100 dégâts supplémentaires.",
-			es: "Si tienes algún Pokémon Teracristal en tu Banca, este ataque hace 100 puntos de daño más.",
-			it: "Se hai dei Pokémon Teracristal in panchina, questo attacco infligge 100 danni in più.",
-			pt: "Se você tiver algum Pokémon Tera no seu Banco, este ataque causará 100 pontos de dano a mais.",
-			de: "Wenn du mindestens 1 Terakristall-Pokémon auf deiner Bank hast, fügt diese Attacke 100 Schadenspunkte mehr zu."
+			'en-us': "If you have any Tera Pokémon on your Bench, this attack does 100 more damage.",
+			'fr-fr': "Si vous avez au moins un Pokémon Téracristal sur votre Banc, cette attaque inflige 100 dégâts supplémentaires.",
+			'es-es': "Si tienes algún Pokémon Teracristal en tu Banca, este ataque hace 100 puntos de daño más.",
+			'it-it': "Se hai dei Pokémon Teracristal in panchina, questo attacco infligge 100 danni in più.",
+			'pt-br': "Se você tiver algum Pokémon Tera no seu Banco, este ataque causará 100 pontos de dano a mais.",
+			'de-de': "Wenn du mindestens 1 Terakristall-Pokémon auf deiner Bank hast, fügt diese Attacke 100 Schadenspunkte mehr zu."
 		},
 
 		damage: "100+"

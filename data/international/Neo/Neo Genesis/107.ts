@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Fire Energy",
-		fr: "Énergie Feu",
-		de: "Feuerenergie"
+		'en-us': "Fire Energy",
+		'fr-fr': "Énergie Feu",
+		'de-de': "Feuerenergie"
 	},
 
 	illustrator: "Keiji Kinebuchi",

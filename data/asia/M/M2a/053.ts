@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エレザード",
+		'ja-jp': "エレザード",
 	},
 
 	illustrator: "svlt",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "エリマキを 広げて 発電する。 エレザード １匹で 高層ビルで 必要な 電気を 作れるのだ。",
+		'ja-jp': "エリマキを 広げて 発電する。 エレザード １匹で 高層ビルで 必要な 電気を 作れるのだ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "エリマキはつでん" },
 			effect: {
-				ja: "この番に、手札から「カナリィ」を出して使っていたなら、自分の番に1回使える。自分の山札から「基本[L]エネルギー」を2枚まで選び、このポケモンにつける。そして山札を切る。",
+				'ja-jp': "この番に、手札から「カナリィ」を出して使っていたなら、自分の番に1回使える。自分の山札から「基本[L]エネルギー」を2枚まで選び、このポケモンにつける。そして山札を切る。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "70×",
 			cost: ["Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーの数ぶんコインを投げ、オモテの数×70ダメージ。",
+				'ja-jp': "このポケモンについているエネルギーの数ぶんコインを投げ、オモテの数×70ダメージ。",
 			},
 		},
 	],
@@ -66,7 +66,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "エリキテル",
+		'ja-jp': "エリキテル",
 	},
 
 	retreat: 1,

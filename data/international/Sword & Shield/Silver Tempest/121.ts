@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ferroseed",
-		fr: "Grindur",
-		es: "Ferroseed",
-		it: "Ferroseed",
-		pt: "Ferroseed",
-		de: "Kastadur"
+		'en-us': "Ferroseed",
+		'fr-fr': "Grindur",
+		'es-es': "Ferroseed",
+		'it-it': "Ferroseed",
+		'pt-br': "Ferroseed",
+		'de-de': "Kastadur"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 10
@@ -38,12 +38,12 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			en: "Rolling Tackle",
-			fr: "Roulé-Boulé",
-			es: "Placaje Giro",
-			it: "Rollazione",
-			pt: "Golpe de Colisão Rolante",
-			de: "Rolltackle"
+			'en-us': "Rolling Tackle",
+			'fr-fr': "Roulé-Boulé",
+			'es-es': "Placaje Giro",
+			'it-it': "Rollazione",
+			'pt-br': "Golpe de Colisão Rolante",
+			'de-de': "Rolltackle"
 		},
 
 		damage: 20
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It defends itself by launching spikes, but its aim isn't very good at first. Only after a lot of practice will it improve.",
+		'en-us': "It defends itself by launching spikes, but its aim isn't very good at first. Only after a lot of practice will it improve.",
 	},
 
 	variants: [

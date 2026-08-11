@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Nymble"
+		'id-id': "Nymble"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Sepasang kaki ketiga Nymble terlipat. Pokémon ini memiliki kekuatan kaki untuk dapat melompat setinggi 10 meter ketika terdesak."
+		'id-id': "Sepasang kaki ketiga Nymble terlipat. Pokémon ini memiliki kekuatan kaki untuk dapat melompat setinggi 10 meter ketika terdesak."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menggerogot"
+			'id-id': "Menggerogot"
 		},
 
 		damage: 10,

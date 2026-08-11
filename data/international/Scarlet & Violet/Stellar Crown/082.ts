@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lucario ex",
-		fr: "Lucario-ex",
-		es: "Lucario ex",
-		it: "Lucario-ex",
-		pt: "Lucario ex",
-		de: "Lucario-ex"
+		'en-us': "Lucario ex",
+		'fr-fr': "Lucario-ex",
+		'es-es': "Lucario ex",
+		'it-it': "Lucario-ex",
+		'pt-br': "Lucario ex",
+		'de-de': "Lucario-ex"
 	},
 
 	rarity: "Double rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 250,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Riolu",
-		fr: "Riolu",
-		es: "Riolu",
-		it: "Riolu",
-		pt: "Riolu",
-		de: "Riolu"
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
+		'es-es': "Riolu",
+		'it-it': "Riolu",
+		'pt-br': "Riolu",
+		'de-de': "Riolu"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Low Kick",
-			fr: "Balayage",
-			es: "Patada Baja",
-			it: "Colpo Basso",
-			pt: "Rasteira",
-			de: "Fußkick"
+			'en-us': "Low Kick",
+			'fr-fr': "Balayage",
+			'es-es': "Patada Baja",
+			'it-it': "Colpo Basso",
+			'pt-br': "Rasteira",
+			'de-de': "Fußkick"
 		},
 
 		damage: 50
@@ -45,12 +45,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Aura Knuckle",
-			fr: "Poing Aura",
-			es: "Nudillo Aural",
-			it: "Aurapugno",
-			pt: "Punho de Aura",
-			de: "Aurafaust"
+			'en-us': "Aura Knuckle",
+			'fr-fr': "Poing Aura",
+			'es-es': "Nudillo Aural",
+			'it-it': "Aurapugno",
+			'pt-br': "Punho de Aura",
+			'de-de': "Aurafaust"
 		},
 
 		damage: 120

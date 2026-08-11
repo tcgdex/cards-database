@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Boltund",
-		fr: "Fulgudog",
-		es: "Boltund",
+		'en-us': "Boltund",
+		'fr-fr': "Fulgudog",
+		'es-es': "Boltund",
 		'es-mx': "Boltund",
-		de: "Bellektro",
-		it: "Boltund",
-		pt: "Boltund"
+		'de-de': "Bellektro",
+		'it-it': "Boltund",
+		'pt-br': "Boltund"
 	},
 
 	evolveFrom: {
-		en: "Yamper",
-		fr: "Voltoutou",
-		es: "Yamper",
+		'en-us': "Yamper",
+		'fr-fr': "Voltoutou",
+		'es-es': "Yamper",
 		'es-mx': "Yamper",
-		de: "Voldi",
-		it: "Yamper",
-		pt: "Yamper",
+		'de-de': "Voldi",
+		'it-it': "Yamper",
+		'pt-br': "Yamper",
 	},
 
 	rarity: "Common",
@@ -36,23 +36,23 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Electric Run",
-			fr: "Course Électrique",
-			es: "Escapada Eléctrica",
+			'en-us': "Electric Run",
+			'fr-fr': "Course Électrique",
+			'es-es': "Escapada Eléctrica",
 			'es-mx': "Carrera Eléctrica",
-			de: "Elektroflitzer",
-			it: "Corsa Elettrica",
-			pt: "Corrida Eletrizante"
+			'de-de': "Elektroflitzer",
+			'it-it': "Corsa Elettrica",
+			'pt-br': "Corrida Eletrizante"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 70 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 70 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 70 puntos de daño más.",
+			'en-us': "Flip a coin. If heads, this attack does 70 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 70 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 70 puntos de daño más.",
 			'es-mx': "Lanza 1 moneda. Si sale cara, este ataque hace 70 puntos de daño más.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 70 Schadenspunkte mehr zu.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 70 danni in più.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 70 pontos de dano a mais."
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 70 Schadenspunkte mehr zu.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 70 danni in più.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 70 pontos de dano a mais."
 		},
 
 		damage: "70+"
@@ -68,7 +68,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "It sends electricity through its legs to boost their strength. Running at top speed, it easily breaks 50 mph.",
+		'en-us': "It sends electricity through its legs to boost their strength. Running at top speed, it easily breaks 50 mph.",
 	},
 
 	illustrator: "Orca",

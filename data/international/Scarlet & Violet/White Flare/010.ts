@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Virizion",
-		fr: "Viridium",
-		de: "Viridium",
-		it: "Virizion",
-		pt: "Virizion",
-		es: "Virizion",
+		'en-us': "Virizion",
+		'fr-fr': "Viridium",
+		'de-de': "Viridium",
+		'it-it': "Virizion",
+		'pt-br': "Virizion",
+		'es-es': "Virizion",
 		'es-mx': "Virizion"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Giga Drain",
-			fr: "Giga-Sangsue",
-			de: "Gigasauger",
-			it: "Gigassorbimento",
-			pt: "Gigadreno",
-			es: "Gigadrenado",
+			'en-us': "Giga Drain",
+			'fr-fr': "Giga-Sangsue",
+			'de-de': "Gigasauger",
+			'it-it': "Gigassorbimento",
+			'pt-br': "Gigadreno",
+			'es-es': "Gigadrenado",
 			'es-mx': "Gigadrenado"
 		},
 
 		effect: {
-			en: "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
-			fr: "Soignez ce Pokémon du nombre de dégâts que vous avez infligés au Pokémon Actif de votre adversaire.",
-			de: "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Aktiven Pokémon deines Gegners zugefügt hast.",
-			it: "Cura questo Pokémon da una quantità di danni pari a quelli che hai inflitto al Pokémon attivo del tuo avversario.",
-			pt: "Cure deste Pokémon a mesma quantidade de dano que você causou ao Pokémon Ativo do seu oponente.",
-			es: "Cura a este Pokémon la misma cantidad de puntos de daño que hayas infligido al Pokémon Activo de tu rival.",
+			'en-us': "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
+			'fr-fr': "Soignez ce Pokémon du nombre de dégâts que vous avez infligés au Pokémon Actif de votre adversaire.",
+			'de-de': "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Aktiven Pokémon deines Gegners zugefügt hast.",
+			'it-it': "Cura questo Pokémon da una quantità di danni pari a quelli che hai inflitto al Pokémon attivo del tuo avversario.",
+			'pt-br': "Cure deste Pokémon a mesma quantidade de dano que você causou ao Pokémon Ativo do seu oponente.",
+			'es-es': "Cura a este Pokémon la misma cantidad de puntos de daño que hayas infligido al Pokémon Activo de tu rival.",
 			'es-mx': "Cura a este Pokémon la misma cantidad de puntos de daño que infligiste al Pokémon Activo de tu rival."
 		},
 
@@ -50,22 +50,22 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			en: "Emerald Blade",
-			fr: "Lame Émeraude",
-			de: "Smaragdgrüne Klinge",
-			it: "Lamasmeraldo",
-			pt: "Lâmina Esmeralda",
-			es: "Hoja Esmeralda",
+			'en-us': "Emerald Blade",
+			'fr-fr': "Lame Émeraude",
+			'de-de': "Smaragdgrüne Klinge",
+			'it-it': "Lamasmeraldo",
+			'pt-br': "Lâmina Esmeralda",
+			'es-es': "Hoja Esmeralda",
 			'es-mx': "Cuchilla Esmeralda"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use attacks.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser d'attaques.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon keine Attacken einsetzen.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può usare attacchi.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar ataques.",
-			es: "Durante tu próximo turno, este Pokémon no puede usar ataques.",
+			'en-us': "During your next turn, this Pokémon can't use attacks.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser d'attaques.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon keine Attacken einsetzen.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare attacchi.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar ataques.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede usar ataques.",
 			'es-mx': "Durante tu próximo turno, este Pokémon no puede usar ataques."
 		},
 

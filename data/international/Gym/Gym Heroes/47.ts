@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Oddish"
+		'en-us': "Erika's Oddish"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -25,10 +25,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Photosynthesis"
+				'en-us': "Photosynthesis"
 			},
 			effect: {
-				en: "All Energy cards attached to Erika's Oddish provide Grass Energy instead of their usual type. This power works even while Erika's Oddish is Asleep, Confused, or Paralyzed."
+				'en-us': "All Energy cards attached to Erika's Oddish provide Grass Energy instead of their usual type. This power works even while Erika's Oddish is Asleep, Confused, or Paralyzed."
 			}
 		},
 	],
@@ -40,10 +40,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poisonpowder"
+				'en-us': "Poisonpowder"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
 
 		},

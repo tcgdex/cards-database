@@ -1,15 +1,15 @@
-import { Serie } from 'models/serie'
+import { Serie } from 'models/database/serie'
 
 const set: Serie = {
 	id: "dp",
 	name: {
-		en: "Diamond & Pearl",
-		fr: "Diamant & Perle",
-		es: "Diamante & Perla",
-		it: "Diamante & Perla",
-		de: "Diamant & Perl",
-		pt: "Diamante & Pérola",
-		pl: "Diament i Perla"
+		'en-us': "Diamond & Pearl",
+		'fr-fr': "Diamant & Perle",
+		'es-es': "Diamante & Perla",
+		'it-it': "Diamante & Perla",
+		'de-de': "Diamant & Perl",
+		'pt-br': "Diamante & Pérola",
+		'pl-pl': "Diament i Perla"
 	},
 }
 

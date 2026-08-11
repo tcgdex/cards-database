@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オーガポン みどりのめんex",
+		'ja-jp': "オーガポン みどりのめんex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "みどりのまい" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札から「基本[G]エネルギー」を1枚選び、このポケモンにつける。その後、自分の山札を1枚引く。",
+				'ja-jp': "自分の番に1回使える。自分の手札から「基本[G]エネルギー」を1枚選び、このポケモンにつける。その後、自分の山札を1枚引く。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Grass", "Grass", "Grass"],
 			effect: {
-				ja: "おたがいのバトルポケモンについているエネルギーの数×30ダメージ追加。",
+				'ja-jp': "おたがいのバトルポケモンについているエネルギーの数×30ダメージ追加。",
 			},
 		},
 	],

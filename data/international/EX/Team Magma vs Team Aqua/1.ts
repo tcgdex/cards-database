@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Cacturne",
-		fr: "Cacturne de Team Aqua",
-		de: "Team Aquas Noktuska"
+		'en-us': "Team Aqua's Cacturne",
+		'fr-fr': "Cacturne de Team Aqua",
+		'de-de': "Team Aquas Noktuska"
 	},
 
 	illustrator: "K. Utsunomiya",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Dark Bind",
-				fr: "Sombre étreinte",
-				de: "Dark Bind"
+				'en-us': "Dark Bind",
+				'fr-fr': "Sombre étreinte",
+				'de-de': "Dark Bind"
 			},
 			effect: {
-				en: "You may discard a Darkness Energy card attached to Team Aqua's Cacturne. If you do, the Defending Pokémon is now Paralyzed.",
-				fr: "Vous pouvez défausser une carte Énergie  attachée à Cacturne de Team Aqua. Dans ce cas, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "You may discard a  Energy card attached to Team Aqua's Cacturne. If you do, the Defending Pokémon is now Paralyzed."
+				'en-us': "You may discard a Darkness Energy card attached to Team Aqua's Cacturne. If you do, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Vous pouvez défausser une carte Énergie  attachée à Cacturne de Team Aqua. Dans ce cas, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "You may discard a  Energy card attached to Team Aqua's Cacturne. If you do, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Barb",
-				fr: "Barbelés empoisonnés",
-				de: "Poison Barb"
+				'en-us': "Poison Barb",
+				'fr-fr': "Barbelés empoisonnés",
+				'de-de': "Poison Barb"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "The Defending Pokémon is now Poisoned."
 			},
 			damage: 40,
 

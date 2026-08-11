@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Marill",
-		fr: "Marill",
-		es: "Marill",
-		it: "Marill",
-		pt: "Marill",
-		de: "Marill"
+		'en-us': "Marill",
+		'fr-fr': "Marill",
+		'es-es': "Marill",
+		'it-it': "Marill",
+		'pt-br': "Marill",
+		'de-de': "Marill"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				es: "Desenrollar",
-				it: "Rotolamento",
-				pt: "Rolagem",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'es-es': "Desenrollar",
+				'it-it': "Rotolamento",
+				'pt-br': "Rolagem",
+				'de-de': "Walzer"
 			},
 
 			damage: 20,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The tip of its tail is filled with oil that is lighter than water, so it acts as a float.",
+		'en-us': "The tip of its tail is filled with oil that is lighter than water, so it acts as a float.",
 	},
 
 	thirdParty: {

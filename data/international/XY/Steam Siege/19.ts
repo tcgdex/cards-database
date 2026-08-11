@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Monferno",
-		fr: "Chimpenfeu",
-		es: "Monferno",
-		it: "Monferno",
-		pt: "Monferno",
-		de: "Panpyro"
+		'en-us': "Monferno",
+		'fr-fr': "Chimpenfeu",
+		'es-es': "Monferno",
+		'it-it': "Monferno",
+		'pt-br': "Monferno",
+		'de-de': "Panpyro"
 	},
 
 	illustrator: "Mizue",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Chimchar",
-		fr: "Ouisticram",
-		es: "Chimchar",
-		it: "Chimchar",
-		pt: "Chimchar",
-		de: "Panflam"
+		'en-us': "Chimchar",
+		'fr-fr': "Ouisticram",
+		'es-es': "Chimchar",
+		'it-it': "Chimchar",
+		'pt-br': "Chimchar",
+		'de-de': "Panflam"
 	},
 
 	stage: "Stage1",
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				es: "Arañazo",
-				it: "Graffio",
-				pt: "Arranhão",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'es-es': "Arañazo",
+				'it-it': "Graffio",
+				'pt-br': "Arranhão",
+				'de-de': "Kratzer"
 			},
 
 			damage: 20,
@@ -60,12 +60,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare",
-				fr: "Flamboiement",
-				es: "Llama",
-				it: "Fiammata",
-				pt: "Labareda",
-				de: "Flackern"
+				'en-us': "Flare",
+				'fr-fr': "Flamboiement",
+				'es-es': "Llama",
+				'it-it': "Fiammata",
+				'pt-br': "Labareda",
+				'de-de': "Flackern"
 			},
 
 			damage: 30,
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It uses ceilings and walls to launch aerial attacks. Its fiery tail is but one weapon.",
+		'en-us': "It uses ceilings and walls to launch aerial attacks. Its fiery tail is but one weapon.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デルビル",
+		'ja-jp': "デルビル",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "仲間だけで わかりあえる 鳴き声で お互いの 位置を 確かめながら 獲物を 追いつめる。",
+		'ja-jp': "仲間だけで わかりあえる 鳴き声で お互いの 位置を 確かめながら 獲物を 追いつめる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "チームハント" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の場の「デルビル」の数ぶん、自分の山札を引く。",
+				'ja-jp': "自分の場の「デルビル」の数ぶん、自分の山札を引く。",
 			},
 		},
 		{

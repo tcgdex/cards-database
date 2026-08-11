@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lampent",
-		fr: "Mélancolux",
-		es: "Lampent",
-		it: "Lampent",
-		pt: "Lampent",
-		de: "Laternecto"
+		'en-us': "Lampent",
+		'fr-fr': "Mélancolux",
+		'es-es': "Lampent",
+		'it-it': "Lampent",
+		'pt-br': "Lampent",
+		'de-de': "Laternecto"
 	},
 
 	illustrator: "kurumitsu",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Litwick",
-		fr: "Funécire",
-		es: "Litwick",
-		it: "Litwick",
-		pt: "Litwick",
-		de: "Lichtel"
+		'en-us': "Litwick",
+		'fr-fr': "Funécire",
+		'es-es': "Litwick",
+		'it-it': "Litwick",
+		'pt-br': "Litwick",
+		'de-de': "Lichtel"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Flickering Glow",
-			fr: "Lueur Scintillante",
-			es: "Resplandor Centelleante",
-			it: "Lume Tremulo",
-			pt: "Brilho Tremeluzente",
-			de: "Flackernder Schein"
+			'en-us': "Flickering Glow",
+			'fr-fr': "Lueur Scintillante",
+			'es-es': "Resplandor Centelleante",
+			'it-it': "Lume Tremulo",
+			'pt-br': "Brilho Tremeluzente",
+			'de-de': "Flackernder Schein"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
-			fr: "Lancez une pièce. Si c'est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
-			es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
-			it: "Lancia una moneta. Se esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
-			pt: "Jogue 1 moeda. Se sair cara, descarte 1 Energia do Pokémon Ativo do seu oponente.",
-			de: "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+			'en-us': "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
+			'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			'es-es': "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
+			'it-it': "Lancia una moneta. Se esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, descarte 1 Energia do Pokémon Ativo do seu oponente.",
+			'de-de': "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 20

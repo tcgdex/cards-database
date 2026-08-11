@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Ogerpon Topeng Teal ex"
+		'id-id': "Ogerpon Topeng Teal ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Tarian Teal"
+			'id-id': "Tarian Teal"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri. Pilih 1 lembar Energi Dasar {Daun} dari Kartu Pegangan sendiri, lalu kenakan pada Pokémon ini. Setelah itu, ambil 1 kartu dari atas Deck sendiri."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri. Pilih 1 lembar Energi Dasar {Daun} dari Kartu Pegangan sendiri, lalu kenakan pada Pokémon ini. Setelah itu, ambil 1 kartu dari atas Deck sendiri."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Hujan Ribuan Daun"
+			'id-id': "Hujan Ribuan Daun"
 		},
 
 		effect: {
-			id: "Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap Energi yang dikenakan pada Pokémon Bertarung kedua pemain."
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap Energi yang dikenakan pada Pokémon Bertarung kedua pemain."
 		},
 
 		damage: "30+",

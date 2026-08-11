@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Palkia ex"
+		'en-us': "Palkia ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -20,21 +20,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Slash"
+			'en-us': "Slash"
 		},
 
 		damage: 30,
 		cost: ["Water"]
 	}, {
 		name: {
-			en: "Dimensional Storm"
+			'en-us': "Dimensional Storm"
 		},
 
 		damage: 150,
 		cost: ["Water", "Water", "Water", "Colorless"],
 
 		effect: {
-			en: "Discard 3 {W} Energy from this Pokémon. This attack also does 20 damage to each of your opponent's Benched Pokémon."
+			'en-us': "Discard 3 {W} Energy from this Pokémon. This attack also does 20 damage to each of your opponent's Benched Pokémon."
 		}
 	}],
 

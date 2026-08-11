@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トロピウス（デルタ種）",
+		'ja-jp': "トロピウス（デルタ種）",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "熱帯治癒",
+				'ja-jp': "熱帯治癒",
 			},
 			effect: {
-				ja: "ターン中に、トロピウスを手からベンチに置くと、すべての特別な条件、投獄マーカー、およびPokã©Monから衝撃波マーカーを削除できます。",
+				'ja-jp': "ターン中に、トロピウスを手からベンチに置くと、すべての特別な条件、投獄マーカー、およびPokã©Monから衝撃波マーカーを削除できます。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Metal"],
 			name: {
-				ja: "粉砕",
+				'ja-jp': "粉砕",
 			},
 			effect: {
-				ja: "トロピウスに取り付けられたエネルギーの量を10回損傷します。",
+				'ja-jp': "トロピウスに取り付けられたエネルギーの量を10回損傷します。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Bellsprout",
-		fr: "Chétiflor",
-		de: "Knofensa"
+		'en-us': "Bellsprout",
+		'fr-fr': "Chétiflor",
+		'de-de': "Knofensa"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Vine Whip",
-				fr: "Fouet lianes",
-				de: "Vine Whip"
+				'en-us': "Vine Whip",
+				'fr-fr': "Fouet lianes",
+				'de-de': "Vine Whip"
 			},
 
 			damage: 10,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "暗いweezing",
+		'ja-jp': "暗いweezing",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "メタン漏れ",
+				'ja-jp': "メタン漏れ",
 			},
 			effect: {
-				ja: "暗いweezingがアクティブなポカモンである限り、ターンの間に毒されたままである各ポカモンに1つのダメージカウンターを置きます。",
+				'ja-jp': "暗いweezingがアクティブなポカモンである限り、ターンの間に毒されたままである各ポカモンに1つのダメージカウンターを置きます。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "スモッグ",
+				'ja-jp': "スモッグ",
 			},
 			effect: {
-				ja: "防御ポケモンは現在中毒になっています。",
+				'ja-jp': "防御ポケモンは現在中毒になっています。",
 			},
 		},
 		{
 			cost: ["Grass", "Colorless", "Colorless"],
 			name: {
-				ja: "闇の充電",
+				'ja-jp': "闇の充電",
 			},
 			effect: {
-				ja: "暗いweezingに2つのダメージカウンターを置きます。",
+				'ja-jp': "暗いweezingに2つのダメージカウンターを置きます。",
 			},
 			damage: 50,
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チャデス",
+		'ja-jp': "チャデス",
 	},
 
 	illustrator: "Mousho",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "ヤバチャの リージョンフォームに 見えるが まったく 関係のない ポケモンと 最近 判明した。",
+		'ja-jp': "ヤバチャの リージョンフォームに 見えるが まったく 関係のない ポケモンと 最近 判明した。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ばけがくれ" },
 			effect: {
-				ja: "このポケモンは、相手のワザや特性の効果を受けない。",
+				'ja-jp': "このポケモンは、相手のワザや特性の効果を受けない。",
 			},
 		},
 	],
@@ -33,7 +33,7 @@ const card: Card = {
 			name: { ja: "ひっそりのせる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンに、ダメカンを1個のせる。",
+				'ja-jp': "相手のバトルポケモンに、ダメカンを1個のせる。",
 			},
 		},
 	],

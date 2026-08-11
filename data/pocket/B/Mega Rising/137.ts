@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Terrakion"
+		'en-us': "Terrakion"
 	},
 
 	illustrator: "Takeshi Nakamura",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It has phenomenal power. It will mercilessly crush\nanyone or anything that bullies small Pokémon."
+		'en-us': "It has phenomenal power. It will mercilessly crush\nanyone or anything that bullies small Pokémon."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Sacred Sword"
+			'en-us': "Sacred Sword"
 		},
 
 		damage: 110,
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use Sacred Sword."
+			'en-us': "During your next turn, this Pokémon can't use Sacred Sword."
 		}
 	}],
 

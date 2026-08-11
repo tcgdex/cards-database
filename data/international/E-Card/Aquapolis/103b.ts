@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Porygon",
-		fr: "Porygon",
-		de: "Porygon"
+		'en-us': "Porygon",
+		'fr-fr': "Porygon",
+		'de-de': "Porygon"
 	},
 
 	illustrator: "Masako Yamashita",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Data Sort",
-				fr: "Tri de données",
-				de: "Datensortierer"
+				'en-us': "Data Sort",
+				'fr-fr': "Tri de données",
+				'de-de': "Datensortierer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose a Trainer card from your discard pile, show it to your opponent, and then shuffle it into your deck.",
-				fr: "Lancez une pièce. Si c'est face, choisissez une carte Dresseur de votre pile de défausse, montrez-la à votre adversaire, et mélangez-la ensuite dans votre deck.",
-				de: "Wirf eine Münze. Nimm bei \"Kopf\" eine Trainerkarte aus deinem Ablagestapel, zeige sie deinem Gegner und mische sie in dein Deck."
+				'en-us': "Flip a coin. If heads, choose a Trainer card from your discard pile, show it to your opponent, and then shuffle it into your deck.",
+				'fr-fr': "Lancez une pièce. Si c'est face, choisissez une carte Dresseur de votre pile de défausse, montrez-la à votre adversaire, et mélangez-la ensuite dans votre deck.",
+				'de-de': "Wirf eine Münze. Nimm bei \"Kopf\" eine Trainerkarte aus deinem Ablagestapel, zeige sie deinem Gegner und mische sie in dein Deck."
 			},
 
 		},
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Koud'bec",
-				de: "Schnabel"
+				'en-us': "Peck",
+				'fr-fr': "Koud'bec",
+				'de-de': "Schnabel"
 			},
 
 			damage: 10,

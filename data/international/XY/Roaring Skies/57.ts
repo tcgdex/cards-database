@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Salamence",
-		fr: "Drattak",
-		es: "Salamence",
-		it: "Salamence",
-		pt: "Salamence",
-		de: "Brutalanda"
+		'en-us': "Salamence",
+		'fr-fr': "Drattak",
+		'es-es': "Salamence",
+		'it-it': "Salamence",
+		'pt-br': "Salamence",
+		'de-de': "Brutalanda"
 	},
 
 	illustrator: "TOKIYA",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shelgon",
-		fr: "Drackhaus",
-		es: "Shelgon",
-		it: "Shelgon",
-		pt: "Shelgon",
-		de: "Draschel"
+		'en-us': "Shelgon",
+		'fr-fr': "Drackhaus",
+		'es-es': "Shelgon",
+		'it-it': "Shelgon",
+		'pt-br': "Shelgon",
+		'de-de': "Draschel"
 	},
 
 	stage: "Stage2",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Shatter",
-				fr: "Fracas",
-				es: "Fragmentar",
-				it: "Frantumare",
-				pt: "Estilhaçar",
-				de: "Zertrümmern"
+				'en-us': "Shatter",
+				'fr-fr': "Fracas",
+				'es-es': "Fragmentar",
+				'it-it': "Frantumare",
+				'pt-br': "Estilhaçar",
+				'de-de': "Zertrümmern"
 			},
 			effect: {
-				en: "Discard any Stadium card in play.",
-				fr: "Défaussez toute carte Stade en jeu.",
-				es: "Descarta cualquier carta de Estadio en juego.",
-				it: "Scarta una carta Stadio in gioco.",
-				pt: "Descarte qualquer card de Estádio em jogo.",
-				de: "Lege eine beliebige Stadionkarte aus dem Spiel auf den Ablagestapel."
+				'en-us': "Discard any Stadium card in play.",
+				'fr-fr': "Défaussez toute carte Stade en jeu.",
+				'es-es': "Descarta cualquier carta de Estadio en juego.",
+				'it-it': "Scarta una carta Stadio in gioco.",
+				'pt-br': "Descarte qualquer card de Estádio em jogo.",
+				'de-de': "Lege eine beliebige Stadionkarte aus dem Spiel auf den Ablagestapel."
 			},
 			damage: 60,
 
@@ -68,20 +68,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Power Howl",
-				fr: "Hurlement Puissant",
-				es: "Aullido Poderoso",
-				it: "Fortegrido",
-				pt: "Uivo do Poder",
-				de: "Machtgeheul"
+				'en-us': "Power Howl",
+				'fr-fr': "Hurlement Puissant",
+				'es-es': "Aullido Poderoso",
+				'it-it': "Fortegrido",
+				'pt-br': "Uivo do Poder",
+				'de-de': "Machtgeheul"
 			},
 			effect: {
-				en: "This attack does 20 damage times the number of cards in your opponent's hand.",
-				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre de cartes dans la main de votre adversaire.",
-				es: "Este ataque hace 20 puntos de daño por cada carta en la mano de tu rival.",
-				it: "Questo attacco infligge 20 danni per ogni carta che ha in mano il tuo avversario.",
-				pt: "Este ataque causa 20 de danos vezes o número de cards na mão do seu oponente.",
-				de: "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der Karten auf der Hand deines Gegners zu."
+				'en-us': "This attack does 20 damage times the number of cards in your opponent's hand.",
+				'fr-fr': "Cette attaque inflige 20 dégâts multipliés par le nombre de cartes dans la main de votre adversaire.",
+				'es-es': "Este ataque hace 20 puntos de daño por cada carta en la mano de tu rival.",
+				'it-it': "Questo attacco infligge 20 danni per ogni carta che ha in mano il tuo avversario.",
+				'pt-br': "Este ataque causa 20 de danos vezes o número de cards na mão do seu oponente.",
+				'de-de': "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der Karten auf der Hand deines Gegners zu."
 			},
 			damage: "20×",
 
@@ -94,20 +94,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steam Blast",
-				fr: "Geyser de Vapeur",
-				es: "Explosión Vapor",
-				it: "Sbuffo di Vapore",
-				pt: "Explosão de Vapor",
-				de: "Dampfstrahl"
+				'en-us': "Steam Blast",
+				'fr-fr': "Geyser de Vapeur",
+				'es-es': "Explosión Vapor",
+				'it-it': "Sbuffo di Vapore",
+				'pt-br': "Explosão de Vapor",
+				'de-de': "Dampfstrahl"
 			},
 			effect: {
-				en: "Discard 3 Energy attached to this Pokémon.",
-				fr: "Défaussez 3 Énergies attachées à ce Pokémon.",
-				es: "Descarta 3 Energías unidas a este Pokémon.",
-				it: "Scarta tre Energie assegnate a questo Pokémon.",
-				pt: "Descarte 3 Energias ligadas a este Pokémon.",
-				de: "Lege 3 an dieses Pokémon angelegte Energien auf deinen Ablagestapel."
+				'en-us': "Discard 3 Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez 3 Énergies attachées à ce Pokémon.",
+				'es-es': "Descarta 3 Energías unidas a este Pokémon.",
+				'it-it': "Scarta tre Energie assegnate a questo Pokémon.",
+				'pt-br': "Descarte 3 Energias ligadas a este Pokémon.",
+				'de-de': "Lege 3 an dieses Pokémon angelegte Energien auf deinen Ablagestapel."
 			},
 			damage: 170,
 
@@ -124,7 +124,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It's uncontrollable if enraged. It flies around spouting flames and scorching fields and mountains.",
+		'en-us': "It's uncontrollable if enraged. It flies around spouting flames and scorching fields and mountains.",
 	},
 
 	thirdParty: {

@@ -4,7 +4,7 @@ import serie from "../SV";
 const set: Set = {
 	id: "SV11B",
 	name: {
-		ja: "ブラックボルト",
+		'ja-jp': "ブラックボルト",
 	},
 
 	serie: serie,
@@ -13,7 +13,7 @@ const set: Set = {
 		official: 174,
 	},
 	releaseDate: {
-		ja: "2025-06-06",
+		'ja-jp': "2025-06-06",
 	},
 };
 

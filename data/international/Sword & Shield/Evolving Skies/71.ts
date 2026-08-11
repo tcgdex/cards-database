@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Flabébé",
-		fr: "Flabébé",
-		es: "Flabébé",
-		it: "Flabébé",
-		pt: "Flabébé",
-		de: "Flabébé"
+		'en-us': "Flabébé",
+		'fr-fr': "Flabébé",
+		'es-es': "Flabébé",
+		'it-it': "Flabébé",
+		'pt-br': "Flabébé",
+		'de-de': "Flabébé"
 	},
 
 	rarity: "Common",
@@ -23,21 +23,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Hypnotic Gaze",
-			fr: "Regard Hypnotique",
-			es: "Mirada Hipnótica",
-			it: "Ipnosguardo",
-			pt: "Hypnotic Gaze",
-			de: "Hypnotischer Blick"
+			'en-us': "Hypnotic Gaze",
+			'fr-fr': "Regard Hypnotique",
+			'es-es': "Mirada Hipnótica",
+			'it-it': "Ipnosguardo",
+			'pt-br': "Hypnotic Gaze",
+			'de-de': "Hypnotischer Blick"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "Your opponent's Active Pokémon is now Asleep.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'pt-br': "Your opponent's Active Pokémon is now Asleep.",
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 		},
 
 		cost: ["Psychic"]
@@ -51,7 +51,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Flabébé wears a crown made from pollen it's collected from its flower. The crown has hidden healing properties."
+		'en-us': "Flabébé wears a crown made from pollen it's collected from its flower. The crown has hidden healing properties."
 	},
 
 	dexId: [669],

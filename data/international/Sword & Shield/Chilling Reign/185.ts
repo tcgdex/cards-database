@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Boréas V",
-		en: "Tornadus V",
-		es: "Tornadus V",
-		it: "Tornadus V",
-		pt: "Tornadus V",
-		de: "Boreos V"
+		'fr-fr': "Boréas V",
+		'en-us': "Tornadus V",
+		'es-es': "Tornadus V",
+		'it-it': "Tornadus V",
+		'pt-br': "Tornadus V",
+		'de-de': "Boreos V"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -22,42 +22,42 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Grosse Bourrasque",
-			en: "Blow Through",
-			es: "Gran Torbellino",
-			it: "Colposecco",
-			pt: "Sopro Intenso",
-			de: "Durchdringender Strahl"
+			'fr-fr': "Grosse Bourrasque",
+			'en-us': "Blow Through",
+			'es-es': "Gran Torbellino",
+			'it-it': "Colposecco",
+			'pt-br': "Sopro Intenso",
+			'de-de': "Durchdringender Strahl"
 		},
 
 		effect: {
-			fr: "Si un Stade est en jeu, cette attaque inflige 20 dégâts supplémentaires.",
-			en: "If a Stadium is in play, this attack does 20 more damage.",
-			es: "Si hay un Estadio en juego, este ataque hace 20 puntos de daño más.",
-			it: "Se c'è in gioco una carta Stadio, questo attacco infligge 20 danni in più.",
-			pt: "Se um Estádio estiver em jogo, este ataque causará 20 pontos de dano a mais.",
-			de: "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 20 Schadenspunkte mehr zu."
+			'fr-fr': "Si un Stade est en jeu, cette attaque inflige 20 dégâts supplémentaires.",
+			'en-us': "If a Stadium is in play, this attack does 20 more damage.",
+			'es-es': "Si hay un Estadio en juego, este ataque hace 20 puntos de daño más.",
+			'it-it': "Se c'è in gioco una carta Stadio, questo attacco infligge 20 danni in più.",
+			'pt-br': "Se um Estádio estiver em jogo, este ataque causará 20 pontos de dano a mais.",
+			'de-de': "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 20 Schadenspunkte mehr zu."
 		},
 
 		damage: "20+",
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Marteau Impitoyable",
-			en: "Blasting Hammer",
-			es: "Martillo Explosivo",
-			it: "Martello Distruttivo",
-			pt: "Martelada Avassaladora",
-			de: "Sprengender Hammer"
+			'fr-fr': "Marteau Impitoyable",
+			'en-us': "Blasting Hammer",
+			'es-es': "Martillo Explosivo",
+			'it-it': "Martello Distruttivo",
+			'pt-br': "Martelada Avassaladora",
+			'de-de': "Sprengender Hammer"
 		},
 
 		effect: {
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			en: "Discard an Energy from this Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte 1 Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'en-us': "Discard an Energy from this Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte 1 Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 180,

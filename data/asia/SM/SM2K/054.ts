@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャラランガGX",
+		'ja-jp': "ジャラランガGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Lightning", "Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 		{
@@ -36,7 +36,7 @@ const card: Card = {
 			damage: 240,
 			cost: ["Lightning", "Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -54,7 +54,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ジャランゴ",
+		'ja-jp': "ジャランゴ",
 	},
 
 	retreat: 2,

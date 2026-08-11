@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Palafin"
+		'id-id': "Palafin"
 	},
 
 	illustrator: "DOM",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Gen zaman purba Pokémon ini telah bangkit. Palafin memiliki tenaga super yang membuatnya dapat mengangkat kapal pesiar menggunakan satu siripnya dengan mudah."
+		'id-id': "Gen zaman purba Pokémon ini telah bangkit. Palafin memiliki tenaga super yang membuatnya dapat mengangkat kapal pesiar menggunakan satu siripnya dengan mudah."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Vanguard Punch"
+			'id-id': "Vanguard Punch"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 10 untuk tiap Token Kerusakan yang dimiliki Pokémon ini."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10 untuk tiap Token Kerusakan yang dimiliki Pokémon ini."
 		},
 
 		damage: 130,
 		cost: ["Water"]
 	}, {
 		name: {
-			id: "Serangan Ganda"
+			'id-id': "Serangan Ganda"
 		},
 
 		effect: {
-			id: "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 90 untuk tiap lemparan dengan hasil sisi depan."
+			'id-id': "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 90 untuk tiap lemparan dengan hasil sisi depan."
 		},
 
 		damage: "90×",

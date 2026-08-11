@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チャーレム",
+		'ja-jp': "チャーレム",
 	},
 
 	illustrator: "Masako Tomii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ダンスのような 優雅な 動きで 攻撃を かわして 強烈な 一撃を 相手に お見舞いする。",
+		'ja-jp': "ダンスのような 優雅な 動きで 攻撃を かわして 強烈な 一撃を 相手に お見舞いする。",
 	},
 
 	stage: "Stage1",
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アサナン",
+		'ja-jp': "アサナン",
 	},
 
 	retreat: 1,

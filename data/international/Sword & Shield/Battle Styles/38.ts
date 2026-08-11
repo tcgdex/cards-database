@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Corphish",
-		fr: "Écrapince",
-		es: "Corphish",
-		it: "Corphish",
-		pt: "Corphish",
-		de: "Krebscorps"
+		'en-us': "Corphish",
+		'fr-fr': "Écrapince",
+		'es-es': "Corphish",
+		'it-it': "Corphish",
+		'pt-br': "Corphish",
+		'de-de': "Krebscorps"
 	},
 
 	illustrator: "chibi",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Bubble Beam",
-			fr: "Bulles d'O",
-			es: "Rayo Burbuja",
-			it: "Bollaraggio",
-			pt: "Jato de Bolhas",
-			de: "Blubbstrahl"
+			'en-us': "Bubble Beam",
+			'fr-fr': "Bulles d'O",
+			'es-es': "Rayo Burbuja",
+			'it-it': "Bollaraggio",
+			'pt-br': "Jato de Bolhas",
+			'de-de': "Blubbstrahl"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		},
 
 		damage: 30,
@@ -55,7 +55,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It was originally a Pokémon from afar that escaped to the wild. It can adapt to the dirtiest river."
+		'en-us': "It was originally a Pokémon from afar that escaped to the wild. It can adapt to the dirtiest river."
 	},
 
 	variants: [

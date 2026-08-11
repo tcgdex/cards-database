@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ガブリアスex"
+		'ja-jp': "ガブリアスex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,23 +19,23 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "ハイドロランダー"
+			'ja-jp': "ハイドロランダー"
 		},
 
 		damage: 160,
 
 		effect: {
-			ja: "自分のトラッシュから「基本エネルギー」を3枚まで選び、ベンチポケモンに好きなようにつける。"
+			'ja-jp': "自分のトラッシュから「基本エネルギー」を3枚まで選び、ベンチポケモンに好きなようにつける。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ソニックダイブ"
+			'ja-jp': "ソニックダイブ"
 		},
 
 		effect: {
-			ja: "このポケモンについているエネルギーを2個トラッシュし、相手のポケモン1匹に、120ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			'ja-jp': "このポケモンについているエネルギーを2個トラッシュし、相手のポケモン1匹に、120ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
 		}
 	}],
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Toucannon",
-		fr: "Bazoucan",
-		es: "Toucannon",
-		it: "Toucannon",
-		pt: "Toucannon",
-		de: "Tukanon"
+		'en-us': "Toucannon",
+		'fr-fr': "Bazoucan",
+		'es-es': "Toucannon",
+		'it-it': "Toucannon",
+		'pt-br': "Toucannon",
+		'de-de': "Tukanon"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Trumbeak",
-		fr: "Piclairon",
+		'en-us': "Trumbeak",
+		'fr-fr': "Piclairon",
 	},
 
 	stage: "Stage2",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Beak",
-				fr: "Bec Thermique",
-				es: "Pico Ígneo",
-				it: "Becco Infuocato",
-				pt: "Bico de Calor",
-				de: "Hitzeschnabel"
+				'en-us': "Heat Beak",
+				'fr-fr': "Bec Thermique",
+				'es-es': "Pico Ígneo",
+				'it-it': "Becco Infuocato",
+				'pt-br': "Bico de Calor",
+				'de-de': "Hitzeschnabel"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+				'en-us': "Your opponent’s Active Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 			},
 			damage: 40,
 
@@ -64,20 +64,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giganticannon",
-				fr: "Gigantocanon",
-				es: "Gigantoucañón",
-				it: "Giganticannone",
-				pt: "Gigacanhão",
-				de: "Gigantukanone"
+				'en-us': "Giganticannon",
+				'fr-fr': "Gigantocanon",
+				'es-es': "Gigantoucañón",
+				'it-it': "Giganticannone",
+				'pt-br': "Gigacanhão",
+				'de-de': "Gigantukanone"
 			},
 			effect: {
-				en: "If this Pokémon evolved during this turn, this attack does nothing.",
-				fr: "Si ce Pokémon a évolué pendant ce tour, cette attaque ne fait rien.",
-				es: "Si este Pokémon ha evolucionado durante este turno, este ataque no hace nada.",
-				it: "Se questo Pokémon si è evoluto durante questo turno, questo attacco non ha effetto.",
-				pt: "Se este Pokémon evoluiu durante esta vez de jogar, este ataque não fará nada.",
-				de: "Wenn sich dieses Pokémon während dieses Zuges entwickelt hat, hat diese Attacke keine Auswirkungen."
+				'en-us': "If this Pokémon evolved during this turn, this attack does nothing.",
+				'fr-fr': "Si ce Pokémon a évolué pendant ce tour, cette attaque ne fait rien.",
+				'es-es': "Si este Pokémon ha evolucionado durante este turno, este ataque no hace nada.",
+				'it-it': "Se questo Pokémon si è evoluto durante questo turno, questo attacco non ha effetto.",
+				'pt-br': "Se este Pokémon evoluiu durante esta vez de jogar, este ataque não fará nada.",
+				'de-de': "Wenn sich dieses Pokémon während dieses Zuges entwickelt hat, hat diese Attacke keine Auswirkungen."
 			},
 			damage: 160,
 
@@ -101,7 +101,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Within its beak, its internal gas ignites, explosively launching seeds with enough power to pulverize boulders.",
+		'en-us': "Within its beak, its internal gas ignites, explosively launching seeds with enough power to pulverize boulders.",
 	},
 
 	thirdParty: {

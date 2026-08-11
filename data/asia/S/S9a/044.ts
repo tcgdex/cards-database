@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "洗翠 狙射樹梟V",
-		ja: "ヒスイ ジュナイパーV"
+		'ja-jp': "ヒスイ ジュナイパーV"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -19,24 +19,24 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "獵山",
-			ja: "やまがり"
+			'ja-jp': "やまがり"
 		},
 
 		effect: {
 			'zh-tw': "從自己的牌庫任意選擇最多2張卡加入手牌。並且重洗牌庫。",
-			ja: "自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。"
+			'ja-jp': "自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。"
 		},
 
 		cost: ["Fighting"]
 	}, {
 		name: {
 			'zh-tw': "近身射擊",
-			ja: "きんせつしゃげき"
+			'ja-jp': "きんせつしゃげき"
 		},
 
 		effect: {
 			'zh-tw': "這個招式的傷害不計算對手的戰鬥寶可夢身上的附加效果。",
-			ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。"
+			'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。"
 		},
 
 		damage: 100,

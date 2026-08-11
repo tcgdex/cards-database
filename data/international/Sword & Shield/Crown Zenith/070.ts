@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Baltoy",
-		fr: "Balbuto",
-		es: "Baltoy",
-		it: "Baltoy",
-		pt: "Baltoy",
-		de: "Puppance"
+		'en-us': "Baltoy",
+		'fr-fr': "Balbuto",
+		'es-es': "Baltoy",
+		'it-it': "Baltoy",
+		'pt-br': "Baltoy",
+		'de-de': "Puppance"
 	},
 
 	illustrator: "Nagomi Nijo",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Smack",
-			fr: "Claque",
-			es: "Palmetazo",
-			it: "Schiaffo",
-			pt: "Estalo",
-			de: "Klatscher"
+			'en-us': "Smack",
+			'fr-fr': "Claque",
+			'es-es': "Palmetazo",
+			'it-it': "Schiaffo",
+			'pt-br': "Estalo",
+			'de-de': "Klatscher"
 		},
 
 		damage: 20
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep.",
+		'en-us': "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep.",
 	},
 
 	

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スカンプー",
+		'ja-jp': "スカンプー",
 	},
 
 	illustrator: "Nobuhiro Imagawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "お尻から 飛ばす 液体の 臭いは ２キロも 離れた 人が 具合を 悪くするほど くさい。",
+		'ja-jp': "お尻から 飛ばす 液体の 臭いは ２キロも 離れた 人が 具合を 悪くするほど くさい。",
 	},
 
 	stage: "Basic",

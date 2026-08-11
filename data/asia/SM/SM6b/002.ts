@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウツドン",
+		'ja-jp': "ウツドン",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "まず 毒の粉を 吐き 相手の 動きを 止めてしまってから 溶解液で とどめを 刺す。",
+		'ja-jp': "まず 毒の粉を 吐き 相手の 動きを 止めてしまってから 溶解液で とどめを 刺す。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "せいちょう" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の手札にある[草]エネルギーを2枚まで、このポケモンにつける。",
+				'ja-jp': "自分の手札にある[草]エネルギーを2枚まで、このポケモンにつける。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x30ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数x30ダメージ。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マダツボミ",
+		'ja-jp': "マダツボミ",
 	},
 
 	retreat: 1,

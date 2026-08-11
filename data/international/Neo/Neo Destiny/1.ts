@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Dark Ampharos",
-		fr: "Pharamp obscur",
-		de: "Dunkles Ampharos"
+		'en-us': "Dark Ampharos",
+		'fr-fr': "Pharamp obscur",
+		'de-de': "Dunkles Ampharos"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Flaaffy",
-		fr: "Lainergie obscur"
+		'en-us': "Flaaffy",
+		'fr-fr': "Lainergie obscur"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Conductivity",
-				fr: "Conductivité",
-				de: "Conductivity"
+				'en-us': "Conductivity",
+				'fr-fr': "Conductivité",
+				'de-de': "Conductivity"
 			},
 			effect: {
-				en: "Whenever your opponent attaches an Energy card to a Pokémon from his or her hand, this Power does 10 damage to that Pokémon. (Don't apply Weakness and Resistance) This power stops working if you have more than 1 Dark Ampharos in play or while Dark Ampharos is Asleep, Confused or Paralysed.",
-				fr: "Lorsque votre adversaire attache une carte Énergie de sa main à son Pokémon, ce pouvoir inflige 10 dégâts à ce Pokémon. (N'appliquez ni la Faiblesse ni la Résistance.) Ce pouvoir cesse de fonctionner si vous avez plus d'un Pharamp obscur en jeu ou si Pharamp obscur est Endormi, Confus ou Paralysé.",
-				de: "Whenever your opponent attaches an Energy card from his or her hand to a Pokémon, this power does 10 damage to that Pokémon. (Don't apply Weakness and Resistance.) This power stops working if you have more than 1 Dark Ampharos in play or while Dark Ampharos is Asleep, Confused, or Paralyzed."
+				'en-us': "Whenever your opponent attaches an Energy card to a Pokémon from his or her hand, this Power does 10 damage to that Pokémon. (Don't apply Weakness and Resistance) This power stops working if you have more than 1 Dark Ampharos in play or while Dark Ampharos is Asleep, Confused or Paralysed.",
+				'fr-fr': "Lorsque votre adversaire attache une carte Énergie de sa main à son Pokémon, ce pouvoir inflige 10 dégâts à ce Pokémon. (N'appliquez ni la Faiblesse ni la Résistance.) Ce pouvoir cesse de fonctionner si vous avez plus d'un Pharamp obscur en jeu ou si Pharamp obscur est Endormi, Confus ou Paralysé.",
+				'de-de': "Whenever your opponent attaches an Energy card from his or her hand to a Pokémon, this power does 10 damage to that Pokémon. (Don't apply Weakness and Resistance.) This power stops working if you have more than 1 Dark Ampharos in play or while Dark Ampharos is Asleep, Confused, or Paralyzed."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shock Bolt",
-				fr: "Choc'éclair",
-				de: "Shock Bolt"
+				'en-us': "Shock Bolt",
+				'fr-fr': "Choc'éclair",
+				'de-de': "Shock Bolt"
 			},
 			effect: {
-				en: "Discard all Energy cards attached to this Pokémon in order to use this attack.",
-				fr: "Défaussez-vous de toutes les cartes Énergie  attachées à Pharamp obscur ou cette attaque ne fait rien.",
-				de: "Discard all  Energy cards attached to Dark Ampharos or this attack does nothing."
+				'en-us': "Discard all Energy cards attached to this Pokémon in order to use this attack.",
+				'fr-fr': "Défaussez-vous de toutes les cartes Énergie  attachées à Pharamp obscur ou cette attaque ne fait rien.",
+				'de-de': "Discard all  Energy cards attached to Dark Ampharos or this attack does nothing."
 			},
 			damage: 50,
 
@@ -78,8 +78,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its brightly lit tail can be seen for miles in the dark, even by ships on the sea.",
-		fr: "La nuit, la pointe de sa queue est visible à des kilomètres à la ronde, même pour les bateaux qui naviguent au large."
+		'en-us': "Its brightly lit tail can be seen for miles in the dark, even by ships on the sea.",
+		'fr-fr': "La nuit, la pointe de sa queue est visible à des kilomètres à la ronde, même pour les bateaux qui naviguent au large."
 	},
 
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オタマロ",
+		'ja-jp': "オタマロ",
 		'zh-tw': "圓蝌蚪",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "音波で 仲間と 連絡する。 警戒の 鳴き声は 人や ほかの ポケモンには 聞こえない。",
+		'ja-jp': "音波で 仲間と 連絡する。 警戒の 鳴き声は 人や ほかの ポケモンには 聞こえない。",
 		'zh-tw': "透過音波來聯繫夥伴。人類和其他寶可夢都聽不見牠發出的警告聲。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "どろかけ",
+				'ja-jp': "どろかけ",
 				'zh-tw': "擲泥",
 			},
 			damage: 10,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "暗いSteelix",
+		'ja-jp': "暗いSteelix",
 	},
 
 	rarity: "Holo Rare",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "エネルギーリンク",
+				'ja-jp': "エネルギーリンク",
 			},
 			effect: {
-				ja: "廃棄の山を検索して、エネルギーカードを塗り、Dark Steelixに取り付けます。",
+				'ja-jp': "廃棄の山を検索して、エネルギーカードを塗り、Dark Steelixに取り付けます。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "重い衝撃",
+				'ja-jp': "重い衝撃",
 			},
 			damage: 60,
 		},

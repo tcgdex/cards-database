@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハクリュー",
+		'ja-jp': "ハクリュー",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "天候を 操ると 信じられ ハクリューの 棲む 湖には お供え物が 絶えない。",
+		'ja-jp': "天候を 操ると 信じられ ハクリューの 棲む 湖には お供え物が 絶えない。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Water", "Lightning"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数ぶん、相手のバトルポケモンについているエネルギーをトラッシュする。すべてウラなら、このワザは失敗。",
+				'ja-jp': "コインを2回投げ、オモテの数ぶん、相手のバトルポケモンについているエネルギーをトラッシュする。すべてウラなら、このワザは失敗。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ミニリュウ",
+		'ja-jp': "ミニリュウ",
 	},
 
 	retreat: 2,

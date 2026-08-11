@@ -1,26 +1,26 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ライコウ"
+		'ja-jp': "ライコウ"
 	},
 	illustrator: "Takumi Wada",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Lightning"],
 	description: {
-		ja: "体内で渦巻く力を電撃として出しながら大地を駆け巡る荒々しいポケモン。"
+		'ja-jp': "体内で渦巻く力を電撃として出しながら大地を駆け巡る荒々しいポケモン。"
 	},
 	stage: "Basic",
 	attacks: [{
 		name: {
-			ja: "エレキフォール"
+			'ja-jp': "エレキフォール"
 		},
 		damage: "30+",
 		effect: {
-			ja: "自分の場に雷エネルギーが4個以上あるなら、90ダメージ追加。"
+			'ja-jp': "自分の場に雷エネルギーが4個以上あるなら、90ダメージ追加。"
 		},
 		cost: ["Lightning", "Lightning"]
 	}],

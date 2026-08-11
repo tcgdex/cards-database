@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Psyduck",
-		fr: "Psykokwak",
-		es: "Psyduck",
-		it: "Psyduck",
-		pt: "Psyduck",
-		de: "Enton"
+		'en-us': "Psyduck",
+		'fr-fr': "Psykokwak",
+		'es-es': "Psyduck",
+		'it-it': "Psyduck",
+		'pt-br': "Psyduck",
+		'de-de': "Enton"
 	},
 
 	illustrator: "sui",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				es: "Arañazo",
-				it: "Graffio",
-				pt: "Arranhão",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'es-es': "Arañazo",
+				'it-it': "Graffio",
+				'pt-br': "Arranhão",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confusion Wave",
-				fr: "Vague de Confusion",
-				es: "Ola de Confusión",
-				it: "Confusionda",
-				pt: "Onda de Confusão",
-				de: "Verwirrende Welle"
+				'en-us': "Confusion Wave",
+				'fr-fr': "Vague de Confusion",
+				'es-es': "Ola de Confusión",
+				'it-it': "Confusionda",
+				'pt-br': "Onda de Confusão",
+				'de-de': "Verwirrende Welle"
 			},
 			effect: {
-				en: "Both Active Pokémon are now Confused.",
-				fr: "Les deux Pokémon Actifs sont maintenant Confus.",
-				es: "Ambos Pokémon Activos pasan a estar Confundidos.",
-				it: "Entrambi i Pokémon attivi vengono confusi.",
-				pt: "Ambos os Pokémon Ativos agora estão Confusos.",
-				de: "Beide Aktiven Pokémon sind jetzt verwirrt."
+				'en-us': "Both Active Pokémon are now Confused.",
+				'fr-fr': "Les deux Pokémon Actifs sont maintenant Confus.",
+				'es-es': "Ambos Pokémon Activos pasan a estar Confundidos.",
+				'it-it': "Entrambi i Pokémon attivi vengono confusi.",
+				'pt-br': "Ambos os Pokémon Ativos agora estão Confusos.",
+				'de-de': "Beide Aktiven Pokémon sind jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Using psychokinesis gives it a headache, so it normally passes the time spacing out and doing as little as possible.",
+		'en-us': "Using psychokinesis gives it a headache, so it normally passes the time spacing out and doing as little as possible.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Pidove",
-		fr: "Poichigeon",
+		'en-us': "Pidove",
+		'fr-fr': "Poichigeon",
 	},
 	illustrator: "Naoki Saito",
 	rarity: "Common",
@@ -29,8 +29,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gust",
-				fr: "Tornade",
+				'en-us': "Gust",
+				'fr-fr': "Tornade",
 			},
 
 			damage: 20,
@@ -55,7 +55,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Each follows its Trainer's orders as best it can, but they sometimes fail to understand complicated commands.",
+		'en-us': "Each follows its Trainer's orders as best it can, but they sometimes fail to understand complicated commands.",
 	},
 }
 

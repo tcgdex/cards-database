@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Zangoose",
-		fr: "Mangriff",
-		de: "Sengo"
+		'en-us': "Zangoose",
+		'fr-fr': "Mangriff",
+		'de-de': "Sengo"
 	},
 
 	illustrator: "Wataru Kawahara",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swords Dance",
-				fr: "Danse-lames",
-				de: "Schwerttanz"
+				'en-us': "Swords Dance",
+				'fr-fr': "Danse-lames",
+				'de-de': "Schwerttanz"
 			},
 			effect: {
-				en: "During your next turn, Zangoose's Lost Claw attack's base damage is 80.",
-				fr: "Pendant votre prochain tour, la Griffe perdue de Mangriff inflige 60 dégâts de base.",
-				de: "In deinem nächsten Zug beträgt der Grundschaden von Sengos Nirgendwo-Klaue 60 Schadenspunkte."
+				'en-us': "During your next turn, Zangoose's Lost Claw attack's base damage is 80.",
+				'fr-fr': "Pendant votre prochain tour, la Griffe perdue de Mangriff inflige 60 dégâts de base.",
+				'de-de': "In deinem nächsten Zug beträgt der Grundschaden von Sengos Nirgendwo-Klaue 60 Schadenspunkte."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lost Claw",
-				fr: "Griffe perdue",
-				de: "Nirgendwo-Klaue"
+				'en-us': "Lost Claw",
+				'fr-fr': "Griffe perdue",
+				'de-de': "Nirgendwo-Klaue"
 			},
 			effect: {
-				en: "Choose 1 card from your opponent's hand without looking and put it in the Lost Zone.",
-				fr: "Choisissez au hasard 1 carte dans la main de votre adversaire et placez-la dans la Zone Perdue.",
-				de: "Wähle 1 Karte von der Hand deines Gegners, ohne sie vorher anzusehen, und lege sie ins Nirgendwo."
+				'en-us': "Choose 1 card from your opponent's hand without looking and put it in the Lost Zone.",
+				'fr-fr': "Choisissez au hasard 1 carte dans la main de votre adversaire et placez-la dans la Zone Perdue.",
+				'de-de': "Wähle 1 Karte von der Hand deines Gegners, ohne sie vorher anzusehen, und lege sie ins Nirgendwo."
 			},
 			damage: 30,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its fur would all stand on end if it smelled a Seviper nearby. Its sharp claws tear up its foes.",
+		'en-us': "Its fur would all stand on end if it smelled a Seviper nearby. Its sharp claws tear up its foes.",
 	},
 
 	variants: [

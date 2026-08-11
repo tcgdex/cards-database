@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Seaking",
-		fr: "Poissoroy",
-		de: "Golking"
+		'en-us': "Seaking",
+		'fr-fr': "Poissoroy",
+		'de-de': "Golking"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Goldeen",
-		fr: "Poissirène"
+		'en-us': "Goldeen",
+		'fr-fr': "Poissirène"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Triple Breach",
-				fr: "Triple rupture",
-				de: "Triple Breach"
+				'en-us': "Triple Breach",
+				'fr-fr': "Triple rupture",
+				'de-de': "Triple Breach"
 			},
 			effect: {
-				en: "Choose 3 of your opponent's Pokémon. This attack does 10 damage to each of those Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 3 des Pokémon de votre adversaire. Cette attaque inflige 10 dégâts à chacun de ces Pokémon. (Vous ne pouvez pas appliquer la Faiblesse et de la Résistance aux Pokémon de Banc).",
-				de: "Choose 3 of your opponent's Pokémon. This attack does 10 damage to each of those Pokémon. (Don't apply Weakness and Resistance for benched Pokémon.)"
+				'en-us': "Choose 3 of your opponent's Pokémon. This attack does 10 damage to each of those Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 3 des Pokémon de votre adversaire. Cette attaque inflige 10 dégâts à chacun de ces Pokémon. (Vous ne pouvez pas appliquer la Faiblesse et de la Résistance aux Pokémon de Banc).",
+				'de-de': "Choose 3 of your opponent's Pokémon. This attack does 10 damage to each of those Pokémon. (Don't apply Weakness and Resistance for benched Pokémon.)"
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rend",
-				fr: "Déchirer",
-				de: "Rend"
+				'en-us': "Rend",
+				'fr-fr': "Déchirer",
+				'de-de': "Rend"
 			},
 			effect: {
-				en: "If the Defending Pokémon already has any damage counters on it, this attack does 30 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
-				de: "If the Defending Pokémon already has any damage on it, this attack does 30 damage plus 20 more damage."
+				'en-us': "If the Defending Pokémon already has any damage counters on it, this attack does 30 damage plus 20 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon already has any damage on it, this attack does 30 damage plus 20 more damage."
 			},
 			damage: "30+",
 

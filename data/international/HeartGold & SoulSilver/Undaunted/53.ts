@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Houndour",
-		fr: "Malosse",
-		de: "Hunduster"
+		'en-us': "Houndour",
+		'fr-fr': "Malosse",
+		'de-de': "Hunduster"
 	},
 
 	illustrator: "kawayoo",
@@ -30,9 +30,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharp Fang",
-				fr: "Croc aiguisé",
-				de: "Scharfe Fänge"
+				'en-us': "Sharp Fang",
+				'fr-fr': "Croc aiguisé",
+				'de-de': "Scharfe Fänge"
 			},
 
 			damage: 30,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey."
+		'en-us': "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey."
 	},
 
 	variants: [

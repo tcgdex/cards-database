@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "นุยโคกุมะ",
-		id: "Stufful"
+		'th-th': "นุยโคกุมะ",
+		'id-id': "Stufful"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "แนวขนฟูนุ่มรู้สึกสบายอย่างยิ่งเมื่อสัมผัส แต่ถ้าเผลอไปจับจะถูกโจมตีกลับอย่างรุนแรง",
-		id: "Bulu Stufful yang lembut sangat enak untuk disentuh, tetapi jika tidak hati-hati saat menyentuhnya, mungkin ia akan melawan dan melukaimu."
+		'th-th': "แนวขนฟูนุ่มรู้สึกสบายอย่างยิ่งเมื่อสัมผัส แต่ถ้าเผลอไปจับจะถูกโจมตีกลับอย่างรุนแรง",
+		'id-id': "Bulu Stufful yang lembut sangat enak untuk disentuh, tetapi jika tidak hati-hati saat menyentuhnya, mungkin ia akan melawan dan melukaimu."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "พุ่งเข้าใส่",
-			id: "Menerjang"
+			'th-th': "พุ่งเข้าใส่",
+			'id-id': "Menerjang"
 		},
 
 		effect: {
-			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
-			id: "Pokémon ini juga menerima kerusakan sejumlah 10."
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10."
 		},
 
 		damage: 30,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [196],
 
 	name: {
-		en: "Espeon ex"
+		'en-us': "Espeon ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Eevee"
+		'en-us': "Eevee"
 	},
 
 	stage: "Stage1",
@@ -27,17 +27,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Psychic Healing"
+			'en-us': "Psychic Healing"
 		},
 
 		effect: {
-			en: "Once during your turn, if this Pokémon is in the Active Spot, you may heal 30 damage from 1 of your Pokémon."
+			'en-us': "Once during your turn, if this Pokémon is in the Active Spot, you may heal 30 damage from 1 of your Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Super Psy Bolt"
+			'en-us': "Super Psy Bolt"
 		},
 
 		damage: 80,

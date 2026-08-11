@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It keeps a twig in its tail. Using friction from its tail fur, it sets the twig on fire and launches into battle.",
+		'en-us': "It keeps a twig in its tail. Using friction from its tail fur, it sets the twig on fire and launches into battle.",
 	},
 
 
 	name: {
-		en: "Braixen",
-		fr: "Roussil",
-		es: "Braixen",
+		'en-us': "Braixen",
+		'fr-fr': "Roussil",
+		'es-es': "Braixen",
 		'es-mx': "Braixen",
-		de: "Rutena",
-		it: "Braixen",
-		pt: "Braixen"
+		'de-de': "Rutena",
+		'it-it': "Braixen",
+		'pt-br': "Braixen"
 	},
 
 	illustrator: "Taiga Kasai",
@@ -27,33 +27,33 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Fennekin"
+		'en-us': "Fennekin"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Flamethrower",
-			fr: "Lance-Flammes",
-			es: "Lanzallamas",
+			'en-us': "Flamethrower",
+			'fr-fr': "Lance-Flammes",
+			'es-es': "Lanzallamas",
 			'es-mx': "Lanzallamas",
-			de: "Flammenwurf",
-			it: "Lanciafiamme",
-			pt: "Lança-chamas"
+			'de-de': "Flammenwurf",
+			'it-it': "Lanciafiamme",
+			'pt-br': "Lança-chamas"
 		},
 
 		cost: ["Fire", "Fire"],
 		damage: 80,
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
 			'es-mx': "Descarta 1 Energía de este Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon."
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte uma Energia deste Pokémon."
 		}
 	}],
 

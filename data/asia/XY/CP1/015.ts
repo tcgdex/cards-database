@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグマ団のグラードンEX",
+		'ja-jp': "マグマ団のグラードンEX",
 	},
 
 	illustrator: "nagimiso",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "パワーセーバー" },
 			effect: {
-				ja: "おたがいの場にいる「マグマ団」のポケモンの合計が4匹以下なら、このポケモンはワザが使えない。",
+				'ja-jp': "おたがいの場にいる「マグマ団」のポケモンの合計が4匹以下なら、このポケモンはワザが使えない。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "ダメージを与えるとき、すでに相手のバトルポケモンにダメカンがのっているなら、80ダメージを追加。",
+				'ja-jp': "ダメージを与えるとき、すでに相手のバトルポケモンにダメカンがのっているなら、80ダメージを追加。",
 			},
 		},
 	],

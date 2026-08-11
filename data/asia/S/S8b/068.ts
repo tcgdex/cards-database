@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨノワール",
+		'ja-jp': "ヨノワール",
 		'zh-tw': "黑夜魔靈",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "意思が あるのか わかっていない。 霊界からの 電波に 従い 人や ポケモンを 連れ去るのだ。",
+		'ja-jp': "意思が あるのか わかっていない。 霊界からの 電波に 従い 人や ポケモンを 連れ去るのだ。",
 		'zh-tw': "沒人知道牠是否擁有意識。會從來自靈界的電波中接受指示，將人和寶可夢帶走。",
 	},
 
@@ -24,11 +24,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ゴーストブリーチ",
+				'ja-jp': "ゴーストブリーチ",
 				'zh-tw': "幽靈漂白",
 			},
 			effect: {
-				ja: "このポケモンがいるかぎり、おたがいの場のポケモンについている特殊エネルギーの効果はすべてなくなり、【無】エネルギー1個ぶんとしてはたらく。",
+				'ja-jp': "このポケモンがいるかぎり、おたがいの場のポケモンについている特殊エネルギーの効果はすべてなくなり、【無】エネルギー1個ぶんとしてはたらく。",
 				'zh-tw': "只要這隻寶可夢在場上，雙方的場上寶可夢身上附加的特殊能量的效果全部消除，視為提供1個【無】能量。",
 			},
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ホロウショット",
+				'ja-jp': "ホロウショット",
 				'zh-tw': "陰森射擊",
 			},
 			damage: 120,
@@ -59,7 +59,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "サマヨール",
+		'ja-jp': "サマヨール",
 	},
 
 	retreat: 2,

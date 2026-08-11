@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パルシェン",
+		'ja-jp': "パルシェン",
 	},
 
 	illustrator: "Yoshinobu Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "硬い殻は ナパーム弾 でも 砕けない。 カラの 中味の 正体は 未だ 不明。",
+		'ja-jp': "硬い殻は ナパーム弾 でも 砕けない。 カラの 中味の 正体は 未だ 不明。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、30ダメージ追加。ウラなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、30ダメージ追加。ウラなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シェルダー",
+		'ja-jp': "シェルダー",
 	},
 
 	retreat: 3,

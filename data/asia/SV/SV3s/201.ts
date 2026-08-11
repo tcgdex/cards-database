@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Hoopa ex"
+		'id-id': "Hoopa ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,22 +17,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Energy Crush"
+			'id-id': "Energy Crush"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan sejumlah 50 untuk tiap Energi yang dikenakan pada semua Pokémon lawan."
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 50 untuk tiap Energi yang dikenakan pada semua Pokémon lawan."
 		},
 
 		damage: "50×",
 		cost: ["Darkness", "Darkness"]
 	}, {
 		name: {
-			id: "Bandit Fist"
+			'id-id': "Bandit Fist"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan Bandit Fist."
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan Bandit Fist."
 		},
 
 		damage: 200,

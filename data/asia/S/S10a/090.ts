@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジバコイルVSTAR",
+		'ja-jp': "ジバコイルVSTAR",
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -20,14 +20,14 @@ const card: Card = {
 			damage: 180,
 			cost: ["Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分の山札からグッズを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札からグッズを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 		{
 			name: { ja: "エレクトロスター" },
 			cost: ["Lightning", "Lightning"],
 			effect: {
-				ja: "相手のベンチポケモン2匹に、それぞれ90ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はVSTARパワーを1回しか使えない。］",
+				'ja-jp': "相手のベンチポケモン2匹に、それぞれ90ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はVSTARパワーを1回しか使えない。］",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ジバコイルV",
+		'ja-jp': "ジバコイルV",
 	},
 
 	retreat: 2,

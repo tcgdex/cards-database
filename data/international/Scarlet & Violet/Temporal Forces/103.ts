@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Haunter",
-		fr: "Spectrum",
-		es: "Haunter",
-		it: "Haunter",
-		pt: "Haunter",
-		de: "Alpollo"
+		'en-us': "Haunter",
+		'fr-fr': "Spectrum",
+		'es-es': "Haunter",
+		'it-it': "Haunter",
+		'pt-br': "Haunter",
+		'de-de': "Alpollo"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Gastly",
-		fr: "Fantominus",
-		es: "Gastly",
-		it: "Gastly",
-		pt: "Gastly",
-		de: "Nebulak"
+		'en-us': "Gastly",
+		'fr-fr': "Fantominus",
+		'es-es': "Gastly",
+		'it-it': "Gastly",
+		'pt-br': "Gastly",
+		'de-de': "Nebulak"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Darkness", "Darkness"],
 
 		name: {
-			en: "Super Poison Breath",
-			fr: "Super Haleine Empoisonnée",
-			es: "Aliento Supervenenoso",
-			it: "Super Velenospiro",
-			pt: "Super-hálito Venenoso",
-			de: "Super-Gifthauch"
+			'en-us': "Super Poison Breath",
+			'fr-fr': "Super Haleine Empoisonnée",
+			'es-es': "Aliento Supervenenoso",
+			'it-it': "Super Velenospiro",
+			'pt-br': "Super-hálito Venenoso",
+			'de-de': "Super-Gifthauch"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		},
 
 		damage: 30
@@ -62,7 +62,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
+		'en-us': "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
 	},
 
 	variants: [

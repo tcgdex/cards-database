@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リザードン",
+		'ja-jp': "リザードン",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "エネルギー燃焼",
+				'ja-jp': "エネルギー燃焼",
 			},
 			effect: {
-				ja: "このポケモンに取り付けられたすべてのエネルギーは、通常のタイプではなく火エネルギーです。このポクモンが眠ったり、混乱したり、麻痺したりしている場合、このポケモンのパワーは機能しなくなります。",
+				'ja-jp': "このポケモンに取り付けられたすべてのエネルギーは、通常のタイプではなく火エネルギーです。このポクモンが眠ったり、混乱したり、麻痺したりしている場合、このポケモンのパワーは機能しなくなります。",
 			},
 		}],
 
@@ -30,10 +30,10 @@ const card: Card = {
 		{
 			cost: ["Fire", "Fire", "Fire", "Fire"],
 			name: {
-				ja: "火のスピン",
+				'ja-jp': "火のスピン",
 			},
 			effect: {
-				ja: "このポケモンから2エネルギーを捨てます。",
+				'ja-jp': "このポケモンから2エネルギーを捨てます。",
 			},
 			damage: 100,
 		},

@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ムクバード",
+		'ja-jp': "ムクバード",
 		'zh-tw': "姆克鳥",
-		th: "มุคูเบิร์ด",
-		id: "Staravia"
+		'th-th': "มุคูเบิร์ด",
+		'id-id': "Staravia"
 	},
 
 	illustrator: "kantaro",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "自分の 弱さを わきまえており いつも 群れで 暮らしている。 １匹になると やかましく 鳴く。",
+		'ja-jp': "自分の 弱さを わきまえており いつも 群れで 暮らしている。 １匹になると やかましく 鳴く。",
 		'zh-tw': "心知肚明自己的弱小，所以平時都是群體生活。 單獨行動時會發出吵鬧的叫聲。",
-		th: "เพราะรู้จุดอ่อนของตัวเองจึงอยู่เป็นฝูงเสมอ พออยู่ตัวเดียวจะส่งเสียงดังโหวกเหวก",
-		id: "Karena sadar akan kelemahannya, Staravia selalu hidup bersama kelompoknya. Pokémon ini akan berciap kencang ketika sendirian."
+		'th-th': "เพราะรู้จุดอ่อนของตัวเองจึงอยู่เป็นฝูงเสมอ พออยู่ตัวเดียวจะส่งเสียงดังโหวกเหวก",
+		'id-id': "Karena sadar akan kelemahannya, Staravia selalu hidup bersama kelompoknya. Pokémon ini akan berciap kencang ketika sendirian."
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "つばさでうつ",
+			'ja-jp': "つばさでうつ",
 			'zh-tw': "翅膀攻擊",
-			th: "โจมตีด้วยปีก",
-			id: "Pukulan Sayap"
+			'th-th': "โจมตีด้วยปีก",
+			'id-id': "Pukulan Sayap"
 		},
 
 		damage: 40
@@ -42,10 +42,10 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "スピードひこう",
+			'ja-jp': "スピードひこう",
 			'zh-tw': "高速飛行",
-			th: "บินเร็วจี๋",
-			id: "Terbang Cepat"
+			'th-th': "บินเร็วจี๋",
+			'id-id': "Terbang Cepat"
 		},
 
 		damage: 80

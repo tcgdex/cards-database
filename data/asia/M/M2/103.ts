@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "せいなるおまもり",
+		'ja-jp': "せいなるおまもり",
 	},
 
 	illustrator: "Toyste Beach",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけているポケモンが、相手の特性を持つポケモンから受けるワザのダメージは「-30」される。",
+		'ja-jp': "このカードをつけているポケモンが、相手の特性を持つポケモンから受けるワザのダメージは「-30」される。",
 	},
 
 	variants: [{"type": "holo"}],

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Chinchou",
-		fr: "Loupio",
-		es: "Chinchou",
-		it: "Chinchou",
-		pt: "Chinchou",
-		de: "Lampi"
+		'en-us': "Chinchou",
+		'fr-fr': "Loupio",
+		'es-es': "Chinchou",
+		'it-it': "Chinchou",
+		'pt-br': "Chinchou",
+		'de-de': "Lampi"
 	},
 
 	rarity: "Common",
@@ -23,12 +23,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Electro Ball",
-			fr: "Boule Élek",
-			es: "Bola Voltio",
-			it: "Energisfera",
-			pt: "Electro Ball",
-			de: "Elektroball"
+			'en-us': "Electro Ball",
+			'fr-fr': "Boule Élek",
+			'es-es': "Bola Voltio",
+			'it-it': "Energisfera",
+			'pt-br': "Electro Ball",
+			'de-de': "Elektroball"
 		},
 
 		damage: 10,
@@ -43,7 +43,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "On the dark ocean floor, its only means of communication is its constantly flashing lights."
+		'en-us': "On the dark ocean floor, its only means of communication is its constantly flashing lights."
 	},
 
 	dexId: [170],

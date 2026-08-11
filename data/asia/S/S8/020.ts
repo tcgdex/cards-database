@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワニノコ",
+		'ja-jp': "ワニノコ",
 		'zh-tw': "小鋸鱷",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "発達した アゴは パワフルで なんでも かみくだいて しまうので 親のトレーナーでも 要注意。",
+		'ja-jp': "発達した アゴは パワフルで なんでも かみくだいて しまうので 親のトレーナーでも 要注意。",
 		'zh-tw': "發達的雙顎充滿了力量，不管什麼東西都能咬碎，所以就算是牠的訓練家也要當心。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "みずかけ",
+				'ja-jp': "みずかけ",
 				'zh-tw': "潑水",
 			},
 			damage: 20,

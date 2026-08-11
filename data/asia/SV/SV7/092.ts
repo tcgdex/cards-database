@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "福祿果",
 		'zh-cn': "福祿果",
-		ja: "ウタンのみ"
+		'ja-jp': "ウタンのみ"
 	},
 
 	illustrator: "Studio Bora Inc.",
@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		'zh-tw': "附有這張卡的寶可夢受到對手的【超】寶可夢招式的傷害時，那個傷害「-60」點，將這張卡丟棄。",
 		'zh-cn': "附有這張卡的寶可夢受到對手的【超】寶可夢招式的傷害時，那個傷害「-60」點，將這張卡丟棄。",
-		ja: "このカードをつけているポケモンが、相手のポケモンからワザのダメージを受けるとき、そのダメージは「-60」され、このカードをトラッシュする。"
+		'ja-jp': "このカードをつけているポケモンが、相手のポケモンからワザのダメージを受けるとき、そのダメージは「-60」され、このカードをトラッシュする。"
 	},
 
 	variants: [

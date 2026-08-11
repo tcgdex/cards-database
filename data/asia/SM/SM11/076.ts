@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケッキング",
+		'ja-jp': "ケッキング",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "世界一 ぐうたらな ポケモン。 手が 届く 範囲の エサを 食べつくすと 居場所を 変える。",
+		'ja-jp': "世界一 ぐうたらな ポケモン。 手が 届く 範囲の エサを 食べつくすと 居場所を 変える。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "はんげき" },
 			effect: {
-				ja: "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを4個のせる。",
+				'ja-jp': "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを4個のせる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "のぞむなら、100ダメージ追加。その場合、次の相手の番、このポケモンが受けるワザのダメージは「+100」される。",
+				'ja-jp': "のぞむなら、100ダメージ追加。その場合、次の相手の番、このポケモンが受けるワザのダメージは「+100」される。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤルキモノ",
+		'ja-jp': "ヤルキモノ",
 	},
 
 	retreat: 4,

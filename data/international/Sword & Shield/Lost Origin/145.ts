@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ambipom",
-		fr: "Capidextre",
-		es: "Ambipom",
-		it: "Ambipom",
-		pt: "Ambipom",
-		de: "Ambidiffel"
+		'en-us': "Ambipom",
+		'fr-fr': "Capidextre",
+		'es-es': "Ambipom",
+		'it-it': "Ambipom",
+		'pt-br': "Ambipom",
+		'de-de': "Ambidiffel"
 	},
 
 	illustrator: "Atsushi Furusawa",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Aipom",
-		fr: "Capumain",
-		es: "Aipom",
-		it: "Aipom",
-		pt: "Aipom",
-		de: "Griffel"
+		'en-us': "Aipom",
+		'fr-fr': "Capumain",
+		'es-es': "Aipom",
+		'it-it': "Aipom",
+		'pt-br': "Aipom",
+		'de-de': "Griffel"
 	},
 
 	stage: "Stage1",
@@ -35,41 +35,41 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "All-You-Can-Grab",
-			fr: "Libre-Service",
-			es: "Agarre Libre",
-			it: "Arraffatutto",
-			pt: "Pegue à Vontade",
-			de: "Schnäppchenjagd"
+			'en-us': "All-You-Can-Grab",
+			'fr-fr': "Libre-Service",
+			'es-es': "Agarre Libre",
+			'it-it': "Arraffatutto",
+			'pt-br': "Pegue à Vontade",
+			'de-de': "Schnäppchenjagd"
 		},
 
 		effect: {
-			en: "Flip a coin until you get tails. Search your deck for a number of cards up to the number of heads and put them into your hand. Then, shuffle your deck.",
-			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cherchez dans votre deck un nombre de cartes inférieur ou égal au nombre de côtés face obtenus, puis placez-les dans votre main. Mélangez ensuite votre deck.",
-			es: "Lanza 1 moneda hasta que salga cruz. Busca en tu baraja una cantidad de cartas igual o inferior al número de caras que te hayan salido y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
-			it: "Lancia una moneta finché non esce croce. Cerca nel tuo mazzo un numero di carte uguale o inferiore al numero di volte in cui è uscito testa e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			pt: "Jogue 1 moeda até sair coroa. Procure por um número de cartas no seu baralho até o número de caras e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
-			de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Durchsuche dein Deck nach bis zu so vielen Karten, wie du Kopf geworfen hast, und nimm sie auf deine Hand. Mische anschließend dein Deck."
+			'en-us': "Flip a coin until you get tails. Search your deck for a number of cards up to the number of heads and put them into your hand. Then, shuffle your deck.",
+			'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Cherchez dans votre deck un nombre de cartes inférieur ou égal au nombre de côtés face obtenus, puis placez-les dans votre main. Mélangez ensuite votre deck.",
+			'es-es': "Lanza 1 moneda hasta que salga cruz. Busca en tu baraja una cantidad de cartas igual o inferior al número de caras que te hayan salido y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
+			'it-it': "Lancia una moneta finché non esce croce. Cerca nel tuo mazzo un numero di carte uguale o inferiore al numero di volte in cui è uscito testa e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Jogue 1 moeda até sair coroa. Procure por um número de cartas no seu baralho até o número de caras e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Durchsuche dein Deck nach bis zu so vielen Karten, wie du Kopf geworfen hast, und nimm sie auf deine Hand. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Knock Off",
-			fr: "Sabotage",
-			es: "Desarme",
-			it: "Privazione",
-			pt: "Derrubar",
-			de: "Abschlag"
+			'en-us': "Knock Off",
+			'fr-fr': "Sabotage",
+			'es-es': "Desarme",
+			'it-it': "Privazione",
+			'pt-br': "Derrubar",
+			'de-de': "Abschlag"
 		},
 
 		effect: {
-			en: "Discard a random card from your opponent's hand.",
-			fr: "Défaussez au hasard une carte de la main de votre adversaire.",
-			es: "Descarta 1 carta aleatoria de la mano de tu rival.",
-			it: "Scarta una carta a caso dalla mano del tuo avversario.",
-			pt: "Descarte 1 carta aleatória da mão do seu oponente.",
-			de: "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
+			'en-us': "Discard a random card from your opponent's hand.",
+			'fr-fr': "Défaussez au hasard une carte de la main de votre adversaire.",
+			'es-es': "Descarta 1 carta aleatoria de la mano de tu rival.",
+			'it-it': "Scarta una carta a caso dalla mano del tuo avversario.",
+			'pt-br': "Descarte 1 carta aleatória da mão do seu oponente.",
+			'de-de': "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 50

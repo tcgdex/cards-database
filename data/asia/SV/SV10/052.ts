@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダイノーズ",
+		'ja-jp': "ダイノーズ",
 		'zh-tw': "大朝北鼻",
 		'zh-cn': "大朝北鼻",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "３個の チビノーズと 呼ばれる ユニットを 磁力で 操り ３方向から 相手を 仕留める。",
+		'ja-jp': "３個の チビノーズと 呼ばれる ユニットを 磁力で 操り ３方向から 相手を 仕留める。",
 		'zh-tw': "會以磁力操縱３個 被稱為小朝北鼻的組件， 從３個方向解決對手。",
 		'zh-cn': "會以磁力操縱３個 被稱為小朝北鼻的組件， 從３個方向解決對手。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "パワージェム",
+				'ja-jp': "パワージェム",
 				'zh-tw': "力量寶石",
 				'zh-cn': "力量寶石",
 			},
@@ -34,14 +34,14 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "マウンテンフォール",
+				'ja-jp': "マウンテンフォール",
 				'zh-tw': "山岳墜落",
 				'zh-cn': "山岳墜落",
 			},
 			damage: "70+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "場にスタジアムが出ているなら、70ダメージ追加。",
+				'ja-jp': "場にスタジアムが出ているなら、70ダメージ追加。",
 				'zh-tw': "若場上有競技場卡，則增加70點傷害。",
 				'zh-cn': "若場上有競技場卡，則增加70點傷害。",
 			},
@@ -62,7 +62,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ノズパス",
+		'ja-jp': "ノズパス",
 	},
 
 	retreat: 3,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Argouste",
-		en: "Gumshoos",
-		es: "Gumshoos",
-		it: "Gumshoos",
-		pt: "Gumshoos",
-		de: "Manguspektor"
+		'fr-fr': "Argouste",
+		'en-us': "Gumshoos",
+		'es-es': "Gumshoos",
+		'it-it': "Gumshoos",
+		'pt-br': "Gumshoos",
+		'de-de': "Manguspektor"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Colorless"],
 	evolveFrom: {
-		fr: "Manglouton",
-		en: "Yungoos",
-		es: "Yungoos",
-		it: "Yungoos",
-		pt: "Yungoos",
-		de: "Mangunior"
+		'fr-fr': "Manglouton",
+		'en-us': "Yungoos",
+		'es-es': "Yungoos",
+		'it-it': "Yungoos",
+		'pt-br': "Yungoos",
+		'de-de': "Mangunior"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Frappe de Tête",
-			en: "Headbang",
-			es: "Cabecear",
-			it: "Scuotitesta",
-			pt: "Baque de Cabeça",
-			de: "Headbangen"
+			'fr-fr': "Frappe de Tête",
+			'en-us': "Headbang",
+			'es-es': "Cabecear",
+			'it-it': "Scuotitesta",
+			'pt-br': "Baque de Cabeça",
+			'de-de': "Headbangen"
 		},
 
 		damage: 30
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Mâchouille",
-			en: "Crunch",
-			es: "Triturar",
-			it: "Sgranocchio",
-			pt: "Mastigada",
-			de: "Knirscher"
+			'fr-fr': "Mâchouille",
+			'en-us': "Crunch",
+			'es-es': "Triturar",
+			'it-it': "Sgranocchio",
+			'pt-br': "Mastigada",
+			'de-de': "Knirscher"
 		},
 
 		effect: {
-			fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
-			en: "Discard an Energy from your opponent's Active Pokémon.",
-			es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-			it: "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
-			pt: "Descarte uma Energia do Pokémon Ativo do seu oponente.",
-			de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+			'fr-fr': "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			'en-us': "Discard an Energy from your opponent's Active Pokémon.",
+			'es-es': "Descarta 1 Energía del Pokémon Activo de tu rival.",
+			'it-it': "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			'pt-br': "Descarte uma Energia do Pokémon Ativo do seu oponente.",
+			'de-de': "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 60
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Once it finds signs of prey, it will patiently stake out the location, waiting until the sun goes down.",
+		'en-us': "Once it finds signs of prey, it will patiently stake out the location, waiting until the sun goes down.",
 	},
 
 	variants: [

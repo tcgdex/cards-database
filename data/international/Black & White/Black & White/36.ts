@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Ducklett",
-		fr: "Couaneton",
-		es: "Ducklett",
-		it: "Ducklett",
-		pt: "Ducklett",
-		de: "Piccolente"
+		'en-us': "Ducklett",
+		'fr-fr': "Couaneton",
+		'es-es': "Ducklett",
+		'it-it': "Ducklett",
+		'pt-br': "Ducklett",
+		'de-de': "Piccolente"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
 			},
 
 			damage: 10,
@@ -60,7 +60,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "These bird Pokémon are excellent divers. They swim around in the water eating their favorite food—peat moss.",
+		'en-us': "These bird Pokémon are excellent divers. They swim around in the water eating their favorite food—peat moss.",
 	},
 
 	thirdParty: {

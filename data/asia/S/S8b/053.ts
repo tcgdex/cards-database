@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゼクロム",
+		'ja-jp': "ゼクロム",
 		'zh-tw': "捷克羅姆",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "しっぽの 内部が モーターのように 回ると 何本もの 稲妻が 発生して 周囲を つらぬく。",
+		'ja-jp': "しっぽの 内部が モーターのように 回ると 何本もの 稲妻が 発生して 周囲を つらぬく。",
 		'zh-tw': "當尾巴的內部像馬達那樣旋轉起來，就能製造出好幾道閃電，穿透周圍的一切。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "きりさく",
+				'ja-jp': "きりさく",
 				'zh-tw': "劈開",
 			},
 			damage: 30,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ワイルドショック",
+				'ja-jp': "ワイルドショック",
 				'zh-tw': "狂野衝擊",
 			},
 			damage: 130,
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "このポケモンにも60ダメージ。相手のバトルポケモンをマヒにする。",
+				'ja-jp': "このポケモンにも60ダメージ。相手のバトルポケモンをマヒにする。",
 				'zh-tw': "這隻寶可夢也受到60點傷害。將對手的戰鬥寶可夢【麻痺】。",
 			},
 		},

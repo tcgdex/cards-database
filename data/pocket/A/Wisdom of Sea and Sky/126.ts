@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Klink",
-		fr: "Tic"
+		'en-us': "Klink",
+		'fr-fr': "Tic"
 	},
 
 	illustrator: "Akira Komayama",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "The two minigears that compose this Pokémon\nare closer than twins. They mesh well only with\neach other.",
-		fr: "Ses deux rouages sont plus soudés que des jumeaux. Si on essaie de les combiner à d'autres rouages, ils ne s'entendent pas très bien."
+		'en-us': "The two minigears that compose this Pokémon\nare closer than twins. They mesh well only with\neach other.",
+		'fr-fr': "Ses deux rouages sont plus soudés que des jumeaux. Si on essaie de les combiner à d'autres rouages, ils ne s'entendent pas très bien."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Vise Grip",
-			fr: "Force Poigne"
+			'en-us': "Vise Grip",
+			'fr-fr': "Force Poigne"
 		},
 
 		damage: 20,

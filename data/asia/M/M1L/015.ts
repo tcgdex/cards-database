@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒバニー",
+		'ja-jp': "ヒバニー",
 	},
 
 	illustrator: "svlt",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "全身が 温まることで 本来の パワーを 発揮できる。 そのため 準備運動を する。",
+		'ja-jp': "全身が 温まることで 本来の パワーを 発揮できる。 そのため 準備運動を する。",
 	},
 
 	stage: "Basic",

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オタマロ",
+		'ja-jp': "オタマロ",
 	},
 
 	illustrator: "aspara",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "甲高い 警戒音を ほほの 振動で 発生させて 仲間に 危険を 知らせる。",
+		'ja-jp': "甲高い 警戒音を ほほの 振動で 発生させて 仲間に 危険を 知らせる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20x",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の場の、ワザ「りんしょう」を持つポケモンの数×20ダメージ。",
+				'ja-jp': "自分の場の、ワザ「りんしょう」を持つポケモンの数×20ダメージ。",
 			},
 		},
 	],

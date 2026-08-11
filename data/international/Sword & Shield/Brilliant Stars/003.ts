@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shroomish",
-		fr: "Balignon",
-		es: "Shroomish",
-		it: "Shroomish",
-		pt: "Shroomish",
-		de: "Knilz"
+		'en-us': "Shroomish",
+		'fr-fr': "Balignon",
+		'es-es': "Shroomish",
+		'it-it': "Shroomish",
+		'pt-br': "Shroomish",
+		'de-de': "Knilz"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			es: "Golpe Cabeza",
-			it: "Bottintesta",
-			pt: "Cabeçada",
-			de: "Kopfnuss"
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'es-es': "Golpe Cabeza",
+			'it-it': "Bottintesta",
+			'pt-br': "Cabeçada",
+			'de-de': "Kopfnuss"
 		},
 
 		damage: 20
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.",
+		'en-us': "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.",
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Duraludon",
-		fr: "Duralugon",
-		es: "Duraludon",
-		pt: "Duraludon",
-		it: "Duraludon",
-		de: "Duraludon"
+		'en-us': "Duraludon",
+		'fr-fr': "Duralugon",
+		'es-es': "Duraludon",
+		'pt-br': "Duraludon",
+		'it-it': "Duraludon",
+		'de-de': "Duraludon"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			es: "Martillear",
-			pt: "Martelada",
-			it: "Martello",
-			de: "Einhämmern"
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'es-es': "Martillear",
+			'pt-br': "Martelada",
+			'it-it': "Martello",
+			'de-de': "Einhämmern"
 		},
 
 		damage: 30
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Metal", "Metal", "Colorless"],
 
 		name: {
-			en: "Raging Hammer",
-			fr: "Marteau Rageur",
-			es: "Martillo Furioso",
-			pt: "Martelo Feroz",
-			it: "Martelfuria",
-			de: "Wuthammer"
+			'en-us': "Raging Hammer",
+			'fr-fr': "Marteau Rageur",
+			'es-es': "Martillo Furioso",
+			'pt-br': "Martelo Feroz",
+			'it-it': "Martelfuria",
+			'de-de': "Wuthammer"
 		},
 
 		effect: {
-			en: "This attack does 10 more damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur ce Pokémon.",
-			es: "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon.",
-			it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte mehr zu."
+			'en-us': "This attack does 10 more damage for each damage counter on this Pokémon.",
+			'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur ce Pokémon.",
+			'es-es': "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
+			'pt-br': "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon.",
+			'it-it': "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+"

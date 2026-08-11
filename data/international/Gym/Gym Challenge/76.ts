@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Giovanni's Nidoran ♂"
+		'en-us': "Giovanni's Nidoran ♂"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -25,10 +25,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Kick"
+				'en-us': "Double Kick"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10x",
 
@@ -38,10 +38,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Retaliation"
+				'en-us': "Retaliation"
 			},
 			effect: {
-				en: "You can't use this attack unless Giovanni's Nidoran ♂ has 2 or more damage counters on it."
+				'en-us': "You can't use this attack unless Giovanni's Nidoran ♂ has 2 or more damage counters on it."
 			},
 			damage: 30,
 

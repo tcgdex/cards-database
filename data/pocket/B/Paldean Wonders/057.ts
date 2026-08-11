@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Annihilape",
-		fr: "Courrousinge",
-		de: "Epitaff",
-		it: "Annihilape",
-		es: "Annihilape",
-		pt: "Annihilape",
+		'en-us': "Annihilape",
+		'fr-fr': "Courrousinge",
+		'de-de': "Epitaff",
+		'it-it': "Annihilape",
+		'es-es': "Annihilape",
+		'pt-br': "Annihilape",
 		'es-mx': "Annihilape"
   },
   illustrator: "Anesaki Dynamic",
@@ -19,13 +19,13 @@ const card: Card = {
   types: ["Fighting"],
   dexId: [979],
   evolveFrom: {
-		en: "Primeape",
-		fr: "Colossinge",
-		es: "Primeape",
-		it: "Primeape",
-		de: "Rasaff",
+		'en-us': "Primeape",
+		'fr-fr': "Colossinge",
+		'es-es': "Primeape",
+		'it-it': "Primeape",
+		'de-de': "Rasaff",
 		'pt-br': "Primeape",
-		ko: "성원숭"
+		'ko-kr': "성원숭"
   },
   description: {
     en: "It imbues its fists with the power of the rage that it kept hidden in its heart. Opponents struck by these imbued fists will be shattered to their core.",

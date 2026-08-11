@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Golett",
-		fr: "Gringolem",
-		es: "Golett",
-		it: "Golett",
-		pt: "Golett",
-		de: "Golbit"
+		'en-us': "Golett",
+		'fr-fr': "Gringolem",
+		'es-es': "Golett",
+		'it-it': "Golett",
+		'pt-br': "Golett",
+		'de-de': "Golbit"
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Mud-Slap",
-			fr: "Coud'Boue",
-			es: "Bofetón Lodo",
-			it: "Fangosberla",
-			pt: "Tapa de Lama",
-			de: "Lehmschelle"
+			'en-us': "Mud-Slap",
+			'fr-fr': "Coud'Boue",
+			'es-es': "Bofetón Lodo",
+			'it-it': "Fangosberla",
+			'pt-br': "Tapa de Lama",
+			'de-de': "Lehmschelle"
 		},
 
 		damage: 10
@@ -38,12 +38,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Pound",
-			fr: "Écras'Face",
-			es: "Destructor",
-			it: "Botta",
-			pt: "Pancada",
-			de: "Klaps"
+			'en-us': "Pound",
+			'fr-fr': "Écras'Face",
+			'es-es': "Destructor",
+			'it-it': "Botta",
+			'pt-br': "Pancada",
+			'de-de': "Klaps"
 		},
 
 		damage: 20
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "They were sculpted from clay in ancient times. No one knows why, but some of them are driven to continually line up boulders.",
+		'en-us': "They were sculpted from clay in ancient times. No one knows why, but some of them are driven to continually line up boulders.",
 	},
 
 	variants: [

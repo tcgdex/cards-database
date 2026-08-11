@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Erika's Victreebel",
-		fr: "Empiflor d'Erika",
-		es: "Victreebel de Erika",
+		'en-us': "Erika's Victreebel",
+		'fr-fr': "Empiflor d'Erika",
+		'es-es': "Victreebel de Erika",
 		'es-mx': "Victreebel de Erika",
-		de: "Erikas Sarzenia",
-		it: "Victreebel di Erika",
-		pt: "Victreebel da Érica"
+		'de-de': "Erikas Sarzenia",
+		'it-it': "Victreebel di Erika",
+		'pt-br': "Victreebel da Érica"
 	},
 
 	evolveFrom: {
-		en: "Erika's Weepinbell",
-		fr: "Boustiflor d'Erika",
-		es: "Weepinbell de Erika",
+		'en-us': "Erika's Weepinbell",
+		'fr-fr': "Boustiflor d'Erika",
+		'es-es': "Weepinbell de Erika",
 		'es-mx': "Weepinbell de Erika",
-		de: "Erikas Ultrigaria",
-		it: "Weepinbell di Erika",
-		pt: "Weepinbell da Érica",
+		'de-de': "Erikas Ultrigaria",
+		'it-it': "Weepinbell di Erika",
+		'pt-br': "Weepinbell da Érica",
 	},
 
 	illustrator: "takashi shiraishi",
@@ -35,23 +35,23 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Flower Garden Rondo",
-			fr: "Rondo Jardin Fleuri",
-			es: "Rondó Jardín de Flores",
+			'en-us': "Flower Garden Rondo",
+			'fr-fr': "Rondo Jardin Fleuri",
+			'es-es': "Rondó Jardín de Flores",
 			'es-mx': "Rondó de Jardín Floral",
-			de: "Blumengartenrondo",
-			it: "Rondò Giardino Fiorito",
-			pt: "Cântico do Jardim Florido"
+			'de-de': "Blumengartenrondo",
+			'it-it': "Rondò Giardino Fiorito",
+			'pt-br': "Cântico do Jardim Florido"
 		},
 
 		effect: {
-			en: "This attack does 40 damage for each of your Erika's Pokémon in play.",
-			fr: "Cette attaque inflige 40 dégâts pour chacun de vos Pokémon d'Erika en jeu.",
-			es: "Este ataque hace 40 puntos de daño por cada uno de tus Pokémon de Erika en juego.",
+			'en-us': "This attack does 40 damage for each of your Erika's Pokémon in play.",
+			'fr-fr': "Cette attaque inflige 40 dégâts pour chacun de vos Pokémon d'Erika en jeu.",
+			'es-es': "Este ataque hace 40 puntos de daño por cada uno de tus Pokémon de Erika en juego.",
 			'es-mx': "Este ataque hace 40 puntos de daño por cada uno de tus Pokémon de Erika en juego.",
-			de: "Diese Attacke fügt für jedes deiner Erikas Pokémon im Spiel 40 Schadenspunkte zu.",
-			it: "Questo attacco infligge 40 danni per ciascuno dei tuoi Pokémon di Erika in gioco.",
-			pt: "Este ataque causa 40 pontos de dano para cada um dos seus Pokémon da Érica em jogo."
+			'de-de': "Diese Attacke fügt für jedes deiner Erikas Pokémon im Spiel 40 Schadenspunkte zu.",
+			'it-it': "Questo attacco infligge 40 danni per ciascuno dei tuoi Pokémon di Erika in gioco.",
+			'pt-br': "Este ataque causa 40 pontos de dano para cada um dos seus Pokémon da Érica em jogo."
 		},
 
 		damage: "40×"
@@ -59,13 +59,13 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			en: "Solar Beam",
-			fr: "Lance-Soleil",
-			es: "Rayo Solar",
+			'en-us': "Solar Beam",
+			'fr-fr': "Lance-Soleil",
+			'es-es': "Rayo Solar",
 			'es-mx': "Rayo Solar",
-			de: "Solarstrahl",
-			it: "Solarraggio",
-			pt: "Raio Solar"
+			'de-de': "Solarstrahl",
+			'it-it': "Solarraggio",
+			'pt-br': "Raio Solar"
 		},
 
 		damage: 130

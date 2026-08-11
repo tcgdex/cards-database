@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団のガルーラex",
+		'ja-jp': "ロケット団のガルーラex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを4回投げ、オモテの数×30ダメージ。",
+				'ja-jp': "コインを4回投げ、オモテの数×30ダメージ。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: "120+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "この番に、手札から、名前に「ロケット団」とつくサポートを出して使っていたなら、100ダメージ追加。",
+				'ja-jp': "この番に、手札から、名前に「ロケット団」とつくサポートを出して使っていたなら、100ダメージ追加。",
 			},
 		},
 	],

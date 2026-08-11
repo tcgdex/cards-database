@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Larvesta",
-		fr: "Pyronille",
-		es: "Larvesta",
-		de: "Ignivor",
-		it: "Larvesta",
-		pt: "Larvesta",
+		'en-us': "Larvesta",
+		'fr-fr': "Pyronille",
+		'es-es': "Larvesta",
+		'de-de': "Ignivor",
+		'it-it': "Larvesta",
+		'pt-br': "Larvesta",
 		'es-mx': "Larvesta"
 	},
 
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Will-O-Wisp",
-			fr: "Feu Follet",
-			es: "Fuego Fatuo",
-			de: "Irrlicht",
-			it: "Fuocofatuo",
-			pt: "Fogo Fátuo",
+			'en-us': "Will-O-Wisp",
+			'fr-fr': "Feu Follet",
+			'es-es': "Fuego Fatuo",
+			'de-de': "Irrlicht",
+			'it-it': "Fuocofatuo",
+			'pt-br': "Fogo Fátuo",
 			'es-mx': "Fuego Fatuo"
 		},
 

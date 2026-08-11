@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Steelix",
-		fr: "Steelix",
-		de: "Stahlos"
+		'en-us': "Steelix",
+		'fr-fr': "Steelix",
+		'de-de': "Stahlos"
 	},
 
 	illustrator: "Wataru Kawahara",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Onix",
-		fr: "Onix"
+		'en-us': "Onix",
+		'fr-fr': "Onix"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Perfect Metal",
-				fr: "Métal parfait",
-				de: "Perfektes Metall"
+				'en-us': "Perfect Metal",
+				'fr-fr': "Métal parfait",
+				'de-de': "Perfektes Metall"
 			},
 			effect: {
-				en: "Steelix can't be affected by any Special Conditions",
-				fr: "Steelix ne peut pas être affecté par les États Spéciaux.",
-				de: "Stahlos kann nicht von Speziellen Zuständen betroffen werden."
+				'en-us': "Steelix can't be affected by any Special Conditions",
+				'fr-fr': "Steelix ne peut pas être affecté par les États Spéciaux.",
+				'de-de': "Stahlos kann nicht von Speziellen Zuständen betroffen werden."
 			}
 		},
 	],
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Stream",
-				fr: "Courant d’énergie",
-				de: "Energiestrom"
+				'en-us': "Energy Stream",
+				'fr-fr': "Courant d’énergie",
+				'de-de': "Energiestrom"
 			},
 			effect: {
-				en: "Search your discard pile for an Energy card and attach it to Steelix.",
-				fr: "Cherchez une carte Énergie dans votre pile de défausse et attachez-la à Steelix.",
-				de: "Durchsuche deinen Ablagestapel nach 1 Energiekarte und lege sie an Stahlos an."
+				'en-us': "Search your discard pile for an Energy card and attach it to Steelix.",
+				'fr-fr': "Cherchez une carte Énergie dans votre pile de défausse et attachez-la à Steelix.",
+				'de-de': "Durchsuche deinen Ablagestapel nach 1 Energiekarte und lege sie an Stahlos an."
 			},
 			damage: 30,
 
@@ -72,14 +72,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gaia Crush",
-				fr: "Anéantissement de Gaïa",
-				de: "Gaia-Zermalmer"
+				'en-us': "Gaia Crush",
+				'fr-fr': "Anéantissement de Gaïa",
+				'de-de': "Gaia-Zermalmer"
 			},
 			effect: {
-				en: "You may discard any Stadium card in play.",
-				fr: "Vous pouvez défausser n’importe quelle carte Stade en jeu.",
-				de: "Du kannst eine beliebige Stadion-Karte aus dem Spiel auf den Ablagestapel legen."
+				'en-us': "You may discard any Stadium card in play.",
+				'fr-fr': "Vous pouvez défausser n’importe quelle carte Stade en jeu.",
+				'de-de': "Du kannst eine beliebige Stadion-Karte aus dem Spiel auf den Ablagestapel legen."
 			},
 			damage: 100,
 

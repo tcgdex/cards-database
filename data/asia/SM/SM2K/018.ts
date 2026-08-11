@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バニリッチ",
+		'ja-jp': "バニリッチ",
 	},
 
 	illustrator: "Naoki Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "暑い 日には 身体が 溶ける。 凍らせれば 元に 戻るけど 身体の 形は 少し 歪む。",
+		'ja-jp': "暑い 日には 身体が 溶ける。 凍らせれば 元に 戻るけど 身体の 形は 少し 歪む。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Water"],
 			effect: {
-				ja: "相手のバトルポケモンが[闘]ポケモンなら、30ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが[闘]ポケモンなら、30ダメージ追加。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "バニプッチ",
+		'ja-jp': "バニプッチ",
 	},
 
 	retreat: 2,

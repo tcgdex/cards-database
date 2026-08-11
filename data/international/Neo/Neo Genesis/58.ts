@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Girafarig",
-		fr: "Girafarig",
-		de: "Girafarig"
+		'en-us': "Girafarig",
+		'fr-fr': "Girafarig",
+		'de-de': "Girafarig"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Agility",
-				fr: "Hâte",
-				de: "Agility"
+				'en-us': "Agility",
+				'fr-fr': "Hâte",
+				'de-de': "Agility"
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Girafarig.",
-				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Girafarig.",
-				de: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Girafarig."
+				'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Girafarig.",
+				'fr-fr': "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Girafarig.",
+				'de-de': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Girafarig."
 			},
 			damage: 10,
 
@@ -50,14 +50,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psybeam",
-				fr: "Rafale psy",
-				de: "Psybeam"
+				'en-us': "Psybeam",
+				'fr-fr': "Rafale psy",
+				'de-de': "Psybeam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 20,
 
@@ -67,8 +67,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent and bite.",
-		fr: "Sa queue possède son propre cerveau. Prenez garde ! Si vous vous approchez, elle peut réagir à votre odeur et vous mordre."
+		'en-us': "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent and bite.",
+		'fr-fr': "Sa queue possède son propre cerveau. Prenez garde ! Si vous vous approchez, elle peut réagir à votre odeur et vous mordre."
 	},
 
 

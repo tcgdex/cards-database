@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Venusaur",
-		fr: "Florizarre",
-		de: "Bisaflor"
+		'en-us': "Venusaur",
+		'fr-fr': "Florizarre",
+		'de-de': "Bisaflor"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ivysaur",
-		fr: "Herbizarre"
+		'en-us': "Ivysaur",
+		'fr-fr': "Herbizarre"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Chlorophyll",
-				fr: "Chlorophyle",
-				de: "Chlorophyll"
+				'en-us': "Chlorophyll",
+				'fr-fr': "Chlorophyle",
+				'de-de': "Chlorophyll"
 			},
 			effect: {
-				en: "All Energy cards that provide only Colorless Energy attached to your Grass Pokémon provide Grass Energy instead.",
-				fr: "Toutes les cartes Énergie fournissant uniquement de l'Énergie  attachées à vos Pokémon  fournissent de l'Énergie .",
-				de: "Alle Energiekarten, die nur -Energie liefern und an deine Pokémon vom Typ  angelegt sind, liefern stattdessen -Energie."
+				'en-us': "All Energy cards that provide only Colorless Energy attached to your Grass Pokémon provide Grass Energy instead.",
+				'fr-fr': "Toutes les cartes Énergie fournissant uniquement de l'Énergie  attachées à vos Pokémon  fournissent de l'Énergie .",
+				'de-de': "Alle Energiekarten, die nur -Energie liefern und an deine Pokémon vom Typ  angelegt sind, liefern stattdessen -Energie."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Green Blast",
-				fr: "Explosion verte",
-				de: "Naturstoß"
+				'en-us': "Green Blast",
+				'fr-fr': "Explosion verte",
+				'de-de': "Naturstoß"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each Grass Energy attached to all of your Pokémon.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à tous vos Pokémon.",
-				de: "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede an deine Pokémon angelegte -Energie zu."
+				'en-us': "Does 20 damage plus 10 more damage for each Grass Energy attached to all of your Pokémon.",
+				'fr-fr': "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à tous vos Pokémon.",
+				'de-de': "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede an deine Pokémon angelegte -Energie zu."
 			},
 			damage: "20+",
 
@@ -72,14 +72,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Toxic Sleep",
-				fr: "Dodo toxik",
-				de: "Toxischer Schlaf"
+				'en-us': "Toxic Sleep",
+				'fr-fr': "Dodo toxik",
+				'de-de': "Toxischer Schlaf"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep and Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi et Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours.",
-				de: "Das Verteidigende Pokémon schläft jetzt und ist vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf das Verteidigende Pokémon."
+				'en-us': "The Defending Pokémon is now Asleep and Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi et Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt und ist vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf das Verteidigende Pokémon."
 			},
 
 		},

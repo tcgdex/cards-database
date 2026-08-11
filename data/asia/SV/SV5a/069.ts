@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コータス"
+		'ja-jp': "コータス"
 	},
 
 	illustrator: "Masa",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "石炭が エネルギーの 源。 コータスの 棲んでいる 山には 多くの 石炭が 眠っている。"
+		'ja-jp': "石炭が エネルギーの 源。 コータスの 棲んでいる 山には 多くの 石炭が 眠っている。"
 	},
 
 	stage: "Basic",
@@ -24,25 +24,25 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			ja: "こうらでぶつかる"
+			'ja-jp': "こうらでぶつかる"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。"
+			'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。"
 		}
 	}, {
 		cost: ["Fire", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ほのおのうず"
+			'ja-jp': "ほのおのうず"
 		},
 
 		damage: 110,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを2個選び、トラッシュする。"
+			'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。"
 		}
 	}],
 

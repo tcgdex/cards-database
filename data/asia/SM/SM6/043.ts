@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カメテテ",
+		'ja-jp': "カメテテ",
 	},
 
 	illustrator: "Yuka Morii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "体を 伸ばす 反動で 岩を 持ち上げて 歩く。 波打ち際で 流されてきた 海藻を 食べる。",
+		'ja-jp': "体を 伸ばす 反動で 岩を 持ち上げて 歩く。 波打ち際で 流されてきた 海藻を 食べる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Fighting"],
 			effect: {
-				ja: "自分の山札を1枚引く。",
+				'ja-jp': "自分の山札を1枚引く。",
 			},
 		},
 	],

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rellor",
-		fr: "Léboulérou",
-		es: "Rellor",
-		it: "Rellor",
-		pt: "Rellor",
-		de: "Relluk"
+		'en-us': "Rellor",
+		'fr-fr': "Léboulérou",
+		'es-es': "Rellor",
+		'it-it': "Rellor",
+		'pt-br': "Rellor",
+		'de-de': "Relluk"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			es: "Coleccionar",
-			it: "Tassa",
-			pt: "Coleta",
-			de: "Sammeln"
+			'en-us': "Collect",
+			'fr-fr': "Collecte",
+			'es-es': "Coleccionar",
+			'it-it': "Tassa",
+			'pt-br': "Coleta",
+			'de-de': "Sammeln"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			es: "Roba 1 carta.",
-			it: "Pesca una carta.",
-			pt: "Compre uma carta.",
-			de: "Ziehe 1 Karte."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'es-es': "Roba 1 carta.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre uma carta.",
+			'de-de': "Ziehe 1 Karte."
 		}
 	}, {
 		cost: ["Grass"],
 
 		name: {
-			en: "Rollout",
-			fr: "Roulade",
-			es: "Rodar",
-			it: "Rotolamento",
-			pt: "Rolagem",
-			de: "Walzer"
+			'en-us': "Rollout",
+			'fr-fr': "Roulade",
+			'es-es': "Rodar",
+			'it-it': "Rotolamento",
+			'pt-br': "Rolagem",
+			'de-de': "Walzer"
 		},
 
 		damage: 10

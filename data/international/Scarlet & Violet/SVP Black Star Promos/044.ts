@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charmander",
-		fr: "Salamèche",
-		es: "Charmander",
-		it: "Charmander",
-		pt: "Charmander",
-		de: "Glumanda"
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche",
+		'es-es': "Charmander",
+		'it-it': "Charmander",
+		'pt-br': "Charmander",
+		'de-de': "Glumanda"
 	},
 
 	rarity: "Promo",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Heat Tackle",
-			fr: "Charge Énergétique",
-			es: "Placaje Ardiente",
-			it: "Calorazione",
-			pt: "Golpe de Colisão Aquecido",
-			de: "Hitze-Tackle"
+			'en-us': "Heat Tackle",
+			'fr-fr': "Charge Énergétique",
+			'es-es': "Placaje Ardiente",
+			'it-it': "Calorazione",
+			'pt-br': "Golpe de Colisão Aquecido",
+			'de-de': "Hitze-Tackle"
 		},
 
 		effect: {
-			en: "This Pokémon also does 10 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
-			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 10 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 10 dégâts.",
+			'es-es': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 10 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
 		},
 
 		damage: 30
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "MINAMINAMI Take",
 	description: {
-		en: "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
+		'en-us': "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
 	},
 	variants: [
 		{

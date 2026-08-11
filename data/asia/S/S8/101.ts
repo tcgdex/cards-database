@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アマージョV",
+		'ja-jp': "アマージョV",
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "自分のベンチポケモンを好きなだけトラッシュし、トラッシュしたベンチポケモンの数×40ダメージ追加。",
+				'ja-jp': "自分のベンチポケモンを好きなだけトラッシュし、トラッシュしたベンチポケモンの数×40ダメージ追加。",
 			},
 		},
 	],

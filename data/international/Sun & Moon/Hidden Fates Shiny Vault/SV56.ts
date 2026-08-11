@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Greninja-GX",
-		fr: "Amphinobi-GX",
+		'en-us': "Greninja-GX",
+		'fr-fr': "Amphinobi-GX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Shiny rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Water",
 	],
 	evolveFrom: {
-		en: "Frogadier",
-		fr: "Croâporal",
+		'en-us': "Frogadier",
+		'fr-fr': "Croâporal",
 	},
 
 	suffix: "GX",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Shuriken Flurry",
-				fr: "Rafale de Shuriken",
+				'en-us': "Shuriken Flurry",
+				'fr-fr': "Rafale de Shuriken",
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may put 3 damage counters on 1 of your opponent's Pokémon.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon pendant votre tour, vous pouvez placer 3 marqueurs de dégâts sur l’un des Pokémon de votre adversaire.",
+				'en-us': "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may put 3 damage counters on 1 of your opponent's Pokémon.",
+				'fr-fr': "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon pendant votre tour, vous pouvez placer 3 marqueurs de dégâts sur l’un des Pokémon de votre adversaire.",
 			},
 		},
 	],
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Haze Slash",
-				fr: "Brouillard Lacérant",
+				'en-us': "Haze Slash",
+				'fr-fr': "Brouillard Lacérant",
 			},
 			effect: {
-				en: "You may shuffle this Pokémon and all cards attached to it into your deck.",
-				fr: "Vous pouvez mélanger ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck.",
+				'en-us': "You may shuffle this Pokémon and all cards attached to it into your deck.",
+				'fr-fr': "Vous pouvez mélanger ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck.",
 			},
 			damage: 110,
 
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shadowy Hunter-GX",
-				fr: "Chasseur Tapi-GX",
+				'en-us': "Shadowy Hunter-GX",
+				'fr-fr': "Chasseur Tapi-GX",
 			},
 			effect: {
-				en: "This attack does 130 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) (You can't use more than 1 GX attack in a game.)",
-				fr: "Cette attaque inflige 130 dégâts à l’un des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.) (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'en-us': "This attack does 130 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) (You can't use more than 1 GX attack in a game.)",
+				'fr-fr': "Cette attaque inflige 130 dégâts à l’un des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.) (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 
 		},

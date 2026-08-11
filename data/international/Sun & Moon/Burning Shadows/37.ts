@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Simipour",
-		fr: "Flotoutan",
-		es: "Simipour",
-		it: "Simipour",
-		pt: "Simipour",
-		de: "Sodachita"
+		'en-us': "Simipour",
+		'fr-fr': "Flotoutan",
+		'es-es': "Simipour",
+		'it-it': "Simipour",
+		'pt-br': "Simipour",
+		'de-de': "Sodachita"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Panpour",
-		fr: "Flotajou",
+		'en-us': "Panpour",
+		'fr-fr': "Flotajou",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				es: "Arañazo",
-				it: "Graffio",
-				pt: "Arranhão",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'es-es': "Arañazo",
+				'it-it': "Graffio",
+				'pt-br': "Arranhão",
+				'de-de': "Kratzer"
 			},
 
 			damage: 30,
@@ -56,20 +56,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Reflect",
-				fr: "Reflet Aquatique",
-				es: "Reflejo Agua",
-				it: "Acquaspecchio",
-				pt: "Água Refletora",
-				de: "Aquareflektor"
+				'en-us': "Aqua Reflect",
+				'fr-fr': "Reflet Aquatique",
+				'es-es': "Reflejo Agua",
+				'it-it': "Acquaspecchio",
+				'pt-br': "Água Refletora",
+				'de-de': "Aquareflektor"
 			},
 			effect: {
-				en: "Move a Water Energy from this Pokémon to 1 of your Benched Pokémon.",
-				fr: "Déplacez une Énergie Water de ce Pokémon vers l’un de vos Pokémon de Banc.",
-				es: "Mueve 1 Energía Water de este Pokémon a 1 de tus Pokémon en Banca.",
-				it: "Sposta un’Energia Water da questo Pokémon a uno di quelli nella tua panchina.",
-				pt: "Mova 1 Energia Water deste Pokémon para 1 dos seus Pokémon no Banco.",
-				de: "Verschiebe 1 Water-Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
+				'en-us': "Move a Water Energy from this Pokémon to 1 of your Benched Pokémon.",
+				'fr-fr': "Déplacez une Énergie Water de ce Pokémon vers l’un de vos Pokémon de Banc.",
+				'es-es': "Mueve 1 Energía Water de este Pokémon a 1 de tus Pokémon en Banca.",
+				'it-it': "Sposta un’Energia Water da questo Pokémon a uno di quelli nella tua panchina.",
+				'pt-br': "Mova 1 Energia Water deste Pokémon para 1 dos seus Pokémon no Banco.",
+				'de-de': "Verschiebe 1 Water-Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
 			},
 			damage: 50,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The high-pressure water expelled from its tail is so powerful, it can destroy a concrete wall.",
+		'en-us': "The high-pressure water expelled from its tail is so powerful, it can destroy a concrete wall.",
 	},
 
 	thirdParty: {

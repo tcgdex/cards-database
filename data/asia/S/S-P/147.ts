@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カナザワのピカチュウ",
+		'ja-jp': "カナザワのピカチュウ",
 		'zh-tw': "先機球",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "つくる 電気が 強力な ピカチュウほど ほっぺの 袋は 軟らかく よく 伸びるぞ。",
+		'ja-jp': "つくる 電気が 強力な ピカチュウほど ほっぺの 袋は 軟らかく よく 伸びるぞ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			name: { ja: "ニューオープン" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "おたがいのプレイヤーは、それぞれ自分の山札を上から1枚オモテにして、相手に見せて、手札に加える。",
+				'ja-jp': "おたがいのプレイヤーは、それぞれ自分の山札を上から1枚オモテにして、相手に見せて、手札に加える。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、30ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、30ダメージ追加。",
 			},
 		},
 	],

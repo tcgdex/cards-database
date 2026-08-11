@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Frillish",
-		fr: "Viskuse",
-		es: "Frillish",
-		it: "Frillish",
-		pt: "Frillish",
-		de: "Quabbel"
+		'en-us': "Frillish",
+		'fr-fr': "Viskuse",
+		'es-es': "Frillish",
+		'it-it': "Frillish",
+		'pt-br': "Frillish",
+		'de-de': "Quabbel"
 	},
 
 	illustrator: "Akira Komayama",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Absorb",
-				fr: "Vol-Vie",
+				'en-us': "Absorb",
+				'fr-fr': "Vol-Vie",
 			},
 			effect: {
-				en: "Heal 10 damage from this Pokémon.",
-				fr: "Soignez 10 dégâts à ce Pokémon.",
+				'en-us': "Heal 10 damage from this Pokémon.",
+				'fr-fr': "Soignez 10 dégâts à ce Pokémon.",
 			},
 			damage: 10,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "If its veil-like arms stun and wrap a foe, that foe will be dragged miles below the surface, never to return.",
+		'en-us': "If its veil-like arms stun and wrap a foe, that foe will be dragged miles below the surface, never to return.",
 	},
 
 	thirdParty: {

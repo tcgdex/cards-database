@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イワーク",
+		'ja-jp': "イワーク",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "ロックスロー",
+				'ja-jp': "ロックスロー",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fighting", "Fighting"],
 			name: {
-				ja: "硬化します",
+				'ja-jp': "硬化します",
 			},
 			effect: {
-				ja: "対戦相手の次のターン中に、Onixに30以下の損傷が発生した場合（脱力感と抵抗を適用した後）、そのダメージを防ぎます。 （攻撃の他の影響はまだ発生しています。）",
+				'ja-jp': "対戦相手の次のターン中に、Onixに30以下の損傷が発生した場合（脱力感と抵抗を適用した後）、そのダメージを防ぎます。 （攻撃の他の影響はまだ発生しています。）",
 			},
 
 		},

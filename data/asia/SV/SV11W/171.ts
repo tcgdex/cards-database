@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サザンドラex",
+		'ja-jp': "サザンドラex",
 	},
 
 	illustrator: "Takumi Wada",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "グリードイーター" },
 			effect: {
-				ja: "このポケモンが使うワザのダメージで、相手のたねポケモンがきぜつしたなら、サイドを1枚多くとる。",
+				'ja-jp': "このポケモンが使うワザのダメージで、相手のたねポケモンがきぜつしたなら、サイドを1枚多くとる。",
 			},
 		},
 	],
@@ -36,7 +36,7 @@ const card: Card = {
 				"Colorless",
 			],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 	],
@@ -44,7 +44,7 @@ const card: Card = {
 	weaknesses: [{ type: "Grass", value: "x2" }],
 
 	evolveFrom: {
-		ja: "ジヘッド",
+		'ja-jp': "ジヘッド",
 	},
 
 	variants: [

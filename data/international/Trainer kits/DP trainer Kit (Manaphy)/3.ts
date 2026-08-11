@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../DP trainer Kit (Manaphy)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Goldeen",
-		fr: "Poissirène"
+		'en-us': "Goldeen",
+		'fr-fr': "Poissirène"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,8 +27,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Attack",
-				fr: "Koud'korne"
+				'en-us': "Horn Attack",
+				'fr-fr': "Koud'korne"
 			},
 			damage: 10
 		},
@@ -38,12 +38,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier"
 			},
 			effect: {
-				en: "Goldeen does 10 damage to itself.",
-				fr: "Poissirène s'inflige 10 dégâts."
+				'en-us': "Goldeen does 10 damage to itself.",
+				'fr-fr': "Poissirène s'inflige 10 dégâts."
 			},
 			damage: 30
 		}
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It swims elegantly by flittering its tail fin as if it were a dress. It has the look of a queen."
+		'en-us': "It swims elegantly by flittering its tail fin as if it were a dress. It has the look of a queen."
 	},
 
 	retreat: 1,

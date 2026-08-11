@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キマワリ",
+		'ja-jp': "キマワリ",
 	},
 
 	illustrator: "Yumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "暑い 季節が 近づくと 顔の 花びらは 鮮やかになり 活発に 動くようになる。",
+		'ja-jp': "暑い 季節が 近づくと 顔の 花びらは 鮮やかになり 活発に 動くようになる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "サンパワー" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、[草]または[炎]ポケモンが使うワザに必要なエネルギーは、すべてなくなる。（新しく出したポケモンも含む。）",
+				'ja-jp': "次の自分の番、[草]または[炎]ポケモンが使うワザに必要なエネルギーは、すべてなくなる。（新しく出したポケモンも含む。）",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒマナッツ",
+		'ja-jp': "ヒマナッツ",
 	},
 
 	retreat: 1,

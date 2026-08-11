@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニャスパー",
+		'ja-jp': "ニャスパー",
 		'zh-tw': "妙喵",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "いつも 無表情だが じつは 強力な サイコパワーが 漏れ出さないように 必死なのだ。",
+		'ja-jp': "いつも 無表情だが じつは 強力な サイコパワーが 漏れ出さないように 必死なのだ。",
 		'zh-tw': "雖然一直都面無表情，但是那其實是因為牠在努力不讓自己強大的精神力量漏出。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "つぶやく",
+				'ja-jp': "つぶやく",
 				'zh-tw': "囈語",
 			},
 			damage: 10,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ひっぱたく",
+				'ja-jp': "ひっぱたく",
 				'zh-tw': "重摑",
 			},
 			damage: 20,

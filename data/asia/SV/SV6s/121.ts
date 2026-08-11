@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Lairon"
+		'id-id': "Lairon"
 	},
 
 	illustrator: "takashi shiraishi",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Gunung yang ditinggali Lairon kaya dengan mata air dan bijih besi sehingga sering terjadi perselisihan dengan manusia."
+		'id-id': "Gunung yang ditinggali Lairon kaya dengan mata air dan bijih besi sehingga sering terjadi perselisihan dengan manusia."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Serudukan Baja"
+			'id-id': "Serudukan Baja"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 20."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 20."
 		},
 
 		damage: 40,
 		cost: ["Metal"]
 	}, {
 		name: {
-			id: "Metal Claw"
+			'id-id': "Metal Claw"
 		},
 
 		damage: 60,

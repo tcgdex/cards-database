@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Flaaffy",
-		fr: "Lainergie",
-		de: "Waaty"
+		'en-us': "Flaaffy",
+		'fr-fr': "Lainergie",
+		'de-de': "Waaty"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mareep",
-		fr: "Wattouat"
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Energy Recall",
-				fr: "Rappel d'énergie",
-				de: "Energierückgewinnung"
+				'en-us': "Energy Recall",
+				'fr-fr': "Rappel d'énergie",
+				'de-de': "Energierückgewinnung"
 			},
 			effect: {
-				en: "Attach up to 2 basic Energy cards from your discard pile to Flaaffy.",
-				fr: "Attachez à Lainergie jusqu'à deux cartes Énergie de base de votre pile de défausse.",
-				de: "Lege bis zu 2 Basis-Energiekarten aus deinem Ablagestapel an Waaty an."
+				'en-us': "Attach up to 2 basic Energy cards from your discard pile to Flaaffy.",
+				'fr-fr': "Attachez à Lainergie jusqu'à deux cartes Énergie de base de votre pile de défausse.",
+				'de-de': "Lege bis zu 2 Basis-Energiekarten aus deinem Ablagestapel an Waaty an."
 			},
 
 		},
@@ -51,9 +51,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lightning Ball",
-				fr: "Boule éclair",
-				de: "Kugelblitz"
+				'en-us': "Lightning Ball",
+				'fr-fr': "Boule éclair",
+				'de-de': "Kugelblitz"
 			},
 
 			damage: 30,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Crocogril",
-		en: "Crocalor",
-		es: "Crocalor",
-		it: "Crocalor",
-		pt: "Crocalor",
-		de: "Lokroko"
+		'fr-fr': "Crocogril",
+		'en-us': "Crocalor",
+		'es-es': "Crocalor",
+		'it-it': "Crocalor",
+		'pt-br': "Crocalor",
+		'de-de': "Lokroko"
 	},
 
 	rarity: "Illustration rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Fire"],
 	evolveFrom: {
-		fr: "Chochodile",
-		en: "Fuecoco",
-		es: "Fuecoco",
-		it: "Fuecoco",
-		pt: "Fuecoco",
-		de: "Krokel"
+		'fr-fr': "Chochodile",
+		'en-us': "Fuecoco",
+		'es-es': "Fuecoco",
+		'it-it': "Fuecoco",
+		'pt-br': "Fuecoco",
+		'de-de': "Krokel"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			fr: "Crachage de Feu Régulier",
-			en: "Steady Firebreathing",
-			es: "Lanzallamas Continuo",
-			it: "Soffiofuoco Mirato",
-			pt: "Hálito de Fogo Constante",
-			de: "Stetiger Feuerhauch"
+			'fr-fr': "Crachage de Feu Régulier",
+			'en-us': "Steady Firebreathing",
+			'es-es': "Lanzallamas Continuo",
+			'it-it': "Soffiofuoco Mirato",
+			'pt-br': "Hálito de Fogo Constante",
+			'de-de': "Stetiger Feuerhauch"
 		},
 
 		damage: 30
@@ -45,12 +45,12 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			fr: "Mégaphone",
-			en: "Hyper Voice",
-			es: "Vozarrón",
-			it: "Granvoce",
-			pt: "Hipervoz",
-			de: "Schallwelle"
+			'fr-fr': "Mégaphone",
+			'en-us': "Hyper Voice",
+			'es-es': "Vozarrón",
+			'it-it': "Granvoce",
+			'pt-br': "Hipervoz",
+			'de-de': "Schallwelle"
 		},
 
 		damage: 70
@@ -79,7 +79,7 @@ const card: Card = {
 	illustrator: "kantaro",
 
 	description: {
-		en: "The combination of Crocalor's fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pokémon's head.",
+		'en-us': "The combination of Crocalor's fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pokémon's head.",
 	},
 }
 

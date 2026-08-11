@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Darkrai & Cresselia LEGEND",
-		fr: "Darkrai & Cresselia LÉGENDE",
-		de: "Darkrai & Cresselia LEGENDE"
+		'en-us': "Darkrai & Cresselia LEGEND",
+		'fr-fr': "Darkrai & Cresselia LÉGENDE",
+		'de-de': "Darkrai & Cresselia LEGENDE"
 	},
 
 	illustrator: "Shinji Higuchi + Noriko Takaya",
@@ -25,28 +25,28 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Lost Crisis",
-			fr: "",
-			de: "Nirgendwo-Krise"
+			'en-us': "Lost Crisis",
+			'fr-fr': "",
+			'de-de': "Nirgendwo-Krise"
 		},
 
 		effect: {
-			en: "Choose 2 Energy attached to Darkrai & Cresselia LEGEND and put them in the Lost Zone. If any of your opponent's Pokémon would be Knocked Out by damage from this attack, put that Pokémon and all cards attached to it in the Lost Zone instead of discarding it.",
-			fr: "Placez cette carte sur votre Banc uniquement avec l’autre moitié de Darkrai & Cresselia LÉGENDE.",
-			de: "Wähle 2 an Darkrai- & Cresselia-LEGENDE angelegte Energiekarten und lege sie ins Nirgendwo. Wenn ein Pokémon deines Gegners durch diesen Angriff kampfunfähig würde, lege dieses Pokémon und alle daran angelegten Karten nicht auf den Ablagestapel, sondern ins Nirgendwo."
+			'en-us': "Choose 2 Energy attached to Darkrai & Cresselia LEGEND and put them in the Lost Zone. If any of your opponent's Pokémon would be Knocked Out by damage from this attack, put that Pokémon and all cards attached to it in the Lost Zone instead of discarding it.",
+			'fr-fr': "Placez cette carte sur votre Banc uniquement avec l’autre moitié de Darkrai & Cresselia LÉGENDE.",
+			'de-de': "Wähle 2 an Darkrai- & Cresselia-LEGENDE angelegte Energiekarten und lege sie ins Nirgendwo. Wenn ein Pokémon deines Gegners durch diesen Angriff kampfunfähig würde, lege dieses Pokémon und alle daran angelegten Karten nicht auf den Ablagestapel, sondern ins Nirgendwo."
 		},
 
 		damage: 100,
 		cost: ["Darkness", "Darkness", "Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Moon's Invite",
-			de: "Mondeinladung"
+			'en-us': "Moon's Invite",
+			'de-de': "Mondeinladung"
 		},
 
 		effect: {
-			en: "Move as many damage counters on your opponent's Pokémon as you like to any of your opponent's other Pokémon in any way you like.",
-			de: "Verschiebe beliebig viele Schadensmarken von Pokémon deines Gegners in beliebiger Verteilung auf andere gegnerische Pokémon."
+			'en-us': "Move as many damage counters on your opponent's Pokémon as you like to any of your opponent's other Pokémon in any way you like.",
+			'de-de': "Verschiebe beliebig viele Schadensmarken von Pokémon deines Gegners in beliebiger Verteilung auf andere gegnerische Pokémon."
 		},
 
 		cost: ["Psychic"]
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 2,
 
 	effect: {
-		en: "[2DD] Lost Crisis (100) Choose 2 Energy attached to Darkrai and Cresselia LEGEND and put them in the Lost Zone. If any of your opponent’s Pokémon would be Knocked Out by damage from the attack, put that Pokémon and all cards attached to it in the Lost Zone instead of discarding it."
+		'en-us': "[2DD] Lost Crisis (100) Choose 2 Energy attached to Darkrai and Cresselia LEGEND and put them in the Lost Zone. If any of your opponent’s Pokémon would be Knocked Out by damage from the attack, put that Pokémon and all cards attached to it in the Lost Zone instead of discarding it."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フシギダネ",
+		'ja-jp': "フシギダネ",
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "生まれて しばらくの あいだ 背中の タネに 詰まった 栄養を 取って 育つ。",
+		'ja-jp': "生まれて しばらくの あいだ 背中の タネに 詰まった 栄養を 取って 育つ。",
 	},
 
 	stage: "Basic",

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Meloetta",
-		fr: "Meloetta",
-		es: "Meloetta",
+		'en-us': "Meloetta",
+		'fr-fr': "Meloetta",
+		'es-es': "Meloetta",
 		'es-mx': "Meloetta",
-		de: "Meloetta",
-		it: "Meloetta",
-		pt: "Meloetta"
+		'de-de': "Meloetta",
+		'it-it': "Meloetta",
+		'pt-br': "Meloetta"
 	},
 
 	rarity: "Uncommon",
@@ -26,35 +26,35 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Soothing Melody",
-			fr: "Mélodie Relaxante",
-			es: "Melodía Bálsamo",
+			'en-us': "Soothing Melody",
+			'fr-fr': "Mélodie Relaxante",
+			'es-es': "Melodía Bálsamo",
 			'es-mx': "Melodía Apaciguadora",
-			de: "Beruhigende Melodie",
-			it: "Melodia Calmante",
-			pt: "Melodia Salutífera"
+			'de-de': "Beruhigende Melodie",
+			'it-it': "Melodia Calmante",
+			'pt-br': "Melodia Salutífera"
 		},
 
 		effect: {
-			en: "Heal 120 damage from 1 of your Benched {P} Pokémon.",
-			fr: "Soignez 120 dégâts de l'un de vos Pokémon {P} de Banc.",
-			es: "Cura 120 puntos de daño a uno de tus Pokémon {P} en Banca.",
+			'en-us': "Heal 120 damage from 1 of your Benched {P} Pokémon.",
+			'fr-fr': "Soignez 120 dégâts de l'un de vos Pokémon {P} de Banc.",
+			'es-es': "Cura 120 puntos de daño a uno de tus Pokémon {P} en Banca.",
 			'es-mx': "Cura 120 puntos de daño a 1 de tus Pokémon {P} en Banca.",
-			de: "Heile 120 Schadenspunkte bei 1 {P}-Pokémon auf deiner Bank.",
-			it: "Cura uno dei Pokémon {P} nella tua panchina da 120 danni.",
-			pt: "Cure 120 pontos de dano de 1 dos seus Pokémon {P} no Banco."
+			'de-de': "Heile 120 Schadenspunkte bei 1 {P}-Pokémon auf deiner Bank.",
+			'it-it': "Cura uno dei Pokémon {P} nella tua panchina da 120 danni.",
+			'pt-br': "Cure 120 pontos de dano de 1 dos seus Pokémon {P} no Banco."
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Magical Shot",
-			fr: "Coup Magique",
-			es: "Disparo Mágico",
+			'en-us': "Magical Shot",
+			'fr-fr': "Coup Magique",
+			'es-es': "Disparo Mágico",
 			'es-mx': "Disparo Mágico",
-			de: "Magischer Schuss",
-			it: "Magicolpo",
-			pt: "Tiro Mágico"
+			'de-de': "Magischer Schuss",
+			'it-it': "Magicolpo",
+			'pt-br': "Tiro Mágico"
 		},
 
 		damage: 50
@@ -76,7 +76,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.",
+		'en-us': "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.",
 	},
 
 	illustrator: "MINAMINAMI Take",

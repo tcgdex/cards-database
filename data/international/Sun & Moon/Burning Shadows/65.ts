@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Rhyhorn",
-		fr: "Rhinocorne",
-		es: "Rhyhorn",
-		it: "Rhyhorn",
-		pt: "Rhyhorn",
-		de: "Rihorn"
+		'en-us': "Rhyhorn",
+		'fr-fr': "Rhinocorne",
+		'es-es': "Rhyhorn",
+		'it-it': "Rhyhorn",
+		'pt-br': "Rhyhorn",
+		'de-de': "Rihorn"
 	},
 
 	illustrator: "miki kudo",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lunge Out",
-				fr: "Allonger",
-				es: "Arremeter",
-				it: "Affondo Lungo",
-				pt: "Bote",
-				de: "Sprungangriff"
+				'en-us': "Lunge Out",
+				'fr-fr': "Allonger",
+				'es-es': "Arremeter",
+				'it-it': "Affondo Lungo",
+				'pt-br': "Bote",
+				'de-de': "Sprungangriff"
 			},
 
 			damage: 20,
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Drill",
-				fr: "Empal’Korne",
-				es: "Perforador",
-				it: "Perforcorno",
-				pt: "Chifre Broca",
-				de: "Hornbohrer"
+				'en-us': "Horn Drill",
+				'fr-fr': "Empal’Korne",
+				'es-es': "Perforador",
+				'it-it': "Perforcorno",
+				'pt-br': "Chifre Broca",
+				'de-de': "Hornbohrer"
 			},
 
 			damage: 60,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging Tackles.",
+		'en-us': "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging Tackles.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カミツオロチex",
+		'ja-jp': "カミツオロチex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "じゅくせいチャージ" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札から「基本[G]エネルギー」を1枚選び、自分のポケモンにつける。その後、つけたポケモンのHPを「30」回復する。",
+				'ja-jp': "自分の番に1回使える。自分の手札から「基本[G]エネルギー」を1枚選び、自分のポケモンにつける。その後、つけたポケモンのHPを「30」回復する。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分のポケモン全員についている[G]エネルギーの数×30ダメージ追加。",
+				'ja-jp': "自分のポケモン全員についている[G]エネルギーの数×30ダメージ追加。",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カミッチュ",
+		'ja-jp': "カミッチュ",
 	},
 
 	retreat: 3,

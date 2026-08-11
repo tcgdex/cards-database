@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Raichu",
-		fr: "Raichu",
-		es: "Raichu",
-		it: "Raichu",
-		pt: "Raichu",
-		de: "Raichu"
+		'en-us': "Raichu",
+		'fr-fr': "Raichu",
+		'es-es': "Raichu",
+		'it-it': "Raichu",
+		'pt-br': "Raichu",
+		'de-de': "Raichu"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pikachu",
-		fr: "Pikachu",
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Never Give Up",
-				fr: "Persistance",
-				es: "Nunca Rendirse",
-				it: "Mai Arrendersi",
-				pt: "Nunca Desista",
-				de: "Niemals aufgeben"
+				'en-us': "Never Give Up",
+				'fr-fr': "Persistance",
+				'es-es': "Nunca Rendirse",
+				'it-it': "Mai Arrendersi",
+				'pt-br': "Nunca Desista",
+				'de-de': "Niemals aufgeben"
 			},
 			effect: {
-				en: "You can use this attack only if you have at least 3 more Prize cards remaining than your opponent. Attach all Lightning Energy cards from your discard pile to your Pokémon in any way you like.",
-				fr: "Vous ne pouvez utiliser cette attaque que s’il vous reste au moins 3 cartes Récompense de plus qu’à votre adversaire. Attachez toutes les cartes Énergie Lightning de votre pile de défausse à vos Pokémon, de la manière que vous voulez.",
-				es: "Puedes usar este ataque solo si te quedan por lo menos 3 cartas de Premio más que a tu rival. Une todas las cartas de Energía Lightning de tu pila de descartes a tus Pokémon de la manera que desees.",
-				it: "Puoi usare questo attacco solo se hai almeno tre carte Premio rimanenti più del tuo avversario. Assegna a piacimento ai tuoi Pokémon tutte le carte Energia Lightning dalla tua pila degli scarti.",
-				pt: "Você só pode usar este ataque se tiver pelo menos 3 cartas de Prêmio restantes a mais do que seu oponente. Ligue todas as cartas de Energia Lightning da sua pilha de descarte aos seus Pokémon como desejar.",
-				de: "Du kannst diese Attacke nur einsetzen, wenn du mindestens 3 verbleibende Preiskarten mehr hast als dein Gegner. Lege alle Lightning-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an."
+				'en-us': "You can use this attack only if you have at least 3 more Prize cards remaining than your opponent. Attach all Lightning Energy cards from your discard pile to your Pokémon in any way you like.",
+				'fr-fr': "Vous ne pouvez utiliser cette attaque que s’il vous reste au moins 3 cartes Récompense de plus qu’à votre adversaire. Attachez toutes les cartes Énergie Lightning de votre pile de défausse à vos Pokémon, de la manière que vous voulez.",
+				'es-es': "Puedes usar este ataque solo si te quedan por lo menos 3 cartas de Premio más que a tu rival. Une todas las cartas de Energía Lightning de tu pila de descartes a tus Pokémon de la manera que desees.",
+				'it-it': "Puoi usare questo attacco solo se hai almeno tre carte Premio rimanenti più del tuo avversario. Assegna a piacimento ai tuoi Pokémon tutte le carte Energia Lightning dalla tua pila degli scarti.",
+				'pt-br': "Você só pode usar este ataque se tiver pelo menos 3 cartas de Prêmio restantes a mais do que seu oponente. Ligue todas as cartas de Energia Lightning da sua pilha de descarte aos seus Pokémon como desejar.",
+				'de-de': "Du kannst diese Attacke nur einsetzen, wenn du mindestens 3 verbleibende Preiskarten mehr hast als dein Gegner. Lege alle Lightning-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an."
 			},
 
 		},
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Head Bolt",
-				fr: "Éclair Frontal",
-				es: "Rayo de Cabeza",
-				it: "Zuccalampo",
-				pt: "Raio de Cabeça",
-				de: "Kopf-Blitz"
+				'en-us': "Head Bolt",
+				'fr-fr': "Éclair Frontal",
+				'es-es': "Rayo de Cabeza",
+				'it-it': "Zuccalampo",
+				'pt-br': "Raio de Cabeça",
+				'de-de': "Kopf-Blitz"
 			},
 
 			damage: 110,
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "As electricity builds up inside its body, it becomes more aggressive. One theory is that the electricity buildup is actually causing stress.",
+		'en-us': "As electricity builds up inside its body, it becomes more aggressive. One theory is that the electricity buildup is actually causing stress.",
 	},
 
 	thirdParty: {

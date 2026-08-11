@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Cryogonal",
-		fr: "Hexagel",
-		es: "Cryogonal",
-		it: "Cryogonal",
-		pt: "Cryogonal",
-		de: "Frigometri"
+		'en-us': "Cryogonal",
+		'fr-fr': "Hexagel",
+		'es-es': "Cryogonal",
+		'it-it': "Cryogonal",
+		'pt-br': "Cryogonal",
+		'de-de': "Frigometri"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Ice Chain",
-				fr: "Chaîne de Glace",
+				'en-us': "Ice Chain",
+				'fr-fr': "Chaîne de Glace",
 			},
 			effect: {
-				en: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
-				fr: "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire.",
+				'en-us': "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
+				'fr-fr': "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire.",
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Frost Vanish",
-				fr: "Poudreuse d'Escampette",
+				'en-us': "Frost Vanish",
+				'fr-fr': "Poudreuse d'Escampette",
 			},
 			effect: {
-				en: "You may return this Pokémon and all cards attached to it to your hand.",
-				fr: "Vous pouvez reprendre ce Pokémon et toutes les cartes qui lui sont attachées dans votre main.",
+				'en-us': "You may return this Pokémon and all cards attached to it to your hand.",
+				'fr-fr': "Vous pouvez reprendre ce Pokémon et toutes les cartes qui lui sont attachées dans votre main.",
 			},
 			damage: 40,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They are born in snow clouds. They use chains made of ice crystals to capture prey.",
+		'en-us': "They are born in snow clouds. They use chains made of ice crystals to capture prey.",
 	},
 
 	thirdParty: {

@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Nuzleaf",
-		fr: "Pifeuil",
-		de: "Blanas",
-		it: "Nuzleaf",
-		es: "Nuzleaf",
-		pt: "Nuzleaf",
+		'en-us': "Nuzleaf",
+		'fr-fr': "Pifeuil",
+		'de-de': "Blanas",
+		'it-it': "Nuzleaf",
+		'es-es': "Nuzleaf",
+		'pt-br': "Nuzleaf",
 		'es-mx': "Nuzleaf"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Seedot",
-		fr: "Grainipiot",
-		de: "Samurzel",
-		it: "Seedot",
-		es: "Seedot",
-		pt: "Seedot",
+		'en-us': "Seedot",
+		'fr-fr': "Grainipiot",
+		'de-de': "Samurzel",
+		'it-it': "Seedot",
+		'es-es': "Seedot",
+		'pt-br': "Seedot",
 		'es-mx': "Seedot"
 	},
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Pound",
-			fr: "Écras'Face",
-			de: "Klaps",
-			it: "Botta",
-			es: "Destructor",
-			pt: "Pancada",
+			'en-us': "Pound",
+			'fr-fr': "Écras'Face",
+			'de-de': "Klaps",
+			'it-it': "Botta",
+			'es-es': "Destructor",
+			'pt-br': "Pancada",
 			'es-mx': "Destructor"
 		},
 
@@ -49,12 +49,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Low Kick",
-			fr: "Balayage",
-			de: "Fußkick",
-			it: "Colpo Basso",
-			es: "Patada Baja",
-			pt: "Rasteira",
+			'en-us': "Low Kick",
+			'fr-fr': "Balayage",
+			'de-de': "Fußkick",
+			'it-it': "Colpo Basso",
+			'es-es': "Patada Baja",
+			'pt-br': "Rasteira",
 			'es-mx': "Patada Baja"
 		},
 

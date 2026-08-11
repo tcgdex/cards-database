@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Eevee（デルタ種）",
+		'ja-jp': "Eevee（デルタ種）",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "金属スクープ",
+				'ja-jp': "金属スクープ",
 			},
 			effect: {
-				ja: "廃棄物の山を検索して、金属エネルギーカードを添付し、Eeveeに取り付けます。",
+				'ja-jp': "廃棄物の山を検索して、金属エネルギーカードを添付し、Eeveeに取り付けます。",
 			},
 			damage: 10,
 		},

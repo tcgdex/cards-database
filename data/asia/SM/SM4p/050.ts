@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ネクロズマGX",
+		'ja-jp': "ネクロズマGX",
 	},
 
 	illustrator: "PLANETA",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ひかりのおわり" },
 			effect: {
-				ja: "このポケモンは[無]ポケモンから、ワザのダメージを受けない。",
+				'ja-jp': "このポケモンは[無]ポケモンから、ワザのダメージを受けない。",
 			},
 		},
 	],
@@ -30,14 +30,14 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[超]エネルギーをすべてトラッシュし、その枚数x60ダメージ追加。",
+				'ja-jp': "このポケモンについている[超]エネルギーをすべてトラッシュし、その枚数x60ダメージ追加。",
 			},
 		},
 		{
 			name: { ja: "ブラックレイGX" },
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手の「ポケモンGX・EX」全員に、それぞれ100ダメージ。このワザのダメージは弱点・抵抗力を計算しない。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手の「ポケモンGX・EX」全員に、それぞれ100ダメージ。このワザのダメージは弱点・抵抗力を計算しない。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

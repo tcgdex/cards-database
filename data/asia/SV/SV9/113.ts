@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ボルケニオンex"
+		'ja-jp': "ボルケニオンex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,11 +20,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "やけつくじょうき"
+			'ja-jp': "やけつくじょうき"
 		},
 
 		effect: {
-			ja: "このポケモンがバトル場にいるなら、自分の番に1回使える。相手のバトルポケモンをやけどにする。"
+			'ja-jp': "このポケモンがバトル場にいるなら、自分の番に1回使える。相手のバトルポケモンをやけどにする。"
 		}
 	}],
 
@@ -32,13 +32,13 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			ja: "ヒートサイクロン"
+			'ja-jp': "ヒートサイクロン"
 		},
 
 		damage: 160,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。"
+			'ja-jp': "このポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。"
 		}
 	}],
 

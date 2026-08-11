@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "沙漠蜻蜓V",
-		ja: "フライゴンV"
+		'ja-jp': "フライゴンV"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -19,7 +19,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "沙沫",
-			ja: "すなしぶき"
+			'ja-jp': "すなしぶき"
 		},
 
 		damage: 70,
@@ -27,12 +27,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "龍之脈衝",
-			ja: "ドラゴンインパルス"
+			'ja-jp': "ドラゴンインパルス"
 		},
 
 		effect: {
 			'zh-tw': "若對手的戰鬥寶可夢為「寶可夢【VMAX】」，則增加160點傷害。這個情況下，選擇3個這隻寶可夢身上附加的能量，將其丟棄。",
-			ja: "相手のバトルポケモンが「ポケモンVMAX」なら、160ダメージ追加。その場合、このポケモンについているエネルギーを3個選び、トラッシュする。"
+			'ja-jp': "相手のバトルポケモンが「ポケモンVMAX」なら、160ダメージ追加。その場合、このポケモンについているエネルギーを3個選び、トラッシュする。"
 		},
 
 		damage: "160＋",

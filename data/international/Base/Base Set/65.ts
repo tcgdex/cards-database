@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Staryu",
-		fr: "Stari",
-		de: "Sterndu",
-		it: "Staryu"
+		'en-us': "Staryu",
+		'fr-fr': "Stari",
+		'de-de': "Sterndu",
+		'it-it': "Staryu"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Slap",
-				fr: "Gifle",
-				de: "Hieb",
-				it: "Sberla"
+				'en-us': "Slap",
+				'fr-fr': "Gifle",
+				'de-de': "Hieb",
+				'it-it': "Sberla"
 			},
 
 			damage: 20,
@@ -53,9 +53,9 @@ const card: Card = {
 
 
 	description: {
-		en: "An enigmatic Pokémon that can effortlessly regenerate any appendage it loses in battle.",
-		fr: "Un Pokémon bien curieux qui peut régénérer ses appendices sectionnés lors d'un combat.",
-		it: "Pokémon enigmatico che può rigenerare senza sforzo qualsiasi parte del corpo persa in combattimento. LIV 15 N.120"
+		'en-us': "An enigmatic Pokémon that can effortlessly regenerate any appendage it loses in battle.",
+		'fr-fr': "Un Pokémon bien curieux qui peut régénérer ses appendices sectionnés lors d'un combat.",
+		'it-it': "Pokémon enigmatico che può rigenerare senza sforzo qualsiasi parte del corpo persa in combattimento. LIV 15 N.120"
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Arbok",
-		fr: "Arbok",
+		'en-us': "Arbok",
+		'fr-fr': "Arbok",
 	},
 
 	illustrator: "kirisAki",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ekans",
-		fr: "Abo",
+		'en-us': "Ekans",
+		'fr-fr': "Abo",
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Last Pattern",
-				fr: "Dernier Motif",
+				'en-us': "Last Pattern",
+				'fr-fr': "Dernier Motif",
 			},
 			effect: {
-				en: "If this Pokémon is Knocked Out by damage from an opponent’s attack, discard 2 random cards from your opponent’s hand.",
-				fr: "Si ce Pokémon est mis K.O. par les dégâts d’une attaque de votre adversaire, défaussez 2 cartes au hasard de la main de votre adversaire.",
+				'en-us': "If this Pokémon is Knocked Out by damage from an opponent’s attack, discard 2 random cards from your opponent’s hand.",
+				'fr-fr': "Si ce Pokémon est mis K.O. par les dégâts d’une attaque de votre adversaire, défaussez 2 cartes au hasard de la main de votre adversaire.",
 			},
 		},
 	],
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rocket Tail",
-				fr: "Queue Rocket",
+				'en-us': "Rocket Tail",
+				'fr-fr': "Queue Rocket",
 			},
 			effect: {
-				en: "If Jessie & James is in your discard pile, this attack does 80 more damage.",
-				fr: "Si la carte Jessie et James est dans votre pile de défausse, cette attaque inflige 80 dégâts supplémentaires.",
+				'en-us': "If Jessie & James is in your discard pile, this attack does 80 more damage.",
+				'fr-fr': "Si la carte Jessie et James est dans votre pile de défausse, cette attaque inflige 80 dégâts supplémentaires.",
 			},
 			damage: "50+",
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The latest research has determined that there are over 20 possible arrangements of the patterns on its stomach.",
+		'en-us': "The latest research has determined that there are over 20 possible arrangements of the patterns on its stomach.",
 	},
 
 	thirdParty: {

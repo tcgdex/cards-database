@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Heracross",
-		fr: "Scarhino",
-		de: "Skaraborn"
+		'en-us': "Heracross",
+		'fr-fr': "Scarhino",
+		'de-de': "Skaraborn"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Final Blow",
-				fr: "Souffle final",
-				de: "Letzter Streich"
+				'en-us': "Final Blow",
+				'fr-fr': "Souffle final",
+				'de-de': "Letzter Streich"
 			},
 			effect: {
-				en: "If Heracross's remaining HP are 20 or less, you may make its Megahorn attack's base damage 120 instead of 60. This power can't be used if Heracross is Asleep, Confused, or Paralyzed.",
-				fr: "Si Scarhino a 20 points de vie ou moins, vous pouvez changer les dégâts de son attaque Megacorne pour 120 au lieu de 60. Ce pouvoir ne peut être utilisé si Scarhino est Endormi, Confus ou Paralysé.",
-				de: "Falls die verbleibenden KP von Skaraborn 20 oder weniger betragen, kannst du die Basisschadenspunkte des Vielender-Angriffs von 60 auf 120 hochsetzen. Diese Fähigkeit kann nicht verwendet werden, falls Skaraborn schläft, verwirrt oder gelähmt ist."
+				'en-us': "If Heracross's remaining HP are 20 or less, you may make its Megahorn attack's base damage 120 instead of 60. This power can't be used if Heracross is Asleep, Confused, or Paralyzed.",
+				'fr-fr': "Si Scarhino a 20 points de vie ou moins, vous pouvez changer les dégâts de son attaque Megacorne pour 120 au lieu de 60. Ce pouvoir ne peut être utilisé si Scarhino est Endormi, Confus ou Paralysé.",
+				'de-de': "Falls die verbleibenden KP von Skaraborn 20 oder weniger betragen, kannst du die Basisschadenspunkte des Vielender-Angriffs von 60 auf 120 hochsetzen. Diese Fähigkeit kann nicht verwendet werden, falls Skaraborn schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -50,15 +50,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Megahorn",
-				fr: "Megacorne",
-				de: "Vielender"
+				'en-us': "Megahorn",
+				'fr-fr': "Megacorne",
+				'de-de': "Vielender"
 			},
 
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'de-de': "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 60
@@ -75,8 +75,8 @@ const card: Card = {
 
 
 	description: {
-		en: "This powerful Pokémon thrusts its prized horn under its enemies' bellies, then lifts and throws them.",
-		fr: "Ce puissant Pokémon enfonce sa corne très recherchée sous le ventre de ses ennemis, puis les soulève et les jette au loin."
+		'en-us': "This powerful Pokémon thrusts its prized horn under its enemies' bellies, then lifts and throws them.",
+		'fr-fr': "Ce puissant Pokémon enfonce sa corne très recherchée sous le ventre de ses ennemis, puis les soulève et les jette au loin."
 	},
 
 

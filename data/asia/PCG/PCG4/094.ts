@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "forretress",
+		'ja-jp': "forretress",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "スパイクシェル",
+				'ja-jp': "スパイクシェル",
 			},
 			effect: {
-				ja: "対戦相手の次のターンの終わりに、防御ポケモンに3つのダメージカウンターを置きます。",
+				'ja-jp': "対戦相手の次のターンの終わりに、防御ポケモンに3つのダメージカウンターを置きます。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Metal", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "ポップ",
+				'ja-jp': "ポップ",
 			},
 			effect: {
-				ja: "forretressに7つのダメージカウンターを置きます。 forretressに取り付けられたすべてのエネルギーカードをベンチポケモンに移動します。 （ベンチ付きポケモンがない場合は、この効果を無視してください。）",
+				'ja-jp': "forretressに7つのダメージカウンターを置きます。 forretressに取り付けられたすべてのエネルギーカードをベンチポケモンに移動します。 （ベンチ付きポケモンがない場合は、この効果を無視してください。）",
 			},
 			damage: 100,
 		},

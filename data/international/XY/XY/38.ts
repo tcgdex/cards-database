@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Simipour",
-		fr: "Flotoutan",
-		es: "Simipour",
-		it: "Simipour",
-		pt: "Simipour",
-		de: "Sodachita"
+		'en-us': "Simipour",
+		'fr-fr': "Flotoutan",
+		'es-es': "Simipour",
+		'it-it': "Simipour",
+		'pt-br': "Simipour",
+		'de-de': "Sodachita"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Panpour",
-		fr: "Flotajou",
-		es: "Panpour",
-		it: "Panpour",
-		pt: "Panpour",
-		de: "Sodamak"
+		'en-us': "Panpour",
+		'fr-fr': "Flotajou",
+		'es-es': "Panpour",
+		'it-it': "Panpour",
+		'pt-br': "Panpour",
+		'de-de': "Sodamak"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Recycle",
-				fr: "Recyclage",
-				es: "Reciclaje",
-				it: "Riciclo",
-				pt: "Reciclagem",
-				de: "Aufbereitung"
+				'en-us': "Recycle",
+				'fr-fr': "Recyclage",
+				'es-es': "Reciclaje",
+				'it-it': "Riciclo",
+				'pt-br': "Reciclagem",
+				'de-de': "Aufbereitung"
 			},
 			effect: {
-				en: "Put a card from your discard pile on top of your deck.",
-				fr: "Mettez une carte de votre pile de défausse sur le dessus de votre deck.",
-				es: "Pon 1 carta de tu pila de descartes en la parte superior de tu baraja.",
-				it: "Prendi una carta qualsiasi dalla tua pila degli scarti e mettila in cima al tuo mazzo.",
-				pt: "Coloque um card da sua pilha de descarte em cima do seu baralho.",
-				de: "Lege 1 beliebige Karte von deinem Ablagestapel auf dein Deck."
+				'en-us': "Put a card from your discard pile on top of your deck.",
+				'fr-fr': "Mettez une carte de votre pile de défausse sur le dessus de votre deck.",
+				'es-es': "Pon 1 carta de tu pila de descartes en la parte superior de tu baraja.",
+				'it-it': "Prendi una carta qualsiasi dalla tua pila degli scarti e mettila in cima al tuo mazzo.",
+				'pt-br': "Coloque um card da sua pilha de descarte em cima do seu baralho.",
+				'de-de': "Lege 1 beliebige Karte von deinem Ablagestapel auf dein Deck."
 			},
 
 		},
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
-				es: "Surf",
-				it: "Surf",
-				pt: "Surfar",
-				de: "Surfer"
+				'en-us': "Surf",
+				'fr-fr': "Surf",
+				'es-es': "Surf",
+				'it-it': "Surf",
+				'pt-br': "Surfar",
+				'de-de': "Surfer"
 			},
 
 			damage: 70,
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The high-pressure water expelled from its tail is so powerful, it can destroy a concrete wall.",
+		'en-us': "The high-pressure water expelled from its tail is so powerful, it can destroy a concrete wall.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウパー",
+		'ja-jp': "ウパー",
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "冷たい 水の中で 生活。 あたりが 涼しくなると エサを 探しに 地上にも 現れる。",
+		'ja-jp': "冷たい 水の中で 生活。 あたりが 涼しくなると エサを 探しに 地上にも 現れる。",
 	},
 
 	stage: "Basic",

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Ekans",
-		fr: "Abo",
-		de: "Rettan"
+		'en-us': "Ekans",
+		'fr-fr': "Abo",
+		'de-de': "Rettan"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shed Skin",
-				fr: "Mue",
-				de: "Expidermis"
+				'en-us': "Shed Skin",
+				'fr-fr': "Mue",
+				'de-de': "Expidermis"
 			},
 			effect: {
-				en: "Remove 2 damage counters from Ekans.",
-				fr: "Retirez à Abo 2 marqueurs de dégât.",
-				de: "Entferne 2 Schadensmarken von Rettan."
+				'en-us': "Remove 2 damage counters from Ekans.",
+				'fr-fr': "Retirez à Abo 2 marqueurs de dégât.",
+				'de-de': "Entferne 2 Schadensmarken von Rettan."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Poison Fang",
-				fr: "Croc-poison",
-				de: "Giftzahn"
+				'en-us': "Poison Fang",
+				'fr-fr': "Croc-poison",
+				'de-de': "Giftzahn"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné,",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné,",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 			damage: 10,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It sneaks through grass without making a sound and strikes unsuspecting prey from behind.",
+		'en-us': "It sneaks through grass without making a sound and strikes unsuspecting prey from behind.",
 	},
 
 	thirdParty: {

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Hypno"
+		'en-us': "Hypno"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Drowzee"
+		'en-us': "Drowzee"
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Prophecy"
+				'en-us': "Prophecy"
 			},
 			effect: {
-				en: "Look at up to 3 cards from the top of either player's deck and rearrange them as you like."
+				'en-us': "Look at up to 3 cards from the top of either player's deck and rearrange them as you like."
 			},
 
 		},
@@ -45,10 +45,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Dark Mind"
+				'en-us': "Dark Mind"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 30,
 
@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When it locks eyes with an enemy, it will use a mix of psi moves such as Hypnosis and Confusion."
+		'en-us': "When it locks eyes with an enemy, it will use a mix of psi moves such as Hypnosis and Confusion."
 	},
 
 	variants: [

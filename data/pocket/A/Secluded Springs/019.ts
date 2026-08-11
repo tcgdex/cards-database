@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Jynx",
-		fr: "Lippoutou"
+		'en-us': "Jynx",
+		'fr-fr': "Lippoutou"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -18,24 +18,24 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "Its strange cries sound like human language.\nThere are some musicians who compose songs\nfor Jynx to sing.",
-		fr: "Ses étranges cris s'apparentent à des mots. Certains musiciens lui composent des chansons pour qu'il les interprète."
+		'en-us': "Its strange cries sound like human language.\nThere are some musicians who compose songs\nfor Jynx to sing.",
+		'fr-fr': "Ses étranges cris s'apparentent à des mots. Certains musiciens lui composent des chansons pour qu'il les interprète."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Dazzle Dance",
-			fr: "Danse Éblouissante"
+			'en-us': "Dazzle Dance",
+			'fr-fr': "Danse Éblouissante"
 		},
 
 		damage: 40,
 		cost: ["Water", "Water"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus."
 		}
 	}],
 

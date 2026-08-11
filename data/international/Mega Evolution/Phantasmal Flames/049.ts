@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gligar",
-		fr: "Scorplane",
-		es: "Gligar",
+		'en-us': "Gligar",
+		'fr-fr': "Scorplane",
+		'es-es': "Gligar",
 		'es-mx': "Gligar",
-		de: "Skorgla",
-		it: "Gligar",
-		pt: "Gligar"
+		'de-de': "Skorgla",
+		'it-it': "Gligar",
+		'pt-br': "Gligar"
 	},
 
 	rarity: "Common",
@@ -26,23 +26,23 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Poison Jab",
-			fr: "Direct Toxik",
-			es: "Puya Nociva",
+			'en-us': "Poison Jab",
+			'fr-fr': "Direct Toxik",
+			'es-es': "Puya Nociva",
 			'es-mx': "Golpe Venenoso",
-			de: "Gifthieb",
-			it: "Velenpuntura",
-			pt: "Golpe Envenenado"
+			'de-de': "Gifthieb",
+			'it-it': "Velenpuntura",
+			'pt-br': "Golpe Envenenado"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
 			'es-mx': "El Pokémon Activo de tu rival ahora está Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado."
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado."
 		},
 
 		damage: 10
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "It builds its nest on a steep cliff. When it is done gliding, it hops along the ground back to its nest.",
+		'en-us': "It builds its nest on a steep cliff. When it is done gliding, it hops along the ground back to its nest.",
 	},
 
 	illustrator: "Kazumasa Yasukuni",

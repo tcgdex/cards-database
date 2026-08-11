@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Trapinch",
-		fr: "Kraknoix",
-		de: "Knacklion"
+		'en-us': "Trapinch",
+		'fr-fr': "Kraknoix",
+		'de-de': "Knacklion"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sand Pit",
-				fr: "Bac à sable",
-				de: "Sandgrube"
+				'en-us': "Sand Pit",
+				'fr-fr': "Bac à sable",
+				'de-de': "Sandgrube"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite jusqu'à la fin du prochain tour de votre adversaire.",
-				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite jusqu'à la fin du prochain tour de votre adversaire.",
+				'de-de': "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 10,
 
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Irongrip",
-				fr: "Poigne de fer",
-				de: "Eiserner Griff"
+				'en-us': "Irongrip",
+				'fr-fr': "Poigne de fer",
+				'de-de': "Eiserner Griff"
 			},
 
 			damage: 20,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デンチュラ",
+		'ja-jp': "デンチュラ",
 		'zh-tw': "電蜘蛛",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "電気を 帯びた お腹の 毛を 飛ばして 攻撃。 毛が 刺さると 三日三晩 全身が 痺れる。",
+		'ja-jp': "電気を 帯びた お腹の 毛を 飛ばして 攻撃。 毛が 刺さると 三日三晩 全身が 痺れる。",
 		'zh-tw': "發射腹部帶電的毛來攻擊。 要是被牠的毛刺中， 就會全身麻痺三天三夜。",
 	},
 
@@ -25,7 +25,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ふくがん" },
 			effect: {
-				ja: "このポケモンが使うワザの、相手のバトル場の特性を持つポケモンへのダメージは「+50」される。",
+				'ja-jp': "このポケモンが使うワザの、相手のバトル場の特性を持つポケモンへのダメージは「+50」される。",
 			},
 		},
 	],
@@ -33,13 +33,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ビリビリウェブ",
+				'ja-jp': "ビリビリウェブ",
 				'zh-tw': "‌[特性]複眼",
 			},
 			damage: "50+",
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "このポケモンに[L]エネルギーがついているなら、80ダメージ追加。",
+				'ja-jp': "このポケモンに[L]エネルギーがついているなら、80ダメージ追加。",
 				'zh-tw': "這隻寶可夢使用的招式，對對手的戰鬥場的擁有特性的寶可夢造成的傷害「+50」點。",
 			},
 		},
@@ -59,7 +59,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "バチュル",
+		'ja-jp': "バチュル",
 	},
 
 	retreat: 1,

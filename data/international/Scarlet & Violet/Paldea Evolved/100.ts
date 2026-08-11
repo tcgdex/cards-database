@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Forgerette",
-		en: "Tinkatink",
-		es: "Tinkatink",
-		it: "Tinkatink",
-		pt: "Tinkatink",
-		de: "Forgita"
+		'fr-fr': "Forgerette",
+		'en-us': "Tinkatink",
+		'es-es': "Tinkatink",
+		'it-it': "Tinkatink",
+		'pt-br': "Tinkatink",
+		'de-de': "Forgita"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Collecte",
-			en: "Collect",
-			es: "Coleccionar",
-			it: "Tassa",
-			pt: "Coleta",
-			de: "Sammeln"
+			'fr-fr': "Collecte",
+			'en-us': "Collect",
+			'es-es': "Coleccionar",
+			'it-it': "Tassa",
+			'pt-br': "Coleta",
+			'de-de': "Sammeln"
 		},
 
 		effect: {
-			fr: "Piochez une carte.",
-			en: "Draw a card.",
-			es: "Roba 1 carta.",
-			it: "Pesca una carta.",
-			pt: "Compre uma carta.",
-			de: "Ziehe 1 Karte."
+			'fr-fr': "Piochez une carte.",
+			'en-us': "Draw a card.",
+			'es-es': "Roba 1 carta.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre uma carta.",
+			'de-de': "Ziehe 1 Karte."
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			fr: "Poing Tire-Bouchon",
-			en: "Corkscrew Punch",
-			es: "Puño Tirabuzón",
-			it: "Pugno Rotante",
-			pt: "Soco Saca-rolha",
-			de: "Korkenzieherhieb"
+			'fr-fr': "Poing Tire-Bouchon",
+			'en-us': "Corkscrew Punch",
+			'es-es': "Puño Tirabuzón",
+			'it-it': "Pugno Rotante",
+			'pt-br': "Soco Saca-rolha",
+			'de-de': "Korkenzieherhieb"
 		},
 
 		damage: 20
@@ -86,7 +86,7 @@ const card: Card = {
 	illustrator: "Mizue",
 
 	description: {
-		en: "It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal.",
+		'en-us': "It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal.",
 	},
 }
 

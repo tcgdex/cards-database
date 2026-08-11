@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Anorith",
-		fr: "Anorith",
-		es: "Anorith",
-		it: "Anorith",
-		pt: "Anorith",
-		de: "Anorith"
+		'en-us': "Anorith",
+		'fr-fr': "Anorith",
+		'es-es': "Anorith",
+		'it-it': "Anorith",
+		'pt-br': "Anorith",
+		'de-de': "Anorith"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Unidentified Fossil",
-		fr: "Fossile Inconnu",
-		es: "Fósil Desconocido",
-		it: "Fossile Sconosciuto",
-		pt: "Fóssil Não Identificado",
-		de: "Unbekanntes Fossil"
+		'en-us': "Unidentified Fossil",
+		'fr-fr': "Fossile Inconnu",
+		'es-es': "Fósil Desconocido",
+		'it-it': "Fossile Sconosciuto",
+		'pt-br': "Fóssil Não Identificado",
+		'de-de': "Unbekanntes Fossil"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Fossil Drop",
-			fr: "Chute Fossile",
-			es: "Caída de Fósil",
-			it: "Caduta Fossili",
-			pt: "Queda de Fóssil",
-			de: "Fossilabwurf"
+			'en-us': "Fossil Drop",
+			'fr-fr': "Chute Fossile",
+			'es-es': "Caída de Fósil",
+			'it-it': "Caduta Fossili",
+			'pt-br': "Queda de Fóssil",
+			'de-de': "Fossilabwurf"
 		},
 
 		effect: {
-			en: "You may discard an Unidentified Fossil card from your hand. If you do, this attack does 120 more damage.",
-			fr: "Vous pouvez défausser une carte Fossile Inconnu de votre main. Dans ce cas, cette attaque inflige 120 dégâts supplémentaires.",
-			es: "Puedes descartar 1 carta de Fósil Desconocido de tu mano. Si lo haces, este ataque hace 120 puntos de daño más.",
-			it: "Puoi scartare una carta Fossile Sconosciuto che hai in mano. Se lo fai, questo attacco infligge 120 danni in più.",
-			pt: "Você pode descartar 1 carta Fóssil Não Identificado da sua mão. Se fizer isto, este ataque causará 120 pontos de dano a mais.",
-			de: "Du kannst 1 Unbekanntes Fossil-Karte aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 120 Schadenspunkte mehr zu."
+			'en-us': "You may discard an Unidentified Fossil card from your hand. If you do, this attack does 120 more damage.",
+			'fr-fr': "Vous pouvez défausser une carte Fossile Inconnu de votre main. Dans ce cas, cette attaque inflige 120 dégâts supplémentaires.",
+			'es-es': "Puedes descartar 1 carta de Fósil Desconocido de tu mano. Si lo haces, este ataque hace 120 puntos de daño más.",
+			'it-it': "Puoi scartare una carta Fossile Sconosciuto che hai in mano. Se lo fai, questo attacco infligge 120 danni in più.",
+			'pt-br': "Você pode descartar 1 carta Fóssil Não Identificado da sua mão. Se fizer isto, este ataque causará 120 pontos de dano a mais.",
+			'de-de': "Du kannst 1 Unbekanntes Fossil-Karte aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 120 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon was restored from a fossil. Anorith lived in the ocean about 100,000,000 years ago, hunting with its pair of claws.",
+		'en-us': "This Pokémon was restored from a fossil. Anorith lived in the ocean about 100,000,000 years ago, hunting with its pair of claws.",
 	},
 
 	variants: [

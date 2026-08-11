@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "togepi",
+		'ja-jp': "togepi",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "マイナーな用事が走る",
+				'ja-jp': "マイナーな用事が走る",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。各ヘッドについて、デッキを検索して基本的なエネルギーカードを探してください。それらのカードを相手に見せてから、それらを手に入れます。その後、デッキをシャッフルします。",
+				'ja-jp': "2つのコインをフリップします。各ヘッドについて、デッキを検索して基本的なエネルギーカードを探してください。それらのカードを相手に見せてから、それらを手に入れます。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ポンド",
+				'ja-jp': "ポンド",
 			},
 			damage: 10,
 		},

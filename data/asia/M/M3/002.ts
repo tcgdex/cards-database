@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アリアドス",
+		'ja-jp': "アリアドス",
 	},
 
 	illustrator: "svlt",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "お尻からだけでなく 口からも 糸を 出すので 見ただけでは どっちが 頭か わからない。",
+		'ja-jp': "お尻からだけでなく 口からも 糸を 出すので 見ただけでは どっちが 頭か わからない。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "イトマル",
+		'ja-jp': "イトマル",
 	},
 
 	retreat: 1,

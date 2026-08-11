@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サンフロラ",
+		'ja-jp': "サンフロラ",
 	},
 
 	rarity: "Holo Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "まばゆいばかりのダンス",
+				'ja-jp': "まばゆいばかりのダンス",
 			},
 			effect: {
-				ja: "防御するポケモンはそれぞれ混乱しています。",
+				'ja-jp': "防御するポケモンはそれぞれ混乱しています。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "グリーンブラスト",
+				'ja-jp': "グリーンブラスト",
 			},
 			effect: {
-				ja: "すべてのポケモンに取り付けられた各草のエネルギーに対して20のダメージと10ダメージがさらに10ダメージを与えます。",
+				'ja-jp': "すべてのポケモンに取り付けられた各草のエネルギーに対して20のダメージと10ダメージがさらに10ダメージを与えます。",
 			},
 		},
 	],

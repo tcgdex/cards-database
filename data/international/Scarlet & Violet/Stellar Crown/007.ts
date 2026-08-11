@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Carnivine",
-		fr: "Vortente",
-		es: "Carnivine",
-		it: "Carnivine",
-		pt: "Carnivine",
-		de: "Venuflibis"
+		'en-us': "Carnivine",
+		'fr-fr': "Vortente",
+		'es-es': "Carnivine",
+		'it-it': "Carnivine",
+		'pt-br': "Carnivine",
+		'de-de': "Venuflibis"
 	},
 
 	rarity: "Common",
@@ -24,41 +24,41 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Nosh",
-			fr: "Casse-Croûte",
-			es: "Piscolabis",
-			it: "Spuntino",
-			pt: "Mordiscar",
-			de: "Snack"
+			'en-us': "Nosh",
+			'fr-fr': "Casse-Croûte",
+			'es-es': "Piscolabis",
+			'it-it': "Spuntino",
+			'pt-br': "Mordiscar",
+			'de-de': "Snack"
 		},
 
 		effect: {
-			en: "Heal 40 damage from this Pokémon.",
-			fr: "Soignez 40 dégâts de ce Pokémon.",
-			es: "Cura 40 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 40 danni.",
-			pt: "Cure 40 pontos de dano deste Pokémon.",
-			de: "Heile 40 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 40 damage from this Pokémon.",
+			'fr-fr': "Soignez 40 dégâts de ce Pokémon.",
+			'es-es': "Cura 40 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 40 danni.",
+			'pt-br': "Cure 40 pontos de dano deste Pokémon.",
+			'de-de': "Heile 40 Schadenspunkte bei diesem Pokémon."
 		}
 	}, {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Loom Over",
-			fr: "Menacer",
-			es: "Cernirse",
-			it: "Presenza Minacciosa",
-			pt: "Pairar Sobre",
-			de: "Schattenseite"
+			'en-us': "Loom Over",
+			'fr-fr': "Menacer",
+			'es-es': "Cernirse",
+			'it-it': "Presenza Minacciosa",
+			'pt-br': "Pairar Sobre",
+			'de-de': "Schattenseite"
 		},
 
 		effect: {
-			en: "This attack does 10 less damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 10 dégâts de moins pour chaque marqueur de dégâts sur ce Pokémon.",
-			es: "Este ataque hace 10 puntos de daño menos por cada contador de daño en este Pokémon.",
-			it: "Questo attacco infligge 10 danni in meno per ogni segnalino danno presente su questo Pokémon.",
-			pt: "Este ataque causa 10 pontos de dano a menos para cada contador de dano neste Pokémon.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte weniger zu."
+			'en-us': "This attack does 10 less damage for each damage counter on this Pokémon.",
+			'fr-fr': "Cette attaque inflige 10 dégâts de moins pour chaque marqueur de dégâts sur ce Pokémon.",
+			'es-es': "Este ataque hace 10 puntos de daño menos por cada contador de daño en este Pokémon.",
+			'it-it': "Questo attacco infligge 10 danni in meno per ogni segnalino danno presente su questo Pokémon.",
+			'pt-br': "Este ataque causa 10 pontos de dano a menos para cada contador de dano neste Pokémon.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte weniger zu."
 		},
 
 		damage: "130-"

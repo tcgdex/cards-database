@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Machoke",
-		fr: "Machopeur",
-		de: "Maschock"
+		'en-us': "Machoke",
+		'fr-fr': "Machopeur",
+		'de-de': "Maschock"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Machop",
-		fr: "Machoc",
+		'en-us': "Machop",
+		'fr-fr': "Machoc",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Karate Chop",
-				fr: "Poing-Karaté",
-				de: "Karateschlag"
+				'en-us': "Karate Chop",
+				'fr-fr': "Poing-Karaté",
+				'de-de': "Karateschlag"
 			},
 			effect: {
-				en: "Does 40 damage minus 10 damage for each damage counter on Machoke.",
-				fr: "Inflige 40 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Machopeur.",
-				de: "Dieser Angriff fügt 40 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke auf Maschock zu."
+				'en-us': "Does 40 damage minus 10 damage for each damage counter on Machoke.",
+				'fr-fr': "Inflige 40 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Machopeur.",
+				'de-de': "Dieser Angriff fügt 40 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke auf Maschock zu."
 			},
 			damage: "40-",
 
@@ -56,9 +56,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Seismic Toss",
-				fr: "Frappe Atlas",
-				de: "Geowurf"
+				'en-us': "Seismic Toss",
+				'fr-fr': "Frappe Atlas",
+				'de-de': "Geowurf"
 			},
 
 			damage: 60,
@@ -76,8 +76,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "MACHOKE's boundless power is very dangerous, so it wears a belt that suppresses its energy.",
-		fr: "La force herculéenne du Machopeur est très dangereuse. Il utilise une ceinture pour contenir son énergie."
+		'en-us': "MACHOKE's boundless power is very dangerous, so it wears a belt that suppresses its energy.",
+		'fr-fr': "La force herculéenne du Machopeur est très dangereuse. Il utilise une ceinture pour contenir son énergie."
 	},
 
 	thirdParty: {

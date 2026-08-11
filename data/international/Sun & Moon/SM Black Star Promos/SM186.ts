@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Flareon",
-		fr: "Pyroli",
-		es: "Flareon",
-		it: "Flareon",
-		pt: "Flareon",
-		de: "Flamara"
+		'en-us': "Flareon",
+		'fr-fr': "Pyroli",
+		'es-es': "Flareon",
+		'it-it': "Flareon",
+		'pt-br': "Flareon",
+		'de-de': "Flamara"
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Promo",
@@ -23,8 +23,8 @@ const card: Card = {
 		"Fire",
 	],
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
 	},
 	stage: "Stage1",
 
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 20,
@@ -53,20 +53,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Spin",
-				fr: "Danse Flamme",
-				es: "Giro Fuego",
-				it: "Turbofuoco",
-				pt: "Chama Furacão",
-				de: "Feuerwirbel"
+				'en-us': "Fire Spin",
+				'fr-fr': "Danse Flamme",
+				'es-es': "Giro Fuego",
+				'it-it': "Turbofuoco",
+				'pt-br': "Chama Furacão",
+				'de-de': "Feuerwirbel"
 			},
 			effect: {
-				en: "Discard 2 Fire Energy from this Pokémon.",
-				fr: "Défaussez 2 Énergies Fire de ce Pokémon.",
-				es: "Descarta 2 Energías Fire de este Pokémon.",
-				it: "Scarta due Energie Fire assegnate a questo Pokémon.",
-				pt: "Descarte 2 Energias Fire deste Pokémon.",
-				de: "Lege 2 Fire-Energien von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard 2 Fire Energy from this Pokémon.",
+				'fr-fr': "Défaussez 2 Énergies Fire de ce Pokémon.",
+				'es-es': "Descarta 2 Energías Fire de este Pokémon.",
+				'it-it': "Scarta due Energie Fire assegnate a questo Pokémon.",
+				'pt-br': "Descarte 2 Energias Fire deste Pokémon.",
+				'de-de': "Lege 2 Fire-Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 130,
 
@@ -85,7 +85,7 @@ const card: Card = {
 
 
 	description: {
-		en: "If it inhales deeply, that's a sign it's about to attack. Prepare to be hit by flames of over 3,000 degrees Fahrenheit!",
+		'en-us': "If it inhales deeply, that's a sign it's about to attack. Prepare to be hit by flames of over 3,000 degrees Fahrenheit!",
 	},
 }
 

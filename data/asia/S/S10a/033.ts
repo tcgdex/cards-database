@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒスイ ウインディ",
+		'ja-jp': "ヒスイ ウインディ",
 		'zh-tw': "洗翠 風速狗",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "燃え盛る炎 牙に纏わせ 食らい付く。 体躯 大柄なれど 陽動 鮮やかなりて 敵 翻弄せしむる姿 演舞の如し。",
+		'ja-jp': "燃え盛る炎 牙に纏わせ 食らい付く。 体躯 大柄なれど 陽動 鮮やかなりて 敵 翻弄せしむる姿 演舞の如し。",
 		'zh-tw': "將猛烈燃燒的火焰纏繞在牙齒上撲向獵物。雖然體型很大，卻能以靈巧的假動作戲弄敵手，那姿態就像是舞蹈一般。",
 	},
 
@@ -23,19 +23,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "はっぽうやぶれ",
+				'ja-jp': "はっぽうやぶれ",
 				'zh-tw': "城破突圍",
 			},
 			damage: "10+",
 			cost: [],
 			effect: {
-				ja: "自分の手札が1枚もないなら、150ダメージ追加。",
+				'ja-jp': "自分の手札が1枚もないなら、150ダメージ追加。",
 				'zh-tw': "若自己1張手牌都沒有，則增加150點傷害。",
 			},
 		},
 		{
 			name: {
-				ja: "するどいキバ",
+				'ja-jp': "するどいキバ",
 				'zh-tw': "銳利之牙",
 			},
 			damage: 100,
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒスイ ガーディ",
+		'ja-jp': "ヒスイ ガーディ",
 	},
 
 	retreat: 2,

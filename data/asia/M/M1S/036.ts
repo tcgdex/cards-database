@@ -1,26 +1,26 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケーシィ"
+		'ja-jp': "ケーシィ"
 	},
 	illustrator: "Orca",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Psychic"],
 	description: {
-		ja: "眠ったままテレポートできる。眠りが深いほど離れた場所に移動するという。"
+		'ja-jp': "眠ったままテレポートできる。眠りが深いほど離れた場所に移動するという。"
 	},
 	stage: "Basic",
 	attacks: [{
 		name: {
-			ja: "テレポートアタック"
+			'ja-jp': "テレポートアタック"
 		},
 		damage: 10,
 		effect: {
-			ja: "このポケモンをベンチポケモンと入れ替える。"
+			'ja-jp': "このポケモンをベンチポケモンと入れ替える。"
 		},
 		cost: ["Psychic"]
 	}],

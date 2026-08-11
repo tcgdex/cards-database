@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カイリューVSTAR",
+		'ja-jp': "カイリューVSTAR",
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -20,14 +20,14 @@ const card: Card = {
 			damage: 250,
 			cost: ["Water", "Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 		{
 			name: { ja: "ドラゴニックスター" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を上から12枚見て、その中から[W]または[L]エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。残りのカードは山札にもどして切る。［対戦中、自分はVSTARパワーを1回しか使えない。］",
+				'ja-jp': "自分の山札を上から12枚見て、その中から[W]または[L]エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。残りのカードは山札にもどして切る。［対戦中、自分はVSTARパワーを1回しか使えない。］",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カイリューV",
+		'ja-jp': "カイリューV",
 	},
 
 	retreat: 2,

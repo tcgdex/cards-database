@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Snubbull",
-		de: "Snubbull"
+		'en-us': "Snubbull",
+		'de-de': "Snubbull"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scary Face",
-				de: "Grimasse"
+				'en-us': "Scary Face",
+				'de-de': "Grimasse"
 			},
 			effect: {
-				en: "Flip a coin. If heads, until the end of your opponent's next turn the Defending Pokémon can't attack or retreat.",
-				de: "Wirf eine Münze. Bei 'Kopf' kann das verteidigende Pokémon bis zum Ende des nächsten gegnerischen Zugs weder angreifen noch sich zurückziehen."
+				'en-us': "Flip a coin. If heads, until the end of your opponent's next turn the Defending Pokémon can't attack or retreat.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' kann das verteidigende Pokémon bis zum Ende des nächsten gegnerischen Zugs weder angreifen noch sich zurückziehen."
 			},
 
 		},
@@ -43,8 +43,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				de: "Biss"
+				'en-us': "Bite",
+				'de-de': "Biss"
 			},
 
 			damage: 20,

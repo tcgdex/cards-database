@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チコリータ",
+		'ja-jp': "チコリータ",
 	},
 
 	illustrator: "Kariya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "頭の葉っぱから ほのかに 甘い 香りが 漂う。 おとなしくて 日差しを 浴びるのが 大好き。",
+		'ja-jp': "頭の葉っぱから ほのかに 甘い 香りが 漂う。 おとなしくて 日差しを 浴びるのが 大好き。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "なきごえ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-20」される。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-20」される。",
 			},
 		},
 		{

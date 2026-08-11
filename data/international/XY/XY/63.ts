@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Lunatone",
-		fr: "Séléroc",
-		es: "Lunatone",
-		it: "Lunatone",
-		pt: "Lunatone",
-		de: "Lunastein"
+		'en-us': "Lunatone",
+		'fr-fr': "Séléroc",
+		'es-es': "Lunatone",
+		'it-it': "Lunatone",
+		'pt-br': "Lunatone",
+		'de-de': "Lunastein"
 	},
 
 	illustrator: "kawayoo",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Draw",
-				fr: "Double Pioche",
-				es: "Roba Doble",
-				it: "Pescata Doppia",
-				pt: "Compra Dupla",
-				de: "Zweifachzug"
+				'en-us': "Double Draw",
+				'fr-fr': "Double Pioche",
+				'es-es': "Roba Doble",
+				'it-it': "Pescata Doppia",
+				'pt-br': "Compra Dupla",
+				'de-de': "Zweifachzug"
 			},
 			effect: {
-				en: "Draw 2 cards.",
-				fr: "Piochez 2 cartes.",
-				es: "Roba 2 cartas.",
-				it: "Pesca due carte.",
-				pt: "Compre 2 cards.",
-				de: "Ziehe 2 Karten."
+				'en-us': "Draw 2 cards.",
+				'fr-fr': "Piochez 2 cartes.",
+				'es-es': "Roba 2 cartas.",
+				'it-it': "Pesca due carte.",
+				'pt-br': "Compre 2 cards.",
+				'de-de': "Ziehe 2 Karten."
 			},
 
 		},
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Moonblast",
-				fr: "Pouvoir Lunaire",
-				es: "Fuerza Lunar",
-				it: "Forza Lunare",
-				pt: "Explosão Lunar",
-				de: "Mondgewalt"
+				'en-us': "Moonblast",
+				'fr-fr': "Pouvoir Lunaire",
+				'es-es': "Fuerza Lunar",
+				'it-it': "Forza Lunare",
+				'pt-br': "Explosão Lunar",
+				'de-de': "Mondgewalt"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance).",
-				es: "Durante el próximo turno de tu rival, cualquier daño infligido por ataques del Pokémon Defensor se reduce en 20 (antes de aplicar Debilidad y Resistencia).",
-				it: "Durante il prossimo turno del tuo avversario, i danni inflitti dagli attacchi del Pokémon difensore sono ridotti di 20, prima di aver applicato debolezza e resistenza.",
-				pt: "Durante a próxima vez de jogar do seu oponente, qualquer dano causado por ataques ao Pokémon Defensor será reduzido em 20 (antes da aplicação de Fraqueza e Resistência).",
-				de: "Während des nächsten Zuges deines Gegners wird Schaden, der durch Angriffe des Verteidigenden Pokémon zugefügt wird, um 20 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance).",
+				'es-es': "Durante el próximo turno de tu rival, cualquier daño infligido por ataques del Pokémon Defensor se reduce en 20 (antes de aplicar Debilidad y Resistencia).",
+				'it-it': "Durante il prossimo turno del tuo avversario, i danni inflitti dagli attacchi del Pokémon difensore sono ridotti di 20, prima di aver applicato debolezza e resistenza.",
+				'pt-br': "Durante a próxima vez de jogar do seu oponente, qualquer dano causado por ataques ao Pokémon Defensor será reduzido em 20 (antes da aplicação de Fraqueza e Resistência).",
+				'de-de': "Während des nächsten Zuges deines Gegners wird Schaden, der durch Angriffe des Verteidigenden Pokémon zugefügt wird, um 20 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 			damage: 20,
 
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Because it turns active on nights of the full moon, it is said to have some link to the lunar phases.",
+		'en-us': "Because it turns active on nights of the full moon, it is said to have some link to the lunar phases.",
 	},
 
 	thirdParty: {

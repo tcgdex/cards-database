@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デルビル",
+		'ja-jp': "デルビル",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "夜明けごろ あたり一帯に 響きわたる 不気味な 遠ぼえで 自分たちの 縄張りを アピール。",
+		'ja-jp': "夜明けごろ あたり一帯に 響きわたる 不気味な 遠ぼえで 自分たちの 縄張りを アピール。",
 	},
 
 	stage: "Basic",

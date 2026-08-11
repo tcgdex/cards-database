@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Gligar",
-		fr: "Scorplane",
-		de: "Skorgla"
+		'en-us': "Gligar",
+		'fr-fr': "Scorplane",
+		'de-de': "Skorgla"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Free Flight",
-				fr: "Vol gratuit",
-				de: "Free Flight"
+				'en-us': "Free Flight",
+				'fr-fr': "Vol gratuit",
+				'de-de': "Free Flight"
 			},
 			effect: {
-				en: "If Gligar has no Energy attached to it, Gligar's Retreat Cost is 0.",
-				fr: "Si Scorplane ne possède pas d'Énergie, son Coût de retraite est de 0.",
-				de: "If Gligar has no Energy attached to it, Gligar's Retreat Cost is 0."
+				'en-us': "If Gligar has no Energy attached to it, Gligar's Retreat Cost is 0.",
+				'fr-fr': "Si Scorplane ne possède pas d'Énergie, son Coût de retraite est de 0.",
+				'de-de': "If Gligar has no Energy attached to it, Gligar's Retreat Cost is 0."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Toxic Grip",
-				fr: "Pince empoisonnée",
-				de: "Toxic Grip"
+				'en-us': "Toxic Grip",
+				'fr-fr': "Pince empoisonnée",
+				'de-de': "Toxic Grip"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "The Defending Pokémon is now Poisoned."
 			},
 			damage: 10,
 

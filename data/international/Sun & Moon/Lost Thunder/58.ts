@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Mantine",
-		fr: "Démanta",
-		es: "Mantine",
-		it: "Mantine",
-		pt: "Mantine",
-		de: "Mantax"
+		'en-us': "Mantine",
+		'fr-fr': "Démanta",
+		'es-es': "Mantine",
+		'it-it': "Mantine",
+		'pt-br': "Mantine",
+		'de-de': "Mantax"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Mantine Surf",
-				fr: "Surf Démanta",
-				es: "Surfeo Mantine",
-				it: "Surf Mantine",
-				pt: "Surfe Mantine",
-				de: "Mantax-Surfen"
+				'en-us': "Mantine Surf",
+				'fr-fr': "Surf Démanta",
+				'es-es': "Surfeo Mantine",
+				'it-it': "Surf Mantine",
+				'pt-br': "Surfe Mantine",
+				'de-de': "Mantax-Surfen"
 			},
 			effect: {
-				en: "If this Pokémon has any Energy attached to it, it has no Retreat Cost.",
-				fr: "Si de l’Énergie est attachée à ce Pokémon, il n’a pas de Coût de Retraite.",
-				es: "Si este Pokémon tiene alguna Energía unida a él, no tiene ningún Coste de Retirada.",
-				it: "Se questo Pokémon ha delle Energie assegnate, non ha costo di ritirata.",
-				pt: "Se este Pokémon tiver alguma Energia ligada a ele, não terá custo de Recuo.",
-				de: "Wenn an dieses Pokémon mindestens 1 Energie angelegt ist, hat es keine Rückzugskosten."
+				'en-us': "If this Pokémon has any Energy attached to it, it has no Retreat Cost.",
+				'fr-fr': "Si de l’Énergie est attachée à ce Pokémon, il n’a pas de Coût de Retraite.",
+				'es-es': "Si este Pokémon tiene alguna Energía unida a él, no tiene ningún Coste de Retirada.",
+				'it-it': "Se questo Pokémon ha delle Energie assegnate, non ha costo di ritirata.",
+				'pt-br': "Se este Pokémon tiver alguma Energia ligada a ele, não terá custo de Recuo.",
+				'de-de': "Wenn an dieses Pokémon mindestens 1 Energie angelegt ist, hat es keine Rückzugskosten."
 			},
 		},
 	],
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
-				es: "Surf",
-				it: "Surf",
-				pt: "Surfar",
-				de: "Surfer"
+				'en-us': "Surf",
+				'fr-fr': "Surf",
+				'es-es': "Surf",
+				'it-it': "Surf",
+				'pt-br': "Surfar",
+				'de-de': "Surfer"
 			},
 
 			damage: 100,
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "While elegantly swimming in the sea, it ignores Remoraid that cling to its fins seeking food scraps.",
+		'en-us': "While elegantly swimming in the sea, it ignores Remoraid that cling to its fins seeking food scraps.",
 	},
 
 	thirdParty: {

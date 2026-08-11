@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホエルコ",
+		'ja-jp': "ホエルコ",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "人を 驚かせるのが 好き。 海水を 飲み込んで ボールの ように ふくらみ 弾んで 遊ぶ。",
+		'ja-jp': "人を 驚かせるのが 好き。 海水を 飲み込んで ボールの ように ふくらみ 弾んで 遊ぶ。",
 	},
 
 	stage: "Basic",

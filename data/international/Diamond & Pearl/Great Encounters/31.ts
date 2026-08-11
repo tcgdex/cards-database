@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Weezing",
-		fr: "Smogogo",
-		de: "Smogmog"
+		'en-us': "Weezing",
+		'fr-fr': "Smogogo",
+		'de-de': "Smogmog"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Koffing",
-		fr: "Smogo",
+		'en-us': "Koffing",
+		'fr-fr': "Smogo",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Toxic Virus",
-				fr: "Virus toxik",
-				de: "Giftvirus"
+				'en-us': "Toxic Virus",
+				'fr-fr': "Virus toxik",
+				'de-de': "Giftvirus"
 			},
 			effect: {
-				en: "At any time between turns, each player puts 1 more damage counter on his or her Poisoned Pokémon.",
-				fr: "N'importe quand entre deux tours, chaque joueur place 1 marqueur de dégât supplémentaire sur ses Pokémon Empoisonnés.",
-				de: "Jeder Spieler legt zu einem beliebigen Zeitpunkt zwischen zwei Zügen 1 Schadensmarke zusätzlich auf seine vergifteten Pokémon."
+				'en-us': "At any time between turns, each player puts 1 more damage counter on his or her Poisoned Pokémon.",
+				'fr-fr': "N'importe quand entre deux tours, chaque joueur place 1 marqueur de dégât supplémentaire sur ses Pokémon Empoisonnés.",
+				'de-de': "Jeder Spieler legt zu einem beliebigen Zeitpunkt zwischen zwei Zügen 1 Schadensmarke zusätzlich auf seine vergifteten Pokémon."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Offensive Gas",
-				fr: "Gaz offensif",
-				de: "Gasattacke"
+				'en-us': "Offensive Gas",
+				'fr-fr': "Gaz offensif",
+				'de-de': "Gasattacke"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus et Empoisonné.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet und verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus et Empoisonné.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet und verwirrt."
 			},
 			damage: 30,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It grows by feeding on gases released by garbage. Though very rare, triplets have been found.",
+		'en-us': "It grows by feeding on gases released by garbage. Though very rare, triplets have been found.",
 	},
 
 	thirdParty: {

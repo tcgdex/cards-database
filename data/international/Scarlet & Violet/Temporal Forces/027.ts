@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rapidash",
-		fr: "Galopa",
-		es: "Rapidash",
-		it: "Rapidash",
-		pt: "Rapidash",
-		de: "Gallopa"
+		'en-us': "Rapidash",
+		'fr-fr': "Galopa",
+		'es-es': "Rapidash",
+		'it-it': "Rapidash",
+		'pt-br': "Rapidash",
+		'de-de': "Gallopa"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Ponyta",
-		fr: "Ponyta",
-		es: "Ponyta",
-		it: "Ponyta",
-		pt: "Ponyta",
-		de: "Ponita"
+		'en-us': "Ponyta",
+		'fr-fr': "Ponyta",
+		'es-es': "Ponyta",
+		'it-it': "Ponyta",
+		'pt-br': "Ponyta",
+		'de-de': "Ponita"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Combustion",
-			fr: "Fournaise",
-			es: "Combustión",
-			it: "Fuoco Continuo",
-			pt: "Combustão",
-			de: "Glühen"
+			'en-us': "Combustion",
+			'fr-fr': "Fournaise",
+			'es-es': "Combustión",
+			'it-it': "Fuoco Continuo",
+			'pt-br': "Combustão",
+			'de-de': "Glühen"
 		},
 
 		damage: 20
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Inferno Onrush",
-			fr: "Torrent d'Enfer",
-			es: "Infierno Desatado",
-			it: "Assalto Infernale",
-			pt: "Investida Infernal",
-			de: "Inferno-Ansturm"
+			'en-us': "Inferno Onrush",
+			'fr-fr': "Torrent d'Enfer",
+			'es-es': "Infierno Desatado",
+			'it-it': "Assalto Infernale",
+			'pt-br': "Investida Infernal",
+			'de-de': "Inferno-Ansturm"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 120
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind.",
+		'en-us': "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind.",
 	},
 
 	variants: [

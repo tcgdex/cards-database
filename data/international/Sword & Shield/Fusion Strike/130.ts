@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dragapult",
-		fr: "Lanssorien",
-		es: "Dragapult",
-		it: "Dragapult",
-		pt: "Dragapult",
-		de: "Katapuldra"
+		'en-us': "Dragapult",
+		'fr-fr': "Lanssorien",
+		'es-es': "Dragapult",
+		'it-it': "Dragapult",
+		'pt-br': "Dragapult",
+		'de-de': "Katapuldra"
 	},
 
 	rarity: "Holo Rare",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Drakloak",
-		fr: "Dispareptil",
-		es: "Drakloak",
-		it: "Drakloak",
-		pt: "Drakloak",
-		de: "Phandra"
+		'en-us': "Drakloak",
+		'fr-fr': "Dispareptil",
+		'es-es': "Drakloak",
+		'it-it': "Drakloak",
+		'pt-br': "Drakloak",
+		'de-de': "Phandra"
 	},
 
 	stage: "Stage2",
@@ -34,41 +34,41 @@ const card: Card = {
 	illustrator: "Souichirou Gunjima",
 
 	description: {
-		en: "Apparently the Dreepy inside Dragapult's horns eagerly look forward to being launched out at Mach speeds."
+		'en-us': "Apparently the Dreepy inside Dragapult's horns eagerly look forward to being launched out at Mach speeds."
 	},
 
 	attacks: [{
 		cost: ["Psychic"],
 
 		name: {
-			en: "Fusion Strike Assault",
-			fr: "Assaut Poing de Fusion",
-			es: "Asalto Golpe Fusión",
-			it: "Assalto Colpo Fusione",
-			de: "Fusionsangriff-Offensive",
-			pt: "Ofensiva Golpe Fusão"
+			'en-us': "Fusion Strike Assault",
+			'fr-fr': "Assaut Poing de Fusion",
+			'es-es': "Asalto Golpe Fusión",
+			'it-it': "Assalto Colpo Fusione",
+			'de-de': "Fusionsangriff-Offensive",
+			'pt-br': "Ofensiva Golpe Fusão"
 		},
 
 		damage: "30×",
 
 		effect: {
-			en: "This attack does 30 damage for each of your Fusion Strike Pokémon in play.",
-			fr: "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon Poing de Fusion en jeu.",
-			es: "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon Golpe Fusión en juego.",
-			it: "Questo attacco infligge 30 danni per ogni tuo Pokémon Colpo Fusione in gioco.",
-			de: "Diese Attacke fügt für jedes deiner Fusionsangriff-Pokémon im Spiel 30 Schadenspunkte zu.",
-			pt: "Este ataque causa 30 pontos de dano para cada um dos seus Pokémon Golpe Fusão em jogo."
+			'en-us': "This attack does 30 damage for each of your Fusion Strike Pokémon in play.",
+			'fr-fr': "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon Poing de Fusion en jeu.",
+			'es-es': "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon Golpe Fusión en juego.",
+			'it-it': "Questo attacco infligge 30 danni per ogni tuo Pokémon Colpo Fusione in gioco.",
+			'de-de': "Diese Attacke fügt für jedes deiner Fusionsangriff-Pokémon im Spiel 30 Schadenspunkte zu.",
+			'pt-br': "Este ataque causa 30 pontos de dano para cada um dos seus Pokémon Golpe Fusão em jogo."
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Speed Attack",
-			fr: "Attaque Rapide",
-			es: "Ataque Fugaz",
-			it: "Attacco Veloce",
-			de: "Tempoangriff",
-			pt: "Ataque em Velocidade"
+			'en-us': "Speed Attack",
+			'fr-fr': "Attaque Rapide",
+			'es-es': "Ataque Fugaz",
+			'it-it': "Attacco Veloce",
+			'de-de': "Tempoangriff",
+			'pt-br': "Ataque em Velocidade"
 		},
 
 		damage: 120

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Dusclops ex",
-		fr: "Teraclope ex",
-		de: "Zwirrklop ex"
+		'en-us': "Dusclops ex",
+		'fr-fr': "Teraclope ex",
+		'de-de': "Zwirrklop ex"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Duskull",
-		fr: "Skelénox"
+		'en-us': "Duskull",
+		'fr-fr': "Skelénox"
 	},
 
 	suffix: "ex",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Dark Hole",
-				fr: "Trou obscur",
-				de: "Dark Hole"
+				'en-us': "Dark Hole",
+				'fr-fr': "Trou obscur",
+				'de-de': "Dark Hole"
 			},
 			effect: {
-				en: "As long as Dusclops ex is on your Bench, don't apply Darkness Weakness for all of your Pokémon in play.",
-				fr: "Tant que Teraclope ex est sur votre Banc, vous ne pouvez pas appliquer la Faiblesse  aux Pokémon que vous avez en jeu.",
-				de: "As long as Dusclops ex is on your Bench, don't apply  Weakness for all of your Pokémon in play."
+				'en-us': "As long as Dusclops ex is on your Bench, don't apply Darkness Weakness for all of your Pokémon in play.",
+				'fr-fr': "Tant que Teraclope ex est sur votre Banc, vous ne pouvez pas appliquer la Faiblesse  aux Pokémon que vous avez en jeu.",
+				'de-de': "As long as Dusclops ex is on your Bench, don't apply  Weakness for all of your Pokémon in play."
 			},
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Shadow Beam",
-				fr: "Rayon d'ombre",
-				de: "Shadow Beam"
+				'en-us': "Shadow Beam",
+				'fr-fr': "Rayon d'ombre",
+				'de-de': "Shadow Beam"
 			},
 			effect: {
-				en: "Put 2 damage counters on the Defending Pokémon for each Energy attached to Dusclops ex.",
-				fr: "Placez 2 marqueurs de dégât sur le Pokémon Défenseur pour chaque Énergie attachée à Teraclope ex.",
-				de: "Put 2 damage counters on the Defending Pokémon for each Energy attached to Dusclops ex."
+				'en-us': "Put 2 damage counters on the Defending Pokémon for each Energy attached to Dusclops ex.",
+				'fr-fr': "Placez 2 marqueurs de dégât sur le Pokémon Défenseur pour chaque Énergie attachée à Teraclope ex.",
+				'de-de': "Put 2 damage counters on the Defending Pokémon for each Energy attached to Dusclops ex."
 			},
 
 		},

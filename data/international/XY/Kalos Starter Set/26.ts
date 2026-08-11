@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Kalos Starter Set'
 
 const card: Card = {
 	name: {
-		en: "Snorlax",
-		fr: "Ronflex",
-		es: "Snorlax",
-		it: "Snorlax",
-		pt: "Snorlax",
-		de: "Relaxo"
+		'en-us': "Snorlax",
+		'fr-fr': "Ronflex",
+		'es-es': "Snorlax",
+		'it-it': "Snorlax",
+		'pt-br': "Snorlax",
+		'de-de': "Relaxo"
 	},
 
 	illustrator: "Naoki Saito",
@@ -36,20 +36,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Smash",
-				fr: "Éclate-Roc",
-				es: "Golpe Roca",
-				it: "Spaccaroccia",
-				pt: "Esmagamento de Pedras",
-				de: "Zertrümmerer"
+				'en-us': "Rock Smash",
+				'fr-fr': "Éclate-Roc",
+				'es-es': "Golpe Roca",
+				'it-it': "Spaccaroccia",
+				'pt-br': "Esmagamento de Pedras",
+				'de-de': "Zertrümmerer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
-				pt: "Jogue uma moeda. Se sair cara, este ataque causará 30 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+				'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 30 de danos adicionais.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: '10+',
 
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strength",
-				fr: "Force",
-				es: "Fuerza",
-				it: "Forza",
-				pt: "Força",
-				de: "Stärke"
+				'en-us': "Strength",
+				'fr-fr': "Force",
+				'es-es': "Fuerza",
+				'it-it': "Forza",
+				'pt-br': "Força",
+				'de-de': "Stärke"
 			},
 
 			damage: 70,
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
+		'en-us': "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
 	},
 
 	thirdParty: {

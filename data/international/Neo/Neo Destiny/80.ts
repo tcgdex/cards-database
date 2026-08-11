@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Remoraid",
-		fr: "Rémoraid",
-		de: "Remoraid"
+		'en-us': "Remoraid",
+		'fr-fr': "Rémoraid",
+		'de-de': "Remoraid"
 	},
 
 	illustrator: undefined,
@@ -31,14 +31,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Fury Strikes",
-				fr: "Attaques furieuses",
-				de: "Fury Strikes"
+				'en-us': "Fury Strikes",
+				'fr-fr': "Attaques furieuses",
+				'de-de': "Fury Strikes"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 3 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 3 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10x",
 
@@ -53,8 +53,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It can shoot a burst of water from its mouth to propel itself backward at high speeds, allowing it to flee from surprised enemies.",
-		fr: "Il peut lancer de l'eau avec sa gueule pour se propulser en arrière à grande vitesse, ce qui lui permet d'échapper à ses ennemis."
+		'en-us': "It can shoot a burst of water from its mouth to propel itself backward at high speeds, allowing it to flee from surprised enemies.",
+		'fr-fr': "Il peut lancer de l'eau avec sa gueule pour se propulser en arrière à grande vitesse, ce qui lui permet d'échapper à ses ennemis."
 	},
 
 

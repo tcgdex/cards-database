@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Chikorita",
-		fr: "Germignon",
-		es: "Chikorita",
-		it: "Chikorita",
-		pt: "Chikorita",
-		de: "Endivie"
+		'en-us': "Chikorita",
+		'fr-fr': "Germignon",
+		'es-es': "Chikorita",
+		'it-it': "Chikorita",
+		'pt-br': "Chikorita",
+		'de-de': "Endivie"
 	},
 
 	illustrator: "Aya Kusube",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Synthesis",
-				fr: "Synthèse",
-				es: "Síntesis",
-				it: "Sintesi",
-				pt: "Síntese",
-				de: "Synthese"
+				'en-us': "Synthesis",
+				'fr-fr': "Synthèse",
+				'es-es': "Síntesis",
+				'it-it': "Sintesi",
+				'pt-br': "Síntese",
+				'de-de': "Synthese"
 			},
 			effect: {
-				en: "Search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.",
-				fr: "Cherchez une carte Énergie Grass dans votre deck et attachez-la à l’un de vos Pokémon. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja 1 carta de Energía Grass y únela a 1 de tus Pokémon. Después, baraja las cartas de tu baraja.",
-				it: "Cerca nel tuo mazzo una carta Energia Grass e assegnala a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure por 1 carta de Energia Grass no seu baralho e ligue-a a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach 1 Grass-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
+				'en-us': "Search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.",
+				'fr-fr': "Cherchez une carte Énergie Grass dans votre deck et attachez-la à l’un de vos Pokémon. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja 1 carta de Energía Grass y únela a 1 de tus Pokémon. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo una carta Energia Grass e assegnala a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por 1 carta de Energia Grass no seu baralho e ligue-a a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach 1 Grass-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch’Herbe",
-				es: "Hoja Afilada",
-				it: "Foglielama",
-				pt: "Folha Navalha",
-				de: "Rasierblatt"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch’Herbe",
+				'es-es': "Hoja Afilada",
+				'it-it': "Foglielama",
+				'pt-br': "Folha Navalha",
+				'de-de': "Rasierblatt"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It uses the leaf on its head to determine the temperature and humidity. It loves to sunbathe.",
+		'en-us': "It uses the leaf on its head to determine the temperature and humidity. It loves to sunbathe.",
 	},
 
 	thirdParty: {

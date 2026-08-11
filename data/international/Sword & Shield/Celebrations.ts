@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sword & Shield'
 
 const cel25: Set = {
 	id: "cel25",
 
 	name: {
-		en: "Celebrations",
-		fr: "Célébrations",
-		es: "Celebraciones",
-		de: "Celebrations",
-		it: "Gran Festa",
-		pt: "Celebrações"
+		'en-us': "Celebrations",
+		'fr-fr': "Célébrations",
+		'es-es': "Celebraciones",
+		'de-de': "Celebrations",
+		'it-it': "Gran Festa",
+		'pt-br': "Celebrações"
 	},
 
 	tcgOnline: 'CEL',
@@ -24,7 +24,7 @@ const cel25: Set = {
 
 	abbreviations: {
 		official: "CEL",
-		fr: "CEL"
+		'fr-fr': "CEL"
 	},
 
 	thirdParty: {

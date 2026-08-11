@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フシギソウ",
+		'ja-jp': "フシギソウ",
 	},
 
 	illustrator: "mashu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "太陽の 光を 浴びるほど 体に 力が わいて 背中の つぼみが 育っていく。",
+		'ja-jp': "太陽の 光を 浴びるほど 体に 力が わいて 背中の つぼみが 育っていく。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "holo"}],
 
 	evolveFrom: {
-		ja: "フシギダネ",
+		'ja-jp': "フシギダネ",
 	},
 
 	retreat: 3,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Alolan Graveler",
-		fr: "Gravalanch d’Alola",
-		es: "Graveler de Alola",
-		it: "Graveler di Alola",
-		pt: "Graveler de Alola",
-		de: "Alola-Georok"
+		'en-us': "Alolan Graveler",
+		'fr-fr': "Gravalanch d’Alola",
+		'es-es': "Graveler de Alola",
+		'it-it': "Graveler di Alola",
+		'pt-br': "Graveler de Alola",
+		'de-de': "Alola-Georok"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Alolan Geodude",
-		fr: "Racaillou d’Alola",
+		'en-us': "Alolan Geodude",
+		'fr-fr': "Racaillou d’Alola",
 	},
 
 	stage: "Stage1",
@@ -37,12 +37,12 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				es: "Desenrollar",
-				it: "Rotolamento",
-				pt: "Rolagem",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'es-es': "Desenrollar",
+				'it-it': "Rotolamento",
+				'pt-br': "Rolagem",
+				'de-de': "Walzer"
 			},
 
 			damage: 30,
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electroslug",
-				fr: "Électro Frappe",
-				es: "Electropuñetazo",
-				it: "Elettropugno",
-				pt: "Lesma Elétrica",
-				de: "Elektroschuss"
+				'en-us': "Electroslug",
+				'fr-fr': "Électro Frappe",
+				'es-es': "Electropuñetazo",
+				'it-it': "Elettropugno",
+				'pt-br': "Lesma Elétrica",
+				'de-de': "Elektroschuss"
 			},
 
 			damage: 100,
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "When two Graveler fight each other, it fills the surroundings with flashes of light and sound. People call it the \"fireworks of the earth.\"",
+		'en-us': "When two Graveler fight each other, it fills the surroundings with flashes of light and sound. People call it the \"fireworks of the earth.\"",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Buizel",
-		fr: "Mustébouée",
-		de: "Bamelin",
-		it: "Buizel",
-		es: "Buizel",
-		pt: "Buizel",
+		'en-us': "Buizel",
+		'fr-fr': "Mustébouée",
+		'de-de': "Bamelin",
+		'it-it': "Buizel",
+		'es-es': "Buizel",
+		'pt-br': "Buizel",
 		'es-mx': "Buizel"
 	},
 
@@ -28,12 +28,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Tail Whap",
-			fr: "Queue Battoir",
-			de: "Schweifvertrimmer",
-			it: "Codabotta",
-			es: "Coletón",
-			pt: "Surra de Cauda",
+			'en-us': "Tail Whap",
+			'fr-fr': "Queue Battoir",
+			'de-de': "Schweifvertrimmer",
+			'it-it': "Codabotta",
+			'es-es': "Coletón",
+			'pt-br': "Surra de Cauda",
 			'es-mx': "Coletón"
 		},
 
@@ -42,12 +42,12 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Wave Splash",
-			fr: "Grosse Vague",
-			de: "Wellenplatscher",
-			it: "Schizzi d'Onda",
-			es: "Chapoteo Ondulante",
-			pt: "Onda Borrifante",
+			'en-us': "Wave Splash",
+			'fr-fr': "Grosse Vague",
+			'de-de': "Wellenplatscher",
+			'it-it': "Schizzi d'Onda",
+			'es-es': "Chapoteo Ondulante",
+			'pt-br': "Onda Borrifante",
 			'es-mx': "Acuasalpicadura"
 		},
 

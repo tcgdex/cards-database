@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワルビル",
+		'ja-jp': "ワルビル",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "数匹の 群れを 成して 行動。 群れの 中心は ♀の 場合が 多く ♂たちが 餌を 集める。",
+		'ja-jp': "数匹の 群れを 成して 行動。 群れの 中心は ♀の 場合が 多く ♂たちが 餌を 集める。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手の手札からオモテを見ないで、1枚トラッシュする。",
+				'ja-jp': "相手の手札からオモテを見ないで、1枚トラッシュする。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "メグロコ",
+		'ja-jp': "メグロコ",
 	},
 
 	retreat: 2,

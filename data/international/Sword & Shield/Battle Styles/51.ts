@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tapu Koko VMAX",
-		fr: "Tokorico VMAX",
-		es: "Tapu Koko VMAX",
-		it: "Tapu Koko VMAX",
-		pt: "Tapu Koko VMAX",
-		de: "Kapu-Riki VMAX"
+		'en-us': "Tapu Koko VMAX",
+		'fr-fr': "Tokorico VMAX",
+		'es-es': "Tapu Koko VMAX",
+		'it-it': "Tapu Koko VMAX",
+		'pt-br': "Tapu Koko VMAX",
+		'de-de': "Kapu-Riki VMAX"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -21,31 +21,31 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Tapu Koko V",
-		fr: "Tokorico-V",
-		es: "Tapu Koko V",
-		it: "Tapu Koko-V",
-		pt: "Tapu Koko V",
-		de: "Kapu-Riki-V"
+		'en-us': "Tapu Koko V",
+		'fr-fr': "Tokorico-V",
+		'es-es': "Tapu Koko V",
+		'it-it': "Tapu Koko-V",
+		'pt-br': "Tapu Koko V",
+		'de-de': "Kapu-Riki-V"
 	},
 
 	attacks: [{
 		name: {
-			en: "Max Shock",
-			fr: "Éclairomax",
-			es: "Maxidescarga",
-			it: "Dynashock",
-			pt: "Eletrochoque Max",
-			de: "Dyna-Schock"
+			'en-us': "Max Shock",
+			'fr-fr': "Éclairomax",
+			'es-es': "Maxidescarga",
+			'it-it': "Dynashock",
+			'pt-br': "Eletrochoque Max",
+			'de-de': "Dyna-Schock"
 		},
 
 		effect: {
-			en: "If you have more Prize cards remaining than your opponent, their Active Pokémon is now Paralyzed.",
-			fr: "S'il vous reste plus de cartes Récompense qu'à votre adversaire, son Pokémon Actif est maintenant Paralysé.",
-			es: "Si te quedan más cartas de Premio que a tu rival, su Pokémon Activo pasa a estar Paralizado.",
-			it: "Se hai più carte Premio rimanenti del tuo avversario, il suo Pokémon attivo viene paralizzato.",
-			pt: "Se você tiver mais cartas de Prêmio restantes do que seu oponente, o Pokémon Ativo dele(a) ficará Paralisado.",
-			de: "Wenn du mehr verbleibende Preiskarten hast als dein Gegner, ist sein Aktives Pokémon jetzt paralysiert."
+			'en-us': "If you have more Prize cards remaining than your opponent, their Active Pokémon is now Paralyzed.",
+			'fr-fr': "S'il vous reste plus de cartes Récompense qu'à votre adversaire, son Pokémon Actif est maintenant Paralysé.",
+			'es-es': "Si te quedan más cartas de Premio que a tu rival, su Pokémon Activo pasa a estar Paralizado.",
+			'it-it': "Se hai più carte Premio rimanenti del tuo avversario, il suo Pokémon attivo viene paralizzato.",
+			'pt-br': "Se você tiver mais cartas de Prêmio restantes do que seu oponente, o Pokémon Ativo dele(a) ficará Paralisado.",
+			'de-de': "Wenn du mehr verbleibende Preiskarten hast als dein Gegner, ist sein Aktives Pokémon jetzt paralysiert."
 		},
 
 		damage: 180,

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Magmar",
-		fr: "Magmar",
+		'en-us': "Magmar",
+		'fr-fr': "Magmar",
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -31,8 +31,8 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fire Punch",
-				fr: "Poing de Feu",
+				'en-us': "Fire Punch",
+				'fr-fr': "Poing de Feu",
 			},
 
 			damage: 50,
@@ -50,7 +50,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its entire body is burning. When it breathes, the temperature rises. When it sneezes, flames shoot out!",
+		'en-us': "Its entire body is burning. When it breathes, the temperature rises. When it sneezes, flames shoot out!",
 	},
 
 	thirdParty: {

@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Toxicroak",
-		fr: "Coatox",
-		de: "Toxiquak",
-		it: "Toxicroak",
-		es: "Toxicroak",
-		pt: "Toxicroak",
+		'en-us': "Toxicroak",
+		'fr-fr': "Coatox",
+		'de-de': "Toxiquak",
+		'it-it': "Toxicroak",
+		'es-es': "Toxicroak",
+		'pt-br': "Toxicroak",
 		'es-mx': "Toxicroak"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Croagunk",
-		fr: "Cradopaud",
-		de: "Glibunkel",
-		it: "Croagunk",
-		es: "Croagunk",
-		pt: "Croagunk",
+		'en-us': "Croagunk",
+		'fr-fr': "Cradopaud",
+		'de-de': "Glibunkel",
+		'it-it': "Croagunk",
+		'es-es': "Croagunk",
+		'pt-br': "Croagunk",
 		'es-mx': "Croagunk"
 	},
 	stage: "Stage1",
@@ -35,22 +35,22 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Reckless Charge",
-			fr: "Attaque Imprudente",
-			de: "Waghalsiger Sturmangriff",
-			it: "Carica Avventata",
-			es: "Carga Descuidada",
-			pt: "Carga Indomável",
+			'en-us': "Reckless Charge",
+			'fr-fr': "Attaque Imprudente",
+			'de-de': "Waghalsiger Sturmangriff",
+			'it-it': "Carica Avventata",
+			'es-es': "Carga Descuidada",
+			'pt-br': "Carga Indomável",
 			'es-mx': "Carga Temeraria"
 		},
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 20 dégâts.",
-			de: "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu.",
-			it: "Questo Pokémon infligge anche 20 danni a se stesso.",
-			es: "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 20 pontos de dano a si mesmo.",
+			'en-us': "This Pokémon also does 20 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 20 dégâts.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu.",
+			'it-it': "Questo Pokémon infligge anche 20 danni a se stesso.",
+			'es-es': "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
+			'pt-br': "Este Pokémon também causa 20 pontos de dano a si mesmo.",
 			'es-mx': "Este Pokémon también se hace 20 puntos de daño a sí mismo."
 		},
 

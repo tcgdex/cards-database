@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シェイミ",
+		'ja-jp': "シェイミ",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "グラシデアの花が 咲く 季節 感謝の 心を 届けるために 飛び立つと 言われている。",
+		'ja-jp': "グラシデアの花が 咲く 季節 感謝の 心を 届けるために 飛び立つと 言われている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Grass", "Grass"],
 			effect: {
-				ja: "自分の場のポケモンについている基本エネルギーの数x30ダメージ。",
+				'ja-jp': "自分の場のポケモンについている基本エネルギーの数x30ダメージ。",
 			},
 		},
 	],

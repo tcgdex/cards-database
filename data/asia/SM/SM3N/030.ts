@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダゲキ",
+		'ja-jp': "ダゲキ",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "最強の からてチョップを 求めて 山奥に こもって 眠ることなく 修行する。",
+		'ja-jp': "最強の からてチョップを 求めて 山奥に こもって 眠ることなく 修行する。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ファストガード" },
 			cost: ["Fighting"],
 			effect: {
-				ja: "次の相手の番、このポケモンはたねポケモンからワザのダメージを受けない。次の自分の番、このポケモンは「ファストガード」が使えない。",
+				'ja-jp': "次の相手の番、このポケモンはたねポケモンからワザのダメージを受けない。次の自分の番、このポケモンは「ファストガード」が使えない。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは、抵抗力と相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、抵抗力と相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 	],

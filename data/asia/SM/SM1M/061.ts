@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラランテスGX",
+		'ja-jp': "ラランテスGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Grass"],
 			effect: {
-				ja: "自分のトラッシュにある基本エネルギーを2枚、自分のポケモンに好きなようにつける。",
+				'ja-jp': "自分のトラッシュにある基本エネルギーを2枚、自分のポケモンに好きなようにつける。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Grass", "Grass", "Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「30」回復する。",
+				'ja-jp': "このポケモンのHPを「30」回復する。",
 			},
 		},
 		{
@@ -36,7 +36,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Grass"],
 			effect: {
-				ja: "このポケモンについている[草]エネルギーの数x50ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "このポケモンについている[草]エネルギーの数x50ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -54,7 +54,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カリキリ",
+		'ja-jp': "カリキリ",
 	},
 
 	retreat: 2,

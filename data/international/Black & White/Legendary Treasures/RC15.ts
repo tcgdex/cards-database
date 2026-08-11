@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Teddiursa",
+		'en-us': "Teddiursa",
 	},
 
 	illustrator: "kirisAki",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Honey Snack",
+				'en-us': "Honey Snack",
 			},
 			effect: {
-				en: "Heal 20 damage from this Pokémon.",
+				'en-us': "Heal 20 damage from this Pokémon.",
 			},
 
 		},
@@ -42,7 +42,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
+				'en-us': "Scratch",
 			},
 
 			damage: 20,
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It lets honey soak into its paws so it can lick them all the time. Every set of paws tastes unique.",
+		'en-us': "It lets honey soak into its paws so it can lick them all the time. Every set of paws tastes unique.",
 	},
 
 	thirdParty: {

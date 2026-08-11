@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Ralts",
-		fr: "Tarsal",
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal",
 	},
 	illustrator: "Kyoko Umemoto",
 	rarity: "Shiny rare",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Draining Kiss",
-				fr: "Vampibaiser",
+				'en-us': "Draining Kiss",
+				'fr-fr': "Vampibaiser",
 			},
 			effect: {
-				en: "Heal 10 damage from this Pokémon.",
-				fr: "Soignez 10 dégâts à ce Pokémon.",
+				'en-us': "Heal 10 damage from this Pokémon.",
+				'fr-fr': "Soignez 10 dégâts à ce Pokémon.",
 			},
 			damage: 10,
 
@@ -57,7 +57,7 @@ const card: Card = {
 
 
 	description: {
-		en: "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
+		'en-us': "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
 	},
 }
 

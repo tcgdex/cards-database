@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Cubone",
-		fr: "Osselait",
-		de: "Tragosso"
+		'en-us': "Cubone",
+		'fr-fr': "Osselait",
+		'de-de': "Tragosso"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Bone Attack",
-				fr: "Attaque d'os",
-				de: "Bone Attack"
+				'en-us': "Bone Attack",
+				'fr-fr': "Attaque d'os",
+				'de-de': "Bone Attack"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Flip a coin. If tails, this attack does nothing."
 			},
 			damage: 20,
 

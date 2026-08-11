@@ -1,13 +1,13 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../POP'
 
 const pop5: Set = {
 	id: "pop5",
 
 	name: {
-		en: "POP Series 5",
-		it: "POP Serie 5",
-		de: "POP Serie 5",
+		'en-us': "POP Series 5",
+		'it-it': "POP Serie 5",
+		'de-de': "POP Serie 5",
 	},
 
 	serie: serie,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤングース",
+		'ja-jp': "ヤングース",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "長い 胴体の 中身は ほとんど 胃袋。 大食いなので エサ代は バカに ならない。",
+		'ja-jp': "長い 胴体の 中身は ほとんど 胃袋。 大食いなので エサ代は バカに ならない。",
 	},
 
 	stage: "Basic",

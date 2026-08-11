@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Tangela",
-		fr: "Saquedeneu",
-		es: "Tangela",
-		it: "Tangela",
-		pt: "Tangela",
-		de: "Tangela"
+		'en-us': "Tangela",
+		'fr-fr': "Saquedeneu",
+		'es-es': "Tangela",
+		'it-it': "Tangela",
+		'pt-br': "Tangela",
+		'de-de': "Tangela"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gentle Slap",
-				fr: "Gifle Douce",
-				es: "Bofetada Gentil",
-				it: "Schiaffetto",
-				pt: "Tapinha",
-				de: "Sanfter Hieb"
+				'en-us': "Gentle Slap",
+				'fr-fr': "Gifle Douce",
+				'es-es': "Bofetada Gentil",
+				'it-it': "Schiaffetto",
+				'pt-br': "Tapinha",
+				'de-de': "Sanfter Hieb"
 			},
 
 			damage: 20,
@@ -53,20 +53,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bind",
-				fr: "Étreinte",
-				es: "Atadura",
-				it: "Legatutto",
-				pt: "Ligação",
-				de: "Klammergriff"
+				'en-us': "Bind",
+				'fr-fr': "Étreinte",
+				'es-es': "Atadura",
+				'it-it': "Legatutto",
+				'pt-br': "Ligação",
+				'de-de': "Klammergriff"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 40,
 
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It tangles any moving thing with its vines. Their subtle shaking is ticklish if you get ensnared.",
+		'en-us': "It tangles any moving thing with its vines. Their subtle shaking is ticklish if you get ensnared.",
 	},
 
 	thirdParty: {

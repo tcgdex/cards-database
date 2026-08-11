@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Seel",
-		fr: "Otaria",
-		es: "Seel",
-		it: "Seel",
-		pt: "Seel",
-		de: "Jurob"
+		'en-us': "Seel",
+		'fr-fr': "Otaria",
+		'es-es': "Seel",
+		'it-it': "Seel",
+		'pt-br': "Seel",
+		'de-de': "Jurob"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Attack",
-				fr: "Koud’Korne",
-				es: "Cornada",
-				it: "Incornata",
-				pt: "Ataque de Chifre",
-				de: "Hornattacke"
+				'en-us': "Horn Attack",
+				'fr-fr': "Koud’Korne",
+				'es-es': "Cornada",
+				'it-it': "Incornata",
+				'pt-br': "Ataque de Chifre",
+				'de-de': "Hornattacke"
 			},
 
 			damage: 30,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has always been supposed that Seel live only in cold seas. Their having shown up in Alola is a mystery.",
+		'en-us': "It has always been supposed that Seel live only in cold seas. Their having shown up in Alola is a mystery.",
 	},
 
 	thirdParty: {

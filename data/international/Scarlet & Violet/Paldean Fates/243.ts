@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Miraidon ex",
-		fr: "Miraidon-ex",
-		es: "Miraidon ex",
-		it: "Miraidon-ex",
-		de: "Miraidon-ex",
-		pt: "Miraidon ex"
+		'en-us': "Miraidon ex",
+		'fr-fr': "Miraidon-ex",
+		'es-es': "Miraidon ex",
+		'it-it': "Miraidon-ex",
+		'de-de': "Miraidon-ex",
+		'pt-br': "Miraidon ex"
 	},
 
 	rarity: "Hyper rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Tandem Unit",
-			fr: "Unité Tandem",
-			es: "Unidad Tándem",
-			it: "Unità Duplice",
-			de: "Tandem-Aggregat",
-			pt: "Unidade Tandem"
+			'en-us': "Tandem Unit",
+			'fr-fr': "Unité Tandem",
+			'es-es': "Unidad Tándem",
+			'it-it': "Unità Duplice",
+			'de-de': "Tandem-Aggregat",
+			'pt-br': "Unidade Tandem"
 		},
 
 		effect: {
-			en: "Once during your turn, you may search your deck for up to 2 Basic {L} Pokémon and put them onto your Bench. Then, shuffle your deck.",
-			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck jusqu'à 2 Pokémon {L} de base, puis les placer sur votre Banc. Mélangez ensuite votre deck.",
-			es: "Una vez durante tu turno, puedes buscar en tu baraja hasta 2 Pokémon {L} Básicos y ponerlos en tu Banca. Después, baraja las cartas de tu baraja.",
-			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo fino a due Pokémon Base {L} e metterli nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-			de: "Einmal während deines Zuges kannst du dein Deck nach bis zu 2 Basis-{L}-Pokémon durchsuchen und sie auf deine Bank legen. Mische anschließend dein Deck.",
-			pt: "Uma vez durante o seu turno, você poderá procurar por até 2 Pokémon {L} Básicos no seu baralho e colocá-los no seu Banco. Em seguida, embaralhe o seu baralho."
+			'en-us': "Once during your turn, you may search your deck for up to 2 Basic {L} Pokémon and put them onto your Bench. Then, shuffle your deck.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez chercher dans votre deck jusqu'à 2 Pokémon {L} de base, puis les placer sur votre Banc. Mélangez ensuite votre deck.",
+			'es-es': "Una vez durante tu turno, puedes buscar en tu baraja hasta 2 Pokémon {L} Básicos y ponerlos en tu Banca. Después, baraja las cartas de tu baraja.",
+			'it-it': "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo fino a due Pokémon Base {L} e metterli nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+			'de-de': "Einmal während deines Zuges kannst du dein Deck nach bis zu 2 Basis-{L}-Pokémon durchsuchen und sie auf deine Bank legen. Mische anschließend dein Deck.",
+			'pt-br': "Uma vez durante o seu turno, você poderá procurar por até 2 Pokémon {L} Básicos no seu baralho e colocá-los no seu Banco. Em seguida, embaralhe o seu baralho."
 		}
 	}],
 
@@ -46,21 +46,21 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			en: "Photon Blaster",
-			fr: "Réacteur à Photons",
-			es: "Cohete Fotónico",
-			it: "Esplosione Fotonica",
-			de: "Photonenblaster",
-			pt: "Detonador de Fótons"
+			'en-us': "Photon Blaster",
+			'fr-fr': "Réacteur à Photons",
+			'es-es': "Cohete Fotónico",
+			'it-it': "Esplosione Fotonica",
+			'de-de': "Photonenblaster",
+			'pt-br': "Detonador de Fótons"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar."
 		},
 
 		damage: 220

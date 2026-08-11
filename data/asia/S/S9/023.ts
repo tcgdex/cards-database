@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "龍蝦小兵",
-		ja: "ヘイガニ"
+		'ja-jp': "ヘイガニ"
 	},
 
 	illustrator: "Sekio",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "有著頑強生命力的寶可夢。不論河裡的水有多髒 都能適應並繁衍後代。",
-		ja: "どんなに 水が 汚れた 川でも 適応して 増えていく タフな 生命力の 持ち主。"
+		'ja-jp': "どんなに 水が 汚れた 川でも 適応して 増えていく タフな 生命力の 持ち主。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "水槍",
-			ja: "みずでっぽう"
+			'ja-jp': "みずでっぽう"
 		},
 
 		damage: 10,
@@ -32,7 +32,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "蟹鉗錘",
-			ja: "クラブハンマー"
+			'ja-jp': "クラブハンマー"
 		},
 
 		damage: 50,

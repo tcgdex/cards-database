@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HGSS Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Hoothoot",
-		fr: "Hoothoot"
+		'en-us': "Hoothoot",
+		'fr-fr': "Hoothoot"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Promo",
@@ -23,12 +23,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Insomnia",
-				fr: "Insomnia"
+				'en-us': "Insomnia",
+				'fr-fr': "Insomnia"
 			},
 			effect: {
-				en: "Hoothoot can't be Asleep.",
-				fr: "Hoothoot ne peut pas être endormi."
+				'en-us': "Hoothoot can't be Asleep.",
+				'fr-fr': "Hoothoot ne peut pas être endormi."
 			}
 		},
 	],
@@ -38,8 +38,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic"
+				'en-us': "Peck",
+				'fr-fr': "Picpic"
 			},
 
 			damage: 10,
@@ -62,7 +62,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It has a perfect sense of time. Whatever happens, it keeps rhythm by precisely tilting its head in time."
+		'en-us': "It has a perfect sense of time. Whatever happens, it keeps rhythm by precisely tilting its head in time."
 	},
 
 	variants: [

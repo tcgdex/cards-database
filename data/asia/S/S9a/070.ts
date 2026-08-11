@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "アヤシシ"
+		'ja-jp': "アヤシシ"
 	},
 
 	illustrator: "kirisAki",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "目に見えぬ 壁を 作りしとき 黒き珠 妖しく 輝きたり。 抜け落ちし 髭は 暖かく 冬衣の 原料に 重宝す。"
+		'ja-jp': "目に見えぬ 壁を 作りしとき 黒き珠 妖しく 輝きたり。 抜け落ちし 髭は 暖かく 冬衣の 原料に 重宝す。"
 	},
 
 	stage: "Stage1",
@@ -24,11 +24,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "いそぎあし"
+			'ja-jp': "いそぎあし"
 		},
 
 		effect: {
-			ja: "自分の番に1回使える。自分の山札を1枚引く。"
+			'ja-jp': "自分の番に1回使える。自分の山札を1枚引く。"
 		}
 	}],
 
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "じんつうりき"
+			'ja-jp': "じんつうりき"
 		},
 
 		damage: "40＋",
 
 		effect: {
-			ja: "自分の手札と相手の手札が同じ枚数なら、80ダメージ追加。"
+			'ja-jp': "自分の手札と相手の手札が同じ枚数なら、80ダメージ追加。"
 		}
 	}],
 

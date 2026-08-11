@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spiritomb",
-		fr: "Spiritomb",
-		es: "Spiritomb",
-		it: "Spiritomb",
-		pt: "Spiritomb",
-		de: "Kryppuk"
+		'en-us': "Spiritomb",
+		'fr-fr': "Spiritomb",
+		'es-es': "Spiritomb",
+		'it-it': "Spiritomb",
+		'pt-br': "Spiritomb",
+		'de-de': "Kryppuk"
 	},
 
 	rarity: "Shiny rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Fettered in Misfortune",
-			fr: "Entrave de la Malchance",
-			es: "Atadura del Infortunio",
-			it: "Catene Sventurate",
-			pt: "Unidos por Azar",
-			de: "Fesseln des Unglücks"
+			'en-us': "Fettered in Misfortune",
+			'fr-fr': "Entrave de la Malchance",
+			'es-es': "Atadura del Infortunio",
+			'it-it': "Catene Sventurate",
+			'pt-br': "Unidos por Azar",
+			'de-de': "Fesseln des Unglücks"
 		},
 
 		effect: {
-			en: "Basic Pokémon V in play (both yours and your opponent's) have no Abilities.",
-			fr: "Les Pokémon-V de base en jeu (les vôtres et ceux de votre adversaire) n'ont pas de talent.",
-			es: "Los Pokémon V Básicos en juego (tanto tuyos como de tu rival) no tienen ninguna habilidad.",
-			it: "I Pokémon-V Base in gioco, sia tuoi che del tuo avversario, non hanno abilità.",
-			pt: "Pokémon V Básicos em jogo (seus e do seu oponente) não têm Habilidades.",
-			de: "Basis-Pokémon-V im Spiel (deine und die deines Gegners) haben keine Fähigkeiten."
+			'en-us': "Basic Pokémon V in play (both yours and your opponent's) have no Abilities.",
+			'fr-fr': "Les Pokémon-V de base en jeu (les vôtres et ceux de votre adversaire) n'ont pas de talent.",
+			'es-es': "Los Pokémon V Básicos en juego (tanto tuyos como de tu rival) no tienen ninguna habilidad.",
+			'it-it': "I Pokémon-V Base in gioco, sia tuoi che del tuo avversario, non hanno abilità.",
+			'pt-br': "Pokémon V Básicos em jogo (seus e do seu oponente) não têm Habilidades.",
+			'de-de': "Basis-Pokémon-V im Spiel (deine und die deines Gegners) haben keine Fähigkeiten."
 		}
 	}],
 
@@ -46,21 +46,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Fade Out",
-			fr: "Faiblir",
-			es: "Difuminar",
-			it: "Dissolvenza",
-			pt: "Desaparecer",
-			de: "Ausblenden"
+			'en-us': "Fade Out",
+			'fr-fr': "Faiblir",
+			'es-es': "Difuminar",
+			'it-it': "Dissolvenza",
+			'pt-br': "Desaparecer",
+			'de-de': "Ausblenden"
 		},
 
 		effect: {
-			en: "Put this Pokémon and all attached cards into your hand.",
-			fr: "Ajoutez à votre main ce Pokémon et toutes les cartes qui lui sont attachées.",
-			es: "Pon este Pokémon y todas las cartas unidas a él en tu mano.",
-			it: "Riprendi in mano questo Pokémon e tutte le carte a esso assegnate.",
-			pt: "Coloque este Pokémon e todas as cartas ligadas a ele na sua mão.",
-			de: "Nimm dieses Pokémon und alle angelegten Karten auf deine Hand."
+			'en-us': "Put this Pokémon and all attached cards into your hand.",
+			'fr-fr': "Ajoutez à votre main ce Pokémon et toutes les cartes qui lui sont attachées.",
+			'es-es': "Pon este Pokémon y todas las cartas unidas a él en tu mano.",
+			'it-it': "Riprendi in mano questo Pokémon e tutte le carte a esso assegnate.",
+			'pt-br': "Coloque este Pokémon e todas as cartas ligadas a ele na sua mão.",
+			'de-de': "Nimm dieses Pokémon und alle angelegten Karten auf deine Hand."
 		},
 
 		damage: 10
@@ -95,7 +95,7 @@ const card: Card = {
 	illustrator: "MAHOU",
 
 	description: {
-		en: "Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell.",
+		'en-us': "Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell.",
 	},
 
 }

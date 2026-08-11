@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴロンダ",
+		'ja-jp': "ゴロンダ",
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "竹の 葉っぱの 揺れで 敵の 動きを 読む。 ケンカっ早いが 仲間への 情は 厚い。",
+		'ja-jp': "竹の 葉っぱの 揺れで 敵の 動きを 読む。 ケンカっ早いが 仲間への 情は 厚い。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手は相手自身の手札を、2枚トラッシュする。",
+				'ja-jp': "相手は相手自身の手札を、2枚トラッシュする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 170,
 			cost: ["Darkness", "Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンをこんらんにする。",
+				'ja-jp': "このポケモンをこんらんにする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤンチャム",
+		'ja-jp': "ヤンチャム",
 	},
 
 	retreat: 4,

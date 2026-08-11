@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Air Balloon",
-		fr: "Ballon",
-		es: "Globo Helio",
-		it: "Palloncino",
-		pt: "Balão de Ar",
-		de: "Luftballon"
+		'en-us': "Air Balloon",
+		'fr-fr': "Ballon",
+		'es-es': "Globo Helio",
+		'it-it': "Palloncino",
+		'pt-br': "Balão de Ar",
+		'de-de': "Luftballon"
 	},
 
 	illustrator: "Yoshinobu Saito",
@@ -17,12 +17,12 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "The Retreat Cost of the Pokémon this card is attached to is ColorlessColorless less.",
-		fr: "Le Coût de Retraite du Pokémon auquel cette carte est attachée est diminué de ColorlessColorless.",
-		es: "El Coste de Retirada del Pokémon al que está unida esta carta es de ColorlessColorless menos.",
-		it: "Il costo di ritirata del Pokémon a cui è assegnata questa carta è ridotto di ColorlessColorless.",
-		pt: "O custo de Recuo do Pokémon ao qual esta carta está ligada é ColorlessColorless a menos.",
-		de: "Die Rückzugskosten des Pokémon, an das diese Karte angelegt ist, verringern sich um ColorlessColorless."
+		'en-us': "The Retreat Cost of the Pokémon this card is attached to is ColorlessColorless less.",
+		'fr-fr': "Le Coût de Retraite du Pokémon auquel cette carte est attachée est diminué de ColorlessColorless.",
+		'es-es': "El Coste de Retirada del Pokémon al que está unida esta carta es de ColorlessColorless menos.",
+		'it-it': "Il costo di ritirata del Pokémon a cui è assegnata questa carta è ridotto di ColorlessColorless.",
+		'pt-br': "O custo de Recuo do Pokémon ao qual esta carta está ligada é ColorlessColorless a menos.",
+		'de-de': "Die Rückzugskosten des Pokémon, an das diese Karte angelegt ist, verringern sich um ColorlessColorless."
 	},
 
 	trainerType: "Tool",

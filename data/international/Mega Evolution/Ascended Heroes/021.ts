@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charmeleon",
-		fr: "Reptincel",
-		es: "Charmeleon",
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel",
+		'es-es': "Charmeleon",
 		'es-mx': "Charmeleon",
-		de: "Glutexo",
-		it: "Charmeleon",
-		pt: "Charmeleon"
+		'de-de': "Glutexo",
+		'it-it': "Charmeleon",
+		'pt-br': "Charmeleon"
 	},
 
 	evolveFrom: {
-		en: "Charmander",
-		fr: "Salamèche",
-		es: "Charmander",
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche",
+		'es-es': "Charmander",
 		'es-mx': "Charmander",
-		de: "Glumanda",
-		it: "Charmander",
-		pt: "Charmander",
+		'de-de': "Glumanda",
+		'it-it': "Charmander",
+		'pt-br': "Charmander",
 	},
 
 	illustrator: "Julie Hang",
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Heat Blast",
-			fr: "Explosion de Chaleur",
-			es: "Explosión de Calor",
+			'en-us': "Heat Blast",
+			'fr-fr': "Explosion de Chaleur",
+			'es-es': "Explosión de Calor",
 			'es-mx': "Explosión Ígnea",
-			de: "Hitzestoß",
-			it: "Caldobomba",
-			pt: "Raio de Calor"
+			'de-de': "Hitzestoß",
+			'it-it': "Caldobomba",
+			'pt-br': "Raio de Calor"
 		},
 
 		damage: 50
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "J",
 
 	description: {
-		en: "It lashes about with its tail to knock down its foe. It then tears up the fallen opponent with sharp claws.",
+		'en-us': "It lashes about with its tail to knock down its foe. It then tears up the fallen opponent with sharp claws.",
 	},
 
 	variants: [

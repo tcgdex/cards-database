@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダダリン",
+		'ja-jp': "ダダリン",
 	},
 
 	illustrator: "Nakamura Ippan",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分のトラッシュに、特性「ばけがくれ」を持つポケモンが4枚以上あるなら、140ダメージ追加。",
+				'ja-jp': "自分のトラッシュに、特性「ばけがくれ」を持つポケモンが4枚以上あるなら、140ダメージ追加。",
 			},
 		},
 	],

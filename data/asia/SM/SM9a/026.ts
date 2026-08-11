@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キバニア",
+		'ja-jp': "キバニア",
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "臆病で １匹では 狩りも しない。 ５匹 くらい 集まると 急に 凶暴に なるぞ。",
+		'ja-jp': "臆病で １匹では 狩りも しない。 ５匹 くらい 集まると 急に 凶暴に なるぞ。",
 	},
 
 	stage: "Basic",

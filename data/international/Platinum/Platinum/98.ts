@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Tauros",
-		fr: "Tauros",
-		de: "Tauros"
+		'en-us': "Tauros",
+		'fr-fr': "Tauros",
+		'de-de': "Tauros"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Show Off",
-				fr: "Crâneur",
-				de: "Show Off"
+				'en-us': "Show Off",
+				'fr-fr': "Crâneur",
+				'de-de': "Show Off"
 			},
 			effect: {
-				en: "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une carte Énergie de base. Montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
-				de: "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+				'en-us': "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck une carte Énergie de base. Montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
+				'de-de': "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
 			},
 
 		},
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				de: "Take Down"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'de-de': "Take Down"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Tauros does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Tauros s'inflige 10 dégâts.",
-				de: "Flip a coin. If tails, Tauros does 10 damage to itself."
+				'en-us': "Flip a coin. If tails, Tauros does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Tauros s'inflige 10 dégâts.",
+				'de-de': "Flip a coin. If tails, Tauros does 10 damage to itself."
 			},
 			damage: 20,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Once it takes aim at its foe, it makes a headlong charge. It is famous for its violent nature."
+		'en-us': "Once it takes aim at its foe, it makes a headlong charge. It is famous for its violent nature."
 	},
 
 	variants: [

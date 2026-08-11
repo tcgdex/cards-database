@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bayleef",
-		fr: "Macronium",
-		es: "Bayleef",
+		'en-us': "Bayleef",
+		'fr-fr': "Macronium",
+		'es-es': "Bayleef",
 		'es-mx': "Bayleef",
-		de: "Lorblatt",
-		it: "Bayleef",
-		pt: "Bayleef"
+		'de-de': "Lorblatt",
+		'it-it': "Bayleef",
+		'pt-br': "Bayleef"
 	},
 
 	evolveFrom: {
-		en: "Chikorita",
-		fr: "Germignon",
-		es: "Chikorita",
+		'en-us': "Chikorita",
+		'fr-fr': "Germignon",
+		'es-es': "Chikorita",
 		'es-mx': "Chikorita",
-		de: "Endivie",
-		it: "Chikorita",
-		pt: "Chikorita",
+		'de-de': "Endivie",
+		'it-it': "Chikorita",
+		'pt-br': "Chikorita",
 	},
 
 	illustrator: "Tomomi Ozaki",
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			en: "Leaf Step",
-			fr: "Enjambée de Feuillage",
-			es: "Paso Hoja",
+			'en-us': "Leaf Step",
+			'fr-fr': "Enjambée de Feuillage",
+			'es-es': "Paso Hoja",
 			'es-mx': "Paso de Hoja",
-			de: "Blattschritt",
-			it: "Passofoglia",
-			pt: "Passo de Folha"
+			'de-de': "Blattschritt",
+			'it-it': "Passofoglia",
+			'pt-br': "Passo de Folha"
 		},
 
 		damage: 60

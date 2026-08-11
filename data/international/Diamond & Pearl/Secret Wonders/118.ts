@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Wooper",
-		fr: "Axoloto",
-		de: "Felino"
+		'en-us': "Wooper",
+		'fr-fr': "Axoloto",
+		'de-de': "Felino"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Yawn",
-				fr: "Baillement",
-				de: "Gähnen"
+				'en-us': "Yawn",
+				'fr-fr': "Baillement",
+				'de-de': "Gähnen"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Splatter",
-				fr: "Crépitement",
-				de: "Verspritzer"
+				'en-us': "Splatter",
+				'fr-fr': "Crépitement",
+				'de-de': "Verspritzer"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
-				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte zu. Der Schaden dieses Angriffs wird durch Schwäche und Resistenz des gewählten Pokémon nicht verändert."
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				'de-de': "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte zu. Der Schaden dieses Angriffs wird durch Schwäche und Resistenz des gewählten Pokémon nicht verändert."
 			},
 
 		},
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives in cold water, half burying itself in mud at the bottom to sleep.",
+		'en-us': "It lives in cold water, half burying itself in mud at the bottom to sleep.",
 	},
 
 	thirdParty: {

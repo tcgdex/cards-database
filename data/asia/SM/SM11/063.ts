@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エルフーン",
+		'ja-jp': "エルフーン",
 	},
 
 	illustrator: "Shibuzoh.",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "民家に 忍び込み 大切な ものを 隠したり 部屋中に 綿を まき散らす 厄介者だ。",
+		'ja-jp': "民家に 忍び込み 大切な ものを 隠したり 部屋中に 綿を まき散らす 厄介者だ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "でたとこサーチ" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札にある好きなカードを1枚、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札にある好きなカードを1枚、手札に加える。そして山札を切る。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モンメン",
+		'ja-jp': "モンメン",
 	},
 
 	retreat: 0,

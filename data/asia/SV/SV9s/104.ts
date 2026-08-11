@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ทัทซึเบ",
-		id: "Bagon"
+		'th-th': "ทัทซึเบ",
+		'id-id': "Bagon"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		th: "หัวที่แข็งปานเหล็กสามารถทุบหินผาแตกเป็นผงได้ มันเฝ้ารอวันที่ปีกจะ งอกออกมา",
-		id: "Kepala Bagon yang sekeras baja dapat menghancurkan batu sehingga hancur berkeping-keping. Pokémon ini terus menanti hingga sayapnya tumbuh."
+		'th-th': "หัวที่แข็งปานเหล็กสามารถทุบหินผาแตกเป็นผงได้ มันเฝ้ารอวันที่ปีกจะ งอกออกมา",
+		'id-id': "Kepala Bagon yang sekeras baja dapat menghancurkan batu sehingga hancur berkeping-keping. Pokémon ini terus menanti hingga sayapnya tumbuh."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "กัดติด",
-			id: "Menggigit"
+			'th-th': "กัดติด",
+			'id-id': "Menggigit"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "ประจัญบาน",
-			id: "Menyerang"
+			'th-th': "ประจัญบาน",
+			'id-id': "Menyerang"
 		},
 
 		effect: {
-			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
-			id: "Pokémon ini juga menerima kerusakan sejumlah 10."
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10."
 		},
 
 		damage: 50,

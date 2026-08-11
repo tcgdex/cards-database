@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เอสเบิร์นex"
+		'th-th': "เอสเบิร์นex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,22 +17,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			th: "แฟลร์สไตรค์"
+			'th-th': "แฟลร์สไตรค์"
 		},
 
 		effect: {
-			th: "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ [แฟลร์สไตรค์] ไม่ได้"
+			'th-th': "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ [แฟลร์สไตรค์] ไม่ได้"
 		},
 
 		damage: 280,
 		cost: ["Fire", "Colorless", "Colorless"]
 	}, {
 		name: {
-			th: "การ์เนตวอลเลย์"
+			'th-th': "การ์เนตวอลเลย์"
 		},
 
 		effect: {
-			th: "ทำแดเมจ 180 กับโปเกมอนฝ่ายตรงข้าม 1 ตัว {โปเกมอนบนเบนช์จะไม่นำจุดอ่อนและความต้านทานมาคิด}"
+			'th-th': "ทำแดเมจ 180 กับโปเกมอนฝ่ายตรงข้าม 1 ตัว {โปเกมอนบนเบนช์จะไม่นำจุดอ่อนและความต้านทานมาคิด}"
 		},
 
 		cost: ["Fire", "Fighting", "Darkness"]

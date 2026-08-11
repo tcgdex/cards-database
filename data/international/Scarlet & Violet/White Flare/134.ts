@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mienshao",
-		fr: "Shaofouine",
-		de: "Wie-Shu",
-		it: "Mienshao",
-		pt: "Mienshao",
-		es: "Mienshao",
+		'en-us': "Mienshao",
+		'fr-fr': "Shaofouine",
+		'de-de': "Wie-Shu",
+		'it-it': "Mienshao",
+		'pt-br': "Mienshao",
+		'es-es': "Mienshao",
 		'es-mx': "Mienshao"
 	},
 
@@ -21,12 +21,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Mienfoo",
-		fr: "Kungfouine",
-		de: "Lin-Fu",
-		it: "Mienfoo",
-		pt: "Mienfoo",
-		es: "Mienfoo",
+		'en-us': "Mienfoo",
+		'fr-fr': "Kungfouine",
+		'de-de': "Lin-Fu",
+		'it-it': "Mienfoo",
+		'pt-br': "Mienfoo",
+		'es-es': "Mienfoo",
 		'es-mx': "Mienfoo"
 	},
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Low Sweep",
-			fr: "Balayette",
-			de: "Fußtritt",
-			it: "Calciobasso",
-			pt: "Movimento Baixo",
-			es: "Puntapié",
+			'en-us': "Low Sweep",
+			'fr-fr': "Balayette",
+			'de-de': "Fußtritt",
+			'it-it': "Calciobasso",
+			'pt-br': "Movimento Baixo",
+			'es-es': "Puntapié",
 			'es-mx': "Barredora"
 		},
 
@@ -49,22 +49,22 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			en: "Smash Uppercut",
-			fr: "Poing Fracassant",
-			de: "Geballter Kinnhaken",
-			it: "Spaccamontante",
-			pt: "Pancada para Cima",
-			es: "Gancho Destructor",
+			'en-us': "Smash Uppercut",
+			'fr-fr': "Poing Fracassant",
+			'de-de': "Geballter Kinnhaken",
+			'it-it': "Spaccamontante",
+			'pt-br': "Pancada para Cima",
+			'es-es': "Gancho Destructor",
 			'es-mx': "Uppercut Devastador"
 		},
 
 		effect: {
-			en: "This attack's damage isn't affected by Resistance.",
-			fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-			de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert.",
-			it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-			pt: "O dano deste ataque não é afetado por Resistência.",
-			es: "El daño de este ataque no se ve afectado por Resistencia.",
+			'en-us': "This attack's damage isn't affected by Resistance.",
+			'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+			'de-de': "Der Schaden dieser Attacke wird durch Resistenz nicht verändert.",
+			'it-it': "I danni di questo attacco non sono influenzati dalla resistenza.",
+			'pt-br': "O dano deste ataque não é afetado por Resistência.",
+			'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
 			'es-mx': "El daño de este ataque no se ve afectado por Resistencia."
 		},
 

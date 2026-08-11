@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Lugia",
-		fr: "Lugia",
-		de: "Lugia"
+		'en-us': "Lugia",
+		'fr-fr': "Lugia",
+		'de-de': "Lugia"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -33,14 +33,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Elemental Blast",
-				fr: "Explosion élémentaire",
-				de: "Urgewalteexplosion"
+				'en-us': "Elemental Blast",
+				'fr-fr': "Explosion élémentaire",
+				'de-de': "Urgewalteexplosion"
 			},
 			effect: {
-				en: "Discard a Energy card, a Energy card, and a Energy card attached to Lugia in order to use this attack.",
-				fr: "Défaussez une carte Énergie , une carte Énergie  et une carte Énergie  attachées à Lugia pour pouvoir utiliser cette attaque.",
-				de: "Lege eine -Energiekarte, eine -Energiekarte und eine -Energiekarte ab, die an Lugia angelegt sind, um diesen Angriff zu verwenden."
+				'en-us': "Discard a Energy card, a Energy card, and a Energy card attached to Lugia in order to use this attack.",
+				'fr-fr': "Défaussez une carte Énergie , une carte Énergie  et une carte Énergie  attachées à Lugia pour pouvoir utiliser cette attaque.",
+				'de-de': "Lege eine -Energiekarte, eine -Energiekarte und eine -Energiekarte ab, die an Lugia angelegt sind, um diesen Angriff zu verwenden."
 			},
 			damage: 90,
 
@@ -64,8 +64,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It is said that it quietly spends its time deep at the bottom of the sea, because its powers are too strong.",
-		fr: "On prétend qu'il passe le plus clair de son temps au fond des mers, car ses pouvoirs sont trop puissants."
+		'en-us': "It is said that it quietly spends its time deep at the bottom of the sea, because its powers are too strong.",
+		'fr-fr': "On prétend qu'il passe le plus clair de son temps au fond des mers, car ses pouvoirs sont trop puissants."
 	},
 
 

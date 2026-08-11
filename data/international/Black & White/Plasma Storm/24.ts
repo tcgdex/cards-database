@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Squirtle",
-		fr: "Carapuce",
-		es: "Squirtle",
-		it: "Squirtle",
-		pt: "Squirtle",
-		de: "Schiggy"
+		'en-us': "Squirtle",
+		'fr-fr': "Carapuce",
+		'es-es': "Squirtle",
+		'it-it': "Squirtle",
+		'pt-br': "Squirtle",
+		'de-de': "Schiggy"
 	},
 
 	illustrator: "Naoki Saito",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
 			},
 
 			damage: 10,
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It shelters itself in its shell, then strikes back with spouts of water at every opportunity.",
+		'en-us': "It shelters itself in its shell, then strikes back with spouts of water at every opportunity.",
 	},
 
 	thirdParty: {

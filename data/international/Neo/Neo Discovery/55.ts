@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Hoppip",
-		fr: "Granivol",
-		de: "Hoppspross"
+		'en-us': "Hoppip",
+		'fr-fr': "Granivol",
+		'de-de': "Hoppspross"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Rolling Tackle",
-				fr: "Roulé-boulé",
-				de: "Rolltackle"
+				'en-us': "Rolling Tackle",
+				'fr-fr': "Roulé-boulé",
+				'de-de': "Rolltackle"
 			},
 
 			damage: 20,
@@ -56,8 +56,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Its body is so light, it must grip the ground firmly with its feet to keep from being blown away.",
-		fr: "Son corps est si léger qu'il doit s'accrocher fermement au sol avec ses pattes pour éviter d'être emporté par le vent."
+		'en-us': "Its body is so light, it must grip the ground firmly with its feet to keep from being blown away.",
+		'fr-fr': "Son corps est si léger qu'il doit s'accrocher fermement au sol avec ses pattes pour éviter d'être emporté par le vent."
 	},
 
 

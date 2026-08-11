@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bramblin",
-		fr: "Virovent",
-		es: "Bramblin",
-		it: "Bramblin",
-		pt: "Bramblin",
-		de: "Weherba"
+		'en-us': "Bramblin",
+		'fr-fr': "Virovent",
+		'es-es': "Bramblin",
+		'it-it': "Bramblin",
+		'pt-br': "Bramblin",
+		'de-de': "Weherba"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Spike Sting",
-			fr: "Pic Piquant",
-			es: "Picotazo Púas",
-			it: "Aculeopuntura",
-			pt: "Ferroada de Espinhos",
-			de: "Stachelstich"
+			'en-us': "Spike Sting",
+			'fr-fr': "Pic Piquant",
+			'es-es': "Picotazo Púas",
+			'it-it': "Aculeopuntura",
+			'pt-br': "Ferroada de Espinhos",
+			'de-de': "Stachelstich"
 		},
 
 		damage: 30
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Not even Bramblin knows where it is headed as it tumbles across the wilderness, blown by the wind. It loathes getting wet.",
+		'en-us': "Not even Bramblin knows where it is headed as it tumbles across the wilderness, blown by the wind. It loathes getting wet.",
 	},
 
 	variants: [

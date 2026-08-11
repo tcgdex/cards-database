@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	name: {
-		fr: "Tournicoton",
-		en: "Gossifleur",
-		es: "Gossifleur",
-		it: "Gossifleur",
-		pt: "Gossifleur",
-		de: "Cottini"
+		'fr-fr': "Tournicoton",
+		'en-us': "Gossifleur",
+		'es-es': "Gossifleur",
+		'it-it': "Gossifleur",
+		'pt-br': "Gossifleur",
+		'de-de': "Cottini"
 	},
 
 	illustrator: "Naoki Saito",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				fr: "Berceuse",
-				en: "Sing",
-				es: "Canto",
-				it: "Canto",
-				pt: "Canção",
-				de: "Gesang"
+				'fr-fr': "Berceuse",
+				'en-us': "Sing",
+				'es-es': "Canto",
+				'it-it': "Canto",
+				'pt-br': "Canção",
+				'de-de': "Gesang"
 			},
 			effect: {
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				en: "Your opponent's Active Pokémon is now Asleep.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'en-us': "Your opponent's Active Pokémon is now Asleep.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 
 		},
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It anchors itself in the ground with its single leg, then basks in the sun. After absorbing enough sunlight, its petals spread as it blooms brilliantly."
+		'en-us': "It anchors itself in the ground with its single leg, then basks in the sun. After absorbing enough sunlight, its petals spread as it blooms brilliantly."
 	},
 
 	dexId: [829],

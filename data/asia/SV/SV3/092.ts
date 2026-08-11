@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ジグザグマ",
+		'ja-jp': "ジグザグマ",
 		'zh-tw': "蛇紋熊",
-		th: "จิกุซากุมะ"
+		'th-th': "จิกุซากุมะ"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -18,9 +18,9 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "好奇心 旺盛な ポケモン。 なににでも 興味を 持つので いつも ジグザグに 歩いている。",
+		'ja-jp': "好奇心 旺盛な ポケモン。 なににでも 興味を 持つので いつも ジグザグに 歩いている。",
 		'zh-tw': "好奇心旺盛的寶可夢。不論對什麼都很感興趣，所以總是呈鋸齒形行走。",
-		th: "โปเกมอนที่เต็มเปี่ยมไปด้วยความอยากรู้อยากเห็น เพราะสนใจไปหมดทุกอย่าง ก็เลยเดินซิกแซ็กไปมาเสมอ"
+		'th-th': "โปเกมอนที่เต็มเปี่ยมไปด้วยความอยากรู้อยากเห็น เพราะสนใจไปหมดทุกอย่าง ก็เลยเดินซิกแซ็กไปมาเสมอ"
 	},
 
 	stage: "Basic",
@@ -29,9 +29,9 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "とびだしヘッド",
+			'ja-jp': "とびだしヘッド",
 			'zh-tw': "魯莽頭擊",
-			th: "กระโดดโหม่ง"
+			'th-th': "กระโดดโหม่ง"
 		},
 
 		damage: 10
@@ -39,9 +39,9 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ツメできりさく",
+			'ja-jp': "ツメできりさく",
 			'zh-tw': "利爪劈擊",
-			th: "กรงเล็บฉีกร่าง"
+			'th-th': "กรงเล็บฉีกร่าง"
 		},
 
 		damage: 20

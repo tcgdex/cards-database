@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [569],
 
 	name: {
-		en: "Garbodor",
-		fr: "Miasmax",
-		es: "Garbodor",
-		it: "Garbodor",
-		pt: "Garbodor",
-		de: "Deponitox"
+		'en-us': "Garbodor",
+		'fr-fr': "Miasmax",
+		'es-es': "Garbodor",
+		'it-it': "Garbodor",
+		'pt-br': "Garbodor",
+		'de-de': "Deponitox"
 	},
 
 	illustrator: "Hasuno",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Trubbish",
-		fr: "Miamiasme",
-		es: "Trubbish",
-		it: "Trubbish",
-		pt: "Trubbish",
-		de: "Unratütox"
+		'en-us': "Trubbish",
+		'fr-fr': "Miamiasme",
+		'es-es': "Trubbish",
+		'it-it': "Trubbish",
+		'pt-br': "Trubbish",
+		'de-de': "Unratütox"
 	},
 
 	attacks: [
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Trash Cyclone",
-				fr: "Cyclone Immonde",
-				es: "Ciclón Basura",
-				it: "Ciclone Immondo",
-				pt: "Ciclone de Lixo",
-				de: "Müllwirbel"
+				'en-us': "Trash Cyclone",
+				'fr-fr': "Cyclone Immonde",
+				'es-es': "Ciclón Basura",
+				'it-it': "Ciclone Immondo",
+				'pt-br': "Ciclone de Lixo",
+				'de-de': "Müllwirbel"
 			},
 			effect: {
-				en: "This attack does 30 damage for each Pokémon Tool card in your discard pile. Then, shuffle those cards into your deck.",
-				fr: "Cette attaque inflige 30 dégâts pour chaque carte Outil Pokémon dans votre pile de défausse. Mélangez ensuite ces cartes avec votre deck.",
-				es: "Este ataque hace 30 puntos de daño por cada carta de Herramienta Pokémon en tu pila de descartes. Después, pon esas cartas en tu baraja y barájalas todas.",
-				it: "Questo attacco infligge 30 danni per ogni carta Oggetto Pokémon nella tua pila degli scarti. Poi rimischia quelle carte nel tuo mazzo.",
-				pt: "Este ataque causa 30 pontos de dano para cada carta de Ferramenta Pokémon na sua pilha de descarte. Em seguida, embaralhe aquelas cartas no seu baralho.",
-				de: "Diese Attacke fügt für jede Pokémon-Ausrüstung in deinem Ablagestapel 30 Schadenspunkte zu. Mische jene Karten anschließend in dein Deck."
+				'en-us': "This attack does 30 damage for each Pokémon Tool card in your discard pile. Then, shuffle those cards into your deck.",
+				'fr-fr': "Cette attaque inflige 30 dégâts pour chaque carte Outil Pokémon dans votre pile de défausse. Mélangez ensuite ces cartes avec votre deck.",
+				'es-es': "Este ataque hace 30 puntos de daño por cada carta de Herramienta Pokémon en tu pila de descartes. Después, pon esas cartas en tu baraja y barájalas todas.",
+				'it-it': "Questo attacco infligge 30 danni per ogni carta Oggetto Pokémon nella tua pila degli scarti. Poi rimischia quelle carte nel tuo mazzo.",
+				'pt-br': "Este ataque causa 30 pontos de dano para cada carta de Ferramenta Pokémon na sua pilha de descarte. Em seguida, embaralhe aquelas cartas no seu baralho.",
+				'de-de': "Diese Attacke fügt für jede Pokémon-Ausrüstung in deinem Ablagestapel 30 Schadenspunkte zu. Mische jene Karten anschließend in dein Deck."
 			},
 			damage: "30×",
 
@@ -64,20 +64,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Spray",
-				fr: "Pulvérisation Toxique",
-				es: "Aerosol Venenoso",
-				it: "Spruzzo Velenoso",
-				pt: "Spray de Veneno",
-				de: "Giftspray"
+				'en-us': "Poison Spray",
+				'fr-fr': "Pulvérisation Toxique",
+				'es-es': "Aerosol Venenoso",
+				'it-it': "Spruzzo Velenoso",
+				'pt-br': "Spray de Veneno",
+				'de-de': "Giftspray"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+				'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 			damage: 80,
 
@@ -98,7 +98,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "This Pokémon eats trash, which turns into poison inside its body. The main component of the poison depends on what sort of trash was eaten."
+		'en-us': "This Pokémon eats trash, which turns into poison inside its body. The main component of the poison depends on what sort of trash was eaten."
 	},
 
 	variants: [

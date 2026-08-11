@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Snorlax",
-		fr: "Ronflex",
+		'en-us': "Snorlax",
+		'fr-fr': "Ronflex",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Stir and Snooze",
-				fr: "Sommeil Lourd",
+				'en-us': "Stir and Snooze",
+				'fr-fr': "Sommeil Lourd",
 			},
 			effect: {
-				en: "If this Pokémon is Asleep, flip 2 coins instead of 1 between turns. If either of them is tails, this Pokémon is still Asleep.",
-				fr: "Si ce Pokémon est Endormi, lancez 2 pièces au lieu d'une entre chaque tour. Si vous obtenez au moins un côté pile, ce Pokémon reste Endormi.",
+				'en-us': "If this Pokémon is Asleep, flip 2 coins instead of 1 between turns. If either of them is tails, this Pokémon is still Asleep.",
+				'fr-fr': "Si ce Pokémon est Endormi, lancez 2 pièces au lieu d'une entre chaque tour. Si vous obtenez au moins un côté pile, ce Pokémon reste Endormi.",
 			},
 		},
 	],
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleepy Press",
-				fr: "Pression Torpide",
+				'en-us': "Sleepy Press",
+				'fr-fr': "Pression Torpide",
 			},
 			effect: {
-				en: "Heal 20 damage from this Pokémon. This Pokémon is now Asleep.",
-				fr: "Soignez 20 dégâts à ce Pokémon. Ce Pokémon est maintenant Endormi.",
+				'en-us': "Heal 20 damage from this Pokémon. This Pokémon is now Asleep.",
+				'fr-fr': "Soignez 20 dégâts à ce Pokémon. Ce Pokémon est maintenant Endormi.",
 			},
 			damage: 120,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
+		'en-us': "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
 	},
 
 	thirdParty: {

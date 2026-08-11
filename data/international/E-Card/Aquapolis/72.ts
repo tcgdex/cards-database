@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Cubone",
-		fr: "Osselait",
-		de: "Tragosso"
+		'en-us': "Cubone",
+		'fr-fr': "Osselait",
+		'de-de': "Tragosso"
 	},
 
 	illustrator: "Midori Harada",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Teary Eyes",
-				fr: "Des larmes dans les yeux",
-				de: "Teary Eyes"
+				'en-us': "Teary Eyes",
+				'fr-fr': "Des larmes dans les yeux",
+				'de-de': "Teary Eyes"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Cubone by attacks is reduced by 20.",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à Osselait par des attaques sont réduits de 20.",
-				de: "During your opponent's next turn, any damage done to Cubone by attacks is reduced by 20."
+				'en-us': "During your opponent's next turn, any damage done to Cubone by attacks is reduced by 20.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à Osselait par des attaques sont réduits de 20.",
+				'de-de': "During your opponent's next turn, any damage done to Cubone by attacks is reduced by 20."
 			},
 
 		},
@@ -45,9 +45,9 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,

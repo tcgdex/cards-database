@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Ampharos",
-		fr: "Pharamp",
-		de: "Ampharos"
+		'en-us': "Ampharos",
+		'fr-fr': "Pharamp",
+		'de-de': "Ampharos"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Flaaffy",
-		fr: "Lainergie"
+		'en-us': "Flaaffy",
+		'fr-fr': "Lainergie"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thundershock",
-				fr: "Éclair",
-				de: "Donnerschock"
+				'en-us': "Thundershock",
+				'fr-fr': "Éclair",
+				'de-de': "Donnerschock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reflect Energy",
-				fr: "Renvoi d'énergie",
-				de: "Energiereflektion"
+				'en-us': "Reflect Energy",
+				'fr-fr': "Renvoi d'énergie",
+				'de-de': "Energiereflektion"
 			},
 			effect: {
-				en: "If you have any Benched Pokémon and if there are any basic Energy cards attached to Ampharos, take 1 of those Energy cards and attach it to 1 of those Pokémon.",
-				fr: "Si vous avez des Pokémon sur votre Banc et s'il y a des cartes Énergie de base attachées à Pharamp, prenez une de ces cartes Énergie et attachez-la à l'un de ces Pokémon.",
-				de: "Falls du mindestens ein Pokémon auf deiner Bank hast und mindestens eine Basis-Energiekarte an Ampharos angelegt ist, nimm 1 dieser Energiekarten und lege sie an 1 dieser Pokémon an."
+				'en-us': "If you have any Benched Pokémon and if there are any basic Energy cards attached to Ampharos, take 1 of those Energy cards and attach it to 1 of those Pokémon.",
+				'fr-fr': "Si vous avez des Pokémon sur votre Banc et s'il y a des cartes Énergie de base attachées à Pharamp, prenez une de ces cartes Énergie et attachez-la à l'un de ces Pokémon.",
+				'de-de': "Falls du mindestens ein Pokémon auf deiner Bank hast und mindestens eine Basis-Energiekarte an Ampharos angelegt ist, nimm 1 dieser Energiekarten und lege sie an 1 dieser Pokémon an."
 			},
 			damage: 50,
 

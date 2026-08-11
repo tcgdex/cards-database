@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケケンカニ",
+		'ja-jp': "ケケンカニ",
 		'zh-tw': "好勝毛蟹",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "考えるより まず 殴ってみる。 ゆきなだれを パンチの ラッシュで 押し返したという 記録も ある。",
+		'ja-jp': "考えるより まず 殴ってみる。 ゆきなだれを パンチの ラッシュで 押し返したという 記録も ある。",
 		'zh-tw': "習慣不經過大腦先動手打了再說。以前曾有過用連續不斷的拳擊把雪崩推回去的紀錄。",
 	},
 
@@ -23,19 +23,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ダブルラリアット",
+				'ja-jp': "ダブルラリアット",
 				'zh-tw': "雙重金勾臂",
 			},
 			damage: "90×",
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数×90ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数×90ダメージ。",
 				'zh-tw': "擲2次硬幣，造成正面出現的次數×90點傷害。",
 			},
 		},
 		{
 			name: {
-				ja: "クラブハンマー",
+				'ja-jp': "クラブハンマー",
 				'zh-tw': "蟹鉗錘",
 			},
 			damage: 130,
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マケンカニ",
+		'ja-jp': "マケンカニ",
 	},
 
 	retreat: 4,

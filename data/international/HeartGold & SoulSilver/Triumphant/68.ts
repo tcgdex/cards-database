@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Magnemite",
-		fr: "Magneti",
-		de: "Magnetilo"
+		'en-us': "Magnemite",
+		'fr-fr': "Magneti",
+		'de-de': "Magnetilo"
 	},
 
 	illustrator: "Noriko Hotta",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnetic Switch",
-				fr: "Échange magnétique",
-				de: "Magnettausch"
+				'en-us': "Magnetic Switch",
+				'fr-fr': "Échange magnétique",
+				'de-de': "Magnettausch"
 			},
 			effect: {
-				en: "Switch Magnemite with 1 of your Benched Pokémon.",
-				fr: "Échangez Magneti avec l’un de vos Pokémon de Banc.",
-				de: "Tausche Magnetilo gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Switch Magnemite with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez Magneti avec l’un de vos Pokémon de Banc.",
+				'de-de': "Tausche Magnetilo gegen 1 Pokémon auf deiner Bank aus."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thundershock",
-				fr: "Éclair",
-				de: "Donnerschock"
+				'en-us': "Thundershock",
+				'fr-fr': "Éclair",
+				'de-de': "Donnerschock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The units at the sides of its body generate antigravity energy to keep it aloft in the air."
+		'en-us': "The units at the sides of its body generate antigravity energy to keep it aloft in the air."
 	},
 
 	variants: [

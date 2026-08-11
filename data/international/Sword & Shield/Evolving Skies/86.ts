@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Roggenrola",
-		fr: "Nodulithe",
-		es: "Roggenrola",
-		it: "Roggenrola",
-		pt: "Roggenrola",
-		de: "Kiesling"
+		'en-us': "Roggenrola",
+		'fr-fr': "Nodulithe",
+		'es-es': "Roggenrola",
+		'it-it': "Roggenrola",
+		'pt-br': "Roggenrola",
+		'de-de': "Kiesling"
 	},
 
 	rarity: "Common",
@@ -23,24 +23,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Mud-Slap",
-			fr: "Coud'Boue",
-			es: "Bofetón Lodo",
-			it: "Fangosberla",
-			pt: "Mud-Slap",
-			de: "Lehmschelle"
+			'en-us': "Mud-Slap",
+			'fr-fr': "Coud'Boue",
+			'es-es': "Bofetón Lodo",
+			'it-it': "Fangosberla",
+			'pt-br': "Mud-Slap",
+			'de-de': "Lehmschelle"
 		},
 
 		damage: 10,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			en: "Rolling Tackle",
-			fr: "Roulé-Boulé",
-			es: "Placaje Giro",
-			it: "Rollazione",
-			pt: "Rolling Tackle",
-			de: "Rolltackle"
+			'en-us': "Rolling Tackle",
+			'fr-fr': "Roulé-Boulé",
+			'es-es': "Placaje Giro",
+			'it-it': "Rollazione",
+			'pt-br': "Rolling Tackle",
+			'de-de': "Rolltackle"
 		},
 
 		damage: 20,
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "When it detects a noise, it starts to move. The energy core inside it makes this Pokémon slightly warm to the touch."
+		'en-us': "When it detects a noise, it starts to move. The energy core inside it makes this Pokémon slightly warm to the touch."
 	},
 
 	dexId: [524],

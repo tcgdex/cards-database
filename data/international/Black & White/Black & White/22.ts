@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Simisear",
-		fr: "Flamoutan",
-		es: "Simisear",
-		it: "Simisear",
-		pt: "Simisear",
-		de: "Grillchita"
+		'en-us': "Simisear",
+		'fr-fr': "Flamoutan",
+		'es-es': "Simisear",
+		'it-it': "Simisear",
+		'pt-br': "Simisear",
+		'de-de': "Grillchita"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pansear",
-		fr: "Flamajou",
+		'en-us': "Pansear",
+		'fr-fr': "Flamajou",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flame Burst",
-				fr: "Rebondifeu",
+				'en-us': "Flame Burst",
+				'fr-fr': "Rebondifeu",
 			},
 			effect: {
-				en: "Does 20 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 20 dégâts à 2 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "Does 20 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 20 dégâts à 2 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 20,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Swipes",
-				fr: "Combo-Griffe",
+				'en-us': "Fury Swipes",
+				'fr-fr': "Combo-Griffe",
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 40 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 3 coins. This attack does 40 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 40,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It loves sweets because they become energy for the fire burning inside its body.",
+		'en-us': "It loves sweets because they become energy for the fire burning inside its body.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Poliwrath",
-		fr: "Tartard",
-		de: "Quappo"
+		'en-us': "Poliwrath",
+		'fr-fr': "Tartard",
+		'de-de': "Quappo"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Poliwhirl",
-		fr: "Têtarte"
+		'en-us': "Poliwhirl",
+		'fr-fr': "Têtarte"
 	},
 
 	stage: "Stage2",
@@ -37,9 +37,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Corkscrew Punch",
-				fr: "Poing tire-bouchon",
-				de: "Corkscrew Punch"
+				'en-us': "Corkscrew Punch",
+				'fr-fr': "Poing tire-bouchon",
+				'de-de': "Corkscrew Punch"
 			},
 
 			damage: 30,
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Submission",
-				fr: "Sacrifice",
-				de: "Submission"
+				'en-us': "Submission",
+				'fr-fr': "Sacrifice",
+				'de-de': "Submission"
 			},
 			effect: {
-				en: "Poliwrath does 20 damage to itself.",
-				fr: "Tartard s'inflige 20 dégâts.",
-				de: "Poliwrath does 20 damage to itself"
+				'en-us': "Poliwrath does 20 damage to itself.",
+				'fr-fr': "Tartard s'inflige 20 dégâts.",
+				'de-de': "Poliwrath does 20 damage to itself"
 			},
 			damage: 70,
 
@@ -77,8 +77,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Although an energetic, skilled swimmer that uses all of its muscles, it lives on dry land.",
-		fr: "Bien qu'excellent nageur qui utilise tous ses muscles, il vit sur la terre ferme."
+		'en-us': "Although an energetic, skilled swimmer that uses all of its muscles, it lives on dry land.",
+		'fr-fr': "Bien qu'excellent nageur qui utilise tous ses muscles, il vit sur la terre ferme."
 	},
 
 

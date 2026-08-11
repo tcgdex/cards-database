@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Arbok",
-		fr: "Arbok",
-		de: "Arbok"
+		'en-us': "Arbok",
+		'fr-fr': "Arbok",
+		'de-de': "Arbok"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -22,18 +22,18 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ekans",
-		fr: "Abo"
+		'en-us': "Ekans",
+		'fr-fr': "Abo"
 	},
 
 	abilities: [
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Gluey Slime",
+				'en-us': "Gluey Slime",
 			},
 			effect: {
-				en: "As long as Ariados is in play, each player must pay an additional Colorless to retreat his or her Active Pokémon. Gluey Slime can't make a player pay more than an additional Colorless to retreat a Pokémon, even if there is more than 1 Ariados in play.",
+				'en-us': "As long as Ariados is in play, each player must pay an additional Colorless to retreat his or her Active Pokémon. Gluey Slime can't make a player pay more than an additional Colorless to retreat a Pokémon, even if there is more than 1 Ariados in play.",
 			},
 		},
 	],
@@ -45,14 +45,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Spray",
-				fr: "Jet-venin",
-				de: "Poison Spray"
+				'en-us': "Poison Spray",
+				'fr-fr': "Jet-venin",
+				'de-de': "Poison Spray"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "The Defending Pokémon is now Poisoned."
 			}
 		},
 		{
@@ -61,14 +61,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Reaction",
-				fr: "Allergie poison",
-				de: "Poison Reaction"
+				'en-us': "Poison Reaction",
+				'fr-fr': "Allergie poison",
+				'de-de': "Poison Reaction"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur est Empoisonné, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 20 more damage."
+				'en-us': "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 20 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est Empoisonné, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 20 more damage."
 			},
 			damage: "20+",
 

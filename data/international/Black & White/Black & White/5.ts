@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Serperior",
-		fr: "Majaspic",
-		es: "Serperior",
-		it: "Serperior",
-		pt: "Serperior",
-		de: "Serpiroyal"
+		'en-us': "Serperior",
+		'fr-fr': "Majaspic",
+		'es-es': "Serperior",
+		'it-it': "Serperior",
+		'pt-br': "Serperior",
+		'de-de': "Serpiroyal"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Servine",
-		fr: "Lianaja",
+		'en-us': "Servine",
+		'fr-fr': "Lianaja",
 	},
 
 	stage: "Stage2",
@@ -40,8 +40,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vine Whip",
-				fr: "Fouet Lianes",
+				'en-us': "Vine Whip",
+				'fr-fr': "Fouet Lianes",
 			},
 
 			damage: 40,
@@ -53,12 +53,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Leaf Storm",
-				fr: "Tempêteverte",
+				'en-us': "Leaf Storm",
+				'fr-fr': "Tempêteverte",
 			},
 			effect: {
-				en: "Heal 20 damage from each of your Grass Pokémon.",
-				fr: "Soignez 20 dégâts à chacun de vos Pokémon Grass.",
+				'en-us': "Heal 20 damage from each of your Grass Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à chacun de vos Pokémon Grass.",
 			},
 			damage: 60,
 
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "They raise their heads to intimidate opponents but only give it their all when fighting a powerful opponent.",
+		'en-us': "They raise their heads to intimidate opponents but only give it their all when fighting a powerful opponent.",
 	},
 
 	thirdParty: {

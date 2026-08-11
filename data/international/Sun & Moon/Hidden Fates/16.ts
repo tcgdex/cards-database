@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Gyarados GX",
-		fr: "Léviator-GX",
+		'en-us': "Gyarados GX",
+		'fr-fr': "Léviator-GX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magikarp",
-		fr: "Magicarpe",
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe",
 	},
 
 	suffix: "GX",
@@ -38,8 +38,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Rage",
-				fr: "Draco-Rage",
+				'en-us': "Dragon Rage",
+				'fr-fr': "Draco-Rage",
 			},
 
 			damage: 130,
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Beam GX",
-				fr: "Ultralaser-GX",
+				'en-us': "Hyper Beam GX",
+				'fr-fr': "Ultralaser-GX",
 			},
 			effect: {
-				en: "(You can’t use more than 1 GX attack in a game.)",
-				fr: "(Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'en-us': "(You can’t use more than 1 GX attack in a game.)",
+				'fr-fr': "(Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 			damage: 240,
 

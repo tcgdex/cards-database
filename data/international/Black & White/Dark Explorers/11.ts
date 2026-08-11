@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Accelgor",
-		fr: "Limaspeed",
-		es: "Accelgor",
-		it: "Accelgor",
-		pt: "Accelgor",
-		de: "Hydragil"
+		'en-us': "Accelgor",
+		'fr-fr': "Limaspeed",
+		'es-es': "Accelgor",
+		'it-it': "Accelgor",
+		'pt-br': "Accelgor",
+		'de-de': "Hydragil"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shelmet",
-		fr: "Escargaume"
+		'en-us': "Shelmet",
+		'fr-fr': "Escargaume"
 	},
 
 	stage: "Stage1",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Hammer In",
-				fr: "Enfoncer"
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncer"
 			},
 
 			damage: 20,
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Deck and Cover",
-				fr: "Délit de Fuite"
+				'en-us': "Deck and Cover",
+				'fr-fr': "Délit de Fuite"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Paralyzed and Poisoned. Shuffle this Pokémon and all cards attached to it into your deck.",
-				fr: "Le Pokémon Défenseur est maintenant Paralysé et Empoisonné. Mélangez ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck."
+				'en-us': "The Defending Pokémon is now Paralyzed and Poisoned. Shuffle this Pokémon and all cards attached to it into your deck.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Paralysé et Empoisonné. Mélangez ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck."
 			},
 			damage: 50,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "When its body dries out, it weakens. So, to prevent dehydration, it wraps itself in many layers of thin membrane.",
+		'en-us': "When its body dries out, it weakens. So, to prevent dehydration, it wraps itself in many layers of thin membrane.",
 	},
 
 	thirdParty: {

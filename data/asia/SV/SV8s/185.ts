@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Shiinotic"
+		'id-id': "Shiinotic"
 	},
 
 	illustrator: "matazo",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Shiinotic memikat mangsa menggunakan cahaya sporanya yang berkedip-kedip dan membuat mangsanya tidur. Pokémon ini mengisap vitalitas mangsa menggunakan ujung jarinya."
+		'id-id': "Shiinotic memikat mangsa menggunakan cahaya sporanya yang berkedip-kedip dan membuat mangsanya tidur. Pokémon ini mengisap vitalitas mangsa menggunakan ujung jarinya."
 	},
 
 	stage: "Stage1",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Cahaya Ketenangan"
+			'id-id': "Cahaya Ketenangan"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri jika Pokémon ini ada di Arena Bertarung. Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri jika Pokémon ini ada di Arena Bertarung. Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Spiral Rush"
+			'id-id': "Spiral Rush"
 		},
 
 		effect: {
-			id: "Lempar koin hingga hasilnya sisi belakang. Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap lemparan dengan hasil sisi depan."
+			'id-id': "Lempar koin hingga hasilnya sisi belakang. Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap lemparan dengan hasil sisi depan."
 		},
 
 		damage: "60+",

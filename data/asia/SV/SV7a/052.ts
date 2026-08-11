@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "能量輸送PRO",
 		'zh-cn': "能量輸送PRO",
-		ja: "エネルギー転送PRO"
+		'ja-jp': "エネルギー転送PRO"
 	},
 
 	illustrator: "Toyste Beach",
@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		'zh-tw': "從自己的牌庫選擇任意數量的各不同屬性的基本能量卡各1張，在給對手看過後加入手牌。並且重洗牌庫。",
 		'zh-cn': "從自己的牌庫選擇任意數量的各不同屬性的基本能量卡各1張，在給對手看過後加入手牌。並且重洗牌庫。",
-		ja: "自分の山札から、それぞれちがうタイプの基本エネルギーを好きなだけ選び、相手に見せて、手札に加える。そして山札を切る。"
+		'ja-jp': "自分の山札から、それぞれちがうタイプの基本エネルギーを好きなだけ選び、相手に見せて、手札に加える。そして山札を切る。"
 	},
 
 	variants: [

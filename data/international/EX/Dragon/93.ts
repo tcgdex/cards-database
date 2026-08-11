@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Latias ex",
-		fr: "Latias ex",
-		de: "Latias ex"
+		'en-us': "Latias ex",
+		'fr-fr': "Latias ex",
+		'de-de': "Latias ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnoblast",
-				fr: "Hypnoblast",
-				de: "Hypnoschuss"
+				'en-us': "Hypnoblast",
+				'fr-fr': "Hypnoblast",
+				'de-de': "Hypnoschuss"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt."
 			},
 			damage: 10,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mist Ball",
-				fr: "Boule de brume",
-				de: "Nebelball"
+				'en-us': "Mist Ball",
+				'fr-fr': "Boule de brume",
+				'de-de': "Nebelball"
 			},
 			effect: {
-				en: "Discard a Fire Energy and a Water Energy attached to Latias ex.",
-				fr: "Défaussez une Énergie  et une Énergie  attachée à Latias ex.",
-				de: "Entferne 1 -Energie und 1 -Energie, die an Latias ex angelegt sind und lege sie auf deinen Ablagestapel."
+				'en-us': "Discard a Fire Energy and a Water Energy attached to Latias ex.",
+				'fr-fr': "Défaussez une Énergie  et une Énergie  attachée à Latias ex.",
+				'de-de': "Entferne 1 -Energie und 1 -Energie, die an Latias ex angelegt sind und lege sie auf deinen Ablagestapel."
 			},
 			damage: 100,
 

@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ポケモンいれかえ",
+		'ja-jp': "ポケモンいれかえ",
 		'zh-tw': "寶可夢交替",
-		th: "สับเปลี่ยนโปเกมอน"
+		'th-th': "สับเปลี่ยนโปเกมอน"
 	},
 
 	illustrator: "Studio Bora Inc.",
@@ -15,9 +15,9 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のバトルポケモンをベンチポケモンと入れ替える。",
+		'ja-jp': "自分のバトルポケモンをベンチポケモンと入れ替える。",
 		'zh-tw': "將自己的戰鬥寶可夢與備戰寶可夢互換。",
-		th: "สลับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายเรากับโปเกมอนบนเบนช์"
+		'th-th': "สลับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายเรากับโปเกมอนบนเบนช์"
 	},
 
 	variants: [

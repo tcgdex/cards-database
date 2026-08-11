@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wattrel",
-		fr: "Zapétrel",
-		es: "Wattrel",
-		it: "Wattrel",
-		pt: "Wattrel",
-		de: "Voltrel"
+		'en-us': "Wattrel",
+		'fr-fr': "Zapétrel",
+		'es-es': "Wattrel",
+		'it-it': "Wattrel",
+		'pt-br': "Wattrel",
+		'de-de': "Voltrel"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Aerial Ace",
-			fr: "Aéropique",
-			es: "Golpe Aéreo",
-			it: "Aeroassalto",
-			pt: "Ás dos Ares",
-			de: "Aero-Ass"
+			'en-us': "Aerial Ace",
+			'fr-fr': "Aéropique",
+			'es-es': "Golpe Aéreo",
+			'it-it': "Aeroassalto",
+			'pt-br': "Ás dos Ares",
+			'de-de': "Aero-Ass"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 20 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
+			'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"

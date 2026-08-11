@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Baltoy",
-		fr: "Balbuto",
-		es: "Baltoy",
-		it: "Baltoy",
-		pt: "Baltoy",
-		de: "Puppance"
+		'en-us': "Baltoy",
+		'fr-fr': "Balbuto",
+		'es-es': "Baltoy",
+		'it-it': "Baltoy",
+		'pt-br': "Baltoy",
+		'de-de': "Puppance"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Spinning Attack",
-				fr: "Attaque Tournante",
-				es: "Ataque Giratorio",
-				it: "Attacco Rotante",
-				pt: "Ataque Giratório",
-				de: "Rundumangriff"
+				'en-us': "Spinning Attack",
+				'fr-fr': "Attaque Tournante",
+				'es-es': "Ataque Giratorio",
+				'it-it': "Attacco Rotante",
+				'pt-br': "Ataque Giratório",
+				'de-de': "Rundumangriff"
 			},
 
 			damage: 20,
@@ -60,7 +60,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It moves while spinning around on its single foot. Some Baltoy have been seen spinning on their heads."
+		'en-us': "It moves while spinning around on its single foot. Some Baltoy have been seen spinning on their heads."
 	},
 
 	dexId: [343],

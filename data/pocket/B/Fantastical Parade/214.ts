@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [35],
 
 	name: {
-		en: "Clefairy"
+		'en-us': "Clefairy"
 	},
 
 	illustrator: "Taiga Kasai",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "It is said that happiness will come to those who\nsee a gathering of Clefairy dancing under a\nfull moon."
+		'en-us': "It is said that happiness will come to those who\nsee a gathering of Clefairy dancing under a\nfull moon."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Slap"
+			'en-us': "Slap"
 		},
 
 		damage: 20,

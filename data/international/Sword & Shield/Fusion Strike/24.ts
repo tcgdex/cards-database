@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gossifleur",
-		fr: "Tournicoton",
-		es: "Gossifleur",
-		it: "Gossifleur",
-		pt: "Gossifleur",
-		de: "Cottini"
+		'en-us': "Gossifleur",
+		'fr-fr': "Tournicoton",
+		'es-es': "Gossifleur",
+		'it-it': "Gossifleur",
+		'pt-br': "Gossifleur",
+		'de-de': "Cottini"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Kagemaru Himeno",
 
 	description: {
-		en: "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon."
+		'en-us': "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Leafage",
-			fr: "Feuillage",
-			de: "Blattwerk",
-			es: "Follaje",
-			pt: "Folhagem",
-			it: "Fogliame"
+			'en-us': "Leafage",
+			'fr-fr': "Feuillage",
+			'de-de': "Blattwerk",
+			'es-es': "Follaje",
+			'pt-br': "Folhagem",
+			'it-it': "Fogliame"
 		},
 
 		damage: 10

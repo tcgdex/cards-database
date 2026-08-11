@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Nidorina",
-		de: "Nidorina"
+		'en-us': "Nidorina",
+		'de-de': "Nidorina"
 	},
 
 	illustrator: "Midori Harada",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidoran♀",
+		'en-us': "Nidoran♀",
 	},
 
 	stage: "Stage1",
@@ -33,8 +33,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -48,13 +48,13 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Poison Claws",
-				de: "Giftkrallen"
+				'en-us': "Poison Claws",
+				'de-de': "Giftkrallen"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 30,

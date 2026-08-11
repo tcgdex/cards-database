@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Accelgor",
-		fr: "Limaspeed",
-		es: "Accelgor",
-		de: "Hydragil",
-		it: "Accelgor",
-		pt: "Accelgor",
+		'en-us': "Accelgor",
+		'fr-fr': "Limaspeed",
+		'es-es': "Accelgor",
+		'de-de': "Hydragil",
+		'it-it': "Accelgor",
+		'pt-br': "Accelgor",
 		'es-mx': "Accelgor"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Shelmet",
-		fr: "Escargaume",
-		es: "Shelmet",
-		de: "Schnuthelm",
-		it: "Shelmet",
-		pt: "Shelmet",
+		'en-us': "Shelmet",
+		'fr-fr': "Escargaume",
+		'es-es': "Shelmet",
+		'de-de': "Schnuthelm",
+		'it-it': "Shelmet",
+		'pt-br': "Shelmet",
 		'es-mx': "Shelmet"
 	},
 	stage: "Stage1",
@@ -34,22 +34,22 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Poisonous Ploy",
-			fr: "Ruse Empoisonnée",
-			es: "Ardid Venenoso",
-			de: "Giftige List",
-			it: "Manovra Velenosa",
-			pt: "Manobra Tóxica",
+			'en-us': "Poisonous Ploy",
+			'fr-fr': "Ruse Empoisonnée",
+			'es-es': "Ardid Venenoso",
+			'de-de': "Giftige List",
+			'it-it': "Manovra Velenosa",
+			'pt-br': "Manobra Tóxica",
 			'es-mx': "Técnica Venenosa"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused and Poisoned. Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné. Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido y Envenenado. Cambia este Pokémon por uno de tus Pokémon en Banca.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt und vergiftet. Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso e avvelenato. Scambia questo Pokémon con uno della tua panchina.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso e Envenenado. Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+			'en-us': "Your opponent's Active Pokémon is now Confused and Poisoned. Switch this Pokémon with 1 of your Benched Pokémon.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné. Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido y Envenenado. Cambia este Pokémon por uno de tus Pokémon en Banca.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt und vergiftet. Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso e avvelenato. Scambia questo Pokémon con uno della tua panchina.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso e Envenenado. Troque este Pokémon por 1 dos seus Pokémon no Banco.",
 			'es-mx': "El Pokémon Activo de tu rival ahora está Confundido y Envenenado. Cambia este Pokémon por 1 de tus Pokémon en Banca."
 		},
 

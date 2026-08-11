@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Piplup",
+		'en-us': "Piplup",
 	},
 
 	illustrator: "sui",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Charm",
+				'en-us': "Charm",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
+				'en-us': "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
 			},
 
 		},
@@ -42,7 +42,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
+				'en-us': "Peck",
 			},
 
 			damage: 20,
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
+		'en-us': "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
 	},
 
 	thirdParty: {

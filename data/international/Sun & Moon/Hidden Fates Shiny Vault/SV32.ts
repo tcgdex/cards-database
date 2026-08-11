@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Celesteela",
-		fr: "Bamboiselle",
+		'en-us': "Celesteela",
+		'fr-fr': "Bamboiselle",
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Shiny rare",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Moon Raker",
-				fr: "Ratissage Lunaire",
+				'en-us': "Moon Raker",
+				'fr-fr': "Ratissage Lunaire",
 			},
 			effect: {
-				en: "If the total of both players' remaining Prize cards is exactly 6, this attack can be used for Metal.",
-				fr: "S’il reste exactement 6 cartes Récompense aux deux joueurs réunis, cette attaque peut être utilisée pour Metal.",
+				'en-us': "If the total of both players' remaining Prize cards is exactly 6, this attack can be used for Metal.",
+				'fr-fr': "S’il reste exactement 6 cartes Récompense aux deux joueurs réunis, cette attaque peut être utilisée pour Metal.",
 			},
 			damage: 160,
 
@@ -61,7 +61,7 @@ const card: Card = {
 
 
 	description: {
-		en: "One kind of Ultra Beast. Witnesses have seen it burn down a forest by expelling gas from its two arms.",
+		'en-us': "One kind of Ultra Beast. Witnesses have seen it burn down a forest by expelling gas from its two arms.",
 	},
 }
 

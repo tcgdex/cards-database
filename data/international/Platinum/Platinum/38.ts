@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Shaymin",
-		fr: "Shaymin",
-		de: "Shaymin"
+		'en-us': "Shaymin",
+		'fr-fr': "Shaymin",
+		'de-de': "Shaymin"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Energy Blow",
-				fr: "Coup d'énergie",
-				de: "Energy Blow"
+				'en-us': "Energy Blow",
+				'fr-fr': "Coup d'énergie",
+				'de-de': "Energy Blow"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each Energy attached to Shaymin.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Shaymin.",
-				de: "Does 10 damage plus 10 more damage for each Energy attached to Shaymin."
+				'en-us': "Does 10 damage plus 10 more damage for each Energy attached to Shaymin.",
+				'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Shaymin.",
+				'de-de': "Does 10 damage plus 10 more damage for each Energy attached to Shaymin."
 			},
 			damage: "10+",
 
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aromatherapy",
-				fr: "Aromathérapi",
-				de: "Aromatherapy"
+				'en-us': "Aromatherapy",
+				'fr-fr': "Aromathérapi",
+				'de-de': "Aromatherapy"
 			},
 			effect: {
-				en: "Remove 2 damage counters from each of your Pokémon.",
-				fr: "Retirez à chacun de vos Pokémon 2 marqueurs de dégât.",
-				de: "Remove 2 damage counters from each of your Pokémon."
+				'en-us': "Remove 2 damage counters from each of your Pokémon.",
+				'fr-fr': "Retirez à chacun de vos Pokémon 2 marqueurs de dégât.",
+				'de-de': "Remove 2 damage counters from each of your Pokémon."
 			},
 			damage: 40,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives in flower patches and avoids detection by curling up to look like a flowering plant."
+		'en-us': "It lives in flower patches and avoids detection by curling up to look like a flowering plant."
 	},
 
 	variants: [

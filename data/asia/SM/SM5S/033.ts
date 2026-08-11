@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラダグトリオ",
+		'ja-jp': "アローラダグトリオ",
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "大地の 女神たちの 化身と 考えられ アローラ地方では とても 大切に されている。",
+		'ja-jp': "大地の 女神たちの 化身と 考えられ アローラ地方では とても 大切に されている。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30×",
 			cost: [],
 			effect: {
-				ja: "自分の手札にある[鋼]エネルギーを好きなだけトラッシュし、その枚数x30ダメージ。",
+				'ja-jp': "自分の手札にある[鋼]エネルギーを好きなだけトラッシュし、その枚数x30ダメージ。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アローラディグダ",
+		'ja-jp': "アローラディグダ",
 	},
 
 	retreat: 1,

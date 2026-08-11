@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Weezing",
-		fr: "Smogogo Niv. 47",
-		de: "Smogmog"
+		'en-us': "Weezing",
+		'fr-fr': "Smogogo Niv. 47",
+		'de-de': "Smogmog"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Koffing",
-		fr: "Smogo"
+		'en-us': "Koffing",
+		'fr-fr': "Smogo"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Camouflage Gas",
-				fr: "Gaz de camouflage",
-				de: "Tarngas"
+				'en-us': "Camouflage Gas",
+				'fr-fr': "Gaz de camouflage",
+				'de-de': "Tarngas"
 			},
 			effect: {
-				en: "If Weezing is Confused and is Knocked Out, your opponent can't take a Prize card.",
-				fr: "Si Smogogo est Confus et qu'il est mis K.O, votre adversaire ne peut pas récolter de carte Récompense.",
-				de: "Wenn Smogmog verwirrt ist und kampfunfähig wird, kann dein Gegner keinen Preis nehmen."
+				'en-us': "If Weezing is Confused and is Knocked Out, your opponent can't take a Prize card.",
+				'fr-fr': "Si Smogogo est Confus et qu'il est mis K.O, votre adversaire ne peut pas récolter de carte Récompense.",
+				'de-de': "Wenn Smogmog verwirrt ist und kampfunfähig wird, kann dein Gegner keinen Preis nehmen."
 			}
 		},
 	],
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Damage Breakdown",
-				fr: "Casse-dégâts",
-				de: "Schadenverteilung"
+				'en-us': "Damage Breakdown",
+				'fr-fr': "Casse-dégâts",
+				'de-de': "Schadenverteilung"
 			},
 			effect: {
-				en: "Count the number of damage counters on Weezing. Put that many damage counters on the Defending Pokémon and Weezing is now Confused.",
-				fr: "Comptabilisez le nombre de marqueurs de dégât sur Smogogo. Placez autant de marqueurs de dégât sur le Pokémon Défenseur et Smogogo est maintenant Confus.",
-				de: "Zähle die Anzahl der Schadensmarken auf Smogmog. Lege die gleiche Anzahl Schadensmarken auf das Verteidigende Pokémon und Smogmog ist jetzt verwirrt."
+				'en-us': "Count the number of damage counters on Weezing. Put that many damage counters on the Defending Pokémon and Weezing is now Confused.",
+				'fr-fr': "Comptabilisez le nombre de marqueurs de dégât sur Smogogo. Placez autant de marqueurs de dégât sur le Pokémon Défenseur et Smogogo est maintenant Confus.",
+				'de-de': "Zähle die Anzahl der Schadensmarken auf Smogmog. Lege die gleiche Anzahl Schadensmarken auf das Verteidigende Pokémon und Smogmog ist jetzt verwirrt."
 			},
 
 		},
@@ -66,14 +66,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Smog",
-				fr: "Purédpois",
-				de: "Smog"
+				'en-us': "Smog",
+				'fr-fr': "Purédpois",
+				'de-de': "Smog"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 20,
 

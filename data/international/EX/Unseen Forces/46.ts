@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Scyther",
-		fr: "Insécateur",
-		de: "Sichlor"
+		'en-us': "Scyther",
+		'fr-fr': "Insécateur",
+		'de-de': "Sichlor"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Twin Play",
-				fr: "Duo",
-				de: "Twin Play"
+				'en-us': "Twin Play",
+				'fr-fr': "Duo",
+				'de-de': "Twin Play"
 			},
 			effect: {
-				en: "Search your deck for up to 2 in any combination of Scyther and Scyther ex and put them onto your Bench. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck jusqu'à 2 Insécateur et Insécateur ex, dans n'importe quelle combinaison, et placez-les sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Search your deck for up to 2 in any combination of Scyther and Scyther ex and put them onto your Bench. Shuffle your deck afterward."
+				'en-us': "Search your deck for up to 2 in any combination of Scyther and Scyther ex and put them onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck jusqu'à 2 Insécateur et Insécateur ex, dans n'importe quelle combinaison, et placez-les sur votre Banc. Ensuite, mélangez votre deck.",
+				'de-de': "Search your deck for up to 2 in any combination of Scyther and Scyther ex and put them onto your Bench. Shuffle your deck afterward."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Agility",
-				fr: "Hâte",
-				de: "Agility"
+				'en-us': "Agility",
+				'fr-fr': "Hâte",
+				'de-de': "Agility"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Scyther during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Insécateur lors du prochain tour de votre adversaire.",
-				de: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Scyther during your opponent's next turn."
+				'en-us': "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Scyther during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Insécateur lors du prochain tour de votre adversaire.",
+				'de-de': "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Scyther during your opponent's next turn."
 			},
 			damage: 20,
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Swinub",
-		fr: "Marcacrin",
-		de: "Quiekel"
+		'en-us': "Swinub",
+		'fr-fr': "Marcacrin",
+		'de-de': "Quiekel"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		fr: "Marcacrin",
+		'fr-fr': "Marcacrin",
 	},
 
 	stage: "Basic",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Freezing Breath",
-				fr: "Souffle glacial",
-				de: "Eisatem"
+				'en-us': "Freezing Breath",
+				'fr-fr': "Souffle glacial",
+				'de-de': "Eisatem"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Asleep.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, le Pokémon Défenseur est maintenant Endormi.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt. Bei \"Zahl\" schläft das Verteidigende Pokémon jetzt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Asleep.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt. Bei \"Zahl\" schläft das Verteidigende Pokémon jetzt."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				de: "Bodycheck"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'de-de': "Bodycheck"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Swinub does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Marcacrin s'inflige 10 dégâts.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" fügt sich Quiekel selbst 10 Schadenspunkte zu."
+				'en-us': "Flip a coin. If tails, Swinub does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Marcacrin s'inflige 10 dégâts.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" fügt sich Quiekel selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -82,8 +82,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It loves eating mushrooms that grow under dead grass. It also finds hot springs while foraging.",
-		fr: "Il adore les champignons qui poussent sous l'herbe morte. Il trouve aussi des sources chaudes."
+		'en-us': "It loves eating mushrooms that grow under dead grass. It also finds hot springs while foraging.",
+		'fr-fr': "Il adore les champignons qui poussent sous l'herbe morte. Il trouve aussi des sources chaudes."
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Dhelmise",
-		fr: "Sinistrail",
-		es: "Dhelmise",
-		it: "Dhelmise",
-		pt: "Dhelmise",
-		de: "Moruda"
+		'en-us': "Dhelmise",
+		'fr-fr': "Sinistrail",
+		'es-es': "Dhelmise",
+		'it-it': "Dhelmise",
+		'pt-br': "Dhelmise",
+		'de-de': "Moruda"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giga Drain",
-				fr: "Giga-Sangsue",
-				es: "Gigadrenado",
-				it: "Gigassorbimento",
-				pt: "Gigadreno",
-				de: "Gigasauger"
+				'en-us': "Giga Drain",
+				'fr-fr': "Giga-Sangsue",
+				'es-es': "Gigadrenado",
+				'it-it': "Gigassorbimento",
+				'pt-br': "Gigadreno",
+				'de-de': "Gigasauger"
 			},
 			effect: {
-				en: "Heal from this Pokémon the same amount of damage you did to your opponent’s Active Pokémon.",
-				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Actif de votre adversaire.",
-				es: "Cura a este Pokémon el mismo número de puntos de daño que hayas hecho al Pokémon Activo de tu rival.",
-				it: "Cura questo Pokémon da una quantità di danni pari a quelli inflitti al Pokémon attivo del tuo avversario.",
-				pt: "Cure deste Pokémon a mesma quantidade de dano que você causou ao Pokémon Ativo do seu oponente.",
-				de: "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Aktiven Pokémon deines Gegners zugefügt hast."
+				'en-us': "Heal from this Pokémon the same amount of damage you did to your opponent’s Active Pokémon.",
+				'fr-fr': "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Actif de votre adversaire.",
+				'es-es': "Cura a este Pokémon el mismo número de puntos de daño que hayas hecho al Pokémon Activo de tu rival.",
+				'it-it': "Cura questo Pokémon da una quantità di danni pari a quelli inflitti al Pokémon attivo del tuo avversario.",
+				'pt-br': "Cure deste Pokémon a mesma quantidade de dano que você causou ao Pokémon Ativo do seu oponente.",
+				'de-de': "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Aktiven Pokémon deines Gegners zugefügt hast."
 			},
 			damage: 30,
 
@@ -60,20 +60,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Powerful Spin",
-				fr: "Pirouette Puissante",
-				es: "Supergiro",
-				it: "Supergiro",
-				pt: "Pirueta Potente",
-				de: "Mächtiger Wirbler"
+				'en-us': "Powerful Spin",
+				'fr-fr': "Pirouette Puissante",
+				'es-es': "Supergiro",
+				'it-it': "Supergiro",
+				'pt-br': "Pirueta Potente",
+				'de-de': "Mächtiger Wirbler"
 			},
 			effect: {
-				en: "This Pokémon can’t attack during your next turn.",
-				fr: "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
-				es: "Este Pokémon no puede atacar durante tu próximo turno.",
-				it: "Questo Pokémon non può attaccare durante il tuo prossimo turno.",
-				pt: "Este Pokémon não poderá atacar durante a sua próxima vez de jogar.",
-				de: "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
+				'en-us': "This Pokémon can’t attack during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				'es-es': "Este Pokémon no puede atacar durante tu próximo turno.",
+				'it-it': "Questo Pokémon non può attaccare durante il tuo prossimo turno.",
+				'pt-br': "Este Pokémon não poderá atacar durante a sua próxima vez de jogar.",
+				'de-de': "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
 			},
 			damage: 130,
 
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "The soul of seaweed adrift in the waves became reborn as this Pokémon. It maintains itself with new infusions of seabed detritus and seaweed.",
+		'en-us': "The soul of seaweed adrift in the waves became reborn as this Pokémon. It maintains itself with new infusions of seabed detritus and seaweed.",
 	},
 
 	thirdParty: {

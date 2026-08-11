@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Phanpy",
-		th: "โกมาโซ"
+		'id-id': "Phanpy",
+		'th-th': "โกมาโซ"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -15,16 +15,16 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Phanpy jauh lebih kuat dibandingkan penampilannya. Putaran belalainya dapat mematahkan lengan manusia yang bersentuhan dengannya.",
-		th: "มีพละกำลังมากกว่าที่ตาเห็น ถ้าแขนไปโดนงวงที่แกว่งไปมาเข้าละก็ กระดูกหักแน่ ๆ"
+		'id-id': "Phanpy jauh lebih kuat dibandingkan penampilannya. Putaran belalainya dapat mematahkan lengan manusia yang bersentuhan dengannya.",
+		'th-th': "มีพละกำลังมากกว่าที่ตาเห็น ถ้าแขนไปโดนงวงที่แกว่งไปมาเข้าละก็ กระดูกหักแน่ ๆ"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Tandukan Kepala",
-			th: "พุ่งหัวชน"
+			'id-id': "Tandukan Kepala",
+			'th-th': "พุ่งหัวชน"
 		},
 
 		damage: 20,

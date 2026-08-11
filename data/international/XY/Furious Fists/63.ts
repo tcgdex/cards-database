@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Hawlucha",
-		fr: "Brutalibré",
-		es: "Hawlucha",
-		it: "Hawlucha",
-		pt: "Hawlucha",
-		de: "Resladero"
+		'en-us': "Hawlucha",
+		'fr-fr': "Brutalibré",
+		'es-es': "Hawlucha",
+		'it-it': "Hawlucha",
+		'pt-br': "Hawlucha",
+		'de-de': "Resladero"
 	},
 
 	illustrator: "5ban Graphics",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Shining Spirit",
-				fr: "Esprit Rayonnant",
-				es: "Espíritu Radiante",
-				it: "Spirito Lucente",
-				pt: "Espírito Brilhante",
-				de: "Strahlende Geisteskraft"
+				'en-us': "Shining Spirit",
+				'fr-fr': "Esprit Rayonnant",
+				'es-es': "Espíritu Radiante",
+				'it-it': "Spirito Lucente",
+				'pt-br': "Espírito Brilhante",
+				'de-de': "Strahlende Geisteskraft"
 			},
 			effect: {
-				en: "Damage from this Pokémon's attacks isn't affected by Weakness or Resistance.",
-				fr: "Les dégâts des attaques de ce Pokémon ne sont pas affectés par la Faiblesse ou la Résistance.",
-				es: "El daño de los ataques de este Pokémon no se ve afectado por Debilidad o Resistencia.",
-				it: "Il danno degli attacchi di questo Pokémon non è influenzato dalla debolezza o dalla resistenza.",
-				pt: "Os danos causados pelos ataques deste Pokémon não são afetados por Fraqueza ou Resistência.",
-				de: "Schaden der Angriffe dieses Pokémon wird durch Schwäche und Resistenz nicht verändert."
+				'en-us': "Damage from this Pokémon's attacks isn't affected by Weakness or Resistance.",
+				'fr-fr': "Les dégâts des attaques de ce Pokémon ne sont pas affectés par la Faiblesse ou la Résistance.",
+				'es-es': "El daño de los ataques de este Pokémon no se ve afectado por Debilidad o Resistencia.",
+				'it-it': "Il danno degli attacchi di questo Pokémon non è influenzato dalla debolezza o dalla resistenza.",
+				'pt-br': "Os danos causados pelos ataques deste Pokémon não são afetados por Fraqueza ou Resistência.",
+				'de-de': "Schaden der Angriffe dieses Pokémon wird durch Schwäche und Resistenz nicht verändert."
 			},
 		},
 	],
@@ -56,20 +56,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Flying Press",
-				fr: "Flying Press",
-				es: "Plancha Voladora",
-				it: "Schiacciatuffo",
-				pt: "Aperto Voador",
-				de: "Flying Press"
+				'en-us': "Flying Press",
+				'fr-fr': "Flying Press",
+				'es-es': "Plancha Voladora",
+				'it-it': "Schiacciatuffo",
+				'pt-br': "Aperto Voador",
+				'de-de': "Flying Press"
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon isn't a Pokémon-EX, this attack does nothing.",
-				fr: "Si le Pokémon Actif de votre adversaire n'est pas un Pokémon-EX, cette attaque ne fait rien.",
-				es: "Si el Pokémon Activo de tu rival no es un Pokémon-EX, este ataque no hace nada.",
-				it: "Se il Pokémon attivo del tuo avversario non è un Pokémon-EX, questo attacco non ha effetto.",
-				pt: "Se o Pokémon Ativo do seu oponente não for um Pokémon-EX, esse ataque não fará nada.",
-				de: "Wenn das Aktive Pokémon deines Gegners kein Pokémon-EX ist, hat dieser Angriff keine Auswirkungen."
+				'en-us': "If your opponent's Active Pokémon isn't a Pokémon-EX, this attack does nothing.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire n'est pas un Pokémon-EX, cette attaque ne fait rien.",
+				'es-es': "Si el Pokémon Activo de tu rival no es un Pokémon-EX, este ataque no hace nada.",
+				'it-it': "Se il Pokémon attivo del tuo avversario non è un Pokémon-EX, questo attacco non ha effetto.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente não for um Pokémon-EX, esse ataque não fará nada.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners kein Pokémon-EX ist, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 60,
 
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Although its body is small, its proficient fighting skills enable it to keep up with big bruisers like Machamp and Hariyama.",
+		'en-us': "Although its body is small, its proficient fighting skills enable it to keep up with big bruisers like Machamp and Hariyama.",
 	},
 
 	thirdParty: {

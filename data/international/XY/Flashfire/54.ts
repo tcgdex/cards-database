@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Stunky",
-		fr: "Moufouette",
-		es: "Stunky",
-		it: "Stunky",
-		pt: "Stunky",
-		de: "Skunkapuh"
+		'en-us': "Stunky",
+		'fr-fr': "Moufouette",
+		'es-es': "Stunky",
+		'it-it': "Stunky",
+		'pt-br': "Stunky",
+		'de-de': "Skunkapuh"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collecte",
-				es: "Coleccionar",
-				it: "Raccolta",
-				pt: "Coleta",
-				de: "Sammeln"
+				'en-us': "Collect",
+				'fr-fr': "Collecte",
+				'es-es': "Coleccionar",
+				'it-it': "Raccolta",
+				'pt-br': "Coleta",
+				'de-de': "Sammeln"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				es: "Roba 1 carta.",
-				it: "Pesca una carta.",
-				pt: "Compre um card.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'es-es': "Roba 1 carta.",
+				'it-it': "Pesca una carta.",
+				'pt-br': "Compre um card.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spray Fluid",
-				fr: "Fluide Éclaboussant",
-				es: "Fluido Rociado",
-				it: "Fluidospray",
-				pt: "Fluido Spray",
-				de: "Sprühwasser"
+				'en-us': "Spray Fluid",
+				'fr-fr': "Fluide Éclaboussant",
+				'es-es': "Fluido Rociado",
+				'it-it': "Fluidospray",
+				'pt-br': "Fluido Spray",
+				'de-de': "Sprühwasser"
 			},
 
 			damage: 30,
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It sprays a foul fluid from its rear. Its stench spreads over a mile radius, driving Pokémon away.",
+		'en-us': "It sprays a foul fluid from its rear. Its stench spreads over a mile radius, driving Pokémon away.",
 	},
 
 	thirdParty: {

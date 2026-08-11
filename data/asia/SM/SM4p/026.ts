@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カプ・レヒレ",
+		'ja-jp': "カプ・レヒレ",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "深い霧で 敵を 惑わせ 自滅させる 恐ろしさを 持つ。 海流が エネルギーの 源。",
+		'ja-jp': "深い霧で 敵を 惑わせ 自滅させる 恐ろしさを 持つ。 海流が エネルギーの 源。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "この番、自分の[水]ポケモンのHPを回復していたなら、60ダメージ追加。",
+				'ja-jp': "この番、自分の[水]ポケモンのHPを回復していたなら、60ダメージ追加。",
 			},
 		},
 	],

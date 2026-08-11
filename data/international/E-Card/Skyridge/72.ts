@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Ledyba",
-		de: "Ledyba"
+		'en-us': "Ledyba",
+		'de-de': "Ledyba"
 	},
 
 	illustrator: "Masako Yamashita",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Teary Eyes",
-				de: "Tränende Augen"
+				'en-us': "Teary Eyes",
+				'de-de': "Tränende Augen"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Ledyba by attacks is reduced by 20.",
-				de: "Jeder Schaden, der Ledyba im nächsten Zug deines Gegners durch Angriffe zugefügt wird, wird um 20 reduziert."
+				'en-us': "During your opponent's next turn, any damage done to Ledyba by attacks is reduced by 20.",
+				'de-de': "Jeder Schaden, der Ledyba im nächsten Zug deines Gegners durch Angriffe zugefügt wird, wird um 20 reduziert."
 			},
 
 		},
@@ -42,12 +42,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Quick Turn",
-				de: "Schnelldrehung"
+				'en-us': "Quick Turn",
+				'de-de': "Schnelldrehung"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "10×",
 

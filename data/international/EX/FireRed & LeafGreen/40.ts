@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Nidorina",
-		fr: "Nidorina",
-		de: "Nidorina"
+		'en-us': "Nidorina",
+		'fr-fr': "Nidorina",
+		'de-de': "Nidorina"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidoran ♀",
-		fr: "Nidoran"
+		'en-us': "Nidoran ♀",
+		'fr-fr': "Nidoran"
 	},
 
 	stage: "Stage1",
@@ -36,9 +36,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Kratzer"
 			},
 
 			damage: 20,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fast Evolution",
-				fr: "Évolution fulgurante",
-				de: "Schnelle Evolution"
+				'en-us': "Fast Evolution",
+				'fr-fr': "Évolution fulgurante",
+				'de-de': "Schnelle Evolution"
 			},
 			effect: {
-				en: "Search your deck for up to 2 Evolution cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck jusqu'à 2 cartes Évolution, montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach bis zu 2 Evolutionskarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
+				'en-us': "Search your deck for up to 2 Evolution cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez dans votre deck jusqu'à 2 cartes Évolution, montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach bis zu 2 Evolutionskarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
 			},
 
 		},

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Alolan Exeggutor",
-		fr: "Noadkoko d’Alola",
-		es: "Exeggutor de Alola",
-		it: "Exeggutor di Alola",
-		pt: "Exeggutor de Alola",
-		de: "Alola-Kokowei"
+		'en-us': "Alolan Exeggutor",
+		'fr-fr': "Noadkoko d’Alola",
+		'es-es': "Exeggutor de Alola",
+		'it-it': "Exeggutor di Alola",
+		'pt-br': "Exeggutor de Alola",
+		'de-de': "Alola-Kokowei"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Exeggcute",
-		fr: "Noeunoeuf",
+		'en-us': "Exeggcute",
+		'fr-fr': "Noeunoeuf",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Paradise Draw",
-				fr: "Pioche Paradisiaque",
-				es: "Robo Paradisíaco",
-				it: "Pesca Paradisiaca",
-				pt: "Compra Paradisíaca",
-				de: "Paradieszug"
+				'en-us': "Paradise Draw",
+				'fr-fr': "Pioche Paradisiaque",
+				'es-es': "Robo Paradisíaco",
+				'it-it': "Pesca Paradisiaca",
+				'pt-br': "Compra Paradisíaca",
+				'de-de': "Paradieszug"
 			},
 			effect: {
-				en: "You may discard any number of cards from your hand. Then, draw cards until you have 6 cards in your hand.",
-				fr: "Vous pouvez défausser autant de cartes que vous voulez de votre main. Ensuite, piochez des cartes jusqu’à ce que vous ayez 6 cartes dans votre main.",
-				es: "Puedes descartar cualquier cantidad de cartas de tu mano. Después, roba cartas hasta que tengas 6 cartas en tu mano.",
-				it: "Puoi scartare un numero qualsiasi di carte che hai in mano. Poi pesca fino ad avere sei carte in mano.",
-				pt: "Você pode descartar qualquer número de cartas da sua mão. Em seguida, compre cartas até ter 6 cartas na sua mão.",
-				de: "Du kannst beliebig viele Karten aus deiner Hand auf deinen Ablagestapel legen. Ziehe anschließend so lang Karten, bis du 6 Karten auf deiner Hand hast."
+				'en-us': "You may discard any number of cards from your hand. Then, draw cards until you have 6 cards in your hand.",
+				'fr-fr': "Vous pouvez défausser autant de cartes que vous voulez de votre main. Ensuite, piochez des cartes jusqu’à ce que vous ayez 6 cartes dans votre main.",
+				'es-es': "Puedes descartar cualquier cantidad de cartas de tu mano. Después, roba cartas hasta que tengas 6 cartas en tu mano.",
+				'it-it': "Puoi scartare un numero qualsiasi di carte che hai in mano. Poi pesca fino ad avere sei carte in mano.",
+				'pt-br': "Você pode descartar qualquer número de cartas da sua mão. Em seguida, compre cartas até ter 6 cartas na sua mão.",
+				'de-de': "Du kannst beliebig viele Karten aus deiner Hand auf deinen Ablagestapel legen. Ziehe anschließend so lang Karten, bis du 6 Karten auf deiner Hand hast."
 			},
 
 		},
@@ -60,20 +60,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Egg Splat",
-				fr: "Floc Œuf",
-				es: "Salpicadura Huevo",
-				it: "Caduta Uova",
-				pt: "Ovo Estatelado",
-				de: "Eierplatsch"
+				'en-us': "Egg Splat",
+				'fr-fr': "Floc Œuf",
+				'es-es': "Salpicadura Huevo",
+				'it-it': "Caduta Uova",
+				'pt-br': "Ovo Estatelado",
+				'de-de': "Eierplatsch"
 			},
 			effect: {
-				en: "Discard any number of Exeggcute from your hand. This attack does 60 damage for each card you discarded in this way.",
-				fr: "Défaussez autant de Noeunoeuf que vous voulez de votre main. Cette attaque inflige 60 dégâts pour chaque carte défaussée de cette façon.",
-				es: "Descarta cualquier cantidad de Exeggcute de tu mano. Este ataque hace 60 puntos de daño por cada carta que hayas descartado de esta manera.",
-				it: "Scarta un numero qualsiasi di Exeggcute che hai in mano. Questo attacco infligge 60 danni per ogni carta che hai scartato in questo modo.",
-				pt: "Descarte qualquer número de Exeggcute da sua mão. Este ataque causa 60 pontos de dano para cada carta descartada desta forma.",
-				de: "Lege beliebig viele Owei aus deiner Hand auf deinen Ablagestapel. Diese Attacke fügt 60 Schadenspunkte mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
+				'en-us': "Discard any number of Exeggcute from your hand. This attack does 60 damage for each card you discarded in this way.",
+				'fr-fr': "Défaussez autant de Noeunoeuf que vous voulez de votre main. Cette attaque inflige 60 dégâts pour chaque carte défaussée de cette façon.",
+				'es-es': "Descarta cualquier cantidad de Exeggcute de tu mano. Este ataque hace 60 puntos de daño por cada carta que hayas descartado de esta manera.",
+				'it-it': "Scarta un numero qualsiasi di Exeggcute che hai in mano. Questo attacco infligge 60 danni per ogni carta che hai scartato in questo modo.",
+				'pt-br': "Descarte qualquer número de Exeggcute da sua mão. Este ataque causa 60 pontos de dano para cada carta descartada desta forma.",
+				'de-de': "Lege beliebig viele Owei aus deiner Hand auf deinen Ablagestapel. Diese Attacke fügt 60 Schadenspunkte mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
 			},
 			damage: "60×",
 
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Exeggutor is the pride of the Alolan people. Its image is carved into historical buildings and murals.",
+		'en-us': "Exeggutor is the pride of the Alolan people. Its image is carved into historical buildings and murals.",
 	},
 
 	thirdParty: {

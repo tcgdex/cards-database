@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Nidoking",
+		'en-us': "Nidoking",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidorino",
+		'en-us': "Nidorino",
 	},
 
 	stage: "Stage2",
@@ -35,10 +35,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thrash",
+				'en-us': "Thrash",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage and Nidoking does 10 damage to itself.",
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage and Nidoking does 10 damage to itself.",
 			},
 			damage: 30,
 
@@ -50,10 +50,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Toxic",
+				'en-us': "Toxic",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player's turn (even if it was already Poisoned).",
+				'en-us': "The Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player's turn (even if it was already Poisoned).",
 			},
 			damage: 40,
 
@@ -70,7 +70,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Uses its powerful tail in battle to smash, constrict, then break its prey's bones.",
+		'en-us': "Uses its powerful tail in battle to smash, constrict, then break its prey's bones.",
 	},
 
 

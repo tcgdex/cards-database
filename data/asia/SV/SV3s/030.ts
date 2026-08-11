@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Palkia"
+		'id-id': "Palkia"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Palkia memiliki kemampuan untuk mendistorsi ruang, Pokémon ini digambarkan sebagai dewa dalam mitos di Daerah Sinnoh."
+		'id-id': "Palkia memiliki kemampuan untuk mendistorsi ruang, Pokémon ini digambarkan sebagai dewa dalam mitos di Daerah Sinnoh."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Teleport Break"
+			'id-id': "Teleport Break"
 		},
 
 		effect: {
-			id: "Pemain dapat menukar Pokémon ini dengan Pokémon Cadangan."
+			'id-id': "Pemain dapat menukar Pokémon ini dengan Pokémon Cadangan."
 		},
 
 		damage: 30,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Side Counter"
+			'id-id': "Side Counter"
 		},
 
 		effect: {
-			id: "Jika sisa Kartu Point sendiri lebih banyak dari sisa Kartu Point lawan, kerusakan yang diberikan bertambah sejumlah 80."
+			'id-id': "Jika sisa Kartu Point sendiri lebih banyak dari sisa Kartu Point lawan, kerusakan yang diberikan bertambah sejumlah 80."
 		},
 
 		damage: "80+",

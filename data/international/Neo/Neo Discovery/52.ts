@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Xatu",
-		fr: "Xatu",
-		de: "Xatu"
+		'en-us': "Xatu",
+		'fr-fr': "Xatu",
+		'de-de': "Xatu"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Natu",
-		fr: "Natu"
+		'en-us': "Natu",
+		'fr-fr': "Natu"
 	},
 
 	stage: "Stage1",
@@ -37,15 +37,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Energy Cycle",
-				fr: "Cycle énergétique",
-				de: "Energy Cycle"
+				'en-us': "Energy Cycle",
+				'fr-fr': "Cycle énergétique",
+				'de-de': "Energy Cycle"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, choose 1 Energy card attached to the Defending Pokémon and 1 of your opponent's Benched Pokémon. Attach that Energy card to that Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, choisissez une carte Énergie attachée au Pokémon Défenseur et 1 Pokémon du Banc de votre adversaire. Attachez-lui cette carte Énergie.",
-				de: "Flip a coin. If heads, choose 1 Energy card attached to the Defending Pokémon and 1 of your opponent's Benched Pokémon. Attach that Energy card to that Pokémon."
+				'en-us': "Flip a coin. If heads, choose 1 Energy card attached to the Defending Pokémon and 1 of your opponent's Benched Pokémon. Attach that Energy card to that Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, choisissez une carte Énergie attachée au Pokémon Défenseur et 1 Pokémon du Banc de votre adversaire. Attachez-lui cette carte Énergie.",
+				'de-de': "Flip a coin. If heads, choose 1 Energy card attached to the Defending Pokémon and 1 of your opponent's Benched Pokémon. Attach that Energy card to that Pokémon."
 			},
 
 			damage: 10
@@ -57,9 +57,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Psy",
-				fr: "Super psy",
-				de: "Super Psy"
+				'en-us': "Super Psy",
+				'fr-fr': "Super psy",
+				'de-de': "Super Psy"
 			},
 
 			damage: 50,
@@ -84,8 +84,8 @@ const card: Card = {
 
 
 	description: {
-		en: "In South America, it is said that its right eye sees the future and its left eye views the past.",
-		fr: "En Amérique du Sud, on dit que son œil droit voit l'avenir et le gauche, le passé."
+		'en-us': "In South America, it is said that its right eye sees the future and its left eye views the past.",
+		'fr-fr': "En Amérique du Sud, on dit que son œil droit voit l'avenir et le gauche, le passé."
 	},
 
 

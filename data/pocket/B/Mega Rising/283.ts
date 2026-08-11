@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tauros ex"
+		'en-us': "Tauros ex"
 	},
 
 	illustrator: "Ounishi",
@@ -20,14 +20,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Wild Tackle"
+			'en-us': "Wild Tackle"
 		},
 
 		damage: 90,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If tails, this Pokémon also does 30 damage to itself."
+			'en-us': "Flip a coin. If tails, this Pokémon also does 30 damage to itself."
 		}
 	}],
 

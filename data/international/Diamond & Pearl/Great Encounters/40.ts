@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Grovyle",
-		fr: "Massko",
-		de: "Reptain"
+		'en-us': "Grovyle",
+		'fr-fr': "Massko",
+		'de-de': "Reptain"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Treecko",
-		fr: "Arcko",
+		'en-us': "Treecko",
+		'fr-fr': "Arcko",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Greenness",
-				fr: "Verdure",
-				de: "Begrünen"
+				'en-us': "Greenness",
+				'fr-fr': "Verdure",
+				'de-de': "Begrünen"
 			},
 			effect: {
-				en: "Search your deck for up to 2 Grass Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck jusqu'à 2 cartes Énergie Grass, montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach bis zu 2 -Energiekarten, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+				'en-us': "Search your deck for up to 2 Grass Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck jusqu'à 2 cartes Énergie Grass, montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach bis zu 2 -Energiekarten, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Breath",
-				fr: "Haleine empoisonnée",
-				de: "Gifthauch"
+				'en-us': "Poison Breath",
+				'fr-fr': "Haleine empoisonnée",
+				'de-de': "Gifthauch"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 30,
 
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
+		'en-us': "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メロエッタex",
+		'ja-jp': "メロエッタex",
 	},
 
 	illustrator: "LINNE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "",
+		'ja-jp': "",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "デビューライブ" },
 			effect: {
-				ja: "このポケモンは、先攻プレイヤーの最初の番でも、ワザが使える。",
+				'ja-jp': "このポケモンは、先攻プレイヤーの最初の番でも、ワザが使える。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Psychic"],
 			effect: {
-				ja: "次の自分の番、このポケモンの「エコーボイス」のダメージは「+80」される。",
+				'ja-jp': "次の自分の番、このポケモンの「エコーボイス」のダメージは「+80」される。",
 			},
 		},
 	],

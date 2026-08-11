@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit 2 (Minun).ts'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mareep",
-		fr: "Wattouat"
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -26,12 +26,12 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Minor Errand-Running",
-			fr: "Rendez-vous mineur"
+			'en-us': "Minor Errand-Running",
+			'fr-fr': "Rendez-vous mineur"
 		},
 		effect: {
-			en: "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-			fr: "Choisissez dans votre deck une carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck."
+			'en-us': "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+			'fr-fr': "Choisissez dans votre deck une carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck."
 		}
 	}, {
 		cost: [
@@ -39,12 +39,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Quick Attack",
-			fr: "Vive-attaque"
+			'en-us': "Quick Attack",
+			'fr-fr': "Vive-attaque"
 		},
 		effect: {
-			en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+			'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
 		},
 		damage: "10+"
 	}],

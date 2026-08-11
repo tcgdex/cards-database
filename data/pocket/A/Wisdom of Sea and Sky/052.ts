@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Quagsire",
-		fr: "Maraiste"
+		'en-us': "Quagsire",
+		'fr-fr': "Maraiste"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Wooper"
+		'en-us': "Wooper"
 	},
 
 	description: {
-		en: "It has an easygoing nature. It doesn't care if it\nbumps its head on boats and boulders\nwhile swimming.",
-		fr: "Il a tendance à se cogner la tête contre la coque des navires et les rochers, mais, imperturbable, il continue de nager comme si de rien n'était."
+		'en-us': "It has an easygoing nature. It doesn't care if it\nbumps its head on boats and boulders\nwhile swimming.",
+		'fr-fr': "Il a tendance à se cogner la tête contre la coque des navires et les rochers, mais, imperturbable, il continue de nager comme si de rien n'était."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Surf",
-			fr: "Surf"
+			'en-us': "Surf",
+			'fr-fr': "Surf"
 		},
 
 		damage: 80,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Pyrax",
-		en: "Volcarona",
-		es: "Volcarona",
-		it: "Volcarona",
-		pt: "Volcarona",
-		de: "Ramoth"
+		'fr-fr': "Pyrax",
+		'en-us': "Volcarona",
+		'es-es': "Volcarona",
+		'it-it': "Volcarona",
+		'pt-br': "Volcarona",
+		'de-de': "Ramoth"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Fire"],
 	evolveFrom: {
-		fr: "Pyronille",
-		en: "Larvesta",
-		es: "Larvesta",
-		it: "Larvesta",
-		pt: "Larvesta",
-		de: "Ignivor"
+		'fr-fr': "Pyronille",
+		'en-us': "Larvesta",
+		'es-es': "Larvesta",
+		'it-it': "Larvesta",
+		'pt-br': "Larvesta",
+		'de-de': "Ignivor"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			fr: "Manteau de Feu",
-			en: "Flame Cloak",
-			es: "Manto Ígneo",
-			it: "Radunafuoco",
-			pt: "Manto de Chamas",
-			de: "Flammenumhang"
+			'fr-fr': "Manteau de Feu",
+			'en-us': "Flame Cloak",
+			'es-es': "Manto Ígneo",
+			'it-it': "Radunafuoco",
+			'pt-br': "Manto de Chamas",
+			'de-de': "Flammenumhang"
 		},
 
 		effect: {
-			fr: "Attachez une carte Énergie {R} de base de votre pile de défausse à ce Pokémon.",
-			en: "Attach a Basic {R} Energy card from your discard pile to this Pokémon.",
-			es: "Une 1 carta de Energía {R} Básica de tu pila de descartes a este Pokémon.",
-			it: "Assegna a questo Pokémon una carta Energia base {R} dalla tua pila degli scarti.",
-			pt: "Ligue uma carta de Energia {R} Básica da sua pilha de descarte a este Pokémon.",
-			de: "Lege 1 Basis-{R}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+			'fr-fr': "Attachez une carte Énergie {R} de base de votre pile de défausse à ce Pokémon.",
+			'en-us': "Attach a Basic {R} Energy card from your discard pile to this Pokémon.",
+			'es-es': "Une 1 carta de Energía {R} Básica de tu pila de descartes a este Pokémon.",
+			'it-it': "Assegna a questo Pokémon una carta Energia base {R} dalla tua pila degli scarti.",
+			'pt-br': "Ligue uma carta de Energia {R} Básica da sua pilha de descarte a este Pokémon.",
+			'de-de': "Lege 1 Basis-{R}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 		},
 
 		damage: 30
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			fr: "Explosion de Chaleur",
-			en: "Heat Blast",
-			es: "Explosión de Calor",
-			it: "Caldobomba",
-			pt: "Raio de Calor",
-			de: "Hitzestoß"
+			'fr-fr': "Explosion de Chaleur",
+			'en-us': "Heat Blast",
+			'es-es': "Explosión de Calor",
+			'it-it': "Caldobomba",
+			'pt-br': "Raio de Calor",
+			'de-de': "Hitzestoß"
 		},
 
 		damage: 130
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Its burning body causes it to be unpopular in hot parts of the world, but in cold ones, Volcarona is revered as an embodiment of the sun.",
+		'en-us': "Its burning body causes it to be unpopular in hot parts of the world, but in cold ones, Volcarona is revered as an embodiment of the sun.",
 	},
 
 	variants: [

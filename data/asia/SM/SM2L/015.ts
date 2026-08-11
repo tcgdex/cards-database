@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローライシツブテ",
+		'ja-jp': "アローライシツブテ",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "磁力を 帯びた 石の身体。 特に 磁力が 強い 部分には 砂鉄が ビッシリ ついてるよ。",
+		'ja-jp': "磁力を 帯びた 石の身体。 特に 磁力が 強い 部分には 砂鉄が ビッシリ ついてるよ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ロックカット" },
 			cost: [],
 			effect: {
-				ja: "次の自分の番、このポケモンのにげるためのエネルギーは、すべてなくなる。",
+				'ja-jp': "次の自分の番、このポケモンのにげるためのエネルギーは、すべてなくなる。",
 			},
 		},
 		{

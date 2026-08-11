@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Skuntank",
-		fr: "Moufflair",
-		de: "Skunktank"
+		'en-us': "Skuntank",
+		'fr-fr': "Moufflair",
+		'de-de': "Skunktank"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Stunky",
-		fr: "Moufouette"
+		'en-us': "Stunky",
+		'fr-fr': "Moufouette"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Stun Gas",
-				fr: "Gaz étourdissant",
-				de: "Betäubungsgas"
+				'en-us': "Stun Gas",
+				'fr-fr': "Gaz étourdissant",
+				'de-de': "Betäubungsgas"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Empoisonné. Si c’est pile, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet. Bei \"Zahl\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Empoisonné. Si c’est pile, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet. Bei \"Zahl\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Swipes",
-				fr: "Combo-griffe",
-				de: "Kratzfurie"
+				'en-us': "Fury Swipes",
+				'fr-fr': "Combo-griffe",
+				'de-de': "Kratzfurie"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 3 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'de-de': "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "30×",
 
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It attacks by spraying a repugnant fluid from its tail, but the stench dulls after a few squirts."
+		'en-us': "It attacks by spraying a repugnant fluid from its tail, but the stench dulls after a few squirts."
 	},
 
 	variants: [

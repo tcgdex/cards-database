@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Grimer",
-		fr: "Tadmorv",
-		de: "Sleima"
+		'en-us': "Grimer",
+		'fr-fr': "Tadmorv",
+		'de-de': "Sleima"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Gas",
-				fr: "Gaz toxik",
-				de: "Poison Gas"
+				'en-us': "Poison Gas",
+				'fr-fr': "Gaz toxik",
+				'de-de': "Poison Gas"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sticky Hands",
-				fr: "Mains collantes",
-				de: "Sticky hands"
+				'en-us': "Sticky Hands",
+				'fr-fr': "Mains collantes",
+				'de-de': "Sticky hands"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage and the Defending Pokémon is now Paralyzed; if tails, this attack does 10 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Paralysé ; si c'est pile, cette attaque inflige 10 dégâts.",
-				de: "Flip a coin. if heads, this attack does 10 damage plus 20 more damage and the defending Pokémon is now Paralyzed; if tails, this attack does 10 damage."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage and the Defending Pokémon is now Paralyzed; if tails, this attack does 10 damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Paralysé ; si c'est pile, cette attaque inflige 10 dégâts.",
+				'de-de': "Flip a coin. if heads, this attack does 10 damage plus 20 more damage and the defending Pokémon is now Paralyzed; if tails, this attack does 10 damage."
 			},
 			damage: "10+",
 
@@ -72,8 +72,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It has recently been found that Grimers are formed in waste-processing plants, and can move into towns via sewers.",
-		fr: "On a récemment découvert que les Tadmorv prennent forme dans les usines de traitement des déchets, et peuvent se déplacer vers les villes à travers les égouts.."
+		'en-us': "It has recently been found that Grimers are formed in waste-processing plants, and can move into towns via sewers.",
+		'fr-fr': "On a récemment découvert que les Tadmorv prennent forme dans les usines de traitement des déchets, et peuvent se déplacer vers les villes à travers les égouts.."
 	},
 
 

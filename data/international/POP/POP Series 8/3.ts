@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 8'
 
 const card: Card = {
 	name: {
-		en: "Luxray",
+		'en-us': "Luxray",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Luxio",
+		'en-us': "Luxio",
 	},
 
 	stage: "Stage2",
@@ -31,10 +31,10 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Intimidating Fang",
+				'en-us': "Intimidating Fang",
 			},
 			effect: {
-				en: "As long as Luxray is your Active Pokémon, any damage done by an opponent’s attack is reduced by 10 (before applying Weakness and Resistance).",
+				'en-us': "As long as Luxray is your Active Pokémon, any damage done by an opponent’s attack is reduced by 10 (before applying Weakness and Resistance).",
 			},
 		},
 	],
@@ -48,10 +48,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder",
+				'en-us': "Thunder",
 			},
 			effect: {
-				en: "Flip a coin. If tails, Luxray does 40 damage to itself.",
+				'en-us': "Flip a coin. If tails, Luxray does 40 damage to itself.",
 			},
 			damage: 120,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "When its eyes gleam gold, it can spot hiding prey–even those taking shelter behind a wall."
+		'en-us': "When its eyes gleam gold, it can spot hiding prey–even those taking shelter behind a wall."
 	},
 
 	retreat: 1,

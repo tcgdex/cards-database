@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Brute Bonnet",
-		fr: "Fongus-Furie",
-		es: "Furioseta",
-		it: "Fungofurioso",
-		pt: "Capuz Bruto",
-		de: "Wutpilz"
+		'en-us': "Brute Bonnet",
+		'fr-fr': "Fongus-Furie",
+		'es-es': "Furioseta",
+		'it-it': "Fungofurioso",
+		'pt-br': "Capuz Bruto",
+		'de-de': "Wutpilz"
 	},
 
 	rarity: "Uncommon",
@@ -24,41 +24,41 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Poison Spray",
-			fr: "Pulvérisation Toxique",
-			es: "Aerosol Venenoso",
-			it: "Spruzzo Velenoso",
-			pt: "Spray de Veneno",
-			de: "Giftspray"
+			'en-us': "Poison Spray",
+			'fr-fr': "Pulvérisation Toxique",
+			'es-es': "Aerosol Venenoso",
+			'it-it': "Spruzzo Velenoso",
+			'pt-br': "Spray de Veneno",
+			'de-de': "Giftspray"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		}
 	}, {
 		cost: ["Darkness", "Darkness", "Darkness"],
 
 		name: {
-			en: "Relentless Punches",
-			fr: "Poings Acharnés",
-			es: "Puños Implacables",
-			it: "Pugni Continui",
-			pt: "Socos Implacáveis",
-			de: "Unerbittliche Hiebe"
+			'en-us': "Relentless Punches",
+			'fr-fr': "Poings Acharnés",
+			'es-es': "Puños Implacables",
+			'it-it': "Pugni Continui",
+			'pt-br': "Socos Implacáveis",
+			'de-de': "Unerbittliche Hiebe"
 		},
 
 		effect: {
-			en: "This attack does 50 more damage for each damage counter on your opponent's Active Pokémon.",
-			fr: "Cette attaque inflige 50 dégâts supplémentaires pour chaque marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
-			es: "Este ataque hace 50 puntos de daño más por cada contador de daño en el Pokémon Activo de tu rival.",
-			it: "Questo attacco infligge 50 danni in più per ogni segnalino danno presente sul Pokémon attivo del tuo avversario.",
-			pt: "Este ataque causa 50 pontos de dano a mais para cada contador de dano no Pokémon Ativo do seu oponente.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf dem Aktiven Pokémon deines Gegners 50 Schadenspunkte mehr zu."
+			'en-us': "This attack does 50 more damage for each damage counter on your opponent's Active Pokémon.",
+			'fr-fr': "Cette attaque inflige 50 dégâts supplémentaires pour chaque marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
+			'es-es': "Este ataque hace 50 puntos de daño más por cada contador de daño en el Pokémon Activo de tu rival.",
+			'it-it': "Questo attacco infligge 50 danni in più per ogni segnalino danno presente sul Pokémon attivo del tuo avversario.",
+			'pt-br': "Este ataque causa 50 pontos de dano a mais para cada contador de dano no Pokémon Ativo do seu oponente.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf dem Aktiven Pokémon deines Gegners 50 Schadenspunkte mehr zu."
 		},
 
 		damage: "50+"
@@ -74,7 +74,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It is possible that the creature listed as Brute Bonnet in a certain book could actually be this Pokémon.",
+		'en-us': "It is possible that the creature listed as Brute Bonnet in a certain book could actually be this Pokémon.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Raichu",
-		de: "Raichu"
+		'en-us': "Raichu",
+		'de-de': "Raichu"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pikachu"
+		'en-us': "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Boosted Voltage",
-				de: "Erhöhte Spannung"
+				'en-us': "Boosted Voltage",
+				'de-de': "Erhöhte Spannung"
 			},
 			effect: {
-				en: "If Raichu has a Pokémon Tool card attached to it, this attack does 20 damage to each of your opponent's Benched Pokémon that isn't an Evolved Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				de: "Wenn an Raichu mindestens 1 Pokémon-Ausrüstung angelegt ist, fügt dieser Angriff jedem Pokémon auf der Bank deines Gegners, das kein entwickeltes Pokémon ist, 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "If Raichu has a Pokémon Tool card attached to it, this attack does 20 damage to each of your opponent's Benched Pokémon that isn't an Evolved Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'de-de': "Wenn an Raichu mindestens 1 Pokémon-Ausrüstung angelegt ist, fügt dieser Angriff jedem Pokémon auf der Bank deines Gegners, das kein entwickeltes Pokémon ist, 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 20,
 
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Blast",
-				de: "Donnerkeil"
+				'en-us': "Thunder Blast",
+				'de-de': "Donnerkeil"
 			},
 			effect: {
-				en: "Discard a Lightning Energy card attached to Raichu.",
-				de: "Entferne 1 -Energiekarte, die an Raichu angelegt ist, und lege sie auf den Ablagestapel."
+				'en-us': "Discard a Lightning Energy card attached to Raichu.",
+				'de-de': "Entferne 1 -Energiekarte, die an Raichu angelegt ist, und lege sie auf den Ablagestapel."
 			},
 			damage: 70,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its tail discharges electricity into the ground, protecting it from getting shocked."
+		'en-us': "Its tail discharges electricity into the ground, protecting it from getting shocked."
 	},
 
 	thirdParty: {

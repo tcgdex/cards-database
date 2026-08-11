@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルガルガン",
+		'ja-jp': "ルガルガン",
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "夕日を 浴び 特別な 進化を した ルガルガン。 もの静かだが 激しい 闘志を 秘めている。",
+		'ja-jp': "夕日を 浴び 特別な 進化を した ルガルガン。 もの静かだが 激しい 闘志を 秘めている。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモンの数x20ダメージ追加。",
+				'ja-jp': "相手のベンチポケモンの数x20ダメージ追加。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イワンコ",
+		'ja-jp': "イワンコ",
 	},
 
 	retreat: 2,

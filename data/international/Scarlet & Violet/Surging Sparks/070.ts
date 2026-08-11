@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Togepi",
-		fr: "Togepi",
-		es: "Togepi",
-		it: "Togepi",
-		pt: "Togepi",
-		de: "Togepi"
+		'en-us': "Togepi",
+		'fr-fr': "Togepi",
+		'es-es': "Togepi",
+		'it-it': "Togepi",
+		'pt-br': "Togepi",
+		'de-de': "Togepi"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Pound",
-			fr: "Écras'Face",
-			es: "Destructor",
-			it: "Botta",
-			pt: "Pancada",
-			de: "Klaps"
+			'en-us': "Pound",
+			'fr-fr': "Écras'Face",
+			'es-es': "Destructor",
+			'it-it': "Botta",
+			'pt-br': "Pancada",
+			'de-de': "Klaps"
 		},
 
 		damage: 30

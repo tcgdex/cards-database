@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コンパン",
+		'ja-jp': "コンパン",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "スタン胞子",
+				'ja-jp': "スタン胞子",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "リーチライフ",
+				'ja-jp': "リーチライフ",
 			},
 			effect: {
-				ja: "Venonatから多くのダメージカウンターを除去し、防御ポケモンに与えられた損傷に等しい（脱力感と抵抗を適用した後）。 Venonatのダメージカウンターがそれよりも少ない場合は、それらすべてを削除します。",
+				'ja-jp': "Venonatから多くのダメージカウンターを除去し、防御ポケモンに与えられた損傷に等しい（脱力感と抵抗を適用した後）。 Venonatのダメージカウンターがそれよりも少ない場合は、それらすべてを削除します。",
 			},
 			damage: 10,
 		},

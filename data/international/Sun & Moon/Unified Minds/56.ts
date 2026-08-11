@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		es: "Pikachu",
-		it: "Pikachu",
-		pt: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'es-es': "Pikachu",
+		'it-it': "Pikachu",
+		'pt-br': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Whap",
-				fr: "Queue Battoir",
-				es: "Coletón",
-				it: "Codabotta",
-				pt: "Surra de Cauda",
-				de: "Schweifvertrimmer"
+				'en-us': "Tail Whap",
+				'fr-fr': "Queue Battoir",
+				'es-es': "Coletón",
+				'it-it': "Codabotta",
+				'pt-br': "Surra de Cauda",
+				'de-de': "Schweifvertrimmer"
 			},
 
 			damage: 10,
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electric Ball",
-				fr: "Boule de Foudre",
-				es: "Bola Eléctrica",
-				it: "Lamposfera",
-				pt: "Bola de Eletricidade",
-				de: "Stromball"
+				'en-us': "Electric Ball",
+				'fr-fr': "Boule de Foudre",
+				'es-es': "Bola Eléctrica",
+				'it-it': "Lamposfera",
+				'pt-br': "Bola de Eletricidade",
+				'de-de': "Stromball"
 			},
 
 			damage: 50,
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its nature is to store up electricity. Forests where nests of Pikachu live are dangerous, since the trees are so often struck by lightning.",
+		'en-us': "Its nature is to store up electricity. Forests where nests of Pikachu live are dangerous, since the trees are so often struck by lightning.",
 	},
 
 	thirdParty: {

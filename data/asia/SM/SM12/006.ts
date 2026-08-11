@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コロトック",
+		'ja-jp': "コロトック",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "鳴くときは ナイフのような 腕を 胸の 前で 交差させる。 即興で メロディを 作る。",
+		'ja-jp': "鳴くときは ナイフのような 腕を 胸の 前で 交差させる。 即興で メロディを 作る。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Grass"],
 			effect: {
-				ja: "自分の手札が1枚なら、100ダメージ追加。3枚なら、相手のバトルポケモンをこんらんにする。6枚なら、相手のベンチポケモン全員にも、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "自分の手札が1枚なら、100ダメージ追加。3枚なら、相手のバトルポケモンをこんらんにする。6枚なら、相手のベンチポケモン全員にも、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コロボーシ",
+		'ja-jp': "コロボーシ",
 	},
 
 	retreat: 2,

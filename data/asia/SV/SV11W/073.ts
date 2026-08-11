@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ハーデリア",
+		'ja-jp': "ハーデリア",
 	},
 
 	illustrator: "sowsow",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "マントのように 体を 覆う 黒い 体毛は とても 硬い。 受けた ダメージを 減らしてくれる。",
+		'ja-jp': "マントのように 体を 覆う 黒い 体毛は とても 硬い。 受けた ダメージを 減らしてくれる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			name: { ja: "ほえる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+				'ja-jp': "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
 			},
 		},
 		{
@@ -51,7 +51,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヨーテリー",
+		'ja-jp': "ヨーテリー",
 	},
 
 	retreat: 1,

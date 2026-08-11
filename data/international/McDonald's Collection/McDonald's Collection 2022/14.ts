@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2022'
 
 const card: Card = {
 	name: {
-		en: "Drampa",
-		fr: "Draïeul",
-		es: "Drampa",
-		it: "Drampa",
-		pt: "Drampa",
-		de: "Sen-Long"
+		'en-us': "Drampa",
+		'fr-fr': "Draïeul",
+		'es-es': "Drampa",
+		'it-it': "Drampa",
+		'pt-br': "Drampa",
+		'de-de': "Sen-Long"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -28,17 +28,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				en: "Corkscrew Punch",
+				'en-us': "Corkscrew Punch",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Water", "Fighting"],
 			name: {
-				en: "Berkshire",
+				'en-us': "Berkshire",
 			},
 			effect: {
-				en: "If your Benched Pokémon have any damage counters on them, this attack does 90 more damage.",
+				'en-us': "If your Benched Pokémon have any damage counters on them, this attack does 90 more damage.",
 			},
 			damage: "70+",
 		},

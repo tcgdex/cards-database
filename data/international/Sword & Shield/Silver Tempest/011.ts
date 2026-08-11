@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Foongus",
-		fr: "Trompignon",
-		es: "Foongus",
-		it: "Foongus",
-		pt: "Foongus",
-		de: "Tarnpignon"
+		'en-us': "Foongus",
+		'fr-fr': "Trompignon",
+		'es-es': "Foongus",
+		'it-it': "Foongus",
+		'pt-br': "Foongus",
+		'de-de': "Tarnpignon"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 10
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "No one knows what the Poké Ball–like pattern on Foongus means or why Foongus has it.",
+		'en-us': "No one knows what the Poké Ball–like pattern on Foongus means or why Foongus has it.",
 	},
 
 	variants: [

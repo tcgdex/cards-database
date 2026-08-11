@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Blipbug",
-		fr: "Larvadar",
-		es: "Blipbug",
-		it: "Blipbug",
-		pt: "Blipbug",
-		de: "Sensect"
+		'en-us': "Blipbug",
+		'fr-fr': "Larvadar",
+		'es-es': "Blipbug",
+		'it-it': "Blipbug",
+		'pt-br': "Blipbug",
+		'de-de': "Sensect"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -22,12 +22,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Stampede",
-			fr: "Ruée",
-			es: "Estampida",
-			it: "Fuggi Fuggi",
-			pt: "Estouro",
-			de: "Zertrampeln"
+			'en-us': "Stampede",
+			'fr-fr': "Ruée",
+			'es-es': "Estampida",
+			'it-it': "Fuggi Fuggi",
+			'pt-br': "Estouro",
+			'de-de': "Zertrampeln"
 		},
 
 		damage: 10,
@@ -46,7 +46,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings."
+		'en-us': "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings."
 	},
 
 	variants: [

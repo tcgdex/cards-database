@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "メラルバ",
+		'ja-jp': "メラルバ",
 		'zh-tw': "燃燒蟲",
-		th: "เมลาร์วา",
-		id: "Larvesta"
+		'th-th': "เมลาร์วา",
+		'id-id': "Larvesta"
 	},
 
 	illustrator: "Yuka Morii",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "太陽を 盗んだ 幼虫と 呼ばれていた。 ツノから 噴き出す 炎は 鉄板も 焼き切る。",
+		'ja-jp': "太陽を 盗んだ 幼虫と 呼ばれていた。 ツノから 噴き出す 炎は 鉄板も 焼き切る。",
 		'zh-tw': "過去被稱為盜日幼蟲。從角噴出來的火焰， 就連鐵板都能燒斷。",
-		th: "เคยถูกเรียกว่าตัวอ่อนแมลงที่ขโมยพระอาทิตย์ไป ไฟที่พ่นออกมาจากเขาสามารถเผาได้กระทั่งแผ่นเหล็ก",
-		id: "Larvesta dikenal sebagai larva pencuri matahari. Api yang dikeluarkan dari tanduknya dapat memotong pelat besi."
+		'th-th': "เคยถูกเรียกว่าตัวอ่อนแมลงที่ขโมยพระอาทิตย์ไป ไฟที่พ่นออกมาจากเขาสามารถเผาได้กระทั่งแผ่นเหล็ก",
+		'id-id': "Larvesta dikenal sebagai larva pencuri matahari. Api yang dikeluarkan dari tanduknya dapat memotong pelat besi."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "ほのお",
+			'ja-jp': "ほのお",
 			'zh-tw': "火焰",
-			th: "ไฟ",
-			id: "Api"
+			'th-th': "ไฟ",
+			'id-id': "Api"
 		},
 
 		damage: 10
@@ -42,19 +42,19 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			ja: "とっしん",
+			'ja-jp': "とっしん",
 			'zh-tw': "猛撞",
-			th: "พุ่งเข้าใส่",
-			id: "Menerjang"
+			'th-th': "พุ่งเข้าใส่",
+			'id-id': "Menerjang"
 		},
 
 		damage: 40,
 
 		effect: {
-			ja: "このポケモンにも10ダメージ。",
+			'ja-jp': "このポケモンにも10ダメージ。",
 			'zh-tw': "這隻寶可夢也受到10點傷害。",
-			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
-			id: "Pokémon ini juga menerima kerusakan sejumlah 10."
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10."
 		}
 	}],
 

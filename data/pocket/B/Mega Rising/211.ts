@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wooloo"
+		'en-us': "Wooloo"
 	},
 
 	illustrator: "Yoko Hishida",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "If its fleece grows too long, Wooloo won't be\nable to move. Cloth made with the wool of this\nPokémon is surprisingly strong."
+		'en-us': "If its fleece grows too long, Wooloo won't be\nable to move. Cloth made with the wool of this\nPokémon is surprisingly strong."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Continuous Tumble"
+			'en-us': "Continuous Tumble"
 		},
 
 		damage: 40,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin until you get tails. This attack does 40 damage for each heads."
+			'en-us': "Flip a coin until you get tails. This attack does 40 damage for each heads."
 		}
 	}],
 

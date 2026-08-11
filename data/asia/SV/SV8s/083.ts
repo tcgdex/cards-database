@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Meowstic",
-		th: "เนียโอนิกซ์"
+		'id-id': "Meowstic",
+		'th-th': "เนียโอนิกซ์"
 	},
 
 	illustrator: "Yoriyuki Ikegami",
@@ -15,8 +15,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Jika Meowstic terus mengeluarkan kekuatan psikokinesisnya yang kuat, fisiknya juga akan mengalami kerusakan.",
-		th: "เมื่อเนียโอนิกซ์ปล่อยพลังจิตอันทรงพลังออกมาเรื่อย ๆ กายเนื้อของ มันก็จะได้รับความเสียหายไปด้วยเช่นกัน"
+		'id-id': "Jika Meowstic terus mengeluarkan kekuatan psikokinesisnya yang kuat, fisiknya juga akan mengalami kerusakan.",
+		'th-th': "เมื่อเนียโอนิกซ์ปล่อยพลังจิตอันทรงพลังออกมาเรื่อย ๆ กายเนื้อของ มันก็จะได้รับความเสียหายไปด้วยเช่นกัน"
 	},
 
 	stage: "Stage1",
@@ -25,20 +25,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Ekor Mengundang",
-			th: "หางเชื้อเชิญ"
+			'id-id': "Ekor Mengundang",
+			'th-th': "หางเชื้อเชิญ"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri jika membuang 1 lembar Mainan Santai dari Kartu Pegangan sendiri ke Trash. Pilih 1 Pokémon Cadangan lawan, lalu tukar dengan Pokémon Bertarung.",
-			th: "ในเทิร์นฝ่ายเรา ถ้าทิ้งการ์ด [ไม้หยอกเรื่อยเฉื่อย] 1 ใบจากบนมือฝ่ายเรา ที่ตำแหน่งทิ้งการ์ด ใช้ได้ 1 ครั้ง เลือกโปเกมอนบนเบนช์ฝ่ายตรงข้าม 1 ตัว สลับกับโปเกมอนบนตำแหน่งต่อสู้"
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri jika membuang 1 lembar Mainan Santai dari Kartu Pegangan sendiri ke Trash. Pilih 1 Pokémon Cadangan lawan, lalu tukar dengan Pokémon Bertarung.",
+			'th-th': "ในเทิร์นฝ่ายเรา ถ้าทิ้งการ์ด [ไม้หยอกเรื่อยเฉื่อย] 1 ใบจากบนมือฝ่ายเรา ที่ตำแหน่งทิ้งการ์ด ใช้ได้ 1 ครั้ง เลือกโปเกมอนบนเบนช์ฝ่ายตรงข้าม 1 ตัว สลับกับโปเกมอนบนตำแหน่งต่อสู้"
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Psyshot",
-			th: "ไซโคช็อต"
+			'id-id': "Psyshot",
+			'th-th': "ไซโคช็อต"
 		},
 
 		damage: 80,

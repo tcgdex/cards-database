@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [78],
 
 	name: {
-		en: "Galarian Rapidash"
+		'en-us': "Galarian Rapidash"
 	},
 
 	illustrator: "You Iribi",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Galarian Ponyta"
+		'en-us': "Galarian Ponyta"
 	},
 
 	description: {
-		en: "Brave and prideful, this Pokémon dashes airily\nthrough the forest, its steps aided by the psychic\npower stored in the fur on its fetlocks."
+		'en-us': "Brave and prideful, this Pokémon dashes airily\nthrough the forest, its steps aided by the psychic\npower stored in the fur on its fetlocks."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Photon Laser"
+			'en-us': "Photon Laser"
 		},
 
 		damage: 40,
 		cost: ["Psychic"],
 
 		effect: {
-			en: "If you have 5 or more {P} Energy in play, this attack does 60 more damage."
+			'en-us': "If you have 5 or more {P} Energy in play, this attack does 60 more damage."
 		}
 	}],
 

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Simipour"
+		'id-id': "Simipour"
 	},
 
 	illustrator: "nagimiso",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Simipour menyukai tempat yang airnya bersih. Jika air yang ditampung di kepalanya berkurang, Pokémon ini akan mengisinya kembali dengan menyedot air menggunakan ekornya."
+		'id-id': "Simipour menyukai tempat yang airnya bersih. Jika air yang ditampung di kepalanya berkurang, Pokémon ini akan mengisinya kembali dengan menyedot air menggunakan ekornya."
 	},
 
 	stage: "Stage1",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Monkey Trio"
+			'id-id': "Monkey Trio"
 		},
 
 		effect: {
-			id: "Jika ada Simisage, Simisear, dan Simipour di Arena sendiri, Pokémon ini menjadi tidak membutuhkan Energi {Bening} untuk menggunakan serangan."
+			'id-id': "Jika ada Simisage, Simisear, dan Simipour di Arena sendiri, Pokémon ini menjadi tidak membutuhkan Energi {Bening} untuk menggunakan serangan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Mengguyur Memandikan"
+			'id-id': "Mengguyur Memandikan"
 		},
 
 		effect: {
-			id: "Serangan ini juga memberikan kerusakan masing-masing sejumlah 30 kepada semua Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
+			'id-id': "Serangan ini juga memberikan kerusakan masing-masing sejumlah 30 kepada semua Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
 		},
 
 		damage: 50,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Vulpix",
-		fr: "Goupix",
-		es: "Vulpix",
-		it: "Vulpix",
-		pt: "Vulpix",
-		de: "Vulpix"
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix",
+		'es-es': "Vulpix",
+		'it-it': "Vulpix",
+		'pt-br': "Vulpix",
+		'de-de': "Vulpix"
 	},
 
 	illustrator: "Taira Akitsu",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flare",
-				fr: "Flamboiement",
-				es: "Llama",
-				it: "Fiammata",
-				pt: "Chama",
-				de: "Flackern"
+				'en-us': "Flare",
+				'fr-fr': "Flamboiement",
+				'es-es': "Llama",
+				'it-it': "Fiammata",
+				'pt-br': "Chama",
+				'de-de': "Flackern"
 			},
 
 			damage: 20,
@@ -65,7 +65,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "While young, it has six gorgeous tails. When it grows, several new tails are sprouted."
+		'en-us': "While young, it has six gorgeous tails. When it grows, several new tails are sprouted."
 	},
 
 	thirdParty: {

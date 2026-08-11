@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Charmeleon",
-		fr: "Reptincel",
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmander",
-		fr: "Salamèche",
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche",
 	},
 
 	stage: "Stage1",
@@ -36,8 +36,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
 			},
 
 			damage: 30,
@@ -50,8 +50,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-Flammes",
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-Flammes",
 			},
 
 			damage: 80,
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lashes about with its tail to knock down its foe. It then tears up the fallen opponent with sharp claws.",
+		'en-us': "It lashes about with its tail to knock down its foe. It then tears up the fallen opponent with sharp claws.",
 	},
 
 	thirdParty: {

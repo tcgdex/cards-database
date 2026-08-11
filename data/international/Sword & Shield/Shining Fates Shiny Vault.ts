@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sword & Shield'
 
 const swsh45sv: Set = {
 	id: "swsh4.5sv",
 
 	name: {
-		en: "Shining Fates Shiny Vault",
-		fr: "Destinées Radieuses Coffre Étincelant",
-		es: "Destinos Brillantes Tesoro Brillante",
-		it: "Destino Splendente Tesoro Lucente",
-		de: "Glänzendes Schicksal Glitzer-Tresor",
-		pt: "Destinos Brilhantes Cofre Brilhante"
+		'en-us': "Shining Fates Shiny Vault",
+		'fr-fr': "Destinées Radieuses Coffre Étincelant",
+		'es-es': "Destinos Brillantes Tesoro Brillante",
+		'it-it': "Destino Splendente Tesoro Lucente",
+		'de-de': "Glänzendes Schicksal Glitzer-Tresor",
+		'pt-br': "Destinos Brilhantes Cofre Brilhante"
 	},
 
 	tcgOnline: 'SHF',

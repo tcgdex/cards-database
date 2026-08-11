@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [641],
 
 	name: {
-		en: "Tornadus",
-		fr: "Boréas",
-		es: "Tornadus",
-		it: "Tornadus",
-		pt: "Tornadus",
-		de: "Boreos"
+		'en-us': "Tornadus",
+		'fr-fr': "Boréas",
+		'es-es': "Tornadus",
+		'it-it': "Tornadus",
+		'pt-br': "Tornadus",
+		'de-de': "Boreos"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jet Draft",
-				fr: "Souffle Supersonique",
-				es: "Corriente Jet",
-				it: "Scia Jet",
-				pt: "Vento de Jato",
-				de: "Düsendurchzug"
+				'en-us': "Jet Draft",
+				'fr-fr': "Souffle Supersonique",
+				'es-es': "Corriente Jet",
+				'it-it': "Scia Jet",
+				'pt-br': "Vento de Jato",
+				'de-de': "Düsendurchzug"
 			},
 			effect: {
-				en: "Discard a Special Energy from your opponent's Active Pokémon.",
-				fr: "Défaussez une Énergie spéciale du Pokémon Actif de votre adversaire.",
-				es: "Descarta 1 Energía Especial del Pokémon Activo de tu rival.",
-				it: "Scarta un'Energia speciale dal Pokémon attivo del tuo avversario.",
-				pt: "Descarte 1 Energia Especial do Pokémon Ativo do seu oponente.",
-				de: "Lege 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard a Special Energy from your opponent's Active Pokémon.",
+				'fr-fr': "Défaussez une Énergie spéciale du Pokémon Actif de votre adversaire.",
+				'es-es': "Descarta 1 Energía Especial del Pokémon Activo de tu rival.",
+				'it-it': "Scarta un'Energia speciale dal Pokémon attivo del tuo avversario.",
+				'pt-br': "Descarte 1 Energia Especial do Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -54,20 +54,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Air Slash",
-				fr: "Lame d'Air",
-				es: "Tajo Aéreo",
-				it: "Eterelama",
-				pt: "Golpe de Ar",
-				de: "Luftschnitt"
+				'en-us': "Air Slash",
+				'fr-fr': "Lame d'Air",
+				'es-es': "Tajo Aéreo",
+				'it-it': "Eterelama",
+				'pt-br': "Golpe de Ar",
+				'de-de': "Luftschnitt"
 			},
 			effect: {
-				en: "Discard an Energy from this Pokémon.",
-				fr: "Défaussez une Énergie de ce Pokémon.",
-				es: "Descarta 1 Energía de este Pokémon.",
-				it: "Scarta un'Energia da questo Pokémon.",
-				pt: "Descarte 1 Energia deste Pokémon.",
-				de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard an Energy from this Pokémon.",
+				'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+				'es-es': "Descarta 1 Energía de este Pokémon.",
+				'it-it': "Scarta un'Energia da questo Pokémon.",
+				'pt-br': "Descarte 1 Energia deste Pokémon.",
+				'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 120,
 
@@ -95,7 +95,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away."
+		'en-us': "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チャームレオン",
+		'ja-jp': "チャームレオン",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "怒り",
+				'ja-jp': "怒り",
 			},
 			effect: {
-				ja: "CharmeLeonの各ダメージカウンターの10ダメージと10ダメージをさらに10回します。",
+				'ja-jp': "CharmeLeonの各ダメージカウンターの10ダメージと10ダメージをさらに10回します。",
 			},
 		},
 		{
 			cost: ["Fire", "Fire", "Colorless"],
 			name: {
-				ja: "火炎放射器",
+				'ja-jp': "火炎放射器",
 			},
 			effect: {
-				ja: "Charmeleonに取り付けられた火エネルギーを捨てます。",
+				'ja-jp': "Charmeleonに取り付けられた火エネルギーを捨てます。",
 			},
 			damage: 60,
 		},

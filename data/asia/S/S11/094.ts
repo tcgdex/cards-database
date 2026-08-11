@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パニックマスク",
+		'ja-jp': "パニックマスク",
 		'zh-tw': "恐慌面具",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけているポケモンは、残りHPが「40」以下の相手のポケモンから、ワザのダメージを受けない。",
+		'ja-jp': "このカードをつけているポケモンは、残りHPが「40」以下の相手のポケモンから、ワザのダメージを受けない。",
 		'zh-tw': "寶可夢道具卡，附於自己的寶可夢使用。1隻寶可夢只可附上1張寶可夢道具卡，並且保持附加狀態。",
 	},
 

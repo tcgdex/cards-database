@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVK"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ネオラントV"
+		'ja-jp': "ネオラントV"
 	},
 
 	illustrator: "takuyoa",
@@ -19,11 +19,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ルミナスサイン"
+			'ja-jp': "ルミナスサイン"
 		},
 
 		effect: {
-			ja: "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の山札からサポートを1枚選び、相手に見せて、手札に加える。そして山札を切る。"
+			'ja-jp': "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の山札からサポートを1枚選び、相手に見せて、手札に加える。そして山札を切る。"
 		}
 	}],
 
@@ -31,13 +31,13 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			ja: "アクアリターン"
+			'ja-jp': "アクアリターン"
 		},
 
 		damage: 120,
 
 		effect: {
-			ja: "このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。"
+			'ja-jp': "このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。"
 		}
 	}],
 

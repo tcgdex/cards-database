@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Oshawott",
-		fr: "Moustillon",
-		es: "Oshawott",
-		it: "Oshawott",
-		pt: "Oshawott",
-		de: "Ottaro"
+		'en-us': "Oshawott",
+		'fr-fr': "Moustillon",
+		'es-es': "Oshawott",
+		'it-it': "Oshawott",
+		'pt-br': "Oshawott",
+		'de-de': "Ottaro"
 	},
 
 	illustrator: "sui",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
-				es: "Pistola Agua",
-				it: "Pistolacqua",
-				pt: "Revolver d'Água",
-				de: "Aquaknarre"
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
+				'es-es': "Pistola Agua",
+				'it-it': "Pistolacqua",
+				'pt-br': "Revolver d'Água",
+				'de-de': "Aquaknarre"
 			},
 
 			damage: 30,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.",
+		'en-us': "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.",
 	},
 
 	thirdParty: {

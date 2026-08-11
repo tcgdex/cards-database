@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニャスパー",
+		'ja-jp': "ニャスパー",
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "強力な サイコパワーが 漏れ出さないように 放出する 器官を 耳で ふさいでいるのだ。",
+		'ja-jp': "強力な サイコパワーが 漏れ出さないように 放出する 器官を 耳で ふさいでいるのだ。",
 	},
 
 	stage: "Basic",
@@ -23,14 +23,14 @@ const card: Card = {
 			name: { ja: "ねこびより" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を1枚引く。その後、このポケモンをねむりにする。",
+				'ja-jp': "自分の山札を1枚引く。その後、このポケモンをねむりにする。",
 			},
 		},
 		{
 			name: { ja: "イヤーキネシス" },
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン1匹に、そのポケモンにのっているダメカンの数x20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹に、そのポケモンにのっているダメカンの数x20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

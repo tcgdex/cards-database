@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Apitrini",
-		en: "Combee",
-		es: "Combee",
-		it: "Combee",
-		pt: "Combee",
-		de: "Wadribie"
+		'fr-fr': "Apitrini",
+		'en-us': "Combee",
+		'es-es': "Combee",
+		'it-it': "Combee",
+		'pt-br': "Combee",
+		'de-de': "Wadribie"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			fr: "Répartition",
-			en: "Share",
-			es: "Compartir",
-			it: "Condiviso",
-			pt: "Compartilhar",
-			de: "Verteiler"
+			'fr-fr': "Répartition",
+			'en-us': "Share",
+			'es-es': "Compartir",
+			'it-it': "Condiviso",
+			'pt-br': "Compartilhar",
+			'de-de': "Verteiler"
 		},
 
 		effect: {
-			fr: "Soignez 20 dégâts de l'un de vos Pokémon de Banc.",
-			en: "Heal 20 damage from 1 of your Benched Pokémon.",
-			es: "Cura 20 puntos de daño a uno de tus Pokémon en Banca.",
-			it: "Cura uno dei tuoi Pokémon in panchina da 20 danni.",
-			pt: "Cure 20 pontos de dano de 1 dos seus Pokémon no Banco.",
-			de: "Heile 20 Schadenspunkte bei 1 Pokémon auf deiner Bank."
+			'fr-fr': "Soignez 20 dégâts de l'un de vos Pokémon de Banc.",
+			'en-us': "Heal 20 damage from 1 of your Benched Pokémon.",
+			'es-es': "Cura 20 puntos de daño a uno de tus Pokémon en Banca.",
+			'it-it': "Cura uno dei tuoi Pokémon in panchina da 20 danni.",
+			'pt-br': "Cure 20 pontos de dano de 1 dos seus Pokémon no Banco.",
+			'de-de': "Heile 20 Schadenspunkte bei 1 Pokémon auf deiner Bank."
 		}
 	}, {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			fr: "Collision",
-			en: "Ram",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'fr-fr': "Collision",
+			'en-us': "Ram",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 20
@@ -65,7 +65,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "At night, Combee sleep in a group of about a hundred, packed closely together in a lump.",
+		'en-us': "At night, Combee sleep in a group of about a hundred, packed closely together in a lump.",
 	},
 
 	variants: [

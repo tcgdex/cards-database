@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [6],
 
 	name: {
-		en: "Charizard V",
-		fr: "Dracaufeu V",
-		es: "Charizard V",
-		it: "Charizard V",
-		pt: "Charizard V",
-		de: "Glurak V"
+		'en-us': "Charizard V",
+		'fr-fr': "Dracaufeu V",
+		'es-es': "Charizard V",
+		'it-it': "Charizard V",
+		'pt-br': "Charizard V",
+		'de-de': "Glurak V"
 	},
 
 	illustrator: "5ban Graphics",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Claw Slash",
-				fr: "Tranch'Griffe",
-				es: "Cuchillada Garra",
-				it: "Lacerartiglio",
-				pt: "Golpe de Garra",
-				de: "Klauenschlitzer"
+				'en-us': "Claw Slash",
+				'fr-fr': "Tranch'Griffe",
+				'es-es': "Cuchillada Garra",
+				'it-it': "Lacerartiglio",
+				'pt-br': "Golpe de Garra",
+				'de-de': "Klauenschlitzer"
 			},
 
 			damage: 80,
@@ -50,20 +50,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Spin",
-				fr: "Danse Flammes",
-				es: "Giro Fuego",
-				it: "Turbofuoco",
-				pt: "Chama Furacão",
-				de: "Feuerwirbel"
+				'en-us': "Fire Spin",
+				'fr-fr': "Danse Flammes",
+				'es-es': "Giro Fuego",
+				'it-it': "Turbofuoco",
+				'pt-br': "Chama Furacão",
+				'de-de': "Feuerwirbel"
 			},
 			effect: {
-				en: "Discard 2 Energy from this Pokémon.",
-				fr: "Défaussez 2 Énergies de ce Pokémon.",
-				es: "Descarta 2 Energías de este Pokémon.",
-				it: "Scarta due Energie da questo Pokémon.",
-				pt: "Descarte 2 Energias deste Pokémon.",
-				de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard 2 Energy from this Pokémon.",
+				'fr-fr': "Défaussez 2 Énergies de ce Pokémon.",
+				'es-es': "Descarta 2 Energías de este Pokémon.",
+				'it-it': "Scarta due Energie da questo Pokémon.",
+				'pt-br': "Descarte 2 Energias deste Pokémon.",
+				'de-de': "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 220,
 

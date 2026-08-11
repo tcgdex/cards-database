@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Staryu",
-		fr: "Stari",
-		de: "Sterndu"
+		'en-us': "Staryu",
+		'fr-fr': "Stari",
+		'de-de': "Sterndu"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surprise Attack",
-				fr: "Attaque surprise",
-				de: "Surprise Attack"
+				'en-us': "Surprise Attack",
+				'fr-fr': "Attaque surprise",
+				'de-de': "Surprise Attack"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Flip a coin. If tails, this attack does nothing."
 			},
 			damage: 20,
 
@@ -48,14 +48,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Recover",
-				fr: "Soin",
-				de: "Recover"
+				'en-us': "Recover",
+				'fr-fr': "Soin",
+				'de-de': "Recover"
 			},
 			effect: {
-				en: "Discard a Water Energy card attached to Staryu and remove 4 damage counters from Staryu (all if there are less than 4).",
-				fr: "Défaussez une carte Énergie  attachée à Stari et retirez-lui 4 marqueurs de dégât (retirez-les lui tous s'il en a moins de 4).",
-				de: "Discard a  Energy attached to Staryu and remove 4 damage counters from Staryu (all if there als less than 4)."
+				'en-us': "Discard a Water Energy card attached to Staryu and remove 4 damage counters from Staryu (all if there are less than 4).",
+				'fr-fr': "Défaussez une carte Énergie  attachée à Stari et retirez-lui 4 marqueurs de dégât (retirez-les lui tous s'il en a moins de 4).",
+				'de-de': "Discard a  Energy attached to Staryu and remove 4 damage counters from Staryu (all if there als less than 4)."
 			},
 
 		},

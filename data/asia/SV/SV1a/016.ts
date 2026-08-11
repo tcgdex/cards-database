@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "オドリドリ",
+		'ja-jp': "オドリドリ",
 		'zh-tw': "花舞鳥",
-		th: "โอโดริโดริ",
-		id: "Oricorio"
+		'th-th': "โอโดริโดริ",
+		'id-id': "Oricorio"
 	},
 
 	illustrator: "Haru Akasaka",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "情熱的に 踊るさまが パルデアの 人々の 気質に 合うのか 非常に 人気だ。",
+		'ja-jp': "情熱的に 踊るさまが パルデアの 人々の 気質に 合うのか 非常に 人気だ。",
 		'zh-tw': "熱情的舞姿似乎很符合帕底亞人們的性情， 因此非常地受歡迎。",
-		th: "การเต้นอันร้อนแรงน่าจะถูกใจผู้คนในพัลเดียจนได้รับความนิยมสูงมาก",
-		id: "Sosok Oricorio yang menari penuh gairah menjadi sangat populer karena cocok dengan karakteristik penduduk Daerah Paldea."
+		'th-th': "การเต้นอันร้อนแรงน่าจะถูกใจผู้คนในพัลเดียจนได้รับความนิยมสูงมาก",
+		'id-id': "Sosok Oricorio yang menari penuh gairah menjadi sangat populer karena cocok dengan karakteristik penduduk Daerah Paldea."
 	},
 
 	stage: "Basic",
@@ -31,17 +31,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "パッションダンス",
+			'ja-jp': "パッションダンス",
 			'zh-tw': "熱情舞",
-			th: "แพสชันแดนซ์",
-			id: "Passion Dance"
+			'th-th': "แพสชันแดนซ์",
+			'id-id': "Passion Dance"
 		},
 
 		effect: {
-			ja: "自分の番に1回使える。自分のバトル場の進化ポケモンのHPを「20」回復する。",
+			'ja-jp': "自分の番に1回使える。自分のバトル場の進化ポケモンのHPを「20」回復する。",
 			'zh-tw': "在自己的回合時可使用1次。將自己的戰鬥場的進化寶可夢恢復「20」HP。",
-			th: "ใช้ได้ 1 ครั้งในเทิร์นฝ่ายเรา ฟื้นฟู HP ของโปเกมอนวิวัฒนาการบนตำแหน่งต่อสู้ฝ่ายเรา [20]",
-			id: "Dapat digunakan 1 kali pada giliran sendiri. Pulihkan HP Pokémon Evolusi di Arena Bertarung sendiri sejumlah 20."
+			'th-th': "ใช้ได้ 1 ครั้งในเทิร์นฝ่ายเรา ฟื้นฟู HP ของโปเกมอนวิวัฒนาการบนตำแหน่งต่อสู้ฝ่ายเรา [20]",
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri. Pulihkan HP Pokémon Evolusi di Arena Bertarung sendiri sejumlah 20."
 		}
 	}],
 
@@ -49,10 +49,10 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			ja: "はばたく",
+			'ja-jp': "はばたく",
 			'zh-tw': "羽擊",
-			th: "ตีปีก",
-			id: "Mengepak"
+			'th-th': "ตีปีก",
+			'id-id': "Mengepak"
 		},
 
 		damage: 30

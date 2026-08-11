@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャローダ",
+		'ja-jp': "ジャローダ",
 	},
 
 	illustrator: "kodama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "相手を すくませる 眼光と 威風堂々たる その 姿から 森の君主 と 呼ばれている。",
+		'ja-jp': "相手を すくませる 眼光と 威風堂々たる その 姿から 森の君主 と 呼ばれている。",
 	},
 
 	stage: "Stage2",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "holo"}],
 
 	evolveFrom: {
-		ja: "ジャノビー",
+		'ja-jp': "ジャノビー",
 	},
 
 	retreat: 2,

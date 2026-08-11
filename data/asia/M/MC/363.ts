@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イノムー",
+		'ja-jp': "イノムー",
 	},
 
 	illustrator: "Aliya Chen",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "長い 体毛に 覆われていて 寒さに 強く 氷の キバは 雪が降ると さらに 太くなる。",
+		'ja-jp': "長い 体毛に 覆われていて 寒さに 強く 氷の キバは 雪が降ると さらに 太くなる。",
 	},
 
 	stage: "Stage1",
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ウリムー",
+		'ja-jp': "ウリムー",
 	},
 
 	retreat: 3,

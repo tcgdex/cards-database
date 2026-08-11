@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オタチ",
+		'ja-jp': "オタチ",
 	},
 
 	illustrator: "Taiga Kayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "警戒心が 強い ポケモン。 しなやかに 動く 尻尾は 筋肉質で 触ると 硬い。",
+		'ja-jp': "警戒心が 強い ポケモン。 しなやかに 動く 尻尾は 筋肉質で 触ると 硬い。",
 	},
 
 	stage: "Basic",

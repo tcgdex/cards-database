@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ブロロン",
+		'ja-jp': "ブロロン",
 		'zh-tw': "噗隆隆",
-		th: "โบรรอน"
+		'th-th': "โบรรอน"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -18,9 +18,9 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "スクラップ工場に 放置された エンジンに 謎の 毒ポケモンが 入り込んで 生まれたと 言われる。",
+		'ja-jp': "スクラップ工場に 放置された エンジンに 謎の 毒ポケモンが 入り込んで 生まれたと 言われる。",
 		'zh-tw': "據說牠是神秘的毒寶可夢鑽進了被放置在廢鐵工廠 的引擎裡而誕生的。",
-		th: "ว่ากันว่าเกิดจากการที่โปเกมอนพิษปริศนาเข้าไปในเครื่องยนต์ที่ถูกทิ้งไว้ในโรงงานเศษเหล็ก"
+		'th-th': "ว่ากันว่าเกิดจากการที่โปเกมอนพิษปริศนาเข้าไปในเครื่องยนต์ที่ถูกทิ้งไว้ในโรงงานเศษเหล็ก"
 	},
 
 	stage: "Basic",
@@ -29,9 +29,9 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			ja: "ガスでつつむ",
+			'ja-jp': "ガスでつつむ",
 			'zh-tw': "瓦斯包圍",
-			th: "ห่อหุ้มด้วยแก๊ส"
+			'th-th': "ห่อหุ้มด้วยแก๊ส"
 		},
 
 		damage: 30

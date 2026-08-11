@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Lairon",
-		fr: "Galegon",
-		es: "Lairon",
-		it: "Lairon",
-		pt: "Lairon",
-		de: "Stollrak"
+		'en-us': "Lairon",
+		'fr-fr': "Galegon",
+		'es-es': "Lairon",
+		'it-it': "Lairon",
+		'pt-br': "Lairon",
+		'de-de': "Stollrak"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Aron",
-		fr: "Galekid",
+		'en-us': "Aron",
+		'fr-fr': "Galekid",
 	},
 
 	stage: "Stage1",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Metal Claw",
-				fr: "Griffe Acier",
+				'en-us': "Metal Claw",
+				'fr-fr': "Griffe Acier",
 			},
 
 			damage: 20,
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Iron Head",
-				fr: "Tête de Fer",
+				'en-us': "Iron Head",
+				'fr-fr': "Tête de Fer",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 50 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip a coin until you get tails. This attack does 50 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 50,
 
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Lairon fight over territory, and when their steel bodies collide, sparks fly.",
+		'en-us': "Lairon fight over territory, and when their steel bodies collide, sparks fly.",
 	},
 
 	thirdParty: {

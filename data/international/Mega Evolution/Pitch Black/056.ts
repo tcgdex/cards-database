@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pitch Black"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zarude",
-		fr: "Zarude",
-		es: "Zarude",
+		'en-us': "Zarude",
+		'fr-fr': "Zarude",
+		'es-es': "Zarude",
 		'es-mx': "Zarude",
-		de: "Zarude",
-		it: "Zarude",
-		pt: "Zarude"
+		'de-de': "Zarude",
+		'it-it': "Zarude",
+		'pt-br': "Zarude"
 	},
 
 	illustrator: "matazo",
@@ -24,13 +24,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Overhead Throw",
-			fr: "Soulève Corne",
-			es: "Lanzamiento Elevado",
+			'en-us': "Overhead Throw",
+			'fr-fr': "Soulève Corne",
+			'es-es': "Lanzamiento Elevado",
 			'es-mx': "Lanzamiento Elevado",
-			de: "Überwerfer",
-			it: "Lancindietro",
-			pt: "Arremessar por Cima"
+			'de-de': "Überwerfer",
+			'it-it': "Lancindietro",
+			'pt-br': "Arremessar por Cima"
 		},
 
 		cost: ["Darkness"],
@@ -38,23 +38,23 @@ const card: Card = {
 		damage: 30,
 
 		effect: {
-			en: "This attack also does 30 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Cette attaque inflige aussi 30 dégâts à l'un de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-			es: "Este ataque también hace 30 puntos de daño a uno de tus Pokémon en Banca. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			'en-us': "This attack also does 30 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Cette attaque inflige aussi 30 dégâts à l'un de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			'es-es': "Este ataque también hace 30 puntos de daño a uno de tus Pokémon en Banca. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 			'es-mx': "Este ataque también hace 30 puntos de daño a 1 de tus Pokémon en Banca. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-			de: "Diese Attacke fügt auch 1 Pokémon auf deiner Bank 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
-			it: "Questo attacco infligge anche 30 danni a uno dei Pokémon nella tua panchina. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-			pt: "Este ataque também causa 30 pontos de dano a 1 dos seus Pokémon no Banco. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
+			'de-de': "Diese Attacke fügt auch 1 Pokémon auf deiner Bank 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+			'it-it': "Questo attacco infligge anche 30 danni a uno dei Pokémon nella tua panchina. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			'pt-br': "Este ataque também causa 30 pontos de dano a 1 dos seus Pokémon no Banco. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
 		}
 	}, {
 		name: {
-			en: "Shadowy Whip",
-			fr: "Fouet Sombre",
-			es: "Látigo Sombrío",
+			'en-us': "Shadowy Whip",
+			'fr-fr': "Fouet Sombre",
+			'es-es': "Látigo Sombrío",
 			'es-mx': "Látigo Sombrío",
-			de: "Schattige Peitsche",
-			it: "Frustata Ombrosa",
-			pt: "Chicote Sombrio"
+			'de-de': "Schattige Peitsche",
+			'it-it': "Frustata Ombrosa",
+			'pt-br': "Chicote Sombrio"
 		},
 
 		cost: ["Darkness", "Darkness", "Darkness"],
@@ -62,13 +62,13 @@ const card: Card = {
 		damage: "100+",
 
 		effect: {
-			en: "If your Benched Pokémon have any Shadowy {D} Energy attached, this attack does 70 more damage.",
-			fr: "Si au moins une Énergie {D} Sombre est attachée à vos Pokémon de Banc, cette attaque inflige 70 dégâts supplémentaires.",
-			es: "Si tus Pokémon en Banca tienen alguna Energía {D} Sombría unida, este ataque hace 70 puntos de daño más.",
+			'en-us': "If your Benched Pokémon have any Shadowy {D} Energy attached, this attack does 70 more damage.",
+			'fr-fr': "Si au moins une Énergie {D} Sombre est attachée à vos Pokémon de Banc, cette attaque inflige 70 dégâts supplémentaires.",
+			'es-es': "Si tus Pokémon en Banca tienen alguna Energía {D} Sombría unida, este ataque hace 70 puntos de daño más.",
 			'es-mx': "Si tus Pokémon en Banca tienen alguna Energía {D} Sombría unida, este ataque hace 70 puntos de daño más.",
-			de: "Wenn an den Pokémon auf deiner Bank mindestens 1 Schattige {D}-Energie angelegt ist, fügt diese Attacke 70 Schadenspunkte mehr zu.",
-			it: "Se i Pokémon nella tua panchina hanno almeno un'Energia {D} Ombrosa assegnata, questo attacco infligge 70 danni in più.",
-			pt: "Se os seus Pokémon no Banco tiverem alguma Energia {D} Sombria ligadas a eles, este ataque causará 70 pontos de dano a mais."
+			'de-de': "Wenn an den Pokémon auf deiner Bank mindestens 1 Schattige {D}-Energie angelegt ist, fügt diese Attacke 70 Schadenspunkte mehr zu.",
+			'it-it': "Se i Pokémon nella tua panchina hanno almeno un'Energia {D} Ombrosa assegnata, questo attacco infligge 70 danni in più.",
+			'pt-br': "Se os seus Pokémon no Banco tiverem alguma Energia {D} Sombria ligadas a eles, este ataque causará 70 pontos de dano a mais."
 		}
 	}],
 

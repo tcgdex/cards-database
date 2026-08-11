@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダークパッチ",
+		'ja-jp': "ダークパッチ",
 	},
 
 	illustrator: "Ryo Ueda",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のトラッシュから「基本[悪]エネルギー」を1枚選び、ベンチの[悪]ポケモンにつける。",
+		'ja-jp': "自分のトラッシュから「基本[悪]エネルギー」を1枚選び、ベンチの[悪]ポケモンにつける。",
 	},
 
 	variants: [

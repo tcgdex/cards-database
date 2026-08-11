@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Tangela"
+		'en-us': "Erika's Tangela"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,7 +27,7 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Vine Slap"
+				'en-us': "Vine Slap"
 			},
 
 			damage: 10,
@@ -40,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stretch Vine"
+				'en-us': "Stretch Vine"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 20,
 

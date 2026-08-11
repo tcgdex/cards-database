@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Quagsire",
-		fr: "Maraiste",
-		es: "Quagsire",
-		it: "Quagsire",
-		pt: "Quagsire",
-		de: "Morlord"
+		'en-us': "Quagsire",
+		'fr-fr': "Maraiste",
+		'es-es': "Quagsire",
+		'it-it': "Quagsire",
+		'pt-br': "Quagsire",
+		'de-de': "Morlord"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wooper",
-		fr: "Axoloto",
+		'en-us': "Wooper",
+		'fr-fr': "Axoloto",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Laid-Back",
-				fr: "Tranquillou",
-				es: "Despreocupación",
-				it: "Rilassato",
-				pt: "Relaxado",
-				de: "Entspannt"
+				'en-us': "Laid-Back",
+				'fr-fr': "Tranquillou",
+				'es-es': "Despreocupación",
+				'it-it': "Rilassato",
+				'pt-br': "Relaxado",
+				'de-de': "Entspannt"
 			},
 			effect: {
-				en: "Any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
-				es: "Cualquier daño hecho a este Pokémon por ataques se reduce en 20 (después de aplicar Debilidad y Resistencia).",
-				it: "I danni inflitti a questo Pokémon dagli attacchi sono ridotti di 20, dopo aver applicato debolezza e resistenza.",
-				pt: "Qualquer dano causado a este Pokémon por ataques será reduzido em 20 (após a aplicação de Fraqueza e Resistência).",
-				de: "Schaden, der diesem Pokémon durch Angriffe zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "Any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'es-es': "Cualquier daño hecho a este Pokémon por ataques se reduce en 20 (después de aplicar Debilidad y Resistencia).",
+				'it-it': "I danni inflitti a questo Pokémon dagli attacchi sono ridotti di 20, dopo aver applicato debolezza e resistenza.",
+				'pt-br': "Qualquer dano causado a este Pokémon por ataques será reduzido em 20 (após a aplicação de Fraqueza e Resistência).",
+				'de-de': "Schaden, der diesem Pokémon durch Angriffe zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud Gun",
-				fr: "Giclée de Boue",
+				'en-us': "Mud Gun",
+				'fr-fr': "Giclée de Boue",
 			},
 			effect: {
-				en: "If this Pokémon has any Fighting Energy attached to it, this attack does 30 more damage.",
-				fr: "Si de l'Énergie Fighting est attachée à ce Pokémon, cette attaque inflige 30 dégâts supplémentaires.",
+				'en-us': "If this Pokémon has any Fighting Energy attached to it, this attack does 30 more damage.",
+				'fr-fr': "Si de l'Énergie Fighting est attachée à ce Pokémon, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: 60,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It has an easygoing nature. It doesn't care if it bumps its head on boats and boulders while swimming.",
+		'en-us': "It has an easygoing nature. It doesn't care if it bumps its head on boats and boulders while swimming.",
 	},
 
 	thirdParty: {

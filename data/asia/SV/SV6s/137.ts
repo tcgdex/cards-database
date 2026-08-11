@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Aipom"
+		'id-id': "Aipom"
 	},
 
 	illustrator: "Mugi Hamada",
@@ -14,21 +14,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Ia tinggal di atas pohon yang tinggi sambil mengendalikan ekornya yang bergerak lebih bebas daripada tangannya dengan mahir."
+		'id-id': "Ia tinggal di atas pohon yang tinggi sambil mengendalikan ekornya yang bergerak lebih bebas daripada tangannya dengan mahir."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Bergantung"
+			'id-id': "Bergantung"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Tendangan Nakal"
+			'id-id': "Tendangan Nakal"
 		},
 
 		damage: 20,

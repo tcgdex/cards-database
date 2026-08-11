@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Lycanroc V",
-		fr: "Lougaroc V",
-		es: "Lycanroc V",
-		it: "Lycanroc V",
-		pt: "Lycanroc V",
-		de: "Wolwerock V"
+		'en-us': "Lycanroc V",
+		'fr-fr': "Lougaroc V",
+		'es-es': "Lycanroc V",
+		'it-it': "Lycanroc V",
+		'pt-br': "Lycanroc V",
+		'de-de': "Wolwerock V"
 	},
 
 	rarity: "Holo Rare V",
@@ -23,33 +23,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Rock Throw",
-			fr: "Jet-Pierres",
-			es: "Lanzarrocas",
-			it: "Sassata",
-			pt: "Rock Throw",
-			de: "Steinwurf"
+			'en-us': "Rock Throw",
+			'fr-fr': "Jet-Pierres",
+			'es-es': "Lanzarrocas",
+			'it-it': "Sassata",
+			'pt-br': "Rock Throw",
+			'de-de': "Steinwurf"
 		},
 
 		damage: 40,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			en: "Crashing Fangs",
-			fr: "Crocs Percutants",
-			es: "Colmillos Demoledores",
-			it: "Schiantazanne",
-			pt: "Crashing Fangs",
-			de: "Reißende Zähne"
+			'en-us': "Crashing Fangs",
+			'fr-fr': "Crocs Percutants",
+			'es-es': "Colmillos Demoledores",
+			'it-it': "Schiantazanne",
+			'pt-br': "Crashing Fangs",
+			'de-de': "Reißende Zähne"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "During your next turn, this Pokémon can't attack.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "During your next turn, this Pokémon can't attack.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 200,

@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [716],
 
 	name: {
-		en: "Xerneas",
-		fr: "Xerneas",
-		es: "Xerneas",
-		it: "Xerneas",
-		pt: "Xerneas",
-		de: "Xerneas"
+		'en-us': "Xerneas",
+		'fr-fr': "Xerneas",
+		'es-es': "Xerneas",
+		'it-it': "Xerneas",
+		'pt-br': "Xerneas",
+		'de-de': "Xerneas"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Geo Hunt",
-				fr: "Géo-Chasse",
-				es: "Geobúsqueda",
-				it: "Geoagguato",
-				pt: "Geocaçada",
-				de: "Geo-Jagd"
+				'en-us': "Geo Hunt",
+				'fr-fr': "Géo-Chasse",
+				'es-es': "Geobúsqueda",
+				'it-it': "Geoagguato",
+				'pt-br': "Geocaçada",
+				'de-de': "Geo-Jagd"
 			},
 			effect: {
-				en: "Put a card from your discard pile into your hand.",
-				fr: "Ajoutez à votre main une carte de votre pile de défausse.",
-				es: "Pon 1 carta de tu pila de descartes en tu mano.",
-				it: "Prendi una carta dalla tua pila degli scarti e aggiungila a quelle che hai in mano.",
-				pt: "Coloque 1 carta da sua pilha de descarte na sua mão.",
-				de: "Nimm 1 Karte aus deinem Ablagestapel auf deine Hand."
+				'en-us': "Put a card from your discard pile into your hand.",
+				'fr-fr': "Ajoutez à votre main une carte de votre pile de défausse.",
+				'es-es': "Pon 1 carta de tu pila de descartes en tu mano.",
+				'it-it': "Prendi una carta dalla tua pila degli scarti e aggiungila a quelle che hai in mano.",
+				'pt-br': "Coloque 1 carta da sua pilha de descarte na sua mão.",
+				'de-de': "Nimm 1 Karte aus deinem Ablagestapel auf deine Hand."
 			},
 
 		},
@@ -53,20 +53,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aurora Gain",
-				fr: "Puissance Boréale",
-				es: "Ganar Aurora",
-				it: "Prendiaurora",
-				pt: "Aurora",
-				de: "Aurora-Verstärkung"
+				'en-us': "Aurora Gain",
+				'fr-fr': "Puissance Boréale",
+				'es-es': "Ganar Aurora",
+				'it-it': "Prendiaurora",
+				'pt-br': "Aurora",
+				'de-de': "Aurora-Verstärkung"
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts de ce Pokémon.",
-				es: "Cura 30 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 30 danni.",
-				pt: "Cure 30 pontos de dano deste Pokémon.",
-				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+				'es-es': "Cura 30 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 30 danni.",
+				'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+				'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 100,
 
@@ -87,7 +87,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "When the horns on its head shine in seven different colors, it is said to be sharing everlasting life."
+		'en-us': "When the horns on its head shine in seven different colors, it is said to be sharing everlasting life."
 	},
 
 	variants: [

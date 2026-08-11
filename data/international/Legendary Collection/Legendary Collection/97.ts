@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Voltorb"
+		'en-us': "Voltorb"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -27,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle"
+				'en-us': "Tackle"
 			},
 
 			damage: 10,
@@ -45,7 +45,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people."
+		'en-us': "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people."
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY trainer Kit (Latios)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Latios",
-		fr: "Latios",
-		es: "Latios",
-		it: "Latios",
-		pt: "Latios",
-		de: "Latios"
+		'en-us': "Latios",
+		'fr-fr': "Latios",
+		'es-es': "Latios",
+		'it-it': "Latios",
+		'pt-br': "Latios",
+		'de-de': "Latios"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -19,27 +19,27 @@ const card: Card = {
 	category: "Pokemon",
 
 	description: {
-		en: "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting."
+		'en-us': "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Supersonic Flight",
-			fr: "Voyage Supersonique"
+			'en-us': "Supersonic Flight",
+			'fr-fr': "Voyage Supersonique"
 		},
 
 		damage: 40,
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
 		}
 	}, {
 		name: {
-			en: "Psyburn",
-			fr: "Brûlure Psy"
+			'en-us': "Psyburn",
+			'fr-fr': "Brûlure Psy"
 		},
 
 		damage: 70

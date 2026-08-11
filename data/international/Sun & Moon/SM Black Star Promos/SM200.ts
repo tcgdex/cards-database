@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Snubbull",
-		fr: "Snubbull",
-		es: "Snubbull",
-		it: "Snubbull",
-		pt: "Snubbull",
-		de: "Snubbull"
+		'en-us': "Snubbull",
+		'fr-fr': "Snubbull",
+		'es-es': "Snubbull",
+		'it-it': "Snubbull",
+		'pt-br': "Snubbull",
+		'de-de': "Snubbull"
 	},
 
 	illustrator: "Framestore",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Paralyzing Gaze",
-				fr: "Regard Paralysant",
-				es: "Mirada Paralizante",
-				it: "Sguardo Paralizzante",
-				pt: "Olhar Paralisante",
-				de: "Lähmender Blick"
+				'en-us': "Paralyzing Gaze",
+				'fr-fr': "Regard Paralysant",
+				'es-es': "Mirada Paralizante",
+				'it-it': "Sguardo Paralizzante",
+				'pt-br': "Olhar Paralisante",
+				'de-de': "Lähmender Blick"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
-				es: "Lanza una moneda. Si sale cara, el Pokémon Defensor pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato.",
-				pt: "Jogue uma moeda. Se sair cara, o Pokémon Defensor será Paralisado.",
-				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'es-es': "Lanza una moneda. Si sale cara, el Pokémon Defensor pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato.",
+				'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Defensor será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 
 		},
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It grows close to others easily and is also easily spoiled. The disparity between its face and its actions makes many young people wild about it.",
+		'en-us': "It grows close to others easily and is also easily spoiled. The disparity between its face and its actions makes many young people wild about it.",
 	},
 }
 

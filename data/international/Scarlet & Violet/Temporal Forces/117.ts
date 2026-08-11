@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Melmetal",
-		fr: "Melmetal",
-		es: "Melmetal",
-		it: "Melmetal",
-		pt: "Melmetal",
-		de: "Melmetal"
+		'en-us': "Melmetal",
+		'fr-fr': "Melmetal",
+		'es-es': "Melmetal",
+		'it-it': "Melmetal",
+		'pt-br': "Melmetal",
+		'de-de': "Melmetal"
 	},
 
 	rarity: "Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 160,
 	types: ["Metal"],
 	evolveFrom: {
-		en: "Meltan",
-		fr: "Meltan",
-		es: "Meltan",
-		it: "Meltan",
-		pt: "Meltan",
-		de: "Meltan"
+		'en-us': "Meltan",
+		'fr-fr': "Meltan",
+		'es-es': "Meltan",
+		'it-it': "Meltan",
+		'pt-br': "Meltan",
+		'de-de': "Meltan"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Metal", "Metal", "Colorless"],
 
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			es: "Martillear",
-			it: "Martello",
-			pt: "Martelada",
-			de: "Einhämmern"
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'es-es': "Martillear",
+			'it-it': "Martello",
+			'pt-br': "Martelada",
+			'de-de': "Einhämmern"
 		},
 
 		damage: 120
@@ -45,12 +45,12 @@ const card: Card = {
 		cost: ["Metal", "Metal", "Metal", "Metal", "Colorless"],
 
 		name: {
-			en: "Iron Bash",
-			fr: "Coup de Fer",
-			es: "Ferropuño",
-			it: "Pugni Ferrei",
-			pt: "Pancada de Ferro",
-			de: "Eisenwumme"
+			'en-us': "Iron Bash",
+			'fr-fr': "Coup de Fer",
+			'es-es': "Ferropuño",
+			'it-it': "Pugni Ferrei",
+			'pt-br': "Pancada de Ferro",
+			'de-de': "Eisenwumme"
 		},
 
 		damage: 230
@@ -72,7 +72,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "At the end of its life-span, Melmetal will rust and fall apart. The small shards left behind will eventually be reborn as Meltan.",
+		'en-us': "At the end of its life-span, Melmetal will rust and fall apart. The small shards left behind will eventually be reborn as Meltan.",
 	},
 
 	variants: [

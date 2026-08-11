@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガメノデス",
+		'ja-jp': "ガメノデス",
 	},
 
 	illustrator: "Kazumasa Yasukuni",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "手足にも 脳が あり 勝手に 動けるが 普段は 頭の ガメノデスの 命令に 従う。",
+		'ja-jp': "手足にも 脳が あり 勝手に 動けるが 普段は 頭の ガメノデスの 命令に 従う。",
 	},
 
 	stage: "Stage1",
@@ -28,7 +28,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "カメテテ",
+		'ja-jp': "カメテテ",
 	},
 
 	retreat: 2,

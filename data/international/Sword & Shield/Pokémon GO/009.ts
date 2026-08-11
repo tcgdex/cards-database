@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pokémon GO"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charmeleon",
-		fr: "Reptincel",
-		es: "Charmeleon",
-		it: "Charmeleon",
-		pt: "Charmeleon",
-		de: "Glutexo"
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel",
+		'es-es': "Charmeleon",
+		'it-it': "Charmeleon",
+		'pt-br': "Charmeleon",
+		'de-de': "Glutexo"
 	},
 
 	illustrator: "Shiburingaru",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Charmander",
-		fr: "Salamèche",
-		es: "Charmander",
-		it: "Charmander",
-		pt: "Charmander",
-		de: "Glumanda"
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche",
+		'es-es': "Charmander",
+		'it-it': "Charmander",
+		'pt-br': "Charmander",
+		'de-de': "Glumanda"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Scratch",
-			fr: "Griffe",
-			es: "Arañazo",
-			it: "Graffio",
-			pt: "Arranhão",
-			de: "Kratzer"
+			'en-us': "Scratch",
+			'fr-fr': "Griffe",
+			'es-es': "Arañazo",
+			'it-it': "Graffio",
+			'pt-br': "Arranhão",
+			'de-de': "Kratzer"
 		},
 
 		damage: 30
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless", "Colorless"],
 
 		name: {
-			en: "Flamethrower",
-			fr: "Lance-Flammes",
-			es: "Lanzallamas",
-			it: "Lanciafiamme",
-			pt: "Lança-chamas",
-			de: "Flammenwurf"
+			'en-us': "Flamethrower",
+			'fr-fr': "Lance-Flammes",
+			'es-es': "Lanzallamas",
+			'it-it': "Lanciafiamme",
+			'pt-br': "Lança-chamas",
+			'de-de': "Flammenwurf"
 		},
 
 		effect: {
-			en: "Discard a Fire Energy from this Pokémon.",
-			fr: "Défaussez une Énergie Fire de ce Pokémon.",
-			es: "Descarta 1 Energía Fire de este Pokémon.",
-			it: "Scarta un'Energia Fire da questo Pokémon.",
-			pt: "Descarte 1 Energia Fire deste Pokémon.",
-			de: "Lege 1 Fire-Energie von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard a Fire Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie Fire de ce Pokémon.",
+			'es-es': "Descarta 1 Energía Fire de este Pokémon.",
+			'it-it': "Scarta un'Energia Fire da questo Pokémon.",
+			'pt-br': "Descarte 1 Energia Fire deste Pokémon.",
+			'de-de': "Lege 1 Fire-Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 100
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
+		'en-us': "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
 	},
 
 	

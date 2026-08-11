@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグマ団のバクーダ",
+		'ja-jp': "マグマ団のバクーダ",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "炎に 強い バクーダは 団員を 救出するときにも 大活躍 だったぞ。",
+		'ja-jp': "炎に 強い バクーダは 団員を 救出するときにも 大活躍 だったぞ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "バーンドラフト" },
 			effect: {
-				ja: "自分のトラッシュから[炎]または[闘]エネルギーを1枚選び、このポケモンにつける。この特性は、自分の番に1回使える。",
+				'ja-jp': "自分のトラッシュから[炎]または[闘]エネルギーを1枚選び、このポケモンにつける。この特性は、自分の番に1回使える。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている基本エネルギーを1個選び、ベンチポケモンにつけ替える。",
+				'ja-jp': "このポケモンについている基本エネルギーを1個選び、ベンチポケモンにつけ替える。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マグマ団のドンメル",
+		'ja-jp': "マグマ団のドンメル",
 	},
 
 	retreat: 3,

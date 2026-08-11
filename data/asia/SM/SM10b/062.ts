@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムサシとコジロウ",
+		'ja-jp': "ムサシとコジロウ",
 	},
 
 	illustrator: "Megumi Mizutani",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのプレイヤーは、それぞれ自分の手札を、2枚トラッシュする。（トラッシュは相手から行う。手札がないプレイヤーはトラッシュしない。）",
+		'ja-jp': "おたがいのプレイヤーは、それぞれ自分の手札を、2枚トラッシュする。（トラッシュは相手から行う。手札がないプレイヤーはトラッシュしない。）",
 	},
 
 	variants: [

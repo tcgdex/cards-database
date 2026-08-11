@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エレザード"
+		'ja-jp': "エレザード"
 	},
 	illustrator: "Nakamura Ippan",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Lightning"],
 	description: {
-		ja: "襟巻を広げて太陽光を浴びると大都会で使われる電気を1匹で発電する。"
+		'ja-jp': "襟巻を広げて太陽光を浴びると大都会で使われる電気を1匹で発電する。"
 	},
 	stage: "Stage1",
 	variants: [
@@ -25,20 +25,20 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "エリキテル"
+		'ja-jp': "エリキテル"
 	},
 	attacks: [{
 		name: {
-			ja: "せんこうだん"
+			'ja-jp': "せんこうだん"
 		},
 		damage: 20,
 		effect: {
-			ja: "相手のバトルポケモンをこんらんにする。"
+			'ja-jp': "相手のバトルポケモンをこんらんにする。"
 		},
 		cost: ["Colorless"]
 	}, {
 		name: {
-			ja: "ヘッドボルト"
+			'ja-jp': "ヘッドボルト"
 		},
 		damage: 70,
 		cost: ["Lightning", "Colorless"]

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Braviary"
+		'id-id': "Braviary"
 	},
 
 	illustrator: "Gapao",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Braviary adalah pendekar langit pemberani yang tidak akan berhenti bertarung demi kawannya meskipun ia akan terluka."
+		'id-id': "Braviary adalah pendekar langit pemberani yang tidak akan berhenti bertarung demi kawannya meskipun ia akan terluka."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Seret Pergi"
+			'id-id': "Seret Pergi"
 		},
 
 		effect: {
-			id: "Pilih 1 Pokémon Cadangan lawan, lalu tukar dengan Pokémon Bertarung. Setelah itu, berikan kerusakan sejumlah 40 kepada Pokémon Bertarung yang baru."
+			'id-id': "Pilih 1 Pokémon Cadangan lawan, lalu tukar dengan Pokémon Bertarung. Setelah itu, berikan kerusakan sejumlah 40 kepada Pokémon Bertarung yang baru."
 		},
 
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Blast Wind"
+			'id-id': "Blast Wind"
 		},
 
 		damage: 120,

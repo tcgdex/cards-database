@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ブラックキュレムex"
+		'ja-jp': "ブラックキュレムex"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -19,25 +19,25 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "アイスエイジ"
+			'ja-jp': "アイスエイジ"
 		},
 
 		damage: 90,
 
 		effect: {
-			ja: "相手のバトルポケモンがポケモンなら、そのポケモンをマヒにする。"
+			'ja-jp': "相手のバトルポケモンがポケモンなら、そのポケモンをマヒにする。"
 		}
 	}, {
 		cost: ["Water", "Water", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ブラックフロスト"
+			'ja-jp': "ブラックフロスト"
 		},
 
 		damage: 250,
 
 		effect: {
-			ja: "このポケモンにも30ダメージ。"
+			'ja-jp': "このポケモンにも30ダメージ。"
 		}
 	}],
 

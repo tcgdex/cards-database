@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Meltan"
+		'en-us': "Meltan"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "It dissolves and eats metal. Circulating liquid\nmetal within its body is how it generates energy."
+		'en-us': "It dissolves and eats metal. Circulating liquid\nmetal within its body is how it generates energy."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Beam"
+			'en-us': "Beam"
 		},
 
 		damage: 20,

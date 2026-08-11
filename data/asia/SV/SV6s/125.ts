@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Revavroom"
+		'id-id': "Revavroom"
 	},
 
 	illustrator: "Hasuno",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Revavroom mengintimidasi lawan dengan suara knalpot. Pokémon ini mengeluarkan lidah dari mulut silindernya dan menyebarkan cairan beracun."
+		'id-id': "Revavroom mengintimidasi lawan dengan suara knalpot. Pokémon ini mengeluarkan lidah dari mulut silindernya dan menyebarkan cairan beracun."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Unggul Kembali"
+			'id-id': "Unggul Kembali"
 		},
 
 		effect: {
-			id: "Jika pada giliran lawan sebelumnya, ada Pokémon sendiri yang KO karena kerusakan akibat serangan, kerusakan yang diberikan bertambah sejumlah 90."
+			'id-id': "Jika pada giliran lawan sebelumnya, ada Pokémon sendiri yang KO karena kerusakan akibat serangan, kerusakan yang diberikan bertambah sejumlah 90."
 		},
 
 		damage: "30+",
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Berlari"
+			'id-id': "Berlari"
 		},
 
 		effect: {
-			id: "Lempar koin hingga hasilnya sisi belakang. Serangan ini memberikan kerusakan sejumlah 100 untuk tiap lemparan dengan hasil sisi depan."
+			'id-id': "Lempar koin hingga hasilnya sisi belakang. Serangan ini memberikan kerusakan sejumlah 100 untuk tiap lemparan dengan hasil sisi depan."
 		},
 
 		damage: "100×",

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フォクスライ",
+		'ja-jp': "フォクスライ",
 	},
 
 	illustrator: "Jerky",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "スキルシーフ" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の手札が1枚もないなら、相手の場のポケモンが持つワザを1つ選び、このワザとして使う。",
+				'ja-jp': "自分の手札が1枚もないなら、相手の場のポケモンが持つワザを1つ選び、このワザとして使う。",
 			},
 		},
 		{
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "クスネ",
+		'ja-jp': "クスネ",
 	},
 
 	retreat: 1,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Togepi",
-		fr: "Togepi",
-		es: "Togepi",
-		it: "Togepi",
-		pt: "Togepi",
-		de: "Togepi"
+		'en-us': "Togepi",
+		'fr-fr': "Togepi",
+		'es-es': "Togepi",
+		'it-it': "Togepi",
+		'pt-br': "Togepi",
+		'de-de': "Togepi"
 	},
 
 	illustrator: "Kanako Eo",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Yawn",
-				fr: "Bâillement",
+				'en-us': "Yawn",
+				'fr-fr': "Bâillement",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
 			},
 
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It transforms the kindness and joy of others into happiness, which it stores in its shell.",
+		'en-us': "It transforms the kindness and joy of others into happiness, which it stores in its shell.",
 	},
 
 	thirdParty: {

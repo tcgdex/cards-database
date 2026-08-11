@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シロデスナ",
+		'ja-jp': "シロデスナ",
 	},
 
 	illustrator: "OOYAMA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "一粒の 砂にも 意思が ある。 小さな ポケモンを 呑み込み 生きたまま 生気を 奪う。",
+		'ja-jp': "一粒の 砂にも 意思が ある。 小さな ポケモンを 呑み込み 生きたまま 生気を 奪う。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチポケモン全員にも、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "自分のベンチポケモン全員にも、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "スナバァ",
+		'ja-jp': "スナバァ",
 	},
 
 	retreat: 4,

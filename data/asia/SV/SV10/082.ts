@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団のポリゴン2",
+		'ja-jp': "ロケット団のポリゴン2",
 		'zh-tw': "<火箭隊的>多邊獸Ⅱ",
 		'zh-cn': "<火箭隊的>多邊獸Ⅱ",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "最新科学で 進化した 人工の ポケモン。 ときどき プログラムにない 反応をみせる。",
+		'ja-jp': "最新科学で 進化した 人工の ポケモン。 ときどき プログラムにない 反応をみせる。",
 		'zh-tw': "利用最新科技進化的 人工寶可夢。有時會 表現出程式裡沒有的反應。",
 		'zh-cn': "利用最新科技進化的 人工寶可夢。有時會 表現出程式裡沒有的反應。",
 	},
@@ -25,14 +25,14 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "Rコマンド",
+				'ja-jp': "Rコマンド",
 				'zh-tw': "R指令",
 				'zh-cn': "R指令",
 			},
 			damage: "20×",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のトラッシュにある、名前に「ロケット団」とつくサポートの枚数×20ダメージ。",
+				'ja-jp': "自分のトラッシュにある、名前に「ロケット団」とつくサポートの枚数×20ダメージ。",
 				'zh-tw': "造成自己的棄牌區的，名稱中有「火箭隊」的支援者卡的張數×20點傷害。",
 				'zh-cn': "造成自己的棄牌區的，名稱中有「火箭隊」的支援者卡的張數×20點傷害。",
 			},
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ロケット団のポリゴン",
+		'ja-jp': "ロケット団のポリゴン",
 	},
 
 	retreat: 1,

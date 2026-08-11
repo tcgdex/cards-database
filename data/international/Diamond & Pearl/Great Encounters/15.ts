@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Claydol",
-		fr: "Kaorine",
-		de: "Lepumentas"
+		'en-us': "Claydol",
+		'fr-fr': "Kaorine",
+		'de-de': "Lepumentas"
 	},
 
 	illustrator: "Midori Harada",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Baltoy",
-		fr: "Balbuto",
+		'en-us': "Baltoy",
+		'fr-fr': "Balbuto",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Cosmic Power",
-				fr: "Force cosmik",
-				de: "Kosmik-Kraft"
+				'en-us': "Cosmic Power",
+				'fr-fr': "Force cosmik",
+				'de-de': "Kosmik-Kraft"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may choose up to 2 cards from your hand and put them on the bottom of your deck in any order. If you do, draw cards until you have 6 cards in your hand. This power can't be used if Claydol is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez choisir jusqu'à 2 cartes de votre main et les placer au dessous de votre deck dans n'importe quel ordre. Piochez alors des cartes jusqu'à ce que vous ayez 6 cartes en main. Ce pouvoir ne peut pas être utilisé si Kaorine est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du bis zu 2 Karten von deiner Hand wählen und in beliebiger Reihenfolge unter dein Deck legen. Wenn du das machst, ziehe so viele Karten, bis du 6 Karten auf der Hand hast. Diese Poké-Power kann nicht benutzt werden, wenn Lepumentas von einem Speziellen Zustand betroffen ist."
+				'en-us': "Once during your turn (before your attack), you may choose up to 2 cards from your hand and put them on the bottom of your deck in any order. If you do, draw cards until you have 6 cards in your hand. This power can't be used if Claydol is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez choisir jusqu'à 2 cartes de votre main et les placer au dessous de votre deck dans n'importe quel ordre. Piochez alors des cartes jusqu'à ce que vous ayez 6 cartes en main. Ce pouvoir ne peut pas être utilisé si Kaorine est affecté par un État Spécial.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du bis zu 2 Karten von deiner Hand wählen und in beliebiger Reihenfolge unter dein Deck legen. Wenn du das machst, ziehe so viele Karten, bis du 6 Karten auf der Hand hast. Diese Poké-Power kann nicht benutzt werden, wenn Lepumentas von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -53,9 +53,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spinning Attack",
-				fr: "Attaque tournante",
-				de: "Rundumangriff"
+				'en-us': "Spinning Attack",
+				'fr-fr': "Attaque tournante",
+				'de-de': "Rundumangriff"
 			},
 
 			damage: 40,
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "An ancient clay figurine that came to life as a Pokémon from exposure to a mysterious ray of light.",
+		'en-us': "An ancient clay figurine that came to life as a Pokémon from exposure to a mysterious ray of light.",
 	},
 
 	thirdParty: {

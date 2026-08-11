@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "古びたはねの化石",
+		'ja-jp': "古びたはねの化石",
 	},
 
 	illustrator: "AYUMI ODASHIMA",
@@ -13,7 +13,7 @@ const card: Card = {
 	hp: 60, // This card has an HP due to its effect
 
 	effect: {
-		ja: "このカードは、HP60のタイプのたねポケモンとして、場に出せる。このカードは、特殊状態にならず、にげられない。 自分の番の中でなら、場に出ているこのカードをトラッシュできる。",
+		'ja-jp': "このカードは、HP60のタイプのたねポケモンとして、場に出せる。このカードは、特殊状態にならず、にげられない。 自分の番の中でなら、場に出ているこのカードをトラッシュできる。",
 	},
 
 	abilities: [
@@ -21,7 +21,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "はねのまもり" },
 			effect: {
-				ja: "このポケモンは、ベンチにいるかぎり、相手のポケモンからワザのダメージを受けない。",
+				'ja-jp': "このポケモンは、ベンチにいるかぎり、相手のポケモンからワザのダメージを受けない。",
 			},
 		},
 	],

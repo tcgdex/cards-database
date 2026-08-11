@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Espeon & Deoxys GX",
-		fr: "Mentali et Deoxys GX",
-		es: "Espeon y Deoxys GX",
-		it: "Espeon e Deoxys GX",
-		pt: "Espeon e Deoxys GX",
-		de: "Psiana & Deoxys GX"
+		'en-us': "Espeon & Deoxys GX",
+		'fr-fr': "Mentali et Deoxys GX",
+		'es-es': "Espeon y Deoxys GX",
+		'it-it': "Espeon e Deoxys GX",
+		'pt-br': "Espeon e Deoxys GX",
+		'de-de': "Psiana & Deoxys GX"
 	},
 
 	illustrator: "Hasuno",
@@ -22,43 +22,43 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Psychic Club",
-			fr: "Club Psy",
-			es: "Club Psíquico",
-			it: "Club delle Menti",
-			pt: "Clube Psíquico",
-			de: "Psycho-Club"
+			'en-us': "Psychic Club",
+			'fr-fr': "Club Psy",
+			'es-es': "Club Psíquico",
+			'it-it': "Club delle Menti",
+			'pt-br': "Clube Psíquico",
+			'de-de': "Psycho-Club"
 		},
 
 		damage: "10+",
 
 		effect: {
-			en: "This attack does 30 more damage for each of your Benched Psychic Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chacun de vos Pokémon Psychic de Banc.",
-			es: "Este ataque hace 30 puntos de daño más por cada uno de tus Pokémon Psychic en Banca.",
-			it: "Questo attacco infligge 30 danni in più per ogni Pokémon Psychic nella tua panchina.",
-			pt: "Este ataque causa 30 pontos de dano a mais para cada Pokémon Psychic no seu Banco.",
-			de: "Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der Psychic-Pokémon auf deiner Bank zu."
+			'en-us': "This attack does 30 more damage for each of your Benched Psychic Pokémon.",
+			'fr-fr': "Cette attaque inflige 30 dégâts supplémentaires pour chacun de vos Pokémon Psychic de Banc.",
+			'es-es': "Este ataque hace 30 puntos de daño más por cada uno de tus Pokémon Psychic en Banca.",
+			'it-it': "Questo attacco infligge 30 danni in più per ogni Pokémon Psychic nella tua panchina.",
+			'pt-br': "Este ataque causa 30 pontos de dano a mais para cada Pokémon Psychic no seu Banco.",
+			'de-de': "Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der Psychic-Pokémon auf deiner Bank zu."
 		},
 
 		cost: ["Psychic", "Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Cross Division GX",
-			fr: "Division Croisée GX",
-			es: "División Cruzada GX",
-			it: "Distribuzione Incrociata GX",
-			pt: "Divisão Cruzada GX",
-			de: "Kreuzdivision GX"
+			'en-us': "Cross Division GX",
+			'fr-fr': "Division Croisée GX",
+			'es-es': "División Cruzada GX",
+			'it-it': "Distribuzione Incrociata GX",
+			'pt-br': "Divisão Cruzada GX",
+			'de-de': "Kreuzdivision GX"
 		},
 
 		effect: {
-			en: "Put 10 damage counters on your opponent’s Pokémon in any way you like. If this Pokémon has at least 3 extra Energy attached to it (in addition to this attack’s cost), put 20 damage counters on them instead. (You can’t use more than 1 GX attack in a game.)",
-			fr: "Placez 10 marqueurs de dégâts sur les Pokémon de votre adversaire, de la manière que vous voulez. Si au moins 3 Énergies supplémentaires sont attachées à ce Pokémon (en plus du coût de cette attaque), placez 20 marqueurs de dégâts à la place. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-			es: "Pon 10 contadores de daño en los Pokémon de tu rival de la manera que desees. Si este Pokémon tiene por lo menos 3 Energías adicionales unidas a él (además de las del coste de este ataque), pon 20 contadores de daño en ellos en vez de 10. (No puedes usar más de 1 ataque GX en una partida).",
-			it: "Distribuisci a piacimento 10 segnalini danno sui Pokémon del tuo avversario. Se questo Pokémon ha almeno tre Energie extra assegnate, in aggiunta a quelle del costo di questo attacco, invece distribuiscine 20. Non puoi usare più di un attacco GX a partita.",
-			pt: "Coloque 10 contadores de dano nos Pokémon do seu oponente como desejar. Se este Pokémon tiver pelo menos 3 Energias adicionais ligadas a ele (além do custo deste ataque), coloque 20 contadores de dano neles ao invés de 10 (você não pode usar mais de 1 ataque GX por partida).",
-			de: "Lege 10 Schadensmarken beliebig auf die Pokémon deines Gegners. Wenn an dieses Pokémon mindestens 3 extra Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), lege stattdessen 20 Schadensmarken auf die Pokémon deines Gegners. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+			'en-us': "Put 10 damage counters on your opponent’s Pokémon in any way you like. If this Pokémon has at least 3 extra Energy attached to it (in addition to this attack’s cost), put 20 damage counters on them instead. (You can’t use more than 1 GX attack in a game.)",
+			'fr-fr': "Placez 10 marqueurs de dégâts sur les Pokémon de votre adversaire, de la manière que vous voulez. Si au moins 3 Énergies supplémentaires sont attachées à ce Pokémon (en plus du coût de cette attaque), placez 20 marqueurs de dégâts à la place. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+			'es-es': "Pon 10 contadores de daño en los Pokémon de tu rival de la manera que desees. Si este Pokémon tiene por lo menos 3 Energías adicionales unidas a él (además de las del coste de este ataque), pon 20 contadores de daño en ellos en vez de 10. (No puedes usar más de 1 ataque GX en una partida).",
+			'it-it': "Distribuisci a piacimento 10 segnalini danno sui Pokémon del tuo avversario. Se questo Pokémon ha almeno tre Energie extra assegnate, in aggiunta a quelle del costo di questo attacco, invece distribuiscine 20. Non puoi usare più di un attacco GX a partita.",
+			'pt-br': "Coloque 10 contadores de dano nos Pokémon do seu oponente como desejar. Se este Pokémon tiver pelo menos 3 Energias adicionais ligadas a ele (além do custo deste ataque), coloque 20 contadores de dano neles ao invés de 10 (você não pode usar mais de 1 ataque GX por partida).",
+			'de-de': "Lege 10 Schadensmarken beliebig auf die Pokémon deines Gegners. Wenn an dieses Pokémon mindestens 3 extra Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), lege stattdessen 20 Schadensmarken auf die Pokémon deines Gegners. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 		},
 
 		cost: ["Psychic", "Colorless", "Colorless"]

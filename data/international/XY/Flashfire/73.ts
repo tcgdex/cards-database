@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Sliggoo",
-		fr: "Colimucus",
-		es: "Sliggoo",
-		it: "Sliggoo",
-		pt: "Sliggoo",
-		de: "Viscargot"
+		'en-us': "Sliggoo",
+		'fr-fr': "Colimucus",
+		'es-es': "Sliggoo",
+		'it-it': "Sliggoo",
+		'pt-br': "Sliggoo",
+		'de-de': "Viscargot"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Goomy",
-		fr: "Mucuscule",
-		es: "Goomy",
-		it: "Goomy",
-		pt: "Goomy",
-		de: "Viscora"
+		'en-us': "Goomy",
+		'fr-fr': "Mucuscule",
+		'es-es': "Goomy",
+		'it-it': "Goomy",
+		'pt-br': "Goomy",
+		'de-de': "Viscora"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gooey",
-				fr: "Poisseux",
-				es: "Baba",
-				it: "Viscosità",
-				pt: "Pegajoso",
-				de: "Viskosität"
+				'en-us': "Gooey",
+				'fr-fr': "Poisseux",
+				'es-es': "Baba",
+				'it-it': "Viscosità",
+				'pt-br': "Pegajoso",
+				'de-de': "Viskosität"
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts à ce Pokémon.",
-				es: "Cura 30 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 30 danni.",
-				pt: "Cure 30 de danos deste Pokémon.",
-				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon.",
+				'es-es': "Cura 30 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 30 danni.",
+				'pt-br': "Cure 30 de danos deste Pokémon.",
+				'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gentle Slap",
-				fr: "Gifle Douce",
-				es: "Bofetada Gentil",
-				it: "Schiaffetto",
-				pt: "Tapinha",
-				de: "Sanfter Hieb"
+				'en-us': "Gentle Slap",
+				'fr-fr': "Gifle Douce",
+				'es-es': "Bofetada Gentil",
+				'it-it': "Schiaffetto",
+				'pt-br': "Tapinha",
+				'de-de': "Sanfter Hieb"
 			},
 
 			damage: 40,
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It drives away opponents by excreting a sticky liquid that can dissolve anything. Its eyes devolved, so it can't see anything.",
+		'en-us': "It drives away opponents by excreting a sticky liquid that can dissolve anything. Its eyes devolved, so it can't see anything.",
 	},
 
 	thirdParty: {

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Steelix",
-		fr: "Steelix"
+		'en-us': "Steelix",
+		'fr-fr': "Steelix"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Onix"
+		'en-us': "Onix"
 	},
 
 	description: {
-		en: "It is said that if an Onix lives for over 100 years,\nits composition changes to become diamond-like.",
-		fr: "On raconte qu'il s'agit d'un Onix de plus de 100 ans dont la structure corporelle s'est rapprochée de celle du diamant."
+		'en-us': "It is said that if an Onix lives for over 100 years,\nits composition changes to become diamond-like.",
+		'fr-fr': "On raconte qu'il s'agit d'un Onix de plus de 100 ans dont la structure corporelle s'est rapprochée de celle du diamant."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Heavy Impact",
-			fr: "Gros Impact"
+			'en-us': "Heavy Impact",
+			'fr-fr': "Gros Impact"
 		},
 
 		damage: 110,

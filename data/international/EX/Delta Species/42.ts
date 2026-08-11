@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Dragonair δ",
-		fr: "Draco δ",
-		de: "Dragonir"
+		'en-us': "Dragonair δ",
+		'fr-fr': "Draco δ",
+		'de-de': "Dragonir"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dratini",
-		fr: "Minidraco"
+		'en-us': "Dratini",
+		'fr-fr': "Minidraco"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Twister",
-				fr: "Ouragan",
-				de: "Twister"
+				'en-us': "Twister",
+				'fr-fr': "Ouragan",
+				'de-de': "Twister"
 			},
 			effect: {
-				en: "Flip 2 coins. If both are tails, this attack does nothing. For each heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez 2 pièces. Si ce sont deux piles, cette attaque est sans effet. Pour chaque face, défaussez une Énergie attachée au Pokémon Défenseur.",
-				de: "Flip 2 coins. If both are tails, this attack does nothing. For each heads, discard an Energy attached to the Defending Pokémon."
+				'en-us': "Flip 2 coins. If both are tails, this attack does nothing. For each heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez 2 pièces. Si ce sont deux piles, cette attaque est sans effet. Pour chaque face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Flip 2 coins. If both are tails, this attack does nothing. For each heads, discard an Energy attached to the Defending Pokémon."
 			},
 			damage: 20,
 

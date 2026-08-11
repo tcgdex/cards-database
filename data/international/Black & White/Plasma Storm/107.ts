@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Exploud",
-		fr: "Brouhabam",
-		es: "Exploud",
-		it: "Exploud",
-		pt: "Exploud",
-		de: "Krawumms"
+		'en-us': "Exploud",
+		'fr-fr': "Brouhabam",
+		'es-es': "Exploud",
+		'it-it': "Exploud",
+		'pt-br': "Exploud",
+		'de-de': "Krawumms"
 	},
 
 	illustrator: "match",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Loudred",
-		fr: "Ramboum",
+		'en-us': "Loudred",
+		'fr-fr': "Ramboum",
 	},
 
 	stage: "Stage2",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Destructive Sound",
-				fr: "Son Destructeur",
+				'en-us': "Destructive Sound",
+				'fr-fr': "Son Destructeur",
 			},
 			effect: {
-				en: "Your opponent reveals his or her hand. Discard all Item cards you find there.",
-				fr: "Votre adversaire montre sa main. Défaussez toutes les cartes Objet que vous y trouvez.",
+				'en-us': "Your opponent reveals his or her hand. Discard all Item cards you find there.",
+				'fr-fr': "Votre adversaire montre sa main. Défaussez toutes les cartes Objet que vous y trouvez.",
 			},
 
 		},
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Round",
-				fr: "Chant Canon",
+				'en-us': "Round",
+				'fr-fr': "Chant Canon",
 			},
 			effect: {
-				en: "Does 50 damage times the number of your Pokémon that have the Round attack.",
-				fr: "Inflige 50 dégâts multipliés par le nombre de vos Pokémon possédant l'attaque Chant Canon.",
+				'en-us': "Does 50 damage times the number of your Pokémon that have the Round attack.",
+				'fr-fr': "Inflige 50 dégâts multipliés par le nombre de vos Pokémon possédant l'attaque Chant Canon.",
 			},
 			damage: 50,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Its howls can be heard over six miles away. It emits all sorts of noises from the ports on its body.",
+		'en-us': "Its howls can be heard over six miles away. It emits all sorts of noises from the ports on its body.",
 	},
 
 	thirdParty: {

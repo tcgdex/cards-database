@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Haunter",
-		fr: "Spectrum",
-		de: "Alpollo",
-		it: "Haunter",
-		es: "Haunter",
-		pt: "Haunter"
+		'en-us': "Haunter",
+		'fr-fr': "Spectrum",
+		'de-de': "Alpollo",
+		'it-it': "Haunter",
+		'es-es': "Haunter",
+		'pt-br': "Haunter"
 	},
 
 	illustrator: "Arai Kiriko",
@@ -22,24 +22,24 @@ const card: Card = {
 	dexId: [93],
 
 	evolveFrom: {
-		en: "Gastly",
-		fr: "Fantominus",
-		de: "Nebulak",
-		it: "Gastly",
-		es: "Gastly",
-		pt: "Gastly"
+		'en-us': "Gastly",
+		'fr-fr': "Fantominus",
+		'de-de': "Nebulak",
+		'it-it': "Gastly",
+		'es-es': "Gastly",
+		'pt-br': "Gastly"
 	},
 
 	attacks: [{
 		cost: ["Darkness"],
 
 		name: {
-			en: "Spooky Shot",
-			fr: "Tir Effrayant",
-			de: "Spukschuss",
-			it: "Colpomistero",
-			es: "Disparo Embrujado",
-			pt: "Tiro Assustador"
+			'en-us': "Spooky Shot",
+			'fr-fr': "Tir Effrayant",
+			'de-de': "Spukschuss",
+			'it-it': "Colpomistero",
+			'es-es': "Disparo Embrujado",
+			'pt-br': "Tiro Assustador"
 		},
 
 		damage: 40

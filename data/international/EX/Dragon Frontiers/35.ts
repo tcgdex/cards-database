@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Nidorino δ",
-		fr: "Nidorino δ",
-		de: "Nidorino"
+		'en-us': "Nidorino δ",
+		'fr-fr': "Nidorino δ",
+		'de-de': "Nidorino"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidoran?",
-		fr: "Nidoran"
+		'en-us': "Nidoran?",
+		'fr-fr': "Nidoran"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rage",
-				fr: "Frénésie",
-				de: "Raserei"
+				'en-us': "Rage",
+				'fr-fr': "Frénésie",
+				'de-de': "Raserei"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each damage counter on Nidorino.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Nidorino.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Nidorino zu."
+				'en-us': "Does 10 damage plus 10 more damage for each damage counter on Nidorino.",
+				'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Nidorino.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Nidorino zu."
 			},
 			damage: "10+",
 
@@ -56,9 +56,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Drill",
-				fr: "Empal'korne",
-				de: "Hornbohrer"
+				'en-us': "Horn Drill",
+				'fr-fr': "Empal'korne",
+				'de-de': "Hornbohrer"
 			},
 
 			damage: 30,

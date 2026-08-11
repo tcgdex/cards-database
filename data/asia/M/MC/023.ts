@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ツボツボ",
+		'ja-jp': "ツボツボ",
 	},
 
 	illustrator: "Shinya Komatsu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "ツボのような 甲羅の 中に ためこんだ 木の実は いつの間にか ドロドロの ジュースに 変わる。",
+		'ja-jp': "ツボのような 甲羅の 中に ためこんだ 木の実は いつの間にか ドロドロの ジュースに 変わる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "はっこうジュース" },
 			effect: {
-				ja: "このポケモンに[G]エネルギーがついているなら、自分の番に1回使える。自分のポケモン1匹のHPを「30」回復する。",
+				'ja-jp': "このポケモンに[G]エネルギーがついているなら、自分の番に1回使える。自分のポケモン1匹のHPを「30」回復する。",
 			},
 		},
 	],

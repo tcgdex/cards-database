@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Onix",
-		fr: "Onix",
-		de: "Onix"
+		'en-us': "Onix",
+		'fr-fr': "Onix",
+		'de-de': "Onix"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Rock Throw",
-				fr: "Jet-pierres",
-				de: "Rock Throw"
+				'en-us': "Rock Throw",
+				'fr-fr': "Jet-pierres",
+				'de-de': "Rock Throw"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tunneling",
-				fr: "Creuser un tunnel",
-				de: "Tunneling"
+				'en-us': "Tunneling",
+				'fr-fr': "Creuser un tunnel",
+				'de-de': "Tunneling"
 			},
 			effect: {
-				en: "Choose up to 2 of your opponent's Benched Pokémon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.) Onix can't attack during your next turn.",
-				fr: "Choisissez jusqu'à 2 des Pokémon de Banc de votre adversaire. Cette attaque inflige 10 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Onix ne pourra pas attaquer lors de votre prochain tour.",
-				de: "Choose up to 2 of your opponent's Benched Pokémon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.) Onix can't attack during your next turn."
+				'en-us': "Choose up to 2 of your opponent's Benched Pokémon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.) Onix can't attack during your next turn.",
+				'fr-fr': "Choisissez jusqu'à 2 des Pokémon de Banc de votre adversaire. Cette attaque inflige 10 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Onix ne pourra pas attaquer lors de votre prochain tour.",
+				'de-de': "Choose up to 2 of your opponent's Benched Pokémon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.) Onix can't attack during your next turn."
 			},
 
 		},

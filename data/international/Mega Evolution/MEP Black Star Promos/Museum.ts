@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu at the Museum",
+		'en-us': "Pikachu at the Museum",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -20,11 +20,11 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Lightning"],
 
 		name: {
-			en: "Thunderbolt"
+			'en-us': "Thunderbolt"
 		},
 
 		effect: {
-			en: "Discard all Energy from this Pokémon."
+			'en-us': "Discard all Energy from this Pokémon."
 		},
 
 		damage: 100
@@ -32,11 +32,11 @@ const card: Card = {
        	cost: ["Colorless"],
 
        	name: {
-       		en: "The Best Collection!"
+       		'en-us': "The Best Collection!"
        	},
 
 		effect: {
-			en: "Search your Pokémon TCG Collection for a Pokémon, reveal it, and put it into your hand."
+			'en-us': "Search your Pokémon TCG Collection for a Pokémon, reveal it, and put it into your hand."
 		}
    	}],
 

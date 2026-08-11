@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケッキング",
+		'ja-jp': "ケッキング",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "世界一の ぐうたらだが たまった エネルギーを 一気に 出す ことで 恐ろしい パワーを 発揮する。",
+		'ja-jp': "世界一の ぐうたらだが たまった エネルギーを 一気に 出す ことで 恐ろしい パワーを 発揮する。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "なまけがお" },
 			effect: {
-				ja: "このポケモンがバトル場にいるかぎり、相手の場のポケモンの特性（「なまけがお」をのぞく）は、すべてなくなる。",
+				'ja-jp': "このポケモンがバトル場にいるかぎり、相手の場のポケモンの特性（「なまけがお」をのぞく）は、すべてなくなる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、1個トラッシュする。次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "このポケモンについているエネルギーを、1個トラッシュする。次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤルキモノ",
+		'ja-jp': "ヤルキモノ",
 	},
 
 	retreat: 3,

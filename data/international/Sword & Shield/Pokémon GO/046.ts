@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pokémon GO"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Melmetal",
-		fr: "Melmetal",
-		es: "Melmetal",
-		it: "Melmetal",
-		pt: "Melmetal",
-		de: "Melmetal"
+		'en-us': "Melmetal",
+		'fr-fr': "Melmetal",
+		'es-es': "Melmetal",
+		'it-it': "Melmetal",
+		'pt-br': "Melmetal",
+		'de-de': "Melmetal"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Meltan",
-		fr: "Meltan",
-		es: "Meltan",
-		it: "Meltan",
-		pt: "Meltan",
-		de: "Meltan"
+		'en-us': "Meltan",
+		'fr-fr': "Meltan",
+		'es-es': "Meltan",
+		'it-it': "Meltan",
+		'pt-br': "Meltan",
+		'de-de': "Meltan"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			es: "Golpe Cabeza",
-			it: "Bottintesta",
-			pt: "Cabeçada",
-			de: "Kopfnuss"
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'es-es': "Golpe Cabeza",
+			'it-it': "Bottintesta",
+			'pt-br': "Cabeçada",
+			'de-de': "Kopfnuss"
 		},
 
 		damage: 60
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		name: {
-			en: "Swinging Smash",
-			fr: "Frappe Déchaînée",
-			es: "Golpe Oscilante",
-			it: "Oscillacolpo",
-			pt: "Pancada Giratória",
-			de: "Schmetterschwung"
+			'en-us': "Swinging Smash",
+			'fr-fr': "Frappe Déchaînée",
+			'es-es': "Golpe Oscilante",
+			'it-it': "Oscillacolpo",
+			'pt-br': "Pancada Giratória",
+			'de-de': "Schmetterschwung"
 		},
 
 		effect: {
-			en: "Flip 2 coins. This attack does 90 more damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 90 dégâts supplémentaires pour chaque côté face.",
-			es: "Lanza 2 monedas. Este ataque hace 90 puntos de daño más por cada cara.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 90 danni in più ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 90 pontos de dano a mais para cada cara.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 90 Schadenspunkte mehr pro Kopf zu."
+			'en-us': "Flip 2 coins. This attack does 90 more damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 90 dégâts supplémentaires pour chaque côté face.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 90 puntos de daño más por cada cara.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 90 danni in più ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 90 pontos de dano a mais para cada cara.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 90 Schadenspunkte mehr pro Kopf zu."
 		},
 
 		damage: "30+"
@@ -85,7 +85,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years.",
+		'en-us': "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years.",
 	},
 
 	

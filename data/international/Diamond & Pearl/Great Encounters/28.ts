@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Slowking",
-		fr: "Roigada",
-		de: "Laschoking"
+		'en-us': "Slowking",
+		'fr-fr': "Roigada",
+		'de-de': "Laschoking"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Slowpoke",
-		fr: "Ramoloss",
+		'en-us': "Slowpoke",
+		'fr-fr': "Ramoloss",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Trump Card",
-				fr: "Atout",
-				de: "Trumpfkarte"
+				'en-us': "Trump Card",
+				'fr-fr': "Atout",
+				'de-de': "Trumpfkarte"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if any of your Pokémon were Knocked Out during your opponent's last turn, search your deck for any 1 card and put it into your hand. Shuffle your deck afterward. This power can't be used if Slowking is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), si 1 ou plusieurs de vos Pokémon ont été mis K.O lors du dernier tour de votre adversaire, choisissez n'importe quelle carte dans votre deck et placez-la dans votre main. Ensuite, mélangez votre deck. Ce pouvoir ne peut pas être utilisé si Roigada est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn mindestens 1 deiner Pokémon im letzten Zug deines Gegners kampfunfähig wurde, dein Deck nach 1 Karte durchsuchen und sie auf die Hand nehmen. Mische dein Deck danach. Diese Poké-Power kann nicht benutzt werden, wenn Laschoking von einem Speziellen Zustand betroffen ist."
+				'en-us': "Once during your turn (before your attack), if any of your Pokémon were Knocked Out during your opponent's last turn, search your deck for any 1 card and put it into your hand. Shuffle your deck afterward. This power can't be used if Slowking is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), si 1 ou plusieurs de vos Pokémon ont été mis K.O lors du dernier tour de votre adversaire, choisissez n'importe quelle carte dans votre deck et placez-la dans votre main. Ensuite, mélangez votre deck. Ce pouvoir ne peut pas être utilisé si Roigada est affecté par un État Spécial.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn mindestens 1 deiner Pokémon im letzten Zug deines Gegners kampfunfähig wurde, dein Deck nach 1 Karte durchsuchen und sie auf die Hand nehmen. Mische dein Deck danach. Diese Poké-Power kann nicht benutzt werden, wenn Laschoking von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psych Up",
-				fr: "Boost",
-				de: "Psycho-Plus"
+				'en-us': "Psych Up",
+				'fr-fr': "Boost",
+				'de-de': "Psycho-Plus"
 			},
 			effect: {
-				en: "During your next turn, Slowking's Psych Up attack's base damage is 60.",
-				fr: "Lors de votre prochain tour, les dégâts de base de l'attaque Boost de Roigada sont de 60.",
-				de: "In deinem nächsten Zug beträgt der Grundschaden von Laschokings Angriff Psycho-Plus 60 Schadenspunkte."
+				'en-us': "During your next turn, Slowking's Psych Up attack's base damage is 60.",
+				'fr-fr': "Lors de votre prochain tour, les dégâts de base de l'attaque Boost de Roigada sont de 60.",
+				'de-de': "In deinem nächsten Zug beträgt der Grundschaden von Laschokings Angriff Psycho-Plus 60 Schadenspunkte."
 			},
 			damage: 30,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Being bitten by Shellder gave it intelligence comparable to that of award-winning scientists.",
+		'en-us': "Being bitten by Shellder gave it intelligence comparable to that of award-winning scientists.",
 	},
 
 	thirdParty: {

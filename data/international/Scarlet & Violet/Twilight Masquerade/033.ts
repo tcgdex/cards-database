@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Infernape",
-		fr: "Simiabraz",
-		es: "Infernape",
-		it: "Infernape",
-		pt: "Infernape",
-		de: "Panferno"
+		'en-us': "Infernape",
+		'fr-fr': "Simiabraz",
+		'es-es': "Infernape",
+		'it-it': "Infernape",
+		'pt-br': "Infernape",
+		'de-de': "Panferno"
 	},
 
 	rarity: "Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Monferno",
-		fr: "Chimpenfeu",
-		es: "Monferno",
-		it: "Monferno",
-		pt: "Monferno",
-		de: "Panpyro"
+		'en-us': "Monferno",
+		'fr-fr': "Chimpenfeu",
+		'es-es': "Monferno",
+		'it-it': "Monferno",
+		'pt-br': "Monferno",
+		'de-de': "Panpyro"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Pyro Dance",
-			fr: "Danse Pyro",
-			es: "Pirodanza",
-			it: "Danza Infuocata",
-			pt: "Dança Incendiária",
-			de: "Pyrotanz"
+			'en-us': "Pyro Dance",
+			'fr-fr': "Danse Pyro",
+			'es-es': "Pirodanza",
+			'it-it': "Danza Infuocata",
+			'pt-br': "Dança Incendiária",
+			'de-de': "Pyrotanz"
 		},
 
 		effect: {
-			en: "Once during your turn, you may attach a Basic {R} Energy card, a Basic {F} Energy card, or 1 of each from your hand to your Pokémon in any way you like.",
-			fr: "Une fois pendant votre tour, vous pouvez attacher une carte Énergie {R} de base, une carte Énergie {F} de base, ou une de chaque de votre main à vos Pokémon comme il vous plaît.",
-			es: "Una vez durante tu turno, puedes unir 1 carta de Energía {R} Básica, 1 carta de Energía {F} Básica o 1 de cada una de tu mano a tus Pokémon de la manera que desees.",
-			it: "Una sola volta durante il tuo turno, puoi assegnare ai tuoi Pokémon una carta Energia base {R}, una carta Energia base {F} o entrambe dalla tua mano nel modo che preferisci.",
-			pt: "Uma vez durante o seu turno, você poderá ligar uma carta de Energia {R} Básica, uma carta de Energia {F} Básica ou 1 de cada da sua mão aos seus Pokémon como desejar.",
-			de: "Einmal während deines Zuges kannst du 1 Basis-{R}-Energiekarte, 1 Basis-{F}-Energiekarte oder von beiden 1 aus deiner Hand beliebig an deine Pokémon anlegen."
+			'en-us': "Once during your turn, you may attach a Basic {R} Energy card, a Basic {F} Energy card, or 1 of each from your hand to your Pokémon in any way you like.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez attacher une carte Énergie {R} de base, une carte Énergie {F} de base, ou une de chaque de votre main à vos Pokémon comme il vous plaît.",
+			'es-es': "Una vez durante tu turno, puedes unir 1 carta de Energía {R} Básica, 1 carta de Energía {F} Básica o 1 de cada una de tu mano a tus Pokémon de la manera que desees.",
+			'it-it': "Una sola volta durante il tuo turno, puoi assegnare ai tuoi Pokémon una carta Energia base {R}, una carta Energia base {F} o entrambe dalla tua mano nel modo che preferisci.",
+			'pt-br': "Uma vez durante o seu turno, você poderá ligar uma carta de Energia {R} Básica, uma carta de Energia {F} Básica ou 1 de cada da sua mão aos seus Pokémon como desejar.",
+			'de-de': "Einmal während deines Zuges kannst du 1 Basis-{R}-Energiekarte, 1 Basis-{F}-Energiekarte oder von beiden 1 aus deiner Hand beliebig an deine Pokémon anlegen."
 		}
 	}],
 
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Scorching Fire",
-			fr: "Feu Infernal",
-			es: "Fuego Abrasador",
-			it: "Fuoco Ustionante",
-			pt: "Fogo Ardente",
-			de: "Versengendes Feuer"
+			'en-us': "Scorching Fire",
+			'fr-fr': "Feu Infernal",
+			'es-es': "Fuego Abrasador",
+			'it-it': "Fuoco Ustionante",
+			'pt-br': "Fogo Ardente",
+			'de-de': "Versengendes Feuer"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte uma Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 200
@@ -84,7 +84,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Its crown of fire is indicative of its fiery nature. It is beaten by none in terms of quickness.",
+		'en-us': "Its crown of fire is indicative of its fiery nature. It is beaten by none in terms of quickness.",
 	},
 
 	variants: [

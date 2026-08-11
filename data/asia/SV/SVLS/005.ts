@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVLS"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カルボウ"
+		'ja-jp': "カルボウ"
 	},
 
 	illustrator: "Kariya",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "戦いになると 火力が 上がり 摂氏１０００度に 達する。 油分の多い 木の実を 好む。"
+		'ja-jp': "戦いになると 火力が 上がり 摂氏１０００度に 達する。 油分の多い 木の実を 好む。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "おにび"
+			'ja-jp': "おにび"
 		},
 
 		damage: 20

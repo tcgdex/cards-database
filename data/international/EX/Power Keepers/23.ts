@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Seviper",
-		fr: "Seviper",
-		de: "Vipitis"
+		'en-us': "Seviper",
+		'fr-fr': "Seviper",
+		'de-de': "Vipitis"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sharp Fang",
-				fr: "Croc aiguisé",
-				de: "Scharfe Fänge"
+				'en-us': "Sharp Fang",
+				'fr-fr': "Croc aiguisé",
+				'de-de': "Scharfe Fänge"
 			},
 
 			damage: 10,
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Toxic",
-				fr: "Toxik",
-				de: "Toxin"
+				'en-us': "Toxic",
+				'fr-fr': "Toxik",
+				'de-de': "Toxin"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf das Verteidigende Pokémon."
+				'en-us': "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf das Verteidigende Pokémon."
 			},
 
 		},

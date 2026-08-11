@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Honchkrow",
-		fr: "Corboss",
-		es: "Honchkrow",
-		it: "Honchkrow",
-		pt: "Honchkrow",
-		de: "Kramshef"
+		'en-us': "Honchkrow",
+		'fr-fr': "Corboss",
+		'es-es': "Honchkrow",
+		'it-it': "Honchkrow",
+		'pt-br': "Honchkrow",
+		'de-de': "Kramshef"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -21,53 +21,53 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Murkrow",
-		fr: "Cornèbre",
-		es: "Murkrow",
-		it: "Murkrow",
-		pt: "Murkrow",
-		de: "Kramurx"
+		'en-us': "Murkrow",
+		'fr-fr': "Cornèbre",
+		'es-es': "Murkrow",
+		'it-it': "Murkrow",
+		'pt-br': "Murkrow",
+		'de-de': "Kramurx"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			en: "Insomnia",
-			fr: "Insomnia",
-			es: "Insomnio",
-			it: "Insonnia",
-			pt: "Insônia",
-			de: "Insomnia"
+			'en-us': "Insomnia",
+			'fr-fr': "Insomnia",
+			'es-es': "Insomnio",
+			'it-it': "Insonnia",
+			'pt-br': "Insônia",
+			'de-de': "Insomnia"
 		},
 
 		effect: {
-			en: "This Pokémon can't be Asleep.",
-			fr: "Ce Pokémon ne peut pas être Endormi.",
-			es: "Este Pokémon no puede pasar a estar Dormido.",
-			it: "Questo Pokémon non può venire addormentato.",
-			pt: "Este Pokémon não pode ser Adormecido.",
-			de: "Dieses Pokémon kann nicht von Schlaf betroffen werden."
+			'en-us': "This Pokémon can't be Asleep.",
+			'fr-fr': "Ce Pokémon ne peut pas être Endormi.",
+			'es-es': "Este Pokémon no puede pasar a estar Dormido.",
+			'it-it': "Questo Pokémon non può venire addormentato.",
+			'pt-br': "Este Pokémon não pode ser Adormecido.",
+			'de-de': "Dieses Pokémon kann nicht von Schlaf betroffen werden."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Voltage Dive",
-			fr: "Plongée Voltaïque",
-			es: "Picado Voltaje",
-			it: "Picchiata Voltaica",
-			pt: "Mergulho Voltaico",
-			de: "Volttaucher"
+			'en-us': "Voltage Dive",
+			'fr-fr': "Plongée Voltaïque",
+			'es-es': "Picado Voltaje",
+			'it-it': "Picchiata Voltaica",
+			'pt-br': "Mergulho Voltaico",
+			'de-de': "Volttaucher"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon has any Special Energy attached, this attack does 80 more damage.",
-			fr: "Si de l'Énergie spéciale est attachée au Pokémon Actif de votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
-			es: "Si el Pokémon Activo de tu rival tiene alguna Energía Especial unida a él, este ataque hace 80 puntos de daño más.",
-			it: "Se il Pokémon attivo del tuo avversario ha delle Energie speciali assegnate, questo attacco infligge 80 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente tiver alguma Energia Especial ligada a ele, este ataque causará 80 pontos de dano a mais.",
-			de: "Wenn an das Aktive Pokémon deines Gegners mindestens 1 Spezial-Energie angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
+			'en-us': "If your opponent's Active Pokémon has any Special Energy attached, this attack does 80 more damage.",
+			'fr-fr': "Si de l'Énergie spéciale est attachée au Pokémon Actif de votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
+			'es-es': "Si el Pokémon Activo de tu rival tiene alguna Energía Especial unida a él, este ataque hace 80 puntos de daño más.",
+			'it-it': "Se il Pokémon attivo del tuo avversario ha delle Energie speciali assegnate, questo attacco infligge 80 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente tiver alguma Energia Especial ligada a ele, este ataque causará 80 pontos de dano a mais.",
+			'de-de': "Wenn an das Aktive Pokémon deines Gegners mindestens 1 Spezial-Energie angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+",
@@ -91,7 +91,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Its goons take care of most of the fighting for it. The only time it dirties its own hands is in delivering a final blow to finish off an opponent."
+		'en-us': "Its goons take care of most of the fighting for it. The only time it dirties its own hands is in delivering a final blow to finish off an opponent."
 	},
 
 	variants: [

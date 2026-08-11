@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	name: {
-		en: "Galarian Darumaka",
-		fr: "Darumarond de Galar",
-		es: "Darumaka de Galar",
-		it: "Darumaka di Galar",
-		pt: "Darumaka de Galar",
-		de: "Galar-Flampion"
+		'en-us': "Galarian Darumaka",
+		'fr-fr': "Darumarond de Galar",
+		'es-es': "Darumaka de Galar",
+		'it-it': "Darumaka di Galar",
+		'pt-br': "Darumaka de Galar",
+		'de-de': "Galar-Flampion"
 	},
 
 	illustrator: "Akira Komayama",
@@ -24,20 +24,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Punch",
-				fr: "Poing Glace",
-				es: "Puño Hielo",
-				it: "Gelopugno",
-				pt: "Soco de Gelo",
-				de: "Eishieb"
+				'en-us': "Ice Punch",
+				'fr-fr': "Poing Glace",
+				'es-es': "Puño Hielo",
+				'it-it': "Gelopugno",
+				'pt-br': "Soco de Gelo",
+				'de-de': "Eishieb"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
-				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 30,
 
@@ -60,7 +60,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It lived in snowy areas for so long that its fire sac cooled off and atrophied. It now has an organ that generates cold instead."
+		'en-us': "It lived in snowy areas for so long that its fire sac cooled off and atrophied. It now has an organ that generates cold instead."
 	},
 
 	variants: [

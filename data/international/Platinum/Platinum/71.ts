@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Combee",
-		fr: "Apitrini",
-		de: "Wadribie"
+		'en-us': "Combee",
+		'fr-fr': "Apitrini",
+		'de-de': "Wadribie"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Collect",
-				fr: "Collectionner",
-				de: "Collect"
+				'en-us': "Collect",
+				'fr-fr': "Collectionner",
+				'de-de': "Collect"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Draw a card."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Draw a card."
 			},
 
 		},
@@ -44,14 +44,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shoot Through",
-				fr: "Passer à travers",
-				de: "Shoot Through"
+				'en-us': "Shoot Through",
+				'fr-fr': "Passer à travers",
+				'de-de': "Shoot Through"
 			},
 			effect: {
-				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 20,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The trio is together from birth. It constantly gathers honey from flowers to please VESPIQUEN."
+		'en-us': "The trio is together from birth. It constantly gathers honey from flowers to please VESPIQUEN."
 	},
 
 	variants: [

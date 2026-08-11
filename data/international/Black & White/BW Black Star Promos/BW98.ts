@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Mew",
-		fr: "Mew",
+		'en-us': "Mew",
+		'fr-fr': "Mew",
 	},
 	illustrator: "Naoki Saito",
 	rarity: "Common",
@@ -25,12 +25,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Psyscan",
-				fr: "Psychoscan",
+				'en-us': "Psyscan",
+				'fr-fr': "Psychoscan",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if this Pokémon is your Active Pokémon, you may have your opponent reveal his or her hand.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon est votre Pokémon Actif, vous pouvez demander à votre adversaire de montrer sa main.",
+				'en-us': "Once during your turn (before your attack), if this Pokémon is your Active Pokémon, you may have your opponent reveal his or her hand.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon est votre Pokémon Actif, vous pouvez demander à votre adversaire de montrer sa main.",
 			},
 		},
 	],
@@ -40,12 +40,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psychic Exchange",
-				fr: "Échange Psychique",
+				'en-us': "Psychic Exchange",
+				'fr-fr': "Échange Psychique",
 			},
 			effect: {
-				en: "Shuffle your hand into your deck. Then, draw 6 cards.",
-				fr: "Mélangez votre main avec votre deck. Ensuite, piochez 6 cartes.",
+				'en-us': "Shuffle your hand into your deck. Then, draw 6 cards.",
+				'fr-fr': "Mélangez votre main avec votre deck. Ensuite, piochez 6 cartes.",
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Because it can use all kinds of moves, many scientists believe Mew to be the ancestor of Pokémon.",
+		'en-us': "Because it can use all kinds of moves, many scientists believe Mew to be the ancestor of Pokémon.",
 	},
 }
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Jungle'
 
 const card: Card = {
 	name: {
-		en: "Jigglypuff",
-		fr: "Rondoudou",
-		de: "Pummeluff"
+		'en-us': "Jigglypuff",
+		'fr-fr': "Rondoudou",
+		'de-de': "Pummeluff"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lullaby",
-				fr: "Comptine",
-				de: "Wiegenlied"
+				'en-us': "Lullaby",
+				'fr-fr': "Comptine",
+				'de-de': "Wiegenlied"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "das verteidigende Pokémon ist jetzt gelähmt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "das verteidigende Pokémon ist jetzt gelähmt."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'face",
-				de: "Pfund"
+				'en-us': "Pound",
+				'fr-fr': "Écras'face",
+				'de-de': "Pfund"
 			},
 
 			damage: 20,
@@ -75,8 +75,8 @@ const card: Card = {
 
 
 	description: {
-		en: "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
-		fr: "Quand ses yeux s'illuminent, il chante une mystérieuse berceuse."
+		'en-us': "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+		'fr-fr': "Quand ses yeux s'illuminent, il chante une mystérieuse berceuse."
 	},
 
 

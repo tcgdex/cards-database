@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Dragalge",
-		fr: "Kravarech",
+		'en-us': "Dragalge",
+		'fr-fr': "Kravarech",
 	},
 
 	illustrator: "5ban Graphics",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Skrelp",
-		fr: "Venalgue",
+		'en-us': "Skrelp",
+		'fr-fr': "Venalgue",
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Poison Barrier",
-				fr: "Barrière de Poison",
+				'en-us': "Poison Barrier",
+				'fr-fr': "Barrière de Poison",
 			},
 			effect: {
-				en: "Your opponent's Poisoned Pokémon can't retreat.",
-				fr: "Les Pokémon Empoisonnés de votre adversaire ne peuvent pas battre en retraite.",
+				'en-us': "Your opponent's Poisoned Pokémon can't retreat.",
+				'fr-fr': "Les Pokémon Empoisonnés de votre adversaire ne peuvent pas battre en retraite.",
 			},
 		},
 	],
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Breath",
-				fr: "Haleine Empoisonnée",
+				'en-us': "Poison Breath",
+				'fr-fr': "Haleine Empoisonnée",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 			},
 			damage: 60,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Their poison is strong enough to eat through the hull of a tanker, and they spit it indiscriminately at anything that enters their territory.",
+		'en-us': "Their poison is strong enough to eat through the hull of a tanker, and they spit it indiscriminately at anything that enters their territory.",
 	},
 
 	thirdParty: {

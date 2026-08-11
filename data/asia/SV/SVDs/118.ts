@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ลัคกี",
-		id: "Chansey"
+		'th-th': "ลัคกี",
+		'id-id': "Chansey"
 	},
 
 	illustrator: "sui",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "เดินอย่างระวังเพื่อไม่ให้ไข่ที่มีอยู่แตก แต่ตอนหนีจะหนีไวมาก",
-		id: "Chansey selalu berjalan dengan hati-hati agar telur yang dibawanya tidak pecah. Tapi, Pokémon ini melarikan diri dengan cepat."
+		'th-th': "เดินอย่างระวังเพื่อไม่ให้ไข่ที่มีอยู่แตก แต่ตอนหนีจะหนีไวมาก",
+		'id-id': "Chansey selalu berjalan dengan hati-hati agar telur yang dibawanya tidak pecah. Tapi, Pokémon ini melarikan diri dengan cepat."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ปัด",
-			id: "Tumbuk"
+			'th-th': "ปัด",
+			'id-id': "Tumbuk"
 		},
 
 		damage: 40,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			th: "กลิ้งไข่",
-			id: "Menggelindingkan Telur"
+			'th-th': "กลิ้งไข่",
+			'id-id': "Menggelindingkan Telur"
 		},
 
 		effect: {
-			th: "ทอยเหรียญจนกว่าจะออกก้อย แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x60",
-			id: "Lempar koin hingga hasilnya sisi belakang. Serangan ini memberikan kerusakan sejumlah 60 untuk tiap lemparan dengan hasil sisi depan."
+			'th-th': "ทอยเหรียญจนกว่าจะออกก้อย แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x60",
+			'id-id': "Lempar koin hingga hasilnya sisi belakang. Serangan ini memberikan kerusakan sejumlah 60 untuk tiap lemparan dengan hasil sisi depan."
 		},
 
 		damage: "60×",

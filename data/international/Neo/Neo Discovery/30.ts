@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Smeargle",
-		fr: "Queulorior",
-		de: "Farbeagle"
+		'en-us': "Smeargle",
+		'fr-fr': "Queulorior",
+		'de-de': "Farbeagle"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sketch",
-				fr: "Gribouille",
-				de: "Sketch"
+				'en-us': "Sketch",
+				'fr-fr': "Gribouille",
+				'de-de': "Sketch"
 			},
 			effect: {
-				en: "If the Defending Pokémon attacked last turn, and Smeargle was in play during that attack, Smeargle copies that attack except for its Energy costs and anything else required in order to use that attack.",
-				fr: "Si le Pokémon Défenseur a attaqué au tour précédent et si Queulorior était en jeu pendant cette attaque, Queulorior peut copier cette attaque excepté son coût en Énergie et les autres éléments nécessaires à cette attaque.",
-				de: "If the Defending Pokémon attack last turn, and Smeargle was in play during that attack, Smeargle copies that attack execpt fpr its Energy costs and anything else reguired in order to use that attack."
+				'en-us': "If the Defending Pokémon attacked last turn, and Smeargle was in play during that attack, Smeargle copies that attack except for its Energy costs and anything else required in order to use that attack.",
+				'fr-fr': "Si le Pokémon Défenseur a attaqué au tour précédent et si Queulorior était en jeu pendant cette attaque, Queulorior peut copier cette attaque excepté son coût en Énergie et les autres éléments nécessaires à cette attaque.",
+				'de-de': "If the Defending Pokémon attack last turn, and Smeargle was in play during that attack, Smeargle copies that attack execpt fpr its Energy costs and anything else reguired in order to use that attack."
 			},
 
 		},
@@ -62,8 +62,8 @@ const card: Card = {
 
 
 	description: {
-		en: "A special fluid oozes from the tip of its tail. It paints the fluid everywhere to mark its territory.",
-		fr: "Un liquide spécial recouvre l'extrémité de sa queue. Il l'utilise comme peinture pour marquer son territoire."
+		'en-us': "A special fluid oozes from the tip of its tail. It paints the fluid everywhere to mark its territory.",
+		'fr-fr': "Un liquide spécial recouvre l'extrémité de sa queue. Il l'utilise comme peinture pour marquer son territoire."
 	},
 
 

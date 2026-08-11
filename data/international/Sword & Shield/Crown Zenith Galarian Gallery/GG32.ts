@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith Galarian Gallery"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Paras",
-		fr: "Paras",
-		es: "Paras",
-		it: "Paras",
-		pt: "Paras",
-		de: "Paras"
+		'en-us': "Paras",
+		'fr-fr': "Paras",
+		'es-es': "Paras",
+		'it-it': "Paras",
+		'pt-br': "Paras",
+		'de-de': "Paras"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Absorb",
-			fr: "Vole-Vie",
-			es: "Absorber",
-			it: "Assorbimento",
-			pt: "Absorção",
-			de: "Absorber"
+			'en-us': "Absorb",
+			'fr-fr': "Vole-Vie",
+			'es-es': "Absorber",
+			'it-it': "Assorbimento",
+			'pt-br': "Absorção",
+			'de-de': "Absorber"
 		},
 
 		effect: {
-			en: "Heal 10 damage from this Pokémon.",
-			fr: "Soignez 10 dégâts de ce Pokémon.",
-			es: "Cura 10 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 10 danni.",
-			pt: "Cure 10 pontos de dano deste Pokémon.",
-			de: "Heile 10 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 10 damage from this Pokémon.",
+			'fr-fr': "Soignez 10 dégâts de ce Pokémon.",
+			'es-es': "Cura 10 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 10 danni.",
+			'pt-br': "Cure 10 pontos de dano deste Pokémon.",
+			'de-de': "Heile 10 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 20
@@ -56,7 +56,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The mushrooms, known as tochukaso, are controlling the bug. Even if the bug bugs the mushrooms, they tell it to bug off.",
+		'en-us': "The mushrooms, known as tochukaso, are controlling the bug. Even if the bug bugs the mushrooms, they tell it to bug off.",
 	},
 
 	

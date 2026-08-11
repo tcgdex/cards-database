@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Nuzleaf",
-		fr: "Pifeuil",
-		de: "Blanas"
+		'en-us': "Nuzleaf",
+		'fr-fr': "Pifeuil",
+		'de-de': "Blanas"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Seedot",
-		fr: "Grainipiot"
+		'en-us': "Seedot",
+		'fr-fr': "Grainipiot"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steady Punch",
-				fr: "Poing énergétique",
-				de: "Steady Punch"
+				'en-us': "Steady Punch",
+				'fr-fr': "Poing énergétique",
+				'de-de': "Steady Punch"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts.",
-				de: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts.",
+				'de-de': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
 			},
 			damage: "20+",
 
@@ -54,9 +54,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'herbe",
-				de: "Razor Leaf"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'herbe",
+				'de-de': "Razor Leaf"
 			},
 
 			damage: 40,

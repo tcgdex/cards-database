@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charmander",
-		fr: "Salamèche",
-		es: "Charmander",
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche",
+		'es-es': "Charmander",
 		'es-mx': "Charmander",
-		de: "Glumanda",
-		it: "Charmander",
-		pt: "Charmander"
+		'de-de': "Glumanda",
+		'it-it': "Charmander",
+		'pt-br': "Charmander"
 	},
 
 	illustrator: "Orca",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Fire Claws",
-			fr: "Griffes Enflammées",
-			es: "Garras de Fuego",
+			'en-us': "Fire Claws",
+			'fr-fr': "Griffes Enflammées",
+			'es-es': "Garras de Fuego",
 			'es-mx': "Garras de Fuego",
-			de: "Feuerkrallen",
-			it: "Artigli Infuocati",
-			pt: "Garras de Fogo"
+			'de-de': "Feuerkrallen",
+			'it-it': "Artigli Infuocati",
+			'pt-br': "Garras de Fogo"
 		},
 
 		damage: 30
@@ -48,7 +48,7 @@ const card: Card = {
 	regulationMark: "J",
 
 	description: {
-		en: "The flame on its tail indicates Charmander’s life force. If it is healthy, the flame burns brightly.",
+		'en-us': "The flame on its tail indicates Charmander’s life force. If it is healthy, the flame burns brightly.",
 	},
 
 	variants: [

@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [600],
 
 	name: {
-		en: "Klang",
-		fr: "Clic",
-		es: "Klang",
-		it: "Klang",
-		pt: "Klang",
-		de: "Kliklak"
+		'en-us': "Klang",
+		'fr-fr': "Clic",
+		'es-es': "Klang",
+		'it-it': "Klang",
+		'pt-br': "Klang",
+		'de-de': "Kliklak"
 	},
 
 	illustrator: "NC Empire",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Klink",
-		fr: "Tic",
-		es: "Klink",
-		it: "Klink",
-		pt: "Klink",
-		de: "Klikk"
+		'en-us': "Klink",
+		'fr-fr': "Tic",
+		'es-es': "Klink",
+		'it-it': "Klink",
+		'pt-br': "Klink",
+		'de-de': "Klikk"
 	},
 
 	attacks: [
@@ -38,20 +38,20 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Call for Backup",
-				fr: "Renforts",
-				es: "Pedir Refuerzos",
-				it: "Rinforzi",
-				pt: "Chamar Reforço",
-				de: "Back-up"
+				'en-us': "Call for Backup",
+				'fr-fr': "Renforts",
+				'es-es': "Pedir Refuerzos",
+				'it-it': "Rinforzi",
+				'pt-br': "Chamar Reforço",
+				'de-de': "Back-up"
 			},
 			effect: {
-				en: "Search your deck for a Metal Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
-				fr: "Cherchez dans votre deck un Pokémon Metal, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja 1 Pokémon Metal, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
-				it: "Cerca nel tuo mazzo un Pokémon Metal, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure por 1 Pokémon Metal no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach 1 Metal-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+				'en-us': "Search your deck for a Metal Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+				'fr-fr': "Cherchez dans votre deck un Pokémon Metal, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja 1 Pokémon Metal, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo un Pokémon Metal, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por 1 Pokémon Metal no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach 1 Metal-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spinning Attack",
-				fr: "Attaque Tournante",
-				es: "Ataque Giratorio",
-				it: "Attacco Rotante",
-				pt: "Ataque Giratório",
-				de: "Rundumangriff"
+				'en-us': "Spinning Attack",
+				'fr-fr': "Attaque Tournante",
+				'es-es': "Ataque Giratorio",
+				'it-it': "Attacco Rotante",
+				'pt-br': "Ataque Giratório",
+				'de-de': "Rundumangriff"
 			},
 
 			damage: 60,
@@ -96,7 +96,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "When Klang goes all out, the minigear links up perfectly with the outer part of the big gear, and this Pokémon's rotation speed increases sharply."
+		'en-us': "When Klang goes all out, the minigear links up perfectly with the outer part of the big gear, and this Pokémon's rotation speed increases sharply."
 	},
 
 	variants: [

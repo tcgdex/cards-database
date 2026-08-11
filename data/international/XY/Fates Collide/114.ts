@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Double Colorless Energy",
-		fr: "Double Énergie Incolore",
-		es: "Doble Energía Incolora",
-		it: "Energia Incolore doppia",
-		pt: "Energia Incolor Dupla",
-		de: "Doppel-Farblos-Energie"
+		'en-us': "Double Colorless Energy",
+		'fr-fr': "Double Énergie Incolore",
+		'es-es': "Doble Energía Incolora",
+		'it-it': "Energia Incolore doppia",
+		'pt-br': "Energia Incolor Dupla",
+		'de-de': "Doppel-Farblos-Energie"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,12 +17,12 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Double Énergie Incolore fournit de l'Énergie ColorlessColorless.",
-		en: "Double Colorless Energy provides ColorlessColorless Energy.",
-		es: "Doble Energía Incolora proporciona Energía ColorlessColorless.",
-		it: "Un'Energia Incolore doppia fornisce ColorlessColorless.",
-		pt: "A Energia Incolor Dupla fornece Energias ColorlessColorless.",
-		de: "Doppel-Farblos-Energie liefert ColorlessColorless-Energie."
+		'fr-fr': "Double Énergie Incolore fournit de l'Énergie ColorlessColorless.",
+		'en-us': "Double Colorless Energy provides ColorlessColorless Energy.",
+		'es-es': "Doble Energía Incolora proporciona Energía ColorlessColorless.",
+		'it-it': "Un'Energia Incolore doppia fornisce ColorlessColorless.",
+		'pt-br': "A Energia Incolor Dupla fornece Energias ColorlessColorless.",
+		'de-de': "Doppel-Farblos-Energie liefert ColorlessColorless-Energie."
 	},
 
 	energyType: "Special",

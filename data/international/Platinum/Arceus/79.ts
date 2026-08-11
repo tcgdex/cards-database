@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Treecko",
-		de: "Geckarbor"
+		'en-us': "Treecko",
+		'de-de': "Geckarbor"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				de: "Pfund"
+				'en-us': "Pound",
+				'de-de': "Pfund"
 			},
 
 			damage: 10,
@@ -41,8 +41,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 20,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The soles of its feet are covered by countless tiny spikes, enabling it to walk on walls and ceilings."
+		'en-us': "The soles of its feet are covered by countless tiny spikes, enabling it to walk on walls and ceilings."
 	},
 
 	variants: [

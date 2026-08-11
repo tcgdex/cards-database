@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Miltank"
+		'en-us': "Miltank"
 	},
 
 	illustrator: "saino misaki",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "This Pokémon needs to be milked every day,\nor else it will fall ill. The flavor of Miltank milk\nchanges with the seasons."
+		'en-us': "This Pokémon needs to be milked every day,\nor else it will fall ill. The flavor of Miltank milk\nchanges with the seasons."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Body Slam"
+			'en-us': "Body Slam"
 		},
 
 		damage: 40,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
 		}
 	}],
 

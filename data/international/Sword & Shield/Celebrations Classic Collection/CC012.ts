@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celebrations Classic Collection'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rocket's Admin.",
-		fr: "Admin Rocket"
+		'en-us': "Rocket's Admin.",
+		'fr-fr': "Admin Rocket"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -14,8 +14,8 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Each player shuffles his or her hand into his or her deck. Then, each player counts his or her Prize cards left and draws up to that many cards. (You draw your cards first.)",
-		fr: "Chaque joueur mélange sa main avec son deck. Ensuite, chaque joueur compte ses cartes Récompenses restantes et pioche au maximum ce même nombre de cartes. (Vous piochez vos cartes en premier.)",
+		'en-us': "Each player shuffles his or her hand into his or her deck. Then, each player counts his or her Prize cards left and draws up to that many cards. (You draw your cards first.)",
+		'fr-fr': "Chaque joueur mélange sa main avec son deck. Ensuite, chaque joueur compte ses cartes Récompenses restantes et pioche au maximum ce même nombre de cartes. (Vous piochez vos cartes en premier.)",
 	},
 
 	trainerType: "Supporter",

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Drapion",
-		fr: "Drascore",
-		es: "Drapion",
-		it: "Drapion",
-		pt: "Drapion",
-		de: "Piondragi"
+		'en-us': "Drapion",
+		'fr-fr': "Drascore",
+		'es-es': "Drapion",
+		'it-it': "Drapion",
+		'pt-br': "Drapion",
+		'de-de': "Piondragi"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Skorupi",
-		fr: "Rapion",
-		es: "Skorupi",
-		it: "Skorupi",
-		pt: "Skorupi",
-		de: "Pionskora"
+		'en-us': "Skorupi",
+		'fr-fr': "Rapion",
+		'es-es': "Skorupi",
+		'it-it': "Skorupi",
+		'pt-br': "Skorupi",
+		'de-de': "Pionskora"
 	},
 
 	stage: "Stage1",
@@ -45,20 +45,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Claws",
-				fr: "Griffes Empoisonnées",
-				es: "Garras Venenosas",
-				it: "Velenartigli",
-				pt: "Garras Venenosas",
-				de: "Giftkrallen"
+				'en-us': "Poison Claws",
+				'fr-fr': "Griffes Empoisonnées",
+				'es-es': "Garras Venenosas",
+				'it-it': "Velenartigli",
+				'pt-br': "Garras Venenosas",
+				'de-de': "Giftkrallen"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+				'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 			damage: 70,
 
@@ -71,12 +71,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heavy Impact",
-				fr: "Gros Impact",
-				es: "Impacto Pesado",
-				it: "Impatto Pesante",
-				pt: "Impacto Pesado",
-				de: "Schwerer Einschlag"
+				'en-us': "Heavy Impact",
+				'fr-fr': "Gros Impact",
+				'es-es': "Impacto Pesado",
+				'it-it': "Impatto Pesante",
+				'pt-br': "Impacto Pesado",
+				'de-de': "Schwerer Einschlag"
 			},
 
 			damage: 130,
@@ -94,7 +94,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It has the power in its clawed arms to make scrap of a car. The tips of its claws release poison.",
+		'en-us': "It has the power in its clawed arms to make scrap of a car. The tips of its claws release poison.",
 	},
 
 	thirdParty: {

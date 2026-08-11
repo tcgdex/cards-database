@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Electrike",
-		fr: "Dynavolt",
-		es: "Electrike",
-		it: "Electrike",
-		pt: "Electrike",
-		de: "Frizelbliz"
+		'en-us': "Electrike",
+		'fr-fr': "Dynavolt",
+		'es-es': "Electrike",
+		'it-it': "Electrike",
+		'pt-br': "Electrike",
+		'de-de': "Frizelbliz"
 	},
 
 	illustrator: "Akira Komayama",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 10,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches.",
+		'en-us': "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches.",
 	},
 
 	thirdParty: {

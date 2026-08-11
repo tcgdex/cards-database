@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "砂利",
+		'ja-jp': "砂利",
 	},
 
 	rarity: "Uncommon",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "ロックハール",
+				'ja-jp': "ロックハール",
 			},
 			effect: {
-				ja: "抵抗を適用しないでください。",
+				'ja-jp': "抵抗を適用しないでください。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
-				ja: "ロックスライド",
+				'ja-jp': "ロックスライド",
 			},
 			effect: {
-				ja: "対戦相手のベンチ付きポケモンの2つを選択します（1つしかない場合は1）。この攻撃は、それらのポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱や抵抗を適用しないでください。）",
+				'ja-jp': "対戦相手のベンチ付きポケモンの2つを選択します（1つしかない場合は1）。この攻撃は、それらのポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱や抵抗を適用しないでください。）",
 			},
 			damage: 30,
 		},

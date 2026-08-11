@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニャスパー",
+		'ja-jp': "ニャスパー",
 	},
 
 	illustrator: "Natsumi Yoshida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "無表情だが 内面では サイコパワーを 抑えこむのに 必死に なっているのだ。",
+		'ja-jp': "無表情だが 内面では サイコパワーを 抑えこむのに 必死に なっているのだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "みすかす" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手の手札を見る。",
+				'ja-jp': "相手の手札を見る。",
 			},
 		},
 		{

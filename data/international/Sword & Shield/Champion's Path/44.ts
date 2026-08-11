@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [686],
 
 	name: {
-		en: "Inkay",
-		fr: "Sepiatop",
-		es: "Inkay",
-		it: "Inkay",
-		pt: "Inkay",
-		de: "Iscalar"
+		'en-us': "Inkay",
+		'fr-fr': "Sepiatop",
+		'es-es': "Inkay",
+		'it-it': "Inkay",
+		'pt-br': "Inkay",
+		'de-de': "Iscalar"
 	},
 
 	illustrator: "sui",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -46,20 +46,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Attack from Behind",
-				fr: "Attaque Traîtresse",
-				es: "Ataque por Detrás",
-				it: "Attacco alle Spalle",
-				pt: "Ataque por Trás",
-				de: "Hinterhältiger Angriff"
+				'en-us': "Attack from Behind",
+				'fr-fr': "Attaque Traîtresse",
+				'es-es': "Ataque por Detrás",
+				'it-it': "Attacco alle Spalle",
+				'pt-br': "Ataque por Trás",
+				'de-de': "Hinterhältiger Angriff"
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is Confused, this attack does 50 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire est Confus, cette attaque inflige 50 dégâts supplémentaires.",
-				es: "Si el Pokémon Activo de tu rival está Confundido, este ataque hace 50 puntos de daño más.",
-				it: "Se il Pokémon attivo del tuo avversario è confuso, questo attacco infligge 50 danni in più.",
-				pt: "Se o Pokémon Ativo do seu oponente estiver Confuso, este ataque causará 50 pontos de dano a mais.",
-				de: "Wenn das Aktive Pokémon deines Gegners verwirrt ist, fügt diese Attacke 50 Schadenspunkte mehr zu."
+				'en-us': "If your opponent's Active Pokémon is Confused, this attack does 50 more damage.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est Confus, cette attaque inflige 50 dégâts supplémentaires.",
+				'es-es': "Si el Pokémon Activo de tu rival está Confundido, este ataque hace 50 puntos de daño más.",
+				'it-it': "Se il Pokémon attivo del tuo avversario è confuso, questo attacco infligge 50 danni in più.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente estiver Confuso, este ataque causará 50 pontos de dano a mais.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners verwirrt ist, fügt diese Attacke 50 Schadenspunkte mehr zu."
 			},
 			damage: "20+",
 
@@ -86,7 +86,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It spins while making its luminescent spots flash. These spots allow it to communicate with others by using different patterns of light."
+		'en-us': "It spins while making its luminescent spots flash. These spots allow it to communicate with others by using different patterns of light."
 	},
 
 	thirdParty: {

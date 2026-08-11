@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トゲキッス",
+		'ja-jp': "トゲキッス",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "争いのない 平和な 土地に トゲキッスは 訪れ さまざまな 恵みを 分け与えると 言われる。",
+		'ja-jp': "争いのない 平和な 土地に トゲキッスは 訪れ さまざまな 恵みを 分け与えると 言われる。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ようせいのうたげ" },
 			effect: {
-				ja: "自分の番に1回使える。自分の[妖]ポケモン全員のHPを、それぞれ「30」回復する。",
+				'ja-jp': "自分の番に1回使える。自分の[妖]ポケモン全員のHPを、それぞれ「30」回復する。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "トゲチック",
+		'ja-jp': "トゲチック",
 	},
 
 	retreat: 1,

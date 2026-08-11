@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Surskit",
-		fr: "Arakdo",
-		es: "Surskit",
-		it: "Surskit",
-		pt: "Surskit",
-		de: "Gehweiher"
+		'en-us': "Surskit",
+		'fr-fr': "Arakdo",
+		'es-es': "Surskit",
+		'it-it': "Surskit",
+		'pt-br': "Surskit",
+		'de-de': "Gehweiher"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sweet Scent",
-				fr: "Doux Parfum",
+				'en-us': "Sweet Scent",
+				'fr-fr': "Doux Parfum",
 			},
 			effect: {
-				en: "Heal 20 damage from 1 of your Pokémon.",
-				fr: "Soignez 20 dégâts à 1 de vos Pokémon.",
+				'en-us': "Heal 20 damage from 1 of your Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à 1 de vos Pokémon.",
 			},
 
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.",
+		'en-us': "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.",
 	},
 
 	thirdParty: {

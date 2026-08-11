@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Wimpod",
-		fr: "Sovkipou",
+		'en-us': "Wimpod",
+		'fr-fr': "Sovkipou",
 	},
 	illustrator: "SATOSHI NAKAI",
 	rarity: "Shiny rare",
@@ -25,12 +25,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Wimp Out",
-				fr: "Escampette",
+				'en-us': "Wimp Out",
+				'fr-fr': "Escampette",
 			},
 			effect: {
-				en: "During your first turn, this Pokémon has no Retreat Cost.",
-				fr: "Pendant votre premier tour, ce Pokémon n’a pas de Coût de Retraite.",
+				'en-us': "During your first turn, this Pokémon has no Retreat Cost.",
+				'fr-fr': "Pendant votre premier tour, ce Pokémon n’a pas de Coût de Retraite.",
 			},
 		},
 	],
@@ -42,8 +42,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Ronge",
+				'en-us': "Gnaw",
+				'fr-fr': "Ronge",
 			},
 
 			damage: 30,
@@ -63,7 +63,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon is a coward. As it desperately dashes off, the flailing of its many legs leaves a sparkling clean path in its wake.",
+		'en-us': "This Pokémon is a coward. As it desperately dashes off, the flailing of its many legs leaves a sparkling clean path in its wake.",
 	},
 }
 

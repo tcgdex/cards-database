@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユンゲラー",
+		'ja-jp': "ユンゲラー",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Psychic"],
 			name: {
-				ja: "回復する",
+				'ja-jp': "回復する",
 			},
 			effect: {
-				ja: "Kadabraに取り付けられた1つのサイキックエネルギーカードを捨てたり、この攻撃は何もしません。 Kadabraからすべてのダメージカウンターを削除します。",
+				'ja-jp': "Kadabraに取り付けられた1つのサイキックエネルギーカードを捨てたり、この攻撃は何もしません。 Kadabraからすべてのダメージカウンターを削除します。",
 			},
 
 		},
 		{
 			cost: ["Psychic", "Psychic", "Colorless"],
 			name: {
-				ja: "Super Psy",
+				'ja-jp': "Super Psy",
 			},
 			damage: 50,
 		},

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Swirlix"
+		'id-id': "Swirlix"
 	},
 
 	illustrator: "Akira Komayama",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Dalam sehari, Swirlix memakan gula seberat berat badannya. Jika kekurangan gula, Pokémon ini akan menjadi sangat cemberut."
+		'id-id': "Dalam sehari, Swirlix memakan gula seberat berat badannya. Jika kekurangan gula, Pokémon ini akan menjadi sangat cemberut."
 	},
 
 	stage: "Basic",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Orkes Festival"
+			'id-id': "Orkes Festival"
 		},
 
 		effect: {
-			id: "Jika ada Lokasi Festival di Arena, Pokémon ini dapat menggunakan serangan yang dimiliki 2 kali berturut-turut. (Jika Pokémon Bertarung lawan KO akibat serangan pertama, gunakan serangan kedua setelah Pokémon Bertarung berikutnya masuk.)"
+			'id-id': "Jika ada Lokasi Festival di Arena, Pokémon ini dapat menggunakan serangan yang dimiliki 2 kali berturut-turut. (Jika Pokémon Bertarung lawan KO akibat serangan pertama, gunakan serangan kedua setelah Pokémon Bertarung berikutnya masuk.)"
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Letakkan Diam-diam"
+			'id-id': "Letakkan Diam-diam"
 		},
 
 		effect: {
-			id: "Letakkan 2 Token Kerusakan pada 1 Pokémon lawan."
+			'id-id': "Letakkan 2 Token Kerusakan pada 1 Pokémon lawan."
 		},
 
 		cost: ["Psychic"]

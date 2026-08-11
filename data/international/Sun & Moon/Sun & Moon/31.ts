@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Poliwhirl",
-		fr: "Têtarte",
-		es: "Poliwhirl",
-		it: "Poliwhirl",
-		pt: "Poliwhirl",
-		de: "Quaputzi"
+		'en-us': "Poliwhirl",
+		'fr-fr': "Têtarte",
+		'es-es': "Poliwhirl",
+		'it-it': "Poliwhirl",
+		'pt-br': "Poliwhirl",
+		'de-de': "Quaputzi"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Poliwag",
-		fr: "Ptitard",
+		'en-us': "Poliwag",
+		'fr-fr': "Ptitard",
 	},
 
 	stage: "Stage1",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Slap",
-				fr: "Torgnoles",
-				es: "Doble Bofetón",
-				it: "Doppiasberla",
-				pt: "Tapa Duplo",
-				de: "Duplexhieb"
+				'en-us': "Double Slap",
+				'fr-fr': "Torgnoles",
+				'es-es': "Doble Bofetón",
+				'it-it': "Doppiasberla",
+				'pt-br': "Tapa Duplo",
+				'de-de': "Duplexhieb"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
-				es: "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
-				it: "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
-				pt: "Jogue 2 moedas. Este ataque causa 30 pontos de dano para cada cara.",
-				de: "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
+				'en-us': "Flip 2 coins. This attack does 30 damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
+				'it-it': "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 2 moedas. Este ataque causa 30 pontos de dano para cada cara.",
+				'de-de': "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
 			},
 			damage: "30×",
 
@@ -65,12 +65,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse Vague",
-				es: "Chapoteo Ondulante",
-				it: "Schizzi d’Onda",
-				pt: "Onda Borrifante",
-				de: "Wellenplatscher"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse Vague",
+				'es-es': "Chapoteo Ondulante",
+				'it-it': "Schizzi d’Onda",
+				'pt-br': "Onda Borrifante",
+				'de-de': "Wellenplatscher"
 			},
 
 			damage: 60,
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It marches over the land in search of bug Pokémon to eat. Then it takes them underwater so it can dine on them where it's safe.",
+		'en-us': "It marches over the land in search of bug Pokémon to eat. Then it takes them underwater so it can dine on them where it's safe.",
 	},
 
 	thirdParty: {

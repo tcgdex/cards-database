@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Klink",
-		fr: "Tic",
-		es: "Klink",
-		it: "Klink",
-		pt: "Klink",
-		de: "Klikk"
+		'en-us': "Klink",
+		'fr-fr': "Tic",
+		'es-es': "Klink",
+		'it-it': "Klink",
+		'pt-br': "Klink",
+		'de-de': "Klikk"
 	},
 
 	illustrator: "Akira Komayama",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rigidify",
-				fr: "Solidification",
+				'en-us': "Rigidify",
+				'fr-fr': "Solidification",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'en-us': "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vice Grip",
-				fr: "Force Poigne",
+				'en-us': "Vice Grip",
+				'fr-fr': "Force Poigne",
 			},
 
 			damage: 20,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Two bodies comprise a fixed pair. They spin around each other to generate energy.",
+		'en-us': "Two bodies comprise a fixed pair. They spin around each other to generate energy.",
 	},
 
 	thirdParty: {

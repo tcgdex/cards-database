@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スコルピ",
+		'ja-jp': "スコルピ",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "砂の 中に 隠れて 獲物を 待ち伏せする。 尻尾の ツメから 毒を 出して 獲物を しとめる。",
+		'ja-jp': "砂の 中に 隠れて 獲物を 待ち伏せする。 尻尾の ツメから 毒を 出して 獲物を しとめる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "つめとぎ" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "次の自分の番、このポケモンの「つきさす」のダメージは「90」になる。",
+				'ja-jp': "次の自分の番、このポケモンの「つきさす」のダメージは「90」になる。",
 			},
 		},
 		{

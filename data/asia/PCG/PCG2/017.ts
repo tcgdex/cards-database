@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "numel",
+		'ja-jp': "numel",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "密集",
+				'ja-jp': "密集",
 			},
 			effect: {
-				ja: "進化したポカモン（あなたと相手の両方）からの攻撃によってnumelに与えられた損害は20（脱力感と抵抗を適用した後）に20減少します。",
+				'ja-jp': "進化したポカモン（あなたと相手の両方）からの攻撃によってnumelに与えられた損害は20（脱力感と抵抗を適用した後）に20減少します。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ラム",
+				'ja-jp': "ラム",
 			},
 			damage: 10,
 		},

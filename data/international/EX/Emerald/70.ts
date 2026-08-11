@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Treecko",
-		fr: "Arcko",
-		de: "Geckarbor"
+		'en-us': "Treecko",
+		'fr-fr': "Arcko",
+		'de-de': "Geckarbor"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Tail Smash",
-				fr: "Éclate-queue",
-				de: "Tail Smash"
+				'en-us': "Tail Smash",
+				'fr-fr': "Éclate-queue",
+				'de-de': "Tail Smash"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Flip a coin. If tails, this attack does nothing."
 			},
 			damage: 10,
 

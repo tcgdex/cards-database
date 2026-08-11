@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "メェークル",
+		'ja-jp': "メェークル",
 		'zh-tw': "坐騎小羊",
-		th: "เมเคิล",
-		id: "Skiddo"
+		'th-th': "เมเคิล",
+		'id-id': "Skiddo"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "最近まで 山岳で 暮らす 人たちは メェークルの 背中に 乗って 山道を 移動していた。",
+		'ja-jp': "最近まで 山岳で 暮らす 人たちは メェークルの 背中に 乗って 山道を 移動していた。",
 		'zh-tw': "一直到最近為止，都還有山岳的住民乘在坐騎小羊 的背上，在山路上移動。",
-		th: "ผู้คนที่อาศัยบนภูเขาจะขี่หลังเมเคิลเพื่อเดินทางตามทางบนเขาจนถึงเมื่อไม่นานมานี้",
-		id: "Hingga dewasa ini, orang-orang yang hidup di pegunungan menunggangi punggung Skiddo dan menelusuri jalan gunung."
+		'th-th': "ผู้คนที่อาศัยบนภูเขาจะขี่หลังเมเคิลเพื่อเดินทางตามทางบนเขาจนถึงเมื่อไม่นานมานี้",
+		'id-id': "Hingga dewasa ini, orang-orang yang hidup di pegunungan menunggangi punggung Skiddo dan menelusuri jalan gunung."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "つるのムチ",
+			'ja-jp': "つるのムチ",
 			'zh-tw': "藤鞭",
-			th: "แส้เถาวัลย์",
-			id: "Cambuk Jalar"
+			'th-th': "แส้เถาวัลย์",
+			'id-id': "Cambuk Jalar"
 		},
 
 		damage: 10
@@ -42,10 +42,10 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "けとばす",
+			'ja-jp': "けとばす",
 			'zh-tw': "踢飛",
-			th: "ดีด",
-			id: "Tendangan Penghempas"
+			'th-th': "ดีด",
+			'id-id': "Tendangan Penghempas"
 		},
 
 		damage: 20

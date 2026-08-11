@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Salamèche",
-		en: "Charmander",
-		es: "Charmander",
-		it: "Charmander",
-		pt: "Charmander",
-		de: "Glumanda"
+		'fr-fr': "Salamèche",
+		'en-us': "Charmander",
+		'es-es': "Charmander",
+		'it-it': "Charmander",
+		'pt-br': "Charmander",
+		'de-de': "Glumanda"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			fr: "Charge Énergétique",
-			en: "Heat Tackle",
-			es: "Placaje Ardiente",
-			it: "Calorazione",
-			pt: "Golpe de Colisão Aquecido",
-			de: "Hitze-Tackle"
+			'fr-fr': "Charge Énergétique",
+			'en-us': "Heat Tackle",
+			'es-es': "Placaje Ardiente",
+			'it-it': "Calorazione",
+			'pt-br': "Golpe de Colisão Aquecido",
+			'de-de': "Hitze-Tackle"
 		},
 
 		effect: {
-			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
-			en: "This Pokémon also does 10 damage to itself.",
-			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
+			'fr-fr': "Ce Pokémon s'inflige aussi 10 dégâts.",
+			'en-us': "This Pokémon also does 10 damage to itself.",
+			'es-es': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 10 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
 		},
 
 		damage: 30
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
+		'en-us': "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
 	},
 
 	variants: [

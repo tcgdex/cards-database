@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Corphish",
-		fr: "Écrapince",
-		es: "Corphish",
-		it: "Corphish",
-		pt: "Corphish",
-		de: "Krebscorps"
+		'en-us': "Corphish",
+		'fr-fr': "Écrapince",
+		'es-es': "Corphish",
+		'it-it': "Corphish",
+		'pt-br': "Corphish",
+		'de-de': "Krebscorps"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			en: "Vise Grip",
-			fr: "Force Poigne",
-			es: "Agarre",
-			it: "Presa",
-			pt: "Agarramento Compressor",
-			de: "Klammer"
+			'en-us': "Vise Grip",
+			'fr-fr': "Force Poigne",
+			'es-es': "Agarre",
+			'it-it': "Presa",
+			'pt-br': "Agarramento Compressor",
+			'de-de': "Klammer"
 		},
 
 		damage: 60
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It can live in impure water, where it doesn't need to compete with other water Pokémon for food, so its numbers have steadily increased.",
+		'en-us': "It can live in impure water, where it doesn't need to compete with other water Pokémon for food, so its numbers have steadily increased.",
 	},
 
 	variants: [

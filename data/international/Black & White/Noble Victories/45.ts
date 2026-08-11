@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Yamask",
-		fr: "Tutafeh",
-		es: "Yamask",
-		it: "Yamask",
-		pt: "Yamask",
-		de: "Makabaja"
+		'en-us': "Yamask",
+		'fr-fr': "Tutafeh",
+		'es-es': "Yamask",
+		'it-it': "Yamask",
+		'pt-br': "Yamask",
+		'de-de': "Makabaja"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ambush",
-				fr: "Embuscade",
+				'en-us': "Ambush",
+				'fr-fr': "Embuscade",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "These Pokémon arose from the spirits of people interred in graves in past ages. Each retains memories of its former life.",
+		'en-us': "These Pokémon arose from the spirits of people interred in graves in past ages. Each retains memories of its former life.",
 	},
 
 	thirdParty: {

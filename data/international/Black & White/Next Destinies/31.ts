@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Vanillite",
-		fr: "Sorbébé",
-		es: "Vanillite",
-		it: "Vanillite",
-		pt: "Vanillite",
-		de: "Gelatini"
+		'en-us': "Vanillite",
+		'fr-fr': "Sorbébé",
+		'es-es': "Vanillite",
+		'it-it': "Vanillite",
+		'pt-br': "Vanillite",
+		'de-de': "Gelatini"
 	},
 
 	illustrator: "Kanako Eo",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beat",
-				fr: "Bataille",
+				'en-us': "Beat",
+				'fr-fr': "Bataille",
 			},
 
 			damage: 10,
@@ -47,8 +47,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Icy Snow",
-				fr: "Verglas",
+				'en-us': "Icy Snow",
+				'fr-fr': "Verglas",
 			},
 
 			damage: 20,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The temperature of their breath is -58° F. They create snow crystals and make snow fall in the areas around them.",
+		'en-us': "The temperature of their breath is -58° F. They create snow crystals and make snow fall in the areas around them.",
 	},
 
 	thirdParty: {

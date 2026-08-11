@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rockruff",
-		fr: "Rocabot",
-		es: "Rockruff",
-		it: "Rockruff",
-		pt: "Rockruff",
-		de: "Wuffels"
+		'en-us': "Rockruff",
+		'fr-fr': "Rocabot",
+		'es-es': "Rockruff",
+		'it-it': "Rockruff",
+		'pt-br': "Rockruff",
+		'de-de': "Wuffels"
 	},
 
 	illustrator: "OKACHEKE",
@@ -25,32 +25,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Invite Out",
-			fr: "Invitation à Sortir",
-			es: "Invitar a Salir",
-			it: "Vienifuori",
-			pt: "Vem Jogar",
-			de: "Ausführen"
+			'en-us': "Invite Out",
+			'fr-fr': "Invitation à Sortir",
+			'es-es': "Invitar a Salir",
+			'it-it': "Vienifuori",
+			'pt-br': "Vem Jogar",
+			'de-de': "Ausführen"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
-			fr: "Lancez une pièce. Si c'est face, échangez l'un des Pokémon de Banc de votre adversaire contre son Pokémon Actif.",
-			es: "Lanza 1 moneda. Si sale cara, cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
-			it: "Lancia una moneta. Se esce testa, scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
-			pt: "Jogue 1 moeda. Se sair cara, troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
-			de: "Wirf 1 Münze. Tausche bei Kopf 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
+			'en-us': "Flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
+			'fr-fr': "Lancez une pièce. Si c'est face, échangez l'un des Pokémon de Banc de votre adversaire contre son Pokémon Actif.",
+			'es-es': "Lanza 1 moneda. Si sale cara, cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
+			'it-it': "Lancia una moneta. Se esce testa, scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
+			'de-de': "Wirf 1 Münze. Tausche bei Kopf 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
 		}
 	}, {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Smash Kick",
-			fr: "Coud'Pattes",
-			es: "Patada Destrucción",
-			it: "Calcio Esplosivo",
-			pt: "Chute Poderoso",
-			de: "Schmetterkick"
+			'en-us': "Smash Kick",
+			'fr-fr': "Coud'Pattes",
+			'es-es': "Patada Destrucción",
+			'it-it': "Calcio Esplosivo",
+			'pt-br': "Chute Poderoso",
+			'de-de': "Schmetterkick"
 		},
 
 		damage: 20
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon can bond very strongly with its Trainer, but it also has a habit of biting. Raising a Rockruff for a long time can be challenging.",
+		'en-us': "This Pokémon can bond very strongly with its Trainer, but it also has a habit of biting. Raising a Rockruff for a long time can be challenging.",
 	},
 
 	

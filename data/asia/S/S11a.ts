@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../S'
 
 const set: Set = {
 	id: 'S11a',
 
 	name: {
-		ja: '白熱のアルカナ',
-		ko: '백열의 아르카나',
+		'ja-jp': '白熱のアルカナ',
+		'ko-kr': '백열의 아르카나',
 		'zh-tw': '白熱奧祕',
-		id: 'Arkana Memuncak',
-		th: 'อาร์คานาแห่งประกายแสง'
+		'id-id': 'Arkana Memuncak',
+		'th-th': 'อาร์คานาแห่งประกายแสง'
 	},
 
 	serie: serie,
@@ -19,11 +19,11 @@ const set: Set = {
 	},
 
 	releaseDate: {
-		ja: '2022-09-02',
-		ko: '2022-09-02',
+		'ja-jp': '2022-09-02',
+		'ko-kr': '2022-09-02',
 		'zh-tw': '2022-09-16',
-		id: '2022-10-28',
-		th: '2022-09-30'
+		'id-id': '2022-10-28',
+		'th-th': '2022-09-30'
 	},
 
 	thirdParty: {

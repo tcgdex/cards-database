@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タイレーツ",
+		'ja-jp': "タイレーツ",
 		'zh-tw': "列陣兵",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "６匹で １匹の ポケモン。 隊列を 組み替えながら チームワークで 戦うのだ。",
+		'ja-jp': "６匹で １匹の ポケモン。 隊列を 組み替えながら チームワークで 戦うのだ。",
 		'zh-tw': "６隻為一體的寶可夢。慣於團隊行動，會一邊 變換陣形一邊戰鬥。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "れんげきのじん",
+				'ja-jp': "れんげきのじん",
 				'zh-tw': "連擊之陣",
 			},
 			damage: "20×",
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "自分の場の「れんげき」のポケモンの数×20ダメージ。",
+				'ja-jp': "自分の場の「れんげき」のポケモンの数×20ダメージ。",
 				'zh-tw': "造成自己的場上「連擊」寶可夢的數量×20點傷害。",
 			},
 		},

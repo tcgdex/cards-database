@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It keeps its intense psychic power from leaking out by using its ears to cover the organs emitting that power.",
+		'en-us': "It keeps its intense psychic power from leaking out by using its ears to cover the organs emitting that power.",
 	},
 
 
 	name: {
-		en: "Espurr",
-		fr: "Psystigri",
-		es: "Espurr",
+		'en-us': "Espurr",
+		'fr-fr': "Psystigri",
+		'es-es': "Espurr",
 		'es-mx': "Espurr",
-		de: "Psiau",
-		it: "Espurr",
-		pt: "Espurr"
+		'de-de': "Psiau",
+		'it-it': "Espurr",
+		'pt-br': "Espurr"
 	},
 
 	illustrator: "sowsow",
@@ -29,26 +29,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Buddy Attack",
-			fr: "Attaque Partenaire",
-			es: "Ataque Amigo",
+			'en-us': "Buddy Attack",
+			'fr-fr': "Attaque Partenaire",
+			'es-es': "Ataque Amigo",
 			'es-mx': "Ataque Amistoso",
-			de: "Kumpelattacke",
-			it: "Attacco Amico",
-			pt: "Golpe Amigo"
+			'de-de': "Kumpelattacke",
+			'it-it': "Attacco Amico",
+			'pt-br': "Golpe Amigo"
 		},
 
 		cost: ["Psychic"],
 		damage: "10+",
 
 		effect: {
-			en: "If you played Emma from your hand during this turn, this attack does 60 more damage.",
-			fr: "Si vous avez joué Millie de votre main pendant ce tour, cette attaque inflige 60 dégâts supplémentaires.",
-			es: "Si has jugado Matière de tu mano durante este turno, este ataque hace 60 puntos de daño más.",
+			'en-us': "If you played Emma from your hand during this turn, this attack does 60 more damage.",
+			'fr-fr': "Si vous avez joué Millie de votre main pendant ce tour, cette attaque inflige 60 dégâts supplémentaires.",
+			'es-es': "Si has jugado Matière de tu mano durante este turno, este ataque hace 60 puntos de daño más.",
 			'es-mx': "Si jugaste Matière de tu mano durante este turno, este ataque hace 60 puntos de daño más.",
-			de: "Wenn du Matière während dieses Zuges aus deiner Hand gespielt hast, fügt diese Attacke 60 Schadenspunkte mehr zu.",
-			it: "Se hai giocato Matière dalla tua mano durante questo turno, questo attacco infligge 60 danni in più.",
-			pt: "Se você jogou Emma da sua mão durante este turno, este ataque causará 60 pontos de dano a mais."
+			'de-de': "Wenn du Matière während dieses Zuges aus deiner Hand gespielt hast, fügt diese Attacke 60 Schadenspunkte mehr zu.",
+			'it-it': "Se hai giocato Matière dalla tua mano durante questo turno, questo attacco infligge 60 danni in più.",
+			'pt-br': "Se você jogou Emma da sua mão durante este turno, este ataque causará 60 pontos de dano a mais."
 		}
 	}],
 

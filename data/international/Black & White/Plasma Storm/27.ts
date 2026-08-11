@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Piloswine",
-		fr: "Cochignon",
-		es: "Piloswine",
-		it: "Piloswine",
-		pt: "Piloswine",
-		de: "Keifel"
+		'en-us': "Piloswine",
+		'fr-fr': "Cochignon",
+		'es-es': "Piloswine",
+		'it-it': "Piloswine",
+		'pt-br': "Piloswine",
+		'de-de': "Keifel"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Swinub",
-		fr: "Marcacrin",
+		'en-us': "Swinub",
+		'fr-fr': "Marcacrin",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Beam",
-				fr: "Laser Glace",
+				'en-us': "Ice Beam",
+				'fr-fr': "Laser Glace",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 20,
 
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quintuple Headbutt",
-				fr: "Quintuple Coup d'Boule",
+				'en-us': "Quintuple Headbutt",
+				'fr-fr': "Quintuple Coup d'Boule",
 			},
 			effect: {
-				en: "Flip 5 coins. This attack does 40 damage times the number of heads.",
-				fr: "Lancez 5 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 5 coins. This attack does 40 damage times the number of heads.",
+				'fr-fr': "Lancez 5 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 40,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "With its excellent sense of smell, it's even able to find mushrooms that are buried under frozen ground.",
+		'en-us': "With its excellent sense of smell, it's even able to find mushrooms that are buried under frozen ground.",
 	},
 
 	thirdParty: {

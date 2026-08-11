@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Paras",
-		fr: "Paras",
-		es: "Paras",
-		it: "Paras",
-		pt: "Paras",
-		de: "Paras"
+		'en-us': "Paras",
+		'fr-fr': "Paras",
+		'es-es': "Paras",
+		'it-it': "Paras",
+		'pt-br': "Paras",
+		'de-de': "Paras"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blot",
-				fr: "Pâté",
-				es: "Absorción",
-				it: "Macchia",
-				pt: "Borrão",
-				de: "Klecks"
+				'en-us': "Blot",
+				'fr-fr': "Pâté",
+				'es-es': "Absorción",
+				'it-it': "Macchia",
+				'pt-br': "Borrão",
+				'de-de': "Klecks"
 			},
 			effect: {
-				en: "Heal 10 damage from this Pokémon.",
-				fr: "Soignez 10 dégâts à ce Pokémon.",
-				es: "Cura 10 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 10 danni.",
-				pt: "Cure 10 de danos deste Pokémon.",
-				de: "Heile 10 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 10 damage from this Pokémon.",
+				'fr-fr': "Soignez 10 dégâts à ce Pokémon.",
+				'es-es': "Cura 10 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 10 danni.",
+				'pt-br': "Cure 10 de danos deste Pokémon.",
+				'de-de': "Heile 10 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 10,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition.",
+		'en-us': "Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition.",
 	},
 
 	thirdParty: {

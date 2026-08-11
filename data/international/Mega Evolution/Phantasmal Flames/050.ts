@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gliscor",
-		fr: "Scorvol",
-		es: "Gliscor",
+		'en-us': "Gliscor",
+		'fr-fr': "Scorvol",
+		'es-es': "Gliscor",
 		'es-mx': "Gliscor",
-		de: "Skorgro",
-		it: "Gliscor",
-		pt: "Gliscor"
+		'de-de': "Skorgro",
+		'it-it': "Gliscor",
+		'pt-br': "Gliscor"
 	},
 
 	evolveFrom: {
-		en: "Gligar",
-		fr: "Scorplane",
-		es: "Gligar",
+		'en-us': "Gligar",
+		'fr-fr': "Scorplane",
+		'es-es': "Gligar",
 		'es-mx': "Gligar",
-		de: "Skorgla",
-		it: "Gligar",
-		pt: "Gligar",
+		'de-de': "Skorgla",
+		'it-it': "Gligar",
+		'pt-br': "Gligar",
 	},
 
 	rarity: "Uncommon",
@@ -36,23 +36,23 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Poison Ring",
-			fr: "Anneau de Poison",
-			es: "Anillo Venenoso",
+			'en-us': "Poison Ring",
+			'fr-fr': "Anneau de Poison",
+			'es-es': "Anillo Venenoso",
 			'es-mx': "Anillo Venenoso",
-			de: "Giftring",
-			it: "Velenanello",
-			pt: "Anel de Veneno"
+			'de-de': "Giftring",
+			'it-it': "Velenanello",
+			'pt-br': "Anel de Veneno"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned. During your opponent's next turn, that Pokémon can't retreat.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas battre en retraite.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado. Durante el próximo turno de tu rival, ese Pokémon no puede retirarse.",
+			'en-us': "Your opponent's Active Pokémon is now Poisoned. During your opponent's next turn, that Pokémon can't retreat.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas battre en retraite.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado. Durante el próximo turno de tu rival, ese Pokémon no puede retirarse.",
 			'es-mx': "El Pokémon Activo de tu rival ahora está Envenenado. Durante el próximo turno de tu rival, ese Pokémon no puede retirarse.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Während des nächsten Zuges deines Gegners kann sich jenes Pokémon nicht zurückziehen.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato. Durante il prossimo turno del tuo avversario, quel Pokémon non può ritirarsi.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado. Durante o próximo turno do seu oponente, aquele Pokémon não poderá recuar."
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Während des nächsten Zuges deines Gegners kann sich jenes Pokémon nicht zurückziehen.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato. Durante il prossimo turno del tuo avversario, quel Pokémon non può ritirarsi.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado. Durante o próximo turno do seu oponente, aquele Pokémon não poderá recuar."
 		},
 
 		damage: 50
@@ -68,7 +68,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "If it succeeds in catching even a faint breeze properly, it can circle the globe without flapping once.",
+		'en-us': "If it succeeds in catching even a faint breeze properly, it can circle the globe without flapping once.",
 	},
 
 	illustrator: "Dsuke",

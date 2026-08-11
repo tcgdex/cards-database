@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Fennekin",
-		fr: "Feunnec",
-		es: "Fennekin",
-		it: "Fennekin",
-		pt: "Fennekin",
-		de: "Fynx"
+		'en-us': "Fennekin",
+		'fr-fr': "Feunnec",
+		'es-es': "Fennekin",
+		'it-it': "Fennekin",
+		'pt-br': "Fennekin",
+		'de-de': "Fynx"
 	},
 
 	illustrator: "kirisAki",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Invite Out",
-				fr: "Invitation à Sortir",
-				es: "Invitar a Salir",
-				it: "Vienifuori",
-				pt: "Vem Jogar",
-				de: "Ausführen"
+				'en-us': "Invite Out",
+				'fr-fr': "Invitation à Sortir",
+				'es-es': "Invitar a Salir",
+				'it-it': "Vienifuori",
+				'pt-br': "Vem Jogar",
+				'de-de': "Ausführen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, échangez l'un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
-				es: "Lanza 1 moneda. Si sale cara, cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
-				it: "Lancia una moneta. Se esce testa, scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
-				pt: "Jogue uma moeda. Se sair cara, troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo desse oponente.",
-				de: "Wirf 1 Münze. Tausche bei \"Kopf\" 1 Pokémon auf der Bank deines Gegners gegen das Aktive Pokémon deines Gegners aus."
+				'en-us': "Flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, échangez l'un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
+				'es-es': "Lanza 1 moneda. Si sale cara, cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
+				'it-it': "Lancia una moneta. Se esce testa, scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
+				'pt-br': "Jogue uma moeda. Se sair cara, troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo desse oponente.",
+				'de-de': "Wirf 1 Münze. Tausche bei \"Kopf\" 1 Pokémon auf der Bank deines Gegners gegen das Aktive Pokémon deines Gegners aus."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "As it walks, it munches on a twig in place of a snack. It intimidates opponents by puffing hot air out of its ears.",
+		'en-us': "As it walks, it munches on a twig in place of a snack. It intimidates opponents by puffing hot air out of its ears.",
 	},
 
 	thirdParty: {

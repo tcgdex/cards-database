@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Minior"
+		'id-id': "Minior"
 	},
 
 	illustrator: "OKUBO",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Wujud Minior ketika cangkang luarnya lepas. Warna intinya berbeda tergantung dari unsur pada makanannya."
+		'id-id': "Wujud Minior ketika cangkang luarnya lepas. Warna intinya berbeda tergantung dari unsur pada makanannya."
 	},
 
 	stage: "Basic",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Meteor Memelesat"
+			'id-id': "Meteor Memelesat"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri tiap kali pemain mengenakan Energi dari Kartu Pegangan sendiri pada Pokémon ini jika Pokémon ini ada di Cadangan. Tukar Pokémon ini dengan Pokémon Bertarung."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri tiap kali pemain mengenakan Energi dari Kartu Pegangan sendiri pada Pokémon ini jika Pokémon ini ada di Cadangan. Tukar Pokémon ini dengan Pokémon Bertarung."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Serudukan Gravitasi"
+			'id-id': "Serudukan Gravitasi"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap Energi yang dibutuhkan oleh Pokémon Bertarung lawan untuk Mundur."
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap Energi yang dibutuhkan oleh Pokémon Bertarung lawan untuk Mundur."
 		},
 
 		damage: "20×",

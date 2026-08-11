@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Slowbro EX",
-		fr: "Flagadoss EX",
-		es: "Slowbro EX",
-		it: "Slowbro EX",
-		pt: "Slowbro EX",
-		de: "Lahmus EX"
+		'en-us': "Slowbro EX",
+		'fr-fr': "Flagadoss EX",
+		'es-es': "Slowbro EX",
+		'it-it': "Slowbro EX",
+		'pt-br': "Slowbro EX",
+		'de-de': "Lahmus EX"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slack Off",
-				fr: "Paresse",
-				es: "Relajo",
-				it: "Pigro",
-				pt: "Relaxar",
-				de: "Tagedieb"
+				'en-us': "Slack Off",
+				'fr-fr': "Paresse",
+				'es-es': "Relajo",
+				'it-it': "Pigro",
+				'pt-br': "Relaxar",
+				'de-de': "Tagedieb"
 			},
 			effect: {
-				en: "Heal 60 damage from this Pokémon. This Pokémon can't attack during your next turn.",
-				fr: "Soignez 60 dégâts à ce Pokémon. Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
-				es: "Cura 60 puntos de daño a este Pokémon. Este Pokémon no puede atacar durante tu próximo turno.",
-				it: "Cura questo Pokémon da 60 danni. Questo Pokémon non può attaccare durante il tuo prossimo turno.",
-				pt: "Cure 60 de danos deste Pokémon. Este Pokémon não poderá atacar durante sua próxima vez de jogar.",
-				de: "Heile 60 Schadenspunkte bei diesem Pokémon. Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
+				'en-us': "Heal 60 damage from this Pokémon. This Pokémon can't attack during your next turn.",
+				'fr-fr': "Soignez 60 dégâts à ce Pokémon. Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				'es-es': "Cura 60 puntos de daño a este Pokémon. Este Pokémon no puede atacar durante tu próximo turno.",
+				'it-it': "Cura questo Pokémon da 60 danni. Questo Pokémon non può attaccare durante il tuo prossimo turno.",
+				'pt-br': "Cure 60 de danos deste Pokémon. Este Pokémon não poderá atacar durante sua próxima vez de jogar.",
+				'de-de': "Heile 60 Schadenspunkte bei diesem Pokémon. Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
 			},
 
 		},
@@ -59,12 +59,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Flash Splash",
-				fr: "Éclaboussure Éclair",
-				es: "Salpicadura Resplandor",
-				it: "Splash Luminoso",
-				pt: "Borrifada Rápida",
-				de: "Blitzartiger Platscher"
+				'en-us': "Flash Splash",
+				'fr-fr': "Éclaboussure Éclair",
+				'es-es': "Salpicadura Resplandor",
+				'it-it': "Splash Luminoso",
+				'pt-br': "Borrifada Rápida",
+				'de-de': "Blitzartiger Platscher"
 			},
 
 			damage: 100,

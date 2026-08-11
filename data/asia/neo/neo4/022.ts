@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "暗い染色",
+		'ja-jp': "暗い染色",
 	},
 
 	rarity: "Holo Rare",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "爪のスワイプ",
+				'ja-jp': "爪のスワイプ",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Fire"],
 			name: {
-				ja: "急いで炎",
+				'ja-jp': "急いで炎",
 			},
 			effect: {
-				ja: "ポケモンに取り付けられた火災エネルギーカードを廃棄することができます。この方法で破棄された各火エネルギーカードのコインをひっくり返します。この攻撃は、ヘッド数の40回のダメージ倍になります。",
+				'ja-jp': "ポケモンに取り付けられた火災エネルギーカードを廃棄することができます。この方法で破棄された各火エネルギーカードのコインをひっくり返します。この攻撃は、ヘッド数の40回のダメージ倍になります。",
 			},
 		},
 	],

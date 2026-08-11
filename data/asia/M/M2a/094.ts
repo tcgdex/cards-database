@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガルチャブルex",
+		'ja-jp': "メガルチャブルex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ふんばりボディ" },
 			effect: {
-				ja: "このポケモンが、ワザのダメージを受けてきぜつするとき、自分はコインを1回投げる。オモテなら、このポケモンはきぜつせず、残りHPが「10」の状態で場に残る。",
+				'ja-jp': "このポケモンが、ワザのダメージを受けてきぜつするとき、自分はコインを1回投げる。オモテなら、このポケモンはきぜつせず、残りHPが「10」の状態で場に残る。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "120+",
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "場にスタジアムが出ているなら、140ダメージ追加。その後、そのスタジアムをトラッシュする。",
+				'ja-jp': "場にスタジアムが出ているなら、140ダメージ追加。その後、そのスタジアムをトラッシュする。",
 			},
 		},
 	],

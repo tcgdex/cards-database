@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Feebas",
-		fr: "Barpau",
-		de: "Barschwa"
+		'en-us': "Feebas",
+		'fr-fr': "Barpau",
+		'de-de': "Barschwa"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -42,14 +42,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Ascension",
-				fr: "Ascension",
-				de: "Ascension"
+				'en-us': "Ascension",
+				'fr-fr': "Ascension",
+				'de-de': "Ascension"
 			},
 			effect: {
-				en: "Search your deck for a card that evolves from Feebas and put it on Feebas. (This counts as evolving Feebas.) Shuffle your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, choisissez dans votre deck une carte qui évolue de Barpau et placez-la sur Barpau. (Vous le faites ainsi évoluer.) Ensuite, mélangez votre deck.",
-				de: "Search your deck for a card that evolves from Feebas and put it on Feebas. (This counts as evolving Feebas.) Shuffle your deck afterward."
+				'en-us': "Search your deck for a card that evolves from Feebas and put it on Feebas. (This counts as evolving Feebas.) Shuffle your deck afterward.",
+				'fr-fr': "Lancez une pièce. Si c'est face, choisissez dans votre deck une carte qui évolue de Barpau et placez-la sur Barpau. (Vous le faites ainsi évoluer.) Ensuite, mélangez votre deck.",
+				'de-de': "Search your deck for a card that evolves from Feebas and put it on Feebas. (This counts as evolving Feebas.) Shuffle your deck afterward."
 			},
 
 		},

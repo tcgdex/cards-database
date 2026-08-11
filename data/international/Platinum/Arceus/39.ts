@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Grovyle",
-		de: "Reptain"
+		'en-us': "Grovyle",
+		'de-de': "Reptain"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Treecko"
+		'en-us': "Treecko"
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				de: "Ruckzuckhieb"
+				'en-us': "Quick Attack",
+				'de-de': "Ruckzuckhieb"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -50,8 +50,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cut",
-				de: "Zerschneider"
+				'en-us': "Cut",
+				'de-de': "Zerschneider"
 			},
 
 			damage: 50,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch."
+		'en-us': "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch."
 	},
 
 	variants: [

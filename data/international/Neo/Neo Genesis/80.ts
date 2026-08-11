@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Totodile",
-		fr: "Kaiminus",
-		de: "Karnimani"
+		'en-us': "Totodile",
+		'fr-fr': "Kaiminus",
+		'de-de': "Karnimani"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Bite"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Bite"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rage",
-				fr: "Frénésie",
-				de: "Rage"
+				'en-us': "Rage",
+				'fr-fr': "Frénésie",
+				'de-de': "Rage"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each damage counter on Totodile.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur Kaiminus.",
-				de: "Does 10 damage plus 10 more damage for each damage counter on Totodile."
+				'en-us': "Does 10 damage plus 10 more damage for each damage counter on Totodile.",
+				'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur Kaiminus.",
+				'de-de': "Does 10 damage plus 10 more damage for each damage counter on Totodile."
 			},
 			damage: "10+",
 
@@ -69,8 +69,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It is small but rough and tough. It won't hesitate to take a bite out of anything that moves.",
-		fr: "Il est petit mais costaud. Il n'hésite pas à mordre tout ce qui bouge."
+		'en-us': "It is small but rough and tough. It won't hesitate to take a bite out of anything that moves.",
+		'fr-fr': "Il est petit mais costaud. Il n'hésite pas à mordre tout ce qui bouge."
 	},
 
 

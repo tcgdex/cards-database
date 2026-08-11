@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タケシのサンドパン",
+		'ja-jp': "タケシのサンドパン",
 	},
 	illustrator: "Atsuko Nishida",
 
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "迅速",
+				'ja-jp': "迅速",
 			},
 			effect: {
-				ja: "この攻撃の損傷は、衰弱、抵抗、ポケモンの力、または防御ポケモンに対するその他の影響の影響を受けません。",
+				'ja-jp': "この攻撃の損傷は、衰弱、抵抗、ポケモンの力、または防御ポケモンに対するその他の影響の影響を受けません。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Fighting", "Fighting"],
 			name: {
-				ja: "ニードルボール",
+				'ja-jp': "ニードルボール",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。",
 			},
 			damage: 30,
 		},

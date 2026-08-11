@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フーパ",
+		'ja-jp': "フーパ",
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "空間を ゆがめる リングで あらゆる ものを 離れた 場所へ 飛ばしてしまう トラブルメーカー。",
+		'ja-jp': "空間を ゆがめる リングで あらゆる ものを 離れた 場所へ 飛ばしてしまう トラブルメーカー。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手の場の特性を持つポケモンの数×20ダメージ追加。",
+				'ja-jp': "相手の場の特性を持つポケモンの数×20ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは弱点・抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは弱点・抵抗力を計算しない。",
 			},
 		},
 	],

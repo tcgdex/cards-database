@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Venonat",
+		'en-us': "Venonat",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Stun Spore",
+				'en-us': "Stun Spore",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 10,
 
@@ -43,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leech Life",
+				'en-us': "Leech Life",
 			},
 			effect: {
-				en: "Remove a number of damage counters from Venonat equal to the damage done to the Defending Pokémon (after applying Weakness and Resistance).",
+				'en-us': "Remove a number of damage counters from Venonat equal to the damage done to the Defending Pokémon (after applying Weakness and Resistance).",
 			},
 			damage: 10,
 
@@ -63,7 +63,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Lives in the shadows of tall trees where it eats insects. It is attracted by light at night.",
+		'en-us': "Lives in the shadows of tall trees where it eats insects. It is attracted by light at night.",
 	},
 
 

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Pokédex",
+		'en-us': "Pokédex",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -12,7 +12,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Look at up to 5 cards from the top of your deck and rearrange them as you like.",
+		'en-us': "Look at up to 5 cards from the top of your deck and rearrange them as you like.",
 	},
 
 

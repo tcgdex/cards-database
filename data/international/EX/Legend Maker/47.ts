@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legend Maker'
 
 const card: Card = {
 	name: {
-		en: "Weepinbell",
-		fr: "Boustiflor",
-		de: "Ultrigaria"
+		'en-us': "Weepinbell",
+		'fr-fr': "Boustiflor",
+		'de-de': "Ultrigaria"
 	},
 
 	illustrator: "Katsura Tabata",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bellsprout",
-		fr: "Chétiflor"
+		'en-us': "Bellsprout",
+		'fr-fr': "Chétiflor"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleep Seed",
-				fr: "Graine dodo",
-				de: "Schlafsamen"
+				'en-us': "Sleep Seed",
+				'fr-fr': "Graine dodo",
+				'de-de': "Schlafsamen"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -56,9 +56,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vine Whip",
-				fr: "Fouet lianes",
-				de: "Rankenhieb"
+				'en-us': "Vine Whip",
+				'fr-fr': "Fouet lianes",
+				'de-de': "Rankenhieb"
 			},
 
 			damage: 40,

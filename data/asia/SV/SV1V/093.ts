@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1V"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ジバコイルex"
+		'ja-jp': "ジバコイルex"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -19,25 +19,25 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			ja: "エナジークラッシュ"
+			'ja-jp': "エナジークラッシュ"
 		},
 
 		damage: "50×",
 
 		effect: {
-			ja: "相手のポケモン全員についているエネルギーの数×50ダメージ。"
+			'ja-jp': "相手のポケモン全員についているエネルギーの数×50ダメージ。"
 		}
 	}, {
 		cost: ["Lightning", "Lightning"],
 
 		name: {
-			ja: "パルスランチャー"
+			'ja-jp': "パルスランチャー"
 		},
 
 		damage: 220,
 
 		effect: {
-			ja: "このポケモンにも30ダメージ。"
+			'ja-jp': "このポケモンにも30ダメージ。"
 		}
 	}],
 

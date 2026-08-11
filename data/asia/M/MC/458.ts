@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マリィのチョロネコ",
+		'ja-jp': "マリィのチョロネコ",
 	},
 
 	illustrator: "REND",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "愛くるしい しぐさで 油断させ 寄ってきた 相手を いきなり ツメで ひっかいて 笑っている。",
+		'ja-jp': "愛くるしい しぐさで 油断させ 寄ってきた 相手を いきなり ツメで ひっかいて 笑っている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Darkness"],
 			effect: {
-				ja: "相手のバトルポケモンが「ポケモンex」なら、40ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが「ポケモンex」なら、40ダメージ追加。",
 			},
 		},
 	],

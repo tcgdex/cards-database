@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Sableye",
-		fr: "Ténéfix",
+		'en-us': "Sableye",
+		'fr-fr': "Ténéfix",
 	},
 
 	illustrator: "match",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Energy Hunt",
-				fr: "Stop Θ",
+				'en-us': "Energy Hunt",
+				'fr-fr': "Stop Θ",
 			},
 			effect: {
-				en: "Flip 3 coins. For each heads, attach a basic Energy card from your discard pile to your Benched Pokémon-EX in any way you like.",
-				fr: "Lancez 3 pièces. Pour chaque côté face, attachez une carte Énergie de base de votre pile de défausse à vos Pokémon-EX de Banc, de la manière que vous voulez."
+				'en-us': "Flip 3 coins. For each heads, attach a basic Energy card from your discard pile to your Benched Pokémon-EX in any way you like.",
+				'fr-fr': "Lancez 3 pièces. Pour chaque côté face, attachez une carte Énergie de base de votre pile de défausse à vos Pokémon-EX de Banc, de la manière que vous voulez."
 			},
 
 		},
@@ -45,8 +45,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Claw Slash",
-				fr: "Tranch'Griffe"
+				'en-us': "Claw Slash",
+				'fr-fr': "Tranch'Griffe"
 			},
 
 			damage: 20,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It dwells in the darkness of caves. It uses its sharp claws to dig up gems to nourish itself.",
+		'en-us': "It dwells in the darkness of caves. It uses its sharp claws to dig up gems to nourish itself.",
 	},
 
 	thirdParty: {

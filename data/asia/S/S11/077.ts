@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナットレイ",
+		'ja-jp': "ナットレイ",
 		'zh-tw': "堅果啞鈴",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "トゲで 岩盤に キズを つけると 触手の 先端を あてて 栄養を 吸収する。",
+		'ja-jp': "トゲで 岩盤に キズを つけると 触手の 先端を あてて 栄養を 吸収する。",
 		'zh-tw': "用尖刺刺裂岩壁之後，牠會用觸手的尖端 接觸裂縫吸收營養。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かいてんアタック",
+				'ja-jp': "かいてんアタック",
 				'zh-tw': "迴轉攻擊",
 			},
 			damage: 50,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ウィップスマッシュ",
+				'ja-jp': "ウィップスマッシュ",
 				'zh-tw': "鞭打粉碎",
 			},
 			damage: 130,
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "テッシード",
+		'ja-jp': "テッシード",
 	},
 
 	retreat: 2,

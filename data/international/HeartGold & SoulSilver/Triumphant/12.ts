@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Victreebel",
-		fr: "Empiflor",
-		de: "Sarzenia"
+		'en-us': "Victreebel",
+		'fr-fr': "Empiflor",
+		'de-de': "Sarzenia"
 	},
 
 	illustrator: "Midori Harada",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Weepinbell",
-		fr: "Boustiflor"
+		'en-us': "Weepinbell",
+		'fr-fr': "Boustiflor"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Tangling Tendrils",
-				fr: "Enchevêtrement végétal",
-				de: "Wirrranken"
+				'en-us': "Tangling Tendrils",
+				'fr-fr': "Enchevêtrement végétal",
+				'de-de': "Wirrranken"
 			},
 			effect: {
-				en: "As long as Victreebel is your Active Pokémon, your opponent's Active Pokémon's Retreat Cost is ColorlessColorless more.",
-				fr: "Tant qu’Empiflor est votre Pokémon Actif, le Coût de retraite du Pokémon Actif de votre adversaire est augmenté de ColorlessColorless.",
-				de: "Solange Sarzenia dein Aktives Pokémon ist, betragen die Rückzugskosten für das Aktive Pokémon deines Gegners 2  mehr."
+				'en-us': "As long as Victreebel is your Active Pokémon, your opponent's Active Pokémon's Retreat Cost is ColorlessColorless more.",
+				'fr-fr': "Tant qu’Empiflor est votre Pokémon Actif, le Coût de retraite du Pokémon Actif de votre adversaire est augmenté de ColorlessColorless.",
+				'de-de': "Solange Sarzenia dein Aktives Pokémon ist, betragen die Rückzugskosten für das Aktive Pokémon deines Gegners 2  mehr."
 			}
 		},
 	],
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Acidic Drain",
-				fr: "Ponction acide",
-				de: "Säuresauger"
+				'en-us': "Acidic Drain",
+				'fr-fr': "Ponction acide",
+				'de-de': "Säuresauger"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned and Poisoned. Remove 3 damage counters from Victreebel.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé et Empoisonné. Retirez 3 marqueurs de dégât à Empiflor.",
-				de: "Das Verteidigende Pokémon ist jetzt verbrannt und vergiftet. Entferne 3 Schadensmarken von Sarzenia."
+				'en-us': "The Defending Pokémon is now Burned and Poisoned. Remove 3 damage counters from Victreebel.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé et Empoisonné. Retirez 3 marqueurs de dégât à Empiflor.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verbrannt und vergiftet. Entferne 3 Schadensmarken von Sarzenia."
 			},
 			damage: 30,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Acid that has dissolved many prey becomes sweeter, making it even more effective at attracting prey."
+		'en-us': "Acid that has dissolved many prey becomes sweeter, making it even more effective at attracting prey."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マリル",
+		'ja-jp': "マリル",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "尻尾の 先には 水より 軽い 油が つまっているので 浮き袋の かわりに なるのだ。",
+		'ja-jp': "尻尾の 先には 水より 軽い 油が つまっているので 浮き袋の かわりに なるのだ。",
 	},
 
 	stage: "Basic",

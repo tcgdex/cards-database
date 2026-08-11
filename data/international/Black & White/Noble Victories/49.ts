@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Garbodor",
-		fr: "Miasmax",
-		es: "Garbodor",
-		it: "Garbodor",
-		pt: "Garbodor",
-		de: "Deponitox"
+		'en-us': "Garbodor",
+		'fr-fr': "Miasmax",
+		'es-es': "Garbodor",
+		'it-it': "Garbodor",
+		'pt-br': "Garbodor",
+		'de-de': "Deponitox"
 	},
 
 	illustrator: "match",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Trubbish",
-		fr: "Miamiasme",
+		'en-us': "Trubbish",
+		'fr-fr': "Miamiasme",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gentle Wrap",
-				fr: "Enveloppe Douce",
+				'en-us': "Gentle Wrap",
+				'fr-fr': "Enveloppe Douce",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 			damage: 30,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gunk Shot",
-				fr: "Détricanon",
+				'en-us': "Gunk Shot",
+				'fr-fr': "Détricanon",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
 			},
 			damage: 60,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "They absorb garbage and make it part of their bodies. They shoot poisonous liquid from their right-hand fingertips.",
+		'en-us': "They absorb garbage and make it part of their bodies. They shoot poisonous liquid from their right-hand fingertips.",
 	},
 
 	thirdParty: {

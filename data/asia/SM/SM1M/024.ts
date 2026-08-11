@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スリープ",
+		'ja-jp': "スリープ",
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "こと 楽しい夢は 美味いらしい。 なつくと 一番 美味しかった 夢を みせてくれることも あるよ。",
+		'ja-jp': "こと 楽しい夢は 美味いらしい。 なつくと 一番 美味しかった 夢を みせてくれることも あるよ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10×",
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数x10ダメージ。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数x10ダメージ。",
 			},
 		},
 		{

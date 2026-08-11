@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オーダイル",
+		'ja-jp': "オーダイル",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "大きく 力強い アゴで かみつくと そのまま 首を振って 相手を ずたずたに 引きちぎる。",
+		'ja-jp': "大きく 力強い アゴで かみつくと そのまま 首を振って 相手を ずたずたに 引きちぎる。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "どしゃぶり" },
 			effect: {
-				ja: "自分の番に何回でも使える。自分の手札にある[水]エネルギーを、1枚トラッシュする。",
+				'ja-jp': "自分の番に何回でも使える。自分の手札にある[水]エネルギーを、1枚トラッシュする。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Water", "Water"],
 			effect: {
-				ja: "自分のトラッシュにある[水]エネルギーをすべて相手に見せ、その枚数x20ダメージ追加。その後、見せたエネルギーを山札にもどして切る。",
+				'ja-jp': "自分のトラッシュにある[水]エネルギーをすべて相手に見せ、その枚数x20ダメージ追加。その後、見せたエネルギーを山札にもどして切る。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アリゲイツ",
+		'ja-jp': "アリゲイツ",
 	},
 
 	retreat: 3,

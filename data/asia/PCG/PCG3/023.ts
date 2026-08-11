@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シードラ",
+		'ja-jp': "シードラ",
 	},
 
 	rarity: "Uncommon",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "レイを混乱させます",
+				'ja-jp': "レイを混乱させます",
 			},
 			effect: {
-				ja: "防御ポケモンは今混乱しています。",
+				'ja-jp': "防御ポケモンは今混乱しています。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				ja: "アクアトリック",
+				'ja-jp': "アクアトリック",
 			},
 			effect: {
-				ja: "防衛ポケモンに取り付けられた1つのエネルギーカードを相手のベンチ付きポケモンの1つに移動します。相手がベンチポケモンを持っていない場合、この効果は何もしません。",
+				'ja-jp': "防衛ポケモンに取り付けられた1つのエネルギーカードを相手のベンチ付きポケモンの1つに移動します。相手がベンチポケモンを持っていない場合、この効果は何もしません。",
 			},
 			damage: 30,
 		},

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Staryu",
-		fr: "Stari",
-		es: "Staryu",
-		it: "Staryu",
-		pt: "Staryu",
-		de: "Sterndu"
+		'en-us': "Staryu",
+		'fr-fr': "Stari",
+		'es-es': "Staryu",
+		'it-it': "Staryu",
+		'pt-br': "Staryu",
+		'de-de': "Sterndu"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spinning Attack",
-				fr: "Attaque Tournante",
-				es: "Ataque Giratorio",
-				it: "Attacco Rotante",
-				pt: "Ataque Giratório",
-				de: "Rundumangriff"
+				'en-us': "Spinning Attack",
+				'fr-fr': "Attaque Tournante",
+				'es-es': "Ataque Giratorio",
+				'it-it': "Attacco Rotante",
+				'pt-br': "Ataque Giratório",
+				'de-de': "Rundumangriff"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Large numbers of these Pokémon make their home at the seaside. At night, a strange red glow radiates from the center of their bodies.",
+		'en-us': "Large numbers of these Pokémon make their home at the seaside. At night, a strange red glow radiates from the center of their bodies.",
 	},
 
 	thirdParty: {

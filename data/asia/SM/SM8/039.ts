@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ネイティオ",
+		'ja-jp': "ネイティオ",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "ほとんど 動かず 鳴きもせず じっとするのは 過去と 未来を 見ているからだと 信じられている。",
+		'ja-jp': "ほとんど 動かず 鳴きもせず じっとするのは 過去と 未来を 見ているからだと 信じられている。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手の手札を見て、その中にエネルギーがあるなら、60ダメージ追加。",
+				'ja-jp': "相手の手札を見て、その中にエネルギーがあるなら、60ダメージ追加。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ネイティ",
+		'ja-jp': "ネイティ",
 	},
 
 	retreat: 1,

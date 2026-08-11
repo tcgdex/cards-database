@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ライチュ",
+		'ja-jp': "ライチュ",
 	},
 
 	rarity: "Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "プラズマ",
+				'ja-jp': "プラズマ",
 			},
 			effect: {
-				ja: "廃棄パイルに稲妻エネルギーカードがある場合は、コインをひっくり返します。  頭の場合は、それらの1つをライチュに取り付けます。",
+				'ja-jp': "廃棄パイルに稲妻エネルギーカードがある場合は、コインをひっくり返します。  頭の場合は、それらの1つをライチュに取り付けます。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Lightning", "Lightning", "Colorless"],
 			name: {
-				ja: "ショックボルト",
+				'ja-jp': "ショックボルト",
 			},
 			effect: {
-				ja: "Raichuに取り付けられたすべてのLightning Energyカードを廃棄するか、この攻撃は何もしません。",
+				'ja-jp': "Raichuに取り付けられたすべてのLightning Energyカードを廃棄するか、この攻撃は何もしません。",
 			},
 			damage: 60,
 		},

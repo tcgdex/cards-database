@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Joltik"
+		'en-us': "Joltik"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "Joltik can be found clinging to other Pokémon.\nIt's soaking up static electricity because it can't\nproduce a charge on its own."
+		'en-us': "Joltik can be found clinging to other Pokémon.\nIt's soaking up static electricity because it can't\nproduce a charge on its own."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Attach"
+			'en-us': "Attach"
 		},
 
 		damage: 20,

@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Shroodle",
-		fr: "Gribouraigne",
-		de: "Sproxi",
-		it: "Shroodle",
-		es: "Shroodle",
-		pt: "Shroodle",
+		'en-us': "Shroodle",
+		'fr-fr': "Gribouraigne",
+		'de-de': "Sproxi",
+		'it-it': "Shroodle",
+		'es-es': "Shroodle",
+		'pt-br': "Shroodle",
 		'es-mx': "Shroodle"
   },
   illustrator: "Akira Komayama",
@@ -25,9 +25,9 @@ const card: Card = {
   attacks: [
     {
       name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Scratch"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Scratch"
       },
       damage: 20,
       cost: ["Colorless"],

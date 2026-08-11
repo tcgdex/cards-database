@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Azumarill",
-		de: "Azumarill"
+		'en-us': "Azumarill",
+		'de-de': "Azumarill"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -23,7 +23,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Marill",
+		'en-us': "Marill",
 	},
 
 	stage: "Stage1",
@@ -32,12 +32,12 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Froth",
-				de: "Froth"
+				'en-us': "Froth",
+				'de-de': "Froth"
 			},
 			effect: {
-				en: "Once during your turn, when you play Azumarill from your hand to evolve 1 of your Active Pokémon, you may use this power. Each Defending Pokémon is now Paralyzed.",
-				de: "Once during your turn, when you play Azumarill from your hand to evolve 1 of your Active Pokémon, you may use this power. Each Defending Pokémon is now Paralyzed."
+				'en-us': "Once during your turn, when you play Azumarill from your hand to evolve 1 of your Active Pokémon, you may use this power. Each Defending Pokémon is now Paralyzed.",
+				'de-de': "Once during your turn, when you play Azumarill from your hand to evolve 1 of your Active Pokémon, you may use this power. Each Defending Pokémon is now Paralyzed."
 			},
 		},
 	],
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Punch",
-				de: "Water Punch"
+				'en-us': "Water Punch",
+				'de-de': "Water Punch"
 			},
 			effect: {
-				en: "Flip a coin for each Water Energy attached to Azumarill. This attack does 20 damage plus 20 more damage for each heads.",
-				de: "Flip a coin for each  Energy attached to Azumarill. This attack does 20 damage plus 20 more damage for each heads."
+				'en-us': "Flip a coin for each Water Energy attached to Azumarill. This attack does 20 damage plus 20 more damage for each heads.",
+				'de-de': "Flip a coin for each  Energy attached to Azumarill. This attack does 20 damage plus 20 more damage for each heads."
 			},
 			damage: "20+",
 

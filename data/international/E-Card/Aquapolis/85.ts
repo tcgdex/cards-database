@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Horsea",
-		fr: "Hypotrempe",
-		de: "Seeper"
+		'en-us': "Horsea",
+		'fr-fr': "Hypotrempe",
+		'de-de': "Seeper"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reverse Thrust",
-				fr: "Poussée inverse",
-				de: "Umkehrschub"
+				'en-us': "Reverse Thrust",
+				'fr-fr': "Poussée inverse",
+				'de-de': "Umkehrschub"
 			},
 			effect: {
-				en: "Switch Horsea with 1 of your Benched Pokémon, if any.",
-				fr: "Échangez Hypotrempe contre l'un des Pokémon de votre Banc, si vous en avez.",
-				de: "Tausche Seeper mit 1 der Pokémon auf deiner Bank, falls du dort mindestens eins hast."
+				'en-us': "Switch Horsea with 1 of your Benched Pokémon, if any.",
+				'fr-fr': "Échangez Hypotrempe contre l'un des Pokémon de votre Banc, si vous en avez.",
+				'de-de': "Tausche Seeper mit 1 der Pokémon auf deiner Bank, falls du dort mindestens eins hast."
 			},
 			damage: 20,
 

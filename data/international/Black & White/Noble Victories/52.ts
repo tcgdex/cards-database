@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Reuniclus",
-		fr: "Symbios",
-		es: "Reuniclus",
-		it: "Reuniclus",
-		pt: "Reuniclus",
-		de: "Zytomega"
+		'en-us': "Reuniclus",
+		'fr-fr': "Symbios",
+		'es-es': "Reuniclus",
+		'it-it': "Reuniclus",
+		'pt-br': "Reuniclus",
+		'de-de': "Zytomega"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Duosion",
-		fr: "Méios",
+		'en-us': "Duosion",
+		'fr-fr': "Méios",
 	},
 
 	stage: "Stage2",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Future Sight",
-				fr: "Prescience",
+				'en-us': "Future Sight",
+				'fr-fr': "Prescience",
 			},
 			effect: {
-				en: "Look at the top 5 cards of your deck and put them back on top of your deck in any order.",
-				fr: "Regardez les 5 cartes du dessus de votre deck et replacez-les sur le dessus de votre deck dans l'ordre de votre choix.",
+				'en-us': "Look at the top 5 cards of your deck and put them back on top of your deck in any order.",
+				'fr-fr': "Regardez les 5 cartes du dessus de votre deck et replacez-les sur le dessus de votre deck dans l'ordre de votre choix.",
 			},
 
 		},
@@ -53,12 +53,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Net Force",
-				fr: "Force Accrue",
+				'en-us': "Net Force",
+				'fr-fr': "Force Accrue",
 			},
 			effect: {
-				en: "Does 40 damage times the number of Reuniclus you have in play.",
-				fr: "Inflige 40 dégâts multipliés par le nombre de Symbios que vous avez en jeu.",
+				'en-us': "Does 40 damage times the number of Reuniclus you have in play.",
+				'fr-fr': "Inflige 40 dégâts multipliés par le nombre de Symbios que vous avez en jeu.",
 			},
 			damage: 40,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When Reuniclus shake hands, a network forms between their brains, increasing their psychic power.",
+		'en-us': "When Reuniclus shake hands, a network forms between their brains, increasing their psychic power.",
 	},
 
 	thirdParty: {

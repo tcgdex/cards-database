@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Durant",
-		fr: "Fermite",
-		es: "Durant",
-		it: "Durant",
-		pt: "Durant",
-		de: "Fermicula"
+		'en-us': "Durant",
+		'fr-fr': "Fermite",
+		'es-es': "Durant",
+		'it-it': "Durant",
+		'pt-br': "Durant",
+		'de-de': "Fermicula"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Mountain Munch",
-				fr: "Dévore-Montagne",
-				es: "Mascamontañas",
-				it: "Sgranocchiacime",
-				pt: "Masca-Montanhas",
-				de: "Gipfelmampfer"
+				'en-us': "Mountain Munch",
+				'fr-fr': "Dévore-Montagne",
+				'es-es': "Mascamontañas",
+				'it-it': "Sgranocchiacime",
+				'pt-br': "Masca-Montanhas",
+				'de-de': "Gipfelmampfer"
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-				es: "Descarta la primera carta de la baraja de tu rival.",
-				it: "Scarta la prima carta del mazzo del tuo avversario.",
-				pt: "Descarte o card de cima do baralho do seu oponente.",
-				de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard the top card of your opponent's deck.",
+				'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+				'es-es': "Descarta la primera carta de la baraja de tu rival.",
+				'it-it': "Scarta la prima carta del mazzo del tuo avversario.",
+				'pt-br': "Descarte o card de cima do baralho do seu oponente.",
+				'de-de': "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 10,
 
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scrape Down",
-				fr: "Racleur",
-				es: "Raspar",
-				it: "Grattavia",
-				pt: "Raspagem",
-				de: "Schaber"
+				'en-us': "Scrape Down",
+				'fr-fr': "Racleur",
+				'es-es': "Raspar",
+				'it-it': "Grattavia",
+				'pt-br': "Raspagem",
+				'de-de': "Schaber"
 			},
 			effect: {
-				en: "If this Pokémon has any damage counters on it, discard the top 4 cards of your opponent's deck.",
-				fr: "Si ce Pokémon a des marqueurs de dégâts, défaussez les 4 cartes du dessus du deck de votre adversaire.",
-				es: "Si este Pokémon tiene algún contador de daño sobre él, descarta las 4 primeras cartas de la baraja de tu rival.",
-				it: "Se questo Pokémon ha dei segnalini danno, scarta le prime quattro carte del mazzo del tuo avversario.",
-				pt: "Se este Pokémon possuir algum contador de danos, descarte os 4 cards do topo de cima do seu oponente.",
-				de: "Wenn auf diesem Pokémon bereits mindestens 1 Schadensmarke liegt, lege die obersten 4 Karten vom Deck deines Gegners auf seinen Ablagestapel."
+				'en-us': "If this Pokémon has any damage counters on it, discard the top 4 cards of your opponent's deck.",
+				'fr-fr': "Si ce Pokémon a des marqueurs de dégâts, défaussez les 4 cartes du dessus du deck de votre adversaire.",
+				'es-es': "Si este Pokémon tiene algún contador de daño sobre él, descarta las 4 primeras cartas de la baraja de tu rival.",
+				'it-it': "Se questo Pokémon ha dei segnalini danno, scarta le prime quattro carte del mazzo del tuo avversario.",
+				'pt-br': "Se este Pokémon possuir algum contador de danos, descarte os 4 cards do topo de cima do seu oponente.",
+				'de-de': "Wenn auf diesem Pokémon bereits mindestens 1 Schadensmarke liegt, lege die obersten 4 Karten vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They attack in groups, covering themselves in steel armor to protect themselves from Heatmor.",
+		'en-us': "They attack in groups, covering themselves in steel armor to protect themselves from Heatmor.",
 	},
 
 	thirdParty: {

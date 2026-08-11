@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "倫琴貓",
-		ja: "レントラー"
+		'ja-jp': "レントラー"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "擁有透視能力的寶可夢。能夠在眨眼間就發現躲在 厚厚牆壁另一側的獵物。",
-		ja: "透視能力を もつ ポケモン。 厚い 壁の 向こうに 隠れる 獲物を たちまち 見つけだす。"
+		'ja-jp': "透視能力を もつ ポケモン。 厚い 壁の 向こうに 隠れる 獲物を たちまち 見つけだす。"
 	},
 
 	stage: "Stage2",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "能量粉碎",
-			ja: "エナジークラッシュ"
+			'ja-jp': "エナジークラッシュ"
 		},
 
 		effect: {
 			'zh-tw': "造成對手的場上寶可夢身上附加的能量的數量×50點傷害。",
-			ja: "相手の場のポケモンについているエネルギーの数×50ダメージ。"
+			'ja-jp': "相手の場のポケモンについているエネルギーの数×50ダメージ。"
 		},
 
 		damage: "50×",
@@ -37,12 +37,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "閃光衝擊",
-			ja: "フラッシュインパクト"
+			'ja-jp': "フラッシュインパクト"
 		},
 
 		effect: {
 			'zh-tw': "自己的1隻備戰寶可夢也受到30點傷害。[在備戰區不計算弱點・抵抗力。]",
-			ja: "自分のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			'ja-jp': "自分のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
 		},
 
 		damage: 110,

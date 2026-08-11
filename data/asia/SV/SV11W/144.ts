@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "テッシード",
+		'ja-jp': "テッシード",
 	},
 
 	illustrator: "Nurikabe",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "危険を 察知すると トゲを いっせいに 発射して 反撃。 その すきに 転がって 逃げる。",
+		'ja-jp': "危険を 察知すると トゲを いっせいに 発射して 反撃。 その すきに 転がって 逃げる。",
 	},
 
 	stage: "Basic",

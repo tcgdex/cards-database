@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Korrina's Focus",
-		fr: "Concentration de Cornélia",
-		es: "Enfoque de Corelia",
-		it: "Impegno di Ornella",
-		pt: "Foco da Korrina",
-		de: "Connies Fokus"
+		'en-us': "Korrina's Focus",
+		'fr-fr': "Concentration de Cornélia",
+		'es-es': "Enfoque de Corelia",
+		'it-it': "Impegno di Ornella",
+		'pt-br': "Foco da Korrina",
+		'de-de': "Connies Fokus"
 	},
 
 	illustrator: "Taira Akitsu",
@@ -18,12 +18,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Draw cards until you have 6 cards in your hand.",
-		fr: "Piochez des cartes jusqu'à en avoir 6 en main.",
-		es: "Roba cartas hasta que tengas 6 cartas en tu mano.",
-		it: "Pesca fino ad avere sei carte in mano.",
-		pt: "Compre cartas até ter 6 cartas na sua mão.",
-		de: "Ziehe so lange Karten, bis du 6 Karten auf deiner Hand hast."
+		'en-us': "Draw cards until you have 6 cards in your hand.",
+		'fr-fr': "Piochez des cartes jusqu'à en avoir 6 en main.",
+		'es-es': "Roba cartas hasta que tengas 6 cartas en tu mano.",
+		'it-it': "Pesca fino ad avere sei carte in mano.",
+		'pt-br': "Compre cartas até ter 6 cartas na sua mão.",
+		'de-de': "Ziehe so lange Karten, bis du 6 Karten auf deiner Hand hast."
 	},
 
 	trainerType: "Supporter",

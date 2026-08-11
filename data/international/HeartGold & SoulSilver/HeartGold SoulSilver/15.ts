@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Ariados",
-		fr: "Migalos",
-		de: "Ariados"
+		'en-us': "Ariados",
+		'fr-fr': "Migalos",
+		'de-de': "Ariados"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spinarak",
-		fr: "Mimigal"
+		'en-us': "Spinarak",
+		'fr-fr': "Mimigal"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leech Life",
-				fr: "Vampirisme",
-				de: "Blutsauger"
+				'en-us': "Leech Life",
+				'fr-fr': "Vampirisme",
+				'de-de': "Blutsauger"
 			},
 			effect: {
-				en: "Remove from Ariados the number of damage counters equal to the damage you did to the Defending Pokémon.",
-				fr: "Retirez de Migalos autant de marqueurs de dégâts que de dégâts que vous avez infligés au Pokémon Défenseur.",
-				de: "Entferne Schadensmarken von Ariados entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon durch diesen Angriff zugefügt wurden."
+				'en-us': "Remove from Ariados the number of damage counters equal to the damage you did to the Defending Pokémon.",
+				'fr-fr': "Retirez de Migalos autant de marqueurs de dégâts que de dégâts que vous avez infligés au Pokémon Défenseur.",
+				'de-de': "Entferne Schadensmarken von Ariados entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon durch diesen Angriff zugefügt wurden."
 			},
 			damage: 30,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poisonous Saliva",
-				fr: "Salive empoisonnée",
-				de: "Giftsabber"
+				'en-us': "Poisonous Saliva",
+				'fr-fr': "Salive empoisonnée",
+				'de-de': "Giftsabber"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 50,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It spins string not only from its rear but also from its mouth. It’s hard to tell which end is which."
+		'en-us': "It spins string not only from its rear but also from its mouth. It’s hard to tell which end is which."
 	},
 
 	variants: [

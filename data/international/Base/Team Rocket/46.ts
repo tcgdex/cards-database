@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Dark Wartortle",
-		fr: "Carabaffe obscur",
-		de: "Dunkles Schillok"
+		'en-us': "Dark Wartortle",
+		'fr-fr': "Carabaffe obscur",
+		'de-de': "Dunkles Schillok"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Squirtle",
-		fr: "Carapuce"
+		'en-us': "Squirtle",
+		'fr-fr': "Carapuce"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Doubleslap",
-				fr: "Double gifle",
-				de: "Doubleslap"
+				'en-us': "Doubleslap",
+				'fr-fr': "Double gifle",
+				'de-de': "Doubleslap"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10x",
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mirror Shell",
-				fr: "Carapace miroir",
-				de: "Mirror Shell"
+				'en-us': "Mirror Shell",
+				'fr-fr': "Carapace miroir",
+				'de-de': "Mirror Shell"
 			},
 			effect: {
-				en: "If an attack does damage to Dark Wartortle during your opponent's next turn (even if Dark Wartortle is Knocked Out), Dark Wartortle attacks the Defending Pokémon for an equal amount of damage.",
-				fr: "Si une attaque inflige des dégâts à Carabaffe obscur pendant le prochain tour de votre adversaire (même si Carabaffe obscur est K.O.), Carabaffe obscur attaque le Pokémon Défenseur avec une quantité de dégâts égale.",
-				de: "If an attack does damage to Dark Wartortle during your opponent's next turn (even if Dark Wartortle is Knocked Out). Dark Wartortle does an equal amount of damage to the Defending Pokémon."
+				'en-us': "If an attack does damage to Dark Wartortle during your opponent's next turn (even if Dark Wartortle is Knocked Out), Dark Wartortle attacks the Defending Pokémon for an equal amount of damage.",
+				'fr-fr': "Si une attaque inflige des dégâts à Carabaffe obscur pendant le prochain tour de votre adversaire (même si Carabaffe obscur est K.O.), Carabaffe obscur attaque le Pokémon Défenseur avec une quantité de dégâts égale.",
+				'de-de': "If an attack does damage to Dark Wartortle during your opponent's next turn (even if Dark Wartortle is Knocked Out). Dark Wartortle does an equal amount of damage to the Defending Pokémon."
 			},
 
 		},
@@ -77,8 +77,8 @@ const card: Card = {
 
 
 	description: {
-		en: "A Pokémon with a negative attitude, it hides in its shell whenever it's in a bad mood—which is often.",
-		fr: "Il a très mauvais caractère et se cache dans sa carapace dès qu'il est de mauvaise humeur - ce qui est souvent le cas."
+		'en-us': "A Pokémon with a negative attitude, it hides in its shell whenever it's in a bad mood—which is often.",
+		'fr-fr': "Il a très mauvais caractère et se cache dans sa carapace dès qu'il est de mauvaise humeur - ce qui est souvent le cas."
 	},
 
 

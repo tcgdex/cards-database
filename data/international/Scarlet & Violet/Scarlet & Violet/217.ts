@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Klawf",
-		fr: "Craparoi",
-		es: "Klawf",
-		it: "Klawf",
-		pt: "Klawf",
-		de: "Klibbe"
+		'en-us': "Klawf",
+		'fr-fr': "Craparoi",
+		'es-es': "Klawf",
+		'it-it': "Klawf",
+		'pt-br': "Klawf",
+		'de-de': "Klibbe"
 	},
 
 	rarity: "Illustration rare",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			en: "Vise Grip",
-			fr: "Force Poigne",
-			es: "Agarre",
-			it: "Presa",
-			pt: "Agarramento Compressor",
-			de: "Klammer"
+			'en-us': "Vise Grip",
+			'fr-fr': "Force Poigne",
+			'es-es': "Agarre",
+			'it-it': "Presa",
+			'pt-br': "Agarramento Compressor",
+			'de-de': "Klammer"
 		},
 
 		damage: 50
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Fighting"],
 
 		name: {
-			en: "Adrenaline Hammer",
-			fr: "Marteau Adrénaline",
-			es: "Martillo Adrenalina",
-			it: "Martello Adrenalinico",
-			pt: "Martelo de Adrenalina",
-			de: "Adrenalinhammer"
+			'en-us': "Adrenaline Hammer",
+			'fr-fr': "Marteau Adrénaline",
+			'es-es': "Martillo Adrenalina",
+			'it-it': "Martello Adrenalinico",
+			'pt-br': "Martelo de Adrenalina",
+			'de-de': "Adrenalinhammer"
 		},
 
 		effect: {
-			en: "This Pokémon is now Confused.",
-			fr: "Ce Pokémon est maintenant Confus.",
-			es: "Este Pokémon pasa a estar Confundido.",
-			it: "Questo Pokémon viene confuso.",
-			pt: "Este Pokémon agora está Confuso.",
-			de: "Dieses Pokémon ist jetzt verwirrt."
+			'en-us': "This Pokémon is now Confused.",
+			'fr-fr': "Ce Pokémon est maintenant Confus.",
+			'es-es': "Este Pokémon pasa a estar Confundido.",
+			'it-it': "Questo Pokémon viene confuso.",
+			'pt-br': "Este Pokémon agora está Confuso.",
+			'de-de': "Dieses Pokémon ist jetzt verwirrt."
 		},
 
 		damage: 130
@@ -75,7 +75,7 @@ const card: Card = {
 	illustrator: "Mina Nakai",
 
 	description: {
-		en: "Klawf hangs upside-down from cliffs, waiting for prey. But Klawf can't remain in this position for long because its blood rushes to its head.",
+		'en-us': "Klawf hangs upside-down from cliffs, waiting for prey. But Klawf can't remain in this position for long because its blood rushes to its head.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Jungle'
 
 const card: Card = {
 	name: {
-		en: "Poké Ball",
-		fr: "Poké Balle",
-		de: "Poké Ball"
+		'en-us': "Poké Ball",
+		'fr-fr': "Poké Balle",
+		'de-de': "Poké Ball"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Flip a coin. If heads, you may search your deck for any Basic Pokémon or Evolution card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward.",
-		fr: "Lancez une pièce. Si c'est face, vous pouvez chercher n'importe quelle carte Pokémon de base ou Évolution dans votre deck. Montrez cette carte à votre adversaire, puis placez-la dans votre main. Mélangez ensuite votre deck.",
-		de: "Wirf eine Münze. Bei 'Kopf' darfst du dein Deck nach einer beliebigen Basis-Pokémon- oder Evolutionskarte durchsuchen. Zeige diese karte deinem gegner und nimm sie auf deine Hand. Mische dein Deck dannach,"
+		'en-us': "Flip a coin. If heads, you may search your deck for any Basic Pokémon or Evolution card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward.",
+		'fr-fr': "Lancez une pièce. Si c'est face, vous pouvez chercher n'importe quelle carte Pokémon de base ou Évolution dans votre deck. Montrez cette carte à votre adversaire, puis placez-la dans votre main. Mélangez ensuite votre deck.",
+		'de-de': "Wirf eine Münze. Bei 'Kopf' darfst du dein Deck nach einer beliebigen Basis-Pokémon- oder Evolutionskarte durchsuchen. Zeige diese karte deinem gegner und nimm sie auf deine Hand. Mische dein Deck dannach,"
 	},
 
 

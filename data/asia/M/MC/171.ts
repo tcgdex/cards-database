@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マニューラ",
+		'ja-jp': "マニューラ",
 	},
 
 	illustrator: "aspara",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "４～５匹の グループで 行動。 岩や 樹木に サインを 残し 連係して 獲物を 仕留める。",
+		'ja-jp': "４～５匹の グループで 行動。 岩や 樹木に サインを 残し 連係して 獲物を 仕留める。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Water", "Water"],
 			effect: {
-				ja: "このポケモンについているエネルギーをすべてトラッシュし、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "このポケモンについているエネルギーをすべてトラッシュし、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニューラ",
+		'ja-jp': "ニューラ",
 	},
 
 	retreat: 1,

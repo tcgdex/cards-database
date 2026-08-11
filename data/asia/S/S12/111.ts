@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S12"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "工人",
-		ja: "さぎょういん"
+		'ja-jp': "さぎょういん"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -14,7 +14,7 @@ const card: Card = {
 
 	effect: {
 		'zh-tw': "從自己的牌庫抽出3張卡。將場上的競技場卡丟棄。",
-		ja: "自分の山札を3枚引く。場に出ているスタジアムをトラッシュする。"
+		'ja-jp': "自分の山札を3枚引く。場に出ているスタジアムをトラッシュする。"
 	},
 
 	variants: [

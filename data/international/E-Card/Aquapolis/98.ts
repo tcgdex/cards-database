@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Onix",
-		fr: "Onix",
-		de: "Onix"
+		'en-us': "Onix",
+		'fr-fr': "Onix",
+		'de-de': "Onix"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crush",
-				fr: "Écrase",
-				de: "Zermalmer"
+				'en-us': "Crush",
+				'fr-fr': "Écrase",
+				'de-de': "Zermalmer"
 			},
 			effect: {
-				en: "Flip a number of coins equal to the amount of Energy attached to Onix. This attack does 20 damage times the number of heads.",
-				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergie attachées à Onix. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf so viele Münzen, wie Energie an Onix angelegt ist. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				'en-us': "Flip a number of coins equal to the amount of Energy attached to Onix. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez un nombre de pièces équivalent au nombre d'Énergie attachées à Onix. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf so viele Münzen, wie Energie an Onix angelegt ist. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
 			damage: "20×",
 

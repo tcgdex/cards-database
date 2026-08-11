@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リザードンVMAX",
+		'ja-jp': "リザードンVMAX",
 		'zh-tw': "天秤偶",
 	},
 
@@ -18,7 +18,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ツメできりさく",
+				'ja-jp': "ツメできりさく",
 				'zh-tw': "掌擊",
 			},
 			damage: 100,
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 300,
 			cost: ["Fire", "Fire", "Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを2個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "リザードンV",
+		'ja-jp': "リザードンV",
 	},
 
 	retreat: 3,

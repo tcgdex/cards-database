@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Krookodile",
-		fr: "Crocorible",
-		es: "Krookodile",
-		it: "Krookodile",
-		pt: "Krookodile",
-		de: "Rabigator"
+		'en-us': "Krookodile",
+		'fr-fr': "Crocorible",
+		'es-es': "Krookodile",
+		'it-it': "Krookodile",
+		'pt-br': "Krookodile",
+		'de-de': "Rabigator"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Krokorok",
-		fr: "Escroco",
+		'en-us': "Krokorok",
+		'fr-fr': "Escroco",
 	},
 
 	stage: "Stage2",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Clamp",
-				fr: "Pince des Ténèbres",
+				'en-us': "Dark Clamp",
+				'fr-fr': "Pince des Ténèbres",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 			damage: 60,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bombast",
-				fr: "Arrogance",
+				'en-us': "Bombast",
+				'fr-fr': "Arrogance",
 			},
 			effect: {
-				en: "Does 40 damage times the number of Prize cards you have taken.",
-				fr: "Inflige 40 dégâts multipliés par le nombre de cartes Récompense que vous avez récupérées.",
+				'en-us': "Does 40 damage times the number of Prize cards you have taken.",
+				'fr-fr': "Inflige 40 dégâts multipliés par le nombre de cartes Récompense que vous avez récupérées.",
 			},
 			damage: 40,
 
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
+		'en-us': "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
 	},
 
 	thirdParty: {

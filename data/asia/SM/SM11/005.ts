@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クルミル",
+		'ja-jp': "クルミル",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "葉っぱを かみ切り 口から 出す 粘着糸で 縫い合わせる。 自分で 服を 作る ポケモン。",
+		'ja-jp': "葉っぱを かみ切り 口から 出す 粘着糸で 縫い合わせる。 自分で 服を 作る ポケモン。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ふえる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある「クルミル」を2枚まで、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札にある「クルミル」を2枚まで、ベンチに出す。そして山札を切る。",
 			},
 		},
 		{

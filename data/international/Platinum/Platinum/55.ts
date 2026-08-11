@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Mismagius",
-		fr: "Magirêve",
-		de: "Traunmagil"
+		'en-us': "Mismagius",
+		'fr-fr': "Magirêve",
+		'de-de': "Traunmagil"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Misdreavus",
-		fr: "Feuforêve"
+		'en-us': "Misdreavus",
+		'fr-fr': "Feuforêve"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Upper Hand",
-				fr: "Tourmente",
-				de: "Upper Hand"
+				'en-us': "Upper Hand",
+				'fr-fr': "Tourmente",
+				'de-de': "Upper Hand"
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
-				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Il ne peut pas l'utiliser lors du prochain tour de votre adversaire.",
-				de: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn."
+				'en-us': "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
+				'fr-fr': "Choisissez 1 des attaques du Pokémon Défenseur. Il ne peut pas l'utiliser lors du prochain tour de votre adversaire.",
+				'de-de': "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn."
 			},
 			damage: 30,
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psybeam",
-				fr: "Rafale psy",
-				de: "Psybeam"
+				'en-us': "Psybeam",
+				'fr-fr': "Rafale psy",
+				'de-de': "Psybeam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 60,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power."
+		'en-us': "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power."
 	},
 
 	variants: [

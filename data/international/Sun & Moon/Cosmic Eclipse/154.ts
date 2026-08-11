@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Slurpuff",
-		fr: "Cupcanaille",
-		es: "Slurpuff",
-		it: "Slurpuff",
-		pt: "Slurpuff",
-		de: "Sabbaione"
+		'en-us': "Slurpuff",
+		'fr-fr': "Cupcanaille",
+		'es-es': "Slurpuff",
+		'it-it': "Slurpuff",
+		'pt-br': "Slurpuff",
+		'de-de': "Sabbaione"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Swirlix",
-		fr: "Sucroquin",
+		'en-us': "Swirlix",
+		'fr-fr': "Sucroquin",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Olfactory Enchantment",
-				fr: "Enchantement Olfactif",
-				es: "Hechizo Olfativo",
-				it: "Incanto Olfattivo",
-				pt: "Encantamento Olfativo",
-				de: "Zauberduft"
+				'en-us': "Olfactory Enchantment",
+				'fr-fr': "Enchantement Olfactif",
+				'es-es': "Hechizo Olfativo",
+				'it-it': "Incanto Olfattivo",
+				'pt-br': "Encantamento Olfativo",
+				'de-de': "Zauberduft"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent’s Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 
 		},
@@ -61,20 +61,20 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Sweet Panic",
-				fr: "Douce Panique",
-				es: "Dulce Pánico",
-				it: "Dolce Panico",
-				pt: "Doce Desespero",
-				de: "Süße Panik"
+				'en-us': "Sweet Panic",
+				'fr-fr': "Douce Panique",
+				'es-es': "Dulce Pánico",
+				'it-it': "Dolce Panico",
+				'pt-br': "Doce Desespero",
+				'de-de': "Süße Panik"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon isn’t Confused, this attack does nothing.",
-				fr: "Si le Pokémon Actif de votre adversaire n’est pas Confus, cette attaque ne fait rien.",
-				es: "Si el Pokémon Activo de tu rival no está Confundido, este ataque no hace nada.",
-				it: "Se il Pokémon attivo del tuo avversario non è confuso, questo attacco non ha effetto.",
-				pt: "Se o Pokémon Ativo do seu oponente não estiver Confuso, este ataque não fará nada.",
-				de: "Wenn das Aktive Pokémon deines Gegners nicht verwirrt ist, hat diese Attacke keine Auswirkungen."
+				'en-us': "If your opponent’s Active Pokémon isn’t Confused, this attack does nothing.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire n’est pas Confus, cette attaque ne fait rien.",
+				'es-es': "Si el Pokémon Activo de tu rival no está Confundido, este ataque no hace nada.",
+				'it-it': "Se il Pokémon attivo del tuo avversario non è confuso, questo attacco non ha effetto.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente não estiver Confuso, este ataque não fará nada.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners nicht verwirrt ist, hat diese Attacke keine Auswirkungen."
 			},
 			damage: 110,
 
@@ -98,7 +98,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It can distinguish the faintest of scents. It puts its sensitive sense of smell to use by helping pastry chefs in their work.",
+		'en-us': "It can distinguish the faintest of scents. It puts its sensitive sense of smell to use by helping pastry chefs in their work.",
 	},
 
 	thirdParty: {

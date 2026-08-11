@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Bombirdier ex"
+		'id-id': "Bombirdier ex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -17,21 +17,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Fast Carry"
+			'id-id': "Fast Carry"
 		},
 
 		effect: {
-			id: "Serangan ini juga dapat digunakan pada giliran pertama Pemain Pertama. Pilih paling banyak 3 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
+			'id-id': "Serangan ini juga dapat digunakan pada giliran pertama Pemain Pertama. Pilih paling banyak 3 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Shadow Wind"
+			'id-id': "Shadow Wind"
 		},
 
 		effect: {
-			id: "Pemain dapat mengembalikan Pokémon ini dan semua kartu yang dikenakannya ke Kartu Pegangan."
+			'id-id': "Pemain dapat mengembalikan Pokémon ini dan semua kartu yang dikenakannya ke Kartu Pegangan."
 		},
 
 		damage: 130,

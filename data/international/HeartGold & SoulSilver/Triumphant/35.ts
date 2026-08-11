@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Haunter",
-		fr: "Spectrum",
-		de: "Alpollo"
+		'en-us': "Haunter",
+		'fr-fr': "Spectrum",
+		'de-de': "Alpollo"
 	},
 
 	illustrator: "Takashi Yamaguchi",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gastly",
-		fr: "Fantominus"
+		'en-us': "Gastly",
+		'fr-fr': "Fantominus"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Sneaky Placement",
-				fr: "Placement vicieux",
-				de: "Heimlichtuerei"
+				'en-us': "Sneaky Placement",
+				'fr-fr': "Placement vicieux",
+				'de-de': "Heimlichtuerei"
 			},
 			effect: {
-				en: "Put 2 damage counters on 1 of your opponent's Pokémon.",
-				fr: "Placez 2 marqueurs de dégât sur l’un des Pokémon de votre adversaire.",
-				de: "Lege 2 Schadensmarken auf 1 Pokémon deines Gegners."
+				'en-us': "Put 2 damage counters on 1 of your opponent's Pokémon.",
+				'fr-fr': "Placez 2 marqueurs de dégât sur l’un des Pokémon de votre adversaire.",
+				'de-de': "Lege 2 Schadensmarken auf 1 Pokémon deines Gegners."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleep Poison",
-				fr: "Poison dodo",
-				de: "Schlafgift"
+				'en-us': "Sleep Poison",
+				'fr-fr': "Poison dodo",
+				'de-de': "Schlafgift"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep and Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi et Empoisonné.",
-				de: "Das Verteidigende Pokémon schläft jetzt und ist vergiftet."
+				'en-us': "The Defending Pokémon is now Asleep and Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi et Empoisonné.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt und ist vergiftet."
 			},
 
 		},
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes."
+		'en-us': "Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes."
 	},
 
 	variants: [

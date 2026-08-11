@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Jungle'
 
 const card: Card = {
 	name: {
-		en: "Paras",
-		fr: "Paras",
-		de: "Paras"
+		'en-us': "Paras",
+		'fr-fr': "Paras",
+		'de-de': "Paras"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,9 +32,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Kratzer"
 			},
 
 			damage: 20,
@@ -46,14 +46,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Spore",
-				fr: "Spore",
-				de: "Pilzspore"
+				'en-us': "Spore",
+				'fr-fr': "Spore",
+				'de-de': "Pilzspore"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das verteidigende Pokémon ist jetzt schlafend."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das verteidigende Pokémon ist jetzt schlafend."
 			},
 
 		},
@@ -69,8 +69,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.",
-		fr: "Les champignons sur son dos se nourrissent des nutriments de leur hôte insectoïde."
+		'en-us': "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.",
+		'fr-fr': "Les champignons sur son dos se nourrissent des nutriments de leur hôte insectoïde."
 	},
 
 

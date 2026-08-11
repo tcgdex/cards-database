@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Dwebble"
+		'id-id': "Dwebble"
 	},
 
 	illustrator: "Scav",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Jika tidak menemukan batu kecil yang cocok untuk dijadikan rumah, kadang ada Dwebble yang tinggal di lubang tubuh Hippowdon."
+		'id-id': "Jika tidak menemukan batu kecil yang cocok untuk dijadikan rumah, kadang ada Dwebble yang tinggal di lubang tubuh Hippowdon."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menghantam"
+			'id-id': "Menghantam"
 		},
 
 		damage: 20,

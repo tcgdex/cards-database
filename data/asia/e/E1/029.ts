@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "meowth",
+		'ja-jp': "meowth",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "二重スクラッチ",
+				'ja-jp': "二重スクラッチ",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "給料日",
+				'ja-jp': "給料日",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、カードを描きます。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、カードを描きます。",
 			},
 			damage: 10,
 		},

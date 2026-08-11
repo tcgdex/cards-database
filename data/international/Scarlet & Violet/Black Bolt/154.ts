@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rufflet",
-		fr: "Furaiglon",
-		de: "Geronimatz",
-		it: "Rufflet",
-		pt: "Rufflet",
-		es: "Rufflet",
+		'en-us': "Rufflet",
+		'fr-fr': "Furaiglon",
+		'de-de': "Geronimatz",
+		'it-it': "Rufflet",
+		'pt-br': "Rufflet",
+		'es-es': "Rufflet",
 		'es-mx': "Rufflet"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Peck",
-			fr: "Picpic",
-			de: "Pikser",
-			it: "Beccata",
-			pt: "Bicada",
-			es: "Picotazo",
+			'en-us': "Peck",
+			'fr-fr': "Picpic",
+			'de-de': "Pikser",
+			'it-it': "Beccata",
+			'pt-br': "Bicada",
+			'es-es': "Picotazo",
 			'es-mx': "Picotazo"
 		},
 
@@ -40,12 +40,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Glide",
-			fr: "Glissement",
-			de: "Gleiten",
-			it: "Aliante",
-			pt: "Planeio",
-			es: "Planeo",
+			'en-us': "Glide",
+			'fr-fr': "Glissement",
+			'de-de': "Gleiten",
+			'it-it': "Aliante",
+			'pt-br': "Planeio",
+			'es-es': "Planeo",
 			'es-mx': "Planeo"
 		},
 

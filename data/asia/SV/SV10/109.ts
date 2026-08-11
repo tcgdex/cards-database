@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団のニャース",
+		'ja-jp': "ロケット団のニャース",
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "昼間は 寝てばかりいる。 夜になると 目が 輝き 縄張りを 歩きまわる。",
+		'ja-jp': "昼間は 寝てばかりいる。 夜になると 目が 輝き 縄張りを 歩きまわる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ねこばば" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手の手札からオモテを見ないで1枚選び、そのカードのオモテを見て、相手の山札にもどして切る。",
+				'ja-jp': "相手の手札からオモテを見ないで1枚選び、そのカードのオモテを見て、相手の山札にもどして切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数×20ダメージ。",
+				'ja-jp': "コインを3回投げ、オモテの数×20ダメージ。",
 			},
 		},
 	],

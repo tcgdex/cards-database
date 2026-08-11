@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Aromatisse",
-		fr: "Cocotine",
-		es: "Aromatisse",
-		pt: "Aromatisse",
-		it: "Aromatisse",
-		de: "Parfinesse"
+		'en-us': "Aromatisse",
+		'fr-fr': "Cocotine",
+		'es-es': "Aromatisse",
+		'pt-br': "Aromatisse",
+		'it-it': "Aromatisse",
+		'de-de': "Parfinesse"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Spritzee",
-		fr: "Fluvetin",
-		es: "Spritzee",
-		pt: "Spritzee",
-		it: "Spritzee",
-		de: "Parfi"
+		'en-us': "Spritzee",
+		'fr-fr': "Fluvetin",
+		'es-es': "Spritzee",
+		'pt-br': "Spritzee",
+		'it-it': "Spritzee",
+		'de-de': "Parfi"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Perfume Press",
-			fr: "Pression Entêtante",
-			es: "Presión Perfume",
-			pt: "Apertão Perfumado",
-			it: "Profumopressa",
-			de: "Duftdruck"
+			'en-us': "Perfume Press",
+			'fr-fr': "Pression Entêtante",
+			'es-es': "Presión Perfume",
+			'pt-br': "Apertão Perfumado",
+			'it-it': "Profumopressa",
+			'de-de': "Duftdruck"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
 		damage: 60

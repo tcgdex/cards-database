@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Dugtrio",
-		fr: "Triopikeur",
-		es: "Dugtrio",
-		it: "Dugtrio",
-		pt: "Dugtrio",
-		de: "Digdri"
+		'en-us': "Dugtrio",
+		'fr-fr': "Triopikeur",
+		'es-es': "Dugtrio",
+		'it-it': "Dugtrio",
+		'pt-br': "Dugtrio",
+		'de-de': "Digdri"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Diglett",
-		fr: "Taupiqueur",
+		'en-us': "Diglett",
+		'fr-fr': "Taupiqueur",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Home Ground",
-				fr: "À Domicile",
-				es: "Terreno Local",
-				it: "Giocare in Casa",
-				pt: "Time da Casa",
-				de: "Heimvorteil"
+				'en-us': "Home Ground",
+				'fr-fr': "À Domicile",
+				'es-es': "Terreno Local",
+				'it-it': "Giocare in Casa",
+				'pt-br': "Time da Casa",
+				'de-de': "Heimvorteil"
 			},
 			effect: {
-				en: "If you have any Stadium card in play, this attack does 60 more damage.",
-				fr: "Si vous avez une carte Stade en jeu, cette attaque inflige 60 dégâts supplémentaires.",
-				es: "Si tienes alguna carta de Estadio en juego, este ataque hace 60 puntos de daño más.",
-				it: "Se hai in gioco una carta Stadio, questo attacco infligge 60 danni in più.",
-				pt: "Se você tiver qualquer carta de Estádio em jogo, este ataque causará 60 pontos de dano a mais.",
-				de: "Wenn du eine Stadionkarte im Spiel hast, fügt diese Attacke 60 Schadenspunkte mehr zu."
+				'en-us': "If you have any Stadium card in play, this attack does 60 more damage.",
+				'fr-fr': "Si vous avez une carte Stade en jeu, cette attaque inflige 60 dégâts supplémentaires.",
+				'es-es': "Si tienes alguna carta de Estadio en juego, este ataque hace 60 puntos de daño más.",
+				'it-it': "Se hai in gioco una carta Stadio, questo attacco infligge 60 danni in più.",
+				'pt-br': "Se você tiver qualquer carta de Estádio em jogo, este ataque causará 60 pontos de dano a mais.",
+				'de-de': "Wenn du eine Stadionkarte im Spiel hast, fügt diese Attacke 60 Schadenspunkte mehr zu."
 			},
 			damage: "30+",
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "While the three of them normally get along splendidly, on rare occasions a huge fight will break out over which head gets to eat first.",
+		'en-us': "While the three of them normally get along splendidly, on rare occasions a huge fight will break out over which head gets to eat first.",
 	},
 
 	thirdParty: {

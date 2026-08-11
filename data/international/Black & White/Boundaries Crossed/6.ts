@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Tangrowth",
-		fr: "Bouldeneu",
-		es: "Tangrowth",
-		it: "Tangrowth",
-		pt: "Tangrowth",
-		de: "Tangoloss"
+		'en-us': "Tangrowth",
+		'fr-fr': "Bouldeneu",
+		'es-es': "Tangrowth",
+		'it-it': "Tangrowth",
+		'pt-br': "Tangrowth",
+		'de-de': "Tangoloss"
 	},
 
 	illustrator: "TOKIYA",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tangela",
-		fr: "Saquedeneu",
+		'en-us': "Tangela",
+		'fr-fr': "Saquedeneu",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Hundred Furious Lashes",
-				fr: "Multifouets Furieux",
+				'en-us': "Hundred Furious Lashes",
+				'fr-fr': "Multifouets Furieux",
 			},
 			effect: {
-				en: "Does 30 damage times the amount of Grass Energy attached to this Pokémon. This Pokémon can't use Hundred Furious Lashes during your next turn.",
-				fr: "Inflige 30 dégâts multipliés par le nombre d'Énergies Grass attachées à ce Pokémon. Ce Pokémon ne peut pas utiliser Multifouets Furieux pendant votre prochain tour.",
+				'en-us': "Does 30 damage times the amount of Grass Energy attached to this Pokémon. This Pokémon can't use Hundred Furious Lashes during your next turn.",
+				'fr-fr': "Inflige 30 dégâts multipliés par le nombre d'Énergies Grass attachées à ce Pokémon. Ce Pokémon ne peut pas utiliser Multifouets Furieux pendant votre prochain tour.",
 			},
 			damage: 30,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Drain",
-				fr: "Méga-Sangsue",
+				'en-us': "Mega Drain",
+				'fr-fr': "Méga-Sangsue",
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts à ce Pokémon.",
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon.",
 			},
 			damage: 70,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Even if one of its arms is eaten, it's fine. The Pokémon regenerates quickly and will go right back to normal.",
+		'en-us': "Even if one of its arms is eaten, it's fine. The Pokémon regenerates quickly and will go right back to normal.",
 	},
 
 	thirdParty: {

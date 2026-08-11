@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プクリン",
+		'ja-jp': "プクリン",
 	},
 
 	illustrator: "0313",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "ふわふわの 毛は 季節の 変わり目に 抜け落ちる。 それを 拾い集めて 紡いだ 毛糸は 高級品。",
+		'ja-jp': "ふわふわの 毛は 季節の 変わり目に 抜け落ちる。 それを 拾い集めて 紡いだ 毛糸は 高級品。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Fairy", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手の場のポケモンに[悪]エネルギーがついているなら、60ダメージ追加。",
+				'ja-jp': "相手の場のポケモンに[悪]エネルギーがついているなら、60ダメージ追加。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "プリン",
+		'ja-jp': "プリン",
 	},
 
 	retreat: 2,

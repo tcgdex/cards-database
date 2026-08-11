@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Cubone",
-		fr: "Osselait",
-		de: "Tragosso"
+		'en-us': "Cubone",
+		'fr-fr': "Osselait",
+		'de-de': "Tragosso"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beat",
-				fr: "Pichenette",
-				de: "Verprügler"
+				'en-us': "Beat",
+				'fr-fr': "Pichenette",
+				'de-de': "Verprügler"
 			},
 
 			damage: 10,
@@ -44,15 +44,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Bone Smash",
-				fr: "Éclate-os",
-				de: "Knochenzertrümmerer"
+				'en-us': "Bone Smash",
+				'fr-fr': "Éclate-os",
+				'de-de': "Knochenzertrümmerer"
 			},
 
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 30,

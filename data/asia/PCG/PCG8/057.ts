@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Exploud Ex",
+		'ja-jp': "Exploud Ex",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "余分なノイズ",
+				'ja-jp': "余分なノイズ",
 			},
 			effect: {
-				ja: "Exploud ExがアクティブなPokã©Monである限り、ターンの間に対戦相手の各Pokã©Mon-Exに1つのダメージカウンターを入れます。",
+				'ja-jp': "Exploud ExがアクティブなPokã©Monである限り、ターンの間に対戦相手の各Pokã©Mon-Exに1つのダメージカウンターを入れます。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "脱線",
+				'ja-jp': "脱線",
 			},
 			effect: {
-				ja: "防御ポケモンに取り付けられた特別なエネルギーカードを捨てます。",
+				'ja-jp': "防御ポケモンに取り付けられた特別なエネルギーカードを捨てます。",
 			},
 			damage: 40,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "ハイパーテール",
+				'ja-jp': "ハイパーテール",
 			},
 			effect: {
-				ja: "防御するポケモンにポケーパーズまたはポケボディがある場合、この攻撃は60のダメージと20のダメージを与えます。",
+				'ja-jp': "防御するポケモンにポケーパーズまたはポケボディがある場合、この攻撃は60のダメージと20のダメージを与えます。",
 			},
 		},
 	],

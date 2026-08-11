@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Heatran V",
-		fr: "Heatran V",
-		es: "Heatran V",
-		it: "Heatran V",
-		pt: "Heatran V",
-		de: "Heatran V"
+		'en-us': "Heatran V",
+		'fr-fr': "Heatran V",
+		'es-es': "Heatran V",
+		'it-it': "Heatran V",
+		'pt-br': "Heatran V",
+		'de-de': "Heatran V"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -26,21 +26,21 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Heat Burn",
-			fr: "Chaleur Brûlante",
-			es: "Quemazón",
-			it: "Brucia Calore",
-			pt: "Queimadura por Calor",
-			de: "Brandwunde"
+			'en-us': "Heat Burn",
+			'fr-fr': "Chaleur Brûlante",
+			'es-es': "Quemazón",
+			'it-it': "Brucia Calore",
+			'pt-br': "Queimadura por Calor",
+			'de-de': "Brandwunde"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+			'en-us': "Your opponent's Active Pokémon is now Burned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 		},
 
 		damage: 30
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Magma Fall",
-			fr: "Chute Magma",
-			es: "Cascada de Magma",
-			it: "Magmacaduta",
-			pt: "Queda de Magma",
-			de: "Magmafall"
+			'en-us': "Magma Fall",
+			'fr-fr': "Chute Magma",
+			'es-es': "Cascada de Magma",
+			'it-it': "Magmacaduta",
+			'pt-br': "Queda de Magma",
+			'de-de': "Magmafall"
 		},
 
 		effect: {
-			en: "If you have a Stadium in play, this attack does 90 more damage.",
-			fr: "Si vous avez un Stade en jeu, cette attaque inflige 90 dégâts supplémentaires.",
-			es: "Si tienes un Estadio en juego, este ataque hace 90 puntos de daño más.",
-			it: "Se hai in gioco una carta Stadio, questo attacco infligge 90 danni in più.",
-			pt: "Se você tiver um Estádio em jogo, este ataque causará 90 pontos de dano a mais.",
-			de: "Wenn du eine Stadionkarte im Spiel hast, fügt diese Attacke 90 Schadenspunkte mehr zu."
+			'en-us': "If you have a Stadium in play, this attack does 90 more damage.",
+			'fr-fr': "Si vous avez un Stade en jeu, cette attaque inflige 90 dégâts supplémentaires.",
+			'es-es': "Si tienes un Estadio en juego, este ataque hace 90 puntos de daño más.",
+			'it-it': "Se hai in gioco una carta Stadio, questo attacco infligge 90 danni in più.",
+			'pt-br': "Se você tiver um Estádio em jogo, este ataque causará 90 pontos de dano a mais.",
+			'de-de': "Wenn du eine Stadionkarte im Spiel hast, fügt diese Attacke 90 Schadenspunkte mehr zu."
 		},
 
 		damage: "90+"

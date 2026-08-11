@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Rhyhorn"
+		'en-us': "Brock's Rhyhorn"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -28,10 +28,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drill Tackle"
+				'en-us': "Drill Tackle"
 			},
 			effect: {
-				en: "Flip 2 coins. If 1 or both of them are tails, this attack does nothing."
+				'en-us': "Flip 2 coins. If 1 or both of them are tails, this attack does nothing."
 			},
 
 		},

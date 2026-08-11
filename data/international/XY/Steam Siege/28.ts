@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Shellos",
-		fr: "Sancoki",
-		es: "Shellos",
-		it: "Shellos",
-		pt: "Shellos",
-		de: "Schalellos"
+		'en-us': "Shellos",
+		'fr-fr': "Sancoki",
+		'es-es': "Shellos",
+		'it-it': "Shellos",
+		'pt-br': "Shellos",
+		'de-de': "Schalellos"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Rain Splash",
-				fr: "Pluie Éclaboussante",
-				es: "Golpe de Lluvia",
-				it: "Spruzzapioggia",
-				pt: "Chuva Borrifante",
-				de: "Regenplatscher"
+				'en-us': "Rain Splash",
+				'fr-fr': "Pluie Éclaboussante",
+				'es-es': "Golpe de Lluvia",
+				'it-it': "Spruzzapioggia",
+				'pt-br': "Chuva Borrifante",
+				'de-de': "Regenplatscher"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its shape and coloration vary, depending on its habitat.",
+		'en-us': "Its shape and coloration vary, depending on its habitat.",
 	},
 
 	thirdParty: {

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アセロラ",
+		'ja-jp': "アセロラ",
 	},
 
 	illustrator: "Megumi Mizutani",
 	category: "Trainer",
 
 	effect: {
-		ja: "ダメカンがのっている自分のポケモン1匹と、ついているすべてのカードを、手札にもどす。",
+		'ja-jp': "ダメカンがのっている自分のポケモン1匹と、ついているすべてのカードを、手札にもどす。",
 	},
 
 	variants: [

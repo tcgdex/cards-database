@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Zapétrel",
-		en: "Wattrel",
-		es: "Wattrel",
-		it: "Wattrel",
-		pt: "Wattrel",
-		de: "Voltrel"
+		'fr-fr': "Zapétrel",
+		'en-us': "Wattrel",
+		'es-es': "Wattrel",
+		'it-it': "Wattrel",
+		'pt-br': "Wattrel",
+		'de-de': "Voltrel"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Picpic",
-			en: "Peck",
-			es: "Picotazo",
-			it: "Beccata",
-			pt: "Bicada",
-			de: "Pikser"
+			'fr-fr': "Picpic",
+			'en-us': "Peck",
+			'es-es': "Picotazo",
+			'it-it': "Beccata",
+			'pt-br': "Bicada",
+			'de-de': "Pikser"
 		},
 
 		damage: 10
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Ailes Unies",
-			en: "United Wings",
-			es: "Alas Unidas",
-			it: "Ali Unite",
-			pt: "União Alada",
-			de: "Vereinte Schwingen"
+			'fr-fr': "Ailes Unies",
+			'en-us': "United Wings",
+			'es-es': "Alas Unidas",
+			'it-it': "Ali Unite",
+			'pt-br': "União Alada",
+			'de-de': "Vereinte Schwingen"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 20 dégâts pour chaque Pokémon dans votre pile de défausse ayant l'attaque Ailes Unies.",
-			en: "This attack does 20 damage for each Pokémon in your discard pile that has the United Wings attack.",
-			es: "Este ataque hace 20 puntos de daño por cada Pokémon en tu pila de descartes que tenga el ataque Alas Unidas.",
-			it: "Questo attacco infligge 20 danni per ogni Pokémon nella tua pila degli scarti che ha l'attacco Ali Unite.",
-			pt: "Este ataque causa 20 pontos de dano para cada Pokémon na sua pilha de descarte que tiver o ataque União Alada.",
-			de: "Diese Attacke fügt für jedes Pokémon in deinem Ablagestapel, das die Attacke Vereinte Schwingen hat, 20 Schadenspunkte zu."
+			'fr-fr': "Cette attaque inflige 20 dégâts pour chaque Pokémon dans votre pile de défausse ayant l'attaque Ailes Unies.",
+			'en-us': "This attack does 20 damage for each Pokémon in your discard pile that has the United Wings attack.",
+			'es-es': "Este ataque hace 20 puntos de daño por cada Pokémon en tu pila de descartes que tenga el ataque Alas Unidas.",
+			'it-it': "Questo attacco infligge 20 danni per ogni Pokémon nella tua pila degli scarti che ha l'attacco Ali Unite.",
+			'pt-br': "Este ataque causa 20 pontos de dano para cada Pokémon na sua pilha de descarte que tiver o ataque União Alada.",
+			'de-de': "Diese Attacke fügt für jedes Pokémon in deinem Ablagestapel, das die Attacke Vereinte Schwingen hat, 20 Schadenspunkte zu."
 		},
 
 		damage: "20×"
@@ -94,7 +94,7 @@ const card: Card = {
 	illustrator: "Shibuzoh.",
 
 	description: {
-		en: "When its wings catch the wind, the bones within produce electricity. This Pokémon dives into the ocean, catching prey by electrocuting them.",
+		'en-us': "When its wings catch the wind, the bones within produce electricity. This Pokémon dives into the ocean, catching prey by electrocuting them.",
 	},
 }
 

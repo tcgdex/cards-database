@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スコルピ",
+		'ja-jp': "スコルピ",
 	},
 
 	illustrator: "Aya Kusube",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "砂に 体を 埋め じっと  獲物を 待ち続けている。  ヤクデと 祖先が 近い。",
+		'ja-jp': "砂に 体を 埋め じっと  獲物を 待ち続けている。  ヤクデと 祖先が 近い。",
 	},
 
 	stage: "Basic",

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Dewgong",
-		fr: "Lamantine LV.36",
-		de: "Jugong"
+		'en-us': "Dewgong",
+		'fr-fr': "Lamantine LV.36",
+		'de-de': "Jugong"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Seel",
-		fr: "Otaria"
+		'en-us': "Seel",
+		'fr-fr': "Otaria"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Cold Fat",
-				fr: "Graisse froide",
-				de: "Fettschicht"
+				'en-us': "Cold Fat",
+				'fr-fr': "Graisse froide",
+				'de-de': "Fettschicht"
 			},
 			effect: {
-				en: "As long as Dewgong is Asleep, any damage done to Dewgong by attacks is reduced by 40 (after applying Weakness and Resistance).",
-				fr: "Tant que Lamantine est Endormi, tous dégâts qui lui sont infligés par des attaques sont réduits de 40 (après application de la Faiblesse et de la Résistance).",
-				de: "Solange Jugong schläft, wird Schaden, der Jugong durch Angriffe zugefügt wird, um 40 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "As long as Dewgong is Asleep, any damage done to Dewgong by attacks is reduced by 40 (after applying Weakness and Resistance).",
+				'fr-fr': "Tant que Lamantine est Endormi, tous dégâts qui lui sont infligés par des attaques sont réduits de 40 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Solange Jugong schläft, wird Schaden, der Jugong durch Angriffe zugefügt wird, um 40 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collapse",
-				fr: "Effondrement",
-				de: "Kollaps"
+				'en-us': "Collapse",
+				'fr-fr': "Effondrement",
+				'de-de': "Kollaps"
 			},
 			effect: {
-				en: "Dewgong is now Asleep.",
-				fr: "Lamantine est maintenant Endormi.",
-				de: "Jugong schläft jetzt."
+				'en-us': "Dewgong is now Asleep.",
+				'fr-fr': "Lamantine est maintenant Endormi.",
+				'de-de': "Jugong schläft jetzt."
 			},
 			damage: 60,
 
@@ -78,8 +78,8 @@ const card: Card = {
 
 
 	description: {
-		en: "In snow, the pure white coat covering its body obscures it from predators.",
-		fr: "Son corps est couvert d'un grand manteau blanc qui, dans la neige, le dissimule aux yeux des prédateurs."
+		'en-us': "In snow, the pure white coat covering its body obscures it from predators.",
+		'fr-fr': "Son corps est couvert d'un grand manteau blanc qui, dans la neige, le dissimule aux yeux des prédateurs."
 	},
 
 	thirdParty: {

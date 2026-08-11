@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Celesteela",
-		fr: "Bamboiselle",
-		es: "Celesteela",
-		it: "Celesteela",
-		pt: "Celesteela",
-		de: "Kaguron"
+		'en-us': "Celesteela",
+		'fr-fr': "Bamboiselle",
+		'es-es': "Celesteela",
+		'it-it': "Celesteela",
+		'pt-br': "Celesteela",
+		'de-de': "Kaguron"
 	},
 
 	illustrator: "kawayoo",
@@ -38,20 +38,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Moon Raker",
-				fr: "Ratissage Lunaire",
-				es: "Misión Lunar",
-				it: "Allunaggio",
-				pt: "Missão Lunar",
-				de: "Mondharke"
+				'en-us': "Moon Raker",
+				'fr-fr': "Ratissage Lunaire",
+				'es-es': "Misión Lunar",
+				'it-it': "Allunaggio",
+				'pt-br': "Missão Lunar",
+				'de-de': "Mondharke"
 			},
 			effect: {
-				en: "If the total of both players’ remaining Prize cards is exactly 6, this attack can be used for Metal.",
-				fr: "S’il reste exactement 6 cartes Récompense aux deux joueurs réunis, cette attaque peut être utilisée pour Metal.",
-				es: "Si el total de cartas de Premio que les queden a ambos jugadores es exactamente 6, este ataque se puede usar por 1 Energía Metal.",
-				it: "Se il totale delle carte Premio rimanenti a entrambi i giocatori è esattamente sei, il costo di questo attacco è Metal.",
-				pt: "Se a soma total das cartas de Prêmio restantes de ambos os jogadores for exatamente 6, este ataque poderá ser usado com 1 Energia Metal.",
-				de: "Wenn die Summe der verbleibenden Preiskarten beider Spieler genau 6 ist, kann diese Attacke für Metal eingesetzt werden."
+				'en-us': "If the total of both players’ remaining Prize cards is exactly 6, this attack can be used for Metal.",
+				'fr-fr': "S’il reste exactement 6 cartes Récompense aux deux joueurs réunis, cette attaque peut être utilisée pour Metal.",
+				'es-es': "Si el total de cartas de Premio que les queden a ambos jugadores es exactamente 6, este ataque se puede usar por 1 Energía Metal.",
+				'it-it': "Se il totale delle carte Premio rimanenti a entrambi i giocatori è esattamente sei, il costo di questo attacco è Metal.",
+				'pt-br': "Se a soma total das cartas de Prêmio restantes de ambos os jogadores for exatamente 6, este ataque poderá ser usado com 1 Energia Metal.",
+				'de-de': "Wenn die Summe der verbleibenden Preiskarten beider Spieler genau 6 ist, kann diese Attacke für Metal eingesetzt werden."
 			},
 			damage: 160,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "One kind of Ultra Beast. Witnesses have seen it burn down a forest by expelling gas from its two arms.",
+		'en-us': "One kind of Ultra Beast. Witnesses have seen it burn down a forest by expelling gas from its two arms.",
 	},
 
 	thirdParty: {

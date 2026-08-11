@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Carnivine",
+		'en-us': "Carnivine",
 	},
 
 	illustrator: "HiRON",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ambush Bite",
+				'en-us': "Ambush Bite",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage and discard an Energy attached to the Defending Pokémon.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage and discard an Energy attached to the Defending Pokémon.",
 			},
 			damage: 20,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Using its tentacles to lash itself to trees, it lies in wait for prey, luring it close with sweet-smelling drool.",
+		'en-us': "Using its tentacles to lash itself to trees, it lies in wait for prey, luring it close with sweet-smelling drool.",
 	},
 
 	thirdParty: {

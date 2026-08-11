@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Swanna",
-		fr: "Lakmécygne",
-		es: "Swanna",
-		it: "Swanna",
-		pt: "Swanna",
-		de: "Swaroness"
+		'en-us': "Swanna",
+		'fr-fr': "Lakmécygne",
+		'es-es': "Swanna",
+		'it-it': "Swanna",
+		'pt-br': "Swanna",
+		'de-de': "Swaroness"
 	},
 
 	illustrator: "sui",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ducklett",
-		fr: "Couaneton",
-		es: "Ducklett",
-		it: "Ducklett",
-		pt: "Ducklett",
-		de: "Piccolente"
+		'en-us': "Ducklett",
+		'fr-fr': "Couaneton",
+		'es-es': "Ducklett",
+		'it-it': "Ducklett",
+		'pt-br': "Ducklett",
+		'de-de': "Piccolente"
 	},
 
 	stage: "Stage1",
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-Aile",
-				es: "Ataque Ala",
-				it: "Attacco d'Ala",
-				pt: "Ataque de Asa",
-				de: "Flügelschlag"
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-Aile",
+				'es-es': "Ataque Ala",
+				'it-it': "Attacco d'Ala",
+				'pt-br': "Ataque de Asa",
+				'de-de': "Flügelschlag"
 			},
 
 			damage: 20,
@@ -61,20 +61,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Brave Bird",
-				fr: "Rapace",
-				es: "Pájaro Osado",
-				it: "Baldeali",
-				pt: "Pássaro Bravo",
-				de: "Sturzflug"
+				'en-us': "Brave Bird",
+				'fr-fr': "Rapace",
+				'es-es': "Pájaro Osado",
+				'it-it': "Baldeali",
+				'pt-br': "Pássaro Bravo",
+				'de-de': "Sturzflug"
 			},
 			effect: {
-				en: "This Pokémon does 20 damage to itself.",
-				fr: "Ce Pokémon s'inflige 20 dégâts.",
-				es: "Este Pokémon se hace 20 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 20 danni a se stesso.",
-				pt: "Este Pokémon causa 20 de danos a ele mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 20 Schadenspunkte zu."
+				'en-us': "This Pokémon does 20 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 20 dégâts.",
+				'es-es': "Este Pokémon se hace 20 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 20 danni a se stesso.",
+				'pt-br': "Este Pokémon causa 20 de danos a ele mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 80,
 
@@ -98,7 +98,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.",
+		'en-us': "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.",
 	},
 
 	thirdParty: {

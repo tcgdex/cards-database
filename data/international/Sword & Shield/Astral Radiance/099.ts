@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Darkrai VSTAR",
-		fr: "Darkrai VSTAR",
-		es: "Darkrai V-ASTRO",
-		it: "Darkrai V ASTRO",
-		pt: "Darkrai V-ASTRO",
-		de: "Darkrai VSTAR"
+		'en-us': "Darkrai VSTAR",
+		'fr-fr': "Darkrai VSTAR",
+		'es-es': "Darkrai V-ASTRO",
+		'it-it': "Darkrai V ASTRO",
+		'pt-br': "Darkrai V-ASTRO",
+		'de-de': "Darkrai VSTAR"
 	},
 
 	illustrator: "5ban Graphics",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Darkrai V",
-		fr: "Darkrai-V",
-		es: "Darkrai V",
-		it: "Darkrai-V",
-		pt: "Darkrai V",
-		de: "Darkrai-V"
+		'en-us': "Darkrai V",
+		'fr-fr': "Darkrai-V",
+		'es-es': "Darkrai V",
+		'it-it': "Darkrai-V",
+		'pt-br': "Darkrai V",
+		'de-de': "Darkrai-V"
 	},
 
 	stage: "VSTAR",
@@ -36,21 +36,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Dark Pulse",
-			fr: "Vibrobscur",
-			es: "Pulso Umbrío",
-			it: "Neropulsar",
-			pt: "Pulso Sombrio",
-			de: "Finsteraura"
+			'en-us': "Dark Pulse",
+			'fr-fr': "Vibrobscur",
+			'es-es': "Pulso Umbrío",
+			'it-it': "Neropulsar",
+			'pt-br': "Pulso Sombrio",
+			'de-de': "Finsteraura"
 		},
 
 		effect: {
-			en: "This attack does 30 more damage for each Darkness Energy attached to all of your Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Darkness attachée à tous vos Pokémon.",
-			es: "Este ataque hace 30 puntos de daño más por cada Energía Darkness unida a todos tus Pokémon.",
-			it: "Questo attacco infligge 30 danni in più per ogni Energia Darkness assegnata ai tuoi Pokémon.",
-			pt: "Este ataque causa 30 pontos de dano a mais para cada Energia Darkness ligada a todos os seus Pokémon.",
-			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte Darkness-Energie 30 Schadenspunkte mehr zu."
+			'en-us': "This attack does 30 more damage for each Darkness Energy attached to all of your Pokémon.",
+			'fr-fr': "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Darkness attachée à tous vos Pokémon.",
+			'es-es': "Este ataque hace 30 puntos de daño más por cada Energía Darkness unida a todos tus Pokémon.",
+			'it-it': "Questo attacco infligge 30 danni in più per ogni Energia Darkness assegnata ai tuoi Pokémon.",
+			'pt-br': "Este ataque causa 30 pontos de dano a mais para cada Energia Darkness ligada a todos os seus Pokémon.",
+			'de-de': "Diese Attacke fügt für jede an alle deine Pokémon angelegte Darkness-Energie 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"

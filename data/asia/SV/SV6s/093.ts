@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Enamorus"
+		'id-id': "Enamorus"
 	},
 
 	illustrator: "DOM",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Jika Enamorus datang terbang melampaui laut, artinya musim dingin yang ganas telah berakhir. Ada kisah tentang cinta kasih yang memekarkan hidup baru di Daerah Hisui."
+		'id-id': "Jika Enamorus datang terbang melampaui laut, artinya musim dingin yang ganas telah berakhir. Ada kisah tentang cinta kasih yang memekarkan hidup baru di Daerah Hisui."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Heart Sign"
+			'id-id': "Heart Sign"
 		},
 
 		damage: 30,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Love Resonance"
+			'id-id': "Love Resonance"
 		},
 
 		effect: {
-			id: "Jika di Arena sendiri ada Pokémon yang memiliki tipe yang sama dengan Pokémon di Arena lawan, kerusakan yang diberikan bertambah sejumlah 120."
+			'id-id': "Jika di Arena sendiri ada Pokémon yang memiliki tipe yang sama dengan Pokémon di Arena lawan, kerusakan yang diberikan bertambah sejumlah 120."
 		},
 
 		damage: "80+",

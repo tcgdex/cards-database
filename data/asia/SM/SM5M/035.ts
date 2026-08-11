@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラムパルド",
+		'ja-jp': "ラムパルド",
 	},
 
 	illustrator: "Yoshinobu Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "復元され 進化した ラムパルドが 逃げだして 頭突きで 高層ビルを 破壊したという 記録が ある。",
+		'ja-jp': "復元され 進化した ラムパルドが 逃げだして 頭突きで 高層ビルを 破壊したという 記録が ある。",
 	},
 
 	stage: "Stage2",
@@ -24,14 +24,14 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Fighting"],
 			effect: {
-				ja: "相手のバトルポケモンが進化ポケモンなら、60ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが進化ポケモンなら、60ダメージ追加。",
 			},
 		},
 		{
 			name: { ja: "ワイルドボンバー" },
 			cost: ["Fighting", "Fighting", "Fighting"],
 			effect: {
-				ja: "相手のバトルポケモンがたねポケモンなら、そのポケモンをきぜつさせる。",
+				'ja-jp': "相手のバトルポケモンがたねポケモンなら、そのポケモンをきぜつさせる。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ズガイドス",
+		'ja-jp': "ズガイドス",
 	},
 
 	retreat: 2,

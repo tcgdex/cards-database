@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Litten",
-		fr: "Flamiaou",
-		es: "Litten",
-		it: "Litten",
-		pt: "Litten",
-		de: "Flamiau"
+		'en-us': "Litten",
+		'fr-fr': "Flamiaou",
+		'es-es': "Litten",
+		'it-it': "Litten",
+		'pt-br': "Litten",
+		'de-de': "Flamiau"
 	},
 
 	illustrator: "0313",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Singe",
-				fr: "Roussi",
-				es: "Quemadura",
-				it: "Scottata",
-				pt: "Chamuscada",
-				de: "Versengung"
+				'en-us': "Singe",
+				'fr-fr': "Roussi",
+				'es-es': "Quemadura",
+				'it-it': "Scottata",
+				'pt-br': "Chamuscada",
+				'de-de': "Versengung"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+				'en-us': "Your opponent’s Active Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If you try too hard to get close to it, it won't open up to you. Even if you do grow close, giving it too much affection is still a no-no.",
+		'en-us': "If you try too hard to get close to it, it won't open up to you. Even if you do grow close, giving it too much affection is still a no-no.",
 	},
 
 	thirdParty: {

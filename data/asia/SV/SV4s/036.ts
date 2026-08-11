@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Vanillite"
+		'id-id': "Vanillite"
 	},
 
 	illustrator: "miki kudo",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Kabarnya Vanillite terlahir dari pilar es. Pokémon ini membekukan daerah sekitarnya dengan menghembuskan hawa dingin bersuhu -50 °C agar nyaman untuk ditinggali."
+		'id-id': "Kabarnya Vanillite terlahir dari pilar es. Pokémon ini membekukan daerah sekitarnya dengan menghembuskan hawa dingin bersuhu -50 °C agar nyaman untuk ditinggali."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Sejuk"
+			'id-id': "Sejuk"
 		},
 
 		damage: 40,

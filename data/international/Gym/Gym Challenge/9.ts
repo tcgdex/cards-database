@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Koga's Beedrill"
+		'en-us': "Koga's Beedrill"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kakuna"
+		'en-us': "Kakuna"
 	},
 
 	stage: "Stage2",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Nerve Poison"
+				'en-us': "Nerve Poison"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned."
 			},
 			damage: 20,
 
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Needle"
+				'en-us': "Hyper Needle"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing. Either way, you can't use this attack again as long as Koga's Beedrill stays in play (even putting Koga's Beedrill on the Bench won't let you use it again)."
+				'en-us': "Flip a coin. If tails, this attack does nothing. Either way, you can't use this attack again as long as Koga's Beedrill stays in play (even putting Koga's Beedrill on the Bench won't let you use it again)."
 			},
 
 		},

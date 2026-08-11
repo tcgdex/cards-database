@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Misty's Golduck"
+		'en-us': "Misty's Golduck"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Psyduck"
+		'en-us': "Psyduck"
 	},
 
 	stage: "Stage1",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electro Beam"
+				'en-us': "Electro Beam"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard all Energy cards attached to Misty's Golduck."
+				'en-us': "Flip a coin. If tails, discard all Energy cards attached to Misty's Golduck."
 			},
 			damage: 40,
 
@@ -46,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Removal"
+				'en-us': "Super Removal"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 Energy card attached to each of your opponent's Pokémon that has any Energy cards and discard those Energy cards."
+				'en-us': "Flip a coin. If heads, choose 1 Energy card attached to each of your opponent's Pokémon that has any Energy cards and discard those Energy cards."
 			},
 
 		},

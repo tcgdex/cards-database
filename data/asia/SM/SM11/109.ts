@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラティオスGX",
+		'ja-jp': "ラティオスGX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "パワーバインド" },
 			effect: {
-				ja: "自分の場のポケモンの数が4匹以下なら、このポケモンはワザが使えない。",
+				'ja-jp': "自分の場のポケモンの数が4匹以下なら、このポケモンはワザが使えない。",
 			},
 		},
 	],
@@ -30,14 +30,14 @@ const card: Card = {
 			damage: 120,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンは「TAG TEAM」のポケモンからワザのダメージを受けない。",
+				'ja-jp': "次の相手の番、このポケモンは「TAG TEAM」のポケモンからワザのダメージを受けない。",
 			},
 		},
 		{
 			name: { ja: "クリアビジョンGX" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "この対戦が終わるまで、相手のポケモンはGXワザが使えない。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "この対戦が終わるまで、相手のポケモンはGXワザが使えない。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

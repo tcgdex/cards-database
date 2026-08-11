@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sacred Ash",
-		fr: "Cendre Sacrée",
-		es: "Ceniza Sagrada",
+		'en-us': "Sacred Ash",
+		'fr-fr': "Cendre Sacrée",
+		'es-es': "Ceniza Sagrada",
 		'es-mx': "Ceniza Sagrada",
-		de: "Zauberasche",
-		it: "Cenere magica",
-		pt: "Cinza Sagrada"
+		'de-de': "Zauberasche",
+		'it-it': "Cenere magica",
+		'pt-br': "Cinza Sagrada"
 	},
 
 	illustrator: "Toyste Beach",
@@ -19,13 +19,13 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Shuffle up to 5 Pokémon from your discard pile into your deck.",
-		fr: "Mélangez avec votre deck jusqu'à 5 Pokémon de votre pile de défausse.",
-		es: "Pon hasta 5 Pokémon de tu pila de descartes en tu baraja y baraja todas las cartas.",
+		'en-us': "Shuffle up to 5 Pokémon from your discard pile into your deck.",
+		'fr-fr': "Mélangez avec votre deck jusqu'à 5 Pokémon de votre pile de défausse.",
+		'es-es': "Pon hasta 5 Pokémon de tu pila de descartes en tu baraja y baraja todas las cartas.",
 		'es-mx': "Baraja hasta 5 Pokémon de tu pila de descartes en tu mazo.",
-		de: "Mische bis zu 5 Pokémon aus deinem Ablagestapel in dein Deck.",
-		it: "Rimischia fino a cinque Pokémon dalla tua pila degli scarti nel tuo mazzo.",
-		pt: "Embaralhe até 5 Pokémon da sua pilha de descarte no seu baralho."
+		'de-de': "Mische bis zu 5 Pokémon aus deinem Ablagestapel in dein Deck.",
+		'it-it': "Rimischia fino a cinque Pokémon dalla tua pila degli scarti nel tuo mazzo.",
+		'pt-br': "Embaralhe até 5 Pokémon da sua pilha de descarte no seu baralho."
 	},
 
 	trainerType: "Item",

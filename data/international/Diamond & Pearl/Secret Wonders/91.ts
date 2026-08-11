@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Lickitung",
-		fr: "Excelangue",
-		de: "Schlurp"
+		'en-us': "Lickitung",
+		'fr-fr': "Excelangue",
+		'de-de': "Schlurp"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lick",
-				fr: "Léchouille",
-				de: "Schlecker"
+				'en-us': "Lick",
+				'fr-fr': "Léchouille",
+				'de-de': "Schlecker"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stomp",
-				fr: "Écrasement",
-				de: "Stampfer"
+				'en-us': "Stomp",
+				'fr-fr': "Écrasement",
+				'de-de': "Stampfer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Instead of hands, it uses its tongue, which is twice its height. Its sticky saliva grips anything.",
+		'en-us': "Instead of hands, it uses its tongue, which is twice its height. Its sticky saliva grips anything.",
 	},
 
 	thirdParty: {

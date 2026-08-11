@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ダイノーズ"
+		'ja-jp': "ダイノーズ"
 	},
 
 	illustrator: "Kariya",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "強い 磁力を 放っているので 近くにある 電化製品は 使いものに ならなくなってしまう。"
+		'ja-jp': "強い 磁力を 放っているので 近くにある 電化製品は 使いものに ならなくなってしまう。"
 	},
 
 	stage: "Stage1",
@@ -24,19 +24,19 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "アサルトレーザー"
+			'ja-jp': "アサルトレーザー"
 		},
 
 		damage: "80＋",
 
 		effect: {
-			ja: "相手のバトルポケモンに「ポケモンのどうぐ」がついているなら、80ダメージ追加。"
+			'ja-jp': "相手のバトルポケモンに「ポケモンのどうぐ」がついているなら、80ダメージ追加。"
 		}
 	}, {
 		cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ランドクラッシュ"
+			'ja-jp': "ランドクラッシュ"
 		},
 
 		damage: 120

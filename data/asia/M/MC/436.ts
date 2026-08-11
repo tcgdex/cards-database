@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団のニドリーノ",
+		'ja-jp': "ロケット団のニドリーノ",
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "神経質で 喧嘩っ早い。 体内の アドレナリンが 増えると 毒素の 濃度も 高まるぞ。",
+		'ja-jp': "神経質で 喧嘩っ早い。 体内の アドレナリンが 増えると 毒素の 濃度も 高まるぞ。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンにダメカンがのっているなら、60ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンにダメカンがのっているなら、60ダメージ追加。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ロケット団のニドラン♂",
+		'ja-jp': "ロケット団のニドラン♂",
 	},
 
 	retreat: 2,

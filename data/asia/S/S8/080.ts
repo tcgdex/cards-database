@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドーブル",
+		'ja-jp': "ドーブル",
 		'zh-tw': "圖圖犬",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "シッポの 先から でる 体液で マークを えがく。 マークに よっては マニアに 高値で 取引される。",
+		'ja-jp': "シッポの 先から でる 体液で マークを えがく。 マークに よっては マニアに 高値で 取引される。",
 		'zh-tw': "會用尾巴前端分泌出的液體畫下標記。其中有些標記會吸引愛好者以高價買賣。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "トラッシュスケッチ",
+				'ja-jp': "トラッシュスケッチ",
 				'zh-tw': "棄牌寫生",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュから「フュージョン」のトレーナーズを2枚まで選び、相手に見せて、手札に加える。",
+				'ja-jp': "自分のトラッシュから「フュージョン」のトレーナーズを2枚まで選び、相手に見せて、手札に加える。",
 				'zh-tw': "從自己的棄牌區選擇最多2張「匯流」訓練家卡，在給對手看過後加入手牌。",
 			},
 		},
 		{
 			name: {
-				ja: "しっぽではたく",
+				'ja-jp': "しっぽではたく",
 				'zh-tw': "擺尾拍擊",
 			},
 			damage: 80,

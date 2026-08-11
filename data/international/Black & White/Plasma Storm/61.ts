@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Gallade",
-		fr: "Gallame",
-		es: "Gallade",
-		it: "Gallade",
-		pt: "Gallade",
-		de: "Galagladi"
+		'en-us': "Gallade",
+		'fr-fr': "Gallame",
+		'es-es': "Gallade",
+		'it-it': "Gallade",
+		'pt-br': "Gallade",
+		'de-de': "Galagladi"
 	},
 
 	illustrator: "kawayoo",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kirlia",
-		fr: "Kirlia",
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia",
 	},
 
 	stage: "Stage2",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Powerful Storm",
-				fr: "Tempête Puissante",
+				'en-us': "Powerful Storm",
+				'fr-fr': "Tempête Puissante",
 			},
 			effect: {
-				en: "Does 20 damage times the amount of Energy attached to all of your Pokémon.",
-				fr: "Inflige 20 dégâts multipliés par le nombre d'Énergies attachées à tous vos Pokémon.",
+				'en-us': "Does 20 damage times the amount of Energy attached to all of your Pokémon.",
+				'fr-fr': "Inflige 20 dégâts multipliés par le nombre d'Énergies attachées à tous vos Pokémon.",
 			},
 			damage: 20,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swift Lunge",
-				fr: "Estocade",
+				'en-us': "Swift Lunge",
+				'fr-fr': "Estocade",
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
 			},
 			damage: 80,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When trying to protect someone, it extends its elbows as if they were swords and fights savagely.",
+		'en-us': "When trying to protect someone, it extends its elbows as if they were swords and fights savagely.",
 	},
 
 	thirdParty: {

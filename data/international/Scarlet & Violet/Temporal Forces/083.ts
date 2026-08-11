@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Medicham",
-		fr: "Charmina",
-		es: "Medicham",
-		it: "Medicham",
-		pt: "Medicham",
-		de: "Meditalis"
+		'en-us': "Medicham",
+		'fr-fr': "Charmina",
+		'es-es': "Medicham",
+		'it-it': "Medicham",
+		'pt-br': "Medicham",
+		'de-de': "Meditalis"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Meditite",
-		fr: "Méditikka",
-		es: "Meditite",
-		it: "Meditite",
-		pt: "Meditite",
-		de: "Meditie"
+		'en-us': "Meditite",
+		'fr-fr': "Méditikka",
+		'es-es': "Meditite",
+		'it-it': "Meditite",
+		'pt-br': "Meditite",
+		'de-de': "Meditie"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Low Sweep",
-			fr: "Balayette",
-			es: "Puntapié",
-			it: "Calciobasso",
-			pt: "Movimento Baixo",
-			de: "Fußtritt"
+			'en-us': "Low Sweep",
+			'fr-fr': "Balayette",
+			'es-es': "Puntapié",
+			'it-it': "Calciobasso",
+			'pt-br': "Movimento Baixo",
+			'de-de': "Fußtritt"
 		},
 
 		damage: 40
@@ -45,12 +45,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "High Jump Kick",
-			fr: "Pied Voltige",
-			es: "Patada Salto Alta",
-			it: "Calcinvolo",
-			pt: "Chute de Pulo Alto",
-			de: "Turmkick"
+			'en-us': "High Jump Kick",
+			'fr-fr': "Pied Voltige",
+			'es-es': "Patada Salto Alta",
+			'it-it': "Calcinvolo",
+			'pt-br': "Chute de Pulo Alto",
+			'de-de': "Turmkick"
 		},
 
 		damage: 110
@@ -66,7 +66,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It elegantly avoids attacks with dance-like steps, then launches a devastating blow in the same motion.",
+		'en-us': "It elegantly avoids attacks with dance-like steps, then launches a devastating blow in the same motion.",
 	},
 
 	variants: [

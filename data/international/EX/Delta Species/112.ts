@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Kyogre Star",
-		fr: "Kyogre ☆",
-		de: "Kyogre *"
+		'en-us': "Kyogre Star",
+		'fr-fr': "Kyogre ☆",
+		'de-de': "Kyogre *"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Critical Collection",
-				fr: "Collection difficile",
-				de: "Critical Collection"
+				'en-us': "Critical Collection",
+				'fr-fr': "Collection difficile",
+				'de-de': "Critical Collection"
 			},
 			effect: {
-				en: "Count the number of Prize cards your opponent has taken. Search your discard pile for up to that many Water Energy cards and attach them to Kyogre Star.",
-				fr: "Comptabilisez le nombre de cartes Récompense récoltées par votre adversaire. Cherchez dans votre pile de défausse le même nombre de cartes Énergie  et attachez-les à Kyogre .",
-				de: "Count the number of Prize cards your opponent has taken. Search your discard pile for up to that many [W] Energy cards and attach them to Kyogre *."
+				'en-us': "Count the number of Prize cards your opponent has taken. Search your discard pile for up to that many Water Energy cards and attach them to Kyogre Star.",
+				'fr-fr': "Comptabilisez le nombre de cartes Récompense récoltées par votre adversaire. Cherchez dans votre pile de défausse le même nombre de cartes Énergie  et attachez-les à Kyogre .",
+				'de-de': "Count the number of Prize cards your opponent has taken. Search your discard pile for up to that many [W] Energy cards and attach them to Kyogre *."
 			},
 			damage: 10,
 
@@ -52,14 +52,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Sheer Cold",
-				fr: "Glaciation",
-				de: "Sheer Cold"
+				'en-us': "Sheer Cold",
+				'fr-fr': "Glaciation",
+				'de-de': "Sheer Cold"
 			},
 			effect: {
-				en: "Flip a coin. If heads, each Defending Pokémon can't attack during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, chaque Pokémon Défenseur ne peut pas attaquer lors du prochain tour de votre adversaire.",
-				de: "Flip a coin. If heads, each Defending Pokémon can't attack during your opponent's next turn."
+				'en-us': "Flip a coin. If heads, each Defending Pokémon can't attack during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, chaque Pokémon Défenseur ne peut pas attaquer lors du prochain tour de votre adversaire.",
+				'de-de': "Flip a coin. If heads, each Defending Pokémon can't attack during your opponent's next turn."
 			},
 			damage: 60,
 

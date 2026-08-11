@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Marill",
-		fr: "Marill",
-		de: "Marill"
+		'en-us': "Marill",
+		'fr-fr': "Marill",
+		'de-de': "Marill"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Defense Curl",
-				fr: "Boul'armure",
-				de: "Defense Curl"
+				'en-us': "Defense Curl",
+				'fr-fr': "Boul'armure",
+				'de-de': "Defense Curl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Marill during your opponent's next turn. (Any other effects of attacks still happen.)",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Marill pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
-				de: "Flip a coin. If heads, prevent all damage done to Marill during your opponent's next turn. (Any other effects of attacks still happen.)"
+				'en-us': "Flip a coin. If heads, prevent all damage done to Marill during your opponent's next turn. (Any other effects of attacks still happen.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Marill pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
+				'de-de': "Flip a coin. If heads, prevent all damage done to Marill during your opponent's next turn. (Any other effects of attacks still happen.)"
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Bubble Bomb",
-				fr: "Bulle bombe",
-				de: "Bubble Bomb"
+				'en-us': "Bubble Bomb",
+				'fr-fr': "Bulle bombe",
+				'de-de': "Bubble Bomb"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, Marill does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, Marill s'inflige 10 dégâts.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, Marill does 10 damage to itself."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, Marill does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, Marill s'inflige 10 dégâts.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, Marill does 10 damage to itself."
 			},
 			damage: 30,
 
@@ -72,8 +72,8 @@ const card: Card = {
 
 
 	description: {
-		en: "The end of its tail serves as a buoy that keeps it from drowning, even in a vicious current.",
-		fr: "L'extrémité de sa queue lui sert de bouée et lui évite de couler, même dans les courants les plus sournois."
+		'en-us': "The end of its tail serves as a buoy that keeps it from drowning, even in a vicious current.",
+		'fr-fr': "L'extrémité de sa queue lui sert de bouée et lui évite de couler, même dans les courants les plus sournois."
 	},
 
 

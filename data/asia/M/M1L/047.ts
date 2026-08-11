@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ディアルガ",
+		'ja-jp': "ディアルガ",
 	},
 
 	illustrator: "Teeziro",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "時間を 操る 力を 持つ。  シンオウ地方では 神様と 呼ばれ  神話に 登場する。",
+		'ja-jp': "時間を 操る 力を 持つ。  シンオウ地方では 神様と 呼ばれ  神話に 登場する。",
 	},
 
 	stage: "Basic",

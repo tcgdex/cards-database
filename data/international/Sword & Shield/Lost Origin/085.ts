@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Poliwrath",
-		fr: "Tartard",
-		es: "Poliwrath",
-		it: "Poliwrath",
-		pt: "Poliwrath",
-		de: "Quappo"
+		'en-us': "Poliwrath",
+		'fr-fr': "Tartard",
+		'es-es': "Poliwrath",
+		'it-it': "Poliwrath",
+		'pt-br': "Poliwrath",
+		'de-de': "Quappo"
 	},
 
 	illustrator: "Teeziro",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Poliwhirl",
-		fr: "Têtarte",
-		es: "Poliwhirl",
-		it: "Poliwhirl",
-		pt: "Poliwhirl",
-		de: "Quaputzi"
+		'en-us': "Poliwhirl",
+		'fr-fr': "Têtarte",
+		'es-es': "Poliwhirl",
+		'it-it': "Poliwhirl",
+		'pt-br': "Poliwhirl",
+		'de-de': "Quaputzi"
 	},
 
 	stage: "Stage2",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Split Spiral Punch",
-			fr: "Coup d'Poing en Demi Spirale",
-			es: "Puño en Espiral Cortante",
-			it: "Spiralpugno Squarciante",
-			pt: "Soco Espiral Dividido",
-			de: "Spiralhieb"
+			'en-us': "Split Spiral Punch",
+			'fr-fr': "Coup d'Poing en Demi Spirale",
+			'es-es': "Puño en Espiral Cortante",
+			'it-it': "Spiralpugno Squarciante",
+			'pt-br': "Soco Espiral Dividido",
+			'de-de': "Spiralhieb"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
 		damage: 60
@@ -57,21 +57,21 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Splash Loop",
-			fr: "Boucle Éclaboussure",
-			es: "Bucle Salpicadura",
-			it: "Circuito Splash",
-			pt: "Borrifada em Loop",
-			de: "Platscherschleife"
+			'en-us': "Splash Loop",
+			'fr-fr': "Boucle Éclaboussure",
+			'es-es': "Bucle Salpicadura",
+			'it-it': "Circuito Splash",
+			'pt-br': "Borrifada em Loop",
+			'de-de': "Platscherschleife"
 		},
 
 		effect: {
-			en: "Put 2 Energy attached to this Pokémon into your hand.",
-			fr: "Ajoutez à votre main 2 Énergies attachées à ce Pokémon.",
-			es: "Pon 2 Energías unidas a este Pokémon en tu mano.",
-			it: "Prendi due Energie assegnate a questo Pokémon e aggiungile alle carte che hai in mano.",
-			pt: "Coloque 2 Energias ligadas a este Pokémon na sua mão.",
-			de: "Nimm 2 an dieses Pokémon angelegte Energien auf deine Hand."
+			'en-us': "Put 2 Energy attached to this Pokémon into your hand.",
+			'fr-fr': "Ajoutez à votre main 2 Énergies attachées à ce Pokémon.",
+			'es-es': "Pon 2 Energías unidas a este Pokémon en tu mano.",
+			'it-it': "Prendi due Energie assegnate a questo Pokémon e aggiungile alle carte che hai in mano.",
+			'pt-br': "Coloque 2 Energias ligadas a este Pokémon na sua mão.",
+			'de-de': "Nimm 2 an dieses Pokémon angelegte Energien auf deine Hand."
 		},
 
 		damage: 160

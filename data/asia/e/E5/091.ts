@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "セレビ",
+		'ja-jp': "セレビ",
 	},
 
 	rarity: "Secret Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "クリスタルタイプ",
+				'ja-jp': "クリスタルタイプ",
 			},
 			effect: {
-				ja: "手からセレビに草、水、またはサイキックの基本エネルギーカードを取り付けると、セレビのタイプ（色）はターンの終わりまでそのタイプのエネルギーと同じになります。",
+				'ja-jp': "手からセレビに草、水、またはサイキックの基本エネルギーカードを取り付けると、セレビのタイプ（色）はターンの終わりまでそのタイプのエネルギーと同じになります。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Grass", "Water"],
 			name: {
-				ja: "共感的な癒し",
+				'ja-jp': "共感的な癒し",
 			},
 			effect: {
-				ja: "セレビと、セレビと同じタイプ（色）の各ポケモンから2つのダメージカウンターを削除します。",
+				'ja-jp': "セレビと、セレビと同じタイプ（色）の各ポケモンから2つのダメージカウンターを削除します。",
 			},
 		},
 		{
 			cost: ["Grass", "Psychic", "Colorless"],
 			name: {
-				ja: "マインドベンド",
+				'ja-jp': "マインドベンド",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
 			},
 			damage: 20,
 		},

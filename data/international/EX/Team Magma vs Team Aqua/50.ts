@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Corphish",
-		fr: "Écrapince de Team Aqua",
-		de: "Team Aquas Krebscorps"
+		'en-us': "Team Aqua's Corphish",
+		'fr-fr': "Écrapince de Team Aqua",
+		'de-de': "Team Aquas Krebscorps"
 	},
 
 	illustrator: "Jungo Suzuki",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Toxic Grip",
-				fr: "Pince empoisonnée",
-				de: "Toxic Grip"
+				'en-us': "Toxic Grip",
+				'fr-fr': "Pince empoisonnée",
+				'de-de': "Toxic Grip"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "The Defending Pokémon is now Poisoned."
 			},
 
 		},

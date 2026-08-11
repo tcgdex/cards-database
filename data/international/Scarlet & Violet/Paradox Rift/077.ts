@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pumpkaboo",
-		fr: "Pitrouille",
-		es: "Pumpkaboo",
-		it: "Pumpkaboo",
-		pt: "Pumpkaboo",
-		de: "Irrbis"
+		'en-us': "Pumpkaboo",
+		'fr-fr': "Pitrouille",
+		'es-es': "Pumpkaboo",
+		'it-it': "Pumpkaboo",
+		'pt-br': "Pumpkaboo",
+		'de-de': "Irrbis"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Seed Bomb",
-			fr: "Canon Graine",
-			es: "Bomba Germen",
-			it: "Semebomba",
-			pt: "Bomba de Sementes",
-			de: "Samenbomben"
+			'en-us': "Seed Bomb",
+			'fr-fr': "Canon Graine",
+			'es-es': "Bomba Germen",
+			'it-it': "Semebomba",
+			'pt-br': "Bomba de Sementes",
+			'de-de': "Samenbomben"
 		},
 
 		damage: 10
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Reckless Charge",
-			fr: "Attaque Imprudente",
-			es: "Carga Descuidada",
-			it: "Carica Avventata",
-			pt: "Carga Indomável",
-			de: "Waghalsiger Sturmangriff"
+			'en-us': "Reckless Charge",
+			'fr-fr': "Attaque Imprudente",
+			'es-es': "Carga Descuidada",
+			'it-it': "Carica Avventata",
+			'pt-br': "Carga Indomável",
+			'de-de': "Waghalsiger Sturmangriff"
 		},
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 20 dégâts.",
-			es: "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 20 danni a se stesso.",
-			pt: "Este Pokémon também causa 20 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 20 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 20 dégâts.",
+			'es-es': "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 20 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 20 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu."
 		},
 
 		damage: 40
@@ -73,7 +73,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "The light that streams out from the holes in the pumpkin can hypnotize and control the people and Pokémon that see it.",
+		'en-us': "The light that streams out from the holes in the pumpkin can hypnotize and control the people and Pokémon that see it.",
 	},
 
 	variants: [

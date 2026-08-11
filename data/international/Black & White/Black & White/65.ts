@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Krookodile",
-		fr: "Crocorible",
-		es: "Krookodile",
-		it: "Krookodile",
-		pt: "Krookodile",
-		de: "Rabigator"
+		'en-us': "Krookodile",
+		'fr-fr': "Crocorible",
+		'es-es': "Krookodile",
+		'it-it': "Krookodile",
+		'pt-br': "Krookodile",
+		'de-de': "Rabigator"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Krokorok",
-		fr: "Escroco",
+		'en-us': "Krokorok",
+		'fr-fr': "Escroco",
 	},
 
 	stage: "Stage2",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Torment",
-				fr: "Tourmente",
+				'en-us': "Torment",
+				'fr-fr': "Tourmente",
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
-				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Le Pokémon Défenseur ne pourra pas l'utiliser lors du prochain tour de votre adversaire.",
+				'en-us': "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
+				'fr-fr': "Choisissez 1 des attaques du Pokémon Défenseur. Le Pokémon Défenseur ne pourra pas l'utiliser lors du prochain tour de votre adversaire.",
 			},
 			damage: 30,
 
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Krookoroll",
-				fr: "Crocoroulade",
+				'en-us': "Krookoroll",
+				'fr-fr': "Crocoroulade",
 			},
 			effect: {
-				en: "If the Defending Pokémon already has any damage counters on it, this attack does 40 more damage.",
-				fr: "Si le Pokémon Défenseur a déjà des marqueurs de dégâts, cette attaque inflige 40 dégâts supplémentaires.",
+				'en-us': "If the Defending Pokémon already has any damage counters on it, this attack does 40 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur a déjà des marqueurs de dégâts, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: 60,
 
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It can expand the focus of its eyes, enabling it to see objects in the far distance as if it were using binoculars.",
+		'en-us': "It can expand the focus of its eyes, enabling it to see objects in the far distance as if it were using binoculars.",
 	},
 
 	thirdParty: {

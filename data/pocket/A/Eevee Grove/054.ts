@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drampa",
-		fr: "Draïeul"
+		'en-us': "Drampa",
+		'fr-fr': "Draïeul"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -18,24 +18,24 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		en: "The mountains it calls home are nearly two miles\nin height. On rare occasions, it descends to play\nwith the children living in the towns below.",
-		fr: "Il vit dans les montagnes culminant à plus de 3 000 m d'altitude. Il se rend parfois en ville pour jouer avec les petits enfants."
+		'en-us': "The mountains it calls home are nearly two miles\nin height. On rare occasions, it descends to play\nwith the children living in the towns below.",
+		'fr-fr': "Il vit dans les montagnes culminant à plus de 3 000 m d'altitude. Il se rend parfois en ville pour jouer avec les petits enfants."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Dragon Breath",
-			fr: "Draco-Souffle"
+			'en-us': "Dragon Breath",
+			'fr-fr': "Draco-Souffle"
 		},
 
 		damage: 70,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+			'en-us': "Flip a coin. If tails, this attack does nothing. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
 		}
 	}],
 

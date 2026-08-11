@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ノコッチ",
+		'ja-jp': "ノコッチ",
 		'zh-tw': "土龍弟弟",
 		'zh-cn': "土龍弟弟"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "暗い場所に 迷路を 作る。 だれかに みられると 尻尾で 地面を 掘って 逃げようとする。",
+		'ja-jp': "暗い場所に 迷路を 作る。 だれかに みられると 尻尾で 地面を 掘って 逃げようとする。",
 		'zh-tw': "會在陰暗處做出迷宮。 只要被誰看見就會 用尾巴挖掘地面逃走。",
 		'zh-cn': "會在陰暗處做出迷宮。 只要被誰看見就會 用尾巴挖掘地面逃走。"
 	},
@@ -29,13 +29,13 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "いれかわる",
+			'ja-jp': "いれかわる",
 			'zh-tw': "交替",
 			'zh-cn': "交替"
 		},
 
 		effect: {
-			ja: "このポケモンをベンチポケモンと入れ替える。",
+			'ja-jp': "このポケモンをベンチポケモンと入れ替える。",
 			'zh-tw': "將這隻寶可夢與備戰寶可夢互換。",
 			'zh-cn': "將這隻寶可夢與備戰寶可夢互換。"
 		}
@@ -43,7 +43,7 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ぶつかる",
+			'ja-jp': "ぶつかる",
 			'zh-tw': "衝撞",
 			'zh-cn': "衝撞"
 		},

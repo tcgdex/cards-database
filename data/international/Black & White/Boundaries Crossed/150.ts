@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Golurk",
-		fr: "Golemastoc",
-		es: "Golurk",
-		it: "Golurk",
-		pt: "Golurk",
-		de: "Golgantes"
+		'en-us': "Golurk",
+		'fr-fr': "Golemastoc",
+		'es-es': "Golurk",
+		'it-it': "Golurk",
+		'pt-br': "Golurk",
+		'de-de': "Golgantes"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Golett",
-		fr: "Gringolem",
+		'en-us': "Golett",
+		'fr-fr': "Gringolem",
 	},
 
 	stage: "Stage1",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Devolution Punch",
-				fr: "Beigne Dés-évoluante",
+				'en-us': "Devolution Punch",
+				'fr-fr': "Beigne Dés-évoluante",
 			},
 			effect: {
-				en: "Devolve the Defending Pokémon and put the highest Stage Evolution card on it into your opponent's hand.",
-				fr: "Faites dés-évoluer le Pokémon Défenseur et mettez sa carte Évolution de plus haut Niveau dans la main de votre adversaire.",
+				'en-us': "Devolve the Defending Pokémon and put the highest Stage Evolution card on it into your opponent's hand.",
+				'fr-fr': "Faites dés-évoluer le Pokémon Défenseur et mettez sa carte Évolution de plus haut Niveau dans la main de votre adversaire.",
 			},
 			damage: 60,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ghost Hammer",
-				fr: "Spectro Maillet",
+				'en-us': "Ghost Hammer",
+				'fr-fr': "Spectro Maillet",
 			},
 			effect: {
-				en: "During your opponent's next turn, this Pokémon has no Weakness.",
-				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon n'a pas de Faiblesse.",
+				'en-us': "During your opponent's next turn, this Pokémon has no Weakness.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, ce Pokémon n'a pas de Faiblesse.",
 			},
 			damage: 90,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
+		'en-us': "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホーホー",
+		'ja-jp': "ホーホー",
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "いつも 一本足で 立っている。 脚を 入れ替える 瞬間は 素早くて なかなか 見られない。",
+		'ja-jp': "いつも 一本足で 立っている。 脚を 入れ替える 瞬間は 素早くて なかなか 見られない。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手の手札を見る。",
+				'ja-jp': "相手の手札を見る。",
 			},
 		},
 	],

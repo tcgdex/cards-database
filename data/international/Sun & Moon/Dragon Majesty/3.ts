@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Majesty'
 
 const card: Card = {
 	name: {
-		en: "Charizard",
-		fr: "Dracaufeu",
-		es: "Charizard",
-		it: "Charizard",
-		pt: "Charizard",
-		de: "Glurak"
+		'en-us': "Charizard",
+		'fr-fr': "Dracaufeu",
+		'es-es': "Charizard",
+		'it-it': "Charizard",
+		'pt-br': "Charizard",
+		'de-de': "Glurak"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmeleon",
-		fr: "Reptincel",
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel",
 	},
 
 	stage: "Stage2",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Resolute Flame",
-				fr: "Flamme Résolue",
-				es: "Llama Firme",
-				it: "Fiamma Risoluta",
-				pt: "Chama Resoluta",
-				de: "Resolute Flamme"
+				'en-us': "Resolute Flame",
+				'fr-fr': "Flamme Résolue",
+				'es-es': "Llama Firme",
+				'it-it': "Fiamma Risoluta",
+				'pt-br': "Chama Resoluta",
+				'de-de': "Resolute Flamme"
 			},
 			effect: {
-				en: "This Pokémon’s attacks do 30 more damage to your opponent’s Active Pokémon for each of their Pokémon-GX and Pokémon-EX in play.",
-				fr: "Les attaques de ce Pokémon infligent 30 dégâts supplémentaires au Pokémon Actif de votre adversaire pour chacun de ses Pokémon-GX et Pokémon-EX en jeu.",
-				es: "Los ataques de este Pokémon hacen 30 puntos de daño más al Pokémon Activo de tu rival por cada uno de sus Pokémon-GX y Pokémon-EX en juego.",
-				it: "Gli attacchi di questo Pokémon infliggono 30 danni in più al Pokémon attivo del tuo avversario per ogni suo Pokémon-GX e Pokémon-EX in gioco.",
-				pt: "Os ataques deste Pokémon causam 30 pontos de dano a mais ao Pokémon Ativo do seu oponente para cada um dos Pokémon-GX e Pokémon-EX dele(a) em jogo.",
-				de: "Die Attacken dieses Pokémon fügen dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr mal der Anzahl der Pokémon-GX und Pokémon-EX, die er im Spiel hat, zu."
+				'en-us': "This Pokémon’s attacks do 30 more damage to your opponent’s Active Pokémon for each of their Pokémon-GX and Pokémon-EX in play.",
+				'fr-fr': "Les attaques de ce Pokémon infligent 30 dégâts supplémentaires au Pokémon Actif de votre adversaire pour chacun de ses Pokémon-GX et Pokémon-EX en jeu.",
+				'es-es': "Los ataques de este Pokémon hacen 30 puntos de daño más al Pokémon Activo de tu rival por cada uno de sus Pokémon-GX y Pokémon-EX en juego.",
+				'it-it': "Gli attacchi di questo Pokémon infliggono 30 danni in più al Pokémon attivo del tuo avversario per ogni suo Pokémon-GX e Pokémon-EX in gioco.",
+				'pt-br': "Os ataques deste Pokémon causam 30 pontos de dano a mais ao Pokémon Ativo do seu oponente para cada um dos Pokémon-GX e Pokémon-EX dele(a) em jogo.",
+				'de-de': "Die Attacken dieses Pokémon fügen dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr mal der Anzahl der Pokémon-GX und Pokémon-EX, die er im Spiel hat, zu."
 			},
 		},
 	],
@@ -63,20 +63,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fiery Blast",
-				fr: "Explosion Ardente",
-				es: "Explosión Ardiente",
-				it: "Bomba Incendiaria",
-				pt: "Explosão Ardente",
-				de: "Feuerstoß"
+				'en-us': "Fiery Blast",
+				'fr-fr': "Explosion Ardente",
+				'es-es': "Explosión Ardiente",
+				'it-it': "Bomba Incendiaria",
+				'pt-br': "Explosão Ardente",
+				'de-de': "Feuerstoß"
 			},
 			effect: {
-				en: "Discard an Energy from this Pokémon.",
-				fr: "Défaussez une Énergie de ce Pokémon.",
-				es: "Descarta 1 Energía de este Pokémon.",
-				it: "Scarta un’Energia assegnata a questo Pokémon.",
-				pt: "Descarte 1 Energia deste Pokémon.",
-				de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard an Energy from this Pokémon.",
+				'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+				'es-es': "Descarta 1 Energía de este Pokémon.",
+				'it-it': "Scarta un’Energia assegnata a questo Pokémon.",
+				'pt-br': "Descarte 1 Energia deste Pokémon.",
+				'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 130,
 
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very high temperatures.",
+		'en-us': "Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very high temperatures.",
 	},
 
 	thirdParty: {

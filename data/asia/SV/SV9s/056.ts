@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เมแทงก์",
-		id: "Metang"
+		'th-th': "เมแทงก์",
+		'id-id': "Metang"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -15,24 +15,24 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		th: "ดันบัล 2 ตัวเชื่อมต่อตัวเข้าด้วยกัน ด้วยเนื้อเยื่อสมอง 2 ก้อนที่ เชื่อมกันทำให้พลังจิตนั้นแข็งแกร่งขึ้นกว่าเดิม",
-		id: "Dua Beldum telah menyatu. Karena 2 otaknya telah terhubung, kekuatan psikokinesisnya menjadi lebih kuat."
+		'th-th': "ดันบัล 2 ตัวเชื่อมต่อตัวเข้าด้วยกัน ด้วยเนื้อเยื่อสมอง 2 ก้อนที่ เชื่อมกันทำให้พลังจิตนั้นแข็งแกร่งขึ้นกว่าเดิม",
+		'id-id': "Dua Beldum telah menyatu. Karena 2 otaknya telah terhubung, kekuatan psikokinesisnya menjadi lebih kuat."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "ไซโคพันช์",
-			id: "Pukulan Psikis"
+			'th-th': "ไซโคพันช์",
+			'id-id': "Pukulan Psikis"
 		},
 
 		damage: 30,
 		cost: ["Psychic"]
 	}, {
 		name: {
-			th: "โขกหัวพลังจิต",
-			id: "Sundulan Spiritual"
+			'th-th': "โขกหัวพลังจิต",
+			'id-id': "Sundulan Spiritual"
 		},
 
 		damage: 50,

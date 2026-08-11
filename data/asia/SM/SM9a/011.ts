@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キュレム",
+		'ja-jp': "キュレム",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "失った 体を 真実と 理想で 埋めてくれる 英雄を 待つ 氷の 伝説ポケモン。",
+		'ja-jp': "失った 体を 真実と 理想で 埋めてくれる 英雄を 待つ 氷の 伝説ポケモン。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "れいきをよぶ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある[水]エネルギーを1枚、このポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札にある[水]エネルギーを1枚、このポケモンにつける。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 110,
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[水]エネルギーを2個トラッシュし、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "このポケモンについている[水]エネルギーを2個トラッシュし、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],

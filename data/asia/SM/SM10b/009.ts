@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドンメル",
+		'ja-jp': "ドンメル",
 	},
 
 	illustrator: "Motofumi Fujiwara",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "灼熱の マグマを 背中の コブに ためている。 雨に 当たると マグマが 冷えて 動きが 鈍る。",
+		'ja-jp': "灼熱の マグマを 背中の コブに ためている。 雨に 当たると マグマが 冷えて 動きが 鈍る。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Fire", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 	],

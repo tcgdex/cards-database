@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../web1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダークアラカザム",
+		'ja-jp': "ダークアラカザム",
 	},
 
 	rarity: "Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Psychic", "Colorless"],
 			name: {
-				ja: "テレポートブラスト",
+				'ja-jp': "テレポートブラスト",
 			},
 			effect: {
-				ja: "ベンチ付きポケモンを1枚置いて、暗いアラカザムを切り替えることができます。 （ポケモンを切り替える前にダメージを与えます。）",
+				'ja-jp': "ベンチ付きポケモンを1枚置いて、暗いアラカザムを切り替えることができます。 （ポケモンを切り替える前にダメージを与えます。）",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Psychic", "Psychic", "Psychic"],
 			name: {
-				ja: "マインドショック",
+				'ja-jp': "マインドショック",
 			},
 			effect: {
-				ja: "この攻撃に衰弱と抵抗を適用しないでください。 （衰弱と抵抗を適用した後に発生する他の効果はまだ起こります。）",
+				'ja-jp': "この攻撃に衰弱と抵抗を適用しないでください。 （衰弱と抵抗を適用した後に発生する他の効果はまだ起こります。）",
 			},
 			damage: 40,
 		},

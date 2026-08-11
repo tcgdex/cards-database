@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Iron Bundle"
+		'id-id': "Iron Bundle"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Pokémon yang mirip dengan objek misterius yang terdaftar dalam sebuah buku kuno. Hanya terdapat 2 laporan penampakan Pokémon ini."
+		'id-id': "Pokémon yang mirip dengan objek misterius yang terdaftar dalam sebuah buku kuno. Hanya terdapat 2 laporan penampakan Pokémon ini."
 	},
 
 	stage: "Basic",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Hyper Blower"
+			'id-id': "Hyper Blower"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri jika Pokémon ini ada di Cadangan. Tukar Pokémon Bertarung lawan dengan Pokémon Cadangan. (Pokémon yang akan dimasukkan ke Arena Bertarung dipilih oleh lawan.) Setelah itu, buang Pokémon ini dan semua kartu yang dikenakannya ke Trash."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri jika Pokémon ini ada di Cadangan. Tukar Pokémon Bertarung lawan dengan Pokémon Cadangan. (Pokémon yang akan dimasukkan ke Arena Bertarung dipilih oleh lawan.) Setelah itu, buang Pokémon ini dan semua kartu yang dikenakannya ke Trash."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Jet Pendingin"
+			'id-id': "Jet Pendingin"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, Pokémon Evolusi yang menerima serangan ini tidak dapat menggunakan serangan."
+			'id-id': "Pada giliran lawan berikutnya, Pokémon Evolusi yang menerima serangan ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 80,

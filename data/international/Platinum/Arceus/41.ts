@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Haunter",
-		de: "Alpollo"
+		'en-us': "Haunter",
+		'de-de': "Alpollo"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gastly"
+		'en-us': "Gastly"
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Hidden Poison",
-				de: "Verborgenes Gift"
+				'en-us': "Hidden Poison",
+				'de-de': "Verborgenes Gift"
 			},
 			effect: {
-				en: "If Haunter is your Active Pokémon and is damaged by an opponent's attack (even if Haunter is Knocked Out), the Attacking Pokémon is now Poisoned.",
-				de: "Wenn Alpollo dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Alpollo dadurch kampfunfähig wird), ist das Angreifende Pokémon jetzt vergiftet."
+				'en-us': "If Haunter is your Active Pokémon and is damaged by an opponent's attack (even if Haunter is Knocked Out), the Attacking Pokémon is now Poisoned.",
+				'de-de': "Wenn Alpollo dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Alpollo dadurch kampfunfähig wird), ist das Angreifende Pokémon jetzt vergiftet."
 			}
 		},
 	],
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tongue Spring",
-				de: "Schnappzunge"
+				'en-us': "Tongue Spring",
+				'de-de': "Schnappzunge"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'de-de': "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering."
+		'en-us': "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering."
 	},
 
 	variants: [

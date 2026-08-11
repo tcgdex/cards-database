@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It is far stronger than it appears. If a Phanpy is swinging its trunk around and your arm gets hit by it, your arm bone will shatter.",
+		'en-us': "It is far stronger than it appears. If a Phanpy is swinging its trunk around and your arm gets hit by it, your arm bone will shatter.",
 	},
 
 
 	name: {
-		en: "Phanpy",
-		fr: "Phanpy",
-		es: "Phanpy",
+		'en-us': "Phanpy",
+		'fr-fr': "Phanpy",
+		'es-es': "Phanpy",
 		'es-mx': "Phanpy",
-		de: "Phanpy",
-		it: "Phanpy",
-		pt: "Phanpy"
+		'de-de': "Phanpy",
+		'it-it': "Phanpy",
+		'pt-br': "Phanpy"
 	},
 
 	illustrator: "Akino Fukuji",
@@ -29,26 +29,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Mud-Slap",
-			fr: "Coud'Boue",
-			es: "Bofetón Lodo",
+			'en-us': "Mud-Slap",
+			'fr-fr': "Coud'Boue",
+			'es-es': "Bofetón Lodo",
 			'es-mx': "Bofetón Lodo",
-			de: "Lehmschelle",
-			it: "Fangosberla",
-			pt: "Tapa de Lama"
+			'de-de': "Lehmschelle",
+			'it-it': "Fangosberla",
+			'pt-br': "Tapa de Lama"
 		},
 
 		cost: ["Fighting"],
 		damage: 10
 	}, {
 		name: {
-			en: "Rollout",
-			fr: "Roulade",
-			es: "Rodar",
+			'en-us': "Rollout",
+			'fr-fr': "Roulade",
+			'es-es': "Rodar",
 			'es-mx': "Rodada",
-			de: "Walzer",
-			it: "Rotolamento",
-			pt: "Rolagem"
+			'de-de': "Walzer",
+			'it-it': "Rotolamento",
+			'pt-br': "Rolagem"
 		},
 
 		cost: ["Colorless", "Colorless", "Colorless"],

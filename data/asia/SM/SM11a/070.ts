@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カメックス&ポッチャマGX",
+		'ja-jp': "カメックス&ポッチャマGX",
 	},
 
 	illustrator: "Akira Komayama",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "のぞむなら、自分の手札にある[水]エネルギーを3枚まで、自分のポケモンに好きなようにつける。その後、つけたポケモンのHPを、それぞれつけた枚数×50ダメージぶん回復する。",
+				'ja-jp': "のぞむなら、自分の手札にある[水]エネルギーを3枚まで、自分のポケモンに好きなようにつける。その後、つけたポケモンのHPを、それぞれつけた枚数×50ダメージぶん回復する。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをマヒにする。追加で[水]エネルギーが3個ついているなら、150ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のバトルポケモンをマヒにする。追加で[水]エネルギーが3個ついているなら、150ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

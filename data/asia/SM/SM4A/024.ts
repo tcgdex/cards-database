@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オコリザル",
+		'ja-jp': "オコリザル",
 	},
 
 	illustrator: "Yuka Morii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "あまりに 怒りすぎて そのまま 死んでしまうことが あるほどだが その死に顔は とても 安らか。",
+		'ja-jp': "あまりに 怒りすぎて そのまま 死んでしまうことが あるほどだが その死に顔は とても 安らか。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Fighting", "Fighting"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「+30」される。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「+30」される。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マンキー",
+		'ja-jp': "マンキー",
 	},
 
 	retreat: 1,

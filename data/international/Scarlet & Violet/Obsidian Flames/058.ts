@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Taupikeau",
-		en: "Wiglett",
-		es: "Wiglett",
-		it: "Wiglett",
-		pt: "Wiglett",
-		de: "Schligda"
+		'fr-fr': "Taupikeau",
+		'en-us': "Wiglett",
+		'es-es': "Wiglett",
+		'it-it': "Wiglett",
+		'pt-br': "Wiglett",
+		'de-de': "Schligda"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			fr: "Pluie Éclaboussante",
-			en: "Rain Splash",
-			es: "Golpe de Lluvia",
-			it: "Spruzzapioggia",
-			pt: "Chuva Borrifante",
-			de: "Regenplatscher"
+			'fr-fr': "Pluie Éclaboussante",
+			'en-us': "Rain Splash",
+			'es-es': "Golpe de Lluvia",
+			'it-it': "Spruzzapioggia",
+			'pt-br': "Chuva Borrifante",
+			'de-de': "Regenplatscher"
 		},
 
 		damage: 10
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.",
+		'en-us': "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.",
 	},
 
 	variants: [

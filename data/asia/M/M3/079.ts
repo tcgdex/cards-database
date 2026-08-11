@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "テレパス超エネルギー",
+		'ja-jp': "テレパス超エネルギー",
 	},
 
 	illustrator: "",
@@ -13,7 +13,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		ja: "このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。このカードを手札からポケモンにつけたとき、自分の山札からタイプのたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
+		'ja-jp': "このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。このカードを手札からポケモンにつけたとき、自分の山札からタイプのたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
 	},
 
 	variants: [{"type": "holo"}],

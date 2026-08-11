@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eelektrik",
-		fr: "Lampéroie",
-		es: "Eelektrik",
-		it: "Eelektrik",
-		pt: "Eelektrik",
-		de: "Zapplalek"
+		'en-us': "Eelektrik",
+		'fr-fr': "Lampéroie",
+		'es-es': "Eelektrik",
+		'it-it': "Eelektrik",
+		'pt-br': "Eelektrik",
+		'de-de': "Zapplalek"
 	},
 
 	illustrator: "NC Empire",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Tynamo",
-		fr: "Anchwatt",
-		es: "Tynamo",
-		it: "Tynamo",
-		pt: "Tynamo",
-		de: "Zapplardin"
+		'en-us': "Tynamo",
+		'fr-fr': "Anchwatt",
+		'es-es': "Tynamo",
+		'it-it': "Tynamo",
+		'pt-br': "Tynamo",
+		'de-de': "Zapplardin"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Ad Hoc Shock",
-			fr: "Choc Ponctuel",
-			es: "Sacudida Ad Hoc",
-			it: "Shock Ad Hoc",
-			pt: "Choque de Supetão",
-			de: "Ad-hoc-Schock"
+			'en-us': "Ad Hoc Shock",
+			'fr-fr': "Choc Ponctuel",
+			'es-es': "Sacudida Ad Hoc",
+			'it-it': "Shock Ad Hoc",
+			'pt-br': "Choque de Supetão",
+			'de-de': "Ad-hoc-Schock"
 		},
 
 		effect: {
-			en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez lancer une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			es: "Cuando juegas este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes lanzar 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi lanciare una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá jogar 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
-			de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du 1 Münze werfen. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			'en-us': "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez lancer une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'es-es': "Cuando juegas este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes lanzar 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi lanciare una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá jogar 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
+			'de-de': "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du 1 Münze werfen. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		}
 	}],
 
@@ -57,12 +57,12 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Static Shock",
-			fr: "Choc Statique",
-			es: "Impacto Estático",
-			it: "Shock Statico",
-			pt: "Choque de Estática",
-			de: "Statischer Schock"
+			'en-us': "Static Shock",
+			'fr-fr': "Choc Statique",
+			'es-es': "Impacto Estático",
+			'it-it': "Shock Statico",
+			'pt-br': "Choque de Estática",
+			'de-de': "Statischer Schock"
 		},
 
 		damage: 30
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity.",
+		'en-us': "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity.",
 	},
 
 	

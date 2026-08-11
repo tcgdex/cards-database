@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マケンカニ",
+		'ja-jp': "マケンカニ",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "硬い ハサミは 攻めも 守りも 得意。 マケンカニ 同士の 戦いは ボクシングの ようだ。",
+		'ja-jp': "硬い ハサミは 攻めも 守りも 得意。 マケンカニ 同士の 戦いは ボクシングの ようだ。",
 	},
 
 	stage: "Basic",

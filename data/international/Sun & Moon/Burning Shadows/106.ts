@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Hoothoot",
-		fr: "Hoothoot",
-		es: "Hoothoot",
-		it: "Hoothoot",
-		pt: "Hoothoot",
-		de: "Hoothoot"
+		'en-us': "Hoothoot",
+		'fr-fr': "Hoothoot",
+		'es-es': "Hoothoot",
+		'it-it': "Hoothoot",
+		'pt-br': "Hoothoot",
+		'de-de': "Hoothoot"
 	},
 
 	illustrator: "MAHOU",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "See Through",
-				fr: "Main Transparente",
-				es: "Transparencia",
-				it: "Sbirciatina",
-				pt: "Transparência",
-				de: "Durchblick"
+				'en-us': "See Through",
+				'fr-fr': "Main Transparente",
+				'es-es': "Transparencia",
+				'it-it': "Sbirciatina",
+				'pt-br': "Transparência",
+				'de-de': "Durchblick"
 			},
 			effect: {
-				en: "Your opponent reveals their hand.",
-				fr: "Votre adversaire dévoile sa main.",
-				es: "Tu rival enseña las cartas de su mano.",
-				it: "Il tuo avversario mostra le carte che ha in mano.",
-				pt: "Seu oponente revela a própria mão.",
-				de: "Dein Gegner zeigt dir seine Handkarten."
+				'en-us': "Your opponent reveals their hand.",
+				'fr-fr': "Votre adversaire dévoile sa main.",
+				'es-es': "Tu rival enseña las cartas de su mano.",
+				'it-it': "Il tuo avversario mostra le carte che ha in mano.",
+				'pt-br': "Seu oponente revela a própria mão.",
+				'de-de': "Dein Gegner zeigt dir seine Handkarten."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				es: "Picotazo",
-				it: "Beccata",
-				pt: "Bicada",
-				de: "Schnabel"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'es-es': "Picotazo",
+				'it-it': "Beccata",
+				'pt-br': "Bicada",
+				'de-de': "Schnabel"
 			},
 
 			damage: 20,
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has a perfect sense of time. Whatever happens, it keeps rhythm by precisely tilting its head in time.",
+		'en-us': "It has a perfect sense of time. Whatever happens, it keeps rhythm by precisely tilting its head in time.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Melmetal ex"
+		'en-us': "Melmetal ex"
 	},
 
 	illustrator: "toriyufu",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Meltan"
+		'en-us': "Meltan"
 	},
 
 	stage: "Stage1",
@@ -25,21 +25,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Headbutt"
+			'en-us': "Headbutt"
 		},
 
 		damage: 80,
 		cost: ["Metal", "Metal", "Colorless"]
 	}, {
 		name: {
-			en: "Metal Arms"
+			'en-us': "Metal Arms"
 		},
 
 		damage: 100,
 		cost: ["Metal", "Metal", "Metal", "Colorless"],
 
 		effect: {
-			en: "If this Pokémon has a Pokémon Tool attached, this attack does 50 more damage."
+			'en-us': "If this Pokémon has a Pokémon Tool attached, this attack does 50 more damage."
 		}
 	}],
 

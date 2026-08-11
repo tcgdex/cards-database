@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハネッコ",
+		'ja-jp': "ハネッコ",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "風に 流されて 漂う。 野山に ハネッコが 集まり出すと 春が 訪れると 言われている。",
+		'ja-jp': "風に 流されて 漂う。 野山に ハネッコが 集まり出すと 春が 訪れると 言われている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ふえる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある「ハネッコ」を1枚、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札にある「ハネッコ」を1枚、ベンチに出す。そして山札を切る。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Furret",
+		'ja-jp': "Furret",
 	},
 
 	rarity: "Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "素早い変更",
+				'ja-jp': "素早い変更",
 			},
 			effect: {
-				ja: "手に最大3枚のカードを選択し、デッキの上に置きます。次に、デッキをその多くのカードを検索し、手に入れてください。その後、デッキをシャッフルします。",
+				'ja-jp': "手に最大3枚のカードを選択し、デッキの上に置きます。次に、デッキをその多くのカードを検索し、手に入れてください。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "クイックテールスマッシュ",
+				'ja-jp': "クイックテールスマッシュ",
 			},
 			effect: {
-				ja: "ダメージを与える前に、コインをひっくり返すことができます。頭の場合、この攻撃は代わりに80のダメージを与えます。尾の場合、この攻撃は何もしません。",
+				'ja-jp': "ダメージを与える前に、コインをひっくり返すことができます。頭の場合、この攻撃は代わりに80のダメージを与えます。尾の場合、この攻撃は何もしません。",
 			},
 			damage: 30,
 		},

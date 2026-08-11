@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Roaring Moon ex"
+		'id-id': "Roaring Moon ex"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -17,21 +17,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Mengoyak Gila-gilaan"
+			'id-id': "Mengoyak Gila-gilaan"
 		},
 
 		effect: {
-			id: "Pokémon Bertarung lawan KO. Setelah itu, berikan kerusakan sejumlah 200 kepada Pokémon ini."
+			'id-id': "Pokémon Bertarung lawan KO. Setelah itu, berikan kerusakan sejumlah 200 kepada Pokémon ini."
 		},
 
 		cost: ["Darkness", "Darkness", "Colorless"]
 	}, {
 		name: {
-			id: "Calamity Storm"
+			'id-id': "Calamity Storm"
 		},
 
 		effect: {
-			id: "Pemain dapat membuang Stadium yang ada di Arena ke Trash. Jika dilakukan, kerusakan yang diberikan bertambah sejumlah 120."
+			'id-id': "Pemain dapat membuang Stadium yang ada di Arena ke Trash. Jika dilakukan, kerusakan yang diberikan bertambah sejumlah 120."
 		},
 
 		damage: "100+",

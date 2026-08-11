@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eevee",
-		fr: "Évoli",
-		es: "Eevee",
-		it: "Eevee",
-		pt: "Eevee",
-		de: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
+		'es-es': "Eevee",
+		'it-it': "Eevee",
+		'pt-br': "Eevee",
+		'de-de': "Evoli"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Boosted Evolution",
-			fr: "Évolution Boostée",
-			es: "Evolución Potenciada",
-			it: "Evoluzione Potenziata",
-			pt: "Impulso da Evolução",
-			de: "Evolutionsschub"
+			'en-us': "Boosted Evolution",
+			'fr-fr': "Évolution Boostée",
+			'es-es': "Evolución Potenciada",
+			'it-it': "Evoluzione Potenziata",
+			'pt-br': "Impulso da Evolução",
+			'de-de': "Evolutionsschub"
 		},
 
 		effect: {
-			en: "As long as this Pokémon is in the Active Spot, it can evolve during your first turn or the turn you play it.",
-			fr: "Tant que ce Pokémon est sur le Poste Actif, il peut évoluer pendant votre premier tour ou pendant le tour où vous le jouez.",
-			es: "Mientras este Pokémon esté en el Puesto Activo, puede evolucionar durante tu primer turno o durante el turno en que lo pongas en juego.",
-			it: "Fintanto che questo Pokémon è in posizione attiva, può evolversi durante il tuo primo turno o il turno in cui lo giochi.",
-			pt: "Enquanto este Pokémon estiver no Campo Ativo, ele poderá evoluir durante o seu primeiro turno ou durante o turno em que for colocado em jogo.",
-			de: "Solange dieses Pokémon in der Aktiven Position ist, kann es sich während deines ersten Zuges oder während des Zuges, in dem du es spielst, entwickeln."
+			'en-us': "As long as this Pokémon is in the Active Spot, it can evolve during your first turn or the turn you play it.",
+			'fr-fr': "Tant que ce Pokémon est sur le Poste Actif, il peut évoluer pendant votre premier tour ou pendant le tour où vous le jouez.",
+			'es-es': "Mientras este Pokémon esté en el Puesto Activo, puede evolucionar durante tu primer turno o durante el turno en que lo pongas en juego.",
+			'it-it': "Fintanto che questo Pokémon è in posizione attiva, può evolversi durante il tuo primo turno o il turno in cui lo giochi.",
+			'pt-br': "Enquanto este Pokémon estiver no Campo Ativo, ele poderá evoluir durante o seu primeiro turno ou durante o turno em que for colocado em jogo.",
+			'de-de': "Solange dieses Pokémon in der Aktiven Position ist, kann es sich während deines ersten Zuges oder während des Zuges, in dem du es spielst, entwickeln."
 		}
 	}],
 
@@ -46,21 +46,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Reckless Charge",
-			fr: "Attaque Imprudente",
-			es: "Carga Descuidada",
-			it: "Carica Avventata",
-			pt: "Carga Indomável",
-			de: "Waghalsiger Sturmangriff"
+			'en-us': "Reckless Charge",
+			'fr-fr': "Attaque Imprudente",
+			'es-es': "Carga Descuidada",
+			'it-it': "Carica Avventata",
+			'pt-br': "Carga Indomável",
+			'de-de': "Waghalsiger Sturmangriff"
 		},
 
 		effect: {
-			en: "This Pokémon also does 10 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
-			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 10 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 10 dégâts.",
+			'es-es': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 10 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
 		},
 
 		damage: 30

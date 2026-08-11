@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Heracross E4",
-		fr: "Scarhino  Niv. 51",
-		de: "Skaraborn 4"
+		'en-us': "Heracross E4",
+		'fr-fr': "Scarhino  Niv. 51",
+		'de-de': "Skaraborn 4"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Rare",
@@ -25,14 +25,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Focus Energy",
-				fr: "Puissance",
-				de: "Energiefokus"
+				'en-us': "Focus Energy",
+				'fr-fr': "Puissance",
+				'de-de': "Energiefokus"
 			},
 			effect: {
-				en: "During your next turn, Heracross E4's Megahorn attack's base damage is 100.",
-				fr: "Lors de votre prochain tour, les dégâts de base de l'attaque Megacorne de Scarhino  sont de 100.",
-				de: "In deinem nächsten Zug beträgt der Grundschaden des Angriffs Vielender von Skaraborn 4 100 Schadenspunkte."
+				'en-us': "During your next turn, Heracross E4's Megahorn attack's base damage is 100.",
+				'fr-fr': "Lors de votre prochain tour, les dégâts de base de l'attaque Megacorne de Scarhino  sont de 100.",
+				'de-de': "In deinem nächsten Zug beträgt der Grundschaden des Angriffs Vielender von Skaraborn 4 100 Schadenspunkte."
 			},
 
 		},
@@ -42,14 +42,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Megahorn",
-				fr: "Megacorne",
-				de: "Vielender"
+				'en-us': "Megahorn",
+				'fr-fr': "Megacorne",
+				'de-de': "Vielender"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 50,
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Larvesta",
-		fr: "Pyronille",
-		es: "Larvesta",
-		it: "Larvesta",
-		pt: "Larvesta",
-		de: "Ignivor"
+		'en-us': "Larvesta",
+		'fr-fr': "Pyronille",
+		'es-es': "Larvesta",
+		'it-it': "Larvesta",
+		'pt-br': "Larvesta",
+		'de-de': "Ignivor"
 	},
 
 	illustrator: "kawayoo",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare",
-				fr: "Flamboiement",
-				es: "Llama",
-				it: "Fiammata",
-				pt: "Chama",
-				de: "Flackern"
+				'en-us': "Flare",
+				'fr-fr': "Flamboiement",
+				'es-es': "Llama",
+				'it-it': "Fiammata",
+				'pt-br': "Chama",
+				'de-de': "Flackern"
 			},
 
 			damage: 30,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Said to have been born from the sun, it spews fire from its horns and encases itself in a cocoon of fire when it evolves.",
+		'en-us': "Said to have been born from the sun, it spews fire from its horns and encases itself in a cocoon of fire when it evolves.",
 	},
 
 	thirdParty: {

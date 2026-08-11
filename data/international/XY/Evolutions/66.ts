@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Rattata",
-		fr: "Rattata",
-		es: "Rattata",
-		it: "Rattata",
-		pt: "Rattata",
-		de: "Rattfratz"
+		'en-us': "Rattata",
+		'fr-fr': "Rattata",
+		'es-es': "Rattata",
+		'it-it': "Rattata",
+		'pt-br': "Rattata",
+		'de-de': "Rattfratz"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Mischievous Fang",
-				fr: "Croc Facétieux",
-				es: "Incisivos Traviesos",
-				it: "Perfidazanna",
-				pt: "Presa Maliciosa",
-				de: "Bösartige Fänge"
+				'en-us': "Mischievous Fang",
+				'fr-fr': "Croc Facétieux",
+				'es-es': "Incisivos Traviesos",
+				'it-it': "Perfidazanna",
+				'pt-br': "Presa Maliciosa",
+				'de-de': "Bösartige Fänge"
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand onto your Bench, you may discard all Pokémon Tool cards attached to your opponent's Active Pokémon.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc, vous pouvez défausser toutes les cartes Outil Pokémon attachées au Pokémon Actif de votre adversaire.",
-				es: "Cuando juegues este Pokémon de tu mano a tu Banca, puedes descartar todas las cartas de Herramienta Pokémon unidas al Pokémon Activo de tu rival.",
-				it: "Quando giochi questo Pokémon dalla tua mano e lo metti in panchina, puoi scartare tutte le carte Oggetto Pokémon assegnate al Pokémon attivo del tuo avversario.",
-				pt: "Ao jogar este Pokémon da sua mão para seu Banco, você pode descartar todos os cards de Ferramenta Pokémon ligados ao Pokémon Ativo do seu oponente.",
-				de: "Wenn du dieses Pokémon von deiner Hand spielst und auf deine Bank legst, kannst du alle Pokémon-Ausrüstungen, die an das Aktive Pokémon deines Gegners angelegt sind, auf seinen Ablagestapel legen."
+				'en-us': "When you play this Pokémon from your hand onto your Bench, you may discard all Pokémon Tool cards attached to your opponent's Active Pokémon.",
+				'fr-fr': "Lorsque vous jouez ce Pokémon de votre main sur votre Banc, vous pouvez défausser toutes les cartes Outil Pokémon attachées au Pokémon Actif de votre adversaire.",
+				'es-es': "Cuando juegues este Pokémon de tu mano a tu Banca, puedes descartar todas las cartas de Herramienta Pokémon unidas al Pokémon Activo de tu rival.",
+				'it-it': "Quando giochi questo Pokémon dalla tua mano e lo metti in panchina, puoi scartare tutte le carte Oggetto Pokémon assegnate al Pokémon attivo del tuo avversario.",
+				'pt-br': "Ao jogar este Pokémon da sua mão para seu Banco, você pode descartar todos os cards de Ferramenta Pokémon ligados ao Pokémon Ativo do seu oponente.",
+				'de-de': "Wenn du dieses Pokémon von deiner Hand spielst und auf deine Bank legst, kannst du alle Pokémon-Ausrüstungen, die an das Aktive Pokémon deines Gegners angelegt sind, auf seinen Ablagestapel legen."
 			},
 		},
 	],
@@ -57,12 +57,12 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 10
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its fangs are long and very sharp. They grow continuously, so it gnaws on hard things to whittle them down.",
+		'en-us': "Its fangs are long and very sharp. They grow continuously, so it gnaws on hard things to whittle them down.",
 	},
 
 	thirdParty: {

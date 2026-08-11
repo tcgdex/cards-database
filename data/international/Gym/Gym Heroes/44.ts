@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Exeggutor"
+		'en-us': "Erika's Exeggutor"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Exeggcute"
+		'en-us': "Exeggcute"
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psychic Exchange"
+				'en-us': "Psychic Exchange"
 			},
 			effect: {
-				en: "Shuffle your hand into your deck, then draw 5 cards."
+				'en-us': "Shuffle your hand into your deck, then draw 5 cards."
 			},
 
 		},
@@ -45,10 +45,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stomp"
+				'en-us': "Stomp"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage."
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage."
 			},
 			damage: "30+",
 

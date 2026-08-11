@@ -4,7 +4,7 @@ import serie from "../SM";
 const set: Set = {
 	id: "SM4p",
 	name: {
-		ja: "GXバトルブースト",
+		'ja-jp': "GXバトルブースト",
 	},
 
 	serie: serie,
@@ -13,7 +13,7 @@ const set: Set = {
 		official: 114,
 	},
 	releaseDate: {
-		ja: "2017-10-20",
+		'ja-jp': "2017-10-20",
 	},
 };
 

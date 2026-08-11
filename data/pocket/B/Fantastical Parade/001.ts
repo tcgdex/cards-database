@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [165],
 
 	name: {
-		en: "Ledyba"
+		'en-us': "Ledyba"
 	},
 
 	illustrator: "Yuka Morii",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "These very cowardly Pokémon join together and\nuse Reflect to protect their nest."
+		'en-us': "These very cowardly Pokémon join together and\nuse Reflect to protect their nest."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Punch"
+			'en-us': "Punch"
 		},
 
 		damage: 10,

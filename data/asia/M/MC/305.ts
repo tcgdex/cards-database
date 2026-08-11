@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バネブー",
+		'ja-jp': "バネブー",
 	},
 
 	illustrator: "toi8",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "飛び跳ねていないと 死んでしまう。 頭に 乗せている 真珠が サイコパワーを 増幅させるのだ。",
+		'ja-jp': "飛び跳ねていないと 死んでしまう。 頭に 乗せている 真珠が サイコパワーを 増幅させるのだ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10×",
 			cost: ["Psychic"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数×10ダメージ。",
+				'ja-jp': "コインを3回投げ、オモテの数×10ダメージ。",
 			},
 		},
 	],

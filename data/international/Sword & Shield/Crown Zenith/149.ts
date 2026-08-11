@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Friends in Sinnoh",
-		fr: "Amis de Sinnoh",
-		es: "Amigos de Sinnoh",
-		it: "Amici a Sinnoh",
-		pt: "Amigos em Sinnoh",
-		de: "Freunde aus Sinnoh"
+		'en-us': "Friends in Sinnoh",
+		'fr-fr': "Amis de Sinnoh",
+		'es-es': "Amigos de Sinnoh",
+		'it-it': "Amici a Sinnoh",
+		'pt-br': "Amigos em Sinnoh",
+		'de-de': "Freunde aus Sinnoh"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -18,12 +18,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Draw 3 cards.",
-		fr: "Piochez 3 cartes.",
-		es: "Roba 3 cartas.",
-		it: "Pesca tre carte.",
-		pt: "Compre 3 cartas.",
-		de: "Ziehe 3 Karten."
+		'en-us': "Draw 3 cards.",
+		'fr-fr': "Piochez 3 cartes.",
+		'es-es': "Roba 3 cartas.",
+		'it-it': "Pesca tre carte.",
+		'pt-br': "Compre 3 cartas.",
+		'de-de': "Ziehe 3 Karten."
 	},
 
 	trainerType: "Supporter",

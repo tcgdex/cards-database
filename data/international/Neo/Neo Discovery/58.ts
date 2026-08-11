@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Mareep",
-		fr: "Wattouat",
-		de: "Voltilamm"
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat",
+		'de-de': "Voltilamm"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Jolt",
-				fr: "Secousse Tonnerre",
-				de: "Donnerrüttler"
+				'en-us': "Thunder Jolt",
+				'fr-fr': "Secousse Tonnerre",
+				'de-de': "Donnerrüttler"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Mareep does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est face, Wattouat s'inflige 10 dégâts.",
-				de: "Wirf eine Münze. Bei \"Zahl\" fügt sich Voltilamm selber 10 Schadenspunkte zu."
+				'en-us': "Flip a coin. If tails, Mareep does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est face, Wattouat s'inflige 10 dégâts.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" fügt sich Voltilamm selber 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -56,8 +56,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.",
-		fr: "Sa toison pousse constamment. En été, même tondu, sa laine repousse en moins d'une semaine."
+		'en-us': "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.",
+		'fr-fr': "Sa toison pousse constamment. En été, même tondu, sa laine repousse en moins d'une semaine."
 	},
 
 

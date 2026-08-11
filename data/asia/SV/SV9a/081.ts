@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ペパーのマフィティフex",
+		'ja-jp': "ペパーのマフィティフex",
 		'zh-tw': "<派帕的>獒教父ex",
 		'zh-cn': "<派帕的>獒教父ex"
 	},
@@ -22,7 +22,7 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ハッスルタックル",
+			'ja-jp': "ハッスルタックル",
 			'zh-tw': "幹勁衝撞",
 			'zh-cn': "幹勁衝撞"
 		},
@@ -30,7 +30,7 @@ const card: Card = {
 		damage: "30+",
 
 		effect: {
-			ja: "このポケモンにダメカンがのっていないなら、120ダメージ追加。",
+			'ja-jp': "このポケモンにダメカンがのっていないなら、120ダメージ追加。",
 			'zh-tw': "若這隻寶可夢身上沒有放置傷害指示物，則增加120點傷害。",
 			'zh-cn': "若這隻寶可夢身上沒有放置傷害指示物，則增加120點傷害。"
 		}
@@ -38,7 +38,7 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "おやぶんヘッド",
+			'ja-jp': "おやぶんヘッド",
 			'zh-tw': "大佬頭擊",
 			'zh-cn': "大佬頭擊"
 		},
@@ -46,7 +46,7 @@ const card: Card = {
 		damage: 210,
 
 		effect: {
-			ja: "次の自分の番、このポケモンは「おやぶんヘッド」が使えない。",
+			'ja-jp': "次の自分の番、このポケモンは「おやぶんヘッド」が使えない。",
 			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用「大佬頭擊」。",
 			'zh-cn': "在下個自己的回合，這隻寶可夢無法使用「大佬頭擊」。"
 		}

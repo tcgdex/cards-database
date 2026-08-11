@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Kyurem-EX",
-		fr: "Kyurem ex",
+		'en-us': "Kyurem-EX",
+		'fr-fr': "Kyurem ex",
 	},
 	illustrator: "Shizurow",
 	rarity: "Rare",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Frozen Wings",
-				fr: "Ailes Gelées",
+				'en-us': "Frozen Wings",
+				'fr-fr': "Ailes Gelées",
 			},
 			effect: {
-				en: "Discard a Special Energy attached to the Defending Pokémon.",
-				fr: "Défaussez une Énergie spéciale attachée au Pokémon Défenseur.",
+				'en-us': "Discard a Special Energy attached to the Defending Pokémon.",
+				'fr-fr': "Défaussez une Énergie spéciale attachée au Pokémon Défenseur.",
 			},
 			damage: 60,
 
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hail Blizzard",
-				fr: "Tempêtegrêle",
+				'en-us': "Hail Blizzard",
+				'fr-fr': "Tempêtegrêle",
 			},
 			effect: {
-				en: "This Pokémon can't use Hail Blizzard during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Tempêtegrêle pendant votre prochain tour.",
+				'en-us': "This Pokémon can't use Hail Blizzard during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Tempêtegrêle pendant votre prochain tour.",
 			},
 			damage: 120,
 

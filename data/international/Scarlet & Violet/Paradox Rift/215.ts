@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cyclizar",
-		fr: "Motorizard",
-		es: "Cyclizar",
-		it: "Cyclizar",
-		pt: "Cyclizar",
-		de: "Mopex"
+		'en-us': "Cyclizar",
+		'fr-fr': "Motorizard",
+		'es-es': "Cyclizar",
+		'it-it': "Cyclizar",
+		'pt-br': "Cyclizar",
+		'de-de': "Mopex"
 	},
 
 	rarity: "Illustration rare",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 30
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Driving Buddy",
-			fr: "Copilote",
-			es: "Amigo Conductor",
-			it: "Compagno di Guida",
-			pt: "Carona Amiga",
-			de: "Mitfahrkumpel"
+			'en-us': "Driving Buddy",
+			'fr-fr': "Copilote",
+			'es-es': "Amigo Conductor",
+			'it-it': "Compagno di Guida",
+			'pt-br': "Carona Amiga",
+			'de-de': "Mitfahrkumpel"
 		},
 
 		effect: {
-			en: "If you played a Supporter card from your hand during this turn, this attack does 70 more damage.",
-			fr: "Si vous avez joué une carte Supporter de votre main pendant ce tour, cette attaque inflige 70 dégâts supplémentaires.",
-			es: "Si has jugado una carta de Partidario de tu mano durante este turno, este ataque hace 70 puntos de daño más.",
-			it: "Se hai giocato una carta Aiuto dalla tua mano durante questo turno, questo attacco infligge 70 danni in più.",
-			pt: "Se você jogou uma carta de Apoiador da sua mão durante este turno, este ataque causará 70 pontos de dano a mais.",
-			de: "Wenn du eine Unterstützerkarte während dieses Zuges aus deiner Hand gespielt hast, fügt diese Attacke 70 Schadenspunkte mehr zu."
+			'en-us': "If you played a Supporter card from your hand during this turn, this attack does 70 more damage.",
+			'fr-fr': "Si vous avez joué une carte Supporter de votre main pendant ce tour, cette attaque inflige 70 dégâts supplémentaires.",
+			'es-es': "Si has jugado una carta de Partidario de tu mano durante este turno, este ataque hace 70 puntos de daño más.",
+			'it-it': "Se hai giocato una carta Aiuto dalla tua mano durante questo turno, questo attacco infligge 70 danni in più.",
+			'pt-br': "Se você jogou uma carta de Apoiador da sua mão durante este turno, este ataque causará 70 pontos de dano a mais.",
+			'de-de': "Wenn du eine Unterstützerkarte während dieses Zuges aus deiner Hand gespielt hast, fügt diese Attacke 70 Schadenspunkte mehr zu."
 		},
 
 		damage: "70+"
@@ -67,7 +67,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
+		'en-us': "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
 	},
 
 	variants: [

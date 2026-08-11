@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Gigalith",
-		fr: "Gigalithe",
-		es: "Gigalith",
-		it: "Gigalith",
-		pt: "Gigalith",
-		de: "Brockoloss"
+		'en-us': "Gigalith",
+		'fr-fr': "Gigalithe",
+		'es-es': "Gigalith",
+		'it-it': "Gigalith",
+		'pt-br': "Gigalith",
+		'de-de': "Brockoloss"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Boldore",
-		fr: "Géolithe",
+		'en-us': "Boldore",
+		'fr-fr': "Géolithe",
 	},
 
 	stage: "Stage2",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Shear",
-				fr: "Prospection",
+				'en-us': "Shear",
+				'fr-fr': "Prospection",
 			},
 			effect: {
-				en: "Discard the top 5 cards of your deck. If any of those cards are Fighting Energy cards, attach them to this Pokémon.",
-				fr: "Défaussez les 5 cartes du dessus de votre deck. Si vous y trouvez des cartes Énergie Fighting, attachez-les à ce Pokémon.",
+				'en-us': "Discard the top 5 cards of your deck. If any of those cards are Fighting Energy cards, attach them to this Pokémon.",
+				'fr-fr': "Défaussez les 5 cartes du dessus de votre deck. Si vous y trouvez des cartes Énergie Fighting, attachez-les à ce Pokémon.",
 			},
 
 		},
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Bullet",
-				fr: "Fronde",
+				'en-us': "Rock Bullet",
+				'fr-fr': "Fronde",
 			},
 			effect: {
-				en: "Does 20 more damage for each Fighting Energy attached to this Pokémon.",
-				fr: "Inflige 20 dégâts supplémentaires pour chaque Énergie Fighting attachée à ce Pokémon.",
+				'en-us': "Does 20 more damage for each Fighting Energy attached to this Pokémon.",
+				'fr-fr': "Inflige 20 dégâts supplémentaires pour chaque Énergie Fighting attachée à ce Pokémon.",
 			},
 			damage: 40,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "The solar energy absorbed by its body's orange crystals is magnified internally and fired from its mouth.",
+		'en-us': "The solar energy absorbed by its body's orange crystals is magnified internally and fired from its mouth.",
 	},
 
 	thirdParty: {

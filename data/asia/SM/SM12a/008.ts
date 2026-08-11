@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キモリ",
+		'ja-jp': "キモリ",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "足の 裏の 小さな トゲが 壁や 天井に 引っかかるので 逆さまに なっても 落ちないのだ。",
+		'ja-jp': "足の 裏の 小さな トゲが 壁や 天井に 引っかかるので 逆さまに なっても 落ちないのだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ともだちをさがす" },
 			cost: ["Grass"],
 			effect: {
-				ja: "自分の山札にある[草]ポケモンを1枚、相手に見せてから、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札にある[草]ポケモンを1枚、相手に見せてから、手札に加える。そして山札を切る。",
 			},
 		},
 	],

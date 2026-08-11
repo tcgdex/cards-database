@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Dodrio",
+		'en-us': "Dodrio",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Doduo",
+		'en-us': "Doduo",
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Retreat Aid",
+				'en-us': "Retreat Aid",
 			},
 			effect: {
-				en: "As long as Dodrio is Benched, pay 1 Colorless less to retreat your Active Pokémon.",
+				'en-us': "As long as Dodrio is Benched, pay 1 Colorless less to retreat your Active Pokémon.",
 			},
 		},
 	],
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rage",
+				'en-us': "Rage",
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each damage counter on Dodrio.",
+				'en-us': "Does 10 damage plus 10 more damage for each damage counter on Dodrio.",
 			},
 			damage: 10,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake.",
+		'en-us': "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake.",
 	},
 
 

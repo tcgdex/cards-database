@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Orbeetle"
+		'id-id': "Orbeetle"
 	},
 
 	illustrator: "Oku",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Orbeetle memeriksa daerah sekitarnya menggunakan kekuatan psikokinesis. Lingkup pengamatannya mencapai 10 km dari dirinya."
+		'id-id': "Orbeetle memeriksa daerah sekitarnya menggunakan kekuatan psikokinesis. Lingkup pengamatannya mencapai 10 km dari dirinya."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			id: "Satellite Beam"
+			'id-id': "Satellite Beam"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan sejumlah 30 untuk tiap lembar Energi yang ada di Trash lawan."
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 30 untuk tiap lembar Energi yang ada di Trash lawan."
 		},
 
 		damage: "30×",
 		cost: ["Grass"]
 	}, {
 		name: {
-			id: "Brain Shake"
+			'id-id': "Brain Shake"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
 		},
 
 		damage: 100,

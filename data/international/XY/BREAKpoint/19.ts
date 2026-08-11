@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Slowpoke",
-		fr: "Ramoloss",
-		es: "Slowpoke",
-		it: "Slowpoke",
-		pt: "Slowpoke",
-		de: "Flegmon"
+		'en-us': "Slowpoke",
+		'fr-fr': "Ramoloss",
+		'es-es': "Slowpoke",
+		'it-it': "Slowpoke",
+		'pt-br': "Slowpoke",
+		'de-de': "Flegmon"
 	},
 
 	illustrator: "Akira Komayama",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'Boule",
-				es: "Golpe Cabeza",
-				it: "Bottintesta",
-				pt: "Cabeçada",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'Boule",
+				'es-es': "Golpe Cabeza",
+				'it-it': "Bottintesta",
+				'pt-br': "Cabeçada",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Lure",
-				fr: "Queue Attrayante",
-				es: "Cebo Cola",
-				it: "Coda Esca",
-				pt: "Encanto de Cauda",
-				de: "Schöner Schweif"
+				'en-us': "Tail Lure",
+				'fr-fr': "Queue Attrayante",
+				'es-es': "Cebo Cola",
+				'it-it': "Coda Esca",
+				'pt-br': "Encanto de Cauda",
+				'de-de': "Schöner Schweif"
 			},
 			effect: {
-				en: "Search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez un Pokémon dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja 1 Pokémon, enséñalo y ponlo en tu mano. Baraja las cartas de tu baraja después.",
-				it: "Cerca nel tuo mazzo un Pokémon, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure em seu baralho um Pokémon, revele-o e coloque-o em sua mão. Em seguida, embaralhe seus cards.",
-				de: "Durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+				'en-us': "Search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez un Pokémon dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja 1 Pokémon, enséñalo y ponlo en tu mano. Baraja las cartas de tu baraja después.",
+				'it-it': "Cerca nel tuo mazzo un Pokémon, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure em seu baralho um Pokémon, revele-o e coloque-o em sua mão. Em seguida, embaralhe seus cards.",
+				'de-de': "Durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It lazes vacantly near water. If something bites its tail, it won't even notice for a whole day.",
+		'en-us': "It lazes vacantly near water. If something bites its tail, it won't even notice for a whole day.",
 	},
 
 	thirdParty: {

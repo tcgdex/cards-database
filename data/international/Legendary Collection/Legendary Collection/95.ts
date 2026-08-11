@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Squirtle"
+		'en-us': "Squirtle"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Bubble"
+				'en-us': "Bubble"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 
@@ -41,10 +41,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Withdraw"
+				'en-us': "Withdraw"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Squirtle during your opponent's next turn. (Any other effects of attacks still happen.)"
+				'en-us': "Flip a coin. If heads, prevent all damage done to Squirtle during your opponent's next turn. (Any other effects of attacks still happen.)"
 			},
 
 		},
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "After birth, its back swells and hardens into a shell. It powerfully sprays foam from its mouth."
+		'en-us': "After birth, its back swells and hardens into a shell. It powerfully sprays foam from its mouth."
 	},
 
 	variants: [

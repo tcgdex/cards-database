@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hisuian Overqwil",
-		fr: "Qwilpik de Hisui",
-		es: "Overqwil de Hisui",
-		it: "Overqwil di Hisui",
-		pt: "Overqwil de Hisui",
-		de: "Hisui-Myriador"
+		'en-us': "Hisuian Overqwil",
+		'fr-fr': "Qwilpik de Hisui",
+		'es-es': "Overqwil de Hisui",
+		'it-it': "Overqwil di Hisui",
+		'pt-br': "Overqwil de Hisui",
+		'de-de': "Hisui-Myriador"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Hisuian Qwilfish",
-		fr: "Qwilfish de Hisui",
-		es: "Qwilfish de Hisui",
-		it: "Qwilfish di Hisui",
-		pt: "Qwilfish de Hisui",
-		de: "Hisui-Baldorfish"
+		'en-us': "Hisuian Qwilfish",
+		'fr-fr': "Qwilfish de Hisui",
+		'es-es': "Qwilfish de Hisui",
+		'it-it': "Qwilfish di Hisui",
+		'pt-br': "Qwilfish de Hisui",
+		'de-de': "Hisui-Baldorfish"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Dirty Press",
-			fr: "Vile Pression",
-			es: "Sucia Presión",
-			it: "Bruttapressa",
-			pt: "Compressão Suja",
-			de: "Niederträchtiger Druck"
+			'en-us': "Dirty Press",
+			'fr-fr': "Vile Pression",
+			'es-es': "Sucia Presión",
+			'it-it': "Bruttapressa",
+			'pt-br': "Compressão Suja",
+			'de-de': "Niederträchtiger Druck"
 		},
 
 		effect: {
-			en: "If you have at least 3 Darkness Energy in play, this attack does 90 more damage.",
-			fr: "Si vous avez au moins 3 Énergies Darkness en jeu, cette attaque inflige 90 dégâts supplémentaires.",
-			es: "Si tienes por lo menos 3 Energías Darkness en juego, este ataque hace 90 puntos de daño más.",
-			it: "Se hai almeno tre Energie Darkness in gioco, questo attacco infligge 90 danni in più.",
-			pt: "Se você tiver pelo menos 3 Energias Darkness em jogo, este ataque causará 90 pontos de dano a mais.",
-			de: "Wenn du mindestens 3 Darkness-Energien im Spiel hast, fügt diese Attacke 90 Schadenspunkte mehr zu."
+			'en-us': "If you have at least 3 Darkness Energy in play, this attack does 90 more damage.",
+			'fr-fr': "Si vous avez au moins 3 Énergies Darkness en jeu, cette attaque inflige 90 dégâts supplémentaires.",
+			'es-es': "Si tienes por lo menos 3 Energías Darkness en juego, este ataque hace 90 puntos de daño más.",
+			'it-it': "Se hai almeno tre Energie Darkness in gioco, questo attacco infligge 90 danni in più.",
+			'pt-br': "Se você tiver pelo menos 3 Energias Darkness em jogo, este ataque causará 90 pontos de dano a mais.",
+			'de-de': "Wenn du mindestens 3 Darkness-Energien im Spiel hast, fügt diese Attacke 90 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
@@ -57,12 +57,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Pierce",
-			fr: "Transpercement",
-			es: "Perforar",
-			it: "Perforare",
-			pt: "Perfurar",
-			de: "Durchbohren"
+			'en-us': "Pierce",
+			'fr-fr': "Transpercement",
+			'es-es': "Perforar",
+			'it-it': "Perforare",
+			'pt-br': "Perfurar",
+			'de-de': "Durchbohren"
 		},
 
 		damage: 70
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its lancelike spikes and savage temperament have earned it the nickname \"sea fiend.\" It slurps up poison to nourish itself.",
+		'en-us': "Its lancelike spikes and savage temperament have earned it the nickname \"sea fiend.\" It slurps up poison to nourish itself.",
 	},
 
 	variants: [

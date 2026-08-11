@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Machoke",
-		de: "Maschock"
+		'en-us': "Machoke",
+		'de-de': "Maschock"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Machop",
+		'en-us': "Machop",
 	},
 
 	stage: "Stage1",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Focus Energy",
-				de: "Energiefokus"
+				'en-us': "Focus Energy",
+				'de-de': "Energiefokus"
 			},
 			effect: {
-				en: "During your next turn, Machoke's Mega Punch attack's base damage is 80.",
-				de: "Während deines nächsten Zuges beträgt der Basis-Schaden von Maschocks Angriff \"Megahieb\" 80"
+				'en-us': "During your next turn, Machoke's Mega Punch attack's base damage is 80.",
+				'de-de': "Während deines nächsten Zuges beträgt der Basis-Schaden von Maschocks Angriff \"Megahieb\" 80"
 			},
 
 		},
@@ -48,8 +48,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Punch",
-				de: "Megahieb"
+				'en-us': "Mega Punch",
+				'de-de': "Megahieb"
 			},
 
 			damage: 40,

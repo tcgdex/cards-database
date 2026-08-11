@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミルタンク",
+		'ja-jp': "ミルタンク",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "毎日 ミルクを 搾らないと 具合が 悪くなる。 ミルクの 味は 季節によって 変わるぞ。",
+		'ja-jp': "毎日 ミルクを 搾らないと 具合が 悪くなる。 ミルクの 味は 季節によって 変わるぞ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "まんぷくミルク" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、すべてオモテなら、自分のポケモン1匹のHPを、すべて回復する。",
+				'ja-jp': "コインを2回投げ、すべてオモテなら、自分のポケモン1匹のHPを、すべて回復する。",
 			},
 		},
 		{

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Dewpider",
-		fr: "Araqua",
-		es: "Dewpider",
-		it: "Dewpider",
-		pt: "Dewpider",
-		de: "Araqua"
+		'en-us': "Dewpider",
+		'fr-fr': "Araqua",
+		'es-es': "Dewpider",
+		'it-it': "Dewpider",
+		'pt-br': "Dewpider",
+		'de-de': "Araqua"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 20,
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse Vague",
-				es: "Chapoteo Ondulante",
-				it: "Schizzi d’Onda",
-				pt: "Onda Borrifante",
-				de: "Wellenplatscher"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse Vague",
+				'es-es': "Chapoteo Ondulante",
+				'it-it': "Schizzi d’Onda",
+				'pt-br': "Onda Borrifante",
+				'de-de': "Wellenplatscher"
 			},
 
 			damage: 40,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When two Dewpider meet, they display their water bubbles to each other. Then the one with the smaller bubble gets out of the other's way.",
+		'en-us': "When two Dewpider meet, they display their water bubbles to each other. Then the one with the smaller bubble gets out of the other's way.",
 	},
 
 	thirdParty: {

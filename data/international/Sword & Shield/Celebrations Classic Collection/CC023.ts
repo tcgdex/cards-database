@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celebrations Classic Collection'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Xerneas EX",
-		fr: "Xerneas-EX"
+		'en-us': "Xerneas EX",
+		'fr-fr': "Xerneas-EX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,26 +20,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Break Through",
-			fr: "Percée"
+			'en-us': "Break Through",
+			'fr-fr': "Percée"
 		},
 
 		effect: {
-			en: "This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Cette attaque inflige 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			'en-us': "This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Cette attaque inflige 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 		},
 
 		damage: 60,
 		cost: ["Fairy", "Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "X Blast",
-			fr: "Explosion X"
+			'en-us': "X Blast",
+			'fr-fr': "Explosion X"
 		},
 
 		effect: {
-			en: "This Pokémon can't use X Blast during your next turn.",
-			fr: "Ce Pokémon ne peut pas utiliser Explosion X pendant votre prochain tour."
+			'en-us': "This Pokémon can't use X Blast during your next turn.",
+			'fr-fr': "Ce Pokémon ne peut pas utiliser Explosion X pendant votre prochain tour."
 		},
 
 		damage: 140,

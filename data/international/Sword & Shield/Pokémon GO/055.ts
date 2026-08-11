@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pokémon GO"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Snorlax",
-		fr: "Ronflex",
-		es: "Snorlax",
-		it: "Snorlax",
-		pt: "Snorlax",
-		de: "Relaxo"
+		'en-us': "Snorlax",
+		'fr-fr': "Ronflex",
+		'es-es': "Snorlax",
+		'it-it': "Snorlax",
+		'pt-br': "Snorlax",
+		'de-de': "Relaxo"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -25,21 +25,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Block",
-			fr: "Barrage",
-			es: "Bloqueo",
-			it: "Blocco",
-			pt: "Bloquear",
-			de: "Rückentzug"
+			'en-us': "Block",
+			'fr-fr': "Barrage",
+			'es-es': "Bloqueo",
+			'it-it': "Blocco",
+			'pt-br': "Bloquear",
+			'de-de': "Rückentzug"
 		},
 
 		effect: {
-			en: "As long as this Pokémon is in the Active Spot, your opponent's Active Pokémon can't retreat.",
-			fr: "Tant que ce Pokémon est sur le Poste Actif, le Pokémon Actif de votre adversaire ne peut pas battre en retraite.",
-			es: "Mientras este Pokémon esté en el Puesto Activo, el Pokémon Activo de tu rival no puede retirarse.",
-			it: "Fintanto che questo Pokémon è in posizione attiva, il Pokémon attivo del tuo avversario non può ritirarsi.",
-			pt: "Enquanto este Pokémon estiver no Campo Ativo, o Pokémon Ativo do seu oponente não poderá recuar.",
-			de: "Solange dieses Pokémon in der Aktiven Position ist, kann sich das Aktive Pokémon deines Gegners nicht zurückziehen."
+			'en-us': "As long as this Pokémon is in the Active Spot, your opponent's Active Pokémon can't retreat.",
+			'fr-fr': "Tant que ce Pokémon est sur le Poste Actif, le Pokémon Actif de votre adversaire ne peut pas battre en retraite.",
+			'es-es': "Mientras este Pokémon esté en el Puesto Activo, el Pokémon Activo de tu rival no puede retirarse.",
+			'it-it': "Fintanto che questo Pokémon è in posizione attiva, il Pokémon attivo del tuo avversario non può ritirarsi.",
+			'pt-br': "Enquanto este Pokémon estiver no Campo Ativo, o Pokémon Ativo do seu oponente não poderá recuar.",
+			'de-de': "Solange dieses Pokémon in der Aktiven Position ist, kann sich das Aktive Pokémon deines Gegners nicht zurückziehen."
 		}
 	}],
 
@@ -47,21 +47,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Collapse",
-			fr: "Effondrement",
-			es: "Colapso",
-			it: "Collassare",
-			pt: "Colapso",
-			de: "Kollaps"
+			'en-us': "Collapse",
+			'fr-fr': "Effondrement",
+			'es-es': "Colapso",
+			'it-it': "Collassare",
+			'pt-br': "Colapso",
+			'de-de': "Kollaps"
 		},
 
 		effect: {
-			en: "This Pokémon is now Asleep.",
-			fr: "Ce Pokémon est maintenant Endormi.",
-			es: "Este Pokémon pasa a estar Dormido.",
-			it: "Questo Pokémon viene addormentato.",
-			pt: "Este Pokémon agora está Adormecido.",
-			de: "Dieses Pokémon schläft jetzt."
+			'en-us': "This Pokémon is now Asleep.",
+			'fr-fr': "Ce Pokémon est maintenant Endormi.",
+			'es-es': "Este Pokémon pasa a estar Dormido.",
+			'it-it': "Questo Pokémon viene addormentato.",
+			'pt-br': "Este Pokémon agora está Adormecido.",
+			'de-de': "Dieses Pokémon schläft jetzt."
 		},
 
 		damage: 150
@@ -78,7 +78,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
+		'en-us': "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
 	},
 
 	

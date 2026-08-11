@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Lanturn"
+		'id-id': "Lanturn"
 	},
 
 	illustrator: "aspara",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Lanturn memancarkan cahaya yang kuat untuk membuat mata buruannya silau dan menjadi lengah, lalu menyerangnya menggunakan listrik."
+		'id-id': "Lanturn memancarkan cahaya yang kuat untuk membuat mata buruannya silau dan menjadi lengah, lalu menyerangnya menggunakan listrik."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Bola Petir"
+			'id-id': "Bola Petir"
 		},
 
 		damage: 50,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Aqua Spark"
+			'id-id': "Aqua Spark"
 		},
 
 		effect: {
-			id: "Jika Pokémon ini mengenakan Energi {Air}, kerusakan yang diberikan bertambah sejumlah 120."
+			'id-id': "Jika Pokémon ini mengenakan Energi {Air}, kerusakan yang diberikan bertambah sejumlah 120."
 		},
 
 		damage: "80+",

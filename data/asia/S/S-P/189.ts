@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エーフィVMAX",
+		'ja-jp': "エーフィVMAX",
 		'zh-tw': "蓋歐卡V",
 	},
 
@@ -20,7 +20,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "たいようのけいじ" },
 			effect: {
-				ja: "このポケモンがいるかぎり、エネルギーがついている自分のポケモン全員は、相手のポケモンが使うワザの効果を受けない。（すでに受けている効果は、なくならない。）",
+				'ja-jp': "このポケモンがいるかぎり、エネルギーがついている自分のポケモン全員は、相手のポケモンが使うワザの効果を受けない。（すでに受けている効果は、なくならない。）",
 			},
 		},
 	],
@@ -28,13 +28,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ダイサイコ",
+				'ja-jp': "ダイサイコ",
 				'zh-tw': "二重飛濺",
 			},
 			damage: "60×",
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手の場のポケモンについているエネルギーの数×60ダメージ。",
+				'ja-jp': "相手の場のポケモンについているエネルギーの数×60ダメージ。",
 				'zh-tw': "對手的2隻寶可夢各受到50點傷害。[在備戰區不計算弱點・抵抗力。]",
 			},
 		},
@@ -54,7 +54,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "エーフィV",
+		'ja-jp': "エーフィV",
 	},
 
 	retreat: 2,

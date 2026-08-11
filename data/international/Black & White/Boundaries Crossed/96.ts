@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Skarmory",
-		fr: "Airmure",
-		es: "Skarmory",
-		it: "Skarmory",
-		pt: "Skarmory",
-		de: "Panzaeron"
+		'en-us': "Skarmory",
+		'fr-fr': "Airmure",
+		'es-es': "Skarmory",
+		'it-it': "Skarmory",
+		'pt-br': "Skarmory",
+		'de-de': "Panzaeron"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Metal Sound",
-				fr: "Strido-Son",
+				'en-us': "Metal Sound",
+				'fr-fr': "Strido-Son",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
 			},
 
 		},
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swift",
-				fr: "Météores",
+				'en-us': "Swift",
+				'fr-fr': "Météores",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon Défenseur.",
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, or any other effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon Défenseur.",
 			},
 			damage: 70,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its heavy-looking iron body is actually thin and light, so it can fly at speeds over 180 mph.",
+		'en-us': "Its heavy-looking iron body is actually thin and light, so it can fly at speeds over 180 mph.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bronzong",
-		fr: "Archéodong",
-		es: "Bronzong",
-		it: "Bronzong",
-		pt: "Bronzong",
-		de: "Bronzong"
+		'en-us': "Bronzong",
+		'fr-fr': "Archéodong",
+		'es-es': "Bronzong",
+		'it-it': "Bronzong",
+		'pt-br': "Bronzong",
+		'de-de': "Bronzong"
 	},
 
 	illustrator: "Hasuno",
@@ -21,44 +21,44 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Bronzor",
-		fr: "Archéomire",
-		es: "Bronzor",
-		it: "Bronzor",
-		pt: "Bronzor",
-		de: "Bronzel"
+		'en-us': "Bronzor",
+		'fr-fr': "Archéomire",
+		'es-es': "Bronzor",
+		'it-it': "Bronzor",
+		'pt-br': "Bronzor",
+		'de-de': "Bronzel"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			en: "Metal Transfer",
-			fr: "Transfert de Métal",
-			es: "Traspaso Metálico",
-			it: "Spostametallo",
-			pt: "Transferência de Metal",
-			de: "Metalltransfer"
+			'en-us': "Metal Transfer",
+			'fr-fr': "Transfert de Métal",
+			'es-es': "Traspaso Metálico",
+			'it-it': "Spostametallo",
+			'pt-br': "Transferência de Metal",
+			'de-de': "Metalltransfer"
 		},
 
 		effect: {
-			en: "As often as you like during your turn, you may move a Metal Energy from 1 of your Pokémon to another of your Pokémon.",
-			fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez déplacer une Énergie Metal de l'un de vos Pokémon vers un autre de vos Pokémon.",
-			es: "Todas las veces que quieras durante tu turno, puedes mover 1 Energía Metal de 1 de tus Pokémon a otro de tus Pokémon.",
-			it: "Durante il tuo turno, puoi spostare un'Energia Metal da uno a un altro dei tuoi Pokémon tutte le volte che vuoi.",
-			pt: "Quantas vezes desejar durante o seu turno, você poderá mover 1 Energia Metal de 1 dos seus Pokémon para outro Pokémon seu.",
-			de: "Beliebig oft während deines Zuges kannst du 1 Metal-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon verschieben."
+			'en-us': "As often as you like during your turn, you may move a Metal Energy from 1 of your Pokémon to another of your Pokémon.",
+			'fr-fr': "Autant de fois que vous le voulez pendant votre tour, vous pouvez déplacer une Énergie Metal de l'un de vos Pokémon vers un autre de vos Pokémon.",
+			'es-es': "Todas las veces que quieras durante tu turno, puedes mover 1 Energía Metal de 1 de tus Pokémon a otro de tus Pokémon.",
+			'it-it': "Durante il tuo turno, puoi spostare un'Energia Metal da uno a un altro dei tuoi Pokémon tutte le volte che vuoi.",
+			'pt-br': "Quantas vezes desejar durante o seu turno, você poderá mover 1 Energia Metal de 1 dos seus Pokémon para outro Pokémon seu.",
+			'de-de': "Beliebig oft während deines Zuges kannst du 1 Metal-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon verschieben."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Zen Headbutt",
-			fr: "Psykoud'Boul",
-			es: "Cabezazo Zen",
-			it: "Cozzata Zen",
-			pt: "Cabeçada Zen",
-			de: "Zen-Kopfstoß"
+			'en-us': "Zen Headbutt",
+			'fr-fr': "Psykoud'Boul",
+			'es-es': "Cabezazo Zen",
+			'it-it': "Cozzata Zen",
+			'pt-br': "Cabeçada Zen",
+			'de-de': "Zen-Kopfstoß"
 		},
 
 		damage: 70,
@@ -82,7 +82,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Many scientists suspect that this Pokémon originated outside the Galar region, based on the patterns on its body."
+		'en-us': "Many scientists suspect that this Pokémon originated outside the Galar region, based on the patterns on its body."
 	},
 
 	variants: [

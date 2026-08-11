@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Promos-A"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Kangaskhan"
+		'en-us': "Kangaskhan"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Although it's carrying its baby in a pouch on\nits belly, Kangaskhan is swift on its feet. It\nintimidates its opponents with quick jabs."
+		'en-us': "Although it's carrying its baby in a pouch on\nits belly, Kangaskhan is swift on its feet. It\nintimidates its opponents with quick jabs."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Cross-Cut"
+			'en-us': "Cross-Cut"
 		},
 
 		damage: 20,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 40 more damage."
+			'en-us': "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 40 more damage."
 		}
 	}],
 

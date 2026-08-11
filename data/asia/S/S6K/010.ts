@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴルダック",
+		'ja-jp': "ゴルダック",
 		'zh-tw': "哥達鴨",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "泳ぎの プロフェッショナル。 長い シッポを 巧みに くねらせ 丸々 ２日 泳いでいられる。",
+		'ja-jp': "泳ぎの プロフェッショナル。 長い シッポを 巧みに くねらせ 丸々 ２日 泳いでいられる。",
 		'zh-tw': "游泳專家。能靈活地擺動長長的尾巴，連續游上整整２天。",
 	},
 
@@ -23,19 +23,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "サイケこうせん",
+				'ja-jp': "サイケこうせん",
 				'zh-tw': "幻象光線",
 			},
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【混亂】。",
 			},
 		},
 		{
 			name: {
-				ja: "なみのり",
+				'ja-jp': "なみのり",
 				'zh-tw': "衝浪",
 			},
 			damage: 70,
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コダック",
+		'ja-jp': "コダック",
 	},
 
 	retreat: 1,

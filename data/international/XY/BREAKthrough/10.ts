@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Quilladin",
-		fr: "Boguérisse",
-		es: "Quilladin",
-		it: "Quilladin",
-		pt: "Quilladin",
-		de: "Igastarnish"
+		'en-us': "Quilladin",
+		'fr-fr': "Boguérisse",
+		'es-es': "Quilladin",
+		'it-it': "Quilladin",
+		'pt-br': "Quilladin",
+		'de-de': "Igastarnish"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Chespin",
-		fr: "Marisson",
-		es: "Chespin",
-		it: "Chespin",
-		pt: "Chespin",
-		de: "Igamaro"
+		'en-us': "Chespin",
+		'fr-fr': "Marisson",
+		'es-es': "Chespin",
+		'it-it': "Chespin",
+		'pt-br': "Chespin",
+		'de-de': "Igamaro"
 	},
 
 	stage: "Stage1",
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -62,20 +62,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pin Missile",
-				fr: "Dard-Nuée",
-				es: "Pin Misil",
-				it: "Missilspillo",
-				pt: "Míssil de Espinhos",
-				de: "Nadelrakete"
+				'en-us': "Pin Missile",
+				'fr-fr': "Dard-Nuée",
+				'es-es': "Pin Misil",
+				'it-it': "Missilspillo",
+				'pt-br': "Míssil de Espinhos",
+				'de-de': "Nadelrakete"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 40 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
-				es: "Lanza 4 monedas. Este ataque hace 40 puntos de daño por cada cara.",
-				it: "Lancia quattro volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa.",
-				pt: "Jogue 4 moedas. Este ataque causa 40 de danos vezes o número de caras.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 4 coins. This attack does 40 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 4 monedas. Este ataque hace 40 puntos de daño por cada cara.",
+				'it-it': "Lancia quattro volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 4 moedas. Este ataque causa 40 de danos vezes o número de caras.",
+				'de-de': "Wirf 4 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "40×",
 
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "They strengthen their lower bodies by running into one another. They are very kind and won't start fights.",
+		'en-us': "They strengthen their lower bodies by running into one another. They are very kind and won't start fights.",
 	},
 
 	thirdParty: {

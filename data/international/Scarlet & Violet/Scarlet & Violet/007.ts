@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tropius",
-		fr: "Tropius",
-		es: "Tropius",
-		it: "Tropius",
-		pt: "Tropius",
-		de: "Tropius"
+		'en-us': "Tropius",
+		'fr-fr': "Tropius",
+		'es-es': "Tropius",
+		'it-it': "Tropius",
+		'pt-br': "Tropius",
+		'de-de': "Tropius"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Fresh-Picked Fruit",
-			fr: "Fruit Frais",
-			es: "Fruta Fresca",
-			it: "Frutto Appena Colto",
-			pt: "Fruta Fresca",
-			de: "Frisches Obst"
+			'en-us': "Fresh-Picked Fruit",
+			'fr-fr': "Fruit Frais",
+			'es-es': "Fruta Fresca",
+			'it-it': "Frutto Appena Colto",
+			'pt-br': "Fruta Fresca",
+			'de-de': "Frisches Obst"
 		},
 
 		effect: {
-			en: "Heal 60 damage from 1 of your Benched Pokémon.",
-			fr: "Soignez 60 dégâts de l'un de vos Pokémon de Banc.",
-			es: "Cura 60 puntos de daño a uno de tus Pokémon en Banca.",
-			it: "Cura uno dei tuoi Pokémon in panchina da 60 danni.",
-			pt: "Cure 60 pontos de dano de 1 dos seus Pokémon no Banco.",
-			de: "Heile 60 Schadenspunkte bei 1 Pokémon auf deiner Bank."
+			'en-us': "Heal 60 damage from 1 of your Benched Pokémon.",
+			'fr-fr': "Soignez 60 dégâts de l'un de vos Pokémon de Banc.",
+			'es-es': "Cura 60 puntos de daño a uno de tus Pokémon en Banca.",
+			'it-it': "Cura uno dei tuoi Pokémon in panchina da 60 danni.",
+			'pt-br': "Cure 60 pontos de dano de 1 dos seus Pokémon no Banco.",
+			'de-de': "Heile 60 Schadenspunkte bei 1 Pokémon auf deiner Bank."
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Razor Leaf",
-			fr: "Tranch'Herbe",
-			es: "Hoja Afilada",
-			it: "Foglielama",
-			pt: "Folha Navalha",
-			de: "Rasierblatt"
+			'en-us': "Razor Leaf",
+			'fr-fr': "Tranch'Herbe",
+			'es-es': "Hoja Afilada",
+			'it-it': "Foglielama",
+			'pt-br': "Folha Navalha",
+			'de-de': "Rasierblatt"
 		},
 
 		damage: 50
@@ -76,7 +76,7 @@ const card: Card = {
 	illustrator: "aoki",
 
 	description: {
-		en: "It lives in tropical jungles. The bunch of fruit around its neck is delicious. The fruit grows twice a year.",
+		'en-us': "It lives in tropical jungles. The bunch of fruit around its neck is delicious. The fruit grows twice a year.",
 	},
 
 	thirdParty: {

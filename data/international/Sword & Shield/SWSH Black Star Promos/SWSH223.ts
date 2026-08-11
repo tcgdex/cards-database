@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Mewtwo V",
-		de: "Mewtu V",
-		es: "Mewtwo V",
-		pt: "Mewtwo V",
-		it: "Mewtwo V",
-		en: "Mewtwo V"
+		'fr-fr': "Mewtwo V",
+		'de-de': "Mewtu V",
+		'es-es': "Mewtwo V",
+		'pt-br': "Mewtwo V",
+		'it-it': "Mewtwo V",
+		'en-us': "Mewtwo V"
 	},
 
 	rarity: "Promo",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			fr: "Super Psy",
-			de: "Super-Psischlag",
-			es: "Superrayo Psi",
-			pt: "Super-raio Psíquico",
-			it: "Superpsico",
-			en: "Super Psy Bolt"
+			'fr-fr': "Super Psy",
+			'de-de': "Super-Psischlag",
+			'es-es': "Superrayo Psi",
+			'pt-br': "Super-raio Psíquico",
+			'it-it': "Superpsico",
+			'en-us': "Super Psy Bolt"
 		},
 
 		damage: 50
@@ -38,21 +38,21 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			fr: "Rupture Transfert",
-			de: "Transferbruch",
-			es: "Golpe Traspaso",
-			pt: "Transferência Intensa",
-			it: "Sfondatransfer",
-			en: "Transfer Break"
+			'fr-fr': "Rupture Transfert",
+			'de-de': "Transferbruch",
+			'es-es': "Golpe Traspaso",
+			'pt-br': "Transferência Intensa",
+			'it-it': "Sfondatransfer",
+			'en-us': "Transfer Break"
 		},
 
 		effect: {
-			fr: "Déplacez une Énergie de ce Pokémon vers l'un de vos Pokémon de Banc.",
-			de: "Verschiebe 1 Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank.",
-			es: "Mueve 1 Energía de este Pokémon a 1 de tus Pokémon en Banca.",
-			pt: "Mova 1 Energia deste Pokémon para 1 dos seus Pokémon no Banco.",
-			it: "Sposta un'Energia da questo Pokémon a uno di quelli nella tua panchina.",
-			en: "Move an Energy from this Pokémon to 1 of your Benched Pokémon."
+			'fr-fr': "Déplacez une Énergie de ce Pokémon vers l'un de vos Pokémon de Banc.",
+			'de-de': "Verschiebe 1 Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank.",
+			'es-es': "Mueve 1 Energía de este Pokémon a 1 de tus Pokémon en Banca.",
+			'pt-br': "Mova 1 Energia deste Pokémon para 1 dos seus Pokémon no Banco.",
+			'it-it': "Sposta un'Energia da questo Pokémon a uno di quelli nella tua panchina.",
+			'en-us': "Move an Energy from this Pokémon to 1 of your Benched Pokémon."
 		},
 
 		damage: 160

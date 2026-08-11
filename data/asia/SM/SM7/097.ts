@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダーテングGX",
+		'ja-jp': "ダーテングGX",
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Grass"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 		{
@@ -28,14 +28,14 @@ const card: Card = {
 			damage: "90+",
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分の手札と相手の手札が同じ枚数なら、90ダメージ追加。",
+				'ja-jp': "自分の手札と相手の手札が同じ枚数なら、90ダメージ追加。",
 			},
 		},
 		{
 			name: { ja: "ふくまでんGX" },
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のポケモン1匹と、ついているすべてのカードを、相手の山札にもどして切る。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のポケモン1匹と、ついているすべてのカードを、相手の山札にもどして切る。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コノハナ",
+		'ja-jp': "コノハナ",
 	},
 
 	retreat: 2,

@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Flittle",
-		fr: "Flotillon",
-		es: "Flittle",
-		it: "Flittle",
-		pt: "Flittle",
-		de: "Flattutu"
+		'en-us': "Flittle",
+		'fr-fr': "Flotillon",
+		'es-es': "Flittle",
+		'it-it': "Flittle",
+		'pt-br': "Flittle",
+		'de-de': "Flattutu"
   },
   illustrator: "kodama",
   rarity: "One Diamond",
@@ -24,9 +24,9 @@ const card: Card = {
   attacks: [
     {
       name: {
-				en: "Flop",
-				fr: "Flop",
-				de: "Flop"
+				'en-us': "Flop",
+				'fr-fr': "Flop",
+				'de-de': "Flop"
       },
       damage: "10",
       cost: ["Psychic"],

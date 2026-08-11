@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モグリュー",
+		'ja-jp': "モグリュー",
 		'zh-tw': "螺釘地鼠",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ツメで 地中を 掘り進むので 育てた 野菜が 傷むと 農業関係者は 嫌う。",
+		'ja-jp': "ツメで 地中を 掘り進むので 育てた 野菜が 傷むと 農業関係者は 嫌う。",
 		'zh-tw': "會用爪子在地底挖掘前進。一些農民因為擔心牠會因此糟蹋蔬菜而討厭牠。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ひっかく",
+				'ja-jp': "ひっかく",
 				'zh-tw': "抓",
 			},
 			damage: 20,

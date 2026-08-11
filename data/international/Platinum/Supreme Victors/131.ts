@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Turtwig",
-		fr: "Tortipouss",
-		de: "Chelast"
+		'en-us': "Turtwig",
+		'fr-fr': "Tortipouss",
+		'de-de': "Chelast"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shell Attack",
-				fr: "Coquill-attaque",
-				de: "Muschelangriff"
+				'en-us': "Shell Attack",
+				'fr-fr': "Coquill-attaque",
+				'de-de': "Muschelangriff"
 			},
 
 			damage: 10,
@@ -44,14 +44,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stomp",
-				fr: "Écrasement",
-				de: "Stampfer"
+				'en-us': "Stomp",
+				'fr-fr': "Écrasement",
+				'de-de': "Stampfer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The shell on its back is made of soil. On a very healthy Turtwig, the shell should feel moist."
+		'en-us': "The shell on its back is made of soil. On a very healthy Turtwig, the shell should feel moist."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オムナイト",
+		'ja-jp': "オムナイト",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "千里眼",
+				'ja-jp': "千里眼",
 			},
 			effect: {
-				ja: "あなたの対戦相手は彼または彼女の手を上にして遊ぶ。このパワーは機能しなくなり、オマニテは特別な状態の影響を受けます。",
+				'ja-jp': "あなたの対戦相手は彼または彼女の手を上にして遊ぶ。このパワーは機能しなくなり、オマニテは特別な状態の影響を受けます。",
 			},
 		}],
 
@@ -30,10 +30,10 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "ウォーターガン",
+				'ja-jp': "ウォーターガン",
 			},
 			effect: {
-				ja: "Omanyteに付着した各水エネルギーに対して10ダメージに加えて10ダメージを与えますが、この攻撃のエネルギーコストの支払いには使用されません。この方法で20以上のダメージを追加することはできません。",
+				'ja-jp': "Omanyteに付着した各水エネルギーに対して10ダメージに加えて10ダメージを与えますが、この攻撃のエネルギーコストの支払いには使用されません。この方法で20以上のダメージを追加することはできません。",
 			},
 
 		},

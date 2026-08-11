@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Emolga",
-		fr: "Emolga",
-		es: "Emolga",
-		it: "Emolga",
-		pt: "Emolga",
-		de: "Emolga"
+		'en-us': "Emolga",
+		'fr-fr': "Emolga",
+		'es-es': "Emolga",
+		'it-it': "Emolga",
+		'pt-br': "Emolga",
+		'de-de': "Emolga"
 	},
 
 	illustrator: "Naoki Saito",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Electrichain",
-				fr: "Électrichaîne",
+				'en-us': "Electrichain",
+				'fr-fr': "Électrichaîne",
 			},
 			effect: {
-				en: "Does 20 more damage if you have any Lightning Pokémon on your Bench.",
-				fr: "Inflige 20 dégâts supplémentaires si vous avez un Pokémon Lightning sur votre Banc.",
+				'en-us': "Does 20 more damage if you have any Lightning Pokémon on your Bench.",
+				'fr-fr': "Inflige 20 dégâts supplémentaires si vous avez un Pokémon Lightning sur votre Banc.",
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They live on treetops and glide using the inside of a cape-like membrane while discharging electricity.",
+		'en-us': "They live on treetops and glide using the inside of a cape-like membrane while discharging electricity.",
 	},
 
 	thirdParty: {

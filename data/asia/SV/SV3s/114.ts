@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Malamar"
+		'id-id': "Malamar"
 	},
 
 	illustrator: "Nelnal",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Dikatakan bahwa kekuatan hipnosis Malamar berperan dalam kasus besar yang mengubah sejarah."
+		'id-id': "Dikatakan bahwa kekuatan hipnosis Malamar berperan dalam kasus besar yang mengubah sejarah."
 	},
 
 	stage: "Stage1",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Psychovision"
+			'id-id': "Psychovision"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri. Lihat 1 kartu dari atas Deck lawan, lalu kembalikan ke posisi semula. Setelah itu, lihat 1 kartu dari atas Deck sendiri, lalu kembalikan ke posisi semula."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri. Lihat 1 kartu dari atas Deck lawan, lalu kembalikan ke posisi semula. Setelah itu, lihat 1 kartu dari atas Deck sendiri, lalu kembalikan ke posisi semula."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Sinar Hipnotis"
+			'id-id': "Sinar Hipnotis"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
 		},
 
 		damage: 90,

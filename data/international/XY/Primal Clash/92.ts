@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Crawdaunt",
-		fr: "Colhomard",
-		es: "Crawdaunt",
-		it: "Crawdaunt",
-		pt: "Crawdaunt",
-		de: "Krebutack"
+		'en-us': "Crawdaunt",
+		'fr-fr': "Colhomard",
+		'es-es': "Crawdaunt",
+		'it-it': "Crawdaunt",
+		'pt-br': "Crawdaunt",
+		'de-de': "Krebutack"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Corphish",
-		fr: "Écrapince",
-		es: "Corphish",
-		it: "Corphish",
-		pt: "Corphish",
-		de: "Krebscorps"
+		'en-us': "Corphish",
+		'fr-fr': "Écrapince",
+		'es-es': "Corphish",
+		'it-it': "Corphish",
+		'pt-br': "Corphish",
+		'de-de': "Krebscorps"
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Unruly Claw",
-				fr: "Pince Rebelle",
-				es: "Garra Rebelde",
-				it: "Artiglio Ribelle",
-				pt: "Garra Desregrada",
-				de: "Unbändige Schere"
+				'en-us': "Unruly Claw",
+				'fr-fr': "Pince Rebelle",
+				'es-es': "Garra Rebelde",
+				'it-it': "Artiglio Ribelle",
+				'pt-br': "Garra Desregrada",
+				'de-de': "Unbändige Schere"
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may discard an Energy attached to your opponent's Active Pokémon.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon, vous pouvez défausser une Énergie attachée au Pokémon Actif de votre adversaire.",
-				es: "Cuando juegues a este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon, puedes descartar 1 Energía unida al Pokémon Activo de tu rival.",
-				it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi scartare un'Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Ao jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon, você pode descartar uma Energia ligada ao Pokémon Ativo do seu oponente.",
-				de: "Wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 1 Energie, die an das Aktive Pokémon deines Gegners angelegt ist, auf den Ablagestapel deines Gegners legen."
+				'en-us': "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may discard an Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon, vous pouvez défausser une Énergie attachée au Pokémon Actif de votre adversaire.",
+				'es-es': "Cuando juegues a este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon, puedes descartar 1 Energía unida al Pokémon Activo de tu rival.",
+				'it-it': "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi scartare un'Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Ao jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon, você pode descartar uma Energia ligada ao Pokémon Ativo do seu oponente.",
+				'de-de': "Wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 1 Energie, die an das Aktive Pokémon deines Gegners angelegt ist, auf den Ablagestapel deines Gegners legen."
 			},
 		},
 	],
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crabhammer",
-				fr: "Pince-Masse",
-				es: "Martillazo",
-				it: "Martellata",
-				pt: "Martelo Caranguejo",
-				de: "Krabbhammer"
+				'en-us': "Crabhammer",
+				'fr-fr': "Pince-Masse",
+				'es-es': "Martillazo",
+				'it-it': "Martellata",
+				'pt-br': "Martelo Caranguejo",
+				'de-de': "Krabbhammer"
 			},
 
 			damage: 60,
@@ -97,7 +97,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Loving to battle, this Pokémon pinches all Pokémon that enter its territory with its pincers and throws them out.",
+		'en-us': "Loving to battle, this Pokémon pinches all Pokémon that enter its territory with its pincers and throws them out.",
 	},
 
 	thirdParty: {

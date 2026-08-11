@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "セグレイブ",
+		'ja-jp': "セグレイブ",
 		'zh-tw': "戟脊龍",
-		id: "Baxcalibur"
+		'id-id': "Baxcalibur"
 	},
 
 	illustrator: "GOSSAN",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "極低温の 冷気を 口から 噴射。 灼熱の マグマでも 瞬時に 凍りつかせてしまう。",
+		'ja-jp': "極低温の 冷気を 口から 噴射。 灼熱の マグマでも 瞬時に 凍りつかせてしまう。",
 		'zh-tw': "會從嘴裡噴射極低溫的冷氣。即使是灼熱的熔岩也能 使其在一瞬間變成冰塊。",
-		id: "Baxcalibur menyemburkan hawa dingin yang bersuhu sangat rendah dari mulutnya. Magma panas membara pun akan membeku dalam sekejap."
+		'id-id': "Baxcalibur menyemburkan hawa dingin yang bersuhu sangat rendah dari mulutnya. Magma panas membara pun akan membeku dalam sekejap."
 	},
 
 	stage: "Stage2",
@@ -28,15 +28,15 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "きょくていおん",
+			'ja-jp': "きょくていおん",
 			'zh-tw': "極低溫",
-			id: "Suhu Rendah Ekstrem"
+			'id-id': "Suhu Rendah Ekstrem"
 		},
 
 		effect: {
-			ja: "自分の番に何回でも使える。自分の手札から「基本エネルギー」を1枚選び、自分のポケモンにつける。",
+			'ja-jp': "自分の番に何回でも使える。自分の手札から「基本エネルギー」を1枚選び、自分のポケモンにつける。",
 			'zh-tw': "在自己的回合時，可不限次數使用。從自己的手牌選擇1張「基本【水】能量」卡，附於自己的寶可夢身上。",
-			id: "Dapat digunakan berkali-kali pada giliran sendiri. Pilih 1 lembar Energi Dasar {Air} dari Kartu Pegangan sendiri, lalu kenakan pada Pokémon sendiri."
+			'id-id': "Dapat digunakan berkali-kali pada giliran sendiri. Pilih 1 lembar Energi Dasar {Air} dari Kartu Pegangan sendiri, lalu kenakan pada Pokémon sendiri."
 		}
 	}],
 
@@ -44,9 +44,9 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			ja: "バスターテール",
+			'ja-jp': "バスターテール",
 			'zh-tw': "光炮尾",
-			id: "Buster Tail"
+			'id-id': "Buster Tail"
 		},
 
 		damage: 130

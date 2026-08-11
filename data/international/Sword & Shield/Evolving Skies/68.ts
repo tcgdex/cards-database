@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Woobat",
-		fr: "Chovsourir",
-		es: "Woobat",
-		it: "Woobat",
-		pt: "Woobat",
-		de: "Fleknoil"
+		'en-us': "Woobat",
+		'fr-fr': "Chovsourir",
+		'es-es': "Woobat",
+		'it-it': "Woobat",
+		'pt-br': "Woobat",
+		'de-de': "Fleknoil"
 	},
 
 	rarity: "Common",
@@ -23,32 +23,32 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			es: "Coleccionar",
-			it: "Tassa",
-			pt: "Collect",
-			de: "Sammeln"
+			'en-us': "Collect",
+			'fr-fr': "Collecte",
+			'es-es': "Coleccionar",
+			'it-it': "Tassa",
+			'pt-br': "Collect",
+			'de-de': "Sammeln"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			es: "Roba 1 carta.",
-			it: "Pesca una carta.",
-			pt: "Draw a card.",
-			de: "Ziehe 1 Karte."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'es-es': "Roba 1 carta.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Draw a card.",
+			'de-de': "Ziehe 1 Karte."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Gnaw",
-			fr: "Ronge",
-			es: "Roer",
-			it: "Rosicchiamento",
-			pt: "Gnaw",
-			de: "Nagen"
+			'en-us': "Gnaw",
+			'fr-fr': "Ronge",
+			'es-es': "Roer",
+			'it-it': "Rosicchiamento",
+			'pt-br': "Gnaw",
+			'de-de': "Nagen"
 		},
 
 		damage: 10,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It emits ultrasonic waves as it flutters about, searching for its prey—bug Pokémon."
+		'en-us': "It emits ultrasonic waves as it flutters about, searching for its prey—bug Pokémon."
 	},
 
 	dexId: [527],

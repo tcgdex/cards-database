@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イシツブテ",
+		'ja-jp': "イシツブテ",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "石の弾幕",
+				'ja-jp': "石の弾幕",
 			},
 			effect: {
-				ja: "尾がなくなるまでコインをひっくり返します。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "尾がなくなるまでコインをひっくり返します。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 
 		},

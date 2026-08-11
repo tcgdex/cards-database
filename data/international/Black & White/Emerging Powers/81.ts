@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Tranquill",
-		fr: "Colombeau",
-		es: "Tranquill",
-		it: "Tranquill",
-		pt: "Tranquill",
-		de: "Navitaub"
+		'en-us': "Tranquill",
+		'fr-fr': "Colombeau",
+		'es-es': "Tranquill",
+		'it-it': "Tranquill",
+		'pt-br': "Tranquill",
+		'de-de': "Navitaub"
 	},
 
 	illustrator: "Midori Harada",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pidove",
-		fr: "Poichigeon",
+		'en-us': "Pidove",
+		'fr-fr': "Poichigeon",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Claw",
-				fr: "Ergots",
+				'en-us': "Claw",
+				'fr-fr': "Ergots",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 			},
 			damage: 30,
 
@@ -56,8 +56,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-Aile",
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-Aile",
 			},
 
 			damage: 50,
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Many people believe that, deep in the forest where Tranquill live, there is a peaceful place where there is no war.",
+		'en-us': "Many people believe that, deep in the forest where Tranquill live, there is a peaceful place where there is no war.",
 	},
 
 	thirdParty: {

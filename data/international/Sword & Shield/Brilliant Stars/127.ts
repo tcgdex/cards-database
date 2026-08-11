@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hawlucha",
-		fr: "Brutalibré",
-		es: "Hawlucha",
-		it: "Hawlucha",
-		pt: "Hawlucha",
-		de: "Resladero"
+		'en-us': "Hawlucha",
+		'fr-fr': "Brutalibré",
+		'es-es': "Hawlucha",
+		'it-it': "Hawlucha",
+		'pt-br': "Hawlucha",
+		'de-de': "Resladero"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -25,41 +25,41 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Showboating Pose",
-			fr: "Pose Vantarde",
-			es: "Pose de Alarde",
-			it: "Posa Ostentata",
-			pt: "Se Achando",
-			de: "Angeberpose"
+			'en-us': "Showboating Pose",
+			'fr-fr': "Pose Vantarde",
+			'es-es': "Pose de Alarde",
+			'it-it': "Posa Ostentata",
+			'pt-br': "Se Achando",
+			'de-de': "Angeberpose"
 		},
 
 		effect: {
-			en: "Attach up to 2 basic Energy cards from your discard pile to 1 of your Benched Pokémon.",
-			fr: "Attachez jusqu'à 2 cartes Énergie de base de votre pile de défausse à l'un de vos Pokémon de Banc.",
-			es: "Une hasta 2 cartas de Energía Básica de tu pila de descartes a 1 de tus Pokémon en Banca.",
-			it: "Assegna a uno dei tuoi Pokémon in panchina fino a due carte Energia base dalla tua pila degli scarti.",
-			pt: "Ligue até 2 cartas de Energia básica da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-			de: "Lege bis zu 2 Basis-Energiekarten aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
+			'en-us': "Attach up to 2 basic Energy cards from your discard pile to 1 of your Benched Pokémon.",
+			'fr-fr': "Attachez jusqu'à 2 cartes Énergie de base de votre pile de défausse à l'un de vos Pokémon de Banc.",
+			'es-es': "Une hasta 2 cartas de Energía Básica de tu pila de descartes a 1 de tus Pokémon en Banca.",
+			'it-it': "Assegna a uno dei tuoi Pokémon in panchina fino a due carte Energia base dalla tua pila degli scarti.",
+			'pt-br': "Ligue até 2 cartas de Energia básica da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
+			'de-de': "Lege bis zu 2 Basis-Energiekarten aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
 		}
 	}, {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Cross-Cut",
-			fr: "Coupe Transversale",
-			es: "Atajar",
-			it: "Fendente Incrociato",
-			pt: "Corte em Cruz",
-			de: "Überkreuzzerschneider"
+			'en-us': "Cross-Cut",
+			'fr-fr': "Coupe Transversale",
+			'es-es': "Atajar",
+			'it-it': "Fendente Incrociato",
+			'pt-br': "Corte em Cruz",
+			'de-de': "Überkreuzzerschneider"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 30 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 30 dégâts supplémentaires.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 30 puntos de daño más.",
-			it: "Se il Pokémon attivo del tuo avversario è un Pokémon Evoluzione, questo attacco infligge 30 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon de Evolução, este ataque causará 30 pontos de dano a mais.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
+			'en-us': "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 30 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 30 dégâts supplémentaires.",
+			'es-es': "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 30 puntos de daño más.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon Evoluzione, questo attacco infligge 30 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon de Evolução, este ataque causará 30 pontos de dano a mais.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
@@ -82,7 +82,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It drives its opponents to exhaustion with its agile maneuvers, then ends the fight with a flashy finishing move.",
+		'en-us': "It drives its opponents to exhaustion with its agile maneuvers, then ends the fight with a flashy finishing move.",
 	},
 
 	variants: [

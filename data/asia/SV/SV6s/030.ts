@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Torkoal"
+		'id-id': "Torkoal"
 	},
 
 	illustrator: "Teeziro",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Batu bara adalah sumber energi Pokémon ini. Terdapat banyak batu bara yang terpendam di gunung tempat tinggal Torkoal."
+		'id-id': "Batu bara adalah sumber energi Pokémon ini. Terdapat banyak batu bara yang terpendam di gunung tempat tinggal Torkoal."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Serudukan Tempurung"
+			'id-id': "Serudukan Tempurung"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 30."
+			'id-id': "Pada giliran lawan berikutnya, kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 30."
 		},
 
 		damage: 30,
 		cost: ["Fire", "Colorless"]
 	}, {
 		name: {
-			id: "Pusaran Api"
+			'id-id': "Pusaran Api"
 		},
 
 		effect: {
-			id: "Pilih 2 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
+			'id-id': "Pilih 2 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
 		},
 
 		damage: 110,

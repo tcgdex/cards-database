@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVAM"
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "斗笠菇",
-		th: "คิโนกัซซา",
-		id: "Breloom"
+		'th-th': "คิโนกัซซา",
+		'id-id': "Breloom"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -17,8 +17,8 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "會撒出毒孢子，然後再讓因吸入孢子而痛苦不堪的 對手吃上一記重拳。",
-		th: "จะโปรยสปอร์พิษแล้วปล่อยหมัดรุนแรงชกฝ่ายตรงข้ามที่เจ็บปวดจากการสูดดมสปอร์พิษเข้าไป",
-		id: "Breloom menyebarkan spora racun dan menyarangkan pukulan kuat pada lawan yang menderita karena menghirup spora tersebut."
+		'th-th': "จะโปรยสปอร์พิษแล้วปล่อยหมัดรุนแรงชกฝ่ายตรงข้ามที่เจ็บปวดจากการสูดดมสปอร์พิษเข้าไป",
+		'id-id': "Breloom menyebarkan spora racun dan menyarangkan pukulan kuat pada lawan yang menderita karena menghirup spora tersebut."
 	},
 
 	stage: "Stage1",
@@ -26,8 +26,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "音速直擊",
-			th: "มัคสเตรท",
-			id: "Mach Straight"
+			'th-th': "มัคสเตรท",
+			'id-id': "Mach Straight"
 		},
 
 		damage: 60,

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Ampharos",
-		fr: "Pharamp",
+		'en-us': "Ampharos",
+		'fr-fr': "Pharamp",
 	},
 	illustrator: "Naoki Saito",
 	rarity: "Common",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Lightning",
 	],
 	evolveFrom: {
-		en: "Flaaffy",
-		fr: "Lainergie",
+		'en-us': "Flaaffy",
+		'fr-fr': "Lainergie",
 	},
 	stage: "Stage2",
 
@@ -31,12 +31,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Random Spark",
-				fr: "Étincelle Surprise",
+				'en-us': "Random Spark",
+				'fr-fr': "Étincelle Surprise",
 			},
 			effect: {
-				en: "This attack does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 30 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "This attack does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 30 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electricannon",
-				fr: "Canon Électrique",
+				'en-us': "Electricannon",
+				'fr-fr': "Canon Électrique",
 			},
 			effect: {
-				en: "You may discard all Lightning Energy attached to this Pokémon. If you do, this attack does 60 more damage.",
-				fr: "Vous pouvez défausser toutes les Énergies Lightning attachées à ce Pokémon. Dans ce cas, cette attaque inflige 60 dégâts supplémentaires.",
+				'en-us': "You may discard all Lightning Energy attached to this Pokémon. If you do, this attack does 60 more damage.",
+				'fr-fr': "Vous pouvez défausser toutes les Énergies Lightning attachées à ce Pokémon. Dans ce cas, cette attaque inflige 60 dégâts supplémentaires.",
 			},
 			damage: 60,
 
@@ -71,7 +71,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The tip of its tail shines brightly. In the olden days, people sent signals using the tail's light.",
+		'en-us': "The tip of its tail shines brightly. In the olden days, people sent signals using the tail's light.",
 	},
 }
 

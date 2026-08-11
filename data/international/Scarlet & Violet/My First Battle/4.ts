@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../My First Battle"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gloom",
+		'en-us': "Gloom",
 	},
 
 	rarity: "None",
@@ -19,11 +19,11 @@ const card: Card = {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			en: "Mega Drain",
+			'en-us': "Mega Drain",
 		},
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon.",
+			'en-us': "Heal 20 damage from this Pokémon.",
 		},
 
 		damage: 60

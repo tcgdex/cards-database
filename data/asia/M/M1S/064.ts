@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ツボツボ"
+		'ja-jp': "ツボツボ"
 	},
 	illustrator: "OKUBO",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Grass"],
 	description: {
-		ja: "ツボのような甲羅の中にためこんだ木の実はいつの間にかドロドロのジュースに変わる"
+		'ja-jp': "ツボのような甲羅の中にためこんだ木の実はいつの間にかドロドロのジュースに変わる"
 	},
 	stage: "Basic",
 	attacks: [{
 		name: {
-			ja: "ころがる"
+			'ja-jp': "ころがる"
 		},
 		damage: 50,
 		cost: ["Grass", "Colorless", "Colorless"]

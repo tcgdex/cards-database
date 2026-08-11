@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Totodile",
-		fr: "Kaiminus",
-		de: "Karnimani"
+		'en-us': "Totodile",
+		'fr-fr': "Kaiminus",
+		'de-de': "Karnimani"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Tail",
-				fr: "Hydroqueue",
-				de: "Nassschweif"
+				'en-us': "Aqua Tail",
+				'fr-fr': "Hydroqueue",
+				'de-de': "Nassschweif"
 			},
 			effect: {
-				en: "Flip a coin for each Water Energy attached to Totodile. This attack does 30 damage plus 20 more damage for each heads.",
-				fr: "Lancez une pièce pour chaque Énergie Water attachée à Kaiminus. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque côté face.",
-				de: "Wirf eine Münze für jede an Karnimani angelegte -Energie. Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip a coin for each Water Energy attached to Totodile. This attack does 30 damage plus 20 more damage for each heads.",
+				'fr-fr': "Lancez une pièce pour chaque Énergie Water attachée à Kaiminus. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque côté face.",
+				'de-de': "Wirf eine Münze für jede an Karnimani angelegte -Energie. Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "30+",
 
@@ -54,7 +54,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is small but rough and tough. It won't hesitate to take a bite out of anything that moves.",
+		'en-us': "It is small but rough and tough. It won't hesitate to take a bite out of anything that moves.",
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Rongourmand",
-		en: "Skwovet",
-		es: "Skwovet",
-		it: "Skwovet",
-		pt: "Skwovet",
-		de: "Raffel"
+		'fr-fr': "Rongourmand",
+		'en-us': "Skwovet",
+		'es-es': "Skwovet",
+		'it-it': "Skwovet",
+		'pt-br': "Skwovet",
+		'de-de': "Raffel"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Bouchée Dérobée",
-			en: "Nicked Nibble",
-			es: "Mordisquito a Hurtadillas",
-			it: "Sgraffigna Boccone",
-			pt: "Lambiscar",
-			de: "Anknabbern"
+			'fr-fr': "Bouchée Dérobée",
+			'en-us': "Nicked Nibble",
+			'es-es': "Mordisquito a Hurtadillas",
+			'it-it': "Sgraffigna Boccone",
+			'pt-br': "Lambiscar",
+			'de-de': "Anknabbern"
 		},
 
 		effect: {
-			fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-			en: "Discard the top card of your opponent's deck.",
-			es: "Descarta la primera carta de la baraja de tu rival.",
-			it: "Scarta la prima carta del mazzo del tuo avversario.",
-			pt: "Descarte a carta de cima do baralho do seu oponente.",
-			de: "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
+			'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+			'en-us': "Discard the top card of your opponent's deck.",
+			'es-es': "Descarta la primera carta de la baraja de tu rival.",
+			'it-it': "Scarta la prima carta del mazzo del tuo avversario.",
+			'pt-br': "Descarte a carta de cima do baralho do seu oponente.",
+			'de-de': "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
 		}
 	}, {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Gifle Douce",
-			en: "Gentle Slap",
-			es: "Bofetada Gentil",
-			it: "Schiaffetto",
-			pt: "Tapinha",
-			de: "Sanfter Hieb"
+			'fr-fr': "Gifle Douce",
+			'en-us': "Gentle Slap",
+			'es-es': "Bofetada Gentil",
+			'it-it': "Schiaffetto",
+			'pt-br': "Tapinha",
+			'de-de': "Sanfter Hieb"
 		},
 
 		damage: 10
@@ -65,7 +65,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It stores berries in its cheeks. When there are no berries to be found, Skwovet will stuff pebbles into its cheeks to stave off its cravings.",
+		'en-us': "It stores berries in its cheeks. When there are no berries to be found, Skwovet will stuff pebbles into its cheeks to stave off its cravings.",
 	},
 
 	variants: [

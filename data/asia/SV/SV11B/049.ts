@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドリュウズex",
+		'ja-jp': "ドリュウズex",
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "",
+		'ja-jp': "",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Fighting", "Fighting"],
 			effect: {
-				ja: "ダメカンがのっている相手のベンチポケモン1匹にも、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "ダメカンがのっている相手のベンチポケモン1匹にも、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -41,7 +41,7 @@ const card: Card = {
 	variants: [{ type: "holo" }],
 
 	evolveFrom: {
-		ja: "モグリュー",
+		'ja-jp': "モグリュー",
 	},
 
 	retreat: 3,

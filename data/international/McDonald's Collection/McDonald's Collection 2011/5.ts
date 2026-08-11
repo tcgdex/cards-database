@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2011'
 
 const card: Card = {
@@ -9,30 +9,30 @@ const card: Card = {
 	dexId: [594],
 
 	description: {
-		en: "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore."
+		'en-us': "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Pound",
-			fr: "Écras'Face"
+			'en-us': "Pound",
+			'fr-fr': "Écras'Face"
 		},
 
 		damage: 20
 	}, {
 		name: {
-			en: "Wave Splash",
-			fr: "Grosse Vague"
+			'en-us': "Wave Splash",
+			'fr-fr': "Grosse Vague"
 		},
 
 		damage: 60
 	}],
 
 	name: {
-		en: "Alomomola",
-		fr: "Mamanbo"
+		'en-us': "Alomomola",
+		'fr-fr': "Mamanbo"
 	},
 
 	rarity: "None",

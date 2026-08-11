@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pitch Black"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Popplio",
-		fr: "Otaquin",
-		es: "Popplio",
+		'en-us': "Popplio",
+		'fr-fr': "Otaquin",
+		'es-es': "Popplio",
 		'es-mx': "Popplio",
-		de: "Robball",
-		it: "Popplio",
-		pt: "Popplio"
+		'de-de': "Robball",
+		'it-it': "Popplio",
+		'pt-br': "Popplio"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -24,13 +24,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Pound",
-			fr: "Écras'Face",
-			es: "Destructor",
+			'en-us': "Pound",
+			'fr-fr': "Écras'Face",
+			'es-es': "Destructor",
 			'es-mx': "Destructor",
-			de: "Klaps",
-			it: "Botta",
-			pt: "Pancada"
+			'de-de': "Klaps",
+			'it-it': "Botta",
+			'pt-br': "Pancada"
 		},
 
 		cost: ["Water"],

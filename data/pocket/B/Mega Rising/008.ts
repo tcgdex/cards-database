@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Seedot"
+		'en-us': "Seedot"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "It attaches itself to a tree branch using the top of\nits head. Strong winds can sometimes make it fall."
+		'en-us': "It attaches itself to a tree branch using the top of\nits head. Strong winds can sometimes make it fall."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Rollout"
+			'en-us': "Rollout"
 		},
 
 		damage: 20,

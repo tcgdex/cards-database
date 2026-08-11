@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Aegislash ex"
+		'id-id': "Aegislash ex"
 	},
 
 	illustrator: "toriyufu",
@@ -17,22 +17,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Peerless Edge"
+			'id-id': "Peerless Edge"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan sejumlah 70 untuk tiap lembar Kartu Point yang telah diambil pemain."
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 70 untuk tiap lembar Kartu Point yang telah diambil pemain."
 		},
 
 		damage: "70×",
 		cost: ["Metal"]
 	}, {
 		name: {
-			id: "Sabetan Luka Bersama"
+			'id-id': "Sabetan Luka Bersama"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 30."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 30."
 		},
 
 		damage: 220,

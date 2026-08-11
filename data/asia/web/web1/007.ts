@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../web1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チャームレオン",
+		'ja-jp': "チャームレオン",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "スラッシュ",
+				'ja-jp': "スラッシュ",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Fire", "Fire", "Colorless"],
 			name: {
-				ja: "火炎放射器",
+				'ja-jp': "火炎放射器",
 			},
 			effect: {
-				ja: "このポケモンから火エネルギーを捨ててください。",
+				'ja-jp': "このポケモンから火エネルギーを捨ててください。",
 			},
 			damage: 50,
 		},

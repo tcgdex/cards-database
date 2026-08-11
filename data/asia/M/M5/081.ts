@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シャドー悪エネルギー",
+		'ja-jp': "シャドー悪エネルギー",
 	},
 
 	illustrator: "",
@@ -12,7 +12,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		ja: "このカードは、ポケモンについているかぎり、[D]エネルギー1個ぶんとしてはたらく。このカードをつけている[D]ポケモンは、ベンチにいるかぎり、相手のワザのダメージを受けない。",
+		'ja-jp': "このカードは、ポケモンについているかぎり、[D]エネルギー1個ぶんとしてはたらく。このカードをつけている[D]ポケモンは、ベンチにいるかぎり、相手のワザのダメージを受けない。",
 	},
 
 	variants: [

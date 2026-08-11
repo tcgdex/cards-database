@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "togepi",
+		'ja-jp': "togepi",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "あくび",
+				'ja-jp': "あくび",
 			},
 			effect: {
-				ja: "防御ポケモンは今眠っています。",
+				'ja-jp': "防御ポケモンは今眠っています。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ミニメトロノーム",
+				'ja-jp': "ミニメトロノーム",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、防御するポケモンの攻撃の1つを選択します。ミニメトロノームは、エネルギーコストを除いて攻撃するコピーをコピーします。 （あなたはまだその攻撃に必要な他のことをしなければなりません。）（ポケモンがどんなタイプであっても、Togepiのタイプはまだ無色です。）Togepiはその攻撃を実行します。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、防御するポケモンの攻撃の1つを選択します。ミニメトロノームは、エネルギーコストを除いて攻撃するコピーをコピーします。 （あなたはまだその攻撃に必要な他のことをしなければなりません。）（ポケモンがどんなタイプであっても、Togepiのタイプはまだ無色です。）Togepiはその攻撃を実行します。",
 			},
 		},
 	],

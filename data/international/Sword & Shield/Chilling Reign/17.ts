@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Thwackey",
-		fr: "Badabouin",
-		es: "Thwackey",
-		it: "Thwackey",
-		pt: "Thwackey",
-		de: "Chimstix"
+		'en-us': "Thwackey",
+		'fr-fr': "Badabouin",
+		'es-es': "Thwackey",
+		'it-it': "Thwackey",
+		'pt-br': "Thwackey",
+		'de-de': "Chimstix"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -21,31 +21,31 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Grookey",
-		fr: "Ouistempo",
-		es: "Grookey",
-		it: "Grookey",
-		pt: "Grookey",
-		de: "Chimpep"
+		'en-us': "Grookey",
+		'fr-fr': "Ouistempo",
+		'es-es': "Grookey",
+		'it-it': "Grookey",
+		'pt-br': "Grookey",
+		'de-de': "Chimpep"
 	},
 
 	attacks: [{
 		name: {
-			en: "Knock Off",
-			fr: "Sabotage",
-			es: "Desarme",
-			it: "Privazione",
-			pt: "Derrubar",
-			de: "Abschlag"
+			'en-us': "Knock Off",
+			'fr-fr': "Sabotage",
+			'es-es': "Desarme",
+			'it-it': "Privazione",
+			'pt-br': "Derrubar",
+			'de-de': "Abschlag"
 		},
 
 		effect: {
-			en: "Discard a random card from your opponent's hand.",
-			fr: "Défaussez au hasard une carte de la main de votre adversaire.",
-			es: "Descarta 1 carta aleatoria de la mano de tu rival.",
-			it: "Scarta una carta a caso dalla mano del tuo avversario.",
-			pt: "Descarte 1 carta aleatória da mão do seu oponente.",
-			de: "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
+			'en-us': "Discard a random card from your opponent's hand.",
+			'fr-fr': "Défaussez au hasard une carte de la main de votre adversaire.",
+			'es-es': "Descarta 1 carta aleatoria de la mano de tu rival.",
+			'it-it': "Scarta una carta a caso dalla mano del tuo avversario.",
+			'pt-br': "Descarte 1 carta aleatória da mão do seu oponente.",
+			'de-de': "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 30,
@@ -64,7 +64,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "When it's drumming out rapid beats in battle, it gets so caught up in the rhythm that it won't even notice that it's already knocked out its opponent."
+		'en-us': "When it's drumming out rapid beats in battle, it gets so caught up in the rhythm that it won't even notice that it's already knocked out its opponent."
 	},
 
 	variants: [

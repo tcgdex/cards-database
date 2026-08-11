@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アブソル",
+		'ja-jp': "アブソル",
 	},
 
 	illustrator: "rika",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "風のように 野山を 駆けぬける。 弓なりの ツノは 自然災害の 予兆を 敏感に 感じとる。",
+		'ja-jp': "風のように 野山を 駆けぬける。 弓なりの ツノは 自然災害の 予兆を 敏感に 感じとる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の場に[D]エネルギーが3個以上あるなら、50ダメージ追加。",
+				'ja-jp': "自分の場に[D]エネルギーが3個以上あるなら、50ダメージ追加。",
 			},
 		},
 	],

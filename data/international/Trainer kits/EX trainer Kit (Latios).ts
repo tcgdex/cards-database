@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Trainer kits'
 
 const set: Set = {
 	id: "tk-ex-latio",
 
 	name: {
-		en: "EX trainer Kit (Latios)",
-		it: "EX trainer Kit (Latios)",
-		de: "EX trainer Kit (Latios)",
-		fr: "EX Kit dresseur (Latios)",
-		es: "Kit de Entrenador EX (Latios)",
+		'en-us': "EX trainer Kit (Latios)",
+		'it-it': "EX trainer Kit (Latios)",
+		'de-de': "EX trainer Kit (Latios)",
+		'fr-fr': "EX Kit dresseur (Latios)",
+		'es-es': "Kit de Entrenador EX (Latios)",
 	},
 
 	serie: serie,
@@ -22,7 +22,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "TK1O",
-		fr: "KDL"
+		'fr-fr': "KDL"
 	},
 
 	thirdParty: {

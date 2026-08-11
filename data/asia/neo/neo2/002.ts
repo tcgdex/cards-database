@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "雑草",
+		'ja-jp': "雑草",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "スパイクの刺し傷",
+				'ja-jp': "スパイクの刺し傷",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。尾の場合、この攻撃は何もしません（ダメージさえありません）。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。尾の場合、この攻撃は何もしません（ダメージさえありません）。",
 			},
 			damage: 20,
 		},

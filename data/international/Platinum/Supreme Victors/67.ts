@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Marshtomp",
-		fr: "Flobio",
-		de: "Moorabbel"
+		'en-us': "Marshtomp",
+		'fr-fr': "Flobio",
+		'de-de': "Moorabbel"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mudkip",
-		fr: "Gobou"
+		'en-us': "Mudkip",
+		'fr-fr': "Gobou"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Plunge",
-				fr: "Plongeon",
-				de: "Untertauchen"
+				'en-us': "Plunge",
+				'fr-fr': "Plongeon",
+				'de-de': "Untertauchen"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Marshtomp is on your Bench, you may flip a coin. If heads, move all Energy cards attached to your Active Pokémon to Marshtomp. If you do, switch Marshtomp with that Active Pokémon.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), si Flobio se trouve sur votre Banc, vous pouvez lancer une pièce. Si c'est face, déplacez toutes les cartes Énergie attachées à votre Pokémon Actif sur Flobio. Échangez alors Flobio avec ce Pokémon Actif.",
-				de: "Einmal während deines Zuges (vor deinem Angriff), wenn Moorabbel auf deiner Bank ist, kannst du 1 Münze werfen. Bei \"Kopf\" entferne alle Energiekarten von deinem Aktiven Pokémon und lege sie an Moorabbel an. Wenn du das machst, tausche Moorabbel mit diesem Aktiven Pokémon aus."
+				'en-us': "Once during your turn (before your attack), if Marshtomp is on your Bench, you may flip a coin. If heads, move all Energy cards attached to your Active Pokémon to Marshtomp. If you do, switch Marshtomp with that Active Pokémon.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), si Flobio se trouve sur votre Banc, vous pouvez lancer une pièce. Si c'est face, déplacez toutes les cartes Énergie attachées à votre Pokémon Actif sur Flobio. Échangez alors Flobio avec ce Pokémon Actif.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff), wenn Moorabbel auf deiner Bank ist, kannst du 1 Münze werfen. Bei \"Kopf\" entferne alle Energiekarten von deinem Aktiven Pokémon und lege sie an Moorabbel an. Wenn du das machst, tausche Moorabbel mit diesem Aktiven Pokémon aus."
 			}
 		},
 	],
@@ -52,9 +52,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud Shot",
-				fr: "Tir de boue",
-				de: "Lehmschuss"
+				'en-us': "Mud Shot",
+				'fr-fr': "Tir de boue",
+				'de-de': "Lehmschuss"
 			},
 
 			damage: 50,
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep."
+		'en-us': "Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep."
 	},
 
 	variants: [

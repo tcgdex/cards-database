@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Kricketot",
-		fr: "Crikzik",
-		de: "Zirpurze"
+		'en-us': "Kricketot",
+		'fr-fr': "Crikzik",
+		'de-de': "Zirpurze"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la famille",
-				de: "Familienruf"
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la famille",
+				'de-de': "Familienruf"
 			},
 			effect: {
-				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach einer Basis-Pokémon-Karte und lege sie auf deine Bank. Mische dein Deck danach."
+				'en-us': "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach einer Basis-Pokémon-Karte und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sling",
-				fr: "Lance-pierres",
-				de: "Schleudern"
+				'en-us': "Sling",
+				'fr-fr': "Lance-pierres",
+				'de-de': "Schleudern"
 			},
 
 			damage: 10,
@@ -67,8 +67,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It shakes its head back to front, causing its antennae to hit each other and sound like a xylophone.",
-		fr: "Quand il bascule sa tête d'avant en arrière, ses antennes se heurtent dans un son de xylophone."
+		'en-us': "It shakes its head back to front, causing its antennae to hit each other and sound like a xylophone.",
+		'fr-fr': "Quand il bascule sa tête d'avant en arrière, ses antennes se heurtent dans un son de xylophone."
 	},
 
 	thirdParty: {

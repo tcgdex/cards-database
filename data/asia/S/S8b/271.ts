@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マスター",
+		'ja-jp': "マスター",
 	},
 
 	illustrator: "Sanosuke Sakuma",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードを使ったら、自分の番は終わる。自分のベンチポケモンを3匹まで選び、山札から、それぞれちがうタイプの基本エネルギーを1枚ずつつける。そして山札を切る。",
+		'ja-jp': "このカードを使ったら、自分の番は終わる。自分のベンチポケモンを3匹まで選び、山札から、それぞれちがうタイプの基本エネルギーを1枚ずつつける。そして山札を切る。",
 	},
 
 	variants: [

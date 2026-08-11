@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Nintendo Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Latias",
+		'en-us': "Latias",
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -27,7 +27,7 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Super Psy",
+				'en-us': "Super Psy",
 			},
 
 			damage: 10,
@@ -39,10 +39,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Searing Flame",
+				'en-us': "Searing Flame",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Burned.",
 			},
 			damage: 20,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シフトリー",
+		'ja-jp': "シフトリー",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "進化的ファン",
+				'ja-jp': "進化的ファン",
 			},
 			effect: {
-				ja: "ターン中に、Pokã©Monの1つを進化させるために手からシフトリーをプレイすると、進化したPokã©Monの1つを選択できます（シフトリーを除く）。  そのpokã©monとすべてのカードを手に返します。",
+				'ja-jp': "ターン中に、Pokã©Monの1つを進化させるために手からシフトリーをプレイすると、進化したPokã©Monの1つを選択できます（シフトリーを除く）。  そのpokã©monとすべてのカードを手に返します。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "反応的な鼓動",
+				'ja-jp': "反応的な鼓動",
 			},
 			effect: {
-				ja: "Shiftryがそれに反応エネルギーカードを添付している場合、防御ポケモンは混乱しています。",
+				'ja-jp': "Shiftryがそれに反応エネルギーカードを添付している場合、防御ポケモンは混乱しています。",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Darkness", "Colorless", "Colorless"],
 			name: {
-				ja: "クロスカット",
+				'ja-jp': "クロスカット",
 			},
 			effect: {
-				ja: "防御ポケモンが進化したポケモンである場合、この攻撃は40ダメージに加えて30ダメージを与えます。",
+				'ja-jp': "防御ポケモンが進化したポケモンである場合、この攻撃は40ダメージに加えて30ダメージを与えます。",
 			},
 		},
 	],

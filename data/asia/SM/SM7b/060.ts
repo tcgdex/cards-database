@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミミッキュGX",
+		'ja-jp': "ミミッキュGX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "まどわす" },
 			cost: ["Fairy"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 		{
@@ -27,14 +27,14 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Fairy", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンにのっているダメカンの数x30ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンにのっているダメカンの数x30ダメージ追加。",
 			},
 		},
 		{
 			name: { ja: "ドリームフィアーGX" },
 			cost: ["Fairy"],
 			effect: {
-				ja: "相手のベンチポケモン1匹と、そのポケモンについているすべてのカードを、相手の山札にもどして切る。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のベンチポケモン1匹と、そのポケモンについているすべてのカードを、相手の山札にもどして切る。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

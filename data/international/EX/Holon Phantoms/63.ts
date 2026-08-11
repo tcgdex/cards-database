@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Corphish",
-		fr: "Ecrapince",
-		de: "Krebscorps"
+		'en-us': "Corphish",
+		'fr-fr': "Ecrapince",
+		'de-de': "Krebscorps"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flail",
-				fr: "Fléau",
-				de: "Dreschflegel"
+				'en-us': "Flail",
+				'fr-fr': "Fléau",
+				'de-de': "Dreschflegel"
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on Corphish.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Ecrapince.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Krebscorps zu."
+				'en-us': "Does 10 damage times the number of damage counters on Corphish.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Ecrapince.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Krebscorps zu."
 			},
 			damage: "10x",
 
@@ -48,9 +48,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Crabhammer",
-				fr: "Pince-masse",
-				de: "Krabbhammer"
+				'en-us': "Crabhammer",
+				'fr-fr': "Pince-masse",
+				'de-de': "Krabbhammer"
 			},
 
 			damage: 10,

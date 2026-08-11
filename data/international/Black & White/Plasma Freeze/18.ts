@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Horsea",
-		fr: "Hypotrempe",
-		es: "Horsea",
-		it: "Horsea",
-		pt: "Horsea",
-		de: "Seeper"
+		'en-us': "Horsea",
+		'fr-fr': "Hypotrempe",
+		'es-es': "Horsea",
+		'it-it': "Horsea",
+		'pt-br': "Horsea",
+		'de-de': "Seeper"
 	},
 
 	illustrator: "Midori Harada",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Fin Smack",
-				fr: "Coup d'Aileron",
+				'en-us': "Fin Smack",
+				'fr-fr': "Coup d'Aileron",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees.",
+		'en-us': "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees.",
 	},
 
 	thirdParty: {

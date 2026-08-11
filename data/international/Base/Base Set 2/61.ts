@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Seel",
+		'en-us': "Seel",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Headbutt",
+				'en-us': "Headbutt",
 			},
 
 			damage: 10,
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The protruding horn on its head is very hard. This horn is used for bashing through thick ice.",
+		'en-us': "The protruding horn on its head is very hard. This horn is used for bashing through thick ice.",
 	},
 
 

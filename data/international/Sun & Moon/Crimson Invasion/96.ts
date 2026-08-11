@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Lusamine",
-		fr: "Elsa-Mina",
-		es: "Samina",
-		it: "Samina",
-		pt: "Samina",
-		de: "Samantha"
+		'en-us': "Lusamine",
+		'fr-fr': "Elsa-Mina",
+		'es-es': "Samina",
+		'it-it': "Samina",
+		'pt-br': "Samina",
+		'de-de': "Samantha"
 	},
 
 	illustrator: "take",
@@ -17,12 +17,12 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Placez une combinaison de 2 cartes Supporter et cartes Stade de votre pile de défausse dans votre main.",
-		en: "Put 2 in any combination of Supporter and Stadium cards from your discard pile into your hand.",
-		es: "Pon 2 cartas de Partidario y de Estadio, en cualquier combinación, de tu pila de descartes en tu mano.",
-		it: "Prendi due carte Aiuto o Stadio in qualsiasi combinazione dalla tua pila degli scarti e aggiungile a quelle che hai in mano.",
-		pt: "Coloque 2 cartas de Apoiador e de Estádio da sua pilha de descarte na sua mão em qualquer combinação.",
-		de: "Nimm eine beliebige Kombination aus 2 Unterstützer- und Stadionkarten aus deinem Ablagestapel auf deine Hand."
+		'fr-fr': "Placez une combinaison de 2 cartes Supporter et cartes Stade de votre pile de défausse dans votre main.",
+		'en-us': "Put 2 in any combination of Supporter and Stadium cards from your discard pile into your hand.",
+		'es-es': "Pon 2 cartas de Partidario y de Estadio, en cualquier combinación, de tu pila de descartes en tu mano.",
+		'it-it': "Prendi due carte Aiuto o Stadio in qualsiasi combinazione dalla tua pila degli scarti e aggiungile a quelle che hai in mano.",
+		'pt-br': "Coloque 2 cartas de Apoiador e de Estádio da sua pilha de descarte na sua mão em qualquer combinação.",
+		'de-de': "Nimm eine beliebige Kombination aus 2 Unterstützer- und Stadionkarten aus deinem Ablagestapel auf deine Hand."
 	},
 
 	trainerType: "Supporter",

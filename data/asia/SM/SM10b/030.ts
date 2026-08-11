@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エムリット",
+		'ja-jp': "エムリット",
 	},
 
 	illustrator: "Sekio",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "悲しみの 苦しさと 喜びの 尊さを 人々に 教えた。 感情の神と 呼ばれている。",
+		'ja-jp': "悲しみの 苦しさと 喜びの 尊さを 人々に 教えた。 感情の神と 呼ばれている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "コンタクト" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分の山札にあるたねポケモンを3枚まで、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札にあるたねポケモンを3枚まで、ベンチに出す。そして山札を切る。",
 			},
 		},
 		{

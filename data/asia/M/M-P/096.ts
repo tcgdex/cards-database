@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガマフォクシーex",
+		'ja-jp': "メガマフォクシーex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "トリックポータル" },
 			cost: ["Fire"],
 			effect: {
-				ja: "自分の山札を上から9枚見て、その中からポケモンを好きなだけ選び、ベンチに出す。残りのカードは山札にもどして切る。",
+				'ja-jp': "自分の山札を上から9枚見て、その中からポケモンを好きなだけ選び、ベンチに出す。残りのカードは山札にもどして切る。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどとこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをやけどとこんらんにする。",
 			},
 		},
 	],
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "テールナー",
+		'ja-jp': "テールナー",
 	},
 
 	retreat: 2,

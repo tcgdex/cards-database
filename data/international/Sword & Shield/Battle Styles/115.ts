@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Glameow",
-		fr: "Chaglam",
-		es: "Glameow",
-		it: "Glameow",
-		pt: "Glameow",
-		de: "Charmian"
+		'en-us': "Glameow",
+		'fr-fr': "Chaglam",
+		'es-es': "Glameow",
+		'it-it': "Glameow",
+		'pt-br': "Glameow",
+		'de-de': "Charmian"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -22,24 +22,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Cat Kick",
-			fr: "Coup d'Patte",
-			es: "Patada Gato",
-			it: "Calciogatto",
-			pt: "Chute do Gato",
-			de: "Katzenkick"
+			'en-us': "Cat Kick",
+			'fr-fr': "Coup d'Patte",
+			'es-es': "Patada Gato",
+			'it-it': "Calciogatto",
+			'pt-br': "Chute do Gato",
+			'de-de': "Katzenkick"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Claw Slash",
-			fr: "Tranch'Griffe",
-			es: "Cuchillada Garra",
-			it: "Lacerartiglio",
-			pt: "Golpe de Garra",
-			de: "Klauenschlitzer"
+			'en-us': "Claw Slash",
+			'fr-fr': "Tranch'Griffe",
+			'es-es': "Cuchillada Garra",
+			'it-it': "Lacerartiglio",
+			'pt-br': "Golpe de Garra",
+			'de-de': "Klauenschlitzer"
 		},
 
 		damage: 40,
@@ -58,7 +58,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "When it's happy, Glameow demonstrates beautiful movements of its tail, like a dancing ribbon."
+		'en-us': "When it's happy, Glameow demonstrates beautiful movements of its tail, like a dancing ribbon."
 	},
 
 	variants: [

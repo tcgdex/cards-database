@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クチートGX",
+		'ja-jp': "クチートGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "みわくのウインク" },
 			effect: {
-				ja: "自分の番に、このカードを手札からベンチに出したとき、1回使える。相手の手札を見て、その中にあるたねポケモンを、好きなだけ相手のベンチに出す。",
+				'ja-jp': "自分の番に、このカードを手札からベンチに出したとき、1回使える。相手の手札を見て、その中にあるたねポケモンを、好きなだけ相手のベンチに出す。",
 			},
 		},
 	],
@@ -30,14 +30,14 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Metal", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモンの数×30ダメージ追加。",
+				'ja-jp': "相手のベンチポケモンの数×30ダメージ追加。",
 			},
 		},
 		{
 			name: { ja: "ビッグイーターGX" },
 			cost: ["Metal", "Colorless"],
 			effect: {
-				ja: "相手の手札を見て、その中にあるサポートを、すべてトラッシュする。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手の手札を見て、その中にあるサポートを、すべてトラッシュする。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

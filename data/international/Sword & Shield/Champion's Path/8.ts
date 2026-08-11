@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Champion\'s Path'
 
 const card: Card = {
 	name: {
-		en: "Incineroar V",
-		fr: "Félinferno V",
-		es: "Incineroar V",
-		it: "Incineroar V",
-		pt: "Incineroar V",
-		de: "Fuegro V"
+		'en-us': "Incineroar V",
+		'fr-fr': "Félinferno V",
+		'es-es': "Incineroar V",
+		'it-it': "Incineroar V",
+		'pt-br': "Incineroar V",
+		'de-de': "Fuegro V"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -30,20 +30,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Grand Flame",
-				fr: "Flamme Colossale",
-				es: "Llama Colosal",
-				it: "Megafiammata",
-				pt: "Grande Chama",
-				de: "Gewaltige Flamme"
+				'en-us': "Grand Flame",
+				'fr-fr': "Flamme Colossale",
+				'es-es': "Llama Colosal",
+				'it-it': "Megafiammata",
+				'pt-br': "Grande Chama",
+				'de-de': "Gewaltige Flamme"
 			},
 			effect: {
-				en: "Attach up to 2 Fire Energy cards from your discard pile to 1 of your Benched Pokémon.",
-				fr: "Attachez jusqu'à 2 cartes Énergie Fire de votre pile de défausse à l'un de vos Pokémon de Banc.",
-				es: "Une hasta 2 cartas de Energía Fire de tu pila de descartes a 1 de tus Pokémon en Banca.",
-				it: "Assegna a uno dei tuoi Pokémon in panchina fino a due carte Energia Fire dalla tua pila degli scarti.",
-				pt: "Ligue até 2 cartas de Energia Fire da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-				de: "Lege bis zu 2 Fire-Energiekarten aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
+				'en-us': "Attach up to 2 Fire Energy cards from your discard pile to 1 of your Benched Pokémon.",
+				'fr-fr': "Attachez jusqu'à 2 cartes Énergie Fire de votre pile de défausse à l'un de vos Pokémon de Banc.",
+				'es-es': "Une hasta 2 cartas de Energía Fire de tu pila de descartes a 1 de tus Pokémon en Banca.",
+				'it-it': "Assegna a uno dei tuoi Pokémon in panchina fino a due carte Energia Fire dalla tua pila degli scarti.",
+				'pt-br': "Ligue até 2 cartas de Energia Fire da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
+				'de-de': "Lege bis zu 2 Fire-Energiekarten aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
 			},
 			damage: 90,
 
@@ -56,20 +56,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare Blitzer",
-				fr: "Dynamiteur",
-				es: "Sacudida Ígnea",
-				it: "Fuocoincursione",
-				pt: "Labaredas Descontroladas",
-				de: "Flammenblitzer"
+				'en-us': "Flare Blitzer",
+				'fr-fr': "Dynamiteur",
+				'es-es': "Sacudida Ígnea",
+				'it-it': "Fuocoincursione",
+				'pt-br': "Labaredas Descontroladas",
+				'de-de': "Flammenblitzer"
 			},
 			effect: {
-				en: "This Pokémon also does 30 damage to itself.",
-				fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-				es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-				pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+				'en-us': "This Pokémon also does 30 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+				'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+				'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+				'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 			},
 			damage: 220,
 

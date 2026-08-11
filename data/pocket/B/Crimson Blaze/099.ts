@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [792],
 
 	name: {
-		en: "Lunala ex"
+		'en-us': "Lunala ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Cosmoem"
+		'en-us': "Cosmoem"
 	},
 
 	stage: "Stage2",
@@ -27,17 +27,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Psychic Connect"
+			'en-us': "Psychic Connect"
 		},
 
 		effect: {
-			en: "Once during your turn, you may move all {P} Energy from 1 of your Benched {P} Pokémon to your Active Pokémon."
+			'en-us': "Once during your turn, you may move all {P} Energy from 1 of your Benched {P} Pokémon to your Active Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Lunar Blast"
+			'en-us': "Lunar Blast"
 		},
 
 		damage: 100,

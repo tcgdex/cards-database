@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Swablu",
-		fr: "Tylton",
-		de: "Wablu"
+		'en-us': "Swablu",
+		'fr-fr': "Tylton",
+		'de-de': "Wablu"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Lullaby",
-				fr: "Comptine",
-				de: "Wiegenlied"
+				'en-us': "Lullaby",
+				'fr-fr': "Comptine",
+				'de-de': "Wiegenlied"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 10,
 
@@ -46,14 +46,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Stifling Fluff",
-				fr: "Fourrure étouffante",
-				de: "Erdrückende Wolle"
+				'en-us': "Stifling Fluff",
+				'fr-fr': "Fourrure étouffante",
+				'de-de': "Erdrückende Wolle"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 

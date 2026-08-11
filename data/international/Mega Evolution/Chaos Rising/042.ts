@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
 
 	description: {
-		en: "When the horns on its head shine in seven colors, it is said to be sharing everlasting life.",
+		'en-us': "When the horns on its head shine in seven colors, it is said to be sharing everlasting life.",
 	},
 
 
 	name: {
-		en: "Xerneas",
-		fr: "Xerneas",
-		es: "Xerneas",
+		'en-us': "Xerneas",
+		'fr-fr': "Xerneas",
+		'es-es': "Xerneas",
 		'es-mx': "Xerneas",
-		de: "Xerneas",
-		it: "Xerneas",
-		pt: "Xerneas"
+		'de-de': "Xerneas",
+		'it-it': "Xerneas",
+		'pt-br': "Xerneas"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -29,26 +29,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Geo Storm",
-			fr: "Géo-Tempête",
-			es: "Geotormenta",
+			'en-us': "Geo Storm",
+			'fr-fr': "Géo-Tempête",
+			'es-es': "Geotormenta",
 			'es-mx': "Geotormenta",
-			de: "Geosturm",
-			it: "Geotempesta",
-			pt: "Geotormenta"
+			'de-de': "Geosturm",
+			'it-it': "Geotempesta",
+			'pt-br': "Geotormenta"
 		},
 
 		cost: ["Psychic", "Psychic", "Psychic"],
 		damage: "30×",
 
 		effect: {
-			en: "This attack does 30 damage for each {P} Energy attached to all of your Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts pour chaque Énergie {P} attachée à tous vos Pokémon.",
-			es: "Este ataque hace 30 puntos de daño por cada Energía {P} unida a cada uno de tus Pokémon.",
+			'en-us': "This attack does 30 damage for each {P} Energy attached to all of your Pokémon.",
+			'fr-fr': "Cette attaque inflige 30 dégâts pour chaque Énergie {P} attachée à tous vos Pokémon.",
+			'es-es': "Este ataque hace 30 puntos de daño por cada Energía {P} unida a cada uno de tus Pokémon.",
 			'es-mx': "Este ataque hace 30 puntos de daño por cada Energía {P} unida a cada uno de tus Pokémon.",
-			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte {P}-Energie 30 Schadenspunkte zu.",
-			it: "Questo attacco infligge 30 danni per ogni Energia {P} assegnata ai tuoi Pokémon.",
-			pt: "Este ataque causa 30 pontos de dano para cada Energia {P} ligada a todos os seus Pokémon."
+			'de-de': "Diese Attacke fügt für jede an alle deine Pokémon angelegte {P}-Energie 30 Schadenspunkte zu.",
+			'it-it': "Questo attacco infligge 30 danni per ogni Energia {P} assegnata ai tuoi Pokémon.",
+			'pt-br': "Este ataque causa 30 pontos de dano para cada Energia {P} ligada a todos os seus Pokémon."
 		}
 	}],
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イーユイ",
+		'ja-jp': "イーユイ",
 	},
 
 	illustrator: "IKEDA Saki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "多くの 争いの 火種となった 勾玉に 集まった 妬みが 炎を まとい ポケモンとなった。",
+		'ja-jp': "多くの 争いの 火種となった 勾玉に 集まった 妬みが 炎を まとい ポケモンとなった。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Darkness"],
 			effect: {
-				ja: "このポケモンにダメカンが2個以上のっているなら、90ダメージ追加。このワザのダメージは弱点を計算しない。",
+				'ja-jp': "このポケモンにダメカンが2個以上のっているなら、90ダメージ追加。このワザのダメージは弱点を計算しない。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drifloon"
+		'en-us': "Drifloon"
 	},
 
 	illustrator: "Asako Ito",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Because of the way it floats aimlessly, an old\nfolktale calls it a \"signpost for wandering spirits.\""
+		'en-us': "Because of the way it floats aimlessly, an old\nfolktale calls it a \"signpost for wandering spirits.\""
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Wind Blast"
+			'en-us': "Wind Blast"
 		},
 
 		cost: ["Psychic"],
 
 		effect: {
-			en: "This attack does 20 damage to 1 of your opponent's Benched Pokémon."
+			'en-us': "This attack does 20 damage to 1 of your opponent's Benched Pokémon."
 		}
 	}],
 

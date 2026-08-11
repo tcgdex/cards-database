@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラウドボーン",
+		'ja-jp': "ラウドボーン",
 		'zh-tw': "骨紋巨聲鱷",
 		'zh-cn': "骨紋巨聲鱷",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "優しい 歌声は 聴いた者の 魂を 癒す。 ３０００度の 炎で 敵を 焼き尽くす。",
+		'ja-jp': "優しい 歌声は 聴いた者の 魂を 癒す。 ３０００度の 炎で 敵を 焼き尽くす。",
 		'zh-tw': "溫柔的歌聲能療癒聽者的靈魂。 會使用３０００度的火焰 將敵人燒成灰燼。",
 		'zh-cn': "溫柔的歌聲能療癒聽者的靈魂。 會使用３０００度的火焰 將敵人燒成灰燼。",
 	},
@@ -26,12 +26,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "てんねん",
+				'ja-jp': "てんねん",
 				'zh-tw': "純樸",
 				'zh-cn': "純樸",
 			},
 			effect: {
-				ja: "このポケモンは、相手のポケモンが使うワザの効果を受けない。",
+				'ja-jp': "このポケモンは、相手のポケモンが使うワザの効果を受けない。",
 				'zh-tw': "這隻寶可夢不會受到對手的寶可夢使用招式的效果的影響。",
 				'zh-cn': "這隻寶可夢不會受到對手的寶可夢使用招式的效果的影響。",
 			},
@@ -41,14 +41,14 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "フレアリサイタル",
+				'ja-jp': "フレアリサイタル",
 				'zh-tw': "閃焰獨唱會",
 				'zh-cn': "閃焰獨唱會",
 			},
 			damage: "60+",
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "おたがいのベンチポケモンの数×20ダメージ追加。",
+				'ja-jp': "おたがいのベンチポケモンの数×20ダメージ追加。",
 				'zh-tw': "增加雙方的備戰寶可夢的數量×20點傷害。",
 				'zh-cn': "增加雙方的備戰寶可夢的數量×20點傷害。",
 			},
@@ -69,7 +69,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アチゲータ",
+		'ja-jp': "アチゲータ",
 	},
 
 	retreat: 3,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	name: {
-		en: "Scizor V",
-		fr: "Cizayox V",
-		es: "Scizor V",
-		it: "Scizor V",
-		pt: "Scizor V",
-		de: "Scherox V"
+		'en-us': "Scizor V",
+		'fr-fr': "Cizayox V",
+		'es-es': "Scizor V",
+		'it-it': "Scizor V",
+		'pt-br': "Scizor V",
+		'de-de': "Scherox V"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -28,20 +28,20 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Hack Off",
-				fr: "Sectionnement",
-				es: "Cercenar",
-				it: "Mozzar Via",
-				pt: "Picotar",
-				de: "Abhacken"
+				'en-us': "Hack Off",
+				'fr-fr': "Sectionnement",
+				'es-es': "Cercenar",
+				'it-it': "Mozzar Via",
+				'pt-br': "Picotar",
+				'de-de': "Abhacken"
 			},
 			effect: {
-				en: "Discard a Pokémon Tool and a Special Energy from your opponent's Active Pokémon.",
-				fr: "Défaussez un Outil Pokémon et une Énergie spéciale du Pokémon Actif de votre adversaire.",
-				es: "Descarta 1 Herramienta Pokémon y 1 Energía Especial del Pokémon Activo de tu rival.",
-				it: "Scarta un Oggetto Pokémon e un'Energia speciale dal Pokémon attivo del tuo avversario.",
-				pt: "Descarte 1 Ferramenta Pokémon e 1 Energia Especial do Pokémon Ativo do seu oponente.",
-				de: "Lege 1 Pokémon-Ausrüstung und 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard a Pokémon Tool and a Special Energy from your opponent's Active Pokémon.",
+				'fr-fr': "Défaussez un Outil Pokémon et une Énergie spéciale du Pokémon Actif de votre adversaire.",
+				'es-es': "Descarta 1 Herramienta Pokémon y 1 Energía Especial del Pokémon Activo de tu rival.",
+				'it-it': "Scarta un Oggetto Pokémon e un'Energia speciale dal Pokémon attivo del tuo avversario.",
+				'pt-br': "Descarte 1 Ferramenta Pokémon e 1 Energia Especial do Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 1 Pokémon-Ausrüstung und 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slashing Claw",
-				fr: "Griffe Taillante",
-				es: "Garra Cuchillazo",
-				it: "Artigli Laceranti",
-				pt: "Garra Cortadora",
-				de: "Schlitzende Klaue"
+				'en-us': "Slashing Claw",
+				'fr-fr': "Griffe Taillante",
+				'es-es': "Garra Cuchillazo",
+				'it-it': "Artigli Laceranti",
+				'pt-br': "Garra Cortadora",
+				'de-de': "Schlitzende Klaue"
 			},
 
 			damage: 140,

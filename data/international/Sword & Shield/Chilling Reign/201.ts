@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Blaziken VMAX",
-		fr: "Braségali VMAX",
-		es: "Blaziken VMAX",
-		it: "Blaziken VMAX",
-		pt: "Blaziken VMAX",
-		de: "Lohgock VMAX"
+		'en-us': "Blaziken VMAX",
+		'fr-fr': "Braségali VMAX",
+		'es-es': "Blaziken VMAX",
+		'it-it': "Blaziken VMAX",
+		'pt-br': "Blaziken VMAX",
+		'de-de': "Lohgock VMAX"
 	},
 
 	rarity: "Secret Rare",
@@ -21,45 +21,45 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Clutch",
-			fr: "Serre",
-			es: "Embrague",
-			it: "Grinfie",
-			pt: "Agarramento",
-			de: "Greifer"
+			'en-us': "Clutch",
+			'fr-fr': "Serre",
+			'es-es': "Embrague",
+			'it-it': "Grinfie",
+			'pt-br': "Agarramento",
+			'de-de': "Greifer"
 		},
 
 		damage: 60,
 
 		effect: {
-			en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
-			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
-			es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
-			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-			pt: "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar.",
-			de: "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
+			'en-us': "During your opponent's next turn, the Defending Pokémon can't retreat.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
+			'es-es': "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
+			'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+			'pt-br': "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar.",
+			'de-de': "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
 		},
 
 		cost: ["Fire"]
 	}, {
 		name: {
-			en: "Max Blaze",
-			fr: "Brasiomax",
-			es: "Maxillamas",
-			it: "Dynavampata",
-			pt: "Incêndio Max",
-			de: "Dyna-Großbrand"
+			'en-us': "Max Blaze",
+			'fr-fr': "Brasiomax",
+			'es-es': "Maxillamas",
+			'it-it': "Dynavampata",
+			'pt-br': "Incêndio Max",
+			'de-de': "Dyna-Großbrand"
 		},
 
 		damage: 130,
 
 		effect: {
-			en: "Choose up to 2 of your Benched Rapid Strike Pokémon and attach an Energy card from your discard pile to each of them.",
-			fr: "Choisissez jusqu'à 2 de vos Pokémon Mille Poings de Banc, puis attachez une carte Énergie de votre pile de défausse à chacun d'eux.",
-			es: "Elige hasta 2 de tus Pokémon Golpe Fluido en Banca y une 1 carta de Energía de tu pila de descartes a cada uno de ellos.",
-			it: "Scegli fino a due dei tuoi Pokémon Colpo Rapido in panchina e assegna a ognuno di essi una carta Energia dalla tua pila degli scarti.",
-			pt: "Escolha até 2 dos seus Pokémon Golpe Fluido no Banco e ligue 1 carta de Energia da sua pilha de descarte a cada um deles.",
-			de: "Wähle bis zu 2 Fließender-Angriff-Pokémon auf deiner Bank und lege 1 Energiekarte aus deinem Ablagestapel an jedes von ihnen an."
+			'en-us': "Choose up to 2 of your Benched Rapid Strike Pokémon and attach an Energy card from your discard pile to each of them.",
+			'fr-fr': "Choisissez jusqu'à 2 de vos Pokémon Mille Poings de Banc, puis attachez une carte Énergie de votre pile de défausse à chacun d'eux.",
+			'es-es': "Elige hasta 2 de tus Pokémon Golpe Fluido en Banca y une 1 carta de Energía de tu pila de descartes a cada uno de ellos.",
+			'it-it': "Scegli fino a due dei tuoi Pokémon Colpo Rapido in panchina e assegna a ognuno di essi una carta Energia dalla tua pila degli scarti.",
+			'pt-br': "Escolha até 2 dos seus Pokémon Golpe Fluido no Banco e ligue 1 carta de Energia da sua pilha de descarte a cada um deles.",
+			'de-de': "Wähle bis zu 2 Fließender-Angriff-Pokémon auf deiner Bank und lege 1 Energiekarte aus deinem Ablagestapel an jedes von ihnen an."
 		},
 
 		cost: ["Colorless", "Colorless"]
@@ -77,12 +77,12 @@ const card: Card = {
 	illustrator: "Shigenori Negishi",
 
 	evolveFrom: {
-		en: "Blaziken V",
-		fr: "Braségali-V",
-		es: "Blaziken V",
-		it: "Blaziken-V",
-		pt: "Blaziken V",
-		de: "Lohgock-V"
+		'en-us': "Blaziken V",
+		'fr-fr': "Braségali-V",
+		'es-es': "Blaziken V",
+		'it-it': "Blaziken-V",
+		'pt-br': "Blaziken V",
+		'de-de': "Lohgock-V"
 	},
 
 	regulationMark: "E",

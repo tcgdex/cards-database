@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フォクスライ",
+		'ja-jp': "フォクスライ",
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "身軽な 体と 鋭い ツメで  エサや タマゴを 盗んで まわる。  パルスワンが 天敵。",
+		'ja-jp': "身軽な 体と 鋭い ツメで  エサや タマゴを 盗んで まわる。  パルスワンが 天敵。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "クスネ",
+		'ja-jp': "クスネ",
 	},
 
 	retreat: 1,

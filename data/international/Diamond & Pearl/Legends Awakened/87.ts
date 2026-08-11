@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Chinchou",
-		fr: "Loupio",
-		de: "Lampi"
+		'en-us': "Chinchou",
+		'fr-fr': "Loupio",
+		'de-de': "Lampi"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Supersonic",
-				fr: "Ultrason",
-				de: "Superschall"
+				'en-us': "Supersonic",
+				'fr-fr': "Ultrason",
+				'de-de': "Superschall"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse vague",
-				de: "Wellenplatscher"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse vague",
+				'de-de': "Wellenplatscher"
 			},
 
 			damage: 10,
@@ -67,8 +67,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It discharges positive and negative electricity from its antenna tips to shock its foes.",
-		fr: "Il envoie des décharges électriques positives et négatives du bout des antennes pour paralyser sa proie."
+		'en-us': "It discharges positive and negative electricity from its antenna tips to shock its foes.",
+		'fr-fr': "Il envoie des décharges électriques positives et négatives du bout des antennes pour paralyser sa proie."
 	},
 
 	thirdParty: {

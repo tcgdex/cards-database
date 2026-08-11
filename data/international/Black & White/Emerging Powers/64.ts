@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Purrloin",
-		fr: "Chacripan",
-		es: "Purrloin",
-		it: "Purrloin",
-		pt: "Purrloin",
-		de: "Felilou"
+		'en-us': "Purrloin",
+		'fr-fr': "Chacripan",
+		'es-es': "Purrloin",
+		'it-it': "Purrloin",
+		'pt-br': "Purrloin",
+		'de-de': "Felilou"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Off",
-				fr: "Sabotage",
+				'en-us': "Knock Off",
+				'fr-fr': "Sabotage",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard a random card from your opponent's hand.",
-				fr: "Lancez une pièce. Si c'est face, défaussez au hasard une carte de la main de votre adversaire.",
+				'en-us': "Flip a coin. If heads, discard a random card from your opponent's hand.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez au hasard une carte de la main de votre adversaire.",
 			},
 			damage: 20,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They steal from people for fun, but their victims can't help but forgive them. Their deceptively cute act is perfect.",
+		'en-us': "They steal from people for fun, but their victims can't help but forgive them. Their deceptively cute act is perfect.",
 	},
 
 	thirdParty: {

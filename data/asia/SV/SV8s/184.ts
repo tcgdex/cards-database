@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Vivillon"
+		'id-id': "Vivillon"
 	},
 
 	illustrator: "REND",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Vivillon yang terlahir di wilayah ajaib. Pokémon ini bertarung dengan menyebarkan sisik toksik berwarna-warni dari sayapnya."
+		'id-id': "Vivillon yang terlahir di wilayah ajaib. Pokémon ini bertarung dengan menyebarkan sisik toksik berwarna-warni dari sayapnya."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			id: "Evolution Powder"
+			'id-id': "Evolution Powder"
 		},
 
 		effect: {
-			id: "Pilih kartu yang merupakan evolusi dari tiap-tiap Pokémon Cadangan sendiri masing-masing 1 lembar dari Deck sendiri, lalu letakkan pada tiap-tiap Pokémon tersebut untuk melakukan evolusi. Kemudian, kocok Deck."
+			'id-id': "Pilih kartu yang merupakan evolusi dari tiap-tiap Pokémon Cadangan sendiri masing-masing 1 lembar dari Deck sendiri, lalu letakkan pada tiap-tiap Pokémon tersebut untuk melakukan evolusi. Kemudian, kocok Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Cutter Wind"
+			'id-id': "Cutter Wind"
 		},
 
 		damage: 90,

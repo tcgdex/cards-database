@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Petilil",
-		fr: "Chlorobule",
-		es: "Petilil",
-		it: "Petilil",
-		pt: "Petilil",
-		de: "Lilminip"
+		'en-us': "Petilil",
+		'fr-fr': "Chlorobule",
+		'es-es': "Petilil",
+		'it-it': "Petilil",
+		'pt-br': "Petilil",
+		'de-de': "Lilminip"
 	},
 
 	illustrator: "Naoki Saito",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blot",
-				fr: "Pâté",
-				es: "Absorción",
-				it: "Macchia",
-				pt: "Borrão",
-				de: "Klecks"
+				'en-us': "Blot",
+				'fr-fr': "Pâté",
+				'es-es': "Absorción",
+				'it-it': "Macchia",
+				'pt-br': "Borrão",
+				'de-de': "Klecks"
 			},
 			effect: {
-				en: "Heal 10 damage from this Pokémon.",
-				fr: "Soignez 10 dégâts à ce Pokémon.",
-				es: "Cura 10 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 10 danni.",
-				pt: "Cure 10 pontos de dano deste Pokémon.",
-				de: "Heile 10 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 10 damage from this Pokémon.",
+				'fr-fr': "Soignez 10 dégâts à ce Pokémon.",
+				'es-es': "Cura 10 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 10 danni.",
+				'pt-br': "Cure 10 pontos de dano deste Pokémon.",
+				'de-de': "Heile 10 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 10,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Although the leaves on its head are bitter enough to cause dizziness, they provide relief from weariness—even more so when boiled.",
+		'en-us': "Although the leaves on its head are bitter enough to cause dizziness, they provide relief from weariness—even more so when boiled.",
 	},
 
 	thirdParty: {

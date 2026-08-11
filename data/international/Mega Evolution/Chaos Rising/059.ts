@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
 
 	description: {
-		en: "They communicate with one another by using magnetic pulses. In a swarm, they move in perfect unison.",
+		'en-us': "They communicate with one another by using magnetic pulses. In a swarm, they move in perfect unison.",
 	},
 
 
 	name: {
-		en: "Beldum",
-		fr: "Terhal",
-		es: "Beldum",
+		'en-us': "Beldum",
+		'fr-fr': "Terhal",
+		'es-es': "Beldum",
 		'es-mx': "Beldum",
-		de: "Tanhel",
-		it: "Beldum",
-		pt: "Beldum"
+		'de-de': "Tanhel",
+		'it-it': "Beldum",
+		'pt-br': "Beldum"
 	},
 
 	illustrator: "toi8",
@@ -29,26 +29,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			es: "Golpe Cabeza",
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'es-es': "Golpe Cabeza",
 			'es-mx': "Golpe Cabeza",
-			de: "Kopfnuss",
-			it: "Bottintesta",
-			pt: "Cabeçada"
+			'de-de': "Kopfnuss",
+			'it-it': "Bottintesta",
+			'pt-br': "Cabeçada"
 		},
 
 		cost: ["Metal"],
 		damage: 10
 	}, {
 		name: {
-			en: "Beam",
-			fr: "Rayon",
-			es: "Transmisión",
+			'en-us': "Beam",
+			'fr-fr': "Rayon",
+			'es-es': "Transmisión",
 			'es-mx': "Rayo",
-			de: "Strahl",
-			it: "Raggio",
-			pt: "Feixe"
+			'de-de': "Strahl",
+			'it-it': "Raggio",
+			'pt-br': "Feixe"
 		},
 
 		cost: ["Metal", "Colorless"],

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zekrom ex",
-		fr: "Zekrom-ex",
-		de: "Zekrom-ex",
-		it: "Zekrom-ex",
-		pt: "Zekrom ex",
-		es: "Zekrom ex",
+		'en-us': "Zekrom ex",
+		'fr-fr': "Zekrom-ex",
+		'de-de': "Zekrom-ex",
+		'it-it': "Zekrom-ex",
+		'pt-br': "Zekrom ex",
+		'es-es': "Zekrom ex",
 		'es-mx': "Zekrom ex"
 	},
 
@@ -27,12 +27,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Slash",
-			fr: "Tranche",
-			de: "Schlitzer",
-			it: "Lacerazione",
-			pt: "Talho",
-			es: "Cuchillada",
+			'en-us': "Slash",
+			'fr-fr': "Tranche",
+			'de-de': "Schlitzer",
+			'it-it': "Lacerazione",
+			'pt-br': "Talho",
+			'es-es': "Cuchillada",
 			'es-mx': "Cuchillada"
 		},
 
@@ -41,22 +41,22 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			en: "Voltage Burst",
-			fr: "Explosion Voltaïque",
-			de: "Starkstrom-Ausbruch",
-			it: "Scoppiovoltaggio",
-			pt: "Explosão Voltaica",
-			es: "Explosión Voltaje",
+			'en-us': "Voltage Burst",
+			'fr-fr': "Explosion Voltaïque",
+			'de-de': "Starkstrom-Ausbruch",
+			'it-it': "Scoppiovoltaggio",
+			'pt-br': "Explosão Voltaica",
+			'es-es': "Explosión Voltaje",
 			'es-mx': "Estallido Voltaico"
 		},
 
 		effect: {
-			en: "This attack does 50 more damage for each Prize card your opponent has taken. This Pokémon also does 30 damage to itself.",
-			fr: "Cette attaque inflige 50 dégâts supplémentaires pour chaque carte Récompense que votre adversaire a récupérée. Ce Pokémon s'inflige aussi 30 dégâts.",
-			de: "Diese Attacke fügt für jede von deinem Gegner genommene Preiskarte 50 Schadenspunkte mehr zu. Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
-			it: "Questo attacco infligge 50 danni in più per ogni carta Premio presa dal tuo avversario. Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este ataque causa 50 pontos de dano a mais para cada carta de Prêmio que seu oponente pegou. Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			es: "Este ataque hace 50 puntos de daño más por cada carta de Premio que haya cogido tu rival. Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'en-us': "This attack does 50 more damage for each Prize card your opponent has taken. This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Cette attaque inflige 50 dégâts supplémentaires pour chaque carte Récompense que votre adversaire a récupérée. Ce Pokémon s'inflige aussi 30 dégâts.",
+			'de-de': "Diese Attacke fügt für jede von deinem Gegner genommene Preiskarte 50 Schadenspunkte mehr zu. Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
+			'it-it': "Questo attacco infligge 50 danni in più per ogni carta Premio presa dal tuo avversario. Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este ataque causa 50 pontos de dano a mais para cada carta de Prêmio que seu oponente pegou. Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'es-es': "Este ataque hace 50 puntos de daño más por cada carta de Premio que haya cogido tu rival. Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 			'es-mx': "Este ataque hace 50 puntos de daño más por cada carta de Premio que haya tomado tu rival. Este Pokémon también se hace 30 puntos de daño a sí mismo."
 		},
 

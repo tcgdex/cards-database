@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Walrein",
-		fr: "Kaimorse Niv. 59",
-		de: "Walraisa"
+		'en-us': "Walrein",
+		'fr-fr': "Kaimorse Niv. 59",
+		'de-de': "Walraisa"
 	},
 
 	illustrator: "kawayoo",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sealeo",
-		fr: "Phogleur"
+		'en-us': "Sealeo",
+		'fr-fr': "Phogleur"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Gather Ice",
-				fr: "Groupement de glace",
-				de: "Eis sammeln"
+				'en-us': "Gather Ice",
+				'fr-fr': "Groupement de glace",
+				'de-de': "Eis sammeln"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), when you play Walrein from your hand to evolve 1 of your Pokémon, you may attach as many Water Energy cards from your hand to Walrein as you like.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), lorsque vous jouez Kaimorse de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez attacher autant de cartes Énergie Water de votre main sur Kaimorse que vous le voulez.",
-				de: "Einmal während deines Zuges (vor deinem Angriff), wenn du Walraisa von deiner Hand spielst, um 1 deiner -Energiekarten von deiner Hand an Walraisa anlegen"
+				'en-us': "Once during your turn (before your attack), when you play Walrein from your hand to evolve 1 of your Pokémon, you may attach as many Water Energy cards from your hand to Walrein as you like.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), lorsque vous jouez Kaimorse de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez attacher autant de cartes Énergie Water de votre main sur Kaimorse que vous le voulez.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff), wenn du Walraisa von deiner Hand spielst, um 1 deiner -Energiekarten von deiner Hand an Walraisa anlegen"
 			}
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cold Crush",
-				fr: "Écraser net",
-				de: "Eiskalt zerquetscht"
+				'en-us': "Cold Crush",
+				'fr-fr': "Écraser net",
+				'de-de': "Eiskalt zerquetscht"
 			},
 			effect: {
-				en: "Discard an Energy card attached to Walrein and then discard an Energy card attached to the Defending Pokémon.",
-				fr: "Défaussez une carte Énergie attachée à Kaimorse puis défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Lege 1 an Walraisa angelegte Energiekarte auf deinen Ablagestapel und lege danach 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				'en-us': "Discard an Energy card attached to Walrein and then discard an Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Défaussez une carte Énergie attachée à Kaimorse puis défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Lege 1 an Walraisa angelegte Energiekarte auf deinen Ablagestapel und lege danach 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 70,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It shatters ice with its big tusks. Its thick blubber repels not only the cold, but also enemy attacks."
+		'en-us': "It shatters ice with its big tusks. Its thick blubber repels not only the cold, but also enemy attacks."
 	},
 
 	variants: [

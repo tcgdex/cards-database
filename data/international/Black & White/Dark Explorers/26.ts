@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Kyogre-EX",
-		fr: "Kyogre-EX",
-		es: "Kyogre-EX",
-		it: "Kyogre-EX",
-		pt: "Kyogre-EX",
-		de: "Kyogre-EX"
+		'en-us': "Kyogre-EX",
+		'fr-fr': "Kyogre-EX",
+		'es-es': "Kyogre-EX",
+		'it-it': "Kyogre-EX",
+		'pt-br': "Kyogre-EX",
+		'de-de': "Kyogre-EX"
 	},
 
 	illustrator: "Shizurow",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Turn",
-				fr: "Tour Fracassant"
+				'en-us': "Smash Turn",
+				'fr-fr': "Tour Fracassant"
 			},
 			effect: {
-				en: "You may switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Vous pouvez échanger ce Pokémon avec 1 de vos Pokémon de Banc."
+				'en-us': "You may switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Vous pouvez échanger ce Pokémon avec 1 de vos Pokémon de Banc."
 			},
 			damage: 30,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dual Splash",
-				fr: "Double Splash"
+				'en-us': "Dual Splash",
+				'fr-fr': "Double Splash"
 			},
 			effect: {
-				en: "This attack does 50 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 50 dégâts à 2 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+				'en-us': "This attack does 50 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 50 dégâts à 2 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 
 		},

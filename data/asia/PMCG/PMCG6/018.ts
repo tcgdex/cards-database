@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キョウのスピアー",
+		'ja-jp': "キョウのスピアー",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "神経毒",
+				'ja-jp': "神経毒",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御するポケモンは今や麻痺し、毒されます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御するポケモンは今や麻痺し、毒されます。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "ハイパー針",
+				'ja-jp': "ハイパー針",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、この攻撃は何もしません。いずれにせよ、KogaのBeedrillが遊び続ける限り、この攻撃を再び使用することはできません（KogaのBeedrillをベンチに置くことでも、再び使用できません）。",
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃は何もしません。いずれにせよ、KogaのBeedrillが遊び続ける限り、この攻撃を再び使用することはできません（KogaのBeedrillをベンチに置くことでも、再び使用できません）。",
 			},
 			damage: 70,
 		},

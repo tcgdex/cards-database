@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Rayquaza EX",
-		fr: "Rayquaza EX",
+		'en-us': "Rayquaza EX",
+		'fr-fr': "Rayquaza EX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Ascension",
-				fr: "Megascension",
+				'en-us': "Mega Ascension",
+				'fr-fr': "Megascension",
 			},
 			effect: {
-				en: "Search your deck for M Rayquaza-EX, reveal it, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez M-Rayquaza-EX dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for M Rayquaza-EX, reveal it, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez M-Rayquaza-EX dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aeroscream",
-				fr: "Cri Aérien"
+				'en-us': "Aeroscream",
+				'fr-fr': "Cri Aérien"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard 2 Energy attached to this Pokémon.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez 2 Énergies attachées à ce Pokémon."
+				'en-us': "Flip a coin. If tails, discard 2 Energy attached to this Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez 2 Énergies attachées à ce Pokémon."
 			},
 			damage: 130,
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Fomantis",
-		fr: "Mimantis",
-		de: "Imantis",
-		it: "Fomantis",
-		es: "Fomantis",
-		pt: "Fomantis",
+		'en-us': "Fomantis",
+		'fr-fr': "Mimantis",
+		'de-de': "Imantis",
+		'it-it': "Fomantis",
+		'es-es': "Fomantis",
+		'pt-br': "Fomantis",
 		'es-mx': "Fomantis"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Cut Up",
-			fr: "Découpage",
-			de: "Zerhäckseln",
-			it: "Tagliuzzamento",
-			es: "Trocear",
-			pt: "Dilacerar",
+			'en-us': "Cut Up",
+			'fr-fr': "Découpage",
+			'de-de': "Zerhäckseln",
+			'it-it': "Tagliuzzamento",
+			'es-es': "Trocear",
+			'pt-br': "Dilacerar",
 			'es-mx': "Trozar"
 		},
 

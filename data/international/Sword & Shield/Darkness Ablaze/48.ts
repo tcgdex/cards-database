@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [613],
 
 	name: {
-		en: "Cubchoo",
-		fr: "Polarhume",
-		es: "Cubchoo",
-		it: "Cubchoo",
-		pt: "Cubchoo",
-		de: "Petznief"
+		'en-us': "Cubchoo",
+		'fr-fr': "Polarhume",
+		'es-es': "Cubchoo",
+		'it-it': "Cubchoo",
+		'pt-br': "Cubchoo",
+		'de-de': "Petznief"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Chop",
-				fr: "Coup Tranchant",
-				es: "Cortar",
-				it: "Ceffone",
-				pt: "Trincar",
-				de: "Hacker"
+				'en-us': "Chop",
+				'fr-fr': "Coup Tranchant",
+				'es-es': "Cortar",
+				'it-it': "Ceffone",
+				'pt-br': "Trincar",
+				'de-de': "Hacker"
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Icicle",
-				fr: "Concrétion Glacée",
-				es: "Témpano",
-				it: "Stalattite",
-				pt: "Pingente de Gelo",
-				de: "Eiszapfen"
+				'en-us': "Icicle",
+				'fr-fr': "Concrétion Glacée",
+				'es-es': "Témpano",
+				'it-it': "Stalattite",
+				'pt-br': "Pingente de Gelo",
+				'de-de': "Eiszapfen"
 			},
 
 			damage: 30,
@@ -73,7 +73,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "When this Pokémon is in good health, its snot becomes thicker and stickier. It will smear its snot on anyone it doesn't like."
+		'en-us': "When this Pokémon is in good health, its snot becomes thicker and stickier. It will smear its snot on anyone it doesn't like."
 	},
 
 	variants: [

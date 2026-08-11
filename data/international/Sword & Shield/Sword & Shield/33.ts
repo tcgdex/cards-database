@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Raboot",
-		fr: "Lapyro",
-		es: "Raboot",
-		it: "Raboot",
-		pt: "Raboot",
-		de: "Kickerlo"
+		'en-us': "Raboot",
+		'fr-fr': "Lapyro",
+		'es-es': "Raboot",
+		'it-it': "Raboot",
+		'pt-br': "Raboot",
+		'de-de': "Kickerlo"
 	},
 
 	illustrator: "Akira Komayama",
@@ -22,12 +22,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Scorbunny",
-		fr: "Flambino",
-		es: "Scorbunny",
-		it: "Scorbunny",
-		pt: "Scorbunny",
-		de: "Hopplo"
+		'en-us': "Scorbunny",
+		'fr-fr': "Flambino",
+		'es-es': "Scorbunny",
+		'it-it': "Scorbunny",
+		'pt-br': "Scorbunny",
+		'de-de': "Hopplo"
 	},
 
 	stage: "Stage1",
@@ -38,12 +38,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Kick",
-				fr: "Koud'Pied",
-				es: "Patada",
-				it: "Calcio",
-				pt: "Chute",
-				de: "Tritt"
+				'en-us': "Kick",
+				'fr-fr': "Koud'Pied",
+				'es-es': "Patada",
+				'it-it': "Calcio",
+				'pt-br': "Chute",
+				'de-de': "Tritt"
 			},
 
 			damage: 20,
@@ -55,12 +55,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Heat Blast",
-				fr: "Explosion de Chaleur",
-				es: "Explosión de Calor",
-				it: "Caldobomba",
-				pt: "Raio de Calor",
-				de: "Hitzestoß"
+				'en-us': "Heat Blast",
+				'fr-fr': "Explosion de Chaleur",
+				'es-es': "Explosión de Calor",
+				'it-it': "Caldobomba",
+				'pt-br': "Raio de Calor",
+				'de-de': "Hitzestoß"
 			},
 
 			damage: 50,
@@ -86,7 +86,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its thick and fluffy fur protects it from the cold and enables it to use hotter fire moves."
+		'en-us': "Its thick and fluffy fur protects it from the cold and enables it to use hotter fire moves."
 	},
 
 	dexId: [814],

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Venonat",
-		fr: "Mimitoss",
-		de: "Bluzuk"
+		'en-us': "Venonat",
+		'fr-fr': "Mimitoss",
+		'de-de': "Bluzuk"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psycho Waves",
-				fr: "Psycho-vagues",
-				de: "Psycho Waves"
+				'en-us': "Psycho Waves",
+				'fr-fr': "Psycho-vagues",
+				'de-de': "Psycho Waves"
 			},
 			effect: {
-				en: "Discard an Energy card attached to Venonat. The Defending Pokémon is now Confused.",
-				fr: "Défaussez une carte Énergie attachée à Mimitoss. Le Pokémon Défenseur est maintenant Confus.",
-				de: "Discard an Energy card attached to Venonat. The Defending Pokémon is now Confused."
+				'en-us': "Discard an Energy card attached to Venonat. The Defending Pokémon is now Confused.",
+				'fr-fr': "Défaussez une carte Énergie attachée à Mimitoss. Le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Discard an Energy card attached to Venonat. The Defending Pokémon is now Confused."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Bite"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Bite"
 			},
 
 			damage: 10,

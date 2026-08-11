@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドラチーニ",
+		'ja-jp': "ドラチーニ",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "小屋",
+				'ja-jp': "小屋",
 			},
 			effect: {
-				ja: "Dratiniから1つのダメージカウンターを取り外します。",
+				'ja-jp': "Dratiniから1つのダメージカウンターを取り外します。",
 			},
 		},
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "怒り攻撃",
+				'ja-jp': "怒り攻撃",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 		},
 	],

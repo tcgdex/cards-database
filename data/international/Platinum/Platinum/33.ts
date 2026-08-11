@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Lickilicky",
-		fr: "Coudlangue",
-		de: "Schlurplek"
+		'en-us': "Lickilicky",
+		'fr-fr': "Coudlangue",
+		'de-de': "Schlurplek"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lickitung",
-		fr: "Excelangue"
+		'en-us': "Lickitung",
+		'fr-fr': "Excelangue"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Harrumph",
-				fr: "Se racler la gorge",
-				de: "Harrumph"
+				'en-us': "Harrumph",
+				'fr-fr': "Se racler la gorge",
+				'de-de': "Harrumph"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Before doing damage, discard all Trainer cards attached to that Pokémon.",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 40 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Avant d'infliger des dégâts, défaussez toutes les cartes Dresseur attachées à ce Pokémon.",
-				de: "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Before doing damage, discard all Trainer cards attached to that Pokémon."
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Before doing damage, discard all Trainer cards attached to that Pokémon.",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 40 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Avant d'infliger des dégâts, défaussez toutes les cartes Dresseur attachées à ce Pokémon.",
+				'de-de': "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Before doing damage, discard all Trainer cards attached to that Pokémon."
 			},
 
 		},
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Press",
-				fr: "Presse corporelle",
-				de: "Body Press"
+				'en-us': "Body Press",
+				'fr-fr': "Presse corporelle",
+				'de-de': "Body Press"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy card attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy card attached to the Defending Pokémon."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy card attached to the Defending Pokémon."
 			},
 			damage: 60,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "The long tongue is always soggy with slobber. The saliva contains a solvent that causes numbness."
+		'en-us': "The long tongue is always soggy with slobber. The saliva contains a solvent that causes numbness."
 	},
 
 	variants: [

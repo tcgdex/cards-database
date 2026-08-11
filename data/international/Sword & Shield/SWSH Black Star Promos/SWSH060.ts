@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Duraludon",
-		fr: "Duralugon",
-		es: "Duraludon",
-		it: "Duraludon",
-		pt: "Duraludon",
-		de: "Duraludon"
+		'en-us': "Duraludon",
+		'fr-fr': "Duralugon",
+		'es-es': "Duraludon",
+		'it-it': "Duraludon",
+		'pt-br': "Duraludon",
+		'de-de': "Duraludon"
 	},
 
 	illustrator: "Kazuma Koda",
@@ -21,33 +21,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Metal Sharpener",
-			fr: "Affuteur de Métal",
-			es: "Afilador de Metales",
-			it: "Affilametallo",
-			pt: "Amolador de Metal",
-			de: "Metallschleifer"
+			'en-us': "Metal Sharpener",
+			'fr-fr': "Affuteur de Métal",
+			'es-es': "Afilador de Metales",
+			'it-it': "Affilametallo",
+			'pt-br': "Amolador de Metal",
+			'de-de': "Metallschleifer"
 		},
 
 		effect: {
-			en: "Attach a {M} Energy card from your discard pile to 1 of your Pokémon.",
-			fr: "Attachez une carte Énergie {M} de votre pile de défausse à l'un de vos Pokémon.",
-			es: "Une 1 carta de Energía {M} de tu pila de descartes a 1 de tus Pokémon.",
-			it: "Assegna a uno dei tuoi Pokémon una carta Energia {M} dalla tua pila degli scarti.",
-			pt: "Ligue 1 carta de Energia {M} da sua pilha de descarte a 1 dos seus Pokémon.",
-			de: "Lege 1 {M}-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon an."
+			'en-us': "Attach a {M} Energy card from your discard pile to 1 of your Pokémon.",
+			'fr-fr': "Attachez une carte Énergie {M} de votre pile de défausse à l'un de vos Pokémon.",
+			'es-es': "Une 1 carta de Energía {M} de tu pila de descartes a 1 de tus Pokémon.",
+			'it-it': "Assegna a uno dei tuoi Pokémon una carta Energia {M} dalla tua pila degli scarti.",
+			'pt-br': "Ligue 1 carta de Energia {M} da sua pilha de descarte a 1 dos seus Pokémon.",
+			'de-de': "Lege 1 {M}-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon an."
 		},
 
 		damage: 30,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Power Beam",
-			fr: "Puissant Rayon",
-			es: "Rayo de Luz Poderoso",
-			it: "Raggiopotenza",
-			pt: "Raio de Poder",
-			de: "Power-Strahl"
+			'en-us': "Power Beam",
+			'fr-fr': "Puissant Rayon",
+			'es-es': "Rayo de Luz Poderoso",
+			'it-it': "Raggiopotenza",
+			'pt-br': "Raio de Poder",
+			'de-de': "Power-Strahl"
 		},
 
 		damage: 110,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily."
+		'en-us': "Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily."
 	},
 
 	stage: "Basic",

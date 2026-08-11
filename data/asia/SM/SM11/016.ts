@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プロトーガ",
+		'ja-jp': "プロトーガ",
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "古代の 化石から 復活。 海に 暮らしていたが 獲物を 探して 陸にも あがっていた。",
+		'ja-jp': "古代の 化石から 復活。 海に 暮らしていたが 獲物を 探して 陸にも あがっていた。",
 	},
 
 	stage: "Stage1",

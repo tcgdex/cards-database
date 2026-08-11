@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Phione",
-		fr: "Phione",
-		de: "Phione"
+		'en-us': "Phione",
+		'fr-fr': "Phione",
+		'de-de': "Phione"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Evolution Wish",
-				fr: "Souhait évolution",
-				de: "Evolutionswunsch"
+				'en-us': "Evolution Wish",
+				'fr-fr': "Souhait évolution",
+				'de-de': "Evolutionswunsch"
 			},
 			effect: {
-				en: "Search your deck for a card that evolves from 1 of your Pokémon and put it onto that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une carte qui évolue d'1 de vos Pokémon et placez-la sur ce Pokémon. (Vous le faites ainsi évoluer.) Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach 1 Karte, die sich aus 1 deiner Pokémon entwickelt, und lege sie auf dieses Pokémon. (Dies zählt als Entwickeln dieses Pokémon.) Mische dein Deck danach."
+				'en-us': "Search your deck for a card that evolves from 1 of your Pokémon and put it onto that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck une carte qui évolue d'1 de vos Pokémon et placez-la sur ce Pokémon. (Vous le faites ainsi évoluer.) Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach 1 Karte, die sich aus 1 deiner Pokémon entwickelt, und lege sie auf dieses Pokémon. (Dies zählt als Entwickeln dieses Pokémon.) Mische dein Deck danach."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Pulse",
-				fr: "Vibraqua",
-				de: "Aquawelle"
+				'en-us': "Water Pulse",
+				'fr-fr': "Vibraqua",
+				'de-de': "Aquawelle"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 30,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon that lives in warm seas. It inflates the flotation sac on its head to drift and search for food.",
+		'en-us': "A Pokémon that lives in warm seas. It inflates the flotation sac on its head to drift and search for food.",
 	},
 
 	thirdParty: {

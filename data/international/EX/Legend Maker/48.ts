@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legend Maker'
 
 const card: Card = {
 	name: {
-		en: "Aron",
-		fr: "Galekid",
-		de: "Stollunior"
+		'en-us': "Aron",
+		'fr-fr': "Galekid",
+		'de-de': "Stollunior"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Self Charge",
-				fr: "Auto-chargement",
-				de: "Selbstaufladung"
+				'en-us': "Self Charge",
+				'fr-fr': "Auto-chargement",
+				'de-de': "Selbstaufladung"
 			},
 			effect: {
-				en: "Attach a Metal Energy card from your hand to Aron.",
-				fr: "Attachez une carte Énergie  de votre main à Galekid.",
-				de: "Lege eine -Energiekarte von deiner Hand an Stollunior an."
+				'en-us': "Attach a Metal Energy card from your hand to Aron.",
+				'fr-fr': "Attachez une carte Énergie  de votre main à Galekid.",
+				'de-de': "Lege eine -Energiekarte von deiner Hand an Stollunior an."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 20,

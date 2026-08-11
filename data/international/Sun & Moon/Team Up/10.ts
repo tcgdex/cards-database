@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Shaymin ◇",
-		fr: "Shaymin ◇",
-		es: "Shaymin ◇",
-		it: "Shaymin ◇",
-		pt: "Shaymin ◇",
-		de: "Shaymin ◇"
+		'en-us': "Shaymin ◇",
+		'fr-fr': "Shaymin ◇",
+		'es-es': "Shaymin ◇",
+		'it-it': "Shaymin ◇",
+		'pt-br': "Shaymin ◇",
+		'de-de': "Shaymin ◇"
 	},
 
 	illustrator: "kawayoo",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Flower Storm",
-				fr: "Tempête de Fleurs",
-				es: "Tormenta de Flores",
-				it: "Tempesta Floreale",
-				pt: "Tempestade Floral",
-				de: "Blütensturm"
+				'en-us': "Flower Storm",
+				'fr-fr': "Tempête de Fleurs",
+				'es-es': "Tormenta de Flores",
+				'it-it': "Tempesta Floreale",
+				'pt-br': "Tempestade Floral",
+				'de-de': "Blütensturm"
 			},
 			effect: {
-				en: "This attack does 30 damage times the amount of basic Energy attached to all of your Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts multipliés par le nombre d’Énergies de base attachées à tous vos Pokémon.",
-				es: "Este ataque hace 30 puntos de daño por cada Energía Básica unida a todos tus Pokémon.",
-				it: "Questo attacco infligge 30 danni per ogni Energia base assegnata ai tuoi Pokémon.",
-				pt: "Este ataque causa 30 pontos de dano vezes a quantidade de Energia básica ligada a todos os seus Pokémon.",
-				de: "Diese Attacke fügt 30 Schadenspunkte mal der Anzahl der an alle deine Pokémon angelegten Basis-Energien zu."
+				'en-us': "This attack does 30 damage times the amount of basic Energy attached to all of your Pokémon.",
+				'fr-fr': "Cette attaque inflige 30 dégâts multipliés par le nombre d’Énergies de base attachées à tous vos Pokémon.",
+				'es-es': "Este ataque hace 30 puntos de daño por cada Energía Básica unida a todos tus Pokémon.",
+				'it-it': "Questo attacco infligge 30 danni per ogni Energia base assegnata ai tuoi Pokémon.",
+				'pt-br': "Este ataque causa 30 pontos de dano vezes a quantidade de Energia básica ligada a todos os seus Pokémon.",
+				'de-de': "Diese Attacke fügt 30 Schadenspunkte mal der Anzahl der an alle deine Pokémon angelegten Basis-Energien zu."
 			},
 			damage: "30×",
 
@@ -59,10 +59,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				fr: "Tempête de Fleurs",
+				'fr-fr': "Tempête de Fleurs",
 			},
 			effect: {
-				fr: "Cette attaque inflige 30 dégâts multipliés par le nombre d’Énergies de base attachées à tous vos Pokémon.",
+				'fr-fr': "Cette attaque inflige 30 dégâts multipliés par le nombre d’Énergies de base attachées à tous vos Pokémon.",
 			},
 			damage: "30×",
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers.",
+		'en-us': "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Chansey"
+		'id-id': "Chansey"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Chansey selalu berjalan dengan hati-hati agar telur yang dibawanya tidak pecah. Namun Pokémon ini melarikan diri dengan cepat."
+		'id-id': "Chansey selalu berjalan dengan hati-hati agar telur yang dibawanya tidak pecah. Namun Pokémon ini melarikan diri dengan cepat."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Lucky Attach"
+			'id-id': "Lucky Attach"
 		},
 
 		effect: {
-			id: "Pilih 1 lembar Energi Dasar dari Kartu Pegangan sendiri, lalu kenakan pada Pokémon sendiri."
+			'id-id': "Pilih 1 lembar Energi Dasar dari Kartu Pegangan sendiri, lalu kenakan pada Pokémon sendiri."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Kekuatan Laten"
+			'id-id': "Kekuatan Laten"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 80,

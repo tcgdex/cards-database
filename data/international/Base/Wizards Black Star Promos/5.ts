@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Dragonite",
-		fr: "Dragonite"
+		'en-us': "Dragonite",
+		'fr-fr': "Dragonite"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dragonair",
-		fr: "Draco"
+		'en-us': "Dragonair",
+		'fr-fr': "Draco"
 	},
 
 	stage: "Stage2",
@@ -33,12 +33,12 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Special Delivery",
-				fr: "Livraison spéciale"
+				'en-us': "Special Delivery",
+				'fr-fr': "Livraison spéciale"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may draw a card. If you do, choose a card from your hand and put it on top of your deck. This power can't be used if Dragonite is Asleep, Confused, or Paralyzed.",
-				fr: "Une fois durant votre tour (avant votre attaque), vous pouvez tirer une carte. Si vous tirez une carte, choisissez-en une de votre main et placez-la sur le dessus de votre deck. Ce pouvoir ne peut être utilisé si Dragonite est Endormi, Confus ou Paralysé."
+				'en-us': "Once during your turn (before your attack), you may draw a card. If you do, choose a card from your hand and put it on top of your deck. This power can't be used if Dragonite is Asleep, Confused, or Paralyzed.",
+				'fr-fr': "Une fois durant votre tour (avant votre attaque), vous pouvez tirer une carte. Si vous tirez une carte, choisissez-en une de votre main et placez-la sur le dessus de votre deck. Ce pouvoir ne peut être utilisé si Dragonite est Endormi, Confus ou Paralysé."
 			},
 		},
 	],
@@ -52,13 +52,13 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Supersonic Flight",
-				fr: "Vol supersonique"
+				'en-us': "Supersonic Flight",
+				'fr-fr': "Vol supersonique"
 			},
 
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
 			},
 
 			damage: 60
@@ -75,8 +75,8 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon can fly is spite of its large bulk. It is said to be able to circumnavigate the earth in just 16 hours.",
-		fr: "Ce Pokémon peut voler malgré sa taille imposante. On le dit capable de faire le tour de la Terre en 16 heures à peine."
+		'en-us': "This Pokémon can fly is spite of its large bulk. It is said to be able to circumnavigate the earth in just 16 hours.",
+		'fr-fr': "Ce Pokémon peut voler malgré sa taille imposante. On le dit capable de faire le tour de la Terre en 16 heures à peine."
 	},
 
 	variants: [

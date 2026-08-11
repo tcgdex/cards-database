@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chimecho",
-		fr: "Éoko",
-		es: "Chimecho",
-		it: "Chimecho",
-		pt: "Chimecho",
-		de: "Palimpalim"
+		'en-us': "Chimecho",
+		'fr-fr': "Éoko",
+		'es-es': "Chimecho",
+		'it-it': "Chimecho",
+		'pt-br': "Chimecho",
+		'de-de': "Palimpalim"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Sleep Inducer",
-			fr: "Poussododo",
-			es: "Inductor de Sueño",
-			it: "Induci-Sonno",
-			pt: "Indutor de Sono",
-			de: "Schlafeinflößer"
+			'en-us': "Sleep Inducer",
+			'fr-fr': "Poussododo",
+			'es-es': "Inductor de Sueño",
+			'it-it': "Induci-Sonno",
+			'pt-br': "Indutor de Sono",
+			'de-de': "Schlafeinflößer"
 		},
 
 		effect: {
-			en: "Switch in 1 of your opponent's Benched Pokémon to the Active Spot. The new Active Pokémon is now Asleep.",
-			fr: "Envoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif. Le nouveau Pokémon Actif est maintenant Endormi.",
-			es: "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo. El nuevo Pokémon Activo pasa a estar Dormido.",
-			it: "Sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva. Il nuovo Pokémon attivo viene addormentato.",
-			pt: "Mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo. O novo Pokémon Ativo agora está Adormecido.",
-			de: "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein. Das neue Aktive Pokémon schläft jetzt."
+			'en-us': "Switch in 1 of your opponent's Benched Pokémon to the Active Spot. The new Active Pokémon is now Asleep.",
+			'fr-fr': "Envoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif. Le nouveau Pokémon Actif est maintenant Endormi.",
+			'es-es': "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo. El nuevo Pokémon Activo pasa a estar Dormido.",
+			'it-it': "Sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva. Il nuovo Pokémon attivo viene addormentato.",
+			'pt-br': "Mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo. O novo Pokémon Ativo agora está Adormecido.",
+			'de-de': "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein. Das neue Aktive Pokémon schläft jetzt."
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Psyshot",
-			fr: "Piqûre Psy",
-			es: "Disparo Psi",
-			it: "Psicosparo",
-			pt: "Tiro Psíquico",
-			de: "Psychoschuss"
+			'en-us': "Psyshot",
+			'fr-fr': "Piqûre Psy",
+			'es-es': "Disparo Psi",
+			'it-it': "Psicosparo",
+			'pt-br': "Tiro Psíquico",
+			'de-de': "Psychoschuss"
 		},
 
 		damage: 70
@@ -92,7 +92,7 @@ const card: Card = {
 	illustrator: "sui",
 
 	description: {
-		en: "Emitting ultrasonic cries, it floats on winds to travel great distances.",
+		'en-us': "Emitting ultrasonic cries, it floats on winds to travel great distances.",
 	},
 
 }

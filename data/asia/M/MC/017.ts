@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ベイリーフ",
+		'ja-jp': "ベイリーフ",
 	},
 
 	illustrator: "Tomomi Ozaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "首の まわりから 発散する スパイスのような 香りには 元気を 出させる 効果がある。",
+		'ja-jp': "首の まわりから 発散する スパイスのような 香りには 元気を 出させる 効果がある。",
 	},
 
 	stage: "Stage1",
@@ -39,7 +39,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チコリータ",
+		'ja-jp': "チコリータ",
 	},
 
 	retreat: 2,

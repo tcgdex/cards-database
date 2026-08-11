@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Tentacruel",
-		fr: "Tentacruel",
-		de: "Tentoxa"
+		'en-us': "Tentacruel",
+		'fr-fr': "Tentacruel",
+		'de-de': "Tentoxa"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tentacool",
-		fr: "Tentacool"
+		'en-us': "Tentacool",
+		'fr-fr': "Tentacool"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Tentavolve",
-				fr: "Tentavolution",
-				de: "Tentwickel"
+				'en-us': "Tentavolve",
+				'fr-fr': "Tentavolution",
+				'de-de': "Tentwickel"
 			},
 			effect: {
-				en: "If Tentacruel evolved from Tentacool during this turn, the Defending Pokémon is now Paralyzed and Poisoned.",
-				fr: "Si Tentacruel a évolué en Tentacool pendant ce tour, le Pokémon Défenseur est maintenant Paralysé et Empoisonné.",
-				de: "Wenn sich Tentoxa in diesem Zug aus Tentacha entwickelt hat, ist das Verteidigende Pokémon jetzt gelähmt und vergiftet."
+				'en-us': "If Tentacruel evolved from Tentacool during this turn, the Defending Pokémon is now Paralyzed and Poisoned.",
+				'fr-fr': "Si Tentacruel a évolué en Tentacool pendant ce tour, le Pokémon Défenseur est maintenant Paralysé et Empoisonné.",
+				'de-de': "Wenn sich Tentoxa in diesem Zug aus Tentacha entwickelt hat, ist das Verteidigende Pokémon jetzt gelähmt und vergiftet."
 			},
 			damage: 20,
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Beam",
-				fr: "Ultralaser",
-				de: "Hyperstrahl"
+				'en-us': "Hyper Beam",
+				'fr-fr': "Ultralaser",
+				'de-de': "Hyperstrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c’est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf eine Münze. Lege bei \"Kopf\" eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c’est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Wirf eine Münze. Lege bei \"Kopf\" eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 50,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "In battle, it extends all 80 of its tentacles to entrap its opponent inside a poisonous net."
+		'en-us': "In battle, it extends all 80 of its tentacles to entrap its opponent inside a poisonous net."
 	},
 
 	variants: [

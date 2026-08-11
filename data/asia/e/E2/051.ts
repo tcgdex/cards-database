@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マロワク",
+		'ja-jp': "マロワク",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "トリプルボーン",
+				'ja-jp': "トリプルボーン",
 			},
 			effect: {
-				ja: "対戦相手のベンチポケモンを1つ選択します。 3コインをフリップします。この攻撃は、そのポケモンにヘッド数を10回ダメージします。衰弱と抵抗を適用しないでください。",
+				'ja-jp': "対戦相手のベンチポケモンを1つ選択します。 3コインをフリップします。この攻撃は、そのポケモンにヘッド数を10回ダメージします。衰弱と抵抗を適用しないでください。",
 			},
 		},
 		{
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "骨ラッシュ",
+				'ja-jp': "骨ラッシュ",
 			},
 			effect: {
-				ja: "尾がなくなるまでコインをひっくり返します。この攻撃は、ヘッド数の50回のダメージ時間を実行します。",
+				'ja-jp': "尾がなくなるまでコインをひっくり返します。この攻撃は、ヘッド数の50回のダメージ時間を実行します。",
 			},
 		},
 	],

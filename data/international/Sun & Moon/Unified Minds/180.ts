@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Yungoos",
-		fr: "Manglouton",
-		es: "Yungoos",
-		it: "Yungoos",
-		pt: "Yungoos",
-		de: "Mangunior"
+		'en-us': "Yungoos",
+		'fr-fr': "Manglouton",
+		'es-es': "Yungoos",
+		'it-it': "Yungoos",
+		'pt-br': "Yungoos",
+		'de-de': "Mangunior"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cavernous Chomp",
-				fr: "Mâchoire Caverneuse",
-				es: "Mordisco Cavernoso",
-				it: "Mandibola Cavernosa",
-				pt: "Mastigada Cavernosa",
-				de: "Riesiger Biss"
+				'en-us': "Cavernous Chomp",
+				'fr-fr': "Mâchoire Caverneuse",
+				'es-es': "Mordisco Cavernoso",
+				'it-it': "Mandibola Cavernosa",
+				'pt-br': "Mastigada Cavernosa",
+				'de-de': "Riesiger Biss"
 			},
 
 			damage: 30,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its stomach takes up most of its long torso. It's a big eater, so the amount Trainers have to spend on its food is no laughing matter.",
+		'en-us': "Its stomach takes up most of its long torso. It's a big eater, so the amount Trainers have to spend on its food is no laughing matter.",
 	},
 
 	thirdParty: {

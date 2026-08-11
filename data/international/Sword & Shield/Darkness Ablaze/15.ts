@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [762],
 
 	name: {
-		en: "Steenee",
-		fr: "Candine",
-		es: "Steenee",
-		it: "Steenee",
-		pt: "Steenee",
-		de: "Frubaila"
+		'en-us': "Steenee",
+		'fr-fr': "Candine",
+		'es-es': "Steenee",
+		'it-it': "Steenee",
+		'pt-br': "Steenee",
+		'de-de': "Frubaila"
 	},
 
 	illustrator: "sui",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bounsweet",
-		fr: "Croquine",
-		es: "Bounsweet",
-		it: "Bounsweet",
-		pt: "Bounsweet",
-		de: "Frubberl"
+		'en-us': "Bounsweet",
+		'fr-fr': "Croquine",
+		'es-es': "Bounsweet",
+		'it-it': "Bounsweet",
+		'pt-br': "Bounsweet",
+		'de-de': "Frubberl"
 	},
 
 	attacks: [
@@ -38,20 +38,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Captivate",
-				fr: "Séduction",
-				es: "Seducción",
-				it: "Incanto",
-				pt: "Cativar",
-				de: "Liebreiz"
+				'en-us': "Captivate",
+				'fr-fr': "Séduction",
+				'es-es': "Seducción",
+				'it-it': "Incanto",
+				'pt-br': "Cativar",
+				'de-de': "Liebreiz"
 			},
 			effect: {
-				en: "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
-				fr: "Échangez l'un des Pokémon de Banc de votre adversaire contre son Pokémon Actif.",
-				es: "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
-				it: "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
-				pt: "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
-				de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
+				'en-us': "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
+				'fr-fr': "Échangez l'un des Pokémon de Banc de votre adversaire contre son Pokémon Actif.",
+				'es-es': "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
+				'it-it': "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
+				'pt-br': "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
+				'de-de': "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
 			},
 
 		},
@@ -61,12 +61,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smack",
-				fr: "Claque",
-				es: "Palmetazo",
-				it: "Schiaffo",
-				pt: "Estalo",
-				de: "Klatscher"
+				'en-us': "Smack",
+				'fr-fr': "Claque",
+				'es-es': "Palmetazo",
+				'it-it': "Schiaffo",
+				'pt-br': "Estalo",
+				'de-de': "Klatscher"
 			},
 
 			damage: 40,
@@ -88,7 +88,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "As it twirls like a dancer, a sweet smell spreads out around it. Anyone who inhales the scent will feel a surge of happiness."
+		'en-us': "As it twirls like a dancer, a sweet smell spreads out around it. Anyone who inhales the scent will feel a surge of happiness."
 	},
 
 	variants: [

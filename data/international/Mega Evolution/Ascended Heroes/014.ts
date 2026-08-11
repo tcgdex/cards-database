@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cascoon",
-		fr: "Blindalys",
-		es: "Cascoon",
+		'en-us': "Cascoon",
+		'fr-fr': "Blindalys",
+		'es-es': "Cascoon",
 		'es-mx': "Cascoon",
-		de: "Panekon",
-		it: "Cascoon",
-		pt: "Cascoon"
+		'de-de': "Panekon",
+		'it-it': "Cascoon",
+		'pt-br': "Cascoon"
 	},
 
 	evolveFrom: {
-		en: "Wurmple",
-		fr: "Chenipotte",
-		es: "Wurmple",
+		'en-us': "Wurmple",
+		'fr-fr': "Chenipotte",
+		'es-es': "Wurmple",
 		'es-mx': "Wurmple",
-		de: "Waumpel",
-		it: "Wurmple",
-		pt: "Wurmple",
+		'de-de': "Waumpel",
+		'it-it': "Wurmple",
+		'pt-br': "Wurmple",
 	},
 
 	illustrator: "Dsuke",
@@ -36,23 +36,23 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Trading Places",
-			fr: "Permutation",
-			es: "Cambio de Puesto",
+			'en-us': "Trading Places",
+			'fr-fr': "Permutation",
+			'es-es': "Cambio de Puesto",
 			'es-mx': "Cambio de Lugar",
-			de: "Platztausch",
-			it: "Avvicendamento",
-			pt: "Locais de Troca"
+			'de-de': "Platztausch",
+			'it-it': "Avvicendamento",
+			'pt-br': "Locais de Troca"
 		},
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-			es: "Cambia este Pokémon por uno de tus Pokémon en Banca.",
+			'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+			'fr-fr': "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'es-es': "Cambia este Pokémon por uno de tus Pokémon en Banca.",
 			'es-mx': "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus.",
-			it: "Scambia questo Pokémon con uno nella tua panchina.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco."
+			'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus.",
+			'it-it': "Scambia questo Pokémon con uno nella tua panchina.",
+			'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco."
 		}
 	}],
 
@@ -66,7 +66,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Its body, which is made of soft silk, hardens over time. When cracks appear, evolution is near.",
+		'en-us': "Its body, which is made of soft silk, hardens over time. When cracks appear, evolution is near.",
 	},
 
 	variants: [

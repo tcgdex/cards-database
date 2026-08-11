@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マイティエナ",
+		'ja-jp': "マイティエナ",
 	},
 
 	rarity: "Holo Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "探してください",
+				'ja-jp': "探してください",
 			},
 			effect: {
-				ja: "デッキを1枚のカードを検索し、手に入れてください。その後、デッキをシャッフルします。",
+				'ja-jp': "デッキを1枚のカードを検索し、手に入れてください。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "引き離します",
+				'ja-jp': "引き離します",
 			},
 			effect: {
-				ja: "相手が手に5枚以上のカードを持っている場合、対戦相手が4枚のカードが残っているまで、相手は多数のカードを破棄します。",
+				'ja-jp': "相手が手に5枚以上のカードを持っている場合、対戦相手が4枚のカードが残っているまで、相手は多数のカードを破棄します。",
 			},
 			damage: 30,
 		},

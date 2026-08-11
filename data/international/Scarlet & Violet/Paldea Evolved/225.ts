@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Minisange",
-		en: "Rookidee",
-		es: "Rookidee",
-		it: "Rookidee",
-		pt: "Rookidee",
-		de: "Meikro"
+		'fr-fr': "Minisange",
+		'en-us': "Rookidee",
+		'es-es': "Rookidee",
+		'it-it': "Rookidee",
+		'pt-br': "Rookidee",
+		'de-de': "Meikro"
 	},
 
 	rarity: "Illustration rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Renvoyer",
-			en: "Send Back",
-			es: "Retornar",
-			it: "Mandaindietro",
-			pt: "Mandar Embora",
-			de: "Zurückschicken"
+			'fr-fr': "Renvoyer",
+			'en-us': "Send Back",
+			'es-es': "Retornar",
+			'it-it': "Mandaindietro",
+			'pt-br': "Mandar Embora",
+			'de-de': "Zurückschicken"
 		},
 
 		effect: {
-			fr: "Envoyez le Pokémon Actif de l'adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
-			en: "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
-			es: "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
-			it: "Sposta il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
-			pt: "Mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)",
-			de: "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)"
+			'fr-fr': "Envoyez le Pokémon Actif de l'adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
+			'en-us': "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+			'es-es': "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
+			'it-it': "Sposta il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
+			'pt-br': "Mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)",
+			'de-de': "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)"
 		},
 
 		damage: 10
@@ -73,7 +73,7 @@ const card: Card = {
 	illustrator: "GOSSAN",
 
 	description: {
-		en: "This Pokémon is brave and reckless. The white markings around a Rookidee's eyes intimidate fainthearted Pokémon.",
+		'en-us': "This Pokémon is brave and reckless. The white markings around a Rookidee's eyes intimidate fainthearted Pokémon.",
 	},
 }
 

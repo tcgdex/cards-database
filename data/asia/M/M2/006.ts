@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハスブレロ",
+		'ja-jp': "ハスブレロ",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "エサの 豊富な 水辺を 好む。 鳥ポケモンと エサの 取り合いを しないように 夜行性になった。",
+		'ja-jp': "エサの 豊富な 水辺を 好む。 鳥ポケモンと エサの 取り合いを しないように 夜行性になった。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "ハスボー",
+		'ja-jp': "ハスボー",
 	},
 
 	retreat: 1,

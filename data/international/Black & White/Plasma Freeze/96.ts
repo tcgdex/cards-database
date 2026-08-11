@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Staravia",
-		fr: "Étourvol",
-		es: "Staravia",
-		it: "Staravia",
-		pt: "Staravia",
-		de: "Staravia"
+		'en-us': "Staravia",
+		'fr-fr': "Étourvol",
+		'es-es': "Staravia",
+		'it-it': "Staravia",
+		'pt-br': "Staravia",
+		'de-de': "Staravia"
 	},
 
 	illustrator: "sui",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Starly",
-		fr: "Étourmi",
+		'en-us': "Starly",
+		'fr-fr': "Étourmi",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 10 dégâts.",
+				'en-us': "Flip a coin. If tails, this Pokémon does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 10 dégâts.",
 			},
 			damage: 30,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Recognizing their own weakness, they always live in a group. When alone, a Staravia cries noisily.",
+		'en-us': "Recognizing their own weakness, they always live in a group. When alone, a Staravia cries noisily.",
 	},
 
 	thirdParty: {

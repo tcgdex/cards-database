@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Dratini",
-		de: "Dratini"
+		'en-us': "Dratini",
+		'de-de': "Dratini"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				de: "Pound"
+				'en-us': "Pound",
+				'de-de': "Pound"
 			},
 
 			damage: 10,

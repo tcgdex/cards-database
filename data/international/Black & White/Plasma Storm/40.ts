@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Cubchoo",
-		fr: "Polarhume",
-		es: "Cubchoo",
-		it: "Cubchoo",
-		pt: "Cubchoo",
-		de: "Petznief"
+		'en-us': "Cubchoo",
+		'fr-fr': "Polarhume",
+		'es-es': "Cubchoo",
+		'it-it': "Cubchoo",
+		'pt-br': "Cubchoo",
+		'de-de': "Petznief"
 	},
 
 	illustrator: "MAHOU",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Hail",
-				fr: "Grêle",
+				'en-us': "Hail",
+				'fr-fr': "Grêle",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},
@@ -50,8 +50,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Icy Snow",
-				fr: "Verglas",
+				'en-us': "Icy Snow",
+				'fr-fr': "Verglas",
 			},
 
 			damage: 30,
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Their snot is a barometer of health. When healthy, their snot is sticky and the power of their ice moves increases.",
+		'en-us': "Their snot is a barometer of health. When healthy, their snot is sticky and the power of their ice moves increases.",
 	},
 
 	thirdParty: {

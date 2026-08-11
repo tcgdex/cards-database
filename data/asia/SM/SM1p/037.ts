@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローララッタ",
+		'ja-jp': "アローララッタ",
 	},
 
 	illustrator: "match",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "餌の 味と 鮮度に こだわる グルメな ポケモン。 ラッタが 棲む レストランは アタリと いわれる。",
+		'ja-jp': "餌の 味と 鮮度に こだわる グルメな ポケモン。 ラッタが 棲む レストランは アタリと いわれる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "わるいさしず" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の山札にある好きなカードを、自分のベンチポケモンの数ぶんまで、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札にある好きなカードを、自分のベンチポケモンの数ぶんまで、手札に加える。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x30ダメージ追加。",
+				'ja-jp': "コインを2回投げ、オモテの数x30ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アローラコラッタ",
+		'ja-jp': "アローラコラッタ",
 	},
 
 	retreat: 3,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Monferno",
-		fr: "Chimpenfeu",
-		es: "Monferno",
-		it: "Monferno",
-		pt: "Monferno",
-		de: "Panpyro"
+		'en-us': "Monferno",
+		'fr-fr': "Chimpenfeu",
+		'es-es': "Monferno",
+		'it-it': "Monferno",
+		'pt-br': "Monferno",
+		'de-de': "Panpyro"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Chimchar",
-		fr: "Ouisticram",
-		es: "Chimchar",
-		it: "Chimchar",
-		pt: "Chimchar",
-		de: "Panflam"
+		'en-us': "Chimchar",
+		'fr-fr': "Ouisticram",
+		'es-es': "Chimchar",
+		'it-it': "Chimchar",
+		'pt-br': "Chimchar",
+		'de-de': "Panflam"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Chop",
-			fr: "Coup Tranchant",
-			es: "Cortar",
-			it: "Ceffone",
-			pt: "Trincar",
-			de: "Hacker"
+			'en-us': "Chop",
+			'fr-fr': "Coup Tranchant",
+			'es-es': "Cortar",
+			'it-it': "Ceffone",
+			'pt-br': "Trincar",
+			'de-de': "Hacker"
 		},
 
 		damage: 40
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Heat Blow",
-			fr: "Coup Explosif",
-			es: "Golpe de Fuego",
-			it: "Colpocalore",
-			pt: "Golpe de Calor",
-			de: "Hitzschlag"
+			'en-us': "Heat Blow",
+			'fr-fr': "Coup Explosif",
+			'es-es': "Golpe de Fuego",
+			'it-it': "Colpocalore",
+			'pt-br': "Golpe de Calor",
+			'de-de': "Hitzschlag"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte uma Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 80
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It skillfully controls the intensity of the fire on its tail to keep its foes at an ideal distance.",
+		'en-us': "It skillfully controls the intensity of the fire on its tail to keep its foes at an ideal distance.",
 	},
 
 	variants: [

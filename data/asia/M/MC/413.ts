@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オトスパス",
+		'ja-jp': "オトスパス",
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "全身が 筋肉の 塊。 触手を 使って 繰りだす 絞め技の 威力は 凄まじい。",
+		'ja-jp': "全身が 筋肉の 塊。 触手を 使って 繰りだす 絞め技の 威力は 凄まじい。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "このワザは、このポケモンにダメカンがのっているなら、[F]エネルギー1個で使える。",
+				'ja-jp': "このワザは、このポケモンにダメカンがのっているなら、[F]エネルギー1個で使える。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "タタッコ",
+		'ja-jp': "タタッコ",
 	},
 
 	retreat: 3,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [89],
 
 	name: {
-		en: "Alolan Muk"
+		'en-us': "Alolan Muk"
 	},
 
 	illustrator: "Mékayu",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Alolan Grimer"
+		'en-us': "Alolan Grimer"
 	},
 
 	description: {
-		en: "What look like fangs and claws are actually\ncrystallized poison that will afflict you at a\nmere touch, so don't get too close."
+		'en-us': "What look like fangs and claws are actually\ncrystallized poison that will afflict you at a\nmere touch, so don't get too close."
 	},
 
 	stage: "Stage1",
@@ -30,17 +30,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Power of Alchemy"
+			'en-us': "Power of Alchemy"
 		},
 
 		effect: {
-			en: "Basic Pokémon in play (both yours and your opponent's) have no Abilities."
+			'en-us': "Basic Pokémon in play (both yours and your opponent's) have no Abilities."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Sludge Bomb"
+			'en-us': "Sludge Bomb"
 		},
 
 		damage: 70,

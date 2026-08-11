@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Oinkologne",
-		fr: "Fragroin",
-		es: "Oinkologne",
-		de: "Fragrunz",
-		it: "Oinkologne",
-		pt: "Oinkologne",
+		'en-us': "Oinkologne",
+		'fr-fr': "Fragroin",
+		'es-es': "Oinkologne",
+		'de-de': "Fragrunz",
+		'it-it': "Oinkologne",
+		'pt-br': "Oinkologne",
 		'es-mx': "Oinkologne"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Lechonk",
-		fr: "Gourmelet",
-		es: "Lechonk",
-		de: "Ferkuli",
-		it: "Lechonk",
-		pt: "Lechonk",
+		'en-us': "Lechonk",
+		'fr-fr': "Gourmelet",
+		'es-es': "Lechonk",
+		'de-de': "Ferkuli",
+		'it-it': "Lechonk",
+		'pt-br': "Lechonk",
 		'es-mx': "Lechonk"
 	},
 	stage: "Stage1",
@@ -34,22 +34,22 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Aromatic Stomps",
-			fr: "Piétinements Aromatiques",
-			es: "Pisotones Aromáticos",
-			de: "Aromastampfer",
-			it: "Pestone Aromatico",
-			pt: "Pisada Aromática",
+			'en-us': "Aromatic Stomps",
+			'fr-fr': "Piétinements Aromatiques",
+			'es-es': "Pisotones Aromáticos",
+			'de-de': "Aromastampfer",
+			'it-it': "Pestone Aromatico",
+			'pt-br': "Pisada Aromática",
 			'es-mx': "Pisotones Aromáticos"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, during your opponent's next turn, the Defending Pokémon can't attack.",
-			fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas attaquer.",
-			es: "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, el Pokémon Defensor no puede atacar.",
-			de: "Wirf 1 Münze. Bei Kopf kann das Verteidigende Pokémon während des nächsten Zuges deines Gegners nicht angreifen.",
-			it: "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, il Pokémon difensore non può attaccare.",
-			pt: "Jogue uma moeda. Se sair cara, durante o próximo turno do seu oponente, o Pokémon Defensor não poderá atacar.",
+			'en-us': "Flip a coin. If heads, during your opponent's next turn, the Defending Pokémon can't attack.",
+			'fr-fr': "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas attaquer.",
+			'es-es': "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, el Pokémon Defensor no puede atacar.",
+			'de-de': "Wirf 1 Münze. Bei Kopf kann das Verteidigende Pokémon während des nächsten Zuges deines Gegners nicht angreifen.",
+			'it-it': "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, il Pokémon difensore non può attaccare.",
+			'pt-br': "Jogue uma moeda. Se sair cara, durante o próximo turno do seu oponente, o Pokémon Defensor não poderá atacar.",
 			'es-mx': "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, el Pokémon Defensor no puede atacar."
 		},
 
@@ -58,12 +58,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Headbutt Bounce",
-			fr: "Culbute Surprise",
-			es: "Bote Cabezazo",
-			de: "Abrupter Kopfstoß",
-			it: "Rimbalzo Bottintesta",
-			pt: "Cabeçada Ricochete",
+			'en-us': "Headbutt Bounce",
+			'fr-fr': "Culbute Surprise",
+			'es-es': "Bote Cabezazo",
+			'de-de': "Abrupter Kopfstoß",
+			'it-it': "Rimbalzo Bottintesta",
+			'pt-br': "Cabeçada Ricochete",
 			'es-mx': "Cabezazo Rebotante"
 		},
 

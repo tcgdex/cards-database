@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Mysdibule",
-		en: "Mawile",
-		es: "Mawile",
-		it: "Mawile",
-		pt: "Mawile",
-		de: "Flunkifer"
+		'fr-fr': "Mysdibule",
+		'en-us': "Mawile",
+		'es-es': "Mawile",
+		'it-it': "Mawile",
+		'pt-br': "Mawile",
+		'de-de': "Flunkifer"
 	},
 
 	rarity: "Uncommon",
@@ -24,21 +24,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			fr: "Mangeur Spécial",
-			en: "Special Eater",
-			es: "Hambre Especial",
-			it: "Divoratore Speciale",
-			pt: "Devorador Especial",
-			de: "Spezial-Verkoster"
+			'fr-fr': "Mangeur Spécial",
+			'en-us': "Special Eater",
+			'es-es': "Hambre Especial",
+			'it-it': "Divoratore Speciale",
+			'pt-br': "Devorador Especial",
+			'de-de': "Spezial-Verkoster"
 		},
 
 		effect: {
-			fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc pendant votre tour, vous pouvez défausser une Énergie spéciale attachée au Pokémon Actif de votre adversaire.",
-			en: "When you play this Pokémon from your hand onto your Bench during your turn, you may discard a Special Energy from your opponent's Active Pokémon.",
-			es: "Cuando juegas este Pokémon de tu mano a tu Banca durante tu turno, puedes descartar 1 Energía Especial del Pokémon Activo de tu rival.",
-			it: "Quando giochi questo Pokémon dalla tua mano e lo metti in panchina durante il tuo turno, puoi scartare un'Energia speciale dal Pokémon attivo del tuo avversario.",
-			pt: "Quando você jogar este Pokémon da sua mão para o seu Banco durante o seu turno, você poderá descartar uma Energia Especial do Pokémon Ativo do seu oponente.",
-			de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand auf deine Bank spielst, kannst du 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel legen."
+			'fr-fr': "Lorsque vous jouez ce Pokémon de votre main sur votre Banc pendant votre tour, vous pouvez défausser une Énergie spéciale attachée au Pokémon Actif de votre adversaire.",
+			'en-us': "When you play this Pokémon from your hand onto your Bench during your turn, you may discard a Special Energy from your opponent's Active Pokémon.",
+			'es-es': "Cuando juegas este Pokémon de tu mano a tu Banca durante tu turno, puedes descartar 1 Energía Especial del Pokémon Activo de tu rival.",
+			'it-it': "Quando giochi questo Pokémon dalla tua mano e lo metti in panchina durante il tuo turno, puoi scartare un'Energia speciale dal Pokémon attivo del tuo avversario.",
+			'pt-br': "Quando você jogar este Pokémon da sua mão para o seu Banco durante o seu turno, você poderá descartar uma Energia Especial do Pokémon Ativo do seu oponente.",
+			'de-de': "Wenn du dieses Pokémon während deines Zuges aus deiner Hand auf deine Bank spielst, kannst du 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel legen."
 		}
 	}],
 
@@ -46,12 +46,12 @@ const card: Card = {
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Croc Aiguisé",
-			en: "Sharp Fang",
-			es: "Colmillo Afilado",
-			it: "Zannaffilata",
-			pt: "Presa Afiada",
-			de: "Scharfe Fänge"
+			'fr-fr': "Croc Aiguisé",
+			'en-us': "Sharp Fang",
+			'es-es': "Colmillo Afilado",
+			'it-it': "Zannaffilata",
+			'pt-br': "Presa Afiada",
+			'de-de': "Scharfe Fänge"
 		},
 
 		damage: 90
@@ -73,7 +73,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed.",
+		'en-us': "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed.",
 	},
 
 	variants: [

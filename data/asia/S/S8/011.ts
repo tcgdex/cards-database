@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アマージョV",
+		'ja-jp': "アマージョV",
 		'zh-tw': "甜冷美后V",
 	},
 
@@ -18,13 +18,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "クイーンオーダー",
+				'ja-jp': "クイーンオーダー",
 				'zh-tw': "皇后命令",
 			},
 			damage: "20+",
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "自分のベンチポケモンを好きなだけトラッシュし、トラッシュしたベンチポケモンの数×40ダメージ追加。",
+				'ja-jp': "自分のベンチポケモンを好きなだけトラッシュし、トラッシュしたベンチポケモンの数×40ダメージ追加。",
 				'zh-tw': "將自己的任意數量的備戰寶可夢丟棄，增加丟棄的備戰寶可夢的數量×40點傷害。",
 			},
 		},

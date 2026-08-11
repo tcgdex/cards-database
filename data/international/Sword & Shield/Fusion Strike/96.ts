@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eelektrik",
-		fr: "Lampéroie",
-		es: "Eelektrik",
-		it: "Eelektrik",
-		pt: "Eelektrik",
-		de: "Zapplalek"
+		'en-us': "Eelektrik",
+		'fr-fr': "Lampéroie",
+		'es-es': "Eelektrik",
+		'it-it': "Eelektrik",
+		'pt-br': "Eelektrik",
+		'de-de': "Zapplalek"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Tynamo",
-		fr: "Anchwatt",
-		es: "Tynamo",
-		it: "Tynamo",
-		pt: "Tynamo",
-		de: "Zapplardin"
+		'en-us': "Tynamo",
+		'fr-fr': "Anchwatt",
+		'es-es': "Tynamo",
+		'it-it': "Tynamo",
+		'pt-br': "Tynamo",
+		'de-de': "Zapplardin"
 	},
 
 	stage: "Stage1",
@@ -40,19 +40,19 @@ const card: Card = {
 	illustrator: "Shigenori Negishi",
 
 	description: {
-		en: "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity."
+		'en-us': "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity."
 	},
 
 	attacks: [{
 		cost: ["Lightning"],
 
 		name: {
-			en: "Lightning Ball",
-			fr: "Boule Éclair",
-			de: "Kugelblitz",
-			es: "Bola Relámpago",
-			pt: "Bola de Raios",
-			it: "Fulminpalla"
+			'en-us': "Lightning Ball",
+			'fr-fr': "Boule Éclair",
+			'de-de': "Kugelblitz",
+			'es-es': "Bola Relámpago",
+			'pt-br': "Bola de Raios",
+			'it-it': "Fulminpalla"
 		},
 
 		damage: 20
@@ -60,23 +60,23 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			en: "Thunder",
-			fr: "Fatal-Foudre",
-			de: "Donner",
-			es: "Trueno",
-			pt: "Trovão",
-			it: "Tuono"
+			'en-us': "Thunder",
+			'fr-fr': "Fatal-Foudre",
+			'de-de': "Donner",
+			'es-es': "Trueno",
+			'pt-br': "Trovão",
+			'it-it': "Tuono"
 		},
 
 		damage: 80,
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 20 dégâts.",
-			de: "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu.",
-			es: "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 20 pontos de dano a si mesmo.",
-			it: "Questo Pokémon infligge anche 20 danni a se stesso."
+			'en-us': "This Pokémon also does 20 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 20 dégâts.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu.",
+			'es-es': "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
+			'pt-br': "Este Pokémon também causa 20 pontos de dano a si mesmo.",
+			'it-it': "Questo Pokémon infligge anche 20 danni a se stesso."
 		}
 	}],
 

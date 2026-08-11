@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オドリドリ",
+		'ja-jp': "オドリドリ",
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "むらさきのミツを 吸った オドリドリ。 しなやかで 艶やかな 踊りを 参考にする ダンサーも いる。",
+		'ja-jp': "むらさきのミツを 吸った オドリドリ。 しなやかで 艶やかな 踊りを 参考にする ダンサーも いる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ミックスコール" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札からポケモンとサポートを1枚ずつ選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札からポケモンとサポートを1枚ずつ選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 		{

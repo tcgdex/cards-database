@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../web1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "articuno",
+		'ja-jp': "articuno",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Water", "Water", "Water"],
 			name: {
-				ja: "ダイヤモンドダスト",
+				'ja-jp': "ダイヤモンドダスト",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御するポケモンは麻痺し、この攻撃は相手のベンチポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御するポケモンは麻痺し、この攻撃は相手のベンチポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 20,
 		},

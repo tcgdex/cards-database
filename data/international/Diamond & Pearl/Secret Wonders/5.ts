@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Flygon",
-		fr: "Libegon",
-		de: "Libelldra"
+		'en-us': "Flygon",
+		'fr-fr': "Libegon",
+		'de-de': "Libelldra"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vibrava",
-		fr: "Vibraninf",
+		'en-us': "Vibrava",
+		'fr-fr': "Vibraninf",
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Irritating Buzz",
-				fr: "Bourdonnement irritant",
-				de: "Lästiges Gebrumm"
+				'en-us': "Irritating Buzz",
+				'fr-fr': "Bourdonnement irritant",
+				'de-de': "Lästiges Gebrumm"
 			},
 			effect: {
-				en: "As long as Flygon is your Active Pokémon, put 1 damage counter on each of your opponent's Active Pokémon between turns, excluding Fighting Pokémon.",
-				fr: "Tant que Libegon est votre Pokémon Actif, placez 1 marqueur de dégât sur chacun des Pokémon Actifs de votre adversaire entre deux tours, Pokémon Fighting exclus.",
-				de: "Solange Libelldra dein Aktives Pokémon ist, lege zwischen Zügen 1 Schadensmarke auf jedes Aktive Pokémon deines Gegners (außer -Pokémon)."
+				'en-us': "As long as Flygon is your Active Pokémon, put 1 damage counter on each of your opponent's Active Pokémon between turns, excluding Fighting Pokémon.",
+				'fr-fr': "Tant que Libegon est votre Pokémon Actif, placez 1 marqueur de dégât sur chacun des Pokémon Actifs de votre adversaire entre deux tours, Pokémon Fighting exclus.",
+				'de-de': "Solange Libelldra dein Aktives Pokémon ist, lege zwischen Zügen 1 Schadensmarke auf jedes Aktive Pokémon deines Gegners (außer -Pokémon)."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sand Sonic",
-				fr: "Sable sonique",
-				de: "Schmirgelschall"
+				'en-us': "Sand Sonic",
+				'fr-fr': "Sable sonique",
+				'de-de': "Schmirgelschall"
 			},
 			effect: {
-				en: "If you attach a Fighting Energy card from your hand to Flygon during this turn, this attack does 60 damage plus 20 more damage.",
-				fr: "Si vous attachez une carte Énergie Fighting de votre main à Libegon lors de ce tour, cette attaque inflige 60 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wenn du in diesem Zug eine -Energiekarte von deiner Hand an Libelldra angelegt hast, fügt dieser Angriff 60 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "If you attach a Fighting Energy card from your hand to Flygon during this turn, this attack does 60 damage plus 20 more damage.",
+				'fr-fr': "Si vous attachez une carte Énergie Fighting de votre main à Libegon lors de ce tour, cette attaque inflige 60 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wenn du in diesem Zug eine -Energiekarte von deiner Hand an Libelldra angelegt hast, fügt dieser Angriff 60 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "60+",
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It whips up sandstorms with powerful flaps of its wings. It is known as \"The Desert Spirit.\"",
+		'en-us': "It whips up sandstorms with powerful flaps of its wings. It is known as \"The Desert Spirit.\"",
 	},
 
 	thirdParty: {

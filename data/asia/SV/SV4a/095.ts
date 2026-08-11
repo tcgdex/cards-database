@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ナカヌチャン",
+		'ja-jp': "ナカヌチャン",
 		'zh-tw': "巧鍛匠",
-		th: "นาคานุจัง",
-		id: "Tinkatuff"
+		'th-th': "นาคานุจัง",
+		'id-id': "Tinkatuff"
 	},
 
 	illustrator: "sowsow",
@@ -18,10 +18,10 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "大きくて 頑丈な ハンマーを 作るために キリキザンの 群れを 襲って 金属を 集める。",
+		'ja-jp': "大きくて 頑丈な ハンマーを 作るために キリキザンの 群れを 襲って 金属を 集める。",
 		'zh-tw': "為了製作又大又堅固的錘子，會去襲擊劈斬司令 的群體，藉以收集金屬。",
-		th: "จะโจมตีฝูงคิริคิซันและรวบรวมโลหะมาเพื่อสร้างค้อนที่มีขนาดใหญ่และแข็งแรง",
-		id: "Untuk membuat palu yang besar dan kuat, Tinkatuff menyerang kelompok Bisharp dan mengumpulkan logam dari mereka."
+		'th-th': "จะโจมตีฝูงคิริคิซันและรวบรวมโลหะมาเพื่อสร้างค้อนที่มีขนาดใหญ่และแข็งแรง",
+		'id-id': "Untuk membuat palu yang besar dan kuat, Tinkatuff menyerang kelompok Bisharp dan mengumpulkan logam dari mereka."
 	},
 
 	stage: "Stage1",
@@ -30,37 +30,37 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "じゃれつく",
+			'ja-jp': "じゃれつく",
 			'zh-tw': "嬉鬧",
-			th: "คลอเคลีย",
-			id: "Main Kasar"
+			'th-th': "คลอเคลีย",
+			'id-id': "Main Kasar"
 		},
 
 		damage: "30+",
 
 		effect: {
-			ja: "コインを1回投げオモテなら、30ダメージ追加。",
+			'ja-jp': "コインを1回投げオモテなら、30ダメージ追加。",
 			'zh-tw': "擲1次硬幣若為正面，則增加30點傷害。",
-			th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว การโจมตีนี้จะเพิ่มแดเมจอีก 30",
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 30."
+			'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกหัว การโจมตีนี้จะเพิ่มแดเมจอีก 30",
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 30."
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ふんさいプレス",
+			'ja-jp': "ふんさいプレス",
 			'zh-tw': "粉碎壓制",
-			th: "บดอัด",
-			id: "Tekanan Demolisi"
+			'th-th': "บดอัด",
+			'id-id': "Tekanan Demolisi"
 		},
 
 		damage: 60,
 
 		effect: {
-			ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+			'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 			'zh-tw': "這個招式的傷害不計算對手的戰鬥寶可夢身上的附加效果。",
-			th: "แดเมจของท่าต่อสู้นี้ จะไม่นำเอฟเฟกต์ที่มีผลอยู่กับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามมาคิด",
-			id: "Kerusakan akibat serangan ini tidak terpengaruh oleh efek yang sedang dialami Pokémon Bertarung lawan."
+			'th-th': "แดเมจของท่าต่อสู้นี้ จะไม่นำเอฟเฟกต์ที่มีผลอยู่กับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามมาคิด",
+			'id-id': "Kerusakan akibat serangan ini tidak terpengaruh oleh efek yang sedang dialami Pokémon Bertarung lawan."
 		}
 	}],
 

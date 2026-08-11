@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Venipede",
-		fr: "Venipatte",
-		es: "Venipede",
-		it: "Venipede",
-		pt: "Venipede",
-		de: "Toxiped"
+		'en-us': "Venipede",
+		'fr-fr': "Venipatte",
+		'es-es': "Venipede",
+		'it-it': "Venipede",
+		'pt-br': "Venipede",
+		'de-de': "Toxiped"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Spit Poison",
-			fr: "Crache-Venin",
-			es: "Escupir Veneno",
-			it: "Sputaveleno",
-			pt: "Cuspe Venenoso",
-			de: "Giftspucke"
+			'en-us': "Spit Poison",
+			'fr-fr': "Crache-Venin",
+			'es-es': "Escupir Veneno",
+			'it-it': "Sputaveleno",
+			'pt-br': "Cuspe Venenoso",
+			'de-de': "Giftspucke"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		}
 	}, {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			en: "Spinning Attack",
-			fr: "Attaque Tournante",
-			es: "Ataque Giratorio",
-			it: "Attacco Rotante",
-			pt: "Ataque Giratório",
-			de: "Rundumangriff"
+			'en-us': "Spinning Attack",
+			'fr-fr': "Attaque Tournante",
+			'es-es': "Ataque Giratorio",
+			'it-it': "Attacco Rotante",
+			'pt-br': "Ataque Giratório",
+			'de-de': "Rundumangriff"
 		},
 
 		damage: 40
@@ -65,7 +65,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Venipede and Sizzlipede are similar species, but when the two meet, a huge fight ensues.",
+		'en-us': "Venipede and Sizzlipede are similar species, but when the two meet, a huge fight ensues.",
 	},
 
 	variants: [

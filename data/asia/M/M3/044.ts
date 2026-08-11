@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガチゴラス",
+		'ja-jp': "ガチゴラス",
 	},
 
 	illustrator: "Dsuke",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "１億年前の 世界では 無敵を ほこり 王様のように ふるまっていた ポケモンだ。",
+		'ja-jp': "１億年前の 世界では 無敵を ほこり 王様のように ふるまっていた ポケモンだ。",
 	},
 
 	stage: "Stage2",
@@ -28,7 +28,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "チゴラス",
+		'ja-jp': "チゴラス",
 	},
 
 	retreat: 3,

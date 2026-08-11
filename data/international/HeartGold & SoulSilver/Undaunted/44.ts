@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Combee",
-		fr: "Apitrini",
-		de: "Wadribie"
+		'en-us': "Combee",
+		'fr-fr': "Apitrini",
+		'de-de': "Wadribie"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Enraged Assault",
-				fr: "Assaut furieux",
-				de: "Wutansturm"
+				'en-us': "Enraged Assault",
+				'fr-fr': "Assaut furieux",
+				'de-de': "Wutansturm"
 			},
 			effect: {
-				en: "If Vespiquen is on your Bench and has any damage counters on it, this attack does 20 damage plus 60 more damage and the Defending Pokémon is now Poisoned.",
-				fr: "Si Apireine se trouve sur votre Banc et a des marqueurs de dégât, cette attaque inflige 20 dégâts plus 60 dégâts supplémentaires et le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wenn sich Honweisel auf deiner Bank befindet und mindestens 1 Schadensmarke auf ihm liegt, fügt dieser Angriff 20 Schadenspunkte plus 60 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "If Vespiquen is on your Bench and has any damage counters on it, this attack does 20 damage plus 60 more damage and the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Si Apireine se trouve sur votre Banc et a des marqueurs de dégât, cette attaque inflige 20 dégâts plus 60 dégâts supplémentaires et le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wenn sich Honweisel auf deiner Bank befindet und mindestens 1 Schadensmarke auf ihm liegt, fügt dieser Angriff 20 Schadenspunkte plus 60 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: "20+",
 
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "At night, Combee sleep in a group of about a thousand, packed closely together in a lump."
+		'en-us': "At night, Combee sleep in a group of about a thousand, packed closely together in a lump."
 	},
 
 	variants: [

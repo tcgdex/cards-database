@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オーガポン かまどのめんex",
+		'ja-jp': "オーガポン かまどのめんex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数×20ダメージ。",
+				'ja-jp': "このポケモンにのっているダメカンの数×20ダメージ。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: "140+",
 			cost: ["Fire", "Fire", "Fire"],
 			effect: {
-				ja: "相手のバトルポケモンが進化ポケモンなら、140ダメージ追加。その場合、このポケモンについているエネルギーを、すべてトラッシュする。",
+				'ja-jp': "相手のバトルポケモンが進化ポケモンなら、140ダメージ追加。その場合、このポケモンについているエネルギーを、すべてトラッシュする。",
 			},
 		},
 	],

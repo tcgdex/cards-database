@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Inkay",
-		fr: "Sepiatop",
-		es: "Inkay",
-		it: "Inkay",
-		pt: "Inkay",
-		de: "Iscalar"
+		'en-us': "Inkay",
+		'fr-fr': "Sepiatop",
+		'es-es': "Inkay",
+		'it-it': "Inkay",
+		'pt-br': "Inkay",
+		'de-de': "Iscalar"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Puncture",
-				fr: "Perforation",
-				es: "Pinchazo",
-				it: "Perforazione",
-				pt: "Perfuração",
-				de: "Durchdringen"
+				'en-us': "Puncture",
+				'fr-fr': "Perforation",
+				'es-es': "Pinchazo",
+				'it-it': "Perforazione",
+				'pt-br': "Perfuração",
+				'de-de': "Durchdringen"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				es: "El daño de este ataque no se ve afectado por Resistencia.",
-				it: "Il danno di questo attacco non è influenzato dalla resistenza.",
-				pt: "Os danos deste ataque não são afetados por Resistência.",
-				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+				'it-it': "Il danno di questo attacco non è influenzato dalla resistenza.",
+				'pt-br': "Os danos deste ataque não são afetados por Resistência.",
+				'de-de': "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 20,
 
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight.",
+		'en-us': "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight.",
 	},
 
 	thirdParty: {

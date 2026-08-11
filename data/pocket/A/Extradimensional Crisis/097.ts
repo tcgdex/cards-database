@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pidgeot",
-		fr: "Roucarnage"
+		'en-us': "Pidgeot",
+		'fr-fr': "Roucarnage"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -17,12 +17,12 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Pidgeotto"
+		'en-us': "Pidgeotto"
 	},
 
 	description: {
-		en: "When hunting, it skims the surface of water\nat high speed to pick off unwary prey such\nas Magikarp.",
-		fr: "Il survole la surface de l'eau pour repérer une proie et plonge en piqué pour l'attraper."
+		'en-us': "When hunting, it skims the surface of water\nat high speed to pick off unwary prey such\nas Magikarp.",
+		'fr-fr': "Il survole la surface de l'eau pour repérer une proie et plonge en piqué pour l'attraper."
 	},
 
 	stage: "Stage2",
@@ -31,20 +31,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Drive Off",
-			fr: "Déroute"
+			'en-us': "Drive Off",
+			'fr-fr': "Déroute"
 		},
 
 		effect: {
-			en: "Once during your turn, you may switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
-			fr: "Une fois pendant votre tour, vous pouvez échanger le Pokémon Actif de votre adversaire contre l'un de ses Pokémon de Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)"
+			'en-us': "Once during your turn, you may switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez échanger le Pokémon Actif de votre adversaire contre l'un de ses Pokémon de Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)"
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Wing Attack",
-			fr: "Cru-Ailes"
+			'en-us': "Wing Attack",
+			'fr-fr': "Cru-Ailes"
 		},
 
 		damage: 70,

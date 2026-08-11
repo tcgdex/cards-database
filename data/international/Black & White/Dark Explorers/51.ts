@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Yamask",
-		fr: "Tutafeh",
-		es: "Yamask",
-		it: "Yamask",
-		pt: "Yamask",
-		de: "Makabaja"
+		'en-us': "Yamask",
+		'fr-fr': "Tutafeh",
+		'es-es': "Yamask",
+		'it-it': "Yamask",
+		'pt-br': "Yamask",
+		'de-de': "Makabaja"
 	},
 
 	illustrator: "Aya Kusube",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Astonish",
-				fr: "Étonnement"
+				'en-us': "Astonish",
+				'fr-fr': "Étonnement"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose a card at random from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck.",
-				fr: "Lancez une pièce. Si c'est face, choisissez une carte au hasard de la main de votre adversaire. Votre adversaire montre la carte choisie et la mélange avec son deck."
+				'en-us': "Flip a coin. If heads, choose a card at random from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck.",
+				'fr-fr': "Lancez une pièce. Si c'est face, choisissez une carte au hasard de la main de votre adversaire. Votre adversaire montre la carte choisie et la mélange avec son deck."
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Each of them carries a mask that used to be its face when it was human. Sometimes they look at it and cry.",
+		'en-us': "Each of them carries a mask that used to be its face when it was human. Sometimes they look at it and cry.",
 	},
 
 	thirdParty: {

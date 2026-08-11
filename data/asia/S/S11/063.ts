@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スナバァ",
+		'ja-jp': "スナバァ",
 		'zh-tw': "沙丘娃",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "砂山に 死者の 怨念が 宿り ポケモンに なった。 頭の スコップは お気に入り。",
+		'ja-jp': "砂山に 死者の 怨念が 宿り ポケモンに なった。 頭の スコップは お気に入り。",
 		'zh-tw': "死者的怨念附在沙丘上，從而變成的寶可夢。 很喜歡頭上的鏟子。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "おいつめる",
+				'ja-jp': "おいつめる",
 				'zh-tw': "窮追不捨",
 			},
 			damage: 10,
 			cost: ["Fighting"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 				'zh-tw': "在下個對手的回合，受到這個招式的寶可夢無法撤退。",
 			},
 		},

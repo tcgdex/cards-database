@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [560],
 
 	name: {
-		en: "Scrafty"
+		'en-us': "Scrafty"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Scraggy"
+		'en-us': "Scraggy"
 	},
 
 	description: {
-		en: "This Pokémon may be rude, but it takes very\ngood care of its family, its friends, and its turf."
+		'en-us': "This Pokémon may be rude, but it takes very\ngood care of its family, its friends, and its turf."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Crush the Weak"
+			'en-us': "Crush the Weak"
 		},
 
 		damage: 50,
 		cost: ["Darkness", "Darkness"],
 
 		effect: {
-			en: "If this Pokémon has more Energy attached than your opponent's Active Pokémon, this attack does 50 more damage."
+			'en-us': "If this Pokémon has more Energy attached than your opponent's Active Pokémon, this attack does 50 more damage."
 		}
 	}],
 

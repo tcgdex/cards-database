@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sword & Shield'
 
 const swsh1: Set = {
 	id: "swsh1",
 
 	name: {
-		en: "Sword & Shield",
-		fr: "Épée et Bouclier",
-		es: "Espada y Escudo",
-		it: "Spada e Scudo",
-		de: "Schwert & Schild",
-		pt: "Espada e Escudo"
+		'en-us': "Sword & Shield",
+		'fr-fr': "Épée et Bouclier",
+		'es-es': "Espada y Escudo",
+		'it-it': "Spada e Scudo",
+		'de-de': "Schwert & Schild",
+		'pt-br': "Espada e Escudo"
 	},
 
 	tcgOnline: 'SSH',
@@ -24,7 +24,7 @@ const swsh1: Set = {
 
 	abbreviations: {
 		official: "SSH",
-		fr: "E&B"
+		'fr-fr': "E&B"
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Candine",
-		en: "Steenee",
-		es: "Steenee",
-		it: "Steenee",
-		pt: "Steenee",
-		de: "Frubaila"
+		'fr-fr': "Candine",
+		'en-us': "Steenee",
+		'es-es': "Steenee",
+		'it-it': "Steenee",
+		'pt-br': "Steenee",
+		'de-de': "Frubaila"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Grass"],
 	evolveFrom: {
-		fr: "Croquine",
-		en: "Bounsweet",
-		es: "Bounsweet",
-		it: "Bounsweet",
-		pt: "Bounsweet",
-		de: "Frubberl"
+		'fr-fr': "Croquine",
+		'en-us': "Bounsweet",
+		'es-es': "Bounsweet",
+		'it-it': "Bounsweet",
+		'pt-br': "Bounsweet",
+		'de-de': "Frubberl"
 	},
 	stage: "Stage1",
 
@@ -32,32 +32,32 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			fr: "Aromathérapie",
-			en: "Aromatherapy",
-			es: "Aromaterapia",
-			it: "Aromaterapia",
-			pt: "Aromaterapia",
-			de: "Aromakur"
+			'fr-fr': "Aromathérapie",
+			'en-us': "Aromatherapy",
+			'es-es': "Aromaterapia",
+			'it-it': "Aromaterapia",
+			'pt-br': "Aromaterapia",
+			'de-de': "Aromakur"
 		},
 
 		effect: {
-			fr: "Soignez 30 dégâts de chacun de vos Pokémon.",
-			en: "Heal 30 damage from each of your Pokémon.",
-			es: "Cura 30 puntos de daño a cada uno de tus Pokémon.",
-			it: "Cura ciascuno dei tuoi Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano de cada um dos seus Pokémon.",
-			de: "Heile 30 Schadenspunkte bei jedem deiner Pokémon."
+			'fr-fr': "Soignez 30 dégâts de chacun de vos Pokémon.",
+			'en-us': "Heal 30 damage from each of your Pokémon.",
+			'es-es': "Cura 30 puntos de daño a cada uno de tus Pokémon.",
+			'it-it': "Cura ciascuno dei tuoi Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano de cada um dos seus Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei jedem deiner Pokémon."
 		}
 	}, {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			fr: "Tranch'Herbe",
-			en: "Razor Leaf",
-			es: "Hoja Afilada",
-			it: "Foglielama",
-			pt: "Folha Navalha",
-			de: "Rasierblatt"
+			'fr-fr': "Tranch'Herbe",
+			'en-us': "Razor Leaf",
+			'es-es': "Hoja Afilada",
+			'it-it': "Foglielama",
+			'pt-br': "Folha Navalha",
+			'de-de': "Rasierblatt"
 		},
 
 		damage: 60
@@ -73,7 +73,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Steenee spreads a sweet scent that makes others feel invigorated. This same scent is popular for antiperspirants.",
+		'en-us': "Steenee spreads a sweet scent that makes others feel invigorated. This same scent is popular for antiperspirants.",
 	},
 
 	variants: [

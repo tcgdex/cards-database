@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Prinplup",
+		'en-us': "Prinplup",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Piplup",
+		'en-us': "Piplup",
 	},
 
 	stage: "Stage1",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Splash",
+				'en-us': "Water Splash",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
 			},
 			damage: 20,
 
@@ -54,7 +54,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Because every Prinplup considers itself to be the most important, they can never form a group.",
+		'en-us': "Because every Prinplup considers itself to be the most important, they can never form a group.",
 	},
 
 	thirdParty: {

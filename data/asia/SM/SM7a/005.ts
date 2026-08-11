@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドクケイル",
+		'ja-jp': "ドクケイル",
 	},
 
 	illustrator: "Midori Harada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "襲われると 激しく 羽ばたいて 猛毒の 粉を まき散らす。 日が暮れると 行動を はじめる。",
+		'ja-jp': "襲われると 激しく 羽ばたいて 猛毒の 粉を まき散らす。 日が暮れると 行動を はじめる。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ハザードしんか" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のバトルポケモンをどくとマヒにする。このどくでのせるダメカンの数は3個になる。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のバトルポケモンをどくとマヒにする。このどくでのせるダメカンの数は3個になる。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マユルド",
+		'ja-jp': "マユルド",
 	},
 
 	retreat: 2,

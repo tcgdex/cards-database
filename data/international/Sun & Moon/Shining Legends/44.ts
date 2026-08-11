@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Golurk",
-		fr: "Golemastoc",
-		es: "Golurk",
-		it: "Golurk",
-		pt: "Golurk",
-		de: "Golgantes"
+		'en-us': "Golurk",
+		'fr-fr': "Golemastoc",
+		'es-es': "Golurk",
+		'it-it': "Golurk",
+		'pt-br': "Golurk",
+		'de-de': "Golgantes"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Golett",
-		fr: "Gringolem",
+		'en-us': "Golett",
+		'fr-fr': "Gringolem",
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Triple Smash",
-				fr: "Triple Éclate",
-				es: "Golpe Triple",
-				it: "Tripla Schiacciata",
-				pt: "Pancada Tripla",
-				de: "Dreifachschmetterer"
+				'en-us': "Triple Smash",
+				'fr-fr': "Triple Éclate",
+				'es-es': "Golpe Triple",
+				'it-it': "Tripla Schiacciata",
+				'pt-br': "Pancada Tripla",
+				'de-de': "Dreifachschmetterer"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 60 more damage for each heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 60 dégâts supplémentaires pour chaque côté face.",
-				es: "Lanza 3 monedas. Este ataque hace 60 puntos de daño más por cada cara.",
-				it: "Lancia tre volte una moneta. Questo attacco infligge 60 danni in più ogni volta che esce testa.",
-				pt: "Jogue 3 moedas. Este ataque causa 60 pontos de dano a mais para cada cara.",
-				de: "Wirf 3 Münzen. Diese Attacke fügt 60 Schadenspunkte mehr pro Kopf zu."
+				'en-us': "Flip 3 coins. This attack does 60 more damage for each heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 60 dégâts supplémentaires pour chaque côté face.",
+				'es-es': "Lanza 3 monedas. Este ataque hace 60 puntos de daño más por cada cara.",
+				'it-it': "Lancia tre volte una moneta. Questo attacco infligge 60 danni in più ogni volta che esce testa.",
+				'pt-br': "Jogue 3 moedas. Este ataque causa 60 pontos de dano a mais para cada cara.",
+				'de-de': "Wirf 3 Münzen. Diese Attacke fügt 60 Schadenspunkte mehr pro Kopf zu."
 			},
 			damage: "10+",
 
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Golurk Hammer",
-				fr: "Maillet Golemastoc",
-				es: "Martillo Golurk",
-				it: "Martello Golurk",
-				pt: "Martelo Golurk",
-				de: "Golgantes-Hammer"
+				'en-us': "Golurk Hammer",
+				'fr-fr': "Maillet Golemastoc",
+				'es-es': "Martillo Golurk",
+				'it-it': "Martello Golurk",
+				'pt-br': "Martelo Golurk",
+				'de-de': "Golgantes-Hammer"
 			},
 
 			damage: 120,
@@ -97,7 +97,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It is said that Golurk were ordered to protect people and Pokémon by the ancient people who made them.",
+		'en-us': "It is said that Golurk were ordered to protect people and Pokémon by the ancient people who made them.",
 	},
 
 	thirdParty: {

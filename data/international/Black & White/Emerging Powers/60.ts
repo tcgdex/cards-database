@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Sandile",
-		fr: "Mascaïman",
-		es: "Sandile",
-		it: "Sandile",
-		pt: "Sandile",
-		de: "Ganovil"
+		'en-us': "Sandile",
+		'fr-fr': "Mascaïman",
+		'es-es': "Sandile",
+		'it-it': "Sandile",
+		'pt-br': "Sandile",
+		'de-de': "Ganovil"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
 			},
 
 			damage: 20,
@@ -54,7 +54,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They live buried in the sands of the desert. The sun-warmed sands prevent their body temperature from dropping.",
+		'en-us': "They live buried in the sands of the desert. The sun-warmed sands prevent their body temperature from dropping.",
 	},
 
 	thirdParty: {

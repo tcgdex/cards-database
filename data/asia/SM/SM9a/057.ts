@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デデンネGX",
+		'ja-jp': "デデンネGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "デデチェンジ" },
 			effect: {
-				ja: "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の手札をすべてトラッシュし、山札を6枚引く。この番、すでに別の「デデチェンジ」を使っていたなら、この特性は使えない。",
+				'ja-jp': "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の手札をすべてトラッシュし、山札を6枚引く。この番、すでに別の「デデチェンジ」を使っていたなら、この特性は使えない。",
 			},
 		},
 	],
@@ -35,7 +35,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをマヒにする。このポケモンと、ついているすべてのカードを、手札にもどす。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のバトルポケモンをマヒにする。このポケモンと、ついているすべてのカードを、手札にもどす。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

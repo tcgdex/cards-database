@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Serperior",
+		'en-us': "Serperior",
 	},
 
 	illustrator: "hatachu",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Servine",
+		'en-us': "Servine",
 	},
 
 	stage: "Stage2",
@@ -31,10 +31,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Royal Heal",
+				'en-us': "Royal Heal",
 			},
 			effect: {
-				en: "At any time between turns, heal 10 damage from each of your Pokémon.",
+				'en-us': "At any time between turns, heal 10 damage from each of your Pokémon.",
 			},
 		},
 	],
@@ -46,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leaf Tornado",
+				'en-us': "Leaf Tornado",
 			},
 			effect: {
-				en: "Move as many Grass Energy attached to your Pokémon to your other Pokémon in any way you like.",
+				'en-us': "Move as many Grass Energy attached to your Pokémon to your other Pokémon in any way you like.",
 			},
 			damage: 60,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They raise their heads to intimidate opponents but only give it their all when fighting a powerful opponent.",
+		'en-us': "They raise their heads to intimidate opponents but only give it their all when fighting a powerful opponent.",
 	},
 
 	thirdParty: {

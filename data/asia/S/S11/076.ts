@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "テッシード",
+		'ja-jp': "テッシード",
 		'zh-tw': "種子鐵球",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "棘を 飛ばして 身を 守る。 狙った 方向に 飛ばすには たくさんの 訓練が 必要。",
+		'ja-jp': "棘を 飛ばして 身を 守る。 狙った 方向に 飛ばすには たくさんの 訓練が 必要。",
 		'zh-tw': "會發射尖刺來保護自己。需要反覆訓練才能將 尖刺準確地射中目標。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "たいあたり",
+				'ja-jp': "たいあたり",
 				'zh-tw': "撞擊",
 			},
 			damage: 10,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ころがりタックル",
+				'ja-jp': "ころがりタックル",
 				'zh-tw': "滾動衝撞",
 			},
 			damage: 20,

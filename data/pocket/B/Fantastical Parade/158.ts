@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [666],
 
 	name: {
-		en: "Vivillon"
+		'en-us': "Vivillon"
 	},
 
 	illustrator: "mingo",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Spewpa"
+		'en-us': "Spewpa"
 	},
 
 	description: {
-		en: "This Pokémon was born in a land where flowers\nbloom. It scatters colorful, toxic scales from its\nwings during battle."
+		'en-us': "This Pokémon was born in a land where flowers\nbloom. It scatters colorful, toxic scales from its\nwings during battle."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Vivid Powder"
+			'en-us': "Vivid Powder"
 		},
 
 		damage: 60,
 		cost: ["Grass", "Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned and Asleep."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned and Asleep."
 		}
 	}],
 

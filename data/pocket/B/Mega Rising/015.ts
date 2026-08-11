@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cottonee"
+		'en-us': "Cottonee"
 	},
 
 	illustrator: "Yuka Tanaka",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "It shoots cotton from its body to protect itself.\nIf it gets caught up in hurricane-strength winds,\nit can get sent to the other side of the Earth."
+		'en-us': "It shoots cotton from its body to protect itself.\nIf it gets caught up in hurricane-strength winds,\nit can get sent to the other side of the Earth."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Razor Leaf"
+			'en-us': "Razor Leaf"
 		},
 
 		damage: 20,

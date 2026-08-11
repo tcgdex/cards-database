@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Electrike",
-		fr: "Dynavolt",
-		de: "Frizelbliz"
+		'en-us': "Electrike",
+		'fr-fr': "Dynavolt",
+		'de-de': "Frizelbliz"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "High Voltage",
-				fr: "Haut voltage",
-				de: "High Voltage"
+				'en-us': "High Voltage",
+				'fr-fr': "Haut voltage",
+				'de-de': "High Voltage"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent can't play Trainer cards from his or her hand during his or her next turn.",
-				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Dresseur de sa main lors de son prochain tour.",
-				de: "Flip a coin. If heads, your opponent can't play Trainer cards from his or her hand during his or her next turn."
+				'en-us': "Flip a coin. If heads, your opponent can't play Trainer cards from his or her hand during his or her next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Dresseur de sa main lors de son prochain tour.",
+				'de-de': "Flip a coin. If heads, your opponent can't play Trainer cards from his or her hand during his or her next turn."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Rogne",
-				de: "Gnaw"
+				'en-us': "Gnaw",
+				'fr-fr': "Rogne",
+				'de-de': "Gnaw"
 			},
 
 			damage: 20,

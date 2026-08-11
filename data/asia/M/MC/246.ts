@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レントラーex",
+		'ja-jp': "レントラーex",
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手の手札を見て、その中からカードを1枚選び、トラッシュする。",
+				'ja-jp': "相手の手札を見て、その中からカードを1枚選び、トラッシュする。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 250,
 			cost: ["Lightning", "Lightning"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、すべてトラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、すべてトラッシュする。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ルクシオ",
+		'ja-jp': "ルクシオ",
 	},
 
 	retreat: 1,

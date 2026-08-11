@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Registeel",
-		fr: "Registeel",
-		de: "Registeel"
+		'en-us': "Registeel",
+		'fr-fr': "Registeel",
+		'de-de': "Registeel"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Clear Body",
-				fr: "Corps sain",
-				de: "Neutraltorso"
+				'en-us': "Clear Body",
+				'fr-fr': "Corps sain",
+				'de-de': "Neutraltorso"
 			},
 			effect: {
-				en: "Registeel can't be affected by any Special Conditions.",
-				fr: "Registeel ne peut pas être affecté par des États Spéciaux.",
-				de: "Registeel kann nicht von Speziellen Zuständen betroffen werden."
+				'en-us': "Registeel can't be affected by any Special Conditions.",
+				'fr-fr': "Registeel ne peut pas être affecté par des États Spéciaux.",
+				'de-de': "Registeel kann nicht von Speziellen Zuständen betroffen werden."
 			},
 		},
 	],
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Beam",
-				fr: "Ultralaser",
-				de: "Hyperstrahl"
+				'en-us': "Hyper Beam",
+				'fr-fr': "Ultralaser",
+				'de-de': "Hyperstrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte von dem Verteidigenden Pokémon auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte von dem Verteidigenden Pokémon auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 

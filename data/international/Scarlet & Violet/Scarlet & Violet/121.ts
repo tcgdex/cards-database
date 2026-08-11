@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Stonjourner",
-		fr: "Dolman",
-		es: "Stonjourner",
-		it: "Stonjourner",
-		pt: "Stonjourner",
-		de: "Humanolith"
+		'en-us': "Stonjourner",
+		'fr-fr': "Dolman",
+		'es-es': "Stonjourner",
+		'it-it': "Stonjourner",
+		'pt-br': "Stonjourner",
+		'de-de': "Humanolith"
 	},
 
 	rarity: "Uncommon",
@@ -24,21 +24,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Exoskeleton",
-			fr: "Exosquelette",
-			es: "Exosqueleto",
-			it: "Esoscheletro",
-			pt: "Exoesqueleto",
-			de: "Exoskelett"
+			'en-us': "Exoskeleton",
+			'fr-fr': "Exosquelette",
+			'es-es': "Exosqueleto",
+			'it-it': "Esoscheletro",
+			'pt-br': "Exoesqueleto",
+			'de-de': "Exoskelett"
 		},
 
 		effect: {
-			en: "This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
-			fr: "Ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			es: "Los ataques hacen 20 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-			it: "Questo Pokémon subisce 20 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-			pt: "Este Pokémon recebe 20 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
-			de: "Diesem Pokémon werden durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+			'en-us': "This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
+			'fr-fr': "Ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			'es-es': "Los ataques hacen 20 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			'it-it': "Questo Pokémon subisce 20 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+			'pt-br': "Este Pokémon recebe 20 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
+			'de-de': "Diesem Pokémon werden durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 		}
 	}],
 
@@ -46,12 +46,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			en: "Mega Kick",
-			fr: "Ultimawashi",
-			es: "Megapatada",
-			it: "Megacalcio",
-			pt: "Megachute",
-			de: "Megakick"
+			'en-us': "Mega Kick",
+			'fr-fr': "Ultimawashi",
+			'es-es': "Megapatada",
+			'it-it': "Megacalcio",
+			'pt-br': "Megachute",
+			'de-de': "Megakick"
 		},
 
 		damage: 100
@@ -76,7 +76,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "The elemental composition of the rocks that form its body were found to match the bedrock of a land far away from this Pokémon's habitat.",
+		'en-us': "The elemental composition of the rocks that form its body were found to match the bedrock of a land far away from this Pokémon's habitat.",
 	},
 
 	thirdParty: {

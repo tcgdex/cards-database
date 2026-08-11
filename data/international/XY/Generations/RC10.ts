@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Dedenne",
-		fr: "Dedenne",
+		'en-us': "Dedenne",
+		'fr-fr': "Dedenne",
 	},
 
 	illustrator: "kanahei",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rest",
-				fr: "Repos",
+				'en-us': "Rest",
+				'fr-fr': "Repos",
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon. This Pokémon is now Asleep.",
-				fr: "Soignez 30 dégâts à ce Pokémon. Ce Pokémon est maintenant Endormi.",
+				'en-us': "Heal 30 damage from this Pokémon. This Pokémon is now Asleep.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon. Ce Pokémon est maintenant Endormi.",
 			},
 
 		},
@@ -44,12 +44,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Pachi",
-				fr: "Pachi",
+				'en-us': "Pachi",
+				'fr-fr': "Pachi",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: "10+",
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Crackle…buzz…Dedenne…?! Beep…",
+		'en-us': "Crackle…buzz…Dedenne…?! Beep…",
 	},
 
 	thirdParty: {

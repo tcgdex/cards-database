@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Axoloto de Paldea",
-		en: "Paldean Wooper",
-		es: "Wooper de Paldea",
-		it: "Wooper di Paldea",
-		pt: "Wooper de Paldea",
-		de: "Paldea-Felino"
+		'fr-fr': "Axoloto de Paldea",
+		'en-us': "Paldean Wooper",
+		'es-es': "Wooper de Paldea",
+		'it-it': "Wooper di Paldea",
+		'pt-br': "Wooper de Paldea",
+		'de-de': "Paldea-Felino"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			fr: "Flop",
-			en: "Flop",
-			es: "Vuelta",
-			it: "Tonfo",
-			pt: "Baque",
-			de: "Plumps"
+			'fr-fr': "Flop",
+			'en-us': "Flop",
+			'es-es': "Vuelta",
+			'it-it': "Tonfo",
+			'pt-br': "Baque",
+			'de-de': "Plumps"
 		},
 
 		damage: 30
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
+		'en-us': "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
 	},
 
 	variants: [

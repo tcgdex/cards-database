@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒヤッキー",
+		'ja-jp': "ヒヤッキー",
 	},
 
 	illustrator: "Yoriyuki Ikegami",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "頭の ふさに 水を ためる。 貯水量が 減ると 尻尾で 水を 吸い上げて 補給する。",
+		'ja-jp': "頭の ふさに 水を ためる。 貯水量が 減ると 尻尾で 水を 吸い上げて 補給する。",
 	},
 
 	stage: "Stage1",
@@ -32,7 +32,7 @@ const card: Card = {
 	variants: [{ type: "holo" }],
 
 	evolveFrom: {
-		ja: "ヒヤップ",
+		'ja-jp': "ヒヤップ",
 	},
 
 	retreat: 1,

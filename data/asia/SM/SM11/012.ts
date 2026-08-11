@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラプラス",
+		'ja-jp': "ラプラス",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "人を 乗せて 泳ぐのが 好き。 アローラ地方 では 大切な 水上の 交通 手段。",
+		'ja-jp': "人を 乗せて 泳ぐのが 好き。 アローラ地方 では 大切な 水上の 交通 手段。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "マーメイドコール" },
 			effect: {
-				ja: "自分の番に1回使える。自分のトラッシュにある「カスミのおねがい」を1枚、相手に見せてから、手札に加える。",
+				'ja-jp': "自分の番に1回使える。自分のトラッシュにある「カスミのおねがい」を1枚、相手に見せてから、手札に加える。",
 			},
 		},
 	],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Sewaddle",
-		fr: "Larveyette",
-		es: "Sewaddle",
-		it: "Sewaddle",
-		pt: "Sewaddle",
-		de: "Strawickl"
+		'en-us': "Sewaddle",
+		'fr-fr': "Larveyette",
+		'es-es': "Sewaddle",
+		'it-it': "Sewaddle",
+		'pt-br': "Sewaddle",
+		'de-de': "Strawickl"
 	},
 
 	illustrator: "Naoki Saito",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Ronge",
+				'en-us': "Gnaw",
+				'fr-fr': "Ronge",
 			},
 
 			damage: 10,
@@ -47,8 +47,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'Herbe",
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'Herbe",
 			},
 
 			damage: 20,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon makes clothes for itself. It chews up leaves and sews them with sticky thread extruded from its mouth.",
+		'en-us': "This Pokémon makes clothes for itself. It chews up leaves and sews them with sticky thread extruded from its mouth.",
 	},
 
 	thirdParty: {

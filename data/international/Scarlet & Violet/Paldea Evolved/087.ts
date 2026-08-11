@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Feuforêve",
-		en: "Misdreavus",
-		es: "Misdreavus",
-		it: "Misdreavus",
-		pt: "Misdreavus",
-		de: "Traunfugil"
+		'fr-fr': "Feuforêve",
+		'en-us': "Misdreavus",
+		'es-es': "Misdreavus",
+		'it-it': "Misdreavus",
+		'pt-br': "Misdreavus",
+		'de-de': "Traunfugil"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			fr: "Hypnoblast",
-			en: "Hypnoblast",
-			es: "Hipnorrayo",
-			it: "Ipnobomba",
-			pt: "Borrifada Hipnótica",
-			de: "Hypnoschuss"
+			'fr-fr': "Hypnoblast",
+			'en-us': "Hypnoblast",
+			'es-es': "Hipnorrayo",
+			'it-it': "Ipnobomba",
+			'pt-br': "Borrifada Hipnótica",
+			'de-de': "Hypnoschuss"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 		},
 
 		damage: 10
@@ -81,7 +81,7 @@ const card: Card = {
 	illustrator: "Megumi Higuchi",
 
 	description: {
-		en: "This Pokémon startles people in the middle of the night. It gathers fear as its energy.",
+		'en-us': "This Pokémon startles people in the middle of the night. It gathers fear as its energy.",
 	},
 }
 

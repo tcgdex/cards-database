@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Seedot",
-		fr: "Grainipiot",
-		es: "Seedot",
-		it: "Seedot",
-		pt: "Seedot",
-		de: "Samurzel"
+		'en-us': "Seedot",
+		'fr-fr': "Grainipiot",
+		'es-es': "Seedot",
+		'it-it': "Seedot",
+		'pt-br': "Seedot",
+		'de-de': "Samurzel"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Rigidify",
-			fr: "Solidification",
-			es: "Rigidez",
-			it: "Irrigidimento",
-			pt: "Enrijecer",
-			de: "Verfestiger"
+			'en-us': "Rigidify",
+			'fr-fr': "Solidification",
+			'es-es': "Rigidez",
+			'it-it': "Irrigidimento",
+			'pt-br': "Enrijecer",
+			'de-de': "Verfestiger"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
-			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			es: "Durante el próximo turno de tu rival, los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-			it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-			pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
-			de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+			'en-us': "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			'es-es': "Durante el próximo turno de tu rival, los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			'it-it': "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+			'pt-br': "Durante o próximo turno do seu oponente, este Pokémon receberá 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
+			'de-de': "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Hang Down",
-			fr: "Suspension",
-			es: "Prender",
-			it: "Tirar Giù",
-			pt: "Dependurar",
-			de: "Herunterhängen"
+			'en-us': "Hang Down",
+			'fr-fr': "Suspension",
+			'es-es': "Prender",
+			'it-it': "Tirar Giù",
+			'pt-br': "Dependurar",
+			'de-de': "Herunterhängen"
 		},
 
 		damage: 20
@@ -65,7 +65,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "If it remains still, it looks just like a real nut. It delights in surprising foraging Pokémon.",
+		'en-us': "If it remains still, it looks just like a real nut. It delights in surprising foraging Pokémon.",
 	},
 
 	variants: [

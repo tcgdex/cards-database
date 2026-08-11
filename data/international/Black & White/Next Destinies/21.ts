@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Reshiram",
-		fr: "Reshiram",
-		es: "Reshiram",
-		it: "Reshiram",
-		pt: "Reshiram",
-		de: "Reshiram"
+		'en-us': "Reshiram",
+		'fr-fr': "Reshiram",
+		'es-es': "Reshiram",
+		'it-it': "Reshiram",
+		'pt-br': "Reshiram",
+		'de-de': "Reshiram"
 	},
 
 	illustrator: "5ban Graphics",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Outrage",
-				fr: "Colère",
+				'en-us': "Outrage",
+				'fr-fr': "Colère",
 			},
 			effect: {
-				en: "Does 10 more damage for each damage counter on this Pokémon.",
-				fr: "Inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
+				'en-us': "Does 10 more damage for each damage counter on this Pokémon.",
+				'fr-fr': "Inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
 			},
 			damage: 20,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blue Flare",
-				fr: "Flamme Bleue",
+				'en-us': "Blue Flare",
+				'fr-fr': "Flamme Bleue",
 			},
 			effect: {
-				en: "Discard 2 Fire Energy attached to this Pokémon.",
-				fr: "Défaussez 2 Énergies Fire attachées à ce Pokémon.",
+				'en-us': "Discard 2 Fire Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez 2 Énergies Fire attachées à ce Pokémon.",
 			},
 			damage: 120,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it.",
+		'en-us': "This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it.",
 	},
 
 	thirdParty: {

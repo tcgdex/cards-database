@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Gothorita",
+		'en-us': "Gothorita",
 	},
 
 	illustrator: "kirisAki",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gothita",
+		'en-us': "Gothita",
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Slap",
+				'en-us': "Double Slap",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
 			},
 			damage: 20,
 
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psybeam",
+				'en-us': "Psybeam",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
+				'en-us': "The Defending Pokémon is now Confused.",
 			},
 			damage: 20,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They use hypnosis to control people and Pokémon. Tales of Gothorita leading people astray are told in every corner.",
+		'en-us': "They use hypnosis to control people and Pokémon. Tales of Gothorita leading people astray are told in every corner.",
 	},
 
 	thirdParty: {

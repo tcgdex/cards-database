@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sword & Shield'
 
 const swsh5: Set = {
 	id: "swsh5",
 
 	name: {
-		en: "Battle Styles",
-		fr: "Styles de combat",
-		es: "Estilos de Combate",
-		it: "Stili di Lotta",
-		de: "Kampfstile",
-		pt: "Estilos de Batalha"
+		'en-us': "Battle Styles",
+		'fr-fr': "Styles de combat",
+		'es-es': "Estilos de Combate",
+		'it-it': "Stili di Lotta",
+		'de-de': "Kampfstile",
+		'pt-br': "Estilos de Batalha"
 	},
 
 	tcgOnline: 'BST',
@@ -24,7 +24,7 @@ const swsh5: Set = {
 
 	abbreviations: {
 		official: "BST",
-		fr: "STC"
+		'fr-fr': "STC"
 	},
 
 	thirdParty: {

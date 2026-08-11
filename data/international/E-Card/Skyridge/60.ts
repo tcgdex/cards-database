@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Golbat",
-		de: "Golbat"
+		'en-us': "Golbat",
+		'de-de': "Golbat"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Zubat",
+		'en-us': "Zubat",
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Sound Wave",
-				de: "Gift-Schallwelle"
+				'en-us': "Poison Sound Wave",
+				'de-de': "Gift-Schallwelle"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, the Defending Pokémon is now Poisoned.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt verwirrt. Bei 'Zahl' ist das verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, the Defending Pokémon is now Poisoned.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt verwirrt. Bei 'Zahl' ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strength in Numbers",
-				de: "Stärke durch Überzahl"
+				'en-us': "Strength in Numbers",
+				'de-de': "Stärke durch Überzahl"
 			},
 			effect: {
-				en: "This attack does 30 damage plus 10 more damage for each Zubat, Golbat, and Crobat on your Bench.",
-				de: "Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Zubat, Golbat bzw. Iksbat, das auf deiner Bank ist, zu."
+				'en-us': "This attack does 30 damage plus 10 more damage for each Zubat, Golbat, and Crobat on your Bench.",
+				'de-de': "Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Zubat, Golbat bzw. Iksbat, das auf deiner Bank ist, zu."
 			},
 			damage: "30+",
 

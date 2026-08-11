@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルナアーラGX",
+		'ja-jp': "ルナアーラGX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "サイコトランス" },
 			effect: {
-				ja: "自分の番に何回でも使える。自分の場のポケモンについている[超]エネルギーを1個、自分の別のポケモンにつけ替える。",
+				'ja-jp': "自分の番に何回でも使える。自分の場のポケモンについている[超]エネルギーを1個、自分の別のポケモンにつけ替える。",
 			},
 		},
 	],
@@ -30,14 +30,14 @@ const card: Card = {
 			damage: 120,
 			cost: ["Psychic", "Psychic", "Psychic", "Psychic"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンのHPは、回復しない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンのHPは、回復しない。",
 			},
 		},
 		{
 			name: { ja: "ルナフォールGX" },
 			cost: ["Psychic", "Psychic", "Psychic"],
 			effect: {
-				ja: "相手のたねポケモン（「ポケモンGX」をのぞく）を1匹、きぜつさせる。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のたねポケモン（「ポケモンGX」をのぞく）を1匹、きぜつさせる。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コスモウム",
+		'ja-jp': "コスモウム",
 	},
 
 	retreat: 2,

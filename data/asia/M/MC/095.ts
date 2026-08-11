@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグマッグ",
+		'ja-jp': "マグマッグ",
 	},
 
 	illustrator: "Gapao",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "火山が 活発だった 太古の 世界では 今よりも たくさんの マグマッグが 暮らしていたという。",
+		'ja-jp': "火山が 活発だった 太古の 世界では 今よりも たくさんの マグマッグが 暮らしていたという。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 	],

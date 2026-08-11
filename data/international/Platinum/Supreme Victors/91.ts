@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Bidoof",
-		fr: "Keunotor",
-		de: "Biditza"
+		'en-us': "Bidoof",
+		'fr-fr': "Keunotor",
+		'de-de': "Biditza"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whimsy Tackle",
-				fr: "Charge capricieuse",
-				de: "Launischer Tackle"
+				'en-us': "Whimsy Tackle",
+				'fr-fr': "Charge capricieuse",
+				'de-de': "Launischer Tackle"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -52,7 +52,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A comparison revealed that Bidoof's front teeth grow at the same rate as Rattata's."
+		'en-us': "A comparison revealed that Bidoof's front teeth grow at the same rate as Rattata's."
 	},
 
 	variants: [

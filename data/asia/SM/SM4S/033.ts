@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コドラ",
+		'ja-jp': "コドラ",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "鉄鉱石が 大好物。 鋼の 体を ぶつけ合って 縄張り 争いを する。",
+		'ja-jp': "鉄鉱石が 大好物。 鋼の 体を ぶつけ合って 縄張り 争いを する。",
 	},
 
 	stage: "Stage1",
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ココドラ",
+		'ja-jp': "ココドラ",
 	},
 
 	retreat: 3,

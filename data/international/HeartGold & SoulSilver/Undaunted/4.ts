@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Gliscor",
-		fr: "Scorvol",
-		de: "Skorgro"
+		'en-us': "Gliscor",
+		'fr-fr': "Scorvol",
+		'de-de': "Skorgro"
 	},
 
 	illustrator: "Naoki Saito",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gligar",
-		fr: "Scorplane"
+		'en-us': "Gligar",
+		'fr-fr': "Scorplane"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Ninja Fang",
-				fr: "Croc Ninja",
-				de: "Ninjafänge"
+				'en-us': "Ninja Fang",
+				'fr-fr': "Croc Ninja",
+				'de-de': "Ninjafänge"
 			},
 			effect: {
-				en: "If, before Gliscor does damage, the Defending Pokémon has no damage counters on it and is then damaged by this attack (after applying Weakness and Resistance), the Defending Pokémon is now Paralyzed.",
-				fr: "Si, avant que Scorvol n’inflige de dégâts, le Pokémon Défenseur n’a aucun marqueur de dégât et qu’il subit ensuite des dégâts à cause de cette attaque (après application de la Faiblesse et de la Résistance), il est maintenant Paralysé.",
-				de: "Falls auf dem Verteidigendem Pokémon vor durch Skorgro zugefügtem Schaden keine Schadensmarken liegen, und ihm durch diesen Angriff Schaden zugefügt wird (nachdem Schwäche und Resistenz verrechnet wurden), ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "If, before Gliscor does damage, the Defending Pokémon has no damage counters on it and is then damaged by this attack (after applying Weakness and Resistance), the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Si, avant que Scorvol n’inflige de dégâts, le Pokémon Défenseur n’a aucun marqueur de dégât et qu’il subit ensuite des dégâts à cause de cette attaque (après application de la Faiblesse et de la Résistance), il est maintenant Paralysé.",
+				'de-de': "Falls auf dem Verteidigendem Pokémon vor durch Skorgro zugefügtem Schaden keine Schadensmarken liegen, und ihm durch diesen Angriff Schaden zugefügt wird (nachdem Schwäche und Resistenz verrechnet wurden), ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Jab",
-				fr: "Direct Toxik",
-				de: "Gifthieb"
+				'en-us': "Poison Jab",
+				'fr-fr': "Direct Toxik",
+				'de-de': "Gifthieb"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 50,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its flight is soundless. It uses its lengthy tail to carry off its prey… Then its elongated fangs do the rest."
+		'en-us': "Its flight is soundless. It uses its lengthy tail to carry off its prey… Then its elongated fangs do the rest."
 	},
 
 	variants: [

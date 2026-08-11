@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Swablu δ",
-		fr: "Tylton δ",
-		de: "Wablu"
+		'en-us': "Swablu δ",
+		'fr-fr': "Tylton δ",
+		'de-de': "Wablu"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Splash About",
-				fr: "Grosse trempette",
-				de: "Herumspritzen"
+				'en-us': "Splash About",
+				'fr-fr': "Grosse trempette",
+				'de-de': "Herumspritzen"
 			},
 			effect: {
-				en: "If Swablu has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage.",
-				fr: "Si Tylton possède moins d'Énergies que le Pokémon Défenseur, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wenn an das Verteidigende Pokémon mehr Energie angelegt ist als an Wablu, fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				'en-us': "If Swablu has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage.",
+				'fr-fr': "Si Tylton possède moins d'Énergies que le Pokémon Défenseur, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Wenn an das Verteidigende Pokémon mehr Energie angelegt ist als an Wablu, fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 

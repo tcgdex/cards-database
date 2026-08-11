@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ギアル",
+		'ja-jp': "ギアル",
 	},
 
 	illustrator: "Amelicart",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "２つの 体は 組み合わせが 決まっている。 別の 体とは かみ合わずに 離れてしまう。",
+		'ja-jp': "２つの 体は 組み合わせが 決まっている。 別の 体とは かみ合わずに 離れてしまう。",
 	},
 
 	stage: "Basic",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Metal"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-10」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-10」される。",
 			},
 		},
 	],

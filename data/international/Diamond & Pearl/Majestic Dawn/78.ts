@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Turtwig",
-		fr: "Tortipouss",
-		de: "Chelast"
+		'en-us': "Turtwig",
+		'fr-fr': "Tortipouss",
+		'de-de': "Chelast"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -27,12 +27,12 @@ const card: Card = {
 
 	item: {
 		name: {
-			fr: "Baie Kika",
-			de: 'Persimbeere'
+			'fr-fr': "Baie Kika",
+			'de-de': 'Persimbeere'
 		},
 		effect: {
-			fr: "Si Tortipouss est Confus, retirez-lui l'État Spécial Confus à la fin du tour de chaque joueur.",
-			de: 'Wenn Chelast verwirrt ist, entferne am Ende jedes Zuges den Speziellen Zustand \'verwirrt\' von Chelast.'
+			'fr-fr': "Si Tortipouss est Confus, retirez-lui l'État Spécial Confus à la fin du tour de chaque joueur.",
+			'de-de': 'Wenn Chelast verwirrt ist, entferne am Ende jedes Zuges den Speziellen Zustand \'verwirrt\' von Chelast.'
 		}
 	},
 
@@ -43,9 +43,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: 'Biss'
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': 'Biss'
 			},
 			damage: 30,
 

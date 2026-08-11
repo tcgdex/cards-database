@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Minun",
-		fr: "Negapi",
-		de: "Minun"
+		'en-us': "Minun",
+		'fr-fr': "Negapi",
+		'de-de': "Minun"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la famille",
-				de: "Familienruf"
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la famille",
+				'de-de': "Familienruf"
 			},
 			effect: {
-				en: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez jusqu’à 2 cartes Pokémon de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
-				de: "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
+				'en-us': "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez jusqu’à 2 cartes Pokémon de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				'de-de': "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Tag Team Boost",
-				fr: "Boost de groupe",
-				de: "Tag-Team-Aufladung"
+				'en-us': "Tag Team Boost",
+				'fr-fr': "Boost de groupe",
+				'de-de': "Tag-Team-Aufladung"
 			},
 			effect: {
-				en: "If Plusle is on your Bench, this attack does 10 damage plus 20 more damage.",
-				fr: "Si Posipi se trouve sur votre Banc, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wenn sich Plusle auf deiner Bank befindet fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "If Plusle is on your Bench, this attack does 10 damage plus 20 more damage.",
+				'fr-fr': "Si Posipi se trouve sur votre Banc, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wenn sich Plusle auf deiner Bank befindet fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Exposure to electricity from Minun and Plusle promotes blood circulation and relaxes muscles."
+		'en-us': "Exposure to electricity from Minun and Plusle promotes blood circulation and relaxes muscles."
 	},
 
 	variants: [

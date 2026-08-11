@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トルコール",
+		'ja-jp': "トルコール",
 	},
 
 	rarity: "Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "助けを求めて泣きます",
+				'ja-jp': "助けを求めて泣きます",
 			},
 			effect: {
-				ja: "デッキを検索して、ファイアポケモン（ポケモンエクスを除く）を検索し、対戦相手に見せて、手に入れてください。その後、デッキをシャッフルします。",
+				'ja-jp': "デッキを検索して、ファイアポケモン（ポケモンエクスを除く）を検索し、対戦相手に見せて、手に入れてください。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Fire", "Colorless"],
 			name: {
-				ja: "花火",
+				'ja-jp': "花火",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、トルコールに取り付けられた火エネルギーを捨ててください。",
+				'ja-jp': "コインをひっくり返します。尾の場合、トルコールに取り付けられた火エネルギーを捨ててください。",
 			},
 			damage: 30,
 		},

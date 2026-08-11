@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハラバリー",
+		'ja-jp': "ハラバリー",
 		'zh-tw': "比克提尼ex",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "ブヨンブヨンの 体を 伸び縮み させると お腹の へそダイナモが 大電力を 発生させる。",
+		'ja-jp': "ブヨンブヨンの 体を 伸び縮み させると お腹の へそダイナモが 大電力を 発生させる。",
 	},
 
 	stage: "Stage1",
@@ -22,24 +22,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "でんじは",
+				'ja-jp': "でんじは",
 				'zh-tw': "狡兔三窟",
 			},
 			cost: ["Lightning"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 				'zh-tw': "若希望，將這隻寶可夢與備戰寶可夢互換。",
 			},
 		},
 		{
 			name: {
-				ja: "ふたこぶボルト",
+				'ja-jp': "ふたこぶボルト",
 				'zh-tw': "勝利火焰",
 			},
 			damage: "10+",
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "のぞむなら、このポケモンについている[L]エネルギーを2枚までトラッシュし、その枚数×80ダメージ追加。",
+				'ja-jp': "のぞむなら、このポケモンについている[L]エネルギーを2枚までトラッシュし、その枚数×80ダメージ追加。",
 				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
 			},
 		},
@@ -59,7 +59,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ズピカ",
+		'ja-jp': "ズピカ",
 	},
 
 	retreat: 3,

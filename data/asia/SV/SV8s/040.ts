@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Milotic ex",
-		th: "มิโลคารอสex"
+		'id-id': "Milotic ex",
+		'th-th': "มิโลคารอสex"
 	},
 
 	illustrator: "hncl",
@@ -20,25 +20,25 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Sisik Gemerlap",
-			th: "เกล็ดส่องประกาย"
+			'id-id': "Sisik Gemerlap",
+			'th-th': "เกล็ดส่องประกาย"
 		},
 
 		effect: {
-			id: "Pokémon ini tidak menerima kerusakan dan efek akibat serangan dari Pokémon Terastal lawan.",
-			th: "โปเกมอนนี้ จะไม่ได้รับแดเมจและเอฟเฟกต์ของท่าต่อสู้จากโปเกมอน [เทรัสตัล] ฝ่ายตรงข้าม"
+			'id-id': "Pokémon ini tidak menerima kerusakan dan efek akibat serangan dari Pokémon Terastal lawan.",
+			'th-th': "โปเกมอนนี้ จะไม่ได้รับแดเมจและเอฟเฟกต์ของท่าต่อสู้จากโปเกมอน [เทรัสตัล] ฝ่ายตรงข้าม"
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Hypnosplash",
-			th: "ฮิปโนสแปลช"
+			'id-id': "Hypnosplash",
+			'th-th': "ฮิปโนสแปลช"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur.",
-			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[หลับ]"
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur.",
+			'th-th': "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[หลับ]"
 		},
 
 		damage: 160,

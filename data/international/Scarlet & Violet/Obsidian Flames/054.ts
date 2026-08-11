@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Polagriffe",
-		en: "Beartic",
-		es: "Beartic",
-		it: "Beartic",
-		pt: "Beartic",
-		de: "Siberio"
+		'fr-fr': "Polagriffe",
+		'en-us': "Beartic",
+		'es-es': "Beartic",
+		'it-it': "Beartic",
+		'pt-br': "Beartic",
+		'de-de': "Siberio"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 150,
 	types: ["Water"],
 	evolveFrom: {
-		fr: "Polarhume",
-		en: "Cubchoo",
-		es: "Cubchoo",
-		it: "Cubchoo",
-		pt: "Cubchoo",
-		de: "Petznief"
+		'fr-fr': "Polarhume",
+		'en-us': "Cubchoo",
+		'es-es': "Cubchoo",
+		'it-it': "Cubchoo",
+		'pt-br': "Cubchoo",
+		'de-de': "Petznief"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			fr: "Poing Stalactite",
-			en: "Icicle Punch",
-			es: "Puñetazo Gélido",
-			it: "Freddopugno",
-			pt: "Soco de Icelo",
-			de: "Eiswatsche"
+			'fr-fr': "Poing Stalactite",
+			'en-us': "Icicle Punch",
+			'es-es': "Puñetazo Gélido",
+			'it-it': "Freddopugno",
+			'pt-br': "Soco de Icelo",
+			'de-de': "Eiswatsche"
 		},
 
 		damage: 30
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			fr: "Nettoyage Givré",
-			en: "Frost Purge",
-			es: "Purga Helada",
-			it: "Gelorimozione",
-			pt: "Expurgação Congelada",
-			de: "Eislöschung"
+			'fr-fr': "Nettoyage Givré",
+			'en-us': "Frost Purge",
+			'es-es': "Purga Helada",
+			'it-it': "Gelorimozione",
+			'pt-br': "Expurgação Congelada",
+			'de-de': "Eislöschung"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c'est pile, défaussez toutes les Énergies de ce Pokémon.",
-			en: "Flip a coin. If tails, discard all Energy from this Pokémon.",
-			es: "Lanza 1 moneda. Si sale cruz, descarta todas las Energías de este Pokémon.",
-			it: "Lancia una moneta. Se esce croce, scarta tutte le Energie da questo Pokémon.",
-			pt: "Jogue uma moeda. Se sair coroa, descarte todas as Energias deste Pokémon.",
-			de: "Wirf 1 Münze. Lege bei Zahl alle Energien von diesem Pokémon auf deinen Ablagestapel."
+			'fr-fr': "Lancez une pièce. Si c'est pile, défaussez toutes les Énergies de ce Pokémon.",
+			'en-us': "Flip a coin. If tails, discard all Energy from this Pokémon.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, descarta todas las Energías de este Pokémon.",
+			'it-it': "Lancia una moneta. Se esce croce, scarta tutte le Energie da questo Pokémon.",
+			'pt-br': "Jogue uma moeda. Se sair coroa, descarte todas as Energias deste Pokémon.",
+			'de-de': "Wirf 1 Münze. Lege bei Zahl alle Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 170
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It is a ferocious, carnivorous Pokémon. Once it captures its prey, it will breathe cold air onto the prey to freeze and preserve it.",
+		'en-us': "It is a ferocious, carnivorous Pokémon. Once it captures its prey, it will breathe cold air onto the prey to freeze and preserve it.",
 	},
 
 	variants: [

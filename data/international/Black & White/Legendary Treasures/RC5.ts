@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Torchic",
+		'en-us': "Torchic",
 	},
 
 	illustrator: "Kanako Eo",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Peck",
+				'en-us': "Peck",
 			},
 
 			damage: 10,
@@ -41,7 +41,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Live Coal",
+				'en-us': "Live Coal",
 			},
 
 			damage: 20,
@@ -59,7 +59,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees F.",
+		'en-us': "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees F.",
 	},
 
 	thirdParty: {

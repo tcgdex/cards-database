@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../DP Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Electro Recycle",
-				fr: "Électro-recyclage",
-				de: "Elektro-Recycling"
+				'en-us': "Electro Recycle",
+				'fr-fr': "Électro-recyclage",
+				'de-de': "Elektro-Recycling"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Pichu is anywhere under Pikachu, you may search your discard pile for a Lightning Energy card, show it to your opponent, and put it into your hand. This power can't be used if Pikachu is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), si Pichu se trouve sous Pikachu, vous pouvez chercher une carte Énergie Lightning dans votre pile de défausse. Montrez-la à votre adversaire et placez-la dans votre main. Ce pouvoir ne peut pas être utilisé ne peut pas être utilisé si Pikachu est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Pichu sich an beliebiger Stelle unter Pikachu befindet, deinen Ablagestapel nach einer -Energiekarte durchsuchen. Zeige sie deinem Gegner und nimm sie auf die Hand. Diese Poké-Power kann nicht benutzt werden, wenn Pikachu von einem Speziellen Zustand betroffen ist."
+				'en-us': "Once during your turn (before your attack), if Pichu is anywhere under Pikachu, you may search your discard pile for a Lightning Energy card, show it to your opponent, and put it into your hand. This power can't be used if Pikachu is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), si Pichu se trouve sous Pikachu, vous pouvez chercher une carte Énergie Lightning dans votre pile de défausse. Montrez-la à votre adversaire et placez-la dans votre main. Ce pouvoir ne peut pas être utilisé ne peut pas être utilisé si Pikachu est affecté par un État Spécial.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Pichu sich an beliebiger Stelle unter Pikachu befindet, deinen Ablagestapel nach einer -Energiekarte durchsuchen. Zeige sie deinem Gegner und nimm sie auf die Hand. Diese Poké-Power kann nicht benutzt werden, wenn Pikachu von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "BikaBika",
-				fr: "BikeBika",
-				de: "PikaPika"
+				'en-us': "BikaBika",
+				'fr-fr': "BikeBika",
+				'de-de': "PikaPika"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -79,8 +79,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It lives in forests with others. It stores electricity in the pouches on its cheeks.",
-		fr: "Il vit en forêt avec ses pairs. Il accumule l'électricité dans les poches de ses joues."
+		'en-us': "It lives in forests with others. It stores electricity in the pouches on its cheeks.",
+		'fr-fr': "Il vit en forêt avec ses pairs. Il accumule l'électricité dans les poches de ses joues."
 	},
 
 	variants: [

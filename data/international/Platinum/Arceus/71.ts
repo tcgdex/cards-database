@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	illustrator: "sui",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Pika Ball",
-				de: "Pikaball"
+				'en-us': "Pika Ball",
+				'de-de': "Pikaball"
 			},
 
 			damage: 10,
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Shot",
-				de: "Megaschuss"
+				'en-us': "Mega Shot",
+				'de-de': "Megaschuss"
 			},
 			effect: {
-				en: "Discard all Lightning Energy attached to Pikachu and then choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				de: "Entferne alle -Energien von Pikachu und lege sie auf deinen Ablagestapel; wähle danach 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Discard all Lightning Energy attached to Pikachu and then choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'de-de': "Entferne alle -Energien von Pikachu und lege sie auf deinen Ablagestapel; wähle danach 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state."
+		'en-us': "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state."
 	},
 
 	variants: [

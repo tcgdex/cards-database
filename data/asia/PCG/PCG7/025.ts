@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG7"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "暗がり（デルタ種）",
+		'ja-jp': "暗がり（デルタ種）",
 	},
 
 	rarity: "Uncommon",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "よだれ",
+				'ja-jp': "よだれ",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "酸",
+				'ja-jp': "酸",
 			},
 			effect: {
-				ja: "防御するポケモンは、相手の次のターン中に退却することはできません。",
+				'ja-jp': "防御するポケモンは、相手の次のターン中に退却することはできません。",
 			},
 			damage: 30,
 		},

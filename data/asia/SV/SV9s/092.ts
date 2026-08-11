@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โมรุเปโกะ <ของแมรี>",
-		id: "Morpeko <Marnie>"
+		'th-th': "โมรุเปโกะ <ของแมรี>",
+		'id-id': "Morpeko <Marnie>"
 	},
 
 	illustrator: "Mina Nakai",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		th: "จะกินเมล็ดพืชอยู่เสมอเพื่อคลายหิว หากท้องว่างจนเกินไป จิตใจจะ ปั่นป่วนจนก้าวร้าวขึ้น",
-		id: "Ia selalu memakan biji-bijian untuk menahan rasa lapar, tetapi jika terlalu lapar ia akan menjadi frustrasi dan brutal."
+		'th-th': "จะกินเมล็ดพืชอยู่เสมอเพื่อคลายหิว หากท้องว่างจนเกินไป จิตใจจะ ปั่นป่วนจนก้าวร้าวขึ้น",
+		'id-id': "Ia selalu memakan biji-bijian untuk menahan rasa lapar, tetapi jika terlalu lapar ia akan menjadi frustrasi dan brutal."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "สไปก์วีล",
-			id: "Spike Wheel"
+			'th-th': "สไปก์วีล",
+			'id-id': "Spike Wheel"
 		},
 
 		effect: {
-			th: "แดเมจจะเพิ่มตามจำนวนพลังงาน[ความมืด]ที่ติดอยู่กับโปเกมอนนี้ x40",
-			id: "Kerusakan yang diberikan bertambah sejumlah 40 untuk tiap Energi {Kegelapan} yang dikenakan pada Pokémon ini."
+			'th-th': "แดเมจจะเพิ่มตามจำนวนพลังงาน[ความมืด]ที่ติดอยู่กับโปเกมอนนี้ x40",
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 40 untuk tiap Energi {Kegelapan} yang dikenakan pada Pokémon ini."
 		},
 
 		damage: "20+",

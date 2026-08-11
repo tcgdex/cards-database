@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エースバーン",
+		'ja-jp': "エースバーン",
 		'zh-tw': "閃焰王牌",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "攻守に 優れ 応援されると さらに 燃えるが スタンドプレイに 走り ピンチを 招くこともある。",
+		'ja-jp': "攻守に 優れ 応援されると さらに 燃えるが スタンドプレイに 走り ピンチを 招くこともある。",
 		'zh-tw': "擁有熟練的進攻和防守技巧。只要得到聲援就會更有衝勁，但有時會為了出風頭而弄巧成拙。",
 	},
 
@@ -25,7 +25,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かじばのパワー" },
 			effect: {
-				ja: "このポケモンが使うワザの、相手のバトルポケモンへのダメージは、相手がすでにとったサイド1枚につき「+30」される。",
+				'ja-jp': "このポケモンが使うワザの、相手のバトルポケモンへのダメージは、相手がすでにとったサイド1枚につき「+30」される。",
 			},
 		},
 	],
@@ -33,13 +33,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ひのたまシュート",
+				'ja-jp': "ひのたまシュート",
 				'zh-tw': "濁霧",
 			},
 			damage: 150,
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 				'zh-tw': "將對手的戰鬥寶可夢【中毒】。",
 			},
 		},
@@ -59,7 +59,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ラビフット",
+		'ja-jp': "ラビフット",
 	},
 
 	retreat: 1,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Hoppip",
-		fr: "Granivol",
-		es: "Hoppip",
-		it: "Hoppip",
-		pt: "Hoppip",
-		de: "Hoppspross"
+		'en-us': "Hoppip",
+		'fr-fr': "Granivol",
+		'es-es': "Hoppip",
+		'it-it': "Hoppip",
+		'pt-br': "Hoppip",
+		'de-de': "Hoppspross"
 	},
 
 	illustrator: "kawayoo",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.",
+		'en-us': "It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Meowth",
-		fr: "Miaouss",
-		de: "Mauzi"
+		'en-us': "Meowth",
+		'fr-fr': "Miaouss",
+		'de-de': "Mauzi"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pay Day",
-				fr: "Jackpot",
-				de: "Zahltag"
+				'en-us': "Pay Day",
+				'fr-fr': "Jackpot",
+				'de-de': "Zahltag"
 			},
 			effect: {
-				en: "Flip a coin. If heads, draw a card.",
-				fr: "Lancez une pièce. Si c'est face, piochez une carte.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ziehe 1 Karte."
+				'en-us': "Flip a coin. If heads, draw a card.",
+				'fr-fr': "Lancez une pièce. Si c'est face, piochez une carte.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ziehe 1 Karte."
 			},
 			damage: 10,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Swipes",
-				fr: "Combo-griffe",
-				de: "Kratzfurie"
+				'en-us': "Fury Swipes",
+				'fr-fr': "Combo-griffe",
+				'de-de': "Kratzfurie"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 3 Münzen.Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 3 Münzen.Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "10x",
 
@@ -73,8 +73,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.",
-		fr: "Son regard s'anime à la vue d'un objet brillant. C'est un Pokémon nocturne."
+		'en-us': "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.",
+		'fr-fr': "Son regard s'anime à la vue d'un objet brillant. C'est un Pokémon nocturne."
 	},
 
 	thirdParty: {

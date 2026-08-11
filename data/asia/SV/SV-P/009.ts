@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モトトカゲex",
+		'ja-jp': "モトトカゲex",
 		'zh-tw': "超能豔鴕",
 	},
 
@@ -18,25 +18,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "パワーラン",
+				'ja-jp': "パワーラン",
 				'zh-tw': "極光增輝",
 			},
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から基本エネルギーを1枚選び、このポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から基本エネルギーを1枚選び、このポケモンにつける。そして山札を切る。",
 				'zh-tw': "將這隻寶可夢恢復「30」HP。",
 			},
 		},
 		{
 			name: {
-				ja: "フルスロットル",
+				'ja-jp': "フルスロットル",
 				'zh-tw': "超念力",
 			},
 			damage: 180,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],

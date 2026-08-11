@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Rapidash",
-		fr: "Galopa",
-		de: "Gallopa"
+		'en-us': "Rapidash",
+		'fr-fr': "Galopa",
+		'de-de': "Gallopa"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ponyta",
-		fr: "Ponyta"
+		'en-us': "Ponyta",
+		'fr-fr': "Ponyta"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Fiery Spirit",
-				fr: "Esprit flamboyant",
-				de: "Flammengeist"
+				'en-us': "Fiery Spirit",
+				'fr-fr': "Esprit flamboyant",
+				'de-de': "Flammengeist"
 			},
 			effect: {
-				en: "Rapidash can't be Confused.",
-				fr: "Galopa ne peut pas être Confus.",
-				de: "Gallopa kann nicht verwirrt werden."
+				'en-us': "Rapidash can't be Confused.",
+				'fr-fr': "Galopa ne peut pas être Confus.",
+				'de-de': "Gallopa kann nicht verwirrt werden."
 			}
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ring of Fire",
-				fr: "Anneau de feu",
-				de: "Feuerring"
+				'en-us': "Ring of Fire",
+				'fr-fr': "Anneau de feu",
+				'de-de': "Feuerring"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned and can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé et ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
-				de: "Das Verteidigende Pokémon ist jetzt verbrannt und kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon is now Burned and can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé et ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verbrannt und kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 50,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "At full gallop, its four hooves barely touch the ground because it moves so incredibly fast."
+		'en-us': "At full gallop, its four hooves barely touch the ground because it moves so incredibly fast."
 	},
 
 	variants: [		{

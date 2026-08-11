@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Dragonair δ",
-		fr: "Draco δ",
-		de: "Dragonir"
+		'en-us': "Dragonair δ",
+		'fr-fr': "Draco δ",
+		'de-de': "Dragonir"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dratini",
-		fr: "Minidraco"
+		'en-us': "Dratini",
+		'fr-fr': "Minidraco"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wrap",
-				fr: "Ligotage",
-				de: "Wickel"
+				'en-us': "Wrap",
+				'fr-fr': "Ligotage",
+				'de-de': "Wickel"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -54,9 +54,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Attack",
-				fr: "Koud'korne",
-				de: "Hornattacke"
+				'en-us': "Horn Attack",
+				'fr-fr': "Koud'korne",
+				'de-de': "Hornattacke"
 			},
 
 			damage: 40,

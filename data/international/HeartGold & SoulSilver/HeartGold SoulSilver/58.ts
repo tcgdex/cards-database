@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Chansey",
-		fr: "Leveinard",
-		de: "Chaneira"
+		'en-us': "Chansey",
+		'fr-fr': "Leveinard",
+		'de-de': "Chaneira"
 	},
 
 	illustrator: "Kanako Eo",
@@ -30,9 +30,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras’face",
-				de: "Pfund"
+				'en-us': "Pound",
+				'fr-fr': "Écras’face",
+				'de-de': "Pfund"
 			},
 
 			damage: 20,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Happy Punch",
-				fr: "Coup d’joie",
-				de: "Freudenschlag"
+				'en-us': "Happy Punch",
+				'fr-fr': "Coup d’joie",
+				'de-de': "Freudenschlag"
 			},
 			effect: {
-				en: "Flip a coin. If heads, remove 3 damage counters from Chansey.",
-				fr: "Lancez une pièce. Si c’est face, retirez 3 marqueurs de dégâts de Leveinard.",
-				de: "Wirf eine Münze. Entferne bei \"Kopf\" 3 Schadensmarken von Chaneira."
+				'en-us': "Flip a coin. If heads, remove 3 damage counters from Chansey.",
+				'fr-fr': "Lancez une pièce. Si c’est face, retirez 3 marqueurs de dégâts de Leveinard.",
+				'de-de': "Wirf eine Münze. Entferne bei \"Kopf\" 3 Schadensmarken von Chaneira."
 			},
 			damage: 30,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It walks carefully to prevent its egg from breaking. However, it is extremely fast at running away."
+		'en-us': "It walks carefully to prevent its egg from breaking. However, it is extremely fast at running away."
 	},
 
 	variants: [

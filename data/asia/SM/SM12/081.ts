@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリキテル",
+		'ja-jp': "エリキテル",
 	},
 
 	illustrator: "Sekio",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "砂漠で 生活する。 太陽の 光を 浴びて 発電すれば エサを 食べなくても 平気なのだ。",
+		'ja-jp': "砂漠で 生活する。 太陽の 光を 浴びて 発電すれば エサを 食べなくても 平気なのだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "しっぽをふる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、次の相手の番、このワザを受けたポケモンは、ワザが使えない。",
+				'ja-jp': "コインを1回投げオモテなら、次の相手の番、このワザを受けたポケモンは、ワザが使えない。",
 			},
 		},
 		{

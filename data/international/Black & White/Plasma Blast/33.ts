@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Eelektross",
-		fr: "Ohmassacre",
-		es: "Eelektross",
-		it: "Eelektross",
-		pt: "Eelektross",
-		de: "Zapplarang"
+		'en-us': "Eelektross",
+		'fr-fr': "Ohmassacre",
+		'es-es': "Eelektross",
+		'it-it': "Eelektross",
+		'pt-br': "Eelektross",
+		'de-de': "Zapplarang"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eelektrik",
-		fr: "Lampéroie",
+		'en-us': "Eelektrik",
+		'fr-fr': "Lampéroie",
 	},
 
 	stage: "Stage2",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crush and Burn",
-				fr: "Écra-Brûle",
+				'en-us': "Crush and Burn",
+				'fr-fr': "Écra-Brûle",
 			},
 			effect: {
-				en: "Discard as many Energy attached to your Pokémon as you like. This attack does 30 damage times the number of Energy cards you discarded.",
-				fr: "Défaussez autant d'Énergies attachées à vos Pokémon que vous voulez. Cette attaque inflige 30 dégâts multipliés par le nombre de cartes Énergie que vous avez défaussées.",
+				'en-us': "Discard as many Energy attached to your Pokémon as you like. This attack does 30 damage times the number of Energy cards you discarded.",
+				'fr-fr': "Défaussez autant d'Énergies attachées à vos Pokémon que vous voulez. Cette attaque inflige 30 dégâts multipliés par le nombre de cartes Énergie que vous avez défaussées.",
 			},
 			damage: 30,
 
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Tempest",
-				fr: "Tempête Foudre",
+				'en-us': "Thunder Tempest",
+				'fr-fr': "Tempête Foudre",
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 50 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 4 coins. This attack does 50 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 50,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It latches on to prey with its sucker mouth, sinking in its fangs and shocking the prey with powerful electricity.",
+		'en-us': "It latches on to prey with its sucker mouth, sinking in its fangs and shocking the prey with powerful electricity.",
 	},
 
 	thirdParty: {

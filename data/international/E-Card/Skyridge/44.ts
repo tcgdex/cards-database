@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Starmie",
-		de: "Starmie"
+		'en-us': "Starmie",
+		'de-de': "Starmie"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Staryu",
+		'en-us': "Staryu",
 	},
 
 	stage: "Stage1",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Gun",
-				de: "Aquaknarre"
+				'en-us': "Water Gun",
+				'de-de': "Aquaknarre"
 			},
 			effect: {
-				en: "This attack does 10 damage plus 20 more damage for each Water Energy attached to Starmie but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way.",
-				de: "Fügt 10 Schadenspunkte plus 20 weitere Schadenspunkte für jede an Starmie angelegte -Energie, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wird, zu. Du kannst auf diese Weise mehr als 40 Schadenspunkte zufügen."
+				'en-us': "This attack does 10 damage plus 20 more damage for each Water Energy attached to Starmie but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way.",
+				'de-de': "Fügt 10 Schadenspunkte plus 20 weitere Schadenspunkte für jede an Starmie angelegte -Energie, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wird, zu. Du kannst auf diese Weise mehr als 40 Schadenspunkte zufügen."
 			},
 			damage: "10+",
 
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Core Blast",
-				de: "Kernexplosion"
+				'en-us': "Core Blast",
+				'de-de': "Kernexplosion"
 			},
 			effect: {
-				en: "This attack does 30 damage plus 20 more damage for each Special Energy card attached to the Defending Pokémon.",
-				de: "Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jede an das verteidigende Pokémon angelegte Spezial-Energiekarte zu."
+				'en-us': "This attack does 30 damage plus 20 more damage for each Special Energy card attached to the Defending Pokémon.",
+				'de-de': "Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jede an das verteidigende Pokémon angelegte Spezial-Energiekarte zu."
 			},
 			damage: "30+",
 

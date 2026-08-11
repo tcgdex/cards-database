@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โยคุบะริสึex",
-		id: "Greedent ex"
+		'th-th': "โยคุบะริสึex",
+		'id-id': "Greedent ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -18,25 +18,25 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			th: "โลภเหลือเกิน",
-			id: "Super Rakus"
+			'th-th': "โลภเหลือเกิน",
+			'id-id': "Super Rakus"
 		},
 
 		effect: {
-			th: "ดูการ์ด 3 ใบจากด้านบนของสำรับการ์ดฝ่ายเรา นำการ์ดนั้นขึ้นมือ หรือทิ้งการ์ดนั้นที่ตำแหน่งทิ้งการ์ด และจั่วการ์ด 3 ใบจากสำรับการ์ดฝ่ายเรา",
-			id: "Lihat 3 kartu dari atas Deck sendiri. Tambahkan kartu tersebut ke Kartu Pegangan atau buang kartu tersebut ke Trash dan ambil 3 kartu dari atas Deck sendiri."
+			'th-th': "ดูการ์ด 3 ใบจากด้านบนของสำรับการ์ดฝ่ายเรา นำการ์ดนั้นขึ้นมือ หรือทิ้งการ์ดนั้นที่ตำแหน่งทิ้งการ์ด และจั่วการ์ด 3 ใบจากสำรับการ์ดฝ่ายเรา",
+			'id-id': "Lihat 3 kartu dari atas Deck sendiri. Tambahkan kartu tersebut ke Kartu Pegangan atau buang kartu tersebut ke Trash dan ambil 3 kartu dari atas Deck sendiri."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "กลิ้งโค่โล่",
-			id: "Gelinding Tergelincir"
+			'th-th': "กลิ้งโค่โล่",
+			'id-id': "Gelinding Tergelincir"
 		},
 
 		effect: {
-			th: "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ [กลิ้งโค่โล่] ไม่ได้",
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan Gelinding Tergelincir."
+			'th-th': "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ [กลิ้งโค่โล่] ไม่ได้",
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan Gelinding Tergelincir."
 		},
 
 		damage: 210,

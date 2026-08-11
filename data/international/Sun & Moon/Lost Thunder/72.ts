@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Electivire",
-		fr: "Élekable",
-		es: "Electivire",
-		it: "Electivire",
-		pt: "Electivire",
-		de: "Elevoltek"
+		'en-us': "Electivire",
+		'fr-fr': "Élekable",
+		'es-es': "Electivire",
+		'it-it': "Electivire",
+		'pt-br': "Electivire",
+		'de-de': "Elevoltek"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Electabuzz",
-		fr: "Élektek",
+		'en-us': "Electabuzz",
+		'fr-fr': "Élektek",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electrocharge",
-				fr: "Électrocharge",
-				es: "Electrocarga",
-				it: "Carica Voltaica",
-				pt: "Eletrocarga",
-				de: "Elektroladung"
+				'en-us': "Electrocharge",
+				'fr-fr': "Électrocharge",
+				'es-es': "Electrocarga",
+				'it-it': "Carica Voltaica",
+				'pt-br': "Eletrocarga",
+				'de-de': "Elektroladung"
 			},
 			effect: {
-				en: "Search your deck for up to 2 Lightning Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
-				fr: "Cherchez jusqu’à 2 cartes Énergie Lightning dans votre deck et attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja hasta 2 cartas de Energía Lightning y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
-				it: "Cerca nel tuo mazzo fino a due carte Energia Lightning e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure por até 2 cartas de Energia Lightning no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 2 Lightning-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+				'en-us': "Search your deck for up to 2 Lightning Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
+				'fr-fr': "Cherchez jusqu’à 2 cartes Énergie Lightning dans votre deck et attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja hasta 2 cartas de Energía Lightning y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo fino a due carte Energia Lightning e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por até 2 cartas de Energia Lightning no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach bis zu 2 Lightning-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -64,20 +64,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "High-Voltage Knuckle",
-				fr: "Poing Haute Tension",
-				es: "Nudillo Alto Voltaje",
-				it: "Pugno Folgorante",
-				pt: "Punho de Alta Voltagem",
-				de: "Starkstromfaust"
+				'en-us': "High-Voltage Knuckle",
+				'fr-fr': "Poing Haute Tension",
+				'es-es': "Nudillo Alto Voltaje",
+				'it-it': "Pugno Folgorante",
+				'pt-br': "Punho de Alta Voltagem",
+				'de-de': "Starkstromfaust"
 			},
 			effect: {
-				en: "Discard 3 Energy from this Pokémon.",
-				fr: "Défaussez 3 Énergies de ce Pokémon.",
-				es: "Descarta 3 Energías de este Pokémon.",
-				it: "Scarta tre Energie assegnate a questo Pokémon.",
-				pt: "Descarte 3 Energias deste Pokémon.",
-				de: "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard 3 Energy from this Pokémon.",
+				'fr-fr': "Défaussez 3 Énergies de ce Pokémon.",
+				'es-es': "Descarta 3 Energías de este Pokémon.",
+				'it-it': "Scarta tre Energie assegnate a questo Pokémon.",
+				'pt-br': "Descarte 3 Energias deste Pokémon.",
+				'de-de': "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 190,
 
@@ -101,7 +101,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "When it gets excited, it thumps its chest. With every thud, thunder roars and electric sparks shower all around.",
+		'en-us': "When it gets excited, it thumps its chest. With every thud, thunder roars and electric sparks shower all around.",
 	},
 
 	thirdParty: {

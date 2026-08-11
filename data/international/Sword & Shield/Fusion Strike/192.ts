@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Copperajah",
-		fr: "Pachyradjah",
-		es: "Copperajah",
-		it: "Copperajah",
-		pt: "Copperajah",
-		de: "Patinaraja"
+		'en-us': "Copperajah",
+		'fr-fr': "Pachyradjah",
+		'es-es': "Copperajah",
+		'it-it': "Copperajah",
+		'pt-br': "Copperajah",
+		'de-de': "Patinaraja"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Cufant",
-		fr: "Charibari",
-		es: "Cufant",
-		it: "Cufant",
-		pt: "Cufant",
-		de: "Kupfanti"
+		'en-us': "Cufant",
+		'fr-fr': "Charibari",
+		'es-es': "Cufant",
+		'it-it': "Cufant",
+		'pt-br': "Cufant",
+		'de-de': "Kupfanti"
 	},
 
 	stage: "Stage1",
@@ -46,19 +46,19 @@ const card: Card = {
 	illustrator: "KEIICHIRO ITO",
 
 	description: {
-		en: "These Pokémon live in herds. Their trunks have incredible grip strength, strong enough to crush giant rocks into powder."
+		'en-us': "These Pokémon live in herds. Their trunks have incredible grip strength, strong enough to crush giant rocks into powder."
 	},
 
 	attacks: [{
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		name: {
-			en: "Strength",
-			fr: "Force",
-			de: "Stärke",
-			es: "Fuerza",
-			pt: "Força",
-			it: "Forza"
+			'en-us': "Strength",
+			'fr-fr': "Force",
+			'de-de': "Stärke",
+			'es-es': "Fuerza",
+			'pt-br': "Força",
+			'it-it': "Forza"
 		},
 
 		damage: 90
@@ -66,23 +66,23 @@ const card: Card = {
 		cost: ["Metal", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "High Horsepower",
-			fr: "Cavalerie Lourde",
-			de: "Pferdestärke",
-			es: "Fuerza Equina",
-			pt: "Potência Equina",
-			it: "Forza Equina"
+			'en-us': "High Horsepower",
+			'fr-fr': "Cavalerie Lourde",
+			'de-de': "Pferdestärke",
+			'es-es': "Fuerza Equina",
+			'pt-br': "Potência Equina",
+			'it-it': "Forza Equina"
 		},
 
 		damage: 160,
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso."
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso."
 		}
 	}],
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オニゴーリ",
+		'ja-jp': "オニゴーリ",
 	},
 
 	illustrator: "so-taro",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "登頂 間近に 雪山で 遭難した 登山家の 無念が 岩に 取りつき 生まれたと いう。",
+		'ja-jp': "登頂 間近に 雪山で 遭難した 登山家の 無念が 岩に 取りつき 生まれたと いう。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Water", "Water"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "70+",
 			cost: ["Water", "Water", "Water"],
 			effect: {
-				ja: "このポケモンにダメカンがのっているなら、80ダメージ追加。",
+				'ja-jp': "このポケモンにダメカンがのっているなら、80ダメージ追加。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ユキワラシ",
+		'ja-jp': "ユキワラシ",
 	},
 
 	retreat: 3,

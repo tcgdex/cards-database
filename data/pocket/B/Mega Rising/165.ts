@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Grimmsnarl"
+		'en-us': "Grimmsnarl"
 	},
 
 	illustrator: "DOM",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Morgrem"
+		'en-us': "Morgrem"
 	},
 
 	description: {
-		en: "It lives deep within the forest. Even after evolving\ninto this splendid form, it hasn't given up on its\npetty misdeeds and pranks."
+		'en-us': "It lives deep within the forest. Even after evolving\ninto this splendid form, it hasn't given up on its\npetty misdeeds and pranks."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Wrack Down"
+			'en-us': "Wrack Down"
 		},
 
 		damage: 100,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ソルガレオ",
+		'ja-jp': "ソルガレオ",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "ウルトラホールを 開いた 結果 異世界の エネルギーや 生命を この世界に 呼ぶことも あるのだ。",
+		'ja-jp': "ウルトラホールを 開いた 結果 異世界の エネルギーや 生命を この世界に 呼ぶことも あるのだ。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "にちりんのそうこう" },
 			effect: {
-				ja: "自分の場に「ルナアーラ」がいるなら、自分の場の「ソルガレオ」と「ルナアーラ」が、相手のポケモンから受けるワザのダメージは「-50」される。この効果は、この特性を持つポケモンが何匹いても、重ならない。",
+				'ja-jp': "自分の場に「ルナアーラ」がいるなら、自分の場の「ソルガレオ」と「ルナアーラ」が、相手のポケモンから受けるワザのダメージは「-50」される。この効果は、この特性を持つポケモンが何匹いても、重ならない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Metal", "Metal", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、2個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、2個トラッシュする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コスモウム",
+		'ja-jp': "コスモウム",
 	},
 
 	retreat: 3,

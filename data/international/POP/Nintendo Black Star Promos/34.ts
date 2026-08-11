@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Nintendo Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Typhlosion",
+		'en-us': "Typhlosion",
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -18,7 +18,7 @@ const card: Card = {
 		"Fire",
 	],
 	evolveFrom: {
-		en: "Quilava",
+		'en-us': "Quilava",
 	},
 	stage: "Stage2",
 
@@ -26,10 +26,10 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Burning Aura",
+				'en-us': "Burning Aura",
 			},
 			effect: {
-				en: "As long as Typhlosion is your Active Pokémon, put 1 damage counter on each Active Pokémon (both yours and your opponent's) between turns.",
+				'en-us': "As long as Typhlosion is your Active Pokémon, put 1 damage counter on each Active Pokémon (both yours and your opponent's) between turns.",
 			},
 		},
 	],
@@ -39,10 +39,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flickering Flames",
+				'en-us': "Flickering Flames",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
+				'en-us': "The Defending Pokémon is now Asleep.",
 			},
 			damage: 20,
 
@@ -54,10 +54,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rage",
+				'en-us': "Rage",
 			},
 			effect: {
-				en: "Does 50 damage plus 10 more damage for each damage counter on Typhlosion.",
+				'en-us': "Does 50 damage plus 10 more damage for each damage counter on Typhlosion.",
 			},
 			damage: 50,
 

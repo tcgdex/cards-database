@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เคโคโอ",
-		id: "Finneon"
+		'th-th': "เคโคโอ",
+		'id-id': "Finneon"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -15,16 +15,16 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		th: "ผิวส่วนที่เป็นสีชมพูจะส่องแสงได้โดยการสะสมแสงจากดวงอาทิตย์ ว่ากันว่าเอาไว้ใช้พรางตัว",
-		id: "Bagian kulit berwarna merah muda Finneon mengumpulkan sinar matahari lalu bersinar. Dikatakan bahwa hal ini dilakukan untuk kamuflase."
+		'th-th': "ผิวส่วนที่เป็นสีชมพูจะส่องแสงได้โดยการสะสมแสงจากดวงอาทิตย์ ว่ากันว่าเอาไว้ใช้พรางตัว",
+		'id-id': "Bagian kulit berwarna merah muda Finneon mengumpulkan sinar matahari lalu bersinar. Dikatakan bahwa hal ini dilakukan untuk kamuflase."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ราดน้ำ",
-			id: "Percikan Air"
+			'th-th': "ราดน้ำ",
+			'id-id': "Percikan Air"
 		},
 
 		damage: 20,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Diglett",
-		fr: "Taupiqueur",
-		de: "Digda"
+		'en-us': "Diglett",
+		'fr-fr': "Taupiqueur",
+		'de-de': "Digda"
 	},
 
 	illustrator: "Takao Unno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Down Draw",
-				fr: "Pioche du dessous",
-				de: "Tiefer Zug"
+				'en-us': "Down Draw",
+				'fr-fr': "Pioche du dessous",
+				'de-de': "Tiefer Zug"
 			},
 			effect: {
-				en: "Draw a card from the bottom of your deck.",
-				fr: "Piochez une carte du dessous de votre deck.",
-				de: "Ziehe die unterste Karte deines Decks."
+				'en-us': "Draw a card from the bottom of your deck.",
+				'fr-fr': "Piochez une carte du dessous de votre deck.",
+				'de-de': "Ziehe die unterste Karte deines Decks."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mud Spatter",
-				fr: "Éclaboussure de boue",
-				de: "Lehmspritzer"
+				'en-us': "Mud Spatter",
+				'fr-fr': "Éclaboussure de boue",
+				'de-de': "Lehmspritzer"
 			},
 
 			damage: 30,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon that lives underground. Because of its dark habitat, it is repelled by bright sunlight.",
+		'en-us': "A Pokémon that lives underground. Because of its dark habitat, it is repelled by bright sunlight.",
 	},
 
 	thirdParty: {

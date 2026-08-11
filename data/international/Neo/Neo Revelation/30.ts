@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Graveler",
-		fr: "Gravalanch",
-		de: "Georok"
+		'en-us': "Graveler",
+		'fr-fr': "Gravalanch",
+		'de-de': "Georok"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Geodude",
-		fr: "Racaillou"
+		'en-us': "Geodude",
+		'fr-fr': "Racaillou"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Earthquake",
-				fr: "Séisme",
-				de: "Earthquake"
+				'en-us': "Earthquake",
+				'fr-fr': "Séisme",
+				'de-de': "Earthquake"
 			},
 			effect: {
-				en: "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon de votre propre Banc. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon sur le Banc.)",
-				de: "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun des Pokémon de votre propre Banc. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon sur le Banc.)",
+				'de-de': "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 40,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Rock Tumble",
-				fr: "Roule-pierre",
-				de: "Rock Tumble"
+				'en-us': "Rock Tumble",
+				'fr-fr': "Roule-pierre",
+				'de-de': "Rock Tumble"
 			},
 			effect: {
-				en: "Don't apply Resistance.",
-				fr: "N'appliquez pas la Résistance.",
-				de: "Don't apply Resistance."
+				'en-us': "Don't apply Resistance.",
+				'fr-fr': "N'appliquez pas la Résistance.",
+				'de-de': "Don't apply Resistance."
 			},
 			damage: 50,
 
@@ -80,8 +80,8 @@ const card: Card = {
 
 
 	description: {
-		en: "With a free and uncaring nature, it doesn't mind if pieces break off while it rolls down mountains.",
-		fr: "De nature libre et peu souciante, il se moque de perdre des fragments de pierre en roulant sur les pentes des montagnes."
+		'en-us': "With a free and uncaring nature, it doesn't mind if pieces break off while it rolls down mountains.",
+		'fr-fr': "De nature libre et peu souciante, il se moque de perdre des fragments de pierre en roulant sur les pentes des montagnes."
 	},
 
 

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 5'
 
 const card: Card = {
 	name: {
-		en: "Lugia",
-		fr: "Lugia"
+		'en-us': "Lugia",
+		'fr-fr': "Lugia"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,8 +29,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Psy Bolt",
-				fr: "Super psy"
+				'en-us': "Super Psy Bolt",
+				'fr-fr': "Super psy"
 			},
 
 			damage: 20,
@@ -44,13 +44,13 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Aerowing",
-				fr: "Aéroaile"
+				'en-us': "Aerowing",
+				'fr-fr': "Aéroaile"
 			},
 
 			effect: {
-				en: "Before doing damage, you may flip a coin. If tails, this attack does nothing. If heads, this attack does 60 damage instead.",
-				fr: "Avant d'infliger des dégâts, vous pouvez lancer une pièce. Si c'est face, cette attaque inflige 60 dégâts. Si c'est pile, cette attaque ne fait rien."
+				'en-us': "Before doing damage, you may flip a coin. If tails, this attack does nothing. If heads, this attack does 60 damage instead.",
+				'fr-fr': "Avant d'infliger des dégâts, vous pouvez lancer une pièce. Si c'est face, cette attaque inflige 60 dégâts. Si c'est pile, cette attaque ne fait rien."
 			},
 
 			damage: 30,

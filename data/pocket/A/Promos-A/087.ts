@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Promos-A"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Alcremie",
-		es: "Alcremie"
+		'en-us': "Alcremie",
+		'es-es': "Alcremie"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -18,29 +18,29 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Milcery",
-		es: "Milcery"
+		'en-us': "Milcery",
+		'es-es': "Milcery"
 	},
 
 	description: {
-		en: "When it trusts a Trainer, it will treat them\nto berries it's decorated with cream.",
-		es: "Obsequia bayas decoradas con nata a\naquellos Entrenadores en los que confía."
+		'en-us': "When it trusts a Trainer, it will treat them\nto berries it's decorated with cream.",
+		'es-es': "Obsequia bayas decoradas con nata a\naquellos Entrenadores en los que confía."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Sweets Overload",
-			es: "Dulzor Extremo"
+			'en-us': "Sweets Overload",
+			'es-es': "Dulzor Extremo"
 		},
 
 		damage: 40,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "This attack does 40 damage for each time your Pokémon used Sweets Relay during this game.",
-			es: "Este ataque hace 40 puntos de daño por cada vez que tus Pokémon hayan usado Relevo Dulce durante esta partida."
+			'en-us': "This attack does 40 damage for each time your Pokémon used Sweets Relay during this game.",
+			'es-es': "Este ataque hace 40 puntos de daño por cada vez que tus Pokémon hayan usado Relevo Dulce durante esta partida."
 		}
 	}],
 

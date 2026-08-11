@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pangoro"
+		'en-us': "Pangoro"
 	},
 
 	illustrator: "Uta",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Pancham"
+		'en-us': "Pancham"
 	},
 
 	description: {
-		en: "Using its leaf, Pangoro can predict the moves of\nits opponents. It strikes with punches that can\nturn a dump truck into scrap with just one hit."
+		'en-us': "Using its leaf, Pangoro can predict the moves of\nits opponents. It strikes with punches that can\nturn a dump truck into scrap with just one hit."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Overdrive Smash"
+			'en-us': "Overdrive Smash"
 		},
 
 		damage: 30,
 		cost: ["Darkness"],
 
 		effect: {
-			en: "During your next turn, this Pokémon's Overdrive Smash attack does +30 damage."
+			'en-us': "During your next turn, this Pokémon's Overdrive Smash attack does +30 damage."
 		}
 	}],
 

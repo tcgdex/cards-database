@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ライトマチョーク",
+		'ja-jp': "ライトマチョーク",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "家に帰る",
+				'ja-jp': "家に帰る",
 			},
 			effect: {
-				ja: "ベンチ付きポケモンがある場合は、それらの1つをシャッフルし、すべてのカードがデッキに取り付けられています。",
+				'ja-jp': "ベンチ付きポケモンがある場合は、それらの1つをシャッフルし、すべてのカードがデッキに取り付けられています。",
 			},
 		},
 		{
 			cost: ["Fighting", "Fighting"],
 			name: {
-				ja: "穏やかなキック",
+				'ja-jp': "穏やかなキック",
 			},
 			effect: {
-				ja: "防御するポケモンにダメージカウンターがない場合、この攻撃は40のダメージを与えます。ある場合、この攻撃は20のダメージを与えます。",
+				'ja-jp': "防御するポケモンにダメージカウンターがない場合、この攻撃は40のダメージを与えます。ある場合、この攻撃は20のダメージを与えます。",
 			},
 			damage: 40,
 		},

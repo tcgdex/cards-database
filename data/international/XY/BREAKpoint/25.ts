@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Staryu",
-		fr: "Stari",
-		es: "Staryu",
-		it: "Staryu",
-		pt: "Staryu",
-		de: "Sterndu"
+		'en-us': "Staryu",
+		'fr-fr': "Stari",
+		'es-es': "Staryu",
+		'it-it': "Staryu",
+		'pt-br': "Staryu",
+		'de-de': "Sterndu"
 	},
 
 	illustrator: "Hiroki Asanuma",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Smack",
-				fr: "Claque",
-				es: "Palmetazo",
-				it: "Schiaffo",
-				pt: "Esbofetear",
-				de: "Klatscher"
+				'en-us': "Smack",
+				'fr-fr': "Claque",
+				'es-es': "Palmetazo",
+				'it-it': "Schiaffo",
+				'pt-br': "Esbofetear",
+				'de-de': "Klatscher"
 			},
 
 			damage: 20,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It appears in large numbers by seashores. At night, its central core flashes with a red light.",
+		'en-us': "It appears in large numbers by seashores. At night, its central core flashes with a red light.",
 	},
 
 	thirdParty: {

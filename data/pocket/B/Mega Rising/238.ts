@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cofagrigus"
+		'en-us': "Cofagrigus"
 	},
 
 	illustrator: "Apios",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Yamask"
+		'en-us': "Yamask"
 	},
 
 	description: {
-		en: "There are many depictions of Cofagrigus\ndecorating ancient tombs. They're symbols\nof the wealth that kings of bygone eras had."
+		'en-us': "There are many depictions of Cofagrigus\ndecorating ancient tombs. They're symbols\nof the wealth that kings of bygone eras had."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Soul Shot"
+			'en-us': "Soul Shot"
 		},
 
 		damage: 120,
 		cost: ["Psychic", "Psychic"],
 
 		effect: {
-			en: "Discard 2 cards from your hand. If you can't discard 2 cards, this attack does nothing."
+			'en-us': "Discard 2 cards from your hand. If you can't discard 2 cards, this attack does nothing."
 		}
 	}],
 

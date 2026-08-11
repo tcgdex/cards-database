@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケムッソ",
+		'ja-jp': "ケムッソ",
 	},
 
 	illustrator: "USGMEN",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "葉っぱが 大好物。 ムックルに 襲われたときは お尻の トゲで 撃退する。",
+		'ja-jp': "葉っぱが 大好物。 ムックルに 襲われたときは お尻の トゲで 撃退する。",
 	},
 
 	stage: "Basic",

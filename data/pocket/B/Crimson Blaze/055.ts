@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [132],
 
 	name: {
-		en: "Ditto"
+		'en-us': "Ditto"
 	},
 
 	illustrator: "Yuka Morii",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It can freely recombine its own cellular structure\nto transform into other life-forms."
+		'en-us': "It can freely recombine its own cellular structure\nto transform into other life-forms."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Copy a Friend"
+			'en-us': "Copy a Friend"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Choose 1 of your Benched Pokémon's attacks, except any Pokémon ex, and use it as this attack. If this Pokémon doesn't have the necessary Energy to use that attack, this attack does nothing."
+			'en-us': "Choose 1 of your Benched Pokémon's attacks, except any Pokémon ex, and use it as this attack. If this Pokémon doesn't have the necessary Energy to use that attack, this attack does nothing."
 		}
 	}],
 

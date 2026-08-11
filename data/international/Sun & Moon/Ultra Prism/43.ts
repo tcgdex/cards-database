@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Electabuzz",
-		fr: "Élektek",
-		es: "Electabuzz",
-		it: "Electabuzz",
-		pt: "Electabuzz",
-		de: "Elektek"
+		'en-us': "Electabuzz",
+		'fr-fr': "Élektek",
+		'es-es': "Electabuzz",
+		'it-it': "Electabuzz",
+		'pt-br': "Electabuzz",
+		'de-de': "Elektek"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage",
-				es: "Patada Baja",
-				it: "Colpo Basso",
-				pt: "Rasteira",
-				de: "Fußkick"
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage",
+				'es-es': "Patada Baja",
+				'it-it': "Colpo Basso",
+				'pt-br': "Rasteira",
+				'de-de': "Fußkick"
 			},
 
 			damage: 30,
@@ -53,20 +53,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder",
-				fr: "Fatal-Foudre",
-				es: "Trueno",
-				it: "Tuono",
-				pt: "Trovão",
-				de: "Donner"
+				'en-us': "Thunder",
+				'fr-fr': "Fatal-Foudre",
+				'es-es': "Trueno",
+				'it-it': "Tuono",
+				'pt-br': "Trovão",
+				'de-de': "Donner"
 			},
 			effect: {
-				en: "This Pokémon does 30 damage to itself.",
-				fr: "Ce Pokémon s’inflige 30 dégâts.",
-				es: "Este Pokémon se hace 30 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 30 danni a se stesso.",
-				pt: "Este Pokémon causa 30 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 30 Schadenspunkte zu."
+				'en-us': "This Pokémon does 30 damage to itself.",
+				'fr-fr': "Ce Pokémon s’inflige 30 dégâts.",
+				'es-es': "Este Pokémon se hace 30 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 30 danni a se stesso.",
+				'pt-br': "Este Pokémon causa 30 pontos de dano a si mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 30 Schadenspunkte zu."
 			},
 			damage: 90,
 
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Electricity leaks from it in amounts far greater than the amount of electricity it eats.",
+		'en-us': "Electricity leaks from it in amounts far greater than the amount of electricity it eats.",
 	},
 
 	thirdParty: {

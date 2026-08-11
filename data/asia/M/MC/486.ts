@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リキキリンex",
+		'ja-jp': "リキキリンex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "テイルアーマー" },
 			effect: {
-				ja: "このポケモンは、相手のたねポケモンの「ポケモンex」からワザのダメージを受けない。",
+				'ja-jp': "このポケモンは、相手のたねポケモンの「ポケモンex」からワザのダメージを受けない。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "キリンリキ",
+		'ja-jp': "キリンリキ",
 	},
 
 	retreat: 2,

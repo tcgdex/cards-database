@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリカのモンジャラ",
+		'ja-jp': "エリカのモンジャラ",
 	},
 
 	illustrator: "GIDORA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "ちぎれても 無限に 伸びる ツルの 奥の 正体は いまだ 解明されていない。",
+		'ja-jp': "ちぎれても 無限に 伸びる ツルの 奥の 正体は いまだ 解明されていない。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ひゃっかりょうらん" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札から「エリカのポケモン」を1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の番に1回使える。自分の山札から「エリカのポケモン」を1枚選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],

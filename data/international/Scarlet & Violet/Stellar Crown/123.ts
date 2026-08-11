@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Talonflame",
-		fr: "Flambusard",
-		es: "Talonflame",
-		it: "Talonflame",
-		pt: "Talonflame",
-		de: "Fiaro"
+		'en-us': "Talonflame",
+		'fr-fr': "Flambusard",
+		'es-es': "Talonflame",
+		'it-it': "Talonflame",
+		'pt-br': "Talonflame",
+		'de-de': "Fiaro"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Fletchinder",
-		fr: "Braisillon",
-		es: "Fletchinder",
-		it: "Fletchinder",
-		pt: "Fletchinder",
-		de: "Dartignis"
+		'en-us': "Fletchinder",
+		'fr-fr': "Braisillon",
+		'es-es': "Fletchinder",
+		'it-it': "Fletchinder",
+		'pt-br': "Fletchinder",
+		'de-de': "Dartignis"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Aero Chase",
-			fr: "Poursuite Aérienne",
-			es: "Persecución Aérea",
-			it: "Tallonamento Aereo",
-			pt: "Caçada Aérea",
-			de: "Aero-Jagd"
+			'en-us': "Aero Chase",
+			'fr-fr': "Poursuite Aérienne",
+			'es-es': "Persecución Aérea",
+			'it-it': "Tallonamento Aereo",
+			'pt-br': "Caçada Aérea",
+			'de-de': "Aero-Jagd"
 		},
 
 		effect: {
-			en: "If the Retreat Cost of your opponent's Active Pokémon is {C}{C} or more, this attack does 110 more damage.",
-			fr: "Si le Coût de Retraite du Pokémon Actif de votre adversaire est de {C}{C} ou plus, cette attaque inflige 110 dégâts supplémentaires.",
-			es: "Si el Coste de Retirada del Pokémon Activo de tu rival es de {C}{C} o más, este ataque hace 110 puntos de daño más.",
-			it: "Se il costo di ritirata del Pokémon attivo del tuo avversario è {C}{C} o più, questo attacco infligge 110 danni in più.",
-			pt: "Se o custo de Recuo do Pokémon Ativo do seu oponente for {C}{C} ou mais, este ataque causará 110 pontos de dano a mais.",
-			de: "Wenn die Rückzugskosten des Aktiven Pokémon deines Gegners {C}{C} oder mehr betragen, fügt diese Attacke 110 Schadenspunkte mehr zu."
+			'en-us': "If the Retreat Cost of your opponent's Active Pokémon is {C}{C} or more, this attack does 110 more damage.",
+			'fr-fr': "Si le Coût de Retraite du Pokémon Actif de votre adversaire est de {C}{C} ou plus, cette attaque inflige 110 dégâts supplémentaires.",
+			'es-es': "Si el Coste de Retirada del Pokémon Activo de tu rival es de {C}{C} o más, este ataque hace 110 puntos de daño más.",
+			'it-it': "Se il costo di ritirata del Pokémon attivo del tuo avversario è {C}{C} o più, questo attacco infligge 110 danni in più.",
+			'pt-br': "Se o custo de Recuo do Pokémon Ativo do seu oponente for {C}{C} ou mais, este ataque causará 110 pontos de dano a mais.",
+			'de-de': "Wenn die Rückzugskosten des Aktiven Pokémon deines Gegners {C}{C} oder mehr betragen, fügt diese Attacke 110 Schadenspunkte mehr zu."
 		},
 
 		damage: "110+"

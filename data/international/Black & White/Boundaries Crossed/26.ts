@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Emboar",
-		fr: "Roitiflam",
-		es: "Emboar",
-		it: "Emboar",
-		pt: "Emboar",
-		de: "Flambirex"
+		'en-us': "Emboar",
+		'fr-fr': "Roitiflam",
+		'es-es': "Emboar",
+		'it-it': "Emboar",
+		'pt-br': "Emboar",
+		'de-de': "Flambirex"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pignite",
-		fr: "Grotichon",
+		'en-us': "Pignite",
+		'fr-fr': "Grotichon",
 	},
 
 	stage: "Stage2",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Firebreathing",
-				fr: "Souffle-Feu",
+				'en-us': "Firebreathing",
+				'fr-fr': "Souffle-Feu",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: 40,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Blast",
-				fr: "Déflagration",
+				'en-us': "Fire Blast",
+				'fr-fr': "Déflagration",
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon.",
 			},
 			damage: 120,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It has mastered fast and powerful fighting moves. It grows a beard of fire.",
+		'en-us': "It has mastered fast and powerful fighting moves. It grows a beard of fire.",
 	},
 
 	thirdParty: {

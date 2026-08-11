@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Durant",
-		fr: "Fermite",
-		de: "Fermicula",
-		it: "Durant",
-		pt: "Durant",
-		es: "Durant",
+		'en-us': "Durant",
+		'fr-fr': "Fermite",
+		'de-de': "Fermicula",
+		'it-it': "Durant",
+		'pt-br': "Durant",
+		'es-es': "Durant",
 		'es-mx': "Durant"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Bite Together",
-			fr: "Morsure Commune",
-			de: "Kollektiver Biss",
-			it: "Morso Collettivo",
-			pt: "Mordida em Bando",
-			es: "Mordedura Conjunta",
+			'en-us': "Bite Together",
+			'fr-fr': "Morsure Commune",
+			'de-de': "Kollektiver Biss",
+			'it-it': "Morso Collettivo",
+			'pt-br': "Mordida em Bando",
+			'es-es': "Mordedura Conjunta",
 			'es-mx': "Mordida Conjunta"
 		},
 
 		effect: {
-			en: "If Durant is on your Bench, this attack does 20 more damage.",
-			fr: "Si Fermite est sur votre Banc, cette attaque inflige 20 dégâts supplémentaires.",
-			de: "Wenn sich Fermicula auf deiner Bank befindet, fügt diese Attacke 20 Schadenspunkte mehr zu.",
-			it: "Se Durant è nella tua panchina, questo attacco infligge 20 danni in più.",
-			pt: "Se Durant estiver no seu Banco, este ataque causará 20 pontos de dano a mais.",
-			es: "Si Durant está en tu Banca, este ataque hace 20 puntos de daño más.",
+			'en-us': "If Durant is on your Bench, this attack does 20 more damage.",
+			'fr-fr': "Si Fermite est sur votre Banc, cette attaque inflige 20 dégâts supplémentaires.",
+			'de-de': "Wenn sich Fermicula auf deiner Bank befindet, fügt diese Attacke 20 Schadenspunkte mehr zu.",
+			'it-it': "Se Durant è nella tua panchina, questo attacco infligge 20 danni in più.",
+			'pt-br': "Se Durant estiver no seu Banco, este ataque causará 20 pontos de dano a mais.",
+			'es-es': "Si Durant está en tu Banca, este ataque hace 20 puntos de daño más.",
 			'es-mx': "Si Durant está en tu Banca, este ataque hace 20 puntos de daño más."
 		},
 
@@ -50,12 +50,12 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			en: "Vise Grip",
-			fr: "Force Poigne",
-			de: "Klammer",
-			it: "Presa",
-			pt: "Agarramento Compressor",
-			es: "Agarre",
+			'en-us': "Vise Grip",
+			'fr-fr': "Force Poigne",
+			'de-de': "Klammer",
+			'it-it': "Presa",
+			'pt-br': "Agarramento Compressor",
+			'es-es': "Agarre",
 			'es-mx': "Fuerza de Garra"
 		},
 

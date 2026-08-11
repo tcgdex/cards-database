@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 2'
 
 const card: Card = {
 	name: {
-		en: "Bulbasaur",
-		fr: "Bulbizarre"
+		'en-us': "Bulbasaur",
+		'fr-fr': "Bulbizarre"
 	},
 
 	illustrator: "Midori Harada",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure"
+				'en-us': "Bite",
+				'fr-fr': "Morsure"
 			},
 
 			damage: 10,
@@ -41,8 +41,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'herbe"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'herbe"
 			},
 
 			damage: 20,

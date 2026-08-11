@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Growlithe"
+		'en-us': "Blaine's Growlithe"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shake"
+				'en-us': "Shake"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)"
+				'en-us': "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)"
 			},
 			damage: 10,
 
@@ -41,10 +41,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Tackle"
+				'en-us': "Fire Tackle"
 			},
 			effect: {
-				en: "Blaine's Growlithe does 10 damage to itself."
+				'en-us': "Blaine's Growlithe does 10 damage to itself."
 			},
 			damage: 30,
 

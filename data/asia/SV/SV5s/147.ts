@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Litten"
+		'id-id': "Litten"
 	},
 
 	illustrator: "Makura Tami",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Asal ada waktu luang, Litten menjilati dan merawat bulunya. Ia membakar bulu rontok yang terkumpul di dalam perutnya, lalu mengeluarkan jurus api."
+		'id-id': "Asal ada waktu luang, Litten menjilati dan merawat bulunya. Ia membakar bulu rontok yang terkumpul di dalam perutnya, lalu mengeluarkan jurus api."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Mengelabui"
+			'id-id': "Mengelabui"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
 		},
 
 		damage: 10,

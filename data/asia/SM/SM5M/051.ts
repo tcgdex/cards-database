@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デカグース",
+		'ja-jp': "デカグース",
 	},
 
 	illustrator: "nagimiso",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "コラッタや ラッタが 好物なのに 昼行性のため 出会えない。 忍耐強さが 自慢の ポケモン。",
+		'ja-jp': "コラッタや ラッタが 好物なのに 昼行性のため 出会えない。 忍耐強さが 自慢の ポケモン。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手の手札を見て、その中にポケモンがあるなら、80ダメージ追加。",
+				'ja-jp': "相手の手札を見て、その中にポケモンがあるなら、80ダメージ追加。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤングース",
+		'ja-jp': "ヤングース",
 	},
 
 	retreat: 2,

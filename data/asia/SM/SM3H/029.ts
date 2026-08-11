@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マケンカニ",
+		'ja-jp': "マケンカニ",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ハサミで 弱点を ガードしつつ 隙を うかがい パンチを 放つ。 負けたほうは 泡を ふいて ダウン。",
+		'ja-jp': "ハサミで 弱点を ガードしつつ 隙を うかがい パンチを 放つ。 負けたほうは 泡を ふいて ダウン。",
 	},
 
 	stage: "Basic",

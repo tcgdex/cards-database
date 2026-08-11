@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Malamar",
-		fr: "Sepiatroce",
-		es: "Malamar",
-		it: "Malamar",
-		pt: "Malamar",
-		de: "Calamanero"
+		'en-us': "Malamar",
+		'fr-fr': "Sepiatroce",
+		'es-es': "Malamar",
+		'it-it': "Malamar",
+		'pt-br': "Malamar",
+		'de-de': "Calamanero"
 	},
 
 	illustrator: "Yusuke Ohmura",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Inkay",
-		fr: "Sepiatop",
+		'en-us': "Inkay",
+		'fr-fr': "Sepiatop",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Hypnotic Reign",
-				fr: "Règne Hypnotique",
-				es: "Reino Hipnótico",
-				it: "Regno Ipnotico",
-				pt: "Reino Hipnótico",
-				de: "Hypnotische Herrschaft"
+				'en-us': "Hypnotic Reign",
+				'fr-fr': "Règne Hypnotique",
+				'es-es': "Reino Hipnótico",
+				'it-it': "Regno Ipnotico",
+				'pt-br': "Reino Hipnótico",
+				'de-de': "Hypnotische Herrschaft"
 			},
 			effect: {
-				en: "Your opponent reveals their hand. You may discard a Pokémon you find there and use one of that Pokémon’s non-GX attacks as this attack.",
-				fr: "Votre adversaire dévoile sa main. Vous pouvez défausser un Pokémon que vous y trouvez et utiliser l’une des attaques non GX de ce Pokémon en tant que cette attaque.",
-				es: "Tu rival enseña las cartas de su mano. Puedes descartar 1 Pokémon que encuentres entre ellas y usar uno de los ataques no GX de ese Pokémon para este ataque.",
-				it: "Il tuo avversario mostra le carte che ha in mano. Puoi scartare un Pokémon presente tra esse e usare uno degli attacchi non GX di quel Pokémon al posto di questo attacco.",
-				pt: "Seu oponente revela a própria mão. Você pode descartar 1 Pokémon que encontrar lá e usar um dos ataques daquele Pokémon que não é um ataque GX como este ataque.",
-				de: "Dein Gegner zeigt dir seine Handkarten. Du kannst 1 Pokémon, das du dort findest, auf seinen Ablagestapel legen und 1 Attacke jenes Pokémon, die keine GX-Attacke ist, als diese Attacke einsetzen."
+				'en-us': "Your opponent reveals their hand. You may discard a Pokémon you find there and use one of that Pokémon’s non-GX attacks as this attack.",
+				'fr-fr': "Votre adversaire dévoile sa main. Vous pouvez défausser un Pokémon que vous y trouvez et utiliser l’une des attaques non GX de ce Pokémon en tant que cette attaque.",
+				'es-es': "Tu rival enseña las cartas de su mano. Puedes descartar 1 Pokémon que encuentres entre ellas y usar uno de los ataques no GX de ese Pokémon para este ataque.",
+				'it-it': "Il tuo avversario mostra le carte che ha in mano. Puoi scartare un Pokémon presente tra esse e usare uno degli attacchi non GX di quel Pokémon al posto di questo attacco.",
+				'pt-br': "Seu oponente revela a própria mão. Você pode descartar 1 Pokémon que encontrar lá e usar um dos ataques daquele Pokémon que não é um ataque GX como este ataque.",
+				'de-de': "Dein Gegner zeigt dir seine Handkarten. Du kannst 1 Pokémon, das du dort findest, auf seinen Ablagestapel legen und 1 Attacke jenes Pokémon, die keine GX-Attacke ist, als diese Attacke einsetzen."
 			},
 
 		},
@@ -63,20 +63,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Pressure",
-				fr: "Pression Ténébreuse",
-				es: "Presión Oscura",
-				it: "Pressione Oscura",
-				pt: "Pressão Obscura",
-				de: "Finsterer Druck"
+				'en-us': "Dark Pressure",
+				'fr-fr': "Pression Ténébreuse",
+				'es-es': "Presión Oscura",
+				'it-it': "Pressione Oscura",
+				'pt-br': "Pressão Obscura",
+				'de-de': "Finsterer Druck"
 			},
 			effect: {
-				en: "Discard the top card of your opponent’s deck.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-				es: "Descarta la primera carta de la baraja de tu rival.",
-				it: "Scarta la prima carta del mazzo del tuo avversario.",
-				pt: "Descarte a primeira carta do baralho do seu oponente.",
-				de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard the top card of your opponent’s deck.",
+				'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+				'es-es': "Descarta la primera carta de la baraja de tu rival.",
+				'it-it': "Scarta la prima carta del mazzo del tuo avversario.",
+				'pt-br': "Descarte a primeira carta do baralho do seu oponente.",
+				'de-de': "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 80,
 
@@ -100,7 +100,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it comes to strong hypnosis, there's an endless number of people who utilize Malamar for their nefarious deeds.",
+		'en-us': "When it comes to strong hypnosis, there's an endless number of people who utilize Malamar for their nefarious deeds.",
 	},
 
 	thirdParty: {

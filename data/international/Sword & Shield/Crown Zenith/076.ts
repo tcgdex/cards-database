@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Absol",
-		fr: "Absol",
-		es: "Absol",
-		it: "Absol",
-		pt: "Absol",
-		de: "Absol"
+		'en-us': "Absol",
+		'fr-fr': "Absol",
+		'es-es': "Absol",
+		'it-it': "Absol",
+		'pt-br': "Absol",
+		'de-de': "Absol"
 	},
 
 	illustrator: "Shiburingaru",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Slash",
-			fr: "Tranche",
-			es: "Cuchillada",
-			it: "Lacerazione",
-			pt: "Talho",
-			de: "Schlitzer"
+			'en-us': "Slash",
+			'fr-fr': "Tranche",
+			'es-es': "Cuchillada",
+			'it-it': "Lacerazione",
+			'pt-br': "Talho",
+			'de-de': "Schlitzer"
 		},
 
 		damage: 30
@@ -38,21 +38,21 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			en: "Lost Claw",
-			fr: "Griffe perdue",
-			es: "Garra Perdida",
-			it: "Artiglio Perduto",
-			pt: "Garra Perdida",
-			de: "Nirgendwo-Klaue"
+			'en-us': "Lost Claw",
+			'fr-fr': "Griffe perdue",
+			'es-es': "Garra Perdida",
+			'it-it': "Artiglio Perduto",
+			'pt-br': "Garra Perdida",
+			'de-de': "Nirgendwo-Klaue"
 		},
 
 		effect: {
-			en: "Put a random card from your opponent's hand in the Lost Zone.",
-			fr: "Placez une carte au hasard de la main de votre adversaire dans la Zone Perdue.",
-			es: "Pon 1 carta aleatoria de la mano de tu rival en la Zona Perdida.",
-			it: "Prendi una carta a caso dalla mano del tuo avversario e mettila nell'area perduta.",
-			pt: "Coloque 1 carta aleatória da mão do seu oponente na Zona Perdida.",
-			de: "Lege 1 zufällige Karte aus der Hand deines Gegners ins Nirgendwo."
+			'en-us': "Put a random card from your opponent's hand in the Lost Zone.",
+			'fr-fr': "Placez une carte au hasard de la main de votre adversaire dans la Zone Perdue.",
+			'es-es': "Pon 1 carta aleatoria de la mano de tu rival en la Zona Perdida.",
+			'it-it': "Prendi una carta a caso dalla mano del tuo avversario e mettila nell'area perduta.",
+			'pt-br': "Coloque 1 carta aleatória da mão do seu oponente na Zona Perdida.",
+			'de-de': "Lege 1 zufällige Karte aus der Hand deines Gegners ins Nirgendwo."
 		},
 
 		damage: 70
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Swift as the wind, Absol races through fields and mountains. Its curved, bow-like horn is acutely sensitive to the warning signs of natural disasters.",
+		'en-us': "Swift as the wind, Absol races through fields and mountains. Its curved, bow-like horn is acutely sensitive to the warning signs of natural disasters.",
 	},
 
 	

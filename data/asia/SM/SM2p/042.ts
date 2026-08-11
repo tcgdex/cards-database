@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エルフーン",
+		'ja-jp': "エルフーン",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "風に 乗り 民家に 侵入。 部屋中を 綿まみれに すると ニコニコ 笑って 去っていく。",
+		'ja-jp': "風に 乗り 民家に 侵入。 部屋中を 綿まみれに すると ニコニコ 笑って 去っていく。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "よけいなわたげ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の自分の番、このワザを受けたポケモンがきぜつしたとき、サイドを2枚多くとる。",
+				'ja-jp': "次の自分の番、このワザを受けたポケモンがきぜつしたとき、サイドを2枚多くとる。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モンメン",
+		'ja-jp': "モンメン",
 	},
 
 	retreat: 0,

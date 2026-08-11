@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Rotom",
-		fr: "Motisma",
-		es: "Rotom",
-		it: "Rotom",
-		pt: "Rotom",
-		de: "Rotom"
+		'en-us': "Rotom",
+		'fr-fr': "Motisma",
+		'es-es': "Rotom",
+		'it-it': "Rotom",
+		'pt-br': "Rotom",
+		'de-de': "Rotom"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electribonus",
-				fr: "Électribonus",
+				'en-us': "Electribonus",
+				'fr-fr': "Électribonus",
 			},
 			effect: {
-				en: "Discard a Lightning Energy card from your hand. If you do, draw 3 cards.",
-				fr: "Défaussez une carte Énergie Lightning de votre main. Dans ce cas, piochez 3 cartes.",
+				'en-us': "Discard a Lightning Energy card from your hand. If you do, draw 3 cards.",
+				'fr-fr': "Défaussez une carte Énergie Lightning de votre main. Dans ce cas, piochez 3 cartes.",
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poltergeist",
-				fr: "Poltergeist",
+				'en-us': "Poltergeist",
+				'fr-fr': "Poltergeist",
 			},
 			effect: {
-				en: "Your opponent reveals his or her hand. This attack does 20 damage times the number of Trainer cards in your opponent's hand.",
-				fr: "Votre adversaire montre sa main. Cette attaque inflige 20 dégâts multipliés par le nombre de cartes Dresseur dans la main de votre adversaire.",
+				'en-us': "Your opponent reveals his or her hand. This attack does 20 damage times the number of Trainer cards in your opponent's hand.",
+				'fr-fr': "Votre adversaire montre sa main. Cette attaque inflige 20 dégâts multipliés par le nombre de cartes Dresseur dans la main de votre adversaire.",
 			},
 			damage: 20,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its electric-like body can enter some kinds of machines and take control in order to make mischief.",
+		'en-us': "Its electric-like body can enter some kinds of machines and take control in order to make mischief.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハギギシリ",
+		'ja-jp': "ハギギシリ",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "念力で 獲物を しびれさせ 丈夫な 歯で 噛み砕く。 シェルダーの 殻でも よゆうだ。",
+		'ja-jp': "念力で 獲物を しびれさせ 丈夫な 歯で 噛み砕く。 シェルダーの 殻でも よゆうだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ビビッドチャージ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある基本エネルギーを3枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札にある基本エネルギーを3枚まで、相手に見せてから、手札に加える。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 	],

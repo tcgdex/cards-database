@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Hakamo-o",
-		fr: "Écaïd",
-		es: "Hakamo-o",
-		it: "Hakamo-o",
-		pt: "Hakamo-o",
-		de: "Mediras"
+		'en-us': "Hakamo-o",
+		'fr-fr': "Écaïd",
+		'es-es': "Hakamo-o",
+		'it-it': "Hakamo-o",
+		'pt-br': "Hakamo-o",
+		'de-de': "Mediras"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Jangmo-o",
-		fr: "Bébécaille",
+		'en-us': "Jangmo-o",
+		'fr-fr': "Bébécaille",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d’Boule",
-				es: "Golpe Cabeza",
-				it: "Bottintesta",
-				pt: "Cabeçada",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d’Boule",
+				'es-es': "Golpe Cabeza",
+				'it-it': "Bottintesta",
+				'pt-br': "Cabeçada",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 30,
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Claw",
-				fr: "Dracogriffe",
-				es: "Garra Dragón",
-				it: "Dragartigli",
-				pt: "Garra de Dragão",
-				de: "Drachenklaue"
+				'en-us': "Dragon Claw",
+				'fr-fr': "Dracogriffe",
+				'es-es': "Garra Dragón",
+				'it-it': "Dragartigli",
+				'pt-br': "Garra de Dragão",
+				'de-de': "Drachenklaue"
 			},
 
 			damage: 80,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It leaps at its prey with a courageous shout. Its scaly punches tear its opponents to shreds.",
+		'en-us': "It leaps at its prey with a courageous shout. Its scaly punches tear its opponents to shreds.",
 	},
 
 	thirdParty: {

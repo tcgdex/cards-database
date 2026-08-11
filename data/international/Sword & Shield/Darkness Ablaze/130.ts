@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	name: {
-		en: "Melmetal",
-		fr: "Melmetal",
-		es: "Melmetal",
-		it: "Melmetal",
-		pt: "Melmetal",
-		de: "Melmetal"
+		'en-us': "Melmetal",
+		'fr-fr': "Melmetal",
+		'es-es': "Melmetal",
+		'it-it': "Melmetal",
+		'pt-br': "Melmetal",
+		'de-de': "Melmetal"
 	},
 
 	illustrator: "NC Empire",
@@ -23,12 +23,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Meltan",
-		fr: "Meltan",
-		es: "Meltan",
-		it: "Meltan",
-		pt: "Meltan",
-		de: "Meltan"
+		'en-us': "Meltan",
+		'fr-fr': "Meltan",
+		'es-es': "Meltan",
+		'it-it': "Meltan",
+		'pt-br': "Meltan",
+		'de-de': "Meltan"
 	},
 
 	attacks: [
@@ -37,20 +37,20 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Energy Link",
-				fr: "Chaîne d'Énergie",
-				es: "Vínculo de Energía",
-				it: "Legame Energetico",
-				pt: "Elo de Energia",
-				de: "Energie-Verbindung"
+				'en-us': "Energy Link",
+				'fr-fr': "Chaîne d'Énergie",
+				'es-es': "Vínculo de Energía",
+				'it-it': "Legame Energetico",
+				'pt-br': "Elo de Energia",
+				'de-de': "Energie-Verbindung"
 			},
 			effect: {
-				en: "Attach an Energy card from your discard pile to this Pokémon.",
-				fr: "Attachez une carte Énergie de votre pile de défausse à ce Pokémon.",
-				es: "Une 1 carta de Energía de tu pila de descartes a este Pokémon.",
-				it: "Assegna a questo Pokémon una carta Energia dalla tua pila degli scarti.",
-				pt: "Ligue 1 carta de Energia da sua pilha de descarte a este Pokémon.",
-				de: "Lege 1 Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+				'en-us': "Attach an Energy card from your discard pile to this Pokémon.",
+				'fr-fr': "Attachez une carte Énergie de votre pile de défausse à ce Pokémon.",
+				'es-es': "Une 1 carta de Energía de tu pila de descartes a este Pokémon.",
+				'it-it': "Assegna a questo Pokémon una carta Energia dalla tua pila degli scarti.",
+				'pt-br': "Ligue 1 carta de Energia da sua pilha de descarte a este Pokémon.",
+				'de-de': "Lege 1 Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 			},
 			damage: 30,
 
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heavy Impact",
-				fr: "Gros Impact",
-				es: "Impacto Pesado",
-				it: "Impatto Pesante",
-				pt: "Impacto Pesado",
-				de: "Schwerer Einschlag"
+				'en-us': "Heavy Impact",
+				'fr-fr': "Gros Impact",
+				'es-es': "Impacto Pesado",
+				'it-it': "Impatto Pesante",
+				'pt-br': "Impacto Pesado",
+				'de-de': "Schwerer Einschlag"
 			},
 
 			damage: 130,
@@ -97,7 +97,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "At the end of its life-span, Melmetal will rust and fall apart. The small shards left behind will eventually be reborn as Meltan."
+		'en-us': "At the end of its life-span, Melmetal will rust and fall apart. The small shards left behind will eventually be reborn as Meltan."
 	},
 
 	variants: [

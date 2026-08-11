@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Varoom",
-		fr: "Vrombi",
-		es: "Varoom",
-		it: "Varoom",
-		pt: "Varoom",
-		de: "Knattox"
+		'en-us': "Varoom",
+		'fr-fr': "Vrombi",
+		'es-es': "Varoom",
+		'it-it': "Varoom",
+		'pt-br': "Varoom",
+		'de-de': "Knattox"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			es: "Martillear",
-			it: "Martello",
-			pt: "Martelada",
-			de: "Einhämmern"
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'es-es': "Martillear",
+			'it-it': "Martello",
+			'pt-br': "Martelada",
+			'de-de': "Einhämmern"
 		},
 
 		damage: 60
@@ -62,7 +62,7 @@ const card: Card = {
 	illustrator: "nagimiso",
 
 	description: {
-		en: "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
+		'en-us': "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
 	},
 
 	thirdParty: {

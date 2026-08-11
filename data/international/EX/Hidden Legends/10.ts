@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Medicham",
-		fr: "Charmina",
-		de: "Meditalis"
+		'en-us': "Medicham",
+		'fr-fr': "Charmina",
+		'de-de': "Meditalis"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Meditite",
-		fr: "Meditikka"
+		'en-us': "Meditite",
+		'fr-fr': "Meditikka"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Meditate",
-				fr: "Yoga",
-				de: "Meditate"
+				'en-us': "Meditate",
+				'fr-fr': "Yoga",
+				'de-de': "Meditate"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur le Pokémon Défenseur.",
-				de: "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+				'en-us': "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
+				'fr-fr': "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur le Pokémon Défenseur.",
+				'de-de': "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon."
 			},
 			damage: "20+",
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Chakra Points",
-				fr: "Points de chakra",
-				de: "Chakra Points"
+				'en-us': "Chakra Points",
+				'fr-fr': "Points de chakra",
+				'de-de': "Chakra Points"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each card in your opponent's hand.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque carte dans la main de votre adversaire.",
-				de: "Does 10 damage plus 10 more damage for each card in your opponent's hand."
+				'en-us': "Does 10 damage plus 10 more damage for each card in your opponent's hand.",
+				'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque carte dans la main de votre adversaire.",
+				'de-de': "Does 10 damage plus 10 more damage for each card in your opponent's hand."
 			},
 			damage: "10+",
 

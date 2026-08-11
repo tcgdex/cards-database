@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "未定のm",
+		'ja-jp': "未定のm",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "金属[金属]",
+				'ja-jp': "金属[金属]",
 			},
 			effect: {
-				ja: "金属PokmonがPokmonの1を損傷するときはいつでも、その損傷を30 <em>（脱力感と抵抗を適用した後）</em>に減らします。このパワーは、プレイ中に複数の[m]を1つ以上持っている場合、機能しなくなります。 <em>（このパワーは、眠っていない、眠っていても混乱している、または麻痺していても機能します。）</em>",
+				'ja-jp': "金属PokmonがPokmonの1を損傷するときはいつでも、その損傷を30 <em>（脱力感と抵抗を適用した後）</em>に減らします。このパワーは、プレイ中に複数の[m]を1つ以上持っている場合、機能しなくなります。 <em>（このパワーは、眠っていない、眠っていても混乱している、または麻痺していても機能します。）</em>",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "隠された力",
+				'ja-jp': "隠された力",
 			},
 			damage: 10,
 		},

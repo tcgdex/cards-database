@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Turtonator",
-		fr: "Boumata",
-		es: "Turtonator",
-		it: "Turtonator",
-		pt: "Turtonator",
-		de: "Tortunator"
+		'en-us': "Turtonator",
+		'fr-fr': "Boumata",
+		'es-es': "Turtonator",
+		'it-it': "Turtonator",
+		'pt-br': "Turtonator",
+		'de-de': "Tortunator"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flame Cloak",
-				fr: "Manteau de Feu",
-				es: "Manto Ígneo",
-				it: "Radunafuoco",
-				pt: "Manto de Chamas",
-				de: "Flammenumhang"
+				'en-us': "Flame Cloak",
+				'fr-fr': "Manteau de Feu",
+				'es-es': "Manto Ígneo",
+				'it-it': "Radunafuoco",
+				'pt-br': "Manto de Chamas",
+				'de-de': "Flammenumhang"
 			},
 			effect: {
-				en: "Attach a Fire Energy card from your discard pile to this Pokémon.",
-				fr: "Attachez une carte Énergie Fire de votre pile de défausse à ce Pokémon.",
-				es: "Une 1 carta de Energía Fire de tu pila de descartes a este Pokémon.",
-				it: "Assegna a questo Pokémon una carta Energia Fire dalla tua pila degli scarti.",
-				pt: "Ligue 1 carta de Energia Fire da sua pilha de descarte a este Pokémon.",
-				de: "Lege 1 Fire-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+				'en-us': "Attach a Fire Energy card from your discard pile to this Pokémon.",
+				'fr-fr': "Attachez une carte Énergie Fire de votre pile de défausse à ce Pokémon.",
+				'es-es': "Une 1 carta de Energía Fire de tu pila de descartes a este Pokémon.",
+				'it-it': "Assegna a questo Pokémon una carta Energia Fire dalla tua pila degli scarti.",
+				'pt-br': "Ligue 1 carta de Energia Fire da sua pilha de descarte a este Pokémon.",
+				'de-de': "Lege 1 Fire-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 			},
 			damage: 30,
 
@@ -60,12 +60,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Blast",
-				fr: "Explosion de Chaleur",
-				es: "Explosión de Calor",
-				it: "Caldobomba",
-				pt: "Raio de Calor",
-				de: "Hitzestoß"
+				'en-us': "Heat Blast",
+				'fr-fr': "Explosion de Chaleur",
+				'es-es': "Explosión de Calor",
+				'it-it': "Caldobomba",
+				'pt-br': "Raio de Calor",
+				'de-de': "Hitzestoß"
 			},
 
 			damage: 70,
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "The shell on its back is chemically unstable and explodes violently if struck. The hole in its stomach is its weak point.",
+		'en-us': "The shell on its back is chemically unstable and explodes violently if struck. The hole in its stomach is its weak point.",
 	},
 
 	thirdParty: {

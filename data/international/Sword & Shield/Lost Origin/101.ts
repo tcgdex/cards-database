@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Relicanth",
-		fr: "Relicanth",
-		es: "Relicanth",
-		it: "Relicanth",
-		pt: "Relicanth",
-		de: "Relicanth"
+		'en-us': "Relicanth",
+		'fr-fr': "Relicanth",
+		'es-es': "Relicanth",
+		'it-it': "Relicanth",
+		'pt-br': "Relicanth",
+		'de-de': "Relicanth"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -25,32 +25,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Into the Deep",
-			fr: "Dans l'Abysse",
-			es: "En lo Profundo",
-			it: "Baratro",
-			pt: "Nas Profundezas",
-			de: "In die Tiefe"
+			'en-us': "Into the Deep",
+			'fr-fr': "Dans l'Abysse",
+			'es-es': "En lo Profundo",
+			'it-it': "Baratro",
+			'pt-br': "Nas Profundezas",
+			'de-de': "In die Tiefe"
 		},
 
 		effect: {
-			en: "Put up to 2 basic Energy cards from your discard pile into your hand.",
-			fr: "Ajoutez à votre main jusqu'à 2 cartes Énergie de base de votre pile de défausse.",
-			es: "Pon hasta 2 cartas de Energía Básica de tu pila de descartes en tu mano.",
-			it: "Prendi fino a due carte Energia base dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
-			pt: "Coloque até 2 cartas de Energia básica da sua pilha de descarte na sua mão.",
-			de: "Nimm bis zu 2 Basis-Energiekarten aus deinem Ablagestapel auf deine Hand."
+			'en-us': "Put up to 2 basic Energy cards from your discard pile into your hand.",
+			'fr-fr': "Ajoutez à votre main jusqu'à 2 cartes Énergie de base de votre pile de défausse.",
+			'es-es': "Pon hasta 2 cartas de Energía Básica de tu pila de descartes en tu mano.",
+			'it-it': "Prendi fino a due carte Energia base dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
+			'pt-br': "Coloque até 2 cartas de Energia básica da sua pilha de descarte na sua mão.",
+			'de-de': "Nimm bis zu 2 Basis-Energiekarten aus deinem Ablagestapel auf deine Hand."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 80

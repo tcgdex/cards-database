@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ボルケニオン",
+		'ja-jp': "ボルケニオン",
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "水蒸気を 噴き出して 自分の 姿を 濃霧で 隠す。 人の 立ち入らない 山に 住むという。",
+		'ja-jp': "水蒸気を 噴き出して 自分の 姿を 濃霧で 隠す。 人の 立ち入らない 山に 住むという。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "フレアスターター" },
 			cost: ["Fire"],
 			effect: {
-				ja: "自分の山札にある[炎]エネルギーを1枚、自分のポケモンにつける。そして山札を切る。後攻プレイヤーの最初の番に使ったなら、つけられる枚数は3枚までになり、自分のポケモンに好きなようにつけられる。",
+				'ja-jp': "自分の山札にある[炎]エネルギーを1枚、自分のポケモンにつける。そして山札を切る。後攻プレイヤーの最初の番に使ったなら、つけられる枚数は3枚までになり、自分のポケモンに好きなようにつけられる。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Fire", "Fire"],
 			effect: {
-				ja: "自分の場に[炎]エネルギーが4個以上あるなら、60ダメージ追加。",
+				'ja-jp': "自分の場に[炎]エネルギーが4個以上あるなら、60ダメージ追加。",
 			},
 		},
 	],

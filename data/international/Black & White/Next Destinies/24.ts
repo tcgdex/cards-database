@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Starmie",
-		fr: "Staross",
-		es: "Starmie",
-		it: "Starmie",
-		pt: "Starmie",
-		de: "Starmie"
+		'en-us': "Starmie",
+		'fr-fr': "Staross",
+		'es-es': "Starmie",
+		'it-it': "Starmie",
+		'pt-br': "Starmie",
+		'de-de': "Starmie"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Staryu",
-		fr: "Stari",
+		'en-us': "Staryu",
+		'fr-fr': "Stari",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde Folie",
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde Folie",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
 			},
 
 		},
@@ -53,12 +53,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Swift",
-				fr: "Météores",
+				'en-us': "Swift",
+				'fr-fr': "Météores",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon Défenseur.",
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, or any other effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon Défenseur.",
 			},
 			damage: 50,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "At the center of its body is a red core, which sends mysterious radio signals into the night sky.",
+		'en-us': "At the center of its body is a red core, which sends mysterious radio signals into the night sky.",
 	},
 
 	thirdParty: {

@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴローン",
+		'ja-jp': "ゴローン",
 		'zh-tw': "隆隆石",
-		th: "โกโลน",
-		id: "Graveler",
+		'th-th': "โกโลน",
+		'id-id': "Graveler",
 	},
 
 	illustrator: "Uta",
@@ -16,10 +16,10 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "崖を 転がり 移動する。 間違えて 川に 落ちると 最期の あがきで 大爆発。",
+		'ja-jp': "崖を 転がり 移動する。 間違えて 川に 落ちると 最期の あがきで 大爆発。",
 		'zh-tw': "藉著從山崖上滾落來移動。 如果不小心掉進河裡， 就會在最後掙扎時來個大爆炸。",
-		th: "เคลื่อนที่โดยกลิ้งไปตามผา พอพลาดตกลงแม่น้ำแล้ว ก็จะดิ้นรนจนหยดสุดท้ายแล้วระเบิดตัว",
-		id: "Graveler bergerak dengan cara menggelindingkan diri di tebing. Jika salah gerak dan jatuh ke sungai, Pokémon ini meledak sebagai usaha terakhirnya.",
+		'th-th': "เคลื่อนที่โดยกลิ้งไปตามผา พอพลาดตกลงแม่น้ำแล้ว ก็จะดิ้นรนจนหยดสุดท้ายแล้วระเบิดตัว",
+		'id-id': "Graveler bergerak dengan cara menggelindingkan diri di tebing. Jika salah gerak dan jatuh ke sungai, Pokémon ini meledak sebagai usaha terakhirnya.",
 	},
 
 	stage: "Stage1",
@@ -27,26 +27,26 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "れんぞくいわなげ",
+				'ja-jp': "れんぞくいわなげ",
 				'zh-tw': "連續投石",
-				th: "ปาหินต่อเนื่อง",
-				id: "Lempar Batu Beruntun",
+				'th-th': "ปาหินต่อเนื่อง",
+				'id-id': "Lempar Batu Beruntun",
 			},
 			damage: "40×",
 			cost: ["Fighting"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数×40ダメージ。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数×40ダメージ。",
 				'zh-tw': "擲硬幣直到出現反面，造成正面出現的次數×40點傷害。",
-				th: "ทอยเหรียญจนกว่าจะออกก้อย แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x40",
-				id: "Lempar koin hingga hasilnya sisi belakang. Serangan ini memberikan kerusakan sejumlah 40 untuk tiap lemparan dengan hasil sisi depan.",
+				'th-th': "ทอยเหรียญจนกว่าจะออกก้อย แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x40",
+				'id-id': "Lempar koin hingga hasilnya sisi belakang. Serangan ini memberikan kerusakan sejumlah 40 untuk tiap lemparan dengan hasil sisi depan.",
 			},
 		},
 		{
 			name: {
-				ja: "ヘビーインパクト",
+				'ja-jp': "ヘビーインパクト",
 				'zh-tw': "重磅衝擊",
-				th: "เฮวี่อิมแพ็คท์",
-				id: "Heavy Impact",
+				'th-th': "เฮวี่อิมแพ็คท์",
+				'id-id': "Heavy Impact",
 			},
 			damage: 60,
 			cost: ["Fighting", "Colorless", "Colorless"],
@@ -80,7 +80,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イシツブテ",
+		'ja-jp': "イシツブテ",
 	},
 
 	retreat: 3,

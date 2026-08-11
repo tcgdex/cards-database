@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エテボース",
+		'ja-jp': "エテボース",
 	},
 
 	illustrator: "hncl",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "大きな 木の上で 暮らす。 仲間と 尻尾を つなぐことで 気持ちを 伝え合うと いわれる。",
+		'ja-jp': "大きな 木の上で 暮らす。 仲間と 尻尾を つなぐことで 気持ちを 伝え合うと いわれる。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "holo"}],
 
 	evolveFrom: {
-		ja: "エイパム",
+		'ja-jp': "エイパム",
 	},
 
 	retreat: 1,

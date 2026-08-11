@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Kirlia",
-		fr: "Kirlia",
-		es: "Kirlia",
-		it: "Kirlia",
-		pt: "Kirlia",
-		de: "Kirlia"
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia",
+		'es-es': "Kirlia",
+		'it-it': "Kirlia",
+		'pt-br': "Kirlia",
+		'de-de': "Kirlia"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ralts",
-		fr: "Tarsal",
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beat",
-				fr: "Bataille",
-				es: "Toque",
-				it: "Battuta",
-				pt: "Pulso",
-				de: "Verprügler"
+				'en-us': "Beat",
+				'fr-fr': "Bataille",
+				'es-es': "Toque",
+				'it-it': "Battuta",
+				'pt-br': "Pulso",
+				'de-de': "Verprügler"
 			},
 
 			damage: 20,
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Disarming Voice",
-				fr: "Voix Enjôleuse",
-				es: "Voz Cautivadora",
-				it: "Incantavoce",
-				pt: "Voz Desarmante",
-				de: "Säuselstimme"
+				'en-us': "Disarming Voice",
+				'fr-fr': "Voix Enjôleuse",
+				'es-es': "Voz Cautivadora",
+				'it-it': "Incantavoce",
+				'pt-br': "Voz Desarmante",
+				'de-de': "Säuselstimme"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent’s Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: 50,
 
@@ -95,7 +95,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has a psychic power that enabled it to distort the space around it and see into the future.",
+		'en-us': "It has a psychic power that enabled it to distort the space around it and see into the future.",
 	},
 
 	thirdParty: {

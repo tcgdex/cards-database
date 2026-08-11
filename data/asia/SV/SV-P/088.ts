@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タギングルex",
+		'ja-jp': "タギングルex",
 		'zh-tw': "沼王",
 	},
 
@@ -18,24 +18,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "しびれるだえき",
+				'ja-jp': "しびれるだえき",
 				'zh-tw': "滾動",
 			},
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 		{
 			name: {
-				ja: "ポイポポイズン",
+				'ja-jp': "ポイポポイズン",
 				'zh-tw': "濕透頭擊",
 			},
 			damage: 180,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。次の自分の番、このポケモンは「ポイポポイズン」が使えない。",
+				'ja-jp': "相手のバトルポケモンをどくにする。次の自分の番、このポケモンは「ポイポポイズン」が使えない。",
 				'zh-tw': "將自己的牌庫上方3張卡丟棄，造成其中能量卡的張數×80點傷害。",
 			},
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シルシュルー",
+		'ja-jp': "シルシュルー",
 	},
 
 	retreat: 1,

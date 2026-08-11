@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグネット鋼エネルギー",
+		'ja-jp': "マグネット鋼エネルギー",
 	},
 
 	illustrator: "",
@@ -12,7 +12,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		ja: "このカードは、ポケモンについているかぎり、[M]エネルギー1個ぶんとしてはたらく。このカードをつけている[M]ポケモンは、にげるためのエネルギーが、すべてなくなる。",
+		'ja-jp': "このカードは、ポケモンについているかぎり、[M]エネルギー1個ぶんとしてはたらく。このカードをつけている[M]ポケモンは、にげるためのエネルギーが、すべてなくなる。",
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lickitung",
-		fr: "Excelangue",
-		es: "Lickitung",
-		it: "Lickitung",
-		pt: "Lickitung",
-		de: "Schlurp"
+		'en-us': "Lickitung",
+		'fr-fr': "Excelangue",
+		'es-es': "Lickitung",
+		'it-it': "Lickitung",
+		'pt-br': "Lickitung",
+		'de-de': "Schlurp"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Tongue Pull",
-			fr: "Langue Tireuse",
-			es: "Tiro de Lengua",
-			it: "Tiralingua",
-			pt: "Puxão de Língua",
-			de: "Ziehende Zunge"
+			'en-us': "Tongue Pull",
+			'fr-fr': "Langue Tireuse",
+			'es-es': "Tiro de Lengua",
+			'it-it': "Tiralingua",
+			'pt-br': "Puxão de Língua",
+			'de-de': "Ziehende Zunge"
 		},
 
 		effect: {
-			en: "Your opponent reveals their hand. Put up to 2 Basic Pokémon you find there onto your opponent's Bench.",
-			fr: "Votre adversaire montre sa main. Placez jusqu'à 2 Pokémon de base que vous y trouvez sur le Banc de votre adversaire.",
-			es: "Tu rival enseña las cartas de su mano. Pon hasta 2 Pokémon Básicos que encuentres entre ellas en la Banca de tu rival.",
-			it: "Il tuo avversario mostra le carte che ha in mano. Prendi fino a due Pokémon Base presenti tra esse e mettili nella sua panchina.",
-			pt: "Seu oponente revela a mão dele. Coloque até 2 Pokémon Básicos que encontrar lá no Banco do seu oponente.",
-			de: "Dein Gegner zeigt dir seine Handkarten. Lege bis zu 2 Basis-Pokémon, die du dort findest, auf die Bank deines Gegners."
+			'en-us': "Your opponent reveals their hand. Put up to 2 Basic Pokémon you find there onto your opponent's Bench.",
+			'fr-fr': "Votre adversaire montre sa main. Placez jusqu'à 2 Pokémon de base que vous y trouvez sur le Banc de votre adversaire.",
+			'es-es': "Tu rival enseña las cartas de su mano. Pon hasta 2 Pokémon Básicos que encuentres entre ellas en la Banca de tu rival.",
+			'it-it': "Il tuo avversario mostra le carte che ha in mano. Prendi fino a due Pokémon Base presenti tra esse e mettili nella sua panchina.",
+			'pt-br': "Seu oponente revela a mão dele. Coloque até 2 Pokémon Básicos que encontrar lá no Banco do seu oponente.",
+			'de-de': "Dein Gegner zeigt dir seine Handkarten. Lege bis zu 2 Basis-Pokémon, die du dort findest, auf die Bank deines Gegners."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Strength",
-			fr: "Force",
-			es: "Fuerza",
-			it: "Forza",
-			pt: "Força",
-			de: "Stärke"
+			'en-us': "Strength",
+			'fr-fr': "Force",
+			'es-es': "Fuerza",
+			'it-it': "Forza",
+			'pt-br': "Força",
+			'de-de': "Stärke"
 		},
 
 		damage: 50
@@ -65,7 +65,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "If this Pokémon's sticky saliva gets on you and you don't clean it off, an intense itch will set in. The itch won't go away, either.",
+		'en-us': "If this Pokémon's sticky saliva gets on you and you don't clean it off, an intense itch will set in. The itch won't go away, either.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムーランド",
+		'ja-jp': "ムーランド",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "長く 暖かい 毛の おかげで 寒さは へっちゃら。 アローラの ムーランドは 少し 苦しそうだ。",
+		'ja-jp': "長く 暖かい 毛の おかげで 寒さは へっちゃら。 アローラの ムーランドは 少し 苦しそうだ。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ガウガウバーク" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたときと、このポケモンがバトル場で相手のワザのダメージを受けてきぜつしたとき、それぞれ1回使える。相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたときと、このポケモンがバトル場で相手のワザのダメージを受けてきぜつしたとき、それぞれ1回使える。相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 110,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ハーデリア",
+		'ja-jp': "ハーデリア",
 	},
 
 	retreat: 3,

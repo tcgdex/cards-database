@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit 2 (Minun).ts'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charmeleon",
-		fr: "Reptincel"
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmander",
-		fr: "Salamèche"
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche"
 	},
 
 	attacks: [{
@@ -32,8 +32,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Flare",
-			fr: "Intimidation"
+			'en-us': "Flare",
+			'fr-fr': "Intimidation"
 		},
 		damage: 30
 	}, {
@@ -43,12 +43,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Damage Burn",
-			fr: "Brûlure"
+			'en-us': "Damage Burn",
+			'fr-fr': "Brûlure"
 		},
 		effect: {
-			en: "If the Defending Pokémon already has any damage counters on it, this attack does 40 damage plus 20 more damage.",
-			fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires."
+			'en-us': "If the Defending Pokémon already has any damage counters on it, this attack does 40 damage plus 20 more damage.",
+			'fr-fr': "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires."
 		},
 		damage: "40+"
 	}],

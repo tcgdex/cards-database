@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../XY'
 
 const xy10: Set = {
 	id: "xy10",
 
 	name: {
-		en: "Fates Collide",
-		fr: "Impact des Destins",
-		es: "Destinos Enfrentados",
-		it: "Destini Incrociati",
-		de: "Schicksalsschmiede",
-		pt: "Fusão de Destinos"
+		'en-us': "Fates Collide",
+		'fr-fr': "Impact des Destins",
+		'es-es': "Destinos Enfrentados",
+		'it-it': "Destini Incrociati",
+		'de-de': "Schicksalsschmiede",
+		'pt-br': "Fusão de Destinos"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const xy10: Set = {
 
 	abbreviations: {
 		official: "FCO",
-		fr: "IDD"
+		'fr-fr': "IDD"
 	},
 
 	thirdParty: {

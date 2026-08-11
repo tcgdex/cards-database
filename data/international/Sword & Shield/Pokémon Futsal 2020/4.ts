@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Pokémon Futsal 2020'
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scorbunny on the Ball"
+		'en-us': "Scorbunny on the Ball"
 	},
 
 	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
@@ -14,7 +14,7 @@ const card: Card = {
 	category: "Pokemon",
 
 	description: {
-		en: "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power."
+		'en-us': "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power."
 	},
 
 	hp: 60,
@@ -25,25 +25,25 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Fiery Dribbling"
+			'en-us': "Fiery Dribbling"
 		},
 
 		damage: "20×",
 
 		effect: {
-			en: "Flip a coin until you get tails. This attack does 20 damage for each heads."
+			'en-us': "Flip a coin until you get tails. This attack does 20 damage for each heads."
 		}
 	}, {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Reckless Charge"
+			'en-us': "Reckless Charge"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "This Pokémon also does 10 damage to itself."
+			'en-us': "This Pokémon also does 10 damage to itself."
 		}
 	}],
 

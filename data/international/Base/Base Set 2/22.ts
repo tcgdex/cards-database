@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Dragonair",
+		'en-us': "Dragonair",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dratini",
+		'en-us': "Dratini",
 	},
 
 	stage: "Stage1",
@@ -35,10 +35,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slam",
+				'en-us': "Slam",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
 			},
 
 		},
@@ -50,10 +50,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Beam",
+				'en-us': "Hyper Beam",
 			},
 			effect: {
-				en: "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",
+				'en-us': "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",
 			},
 			damage: 20,
 
@@ -70,7 +70,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A mystical Pokémon that exudes a gentle aura. Has the ability to change climate conditions.",
+		'en-us': "A mystical Pokémon that exudes a gentle aura. Has the ability to change climate conditions.",
 	},
 
 

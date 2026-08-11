@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM trainer Kit (Lycanroc)'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Fighting Energy",
-		fr: "Énergie Combat",
-		es: "Energía Lucha",
-		it: "Energia Lotta",
-		pt: "Energia de Luta",
-		de: "Kampf-Energie"
+		'en-us': "Fighting Energy",
+		'fr-fr': "Énergie Combat",
+		'es-es': "Energía Lucha",
+		'it-it': "Energia Lotta",
+		'pt-br': "Energia de Luta",
+		'de-de': "Kampf-Energie"
 	},
 
 	rarity: "Common",

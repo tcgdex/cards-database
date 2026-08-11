@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キョウのメタモン",
+		'ja-jp': "キョウのメタモン",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,16 +19,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "巨大な成長",
+				'ja-jp': "巨大な成長",
 			},
 			effect: {
-				ja: "コインをひっくり返します。ヘッドの場合、KogaのDittoの最大HPは80になり、KogaのDittoのポンド攻撃のベースダメージは10ではなく30です（KogaのDittoがこの効果を終了します。）",
+				'ja-jp': "コインをひっくり返します。ヘッドの場合、KogaのDittoの最大HPは80になり、KogaのDittoのポンド攻撃のベースダメージは10ではなく30です（KogaのDittoがこの効果を終了します。）",
 			},
 		},
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ポンド",
+				'ja-jp': "ポンド",
 			},
 			damage: 10,
 		},

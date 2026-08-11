@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 8'
 
 const card: Card = {
 	name: {
-		en: "Happiny",
+		'en-us': "Happiny",
 	},
 
 	illustrator: "Yuka Morii",
@@ -27,10 +27,10 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Baby Evolution",
+				'en-us': "Baby Evolution",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may put Chansey from your hand onto Happiny (this counts as evolving Happiny) and remove all damage counters from Happiny.",
+				'en-us': "Once during your turn (before your attack), you may put Chansey from your hand onto Happiny (this counts as evolving Happiny) and remove all damage counters from Happiny.",
 			},
 		},
 	],
@@ -39,10 +39,10 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Lively",
+				'en-us': "Lively",
 			},
 			effect: {
-				en: "Remove 2 damage counters from 1 of your Pokémon.",
+				'en-us': "Remove 2 damage counters from 1 of your Pokémon.",
 			},
 
 		},
@@ -56,7 +56,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It loves round white things. It carries an egg-shaped rock in imitation of CHANSEY."
+		'en-us': "It loves round white things. It carries an egg-shaped rock in imitation of CHANSEY."
 	},
 
 	retreat: 1,

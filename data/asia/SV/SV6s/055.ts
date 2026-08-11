@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Phione"
+		'id-id': "Phione"
 	},
 
 	illustrator: "aspara",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Ketika suhu air laut naik, Phione menggelembungkan kantong apung di kepalanya dan mengapung dalam kelompok di permukaan laut."
+		'id-id': "Ketika suhu air laut naik, Phione menggelembungkan kantong apung di kepalanya dan mengapung dalam kelompok di permukaan laut."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Memanggil Mendekat"
+			'id-id': "Memanggil Mendekat"
 		},
 
 		effect: {
-			id: "Pilih 1 lembar Supporter dari Trash sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan."
+			'id-id': "Pilih 1 lembar Supporter dari Trash sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Tekanan Energi"
+			'id-id': "Tekanan Energi"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap Energi yang dikenakan pada Pokémon Bertarung lawan."
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap Energi yang dikenakan pada Pokémon Bertarung lawan."
 		},
 
 		damage: "20×",

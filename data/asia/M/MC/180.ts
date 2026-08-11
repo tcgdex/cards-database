@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホエルコ",
+		'ja-jp': "ホエルコ",
 	},
 
 	illustrator: "Shinya Mizuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "海水を たくさん 飲みこむと 体が ボールの ように 弾む。 毎日 １トンの エサを 食べる。",
+		'ja-jp': "海水を たくさん 飲みこむと 体が ボールの ように 弾む。 毎日 １トンの エサを 食べる。",
 	},
 
 	stage: "Basic",

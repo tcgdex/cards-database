@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポリゴン",
+		'ja-jp': "ポリゴン",
 	},
 
 	illustrator: "Tomoaki Imakuni",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "変換1",
+				'ja-jp': "変換1",
 			},
 			effect: {
-				ja: "防御するポケモンが弱点を持っている場合、それを無色の以外の選択の種類に変更することができます。",
+				'ja-jp': "防御するポケモンが弱点を持っている場合、それを無色の以外の選択の種類に変更することができます。",
 			},
 
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "変換2",
+				'ja-jp': "変換2",
 			},
 			effect: {
-				ja: "Porygonの抵抗は、無色の以外の選択の種類に変更します。",
+				'ja-jp': "Porygonの抵抗は、無色の以外の選択の種類に変更します。",
 			},
 
 		},

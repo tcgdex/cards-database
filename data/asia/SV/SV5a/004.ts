@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "イトマル",
+		'ja-jp': "イトマル",
 		'zh-tw': "圓絲蛛",
-		th: "อิโตมารุ"
+		'th-th': "อิโตมารุ"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -18,9 +18,9 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "丈夫な 糸を より合わせ 魚ポケモンを 捕らえる 網を こしらえる 漁師も いるぞ。",
+		'ja-jp': "丈夫な 糸を より合わせ 魚ポケモンを 捕らえる 網を こしらえる 漁師も いるぞ。",
 		'zh-tw': "也有漁夫會將堅韌的絲編織起來，製作成可以 捕捉魚寶可夢的網。",
-		th: "มีชาวประมงบางคนฟั่นใยที่ทนทานของมัน เพื่อทำแหจับโปเกมอนปลา"
+		'th-th': "มีชาวประมงบางคนฟั่นใยที่ทนทานของมัน เพื่อทำแหจับโปเกมอนปลา"
 	},
 
 	stage: "Basic",
@@ -29,9 +29,9 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "むしくい",
+			'ja-jp': "むしくい",
 			'zh-tw': "蟲咬",
-			th: "แมลงกัด"
+			'th-th': "แมลงกัด"
 		},
 
 		damage: 20

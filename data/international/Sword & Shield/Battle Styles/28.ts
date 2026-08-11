@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Salazzle",
-		fr: "Malamandre",
-		es: "Salazzle",
-		it: "Salazzle",
-		pt: "Salazzle",
-		de: "Amfira"
+		'en-us': "Salazzle",
+		'fr-fr': "Malamandre",
+		'es-es': "Salazzle",
+		'it-it': "Salazzle",
+		'pt-br': "Salazzle",
+		'de-de': "Amfira"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -21,51 +21,51 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Salandit",
-		fr: "Tritox",
-		es: "Salandit",
-		it: "Salandit",
-		pt: "Salandit",
-		de: "Molunk"
+		'en-us': "Salandit",
+		'fr-fr': "Tritox",
+		'es-es': "Salandit",
+		'it-it': "Salandit",
+		'pt-br': "Salandit",
+		'de-de': "Molunk"
 	},
 
 	attacks: [{
 		name: {
-			en: "Perplex",
-			fr: "Affolement",
-			es: "Desconcierto",
-			it: "Sconcerto",
-			pt: "Perplexo",
-			de: "Perplex"
+			'en-us': "Perplex",
+			'fr-fr': "Affolement",
+			'es-es': "Desconcierto",
+			'it-it': "Sconcerto",
+			'pt-br': "Perplexo",
+			'de-de': "Perplex"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
 		cost: ["Fire"]
 	}, {
 		name: {
-			en: "Derisive Roasting",
-			fr: "Raillerie Roussie",
-			es: "Escarnio Abrasador",
-			it: "Scherno Rovente",
-			pt: "Calcinação Sarcástica",
-			de: "Höhnisches Rösten"
+			'en-us': "Derisive Roasting",
+			'fr-fr': "Raillerie Roussie",
+			'es-es': "Escarnio Abrasador",
+			'it-it': "Scherno Rovente",
+			'pt-br': "Calcinação Sarcástica",
+			'de-de': "Höhnisches Rösten"
 		},
 
 		effect: {
-			en: "This attack does 90 damage for each Special Condition affecting your opponent's Active Pokémon.",
-			fr: "Cette attaque inflige 90 dégâts pour chaque État Spécial affectant le Pokémon Actif de votre adversaire.",
-			es: "Este ataque hace 90 puntos de daño por cada Condición Especial que afecte al Pokémon Activo de tu rival.",
-			it: "Questo attacco infligge 90 danni per ogni condizione speciale che influenza il Pokémon attivo del tuo avversario.",
-			pt: "Este ataque causa 90 pontos de dano para cada Condição Especial afetando o Pokémon Ativo do seu oponente.",
-			de: "Diese Attacke fügt für jeden Speziellen Zustand, von dem das Aktive Pokémon deines Gegners betroffen ist, 90 Schadenspunkte zu."
+			'en-us': "This attack does 90 damage for each Special Condition affecting your opponent's Active Pokémon.",
+			'fr-fr': "Cette attaque inflige 90 dégâts pour chaque État Spécial affectant le Pokémon Actif de votre adversaire.",
+			'es-es': "Este ataque hace 90 puntos de daño por cada Condición Especial que afecte al Pokémon Activo de tu rival.",
+			'it-it': "Questo attacco infligge 90 danni per ogni condizione speciale che influenza il Pokémon attivo del tuo avversario.",
+			'pt-br': "Este ataque causa 90 pontos de dano para cada Condição Especial afetando o Pokémon Ativo do seu oponente.",
+			'de-de': "Diese Attacke fügt für jeden Speziellen Zustand, von dem das Aktive Pokémon deines Gegners betroffen ist, 90 Schadenspunkte zu."
 		},
 
 		damage: "90×",
@@ -84,7 +84,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "The winner of competitions between Salazzle is decided by which one has the most male Salandit with it."
+		'en-us': "The winner of competitions between Salazzle is decided by which one has the most male Salandit with it."
 	},
 
 	variants: [

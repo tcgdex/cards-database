@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Combusken",
-		fr: "Galifeu",
-		de: "Jungglut"
+		'en-us': "Combusken",
+		'fr-fr': "Galifeu",
+		'de-de': "Jungglut"
 	},
 
 	illustrator: "Midori Harada",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Torchic",
-		fr: "Poussifeu"
+		'en-us': "Torchic",
+		'fr-fr': "Poussifeu"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lava Burn",
-				fr: "Brûlure de lave",
-				de: "Lava Burn"
+				'en-us': "Lava Burn",
+				'fr-fr': "Brûlure de lave",
+				'de-de': "Lava Burn"
 			},
 			effect: {
-				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 20,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharp Claws",
-				fr: "Griffes affûtées",
-				de: "Sharp Claws"
+				'en-us': "Sharp Claws",
+				'fr-fr': "Griffes affûtées",
+				'de-de': "Sharp Claws"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 40 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 40 damage plus 10 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 40 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Flip a coin. If heads, this attack does 40 damage plus 10 more damage."
 			},
 			damage: "40+",
 

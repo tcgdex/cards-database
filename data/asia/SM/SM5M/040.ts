@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナゲツケサル",
+		'ja-jp': "ナゲツケサル",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "硬い 木の実を 使い 戦う。 そのテクニックは 代々の ボスから グループの 仲間に 受け継がれる。",
+		'ja-jp': "硬い 木の実を 使い 戦う。 そのテクニックは 代々の ボスから グループの 仲間に 受け継がれる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "パワースクラム" },
 			effect: {
-				ja: "このポケモンがベンチにいるかぎり、自分の「ナゲツケサル」が使うワザの、相手のバトル場の進化ポケモンへのダメージは「+30」される。",
+				'ja-jp': "このポケモンがベンチにいるかぎり、自分の「ナゲツケサル」が使うワザの、相手のバトル場の進化ポケモンへのダメージは「+30」される。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。",
 			},
 		},
 	],

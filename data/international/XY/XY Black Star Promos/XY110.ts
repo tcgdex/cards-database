@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Mew",
-		fr: "Mew",
+		'en-us': "Mew",
+		'fr-fr': "Mew",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Clairvoyance",
-				fr: "Voyance",
+				'en-us': "Clairvoyance",
+				'fr-fr': "Voyance",
 			},
 			effect: {
-				en: "Your opponent reveals his or her hand.",
-				fr: "Votre adversaire montre sa main.",
+				'en-us': "Your opponent reveals his or her hand.",
+				'fr-fr': "Votre adversaire montre sa main.",
 			},
 
 		},
@@ -51,7 +51,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its DNA is said to contain the genetic codes of all Pokémon, so it can use all kinds of techniques.",
+		'en-us': "Its DNA is said to contain the genetic codes of all Pokémon, so it can use all kinds of techniques.",
 	},
 
 	thirdParty: {

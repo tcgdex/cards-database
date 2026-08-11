@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [374],
 
 	name: {
-		en: "Beldum",
-		fr: "Terhal",
-		es: "Beldum",
-		it: "Beldum",
-		pt: "Beldum",
-		de: "Tanhel"
+		'en-us': "Beldum",
+		'fr-fr': "Terhal",
+		'es-es': "Beldum",
+		'it-it': "Beldum",
+		'pt-br': "Beldum",
+		'de-de': "Tanhel"
 	},
 
 	illustrator: "Aya Kusube",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la Famille",
-				es: "Llamar a la Familia",
-				it: "Cerca Famiglia",
-				pt: "Chamar a Família",
-				de: "Familienruf"
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la Famille",
+				'es-es': "Llamar a la Familia",
+				'it-it': "Cerca Famiglia",
+				'pt-br': "Chamar a Família",
+				'de-de': "Familienruf"
 			},
 			effect: {
-				en: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
-				fr: "Cherchez dans votre deck jusqu'à 2 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja hasta 2 Pokémon Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
-				it: "Cerca nel tuo mazzo fino a due Pokémon Base e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure por até 2 Pokémon Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
+				'en-us': "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
+				'fr-fr': "Cherchez dans votre deck jusqu'à 2 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja hasta 2 Pokémon Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo fino a due Pokémon Base e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por até 2 Pokémon Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
 			},
 
 		},
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 20,
@@ -86,7 +86,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "If you anger it, it will do more than rampage. It will also burst out strong magnetism, causing nearby machines to break."
+		'en-us': "If you anger it, it will do more than rampage. It will also burst out strong magnetism, causing nearby machines to break."
 	},
 
 	variants: [

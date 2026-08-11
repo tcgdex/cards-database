@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Southern Islands'
 
 const card: Card = {
 	name: {
-		en: "Tentacruel",
+		'en-us': "Tentacruel",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tentacool",
+		'en-us': "Tentacool",
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Tentacle Grip",
+				'en-us': "Tentacle Grip",
 			},
 			effect: {
-				en: "Flip a number of coins equal to the number of Water Energy cards attached to Tentacruel. For each heads, draw 2 cards.",
+				'en-us': "Flip a number of coins equal to the number of Water Energy cards attached to Tentacruel. For each heads, draw 2 cards.",
 			},
 
 		},
@@ -46,10 +46,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Poison Sting",
+				'en-us': "Poison Sting",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 20,
 
@@ -59,10 +59,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Tentacle Grip",
+				'en-us': "Tentacle Grip",
 			},
 			effect: {
-				en: "Flip a number of coins equal to the number of Water Energy cards attached to Tentacruel. For each heads, draw 2 cards.",
+				'en-us': "Flip a number of coins equal to the number of Water Energy cards attached to Tentacruel. For each heads, draw 2 cards.",
 			},
 
 		},
@@ -72,10 +72,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Poison Sting",
+				'en-us': "Poison Sting",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 			},
 			damage: 20,
 
@@ -92,7 +92,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon attacks its prey with its eighty toxin-producing tentacles.",
+		'en-us': "This Pokémon attacks its prey with its eighty toxin-producing tentacles.",
 	},
 
 	variants: [

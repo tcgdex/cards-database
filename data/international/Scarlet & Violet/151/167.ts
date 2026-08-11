@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Herbizarre",
-		en: "Ivysaur",
-		es: "Ivysaur",
-		it: "Ivysaur",
-		pt: "Ivysaur",
-		de: "Bisaknosp"
+		'fr-fr': "Herbizarre",
+		'en-us': "Ivysaur",
+		'es-es': "Ivysaur",
+		'it-it': "Ivysaur",
+		'pt-br': "Ivysaur",
+		'de-de': "Bisaknosp"
 	},
 
 	rarity: "Illustration rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Grass"],
 	evolveFrom: {
-		fr: "Bulbizarre",
-		en: "Bulbasaur",
-		es: "Bulbasaur",
-		it: "Bulbasaur",
-		pt: "Bulbasaur",
-		de: "Bisasam"
+		'fr-fr': "Bulbizarre",
+		'en-us': "Bulbasaur",
+		'es-es': "Bulbasaur",
+		'it-it': "Bulbasaur",
+		'pt-br': "Bulbasaur",
+		'de-de': "Bisasam"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			fr: "Vampigraine",
-			en: "Leech Seed",
-			es: "Drenadoras",
-			it: "Parassiseme",
-			pt: "Semente Sanguessuga",
-			de: "Egelsamen"
+			'fr-fr': "Vampigraine",
+			'en-us': "Leech Seed",
+			'es-es': "Drenadoras",
+			'it-it': "Parassiseme",
+			'pt-br': "Semente Sanguessuga",
+			'de-de': "Egelsamen"
 		},
 
 		effect: {
-			fr: "Soignez 20 dégâts de ce Pokémon.",
-			en: "Heal 20 damage from this Pokémon.",
-			es: "Cura 20 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 20 danni.",
-			pt: "Cure 20 pontos de dano deste Pokémon.",
-			de: "Heile 20 Schadenspunkte bei diesem Pokémon."
+			'fr-fr': "Soignez 20 dégâts de ce Pokémon.",
+			'en-us': "Heal 20 damage from this Pokémon.",
+			'es-es': "Cura 20 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 20 danni.",
+			'pt-br': "Cure 20 pontos de dano deste Pokémon.",
+			'de-de': "Heile 20 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 30
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			fr: "Fouet Lianes",
-			en: "Vine Whip",
-			es: "Látigo Cepa",
-			it: "Frustata",
-			pt: "Chicote de Vinha",
-			de: "Rankenhieb"
+			'fr-fr': "Fouet Lianes",
+			'en-us': "Vine Whip",
+			'es-es': "Látigo Cepa",
+			'it-it': "Frustata",
+			'pt-br': "Chicote de Vinha",
+			'de-de': "Rankenhieb"
 		},
 
 		damage: 80
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Exposure to sunlight adds to its strength. Sunlight also makes the bud on its back grow larger.",
+		'en-us': "Exposure to sunlight adds to its strength. Sunlight also makes the bud on its back grow larger.",
 	},
 
 	variants: [

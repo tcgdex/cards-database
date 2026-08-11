@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Shinx",
-		fr: "Lixy",
-		de: "Sheinux"
+		'en-us': "Shinx",
+		'fr-fr': "Lixy",
+		'de-de': "Sheinux"
 	},
 
 	illustrator: "Lee HyunJung",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Plasma",
-				fr: "Plasma",
-				de: "Plasma"
+				'en-us': "Plasma",
+				'fr-fr': "Plasma",
+				'de-de': "Plasma"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your discard pile for a Lightning Energy card and attach it to Shinx.",
-				fr: "Lancez une pièce. Si c'est face, choisissez dans votre pile de défausse une carte Énergie Lightning et attachez-la à Lixy.",
-				de: "Wirf 1 Münze. bei 'Kopf' durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an Sheinux an."
+				'en-us': "Flip a coin. If heads, search your discard pile for a Lightning Energy card and attach it to Shinx.",
+				'fr-fr': "Lancez une pièce. Si c'est face, choisissez dans votre pile de défausse une carte Énergie Lightning et attachez-la à Lixy.",
+				'de-de': "Wirf 1 Münze. bei 'Kopf' durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an Sheinux an."
 			},
 			damage: 10,
 

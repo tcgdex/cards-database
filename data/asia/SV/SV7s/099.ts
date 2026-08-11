@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เบโรบา",
-		id: "Impidimp"
+		'th-th': "เบโรบา",
+		'id-id': "Impidimp"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -15,24 +15,24 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		th: "อาศัยอยู่รวมกันเป็นฝูง มักจะกลั่นแกล้งและหลอกลวงกันเองเพื่อฝึกฝีมือ",
-		id: "Impidimp hidup membentuk kelompok dan saling berbuat usil untuk mengasah kemampuan mereka."
+		'th-th': "อาศัยอยู่รวมกันเป็นฝูง มักจะกลั่นแกล้งและหลอกลวงกันเองเพื่อฝึกฝีมือ",
+		'id-id': "Impidimp hidup membentuk kelompok dan saling berbuat usil untuk mengasah kemampuan mereka."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ฝ่ามือตบ",
-			id: "Tampar"
+			'th-th': "ฝ่ามือตบ",
+			'id-id': "Tampar"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "กรงเล็บฉีกร่าง",
-			id: "Cakar Penyayat"
+			'th-th': "กรงเล็บฉีกร่าง",
+			'id-id': "Cakar Penyayat"
 		},
 
 		damage: 40,

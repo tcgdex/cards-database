@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charjabug",
-		fr: "Chrysapile",
-		es: "Charjabug",
-		it: "Charjabug",
-		pt: "Charjabug",
-		de: "Akkup"
+		'en-us': "Charjabug",
+		'fr-fr': "Chrysapile",
+		'es-es': "Charjabug",
+		'it-it': "Charjabug",
+		'pt-br': "Charjabug",
+		'de-de': "Akkup"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Grubbin",
-		fr: "Larvibule",
-		es: "Grubbin",
-		it: "Grubbin",
-		pt: "Grubbin",
-		de: "Mabula"
+		'en-us': "Grubbin",
+		'fr-fr': "Larvibule",
+		'es-es': "Grubbin",
+		'it-it': "Grubbin",
+		'pt-br': "Grubbin",
+		'de-de': "Mabula"
 	},
 
 	stage: "Stage1",
@@ -40,19 +40,19 @@ const card: Card = {
 	illustrator: "sowsow",
 
 	description: {
-		en: "Its digestive processes convert the leaves it eats into electricity. An electric sac in its belly stores the electricity for later use."
+		'en-us': "Its digestive processes convert the leaves it eats into electricity. An electric sac in its belly stores the electricity for later use."
 	},
 
 	attacks: [{
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Vise Grip",
-			fr: "Force Poigne",
-			de: "Klammer",
-			es: "Agarre",
-			pt: "Agarramento Compressor",
-			it: "Presa"
+			'en-us': "Vise Grip",
+			'fr-fr': "Force Poigne",
+			'de-de': "Klammer",
+			'es-es': "Agarre",
+			'pt-br': "Agarramento Compressor",
+			'it-it': "Presa"
 		},
 
 		damage: 30
@@ -60,12 +60,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			en: "Head Bolt",
-			fr: "Éclair Frontal",
-			de: "Kopf-Blitz",
-			es: "Rayo de Cabeza",
-			pt: "Raio de Cabeça",
-			it: "Zuccalampo"
+			'en-us': "Head Bolt",
+			'fr-fr': "Éclair Frontal",
+			'de-de': "Kopf-Blitz",
+			'es-es': "Rayo de Cabeza",
+			'pt-br': "Raio de Cabeça",
+			'it-it': "Zuccalampo"
 		},
 
 		damage: 60

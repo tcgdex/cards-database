@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Togetic",
-		th: "โทเกชิก"
+		'id-id': "Togetic",
+		'th-th': "โทเกชิก"
 	},
 
 	illustrator: "Teeziro",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Kabarnya Togetic menampakkan diri di hadapan orang yang hatinya lemah lembut untuk membawakan kebahagiaan kepada orang tersebut.",
-		th: "ว่ากันว่าจะปรากฏตัวต่อหน้าคนที่มีจิตใจดีเพื่อแบ่งความสุขให้"
+		'id-id': "Kabarnya Togetic menampakkan diri di hadapan orang yang hatinya lemah lembut untuk membawakan kebahagiaan kepada orang tersebut.",
+		'th-th': "ว่ากันว่าจะปรากฏตัวต่อหน้าคนที่มีจิตใจดีเพื่อแบ่งความสุขให้"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Ciuman Penyerap",
-			th: "เดรนคิส"
+			'id-id': "Ciuman Penyerap",
+			'th-th': "เดรนคิส"
 		},
 
 		effect: {
-			id: "Pulihkan HP Pokémon ini sejumlah 30.",
-			th: "ฟื้นฟู HP ของโปเกมอนนี้ [30]"
+			'id-id': "Pulihkan HP Pokémon ini sejumlah 30.",
+			'th-th': "ฟื้นฟู HP ของโปเกมอนนี้ [30]"
 		},
 
 		damage: 30,

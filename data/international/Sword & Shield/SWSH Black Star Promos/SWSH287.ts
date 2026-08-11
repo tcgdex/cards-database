@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
@@ -7,12 +7,12 @@ const card: Card = {
 	illustrator: "Yuu Nishida",
 
 	name: {
-		fr: "Morpeko V-UNION",
-		de: "Morpeko V-UNION",
-		es: "Morpeko V-UNIÓN",
-		pt: "Morpeko V-UNIÃO",
-		it: "Morpeko V UNIONE",
-		en: "Morpeko V-UNION"
+		'fr-fr': "Morpeko V-UNION",
+		'de-de': "Morpeko V-UNION",
+		'es-es': "Morpeko V-UNIÓN",
+		'pt-br': "Morpeko V-UNIÃO",
+		'it-it': "Morpeko V UNIONE",
+		'en-us': "Morpeko V-UNION"
 	},
 
 	rarity: "Promo",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Union Gain",
-			pt: "Conquista de União"
+			'en-us': "Union Gain",
+			'pt-br': "Conquista de União"
 		},
 
 		effect: {
-			en: "Attach up to 2 {L} Energy cards from your discard pile to this Pokémon.",
-			pt: "Ligue até 2 cartas de Energia {L} da sua pilha de descarte a este Pokémon."
+			'en-us': "Attach up to 2 {L} Energy cards from your discard pile to this Pokémon.",
+			'pt-br': "Ligue até 2 cartas de Energia {L} da sua pilha de descarte a este Pokémon."
 		}
 	}],
 

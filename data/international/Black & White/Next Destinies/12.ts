@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Arcanine",
-		fr: "Arcanin",
-		es: "Arcanine",
-		it: "Arcanine",
-		pt: "Arcanine",
-		de: "Arkani"
+		'en-us': "Arcanine",
+		'fr-fr': "Arcanin",
+		'es-es': "Arcanine",
+		'it-it': "Arcanine",
+		'pt-br': "Arcanine",
+		'de-de': "Arkani"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Growlithe",
-		fr: "Caninos",
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Blazing Mane",
-				fr: "Crinière Brûlante",
-				es: "Crin Abrasadora",
-				it: "Crinierovente",
-				pt: "Juba Flamejante",
-				de: "Lodernde Mähne"
+				'en-us': "Blazing Mane",
+				'fr-fr': "Crinière Brûlante",
+				'es-es': "Crin Abrasadora",
+				'it-it': "Crinierovente",
+				'pt-br': "Juba Flamejante",
+				'de-de': "Lodernde Mähne"
 			},
 			effect: {
-				en: "If this Pokémon is your Active Pokémon and is damaged by an opponent’s attack (even if this Pokémon is Knocked Out),the Attacking Pokémon is now Burned.",
-				fr: "Si ce Pokémon est votre Pokémon Actif et qu’il subit les dégâts d’une attaque de votre adversaire (même si ce Pokémon est mis K.O.), le Pokémon Attaquant est maintenant Brûlé.",
-				es: "Si este Pokémon es tu Pokémon Activo y resulta dañado por el ataque de un rival (incluso si este Pokémon queda Fuera de Combate), el Pokémon Atacante pasa a estar Quemado.",
-				it: "Se questo Pokémon è il tuo Pokémon attivo e viene danneggiato da un attacco del tuo avversario, anche se viene messo K.O., il Pokémon attaccante viene bruciato.",
-				pt: "Se este Pokémon for seu Pokémon Ativo e ele for danificado pelo ataque de um oponente (mesmo se este Pokémon for Nocauteado), o Pokémon Atacante ficará Queimado.",
-				de: "Wenn dieses Pokémon dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), ist das Angreifende Pokémon jetzt verbrannt."
+				'en-us': "If this Pokémon is your Active Pokémon and is damaged by an opponent’s attack (even if this Pokémon is Knocked Out),the Attacking Pokémon is now Burned.",
+				'fr-fr': "Si ce Pokémon est votre Pokémon Actif et qu’il subit les dégâts d’une attaque de votre adversaire (même si ce Pokémon est mis K.O.), le Pokémon Attaquant est maintenant Brûlé.",
+				'es-es': "Si este Pokémon es tu Pokémon Activo y resulta dañado por el ataque de un rival (incluso si este Pokémon queda Fuera de Combate), el Pokémon Atacante pasa a estar Quemado.",
+				'it-it': "Se questo Pokémon è il tuo Pokémon attivo e viene danneggiato da un attacco del tuo avversario, anche se viene messo K.O., il Pokémon attaccante viene bruciato.",
+				'pt-br': "Se este Pokémon for seu Pokémon Ativo e ele for danificado pelo ataque de um oponente (mesmo se este Pokémon for Nocauteado), o Pokémon Atacante ficará Queimado.",
+				'de-de': "Wenn dieses Pokémon dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), ist das Angreifende Pokémon jetzt verbrannt."
 			},
 		},
 	],
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Spin",
-				fr: "Danseflamme",
+				'en-us': "Fire Spin",
+				'fr-fr': "Danseflamme",
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard 2 Energy attached to this Pokémon.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez 2 Énergies attachées à ce Pokémon.",
+				'en-us': "Flip a coin. If tails, discard 2 Energy attached to this Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez 2 Énergies attachées à ce Pokémon.",
 			},
 			damage: 100,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its proud and regal appearance has captured the hearts of people since long ago.",
+		'en-us': "Its proud and regal appearance has captured the hearts of people since long ago.",
 	},
 
 	thirdParty: {

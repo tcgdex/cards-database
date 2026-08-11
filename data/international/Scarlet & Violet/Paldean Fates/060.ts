@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scraggy",
-		fr: "Baggiguane",
-		es: "Scraggy",
-		it: "Scraggy",
-		pt: "Scraggy",
-		de: "Zurrokex"
+		'en-us': "Scraggy",
+		'fr-fr': "Baggiguane",
+		'es-es': "Scraggy",
+		'it-it': "Scraggy",
+		'pt-br': "Scraggy",
+		'de-de': "Zurrokex"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Low Kick",
-			fr: "Balayage",
-			es: "Patada Baja",
-			it: "Colpo Basso",
-			pt: "Rasteira",
-			de: "Fußkick"
+			'en-us': "Low Kick",
+			'fr-fr': "Balayage",
+			'es-es': "Patada Baja",
+			'it-it': "Colpo Basso",
+			'pt-br': "Rasteira",
+			'de-de': "Fußkick"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Headstrike",
-			fr: "Coup de Tête",
-			es: "Testarada",
-			it: "Testata",
-			pt: "Golpe de Cabeça",
-			de: "Kopftreffer"
+			'en-us': "Headstrike",
+			'fr-fr': "Coup de Tête",
+			'es-es': "Testarada",
+			'it-it': "Testata",
+			'pt-br': "Golpe de Cabeça",
+			'de-de': "Kopftreffer"
 		},
 
 		damage: 50
@@ -79,7 +79,7 @@ const card: Card = {
 	illustrator: "sowsow",
 
 	description: {
-		en: "It protects itself with its durable skin. It's thought that this Pokémon will evolve once its skin has completely stretched out.",
+		'en-us': "It protects itself with its durable skin. It's thought that this Pokémon will evolve once its skin has completely stretched out.",
 	},
 
 }

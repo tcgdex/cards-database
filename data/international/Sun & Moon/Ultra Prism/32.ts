@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Piplup",
-		fr: "Tiplouf",
-		es: "Piplup",
-		it: "Piplup",
-		pt: "Piplup",
-		de: "Plinfa"
+		'en-us': "Piplup",
+		'fr-fr': "Tiplouf",
+		'es-es': "Piplup",
+		'it-it': "Piplup",
+		'pt-br': "Piplup",
+		'de-de': "Plinfa"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				es: "Picotazo",
-				it: "Beccata",
-				pt: "Bicada",
-				de: "Schnabel"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'es-es': "Picotazo",
+				'it-it': "Beccata",
+				'pt-br': "Bicada",
+				'de-de': "Schnabel"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse Vague",
-				es: "Chapoteo Ondulante",
-				it: "Schizzi d’Onda",
-				pt: "Onda Borrifante",
-				de: "Wellenplatscher"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse Vague",
+				'es-es': "Chapoteo Ondulante",
+				'it-it': "Schizzi d’Onda",
+				'pt-br': "Onda Borrifante",
+				'de-de': "Wellenplatscher"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
+		'en-us': "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
 	},
 
 	thirdParty: {

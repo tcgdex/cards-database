@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Slowpoke",
-		fr: "Ramoloss",
-		de: "Flegmon"
+		'en-us': "Slowpoke",
+		'fr-fr': "Ramoloss",
+		'de-de': "Flegmon"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whimsy Tackle",
-				fr: "Charge bizarre",
-				de: "Launischer Tackle"
+				'en-us': "Whimsy Tackle",
+				'fr-fr': "Charge bizarre",
+				'de-de': "Launischer Tackle"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It lazes vacantly near water. If something bites its tail, it won’t even notice for a whole day."
+		'en-us': "It lazes vacantly near water. If something bites its tail, it won’t even notice for a whole day."
 	},
 
 	variants: [

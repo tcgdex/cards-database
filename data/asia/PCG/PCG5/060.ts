@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アエロダクチル",
+		'ja-jp': "アエロダクチル",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "反応性保護",
+				'ja-jp': "反応性保護",
 			},
 			effect: {
-				ja: "対戦相手のPokã©Monからの攻撃によってAerodactylに与えられた損傷は、Aerodactylに取り付けられた各Reactエネルギーカードに対して（脱力感と抵抗を適用した後）10削減されます。",
+				'ja-jp': "対戦相手のPokã©Monからの攻撃によってAerodactylに与えられた損傷は、Aerodactylに取り付けられた各Reactエネルギーカードに対して（脱力感と抵抗を適用した後）10削減されます。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "パワーブロー",
+				'ja-jp': "パワーブロー",
 			},
 			effect: {
-				ja: "アエロダクチルに付着した各エネルギーに対して、10ダメージに加えて10ダメージを与えます。",
+				'ja-jp': "アエロダクチルに付着した各エネルギーに対して、10ダメージに加えて10ダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "スピードストローク",
+				'ja-jp': "スピードストローク",
 			},
 			effect: {
-				ja: "対戦相手の次のターン中に、対戦相手のポケモンエクスからの攻撃によってアエロダクチルに行われる損傷を含むすべての効果を防​​ぎます。",
+				'ja-jp': "対戦相手の次のターン中に、対戦相手のポケモンエクスからの攻撃によってアエロダクチルに行われる損傷を含むすべての効果を防​​ぎます。",
 			},
 			damage: 40,
 		},

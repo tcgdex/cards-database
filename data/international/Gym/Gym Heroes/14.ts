@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Gengar"
+		'en-us': "Sabrina's Gengar"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Haunter"
+		'en-us': "Haunter"
 	},
 
 	stage: "Stage2",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Pain Amplifier"
+				'en-us': "Pain Amplifier"
 			},
 			effect: {
-				en: "Put a damage counter on each of your opponent's Pokémon has already has any damage counters on it."
+				'en-us': "Put a damage counter on each of your opponent's Pokémon has already has any damage counters on it."
 			},
 
 		},
@@ -45,10 +45,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Call of the Night"
+				'en-us': "Call of the Night"
 			},
 			effect: {
-				en: "Unless this attack Knocks Out the Defending Pokémon, flip 2 coins. If both of them are heads, your opponent shuffles his or her Active Pokémon and all cards attached to it into his or her deck."
+				'en-us': "Unless this attack Knocks Out the Defending Pokémon, flip 2 coins. If both of them are heads, your opponent shuffles his or her Active Pokémon and all cards attached to it into his or her deck."
 			},
 			damage: 40,
 

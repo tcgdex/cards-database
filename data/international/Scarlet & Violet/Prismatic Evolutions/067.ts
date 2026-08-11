@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bronzong",
-		fr: "Archéodong",
-		es: "Bronzong",
-		pt: "Bronzong",
-		it: "Bronzong",
-		de: "Bronzong"
+		'en-us': "Bronzong",
+		'fr-fr': "Archéodong",
+		'es-es': "Bronzong",
+		'pt-br': "Bronzong",
+		'it-it': "Bronzong",
+		'de-de': "Bronzong"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Metal"],
 	evolveFrom: {
-		en: "Bronzor",
-		fr: "Archéomire",
-		es: "Bronzor",
-		pt: "Bronzor",
-		it: "Bronzor",
-		de: "Bronzel"
+		'en-us': "Bronzor",
+		'fr-fr': "Archéomire",
+		'es-es': "Bronzor",
+		'pt-br': "Bronzor",
+		'it-it': "Bronzor",
+		'de-de': "Bronzel"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Protective Bell",
-			fr: "Cloche Protectrice",
-			es: "Campana Protectora",
-			pt: "Sino Protetor",
-			it: "Campana Protettiva",
-			de: "Schutzglocke"
+			'en-us': "Protective Bell",
+			'fr-fr': "Cloche Protectrice",
+			'es-es': "Campana Protectora",
+			'pt-br': "Sino Protetor",
+			'it-it': "Campana Protettiva",
+			'de-de': "Schutzglocke"
 		},
 
 		effect: {
-			en: "All of your Pokémon take 10 less damage from attacks from your opponent's Pokémon (after applying Weakness and Resistance).",
-			fr: "Tous vos Pokémon subissent 10 dégâts de moins provenant des attaques des Pokémon de votre adversaire (après application de la Faiblesse et de la Résistance).",
-			es: "Los ataques de los Pokémon de tu rival hacen 10 puntos de daño menos a todos tus Pokémon (después de aplicar Debilidad y Resistencia).",
-			pt: "Todos os seus Pokémon recebem 10 pontos de dano a menos de ataques dos Pokémon do seu oponente (depois de aplicar Fraqueza e Resistência).",
-			it: "I tuoi Pokémon subiscono 10 danni in meno dagli attacchi dei Pokémon del tuo avversario, dopo aver applicato debolezza e resistenza.",
-			de: "Allen deinen Pokémon werden durch Attacken von Pokémon deines Gegners 10 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+			'en-us': "All of your Pokémon take 10 less damage from attacks from your opponent's Pokémon (after applying Weakness and Resistance).",
+			'fr-fr': "Tous vos Pokémon subissent 10 dégâts de moins provenant des attaques des Pokémon de votre adversaire (après application de la Faiblesse et de la Résistance).",
+			'es-es': "Los ataques de los Pokémon de tu rival hacen 10 puntos de daño menos a todos tus Pokémon (después de aplicar Debilidad y Resistencia).",
+			'pt-br': "Todos os seus Pokémon recebem 10 pontos de dano a menos de ataques dos Pokémon do seu oponente (depois de aplicar Fraqueza e Resistência).",
+			'it-it': "I tuoi Pokémon subiscono 10 danni in meno dagli attacchi dei Pokémon del tuo avversario, dopo aver applicato debolezza e resistenza.",
+			'de-de': "Allen deinen Pokémon werden durch Attacken von Pokémon deines Gegners 10 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 		}
 	}],
 
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			en: "Heavy Impact",
-			fr: "Gros Impact",
-			es: "Impacto Pesado",
-			pt: "Impacto Pesado",
-			it: "Impatto Pesante",
-			de: "Schwerer Einschlag"
+			'en-us': "Heavy Impact",
+			'fr-fr': "Gros Impact",
+			'es-es': "Impacto Pesado",
+			'pt-br': "Impacto Pesado",
+			'it-it': "Impatto Pesante",
+			'de-de': "Schwerer Einschlag"
 		},
 
 		damage: 50

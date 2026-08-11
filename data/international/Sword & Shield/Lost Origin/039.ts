@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shellos",
-		fr: "Sancoki",
-		es: "Shellos",
-		it: "Shellos",
-		pt: "Shellos",
-		de: "Schalellos"
+		'en-us': "Shellos",
+		'fr-fr': "Sancoki",
+		'es-es': "Shellos",
+		'it-it': "Shellos",
+		'pt-br': "Shellos",
+		'de-de': "Schalellos"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Rain Splash",
-			fr: "Pluie Éclaboussante",
-			es: "Golpe de Lluvia",
-			it: "Spruzzapioggia",
-			pt: "Chuva Borrifante",
-			de: "Regenplatscher"
+			'en-us': "Rain Splash",
+			'fr-fr': "Pluie Éclaboussante",
+			'es-es': "Golpe de Lluvia",
+			'it-it': "Spruzzapioggia",
+			'pt-br': "Chuva Borrifante",
+			'de-de': "Regenplatscher"
 		},
 
 		damage: 10
@@ -38,12 +38,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Surf",
-			fr: "Surf",
-			es: "Surf",
-			it: "Surf",
-			pt: "Surfar",
-			de: "Surfer"
+			'en-us': "Surf",
+			'fr-fr': "Surf",
+			'es-es': "Surf",
+			'it-it': "Surf",
+			'pt-br': "Surfar",
+			'de-de': "Surfer"
 		},
 
 		damage: 30

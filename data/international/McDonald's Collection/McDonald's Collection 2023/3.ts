@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2023'
 
 const card: Card = {
 	name: {
-		en: "Quaxly",
-		fr: "Coiffeton",
-		es: "Quaxly",
-		it: "Quaxly",
-		pt: "Quaxly",
-		de: "Kwaks"
+		'en-us': "Quaxly",
+		'fr-fr': "Coiffeton",
+		'es-es': "Quaxly",
+		'it-it': "Quaxly",
+		'pt-br': "Quaxly",
+		'de-de': "Kwaks"
 	},
 
 	illustrator: "Mizue",
@@ -28,19 +28,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				en: "Pound",
-				fr: "Écras'Face",
-				es: "Destructor",
-				it: "Botta",
-				pt: "Pancada",
-				de: "Klaps"
+				'en-us': "Pound",
+				'fr-fr': "Écras'Face",
+				'es-es': "Destructor",
+				'it-it': "Botta",
+				'pt-br': "Pancada",
+				'de-de': "Klaps"
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				en: "Kick",
+				'en-us': "Kick",
 			},
 			damage: 20,
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Dark Primeape",
-		fr: "Colossinge obscur",
-		de: "Dunkles Rasaff"
+		'en-us': "Dark Primeape",
+		'fr-fr': "Colossinge obscur",
+		'de-de': "Dunkles Rasaff"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mankey",
-		fr: "Férosinge"
+		'en-us': "Mankey",
+		'fr-fr': "Férosinge"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Frenzy",
-				fr: "Pète les plombs",
-				de: "Frenzy"
+				'en-us': "Frenzy",
+				'fr-fr': "Pète les plombs",
+				'de-de': "Frenzy"
 			},
 			effect: {
-				en: "If Dark Primeape does any damage while it's Confused (even to itself), it does 30 more damage.",
-				fr: "Si Colossinge obscur inflige des dégâts lorsqu'il est Confus (y compris à lui-même), il inflige 30 dégâts supplémentaires.",
-				de: "If Dark Primeape does any damage while it's Confused (even to itself), it dies 20 more damage."
+				'en-us': "If Dark Primeape does any damage while it's Confused (even to itself), it does 30 more damage.",
+				'fr-fr': "Si Colossinge obscur inflige des dégâts lorsqu'il est Confus (y compris à lui-même), il inflige 30 dégâts supplémentaires.",
+				'de-de': "If Dark Primeape does any damage while it's Confused (even to itself), it dies 20 more damage."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Frenzied Attack",
-				fr: "Attaque frénétique",
-				de: "Frenzied Attack"
+				'en-us': "Frenzied Attack",
+				'fr-fr': "Attaque frénétique",
+				'de-de': "Frenzied Attack"
 			},
 			effect: {
-				en: "Dark Primeape is now Confused (after doing damage).",
-				fr: "Colossinge obscur est maintenant Confus (après application des dégâts).",
-				de: "Dark Primeape is now Confused (after doing damage)."
+				'en-us': "Dark Primeape is now Confused (after doing damage).",
+				'fr-fr': "Colossinge obscur est maintenant Confus (après application des dégâts).",
+				'de-de': "Dark Primeape is now Confused (after doing damage)."
 			},
 			damage: 40,
 
@@ -77,8 +77,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Although Primeapes have always been mean, lately they seem to be becoming even more vicious and frenzied.",
-		fr: "Bien que les Colossinge aient toujours été mauvais, il semble que depuis peu, ils deviennent de plus en plus vicieux et frénétiques."
+		'en-us': "Although Primeapes have always been mean, lately they seem to be becoming even more vicious and frenzied.",
+		'fr-fr': "Bien que les Colossinge aient toujours été mauvais, il semble que depuis peu, ils deviennent de plus en plus vicieux et frénétiques."
 	},
 
 

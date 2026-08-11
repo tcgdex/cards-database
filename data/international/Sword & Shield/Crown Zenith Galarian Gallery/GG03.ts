@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith Galarian Gallery"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magmortar",
-		fr: "Maganon",
-		es: "Magmortar",
-		it: "Magmortar",
-		pt: "Magmortar",
-		de: "Magbrant"
+		'en-us': "Magmortar",
+		'fr-fr': "Maganon",
+		'es-es': "Magmortar",
+		'it-it': "Magmortar",
+		'pt-br': "Magmortar",
+		'de-de': "Magbrant"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Magmar",
-		fr: "Magmar",
-		es: "Magmar",
-		it: "Magmar",
-		pt: "Magmar",
-		de: "Magmar"
+		'en-us': "Magmar",
+		'fr-fr': "Magmar",
+		'es-es': "Magmar",
+		'it-it': "Magmar",
+		'pt-br': "Magmar",
+		'de-de': "Magmar"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Mega Punch",
-			fr: "Ultimapoing",
-			es: "Megapuño",
-			it: "Megapugno",
-			pt: "Megassoco",
-			de: "Megahieb"
+			'en-us': "Mega Punch",
+			'fr-fr': "Ultimapoing",
+			'es-es': "Megapuño",
+			'it-it': "Megapugno",
+			'pt-br': "Megassoco",
+			'de-de': "Megahieb"
 		},
 
 		damage: 50
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Boltsplosion",
-			fr: "Explofoudre",
-			es: "Rayoexplosión",
-			it: "Esplodifulmine",
-			pt: "Explorraio",
-			de: "Blitzplosion"
+			'en-us': "Boltsplosion",
+			'fr-fr': "Explofoudre",
+			'es-es': "Rayoexplosión",
+			'it-it': "Esplodifulmine",
+			'pt-br': "Explorraio",
+			'de-de': "Blitzplosion"
 		},
 
 		effect: {
-			en: "If Electivire is on your Bench, this attack does 120 more damage.",
-			fr: "Si Élekable est sur votre Banc, cette attaque inflige 120 dégâts supplémentaires.",
-			es: "Si Electivire está en tu Banca, este ataque hace 120 puntos de daño más.",
-			it: "Se Electivire è nella tua panchina, questo attacco infligge 120 danni in più.",
-			pt: "Se Electivire estiver no seu Banco, este ataque causará 120 pontos de dano a mais.",
-			de: "Wenn sich Elevoltek auf deiner Bank befindet, fügt diese Attacke 120 Schadenspunkte mehr zu."
+			'en-us': "If Electivire is on your Bench, this attack does 120 more damage.",
+			'fr-fr': "Si Élekable est sur votre Banc, cette attaque inflige 120 dégâts supplémentaires.",
+			'es-es': "Si Electivire está en tu Banca, este ataque hace 120 puntos de daño más.",
+			'it-it': "Se Electivire è nella tua panchina, questo attacco infligge 120 danni in più.",
+			'pt-br': "Se Electivire estiver no seu Banco, este ataque causará 120 pontos de dano a mais.",
+			'de-de': "Wenn sich Elevoltek auf deiner Bank befindet, fügt diese Attacke 120 Schadenspunkte mehr zu."
 		},
 
 		damage: "120+"
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When Magmortar inhales deeply, the fire burning in its belly intensifies, rising in temperature to over 3,600 degrees Fahrenheit.",
+		'en-us': "When Magmortar inhales deeply, the fire burning in its belly intensifies, rising in temperature to over 3,600 degrees Fahrenheit.",
 	},
 
 	

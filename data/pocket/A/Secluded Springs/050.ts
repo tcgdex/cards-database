@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zoroark",
-		fr: "Zoroark"
+		'en-us': "Zoroark",
+		'fr-fr': "Zoroark"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -18,12 +18,12 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Zorua"
+		'en-us': "Zorua"
 	},
 
 	description: {
-		en: "Stories say those who tried to catch Zoroark were\ntrapped in an illusion and punished.",
-		fr: "On dit que ceux qui osent tenter de le capturer restent prisonniers des paysages illusoires qu'il peut créer."
+		'en-us': "Stories say those who tried to catch Zoroark were\ntrapped in an illusion and punished.",
+		'fr-fr': "On dit que ceux qui osent tenter de le capturer restent prisonniers des paysages illusoires qu'il peut créer."
 	},
 
 	stage: "Stage1",
@@ -32,20 +32,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Illusive Trickery",
-			fr: "Ruse Illusoire"
+			'en-us': "Illusive Trickery",
+			'fr-fr': "Ruse Illusoire"
 		},
 
 		effect: {
-			en: "If your opponent's Pokémon is Knocked Out by damage from this Pokémon's attacks, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon.",
-			fr: "Si le Pokémon de votre adversaire est mis K.O. par les dégâts des attaques de ce Pokémon, pendant le prochain tour de votre adversaire, évitez tous les dégâts et les effets d'attaques infligés à ce Pokémon."
+			'en-us': "If your opponent's Pokémon is Knocked Out by damage from this Pokémon's attacks, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon.",
+			'fr-fr': "Si le Pokémon de votre adversaire est mis K.O. par les dégâts des attaques de ce Pokémon, pendant le prochain tour de votre adversaire, évitez tous les dégâts et les effets d'attaques infligés à ce Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Night Daze",
-			fr: "Explonuit"
+			'en-us': "Night Daze",
+			'fr-fr': "Explonuit"
 		},
 
 		damage: 70,

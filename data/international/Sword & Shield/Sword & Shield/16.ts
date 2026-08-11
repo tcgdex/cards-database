@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Blipbug",
-		fr: "Larvadar",
-		es: "Blipbug",
-		it: "Blipbug",
-		pt: "Blipbug",
-		de: "Sensect"
+		'en-us': "Blipbug",
+		'fr-fr': "Larvadar",
+		'es-es': "Blipbug",
+		'it-it': "Blipbug",
+		'pt-br': "Blipbug",
+		'de-de': "Sensect"
 	},
 
 	illustrator: "nagimiso",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Ronge",
-				es: "Roer",
-				it: "Rosicchiamento",
-				pt: "Roída",
-				de: "Nagen"
+				'en-us': "Gnaw",
+				'fr-fr': "Ronge",
+				'es-es': "Roer",
+				'it-it': "Rosicchiamento",
+				'pt-br': "Roída",
+				'de-de': "Nagen"
 			},
 
 			damage: 20,
@@ -60,7 +60,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings."
+		'en-us': "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings."
 	},
 
 	dexId: [824],

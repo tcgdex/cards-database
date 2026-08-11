@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Wugtrio ex"
+		'id-id': "Wugtrio ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,21 +17,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Tricolor Pump"
+			'id-id': "Tricolor Pump"
 		},
 
 		effect: {
-			id: "Buang paling banyak 3 lembar Energi dari Kartu Pegangan sendiri ke Trash, serangan ini memberikan kerusakan sejumlah 60 untuk tiap lembarnya kepada 1 Pokémon lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
+			'id-id': "Buang paling banyak 3 lembar Energi dari Kartu Pegangan sendiri ke Trash, serangan ini memberikan kerusakan sejumlah 60 untuk tiap lembarnya kepada 1 Pokémon lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
 		},
 
 		cost: ["Water"]
 	}, {
 		name: {
-			id: "Pitingan Pelumpuh"
+			'id-id': "Pitingan Pelumpuh"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
+			'id-id': "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
 		},
 
 		damage: 120,

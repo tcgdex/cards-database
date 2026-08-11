@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pawniard",
-		fr: "Scalpion",
-		es: "Pawniard",
+		'en-us': "Pawniard",
+		'fr-fr': "Scalpion",
+		'es-es': "Pawniard",
 		'es-mx': "Pawniard",
-		de: "Gladiantri",
-		it: "Pawniard",
-		pt: "Pawniard"
+		'de-de': "Gladiantri",
+		'it-it': "Pawniard",
+		'pt-br': "Pawniard"
 	},
 
 	illustrator: "Yuya Oka",
@@ -26,23 +26,23 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			en: "Push Down",
-			fr: "Recul",
-			es: "Oprimir",
+			'en-us': "Push Down",
+			'fr-fr': "Recul",
+			'es-es': "Oprimir",
 			'es-mx': "Oprimir",
-			de: "Runterdrücken",
-			it: "Spintonare",
-			pt: "Rebaixar"
+			'de-de': "Runterdrücken",
+			'it-it': "Spintonare",
+			'pt-br': "Rebaixar"
 		},
 
 		effect: {
-			en: "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
-			fr: "Envoyez le Pokémon Actif de votre adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
-			es: "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
+			'en-us': "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+			'fr-fr': "Envoyez le Pokémon Actif de votre adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
+			'es-es': "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
 			'es-mx': "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
-			de: "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)",
-			it: "Sposta il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
-			pt: "Mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)"
+			'de-de': "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)",
+			'it-it': "Sposta il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
+			'pt-br': "Mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)"
 		},
 
 		damage: 10
@@ -64,7 +64,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Any chips in its blades would prove fatal for it. After each battle, it diligently maintains its blades using its favorite sharpening stone.",
+		'en-us': "Any chips in its blades would prove fatal for it. After each battle, it diligently maintains its blades using its favorite sharpening stone.",
 	},
 
 	variants: [

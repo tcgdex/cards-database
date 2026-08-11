@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴーリキー",
+		'ja-jp': "ゴーリキー",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "きたえにきたえた 結果 凄まじい パワーを 手にいれた。 その力を 活かし 人の仕事を 手伝う。",
+		'ja-jp': "きたえにきたえた 結果 凄まじい パワーを 手にいれた。 その力を 活かし 人の仕事を 手伝う。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "におうだち" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分のベンチポケモン全員は、相手のワザのダメージを受けず、相手のワザや特性の効果によるダメカンものらない。",
+				'ja-jp': "このポケモンがいるかぎり、自分のベンチポケモン全員は、相手のワザのダメージを受けず、相手のワザや特性の効果によるダメカンものらない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Fighting", "Fighting"],
 			effect: {
-				ja: "コインを1回投げオモテなら、30ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、30ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ワンリキー",
+		'ja-jp': "ワンリキー",
 	},
 
 	retreat: 3,

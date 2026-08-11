@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Surfing Pikachu",
-		fr: "Pikachu surfeur"
+		'en-us': "Surfing Pikachu",
+		'fr-fr': "Pikachu surfeur"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -31,8 +31,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf"
+				'en-us': "Surf",
+				'fr-fr': "Surf"
 			},
 
 			damage: 30,
@@ -50,8 +50,8 @@ const card: Card = {
 
 
 	description: {
-		en: "One summer, a group of Pikachus was found riding the waves at the local beach.",
-		fr: "L'été, on aperçoit souvent des bandes de Pikachu surfant sur les vagues."
+		'en-us': "One summer, a group of Pikachus was found riding the waves at the local beach.",
+		'fr-fr': "L'été, on aperçoit souvent des bandes de Pikachu surfant sur les vagues."
 	},
 
 	variants: [

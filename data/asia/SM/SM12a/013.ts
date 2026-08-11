@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アママイコ",
+		'ja-jp': "アママイコ",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "硬いヘタで 守られているので とりポケモンとも 平気で 遊ぶ。 突かれまくるが 気に していない。",
+		'ja-jp': "硬いヘタで 守られているので とりポケモンとも 平気で 遊ぶ。 突かれまくるが 気に していない。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数×30ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数×30ダメージ。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アマカジ",
+		'ja-jp': "アマカジ",
 	},
 
 	retreat: 2,

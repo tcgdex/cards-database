@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lokix",
-		fr: "Gambex",
-		es: "Lokix",
-		it: "Lokix",
-		pt: "Lokix",
-		de: "Lextremo"
+		'en-us': "Lokix",
+		'fr-fr': "Gambex",
+		'es-es': "Lokix",
+		'it-it': "Lokix",
+		'pt-br': "Lokix",
+		'de-de': "Lextremo"
 	},
 
 	rarity: "Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Nymble",
-		fr: "Lilliterelle",
-		es: "Nymble",
-		it: "Nymble",
-		pt: "Nymble",
-		de: "Micrick"
+		'en-us': "Nymble",
+		'fr-fr': "Lilliterelle",
+		'es-es': "Nymble",
+		'it-it': "Nymble",
+		'pt-br': "Nymble",
+		'de-de': "Micrick"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Bounce",
-			fr: "Rebond",
-			es: "Bote",
-			it: "Rimbalzo",
-			pt: "Ricochete",
-			de: "Sprungfeder"
+			'en-us': "Bounce",
+			'fr-fr': "Rebond",
+			'es-es': "Bote",
+			'it-it': "Rimbalzo",
+			'pt-br': "Ricochete",
+			'de-de': "Sprungfeder"
 		},
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-			es: "Cambia este Pokémon por uno de tus Pokémon en Banca.",
-			it: "Scambia questo Pokémon con uno della tua panchina.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+			'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+			'fr-fr': "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'es-es': "Cambia este Pokémon por uno de tus Pokémon en Banca.",
+			'it-it': "Scambia questo Pokémon con uno della tua panchina.",
+			'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+			'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 		},
 
 		damage: 30
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Darkness", "Darkness"],
 
 		name: {
-			en: "Punishing Kick",
-			fr: "Coup de Pied Punitif",
-			es: "Patada Castigadora",
-			it: "Calcio Punitivo",
-			pt: "Chute Punitivo",
-			de: "Strafender Kick"
+			'en-us': "Punishing Kick",
+			'fr-fr': "Coup de Pied Punitif",
+			'es-es': "Patada Castigadora",
+			'it-it': "Calcio Punitivo",
+			'pt-br': "Chute Punitivo",
+			'de-de': "Strafender Kick"
 		},
 
 		effect: {
-			en: "This attack does 40 more damage for each damage counter on your opponent's Active Pokémon.",
-			fr: "Cette attaque inflige 40 dégâts supplémentaires pour chaque marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
-			es: "Este ataque hace 40 puntos de daño más por cada contador de daño en el Pokémon Activo de tu rival.",
-			it: "Questo attacco infligge 40 danni in più per ogni segnalino danno presente sul Pokémon attivo del tuo avversario.",
-			pt: "Este ataque causa 40 pontos de dano a mais para cada contador de dano no Pokémon Ativo do seu oponente.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf dem Aktiven Pokémon deines Gegners 40 Schadenspunkte mehr zu."
+			'en-us': "This attack does 40 more damage for each damage counter on your opponent's Active Pokémon.",
+			'fr-fr': "Cette attaque inflige 40 dégâts supplémentaires pour chaque marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
+			'es-es': "Este ataque hace 40 puntos de daño más por cada contador de daño en el Pokémon Activo de tu rival.",
+			'it-it': "Questo attacco infligge 40 danni in più per ogni segnalino danno presente sul Pokémon attivo del tuo avversario.",
+			'pt-br': "Este ataque causa 40 pontos de dano a mais para cada contador de dano no Pokémon Ativo do seu oponente.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf dem Aktiven Pokémon deines Gegners 40 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -84,7 +84,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "When it decides to fight all out, it stands on its previously folded legs to enter Showdown Mode. It neutralizes its enemies in short order.",
+		'en-us': "When it decides to fight all out, it stands on its previously folded legs to enter Showdown Mode. It neutralizes its enemies in short order.",
 	},
 
 	variants: [

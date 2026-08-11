@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "gardevoir（デルタ種）",
+		'ja-jp': "gardevoir（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "エネルギージャンプ",
+				'ja-jp': "エネルギージャンプ",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前に）、ポカンの1つにアタッチされたエネルギーカードを別のポケモンに移動できます。 Gardevoirが特別な状態の影響を受けている場合、このパワーは使用できません。",
+				'ja-jp': "ターン中に（攻撃の前に）、ポカンの1つにアタッチされたエネルギーカードを別のポケモンに移動できます。 Gardevoirが特別な状態の影響を受けている場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Metal", "Colorless"],
 			name: {
-				ja: "サイキックレイジ",
+				'ja-jp': "サイキックレイジ",
 			},
 			effect: {
-				ja: "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに対するGardevoirの各ダメージカウンターに対して10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに対するGardevoirの各ダメージカウンターに対して10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 		},
 		{
 			cost: ["Psychic", "Colorless", "Colorless"],
 			name: {
-				ja: "ブラックマジック",
+				'ja-jp': "ブラックマジック",
 			},
 			effect: {
-				ja: "10ダメージに加えて、対戦相手のベンチポケモンの数のダメージがさらにさらに多くなります。",
+				'ja-jp': "10ダメージに加えて、対戦相手のベンチポケモンの数のダメージがさらにさらに多くなります。",
 			},
 		},
 	],

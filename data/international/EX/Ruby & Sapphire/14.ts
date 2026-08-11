@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Wailord",
-		fr: "Wailord",
-		de: "Wailord"
+		'en-us': "Wailord",
+		'fr-fr': "Wailord",
+		'de-de': "Wailord"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wailmer",
-		fr: "Wailmer"
+		'en-us': "Wailmer",
+		'fr-fr': "Wailmer"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				de: "Take Down"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'de-de': "Take Down"
 			},
 			effect: {
-				en: "Wailord does 20 damage to itself.",
-				fr: "Wailord s'inflige 20 dégâts.",
-				de: "Wailord does 20 damage to itself."
+				'en-us': "Wailord does 20 damage to itself.",
+				'fr-fr': "Wailord s'inflige 20 dégâts.",
+				'de-de': "Wailord does 20 damage to itself."
 			},
 			damage: 50,
 
@@ -57,9 +57,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
-				de: "Surf"
+				'en-us': "Surf",
+				'fr-fr': "Surf",
+				'de-de': "Surf"
 			},
 
 			damage: 70,

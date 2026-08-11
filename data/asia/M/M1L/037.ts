@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シザリガー",
+		'ja-jp': "シザリガー",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "好戦的な ポケモンで 自分の 縄張りから あらゆる ポケモンを ハサミで つまんで 投げ飛ばすぞ！",
+		'ja-jp': "好戦的な ポケモンで 自分の 縄張りから あらゆる ポケモンを ハサミで つまんで 投げ飛ばすぞ！",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "ヘイガニ",
+		'ja-jp': "ヘイガニ",
 	},
 
 	retreat: 3,

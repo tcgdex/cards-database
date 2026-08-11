@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Skarmory",
-		de: "Panzaeron"
+		'en-us': "Skarmory",
+		'de-de': "Panzaeron"
 	},
 
 	illustrator: "Katsura Tabata",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Peck",
-				de: "Doppelschnabel"
+				'en-us': "Double Peck",
+				'de-de': "Doppelschnabel"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "10×",
 
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spinning Head",
-				de: "Wirbelkopf"
+				'en-us': "Spinning Head",
+				'de-de': "Wirbelkopf"
 			},
 			effect: {
-				en: "Flip a coin. If heads, switch Skarmory with 1 of your Benched Pokémon.",
-				de: "Wirf eine Münze. Tausche bei \"Kopf\" Panzaeron mit 1 Pokémon auf deiner Bank aus."
+				'en-us': "Flip a coin. If heads, switch Skarmory with 1 of your Benched Pokémon.",
+				'de-de': "Wirf eine Münze. Tausche bei \"Kopf\" Panzaeron mit 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 30,
 

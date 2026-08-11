@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イワーク",
+		'ja-jp': "イワーク",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "普段は 土の中に 住んでいる。 地中を 時速８０キロで 掘りながら エサを 探す。",
+		'ja-jp': "普段は 土の中に 住んでいる。 地中を 時速８０キロで 掘りながら エサを 探す。",
 	},
 
 	stage: "Basic",

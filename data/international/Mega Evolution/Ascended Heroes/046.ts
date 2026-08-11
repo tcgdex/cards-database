@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Snorunt",
-		fr: "Stalgamin",
-		es: "Snorunt",
+		'en-us': "Snorunt",
+		'fr-fr': "Stalgamin",
+		'es-es': "Snorunt",
 		'es-mx': "Snorunt",
-		de: "Schneppke",
-		it: "Snorunt",
-		pt: "Snorunt"
+		'de-de': "Schneppke",
+		'it-it': "Snorunt",
+		'pt-br': "Snorunt"
 	},
 
 	illustrator: "Wintr Wandr",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Chilly",
-			fr: "Glacial",
-			es: "Fresquito",
+			'en-us': "Chilly",
+			'fr-fr': "Glacial",
+			'es-es': "Fresquito",
 			'es-mx': "Frialdad",
-			de: "Frösteln",
-			it: "Addiaccio",
-			pt: "Frio"
+			'de-de': "Frösteln",
+			'it-it': "Addiaccio",
+			'pt-br': "Frio"
 		},
 
 		damage: 10
@@ -48,7 +48,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "In some snowy lands, certain folklore says a house will prosper if a Snorunt lives there.",
+		'en-us': "In some snowy lands, certain folklore says a house will prosper if a Snorunt lives there.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ギャロップ",
+		'ja-jp': "ギャロップ",
 	},
 
 	illustrator: "Ryota Murayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "燃える たてがみを はためかせ 時速 ２４０キロの 速度で 大草原を 駆けぬけるのだ。",
+		'ja-jp': "燃える たてがみを はためかせ 時速 ２４０キロの 速度で 大草原を 駆けぬけるのだ。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ポニータ",
+		'ja-jp': "ポニータ",
 	},
 
 	retreat: 0,

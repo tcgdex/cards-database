@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アオキのワシボン",
+		'ja-jp': "アオキのワシボン",
 	},
 
 	illustrator: "cochi8i",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "尖ったツメを 獲物に 突き立て ついばんでいる。 木の実も 食べるが 基本的に 肉食のポケモン。",
+		'ja-jp': "尖ったツメを 獲物に 突き立て ついばんでいる。 木の実も 食べるが 基本的に 肉食のポケモン。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンにダメカンがのっているなら、80ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンにダメカンがのっているなら、80ダメージ追加。",
 			},
 		},
 	],

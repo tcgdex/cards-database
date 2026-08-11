@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モルペコV-UNION",
+		'ja-jp': "モルペコV-UNION",
 		'zh-tw': "莫魯貝可V-UNION",
 	},
 
@@ -18,12 +18,12 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ユニオンゲイン",
+				'ja-jp': "ユニオンゲイン",
 				'zh-tw': "寶可夢V-UNION放置方法",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュから[L]エネルギーを2枚まで選び、このポケモンにつける。",
+				'ja-jp': "自分のトラッシュから[L]エネルギーを2枚まで選び、このポケモンにつける。",
 				'zh-tw': "對戰中可放置1次，在自己的回合將自己的棄牌區中4種莫魯貝可【V-UNION】加以組合，放置於備戰區。",
 			},
 		},

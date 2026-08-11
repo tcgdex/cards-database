@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Jigglypuff",
-		de: "Pummeluff"
+		'en-us': "Jigglypuff",
+		'de-de': "Pummeluff"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nap",
-				de: "Nickerchen"
+				'en-us': "Nap",
+				'de-de': "Nickerchen"
 			},
 			effect: {
-				en: "Remove 1 damage counter from Jigglypuff.",
-				de: "Entferne eine Schadensmarke von Pummeluff."
+				'en-us': "Remove 1 damage counter from Jigglypuff.",
+				'de-de': "Entferne eine Schadensmarke von Pummeluff."
 			},
 
 		},
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lullaby",
-				de: "Wiegenlied"
+				'en-us': "Lullaby",
+				'de-de': "Wiegenlied"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				de: "Das verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'de-de': "Das verteidigende Pokémon schläft jetzt."
 			},
 			damage: 10,
 

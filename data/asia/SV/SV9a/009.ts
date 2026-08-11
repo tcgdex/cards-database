@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カジッチュ",
+		'ja-jp': "カジッチュ",
 		'zh-tw': "啃果蟲",
 		'zh-cn': "啃果蟲"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "りんごの 果肉を 食べて 育つ。 体液で 皮の 強度を 高めつつ 腐らないようにする。",
+		'ja-jp': "りんごの 果肉を 食べて 育つ。 体液で 皮の 強度を 高めつつ 腐らないようにする。",
 		'zh-tw': "吃蘋果的果肉長大。 會用體液增加蘋果外皮的 強度，同時避免蘋果腐爛。",
 		'zh-cn': "吃蘋果的果肉長大。 會用體液增加蘋果外皮的 強度，同時避免蘋果腐爛。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "プチドレイン",
+			'ja-jp': "プチドレイン",
 			'zh-tw': "小吸取",
 			'zh-cn': "小吸取"
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 		damage: 10,
 
 		effect: {
-			ja: "このポケモンのHPを「10」回復する。",
+			'ja-jp': "このポケモンのHPを「10」回復する。",
 			'zh-tw': "將這隻寶可夢恢復「10」HP。",
 			'zh-cn': "將這隻寶可夢恢復「10」HP。"
 		}

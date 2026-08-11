@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Espeon",
-		fr: "Mentali",
-		de: "Psiana"
+		'en-us': "Espeon",
+		'fr-fr': "Mentali",
+		'de-de': "Psiana"
 	},
 
 	illustrator: "Hideaki Hakozaki",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Evoli"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Evolution Memories",
-				fr: "Souvenirs d’Évolution",
-				de: "Entwicklungserinnerungen"
+				'en-us': "Evolution Memories",
+				'fr-fr': "Souvenirs d’Évolution",
+				'de-de': "Entwicklungserinnerungen"
 			},
 			effect: {
-				en: "Espeon can use the attacks of all Pokémon you have in play that evolve from Eevee as its own. (You still need the necessary Energy to use each attack.)",
-				fr: "Mentali peut réutiliser les attaques de tous les Pokémon que vous avez joués et qui sont une évolution d’Evoli. (Vous devrez néanmoins avoir les Énergies nécessaires pour utiliser chaque attaque.)",
-				de: "Psiana kann die Angriffe aller Pokémon, die du im Spiel hast und die sich aus Evoli entwickeln, wie eigene Angriffe verwenden. (Du benötigst dazu die für jeden der Angriffe erforderlichen Energien.)"
+				'en-us': "Espeon can use the attacks of all Pokémon you have in play that evolve from Eevee as its own. (You still need the necessary Energy to use each attack.)",
+				'fr-fr': "Mentali peut réutiliser les attaques de tous les Pokémon que vous avez joués et qui sont une évolution d’Evoli. (Vous devrez néanmoins avoir les Énergies nécessaires pour utiliser chaque attaque.)",
+				'de-de': "Psiana kann die Angriffe aller Pokémon, die du im Spiel hast und die sich aus Evoli entwickeln, wie eigene Angriffe verwenden. (Du benötigst dazu die für jeden der Angriffe erforderlichen Energien.)"
 			}
 		},
 	],
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Solar Ray",
-				fr: "Rayonnement solaire",
-				de: "Sonnenstrahlen"
+				'en-us': "Solar Ray",
+				'fr-fr': "Rayonnement solaire",
+				'de-de': "Sonnenstrahlen"
 			},
 			effect: {
-				en: "Remove 1 damage counter from each of your Pokémon.",
-				fr: "Retirez 1 marqueur de dégât à chacun de vos Pokémon.",
-				de: "Entferne 1 Schadensmarke von jedem deiner Pokémon."
+				'en-us': "Remove 1 damage counter from each of your Pokémon.",
+				'fr-fr': "Retirez 1 marqueur de dégât à chacun de vos Pokémon.",
+				'de-de': "Entferne 1 Schadensmarke von jedem deiner Pokémon."
 			},
 			damage: 30,
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Larvesta",
-		fr: "Pyronille",
-		es: "Larvesta",
-		it: "Larvesta",
-		pt: "Larvesta",
-		de: "Ignivor"
+		'en-us': "Larvesta",
+		'fr-fr': "Pyronille",
+		'es-es': "Larvesta",
+		'it-it': "Larvesta",
+		'pt-br': "Larvesta",
+		'de-de': "Ignivor"
 	},
 
 	illustrator: "match",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision"
+				'en-us': "Ram",
+				'fr-fr': "Collision"
 			},
 
 			damage: 20,
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare",
-				fr: "Flamboiement"
+				'en-us': "Flare",
+				'fr-fr': "Flamboiement"
 			},
 
 			damage: 40,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "This Pokémon was believed to have been born from the sun. When it evolves, its entire body is engulfed in flames.",
+		'en-us': "This Pokémon was believed to have been born from the sun. When it evolves, its entire body is engulfed in flames.",
 	},
 
 	thirdParty: {

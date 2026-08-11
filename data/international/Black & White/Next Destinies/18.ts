@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Litwick",
-		fr: "Funécire",
-		es: "Litwick",
-		it: "Litwick",
-		pt: "Litwick",
-		de: "Lichtel"
+		'en-us': "Litwick",
+		'fr-fr': "Funécire",
+		'es-es': "Litwick",
+		'it-it': "Litwick",
+		'pt-br': "Litwick",
+		'de-de': "Lichtel"
 	},
 
 	illustrator: "Kanako Eo",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flare",
-				fr: "Flamboiement",
+				'en-us': "Flare",
+				'fr-fr': "Flamboiement",
 			},
 
 			damage: 10,
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "While shining a light and pretending to be a guide, it leaches off the life force of any who follow it.",
+		'en-us': "While shining a light and pretending to be a guide, it leaches off the life force of any who follow it.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Quilava",
-		fr: "Feurisson",
-		de: "Igelavar"
+		'en-us': "Quilava",
+		'fr-fr': "Feurisson",
+		'de-de': "Igelavar"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cyndaquil",
-		fr: "Héricendre"
+		'en-us': "Cyndaquil",
+		'fr-fr': "Héricendre"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Slash"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Slash"
 			},
 
 			damage: 20,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Burning Claw",
-				fr: "Griffe brûlante",
-				de: "Burning Claw"
+				'en-us': "Burning Claw",
+				'fr-fr': "Griffe brûlante",
+				'de-de': "Burning Claw"
 			},
 			effect: {
-				en: "You may discard a Fire Energy card attached to Quilava. If you do, the Defending Pokémon is now Burned.",
-				fr: "Vous pouvez défausser une carte Énergie  attachée à Feurisson. Dans ce cas, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "You may discard a  Energy card attached to Quilava. If you do, the Defending Pokémon is now Burned."
+				'en-us': "You may discard a Fire Energy card attached to Quilava. If you do, the Defending Pokémon is now Burned.",
+				'fr-fr': "Vous pouvez défausser une carte Énergie  attachée à Feurisson. Dans ce cas, le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "You may discard a  Energy card attached to Quilava. If you do, the Defending Pokémon is now Burned."
 			},
 			damage: 40,
 

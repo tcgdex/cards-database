@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルナトーン",
+		'ja-jp': "ルナトーン",
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "４０年前に 隕石の 落ちた 場所で 初めて 見つかった。 にらむ だけで 敵を 眠らせる。",
+		'ja-jp': "４０年前に 隕石の 落ちた 場所で 初めて 見つかった。 にらむ だけで 敵を 眠らせる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ソルシェイダー" },
 			effect: {
-				ja: "自分の場に「ソルロック」がいるなら、おたがいの場の[炎]ポケモン（「ポケモンGX・EX」をのぞく）の特性は、すべてなくなる。",
+				'ja-jp': "自分の場に「ソルロック」がいるなら、おたがいの場の[炎]ポケモン（「ポケモンGX・EX」をのぞく）の特性は、すべてなくなる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Psychic"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],

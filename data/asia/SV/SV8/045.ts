@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トゲピー",
+		'ja-jp': "トゲピー",
 		'zh-tw': "波克比",
 		'zh-cn': "波克比",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "殻の中に 幸せが たくさん つまっているらしく 優しくされると 幸運を 分け与える という。",
+		'ja-jp': "殻の中に 幸せが たくさん つまっているらしく 優しくされると 幸運を 分け与える という。",
 		'zh-tw': "殼內好像塞滿了許多幸福， 據說只要溫柔地對待牠， 牠就會把幸運分給對方。",
 		'zh-cn': "殼內好像塞滿了許多幸福， 據說只要溫柔地對待牠， 牠就會把幸運分給對方。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "はたく",
+				'ja-jp': "はたく",
 				'zh-tw': "拍擊",
 				'zh-cn': "拍擊",
 			},

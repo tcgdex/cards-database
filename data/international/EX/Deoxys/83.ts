@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Zubat",
-		fr: "Nosferapti",
-		de: "Zubat"
+		'en-us': "Zubat",
+		'fr-fr': "Nosferapti",
+		'de-de': "Zubat"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Self-control",
-				fr: "Sang-froid",
-				de: "Self-control"
+				'en-us': "Self-control",
+				'fr-fr': "Sang-froid",
+				'de-de': "Self-control"
 			},
 			effect: {
-				en: "Zubat can't be Paralyzed.",
-				fr: "Nosferapti ne peut pas être Paralysé.",
-				de: "Zubat can't be Paralyzed."
+				'en-us': "Zubat can't be Paralyzed.",
+				'fr-fr': "Nosferapti ne peut pas être Paralysé.",
+				'de-de': "Zubat can't be Paralyzed."
 			},
 		},
 	],
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Bite"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Bite"
 			},
 
 			damage: 10,

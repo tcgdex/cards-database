@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Luxio",
-		fr: "Luxio",
-		es: "Luxio",
-		it: "Luxio",
-		pt: "Luxio",
-		de: "Luxio"
+		'en-us': "Luxio",
+		'fr-fr': "Luxio",
+		'es-es': "Luxio",
+		'it-it': "Luxio",
+		'pt-br': "Luxio",
+		'de-de': "Luxio"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shinx",
-		fr: "Lixy",
+		'en-us': "Shinx",
+		'fr-fr': "Lixy",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Disconnect",
-				fr: "Déconnexion",
-				es: "Desconectar",
-				it: "Disconnessione",
-				pt: "Desconexão",
-				de: "Unterbrechen"
+				'en-us': "Disconnect",
+				'fr-fr': "Déconnexion",
+				'es-es': "Desconectar",
+				'it-it': "Disconnessione",
+				'pt-br': "Desconexão",
+				'de-de': "Unterbrechen"
 			},
 			effect: {
-				en: "Your opponent can’t play any Item cards from their hand during their next turn.",
-				fr: "Votre adversaire ne peut pas jouer de carte Objet de sa main pendant son prochain tour.",
-				es: "Tu rival no puede jugar ninguna carta de Objeto de su mano durante su próximo turno.",
-				it: "Il tuo avversario non può giocare le carte Strumento che ha in mano durante il suo prossimo turno.",
-				pt: "Seu oponente não poderá jogar nenhuma carta de Item da própria mão durante a próxima vez dele(a) jogar.",
-				de: "Dein Gegner kann während seines nächsten Zuges keine Itemkarten aus seiner Hand spielen."
+				'en-us': "Your opponent can’t play any Item cards from their hand during their next turn.",
+				'fr-fr': "Votre adversaire ne peut pas jouer de carte Objet de sa main pendant son prochain tour.",
+				'es-es': "Tu rival no puede jugar ninguna carta de Objeto de su mano durante su próximo turno.",
+				'it-it': "Il tuo avversario non può giocare le carte Strumento che ha in mano durante il suo prossimo turno.",
+				'pt-br': "Seu oponente não poderá jogar nenhuma carta de Item da própria mão durante a próxima vez dele(a) jogar.",
+				'de-de': "Dein Gegner kann während seines nächsten Zuges keine Itemkarten aus seiner Hand spielen."
 			},
 			damage: 30,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+		'en-us': "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
 	},
 
 	thirdParty: {

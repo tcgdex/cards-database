@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Articuno"
+		'en-us': "Articuno"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Freeze Dry"
+				'en-us': "Freeze Dry"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 30,
 
@@ -45,10 +45,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Blizzard"
+				'en-us': "Blizzard"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 50,
 
@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains."
+		'en-us': "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains."
 	},
 
 	variants: [

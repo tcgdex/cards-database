@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Stunfisk"
+		'id-id': "Stunfisk"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Saat Stunfisk melepaskan listrik kuat dari pola berwarna kuning di tubuhnya, entah kenapa Pokémon ini tersenyum kecil."
+		'id-id': "Saat Stunfisk melepaskan listrik kuat dari pola berwarna kuning di tubuhnya, entah kenapa Pokémon ini tersenyum kecil."
 	},
 
 	stage: "Basic",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Custom Trap"
+			'id-id': "Custom Trap"
 		},
 
 		effect: {
-			id: "Jika Pokémon ini mengenakan Pokémon Tool saat Pokémon ini ada di Arena Bertarung dan menerima kerusakan akibat serangan dari Pokémon lawan, letakkan 5 Token Kerusakan pada Pokémon yang telah menggunakan serangan."
+			'id-id': "Jika Pokémon ini mengenakan Pokémon Tool saat Pokémon ini ada di Arena Bertarung dan menerima kerusakan akibat serangan dari Pokémon lawan, letakkan 5 Token Kerusakan pada Pokémon yang telah menggunakan serangan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Gelegar Tanah"
+			'id-id': "Gelegar Tanah"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
+			'id-id': "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
 		},
 
 		damage: 30,

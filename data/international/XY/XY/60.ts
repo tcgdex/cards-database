@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Rhyhorn",
-		fr: "Rhinocorne",
-		es: "Rhyhorn",
-		it: "Rhyhorn",
-		pt: "Rhyhorn",
-		de: "Rihorn"
+		'en-us': "Rhyhorn",
+		'fr-fr': "Rhinocorne",
+		'es-es': "Rhyhorn",
+		'it-it': "Rhyhorn",
+		'pt-br': "Rhyhorn",
+		'de-de': "Rihorn"
 	},
 
 	illustrator: "MAHOU",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Dig Out",
-				fr: "Excavation",
-				es: "Cavar",
-				it: "Scavata",
-				pt: "Escavar",
-				de: "Freischaufeln"
+				'en-us': "Dig Out",
+				'fr-fr': "Excavation",
+				'es-es': "Cavar",
+				'it-it': "Scavata",
+				'pt-br': "Escavar",
+				'de-de': "Freischaufeln"
 			},
 			effect: {
-				en: "Discard the top card of your deck. If that card is a Fighting Energy card, attach it to this Pokémon.",
-				fr: "Défaussez la carte du dessus de votre deck. Si c'est une carte Énergie Fighting, attachez-la à ce Pokémon.",
-				es: "Descarta la primera carta de tu baraja. Si es una carta de Energía Fighting, únela a este Pokémon.",
-				it: "Scarta la carta in cima al tuo mazzo. Se è una carta Energia Fighting, assegnala a questo Pokémon.",
-				pt: "Descarte o card de cima do seu baralho. Se esse card for um card de Energia Fighting, ligue-o a este Pokémon.",
-				de: "Lege die oberste Karte deines Decks auf deinen Ablagestapel. Handelt es sich um eine Fighting-Energiekarte, lege sie an dieses Pokémon an."
+				'en-us': "Discard the top card of your deck. If that card is a Fighting Energy card, attach it to this Pokémon.",
+				'fr-fr': "Défaussez la carte du dessus de votre deck. Si c'est une carte Énergie Fighting, attachez-la à ce Pokémon.",
+				'es-es': "Descarta la primera carta de tu baraja. Si es una carta de Energía Fighting, únela a este Pokémon.",
+				'it-it': "Scarta la carta in cima al tuo mazzo. Se è una carta Energia Fighting, assegnala a questo Pokémon.",
+				'pt-br': "Descarte o card de cima do seu baralho. Se esse card for um card de Energia Fighting, ligue-o a este Pokémon.",
+				'de-de': "Lege die oberste Karte deines Decks auf deinen Ablagestapel. Handelt es sich um eine Fighting-Energiekarte, lege sie an dieses Pokémon an."
 			},
 			damage: 10,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Drill",
-				fr: "Empal'Korne",
-				es: "Perforador",
-				it: "Perforcorno",
-				pt: "Chifre Broca",
-				de: "Hornbohrer"
+				'en-us': "Horn Drill",
+				'fr-fr': "Empal'Korne",
+				'es-es': "Perforador",
+				'it-it': "Perforcorno",
+				'pt-br': "Chifre Broca",
+				'de-de': "Hornbohrer"
 			},
 
 			damage: 40,
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging Tackles.",
+		'en-us': "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging Tackles.",
 	},
 
 	thirdParty: {

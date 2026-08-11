@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [693],
 
 	name: {
-		en: "Clawitzer"
+		'en-us': "Clawitzer"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -17,24 +17,24 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Clauncher"
+		'en-us': "Clauncher"
 	},
 
 	description: {
-		en: "The cannonballs of seawater that Clawitzer\nlaunches from its claw are powerful enough to\npunch through tanker hulls."
+		'en-us': "The cannonballs of seawater that Clawitzer\nlaunches from its claw are powerful enough to\npunch through tanker hulls."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Aqua Shower"
+			'en-us': "Aqua Shower"
 		},
 
 		cost: ["Water"],
 
 		effect: {
-			en: "This attack does 20 damage to each of your opponent's Pokémon."
+			'en-us': "This attack does 20 damage to each of your opponent's Pokémon."
 		}
 	}],
 

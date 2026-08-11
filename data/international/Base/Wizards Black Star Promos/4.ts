@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Recharge",
-				fr: "Recharge"
+				'en-us': "Recharge",
+				'fr-fr': "Recharge"
 			},
 			effect: {
-				en: "Search your deck for a Energy card and attach it to Pikachu. Shuffle your deck afterward.",
-				fr: "Dans votre deck, cherchez une carte  Energie et attachez-la à Pikachu. Ensuite, mélangez votre deck."
+				'en-us': "Search your deck for a Energy card and attach it to Pikachu. Shuffle your deck afterward.",
+				'fr-fr': "Dans votre deck, cherchez une carte  Energie et attachez-la à Pikachu. Ensuite, mélangez votre deck."
 			},
 
 		},
@@ -46,12 +46,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunderbolt",
-				fr: "Éclair"
+				'en-us': "Thunderbolt",
+				'fr-fr': "Éclair"
 			},
 			effect: {
-				en: "Discard all Energy cards attached to Pikachu in order to use this attack.",
-				fr: "Défaussez toutes les cartes Énergie attachées à Pikachu pour utiliser cette attaque."
+				'en-us': "Discard all Energy cards attached to Pikachu in order to use this attack.",
+				'fr-fr': "Défaussez toutes les cartes Énergie attachées à Pikachu pour utiliser cette attaque."
 			},
 			damage: 50,
 
@@ -67,8 +67,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When several of these Pokémon gather, they attract so much electricity that they can cause lightning to strike.",
-		fr: "Quand plusieurs de ces Pokémon se réunissent, ils attirent tellement d'électricité qu'ils peuvent provoquer des coups de foudre."
+		'en-us': "When several of these Pokémon gather, they attract so much electricity that they can cause lightning to strike.",
+		'fr-fr': "Quand plusieurs de ces Pokémon se réunissent, ils attirent tellement d'électricité qu'ils peuvent provoquer des coups de foudre."
 	},
 
 	variants: [

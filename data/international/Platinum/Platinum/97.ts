@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Swablu",
-		fr: "Tylton",
-		de: "Wablu"
+		'en-us': "Swablu",
+		'fr-fr': "Tylton",
+		'de-de': "Wablu"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sing",
-				fr: "Berceuse",
-				de: "Sing"
+				'en-us': "Sing",
+				'fr-fr': "Berceuse",
+				'de-de': "Sing"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Run Around",
-				fr: "Courir dans tous les sens",
-				de: "Run Around"
+				'en-us': "Run Around",
+				'fr-fr': "Courir dans tous les sens",
+				'de-de': "Run Around"
 			},
 			effect: {
-				en: "You may switch Swablu with 1 of your Benched Pokémon.",
-				fr: "Vous pouvez échanger Tylton avec 1 des Pokémon de votre Banc.",
-				de: "You may switch Swablu with 1 of your Benched Pokémon."
+				'en-us': "You may switch Swablu with 1 of your Benched Pokémon.",
+				'fr-fr': "Vous pouvez échanger Tylton avec 1 des Pokémon de votre Banc.",
+				'de-de': "You may switch Swablu with 1 of your Benched Pokémon."
 			},
 			damage: 10,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It can't relax if it or its surroundings are not clean. It wipes off dirt with its wings."
+		'en-us': "It can't relax if it or its surroundings are not clean. It wipes off dirt with its wings."
 	},
 
 	variants: [

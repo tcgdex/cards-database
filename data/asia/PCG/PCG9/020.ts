@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バゴン（デルタ種）",
+		'ja-jp': "バゴン（デルタ種）",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "花崗岩の頭",
+				'ja-jp': "花崗岩の頭",
 			},
 			effect: {
-				ja: "対戦相手の次のターン中、攻撃によるバゴンに与えられた損害は10倍に減少します（脱力感と抵抗を適用した後）。",
+				'ja-jp': "対戦相手の次のターン中、攻撃によるバゴンに与えられた損害は10倍に減少します（脱力感と抵抗を適用した後）。",
 			},
 			damage: 10,
 		},

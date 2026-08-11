@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Vibrava",
-		fr: "Vibraninf",
-		de: "Vibrava"
+		'en-us': "Vibrava",
+		'fr-fr': "Vibraninf",
+		'de-de': "Vibrava"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Trapinch",
-		fr: "Kraknoix"
+		'en-us': "Trapinch",
+		'fr-fr': "Kraknoix"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dive",
-				fr: "Plongée",
-				de: "Taucher"
+				'en-us': "Dive",
+				'fr-fr': "Plongée",
+				'de-de': "Taucher"
 			},
 
 			damage: 20,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Turn",
-				fr: "Vif retournement",
-				de: "Schnelldrehung"
+				'en-us': "Quick Turn",
+				'fr-fr': "Vif retournement",
+				'de-de': "Schnelldrehung"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
-				fr: "Lancez deux pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				'en-us': "Flip 2 coins. This attack does 40 damage times the number of heads.",
+				'fr-fr': "Lancez deux pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
 			damage: "40×",
 

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โคโจฟู",
-		id: "Mienfoo"
+		'th-th': "โคโจฟู",
+		'id-id': "Mienfoo"
 	},
 
 	illustrator: "Kariya",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		th: "จะเก็บตัวอยู่กลางป่าลึก หมั่นฝึกตนกันเป็นฝูง ท่าเตะและท่าสับจะต่างกันไปตามฝูง",
-		id: "Mienfoo memencil ke pedalaman gunung dan berlatih bersama kawanannya. Bentuk tendangan dan tebasan berbeda-beda tergantung kawanannya."
+		'th-th': "จะเก็บตัวอยู่กลางป่าลึก หมั่นฝึกตนกันเป็นฝูง ท่าเตะและท่าสับจะต่างกันไปตามฝูง",
+		'id-id': "Mienfoo memencil ke pedalaman gunung dan berlatih bersama kawanannya. Bentuk tendangan dan tebasan berbeda-beda tergantung kawanannya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ตบร่วง",
-			id: "Tumbuk Jatuh"
+			'th-th': "ตบร่วง",
+			'id-id': "Tumbuk Jatuh"
 		},
 
 		effect: {
-			th: "เลือกการ์ด 1 ใบจากบนมือฝ่ายตรงข้ามโดยไม่ดูหน้าการ์ด ทิ้งที่ตำแหน่งทิ้งการ์ด",
-			id: "Pilih 1 kartu dari Kartu Pegangan lawan tanpa melihat sisi depan, lalu buang ke Trash."
+			'th-th': "เลือกการ์ด 1 ใบจากบนมือฝ่ายตรงข้ามโดยไม่ดูหน้าการ์ด ทิ้งที่ตำแหน่งทิ้งการ์ด",
+			'id-id': "Pilih 1 kartu dari Kartu Pegangan lawan tanpa melihat sisi depan, lalu buang ke Trash."
 		},
 
 		damage: 10,

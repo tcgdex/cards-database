@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ポッポ",
+		'ja-jp': "ポッポ",
 		'zh-tw': "波波",
-		th: "ป็อปโปะ"
+		'th-th': "ป็อปโปะ"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -18,9 +18,9 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "戦いを 好まない おとなしい 性格だが 下手に 手を 出すと 強烈に 反撃されるぞ。",
+		'ja-jp': "戦いを 好まない おとなしい 性格だが 下手に 手を 出すと 強烈に 反撃されるぞ。",
 		'zh-tw': "雖然性情溫和不愛戰鬥，但要是隨意對牠出手的話，就會受到牠強烈的反擊。",
-		th: "มีนิสัยสงบเสงี่ยม ไม่ชอบต่อสู้ แต่ถ้าเผลอไปหาเรื่องมันเข้าล่ะก็ จะถูกโต้กลับอย่างรุนแรงเอานะ"
+		'th-th': "มีนิสัยสงบเสงี่ยม ไม่ชอบต่อสู้ แต่ถ้าเผลอไปหาเรื่องมันเข้าล่ะก็ จะถูกโต้กลับอย่างรุนแรงเอานะ"
 	},
 
 	stage: "Basic",
@@ -29,9 +29,9 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "かぜおこし",
+			'ja-jp': "かぜおこし",
 			'zh-tw': "起風",
-			th: "เรียกลม"
+			'th-th': "เรียกลม"
 		},
 
 		damage: 20

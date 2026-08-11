@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY trainer Kit (Pikachu Libre)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Purugly",
-		fr: "Chaffreux",
-		es: "Purugly",
-		it: "Purugly",
-		pt: "Purugly",
-		de: "Shnurgarst"
+		'en-us': "Purugly",
+		'fr-fr': "Chaffreux",
+		'es-es': "Purugly",
+		'it-it': "Purugly",
+		'pt-br': "Purugly",
+		'de-de': "Shnurgarst"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Glameow",
-		fr: "Chaglam",
-		es: "Glameow",
-		it: "Glameow",
-		pt: "Glameow",
-		de: "Charmian"
+		'en-us': "Glameow",
+		'fr-fr': "Chaglam",
+		'es-es': "Glameow",
+		'it-it': "Glameow",
+		'pt-br': "Glameow",
+		'de-de': "Charmian"
 	},
 
 	stage: "Stage1",

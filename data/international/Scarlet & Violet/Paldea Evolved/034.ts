@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Chochodile",
-		en: "Fuecoco",
-		es: "Fuecoco",
-		it: "Fuecoco",
-		pt: "Fuecoco",
-		de: "Krokel"
+		'fr-fr': "Chochodile",
+		'en-us': "Fuecoco",
+		'es-es': "Fuecoco",
+		'it-it': "Fuecoco",
+		'pt-br': "Fuecoco",
+		'de-de': "Krokel"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			fr: "Charge",
-			en: "Tackle",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'fr-fr': "Charge",
+			'en-us': "Tackle",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 20
@@ -66,7 +66,7 @@ const card: Card = {
 	illustrator: "Kagemaru Himeno",
 
 	description: {
-		en: "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
+		'en-us': "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
 	},
 }
 

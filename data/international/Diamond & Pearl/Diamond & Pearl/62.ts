@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Seaking",
-		fr: "Poissoroy",
-		de: "Golking"
+		'en-us': "Seaking",
+		'fr-fr': "Poissoroy",
+		'de-de': "Golking"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Goldeen",
-		fr: "Poissirène",
+		'en-us': "Goldeen",
+		'fr-fr': "Poissirène",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flail",
-				fr: "Fléau",
-				de: "Dreschflegel"
+				'en-us': "Flail",
+				'fr-fr': "Fléau",
+				'de-de': "Dreschflegel"
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on Seaking.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Poissoroy.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Golking zu."
+				'en-us': "Does 10 damage times the number of damage counters on Seaking.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Poissoroy.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Golking zu."
 			},
 			damage: "10x",
 
@@ -55,9 +55,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Horn Drill",
-				fr: "Empal'korne",
-				de: "Hornbohrer"
+				'en-us': "Horn Drill",
+				'fr-fr': "Empal'korne",
+				'de-de': "Hornbohrer"
 			},
 
 			damage: 50,
@@ -75,8 +75,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It makes its nest by hollowing out boulders in streams with its horn. It defends its eggs with its life.",
-		fr: "Il niche dans des rochers du ruisseau qu'il évide avec sa corne. Il donnerait sa vie pour ses œufs."
+		'en-us': "It makes its nest by hollowing out boulders in streams with its horn. It defends its eggs with its life.",
+		'fr-fr': "Il niche dans des rochers du ruisseau qu'il évide avec sa corne. Il donnerait sa vie pour ses œufs."
 	},
 
 	thirdParty: {

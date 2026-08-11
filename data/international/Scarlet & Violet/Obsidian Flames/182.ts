@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Gourmelet",
-		en: "Lechonk",
-		es: "Lechonk",
-		it: "Lechonk",
-		pt: "Lechonk",
-		de: "Ferkuli"
+		'fr-fr': "Gourmelet",
+		'en-us': "Lechonk",
+		'es-es': "Lechonk",
+		'it-it': "Lechonk",
+		'pt-br': "Lechonk",
+		'de-de': "Ferkuli"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Culbute Surprise",
-			en: "Headbutt Bounce",
-			es: "Bote Cabezazo",
-			it: "Rimbalzo Bottintesta",
-			pt: "Cabeçada Ricochete",
-			de: "Abrupter Kopfstoß"
+			'fr-fr': "Culbute Surprise",
+			'en-us': "Headbutt Bounce",
+			'es-es': "Bote Cabezazo",
+			'it-it': "Rimbalzo Bottintesta",
+			'pt-br': "Cabeçada Ricochete",
+			'de-de': "Abrupter Kopfstoß"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Tir de Boue",
-			en: "Mud Shot",
-			es: "Disparo Lodo",
-			it: "Colpodifango",
-			pt: "Tiro de Lama",
-			de: "Lehmschuss"
+			'fr-fr': "Tir de Boue",
+			'en-us': "Mud Shot",
+			'es-es': "Disparo Lodo",
+			'it-it': "Colpodifango",
+			'pt-br': "Tiro de Lama",
+			'de-de': "Lehmschuss"
 		},
 
 		damage: 20
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
+		'en-us': "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
 	},
 
 	variants: [

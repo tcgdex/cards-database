@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Raichu GX",
-		fr: "Raichu-GX",
+		'en-us': "Raichu GX",
+		'fr-fr': "Raichu-GX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pikachu",
-		fr: "Pikachu",
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
 	},
 
 	suffix: "GX",
@@ -37,8 +37,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunderbolt",
-				fr: "Tonnerre",
+				'en-us': "Thunderbolt",
+				'fr-fr': "Tonnerre",
 			},
 
 			damage: 120,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spark Ball GX",
-				fr: "Boule Étincelles-GX",
+				'en-us': "Spark Ball GX",
+				'fr-fr': "Boule Étincelles-GX",
 			},
 			effect: {
-				en: "(You can’t use more than 1 GX attack in a game.)",
-				fr: "(Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'en-us': "(You can’t use more than 1 GX attack in a game.)",
+				'fr-fr': "(Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 			damage: 200,
 

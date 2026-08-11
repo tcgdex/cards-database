@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Volcarona",
-		fr: "Pyrax",
-		es: "Volcarona",
-		de: "Ramoth",
-		it: "Volcarona",
-		pt: "Volcarona",
+		'en-us': "Volcarona",
+		'fr-fr': "Pyrax",
+		'es-es': "Volcarona",
+		'de-de': "Ramoth",
+		'it-it': "Volcarona",
+		'pt-br': "Volcarona",
 		'es-mx': "Volcarona"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Larvesta",
-		fr: "Pyronille",
-		es: "Larvesta",
-		de: "Ignivor",
-		it: "Larvesta",
-		pt: "Larvesta",
+		'en-us': "Larvesta",
+		'fr-fr': "Pyronille",
+		'es-es': "Larvesta",
+		'de-de': "Ignivor",
+		'it-it': "Larvesta",
+		'pt-br': "Larvesta",
 		'es-mx': "Larvesta"
 	},
 	stage: "Stage1",
@@ -34,12 +34,12 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Smoldering Scales",
-			fr: "Écailles Ardentes",
-			es: "Escamas Ardientes",
-			de: "Glühender Flügelstaub",
-			it: "Scaglie Ardenti",
-			pt: "Escamas Escaldantes",
+			'en-us': "Smoldering Scales",
+			'fr-fr': "Écailles Ardentes",
+			'es-es': "Escamas Ardientes",
+			'de-de': "Glühender Flügelstaub",
+			'it-it': "Scaglie Ardenti",
+			'pt-br': "Escamas Escaldantes",
 			'es-mx': "Escamas Ardientes"
 		},
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴルバット",
+		'ja-jp': "ゴルバット",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "毒音波",
+				'ja-jp': "毒音波",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。尾の場合、防御ポケモンは現在毒されます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。尾の場合、防御ポケモンは現在毒されます。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "数の強度",
+				'ja-jp': "数の強度",
 			},
 			effect: {
-				ja: "この攻撃は、ベンチで30のダメージに加えて、Zubat、Golbat、およびCrobatごとにさらに10ダメージを与えます。",
+				'ja-jp': "この攻撃は、ベンチで30のダメージに加えて、Zubat、Golbat、およびCrobatごとにさらに10ダメージを与えます。",
 			},
 		},
 	],

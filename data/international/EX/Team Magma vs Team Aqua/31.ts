@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Sealeo",
-		fr: "Phogleur de Team Aqua",
-		de: "Team Aquas Seejong"
+		'en-us': "Team Aqua's Sealeo",
+		'fr-fr': "Phogleur de Team Aqua",
+		'de-de': "Team Aquas Seejong"
 	},
 
 	illustrator: "T. Honda",
@@ -30,9 +30,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aurora Beam",
-				fr: "Onde boréale",
-				de: "Aurora Beam"
+				'en-us': "Aurora Beam",
+				'fr-fr': "Onde boréale",
+				'de-de': "Aurora Beam"
 			},
 
 			damage: 20,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Over",
-				fr: "Culbute",
-				de: "Knock Over"
+				'en-us': "Knock Over",
+				'fr-fr': "Culbute",
+				'de-de': "Knock Over"
 			},
 			effect: {
-				en: "You may discard any Stadium card in play.",
-				fr: "Vous pouvez défausser n'importe quelle carte Stade en jeu.",
-				de: "You may discard any Stadium card in play."
+				'en-us': "You may discard any Stadium card in play.",
+				'fr-fr': "Vous pouvez défausser n'importe quelle carte Stade en jeu.",
+				'de-de': "You may discard any Stadium card in play."
 			},
 			damage: 40,
 

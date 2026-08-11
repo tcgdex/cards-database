@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Water Energy",
-		fr: "Énergie Eau",
-		de: "Wasserenergie"
+		'en-us': "Water Energy",
+		'fr-fr': "Énergie Eau",
+		'de-de': "Wasserenergie"
 	},
 
 	illustrator: "Keiji Kinebuchi",

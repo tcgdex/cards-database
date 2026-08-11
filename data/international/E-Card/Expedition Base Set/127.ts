@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Qwilfish",
-		fr: "Qwilfish",
-		de: "Baldorfish"
+		'en-us': "Qwilfish",
+		'fr-fr': "Qwilfish",
+		'de-de': "Baldorfish"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Stun Needle",
-				fr: "Dard etourdissant",
-				de: "Betäubungsnadel"
+				'en-us': "Stun Needle",
+				'fr-fr': "Dard etourdissant",
+				'de-de': "Betäubungsnadel"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 

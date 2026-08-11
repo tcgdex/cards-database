@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Aegislash",
-		fr: "Exagide",
-		es: "Aegislash",
-		it: "Aegislash",
-		pt: "Aegislash",
-		de: "Durengard"
+		'en-us': "Aegislash",
+		'fr-fr': "Exagide",
+		'es-es': "Aegislash",
+		'it-it': "Aegislash",
+		'pt-br': "Aegislash",
+		'de-de': "Durengard"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Doublade",
-		fr: "Dimoclès",
-		es: "Doublade",
-		it: "Doublade",
-		pt: "Doublade",
-		de: "Duokles"
+		'en-us': "Doublade",
+		'fr-fr': "Dimoclès",
+		'es-es': "Doublade",
+		'it-it': "Doublade",
+		'pt-br': "Doublade",
+		'de-de': "Duokles"
 	},
 
 	stage: "Stage2",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Stance Change",
-				fr: "Déclic Tactique",
-				es: "Cambio Táctico",
-				it: "Accendilotta",
-				pt: "Mudança em Posição",
-				de: "Taktikwechsel"
+				'en-us': "Stance Change",
+				'fr-fr': "Déclic Tactique",
+				'es-es': "Cambio Táctico",
+				'it-it': "Accendilotta",
+				'pt-br': "Mudança em Posição",
+				'de-de': "Taktikwechsel"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may switch this Pokémon with an Aegislash in your hand. (Any cards attached to this Pokémon, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pokémon.)",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez échanger ce Pokémon avec un Exagide dans votre main. (Les cartes attachées à ce Pokémon, les marqueurs de dégâts, les États Spéciaux, le nombre de tours en jeu, et tous les autres effets restent sur le nouveau Pokémon.)",
-				es: "Una vez durante tu turno (antes de tu ataque), puedes cambiar este Pokémon por un Aegislash de tu mano. (Todas las cartas unidas a este Pokémon, los contadores de daño, las Condiciones Especiales, los turnos de juego y todos los demás efectos permanecen en el nuevo Pokémon).",
-				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi scambiare questo Pokémon con un Aegislash nella tua mano (le carte assegnate a questo Pokémon, i segnalini danno, le condizioni speciali, il numero di turni da cui è in gioco e qualsiasi altro effetto restano sul nuovo Pokémon).",
-				pt: "Uma vez durante sua vez de jogar (antes de atacar), você poderá trocar este Pokémon por um Aegislash em sua mão. (Quaisquer cards ligados a esse Pokémon, contadores de danos, Condições Especiais, vezes em jogo e quaisquer outros efeitos permanecem no novo Pokémon.)",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dieses Pokémon gegen 1 Durengard auf deiner Hand austauschen. (Alle an dieses Pokémon angelegten Karten sowie alle Schadensmarken, Speziellen Zustände, Spielzüge und alle anderen Effekte verbleiben auf dem neuen Pokémon.)"
+				'en-us': "Once during your turn (before your attack), you may switch this Pokémon with an Aegislash in your hand. (Any cards attached to this Pokémon, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pokémon.)",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez échanger ce Pokémon avec un Exagide dans votre main. (Les cartes attachées à ce Pokémon, les marqueurs de dégâts, les États Spéciaux, le nombre de tours en jeu, et tous les autres effets restent sur le nouveau Pokémon.)",
+				'es-es': "Una vez durante tu turno (antes de tu ataque), puedes cambiar este Pokémon por un Aegislash de tu mano. (Todas las cartas unidas a este Pokémon, los contadores de daño, las Condiciones Especiales, los turnos de juego y todos los demás efectos permanecen en el nuevo Pokémon).",
+				'it-it': "Una sola volta durante il tuo turno, prima di attaccare, puoi scambiare questo Pokémon con un Aegislash nella tua mano (le carte assegnate a questo Pokémon, i segnalini danno, le condizioni speciali, il numero di turni da cui è in gioco e qualsiasi altro effetto restano sul nuovo Pokémon).",
+				'pt-br': "Uma vez durante sua vez de jogar (antes de atacar), você poderá trocar este Pokémon por um Aegislash em sua mão. (Quaisquer cards ligados a esse Pokémon, contadores de danos, Condições Especiais, vezes em jogo e quaisquer outros efeitos permanecem no novo Pokémon.)",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du dieses Pokémon gegen 1 Durengard auf deiner Hand austauschen. (Alle an dieses Pokémon angelegten Karten sowie alle Schadensmarken, Speziellen Zustände, Spielzüge und alle anderen Effekte verbleiben auf dem neuen Pokémon.)"
 			},
 		},
 	],
@@ -68,20 +68,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Buster Swing",
-				fr: "Repoussoir",
-				es: "Golpe Destructor",
-				it: "Colpaccio",
-				pt: "Gingado",
-				de: "Widerstandsbrecher"
+				'en-us': "Buster Swing",
+				'fr-fr': "Repoussoir",
+				'es-es': "Golpe Destructor",
+				'it-it': "Colpaccio",
+				'pt-br': "Gingado",
+				'de-de': "Widerstandsbrecher"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				es: "El daño de este ataque no se ve afectado por Resistencia.",
-				it: "Il danno di questo attacco non è influenzato dalla resistenza.",
-				pt: "Os danos deste ataque não são afetados por Resistência.",
-				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+				'it-it': "Il danno di questo attacco non è influenzato dalla resistenza.",
+				'pt-br': "Os danos deste ataque não são afetados por Resistência.",
+				'de-de': "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 120,
 
@@ -105,7 +105,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Generations of kings were attended by these Pokémon, which used their spectral power to manipulate and control people and Pokémon.",
+		'en-us': "Generations of kings were attended by these Pokémon, which used their spectral power to manipulate and control people and Pokémon.",
 	},
 
 	thirdParty: {

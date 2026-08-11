@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Watchog",
-		fr: "Miradar",
-		es: "Watchog",
-		it: "Watchog",
-		pt: "Watchog",
-		de: "Kukmarda"
+		'en-us': "Watchog",
+		'fr-fr': "Miradar",
+		'es-es': "Watchog",
+		'it-it': "Watchog",
+		'pt-br': "Watchog",
+		'de-de': "Kukmarda"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Patrat",
-		fr: "Ratentif",
+		'en-us': "Patrat",
+		'fr-fr': "Ratentif",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Second Bite",
-				fr: "Double Morsure",
+				'en-us': "Second Bite",
+				'fr-fr': "Double Morsure",
 			},
 			effect: {
-				en: "Does 10 more damage for each damage counter on the Defending Pokémon.",
-				fr: "Inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur le Pokémon Défenseur.",
+				'en-us': "Does 10 more damage for each damage counter on the Defending Pokémon.",
+				'fr-fr': "Inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur le Pokémon Défenseur.",
 			},
 			damage: 20,
 
@@ -57,8 +57,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage",
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage",
 			},
 
 			damage: 60,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Using luminescent matter, it makes its eyes and body glow and stuns attacking opponents.",
+		'en-us': "Using luminescent matter, it makes its eyes and body glow and stuns attacking opponents.",
 	},
 
 	thirdParty: {

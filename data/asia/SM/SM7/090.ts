@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハウ",
+		'ja-jp': "ハウ",
 	},
 
 	illustrator: "TOKIYA",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札を3枚引く。",
+		'ja-jp': "自分の山札を3枚引く。",
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "アノクサ"
+		'ja-jp': "アノクサ"
 	},
 
 	illustrator: "sowsow",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "成仏できない 魂が 風に 吹かれているうち 枯草を 巻き込んで ポケモンになった。"
+		'ja-jp': "成仏できない 魂が 風に 吹かれているうち 枯草を 巻き込んで ポケモンになった。"
 	},
 
 	stage: "Basic",
@@ -24,13 +24,13 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "ちょっとすいとる"
+			'ja-jp': "ちょっとすいとる"
 		},
 
 		damage: 10,
 
 		effect: {
-			ja: "このポケモンのHPを「10」回復する。"
+			'ja-jp': "このポケモンのHPを「10」回復する。"
 		}
 	}],
 

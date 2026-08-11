@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gogoat",
-		fr: "Chevroum",
-		es: "Gogoat",
-		it: "Gogoat",
-		pt: "Gogoat",
-		de: "Chevrumm"
+		'en-us': "Gogoat",
+		'fr-fr': "Chevroum",
+		'es-es': "Gogoat",
+		'it-it': "Gogoat",
+		'pt-br': "Gogoat",
+		'de-de': "Chevrumm"
 	},
 
 	rarity: "Common",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Skiddo",
-		fr: "Cabriolaine"
+		'en-us': "Skiddo",
+		'fr-fr': "Cabriolaine"
 	},
 
 	stage: "Stage1",
@@ -30,21 +30,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Rising Lunge",
-			fr: "Botte Secrète",
-			es: "Embestida Ascendente",
-			it: "Elevazione",
-			pt: "Investida Ascendente",
-			de: "Aufwärtsstoß"
+			'en-us': "Rising Lunge",
+			'fr-fr': "Botte Secrète",
+			'es-es': "Embestida Ascendente",
+			'it-it': "Elevazione",
+			'pt-br': "Investida Ascendente",
+			'de-de': "Aufwärtsstoß"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
+			'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
@@ -52,12 +52,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Solar Beam",
-			fr: "Lance-Soleil",
-			es: "Rayo Solar",
-			it: "Solarraggio",
-			pt: "Raio Solar",
-			de: "Solarstrahl"
+			'en-us': "Solar Beam",
+			'fr-fr': "Lance-Soleil",
+			'es-es': "Rayo Solar",
+			'it-it': "Solarraggio",
+			'pt-br': "Raio Solar",
+			'de-de': "Solarstrahl"
 		},
 
 		damage: 110
@@ -84,7 +84,7 @@ const card: Card = {
 	illustrator: "Gemi",
 
 	description: {
-		en: "It can sense the feelings of others by touching them with its horns. This species has assisted people with their work since 5,000 years ago.",
+		'en-us': "It can sense the feelings of others by touching them with its horns. This species has assisted people with their work since 5,000 years ago.",
 	},
 
 	thirdParty: {

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Southern Islands'
 
 const card: Card = {
 	name: {
-		en: "Slowking",
+		'en-us': "Slowking",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Slowpoke",
+		'en-us': "Slowpoke",
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Revelation",
+				'en-us': "Revelation",
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your deck for a Trainer card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'en-us': "Flip a coin. If heads, search your deck for a Trainer card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 			},
 
 		},
@@ -46,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic",
+				'en-us': "Psychic",
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.",
+				'en-us': "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.",
 			},
 			damage: 10,
 
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its nonchalant reaction to everything somehow gives this Pokémon an imposing presence.",
+		'en-us': "Its nonchalant reaction to everything somehow gives this Pokémon an imposing presence.",
 	},
 
 	variants: [

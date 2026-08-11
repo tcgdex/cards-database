@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Noibat",
-		fr: "Sonistrelle",
-		es: "Noibat",
-		it: "Noibat",
-		pt: "Noibat",
-		de: "eF-eM"
+		'en-us': "Noibat",
+		'fr-fr': "Sonistrelle",
+		'es-es': "Noibat",
+		'it-it': "Noibat",
+		'pt-br': "Noibat",
+		'de-de': "eF-eM"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gust",
-				fr: "Tornade",
-				es: "Tornado",
-				it: "Raffica",
-				pt: "Lufada de Vento",
-				de: "Windstoß"
+				'en-us': "Gust",
+				'fr-fr': "Tornade",
+				'es-es': "Tornado",
+				'it-it': "Raffica",
+				'pt-br': "Lufada de Vento",
+				'de-de': "Windstoß"
 			},
 
 			damage: 20,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They live in pitch black caves. Their enormous ears can emit ultrasonic waves of 200,000 hertz.",
+		'en-us': "They live in pitch black caves. Their enormous ears can emit ultrasonic waves of 200,000 hertz.",
 	},
 
 	thirdParty: {

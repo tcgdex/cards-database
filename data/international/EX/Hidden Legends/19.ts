@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Huntail",
-		fr: "Serpang",
-		de: "Aalabyss"
+		'en-us': "Huntail",
+		'fr-fr': "Serpang",
+		'de-de': "Aalabyss"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Clamperl",
-		fr: "Coquiperl"
+		'en-us': "Clamperl",
+		'fr-fr': "Coquiperl"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Bite"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Bite"
 			},
 
 			damage: 20,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Splash",
-				fr: "Éclaboussure obscure",
-				de: "Dark Splash"
+				'en-us': "Dark Splash",
+				'fr-fr': "Éclaboussure obscure",
+				'de-de': "Dark Splash"
 			},
 			effect: {
-				en: "Does 40 damage plus 10 more damage for each Darkness Pokémon in play.",
-				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Pokémon  en jeu.",
-				de: "Does 40 damage plus 10 more damage for each  Energy in play."
+				'en-us': "Does 40 damage plus 10 more damage for each Darkness Pokémon in play.",
+				'fr-fr': "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Pokémon  en jeu.",
+				'de-de': "Does 40 damage plus 10 more damage for each  Energy in play."
 			},
 			damage: "40+",
 

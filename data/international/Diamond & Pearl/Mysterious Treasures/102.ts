@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Spheal",
-		fr: "Obalie",
-		de: "Seemops"
+		'en-us': "Spheal",
+		'fr-fr': "Obalie",
+		'de-de': "Seemops"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'de-de': "Walzer"
 			},
 
 			damage: 10,
@@ -44,14 +44,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Hustle",
-				fr: "Précipitation",
-				de: "Übereifer"
+				'en-us': "Hustle",
+				'fr-fr': "Précipitation",
+				'de-de': "Übereifer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your next turn, Spheal's Rollout attack's base damage is 40.",
-				fr: "Lancez une pièce. Si c'est face, les dégâts de base de l'attaque Roulade d'Obalie sont de 40 lors de votre prochain tour.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" beträgt in deinem nächsten Zug der Grundschaden von Seemops' Angriff Walzer 40 Schadenspunkte."
+				'en-us': "Flip a coin. If heads, during your next turn, Spheal's Rollout attack's base damage is 40.",
+				'fr-fr': "Lancez une pièce. Si c'est face, les dégâts de base de l'attaque Roulade d'Obalie sont de 40 lors de votre prochain tour.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" beträgt in deinem nächsten Zug der Grundschaden von Seemops' Angriff Walzer 40 Schadenspunkte."
 			},
 
 		},
@@ -67,8 +67,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It rolls across ice floes to reach shore because its body is poorly shaped for swimming.",
-		fr: "Il gagne la côte en roulant sur les blocs de glace car sa morphologie n'est pas adaptée à la nage."
+		'en-us': "It rolls across ice floes to reach shore because its body is poorly shaped for swimming.",
+		'fr-fr': "Il gagne la côte en roulant sur les blocs de glace car sa morphologie n'est pas adaptée à la nage."
 	},
 
 	thirdParty: {

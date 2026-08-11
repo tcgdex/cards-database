@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gallade",
-		fr: "Gallame",
-		es: "Gallade",
-		it: "Gallade",
-		pt: "Gallade",
-		de: "Galagladi"
+		'en-us': "Gallade",
+		'fr-fr': "Gallame",
+		'es-es': "Gallade",
+		'it-it': "Gallade",
+		'pt-br': "Gallade",
+		'de-de': "Galagladi"
 	},
 
 	illustrator: "NC Empire",
@@ -21,52 +21,52 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Kirlia",
-		fr: "Kirlia",
-		es: "Kirlia",
-		it: "Kirlia",
-		pt: "Kirlia",
-		de: "Kirlia"
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia",
+		'es-es': "Kirlia",
+		'it-it': "Kirlia",
+		'pt-br': "Kirlia",
+		'de-de': "Kirlia"
 	},
 
 	attacks: [{
 		name: {
-			en: "Feint",
-			fr: "Ruse",
-			es: "Amago",
-			it: "Fintoattacco",
-			pt: "Fintar",
-			de: "Offenlegung"
+			'en-us': "Feint",
+			'fr-fr': "Ruse",
+			'es-es': "Amago",
+			'it-it': "Fintoattacco",
+			'pt-br': "Fintar",
+			'de-de': "Offenlegung"
 		},
 
 		effect: {
-			en: "This attack's damage isn't affected by Resistance.",
-			fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-			es: "El daño de este ataque no se ve afectado por Resistencia.",
-			it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-			pt: "O dano deste ataque não é afetado por Resistência.",
-			de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+			'en-us': "This attack's damage isn't affected by Resistance.",
+			'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+			'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+			'it-it': "I danni di questo attacco non sono influenzati dalla resistenza.",
+			'pt-br': "O dano deste ataque não é afetado por Resistência.",
+			'de-de': "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
 		},
 
 		damage: 60,
 		cost: ["Psychic"]
 	}, {
 		name: {
-			en: "Dynablade",
-			fr: "Dynalame",
-			es: "Dinacuchilla",
-			it: "Dinasquarcio",
-			pt: "Lâmina Dinâmica",
-			de: "Dynamische Klinge"
+			'en-us': "Dynablade",
+			'fr-fr': "Dynalame",
+			'es-es': "Dinacuchilla",
+			'it-it': "Dinasquarcio",
+			'pt-br': "Lâmina Dinâmica",
+			'de-de': "Dynamische Klinge"
 		},
 
 		effect: {
-			en: "This attack does 60 damage for each of your opponent's Pokémon V in play.",
-			fr: "Cette attaque inflige 60 dégâts pour chacun des Pokémon-V en jeu de votre adversaire.",
-			es: "Este ataque hace 60 puntos de daño por cada uno de los Pokémon V en juego de tu rival.",
-			it: "Questo attacco infligge 60 danni per ogni Pokémon-V in gioco del tuo avversario.",
-			pt: "Este ataque causa 60 pontos de dano para cada Pokémon V do seu oponente em jogo.",
-			de: "Diese Attacke fügt für jedes Pokémon-V deines Gegners im Spiel 60 Schadenspunkte zu."
+			'en-us': "This attack does 60 damage for each of your opponent's Pokémon V in play.",
+			'fr-fr': "Cette attaque inflige 60 dégâts pour chacun des Pokémon-V en jeu de votre adversaire.",
+			'es-es': "Este ataque hace 60 puntos de daño por cada uno de los Pokémon V en juego de tu rival.",
+			'it-it': "Questo attacco infligge 60 danni per ogni Pokémon-V in gioco del tuo avversario.",
+			'pt-br': "Este ataque causa 60 pontos de dano para cada Pokémon V do seu oponente em jogo.",
+			'de-de': "Diese Attacke fügt für jedes Pokémon-V deines Gegners im Spiel 60 Schadenspunkte zu."
 		},
 
 		damage: "60×",
@@ -85,7 +85,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "Sharply attuned to others' wishes for help, this Pokémon seeks out those in need and aids them in battle."
+		'en-us': "Sharply attuned to others' wishes for help, this Pokémon seeks out those in need and aids them in battle."
 	},
 
 	variants: [

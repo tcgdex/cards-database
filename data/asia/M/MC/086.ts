@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポニータ",
+		'ja-jp': "ポニータ",
 	},
 
 	illustrator: "takashi shiraishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "生まれたばかりは 走るのが へた。 仲間と かけっこを するうちに 足腰が 強く 育っていく。",
+		'ja-jp': "生まれたばかりは 走るのが へた。 仲間と かけっこを するうちに 足腰が 強く 育っていく。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "エネチャージ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から基本エネルギーを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札から基本エネルギーを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 		{

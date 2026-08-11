@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Drapion",
-		fr: "Drascore",
-		de: "Piondragi"
+		'en-us': "Drapion",
+		'fr-fr': "Drascore",
+		'de-de': "Piondragi"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Skorupi",
-		fr: "Drapion",
+		'en-us': "Skorupi",
+		'fr-fr': "Drapion",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stomp",
-				fr: "Écrasement",
-				de: "Stampfer"
+				'en-us': "Stomp",
+				'fr-fr': "Écrasement",
+				'de-de': "Stampfer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Claws",
-				fr: "Griffes empoisonnées",
-				de: "Giftkrallen"
+				'en-us': "Poison Claws",
+				'fr-fr': "Griffes empoisonnées",
+				'de-de': "Giftkrallen"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 50,
 
@@ -80,8 +80,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It has the power in its clawed arms to make scrap of a car. The tips of its claws release poison.",
-		fr: "Il peut réduire une voiture en pièces avec ses pinces. Le bout de ses pinces contient du poison."
+		'en-us': "It has the power in its clawed arms to make scrap of a car. The tips of its claws release poison.",
+		'fr-fr': "Il peut réduire une voiture en pièces avec ses pinces. Le bout de ses pinces contient du poison."
 	},
 
 	thirdParty: {

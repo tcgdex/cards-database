@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スリープ",
+		'ja-jp': "スリープ",
 		'zh-tw': "催眠貘",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "突き出た 鼻を ひくひくさせると どこの だれが どんな 夢を 見ているのか 全部 わかるという。",
+		'ja-jp': "突き出た 鼻を ひくひくさせると どこの だれが どんな 夢を 見ているのか 全部 わかるという。",
 		'zh-tw': "據說當牠抽動凸出的鼻子， 無論是誰在哪裡做著什麼夢， 都會被牠知道得一清二楚。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶきみなしせん",
+				'ja-jp': "ぶきみなしせん",
 				'zh-tw': "不祥視線",
 			},
 			damage: 10,
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手の手札を見る。",
+				'ja-jp': "相手の手札を見る。",
 				'zh-tw': "查看對手的手牌。",
 			},
 		},

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arcanine"
+		'en-us': "Arcanine"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Growlithe"
+		'en-us': "Growlithe"
 	},
 
 	description: {
-		en: "Its magnificent bark conveys a sense of majesty.\nAnyone hearing it can't help but grovel before it."
+		'en-us': "Its magnificent bark conveys a sense of majesty.\nAnyone hearing it can't help but grovel before it."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Fire Fang"
+			'en-us': "Fire Fang"
 		},
 
 		damage: 50,
 		cost: ["Fire", "Fire"],
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Burned."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Burned."
 		}
 	}],
 

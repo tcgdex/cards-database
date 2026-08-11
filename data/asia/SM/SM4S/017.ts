@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラゴローン",
+		'ja-jp': "アローラゴローン",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "ドラバイトを 好んで 喰らう。 喰った 成分が 結晶になり 身体の一部に 浮きだしているぞ。",
+		'ja-jp': "ドラバイトを 好んで 喰らう。 喰った 成分が 結晶になり 身体の一部に 浮きだしているぞ。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "このポケモンにも100ダメージ。",
+				'ja-jp': "このポケモンにも100ダメージ。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アローライシツブテ",
+		'ja-jp': "アローライシツブテ",
 	},
 
 	retreat: 3,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Zorua",
-		fr: "Zorua",
-		es: "Zorua",
-		it: "Zorua",
-		pt: "Zorua",
-		de: "Zorua"
+		'en-us': "Zorua",
+		'fr-fr': "Zorua",
+		'es-es': "Zorua",
+		'it-it': "Zorua",
+		'pt-br': "Zorua",
+		'de-de': "Zorua"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Moonless Madness",
-				fr: "Folie Obscure",
-				es: "Demencia Nocturna",
-				it: "Follia Notturna",
-				pt: "Loucura sem Lua",
-				de: "Mondloser Wahn"
+				'en-us': "Moonless Madness",
+				'fr-fr': "Folie Obscure",
+				'es-es': "Demencia Nocturna",
+				'it-it': "Follia Notturna",
+				'pt-br': "Loucura sem Lua",
+				'de-de': "Mondloser Wahn"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent's Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 
 		},
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Edge",
-				fr: "Lame Obscurité",
-				es: "Filo Siniestro",
-				it: "Lama Oscura",
-				pt: "Gume Sombrio",
-				de: "Dunkelklinge"
+				'en-us': "Dark Edge",
+				'fr-fr': "Lame Obscurité",
+				'es-es': "Filo Siniestro",
+				'it-it': "Lama Oscura",
+				'pt-br': "Gume Sombrio",
+				'de-de': "Dunkelklinge"
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon.",
-				es: "Descarta 1 Energía unida a este Pokémon.",
-				it: "Scarta un'Energia assegnata a questo Pokémon.",
-				pt: "Descarte uma Energia ligada a este Pokémon.",
-				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon.",
+				'es-es': "Descarta 1 Energía unida a este Pokémon.",
+				'it-it': "Scarta un'Energia assegnata a questo Pokémon.",
+				'pt-br': "Descarte uma Energia ligada a este Pokémon.",
+				'de-de': "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -94,7 +94,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "To protect themselves from danger, they hide their true identities by transforming into people and Pokémon.",
+		'en-us': "To protect themselves from danger, they hide their true identities by transforming into people and Pokémon.",
 	},
 
 	thirdParty: {

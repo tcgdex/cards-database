@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vulpix",
-		fr: "Goupix",
-		es: "Vulpix",
-		it: "Vulpix",
-		pt: "Vulpix",
-		de: "Vulpix"
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix",
+		'es-es': "Vulpix",
+		'it-it': "Vulpix",
+		'pt-br': "Vulpix",
+		'de-de': "Vulpix"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Sekio",
 
 	description: {
-		en: "As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm."
+		'en-us': "As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm."
 	},
 
 	attacks: [{
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Live Coal",
-			fr: "Charbon Mutant",
-			de: "Glühende Kohlen",
-			es: "Carbón Activado",
-			pt: "Carvão Vivo",
-			it: "Carboni Ardenti"
+			'en-us': "Live Coal",
+			'fr-fr': "Charbon Mutant",
+			'de-de': "Glühende Kohlen",
+			'es-es': "Carbón Activado",
+			'pt-br': "Carvão Vivo",
+			'it-it': "Carboni Ardenti"
 		},
 
 		damage: 30

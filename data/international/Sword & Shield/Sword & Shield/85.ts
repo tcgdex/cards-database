@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Gengar",
-		fr: "Ectoplasma",
-		es: "Gengar",
-		it: "Gengar",
-		pt: "Gengar",
-		de: "Gengar"
+		'en-us': "Gengar",
+		'fr-fr': "Ectoplasma",
+		'es-es': "Gengar",
+		'it-it': "Gengar",
+		'pt-br': "Gengar",
+		'de-de': "Gengar"
 	},
 
 	illustrator: "Eri Yamaki",
@@ -22,12 +22,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Haunter",
-		fr: "Spectrum",
-		es: "Haunter",
-		it: "Haunter",
-		pt: "Haunter",
-		de: "Alpollo"
+		'en-us': "Haunter",
+		'fr-fr': "Spectrum",
+		'es-es': "Haunter",
+		'it-it': "Haunter",
+		'pt-br': "Haunter",
+		'de-de': "Alpollo"
 	},
 
 	stage: "Stage2",
@@ -36,20 +36,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Life Shaker",
-				fr: "Chamboule Vie",
-				es: "Sacudida Vital",
-				it: "Scossone Vitale",
-				pt: "Sacudida Vital",
-				de: "Lebensstreuer"
+				'en-us': "Life Shaker",
+				'fr-fr': "Chamboule Vie",
+				'es-es': "Sacudida Vital",
+				'it-it': "Scossone Vitale",
+				'pt-br': "Sacudida Vital",
+				'de-de': "Lebensstreuer"
 			},
 			effect: {
-				en: "As often as you like during your turn, you may move 1 damage counter from 1 of your Psychic Pokémon to another of your Psychic Pokémon.",
-				fr: "Autant de fois que vous le voulez pendant votre tour, vous pouvez déplacer un marqueur de dégâts de l'un de vos Pokémon Psychic vers un autre de vos Pokémon Psychic.",
-				es: "Todas las veces que quieras durante tu turno, puedes mover 1 contador de daño de 1 de tus Pokémon Psychic a otro de tus Pokémon Psychic.",
-				it: "Durante il tuo turno, puoi spostare un segnalino danno da uno a un altro dei tuoi Pokémon Psychic tutte le volte che vuoi.",
-				pt: "Quantas vezes desejar durante o seu turno, você poderá mover 1 contador de dano de 1 dos seus Pokémon Psychic para outro Pokémon Psychic seu.",
-				de: "Beliebig oft während deines Zuges kannst du 1 Schadensmarke von 1 deiner Psychic-Pokémon auf 1 anderes deiner Psychic-Pokémon verschieben."
+				'en-us': "As often as you like during your turn, you may move 1 damage counter from 1 of your Psychic Pokémon to another of your Psychic Pokémon.",
+				'fr-fr': "Autant de fois que vous le voulez pendant votre tour, vous pouvez déplacer un marqueur de dégâts de l'un de vos Pokémon Psychic vers un autre de vos Pokémon Psychic.",
+				'es-es': "Todas las veces que quieras durante tu turno, puedes mover 1 contador de daño de 1 de tus Pokémon Psychic a otro de tus Pokémon Psychic.",
+				'it-it': "Durante il tuo turno, puoi spostare un segnalino danno da uno a un altro dei tuoi Pokémon Psychic tutte le volte che vuoi.",
+				'pt-br': "Quantas vezes desejar durante o seu turno, você poderá mover 1 contador de dano de 1 dos seus Pokémon Psychic para outro Pokémon Psychic seu.",
+				'de-de': "Beliebig oft während deines Zuges kannst du 1 Schadensmarke von 1 deiner Psychic-Pokémon auf 1 anderes deiner Psychic-Pokémon verschieben."
 			},
 		},
 	],
@@ -62,20 +62,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnoblast",
-				fr: "Hypnoblast",
-				es: "Hipnorrayo",
-				it: "Ipnobomba",
-				pt: "Borrifada Hipnótica",
-				de: "Hypnoschuss"
+				'en-us': "Hypnoblast",
+				'fr-fr': "Hypnoblast",
+				'es-es': "Hipnorrayo",
+				'it-it': "Ipnobomba",
+				'pt-br': "Borrifada Hipnótica",
+				'de-de': "Hypnoschuss"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent's Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 90,
 
@@ -107,7 +107,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "On the night of a full moon, if shadows move on their own and laugh, it must be Gengar's doing."
+		'en-us': "On the night of a full moon, if shadows move on their own and laugh, it must be Gengar's doing."
 	},
 
 	dexId: [94],

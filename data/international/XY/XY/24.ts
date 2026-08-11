@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Fennekin",
-		fr: "Feunnec",
-		es: "Fennekin",
-		it: "Fennekin",
-		pt: "Fennekin",
-		de: "Fynx"
+		'en-us': "Fennekin",
+		'fr-fr': "Feunnec",
+		'es-es': "Fennekin",
+		'it-it': "Fennekin",
+		'pt-br': "Fennekin",
+		'de-de': "Fynx"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Will-O-Wisp",
-				fr: "Feu Follet",
-				es: "Fuego Fatuo",
-				it: "Fuocofatuo",
-				pt: "Fogo Fátuo",
-				de: "Irrlicht"
+				'en-us': "Will-O-Wisp",
+				'fr-fr': "Feu Follet",
+				'es-es': "Fuego Fatuo",
+				'it-it': "Fuocofatuo",
+				'pt-br': "Fogo Fátuo",
+				'de-de': "Irrlicht"
 			},
 
 			damage: 20,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.",
+		'en-us': "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.",
 	},
 
 	thirdParty: {

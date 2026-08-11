@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トルネロスV",
+		'ja-jp': "トルネロスV",
 		'zh-tw': "龍捲雲V",
 	},
 
@@ -18,13 +18,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ふきぬける",
+				'ja-jp': "ふきぬける",
 				'zh-tw': "爆破之錘",
 			},
 			damage: "20+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "場にスタジアムが出ているなら、20ダメージ追加。",
+				'ja-jp': "場にスタジアムが出ているなら、20ダメージ追加。",
 				'zh-tw': "選擇1個這隻寶可夢身上附加的能量，將其丟棄。",
 			},
 		},
@@ -33,7 +33,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],

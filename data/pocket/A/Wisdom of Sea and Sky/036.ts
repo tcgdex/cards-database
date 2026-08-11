@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Darmanitan",
-		fr: "Darumacho"
+		'en-us': "Darmanitan",
+		'fr-fr': "Darumacho"
 	},
 
 	illustrator: "Naoki Saito",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Darumaka"
+		'en-us': "Darumaka"
 	},
 
 	description: {
-		en: "The thick arms of this hot-blooded Pokémon\ncan deliver punches capable of obliterating a\ndump truck.",
-		fr: "Véritable tête brûlée, il possède assez de force dans ses gros bras pour réduire en poussière un camion-benne à coups de poing."
+		'en-us': "The thick arms of this hot-blooded Pokémon\ncan deliver punches capable of obliterating a\ndump truck.",
+		'fr-fr': "Véritable tête brûlée, il possède assez de force dans ses gros bras pour réduire en poussière un camion-benne à coups de poing."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Heat Blast",
-			fr: "Explosion de Chaleur"
+			'en-us': "Heat Blast",
+			'fr-fr': "Explosion de Chaleur"
 		},
 
 		damage: 70,

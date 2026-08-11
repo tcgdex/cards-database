@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Combusken",
+		'ja-jp': "Combusken",
 	},
 
 	rarity: "Rare",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "フォーカスエネルギー",
+				'ja-jp': "フォーカスエネルギー",
 			},
 			effect: {
-				ja: "次のターン中、CombuskenのHigh Jamg Kick Attackのベースダメージは70です。",
+				'ja-jp': "次のターン中、CombuskenのHigh Jamg Kick Attackのベースダメージは70です。",
 			},
 		},
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "ハイジャンプキック",
+				'ja-jp': "ハイジャンプキック",
 			},
 			damage: 30,
 		},

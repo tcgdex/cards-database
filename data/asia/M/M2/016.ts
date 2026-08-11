@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒヒダルマ",
+		'ja-jp': "ヒヒダルマ",
 	},
 
 	illustrator: "Uta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "体内の 炎が 燃え盛るほど  パワーが 高まる。 その 温度は  １４００度を 超える ことも。",
+		'ja-jp': "体内の 炎が 燃え盛るほど  パワーが 高まる。 その 温度は  １４００度を 超える ことも。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "ダルマッカ",
+		'ja-jp': "ダルマッカ",
 	},
 
 	retreat: 3,

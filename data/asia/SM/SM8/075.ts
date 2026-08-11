@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケララッパ",
+		'ja-jp': "ケララッパ",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "クチバシを 反り返らせ 色んな 音で 鳴く。 かなり うるさいので 周りの 御宅には 嫌われるぞ。",
+		'ja-jp': "クチバシを 反り返らせ 色んな 音で 鳴く。 かなり うるさいので 周りの 御宅には 嫌われるぞ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "やまわたり" },
 			effect: {
-				ja: "このカードが手札にあるなら、自分の番に1回使えて、使ったなら、このカードをロストゾーンに置く。相手の山札を上から1枚見て、もとにもどす。そのカードがサポートの場合、のぞむなら、ロストゾーンに置く。",
+				'ja-jp': "このカードが手札にあるなら、自分の番に1回使えて、使ったなら、このカードをロストゾーンに置く。相手の山札を上から1枚見て、もとにもどす。そのカードがサポートの場合、のぞむなら、ロストゾーンに置く。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ツツケラ",
+		'ja-jp': "ツツケラ",
 	},
 
 	retreat: 1,

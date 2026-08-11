@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Bouffalant",
-		fr: "Frison",
-		es: "Bouffalant",
-		it: "Bouffalant",
-		pt: "Bouffalant",
-		de: "Bisofank"
+		'en-us': "Bouffalant",
+		'fr-fr': "Frison",
+		'es-es': "Bouffalant",
+		'it-it': "Bouffalant",
+		'pt-br': "Bouffalant",
+		'de-de': "Bisofank"
 	},
 
 	illustrator: "Akira Komayama",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Bouffer",
-				fr: "Touffe Protectrice",
-				es: "Amortiguación",
-				it: "Ammortizzatore",
-				pt: "Bouffer",
-				de: "Bisopuffer"
+				'en-us': "Bouffer",
+				'fr-fr': "Touffe Protectrice",
+				'es-es': "Amortiguación",
+				'it-it': "Ammortizzatore",
+				'pt-br': "Bouffer",
+				'de-de': "Bisopuffer"
 			},
 			effect: {
-				en: "Any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
-				es: "Cualquier daño hecho a este Pokémon por ataques se reduce en 20 (después de aplicar Debilidad y Resistencia).",
-				it: "I danni inflitti a questo Pokémon dagli attacchi sono ridotti di 20, dopo aver applicato debolezza e resistenza.",
-				pt: "Qualquer dano causado a este Pokémon por ataques será reduzido em 20 (após a aplicação de Fraqueza e Resistência).",
-				de: "Schaden, der diesem Pokémon durch Angriffe zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "Any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'es-es': "Cualquier daño hecho a este Pokémon por ataques se reduce en 20 (después de aplicar Debilidad y Resistencia).",
+				'it-it': "I danni inflitti a questo Pokémon dagli attacchi sono ridotti di 20, dopo aver applicato debolezza e resistenza.",
+				'pt-br': "Qualquer dano causado a este Pokémon por ataques será reduzido em 20 (após a aplicação de Fraqueza e Resistência).",
+				'de-de': "Schaden, der diesem Pokémon durch Angriffe zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gold Breaker",
-				fr: "Goliastruction",
+				'en-us': "Gold Breaker",
+				'fr-fr': "Goliastruction",
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Pokémon-EX, this attack does 60 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-EX, cette attaque inflige 60 dégâts supplémentaires.",
+				'en-us': "If the Defending Pokémon is a Pokémon-EX, this attack does 60 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon-EX, cette attaque inflige 60 dégâts supplémentaires.",
 			},
 			damage: 60,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They charge wildly and headbutt everything. Their headbutts have enough destructive force to derail a trail.",
+		'en-us': "They charge wildly and headbutt everything. Their headbutts have enough destructive force to derail a trail.",
 	},
 
 	thirdParty: {

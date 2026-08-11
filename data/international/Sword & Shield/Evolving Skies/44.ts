@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Bergmite",
-		fr: "Grelaçon",
-		es: "Bergmite",
-		it: "Bergmite",
-		pt: "Bergmite",
-		de: "Arktip"
+		'en-us': "Bergmite",
+		'fr-fr': "Grelaçon",
+		'es-es': "Bergmite",
+		'it-it': "Bergmite",
+		'pt-br': "Bergmite",
+		'de-de': "Arktip"
 	},
 
 	rarity: "Common",
@@ -23,24 +23,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Tackle",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Tackle",
+			'de-de': "Tackle"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Spinning Attack",
-			fr: "Attaque Tournante",
-			es: "Ataque Giratorio",
-			it: "Attacco Rotante",
-			pt: "Spinning Attack",
-			de: "Rundumangriff"
+			'en-us': "Spinning Attack",
+			'fr-fr': "Attaque Tournante",
+			'es-es': "Ataque Giratorio",
+			'it-it': "Attacco Rotante",
+			'pt-br': "Spinning Attack",
+			'de-de': "Rundumangriff"
 		},
 
 		damage: 20,
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This Pokémon lives in areas of frigid cold. It secures itself to the back of an Avalugg by freezing its feet in place."
+		'en-us': "This Pokémon lives in areas of frigid cold. It secures itself to the back of an Avalugg by freezing its feet in place."
 	},
 
 	dexId: [712],

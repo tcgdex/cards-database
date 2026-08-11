@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "沙漠蜻蜓ex",
 		'zh-cn': "沙漠蜻蜓ex",
-		ja: "フライゴンex"
+		'ja-jp': "フライゴンex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -21,13 +21,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "風暴返",
 			'zh-cn': "風暴返",
-			ja: "ストームバック"
+			'ja-jp': "ストームバック"
 		},
 
 		effect: {
 			'zh-tw': "若希望，將這隻寶可夢與備戰寶可夢互換。",
 			'zh-cn': "若希望，將這隻寶可夢與備戰寶可夢互換。",
-			ja: "のぞむなら、このポケモンをベンチポケモンと入れ替える。"
+			'ja-jp': "のぞむなら、このポケモンをベンチポケモンと入れ替える。"
 		},
 
 		damage: 130,
@@ -36,13 +36,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "橄欖石音波",
 			'zh-cn': "橄欖石音波",
-			ja: "ペリドットソニック"
+			'ja-jp': "ペリドットソニック"
 		},
 
 		effect: {
 			'zh-tw': "對手的所有「寶可夢【ex】・【V】」各受到100點傷害。這個招式的傷害不計算弱點・抵抗力。",
 			'zh-cn': "對手的所有「寶可夢【ex】・【V】」各受到100點傷害。這個招式的傷害不計算弱點・抵抗力。",
-			ja: "相手の「ポケモンex・V」全員に、それぞれ100ダメージ。このワザのダメージは弱点・抵抗力を計算しない。"
+			'ja-jp': "相手の「ポケモンex・V」全員に、それぞれ100ダメージ。このワザのダメージは弱点・抵抗力を計算しない。"
 		},
 
 		cost: ["Water", "Fighting", "Metal"]

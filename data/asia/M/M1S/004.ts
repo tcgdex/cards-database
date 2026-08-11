@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ベイリーフ"
+		'ja-jp': "ベイリーフ"
 	},
 	illustrator: "nisimono",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Grass"],
 	description: {
-		ja: "首の周りから出されるスパイシーな香りを嗅いでいるとなぜだか戦いたくなる。"
+		'ja-jp': "首の周りから出されるスパイシーな香りを嗅いでいるとなぜだか戦いたくなる。"
 	},
 	stage: "Stage1",
 	variants: [
@@ -25,15 +25,15 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チコリータ"
+		'ja-jp': "チコリータ"
 	},
 	attacks: [{
 		name: {
-			ja: "つきとばす"
+			'ja-jp': "つきとばす"
 		},
 		damage: 50,
 		effect: {
-			ja: "相手のバトルポケモンをベンチポケモンと入れ替える。[バトル場に出すポケモンは相手が選ぶ。]"
+			'ja-jp': "相手のバトルポケモンをベンチポケモンと入れ替える。[バトル場に出すポケモンは相手が選ぶ。]"
 		},
 		cost: ["Grass", "Colorless"]
 	}],

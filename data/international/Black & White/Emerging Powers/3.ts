@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Sewaddle",
-		fr: "Larveyette",
-		es: "Sewaddle",
-		it: "Sewaddle",
-		pt: "Sewaddle",
-		de: "Strawickl"
+		'en-us': "Sewaddle",
+		'fr-fr': "Larveyette",
+		'es-es': "Sewaddle",
+		'it-it': "Sewaddle",
+		'pt-br': "Sewaddle",
+		'de-de': "Strawickl"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "String Shot",
-				fr: "Sécrétion",
+				'en-us': "String Shot",
+				'fr-fr': "Sécrétion",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 
 		},
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Leavanny dress it in clothes they made for it when it hatched. It hides its head in its hood while it is sleeping.",
+		'en-us': "Leavanny dress it in clothes they made for it when it hatched. It hides its head in its hood while it is sleeping.",
 	},
 
 	thirdParty: {

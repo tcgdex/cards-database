@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オンバーン",
+		'ja-jp': "オンバーン",
 	},
 
 	illustrator: "Natsumi Miyanose",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "月明かりすら ない 闇夜を 飛び 油断している 獲物を 襲う。 暗闇の 戦いでは 無敵だ。",
+		'ja-jp': "月明かりすら ない 闇夜を 飛び 油断している 獲物を 襲う。 暗闇の 戦いでは 無敵だ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "70+",
 			cost: ["Psychic", "Darkness"],
 			effect: {
-				ja: "このポケモンに「ポケモンのどうぐ」がついているなら、70ダメージ追加。",
+				'ja-jp': "このポケモンに「ポケモンのどうぐ」がついているなら、70ダメージ追加。",
 			},
 		},
 	],
@@ -64,7 +64,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "オンバット",
+		'ja-jp': "オンバット",
 	},
 
 	retreat: 0,

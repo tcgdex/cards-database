@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Skuntank G",
-		fr: "Moufflair ",
-		de: "Skuntank G"
+		'en-us': "Skuntank G",
+		'fr-fr': "Moufflair ",
+		'de-de': "Skuntank G"
 	},
 
 	illustrator: "Makoto Imai",
@@ -28,14 +28,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Poison Structure",
-				fr: "Structure poison",
-				de: "Poison Structure"
+				'en-us': "Poison Structure",
+				'fr-fr': "Structure poison",
+				'de-de': "Poison Structure"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if you have a Stadium card in play, you may use this power. Each Active Pokémon (both yours and your opponent's) (excluding Pokémon SP) is now Poisoned. This power can't be used if Skuntank is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), si vous avez une carte Stade en jeu, vous pouvez utiliser ce pouvoir. Chaque Pokémon Actif (les vôtres et ceux de votre adversaire) (Pokémon SP exclus) est maintenant Empoisonné. Ce pouvoir ne peut pas être utilisé si Moufflair  est affecté par un État Spécial.",
-				de: "Once during your turn (before your attack), if you have a Stadium card in play, you may use this power. Each Active Pokémon (both yours and your opponent's) (excluding Pokémon SP) is now Poisoned. This power can't be used if Skuntank G is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), if you have a Stadium card in play, you may use this power. Each Active Pokémon (both yours and your opponent's) (excluding Pokémon SP) is now Poisoned. This power can't be used if Skuntank is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), si vous avez une carte Stade en jeu, vous pouvez utiliser ce pouvoir. Chaque Pokémon Actif (les vôtres et ceux de votre adversaire) (Pokémon SP exclus) est maintenant Empoisonné. Ce pouvoir ne peut pas être utilisé si Moufflair  est affecté par un État Spécial.",
+				'de-de': "Once during your turn (before your attack), if you have a Stadium card in play, you may use this power. Each Active Pokémon (both yours and your opponent's) (excluding Pokémon SP) is now Poisoned. This power can't be used if Skuntank G is affected by a Special Condition."
 			}
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smokescreen",
-				fr: "Brouillard",
-				de: "Smokescreen"
+				'en-us': "Smokescreen",
+				'fr-fr': "Brouillard",
+				'de-de': "Smokescreen"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, this attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, this attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
 			},
 			damage: 20,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ペラップ",
+		'ja-jp': "ペラップ",
 	},
 
 	illustrator: "GOTO minori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "相手と 同じ 鳴き声を 出す ことで 仲間と 思いこませて 襲われないように しているのだ。",
+		'ja-jp': "相手と 同じ 鳴き声を 出す ことで 仲間と 思いこませて 襲われないように しているのだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "アカペラ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札からたねポケモンを3枚まで選び、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札からたねポケモンを3枚まで選び、ベンチに出す。そして山札を切る。",
 			},
 		},
 		{

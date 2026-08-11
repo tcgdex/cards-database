@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Furfrou"
+		'en-us': "Furfrou"
 	},
 
 	illustrator: "kawayoo",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Left alone, its fur will grow longer and longer,\nbut it will only allow someone it trusts to cut it."
+		'en-us': "Left alone, its fur will grow longer and longer,\nbut it will only allow someone it trusts to cut it."
 	},
 
 	stage: "Basic",
@@ -26,17 +26,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Fur Coat"
+			'en-us': "Fur Coat"
 		},
 
 		effect: {
-			en: "This Pokémon takes −20 damage from attacks."
+			'en-us': "This Pokémon takes −20 damage from attacks."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Sharp Fang"
+			'en-us': "Sharp Fang"
 		},
 
 		damage: 50,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Dunsparce",
-		fr: "Insolourdo",
-		es: "Dunsparce",
-		it: "Dunsparce",
-		pt: "Dunsparce",
-		de: "Dummisel"
+		'en-us': "Dunsparce",
+		'fr-fr': "Insolourdo",
+		'es-es': "Dunsparce",
+		'it-it': "Dunsparce",
+		'pt-br': "Dunsparce",
+		'de-de': "Dummisel"
 	},
 
 	illustrator: "Akira Komayama",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la Famille",
-				es: "Llamar a la Familia",
-				it: "Cerca Famiglia",
-				pt: "Chamar a Família",
-				de: "Familienruf"
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la Famille",
+				'es-es': "Llamar a la Familia",
+				'it-it': "Cerca Famiglia",
+				'pt-br': "Chamar a Família",
+				'de-de': "Familienruf"
 			},
 			effect: {
-				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez un Pokémon de base dans votre deck et placez-le sur votre Banc. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja 1 Pokémon Básico y ponlo en tu Banca. Baraja las cartas de tu baraja después.",
-				it: "Cerca nel tuo mazzo un Pokémon Base e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure em seu baralho 1 Pokémon Básico e coloque-o no seu Banco. Em seguida, embaralhe seus cards.",
-				de: "Durchsuche dein Deck nach 1 Basis-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck."
+				'en-us': "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez un Pokémon de base dans votre deck et placez-le sur votre Banc. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja 1 Pokémon Básico y ponlo en tu Banca. Baraja las cartas de tu baraja después.",
+				'it-it': "Cerca nel tuo mazzo un Pokémon Base e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure em seu baralho 1 Pokémon Básico e coloque-o no seu Banco. Em seguida, embaralhe seus cards.",
+				'de-de': "Durchsuche dein Deck nach 1 Basis-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck."
 			},
 
 		},
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 20,
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It digs into the ground with its tail and makes a mazelike nest. It can fly just a little.",
+		'en-us': "It digs into the ground with its tail and makes a mazelike nest. It can fly just a little.",
 	},
 
 	thirdParty: {

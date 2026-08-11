@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Rhyhorn",
-		fr: "Rhinocorne de Team Magma",
-		de: "Team Magmas Rihorn"
+		'en-us': "Team Magma's Rhyhorn",
+		'fr-fr': "Rhinocorne de Team Magma",
+		'de-de': "Team Magmas Rihorn"
 	},
 
 	illustrator: "Yosuke Da Silva",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Double Stab",
-				fr: "Coup double",
-				de: "Double Stab"
+				'en-us': "Double Stab",
+				'fr-fr': "Coup double",
+				'de-de': "Double Stab"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10×",
 
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Second Strike",
-				fr: "Deuxième coup",
-				de: "Second Strike"
+				'en-us': "Second Strike",
+				'fr-fr': "Deuxième coup",
+				'de-de': "Second Strike"
 			},
 			effect: {
-				en: "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 10 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur possède déjà 2 marqueurs de dégât, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 10 damage plus 20 more damage."
+				'en-us': "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 10 damage plus 20 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur possède déjà 2 marqueurs de dégât, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 10 damage plus 20 more damage."
 			},
 			damage: "10+",
 

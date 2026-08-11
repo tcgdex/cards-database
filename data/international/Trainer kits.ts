@@ -1,12 +1,12 @@
-import { Serie } from 'models/serie'
+import { Serie } from 'models/database/serie'
 
 const tk: Serie = {
 	id: "tk",
 	name: {
-		en: "Trainer kits",
-		fr: "Kits du dresseur",
-		es: "Kits de Entrenador",
-		it: "Trainer Kit"
+		'en-us': "Trainer kits",
+		'fr-fr': "Kits du dresseur",
+		'es-es': "Kits de Entrenador",
+		'it-it': "Trainer Kit"
 	},
 }
 

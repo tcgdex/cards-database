@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shroomish"
+		'en-us': "Shroomish"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "If it senses danger, it scatters spores from the top\nof its head to protect itself."
+		'en-us': "If it senses danger, it scatters spores from the top\nof its head to protect itself."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Tackle"
+			'en-us': "Tackle"
 		},
 
 		damage: 20,

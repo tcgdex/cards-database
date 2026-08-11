@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Oricorio",
-		fr: "Plumeline",
-		es: "Oricorio",
-		it: "Oricorio",
-		pt: "Oricorio",
-		de: "Choreogel"
+		'en-us': "Oricorio",
+		'fr-fr': "Plumeline",
+		'es-es': "Oricorio",
+		'it-it': "Oricorio",
+		'pt-br': "Oricorio",
+		'de-de': "Choreogel"
 	},
 
 	illustrator: "Naoki Saito",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Feather Dance",
-				fr: "Danse-Plume",
-				es: "Danza Pluma",
-				it: "Danzadipiume",
-				pt: "Dança das Penas",
-				de: "Daunenreigen"
+				'en-us': "Feather Dance",
+				'fr-fr': "Danse-Plume",
+				'es-es': "Danza Pluma",
+				'it-it': "Danzadipiume",
+				'pt-br': "Dança das Penas",
+				'de-de': "Daunenreigen"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon’s Pom-Pom Punch attack’s base damage is 100.",
-				fr: "Pendant votre prochain tour, les dégâts de base de l’attaque Poing Pom-Pom de ce Pokémon sont de 100.",
-				es: "Durante tu próximo turno, el daño básico del ataque Puñetazo Animado de este Pokémon es de 100.",
-				it: "Durante il tuo prossimo turno, i danni base dell’attacco Pugno Cheerdance di questo Pokémon sono 100.",
-				pt: "Durante a sua próxima vez de jogar, o dano base do ataque Soco de Pompom deste Pokémon será 100.",
-				de: "Während deines nächsten Zuges beträgt der Grundschaden der Attacke Cheerleading-Hieb dieses Pokémon 100 Schadenspunkte."
+				'en-us': "During your next turn, this Pokémon’s Pom-Pom Punch attack’s base damage is 100.",
+				'fr-fr': "Pendant votre prochain tour, les dégâts de base de l’attaque Poing Pom-Pom de ce Pokémon sont de 100.",
+				'es-es': "Durante tu próximo turno, el daño básico del ataque Puñetazo Animado de este Pokémon es de 100.",
+				'it-it': "Durante il tuo prossimo turno, i danni base dell’attacco Pugno Cheerdance di questo Pokémon sono 100.",
+				'pt-br': "Durante a sua próxima vez de jogar, o dano base do ataque Soco de Pompom deste Pokémon será 100.",
+				'de-de': "Während deines nächsten Zuges beträgt der Grundschaden der Attacke Cheerleading-Hieb dieses Pokémon 100 Schadenspunkte."
 			},
 
 		},
@@ -56,12 +56,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Pom-Pom Punch",
-				fr: "Poing Pom-Pom",
-				es: "Puñetazo Animado",
-				it: "Pugno Cheerdance",
-				pt: "Soco de Pompom",
-				de: "Cheerleading-Hieb"
+				'en-us': "Pom-Pom Punch",
+				'fr-fr': "Poing Pom-Pom",
+				'es-es': "Puñetazo Animado",
+				'it-it': "Pugno Cheerdance",
+				'pt-br': "Soco de Pompom",
+				'de-de': "Cheerleading-Hieb"
 			},
 
 			damage: 20,
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Oricorio has sipped bright yellow nectar. Its bright, cheerful dance melts the hearts of its enemies.",
+		'en-us': "This Oricorio has sipped bright yellow nectar. Its bright, cheerful dance melts the hearts of its enemies.",
 	},
 
 	thirdParty: {

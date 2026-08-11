@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Braixen",
-		fr: "Roussil",
-		es: "Braixen",
-		it: "Braixen",
-		pt: "Braixen",
-		de: "Rutena"
+		'en-us': "Braixen",
+		'fr-fr': "Roussil",
+		'es-es': "Braixen",
+		'it-it': "Braixen",
+		'pt-br': "Braixen",
+		'de-de': "Rutena"
 	},
 
 	illustrator: "kawayoo",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Fennekin",
-		fr: "Feunnec",
-		es: "Fennekin",
-		it: "Fennekin",
-		pt: "Fennekin",
-		de: "Fynx"
+		'en-us': "Fennekin",
+		'fr-fr': "Feunnec",
+		'es-es': "Fennekin",
+		'it-it': "Fennekin",
+		'pt-br': "Fennekin",
+		'de-de': "Fynx"
 	},
 
 	stage: "Stage1",
@@ -45,20 +45,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-Flammes",
-				es: "Lanzallamas",
-				it: "Lanciafiamme",
-				pt: "Lança-chamas",
-				de: "Flammenwurf"
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-Flammes",
+				'es-es': "Lanzallamas",
+				'it-it': "Lanciafiamme",
+				'pt-br': "Lança-chamas",
+				'de-de': "Flammenwurf"
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon.",
-				es: "Descarta 1 Energía unida a este Pokémon.",
-				it: "Scarta un'Energia assegnata a questo Pokémon.",
-				pt: "Descarte uma Energia ligada a este Pokémon.",
-				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon.",
+				'es-es': "Descarta 1 Energía unida a este Pokémon.",
+				'it-it': "Scarta un'Energia assegnata a questo Pokémon.",
+				'pt-br': "Descarte uma Energia ligada a este Pokémon.",
+				'de-de': "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 70,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When the twig is plucked from its tail, friction sets the twig alight. The flame is used to send signals to its allies.",
+		'en-us': "When the twig is plucked from its tail, friction sets the twig alight. The flame is used to send signals to its allies.",
 	},
 
 	thirdParty: {

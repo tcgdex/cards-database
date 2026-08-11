@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ザルード",
+		'ja-jp': "ザルード",
 	},
 
 	illustrator: "Uninori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "群れを つくり 密林で 暮らす。 とても 攻撃的で 森にすむ ポケモンたちから 恐れられている。",
+		'ja-jp': "群れを つくり 密林で 暮らす。 とても 攻撃的で 森にすむ ポケモンたちから 恐れられている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "もぎとる" },
 			cost: ["Grass"],
 			effect: {
-				ja: "自分の山札から「基本[G]エネルギー」を3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札から「基本[G]エネルギー」を3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Grass", "Grass", "Grass"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],

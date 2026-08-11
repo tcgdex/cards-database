@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Gligar",
-		fr: "Scorplane",
-		de: "Skorgla"
+		'en-us': "Gligar",
+		'fr-fr': "Scorplane",
+		'de-de': "Skorgla"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -33,15 +33,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Stun Poison",
-				fr: "Poison neural",
-				de: "Nervengift"
+				'en-us': "Stun Poison",
+				'fr-fr': "Poison neural",
+				'de-de': "Nervengift"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt und vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt und vergiftet."
 			},
 
 			damage: 10
@@ -63,8 +63,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It spends its days hanging from cliffs, swooping down on any prey it spots from its high vantage point.",
-		fr: "Il passe ses journées accroché aux falaises, attendant de fondre sur sa proie depuis son poste d'observation."
+		'en-us': "It spends its days hanging from cliffs, swooping down on any prey it spots from its high vantage point.",
+		'fr-fr': "Il passe ses journées accroché aux falaises, attendant de fondre sur sa proie depuis son poste d'observation."
 	},
 
 

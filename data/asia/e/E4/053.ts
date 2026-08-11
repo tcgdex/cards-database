@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Rhyhorn",
+		'ja-jp': "Rhyhorn",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ホーン攻撃",
+				'ja-jp': "ホーン攻撃",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "報復",
+				'ja-jp': "報復",
 			},
 			effect: {
-				ja: "この攻撃は、Rhyhornのダメージカウンターの数の10倍のダメージを与えます。",
+				'ja-jp': "この攻撃は、Rhyhornのダメージカウンターの数の10倍のダメージを与えます。",
 			},
 		},
 	],

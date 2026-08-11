@@ -1,11 +1,11 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../SM'
 
 const set: Set = {
 	id: 'SMP2',
 	name: {
-		ja: '名探偵ピカチュウ',
-		ko: '명탐정 피카츄'
+		'ja-jp': '名探偵ピカチュウ',
+		'ko-kr': '명탐정 피카츄'
 	},
 
 	serie: serie,

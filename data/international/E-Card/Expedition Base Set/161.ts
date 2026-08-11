@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Fire Energy",
-		fr: "Énergie Feu",
-		de: "Feuerenergie"
+		'en-us': "Fire Energy",
+		'fr-fr': "Énergie Feu",
+		'de-de': "Feuerenergie"
 	},
 
 	illustrator: "Keiji Kinebuchi",

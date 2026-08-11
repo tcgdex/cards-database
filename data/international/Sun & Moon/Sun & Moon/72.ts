@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Crabrawler",
-		fr: "Crabagarre",
-		es: "Crabrawler",
-		it: "Crabrawler",
-		pt: "Crabrawler",
-		de: "Krabbox"
+		'en-us': "Crabrawler",
+		'fr-fr': "Crabagarre",
+		'es-es': "Crabrawler",
+		'it-it': "Crabrawler",
+		'pt-br': "Crabrawler",
+		'de-de': "Krabbox"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Punch",
-				fr: "Koud’Poing",
-				es: "Puño",
-				it: "Pugno",
-				pt: "Soco",
-				de: "Boxhieb"
+				'en-us': "Punch",
+				'fr-fr': "Koud’Poing",
+				'es-es': "Puño",
+				'it-it': "Pugno",
+				'pt-br': "Soco",
+				'de-de': "Boxhieb"
 			},
 
 			damage: 20,
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crabhammer",
-				fr: "Pince-Masse",
-				es: "Martillazo",
-				it: "Martellata",
-				pt: "Martelo Caranguejo",
-				de: "Krabbhammer"
+				'en-us': "Crabhammer",
+				'fr-fr': "Pince-Masse",
+				'es-es': "Martillazo",
+				'it-it': "Martellata",
+				'pt-br': "Martelo Caranguejo",
+				'de-de': "Krabbhammer"
 			},
 
 			damage: 40,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It punches so much, its pincers often come off from overuse, but they grow back quickly. What little meat they contain is rich and delicious.",
+		'en-us': "It punches so much, its pincers often come off from overuse, but they grow back quickly. What little meat they contain is rich and delicious.",
 	},
 
 	thirdParty: {

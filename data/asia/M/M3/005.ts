@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャノビー",
+		'ja-jp': "ジャノビー",
 	},
 
 	illustrator: "Kurata So",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "高すぎる プライドが 玉にきず。 ほかの ポケモンと 連携できる ようになるまで 時間が かかる。",
+		'ja-jp': "高すぎる プライドが 玉にきず。 ほかの ポケモンと 連携できる ようになるまで 時間が かかる。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "ツタージャ",
+		'ja-jp': "ツタージャ",
 	},
 
 	retreat: 1,

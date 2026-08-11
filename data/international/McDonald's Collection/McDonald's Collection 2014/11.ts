@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2014'
 
 const card: Card = {
@@ -7,12 +7,12 @@ const card: Card = {
 	],
 	illustrator: "5ban Graphics",
 	description: {
-		en: "These friendly Pokémon send signals to one another with beautiful chirps and tail-feather movements."
+		'en-us': "These friendly Pokémon send signals to one another with beautiful chirps and tail-feather movements."
 	},
 	set: Set,
 	name: {
-		en: "Fletchling",
-		fr: "Passerouge",
+		'en-us': "Fletchling",
+		'fr-fr': "Passerouge",
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -27,13 +27,13 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Wind",
-				fr: "Coupe-Vent",
+				'en-us': "Razor Wind",
+				'fr-fr': "Coupe-Vent",
 			},
 			damage: "20",
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 			},
 		},
 	],

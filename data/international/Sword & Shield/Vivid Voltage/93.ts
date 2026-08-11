@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [718],
 
 	name: {
-		en: "Zygarde",
-		fr: "Zygarde",
-		es: "Zygarde",
-		it: "Zygarde",
-		pt: "Zygarde",
-		de: "Zygarde"
+		'en-us': "Zygarde",
+		'fr-fr': "Zygarde",
+		'es-es': "Zygarde",
+		'it-it': "Zygarde",
+		'pt-br': "Zygarde",
+		'de-de': "Zygarde"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Beam",
-				fr: "Rayon",
-				es: "Transmisión",
-				it: "Raggio",
-				pt: "Feixe",
-				de: "Strahl"
+				'en-us': "Beam",
+				'fr-fr': "Rayon",
+				'es-es': "Transmisión",
+				'it-it': "Raggio",
+				'pt-br': "Feixe",
+				'de-de': "Strahl"
 			},
 
 			damage: 30,
@@ -47,20 +47,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Core Avenger",
-				fr: "Cœur Justicier",
-				es: "Núcleo Vengador",
-				it: "Nucleovendetta",
-				pt: "Vingador do Núcleo",
-				de: "Kernrächer"
+				'en-us': "Core Avenger",
+				'fr-fr': "Cœur Justicier",
+				'es-es': "Núcleo Vengador",
+				'it-it': "Nucleovendetta",
+				'pt-br': "Vingador do Núcleo",
+				'de-de': "Kernrächer"
 			},
 			effect: {
-				en: "If you have more Prize cards remaining than your opponent, this attack does 80 more damage.",
-				fr: "S'il vous reste plus de cartes Récompense qu'à votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
-				es: "Si te quedan más cartas de Premio que a tu rival, este ataque hace 80 puntos de daño más.",
-				it: "Se hai più carte Premio rimanenti del tuo avversario, questo attacco infligge 80 danni in più.",
-				pt: "Se você tiver mais cartas de Prêmio restantes do que seu oponente, este ataque causará 80 pontos de dano a mais.",
-				de: "Wenn du mehr verbleibende Preiskarten hast als dein Gegner, fügt diese Attacke 80 Schadenspunkte mehr zu."
+				'en-us': "If you have more Prize cards remaining than your opponent, this attack does 80 more damage.",
+				'fr-fr': "S'il vous reste plus de cartes Récompense qu'à votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
+				'es-es': "Si te quedan más cartas de Premio que a tu rival, este ataque hace 80 puntos de daño más.",
+				'it-it': "Se hai più carte Premio rimanenti del tuo avversario, questo attacco infligge 80 danni in più.",
+				'pt-br': "Se você tiver mais cartas de Prêmio restantes do que seu oponente, este ataque causará 80 pontos de dano a mais.",
+				'de-de': "Wenn du mehr verbleibende Preiskarten hast als dein Gegner, fügt diese Attacke 80 Schadenspunkte mehr zu."
 			},
 			damage: "80+",
 
@@ -81,7 +81,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Born when all of Zygarde's cells have been gathered together, it uses force to neutralize those who harm the ecosystem."
+		'en-us': "Born when all of Zygarde's cells have been gathered together, it uses force to neutralize those who harm the ecosystem."
 	},
 
 	variants: [

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Alomomola",
-		fr: "Mamanbo",
-		es: "Alomomola",
-		it: "Alomomola",
-		pt: "Alomomola",
-		de: "Mamolida"
+		'en-us': "Alomomola",
+		'fr-fr': "Mamanbo",
+		'es-es': "Alomomola",
+		'it-it': "Alomomola",
+		'pt-br': "Alomomola",
+		'de-de': "Mamolida"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Pulse",
-				fr: "Vibraqua",
+				'en-us': "Water Pulse",
+				'fr-fr': "Vibraqua",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
 			},
 			damage: 20,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Pump",
-				fr: "Hydrocanon",
+				'en-us': "Hydro Pump",
+				'fr-fr': "Hydrocanon",
 			},
 			effect: {
-				en: "Does 10 more damage for each Water Energy attached to this Pokémon.",
-				fr: "Inflige 10 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+				'en-us': "Does 10 more damage for each Water Energy attached to this Pokémon.",
+				'fr-fr': "Inflige 10 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
 			},
 			damage: 40,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore.",
+		'en-us': "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore.",
 	},
 
 	thirdParty: {

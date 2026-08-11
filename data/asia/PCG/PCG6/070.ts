@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マイティエナ（デルタ種）",
+		'ja-jp': "マイティエナ（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Darkness", "Colorless"],
 			name: {
-				ja: "デルタファン",
+				'ja-jp': "デルタファン",
 			},
 			effect: {
-				ja: "防御ポケモンがポケモンエクスの場合、そのポケモンは相手の次のターン中に攻撃できません。",
+				'ja-jp': "防御ポケモンがポケモンエクスの場合、そのポケモンは相手の次のターン中に攻撃できません。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Metal", "Colorless"],
 			name: {
-				ja: "ギャングアップ",
+				'ja-jp': "ギャングアップ",
 			},
 			effect: {
-				ja: "闇のポケモンとメタルポケモンの数を10回ダメージします。",
+				'ja-jp': "闇のポケモンとメタルポケモンの数を10回ダメージします。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダンバル",
+		'ja-jp': "ダンバル",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "細胞 すべてが 磁石。 磁力を 使って 仲間と コミュニケーションを 取る。",
+		'ja-jp': "細胞 すべてが 磁石。 磁力を 使って 仲間と コミュニケーションを 取る。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Metal"],
 			effect: {
-				ja: "このポケモンについている[鋼]エネルギーを、1個トラッシュする。",
+				'ja-jp': "このポケモンについている[鋼]エネルギーを、1個トラッシュする。",
 			},
 		},
 	],

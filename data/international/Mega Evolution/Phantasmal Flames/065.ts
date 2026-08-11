@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Krokorok",
-		fr: "Escroco",
-		es: "Krokorok",
+		'en-us': "Krokorok",
+		'fr-fr': "Escroco",
+		'es-es': "Krokorok",
 		'es-mx': "Krokorok",
-		de: "Rokkaiman",
-		it: "Krokorok",
-		pt: "Krokorok"
+		'de-de': "Rokkaiman",
+		'it-it': "Krokorok",
+		'pt-br': "Krokorok"
 	},
 
 	evolveFrom: {
-		en: "Sandile",
-		fr: "Mascaïman",
-		es: "Sandile",
+		'en-us': "Sandile",
+		'fr-fr': "Mascaïman",
+		'es-es': "Sandile",
 		'es-mx': "Sandile",
-		de: "Ganovil",
-		it: "Sandile",
-		pt: "Sandile",
+		'de-de': "Ganovil",
+		'it-it': "Sandile",
+		'pt-br': "Sandile",
 	},
 
 	rarity: "Common",
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			es: "Mordisco",
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'es-es': "Mordisco",
 			'es-mx': "Mordida",
-			de: "Biss",
-			it: "Morso",
-			pt: "Mordida"
+			'de-de': "Biss",
+			'it-it': "Morso",
+			'pt-br': "Mordida"
 		},
 
 		damage: 30
@@ -50,13 +50,13 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			en: "Confront",
-			fr: "Confrontation",
-			es: "Confrontar",
+			'en-us': "Confront",
+			'fr-fr': "Confrontation",
+			'es-es': "Confrontar",
 			'es-mx': "Confrontar",
-			de: "Konfrontieren",
-			it: "Confronto",
-			pt: "Confrontar"
+			'de-de': "Konfrontieren",
+			'it-it': "Confronto",
+			'pt-br': "Confrontar"
 		},
 
 		damage: 60
@@ -72,7 +72,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Protected by thin membranes, their eyes can see even in the dead of night. They live in groups of a few individuals.",
+		'en-us': "Protected by thin membranes, their eyes can see even in the dead of night. They live in groups of a few individuals.",
 	},
 
 	illustrator: "Uninori",

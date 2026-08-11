@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "b",
+		'ja-jp': "b",
 	},
 
 	rarity: "Uncommon",
@@ -17,10 +17,10 @@ const card: Card = {
 	abilities: [
 		{
 			name: {
-				ja: "bear [bear]",
+				'ja-jp': "bear [bear]",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前）</em> </em>、1つのポケモンから1つのダメージカウンターを、名前に由来していない[B]を動かすことができます[B]。 [B]が10 hpの残りの場合、この電力は使用できません。この力は、眠っていない場合でも、眠っていても混乱している、または麻痺している場合でも使用できます。",
+				'ja-jp': "ターン中に（攻撃の前）</em> </em>、1つのポケモンから1つのダメージカウンターを、名前に由来していない[B]を動かすことができます[B]。 [B]が10 hpの残りの場合、この電力は使用できません。この力は、眠っていない場合でも、眠っていても混乱している、または麻痺している場合でも使用できます。",
 			},
 		}],
 
@@ -28,7 +28,7 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "隠された力",
+				'ja-jp': "隠された力",
 			},
 			damage: 10,
 		},

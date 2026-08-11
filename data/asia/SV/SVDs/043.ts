@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "พิคาชูex",
-		id: "Pikachu ex"
+		'th-th': "พิคาชูex",
+		'id-id': "Pikachu ex"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -18,21 +18,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			th: "พิคาพันช์",
-			id: "Pika Punch"
+			'th-th': "พิคาพันช์",
+			'id-id': "Pika Punch"
 		},
 
 		damage: 30,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "ไดนามิกโวลต์",
-			id: "Dynamic Volt"
+			'th-th': "ไดนามิกโวลต์",
+			'id-id': "Dynamic Volt"
 		},
 
 		effect: {
-			th: "ทอยเหรียญ 1 ครั้งถ้าออกก้อย ทิ้งพลังงานที่ติดอยู่กับโปเกมอนนี้ ทั้งหมดที่ตำแหน่งทิ้งการ์ด",
-			id: "Lempar koin 1 kali. Jika hasilnya sisi belakang, buang semua Energi yang dikenakan pada Pokémon ini ke Trash."
+			'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกก้อย ทิ้งพลังงานที่ติดอยู่กับโปเกมอนนี้ ทั้งหมดที่ตำแหน่งทิ้งการ์ด",
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi belakang, buang semua Energi yang dikenakan pada Pokémon ini ke Trash."
 		},
 
 		damage: 220,

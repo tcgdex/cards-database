@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Braviary",
-		fr: "Gueriaigle",
-		es: "Braviary",
-		it: "Braviary",
-		pt: "Braviary",
-		de: "Washakwil"
+		'en-us': "Braviary",
+		'fr-fr': "Gueriaigle",
+		'es-es': "Braviary",
+		'it-it': "Braviary",
+		'pt-br': "Braviary",
+		'de-de': "Washakwil"
 	},
 
 	rarity: "Uncommon",
@@ -23,42 +23,42 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Valiant Talons",
-			fr: "Serres Vaillantes",
-			es: "Garras Aguerridas",
-			it: "Artigli della Baldanza",
-			pt: "Valiant Talons",
-			de: "Kühne Krallen"
+			'en-us': "Valiant Talons",
+			'fr-fr': "Serres Vaillantes",
+			'es-es': "Garras Aguerridas",
+			'it-it': "Artigli della Baldanza",
+			'pt-br': "Valiant Talons",
+			'de-de': "Kühne Krallen"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 60 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 60 dégâts supplémentaires.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 60 puntos de daño más.",
-			it: "Se il Pokémon attivo del tuo avversario è un Pokémon Evoluzione, questo attacco infligge 60 danni in più.",
-			pt: "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 60 more damage.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 60 Schadenspunkte mehr zu."
+			'en-us': "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 60 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 60 dégâts supplémentaires.",
+			'es-es': "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 60 puntos de daño más.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon Evoluzione, questo attacco infligge 60 danni in più.",
+			'pt-br': "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 60 more damage.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 60 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+",
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Brave Bird",
-			fr: "Rapace",
-			es: "Pájaro Osado",
-			it: "Baldeali",
-			pt: "Brave Bird",
-			de: "Sturzflug"
+			'en-us': "Brave Bird",
+			'fr-fr': "Rapace",
+			'es-es': "Pájaro Osado",
+			'it-it': "Baldeali",
+			'pt-br': "Brave Bird",
+			'de-de': "Sturzflug"
 		},
 
 		effect: {
-			en: "This Pokémon also does 50 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 50 dégâts.",
-			es: "Este Pokémon también se hace 50 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 50 danni a se stesso.",
-			pt: "This Pokémon also does 50 damage to itself.",
-			de: "Dieses Pokémon fügt auch sich selbst 50 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 50 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 50 dégâts.",
+			'es-es': "Este Pokémon también se hace 50 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 50 danni a se stesso.",
+			'pt-br': "This Pokémon also does 50 damage to itself.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 50 Schadenspunkte zu."
 		},
 
 		damage: 150,
@@ -79,16 +79,16 @@ const card: Card = {
 	dexId: [628],
 
 	evolveFrom: {
-		en: "Rufflet",
-		fr: "Furaiglon",
-		es: "Rufflet",
-		it: "Rufflet",
-		pt: "Rufflet",
-		de: "Geronimatz"
+		'en-us': "Rufflet",
+		'fr-fr': "Furaiglon",
+		'es-es': "Rufflet",
+		'it-it': "Rufflet",
+		'pt-br': "Rufflet",
+		'de-de': "Geronimatz"
 	},
 
 	description: {
-		en: "Because this Pokémon is hotheaded and belligerent, it's Corviknight that's taken the role of transportation in Galar."
+		'en-us': "Because this Pokémon is hotheaded and belligerent, it's Corviknight that's taken the role of transportation in Galar."
 	},
 
 	regulationMark: "E",

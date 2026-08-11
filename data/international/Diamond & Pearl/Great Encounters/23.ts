@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Latios",
-		fr: "Latios",
-		de: "Latios"
+		'en-us': "Latios",
+		'fr-fr': "Latios",
+		'de-de': "Latios"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Draw",
-				fr: "Absorption d'énergie",
-				de: "Energieanziehung"
+				'en-us': "Energy Draw",
+				'fr-fr': "Absorption d'énergie",
+				'de-de': "Energieanziehung"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your deck for a basic Energy card and attach it to Latios. Shuffle your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, choisissez dans votre deck une carte Énergie de base et attachez-la à Latios. Ensuite, mélangez votre deck.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" durchsuche dein Deck nach 1 Basis-Energiekarte und lege sie an Latios an. Mische dein Deck danach."
+				'en-us': "Flip a coin. If heads, search your deck for a basic Energy card and attach it to Latios. Shuffle your deck afterward.",
+				'fr-fr': "Lancez une pièce. Si c'est face, choisissez dans votre deck une carte Énergie de base et attachez-la à Latios. Ensuite, mélangez votre deck.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" durchsuche dein Deck nach 1 Basis-Energiekarte und lege sie an Latios an. Mische dein Deck danach."
 			},
 			damage: 10,
 
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Luster Purge",
-				fr: "Lumi-Eclat",
-				de: "Scheinwerfer"
+				'en-us': "Luster Purge",
+				'fr-fr': "Lumi-Eclat",
+				'de-de': "Scheinwerfer"
 			},
 			effect: {
-				en: "Discard 3 Energy attached to Latios.",
-				fr: "Défaussez 3 Énergies attachées à Latios.",
-				de: "Lege 3 Energien, die an Latios angelegt sind, auf deinen Ablagestapel."
+				'en-us': "Discard 3 Energy attached to Latios.",
+				'fr-fr': "Défaussez 3 Énergies attachées à Latios.",
+				'de-de': "Lege 3 Energien, die an Latios angelegt sind, auf deinen Ablagestapel."
 			},
 			damage: 120,
 
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A highly intelligent Pokémon. By folding back its wings in flight, it can overtake jet planes.",
+		'en-us': "A highly intelligent Pokémon. By folding back its wings in flight, it can overtake jet planes.",
 	},
 
 	thirdParty: {

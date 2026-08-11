@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ペロッパフ",
+		'ja-jp': "ペロッパフ",
 	},
 
 	illustrator: "MAHOU",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "わたあめのような 甘くて ベタつく 白い 糸を 出して 相手を 絡め取り 動きを 封じる。",
+		'ja-jp': "わたあめのような 甘くて ベタつく 白い 糸を 出して 相手を 絡め取り 動きを 封じる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Fairy"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-10」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-10」される。",
 			},
 		},
 	],

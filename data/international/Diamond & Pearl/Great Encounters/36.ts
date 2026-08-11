@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Delibird",
-		fr: "Cadoizo",
-		de: "Botogel"
+		'en-us': "Delibird",
+		'fr-fr': "Cadoizo",
+		'de-de': "Botogel"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Present",
-				fr: "Cadeau",
-				de: "Geschenk"
+				'en-us': "Present",
+				'fr-fr': "Cadeau",
+				'de-de': "Geschenk"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, choisissez 1 carte dans votre deck et placez-la dans votre main. Ensuite, mélangez votre deck.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" durchsuche dein Deck nach 1 Karte und nimm sie auf die Hand. Mische dein Deck danach."
+				'en-us': "Flip a coin. If heads, search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Lancez une pièce. Si c'est face, choisissez 1 carte dans votre deck et placez-la dans votre main. Ensuite, mélangez votre deck.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" durchsuche dein Deck nach 1 Karte und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -45,9 +45,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Ice Ball",
-				fr: "Ball'glace",
-				de: "Frostbeule"
+				'en-us': "Ice Ball",
+				'fr-fr': "Ball'glace",
+				'de-de': "Frostbeule"
 			},
 
 			damage: 20,
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It carries food rolled up in its tail. It has the habit of sharing food with people lost in mountains.",
+		'en-us': "It carries food rolled up in its tail. It has the habit of sharing food with people lost in mountains.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Ponyta",
-		de: "Ponita"
+		'en-us': "Ponyta",
+		'de-de': "Ponita"
 	},
 
 	illustrator: "Midori Harada",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stomp",
-				de: "Stampfer"
+				'en-us': "Stomp",
+				'de-de': "Stampfer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster."
+		'en-us': "As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster."
 	},
 
 	variants: [

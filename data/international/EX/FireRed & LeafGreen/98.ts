@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Prof. Oak's Research",
-		fr: "La recherche du Prof. Chen",
-		de: "Professor Eichs Nachforschunge"
+		'en-us': "Prof. Oak's Research",
+		'fr-fr': "La recherche du Prof. Chen",
+		'de-de': "Professor Eichs Nachforschunge"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -15,9 +15,9 @@ const card: Card = {
 	trainerType: "Supporter",
 
 	effect: {
-		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Shuffle your hand into your deck, then draw 5 cards.",
-		fr: "Mélangez votre main avec votre deck. Ensuite, piochez 5 cartes.",
-		de: "Mische deine Hand in dein Deck, und ziehe dann 5 Karten.",
+		'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Shuffle your hand into your deck, then draw 5 cards.",
+		'fr-fr': "Mélangez votre main avec votre deck. Ensuite, piochez 5 cartes.",
+		'de-de': "Mische deine Hand in dein Deck, und ziehe dann 5 Karten.",
 	},
 
 

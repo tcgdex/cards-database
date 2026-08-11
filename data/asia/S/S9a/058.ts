@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "大奶罐",
-		ja: "ミルタンク"
+		'ja-jp': "ミルタンク"
 	},
 
 	illustrator: "saino misaki",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "由於能生產營養滿分的鮮奶，自古以來支持著 人類與寶可夢的生活。",
-		ja: "栄養満点の ミルクを 出すことから 古くから 人間と ポケモンの 暮らしを 支えてきた。"
+		'ja-jp': "栄養満点の ミルクを 出すことから 古くから 人間と ポケモンの 暮らしを 支えてきた。"
 	},
 
 	stage: "Basic",
@@ -26,24 +26,24 @@ const card: Card = {
 
 		name: {
 			'zh-tw': "奇跡之軀",
-			ja: "ミラクルボディ"
+			'ja-jp': "ミラクルボディ"
 		},
 
 		effect: {
 			'zh-tw': "這隻寶可夢不會受到對手的「寶可夢【V】」招式的傷害。",
-			ja: "このポケモンは、相手の「ポケモンV」からワザのダメージを受けない。"
+			'ja-jp': "このポケモンは、相手の「ポケモンV」からワザのダメージを受けない。"
 		}
 	}],
 
 	attacks: [{
 		name: {
 			'zh-tw': "踢散",
-			ja: "けちらす"
+			'ja-jp': "けちらす"
 		},
 
 		effect: {
 			'zh-tw': "增加對手的備戰寶可夢的數量×20點傷害。",
-			ja: "相手のベンチポケモンの数×20ダメージ追加。"
+			'ja-jp': "相手のベンチポケモンの数×20ダメージ追加。"
 		},
 
 		damage: "10＋",

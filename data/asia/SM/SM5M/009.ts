@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユキカブリ",
+		'ja-jp': "ユキカブリ",
 	},
 
 	illustrator: "match",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "春になると アイスキャンディーの ような 食感の 木の実が お腹の まわりに 生る。",
+		'ja-jp': "春になると アイスキャンディーの ような 食感の 木の実が お腹の まわりに 生る。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが[闘]ポケモンなら、40ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが[闘]ポケモンなら、40ダメージ追加。",
 			},
 		},
 	],

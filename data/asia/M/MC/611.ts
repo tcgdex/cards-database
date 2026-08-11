@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トリミアン",
+		'ja-jp': "トリミアン",
 	},
 
 	illustrator: "Shinya Komatsu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ボサボサの 体毛を 刈りこむと 姿が 美しくなる だけでなく 身体の キレが 良くなるのだ。",
+		'ja-jp': "ボサボサの 体毛を 刈りこむと 姿が 美しくなる だけでなく 身体の キレが 良くなるのだ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュから基本エネルギーを1枚選び、ベンチポケモンにつける。",
+				'ja-jp': "自分のトラッシュから基本エネルギーを1枚選び、ベンチポケモンにつける。",
 			},
 		},
 	],

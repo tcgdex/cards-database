@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "M Swampert EX",
-		fr: "M Laggron EX",
+		'en-us': "M Swampert EX",
+		'fr-fr': "M Laggron EX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Promo",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Water",
 	],
 	evolveFrom: {
-		en: "Swampert-EX",
-		fr: "Laggron-EX",
+		'en-us': "Swampert-EX",
+		'fr-fr': "Laggron-EX",
 	},
 	stage: "MEGA",
 
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strongarm Impact",
-				fr: "Impact Bras d'Fer",
+				'en-us': "Strongarm Impact",
+				'fr-fr': "Impact Bras d'Fer",
 			},
 			effect: {
-				en: "You may do 30 more damage. If you do, discard the top 3 cards of each player's deck.",
-				fr: "Vous pouvez infliger 30 dégâts supplémentaires. Dans ce cas, défaussez les trois cartes du dessus du deck de chaque joueur."
+				'en-us': "You may do 30 more damage. If you do, discard the top 3 cards of each player's deck.",
+				'fr-fr': "Vous pouvez infliger 30 dégâts supplémentaires. Dans ce cas, défaussez les trois cartes du dessus du deck de chaque joueur."
 			},
 			damage: "130+",
 
@@ -52,10 +52,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				fr: "Impact Bras d'Fer",
+				'fr-fr': "Impact Bras d'Fer",
 			},
 			effect: {
-				fr: "Vous pouvez infliger 30 dégâts supplémentaires. Dans ce cas, défaussez les trois cartes du dessus du deck de chaque joueur.",
+				'fr-fr': "Vous pouvez infliger 30 dégâts supplémentaires. Dans ce cas, défaussez les trois cartes du dessus du deck de chaque joueur.",
 			},
 			damage: "130+",
 

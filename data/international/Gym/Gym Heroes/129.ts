@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Grass Energy"
+		'en-us': "Grass Energy"
 	},
 
 	illustrator: "Keiji Kinebuchi",

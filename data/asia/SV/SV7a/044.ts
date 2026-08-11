@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "爆焰龜獸",
 		'zh-cn': "爆焰龜獸",
-		ja: "バクガメス"
+		'ja-jp': "バクガメス"
 	},
 
 	illustrator: "Rianti Hidayat",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "背上的甲殼上敷了炸藥。 會用大爆炸去回擊 來攻擊自己的敵人。",
 		'zh-cn': "背上的甲殼上敷了炸藥。 會用大爆炸去回擊 來攻擊自己的敵人。",
-		ja: "爆薬で コーティングされた 甲羅を 背負う。 攻撃してきた 敵を 大爆発で 返り討ち。"
+		'ja-jp': "爆薬で コーティングされた 甲羅を 背負う。 攻撃してきた 敵を 大爆発で 返り討ち。"
 	},
 
 	stage: "Basic",
@@ -27,13 +27,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "灼燒盡",
 			'zh-cn': "灼燒盡",
-			ja: "こがしつくす"
+			'ja-jp': "こがしつくす"
 		},
 
 		effect: {
 			'zh-tw': "選擇1個對手的戰鬥場的「寶可夢【ex】」身上附加的能量，將其丟棄。",
 			'zh-cn': "選擇1個對手的戰鬥場的「寶可夢【ex】」身上附加的能量，將其丟棄。",
-			ja: "相手のバトル場の「ポケモンex」についているエネルギーを1個選び、トラッシュする。"
+			'ja-jp': "相手のバトル場の「ポケモンex」についているエネルギーを1個選び、トラッシュする。"
 		},
 
 		cost: ["Fire"]
@@ -41,7 +41,7 @@ const card: Card = {
 		name: {
 			'zh-tw': "爆熱踩踏",
 			'zh-cn': "爆熱踩踏",
-			ja: "ばくねつスタンプ"
+			'ja-jp': "ばくねつスタンプ"
 		},
 
 		damage: 100,

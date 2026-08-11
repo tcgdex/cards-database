@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラサンドパン",
+		'ja-jp': "アローラサンドパン",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "雪原を 高速で 駆ける。 雪を 掻きわけるために ツメが ぶっとく 鋭く 発達した。",
+		'ja-jp': "雪原を 高速で 駆ける。 雪を 掻きわけるために ツメが ぶっとく 鋭く 発達した。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: [],
 			effect: {
-				ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。",
+				'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Metal", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンに「ポケモンのどうぐ」がついているなら、60ダメージ追加。",
+				'ja-jp': "このポケモンに「ポケモンのどうぐ」がついているなら、60ダメージ追加。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アローラサンド",
+		'ja-jp': "アローラサンド",
 	},
 
 	retreat: 1,

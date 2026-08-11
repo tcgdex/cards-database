@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Larvesta"
+		'id-id': "Larvesta"
 	},
 
 	illustrator: "Whisker",
@@ -14,21 +14,21 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Zaman dahulu kala, orang-orang memuja Larvesta sebagai utusan matahari, tetapi ia dibenci karena sering menyebabkan kebakaran gunung."
+		'id-id': "Zaman dahulu kala, orang-orang memuja Larvesta sebagai utusan matahari, tetapi ia dibenci karena sering menyebabkan kebakaran gunung."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menyeruduk"
+			'id-id': "Menyeruduk"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Memuntahkan Api"
+			'id-id': "Memuntahkan Api"
 		},
 
 		damage: 20,

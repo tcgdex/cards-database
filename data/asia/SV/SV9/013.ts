@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ブーバー",
+		'ja-jp': "ブーバー",
 		'zh-tw': "鴨嘴火獸",
 		'zh-cn': "鴨嘴火獸"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "火山の 火口近くで 見つかった。 口から 炎を 吐く。 体温は １２００度もある。",
+		'ja-jp': "火山の 火口近くで 見つかった。 口から 炎を 吐く。 体温は １２００度もある。",
 		'zh-tw': "在火山口附近被發現。 會從口中吐出火焰。 體溫高達１２００度。",
 		'zh-cn': "在火山口附近被發現。 會從口中吐出火焰。 體溫高達１２００度。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			ja: "やきこがす",
+			'ja-jp': "やきこがす",
 			'zh-tw': "灼燒",
 			'zh-cn': "灼燒"
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 		damage: 30,
 
 		effect: {
-			ja: "コインを1回投げオモテなら、相手のバトルポケモンをやけどにする。",
+			'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをやけどにする。",
 			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【灼傷】。",
 			'zh-cn': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【灼傷】。"
 		}

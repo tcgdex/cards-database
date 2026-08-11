@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダイノーズ",
+		'ja-jp': "ダイノーズ",
 	},
 
 	illustrator: "Kinu Nishimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "強い 磁力を 放っているので 近くにある 電化製品は 使いものに ならなくなってしまう。",
+		'ja-jp': "強い 磁力を 放っているので 近くにある 電化製品は 使いものに ならなくなってしまう。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "holo"}],
 
 	evolveFrom: {
-		ja: "ノズパス",
+		'ja-jp': "ノズパス",
 	},
 
 	retreat: 3,

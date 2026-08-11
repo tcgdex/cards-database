@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フェローチェ",
+		'ja-jp': "フェローチェ",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "ＵＢの 一種。 この世界の ものに けがれを 感じるのか 一切 手を 触れようと しない。",
+		'ja-jp': "ＵＢの 一種。 この世界の ものに けがれを 感じるのか 一切 手を 触れようと しない。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "90+",
 			cost: ["Grass", "Grass", "Colorless"],
 			effect: {
-				ja: "自分のサイドの残り枚数が1枚なら、90ダメージ追加。",
+				'ja-jp': "自分のサイドの残り枚数が1枚なら、90ダメージ追加。",
 			},
 		},
 	],

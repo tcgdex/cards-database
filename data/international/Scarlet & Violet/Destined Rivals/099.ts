@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Meditite",
-		fr: "Méditikka",
-		de: "Meditie",
-		it: "Meditite",
-		es: "Meditite",
-		pt: "Meditite",
+		'en-us': "Meditite",
+		'fr-fr': "Méditikka",
+		'de-de': "Meditie",
+		'it-it': "Meditite",
+		'es-es': "Meditite",
+		'pt-br': "Meditite",
 		'es-mx': "Meditite"
 	},
 
@@ -28,22 +28,22 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Steady Punch",
-			fr: "Poing Énergétique",
-			de: "Ruhiger Schlag",
-			it: "Pugnosecco",
-			es: "Puño Firme",
-			pt: "Soco Firme",
+			'en-us': "Steady Punch",
+			'fr-fr': "Poing Énergétique",
+			'de-de': "Ruhiger Schlag",
+			'it-it': "Pugnosecco",
+			'es-es': "Puño Firme",
+			'pt-br': "Soco Firme",
 			'es-mx': "Puño Firme"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 20 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
+			'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
 			'es-mx': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más."
 		},
 

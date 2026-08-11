@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Cottonee",
-		fr: "Doudouvet",
-		es: "Cottonee",
-		it: "Cottonee",
-		pt: "Cottonee",
-		de: "Waumboll"
+		'en-us': "Cottonee",
+		'fr-fr': "Doudouvet",
+		'es-es': "Cottonee",
+		'it-it': "Cottonee",
+		'pt-br': "Cottonee",
+		'de-de': "Waumboll"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Continuous Tumble",
-				fr: "Roulade Continue",
-				es: "Avalancha Continua",
-				it: "Capriole",
-				pt: "Tombo Contínuo",
-				de: "Dauerrollen"
+				'en-us': "Continuous Tumble",
+				'fr-fr': "Roulade Continue",
+				'es-es': "Avalancha Continua",
+				'it-it': "Capriole",
+				'pt-br': "Tombo Contínuo",
+				'de-de': "Dauerrollen"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 10 damage for each heads.",
-				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
-				es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 10 puntos de daño por cada cara.",
-				it: "Lancia una moneta finché non esce croce. Questo attacco infligge 10 danni ogni volta che esce testa.",
-				pt: "Jogue 1 moeda até sair coroa. Este ataque causa 10 pontos de dano para cada cara.",
-				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
+				'en-us': "Flip a coin until you get tails. This attack does 10 damage for each heads.",
+				'fr-fr': "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 10 puntos de daño por cada cara.",
+				'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 10 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 1 moeda até sair coroa. Este ataque causa 10 pontos de dano para cada cara.",
+				'de-de': "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
 			},
 			damage: "10×",
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it finds others of its kind, they all stick together. When enough of them have collected, the mass resembles a cumulonimbus cloud.",
+		'en-us': "When it finds others of its kind, they all stick together. When enough of them have collected, the mass resembles a cumulonimbus cloud.",
 	},
 
 	thirdParty: {

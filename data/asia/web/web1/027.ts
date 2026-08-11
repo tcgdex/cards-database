@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../web1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "暗いカダブラ",
+		'ja-jp': "暗いカダブラ",
 	},
 
 	rarity: "Uncommon",
@@ -17,10 +17,10 @@ const card: Card = {
 	abilities: [
 		{
 			name: {
-				ja: "物質交換",
+				'ja-jp': "物質交換",
 			},
 			effect: {
-				ja: "順番<em>（攻撃の前）</em>中に、手からカードを捨てることができます。もしそうなら、カードを描きます。  このポケモンが特別な状態の影響を受けている場合、このパワーは使用できません。",
+				'ja-jp': "順番<em>（攻撃の前）</em>中に、手からカードを捨てることができます。もしそうなら、カードを描きます。  このポケモンが特別な状態の影響を受けている場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Psychic"],
 			name: {
-				ja: "マインドショック",
+				'ja-jp': "マインドショック",
 			},
 			effect: {
-				ja: "この攻撃の損傷は、脱力感や抵抗の影響を受けません。",
+				'ja-jp': "この攻撃の損傷は、脱力感や抵抗の影響を受けません。",
 			},
 			damage: 30,
 		},

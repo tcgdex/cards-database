@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Salandit",
-		fr: "Tritox",
-		es: "Salandit",
+		'en-us': "Salandit",
+		'fr-fr': "Tritox",
+		'es-es': "Salandit",
 		'es-mx': "Salandit",
-		de: "Molunk",
-		it: "Salandit",
-		pt: "Salandit"
+		'de-de': "Molunk",
+		'it-it': "Salandit",
+		'pt-br': "Salandit"
 	},
 
 	illustrator: "Felicia Chen",
@@ -26,23 +26,23 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Ember",
-			fr: "Flammèche",
-			es: "Ascuas",
+			'en-us': "Ember",
+			'fr-fr': "Flammèche",
+			'es-es': "Ascuas",
 			'es-mx': "Brasas",
-			de: "Glut",
-			it: "Braciere",
-			pt: "Brasa"
+			'de-de': "Glut",
+			'it-it': "Braciere",
+			'pt-br': "Brasa"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
 			'es-mx': "Descarta 1 Energía de este Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon."
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte uma Energia deste Pokémon."
 		},
 
 		damage: 30
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Only female Salandit can produce gas laden with pheromones. Males entranced by this gas will do whatever the females tell them.",
+		'en-us': "Only female Salandit can produce gas laden with pheromones. Males entranced by this gas will do whatever the females tell them.",
 	},
 
 	variants: [

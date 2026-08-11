@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Gliscor",
-		fr: "Scorvol",
-		es: "Gliscor",
-		it: "Gliscor",
-		pt: "Gliscor",
-		de: "Skorgro"
+		'en-us': "Gliscor",
+		'fr-fr': "Scorvol",
+		'es-es': "Gliscor",
+		'it-it': "Gliscor",
+		'pt-br': "Gliscor",
+		'de-de': "Skorgro"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gligar",
-		fr: "Scorplane",
+		'en-us': "Gligar",
+		'fr-fr': "Scorplane",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Poison Ring",
-				fr: "Anneau de Poison",
+				'en-us': "Poison Ring",
+				'fr-fr': "Anneau de Poison",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned. The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'en-us': "The Defending Pokémon is now Poisoned. The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné. Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 			damage: 20,
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Night Slash",
-				fr: "Tranche-Nuit",
+				'en-us': "Night Slash",
+				'fr-fr': "Tranche-Nuit",
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
 			},
 			damage: 40,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It dances silently through the sky. When it approaches prey, it can land a critical hit in an instant.",
+		'en-us': "It dances silently through the sky. When it approaches prey, it can land a critical hit in an instant.",
 	},
 
 	thirdParty: {

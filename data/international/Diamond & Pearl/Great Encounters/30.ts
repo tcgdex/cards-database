@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Wailord",
-		fr: "Wailord",
-		de: "Wailord"
+		'en-us': "Wailord",
+		'fr-fr': "Wailord",
+		'de-de': "Wailord"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wailmer",
-		fr: "Wailmer",
+		'en-us': "Wailmer",
+		'fr-fr': "Wailmer",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Sleeping Pulse",
-				fr: "Pouls dormant",
-				de: "Ruhepuls"
+				'en-us': "Sleeping Pulse",
+				'fr-fr': "Pouls dormant",
+				'de-de': "Ruhepuls"
 			},
 			effect: {
-				en: "As long as Wailord remains Asleep between turns, remove 1 damage counter from Wailord.",
-				fr: "Tant que Wailord est Endormi entre deux tours, retirez-lui 1 marqueur de dégât.",
-				de: "Wenn Wailord schläft und zwischen zwei Zügen nicht aufwacht, entferne 1 Schadensmarke von Wailord."
+				'en-us': "As long as Wailord remains Asleep between turns, remove 1 damage counter from Wailord.",
+				'fr-fr': "Tant que Wailord est Endormi entre deux tours, retirez-lui 1 marqueur de dégât.",
+				'de-de': "Wenn Wailord schläft und zwischen zwei Zügen nicht aufwacht, entferne 1 Schadensmarke von Wailord."
 			},
 		},
 	],
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sink Deep",
-				fr: "Couler",
-				de: "Einnicken"
+				'en-us': "Sink Deep",
+				'fr-fr': "Couler",
+				'de-de': "Einnicken"
 			},
 			effect: {
-				en: "If Wailord has any damage counters on it, Wailord is now Asleep.",
-				fr: "Si Wailord possède des marqueurs de dégât, il est maintenant Endormi.",
-				de: "Wenn auf Wailord mindestens 1 Schadensmarke liegt, schläft Wailord jetzt."
+				'en-us': "If Wailord has any damage counters on it, Wailord is now Asleep.",
+				'fr-fr': "Si Wailord possède des marqueurs de dégât, il est maintenant Endormi.",
+				'de-de': "Wenn auf Wailord mindestens 1 Schadensmarke liegt, schläft Wailord jetzt."
 			},
 			damage: 60,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "The biggest of all Pokémon. It can dive to a depth of almost 10,000 feet on only one breath.",
+		'en-us': "The biggest of all Pokémon. It can dive to a depth of almost 10,000 feet on only one breath.",
 	},
 
 	thirdParty: {

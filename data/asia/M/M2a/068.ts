@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムウマージ",
+		'ja-jp': "ムウマージ",
 	},
 
 	illustrator: "nisimono",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "呪文のような 怪しい 鳴き声で 相手を 苦しめる。 神出鬼没の ポケモン。",
+		'ja-jp': "呪文のような 怪しい 鳴き声で 相手を 苦しめる。 神出鬼没の ポケモン。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが特殊状態なら、相手のベンチポケモン1匹に、ダメカンを6個のせる。",
+				'ja-jp': "相手のバトルポケモンが特殊状態なら、相手のベンチポケモン1匹に、ダメカンを6個のせる。",
 			},
 		},
 	],
@@ -56,7 +56,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ムウマ",
+		'ja-jp': "ムウマ",
 	},
 
 	retreat: 1,

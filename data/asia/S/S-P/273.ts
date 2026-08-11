@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミュウツーV",
+		'ja-jp': "ミュウツーV",
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Psychic", "Psychic", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。",
 			},
 		},
 	],

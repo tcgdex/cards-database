@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../DP trainer Kit (Lucario)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Machoke",
-		fr: "Machopeur"
+		'en-us': "Machoke",
+		'fr-fr': "Machopeur"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Machop",
-		fr: "Machoc"
+		'en-us': "Machop",
+		'fr-fr': "Machoc"
 	},
 
 	attacks: [
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Karate Chop",
-				fr: "Poing-Karaté"
+				'en-us': "Karate Chop",
+				'fr-fr': "Poing-Karaté"
 			},
 			effect: {
-				en: "Does 40 damage minus 10 damage for each damage counter on Machoke.",
-				fr: "Inflige 40 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Machopeur."
+				'en-us': "Does 40 damage minus 10 damage for each damage counter on Machoke.",
+				'fr-fr': "Inflige 40 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Machopeur."
 			},
 			damage: "40-"
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Seismic Toss",
-				fr: "Frappe Atlas"
+				'en-us': "Seismic Toss",
+				'fr-fr': "Frappe Atlas"
 			},
 			damage: "60"
 		}
@@ -64,7 +64,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "MACHOKE's boundless power is very dangerous, so it wears a belt that suppresses its energy."
+		'en-us': "MACHOKE's boundless power is very dangerous, so it wears a belt that suppresses its energy."
 	},
 
 	retreat: 2,

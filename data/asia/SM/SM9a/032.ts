@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピッピ",
+		'ja-jp': "ピッピ",
 	},
 
 	illustrator: "0313",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "人気だが 数が 少ないので 貴重。 むやみに 見せびらかすと 泥棒に 狙われるぞ。",
+		'ja-jp': "人気だが 数が 少ないので 貴重。 むやみに 見せびらかすと 泥棒に 狙われるぞ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10×",
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x10ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数x10ダメージ。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ギャラドス",
+		'ja-jp': "ギャラドス",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "炎の蒸気",
+				'ja-jp': "炎の蒸気",
 			},
 			effect: {
-				ja: "アクティブなポケモンを進化させるために手からgyaradosをプレイすると、2つのコインをひっくり返すことができます。各ヘッドについて、防御ポケモンに取り付けられたエネルギーカードを捨てます。",
+				'ja-jp': "アクティブなポケモンを進化させるために手からgyaradosをプレイすると、2つのコインをひっくり返すことができます。各ヘッドについて、防御ポケモンに取り付けられたエネルギーカードを捨てます。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "ドラゴンの復ge",
+				'ja-jp': "ドラゴンの復ge",
 			},
 			effect: {
-				ja: "Gyaradosに7つ以上のダメージカウンターがある場合、この攻撃のベースダメージは100です。",
+				'ja-jp': "Gyaradosに7つ以上のダメージカウンターがある場合、この攻撃のベースダメージは100です。",
 			},
 			damage: 50,
 		},

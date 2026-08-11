@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 7'
 
 const card: Card = {
 	name: {
-		en: "Wormadam Sandy Cloak",
-		fr: "Wormadam Sandy Cloak"
+		'en-us': "Wormadam Sandy Cloak",
+		'fr-fr': "Wormadam Sandy Cloak"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Burmy",
-		fr: "Cheniti Cape Sable"
+		'en-us': "Burmy",
+		'fr-fr': "Cheniti Cape Sable"
 	},
 
 	stage: "Stage1",
@@ -31,12 +31,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Sandy Cloak",
-				fr: "Cape sable"
+				'en-us': "Sandy Cloak",
+				'fr-fr': "Cape sable"
 			},
 			effect: {
-				en: "Prevent all effects, excluding damage, done to Wormadam Sandy Cloak.",
-				fr: "Prévenez tous les effets d'une attaque, dégâts exclus, infligés à Cheniselle Cape Sable par des Pokémon de votre adversaire."
+				'en-us': "Prevent all effects, excluding damage, done to Wormadam Sandy Cloak.",
+				'fr-fr': "Prévenez tous les effets d'une attaque, dégâts exclus, infligés à Cheniselle Cape Sable par des Pokémon de votre adversaire."
 			},
 		},
 	],
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Push Over",
-				fr: "Facilité"
+				'en-us': "Push Over",
+				'fr-fr': "Facilité"
 			},
 			effect: {
-				en: "Does 40 damage plus 10 more damage for each Fighting Energy attached to Wormadam Sandy Cloak.",
-				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Cheniselle Cape Sable."
+				'en-us': "Does 40 damage plus 10 more damage for each Fighting Energy attached to Wormadam Sandy Cloak.",
+				'fr-fr': "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Cheniselle Cape Sable."
 			},
 			damage: "40+",
 
@@ -74,7 +74,7 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "When BURMY evolved, it cloak became a part of this Pokémon’s body. The cloak is never shed."
+		'en-us': "When BURMY evolved, it cloak became a part of this Pokémon’s body. The cloak is never shed."
 	},
 
 	retreat: 1,

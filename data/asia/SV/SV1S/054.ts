@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "グレッグル",
+		'ja-jp': "グレッグル",
 		'zh-tw': "不良蛙",
-		th: "กูเรกกรู",
-		id: "Croagunk"
+		'th-th': "กูเรกกรู",
+		'id-id': "Croagunk"
 	},
 
 	illustrator: "Shiburingaru",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "毒袋を ふくらませて 鳴らし 辺りに 不気味な 音を 響かせ 相手が ひるむと どくづきをする。",
+		'ja-jp': "毒袋を ふくらませて 鳴らし 辺りに 不気味な 音を 響かせ 相手が ひるむと どくづきをする。",
 		'zh-tw': "會鼓起毒囊鳴叫。讓四周響起詭異的聲音， 等對手畏縮，便施以毒擊。",
-		th: "จะทำให้ถุงพิษพองตัวแล้วส่งเสียงก้องที่น่าสะพรึงกลัวไปรอบ ๆ บริเวณ พอฝ่ายตรงข้ามรู้สึกหวาดกลัวก็จะโจมตีด้วยพิษ",
-		id: "Croagunk menggelembungkan dan membunyikan kantong racunnya untuk mengeluarkan suara mengerikan ke sekelilingnya dan ketika lawan ketakutan, Pokémon ini menyerang dengan tusukan beracun."
+		'th-th': "จะทำให้ถุงพิษพองตัวแล้วส่งเสียงก้องที่น่าสะพรึงกลัวไปรอบ ๆ บริเวณ พอฝ่ายตรงข้ามรู้สึกหวาดกลัวก็จะโจมตีด้วยพิษ",
+		'id-id': "Croagunk menggelembungkan dan membunyikan kantong racunnya untuk mengeluarkan suara mengerikan ke sekelilingnya dan ketika lawan ketakutan, Pokémon ini menyerang dengan tusukan beracun."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			ja: "たたく",
+			'ja-jp': "たたく",
 			'zh-tw': "敲擊",
-			th: "ตี",
-			id: "Menghantam"
+			'th-th': "ตี",
+			'id-id': "Menghantam"
 		},
 
 		damage: 10
@@ -42,10 +42,10 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			ja: "はりたおす",
+			'ja-jp': "はりたおす",
 			'zh-tw': "擊倒",
-			th: "ผลักล้ม",
-			id: "Tumbangkan"
+			'th-th': "ผลักล้ม",
+			'id-id': "Tumbangkan"
 		},
 
 		damage: 40

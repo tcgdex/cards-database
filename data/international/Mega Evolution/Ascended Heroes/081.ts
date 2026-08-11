@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Togetic",
-		fr: "Togetic",
-		es: "Togetic",
+		'en-us': "Togetic",
+		'fr-fr': "Togetic",
+		'es-es': "Togetic",
 		'es-mx': "Togetic",
-		de: "Togetic",
-		it: "Togetic",
-		pt: "Togetic"
+		'de-de': "Togetic",
+		'it-it': "Togetic",
+		'pt-br': "Togetic"
 	},
 
 	evolveFrom: {
-		en: "Togepi",
-		fr: "Togepi",
-		es: "Togepi",
+		'en-us': "Togepi",
+		'fr-fr': "Togepi",
+		'es-es': "Togepi",
 		'es-mx': "Togepi",
-		de: "Togepi",
-		it: "Togepi",
-		pt: "Togepi",
+		'de-de': "Togepi",
+		'it-it': "Togepi",
+		'pt-br': "Togepi",
 	},
 
 	illustrator: "Teeziro",
@@ -36,23 +36,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Draining Kiss",
-			fr: "Vampibaiser",
-			es: "Beso Drenaje",
+			'en-us': "Draining Kiss",
+			'fr-fr': "Vampibaiser",
+			'es-es': "Beso Drenaje",
 			'es-mx': "Beso Drenador",
-			de: "Diebeskuss",
-			it: "Assorbibacio",
-			pt: "Beijo Drenante"
+			'de-de': "Diebeskuss",
+			'it-it': "Assorbibacio",
+			'pt-br': "Beijo Drenante"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
 			'es-mx': "Cura 30 puntos de daño a este Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon."
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon."
 		},
 
 		damage: 30
@@ -68,7 +68,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "They say that it will appear before kindhearted, caring people and shower them with happiness.",
+		'en-us': "They say that it will appear before kindhearted, caring people and shower them with happiness.",
 	},
 
 	variants: [

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Ralts",
-		fr: "Tarsal",
-		es: "Ralts",
-		it: "Ralts",
-		pt: "Ralts",
-		de: "Trasla"
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal",
+		'es-es': "Ralts",
+		'it-it': "Ralts",
+		'pt-br': "Ralts",
+		'de-de': "Trasla"
 	},
 
 	illustrator: "Kanako Eo",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psy Bolt",
-				fr: "Choc Mental",
+				'en-us': "Psy Bolt",
+				'fr-fr': "Choc Mental",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
+		'en-us': "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
 	},
 
 	thirdParty: {

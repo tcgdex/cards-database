@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit 2 (Plusle)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spoink",
-		fr: "Spoink"
+		'en-us': "Spoink",
+		'fr-fr': "Spoink"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -25,12 +25,12 @@ const card: Card = {
 			"Psychic",
 		],
 		name: {
-			en: "Knock Away",
-			fr: "Asticotage"
+			'en-us': "Knock Away",
+			'fr-fr': "Asticotage"
 		},
 		effect: {
-			en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+			'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
 		},
 		damage: "10+"
 	}],

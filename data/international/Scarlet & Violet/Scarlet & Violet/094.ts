@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dedenne",
-		fr: "Dedenne",
-		es: "Dedenne",
-		it: "Dedenne",
-		pt: "Dedenne",
-		de: "Dedenne"
+		'en-us': "Dedenne",
+		'fr-fr': "Dedenne",
+		'es-es': "Dedenne",
+		'it-it': "Dedenne",
+		'pt-br': "Dedenne",
+		'de-de': "Dedenne"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Energy Munch",
-			fr: "Énergivore",
-			es: "Mascaenergía",
-			it: "Sgranocchia Energia",
-			pt: "Papa-energia",
-			de: "Energiemampfer"
+			'en-us': "Energy Munch",
+			'fr-fr': "Énergivore",
+			'es-es': "Mascaenergía",
+			'it-it': "Sgranocchia Energia",
+			'pt-br': "Papa-energia",
+			'de-de': "Energiemampfer"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
-			fr: "Lancez une pièce. Si c'est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
-			es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
-			it: "Lancia una moneta. Se esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
-			pt: "Jogue uma moeda. Se sair cara, descarte uma Energia do Pokémon Ativo do seu oponente.",
-			de: "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+			'en-us': "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
+			'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			'es-es': "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
+			'it-it': "Lancia una moneta. Se esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			'pt-br': "Jogue uma moeda. Se sair cara, descarte uma Energia do Pokémon Ativo do seu oponente.",
+			'de-de': "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 30
@@ -65,7 +65,7 @@ const card: Card = {
 	illustrator: "zig",
 
 	description: {
-		en: "It's small and its electricity-generating organ is not fully developed, so it uses its tail to absorb electricity from people's homes and charge itself.",
+		'en-us': "It's small and its electricity-generating organ is not fully developed, so it uses its tail to absorb electricity from people's homes and charge itself.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dreepy",
-		fr: "Fantyrm",
-		es: "Dreepy",
-		it: "Dreepy",
-		pt: "Dreepy",
-		de: "Grolldra"
+		'en-us': "Dreepy",
+		'fr-fr': "Fantyrm",
+		'es-es': "Dreepy",
+		'it-it': "Dreepy",
+		'pt-br': "Dreepy",
+		'de-de': "Grolldra"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Reckless Charge",
-			fr: "Attaque Imprudente",
-			es: "Carga Descuidada",
-			it: "Carica Avventata",
-			pt: "Carga Indomável",
-			de: "Waghalsiger Sturmangriff"
+			'en-us': "Reckless Charge",
+			'fr-fr': "Attaque Imprudente",
+			'es-es': "Carga Descuidada",
+			'it-it': "Carica Avventata",
+			'pt-br': "Carga Indomável",
+			'de-de': "Waghalsiger Sturmangriff"
 		},
 
 		effect: {
-			en: "This Pokémon also does 10 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
-			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 10 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 10 dégâts.",
+			'es-es': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 10 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
 		},
 
 		damage: 30
@@ -62,7 +62,7 @@ const card: Card = {
 
 
 	description: {
-		en: "After being reborn as a ghost Pokémon, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas.",
+		'en-us': "After being reborn as a ghost Pokémon, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas.",
 	},
 
 	variants: [

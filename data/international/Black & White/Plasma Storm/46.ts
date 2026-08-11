@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Magnezone",
-		fr: "Magnézone",
-		es: "Magnezone",
-		it: "Magnezone",
-		pt: "Magnezone",
-		de: "Magnezone"
+		'en-us': "Magnezone",
+		'fr-fr': "Magnézone",
+		'es-es': "Magnezone",
+		'it-it': "Magnezone",
+		'pt-br': "Magnezone",
+		'de-de': "Magnezone"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magneton",
-		fr: "Magnéton",
+		'en-us': "Magneton",
+		'fr-fr': "Magnéton",
 	},
 
 	stage: "Stage2",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Dual Brains",
-				fr: "Double Cerveau",
-				es: "Doble Cerebro",
-				it: "Doppiamente",
-				pt: "Cérebros Duplos",
-				de: "Doppelhirn"
+				'en-us': "Dual Brains",
+				'fr-fr': "Double Cerveau",
+				'es-es': "Doble Cerebro",
+				'it-it': "Doppiamente",
+				'pt-br': "Cérebros Duplos",
+				'de-de': "Doppelhirn"
 			},
 			effect: {
-				en: "During your turn, you may play 2 Supporter cards.",
-				fr: "Pendant votre tour, vous pouvez jouer 2 cartes Supporter.",
-				es: "Durante tu turno, puedes jugar 2 cartas de Partidario.",
-				it: "Durante il tuo turno, puoi giocare due carte Aiuto.",
-				pt: "Durante sua vez de jogar, você poderá jogar 2 cards de Apoiador.",
-				de: "Während deines Zuges kannst du 2 Unterstützerkarten spielen."
+				'en-us': "During your turn, you may play 2 Supporter cards.",
+				'fr-fr': "Pendant votre tour, vous pouvez jouer 2 cartes Supporter.",
+				'es-es': "Durante tu turno, puedes jugar 2 cartas de Partidario.",
+				'it-it': "Durante il tuo turno, puoi giocare due carte Aiuto.",
+				'pt-br': "Durante sua vez de jogar, você poderá jogar 2 cards de Apoiador.",
+				'de-de': "Während deines Zuges kannst du 2 Unterstützerkarten spielen."
 			},
 		},
 	],
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gyro Ball",
-				fr: "Gyroballe",
+				'en-us': "Gyro Ball",
+				'fr-fr': "Gyroballe",
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc. Ensuite, votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon avec 1 de vos Pokémon de Banc. Ensuite, votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
 			},
 			damage: 80,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Sometimes the magnetism emitted by Magnezone is too strong, making them attract each other so they cannot move.",
+		'en-us': "Sometimes the magnetism emitted by Magnezone is too strong, making them attract each other so they cannot move.",
 	},
 
 	thirdParty: {

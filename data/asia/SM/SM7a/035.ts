@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラディグダ",
+		'ja-jp': "アローラディグダ",
 	},
 
 	illustrator: "Midori Harada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "金色の 髭は センサー機能を 持っている。 穴から だして 周りの 様子を うかがっている。",
+		'ja-jp': "金色の 髭は センサー機能を 持っている。 穴から だして 周りの 様子を うかがっている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "なかまをよぶ" },
 			cost: [],
 			effect: {
-				ja: "自分の山札にあるたねポケモンを1枚、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札にあるたねポケモンを1枚、ベンチに出す。そして山札を切る。",
 			},
 		},
 	],

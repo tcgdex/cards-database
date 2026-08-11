@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Swinub",
-		fr: "Marcacrin",
-		es: "Swinub",
-		it: "Swinub",
-		pt: "Swinub",
-		de: "Quiekel"
+		'en-us': "Swinub",
+		'fr-fr': "Marcacrin",
+		'es-es': "Swinub",
+		'it-it': "Swinub",
+		'pt-br': "Swinub",
+		'de-de': "Quiekel"
 	},
 
 	illustrator: "Eri Yamaki",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Ronge",
-				es: "Roer",
-				it: "Rosicchiamento",
-				pt: "Roída",
-				de: "Nagen"
+				'en-us': "Gnaw",
+				'fr-fr': "Ronge",
+				'es-es': "Roer",
+				'it-it': "Rosicchiamento",
+				'pt-br': "Roída",
+				'de-de': "Nagen"
 			},
 
 			damage: 30,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs.",
+		'en-us': "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs.",
 	},
 
 	thirdParty: {

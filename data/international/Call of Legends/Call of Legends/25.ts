@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Feraligatr",
-		fr: "Aligatueur",
-		de: "Impergator"
+		'en-us': "Feraligatr",
+		'fr-fr': "Aligatueur",
+		'de-de': "Impergator"
 	},
 
 	illustrator: "kawayoo",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Croconaw",
-		fr: "Crocrodil"
+		'en-us': "Croconaw",
+		'fr-fr': "Crocrodil"
 	},
 
 	stage: "Stage2",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spinning Tail",
-				fr: "Queue tournante",
-				de: "Kreisender Schweif"
+				'en-us': "Spinning Tail",
+				'fr-fr': "Queue tournante",
+				'de-de': "Kreisender Schweif"
 			},
 			effect: {
-				en: "This attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 20 dégâts à chaque Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				de: "Dieser Angriff fügt jedem Pokémon deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "This attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 20 dégâts à chaque Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'de-de': "Dieser Angriff fügt jedem Pokémon deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -55,9 +55,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
-				de: "Surfer"
+				'en-us': "Surf",
+				'fr-fr': "Surf",
+				'de-de': "Surfer"
 			},
 
 			damage: 80,
@@ -75,7 +75,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up.",
+		'en-us': "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up.",
 	},
 
 	variants: [

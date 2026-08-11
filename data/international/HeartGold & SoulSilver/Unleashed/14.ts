@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Crobat",
-		fr: "Nostenfer",
-		de: "Iksbat"
+		'en-us': "Crobat",
+		'fr-fr': "Nostenfer",
+		'de-de': "Iksbat"
 	},
 
 	illustrator: "kawayoo",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Golbat",
-		fr: "Nosferalto"
+		'en-us': "Golbat",
+		'fr-fr': "Nosferalto"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Supersonic",
-				fr: "Ultrason",
-				de: "Superschall"
+				'en-us': "Supersonic",
+				'fr-fr': "Ultrason",
+				'de-de': "Superschall"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
-				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hurricane Wing",
-				fr: "Tornad’aile",
-				de: "Hurrikanschwinge"
+				'en-us': "Hurricane Wing",
+				'fr-fr': "Tornad’aile",
+				'de-de': "Hurrikanschwinge"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 4 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'de-de': "Wirf 4 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "30×",
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "The development of wings on its legs enables it to fly fast but also makes it tough to stop and rest."
+		'en-us': "The development of wings on its legs enables it to fly fast but also makes it tough to stop and rest."
 	},
 
 	variants: [

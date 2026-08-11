@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Pichu",
-		fr: "Pichu",
-		de: "Pichu"
+		'en-us': "Pichu",
+		'fr-fr': "Pichu",
+		'de-de': "Pichu"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Energy Patch",
-				fr: "Rajout d'énergie",
-				de: "Energieflicken"
+				'en-us': "Energy Patch",
+				'fr-fr': "Rajout d'énergie",
+				'de-de': "Energieflicken"
 			},
 			effect: {
-				en: "Take a basic Energy card attached to 1 of your Pokémon and attach it to another of your Pokémon.",
-				fr: "Prenez une carte Énergie de base attachée à l'un de vos Pokémon et attachez-la à un autre de vos Pokémon.",
-				de: "Nimm eine Basis-Energiekarte, die an 1 deiner Pokémon angelegt ist, und lege sie an ein anderes deiner Pokémon an."
+				'en-us': "Take a basic Energy card attached to 1 of your Pokémon and attach it to another of your Pokémon.",
+				'fr-fr': "Prenez une carte Énergie de base attachée à l'un de vos Pokémon et attachez-la à un autre de vos Pokémon.",
+				'de-de': "Nimm eine Basis-Energiekarte, die an 1 deiner Pokémon angelegt ist, und lege sie an ein anderes deiner Pokémon an."
 			},
 
 		},

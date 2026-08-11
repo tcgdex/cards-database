@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Cosmog",
-		fr: "Cosmog",
-		es: "Cosmog",
-		it: "Cosmog",
-		pt: "Cosmog",
-		de: "Cosmog"
+		'en-us': "Cosmog",
+		'fr-fr': "Cosmog",
+		'es-es': "Cosmog",
+		'it-it': "Cosmog",
+		'pt-br': "Cosmog",
+		'de-de': "Cosmog"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Unaware",
-				fr: "Inconscient",
-				es: "Ignorante",
-				it: "Imprudenza",
-				pt: "Ignorante",
-				de: "Unkenntnis"
+				'en-us': "Unaware",
+				'fr-fr': "Inconscient",
+				'es-es': "Ignorante",
+				'it-it': "Imprudenza",
+				'pt-br': "Ignorante",
+				'de-de': "Unkenntnis"
 			},
 			effect: {
-				en: "Prevent all effects of your opponent’s attacks, except damage, done to this Pokémon.",
-				fr: "Évitez tous les effets des attaques de votre adversaire, à l’exception des dégâts, infligés à ce Pokémon.",
-				es: "Evita todos los efectos de los ataques de tu rival, excepto el daño, infligidos a este Pokémon.",
-				it: "Previeni tutti gli effetti degli attacchi del tuo avversario, esclusi i danni, inflitti a questo Pokémon.",
-				pt: "Previne todos os efeitos de ataques do seu oponente, exceto dano, causados a este Pokémon.",
-				de: "Verhindere alle Effekte von Attacken deines Gegners, außer Schaden, die diesem Pokémon zugefügt werden."
+				'en-us': "Prevent all effects of your opponent’s attacks, except damage, done to this Pokémon.",
+				'fr-fr': "Évitez tous les effets des attaques de votre adversaire, à l’exception des dégâts, infligés à ce Pokémon.",
+				'es-es': "Evita todos los efectos de los ataques de tu rival, excepto el daño, infligidos a este Pokémon.",
+				'it-it': "Previeni tutti gli effetti degli attacchi del tuo avversario, esclusi i danni, inflitti a questo Pokémon.",
+				'pt-br': "Previne todos os efeitos de ataques do seu oponente, exceto dano, causados a este Pokémon.",
+				'de-de': "Verhindere alle Effekte von Attacken deines Gegners, außer Schaden, die diesem Pokémon zugefügt werden."
 			},
 		},
 	],
@@ -56,20 +56,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surprise Attack",
-				fr: "Attaque Surprise",
-				es: "Ataque Sorpresa",
-				it: "Attacco a Sorpresa",
-				pt: "Ataque Surpresa",
-				de: "Überraschungsangriff"
+				'en-us': "Surprise Attack",
+				'fr-fr': "Attaque Surprise",
+				'es-es': "Ataque Sorpresa",
+				'it-it': "Attacco a Sorpresa",
+				'pt-br': "Ataque Surpresa",
+				'de-de': "Überraschungsangriff"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
-				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-				pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
-				de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+				'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+				'pt-br': "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+				'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 			},
 			damage: 10,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Even though its helpless, gaseous body can be blown away by the slightest breeze, it doesn't seem to care.",
+		'en-us': "Even though its helpless, gaseous body can be blown away by the slightest breeze, it doesn't seem to care.",
 	},
 
 	thirdParty: {

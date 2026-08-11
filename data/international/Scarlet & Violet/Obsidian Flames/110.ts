@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Manzaï",
-		en: "Bonsly",
-		es: "Bonsly",
-		it: "Bonsly",
-		pt: "Bonsly",
-		de: "Mobai"
+		'fr-fr': "Manzaï",
+		'en-us': "Bonsly",
+		'es-es': "Bonsly",
+		'it-it': "Bonsly",
+		'pt-br': "Bonsly",
+		'de-de': "Mobai"
 	},
 
 	rarity: "Common",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Pleurnicheries",
-			en: "Blubbering",
-			es: "Lagrimones",
-			it: "Piagnisteo",
-			pt: "Abrir o Berreiro",
-			de: "Plärren"
+			'fr-fr': "Pleurnicheries",
+			'en-us': "Blubbering",
+			'es-es': "Lagrimones",
+			'it-it': "Piagnisteo",
+			'pt-br': "Abrir o Berreiro",
+			'de-de': "Plärren"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			en: "Your opponent's Active Pokémon is now Confused.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
 		damage: 10
@@ -52,7 +52,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "In order to adjust the level of fluids in its body, it exudes water from its eyes. This makes it appear to be crying.",
+		'en-us': "In order to adjust the level of fluids in its body, it exudes water from its eyes. This makes it appear to be crying.",
 	},
 
 	variants: [

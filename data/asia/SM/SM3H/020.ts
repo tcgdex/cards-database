@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マリルリ",
+		'ja-jp': "マリルリ",
 	},
 
 	illustrator: "miki kudo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "長い 耳は 優れた センサー。 川底で 動く 生き物の 音を 聞き分ける ことが できる。",
+		'ja-jp': "長い 耳は 優れた センサー。 川底で 動く 生き物の 音を 聞き分ける ことが できる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "あついしぼう" },
 			effect: {
-				ja: "このポケモンが、相手の[炎]または[水]ポケモンから受けるワザのダメージは、「-30」される。",
+				'ja-jp': "このポケモンが、相手の[炎]または[水]ポケモンから受けるワザのダメージは、「-30」される。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マリル",
+		'ja-jp': "マリル",
 	},
 
 	retreat: 3,

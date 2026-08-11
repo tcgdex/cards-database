@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Nidoran♂",
-		fr: "Nidoran♂",
-		es: "Nidoran♂",
-		it: "Nidoran♂",
-		pt: "Nidoran♂",
-		de: "Nidoran♂"
+		'en-us': "Nidoran♂",
+		'fr-fr': "Nidoran♂",
+		'es-es': "Nidoran♂",
+		'it-it': "Nidoran♂",
+		'pt-br': "Nidoran♂",
+		'de-de': "Nidoran♂"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -32,20 +32,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Double Stab",
-				fr: "Entaille Double",
-				es: "Doble Puñalada",
-				it: "Doppia Pugnalata",
-				pt: "Facada Dupla",
-				de: "Doppelstich"
+				'en-us': "Double Stab",
+				'fr-fr': "Entaille Double",
+				'es-es': "Doble Puñalada",
+				'it-it': "Doppia Pugnalata",
+				'pt-br': "Facada Dupla",
+				'de-de': "Doppelstich"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
-				es: "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
-				it: "Lancia due volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
-				pt: "Jogue 2 moedas. Este ataque causa 10 de danos vezes o número de caras.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+				'it-it': "Lancia due volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 2 moedas. Este ataque causa 10 de danos vezes o número de caras.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "10×",
 
@@ -64,7 +64,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its large ears are flapped like wings when it is listening to distant sounds. It extends toxic barbs when angered.",
+		'en-us': "Its large ears are flapped like wings when it is listening to distant sounds. It extends toxic barbs when angered.",
 	},
 }
 

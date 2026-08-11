@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [318],
 
 	name: {
-		en: "Carvanha",
-		fr: "Carvanha",
-		es: "Carvanha",
-		it: "Carvanha",
-		pt: "Carvanha",
-		de: "Kanivanha"
+		'en-us': "Carvanha",
+		'fr-fr': "Carvanha",
+		'es-es': "Carvanha",
+		'it-it': "Carvanha",
+		'pt-br': "Carvanha",
+		'de-de': "Kanivanha"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 10,
@@ -62,7 +62,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "With its sturdy jaws and fangs, it can easily chomp wooden boats to splinters. It fights with Basculin over food."
+		'en-us': "With its sturdy jaws and fangs, it can easily chomp wooden boats to splinters. It fights with Basculin over food."
 	},
 
 	thirdParty: {

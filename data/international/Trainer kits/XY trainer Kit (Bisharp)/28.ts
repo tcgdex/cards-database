@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY trainer Kit (Bisharp)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vigoroth",
-		fr: "Vigoroth",
-		es: "Vigoroth",
-		it: "Vigoroth",
-		pt: "Vigoroth",
-		de: "Muntier"
+		'en-us': "Vigoroth",
+		'fr-fr': "Vigoroth",
+		'es-es': "Vigoroth",
+		'it-it': "Vigoroth",
+		'pt-br': "Vigoroth",
+		'de-de': "Muntier"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Slakoth",
-		fr: "Parecool",
-		es: "Slakoth",
-		it: "Slakoth",
-		pt: "Slakoth",
-		de: "Bummelz"
+		'en-us': "Slakoth",
+		'fr-fr': "Parecool",
+		'es-es': "Slakoth",
+		'it-it': "Slakoth",
+		'pt-br': "Slakoth",
+		'de-de': "Bummelz"
 	},
 
 	stage: "Stage1",

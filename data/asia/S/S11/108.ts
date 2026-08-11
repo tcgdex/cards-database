@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガラル ニャイキングV",
+		'ja-jp': "ガラル ニャイキングV",
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "じょうきげん" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を3枚引く。",
+				'ja-jp': "自分の山札を3枚引く。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Metal", "Colorless"],
 			effect: {
-				ja: "自分の手札の枚数×20ダメージ。",
+				'ja-jp': "自分の手札の枚数×20ダメージ。",
 			},
 		},
 	],

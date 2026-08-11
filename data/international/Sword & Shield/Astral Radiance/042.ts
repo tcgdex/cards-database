@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dewott",
-		fr: "Mateloutre",
-		es: "Dewott",
-		it: "Dewott",
-		pt: "Dewott",
-		de: "Zwottronin"
+		'en-us': "Dewott",
+		'fr-fr': "Mateloutre",
+		'es-es': "Dewott",
+		'it-it': "Dewott",
+		'pt-br': "Dewott",
+		'de-de': "Zwottronin"
 	},
 
 	illustrator: "Mina Nakai",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Oshawott",
-		fr: "Moustillon",
-		es: "Oshawott",
-		it: "Oshawott",
-		pt: "Oshawott",
-		de: "Ottaro"
+		'en-us': "Oshawott",
+		'fr-fr': "Moustillon",
+		'es-es': "Oshawott",
+		'it-it': "Oshawott",
+		'pt-br': "Oshawott",
+		'de-de': "Ottaro"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Razor Shell",
-			fr: "Coqui-Lame",
-			es: "Concha Filo",
-			it: "Conchilama",
-			pt: "Concha Navalha",
-			de: "Kalkklinge"
+			'en-us': "Razor Shell",
+			'fr-fr': "Coqui-Lame",
+			'es-es': "Concha Filo",
+			'it-it': "Conchilama",
+			'pt-br': "Concha Navalha",
+			'de-de': "Kalkklinge"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 20 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-			pt: "Jogue 1 moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
+			'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
 		},
 
 		damage: "20+"
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its exquisite double-scalchop technique is likely the result of daily training, and it can send even masters of the blade fleeing in defeat.",
+		'en-us': "Its exquisite double-scalchop technique is likely the result of daily training, and it can send even masters of the blade fleeing in defeat.",
 	},
 
 	variants: [

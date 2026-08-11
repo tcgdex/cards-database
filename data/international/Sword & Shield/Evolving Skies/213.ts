@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Lycanroc VMAX",
-		fr: "Lougaroc VMAX",
-		es: "Lycanroc VMAX",
-		it: "Lycanroc VMAX",
-		pt: "Lycanroc VMAX",
-		de: "Wolwerock VMAX"
+		'en-us': "Lycanroc VMAX",
+		'fr-fr': "Lougaroc VMAX",
+		'es-es': "Lycanroc VMAX",
+		'it-it': "Lycanroc VMAX",
+		'pt-br': "Lycanroc VMAX",
+		'de-de': "Wolwerock VMAX"
 	},
 
 	rarity: "Secret Rare",
@@ -23,37 +23,37 @@ const card: Card = {
 	dexId: [745],
 
 	evolveFrom: {
-		en: "Lycanroc V",
-		fr: "Lougaroc-V",
-		es: "Lycanroc V",
-		it: "Lycanroc-V",
-		pt: "Lycanroc V",
-		de: "Wolwerock-V"
+		'en-us': "Lycanroc V",
+		'fr-fr': "Lougaroc-V",
+		'es-es': "Lycanroc V",
+		'it-it': "Lycanroc-V",
+		'pt-br': "Lycanroc V",
+		'de-de': "Wolwerock-V"
 	},
 
 	attacks: [{
 		cost: ["Fighting"],
 
 		name: {
-			en: "Hunting Claw",
-			fr: "Griffe de Chasse"
+			'en-us': "Hunting Claw",
+			'fr-fr': "Griffe de Chasse"
 		},
 
 		effect: {
-			en: "Knock Out 1 of your opponent's Pokémon in play that has 60 HP or less remaining.",
-			fr: "Mettez K.O. l'un des Pokémon en jeu de votre adversaire auquel il reste 60 PV ou moins."
+			'en-us': "Knock Out 1 of your opponent's Pokémon in play that has 60 HP or less remaining.",
+			'fr-fr': "Mettez K.O. l'un des Pokémon en jeu de votre adversaire auquel il reste 60 PV ou moins."
 		}
 	}, {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Max Edge",
-			fr: "Lamomax"
+			'en-us': "Max Edge",
+			'fr-fr': "Lamomax"
 		},
 
 		effect: {
-			en: "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Cette attaque inflige aussi 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			'en-us': "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Cette attaque inflige aussi 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 		},
 
 		damage: 190

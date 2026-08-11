@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゲンガー",
+		'ja-jp': "ゲンガー",
 	},
 
 	illustrator: "so-taro",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "悪い子の ところには ゲンガーが やってくる という 言い伝えは 世界中で 聞くことが できる。",
+		'ja-jp': "悪い子の ところには ゲンガーが やってくる という 言い伝えは 世界中で 聞くことが できる。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "シャドーペイン" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。ダメカン6個を、相手の「ポケモンGX・EX」に好きなようにのせる。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。ダメカン6個を、相手の「ポケモンGX・EX」に好きなようにのせる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくとねむりにする。",
+				'ja-jp': "相手のバトルポケモンをどくとねむりにする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴースト",
+		'ja-jp': "ゴースト",
 	},
 
 	retreat: 0,

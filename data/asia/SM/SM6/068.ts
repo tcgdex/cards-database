@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヌメルゴン",
+		'ja-jp': "ヌメルゴン",
 	},
 
 	illustrator: "hatachu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "大人しいからと からかうと 角で 思い切り 突かれ 太い 尻尾で 薙ぎ払われる。",
+		'ja-jp': "大人しいからと からかうと 角で 思い切り 突かれ 太い 尻尾で 薙ぎ払われる。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "うるおいボディ" },
 			effect: {
-				ja: "手札からこのポケモンに[水]エネルギーをつけるたび、このポケモンのHPを「20」回復する。",
+				'ja-jp': "手札からこのポケモンに[水]エネルギーをつけるたび、このポケモンのHPを「20」回復する。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Water", "Fairy", "Colorless"],
 			effect: {
-				ja: "この番、このポケモンのHPを回復していたなら、80ダメージ追加。",
+				'ja-jp': "この番、このポケモンのHPを回復していたなら、80ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヌメイル",
+		'ja-jp': "ヌメイル",
 	},
 
 	retreat: 3,

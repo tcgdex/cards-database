@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "キルリア"
+		'ja-jp': "キルリア"
 	},
 
 	illustrator: "Jiro Sasumo",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "サイコパワーを 操り まわりの 空間を ねじ曲げることで 未来を 見通すことができる。"
+		'ja-jp': "サイコパワーを 操り まわりの 空間を ねじ曲げることで 未来を 見通すことができる。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "マジカルショット"
+			'ja-jp': "マジカルショット"
 		},
 
 		damage: 30
@@ -32,13 +32,13 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			ja: "サイコキネシス"
+			'ja-jp': "サイコキネシス"
 		},
 
 		damage: "60＋",
 
 		effect: {
-			ja: "相手のバトルポケモンについているエネルギーの数×20ダメージ追加。"
+			'ja-jp': "相手のバトルポケモンについているエネルギーの数×20ダメージ追加。"
 		}
 	}],
 

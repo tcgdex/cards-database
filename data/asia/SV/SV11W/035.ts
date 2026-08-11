@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "シンボラー",
+		'ja-jp': "シンボラー",
 	},
 
 	illustrator: "Krgc",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "古代都市を 守っていた 記憶を 残しているため いつも 同じ ルートを 飛んでいるらしい。",
+		'ja-jp': "古代都市を 守っていた 記憶を 残しているため いつも 同じ ルートを 飛んでいるらしい。",
 	},
 
 	stage: "Basic",
@@ -24,14 +24,14 @@ const card: Card = {
 			name: { ja: "リフレクター" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-40」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-40」される。",
 			},
 		},
 		{
 			name: { ja: "テレキネシス" },
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のポケモン1匹に、70ダメージ。このワザのダメージは弱点・抵抗力を計算しない。",
+				'ja-jp': "相手のポケモン1匹に、70ダメージ。このワザのダメージは弱点・抵抗力を計算しない。",
 			},
 		},
 	],

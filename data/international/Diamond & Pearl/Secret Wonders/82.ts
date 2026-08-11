@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Charmander",
-		fr: "Salamèche",
-		de: "Glumanda"
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche",
+		'de-de': "Glumanda"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,9 +29,9 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Gnaw",
-				fr: "Rogne",
-				de: "Nagen"
+				'en-us': "Gnaw",
+				'fr-fr': "Rogne",
+				'de-de': "Nagen"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Lava Burn",
-				fr: "Brûlure de lave",
-				de: "Brennende Lava"
+				'en-us': "Lava Burn",
+				'fr-fr': "Brûlure de lave",
+				'de-de': "Brennende Lava"
 			},
 			effect: {
-				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
-				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
+				'de-de': "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 20,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.",
+		'en-us': "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.",
 	},
 
 	thirdParty: {

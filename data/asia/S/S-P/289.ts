@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒトカゲ",
+		'ja-jp': "ヒトカゲ",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "熱いものを 好む 性格。 雨に濡れると しっぽの 先から 煙が 出るという。",
+		'ja-jp': "熱いものを 好む 性格。 雨に濡れると しっぽの 先から 煙が 出るという。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Fire"],
 			effect: {
-				ja: "自分の山札から[R]エネルギーを1枚選び、このポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から[R]エネルギーを1枚選び、このポケモンにつける。そして山札を切る。",
 			},
 		},
 	],

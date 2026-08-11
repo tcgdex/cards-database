@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アルセウス",
+		'ja-jp': "アルセウス",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "宇宙が まだ ない ころに 最初に 生まれた ポケモンと 神話の 中で 語られている。",
+		'ja-jp': "宇宙が まだ ない ころに 最初に 生まれた ポケモンと 神話の 中で 語られている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "はじまりのおきて" },
 			effect: {
-				ja: "このポケモンは、相手のポケモンが使うワザの効果を受けない。",
+				'ja-jp': "このポケモンは、相手のポケモンが使うワザの効果を受けない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "このワザは、自分のベンチに[草]と[水]と[雷]ポケモンがいるときにしか使えない。自分の山札にある基本エネルギーを3枚まで、自分のポケモンに好きなようにつける。そして山札を切る。",
+				'ja-jp': "このワザは、自分のベンチに[草]と[水]と[雷]ポケモンがいるときにしか使えない。自分の山札にある基本エネルギーを3枚まで、自分のポケモンに好きなようにつける。そして山札を切る。",
 			},
 		},
 	],

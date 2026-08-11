@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ミニーブ",
+		'ja-jp': "ミニーブ",
 		'zh-tw': "迷你芙",
-		th: "มินีฟ",
-		id: "Smoliv"
+		'th-th': "มินีฟ",
+		'id-id': "Smoliv"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "頭の 実から オイルを 出して 敵から 身を 守る。 オイルは とびあがるほど 苦くて 渋い。",
+		'ja-jp': "頭の 実から オイルを 出して 敵から 身を 守る。 オイルは とびあがるほど 苦くて 渋い。",
 		'zh-tw': "會從頭上的果實噴出油來保護自己不受敵人攻擊。 油的味道苦澀到會讓人跳起來。",
-		th: "ปล่อยน้ำมันออกมาจากผลบนหัวเพื่อปกป้องตัวเองจากศัตรู น้ำมันนั้นทั้งขมและฝาดจนน่าตกใจ",
-		id: "Smoliv melindungi diri dari musuh dengan mengeluarkan minyak dari buah di kepalanya. Rasa minyaknya sangat pahit dan sepat."
+		'th-th': "ปล่อยน้ำมันออกมาจากผลบนหัวเพื่อปกป้องตัวเองจากศัตรู น้ำมันนั้นทั้งขมและฝาดจนน่าตกใจ",
+		'id-id': "Smoliv melindungi diri dari musuh dengan mengeluarkan minyak dari buah di kepalanya. Rasa minyaknya sangat pahit dan sepat."
 	},
 
 	stage: "Basic",
@@ -31,26 +31,26 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "えいようそ",
+			'ja-jp': "えいようそ",
 			'zh-tw': "營養素",
-			th: "สารอาหาร",
-			id: "Nutrisi"
+			'th-th': "สารอาหาร",
+			'id-id': "Nutrisi"
 		},
 
 		effect: {
-			ja: "自分のポケモン1匹のHPを「30」回復する。",
+			'ja-jp': "自分のポケモン1匹のHPを「30」回復する。",
 			'zh-tw': "將自己的1隻寶可夢恢復「30」HP。",
-			th: "ฟื้นฟู HP ของโปเกมอนฝ่ายเรา 1 ตัว [30]",
-			id: "Pulihkan HP 1 Pokémon sendiri sejumlah 30."
+			'th-th': "ฟื้นฟู HP ของโปเกมอนฝ่ายเรา 1 ตัว [30]",
+			'id-id': "Pulihkan HP 1 Pokémon sendiri sejumlah 30."
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "しるをとばす",
+			'ja-jp': "しるをとばす",
 			'zh-tw': "噴汁",
-			th: "ฉีดพ่นน้ำ",
-			id: "Menyemprotkan Getah"
+			'th-th': "ฉีดพ่นน้ำ",
+			'id-id': "Menyemprotkan Getah"
 		},
 
 		damage: 20

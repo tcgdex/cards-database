@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アズマリル",
+		'ja-jp': "アズマリル",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "泡",
+				'ja-jp': "泡",
 			},
 			effect: {
-				ja: "ターン中に、アクティブなPokã©Monの1つを進化させるためにAzumarillを手から演奏すると、このパワーを使用できます。それぞれの防御ポケモンは現在麻痺しています。",
+				'ja-jp': "ターン中に、アクティブなPokã©Monの1つを進化させるためにAzumarillを手から演奏すると、このパワーを使用できます。それぞれの防御ポケモンは現在麻痺しています。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "ウォーターパンチ",
+				'ja-jp': "ウォーターパンチ",
 			},
 			effect: {
-				ja: "アズマリルに取り付けられた各水エネルギーのコインをひっくり返します。この攻撃は20のダメージに加えて、各ヘッドに対して20のダメージをさらに発生させます。",
+				'ja-jp': "アズマリルに取り付けられた各水エネルギーのコインをひっくり返します。この攻撃は20のダメージに加えて、各ヘッドに対して20のダメージをさらに発生させます。",
 			},
 		},
 	],

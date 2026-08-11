@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キリキザン",
+		'ja-jp': "キリキザン",
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "どんなに 強い キリキザンでも 頭の 刃が 刃こぼれすると ボスの 座を 引退すると いう。",
+		'ja-jp': "どんなに 強い キリキザンでも 頭の 刃が 刃こぼれすると ボスの 座を 引退すると いう。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「スラッシュダウン」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「スラッシュダウン」が使えない。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コマタナ",
+		'ja-jp': "コマタナ",
 	},
 
 	retreat: 1,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オドリドリ",
+		'ja-jp': "オドリドリ",
 	},
 
 	illustrator: "Naoki Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "やまぶきのミツを 吸った オドリドリ。 明るく 陽気な ダンスで 敵の 身も 心も 弾けさせる。",
+		'ja-jp': "やまぶきのミツを 吸った オドリドリ。 明るく 陽気な ダンスで 敵の 身も 心も 弾けさせる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "フェザーダンス" },
 			cost: ["Lightning"],
 			effect: {
-				ja: "次の自分の番、このポケモンの「ぱちぱちパンチ」のダメージは「100」になる。",
+				'ja-jp': "次の自分の番、このポケモンの「ぱちぱちパンチ」のダメージは「100」になる。",
 			},
 		},
 		{

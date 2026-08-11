@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Magikarp",
-		de: "Karpador"
+		'en-us': "Magikarp",
+		'de-de': "Karpador"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Call for Friends",
-				de: "Call for Friends"
+				'en-us': "Call for Friends",
+				'de-de': "Call for Friends"
 			},
 			effect: {
-				en: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
-				de: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward."
+				'en-us': "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+				'de-de': "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward."
 			},
 
 		},

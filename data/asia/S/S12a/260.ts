@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オリジンディアルガVSTAR",
+		'ja-jp': "オリジンディアルガVSTAR",
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "40+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンについている[M]エネルギーの数×40ダメージ追加。",
+				'ja-jp': "このポケモンについている[M]エネルギーの数×40ダメージ追加。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 220,
 			cost: ["Metal", "Metal", "Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "この番が終わったら、もう1回自分の番を始める。［対戦中、自分はVSTARパワーを1回しか使えない。］",
+				'ja-jp': "この番が終わったら、もう1回自分の番を始める。［対戦中、自分はVSTARパワーを1回しか使えない。］",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "nullV",
+		'ja-jp': "nullV",
 	},
 
 	retreat: 3,

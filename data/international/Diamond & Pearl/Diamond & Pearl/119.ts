@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Switch",
-		fr: "Échange",
-		de: "Tausch"
+		'en-us': "Switch",
+		'fr-fr': "Échange",
+		'de-de': "Tausch"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Switch 1 of your Active Pokémon with 1 of your Benched Pokémon.",
-		fr: "Échangez 1 de vos Pokémon Actifs avec 1 des Pokémon de votre Banc.",
-		de: "Tausche 1 deiner Aktiven Pokémon gegen 1 Pokémon auf deiner Bank aus."
+		'en-us': "Switch 1 of your Active Pokémon with 1 of your Benched Pokémon.",
+		'fr-fr': "Échangez 1 de vos Pokémon Actifs avec 1 des Pokémon de votre Banc.",
+		'de-de': "Tausche 1 deiner Aktiven Pokémon gegen 1 Pokémon auf deiner Bank aus."
 	},
 
 	trainerType: "Item",

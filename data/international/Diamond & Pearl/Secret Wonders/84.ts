@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Corsola",
-		fr: "Corayon",
-		de: "Corasonn"
+		'en-us': "Corsola",
+		'fr-fr': "Corayon",
+		'de-de': "Corasonn"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rally",
-				fr: "Regroupement",
-				de: "Mobilisieren"
+				'en-us': "Rally",
+				'fr-fr': "Regroupement",
+				'de-de': "Mobilisieren"
 			},
 			effect: {
-				en: "Search your deck for up to 3 different types of Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck jusqu'à 3 types de Pokémon de base différents et placez-les sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach bis zu 3 Basis-Pokémon-Karten unterschiedlichen Typs und lege sie auf deine Bank. Mische dein Deck danach."
+				'en-us': "Search your deck for up to 3 different types of Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck jusqu'à 3 types de Pokémon de base différents et placez-les sur votre Banc. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach bis zu 3 Basis-Pokémon-Karten unterschiedlichen Typs und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hook",
-				fr: "Crochet",
-				de: "Haken"
+				'en-us': "Hook",
+				'fr-fr': "Crochet",
+				'de-de': "Haken"
 			},
 
 			damage: 30,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Many live in the clean seas of the south. They apparently can't live in polluted waters.",
+		'en-us': "Many live in the clean seas of the south. They apparently can't live in polluted waters.",
 	},
 
 	thirdParty: {

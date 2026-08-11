@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Kirlia",
-		fr: "Kirlia",
-		es: "Kirlia",
-		it: "Kirlia",
-		pt: "Kirlia",
-		de: "Kirlia"
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia",
+		'es-es': "Kirlia",
+		'it-it': "Kirlia",
+		'pt-br': "Kirlia",
+		'de-de': "Kirlia"
 	},
 
 	illustrator: "match",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ralts",
-		fr: "Tarsal",
-		es: "Ralts",
-		it: "Ralts",
-		pt: "Ralts",
-		de: "Trasla"
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal",
+		'es-es': "Ralts",
+		'it-it': "Ralts",
+		'pt-br': "Ralts",
+		'de-de': "Trasla"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Calm Mind",
-				fr: "Plénitude",
-				es: "Paz Mental",
-				it: "Calmamente",
-				pt: "Mente Calma",
-				de: "Gedankengut"
+				'en-us': "Calm Mind",
+				'fr-fr': "Plénitude",
+				'es-es': "Paz Mental",
+				'it-it': "Calmamente",
+				'pt-br': "Mente Calma",
+				'de-de': "Gedankengut"
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts à ce Pokémon.",
-				es: "Cura 30 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 30 danni.",
-				pt: "Cure 30 de danos deste Pokémon.",
-				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon.",
+				'es-es': "Cura 30 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 30 danni.",
+				'pt-br': "Cure 30 de danos deste Pokémon.",
+				'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magical Shot",
-				fr: "Coup Magique",
-				es: "Disparo Mágico",
-				it: "Magicolpo",
-				pt: "Tiro Mágico",
-				de: "Magischer Schuss"
+				'en-us': "Magical Shot",
+				'fr-fr': "Coup Magique",
+				'es-es': "Disparo Mágico",
+				'it-it': "Magicolpo",
+				'pt-br': "Tiro Mágico",
+				'de-de': "Magischer Schuss"
 			},
 
 			damage: 50,
@@ -97,7 +97,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has a psychic power that enables it to distort the space around it and see into the future.",
+		'en-us': "It has a psychic power that enables it to distort the space around it and see into the future.",
 	},
 
 	thirdParty: {

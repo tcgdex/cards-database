@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Jolteon"
+		'en-us': "Jolteon"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee"
+		'en-us': "Eevee"
 	},
 
 	stage: "Stage1",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack"
+				'en-us': "Quick Attack"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
 			},
 			damage: "10+",
 
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pin Missle"
+				'en-us': "Pin Missle"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 20 damage times the number of heads."
+				'en-us': "Flip 4 coins. This attack does 20 damage times the number of heads."
 			},
 			damage: "20×",
 
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It accumulates negative ions from the atmosphere to blast out 10,000-volt lightning bolts."
+		'en-us': "It accumulates negative ions from the atmosphere to blast out 10,000-volt lightning bolts."
 	},
 
 	variants: [

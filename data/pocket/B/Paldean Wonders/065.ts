@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Terraiste de Paldea",
-		en: "Paldean Clodsire",
-		es: "Clodsire de Paldea",
-		it: "Clodsire di Paldea",
-		pt: "Clodsire de Paldea",
-		de: "Paldea-Suelord"
+		'fr-fr': "Terraiste de Paldea",
+		'en-us': "Paldean Clodsire",
+		'es-es': "Clodsire de Paldea",
+		'it-it': "Clodsire di Paldea",
+		'pt-br': "Clodsire de Paldea",
+		'de-de': "Paldea-Suelord"
   },
   illustrator: "Shin Nagasawa",
   rarity: "Two Diamond",
@@ -18,13 +18,13 @@ const card: Card = {
   types: ["Darkness"],
   dexId: [980],
   evolveFrom: {
-		en: "Paldean Wooper",
-		fr: "Axoloto de Paldea",
-		es: "Wooper de Paldea",
+		'en-us': "Paldean Wooper",
+		'fr-fr': "Axoloto de Paldea",
+		'es-es': "Wooper de Paldea",
 		'es-mx': "Wooper de Paldea",
-		de: "Paldea-Felino",
-		it: "Wooper di Paldea",
-		pt: "Wooper de Paldea"
+		'de-de': "Paldea-Felino",
+		'it-it': "Wooper di Paldea",
+		'pt-br': "Wooper de Paldea"
   },
   description: {
     en: "It lives at the bottom of ponds and swamps. It will carry Wooper on its back and ferry them across water from one shore to the other.",

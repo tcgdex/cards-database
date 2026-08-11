@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Lanturn",
-		fr: "Lanturn",
-		de: "Lanturn"
+		'en-us': "Lanturn",
+		'fr-fr': "Lanturn",
+		'de-de': "Lanturn"
 	},
 
 	illustrator: "Hideaki Hakozaki",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Chinchou",
-		fr: "Loupio"
+		'en-us': "Chinchou",
+		'fr-fr': "Loupio"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Underwater Dive",
-				fr: "Submerger",
-				de: "Tauchgang"
+				'en-us': "Underwater Dive",
+				'fr-fr': "Submerger",
+				'de-de': "Tauchgang"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may use this power. Lanturn's type is Water until the end of your turn. This power can't be used if Lanturn is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Lanturn devient un Pokémon de type Water jusqu’à la fin de votre tour. Ce pouvoir ne peut pas être utilisé si Lanturn est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du diese Poké-Power verwenden. Lanturns Type ist  biz zum Ende des Zuges. Diese Poké-Power kann nicht benutzt werden, wenn Lanturn von einem Speziellen Zustand betroffen ist."
+				'en-us': "Once during your turn (before your attack), you may use this power. Lanturn's type is Water until the end of your turn. This power can't be used if Lanturn is affected by a Special Condition.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Lanturn devient un Pokémon de type Water jusqu’à la fin de votre tour. Ce pouvoir ne peut pas être utilisé si Lanturn est affecté par un État Spécial.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du diese Poké-Power verwenden. Lanturns Type ist  biz zum Ende des Zuges. Diese Poké-Power kann nicht benutzt werden, wenn Lanturn von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Powerful Spark",
-				fr: "Étincelle puissante",
-				de: "Mächtiger Funke"
+				'en-us': "Powerful Spark",
+				'fr-fr': "Étincelle puissante",
+				'de-de': "Mächtiger Funke"
 			},
 			effect: {
-				en: "Does 40 damage plus 10 more damage for each Energy attached to all of your Pokémon.",
-				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie attachée à tous vos Pokémon.",
-				de: "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede Energie, die an deine Pokémon angelegt ist, zu."
+				'en-us': "Does 40 damage plus 10 more damage for each Energy attached to all of your Pokémon.",
+				'fr-fr': "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie attachée à tous vos Pokémon.",
+				'de-de': "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede Energie, die an deine Pokémon angelegt ist, zu."
 			},
 			damage: "40+",
 

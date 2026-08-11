@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Gumshoos",
-		fr: "Argouste",
-		es: "Gumshoos",
-		it: "Gumshoos",
-		pt: "Gumshoos",
-		de: "Manguspektor"
+		'en-us': "Gumshoos",
+		'fr-fr': "Argouste",
+		'es-es': "Gumshoos",
+		'it-it': "Gumshoos",
+		'pt-br': "Gumshoos",
+		'de-de': "Manguspektor"
 	},
 	illustrator: "nagimiso",
 	rarity: "Promo",
@@ -23,8 +23,8 @@ const card: Card = {
 		"Colorless",
 	],
 	evolveFrom: {
-		en: "Yungoos",
-		fr: "Manglouton",
+		'en-us': "Yungoos",
+		'fr-fr': "Manglouton",
 	},
 	stage: "Stage1",
 
@@ -36,20 +36,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Identify",
-				fr: "Identifier",
-				es: "Identificar",
-				it: "Identificazione",
-				pt: "Identificar",
-				de: "Identifizieren"
+				'en-us': "Identify",
+				'fr-fr': "Identifier",
+				'es-es': "Identificar",
+				'it-it': "Identificazione",
+				'pt-br': "Identificar",
+				'de-de': "Identifizieren"
 			},
 			effect: {
-				en: "Your opponent reveals their hand. If you find a Pokémon there, this attack does 80 more damage.",
-				fr: "Votre adversaire dévoile sa main. Si vous y trouvez un Pokémon, cette attaque inflige 80 dégâts supplémentaires.",
-				es: "Tu rival enseña las cartas de su mano. Si encuentras 1 Pokémon entre ellas, este ataque hace 80 puntos de daño más.",
-				it: "Il tuo avversario mostra le carte che ha in mano. Se ci trovi un Pokémon, questo attacco infligge 80 danni in più.",
-				pt: "Seu oponente revela a própria mão. Se você encontrar um Pokémon lá, este ataque causará 80 pontos de dano a mais.",
-				de: "Dein Gegner zeigt dir seine Handkarten. Wenn du dort mindestens 1 Pokémon findest, fügt diese Attacke 80 Schadenspunkte mehr zu."
+				'en-us': "Your opponent reveals their hand. If you find a Pokémon there, this attack does 80 more damage.",
+				'fr-fr': "Votre adversaire dévoile sa main. Si vous y trouvez un Pokémon, cette attaque inflige 80 dégâts supplémentaires.",
+				'es-es': "Tu rival enseña las cartas de su mano. Si encuentras 1 Pokémon entre ellas, este ataque hace 80 puntos de daño más.",
+				'it-it': "Il tuo avversario mostra le carte che ha in mano. Se ci trovi un Pokémon, questo attacco infligge 80 danni in più.",
+				'pt-br': "Seu oponente revela a própria mão. Se você encontrar um Pokémon lá, este ataque causará 80 pontos de dano a mais.",
+				'de-de': "Dein Gegner zeigt dir seine Handkarten. Wenn du dort mindestens 1 Pokémon findest, fügt diese Attacke 80 Schadenspunkte mehr zu."
 			},
 			damage: "20+",
 
@@ -61,12 +61,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whap Down",
-				fr: "Assommer",
-				es: "Zurrar",
-				it: "Bastonata",
-				pt: "Golpe Ligeiro",
-				de: "Verdreschen"
+				'en-us': "Whap Down",
+				'fr-fr': "Assommer",
+				'es-es': "Zurrar",
+				'it-it': "Bastonata",
+				'pt-br': "Golpe Ligeiro",
+				'de-de': "Verdreschen"
 			},
 
 			damage: 70,
@@ -86,7 +86,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It adores having Rattata and Raticate for dinner, but as it's diurnal, it never encounters them. This Pokémon boasts incredible patience.",
+		'en-us': "It adores having Rattata and Raticate for dinner, but as it's diurnal, it never encounters them. This Pokémon boasts incredible patience.",
 	},
 }
 

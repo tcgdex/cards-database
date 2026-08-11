@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Dark Dragonair",
-		de: "Dunkles Dragonir"
+		'en-us': "Dark Dragonair",
+		'de-de': "Dunkles Dragonir"
 	},
 
 	illustrator: "Emi Miwa",
@@ -23,7 +23,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dratini",
+		'en-us': "Dratini",
 	},
 
 	stage: "Stage1",
@@ -32,12 +32,12 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Evolutionary Light",
-				de: "Evolutionary Light"
+				'en-us': "Evolutionary Light",
+				'de-de': "Evolutionary Light"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Dark Dragonair is your Active Pokémon, you may search your deck for an Evolution card. Show it to your opponent and put it into your hand. Shuffle your deck afterward. This power can't be used if Dark Dragonair is affected by a Special Condition.",
-				de: "Once during your turn (before your attack), if Dark Dragonair is your Active Pokémon, you may search your deck for an Evolution card. Show it to your opponent and put it into your hand. Shuffle your deck afterward. This power can't be used if Dark Dragonair is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), if Dark Dragonair is your Active Pokémon, you may search your deck for an Evolution card. Show it to your opponent and put it into your hand. Shuffle your deck afterward. This power can't be used if Dark Dragonair is affected by a Special Condition.",
+				'de-de': "Once during your turn (before your attack), if Dark Dragonair is your Active Pokémon, you may search your deck for an Evolution card. Show it to your opponent and put it into your hand. Shuffle your deck afterward. This power can't be used if Dark Dragonair is affected by a Special Condition."
 			},
 		},
 	],
@@ -49,8 +49,8 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Dragon Rage",
-				de: "Dragon Rage"
+				'en-us': "Dragon Rage",
+				'de-de': "Dragon Rage"
 			},
 
 			damage: 30,

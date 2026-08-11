@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 		'zh-tw': "伊布",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "不規則な 遺伝子を 持つ。 石から出る 放射線によって 体が 突然変異を 起こす。",
+		'ja-jp': "不規則な 遺伝子を 持つ。 石から出る 放射線によって 体が 突然変異を 起こす。",
 		'zh-tw': "有著不規則的基因。 石頭散發出的放射線， 會使牠的身體發生突變。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "カラフルキャッチ",
+				'ja-jp': "カラフルキャッチ",
 				'zh-tw': "鮮豔捕捉",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から、それぞれちがうタイプの基本エネルギーを3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札から、それぞれちがうタイプの基本エネルギーを3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
 				'zh-tw': "從自己的牌庫選擇最多3張各不同屬性的基本能量卡，在給對手看過後加入手牌。並且重洗牌庫。",
 			},
 		},
 		{
 			name: {
-				ja: "ずつき",
+				'ja-jp': "ずつき",
 				'zh-tw': "頭錘",
 			},
 			damage: 20,

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Farfetch'd",
+		'en-us': "Farfetch'd",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leek Slap",
+				'en-us': "Leek Slap",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing. Either way, you can't use this attack again as long as Farfetch'd stays in play (even putting Farfetch'd on the Bench won't let you use it again.)",
+				'en-us': "Flip a coin. If tails, this attack does nothing. Either way, you can't use this attack again as long as Farfetch'd stays in play (even putting Farfetch'd on the Bench won't let you use it again.)",
 			},
 
 		},
@@ -43,7 +43,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pot Smash",
+				'en-us': "Pot Smash",
 			},
 
 			damage: 30,
@@ -68,7 +68,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The sprig of green onions it holds is its weapon. This sprig is used much like a metal sword.",
+		'en-us': "The sprig of green onions it holds is its weapon. This sprig is used much like a metal sword.",
 	},
 
 

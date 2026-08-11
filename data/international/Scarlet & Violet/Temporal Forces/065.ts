@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Azumarill",
-		fr: "Azumarill",
-		es: "Azumarill",
-		it: "Azumarill",
-		pt: "Azumarill",
-		de: "Azumarill"
+		'en-us': "Azumarill",
+		'fr-fr': "Azumarill",
+		'es-es': "Azumarill",
+		'it-it': "Azumarill",
+		'pt-br': "Azumarill",
+		'de-de': "Azumarill"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Marill",
-		fr: "Marill",
-		es: "Marill",
-		it: "Marill",
-		pt: "Marill",
-		de: "Marill"
+		'en-us': "Marill",
+		'fr-fr': "Marill",
+		'es-es': "Marill",
+		'it-it': "Marill",
+		'pt-br': "Marill",
+		'de-de': "Marill"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Play Rough",
-			fr: "Câlinerie",
-			es: "Carantoña",
-			it: "Carineria",
-			pt: "Jogo Duro",
-			de: "Knuddler"
+			'en-us': "Play Rough",
+			'fr-fr': "Câlinerie",
+			'es-es': "Carantoña",
+			'it-it': "Carineria",
+			'pt-br': "Jogo Duro",
+			'de-de': "Knuddler"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
+			'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Power Tackle",
-			fr: "Tacle Puissant",
-			es: "Placaje Poderoso",
-			it: "Forzazione",
-			pt: "Investida Poderosa",
-			de: "Kraft-Tackle"
+			'en-us': "Power Tackle",
+			'fr-fr': "Tacle Puissant",
+			'es-es': "Placaje Poderoso",
+			'it-it': "Forzazione",
+			'pt-br': "Investida Poderosa",
+			'de-de': "Kraft-Tackle"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 140
@@ -84,7 +84,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.",
+		'en-us': "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.",
 	},
 
 	variants: [

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Druddigon",
-		fr: "Drakkarmin",
-		es: "Druddigon",
-		it: "Druddigon",
-		pt: "Druddigon",
-		de: "Shardrago"
+		'en-us': "Druddigon",
+		'fr-fr': "Drakkarmin",
+		'es-es': "Druddigon",
+		'it-it': "Druddigon",
+		'pt-br': "Druddigon",
+		'de-de': "Shardrago"
 	},
 
 	illustrator: "5ban Graphics",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Guard Press",
-				fr: "Pression de Garde",
+				'en-us': "Guard Press",
+				'fr-fr': "Pression de Garde",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'en-us': "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 			},
 			damage: 20,
 
@@ -53,8 +53,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Claw",
-				fr: "Dracogriffe",
+				'en-us': "Dragon Claw",
+				'fr-fr': "Dracogriffe",
 			},
 
 			damage: 90,
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It runs through the narrow tunnels formed by Excadrill and Onix. It uses its sharp claws to catch prey.",
+		'en-us': "It runs through the narrow tunnels formed by Excadrill and Onix. It uses its sharp claws to catch prey.",
 	},
 
 	thirdParty: {

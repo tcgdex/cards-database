@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [846],
 
 	name: {
-		en: "Arrokuda",
-		fr: "Embrochet",
-		es: "Arrokuda",
-		it: "Arrokuda",
-		pt: "Arrokuda",
-		de: "Pikuda"
+		'en-us': "Arrokuda",
+		'fr-fr': "Embrochet",
+		'es-es': "Arrokuda",
+		'it-it': "Arrokuda",
+		'pt-br': "Arrokuda",
+		'de-de': "Pikuda"
 	},
 
 	illustrator: "Mina Nakai",
@@ -24,12 +24,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Rain Splash",
-				fr: "Pluie Éclaboussante",
-				es: "Golpe de Lluvia",
-				it: "Spruzzapioggia",
-				pt: "Chuva Borrifante",
-				de: "Regenplatscher"
+				'en-us': "Rain Splash",
+				'fr-fr': "Pluie Éclaboussante",
+				'es-es': "Golpe de Lluvia",
+				'it-it': "Spruzzapioggia",
+				'pt-br': "Chuva Borrifante",
+				'de-de': "Regenplatscher"
 			},
 
 			damage: 20,
@@ -53,7 +53,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "If it sees any movement around it, this Pokémon charges for it straightaway, leading with its sharply pointed jaw. It's very proud of that jaw."
+		'en-us': "If it sees any movement around it, this Pokémon charges for it straightaway, leading with its sharply pointed jaw. It's very proud of that jaw."
 	},
 
 	variants: [

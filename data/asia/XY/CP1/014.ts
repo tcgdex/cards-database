@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグマ団のボスゴドラ",
+		'ja-jp': "マグマ団のボスゴドラ",
 	},
 
 	illustrator: "TOKIYA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ボスゴドラの 鋼のツノは どんなに 固い 防壁でも 突き破ることが できるのよ！",
+		'ja-jp': "ボスゴドラの 鋼のツノは どんなに 固い 防壁でも 突き破ることが できるのよ！",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "40×",
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "自分の場のポケモンについている[闘]エネルギーを好きなだけトラッシュし、トラッシュした[闘]エネルギーの数x40ダメージ。",
+				'ja-jp': "自分の場のポケモンについている[闘]エネルギーを好きなだけトラッシュし、トラッシュした[闘]エネルギーの数x40ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "ダメカンがのっている相手のベンチポケモン全員にも、それぞれ20ダメージ。［ベンチは弱点・抵抗力の計算をしない。］",
+				'ja-jp': "ダメカンがのっている相手のベンチポケモン全員にも、それぞれ20ダメージ。［ベンチは弱点・抵抗力の計算をしない。］",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マグマ団のコドラ",
+		'ja-jp': "マグマ団のコドラ",
 	},
 
 	retreat: 4,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Karrablast",
-		fr: "Carabing",
-		es: "Karrablast",
-		it: "Karrablast",
-		pt: "Karrablast",
-		de: "Laukaps"
+		'en-us': "Karrablast",
+		'fr-fr': "Carabing",
+		'es-es': "Karrablast",
+		'it-it': "Karrablast",
+		'pt-br': "Karrablast",
+		'de-de': "Laukaps"
 	},
 
 	illustrator: "sowsow",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Peck",
-			fr: "Picpic",
-			es: "Picotazo",
-			it: "Beccata",
-			pt: "Bicada",
-			de: "Pikser"
+			'en-us': "Peck",
+			'fr-fr': "Picpic",
+			'es-es': "Picotazo",
+			'it-it': "Beccata",
+			'pt-br': "Bicada",
+			'de-de': "Pikser"
 		},
 
 		damage: 10
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its strange physiology reacts to electrical energy in interesting ways. The presence of a Shelmet will cause this Pokémon to evolve.",
+		'en-us': "Its strange physiology reacts to electrical energy in interesting ways. The presence of a Shelmet will cause this Pokémon to evolve.",
 	},
 
 	variants: [

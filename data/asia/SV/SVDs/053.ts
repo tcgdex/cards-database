@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "บาจินอุนิ",
-		id: "Pincurchin"
+		'th-th': "บาจินอุนิ",
+		'id-id': "Pincurchin"
 	},
 
 	illustrator: "Yuka Morii",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		th: "สร้างพลังงานไฟฟ้าออกมาเมื่อย่อยอาหาร ใช้ฟันที่แข็งแรง 5 ซี่ขูดสาหร่ายออกมากิน",
-		id: "Pincurchin menghasilkan listrik saat mencerna makanannya. Pokémon ini menggunakan 5 giginya yang keras untuk mengikis dan memakan rumput laut."
+		'th-th': "สร้างพลังงานไฟฟ้าออกมาเมื่อย่อยอาหาร ใช้ฟันที่แข็งแรง 5 ซี่ขูดสาหร่ายออกมากิน",
+		'id-id': "Pincurchin menghasilkan listrik saat mencerna makanannya. Pokémon ini menggunakan 5 giginya yang keras untuk mengikis dan memakan rumput laut."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "นีดเดิ้ลแครช",
-			id: "Needle Crush"
+			'th-th': "นีดเดิ้ลแครช",
+			'id-id': "Needle Crush"
 		},
 
 		effect: {
-			th: "เลือกพลังงานที่ติดอยู่กับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม 1 ลูก ทิ้งที่ตำแหน่งทิ้งการ์ด",
-			id: "Pilih 1 Energi yang dikenakan pada Pokémon Bertarung lawan, lalu buang ke Trash."
+			'th-th': "เลือกพลังงานที่ติดอยู่กับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม 1 ลูก ทิ้งที่ตำแหน่งทิ้งการ์ด",
+			'id-id': "Pilih 1 Energi yang dikenakan pada Pokémon Bertarung lawan, lalu buang ke Trash."
 		},
 
 		damage: 70,

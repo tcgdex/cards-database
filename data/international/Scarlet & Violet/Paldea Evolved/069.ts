@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Lixy",
-		en: "Shinx",
-		es: "Shinx",
-		it: "Shinx",
-		pt: "Shinx",
-		de: "Sheinux"
+		'fr-fr': "Lixy",
+		'en-us': "Shinx",
+		'es-es': "Shinx",
+		'it-it': "Shinx",
+		'pt-br': "Shinx",
+		'de-de': "Sheinux"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			fr: "Coup Déchaîné",
-			en: "Wild Kick",
-			es: "Patada Salvaje",
-			it: "Calcio Selvaggio",
-			pt: "Chute sem Pontaria",
-			de: "Stürmischer Kick"
+			'fr-fr': "Coup Déchaîné",
+			'en-us': "Wild Kick",
+			'es-es': "Patada Salvaje",
+			'it-it': "Calcio Selvaggio",
+			'pt-br': "Chute sem Pontaria",
+			'de-de': "Stürmischer Kick"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-			en: "Flip a coin. If tails, this attack does nothing.",
-			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-			pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
-			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+			'pt-br': "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
+			'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 		},
 
 		damage: 30
@@ -75,7 +75,7 @@ const card: Card = {
 	illustrator: "Oswaldo KATO",
 
 	description: {
-		en: "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
+		'en-us': "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
 	},
 }
 

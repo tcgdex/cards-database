@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴルダック",
+		'ja-jp': "ゴルダック",
 	},
 
 	illustrator: "Jiro Sasumo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "水かきのついた 長い 手足を 使い 全力で 泳ぎだすと なぜか 額が 光り輝く。",
+		'ja-jp': "水かきのついた 長い 手足を 使い 全力で 泳ぎだすと なぜか 額が 光り輝く。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "しめりけ" },
 			effect: {
-				ja: "このポケモンがいるかぎり、おたがいのポケモン全員は、そのポケモン自身をきぜつさせる効果の特性が、すべてなくなる。",
+				'ja-jp': "このポケモンがいるかぎり、おたがいのポケモン全員は、そのポケモン自身をきぜつさせる効果の特性が、すべてなくなる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[W]エネルギーの数×20ダメージ追加。",
+				'ja-jp': "このポケモンについている[W]エネルギーの数×20ダメージ追加。",
 			},
 		},
 	],
@@ -66,7 +66,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コダック",
+		'ja-jp': "コダック",
 	},
 
 	retreat: 1,

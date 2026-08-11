@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Magcargo",
-		fr: "Volcaropod",
-		de: "Magcargo"
+		'en-us': "Magcargo",
+		'fr-fr': "Volcaropod",
+		'de-de': "Magcargo"
 	},
 
 	illustrator: "Yuka Morii",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Slugma",
-		fr: "Limagma"
+		'en-us': "Slugma",
+		'fr-fr': "Limagma"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Searing Flame",
-				fr: "Flammes calcinantes",
-				de: "Sengende Flammen"
+				'en-us': "Searing Flame",
+				'fr-fr': "Flammes calcinantes",
+				'de-de': "Sengende Flammen"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
+				'en-us': "The Defending Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 20,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lava Flow",
-				fr: "Torrent de lave",
-				de: "Lavaschub"
+				'en-us': "Lava Flow",
+				'fr-fr': "Torrent de lave",
+				'de-de': "Lavaschub"
 			},
 			effect: {
-				en: "You may discard any number of Fire Energy cards attached to Magcargo. If you do , this attack does 60 damage plus 20 more damage for each Fire Energy card you discarded.",
-				fr: "Vous pouvez défausser autant de cartes Énergie Fire attachées à Volcaropod que vous le souhaitez. Dans ce cas, cette attaque inflige 60 dégâts plus 20 dégâts pour chaque carte Énergie Fire que vous avez défaussée.",
-				de: "Du darfst beliebig viele der an Magcargo angelegten -Energiekarten auf deinen Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 60 Schadenspunkte plus 20 weitere Schadenspunkte für jede abgelegte -Energiekarte zu."
+				'en-us': "You may discard any number of Fire Energy cards attached to Magcargo. If you do , this attack does 60 damage plus 20 more damage for each Fire Energy card you discarded.",
+				'fr-fr': "Vous pouvez défausser autant de cartes Énergie Fire attachées à Volcaropod que vous le souhaitez. Dans ce cas, cette attaque inflige 60 dégâts plus 20 dégâts pour chaque carte Énergie Fire que vous avez défaussée.",
+				'de-de': "Du darfst beliebig viele der an Magcargo angelegten -Energiekarten auf deinen Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 60 Schadenspunkte plus 20 weitere Schadenspunkte für jede abgelegte -Energiekarte zu."
 			},
 			damage: "60+",
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its brittle shell occasionally spouts intense flames that circulate throughout its body."
+		'en-us': "Its brittle shell occasionally spouts intense flames that circulate throughout its body."
 	},
 
 	variants: [

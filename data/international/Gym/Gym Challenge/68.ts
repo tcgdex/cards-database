@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Brock's Geodude"
+		'en-us': "Brock's Geodude"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Rock Toss"
+				'en-us': "Rock Toss"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10x",
 

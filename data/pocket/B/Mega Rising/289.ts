@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Victreebel"
+		'en-us': "Victreebel"
 	},
 
 	illustrator: "MAHOU",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Weepinbell"
+		'en-us': "Weepinbell"
 	},
 
 	description: {
-		en: "Said to live in huge colonies deep in jungles,\nalthough no one has ever returned from there."
+		'en-us': "Said to live in huge colonies deep in jungles,\nalthough no one has ever returned from there."
 	},
 
 	stage: "Stage2",
@@ -30,17 +30,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Fragrance Trap"
+			'en-us': "Fragrance Trap"
 		},
 
 		effect: {
-			en: "If this Pokémon is in the Active Spot, once during your turn, you may switch in 1 of your opponent's Benched Basic Pokémon to the Active Spot."
+			'en-us': "If this Pokémon is in the Active Spot, once during your turn, you may switch in 1 of your opponent's Benched Basic Pokémon to the Active Spot."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Vine Whip"
+			'en-us': "Vine Whip"
 		},
 
 		damage: 60,

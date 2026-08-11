@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Houndoom",
-		fr: "Démolosse",
-		es: "Houndoom",
-		it: "Houndoom",
-		pt: "Houndoom",
-		de: "Hundemon"
+		'en-us': "Houndoom",
+		'fr-fr': "Démolosse",
+		'es-es': "Houndoom",
+		'it-it': "Houndoom",
+		'pt-br': "Houndoom",
+		'de-de': "Hundemon"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Houndour",
-		fr: "Malosse",
+		'en-us': "Houndour",
+		'fr-fr': "Malosse",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Clamp",
-				fr: "Pince des Ténèbres",
+				'en-us': "Dark Clamp",
+				'fr-fr': "Pince des Ténèbres",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 			damage: 30,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blazing Claws",
-				fr: "Griffes Ardentes",
+				'en-us': "Blazing Claws",
+				'fr-fr': "Griffes Ardentes",
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Team Plasma Pokémon, this attack does 60 more damage, and the Defending Pokémon is now Burned.",
-				fr: "Si le Pokémon Défenseur est un Pokémon de la Team Plasma, cette attaque inflige 60 dégâts supplémentaires et le Pokémon Défenseur est maintenant Brûlé.",
+				'en-us': "If the Defending Pokémon is a Team Plasma Pokémon, this attack does 60 more damage, and the Defending Pokémon is now Burned.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon de la Team Plasma, cette attaque inflige 60 dégâts supplémentaires et le Pokémon Défenseur est maintenant Brûlé.",
 			},
 			damage: 60,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The flames it breathes when angry contain toxins. If they cause a burn, it will hurt forever.",
+		'en-us': "The flames it breathes when angry contain toxins. If they cause a burn, it will hurt forever.",
 	},
 
 	thirdParty: {

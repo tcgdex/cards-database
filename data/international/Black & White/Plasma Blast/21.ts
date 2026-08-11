@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Snorunt",
-		fr: "Stalgamin",
-		es: "Snorunt",
-		it: "Snorunt",
-		pt: "Snorunt",
-		de: "Schneppke"
+		'en-us': "Snorunt",
+		'fr-fr': "Stalgamin",
+		'es-es': "Snorunt",
+		'it-it': "Snorunt",
+		'pt-br': "Snorunt",
+		'de-de': "Schneppke"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Powder Snow",
-				fr: "Poudreuse",
+				'en-us': "Powder Snow",
+				'fr-fr': "Poudreuse",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'Boule",
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'Boule",
 			},
 
 			damage: 20,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is said that several Snorunt gather under giant leaves and live together in harmony.",
+		'en-us': "It is said that several Snorunt gather under giant leaves and live together in harmony.",
 	},
 
 	thirdParty: {

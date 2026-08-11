@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ลิลีลา"
+		'th-th': "ลิลีลา"
 	},
 
 	illustrator: "Mori Yuu",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		th: "โปเกมอนที่ฟื้นสภาพจากฟอสซิล อาศัยอยู่ใต้ทะเลอุ่นราว 1 ร้อยล้านปีก่อน"
+		'th-th': "โปเกมอนที่ฟื้นสภาพจากฟอสซิล อาศัยอยู่ใต้ทะเลอุ่นราว 1 ร้อยล้านปีก่อน"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "มัดยึด"
+			'th-th': "มัดยึด"
 		},
 
 		effect: {
-			th: "เทิร์นถัดไปของฝ่ายตรงข้าม โปเกมอนที่ได้รับท่าต่อสู้นี้ จะหนีไม่ได้"
+			'th-th': "เทิร์นถัดไปของฝ่ายตรงข้าม โปเกมอนที่ได้รับท่าต่อสู้นี้ จะหนีไม่ได้"
 		},
 
 		damage: 50,

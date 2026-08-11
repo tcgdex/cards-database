@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Gym Badge",
-		fr: "Badge"
+		'en-us': "Gym Badge",
+		'fr-fr': "Badge"
 	},
 
 	illustrator: "5ban Graphics",
@@ -14,7 +14,7 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		en: "Flip a coin until you get tails. For each heads, draw a card. You may play as many Item cards as you like during your turn (before your attack).",
+		'en-us': "Flip a coin until you get tails. For each heads, draw a card. You may play as many Item cards as you like during your turn (before your attack).",
 	},
 
 	thirdParty: {

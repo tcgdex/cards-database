@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヤバソチャex"
+		'ja-jp': "ヤバソチャex"
 	},
 
 	illustrator: "Saboteri",
@@ -19,23 +19,23 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "せんじがえし"
+			'ja-jp': "せんじがえし"
 		},
 
 		effect: {
-			ja: "自分のトラッシュにある「基本エネルギー」をすべて相手に見せ、その枚数×2個ぶんのダメカンを、相手のポケモン1匹にのせる。その後、見せたエネルギーを山札にもどして切る。"
+			'ja-jp': "自分のトラッシュにある「基本エネルギー」をすべて相手に見せ、その枚数×2個ぶんのダメカンを、相手のポケモン1匹にのせる。その後、見せたエネルギーを山札にもどして切る。"
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "まっちゃスプラッシュ"
+			'ja-jp': "まっちゃスプラッシュ"
 		},
 
 		damage: 120,
 
 		effect: {
-			ja: "自分のポケモン全員のHPを、それぞれ「30」回復する。"
+			'ja-jp': "自分のポケモン全員のHPを、それぞれ「30」回復する。"
 		}
 	}],
 

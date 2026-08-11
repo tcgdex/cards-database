@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Machopeur",
-		en: "Machoke",
-		es: "Machoke",
-		it: "Machoke",
-		pt: "Machoke",
-		de: "Maschock"
+		'fr-fr': "Machopeur",
+		'en-us': "Machoke",
+		'es-es': "Machoke",
+		'it-it': "Machoke",
+		'pt-br': "Machoke",
+		'de-de': "Maschock"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Fighting"],
 	evolveFrom: {
-		fr: "Machoc",
-		en: "Machop",
-		es: "Machop",
-		it: "Machop",
-		pt: "Machop",
-		de: "Machollo"
+		'fr-fr': "Machoc",
+		'en-us': "Machop",
+		'es-es': "Machop",
+		'it-it': "Machop",
+		'pt-br': "Machop",
+		'de-de': "Machollo"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			fr: "Pousse-Montagnes",
-			en: "Mountain Ramming",
-			es: "Empuje Montaña",
-			it: "Speronamonte",
-			pt: "Colisão Montanhosa",
-			de: "Bergramme"
+			'fr-fr': "Pousse-Montagnes",
+			'en-us': "Mountain Ramming",
+			'es-es': "Empuje Montaña",
+			'it-it': "Speronamonte",
+			'pt-br': "Colisão Montanhosa",
+			'de-de': "Bergramme"
 		},
 
 		effect: {
-			fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-			en: "Discard the top card of your opponent's deck.",
-			es: "Descarta la primera carta de la baraja de tu rival.",
-			it: "Scarta la prima carta del mazzo del tuo avversario.",
-			pt: "Descarte a carta de cima do baralho do seu oponente.",
-			de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+			'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+			'en-us': "Discard the top card of your opponent's deck.",
+			'es-es': "Descarta la primera carta de la baraja de tu rival.",
+			'it-it': "Scarta la prima carta del mazzo del tuo avversario.",
+			'pt-br': "Descarte a carta de cima do baralho do seu oponente.",
+			'de-de': "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 50
@@ -62,7 +62,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Its formidable body never gets tired. It helps people by doing work such as the moving of heavy goods.",
+		'en-us': "Its formidable body never gets tired. It helps people by doing work such as the moving of heavy goods.",
 	},
 
 	variants: [

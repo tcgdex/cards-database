@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プテラVSTAR",
+		'ja-jp': "プテラVSTAR",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,14 +20,14 @@ const card: Card = {
 			damage: 240,
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分の山札を上から3枚、ロストゾーンに置く。",
+				'ja-jp': "自分の山札を上から3枚、ロストゾーンに置く。",
 			},
 		},
 		{
 			name: { ja: "エンシェントスター" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンは、場をはなれるまで「相手の場の『ポケモンV』（『プテラVSTAR』をのぞく）の特性は、すべてなくなる。」という効果の特性を持つ。［対戦中、自分はVSTARパワーを1回しか使えない。］",
+				'ja-jp': "このポケモンは、場をはなれるまで「相手の場の『ポケモンV』（『プテラVSTAR』をのぞく）の特性は、すべてなくなる。」という効果の特性を持つ。［対戦中、自分はVSTARパワーを1回しか使えない。］",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "プテラV",
+		'ja-jp': "プテラV",
 	},
 
 	retreat: 2,

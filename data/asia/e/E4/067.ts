@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダンズパース",
+		'ja-jp': "ダンズパース",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "滑りやすい肌",
+				'ja-jp': "滑りやすい肌",
 			},
 			effect: {
-				ja: "防御ポケモンが進化したポケモンである限り、Dunsparceのリトリートコストは0です。",
+				'ja-jp': "防御ポケモンが進化したポケモンである限り、Dunsparceのリトリートコストは0です。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "テールシェイク",
+				'ja-jp': "テールシェイク",
 			},
 			effect: {
-				ja: "防御ポケモンは今眠っています。",
+				'ja-jp': "防御ポケモンは今眠っています。",
 			},
 			damage: 10,
 		},

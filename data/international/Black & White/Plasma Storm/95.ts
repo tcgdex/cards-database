@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Black Kyurem-EX",
-		fr: "Kyurem Noir-EX",
-		es: "Kyurem Negro-EX",
-		it: "Kyurem Nero-EX",
-		pt: "Kyurem Preto-EX",
-		de: "Schwarzes Kyurem-EX"
+		'en-us': "Black Kyurem-EX",
+		'fr-fr': "Kyurem Noir-EX",
+		'es-es': "Kyurem Negro-EX",
+		'it-it': "Kyurem Nero-EX",
+		'pt-br': "Kyurem Preto-EX",
+		'de-de': "Schwarzes Kyurem-EX"
 	},
 	illustrator: "Shizurow",
 	rarity: "Rare",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
 			},
 
 			damage: 60,
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Black Ballista",
-				fr: "Baliste Noire",
+				'en-us': "Black Ballista",
+				'fr-fr': "Baliste Noire",
 			},
 			effect: {
-				en: "Discard 3 Energy attached to this Pokémon.",
-				fr: "Défaussez 3 Énergies attachées à ce Pokémon.",
+				'en-us': "Discard 3 Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez 3 Énergies attachées à ce Pokémon.",
 			},
 			damage: 200,
 

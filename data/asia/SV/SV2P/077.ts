@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "セグレイブ"
+		'ja-jp': "セグレイブ"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "極低温の 冷気を 口から 噴射。 灼熱の マグマでも 瞬時に 凍りつかせてしまう。"
+		'ja-jp': "極低温の 冷気を 口から 噴射。 灼熱の マグマでも 瞬時に 凍りつかせてしまう。"
 	},
 
 	stage: "Stage2",
@@ -24,11 +24,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "きょくていおん"
+			'ja-jp': "きょくていおん"
 		},
 
 		effect: {
-			ja: "自分の番に何回でも使える。自分の手札から「基本エネルギー」を1枚選び、自分のポケモンにつける。"
+			'ja-jp': "自分の番に何回でも使える。自分の手札から「基本エネルギー」を1枚選び、自分のポケモンにつける。"
 		}
 	}],
 
@@ -36,7 +36,7 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			ja: "バスターテール"
+			'ja-jp': "バスターテール"
 		},
 
 		damage: 130

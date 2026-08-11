@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブロスター"
+		'ja-jp': "ブロスター"
 	},
 	illustrator: "Anesaki Dynamic",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Water"],
 	description: {
-		ja: "体内ガスの力でハサミのお尻から水を噴射して６０ノットのスピードで泳ぐ。"
+		'ja-jp': "体内ガスの力でハサミのお尻から水を噴射して６０ノットのスピードで泳ぐ。"
 	},
 	stage: "Stage1",
 	variants: [
@@ -25,24 +25,24 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ウデッポウ"
+		'ja-jp': "ウデッポウ"
 	},
 	abilities: [{
 		type: "Ability",
 		name: {
-			ja: "バックリロード"
+			'ja-jp': "バックリロード"
 		},
 		effect: {
-			ja: "自分の番に、このポケモンがバトル場からベンチに戻ったとき、1回使える。自分の手札から「基本水エネルギー」を2枚まで選び、このポケモンにつける。"
+			'ja-jp': "自分の番に、このポケモンがバトル場からベンチに戻ったとき、1回使える。自分の手札から「基本水エネルギー」を2枚まで選び、このポケモンにつける。"
 		}
 	}],
 	attacks: [{
 		name: {
-			ja: "アクアランチャー"
+			'ja-jp': "アクアランチャー"
 		},
 		damage: 210,
 		effect: {
-			ja: "このポケモンについているエネルギーを、すべてトラッシュする。"
+			'ja-jp': "このポケモンについているエネルギーを、すべてトラッシュする。"
 		},
 		cost: ["Water", "Water", "Water"]
 	}],

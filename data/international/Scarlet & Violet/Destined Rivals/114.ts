@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Team Rocket's Nidoran♀",
-		fr: "Nidoran♀ de la Team Rocket",
-		de: "Team Rockets Nidoran♀",
-		it: "Nidoran♀ del Team Rocket",
-		es: "Nidoran♀ del Team Rocket",
-		pt: "Nidoran♀ da Equipe Rocket",
+		'en-us': "Team Rocket's Nidoran♀",
+		'fr-fr': "Nidoran♀ de la Team Rocket",
+		'de-de': "Team Rockets Nidoran♀",
+		'it-it': "Nidoran♀ del Team Rocket",
+		'es-es': "Nidoran♀ del Team Rocket",
+		'pt-br': "Nidoran♀ da Equipe Rocket",
 		'es-mx': "Nidoran♀ del Equipo Rocket"
 	},
 
@@ -28,22 +28,22 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Surprise Attack",
-			fr: "Attaque Surprise",
-			de: "Überraschungsangriff",
-			it: "Attacco a Sorpresa",
-			es: "Ataque Sorpresa",
-			pt: "Ataque Surpresa",
+			'en-us': "Surprise Attack",
+			'fr-fr': "Attaque Surprise",
+			'de-de': "Überraschungsangriff",
+			'it-it': "Attacco a Sorpresa",
+			'es-es': "Ataque Sorpresa",
+			'pt-br': "Ataque Surpresa",
 			'es-mx': "Ataque Sorpresa"
 		},
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
-			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-			pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
+			'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			'pt-br': "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
 			'es-mx': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada."
 		},
 

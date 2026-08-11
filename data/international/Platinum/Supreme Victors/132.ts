@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Whismur",
-		fr: "Chuchmur",
-		de: "Flurmel"
+		'en-us': "Whismur",
+		'fr-fr': "Chuchmur",
+		'de-de': "Flurmel"
 	},
 
 	illustrator: "Yuka Morii",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tone-Deaf",
-				fr: "Dur d'oreille",
-				de: "Unmusikalisch"
+				'en-us': "Tone-Deaf",
+				'fr-fr': "Dur d'oreille",
+				'de-de': "Unmusikalisch"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'de-de': "Walzer"
 			},
 
 			damage: 20,
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Usually, its cries are like quiet murmurs. If frightened, it shrieks at the same volume as a jet plane."
+		'en-us': "Usually, its cries are like quiet murmurs. If frightened, it shrieks at the same volume as a jet plane."
 	},
 
 	variants: [

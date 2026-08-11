@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Electrode",
-		fr: "Electrode",
-		de: "Lektrobal"
+		'en-us': "Electrode",
+		'fr-fr': "Electrode",
+		'de-de': "Lektrobal"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Voltorb",
-		fr: "Voltorbe"
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe"
 	},
 
 	stage: "Stage1",
@@ -34,9 +34,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'de-de': "Walzer"
 			},
 
 			damage: 20,
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lightning Strike",
-				fr: "Frap’éclair",
-				de: "Blitzschlag"
+				'en-us': "Lightning Strike",
+				'fr-fr': "Frap’éclair",
+				'de-de': "Blitzschlag"
 			},
 			effect: {
-				en: "You may do 40 damage plus 60 more damage. If you do, discard all Lightning Energy attached to Electrode.",
-				fr: "Vous pouvez infliger 40 dégâts plus 60 dégâts supplémentaires. Dans ce cas, défaussez toutes les cartes Énergie Lightning attachées à Electrode.",
-				de: "Du kannst mit diesem Angriff kann 40 Schadenspunkte plus 60 weitere Schadenspunkte zufügen. Wenn du das machst, lege alle an Lektrobal angelegten -Energien auf deinen Ablagestapel."
+				'en-us': "You may do 40 damage plus 60 more damage. If you do, discard all Lightning Energy attached to Electrode.",
+				'fr-fr': "Vous pouvez infliger 40 dégâts plus 60 dégâts supplémentaires. Dans ce cas, défaussez toutes les cartes Énergie Lightning attachées à Electrode.",
+				'de-de': "Du kannst mit diesem Angriff kann 40 Schadenspunkte plus 60 weitere Schadenspunkte zufügen. Wenn du das machst, lege alle an Lektrobal angelegten -Energien auf deinen Ablagestapel."
 			},
 			damage: "40+",
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is dangerous. If it has too much electricity and has nothing to do, it amuses itself by exploding."
+		'en-us': "It is dangerous. If it has too much electricity and has nothing to do, it amuses itself by exploding."
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Croagunk",
-		fr: "Cradopaud",
-		de: "Glibunkel"
+		'en-us': "Croagunk",
+		'fr-fr': "Cradopaud",
+		'de-de': "Glibunkel"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hook",
-				fr: "Crochet",
-				de: "Haken"
+				'en-us': "Hook",
+				'fr-fr': "Crochet",
+				'de-de': "Haken"
 			},
 
 			damage: 10,
@@ -43,9 +43,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Corkscrew Punch",
-				fr: "Poing en tire-bouchon",
-				de: "Korkenzieherhieb"
+				'en-us': "Corkscrew Punch",
+				'fr-fr': "Poing en tire-bouchon",
+				'de-de': "Korkenzieherhieb"
 			},
 
 			damage: 20,
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It rarely fights fairly, but that is strictly to ensure survival. It is popular as a mascot."
+		'en-us': "It rarely fights fairly, but that is strictly to ensure survival. It is popular as a mascot."
 	},
 
 	variants: [

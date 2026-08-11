@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムンナ",
+		'ja-jp': "ムンナ",
 	},
 
 	illustrator: "Eri Kamei",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "ムンナに 夢を 食べられてしまうと 夢の 内容を 忘れてしまう。 つねに 空中に 浮かんでいる。",
+		'ja-jp': "ムンナに 夢を 食べられてしまうと 夢の 内容を 忘れてしまう。 つねに 空中に 浮かんでいる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ねむる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンをねむりにする。このポケモンのHPを「30」回復する。",
+				'ja-jp': "このポケモンをねむりにする。このポケモンのHPを「30」回復する。",
 			},
 		},
 		{ name: { ja: "つぶやく" }, damage: 10, cost: ["Psychic"] },

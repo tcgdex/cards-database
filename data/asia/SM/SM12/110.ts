@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オドリドリGX",
+		'ja-jp': "オドリドリGX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "たむけのまい" },
 			effect: {
-				ja: "前の相手の番に、自分のポケモンがきぜつしていたなら、自分の番に1回使える。自分の山札を3枚引く。この番、すでに別の「たむけのまい」を使っていたなら、この特性は使えない。",
+				'ja-jp': "前の相手の番に、自分のポケモンがきぜつしていたなら、自分の番に1回使える。自分の山札を3枚引く。この番、すでに別の「たむけのまい」を使っていたなら、この特性は使えない。",
 			},
 		},
 	],
@@ -35,7 +35,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンをベンチポケモンと入れ替える。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "このポケモンをベンチポケモンと入れ替える。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

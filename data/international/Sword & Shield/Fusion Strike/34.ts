@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slugma",
-		fr: "Limagma",
-		es: "Slugma",
-		it: "Slugma",
-		pt: "Slugma",
-		de: "Schneckmag"
+		'en-us': "Slugma",
+		'fr-fr': "Limagma",
+		'es-es': "Slugma",
+		'it-it': "Slugma",
+		'pt-br': "Slugma",
+		'de-de': "Schneckmag"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "otumami",
 
 	description: {
-		en: "Its body is made of magma. If it doesn't keep moving, its body will cool and harden."
+		'en-us': "Its body is made of magma. If it doesn't keep moving, its body will cool and harden."
 	},
 
 	attacks: [{
 		cost: ["Fire"],
 
 		name: {
-			en: "Live Coal",
-			fr: "Charbon Mutant",
-			de: "Glühende Kohlen",
-			es: "Carbón Activado",
-			pt: "Carvão Vivo",
-			it: "Carboni Ardenti"
+			'en-us': "Live Coal",
+			'fr-fr': "Charbon Mutant",
+			'de-de': "Glühende Kohlen",
+			'es-es': "Carbón Activado",
+			'pt-br': "Carvão Vivo",
+			'it-it': "Carboni Ardenti"
 		},
 
 		damage: 10
@@ -50,12 +50,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Flare",
-			fr: "Flamboiement",
-			de: "Flackern",
-			es: "Llama",
-			pt: "Chama",
-			it: "Fiammata"
+			'en-us': "Flare",
+			'fr-fr': "Flamboiement",
+			'de-de': "Flackern",
+			'es-es': "Llama",
+			'pt-br': "Chama",
+			'it-it': "Fiammata"
 		},
 
 		damage: 20

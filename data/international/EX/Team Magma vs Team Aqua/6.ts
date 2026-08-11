@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Walrein",
-		fr: "Kaimorse de Team Aqua",
-		de: "Team Aquas Walraisa"
+		'en-us': "Team Aqua's Walrein",
+		'fr-fr': "Kaimorse de Team Aqua",
+		'de-de': "Team Aquas Walraisa"
 	},
 
 	illustrator: "Ken Ikuji",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Power Blow",
-				fr: "Coup puissant",
-				de: "Power Blow"
+				'en-us': "Power Blow",
+				'fr-fr': "Coup puissant",
+				'de-de': "Power Blow"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each Energy attached to Team Aqua's Walrein.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Kaimorse de Team Aqua.",
-				de: "Does 10 damage plus 10 more damage for each Energy card attached to Team Aqua´s Walrain."
+				'en-us': "Does 10 damage plus 10 more damage for each Energy attached to Team Aqua's Walrein.",
+				'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Kaimorse de Team Aqua.",
+				'de-de': "Does 10 damage plus 10 more damage for each Energy card attached to Team Aqua´s Walrain."
 			},
 			damage: "10+",
 
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Reverse",
-				fr: "Hydro-revers",
-				de: "Hydro Reverse"
+				'en-us': "Hydro Reverse",
+				'fr-fr': "Hydro-revers",
+				'de-de': "Hydro Reverse"
 			},
 			effect: {
-				en: "You may return any number of basic Water Energy cards attached to all of your Pokémon to your hand. If you do, this attack does 50 damage plus 10 more damage for each Energy you returned.",
-				fr: "Vous pouvez reprendre dans votre main autant de cartes Énergie de base  que vous le voulez. Cette attaque inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque Énergie reprise.",
-				de: "You may return any number of basic  Energy card attached to all Pokémon to your hand. If you do, this attack does 50 damage plus 10 more damage for each Energy you returned."
+				'en-us': "You may return any number of basic Water Energy cards attached to all of your Pokémon to your hand. If you do, this attack does 50 damage plus 10 more damage for each Energy you returned.",
+				'fr-fr': "Vous pouvez reprendre dans votre main autant de cartes Énergie de base  que vous le voulez. Cette attaque inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque Énergie reprise.",
+				'de-de': "You may return any number of basic  Energy card attached to all Pokémon to your hand. If you do, this attack does 50 damage plus 10 more damage for each Energy you returned."
 			},
 			damage: "50+",
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Drowzee",
-		fr: "Soporifik",
-		de: "Traumato"
+		'en-us': "Drowzee",
+		'fr-fr': "Soporifik",
+		'de-de': "Traumato"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Sleep Inducer",
-				fr: "Poussododo",
-				de: "Schlafeinflößer"
+				'en-us': "Sleep Inducer",
+				'fr-fr': "Poussododo",
+				'de-de': "Schlafeinflößer"
 			},
 			effect: {
-				en: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. The new Defending Pokémon is now Asleep.",
-				fr: "Échangez le Pokémon Défenseur avec un Pokémon du Banc de votre adversaire. Le nouveau Pokémon Défenseur est maintenant Endormi.",
-				de: "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus. Das neue Verteidigende Pokémon schläft jetzt."
+				'en-us': "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. The new Defending Pokémon is now Asleep.",
+				'fr-fr': "Échangez le Pokémon Défenseur avec un Pokémon du Banc de votre adversaire. Le nouveau Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus. Das neue Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gentle Slap",
-				fr: "Gifle douce",
-				de: "Sanfter Hieb"
+				'en-us': "Gentle Slap",
+				'fr-fr': "Gifle douce",
+				'de-de': "Sanfter Hieb"
 			},
 
 			damage: 20,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It remembers every dream it eats. It rarely eats the dreams of adults because children’s are much tastier."
+		'en-us': "It remembers every dream it eats. It rarely eats the dreams of adults because children’s are much tastier."
 	},
 
 	variants: [

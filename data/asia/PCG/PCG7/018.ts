@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG7"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Psyduck（デルタ種）",
+		'ja-jp': "Psyduck（デルタ種）",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "傷",
+				'ja-jp': "傷",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "無効にします",
+				'ja-jp': "無効にします",
 			},
 			effect: {
-				ja: "防御ポケモンの攻撃の1つを選択します。  そのポケモンは、相手の次のターン中にその攻撃を使用できません。",
+				'ja-jp': "防御ポケモンの攻撃の1つを選択します。  そのポケモンは、相手の次のターン中にその攻撃を使用できません。",
 			},
 		},
 	],

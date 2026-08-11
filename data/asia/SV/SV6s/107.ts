@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Hawlucha"
+		'id-id': "Hawlucha"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Hawlucha hidup tenang tanpa membentuk kelompok. Primeape yang membuat kegaduhan dengan gerombolannya adalah musuh alami Pokémon ini sehingga selalu terjadi perselisihan."
+		'id-id': "Hawlucha hidup tenang tanpa membentuk kelompok. Primeape yang membuat kegaduhan dengan gerombolannya adalah musuh alami Pokémon ini sehingga selalu terjadi perselisihan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Side Counter"
+			'id-id': "Side Counter"
 		},
 
 		effect: {
-			id: "Jika sisa Kartu Point sendiri lebih banyak dari sisa Kartu Point lawan, kerusakan yang diberikan bertambah sejumlah 90."
+			'id-id': "Jika sisa Kartu Point sendiri lebih banyak dari sisa Kartu Point lawan, kerusakan yang diberikan bertambah sejumlah 90."
 		},
 
 		damage: "50+",

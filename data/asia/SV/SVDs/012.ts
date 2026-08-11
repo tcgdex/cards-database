@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โอลีวา",
-		id: "Arboliva"
+		'th-th': "โอลีวา",
+		'id-id': "Arboliva"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -15,28 +15,28 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		th: "อ่อนโยนและมีความเมตตาต่อผู้อื่นเป็นอย่างมาก จะแบ่งน้ำมันที่อร่อยและมีสารอาหารเปี่ยมล้นให้กับโปเกมอนที่อ่อนแอ",
-		id: "Sifatnya tenang dan sangat penyayang. Arboliva memberikan minyak bernutrisi nan lezat kepada Pokémon yang melemah."
+		'th-th': "อ่อนโยนและมีความเมตตาต่อผู้อื่นเป็นอย่างมาก จะแบ่งน้ำมันที่อร่อยและมีสารอาหารเปี่ยมล้นให้กับโปเกมอนที่อ่อนแอ",
+		'id-id': "Sifatnya tenang dan sangat penyayang. Arboliva memberikan minyak bernutrisi nan lezat kepada Pokémon yang melemah."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			th: "ผลไม้แห่งการรักษา",
-			id: "Buah Penyembuh"
+			'th-th': "ผลไม้แห่งการรักษา",
+			'id-id': "Buah Penyembuh"
 		},
 
 		effect: {
-			th: "ฟื้นฟู HP ทั้งหมดของโปเกมอนบนเบนช์ฝ่ายเรา 1 ตัว",
-			id: "Pulihkan HP 1 Pokémon Cadangan sendiri sepenuhnya."
+			'th-th': "ฟื้นฟู HP ทั้งหมดของโปเกมอนบนเบนช์ฝ่ายเรา 1 ตัว",
+			'id-id': "Pulihkan HP 1 Pokémon Cadangan sendiri sepenuhnya."
 		},
 
 		cost: ["Grass"]
 	}, {
 		name: {
-			th: "ออยล์ช็อต",
-			id: "Oil Shot"
+			'th-th': "ออยล์ช็อต",
+			'id-id': "Oil Shot"
 		},
 
 		damage: 90,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Treecko",
-		fr: "Arcko",
-		de: "Geckarbor"
+		'en-us': "Treecko",
+		'fr-fr': "Arcko",
+		'de-de': "Geckarbor"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Ball",
-				fr: "Eco-Sphère",
-				de: "Energieball"
+				'en-us': "Energy Ball",
+				'fr-fr': "Eco-Sphère",
+				'de-de': "Energieball"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each Energy attached to Treecko but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Arcko qui n'a pas été utilisée pour payer le Coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Geckarbor angelegte Energie zu, die nicht zum Bezahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 20 Schadenspunkte hinzufügen."
+				'en-us': "Does 10 damage plus 10 more damage for each Energy attached to Treecko but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+				'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Arcko qui n'a pas été utilisée pour payer le Coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Geckarbor angelegte Energie zu, die nicht zum Bezahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 20 Schadenspunkte hinzufügen."
 			},
 			damage: "10+",
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Absorb",
-				fr: "Vol-vie",
-				de: "Absorber"
+				'en-us': "Absorb",
+				'fr-fr': "Vol-vie",
+				'de-de': "Absorber"
 			},
 			effect: {
-				en: "Remove 1 damage counter from Treecko.",
-				fr: "Retirez à Arcko 1 marqueur de dégât.",
-				de: "Entferne 1 Schadensmarke von Geckarbor."
+				'en-us': "Remove 1 damage counter from Treecko.",
+				'fr-fr': "Retirez à Arcko 1 marqueur de dégât.",
+				'de-de': "Entferne 1 Schadensmarke von Geckarbor."
 			},
 			damage: 20,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The soles of its feet are covered by countless tiny spikes, enabling it to walk on walls and ceilings.",
+		'en-us': "The soles of its feet are covered by countless tiny spikes, enabling it to walk on walls and ceilings.",
 	},
 
 	thirdParty: {

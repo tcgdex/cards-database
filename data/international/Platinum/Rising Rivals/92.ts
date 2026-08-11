@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Lucian's Assignment",
-		fr: "La mission de Lucio",
-		de: "Lucians Auftrag"
+		'en-us': "Lucian's Assignment",
+		'fr-fr': "La mission de Lucio",
+		'de-de': "Lucians Auftrag"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Move as many Energy cards attached to 1 of your Pokémon as you like to another of your Pokémon.",
-		fr: "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.",
-		de: "Entferne eine beliebige Anzahl Energiekarten von 1 deiner Pokémon und lege sie an 1 anderes deiner Pokémon an."
+		'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Move as many Energy cards attached to 1 of your Pokémon as you like to another of your Pokémon.",
+		'fr-fr': "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.",
+		'de-de': "Entferne eine beliebige Anzahl Energiekarten von 1 deiner Pokémon und lege sie an 1 anderes deiner Pokémon an."
 	},
 
 	trainerType: "Supporter",

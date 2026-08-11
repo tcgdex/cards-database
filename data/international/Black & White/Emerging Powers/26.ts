@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Ducklett",
-		fr: "Couaneton",
-		es: "Ducklett",
-		it: "Ducklett",
-		pt: "Ducklett",
-		de: "Piccolente"
+		'en-us': "Ducklett",
+		'fr-fr': "Couaneton",
+		'es-es': "Ducklett",
+		'it-it': "Ducklett",
+		'pt-br': "Ducklett",
+		'de-de': "Piccolente"
 	},
 
 	illustrator: "MAHOU",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Roost",
-				fr: "Atterrissage",
+				'en-us': "Roost",
+				'fr-fr': "Atterrissage",
 			},
 			effect: {
-				en: "Heal 40 damage from this Pokémon. This Pokémon can't retreat during your next turn.",
-				fr: "Soignez 40 dégâts à ce Pokémon. Ce Pokémon ne peut pas battre en retraite pendant votre prochain tour.",
+				'en-us': "Heal 40 damage from this Pokémon. This Pokémon can't retreat during your next turn.",
+				'fr-fr': "Soignez 40 dégâts à ce Pokémon. Ce Pokémon ne peut pas battre en retraite pendant votre prochain tour.",
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Rain Splash",
-				fr: "Pluie Éclaboussante",
+				'en-us': "Rain Splash",
+				'fr-fr': "Pluie Éclaboussante",
 			},
 
 			damage: 20,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When attacked, it uses its feathers to splash water, escaping under cover of the spray.",
+		'en-us': "When attacked, it uses its feathers to splash water, escaping under cover of the spray.",
 	},
 
 	thirdParty: {

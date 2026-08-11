@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../S'
 
 const set: Set = {
 	id: 'S5I',
 	name: {
-		ja: '一撃マスター',
-		ko: '일격마스터',
+		'ja-jp': '一撃マスター',
+		'ko-kr': '일격마스터',
 		'zh-tw': '一撃大師',
-		id: 'Master Serangan Tunggal',
-		th: 'มาสเตอร์จู่โจมครั้งเดียว'
+		'id-id': 'Master Serangan Tunggal',
+		'th-th': 'มาสเตอร์จู่โจมครั้งเดียว'
 	},
 
 	serie: serie,
@@ -18,10 +18,10 @@ const set: Set = {
 	},
 
 	releaseDate: {
-		ja: '2021-01-22',
+		'ja-jp': '2021-01-22',
 		'zh-tw': '2021-01-29',
-		id: '2021-05-21',
-		th: '2021-03-26'
+		'id-id': '2021-05-21',
+		'th-th': '2021-03-26'
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Gulpin",
-		fr: "Gloupti",
+		'en-us': "Gulpin",
+		'fr-fr': "Gloupti",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Starvin'",
-				fr: "Affamé",
+				'en-us': "Starvin'",
+				'fr-fr': "Affamé",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 			},
 			damage: 30,
 
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When Mom gets in the kitchen, the happiest things happen. I can feel my mouth watering!",
+		'en-us': "When Mom gets in the kitchen, the happiest things happen. I can feel my mouth watering!",
 	},
 
 	thirdParty: {

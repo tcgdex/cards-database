@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マチスのビリリダマ",
+		'ja-jp': "マチスのビリリダマ",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "スピンボール",
+				'ja-jp': "スピンボール",
 			},
 			effect: {
-				ja: "フリップ1コイン。この攻撃は、ヘッド数の20倍のダメージを与えます。",
+				'ja-jp': "フリップ1コイン。この攻撃は、ヘッド数の20倍のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "ダブルスピン",
+				'ja-jp': "ダブルスピン",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。",
 			},
 		},
 	],

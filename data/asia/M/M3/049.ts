@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゲンガー",
+		'ja-jp': "ゲンガー",
 	},
 
 	illustrator: "Masako Tomii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "物陰に 姿を 隠す。 ゲンガーの 潜んでいる 部屋は 温度が ５度 下がると いわれる。",
+		'ja-jp': "物陰に 姿を 隠す。 ゲンガーの 潜んでいる 部屋は 温度が ５度 下がると いわれる。",
 	},
 
 	stage: "Stage2",
@@ -28,7 +28,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "メガゲンガーex",
+		'ja-jp': "メガゲンガーex",
 	},
 
 	retreat: 1,

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dwebble",
-		fr: "Crabicoque"
+		'en-us': "Dwebble",
+		'fr-fr': "Crabicoque"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It makes a hole in a suitable rock. If that rock\nbreaks, the Pokémon remains agitated until it\nlocates a replacement.",
-		fr: "Il perce un caillou et s'en sert comme maison. Quand on lui casse, il est anxieux jusqu'à ce qu'il en trouve un autre."
+		'en-us': "It makes a hole in a suitable rock. If that rock\nbreaks, the Pokémon remains agitated until it\nlocates a replacement.",
+		'fr-fr': "Il perce un caillou et s'en sert comme maison. Quand on lui casse, il est anxieux jusqu'à ce qu'il en trouve un autre."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Sand Spray",
-			fr: "Jet Sableux"
+			'en-us': "Sand Spray",
+			'fr-fr': "Jet Sableux"
 		},
 
 		damage: 30,

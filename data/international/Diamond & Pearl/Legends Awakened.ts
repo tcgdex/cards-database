@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Diamond & Pearl'
 
 const dp6: Set = {
 	id: "dp6",
 
 	name: {
-		en: "Legends Awakened",
-		fr: "Éveil des Légendes",
-		es: "Despertar de las Leyendas",
-		it: "Il Risveglio dei Miti",
-		de: "Erwachte Legenden"
+		'en-us': "Legends Awakened",
+		'fr-fr': "Éveil des Légendes",
+		'es-es': "Despertar de las Leyendas",
+		'it-it': "Il Risveglio dei Miti",
+		'de-de': "Erwachte Legenden"
 	},
 
 	serie: serie,
@@ -23,7 +23,7 @@ const dp6: Set = {
 
 	abbreviations: {
 		official: "LA",
-		fr: "EDL"
+		'fr-fr': "EDL"
 	},
 
 	thirdParty: {

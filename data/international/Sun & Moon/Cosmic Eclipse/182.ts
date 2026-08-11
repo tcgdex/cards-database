@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Bewear",
-		fr: "Chelours",
-		es: "Bewear",
-		it: "Bewear",
-		pt: "Bewear",
-		de: "Kosturso"
+		'en-us': "Bewear",
+		'fr-fr': "Chelours",
+		'es-es': "Bewear",
+		'it-it': "Bewear",
+		'pt-br': "Bewear",
+		'de-de': "Kosturso"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Stufful",
-		fr: "Nounourson",
+		'en-us': "Stufful",
+		'fr-fr': "Nounourson",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Carry and Run",
-				fr: "Attrape et Cours",
-				es: "Cargar y Correr",
-				it: "Piglia e Fuggi",
-				pt: "Pegar e Correr",
-				de: "Tragen und rennen"
+				'en-us': "Carry and Run",
+				'fr-fr': "Attrape et Cours",
+				'es-es': "Cargar y Correr",
+				'it-it': "Piglia e Fuggi",
+				'pt-br': "Pegar e Correr",
+				'de-de': "Tragen und rennen"
 			},
 			effect: {
-				en: "As long as this Pokémon is on your Bench, your Active Pokémon’s Retreat Cost is ColorlessColorless less.",
-				fr: "Tant que ce Pokémon est sur votre Banc, le Coût de Retraite de votre Pokémon Actif est diminué de ColorlessColorless.",
-				es: "Mientras este Pokémon esté en tu Banca, el Coste de Retirada de tu Pokémon Activo es de ColorlessColorless menos.",
-				it: "Fintanto che questo Pokémon è nella tua panchina, il costo di ritirata del tuo Pokémon attivo è ridotto di ColorlessColorless.",
-				pt: "Enquanto este Pokémon estiver no seu Banco, o custo de Recuo do seu Pokémon Ativo será ColorlessColorless a menos.",
-				de: "Solang sich dieses Pokémon auf deiner Bank befindet, verringern sich die Rückzugskosten deines Aktiven Pokémon um ColorlessColorless."
+				'en-us': "As long as this Pokémon is on your Bench, your Active Pokémon’s Retreat Cost is ColorlessColorless less.",
+				'fr-fr': "Tant que ce Pokémon est sur votre Banc, le Coût de Retraite de votre Pokémon Actif est diminué de ColorlessColorless.",
+				'es-es': "Mientras este Pokémon esté en tu Banca, el Coste de Retirada de tu Pokémon Activo es de ColorlessColorless menos.",
+				'it-it': "Fintanto che questo Pokémon è nella tua panchina, il costo di ritirata del tuo Pokémon attivo è ridotto di ColorlessColorless.",
+				'pt-br': "Enquanto este Pokémon estiver no seu Banco, o custo de Recuo do seu Pokémon Ativo será ColorlessColorless a menos.",
+				'de-de': "Solang sich dieses Pokémon auf deiner Bank befindet, verringern sich die Rückzugskosten deines Aktiven Pokémon um ColorlessColorless."
 			},
 		},
 	],
@@ -63,20 +63,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lariat",
-				fr: "Lasso",
-				es: "Lazo",
-				it: "Lazo",
-				pt: "Laço",
-				de: "Lasso"
+				'en-us': "Lariat",
+				'fr-fr': "Lasso",
+				'es-es': "Lazo",
+				'it-it': "Lazo",
+				'pt-br': "Laço",
+				'de-de': "Lasso"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
-				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-				pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
-				de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+				'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+				'pt-br': "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+				'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 			},
 			damage: 120,
 
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It waves its hands wildly in intimidation and warning. Life is over for anyone who doesn't run away as fast as possible.",
+		'en-us': "It waves its hands wildly in intimidation and warning. Life is over for anyone who doesn't run away as fast as possible.",
 	},
 
 	thirdParty: {

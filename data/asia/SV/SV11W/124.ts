@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プルリル",
+		'ja-jp': "プルリル",
 	},
 
 	illustrator: "Shinya Komatsu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "薄い ベールのような 腕で 相手の 体を 縛りつけたまま 海の 底へ 沈んでいくのだ。",
+		'ja-jp': "薄い ベールのような 腕で 相手の 体を 縛りつけたまま 海の 底へ 沈んでいくのだ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Psychic"],
 			effect: {
-				ja: "次の相手の番、相手は手札からグッズを出して使えない。",
+				'ja-jp': "次の相手の番、相手は手札からグッズを出して使えない。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "わるいカイリキー",
+		'ja-jp': "わるいカイリキー",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Fighting"],
 			name: {
-				ja: "メガパンチ",
+				'ja-jp': "メガパンチ",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
 			name: {
-				ja: "逃げる",
+				'ja-jp': "逃げる",
 			},
 			effect: {
-				ja: "あなたの対戦相手は彼または彼女のアクティブなポケモンとそれに取り付けられたすべてのカードを彼または彼女のデッキにシャッフルします。対戦相手にベンチポケモンがない場合、この攻撃は使用できません。",
+				'ja-jp': "あなたの対戦相手は彼または彼女のアクティブなポケモンとそれに取り付けられたすべてのカードを彼または彼女のデッキにシャッフルします。対戦相手にベンチポケモンがない場合、この攻撃は使用できません。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Mudsdale"
+		'id-id': "Mudsdale"
 	},
 
 	illustrator: "MINAMINAMI Take",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Tidak hanya membantu pekerjaan kasar, Mudsdale dirawat dengan baik karena menghasilkan lumpur berkualitas bagus untuk bahan membuat tembikar."
+		'id-id': "Tidak hanya membantu pekerjaan kasar, Mudsdale dirawat dengan baik karena menghasilkan lumpur berkualitas bagus untuk bahan membuat tembikar."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Mud Stock"
+			'id-id': "Mud Stock"
 		},
 
 		effect: {
-			id: "Kenakan Energi Dasar {Petarung} masing-masing 1 lembar dari Trash pada semua Pokémon Cadangan sendiri."
+			'id-id': "Kenakan Energi Dasar {Petarung} masing-masing 1 lembar dari Trash pada semua Pokémon Cadangan sendiri."
 		},
 
 		cost: ["Fighting"]
 	}, {
 		name: {
-			id: "Daya Kuda Besar"
+			'id-id': "Daya Kuda Besar"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 40."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 40."
 		},
 
 		damage: 140,

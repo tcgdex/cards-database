@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒマナッツ",
+		'ja-jp': "ヒマナッツ",
 		'zh-tw': "向日種子",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "葉っぱの 裏側に たまった 朝露だけを 飲んで 暮らす。 他には なにも 食べないという。",
+		'ja-jp': "葉っぱの 裏側に たまった 朝露だけを 飲んで 暮らす。 他には なにも 食べないという。",
 		'zh-tw': "只飲用積在葉子背面的朝露來過活。據說除此之外什麼都不吃。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "タネばくだん",
+				'ja-jp': "タネばくだん",
 				'zh-tw': "種子炸彈",
 			},
 			damage: 20,

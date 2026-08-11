@@ -1,11 +1,11 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../XYb'
 
 const set: Set = {
 	id: 'CP4',
 	name: {
-		ja: 'プレミアムチャンピオンパック EX×M×BREAK',
-		ko: '프리미엄 챔피언팩'
+		'ja-jp': 'プレミアムチャンピオンパック EX×M×BREAK',
+		'ko-kr': '프리미엄 챔피언팩'
 	},
 
 	serie: serie,

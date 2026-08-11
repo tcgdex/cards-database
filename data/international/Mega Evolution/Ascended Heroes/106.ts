@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Solrock",
-		fr: "Solaroc",
-		es: "Solrock",
+		'en-us': "Solrock",
+		'fr-fr': "Solaroc",
+		'es-es': "Solrock",
 		'es-mx': "Solrock",
-		de: "Sonnfel",
-		it: "Solrock",
-		pt: "Solrock"
+		'de-de': "Sonnfel",
+		'it-it': "Solrock",
+		'pt-br': "Solrock"
 	},
 
 	illustrator: "Whisker",
@@ -26,23 +26,23 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Cosmic Beam",
-			fr: "Rayon Cosmique",
-			es: "Rayo Cósmico",
+			'en-us': "Cosmic Beam",
+			'fr-fr': "Rayon Cosmique",
+			'es-es': "Rayo Cósmico",
 			'es-mx': "Rayo Cósmico",
-			de: "Kosmischer Strahl",
-			it: "Cosmoraggio",
-			pt: "Feixe Cósmico"
+			'de-de': "Kosmischer Strahl",
+			'it-it': "Cosmoraggio",
+			'pt-br': "Feixe Cósmico"
 		},
 
 		effect: {
-			en: "If you don't have Lunatone on your Bench, this attack does nothing. This attack's damage isn't affected by Weakness or Resistance.",
-			fr: "Si vous n'avez pas Séléroc sur votre Banc, cette attaque ne fait rien. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
-			es: "Si no tienes a Lunatone en tu Banca, este ataque no hace nada. El daño de este ataque no se ve afectado por Debilidad o Resistencia.",
+			'en-us': "If you don't have Lunatone on your Bench, this attack does nothing. This attack's damage isn't affected by Weakness or Resistance.",
+			'fr-fr': "Si vous n'avez pas Séléroc sur votre Banc, cette attaque ne fait rien. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+			'es-es': "Si no tienes a Lunatone en tu Banca, este ataque no hace nada. El daño de este ataque no se ve afectado por Debilidad o Resistencia.",
 			'es-mx': "Si no tienes Lunatone en tu Banca, este ataque no hace nada. El daño de este ataque no se ve afectado por Debilidad o Resistencia.",
-			de: "Wenn Lunastein nicht auf deiner Bank ist, hat diese Attacke keine Auswirkungen. Der Schaden dieser Attacke wird durch Schwäche oder Resistenz nicht verändert.",
-			it: "Se non hai Lunatone nella tua panchina, questo attacco non ha effetto. I danni di questo attacco non sono influenzati dalla debolezza o dalla resistenza.",
-			pt: "Se você não tiver Lunatone no seu Banco, este ataque não fará nada. O dano deste ataque não é afetado por Fraqueza ou Resistência."
+			'de-de': "Wenn Lunastein nicht auf deiner Bank ist, hat diese Attacke keine Auswirkungen. Der Schaden dieser Attacke wird durch Schwäche oder Resistenz nicht verändert.",
+			'it-it': "Se non hai Lunatone nella tua panchina, questo attacco non ha effetto. I danni di questo attacco non sono influenzati dalla debolezza o dalla resistenza.",
+			'pt-br': "Se você não tiver Lunatone no seu Banco, este ataque não fará nada. O dano deste ataque não é afetado por Fraqueza ou Resistência."
 		},
 
 		damage: 70
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Solar energy is the source of its power, so it is strong during the daytime. When it spins, its body shines.",
+		'en-us': "Solar energy is the source of its power, so it is strong during the daytime. When it spins, its body shines.",
 	},
 
 	variants: [

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Southern Islands'
 
 const card: Card = {
 	name: {
-		en: "Lapras",
+		'en-us': "Lapras",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gentle Song",
+				'en-us': "Gentle Song",
 			},
 			effect: {
-				en: "If Lapras has any damage counters on it, remove 2 of them from it (1 if it only has 1). If the Defending Pokémon has any damage counters on it, remove 2 of them from it (1 if it only has 1). The Defending Pokémon is now Asleep.",
+				'en-us': "If Lapras has any damage counters on it, remove 2 of them from it (1 if it only has 1). If the Defending Pokémon has any damage counters on it, remove 2 of them from it (1 if it only has 1). The Defending Pokémon is now Asleep.",
 			},
 
 		},
@@ -42,10 +42,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Ice Beam",
+				'en-us': "Ice Beam",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 20,
 
@@ -62,7 +62,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This gentle Pokémon can understand human language and allows people to ride on its back.",
+		'en-us': "This gentle Pokémon can understand human language and allows people to ride on its back.",
 	},
 
 	variants: [

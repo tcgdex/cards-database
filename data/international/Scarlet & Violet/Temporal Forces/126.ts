@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hoothoot",
-		fr: "Hoothoot",
-		es: "Hoothoot",
-		it: "Hoothoot",
-		pt: "Hoothoot",
-		de: "Hoothoot"
+		'en-us': "Hoothoot",
+		'fr-fr': "Hoothoot",
+		'es-es': "Hoothoot",
+		'it-it': "Hoothoot",
+		'pt-br': "Hoothoot",
+		'de-de': "Hoothoot"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Silent Wing",
-			fr: "Aile Silencieuse",
-			es: "Ala Silenciosa",
-			it: "Ala Silenziosa",
-			pt: "Asa Silenciosa",
-			de: "Lautlose Flügel"
+			'en-us': "Silent Wing",
+			'fr-fr': "Aile Silencieuse",
+			'es-es': "Ala Silenciosa",
+			'it-it': "Ala Silenziosa",
+			'pt-br': "Asa Silenciosa",
+			'de-de': "Lautlose Flügel"
 		},
 
 		effect: {
-			en: "Your opponent reveals their hand.",
-			fr: "Votre adversaire montre sa main.",
-			es: "Tu rival enseña las cartas de su mano.",
-			it: "Il tuo avversario mostra le carte che ha in mano.",
-			pt: "Seu oponente revela a mão dele.",
-			de: "Dein Gegner zeigt dir seine Handkarten."
+			'en-us': "Your opponent reveals their hand.",
+			'fr-fr': "Votre adversaire montre sa main.",
+			'es-es': "Tu rival enseña las cartas de su mano.",
+			'it-it': "Il tuo avversario mostra le carte che ha in mano.",
+			'pt-br': "Seu oponente revela a mão dele.",
+			'de-de': "Dein Gegner zeigt dir seine Handkarten."
 		},
 
 		damage: 20
@@ -60,7 +60,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It always stands on one foot. It changes feet so fast, the movement can rarely be seen.",
+		'en-us': "It always stands on one foot. It changes feet so fast, the movement can rarely be seen.",
 	},
 
 	variants: [

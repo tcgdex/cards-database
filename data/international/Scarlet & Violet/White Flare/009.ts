@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Accelgor",
-		fr: "Limaspeed",
-		de: "Hydragil",
-		it: "Accelgor",
-		pt: "Accelgor",
-		es: "Accelgor",
+		'en-us': "Accelgor",
+		'fr-fr': "Limaspeed",
+		'de-de': "Hydragil",
+		'it-it': "Accelgor",
+		'pt-br': "Accelgor",
+		'es-es': "Accelgor",
 		'es-mx': "Accelgor"
 	},
 
@@ -21,12 +21,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Shelmet",
-		fr: "Escargaume",
-		de: "Schnuthelm",
-		it: "Shelmet",
-		pt: "Shelmet",
-		es: "Shelmet",
+		'en-us': "Shelmet",
+		'fr-fr': "Escargaume",
+		'de-de': "Schnuthelm",
+		'it-it': "Shelmet",
+		'pt-br': "Shelmet",
+		'es-es': "Shelmet",
 		'es-mx': "Shelmet"
 	},
 	stage: "Stage1",
@@ -35,22 +35,22 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Acid Spray",
-			fr: "Bombe Acide",
-			de: "Säurespeier",
-			it: "Acidobomba",
-			pt: "Spray Ácido",
-			es: "Bomba Ácida",
+			'en-us': "Acid Spray",
+			'fr-fr': "Bombe Acide",
+			'de-de': "Säurespeier",
+			'it-it': "Acidobomba",
+			'pt-br': "Spray Ácido",
+			'es-es': "Bomba Ácida",
 			'es-mx': "Bomba Ácida"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
-			fr: "Lancez une pièce. Si c'est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
-			de: "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
-			it: "Lancia una moneta. Se esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
-			pt: "Jogue uma moeda. Se sair cara, descarte uma Energia do Pokémon Ativo do seu oponente.",
-			es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
+			'en-us': "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
+			'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			'de-de': "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+			'it-it': "Lancia una moneta. Se esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			'pt-br': "Jogue uma moeda. Se sair cara, descarte uma Energia do Pokémon Ativo do seu oponente.",
+			'es-es': "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
 			'es-mx': "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival."
 		},
 

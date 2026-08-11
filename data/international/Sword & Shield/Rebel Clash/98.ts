@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [308],
 
 	name: {
-		en: "Medicham",
-		fr: "Charmina",
-		es: "Medicham",
-		it: "Medicham",
-		pt: "Medicham",
-		de: "Meditalis"
+		'en-us': "Medicham",
+		'fr-fr': "Charmina",
+		'es-es': "Medicham",
+		'it-it': "Medicham",
+		'pt-br': "Medicham",
+		'de-de': "Meditalis"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -19,12 +19,12 @@ const card: Card = {
 	set: Set,
 
 	evolveFrom: {
-		en: "Meditite",
-		fr: "Méditikka",
-		es: "Meditite",
-		it: "Meditite",
-		pt: "Meditite",
-		de: "Meditie"
+		'en-us': "Meditite",
+		'fr-fr': "Méditikka",
+		'es-es': "Meditite",
+		'it-it': "Meditite",
+		'pt-br': "Meditite",
+		'de-de': "Meditie"
 	},
 
 	attacks: [
@@ -33,20 +33,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Yoga Kick",
-				fr: "Yoga Kick",
-				es: "Patada Yoga",
-				it: "Calcio Yoga",
-				pt: "Chute Ioga",
-				de: "Yogakick"
+				'en-us': "Yoga Kick",
+				'fr-fr': "Yoga Kick",
+				'es-es': "Patada Yoga",
+				'it-it': "Calcio Yoga",
+				'pt-br': "Chute Ioga",
+				'de-de': "Yogakick"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
-				es: "El daño de este ataque no se ve afectado por Debilidad o Resistencia.",
-				it: "I danni di questo attacco non sono influenzati dalla debolezza o dalla resistenza.",
-				pt: "O dano deste ataque não é afetado por Fraqueza ou Resistência.",
-				de: "Der Schaden dieser Attacke wird durch Schwäche und Resistenz nicht verändert."
+				'en-us': "This attack's damage isn't affected by Weakness or Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				'es-es': "El daño de este ataque no se ve afectado por Debilidad o Resistencia.",
+				'it-it': "I danni di questo attacco non sono influenzati dalla debolezza o dalla resistenza.",
+				'pt-br': "O dano deste ataque não é afetado por Fraqueza ou Resistência.",
+				'de-de': "Der Schaden dieser Attacke wird durch Schwäche und Resistenz nicht verändert."
 			},
 			damage: 40,
 
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic",
-				fr: "Psyko",
-				es: "Psíquico",
-				it: "Psichico",
-				pt: "Psíquico",
-				de: "Psychokinese"
+				'en-us': "Psychic",
+				'fr-fr': "Psyko",
+				'es-es': "Psíquico",
+				'it-it': "Psichico",
+				'pt-br': "Psíquico",
+				'de-de': "Psychokinese"
 			},
 			effect: {
-				en: "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.",
-				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
-				es: "Este ataque hace 20 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
-				it: "Questo attacco infligge 20 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Este ataque causa 20 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",
-				de: "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 20 Schadenspunkte mehr zu."
+				'en-us': "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
+				'es-es': "Este ataque hace 20 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
+				'it-it': "Questo attacco infligge 20 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Este ataque causa 20 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",
+				'de-de': "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 20 Schadenspunkte mehr zu."
 			},
 			damage: "60+",
 
@@ -94,7 +94,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Through yoga training, it gained the psychic power to predict its foe's next move."
+		'en-us': "Through yoga training, it gained the psychic power to predict its foe's next move."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Ledian",
-		de: "Ledian"
+		'en-us': "Ledian",
+		'de-de': "Ledian"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ledyba",
+		'en-us': "Ledyba",
 	},
 
 	stage: "Stage1",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pollen Shield",
-				de: "Pollenschild"
+				'en-us': "Pollen Shield",
+				'de-de': "Pollenschild"
 			},
 			effect: {
-				en: "During your opponent's next turn, Ledian can't become affected by a Special Condition. (Any other effects of attacks, Poké-Powers, Poké-Bodies, and Trainer cards still happen.)",
-				de: "Während des nächsten gegnerischen Zugs kann Ledian nicht von speziellen Zuständen betroffen werden. (Alle anderen Effekte von Angriffen, Poke-Powers, Poke-Bodies und Trainerkarten finden immer noch statt.)"
+				'en-us': "During your opponent's next turn, Ledian can't become affected by a Special Condition. (Any other effects of attacks, Poké-Powers, Poké-Bodies, and Trainer cards still happen.)",
+				'de-de': "Während des nächsten gegnerischen Zugs kann Ledian nicht von speziellen Zuständen betroffen werden. (Alle anderen Effekte von Angriffen, Poke-Powers, Poke-Bodies und Trainerkarten finden immer noch statt.)"
 			},
 			damage: 10,
 
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swift",
-				de: "Sternschauer"
+				'en-us': "Swift",
+				'de-de': "Sternschauer"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				de: "Die Schadenspunkte dieses Angriffs werden nicht durch Schwäche, Resistenz, Poke-Powers, Poke-Bodies oder andere das verteidigende Pokémon betreffende Effekte beeinflusst."
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'de-de': "Die Schadenspunkte dieses Angriffs werden nicht durch Schwäche, Resistenz, Poke-Powers, Poke-Bodies oder andere das verteidigende Pokémon betreffende Effekte beeinflusst."
 			},
 			damage: 50,
 

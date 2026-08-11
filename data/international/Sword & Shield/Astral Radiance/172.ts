@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Machamp V",
-		fr: "Mackogneur V",
-		es: "Machamp V",
-		it: "Machamp V",
-		pt: "Machamp V",
-		de: "Machomei V"
+		'en-us': "Machamp V",
+		'fr-fr': "Mackogneur V",
+		'es-es': "Machamp V",
+		'it-it': "Machamp V",
+		'pt-br': "Machamp V",
+		'de-de': "Machomei V"
 	},
 
 	illustrator: "Shinya Komatsu",
@@ -26,21 +26,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Revenge Buster",
-			fr: "Buster Vengeur",
-			es: "Venganza Destructora",
-			it: "Vendetta Distruttiva",
-			pt: "Vingança Aniquiladora",
-			de: "Vergeltungsschlag"
+			'en-us': "Revenge Buster",
+			'fr-fr': "Buster Vengeur",
+			'es-es': "Venganza Destructora",
+			'it-it': "Vendetta Distruttiva",
+			'pt-br': "Vingança Aniquiladora",
+			'de-de': "Vergeltungsschlag"
 		},
 
 		effect: {
-			en: "If your Benched Pokémon have any damage counters on them, this attack does 50 more damage.",
-			fr: "Si au moins un marqueur de dégâts est placé sur vos Pokémon de Banc, cette attaque inflige 50 dégâts supplémentaires.",
-			es: "Si tus Pokémon en Banca tienen algún contador de daño sobre ellos, este ataque hace 50 puntos de daño más.",
-			it: "Se i tuoi Pokémon in panchina hanno dei segnalini danno, questo attacco infligge 50 danni in più.",
-			pt: "Se os seus Pokémon no Banco tiverem algum contador de dano neles, este ataque causará 50 pontos de dano a mais.",
-			de: "Wenn auf den Pokémon auf deiner Bank mindestens 1 Schadensmarke liegt, fügt diese Attacke 50 Schadenspunkte mehr zu."
+			'en-us': "If your Benched Pokémon have any damage counters on them, this attack does 50 more damage.",
+			'fr-fr': "Si au moins un marqueur de dégâts est placé sur vos Pokémon de Banc, cette attaque inflige 50 dégâts supplémentaires.",
+			'es-es': "Si tus Pokémon en Banca tienen algún contador de daño sobre ellos, este ataque hace 50 puntos de daño más.",
+			'it-it': "Se i tuoi Pokémon in panchina hanno dei segnalini danno, questo attacco infligge 50 danni in più.",
+			'pt-br': "Se os seus Pokémon no Banco tiverem algum contador de dano neles, este ataque causará 50 pontos de dano a mais.",
+			'de-de': "Wenn auf den Pokémon auf deiner Bank mindestens 1 Schadensmarke liegt, fügt diese Attacke 50 Schadenspunkte mehr zu."
 		},
 
 		damage: "50+"
@@ -48,12 +48,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Seismic Toss",
-			fr: "Frappe Atlas",
-			es: "Sísmico",
-			it: "Movimento Sismico",
-			pt: "Arremesso Sísmico",
-			de: "Geowurf"
+			'en-us': "Seismic Toss",
+			'fr-fr': "Frappe Atlas",
+			'es-es': "Sísmico",
+			'it-it': "Movimento Sismico",
+			'pt-br': "Arremesso Sísmico",
+			'de-de': "Geowurf"
 		},
 
 		damage: 140

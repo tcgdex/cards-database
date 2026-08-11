@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sneasel",
-		fr: "Farfuret",
-		de: "Sniebel",
-		it: "Sneasel",
-		es: "Sneasel",
-		pt: "Sneasel"
+		'en-us': "Sneasel",
+		'fr-fr': "Farfuret",
+		'de-de': "Sniebel",
+		'it-it': "Sneasel",
+		'es-es': "Sneasel",
+		'pt-br': "Sneasel"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Dig Claws",
-			fr: "Creusogriffes",
-			de: "Schaufelkrallen",
-			it: "Scavazanne",
-			es: "Hundir Garras",
-			pt: "Fincar Garras"
+			'en-us': "Dig Claws",
+			'fr-fr': "Creusogriffes",
+			'de-de': "Schaufelkrallen",
+			'it-it': "Scavazanne",
+			'es-es': "Hundir Garras",
+			'pt-br': "Fincar Garras"
 		},
 
 		damage: 10
@@ -38,12 +38,12 @@ const card: Card = {
 		cost: ["Darkness", "Darkness"],
 
 		name: {
-			en: "Scratch",
-			fr: "Griffe",
-			de: "Kratzer",
-			it: "Graffio",
-			es: "Arañazo",
-			pt: "Arranhão"
+			'en-us': "Scratch",
+			'fr-fr': "Griffe",
+			'de-de': "Kratzer",
+			'it-it': "Graffio",
+			'es-es': "Arañazo",
+			'pt-br': "Arranhão"
 		},
 
 		damage: 30

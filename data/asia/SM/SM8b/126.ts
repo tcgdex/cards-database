@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フェアリーチャーム UB",
+		'ja-jp': "フェアリーチャーム UB",
 	},
 
 	illustrator: "Toyste Beach",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけているポケモンは、相手の「ウルトラビースト」の「ポケモンGX・EX」からワザのダメージを受けない。",
+		'ja-jp': "このカードをつけているポケモンは、相手の「ウルトラビースト」の「ポケモンGX・EX」からワザのダメージを受けない。",
 	},
 
 	variants: [

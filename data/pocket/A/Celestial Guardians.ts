@@ -1,17 +1,17 @@
-import { Set } from '../../interfaces'
-import serie from '../Pokémon TCG Pocket'
+import { Set } from 'models/database/set'
+import serie from '../A'
 
 const set: Set = {
 	id: "A3",
 
 	name: {
-		de: "Hüter des Firmaments",
-		en: "Celestial Guardians",
-		es: "Guardianes Celestiales",
-		fr: "Gardiens Astraux",
-		it: "Guardiani Astrali",
+		'de-de': "Hüter des Firmaments",
+		'en-us': "Celestial Guardians",
+		'es-es': "Guardianes Celestiales",
+		'fr-fr': "Gardiens Astraux",
+		'it-it': "Guardiani Astrali",
 		'pt-br': "Guardiões Celestiais",
-		ko: '쌍천의 수호자'
+		'ko-kr': '쌍천의 수호자'
 	},
 
 	serie: serie,
@@ -23,24 +23,24 @@ const set: Set = {
 	boosters: {
 		solgaleo: {
 			name: {
-				de: "Solgaleo",
-				en: 'Solgaleo',
-				fr: 'Solgaleo',
-				es: 'Solgaleo',
-				it: 'Solgaleo',
+				'de-de': "Solgaleo",
+				'en-us': 'Solgaleo',
+				'fr-fr': 'Solgaleo',
+				'es-es': 'Solgaleo',
+				'it-it': 'Solgaleo',
 				'pt-br': 'Solgaleo',
-				ko: '솔가레오'
+				'ko-kr': '솔가레오'
 			}
 		},
 		lunala: {
 			name: {
-				de: "Lunala",
-				en: 'Lunala',
-				fr: 'Lunala',
-				es: 'Lunala',
-				it: 'Lunala',
+				'de-de': "Lunala",
+				'en-us': 'Lunala',
+				'fr-fr': 'Lunala',
+				'es-es': 'Lunala',
+				'it-it': 'Lunala',
 				'pt-br': 'Lunala',
-				ko: '루나아라'
+				'ko-kr': '루나아라'
 			}
 		}
 	},

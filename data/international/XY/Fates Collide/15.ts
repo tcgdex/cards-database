@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Seel",
-		fr: "Otaria",
-		es: "Seel",
-		it: "Seel",
-		pt: "Seel",
-		de: "Jurob"
+		'en-us': "Seel",
+		'fr-fr': "Otaria",
+		'es-es': "Seel",
+		'it-it': "Seel",
+		'pt-br': "Seel",
+		'de-de': "Jurob"
 	},
 
 	illustrator: "Hasuno",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Icy Snow",
-				fr: "Verglas",
-				es: "Nieve Helada",
-				it: "Geloneve",
-				pt: "Neve Congelada",
-				de: "Eisiger Schnee"
+				'en-us': "Icy Snow",
+				'fr-fr': "Verglas",
+				'es-es': "Nieve Helada",
+				'it-it': "Geloneve",
+				'pt-br': "Neve Congelada",
+				'de-de': "Eisiger Schnee"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Covered with light blue fur, its hide is thick and tough. It is active in bitter cold of -40 degrees Fahrenheit.",
+		'en-us': "Covered with light blue fur, its hide is thick and tough. It is active in bitter cold of -40 degrees Fahrenheit.",
 	},
 
 	thirdParty: {

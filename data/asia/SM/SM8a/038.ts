@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナットレイ",
+		'ja-jp': "ナットレイ",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "洞穴の 天井に はりつき 下を 通る 獲物に 向かって 鉄の トゲを 打ちこみ 襲う。",
+		'ja-jp': "洞穴の 天井に はりつき 下を 通る 獲物に 向かって 鉄の トゲを 打ちこみ 襲う。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Metal"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン1匹にも、このポケモンについている[鋼]エネルギーの数x20ダメージ。ベンチへのダメージは[鋼]エネルギー5個ぶんまで。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹にも、このポケモンについている[鋼]エネルギーの数x20ダメージ。ベンチへのダメージは[鋼]エネルギー5個ぶんまで。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "テッシード",
+		'ja-jp': "テッシード",
 	},
 
 	retreat: 3,

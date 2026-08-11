@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Grimer",
-		fr: "Tadmorv",
-		es: "Grimer",
-		it: "Grimer",
-		pt: "Grimer",
-		de: "Sleima"
+		'en-us': "Grimer",
+		'fr-fr': "Tadmorv",
+		'es-es': "Grimer",
+		'it-it': "Grimer",
+		'pt-br': "Grimer",
+		'de-de': "Sleima"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nasty Goo",
-				fr: "Glu Fétide",
+				'en-us': "Nasty Goo",
+				'fr-fr': "Glu Fétide",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 20,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It was born when sludge in a dirty stream was exposed to the moon's X-rays. It appears among filth.",
+		'en-us': "It was born when sludge in a dirty stream was exposed to the moon's X-rays. It appears among filth.",
 	},
 
 	thirdParty: {

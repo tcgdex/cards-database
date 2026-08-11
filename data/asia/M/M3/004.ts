@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ツタージャ",
+		'ja-jp': "ツタージャ",
 	},
 
 	illustrator: "Narumi Sato",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "群れることを 好まない 性質。 短い 腕の 代わりに ツルを 器用に 操り 暮らしている。",
+		'ja-jp': "群れることを 好まない 性質。 短い 腕の 代わりに ツルを 器用に 操り 暮らしている。",
 	},
 
 	stage: "Basic",

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オクタン",
+		'ja-jp': "オクタン",
 	},
 
 	illustrator: "Shinya Komatsu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "頑丈な 石頭。 吸盤つきの 脚を 絡ませ ひたすら 頭で 打ちすえる。",
+		'ja-jp': "頑丈な 石頭。 吸盤つきの 脚を 絡ませ ひたすら 頭で 打ちすえる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "れんげきサーチ" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札から「れんげき」のカードを1枚選び、相手に見せて、手札に加える。そして山札を切る。この番、すでに別の「れんげきサーチ」を使っていたなら、この特性は使えない。",
+				'ja-jp': "自分の番に1回使える。自分の山札から「れんげき」のカードを1枚選び、相手に見せて、手札に加える。そして山札を切る。この番、すでに別の「れんげきサーチ」を使っていたなら、この特性は使えない。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "テッポウオ",
+		'ja-jp': "テッポウオ",
 	},
 
 	retreat: 2,

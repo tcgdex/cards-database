@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Murkrow",
-		fr: "Cornèbre",
-		es: "Murkrow",
-		it: "Murkrow",
-		pt: "Murkrow",
-		de: "Kramurx"
+		'en-us': "Murkrow",
+		'fr-fr': "Cornèbre",
+		'es-es': "Murkrow",
+		'it-it': "Murkrow",
+		'pt-br': "Murkrow",
+		'de-de': "Kramurx"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
 			},
 
 			damage: 10,
@@ -47,8 +47,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-Aile",
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-Aile",
 			},
 
 			damage: 20,
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If spotted, it will lure an unwary person into chasing it, then lose the pursuer on mountain trails.",
+		'en-us': "If spotted, it will lure an unwary person into chasing it, then lose the pursuer on mountain trails.",
 	},
 
 	thirdParty: {

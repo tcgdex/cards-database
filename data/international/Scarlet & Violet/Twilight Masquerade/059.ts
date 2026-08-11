@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Finizen",
-		fr: "Dofin",
-		es: "Finizen",
-		it: "Finizen",
-		pt: "Finizen",
-		de: "Normifin"
+		'en-us': "Finizen",
+		'fr-fr': "Dofin",
+		'es-es': "Finizen",
+		'it-it': "Finizen",
+		'pt-br': "Finizen",
+		'de-de': "Normifin"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Aqua Slash",
-			fr: "Aqua Slash",
-			es: "Cuchillada Acuática",
-			it: "Idrosquarcio",
-			pt: "Aqua Corte",
-			de: "Aquaschlag"
+			'en-us': "Aqua Slash",
+			'fr-fr': "Aqua Slash",
+			'es-es': "Cuchillada Acuática",
+			'it-it': "Idrosquarcio",
+			'pt-br': "Aqua Corte",
+			'de-de': "Aquaschlag"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 30
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Its water ring is made from seawater mixed with a sticky fluid that Finizen secretes from its blowhole.",
+		'en-us': "Its water ring is made from seawater mixed with a sticky fluid that Finizen secretes from its blowhole.",
 	},
 
 	variants: [

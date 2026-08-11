@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤンチャム",
+		'ja-jp': "ヤンチャム",
 	},
 
 	illustrator: "Yuka Morii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "咥えている 葉っぱに 意味は なく ただの かっこつけ。 やんちゃなので 素人トレーナーには 向かない。",
+		'ja-jp': "咥えている 葉っぱに 意味は なく ただの かっこつけ。 やんちゃなので 素人トレーナーには 向かない。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。オモテなら、相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。オモテなら、相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 	],

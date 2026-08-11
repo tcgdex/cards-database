@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [90],
 
 	name: {
-		en: "Shellder"
+		'en-us': "Shellder"
 	},
 
 	illustrator: "whomor Inc.",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It is encased in a shell that is harder than diamond.\nInside, however, it is surprisingly tender."
+		'en-us': "It is encased in a shell that is harder than diamond.\nInside, however, it is surprisingly tender."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Tackle"
+			'en-us': "Tackle"
 		},
 
 		damage: 10,

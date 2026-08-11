@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../XY'
 
 const xy0: Set = {
 	id: "xy0",
 
 	name: {
-		en: "Kalos Starter Set",
-		fr: "Bienvenue à Kalos",
-		it: "Benvenuti a Kalos",
-		de: "Willkommen in Kalos",
-		pt: "Conjunto para Iniciantes Kalos",
+		'en-us': "Kalos Starter Set",
+		'fr-fr': "Bienvenue à Kalos",
+		'it-it': "Benvenuti a Kalos",
+		'de-de': "Willkommen in Kalos",
+		'pt-br': "Conjunto para Iniciantes Kalos",
 		ru: 'Стартовый Набор Калоса'
 	},
 
@@ -24,7 +24,7 @@ const xy0: Set = {
 
 	abbreviations: {
 		official: "KSS",
-		fr: "BAK"
+		'fr-fr': "BAK"
 	},
 
 	thirdParty: {

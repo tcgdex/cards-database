@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Meditite",
-		fr: "Méditikka",
-		es: "Meditite",
-		it: "Meditite",
-		pt: "Meditite",
-		de: "Meditie"
+		'en-us': "Meditite",
+		'fr-fr': "Méditikka",
+		'es-es': "Meditite",
+		'it-it': "Meditite",
+		'pt-br': "Meditite",
+		'de-de': "Meditie"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Feint",
-			fr: "Ruse",
-			es: "Amago",
-			it: "Fintoattacco",
-			pt: "Fintar",
-			de: "Offenlegung"
+			'en-us': "Feint",
+			'fr-fr': "Ruse",
+			'es-es': "Amago",
+			'it-it': "Fintoattacco",
+			'pt-br': "Fintar",
+			'de-de': "Offenlegung"
 		},
 
 		effect: {
-			en: "This attack's damage isn't affected by Resistance.",
-			fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-			es: "El daño de este ataque no se ve afectado por Resistencia.",
-			it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-			pt: "O dano deste ataque não é afetado por Resistência.",
-			de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+			'en-us': "This attack's damage isn't affected by Resistance.",
+			'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+			'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+			'it-it': "I danni di questo attacco non sono influenzati dalla resistenza.",
+			'pt-br': "O dano deste ataque não é afetado por Resistência.",
+			'de-de': "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
 		},
 
 		damage: 10
@@ -63,7 +63,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It never skips its daily yoga training. It heightens its inner strength through meditation.",
+		'en-us': "It never skips its daily yoga training. It heightens its inner strength through meditation.",
 	},
 
 	thirdParty: {

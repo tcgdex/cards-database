@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit 2 (Minun).ts'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charmander",
-		fr: "Salamèche"
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche"
 	},
 
 	illustrator: "Midori Harada",
@@ -26,8 +26,8 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'boule"
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'boule"
 		},
 		damage: 10
 	}, {
@@ -36,8 +36,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Slash",
-			fr: "Tranche"
+			'en-us': "Slash",
+			'fr-fr': "Tranche"
 		},
 		damage: 20
 	}],

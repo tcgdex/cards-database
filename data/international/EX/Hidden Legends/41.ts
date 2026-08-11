@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Machoke",
-		fr: "Machopeur",
-		de: "Maschock"
+		'en-us': "Machoke",
+		'fr-fr': "Machopeur",
+		'de-de': "Maschock"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Machop",
-		fr: "Machoc"
+		'en-us': "Machop",
+		'fr-fr': "Machoc"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Strikes Back",
-				fr: "Contre-attaque",
-				de: "Strikes Back"
+				'en-us': "Strikes Back",
+				'fr-fr': "Contre-attaque",
+				'de-de': "Strikes Back"
 			},
 			effect: {
-				en: "If Machoke is your Active Pokémon and is damaged by an opponent's attack (even if Machoke is Knocked Out), put 1 damage counter on the Attacking Pokémon.",
-				fr: "Si Machopeur est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Machopeur est mis K.O), placez 1 marqueur de dégât sur le Pokémon Attaquant.",
-				de: "If Machoke is your Active Pokémon and is damaged by an opponent's attack (even if Machoke is Knocked Out), put 1 damage counter on the Attacking Pokémon."
+				'en-us': "If Machoke is your Active Pokémon and is damaged by an opponent's attack (even if Machoke is Knocked Out), put 1 damage counter on the Attacking Pokémon.",
+				'fr-fr': "Si Machopeur est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Machopeur est mis K.O), placez 1 marqueur de dégât sur le Pokémon Attaquant.",
+				'de-de': "If Machoke is your Active Pokémon and is damaged by an opponent's attack (even if Machoke is Knocked Out), put 1 damage counter on the Attacking Pokémon."
 			}
 		},
 	],
@@ -51,9 +51,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage",
-				de: "Low Kick"
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage",
+				'de-de': "Low Kick"
 			},
 
 			damage: 30,

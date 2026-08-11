@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Salazzle",
-		fr: "Malamandre",
-		es: "Salazzle",
-		it: "Salazzle",
-		pt: "Salazzle",
-		de: "Amfira"
+		'en-us': "Salazzle",
+		'fr-fr': "Malamandre",
+		'es-es': "Salazzle",
+		'it-it': "Salazzle",
+		'pt-br': "Salazzle",
+		'de-de': "Amfira"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Salandit",
-		fr: "Tritox",
+		'en-us': "Salandit",
+		'fr-fr': "Tritox",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Smack",
-				fr: "Claque",
-				es: "Palmetazo",
-				it: "Schiaffo",
-				pt: "Estalo",
-				de: "Klatscher"
+				'en-us': "Smack",
+				'fr-fr': "Claque",
+				'es-es': "Palmetazo",
+				'it-it': "Schiaffo",
+				'pt-br': "Estalo",
+				'de-de': "Klatscher"
 			},
 
 			damage: 40,
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slashing Claw",
-				fr: "Griffe Taillante",
-				es: "Garra Cuchillazo",
-				it: "Artigli Laceranti",
-				pt: "Garra Cortadora",
-				de: "Schlitzende Klaue"
+				'en-us': "Slashing Claw",
+				'fr-fr': "Griffe Taillante",
+				'es-es': "Garra Cuchillazo",
+				'it-it': "Artigli Laceranti",
+				'pt-br': "Garra Cortadora",
+				'de-de': "Schlitzende Klaue"
 			},
 
 			damage: 90,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Salazzle lives deep in caves and forces the Salandit it has attracted with its pheromones to serve it.",
+		'en-us': "Salazzle lives deep in caves and forces the Salandit it has attracted with its pheromones to serve it.",
 	},
 
 	thirdParty: {

@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キュウコンex",
+		'ja-jp': "キュウコンex",
 		'zh-tw': "九尾ex",
-		th: "คิวคอนex",
-		id: "Ninetales ex",
+		'th-th': "คิวคอนex",
+		'id-id': "Ninetales ex",
 	},
 
 	illustrator: "kawayoo",
@@ -20,34 +20,34 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ねっぷう",
+				'ja-jp': "ねっぷう",
 				'zh-tw': "熱風",
-				th: "คลื่นความร้อน",
-				id: "Angin Panas",
+				'th-th': "คลื่นความร้อน",
+				'id-id': "Angin Panas",
 			},
 			damage: 30,
 			cost: ["Fire"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【灼傷】。",
-				th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ไหม้]",
-				id: "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar.",
+				'th-th': "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ไหม้]",
+				'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar.",
 			},
 		},
 		{
 			name: {
-				ja: "うつしほむら",
+				'ja-jp': "うつしほむら",
 				'zh-tw': "現形熾火",
-				th: "เปลวไฟสะท้อน",
-				id: "Kobaran Api Refleksi",
+				'th-th': "เปลวไฟสะท้อน",
+				'id-id': "Kobaran Api Refleksi",
 			},
 			damage: "80+",
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "自分の手札と相手の手札が同じ枚数なら、140ダメージ追加。",
+				'ja-jp': "自分の手札と相手の手札が同じ枚数なら、140ダメージ追加。",
 				'zh-tw': "若自己的手牌與對手的手牌張數相同，則增加140點傷害。",
-				th: "ถ้าจำนวนการ์ดบนมือฝ่ายเราเท่ากับจำนวนการ์ดบนมือฝ่ายตรงข้าม การโจมตีนี้จะเพิ่มแดเมจอีก 140",
-				id: "Jika jumlah Kartu Pegangan sendiri dan jumlah Kartu Pegangan lawan sama, kerusakan yang diberikan bertambah sejumlah 140.",
+				'th-th': "ถ้าจำนวนการ์ดบนมือฝ่ายเราเท่ากับจำนวนการ์ดบนมือฝ่ายตรงข้าม การโจมตีนี้จะเพิ่มแดเมจอีก 140",
+				'id-id': "Jika jumlah Kartu Pegangan sendiri dan jumlah Kartu Pegangan lawan sama, kerusakan yang diberikan bertambah sejumlah 140.",
 			},
 		},
 	],
@@ -65,7 +65,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ロコン",
+		'ja-jp': "ロコン",
 	},
 
 	retreat: 2,

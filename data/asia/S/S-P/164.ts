@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミツバ",
+		'ja-jp': "ミツバ",
 	},
 
 	illustrator: "Ryuta Fuse",
 	category: "Trainer",
 
 	effect: {
-		ja: "相手のベンチの「ポケモンV」の数ぶん、自分の山札を引く。",
+		'ja-jp': "相手のベンチの「ポケモンV」の数ぶん、自分の山札を引く。",
 	},
 
 	variants: [

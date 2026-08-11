@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スイレン",
+		'ja-jp': "スイレン",
 	},
 
 	illustrator: "Ken Sugimori",
 	category: "Trainer",
 
 	effect: {
-		ja: "[水]エネルギーがついている自分のポケモン全員のHPを、それぞれ「50」回復する。",
+		'ja-jp': "[水]エネルギーがついている自分のポケモン全員のHPを、それぞれ「50」回復する。",
 	},
 
 	variants: [

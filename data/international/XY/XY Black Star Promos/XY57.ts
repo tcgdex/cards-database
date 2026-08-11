@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Fearow",
-		fr: "Rapasdepic",
+		'en-us': "Fearow",
+		'fr-fr': "Rapasdepic",
 	},
 
 	illustrator: "match",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spearow",
-		fr: "Piafabec",
+		'en-us': "Spearow",
+		'fr-fr': "Piafabec",
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Repeating Drill",
-				fr: "Multivrille"
+				'en-us': "Repeating Drill",
+				'fr-fr': "Multivrille"
 			},
 			effect: {
-				en: "Flip 5 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 5 pièces. Cette attaque inflige 20 dégâts multiplié par le nombre de côtés face."
+				'en-us': "Flip 5 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 5 pièces. Cette attaque inflige 20 dégâts multiplié par le nombre de côtés face."
 			},
 			damage: "20×",
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nosedive",
-				fr: "Descente en Piqué"
+				'en-us': "Nosedive",
+				'fr-fr': "Descente en Piqué"
 			},
 			effect: {
-				en: "This Pokémon does 20 damage to itself.",
-				fr: "Ce Pokémon s'inflige 20 dégâts."
+				'en-us': "This Pokémon does 20 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 20 dégâts."
 			},
 			damage: 80,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has the stamina to fly all day on its broad wings. It fights by using its sharp beak.",
+		'en-us': "It has the stamina to fly all day on its broad wings. It fights by using its sharp beak.",
 	},
 
 	thirdParty: {

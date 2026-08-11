@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Sonistrelle",
-		en: "Noibat",
-		es: "Noibat",
-		it: "Noibat",
-		pt: "Noibat",
-		de: "eF-eM"
+		'fr-fr': "Sonistrelle",
+		'en-us': "Noibat",
+		'es-es': "Noibat",
+		'it-it': "Noibat",
+		'pt-br': "Noibat",
+		'de-de': "eF-eM"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Psychic", "Darkness"],
 
 		name: {
-			fr: "Tornade",
-			en: "Gust",
-			es: "Tornado",
-			it: "Raffica",
-			pt: "Lufada de Vento",
-			de: "Windstoß"
+			'fr-fr': "Tornade",
+			'en-us': "Gust",
+			'es-es': "Tornado",
+			'it-it': "Raffica",
+			'pt-br': "Lufada de Vento",
+			'de-de': "Windstoß"
 		},
 
 		damage: 40
@@ -60,7 +60,7 @@ const card: Card = {
 	illustrator: "chibi",
 
 	description: {
-		en: "This Pokémon emits ultrasonic waves from its large ears to search for fruit to eat. It mistakes Applin for its food.",
+		'en-us': "This Pokémon emits ultrasonic waves from its large ears to search for fruit to eat. It mistakes Applin for its food.",
 	},
 }
 

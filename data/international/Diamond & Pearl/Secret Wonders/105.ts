@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Shellder",
-		fr: "Kokiyas",
-		de: "Muschas"
+		'en-us': "Shellder",
+		'fr-fr': "Kokiyas",
+		'de-de': "Muschas"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shell Rest",
-				fr: "Repos coquillage",
-				de: "Panzerruhe"
+				'en-us': "Shell Rest",
+				'fr-fr': "Repos coquillage",
+				'de-de': "Panzerruhe"
 			},
 			effect: {
-				en: "Remove 2 damage counters from Shellder.",
-				fr: "Retirez à Kokiyas 2 marqueurs de dégât.",
-				de: "Entferne 2 Schadensmarken von Muschas."
+				'en-us': "Remove 2 damage counters from Shellder.",
+				'fr-fr': "Retirez à Kokiyas 2 marqueurs de dégât.",
+				'de-de': "Entferne 2 Schadensmarken von Muschas."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tongue Slap",
-				fr: "Gros coup de langue",
-				de: "Zungenschelle"
+				'en-us': "Tongue Slap",
+				'fr-fr': "Gros coup de langue",
+				'de-de': "Zungenschelle"
 			},
 
 			damage: 20,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It swims backwards by opening and closing its two shells. Its large tongue is always kept hanging out.",
+		'en-us': "It swims backwards by opening and closing its two shells. Its large tongue is always kept hanging out.",
 	},
 
 	thirdParty: {

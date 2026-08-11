@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Houndoom",
-		fr: "Démolosse",
-		es: "Houndoom",
-		it: "Houndoom",
-		pt: "Houndoom",
-		de: "Hundemon"
+		'en-us': "Houndoom",
+		'fr-fr': "Démolosse",
+		'es-es': "Houndoom",
+		'it-it': "Houndoom",
+		'pt-br': "Houndoom",
+		'de-de': "Hundemon"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Houndour",
-		fr: "Malosse",
+		'en-us': "Houndour",
+		'fr-fr': "Malosse",
 	},
 
 	stage: "Stage1",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Fang",
-				fr: "Crocs Feu",
-				es: "Colmillo Ígneo",
-				it: "Rogodenti",
-				pt: "Presas de Fogo",
-				de: "Feuerzahn"
+				'en-us': "Fire Fang",
+				'fr-fr': "Crocs Feu",
+				'es-es': "Colmillo Ígneo",
+				'it-it': "Rogodenti",
+				'pt-br': "Presas de Fogo",
+				'de-de': "Feuerzahn"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+				'en-us': "Your opponent’s Active Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 			},
 			damage: 30,
 
@@ -65,20 +65,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Puncturing Fangs",
-				fr: "Crocs Perçants",
-				es: "Colmillos Perforadores",
-				it: "Perforadenti",
-				pt: "Presas Perfuradoras",
-				de: "Durchstechende Zähne"
+				'en-us': "Puncturing Fangs",
+				'fr-fr': "Crocs Perçants",
+				'es-es': "Colmillos Perforadores",
+				'it-it': "Perforadenti",
+				'pt-br': "Presas Perfuradoras",
+				'de-de': "Durchstechende Zähne"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				es: "El daño de este ataque no se ve afectado por Resistencia.",
-				it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-				pt: "O dano deste ataque não é afetado por Resistência.",
-				de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+				'en-us': "This attack’s damage isn’t affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+				'it-it': "I danni di questo attacco non sono influenzati dalla resistenza.",
+				'pt-br': "O dano deste ataque não é afetado por Resistência.",
+				'de-de': "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
 			},
 			damage: 90,
 
@@ -102,7 +102,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Long ago, people imagined its eerie howls to be the call of the grim reaper.",
+		'en-us': "Long ago, people imagined its eerie howls to be the call of the grim reaper.",
 	},
 
 	thirdParty: {

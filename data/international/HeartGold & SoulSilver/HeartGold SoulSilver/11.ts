@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Shuckle",
-		fr: "Caratroc",
-		de: "Pottrott"
+		'en-us': "Shuckle",
+		'fr-fr': "Caratroc",
+		'de-de': "Pottrott"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Shell Barricade",
-				fr: "Coquille barricade",
-				de: "Panzersperre"
+				'en-us': "Shell Barricade",
+				'fr-fr': "Coquille barricade",
+				'de-de': "Panzersperre"
 			},
 			effect: {
-				en: "As long as Shuckle is on your Bench, prevent all damage done to Shuckle by attacks (both yours and your opponent's).",
-				fr: "Tant que Caratroc est sur le Banc, prévenez tous les dégâts infligés à Caratroc par des attaques (les vôtres et celles de votre adversaire).",
-				de: "Solange sich Pottrott auf deiner Bank befindet, verhindere allen Schaden, der Pottrott durch Angriffe (deine oder die deines Gegners) zugefügt würde."
+				'en-us': "As long as Shuckle is on your Bench, prevent all damage done to Shuckle by attacks (both yours and your opponent's).",
+				'fr-fr': "Tant que Caratroc est sur le Banc, prévenez tous les dégâts infligés à Caratroc par des attaques (les vôtres et celles de votre adversaire).",
+				'de-de': "Solange sich Pottrott auf deiner Bank befindet, verhindere allen Schaden, der Pottrott durch Angriffe (deine oder die deines Gegners) zugefügt würde."
 			}
 		},
 	],
@@ -46,14 +46,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Poison Jab",
-				fr: "Direct Toxik",
-				de: "Gifthieb"
+				'en-us': "Poison Jab",
+				'fr-fr': "Direct Toxik",
+				'de-de': "Gifthieb"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt vergifet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergifet."
 			},
 			damage: 30,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The berries it stores in its vase-like shell decompose and become a gooey liquid."
+		'en-us': "The berries it stores in its vase-like shell decompose and become a gooey liquid."
 	},
 
 	variants: [

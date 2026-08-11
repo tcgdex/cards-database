@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヒスイ ジュナイパーV"
+		'ja-jp': "ヒスイ ジュナイパーV"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,23 +19,23 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "やまがり"
+			'ja-jp': "やまがり"
 		},
 
 		effect: {
-			ja: "自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。"
+			'ja-jp': "自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。"
 		}
 	}, {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			ja: "きんせつしゃげき"
+			'ja-jp': "きんせつしゃげき"
 		},
 
 		damage: 100,
 
 		effect: {
-			ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。"
+			'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。"
 		}
 	}],
 

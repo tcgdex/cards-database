@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケルディオ",
+		'ja-jp': "ケルディオ",
 		'zh-tw': "凱路迪歐",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "覚悟を 決めることで 全身に 力が みなぎって 素早くなり 飛び跳ねると 残像が みえる。",
+		'ja-jp': "覚悟を 決めることで 全身に 力が みなぎって 素早くなり 飛び跳ねると 残像が みえる。",
 		'zh-tw': "透過下定決心來讓全身充滿力量並變得敏捷。當跳躍起來的時候能看到殘影。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "けとばす",
+				'ja-jp': "けとばす",
 				'zh-tw': "踢飛",
 			},
 			damage: 20,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ラインフォース",
+				'ja-jp': "ラインフォース",
 				'zh-tw': "隊列之力",
 			},
 			damage: "10+",
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "自分のベンチポケモンの数×20ダメージ追加。",
+				'ja-jp': "自分のベンチポケモンの数×20ダメージ追加。",
 				'zh-tw': "增加自己的備戰寶可夢的數量×20點傷害。",
 			},
 		},

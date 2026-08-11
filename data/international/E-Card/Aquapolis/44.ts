@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Zapdos",
-		fr: "Electhor",
-		de: "Zapdos"
+		'en-us': "Zapdos",
+		'fr-fr': "Electhor",
+		'de-de': "Zapdos"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Anti-Lightning",
-				fr: "Anti-éclair",
-				de: "Anti-Blitz"
+				'en-us': "Anti-Lightning",
+				'fr-fr': "Anti-éclair",
+				'de-de': "Anti-Blitz"
 			},
 			effect: {
-				en: "You can't attach Lightning Energy cards from your hand to Zapdos.",
-				fr: "Vous ne pouvez pas attacher de cartes Énergie  depuis votre main à Electhor.",
-				de: "Du kannst keine  - Energiekarte aus deiner Hand an Zapdos anlegen."
+				'en-us': "You can't attach Lightning Energy cards from your hand to Zapdos.",
+				'fr-fr': "Vous ne pouvez pas attacher de cartes Énergie  depuis votre main à Electhor.",
+				'de-de': "Du kannst keine  - Energiekarte aus deiner Hand an Zapdos anlegen."
 			}
 		},
 	],
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Plasma",
-				fr: "Plasma",
-				de: "Plasma"
+				'en-us': "Plasma",
+				'fr-fr': "Plasma",
+				'de-de': "Plasma"
 			},
 			effect: {
-				en: "If there are any Lightning Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Zapdos.",
-				fr: "Si vous avez des cartes Énergie  dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Electhor.",
-				de: "Wenn mindestens eine  - Energiekarte in deinem Ablagestapel ist, wirf eine Münze. Lege bei \"Kopf\" 1 davon an Zapdos an."
+				'en-us': "If there are any Lightning Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Zapdos.",
+				'fr-fr': "Si vous avez des cartes Énergie  dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Electhor.",
+				'de-de': "Wenn mindestens eine  - Energiekarte in deinem Ablagestapel ist, wirf eine Münze. Lege bei \"Kopf\" 1 davon an Zapdos an."
 			},
 			damage: 10,
 
@@ -65,14 +65,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lightning Storm",
-				fr: "Orage d'éclairs",
-				de: "Blitzsturm"
+				'en-us': "Lightning Storm",
+				'fr-fr': "Orage d'éclairs",
+				'de-de': "Blitzsturm"
 			},
 			effect: {
-				en: "Flip a coin. If tails, put 2 damage counters on Zapdos.",
-				fr: "Lancez une pièce. Si c'est face, placez 2 marqueurs de dégâts sur Electhor.",
-				de: "Wirf eine Münze. Lege bei \"Zahl\" 2 Schadensmarken auf Zapdos."
+				'en-us': "Flip a coin. If tails, put 2 damage counters on Zapdos.",
+				'fr-fr': "Lancez une pièce. Si c'est face, placez 2 marqueurs de dégâts sur Electhor.",
+				'de-de': "Wirf eine Münze. Lege bei \"Zahl\" 2 Schadensmarken auf Zapdos."
 			},
 			damage: 60,
 

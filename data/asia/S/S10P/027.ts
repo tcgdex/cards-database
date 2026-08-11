@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トゲチック",
+		'ja-jp': "トゲチック",
 		'zh-tw': "波克基古",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "心優しい 人の 前に 幸せを もたらすため 姿を 現すと 言われている。",
+		'ja-jp': "心優しい 人の 前に 幸せを もたらすため 姿を 現すと 言われている。",
 		'zh-tw': "據說牠會為了將幸福帶給心地善良 的人而現身。",
 	},
 
@@ -24,11 +24,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "しあわせボイス",
+				'ja-jp': "しあわせボイス",
 				'zh-tw': "幸福之聲",
 			},
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のバトルポケモンのHPを「30」回復する。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のバトルポケモンのHPを「30」回復する。",
 				'zh-tw': "在自己的回合，當從手牌使出這張卡並完成進化時，可使用1次。將自己的戰鬥寶可夢恢復「30」HP。",
 			},
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ようせいのかぜ",
+				'ja-jp': "ようせいのかぜ",
 				'zh-tw': "妖精之風",
 			},
 			damage: 30,
@@ -59,7 +59,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "トゲピー",
+		'ja-jp': "トゲピー",
 	},
 
 	retreat: 1,

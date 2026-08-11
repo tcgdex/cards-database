@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Ledyba",
-		fr: "Coxy",
-		es: "Ledyba",
-		it: "Ledyba",
-		pt: "Ledyba",
-		de: "Ledyba"
+		'en-us': "Ledyba",
+		'fr-fr': "Coxy",
+		'es-es': "Ledyba",
+		'it-it': "Ledyba",
+		'pt-br': "Ledyba",
+		'de-de': "Ledyba"
 	},
 
 	illustrator: "Mizue",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Spinning Attack",
-				fr: "Attaque Tournante",
-				es: "Ataque Giratorio",
-				it: "Attacco Rotante",
-				pt: "Ataque Giratório",
-				de: "Rundumangriff"
+				'en-us': "Spinning Attack",
+				'fr-fr': "Attaque Tournante",
+				'es-es': "Ataque Giratorio",
+				'it-it': "Attacco Rotante",
+				'pt-br': "Ataque Giratório",
+				'de-de': "Rundumangriff"
 			},
 
 			damage: 30,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When the weather turns cold, lots of Ledyba gather from everywhere to cluster and keep each other warm.",
+		'en-us': "When the weather turns cold, lots of Ledyba gather from everywhere to cluster and keep each other warm.",
 	},
 
 	thirdParty: {

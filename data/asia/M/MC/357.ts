@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "テツノブジン",
+		'ja-jp': "テツノブジン",
 	},
 
 	illustrator: "takuyoa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "とある 探検記の中で テツノブジンという 名で 記された 物体の 可能性が ある。",
+		'ja-jp': "とある 探検記の中で テツノブジンという 名で 記された 物体の 可能性が ある。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Psychic", "Psychic", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「しねんのやいば」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「しねんのやいば」が使えない。",
 			},
 		},
 	],

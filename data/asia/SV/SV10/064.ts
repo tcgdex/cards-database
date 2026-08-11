@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団のズバット",
+		'ja-jp': "ロケット団のズバット",
 		'zh-tw': "<火箭隊的>超音蝠",
 		'zh-cn': "<火箭隊的>超音蝠",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "陽の 当たらない 洞窟に 棲む。 朝になると 仲間で 集まり 体を 温めあいながら 寝る。",
+		'ja-jp': "陽の 当たらない 洞窟に 棲む。 朝になると 仲間で 集まり 体を 温めあいながら 寝る。",
 		'zh-tw': "棲息在陽光照射不到的洞窟裡。 到了早上就會和夥伴相聚， 一邊互相取暖一邊睡覺。",
 		'zh-cn': "棲息在陽光照射不到的洞窟裡。 到了早上就會和夥伴相聚， 一邊互相取暖一邊睡覺。",
 	},
@@ -25,13 +25,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "どくをとばす",
+				'ja-jp': "どくをとばす",
 				'zh-tw': "噴毒",
 				'zh-cn': "噴毒",
 			},
 			cost: ["Darkness"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【中毒】。",
 				'zh-cn': "將對手的戰鬥寶可夢【中毒】。",
 			},

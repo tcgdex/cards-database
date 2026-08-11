@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dartrix",
-		fr: "Efflèche"
+		'en-us': "Dartrix",
+		'fr-fr': "Efflèche"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -18,27 +18,27 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Rowlet"
+		'en-us': "Rowlet"
 	},
 
 	description: {
-		en: "This narcissistic Pokémon is a clean freak. If you\ndon't groom it diligently, it may stop listening to you.",
-		fr: "Ce Pokémon narcissique accorde énormément d'importance à la propreté. Il refuse parfois d'obéir si l'on ne prend pas grand soin de lui."
+		'en-us': "This narcissistic Pokémon is a clean freak. If you\ndon't groom it diligently, it may stop listening to you.",
+		'fr-fr': "Ce Pokémon narcissique accorde énormément d'importance à la propreté. Il refuse parfois d'obéir si l'on ne prend pas grand soin de lui."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Skill Dive",
-			fr: "Plongeon Contrôlé"
+			'en-us': "Skill Dive",
+			'fr-fr': "Plongeon Contrôlé"
 		},
 
 		cost: ["Grass"],
 
 		effect: {
-			en: "This attack does 20 damage to 1 of your opponent's Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts à l'un des Pokémon de votre adversaire."
+			'en-us': "This attack does 20 damage to 1 of your opponent's Pokémon.",
+			'fr-fr': "Cette attaque inflige 20 dégâts à l'un des Pokémon de votre adversaire."
 		}
 	}],
 

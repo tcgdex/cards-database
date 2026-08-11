@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bisharp",
-		fr: "Scalproie",
-		es: "Bisharp",
+		'en-us': "Bisharp",
+		'fr-fr': "Scalproie",
+		'es-es': "Bisharp",
 		'es-mx': "Bisharp",
-		de: "Caesurio",
-		it: "Bisharp",
-		pt: "Bisharp"
+		'de-de': "Caesurio",
+		'it-it': "Bisharp",
+		'pt-br': "Bisharp"
 	},
 
 	evolveFrom: {
-		en: "Pawniard",
-		fr: "Scalpion",
-		es: "Pawniard",
+		'en-us': "Pawniard",
+		'fr-fr': "Scalpion",
+		'es-es': "Pawniard",
 		'es-mx': "Pawniard",
-		de: "Gladiantri",
-		it: "Pawniard",
-		pt: "Pawniard",
+		'de-de': "Gladiantri",
+		'it-it': "Pawniard",
+		'pt-br': "Pawniard",
 	},
 
 	illustrator: "Scav",
@@ -36,23 +36,23 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			en: "Rapid Draw",
-			fr: "Pioche Rapide",
-			es: "Robo Rápido",
+			'en-us': "Rapid Draw",
+			'fr-fr': "Pioche Rapide",
+			'es-es': "Robo Rápido",
 			'es-mx': "Robo Rápido",
-			de: "Schnellzieher",
-			it: "Pescalesto",
-			pt: "Retirada Rápida"
+			'de-de': "Schnellzieher",
+			'it-it': "Pescalesto",
+			'pt-br': "Retirada Rápida"
 		},
 
 		effect: {
-			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
-			es: "Roba 2 cartas.",
+			'en-us': "Draw 2 cards.",
+			'fr-fr': "Piochez 2 cartes.",
+			'es-es': "Roba 2 cartas.",
 			'es-mx': "Roba 2 cartas.",
-			de: "Ziehe 2 Karten.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas."
+			'de-de': "Ziehe 2 Karten.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas."
 		},
 
 		damage: 50
@@ -74,7 +74,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Bisharp mercilessly cuts its opponents to pieces with the sharp blades covering its body. It will do anything to win.",
+		'en-us': "Bisharp mercilessly cuts its opponents to pieces with the sharp blades covering its body. It will do anything to win.",
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tandemaus",
-		fr: "Compagnol",
-		es: "Tandemaus",
-		it: "Tandemaus",
-		pt: "Tandemaus",
-		de: "Zwieps"
+		'en-us': "Tandemaus",
+		'fr-fr': "Compagnol",
+		'es-es': "Tandemaus",
+		'it-it': "Tandemaus",
+		'pt-br': "Tandemaus",
+		'de-de': "Zwieps"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Damage Rush",
-			fr: "Charge Destructrice",
-			es: "Embestida Dañina",
-			it: "Sfuriadanni",
-			pt: "Fúria Destruidora",
-			de: "Schadensrausch"
+			'en-us': "Damage Rush",
+			'fr-fr': "Charge Destructrice",
+			'es-es': "Embestida Dañina",
+			'it-it': "Sfuriadanni",
+			'pt-br': "Fúria Destruidora",
+			'de-de': "Schadensrausch"
 		},
 
 		effect: {
-			en: "Flip a coin until you get tails. This attack does 10 damage for each heads.",
-			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 10 dégâts pour chaque côté face.",
-			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 10 puntos de daño por cada cara.",
-			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 10 danni ogni volta che esce testa.",
-			pt: "Jogue uma moeda até sair coroa. Este ataque causa 10 pontos de dano para cada cara.",
-			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip a coin until you get tails. This attack does 10 damage for each heads.",
+			'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 10 dégâts pour chaque côté face.",
+			'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 10 puntos de daño por cada cara.",
+			'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 10 danni ogni volta che esce testa.",
+			'pt-br': "Jogue uma moeda até sair coroa. Este ataque causa 10 pontos de dano para cada cara.",
+			'de-de': "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "10×"
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "The pair sticks together no matter what. They split any food they find exactly in half and then eat it together.",
+		'en-us': "The pair sticks together no matter what. They split any food they find exactly in half and then eat it together.",
 	},
 
 	variants: [

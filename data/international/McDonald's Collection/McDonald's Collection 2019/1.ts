@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2019'
 
 const card: Card = {
@@ -9,25 +9,25 @@ const card: Card = {
 	dexId: [10],
 
 	description: {
-		en: "When attacked by bird Pokémon, it resists by releasing a terrifically strong odor from its antennae, but it often becomes their prey."
+		'en-us': "When attacked by bird Pokémon, it resists by releasing a terrifically strong odor from its antennae, but it often becomes their prey."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Surprise Attack"
+			'en-us': "Surprise Attack"
 		},
 
 		damage: 20,
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing."
+			'en-us': "Flip a coin. If tails, this attack does nothing."
 		}
 	}],
 
 	name: {
-		en: "Caterpie"
+		'en-us': "Caterpie"
 	},
 
 	rarity: "None",

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カブト",
+		'ja-jp': "カブト",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "古代の保護",
+				'ja-jp': "古代の保護",
 			},
 			effect: {
-				ja: "あなたのオマニテ、オマスター、カブト、カブトップス、カブトップスのそれぞれは弱点はありません。",
+				'ja-jp': "あなたのオマニテ、オマスター、カブト、カブトップス、カブトップスのそれぞれは弱点はありません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "花崗岩の頭",
+				'ja-jp': "花崗岩の頭",
 			},
 			effect: {
-				ja: "対戦相手の次のターン中、攻撃によってカブトに与えられた損害は10増加します（脱力感と抵抗を適用した後）。",
+				'ja-jp': "対戦相手の次のターン中、攻撃によってカブトに与えられた損害は10増加します（脱力感と抵抗を適用した後）。",
 			},
 			damage: 20,
 		},

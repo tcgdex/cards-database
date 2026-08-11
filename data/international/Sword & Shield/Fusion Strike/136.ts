@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Graveler",
-		fr: "Gravalanch",
-		es: "Graveler",
-		it: "Graveler",
-		pt: "Graveler",
-		de: "Georok"
+		'en-us': "Graveler",
+		'fr-fr': "Gravalanch",
+		'es-es': "Graveler",
+		'it-it': "Graveler",
+		'pt-br': "Graveler",
+		'de-de': "Georok"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Geodude",
-		fr: "Racaillou",
-		es: "Geodude",
-		it: "Geodude",
-		pt: "Geodude",
-		de: "Kleinstein"
+		'en-us': "Geodude",
+		'fr-fr': "Racaillou",
+		'es-es': "Geodude",
+		'it-it': "Geodude",
+		'pt-br': "Geodude",
+		'de-de': "Kleinstein"
 	},
 
 	stage: "Stage1",
@@ -40,19 +40,19 @@ const card: Card = {
 	illustrator: "Masakazu Fukuda",
 
 	description: {
-		en: "It travels by rolling down cliffs. If it falls into a river, it will explode with its last gasp."
+		'en-us': "It travels by rolling down cliffs. If it falls into a river, it will explode with its last gasp."
 	},
 
 	attacks: [{
 		cost: ["Fighting"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			de: "Tackle",
-			es: "Placaje",
-			pt: "Investida",
-			it: "Azione"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'de-de': "Tackle",
+			'es-es': "Placaje",
+			'pt-br': "Investida",
+			'it-it': "Azione"
 		},
 
 		damage: 30
@@ -60,12 +60,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			en: "Boulder Crush",
-			fr: "Rocher Écrasant",
-			de: "Felsenquetscher",
-			es: "Alud de Rocas",
-			pt: "Rocha Esmagadora",
-			it: "Macignata"
+			'en-us': "Boulder Crush",
+			'fr-fr': "Rocher Écrasant",
+			'de-de': "Felsenquetscher",
+			'es-es': "Alud de Rocas",
+			'pt-br': "Rocha Esmagadora",
+			'it-it': "Macignata"
 		},
 
 		damage: 70

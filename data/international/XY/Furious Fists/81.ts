@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Slakoth",
-		fr: "Parecool",
-		es: "Slakoth",
-		it: "Slakoth",
-		pt: "Slakoth",
-		de: "Bummelz"
+		'en-us': "Slakoth",
+		'fr-fr': "Parecool",
+		'es-es': "Slakoth",
+		'it-it': "Slakoth",
+		'pt-br': "Slakoth",
+		'de-de': "Bummelz"
 	},
 
 	illustrator: "Midori Harada",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Big Yawn",
-				fr: "Gros Bâillement",
-				es: "Gran Bostezo",
-				it: "Gransbadiglio",
-				pt: "Grande Bocejo",
-				de: "Großer Gähner"
+				'en-us': "Big Yawn",
+				'fr-fr': "Gros Bâillement",
+				'es-es': "Gran Bostezo",
+				'it-it': "Gransbadiglio",
+				'pt-br': "Grande Bocejo",
+				'de-de': "Großer Gähner"
 			},
 			effect: {
-				en: "Both Active Pokémon are now Asleep.",
-				fr: "Les deux Pokémon Actifs sont maintenant Endormis.",
-				es: "Ambos Pokémon Activos pasan a estar Dormidos.",
-				it: "Entrambi i Pokémon attivi vengono addormentati.",
-				pt: "Ambos os Pokémon Ativos agora estão Adormecidos.",
-				de: "Beide Aktiven Pokémon schlafen jetzt."
+				'en-us': "Both Active Pokémon are now Asleep.",
+				'fr-fr': "Les deux Pokémon Actifs sont maintenant Endormis.",
+				'es-es': "Ambos Pokémon Activos pasan a estar Dormidos.",
+				'it-it': "Entrambi i Pokémon attivi vengono addormentati.",
+				'pt-br': "Ambos os Pokémon Ativos agora estão Adormecidos.",
+				'de-de': "Beide Aktiven Pokémon schlafen jetzt."
 			},
 
 		},
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "The way Slakoth lolls around makes anyone who watches it feel like doing the same.",
+		'en-us': "The way Slakoth lolls around makes anyone who watches it feel like doing the same.",
 	},
 
 	thirdParty: {

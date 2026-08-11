@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Swoobat",
+		'en-us': "Swoobat",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Woobat",
+		'en-us': "Woobat",
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Gift",
+				'en-us': "Energy Gift",
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your deck for 2 Psychic Energy cards and attach them to your Pokémon in any way you like. Shuffle your deck afterward.",
+				'en-us': "Flip a coin. If heads, search your deck for 2 Psychic Energy cards and attach them to your Pokémon in any way you like. Shuffle your deck afterward.",
 			},
 
 		},
@@ -45,7 +45,7 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Heart Stamp",
+				'en-us': "Heart Stamp",
 			},
 
 			damage: 30,
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It shakes its tail vigorously when it emits ultrasonic waves strong enough to reduce concrete to rubble.",
+		'en-us': "It shakes its tail vigorously when it emits ultrasonic waves strong enough to reduce concrete to rubble.",
 	},
 
 	thirdParty: {

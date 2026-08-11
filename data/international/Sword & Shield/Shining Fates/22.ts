@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Mustébouée",
-		en: "Buizel",
-		es: "Buizel",
-		it: "Buizel",
-		pt: "Buizel",
-		de: "Bamelin"
+		'fr-fr': "Mustébouée",
+		'en-us': "Buizel",
+		'es-es': "Buizel",
+		'it-it': "Buizel",
+		'pt-br': "Buizel",
+		'de-de': "Bamelin"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -22,12 +22,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Pluie Éclaboussante",
-			en: "Rain Splash",
-			es: "Golpe de Lluvia",
-			it: "Spruzzapioggia",
-			pt: "Chuva Borrifante",
-			de: "Regenplatscher"
+			'fr-fr': "Pluie Éclaboussante",
+			'en-us': "Rain Splash",
+			'es-es': "Golpe de Lluvia",
+			'it-it': "Spruzzapioggia",
+			'pt-br': "Chuva Borrifante",
+			'de-de': "Regenplatscher"
 		},
 
 		damage: 20,
@@ -46,7 +46,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It inflates the flotation sac around its neck and pokes its head out of the water to see what is going on."
+		'en-us': "It inflates the flotation sac around its neck and pokes its head out of the water to see what is going on."
 	},
 
 	variants: [

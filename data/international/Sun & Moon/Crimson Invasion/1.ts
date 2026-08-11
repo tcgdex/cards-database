@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Weedle",
-		fr: "Aspicot",
-		es: "Weedle",
-		it: "Weedle",
-		pt: "Weedle",
-		de: "Hornliu"
+		'en-us': "Weedle",
+		'fr-fr': "Aspicot",
+		'es-es': "Weedle",
+		'it-it': "Weedle",
+		'pt-br': "Weedle",
+		'de-de': "Hornliu"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Sting",
-				fr: "Dard-Venin",
-				es: "Picotazo Veneno",
-				it: "Velenospina",
-				pt: "Ferrão Venenoso",
-				de: "Giftstachel"
+				'en-us': "Poison Sting",
+				'fr-fr': "Dard-Venin",
+				'es-es': "Picotazo Veneno",
+				'it-it': "Velenospina",
+				'pt-br': "Ferrão Venenoso",
+				'de-de': "Giftstachel"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+				'en-us': "Your opponent’s Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
+		'en-us': "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
 	},
 
 	thirdParty: {

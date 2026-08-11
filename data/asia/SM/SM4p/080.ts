@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラッキー",
+		'ja-jp': "ラッキー",
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ラッキーの 産む タマゴは 栄養が たっぷり つまっている。 多くの ポケモンが 大好物だ。",
+		'ja-jp': "ラッキーの 産む タマゴは 栄養が たっぷり つまっている。 多くの ポケモンが 大好物だ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "きずをなおす" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、自分のポケモン1匹のHPを「30」回復する。",
+				'ja-jp': "コインを1回投げオモテなら、自分のポケモン1匹のHPを「30」回復する。",
 			},
 		},
 		{

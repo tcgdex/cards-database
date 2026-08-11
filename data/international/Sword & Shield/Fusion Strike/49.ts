@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Centiskorch",
-		fr: "Scolocendre",
-		es: "Centiskorch",
-		it: "Centiskorch",
-		pt: "Centiskorch",
-		de: "Infernopod"
+		'en-us': "Centiskorch",
+		'fr-fr': "Scolocendre",
+		'es-es': "Centiskorch",
+		'it-it': "Centiskorch",
+		'pt-br': "Centiskorch",
+		'de-de': "Infernopod"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Sizzlipede",
-		fr: "Grillepattes",
-		es: "Sizzlipede",
-		it: "Sizzlipede",
-		pt: "Sizzlipede",
-		de: "Thermopod"
+		'en-us': "Sizzlipede",
+		'fr-fr': "Grillepattes",
+		'es-es': "Sizzlipede",
+		'it-it': "Sizzlipede",
+		'pt-br': "Sizzlipede",
+		'de-de': "Thermopod"
 	},
 
 	stage: "Stage1",
@@ -40,19 +40,19 @@ const card: Card = {
 	illustrator: "Misa Tsutsui",
 
 	description: {
-		en: "While its burning body is already dangerous on its own, this excessively hostile Pokémon also has large and very sharp fangs."
+		'en-us': "While its burning body is already dangerous on its own, this excessively hostile Pokémon also has large and very sharp fangs."
 	},
 
 	attacks: [{
 		cost: ["Fire"],
 
 		name: {
-			en: "Steady Firebreathing",
-			fr: "Crachage de Feu Régulier",
-			de: "Stetiger Feuerhauch",
-			es: "Lanzallamas Continuo",
-			pt: "Hálito de Fogo Constante",
-			it: "Soffiofuoco Mirato"
+			'en-us': "Steady Firebreathing",
+			'fr-fr': "Crachage de Feu Régulier",
+			'de-de': "Stetiger Feuerhauch",
+			'es-es': "Lanzallamas Continuo",
+			'pt-br': "Hálito de Fogo Constante",
+			'it-it': "Soffiofuoco Mirato"
 		},
 
 		damage: 30
@@ -60,12 +60,12 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Heat Blast",
-			fr: "Explosion de Chaleur",
-			de: "Hitzestoß",
-			es: "Explosión de Calor",
-			pt: "Raio de Calor",
-			it: "Caldobomba"
+			'en-us': "Heat Blast",
+			'fr-fr': "Explosion de Chaleur",
+			'de-de': "Hitzestoß",
+			'es-es': "Explosión de Calor",
+			'pt-br': "Raio de Calor",
+			'it-it': "Caldobomba"
 		},
 
 		damage: 100

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "slugma",
+		'ja-jp': "slugma",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "マグマリング",
+				'ja-jp': "マグマリング",
 			},
 			effect: {
-				ja: "防御するポケモンは、相手の次のターン中に退却することはできません。",
+				'ja-jp': "防御するポケモンは、相手の次のターン中に退却することはできません。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fire", "Colorless"],
 			name: {
-				ja: "フレア",
+				'ja-jp': "フレア",
 			},
 			damage: 20,
 		},

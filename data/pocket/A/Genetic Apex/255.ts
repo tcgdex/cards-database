@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Genetic Apex"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Moltres ex",
-		fr: "Sulfura-ex",
-		es: "Moltres ex",
-		it: "Moltres-ex",
-		de: "Lavados-ex",
+		'en-us': "Moltres ex",
+		'fr-fr': "Sulfura-ex",
+		'es-es': "Moltres ex",
+		'it-it': "Moltres-ex",
+		'de-de': "Lavados-ex",
 		'pt-br': "Moltres ex",
-		ko: "파이어 ex"
+		'ko-kr': "파이어 ex"
 	},
 
 	illustrator: "PLANETA Saito",
@@ -27,35 +27,35 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Inferno Dance",
-			fr: "Danse Infernale",
-			es: "Danza Infernal",
-			it: "Danza Fiammeggiante",
-			de: "Infernotanz",
+			'en-us': "Inferno Dance",
+			'fr-fr': "Danse Infernale",
+			'es-es': "Danza Infernal",
+			'it-it': "Danza Fiammeggiante",
+			'de-de': "Infernotanz",
 			'pt-br': "Dança Infernal",
-			ko: "열화의춤"
+			'ko-kr': "열화의춤"
 		},
 
 		effect: {
-			en: "Flip 3 coins. Take an amount of {R} Energy from your Energy Zone equal to the number of heads and attach it to your Benched {R} Pokémon in any way you like.",
-			fr: "Lancez 3 pièces. Prenez le même nombre d'Énergie {R} de votre zone Énergie que le nombre de côté face obtenu et attachez-les à vos Pokémon {R} de Banc comme il vous plaît.",
-			es: "Lanza 3 monedas. Une a tus Pokémon {R} en Banca, de la manera que desees, tantas Energías {R} de tu área de Energía como caras hayan salido.",
-			it: "Lancia 3 volte una moneta. Prendi un numero di Energie {R} dalla tua Zona Energia uguale al numero di volte in cui è uscito testa e assegnale ai tuoi Pokémon {R} in panchina nel modo che preferisci.",
-			de: "Wirf 3 Münzen. Lege pro Kopf 1 {R}-Energie aus deinem Energiebereich beliebig an die {R}-Pokémon auf deiner Bank an.",
+			'en-us': "Flip 3 coins. Take an amount of {R} Energy from your Energy Zone equal to the number of heads and attach it to your Benched {R} Pokémon in any way you like.",
+			'fr-fr': "Lancez 3 pièces. Prenez le même nombre d'Énergie {R} de votre zone Énergie que le nombre de côté face obtenu et attachez-les à vos Pokémon {R} de Banc comme il vous plaît.",
+			'es-es': "Lanza 3 monedas. Une a tus Pokémon {R} en Banca, de la manera que desees, tantas Energías {R} de tu área de Energía como caras hayan salido.",
+			'it-it': "Lancia 3 volte una moneta. Prendi un numero di Energie {R} dalla tua Zona Energia uguale al numero di volte in cui è uscito testa e assegnale ai tuoi Pokémon {R} in panchina nel modo che preferisci.",
+			'de-de': "Wirf 3 Münzen. Lege pro Kopf 1 {R}-Energie aus deinem Energiebereich beliebig an die {R}-Pokémon auf deiner Bank an.",
 			'pt-br': "Jogue 3 moedas. Pegue uma quantidade de Energia {R} da sua Zona de Energia equivalente ao número de caras e ligue aos seus Pokémon {R} no Banco como desejar.",
-			ko: "동전을 3번 던져서 앞면이 나온 수만큼의 {R}에너지를 자신의 에너지존에서 내보내 벤치의 {R}포켓몬에게 원하는 대로 붙인다."
+			'ko-kr': "동전을 3번 던져서 앞면이 나온 수만큼의 {R}에너지를 자신의 에너지존에서 내보내 벤치의 {R}포켓몬에게 원하는 대로 붙인다."
 		}
 	}, {
 		cost: ["Fire", "Colorless", "Colorless"],
 
 		name: {
-			en: "Heat Blast",
-			fr: "Explosion de Chaleur",
-			es: "Explosión de Calor",
-			it: "Caldobomba",
-			de: "Hitzestoß",
+			'en-us': "Heat Blast",
+			'fr-fr': "Explosion de Chaleur",
+			'es-es': "Explosión de Calor",
+			'it-it': "Caldobomba",
+			'de-de': "Hitzestoß",
 			'pt-br': "Raio de Calor",
-			ko: "히트블라스트"
+			'ko-kr': "히트블라스트"
 		},
 
 		damage: "70"

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Eevee δ",
-		fr: "Evoli δ",
-		de: "Evoli"
+		'en-us': "Eevee δ",
+		'fr-fr': "Evoli δ",
+		'de-de': "Evoli"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Scoop",
-				fr: "Pelle métallique",
-				de: "Metal Scoop"
+				'en-us': "Metal Scoop",
+				'fr-fr': "Pelle métallique",
+				'de-de': "Metal Scoop"
 			},
 			effect: {
-				en: "Search your discard pile for a Metal Energy card and attach it to Eevee.",
-				fr: "Choisissez dans votre pile de défausse une carte Énergie  et attachez-la à Evoli.",
-				de: "Search your discard pile for a  Energy card and attach it to Eevee."
+				'en-us': "Search your discard pile for a Metal Energy card and attach it to Eevee.",
+				'fr-fr': "Choisissez dans votre pile de défausse une carte Énergie  et attachez-la à Evoli.",
+				'de-de': "Search your discard pile for a  Energy card and attach it to Eevee."
 			},
 			damage: 10,
 

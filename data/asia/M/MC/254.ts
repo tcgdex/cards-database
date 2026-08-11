@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バチュル",
+		'ja-jp': "バチュル",
 	},
 
 	illustrator: "Nisota Niso",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "自分では 電気を つくれないので ほかの 大きな ポケモンに とりつき 静電気を 吸いとる。",
+		'ja-jp': "自分では 電気を つくれないので ほかの 大きな ポケモンに とりつき 静電気を 吸いとる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "バチュチャージ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から「基本[G]エネルギー」と「基本[L]エネルギー」をそれぞれ2枚まで選び、自分のポケモンに好きなようにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から「基本[G]エネルギー」と「基本[L]エネルギー」をそれぞれ2枚まで選び、自分のポケモンに好きなようにつける。そして山札を切る。",
 			},
 		},
 	],

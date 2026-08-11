@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rapidash",
-		fr: "Galopa",
-		de: "Gallopa",
-		it: "Rapidash",
-		es: "Rapidash",
-		pt: "Rapidash",
+		'en-us': "Rapidash",
+		'fr-fr': "Galopa",
+		'de-de': "Gallopa",
+		'it-it': "Rapidash",
+		'es-es': "Rapidash",
+		'pt-br': "Rapidash",
 		'es-mx': "Rapidash"
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Ponyta",
-		fr: "Ponyta",
-		de: "Ponita",
-		it: "Ponyta",
-		es: "Ponyta",
-		pt: "Ponyta",
+		'en-us': "Ponyta",
+		'fr-fr': "Ponyta",
+		'de-de': "Ponita",
+		'it-it': "Ponyta",
+		'es-es': "Ponyta",
+		'pt-br': "Ponyta",
 		'es-mx': "Ponyta"
 	},
 	stage: "Stage1",
@@ -37,22 +37,22 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Hurried Gait",
-			fr: "Allure Pressée",
-			de: "Eiliger Gang",
-			it: "Andatura Frettolosa",
-			es: "Marcha Apresurada",
-			pt: "Marcha Apressada",
+			'en-us': "Hurried Gait",
+			'fr-fr': "Allure Pressée",
+			'de-de': "Eiliger Gang",
+			'it-it': "Andatura Frettolosa",
+			'es-es': "Marcha Apresurada",
+			'pt-br': "Marcha Apressada",
 			'es-mx': "Marcha Apresurada"
 		},
 
 		effect: {
-			en: "Once during your turn, you may draw a card.",
-			fr: "Une fois pendant votre tour, vous pouvez piocher une carte.",
-			de: "Einmal während deines Zuges kannst du 1 Karte ziehen.",
-			it: "Una sola volta durante il tuo turno, puoi pescare una carta.",
-			es: "Una vez durante tu turno, puedes robar 1 carta.",
-			pt: "Uma vez durante o seu turno, você poderá comprar uma carta.",
+			'en-us': "Once during your turn, you may draw a card.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez piocher une carte.",
+			'de-de': "Einmal während deines Zuges kannst du 1 Karte ziehen.",
+			'it-it': "Una sola volta durante il tuo turno, puoi pescare una carta.",
+			'es-es': "Una vez durante tu turno, puedes robar 1 carta.",
+			'pt-br': "Uma vez durante o seu turno, você poderá comprar uma carta.",
 			'es-mx': "Una vez durante tu turno, puedes robar 1 carta."
 		}
 	}],
@@ -61,12 +61,12 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Fire Mane",
-			fr: "Crinière de Feu",
-			de: "Flammenmähne",
-			it: "Criniera di Fuoco",
-			es: "Crin de Fuego",
-			pt: "Crina de Fogo",
+			'en-us': "Fire Mane",
+			'fr-fr': "Crinière de Feu",
+			'de-de': "Flammenmähne",
+			'it-it': "Criniera di Fuoco",
+			'es-es': "Crin de Fuego",
+			'pt-br': "Crina de Fogo",
 			'es-mx': "Melena de Fuego"
 		},
 

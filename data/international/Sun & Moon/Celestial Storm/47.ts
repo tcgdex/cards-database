@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Voltorb",
-		fr: "Voltorbe",
-		es: "Voltorb",
-		it: "Voltorb",
-		pt: "Voltorb",
-		de: "Voltobal"
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe",
+		'es-es': "Voltorb",
+		'it-it': "Voltorb",
+		'pt-br': "Voltorb",
+		'de-de': "Voltobal"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Floating Electrons",
-				fr: "Électrons Flottants",
-				es: "Electrones Flotantes",
-				it: "Elettroni Fluttuanti",
-				pt: "Elétrons Flutuantes",
-				de: "Schwebende Elektronen"
+				'en-us': "Floating Electrons",
+				'fr-fr': "Électrons Flottants",
+				'es-es': "Electrones Flotantes",
+				'it-it': "Elettroni Fluttuanti",
+				'pt-br': "Elétrons Flutuantes",
+				'de-de': "Schwebende Elektronen"
 			},
 			effect: {
-				en: "If this Pokémon has any Energy attached to it, it has no Retreat Cost.",
-				fr: "Si de l’Énergie est attachée à ce Pokémon, il n’a pas de Coût de Retraite.",
-				es: "Si este Pokémon tiene alguna Energía unida a él, no tiene ningún Coste de Retirada.",
-				it: "Se questo Pokémon ha delle Energie assegnate, non ha costo di ritirata.",
-				pt: "Se este Pokémon tiver alguma Energia ligada a ele, não terá custo de Recuo.",
-				de: "Wenn an dieses Pokémon mindestens 1 Energie angelegt ist, hat es keine Rückzugskosten."
+				'en-us': "If this Pokémon has any Energy attached to it, it has no Retreat Cost.",
+				'fr-fr': "Si de l’Énergie est attachée à ce Pokémon, il n’a pas de Coût de Retraite.",
+				'es-es': "Si este Pokémon tiene alguna Energía unida a él, no tiene ningún Coste de Retirada.",
+				'it-it': "Se questo Pokémon ha delle Energie assegnate, non ha costo di ritirata.",
+				'pt-br': "Se este Pokémon tiver alguma Energia ligada a ele, não terá custo de Recuo.",
+				'de-de': "Wenn an dieses Pokémon mindestens 1 Energie angelegt ist, hat es keine Rückzugskosten."
 			},
 		},
 	],
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Shock",
-				fr: "Éclair",
-				es: "Impactrueno",
-				it: "Tuonoshock",
-				pt: "Trovoada de Choques",
-				de: "Donnerschock"
+				'en-us': "Thunder Shock",
+				'fr-fr': "Éclair",
+				'es-es': "Impactrueno",
+				'it-it': "Tuonoshock",
+				'pt-br': "Trovoada de Choques",
+				'de-de': "Donnerschock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -94,7 +94,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people.",
+		'en-us': "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people.",
 	},
 
 	thirdParty: {

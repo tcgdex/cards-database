@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ネイティ",
+		'ja-jp': "ネイティ",
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "まだ 飛べないが ジャンプ力は 抜群。 高い 木の 枝に 飛び上がり 木の芽を ついばむ。",
+		'ja-jp': "まだ 飛べないが ジャンプ力は 抜群。 高い 木の 枝に 飛び上がり 木の芽を ついばむ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "みらいよち" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分または相手の山札を上から4枚見て、好きな順番に入れ替えて、山札の上にもどす。",
+				'ja-jp': "自分または相手の山札を上から4枚見て、好きな順番に入れ替えて、山札の上にもどす。",
 			},
 		},
 	],

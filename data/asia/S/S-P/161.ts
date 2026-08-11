@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブラッキー",
+		'ja-jp': "ブラッキー",
 		'zh-tw': "冰伊布VSTAR",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "満月の 夜や 興奮 したとき 全身の 輪っか模様は 黄色く 光る。",
+		'ja-jp': "満月の 夜や 興奮 したとき 全身の 輪っか模様は 黄色く 光る。",
 	},
 
 	stage: "Stage1",
@@ -22,24 +22,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "やみうち",
+				'ja-jp': "やみうち",
 				'zh-tw': "冰柱射擊",
 			},
 			cost: ["Darkness"],
 			effect: {
-				ja: "ダメカンがのっている相手のポケモン1匹に、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "ダメカンがのっている相手のポケモン1匹に、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 				'zh-tw': "在下個對手的回合，受到這個招式的寶可夢無法撤退。",
 			},
 		},
 		{
 			name: {
-				ja: "ムーンミラージュ",
+				'ja-jp': "ムーンミラージュ",
 				'zh-tw': "[VSTAR力量]水晶星星",
 			},
 			damage: 80,
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 				'zh-tw': "在下個對手的回合，這隻寶可夢不會受到招式的傷害與效果的影響。[對戰中，己方只可使用1次【VSTAR】力量。]",
 			},
 		},
@@ -59,7 +59,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 1,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Shelgon",
-		fr: "Drackhaus",
-		de: "Draschel"
+		'en-us': "Shelgon",
+		'fr-fr': "Drackhaus",
+		'de-de': "Draschel"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bagon",
-		fr: "Draby"
+		'en-us': "Bagon",
+		'fr-fr': "Draby"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Granite Head",
-				fr: "Tête de granit",
-				de: "Granite Head"
+				'en-us': "Granite Head",
+				'fr-fr': "Tête de granit",
+				'de-de': "Granite Head"
 			},
 			effect: {
-				en: "Damage done to Shelgon by an opponent's attack is reduced by 10 (after applying Weakness and Resistance) during your opponent's next turn.",
-				fr: "Les dégâts infligés à Drackhaus par une attaque de votre adversaire sont réduits de 10 lors du prochain tour de votre adversaire (après application de la Faiblesse et de la Résistance).",
-				de: "Damage done to Shelgon by an opponent's attack is reduced by 10 (after applying Weakness and Resistance) during your opponent's next turn."
+				'en-us': "Damage done to Shelgon by an opponent's attack is reduced by 10 (after applying Weakness and Resistance) during your opponent's next turn.",
+				'fr-fr': "Les dégâts infligés à Drackhaus par une attaque de votre adversaire sont réduits de 10 lors du prochain tour de votre adversaire (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Damage done to Shelgon by an opponent's attack is reduced by 10 (after applying Weakness and Resistance) during your opponent's next turn."
 			},
 			damage: 20,
 
@@ -54,9 +54,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare",
-				fr: "Enflammer",
-				de: "Flare"
+				'en-us': "Flare",
+				'fr-fr': "Enflammer",
+				'de-de': "Flare"
 			},
 
 			damage: 40,

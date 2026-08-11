@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Pancham",
-		fr: "Pandespiègle",
-		es: "Pancham",
-		it: "Pancham",
-		pt: "Pancham",
-		de: "Pam-Pam"
+		'en-us': "Pancham",
+		'fr-fr': "Pandespiègle",
+		'es-es': "Pancham",
+		'it-it': "Pancham",
+		'pt-br': "Pancham",
+		'de-de': "Pam-Pam"
 	},
 
 	illustrator: "Mizue",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pompous Punch",
-				fr: "Coup d'Poing Solennel",
-				es: "Puño Pomposo",
-				it: "Tronfiopugno",
-				pt: "Soco Pomposo",
-				de: "Pompöser Punch"
+				'en-us': "Pompous Punch",
+				'fr-fr': "Coup d'Poing Solennel",
+				'es-es': "Puño Pomposo",
+				'it-it': "Tronfiopugno",
+				'pt-br': "Soco Pomposo",
+				'de-de': "Pompöser Punch"
 			},
 			effect: {
-				en: "Discard a random card from your opponent's hand.",
-				fr: "Défaussez au hasard une carte de la main de votre adversaire.",
-				es: "Descarta 1 carta aleatoria de la mano de tu rival.",
-				it: "Scarta una carta a caso dalla mano del tuo avversario.",
-				pt: "Descarte um card aleatório da mão do seu oponente.",
-				de: "Nimm 1 zufällige Karte aus der verdeckten Hand deines Gegners und lege sie auf seinen Ablagestapel."
+				'en-us': "Discard a random card from your opponent's hand.",
+				'fr-fr': "Défaussez au hasard une carte de la main de votre adversaire.",
+				'es-es': "Descarta 1 carta aleatoria de la mano de tu rival.",
+				'it-it': "Scarta una carta a caso dalla mano del tuo avversario.",
+				'pt-br': "Descarte um card aleatório da mão do seu oponente.",
+				'de-de': "Nimm 1 zufällige Karte aus der verdeckten Hand deines Gegners und lege sie auf seinen Ablagestapel."
 			},
 			damage: 10,
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It does its level best to glare and pull a scary face, but it can't help grinning if anyone pats its head.",
+		'en-us': "It does its level best to glare and pull a scary face, but it can't help grinning if anyone pats its head.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Poliwrath",
+		'ja-jp': "Poliwrath",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "スパイラルスワール",
+				'ja-jp': "スパイラルスワール",
 			},
 			effect: {
-				ja: "Poliwrathがあなたのアクティブなポカモンであり、相手の攻撃によるダメージによってノックアウトされた場合、攻撃するポケモンは今混乱しています。",
+				'ja-jp': "Poliwrathがあなたのアクティブなポカモンであり、相手の攻撃によるダメージによってノックアウトされた場合、攻撃するポケモンは今混乱しています。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "ビートダウン",
+				'ja-jp': "ビートダウン",
 			},
 			effect: {
-				ja: "防御ポケモンが暗闇のポケモンであるか、その名前が暗い場合、この攻撃は40ダメージと30のダメージを与えます。",
+				'ja-jp': "防御ポケモンが暗闇のポケモンであるか、その名前が暗い場合、この攻撃は40ダメージと30のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				ja: "ハイパースプラッシュ",
+				'ja-jp': "ハイパースプラッシュ",
 			},
 			effect: {
-				ja: "防御ポケモンがステージ2の進化したポケモンである場合、この攻撃は60ダメージに加えて30ダメージを与えます。",
+				'ja-jp': "防御ポケモンがステージ2の進化したポケモンである場合、この攻撃は60ダメージに加えて30ダメージを与えます。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Dugtrio",
-		fr: "Triopikeur",
-		de: "Digdri"
+		'en-us': "Dugtrio",
+		'fr-fr': "Triopikeur",
+		'de-de': "Digdri"
 	},
 
 	illustrator: "Masako Yamashita",
@@ -22,18 +22,18 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Diglett",
-		fr: "Taupiqueur"
+		'en-us': "Diglett",
+		'fr-fr': "Taupiqueur"
 	},
 
 	abilities: [
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Anti-Lightning",
+				'en-us': "Anti-Lightning",
 			},
 			effect: {
-				en: "You can't attach Lightning Energy cards from your hand to Zapdos.",
+				'en-us': "You can't attach Lightning Energy cards from your hand to Zapdos.",
 			},
 		},
 	],
@@ -45,9 +45,9 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mud Slap",
-				fr: "Coud'boue",
-				de: "Mud Slap"
+				'en-us': "Mud Slap",
+				'fr-fr': "Coud'boue",
+				'de-de': "Mud Slap"
 			},
 
 			damage: 20,
@@ -60,14 +60,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnitude",
-				fr: "Ampleur",
-				de: "Magnitude"
+				'en-us': "Magnitude",
+				'fr-fr': "Ampleur",
+				'de-de': "Magnitude"
 			},
 			effect: {
-				en: "Does 10 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chaque Pokémon du Banc (le vôtre et celui de votre adversaire). (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
-				de: "Does 10 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Does 10 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chaque Pokémon du Banc (le vôtre et celui de votre adversaire). (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
+				'de-de': "Does 10 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 40,
 

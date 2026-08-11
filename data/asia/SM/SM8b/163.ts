@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フクスロー",
+		'ja-jp': "フクスロー",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "気取り屋で 暇が あれば 翼の 手入れ。 羽毛の 汚れが 気に なりすぎて 戦えないことも。",
+		'ja-jp': "気取り屋で 暇が あれば 翼の 手入れ。 羽毛の 汚れが 気に なりすぎて 戦えないことも。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "するどいはばね" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のポケモン1匹に、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、20ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、20ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モクロー",
+		'ja-jp': "モクロー",
 	},
 
 	retreat: 1,

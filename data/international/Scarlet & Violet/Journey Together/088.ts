@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Toedscool",
-		fr: "Terracool",
-		es: "Toedscool",
-		de: "Tentagra",
-		it: "Toedscool",
-		pt: "Toedscool",
+		'en-us': "Toedscool",
+		'fr-fr': "Terracool",
+		'es-es': "Toedscool",
+		'de-de': "Tentagra",
+		'it-it': "Toedscool",
+		'pt-br': "Toedscool",
 		'es-mx': "Toedscool"
 	},
 
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Spray Fluid",
-			fr: "Fluide Éclaboussant",
-			es: "Fluido Rociado",
-			de: "Sprühwasser",
-			it: "Fluidospray",
-			pt: "Fluido Spray",
+			'en-us': "Spray Fluid",
+			'fr-fr': "Fluide Éclaboussant",
+			'es-es': "Fluido Rociado",
+			'de-de': "Sprühwasser",
+			'it-it': "Fluidospray",
+			'pt-br': "Fluido Spray",
 			'es-mx': "Rociar Líquido"
 		},
 

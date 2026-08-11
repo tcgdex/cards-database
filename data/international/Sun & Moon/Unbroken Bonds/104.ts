@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Crabrawler",
-		fr: "Crabagarre",
-		es: "Crabrawler",
-		it: "Crabrawler",
-		pt: "Crabrawler",
-		de: "Krabbox"
+		'en-us': "Crabrawler",
+		'fr-fr': "Crabagarre",
+		'es-es': "Crabrawler",
+		'it-it': "Crabrawler",
+		'pt-br': "Crabrawler",
+		'de-de': "Krabbox"
 	},
 
 	illustrator: "Akira Komayama",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Corkscrew Punch",
-				fr: "Poing Tire-Bouchon",
-				es: "Puño Tirabuzón",
-				it: "Pugno Rotante",
-				pt: "Soco Saca-rolha",
-				de: "Korkenzieherhieb"
+				'en-us': "Corkscrew Punch",
+				'fr-fr': "Poing Tire-Bouchon",
+				'es-es': "Puño Tirabuzón",
+				'it-it': "Pugno Rotante",
+				'pt-br': "Soco Saca-rolha",
+				'de-de': "Korkenzieherhieb"
 			},
 
 			damage: 20,
@@ -53,20 +53,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knuckle Blast",
-				fr: "Explosion de Poings",
-				es: "Explosión Nudillo",
-				it: "Pugno Bomba",
-				pt: "Punho Explosivo",
-				de: "Knöchelbomber"
+				'en-us': "Knuckle Blast",
+				'fr-fr': "Explosion de Poings",
+				'es-es': "Explosión Nudillo",
+				'it-it': "Pugno Bomba",
+				'pt-br': "Punho Explosivo",
+				'de-de': "Knöchelbomber"
 			},
 			effect: {
-				en: "If you have more Prize cards remaining than your opponent, this attack does 60 more damage.",
-				fr: "S’il vous reste plus de cartes Récompense qu’à votre adversaire, cette attaque inflige 60 dégâts supplémentaires.",
-				es: "Si te quedan más cartas de Premio que a tu rival, este ataque hace 60 puntos de daño más.",
-				it: "Se il numero di carte Premio che ti restano è superiore a quello del tuo avversario, questo attacco infligge 60 danni in più.",
-				pt: "Se você tiver mais cartas de Prêmio restantes do que seu oponente, este ataque causará 60 pontos de dano a mais.",
-				de: "Wenn du mehr verbleibende Preiskarten hast als dein Gegner, fügt diese Attacke 60 Schadenspunkte mehr zu."
+				'en-us': "If you have more Prize cards remaining than your opponent, this attack does 60 more damage.",
+				'fr-fr': "S’il vous reste plus de cartes Récompense qu’à votre adversaire, cette attaque inflige 60 dégâts supplémentaires.",
+				'es-es': "Si te quedan más cartas de Premio que a tu rival, este ataque hace 60 puntos de daño más.",
+				'it-it': "Se il numero di carte Premio che ti restano è superiore a quello del tuo avversario, questo attacco infligge 60 danni in più.",
+				'pt-br': "Se você tiver mais cartas de Prêmio restantes do que seu oponente, este ataque causará 60 pontos de dano a mais.",
+				'de-de': "Wenn du mehr verbleibende Preiskarten hast als dein Gegner, fügt diese Attacke 60 Schadenspunkte mehr zu."
 			},
 			damage: "30+",
 
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its hard pincers are well suited to both offense and defense. Fights between two Crabrawler are like boxing matches.",
+		'en-us': "Its hard pincers are well suited to both offense and defense. Fights between two Crabrawler are like boxing matches.",
 	},
 
 	thirdParty: {

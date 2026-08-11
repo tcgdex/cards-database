@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Musharna",
-		fr: "Mushana",
-		es: "Musharna",
-		it: "Musharna",
-		pt: "Musharna",
-		de: "Somnivora"
+		'en-us': "Musharna",
+		'fr-fr': "Mushana",
+		'es-es': "Musharna",
+		'it-it': "Musharna",
+		'pt-br': "Musharna",
+		'de-de': "Somnivora"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Munna",
-		fr: "Munna",
+		'en-us': "Munna",
+		'fr-fr': "Munna",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Precognitive Dream",
-				fr: "Rêve Prémonitoire",
+				'en-us': "Precognitive Dream",
+				'fr-fr': "Rêve Prémonitoire",
 			},
 			effect: {
-				en: "Draw 3 cards. This Pokémon is now Asleep.",
-				fr: "Piochez 3 cartes. Ce Pokémon est maintenant Endormi.",
+				'en-us': "Draw 3 cards. This Pokémon is now Asleep.",
+				'fr-fr': "Piochez 3 cartes. Ce Pokémon est maintenant Endormi.",
 			},
 
 		},
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psybeam",
-				fr: "Rafale Psy",
+				'en-us': "Psybeam",
+				'fr-fr': "Rafale Psy",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: 60,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "The dream mist coming from its forehead changes into many different colors depending on the dream that was eaten.",
+		'en-us': "The dream mist coming from its forehead changes into many different colors depending on the dream that was eaten.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Shining Magikarp",
-		fr: "Magicarpe Brillant",
-		de: "Schimmerndes Karpador"
+		'en-us': "Shining Magikarp",
+		'fr-fr': "Magicarpe Brillant",
+		'de-de': "Schimmerndes Karpador"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Gold Scale",
-				fr: "Écaille d'or",
-				de: "Goldschuppen"
+				'en-us': "Gold Scale",
+				'fr-fr': "Écaille d'or",
+				'de-de': "Goldschuppen"
 			},
 			effect: {
-				en: "Your opponent may draw 2 cards. Either way, you may draw 2 cards.",
-				fr: "Votre adversaire peut piocher 2 cartes. Quoi qu'il décide, vous pouvez aussi piocher 2 cartes.",
-				de: "Dein Gegner darf 2 Karten ziehen. Unabhängig davon darfst du 2 Karten ziehen."
+				'en-us': "Your opponent may draw 2 cards. Either way, you may draw 2 cards.",
+				'fr-fr': "Votre adversaire peut piocher 2 cartes. Quoi qu'il décide, vous pouvez aussi piocher 2 cartes.",
+				'de-de': "Dein Gegner darf 2 Karten ziehen. Unabhängig davon darfst du 2 Karten ziehen."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Dragon Bond",
-				fr: "Lien du Dragon",
-				de: "Drachenbund"
+				'en-us': "Dragon Bond",
+				'fr-fr': "Lien du Dragon",
+				'de-de': "Drachenbund"
 			},
 			effect: {
-				en: "Search your deck for a card named Gyarados, Dark Gyarados, or Shining Gyarados. Show it to your opponent and put it into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez une carte Léviator, Léviator Obscur ou Léviator Brillant dans votre deck. Montrez-la à votre adversaire et placez-la dans votre main. Mélangez ensuite votre deck.",
-				de: "Durchsuche dein Deck nach einer Karte namens Garados, Dunkles Garados oder Schimmerndes Garados. Zeige diese Karte deinem Gegner und nimm sie auf deine Hand. Mische danach dein Deck."
+				'en-us': "Search your deck for a card named Gyarados, Dark Gyarados, or Shining Gyarados. Show it to your opponent and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez une carte Léviator, Léviator Obscur ou Léviator Brillant dans votre deck. Montrez-la à votre adversaire et placez-la dans votre main. Mélangez ensuite votre deck.",
+				'de-de': "Durchsuche dein Deck nach einer Karte namens Garados, Dunkles Garados oder Schimmerndes Garados. Zeige diese Karte deinem Gegner und nimm sie auf deine Hand. Mische danach dein Deck."
 			},
 
 		},
@@ -70,8 +70,8 @@ const card: Card = {
 
 
 	description: {
-		en: "An underpowered, pathetic Pokémon. It may jump high on rare occasions, but never more than seven feet.",
-		fr: "Un Pokémon faible et pathétique. Il lui arrive de temps en temps de parvenir à sauter assez haut, mais il ne monte jamais au-delà de 2m."
+		'en-us': "An underpowered, pathetic Pokémon. It may jump high on rare occasions, but never more than seven feet.",
+		'fr-fr': "Un Pokémon faible et pathétique. Il lui arrive de temps en temps de parvenir à sauter assez haut, mais il ne monte jamais au-delà de 2m."
 	},
 
 

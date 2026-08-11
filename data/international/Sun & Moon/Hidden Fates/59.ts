@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Koga’s Trap",
-		fr: "Piège de Koga",
+		'en-us': "Koga’s Trap",
+		'fr-fr': "Piège de Koga",
 	},
 	illustrator: "Megumi Mizutani",
 	rarity: "Uncommon",
@@ -23,8 +23,8 @@ const card: Card = {
 
 
 	effect: {
-		fr: "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
-		en: "Your opponent’s Active Pokémon is now Confused and Poisoned."
+		'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
+		'en-us': "Your opponent’s Active Pokémon is now Confused and Poisoned."
 	},
 	trainerType: "Supporter",
 

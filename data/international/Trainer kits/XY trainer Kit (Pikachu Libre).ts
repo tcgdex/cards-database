@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Trainer kits'
 
 const set: Set = {
 	id: "tk-xy-p",
 
 	name: {
-		en: "XY trainer Kit (Pikachu Libre)",
-		it: "XY trainer Kit (Pikachu Libre)",
-		fr: "XY Kit du dresseur (Pikachu Libre)",
-		es: "Kit de Entrenador XY (Pikachu Enmascarada)",
+		'en-us': "XY trainer Kit (Pikachu Libre)",
+		'it-it': "XY trainer Kit (Pikachu Libre)",
+		'fr-fr': "XY Kit du dresseur (Pikachu Libre)",
+		'es-es': "Kit de Entrenador XY (Pikachu Enmascarada)",
 	},
 
 	serie: serie,
@@ -21,7 +21,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "TK9P",
-		fr: "PLB"
+		'fr-fr': "PLB"
 	},
 
 	thirdParty: {

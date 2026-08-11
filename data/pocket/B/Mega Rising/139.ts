@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Crabrawler"
+		'en-us': "Crabrawler"
 	},
 
 	illustrator: "Akira Komayama",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "If it loses its pincers, they'll quickly regrow.\nThe pincers are popular ingredients in paella\nsince their shells produce a tasty soup stock."
+		'en-us': "If it loses its pincers, they'll quickly regrow.\nThe pincers are popular ingredients in paella\nsince their shells produce a tasty soup stock."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Knuckle Punch"
+			'en-us': "Knuckle Punch"
 		},
 
 		damage: 20,

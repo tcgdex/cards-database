@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Gloom",
-		fr: "Ortide",
-		de: "Duflor"
+		'en-us': "Gloom",
+		'fr-fr': "Ortide",
+		'de-de': "Duflor"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Oddish",
-		fr: "Mystherbe"
+		'en-us': "Oddish",
+		'fr-fr': "Mystherbe"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Enervating Pollen",
-				fr: "Pollen irritant",
-				de: "Schwächender Pollen"
+				'en-us': "Enervating Pollen",
+				'fr-fr': "Pollen irritant",
+				'de-de': "Schwächender Pollen"
 			},
 			effect: {
-				en: "As long as Gloom is in play, Resistance on each player's Active Pokémon only reduces damage by 10.",
-				fr: "Tant que Ortide est en jeu, la Résistance du Pokémon Actif de chaque joueur ne réduit les dégâts que de 10.",
-				de: "Solange Duflor im Spiel ist, reduziert die Resistenz der Aktiven Pokémon beider Spieler Schaden nur um 10."
+				'en-us': "As long as Gloom is in play, Resistance on each player's Active Pokémon only reduces damage by 10.",
+				'fr-fr': "Tant que Ortide est en jeu, la Résistance du Pokémon Actif de chaque joueur ne réduit les dégâts que de 10.",
+				'de-de': "Solange Duflor im Spiel ist, reduziert die Resistenz der Aktiven Pokémon beider Spieler Schaden nur um 10."
 			}
 		},
 	],
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleep Sap",
-				fr: "Sève dodo",
-				de: "Schlafsaft"
+				'en-us': "Sleep Sap",
+				'fr-fr': "Sève dodo",
+				'de-de': "Schlafsaft"
 			},
 			effect: {
-				en: "Both the Defending Pokémon and Gloom are now Asleep (after doing damage).",
-				fr: "Le Pokémon Défenseur et Ortide sont maintenant Endormis (après avoir infligé les dégâts).",
-				de: "Sowohl das Verteidigende Pokémon als auch Duflor schlafen jetzt (nachdem der Schaden zugefügt wurde)."
+				'en-us': "Both the Defending Pokémon and Gloom are now Asleep (after doing damage).",
+				'fr-fr': "Le Pokémon Défenseur et Ortide sont maintenant Endormis (après avoir infligé les dégâts).",
+				'de-de': "Sowohl das Verteidigende Pokémon als auch Duflor schlafen jetzt (nachdem der Schaden zugefügt wurde)."
 			},
 			damage: 20,
 

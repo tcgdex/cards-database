@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Barbaracle",
-		fr: "Golgopathe"
+		'en-us': "Barbaracle",
+		'fr-fr': "Golgopathe"
 	},
 
 	illustrator: "Nurikabe",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Binacle"
+		'en-us': "Binacle"
 	},
 
 	description: {
-		en: "Seven Binacle come together to form one\nBarbaracle. The Binacle that serves as the head\ngives orders to those serving as the limbs.",
-		fr: "Sept Opermine s'assemblent pour former un Golgopathe. La tête commande les autres membres."
+		'en-us': "Seven Binacle come together to form one\nBarbaracle. The Binacle that serves as the head\ngives orders to those serving as the limbs.",
+		'fr-fr': "Sept Opermine s'assemblent pour former un Golgopathe. La tête commande les autres membres."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Dynamic Chop",
-			fr: "Coupe Dynamique"
+			'en-us': "Dynamic Chop",
+			'fr-fr': "Coupe Dynamique"
 		},
 
 		damage: 70,

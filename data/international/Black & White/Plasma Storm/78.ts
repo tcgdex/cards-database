@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Lucario",
-		fr: "Lucario",
-		es: "Lucario",
-		it: "Lucario",
-		pt: "Lucario",
-		de: "Lucario"
+		'en-us': "Lucario",
+		'fr-fr': "Lucario",
+		'es-es': "Lucario",
+		'it-it': "Lucario",
+		'pt-br': "Lucario",
+		'de-de': "Lucario"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Riolu",
-		fr: "Riolu",
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Dual Armor",
-				fr: "Double Armure",
-				es: "Armadura Dual",
-				it: "Doppiarmatura",
-				pt: "Armadura Dupla",
-				de: "Doppelte Rüstung"
+				'en-us': "Dual Armor",
+				'fr-fr': "Double Armure",
+				'es-es': "Armadura Dual",
+				'it-it': "Doppiarmatura",
+				'pt-br': "Armadura Dupla",
+				'de-de': "Doppelte Rüstung"
 			},
 			effect: {
-				en: "If this Pokémon has any Metal Energy attached to it, this Pokémon’s type is both Fighting and Metal.",
-				fr: "Si de l’Énergie Metal est attachée à ce Pokémon, le type de ce Pokémon est Fighting et Metal.",
-				es: "Si este Pokémon tiene alguna Energía Metal unida a él, el tipo de este Pokémon es Fighting y Metal.",
-				it: "Se questo Pokémon ha delle Energie Metal assegnate, il tipo di questo Pokémon è sia Fighting che Metal.",
-				pt: "Se este Pokémon possui alguma Energia Metal ligada a ele, o tipo desse Pokémon é Fighting e Metal.",
-				de: "Wenn an dieses Pokémon bereits Metal-Energie angelegt ist, ist dieses Pokémon sowohl vom Typ Fighting als auch Metal."
+				'en-us': "If this Pokémon has any Metal Energy attached to it, this Pokémon’s type is both Fighting and Metal.",
+				'fr-fr': "Si de l’Énergie Metal est attachée à ce Pokémon, le type de ce Pokémon est Fighting et Metal.",
+				'es-es': "Si este Pokémon tiene alguna Energía Metal unida a él, el tipo de este Pokémon es Fighting y Metal.",
+				'it-it': "Se questo Pokémon ha delle Energie Metal assegnate, il tipo di questo Pokémon è sia Fighting che Metal.",
+				'pt-br': "Se este Pokémon possui alguma Energia Metal ligada a ele, o tipo desse Pokémon é Fighting e Metal.",
+				'de-de': "Wenn an dieses Pokémon bereits Metal-Energie angelegt ist, ist dieses Pokémon sowohl vom Typ Fighting als auch Metal."
 			},
 		},
 	],
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hurricane Kick",
-				fr: "Pied Ouragan",
+				'en-us': "Hurricane Kick",
+				'fr-fr': "Pied Ouragan",
 			},
 			effect: {
-				en: "Does 30 more damage for each Prize card your opponent has taken.",
-				fr: "Inflige 30 dégâts supplémentaires pour chaque carte Récompense que votre adversaire a récupérée.",
+				'en-us': "Does 30 more damage for each Prize card your opponent has taken.",
+				'fr-fr': "Inflige 30 dégâts supplémentaires pour chaque carte Récompense que votre adversaire a récupérée.",
 			},
 			damage: 60,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "By reading the auras of all things, it can tell how others are feeling from over half a mile away.",
+		'en-us': "By reading the auras of all things, it can tell how others are feeling from over half a mile away.",
 	},
 
 	thirdParty: {

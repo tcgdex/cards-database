@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Dark Muk",
-		de: "Dunkles Sleimok"
+		'en-us': "Dark Muk",
+		'de-de': "Dunkles Sleimok"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Grimer",
+		'en-us': "Grimer",
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Sticky Goo",
-				de: "Sticky Goo"
+				'en-us': "Sticky Goo",
+				'de-de': "Sticky Goo"
 			},
 			effect: {
-				en: "As long as Dark Muk is your Active Pokémon, your opponent pays ColorlessColorless more to retreat his or her Active Pokémon.\"",
-				de: "As long as Dark Muk is your Active Pokémon, your opponent pays  more to retreat his or her Active Pokémon."
+				'en-us': "As long as Dark Muk is your Active Pokémon, your opponent pays ColorlessColorless more to retreat his or her Active Pokémon.\"",
+				'de-de': "As long as Dark Muk is your Active Pokémon, your opponent pays  more to retreat his or her Active Pokémon."
 			},
 		},
 	],
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slimy Water",
-				de: "Slimy Water"
+				'en-us': "Slimy Water",
+				'de-de': "Slimy Water"
 			},
 			effect: {
-				en: "Does 10 damage times the number of Colorless Energy in the Defending Pokémon's Retreat Cost (after applying effects to the Retreat Cost).\"",
-				de: "Does 10 damage times the number of  Energy in the Defending Pokémon's Retreat Cost (after applying effects to the Retreat Cost)."
+				'en-us': "Does 10 damage times the number of Colorless Energy in the Defending Pokémon's Retreat Cost (after applying effects to the Retreat Cost).\"",
+				'de-de': "Does 10 damage times the number of  Energy in the Defending Pokémon's Retreat Cost (after applying effects to the Retreat Cost)."
 			},
 			damage: "10x",
 
@@ -66,12 +66,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Acidic Poison",
-				de: "Acidic Poison"
+				'en-us': "Acidic Poison",
+				'de-de': "Acidic Poison"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned and Poisoned.",
-				de: "The Defending Pokémon is now Burned and Poisoned."
+				'en-us': "The Defending Pokémon is now Burned and Poisoned.",
+				'de-de': "The Defending Pokémon is now Burned and Poisoned."
 			},
 			damage: 10,
 

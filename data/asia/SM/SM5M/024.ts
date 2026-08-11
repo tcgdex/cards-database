@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フワライド",
+		'ja-jp': "フワライド",
 	},
 
 	illustrator: "Yumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "夕暮れに 飛ぶ フワライドの 大群は じっと 観察して いても いつのまにか 消えている。",
+		'ja-jp': "夕暮れに 飛ぶ フワライドの 大群は じっと 観察して いても いつのまにか 消えている。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ダメージはこび" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の場のポケモン全員にのっているダメカンをそれぞれ4個、相手のバトルポケモンにのせ替える。",
+				'ja-jp': "自分の場のポケモン全員にのっているダメカンをそれぞれ4個、相手のバトルポケモンにのせ替える。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+				'ja-jp': "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "フワンテ",
+		'ja-jp': "フワンテ",
 	},
 
 	retreat: 1,

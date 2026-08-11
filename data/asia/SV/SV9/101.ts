@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "マラカッチ"
+		'ja-jp': "マラカッチ"
 	},
 
 	illustrator: "Ounishi",
@@ -16,7 +16,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "１年に 一度 種を まく。 花の 種は 栄養満点で 砂漠の 貴重な 食料。"
+		'ja-jp': "１年に 一度 種を まく。 花の 種は 栄養満点で 砂漠の 貴重な 食料。"
 	},
 
 	stage: "Basic",
@@ -25,11 +25,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "さくれつばり"
+			'ja-jp': "さくれつばり"
 		},
 
 		effect: {
-			ja: "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けてきぜつしたとき、ワザを使ったポケモンにダメカンを6個のせる。"
+			'ja-jp': "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けてきぜつしたとき、ワザを使ったポケモンにダメカンを6個のせる。"
 		}
 	}],
 
@@ -37,13 +37,13 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "おいつめる"
+			'ja-jp': "おいつめる"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "次の相手の番、このワザを受けたポケモンは、にげられない。"
+			'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。"
 		}
 	}],
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Swadloon",
-		fr: "Couverdure",
-		es: "Swadloon",
-		it: "Swadloon",
-		pt: "Swadloon",
-		de: "Folikon"
+		'en-us': "Swadloon",
+		'fr-fr': "Couverdure",
+		'es-es': "Swadloon",
+		'it-it': "Swadloon",
+		'pt-br': "Swadloon",
+		'de-de': "Folikon"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sewaddle",
-		fr: "Larveyette",
+		'en-us': "Sewaddle",
+		'fr-fr': "Larveyette",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Swaddling Leaves",
-				fr: "Feuillage Enveloppant",
-				es: "Hojas Envolventes",
-				it: "Fogliefascia",
-				pt: "Enfaixar com Folhas",
-				de: "Blätterwickel"
+				'en-us': "Swaddling Leaves",
+				'fr-fr': "Feuillage Enveloppant",
+				'es-es': "Hojas Envolventes",
+				'it-it': "Fogliefascia",
+				'pt-br': "Enfaixar com Folhas",
+				'de-de': "Blätterwickel"
 			},
 			effect: {
-				en: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
-				fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-				es: "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-				it: "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-				pt: "Este Pokémon recebe 30 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
-				de: "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+				'fr-fr': "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+				'es-es': "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+				'it-it': "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+				'pt-br': "Este Pokémon recebe 30 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
+				'de-de': "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -61,12 +61,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bug Bite",
-				fr: "Piqûre",
-				es: "Picadura",
-				it: "Coleomorso",
-				pt: "Picada",
-				de: "Käferbiss"
+				'en-us': "Bug Bite",
+				'fr-fr': "Piqûre",
+				'es-es': "Picadura",
+				'it-it': "Coleomorso",
+				'pt-br': "Picada",
+				'de-de': "Käferbiss"
 			},
 
 			damage: 10,
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Forests where Swadloon live have superb foliage because the nutrients they make from fallen leaves nourish the plant life.",
+		'en-us': "Forests where Swadloon live have superb foliage because the nutrients they make from fallen leaves nourish the plant life.",
 	},
 
 	thirdParty: {

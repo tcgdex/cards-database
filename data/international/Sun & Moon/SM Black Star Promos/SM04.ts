@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu"
 	},
 	illustrator: "kirisAki",
 	rarity: "Promo",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunder Wave",
-				fr: "Cage-Éclair"
+				'en-us': "Thunder Wave",
+				'fr-fr': "Cage-Éclair"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
 			},
 
 		},
@@ -44,8 +44,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electro Ball",
-				fr: "Boule Élek"
+				'en-us': "Electro Ball",
+				'fr-fr': "Boule Élek"
 			},
 
 			damage: 50,
@@ -72,7 +72,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A plan was recently announced to gather many Pikachu and make an electric power plant.",
+		'en-us': "A plan was recently announced to gather many Pikachu and make an electric power plant.",
 	},
 }
 

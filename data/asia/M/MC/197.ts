@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コアルヒー",
+		'ja-jp': "コアルヒー",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "潜水が 得意な とりポケモン。 好物の みずゴケを 食べるため 水中を 泳ぎまわる。",
+		'ja-jp': "潜水が 得意な とりポケモン。 好物の みずゴケを 食べるため 水中を 泳ぎまわる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "しょうか" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについている[R]エネルギーを1個選び、トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについている[R]エネルギーを1個選び、トラッシュする。",
 			},
 		},
 		{

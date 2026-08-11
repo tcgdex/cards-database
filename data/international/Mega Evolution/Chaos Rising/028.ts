@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
 
 	description: {
-		en: "If its coat becomes fully charged with electricity, its tail lights up. Flaaffy can fire wool that zaps on impact.",
+		'en-us': "If its coat becomes fully charged with electricity, its tail lights up. Flaaffy can fire wool that zaps on impact.",
 	},
 
 
 	name: {
-		en: "Flaaffy",
-		fr: "Lainergie",
-		es: "Flaaffy",
+		'en-us': "Flaaffy",
+		'fr-fr': "Lainergie",
+		'es-es': "Flaaffy",
 		'es-mx': "Flaaffy",
-		de: "Waaty",
-		it: "Flaaffy",
-		pt: "Flaaffy"
+		'de-de': "Waaty",
+		'it-it': "Flaaffy",
+		'pt-br': "Flaaffy"
 	},
 
 	illustrator: "miki kudo",
@@ -27,33 +27,33 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Mareep"
+		'en-us': "Mareep"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Disconnect",
-			fr: "Déconnexion",
-			es: "Desconectar",
+			'en-us': "Disconnect",
+			'fr-fr': "Déconnexion",
+			'es-es': "Desconectar",
 			'es-mx': "Desconectar",
-			de: "Unterbrechen",
-			it: "Disconnessione",
-			pt: "Desconexão"
+			'de-de': "Unterbrechen",
+			'it-it': "Disconnessione",
+			'pt-br': "Desconexão"
 		},
 
 		cost: ["Lightning", "Colorless"],
 		damage: 40,
 
 		effect: {
-			en: "During your opponent's next turn, they can't play any Item cards from their hand.",
-			fr: "Pendant son prochain tour, votre adversaire ne peut pas jouer de cartes Objet de sa main.",
-			es: "Durante el próximo turno de tu rival, este no puede jugar ninguna carta de Objeto de su mano.",
+			'en-us': "During your opponent's next turn, they can't play any Item cards from their hand.",
+			'fr-fr': "Pendant son prochain tour, votre adversaire ne peut pas jouer de cartes Objet de sa main.",
+			'es-es': "Durante el próximo turno de tu rival, este no puede jugar ninguna carta de Objeto de su mano.",
 			'es-mx': "Durante el próximo turno de tu rival, este no puede jugar ninguna carta de Objeto de su mano.",
-			de: "Dein Gegner kann während seines nächsten Zuges keine Itemkarten aus seiner Hand spielen.",
-			it: "Durante il suo prossimo turno, il tuo avversario non può giocare le carte Strumento che ha in mano.",
-			pt: "Durante o próximo turno do seu oponente, ele não poderá jogar nenhuma carta de Item da mão dele."
+			'de-de': "Dein Gegner kann während seines nächsten Zuges keine Itemkarten aus seiner Hand spielen.",
+			'it-it': "Durante il suo prossimo turno, il tuo avversario non può giocare le carte Strumento che ha in mano.",
+			'pt-br': "Durante o próximo turno do seu oponente, ele não poderá jogar nenhuma carta de Item da mão dele."
 		}
 	}],
 

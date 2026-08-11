@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "虚ろの海",
+		'ja-jp': "虚ろの海",
 	},
 
 	illustrator: "Ryo Ueda",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいの特殊状態のポケモンは、進化・退化しても特殊状態が回復しない。",
+		'ja-jp': "おたがいの特殊状態のポケモンは、進化・退化しても特殊状態が回復しない。",
 	},
 
 	variants: [

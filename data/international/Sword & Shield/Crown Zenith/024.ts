@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Larvesta",
-		fr: "Pyronille",
-		es: "Larvesta",
-		it: "Larvesta",
-		pt: "Larvesta",
-		de: "Ignivor"
+		'en-us': "Larvesta",
+		'fr-fr': "Pyronille",
+		'es-es': "Larvesta",
+		'it-it': "Larvesta",
+		'pt-br': "Larvesta",
+		'de-de': "Ignivor"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Live Coal",
-			fr: "Charbon Mutant",
-			es: "Carbón Activado",
-			it: "Carboni Ardenti",
-			pt: "Carvão Vivo",
-			de: "Glühende Kohlen"
+			'en-us': "Live Coal",
+			'fr-fr': "Charbon Mutant",
+			'es-es': "Carbón Activado",
+			'it-it': "Carboni Ardenti",
+			'pt-br': "Carvão Vivo",
+			'de-de': "Glühende Kohlen"
 		},
 
 		damage: 20
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The people of ancient times believed that Larvesta fell from the sun.",
+		'en-us': "The people of ancient times believed that Larvesta fell from the sun.",
 	},
 
 	

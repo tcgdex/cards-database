@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Vault'
 
 const card: Card = {
 	name: {
-		en: "Dragonair",
-		fr: "Draco",
+		'en-us': "Dragonair",
+		'fr-fr': "Draco",
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dratini",
-		fr: "Minidraco",
+		'en-us': "Dratini",
+		'fr-fr': "Minidraco",
 	},
 
 	stage: "Stage1",
@@ -36,8 +36,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Whap",
-				fr: "Queue Battoir",
+				'en-us': "Tail Whap",
+				'fr-fr': "Queue Battoir",
 			},
 
 			damage: 20,
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Pulse",
-				fr: "Dracochoc",
+				'en-us': "Dragon Pulse",
+				'fr-fr': "Dracochoc",
 			},
 			effect: {
-				en: "Discard the top card of your deck.",
-				fr: "Défaussez la carte du dessus de votre deck.",
+				'en-us': "Discard the top card of your deck.",
+				'fr-fr': "Défaussez la carte du dessus de votre deck.",
 			},
 			damage: 70,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.",
+		'en-us': "If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.",
 	},
 
 	thirdParty: {

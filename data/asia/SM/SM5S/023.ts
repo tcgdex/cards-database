@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エンニュート",
+		'ja-jp': "エンニュート",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "毒ガスには 多くの フェロモンが 含まれている。 薄めることで 官能的な 香水が できる。",
+		'ja-jp': "毒ガスには 多くの フェロモンが 含まれている。 薄めることで 官能的な 香水が できる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "パニックどく" },
 			cost: ["Fire"],
 			effect: {
-				ja: "相手のバトルポケモンをどくとやけどとこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをどくとやけどとこんらんにする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが特殊状態なら、60ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが特殊状態なら、60ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤトウモリ",
+		'ja-jp': "ヤトウモリ",
 	},
 
 	retreat: 1,

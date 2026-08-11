@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Whimsicott ex"
+		'en-us': "Whimsicott ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Cottonee"
+		'en-us': "Cottonee"
 	},
 
 	stage: "Stage1",
@@ -25,14 +25,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Grass Knot"
+			'en-us': "Grass Knot"
 		},
 
 		damage: 40,
 		cost: ["Grass", "Colorless"],
 
 		effect: {
-			en: "This attack does 30 more damage for each Energy in your opponent's Active Pokémon's Retreat Cost."
+			'en-us': "This attack does 30 more damage for each Energy in your opponent's Active Pokémon's Retreat Cost."
 		}
 	}],
 

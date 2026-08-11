@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Darumaka",
-		fr: "Darumarond",
-		de: "Flampion",
-		it: "Darumaka",
-		pt: "Darumaka",
-		es: "Darumaka",
+		'en-us': "Darumaka",
+		'fr-fr': "Darumarond",
+		'de-de': "Flampion",
+		'it-it': "Darumaka",
+		'pt-br': "Darumaka",
+		'es-es': "Darumaka",
 		'es-mx': "Darumaka"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Will-O-Wisp",
-			fr: "Feu Follet",
-			de: "Irrlicht",
-			it: "Fuocofatuo",
-			pt: "Fogo Fátuo",
-			es: "Fuego Fatuo",
+			'en-us': "Will-O-Wisp",
+			'fr-fr': "Feu Follet",
+			'de-de': "Irrlicht",
+			'it-it': "Fuocofatuo",
+			'pt-br': "Fogo Fátuo",
+			'es-es': "Fuego Fatuo",
 			'es-mx': "Fuego Fatuo"
 		},
 

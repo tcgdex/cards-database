@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Steenee",
-		fr: "Candine"
+		'en-us': "Steenee",
+		'fr-fr': "Candine"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Bounsweet"
+		'en-us': "Bounsweet"
 	},
 
 	description: {
-		en: "Steenee spreads a sweet scent that\nmakes others feel invigorated. This same\nscent is popular for antiperspirants.",
-		fr: "Il dégage un doux parfum qui a le pouvoir de redonner du tonus, et qui est très populaire en odeur de déodorant."
+		'en-us': "Steenee spreads a sweet scent that\nmakes others feel invigorated. This same\nscent is popular for antiperspirants.",
+		'fr-fr': "Il dégage un doux parfum qui a le pouvoir de redonner du tonus, et qui est très populaire en odeur de déodorant."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Leaf Step",
-			fr: "Enjambée de Feuillage"
+			'en-us': "Leaf Step",
+			'fr-fr': "Enjambée de Feuillage"
 		},
 
 		damage: 40,

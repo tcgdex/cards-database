@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Poochyena",
-		fr: "Medhyena",
-		de: "Fiffyen"
+		'en-us': "Poochyena",
+		'fr-fr': "Medhyena",
+		'de-de': "Fiffyen"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Shadow Bind",
-				fr: "Étreinte d'ombre",
-				de: "Shadow Bind"
+				'en-us': "Shadow Bind",
+				'fr-fr': "Étreinte d'ombre",
+				'de-de': "Shadow Bind"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite tant que le prochain tour de votre adversaire n'est pas terminé.",
-				de: "The Defending Pokémon can't retreat until the end of your opponent's next turn."
+				'en-us': "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite tant que le prochain tour de votre adversaire n'est pas terminé.",
+				'de-de': "The Defending Pokémon can't retreat until the end of your opponent's next turn."
 			},
 			damage: 10,
 

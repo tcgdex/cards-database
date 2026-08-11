@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [428],
 
 	name: {
-		en: "Lopunny"
+		'en-us': "Lopunny"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Buneary"
+		'en-us': "Buneary"
 	},
 
 	description: {
-		en: "Once hot seasons are over, Lopunny's coat will\nbe replaced with fur that holds a lot of insulating\nair in preparation for colder weather."
+		'en-us': "Once hot seasons are over, Lopunny's coat will\nbe replaced with fur that holds a lot of insulating\nair in preparation for colder weather."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Double Kick"
+			'en-us': "Double Kick"
 		},
 
 		damage: 50,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip 2 coins. This attack does 50 damage for each heads."
+			'en-us': "Flip 2 coins. This attack does 50 damage for each heads."
 		}
 	}],
 

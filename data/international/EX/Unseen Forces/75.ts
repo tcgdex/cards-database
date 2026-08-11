@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Spinarak",
-		fr: "Mimigal",
-		de: "Webarak"
+		'en-us': "Spinarak",
+		'fr-fr': "Mimigal",
+		'de-de': "Webarak"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Stun Poison",
-				fr: "Poison neural",
-				de: "Stun Poison"
+				'en-us': "Stun Poison",
+				'fr-fr': "Poison neural",
+				'de-de': "Stun Poison"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pierce",
-				fr: "Transpercer",
-				de: "Pierce"
+				'en-us': "Pierce",
+				'fr-fr': "Transpercer",
+				'de-de': "Pierce"
 			},
 
 			damage: 20,

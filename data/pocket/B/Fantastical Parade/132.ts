@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [276],
 
 	name: {
-		en: "Taillow"
+		'en-us': "Taillow"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It dislikes cold seasons. They migrate to other\nlands in search of warmth, flying over 180 miles\na day."
+		'en-us': "It dislikes cold seasons. They migrate to other\nlands in search of warmth, flying over 180 miles\na day."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Peck"
+			'en-us': "Peck"
 		},
 
 		damage: 20,

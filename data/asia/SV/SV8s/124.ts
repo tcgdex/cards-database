@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Bronzor",
-		th: "โดมิเรอร์"
+		'id-id': "Bronzor",
+		'th-th': "โดมิเรอร์"
 	},
 
 	illustrator: "Nabatame Kazutaka",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Bronzor ditemukan di makam kuno. Dikatakan bahwa kekuatan misterius bersemayam pada pola di punggungnya.",
-		th: "พบเจอในหลุมศพเก่า ว่ากันว่าลายที่หลังมีพลังลึกลับซ่อนอยู่"
+		'id-id': "Bronzor ditemukan di makam kuno. Dikatakan bahwa kekuatan misterius bersemayam pada pola di punggungnya.",
+		'th-th': "พบเจอในหลุมศพเก่า ว่ากันว่าลายที่หลังมีพลังลึกลับซ่อนอยู่"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Shield Attack",
-			th: "ชีลด์แอทแทก"
+			'id-id': "Shield Attack",
+			'th-th': "ชีลด์แอทแทก"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 20.",
-			th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว การโจมตีนี้จะเพิ่มแดเมจอีก 20"
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 20.",
+			'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกหัว การโจมตีนี้จะเพิ่มแดเมจอีก 20"
 		},
 
 		damage: "20+",

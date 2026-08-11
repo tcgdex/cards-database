@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Parasect",
-		fr: "Parasect",
-		de: "Parasek"
+		'en-us': "Parasect",
+		'fr-fr': "Parasect",
+		'de-de': "Parasek"
 	},
 
 	illustrator: "Midori Harada",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Paras",
-		fr: "Paras"
+		'en-us': "Paras",
+		'fr-fr': "Paras"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sleep Drain",
-				fr: "Aspirododo",
-				de: "Schlafentzug"
+				'en-us': "Sleep Drain",
+				'fr-fr': "Aspirododo",
+				'de-de': "Schlafentzug"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep. Remove 4 damage counters from Parasect.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi. Retirez 4 marqueurs de dégâts de Parasect.",
-				de: "Das Verteidigende Pokémon schläft jetzt. Entferne 4 Schadensmarken von Parasek."
+				'en-us': "The Defending Pokémon is now Asleep. Remove 4 damage counters from Parasect.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi. Retirez 4 marqueurs de dégâts de Parasect.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt. Entferne 4 Schadensmarken von Parasek."
 			},
 
 		},
@@ -52,9 +52,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 60,
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The larger the mushroom on its back grows, the stronger the mushroom spores it scatters."
+		'en-us': "The larger the mushroom on its back grows, the stronger the mushroom spores it scatters."
 	},
 
 	variants: [

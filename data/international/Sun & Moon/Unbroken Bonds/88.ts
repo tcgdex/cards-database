@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Graveler",
-		fr: "Gravalanch",
-		es: "Graveler",
-		it: "Graveler",
-		pt: "Graveler",
-		de: "Georok"
+		'en-us': "Graveler",
+		'fr-fr': "Gravalanch",
+		'es-es': "Graveler",
+		'it-it': "Graveler",
+		'pt-br': "Graveler",
+		'de-de': "Georok"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Geodude",
-		fr: "Racaillou",
+		'en-us': "Geodude",
+		'fr-fr': "Racaillou",
 	},
 
 	stage: "Stage1",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rolling Rocks",
-				fr: "Rochers Roulants",
-				es: "Rocas Rodantes",
-				it: "Massi Rotolanti",
-				pt: "Pedras Rolantes",
-				de: "Rollende Steine"
+				'en-us': "Rolling Rocks",
+				'fr-fr': "Rochers Roulants",
+				'es-es': "Rocas Rodantes",
+				'it-it': "Massi Rotolanti",
+				'pt-br': "Pedras Rolantes",
+				'de-de': "Rollende Steine"
 			},
 
 			damage: 50,
@@ -60,20 +60,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-Edge",
-				fr: "Damoclès",
-				es: "Doble Filo",
-				it: "Sdoppiatore",
-				pt: "Faca de Dois Gumes",
-				de: "Risikotackle"
+				'en-us': "Double-Edge",
+				'fr-fr': "Damoclès",
+				'es-es': "Doble Filo",
+				'it-it': "Sdoppiatore",
+				'pt-br': "Faca de Dois Gumes",
+				'de-de': "Risikotackle"
 			},
 			effect: {
-				en: "This Pokémon does 30 damage to itself.",
-				fr: "Ce Pokémon s’inflige 30 dégâts.",
-				es: "Este Pokémon se hace 30 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 30 danni a se stesso.",
-				pt: "Este Pokémon causa 30 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 30 Schadenspunkte zu."
+				'en-us': "This Pokémon does 30 damage to itself.",
+				'fr-fr': "Ce Pokémon s’inflige 30 dégâts.",
+				'es-es': "Este Pokémon se hace 30 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 30 danni a se stesso.",
+				'pt-br': "Este Pokémon causa 30 pontos de dano a si mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 30 Schadenspunkte zu."
 			},
 			damage: 90,
 
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It climbs up cliffs as it heads toward the peak of a mountain. As soon as it reaches the summit, it rolls back down the way it came.",
+		'en-us': "It climbs up cliffs as it heads toward the peak of a mountain. As soon as it reaches the summit, it rolls back down the way it came.",
 	},
 
 	thirdParty: {

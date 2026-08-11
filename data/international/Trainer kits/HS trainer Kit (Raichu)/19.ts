@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HS trainer Kit (Raichu)'
 
 const card: Card = {
 	name: {
-		en: "Raichu",
-		fr: "Raichu"
+		'en-us': "Raichu",
+		'fr-fr': "Raichu"
 	},
 
 	illustrator: "match",
@@ -17,7 +17,7 @@ const card: Card = {
 		"Lightning",
 	],
 	evolveFrom: {
-		en: "Pikachu",
+		'en-us': "Pikachu",
 	},
 	stage: "Stage1",
 	attacks: [
@@ -26,11 +26,11 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Iron Tail",
-				fr: "Queue de fer"
+				'en-us': "Iron Tail",
+				'fr-fr': "Queue de fer"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
+				'en-us': "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
 			},
 			damage: "30×",
 		},
@@ -40,12 +40,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunderbolt",
-				fr: "Tonnerre",
+				'en-us': "Thunderbolt",
+				'fr-fr': "Tonnerre",
 			},
 			effect: {
-				en: "Discard all Energy attached to Raichu.",
-				fr: "Défaussez toutes les cartes Énergie attachées à Raichu."
+				'en-us': "Discard all Energy attached to Raichu.",
+				'fr-fr': "Défaussez toutes les cartes Énergie attachées à Raichu."
 			},
 			damage: 100,
 		},

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scyther",
-		fr: "Insécateur",
-		es: "Scyther",
-		it: "Scyther",
-		pt: "Scyther",
-		de: "Sichlor"
+		'en-us': "Scyther",
+		'fr-fr': "Insécateur",
+		'es-es': "Scyther",
+		'it-it': "Scyther",
+		'pt-br': "Scyther",
+		'de-de': "Sichlor"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Cut Up",
-			fr: "Découpage",
-			es: "Trocear",
-			it: "Tagliuzzamento",
-			pt: "Dilacerar",
-			de: "Zerhäckseln"
+			'en-us': "Cut Up",
+			'fr-fr': "Découpage",
+			'es-es': "Trocear",
+			'it-it': "Tagliuzzamento",
+			'pt-br': "Dilacerar",
+			'de-de': "Zerhäckseln"
 		},
 
 		damage: 10
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Slashing Strike",
-			fr: "Coup Déchirant",
-			es: "Golpe Cuchillazo",
-			it: "Lacerattacco",
-			pt: "Ataque Cortante",
-			de: "Schlitzender Schlag"
+			'en-us': "Slashing Strike",
+			'fr-fr': "Coup Déchirant",
+			'es-es': "Golpe Cuchillazo",
+			'it-it': "Lacerattacco",
+			'pt-br': "Ataque Cortante",
+			'de-de': "Schlitzender Schlag"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use Slashing Strike.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup Déchirant.",
-			es: "Durante tu próximo turno, este Pokémon no puede usar Golpe Cuchillazo.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Lacerattacco.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Ataque Cortante.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon Schlitzender Schlag nicht einsetzen."
+			'en-us': "During your next turn, this Pokémon can't use Slashing Strike.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup Déchirant.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede usar Golpe Cuchillazo.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Lacerattacco.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar Ataque Cortante.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon Schlitzender Schlag nicht einsetzen."
 		},
 
 		damage: 60
@@ -67,7 +67,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "The sharp scythes on its forearms become increasingly sharp by cutting through hard objects.",
+		'en-us': "The sharp scythes on its forearms become increasingly sharp by cutting through hard objects.",
 	},
 
 	variants: [

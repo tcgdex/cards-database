@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ギャロップ",
+		'ja-jp': "ギャロップ",
 	},
 
 	illustrator: "danciao",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "走る 速度は 時速２４０キロ。 たてがみの 炎が 激しく 燃え 矢のように 駆け抜ける。",
+		'ja-jp': "走る 速度は 時速２４０キロ。 たてがみの 炎が 激しく 燃え 矢のように 駆け抜ける。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、60ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、60ダメージ追加。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ポニータ",
+		'ja-jp': "ポニータ",
 	},
 
 	retreat: 1,

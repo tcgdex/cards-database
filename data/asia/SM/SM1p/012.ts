@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニョロゾ",
+		'ja-jp': "ニョロゾ",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "陸上を 練り歩いて 餌の むしポケモンを 探す。 食べるのは 安全な 水の中。",
+		'ja-jp': "陸上を 練り歩いて 餌の むしポケモンを 探す。 食べるのは 安全な 水の中。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x30ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数x30ダメージ。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニョロモ",
+		'ja-jp': "ニョロモ",
 	},
 
 	retreat: 2,

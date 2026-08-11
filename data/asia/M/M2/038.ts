@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エルフーン",
+		'ja-jp': "エルフーン",
 	},
 
 	illustrator: "Yuka Tanaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "どんなに 細い 隙間でも 風のように 潜り抜けてしまう。 白い 毛玉を 残していく。",
+		'ja-jp': "どんなに 細い 隙間でも 風のように 潜り抜けてしまう。 白い 毛玉を 残していく。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "エルフーンex",
+		'ja-jp': "エルフーンex",
 	},
 
 	retreat: 1,

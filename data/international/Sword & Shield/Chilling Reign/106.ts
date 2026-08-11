@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Whirlipede",
-		fr: "Scobolide",
-		es: "Whirlipede",
-		it: "Whirlipede",
-		pt: "Whirlipede",
-		de: "Rollum"
+		'en-us': "Whirlipede",
+		'fr-fr': "Scobolide",
+		'es-es': "Whirlipede",
+		'it-it': "Whirlipede",
+		'pt-br': "Whirlipede",
+		'de-de': "Rollum"
 	},
 
 	illustrator: "hatachu",
@@ -21,43 +21,43 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Venipede",
-		fr: "Venipatte",
-		es: "Venipede",
-		it: "Venipede",
-		pt: "Venipede",
-		de: "Toxiped"
+		'en-us': "Venipede",
+		'fr-fr': "Venipatte",
+		'es-es': "Venipede",
+		'it-it': "Venipede",
+		'pt-br': "Venipede",
+		'de-de': "Toxiped"
 	},
 
 	attacks: [{
 		name: {
-			en: "Poison Sting",
-			fr: "Dard-Venin",
-			es: "Picotazo Veneno",
-			it: "Velenospina",
-			pt: "Ferrão Venenoso",
-			de: "Giftstachel"
+			'en-us': "Poison Sting",
+			'fr-fr': "Dard-Venin",
+			'es-es': "Picotazo Veneno",
+			'it-it': "Velenospina",
+			'pt-br': "Ferrão Venenoso",
+			'de-de': "Giftstachel"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		},
 
 		damage: 20,
 		cost: ["Darkness"]
 	}, {
 		name: {
-			en: "Rolling Tackle",
-			fr: "Roulé-Boulé",
-			es: "Placaje Giro",
-			it: "Rollazione",
-			pt: "Golpe de Colisão Rolante",
-			de: "Rolltackle"
+			'en-us': "Rolling Tackle",
+			'fr-fr': "Roulé-Boulé",
+			'es-es': "Placaje Giro",
+			'it-it': "Rollazione",
+			'pt-br': "Golpe de Colisão Rolante",
+			'de-de': "Rolltackle"
 		},
 
 		damage: 50,
@@ -76,7 +76,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent."
+		'en-us': "It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent."
 	},
 
 	variants: [

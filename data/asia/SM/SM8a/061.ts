@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガオガエンGX",
+		'ja-jp': "ガオガエンGX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "スカーチャージ" },
 			effect: {
-				ja: "自分の番に1回使える。このポケモンにダメカンを3個のせる。その後、自分の山札にある[悪]エネルギーを3枚まで、このポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の番に1回使える。このポケモンにダメカンを3個のせる。その後、自分の山札にある[悪]エネルギーを3枚まで、このポケモンにつける。そして山札を切る。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについている特殊エネルギーを、1個トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについている特殊エネルギーを、1個トラッシュする。",
 			},
 		},
 		{
@@ -38,7 +38,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数x50ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "このポケモンにのっているダメカンの数x50ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -56,7 +56,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニャヒート",
+		'ja-jp': "ニャヒート",
 	},
 
 	retreat: 3,

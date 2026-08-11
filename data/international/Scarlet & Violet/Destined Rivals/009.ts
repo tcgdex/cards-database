@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mow Rotom",
-		fr: "Motisma Tonte",
-		de: "Schneid-Rotom",
-		it: "Rotom Taglio",
-		es: "Rotom Corte",
-		pt: "Rotom Corte",
+		'en-us': "Mow Rotom",
+		'fr-fr': "Motisma Tonte",
+		'de-de': "Schneid-Rotom",
+		'it-it': "Rotom Taglio",
+		'es-es': "Rotom Corte",
+		'pt-br': "Rotom Corte",
 		'es-mx': "Rotom Podadora"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Trimming Mower",
-			fr: "Tondeuse Tondante",
-			de: "Stutzende Schneide",
-			it: "Falciatrice",
-			es: "Cortacésped",
-			pt: "Cortador de Grama",
+			'en-us': "Trimming Mower",
+			'fr-fr': "Tondeuse Tondante",
+			'de-de': "Stutzende Schneide",
+			'it-it': "Falciatrice",
+			'es-es': "Cortacésped",
+			'pt-br': "Cortador de Grama",
 			'es-mx': "Cortacésped"
 		},
 
 		effect: {
-			en: "Discard a Stadium in play.",
-			fr: "Défaussez un Stade en jeu.",
-			de: "Lege 1 Stadionkarte im Spiel auf den Ablagestapel.",
-			it: "Scarta una carta Stadio in gioco.",
-			es: "Descarta 1 Estadio en juego.",
-			pt: "Descarte um Estádio em jogo.",
+			'en-us': "Discard a Stadium in play.",
+			'fr-fr': "Défaussez un Stade en jeu.",
+			'de-de': "Lege 1 Stadionkarte im Spiel auf den Ablagestapel.",
+			'it-it': "Scarta una carta Stadio in gioco.",
+			'es-es': "Descarta 1 Estadio en juego.",
+			'pt-br': "Descarte um Estádio em jogo.",
 			'es-mx': "Descarta 1 Estadio en juego."
 		},
 
@@ -50,22 +50,22 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Gadget Show",
-			fr: "Démonstration de Gadgets",
-			de: "Gadget-Show",
-			it: "Mostra di Gadget",
-			es: "Espectáculo de Utensilios",
-			pt: "Show de Bugigangas",
+			'en-us': "Gadget Show",
+			'fr-fr': "Démonstration de Gadgets",
+			'de-de': "Gadget-Show",
+			'it-it': "Mostra di Gadget",
+			'es-es': "Espectáculo de Utensilios",
+			'pt-br': "Show de Bugigangas",
 			'es-mx': "Show de Artefactos"
 		},
 
 		effect: {
-			en: "This attack does 30 damage for each Pokémon Tool attached to all of your Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts pour chaque Outil Pokémon attaché à tous vos Pokémon.",
-			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte Pokémon-Ausrüstung 30 Schadenspunkte zu.",
-			it: "Questo attacco infligge 30 danni per ogni carta Oggetto Pokémon assegnata ai tuoi Pokémon.",
-			es: "Este ataque hace 30 puntos de daño por cada Herramienta Pokémon unida a cada uno de tus Pokémon.",
-			pt: "Este ataque causa 30 pontos de dano para cada Ferramenta Pokémon ligada a todos os seus Pokémon.",
+			'en-us': "This attack does 30 damage for each Pokémon Tool attached to all of your Pokémon.",
+			'fr-fr': "Cette attaque inflige 30 dégâts pour chaque Outil Pokémon attaché à tous vos Pokémon.",
+			'de-de': "Diese Attacke fügt für jede an alle deine Pokémon angelegte Pokémon-Ausrüstung 30 Schadenspunkte zu.",
+			'it-it': "Questo attacco infligge 30 danni per ogni carta Oggetto Pokémon assegnata ai tuoi Pokémon.",
+			'es-es': "Este ataque hace 30 puntos de daño por cada Herramienta Pokémon unida a cada uno de tus Pokémon.",
+			'pt-br': "Este ataque causa 30 pontos de dano para cada Ferramenta Pokémon ligada a todos os seus Pokémon.",
 			'es-mx': "Este ataque hace 30 puntos de daño por cada Herramienta Pokémon unida a cada uno de tus Pokémon."
 		},
 

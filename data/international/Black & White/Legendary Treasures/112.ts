@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Energy Switch",
+		'en-us': "Energy Switch",
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -13,7 +13,7 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		en: "Move a basic Energy from 1 of your Pokémon to another of your Pokémon."
+		'en-us': "Move a basic Energy from 1 of your Pokémon to another of your Pokémon."
 	},
 
 	thirdParty: {

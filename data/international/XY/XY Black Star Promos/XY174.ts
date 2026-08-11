@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Pikachu-EX",
-		fr: "Pikachu-EX"
+		'en-us': "Pikachu-EX",
+		'fr-fr': "Pikachu-EX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Promo",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Shock",
-				fr: "Éclair"
+				'en-us': "Thunder Shock",
+				'fr-fr': "Éclair"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
 			},
 			damage: 30,
 
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Thunderbolt",
-				fr: "Méga Tonnerre"
+				'en-us': "Mega Thunderbolt",
+				'fr-fr': "Méga Tonnerre"
 			},
 			effect: {
-				en: "Discard all Energy attached to this Pokémon.",
-				fr: "Défaussez toutes les Énergies attachées à ce Pokémon."
+				'en-us': "Discard all Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez toutes les Énergies attachées à ce Pokémon."
 			},
 			damage: 160,
 

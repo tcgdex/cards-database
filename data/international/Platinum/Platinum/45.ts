@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Combusken",
-		fr: "Galifeu",
-		de: "Junglut"
+		'en-us': "Combusken",
+		'fr-fr': "Galifeu",
+		'de-de': "Junglut"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Torchic",
-		fr: "Poussifeu"
+		'en-us': "Torchic",
+		'fr-fr': "Poussifeu"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Firebreathing",
-				fr: "Souffle-feu",
-				de: "Firebreathing"
+				'en-us': "Firebreathing",
+				'fr-fr': "Souffle-feu",
+				'de-de': "Firebreathing"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Flip a coin. If heads, this attack does 20 damage plus 20 more damage."
 			},
 			damage: "20+",
 
@@ -54,9 +54,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "High Jump Kick",
-				fr: "Pied voltige",
-				de: "High Jump Kick"
+				'en-us': "High Jump Kick",
+				'fr-fr': "Pied voltige",
+				'de-de': "High Jump Kick"
 			},
 
 			damage: 60,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its kicking mastery lets it loose 10 kicks per second. It emits sharp cries to intimidate foes."
+		'en-us': "Its kicking mastery lets it loose 10 kicks per second. It emits sharp cries to intimidate foes."
 	},
 
 	variants: [

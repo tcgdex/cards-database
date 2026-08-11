@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Totodile",
-		fr: "Kaiminus",
-		es: "Totodile",
+		'en-us': "Totodile",
+		'fr-fr': "Kaiminus",
+		'es-es': "Totodile",
 		'es-mx': "Totodile",
-		de: "Karnimani",
-		it: "Totodile",
-		pt: "Totodile"
+		'de-de': "Karnimani",
+		'it-it': "Totodile",
+		'pt-br': "Totodile"
 	},
 
 	illustrator: "REND",
@@ -26,23 +26,23 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			en: "Slight Intrusion",
-			fr: "Légère Intrusion",
-			es: "Ligera Intromisión",
+			'en-us': "Slight Intrusion",
+			'fr-fr': "Légère Intrusion",
+			'es-es': "Ligera Intromisión",
 			'es-mx': "Algo Metiche",
-			de: "Vorwagen",
-			it: "Coinvolgimento",
-			pt: "Leve Invasão"
+			'de-de': "Vorwagen",
+			'it-it': "Coinvolgimento",
+			'pt-br': "Leve Invasão"
 		},
 
 		effect: {
-			en: "This Pokémon also does 10 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
-			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
+			'en-us': "This Pokémon also does 10 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 10 dégâts.",
+			'es-es': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
 			'es-mx': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
-			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu.",
-			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo."
+			'de-de': "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu.",
+			'it-it': "Questo Pokémon infligge anche 10 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 10 pontos de dano a si mesmo."
 		},
 
 		damage: 40
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "J",
 
 	description: {
-		en: "It is small but rough and tough. It won't hesitate to take a bite out of anything that moves.",
+		'en-us': "It is small but rough and tough. It won't hesitate to take a bite out of anything that moves.",
 	},
 
 	variants: [

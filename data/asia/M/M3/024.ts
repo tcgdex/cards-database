@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ボルケニオン",
+		'ja-jp': "ボルケニオン",
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "水蒸気を 噴き出して 自分の 姿を  濃霧で 隠す。人の 立ち入らない  山に 住むという。",
+		'ja-jp': "水蒸気を 噴き出して 自分の 姿を  濃霧で 隠す。人の 立ち入らない  山に 住むという。",
 	},
 
 	stage: "Basic",

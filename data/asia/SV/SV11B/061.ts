@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワルビル",
+		'ja-jp': "ワルビル",
 	},
 
 	illustrator: "Gapao",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "数匹で 群れを 作る。 眼球を カバーする 膜が 砂嵐から 目を 守る。",
+		'ja-jp': "数匹で 群れを 作る。 眼球を カバーする 膜が 砂嵐から 目を 守る。",
 	},
 
 	stage: "Stage1",
@@ -37,7 +37,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "メグロコ",
+		'ja-jp': "メグロコ",
 	},
 
 	retreat: 2,

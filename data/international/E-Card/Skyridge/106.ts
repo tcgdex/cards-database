@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Sunkern",
-		de: "Sonnkern"
+		'en-us': "Sunkern",
+		'de-de': "Sonnkern"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'de-de': "Walzer"
 			},
 
 			damage: 10,
@@ -40,12 +40,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Blot",
-				de: "Klecks"
+				'en-us': "Blot",
+				'de-de': "Klecks"
 			},
 			effect: {
-				en: "If there are any damage counters on Sunkern, remove 1 of them.",
-				de: "Wenn Schadensmarken auf Sonnkern liegen, entferne 1 von ihnen."
+				'en-us': "If there are any damage counters on Sunkern, remove 1 of them.",
+				'de-de': "Wenn Schadensmarken auf Sonnkern liegen, entferne 1 von ihnen."
 			},
 			damage: 10,
 

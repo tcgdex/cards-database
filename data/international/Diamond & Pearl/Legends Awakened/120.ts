@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Sneasel",
-		fr: "Farfuret",
-		de: "Sniebel"
+		'en-us': "Sneasel",
+		'fr-fr': "Farfuret",
+		'de-de': "Sniebel"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Rob",
-				fr: "Dérober",
-				de: "Räuber"
+				'en-us': "Rob",
+				'fr-fr': "Dérober",
+				'de-de': "Räuber"
 			},
 			effect: {
-				en: "Look at your opponent's hand. If your opponent has any Pokémon Tool or Technical Machine cards in his or her hand, put those cards on top of his or her deck. Your opponent shuffles his or her deck afterward.",
-				fr: "Regardez la main de votre adversaire. S'il possède des cartes Outil Pokémon ou Machine Technique, placez ces cartes au dessus de son deck. Ensuite, votre adversaire mélange son deck.",
-				de: "Schau dir die Handkarten deines Gegners an. Lege alle Pokémon-Ausrüstungs- und Technische Maschine-Karten, die du dort gefunden hast, auf das Deck deines Gegners. Dein Gegner mischt sein Deck danach."
+				'en-us': "Look at your opponent's hand. If your opponent has any Pokémon Tool or Technical Machine cards in his or her hand, put those cards on top of his or her deck. Your opponent shuffles his or her deck afterward.",
+				'fr-fr': "Regardez la main de votre adversaire. S'il possède des cartes Outil Pokémon ou Machine Technique, placez ces cartes au dessus de son deck. Ensuite, votre adversaire mélange son deck.",
+				'de-de': "Schau dir die Handkarten deines Gegners an. Lege alle Pokémon-Ausrüstungs- und Technische Maschine-Karten, die du dort gefunden hast, auf das Deck deines Gegners. Dein Gegner mischt sein Deck danach."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 20,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It feeds on eggs stolen from nests. Its sharply hooked claws rip vulnerable spots on prey.",
+		'en-us': "It feeds on eggs stolen from nests. Its sharply hooked claws rip vulnerable spots on prey.",
 	},
 
 	thirdParty: {

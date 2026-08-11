@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピジョット",
+		'ja-jp': "ピジョット",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "エサを 探すとき 水面 すれすれを 滑るように 飛んで コイキングなどを わしづかみにする。",
+		'ja-jp': "エサを 探すとき 水面 すれすれを 滑るように 飛んで コイキングなどを わしづかみにする。",
 	},
 
 	stage: "Stage2",
@@ -24,14 +24,14 @@ const card: Card = {
 			damage: 60,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+				'ja-jp': "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
 			},
 		},
 		{
 			name: { ja: "せんぷう" },
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンと、ついているすべてのカードを、相手の手札にもどす。",
+				'ja-jp': "相手のバトルポケモンと、ついているすべてのカードを、相手の手札にもどす。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ピジョン",
+		'ja-jp': "ピジョン",
 	},
 
 	retreat: 0,

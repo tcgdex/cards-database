@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "毛毛角羊",
 		'zh-cn': "毛毛角羊",
-		ja: "バイウールー"
+		'ja-jp': "バイウールー"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "用牠那彈力十足的毛 織成的地毯就像是彈簧墊， 可以站上去蹦蹦跳。",
 		'zh-cn': "用牠那彈力十足的毛 織成的地毯就像是彈簧墊， 可以站上去蹦蹦跳。",
-		ja: "弾力の ある 毛で 織った カーペットは トランポリンみたいで 乗れば ピョンピョン 跳ねるのだ。"
+		'ja-jp': "弾力の ある 毛で 織った カーペットは トランポリンみたいで 乗れば ピョンピョン 跳ねるのだ。"
 	},
 
 	stage: "Stage1",
@@ -29,13 +29,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "柔軟羊毛",
 			'zh-cn': "柔軟羊毛",
-			ja: "やわらかウール"
+			'ja-jp': "やわらかウール"
 		},
 
 		effect: {
 			'zh-tw': "這隻寶可夢受到招式的傷害「-30」點。",
 			'zh-cn': "這隻寶可夢受到招式的傷害「-30」點。",
-			ja: "このポケモンが受けるワザのダメージは「-30」される。"
+			'ja-jp': "このポケモンが受けるワザのダメージは「-30」される。"
 		}
 	}],
 
@@ -43,13 +43,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "搗碎",
 			'zh-cn': "搗碎",
-			ja: "つきくずす"
+			'ja-jp': "つきくずす"
 		},
 
 		effect: {
 			'zh-tw': "若希望，將場上的競技場卡丟棄。",
 			'zh-cn': "若希望，將場上的競技場卡丟棄。",
-			ja: "のぞむなら、場に出ているスタジアムをトラッシュする。"
+			'ja-jp': "のぞむなら、場に出ているスタジアムをトラッシュする。"
 		},
 
 		damage: 70,

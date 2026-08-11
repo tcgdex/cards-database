@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Klang",
-		fr: "Clic",
-		es: "Klang",
-		it: "Klang",
-		pt: "Klang",
-		de: "Kliklak"
+		'en-us': "Klang",
+		'fr-fr': "Clic",
+		'es-es': "Klang",
+		'it-it': "Klang",
+		'pt-br': "Klang",
+		'de-de': "Kliklak"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Klink",
-		fr: "Tic",
-		es: "Klink",
-		it: "Klink",
-		pt: "Klink",
-		de: "Klikk"
+		'en-us': "Klink",
+		'fr-fr': "Tic",
+		'es-es': "Klink",
+		'it-it': "Klink",
+		'pt-br': "Klink",
+		'de-de': "Klikk"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		name: {
-			en: "Gear Grind",
-			fr: "Lancécrou",
-			es: "Rueda Doble",
-			it: "Ingracolpo",
-			pt: "Moedor",
-			de: "Klikkdiskus"
+			'en-us': "Gear Grind",
+			'fr-fr': "Lancécrou",
+			'es-es': "Rueda Doble",
+			'it-it': "Ingracolpo",
+			'pt-br': "Moedor",
+			'de-de': "Klikkdiskus"
 		},
 
 		effect: {
-			en: "Flip 2 coins. This attack does 80 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 80 dégâts pour chaque côté face.",
-			es: "Lanza 2 monedas. Este ataque hace 80 puntos de daño por cada cara.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 80 danni ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 80 pontos de dano para cada cara.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip 2 coins. This attack does 80 damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 80 dégâts pour chaque côté face.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 80 puntos de daño por cada cara.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 80 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 80 pontos de dano para cada cara.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "80×"
@@ -72,7 +72,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When Klang goes all out, the minigear links up perfectly with the outer part of the big gear, and this Pokémon's rotation speed increases sharply.",
+		'en-us': "When Klang goes all out, the minigear links up perfectly with the outer part of the big gear, and this Pokémon's rotation speed increases sharply.",
 	},
 
 	variants: [

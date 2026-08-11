@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Toxizap",
-		en: "Toxel",
-		es: "Toxel",
-		it: "Toxel",
-		pt: "Toxel",
-		de: "Toxel"
+		'fr-fr': "Toxizap",
+		'en-us': "Toxel",
+		'es-es': "Toxel",
+		'it-it': "Toxel",
+		'pt-br': "Toxel",
+		'de-de': "Toxel"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,24 +22,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Gifle",
-			en: "Slap",
-			es: "Bofetón",
-			it: "Sberla",
-			pt: "Tapa",
-			de: "Hieb"
+			'fr-fr': "Gifle",
+			'en-us': "Slap",
+			'es-es': "Bofetón",
+			'it-it': "Sberla",
+			'pt-br': "Tapa",
+			'de-de': "Hieb"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Choc Statique",
-			en: "Static Shock",
-			es: "Impacto Estático",
-			it: "Shock Statico",
-			pt: "Choque de Estática",
-			de: "Statischer Schock"
+			'fr-fr': "Choc Statique",
+			'en-us': "Static Shock",
+			'es-es': "Impacto Estático",
+			'it-it': "Shock Statico",
+			'pt-br': "Choque de Estática",
+			'de-de': "Statischer Schock"
 		},
 
 		damage: 20,
@@ -56,7 +56,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It stores poison in an internal poison sac and secretes that poison through its skin. If you touch this Pokémon, a tingling sensation follows."
+		'en-us': "It stores poison in an internal poison sac and secretes that poison through its skin. If you touch this Pokémon, a tingling sensation follows."
 	},
 
 	variants: [

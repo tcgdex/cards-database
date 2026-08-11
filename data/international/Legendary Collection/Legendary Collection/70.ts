@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Charmander"
+		'en-us': "Charmander"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch"
+				'en-us': "Scratch"
 			},
 
 			damage: 10,
@@ -39,10 +39,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ember"
+				'en-us': "Ember"
 			},
 			effect: {
-				en: "Discard 1 Fire Energy card attached to Charmander or this attack does nothing."
+				'en-us': "Discard 1 Fire Energy card attached to Charmander or this attack does nothing."
 			},
 			damage: 30,
 
@@ -59,7 +59,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Obviously prefers hot places. If it gets caught in the rain, steam is said to spout from the tip of its tail."
+		'en-us': "Obviously prefers hot places. If it gets caught in the rain, steam is said to spout from the tip of its tail."
 	},
 
 	variants: [

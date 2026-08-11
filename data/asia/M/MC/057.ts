@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アゴジムシ",
+		'ja-jp': "アゴジムシ",
 	},
 
 	illustrator: "Jerky",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "ネバネバの 糸を 吐いて 枝に 巻きつけ 振り子の 動きで 木から 木へと 身軽に 飛び移る。",
+		'ja-jp': "ネバネバの 糸を 吐いて 枝に 巻きつけ 振り子の 動きで 木から 木へと 身軽に 飛び移る。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、30ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、30ダメージ追加。",
 			},
 		},
 	],

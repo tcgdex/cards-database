@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カプ・テテフ",
+		'ja-jp': "カプ・テテフ",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "ヒラヒラ 飛びまわり 不思議に 光る 鱗粉を 振りまく。 触れた者は たちまち 元気を 取り戻すという。",
+		'ja-jp': "ヒラヒラ 飛びまわり 不思議に 光る 鱗粉を 振りまく。 触れた者は たちまち 元気を 取り戻すという。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "チャームチャーム" },
 			effect: {
-				ja: "自分の番に、自分の手札から名前に「フェアリーチャーム」とつく「ポケモンのどうぐ」を、このポケモンにつけるたび、1回使える。相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "自分の番に、自分の手札から名前に「フェアリーチャーム」とつく「ポケモンのどうぐ」を、このポケモンにつけるたび、1回使える。相手のバトルポケモンをこんらんにする。",
 			},
 		},
 	],

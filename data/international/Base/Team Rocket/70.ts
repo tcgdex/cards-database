@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Zubat",
-		fr: "Nosferapti",
-		de: "Zubat"
+		'en-us': "Zubat",
+		'fr-fr': "Nosferapti",
+		'de-de': "Zubat"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'de-de': "Ramme"
 			},
 
 			damage: 10,
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Biss"
 			},
 
 			damage: 20,
@@ -70,8 +70,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Lives in dark caves. Can occasionally be seen at night, when it flies in search of food.",
-		fr: "Il vie dans des caves sombres. On l'aperçoit la nuit, lorsqu'il vole à la recherche de nourriture."
+		'en-us': "Lives in dark caves. Can occasionally be seen at night, when it flies in search of food.",
+		'fr-fr': "Il vie dans des caves sombres. On l'aperçoit la nuit, lorsqu'il vole à la recherche de nourriture."
 	},
 
 

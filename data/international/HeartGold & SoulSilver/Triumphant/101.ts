@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Palkia & Dialga LEGEND",
-		fr: "Palkia & Dialga LÉGENDE",
-		de: "Palkia & Dialga LEGENDE"
+		'en-us': "Palkia & Dialga LEGEND",
+		'fr-fr': "Palkia & Dialga LÉGENDE",
+		'de-de': "Palkia & Dialga LEGENDE"
 	},
 
 	illustrator: "Shinji Higuchi + Sachiko Eba",
@@ -25,27 +25,27 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Sudden Delete",
-			fr: "",
-			de: "Plötzliche Tilgung"
+			'en-us': "Sudden Delete",
+			'fr-fr': "",
+			'de-de': "Plötzliche Tilgung"
 		},
 
 		effect: {
-			en: "Choose 1 of your opponent's Benched Pokémon. Put that Pokémon and all cards attached to it back to your opponent's hand.",
-			fr: "Vous ne pouvez placer cette carte sur votre Banc que si vous placez en même temps l’autre moitié de Palkia & Dialga LÉGENDE.",
-			de: "Wähle 1 Pokémon auf der Bank deines Gegners. Dein Gegner nimmt das gewählte Pokémon und alle an es angelegten Karten auf seine Hand zurück."
+			'en-us': "Choose 1 of your opponent's Benched Pokémon. Put that Pokémon and all cards attached to it back to your opponent's hand.",
+			'fr-fr': "Vous ne pouvez placer cette carte sur votre Banc que si vous placez en même temps l’autre moitié de Palkia & Dialga LÉGENDE.",
+			'de-de': "Wähle 1 Pokémon auf der Bank deines Gegners. Dein Gegner nimmt das gewählte Pokémon und alle an es angelegten Karten auf seine Hand zurück."
 		},
 
 		cost: ["Water", "Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Time Control",
-			de: "Zeitherrschaft"
+			'en-us': "Time Control",
+			'de-de': "Zeitherrschaft"
 		},
 
 		effect: {
-			en: "Discard all Metal Energy attached to Palkia & Dialga LEGEND. Add the top 2 cards of your opponent's deck to his or her Prize cards.",
-			de: "Lege alle -Energien, die an Palkia- und Dialga-LEGENDE angelegt sind, auf deinen Ablagestapel. Füge die obersten 2 Karten vom Deck deines Gegner seinen Preiskarten hinzu."
+			'en-us': "Discard all Metal Energy attached to Palkia & Dialga LEGEND. Add the top 2 cards of your opponent's deck to his or her Prize cards.",
+			'de-de': "Lege alle -Energien, die an Palkia- und Dialga-LEGENDE angelegt sind, auf deinen Ablagestapel. Füge die obersten 2 Karten vom Deck deines Gegner seinen Preiskarten hinzu."
 		},
 
 		cost: ["Metal", "Metal", "Colorless"]

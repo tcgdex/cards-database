@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ライチュウ&アローラライチュウGX",
+		'ja-jp': "ライチュウ&アローラライチュウGX",
 	},
 
 	illustrator: "ConceptLab",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "この番、このポケモンがベンチからバトル場に出ていたなら、80ダメージ追加し、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "この番、このポケモンがベンチからバトル場に出ていたなら、80ダメージ追加し、相手のバトルポケモンをマヒにする。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: "150+",
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "このポケモンをベンチポケモンと入れ替える。追加で[雷]エネルギーが2個ついているなら、100ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "このポケモンをベンチポケモンと入れ替える。追加で[雷]エネルギーが2個ついているなら、100ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Liepard",
-		fr: "Léopardus",
-		es: "Liepard",
-		it: "Liepard",
-		pt: "Liepard",
-		de: "Kleoparda"
+		'en-us': "Liepard",
+		'fr-fr': "Léopardus",
+		'es-es': "Liepard",
+		'it-it': "Liepard",
+		'pt-br': "Liepard",
+		'de-de': "Kleoparda"
 	},
 
 	illustrator: "TOKIYA",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Purrloin",
-		fr: "Chacripan",
-		es: "Purrloin",
-		it: "Purrloin",
-		pt: "Purrloin",
-		de: "Felilou"
+		'en-us': "Purrloin",
+		'fr-fr': "Chacripan",
+		'es-es': "Purrloin",
+		'it-it': "Purrloin",
+		'pt-br': "Purrloin",
+		'de-de': "Felilou"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Gentle Bite",
-				fr: "Morsure Douce",
-				es: "Mordisco Gentil",
-				it: "Morsetto",
-				pt: "Mordidinha",
-				de: "Sanfter Biss"
+				'en-us': "Gentle Bite",
+				'fr-fr': "Morsure Douce",
+				'es-es': "Mordisco Gentil",
+				'it-it': "Morsetto",
+				'pt-br': "Mordidinha",
+				'de-de': "Sanfter Biss"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 60 (before applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 60 (avant application de la Faiblesse et de la Résistance).",
-				es: "Durante el próximo turno de tu rival, cualquier daño infligido por ataques del Pokémon Defensor se reduce en 60 (antes de aplicar Debilidad y Resistencia).",
-				it: "Durante il prossimo turno del tuo avversario, i danni inflitti dagli attacchi del Pokémon difensore sono ridotti di 60, prima di aver applicato debolezza e resistenza.",
-				pt: "Durante a próxima vez de jogar do seu oponente, qualquer dano causado por ataques ao Pokémon Defensor será reduzido em 60 (antes da aplicação de Fraqueza e Resistência).",
-				de: "Während des nächsten Zuges deines Gegners wird Schaden, der durch Angriffe des Verteidigenden Pokémon zugefügt wird, um 60 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 60 (before applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 60 (avant application de la Faiblesse et de la Résistance).",
+				'es-es': "Durante el próximo turno de tu rival, cualquier daño infligido por ataques del Pokémon Defensor se reduce en 60 (antes de aplicar Debilidad y Resistencia).",
+				'it-it': "Durante il prossimo turno del tuo avversario, i danni inflitti dagli attacchi del Pokémon difensore sono ridotti di 60, prima di aver applicato debolezza e resistenza.",
+				'pt-br': "Durante a próxima vez de jogar do seu oponente, qualquer dano causado por ataques ao Pokémon Defensor será reduzido em 60 (antes da aplicação de Fraqueza e Resistência).",
+				'de-de': "Während des nächsten Zuges deines Gegners wird Schaden, der durch Angriffe des Verteidigenden Pokémon zugefügt wird, um 60 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 			damage: 10,
 
@@ -67,20 +67,20 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Mach Claw",
-				fr: "Instagriffe",
-				es: "Garra Mach",
-				it: "Artiglio Mach",
-				pt: "Garra Supersônica",
-				de: "Tempoklaue"
+				'en-us': "Mach Claw",
+				'fr-fr': "Instagriffe",
+				'es-es': "Garra Mach",
+				'it-it': "Artiglio Mach",
+				'pt-br': "Garra Supersônica",
+				'de-de': "Tempoklaue"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				es: "El daño de este ataque no se ve afectado por Resistencia.",
-				it: "Il danno di questo attacco non è influenzato dalla resistenza.",
-				pt: "Os danos deste ataque não são afetados por Resistência.",
-				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+				'it-it': "Il danno di questo attacco non è influenzato dalla resistenza.",
+				'pt-br': "Os danos deste ataque não são afetados por Resistência.",
+				'de-de': "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 40,
 
@@ -104,7 +104,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Their beautiful form comes from the muscles they have developed. They run silently in the night.",
+		'en-us': "Their beautiful form comes from the muscles they have developed. They run silently in the night.",
 	},
 
 	thirdParty: {

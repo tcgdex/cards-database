@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムックル",
+		'ja-jp': "ムックル",
 	},
 
 	illustrator: "Ligton",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "むしポケモンを ねらって 野山を 大勢の 群れで 飛び回る。 鳴き声が とても やかましい。",
+		'ja-jp': "むしポケモンを ねらって 野山を 大勢の 群れで 飛び回る。 鳴き声が とても やかましい。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
 			},
 		},
 	],

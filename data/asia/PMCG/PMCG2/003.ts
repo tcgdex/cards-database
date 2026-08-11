@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パラス",
+		'ja-jp': "パラス",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "傷",
+				'ja-jp': "傷",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "胞子",
+				'ja-jp': "胞子",
 			},
 			effect: {
-				ja: "防御ポケモンは今眠っています。",
+				'ja-jp': "防御ポケモンは今眠っています。",
 			},
 
 		},

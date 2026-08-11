@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Onix",
-		fr: "Onix",
-		es: "Onix",
-		it: "Onix",
-		pt: "Onix",
-		de: "Onix"
+		'en-us': "Onix",
+		'fr-fr': "Onix",
+		'es-es': "Onix",
+		'it-it': "Onix",
+		'pt-br': "Onix",
+		'de-de': "Onix"
 	},
 
 	illustrator: "otumami",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dig Deep",
-				fr: "Trou Profond",
-				es: "Cavahondo",
-				it: "Scavaffondo",
-				pt: "Cavar Fundo",
-				de: "Tief graben"
+				'en-us': "Dig Deep",
+				'fr-fr': "Trou Profond",
+				'es-es': "Cavahondo",
+				'it-it': "Scavaffondo",
+				'pt-br': "Cavar Fundo",
+				'de-de': "Tief graben"
 			},
 			effect: {
-				en: "Put an Energy card from your discard pile into your hand.",
-				fr: "Ajoutez une carte Énergie de votre pile de défausse à votre main.",
-				es: "Pon 1 carta de Energía de tu pila de descartes en tu mano.",
-				it: "Prendi una carta Energia dalla tua pila degli scarti e aggiungila a quelle che hai in mano.",
-				pt: "Coloque 1 carta de Energia da sua pilha de descarte na sua mão.",
-				de: "Nimm 1 Energiekarte aus deinem Ablagestapel auf deine Hand."
+				'en-us': "Put an Energy card from your discard pile into your hand.",
+				'fr-fr': "Ajoutez une carte Énergie de votre pile de défausse à votre main.",
+				'es-es': "Pon 1 carta de Energía de tu pila de descartes en tu mano.",
+				'it-it': "Prendi una carta Energia dalla tua pila degli scarti e aggiungila a quelle che hai in mano.",
+				'pt-br': "Coloque 1 carta de Energia da sua pilha de descarte na sua mão.",
+				'de-de': "Nimm 1 Energiekarte aus deinem Ablagestapel auf deine Hand."
 			},
 
 		},
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Smash",
-				fr: "Éclate-Queue",
-				es: "Coletazo",
-				it: "Coda Esplosiva",
-				pt: "Pancada de Cauda",
-				de: "Schwanzschmetterer"
+				'en-us': "Tail Smash",
+				'fr-fr': "Éclate-Queue",
+				'es-es': "Coletazo",
+				'it-it': "Coda Esplosiva",
+				'pt-br': "Pancada de Cauda",
+				'de-de': "Schwanzschmetterer"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
-				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-				pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
-				de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+				'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+				'pt-br': "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+				'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 			},
 			damage: 100,
 
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Burrows at high speed in search of food. The tunnels it leaves are used as homes by Diglett.",
+		'en-us': "Burrows at high speed in search of food. The tunnels it leaves are used as homes by Diglett.",
 	},
 
 	thirdParty: {

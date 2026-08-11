@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cubone",
-		fr: "Osselait",
-		es: "Cubone",
-		it: "Cubone",
-		pt: "Cubone",
-		de: "Tragosso"
+		'en-us': "Cubone",
+		'fr-fr': "Osselait",
+		'es-es': "Cubone",
+		'it-it': "Cubone",
+		'pt-br': "Cubone",
+		'de-de': "Tragosso"
 	},
 
 	illustrator: "You Iribi",
@@ -22,24 +22,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Beat",
-			fr: "Bataille",
-			es: "Toque",
-			it: "Battuta",
-			pt: "Pulso",
-			de: "Verprügler"
+			'en-us': "Beat",
+			'fr-fr': "Bataille",
+			'es-es': "Toque",
+			'it-it': "Battuta",
+			'pt-br': "Pulso",
+			'de-de': "Verprügler"
 		},
 
 		damage: 10,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			es: "Golpe Cabeza",
-			it: "Bottintesta",
-			pt: "Cabeçada",
-			de: "Kopfnuss"
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'es-es': "Golpe Cabeza",
+			'it-it': "Bottintesta",
+			'pt-br': "Cabeçada",
+			'de-de': "Kopfnuss"
 		},
 
 		damage: 30,
@@ -58,7 +58,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It wears its mother's skull on its head, so no one knows what its bare face looks like. However, it's clear that it's always crying."
+		'en-us': "It wears its mother's skull on its head, so no one knows what its bare face looks like. However, it's clear that it's always crying."
 	},
 
 	variants: [

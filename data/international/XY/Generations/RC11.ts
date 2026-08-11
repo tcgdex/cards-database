@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Wobbuffet",
-		fr: "Qulbutoké",
+		'en-us': "Wobbuffet",
+		'fr-fr': "Qulbutoké",
 	},
 
 	illustrator: "Yukiko Baba",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Bide Barricade",
-				fr: "Épreuve d'Endurance",
+				'en-us': "Bide Barricade",
+				'fr-fr': "Épreuve d'Endurance",
 			},
 			effect: {
-				en: "As long as this Pokémon is your Active Pokémon, each Pokémon in play, in each player's hand, and in each player's discard pile has no Abilities (except for Psychic Pokémon).",
-				fr: "Tant que ce Pokémon est votre Pokémon Actif, chacun des Pokémon en jeu, dans la main de chaque joueur et dans la pile de défausse de chaque joueur, n'a pas de talent (à part les Pokémon Psychic).",
+				'en-us': "As long as this Pokémon is your Active Pokémon, each Pokémon in play, in each player's hand, and in each player's discard pile has no Abilities (except for Psychic Pokémon).",
+				'fr-fr': "Tant que ce Pokémon est votre Pokémon Actif, chacun des Pokémon en jeu, dans la main de chaque joueur et dans la pile de défausse de chaque joueur, n'a pas de talent (à part les Pokémon Psychic).",
 			},
 		},
 	],
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic Assault",
-				fr: "Assaut Psychique",
+				'en-us': "Psychic Assault",
+				'fr-fr': "Assaut Psychique",
 			},
 			effect: {
-				en: "This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.",
-				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur le Pokémon Actif de votre adversaire.",
+				'en-us': "This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.",
+				'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur le Pokémon Actif de votre adversaire.",
 			},
 			damage: "10+",
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When she's surrounded by cushions and dressers that I like, she looks just like a princess!",
+		'en-us': "When she's surrounded by cushions and dressers that I like, she looks just like a princess!",
 	},
 
 	thirdParty: {

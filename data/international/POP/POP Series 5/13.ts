@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 5'
 
 const card: Card = {
 	name: {
-		en: "Pikachu δ",
-		fr: "Pikachu δ"
+		'en-us': "Pikachu δ",
+		'fr-fr': "Pikachu δ"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electric Punch",
-				fr: "Poing électrique"
+				'en-us': "Electric Punch",
+				'fr-fr': "Poing électrique"
 			},
 
 			damage: 10,
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heavy Metal",
-				fr: "Heavy Métal"
+				'en-us': "Heavy Metal",
+				'fr-fr': "Heavy Métal"
 			},
 			effect: {
-				en: "Flip a coin for each Metal Energy attached to Pikachu. This attack does 10 damage plus 20 more damage for each heads.",
-				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergie  attachées à Pikachu. Cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires pour chaque face."
+				'en-us': "Flip a coin for each Metal Energy attached to Pikachu. This attack does 10 damage plus 20 more damage for each heads.",
+				'fr-fr': "Lancez un nombre de pièces équivalent au nombre d'Énergie  attachées à Pikachu. Cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires pour chaque face."
 			},
 			damage: "10+",
 

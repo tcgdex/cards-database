@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit 2 (Plusle)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Metang",
-		fr: "Metang"
+		'en-us': "Metang",
+		'fr-fr': "Metang"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Beldum",
-		fr: "Terhal"
+		'en-us': "Beldum",
+		'fr-fr': "Terhal"
 	},
 
 	attacks: [{
@@ -31,12 +31,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Psychic Boom",
-			fr: "Psycho-boom"
+			'en-us': "Psychic Boom",
+			'fr-fr': "Psycho-boom"
 		},
 		effect: {
-			en: "Does 10 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
-			fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur."
+			'en-us': "Does 10 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
+			'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur."
 		},
 		damage: "10+"
 	}, {
@@ -46,12 +46,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Quick Blow",
-			fr: "Coup d'poing éclair"
+			'en-us': "Quick Blow",
+			'fr-fr': "Coup d'poing éclair"
 		},
 		effect: {
-			en: "Flip a coin. If heads, this attack does 40 damage plus 20 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires."
+			'en-us': "Flip a coin. If heads, this attack does 40 damage plus 20 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires."
 		},
 		damage: "40+"
 	}],

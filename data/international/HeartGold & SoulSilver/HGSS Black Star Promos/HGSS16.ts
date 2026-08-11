@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HGSS Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Plusle",
-		fr: "Posipi"
+		'en-us': "Plusle",
+		'fr-fr': "Posipi"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Promo",
@@ -26,12 +26,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collectionner"
+				'en-us': "Collect",
+				'fr-fr': "Collectionner"
 			},
 			effect: {
-				en: "Draw 2 cards.",
-				fr: "Piochez 2 cartes."
+				'en-us': "Draw 2 cards.",
+				'fr-fr': "Piochez 2 cartes."
 			},
 
 		},
@@ -40,12 +40,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunder Jolt",
-				fr: "Secousse tonnerre"
+				'en-us': "Thunder Jolt",
+				'fr-fr': "Secousse tonnerre"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Plusle does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Posipi s'inflige 10 dégâts."
+				'en-us': "Flip a coin. If tails, Plusle does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Posipi s'inflige 10 dégâts."
 			},
 			damage: 20,
 
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises."
+		'en-us': "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises."
 	},
 
 	variants: [

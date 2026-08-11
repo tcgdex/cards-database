@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Phantump",
-		fr: "Brocélôme",
-		es: "Phantump",
-		it: "Phantump",
-		pt: "Phantump",
-		de: "Paragoni"
+		'en-us': "Phantump",
+		'fr-fr': "Brocélôme",
+		'es-es': "Phantump",
+		'it-it': "Phantump",
+		'pt-br': "Phantump",
+		'de-de': "Paragoni"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Hook",
-			fr: "Crochet",
-			es: "Garfio",
-			it: "Uncino",
-			pt: "Gancho",
-			de: "Haken"
+			'en-us': "Hook",
+			'fr-fr': "Crochet",
+			'es-es': "Garfio",
+			'it-it': "Uncino",
+			'pt-br': "Gancho",
+			'de-de': "Haken"
 		},
 
 		damage: 10

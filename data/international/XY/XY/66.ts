@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Gurdurr",
-		fr: "Ouvrifier",
-		es: "Gurdurr",
-		it: "Gurdurr",
-		pt: "Gurdurr",
-		de: "Strepoli"
+		'en-us': "Gurdurr",
+		'fr-fr': "Ouvrifier",
+		'es-es': "Gurdurr",
+		'it-it': "Gurdurr",
+		'pt-br': "Gurdurr",
+		'de-de': "Strepoli"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Timburr",
-		fr: "Charpenti",
-		es: "Timburr",
-		it: "Timburr",
-		pt: "Timburr",
-		de: "Praktibalk"
+		'en-us': "Timburr",
+		'fr-fr': "Charpenti",
+		'es-es': "Timburr",
+		'it-it': "Timburr",
+		'pt-br': "Timburr",
+		'de-de': "Praktibalk"
 	},
 
 	stage: "Stage1",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pummel",
-				fr: "Martelage",
-				es: "Aporrear",
-				it: "Legnata",
-				pt: "Esmurrar",
-				de: "Trommler"
+				'en-us': "Pummel",
+				'fr-fr': "Martelage",
+				'es-es': "Aporrear",
+				'it-it': "Legnata",
+				'pt-br': "Esmurrar",
+				'de-de': "Trommler"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-				pt: "Jogue uma moeda. Se sair cara, esse ataque causará 20 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+				'pt-br': "Jogue uma moeda. Se sair cara, esse ataque causará 20 de danos adicionais.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -69,20 +69,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer Arm",
-				fr: "Marto-Poing",
-				es: "Machada",
-				it: "Martelpugno",
-				pt: "Braço de Martelo",
-				de: "Hammerarm"
+				'en-us': "Hammer Arm",
+				'fr-fr': "Marto-Poing",
+				'es-es': "Machada",
+				'it-it': "Martelpugno",
+				'pt-br': "Braço de Martelo",
+				'de-de': "Hammerarm"
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-				es: "Descarta la primera carta de la baraja de tu rival.",
-				it: "Scarta la carta in cima al mazzo del tuo avversario.",
-				pt: "Descarte o card de cima do baralho do seu oponente.",
-				de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard the top card of your opponent's deck.",
+				'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+				'es-es': "Descarta la primera carta de la baraja de tu rival.",
+				'it-it': "Scarta la carta in cima al mazzo del tuo avversario.",
+				'pt-br': "Descarte o card de cima do baralho do seu oponente.",
+				'de-de': "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 60,
 
@@ -99,7 +99,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "With strengthened bodies, they skillfully wield steel beams to take down buildings.",
+		'en-us': "With strengthened bodies, they skillfully wield steel beams to take down buildings.",
 	},
 
 	thirdParty: {

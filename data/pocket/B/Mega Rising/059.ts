@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Crawdaunt"
+		'en-us': "Crawdaunt"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Corphish"
+		'en-us': "Corphish"
 	},
 
 	description: {
-		en: "A brutish Pokémon that loves to battle. It will\ncrash itself into any foe that approaches its nest."
+		'en-us': "A brutish Pokémon that loves to battle. It will\ncrash itself into any foe that approaches its nest."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Guillotine"
+			'en-us': "Guillotine"
 		},
 
 		damage: 90,

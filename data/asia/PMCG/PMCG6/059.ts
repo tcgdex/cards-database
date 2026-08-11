@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サカキのゴーリキー",
+		'ja-jp': "サカキのゴーリキー",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "危険な攻撃",
+				'ja-jp': "危険な攻撃",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、この攻撃は防御ポケモンにダメージを与えません。ジョバンニのマチョークはそれ自体に100のダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃は防御ポケモンにダメージを与えません。ジョバンニのマチョークはそれ自体に100のダメージを与えます。",
 			},
 			damage: 60,
 		},
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
-				ja: "ヘッドロック",
+				'ja-jp': "ヘッドロック",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて20ダメージを与え、防御ポケモンが麻痺しています。尾の場合、この攻撃は20ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて20ダメージを与え、防御ポケモンが麻痺しています。尾の場合、この攻撃は20ダメージを与えます。",
 			},
 		},
 	],

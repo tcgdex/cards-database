@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Vibrava δ",
-		fr: "Vibraninf δ",
-		de: "Vibrava"
+		'en-us': "Vibrava δ",
+		'fr-fr': "Vibraninf δ",
+		'de-de': "Vibrava"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Trapinch",
-		fr: "Kraknoix"
+		'en-us': "Trapinch",
+		'fr-fr': "Kraknoix"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Psychic Wing",
-				fr: "Aile psy",
-				de: "Psychoflügel"
+				'en-us': "Psychic Wing",
+				'fr-fr': "Aile psy",
+				'de-de': "Psychoflügel"
 			},
 			effect: {
-				en: "If Vibrava has any Psychic Energy attached to it, the Retreat Cost for Vibrava is 0.",
-				fr: "Si Vibraninf possède de l'Énergie , son Coût de retraite est de 0.",
-				de: "Wenn mindestens 1 -Energie an Vibrava angelegt ist, hat Vibrava Rückzugskosten 0."
+				'en-us': "If Vibrava has any Psychic Energy attached to it, the Retreat Cost for Vibrava is 0.",
+				'fr-fr': "Si Vibraninf possède de l'Énergie , son Coût de retraite est de 0.",
+				'de-de': "Wenn mindestens 1 -Energie an Vibrava angelegt ist, hat Vibrava Rückzugskosten 0."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Blow",
-				fr: "Coup d'poing éclair",
-				de: "Schnellschlag"
+				'en-us': "Quick Blow",
+				'fr-fr': "Coup d'poing éclair",
+				'de-de': "Schnellschlag"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 

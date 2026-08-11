@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Lightning Energy",
-		fr: "Énergie Lightning de base",
+		'en-us': "Lightning Energy",
+		'fr-fr': "Énergie Lightning de base",
 	},
 
 	illustrator: undefined,

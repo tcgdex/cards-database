@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "結草兒",
-		ja: "ミノムッチ"
+		'ja-jp': "ミノムッチ"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "如果蓑衣在戰鬥中壞掉了，就會用附近的材料 立刻重新做一件蓑衣。",
-		ja: "戦いで ミノが 壊れてしまうと 近くにある 材料で ミノを すぐに 作り直す。"
+		'ja-jp': "戦いで ミノが 壊れてしまうと 近くにある 材料で ミノを すぐに 作り直す。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "垂吊",
-			ja: "ぶらさがる"
+			'ja-jp': "ぶらさがる"
 		},
 
 		damage: 20,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Crawdaunt",
-		fr: "Colhomard de Team Aqua",
-		de: "Team Aquas Krebutack"
+		'en-us': "Team Aqua's Crawdaunt",
+		'fr-fr': "Colhomard de Team Aqua",
+		'de-de': "Team Aquas Krebutack"
 	},
 
 	illustrator: "Nakaoka",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Reverse",
-				fr: "Aqua-revers",
-				de: "Aqua Reverse"
+				'en-us': "Aqua Reverse",
+				'fr-fr': "Aqua-revers",
+				'de-de': "Aqua Reverse"
 			},
 			effect: {
-				en: "Before doing damage, you may choose 1 of your opponent's Benched Pokémon that has Team Magma in its name and switch it with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.",
-				fr: "Avant d'infliger des dégâts, vous pouvez choisir 1 des Pokémon de Banc de votre adversaire dont le nom comporte Team Aqua et l'échanger avec 1 des Pokémon Défenseurs. Votre adversaire choisit le Pokémon Défenseur à échanger.",
-				de: "Before doing damage, you may choose 1 of your opponent's Benched Pokémon that has Team Magma in its name and switch it with 1 of the Defending Pokémon. Your opponent chooses which Defending Pokémon to switch."
+				'en-us': "Before doing damage, you may choose 1 of your opponent's Benched Pokémon that has Team Magma in its name and switch it with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.",
+				'fr-fr': "Avant d'infliger des dégâts, vous pouvez choisir 1 des Pokémon de Banc de votre adversaire dont le nom comporte Team Aqua et l'échanger avec 1 des Pokémon Défenseurs. Votre adversaire choisit le Pokémon Défenseur à échanger.",
+				'de-de': "Before doing damage, you may choose 1 of your opponent's Benched Pokémon that has Team Magma in its name and switch it with 1 of the Defending Pokémon. Your opponent chooses which Defending Pokémon to switch."
 			},
 			damage: 20,
 
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Deep Impact",
-				fr: "Grosse collision",
-				de: "Deep Impact"
+				'en-us': "Deep Impact",
+				'fr-fr': "Grosse collision",
+				'de-de': "Deep Impact"
 			},
 			effect: {
-				en: "If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Confused.",
-				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, il est maintenant Paralysé.",
-				de: "If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Confused."
+				'en-us': "If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Confused.",
+				'fr-fr': "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, il est maintenant Paralysé.",
+				'de-de': "If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Confused."
 			},
 			damage: 40,
 

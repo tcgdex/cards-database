@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "洗翠 火爆獸VSTAR",
-		ja: "ヒスイ バクフーンVSTAR"
+		'ja-jp': "ヒスイ バクフーンVSTAR"
 	},
 
 	illustrator: "5ban Graphics",
@@ -18,12 +18,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "陰森火焰",
-			ja: "ホロウフレイム"
+			'ja-jp': "ホロウフレイム"
 		},
 
 		effect: {
 			'zh-tw': "將3個傷害指示物以任意方式放置於對手的備戰寶可夢身上。",
-			ja: "ダメカン3個を、相手のベンチポケモンに好きなようにのせる。"
+			'ja-jp': "ダメカン3個を、相手のベンチポケモンに好きなようにのせる。"
 		},
 
 		damage: 180,
@@ -31,12 +31,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "[VSTAR力量]陽炎星星",
-			ja: "カゲロウスター"
+			'ja-jp': "カゲロウスター"
 		},
 
 		effect: {
 			'zh-tw': "若對手的戰鬥寶可夢身上放置的傷害指示物為4個，則將那隻寶可夢【氣絕】。[對戰中，己方只可使用1次【VSTAR】力量。]",
-			ja: "相手のバトルポケモンにのっているダメカンが4個なら、そのポケモンをきぜつさせる。［対戦中、自分はVSTARパワーを1回しか使えない。］"
+			'ja-jp': "相手のバトルポケモンにのっているダメカンが4個なら、そのポケモンをきぜつさせる。［対戦中、自分はVSTARパワーを1回しか使えない。］"
 		},
 
 		cost: ["Psychic"]

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Bisharp",
-		fr: "Scalproie",
-		es: "Bisharp",
-		it: "Bisharp",
-		pt: "Bisharp",
-		de: "Caesurio"
+		'en-us': "Bisharp",
+		'fr-fr': "Scalproie",
+		'es-es': "Bisharp",
+		'it-it': "Bisharp",
+		'pt-br': "Bisharp",
+		'de-de': "Caesurio"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pawniard",
-		fr: "Scalpion",
+		'en-us': "Pawniard",
+		'fr-fr': "Scalpion",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Finishing Blow",
-				fr: "Coup de Grâce",
+				'en-us': "Finishing Blow",
+				'fr-fr': "Coup de Grâce",
 			},
 			effect: {
-				en: "If the Defending Pokémon already has any damage counters on it, this attack does 50 more damage.",
-				fr: "Si le Pokémon Défenseur a déjà des marqueurs de dégâts, cette attaque inflige 50 dégâts supplémentaires.",
+				'en-us': "If the Defending Pokémon already has any damage counters on it, this attack does 50 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur a déjà des marqueurs de dégâts, cette attaque inflige 50 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Night Slash",
-				fr: "Tranche-Nuit",
+				'en-us': "Night Slash",
+				'fr-fr': "Tranche-Nuit",
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
 			},
 			damage: 30,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Bisharp pursues prey in the company of a large group of Pawniard. Then Bisharp finishes off the prey.",
+		'en-us': "Bisharp pursues prey in the company of a large group of Pawniard. Then Bisharp finishes off the prey.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラゴローニャGX",
+		'ja-jp': "アローラゴローニャGX",
 	},
 
 	illustrator: "",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Lightning", "Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも50ダメージ。",
+				'ja-jp': "このポケモンにも50ダメージ。",
 			},
 		},
 		{
@@ -33,7 +33,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Lightning", "Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、相手は手札からカードを出して使えない。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "次の相手の番、相手は手札からカードを出して使えない。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -51,7 +51,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アローラゴローン",
+		'ja-jp': "アローラゴローン",
 	},
 
 	retreat: 4,

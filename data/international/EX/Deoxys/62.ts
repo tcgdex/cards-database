@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Koffing",
-		fr: "Smogo",
-		de: "Smogon"
+		'en-us': "Koffing",
+		'fr-fr': "Smogo",
+		'de-de': "Smogon"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Smog",
-				fr: "Purédpois",
-				de: "Smog"
+				'en-us': "Smog",
+				'fr-fr': "Purédpois",
+				'de-de': "Smog"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "The Defending Pokémon is now Poisoned."
 			},
 
 		},

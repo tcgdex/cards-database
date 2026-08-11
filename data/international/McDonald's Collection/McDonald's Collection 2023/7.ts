@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2023'
 
 const card: Card = {
 	name: {
-		en: "Pawmi",
-		fr: "Pohm",
-		es: "Pawmi",
-		it: "Pawmi",
-		pt: "Pawmi",
-		de: "Pamo"
+		'en-us': "Pawmi",
+		'fr-fr': "Pohm",
+		'es-es': "Pawmi",
+		'it-it': "Pawmi",
+		'pt-br': "Pawmi",
+		'de-de': "Pamo"
 	},
 
 	illustrator: "kantaro",
@@ -28,19 +28,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				en: "Light Punch",
+				'en-us': "Light Punch",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				en: "Zap Kick",
-				fr: "Coup d'Jus",
-				es: "Patada Eléctrica",
-				it: "Elettrocalcio",
-				pt: "Chute Elétrico",
-				de: "Stromtritt"
+				'en-us': "Zap Kick",
+				'fr-fr': "Coup d'Jus",
+				'es-es': "Patada Eléctrica",
+				'it-it': "Elettrocalcio",
+				'pt-br': "Chute Elétrico",
+				'de-de': "Stromtritt"
 			},
 			damage: 20,
 		},

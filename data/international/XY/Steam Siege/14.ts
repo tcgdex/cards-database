@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Larvesta",
-		fr: "Pyronille",
-		es: "Larvesta",
-		it: "Larvesta",
-		pt: "Larvesta",
-		de: "Ignivor"
+		'en-us': "Larvesta",
+		'fr-fr': "Pyronille",
+		'es-es': "Larvesta",
+		'it-it': "Larvesta",
+		'pt-br': "Larvesta",
+		'de-de': "Ignivor"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bug Bite",
-				fr: "Piqûre",
-				es: "Picadura",
-				it: "Coleomorso",
-				pt: "Picada",
-				de: "Käferbiss"
+				'en-us': "Bug Bite",
+				'fr-fr': "Piqûre",
+				'es-es': "Picadura",
+				'it-it': "Coleomorso",
+				'pt-br': "Picada",
+				'de-de': "Käferbiss"
 			},
 
 			damage: 30,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The base of volcanoes is where they make their homes. They shoot fire from their five horns to repel attacking enemies.",
+		'en-us': "The base of volcanoes is where they make their homes. They shoot fire from their five horns to repel attacking enemies.",
 	},
 
 	thirdParty: {

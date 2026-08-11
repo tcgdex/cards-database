@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Toedscruel",
-		fr: "Terracruel",
-		es: "Toedscruel",
-		de: "Tenterra",
-		it: "Toedscruel",
-		pt: "Toedscruel",
+		'en-us': "Toedscruel",
+		'fr-fr': "Terracruel",
+		'es-es': "Toedscruel",
+		'de-de': "Tenterra",
+		'it-it': "Toedscruel",
+		'pt-br': "Toedscruel",
 		'es-mx': "Toedscruel"
   },
   illustrator: "Kouki Saitou",
@@ -19,12 +19,12 @@ const card: Card = {
   types: ["Fighting"],
   dexId: [949],
   evolveFrom: {
-		en: "Toedscool",
-		fr: "Terracool",
-		es: "Toedscool",
-		de: "Tentagra",
-		it: "Toedscool",
-		pt: "Toedscool",
+		'en-us': "Toedscool",
+		'fr-fr': "Terracool",
+		'es-es': "Toedscool",
+		'de-de': "Tentagra",
+		'it-it': "Toedscool",
+		'pt-br': "Toedscool",
 		'es-mx': "Toedscool"
   },
   description: {

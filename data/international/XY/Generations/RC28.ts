@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Flareon EX",
-		fr: "Pyroli-EX",
+		'en-us': "Flareon EX",
+		'fr-fr': "Pyroli-EX",
 	},
 
 	illustrator: "kirisAki",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Flash Fire",
-				fr: "Torche",
+				'en-us': "Flash Fire",
+				'fr-fr': "Torche",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may move a Fire Energy from 1 of your Pokémon to this Pokémon.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez déplacer une Énergie Fire de l'un de vos Pokémon vers ce Pokémon.",
+				'en-us': "Once during your turn (before your attack), you may move a Fire Energy from 1 of your Pokémon to this Pokémon.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez déplacer une Énergie Fire de l'un de vos Pokémon vers ce Pokémon.",
 			},
 		},
 	],
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blaze Ball",
-				fr: "Balle Incendiaire",
+				'en-us': "Blaze Ball",
+				'fr-fr': "Balle Incendiaire",
 			},
 			effect: {
-				en: "This attack does 20 more damage for each Fire Energy attached to this Pokémon.",
-				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie Fire attachée à ce Pokémon.",
+				'en-us': "This attack does 20 more damage for each Fire Energy attached to this Pokémon.",
+				'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie Fire attachée à ce Pokémon.",
 			},
 			damage: "50+",
 

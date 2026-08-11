@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Cherubi",
-		de: "Kikugi"
+		'en-us': "Cherubi",
+		'de-de': "Kikugi"
 	},
 
 	illustrator: "Yuka Morii",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				de: "Ramme"
+				'en-us': "Ram",
+				'de-de': "Ramme"
 			},
 
 			damage: 10,
@@ -41,8 +41,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Solarbeam",
-				de: "Solarstrahl"
+				'en-us': "Solarbeam",
+				'de-de': "Solarstrahl"
 			},
 
 			damage: 20,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The small ball is not only filled with nutrients, it is also tasty. Starly try to peck it off."
+		'en-us': "The small ball is not only filled with nutrients, it is also tasty. Starly try to peck it off."
 	},
 
 	variants: [

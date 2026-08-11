@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Luxray",
-		de: "Luxtra"
+		'en-us': "Luxray",
+		'de-de': "Luxtra"
 	},
 
 	illustrator: "kawayoo",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Luxio"
+		'en-us': "Luxio"
 	},
 
 	stage: "Stage2",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Flash",
-				de: "Blitz"
+				'en-us': "Flash",
+				'de-de': "Blitz"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'de-de': "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gadget Bolt",
-				de: "Zubehörschuss"
+				'en-us': "Gadget Bolt",
+				'de-de': "Zubehörschuss"
 			},
 			effect: {
-				en: "If Luxray has a Pokémon Tool card attached to it, you may do 100 damage instead of 60 to the Defending Pokémon. If you do, discard that Pokémon Tool card.",
-				de: "Wenn an Luxtra 1 Pokémon-Ausrüstung angelegt ist, kannst du diesen Angiff dem Verteidigenden Pokémon 100 Schadenspunkte anstelle von 60 Schadenspunkten zufügen lassen. Wenn du das machst, lege die Pokémon-Ausrüstung auf deinen Ablagestapel."
+				'en-us': "If Luxray has a Pokémon Tool card attached to it, you may do 100 damage instead of 60 to the Defending Pokémon. If you do, discard that Pokémon Tool card.",
+				'de-de': "Wenn an Luxtra 1 Pokémon-Ausrüstung angelegt ist, kannst du diesen Angiff dem Verteidigenden Pokémon 100 Schadenspunkte anstelle von 60 Schadenspunkten zufügen lassen. Wenn du das machst, lege die Pokémon-Ausrüstung auf deinen Ablagestapel."
 			},
 			damage: 60,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It can see clearly through walls to track down its prey and seek its lost young."
+		'en-us': "It can see clearly through walls to track down its prey and seek its lost young."
 	},
 
 	variants: [

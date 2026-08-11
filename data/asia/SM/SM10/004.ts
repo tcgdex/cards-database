@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラフレシア",
+		'ja-jp': "ラフレシア",
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "花びらが 大きいほど たくさん 花粉を 出すが 頭が 重たくて 疲れてしまうという。",
+		'ja-jp': "花びらが 大きいほど たくさん 花粉を 出すが 頭が 重たくて 疲れてしまうという。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "バラエティかふん" },
 			effect: {
-				ja: "自分の番に1回使える。コインを1回投げオモテなら、どく・やけど・ねむり・こんらんの中から1つを選び、相手のバトルポケモンをその特殊状態にする。",
+				'ja-jp': "自分の番に1回使える。コインを1回投げオモテなら、どく・やけど・ねむり・こんらんの中から1つを選び、相手のバトルポケモンをその特殊状態にする。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Grass", "Grass", "Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「30」回復する。",
+				'ja-jp': "このポケモンのHPを「30」回復する。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "クサイハナ",
+		'ja-jp': "クサイハナ",
 	},
 
 	retreat: 3,

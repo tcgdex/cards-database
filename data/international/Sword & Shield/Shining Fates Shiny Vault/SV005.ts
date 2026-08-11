@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Badabouin",
-		en: "Thwackey",
-		es: "Thwackey",
-		it: "Thwackey",
-		pt: "Thwackey",
-		de: "Chimstix"
+		'fr-fr': "Badabouin",
+		'en-us': "Thwackey",
+		'es-es': "Thwackey",
+		'it-it': "Thwackey",
+		'pt-br': "Thwackey",
+		'de-de': "Chimstix"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -21,40 +21,40 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		fr: "Ouistempo",
-		en: "Grookey"
+		'fr-fr': "Ouistempo",
+		'en-us': "Grookey"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			fr: "Avantage du Terrain",
-			en: "Lay of the Land",
-			es: "Dominio del Terreno",
-			it: "Dominio del Territorio",
-			pt: "Dono do Pedaço",
-			de: "Ortskunde"
+			'fr-fr': "Avantage du Terrain",
+			'en-us': "Lay of the Land",
+			'es-es': "Dominio del Terreno",
+			'it-it': "Dominio del Territorio",
+			'pt-br': "Dono do Pedaço",
+			'de-de': "Ortskunde"
 		},
 
 		effect: {
-			fr: "Si vous avez un Stade en jeu, ce Pokémon n'a pas de Coût de Retraite.",
-			en: "If you have a Stadium in play, this Pokémon has no Retreat Cost.",
-			es: "Si tienes un Estadio en juego, este Pokémon no tiene ningún Coste de Retirada.",
-			it: "Se hai in gioco una carta Stadio, questo Pokémon non ha costo di ritirata.",
-			pt: "Se você tiver um Estádio em jogo, este Pokémon não terá custo de Recuo.",
-			de: "Wenn du eine Stadionkarte im Spiel hast, hat dieses Pokémon keine Rückzugskosten."
+			'fr-fr': "Si vous avez un Stade en jeu, ce Pokémon n'a pas de Coût de Retraite.",
+			'en-us': "If you have a Stadium in play, this Pokémon has no Retreat Cost.",
+			'es-es': "Si tienes un Estadio en juego, este Pokémon no tiene ningún Coste de Retirada.",
+			'it-it': "Se hai in gioco una carta Stadio, questo Pokémon non ha costo di ritirata.",
+			'pt-br': "Se você tiver um Estádio em jogo, este Pokémon não terá custo de Recuo.",
+			'de-de': "Wenn du eine Stadionkarte im Spiel hast, hat dieses Pokémon keine Rückzugskosten."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			fr: "Tapotige",
-			en: "Branch Poke",
-			es: "Punzada Rama",
-			it: "Ramostoccata",
-			pt: "Cutucada com Galho",
-			de: "Zweigstoß"
+			'fr-fr': "Tapotige",
+			'en-us': "Branch Poke",
+			'es-es': "Punzada Rama",
+			'it-it': "Ramostoccata",
+			'pt-br': "Cutucada com Galho",
+			'de-de': "Zweigstoß"
 		},
 
 		damage: 20,
@@ -71,7 +71,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "The faster a Thwackey can beat out a rhythm with its two sticks, the more respect it wins from its peers."
+		'en-us': "The faster a Thwackey can beat out a rhythm with its two sticks, the more respect it wins from its peers."
 	},
 
 	variants: [

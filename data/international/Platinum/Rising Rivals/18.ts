@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Espeon E4",
-		fr: "Mentali  Niv. 55",
-		de: "Psiana 4"
+		'en-us': "Espeon E4",
+		'fr-fr': "Mentali  Niv. 55",
+		'de-de': "Psiana 4"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
@@ -27,14 +27,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnosis",
-				fr: "Hypnose",
-				de: "Hypnose"
+				'en-us': "Hypnosis",
+				'fr-fr': "Hypnose",
+				'de-de': "Hypnose"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -44,14 +44,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psywave",
-				fr: "Vague psy",
-				de: "Psywelle"
+				'en-us': "Psywave",
+				'fr-fr': "Vague psy",
+				'de-de': "Psywelle"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
-				de: "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede Energie, die am Verteidigenden Pokémon angelegt ist, zu."
+				'en-us': "Does 20 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
+				'fr-fr': "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede Energie, die am Verteidigenden Pokémon angelegt ist, zu."
 			},
 			damage: "20+",
 

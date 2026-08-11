@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Karrablast",
-		fr: "Carabing",
-		es: "Karrablast",
-		it: "Karrablast",
-		pt: "Karrablast",
-		de: "Laukaps"
+		'en-us': "Karrablast",
+		'fr-fr': "Carabing",
+		'es-es': "Karrablast",
+		'it-it': "Karrablast",
+		'pt-br': "Karrablast",
+		'de-de': "Laukaps"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				es: "Picotazo",
-				it: "Beccata",
-				pt: "Bicada",
-				de: "Schnabel"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'es-es': "Picotazo",
+				'it-it': "Beccata",
+				'pt-br': "Bicada",
+				'de-de': "Schnabel"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'Boule",
-				es: "Golpe Cabeza",
-				it: "Bottintesta",
-				pt: "Cabeçada",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'Boule",
+				'es-es': "Golpe Cabeza",
+				'it-it': "Bottintesta",
+				'pt-br': "Cabeçada",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "These mysterious Pokémon evolve when they receive electrical stimulation while they are in the same place as Shelmet.",
+		'en-us': "These mysterious Pokémon evolve when they receive electrical stimulation while they are in the same place as Shelmet.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Vulpix"
+		'id-id': "Vulpix"
 	},
 
 	illustrator: "sowsow",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Enam ekornya yang hangat menjadi makin indah dan bulunya makin bagus seiring dengan pertumbuhan tubuhnya."
+		'id-id': "Enam ekornya yang hangat menjadi makin indah dan bulunya makin bagus seiring dengan pertumbuhan tubuhnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Nyala Api"
+			'id-id': "Nyala Api"
 		},
 
 		damage: 40,

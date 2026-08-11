@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヤングース",
+		'ja-jp': "ヤングース",
 		'zh-tw': "貓鼬少",
-		th: "ยังกูส",
-		id: "Yungoos"
+		'th-th': "ยังกูส",
+		'id-id': "Yungoos"
 	},
 
 	illustrator: "saino misaki",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "胴体の ほとんどが 胃袋。 毎日 同じ ルートを うろつき 新鮮な エサを 探してまわる。",
+		'ja-jp': "胴体の ほとんどが 胃袋。 毎日 同じ ルートを うろつき 新鮮な エサを 探してまわる。",
 		'zh-tw': "整個身體幾乎都是胃。每天都徘徊在固定的路線上， 四處尋找新鮮的食物。",
-		th: "ลำตัวเป็นกระเพาะอาหารแทบทั้งหมด วนไปวนมาตามเส้นทางเดิมทุกวันเพื่อสอดส่องหาอาหาร",
-		id: "Sebagian besar tubuhnya merupakan kantong lambung. Setiap hari, Yungoos berjalan-jalan pada jalur yang sama untuk mencari makanan segar."
+		'th-th': "ลำตัวเป็นกระเพาะอาหารแทบทั้งหมด วนไปวนมาตามเส้นทางเดิมทุกวันเพื่อสอดส่องหาอาหาร",
+		'id-id': "Sebagian besar tubuhnya merupakan kantong lambung. Setiap hari, Yungoos berjalan-jalan pada jalur yang sama untuk mencari makanan segar."
 	},
 
 	stage: "Basic",
@@ -31,19 +31,19 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "はねとばす",
+			'ja-jp': "はねとばす",
 			'zh-tw': "擊飛",
-			th: "ตบกระเด็น",
-			id: "Menghempaskan"
+			'th-th': "ตบกระเด็น",
+			'id-id': "Menghempaskan"
 		},
 
 		damage: "10+",
 
 		effect: {
-			ja: "コインを1回投げオモテなら、10ダメージ追加。",
+			'ja-jp': "コインを1回投げオモテなら、10ダメージ追加。",
 			'zh-tw': "擲1次硬幣若為正面，則增加10點傷害。",
-			th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว การโจมตีนี้จะเพิ่มแดเมจอีก 10",
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 10."
+			'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกหัว การโจมตีนี้จะเพิ่มแดเมจอีก 10",
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 10."
 		}
 	}],
 

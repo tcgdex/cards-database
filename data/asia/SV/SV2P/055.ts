@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ミミズズ",
+		'ja-jp': "ミミズズ",
 		'zh-tw': "拖拖蚓",
-		th: "มิมิซึซึ",
-		id: "Orthworm"
+		'th-th': "มิมิซึซึ",
+		'id-id': "Orthworm"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "敵に 襲われると 体毛を こぶしのように 使い パンチの 嵐を お見舞いするのだ。",
+		'ja-jp': "敵に 襲われると 体毛を こぶしのように 使い パンチの 嵐を お見舞いするのだ。",
 		'zh-tw': "遭到攻擊的時候，會把體毛如拳頭般地使用， 朝著敵人奉上拳擊風暴。",
-		th: "เมื่อโดนศัตรูโจมตี จะใช้ขนตามร่างกายราวกับกำปั้นปล่อยพายุหมัดใส่ศัตรู",
-		id: "Jika diserang musuh, Orthworm menggunakan bulu badannya seperti kepalan tangan dan menyarangkan badai pukulan."
+		'th-th': "เมื่อโดนศัตรูโจมตี จะใช้ขนตามร่างกายราวกับกำปั้นปล่อยพายุหมัดใส่ศัตรู",
+		'id-id': "Jika diserang musuh, Orthworm menggunakan bulu badannya seperti kepalan tangan dan menyarangkan badai pukulan."
 	},
 
 	stage: "Basic",
@@ -31,17 +31,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "えいようてつぶん",
+			'ja-jp': "えいようてつぶん",
 			'zh-tw': "營養鐵質",
-			th: "ธาตุเหล็กบำรุงร่างกาย",
-			id: "Unsur Besi Bernutrisi"
+			'th-th': "ธาตุเหล็กบำรุงร่างกาย",
+			'id-id': "Unsur Besi Bernutrisi"
 		},
 
 		effect: {
-			ja: "このポケモンにエネルギーが3個以上ついているなら、このポケモンの最大HPは「+100」される。",
+			'ja-jp': "このポケモンにエネルギーが3個以上ついているなら、このポケモンの最大HPは「+100」される。",
 			'zh-tw': "若這隻寶可夢身上附有3個以上【鋼】能量，則這隻寶可夢的最大HP「+100」。",
-			th: "ถ้าโปเกมอนนี้มีพลังงาน[โลหะ]มากกว่าหรือเท่ากับ 3 ลูกติดอยู่ HP สูงสุดของโปเกมอนนี้จะถูก [+100]",
-			id: "Jika Pokémon ini mengenakan 3 Energi {Logam} atau lebih, HP maksimal Pokémon ini bertambah sejumlah 100."
+			'th-th': "ถ้าโปเกมอนนี้มีพลังงาน[โลหะ]มากกว่าหรือเท่ากับ 3 ลูกติดอยู่ HP สูงสุดของโปเกมอนนี้จะถูก [+100]",
+			'id-id': "Jika Pokémon ini mengenakan 3 Energi {Logam} atau lebih, HP maksimal Pokémon ini bertambah sejumlah 100."
 		}
 	}],
 
@@ -49,19 +49,19 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "つきぬける",
+			'ja-jp': "つきぬける",
 			'zh-tw': "穿通",
-			th: "แทงทะลุ",
-			id: "Menusuk Tembus"
+			'th-th': "แทงทะลุ",
+			'id-id': "Menusuk Tembus"
 		},
 
 		damage: 100,
 
 		effect: {
-			ja: "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+			'ja-jp': "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			'zh-tw': "對手的1隻備戰寶可夢也受到30點傷害。[在備戰區不計算弱點・抵抗力。]",
-			th: "โปเกมอนบนเบนช์ฝ่ายตรงข้าม 1 ตัว ก็จะได้รับแดเมจ 30 ด้วย {โปเกมอนบนเบนช์จะไม่นำจุดอ่อนและความต้านทานมาคิด}",
-			id: "Serangan ini juga memberikan kerusakan sejumlah 30 kepada 1 Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
+			'th-th': "โปเกมอนบนเบนช์ฝ่ายตรงข้าม 1 ตัว ก็จะได้รับแดเมจ 30 ด้วย {โปเกมอนบนเบนช์จะไม่นำจุดอ่อนและความต้านทานมาคิด}",
+			'id-id': "Serangan ini juga memberikan kerusakan sejumlah 30 kepada 1 Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
 		}
 	}],
 

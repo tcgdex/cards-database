@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "あとだしハンマー",
+		'ja-jp': "あとだしハンマー",
 	},
 
 	illustrator: "",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードは、後攻プレイヤーの最初の番しか使えない。相手の場のポケモンについているエネルギーを、1個トラッシュする。",
+		'ja-jp': "このカードは、後攻プレイヤーの最初の番しか使えない。相手の場のポケモンについているエネルギーを、1個トラッシュする。",
 	},
 
 	variants: [

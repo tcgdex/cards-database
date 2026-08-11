@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Flygon ex"
+		'id-id': "Flygon ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,22 +17,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Storm Back"
+			'id-id': "Storm Back"
 		},
 
 		effect: {
-			id: "Pemain dapat menukar Pokémon ini dengan Pokémon Cadangan."
+			'id-id': "Pemain dapat menukar Pokémon ini dengan Pokémon Cadangan."
 		},
 
 		damage: 130,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			id: "Peridot Sonic"
+			'id-id': "Peridot Sonic"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan masing-masing sejumlah 100 kepada semua Pokémon {ex}/{V} lawan. Kerusakan akibat serangan ini tidak terpengaruh oleh Kelemahan dan Resistansi."
+			'id-id': "Serangan ini memberikan kerusakan masing-masing sejumlah 100 kepada semua Pokémon {ex}/{V} lawan. Kerusakan akibat serangan ini tidak terpengaruh oleh Kelemahan dan Resistansi."
 		},
 
 		cost: ["Water", "Fighting", "Metal"]

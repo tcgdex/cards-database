@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プラスレ",
+		'ja-jp': "プラスレ",
 	},
 
 	rarity: "Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "家族を呼びます",
+				'ja-jp': "家族を呼びます",
 			},
 			effect: {
-				ja: "デッキを最大2つの基本的なポケモンを検索し、ベンチに置きます。その後、デッキをシャッフルします。",
+				'ja-jp': "デッキを最大2つの基本的なポケモンを検索し、ベンチに置きます。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "ポジティブな火花",
+				'ja-jp': "ポジティブな火花",
 			},
 			effect: {
-				ja: "ポケパウアーを持つ相手の各ポケモンに20のダメージを与えます。衰弱と抵抗を適用しないでください。",
+				'ja-jp': "ポケパウアーを持つ相手の各ポケモンに20のダメージを与えます。衰弱と抵抗を適用しないでください。",
 			},
 		},
 	],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Cofagrigus",
-		fr: "Tutankafer",
-		es: "Cofagrigus",
-		it: "Cofagrigus",
-		pt: "Cofagrigus",
-		de: "Echnatoll"
+		'en-us': "Cofagrigus",
+		'fr-fr': "Tutankafer",
+		'es-es': "Cofagrigus",
+		'it-it': "Cofagrigus",
+		'pt-br': "Cofagrigus",
+		'de-de': "Echnatoll"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Yamask",
-		fr: "Tutafeh",
+		'en-us': "Yamask",
+		'fr-fr': "Tutafeh",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Durable Body",
-				fr: "Corps Solide",
-				es: "Cuerpo Resistente",
-				it: "Duracorpo",
-				pt: "Corpo Durável",
-				de: "Durchhalten"
+				'en-us': "Durable Body",
+				'fr-fr': "Corps Solide",
+				'es-es': "Cuerpo Resistente",
+				'it-it': "Duracorpo",
+				'pt-br': "Corpo Durável",
+				'de-de': "Durchhalten"
 			},
 			effect: {
-				en: "If this Pokémon would be Knocked Out by damage from an attack, flip a coin. If heads, this Pokémon is not Knocked Out and its remaining HP becomes 10 instead.",
-				fr: "Si ce Pokémon doit être mis K.O. par les dégâts d’une attaque, lancez une pièce. Si c’est face, ce Pokémon n’est pas mis K.O. mais il ne lui reste que 10 PV.",
-				es: "Si este Pokémon fuese a quedar Fuera de Combate por el daño de un ataque, lanza una moneda. Si sale cara, este Pokémon no queda Fuera de Combate, y sus PV restantes pasan a ser 10.",
-				it: "Se questo Pokémon sta per essere messo K.O. dal danno di un attacco, lancia una moneta. Se esce testa, il Pokémon non viene messo K.O. e i suoi PV rimanenti diventano 10.",
-				pt: "Se este Pokémon for Nocauteado por danos causados por um ataque, jogue uma moeda. Se sair cara, ele não será Nocauteado e seu PS restante se tornará 10.",
-				de: "Wirf 1 Münze, wenn dieses Pokémon durch Angriffsschaden kampfunfähig würde. Bei „Kopf“ ist dieses Pokémon nicht kampfunfähig, sondern behält 10 KP."
+				'en-us': "If this Pokémon would be Knocked Out by damage from an attack, flip a coin. If heads, this Pokémon is not Knocked Out and its remaining HP becomes 10 instead.",
+				'fr-fr': "Si ce Pokémon doit être mis K.O. par les dégâts d’une attaque, lancez une pièce. Si c’est face, ce Pokémon n’est pas mis K.O. mais il ne lui reste que 10 PV.",
+				'es-es': "Si este Pokémon fuese a quedar Fuera de Combate por el daño de un ataque, lanza una moneda. Si sale cara, este Pokémon no queda Fuera de Combate, y sus PV restantes pasan a ser 10.",
+				'it-it': "Se questo Pokémon sta per essere messo K.O. dal danno di un attacco, lancia una moneta. Se esce testa, il Pokémon non viene messo K.O. e i suoi PV rimanenti diventano 10.",
+				'pt-br': "Se este Pokémon for Nocauteado por danos causados por um ataque, jogue uma moeda. Se sair cara, ele não será Nocauteado e seu PS restante se tornará 10.",
+				'de-de': "Wirf 1 Münze, wenn dieses Pokémon durch Angriffsschaden kampfunfähig würde. Bei „Kopf“ ist dieses Pokémon nicht kampfunfähig, sondern behält 10 KP."
 			},
 		},
 	],
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ambush",
-				fr: "Embuscade",
+				'en-us': "Ambush",
+				'fr-fr': "Embuscade",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 40,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They pretend to be elaborate coffins to teach lessons to grave robbers. Their bodies are covered in pure gold.",
+		'en-us': "They pretend to be elaborate coffins to teach lessons to grave robbers. Their bodies are covered in pure gold.",
 	},
 
 	thirdParty: {

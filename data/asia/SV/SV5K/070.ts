@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "危険な密林",
+		'ja-jp': "危険な密林",
 	},
 
 	illustrator: "AYUMI ODASHIMA",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのどくのポケモン（[D]ポケモンをのぞく）全員は、どくでのせるダメカンの数がそれぞれ2個多くなる。",
+		'ja-jp': "おたがいのどくのポケモン（[D]ポケモンをのぞく）全員は、どくでのせるダメカンの数がそれぞれ2個多くなる。",
 	},
 
 	variants: [

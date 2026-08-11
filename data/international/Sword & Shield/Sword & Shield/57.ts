@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Drizzile",
-		fr: "Arrozard",
-		es: "Drizzile",
-		it: "Drizzile",
-		pt: "Drizzile",
-		de: "Phlegleon"
+		'en-us': "Drizzile",
+		'fr-fr': "Arrozard",
+		'es-es': "Drizzile",
+		'it-it': "Drizzile",
+		'pt-br': "Drizzile",
+		'de-de': "Phlegleon"
 	},
 
 	illustrator: "Mizue",
@@ -22,12 +22,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sobble",
-		fr: "Larméléon",
-		es: "Sobble",
-		it: "Sobble",
-		pt: "Sobble",
-		de: "Memmeon"
+		'en-us': "Sobble",
+		'fr-fr': "Larméléon",
+		'es-es': "Sobble",
+		'it-it': "Sobble",
+		'pt-br': "Sobble",
+		'de-de': "Memmeon"
 	},
 
 	stage: "Stage1",
@@ -38,12 +38,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Rain Splash",
-				fr: "Pluie Éclaboussante",
-				es: "Golpe de Lluvia",
-				it: "Spruzzapioggia",
-				pt: "Chuva Borrifante",
-				de: "Regenplatscher"
+				'en-us': "Rain Splash",
+				'fr-fr': "Pluie Éclaboussante",
+				'es-es': "Golpe de Lluvia",
+				'it-it': "Spruzzapioggia",
+				'pt-br': "Chuva Borrifante",
+				'de-de': "Regenplatscher"
 			},
 
 			damage: 30,
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse Vague",
-				es: "Chapoteo Ondulante",
-				it: "Schizzi d'Onda",
-				pt: "Onda Borrifante",
-				de: "Wellenplatscher"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse Vague",
+				'es-es': "Chapoteo Ondulante",
+				'it-it': "Schizzi d'Onda",
+				'pt-br': "Onda Borrifante",
+				'de-de': "Wellenplatscher"
 			},
 
 			damage: 40,
@@ -86,7 +86,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "A clever combatant, this Pokémon battles using water balloons created with moisture secreted from its palms."
+		'en-us': "A clever combatant, this Pokémon battles using water balloons created with moisture secreted from its palms."
 	},
 
 	dexId: [817],

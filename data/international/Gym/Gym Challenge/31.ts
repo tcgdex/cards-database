@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Charmeleon"
+		'en-us': "Blaine's Charmeleon"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmander"
+		'en-us': "Charmander"
 	},
 
 	stage: "Stage1",
@@ -32,7 +32,7 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fire Claws"
+				'en-us': "Fire Claws"
 			},
 
 			damage: 30,
@@ -45,10 +45,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Bonfire"
+				'en-us': "Bonfire"
 			},
 			effect: {
-				en: "Flip 3 coins. For each heads, discard 1 Fire Energy card attached to Blaine's Charmeleon. If you can't discard Energy cards, this attack does nothing. This attack does 10 damage times the number of heads to each of your opponent's Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
+				'en-us': "Flip 3 coins. For each heads, discard 1 Fire Energy card attached to Blaine's Charmeleon. If you can't discard Energy cards, this attack does nothing. This attack does 10 damage times the number of heads to each of your opponent's Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
 			},
 			damage: 10,
 

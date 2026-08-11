@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Litwick",
-		fr: "Funécire",
-		es: "Litwick",
-		it: "Litwick",
-		pt: "Litwick",
-		de: "Lichtel"
+		'en-us': "Litwick",
+		'fr-fr': "Funécire",
+		'es-es': "Litwick",
+		'it-it': "Litwick",
+		'pt-br': "Litwick",
+		'de-de': "Lichtel"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flickering Flames",
-				fr: "Flammes Vacillantes",
-				es: "Llamas Titilantes",
-				it: "Guizzafiamme",
-				pt: "Chamas Tremeluzentes",
-				de: "Züngelnde Flammen"
+				'en-us': "Flickering Flames",
+				'fr-fr': "Flammes Vacillantes",
+				'es-es': "Llamas Titilantes",
+				'it-it': "Guizzafiamme",
+				'pt-br': "Chamas Tremeluzentes",
+				'de-de': "Züngelnde Flammen"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent’s Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 10,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "While shining a light and pretending to be a guide, it leeches off the life force of any who follow it.",
+		'en-us': "While shining a light and pretending to be a guide, it leeches off the life force of any who follow it.",
 	},
 
 	thirdParty: {

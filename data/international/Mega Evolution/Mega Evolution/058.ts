@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ralts",
-		fr: "Tarsal",
-		de: "Trasla",
-		it: "Ralts",
-		es: "Ralts",
-		pt: "Ralts",
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal",
+		'de-de': "Trasla",
+		'it-it': "Ralts",
+		'es-es': "Ralts",
+		'pt-br': "Ralts",
 		'es-mx': "Ralts"
 	},
 
@@ -26,34 +26,34 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			de: "Sammeln",
-			it: "Tassa",
-			es: "Coleccionar",
-			pt: "Coleta",
+			'en-us': "Collect",
+			'fr-fr': "Collecte",
+			'de-de': "Sammeln",
+			'it-it': "Tassa",
+			'es-es': "Coleccionar",
+			'pt-br': "Coleta",
 			'es-mx': "Recolectar"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			de: "Ziehe 1 Karte.",
-			it: "Pesca una carta.",
-			es: "Roba 1 carta.",
-			pt: "Compre uma carta.",
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'de-de': "Ziehe 1 Karte.",
+			'it-it': "Pesca una carta.",
+			'es-es': "Roba 1 carta.",
+			'pt-br': "Compre uma carta.",
 			'es-mx': "Roba 1 carta."
 		}
 	}, {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			de: "Kopfnuss",
-			it: "Bottintesta",
-			es: "Golpe Cabeza",
-			pt: "Cabeçada",
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'de-de': "Kopfnuss",
+			'it-it': "Bottintesta",
+			'es-es': "Golpe Cabeza",
+			'pt-br': "Cabeçada",
 			'es-mx': "Golpe Cabeza"
 		},
 

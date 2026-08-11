@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "齒輪組",
-		ja: "ギギアル"
+		'ja-jp': "ギギアル"
 	},
 
 	illustrator: "Hataya",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "如果認真起來，大齒輪外圈的齒輪會和小齒輪完全接合。 此時轉速將會大幅提升。",
-		ja: "本気の ときは でかギアの 外の 歯車と ちびギアが 合致。 回転速度が 飛躍 するのだ。"
+		'ja-jp': "本気の ときは でかギアの 外の 歯車と ちびギアが 合致。 回転速度が 飛躍 するのだ。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "光束",
-			ja: "ビーム"
+			'ja-jp': "ビーム"
 		},
 
 		damage: 20,
@@ -32,12 +32,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "防守壓制",
-			ja: "ガードプレス"
+			'ja-jp': "ガードプレス"
 		},
 
 		effect: {
 			'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-30」點。",
-			ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。"
+			'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。"
 		},
 
 		damage: 70,

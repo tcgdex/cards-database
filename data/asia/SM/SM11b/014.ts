@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シズクモ",
+		'ja-jp': "シズクモ",
 	},
 
 	illustrator: "Shibuzoh.",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "シズクモ同士が 出会うと 頭の 水泡を 自慢し アピールする。 小さな 方が 道を 譲る。",
+		'ja-jp': "シズクモ同士が 出会うと 頭の 水泡を 自慢し アピールする。 小さな 方が 道を 譲る。",
 	},
 
 	stage: "Basic",

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "れんげきウーラオスV",
+		'ja-jp': "れんげきウーラオスV",
 	},
 
 	illustrator: "takuyoa",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Fighting"],
 			effect: {
-				ja: "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 		{

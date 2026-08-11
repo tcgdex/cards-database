@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Jirachi",
-		fr: "Jirachi",
+		'en-us': "Jirachi",
+		'fr-fr': "Jirachi",
 	},
 
 	illustrator: "kirisAki",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Wish",
-				fr: "Vœu",
+				'en-us': "Wish",
+				'fr-fr': "Vœu",
 			},
 			effect: {
-				en: "Search your deck for a card and put it into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez une carte dans votre deck puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for a card and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez une carte dans votre deck puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -46,8 +46,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heart Sign",
-				fr: "Signe de Cœur",
+				'en-us': "Heart Sign",
+				'fr-fr': "Signe de Cœur",
 			},
 
 			damage: 50,
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The twinkle of the stars. The destiny of love. A miracle that grants wishes in the night sky.",
+		'en-us': "The twinkle of the stars. The destiny of love. A miracle that grants wishes in the night sky.",
 	},
 
 	thirdParty: {

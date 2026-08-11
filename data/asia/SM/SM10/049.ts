@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サイドン",
+		'ja-jp': "サイドン",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "全身を よろいのような 皮膚で 守っている。 ２０００度の マグマの 中でも 生きられる。",
+		'ja-jp': "全身を よろいのような 皮膚で 守っている。 ２０００度の マグマの 中でも 生きられる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ダーティワーク" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手の山札を上から1枚トラッシュする。この番、手札から「サカキの追放」を出して使っていたなら、さらに4枚トラッシュする。",
+				'ja-jp': "相手の山札を上から1枚トラッシュする。この番、手札から「サカキの追放」を出して使っていたなら、さらに4枚トラッシュする。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "サイホーン",
+		'ja-jp': "サイホーン",
 	},
 
 	retreat: 4,

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オニオン",
+		'ja-jp': "オニオン",
 	},
 
 	illustrator: "Jiro Sasumo",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札を3枚引く。その後、自分の手札を3枚まで選び、トラッシュする。（必ず1枚はトラッシュする。）",
+		'ja-jp': "自分の山札を3枚引く。その後、自分の手札を3枚まで選び、トラッシュする。（必ず1枚はトラッシュする。）",
 	},
 
 	variants: [

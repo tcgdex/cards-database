@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Radiant Hisuian Sneasler",
-		fr: "Farfurex de Hisui Radieux",
-		es: "Sneasler de Hisui Radiante",
-		it: "Sneasler di Hisui Lucente",
-		pt: "Sneasler de Hisui Radiante",
-		de: "Strahlendes Hisui-Snieboss"
+		'en-us': "Radiant Hisuian Sneasler",
+		'fr-fr': "Farfurex de Hisui Radieux",
+		'es-es': "Sneasler de Hisui Radiante",
+		'it-it': "Sneasler di Hisui Lucente",
+		'pt-br': "Sneasler de Hisui Radiante",
+		'de-de': "Strahlendes Hisui-Snieboss"
 	},
 
 	illustrator: "Akira Komayama",
@@ -25,21 +25,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Poison Peak",
-			fr: "Pic Empoisonné",
-			es: "Pico Veneno",
-			it: "Cima Velenosa",
-			pt: "Veneno Culminante",
-			de: "Giftgipfel"
+			'en-us': "Poison Peak",
+			'fr-fr': "Pic Empoisonné",
+			'es-es': "Pico Veneno",
+			'it-it': "Cima Velenosa",
+			'pt-br': "Veneno Culminante",
+			'de-de': "Giftgipfel"
 		},
 
 		effect: {
-			en: "During Pokémon Checkup, put 2 more damage counters on your opponent's Poisoned Pokémon.",
-			fr: "Pendant le Contrôle Pokémon, placez 2 marqueurs de dégâts supplémentaires sur les Pokémon Empoisonnés de votre adversaire.",
-			es: "Durante el Chequeo Pokémon, pon 2 contadores de daño más en el Pokémon Envenenado de tu rival.",
-			it: "Metti altri due segnalini danno sui Pokémon avvelenati del tuo avversario durante il controllo Pokémon.",
-			pt: "Durante o Checape Pokémon, coloque 2 contadores de dano a mais nos Pokémon Envenenados do seu oponente.",
-			de: "Lege beim Pokémon-Check 2 Schadensmarken mehr auf die vergifteten Pokémon deines Gegners."
+			'en-us': "During Pokémon Checkup, put 2 more damage counters on your opponent's Poisoned Pokémon.",
+			'fr-fr': "Pendant le Contrôle Pokémon, placez 2 marqueurs de dégâts supplémentaires sur les Pokémon Empoisonnés de votre adversaire.",
+			'es-es': "Durante el Chequeo Pokémon, pon 2 contadores de daño más en el Pokémon Envenenado de tu rival.",
+			'it-it': "Metti altri due segnalini danno sui Pokémon avvelenati del tuo avversario durante il controllo Pokémon.",
+			'pt-br': "Durante o Checape Pokémon, coloque 2 contadores de dano a mais nos Pokémon Envenenados do seu oponente.",
+			'de-de': "Lege beim Pokémon-Check 2 Schadensmarken mehr auf die vergifteten Pokémon deines Gegners."
 		}
 	}],
 
@@ -47,21 +47,21 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			en: "Poison Jab",
-			fr: "Direct Toxik",
-			es: "Puya Nociva",
-			it: "Velenpuntura",
-			pt: "Golpe Envenenado",
-			de: "Gifthieb"
+			'en-us': "Poison Jab",
+			'fr-fr': "Direct Toxik",
+			'es-es': "Puya Nociva",
+			'it-it': "Velenpuntura",
+			'pt-br': "Golpe Envenenado",
+			'de-de': "Gifthieb"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		},
 
 		damage: 90

@@ -4,7 +4,7 @@ import serie from "../M";
 const set: Set = {
 	id: "M1L",
 	name: {
-		ja: "メガブレイブ",
+		'ja-jp': "メガブレイブ",
 	},
 
 	serie: serie,
@@ -13,7 +13,7 @@ const set: Set = {
 		official: 63,
 	},
 	releaseDate: {
-		ja: "2025-08-01",
+		'ja-jp': "2025-08-01",
 	},
 };
 

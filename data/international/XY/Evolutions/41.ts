@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Electabuzz",
-		fr: "Élektek",
-		es: "Electabuzz",
-		it: "Electabuzz",
-		pt: "Electabuzz",
-		de: "Elektek"
+		'en-us': "Electabuzz",
+		'fr-fr': "Élektek",
+		'es-es': "Electabuzz",
+		'it-it': "Electabuzz",
+		'pt-br': "Electabuzz",
+		'de-de': "Elektek"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunder Shock",
-				fr: "Éclair",
-				es: "Impactrueno",
-				it: "Tuonoshock",
-				pt: "Trovoada de Choques",
-				de: "Donnerschock"
+				'en-us': "Thunder Shock",
+				'fr-fr': "Éclair",
+				'es-es': "Impactrueno",
+				'it-it': "Tuonoshock",
+				'pt-br': "Trovoada de Choques",
+				'de-de': "Donnerschock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 10,
 
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Punch",
-				fr: "Poing-Éclair",
-				es: "Puño Trueno",
-				it: "Tuonopugno",
-				pt: "Soco Trovoada",
-				de: "Donnerschlag"
+				'en-us': "Thunder Punch",
+				'fr-fr': "Poing-Éclair",
+				'es-es': "Puño Trueno",
+				'it-it': "Tuonopugno",
+				'pt-br': "Soco Trovoada",
+				'de-de': "Donnerschlag"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 more damage. If tails, this Pokémon does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires. Si c'est pile, ce Pokémon s'inflige 10 dégâts.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más. Si sale cruz, este Pokémon se hace 10 puntos de daño a sí mismo.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più. Se esce croce, questo Pokémon infligge 10 danni a se stesso.",
-				pt: "Jogue uma moeda. Se sair cara, este ataque causará 10 de danos adicionais. Se sair coroa, este Pokémon causará 10 de danos a ele mesmo.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 weitere Schadenspunkte zu. Bei \"Zahl\" fügt sich dieses Pokémon selbst 10 Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 more damage. If tails, this Pokémon does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires. Si c'est pile, ce Pokémon s'inflige 10 dégâts.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más. Si sale cruz, este Pokémon se hace 10 puntos de daño a sí mismo.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più. Se esce croce, questo Pokémon infligge 10 danni a se stesso.",
+				'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 10 de danos adicionais. Se sair coroa, este Pokémon causará 10 de danos a ele mesmo.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 weitere Schadenspunkte zu. Bei \"Zahl\" fügt sich dieses Pokémon selbst 10 Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -95,7 +95,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It loves to feed on strong electricity. It occasionally appears around large power plants and so on.",
+		'en-us': "It loves to feed on strong electricity. It occasionally appears around large power plants and so on.",
 	},
 
 	thirdParty: {

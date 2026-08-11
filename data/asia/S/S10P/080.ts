@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒードランVMAX",
+		'ja-jp': "ヒードランVMAX",
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "マグマゲイン" },
 			effect: {
-				ja: "場に自分のスタジアムが出ているなら、自分の番に1回使える。このポケモンのHPを「50」回復する。",
+				'ja-jp': "場に自分のスタジアムが出ているなら、自分の番に1回使える。このポケモンのHPを「50」回復する。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒードランV",
+		'ja-jp': "ヒードランV",
 	},
 
 	retreat: 4,

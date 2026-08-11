@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スピアー",
+		'ja-jp': "スピアー",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "両手と お尻にある ３本の 毒針で 相手を 刺して 刺して 刺しまくって 攻撃する。",
+		'ja-jp': "両手と お尻にある ３本の 毒針で 相手を 刺して 刺して 刺しまくって 攻撃する。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Grass"],
 			effect: {
-				ja: "この番、このポケモンが「コクーン」から進化していたなら、相手のバトルポケモンをどくとマヒにする。",
+				'ja-jp': "この番、このポケモンが「コクーン」から進化していたなら、相手のバトルポケモンをどくとマヒにする。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コクーン",
+		'ja-jp': "コクーン",
 	},
 
 	retreat: 0,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ベトベトン",
+		'ja-jp': "ベトベトン",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "エサが 減って 数も 激減。 絶滅を 防ぐため 人工の ヘドロ池が 作られ始めた。",
+		'ja-jp': "エサが 減って 数も 激減。 絶滅を 防ぐため 人工の ヘドロ池が 作られ始めた。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "どくぶくろ" },
 			effect: {
-				ja: "このポケモンがいるかぎり、相手のどくのポケモンは、進化・退化してもどくが回復しない。",
+				'ja-jp': "このポケモンがいるかぎり、相手のどくのポケモンは、進化・退化してもどくが回復しない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は2個になる。",
+				'ja-jp': "相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は2個になる。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ベトベター",
+		'ja-jp': "ベトベター",
 	},
 
 	retreat: 4,

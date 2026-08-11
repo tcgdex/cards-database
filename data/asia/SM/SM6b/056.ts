@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ふっかつそう",
+		'ja-jp': "ふっかつそう",
 	},
 
 	illustrator: "Ryo Ueda",
 	category: "Trainer",
 
 	effect: {
-		ja: "コインを1回投げオモテなら、自分のポケモン1匹のHPを「60」回復し、特殊状態もすべて回復する。",
+		'ja-jp': "コインを1回投げオモテなら、自分のポケモン1匹のHPを「60」回復し、特殊状態もすべて回復する。",
 	},
 
 	variants: [

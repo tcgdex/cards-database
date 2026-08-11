@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴウカザル",
+		'ja-jp': "ゴウカザル",
 	},
 
 	illustrator: "Kazumasa Yasukuni",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "頭で 燃える 炎の ように 激しい 性格の ポケモン。 素早さでは だれにも 負けない。",
+		'ja-jp': "頭で 燃える 炎の ように 激しい 性格の ポケモン。 素早さでは だれにも 負けない。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かえんぶとう" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札から「基本[R]エネルギー」と「基本[F]エネルギー」をそれぞれ1枚まで選び、自分のポケモンに好きなようにつける。",
+				'ja-jp': "自分の番に1回使える。自分の手札から「基本[R]エネルギー」と「基本[F]エネルギー」をそれぞれ1枚まで選び、自分のポケモンに好きなようにつける。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モウカザル",
+		'ja-jp': "モウカザル",
 	},
 
 	retreat: 1,

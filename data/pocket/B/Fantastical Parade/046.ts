@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [846],
 
 	name: {
-		en: "Arrokuda"
+		'en-us': "Arrokuda"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "After it's eaten its fill, its movements become\nextremely sluggish. That's when Cramorant\nswallows it up."
+		'en-us': "After it's eaten its fill, its movements become\nextremely sluggish. That's when Cramorant\nswallows it up."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Ram"
+			'en-us': "Ram"
 		},
 
 		damage: 10,

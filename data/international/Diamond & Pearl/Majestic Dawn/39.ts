@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Lickitung",
-		fr: "Excelangue",
-		de: "Schlurp"
+		'en-us': "Lickitung",
+		'fr-fr': "Excelangue",
+		'de-de': "Schlurp"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lap Up",
-				fr: "Gober",
-				de: "Auflecken"
+				'en-us': "Lap Up",
+				'fr-fr': "Gober",
+				'de-de': "Auflecken"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slam",
-				fr: "Souplesse",
-				de: "Slam"
+				'en-us': "Slam",
+				'fr-fr': "Souplesse",
+				'de-de': "Slam"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
 			damage: "20x",
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Instead of hands, it uses its tongue, which is twice its height. Its sticky saliva grips anything.",
+		'en-us': "Instead of hands, it uses its tongue, which is twice its height. Its sticky saliva grips anything.",
 	},
 
 	thirdParty: {

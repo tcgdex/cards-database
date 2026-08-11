@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "คาร์โบ",
-		id: "Charcadet"
+		'th-th': "คาร์โบ",
+		'id-id': "Charcadet"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -15,24 +15,24 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		th: "เป็นโปเกมอนที่เกิดจากถ่านไม้ที่ลุกไหม้ มีจิตวิญญาณการต่อสู้ที่เร่าร้อน กล้าเผชิญหน้าแม้กับศัตรูที่แข็งแกร่ง",
-		id: "Jiwa bersemayam ke dalam arang terbakar, lalu berubah menjadi Pokémon. Dengan semangat bertarung yang membara, Charcadet menantang pertarungan meskipun dengan lawan yang kuat."
+		'th-th': "เป็นโปเกมอนที่เกิดจากถ่านไม้ที่ลุกไหม้ มีจิตวิญญาณการต่อสู้ที่เร่าร้อน กล้าเผชิญหน้าแม้กับศัตรูที่แข็งแกร่ง",
+		'id-id': "Jiwa bersemayam ke dalam arang terbakar, lalu berubah menjadi Pokémon. Dengan semangat bertarung yang membara, Charcadet menantang pertarungan meskipun dengan lawan yang kuat."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ทุบตี",
-			id: "Memukul"
+			'th-th': "ทุบตี",
+			'id-id': "Memukul"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "เผาไหม้",
-			id: "Lidah Api"
+			'th-th': "เผาไหม้",
+			'id-id': "Lidah Api"
 		},
 
 		damage: 20,

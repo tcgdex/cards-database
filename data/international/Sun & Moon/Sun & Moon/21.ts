@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Growlithe",
-		fr: "Caninos",
-		es: "Growlithe",
-		it: "Growlithe",
-		pt: "Growlithe",
-		de: "Fukano"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos",
+		'es-es': "Growlithe",
+		'it-it': "Growlithe",
+		'pt-br': "Growlithe",
+		'de-de': "Fukano"
 	},
 
 	illustrator: "MAHOU",
@@ -36,20 +36,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				es: "Derribo",
-				it: "Riduttore",
-				pt: "Desmantelar",
-				de: "Bodycheck"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'es-es': "Derribo",
+				'it-it': "Riduttore",
+				'pt-br': "Desmantelar",
+				'de-de': "Bodycheck"
 			},
 			effect: {
-				en: "This Pokémon does 20 damage to itself.",
-				fr: "Ce Pokémon s’inflige 20 dégâts.",
-				es: "Este Pokémon se hace 20 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 20 danni a se stesso.",
-				pt: "Este Pokémon causa 20 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 20 Schadenspunkte zu."
+				'en-us': "This Pokémon does 20 damage to itself.",
+				'fr-fr': "Ce Pokémon s’inflige 20 dégâts.",
+				'es-es': "Este Pokémon se hace 20 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 20 danni a se stesso.",
+				'pt-br': "Este Pokémon causa 20 pontos de dano a si mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It's both clever and loyal, but if a stranger tries to invade its territory, it barks threateningly.",
+		'en-us': "It's both clever and loyal, but if a stranger tries to invade its territory, it barks threateningly.",
 	},
 
 	thirdParty: {

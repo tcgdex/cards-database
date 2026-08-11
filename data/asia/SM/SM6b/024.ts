@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ランターン",
+		'ja-jp': "ランターン",
 	},
 
 	illustrator: "Aya Kusube",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "強い 光を 放ち 獲物の 目を くらませる。 隙が できたら 電撃を お見舞いする。",
+		'ja-jp': "強い 光を 放ち 獲物の 目を くらませる。 隙が できたら 電撃を お見舞いする。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "エネアース" },
 			effect: {
-				ja: "自分のポケモンが、相手のワザのダメージを受けてきぜつするたび、1回使える。きぜつしたポケモンについていた基本エネルギーを1枚、このポケモンにつけ替える。",
+				'ja-jp': "自分のポケモンが、相手のワザのダメージを受けてきぜつするたび、1回使える。きぜつしたポケモンについていた基本エネルギーを1枚、このポケモンにつけ替える。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "70+",
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "のぞむなら、このポケモンについている[雷]エネルギーをすべてトラッシュする。その場合、70ダメージ追加。",
+				'ja-jp': "のぞむなら、このポケモンについている[雷]エネルギーをすべてトラッシュする。その場合、70ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チョンチー",
+		'ja-jp': "チョンチー",
 	},
 
 	retreat: 2,

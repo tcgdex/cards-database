@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アマカジ",
+		'ja-jp': "アマカジ",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "美味しそうな 香りが 体から 漏れ出している。 匂いに 誘われた ドデカバシに 丸呑みに される。",
+		'ja-jp': "美味しそうな 香りが 体から 漏れ出している。 匂いに 誘われた ドデカバシに 丸呑みに される。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "あまいかおり" },
 			cost: ["Grass"],
 			effect: {
-				ja: "自分のポケモン1匹のHPを「30」回復する。",
+				'ja-jp': "自分のポケモン1匹のHPを「30」回復する。",
 			},
 		},
 		{

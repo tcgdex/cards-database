@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Marshtomp",
-		fr: "Flobio",
-		de: "Moorabbel"
+		'en-us': "Marshtomp",
+		'fr-fr': "Flobio",
+		'de-de': "Moorabbel"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mudkip",
-		fr: "Gobou"
+		'en-us': "Mudkip",
+		'fr-fr': "Gobou"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Bubble",
-				fr: "Écume",
-				de: "Bubble"
+				'en-us': "Bubble",
+				'fr-fr': "Écume",
+				'de-de': "Bubble"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed"
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed"
 			},
 			damage: 10,
 
@@ -53,9 +53,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Slash"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Slash"
 			},
 
 			damage: 40,

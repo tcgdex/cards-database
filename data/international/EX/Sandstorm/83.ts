@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Wailmer",
-		fr: "Wailmer",
-		de: "Wailmer"
+		'en-us': "Wailmer",
+		'fr-fr': "Wailmer",
+		'de-de': "Wailmer"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -30,9 +30,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				de: "Rollout"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'de-de': "Rollout"
 			},
 
 			damage: 20,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Hypno Wave",
-				fr: "Super hypnovague",
-				de: "Super Hypno Wave"
+				'en-us': "Super Hypno Wave",
+				'fr-fr': "Super hypnovague",
+				'de-de': "Super Hypno Wave"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 			damage: 30,
 

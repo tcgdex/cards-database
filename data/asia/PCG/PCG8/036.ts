@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Grumpig",
+		'ja-jp': "Grumpig",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "厚い脂肪",
+				'ja-jp': "厚い脂肪",
 			},
 			effect: {
-				ja: "FirePokã©MonとWaterPokã©Monからの攻撃によるGrumpigに与えられた損害は、30減少します（脱力感と抵抗を適用した後）。",
+				'ja-jp': "FirePokã©MonとWaterPokã©Monからの攻撃によるGrumpigに与えられた損害は、30減少します（脱力感と抵抗を適用した後）。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Psychic", "Colorless"],
 			name: {
-				ja: "円形のステップ",
+				'ja-jp': "円形のステップ",
 			},
 			effect: {
-				ja: "Grumpigを除く、Pokemonの数（あなたと対戦相手の両方）の数を10回ダメージします。",
+				'ja-jp': "Grumpigを除く、Pokemonの数（あなたと対戦相手の両方）の数を10回ダメージします。",
 			},
 		},
 	],

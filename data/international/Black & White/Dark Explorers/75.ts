@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Klink",
-		fr: "Tic",
-		es: "Klink",
-		it: "Klink",
-		pt: "Klink",
-		de: "Klikk"
+		'en-us': "Klink",
+		'fr-fr': "Tic",
+		'es-es': "Klink",
+		'it-it': "Klink",
+		'pt-br': "Klink",
+		'de-de': "Klikk"
 	},
 
 	illustrator: "Midori Harada",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Turn",
-				fr: "Tour Fracassant"
+				'en-us': "Smash Turn",
+				'fr-fr': "Tour Fracassant"
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc."
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon avec 1 de vos Pokémon de Banc."
 			},
 			damage: 20,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Interlocking two bodies and spinning around generates the energy they need to live.",
+		'en-us': "Interlocking two bodies and spinning around generates the energy they need to live.",
 	},
 
 	thirdParty: {

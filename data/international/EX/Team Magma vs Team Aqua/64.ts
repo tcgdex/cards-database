@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Numel",
-		fr: "Chamallot de Team Magma",
-		de: "Team Magmas Camaub"
+		'en-us': "Team Magma's Numel",
+		'fr-fr': "Chamallot de Team Magma",
+		'de-de': "Team Magmas Camaub"
 	},
 
 	illustrator: "Katsura Tabata",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collectionner",
-				de: "Collect"
+				'en-us': "Collect",
+				'fr-fr': "Collectionner",
+				'de-de': "Collect"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Draw a card."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Draw a card."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Combustion",
-				fr: "Fournaise",
-				de: "Combustion"
+				'en-us': "Combustion",
+				'fr-fr': "Fournaise",
+				'de-de': "Combustion"
 			},
 
 			damage: 20,

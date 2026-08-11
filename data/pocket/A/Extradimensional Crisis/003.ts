@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rowlet",
-		fr: "Brindibou"
+		'en-us': "Rowlet",
+		'fr-fr': "Brindibou"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -18,24 +18,24 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "It sends its feathers, which are as sharp\nas blades, flying in attack. Its legs are strong,\nso its kicks are also formidable.",
-		fr: "Il attaque en tirant des plumes acérées. La force de ses coups de patte est également redoutable."
+		'en-us': "It sends its feathers, which are as sharp\nas blades, flying in attack. Its legs are strong,\nso its kicks are also formidable.",
+		'fr-fr': "Il attaque en tirant des plumes acérées. La force de ses coups de patte est également redoutable."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Fury Attack",
-			fr: "Furie"
+			'en-us': "Fury Attack",
+			'fr-fr': "Furie"
 		},
 
 		damage: 10,
 		cost: ["Grass"],
 
 		effect: {
-			en: "Flip 3 coins. This attack does 10 damage for each heads.",
-			fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face."
+			'en-us': "Flip 3 coins. This attack does 10 damage for each heads.",
+			'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face."
 		}
 	}],
 

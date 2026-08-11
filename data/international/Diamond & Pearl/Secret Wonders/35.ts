@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Pidgeot",
-		fr: "Roucarnage",
-		de: "Tauboss"
+		'en-us': "Pidgeot",
+		'fr-fr': "Roucarnage",
+		'de-de': "Tauboss"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pidgeotto",
-		fr: "Roucoups",
+		'en-us': "Pidgeotto",
+		'fr-fr': "Roucoups",
 	},
 
 	stage: "Stage2",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mirror Move",
-				fr: "Mimique",
-				de: "Spiegeltrick"
+				'en-us': "Mirror Move",
+				'fr-fr': "Mimique",
+				'de-de': "Spiegeltrick"
 			},
 			effect: {
-				en: "If Pidgeot was damaged by an attack during your opponent's last turn, this attack does the same amount of damage done to Pidgeot to the Defending Pokémon.",
-				fr: "Si une attaque a infligé des dégâts à Roucarnage lors du dernier tour de votre adversaire, cette attaque inflige le même nombre de dégâts au Pokémon Défenseur.",
-				de: "Wenn Tauboss im letzten Zug deines Gegners durch einen Angriff Schaden zugefügt wurde, fügt dieser Angriff dem Verteidigenden Pokémon die gleiche Anzahl Schadenspunkte, die Tauboss zugefügt wurde, zu."
+				'en-us': "If Pidgeot was damaged by an attack during your opponent's last turn, this attack does the same amount of damage done to Pidgeot to the Defending Pokémon.",
+				'fr-fr': "Si une attaque a infligé des dégâts à Roucarnage lors du dernier tour de votre adversaire, cette attaque inflige le même nombre de dégâts au Pokémon Défenseur.",
+				'de-de': "Wenn Tauboss im letzten Zug deines Gegners durch einen Angriff Schaden zugefügt wurde, fügt dieser Angriff dem Verteidigenden Pokémon die gleiche Anzahl Schadenspunkte, die Tauboss zugefügt wurde, zu."
 			},
 
 		},
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlwind",
-				fr: "Cyclone",
-				de: "Wirbelwind"
+				'en-us': "Whirlwind",
+				'fr-fr': "Cyclone",
+				'de-de': "Wirbelwind"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
-				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				'de-de': "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 50,
 
@@ -83,7 +83,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "By flapping its wings with all its might, PIDGEOT can make a gust of wind capable of bending tall trees.",
+		'en-us': "By flapping its wings with all its might, PIDGEOT can make a gust of wind capable of bending tall trees.",
 	},
 
 	thirdParty: {

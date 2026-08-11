@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マーイーカ",
+		'ja-jp': "マーイーカ",
 		'zh-tw': "好啦魷",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "敵に 発光体の 点滅を 浴びせて 戦意を なくしてしまう。 その 隙に 逃げ出すのだ。",
+		'ja-jp': "敵に 発光体の 点滅を 浴びせて 戦意を なくしてしまう。 その 隙に 逃げ出すのだ。",
 		'zh-tw': "會讓敵人看到自己閃爍的發光體來讓對方喪失戰意， 然後趁機逃之夭夭。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かいてんアタック",
+				'ja-jp': "かいてんアタック",
 				'zh-tw': "迴轉攻擊",
 			},
 			damage: 20,

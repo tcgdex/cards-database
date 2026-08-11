@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オコリザル",
+		'ja-jp': "オコリザル",
 	},
 
 	illustrator: "GOSSAN",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ある研究者の 学説では モンスターボールの 中でも オコリザルは 怒っているらしい。",
+		'ja-jp': "ある研究者の 学説では モンスターボールの 中でも オコリザルは 怒っているらしい。",
 	},
 
 	stage: "Stage1",
@@ -39,7 +39,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マンキー",
+		'ja-jp': "マンキー",
 	},
 
 	retreat: 2,

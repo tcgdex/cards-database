@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Crustle",
-		fr: "Crabaraque",
-		es: "Crustle",
-		it: "Crustle",
-		pt: "Crustle",
-		de: "Castellith"
+		'en-us': "Crustle",
+		'fr-fr': "Crabaraque",
+		'es-es': "Crustle",
+		'it-it': "Crustle",
+		'pt-br': "Crustle",
+		'de-de': "Castellith"
 	},
 
 	rarity: "Uncommon",
@@ -23,33 +23,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "X-Scissor",
-			fr: "Plaie Croix",
-			es: "Tijera X",
-			it: "Forbice X",
-			pt: "X-Scissor",
-			de: "Kreuzschere"
+			'en-us': "X-Scissor",
+			'fr-fr': "Plaie Croix",
+			'es-es': "Tijera X",
+			'it-it': "Forbice X",
+			'pt-br': "X-Scissor",
+			'de-de': "Kreuzschere"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 60 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 60 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 60 danni in più.",
-			pt: "Flip a coin. If heads, this attack does 60 more damage.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 60 Schadenspunkte mehr zu."
+			'en-us': "Flip a coin. If heads, this attack does 60 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 60 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 60 danni in più.",
+			'pt-br': "Flip a coin. If heads, this attack does 60 more damage.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 60 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+",
 		cost: ["Grass", "Colorless"]
 	}, {
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			es: "Martillear",
-			it: "Martello",
-			pt: "Hammer In",
-			de: "Einhämmern"
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'es-es': "Martillear",
+			'it-it': "Martello",
+			'pt-br': "Hammer In",
+			'de-de': "Einhämmern"
 		},
 
 		damage: 130,
@@ -64,16 +64,16 @@ const card: Card = {
 	retreat: 3,
 
 	evolveFrom: {
-		en: "Dwebble",
-		fr: "Crabicoque",
-		es: "Dwebble",
-		it: "Dwebble",
-		pt: "Dwebble",
-		de: "Lithomith"
+		'en-us': "Dwebble",
+		'fr-fr': "Crabicoque",
+		'es-es': "Dwebble",
+		'it-it': "Dwebble",
+		'pt-br': "Dwebble",
+		'de-de': "Lithomith"
 	},
 
 	description: {
-		en: "Its thick claws are its greatest weapons. They're mighty enough to crack Rhyperior's carapace."
+		'en-us': "Its thick claws are its greatest weapons. They're mighty enough to crack Rhyperior's carapace."
 	},
 
 	dexId: [558],

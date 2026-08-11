@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロストミキサー",
+		'ja-jp': "ロストミキサー",
 	},
 
 	illustrator: "5ban Graphics",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の手札を2枚、ロストゾーンに置く。その後、自分の山札を1枚引く。（自分の手札を2枚、ロストゾーンに置けないなら、このカードは使えない。）",
+		'ja-jp': "自分の手札を2枚、ロストゾーンに置く。その後、自分の山札を1枚引く。（自分の手札を2枚、ロストゾーンに置けないなら、このカードは使えない。）",
 	},
 
 	variants: [

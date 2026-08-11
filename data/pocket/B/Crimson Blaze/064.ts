@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [626],
 
 	name: {
-		en: "Bouffalant"
+		'en-us': "Bouffalant"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "These Pokémon live in herds of about 20\nindividuals. Bouffalant that betray the herd will\nlose the hair on their heads for some reason."
+		'en-us': "These Pokémon live in herds of about 20\nindividuals. Bouffalant that betray the herd will\nlose the hair on their heads for some reason."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Revenge"
+			'en-us': "Revenge"
 		},
 
 		damage: 40,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 40 more damage."
+			'en-us': "If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 40 more damage."
 		}
 	}],
 

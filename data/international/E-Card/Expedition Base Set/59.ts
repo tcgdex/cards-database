@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Pidgeot",
-		fr: "Roucarnage",
-		de: "Tauboss"
+		'en-us': "Pidgeot",
+		'fr-fr': "Roucarnage",
+		'de-de': "Tauboss"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pidgeotto",
-		fr: "Roucoups"
+		'en-us': "Pidgeotto",
+		'fr-fr': "Roucoups"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Beating Wings",
-				fr: "Badelaile",
-				de: "Schlagende Flügel"
+				'en-us': "Beating Wings",
+				'fr-fr': "Badelaile",
+				'de-de': "Schlagende Flügel"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Pidgeot is your Active Pokémon, you may shuffle 1 of your Benched Pokémon and all cards attached to it into your deck. This power can't be used if Pidgeot is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), si Roucarnage est votre Pokémon Actif, vous pouvez mélanger un des Pokémon de votre Banc et toutes les cartes qui lui sont attachées à votre deck. Ce pouvoir ne peut être utilisé si Roucarnage est affecté par un État spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls auboss dein Aktives Pokémon ist, 1 der Pokémon auf der Bank und alle daran angelegten Karten in dein Deck mischen. Diese Fähigkeit kann nicht verwendet werden, falls Tauboss von einem Speziellen Zustand betroffen ist."
+				'en-us': "Once during your turn (before your attack), if Pidgeot is your Active Pokémon, you may shuffle 1 of your Benched Pokémon and all cards attached to it into your deck. This power can't be used if Pidgeot is affected by a Special Condition.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), si Roucarnage est votre Pokémon Actif, vous pouvez mélanger un des Pokémon de votre Banc et toutes les cartes qui lui sont attachées à votre deck. Ce pouvoir ne peut être utilisé si Roucarnage est affecté par un État spécial.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls auboss dein Aktives Pokémon ist, 1 der Pokémon auf der Bank und alle daran angelegten Karten in dein Deck mischen. Diese Fähigkeit kann nicht verwendet werden, falls Tauboss von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharp Beak",
-				fr: "Bec-aiguisé",
-				de: "Scharfschnabel"
+				'en-us': "Sharp Beak",
+				'fr-fr': "Bec-aiguisé",
+				'de-de': "Scharfschnabel"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 

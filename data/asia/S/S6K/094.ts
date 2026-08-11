@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "やまびこホーン",
+		'ja-jp': "やまびこホーン",
 	},
 
 	illustrator: "",
 	category: "Trainer",
 
 	effect: {
-		ja: "相手のトラッシュからたねポケモンを1枚選び、相手のベンチに出す。",
+		'ja-jp': "相手のトラッシュからたねポケモンを1枚選び、相手のベンチに出す。",
 	},
 
 	variants: [

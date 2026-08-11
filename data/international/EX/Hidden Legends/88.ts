@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Desert Ruins",
-		fr: "Ruines désert",
-		de: "Desert Ruins*"
+		'en-us': "Desert Ruins",
+		'fr-fr': "Ruines désert",
+		'de-de': "Desert Ruins*"
 	},
 
 	illustrator: "Shin-ichi Yoshikawa",
@@ -15,9 +15,9 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	effect: {
-		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. At any time between turns, each player puts 1 damage counter on his or her Pokémon-ex with maximum HP of at least 100.",
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez -la si une autre carte Stade est mise en jeu.",
-		de: "At any time between turns, each player puts 1 damage counter on his or her Pokémon-ex with maximum HP of at least 100."
+		'en-us': "This card stays in play when you play it. Discard this card if another Stadium card comes into play. At any time between turns, each player puts 1 damage counter on his or her Pokémon-ex with maximum HP of at least 100.",
+		'fr-fr': "Cette carte reste en jeu lorsque vous la jouez. Défaussez -la si une autre carte Stade est mise en jeu.",
+		'de-de': "At any time between turns, each player puts 1 damage counter on his or her Pokémon-ex with maximum HP of at least 100."
 	},
 
 	retreat: 0,

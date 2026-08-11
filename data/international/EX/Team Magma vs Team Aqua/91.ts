@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Entei ex",
-		fr: "Entei ex",
-		de: "Entei ex"
+		'en-us': "Entei ex",
+		'fr-fr': "Entei ex",
+		'de-de': "Entei ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Searing Flame",
-				fr: "Flammes calcinantes",
-				de: "Searing Flame"
+				'en-us': "Searing Flame",
+				'fr-fr': "Flammes calcinantes",
+				'de-de': "Searing Flame"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Burned."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Burned."
 			},
 			damage: 10,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bright Flame",
-				fr: "Flamme éclatante",
-				de: "Bright Flame"
+				'en-us': "Bright Flame",
+				'fr-fr': "Flamme éclatante",
+				'de-de': "Bright Flame"
 			},
 			effect: {
-				en: "Discard 2 Energy attached to Entei ex.",
-				fr: "Défaussez 2 Énergies attachées à Entei ex.",
-				de: "Discard 2 Energy attached to Entei ex."
+				'en-us': "Discard 2 Energy attached to Entei ex.",
+				'fr-fr': "Défaussez 2 Énergies attachées à Entei ex.",
+				'de-de': "Discard 2 Energy attached to Entei ex."
 			},
 			damage: 90,
 

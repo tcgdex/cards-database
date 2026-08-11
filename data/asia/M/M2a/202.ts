@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムウマ",
+		'ja-jp': "ムウマ",
 	},
 
 	illustrator: "mashu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "いきなり 後ろ髪に 噛みつき 引っぱっては 人の 驚く 姿を見て 喜んでいる。",
+		'ja-jp': "いきなり 後ろ髪に 噛みつき 引っぱっては 人の 驚く 姿を見て 喜んでいる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "かくせい" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。",
+				'ja-jp': "このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。",
 			},
 		},
 	],

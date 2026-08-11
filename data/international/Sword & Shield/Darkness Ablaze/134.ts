@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [128],
 
 	name: {
-		en: "Tauros",
-		fr: "Tauros",
-		es: "Tauros",
-		it: "Tauros",
-		pt: "Tauros",
-		de: "Tauros"
+		'en-us': "Tauros",
+		'fr-fr': "Tauros",
+		'es-es': "Tauros",
+		'it-it': "Tauros",
+		'pt-br': "Tauros",
+		'de-de': "Tauros"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Attack",
-				fr: "Koud'Korne",
-				es: "Cornada",
-				it: "Incornata",
-				pt: "Ataque de Chifre",
-				de: "Hornattacke"
+				'en-us': "Horn Attack",
+				'fr-fr': "Koud'Korne",
+				'es-es': "Cornada",
+				'it-it': "Incornata",
+				'pt-br': "Ataque de Chifre",
+				'de-de': "Hornattacke"
 			},
 
 			damage: 60,
@@ -57,7 +57,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "They live in groups. The one with the longest, thickest, and most-scarred horns is the boss of the herd."
+		'en-us': "They live in groups. The one with the longest, thickest, and most-scarred horns is the boss of the herd."
 	},
 
 	variants: [

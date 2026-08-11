@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドヒドイデ",
+		'ja-jp': "ドヒドイデ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "１２本の足で 海底を はう。 ドヒドイデの はったあとには サニーゴのカスが 散らばっている。",
+		'ja-jp': "１２本の足で 海底を はう。 ドヒドイデの はったあとには サニーゴのカスが 散らばっている。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "どくびし" },
 			effect: {
-				ja: "このポケモンがいるかぎり、相手のバトルポケモンがにげるたび、新しく出てきたポケモンをどくにする。",
+				'ja-jp': "このポケモンがいるかぎり、相手のバトルポケモンがにげるたび、新しく出てきたポケモンをどくにする。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンがどくなら、50ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンがどくなら、50ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒドイデ",
+		'ja-jp': "ヒドイデ",
 	},
 
 	retreat: 3,

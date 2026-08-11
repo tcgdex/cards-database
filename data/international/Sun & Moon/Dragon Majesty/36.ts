@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Majesty'
 
 const card: Card = {
 	name: {
-		en: "Dragonair",
-		fr: "Draco",
-		es: "Dragonair",
-		it: "Dragonair",
-		pt: "Dragonair",
-		de: "Dragonir"
+		'en-us': "Dragonair",
+		'fr-fr': "Draco",
+		'es-es': "Dragonair",
+		'it-it': "Dragonair",
+		'pt-br': "Dragonair",
+		'de-de': "Dragonir"
 	},
 
 	illustrator: "sui",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dratini",
-		fr: "Minidraco",
+		'en-us': "Dratini",
+		'fr-fr': "Minidraco",
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Tail",
-				fr: "Draco-Queue",
-				es: "Cola Dragón",
-				it: "Codadrago",
-				pt: "Cauda do Dragão",
-				de: "Drachenrute"
+				'en-us': "Dragon Tail",
+				'fr-fr': "Draco-Queue",
+				'es-es': "Cola Dragón",
+				'it-it': "Codadrago",
+				'pt-br': "Cauda do Dragão",
+				'de-de': "Drachenrute"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 60 damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
-				es: "Lanza 2 monedas. Este ataque hace 60 puntos de daño por cada cara.",
-				it: "Lancia due volte una moneta. Questo attacco infligge 60 danni ogni volta che esce testa.",
-				pt: "Jogue 2 moedas. Este ataque causa 60 pontos de dano para cada cara.",
-				de: "Wirf 2 Münzen. Diese Attacke fügt 60 Schadenspunkte pro Kopf zu."
+				'en-us': "Flip 2 coins. This attack does 60 damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 60 puntos de daño por cada cara.",
+				'it-it': "Lancia due volte una moneta. Questo attacco infligge 60 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 2 moedas. Este ataque causa 60 pontos de dano para cada cara.",
+				'de-de': "Wirf 2 Münzen. Diese Attacke fügt 60 Schadenspunkte pro Kopf zu."
 			},
 			damage: "60×",
 
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Waterfall",
-				fr: "Cascade",
-				es: "Cascada",
-				it: "Cascata",
-				pt: "Cachoeira",
-				de: "Kaskade"
+				'en-us': "Waterfall",
+				'fr-fr': "Cascade",
+				'es-es': "Cascada",
+				'it-it': "Cascata",
+				'pt-br': "Cachoeira",
+				'de-de': "Kaskade"
 			},
 
 			damage: 80,
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "From time immemorial, it has been venerated by agricultural peoples as an entity able to control the weather.",
+		'en-us': "From time immemorial, it has been venerated by agricultural peoples as an entity able to control the weather.",
 	},
 
 	thirdParty: {

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Golduck"
+		'en-us': "Golduck"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Psyduck"
+		'en-us': "Psyduck"
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psyshock"
+				'en-us': "Psyshock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 
@@ -46,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Beam"
+				'en-us': "Hyper Beam"
 			},
 			effect: {
-				en: "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
+				'en-us': "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
 			},
 			damage: 20,
 
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa."
+		'en-us': "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa."
 	},
 
 	variants: [

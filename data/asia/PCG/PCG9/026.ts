@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "feraligatr（デルタ種）",
+		'ja-jp': "feraligatr（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "戦いオーラ",
+				'ja-jp': "戦いオーラ",
 			},
 			effect: {
-				ja: "カード上にあるPokã©Monはそれぞれ、防御するPokã©Monに10個のダメージを与えます（脱力感と抵抗を適用する前）。",
+				'ja-jp': "カード上にあるPokã©Monはそれぞれ、防御するPokã©Monに10個のダメージを与えます（脱力感と抵抗を適用する前）。",
 			},
 		}],
 
@@ -29,17 +29,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ドラッグします",
+				'ja-jp': "ドラッグします",
 			},
 			effect: {
-				ja: "ダメージを与える前に、対戦相手のベンチポケモンの1つを選択し、防御ポケモンの1つで切り替えることができます。対戦相手は、防御するポケモンを選択して切り替えます。",
+				'ja-jp': "ダメージを与える前に、対戦相手のベンチポケモンの1つを選択し、防御ポケモンの1つで切り替えることができます。対戦相手は、防御するポケモンを選択して切り替えます。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Lightning", "Lightning", "Colorless"],
 			name: {
-				ja: "鋭い牙",
+				'ja-jp': "鋭い牙",
 			},
 			damage: 60,
 		},

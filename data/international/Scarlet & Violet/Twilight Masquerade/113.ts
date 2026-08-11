@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Poochyena",
-		fr: "Medhyèna",
-		es: "Poochyena",
-		it: "Poochyena",
-		pt: "Poochyena",
-		de: "Fiffyen"
+		'en-us': "Poochyena",
+		'fr-fr': "Medhyèna",
+		'es-es': "Poochyena",
+		'it-it': "Poochyena",
+		'pt-br': "Poochyena",
+		'de-de': "Fiffyen"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Continuous Steps",
-			fr: "Pas Continus",
-			es: "Pasos Incesantes",
-			it: "Passi Regolari",
-			pt: "Passos Contínuos",
-			de: "Dauerschritte"
+			'en-us': "Continuous Steps",
+			'fr-fr': "Pas Continus",
+			'es-es': "Pasos Incesantes",
+			'it-it': "Passi Regolari",
+			'pt-br': "Passos Contínuos",
+			'de-de': "Dauerschritte"
 		},
 
 		effect: {
-			en: "Flip a coin until you get tails. This attack does 10 damage for each heads.",
-			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 10 dégâts pour chaque côté face.",
-			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 10 puntos de daño por cada cara.",
-			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 10 danni ogni volta che esce testa.",
-			pt: "Jogue uma moeda até sair coroa. Este ataque causa 10 pontos de dano para cada cara.",
-			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip a coin until you get tails. This attack does 10 damage for each heads.",
+			'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 10 dégâts pour chaque côté face.",
+			'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 10 puntos de daño por cada cara.",
+			'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 10 danni ogni volta che esce testa.",
+			'pt-br': "Jogue uma moeda até sair coroa. Este ataque causa 10 pontos de dano para cada cara.",
+			'de-de': "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "10×"
@@ -46,12 +46,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Darkness Fang",
-			fr: "Croc Obscur",
-			es: "Colmillo de Oscuridad",
-			it: "Oscurizanna",
-			pt: "Presa Sombria",
-			de: "Fänge der Dunkelheit"
+			'en-us': "Darkness Fang",
+			'fr-fr': "Croc Obscur",
+			'es-es': "Colmillo de Oscuridad",
+			'it-it': "Oscurizanna",
+			'pt-br': "Presa Sombria",
+			'de-de': "Fänge der Dunkelheit"
 		},
 
 		damage: 20
@@ -67,7 +67,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Poochyena pursue their prey in packs. Once the prey is exhausted, the pack finishes it off. But sometimes the prey retaliates, and the pack flees.",
+		'en-us': "Poochyena pursue their prey in packs. Once the prey is exhausted, the pack finishes it off. But sometimes the prey retaliates, and the pack flees.",
 	},
 
 	variants: [

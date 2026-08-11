@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Taillow",
-		fr: "Nirondelle",
-		de: "Schwalbini",
-		it: "Taillow",
-		es: "Taillow",
-		pt: "Taillow",
+		'en-us': "Taillow",
+		'fr-fr': "Nirondelle",
+		'de-de': "Schwalbini",
+		'it-it': "Taillow",
+		'es-es': "Taillow",
+		'pt-br': "Taillow",
 		'es-mx': "Taillow"
 	},
 
@@ -28,12 +28,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Wing Attack",
-			fr: "Cru-Ailes",
-			de: "Flügelschlag",
-			it: "Attacco d'Ala",
-			es: "Ataque Ala",
-			pt: "Ataque de Asa",
+			'en-us': "Wing Attack",
+			'fr-fr': "Cru-Ailes",
+			'de-de': "Flügelschlag",
+			'it-it': "Attacco d'Ala",
+			'es-es': "Ataque Ala",
+			'pt-br': "Ataque de Asa",
 			'es-mx': "Ataque de Ala"
 		},
 

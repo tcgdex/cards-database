@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 8'
 
 const card: Card = {
 	name: {
-		en: "Carnivine",
+		'en-us': "Carnivine",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swallow Up",
+				'en-us': "Swallow Up",
 			},
 			effect: {
-				en: "Before doing damage, count the remaining HP of the Defending Pokémon and Carnivine. If the Defending Pokémon has fewer remaining HP than Carnivine’s, this attack does 60 damage instead.",
+				'en-us': "Before doing damage, count the remaining HP of the Defending Pokémon and Carnivine. If the Defending Pokémon has fewer remaining HP than Carnivine’s, this attack does 60 damage instead.",
 			},
 			damage: 30,
 
@@ -44,10 +44,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Wring Out",
+				'en-us': "Wring Out",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy card attached to the Defending Pokémon.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy card attached to the Defending Pokémon.",
 			},
 			damage: 20,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey."
+		'en-us': "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey."
 	},
 
 	retreat: 1,

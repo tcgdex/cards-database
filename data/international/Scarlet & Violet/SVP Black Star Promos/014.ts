@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Koraidon",
-		fr: "Koraidon",
-		es: "Koraidon",
-		it: "Koraidon",
-		pt: "Koraidon",
-		de: "Koraidon"
+		'en-us': "Koraidon",
+		'fr-fr': "Koraidon",
+		'es-es': "Koraidon",
+		'it-it': "Koraidon",
+		'pt-br': "Koraidon",
+		'de-de': "Koraidon"
 	},
 
 	rarity: "Promo",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Claw Slash",
-			fr: "Tranch'Griffe",
-			es: "Cuchillada Garra",
-			it: "Lacerartiglio",
-			pt: "Golpe de Garra",
-			de: "Klauenschlitzer"
+			'en-us': "Claw Slash",
+			'fr-fr': "Tranch'Griffe",
+			'es-es': "Cuchillada Garra",
+			'it-it': "Lacerartiglio",
+			'pt-br': "Golpe de Garra",
+			'de-de': "Klauenschlitzer"
 		},
 
 		damage: 70
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Rampaging Fang",
-			fr: "Croc Furieux",
-			es: "Colmillo Furioso",
-			it: "Zanna Infuriata",
-			pt: "Canino Feroz",
-			de: "Tobende Fänge"
+			'en-us': "Rampaging Fang",
+			'fr-fr': "Croc Furieux",
+			'es-es': "Colmillo Furioso",
+			'it-it': "Zanna Infuriata",
+			'pt-br': "Canino Feroz",
+			'de-de': "Tobende Fänge"
 		},
 
 		effect: {
-			en: "Discard 3 Energy from this Pokémon.",
-			fr: "Défaussez 3 Énergies de ce Pokémon.",
-			es: "Descarta 3 Energías de este Pokémon.",
-			it: "Scarta tre Energie da questo Pokémon.",
-			pt: "Descarte 3 Energias deste Pokémon.",
-			de: "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard 3 Energy from this Pokémon.",
+			'fr-fr': "Défaussez 3 Énergies de ce Pokémon.",
+			'es-es': "Descarta 3 Energías de este Pokémon.",
+			'it-it': "Scarta tre Energie da questo Pokémon.",
+			'pt-br': "Descarte 3 Energias deste Pokémon.",
+			'de-de': "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 190
@@ -67,7 +67,7 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "Mina Nakai",
 	description: {
-		en: "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.",
+		'en-us': "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.",
 	},
 	variants: [
 		{

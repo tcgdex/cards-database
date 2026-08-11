@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Poliwrath",
-		fr: "Tartard",
-		de: "Quappo"
+		'en-us': "Poliwrath",
+		'fr-fr': "Tartard",
+		'de-de': "Quappo"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Poliwhirl",
-		fr: "Quaputzi",
+		'en-us': "Poliwhirl",
+		'fr-fr': "Quaputzi",
 	},
 
 	stage: "Stage2",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Focus Punch",
-				fr: "Mitra-poing",
-				de: "Power-Punch"
+				'en-us': "Focus Punch",
+				'fr-fr': "Mitra-poing",
+				'de-de': "Power-Punch"
 			},
 			effect: {
-				en: "If Poliwrath was damaged by an attack during your opponent's last turn, this attack does nothing.",
-				fr: "Si une attaque a infligé des dégâts à Tartard lors du dernier tour de votre adversaire, cette attaque est sans effet.",
-				de: "Wenn Quappo im letzten Zug deines Gegners durch einen Angriff Schaden zugefügt wurde, hat dieser Angriff keine Auswirkungen."
+				'en-us': "If Poliwrath was damaged by an attack during your opponent's last turn, this attack does nothing.",
+				'fr-fr': "Si une attaque a infligé des dégâts à Tartard lors du dernier tour de votre adversaire, cette attaque est sans effet.",
+				'de-de': "Wenn Quappo im letzten Zug deines Gegners durch einen Angriff Schaden zugefügt wurde, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 60,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Submission",
-				fr: "Sacrifice",
-				de: "Überroller"
+				'en-us': "Submission",
+				'fr-fr': "Sacrifice",
+				'de-de': "Überroller"
 			},
 			effect: {
-				en: "Poliwrath does 20 damage to itself.",
-				fr: "Tartard s'inflige 20 dégâts.",
-				de: "Quappo fügt sich selbst 20 Schadenspunkte zu."
+				'en-us': "Poliwrath does 20 damage to itself.",
+				'fr-fr': "Tartard s'inflige 20 dégâts.",
+				'de-de': "Quappo fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 90,
 
@@ -79,8 +79,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "With extremely tough muscles, it can keep swimming in the Pacific Ocean without resting.",
-		fr: "Il possède de sacrés biscoteaux. Il peut parcourir sans relâche l'Océan Pacifique."
+		'en-us': "With extremely tough muscles, it can keep swimming in the Pacific Ocean without resting.",
+		'fr-fr': "Il possède de sacrés biscoteaux. Il peut parcourir sans relâche l'Océan Pacifique."
 	},
 
 	thirdParty: {

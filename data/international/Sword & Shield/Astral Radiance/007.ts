@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Yanmega",
-		fr: "Yanmega",
-		es: "Yanmega",
-		it: "Yanmega",
-		pt: "Yanmega",
-		de: "Yanmega"
+		'en-us': "Yanmega",
+		'fr-fr': "Yanmega",
+		'es-es': "Yanmega",
+		'it-it': "Yanmega",
+		'pt-br': "Yanmega",
+		'de-de': "Yanmega"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Yanma",
-		fr: "Yanma",
-		es: "Yanma",
-		it: "Yanma",
-		pt: "Yanma",
-		de: "Yanma"
+		'en-us': "Yanma",
+		'fr-fr': "Yanma",
+		'es-es': "Yanma",
+		'it-it': "Yanma",
+		'pt-br': "Yanma",
+		'de-de': "Yanma"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Razor Wing",
-			fr: "Aile Tranchante",
-			es: "Ala Cortante",
-			it: "Ala Tagliente",
-			pt: "Asa Cortante",
-			de: "Rasierflügel"
+			'en-us': "Razor Wing",
+			'fr-fr': "Aile Tranchante",
+			'es-es': "Ala Cortante",
+			'it-it': "Ala Tagliente",
+			'pt-br': "Asa Cortante",
+			'de-de': "Rasierflügel"
 		},
 
 		damage: 30
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Wide Wing",
-			fr: "Larges Ailes",
-			es: "Ala Ancha",
-			it: "Grande Ala",
-			pt: "Asa Larga",
-			de: "Breite Flügel"
+			'en-us': "Wide Wing",
+			'fr-fr': "Larges Ailes",
+			'es-es': "Ala Ancha",
+			'it-it': "Grande Ala",
+			'pt-br': "Asa Larga",
+			'de-de': "Breite Flügel"
 		},
 
 		effect: {
-			en: "If you have more cards in your hand than your opponent, this attack does 80 more damage.",
-			fr: "Si vous avez plus de cartes dans votre main que votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
-			es: "Si tienes más cartas en tu mano que tu rival, este ataque hace 80 puntos de daño más.",
-			it: "Se hai più carte in mano del tuo avversario, questo attacco infligge 80 danni in più.",
-			pt: "Se você tiver mais cartas na sua mão do que seu oponente, este ataque causará 80 pontos de dano a mais.",
-			de: "Wenn du mehr Karten auf der Hand hast als dein Gegner, fügt diese Attacke 80 Schadenspunkte mehr zu."
+			'en-us': "If you have more cards in your hand than your opponent, this attack does 80 more damage.",
+			'fr-fr': "Si vous avez plus de cartes dans votre main que votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
+			'es-es': "Si tienes más cartas en tu mano que tu rival, este ataque hace 80 puntos de daño más.",
+			'it-it': "Se hai più carte in mano del tuo avversario, questo attacco infligge 80 danni in più.",
+			'pt-br': "Se você tiver mais cartas na sua mão do que seu oponente, este ataque causará 80 pontos de dano a mais.",
+			'de-de': "Wenn du mehr Karten auf der Hand hast als dein Gegner, fügt diese Attacke 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "40+"
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This six-legged Pokémon is easily capable of transporting an adult in flight. The wings on its tail help it stay balanced.",
+		'en-us': "This six-legged Pokémon is easily capable of transporting an adult in flight. The wings on its tail help it stay balanced.",
 	},
 
 	variants: [

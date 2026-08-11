@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Dratini",
+		'en-us': "Dratini",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
+				'en-us': "Pound",
 			},
 
 			damage: 10,
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Long considered a mythical Pokémon until recently, when a small colony was found living underwater.",
+		'en-us': "Long considered a mythical Pokémon until recently, when a small colony was found living underwater.",
 	},
 
 

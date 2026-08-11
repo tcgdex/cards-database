@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グライオン",
+		'ja-jp': "グライオン",
 		'zh-tw': "天蠍王",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "羽音を 立てずに 空を 飛ぶ。 長い 尻尾で 獲物を 捕まえ キバで 急所を 一突き。",
+		'ja-jp': "羽音を 立てずに 空を 飛ぶ。 長い 尻尾で 獲物を 捕まえ キバで 急所を 一突き。",
 		'zh-tw': "可不發出振翅聲而在空中飛行。先用長長的尾巴攫住獵物， 再用牙齒朝弱點給予一刺。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ハリケーンショック",
+				'ja-jp': "ハリケーンショック",
 				'zh-tw': "颶風衝擊",
 			},
 			damage: "50×",
 			cost: ["Fighting", "Fighting"],
 			effect: {
-				ja: "コインを4回投げ、オモテの数×50ダメージ。オモテが2回以上なら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを4回投げ、オモテの数×50ダメージ。オモテが2回以上なら、相手のバトルポケモンをマヒにする。",
 				'zh-tw': "擲4次硬幣，造成正面出現的次數×50點傷害。若出現2次以上正面，則將對手的戰鬥寶可夢【麻痺】。",
 			},
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "グライガー",
+		'ja-jp': "グライガー",
 	},
 
 	retreat: 2,

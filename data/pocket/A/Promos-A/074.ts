@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Promos-A"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zeraora",
-		es: "Zeraora"
+		'en-us': "Zeraora",
+		'es-es': "Zeraora"
 	},
 
 	illustrator: "GIDORA",
@@ -18,8 +18,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "It electrifies its claws and tears its opponents\napart with them. Even if they dodge its attack,\nthey'll be electrocuted by the flying sparks.",
-		es: "Hace jirones al oponente con sus garras electrificadas. Aunque\neste esquive los golpes, acaba electrocutado por las descargas."
+		'en-us': "It electrifies its claws and tears its opponents\napart with them. Even if they dodge its attack,\nthey'll be electrocuted by the flying sparks.",
+		'es-es': "Hace jirones al oponente con sus garras electrificadas. Aunque\neste esquive los golpes, acaba electrocutado por las descargas."
 	},
 
 	stage: "Basic",
@@ -28,20 +28,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Thunderclap Flash",
-			es: "Destello Fulgurante"
+			'en-us': "Thunderclap Flash",
+			'es-es': "Destello Fulgurante"
 		},
 
 		effect: {
-			en: "At the end of your first turn, take a {L} Energy from your Energy Zone and attach it to this Pokémon.",
-			es: "Al final de tu primer turno, se unirá 1 Energía {L} de tu área de Energía a este Pokémon."
+			'en-us': "At the end of your first turn, take a {L} Energy from your Energy Zone and attach it to this Pokémon.",
+			'es-es': "Al final de tu primer turno, se unirá 1 Energía {L} de tu área de Energía a este Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Lightning Claw",
-			es: "Garra Relámpago" 
+			'en-us': "Lightning Claw",
+			'es-es': "Garra Relámpago" 
 		},
 
 		damage: 50,

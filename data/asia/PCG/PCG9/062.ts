@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Ledian（デルタ種）",
+		'ja-jp': "Ledian（デルタ種）",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "うろつき",
+				'ja-jp': "うろつき",
 			},
 			effect: {
-				ja: "ターン中に、Pokã©Monの1つを進化させるためにLedianを手から演奏すると、デッキを1枚のカードを検索して手に入れることができます。その後、デッキをシャッフルします。",
+				'ja-jp': "ターン中に、Pokã©Monの1つを進化させるためにLedianを手から演奏すると、デッキを1枚のカードを検索して手に入れることができます。その後、デッキをシャッフルします。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Metal", "Colorless"],
 			name: {
-				ja: "メタルスター",
+				'ja-jp': "メタルスター",
 			},
 			effect: {
-				ja: "Ledianにポケモンツールカードが取り付けられている場合は、3枚のカードを描画します。",
+				'ja-jp': "Ledianにポケモンツールカードが取り付けられている場合は、3枚のカードを描画します。",
 			},
 			damage: 30,
 		},

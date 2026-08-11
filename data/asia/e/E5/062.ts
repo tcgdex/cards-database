@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Snorlax",
+		'ja-jp': "Snorlax",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "むかつり",
+				'ja-jp': "むかつり",
 			},
 			effect: {
-				ja: "ターン中（攻撃前）に、SnorlaxがアクティブなPokmonである場合、Snorlaxから1ダメージカウンターを削除できます。 Snorlaxは今眠っています。 Snorlaxが特別な状態の影響を受ける場合、このパワーは使用できません。",
+				'ja-jp': "ターン中（攻撃前）に、SnorlaxがアクティブなPokmonである場合、Snorlaxから1ダメージカウンターを削除できます。 Snorlaxは今眠っています。 Snorlaxが特別な状態の影響を受ける場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "連続的なタンブル",
+				'ja-jp': "連続的なタンブル",
 			},
 			effect: {
-				ja: "尾がなくなるまでコインをひっくり返します。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
+				'ja-jp': "尾がなくなるまでコインをひっくり返します。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
 			},
 		},
 	],

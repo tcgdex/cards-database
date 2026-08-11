@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Jolteon",
-		fr: "Voltali",
+		'en-us': "Jolteon",
+		'fr-fr': "Voltali",
 	},
 	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
 	rarity: "Common",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Lightning",
 	],
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
 	},
 	stage: "Stage1",
 
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electrigun",
-				fr: "Pistolectrique",
+				'en-us': "Electrigun",
+				'fr-fr': "Pistolectrique",
 			},
 			effect: {
-				en: "You may discard a Lightning Energy attached to this Pokémon. If you do, this attack does 40 more damage.",
-				fr: "Vous pouvez défausser une Énergie Lightning attachée à ce Pokémon. Dans ce cas, cette attaque inflige 40 dégâts supplémentaires.",
+				'en-us': "You may discard a Lightning Energy attached to this Pokémon. If you do, this attack does 40 more damage.",
+				'fr-fr': "Vous pouvez défausser une Énergie Lightning attachée à ce Pokémon. Dans ce cas, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pin Missile",
-				fr: "Dard-Nuée",
+				'en-us': "Pin Missile",
+				'fr-fr': "Dard-Nuée",
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 40 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 4 coins. This attack does 40 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 40,
 
@@ -72,7 +72,7 @@ const card: Card = {
 
 
 	description: {
-		en: "If agitated, it uses electricity to straighten out its fur and launch it in small bunches.",
+		'en-us': "If agitated, it uses electricity to straighten out its fur and launch it in small bunches.",
 	},
 }
 

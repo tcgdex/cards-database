@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "瑪納霏",
-		ja: "マナフィ"
+		'ja-jp': "マナフィ"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "有著能與任何寶可夢心意相通的神奇能力。",
-		ja: "どんな ポケモンとでも 心を 通い合わせる ことが できる 不思議な 能力を 持っている。"
+		'ja-jp': "どんな ポケモンとでも 心を 通い合わせる ことが できる 不思議な 能力を 持っている。"
 	},
 
 	stage: "Basic",
@@ -26,19 +26,19 @@ const card: Card = {
 
 		name: {
 			'zh-tw': "浪之幕",
-			ja: "なみのヴェール"
+			'ja-jp': "なみのヴェール"
 		},
 
 		effect: {
 			'zh-tw': "只要這隻寶可夢在場上，自己的所有備戰寶可夢不會受到對手的招式的傷害。",
-			ja: "このポケモンがいるかぎり、自分のベンチポケモン全員は、相手のワザのダメージを受けない。"
+			'ja-jp': "このポケモンがいるかぎり、自分のベンチポケモン全員は、相手のワザのダメージを受けない。"
 		}
 	}],
 
 	attacks: [{
 		name: {
 			'zh-tw': "潑水",
-			ja: "みずかけ"
+			'ja-jp': "みずかけ"
 		},
 
 		damage: 20,

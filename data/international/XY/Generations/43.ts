@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Geodude",
-		fr: "Racaillou",
+		'en-us': "Geodude",
+		'fr-fr': "Racaillou",
 	},
 
 	illustrator: "MAHOU",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
 			},
 
 			damage: 10,
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flail",
-				fr: "Fléau",
+				'en-us': "Flail",
+				'fr-fr': "Fléau",
 			},
 			effect: {
-				en: "This attack does 10 damage times the number of damage counters on this Pokémon.",
-				fr: "Cette attaque inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon.",
+				'en-us': "This attack does 10 damage times the number of damage counters on this Pokémon.",
+				'fr-fr': "Cette attaque inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon.",
 			},
 			damage: "10×",
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",
+		'en-us': "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",
 	},
 
 	thirdParty: {

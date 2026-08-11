@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "拳拳蛸",
 		'zh-cn': "拳拳蛸",
-		ja: "タタッコ"
+		'ja-jp': "タタッコ"
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "會為了尋找食物而登上陸地。 擁有旺盛的好奇心，不管看到什麼， 都會先用觸手打一打再說。",
 		'zh-cn': "會為了尋找食物而登上陸地。 擁有旺盛的好奇心，不管看到什麼， 都會先用觸手打一打再說。",
-		ja: "餌を 求め 地上に 上がる。 好奇心旺盛で 目にしたものは とりあえず 触手で 殴る。"
+		'ja-jp': "餌を 求め 地上に 上がる。 好奇心旺盛で 目にしたものは とりあえず 触手で 殴る。"
 	},
 
 	stage: "Basic",
@@ -27,13 +27,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "撞一下",
 			'zh-cn': "撞一下",
-			ja: "ちょっとつっこむ"
+			'ja-jp': "ちょっとつっこむ"
 		},
 
 		effect: {
 			'zh-tw': "這隻寶可夢也受到10點傷害。",
 			'zh-cn': "這隻寶可夢也受到10點傷害。",
-			ja: "このポケモンにも10ダメージ。"
+			'ja-jp': "このポケモンにも10ダメージ。"
 		},
 
 		damage: 30,

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Klang",
-		fr: "Clic"
+		'en-us': "Klang",
+		'fr-fr': "Clic"
 	},
 
 	illustrator: "Akira Komayama",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Klink"
+		'en-us': "Klink"
 	},
 
 	description: {
-		en: "When Klang goes all out, the minigear links up\nperfectly with the outer part of the big gear, and\nthis Pokémon's rotation speed increases sharply.",
-		fr: "Quand le combat devient sérieux, la partie extérieure du grand rouage s'aligne parfaitement avec le petit pour accélérer leur rotation."
+		'en-us': "When Klang goes all out, the minigear links up\nperfectly with the outer part of the big gear, and\nthis Pokémon's rotation speed increases sharply.",
+		'fr-fr': "Quand le combat devient sérieux, la partie extérieure du grand rouage s'aligne parfaitement avec le petit pour accélérer leur rotation."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Gear Cutter",
-			fr: "Engrenage Tranchant"
+			'en-us': "Gear Cutter",
+			'fr-fr': "Engrenage Tranchant"
 		},
 
 		damage: 40,

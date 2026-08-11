@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Petilil",
-		fr: "Chlorobule",
-		es: "Petilil",
-		it: "Petilil",
-		pt: "Petilil",
-		de: "Lilminip"
+		'en-us': "Petilil",
+		'fr-fr': "Chlorobule",
+		'es-es': "Petilil",
+		'it-it': "Petilil",
+		'pt-br': "Petilil",
+		'de-de': "Lilminip"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 10
@@ -38,12 +38,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Flop",
-			fr: "Flop",
-			es: "Vuelta",
-			it: "Tonfo",
-			pt: "Baque",
-			de: "Plumps"
+			'en-us': "Flop",
+			'fr-fr': "Flop",
+			'es-es': "Vuelta",
+			'it-it': "Tonfo",
+			'pt-br': "Baque",
+			'de-de': "Plumps"
 		},
 
 		damage: 20
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The leaves on its head are highly valued for medicinal purposes. Dry the leaves in the sun, boil them, and then drink the bitter decoction for remarkably effective relief from fatigue.",
+		'en-us': "The leaves on its head are highly valued for medicinal purposes. Dry the leaves in the sun, boil them, and then drink the bitter decoction for remarkably effective relief from fatigue.",
 	},
 
 	variants: [

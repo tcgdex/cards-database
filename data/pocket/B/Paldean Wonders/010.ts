@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Virovent",
-		en: "Bramblin",
-		es: "Bramblin",
-		it: "Bramblin",
-		pt: "Bramblin",
-		de: "Weherba"
+		'fr-fr': "Virovent",
+		'en-us': "Bramblin",
+		'es-es': "Bramblin",
+		'it-it': "Bramblin",
+		'pt-br': "Bramblin",
+		'de-de': "Weherba"
   },
   illustrator: "Miki Tanaka",
   rarity: "One Diamond",

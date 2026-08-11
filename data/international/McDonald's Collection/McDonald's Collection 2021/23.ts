@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2021'
 
 const card: Card = {
 	name: {
-		en: "Popplio",
-		fr: "Otaquin",
+		'en-us': "Popplio",
+		'fr-fr': "Otaquin",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras’Face",
+				'en-us': "Pound",
+				'fr-fr': "Écras’Face",
 			},
 
 			damage: 10,
@@ -43,8 +43,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
 			},
 
 			damage: 20,
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon snorts body fluids from its nose, blowing balloons to smash into its foes. It’s famous for being a hard worker."
+		'en-us': "This Pokémon snorts body fluids from its nose, blowing balloons to smash into its foes. It’s famous for being a hard worker."
 	},
 	variants: [
 		{

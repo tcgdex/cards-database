@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drednaw"
+		'en-us': "Drednaw"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Chewtle"
+		'en-us': "Chewtle"
 	},
 
 	description: {
-		en: "Drednaw lurks along the shoreline. When prey\ncome to drink water, Drednaw stretches its neck\nout and chomps down on them."
+		'en-us': "Drednaw lurks along the shoreline. When prey\ncome to drink water, Drednaw stretches its neck\nout and chomps down on them."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Jaw Lock"
+			'en-us': "Jaw Lock"
 		},
 
 		damage: 70,
 		cost: ["Water", "Water", "Colorless"],
 
 		effect: {
-			en: "During your opponent's next turn, the Defending Pokémon can't retreat."
+			'en-us': "During your opponent's next turn, the Defending Pokémon can't retreat."
 		}
 	}],
 

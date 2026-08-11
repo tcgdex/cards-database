@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤドラン",
+		'ja-jp': "ヤドラン",
 	},
 
 	illustrator: "Shibuzoh.",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "海を 眺め ぼーっと している。 シェルダーの毒が 身体に 回り より ぼんやりするように なった。",
+		'ja-jp': "海を 眺め ぼーっと している。 シェルダーの毒が 身体に 回り より ぼんやりするように なった。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが持っているワザを1つ選ぶ。次の相手の番、このワザを受けたポケモンは、選ばれたワザを使えない。",
+				'ja-jp': "相手のバトルポケモンが持っているワザを1つ選ぶ。次の相手の番、このワザを受けたポケモンは、選ばれたワザを使えない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンがどくまたはやけどなら、80ダメージ追加。",
+				'ja-jp': "このポケモンがどくまたはやけどなら、80ダメージ追加。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤドン",
+		'ja-jp': "ヤドン",
 	},
 
 	retreat: 3,

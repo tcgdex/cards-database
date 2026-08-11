@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラサンドパン",
+		'ja-jp': "アローラサンドパン",
 	},
 
 	illustrator: "TOKIYA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "火山噴火 から 逃れるうちに 雪山に 棲みつくように なった。 雪しぶきをあげ 雪原を 駆ける。",
+		'ja-jp': "火山噴火 から 逃れるうちに 雪山に 棲みつくように なった。 雪しぶきをあげ 雪原を 駆ける。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ゆきかき" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札を1枚引く。",
+				'ja-jp': "自分の番に1回使える。自分の山札を1枚引く。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アローラサンド",
+		'ja-jp': "アローラサンド",
 	},
 
 	retreat: 2,

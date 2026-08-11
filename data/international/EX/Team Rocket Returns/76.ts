@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Slowpoke",
-		de: "Flegmon"
+		'en-us': "Slowpoke",
+		'de-de': "Flegmon"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Dense",
-				de: "Dense"
+				'en-us': "Dense",
+				'de-de': "Dense"
 			},
 			effect: {
-				en: "Any damage done to Slowpoke by attacks from your opponent's Evolved Pokémon is reduced by 10 (after applying Weakness and Resistance).",
-				de: "Any damage done to Slowpoke by attacks from your opponent's Evolved Pokémon is reduced by 10 (after applying Weakness and Resistance)."
+				'en-us': "Any damage done to Slowpoke by attacks from your opponent's Evolved Pokémon is reduced by 10 (after applying Weakness and Resistance).",
+				'de-de': "Any damage done to Slowpoke by attacks from your opponent's Evolved Pokémon is reduced by 10 (after applying Weakness and Resistance)."
 			},
 		},
 	],
@@ -44,8 +44,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				de: "Bite"
+				'en-us': "Bite",
+				'de-de': "Bite"
 			},
 
 			damage: 10,

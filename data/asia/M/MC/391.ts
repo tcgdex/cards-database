@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダゲキ",
+		'ja-jp': "ダゲキ",
 	},
 
 	illustrator: "Dsuke",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ダゲキが 修業する 山から 大岩や 大木に こぶしを 打ちつける 音が 聞こえてくる。",
+		'ja-jp': "ダゲキが 修業する 山から 大岩や 大木に こぶしを 打ちつける 音が 聞こえてくる。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Fighting"],
 			effect: {
-				ja: "相手のバトルポケモンが「ポケモンex」でないなら、このワザは失敗。このワザのダメージは弱点・抵抗力を計算しない。",
+				'ja-jp': "相手のバトルポケモンが「ポケモンex」でないなら、このワザは失敗。このワザのダメージは弱点・抵抗力を計算しない。",
 			},
 		},
 	],

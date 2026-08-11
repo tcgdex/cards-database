@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Skarmory",
-		fr: "Airmure",
-		de: "Panzaeron"
+		'en-us': "Skarmory",
+		'fr-fr': "Airmure",
+		'de-de': "Panzaeron"
 	},
 
 	illustrator: "Midori Harada",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Steel Coat",
-				fr: "Manteau d’acier",
-				de: "Stahlmantel"
+				'en-us': "Steel Coat",
+				'fr-fr': "Manteau d’acier",
+				'de-de': "Stahlmantel"
 			},
 			effect: {
-				en: "Search your deck for a Metal Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
-				fr: "Cherchez une carte Énergie Metal dans votre deck et attachez-la à l’un de vos Pokémon. Mélangez ensuite votre deck.",
-				de: "Durchsuche dein Deck nach einer -Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
+				'en-us': "Search your deck for a Metal Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez une carte Énergie Metal dans votre deck et attachez-la à l’un de vos Pokémon. Mélangez ensuite votre deck.",
+				'de-de': "Durchsuche dein Deck nach einer -Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Wing",
-				fr: "Aile tranchante",
-				de: "Rasierflügel"
+				'en-us': "Razor Wing",
+				'fr-fr': "Aile tranchante",
+				'de-de': "Rasierflügel"
 			},
 
 			damage: 40,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "After nesting in bramble bushes, the wings of its chicks grow hard from scratches by thorns."
+		'en-us': "After nesting in bramble bushes, the wings of its chicks grow hard from scratches by thorns."
 	},
 
 	variants: [

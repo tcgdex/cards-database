@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドラピオン",
+		'ja-jp': "ドラピオン",
 	},
 
 	illustrator: "Studio Bora Inc.",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "両腕の ツメは 自動車を スクラップにする 破壊力。 ツメの 先から 毒を 出す。",
+		'ja-jp': "両腕の ツメは 自動車を スクラップにする 破壊力。 ツメの 先から 毒を 出す。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Psychic", "Psychic", "Psychic", "Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンをどくとマヒにする。",
+				'ja-jp': "相手のバトルポケモンをどくとマヒにする。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "スコルピ",
+		'ja-jp': "スコルピ",
 	},
 
 	retreat: 3,

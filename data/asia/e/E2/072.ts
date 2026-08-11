@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグナイト-072/092",
+		'ja-jp': "マグナイト-072/092",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Metal"],
 			name: {
-				ja: "引きつける",
+				'ja-jp': "引きつける",
 			},
 			effect: {
-				ja: "対戦相手のベンチ付きポケモンの1つを選択し、防御ポケモンをそれで切り替えます。",
+				'ja-jp': "対戦相手のベンチ付きポケモンの1つを選択し、防御ポケモンをそれで切り替えます。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "取り組む",
+				'ja-jp': "取り組む",
 			},
 			damage: 20,
 		},

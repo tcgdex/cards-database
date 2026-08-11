@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Indeedee ex"
+		'en-us': "Indeedee ex"
 	},
 
 	illustrator: "Keisin",
@@ -22,24 +22,24 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Watch Over"
+			'en-us': "Watch Over"
 		},
 
 		effect: {
-			en: "Once during your turn, you may heal 20 damage from your Active Pokémon."
+			'en-us': "Once during your turn, you may heal 20 damage from your Active Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Psychic"
+			'en-us': "Psychic"
 		},
 
 		damage: 30,
 		cost: ["Psychic", "Psychic"],
 
 		effect: {
-			en: "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon."
+			'en-us': "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon."
 		}
 	}],
 

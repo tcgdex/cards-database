@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Minun"
+		'id-id': "Minun"
 	},
 
 	illustrator: "OKACHEKE",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Minun memiliki kebiasaan mendukung temannya. Jika hampir kalah, jumlah percikan api yang dikeluarkan dari tubuhnya makin bertambah banyak."
+		'id-id': "Minun memiliki kebiasaan mendukung temannya. Jika hampir kalah, jumlah percikan api yang dikeluarkan dari tubuhnya makin bertambah banyak."
 	},
 
 	stage: "Basic",
@@ -23,17 +23,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Buddy Pulse"
+			'id-id': "Buddy Pulse"
 		},
 
 		effect: {
-			id: "Berjalan jika ada Plusle di Arena sendiri. Selama Pokémon ini ada di Arena, tiap kali lawan mengenakan Energi dari Kartu Pegangan pada Pokémon, letakkan 2 Token Kerusakan pada Pokémon tersebut untuk tiap lembar Energi. Efek ini tidak berlaku kelipatan meskipun ada Pokémon lain yang memiliki Ability yang sama."
+			'id-id': "Berjalan jika ada Plusle di Arena sendiri. Selama Pokémon ini ada di Arena, tiap kali lawan mengenakan Energi dari Kartu Pegangan pada Pokémon, letakkan 2 Token Kerusakan pada Pokémon tersebut untuk tiap lembar Energi. Efek ini tidak berlaku kelipatan meskipun ada Pokémon lain yang memiliki Ability yang sama."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Speed Ball"
+			'id-id': "Speed Ball"
 		},
 
 		damage: 20,

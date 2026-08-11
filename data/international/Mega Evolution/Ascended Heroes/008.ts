@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chikorita",
-		fr: "Germignon",
-		es: "Chikorita",
+		'en-us': "Chikorita",
+		'fr-fr': "Germignon",
+		'es-es': "Chikorita",
 		'es-mx': "Chikorita",
-		de: "Endivie",
-		it: "Chikorita",
-		pt: "Chikorita"
+		'de-de': "Endivie",
+		'it-it': "Chikorita",
+		'pt-br': "Chikorita"
 	},
 
 	illustrator: "Kariya",
@@ -26,35 +26,35 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Growl",
-			fr: "Rugissement",
-			es: "Gruñido",
+			'en-us': "Growl",
+			'fr-fr': "Rugissement",
+			'es-es': "Gruñido",
 			'es-mx': "Gruñido",
-			de: "Heuler",
-			it: "Ruggito",
-			pt: "Rosnadura"
+			'de-de': "Heuler",
+			'it-it': "Ruggito",
+			'pt-br': "Rosnadura"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, attacks used by the Defending Pokémon do 20 less damage (before applying Weakness and Resistance).",
-			fr: "Pendant le prochain tour de votre adversaire, les attaques utilisées par le Pokémon Défenseur infligent 20 dégâts de moins (avant application de la Faiblesse et de la Résistance).",
-			es: "Durante el próximo turno de tu rival, los ataques usados por el Pokémon Defensor hacen 20 puntos de daño menos (antes de aplicar Debilidad y Resistencia).",
+			'en-us': "During your opponent's next turn, attacks used by the Defending Pokémon do 20 less damage (before applying Weakness and Resistance).",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, les attaques utilisées par le Pokémon Défenseur infligent 20 dégâts de moins (avant application de la Faiblesse et de la Résistance).",
+			'es-es': "Durante el próximo turno de tu rival, los ataques usados por el Pokémon Defensor hacen 20 puntos de daño menos (antes de aplicar Debilidad y Resistencia).",
 			'es-mx': "Durante el próximo turno de tu rival, los ataques usados por el Pokémon Defensor hacen 20 puntos de daño menos (antes de aplicar Debilidad y Resistencia).",
-			de: "Während des nächsten Zuges deines Gegners fügen die vom Verteidigenden Pokémon eingesetzten Attacken 20 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden).",
-			it: "Durante il prossimo turno del tuo avversario, gli attacchi usati dal Pokémon difensore infliggono 20 danni in meno, prima di aver applicato debolezza e resistenza.",
-			pt: "Durante o próximo turno do seu oponente, os ataques usados pelo Pokémon Defensor causarão 20 pontos de dano a menos (antes de aplicar Fraqueza e Resistência)."
+			'de-de': "Während des nächsten Zuges deines Gegners fügen die vom Verteidigenden Pokémon eingesetzten Attacken 20 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden).",
+			'it-it': "Durante il prossimo turno del tuo avversario, gli attacchi usati dal Pokémon difensore infliggono 20 danni in meno, prima di aver applicato debolezza e resistenza.",
+			'pt-br': "Durante o próximo turno do seu oponente, os ataques usados pelo Pokémon Defensor causarão 20 pontos de dano a menos (antes de aplicar Fraqueza e Resistência)."
 		}
 	}, {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			en: "Seed Bomb",
-			fr: "Canon Graine",
-			es: "Bomba Germen",
+			'en-us': "Seed Bomb",
+			'fr-fr': "Canon Graine",
+			'es-es': "Bomba Germen",
 			'es-mx': "Bomba Semilla",
-			de: "Samenbomben",
-			it: "Semebomba",
-			pt: "Bomba de Sementes"
+			'de-de': "Samenbomben",
+			'it-it': "Semebomba",
+			'pt-br': "Bomba de Sementes"
 		},
 
 		damage: 30
@@ -70,7 +70,7 @@ const card: Card = {
 	regulationMark: "J",
 
 	description: {
-		en: "A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up sun rays.",
+		'en-us': "A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up sun rays.",
 	},
 
 	variants: [

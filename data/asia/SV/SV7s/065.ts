@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "มาโฮมิล",
-		id: "Milcery"
+		'th-th': "มาโฮมิล",
+		'id-id': "Milcery"
 	},
 
 	illustrator: "OKACHEKE",
@@ -15,16 +15,16 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		th: "หากถูกจู่โจม มันจะพุ่งเข้าชนทำให้ศัตรูเปรอะไปด้วยครีม ในช่วงที่ศัตรูมองไม่เห็นหรือตกใจกับความอร่อยของครีม ก็จะอาศัยจังหวะนั้นหนีไป",
-		id: "Ia menyeruduk jika diserang musuh. Pokémon ini kabur ketika musuhnya dibuat berlumuran krim agar tidak bisa melihat atau terkejut karena kelezatan krimnya."
+		'th-th': "หากถูกจู่โจม มันจะพุ่งเข้าชนทำให้ศัตรูเปรอะไปด้วยครีม ในช่วงที่ศัตรูมองไม่เห็นหรือตกใจกับความอร่อยของครีม ก็จะอาศัยจังหวะนั้นหนีไป",
+		'id-id': "Ia menyeruduk jika diserang musuh. Pokémon ini kabur ketika musuhnya dibuat berlumuran krim agar tidak bisa melihat atau terkejut karena kelezatan krimnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "งึมงำ",
-			id: "Bergumam"
+			'th-th': "งึมงำ",
+			'id-id': "Bergumam"
 		},
 
 		damage: 20,

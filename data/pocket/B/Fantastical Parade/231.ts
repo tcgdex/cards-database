@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [197],
 
 	name: {
-		en: "Umbreon ex"
+		'en-us': "Umbreon ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Eevee"
+		'en-us': "Eevee"
 	},
 
 	stage: "Stage1",
@@ -27,17 +27,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Dark Chase"
+			'en-us': "Dark Chase"
 		},
 
 		effect: {
-			en: "Once during your turn, if this Pokémon is in the Active Spot, you may switch in 1 of your opponent's Benched Pokémon that has damage on it to the Active Spot."
+			'en-us': "Once during your turn, if this Pokémon is in the Active Spot, you may switch in 1 of your opponent's Benched Pokémon that has damage on it to the Active Spot."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Darkness Fang"
+			'en-us': "Darkness Fang"
 		},
 
 		damage: 80,

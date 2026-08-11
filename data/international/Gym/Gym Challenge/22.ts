@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Brock's Dugtrio"
+		'en-us': "Brock's Dugtrio"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Diglett"
+		'en-us': "Diglett"
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Lie Low"
+				'en-us': "Lie Low"
 			},
 			effect: {
-				en: "All damage done to Brock's Dugtrio during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance)."
+				'en-us': "All damage done to Brock's Dugtrio during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance)."
 			},
 
 		},
@@ -45,10 +45,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Earthdrill"
+				'en-us': "Earthdrill"
 			},
 			effect: {
-				en: "This attack can't be used unless Brock's Dugtrio used its Lie Low attack last turn."
+				'en-us': "This attack can't be used unless Brock's Dugtrio used its Lie Low attack last turn."
 			},
 
 		},

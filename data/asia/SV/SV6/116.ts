@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イルカマンex",
+		'ja-jp': "イルカマンex",
 		'zh-tw': "海豚俠ex",
 	},
 
@@ -19,11 +19,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "マイティソウル",
+				'ja-jp': "マイティソウル",
 				'zh-tw': "全能靈魂",
 			},
 			effect: {
-				ja: "このカードは、「イルカマン」の特性「マイティチェンジ」の効果によってしか場に出せない。",
+				'ja-jp': "このカードは、「イルカマン」の特性「マイティチェンジ」の効果によってしか場に出せない。",
 				'zh-tw': "這張卡只可依據「海豚俠」的特性「全能變身」的效果放置於場上。",
 			},
 		},
@@ -32,13 +32,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ギガインパクト",
+				'ja-jp': "ギガインパクト",
 				'zh-tw': "終極衝擊",
 			},
 			damage: 250,
 			cost: ["Water"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
 			},
 		},
@@ -58,7 +58,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ナミイルカ",
+		'ja-jp': "ナミイルカ",
 	},
 
 	retreat: 2,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クイタラン",
+		'ja-jp': "クイタラン",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "尻尾から 取りこんだ 空気を 炎に変えて ベロのように 使い アイアントを 溶かして 食べるぞ。",
+		'ja-jp': "尻尾から 取りこんだ 空気を 炎に変えて ベロのように 使い アイアントを 溶かして 食べるぞ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "こがす" },
 			cost: ["Fire"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Fire", "Fire"],
 			effect: {
-				ja: "相手のバトルポケモンがやけどでないなら、このワザは失敗。",
+				'ja-jp': "相手のバトルポケモンがやけどでないなら、このワザは失敗。",
 			},
 		},
 	],

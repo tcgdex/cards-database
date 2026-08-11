@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "パラセクト",
+		'ja-jp': "パラセクト",
 		'zh-tw': "派拉斯特",
 		'zh-cn': "派拉斯特"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "背中の キノコが 育つほど ばらまかれる キノコの 胞子の 効果は 強力になる。",
+		'ja-jp': "背中の キノコが 育つほど ばらまかれる キノコの 胞子の 効果は 強力になる。",
 		'zh-tw': "背上的蘑菇長得越大， 散播出來的蘑菇孢子 效果就越強。",
 		'zh-cn': "背上的蘑菇長得越大， 散播出來的蘑菇孢子 效果就越強。"
 	},
@@ -29,13 +29,13 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "キノコのほうし",
+			'ja-jp': "キノコのほうし",
 			'zh-tw': "蘑菇孢子",
 			'zh-cn': "蘑菇孢子"
 		},
 
 		effect: {
-			ja: "相手のバトルポケモンをねむりにする。",
+			'ja-jp': "相手のバトルポケモンをねむりにする。",
 			'zh-tw': "將對手的戰鬥寶可夢【睡眠】。",
 			'zh-cn': "將對手的戰鬥寶可夢【睡眠】。"
 		}
@@ -43,7 +43,7 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "シザースイング",
+			'ja-jp': "シザースイング",
 			'zh-tw': "橫掃剪",
 			'zh-cn': "橫掃剪"
 		},
@@ -51,7 +51,7 @@ const card: Card = {
 		damage: "60+",
 
 		effect: {
-			ja: "コインを2回投げ、オモテの数×30ダメージ追加。",
+			'ja-jp': "コインを2回投げ、オモテの数×30ダメージ追加。",
 			'zh-tw': "擲2次硬幣，增加正面出現的次數×30點傷害。",
 			'zh-cn': "擲2次硬幣，增加正面出現的次數×30點傷害。"
 		}

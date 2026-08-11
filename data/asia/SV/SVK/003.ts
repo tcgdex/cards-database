@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVK"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "マナフィ"
+		'ja-jp': "マナフィ"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "どんな ポケモンとでも 心を 通い合わせる ことが できる 不思議な 能力を 持っている。"
+		'ja-jp': "どんな ポケモンとでも 心を 通い合わせる ことが できる 不思議な 能力を 持っている。"
 	},
 
 	stage: "Basic",
@@ -24,11 +24,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "なみのヴェール"
+			'ja-jp': "なみのヴェール"
 		},
 
 		effect: {
-			ja: "このポケモンがいるかぎり、自分のベンチポケモン全員は、相手のワザのダメージを受けない。"
+			'ja-jp': "このポケモンがいるかぎり、自分のベンチポケモン全員は、相手のワザのダメージを受けない。"
 		}
 	}],
 
@@ -36,7 +36,7 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "みずかけ"
+			'ja-jp': "みずかけ"
 		},
 
 		damage: 20

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Jolteon",
-		fr: "Voltali",
-		es: "Jolteon",
-		it: "Jolteon",
-		pt: "Jolteon",
-		de: "Blitza"
+		'en-us': "Jolteon",
+		'fr-fr': "Voltali",
+		'es-es': "Jolteon",
+		'it-it': "Jolteon",
+		'pt-br': "Jolteon",
+		'de-de': "Blitza"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pin Missile",
-				fr: "Dard-Nuée",
+				'en-us': "Pin Missile",
+				'fr-fr': "Dard-Nuée",
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 4 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 20,
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electri-Defuse",
-				fr: "Neutralivolt",
+				'en-us': "Electri-Defuse",
+				'fr-fr': "Neutralivolt",
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Pokémon-EX, that Pokémon can't attack during your opponent's next turn.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-EX, il ne peut pas attaquer pendant le prochain tour de votre adversaire.",
+				'en-us': "If the Defending Pokémon is a Pokémon-EX, that Pokémon can't attack during your opponent's next turn.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon-EX, il ne peut pas attaquer pendant le prochain tour de votre adversaire.",
 			},
 			damage: 40,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "By storing electricity in its body, it can shoot its bristlelike fur like a barrage of missiles.",
+		'en-us': "By storing electricity in its body, it can shoot its bristlelike fur like a barrage of missiles.",
 	},
 
 	thirdParty: {

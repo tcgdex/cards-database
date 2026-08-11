@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Happiny",
-		fr: "Ptiravi",
-		de: "Wonneira"
+		'en-us': "Happiny",
+		'fr-fr': "Ptiravi",
+		'de-de': "Wonneira"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Baby Evolution",
-				fr: "Évolution Bébé",
-				de: "Baby Evolution"
+				'en-us': "Baby Evolution",
+				'fr-fr': "Évolution Bébé",
+				'de-de': "Baby Evolution"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may put Chansey from your hand onto Happiny (this counts as evolving Happiny) and remove all damage counters from Happiny.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Leveinard de votre main sur Ptiravi (vous le faites ainsi évoluer) et retirer à Ptiravi tous ses marqueurs de dégât.",
-				de: "Once during your turn (before your attack), you may put Chansey from your hand onto Happiny (this counts as evolving Happiny) and remove all damage counters from Happiny."
+				'en-us': "Once during your turn (before your attack), you may put Chansey from your hand onto Happiny (this counts as evolving Happiny) and remove all damage counters from Happiny.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Leveinard de votre main sur Ptiravi (vous le faites ainsi évoluer) et retirer à Ptiravi tous ses marqueurs de dégât.",
+				'de-de': "Once during your turn (before your attack), you may put Chansey from your hand onto Happiny (this counts as evolving Happiny) and remove all damage counters from Happiny."
 			}
 		},
 	],
@@ -43,14 +43,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Hospitality",
-				fr: "Hospitalité",
-				de: "Hospitality"
+				'en-us': "Hospitality",
+				'fr-fr': "Hospitalité",
+				'de-de': "Hospitality"
 			},
 			effect: {
-				en: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. Remove 2 damage counters from the new Defending Pokémon.",
-				fr: "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire. Retirez 2 marqueurs de dégât au nouveau Pokémon Défenseur.",
-				de: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. Remove 2 damage counters from the new Defending Pokémon."
+				'en-us': "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. Remove 2 damage counters from the new Defending Pokémon.",
+				'fr-fr': "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire. Retirez 2 marqueurs de dégât au nouveau Pokémon Défenseur.",
+				'de-de': "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. Remove 2 damage counters from the new Defending Pokémon."
 			},
 
 		},
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It likes to carry around a small rock. It may wander around others' feet and cause them to stumble."
+		'en-us': "It likes to carry around a small rock. It may wander around others' feet and cause them to stumble."
 	},
 
 	variants: [

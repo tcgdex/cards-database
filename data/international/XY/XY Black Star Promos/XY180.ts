@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Arcanine BREAK",
-		fr: "Arcanin TURBO"
+		'en-us': "Arcanine BREAK",
+		'fr-fr': "Arcanin TURBO"
 	},
 
 	illustrator: "5ban Graphics",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Arcanine",
-		fr: "Arcanin"
+		'en-us': "Arcanine",
+		'fr-fr': "Arcanin"
 	},
 
 	stage: "BREAK",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Turbo Flame",
-				fr: "Flamme Turbo"
+				'en-us': "Turbo Flame",
+				'fr-fr': "Flamme Turbo"
 			},
 			effect: {
-				en: "Attach 2 basic Energy cards from your discard pile to 1 of your Benched Pokémon.",
-				fr: "Attachez 2 cartes Énergie de base de votre pile de défausse à l'un de vos Pokémon de Banc."
+				'en-us': "Attach 2 basic Energy cards from your discard pile to 1 of your Benched Pokémon.",
+				'fr-fr': "Attachez 2 cartes Énergie de base de votre pile de défausse à l'un de vos Pokémon de Banc."
 			},
 			damage: 80,
 

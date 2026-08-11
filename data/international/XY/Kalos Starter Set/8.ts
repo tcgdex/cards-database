@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Kalos Starter Set'
 
 const card: Card = {
 	name: {
-		en: "Fennekin",
-		fr: "Feunnec",
-		es: "Fennekin",
-		it: "Fennekin",
-		pt: "Fennekin",
-		de: "Fynx"
+		'en-us': "Fennekin",
+		'fr-fr': "Feunnec",
+		'es-es': "Fennekin",
+		'it-it': "Fennekin",
+		'pt-br': "Fennekin",
+		'de-de': "Fynx"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				es: "Arañazo",
-				it: "Graffio",
-				pt: "Arranhão",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'es-es': "Arañazo",
+				'it-it': "Graffio",
+				'pt-br': "Arranhão",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Live Coal",
-				fr: "Charbon Mutant",
-				es: "Carbón Activado",
-				it: "Carboni Ardenti",
-				pt: "Carvão Vivo",
-				de: "Glühende Kohlen"
+				'en-us': "Live Coal",
+				'fr-fr': "Charbon Mutant",
+				'es-es': "Carbón Activado",
+				'it-it': "Carboni Ardenti",
+				'pt-br': "Carvão Vivo",
+				'de-de': "Glühende Kohlen"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.",
+		'en-us': "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.",
 	},
 
 	thirdParty: {

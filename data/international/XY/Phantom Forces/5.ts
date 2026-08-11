@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Sewaddle",
-		fr: "Larveyette",
-		es: "Sewaddle",
-		it: "Sewaddle",
-		pt: "Sewaddle",
-		de: "Strawickl"
+		'en-us': "Sewaddle",
+		'fr-fr': "Larveyette",
+		'es-es': "Sewaddle",
+		'it-it': "Sewaddle",
+		'pt-br': "Sewaddle",
+		'de-de': "Strawickl"
 	},
 
 	illustrator: "kawayoo",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Nap",
-				fr: "Tit'Sieste",
-				es: "Siesta",
-				it: "Pausa",
-				pt: "Soneca",
-				de: "Nickerchen"
+				'en-us': "Nap",
+				'fr-fr': "Tit'Sieste",
+				'es-es': "Siesta",
+				'it-it': "Pausa",
+				'pt-br': "Soneca",
+				'de-de': "Nickerchen"
 			},
 			effect: {
-				en: "Heal 20 damage from this Pokémon.",
-				fr: "Soignez 20 dégâts à ce Pokémon.",
-				es: "Cura 20 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 20 danni.",
-				pt: "Cure 20 de danos deste Pokémon.",
-				de: "Heile 20 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 20 damage from this Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à ce Pokémon.",
+				'es-es': "Cura 20 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 20 danni.",
+				'pt-br': "Cure 20 de danos deste Pokémon.",
+				'de-de': "Heile 20 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bug Bite",
-				fr: "Piqûre",
-				es: "Picadura",
-				it: "Coleomorso",
-				pt: "Picada",
-				de: "Käferbiss"
+				'en-us': "Bug Bite",
+				'fr-fr': "Piqûre",
+				'es-es': "Picadura",
+				'it-it': "Coleomorso",
+				'pt-br': "Picada",
+				'de-de': "Käferbiss"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon makes clothes for itself. It chews up leaves and sews them with sticky thread extruded from its mouth.",
+		'en-us': "This Pokémon makes clothes for itself. It chews up leaves and sews them with sticky thread extruded from its mouth.",
 	},
 
 	thirdParty: {

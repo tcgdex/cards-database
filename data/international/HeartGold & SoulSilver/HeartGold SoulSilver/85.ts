@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Sunkern",
-		fr: "Tournegrin",
-		de: "Sonnkern"
+		'en-us': "Sunkern",
+		'fr-fr': "Tournegrin",
+		'de-de': "Sonnkern"
 	},
 
 	illustrator: "Yuka Morii",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cure Kernels",
-				fr: "Graines de soin",
-				de: "Heilsamen"
+				'en-us': "Cure Kernels",
+				'fr-fr': "Graines de soin",
+				'de-de': "Heilsamen"
 			},
 			effect: {
-				en: "Remove 2 damage counters from 1 of your Pokémon.",
-				fr: "Retirez 2 marqueurs de dégâts d’un de vos Pokémon.",
-				de: "Entferne 2 Schadensmarken von 1 deiner Pokémon."
+				'en-us': "Remove 2 damage counters from 1 of your Pokémon.",
+				'fr-fr': "Retirez 2 marqueurs de dégâts d’un de vos Pokémon.",
+				'de-de': "Entferne 2 Schadensmarken von 1 deiner Pokémon."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Seed Bomb",
-				fr: "Canon graine",
-				de: "Samenbomben"
+				'en-us': "Seed Bomb",
+				'fr-fr': "Canon graine",
+				'de-de': "Samenbomben"
 			},
 
 			damage: 20,
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It may plummet from the sky. If attacked by a Spearow, it will violently shake its leaves."
+		'en-us': "It may plummet from the sky. If attacked by a Spearow, it will violently shake its leaves."
 	},
 
 	variants: [

@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../HeartGold & SoulSilver'
 
 const hgss2: Set = {
 	id: "hgss2",
 
 	name: {
-		en: "Unleashed",
-		fr: "Déchaînement",
-		es: "Liberados",
-		it: "Forze Scatenate",
-		de: "Entfesselt",
-		pt: "Revelado"
+		'en-us': "Unleashed",
+		'fr-fr': "Déchaînement",
+		'es-es': "Liberados",
+		'it-it': "Forze Scatenate",
+		'de-de': "Entfesselt",
+		'pt-br': "Revelado"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const hgss2: Set = {
 
 	abbreviations: {
 		official: "UL",
-		fr: "DCH"
+		'fr-fr': "DCH"
 	},
 
 	thirdParty: {

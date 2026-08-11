@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スコヴィランex",
+		'ja-jp': "スコヴィランex",
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ダブルタイプ" },
 			effect: {
-				ja: "このポケモンは、場にいるかぎり[G]と[R]の2つのタイプになる。",
+				'ja-jp': "このポケモンは、場にいるかぎり[G]と[R]の2つのタイプになる。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Fire", "Fire"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数×70ダメージ追加。",
+				'ja-jp': "このポケモンにのっているダメカンの数×70ダメージ追加。",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カプサイジ",
+		'ja-jp': "カプサイジ",
 	},
 
 	retreat: 2,

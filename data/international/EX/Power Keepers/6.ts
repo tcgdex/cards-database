@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Charizard",
-		fr: "Dracaufeu",
-		de: "Glurak"
+		'en-us': "Charizard",
+		'fr-fr': "Dracaufeu",
+		'de-de': "Glurak"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmeleon",
-		fr: "Reptincel"
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel"
 	},
 
 	stage: "Stage2",
@@ -36,9 +36,9 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Combustion",
-				fr: "Fournaise",
-				de: "Glühen"
+				'en-us': "Combustion",
+				'fr-fr': "Fournaise",
+				'de-de': "Glühen"
 			},
 
 			damage: 30,
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bursting Inferno",
-				fr: "Enfer explosif",
-				de: "Flammendes Inferno"
+				'en-us': "Bursting Inferno",
+				'fr-fr': "Enfer explosif",
+				'de-de': "Flammendes Inferno"
 			},
 			effect: {
-				en: "Each Defending Pokémon is now Burned.",
-				fr: "Chaque Pokémon Défenseur est maintenant Brûlé.",
-				de: "Verteidigende Pokémon sind jetzt verbrannt."
+				'en-us': "Each Defending Pokémon is now Burned.",
+				'fr-fr': "Chaque Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "Verteidigende Pokémon sind jetzt verbrannt."
 			},
 			damage: 50,
 

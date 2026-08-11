@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Rayquaza & Deoxys LEGEND",
-		fr: "Rayquaza & Deoxys LÉGENDE",
-		de: "Rayquaza & Deoxys LEGENDE"
+		'en-us': "Rayquaza & Deoxys LEGEND",
+		'fr-fr': "Rayquaza & Deoxys LÉGENDE",
+		'de-de': "Rayquaza & Deoxys LEGENDE"
 	},
 
 	illustrator: "Shinji Higuchi + Sachiko Eba",
@@ -26,15 +26,15 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				en: "Ozone Buster",
-				fr: "",
-				de: "Ozonsprenger"
+				'en-us': "Ozone Buster",
+				'fr-fr': "",
+				'de-de': "Ozonsprenger"
 			},
 
 			effect: {
-				en: "Discard all Fire Energy attached to Rayquaza & Deoxys LEGEND.",
-				fr: "Placez cette carte sur votre Banc uniquement avec l’autre moitié de Rayquaza & Deoxys LÉGENDE.",
-				de: "Lege alle -Energien, die an Rayquaza & Deoxys-LEGENDE angelegt sind, auf deinen Ablagestapel."
+				'en-us': "Discard all Fire Energy attached to Rayquaza & Deoxys LEGEND.",
+				'fr-fr': "Placez cette carte sur votre Banc uniquement avec l’autre moitié de Rayquaza & Deoxys LÉGENDE.",
+				'de-de': "Lege alle -Energien, die an Rayquaza & Deoxys-LEGENDE angelegt sind, auf deinen Ablagestapel."
 			},
 
 			damage: 150,
@@ -46,10 +46,10 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Space Virus"
+				'en-us': "Space Virus"
 			},
 			effect: {
-				en: "If your opponent's Pokémon is Knocked Out by damage from an attack of Rayquaza & Deoxys LEGEND, take 1 more Prize card."
+				'en-us': "If your opponent's Pokémon is Knocked Out by damage from an attack of Rayquaza & Deoxys LEGEND, take 1 more Prize card."
 			}
 		},
 	],

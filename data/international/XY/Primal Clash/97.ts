@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Excadrill",
-		fr: "Minotaupe",
-		es: "Excadrill",
-		it: "Excadrill",
-		pt: "Excadrill",
-		de: "Stalobor"
+		'en-us': "Excadrill",
+		'fr-fr': "Minotaupe",
+		'es-es': "Excadrill",
+		'it-it': "Excadrill",
+		'pt-br': "Excadrill",
+		'de-de': "Stalobor"
 	},
 
 	illustrator: "PLANETA",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Drilbur",
-		fr: "Rototaupe",
-		es: "Drilbur",
-		it: "Drilbur",
-		pt: "Drilbur",
-		de: "Rotomurf"
+		'en-us': "Drilbur",
+		'fr-fr': "Rototaupe",
+		'es-es': "Drilbur",
+		'it-it': "Drilbur",
+		'pt-br': "Drilbur",
+		'de-de': "Rotomurf"
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ancient Trait",
 			name: {
-				fr: "Offensive Ω",
-				en: "Ω Barrage",
-				es: "{title}:",
-				it: "{title}:",
-				pt: "{title}:",
-				de: "{title}:"
+				'fr-fr': "Offensive Ω",
+				'en-us': "Ω Barrage",
+				'es-es': "{title}:",
+				'it-it': "{title}:",
+				'pt-br': "{title}:",
+				'de-de': "{title}:"
 			},
 			effect: {
-				fr: "Ce Pokémon peut attaquer deux fois par tour. (Si la première attaque met K.O. le Pokémon Actif de votre adversaire, vous pouvez encore attaquer après que votre adversaire a choisi un nouveau Pokémon Actif.)",
-				en: "This Pokémon may attack twice a turn. (If the first attack Knocks Out your opponent's Active Pokémon, you may attack again after your opponent chooses a new Active Pokémon.)",
-				es: "{title}: Este Pokémon puede atacar 2 veces por turno. (Si el primer ataque deja Fuera de Combate al Pokémon Activo de tu rival, puedes atacar otra vez después de que tu rival elija un nuevo Pokémon Activo).",
-				it: "{title}: Questo Pokémon può attaccare due volte durante lo stesso turno. Se il primo attacco mette KO il Pokémon attivo del tuo avversario, puoi attaccare di nuovo dopo che il tuo avversario avrà scelto il suo nuovo Pokémon attivo.",
-				pt: "{title}: Este Pokémon pode atacar duas vezes por turno. (Se o primeiro ataque Nocautear o Pokémon Ativo de seu oponente, você deve atacar de novo assim que seu oponente escolher um novo Pokémon Ativo).",
-				de: "{title}: Dieses Pokémon kann während eines Zuges zweimal angreifen. (Falls der erste Angriff das Aktive Pokémon deines Gegners kampfunfähig macht, kannst du erneut angreifen, nachdem dein Gegner ein neues Aktives Pokémon ausgewählt hat.)"
+				'fr-fr': "Ce Pokémon peut attaquer deux fois par tour. (Si la première attaque met K.O. le Pokémon Actif de votre adversaire, vous pouvez encore attaquer après que votre adversaire a choisi un nouveau Pokémon Actif.)",
+				'en-us': "This Pokémon may attack twice a turn. (If the first attack Knocks Out your opponent's Active Pokémon, you may attack again after your opponent chooses a new Active Pokémon.)",
+				'es-es': "{title}: Este Pokémon puede atacar 2 veces por turno. (Si el primer ataque deja Fuera de Combate al Pokémon Activo de tu rival, puedes atacar otra vez después de que tu rival elija un nuevo Pokémon Activo).",
+				'it-it': "{title}: Questo Pokémon può attaccare due volte durante lo stesso turno. Se il primo attacco mette KO il Pokémon attivo del tuo avversario, puoi attaccare di nuovo dopo che il tuo avversario avrà scelto il suo nuovo Pokémon attivo.",
+				'pt-br': "{title}: Este Pokémon pode atacar duas vezes por turno. (Se o primeiro ataque Nocautear o Pokémon Ativo de seu oponente, você deve atacar de novo assim que seu oponente escolher um novo Pokémon Ativo).",
+				'de-de': "{title}: Dieses Pokémon kann während eines Zuges zweimal angreifen. (Falls der erste Angriff das Aktive Pokémon deines Gegners kampfunfähig macht, kannst du erneut angreifen, nachdem dein Gegner ein neues Aktives Pokémon ausgewählt hat.)"
 			},
 		},
 	],
@@ -65,20 +65,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dredge",
-				fr: "Débourbage",
-				es: "Dragar",
-				it: "Draga",
-				pt: "Draga",
-				de: "Tiefbagger"
+				'en-us': "Dredge",
+				'fr-fr': "Débourbage",
+				'es-es': "Dragar",
+				'it-it': "Draga",
+				'pt-br': "Draga",
+				'de-de': "Tiefbagger"
 			},
 			effect: {
-				en: "Search your deck for 2 Energy cards and attach them to this Pokémon. Shuffle your deck afterward.",
-				fr: "Cherchez 2 cartes Énergie dans votre deck et attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja 2 cartas de Energía y únelas a este Pokémon. Baraja las cartas de tu baraja después.",
-				it: "Cerca nel tuo mazzo due carte Energia e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure em seu baralho 2 cards de Energia e ligue-os a este Pokémon. Em seguida, embaralhe seus cards.",
-				de: "Durchsuche dein Deck nach 2 Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+				'en-us': "Search your deck for 2 Energy cards and attach them to this Pokémon. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez 2 cartes Énergie dans votre deck et attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja 2 cartas de Energía y únelas a este Pokémon. Baraja las cartas de tu baraja después.",
+				'it-it': "Cerca nel tuo mazzo due carte Energia e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure em seu baralho 2 cards de Energia e ligue-os a este Pokémon. Em seguida, embaralhe seus cards.",
+				'de-de': "Durchsuche dein Deck nach 2 Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -89,20 +89,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mach Claw",
-				fr: "Instagriffe",
-				es: "Garra Mach",
-				it: "Artiglio Mach",
-				pt: "Garra Supersônica",
-				de: "Tempoklaue"
+				'en-us': "Mach Claw",
+				'fr-fr': "Instagriffe",
+				'es-es': "Garra Mach",
+				'it-it': "Artiglio Mach",
+				'pt-br': "Garra Supersônica",
+				'de-de': "Tempoklaue"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				es: "El daño de este ataque no se ve afectado por Resistencia.",
-				it: "Il danno di questo attacco non è influenzato dalla resistenza.",
-				pt: "Os danos deste ataque não são afetados por Resistência.",
-				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+				'it-it': "Il danno di questo attacco non è influenzato dalla resistenza.",
+				'pt-br': "Os danos deste ataque não são afetados por Resistência.",
+				'de-de': "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 50,
 
@@ -126,7 +126,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "More than 300 feet below the surface, they build mazelike nests. Their activity can be destructive to subway tunnels.",
+		'en-us': "More than 300 feet below the surface, they build mazelike nests. Their activity can be destructive to subway tunnels.",
 	},
 
 	thirdParty: {

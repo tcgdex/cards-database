@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Magikarp",
-		fr: "Magicarpe",
-		es: "Magikarp",
-		it: "Magikarp",
-		pt: "Magikarp",
-		de: "Karpador"
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe",
+		'es-es': "Magikarp",
+		'it-it': "Magikarp",
+		'pt-br': "Magikarp",
+		'de-de': "Karpador"
 	},
 
 	illustrator: "Mizue",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Soggy Rush",
-				fr: "Assaut Humide",
+				'en-us': "Soggy Rush",
+				'fr-fr': "Assaut Humide",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Magikarp living for many years can leap a mountain using Splash. The move remains useless, though.",
+		'en-us': "A Magikarp living for many years can leap a mountain using Splash. The move remains useless, though.",
 	},
 
 	thirdParty: {

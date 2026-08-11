@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "インテレオン",
+		'ja-jp': "インテレオン",
 		'zh-tw': "千面避役",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "指先から 放つ 水鉄砲は マッハ３の 速さ。 瞬膜で 急所を 見抜いて 撃ちぬくぞ。",
+		'ja-jp': "指先から 放つ 水鉄砲は マッハ３の 速さ。 瞬膜で 急所を 見抜いて 撃ちぬくぞ。",
 		'zh-tw': "能從指尖射出速度高達３馬赫的水槍。牠的瞬膜能幫助牠看穿 敵人的弱點，準確地擊中要害。",
 	},
 
@@ -24,11 +24,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "クイックシューター",
+				'ja-jp': "クイックシューター",
 				'zh-tw': "快速射擊手",
 			},
 			effect: {
-				ja: "自分の番に1回使える。相手のポケモン1匹に、ダメカンを2個のせる。",
+				'ja-jp': "自分の番に1回使える。相手のポケモン1匹に、ダメカンを2個のせる。",
 				'zh-tw': "在自己的回合時，可使用1次。在對手的1隻寶可夢身上放置2個傷害指示物。",
 			},
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "たきのぼり",
+				'ja-jp': "たきのぼり",
 				'zh-tw': "攀瀑",
 			},
 			damage: 70,
@@ -59,7 +59,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ジメレオン",
+		'ja-jp': "ジメレオン",
 	},
 
 	retreat: 1,

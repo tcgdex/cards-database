@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バーネット博士",
+		'ja-jp': "バーネット博士",
 	},
 
 	illustrator: "kirisAki",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札から好きなカードを2枚まで選び、トラッシュする。そして山札を切る。",
+		'ja-jp': "自分の山札から好きなカードを2枚まで選び、トラッシュする。そして山札を切る。",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アーマーガアVMAX",
+		'ja-jp': "アーマーガアVMAX",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ラスターボディ" },
 			effect: {
-				ja: "このポケモンは、相手のポケモンから特性の効果を受けない。",
+				'ja-jp': "このポケモンは、相手のポケモンから特性の効果を受けない。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 240,
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「キョダイハリケーン」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「キョダイハリケーン」が使えない。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アーマーガアV",
+		'ja-jp': "アーマーガアV",
 	},
 
 	retreat: 0,

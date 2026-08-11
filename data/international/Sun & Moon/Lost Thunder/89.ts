@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Espeon",
-		fr: "Mentali",
-		es: "Espeon",
-		it: "Espeon",
-		pt: "Espeon",
-		de: "Psiana"
+		'en-us': "Espeon",
+		'fr-fr': "Mentali",
+		'es-es': "Espeon",
+		'it-it': "Espeon",
+		'pt-br': "Espeon",
+		'de-de': "Psiana"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Allure",
-				fr: "Allure",
-				es: "Atractivo",
-				it: "Affascinante",
-				pt: "Fascinar",
-				de: "Verlockung"
+				'en-us': "Allure",
+				'fr-fr': "Allure",
+				'es-es': "Atractivo",
+				'it-it': "Affascinante",
+				'pt-br': "Fascinar",
+				'de-de': "Verlockung"
 			},
 			effect: {
-				en: "Draw 3 cards.",
-				fr: "Piochez 3 cartes.",
-				es: "Roba 3 cartas.",
-				it: "Pesca tre carte.",
-				pt: "Compre 3 cartas.",
-				de: "Ziehe 3 Karten."
+				'en-us': "Draw 3 cards.",
+				'fr-fr': "Piochez 3 cartes.",
+				'es-es': "Roba 3 cartas.",
+				'it-it': "Pesca tre carte.",
+				'pt-br': "Compre 3 cartas.",
+				'de-de': "Ziehe 3 Karten."
 			},
 
 		},
@@ -61,20 +61,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Energy Crush",
-				fr: "Écras’Énergie",
-				es: "Comprimir Energía",
-				it: "Sgretolenergia",
-				pt: "Esmagamento de Energia",
-				de: "Zermalmende Energie"
+				'en-us': "Energy Crush",
+				'fr-fr': "Écras’Énergie",
+				'es-es': "Comprimir Energía",
+				'it-it': "Sgretolenergia",
+				'pt-br': "Esmagamento de Energia",
+				'de-de': "Zermalmende Energie"
 			},
 			effect: {
-				en: "This attack does 20 more damage times the amount of Energy attached to all of your opponent’s Pokémon.",
-				fr: "Cette attaque inflige 20 dégâts supplémentaires multipliés par le nombre d’Énergies attachées aux Pokémon de votre adversaire.",
-				es: "Este ataque hace 20 puntos de daño más por cada Energía unida a todos los Pokémon de tu rival.",
-				it: "Questo attacco infligge 20 danni in più per ogni Energia assegnata ai Pokémon del tuo avversario.",
-				pt: "Este ataque causa 20 pontos de dano a mais vezes a quantidade de Energia ligada a todos os Pokémon do seu oponente.",
-				de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der an alle Pokémon deines Gegners angelegten Energien zu."
+				'en-us': "This attack does 20 more damage times the amount of Energy attached to all of your opponent’s Pokémon.",
+				'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires multipliés par le nombre d’Énergies attachées aux Pokémon de votre adversaire.",
+				'es-es': "Este ataque hace 20 puntos de daño más por cada Energía unida a todos los Pokémon de tu rival.",
+				'it-it': "Questo attacco infligge 20 danni in più per ogni Energia assegnata ai Pokémon del tuo avversario.",
+				'pt-br': "Este ataque causa 20 pontos de dano a mais vezes a quantidade de Energia ligada a todos os Pokémon do seu oponente.",
+				'de-de': "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der an alle Pokémon deines Gegners angelegten Energien zu."
 			},
 			damage: "20+",
 
@@ -91,7 +91,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It unleashes psychic power from the orb on its forehead. When its power is exhausted, the orb grows dull and dark.",
+		'en-us': "It unleashes psychic power from the orb on its forehead. When its power is exhausted, the orb grows dull and dark.",
 	},
 
 	thirdParty: {

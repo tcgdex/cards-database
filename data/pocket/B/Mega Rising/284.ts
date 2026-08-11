@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mega Blaziken ex"
+		'en-us': "Mega Blaziken ex"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Combusken"
+		'en-us': "Combusken"
 	},
 
 	description: {
-		en: "When facing a tough foe, it looses flames from\nits wrists. Its powerful legs let it jump clear over\nbuildings."
+		'en-us': "When facing a tough foe, it looses flames from\nits wrists. Its powerful legs let it jump clear over\nbuildings."
 	},
 
 	stage: "Stage2",
@@ -29,14 +29,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Mega Burning"
+			'en-us': "Mega Burning"
 		},
 
 		damage: 120,
 		cost: ["Fire", "Fire"],
 
 		effect: {
-			en: "Discard Fire{R} Energy from this Pokémon. Your opponent's Active Pokémon is now Burned."
+			'en-us': "Discard Fire{R} Energy from this Pokémon. Your opponent's Active Pokémon is now Burned."
 		}
 	}],
 

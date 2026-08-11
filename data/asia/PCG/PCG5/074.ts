@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レイロン",
+		'ja-jp': "レイロン",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "休む",
+				'ja-jp': "休む",
 			},
 			effect: {
-				ja: "Laironからすべての特別な条件と5つのダメージカウンター（5つ未満の場合はすべて）を削除します。ライロンは今眠っています。",
+				'ja-jp': "Laironからすべての特別な条件と5つのダメージカウンター（5つ未満の場合はすべて）を削除します。ライロンは今眠っています。",
 			},
 		},
 		{
 			cost: ["Metal", "Colorless"],
 			name: {
-				ja: "ボディスラム",
+				'ja-jp': "ボディスラム",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 20,
 		},

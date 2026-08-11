@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ศิลาเหล็ก",
-		id: "Iron Boulder"
+		'th-th': "ศิลาเหล็ก",
+		'id-id': "Iron Boulder"
 	},
 
 	illustrator: "GIDORA",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		th: "เหมือนว่าร่างกายจะมีคุณสมบัติเป็นโลหะ ถูกตั้งชื่อตามวัตถุลึกลับที่ถูกระบุไว้ในหนังสือเก่าแก่",
-		id: "Tampaknya Pokémon ini bertubuh metalik. Namanya diberikan berdasarkan objek misterius yang tercatat dalam buku kuno."
+		'th-th': "เหมือนว่าร่างกายจะมีคุณสมบัติเป็นโลหะ ถูกตั้งชื่อตามวัตถุลึกลับที่ถูกระบุไว้ในหนังสือเก่าแก่",
+		'id-id': "Tampaknya Pokémon ini bertubuh metalik. Namanya diberikan berdasarkan objek misterius yang tercatat dalam buku kuno."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "แอดจัสต์ฮอร์น",
-			id: "Adjust Horn"
+			'th-th': "แอดจัสต์ฮอร์น",
+			'id-id': "Adjust Horn"
 		},
 
 		effect: {
-			th: "ถ้าจำนวนการ์ดบนมือฝ่ายเรากับจำนวนการ์ดบนมือฝ่ายตรงข้ามไม่เท่ากัน ท่าต่อสู้นี้จะล้มเหลว",
-			id: "Jika jumlah Kartu Pegangan sendiri dan jumlah Kartu Pegangan lawan tidak sama, serangan ini gagal."
+			'th-th': "ถ้าจำนวนการ์ดบนมือฝ่ายเรากับจำนวนการ์ดบนมือฝ่ายตรงข้ามไม่เท่ากัน ท่าต่อสู้นี้จะล้มเหลว",
+			'id-id': "Jika jumlah Kartu Pegangan sendiri dan jumlah Kartu Pegangan lawan tidak sama, serangan ini gagal."
 		},
 
 		damage: 170,

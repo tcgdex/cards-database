@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Pyroar",
-		fr: "Némélios",
-		es: "Pyroar",
-		it: "Pyroar",
-		pt: "Pyroar",
-		de: "Pyroleo"
+		'en-us': "Pyroar",
+		'fr-fr': "Némélios",
+		'es-es': "Pyroar",
+		'it-it': "Pyroar",
+		'pt-br': "Pyroar",
+		'de-de': "Pyroleo"
 	},
 
 	illustrator: "Hasuno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Litleo",
-		fr: "Hélionceau",
+		'en-us': "Litleo",
+		'fr-fr': "Hélionceau",
 	},
 
 	stage: "Stage1",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crunch",
-				fr: "Mâchouille",
-				es: "Triturar",
-				it: "Sgranocchio",
-				pt: "Mastigada",
-				de: "Knirscher"
+				'en-us': "Crunch",
+				'fr-fr': "Mâchouille",
+				'es-es': "Triturar",
+				'it-it': "Sgranocchio",
+				'pt-br': "Mastigada",
+				'de-de': "Knirscher"
 			},
 			effect: {
-				en: "Discard an Energy from your opponent’s Active Pokémon.",
-				fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
-				es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-				it: "Scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
-				de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard an Energy from your opponent’s Active Pokémon.",
+				'fr-fr': "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+				'es-es': "Descarta 1 Energía del Pokémon Activo de tu rival.",
+				'it-it': "Scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -65,12 +65,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Blast",
-				fr: "Explosion de Chaleur",
-				es: "Explosión de Calor",
-				it: "Caldobomba",
-				pt: "Raio de Calor",
-				de: "Hitzestoß"
+				'en-us': "Heat Blast",
+				'fr-fr': "Explosion de Chaleur",
+				'es-es': "Explosión de Calor",
+				'it-it': "Caldobomba",
+				'pt-br': "Raio de Calor",
+				'de-de': "Hitzestoß"
 			},
 
 			damage: 90,
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "With fiery breath of more than 10,000 degrees Fahrenheit, they viciously threaten any challenger. The females protect the pride's cubs.",
+		'en-us': "With fiery breath of more than 10,000 degrees Fahrenheit, they viciously threaten any challenger. The females protect the pride's cubs.",
 	},
 
 	thirdParty: {

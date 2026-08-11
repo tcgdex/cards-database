@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Poliwrath",
+		'en-us': "Poliwrath",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Poliwhirl",
+		'en-us': "Poliwhirl",
 	},
 
 	stage: "Stage2",
@@ -35,10 +35,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
+				'en-us': "Water Gun",
 			},
 			effect: {
-				en: "Does 30 damage plus 10 more damage for each Water Energy attached to Poliwrath but not used to pay for this attack's Energy cost. Extra Energy after the 2nd doesn't count.",
+				'en-us': "Does 30 damage plus 10 more damage for each Water Energy attached to Poliwrath but not used to pay for this attack's Energy cost. Extra Energy after the 2nd doesn't count.",
 			},
 			damage: 30,
 
@@ -51,10 +51,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlpool",
+				'en-us': "Whirlpool",
 			},
 			effect: {
-				en: "If the Defending Pokémon has any Energy cards attached to it, choose 1 and discard it.",
+				'en-us': "If the Defending Pokémon has any Energy cards attached to it, choose 1 and discard it.",
 			},
 			damage: 40,
 
@@ -71,7 +71,7 @@ const card: Card = {
 
 
 	description: {
-		en: "An adept swimmer at both the front crawl and breaststroke. Easily overtakes the best human swimmers.",
+		'en-us': "An adept swimmer at both the front crawl and breaststroke. Easily overtakes the best human swimmers.",
 	},
 
 

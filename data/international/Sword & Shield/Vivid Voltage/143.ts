@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [731],
 
 	name: {
-		en: "Pikipek",
-		fr: "Picassaut",
-		es: "Pikipek",
-		it: "Pikipek",
-		pt: "Pikipek",
-		de: "Peppeck"
+		'en-us': "Pikipek",
+		'fr-fr': "Picassaut",
+		'es-es': "Pikipek",
+		'it-it': "Pikipek",
+		'pt-br': "Pikipek",
+		'de-de': "Peppeck"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				es: "Picotazo",
-				it: "Beccata",
-				pt: "Bicada",
-				de: "Pikser"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'es-es': "Picotazo",
+				'it-it': "Beccata",
+				'pt-br': "Bicada",
+				'de-de': "Pikser"
 			},
 
 			damage: 10,
@@ -63,7 +63,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It may look spindly, but its neck muscles are heavy-duty. It can peck at a tree 16 times per second!"
+		'en-us': "It may look spindly, but its neck muscles are heavy-duty. It can peck at a tree 16 times per second!"
 	},
 
 	variants: [

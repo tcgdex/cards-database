@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Exploud",
-		fr: "Brouhabam",
-		de: "Krawumms"
+		'en-us': "Exploud",
+		'fr-fr': "Brouhabam",
+		'de-de': "Krawumms"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Loudred",
-		fr: "Ramboum"
+		'en-us': "Loudred",
+		'fr-fr': "Ramboum"
 	},
 
 	stage: "Stage2",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collectionner",
-				de: "Collect"
+				'en-us': "Collect",
+				'fr-fr': "Collectionner",
+				'de-de': "Collect"
 			},
 			effect: {
-				en: "Draw 3 cards.",
-				fr: "Piochez 3 cartes.",
-				de: "Draw 3 cards."
+				'en-us': "Draw 3 cards.",
+				'fr-fr': "Piochez 3 cartes.",
+				'de-de': "Draw 3 cards."
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam",
-				fr: "Plaquage",
-				de: "Body Slam"
+				'en-us': "Body Slam",
+				'fr-fr': "Plaquage",
+				'de-de': "Body Slam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 30,
 
@@ -72,9 +72,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Voice",
-				fr: "Mégaphone",
-				de: "Hyper Voice"
+				'en-us': "Hyper Voice",
+				'fr-fr': "Mégaphone",
+				'de-de': "Hyper Voice"
 			},
 
 			damage: 50,
@@ -89,14 +89,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Throw",
-				fr: "Méga lancer",
-				de: "Mega Throw"
+				'en-us': "Mega Throw",
+				'fr-fr': "Méga lancer",
+				'de-de': "Mega Throw"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Pokémon-ex, this attack does 60 damage plus 40 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 60 dégâts plus 40 dégâts supplémentaires.",
-				de: "If the Defending Pokémon is Pokémon-ex, this attack does 60 damage plus 40 more damage."
+				'en-us': "If the Defending Pokémon is Pokémon-ex, this attack does 60 damage plus 40 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 60 dégâts plus 40 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon is Pokémon-ex, this attack does 60 damage plus 40 more damage."
 			},
 			damage: "60+",
 

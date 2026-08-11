@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legend Maker'
 
 const card: Card = {
 	name: {
-		en: "Wailmer",
-		fr: "Wailmer",
-		de: "Wailmer"
+		'en-us': "Wailmer",
+		'fr-fr': "Wailmer",
+		'de-de': "Wailmer"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Tackle",
-				fr: "Double charge",
-				de: "Doppeltes Tackle"
+				'en-us': "Double Tackle",
+				'fr-fr': "Double charge",
+				'de-de': "Doppeltes Tackle"
 			},
 			effect: {
-				en: "Does 20 damage to each Defending Pokémon.",
-				fr: "Inflige 20 dégâts à chaque Pokémon Défenseur.",
-				de: "Dieser Angriff fügt jedem Verteidigendem Pokémon 20 Schadenspunkte zu."
+				'en-us': "Does 20 damage to each Defending Pokémon.",
+				'fr-fr': "Inflige 20 dégâts à chaque Pokémon Défenseur.",
+				'de-de': "Dieser Angriff fügt jedem Verteidigendem Pokémon 20 Schadenspunkte zu."
 			},
 
 		},
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlpool",
-				fr: "Siphon",
-				de: "Whirlpool"
+				'en-us': "Whirlpool",
+				'fr-fr': "Siphon",
+				'de-de': "Whirlpool"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege eine Energie-karte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" lege eine Energie-karte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Heliolisk",
-		fr: "Iguolta",
-		es: "Heliolisk",
-		it: "Heliolisk",
-		pt: "Heliolisk",
-		de: "Elezard"
+		'en-us': "Heliolisk",
+		'fr-fr': "Iguolta",
+		'es-es': "Heliolisk",
+		'it-it': "Heliolisk",
+		'pt-br': "Heliolisk",
+		'de-de': "Elezard"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Helioptile",
-		fr: "Galvaran",
+		'en-us': "Helioptile",
+		'fr-fr': "Galvaran",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Parabolic Counter",
-				fr: "Riposte Parabolique",
-				es: "Contraataque Parabólico",
-				it: "Contrattacco Parabolico",
-				pt: "Contra-ataque Parabólico",
-				de: "Parabolkonter"
+				'en-us': "Parabolic Counter",
+				'fr-fr': "Riposte Parabolique",
+				'es-es': "Contraataque Parabólico",
+				'it-it': "Contrattacco Parabolico",
+				'pt-br': "Contra-ataque Parabólico",
+				'de-de': "Parabolkonter"
 			},
 			effect: {
-				en: "If your opponent has any Lightning Pokémon in play, this attack does 90 more damage.",
-				fr: "Si votre adversaire a au moins un Pokémon Lightning en jeu, cette attaque inflige 90 dégâts supplémentaires.",
-				es: "Si tu rival tiene algún Pokémon Lightning en juego, este ataque hace 90 puntos de daño más.",
-				it: "Se il tuo avversario ha dei Pokémon Lightning in gioco, questo attacco infligge 90 danni in più.",
-				pt: "Se o seu oponente tiver algum Pokémon Lightning em jogo, este ataque causará 90 pontos de dano a mais.",
-				de: "Wenn dein Gegner mindestens 1 Lightning-Pokémon im Spiel hat, fügt diese Attacke 90 Schadenspunkte mehr zu."
+				'en-us': "If your opponent has any Lightning Pokémon in play, this attack does 90 more damage.",
+				'fr-fr': "Si votre adversaire a au moins un Pokémon Lightning en jeu, cette attaque inflige 90 dégâts supplémentaires.",
+				'es-es': "Si tu rival tiene algún Pokémon Lightning en juego, este ataque hace 90 puntos de daño más.",
+				'it-it': "Se il tuo avversario ha dei Pokémon Lightning in gioco, questo attacco infligge 90 danni in più.",
+				'pt-br': "Se o seu oponente tiver algum Pokémon Lightning em jogo, este ataque causará 90 pontos de dano a mais.",
+				'de-de': "Wenn dein Gegner mindestens 1 Lightning-Pokémon im Spiel hat, fügt diese Attacke 90 Schadenspunkte mehr zu."
 			},
 			damage: "30+",
 
@@ -64,12 +64,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Zap Kick",
-				fr: "Coup de Pied Ravageur",
-				es: "Electropatada",
-				it: "Dinamocalcio",
-				pt: "Chute Zap",
-				de: "Stromtritt"
+				'en-us': "Zap Kick",
+				'fr-fr': "Coup de Pied Ravageur",
+				'es-es': "Electropatada",
+				'it-it': "Dinamocalcio",
+				'pt-br': "Chute Zap",
+				'de-de': "Stromtritt"
 			},
 
 			damage: 80,
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They flare their frills and generate energy. A single Heliolisk can generate sufficient electricity to power a skyscraper.",
+		'en-us': "They flare their frills and generate energy. A single Heliolisk can generate sufficient electricity to power a skyscraper.",
 	},
 
 	thirdParty: {

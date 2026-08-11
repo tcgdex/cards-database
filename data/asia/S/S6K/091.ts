@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ズミ",
+		'ja-jp': "ズミ",
 	},
 
 	illustrator: "",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の「れんげき」のポケモンを2匹まで選び、HPをそれぞれ「60」回復する。",
+		'ja-jp': "自分の「れんげき」のポケモンを2匹まで選び、HPをそれぞれ「60」回復する。",
 	},
 
 	variants: [

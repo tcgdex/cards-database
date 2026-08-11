@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [643],
 
 	name: {
-		en: "Reshiram"
+		'en-us': "Reshiram"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "When Reshiram's tail flares, the heat energy moves\nthe atmosphere and changes the world's weather."
+		'en-us': "When Reshiram's tail flares, the heat energy moves\nthe atmosphere and changes the world's weather."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Blue Flare"
+			'en-us': "Blue Flare"
 		},
 
 		damage: 110,
 		cost: ["Fire", "Fire", "Fire"],
 
 		effect: {
-			en: "Discard 2 {R} Energy from this Pokémon."
+			'en-us': "Discard 2 {R} Energy from this Pokémon."
 		}
 	}],
 

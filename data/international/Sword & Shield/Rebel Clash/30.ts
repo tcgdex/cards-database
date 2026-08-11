@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [467],
 
 	name: {
-		en: "Magmortar",
-		fr: "Maganon",
-		es: "Magmortar",
-		it: "Magmortar",
-		pt: "Magmortar",
-		de: "Magbrant"
+		'en-us': "Magmortar",
+		'fr-fr': "Maganon",
+		'es-es': "Magmortar",
+		'it-it': "Magmortar",
+		'pt-br': "Magmortar",
+		'de-de': "Magbrant"
 	},
 
 	illustrator: "Kazuma Koda",
@@ -19,12 +19,12 @@ const card: Card = {
 	set: Set,
 
 	evolveFrom: {
-		en: "Magmar",
-		fr: "Magmar",
-		es: "Magmar",
-		it: "Magmar",
-		pt: "Magmar",
-		de: "Magmar"
+		'en-us': "Magmar",
+		'fr-fr': "Magmar",
+		'es-es': "Magmar",
+		'it-it': "Magmar",
+		'pt-br': "Magmar",
+		'de-de': "Magmar"
 	},
 
 	attacks: [
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Burst Punch",
-				fr: "Poing d'Enfer",
-				es: "Puño Explosivo",
-				it: "Fiammatapugno",
-				pt: "Soco Rajada",
-				de: "Explosionshieb"
+				'en-us': "Burst Punch",
+				'fr-fr': "Poing d'Enfer",
+				'es-es': "Puño Explosivo",
+				'it-it': "Fiammatapugno",
+				'pt-br': "Soco Rajada",
+				'de-de': "Explosionshieb"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Burned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+				'en-us': "Your opponent's Active Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 			},
 			damage: 30,
 
@@ -59,20 +59,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ground Burn",
-				fr: "Brûlure au Sol",
-				es: "Quemar Suelo",
-				it: "Bruciaterra",
-				pt: "Queimar o Solo",
-				de: "Bodenbrand"
+				'en-us': "Ground Burn",
+				'fr-fr': "Brûlure au Sol",
+				'es-es': "Quemar Suelo",
+				'it-it': "Bruciaterra",
+				'pt-br': "Queimar o Solo",
+				'de-de': "Bodenbrand"
 			},
 			effect: {
-				en: "Each player discards the top card of their deck. This attack does 100 more damage for each Energy card discarded in this way.",
-				fr: "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 100 dégâts supplémentaires pour chaque carte Énergie défaussée de cette façon.",
-				es: "Cada jugador descarta la primera carta de su baraja. Este ataque hace 100 puntos de daño más por cada carta de Energía descartada de esta manera.",
-				it: "Ciascun giocatore scarta la prima carta del proprio mazzo. Questo attacco infligge 100 danni in più per ogni carta Energia scartata in questo modo.",
-				pt: "Cada jogador descarta a carta de cima do próprio baralho. Este ataque causa 100 pontos de dano a mais para cada carta de Energia descartada desta forma.",
-				de: "Jeder Spieler legt die oberste Karte seines Decks auf seinen Ablagestapel. Diese Attacke fügt für jede Energiekarte, die auf diese Weise auf den Ablagestapel gelegt wurde, 100 Schadenspunkte mehr zu."
+				'en-us': "Each player discards the top card of their deck. This attack does 100 more damage for each Energy card discarded in this way.",
+				'fr-fr': "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 100 dégâts supplémentaires pour chaque carte Énergie défaussée de cette façon.",
+				'es-es': "Cada jugador descarta la primera carta de su baraja. Este ataque hace 100 puntos de daño más por cada carta de Energía descartada de esta manera.",
+				'it-it': "Ciascun giocatore scarta la prima carta del proprio mazzo. Questo attacco infligge 100 danni in più per ogni carta Energia scartata in questo modo.",
+				'pt-br': "Cada jogador descarta a carta de cima do próprio baralho. Este ataque causa 100 pontos de dano a mais para cada carta de Energia descartada desta forma.",
+				'de-de': "Jeder Spieler legt die oberste Karte seines Decks auf seinen Ablagestapel. Diese Attacke fügt für jede Energiekarte, die auf diese Weise auf den Ablagestapel gelegt wurde, 100 Schadenspunkte mehr zu."
 			},
 			damage: "80+",
 
@@ -95,7 +95,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Magmortar takes down its enemies by shooting fireballs, which burn them to a blackened crisp. It avoids this method when hunting prey."
+		'en-us': "Magmortar takes down its enemies by shooting fireballs, which burn them to a blackened crisp. It avoids this method when hunting prey."
 	},
 
 	variants: [

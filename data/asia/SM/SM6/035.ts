@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ギルガルド",
+		'ja-jp': "ギルガルド",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "王の 素質を 持つ 人間を 見抜くらしい。 認められた 人は やがて 王になると 言われている。",
+		'ja-jp': "王の 素質を 持つ 人間を 見抜くらしい。 認められた 人は やがて 王になると 言われている。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "しをきざむ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の自分の番、このワザを受けたポケモンは、ワザのダメージを受けたらきぜつする。",
+				'ja-jp': "次の自分の番、このワザを受けたポケモンは、ワザのダメージを受けたらきぜつする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Psychic", "Psychic", "Psychic"],
 			effect: {
-				ja: "このポケモンのHPを「30」回復する。",
+				'ja-jp': "このポケモンのHPを「30」回復する。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニダンギル",
+		'ja-jp': "ニダンギル",
 	},
 
 	retreat: 2,

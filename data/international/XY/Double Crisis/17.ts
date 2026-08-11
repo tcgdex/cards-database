@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Poochyena",
-		fr: "Medhyèna de la Team Magma",
-		pt: "Poochyena da Equipe Magma",
+		'en-us': "Team Magma's Poochyena",
+		'fr-fr': "Medhyèna de la Team Magma",
+		'pt-br': "Poochyena da Equipe Magma",
 	},
 
 	illustrator: "TOKIYA",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Infiltrate",
-				fr: "Mission Infiltration",
-				pt: "Infiltrar",
+				'en-us': "Infiltrate",
+				'fr-fr': "Mission Infiltration",
+				'pt-br': "Infiltrar",
 			},
 			effect: {
-				en: "Your opponent reveals his or her hand.",
-				fr: "Votre adversaire montre sa main.",
-				pt: "Seu oponente revela a própria mão",
+				'en-us': "Your opponent reveals his or her hand.",
+				'fr-fr': "Votre adversaire montre sa main.",
+				'pt-br': "Seu oponente revela a própria mão",
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				pt: "mordida",
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'pt-br': "mordida",
 			},
 
 			damage: 20,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Poochyena's nose can identify any scent. It's very useful for reconnaissance.",
+		'en-us': "Poochyena's nose can identify any scent. It's very useful for reconnaissance.",
 	},
 
 	thirdParty: {

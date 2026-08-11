@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イシズマイ",
+		'ja-jp': "イシズマイ",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "手ごろな 石に 穴を 開けて 住処にする。 壊されると かわりの 石が 見つかるまで 落ち着かない。",
+		'ja-jp': "手ごろな 石に 穴を 開けて 住処にする。 壊されると かわりの 石が 見つかるまで 落ち着かない。",
 	},
 
 	stage: "Basic",

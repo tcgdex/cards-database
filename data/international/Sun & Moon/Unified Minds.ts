@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sun & Moon'
 
 const sm11: Set = {
 	id: "sm11",
 
 	name: {
-		en: "Unified Minds",
-		fr: "Harmonie des Esprits",
-		es: "Mentes Unidas",
-		it: "Sintonia Mentale",
-		de: "Bund der Gleichgesinnten",
-		pt: "Sintonia Mental "
+		'en-us': "Unified Minds",
+		'fr-fr': "Harmonie des Esprits",
+		'es-es': "Mentes Unidas",
+		'it-it': "Sintonia Mentale",
+		'de-de': "Bund der Gleichgesinnten",
+		'pt-br': "Sintonia Mental "
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const sm11: Set = {
 
 	abbreviations: {
 		official: "UNM",
-		fr: "HES"
+		'fr-fr': "HES"
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ホップのココガラ",
+		'ja-jp': "ホップのココガラ",
 		'zh-tw': "赫普的稚山雀",
 		'zh-cn': "赫普的稚山雀"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "メスは オスより 神経質。 羽を 汚されると 烈火のごとく 怒り くちばしで つつきまくる。",
+		'ja-jp': "メスは オスより 神経質。 羽を 汚されると 烈火のごとく 怒り くちばしで つつきまくる。",
 		'zh-tw': "雌性比雄性還要神經質。 一旦羽毛被弄髒了， 就會滿腔怒火地用鳥嘴猛啄。",
 		'zh-cn': "雌性比雄性還要神經質。 一旦羽毛被弄髒了， 就會滿腔怒火地用鳥嘴猛啄。"
 	},
@@ -29,13 +29,13 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "こわいしせん",
+			'ja-jp': "こわいしせん",
 			'zh-tw': "恐怖視線",
 			'zh-cn': "恐怖視線"
 		},
 
 		effect: {
-			ja: "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-20」される。",
+			'ja-jp': "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-20」される。",
 			'zh-tw': "在下個對手的回合，受到這個招式的寶可夢使用招式的傷害「-20」點。",
 			'zh-cn': "在下個對手的回合，受到這個招式的寶可夢使用招式的傷害「-20」點。"
 		}
@@ -43,7 +43,7 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "つつく",
+			'ja-jp': "つつく",
 			'zh-tw': "啄",
 			'zh-cn': "啄"
 		},

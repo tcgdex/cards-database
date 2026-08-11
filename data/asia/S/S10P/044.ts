@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒスイ オオニューラV",
+		'ja-jp': "ヒスイ オオニューラV",
 		'zh-tw': "洗翠 大狃拉V",
 	},
 
@@ -18,24 +18,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "どくのツメ",
+				'ja-jp': "どくのツメ",
 				'zh-tw': "毒之爪",
 			},
 			cost: [],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【中毒】。",
 			},
 		},
 		{
 			name: {
-				ja: "フェイタルクロー",
+				'ja-jp': "フェイタルクロー",
 				'zh-tw': "剋命爪",
 			},
 			damage: "80×",
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが受けている特殊状態の数×80ダメージ。",
+				'ja-jp': "相手のバトルポケモンが受けている特殊状態の数×80ダメージ。",
 				'zh-tw': "造成對手的戰鬥寶可夢處於特殊狀態的數量×80點傷害。",
 			},
 		},

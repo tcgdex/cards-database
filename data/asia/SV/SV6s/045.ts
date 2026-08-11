@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Seaking"
+		'id-id': "Seaking"
 	},
 
 	illustrator: "Gemi",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Saat musim gugur, tubuh Seaking makin berlemak dan warnanya berubah menjadi sangat indah karena Pokémon ini bersiap untuk melamar pasangannya."
+		'id-id': "Saat musim gugur, tubuh Seaking makin berlemak dan warnanya berubah menjadi sangat indah karena Pokémon ini bersiap untuk melamar pasangannya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Mematuk Jatuh"
+			'id-id': "Mematuk Jatuh"
 		},
 
 		effect: {
-			id: "Sebelum memberikan kerusakan, buang Pokémon Tool yang dikenakan pada Pokémon Bertarung lawan ke Trash."
+			'id-id': "Sebelum memberikan kerusakan, buang Pokémon Tool yang dikenakan pada Pokémon Bertarung lawan ke Trash."
 		},
 
 		damage: 50,
 		cost: ["Water"]
 	}, {
 		name: {
-			id: "Bor Tanduk"
+			'id-id': "Bor Tanduk"
 		},
 
 		damage: 90,

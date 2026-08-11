@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โบรโรโรมex",
-		id: "Revavroom ex"
+		'th-th': "โบรโรโรมex",
+		'id-id': "Revavroom ex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -18,26 +18,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			th: "แอกเซลแฟลช",
-			id: "Accel Flash"
+			'th-th': "แอกเซลแฟลช",
+			'id-id': "Accel Flash"
 		},
 
 		effect: {
-			th: "เทิร์นนี้ ถ้าโปเกมอนนี้ออกจากเบนช์มาที่ตำแหน่งต่อสู้ การโจมตีนี้จะเพิ่มแดเมจอีก 120",
-			id: "Jika pada giliran ini, Pokémon ini masuk dari Cadangan ke Arena Bertarung, kerusakan yang diberikan bertambah sejumlah 120."
+			'th-th': "เทิร์นนี้ ถ้าโปเกมอนนี้ออกจากเบนช์มาที่ตำแหน่งต่อสู้ การโจมตีนี้จะเพิ่มแดเมจอีก 120",
+			'id-id': "Jika pada giliran ini, Pokémon ini masuk dari Cadangan ke Arena Bertarung, kerusakan yang diberikan bertambah sejumlah 120."
 		},
 
 		damage: "20+",
 		cost: ["Metal"]
 	}, {
 		name: {
-			th: "สปีดเบรก",
-			id: "Speed Break"
+			'th-th': "สปีดเบรก",
+			'id-id': "Speed Break"
 		},
 
 		effect: {
-			th: "ทิ้งโปเกมอนนี้ และการ์ดทั้งหมดที่ติดอยู่ ที่ตำแหน่งทิ้งการ์ด",
-			id: "Buang Pokémon ini dan semua kartu yang dikenakannya ke Trash."
+			'th-th': "ทิ้งโปเกมอนนี้ และการ์ดทั้งหมดที่ติดอยู่ ที่ตำแหน่งทิ้งการ์ด",
+			'id-id': "Buang Pokémon ini dan semua kartu yang dikenakannya ke Trash."
 		},
 
 		damage: 250,

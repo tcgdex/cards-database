@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユキワラシ",
+		'ja-jp': "ユキワラシ",
 	},
 
 	illustrator: "sowsow",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "雪や 氷が 主な エサ。 暖かな アローラでは 限られた 場所 でしか 生きていけない。",
+		'ja-jp': "雪や 氷が 主な エサ。 暖かな アローラでは 限られた 場所 でしか 生きていけない。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Water"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数×20ダメージ。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数×20ダメージ。",
 			},
 		},
 	],

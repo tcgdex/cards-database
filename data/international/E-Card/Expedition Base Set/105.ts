@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Cyndaquil",
-		fr: "Héricendre",
-		de: "Feurigel"
+		'en-us': "Cyndaquil",
+		'fr-fr': "Héricendre",
+		'de-de': "Feurigel"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ember",
-				fr: "Flammèche",
-				de: "Glut"
+				'en-us': "Ember",
+				'fr-fr': "Flammèche",
+				'de-de': "Glut"
 			},
 			effect: {
-				en: "Discard a Fire Energy card attached to Cyndaquil.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Héricendre.",
-				de: "Lege 1 an Feurigel angelegte -Energiekarte auf deinen Ablagestapel."
+				'en-us': "Discard a Fire Energy card attached to Cyndaquil.",
+				'fr-fr': "Défaussez-vous d'une carte Énergie  attachée à Héricendre.",
+				'de-de': "Lege 1 an Feurigel angelegte -Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 30,
 

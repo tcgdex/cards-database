@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Medicham",
-		fr: "Charmina",
-		es: "Medicham",
-		it: "Medicham",
-		pt: "Medicham",
-		de: "Meditalis"
+		'en-us': "Medicham",
+		'fr-fr': "Charmina",
+		'es-es': "Medicham",
+		'it-it': "Medicham",
+		'pt-br': "Medicham",
+		'de-de': "Meditalis"
 	},
 
 	rarity: "Uncommon",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Meditite",
-		fr: "Méditikka"
+		'en-us': "Meditite",
+		'fr-fr': "Méditikka"
 	},
 
 	stage: "Stage1",
@@ -30,21 +30,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Acu-Punch-Ture",
-			fr: "Acu-Poing-Ture",
-			es: "Acupuñura",
-			it: "Pugnopressione",
-			pt: "Acupuntura Violenta",
-			de: "Aku-Punch-Tur"
+			'en-us': "Acu-Punch-Ture",
+			'fr-fr': "Acu-Poing-Ture",
+			'es-es': "Acupuñura",
+			'it-it': "Pugnopressione",
+			'pt-br': "Acupuntura Violenta",
+			'de-de': "Aku-Punch-Tur"
 		},
 
 		effect: {
-			en: "Choose 1 of your opponent's Active Pokémon's attacks. During your opponent's next turn, that Pokémon can't use that attack.",
-			fr: "Choisissez l'une des attaques du Pokémon Actif de votre adversaire. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas utiliser cette attaque.",
-			es: "Elige uno de los ataques del Pokémon Activo de tu rival. Durante el próximo turno de tu rival, dicho Pokémon no puede usar ese ataque.",
-			it: "Scegli un attacco del Pokémon attivo del tuo avversario. Durante il prossimo turno del tuo avversario, quel Pokémon non potrà utilizzarlo.",
-			pt: "Escolha 1 dos ataques do Pokémon Ativo do seu oponente. Durante o próximo turno do seu oponente, aquele Pokémon não poderá usar aquele ataque.",
-			de: "Wähle 1 Attacke des Aktiven Pokémon deines Gegners. Während des nächsten Zuges deines Gegners kann jenes Pokémon jene Attacke nicht einsetzen."
+			'en-us': "Choose 1 of your opponent's Active Pokémon's attacks. During your opponent's next turn, that Pokémon can't use that attack.",
+			'fr-fr': "Choisissez l'une des attaques du Pokémon Actif de votre adversaire. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas utiliser cette attaque.",
+			'es-es': "Elige uno de los ataques del Pokémon Activo de tu rival. Durante el próximo turno de tu rival, dicho Pokémon no puede usar ese ataque.",
+			'it-it': "Scegli un attacco del Pokémon attivo del tuo avversario. Durante il prossimo turno del tuo avversario, quel Pokémon non potrà utilizzarlo.",
+			'pt-br': "Escolha 1 dos ataques do Pokémon Ativo do seu oponente. Durante o próximo turno do seu oponente, aquele Pokémon não poderá usar aquele ataque.",
+			'de-de': "Wähle 1 Attacke des Aktiven Pokémon deines Gegners. Während des nächsten Zuges deines Gegners kann jenes Pokémon jene Attacke nicht einsetzen."
 		},
 
 		damage: 30
@@ -52,21 +52,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Kick Shot",
-			fr: "Coup d'Ergots",
-			es: "Disparo Patada",
-			it: "Colpocalcio",
-			pt: "Chute Tiro",
-			de: "Kickschuss"
+			'en-us': "Kick Shot",
+			'fr-fr': "Coup d'Ergots",
+			'es-es': "Disparo Patada",
+			'it-it': "Colpocalcio",
+			'pt-br': "Chute Tiro",
+			'de-de': "Kickschuss"
 		},
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-			pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
-			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+			'pt-br': "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
+			'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 		},
 
 		damage: 90
@@ -91,7 +91,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Through yoga training, it gained the psychic power to predict its foe's next move.",
+		'en-us': "Through yoga training, it gained the psychic power to predict its foe's next move.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "vigoroth",
+		'ja-jp': "vigoroth",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "活発なオーラ",
+				'ja-jp': "活発なオーラ",
 			},
 			effect: {
-				ja: "Vigorothがあなたのアクティブなポカモンである限り、各プレイヤーのアクティブなPokã©Mon（両方が2つある場合）による攻撃は、アクティブなPokã©Mon（脱力感と抵抗を適用する前に）にさらに10ダメージを与えます。",
+				'ja-jp': "Vigorothがあなたのアクティブなポカモンである限り、各プレイヤーのアクティブなPokã©Mon（両方が2つある場合）による攻撃は、アクティブなPokã©Mon（脱力感と抵抗を適用する前に）にさらに10ダメージを与えます。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "傷",
+				'ja-jp': "傷",
 			},
 			damage: 30,
 		},

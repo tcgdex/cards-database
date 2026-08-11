@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [249],
 
 	name: {
-		en: "Lugia ex"
+		'en-us': "Lugia ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -20,14 +20,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Elemental Blast"
+			'en-us': "Elemental Blast"
 		},
 
 		damage: 180,
 		cost: ["Fire", "Water", "Lightning"],
 
 		effect: {
-			en: "Discard a {R}, {W}, and {L} Energy from this Pokémon."
+			'en-us': "Discard a {R}, {W}, and {L} Energy from this Pokémon."
 		}
 	}],
 

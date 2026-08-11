@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Excadrill",
-		fr: "Minotaupe",
-		es: "Excadrill",
-		it: "Excadrill",
-		pt: "Excadrill",
-		de: "Stalobor"
+		'en-us': "Excadrill",
+		'fr-fr': "Minotaupe",
+		'es-es': "Excadrill",
+		'it-it': "Excadrill",
+		'pt-br': "Excadrill",
+		'de-de': "Stalobor"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Drilbur",
-		fr: "Rototaupe",
+		'en-us': "Drilbur",
+		'fr-fr': "Rototaupe",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dig",
-				fr: "Tunnel",
+				'en-us': "Dig",
+				'fr-fr': "Tunnel",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
+				'en-us': "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
 			},
 			damage: 30,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Earthquake",
-				fr: "Séisme",
+				'en-us': "Earthquake",
+				'fr-fr': "Séisme",
 			},
 			effect: {
-				en: "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 70,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "More than 300 feet below the surface, they build mazelike nests. Their activity can be destructive to subway tunnels.",
+		'en-us': "More than 300 feet below the surface, they build mazelike nests. Their activity can be destructive to subway tunnels.",
 	},
 
 	thirdParty: {

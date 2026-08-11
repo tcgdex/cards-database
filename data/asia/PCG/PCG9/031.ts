@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Lickitung（デルタ種）",
+		'ja-jp': "Lickitung（デルタ種）",
 	},
 
 	rarity: "Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ラップアップ",
+				'ja-jp': "ラップアップ",
 			},
 			effect: {
-				ja: "2枚のカードを描きます。",
+				'ja-jp': "2枚のカードを描きます。",
 			},
 		},
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "デルタマインド",
+				'ja-jp': "デルタマインド",
 			},
 			effect: {
-				ja: "相手のポケモンの1つに1つのダメージカウンターを置きます。そのポケモンがカードにDがある場合は、代わりに3つのダメージカウンターを入れます。",
+				'ja-jp': "相手のポケモンの1つに1つのダメージカウンターを置きます。そのポケモンがカードにDがある場合は、代わりに3つのダメージカウンターを入れます。",
 			},
 		},
 	],

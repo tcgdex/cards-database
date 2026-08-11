@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Calyrex",
-		fr: "Sylveroy",
-		es: "Calyrex",
-		it: "Calyrex",
-		pt: "Calyrex",
-		de: "Coronospa"
+		'en-us': "Calyrex",
+		'fr-fr': "Sylveroy",
+		'es-es': "Calyrex",
+		'it-it': "Calyrex",
+		'pt-br': "Calyrex",
+		'de-de': "Coronospa"
 	},
 
 	illustrator: "Nurikabe",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "King's Instructions",
-			fr: "Consignes du Roi",
-			es: "Instrucciones del Rey",
-			it: "Ordini del Re",
-			pt: "Orientações do Rei",
-			de: "Königlicher Bescheid"
+			'en-us': "King's Instructions",
+			'fr-fr': "Consignes du Roi",
+			'es-es': "Instrucciones del Rey",
+			'it-it': "Ordini del Re",
+			'pt-br': "Orientações do Rei",
+			'de-de': "Königlicher Bescheid"
 		},
 
 		effect: {
-			en: "You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
-			fr: "Vous pouvez chercher dans votre deck jusqu'à 2 cartes, puis les ajouter à votre main. Mélangez ensuite votre deck.",
-			es: "Puedes buscar en tu baraja hasta 2 cartas y ponerlas en tu mano. Después, baraja las cartas de tu baraja.",
-			it: "Puoi cercare nel tuo mazzo fino a due carte e aggiungerle a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			pt: "Você pode procurar por até 2 cartas no seu baralho e colocá-las na sua mão. Em seguida, embaralhe o seu baralho.",
-			de: "Du kannst dein Deck nach bis zu 2 Karten durchsuchen und sie auf deine Hand nehmen. Mische anschließend dein Deck."
+			'en-us': "You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
+			'fr-fr': "Vous pouvez chercher dans votre deck jusqu'à 2 cartes, puis les ajouter à votre main. Mélangez ensuite votre deck.",
+			'es-es': "Puedes buscar en tu baraja hasta 2 cartas y ponerlas en tu mano. Después, baraja las cartas de tu baraja.",
+			'it-it': "Puoi cercare nel tuo mazzo fino a due carte e aggiungerle a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Você pode procurar por até 2 cartas no seu baralho e colocá-las na sua mão. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Du kannst dein Deck nach bis zu 2 Karten durchsuchen und sie auf deine Hand nehmen. Mische anschließend dein Deck."
 		},
 
 		damage: 30
@@ -47,21 +47,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Bloomshine",
-			fr: "Éclobrillance",
-			es: "Resplandeflor",
-			it: "Fioritura Splendente",
-			pt: "Brilho Florido",
-			de: "Blütenglanz"
+			'en-us': "Bloomshine",
+			'fr-fr': "Éclobrillance",
+			'es-es': "Resplandeflor",
+			'it-it': "Fioritura Splendente",
+			'pt-br': "Brilho Florido",
+			'de-de': "Blütenglanz"
 		},
 
 		effect: {
-			en: "Heal 20 damage from each of your Pokémon.",
-			fr: "Soignez 20 dégâts de chacun de vos Pokémon.",
-			es: "Cura 20 puntos de daño a cada uno de tus Pokémon.",
-			it: "Cura ciascuno dei tuoi Pokémon da 20 danni.",
-			pt: "Cure 20 pontos de dano de cada um dos seus Pokémon.",
-			de: "Heile 20 Schadenspunkte bei jedem deiner Pokémon."
+			'en-us': "Heal 20 damage from each of your Pokémon.",
+			'fr-fr': "Soignez 20 dégâts de chacun de vos Pokémon.",
+			'es-es': "Cura 20 puntos de daño a cada uno de tus Pokémon.",
+			'it-it': "Cura ciascuno dei tuoi Pokémon da 20 danni.",
+			'pt-br': "Cure 20 pontos de dano de cada um dos seus Pokémon.",
+			'de-de': "Heile 20 Schadenspunkte bei jedem deiner Pokémon."
 		},
 
 		damage: 90
@@ -78,7 +78,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Calyrex is a merciful Pokémon, capable of providing healing and blessings. It reigned over the Galar region in times of yore.",
+		'en-us': "Calyrex is a merciful Pokémon, capable of providing healing and blessings. It reigned over the Galar region in times of yore.",
 	},
 
 	

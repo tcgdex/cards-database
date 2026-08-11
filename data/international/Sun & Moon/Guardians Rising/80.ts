@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Sableye",
-		fr: "Ténéfix",
-		es: "Sableye",
-		it: "Sableye",
-		pt: "Sableye",
-		de: "Zobiris"
+		'en-us': "Sableye",
+		'fr-fr': "Ténéfix",
+		'es-es': "Sableye",
+		'it-it': "Sableye",
+		'pt-br': "Sableye",
+		'de-de': "Zobiris"
 	},
 
 	illustrator: "Aya Kusube",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Limitation",
-				fr: "Restriction",
-				es: "Limitación",
-				it: "Costrizione",
-				pt: "Limitação",
-				de: "Einschränken"
+				'en-us': "Limitation",
+				'fr-fr': "Restriction",
+				'es-es': "Limitación",
+				'it-it': "Costrizione",
+				'pt-br': "Limitação",
+				'de-de': "Einschränken"
 			},
 			effect: {
-				en: "Your opponent can’t play any Supporter cards from their hand during their next turn.",
-				fr: "Votre adversaire ne peut pas jouer de cartes Supporter de sa main pendant son prochain tour.",
-				es: "Tu rival no puede jugar ninguna carta de Partidario de su mano durante su próximo turno.",
-				it: "Il tuo avversario non può giocare le carte Aiuto che ha in mano durante il suo prossimo turno.",
-				pt: "Seu oponente não poderá jogar nenhuma carta de Apoiador da própria mão durante a próxima vez dele(a) jogar.",
-				de: "Dein Gegner kann während seines nächsten Zuges keine Unterstützerkarten aus seiner Hand spielen."
+				'en-us': "Your opponent can’t play any Supporter cards from their hand during their next turn.",
+				'fr-fr': "Votre adversaire ne peut pas jouer de cartes Supporter de sa main pendant son prochain tour.",
+				'es-es': "Tu rival no puede jugar ninguna carta de Partidario de su mano durante su próximo turno.",
+				'it-it': "Il tuo avversario non può giocare le carte Aiuto che ha in mano durante il suo prossimo turno.",
+				'pt-br': "Seu oponente não poderá jogar nenhuma carta de Apoiador da própria mão durante a próxima vez dele(a) jogar.",
+				'de-de': "Dein Gegner kann während seines nächsten Zuges keine Unterstützerkarten aus seiner Hand spielen."
 			},
 
 		},
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				es: "Arañazo",
-				it: "Graffio",
-				pt: "Arranhão",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'es-es': "Arañazo",
+				'it-it': "Graffio",
+				'pt-br': "Arranhão",
+				'de-de': "Kratzer"
 			},
 
 			damage: 20,
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It's a fiend for gemstones, so it stalks Carbink. Unfortunately, Gabite almost always grabs them first.",
+		'en-us': "It's a fiend for gemstones, so it stalks Carbink. Unfortunately, Gabite almost always grabs them first.",
 	},
 
 	thirdParty: {

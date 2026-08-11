@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハバタクカミ",
+		'ja-jp': "ハバタクカミ",
 	},
 
 	illustrator: "kodama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "とある 書物に 登場する ハバタクカミという 生物と 似た 特徴を 持つ ポケモン。",
+		'ja-jp': "とある 書物に 登場する ハバタクカミという 生物と 似た 特徴を 持つ ポケモン。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "あんやのはばたき" },
 			effect: {
-				ja: "このポケモンがバトル場にいるかぎり、相手のバトルポケモンの特性（「あんやのはばたき」をのぞく）は、すべてなくなる。",
+				'ja-jp': "このポケモンがバトル場にいるかぎり、相手のバトルポケモンの特性（「あんやのはばたき」をのぞく）は、すべてなくなる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "ダメカン2個を、相手のベンチポケモンに好きなようにのせる。",
+				'ja-jp': "ダメカン2個を、相手のベンチポケモンに好きなようにのせる。",
 			},
 		},
 	],

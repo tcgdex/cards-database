@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カリザードスター（デルタ種）",
+		'ja-jp': "カリザードスター（デルタ種）",
 	},
 
 	rarity: "Shiny rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Darkness", "Colorless"],
 			name: {
-				ja: "回転爪",
+				'ja-jp': "回転爪",
 			},
 			effect: {
-				ja: "Charizard {{Star | This Pokemon}}に取り付けられたエネルギーカードを捨てることができます。そうした場合は、廃棄パイルを検索して、エネルギーカード（破棄したものを除く）を検索し、Charizard {{Star | This Pokemon}}に添付します。",
+				'ja-jp': "Charizard {{Star | This Pokemon}}に取り付けられたエネルギーカードを捨てることができます。そうした場合は、廃棄パイルを検索して、エネルギーカード（破棄したものを除く）を検索し、Charizard {{Star | This Pokemon}}に添付します。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Darkness", "Darkness", "Darkness", "Darkness", "Colorless"],
 			name: {
-				ja: "暗い渦巻き",
+				'ja-jp': "暗い渦巻き",
 			},
 			effect: {
-				ja: "Charizard {{Star | This Pokemon}}に取り付けられたすべてのエネルギーカードを捨て、対戦相手のデッキからトップ3のカードを破棄します。",
+				'ja-jp': "Charizard {{Star | This Pokemon}}に取り付けられたすべてのエネルギーカードを捨て、対戦相手のデッキからトップ3のカードを破棄します。",
 			},
 			damage: 150,
 		},

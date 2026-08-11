@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユキノオー",
+		'ja-jp': "ユキノオー",
 		'zh-tw': "暴雪王",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "大きな 腕を ハンマーの ように 振り下ろし ユキカブリを 狙う ダルマッカの 群れを 追い払う。",
+		'ja-jp': "大きな 腕を ハンマーの ように 振り下ろし ユキカブリを 狙う ダルマッカの 群れを 追い払う。",
 		'zh-tw': "會像揮動鎚子般揮下自己大大的手臂，趕走要襲擊 雪笠怪的火紅不倒翁群體。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "つららパンチ",
+				'ja-jp': "つららパンチ",
 				'zh-tw': "冰柱拳",
 			},
 			damage: 50,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "すてみタックル",
+				'ja-jp': "すてみタックル",
 				'zh-tw': "捨身衝撞",
 			},
 			damage: 160,
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 				'zh-tw': "這隻寶可夢也受到30點傷害。",
 			},
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ユキカブリ",
+		'ja-jp': "ユキカブリ",
 	},
 
 	retreat: 4,

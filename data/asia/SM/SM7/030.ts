@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラブカス",
+		'ja-jp': "ラブカス",
 	},
 
 	illustrator: "Asako Ito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "カップルに 人気が 高いので ハネムーン客が 泊まる ホテルの プールに 放流 される。",
+		'ja-jp': "カップルに 人気が 高いので ハネムーン客が 泊まる ホテルの プールに 放流 される。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "おあいこ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にあるたねポケモンを、相手のベンチポケモンの数ぶんまで、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札にあるたねポケモンを、相手のベンチポケモンの数ぶんまで、ベンチに出す。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 	],

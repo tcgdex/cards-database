@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Geodude",
-		fr: "Racaillou",
-		de: "Kleinstein"
+		'en-us': "Geodude",
+		'fr-fr': "Racaillou",
+		'de-de': "Kleinstein"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Light Punch",
-				fr: "Poing léger",
-				de: "Leichter Hieb"
+				'en-us': "Light Punch",
+				'fr-fr': "Poing léger",
+				'de-de': "Leichter Hieb"
 			},
 
 			damage: 10,
@@ -42,14 +42,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Pebble Throw",
-				fr: "Jet de caillou",
-				de: "Kieselwurf"
+				'en-us': "Pebble Throw",
+				'fr-fr': "Jet de caillou",
+				'de-de': "Kieselwurf"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez un des Pokémon du Banc de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
-				de: "Fügt 1 der Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez un des Pokémon du Banc de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
+				'de-de': "Fügt 1 der Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},

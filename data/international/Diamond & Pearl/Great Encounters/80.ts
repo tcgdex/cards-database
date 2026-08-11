@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Mudkip",
-		fr: "Gobou",
-		de: "Hydropi"
+		'en-us': "Mudkip",
+		'fr-fr': "Gobou",
+		'de-de': "Hydropi"
 	},
 
 	illustrator: "Emi Yoshida",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud Spatter",
-				fr: "Éclaboussure de boue",
-				de: "Lehmspritzer"
+				'en-us': "Mud Spatter",
+				'fr-fr': "Éclaboussure de boue",
+				'de-de': "Lehmspritzer"
 			},
 
 			damage: 10,
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Endeavor",
-				fr: "Effort",
-				de: "Notsituation"
+				'en-us': "Endeavor",
+				'fr-fr': "Effort",
+				'de-de': "Notsituation"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte plus 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte plus 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "30+",
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
+		'en-us': "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Grumpig",
-		fr: "Groret",
-		es: "Grumpig",
-		it: "Grumpig",
-		pt: "Grumpig",
-		de: "Groink"
+		'en-us': "Grumpig",
+		'fr-fr': "Groret",
+		'es-es': "Grumpig",
+		'it-it': "Grumpig",
+		'pt-br': "Grumpig",
+		'de-de': "Groink"
 	},
 
 	illustrator: "sui",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spoink",
-		fr: "Spoink",
-		es: "Spoink",
-		it: "Spoink",
-		pt: "Spoink",
-		de: "Spoink"
+		'en-us': "Spoink",
+		'fr-fr': "Spoink",
+		'es-es': "Spoink",
+		'it-it': "Spoink",
+		'pt-br': "Spoink",
+		'de-de': "Spoink"
 	},
 
 	stage: "Stage1",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tricky Steps",
-				fr: "Pas Délicats",
-				es: "Pasos Astutos",
-				it: "Passinganno",
-				pt: "Passos Ardilosos",
-				de: "Listiges Vorgehen"
+				'en-us': "Tricky Steps",
+				'fr-fr': "Pas Délicats",
+				'es-es': "Pasos Astutos",
+				'it-it': "Passinganno",
+				'pt-br': "Passos Ardilosos",
+				'de-de': "Listiges Vorgehen"
 			},
 			effect: {
-				en: "You may move an Energy attached to your opponent's Active Pokémon to 1 of your opponent's Benched Pokémon.",
-				fr: "Vous pouvez déplacer une Énergie attachée au Pokémon Actif de votre adversaire vers l'un des Pokémon de Banc de votre adversaire.",
-				es: "Puedes mover 1 Energía unida al Pokémon Activo de tu rival a 1 de los Pokémon en Banca de tu rival.",
-				it: "Puoi spostare un'Energia assegnata al Pokémon attivo del tuo avversario su uno dei Pokémon nella sua panchina.",
-				pt: "Você pode mover um card de Energia ligado ao Pokémon Ativo do seu oponente para 1 dos Pokémon no Banco desse oponente.",
-				de: "Du kannst 1 an das Aktive Pokémon deines Gegners angelegte Energie auf 1 Pokémon auf der Bank deines Gegners verschieben."
+				'en-us': "You may move an Energy attached to your opponent's Active Pokémon to 1 of your opponent's Benched Pokémon.",
+				'fr-fr': "Vous pouvez déplacer une Énergie attachée au Pokémon Actif de votre adversaire vers l'un des Pokémon de Banc de votre adversaire.",
+				'es-es': "Puedes mover 1 Energía unida al Pokémon Activo de tu rival a 1 de los Pokémon en Banca de tu rival.",
+				'it-it': "Puoi spostare un'Energia assegnata al Pokémon attivo del tuo avversario su uno dei Pokémon nella sua panchina.",
+				'pt-br': "Você pode mover um card de Energia ligado ao Pokémon Ativo do seu oponente para 1 dos Pokémon no Banco desse oponente.",
+				'de-de': "Du kannst 1 an das Aktive Pokémon deines Gegners angelegte Energie auf 1 Pokémon auf der Bank deines Gegners verschieben."
 			},
 			damage: 30,
 
@@ -69,20 +69,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psybeam",
-				fr: "Rafale Psy",
-				es: "Psicorrayo",
-				it: "Psicoraggio",
-				pt: "Feixe Psíquico",
-				de: "Psystrahl"
+				'en-us': "Psybeam",
+				'fr-fr': "Rafale Psy",
+				'es-es': "Psicorrayo",
+				'it-it': "Psicoraggio",
+				'pt-br': "Feixe Psíquico",
+				'de-de': "Psystrahl"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent's Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: 60,
 
@@ -99,7 +99,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It uses black pearls to amplify its psychic power. It does a strange dance to control foes' minds.",
+		'en-us': "It uses black pearls to amplify its psychic power. It does a strange dance to control foes' minds.",
 	},
 
 	thirdParty: {

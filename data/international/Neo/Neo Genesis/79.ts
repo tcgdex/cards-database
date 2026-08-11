@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Swinub",
-		fr: "Marcacrin",
-		de: "Quiekel"
+		'en-us': "Swinub",
+		'fr-fr': "Marcacrin",
+		'de-de': "Quiekel"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Powder Snow",
-				fr: "Poudreuse",
-				de: "Power Snow"
+				'en-us': "Powder Snow",
+				'fr-fr': "Poudreuse",
+				'de-de': "Power Snow"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -62,8 +62,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs.",
-		fr: "Il frotte sa truffe sur le sol pour trouver et déterrer sa nourriture. Il découvre parfois des sources d'eau chaude."
+		'en-us': "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs.",
+		'fr-fr': "Il frotte sa truffe sur le sol pour trouver et déterrer sa nourriture. Il découvre parfois des sources d'eau chaude."
 	},
 
 

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Paras",
+		'en-us': "Paras",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -30,7 +30,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
+				'en-us': "Scratch",
 			},
 
 			damage: 20,
@@ -42,10 +42,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Spore",
+				'en-us': "Spore",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
+				'en-us': "The Defending Pokémon is now Asleep.",
 			},
 
 		},
@@ -61,7 +61,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.",
+		'en-us': "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.",
 	},
 
 

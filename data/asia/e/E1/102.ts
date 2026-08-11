@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミーガニウム",
+		'ja-jp': "ミーガニウム",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "なだめるような香り",
+				'ja-jp': "なだめるような香り",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前に）、コインをひっくり返すことができます。頭の場合は、Pokmonのそれぞれから1つのダメージカウンターを1つのダメージカウンターを取り外します。メガニウムが特別な状態の影響を受けている場合、この電力は使用できません。",
+				'ja-jp': "ターン中に（攻撃の前に）、コインをひっくり返すことができます。頭の場合は、Pokmonのそれぞれから1つのダメージカウンターを1つのダメージカウンターを取り外します。メガニウムが特別な状態の影響を受けている場合、この電力は使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Grass", "Colorless", "Colorless"],
 			name: {
-				ja: "毒パウダー",
+				'ja-jp': "毒パウダー",
 			},
 			effect: {
-				ja: "防御ポケモンは現在中毒になっています。",
+				'ja-jp': "防御ポケモンは現在中毒になっています。",
 			},
 			damage: 40,
 		},

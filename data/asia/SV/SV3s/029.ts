@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Mantyke"
+		'id-id': "Mantyke"
 	},
 
 	illustrator: "miki kudo",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Mantyke berenang bersama gerombolan Remoraid. Jika diserang musuh, Pokémon ini akan bertarung bersama gerombolan tersebut."
+		'id-id': "Mantyke berenang bersama gerombolan Remoraid. Jika diserang musuh, Pokémon ini akan bertarung bersama gerombolan tersebut."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Penyembuhan Berapung-apung"
+			'id-id': "Penyembuhan Berapung-apung"
 		},
 
 		effect: {
-			id: "Pulihkan HP 1 Pokémon Cadangan sendiri sejumlah 120."
+			'id-id': "Pulihkan HP 1 Pokémon Cadangan sendiri sejumlah 120."
 		}
 	}],
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Minccino",
-		fr: "Chinchidou",
-		es: "Minccino",
-		it: "Minccino",
-		pt: "Minccino",
-		de: "Picochilla"
+		'en-us': "Minccino",
+		'fr-fr': "Chinchidou",
+		'es-es': "Minccino",
+		'it-it': "Minccino",
+		'pt-br': "Minccino",
+		'de-de': "Picochilla"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'Face",
+				'en-us': "Pound",
+				'fr-fr': "Écras'Face",
 			},
 
 			damage: 10,
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reckless Charge",
-				fr: "Attaque Imprudente",
+				'en-us': "Reckless Charge",
+				'fr-fr': "Attaque Imprudente",
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				'en-us': "This Pokémon does 10 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 10 dégâts.",
 			},
 			damage: 30,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They great one another by rubbing each other with their tails, which are always kept well groomed and clean.",
+		'en-us': "They great one another by rubbing each other with their tails, which are always kept well groomed and clean.",
 	},
 
 	thirdParty: {

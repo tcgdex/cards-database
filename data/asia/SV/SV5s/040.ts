@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Keldeo"
+		'id-id': "Keldeo"
 	},
 
 	illustrator: "satoma",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Dengan menetapkan determinasi untuk bertarung, kekuatan meluap di seluruh tubuh Keldeo sehingga ia mengubah wujudnya."
+		'id-id': "Dengan menetapkan determinasi untuk bertarung, kekuatan meluap di seluruh tubuh Keldeo sehingga ia mengubah wujudnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Quick Draw"
+			'id-id': "Quick Draw"
 		},
 
 		effect: {
-			id: "Ambil 2 kartu dari atas Deck sendiri."
+			'id-id': "Ambil 2 kartu dari atas Deck sendiri."
 		},
 
 		damage: 20,
 		cost: ["Water"]
 	}, {
 		name: {
-			id: "Aqua Blade"
+			'id-id': "Aqua Blade"
 		},
 
 		damage: 110,

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Dark Vaporeon"
+		'en-us': "Dark Vaporeon"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee"
+		'en-us': "Eevee"
 	},
 
 	stage: "Stage1",
@@ -33,7 +33,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite"
+				'en-us': "Bite"
 			},
 
 			damage: 30,
@@ -46,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlpool"
+				'en-us': "Whirlpool"
 			},
 			effect: {
-				en: "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
+				'en-us': "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
 			},
 			damage: 20,
 
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A Pokémon capable of controlling water, so it is capable of creating giant whirlpools."
+		'en-us': "A Pokémon capable of controlling water, so it is capable of creating giant whirlpools."
 	},
 
 	variants: [

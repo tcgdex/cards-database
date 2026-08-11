@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Spinarak",
-		fr: "Mimigal",
-		de: "Webarak"
+		'en-us': "Spinarak",
+		'fr-fr': "Mimigal",
+		'de-de': "Webarak"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hang Down",
-				fr: "Suspension",
-				de: "Herunterhängen"
+				'en-us': "Hang Down",
+				'fr-fr': "Suspension",
+				'de-de': "Herunterhängen"
 			},
 
 			damage: 10,
@@ -42,14 +42,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Spider Web",
-				fr: "Toile",
-				de: "Spinnennetz"
+				'en-us': "Spider Web",
+				'fr-fr': "Toile",
+				'de-de': "Spinnennetz"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
-				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
+				'de-de': "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 
 		},
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lies still in the same pose for days in its web, waiting for its unsuspecting prey to wander close."
+		'en-us': "It lies still in the same pose for days in its web, waiting for its unsuspecting prey to wander close."
 	},
 
 	variants: [

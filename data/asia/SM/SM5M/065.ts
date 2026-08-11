@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "超ブーストエネルギー",
+		'ja-jp': "超ブーストエネルギー",
 	},
 
 	illustrator: "",
@@ -12,7 +12,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		ja: "このカードは[無]エネルギー1個ぶんとしてはたらく。このカードは、2進化ポケモンについているかぎり、すべてのタイプのエネルギー1個ぶんとしてはたらき、自分の場に2進化ポケモンが3匹以上いるなら、すべてのタイプのエネルギー4個ぶんとしてはたらく。",
+		'ja-jp': "このカードは[無]エネルギー1個ぶんとしてはたらく。このカードは、2進化ポケモンについているかぎり、すべてのタイプのエネルギー1個ぶんとしてはたらき、自分の場に2進化ポケモンが3匹以上いるなら、すべてのタイプのエネルギー4個ぶんとしてはたらく。",
 	},
 
 	variants: [

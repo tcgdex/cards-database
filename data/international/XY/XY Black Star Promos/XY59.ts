@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Salamence",
-		fr: "Drattak",
+		'en-us': "Salamence",
+		'fr-fr': "Drattak",
 	},
 
 	illustrator: "Naoki Saito",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shelgon",
-		fr: "Drackhaus",
+		'en-us': "Shelgon",
+		'fr-fr': "Drackhaus",
 	},
 
 	stage: "Stage2",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Goons",
-				fr: "Appel à la Rescousse"
+				'en-us': "Call for Goons",
+				'fr-fr': "Appel à la Rescousse"
 			},
 			effect: {
-				en: "Search your deck for up to 3 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
-				fr: "Chercher jusqu'à 3 Pokémon de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck."
+				'en-us': "Search your deck for up to 3 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Chercher jusqu'à 3 Pokémon de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck."
 			},
 
 		},
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Pulse",
-				fr: "Dracochoc"
+				'en-us': "Dragon Pulse",
+				'fr-fr': "Dracochoc"
 			},
 			effect: {
-				en: "Discard the top card of your deck.",
-				fr: "Défaussez la carte du dessus de votre deck."
+				'en-us': "Discard the top card of your deck.",
+				'fr-fr': "Défaussez la carte du dessus de votre deck."
 			},
 			damage: 130,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It's uncontrollable if enraged. It flies around spouting flames and scorching fields and mountains.",
+		'en-us': "It's uncontrollable if enraged. It flies around spouting flames and scorching fields and mountains.",
 	},
 
 	thirdParty: {

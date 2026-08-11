@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "トルネロス",
+		'ja-jp': "トルネロス",
 	},
 
 	illustrator: "Nisota Niso",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "雲のような エネルギー体に 下半身が 包まれている。 時速３００キロで 空を 飛ぶ。",
+		'ja-jp': "雲のような エネルギー体に 下半身が 包まれている。 時速３００キロで 空を 飛ぶ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			name: { ja: "かぜをまとう" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の手札から基本エネルギーを1枚選び、このポケモンにつける。",
+				'ja-jp': "自分の手札から基本エネルギーを1枚選び、このポケモンにつける。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている基本エネルギーを1個選び、ベンチポケモンにつけ替える。",
+				'ja-jp': "このポケモンについている基本エネルギーを1個選び、ベンチポケモンにつけ替える。",
 			},
 		},
 	],

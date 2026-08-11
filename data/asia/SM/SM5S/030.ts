@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スカタンク",
+		'ja-jp': "スカタンク",
 	},
 
 	illustrator: "Studio Bora Inc.",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "尻尾から くさい 汁を 飛ばす。 お腹で 熟成させる 時間が 長いほど においが ひどくなる。",
+		'ja-jp': "尻尾から くさい 汁を 飛ばす。 お腹で 熟成させる 時間が 長いほど においが ひどくなる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを2回投げる。1回でもウラなら、そのワザは失敗。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを2回投げる。1回でもウラなら、そのワザは失敗。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "スカンプー",
+		'ja-jp': "スカンプー",
 	},
 
 	retreat: 3,

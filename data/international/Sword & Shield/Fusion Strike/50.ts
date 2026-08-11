@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shellder",
-		fr: "Kokiyas",
-		es: "Shellder",
-		it: "Shellder",
-		pt: "Shellder",
-		de: "Muschas"
+		'en-us': "Shellder",
+		'fr-fr': "Kokiyas",
+		'es-es': "Shellder",
+		'it-it': "Shellder",
+		'pt-br': "Shellder",
+		'de-de': "Muschas"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "kawayoo",
 
 	description: {
-		en: "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open."
+		'en-us': "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open."
 	},
 
 	attacks: [{
 		cost: ["Water"],
 
 		name: {
-			en: "Tongue Slap",
-			fr: "Gros Coup de Langue",
-			de: "Zungenschelle",
-			es: "Bofetón Lengua",
-			pt: "Tapa de Língua",
-			it: "Linguasberla"
+			'en-us': "Tongue Slap",
+			'fr-fr': "Gros Coup de Langue",
+			'de-de': "Zungenschelle",
+			'es-es': "Bofetón Lengua",
+			'pt-br': "Tapa de Língua",
+			'it-it': "Linguasberla"
 		},
 
 		damage: 10
@@ -50,12 +50,12 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Wave Splash",
-			fr: "Grosse Vague",
-			de: "Wellenplatscher",
-			es: "Chapoteo Ondulante",
-			pt: "Onda Borrifante",
-			it: "Schizzi d'Onda"
+			'en-us': "Wave Splash",
+			'fr-fr': "Grosse Vague",
+			'de-de': "Wellenplatscher",
+			'es-es': "Chapoteo Ondulante",
+			'pt-br': "Onda Borrifante",
+			'it-it': "Schizzi d'Onda"
 		},
 
 		damage: 20

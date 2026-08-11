@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Togekiss",
-		fr: "Togekiss",
-		de: "Togekiss"
+		'en-us': "Togekiss",
+		'fr-fr': "Togekiss",
+		'de-de': "Togekiss"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Togetic",
-		fr: "Togetic"
+		'en-us': "Togetic",
+		'fr-fr': "Togetic"
 	},
 
 	stage: "Stage2",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blessed Wings",
-				fr: "Ailes bénies",
-				de: "Gesegnete Schwingen"
+				'en-us': "Blessed Wings",
+				'fr-fr': "Ailes bénies",
+				'de-de': "Gesegnete Schwingen"
 			},
 			effect: {
-				en: "Remove all damage counters from each of your Pokémon. Shuffle Togekiss and all cards attached to it back into your deck.",
-				fr: "Retirez tous les marqueurs de dégât à chacun de vos Pokémon. Mélangez Togekiss et toutes les cartes qui lui sont attachées avec votre deck.",
-				de: "Entferne alle Schadensmarken von jedem deiner Pokémon. Mische Togekiss und alle daran angelegten Karten zurück in dein Deck."
+				'en-us': "Remove all damage counters from each of your Pokémon. Shuffle Togekiss and all cards attached to it back into your deck.",
+				'fr-fr': "Retirez tous les marqueurs de dégât à chacun de vos Pokémon. Mélangez Togekiss et toutes les cartes qui lui sont attachées avec votre deck.",
+				'de-de': "Entferne alle Schadensmarken von jedem deiner Pokémon. Mische Togekiss und alle daran angelegten Karten zurück in dein Deck."
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Air Cutter",
-				fr: "Tranch’Air",
-				de: "Windschnitt"
+				'en-us': "Air Cutter",
+				'fr-fr': "Tranch’Air",
+				'de-de': "Windschnitt"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 80,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "As everyone knows, it visits peaceful regions, bringing them gifts of kindness and sweet blessings."
+		'en-us': "As everyone knows, it visits peaceful regions, bringing them gifts of kindness and sweet blessings."
 	},
 
 	variants: [

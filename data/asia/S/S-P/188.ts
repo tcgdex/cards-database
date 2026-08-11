@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サンダースVMAX",
+		'ja-jp': "サンダースVMAX",
 		'zh-tw': "小海獅",
 	},
 
@@ -18,13 +18,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ダイジンライ",
+				'ja-jp': "ダイジンライ",
 				'zh-tw': "頭錘",
 			},
 			damage: 100,
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "ダメカンがのっている相手のベンチポケモン1匹にも、100ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "ダメカンがのっている相手のベンチポケモン1匹にも、100ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -43,7 +43,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "サンダースV",
+		'ja-jp': "サンダースV",
 	},
 
 	retreat: 0,

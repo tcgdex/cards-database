@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Erika's Weepinbell",
-		fr: "Boustiflor d'Erika",
-		es: "Weepinbell de Erika",
+		'en-us': "Erika's Weepinbell",
+		'fr-fr': "Boustiflor d'Erika",
+		'es-es': "Weepinbell de Erika",
 		'es-mx': "Weepinbell de Erika",
-		de: "Erikas Ultrigaria",
-		it: "Weepinbell di Erika",
-		pt: "Weepinbell da Érica"
+		'de-de': "Erikas Ultrigaria",
+		'it-it': "Weepinbell di Erika",
+		'pt-br': "Weepinbell da Érica"
 	},
 
 	evolveFrom: {
-		en: "Erika's Bellsprout",
-		fr: "Chétiflor d'Erika",
-		es: "Bellsprout de Erika",
+		'en-us': "Erika's Bellsprout",
+		'fr-fr': "Chétiflor d'Erika",
+		'es-es': "Bellsprout de Erika",
 		'es-mx': "Bellsprout de Erika",
-		de: "Erikas Knofensa",
-		it: "Bellsprout di Erika",
-		pt: "Bellsprout da Érica",
+		'de-de': "Erikas Knofensa",
+		'it-it': "Bellsprout di Erika",
+		'pt-br': "Bellsprout da Érica",
 	},
 
 	illustrator: "LINNE",
@@ -35,13 +35,13 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Melt",
-			fr: "Dissolution",
-			es: "Derretir",
+			'en-us': "Melt",
+			'fr-fr': "Dissolution",
+			'es-es': "Derretir",
 			'es-mx': "Derretir",
-			de: "Schmelzen",
-			it: "Liquefazione",
-			pt: "Derreter"
+			'de-de': "Schmelzen",
+			'it-it': "Liquefazione",
+			'pt-br': "Derreter"
 		},
 
 		damage: 30
@@ -49,23 +49,23 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Leafy Cyclone",
-			fr: "Cyclone Arboré",
-			es: "Ciclón Hojarasca",
+			'en-us': "Leafy Cyclone",
+			'fr-fr': "Cyclone Arboré",
+			'es-es': "Ciclón Hojarasca",
 			'es-mx': "Ciclón Frondoso",
-			de: "Blättergewirbel",
-			it: "Fogliaturbine",
-			pt: "Ciclone Folhoso"
+			'de-de': "Blättergewirbel",
+			'it-it': "Fogliaturbine",
+			'pt-br': "Ciclone Folhoso"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use attacks.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser d'attaques.",
-			es: "Durante tu próximo turno, este Pokémon no puede usar ataques.",
+			'en-us': "During your next turn, this Pokémon can't use attacks.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser d'attaques.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede usar ataques.",
 			'es-mx': "Durante tu próximo turno, este Pokémon no puede usar ataques.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon keine Attacken einsetzen.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può usare attacchi.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar ataques."
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon keine Attacken einsetzen.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare attacchi.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar ataques."
 		},
 
 		damage: 70
@@ -81,7 +81,7 @@ const card: Card = {
 	regulationMark: "J",
 
 	description: {
-		en: "It spits out Poison Powder to immobilize the enemy and then finishes it with a spray of Acid.",
+		'en-us': "It spits out Poison Powder to immobilize the enemy and then finishes it with a spray of Acid.",
 	},
 
 	variants: [

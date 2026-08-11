@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Porygon2",
-		fr: "Porygon2",
-		es: "Porygon2",
-		it: "Porygon2",
-		pt: "Porygon2",
-		de: "Porygon2"
+		'en-us': "Porygon2",
+		'fr-fr': "Porygon2",
+		'es-es': "Porygon2",
+		'it-it': "Porygon2",
+		'pt-br': "Porygon2",
+		'de-de': "Porygon2"
 	},
 
 	rarity: "Promo",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Porygon",
-		fr: "Porygon",
-		es: "Porygon",
-		it: "Porygon",
-		pt: "Porygon",
-		de: "Porygon"
+		'en-us': "Porygon",
+		'fr-fr': "Porygon",
+		'es-es': "Porygon",
+		'it-it': "Porygon",
+		'pt-br': "Porygon",
+		'de-de': "Porygon"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Powered Ball",
-			fr: "Boule Puissante",
-			es: "Bola Cargada",
-			it: "Palla Potenziata",
-			pt: "Bola Energizada",
-			de: "Angetriebener Ball"
+			'en-us': "Powered Ball",
+			'fr-fr': "Boule Puissante",
+			'es-es': "Bola Cargada",
+			'it-it': "Palla Potenziata",
+			'pt-br': "Bola Energizada",
+			'de-de': "Angetriebener Ball"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte uma Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 50
@@ -62,7 +62,7 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "GOSSAN",
 	description: {
-		en: "After artificial intelligence was implemented in Porygon2, the Pokémon began using a strange language that only other Porygon2 understand.",
+		'en-us': "After artificial intelligence was implemented in Porygon2, the Pokémon began using a strange language that only other Porygon2 understand.",
 	},
 	variants: [
 		{

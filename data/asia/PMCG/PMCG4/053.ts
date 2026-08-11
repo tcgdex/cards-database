@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "わるいカイリュー",
+		'ja-jp': "わるいカイリュー",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "ミニオンを召喚します",
+				'ja-jp': "ミニオンを召喚します",
 			},
 			effect: {
-				ja: "手からダークドラゴナイトを演奏するときは、デッキを最大2つの基本的なPokmonを検索し、ベンチに置きます。その後、デッキをシャッフルします。",
+				'ja-jp': "手からダークドラゴナイトを演奏するときは、デッキを最大2つの基本的なPokmonを検索し、ベンチに置きます。その後、デッキをシャッフルします。",
 			},
 		}],
 
@@ -30,10 +30,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "巨大な尾",
+				'ja-jp': "巨大な尾",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
 			},
 			damage: 70,
 		},

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tynamo",
-		fr: "Anchwatt"
+		'en-us': "Tynamo",
+		'fr-fr': "Anchwatt"
 	},
 
 	illustrator: "Naoki Saito",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "While one alone doesn't have much power,\na chain of many Tynamo can be as powerful\nas lightning.",
-		fr: "Tout seuls, ils ne dégagent pas beaucoup d'électricité, mais un banc d'Anchwatt produit la même puissance qu'un éclair."
+		'en-us': "While one alone doesn't have much power,\na chain of many Tynamo can be as powerful\nas lightning.",
+		'fr-fr': "Tout seuls, ils ne dégagent pas beaucoup d'électricité, mais un banc d'Anchwatt produit la même puissance qu'un éclair."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Tiny Bolt",
-			fr: "Foudre Minuscule"
+			'en-us': "Tiny Bolt",
+			'fr-fr': "Foudre Minuscule"
 		},
 
 		damage: 10,

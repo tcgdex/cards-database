@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Vanillish",
-		fr: "Sorboul",
-		es: "Vanillish",
-		it: "Vanillish",
-		pt: "Vanillish",
-		de: "Gelatroppo"
+		'en-us': "Vanillish",
+		'fr-fr': "Sorboul",
+		'es-es': "Vanillish",
+		'it-it': "Vanillish",
+		'pt-br': "Vanillish",
+		'de-de': "Gelatroppo"
 	},
 
 	illustrator: "match",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vanillite",
-		fr: "Sorbébé",
+		'en-us': "Vanillite",
+		'fr-fr': "Sorbébé",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Beam",
-				fr: "Laser Glace",
+				'en-us': "Ice Beam",
+				'fr-fr': "Laser Glace",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 20,
 
@@ -56,8 +56,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Frost Breath",
-				fr: "Souffle Glacé",
+				'en-us': "Frost Breath",
+				'fr-fr': "Souffle Glacé",
 			},
 
 			damage: 40,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It conceals itself from enemy eyes by creating many small ice particles and hiding among them.",
+		'en-us': "It conceals itself from enemy eyes by creating many small ice particles and hiding among them.",
 	},
 
 	thirdParty: {

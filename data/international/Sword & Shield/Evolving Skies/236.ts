@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Darkness Energy",
-		fr: "Énergie Obscurité",
-		es: "Energía Oscura",
-		it: "Energia Oscurità",
-		pt: "Energia Noturna",
-		de: "Finsternis-Energie"
+		'en-us': "Darkness Energy",
+		'fr-fr': "Énergie Obscurité",
+		'es-es': "Energía Oscura",
+		'it-it': "Energia Oscurità",
+		'pt-br': "Energia Noturna",
+		'de-de': "Finsternis-Energie"
 	},
 
 	rarity: "Secret Rare",

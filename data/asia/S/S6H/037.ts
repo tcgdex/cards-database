@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジュペッタ",
+		'ja-jp': "ジュペッタ",
 		'zh-tw': "詛咒娃娃",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "捨てられた 怨念で 生まれる。 大切に されると 満足して 元の ヌイグルミに 戻るという。",
+		'ja-jp': "捨てられた 怨念で 生まれる。 大切に されると 満足して 元の ヌイグルミに 戻るという。",
 		'zh-tw': "誕生自遭到捨棄時的怨念。據說只要讓牠感覺自己受到重視，牠就會滿意地變回原本的玩偶。",
 	},
 
@@ -26,7 +26,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Psychic"],
 			effect: {
-				ja: "このポケモンにダメカンを7個までのせ、のせた数×20ダメージ。",
+				'ja-jp': "このポケモンにダメカンを7個までのせ、のせた数×20ダメージ。",
 			},
 		},
 		{
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カゲボウズ",
+		'ja-jp': "カゲボウズ",
 	},
 
 	retreat: 1,

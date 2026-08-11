@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コバルオン",
+		'ja-jp': "コバルオン",
 		'zh-tw': "勾帕路翁",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "鋼の 心と 体を 持つ。 人が ポケモンを 傷つけたとき 仲間とともに 人を こらしめた。",
+		'ja-jp': "鋼の 心と 体を 持つ。 人が ポケモンを 傷つけたとき 仲間とともに 人を こらしめた。",
 		'zh-tw': "有著鋼鐵的心靈與身體。當人類傷害寶可夢時，會與夥伴一起制裁人類。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ヘッドバング",
+				'ja-jp': "ヘッドバング",
 				'zh-tw': "鐵頭碰",
 			},
 			damage: 40,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "メタルスラッシュ",
+				'ja-jp': "メタルスラッシュ",
 				'zh-tw': "金屬斬",
 			},
 			damage: 130,
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
 			},
 		},

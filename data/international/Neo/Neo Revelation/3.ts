@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Celebi",
-		fr: "Celebi",
-		de: "Celebi"
+		'en-us': "Celebi",
+		'fr-fr': "Celebi",
+		'de-de': "Celebi"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Time Travel",
-				fr: "Voyage temporel",
-				de: "Time Travel"
+				'en-us': "Time Travel",
+				'fr-fr': "Voyage temporel",
+				'de-de': "Time Travel"
 			},
 			effect: {
-				en: "If an opponent's attack would Knock Out Celebi, flip a coin. If heads, Celebi is not Knocked Out and you shuffle it and all cards attached to it into your deck. This power doesn't work if Celebi is already Asleep, Confused, or Paralyzed.",
-				fr: "Si l'attaque d'un adversaire doit mettre Celebi K.O., lancez une pièce. Si c'est face, Celebi n'est pas K.O. et il doit être mélangé à votre deck avec les cartes qui lui sont attachées. Ce pouvoir ne peut être utilisé si Celebi est déjà Endormi, Confus ou Paralysé.",
-				de: "If an opponent's attack would Knock Out Celebi, flip a coin. If heads, Celebi isn't Knocked Out and you shuffle it and all cards attached to it into your deck. This power doesn't work if Celebi is already Asleep, Confused, or Paralyzed."
+				'en-us': "If an opponent's attack would Knock Out Celebi, flip a coin. If heads, Celebi is not Knocked Out and you shuffle it and all cards attached to it into your deck. This power doesn't work if Celebi is already Asleep, Confused, or Paralyzed.",
+				'fr-fr': "Si l'attaque d'un adversaire doit mettre Celebi K.O., lancez une pièce. Si c'est face, Celebi n'est pas K.O. et il doit être mélangé à votre deck avec les cartes qui lui sont attachées. Ce pouvoir ne peut être utilisé si Celebi est déjà Endormi, Confus ou Paralysé.",
+				'de-de': "If an opponent's attack would Knock Out Celebi, flip a coin. If heads, Celebi isn't Knocked Out and you shuffle it and all cards attached to it into your deck. This power doesn't work if Celebi is already Asleep, Confused, or Paralyzed."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psychic Damage",
-				fr: "Dégâts Psy",
-				de: "Psychic Damage"
+				'en-us': "Psychic Damage",
+				'fr-fr': "Dégâts Psy",
+				'de-de': "Psychic Damage"
 			},
 			effect: {
-				en: "Flip 3 coins. For each heads, put 1 damage counter on the Defending Pokémon.",
-				fr: "Lancez 3 pièces. Pour chaque face, placez 1 marqueur de dégâts sur le Pokémon Défenseur.",
-				de: "Flip 3 coins. For each heads, put 1 damage counter on the Defending Pokémon."
+				'en-us': "Flip 3 coins. For each heads, put 1 damage counter on the Defending Pokémon.",
+				'fr-fr': "Lancez 3 pièces. Pour chaque face, placez 1 marqueur de dégâts sur le Pokémon Défenseur.",
+				'de-de': "Flip 3 coins. For each heads, put 1 damage counter on the Defending Pokémon."
 			},
 
 		},
@@ -70,8 +70,8 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared.",
-		fr: "Ce Pokémon voyage dans le temps. Les arbres et la végétation s'épanouissent dans les forêts où il apparaît."
+		'en-us': "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared.",
+		'fr-fr': "Ce Pokémon voyage dans le temps. Les arbres et la végétation s'épanouissent dans les forêts où il apparaît."
 	},
 
 

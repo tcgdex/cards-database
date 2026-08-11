@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タッツ",
+		'ja-jp': "タッツ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "煙幕",
+				'ja-jp': "煙幕",
 			},
 			effect: {
-				ja: "防衛ポケモンが相手の次のターン中に攻撃を試みた場合、対戦相手はコインをひっくり返します。尾の場合、その攻撃は何もしません。",
+				'ja-jp': "防衛ポケモンが相手の次のターン中に攻撃を試みた場合、対戦相手はコインをひっくり返します。尾の場合、その攻撃は何もしません。",
 			},
 			damage: 10,
 		},

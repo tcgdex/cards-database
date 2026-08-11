@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Oricorio"
+		'en-us': "Oricorio"
 	},
 
 	illustrator: "whomor Inc.",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "This form of Oricorio has sipped yellow nectar.\nIt uses nimble steps to approach opponents,\nthen knocks them out with electric punches."
+		'en-us': "This form of Oricorio has sipped yellow nectar.\nIt uses nimble steps to approach opponents,\nthen knocks them out with electric punches."
 	},
 
 	stage: "Basic",
@@ -26,17 +26,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Safeguard"
+			'en-us': "Safeguard"
 		},
 
 		effect: {
-			en: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon ex."
+			'en-us': "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon ex."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Zzzap"
+			'en-us': "Zzzap"
 		},
 
 		damage: 50,

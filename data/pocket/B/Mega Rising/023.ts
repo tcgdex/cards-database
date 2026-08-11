@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Phantump"
+		'en-us': "Phantump"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "With a voice like a human child's, it cries out to\nlure adults deep into the forest, getting them lost\namong the trees."
+		'en-us': "With a voice like a human child's, it cries out to\nlure adults deep into the forest, getting them lost\namong the trees."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Branch Poke"
+			'en-us': "Branch Poke"
 		},
 
 		damage: 40,

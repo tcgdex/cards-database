@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โนโนะคุราเกะ",
-		id: "Toedscool"
+		'th-th': "โนโนะคุราเกะ",
+		'id-id': "Toedscool"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -15,24 +15,24 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		th: "อาศัยอยู่ในป่าชื้น ส่วนพลิ้วของร่างกายที่หลุดร่วงนั้นเคี้ยวเพลินและอร่อยมาก",
-		id: "Toedscool hidup di dalam hutan yang lembap. Embel-embel yang terkelupas dari tubuhnya bertekstur kenyal dan sangat lezat."
+		'th-th': "อาศัยอยู่ในป่าชื้น ส่วนพลิ้วของร่างกายที่หลุดร่วงนั้นเคี้ยวเพลินและอร่อยมาก",
+		'id-id': "Toedscool hidup di dalam hutan yang lembap. Embel-embel yang terkelupas dari tubuhnya bertekstur kenyal dan sangat lezat."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ดีด",
-			id: "Tendangan Penghempas"
+			'th-th': "ดีด",
+			'id-id': "Tendangan Penghempas"
 		},
 
 		damage: 10,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			th: "สาดโคลน",
-			id: "Semprotan Lumpur"
+			'th-th': "สาดโคลน",
+			'id-id': "Semprotan Lumpur"
 		},
 
 		damage: 20,

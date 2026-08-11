@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ไทไคเด็น <ของนันจาโม>",
-		id: "Kilowattrel <Mistika>"
+		'th-th': "ไทไคเด็น <ของนันจาโม>",
+		'id-id': "Kilowattrel <Mistika>"
 	},
 
 	illustrator: "Terada Tera",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		th: "พองถุงคอเพื่อเพิ่มกระแสไฟฟ้า โบยบินตามสายลมเป็นระยะทาง 700 กิโลเมตรใน 1 วัน"
+		'th-th': "พองถุงคอเพื่อเพิ่มกระแสไฟฟ้า โบยบินตามสายลมเป็นระยะทาง 700 กิโลเมตรใน 1 วัน"
 	},
 
 	stage: "Stage1",
@@ -24,20 +24,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			th: "แฟลชดรอว์",
-			id: "Flash Draw"
+			'th-th': "แฟลชดรอว์",
+			'id-id': "Flash Draw"
 		},
 
 		effect: {
-			th: "ในเทิร์นฝ่ายเรา ถ้าทิ้ง [พลังงานพื้นฐาน[สายฟ้า]] ที่ติดอยู่กับโปเกมอนนี้ 1 ลูก ที่ตำแหน่งทิ้งการ์ด ใช้ได้ 1 ครั้ง จั่วการ์ดจากสำรับการ์ด จนได้การ์ดบนมือ ฝ่ายเราเป็น 6 ใบ",
-			id: "Dapat digunakan 1 kali pada giliran sendiri jika membuang 1 Energi Dasar {Listrik} yang dikenakan pada Pokémon ini ke Trash. Ambil kartu dari atas Deck hingga jumlah Kartu Pegangan sendiri menjadi 6 lembar."
+			'th-th': "ในเทิร์นฝ่ายเรา ถ้าทิ้ง [พลังงานพื้นฐาน[สายฟ้า]] ที่ติดอยู่กับโปเกมอนนี้ 1 ลูก ที่ตำแหน่งทิ้งการ์ด ใช้ได้ 1 ครั้ง จั่วการ์ดจากสำรับการ์ด จนได้การ์ดบนมือ ฝ่ายเราเป็น 6 ใบ",
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri jika membuang 1 Energi Dasar {Listrik} yang dikenakan pada Pokémon ini ke Trash. Ambil kartu dari atas Deck hingga jumlah Kartu Pegangan sendiri menjadi 6 lembar."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			th: "มัคโบลต์",
-			id: "Mach Bolt"
+			'th-th': "มัคโบลต์",
+			'id-id': "Mach Bolt"
 		},
 
 		damage: 70,

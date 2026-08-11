@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Exeggcute",
-		fr: "Nœufnœuf",
-		de: "Owei"
+		'en-us': "Exeggcute",
+		'fr-fr': "Nœufnœuf",
+		'de-de': "Owei"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Continuous Eggsplosion",
-				fr: "Éclate continue",
-				de: "Continuous Eggsplosion"
+				'en-us': "Continuous Eggsplosion",
+				'fr-fr': "Éclate continue",
+				'de-de': "Continuous Eggsplosion"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à obtenir pile. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip a coin until you get tails. This attack does 10 damage times the number of heads."
+				'en-us': "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à obtenir pile. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip a coin until you get tails. This attack does 10 damage times the number of heads."
 			},
 			damage: "10×",
 
@@ -46,14 +46,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Energy Support",
-				fr: "Maintien d'énergie",
-				de: "Energy Support"
+				'en-us': "Energy Support",
+				'fr-fr': "Maintien d'énergie",
+				'de-de': "Energy Support"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your deck for a Psychic Energy card and attach it to 1 of your Benched Pokémon. Shuffe your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, cherchez dans votre deck une carte Énergie  et attachez-la à un de vos Pokémon du Banc. Mélangez ensuite votre deck.",
-				de: "Flip a coin. If heads, search your deck for a  Energy card and attach it to 1 of your Benched Pokémon. Shuffle your deck afterward."
+				'en-us': "Flip a coin. If heads, search your deck for a Psychic Energy card and attach it to 1 of your Benched Pokémon. Shuffe your deck afterward.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cherchez dans votre deck une carte Énergie  et attachez-la à un de vos Pokémon du Banc. Mélangez ensuite votre deck.",
+				'de-de': "Flip a coin. If heads, search your deck for a  Energy card and attach it to 1 of your Benched Pokémon. Shuffle your deck afterward."
 			},
 
 		},

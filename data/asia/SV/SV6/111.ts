@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コドラ",
+		'ja-jp': "コドラ",
 		'zh-tw': "可多拉",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "コドラが 暮らす 山は 湧き水と 鉄鉱石が 豊富なので 人と 争いに なることも 多かった。",
+		'ja-jp': "コドラが 暮らす 山は 湧き水と 鉄鉱石が 豊富なので 人と 争いに なることも 多かった。",
 		'zh-tw': "可多拉棲息的山區有 豐富的泉水和鐵礦石， 因此常會與人類起紛爭。",
 	},
 
@@ -23,19 +23,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "こうてつタックル",
+				'ja-jp': "こうてつタックル",
 				'zh-tw': "鋼鐵衝撞",
 			},
 			damage: 40,
 			cost: ["Metal"],
 			effect: {
-				ja: "このポケモンにも20ダメージ。",
+				'ja-jp': "このポケモンにも20ダメージ。",
 				'zh-tw': "這隻寶可夢也受到20點傷害。",
 			},
 		},
 		{
 			name: {
-				ja: "メタルクロー",
+				'ja-jp': "メタルクロー",
 				'zh-tw': "金屬爪",
 			},
 			damage: 60,
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ココドラ",
+		'ja-jp': "ココドラ",
 	},
 
 	retreat: 3,

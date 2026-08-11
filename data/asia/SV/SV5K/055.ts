@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨルノズク",
+		'ja-jp': "ヨルノズク",
 	},
 
 	illustrator: "toi8",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "特殊な つくりの 両目は わずかな 光さえ あれば 暗闇でも 昼のように 見える。",
+		'ja-jp': "特殊な つくりの 両目は わずかな 光さえ あれば 暗闇でも 昼のように 見える。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "のぞむなら、自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。",
+				'ja-jp': "のぞむなら、自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。",
 			},
 		},
 	],
@@ -43,7 +43,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ホーホー",
+		'ja-jp': "ホーホー",
 	},
 
 	retreat: 1,

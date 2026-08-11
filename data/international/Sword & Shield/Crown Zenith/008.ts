@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Yanma",
-		fr: "Yanma",
-		es: "Yanma",
-		it: "Yanma",
-		pt: "Yanma",
-		de: "Yanma"
+		'en-us': "Yanma",
+		'fr-fr': "Yanma",
+		'es-es': "Yanma",
+		'it-it': "Yanma",
+		'pt-br': "Yanma",
+		'de-de': "Yanma"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -25,32 +25,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Swoop Across",
-			fr: "Déferlement Aérien",
-			es: "Vuelo Transversal",
-			it: "Volo Radente",
-			pt: "Investida Cruzada",
-			de: "Überflieger"
+			'en-us': "Swoop Across",
+			'fr-fr': "Déferlement Aérien",
+			'es-es': "Vuelo Transversal",
+			'it-it': "Volo Radente",
+			'pt-br': "Investida Cruzada",
+			'de-de': "Überflieger"
 		},
 
 		effect: {
-			en: "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-			es: "Este ataque hace 10 puntos de daño a cada uno de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-			it: "Questo attacco infligge 10 danni a ciascuno dei Pokémon del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-			pt: "Este ataque causa 10 pontos de dano a cada um dos Pokémon do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
-			de: "Diese Attacke fügt jedem Pokémon deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+			'en-us': "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			'es-es': "Este ataque hace 10 puntos de daño a cada uno de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			'it-it': "Questo attacco infligge 10 danni a ciascuno dei Pokémon del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			'pt-br': "Este ataque causa 10 pontos de dano a cada um dos Pokémon do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
+			'de-de': "Diese Attacke fügt jedem Pokémon deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Cutting Wind",
-			fr: "Vent Glacial",
-			es: "Viento Helado",
-			it: "Vento Tagliente",
-			pt: "Vento Dilacerante",
-			de: "Schneidender Wind"
+			'en-us': "Cutting Wind",
+			'fr-fr': "Vent Glacial",
+			'es-es': "Viento Helado",
+			'it-it': "Vento Tagliente",
+			'pt-br': "Vento Dilacerante",
+			'de-de': "Schneidender Wind"
 		},
 
 		damage: 70
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.",
+		'en-us': "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.",
 	},
 
 	

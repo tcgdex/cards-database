@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゼラオラ",
+		'ja-jp': "ゼラオラ",
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "手足の 肉球から 放電。 ゼラオラが 駆け抜けると 稲妻が 光り 雷鳴が 轟く。",
+		'ja-jp': "手足の 肉球から 放電。 ゼラオラが 駆け抜けると 稲妻が 光り 雷鳴が 轟く。",
 	},
 
 	stage: "Basic",
@@ -28,7 +28,7 @@ const card: Card = {
 			name: { ja: "サンダーブリッツ" },
 			cost: ["Lightning", "Lightning", "Lightning"],
 			effect: {
-				ja: "このポケモンについているエネルギーをすべてトラッシュし、相手のベンチの「ポケモンex」1匹に、210ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "このポケモンについているエネルギーをすべてトラッシュし、相手のベンチの「ポケモンex」1匹に、210ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

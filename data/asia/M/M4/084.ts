@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハリマロン",
+		'ja-jp': "ハリマロン",
 	},
 
 	illustrator: "Atsushi Furusawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "普段 やわらかい 頭の トゲは 力を こめると 鋭く 尖り 岩をも つらぬくほど 硬くなる。",
+		'ja-jp': "普段 やわらかい 頭の トゲは 力を こめると 鋭く 尖り 岩をも つらぬくほど 硬くなる。",
 	},
 
 	stage: "Basic",

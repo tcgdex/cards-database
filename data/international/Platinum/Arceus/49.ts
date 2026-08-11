@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Wormadam Plant Cloak",
-		de: "Burmadame Pflanzenumhang"
+		'en-us': "Wormadam Plant Cloak",
+		'de-de': "Burmadame Pflanzenumhang"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Burmy Plant Cloak"
+		'en-us': "Burmy Plant Cloak"
 	},
 
 	stage: "Stage1",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Magical Needle",
-				de: "Zaubernadel"
+				'en-us': "Magical Needle",
+				'de-de': "Zaubernadel"
 			},
 			effect: {
-				en: "Remove 2 damage counters from 1 of your Benched Pokémon.",
-				de: "Entferne 2 Schadensmarken von 1 Pokémon auf deiner Bank."
+				'en-us': "Remove 2 damage counters from 1 of your Benched Pokémon.",
+				'de-de': "Entferne 2 Schadensmarken von 1 Pokémon auf deiner Bank."
 			},
 			damage: 20,
 
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cloak Scale",
-				de: "Umhang-Schuppe"
+				'en-us': "Cloak Scale",
+				'de-de': "Umhang-Schuppe"
 			},
 			effect: {
-				en: "If you have Wormadam Sandy Cloak in play, the Defending Pokémon is now Burned, Confused, and Poisoned.",
-				de: "Wenn du Burmadame Sandumhang im Spiel hast, ist das Verteidigende Pokémon jetzt verbrannt, verwirrt und vergiftet."
+				'en-us': "If you have Wormadam Sandy Cloak in play, the Defending Pokémon is now Burned, Confused, and Poisoned.",
+				'de-de': "Wenn du Burmadame Sandumhang im Spiel hast, ist das Verteidigende Pokémon jetzt verbrannt, verwirrt und vergiftet."
 			},
 			damage: 50,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When evolving, its body takes in surrounding materials. As a result, there are many body variations."
+		'en-us': "When evolving, its body takes in surrounding materials. As a result, there are many body variations."
 	},
 
 	variants: [

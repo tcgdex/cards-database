@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Koffing",
-		de: "Smogon"
+		'en-us': "Koffing",
+		'de-de': "Smogon"
 	},
 
 	illustrator: "Midori Harada",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Knockout Gas",
-				de: "Knockout Gas"
+				'en-us': "Knockout Gas",
+				'de-de': "Knockout Gas"
 			},
 			effect: {
-				en: "If Koffing is your Active Pokémon and is Knocked Out by an opponent's attack, the Attacking Pokémon is now Confused and Poisoned.",
-				de: "If Koffing is your Active Pokémon and is Knocked Out by an opponent's attack, the Attacking Pokémon is now Confused and Poisoned."
+				'en-us': "If Koffing is your Active Pokémon and is Knocked Out by an opponent's attack, the Attacking Pokémon is now Confused and Poisoned.",
+				'de-de': "If Koffing is your Active Pokémon and is Knocked Out by an opponent's attack, the Attacking Pokémon is now Confused and Poisoned."
 			},
 		},
 	],
@@ -44,8 +44,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				de: "Gnaw"
+				'en-us': "Gnaw",
+				'de-de': "Gnaw"
 			},
 
 			damage: 10,

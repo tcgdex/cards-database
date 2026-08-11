@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Helioptile",
-		fr: "Galvaran",
-		es: "Helioptile",
-		it: "Helioptile",
-		pt: "Helioptile",
-		de: "Eguana"
+		'en-us': "Helioptile",
+		'fr-fr': "Galvaran",
+		'es-es': "Helioptile",
+		'it-it': "Helioptile",
+		'pt-br': "Helioptile",
+		'de-de': "Eguana"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-Attaque",
-				es: "Ataque Rápido",
-				it: "Attacco Rapido",
-				pt: "Ataque Rápido",
-				de: "Ruckzuckhieb"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-Attaque",
+				'es-es': "Ataque Rápido",
+				'it-it': "Attacco Rapido",
+				'pt-br': "Ataque Rápido",
+				'de-de': "Ruckzuckhieb"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
-				pt: "Jogue uma moeda. Se sair cara, esse ataque causará 10 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
+				'pt-br': "Jogue uma moeda. Se sair cara, esse ataque causará 10 de danos adicionais.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Static Shock",
-				fr: "Choc Statique",
-				es: "Impacto Estático",
-				it: "Shock Statico",
-				pt: "Choque de Estática",
-				de: "Statischer Schock"
+				'en-us': "Static Shock",
+				'fr-fr': "Choc Statique",
+				'es-es': "Impacto Estático",
+				'it-it': "Shock Statico",
+				'pt-br': "Choque de Estática",
+				'de-de': "Statischer Schock"
 			},
 
 			damage: 30,
@@ -89,7 +89,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They make their home in deserts. They can generate their energy from basking in the sun, so eating food is not a requirement.",
+		'en-us': "They make their home in deserts. They can generate their energy from basking in the sun, so eating food is not a requirement.",
 	},
 
 	thirdParty: {

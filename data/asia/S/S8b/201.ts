@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マホイップ",
+		'ja-jp': "マホイップ",
 	},
 
 	illustrator: "OKACHEKE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "手から 生みだす クリームは マホイップが 幸せなとき 甘味と コクが 深まる。",
+		'ja-jp': "手から 生みだす クリームは マホイップが 幸せなとき 甘味と コクが 深まる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ついかオーダー" },
 			effect: {
-				ja: "このポケモンがバトル場にいるかぎり、自分の「マスター」を使っても、自分の番は終わらない。",
+				'ja-jp': "このポケモンがバトル場にいるかぎり、自分の「マスター」を使っても、自分の番は終わらない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の場のポケモンについている基本エネルギーのタイプの数×40ダメージ追加。",
+				'ja-jp': "自分の場のポケモンについている基本エネルギーのタイプの数×40ダメージ追加。",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マホミル",
+		'ja-jp': "マホミル",
 	},
 
 	retreat: 1,

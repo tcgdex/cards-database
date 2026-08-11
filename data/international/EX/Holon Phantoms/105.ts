@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Grass Energy",
-		fr: "Énergie Plante",
-		de: "Pflanzenenergie"
+		'en-us': "Grass Energy",
+		'fr-fr': "Énergie Plante",
+		'de-de': "Pflanzenenergie"
 	},
 
 	illustrator: undefined,

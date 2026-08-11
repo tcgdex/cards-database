@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Metapod",
-		fr: "Chrysacier",
-		de: "Safcon",
-		it: "Metapod"
+		'en-us': "Metapod",
+		'fr-fr': "Chrysacier",
+		'de-de': "Safcon",
+		'it-it': "Metapod"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -25,9 +25,9 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Caterpie",
-		fr: "Chenipan",
-		it: "Caterpie"
+		'en-us': "Caterpie",
+		'fr-fr': "Chenipan",
+		'it-it': "Caterpie"
 	},
 
 	stage: "Stage1",
@@ -39,16 +39,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stiffen",
-				fr: "Armure",
-				de: "Verhärten",
-				it: "Indurimento"
+				'en-us': "Stiffen",
+				'fr-fr': "Armure",
+				'de-de': "Verhärten",
+				'it-it': "Indurimento"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Metapod during your opponent's next turn. (Any other effects of attacks still happen.)",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Chrysacier pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
-				de: "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 40 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden).",
-				it: "Lancia una moneta. Se esce testa, previeni tutti i danni inflitti a Metapod durante il prossimo turno del tuo avversario. (Tutti gli altri effetti degli attacchi restano validi)",
+				'en-us': "Flip a coin. If heads, prevent all damage done to Metapod during your opponent's next turn. (Any other effects of attacks still happen.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Chrysacier pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
+				'de-de': "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 40 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden).",
+				'it-it': "Lancia una moneta. Se esce testa, previeni tutti i danni inflitti a Metapod durante il prossimo turno del tuo avversario. (Tutti gli altri effetti degli attacchi restano validi)",
 			},
 
 		},
@@ -58,16 +58,16 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Stun Spore",
-				fr: "Para-spore",
-				de: "Stachelspore",
-				it: "Paralizzante"
+				'en-us': "Stun Spore",
+				'fr-fr': "Para-spore",
+				'de-de': "Stachelspore",
+				'it-it': "Paralizzante"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
 			},
 			damage: 20,
 
@@ -84,9 +84,9 @@ const card: Card = {
 
 
 	description: {
-		en: "It is vulnerable to attack because its shell is soft, exposing its weak and tender body.",
-		fr: "Il est vulnérable aux attaques tant que sa carapace fragile expose son corps tendre et mou.",
-		it: "È vulnerabile agli attacchi a causa del suo guscio morbido, che non protegge il suo corpo debole e molle. LIV 21 N.11"
+		'en-us': "It is vulnerable to attack because its shell is soft, exposing its weak and tender body.",
+		'fr-fr': "Il est vulnérable aux attaques tant que sa carapace fragile expose son corps tendre et mou.",
+		'it-it': "È vulnerabile agli attacchi a causa del suo guscio morbido, che non protegge il suo corpo debole e molle. LIV 21 N.11"
 	},
 
 	variants: [

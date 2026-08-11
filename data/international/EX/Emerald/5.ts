@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Groudon",
-		fr: "Groudon",
-		de: "Groudon"
+		'en-us': "Groudon",
+		'fr-fr': "Groudon",
+		'de-de': "Groudon"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Slash"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Slash"
 			},
 
 			damage: 10,
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Tumble",
-				fr: "Roule-pierre",
-				de: "Rock Tumble"
+				'en-us': "Rock Tumble",
+				'fr-fr': "Roule-pierre",
+				'de-de': "Rock Tumble"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				de: "This attack's damage isn't affected by Resistance,"
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'de-de': "This attack's damage isn't affected by Resistance,"
 			},
 			damage: 40,
 

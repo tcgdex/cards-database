@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Its four horns are a high-performance radar system. It uses them to sense sounds and smells, rather than using ears or a nose.",
+		'en-us': "Its four horns are a high-performance radar system. It uses them to sense sounds and smells, rather than using ears or a nose.",
 	},
 
 
 	name: {
-		en: "Sliggoo",
-		fr: "Colimucus",
-		es: "Sliggoo",
+		'en-us': "Sliggoo",
+		'fr-fr': "Colimucus",
+		'es-es': "Sliggoo",
 		'es-mx': "Sliggoo",
-		de: "Viscargot",
-		it: "Sliggoo",
-		pt: "Sliggoo"
+		'de-de': "Viscargot",
+		'it-it': "Sliggoo",
+		'pt-br': "Sliggoo"
 	},
 
 	illustrator: "Yoriyuki Ikegami",
@@ -27,20 +27,20 @@ const card: Card = {
 	types: ["Dragon"],
 
 	evolveFrom: {
-		en: "Goomy"
+		'en-us': "Goomy"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Gentle Slap",
-			fr: "Gifle Douce",
-			es: "Bofetada Gentil",
+			'en-us': "Gentle Slap",
+			'fr-fr': "Gifle Douce",
+			'es-es': "Bofetada Gentil",
 			'es-mx': "Cachetadita",
-			de: "Sanfter Hieb",
-			it: "Schiaffetto",
-			pt: "Tapinha"
+			'de-de': "Sanfter Hieb",
+			'it-it': "Schiaffetto",
+			'pt-br': "Tapinha"
 		},
 
 		cost: ["Water", "Psychic"],

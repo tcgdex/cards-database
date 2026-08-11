@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	dexId: [772],
 
 	name: {
-		en: "Type: Null",
-		fr: "Type:0",
-		es: "Código Cero",
-		it: "Tipo Zero",
-		pt: "Tipo Nulo",
-		de: "Typ:Null"
+		'en-us': "Type: Null",
+		'fr-fr': "Type:0",
+		'es-es': "Código Cero",
+		'it-it': "Tipo Zero",
+		'pt-br': "Tipo Nulo",
+		'de-de': "Typ:Null"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -32,20 +32,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Air Slash",
-				fr: "Lame d’Air",
-				es: "Tajo Aéreo",
-				it: "Eterelama",
-				pt: "Golpe de Ar",
-				de: "Luftschnitt"
+				'en-us': "Air Slash",
+				'fr-fr': "Lame d’Air",
+				'es-es': "Tajo Aéreo",
+				'it-it': "Eterelama",
+				'pt-br': "Golpe de Ar",
+				'de-de': "Luftschnitt"
 			},
 			effect: {
-				en: "Discard an Energy from this Pokémon.",
-				fr: "Défaussez une Énergie de ce Pokémon.",
-				es: "Descarta 1 Energía de este Pokémon.",
-				it: "Scarta un’Energia assegnata a questo Pokémon.",
-				pt: "Descarte 1 Energia deste Pokémon.",
-				de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard an Energy from this Pokémon.",
+				'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+				'es-es': "Descarta 1 Energía de este Pokémon.",
+				'it-it': "Scarta un’Energia assegnata a questo Pokémon.",
+				'pt-br': "Descarte 1 Energia deste Pokémon.",
+				'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 50,
 
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A Pokémon weapon developed for a specific mission, it went berserk during an experiment, so it was cryogenically frozen.",
+		'en-us': "A Pokémon weapon developed for a specific mission, it went berserk during an experiment, so it was cryogenically frozen.",
 	},
 
 	thirdParty: {

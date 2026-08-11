@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Miraidon ex",
-		fr: "Miraidon-ex",
-		es: "Miraidon ex",
-		it: "Miraidon-ex",
-		pt: "Miraidon ex",
-		de: "Miraidon-ex"
+		'en-us': "Miraidon ex",
+		'fr-fr': "Miraidon-ex",
+		'es-es': "Miraidon ex",
+		'it-it': "Miraidon-ex",
+		'pt-br': "Miraidon ex",
+		'de-de': "Miraidon-ex"
 	},
 
 	rarity: "Double rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Lightning", "Psychic"],
 
 		name: {
-			en: "Repulsion Bolt",
-			fr: "Écrou Répulsion",
-			es: "Rayo Aversión",
-			it: "Lampo Respingente",
-			pt: "Raio de Repulsão",
-			de: "Abstoßender Blitz"
+			'en-us': "Repulsion Bolt",
+			'fr-fr': "Écrou Répulsion",
+			'es-es': "Rayo Aversión",
+			'it-it': "Lampo Respingente",
+			'pt-br': "Raio de Repulsão",
+			'de-de': "Abstoßender Blitz"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 100 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire a déjà au moins un marqueur de dégâts, cette attaque inflige 100 dégâts supplémentaires.",
-			es: "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 100 puntos de daño más.",
-			it: "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 100 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 100 pontos de dano a mais.",
-			de: "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 100 Schadenspunkte mehr zu."
+			'en-us': "If your opponent's Active Pokémon already has any damage counters on it, this attack does 100 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire a déjà au moins un marqueur de dégâts, cette attaque inflige 100 dégâts supplémentaires.",
+			'es-es': "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 100 puntos de daño más.",
+			'it-it': "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 100 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 100 pontos de dano a mais.",
+			'de-de': "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 100 Schadenspunkte mehr zu."
 		},
 
 		damage: "60+"
@@ -46,21 +46,21 @@ const card: Card = {
 		cost: ["Lightning", "Psychic", "Colorless"],
 
 		name: {
-			en: "Cyber Drive",
-			fr: "Conduite Cybernétique",
-			es: "Impulso Cibernético",
-			it: "Propulsione Cibernetica",
-			pt: "Ciberdireção",
-			de: "Cyber-Antrieb"
+			'en-us': "Cyber Drive",
+			'fr-fr': "Conduite Cybernétique",
+			'es-es': "Impulso Cibernético",
+			'it-it': "Propulsione Cibernetica",
+			'pt-br': "Ciberdireção",
+			'de-de': "Cyber-Antrieb"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use Cyber Drive.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Conduite Cybernétique.",
-			es: "Durante tu próximo turno, este Pokémon no puede usar Impulso Cibernético.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Propulsione Cibernetica.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Ciberdireção.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon Cyber-Antrieb nicht einsetzen."
+			'en-us': "During your next turn, this Pokémon can't use Cyber Drive.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Conduite Cybernétique.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede usar Impulso Cibernético.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Propulsione Cibernetica.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar Ciberdireção.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon Cyber-Antrieb nicht einsetzen."
 		},
 
 		damage: 220

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [849],
 
 	name: {
-		en: "Toxtricity ex"
+		'en-us': "Toxtricity ex"
 	},
 
 	illustrator: "akagi",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Toxel"
+		'en-us': "Toxel"
 	},
 
 	stage: "Stage1",
@@ -25,14 +25,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Damaging Spark"
+			'en-us': "Damaging Spark"
 		},
 
 		damage: 90,
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		effect: {
-			en: "This attack also does 30 damage to each of your opponent's Benched Pokémon that has damage on it."
+			'en-us': "This attack also does 30 damage to each of your opponent's Benched Pokémon that has damage on it."
 		}
 	}],
 

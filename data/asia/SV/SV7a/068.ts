@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ハギギシリ"
+		'ja-jp': "ハギギシリ"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "歯ぎしりで 起こる 波紋に 陽の光が 反射するとき まわりの 水は 眩いばかりに きらめく。"
+		'ja-jp': "歯ぎしりで 起こる 波紋に 陽の光が 反射するとき まわりの 水は 眩いばかりに きらめく。"
 	},
 
 	stage: "Basic",
@@ -24,11 +24,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "はんげき"
+			'ja-jp': "はんげき"
 		},
 
 		effect: {
-			ja: "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを3個のせる。"
+			'ja-jp': "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを3個のせる。"
 		}
 	}],
 
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			ja: "かじりつく"
+			'ja-jp': "かじりつく"
 		},
 
 		damage: 50,
 
 		effect: {
-			ja: "次の相手の番、このワザを受けたポケモンは、にげられない。"
+			'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。"
 		}
 	}],
 

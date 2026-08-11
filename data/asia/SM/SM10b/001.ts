@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モクロー&アローラナッシーGX",
+		'ja-jp': "モクロー&アローラナッシーGX",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "スーパーグロウ" },
 			cost: [],
 			effect: {
-				ja: "自分の場の[草]ポケモン1匹から進化するカードを、自分の山札から1枚選び、そのポケモンにのせて進化させる。進化後が1進化なら、続けて2進化を1枚選び進化させる。そして山札を切る。",
+				'ja-jp': "自分の場の[草]ポケモン1匹から進化するカードを、自分の山札から1枚選び、そのポケモンにのせて進化させる。進化後が1進化なら、続けて2進化を1枚選び進化させる。そして山札を切る。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Grass", "Grass", "Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「30」回復する。",
+				'ja-jp': "このポケモンのHPを「30」回復する。",
 			},
 		},
 		{
@@ -35,7 +35,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Grass", "Grass", "Grass"],
 			effect: {
-				ja: "追加でエネルギーが3個ついているなら、相手の場のポケモンについているエネルギーを、すべて山札にもどして切る。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "追加でエネルギーが3個ついているなら、相手の場のポケモンについているエネルギーを、すべて山札にもどして切る。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

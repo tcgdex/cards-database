@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "混沌のうねり",
+		'ja-jp': "混沌のうねり",
 	},
 
 	illustrator: "Ryo Ueda",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのプレイヤーが、手札から別の名前のスタジアムを場に出したとき、このスタジアムをトラッシュしたあと、そのスタジアムもトラッシュする。（新しく出たスタジアムの効果ははたらかない。）",
+		'ja-jp': "おたがいのプレイヤーが、手札から別の名前のスタジアムを場に出したとき、このスタジアムをトラッシュしたあと、そのスタジアムもトラッシュする。（新しく出たスタジアムの効果ははたらかない。）",
 	},
 
 	variants: [

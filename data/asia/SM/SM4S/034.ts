@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ボスゴドラ",
+		'ja-jp': "ボスゴドラ",
 	},
 
 	illustrator: "Yoshinobu Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "山を まるごと 縄張りに する。 傷が 多い ボスゴドラほど 戦っているので 侮れない。",
+		'ja-jp': "山を まるごと 縄張りに する。 傷が 多い ボスゴドラほど 戦っているので 侮れない。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Metal", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチポケモンにのっているダメカンの数x10ダメージ追加。",
+				'ja-jp': "自分のベンチポケモンにのっているダメカンの数x10ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Metal", "Metal", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コドラ",
+		'ja-jp': "コドラ",
 	},
 
 	retreat: 4,

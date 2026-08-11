@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ディアルガ",
+		'ja-jp': "ディアルガ",
 	},
 
 	illustrator: "TOKIYA",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、手札からポケモンを出して進化できない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、手札からポケモンを出して進化できない。",
 			},
 		},
 	],

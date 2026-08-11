@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アマルス",
+		'ja-jp': "アマルス",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "おっとりした 性格の ポケモン。 ガチゴラスなど 凶暴な 敵の いない 寒い 土地に 住んでいた。",
+		'ja-jp': "おっとりした 性格の ポケモン。 ガチゴラスなど 凶暴な 敵の いない 寒い 土地に 住んでいた。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 		{

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Seviper",
-		fr: "Séviper",
+		'en-us': "Seviper",
+		'fr-fr': "Séviper",
 	},
 	illustrator: "SATOSHI NAKAI",
 	rarity: "Shiny rare",
@@ -25,12 +25,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "More Poison",
-				fr: "Poison Sans Fin",
+				'en-us': "More Poison",
+				'fr-fr': "Poison Sans Fin",
 			},
 			effect: {
-				en: "Put 1 more damage counter on your opponent's Poisoned Pokémon between turns.",
-				fr: "Placez 1 marqueur de dégâts supplémentaire sur le Pokémon Empoisonné de votre adversaire entre chaque tour.",
+				'en-us': "Put 1 more damage counter on your opponent's Poisoned Pokémon between turns.",
+				'fr-fr': "Placez 1 marqueur de dégâts supplémentaire sur le Pokémon Empoisonné de votre adversaire entre chaque tour.",
 			},
 		},
 	],
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Venomous Fang",
-				fr: "Croc-Poison",
+				'en-us': "Venomous Fang",
+				'fr-fr': "Croc-Poison",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
 			},
 			damage: 30,
 
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "In battle, it uses its bladed tail to counter any Zangoose. It secretes a deadly venom in its tail.",
+		'en-us': "In battle, it uses its bladed tail to counter any Zangoose. It secretes a deadly venom in its tail.",
 	},
 }
 

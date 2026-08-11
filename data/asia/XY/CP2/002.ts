@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レシラム",
+		'ja-jp': "レシラム",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: "90+",
 			cost: ["Fire", "Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数x20ダメージを追加。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数x20ダメージを追加。",
 			},
 		},
 	],

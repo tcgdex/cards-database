@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Whimsicott",
-		fr: "Farfaduvet",
-		es: "Whimsicott",
-		it: "Whimsicott",
-		pt: "Whimsicott",
-		de: "Elfun"
+		'en-us': "Whimsicott",
+		'fr-fr': "Farfaduvet",
+		'es-es': "Whimsicott",
+		'it-it': "Whimsicott",
+		'pt-br': "Whimsicott",
+		'de-de': "Elfun"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cottonee",
-		fr: "Doudouvet",
+		'en-us': "Cottonee",
+		'fr-fr': "Doudouvet",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Prowl",
-				fr: "Rôder",
-				es: "Merodear",
-				it: "Girovagare",
-				pt: "Espreitar",
-				de: "Pirschen"
+				'en-us': "Prowl",
+				'fr-fr': "Rôder",
+				'es-es': "Merodear",
+				'it-it': "Girovagare",
+				'pt-br': "Espreitar",
+				'de-de': "Pirschen"
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may search your deck for a card and put it into your hand. Then, shuffle your deck.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon pendant votre tour, vous pouvez chercher une carte dans votre deck, puis l’ajouter à votre main. Mélangez ensuite votre deck.",
-				es: "Cuando juegues este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes buscar en tu baraja 1 carta y ponerla en tu mano. Después, baraja las cartas de tu baraja.",
-				it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi cercare nel tuo mazzo una carta e aggiungerla a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
-				pt: "Quando você joga este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante a sua vez de jogar, você pode procurar por 1 carta no seu baralho e colocá-la na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du dein Deck nach 1 Karte durchsuchen und sie auf deine Hand nehmen. Mische anschließend dein Deck."
+				'en-us': "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may search your deck for a card and put it into your hand. Then, shuffle your deck.",
+				'fr-fr': "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon pendant votre tour, vous pouvez chercher une carte dans votre deck, puis l’ajouter à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Cuando juegues este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes buscar en tu baraja 1 carta y ponerla en tu mano. Después, baraja las cartas de tu baraja.",
+				'it-it': "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi cercare nel tuo mazzo una carta e aggiungerla a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Quando você joga este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante a sua vez de jogar, você pode procurar por 1 carta no seu baralho e colocá-la na sua mão. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du dein Deck nach 1 Karte durchsuchen und sie auf deine Hand nehmen. Mische anschließend dein Deck."
 			},
 		},
 	],
@@ -61,12 +61,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gust",
-				fr: "Tornade",
-				es: "Tornado",
-				it: "Raffica",
-				pt: "Lufada de Vento",
-				de: "Windstoß"
+				'en-us': "Gust",
+				'fr-fr': "Tornade",
+				'es-es': "Tornado",
+				'it-it': "Raffica",
+				'pt-br': "Lufada de Vento",
+				'de-de': "Windstoß"
 			},
 
 			damage: 40,
@@ -91,7 +91,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "This nuisance sneaks into people's homes, where it hides important things and scatters cotton all over the place.",
+		'en-us': "This nuisance sneaks into people's homes, where it hides important things and scatters cotton all over the place.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Gallade",
-		fr: "Gallame",
-		de: "Galagladi"
+		'en-us': "Gallade",
+		'fr-fr': "Gallame",
+		'de-de': "Galagladi"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kirlia",
-		fr: "Kirlia",
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia",
 	},
 
 	stage: "Stage2",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sonic Blade",
-				fr: "Lame sonique",
-				de: "Schallklinge"
+				'en-us': "Sonic Blade",
+				'fr-fr': "Lame sonique",
+				'de-de': "Schallklinge"
 			},
 			effect: {
-				en: "Put damage counters on the Defending Pokémon until it is 50 HP away from being Knocked Out. If you do, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Placez des marqueurs de dégât sur le Pokémon Défenseur jusqu'à ce qu'il soit à 50 PV d'être mis K.O. Votre adversaire échange alors le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
-				de: "Lege so viele Schadensmarken auf das Verteidigende Pokémon, dass es nur noch 50 Schadenspunkte davon entfernt ist, kampfunfähig zu sein. Wenn du das machst, tauscht dein Gegner das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Put damage counters on the Defending Pokémon until it is 50 HP away from being Knocked Out. If you do, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Placez des marqueurs de dégât sur le Pokémon Défenseur jusqu'à ce qu'il soit à 50 PV d'être mis K.O. Votre adversaire échange alors le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
+				'de-de': "Lege so viele Schadensmarken auf das Verteidigende Pokémon, dass es nur noch 50 Schadenspunkte davon entfernt ist, kampfunfähig zu sein. Wenn du das machst, tauscht dein Gegner das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 
 		},
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic Cut",
-				fr: "Coupe Psycho",
-				de: "Psychoklinge"
+				'en-us': "Psychic Cut",
+				'fr-fr': "Coupe Psycho",
+				'de-de': "Psychoklinge"
 			},
 			effect: {
-				en: "You may choose as many of your face-down Prize cards as you like and put them face up. If you do, this attack does 60 damage plus 20 more damage for each Prize card you chose. (These cards remain face up for the rest of the game.)",
-				fr: "Vous pouvez choisir autant de cartes Récompense se trouvant face cachée que vous le voulez et les retourner. Cette attaque inflige alors 60 dégâts plus 20 dégâts supplémentaires pour chaque carte Récompense choisie. (Ces cartes restent retournées pour le reste de la partie).",
-				de: "Du kannst beliebig viele deiner verdeckten Preise wählen und aufdecken. Wenn du das machst, fügt dieser Angriff 60 Schadenspunkte plus 20 weitere Schadenspunkte für jeden so gewählten Preis zu. (Die gewählten Preise werden nicht wieder verdeckt.)"
+				'en-us': "You may choose as many of your face-down Prize cards as you like and put them face up. If you do, this attack does 60 damage plus 20 more damage for each Prize card you chose. (These cards remain face up for the rest of the game.)",
+				'fr-fr': "Vous pouvez choisir autant de cartes Récompense se trouvant face cachée que vous le voulez et les retourner. Cette attaque inflige alors 60 dégâts plus 20 dégâts supplémentaires pour chaque carte Récompense choisie. (Ces cartes restent retournées pour le reste de la partie).",
+				'de-de': "Du kannst beliebig viele deiner verdeckten Preise wählen und aufdecken. Wenn du das machst, fügt dieser Angriff 60 Schadenspunkte plus 20 weitere Schadenspunkte für jeden so gewählten Preis zu. (Die gewählten Preise werden nicht wieder verdeckt.)"
 			},
 			damage: "60+",
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A master of courtesy and swordsmanship, it fights using extending swords on its elbows.",
+		'en-us': "A master of courtesy and swordsmanship, it fights using extending swords on its elbows.",
 	},
 
 	thirdParty: {

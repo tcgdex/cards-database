@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Arcanine",
-		fr: "Arcanin",
-		de: "Arkani"
+		'en-us': "Arcanine",
+		'fr-fr': "Arcanin",
+		'de-de': "Arkani"
 	},
 
 	illustrator: "Naoki Saito",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Growlithe",
-		fr: "Caninos"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharp Fang",
-				fr: "Croc aiguisé",
-				de: "Scharfe Fänge"
+				'en-us': "Sharp Fang",
+				'fr-fr': "Croc aiguisé",
+				'de-de': "Scharfe Fänge"
 			},
 
 			damage: 50,
@@ -51,9 +51,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Mane",
-				fr: "Crinière de feu",
-				de: "Flammenmähne"
+				'en-us': "Fire Mane",
+				'fr-fr': "Crinière de feu",
+				'de-de': "Flammenmähne"
 			},
 
 			damage: 90,
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This legendary Chinese Pokémon is considered magnificent. Many people are enchanted by its grand mane."
+		'en-us': "This legendary Chinese Pokémon is considered magnificent. Many people are enchanted by its grand mane."
 	},
 
 	variants: [

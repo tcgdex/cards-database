@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../HeartGold & SoulSilver'
 
 const hgss1: Set = {
 	id: "hgss1",
 
 	name: {
-		en: "HeartGold SoulSilver",
-		fr: "HeartGold SoulSilver",
-		es: "HeartGold SoulSilver",
-		it: "HeartGold SoulSilver",
-		de: "HeartGold SoulSilver",
-		pt: "HeartGold SoulSilver"
+		'en-us': "HeartGold SoulSilver",
+		'fr-fr': "HeartGold SoulSilver",
+		'es-es': "HeartGold SoulSilver",
+		'it-it': "HeartGold SoulSilver",
+		'de-de': "HeartGold SoulSilver",
+		'pt-br': "HeartGold SoulSilver"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const hgss1: Set = {
 
 	abbreviations: {
 		official: "HS",
-		fr: "HGS"
+		'fr-fr': "HGS"
 	},
 
 	thirdParty: {

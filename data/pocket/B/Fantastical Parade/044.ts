@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [834],
 
 	name: {
-		en: "Drednaw"
+		'en-us': "Drednaw"
 	},
 
 	illustrator: "kodama",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Chewtle"
+		'en-us': "Chewtle"
 	},
 
 	description: {
-		en: "Drednaw lurks along the shoreline. When prey\ncome to drink water, Drednaw stretches its neck\nout and chomps down on them."
+		'en-us': "Drednaw lurks along the shoreline. When prey\ncome to drink water, Drednaw stretches its neck\nout and chomps down on them."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Heavy Impact"
+			'en-us': "Heavy Impact"
 		},
 
 		damage: 120,

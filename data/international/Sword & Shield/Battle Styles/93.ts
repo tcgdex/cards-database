@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Murkrow",
-		fr: "Cornèbre",
-		es: "Murkrow",
-		it: "Murkrow",
-		pt: "Murkrow",
-		de: "Kramurx"
+		'en-us': "Murkrow",
+		'fr-fr': "Cornèbre",
+		'es-es': "Murkrow",
+		'it-it': "Murkrow",
+		'pt-br': "Murkrow",
+		'de-de': "Kramurx"
 	},
 
 	illustrator: "Aya Kusube",
@@ -22,32 +22,32 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Scout",
-			fr: "Espionnage",
-			es: "Explorar",
-			it: "Esplorazione",
-			pt: "Explorador",
-			de: "Späher"
+			'en-us': "Scout",
+			'fr-fr': "Espionnage",
+			'es-es': "Explorar",
+			'it-it': "Esplorazione",
+			'pt-br': "Explorador",
+			'de-de': "Späher"
 		},
 
 		effect: {
-			en: "Your opponent reveals their hand.",
-			fr: "Votre adversaire dévoile sa main.",
-			es: "Tu rival enseña las cartas de su mano.",
-			it: "Il tuo avversario mostra le carte che ha in mano.",
-			pt: "Seu oponente revela a própria mão.",
-			de: "Dein Gegner zeigt dir seine Handkarten."
+			'en-us': "Your opponent reveals their hand.",
+			'fr-fr': "Votre adversaire dévoile sa main.",
+			'es-es': "Tu rival enseña las cartas de su mano.",
+			'it-it': "Il tuo avversario mostra le carte che ha in mano.",
+			'pt-br': "Seu oponente revela a própria mão.",
+			'de-de': "Dein Gegner zeigt dir seine Handkarten."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Peck",
-			fr: "Picpic",
-			es: "Picotazo",
-			it: "Beccata",
-			pt: "Bicada",
-			de: "Pikser"
+			'en-us': "Peck",
+			'fr-fr': "Picpic",
+			'es-es': "Picotazo",
+			'it-it': "Beccata",
+			'pt-br': "Bicada",
+			'de-de': "Pikser"
 		},
 
 		damage: 20,
@@ -71,7 +71,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It searches for shiny things for its boss. Murkrow's presence is said to be unlucky, so many people detest it."
+		'en-us': "It searches for shiny things for its boss. Murkrow's presence is said to be unlucky, so many people detest it."
 	},
 
 	variants: [

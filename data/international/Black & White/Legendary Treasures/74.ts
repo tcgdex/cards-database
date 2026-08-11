@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Solosis",
+		'en-us': "Solosis",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Nap",
+				'en-us': "Nap",
 			},
 			effect: {
-				en: "Heal 20 damage from this Pokémon.",
+				'en-us': "Heal 20 damage from this Pokémon.",
 			},
 
 		},
@@ -42,7 +42,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
+				'en-us': "Ram",
 			},
 
 			damage: 20,
@@ -60,7 +60,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Because their bodies are enveloped in a special liquid, they are fine in any environment, no matter how severe.",
+		'en-us': "Because their bodies are enveloped in a special liquid, they are fine in any environment, no matter how severe.",
 	},
 
 	thirdParty: {

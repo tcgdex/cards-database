@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Alolan Vulpix",
-		fr: "Goupix d’Alola",
+		'en-us': "Alolan Vulpix",
+		'fr-fr': "Goupix d’Alola",
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Shiny rare",
@@ -26,12 +26,12 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Beacon",
-				fr: "Flambeau",
+				'en-us': "Beacon",
+				'fr-fr': "Flambeau",
 			},
 			effect: {
-				en: "Search your deck for up to 2 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
-				fr: "Cherchez jusqu’à 2 Pokémon dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for up to 2 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+				'fr-fr': "Cherchez jusqu’à 2 Pokémon dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -41,8 +41,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Icy Snow",
-				fr: "Verglas",
+				'en-us': "Icy Snow",
+				'fr-fr': "Verglas",
 			},
 
 			damage: 20,
@@ -62,7 +62,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It exhales air colder than -58 degrees Fahrenheit. Elderly people in Alola call this Pokémon by an older name—Keokeo.",
+		'en-us': "It exhales air colder than -58 degrees Fahrenheit. Elderly people in Alola call this Pokémon by an older name—Keokeo.",
 	},
 }
 

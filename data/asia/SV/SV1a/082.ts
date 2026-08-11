@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ウェルカモ"
+		'ja-jp': "ウェルカモ"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ひたすらに 浅瀬を 走り込んで 足腰を 鍛え 仲間同士で 足技の 華麗さを 競いあう。"
+		'ja-jp': "ひたすらに 浅瀬を 走り込んで 足腰を 鍛え 仲間同士で 足技の 華麗さを 競いあう。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "みずでっぽう"
+			'ja-jp': "みずでっぽう"
 		},
 
 		damage: 30
@@ -32,7 +32,7 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			ja: "スプラッシュ"
+			'ja-jp': "スプラッシュ"
 		},
 
 		damage: 50

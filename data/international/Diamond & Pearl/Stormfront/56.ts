@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Cherubi",
-		fr: "Ceribou",
-		de: "Kikugi"
+		'en-us': "Cherubi",
+		'fr-fr': "Ceribou",
+		'de-de': "Kikugi"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		fr: "Ceribou",
+		'fr-fr': "Ceribou",
 	},
 
 	stage: "Basic",
@@ -33,14 +33,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Nap",
-				fr: "Tit'sieste",
-				de: "Nickerchen"
+				'en-us': "Nap",
+				'fr-fr': "Tit'sieste",
+				'de-de': "Nickerchen"
 			},
 			effect: {
-				en: "Remove 2 damage counters from Cherubi.",
-				fr: "Retirez à Ceribou 2 marqueurs de dégâts.",
-				de: "Entferne 2 Schadensmarken von Kikugi."
+				'en-us': "Remove 2 damage counters from Cherubi.",
+				'fr-fr': "Retirez à Ceribou 2 marqueurs de dégâts.",
+				'de-de': "Entferne 2 Schadensmarken von Kikugi."
 			},
 
 		},
@@ -49,14 +49,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Bullet Seed",
-				fr: "Balle graine",
-				de: "Kugelsaat"
+				'en-us': "Bullet Seed",
+				'fr-fr': "Balle graine",
+				'de-de': "Kugelsaat"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 4 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 4 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "10x",
 
@@ -80,8 +80,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty.",
-		fr: "La petite boule renferme les délicieux nutriments sucrés dont il a besoin pour évoluer."
+		'en-us': "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty.",
+		'fr-fr': "La petite boule renferme les délicieux nutriments sucrés dont il a besoin pour évoluer."
 	},
 
 	thirdParty: {

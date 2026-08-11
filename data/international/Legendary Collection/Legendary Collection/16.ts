@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Muk"
+		'en-us': "Muk"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Grimer"
+		'en-us': "Grimer"
 	},
 
 	stage: "Stage1",
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Toxic Gas"
+				'en-us': "Toxic Gas"
 			},
 			effect: {
-				en: "Ignore all Pokémon Powers other than Toxic Gases. This power stops working while Muk is affected by a Special Condition."
+				'en-us': "Ignore all Pokémon Powers other than Toxic Gases. This power stops working while Muk is affected by a Special Condition."
 			}
 		},
 	],
@@ -45,10 +45,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sludge"
+				'en-us': "Sludge"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
 
 		},
@@ -64,7 +64,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison."
+		'en-us': "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Noibat",
-		fr: "Sonistrelle",
+		'en-us': "Noibat",
+		'fr-fr': "Sonistrelle",
 	},
 	illustrator: "Mizue",
 	rarity: "Shiny rare",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Agility",
-				fr: "Hâte",
+				'en-us': "Agility",
+				'fr-fr': "Hâte",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c’est face, évitez tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
+				'en-us': "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c’est face, évitez tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
 			},
 			damage: 10,
 
@@ -57,7 +57,7 @@ const card: Card = {
 
 
 	description: {
-		en: "They live in pitch black caves. Their enormous ears can emit ultrasonic waves of 200,000 hertz.",
+		'en-us': "They live in pitch black caves. Their enormous ears can emit ultrasonic waves of 200,000 hertz.",
 	},
 }
 

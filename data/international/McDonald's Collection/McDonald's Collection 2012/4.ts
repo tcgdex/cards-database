@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2012'
 
 const card: Card = {
@@ -9,33 +9,33 @@ const card: Card = {
 	dexId: [499],
 
 	description: {
-		en: "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke."
+		'en-us': "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Flame Charge",
-			fr: "Nitrocharge"
+			'en-us': "Flame Charge",
+			'fr-fr': "Nitrocharge"
 		},
 
 		effect: {
-			en: "Search your deck for a Fire Energy card and attach it to this Pokémon. Shuffle your deck afterward.",
-			fr: "Cherchez une carte Énergie  dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck."
+			'en-us': "Search your deck for a Fire Energy card and attach it to this Pokémon. Shuffle your deck afterward.",
+			'fr-fr': "Cherchez une carte Énergie  dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck."
 		}
 	}, {
 		name: {
-			en: "Heat Crash",
-			fr: "Tacle Feu"
+			'en-us': "Heat Crash",
+			'fr-fr': "Tacle Feu"
 		},
 
 		damage: 50
 	}],
 
 	name: {
-		en: "Pignite",
-		fr: "Grotichon"
+		'en-us': "Pignite",
+		'fr-fr': "Grotichon"
 	},
 
 	rarity: "None",

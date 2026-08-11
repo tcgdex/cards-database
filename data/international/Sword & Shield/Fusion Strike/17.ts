@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Trevenant",
-		fr: "Desséliande",
-		es: "Trevenant",
-		it: "Trevenant",
-		pt: "Trevenant",
-		de: "Trombork"
+		'en-us': "Trevenant",
+		'fr-fr': "Desséliande",
+		'es-es': "Trevenant",
+		'it-it': "Trevenant",
+		'pt-br': "Trevenant",
+		'de-de': "Trombork"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Phantump",
-		fr: "Brocélôme",
-		es: "Phantump",
-		it: "Phantump",
-		pt: "Phantump",
-		de: "Paragoni"
+		'en-us': "Phantump",
+		'fr-fr': "Brocélôme",
+		'es-es': "Phantump",
+		'it-it': "Phantump",
+		'pt-br': "Phantump",
+		'de-de': "Paragoni"
 	},
 
 	stage: "Stage1",
@@ -40,19 +40,19 @@ const card: Card = {
 	illustrator: "Narumi Sato",
 
 	description: {
-		en: "Small roots that extend from the tips of this Pokémon's feet can tie into the trees of the forest and give Trevenant control over them."
+		'en-us': "Small roots that extend from the tips of this Pokémon's feet can tie into the trees of the forest and give Trevenant control over them."
 	},
 
 	attacks: [{
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Gentle Slap",
-			fr: "Gifle Douce",
-			de: "Sanfter Hieb",
-			es: "Bofetada Gentil",
-			pt: "Tapinha",
-			it: "Schiaffetto"
+			'en-us': "Gentle Slap",
+			'fr-fr': "Gifle Douce",
+			'de-de': "Sanfter Hieb",
+			'es-es': "Bofetada Gentil",
+			'pt-br': "Tapinha",
+			'it-it': "Schiaffetto"
 		},
 
 		damage: 40
@@ -60,12 +60,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Wood Hammer",
-			fr: "Martobois",
-			de: "Holzhammer",
-			es: "Mazazo",
-			pt: "Martelo de Madeira",
-			it: "Mazzuolegno"
+			'en-us': "Wood Hammer",
+			'fr-fr': "Martobois",
+			'de-de': "Holzhammer",
+			'es-es': "Mazazo",
+			'pt-br': "Martelo de Madeira",
+			'it-it': "Mazzuolegno"
 		},
 
 		damage: 90

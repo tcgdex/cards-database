@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒスイ ウォーグル",
+		'ja-jp': "ヒスイ ウォーグル",
 	},
 
 	illustrator: "Yuu Nishida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "鬼気迫る 鬨の声を 上げ 狩りをする 猛き 大鳥。 湖水に 衝撃波を 放ち 水面に 浮かびし 獲物を 捕る。",
+		'ja-jp': "鬼気迫る 鬨の声を 上げ 狩りをする 猛き 大鳥。 湖水に 衝撃波を 放ち 水面に 浮かびし 獲物を 捕る。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 40,
 			cost: [],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "70×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数×70ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数×70ダメージ。",
 			},
 		},
 	],
@@ -51,7 +51,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ワシボン",
+		'ja-jp': "ワシボン",
 	},
 
 	retreat: 1,

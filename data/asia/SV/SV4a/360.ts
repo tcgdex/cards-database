@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コライドンex"
+		'ja-jp': "コライドンex"
 	},
 
 	illustrator: "aky CG Works",
@@ -19,11 +19,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ディノクライ"
+			'ja-jp': "ディノクライ"
 		},
 
 		effect: {
-			ja: "自分の番に1回使えて、使ったなら、番は終わる。自分のトラッシュから「基本エネルギー」を2枚まで選び、自分のタイプのたねポケモンに好きなようにつける。"
+			'ja-jp': "自分の番に1回使えて、使ったなら、番は終わる。自分のトラッシュから「基本エネルギー」を2枚まで選び、自分のタイプのたねポケモンに好きなようにつける。"
 		}
 	}],
 
@@ -31,13 +31,13 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			ja: "ワイルドインパクト"
+			'ja-jp': "ワイルドインパクト"
 		},
 
 		damage: 220,
 
 		effect: {
-			ja: "次の自分の番、このポケモンはワザが使えない。"
+			'ja-jp': "次の自分の番、このポケモンはワザが使えない。"
 		}
 	}],
 

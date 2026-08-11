@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ランターン",
+		'ja-jp': "ランターン",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "強い 光を 放ち 獲物の 目を くらませる。 隙が できたら 電撃を お見舞いする。",
+		'ja-jp': "強い 光を 放ち 獲物の 目を くらませる。 隙が できたら 電撃を お見舞いする。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "サルベージ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュにあるグッズを4枚、相手に見せてから、山札にもどして切る。",
+				'ja-jp': "自分のトラッシュにあるグッズを4枚、相手に見せてから、山札にもどして切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チョンチー",
+		'ja-jp': "チョンチー",
 	},
 
 	retreat: 2,

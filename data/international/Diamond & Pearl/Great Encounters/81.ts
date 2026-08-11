@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Porygon",
-		fr: "Porygon",
-		de: "Porygon"
+		'en-us': "Porygon",
+		'fr-fr': "Porygon",
+		'de-de': "Porygon"
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Calculate",
-				fr: "Calculer",
-				de: "Berechnen"
+				'en-us': "Calculate",
+				'fr-fr': "Calculer",
+				'de-de': "Berechnen"
 			},
 			effect: {
-				en: "Look at the top 3 cards of your deck and put them back on top of your deck in any order.",
-				fr: "Regardez les 3 cartes du dessus de votre deck et replacez-les au dessus de votre deck dans n'importe quel ordre.",
-				de: "Schau dir die obersten 3 Karten deines Decks an und lege sie in beliebiger Reihenfolge auf dein Deck zurück."
+				'en-us': "Look at the top 3 cards of your deck and put them back on top of your deck in any order.",
+				'fr-fr': "Regardez les 3 cartes du dessus de votre deck et replacez-les au dessus de votre deck dans n'importe quel ordre.",
+				'de-de': "Schau dir die obersten 3 Karten deines Decks an und lege sie in beliebiger Reihenfolge auf dein Deck zurück."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharpen",
-				fr: "Affûtage",
-				de: "Schärfer"
+				'en-us': "Sharpen",
+				'fr-fr': "Affûtage",
+				'de-de': "Schärfer"
 			},
 
 			damage: 20,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The world's first artificially created Pokémon. It can travel through electronic space.",
+		'en-us': "The world's first artificially created Pokémon. It can travel through electronic space.",
 	},
 
 	thirdParty: {

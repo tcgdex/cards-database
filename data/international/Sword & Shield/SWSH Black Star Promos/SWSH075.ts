@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
@@ -7,11 +7,11 @@ const card: Card = {
 	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
 
 	name: {
-		en: "Special Delivery Charizard"
+		'en-us': "Special Delivery Charizard"
 	},
 
 	description: {
-		en: "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames."
+		'en-us': "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames."
 	},
 
 	rarity: "Promo",
@@ -20,7 +20,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Charmeleon"
+		'en-us': "Charmeleon"
 	},
 
 	stage: "Stage2",
@@ -29,21 +29,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Happy Delivery"
+			'en-us': "Happy Delivery"
 		},
 
 		effect: {
-			en: "Search your deck for up to 2 Item cards, reveal them, and put them into your hand. Then, shuffle your deck."
+			'en-us': "Search your deck for up to 2 Item cards, reveal them, and put them into your hand. Then, shuffle your deck."
 		}
 	}, {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Flamethrower"
+			'en-us': "Flamethrower"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon."
+			'en-us': "Discard an Energy from this Pokémon."
 		},
 
 		damage: 160

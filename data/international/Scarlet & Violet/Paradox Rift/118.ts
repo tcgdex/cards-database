@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Yveltal",
-		fr: "Yveltal",
-		es: "Yveltal",
-		it: "Yveltal",
-		pt: "Yveltal",
-		de: "Yveltal"
+		'en-us': "Yveltal",
+		'fr-fr': "Yveltal",
+		'es-es': "Yveltal",
+		'it-it': "Yveltal",
+		'pt-br': "Yveltal",
+		'de-de': "Yveltal"
 	},
 
 	rarity: "Rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Cross-Cut",
-			fr: "Coupe Transversale",
-			es: "Atajar",
-			it: "Fendente Incrociato",
-			pt: "Corte em Cruz",
-			de: "Überkreuzzerschneider"
+			'en-us': "Cross-Cut",
+			'fr-fr': "Coupe Transversale",
+			'es-es': "Atajar",
+			'it-it': "Fendente Incrociato",
+			'pt-br': "Corte em Cruz",
+			'de-de': "Überkreuzzerschneider"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 60 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 60 dégâts supplémentaires.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 60 puntos de daño más.",
-			it: "Se il Pokémon attivo del tuo avversario è un Pokémon Evoluzione, questo attacco infligge 60 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon de Evolução, este ataque causará 60 pontos de dano a mais.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 60 Schadenspunkte mehr zu."
+			'en-us': "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 60 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 60 dégâts supplémentaires.",
+			'es-es': "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 60 puntos de daño más.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon Evoluzione, questo attacco infligge 60 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon de Evolução, este ataque causará 60 pontos de dano a mais.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 60 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
@@ -46,21 +46,21 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Dark Edge",
-			fr: "Lame Obscurité",
-			es: "Filo Siniestro",
-			it: "Lama Oscura",
-			pt: "Gume Sombrio",
-			de: "Dunkelklinge"
+			'en-us': "Dark Edge",
+			'fr-fr': "Lame Obscurité",
+			'es-es': "Filo Siniestro",
+			'it-it': "Lama Oscura",
+			'pt-br': "Gume Sombrio",
+			'de-de': "Dunkelklinge"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte uma Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 120
@@ -82,7 +82,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more.",
+		'en-us': "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more.",
 	},
 
 	variants: [

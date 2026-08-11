@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Umbreon ex",
+		'ja-jp': "Umbreon ex",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "暗いリング",
+				'ja-jp': "暗いリング",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前に）、あなたがあなたの手からUmbreon Exをプレイするとき、あなたのポカモンの1つを進化させるとき、あなたの対戦相手のベンチされたポカモンの1つのスイッチ1を防御するポカモンの1つと、対戦相手は、防御するポカモンを選択して切り替えます。",
+				'ja-jp': "ターン中（攻撃の前に）、あなたがあなたの手からUmbreon Exをプレイするとき、あなたのポカモンの1つを進化させるとき、あなたの対戦相手のベンチされたポカモンの1つのスイッチ1を防御するポカモンの1つと、対戦相手は、防御するポカモンを選択して切り替えます。",
 			},
 		}],
 
@@ -29,17 +29,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ブラッククライ",
+				'ja-jp': "ブラッククライ",
 			},
 			effect: {
-				ja: "防御するポケモンは、相手の次のターン中にポケパワーを退却したり、使用したりすることはできません。",
+				'ja-jp': "防御するポケモンは、相手の次のターン中にポケパワーを退却したり、使用したりすることはできません。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Darkness", "Colorless", "Colorless"],
 			name: {
-				ja: "闇の牙",
+				'ja-jp': "闇の牙",
 			},
 			damage: 60,
 		},

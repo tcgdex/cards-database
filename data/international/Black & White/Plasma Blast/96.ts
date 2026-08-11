@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Virizion-EX",
-		fr: "Viridium EX",
-		es: "Virizion-EX",
-		it: "Virizion-EX",
-		pt: "Virizion-EX",
-		de: "Viridium-EX"
+		'en-us': "Virizion-EX",
+		'fr-fr': "Viridium EX",
+		'es-es': "Virizion-EX",
+		'it-it': "Virizion-EX",
+		'pt-br': "Virizion-EX",
+		'de-de': "Viridium-EX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Verdant Wind",
-				fr: "Vent Verdoyant",
-				es: "Viento Verde Viento Verdoso",
-				it: "Vento Rigoglioso",
-				pt: "Vento Verdejante",
-				de: "Mahdwind"
+				'en-us': "Verdant Wind",
+				'fr-fr': "Vent Verdoyant",
+				'es-es': "Viento Verde Viento Verdoso",
+				'it-it': "Vento Rigoglioso",
+				'pt-br': "Vento Verdejante",
+				'de-de': "Mahdwind"
 			},
 			effect: {
-				en: "Each of your Pokémon that has any Grass Energy attached to it can’t be affected by any Special Conditions. (Remove any Special Conditions affecting those Pokémon.)",
-				fr: "Chacun de vos Pokémon auquel de l’Énergie Grass est attachée ne peut être affecté par aucun État Spécial. (Retirez tous les États Spéciaux affectant les Pokémon concernés.)",
-				es: "Cada uno de tus Pokémon que tenga cualquier Energía Grass unida a él no puede verse afectado por ninguna Condición Especial. (Elimina cualquier Condición Especial que afecte a esos Pokémon.)",
-				it: "Nessuno dei tuoi Pokémon che ha delle Energie Grass assegnate può essere influenzato da condizioni speciali (rimuovi tutte le condizioni speciali che influenzano tali Pokémon).",
-				pt: "Cada um de seus Pokémon que possuir qualquer Energia Grass ligado a ele não poderá ser afetado por nenhuma Condição Especial. (Remova quaisquer Condições Especiais que estejam afetando estes Pokémon.)",
-				de: "Jedes deiner Pokémon, an das Grass-Energie angelegt ist, kann nicht von Speziellen Zuständen betroffen werden. (Spezielle Zustände, von denen diese Pokémon betroffen sind, verlieren ihre Wirkung.)"
+				'en-us': "Each of your Pokémon that has any Grass Energy attached to it can’t be affected by any Special Conditions. (Remove any Special Conditions affecting those Pokémon.)",
+				'fr-fr': "Chacun de vos Pokémon auquel de l’Énergie Grass est attachée ne peut être affecté par aucun État Spécial. (Retirez tous les États Spéciaux affectant les Pokémon concernés.)",
+				'es-es': "Cada uno de tus Pokémon que tenga cualquier Energía Grass unida a él no puede verse afectado por ninguna Condición Especial. (Elimina cualquier Condición Especial que afecte a esos Pokémon.)",
+				'it-it': "Nessuno dei tuoi Pokémon che ha delle Energie Grass assegnate può essere influenzato da condizioni speciali (rimuovi tutte le condizioni speciali che influenzano tali Pokémon).",
+				'pt-br': "Cada um de seus Pokémon que possuir qualquer Energia Grass ligado a ele não poderá ser afetado por nenhuma Condição Especial. (Remova quaisquer Condições Especiais que estejam afetando estes Pokémon.)",
+				'de-de': "Jedes deiner Pokémon, an das Grass-Energie angelegt ist, kann nicht von Speziellen Zuständen betroffen werden. (Spezielle Zustände, von denen diese Pokémon betroffen sind, verlieren ihre Wirkung.)"
 			},
 		},
 	],
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Emerald Slash",
-				fr: "Tranche Émeraude",
+				'en-us': "Emerald Slash",
+				'fr-fr': "Tranche Émeraude",
 			},
 			effect: {
-				en: "You may search your deck for 2 Grass Energy cards and attach them to 1 of your Benched Pokémon. Shuffle your deck afterward.",
-				fr: "Vous pouvez chercher 2 cartes Énergie Grass dans votre deck et les attacher à 1 de vos Pokémon de Banc. Mélangez ensuite votre deck.",
+				'en-us': "You may search your deck for 2 Grass Energy cards and attach them to 1 of your Benched Pokémon. Shuffle your deck afterward.",
+				'fr-fr': "Vous pouvez chercher 2 cartes Énergie Grass dans votre deck et les attacher à 1 de vos Pokémon de Banc. Mélangez ensuite votre deck.",
 			},
 			damage: 50,
 

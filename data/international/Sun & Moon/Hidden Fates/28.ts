@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Koffing",
-		fr: "Smogo",
+		'en-us': "Koffing",
+		'fr-fr': "Smogo",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
 			},
 
 			damage: 20,
@@ -49,7 +49,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its thin, balloon-like body is inflated by horribly toxic gases. It reeks when it is nearby.",
+		'en-us': "Its thin, balloon-like body is inflated by horribly toxic gases. It reeks when it is nearby.",
 	},
 
 	thirdParty: {

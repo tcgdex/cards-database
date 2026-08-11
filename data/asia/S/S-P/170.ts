@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴリランダーV",
+		'ja-jp': "ゴリランダーV",
 		'zh-tw': "月月熊V",
 	},
 
@@ -18,13 +18,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ドレインパンチ",
+				'ja-jp': "ドレインパンチ",
 				'zh-tw': "泥炭肩膀",
 			},
 			damage: 60,
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「30」回復する。",
+				'ja-jp': "このポケモンのHPを「30」回復する。",
 				'zh-tw': "減少這隻寶可夢身上放置的傷害指示物的數量×10點傷害。",
 			},
 		},

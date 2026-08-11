@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤミカラス",
+		'ja-jp': "ヤミカラス",
 	},
 
 	illustrator: "Sekio",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "日暮れに 目覚め 夕闇を 飛ぶ。 ヤミカラスが 飛ぶまでに 家に 帰れ という ことわざも あるぞ。",
+		'ja-jp': "日暮れに 目覚め 夕闇を 飛ぶ。 ヤミカラスが 飛ぶまでに 家に 帰れ という ことわざも あるぞ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Darkness"],
 			effect: {
-				ja: "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+				'ja-jp': "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
 			},
 		},
 	],

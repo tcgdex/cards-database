@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Tympole",
-		fr: "Tritonde",
-		es: "Tympole",
-		it: "Tympole",
-		pt: "Tympole",
-		de: "Schallquap"
+		'en-us': "Tympole",
+		'fr-fr': "Tritonde",
+		'es-es': "Tympole",
+		'it-it': "Tympole",
+		'pt-br': "Tympole",
+		'de-de': "Schallquap"
 	},
 
 	illustrator: "Midori Harada",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Bubble",
-				fr: "Écume",
+				'en-us': "Bubble",
+				'fr-fr': "Écume",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "By vibrating its cheeks, it emits sound waves imperceptible to humans. It uses the rhythm of these sounds to talk.",
+		'en-us': "By vibrating its cheeks, it emits sound waves imperceptible to humans. It uses the rhythm of these sounds to talk.",
 	},
 
 	thirdParty: {

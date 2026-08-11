@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マンムー",
+		'ja-jp': "マンムー",
 	},
 
 	illustrator: "Takumi Wada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "１万年前の 氷の 下から 発見されたことも あるほど 大昔から いた ポケモン。",
+		'ja-jp': "１万年前の 氷の 下から 発見されたことも あるほど 大昔から いた ポケモン。",
 	},
 
 	stage: "Stage2",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "イノムー",
+		'ja-jp': "イノムー",
 	},
 
 	retreat: 4,

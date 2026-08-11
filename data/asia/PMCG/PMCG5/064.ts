@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マチスのオニドリル",
+		'ja-jp': "マチスのオニドリル",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "繰り返しドリル",
+				'ja-jp': "繰り返しドリル",
 			},
 			effect: {
-				ja: "5枚のコインをひっくり返します。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "5枚のコインをひっくり返します。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "クラッチ",
+				'ja-jp': "クラッチ",
 			},
 			effect: {
-				ja: "防御するポケモンは、相手の次のターン中に退却することはできません。",
+				'ja-jp': "防御するポケモンは、相手の次のターン中に退却することはできません。",
 			},
 			damage: 30,
 		},

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [138],
 
 	name: {
-		en: "Omanyte"
+		'en-us': "Omanyte"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Helix Fossil"
+		'en-us': "Helix Fossil"
 	},
 
 	description: {
-		en: "Because some Omanyte manage to escape after\nbeing restored or are released into the wild by\npeople, this species is becoming a problem."
+		'en-us': "Because some Omanyte manage to escape after\nbeing restored or are released into the wild by\npeople, this species is becoming a problem."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Water Gun"
+			'en-us': "Water Gun"
 		},
 
 		damage: 40,

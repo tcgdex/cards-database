@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナマコブシ",
+		'ja-jp': "ナマコブシ",
 	},
 
 	illustrator: "You Iribi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ビーチなど 浅い 海に 棲む。 身体から 体内器官を だして 餌を 捕ったり 敵と 戦う。",
+		'ja-jp': "ビーチなど 浅い 海に 棲む。 身体から 体内器官を だして 餌を 捕ったり 敵と 戦う。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "とびだすなかみ" },
 			effect: {
-				ja: "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けてきぜつしたとき、ワザを使ったポケモンにダメカンを6個のせる。",
+				'ja-jp': "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けてきぜつしたとき、ワザを使ったポケモンにダメカンを6個のせる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Water"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数x30ダメージ。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数x30ダメージ。",
 			},
 		},
 	],

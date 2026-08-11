@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パールル",
+		'ja-jp': "パールル",
 		'zh-tw': "珍珠貝",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "パールルの 真珠は とても 貴重。 シェルダーの 真珠の １０倍以上 価値が あるとも。",
+		'ja-jp': "パールルの 真珠は とても 貴重。 シェルダーの 真珠の １０倍以上 価値が あるとも。",
 		'zh-tw': "珍珠貝的珍珠非常貴重，據說價值是大舌貝所產珍珠的１０倍以上。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "はじけるあわ",
+				'ja-jp': "はじけるあわ",
 				'zh-tw': "泡沫濺射",
 			},
 			damage: 10,

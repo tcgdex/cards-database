@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モココ",
+		'ja-jp': "モココ",
 	},
 
 	illustrator: "saino misaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "ふかふかの 毛に 電気を ためこむ。 蓄えすぎて ところどころ つるつるに 禿げあがって しまった。",
+		'ja-jp': "ふかふかの 毛に 電気を ためこむ。 蓄えすぎて ところどころ つるつるに 禿げあがって しまった。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "エレキダイナモ" },
 			effect: {
-				ja: "自分の番に1回使える。自分のトラッシュから[雷]エネルギーを1枚選び、ベンチポケモンにつける。",
+				'ja-jp': "自分の番に1回使える。自分のトラッシュから[雷]エネルギーを1枚選び、ベンチポケモンにつける。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "メリープ",
+		'ja-jp': "メリープ",
 	},
 
 	retreat: 2,

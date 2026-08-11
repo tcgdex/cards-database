@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Darkrai",
-		fr: "Darkrai",
-		de: "Darkrai"
+		'en-us': "Darkrai",
+		'fr-fr': "Darkrai",
+		'de-de': "Darkrai"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Reach Over",
-				fr: "Bras tendu",
-				de: "Hinüberlehnen"
+				'en-us': "Reach Over",
+				'fr-fr': "Bras tendu",
+				'de-de': "Hinüberlehnen"
 			},
 			effect: {
-				en: "Search your deck for an Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une carte Énergie, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach einer Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+				'en-us': "Search your deck for an Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck une carte Énergie, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach einer Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Darkness Pursuit",
-				fr: "Poursuite obscure",
-				de: "Finstere Jagd"
+				'en-us': "Darkness Pursuit",
+				'fr-fr': "Poursuite obscure",
+				'de-de': "Finstere Jagd"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Cresselia, this attack's base damage is 100.",
-				fr: "Si le Pokémon Défenseur est Cresselia, les dégâts de base de cette attaque sont de 100.",
-				de: "Wenn das Verteidigende Pokémon Cresselia ist, beträgt der Grundschaden dieses Angriffs 100 Schadenspunkte."
+				'en-us': "If the Defending Pokémon is Cresselia, this attack's base damage is 100.",
+				'fr-fr': "Si le Pokémon Défenseur est Cresselia, les dégâts de base de cette attaque sont de 100.",
+				'de-de': "Wenn das Verteidigende Pokémon Cresselia ist, beträgt der Grundschaden dieses Angriffs 100 Schadenspunkte."
 			},
 			damage: 50,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
+		'en-us': "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
 	},
 
 	thirdParty: {

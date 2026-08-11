@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ボルトロス",
+		'ja-jp': "ボルトロス",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "尻尾の トゲから 電撃を 撃ち出す。 イッシュ地方の 空を 飛び回り 雷を 落とす。",
+		'ja-jp': "尻尾の トゲから 電撃を 撃ち出す。 イッシュ地方の 空を 飛び回り 雷を 落とす。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチに「トルネロス」がいるなら、50ダメージ追加。",
+				'ja-jp': "自分のベンチに「トルネロス」がいるなら、50ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "自分のベンチポケモン1匹にも、40ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "自分のベンチポケモン1匹にも、40ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

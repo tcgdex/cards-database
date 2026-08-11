@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Gabite",
-		fr: "Carmache",
-		de: "Knarksel"
+		'en-us': "Gabite",
+		'fr-fr': "Carmache",
+		'de-de': "Knarksel"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gible",
-		fr: "Griknot"
+		'en-us': "Gible",
+		'fr-fr': "Griknot"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Healing Scale",
-				fr: "Écaille guérisseuse",
-				de: "Heilschuppe"
+				'en-us': "Healing Scale",
+				'fr-fr': "Écaille guérisseuse",
+				'de-de': "Heilschuppe"
 			},
 			effect: {
-				en: "Remove 1 damage counter from each of your Pokémon.",
-				fr: "Retirez à chacun de vos Pokémon 1 marqueur de dégât.",
-				de: "Entferne 1 Schadensmarke von jedem deiner Pokémon."
+				'en-us': "Remove 1 damage counter from each of your Pokémon.",
+				'fr-fr': "Retirez à chacun de vos Pokémon 1 marqueur de dégât.",
+				'de-de': "Entferne 1 Schadensmarke von jedem deiner Pokémon."
 			},
 
 		},
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sand Tomb",
-				fr: "Tombe de sable",
-				de: "Sandgrab"
+				'en-us': "Sand Tomb",
+				'fr-fr': "Tombe de sable",
+				'de-de': "Sandgrab"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
-				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				'de-de': "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 30,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest."
+		'en-us': "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest."
 	},
 
 	variants: [

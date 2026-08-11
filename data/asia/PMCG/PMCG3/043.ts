@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カイリュー",
+		'ja-jp': "カイリュー",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "ステップインします",
+				'ja-jp': "ステップインします",
 			},
 			effect: {
-				ja: "ターン中に<em>（攻撃の前）</me>、ドラゴナイトがベンチにある場合、アクティブなポケモンに切り替えることができます。",
+				'ja-jp': "ターン中に<em>（攻撃の前）</me>、ドラゴナイトがベンチにある場合、アクティブなポケモンに切り替えることができます。",
 			},
 		}],
 
@@ -30,10 +30,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "スラム",
+				'ja-jp': "スラム",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の40回のダメージ倍になります。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の40回のダメージ倍になります。",
 			},
 
 		},

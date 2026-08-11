@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Emboar",
-		fr: "Roitiflam",
-		es: "Emboar",
-		it: "Emboar",
-		pt: "Emboar",
-		de: "Flambirex"
+		'en-us': "Emboar",
+		'fr-fr': "Roitiflam",
+		'es-es': "Emboar",
+		'it-it': "Emboar",
+		'pt-br': "Emboar",
+		'de-de': "Flambirex"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pignite",
-		fr: "Grotichon",
+		'en-us': "Pignite",
+		'fr-fr': "Grotichon",
 	},
 
 	stage: "Stage2",
@@ -41,8 +41,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Crash",
-				fr: "Tacle Feu",
+				'en-us': "Heat Crash",
+				'fr-fr': "Tacle Feu",
 			},
 
 			damage: 50,
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare Blitz",
-				fr: "Boutefeu",
+				'en-us': "Flare Blitz",
+				'fr-fr': "Boutefeu",
 			},
 			effect: {
-				en: "Discard all Fire Energy attached to this Pokémon.",
-				fr: "Défaussez toutes les Énergies Fire attachées à ce Pokémon.",
+				'en-us': "Discard all Fire Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez toutes les Énergies Fire attachées à ce Pokémon.",
 			},
 			damage: 150,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
+		'en-us': "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
 	},
 
 	thirdParty: {

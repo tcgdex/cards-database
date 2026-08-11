@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Swalot",
-		fr: "Avaltout",
-		es: "Swalot",
-		it: "Swalot",
-		pt: "Swalot",
-		de: "Schlukwech"
+		'en-us': "Swalot",
+		'fr-fr': "Avaltout",
+		'es-es': "Swalot",
+		'it-it': "Swalot",
+		'pt-br': "Swalot",
+		'de-de': "Schlukwech"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gulpin",
-		fr: "Gloupti",
-		es: "Gulpin",
-		it: "Gulpin",
-		pt: "Gulpin",
-		de: "Schluppuck"
+		'en-us': "Gulpin",
+		'fr-fr': "Gloupti",
+		'es-es': "Gulpin",
+		'it-it': "Gulpin",
+		'pt-br': "Gulpin",
+		'de-de': "Schluppuck"
 	},
 
 	stage: "Stage1",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Gas",
-				fr: "Gaz Toxik",
-				es: "Gas Venenoso",
-				it: "Velenogas",
-				pt: "Gás Venenoso",
-				de: "Giftwolke"
+				'en-us': "Poison Gas",
+				'fr-fr': "Gaz Toxik",
+				'es-es': "Gas Venenoso",
+				'it-it': "Velenogas",
+				'pt-br': "Gás Venenoso",
+				'de-de': "Giftwolke"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+				'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 			damage: 30,
 
@@ -69,20 +69,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swallow Up",
-				fr: "Engloutissement",
-				es: "Engullir",
-				it: "Inghiottire",
-				pt: "Engolir por Inteiro",
-				de: "Runterschlucken"
+				'en-us': "Swallow Up",
+				'fr-fr': "Engloutissement",
+				'es-es': "Engullir",
+				'it-it': "Inghiottire",
+				'pt-br': "Engolir por Inteiro",
+				'de-de': "Runterschlucken"
 			},
 			effect: {
-				en: "If, before doing damage, your opponent's Active Pokémon has fewer remaining HP than this Pokémon, this attack does 50 more damage.",
-				fr: "Si, avant d'infliger des dégâts, il reste moins de PV au Pokémon Actif de votre adversaire qu'à ce Pokémon, cette attaque inflige 50 dégâts supplémentaires.",
-				es: "Si, antes de infligir daño, al Pokémon Activo de tu rival le quedan menos PS que a este Pokémon, este ataque hace 50 puntos de daño más.",
-				it: "Se, prima di infliggere il danno, il Pokémon attivo del tuo avversario ha meno PS rimanenti di questo Pokémon, questo attacco infligge 50 danni in più.",
-				pt: "Se, antes de causar danos, o Pokémon Ativo do seu oponente tiver menos PS restante que este Pokémon, esse ataque causará 50 de danos adicionais.",
-				de: "Wenn, bevor du Schaden zufügst, das Aktive Pokémon deines Gegners weniger verbliebene KP hat als dieses Pokémon, fügt dieser Angriff 50 weitere Schadenspunkte zu."
+				'en-us': "If, before doing damage, your opponent's Active Pokémon has fewer remaining HP than this Pokémon, this attack does 50 more damage.",
+				'fr-fr': "Si, avant d'infliger des dégâts, il reste moins de PV au Pokémon Actif de votre adversaire qu'à ce Pokémon, cette attaque inflige 50 dégâts supplémentaires.",
+				'es-es': "Si, antes de infligir daño, al Pokémon Activo de tu rival le quedan menos PS que a este Pokémon, este ataque hace 50 puntos de daño más.",
+				'it-it': "Se, prima di infliggere il danno, il Pokémon attivo del tuo avversario ha meno PS rimanenti di questo Pokémon, questo attacco infligge 50 danni in più.",
+				'pt-br': "Se, antes de causar danos, o Pokémon Ativo do seu oponente tiver menos PS restante que este Pokémon, esse ataque causará 50 de danos adicionais.",
+				'de-de': "Wenn, bevor du Schaden zufügst, das Aktive Pokémon deines Gegners weniger verbliebene KP hat als dieses Pokémon, fügt dieser Angriff 50 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 
@@ -99,7 +99,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It swallows anything whole. It sweats toxic fluids from its follicles to douse foes.",
+		'en-us': "It swallows anything whole. It sweats toxic fluids from its follicles to douse foes.",
 	},
 
 	thirdParty: {

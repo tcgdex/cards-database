@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Crabrawler",
-		fr: "Crabagarre",
-		es: "Crabrawler",
-		it: "Crabrawler",
-		pt: "Crabrawler",
-		de: "Krabbox"
+		'en-us': "Crabrawler",
+		'fr-fr': "Crabagarre",
+		'es-es': "Crabrawler",
+		'it-it': "Crabrawler",
+		'pt-br': "Crabrawler",
+		'de-de': "Krabbox"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Vise Grip",
-			fr: "Force Poigne",
-			es: "Agarre",
-			it: "Presa",
-			pt: "Agarramento Compressor",
-			de: "Klammer"
+			'en-us': "Vise Grip",
+			'fr-fr': "Force Poigne",
+			'es-es': "Agarre",
+			'it-it': "Presa",
+			'pt-br': "Agarramento Compressor",
+			'de-de': "Klammer"
 		},
 
 		damage: 20
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Crabhammer",
-			fr: "Pince-Masse",
-			es: "Martillazo",
-			it: "Martellata",
-			pt: "Martelo Caranguejo",
-			de: "Krabbhammer"
+			'en-us': "Crabhammer",
+			'fr-fr': "Pince-Masse",
+			'es-es': "Martillazo",
+			'it-it': "Martellata",
+			'pt-br': "Martelo Caranguejo",
+			'de-de': "Krabbhammer"
 		},
 
 		damage: 50

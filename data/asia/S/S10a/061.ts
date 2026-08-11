@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒスイ ゾロアークV",
+		'ja-jp': "ヒスイ ゾロアークV",
 		'zh-tw': "洗翠 索羅亞克V",
 	},
 
@@ -18,25 +18,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "うつろがえり",
+				'ja-jp': "うつろがえり",
 				'zh-tw': "虛無折返",
 			},
 			damage: 30,
 			cost: [],
 			effect: {
-				ja: "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
 				'zh-tw': "若希望，將這隻寶可夢與備戰寶可夢互換。",
 			},
 		},
 		{
 			name: {
-				ja: "シャドーサイクロン",
+				'ja-jp': "シャドーサイクロン",
 				'zh-tw': "暗影旋風",
 			},
 			damage: 130,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。",
 				'zh-tw': "選擇1個這隻寶可夢身上附加的能量，改附於備戰寶可夢身上。",
 			},
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Farfetch'd",
-		fr: "Canarticho",
-		de: "Porenta"
+		'en-us': "Farfetch'd",
+		'fr-fr': "Canarticho",
+		'de-de': "Porenta"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hoard",
-				fr: "Faire des provisions",
-				de: "Hoard"
+				'en-us': "Hoard",
+				'fr-fr': "Faire des provisions",
+				'de-de': "Hoard"
 			},
 			effect: {
-				en: "Search your deck for up to 2 Pokémon Tool cards and attach them to any of your Pokémon (excluding Pokémon that already have a Pokémon Tool attached to them). Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck jusqu'à 2 cartes Outil Pokémon et attachez-les aux Pokémon de votre choix (sauf les Pokémon qui possèdent déjà une carte Outil Pokémon). Ensuite, mélangez votre deck.",
-				de: "Search your deck for up to 2 Pokémon Tool cards and attach them to any of your Pokémon (excluding Pokémon that already have a Pokémon Tool attached to them). Shuffle your deck afterward."
+				'en-us': "Search your deck for up to 2 Pokémon Tool cards and attach them to any of your Pokémon (excluding Pokémon that already have a Pokémon Tool attached to them). Shuffle your deck afterward.",
+				'fr-fr': "Cherchez dans votre deck jusqu'à 2 cartes Outil Pokémon et attachez-les aux Pokémon de votre choix (sauf les Pokémon qui possèdent déjà une carte Outil Pokémon). Ensuite, mélangez votre deck.",
+				'de-de': "Search your deck for up to 2 Pokémon Tool cards and attach them to any of your Pokémon (excluding Pokémon that already have a Pokémon Tool attached to them). Shuffle your deck afterward."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cross-Cut",
-				fr: "Coupe transversale",
-				de: "Cross-Cut"
+				'en-us': "Cross-Cut",
+				'fr-fr': "Coupe transversale",
+				'de-de': "Cross-Cut"
 			},
 			effect: {
-				en: "If the Defending Pokémon is an Evolved Pokémon, this attack does 10 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon Évolué, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
-				de: "If the Defending Pokémon is an Evolved Pokémon, this attack does 10 damage plus 20 more damage."
+				'en-us': "If the Defending Pokémon is an Evolved Pokémon, this attack does 10 damage plus 20 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon Évolué, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon is an Evolved Pokémon, this attack does 10 damage plus 20 more damage."
 			},
 			damage: "10+",
 

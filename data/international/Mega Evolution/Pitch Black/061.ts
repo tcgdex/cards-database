@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pitch Black"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shieldon",
-		fr: "Dinoclier",
-		es: "Shieldon",
+		'en-us': "Shieldon",
+		'fr-fr': "Dinoclier",
+		'es-es': "Shieldon",
 		'es-mx': "Shieldon",
-		de: "Schilterus",
-		it: "Shieldon",
-		pt: "Shieldon"
+		'de-de': "Schilterus",
+		'it-it': "Shieldon",
+		'pt-br': "Shieldon"
 	},
 
 	illustrator: "Kurata So",
@@ -22,20 +22,20 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Antique Armor Fossil"
+		'en-us': "Antique Armor Fossil"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Smithereen Smash",
-			fr: "Pulvérisation",
-			es: "Machaque",
+			'en-us': "Smithereen Smash",
+			'fr-fr': "Pulvérisation",
+			'es-es': "Machaque",
 			'es-mx': "Aplastamiento Total",
-			de: "Splitterschlag",
-			it: "Frammentazione",
-			pt: "Pancada Estilhaçante"
+			'de-de': "Splitterschlag",
+			'it-it': "Frammentazione",
+			'pt-br': "Pancada Estilhaçante"
 		},
 
 		cost: ["Metal", "Colorless"],
@@ -43,13 +43,13 @@ const card: Card = {
 		damage: 50,
 
 		effect: {
-			en: "Discard an Energy from your opponent's Active Pokémon.",
-			fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
-			es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
+			'en-us': "Discard an Energy from your opponent's Active Pokémon.",
+			'fr-fr': "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			'es-es': "Descarta 1 Energía del Pokémon Activo de tu rival.",
 			'es-mx': "Descarta 1 Energía del Pokémon Activo de tu rival.",
-			de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
-			it: "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
-			pt: "Descarte uma Energia do Pokémon Ativo do seu oponente."
+			'de-de': "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+			'it-it': "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			'pt-br': "Descarte uma Energia do Pokémon Ativo do seu oponente."
 		}
 	}],
 

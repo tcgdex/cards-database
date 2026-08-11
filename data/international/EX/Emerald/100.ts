@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Registeel ex",
-		fr: "Registeel ex",
-		de: "Registeel ex"
+		'en-us': "Registeel ex",
+		'fr-fr': "Registeel ex",
+		'de-de': "Registeel ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Block Signal",
-				fr: "Signal lumineux",
-				de: "Block Signal"
+				'en-us': "Block Signal",
+				'fr-fr': "Signal lumineux",
+				'de-de': "Block Signal"
 			},
 			effect: {
-				en: "If Regice ex is in play, flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Si Regice ex est en jeu, lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "If Regice ex is in play, flip a coin. If heads the Defending Pokémon is now Confused."
+				'en-us': "If Regice ex is in play, flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Si Regice ex est en jeu, lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "If Regice ex is in play, flip a coin. If heads the Defending Pokémon is now Confused."
 			},
 			damage: 10,
 
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wide Laser",
-				fr: "Laser de grande envergure",
-				de: "Wide Laser"
+				'en-us': "Wide Laser",
+				'fr-fr': "Laser de grande envergure",
+				'de-de': "Wide Laser"
 			},
 			effect: {
-				en: "Does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 20 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 20 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},

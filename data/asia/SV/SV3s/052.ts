@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Eelektross"
+		'id-id': "Eelektross"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Menggunakan kekuatan lengannya, Eelektross merayap keluar dari laut dan menyergap mangsa di tepi pantai. Pokémon ini menyeret mangsanya ke laut dalam sekejap."
+		'id-id': "Menggunakan kekuatan lengannya, Eelektross merayap keluar dari laut dan menyergap mangsa di tepi pantai. Pokémon ini menyeret mangsanya ke laut dalam sekejap."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			id: "Sengatan Absorpsi"
+			'id-id': "Sengatan Absorpsi"
 		},
 
 		effect: {
-			id: "Pilih 1 Pokémon Cadangan lawan, lalu tukar dengan Pokémon Bertarung. Setelah itu, berikan kerusakan sejumlah 60 kepada Pokémon Bertarung yang baru. Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon tersebut menjadi Lumpuh."
+			'id-id': "Pilih 1 Pokémon Cadangan lawan, lalu tukar dengan Pokémon Bertarung. Setelah itu, berikan kerusakan sejumlah 60 kepada Pokémon Bertarung yang baru. Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon tersebut menjadi Lumpuh."
 		},
 
 		cost: ["Lightning"]
 	}, {
 		name: {
-			id: "Head Bolt"
+			'id-id': "Head Bolt"
 		},
 
 		damage: 130,

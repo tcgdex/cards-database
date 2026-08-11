@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Mew",
-		fr: "Mew",
+		'en-us': "Mew",
+		'fr-fr': "Mew",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,8 +31,8 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psyshot",
-				fr: "Piqûre Psy",
+				'en-us': "Psyshot",
+				'fr-fr': "Piqûre Psy",
 			},
 
 			damage: 50,
@@ -50,7 +50,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Because it can use all kinds of moves, many scientists believe Mew to be the ancestor of Pokémon.",
+		'en-us': "Because it can use all kinds of moves, many scientists believe Mew to be the ancestor of Pokémon.",
 	},
 
 	thirdParty: {

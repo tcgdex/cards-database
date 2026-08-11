@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Double Colorless Energy",
+		'en-us': "Double Colorless Energy",
 	},
 
 	illustrator: "5ban Graphics",
@@ -13,7 +13,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		en: "Double Colorless Energy provides ColorlessColorless Energy."
+		'en-us': "Double Colorless Energy provides ColorlessColorless Energy."
 	},
 
 	thirdParty: {

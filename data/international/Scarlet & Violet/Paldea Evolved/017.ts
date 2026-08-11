@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Tissenboule",
-		en: "Tarountula",
-		es: "Tarountula",
-		it: "Tarountula",
-		pt: "Tarountula",
-		de: "Tarundel"
+		'fr-fr': "Tissenboule",
+		'en-us': "Tarountula",
+		'es-es': "Tarountula",
+		'it-it': "Tarountula",
+		'pt-br': "Tarountula",
+		'de-de': "Tarundel"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			fr: "Crochet",
-			en: "Hook",
-			es: "Garfio",
-			it: "Uncino",
-			pt: "Gancho",
-			de: "Haken"
+			'fr-fr': "Crochet",
+			'en-us': "Hook",
+			'es-es': "Garfio",
+			'it-it': "Uncino",
+			'pt-br': "Gancho",
+			'de-de': "Haken"
 		},
 
 		damage: 40
@@ -66,7 +66,7 @@ const card: Card = {
 	illustrator: "Mina Nakai",
 
 	description: {
-		en: "The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon's natural enemy.",
+		'en-us': "The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon's natural enemy.",
 	},
 }
 

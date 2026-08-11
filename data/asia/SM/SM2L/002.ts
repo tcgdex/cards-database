@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オーロット",
+		'ja-jp': "オーロット",
 	},
 
 	illustrator: "Hiroyuki Yamamoto",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "森を 荒らす者を 喰ってしまうと いわれる ポケモン。 森に 暮らす 生き物たちには とても 優しい。",
+		'ja-jp': "森を 荒らす者を 喰ってしまうと いわれる ポケモン。 森に 暮らす 生き物たちには とても 優しい。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手の手札を見て、その中にあるトレーナーズの枚数x30ダメージ。",
+				'ja-jp': "相手の手札を見て、その中にあるトレーナーズの枚数x30ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Grass", "Grass", "Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「30」回復する。",
+				'ja-jp': "このポケモンのHPを「30」回復する。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ボクレー",
+		'ja-jp': "ボクレー",
 	},
 
 	retreat: 2,

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Absol ex"
+		'id-id': "Absol ex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -17,21 +17,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Penglihatan Masa Depan"
+			'id-id': "Penglihatan Masa Depan"
 		},
 
 		effect: {
-			id: "Lihat 3 kartu dari atas Deck sendiri atau lawan, tukar urutan kartu sesukanya, lalu kembalikan ke atas Deck."
+			'id-id': "Lihat 3 kartu dari atas Deck sendiri atau lawan, tukar urutan kartu sesukanya, lalu kembalikan ke atas Deck."
 		},
 
 		cost: ["Darkness"]
 	}, {
 		name: {
-			id: "Cursed Slug"
+			'id-id': "Cursed Slug"
 		},
 
 		effect: {
-			id: "Jika jumlah Kartu Pegangan lawan adalah 3 lembar atau kurang, kerusakan yang diberikan bertambah sejumlah 120."
+			'id-id': "Jika jumlah Kartu Pegangan lawan adalah 3 lembar atau kurang, kerusakan yang diberikan bertambah sejumlah 120."
 		},
 
 		damage: "100+",

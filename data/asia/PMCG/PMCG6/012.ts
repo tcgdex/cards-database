@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サカキのニドリーナ",
+		'ja-jp': "サカキのニドリーナ",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "ポイズンスティングタックル",
+				'ja-jp': "ポイズンスティングタックル",
 			},
 			effect: {
-				ja: "GiovanniのNidorinaはそれ自体に20のダメージを与えます。コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。",
+				'ja-jp': "GiovanniのNidorinaはそれ自体に20のダメージを与えます。コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Grass", "Colorless", "Colorless"],
 			name: {
-				ja: "ボディスラム",
+				'ja-jp': "ボディスラム",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 20,
 		},

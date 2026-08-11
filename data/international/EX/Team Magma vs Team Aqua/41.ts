@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Jigglypuff",
-		fr: "Rondoudou",
-		de: "Pummeluff"
+		'en-us': "Jigglypuff",
+		'fr-fr': "Rondoudou",
+		'de-de': "Pummeluff"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Doubleslap",
-				fr: "Torgnoles",
-				de: "Doubleslap"
+				'en-us': "Doubleslap",
+				'fr-fr': "Torgnoles",
+				'de-de': "Doubleslap"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10×",
 
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rest",
-				fr: "Repos",
-				de: "Rest"
+				'en-us': "Rest",
+				'fr-fr': "Repos",
+				'de-de': "Rest"
 			},
 			effect: {
-				en: "Remove all Special Conditions and 3 damage counters from Jigglypuff (all if there are less than 3). Jigglypuff is now Asleep.",
-				fr: "Retirez à Rondoudou tous ses États Spéciaux ainsi que 3 marqueurs de dégât (si Rondoudou a moins de dégâts que cela, retirez-les lui tous). Rondoudou est maintenant Endormi.",
-				de: "Remove all Special Conditions and 3 damage counters from Jigglypuff (all if there are less than 3). Jigglypuff is now Asleep."
+				'en-us': "Remove all Special Conditions and 3 damage counters from Jigglypuff (all if there are less than 3). Jigglypuff is now Asleep.",
+				'fr-fr': "Retirez à Rondoudou tous ses États Spéciaux ainsi que 3 marqueurs de dégât (si Rondoudou a moins de dégâts que cela, retirez-les lui tous). Rondoudou est maintenant Endormi.",
+				'de-de': "Remove all Special Conditions and 3 damage counters from Jigglypuff (all if there are less than 3). Jigglypuff is now Asleep."
 			},
 
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Dratini δ",
-		fr: "Minidraco δ",
-		de: "Dratini"
+		'en-us': "Dratini δ",
+		'fr-fr': "Minidraco δ",
+		'de-de': "Dratini"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunder Wave",
-				fr: "Cage-éclair",
-				de: "Thunder Wave"
+				'en-us': "Thunder Wave",
+				'fr-fr': "Cage-éclair",
+				'de-de': "Thunder Wave"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Shaymin",
-		fr: "Shaymin",
-		de: "Shaymin"
+		'en-us': "Shaymin",
+		'fr-fr': "Shaymin",
+		'de-de': "Shaymin"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Growth",
-				fr: "Croissance",
-				de: "Growth"
+				'en-us': "Growth",
+				'fr-fr': "Croissance",
+				'de-de': "Growth"
 			},
 			effect: {
-				en: "Attach a Grass Energy card from your hand to Shaymin.",
-				fr: "Attachez à Shaymin une carte Énergie Grass de votre main",
-				de: "Attach a  Energy card from your hand to Shaymin."
+				'en-us': "Attach a Grass Energy card from your hand to Shaymin.",
+				'fr-fr': "Attachez à Shaymin une carte Énergie Grass de votre main",
+				'de-de': "Attach a  Energy card from your hand to Shaymin."
 			},
 
 		},
@@ -44,14 +44,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Air Slash",
-				fr: "Lame d'Air",
-				de: "Air Slash"
+				'en-us': "Air Slash",
+				'fr-fr': "Lame d'Air",
+				'de-de': "Air Slash"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard an Energy attached to Shaymin.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie attachée à Shaymin.",
-				de: "Flip a coin. If tails, discard all Energy attached to Shaymin."
+				'en-us': "Flip a coin. If tails, discard an Energy attached to Shaymin.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez une Énergie attachée à Shaymin.",
+				'de-de': "Flip a coin. If tails, discard all Energy attached to Shaymin."
 			},
 			damage: 40,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The flowers all over its body burst into bloom if it is lovingly hugged and senses gratitude."
+		'en-us': "The flowers all over its body burst into bloom if it is lovingly hugged and senses gratitude."
 	},
 
 	variants: [

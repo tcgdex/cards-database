@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Charmeleon",
-		de: "Glutexo"
+		'en-us': "Charmeleon",
+		'de-de': "Glutexo"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -23,7 +23,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmander",
+		'en-us': "Charmander",
 	},
 
 	stage: "Stage1",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Smokescreen",
-				de: "Smokescreen"
+				'en-us': "Smokescreen",
+				'de-de': "Smokescreen"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				de: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flip a coin. if tails, that attack does nothing."
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'de-de': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flip a coin. if tails, that attack does nothing."
 			},
 			damage: 10,
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fireworks",
-				de: "Fireworks"
+				'en-us': "Fireworks",
+				'de-de': "Fireworks"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Fire Energy card attached to Charmeleon.",
-				de: "Flip a coin. If tails, discard a  Energy card attached to Charmeleon."
+				'en-us': "Flip a coin. If tails, discard a Fire Energy card attached to Charmeleon.",
+				'de-de': "Flip a coin. If tails, discard a  Energy card attached to Charmeleon."
 			},
 			damage: 40,
 

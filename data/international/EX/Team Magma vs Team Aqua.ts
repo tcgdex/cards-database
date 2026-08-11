@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../EX'
 
 const ex4: Set = {
 	id: "ex4",
 
 	name: {
-		en: "Team Magma vs Team Aqua",
-		fr: "EX Team Magma vs Team Aqua",
-		it: "EX Team Magma vs Team Idro",
-		de: "EX Team Magma vs Team Aqua"
+		'en-us': "Team Magma vs Team Aqua",
+		'fr-fr': "EX Team Magma vs Team Aqua",
+		'it-it': "EX Team Magma vs Team Idro",
+		'de-de': "EX Team Magma vs Team Aqua"
 	},
 
 	serie: serie,
@@ -22,7 +22,7 @@ const ex4: Set = {
 
 	abbreviations: {
 		official: "MA",
-		fr: "M&A"
+		'fr-fr': "M&A"
 	},
 
 	thirdParty: {

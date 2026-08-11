@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2019'
 
 const card: Card = {
@@ -9,25 +9,25 @@ const card: Card = {
 	dexId: [52],
 
 	description: {
-		en: "When its delicate pride is wounded, or when the gold coin on its forehead is dirtied, it flies into a hysterical rage."
+		'en-us': "When its delicate pride is wounded, or when the gold coin on its forehead is dirtied, it flies into a hysterical rage."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Spoil the Fun"
+			'en-us': "Spoil the Fun"
 		},
 
 		damage: "10+",
 
 		effect: {
-			en: "If you go second, this attack does 60 more damage during your first turn."
+			'en-us': "If you go second, this attack does 60 more damage during your first turn."
 		}
 	}],
 
 	name: {
-		en: "Alolan Meowth"
+		'en-us': "Alolan Meowth"
 	},
 
 	rarity: "None",

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガマゲロゲ",
+		'ja-jp': "ガマゲロゲ",
 	},
 
 	illustrator: "Yukihiro Tada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "頭の コブから 神経を マヒさせる 液体を 飛ばす。 振動で 相手を 苦しめる。",
+		'ja-jp': "頭の コブから 神経を マヒさせる 液体を 飛ばす。 振動で 相手を 苦しめる。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "70x",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分の場の、ワザ「りんしょう」を持つポケモンの数×70ダメージ。",
+				'ja-jp': "自分の場の、ワザ「りんしょう」を持つポケモンの数×70ダメージ。",
 			},
 		},
 		{
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ガマガル",
+		'ja-jp': "ガマガル",
 	},
 
 	retreat: 3,

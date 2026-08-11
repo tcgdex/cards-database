@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Darumaka"
+		'id-id': "Darumaka"
 	},
 
 	illustrator: "osare",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Api yang membara di dalam tubuhnya menjadi sumber kekuatan Darumaka. Jika apinya mengecil, Pokémon ini jadi mengantuk."
+		'id-id': "Api yang membara di dalam tubuhnya menjadi sumber kekuatan Darumaka. Jika apinya mengecil, Pokémon ini jadi mengantuk."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Tenaga Super"
+			'id-id': "Tenaga Super"
 		},
 
 		damage: 10,
 		cost: ["Fire"]
 	}, {
 		name: {
-			id: "Serudukan Api"
+			'id-id': "Serudukan Api"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 20."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 20."
 		},
 
 		damage: 50,

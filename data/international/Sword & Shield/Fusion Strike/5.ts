@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Breloom",
-		fr: "Chapignon",
-		es: "Breloom",
-		it: "Breloom",
-		pt: "Breloom",
-		de: "Kapilz"
+		'en-us': "Breloom",
+		'fr-fr': "Chapignon",
+		'es-es': "Breloom",
+		'it-it': "Breloom",
+		'pt-br': "Breloom",
+		'de-de': "Kapilz"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Shroomish",
-		fr: "Balignon",
-		es: "Shroomish",
-		it: "Shroomish",
-		pt: "Shroomish",
-		de: "Knilz"
+		'en-us': "Shroomish",
+		'fr-fr': "Balignon",
+		'es-es': "Shroomish",
+		'it-it': "Shroomish",
+		'pt-br': "Shroomish",
+		'de-de': "Knilz"
 	},
 
 	stage: "Stage1",
@@ -40,19 +40,19 @@ const card: Card = {
 	illustrator: "Yukiko Baba",
 
 	description: {
-		en: "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores."
+		'en-us': "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores."
 	},
 
 	attacks: [{
 		cost: ["Grass"],
 
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			de: "Kopfnuss",
-			es: "Golpe Cabeza",
-			pt: "Cabeçada",
-			it: "Bottintesta"
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'de-de': "Kopfnuss",
+			'es-es': "Golpe Cabeza",
+			'pt-br': "Cabeçada",
+			'it-it': "Bottintesta"
 		},
 
 		damage: 30
@@ -60,23 +60,23 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			en: "Impact Blow",
-			fr: "Coup à Impact",
-			de: "Einschlag",
-			es: "Golpe Impactante",
-			pt: "Golpe Impactante",
-			it: "Colpoimpatto"
+			'en-us': "Impact Blow",
+			'fr-fr': "Coup à Impact",
+			'de-de': "Einschlag",
+			'es-es': "Golpe Impactante",
+			'pt-br': "Golpe Impactante",
+			'it-it': "Colpoimpatto"
 		},
 
 		damage: 150,
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use Impact Blow.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup à Impact.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon Einschlag nicht einsetzen.",
-			es: "Durante tu próximo turno, este Pokémon no puede usar Golpe Impactante.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Golpe Impactante.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Colpoimpatto."
+			'en-us': "During your next turn, this Pokémon can't use Impact Blow.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup à Impact.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon Einschlag nicht einsetzen.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede usar Golpe Impactante.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar Golpe Impactante.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Colpoimpatto."
 		}
 	}],
 

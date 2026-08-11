@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Alolan Sandshrew",
-		fr: "Sabelette d’Alola",
-		es: "Sandshrew de Alola",
-		it: "Sandshrew di Alola",
-		pt: "Sandshrew de Alola",
-		de: "Alola-Sandan"
+		'en-us': "Alolan Sandshrew",
+		'fr-fr': "Sabelette d’Alola",
+		'es-es': "Sandshrew de Alola",
+		'it-it': "Sandshrew di Alola",
+		'pt-br': "Sandshrew de Alola",
+		'de-de': "Alola-Sandan"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Run Around",
-				fr: "Course Effrénée",
-				es: "Correr Alrededor",
-				it: "Correre Intorno",
-				pt: "Zoar",
-				de: "Herumrennen"
+				'en-us': "Run Around",
+				'fr-fr': "Course Effrénée",
+				'es-es': "Correr Alrededor",
+				'it-it': "Correre Intorno",
+				'pt-br': "Zoar",
+				'de-de': "Herumrennen"
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec l’un de vos Pokémon de Banc.",
-				es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-				it: "Scambia questo Pokémon con uno della tua panchina.",
-				pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon avec l’un de vos Pokémon de Banc.",
+				'es-es': "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+				'it-it': "Scambia questo Pokémon con uno della tua panchina.",
+				'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+				'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 
 		},
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Claw",
-				fr: "Griffe Acier",
-				es: "Garra Metal",
-				it: "Ferrartigli",
-				pt: "Garra de Metal",
-				de: "Metallklaue"
+				'en-us': "Metal Claw",
+				'fr-fr': "Griffe Acier",
+				'es-es': "Garra Metal",
+				'it-it': "Ferrartigli",
+				'pt-br': "Garra de Metal",
+				'de-de': "Metallklaue"
 			},
 
 			damage: 20,
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "After fleeing a volcanic eruption, it ended up moving to an area of snowy mountains. Its ice shell is as hard as steel.",
+		'en-us': "After fleeing a volcanic eruption, it ended up moving to an area of snowy mountains. Its ice shell is as hard as steel.",
 	},
 
 	thirdParty: {

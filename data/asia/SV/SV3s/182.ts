@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Larvitar"
+		'id-id': "Larvitar"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -14,21 +14,21 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Larvitar terlahir di bawah tanah yang dalam. Untuk membentuk tubuhnya, Pokémon ini menjadi pupa setelah memakan habis segunung tanah."
+		'id-id': "Larvitar terlahir di bawah tanah yang dalam. Untuk membentuk tubuhnya, Pokémon ini menjadi pupa setelah memakan habis segunung tanah."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menohok"
+			'id-id': "Menohok"
 		},
 
 		damage: 10,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			id: "Menentang"
+			'id-id': "Menentang"
 		},
 
 		damage: 30,

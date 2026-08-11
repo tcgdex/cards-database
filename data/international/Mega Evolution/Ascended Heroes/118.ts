@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rolycoly",
-		fr: "Charbi",
-		es: "Rolycoly",
+		'en-us': "Rolycoly",
+		'fr-fr': "Charbi",
+		'es-es': "Rolycoly",
 		'es-mx': "Rolycoly",
-		de: "Klonkett",
-		it: "Rolycoly",
-		pt: "Rolycoly"
+		'de-de': "Klonkett",
+		'it-it': "Rolycoly",
+		'pt-br': "Rolycoly"
 	},
 
 	illustrator: "Kurata So",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Mud-Slap",
-			fr: "Coud'Boue",
-			es: "Bofetón Lodo",
+			'en-us': "Mud-Slap",
+			'fr-fr': "Coud'Boue",
+			'es-es': "Bofetón Lodo",
 			'es-mx': "Bofetón Lodo",
-			de: "Lehmschelle",
-			it: "Fangosberla",
-			pt: "Tapa de Lama"
+			'de-de': "Lehmschelle",
+			'it-it': "Fangosberla",
+			'pt-br': "Tapa de Lama"
 		},
 
 		damage: 20
@@ -48,7 +48,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Chunks of the surface of this Pokémon’s body that have grown old and flaked off have long been used for fuel as an alternative to coal.",
+		'en-us': "Chunks of the surface of this Pokémon’s body that have grown old and flaked off have long been used for fuel as an alternative to coal.",
 	},
 
 	variants: [

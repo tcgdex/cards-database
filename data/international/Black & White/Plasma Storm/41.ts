@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Beartic",
-		fr: "Polagriffe",
-		es: "Beartic",
-		it: "Beartic",
-		pt: "Beartic",
-		de: "Siberio"
+		'en-us': "Beartic",
+		'fr-fr': "Polagriffe",
+		'es-es': "Beartic",
+		'it-it': "Beartic",
+		'pt-br': "Beartic",
+		'de-de': "Siberio"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cubchoo",
-		fr: "Polarhume",
+		'en-us': "Cubchoo",
+		'fr-fr': "Polarhume",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Powerful Rage",
-				fr: "Rage Massive",
+				'en-us': "Powerful Rage",
+				'fr-fr': "Rage Massive",
 			},
 			effect: {
-				en: "Does 20 damage times the number of damage counters on this Pokémon.",
-				fr: "Inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon.",
+				'en-us': "Does 20 damage times the number of damage counters on this Pokémon.",
+				'fr-fr': "Inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon.",
 			},
 			damage: 20,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Glacier Drop",
-				fr: "Chute de Glacier",
+				'en-us': "Glacier Drop",
+				'fr-fr': "Chute de Glacier",
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
+				'en-us': "Discard the top card of your opponent's deck.",
+				'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
 			},
 			damage: 90,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "They love the cold seas of the north. They create pathways around the ocean waters by freezing their own breath.",
+		'en-us': "They love the cold seas of the north. They create pathways around the ocean waters by freezing their own breath.",
 	},
 
 	thirdParty: {

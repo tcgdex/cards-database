@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Heatran-EX",
-		fr: "Heatran-EX",
-		es: "Heatran-EX",
-		it: "Heatran-EX",
-		pt: "Heatran-EX",
-		de: "Heatran-EX"
+		'en-us': "Heatran-EX",
+		'fr-fr': "Heatran-EX",
+		'es-es': "Heatran-EX",
+		'it-it': "Heatran-EX",
+		'pt-br': "Heatran-EX",
+		'de-de': "Heatran-EX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Boiler",
-				fr: "Coup de Chaud",
+				'en-us': "Heat Boiler",
+				'fr-fr': "Coup de Chaud",
 			},
 			effect: {
-				en: "If this Pokémon is affected by a Special Condition, this attack does 60 more damage.",
-				fr: "Si ce Pokémon est affecté par un État Spécial, cette attaque inflige 60 dégâts supplémentaires.",
+				'en-us': "If this Pokémon is affected by a Special Condition, this attack does 60 more damage.",
+				'fr-fr': "Si ce Pokémon est affecté par un État Spécial, cette attaque inflige 60 dégâts supplémentaires.",
 			},
 			damage: 60,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dynamite Press",
-				fr: "Pression Explosive",
+				'en-us': "Dynamite Press",
+				'fr-fr': "Pression Explosive",
 			},
 			effect: {
-				en: "If this Pokémon has any Plasma Energy attached to it, this attack does 10 more damage for each damage counter on the Defending Pokémon.",
-				fr: "Si de l'Énergie Plasma est attachée à ce Pokémon, cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur le Pokémon Défenseur.",
+				'en-us': "If this Pokémon has any Plasma Energy attached to it, this attack does 10 more damage for each damage counter on the Defending Pokémon.",
+				'fr-fr': "Si de l'Énergie Plasma est attachée à ce Pokémon, cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur le Pokémon Défenseur.",
 			},
 			damage: 80,
 

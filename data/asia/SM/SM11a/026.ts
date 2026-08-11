@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロトム",
+		'ja-jp': "ロトム",
 	},
 
 	illustrator: "Mina Nakai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "特殊な モーターを 動かす 動力源として 長い あいだ 研究されていた ポケモン。",
+		'ja-jp': "特殊な モーターを 動かす 動力源として 長い あいだ 研究されていた ポケモン。",
 	},
 
 	stage: "Basic",
@@ -23,14 +23,14 @@ const card: Card = {
 			name: { ja: "サイクルドロー" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の手札を1枚トラッシュする。その後、山札を2枚引く。",
+				'ja-jp': "自分の手札を1枚トラッシュする。その後、山札を2枚引く。",
 			},
 		},
 		{
 			name: { ja: "エネアシスト" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分のトラッシュにある基本エネルギーを2枚、自分のベンチポケモンに好きなようにつける。",
+				'ja-jp': "自分のトラッシュにある基本エネルギーを2枚、自分のベンチポケモンに好きなようにつける。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Blitzle"
+		'id-id': "Blitzle"
 	},
 
 	illustrator: "matazo",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Surai Blitzle bersinar ketika melepaskan listrik. Pokémon ini menggunakan jumlah dan irama dari kilatan-kilatan ini untuk berbincang dengan sesamanya."
+		'id-id': "Surai Blitzle bersinar ketika melepaskan listrik. Pokémon ini menggunakan jumlah dan irama dari kilatan-kilatan ini untuk berbincang dengan sesamanya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Tendangan Belakang"
+			'id-id': "Tendangan Belakang"
 		},
 
 		damage: 10,
 		cost: ["Lightning"]
 	}, {
 		name: {
-			id: "Wild Volt"
+			'id-id': "Wild Volt"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 20."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 20."
 		},
 
 		damage: 50,

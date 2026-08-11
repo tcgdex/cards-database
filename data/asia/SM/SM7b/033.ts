@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゼルネアス",
+		'ja-jp': "ゼルネアス",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "せいめいのみち" },
 			effect: {
-				ja: "自分の番に、このポケモンがベンチからバトル場に出たとき、1回使える。自分の場のポケモンについているエネルギーを好きなだけ、このポケモンにつけ替える。",
+				'ja-jp': "自分の番に、このポケモンがベンチからバトル場に出たとき、1回使える。自分の場のポケモンについているエネルギーを好きなだけ、このポケモンにつけ替える。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Fairy", "Fairy", "Fairy"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「ブライトホーン」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「ブライトホーン」が使えない。",
 			},
 		},
 	],

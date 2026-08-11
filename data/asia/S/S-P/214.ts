@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "いたずら好きのピチュー",
+		'ja-jp': "いたずら好きのピチュー",
 		'zh-tw': "阿勃梭魯",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "遊ぶときは いつだって 全力だ！ でも お片付けも 忘れずに！",
+		'ja-jp': "遊ぶときは いつだって 全力だ！ でも お片付けも 忘れずに！",
 		'zh-tw': "如風般地奔馳在山野中。形狀如弓的角能夠敏銳 感應到自然災害的預兆。",
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "どたばたパーティ",
+				'ja-jp': "どたばたパーティ",
 				'zh-tw': "劈開",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のポケモン全員に、それぞれ10ダメージ。ウラなら、自分のポケモン全員に、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "コインを1回投げオモテなら、相手のポケモン全員に、それぞれ10ダメージ。ウラなら、自分のポケモン全員に、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Stonjourner",
-		fr: "Dolman",
-		es: "Stonjourner",
-		it: "Stonjourner",
-		pt: "Stonjourner",
-		de: "Humanolith"
+		'en-us': "Stonjourner",
+		'fr-fr': "Dolman",
+		'es-es': "Stonjourner",
+		'it-it': "Stonjourner",
+		'pt-br': "Stonjourner",
+		'de-de': "Humanolith"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -30,20 +30,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Wild Tackle",
-				fr: "Tacle Brutal",
-				es: "Placaje Salvaje",
-				it: "Azionferoce",
-				pt: "Investida Feroz",
-				de: "Wilder Tackle"
+				'en-us': "Wild Tackle",
+				'fr-fr': "Tacle Brutal",
+				'es-es': "Placaje Salvaje",
+				'it-it': "Azionferoce",
+				'pt-br': "Investida Feroz",
+				'de-de': "Wilder Tackle"
 			},
 			effect: {
-				en: "This Pokémon also does 10 damage to itself.",
-				fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
-				es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-				pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
+				'en-us': "This Pokémon also does 10 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige aussi 10 dégâts.",
+				'es-es': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge anche 10 danni a se stesso.",
+				'pt-br': "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+				'de-de': "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 70,
 
@@ -68,7 +68,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It stands in grasslands, watching the sun's descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks."
+		'en-us': "It stands in grasslands, watching the sun's descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks."
 	},
 
 	dexId: [874],

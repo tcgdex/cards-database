@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Treecko",
-		fr: "Arcko",
+		'en-us': "Treecko",
+		'fr-fr': "Arcko",
 	},
 
 	illustrator: "Akira Komayama",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-Attaque",
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-Attaque",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
 			},
 			damage: "10+",
 
@@ -52,7 +52,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above.",
+		'en-us': "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above.",
 	},
 
 	thirdParty: {

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ดันบัล",
-		id: "Beldum"
+		'th-th': "ดันบัล",
+		'id-id': "Beldum"
 	},
 
 	illustrator: "Izucch",
@@ -15,24 +15,24 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		th: "พลังแม่เหล็กที่ออกมาจากร่างกายและพลังแม่เหล็กบนโลกจะผลักกัน ทำให้มันลอยอยู่ในท้องฟ้า",
-		id: "Ia membuat gaya magnet yang keluar dari tubuhnya dan gaya magnet di atas tanah tolak-menolak lalu mengambang di udara."
+		'th-th': "พลังแม่เหล็กที่ออกมาจากร่างกายและพลังแม่เหล็กบนโลกจะผลักกัน ทำให้มันลอยอยู่ในท้องฟ้า",
+		'id-id': "Ia membuat gaya magnet yang keluar dari tubuhnya dan gaya magnet di atas tanah tolak-menolak lalu mengambang di udara."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "โจมตีหมุนวน",
-			id: "Serangan Berputar"
+			'th-th': "โจมตีหมุนวน",
+			'id-id': "Serangan Berputar"
 		},
 
 		damage: 10,
 		cost: ["Psychic"]
 	}, {
 		name: {
-			th: "ลำแสง",
-			id: "Beam"
+			'th-th': "ลำแสง",
+			'id-id': "Beam"
 		},
 
 		damage: 30,

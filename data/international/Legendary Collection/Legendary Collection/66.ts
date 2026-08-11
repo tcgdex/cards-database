@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Tentacruel"
+		'en-us': "Tentacruel"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tentacool"
+		'en-us': "Tentacool"
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Supersonic"
+				'en-us': "Supersonic"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 
 		},
@@ -44,10 +44,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Jellyfish Sting"
+				'en-us': "Jellyfish Sting"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned."
+				'en-us': "The Defending Pokémon is now Poisoned."
 			},
 			damage: 10,
 
@@ -62,7 +62,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "The tentacles are normally kept short. On hunts, the are extended to ensnare and immobilize prey."
+		'en-us': "The tentacles are normally kept short. On hunts, the are extended to ensnare and immobilize prey."
 	},
 
 	variants: [

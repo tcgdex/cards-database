@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マッギョ",
+		'ja-jp': "マッギョ",
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "皮膚が 硬いので 相撲取りに 踏まれても 平気。 電気を 流すとき 笑い顔に なる。",
+		'ja-jp': "皮膚が 硬いので 相撲取りに 踏まれても 平気。 電気を 流すとき 笑い顔に なる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンにエネルギーがついているなら、20ダメージ追加。",
+				'ja-jp': "このポケモンにエネルギーがついているなら、20ダメージ追加。",
 			},
 		},
 		{

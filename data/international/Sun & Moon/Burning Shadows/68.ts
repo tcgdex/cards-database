@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Lunatone",
-		fr: "Séléroc",
-		es: "Lunatone",
-		it: "Lunatone",
-		pt: "Lunatone",
-		de: "Lunastein"
+		'en-us': "Lunatone",
+		'fr-fr': "Séléroc",
+		'es-es': "Lunatone",
+		'it-it': "Lunatone",
+		'pt-br': "Lunatone",
+		'de-de': "Lunastein"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Heal Block",
-				fr: "Anti-Soin",
-				es: "Anticura",
-				it: "Anticura",
-				pt: "Bloqueio de Cura",
-				de: "Heilblockade"
+				'en-us': "Heal Block",
+				'fr-fr': "Anti-Soin",
+				'es-es': "Anticura",
+				'it-it': "Anticura",
+				'pt-br': "Bloqueio de Cura",
+				'de-de': "Heilblockade"
 			},
 			effect: {
-				en: "If you have Solrock in play, Pokémon (both yours and your opponent’s) can’t be healed.",
-				fr: "Si vous avez Solaroc en jeu, les Pokémon (les vôtres et ceux de votre adversaire) ne peuvent pas être soignés.",
-				es: "Si tienes a Solrock en juego, los Pokémon (tanto tuyos como de tu rival) no pueden ser curados.",
-				it: "Se hai Solrock in gioco, i Pokémon, sia tuoi che del tuo avversario, non possono essere curati.",
-				pt: "Se você possuir Solrock em jogo, os Pokémon (seus e do seu oponente) não poderão ser curados.",
-				de: "Wenn du Sonnfel im Spiel hast, können Pokémon (deine und die deines Gegners) nicht geheilt werden."
+				'en-us': "If you have Solrock in play, Pokémon (both yours and your opponent’s) can’t be healed.",
+				'fr-fr': "Si vous avez Solaroc en jeu, les Pokémon (les vôtres et ceux de votre adversaire) ne peuvent pas être soignés.",
+				'es-es': "Si tienes a Solrock en juego, los Pokémon (tanto tuyos como de tu rival) no pueden ser curados.",
+				'it-it': "Se hai Solrock in gioco, i Pokémon, sia tuoi che del tuo avversario, non possono essere curati.",
+				'pt-br': "Se você possuir Solrock em jogo, os Pokémon (seus e do seu oponente) não poderão ser curados.",
+				'de-de': "Wenn du Sonnfel im Spiel hast, können Pokémon (deine und die deines Gegners) nicht geheilt werden."
 			},
 		},
 	],
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lunar Blast",
-				fr: "Explosion Lunaire",
-				es: "Explosión Lunar",
-				it: "Furia Lunare",
-				pt: "Detonação Lunar",
-				de: "Mondsturm"
+				'en-us': "Lunar Blast",
+				'fr-fr': "Explosion Lunaire",
+				'es-es': "Explosión Lunar",
+				'it-it': "Furia Lunare",
+				'pt-br': "Detonação Lunar",
+				'de-de': "Mondsturm"
 			},
 
 			damage: 30,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Because it turns active on nights of the full moon, it is said to have some link to the lunar phases.",
+		'en-us': "Because it turns active on nights of the full moon, it is said to have some link to the lunar phases.",
 	},
 
 	thirdParty: {

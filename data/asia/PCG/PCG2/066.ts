@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラティオススター",
+		'ja-jp': "ラティオススター",
 	},
 
 	rarity: "Shiny rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "奇跡的な光",
+				'ja-jp': "奇跡的な光",
 			},
 			effect: {
-				ja: "Latiosから1つのダメージカウンターとすべての特別な条件を取り外します{{Star | This Pokemon}}。",
+				'ja-jp': "Latiosから1つのダメージカウンターとすべての特別な条件を取り外します{{Star | This Pokemon}}。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Grass", "Lightning", "Psychic"],
 			name: {
-				ja: "輝く星",
+				'ja-jp': "輝く星",
 			},
 			effect: {
-				ja: "防御ポケモンがステージ2の進化したポケモンである場合、ラティオスに取り付けられたすべてのエネルギーカードを捨てます{{star | this pokemon}}。",
+				'ja-jp': "防御ポケモンがステージ2の進化したポケモンである場合、ラティオスに取り付けられたすべてのエネルギーカードを捨てます{{star | this pokemon}}。",
 			},
 		},
 	],

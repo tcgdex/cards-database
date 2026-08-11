@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HGSS Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Hitmonlee",
-		fr: "Kicklee"
+		'en-us': "Hitmonlee",
+		'fr-fr': "Kicklee"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Promo",
@@ -26,8 +26,8 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Kick",
-				fr: "Koud'pied"
+				'en-us': "Kick",
+				'fr-fr': "Koud'pied"
 			},
 
 			damage: 20,
@@ -40,8 +40,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "High Jump Kick",
-				fr: "Pied voltige"
+				'en-us': "High Jump Kick",
+				'fr-fr': "Pied voltige"
 			},
 
 			damage: 60,
@@ -58,7 +58,7 @@ const card: Card = {
 
 
 	description: {
-		en: "If it starts kicking repeatedly, both legs will stretch even longer to strike a fleeing foe."
+		'en-us': "If it starts kicking repeatedly, both legs will stretch even longer to strike a fleeing foe."
 	},
 
 	variants: [

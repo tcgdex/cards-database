@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Roselia",
-		fr: "Roselia",
-		de: "Roselia"
+		'en-us': "Roselia",
+		'fr-fr': "Roselia",
+		'de-de': "Roselia"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleep Powder",
-				fr: "Poudre dodo",
-				de: "Schlafpuder"
+				'en-us': "Sleep Powder",
+				'fr-fr': "Poudre dodo",
+				'de-de': "Schlafpuder"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'herbe",
-				de: "Rasierblatt"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'herbe",
+				'de-de': "Rasierblatt"
 			},
 
 			damage: 10,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "ROSELIA raised on clean drinking water are known to grow vividly colored flowers.",
+		'en-us': "ROSELIA raised on clean drinking water are known to grow vividly colored flowers.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Whirlipede",
-		fr: "Scobolide",
-		de: "Rollum",
-		it: "Whirlipede",
-		pt: "Whirlipede",
-		es: "Whirlipede",
+		'en-us': "Whirlipede",
+		'fr-fr': "Scobolide",
+		'de-de': "Rollum",
+		'it-it': "Whirlipede",
+		'pt-br': "Whirlipede",
+		'es-es': "Whirlipede",
 		'es-mx': "Whirlipede"
 	},
 
@@ -21,12 +21,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Venipede",
-		fr: "Venipatte",
-		de: "Toxiped",
-		it: "Venipede",
-		pt: "Venipede",
-		es: "Venipede",
+		'en-us': "Venipede",
+		'fr-fr': "Venipatte",
+		'de-de': "Toxiped",
+		'it-it': "Venipede",
+		'pt-br': "Venipede",
+		'es-es': "Venipede",
 		'es-mx': "Venipede"
 	},
 	stage: "Stage1",
@@ -35,22 +35,22 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Venoshock",
-			fr: "Choc Venin",
-			de: "Giftschock",
-			it: "Velenoshock",
-			pt: "Venochoque",
-			es: "Carga Tóxica",
+			'en-us': "Venoshock",
+			'fr-fr': "Choc Venin",
+			'de-de': "Giftschock",
+			'it-it': "Velenoshock",
+			'pt-br': "Venochoque",
+			'es-es': "Carga Tóxica",
 			'es-mx': "Carga Tóxica"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon is Poisoned, this attack does 60 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est Empoisonné, cette attaque inflige 60 dégâts supplémentaires.",
-			de: "Wenn das Aktive Pokémon deines Gegners vergiftet ist, fügt diese Attacke 60 Schadenspunkte mehr zu.",
-			it: "Se il Pokémon attivo del tuo avversario è avvelenato, questo attacco infligge 60 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente estiver Envenenado, este ataque causará 60 pontos de dano a mais.",
-			es: "Si el Pokémon Activo de tu rival está Envenenado, este ataque hace 60 puntos de daño más.",
+			'en-us': "If your opponent's Active Pokémon is Poisoned, this attack does 60 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est Empoisonné, cette attaque inflige 60 dégâts supplémentaires.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners vergiftet ist, fügt diese Attacke 60 Schadenspunkte mehr zu.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è avvelenato, questo attacco infligge 60 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente estiver Envenenado, este ataque causará 60 pontos de dano a mais.",
+			'es-es': "Si el Pokémon Activo de tu rival está Envenenado, este ataque hace 60 puntos de daño más.",
 			'es-mx': "Si el Pokémon Activo de tu rival está Envenenado, este ataque hace 60 puntos de daño más."
 		},
 

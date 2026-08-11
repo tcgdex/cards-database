@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "パモット",
+		'ja-jp': "パモット",
 		'zh-tw': "布土撥",
-		th: "พาม็อต",
-		id: "Pawmo"
+		'th-th': "พาม็อต",
+		'id-id': "Pawmo"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -18,10 +18,10 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "手のひらで 打撃を 加えつつ 肉球で 電撃を 浴びせる 独特の 格闘技を 使う。",
+		'ja-jp': "手のひらで 打撃を 加えつつ 肉球で 電撃を 浴びせる 独特の 格闘技を 使う。",
 		'zh-tw': "使用的格鬥技非常獨特，會一邊用手掌給予打擊， 並一邊用肉球施放電擊。",
-		th: "ใช้ศิลปะการต่อสู้ที่มีเอกลักษณ์โดยการใช้ฝ่ามือจู่โจมไปพลางปล่อยไฟฟ้าจากอุ้งมืออาบคู่ต่อสู้",
-		id: "Pawmo bertarung menggunakan seni bela diri yang unik. Sambil menambahkan pukulan dengan telapak tangannya, Pokémon ini memberikan serangan listrik dari bantalan tangannya."
+		'th-th': "ใช้ศิลปะการต่อสู้ที่มีเอกลักษณ์โดยการใช้ฝ่ามือจู่โจมไปพลางปล่อยไฟฟ้าจากอุ้งมืออาบคู่ต่อสู้",
+		'id-id': "Pawmo bertarung menggunakan seni bela diri yang unik. Sambil menambahkan pukulan dengan telapak tangannya, Pokémon ini memberikan serangan listrik dari bantalan tangannya."
 	},
 
 	stage: "Stage1",
@@ -30,28 +30,28 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			ja: "でんきショック",
+			'ja-jp': "でんきショック",
 			'zh-tw': "電擊",
-			th: "ช็อกไฟฟ้า",
-			id: "Sengatan Listrik"
+			'th-th': "ช็อกไฟฟ้า",
+			'id-id': "Sengatan Listrik"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+			'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。",
-			th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว จะทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ชา]",
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
+			'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกหัว จะทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ชา]",
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
 		}
 	}, {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			ja: "ヘッドボルト",
+			'ja-jp': "ヘッドボルト",
 			'zh-tw': "伏特頭擊",
-			th: "เฮดโบลต์",
-			id: "Head Bolt"
+			'th-th': "เฮดโบลต์",
+			'id-id': "Head Bolt"
 		},
 
 		damage: 70

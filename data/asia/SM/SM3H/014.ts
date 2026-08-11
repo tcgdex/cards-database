@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バオッキー",
+		'ja-jp': "バオッキー",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "体の 中の 炎を 燃やして 頭や 尻尾から 火の粉を まき散らせて 敵を 焦がす。",
+		'ja-jp': "体の 中の 炎を 燃やして 頭や 尻尾から 火の粉を まき散らせて 敵を 焦がす。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "自分のトラッシュにある[炎]エネルギーを1枚、ベンチポケモンにつける。",
+				'ja-jp': "自分のトラッシュにある[炎]エネルギーを1枚、ベンチポケモンにつける。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "バオップ",
+		'ja-jp': "バオップ",
 	},
 
 	retreat: 1,

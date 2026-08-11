@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Alolan Ninetales",
-		fr: "Feunard d’Alola",
-		es: "Ninetales de Alola",
-		it: "Ninetales di Alola",
-		pt: "Ninetales de Alola",
-		de: "Alola Vulnona"
+		'en-us': "Alolan Ninetales",
+		'fr-fr': "Feunard d’Alola",
+		'es-es': "Ninetales de Alola",
+		'it-it': "Ninetales di Alola",
+		'pt-br': "Ninetales de Alola",
+		'de-de': "Alola Vulnona"
 	},
 
 	illustrator: "Eri Yamaki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Alolan Vulpix",
-		fr: "Goupix d’Alola",
+		'en-us': "Alolan Vulpix",
+		'fr-fr': "Goupix d’Alola",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Rubbish Blizzard",
-				fr: "Blizzard de Déchets",
-				es: "Ventisca Basura",
-				it: "Bufera di Rifiuti",
-				pt: "Nevasca Imunda",
-				de: "Abfallblizzard"
+				'en-us': "Rubbish Blizzard",
+				'fr-fr': "Blizzard de Déchets",
+				'es-es': "Ventisca Basura",
+				'it-it': "Bufera di Rifiuti",
+				'pt-br': "Nevasca Imunda",
+				'de-de': "Abfallblizzard"
 			},
 			effect: {
-				en: "This attack does 10 damage for each Pokémon Tool card in your discard pile.",
-				fr: "Cette attaque inflige 10 dégâts pour chaque carte Outil Pokémon dans votre pile de défausse.",
-				es: "Este ataque hace 10 puntos de daño por cada carta de Herramienta Pokémon en tu pila de descartes.",
-				it: "Questo attacco infligge 10 danni per ogni carta Oggetto Pokémon nella tua pila degli scarti.",
-				pt: "Este ataque causa 10 pontos de dano para cada carta de Ferramenta Pokémon na sua pilha de descarte.",
-				de: "Diese Attacke fügt 10 Schadenspunkte mal der Anzahl der Pokémon-Ausrüstungen in deinem Ablagestapel zu."
+				'en-us': "This attack does 10 damage for each Pokémon Tool card in your discard pile.",
+				'fr-fr': "Cette attaque inflige 10 dégâts pour chaque carte Outil Pokémon dans votre pile de défausse.",
+				'es-es': "Este ataque hace 10 puntos de daño por cada carta de Herramienta Pokémon en tu pila de descartes.",
+				'it-it': "Questo attacco infligge 10 danni per ogni carta Oggetto Pokémon nella tua pila degli scarti.",
+				'pt-br': "Este ataque causa 10 pontos de dano para cada carta de Ferramenta Pokémon na sua pilha de descarte.",
+				'de-de': "Diese Attacke fügt 10 Schadenspunkte mal der Anzahl der Pokémon-Ausrüstungen in deinem Ablagestapel zu."
 			},
 			damage: "10×",
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The reason it guides people all the way down to the mountain's base is that it wants them to hurry up and leave.",
+		'en-us': "The reason it guides people all the way down to the mountain's base is that it wants them to hurry up and leave.",
 	},
 
 	thirdParty: {

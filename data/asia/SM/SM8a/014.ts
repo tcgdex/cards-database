@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カプ・コケコ",
+		'ja-jp': "カプ・コケコ",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "せんじんのまい" },
 			effect: {
-				ja: "このポケモンがベンチにいるなら、自分の番に1回使える。自分のベンチポケモン2匹に、トラッシュにある[雷]エネルギーを1枚ずつつける。その後、このカードをロストゾーンに置く。（ついているカードは、すべてトラッシュする。）",
+				'ja-jp': "このポケモンがベンチにいるなら、自分の番に1回使える。自分のベンチポケモン2匹に、トラッシュにある[雷]エネルギーを1枚ずつつける。その後、このカードをロストゾーンに置く。（ついているカードは、すべてトラッシュする。）",
 			},
 		},
 	],

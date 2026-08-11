@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Dark Flaaffy",
-		fr: "Lainergie obscur",
-		de: "Dunkles Waaty"
+		'en-us': "Dark Flaaffy",
+		'fr-fr': "Lainergie obscur",
+		'de-de': "Dunkles Waaty"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mareep",
-		fr: "Wattouat"
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "High Voltage",
-				fr: "Haut voltage",
-				de: "High Voltage"
+				'en-us': "High Voltage",
+				'fr-fr': "Haut voltage",
+				'de-de': "High Voltage"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent can't play Trainer cards during his or her next turn.",
-				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Dresseur pendant son prochain tour.",
-				de: "Flip a coin. If heads, your opponent can't play Trainer cards during his or her next turn."
+				'en-us': "Flip a coin. If heads, your opponent can't play Trainer cards during his or her next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Dresseur pendant son prochain tour.",
+				'de-de': "Flip a coin. If heads, your opponent can't play Trainer cards during his or her next turn."
 			},
 			damage: 10,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stun Wave",
-				fr: "Para-vague",
-				de: "Stun Wave"
+				'en-us': "Stun Wave",
+				'fr-fr': "Para-vague",
+				'de-de': "Stun Wave"
 			},
 			effect: {
-				en: "If the Defending Pokémon has a Pokémon Power, that power stops working until the end of your next turn.",
-				fr: "Si le Pokémon Défenseur a un Pouvoir Pokémon, ce pouvoir cesse de fonctionner jusqu'à la fin de votre prochain tour.",
-				de: "If the Defending Pokémon has a Pokémon Power, that Power stops working until the end of your next turn."
+				'en-us': "If the Defending Pokémon has a Pokémon Power, that power stops working until the end of your next turn.",
+				'fr-fr': "Si le Pokémon Défenseur a un Pouvoir Pokémon, ce pouvoir cesse de fonctionner jusqu'à la fin de votre prochain tour.",
+				'de-de': "If the Defending Pokémon has a Pokémon Power, that Power stops working until the end of your next turn."
 			},
 			damage: 30,
 
@@ -78,8 +78,8 @@ const card: Card = {
 
 
 	description: {
-		en: "As a result of storing massive amounts of electricity there, it can no longer grow wool on certain areas of its body.",
-		fr: "À cause des énormes quantités d'électricité qu'il stocke, sa laine ne pousse plus à certains endroits de son corps."
+		'en-us': "As a result of storing massive amounts of electricity there, it can no longer grow wool on certain areas of its body.",
+		'fr-fr': "À cause des énormes quantités d'électricité qu'il stocke, sa laine ne pousse plus à certains endroits de son corps."
 	},
 
 

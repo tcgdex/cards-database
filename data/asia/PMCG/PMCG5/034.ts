@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カスミのシードラ",
+		'ja-jp': "カスミのシードラ",
 	},
 	illustrator: "Atsuko Nishida",
 
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "テールスナップ",
+				'ja-jp': "テールスナップ",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Water", "Water", "Water"],
 			name: {
-				ja: "ノックアウト針",
+				'ja-jp': "ノックアウト針",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。両方がヘッドである場合、この攻撃は30ダメージに加えて60ダメージを与えます。それらの1または両方が尾の場合、この攻撃は30のダメージを与えます。",
+				'ja-jp': "2つのコインをフリップします。両方がヘッドである場合、この攻撃は30ダメージに加えて60ダメージを与えます。それらの1または両方が尾の場合、この攻撃は30のダメージを与えます。",
 			},
 		},
 	],

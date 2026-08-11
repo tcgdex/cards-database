@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒノヤコマ",
+		'ja-jp': "ヒノヤコマ",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "クチバシから 火の粉を 飛ばして 獲物に ぶつける。 捕まえた 獲物は 焼いてから いただくぞ。",
+		'ja-jp': "クチバシから 火の粉を 飛ばして 獲物に ぶつける。 捕まえた 獲物は 焼いてから いただくぞ。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤヤコマ",
+		'ja-jp': "ヤヤコマ",
 	},
 
 	retreat: 1,

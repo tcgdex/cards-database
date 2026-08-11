@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゼクロム",
+		'ja-jp': "ゼクロム",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "尻尾で 電気を 作り出す。 全身を 雷雲に 隠して イッシュ地方の 空を 飛ぶ。",
+		'ja-jp': "尻尾で 電気を 作り出す。 全身を 雷雲に 隠して イッシュ地方の 空を 飛ぶ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Lightning", "Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げウラなら、このポケモンにも50ダメージ。",
+				'ja-jp': "コインを1回投げウラなら、このポケモンにも50ダメージ。",
 			},
 		},
 	],

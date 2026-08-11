@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミカルゲ",
+		'ja-jp': "ミカルゲ",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "５００年前に 悪さをしたため 要石の ひび割れに 体を つなぎとめられてしまった。",
+		'ja-jp': "５００年前に 悪さをしたため 要石の ひび割れに 体を つなぎとめられてしまった。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "しろなきせかい" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュにあるサポートを2枚、相手に見せてから、手札に加える。",
+				'ja-jp': "自分のトラッシュにあるサポートを2枚、相手に見せてから、手札に加える。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたたねポケモンは、ワザが使えない。",
+				'ja-jp': "次の相手の番、このワザを受けたたねポケモンは、ワザが使えない。",
 			},
 		},
 	],

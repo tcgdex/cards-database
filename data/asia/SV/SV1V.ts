@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../SV'
 
 const set: Set = {
 	id: 'SV1V',
 
 	name: {
-		ja: 'バイオレットex',
-		ko: '바이올렛ex',
+		'ja-jp': 'バイオレットex',
+		'ko-kr': '바이올렛ex',
 		'zh-tw': '紫ex',
-		id: 'Violet ex',
-		th: 'ไวโอเล็ต ex'
+		'id-id': 'Violet ex',
+		'th-th': 'ไวโอเล็ต ex'
 	},
 
 	serie: serie,
@@ -19,10 +19,10 @@ const set: Set = {
 	},
 
 	releaseDate: {
-		ja: '2023-01-20',
+		'ja-jp': '2023-01-20',
 		'zh-tw': '2023-02-03',
-		id: '2023-03-03',
-		th: '2023-02-24'
+		'id-id': '2023-03-03',
+		'th-th': '2023-02-24'
 	},
 
 	thirdParty: {

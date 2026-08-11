@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slurpuff",
-		fr: "Cupcanaille",
-		es: "Slurpuff",
+		'en-us': "Slurpuff",
+		'fr-fr': "Cupcanaille",
+		'es-es': "Slurpuff",
 		'es-mx': "Slurpuff",
-		de: "Sabbaione",
-		it: "Slurpuff",
-		pt: "Slurpuff"
+		'de-de': "Sabbaione",
+		'it-it': "Slurpuff",
+		'pt-br': "Slurpuff"
 	},
 
 	evolveFrom: {
-		en: "Swirlix",
-		fr: "Sucroquin",
-		es: "Swirlix",
+		'en-us': "Swirlix",
+		'fr-fr': "Sucroquin",
+		'es-es': "Swirlix",
 		'es-mx': "Swirlix",
-		de: "Flauschling",
-		it: "Swirlix",
-		pt: "Swirlix",
+		'de-de': "Flauschling",
+		'it-it': "Swirlix",
+		'pt-br': "Swirlix",
 	},
 
 	illustrator: "Yoshimoto Yoshimon",
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
 			'es-mx': "Tacleada",
-			de: "Tackle",
-			it: "Azione",
-			pt: "Investida"
+			'de-de': "Tackle",
+			'it-it': "Azione",
+			'pt-br': "Investida"
 		},
 
 		damage: 40
@@ -50,13 +50,13 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Magical Shot",
-			fr: "Coup Magique",
-			es: "Disparo Mágico",
+			'en-us': "Magical Shot",
+			'fr-fr': "Coup Magique",
+			'es-es': "Disparo Mágico",
 			'es-mx': "Disparo Mágico",
-			de: "Magischer Schuss",
-			it: "Magicolpo",
-			pt: "Tiro Mágico"
+			'de-de': "Magischer Schuss",
+			'it-it': "Magicolpo",
+			'pt-br': "Tiro Mágico"
 		},
 
 		damage: 70
@@ -72,7 +72,7 @@ const card: Card = {
 	regulationMark: "J",
 
 	description: {
-		en: "It can distinguish the faintest of scents. It puts its sensitive sense of smell to use by helping pastry chefs in their work.",
+		'en-us': "It can distinguish the faintest of scents. It puts its sensitive sense of smell to use by helping pastry chefs in their work.",
 	},
 
 	variants: [

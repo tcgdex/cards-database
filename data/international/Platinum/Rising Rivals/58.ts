@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Carvanha",
-		fr: "Carvanha Niv. 13",
-		de: "Kanivanha"
+		'en-us': "Carvanha",
+		'fr-fr': "Carvanha Niv. 13",
+		'de-de': "Kanivanha"
 	},
 
 	illustrator: "Midori Harada",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scary Face",
-				fr: "Grimace",
-				de: "Grimasse"
+				'en-us': "Scary Face",
+				'fr-fr': "Grimace",
+				'de-de': "Grimasse"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can't attack or retreat during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer ou battre en retraite lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon im nächsten Zug deines Gegners weder angreifen noch sich zurückziehen."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon can't attack or retreat during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer ou battre en retraite lors du prochain tour de votre adversaire.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon im nächsten Zug deines Gegners weder angreifen noch sich zurückziehen."
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Whirlpool",
-				fr: "Siphon",
-				de: "Whirlpool"
+				'en-us': "Whirlpool",
+				'fr-fr': "Siphon",
+				'de-de': "Whirlpool"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energie, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energie, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 10,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They swarm any foes that invades their territory. Their sharp fangs can tear out boat hulls."
+		'en-us': "They swarm any foes that invades their territory. Their sharp fangs can tear out boat hulls."
 	},
 
 	variants: [

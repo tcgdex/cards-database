@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Weepinbell"
+		'en-us': "Weepinbell"
 	},
 
 	illustrator: "MAHOU",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Bellsprout"
+		'en-us': "Bellsprout"
 	},
 
 	description: {
-		en: "The leafy parts act as cutters for slashing foes.\nIt spits a fluid that dissolves everything."
+		'en-us': "The leafy parts act as cutters for slashing foes.\nIt spits a fluid that dissolves everything."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Razor Leaf"
+			'en-us': "Razor Leaf"
 		},
 
 		damage: 40,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Entei",
-		fr: "Entei",
-		es: "Entei",
-		it: "Entei",
-		pt: "Entei",
-		de: "Entei"
+		'en-us': "Entei",
+		'fr-fr': "Entei",
+		'es-es': "Entei",
+		'it-it': "Entei",
+		'pt-br': "Entei",
+		'de-de': "Entei"
 	},
 
 	illustrator: "Nisota Niso",
@@ -25,21 +25,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Explosive Heat Dash",
-			fr: "Ruée Chaleur Explosive",
-			es: "Carga Ardiente Explosiva",
-			it: "Rogoscatto Esplosivo",
-			pt: "Arremetida de Calor Explosiva",
-			de: "Explosiver Hitzespurt"
+			'en-us': "Explosive Heat Dash",
+			'fr-fr': "Ruée Chaleur Explosive",
+			'es-es': "Carga Ardiente Explosiva",
+			'it-it': "Rogoscatto Esplosivo",
+			'pt-br': "Arremetida de Calor Explosiva",
+			'de-de': "Explosiver Hitzespurt"
 		},
 
 		effect: {
-			en: "If this Pokémon has any Fire Energy attached, it has no Retreat Cost.",
-			fr: "Si au moins une Énergie Fire est attachée à ce Pokémon, il n'a pas de Coût de Retraite.",
-			es: "Si este Pokémon tiene alguna Energía Fire unida a él, no tiene ningún Coste de Retirada.",
-			it: "Se questo Pokémon ha delle Energie Fire assegnate, non ha costo di ritirata.",
-			pt: "Se este Pokémon tiver alguma Energia Fire ligada a ele, não terá custo de Recuo.",
-			de: "Wenn an dieses Pokémon mindestens 1 Fire-Energie angelegt ist, hat es keine Rückzugskosten."
+			'en-us': "If this Pokémon has any Fire Energy attached, it has no Retreat Cost.",
+			'fr-fr': "Si au moins une Énergie Fire est attachée à ce Pokémon, il n'a pas de Coût de Retraite.",
+			'es-es': "Si este Pokémon tiene alguna Energía Fire unida a él, no tiene ningún Coste de Retirada.",
+			'it-it': "Se questo Pokémon ha delle Energie Fire assegnate, non ha costo di ritirata.",
+			'pt-br': "Se este Pokémon tiver alguma Energia Fire ligada a ele, não terá custo de Recuo.",
+			'de-de': "Wenn an dieses Pokémon mindestens 1 Fire-Energie angelegt ist, hat es keine Rückzugskosten."
 		}
 	}],
 
@@ -47,12 +47,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Claw Slash",
-			fr: "Tranch'Griffe",
-			es: "Cuchillada Garra",
-			it: "Lacerartiglio",
-			pt: "Golpe de Garra",
-			de: "Klauenschlitzer"
+			'en-us': "Claw Slash",
+			'fr-fr': "Tranch'Griffe",
+			'es-es': "Cuchillada Garra",
+			'it-it': "Lacerartiglio",
+			'pt-br': "Golpe de Garra",
+			'de-de': "Klauenschlitzer"
 		},
 
 		damage: 90
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It is said that when it roars, a volcano erupts somewhere around the globe.",
+		'en-us': "It is said that when it roars, a volcano erupts somewhere around the globe.",
 	},
 
 	

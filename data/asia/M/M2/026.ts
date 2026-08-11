@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スイクン",
+		'ja-jp': "スイクン",
 	},
 
 	illustrator: "Takeshi Nakamura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "一瞬で 汚く 濁った 水も  清める 力を 持つ。  北風の 生まれ変わり という。",
+		'ja-jp': "一瞬で 汚く 濁った 水も  清める 力を 持つ。  北風の 生まれ変わり という。",
 	},
 
 	stage: "Basic",

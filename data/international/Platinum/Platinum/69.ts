@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Chansey",
-		fr: "Leveinard",
-		de: "Chaneira"
+		'en-us': "Chansey",
+		'fr-fr': "Leveinard",
+		'de-de': "Chaneira"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Healing Trial",
-				fr: "Défi guérison",
-				de: "Healing Trial"
+				'en-us': "Healing Trial",
+				'fr-fr': "Défi guérison",
+				'de-de': "Healing Trial"
 			},
 			effect: {
-				en: "Flip a coin. If heads, remove 3 damage counters from Chansey. If tails, remove 3 damage counters from the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, retirez à Leveinard 3 marqueurs de dégât. Si c'est pile, retirez au Pokémon Défenseur 3 marqueurs de dégât.",
-				de: "Flip a coin. If heads, remove 3 damage counters from Chansey. If tails, remove 3 damage counters from the Defending Pokémon."
+				'en-us': "Flip a coin. If heads, remove 3 damage counters from Chansey. If tails, remove 3 damage counters from the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, retirez à Leveinard 3 marqueurs de dégât. Si c'est pile, retirez au Pokémon Défenseur 3 marqueurs de dégât.",
+				'de-de': "Flip a coin. If heads, remove 3 damage counters from Chansey. If tails, remove 3 damage counters from the Defending Pokémon."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pulled Punch",
-				fr: "Poing-doux",
-				de: "Pulled Punch"
+				'en-us': "Pulled Punch",
+				'fr-fr': "Poing-doux",
+				'de-de': "Pulled Punch"
 			},
 			effect: {
-				en: "If the Defending Pokémon already has any damage counters on it, this attack's base damage is 10 instead of 40.",
-				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, les dégâts de base de cette attaque sont de 10 au lieu de 40.",
-				de: "If the Defending Pokémon already has any damage counters on it, this attack's base damage is 10 instead of 40."
+				'en-us': "If the Defending Pokémon already has any damage counters on it, this attack's base damage is 10 instead of 40.",
+				'fr-fr': "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, les dégâts de base de cette attaque sont de 10 au lieu de 40.",
+				'de-de': "If the Defending Pokémon already has any damage counters on it, this attack's base damage is 10 instead of 40."
 			},
 			damage: 40,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A kindly Pokémon that lays highly nutritious eggs and shares them with injured Pokémon or people."
+		'en-us': "A kindly Pokémon that lays highly nutritious eggs and shares them with injured Pokémon or people."
 	},
 
 	variants: [

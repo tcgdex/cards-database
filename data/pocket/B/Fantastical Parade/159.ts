@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [794],
 
 	name: {
-		en: "Buzzwole"
+		'en-us': "Buzzwole"
 	},
 
 	illustrator: "Dsuke",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "Buzzwole goes around showing off its\nabnormally swollen muscles. It is one kind\nof Ultra Beast."
+		'en-us': "Buzzwole goes around showing off its\nabnormally swollen muscles. It is one kind\nof Ultra Beast."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Ground Beat"
+			'en-us': "Ground Beat"
 		},
 
 		damage: 40,
 		cost: ["Grass", "Grass"],
 
 		effect: {
-			en: "If your opponent has gotten exactly 1 points, this attack does 40 more damage."
+			'en-us': "If your opponent has gotten exactly 1 points, this attack does 40 more damage."
 		}
 	}],
 

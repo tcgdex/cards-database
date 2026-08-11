@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SN"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "捷拉奧拉",
-		ja: "ゼラオラ"
+		'ja-jp': "ゼラオラ"
 	},
 
 	illustrator: "Teeziro",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "會用與落雷相同的速度急速接近敵人，然後用銳利的爪子把對手撕碎。",
-		ja: "雷が 落ちるのと 同じ 速さで 敵に 急接近。 鋭い ツメで 八つ裂きに する。"
+		'ja-jp': "雷が 落ちるのと 同じ 速さで 敵に 急接近。 鋭い ツメで 八つ裂きに する。"
 	},
 
 	stage: "Basic",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "瘋狂伏特",
-			ja: "ワイルドボルト"
+			'ja-jp': "ワイルドボルト"
 		},
 
 		effect: {
 			'zh-tw': "這隻寶可夢也受到20點傷害。",
-			ja: "このポケモンにも20ダメージ。"
+			'ja-jp': "このポケモンにも20ダメージ。"
 		},
 
 		damage: 70,

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Exeggcute"
+		'id-id': "Exeggcute"
 	},
 
 	illustrator: "Yuriko Akase",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Karena saling mengirimkan telepati yang hanya diterima oleh Exeggcute, Pokémon ini selalu terkumpul 6 ekor pada saat apa pun."
+		'id-id': "Karena saling mengirimkan telepati yang hanya diterima oleh Exeggcute, Pokémon ini selalu terkumpul 6 ekor pada saat apa pun."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Evolusi Karbitan"
+			'id-id': "Evolusi Karbitan"
 		},
 
 		effect: {
-			id: "Serangan ini juga dapat digunakan pada giliran pertama Pemain Pertama. Pilih 1 kartu dari Deck sendiri yang merupakan evolusi dari Pokémon ini, lalu letakkan pada Pokémon ini untuk melakukan evolusi. Kemudian, kocok Deck."
+			'id-id': "Serangan ini juga dapat digunakan pada giliran pertama Pemain Pertama. Pilih 1 kartu dari Deck sendiri yang merupakan evolusi dari Pokémon ini, lalu letakkan pada Pokémon ini untuk melakukan evolusi. Kemudian, kocok Deck."
 		},
 
 		cost: ["Colorless"]

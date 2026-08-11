@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Miltank",
-		fr: "Écrémeuh",
-		de: "Miltank"
+		'en-us': "Miltank",
+		'fr-fr': "Écrémeuh",
+		'de-de': "Miltank"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Milk Drink",
-				fr: "Lait A Boire",
-				de: "Milchgetränk"
+				'en-us': "Milk Drink",
+				'fr-fr': "Lait A Boire",
+				'de-de': "Milchgetränk"
 			},
 			effect: {
-				en: "Flip 2 coins. Remove 2 damage counters times the number of heads from Miltank. If it has fewer damage counters than that, remove all of them.",
-				fr: "Lancez 2 pièces. Retirez de Écrémeuh 2 marqueurs de dégâts multipliés par le nombre de faces. S'il a moins de marqueurs de dégâts que cela, retirez-les tous.",
-				de: "Wirf zwei Münzen. Entferne zwei Schadensmarken mal der Anzahl 'Kopf' von Miltank. Falls es weniger Schadensmarken hat, entferne alle Schadensmarken von Miltank."
+				'en-us': "Flip 2 coins. Remove 2 damage counters times the number of heads from Miltank. If it has fewer damage counters than that, remove all of them.",
+				'fr-fr': "Lancez 2 pièces. Retirez de Écrémeuh 2 marqueurs de dégâts multipliés par le nombre de faces. S'il a moins de marqueurs de dégâts que cela, retirez-les tous.",
+				'de-de': "Wirf zwei Münzen. Entferne zwei Schadensmarken mal der Anzahl 'Kopf' von Miltank. Falls es weniger Schadensmarken hat, entferne alle Schadensmarken von Miltank."
 			},
 
 		},
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam",
-				fr: "Plaquage",
-				de: "Bodyslam"
+				'en-us': "Body Slam",
+				'fr-fr': "Plaquage",
+				'de-de': "Bodyslam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -80,8 +80,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its milk is packed with nutrition, making it the ultimate beverage for the sick or weary.",
-		fr: "Son lait très riche est le meilleur breuvage pour les malades ou les souffreteux."
+		'en-us': "Its milk is packed with nutrition, making it the ultimate beverage for the sick or weary.",
+		'fr-fr': "Son lait très riche est le meilleur breuvage pour les malades ou les souffreteux."
 	},
 
 

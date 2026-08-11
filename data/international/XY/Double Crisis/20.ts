@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Carvanha",
-		fr: "Carvanha de la Team Aqua",
-		pt: "Carvanha da Equipe Aqua",
+		'en-us': "Team Aqua's Carvanha",
+		'fr-fr': "Carvanha de la Team Aqua",
+		'pt-br': "Carvanha da Equipe Aqua",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Fin Smack",
-				fr: "Coup d'Aileron",
-				pt: "Beijo da Barbatana",
+				'en-us': "Fin Smack",
+				'fr-fr': "Coup d'Aileron",
+				'pt-br': "Beijo da Barbatana",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
-				pt: "Jogue 2 moedas. Esse ataque causa 10 de danos vezes o número de caras.",
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'pt-br': "Jogue 2 moedas. Esse ataque causa 10 de danos vezes o número de caras.",
 			},
 			damage: "10×",
 
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "You can't keep up with its movements underwater, can you? If you get caught in this whirlpool, there'll be no escape.",
+		'en-us': "You can't keep up with its movements underwater, can you? If you get caught in this whirlpool, there'll be no escape.",
 	},
 
 	thirdParty: {

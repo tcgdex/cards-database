@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Tangela",
-		fr: "Saquedeneu",
-		es: "Tangela",
-		it: "Tangela",
-		pt: "Tangela",
-		de: "Tangela"
+		'en-us': "Tangela",
+		'fr-fr': "Saquedeneu",
+		'es-es': "Tangela",
+		'it-it': "Tangela",
+		'pt-br': "Tangela",
+		'de-de': "Tangela"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bind",
-				fr: "Étreinte",
-				es: "Atadura",
-				it: "Legatutto",
-				pt: "Ligação",
-				de: "Klammergriff"
+				'en-us': "Bind",
+				'fr-fr': "Étreinte",
+				'es-es': "Atadura",
+				'it-it': "Legatutto",
+				'pt-br': "Ligação",
+				'de-de': "Klammergriff"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -60,20 +60,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Powder",
-				fr: "Poudre Toxik",
-				es: "Polvo Veneno",
-				it: "Velenpolvere",
-				pt: "Pó Venenoso",
-				de: "Giftpuder"
+				'en-us': "Poison Powder",
+				'fr-fr': "Poudre Toxik",
+				'es-es': "Polvo Veneno",
+				'it-it': "Velenpolvere",
+				'pt-br': "Pó Venenoso",
+				'de-de': "Giftpuder"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+				'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 			damage: 30,
 
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Blue plant vines cloak the Pokémon's identity in a tangled mass. It entangles anything that gets close.",
+		'en-us': "Blue plant vines cloak the Pokémon's identity in a tangled mass. It entangles anything that gets close.",
 	},
 
 	thirdParty: {

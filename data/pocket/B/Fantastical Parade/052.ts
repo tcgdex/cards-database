@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [311],
 
 	name: {
-		en: "Plusle"
+		'en-us': "Plusle"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "This Pokémon absorbs electricity from telephone\npoles. It shorts out the electricity stored inside its\nbody to create noises."
+		'en-us': "This Pokémon absorbs electricity from telephone\npoles. It shorts out the electricity stored inside its\nbody to create noises."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Electric Tail"
+			'en-us': "Electric Tail"
 		},
 
 		damage: 10,
 		cost: ["Lightning"],
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
 		}
 	}],
 

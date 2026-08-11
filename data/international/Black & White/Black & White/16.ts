@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Tepig",
-		fr: "Gruikui",
-		es: "Tepig",
-		it: "Tepig",
-		pt: "Tepig",
-		de: "Floink"
+		'en-us': "Tepig",
+		'fr-fr': "Gruikui",
+		'es-es': "Tepig",
+		'it-it': "Tepig",
+		'pt-br': "Tepig",
+		'de-de': "Floink"
 	},
 
 	illustrator: "5ban Graphics",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s’inflige 10 dégâts.",
+				'en-us': "This Pokémon does 10 damage to itself.",
+				'fr-fr': "Ce Pokémon s’inflige 10 dégâts.",
 			},
 			damage: 30,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It can deftly dodge its foe's attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
+		'en-us': "It can deftly dodge its foe's attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
 	},
 
 	thirdParty: {

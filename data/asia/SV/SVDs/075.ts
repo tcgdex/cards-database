@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ดีอ็อกซิส",
-		id: "Deoxys"
+		'th-th': "ดีอ็อกซิส",
+		'id-id': "Deoxys"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		th: "ไวรัสอวกาศกลายพันธุ์อย่างฉับพลันแล้วกลายเป็นโปเกมอน จะปรากฏตัวอยู่ใกล้ ๆ ออโรร่า",
-		id: "Virus angkasa luar yang mengalami mutasi dan menjadi Pokémon. Deoxys muncul di dekat aurora."
+		'th-th': "ไวรัสอวกาศกลายพันธุ์อย่างฉับพลันแล้วกลายเป็นโปเกมอน จะปรากฏตัวอยู่ใกล้ ๆ ออโรร่า",
+		'id-id': "Virus angkasa luar yang mengalami mutasi dan menjadi Pokémon. Deoxys muncul di dekat aurora."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ไซโคพันช์",
-			id: "Pukulan Psikis"
+			'th-th': "ไซโคพันช์",
+			'id-id': "Pukulan Psikis"
 		},
 
 		damage: 30,
 		cost: ["Psychic"]
 	}, {
 		name: {
-			th: "จีโนมสไปรัล",
-			id: "Genome Spiral"
+			'th-th': "จีโนมสไปรัล",
+			'id-id': "Genome Spiral"
 		},
 
 		effect: {
-			th: "นำพลังงานที่ติดอยู่กับโปเกมอนนี้ทั้งหมด ย้ายไปติดกับโปเกมอนบนเบนช์ตามชอบ",
-			id: "Pindahkan sesukanya semua Energi yang dikenakan pada Pokémon ini ke Pokémon Cadangan."
+			'th-th': "นำพลังงานที่ติดอยู่กับโปเกมอนนี้ทั้งหมด ย้ายไปติดกับโปเกมอนบนเบนช์ตามชอบ",
+			'id-id': "Pindahkan sesukanya semua Energi yang dikenakan pada Pokémon ini ke Pokémon Cadangan."
 		},
 
 		damage: 120,

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Shuppet",
-		fr: "Polichombr",
+		'en-us': "Shuppet",
+		'fr-fr': "Polichombr",
 	},
 	illustrator: "sui",
 	rarity: "Shiny rare",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d’Boule",
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d’Boule",
 			},
 
 			damage: 10,
@@ -41,8 +41,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Will-O-Wisp",
-				fr: "Feu Follet",
+				'en-us': "Will-O-Wisp",
+				'fr-fr': "Feu Follet",
 			},
 
 			damage: 20,
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live.",
+		'en-us': "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live.",
 	},
 }
 

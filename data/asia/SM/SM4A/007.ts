@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コイキング",
+		'ja-jp': "コイキング",
 	},
 
 	illustrator: "TOKIYA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "力は 弱く 頼りないのに 繁殖力だけ 物凄い。 飽きるほど みかけるぞ。",
+		'ja-jp': "力は 弱く 頼りないのに 繁殖力だけ 物凄い。 飽きるほど みかけるぞ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "もぐる" },
 			effect: {
-				ja: "このポケモンは、ベンチにいるかぎり、ワザのダメージを受けない。",
+				'ja-jp': "このポケモンは、ベンチにいるかぎり、ワザのダメージを受けない。",
 			},
 		},
 	],
@@ -33,7 +33,7 @@ const card: Card = {
 			name: { ja: "たきのぼりしんか" },
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。",
+				'ja-jp': "このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。",
 			},
 		},
 	],

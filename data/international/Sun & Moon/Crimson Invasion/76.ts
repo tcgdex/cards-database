@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Hakamo-o",
-		fr: "Écaïd",
-		es: "Hakamo-o",
-		it: "Hakamo-o",
-		pt: "Hakamo-o",
-		de: "Mediras"
+		'en-us': "Hakamo-o",
+		'fr-fr': "Écaïd",
+		'es-es': "Hakamo-o",
+		'it-it': "Hakamo-o",
+		'pt-br': "Hakamo-o",
+		'de-de': "Mediras"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Jangmo-o",
-		fr: "Bébécaille",
+		'en-us': "Jangmo-o",
+		'fr-fr': "Bébécaille",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Noble Roar",
-				fr: "Râle Mâle",
-				es: "Rugido de Guerra",
-				it: "Urlo",
-				pt: "Rugido Nobre",
-				de: "Kampfgebrüll"
+				'en-us': "Noble Roar",
+				'fr-fr': "Râle Mâle",
+				'es-es': "Rugido de Guerra",
+				'it-it': "Urlo",
+				'pt-br': "Rugido Nobre",
+				'de-de': "Kampfgebrüll"
 			},
 			effect: {
-				en: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif avec l’un de ses Pokémon de Banc.",
-				es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
-				it: "Il tuo avversario scambia il suo Pokémon attivo con uno dei suoi Pokémon in panchina.",
-				pt: "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
-				de: "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange son Pokémon Actif avec l’un de ses Pokémon de Banc.",
+				'es-es': "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
+				'it-it': "Il tuo avversario scambia il suo Pokémon attivo con uno dei suoi Pokémon in panchina.",
+				'pt-br': "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
+				'de-de': "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 
 		},
@@ -62,12 +62,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Dragon Claw",
-				fr: "Dracogriffe",
-				es: "Garra Dragón",
-				it: "Dragartigli",
-				pt: "Garra de Dragão",
-				de: "Drachenklaue"
+				'en-us': "Dragon Claw",
+				'fr-fr': "Dracogriffe",
+				'es-es': "Garra Dragón",
+				'it-it': "Dragartigli",
+				'pt-br': "Garra de Dragão",
+				'de-de': "Drachenklaue"
 			},
 
 			damage: 40,
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It leaps at its prey with a courageous shout. Its scaly punches tear its opponents to shreds.",
+		'en-us': "It leaps at its prey with a courageous shout. Its scaly punches tear its opponents to shreds.",
 	},
 
 	thirdParty: {

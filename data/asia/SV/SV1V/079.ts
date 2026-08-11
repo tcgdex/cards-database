@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1V"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "タマンチュラ"
+		'ja-jp': "タマンチュラ"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "お尻から 出す 糸は ワイヤーに 匹敵する 強度。 強さの 秘密が 研究されているのだ。"
+		'ja-jp': "お尻から 出す 糸は ワイヤーに 匹敵する 強度。 強さの 秘密が 研究されているのだ。"
 	},
 
 	stage: "Basic",
@@ -24,13 +24,13 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "いとをはく"
+			'ja-jp': "いとをはく"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。"
+			'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。"
 		}
 	}],
 

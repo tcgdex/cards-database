@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガラルの仲間たち",
+		'ja-jp': "ガラルの仲間たち",
 		'zh-tw': "伽勒爾的夥伴",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札を3枚引く。",
+		'ja-jp': "自分の山札を3枚引く。",
 		'zh-tw': "從自己的牌庫抽出3張卡。",
 	},
 

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Magikarp",
-		fr: "Magicarpe",
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Splash",
-				fr: "Trempette",
+				'en-us': "Splash",
+				'fr-fr': "Trempette",
 			},
 
 			damage: 10,
@@ -49,7 +49,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "In the distant past, they were fairly strong, but they have become gradually weaker over time.",
+		'en-us': "In the distant past, they were fairly strong, but they have become gradually weaker over time.",
 	},
 
 	thirdParty: {

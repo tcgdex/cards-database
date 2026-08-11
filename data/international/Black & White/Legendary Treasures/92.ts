@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Altaria",
+		'en-us': "Altaria",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Swablu",
+		'en-us': "Swablu",
 	},
 
 	stage: "Stage1",
@@ -34,7 +34,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Speed Dive",
+				'en-us': "Speed Dive",
 			},
 
 			damage: 20,
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cleave",
+				'en-us': "Cleave",
 			},
 			effect: {
-				en: "Flip 2 coins. If both of them are heads, discard all Energy attached to the Defending Pokémon.",
+				'en-us': "Flip 2 coins. If both of them are heads, discard all Energy attached to the Defending Pokémon.",
 			},
 			damage: 40,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.",
+		'en-us': "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.",
 	},
 
 	thirdParty: {

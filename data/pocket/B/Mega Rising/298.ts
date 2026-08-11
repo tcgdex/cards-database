@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Articuno"
+		'en-us': "Articuno"
 	},
 
 	illustrator: "Taiga Kasai",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It's said that this Pokémon's beautiful blue wings\nare made of ice. Articuno flies over snowy\nmountains, its long tail fluttering along behind it."
+		'en-us': "It's said that this Pokémon's beautiful blue wings\nare made of ice. Articuno flies over snowy\nmountains, its long tail fluttering along behind it."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Ice Beam"
+			'en-us': "Ice Beam"
 		},
 
 		damage: 60,
 		cost: ["Water", "Water", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
 		}
 	}],
 

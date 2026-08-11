@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Mandibuzz",
-		fr: "Vaututrice",
-		es: "Mandibuzz",
-		it: "Mandibuzz",
-		pt: "Mandibuzz",
-		de: "Grypheldis"
+		'en-us': "Mandibuzz",
+		'fr-fr': "Vaututrice",
+		'es-es': "Mandibuzz",
+		'it-it': "Mandibuzz",
+		'pt-br': "Mandibuzz",
+		'de-de': "Grypheldis"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vullaby",
-		fr: "Vostourno",
+		'en-us': "Vullaby",
+		'fr-fr': "Vostourno",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Bone Rush",
-				fr: "Charge-Os",
+				'en-us': "Bone Rush",
+				'fr-fr': "Charge-Os",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 30,
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Pulse",
-				fr: "Vibrobscur",
+				'en-us': "Dark Pulse",
+				'fr-fr': "Vibrobscur",
 			},
 			effect: {
-				en: "Does 10 more damage for each Darkness Energy attached to all of your Pokémon.",
-				fr: "Inflige 10 dégâts supplémentaires pour chaque Énergie Darkness attachée à tous vos Pokémon.",
+				'en-us': "Does 10 more damage for each Darkness Energy attached to all of your Pokémon.",
+				'fr-fr': "Inflige 10 dégâts supplémentaires pour chaque Énergie Darkness attachée à tous vos Pokémon.",
 			},
 			damage: 20,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Watching from the sky, they swoop to strike weakened Pokémon on the ground. They decorate themselves with bones.",
+		'en-us': "Watching from the sky, they swoop to strike weakened Pokémon on the ground. They decorate themselves with bones.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Vault'
 
 const card: Card = {
 	name: {
-		en: "Latios",
-		fr: "Latios",
+		'en-us': "Latios",
+		'fr-fr': "Latios",
 	},
 
 	illustrator: "Ryo Ueda",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sky Blade",
-				fr: "Lame Céleste",
+				'en-us': "Sky Blade",
+				'fr-fr': "Lame Céleste",
 			},
 			effect: {
-				en: "If Latias is on your Bench, this attack does 20 more damage.",
-				fr: "Si Latias est sur votre Banc, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "If Latias is on your Bench, this attack does 20 more damage.",
+				'fr-fr': "Si Latias est sur votre Banc, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -48,8 +48,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Speed Wing",
-				fr: "Ailes Vives",
+				'en-us': "Speed Wing",
+				'fr-fr': "Ailes Vives",
 			},
 
 			damage: 60,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A highly intelligent Pokémon. By folding back its wings in flight, it can overtake jet planes.",
+		'en-us': "A highly intelligent Pokémon. By folding back its wings in flight, it can overtake jet planes.",
 	},
 
 	thirdParty: {

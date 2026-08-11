@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Rhyperior E4",
-		fr: "Rhinastoc  Niv. 55",
-		de: "Rihornior 4"
+		'en-us': "Rhyperior E4",
+		'fr-fr': "Rhinastoc  Niv. 55",
+		'de-de': "Rihornior 4"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
@@ -28,14 +28,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Lariat",
-				fr: "Double lasso",
-				de: "Doppel-Lasso"
+				'en-us': "Double Lariat",
+				'fr-fr': "Double lasso",
+				'de-de': "Doppel-Lasso"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "30x",
 
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Tumble",
-				fr: "Roule-pierre",
-				de: "Rollende Felsen"
+				'en-us': "Rock Tumble",
+				'fr-fr': "Roule-pierre",
+				'de-de': "Rollende Felsen"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'de-de': "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 60,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アオキのノコッチ",
+		'ja-jp': "アオキのノコッチ",
 	},
 
 	illustrator: "0313",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "だれかに 姿を 見られると 尻尾で 穴を掘って 逃げだす。 羽で 少しだけ 浮かべる。",
+		'ja-jp': "だれかに 姿を 見られると 尻尾で 穴を掘って 逃げだす。 羽で 少しだけ 浮かべる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、20ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、20ダメージ追加。",
 			},
 		},
 	],

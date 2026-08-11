@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポケモンだいすきクラブ",
+		'ja-jp': "ポケモンだいすきクラブ",
 	},
 
 	illustrator: "Sanosuke Sakuma",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札からたねポケモンを2枚まで選び、相手に見せてから、手札に加える。そして山札を切る。",
+		'ja-jp': "自分の山札からたねポケモンを2枚まで選び、相手に見せてから、手札に加える。そして山札を切る。",
 	},
 
 	variants: [

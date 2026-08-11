@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Toxel"
+		'id-id': "Toxel"
 	},
 
 	illustrator: "Yuka Morii",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Toxel egois dan sangat manja. Pokémon ini menyimpan racun dan listrik secara masing-masing pada 2 kantong yang ada di dalam tubuhnya."
+		'id-id': "Toxel egois dan sangat manja. Pokémon ini menyimpan racun dan listrik secara masing-masing pada 2 kantong yang ada di dalam tubuhnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Serudukan Semaunya"
+			'id-id': "Serudukan Semaunya"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal."
 		},
 
 		damage: 60,

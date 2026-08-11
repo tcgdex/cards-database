@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Weedle",
-		fr: "Aspicot",
-		es: "Weedle",
-		it: "Weedle",
-		pt: "Weedle",
-		de: "Hornliu"
+		'en-us': "Weedle",
+		'fr-fr': "Aspicot",
+		'es-es': "Weedle",
+		'it-it': "Weedle",
+		'pt-br': "Weedle",
+		'de-de': "Hornliu"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Tangle Drag",
-				fr: "Lasso Piège",
-				es: "Arrastre Enmarañado",
-				it: "Trascinavvolgi",
-				pt: "Arrastar e Entrelaçar",
-				de: "Wirrzieher"
+				'en-us': "Tangle Drag",
+				'fr-fr': "Lasso Piège",
+				'es-es': "Arrastre Enmarañado",
+				'it-it': "Trascinavvolgi",
+				'pt-br': "Arrastar e Entrelaçar",
+				'de-de': "Wirrzieher"
 			},
 			effect: {
-				en: "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.",
-				fr: "Échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
-				es: "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
-				it: "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
-				pt: "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
-				de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
+				'en-us': "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon.",
+				'fr-fr': "Échangez l’un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
+				'es-es': "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
+				'it-it': "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
+				'pt-br': "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
+				'de-de': "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
 			},
 
 		},
@@ -56,12 +56,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Bug Bite",
-				fr: "Piqûre",
-				es: "Picadura",
-				it: "Coleomorso",
-				pt: "Picada",
-				de: "Käferbiss"
+				'en-us': "Bug Bite",
+				'fr-fr': "Piqûre",
+				'es-es': "Picadura",
+				'it-it': "Coleomorso",
+				'pt-br': "Picada",
+				'de-de': "Käferbiss"
 			},
 
 			damage: 10,
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
+		'en-us': "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
 	},
 
 	thirdParty: {

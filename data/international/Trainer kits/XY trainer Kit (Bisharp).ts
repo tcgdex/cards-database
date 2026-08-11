@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Trainer kits'
 
 const set: Set = {
 	id: "tk-xy-b",
 
 	name: {
-		en: "XY trainer Kit (Bisharp)",
-		it: "XY trainer Kit (Bisharp)",
-		fr: "XY Kit du dresseur (Scalproie)",
-		es: "Kit de Entrenador XY (Bisharp)",
+		'en-us': "XY trainer Kit (Bisharp)",
+		'it-it': "XY trainer Kit (Bisharp)",
+		'fr-fr': "XY Kit du dresseur (Scalproie)",
+		'es-es': "Kit de Entrenador XY (Bisharp)",
 	},
 
 	serie: serie,
@@ -21,7 +21,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "TK7A",
-		fr: "SCA"
+		'fr-fr': "SCA"
 	},
 
 	thirdParty: {

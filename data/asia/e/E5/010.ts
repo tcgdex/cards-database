@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "nidoqueen",
+		'ja-jp': "nidoqueen",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "進化ヘルパー",
+				'ja-jp': "進化ヘルパー",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前に）一度、Nidoqueenがベンチにいる場合は、アクティブなPokmonから進化するカードをデッキで検索し、アクティブなPokmonに取り付けることができます。 （これはポクモンの進化としてカウントされます。）その後、デッキをシャッフルします。",
+				'ja-jp': "ターン中（攻撃の前に）一度、Nidoqueenがベンチにいる場合は、アクティブなPokmonから進化するカードをデッキで検索し、アクティブなPokmonに取り付けることができます。 （これはポクモンの進化としてカウントされます。）その後、デッキをシャッフルします。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless", "Colorless"],
 			name: {
-				ja: "二重爪",
+				'ja-jp': "二重爪",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は30のダメージとヘッドごとに20のダメージを与えます",
+				'ja-jp': "2つのコインをフリップします。この攻撃は30のダメージとヘッドごとに20のダメージを与えます",
 			},
 		},
 	],

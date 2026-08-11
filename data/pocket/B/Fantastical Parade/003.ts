@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [213],
 
 	name: {
-		en: "Shuckle"
+		'en-us': "Shuckle"
 	},
 
 	illustrator: "Yuriko Akase",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "The berries stored in its vaselike shell eventually\nbecome a thick, pulpy juice."
+		'en-us': "The berries stored in its vaselike shell eventually\nbecome a thick, pulpy juice."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Guard Press"
+			'en-us': "Guard Press"
 		},
 
 		damage: 40,
 		cost: ["Grass", "Grass"],
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes −20 damage from attacks."
+			'en-us': "During your opponent's next turn, this Pokémon takes −20 damage from attacks."
 		}
 	}],
 

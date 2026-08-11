@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pancham",
-		fr: "Pandespiègle",
-		es: "Pancham",
-		it: "Pancham",
-		pt: "Pancham",
-		de: "Pam-Pam"
+		'en-us': "Pancham",
+		'fr-fr': "Pandespiègle",
+		'es-es': "Pancham",
+		'it-it': "Pancham",
+		'pt-br': "Pancham",
+		'de-de': "Pam-Pam"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Chop",
-			fr: "Coup Tranchant",
-			es: "Cortar",
-			it: "Ceffone",
-			pt: "Trincar",
-			de: "Hacker"
+			'en-us': "Chop",
+			'fr-fr': "Coup Tranchant",
+			'es-es': "Cortar",
+			'it-it': "Ceffone",
+			'pt-br': "Trincar",
+			'de-de': "Hacker"
 		},
 
 		damage: 30
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It chooses a Pangoro as its master and then imitates its master's actions. This is how it learns to battle and hunt for prey.",
+		'en-us': "It chooses a Pangoro as its master and then imitates its master's actions. This is how it learns to battle and hunt for prey.",
 	},
 
 	

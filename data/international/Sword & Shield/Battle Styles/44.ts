@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Electabuzz",
-		fr: "Élektek",
-		es: "Electabuzz",
-		it: "Electabuzz",
-		pt: "Electabuzz",
-		de: "Elektek"
+		'en-us': "Electabuzz",
+		'fr-fr': "Élektek",
+		'es-es': "Electabuzz",
+		'it-it': "Electabuzz",
+		'pt-br': "Electabuzz",
+		'de-de': "Elektek"
 	},
 
 	illustrator: "Hasuno",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Haymaker",
-			fr: "Coup de Poing Fracassant",
-			es: "Golpazo",
-			it: "Pugno Tremendo",
-			pt: "Golpe Arrasador",
-			de: "Schwinger"
+			'en-us': "Haymaker",
+			'fr-fr': "Coup de Poing Fracassant",
+			'es-es': "Golpazo",
+			'it-it': "Pugno Tremendo",
+			'pt-br': "Golpe Arrasador",
+			'de-de': "Schwinger"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use Haymaker.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup de Poing Fracassant.",
-			es: "Durante tu próximo turno, este Pokémon no puede usar Golpazo.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Pugno Tremendo.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Golpe Arrasador.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon Schwinger nicht einsetzen."
+			'en-us': "During your next turn, this Pokémon can't use Haymaker.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup de Poing Fracassant.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede usar Golpazo.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Pugno Tremendo.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar Golpe Arrasador.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon Schwinger nicht einsetzen."
 		},
 
 		damage: 30,
@@ -55,7 +55,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "While it's often blamed for power outages, the truth is the cause of outages is more often an error on the part of the electric company."
+		'en-us': "While it's often blamed for power outages, the truth is the cause of outages is more often an error on the part of the electric company."
 	},
 
 	variants: [

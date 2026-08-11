@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tepig",
-		fr: "Gruikui",
-		es: "Tepig",
+		'en-us': "Tepig",
+		'fr-fr': "Gruikui",
+		'es-es': "Tepig",
 		'es-mx': "Tepig",
-		de: "Floink",
-		it: "Tepig",
-		pt: "Tepig"
+		'de-de': "Floink",
+		'it-it': "Tepig",
+		'pt-br': "Tepig"
 	},
 
 	illustrator: "Saboteri",
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			en: "Ember",
-			fr: "Flammèche",
-			de: "Glut",
-			it: "Braciere",
-			es: "Ascuas",
-			pt: "Brasa",
+			'en-us': "Ember",
+			'fr-fr': "Flammèche",
+			'de-de': "Glut",
+			'it-it': "Braciere",
+			'es-es': "Ascuas",
+			'pt-br': "Brasa",
 			'es-mx': "Ascuas"
 		},
 

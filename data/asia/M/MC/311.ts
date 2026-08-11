@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラティアス",
+		'ja-jp': "ラティアス",
 	},
 
 	illustrator: "Takumi Wada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "テレパシーで 気持ちを 通わせる。 光を 屈折させる 羽毛で 体を 包み 姿を 消す。",
+		'ja-jp': "テレパシーで 気持ちを 通わせる。 光を 屈折させる 羽毛で 体を 包み 姿を 消す。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ひきつける" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を2枚引く。",
+				'ja-jp': "自分の山札を2枚引く。",
 			},
 		},
 		{

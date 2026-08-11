@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワルビアル",
+		'ja-jp': "ワルビアル",
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "砂嵐でも ５０キロ先に いる 小さな 獲物も 発見する 特殊な 両目を 持つ。",
+		'ja-jp': "砂嵐でも ５０キロ先に いる 小さな 獲物も 発見する 特殊な 両目を 持つ。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手の手札の枚数x20ダメージ追加。",
+				'ja-jp': "相手の手札の枚数x20ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。",
+				'ja-jp': "ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ワルビル",
+		'ja-jp': "ワルビル",
 	},
 
 	retreat: 3,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Surskit",
+		'ja-jp': "Surskit",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "敏ility性",
+				'ja-jp': "敏ility性",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、対戦相手の次のターン中にSurskitに行われた損害を含む攻撃のすべての影響を防ぎます。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、対戦相手の次のターン中にSurskitに行われた損害を含む攻撃のすべての影響を防ぎます。",
 			},
 			damage: 10,
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジバコイル",
+		'ja-jp': "ジバコイル",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "自分の テリトリーを レーダーで 監視 している。 侵入者は 破壊光線で ただちに 処分。",
+		'ja-jp': "自分の テリトリーを レーダーで 監視 している。 侵入者は 破壊光線で ただちに 処分。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ダブルタイプ" },
 			effect: {
-				ja: "このポケモンは、場にいるかぎり[雷]と[鋼]の2つのタイプになる。",
+				'ja-jp': "このポケモンは、場にいるかぎり[雷]と[鋼]の2つのタイプになる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のトラッシュにあるトレーナーズを1枚、相手に見せてから、手札に加える。",
+				'ja-jp': "自分のトラッシュにあるトレーナーズを1枚、相手に見せてから、手札に加える。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "レアコイル",
+		'ja-jp': "レアコイル",
 	},
 
 	retreat: 3,

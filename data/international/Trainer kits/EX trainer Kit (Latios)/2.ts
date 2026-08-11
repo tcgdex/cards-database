@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit (Latios)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Latios",
-		fr: "Latios"
+		'en-us': "Latios",
+		'fr-fr': "Latios"
 	},
 
 	illustrator: "Kyoko Koizumi",
@@ -26,12 +26,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Gather Energy",
-			fr: "Rassemblement d'énergie"
+			'en-us': "Gather Energy",
+			'fr-fr': "Rassemblement d'énergie"
 		},
 		effect: {
-			en: "Flip a coin. If heads, search your deck for a basic Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
-			fr: "Lancez une pièce. Si c'est face, choisissez dans votre deck une carte Énergie de base et attachez-la à 1 de vos Pokémon. Ensuite, mélangez votre deck."
+			'en-us': "Flip a coin. If heads, search your deck for a basic Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
+			'fr-fr': "Lancez une pièce. Si c'est face, choisissez dans votre deck une carte Énergie de base et attachez-la à 1 de vos Pokémon. Ensuite, mélangez votre deck."
 		},
 		damage: 20
 	}, {
@@ -41,8 +41,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Dragon Claw",
-			fr: "Griffe de dragon"
+			'en-us': "Dragon Claw",
+			'fr-fr': "Griffe de dragon"
 		},
 		damage: 40
 	}],

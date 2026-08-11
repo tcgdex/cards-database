@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Scarabrute",
+		'fr-fr': "Scarabrute",
 	},
 
 	rarity: "None",
@@ -29,17 +29,17 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				fr: "Empoigne Puissante"
+				'fr-fr': "Empoigne Puissante"
 			},
 			damage: 20,
 			effect: {
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
 			}
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				fr: "Enfoncement"
+				'fr-fr': "Enfoncement"
 			},
 			damage: 70,
 		},

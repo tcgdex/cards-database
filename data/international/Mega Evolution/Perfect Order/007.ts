@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
@@ -7,13 +7,13 @@ const card: Card = {
 	dexId: [664],
 
 	name: {
-		en: "Scatterbug",
-		fr: "Lépidonille",
-		es: "Scatterbug",
+		'en-us': "Scatterbug",
+		'fr-fr': "Lépidonille",
+		'es-es': "Scatterbug",
 		'es-mx': "Scatterbug",
-		de: "Purmel",
-		it: "Scatterbug",
-		pt: "Scatterbug"
+		'de-de': "Purmel",
+		'it-it': "Scatterbug",
+		'pt-br': "Scatterbug"
 	},
 
 	illustrator: "OKACHEKE",
@@ -27,13 +27,13 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Gnaw",
-			fr: "Ronge",
-			es: "Roer",
+			'en-us': "Gnaw",
+			'fr-fr': "Ronge",
+			'es-es': "Roer",
 			'es-mx': "Mordisquear",
-			de: "Nagen",
-			it: "Rosicchiamento",
-			pt: "Roída"
+			'de-de': "Nagen",
+			'it-it': "Rosicchiamento",
+			'pt-br': "Roída"
 		},
 
 		damage: 20

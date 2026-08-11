@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラビフット",
+		'ja-jp': "ラビフット",
 		'zh-tw': "騰蹴小將",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "手を 使わずに 木の 枝から 木の実を 摘み取り リフティング。 足技を 磨く 練習。",
+		'ja-jp': "手を 使わずに 木の 枝から 木の実を 摘み取り リフティング。 足技を 磨く 練習。",
 		'zh-tw': "會用腳把樹果從樹木上踢落，用來練習挑球，藉此鍛鍊自己的腳法。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ボレーキック",
+				'ja-jp': "ボレーキック",
 				'zh-tw': "同步光炮",
 			},
 			damage: 60,
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 				'zh-tw': "若自己的手牌的張數與對手的手牌的張數相同，則增加80點傷害。",
 			},
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒバニー",
+		'ja-jp': "ヒバニー",
 	},
 
 	retreat: 1,

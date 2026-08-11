@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Kingdra",
-		de: "Seedraking"
+		'en-us': "Kingdra",
+		'de-de': "Seedraking"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -23,7 +23,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Seadra",
+		'en-us': "Seadra",
 	},
 
 	stage: "Stage2",
@@ -32,12 +32,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Dragon Veil",
-				de: "Dragon Veil"
+				'en-us': "Dragon Veil",
+				'de-de': "Dragon Veil"
 			},
 			effect: {
-				en: "As long as Kingdra is in play, each of your Active Pokémon has no Weakness.",
-				de: "As long as Kingdra is in play, each of your Active Pokémon has no Weakness."
+				'en-us': "As long as Kingdra is in play, each of your Active Pokémon has no Weakness.",
+				'de-de': "As long as Kingdra is in play, each of your Active Pokémon has no Weakness."
 			},
 		},
 	],
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Whirlpool",
-				de: "Hyper Whirlpool"
+				'en-us': "Hyper Whirlpool",
+				'de-de': "Hyper Whirlpool"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. For each heads, discard an Energy card attached to the Defending Pokémon.",
-				de: "Flip a coin until you get tails. For each heads, discard an Energy card attached to the Defending Pokémon."
+				'en-us': "Flip a coin until you get tails. For each heads, discard an Energy card attached to the Defending Pokémon.",
+				'de-de': "Flip a coin until you get tails. For each heads, discard an Energy card attached to the Defending Pokémon."
 			},
 			damage: 20,
 
@@ -66,12 +66,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Sonic",
-				de: "Aqua Sonic"
+				'en-us': "Aqua Sonic",
+				'de-de': "Aqua Sonic"
 			},
 			effect: {
-				en: "This attack's damage is not affected by Resistance.",
-				de: "This attack's damage is not affected by Resistance."
+				'en-us': "This attack's damage is not affected by Resistance.",
+				'de-de': "This attack's damage is not affected by Resistance."
 			},
 			damage: 50,
 

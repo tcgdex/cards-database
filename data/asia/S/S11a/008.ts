@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒスイ ドレディア",
+		'ja-jp': "ヒスイ ドレディア",
 		'zh-tw': "洗翠 裙兒小姐",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "雪深き山に 棲みしゆえに 脚力が 発達したと 考察す。 周囲の者を 鼓舞する 香りを 冠の花より 放つ。",
+		'ja-jp': "雪深き山に 棲みしゆえに 脚力が 発達したと 考察す。 周囲の者を 鼓舞する 香りを 冠の花より 放つ。",
 		'zh-tw': "據考察，雪山深處的棲息環境為其帶來了發達的腳力。會從頭冠般的花中發出鼓舞周遭夥伴的香氣。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "みなぎるかおり",
+				'ja-jp': "みなぎるかおり",
 				'zh-tw': "充溢香氣",
 			},
 			cost: [],
 			effect: {
-				ja: "自分の山札から[G]エネルギーを2枚まで選び、ベンチポケモンに好きなようにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から[G]エネルギーを2枚まで選び、ベンチポケモンに好きなようにつける。そして山札を切る。",
 				'zh-tw': "從自己的牌庫選擇最多2張【草】能量卡，以任意方式附於備戰寶可夢身上。並且重洗牌庫。",
 			},
 		},
 		{
 			name: {
-				ja: "かいてんげり",
+				'ja-jp': "かいてんげり",
 				'zh-tw': "迴轉踢",
 			},
 			damage: 50,
@@ -63,7 +63,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チュリネ",
+		'ja-jp': "チュリネ",
 	},
 
 	retreat: 1,

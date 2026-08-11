@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Honedge",
-		fr: "Monorpale",
+		'en-us': "Honedge",
+		'fr-fr': "Monorpale",
 	},
 
 	illustrator: "5ban Graphics",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swords Dance",
-				fr: "Danse-Lames",
+				'en-us': "Swords Dance",
+				'fr-fr': "Danse-Lames",
 			},
 			effect: {
-				en: "During your next turn, this Pokémon's Slash attack's base damage is 40.",
-				fr: "Pendant votre prochain tour, les dégâts de base de l'attaque Tranche de ce Pokémon sont de 40.",
+				'en-us': "During your next turn, this Pokémon's Slash attack's base damage is 40.",
+				'fr-fr': "Pendant votre prochain tour, les dégâts de base de l'attaque Tranche de ce Pokémon sont de 40.",
 			},
 
 		},
@@ -45,8 +45,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
 			},
 
 			damage: 20,
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Apparently this Pokémon is born when a departed spirit inhabits a sword. It attaches itself to people and drinks their life force.",
+		'en-us': "Apparently this Pokémon is born when a departed spirit inhabits a sword. It attaches itself to people and drinks their life force.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Grotle",
-		fr: "Boskara",
-		de: "Chelcarain"
+		'en-us': "Grotle",
+		'fr-fr': "Boskara",
+		'de-de': "Chelcarain"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Turtwig",
-		fr: "Tortipouss"
+		'en-us': "Turtwig",
+		'fr-fr': "Tortipouss"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Absorb",
-				fr: "Vol-vie",
-				de: "Absorb"
+				'en-us': "Absorb",
+				'fr-fr': "Vol-vie",
+				'de-de': "Absorb"
 			},
 			effect: {
-				en: "Remove 1 damage counter from Grotle.",
-				fr: "Retirez à Boskara 1 marqueur de dégât.",
-				de: "Remove 1 damage counter from Grotle."
+				'en-us': "Remove 1 damage counter from Grotle.",
+				'fr-fr': "Retirez à Boskara 1 marqueur de dégât.",
+				'de-de': "Remove 1 damage counter from Grotle."
 			},
 			damage: 30,
 
@@ -54,9 +54,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'herbe",
-				de: "Razor Leaf"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'herbe",
+				'de-de': "Razor Leaf"
 			},
 
 			damage: 60,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It knows where pure water wells up. It carries fellow Pokémon there on its back."
+		'en-us': "It knows where pure water wells up. It carries fellow Pokémon there on its back."
 	},
 
 	variants: [

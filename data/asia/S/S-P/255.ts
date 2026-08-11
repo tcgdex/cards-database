@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒバニー",
+		'ja-jp': "ヒバニー",
 	},
 
 	illustrator: "Taira Akitsu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "戦う 準備が 整うと 鼻の 頭と 足の 裏の 肉球が 高熱を 発する。",
+		'ja-jp': "戦う 準備が 整うと 鼻の 頭と 足の 裏の 肉球が 高熱を 発する。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "メラメラダッシュ" },
 			cost: ["Fire"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数ぶん、自分の山札を引く。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数ぶん、自分の山札を引く。",
 			},
 		},
 		{

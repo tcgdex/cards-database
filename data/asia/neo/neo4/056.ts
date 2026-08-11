@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "暗いexeggutor",
+		'ja-jp': "暗いexeggutor",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "トリプルヘッドバット",
+				'ja-jp': "トリプルヘッドバット",
 			},
 			effect: {
-				ja: "3コインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "3コインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "マックスバースト",
+				'ja-jp': "マックスバースト",
 			},
 			effect: {
-				ja: "相手のポケモンに取り付けられたエネルギーカードの数に等しい数のコインをひっくり返します。この攻撃は、ヘッド数の20倍のダメージを与えます。",
+				'ja-jp': "相手のポケモンに取り付けられたエネルギーカードの数に等しい数のコインをひっくり返します。この攻撃は、ヘッド数の20倍のダメージを与えます。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マダツボミ",
+		'ja-jp': "マダツボミ",
 	},
 
 	illustrator: "Masako Yamashita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "人の 顔のような つぼみから 伝説の マンドラゴラの 一種ではないかと ささやかれている。",
+		'ja-jp': "人の 顔のような つぼみから 伝説の マンドラゴラの 一種ではないかと ささやかれている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「10」回復する。",
+				'ja-jp': "このポケモンのHPを「10」回復する。",
 			},
 		},
 	],

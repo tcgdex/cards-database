@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เนโอแลนท์",
-		id: "Lumineon"
+		'th-th': "เนโอแลนท์",
+		'id-id': "Lumineon"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		th: "เนโอแลนท์ที่ส่องแสงอยู่ก้นทะเลลึกนั้นดูเหมือนดาวที่ส่องประกายบนท้องฟ้ายามค่ำคืน",
-		id: "Lumineon yang bersinar di dasar laut dalam terlihat seperti bintang-bintang yang menyinari langit malam."
+		'th-th': "เนโอแลนท์ที่ส่องแสงอยู่ก้นทะเลลึกนั้นดูเหมือนดาวที่ส่องประกายบนท้องฟ้ายามค่ำคืน",
+		'id-id': "Lumineon yang bersinar di dasar laut dalam terlihat seperti bintang-bintang yang menyinari langit malam."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "ทดแทนคุณ",
-			id: "Membalas Budi"
+			'th-th': "ทดแทนคุณ",
+			'id-id': "Membalas Budi"
 		},
 
 		effect: {
-			th: "หากต้องการ จั่วการ์ดจากสำรับการ์ด จนได้การ์ดบนมือฝ่ายเราเป็น 6 ใบ",
-			id: "Pemain dapat mengambil kartu dari atas Deck hingga jumlah Kartu Pegangan sendiri menjadi 6 lembar."
+			'th-th': "หากต้องการ จั่วการ์ดจากสำรับการ์ด จนได้การ์ดบนมือฝ่ายเราเป็น 6 ใบ",
+			'id-id': "Pemain dapat mengambil kartu dari atas Deck hingga jumlah Kartu Pegangan sendiri menjadi 6 lembar."
 		},
 
 		damage: 20,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "ครีบใบมีด",
-			id: "Sirip Pemotong"
+			'th-th': "ครีบใบมีด",
+			'id-id': "Sirip Pemotong"
 		},
 
 		damage: 70,

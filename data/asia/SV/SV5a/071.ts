@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "フィオネ"
+		'ja-jp': "フィオネ"
 	},
 
 	illustrator: "takashi shiraishi",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "海の 温度が 高くなると 頭の 浮き袋を ふくらませて 海面を 集団で 漂う。"
+		'ja-jp': "海の 温度が 高くなると 頭の 浮き袋を ふくらませて 海面を 集団で 漂う。"
 	},
 
 	stage: "Basic",
@@ -24,23 +24,23 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "まねきよせる"
+			'ja-jp': "まねきよせる"
 		},
 
 		effect: {
-			ja: "自分のトラッシュからサポートを1枚選び、相手に見せて、手札に加える。"
+			'ja-jp': "自分のトラッシュからサポートを1枚選び、相手に見せて、手札に加える。"
 		}
 	}, {
 		cost: ["Water"],
 
 		name: {
-			ja: "エナジープレス"
+			'ja-jp': "エナジープレス"
 		},
 
 		damage: "20×",
 
 		effect: {
-			ja: "相手のバトルポケモンについているエネルギーの数×20ダメージ。"
+			'ja-jp': "相手のバトルポケモンについているエネルギーの数×20ダメージ。"
 		}
 	}],
 

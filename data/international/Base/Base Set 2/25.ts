@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Electrode",
+		'en-us': "Electrode",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Voltorb",
+		'en-us': "Voltorb",
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Buzzap",
+				'en-us': "Buzzap",
 			},
 			effect: {
-				en: "At any time during your turn (before your attack) you may Knock Out Electrode and attach it to 1 of your other Pokémon. If you do, choose a type of Energy. Electrode is now an Energy card of that type (instead of a Pokémon) that provides 2 energy. This power can't be used if Electrode is Asleep, Confused, or Paralyzed.",
+				'en-us': "At any time during your turn (before your attack) you may Knock Out Electrode and attach it to 1 of your other Pokémon. If you do, choose a type of Energy. Electrode is now an Energy card of that type (instead of a Pokémon) that provides 2 energy. This power can't be used if Electrode is Asleep, Confused, or Paralyzed.",
 			},
 		},
 	],
@@ -47,10 +47,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Electric Shock",
+				'en-us': "Electric Shock",
 			},
 			effect: {
-				en: "Flip a coin. If tails, Electrode does 10 damage to itself.",
+				'en-us': "Flip a coin. If tails, Electrode does 10 damage to itself.",
 			},
 			damage: 50,
 
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It stores electrical energy under very high pressure. It often explodes with little or no provocation.",
+		'en-us': "It stores electrical energy under very high pressure. It often explodes with little or no provocation.",
 	},
 
 

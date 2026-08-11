@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Rapasdepic",
-		en: "Fearow",
-		es: "Fearow",
-		it: "Fearow",
-		pt: "Fearow",
-		de: "Ibitak"
+		'fr-fr': "Rapasdepic",
+		'en-us': "Fearow",
+		'es-es': "Fearow",
+		'it-it': "Fearow",
+		'pt-br': "Fearow",
+		'de-de': "Ibitak"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Colorless"],
 	evolveFrom: {
-		fr: "Piafabec",
-		en: "Spearow",
-		es: "Spearow",
-		it: "Spearow",
-		pt: "Spearow",
-		de: "Habitak"
+		'fr-fr': "Piafabec",
+		'en-us': "Spearow",
+		'es-es': "Spearow",
+		'it-it': "Spearow",
+		'pt-br': "Spearow",
+		'de-de': "Habitak"
 	},
 	stage: "Stage1",
 
@@ -32,32 +32,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Bec Gobeur",
-			en: "Beak Catch",
-			es: "Captura Pico",
-			it: "Catturbecco",
-			pt: "Captura de Bico",
-			de: "Schnabelfang"
+			'fr-fr': "Bec Gobeur",
+			'en-us': "Beak Catch",
+			'es-es': "Captura Pico",
+			'it-it': "Catturbecco",
+			'pt-br': "Captura de Bico",
+			'de-de': "Schnabelfang"
 		},
 
 		effect: {
-			fr: "Cherchez dans votre deck jusqu'à 3 cartes, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
-			en: "Search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.",
-			es: "Busca en tu baraja hasta 3 cartas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo fino a tre carte e aggiungile a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por até 3 cartas no seu baralho e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach bis zu 3 Karten und nimm sie auf deine Hand. Mische anschließend dein Deck."
+			'fr-fr': "Cherchez dans votre deck jusqu'à 3 cartes, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+			'en-us': "Search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.",
+			'es-es': "Busca en tu baraja hasta 3 cartas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo fino a tre carte e aggiungile a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por até 3 cartas no seu baralho e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach bis zu 3 Karten und nimm sie auf deine Hand. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Plongée Rapide",
-			en: "Speed Dive",
-			es: "Picado Rápido",
-			it: "Immersione Rapida",
-			pt: "Mergulho Veloz",
-			de: "Tempohechtsprung"
+			'fr-fr': "Plongée Rapide",
+			'en-us': "Speed Dive",
+			'es-es': "Picado Rápido",
+			'it-it': "Immersione Rapida",
+			'pt-br': "Mergulho Veloz",
+			'de-de': "Tempohechtsprung"
 		},
 
 		damage: 50
@@ -79,7 +79,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Carrying food through Fearow's territory is dangerous. It will snatch the food away from you in a flash!",
+		'en-us': "Carrying food through Fearow's territory is dangerous. It will snatch the food away from you in a flash!",
 	},
 
 	variants: [

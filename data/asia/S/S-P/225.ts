@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アップリュー",
+		'ja-jp': "アップリュー",
 		'zh-tw': "伽勒爾 喵喵",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "りんごの 皮の 翼で 飛んで 強酸性の 唾液を 飛ばす。 りんごの 形に 変形する。",
+		'ja-jp': "りんごの 皮の 翼で 飛んで 強酸性の 唾液を 飛ばす。 りんごの 形に 変形する。",
 		'zh-tw': "和好戰的海洋民族一起生活，久而久之身體的各個地方 就都變成了黑鐵。",
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "フライトアップ",
+				'ja-jp': "フライトアップ",
 				'zh-tw': "出爪",
 			},
 			cost: ["Fire"],
 			effect: {
-				ja: "自分のトラッシュから基本エネルギーを3枚まで選び、ベンチポケモン1匹につける。",
+				'ja-jp': "自分のトラッシュから基本エネルギーを3枚まで選び、ベンチポケモン1匹につける。",
 				'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。",
 			},
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Grass", "Fire"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 	],
@@ -56,7 +56,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カジッチュ",
+		'ja-jp': "カジッチュ",
 	},
 
 	retreat: 1,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ズバット",
+		'ja-jp': "ズバット",
 		'zh-tw': "超音蝠",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "口から 出す 超音波で まわりの 様子を 探る。 狭い 洞窟も 器用に 飛びまわる。",
+		'ja-jp': "口から 出す 超音波で まわりの 様子を 探る。 狭い 洞窟も 器用に 飛びまわる。",
 		'zh-tw': "會利用從口中發出的超音波探查周圍的狀況。在狹窄的 洞窟裡也能靈巧地飛來飛去。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かみつく",
+				'ja-jp': "かみつく",
 				'zh-tw': "咬住",
 			},
 			damage: 10,

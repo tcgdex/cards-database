@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "オコリザル",
+		'ja-jp': "オコリザル",
 		'zh-tw': "火爆猴",
-		id: "Primeape"
+		'id-id': "Primeape"
 	},
 
 	illustrator: "Scav",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ある研究者の 学説では モンスターボールの 中でも オコリザルは 怒っているらしい。",
+		'ja-jp': "ある研究者の 学説では モンスターボールの 中でも オコリザルは 怒っているらしい。",
 		'zh-tw': "某位研究者的學說中提到，即使在精靈球裡， 火爆猴好像也在發怒。",
-		id: "Menurut teori dari salah seorang peneliti, tampaknya Primeape juga mengamuk ketika berada di dalam Bola Pokémon."
+		'id-id': "Menurut teori dari salah seorang peneliti, tampaknya Primeape juga mengamuk ketika berada di dalam Bola Pokémon."
 	},
 
 	stage: "Stage1",
@@ -29,14 +29,14 @@ const card: Card = {
 		damage: 70,
 
 		effect: {
-			ja: "このポケモンにも20ダメージ。",
+			'ja-jp': "このポケモンにも20ダメージ。",
 			'zh-tw': "這隻寶可夢也受到20點傷害。",
-			id: "Pokémon ini juga menerima kerusakan sejumlah 20."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 20."
 		},
 
 		name: {
 			'zh-tw': "暴亂拳",
-			id: "Pukulan Mengamuk"
+			'id-id': "Pukulan Mengamuk"
 		}
 	}],
 

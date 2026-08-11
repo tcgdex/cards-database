@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヒノヤコマ"
+		'ja-jp': "ヒノヤコマ"
 	},
 
 	illustrator: "Atsushi Furusawa",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "虫ポケモンが 潜んでいそうな 草むらに 火の粉を まき散らして 飛び出してきたところを 捕まえる。"
+		'ja-jp': "虫ポケモンが 潜んでいそうな 草むらに 火の粉を まき散らして 飛び出してきたところを 捕まえる。"
 	},
 
 	stage: "Stage1",
@@ -24,13 +24,13 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "ヒートダイブ"
+			'ja-jp': "ヒートダイブ"
 		},
 
 		damage: 50,
 
 		effect: {
-			ja: "このポケモンにも10ダメージ。"
+			'ja-jp': "このポケモンにも10ダメージ。"
 		}
 	}],
 

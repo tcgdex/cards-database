@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Metal Energy",
-		fr: "Énergie Métal",
-		es: "Energía Metálica",
-		it: "Energia Metallo",
-		pt: "Energia de Metal",
-		de: "Metall-Energie"
+		'en-us': "Metal Energy",
+		'fr-fr': "Énergie Métal",
+		'es-es': "Energía Metálica",
+		'it-it': "Energia Metallo",
+		'pt-br': "Energia de Metal",
+		'de-de': "Metall-Energie"
 	},
 
 	rarity: "Secret Rare",

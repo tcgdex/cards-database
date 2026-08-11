@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Primeape",
-		fr: "Colossinge",
-		de: "Rasaff"
+		'en-us': "Primeape",
+		'fr-fr': "Colossinge",
+		'de-de': "Rasaff"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mankey",
-		fr: "Férosinge"
+		'en-us': "Mankey",
+		'fr-fr': "Férosinge"
 	},
 
 	stage: "Stage1",
@@ -36,15 +36,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Karate Chop",
-				fr: "Poing-Karaté",
-				de: "Karate Chop"
+				'en-us': "Karate Chop",
+				'fr-fr': "Poing-Karaté",
+				'de-de': "Karate Chop"
 			},
 
 			effect: {
-				en: "Damage from this attack is reduced by 10 for each damage counter on Primeape.",
-				fr: "Les dégâts de cette attaque sont réduits de 10 pour chaque marqueur de dégâts sur Colossinge.",
-				de: "Damage from this attack is reduced by 10 for each damage counter on Primeape."
+				'en-us': "Damage from this attack is reduced by 10 for each damage counter on Primeape.",
+				'fr-fr': "Les dégâts de cette attaque sont réduits de 10 pour chaque marqueur de dégâts sur Colossinge.",
+				'de-de': "Damage from this attack is reduced by 10 for each damage counter on Primeape."
 			},
 
 			damage: "40-"
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sudden Charge",
-				fr: "Charge soudaine",
-				de: "Sudden Charge"
+				'en-us': "Sudden Charge",
+				'fr-fr': "Charge soudaine",
+				'de-de': "Sudden Charge"
 			},
 			effect: {
-				en: "Primeape does 10 damage to itself. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
-				fr: "Colossinge s'inflige 30 dégâts. Ensuite, votre adversaire échange le Pokémon Défenseur contre un des Pokémon de son Banc, s'il en a.",
-				de: "Primeape does 10 damage to itself. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any."
+				'en-us': "Primeape does 10 damage to itself. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
+				'fr-fr': "Colossinge s'inflige 30 dégâts. Ensuite, votre adversaire échange le Pokémon Défenseur contre un des Pokémon de son Banc, s'il en a.",
+				'de-de': "Primeape does 10 damage to itself. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any."
 			},
 			damage: 40,
 

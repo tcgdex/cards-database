@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cherrim",
-		fr: "Ceriflor"
+		'en-us': "Cherrim",
+		'fr-fr': "Ceriflor"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Cherubi"
+		'en-us': "Cherubi"
 	},
 
 	description: {
-		en: "After absorbing plenty of sunlight, Cherrim takes\nthis form. It's full of energy while it's like this,\nand its liveliness will go on until sundown.",
-		fr: "Il prend cette forme lorsqu'il a fait le plein de soleil. Il déborde alors d'énergie et reste très actif jusqu'au crépuscule."
+		'en-us': "After absorbing plenty of sunlight, Cherrim takes\nthis form. It's full of energy while it's like this,\nand its liveliness will go on until sundown.",
+		'fr-fr': "Il prend cette forme lorsqu'il a fait le plein de soleil. Il déborde alors d'énergie et reste très actif jusqu'au crépuscule."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Seed Bomb",
-			fr: "Canon Graine"
+			'en-us': "Seed Bomb",
+			'fr-fr': "Canon Graine"
 		},
 
 		damage: 40,

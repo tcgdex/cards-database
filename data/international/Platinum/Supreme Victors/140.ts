@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "VS Seeker",
-		fr: "Cherche VS",
-		de: "Kampffahnder"
+		'en-us': "VS Seeker",
+		'fr-fr': "Cherche VS",
+		'de-de': "Kampffahnder"
 	},
 
 	illustrator: "Wataru Kawahara",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Search your discard pile for a Supporter card, show it to your opponent, and put it into your hand.",
-		fr: "Choisissez une carte Supporter dans votre pile de défausse, montrez-la à votre adversaire et placez-la dans votre main.",
-		de: "Durchsuche deinen Ablagestapel nach 1 Unterstützungskarte, zeige sie deinem Gegner und nimm sie auf die Hand."
+		'en-us': "Search your discard pile for a Supporter card, show it to your opponent, and put it into your hand.",
+		'fr-fr': "Choisissez une carte Supporter dans votre pile de défausse, montrez-la à votre adversaire et placez-la dans votre main.",
+		'de-de': "Durchsuche deinen Ablagestapel nach 1 Unterstützungskarte, zeige sie deinem Gegner und nimm sie auf die Hand."
 	},
 
 	trainerType: "Item",

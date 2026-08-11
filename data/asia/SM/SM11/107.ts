@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤドン&コダックGX",
+		'ja-jp': "ヤドン&コダックGX",
 	},
 
 	illustrator: "",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "40×",
 			cost: ["Water", "Water"],
 			effect: {
-				ja: "自分の手札にあるサポートを好きなだけトラッシュし、その枚数×40ダメージ。",
+				'ja-jp': "自分の手札にあるサポートを好きなだけトラッシュし、その枚数×40ダメージ。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Water", "Water"],
 			effect: {
-				ja: "コインを1回投げオモテなら、100ダメージ追加。追加で[水]エネルギーが6個ついているなら、このワザで投げるコインの数は10回になり、オモテの数×100ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "コインを1回投げオモテなら、100ダメージ追加。追加で[水]エネルギーが6個ついているなら、このワザで投げるコインの数は10回になり、オモテの数×100ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

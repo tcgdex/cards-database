@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Bronzong",
-		fr: "Archéodong",
-		es: "Bronzong",
-		it: "Bronzong",
-		pt: "Bronzong",
-		de: "Bronzong"
+		'en-us': "Bronzong",
+		'fr-fr': "Archéodong",
+		'es-es': "Bronzong",
+		'it-it': "Bronzong",
+		'pt-br': "Bronzong",
+		'de-de': "Bronzong"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bronzor",
-		fr: "Archéomire",
+		'en-us': "Bronzor",
+		'fr-fr': "Archéomire",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Psy Bolt",
-				fr: "Choc Mental",
-				es: "Rayo Psi",
-				it: "Psico",
-				pt: "Raio Psíquico",
-				de: "Mentale Blockade"
+				'en-us': "Psy Bolt",
+				'fr-fr': "Choc Mental",
+				'es-es': "Rayo Psi",
+				'it-it': "Psico",
+				'pt-br': "Raio Psíquico",
+				'de-de': "Mentale Blockade"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -64,20 +64,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic Resonance",
-				fr: "Résonance Psychique",
-				es: "Resonancia Psíquica",
-				it: "Risonanza Psichica",
-				pt: "Ressonância Psíquica",
-				de: "Psycho-Resonanz"
+				'en-us': "Psychic Resonance",
+				'fr-fr': "Résonance Psychique",
+				'es-es': "Resonancia Psíquica",
+				'it-it': "Risonanza Psichica",
+				'pt-br': "Ressonância Psíquica",
+				'de-de': "Psycho-Resonanz"
 			},
 			effect: {
-				en: "If your opponent has any Psychic Pokémon in play, this attack does 60 more damage.",
-				fr: "Si votre adversaire a un Pokémon Psychic en jeu, cette attaque inflige 60 dégâts supplémentaires.",
-				es: "Si tu rival tiene algún Pokémon Psychic en juego, este ataque hace 60 puntos de daño más.",
-				it: "Se il tuo avversario ha dei Pokémon Psychic in gioco, questo attacco infligge 60 danni in più.",
-				pt: "Se o seu oponente tiver algum Pokémon Psychic em jogo, este ataque causará 60 pontos de dano a mais.",
-				de: "Wenn dein Gegner mindestens 1 Psychic-Pokémon im Spiel hat, fügt diese Attacke 60 Schadenspunkte mehr zu."
+				'en-us': "If your opponent has any Psychic Pokémon in play, this attack does 60 more damage.",
+				'fr-fr': "Si votre adversaire a un Pokémon Psychic en jeu, cette attaque inflige 60 dégâts supplémentaires.",
+				'es-es': "Si tu rival tiene algún Pokémon Psychic en juego, este ataque hace 60 puntos de daño más.",
+				'it-it': "Se il tuo avversario ha dei Pokémon Psychic in gioco, questo attacco infligge 60 danni in più.",
+				'pt-br': "Se o seu oponente tiver algum Pokémon Psychic em jogo, este ataque causará 60 pontos de dano a mais.",
+				'de-de': "Wenn dein Gegner mindestens 1 Psychic-Pokémon im Spiel hat, fügt diese Attacke 60 Schadenspunkte mehr zu."
 			},
 			damage: "60+",
 
@@ -101,7 +101,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Ancient people believed that petitioning Bronzong for rain was the way to make crops grow.",
+		'en-us': "Ancient people believed that petitioning Bronzong for rain was the way to make crops grow.",
 	},
 
 	thirdParty: {

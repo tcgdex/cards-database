@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シェイミ",
+		'ja-jp': "シェイミ",
 	},
 
 	illustrator: "kawayoo",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Grass", "Grass"],
 			effect: {
-				ja: "自分の場のポケモンについている基本エネルギーの数x30ダメージ。",
+				'ja-jp': "自分の場のポケモンについている基本エネルギーの数x30ダメージ。",
 			},
 		},
 	],

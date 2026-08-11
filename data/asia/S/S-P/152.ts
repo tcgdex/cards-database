@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クロバットV",
+		'ja-jp': "クロバットV",
 		'zh-tw': "彷徨夜靈",
 	},
 
@@ -20,7 +20,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ナイトアセット" },
 			effect: {
-				ja: "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の手札が6枚になるように、山札を引く。この番、すでに別の「ナイトアセット」を使っていたなら、この特性は使えない。",
+				'ja-jp': "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の手札が6枚になるように、山札を引く。この番、すでに別の「ナイトアセット」を使っていたなら、この特性は使えない。",
 			},
 		},
 	],
@@ -28,13 +28,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "どくのキバ",
+				'ja-jp': "どくのキバ",
 				'zh-tw': "漆黑",
 			},
 			damage: 70,
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【混亂】。",
 			},
 		},

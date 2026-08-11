@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arrokuda"
+		'en-us': "Arrokuda"
 	},
 
 	illustrator: "Mina Nakai",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It takes down prey by charging into them with\nits hard, pointed jaw. But Arrokuda's eyesight is\npoor, so this tactic has a low success rate."
+		'en-us': "It takes down prey by charging into them with\nits hard, pointed jaw. But Arrokuda's eyesight is\npoor, so this tactic has a low success rate."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Peck"
+			'en-us': "Peck"
 		},
 
 		damage: 20,

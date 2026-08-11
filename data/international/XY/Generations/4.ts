@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Metapod",
-		fr: "Chrysacier",
+		'en-us': "Metapod",
+		'fr-fr': "Chrysacier",
 	},
 
 	illustrator: "kawayoo",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Caterpie",
-		fr: "Chenipan",
+		'en-us': "Caterpie",
+		'fr-fr': "Chenipan",
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Adaptive Evolution",
-				fr: "Évolution Adaptative",
+				'en-us': "Adaptive Evolution",
+				'fr-fr': "Évolution Adaptative",
 			},
 			effect: {
-				en: "This Pokémon can evolve during your first turn or the turn you play it.",
-				fr: "Ce Pokémon peut évoluer pendant votre premier tour ou pendant le tour où vous le jouez.",
+				'en-us': "This Pokémon can evolve during your first turn or the turn you play it.",
+				'fr-fr': "Ce Pokémon peut évoluer pendant votre premier tour ou pendant le tour où vous le jouez.",
 			},
 		},
 	],
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Harden",
-				fr: "Armure",
+				'en-us': "Harden",
+				'fr-fr': "Armure",
 			},
 			effect: {
-				en: "During your opponent's next turn, if this Pokémon would be damaged by an attack, prevent that attack's damage done to this Pokémon if that damage is 60 or less.",
-				fr: "Pendant le prochain tour de votre adversaire, si ce Pokémon doit subir les dégâts d'une attaque, évitez les dégâts infligés à ce Pokémon si ces dégâts sont de 60 ou moins.",
+				'en-us': "During your opponent's next turn, if this Pokémon would be damaged by an attack, prevent that attack's damage done to this Pokémon if that damage is 60 or less.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, si ce Pokémon doit subir les dégâts d'une attaque, évitez les dégâts infligés à ce Pokémon si ces dégâts sont de 60 ou moins.",
 			},
 
 		},
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution.",
+		'en-us': "A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution.",
 	},
 
 	thirdParty: {

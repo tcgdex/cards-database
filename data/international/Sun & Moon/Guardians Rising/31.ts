@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Snorunt",
-		fr: "Stalgamin",
-		es: "Snorunt",
-		it: "Snorunt",
-		pt: "Snorunt",
-		de: "Schneppke"
+		'en-us': "Snorunt",
+		'fr-fr': "Stalgamin",
+		'es-es': "Snorunt",
+		'it-it': "Snorunt",
+		'pt-br': "Snorunt",
+		'de-de': "Schneppke"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Chilly",
-				fr: "Glacial",
-				es: "Fresquito",
-				it: "Addiaccio",
-				pt: "Frio",
-				de: "Frösteln"
+				'en-us': "Chilly",
+				'fr-fr': "Glacial",
+				'es-es': "Fresquito",
+				'it-it': "Addiaccio",
+				'pt-br': "Frio",
+				'de-de': "Frösteln"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Frost Breath",
-				fr: "Souffle Glacé",
-				es: "Vaho Gélido",
-				it: "Alitogelido",
-				pt: "Respiração de Gelo",
-				de: "Eisesodem"
+				'en-us': "Frost Breath",
+				'fr-fr': "Souffle Glacé",
+				'es-es': "Vaho Gélido",
+				'it-it': "Alitogelido",
+				'pt-br': "Respiração de Gelo",
+				'de-de': "Eisesodem"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Their numbers seem to have rapidly increased in Alola. Custom has it that houses where Snorunt live will be prosperous for generations to come.",
+		'en-us': "Their numbers seem to have rapidly increased in Alola. Custom has it that houses where Snorunt live will be prosperous for generations to come.",
 	},
 
 	thirdParty: {

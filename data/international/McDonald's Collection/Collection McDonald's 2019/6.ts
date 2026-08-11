@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Saquedeneu",
+		'fr-fr': "Saquedeneu",
 	},
 
 	rarity: "None",
@@ -29,18 +29,18 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				fr: "Gifle Douce"
+				'fr-fr': "Gifle Douce"
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Grass", "Colorless", "Colorless"],
 			name: {
-				fr: "Étreinte"
+				'fr-fr': "Étreinte"
 			},
 			damage: 40,
 			effect: {
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
 			}
 		},
 	],

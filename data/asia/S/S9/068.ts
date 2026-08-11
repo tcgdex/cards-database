@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "席多藍恩",
-		ja: "ヒードラン"
+		'ja-jp': "ヒードラン"
 	},
 
 	illustrator: "Yuya Oka",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "體內流著如熔岩般滾燙的血液。棲息在火山的洞穴裡。",
-		ja: "マグマのように 燃えたぎる 血液が 体を 流れている。 火山の 洞穴に 生息する。"
+		'ja-jp': "マグマのように 燃えたぎる 血液が 体を 流れている。 火山の 洞穴に 生息する。"
 	},
 
 	stage: "Basic",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "防守利爪",
-			ja: "ガードクロー"
+			'ja-jp': "ガードクロー"
 		},
 
 		effect: {
 			'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-30」點。",
-			ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。"
+			'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。"
 		},
 
 		damage: 30,
@@ -37,12 +37,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "熨燙錘",
-			ja: "アイロンハンマー"
+			'ja-jp': "アイロンハンマー"
 		},
 
 		effect: {
 			'zh-tw': "若這隻寶可夢身上附有【火】能量，則增加80點傷害。",
-			ja: "このポケモンにエネルギーがついているなら、80ダメージ追加。"
+			'ja-jp': "このポケモンにエネルギーがついているなら、80ダメージ追加。"
 		},
 
 		damage: "80＋",

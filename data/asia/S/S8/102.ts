@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シャンデラV",
+		'ja-jp': "シャンデラV",
 	},
 
 	illustrator: "Saki Hayashiro",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "あやしいひかり" },
 			cost: ["Fire"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "40×",
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "相手の手札を見て、その中にあるトレーナーズの枚数×40ダメージ。",
+				'ja-jp': "相手の手札を見て、その中にあるトレーナーズの枚数×40ダメージ。",
 			},
 		},
 	],

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Kyurem-EX",
+		'en-us': "Kyurem-EX",
 	},
 
 	illustrator: "Shizurow",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Frozen Wings",
+				'en-us': "Frozen Wings",
 			},
 			effect: {
-				en: "Discard a Special Energy attached to the Defending Pokémon.",
+				'en-us': "Discard a Special Energy attached to the Defending Pokémon.",
 			},
 			damage: 60,
 
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hail Blizzard",
+				'en-us': "Hail Blizzard",
 			},
 			effect: {
-				en: "This Pokémon can't use Hail Blizzard during your next turn.",
+				'en-us': "This Pokémon can't use Hail Blizzard during your next turn.",
 			},
 			damage: 120,
 

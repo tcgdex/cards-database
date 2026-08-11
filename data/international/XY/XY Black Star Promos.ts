@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../XY'
 
 const xyp: Set = {
 	id: "xyp",
 
 	name: {
-		en: "XY Black Star Promos",
-		fr: "Promo XY",
-		es: "XY Cartas de promoción",
-		it: "XY Promo",
-		de: "XY Promokarten"
+		'en-us': "XY Black Star Promos",
+		'fr-fr': "Promo XY",
+		'es-es': "XY Cartas de promoción",
+		'it-it': "XY Promo",
+		'de-de': "XY Promokarten"
 	},
 
 	serie: serie,
@@ -23,7 +23,7 @@ const xyp: Set = {
 
 	abbreviations: {
 		official: 'XYP',
-		fr: "PXY"
+		'fr-fr': "PXY"
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヘイガニ",
+		'ja-jp': "ヘイガニ",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "外国から やってきた。 汚れた 川でも どんどん 増えていく 強い 生命力の 持ち主。",
+		'ja-jp': "外国から やってきた。 汚れた 川でも どんどん 増えていく 強い 生命力の 持ち主。",
 	},
 
 	stage: "Basic",

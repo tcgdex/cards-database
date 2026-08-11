@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It defends itself by launching spikes, but its aim isn't very good at first. Only after a lot of practice will it improve.",
+		'en-us': "It defends itself by launching spikes, but its aim isn't very good at first. Only after a lot of practice will it improve.",
 	},
 
 
 	name: {
-		en: "Ferroseed",
-		fr: "Grindur",
-		es: "Ferroseed",
+		'en-us': "Ferroseed",
+		'fr-fr': "Grindur",
+		'es-es': "Ferroseed",
 		'es-mx': "Ferroseed",
-		de: "Kastadur",
-		it: "Ferroseed",
-		pt: "Ferroseed"
+		'de-de': "Kastadur",
+		'it-it': "Ferroseed",
+		'pt-br': "Ferroseed"
 	},
 
 	illustrator: "OKUBO",
@@ -29,13 +29,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Rolling Tackle",
-			fr: "Roulé-Boulé",
-			es: "Placaje Giro",
+			'en-us': "Rolling Tackle",
+			'fr-fr': "Roulé-Boulé",
+			'es-es': "Placaje Giro",
 			'es-mx': "Tacleada Rodante",
-			de: "Rolltackle",
-			it: "Rollazione",
-			pt: "Golpe de Colisão Rolante"
+			'de-de': "Rolltackle",
+			'it-it': "Rollazione",
+			'pt-br': "Golpe de Colisão Rolante"
 		},
 
 		cost: ["Metal", "Metal"],

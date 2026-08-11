@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Charizard GX",
-		fr: "Dracaufeu GX",
-		es: "Charizard GX",
-		it: "Charizard GX",
-		pt: "Charizard GX",
-		de: "Glurak GX"
+		'en-us': "Charizard GX",
+		'fr-fr': "Dracaufeu GX",
+		'es-es': "Charizard GX",
+		'it-it': "Charizard GX",
+		'pt-br': "Charizard GX",
+		'de-de': "Glurak GX"
 	},
 
 	illustrator: "aky CG Works",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmeleon",
-		fr: "Reptincel"
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel"
 	},
 
 	stage: "Stage2",
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-Flammes",
-				es: "Lanzallamas",
-				it: "Lanciafiamme",
-				pt: "Lança-chamas",
-				de: "Flammenwurf"
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-Flammes",
+				'es-es': "Lanzallamas",
+				'it-it': "Lanciafiamme",
+				'pt-br': "Lança-chamas",
+				'de-de': "Flammenwurf"
 			},
 
 			damage: 140,
@@ -61,20 +61,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare Blitz GX",
-				fr: "Boutefeu GX",
-				es: "Envite Ígneo GX",
-				it: "Fuococarica GX",
-				pt: "Blitz de Labaredas GX",
-				de: "Flammenblitz GX"
+				'en-us': "Flare Blitz GX",
+				'fr-fr': "Boutefeu GX",
+				'es-es': "Envite Ígneo GX",
+				'it-it': "Fuococarica GX",
+				'pt-br': "Blitz de Labaredas GX",
+				'de-de': "Flammenblitz GX"
 			},
 			effect: {
-				en: "(You can’t use more than 1 GX attack in a game.)",
-				fr: "(Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-				es: "(No puedes usar más de 1 ataque GX en una partida).",
-				it: "Non puoi usare più di un attacco GX a partita.",
-				pt: "(Você não pode usar mais de 1 ataque GX por partida.)",
-				de: "(Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				'en-us': "(You can’t use more than 1 GX attack in a game.)",
+				'fr-fr': "(Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'es-es': "(No puedes usar más de 1 ataque GX en una partida).",
+				'it-it': "Non puoi usare più di un attacco GX a partita.",
+				'pt-br': "(Você não pode usar mais de 1 ataque GX por partida.)",
+				'de-de': "(Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: 300,
 

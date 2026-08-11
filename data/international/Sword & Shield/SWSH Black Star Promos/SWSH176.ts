@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Hoopa V",
-		de: "Hoopa V",
-		es: "Hoopa V",
-		pt: "Hoopa V",
-		it: "Hoopa V",
-		en: "Hoopa V"
+		'fr-fr': "Hoopa V",
+		'de-de': "Hoopa V",
+		'es-es': "Hoopa V",
+		'pt-br': "Hoopa V",
+		'it-it': "Hoopa V",
+		'en-us': "Hoopa V"
 	},
 
 	rarity: "Promo",
@@ -25,21 +25,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			fr: "Deux Visages",
-			de: "Doppelgesichtig",
-			es: "Dos Rostros",
-			pt: "Duas Caras",
-			it: "Doppio Viso",
-			en: "Two-Faced"
+			'fr-fr': "Deux Visages",
+			'de-de': "Doppelgesichtig",
+			'es-es': "Dos Rostros",
+			'pt-br': "Duas Caras",
+			'it-it': "Doppio Viso",
+			'en-us': "Two-Faced"
 		},
 
 		effect: {
-			fr: "Tant que ce Pokémon est en jeu, il est de type {P} et {D}.",
-			de: "Solange dieses Pokémon im Spiel ist, ist es vom Typ {P} und {D}.",
-			es: "Mientras este Pokémon esté en juego, es de tipo {P} y {D}.",
-			pt: "Enquanto este Pokémon estiver em jogo, será um Pokémon de tipo {P} e {D}.",
-			it: "Fintanto che questo Pokémon è in gioco, è di tipo {P} e {D}.",
-			en: "As long as this Pokémon is in play, it is {P} and {D} type."
+			'fr-fr': "Tant que ce Pokémon est en jeu, il est de type {P} et {D}.",
+			'de-de': "Solange dieses Pokémon im Spiel ist, ist es vom Typ {P} und {D}.",
+			'es-es': "Mientras este Pokémon esté en juego, es de tipo {P} y {D}.",
+			'pt-br': "Enquanto este Pokémon estiver em jogo, será um Pokémon de tipo {P} e {D}.",
+			'it-it': "Fintanto che questo Pokémon è in gioco, è di tipo {P} e {D}.",
+			'en-us': "As long as this Pokémon is in play, it is {P} and {D} type."
 		}
 	}],
 
@@ -47,21 +47,21 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			fr: "Impact Lugubre",
-			de: "Schatteneinschlag",
-			es: "Impacto Sombra",
-			pt: "Impacto Sombrio",
-			it: "Impatto Ombra",
-			en: "Shadow Impact"
+			'fr-fr': "Impact Lugubre",
+			'de-de': "Schatteneinschlag",
+			'es-es': "Impacto Sombra",
+			'pt-br': "Impacto Sombrio",
+			'it-it': "Impatto Ombra",
+			'en-us': "Shadow Impact"
 		},
 
 		effect: {
-			fr: "Placez 3 marqueurs de dégâts sur l'un de vos Pokémon.",
-			de: "Lege 3 Schadensmarken auf 1 deiner Pokémon.",
-			es: "Pon 3 contadores de daño en 1 de tus Pokémon.",
-			pt: "Coloque 3 contadores de dano em 1 dos seus Pokémon.",
-			it: "Metti tre segnalini danno su uno dei tuoi Pokémon.",
-			en: "Put 3 damage counters on 1 of your Pokémon."
+			'fr-fr': "Placez 3 marqueurs de dégâts sur l'un de vos Pokémon.",
+			'de-de': "Lege 3 Schadensmarken auf 1 deiner Pokémon.",
+			'es-es': "Pon 3 contadores de daño en 1 de tus Pokémon.",
+			'pt-br': "Coloque 3 contadores de dano em 1 dos seus Pokémon.",
+			'it-it': "Metti tre segnalini danno su uno dei tuoi Pokémon.",
+			'en-us': "Put 3 damage counters on 1 of your Pokémon."
 		},
 
 		damage: 170

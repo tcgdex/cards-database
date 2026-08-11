@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハンテイル",
+		'ja-jp': "ハンテイル",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "リアクティブジェネレーター",
+				'ja-jp': "リアクティブジェネレーター",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前に）一度、HuntailにReact Energy Cardが接続されていない場合は、Deckを検索してReact Energyカードを検索してハンテールに添付できます。その後、デッキをシャッフルします。 Huntailが特別な状態の影響を受けている場合、このパワーは使用できません。",
+				'ja-jp': "ターン中（攻撃の前に）一度、HuntailにReact Energy Cardが接続されていない場合は、Deckを検索してReact Energyカードを検索してハンテールに添付できます。その後、デッキをシャッフルします。 Huntailが特別な状態の影響を受けている場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				ja: "噛む",
+				'ja-jp': "噛む",
 			},
 			effect: {
-				ja: "防御ポケモンがポケモン-Exの場合、この攻撃は40ダメージに加えて30ダメージを与えます。",
+				'ja-jp': "防御ポケモンがポケモン-Exの場合、この攻撃は40ダメージに加えて30ダメージを与えます。",
 			},
 		},
 	],

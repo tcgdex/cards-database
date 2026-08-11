@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Zekrom-EX",
-		fr: "Zekrom ex",
+		'en-us': "Zekrom-EX",
+		'fr-fr': "Zekrom ex",
 	},
 	illustrator: "Shizurow",
 	rarity: "Rare",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Glinting Claw",
-				fr: "Griffe Scintillante",
+				'en-us': "Glinting Claw",
+				'fr-fr': "Griffe Scintillante",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: 50,
 
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strong Volt",
-				fr: "Décharge Foudroyante",
+				'en-us': "Strong Volt",
+				'fr-fr': "Décharge Foudroyante",
 			},
 			effect: {
-				en: "Discard 2 Energy attached to this Pokémon.",
-				fr: "Défaussez 2 Énergies attachées à ce Pokémon.",
+				'en-us': "Discard 2 Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez 2 Énergies attachées à ce Pokémon.",
 			},
 			damage: 150,
 

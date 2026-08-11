@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゲッコウガex",
+		'ja-jp': "ゲッコウガex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、100ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、100ダメージ追加。",
 			},
 		},
 	],
@@ -38,7 +38,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゲコガシラ",
+		'ja-jp': "ゲコガシラ",
 	},
 
 	retreat: 2,

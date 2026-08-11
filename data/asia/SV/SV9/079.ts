@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ノココッチex",
+		'ja-jp': "ノココッチex",
 		'zh-tw': "土龍節節ex",
 		'zh-cn': "土龍節節ex"
 	},
@@ -22,7 +22,7 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ぎゃっきょうテール",
+			'ja-jp': "ぎゃっきょうテール",
 			'zh-tw': "逆境之尾",
 			'zh-cn': "逆境之尾"
 		},
@@ -30,7 +30,7 @@ const card: Card = {
 		damage: "60×",
 
 		effect: {
-			ja: "相手の場の「ポケモンex」の数×60ダメージ。",
+			'ja-jp': "相手の場の「ポケモンex」の数×60ダメージ。",
 			'zh-tw': "造成對手的場上的「寶可夢【ex】」的數量×60點傷害。",
 			'zh-cn': "造成對手的場上的「寶可夢【ex】」的數量×60點傷害。"
 		}
@@ -38,7 +38,7 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ドリルブレイク",
+			'ja-jp': "ドリルブレイク",
 			'zh-tw': "鑽破壞",
 			'zh-cn': "鑽破壞"
 		},
@@ -46,7 +46,7 @@ const card: Card = {
 		damage: 150,
 
 		effect: {
-			ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+			'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 			'zh-tw': "這個招式的傷害不計算對手的戰鬥寶可夢身上的附加效果。",
 			'zh-cn': "這個招式的傷害不計算對手的戰鬥寶可夢身上的附加效果。"
 		}

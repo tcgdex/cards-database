@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Poochyena",
-		fr: "Medhyena de Team Magma",
-		de: "Team Magmas Fiffyen"
+		'en-us': "Team Magma's Poochyena",
+		'fr-fr': "Medhyena de Team Magma",
+		'de-de': "Team Magmas Fiffyen"
 	},
 
 	illustrator: "Shin-ichi Yoshikawa",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Snarl",
-				fr: "Grondement féroce",
-				de: "Snarl"
+				'en-us': "Snarl",
+				'fr-fr': "Grondement féroce",
+				'de-de': "Snarl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage to the Defending Pokémon. If tails, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts au Pokémon Défenseur. Si c'est pile, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, this attack does 10 damage to the Defending Pokémon. If tails, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage to the Defending Pokémon. If tails, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts au Pokémon Défenseur. Si c'est pile, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, this attack does 10 damage to the Defending Pokémon. If tails, the Defending Pokémon is now Paralyzed."
 			},
 
 		},

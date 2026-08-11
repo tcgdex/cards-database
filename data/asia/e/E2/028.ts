@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Wooper -028/092",
+		'ja-jp': "Wooper -028/092",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "尾のwhap",
+				'ja-jp': "尾のwhap",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Water"],
 			name: {
-				ja: "ディープダイビング",
+				'ja-jp': "ディープダイビング",
 			},
 			effect: {
-				ja: "3コインをフリップします。各ヘッドについて、Wooperから1つのダメージカウンターを取り外します。",
+				'ja-jp': "3コインをフリップします。各ヘッドについて、Wooperから1つのダメージカウンターを取り外します。",
 			},
 		},
 	],

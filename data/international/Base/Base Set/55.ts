@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Nidoran♂",
-		fr: "Nidoran ♂",
-		de: "Nidoran M",
-		it: "Nidoran ♂"
+		'en-us': "Nidoran♂",
+		'fr-fr': "Nidoran ♂",
+		'de-de': "Nidoran M",
+		'it-it': "Nidoran ♂"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,16 +32,16 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Horn Hazard",
-				fr: "Chanc' Korne",
-				de: "Gefährliches Horn",
-				it: "Incorna-rischio"
+				'en-us': "Horn Hazard",
+				'fr-fr': "Chanc' Korne",
+				'de-de': "Gefährliches Horn",
+				'it-it': "Incorna-rischio"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf eine Münze. Bei 'Zahl' zeigt dieser Angriff keine Wirkung.",
-				it: "Lancia una moneta. Se esce croce, questo attacco non infligge alcun danno."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Wirf eine Münze. Bei 'Zahl' zeigt dieser Angriff keine Wirkung.",
+				'it-it': "Lancia una moneta. Se esce croce, questo attacco non infligge alcun danno."
 			},
 			damage: 30,
 
@@ -57,9 +57,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Stiffens its ears to sense danger. The larger, more powerful of its horns secretes venom.",
-		fr: "Son ouïe très fine l'avertit du danger. Plus ses cornes sont grandes, plus son poison est mortel.",
-		it: "Drizza le orecchie per sentire il pericolo. Il più grande e potente dei suoi corni secerne veleno.",
+		'en-us': "Stiffens its ears to sense danger. The larger, more powerful of its horns secretes venom.",
+		'fr-fr': "Son ouïe très fine l'avertit du danger. Plus ses cornes sont grandes, plus son poison est mortel.",
+		'it-it': "Drizza le orecchie per sentire il pericolo. Il più grande e potente dei suoi corni secerne veleno.",
 	},
 
 	variants: [

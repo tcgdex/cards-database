@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Charizard GX",
-		fr: "Dracaufeu-GX",
+		'en-us': "Charizard GX",
+		'fr-fr': "Dracaufeu-GX",
 	},
 
 	illustrator: "aky CG Works",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmeleon",
-		fr: "Reptincel",
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel",
 	},
 
 	suffix: "GX",
@@ -38,8 +38,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-Flammes",
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-Flammes",
 			},
 
 			damage: 140,
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare Blitz GX",
-				fr: "Boutefeu-GX",
+				'en-us': "Flare Blitz GX",
+				'fr-fr': "Boutefeu-GX",
 			},
 			effect: {
-				en: "(You can’t use more than 1 GX attack in a game.)",
-				fr: "(Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'en-us': "(You can’t use more than 1 GX attack in a game.)",
+				'fr-fr': "(Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 			damage: 300,
 

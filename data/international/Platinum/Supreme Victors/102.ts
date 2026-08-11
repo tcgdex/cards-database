@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Doduo",
-		fr: "Doduo",
-		de: "Dodu"
+		'en-us': "Doduo",
+		'fr-fr': "Doduo",
+		'de-de': "Dodu"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				de: "Bodycheck"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'de-de': "Bodycheck"
 			},
 			effect: {
-				en: "Doduo does 10 damage to itself.",
-				fr: "Doduo s'inflige 10 dégâts.",
-				de: "Dodu fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Doduo does 10 damage to itself.",
+				'fr-fr': "Doduo s'inflige 10 dégâts.",
+				'de-de': "Dodu fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -56,7 +56,7 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "The brains in its two heads appear to communicate emotions to each other with a telepathic power."
+		'en-us': "The brains in its two heads appear to communicate emotions to each other with a telepathic power."
 	},
 
 	retreat: 0,

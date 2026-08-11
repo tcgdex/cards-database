@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Ninetales"
+		'id-id': "Ninetales"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Ia memiliki bulu yang berkilau keemasan dan 9 ekor yang panjang. Dikatakan bahwa ia hidup selama 1000 tahun."
+		'id-id': "Ia memiliki bulu yang berkilau keemasan dan 9 ekor yang panjang. Dikatakan bahwa ia hidup selama 1000 tahun."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Cahaya Api Membingungkan"
+			'id-id': "Cahaya Api Membingungkan"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar dan Pusing."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar dan Pusing."
 		},
 
 		damage: 90,

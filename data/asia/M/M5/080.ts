@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ボルト雷エネルギー",
+		'ja-jp': "ボルト雷エネルギー",
 	},
 
 	illustrator: "",
@@ -12,7 +12,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		ja: "このカードは、ポケモンについているかぎり、[L]エネルギー1個ぶんとしてはたらく。このカードをつけている[L]ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+20」される。",
+		'ja-jp': "このカードは、ポケモンについているかぎり、[L]エネルギー1個ぶんとしてはたらく。このカードをつけている[L]ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+20」される。",
 	},
 
 	variants: [

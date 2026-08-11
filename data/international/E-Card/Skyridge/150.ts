@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Kabutops",
-		de: "Kabutops"
+		'en-us': "Kabutops",
+		'de-de': "Kabutops"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kabuto",
+		'en-us': "Kabuto",
 	},
 
 	stage: "Stage2",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Crystal Type",
-				de: "Kristall-Typ"
+				'en-us': "Crystal Type",
+				'de-de': "Kristall-Typ"
 			},
 			effect: {
-				en: "Whenever you attach a Water, Lightning, or Fighting basic Energy card from your hand to Kabutops, Kabutops's type (color) becomes the same as that type of Energy until the end of the turn.",
-				de: "Immer wenn du eine  -,  -oder eine  - Basis Energiekarte aus deiner Hand an Kabutops anlegst, ändert sich Kabutops'Typ (Farbe) bis zum Ende des Zuges zum gleichen Typ wie diese Energie."
+				'en-us': "Whenever you attach a Water, Lightning, or Fighting basic Energy card from your hand to Kabutops, Kabutops's type (color) becomes the same as that type of Energy until the end of the turn.",
+				'de-de': "Immer wenn du eine  -,  -oder eine  - Basis Energiekarte aus deiner Hand an Kabutops anlegst, ändert sich Kabutops'Typ (Farbe) bis zum Ende des Zuges zum gleichen Typ wie diese Energie."
 			},
 		},
 	],
@@ -48,12 +48,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Draining Cut",
-				de: "Entwäserungsschnitt"
+				'en-us': "Draining Cut",
+				'de-de': "Entwäserungsschnitt"
 			},
 			effect: {
-				en: "Remove a damage counter from Kabutops.",
-				de: "Entferne eine Schadensmarke von Kabutops."
+				'en-us': "Remove a damage counter from Kabutops.",
+				'de-de': "Entferne eine Schadensmarke von Kabutops."
 			},
 			damage: 20,
 
@@ -66,12 +66,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Triple Cutter",
-				de: "Dreifachklinge"
+				'en-us': "Triple Cutter",
+				'de-de': "Dreifachklinge"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 30 damage times the number of heads.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 3 coins. This attack does 30 damage times the number of heads.",
+				'de-de': "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "30×",
 

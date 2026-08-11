@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒメグマ",
+		'ja-jp': "ヒメグマ",
 	},
 
 	illustrator: "kodama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ミツを見つけると 三日月模様が 輝く。甘いミツが 染みこんだ 手のひらを いつも なめている。",
+		'ja-jp': "ミツを見つけると 三日月模様が 輝く。甘いミツが 染みこんだ 手のひらを いつも なめている。",
 	},
 
 	stage: "Basic",

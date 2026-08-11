@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Alomomola",
-		fr: "Mamanbo",
-		es: "Alomomola",
-		it: "Alomomola",
-		pt: "Alomomola",
-		de: "Mamolida"
+		'en-us': "Alomomola",
+		'fr-fr': "Mamanbo",
+		'es-es': "Alomomola",
+		'it-it': "Alomomola",
+		'pt-br': "Alomomola",
+		'de-de': "Mamolida"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Surf",
-			fr: "Surf",
-			es: "Surf",
-			it: "Surf",
-			pt: "Surfar",
-			de: "Surfer"
+			'en-us': "Surf",
+			'fr-fr': "Surf",
+			'es-es': "Surf",
+			'it-it': "Surf",
+			'pt-br': "Surfar",
+			'de-de': "Surfer"
 		},
 
 		damage: 30
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			en: "Aqua Slash",
-			fr: "Aqua Slash",
-			es: "Cuchillada Acuática",
-			it: "Idrosquarcio",
-			pt: "Aqua Corte",
-			de: "Aquaschlag"
+			'en-us': "Aqua Slash",
+			'fr-fr': "Aqua Slash",
+			'es-es': "Cuchillada Acuática",
+			'it-it': "Idrosquarcio",
+			'pt-br': "Aqua Corte",
+			'de-de': "Aquaschlag"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 120
@@ -78,7 +78,7 @@ const card: Card = {
 	illustrator: "Shinji Kanda",
 
 	description: {
-		en: "It gently holds injured and weak Pokémon in its fins. Its special membrane heals their wounds.",
+		'en-us': "It gently holds injured and weak Pokémon in its fins. Its special membrane heals their wounds.",
 	},
 
 	thirdParty: {

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cresselia",
-		fr: "Cresselia",
-		es: "Cresselia",
+		'en-us': "Cresselia",
+		'fr-fr': "Cresselia",
+		'es-es': "Cresselia",
 		'es-mx': "Cresselia",
-		de: "Cresselia",
-		it: "Cresselia",
-		pt: "Cresselia"
+		'de-de': "Cresselia",
+		'it-it': "Cresselia",
+		'pt-br': "Cresselia"
 	},
 
 	rarity: "Uncommon",
@@ -26,35 +26,35 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Swelling Light",
-			fr: "Lumière Grandissante",
-			es: "Luz Creciente",
+			'en-us': "Swelling Light",
+			'fr-fr': "Lumière Grandissante",
+			'es-es': "Luz Creciente",
 			'es-mx': "Luz Rebosante",
-			de: "Wachsendes Licht",
-			it: "Luce Amplificata",
-			pt: "Claridade Crescente"
+			'de-de': "Wachsendes Licht",
+			'it-it': "Luce Amplificata",
+			'pt-br': "Claridade Crescente"
 		},
 
 		effect: {
-			en: "Search your deck for up to 2 Basic {P} Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu'à 2 cartes Énergie {P} de base, puis attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja hasta 2 cartas de Energía {P} Básica y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
+			'en-us': "Search your deck for up to 2 Basic {P} Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck jusqu'à 2 cartes Énergie {P} de base, puis attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja hasta 2 cartas de Energía {P} Básica y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
 			'es-mx': "Busca en tu mazo hasta 2 cartas de Energía {P} Básica y únelas a este Pokémon. Después, baraja tu mazo.",
-			de: "Durchsuche dein Deck nach bis zu 2 Basis-{P}-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck.",
-			it: "Cerca nel tuo mazzo fino a due carte Energia base {P} e assegnale a questo Pokémon. Poi rimischia il tuo mazzo.",
-			pt: "Procure por até 2 cartas de Energia {P} Básica no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho."
+			'de-de': "Durchsuche dein Deck nach bis zu 2 Basis-{P}-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck.",
+			'it-it': "Cerca nel tuo mazzo fino a due carte Energia base {P} e assegnale a questo Pokémon. Poi rimischia il tuo mazzo.",
+			'pt-br': "Procure por até 2 cartas de Energia {P} Básica no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho."
 		}
 	}, {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			en: "Aurora Beam",
-			fr: "Onde Boréale",
-			es: "Rayo Aurora",
+			'en-us': "Aurora Beam",
+			'fr-fr': "Onde Boréale",
+			'es-es': "Rayo Aurora",
 			'es-mx': "Rayo Aurora",
-			de: "Aurorastrahl",
-			it: "Raggiaurora",
-			pt: "Raio Aurora"
+			'de-de': "Aurorastrahl",
+			'it-it': "Raggiaurora",
+			'pt-br': "Raio Aurora"
 		},
 
 		damage: 90
@@ -76,7 +76,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon.",
+		'en-us': "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon.",
 	},
 
 	illustrator: "Raita Kazama",

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Psychic Energy",
+		'en-us': "Psychic Energy",
 	},
 
 	illustrator: "Keiji Kinebuchi",

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒトカゲ",
+		'ja-jp': "ヒトカゲ",
 		'zh-tw': "水伊布VMAX",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "熱いものを 好む 性格。 雨に濡れると しっぽの 先から 煙が 出るという。",
+		'ja-jp': "熱いものを 好む 性格。 雨に濡れると しっぽの 先から 煙が 出るという。",
 	},
 
 	stage: "Basic",
@@ -22,18 +22,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "もってくる",
+				'ja-jp': "もってくる",
 				'zh-tw': "泡沫艙",
 			},
 			cost: ["Fire"],
 			effect: {
-				ja: "自分の山札を1枚引く。",
+				'ja-jp': "自分の山札を1枚引く。",
 				'zh-tw': "從自己的棄牌區選擇1張【水】寶可夢卡，放置於備戰區。然後，從自己的棄牌區選擇最多3張【水】能量卡，附於剛放置的寶可夢身上。",
 			},
 		},
 		{
 			name: {
-				ja: "ほのお",
+				'ja-jp': "ほのお",
 				'zh-tw': "極巨激流",
 			},
 			damage: 30,

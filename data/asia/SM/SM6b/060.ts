@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルアーボール",
+		'ja-jp': "ルアーボール",
 	},
 
 	illustrator: "Katsura Tabata",
 	category: "Trainer",
 
 	effect: {
-		ja: "コインを3回投げ、オモテの数ぶん、自分のトラッシュにある進化ポケモンを、相手に見せてから、手札に加える。",
+		'ja-jp': "コインを3回投げ、オモテの数ぶん、自分のトラッシュにある進化ポケモンを、相手に見せてから、手札に加える。",
 	},
 
 	variants: [

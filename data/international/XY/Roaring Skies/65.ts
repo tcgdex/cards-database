@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Spearow",
-		fr: "Piafabec",
-		es: "Spearow",
-		it: "Spearow",
-		pt: "Spearow",
-		de: "Habitak"
+		'en-us': "Spearow",
+		'fr-fr': "Piafabec",
+		'es-es': "Spearow",
+		'it-it': "Spearow",
+		'pt-br': "Spearow",
+		'de-de': "Habitak"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				es: "Picotazo",
-				it: "Beccata",
-				pt: "Bicada",
-				de: "Schnabel"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'es-es': "Picotazo",
+				'it-it': "Beccata",
+				'pt-br': "Bicada",
+				'de-de': "Schnabel"
 			},
 
 			damage: 30,
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne.",
+		'en-us': "Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne.",
 	},
 
 	thirdParty: {

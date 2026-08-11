@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Vanillite",
-		fr: "Sorbébé",
-		es: "Vanillite",
-		it: "Vanillite",
-		pt: "Vanillite",
-		de: "Gelatini"
+		'en-us': "Vanillite",
+		'fr-fr': "Sorbébé",
+		'es-es': "Vanillite",
+		'it-it': "Vanillite",
+		'pt-br': "Vanillite",
+		'de-de': "Gelatini"
 	},
 
 	illustrator: "Akira Komayama",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jump On",
-				fr: "Saut",
+				'en-us': "Jump On",
+				'fr-fr': "Saut",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Theoretically, this Pokémon formed from icicles bathed in energy from the morning sun. Their breath is -58° F.",
+		'en-us': "Theoretically, this Pokémon formed from icicles bathed in energy from the morning sun. Their breath is -58° F.",
 	},
 
 	thirdParty: {

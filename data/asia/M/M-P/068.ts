@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガエルレイドex",
+		'ja-jp': "メガエルレイドex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Fighting"],
 			effect: {
-				ja: "このポケモンにダメカンがのっていないなら、150ダメージ追加。",
+				'ja-jp': "このポケモンにダメカンがのっていないなら、150ダメージ追加。",
 			},
 		},
 		{
@@ -43,7 +43,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "キルリア",
+		'ja-jp': "キルリア",
 	},
 
 	retreat: 2,

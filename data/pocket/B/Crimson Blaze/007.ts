@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [191],
 
 	name: {
-		en: "Sunkern"
+		'en-us': "Sunkern"
 	},
 
 	illustrator: "Saboteri",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "It is very weak. Its only means of defense is to\nshake its leaves desperately at its attacker."
+		'en-us': "It is very weak. Its only means of defense is to\nshake its leaves desperately at its attacker."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Seed Bomb"
+			'en-us': "Seed Bomb"
 		},
 
 		damage: 20,

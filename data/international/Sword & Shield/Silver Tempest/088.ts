@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drakloak",
-		fr: "Dispareptil",
-		es: "Drakloak",
-		it: "Drakloak",
-		pt: "Drakloak",
-		de: "Phandra"
+		'en-us': "Drakloak",
+		'fr-fr': "Dispareptil",
+		'es-es': "Drakloak",
+		'it-it': "Drakloak",
+		'pt-br': "Drakloak",
+		'de-de': "Phandra"
 	},
 
 	illustrator: "kurumitsu",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Dreepy",
-		fr: "Fantyrm",
-		es: "Dreepy",
-		it: "Dreepy",
-		pt: "Dreepy",
-		de: "Grolldra"
+		'en-us': "Dreepy",
+		'fr-fr': "Fantyrm",
+		'es-es': "Dreepy",
+		'it-it': "Dreepy",
+		'pt-br': "Dreepy",
+		'de-de': "Grolldra"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Spooky Shot",
-			fr: "Tir Effrayant",
-			es: "Disparo Embrujado",
-			it: "Colpomistero",
-			pt: "Tiro Assustador",
-			de: "Spukschuss"
+			'en-us': "Spooky Shot",
+			'fr-fr': "Tir Effrayant",
+			'es-es': "Disparo Embrujado",
+			'it-it': "Colpomistero",
+			'pt-br': "Tiro Assustador",
+			'de-de': "Spukschuss"
 		},
 
 		damage: 40
@@ -63,7 +63,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It's capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve.",
+		'en-us': "It's capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve.",
 	},
 
 	variants: [

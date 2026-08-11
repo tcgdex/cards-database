@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVLS"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "キュウコン"
+		'ja-jp': "キュウコン"
 	},
 
 	illustrator: "Kamome Shirahama",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "黄金に 輝く 体毛と ９本の 長い 尻尾を 持つ。 １０００年は 生きると 言われる。"
+		'ja-jp': "黄金に 輝く 体毛と ９本の 長い 尻尾を 持つ。 １０００年は 生きると 言われる。"
 	},
 
 	stage: "Stage1",
@@ -24,13 +24,13 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "ほのおのみたま"
+			'ja-jp': "ほのおのみたま"
 		},
 
 		damage: 50,
 
 		effect: {
-			ja: "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			'ja-jp': "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
 		}
 	}],
 

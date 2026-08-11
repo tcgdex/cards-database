@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [128],
 
 	name: {
-		en: "Tauros"
+		'en-us': "Tauros"
 	},
 
 	illustrator: "Nisota Niso",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "When Tauros begins whipping itself with its tails,\nit's a warning that the Pokémon is about to\ncharge with astounding speed."
+		'en-us': "When Tauros begins whipping itself with its tails,\nit's a warning that the Pokémon is about to\ncharge with astounding speed."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Fighting Tackle"
+			'en-us': "Fighting Tackle"
 		},
 
 		damage: 40,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a Pokémon ex, this attack does 80 more damage."
+			'en-us': "If your opponent's Active Pokémon is a Pokémon ex, this attack does 80 more damage."
 		}
 	}],
 

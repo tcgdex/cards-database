@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウインディ",
+		'ja-jp': "ウインディ",
 		'zh-tw': "風速狗",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "昔から 多くの 人を 虜にした 美しい ポケモン。 飛ぶように 軽やかに 走る。",
+		'ja-jp': "昔から 多くの 人を 虜にした 美しい ポケモン。 飛ぶように 軽やかに 走る。",
 		'zh-tw': "從古時候起就是擄獲眾多人心的美麗寶可夢。能像飛一樣輕盈地奔跑。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ほのおのツメ",
+				'ja-jp': "ほのおのツメ",
 				'zh-tw': "火之爪",
 			},
 			damage: 40,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ヒートタックル",
+				'ja-jp': "ヒートタックル",
 				'zh-tw': "熱力衝撞",
 			},
 			damage: 160,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 				'zh-tw': "這隻寶可夢也受到30點傷害。",
 			},
 		},
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ガーディ",
+		'ja-jp': "ガーディ",
 	},
 
 	retreat: 2,

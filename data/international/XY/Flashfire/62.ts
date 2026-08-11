@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Flabébé",
-		fr: "Flabébé",
-		es: "Flabébé",
-		it: "Flabébé",
-		pt: "Flabébé",
-		de: "Flabébé"
+		'en-us': "Flabébé",
+		'fr-fr': "Flabébé",
+		'es-es': "Flabébé",
+		'it-it': "Flabébé",
+		'pt-br': "Flabébé",
+		'de-de': "Flabébé"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Aromatherapy",
-				fr: "Aromathérapie",
-				es: "Aromaterapia",
-				it: "Aromaterapia",
-				pt: "Aromaterapia",
-				de: "Aromakur"
+				'en-us': "Aromatherapy",
+				'fr-fr': "Aromathérapie",
+				'es-es': "Aromaterapia",
+				'it-it': "Aromaterapia",
+				'pt-br': "Aromaterapia",
+				'de-de': "Aromakur"
 			},
 			effect: {
-				en: "Heal 10 damage from each of your Pokémon.",
-				fr: "Soignez 10 dégâts à chacun de vos Pokémon.",
-				es: "Cura 10 puntos de daño a cada uno de tus Pokémon.",
-				it: "Cura ciascuno dei tuoi Pokémon da 10 danni.",
-				pt: "Cure 10 de danos de cada um dos seus Pokémon.",
-				de: "Heile 10 Schadenspunkte bei jedem deiner Pokémon."
+				'en-us': "Heal 10 damage from each of your Pokémon.",
+				'fr-fr': "Soignez 10 dégâts à chacun de vos Pokémon.",
+				'es-es': "Cura 10 puntos de daño a cada uno de tus Pokémon.",
+				'it-it': "Cura ciascuno dei tuoi Pokémon da 10 danni.",
+				'pt-br': "Cure 10 de danos de cada um dos seus Pokémon.",
+				'de-de': "Heile 10 Schadenspunkte bei jedem deiner Pokémon."
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It draws out and controls the hidden power of flowers. The flower Flabébé holds is most likely part of its body.",
+		'en-us': "It draws out and controls the hidden power of flowers. The flower Flabébé holds is most likely part of its body.",
 	},
 
 	thirdParty: {

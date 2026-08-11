@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヌメイル",
+		'ja-jp': "ヌメイル",
 	},
 
 	illustrator: "Yoriyuki Ikegami",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "４本の ツノは 高性能の レーダー。 耳や 鼻の かわりに 音や においを 感じ取る。",
+		'ja-jp': "４本の ツノは 高性能の レーダー。 耳や 鼻の かわりに 音や においを 感じ取る。",
 	},
 
 	stage: "Stage1",
@@ -39,7 +39,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヌメラ",
+		'ja-jp': "ヌメラ",
 	},
 
 	retreat: 3,

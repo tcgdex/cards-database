@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラゴローン",
+		'ja-jp': "アローラゴローン",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "ゴローン同士 争うと あたりに 光と 爆音がする。 地元の 人は 陸花火と 呼んでいる。",
+		'ja-jp': "ゴローン同士 争うと あたりに 光と 爆音がする。 地元の 人は 陸花火と 呼んでいる。",
 	},
 
 	stage: "Stage1",
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アローライシツブテ",
+		'ja-jp': "アローライシツブテ",
 	},
 
 	retreat: 4,

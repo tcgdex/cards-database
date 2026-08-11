@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チョンチー",
+		'ja-jp': "チョンチー",
 	},
 
 	illustrator: "Sekio",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "２本の 触手が ほのかに 光って 獲物を 呼び寄せる。 夜釣りに 便利な ポケモンだ。",
+		'ja-jp': "２本の 触手が ほのかに 光って 獲物を 呼び寄せる。 夜釣りに 便利な ポケモンだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "さぐる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手の手札を見る。",
+				'ja-jp': "相手の手札を見る。",
 			},
 		},
 		{

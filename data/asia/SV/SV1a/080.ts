@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コイキング"
+		'ja-jp': "コイキング"
 	},
 
 	illustrator: "Shinji Kanda",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "力のない 情けない ポケモン。 たまに 高く 飛び跳ねても ２メートルを 超すのが やっとだ。"
+		'ja-jp': "力のない 情けない ポケモン。 たまに 高く 飛び跳ねても ２メートルを 超すのが やっとだ。"
 	},
 
 	stage: "Basic",
@@ -24,13 +24,13 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "はねじょうず"
+			'ja-jp': "はねじょうず"
 		},
 
 		damage: "10＋",
 
 		effect: {
-			ja: "コインを2回投げ、すべてオモテなら、20ダメージ追加。"
+			'ja-jp': "コインを2回投げ、すべてオモテなら、20ダメージ追加。"
 		}
 	}],
 

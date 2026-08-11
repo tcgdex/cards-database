@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [396],
 
 	name: {
-		en: "Starly"
+		'en-us': "Starly"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Because they are weak individually, they form\ngroups. However, they bicker if the group grows\ntoo big."
+		'en-us': "Because they are weak individually, they form\ngroups. However, they bicker if the group grows\ntoo big."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Call for Family"
+			'en-us': "Call for Family"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Put 1 random Starly from your deck onto your Bench."
+			'en-us': "Put 1 random Starly from your deck onto your Bench."
 		}
 	}],
 

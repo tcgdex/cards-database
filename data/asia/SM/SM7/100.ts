@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チルタリスGX",
+		'ja-jp': "チルタリスGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Fairy", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンは「ポケモンGX・EX」からワザのダメージを受けない。",
+				'ja-jp': "次の相手の番、このポケモンは「ポケモンGX・EX」からワザのダメージを受けない。",
 			},
 		},
 		{
@@ -28,14 +28,14 @@ const card: Card = {
 			damage: 110,
 			cost: ["Water", "Fairy", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 		{
 			name: { ja: "ユーフォリアGX" },
 			cost: ["Fairy", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。自分のポケモン全員のHPを、すべて回復する。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のバトルポケモンをねむりにする。自分のポケモン全員のHPを、すべて回復する。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チルット",
+		'ja-jp': "チルット",
 	},
 
 	retreat: 1,

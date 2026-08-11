@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Jungle'
 
 const card: Card = {
 	name: {
-		en: "Nidorina",
-		fr: "Nidorina",
-		de: "Nidorina"
+		'en-us': "Nidorina",
+		'fr-fr': "Nidorina",
+		'de-de': "Nidorina"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidoran♀",
-		fr: "Nidoran"
+		'en-us': "Nidoran♀",
+		'fr-fr': "Nidoran"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Supersonic",
-				fr: "Ultrason",
-				de: "Superschall"
+				'en-us': "Supersonic",
+				'fr-fr': "Ultrason",
+				'de-de': "Superschall"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Kick",
-				fr: "Double pied",
-				de: "Doppelkick"
+				'en-us': "Double Kick",
+				'fr-fr': "Double pied",
+				'de-de': "Doppelkick"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Wirf zwei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt, 30 Schadenspunkte zu."
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf zwei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt, 30 Schadenspunkte zu."
 			},
 			damage: "30x",
 
@@ -78,8 +78,8 @@ const card: Card = {
 
 
 	description: {
-		en: "The female's horn develops slowly. Prefers physical attacks such as clawing and biting.",
-		fr: "La corne de la femelle grandit lentement. Elle préfère attaquer avec ses griffes et sa gueule."
+		'en-us': "The female's horn develops slowly. Prefers physical attacks such as clawing and biting.",
+		'fr-fr': "La corne de la femelle grandit lentement. Elle préfère attaquer avec ses griffes et sa gueule."
 	},
 
 

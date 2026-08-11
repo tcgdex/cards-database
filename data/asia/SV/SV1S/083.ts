@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ラルトス"
+		'ja-jp': "ラルトス"
 	},
 
 	illustrator: "Jiro Sasumo",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "人の 感情を 頭の 赤い ツノで 敏感に キャッチする 力を 持つ。"
+		'ja-jp': "人の 感情を 頭の 赤い ツノで 敏感に キャッチする 力を 持つ。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "サイコショット"
+			'ja-jp': "サイコショット"
 		},
 
 		damage: 30

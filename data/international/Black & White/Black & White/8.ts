@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Simisage",
-		fr: "Feuiloutan",
-		es: "Simisage",
-		it: "Simisage",
-		pt: "Simisage",
-		de: "Vegichita"
+		'en-us': "Simisage",
+		'fr-fr': "Feuiloutan",
+		'es-es': "Simisage",
+		'it-it': "Simisage",
+		'pt-br': "Simisage",
+		'de-de': "Vegichita"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pansage",
-		fr: "Feuillajou",
+		'en-us': "Pansage",
+		'fr-fr': "Feuillajou",
 	},
 
 	stage: "Stage1",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Seed Bomb",
-				fr: "Canon Graine",
+				'en-us': "Seed Bomb",
+				'fr-fr': "Canon Graine",
 			},
 
 			damage: 30,
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Swipes",
-				fr: "Combo-Griffe",
+				'en-us': "Fury Swipes",
+				'fr-fr': "Combo-Griffe",
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 40 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 3 coins. This attack does 40 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 40,
 
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It attacks enemies with strikes of its thorn-covered tail. This Pokémon is wild tempered.",
+		'en-us': "It attacks enemies with strikes of its thorn-covered tail. This Pokémon is wild tempered.",
 	},
 
 	thirdParty: {

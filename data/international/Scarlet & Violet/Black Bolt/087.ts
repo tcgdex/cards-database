@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Snivy",
-		fr: "Vipélierre",
-		de: "Serpifeu",
-		it: "Snivy",
-		pt: "Snivy",
-		es: "Snivy",
+		'en-us': "Snivy",
+		'fr-fr': "Vipélierre",
+		'de-de': "Serpifeu",
+		'it-it': "Snivy",
+		'pt-br': "Snivy",
+		'es-es': "Snivy",
 		'es-mx': "Snivy"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			de: "Tackle",
-			it: "Azione",
-			pt: "Investida",
-			es: "Placaje",
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'de-de': "Tackle",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'es-es': "Placaje",
 			'es-mx': "Tacleada"
 		},
 
@@ -40,12 +40,12 @@ const card: Card = {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			en: "Vine Whip",
-			fr: "Fouet Lianes",
-			de: "Rankenhieb",
-			it: "Frustata",
-			pt: "Chicote de Vinha",
-			es: "Látigo Cepa",
+			'en-us': "Vine Whip",
+			'fr-fr': "Fouet Lianes",
+			'de-de': "Rankenhieb",
+			'it-it': "Frustata",
+			'pt-br': "Chicote de Vinha",
+			'es-es': "Látigo Cepa",
 			'es-mx': "Látigo Cepa"
 		},
 

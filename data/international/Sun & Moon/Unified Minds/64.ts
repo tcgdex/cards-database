@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Tynamo",
-		fr: "Anchwatt",
-		es: "Tynamo",
-		it: "Tynamo",
-		pt: "Tynamo",
-		de: "Zapplardin"
+		'en-us': "Tynamo",
+		'fr-fr': "Anchwatt",
+		'es-es': "Tynamo",
+		'it-it': "Tynamo",
+		'pt-br': "Tynamo",
+		'de-de': "Zapplardin"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Generate Electricity",
-				fr: "Générateur Électrique",
-				es: "Generar Electricidad",
-				it: "Generatore Elettrico",
-				pt: "Gerar Eletricidade",
-				de: "Elektrogenerator"
+				'en-us': "Generate Electricity",
+				'fr-fr': "Générateur Électrique",
+				'es-es': "Generar Electricidad",
+				'it-it': "Generatore Elettrico",
+				'pt-br': "Gerar Eletricidade",
+				'de-de': "Elektrogenerator"
 			},
 			effect: {
-				en: "Search your deck for a Lightning Energy card and attach it to this Pokémon. Then, shuffle your deck.",
-				fr: "Cherchez une carte Énergie Lightning dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja 1 carta de Energía Lightning y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
-				it: "Cerca nel tuo mazzo una carta Energia Lightning e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure por 1 carta de Energia Lightning no seu baralho e ligue-a a este Pokémon. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach 1 Lightning-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+				'en-us': "Search your deck for a Lightning Energy card and attach it to this Pokémon. Then, shuffle your deck.",
+				'fr-fr': "Cherchez une carte Énergie Lightning dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja 1 carta de Energía Lightning y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo una carta Energia Lightning e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por 1 carta de Energia Lightning no seu baralho e ligue-a a este Pokémon. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach 1 Lightning-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "While one alone doesn't have much power, a chain of many Tynamo can be as powerful as lightning.",
+		'en-us': "While one alone doesn't have much power, a chain of many Tynamo can be as powerful as lightning.",
 	},
 
 	thirdParty: {

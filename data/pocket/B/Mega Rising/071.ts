@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Froakie"
+		'en-us': "Froakie"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It protects its skin by covering its body in\ndelicate bubbles. Beneath its happy-go-lucky air,\nit keeps a watchful eye on its surroundings."
+		'en-us': "It protects its skin by covering its body in\ndelicate bubbles. Beneath its happy-go-lucky air,\nit keeps a watchful eye on its surroundings."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Water Drip"
+			'en-us': "Water Drip"
 		},
 
 		damage: 20,

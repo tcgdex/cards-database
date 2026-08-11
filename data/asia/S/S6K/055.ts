@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤヤコマ",
+		'ja-jp': "ヤヤコマ",
 		'zh-tw': "小箭雀",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "身体は いつでも 暖かい。 寒い 地域の トレーナーは ベッドで 一緒に 寝るらしい。",
+		'ja-jp': "身体は いつでも 暖かい。 寒い 地域の トレーナーは ベッドで 一緒に 寝るらしい。",
 		'zh-tw': "身體總是很溫暖。寒冷地區的訓練家似乎會和牠一起睡在床上。",
 	},
 
@@ -23,24 +23,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "おいかぜドロー",
+				'ja-jp': "おいかぜドロー",
 				'zh-tw': "順風抽出",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を1枚引く。後攻プレイヤーの最初の番なら、さらに3枚引く。",
+				'ja-jp': "自分の山札を1枚引く。後攻プレイヤーの最初の番なら、さらに3枚引く。",
 				'zh-tw': "從自己的牌庫抽出1張卡。若在後攻玩家的最初回合使用，則再抽出3張卡。",
 			},
 		},
 		{
 			name: {
-				ja: "ふいをつく",
+				'ja-jp': "ふいをつく",
 				'zh-tw': "偷襲",
 			},
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
 				'zh-tw': "擲1次硬幣若為反面，則這個招式失敗。",
 			},
 		},

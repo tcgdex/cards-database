@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ズルズキン",
+		'ja-jp': "ズルズキン",
 	},
 
 	illustrator: "OKUBO",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "やる気の なさげな キックは ローブシンの もつ コンクリートも 砕くほどの 破壊力。",
+		'ja-jp': "やる気の なさげな キックは ローブシンの もつ コンクリートも 砕くほどの 破壊力。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "かっぱらう" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のベンチポケモンの数ぶんまで、自分の山札から好きなカードを選び、手札に加える。そして山札を切る。",
+				'ja-jp': "自分のベンチポケモンの数ぶんまで、自分の山札から好きなカードを選び、手札に加える。そして山札を切る。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ズルッグ",
+		'ja-jp': "ズルッグ",
 	},
 
 	retreat: 1,

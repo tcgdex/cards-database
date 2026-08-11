@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "d",
+		'ja-jp': "d",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "暗い[暗闇]",
+				'ja-jp': "暗い[暗闇]",
 			},
 			effect: {
-				ja: "暗闇のポクモンがポクモンの1を損傷するときはいつでも、その損傷を30 <em>（衰弱と抵抗を適用した後）</em>に減らします。このパワーは、プレイ中に複数の[D]を1つ以上持っている場合、機能しなくなります。 <em>（このパワーは、眠っていない、混乱している、または麻痺している場合でも機能します。）</em>",
+				'ja-jp': "暗闇のポクモンがポクモンの1を損傷するときはいつでも、その損傷を30 <em>（衰弱と抵抗を適用した後）</em>に減らします。このパワーは、プレイ中に複数の[D]を1つ以上持っている場合、機能しなくなります。 <em>（このパワーは、眠っていない、混乱している、または麻痺している場合でも機能します。）</em>",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "隠された力",
+				'ja-jp': "隠された力",
 			},
 			damage: 10,
 		},

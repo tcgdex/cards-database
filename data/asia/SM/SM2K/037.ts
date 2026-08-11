@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キュワワー",
+		'ja-jp': "キュワワー",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "栄養満点の ツルに 花を くっつける。 花は 活性化し 香しい アロマが 漂いだす。",
+		'ja-jp': "栄養満点の ツルに 花を くっつける。 花は 活性化し 香しい アロマが 漂いだす。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "フラワーガード" },
 			effect: {
-				ja: "このポケモンがいるかぎり、[妖]エネルギーがついている自分のポケモン全員は、特殊状態にならず、受けている特殊状態は、すべて回復する。",
+				'ja-jp': "このポケモンがいるかぎり、[妖]エネルギーがついている自分のポケモン全員は、特殊状態にならず、受けている特殊状態は、すべて回復する。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Fairy", "Colorless"],
 			effect: {
-				ja: "相手は山札を1枚引く。",
+				'ja-jp': "相手は山札を1枚引く。",
 			},
 		},
 	],

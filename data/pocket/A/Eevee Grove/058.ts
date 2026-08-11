@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Aipom",
-		fr: "Capumain"
+		'en-us': "Aipom",
+		'fr-fr': "Capumain"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -18,24 +18,24 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "As it did more and more with its tail, its hands\nbecame clumsy. It makes its nest high in\nthe treetops.",
-		fr: "À force d'utiliser sa queue à tort et à travers, elle est devenue plus habile que ses mains. Il l'utilise pour faire son nid en haut des arbres."
+		'en-us': "As it did more and more with its tail, its hands\nbecame clumsy. It makes its nest high in\nthe treetops.",
+		'fr-fr': "À force d'utiliser sa queue à tort et à travers, elle est devenue plus habile que ses mains. Il l'utilise pour faire son nid en haut des arbres."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Double Hit",
-			fr: "Coup Double"
+			'en-us': "Double Hit",
+			'fr-fr': "Coup Double"
 		},
 
 		damage: 20,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Flip 2 coins. This attack does 20 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts pour chaque côté face."
+			'en-us': "Flip 2 coins. This attack does 20 damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts pour chaque côté face."
 		}
 	}],
 

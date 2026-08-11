@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S5a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "巨樹丘陵",
-		th: "ไดทรีฮิลล์"
+		'th-th': "ไดทรีฮิลล์"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -14,7 +14,7 @@ const card: Card = {
 
 	effect: {
 		'zh-tw': "雙方的所有寶可夢的HP無法恢復。",
-		th: "ฟื้นฟู HP ของโปเกมอนทุกตัวของทั้งสองฝ่ายไม่ได้"
+		'th-th': "ฟื้นฟู HP ของโปเกมอนทุกตัวของทั้งสองฝ่ายไม่ได้"
 	},
 
 	trainerType: "Stadium",

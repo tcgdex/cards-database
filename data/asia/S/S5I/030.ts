@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S5I";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グライガー",
+		'ja-jp': "グライガー",
 		'zh-tw': "天蠍",
-		th: "ไกลกา",
+		'th-th': "ไกลกา",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -15,9 +15,9 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "顔面 めがけて 飛んでくる。 張りつかれた 獲物が 驚く あいだに 毒針を 刺しこむ。",
+		'ja-jp': "顔面 めがけて 飛んでくる。 張りつかれた 獲物が 驚く あいだに 毒針を 刺しこむ。",
 		'zh-tw': "會朝著獵物迎面飛來，然後趁著被纏上的獵物驚慌失措時刺入毒針。",
-		th: "เล็งไปที่ใบหน้าแล้วบินเข้ามา จะแทงเข็มพิษเข้าไประหว่างที่เหยื่อถูกขึงติดไว้ตกใจ",
+		'th-th': "เล็งไปที่ใบหน้าแล้วบินเข้ามา จะแทงเข็มพิษเข้าไประหว่างที่เหยื่อถูกขึงติดไว้ตกใจ",
 	},
 
 	stage: "Basic",
@@ -25,9 +25,9 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "きりさく",
+				'ja-jp': "きりさく",
 				'zh-tw': "劈開",
-				th: "ฟันแหลก",
+				'th-th': "ฟันแหลก",
 			},
 			damage: 30,
 			cost: ["Colorless", "Colorless"],

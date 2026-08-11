@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ネマシュ",
+		'ja-jp': "ネマシュ",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "頭の 傘は とても 美味しい。 森の ポケモンたちに 食べられるが 一晩で 再生する。",
+		'ja-jp': "頭の 傘は とても 美味しい。 森の ポケモンたちに 食べられるが 一晩で 再生する。",
 	},
 
 	stage: "Basic",

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gligar",
-		fr: "Scorplane",
-		es: "Gligar",
-		it: "Gligar",
-		pt: "Gligar",
-		de: "Skorgla"
+		'en-us': "Gligar",
+		'fr-fr': "Scorplane",
+		'es-es': "Gligar",
+		'it-it': "Gligar",
+		'pt-br': "Gligar",
+		'de-de': "Skorgla"
 	},
 
 	rarity: "Common",
@@ -30,39 +30,39 @@ const card: Card = {
 	illustrator: "Misa Tsutsui",
 
 	description: {
-		en: "It flies straight at its target's face, then clamps down on the startled victim to inject poison."
+		'en-us': "It flies straight at its target's face, then clamps down on the startled victim to inject poison."
 	},
 
 	attacks: [{
 		cost: ["Fighting"],
 
 		name: {
-			en: "Poison Sting",
-			fr: "Dard-Venin",
-			de: "Giftstachel",
-			es: "Picotazo Veneno",
-			pt: "Ferrão Venenoso",
-			it: "Velenospina"
+			'en-us': "Poison Sting",
+			'fr-fr': "Dard-Venin",
+			'de-de': "Giftstachel",
+			'es-es': "Picotazo Veneno",
+			'pt-br': "Ferrão Venenoso",
+			'it-it': "Velenospina"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato."
 		}
 	}, {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Pierce",
-			fr: "Transpercement",
-			de: "Durchbohren",
-			es: "Perforar",
-			pt: "Perfurar",
-			it: "Perforare"
+			'en-us': "Pierce",
+			'fr-fr': "Transpercement",
+			'de-de': "Durchbohren",
+			'es-es': "Perforar",
+			'pt-br': "Perfurar",
+			'it-it': "Perforare"
 		},
 
 		damage: 30

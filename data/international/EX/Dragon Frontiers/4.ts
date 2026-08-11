@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Meganium δ",
-		fr: "Meganium δ",
-		de: "Meganie"
+		'en-us': "Meganium δ",
+		'fr-fr': "Meganium δ",
+		'de-de': "Meganie"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bayleef",
-		fr: "Macronium"
+		'en-us': "Bayleef",
+		'fr-fr': "Macronium"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Evolutionary Call",
-				fr: "Appel à l'évolution",
-				de: "Evolutionsruf"
+				'en-us': "Evolutionary Call",
+				'fr-fr': "Appel à l'évolution",
+				'de-de': "Evolutionsruf"
 			},
 			effect: {
-				en: "Once during your turn, when you play Meganium from your hand to evolve 1 of your Pokémon, you may search your deck for up to 3 in any combination of Basic Pokémon or Evolution cards. Show them to your opponent and put them into your hand. Shuffle your deck afterward.",
-				fr: "Une seule fois lors de votre tour, lorsque vous jouez Meganium de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez choisir dans votre deck une combinaison de jusqu'à 3 Pokémon de base et cartes Évolution. Montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck.",
-				de: "Einmal während deines Zuges, wenn du Meganie von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du dein Deck nach bis zu 3 Basis-Pokémon- oder Evolutionskarten in beliebiger Kombination durchsuchen. Zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+				'en-us': "Once during your turn, when you play Meganium from your hand to evolve 1 of your Pokémon, you may search your deck for up to 3 in any combination of Basic Pokémon or Evolution cards. Show them to your opponent and put them into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Une seule fois lors de votre tour, lorsque vous jouez Meganium de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez choisir dans votre deck une combinaison de jusqu'à 3 Pokémon de base et cartes Évolution. Montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck.",
+				'de-de': "Einmal während deines Zuges, wenn du Meganie von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du dein Deck nach bis zu 3 Basis-Pokémon- oder Evolutionskarten in beliebiger Kombination durchsuchen. Zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Delta Reduction",
-				fr: "Réduction Delta",
-				de: "Delta-Reduktion"
+				'en-us': "Delta Reduction",
+				'fr-fr': "Réduction Delta",
+				'de-de': "Delta-Reduktion"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).",
-				fr: "Lors du prochain tour de votre adversaire, les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 30 (avant application de la Faiblesse et de la Résistance).",
-				de: "Während des nächsten Zuges deines Gegners wird jeder Schaden von Angriffen des Verteidigenden Pokémon um 30 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).",
+				'fr-fr': "Lors du prochain tour de votre adversaire, les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 30 (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "Während des nächsten Zuges deines Gegners wird jeder Schaden von Angriffen des Verteidigenden Pokémon um 30 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 			damage: 40,
 
@@ -72,9 +72,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Impact",
-				fr: "Méga impact",
-				de: "Mega Einschlag"
+				'en-us': "Mega Impact",
+				'fr-fr': "Méga impact",
+				'de-de': "Mega Einschlag"
 			},
 
 			damage: 60,

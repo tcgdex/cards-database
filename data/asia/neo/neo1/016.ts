@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャンプラフ",
+		'ja-jp': "ジャンプラフ",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "スリープパウダー",
+				'ja-jp': "スリープパウダー",
 			},
 			effect: {
-				ja: "防御ポケモンは今眠っています。",
+				'ja-jp': "防御ポケモンは今眠っています。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "リーチシード",
+				'ja-jp': "リーチシード",
 			},
 			effect: {
-				ja: "この攻撃が防御ポケモンに損傷を与えた場合（脱力感と抵抗を適用した後）、ジャンプラフから1つのダメージカウンターを削除します。",
+				'ja-jp': "この攻撃が防御ポケモンに損傷を与えた場合（脱力感と抵抗を適用した後）、ジャンプラフから1つのダメージカウンターを削除します。",
 			},
 			damage: 20,
 		},

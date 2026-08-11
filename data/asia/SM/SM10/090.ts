@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダストアイランド",
+		'ja-jp': "ダストアイランド",
 	},
 
 	illustrator: "Ryo Ueda",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのプレイヤーが、自分のどくのバトルポケモンをトレーナーズの効果でベンチポケモンと入れ替えたとき、新しく出てきたポケモンが、そのどくを引きつぐ。（どくでのせるダメカンの数が増えているなら、その数も引きつぐ。）",
+		'ja-jp': "おたがいのプレイヤーが、自分のどくのバトルポケモンをトレーナーズの効果でベンチポケモンと入れ替えたとき、新しく出てきたポケモンが、そのどくを引きつぐ。（どくでのせるダメカンの数が増えているなら、その数も引きつぐ。）",
 	},
 
 	variants: [

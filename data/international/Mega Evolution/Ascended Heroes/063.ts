@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Helioptile",
-		fr: "Galvaran",
-		es: "Helioptile",
+		'en-us': "Helioptile",
+		'fr-fr': "Galvaran",
+		'es-es': "Helioptile",
 		'es-mx': "Helioptile",
-		de: "Eguana",
-		it: "Helioptile",
-		pt: "Helioptile"
+		'de-de': "Eguana",
+		'it-it': "Helioptile",
+		'pt-br': "Helioptile"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Zap Kick",
-			fr: "Coup de Pied Ravageur",
-			es: "Electropatada",
+			'en-us': "Zap Kick",
+			'fr-fr': "Coup de Pied Ravageur",
+			'es-es': "Electropatada",
 			'es-mx': "Electropatada",
-			de: "Stromtritt",
-			it: "Dinamocalcio",
-			pt: "Chute Zap"
+			'de-de': "Stromtritt",
+			'it-it': "Dinamocalcio",
+			'pt-br': "Chute Zap"
 		},
 
 		damage: 30
@@ -48,7 +48,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "The frills on either side of its head have cells that generate electricity when exposed to sunlight.",
+		'en-us': "The frills on either side of its head have cells that generate electricity when exposed to sunlight.",
 	},
 
 	variants: [

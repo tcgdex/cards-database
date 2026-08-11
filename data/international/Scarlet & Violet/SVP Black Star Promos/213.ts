@@ -1,23 +1,23 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Feraligatr",
+		'en-us': "Feraligatr",
 	},
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Croconaw",
-		fr: "Crocrodil",
-		es: "Croconaw",
-		it: "Croconaw",
-		pt: "Croconaw",
-		de: "Tyracroc"
+		'en-us': "Croconaw",
+		'fr-fr': "Crocrodil",
+		'es-es': "Croconaw",
+		'it-it': "Croconaw",
+		'pt-br': "Croconaw",
+		'de-de': "Tyracroc"
 	},
 	stage: "Stage2",
 	illustrator: "Acorviart",
@@ -27,10 +27,10 @@ const card: Card = {
 		{
 			cost: ["Water","Water","Water","Colorless"],
 			name: {
-				en: "Deep Submergence",
+				'en-us': "Deep Submergence",
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of " +
+				'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of " +
 					"attacks done to this Pokémon."
 			},
 			damage: "140",

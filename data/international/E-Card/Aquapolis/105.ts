@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Remoraid",
-		fr: "Rémoraid",
-		de: "Remoraid"
+		'en-us': "Remoraid",
+		'fr-fr': "Rémoraid",
+		'de-de': "Remoraid"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Splatter",
-				fr: "Crépitement",
-				de: "Verspritzer"
+				'en-us': "Splatter",
+				'fr-fr': "Crépitement",
+				'de-de': "Verspritzer"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon is play. This attack does 10 damage to that Pokémon. Don't apply Weakness or Resistance for this attack.",
-				fr: "Choisissez un des Pokémon de votre adversaire en jeu. Cette attaque inflige 10 dégâts à ce Pokémon. N'appliquez ni la Faiblesse, ni la Résistance pour cette attaque.",
-				de: "Wähle 1 der Pokémon deines Gegners im Spiel. Dieser Angriff fügt diesem Pokémon 10 Schadenspunkte zu. Wende Schwäche und Resistenz bei diesem Angriff nicht an."
+				'en-us': "Choose 1 of your opponent's Pokémon is play. This attack does 10 damage to that Pokémon. Don't apply Weakness or Resistance for this attack.",
+				'fr-fr': "Choisissez un des Pokémon de votre adversaire en jeu. Cette attaque inflige 10 dégâts à ce Pokémon. N'appliquez ni la Faiblesse, ni la Résistance pour cette attaque.",
+				'de-de': "Wähle 1 der Pokémon deines Gegners im Spiel. Dieser Angriff fügt diesem Pokémon 10 Schadenspunkte zu. Wende Schwäche und Resistenz bei diesem Angriff nicht an."
 			}
 
 		},

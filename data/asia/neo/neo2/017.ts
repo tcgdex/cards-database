@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コルサラ",
+		'ja-jp': "コルサラ",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "回復する",
+				'ja-jp': "回復する",
 			},
 			effect: {
-				ja: "Corsolaに取り付けられた1つの水エネルギーカードを廃棄すると、この攻撃は何もしません。 Corsolaからすべてのダメージカウンターを削除します。",
+				'ja-jp': "Corsolaに取り付けられた1つの水エネルギーカードを廃棄すると、この攻撃は何もしません。 Corsolaからすべてのダメージカウンターを削除します。",
 			},
 		},
 		{
 			cost: ["Fighting", "Fighting"],
 			name: {
-				ja: "スパイクキャノン",
+				'ja-jp': "スパイクキャノン",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
 			},
 		},
 	],

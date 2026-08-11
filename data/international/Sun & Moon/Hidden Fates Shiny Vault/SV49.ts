@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Charizard-GX",
-		fr: "Dracaufeu-GX",
+		'en-us': "Charizard-GX",
+		'fr-fr': "Dracaufeu-GX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Shiny rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Fire",
 	],
 	evolveFrom: {
-		en: "Charmeleon",
-		fr: "Reptincel",
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel",
 	},
 
 	suffix: "GX",
@@ -33,8 +33,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-Aile",
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-Aile",
 			},
 
 			damage: 70,
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crimson Storm",
-				fr: "Tempête Écarlate",
+				'en-us': "Crimson Storm",
+				'fr-fr': "Tempête Écarlate",
 			},
 			effect: {
-				en: "Discard 3 Fire Energy from this Pokémon.",
-				fr: "Défaussez 3 Énergies Fire de ce Pokémon.",
+				'en-us': "Discard 3 Fire Energy from this Pokémon.",
+				'fr-fr': "Défaussez 3 Énergies Fire de ce Pokémon.",
 			},
 			damage: 300,
 
@@ -66,12 +66,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Raging Out-GX",
-				fr: "Déchaînement Furieux-GX",
+				'en-us': "Raging Out-GX",
+				'fr-fr': "Déchaînement Furieux-GX",
 			},
 			effect: {
-				en: "Discard the top 10 cards of your opponent's deck. (You can't use more than 1 GX attack in a game.)",
-				fr: "Défaussez les 10 cartes du dessus du deck de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'en-us': "Discard the top 10 cards of your opponent's deck. (You can't use more than 1 GX attack in a game.)",
+				'fr-fr': "Défaussez les 10 cartes du dessus du deck de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 
 		},

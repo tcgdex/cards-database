@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Misty's Magikarp"
+		'en-us': "Misty's Magikarp"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Play Dead"
+				'en-us': "Play Dead"
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Misty's Magikarp."
+				'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Misty's Magikarp."
 			},
 
 		},
@@ -39,7 +39,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leap"
+				'en-us': "Leap"
 			},
 
 			damage: 10,

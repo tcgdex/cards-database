@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホエルオー",
+		'ja-jp': "ホエルオー",
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "あまりに たくさん さかなポケモンを 食らうので 数が 増えすぎると 漁師たちに 追い払われている。",
+		'ja-jp': "あまりに たくさん さかなポケモンを 食らうので 数が 増えすぎると 漁師たちに 追い払われている。",
 	},
 
 	stage: "Stage1",
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ホエルコ",
+		'ja-jp': "ホエルコ",
 	},
 
 	retreat: 4,

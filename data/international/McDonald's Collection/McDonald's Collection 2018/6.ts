@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2018'
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Machop"
+		'en-us': "Machop"
 	},
 
 	rarity: "None",
@@ -20,7 +20,7 @@ const card: Card = {
 				"Fighting", "Colorless",
 			],
 			name: {
-				en: "Dynamic Chop",
+				'en-us': "Dynamic Chop",
 			},
 			damage: 50,
 		},

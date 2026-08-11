@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Kingambit"
+		'id-id': "Kingambit"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Hanya Bisharp yang berada pada posisi teratas di dalam pasukannya yang dapat berevolusi menjadi Kingambit."
+		'id-id': "Hanya Bisharp yang berada pada posisi teratas di dalam pasukannya yang dapat berevolusi menjadi Kingambit."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			id: "Membabat"
+			'id-id': "Membabat"
 		},
 
 		effect: {
-			id: "Jika Pokémon Bertarung lawan memiliki Token Kerusakan sejumlah 4 atau lebih, Pokémon tersebut KO."
+			'id-id': "Jika Pokémon Bertarung lawan memiliki Token Kerusakan sejumlah 4 atau lebih, Pokémon tersebut KO."
 		},
 
 		cost: ["Metal"]
 	}, {
 		name: {
-			id: "Cabikan Besar"
+			'id-id': "Cabikan Besar"
 		},
 
 		damage: 140,

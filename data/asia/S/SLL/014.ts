@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SLL"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "寶可夢交替",
-		ja: "ポケモンいれかえ"
+		'ja-jp': "ポケモンいれかえ"
 	},
 
 	illustrator: "Studio Bora Inc.",
@@ -14,7 +14,7 @@ const card: Card = {
 
 	effect: {
 		'zh-tw': "將自己的戰鬥寶可夢與備戰寶可夢互換。",
-		ja: "自分のバトルポケモンをベンチポケモンと入れ替える。"
+		'ja-jp': "自分のバトルポケモンをベンチポケモンと入れ替える。"
 	},
 
 	trainerType: "Item",

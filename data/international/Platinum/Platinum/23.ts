@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Dialga",
-		fr: "Dialga",
-		de: "Dialga"
+		'en-us': "Dialga",
+		'fr-fr': "Dialga",
+		'de-de': "Dialga"
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Stream",
-				fr: "Courant d'énergie",
-				de: "Energy Stream"
+				'en-us': "Energy Stream",
+				'fr-fr': "Courant d'énergie",
+				'de-de': "Energy Stream"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your discard pile for a basic Energy card and attach it to Dialga.",
-				fr: "Lancez une pièce. Si c'est face, choisissez dans votre pile de défausse une carte Énergie de base et attachez-la à Dialga.",
-				de: "Flip a coin. If heads, search your discard pile for a basic Energy card and attach it to Dialga."
+				'en-us': "Flip a coin. If heads, search your discard pile for a basic Energy card and attach it to Dialga.",
+				'fr-fr': "Lancez une pièce. Si c'est face, choisissez dans votre pile de défausse une carte Énergie de base et attachez-la à Dialga.",
+				'de-de': "Flip a coin. If heads, search your discard pile for a basic Energy card and attach it to Dialga."
 			},
 			damage: 20,
 
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Diamond Blow",
-				fr: "Coup diamant",
-				de: "Diamond Blow"
+				'en-us': "Diamond Blow",
+				'fr-fr': "Coup diamant",
+				'de-de': "Diamond Blow"
 			},
 			effect: {
-				en: "Dialga can't attack during your next turn.",
-				fr: "Dialga ne peut pas attaquer lors de votre prochain tour.",
-				de: "Dialga can't attack during your next turn."
+				'en-us': "Dialga can't attack during your next turn.",
+				'fr-fr': "Dialga ne peut pas attaquer lors de votre prochain tour.",
+				'de-de': "Dialga can't attack during your next turn."
 			},
 			damage: 100,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "A legendary Pokémon of Sinnoh. It is said that time flows when Dialga's heart beats."
+		'en-us': "A legendary Pokémon of Sinnoh. It is said that time flows when Dialga's heart beats."
 	},
 
 	variants: [

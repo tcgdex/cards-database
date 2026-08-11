@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Nidorino"
+		'en-us': "Nidorino"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidoran♂"
+		'en-us': "Nidoran♂"
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Kick"
+				'en-us': "Double Kick"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads."
 			},
 			damage: "30×",
 
@@ -49,7 +49,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Drill"
+				'en-us': "Horn Drill"
 			},
 
 			damage: 50,
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "An aggressive Pokémon that is quick to attack. The horn on its head secretes a powerful venom."
+		'en-us': "An aggressive Pokémon that is quick to attack. The horn on its head secretes a powerful venom."
 	},
 
 	variants: [

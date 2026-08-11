@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルナトーン",
+		'ja-jp': "ルナトーン",
 		'zh-tw': "月石",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "月の 満ち欠けと パワーの 増減が 関係 しているらしく 満月の 夜 活発になる。",
+		'ja-jp': "月の 満ち欠けと パワーの 増減が 関係 しているらしく 満月の 夜 活発になる。",
 		'zh-tw': "月亮的盈虧似乎會影響牠力量的增減。每到滿月之夜就會變得活躍。",
 	},
 
@@ -23,24 +23,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "サイクルドロー",
+				'ja-jp': "サイクルドロー",
 				'zh-tw': "循環抽出",
 			},
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分の手札を1枚トラッシュする。その後、自分の山札を3枚引く。",
+				'ja-jp': "自分の手札を1枚トラッシュする。その後、自分の山札を3枚引く。",
 				'zh-tw': "將自己的1張手牌丟棄。然後，從自己的牌庫抽出3張卡。",
 			},
 		},
 		{
 			name: {
-				ja: "ムーンキネシス",
+				'ja-jp': "ムーンキネシス",
 				'zh-tw': "月亮強念",
 			},
 			damage: "30+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[P]エネルギーの数×30ダメージ追加。",
+				'ja-jp': "このポケモンについている[P]エネルギーの数×30ダメージ追加。",
 				'zh-tw': "增加這隻寶可夢身上附加的【超】能量的數量×30點傷害。",
 			},
 		},

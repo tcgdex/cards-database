@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Meowth",
-		fr: "Miaouss",
-		de: "Mauzi"
+		'en-us': "Meowth",
+		'fr-fr': "Miaouss",
+		'de-de': "Mauzi"
 	},
 
 	illustrator: "Hiroki Fuchino",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pickup Power",
-				fr: "Pouvoir ramassage",
-				de: "Pickup Power"
+				'en-us': "Pickup Power",
+				'fr-fr': "Pouvoir ramassage",
+				'de-de': "Pickup Power"
 			},
 			effect: {
-				en: "Search your discard pile for an Energy card, show it to your opponent, and put it into your hand.",
-				fr: "Choisissez dans votre pile de défausse une carte Énergie, montrez-la à votre adversaire et placez-la dans votre main.",
-				de: "Search your discard pile for an Energy card, show it to your opponent, and put it into your hand."
+				'en-us': "Search your discard pile for an Energy card, show it to your opponent, and put it into your hand.",
+				'fr-fr': "Choisissez dans votre pile de défausse une carte Énergie, montrez-la à votre adversaire et placez-la dans votre main.",
+				'de-de': "Search your discard pile for an Energy card, show it to your opponent, and put it into your hand."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Bite"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Bite"
 			},
 
 			damage: 10,

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM trainer Kit (Alolan Raichu)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Grubbin",
-		fr: "Larvibule",
-		es: "Grubbin",
-		it: "Grubbin",
-		pt: "Grubbin",
-		de: "Mabula"
+		'en-us': "Grubbin",
+		'fr-fr': "Larvibule",
+		'es-es': "Grubbin",
+		'it-it': "Grubbin",
+		'pt-br': "Grubbin",
+		'de-de': "Mabula"
 	},
 
 	illustrator: "Akira Komayama",
@@ -28,7 +28,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vice Grip"
+				'en-us': "Vice Grip"
 			},
 			damage: 20
 		},

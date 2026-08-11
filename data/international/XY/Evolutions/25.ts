@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Poliwrath",
-		fr: "Tartard",
-		es: "Poliwrath",
-		it: "Poliwrath",
-		pt: "Poliwrath",
-		de: "Quappo"
+		'en-us': "Poliwrath",
+		'fr-fr': "Tartard",
+		'es-es': "Poliwrath",
+		'it-it': "Poliwrath",
+		'pt-br': "Poliwrath",
+		'de-de': "Quappo"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Poliwhirl",
-		fr: "Têtarte",
-		es: "Poliwhirl",
-		it: "Poliwhirl",
-		pt: "Poliwhirl",
-		de: "Quaputzi"
+		'en-us': "Poliwhirl",
+		'fr-fr': "Têtarte",
+		'es-es': "Poliwhirl",
+		'it-it': "Poliwhirl",
+		'pt-br': "Poliwhirl",
+		'de-de': "Quaputzi"
 	},
 
 	stage: "Stage2",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Dashing Punch",
-				fr: "Poing Épique",
-				es: "Puño Veloz",
-				it: "Pugno Rincorsa",
-				pt: "Soco Veloz",
-				de: "Rasender Punch"
+				'en-us': "Dashing Punch",
+				'fr-fr': "Poing Épique",
+				'es-es': "Puño Veloz",
+				'it-it': "Pugno Rincorsa",
+				'pt-br': "Soco Veloz",
+				'de-de': "Rasender Punch"
 			},
 			effect: {
-				en: "If this Pokémon was on the Bench and became your Active Pokémon this turn, this attack does 50 more damage.",
-				fr: "Si ce Pokémon était sur le Banc et est devenu votre Pokémon Actif pendant ce tour, cette attaque inflige 50 dégâts supplémentaires.",
-				es: "Si este Pokémon estaba en la Banca y se ha convertido en tu Pokémon Activo en este turno, este ataque hace 50 puntos de daño más.",
-				it: "Se questo Pokémon era in panchina ed è diventato il tuo Pokémon attivo in questo turno, questo attacco infligge 50 danni in più.",
-				pt: "Se este Pokémon estava no Banco e tornou-se o seu Pokémon Ativo nesta vez de jogar, este ataque causará 50 de danos adicionais.",
-				de: "Wenn dieses Pokémon auf der Bank war und während dieses Zuges zu deinem Aktiven Pokémon wurde, fügt dieser Angriff 50 weitere Schadenspunkte zu."
+				'en-us': "If this Pokémon was on the Bench and became your Active Pokémon this turn, this attack does 50 more damage.",
+				'fr-fr': "Si ce Pokémon était sur le Banc et est devenu votre Pokémon Actif pendant ce tour, cette attaque inflige 50 dégâts supplémentaires.",
+				'es-es': "Si este Pokémon estaba en la Banca y se ha convertido en tu Pokémon Activo en este turno, este ataque hace 50 puntos de daño más.",
+				'it-it': "Se questo Pokémon era in panchina ed è diventato il tuo Pokémon attivo in questo turno, questo attacco infligge 50 danni in più.",
+				'pt-br': "Se este Pokémon estava no Banco e tornou-se o seu Pokémon Ativo nesta vez de jogar, este ataque causará 50 de danos adicionais.",
+				'de-de': "Wenn dieses Pokémon auf der Bank war und während dieses Zuges zu deinem Aktiven Pokémon wurde, fügt dieser Angriff 50 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 
@@ -68,20 +68,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Whirlpool",
-				fr: "Siphon",
-				es: "Torbellino",
-				it: "Mulinello",
-				pt: "Redemoinho",
-				de: "Whirlpool"
+				'en-us': "Whirlpool",
+				'fr-fr': "Siphon",
+				'es-es': "Torbellino",
+				'it-it': "Mulinello",
+				'pt-br': "Redemoinho",
+				'de-de': "Whirlpool"
 			},
 			effect: {
-				en: "Discard an Energy attached to your opponent's Active Pokémon.",
-				fr: "Défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
-				es: "Descarta 1 Energía unida al Pokémon Activo de tu rival.",
-				it: "Scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
-				de: "Lege 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
+				'en-us': "Discard an Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				'es-es': "Descarta 1 Energía unida al Pokémon Activo de tu rival.",
+				'it-it': "Scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 80,
 
@@ -98,7 +98,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "An adept swimmer, it knows the front crawl, butterfly, and more. It is faster than the best human swimmers.",
+		'en-us': "An adept swimmer, it knows the front crawl, butterfly, and more. It is faster than the best human swimmers.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slugma",
-		fr: "Limagma",
-		es: "Slugma",
-		it: "Slugma",
-		pt: "Slugma",
-		de: "Schneckmag"
+		'en-us': "Slugma",
+		'fr-fr': "Limagma",
+		'es-es': "Slugma",
+		'it-it': "Slugma",
+		'pt-br': "Slugma",
+		'de-de': "Schneckmag"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Roasting Heat",
-			fr: "Rôtissoire",
-			es: "Calor Abrasador",
-			it: "Calore Rovente",
-			pt: "Calor de Lascar",
-			de: "Bratende Hitze"
+			'en-us': "Roasting Heat",
+			'fr-fr': "Rôtissoire",
+			'es-es': "Calor Abrasador",
+			'it-it': "Calore Rovente",
+			'pt-br': "Calor de Lascar",
+			'de-de': "Bratende Hitze"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon is Burned, this attack does 40 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est Brûlé, cette attaque inflige 40 dégâts supplémentaires.",
-			es: "Si el Pokémon Activo de tu rival está Quemado, este ataque hace 40 puntos de daño más.",
-			it: "Se il Pokémon attivo del tuo avversario è bruciato, questo attacco infligge 40 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente estiver Queimado, este ataque causará 40 pontos de dano a mais.",
-			de: "Wenn das Aktive Pokémon deines Gegners verbrannt ist, fügt diese Attacke 40 Schadenspunkte mehr zu."
+			'en-us': "If your opponent's Active Pokémon is Burned, this attack does 40 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est Brûlé, cette attaque inflige 40 dégâts supplémentaires.",
+			'es-es': "Si el Pokémon Activo de tu rival está Quemado, este ataque hace 40 puntos de daño más.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è bruciato, questo attacco infligge 40 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente estiver Queimado, este ataque causará 40 pontos de dano a mais.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners verbrannt ist, fügt diese Attacke 40 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.",
+		'en-us': "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.",
 	},
 
 	variants: [

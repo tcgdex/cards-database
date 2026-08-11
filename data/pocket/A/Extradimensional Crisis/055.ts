@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Herdier",
-		fr: "Ponchien"
+		'en-us': "Herdier",
+		'fr-fr': "Ponchien"
 	},
 
 	illustrator: "Midori Harada",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Lillipup"
+		'en-us': "Lillipup"
 	},
 
 	description: {
-		en: "Herdier is a very smart and friendly Pokémon.\nSo much so that there's a theory that Herdier was\nthe first Pokémon to partner with people.",
-		fr: "Ce Pokémon est très intelligent et affectueux. Une théorie avance qu'il aurait été le premier à devenir le partenaire d'un être humain."
+		'en-us': "Herdier is a very smart and friendly Pokémon.\nSo much so that there's a theory that Herdier was\nthe first Pokémon to partner with people.",
+		'fr-fr': "Ce Pokémon est très intelligent et affectueux. Une théorie avance qu'il aurait été le premier à devenir le partenaire d'un être humain."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Bite",
-			fr: "Morsure"
+			'en-us': "Bite",
+			'fr-fr': "Morsure"
 		},
 
 		damage: 30,

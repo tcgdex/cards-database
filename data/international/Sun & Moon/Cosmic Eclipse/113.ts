@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Groudon",
-		fr: "Groudon",
-		es: "Groudon",
-		it: "Groudon",
-		pt: "Groudon",
-		de: "Groudon"
+		'en-us': "Groudon",
+		'fr-fr': "Groudon",
+		'es-es': "Groudon",
+		'it-it': "Groudon",
+		'pt-br': "Groudon",
+		'de-de': "Groudon"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drought",
-				fr: "Sécheresse",
-				es: "Sequía",
-				it: "Siccità",
-				pt: "Seca",
-				de: "Dürre"
+				'en-us': "Drought",
+				'fr-fr': "Sécheresse",
+				'es-es': "Sequía",
+				'it-it': "Siccità",
+				'pt-br': "Seca",
+				'de-de': "Dürre"
 			},
 			effect: {
-				en: "Attach up to 2 Fighting Energy cards from your hand to 1 of your Pokémon.",
-				fr: "Attachez jusqu’à 2 cartes Énergie Fighting de votre main à l’un de vos Pokémon.",
-				es: "Une hasta 2 cartas de Energía Fighting de tu mano a 1 de tus Pokémon.",
-				it: "Assegna fino a due carte Energia Fighting dalla tua mano a uno dei tuoi Pokémon.",
-				pt: "Ligue até 2 cartas de Energia Fighting da sua mão a 1 dos seus Pokémon.",
-				de: "Lege bis zu 2 Fighting-Energiekarten aus deiner Hand an 1 deiner Pokémon an."
+				'en-us': "Attach up to 2 Fighting Energy cards from your hand to 1 of your Pokémon.",
+				'fr-fr': "Attachez jusqu’à 2 cartes Énergie Fighting de votre main à l’un de vos Pokémon.",
+				'es-es': "Une hasta 2 cartas de Energía Fighting de tu mano a 1 de tus Pokémon.",
+				'it-it': "Assegna fino a due carte Energia Fighting dalla tua mano a uno dei tuoi Pokémon.",
+				'pt-br': "Ligue até 2 cartas de Energia Fighting da sua mão a 1 dos seus Pokémon.",
+				'de-de': "Lege bis zu 2 Fighting-Energiekarten aus deiner Hand an 1 deiner Pokémon an."
 			},
 
 		},
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Trembling Ground",
-				fr: "Terrain Tremblant",
-				es: "Suelo Temblor",
-				it: "Terra Tremante",
-				pt: "Abalo Sísmico",
-				de: "Erschütterung"
+				'en-us': "Trembling Ground",
+				'fr-fr': "Terrain Tremblant",
+				'es-es': "Suelo Temblor",
+				'it-it': "Terra Tremante",
+				'pt-br': "Abalo Sísmico",
+				'de-de': "Erschütterung"
 			},
 			effect: {
-				en: "This Pokémon can’t use Trembling Ground during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Terrain Tremblant pendant votre prochain tour.",
-				es: "Este Pokémon no puede usar Suelo Temblor durante tu próximo turno.",
-				it: "Durante il tuo prossimo turno, questo Pokémon non può usare Terra Tremante.",
-				pt: "Este Pokémon não poderá usar Abalo Sísmico durante a sua próxima vez de jogar.",
-				de: "Dieses Pokémon kann Erschütterung während deines nächsten Zuges nicht einsetzen."
+				'en-us': "This Pokémon can’t use Trembling Ground during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Terrain Tremblant pendant votre prochain tour.",
+				'es-es': "Este Pokémon no puede usar Suelo Temblor durante tu próximo turno.",
+				'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Terra Tremante.",
+				'pt-br': "Este Pokémon não poderá usar Abalo Sísmico durante a sua próxima vez de jogar.",
+				'de-de': "Dieses Pokémon kann Erschütterung während deines nächsten Zuges nicht einsetzen."
 			},
 			damage: 130,
 
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Said to have expanded the lands by evaporating water with raging heat. It battled titanically with Kyogre.",
+		'en-us': "Said to have expanded the lands by evaporating water with raging heat. It battled titanically with Kyogre.",
 	},
 
 	thirdParty: {

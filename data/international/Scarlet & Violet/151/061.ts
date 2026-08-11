@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Têtarte",
-		en: "Poliwhirl",
-		es: "Poliwhirl",
-		it: "Poliwhirl",
-		pt: "Poliwhirl",
-		de: "Quaputzi"
+		'fr-fr': "Têtarte",
+		'en-us': "Poliwhirl",
+		'es-es': "Poliwhirl",
+		'it-it': "Poliwhirl",
+		'pt-br': "Poliwhirl",
+		'de-de': "Quaputzi"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Water"],
 	evolveFrom: {
-		fr: "Ptitard",
-		en: "Poliwag",
-		es: "Poliwag",
-		it: "Poliwag",
-		pt: "Poliwag",
-		de: "Quapsel"
+		'fr-fr': "Ptitard",
+		'en-us': "Poliwag",
+		'es-es': "Poliwag",
+		'it-it': "Poliwag",
+		'pt-br': "Poliwag",
+		'de-de': "Quapsel"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			fr: "Grosse Vague",
-			en: "Wave Splash",
-			es: "Chapoteo Ondulante",
-			it: "Schizzi d'Onda",
-			pt: "Onda Borrifante",
-			de: "Wellenplatscher"
+			'fr-fr': "Grosse Vague",
+			'en-us': "Wave Splash",
+			'es-es': "Chapoteo Ondulante",
+			'it-it': "Schizzi d'Onda",
+			'pt-br': "Onda Borrifante",
+			'de-de': "Wellenplatscher"
 		},
 
 		damage: 20
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			fr: "Bond de Grenouille",
-			en: "Frog Hop",
-			es: "Salto de la Rana",
-			it: "Ranabalzo",
-			pt: "Pulo de Sapo",
-			de: "Froschhopser"
+			'fr-fr': "Bond de Grenouille",
+			'en-us': "Frog Hop",
+			'es-es': "Salto de la Rana",
+			'it-it': "Ranabalzo",
+			'pt-br': "Pulo de Sapo",
+			'de-de': "Froschhopser"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts supplémentaires.",
-			en: "Flip a coin. If heads, this attack does 60 more damage.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 60 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 60 danni in più.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 60 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 60 Schadenspunkte mehr zu."
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts supplémentaires.",
+			'en-us': "Flip a coin. If heads, this attack does 60 more damage.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 60 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 60 danni in più.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 60 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 60 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "This Pokémon's sweat is a slimy mucus. When captured, Poliwhirl can slither from its enemies' grasp and escape.",
+		'en-us': "This Pokémon's sweat is a slimy mucus. When captured, Poliwhirl can slither from its enemies' grasp and escape.",
 	},
 
 	variants: [

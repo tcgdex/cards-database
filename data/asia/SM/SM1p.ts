@@ -4,7 +4,7 @@ import serie from "../SM";
 const set: Set = {
 	id: "SM1p",
 	name: {
-		ja: "サン＆ムーン",
+		'ja-jp': "サン＆ムーン",
 	},
 
 	serie: serie,
@@ -13,7 +13,7 @@ const set: Set = {
 		official: 51,
 	},
 	releaseDate: {
-		ja: "2017-01-27",
+		'ja-jp': "2017-01-27",
 	},
 };
 

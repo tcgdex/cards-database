@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Houndour",
-		fr: "Malosse",
-		es: "Houndour",
-		it: "Houndour",
-		pt: "Houndour",
-		de: "Hunduster"
+		'en-us': "Houndour",
+		'fr-fr': "Malosse",
+		'es-es': "Houndour",
+		'it-it': "Houndour",
+		'pt-br': "Houndour",
+		'de-de': "Hunduster"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Team Hunt",
-				fr: "Chasse en Équipe",
-				es: "Caza en Equipo",
-				it: "Caccia in Branco",
-				pt: "Caçada em Equipe",
-				de: "Teamjagd"
+				'en-us': "Team Hunt",
+				'fr-fr': "Chasse en Équipe",
+				'es-es': "Caza en Equipo",
+				'it-it': "Caccia in Branco",
+				'pt-br': "Caçada em Equipe",
+				'de-de': "Teamjagd"
 			},
 			effect: {
-				en: "Draw a card for each of your Houndour in play.",
-				fr: "Piochez une carte pour chacun de vos Malosse en jeu.",
-				es: "Roba 1 carta por cada uno de tus Houndour en juego.",
-				it: "Pesca una carta per ciascuno dei tuoi Houndour in gioco.",
-				pt: "Compre 1 carta para cada um dos seus Houndour em jogo.",
-				de: "Ziehe 1 Karte für jedes deiner Hunduster im Spiel."
+				'en-us': "Draw a card for each of your Houndour in play.",
+				'fr-fr': "Piochez une carte pour chacun de vos Malosse en jeu.",
+				'es-es': "Roba 1 carta por cada uno de tus Houndour en juego.",
+				'it-it': "Pesca una carta per ciascuno dei tuoi Houndour in gioco.",
+				'pt-br': "Compre 1 carta para cada um dos seus Houndour em jogo.",
+				'de-de': "Ziehe 1 Karte für jedes deiner Hunduster im Spiel."
 			},
 
 		},
@@ -56,12 +56,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flare",
-				fr: "Flamboiement",
-				es: "Llama",
-				it: "Fiammata",
-				pt: "Chama",
-				de: "Flackern"
+				'en-us': "Flare",
+				'fr-fr': "Flamboiement",
+				'es-es': "Llama",
+				'it-it': "Fiammata",
+				'pt-br': "Chama",
+				'de-de': "Flackern"
 			},
 
 			damage: 10,
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "To corner prey, they check each other's location using barks that only they can understand.",
+		'en-us': "To corner prey, they check each other's location using barks that only they can understand.",
 	},
 
 	thirdParty: {

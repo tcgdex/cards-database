@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pitch Black"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Goldeen",
-		fr: "Poissirène",
-		es: "Goldeen",
+		'en-us': "Goldeen",
+		'fr-fr': "Poissirène",
+		'es-es': "Goldeen",
 		'es-mx': "Goldeen",
-		de: "Goldini",
-		it: "Goldeen",
-		pt: "Goldeen"
+		'de-de': "Goldini",
+		'it-it': "Goldeen",
+		'pt-br': "Goldeen"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -24,13 +24,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Pierce",
-			fr: "Transpercement",
-			es: "Perforar",
+			'en-us': "Pierce",
+			'fr-fr': "Transpercement",
+			'es-es': "Perforar",
 			'es-mx': "Perforar",
-			de: "Durchbohren",
-			it: "Perforare",
-			pt: "Perfurar"
+			'de-de': "Durchbohren",
+			'it-it': "Perforare",
+			'pt-br': "Perfurar"
 		},
 
 		cost: ["Colorless", "Colorless"],

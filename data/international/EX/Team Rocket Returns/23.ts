@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Ledian",
-		de: "Ledian"
+		'en-us': "Ledian",
+		'de-de': "Ledian"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -23,7 +23,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ledyba",
+		'en-us': "Ledyba",
 	},
 
 	stage: "Stage1",
@@ -32,12 +32,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Powder Protection",
-				de: "Powder Protection"
+				'en-us': "Powder Protection",
+				'de-de': "Powder Protection"
 			},
 			effect: {
-				en: "Any damage done to Ledian by attacks from Pokémon that has an owner in its name is reduced by 40.",
-				de: "Any damage done to Ledian by attacks from Pokémon that has an owner in its name is reduced by 40."
+				'en-us': "Any damage done to Ledian by attacks from Pokémon that has an owner in its name is reduced by 40.",
+				'de-de': "Any damage done to Ledian by attacks from Pokémon that has an owner in its name is reduced by 40."
 			},
 		},
 	],
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Split Spiral Punch",
-				de: "Split Spiral Punch"
+				'en-us': "Split Spiral Punch",
+				'de-de': "Split Spiral Punch"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 20,
 
@@ -66,8 +66,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'de-de': "Tackle"
 			},
 
 			damage: 50,

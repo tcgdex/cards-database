@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Spiritomb",
+		'en-us': "Spiritomb",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,10 +27,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Sealing Scream",
+				'en-us': "Sealing Scream",
 			},
 			effect: {
-				en: "Each player can’t play any ACE SPEC cards from his or her hand.",
+				'en-us': "Each player can’t play any ACE SPEC cards from his or her hand.",
 			},
 		},
 	],
@@ -41,10 +41,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hexed Mirror",
+				'en-us': "Hexed Mirror",
 			},
 			effect: {
-				en: "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent's hand.",
+				'en-us': "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent's hand.",
 			},
 
 		},
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell.",
+		'en-us': "Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell.",
 	},
 
 	thirdParty: {

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウォロ",
+		'ja-jp': "ウォロ",
 	},
 
 	illustrator: "kirisAki",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のベンチの「ポケモンV」を1匹選び、そのポケモンと、ついているすべてのカードを、トラッシュする。",
+		'ja-jp': "自分のベンチの「ポケモンV」を1匹選び、そのポケモンと、ついているすべてのカードを、トラッシュする。",
 	},
 
 	variants: [

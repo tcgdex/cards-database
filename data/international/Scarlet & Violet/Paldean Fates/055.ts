@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gastly",
-		fr: "Fantominus",
-		es: "Gastly",
-		it: "Gastly",
-		pt: "Gastly",
-		de: "Nebulak"
+		'en-us': "Gastly",
+		'fr-fr': "Fantominus",
+		'es-es': "Gastly",
+		'it-it': "Gastly",
+		'pt-br': "Gastly",
+		'de-de': "Nebulak"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Allure",
-			fr: "Allure",
-			es: "Atractivo",
-			it: "Affascinante",
-			pt: "Fascinar",
-			de: "Verlockung"
+			'en-us': "Allure",
+			'fr-fr': "Allure",
+			'es-es': "Atractivo",
+			'it-it': "Affascinante",
+			'pt-br': "Fascinar",
+			'de-de': "Verlockung"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			es: "Roba 1 carta.",
-			it: "Pesca una carta.",
-			pt: "Compre uma carta.",
-			de: "Ziehe 1 Karte."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'es-es': "Roba 1 carta.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre uma carta.",
+			'de-de': "Ziehe 1 Karte."
 		}
 	}, {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Will-O-Wisp",
-			fr: "Feu Follet",
-			es: "Fuego Fatuo",
-			it: "Fuocofatuo",
-			pt: "Fogo Fátuo",
-			de: "Irrlicht"
+			'en-us': "Will-O-Wisp",
+			'fr-fr': "Feu Follet",
+			'es-es': "Fuego Fatuo",
+			'it-it': "Fuocofatuo",
+			'pt-br': "Fogo Fátuo",
+			'de-de': "Irrlicht"
 		},
 
 		damage: 20
@@ -86,7 +86,7 @@ const card: Card = {
 	illustrator: "Nobuhiro Imagawa",
 
 	description: {
-		en: "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
+		'en-us': "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
 	},
 
 }

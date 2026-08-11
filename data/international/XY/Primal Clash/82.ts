@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Trapinch",
-		fr: "Kraknoix",
-		es: "Trapinch",
-		it: "Trapinch",
-		pt: "Trapinch",
-		de: "Knacklion"
+		'en-us': "Trapinch",
+		'fr-fr': "Kraknoix",
+		'es-es': "Trapinch",
+		'it-it': "Trapinch",
+		'pt-br': "Trapinch",
+		'de-de': "Knacklion"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Ronge",
-				es: "Roer",
-				it: "Rosicchiamento",
-				pt: "Roída",
-				de: "Nagen"
+				'en-us': "Gnaw",
+				'fr-fr': "Ronge",
+				'es-es': "Roer",
+				'it-it': "Rosicchiamento",
+				'pt-br': "Roída",
+				'de-de': "Nagen"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud-Slap",
-				fr: "Coud'Boue",
-				es: "Bofetón Lodo",
-				it: "Fangosberla",
-				pt: "Tapa de Lama",
-				de: "Lehmschelle"
+				'en-us': "Mud-Slap",
+				'fr-fr': "Coud'Boue",
+				'es-es': "Bofetón Lodo",
+				'it-it': "Fangosberla",
+				'pt-br': "Tapa de Lama",
+				'de-de': "Lehmschelle"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It makes an inescapable conical pit and lies in wait at the bottom for prey to come tumbling down.",
+		'en-us': "It makes an inescapable conical pit and lies in wait at the bottom for prey to come tumbling down.",
 	},
 
 	thirdParty: {

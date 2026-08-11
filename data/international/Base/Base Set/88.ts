@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Professor Oak",
-		fr: "Professeur Chen",
-		de: "Professor Eich",
-		it: "Professore Oak"
+		'en-us': "Professor Oak",
+		'fr-fr': "Professeur Chen",
+		'de-de': "Professor Eich",
+		'it-it': "Professore Oak"
 
 	},
 
@@ -16,10 +16,10 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Discard your hand, then draw 7 cards.",
-		fr: "Défaussez-vous de votre main, puis piochez 7 cartes.",
-		de: "Entferne alle Karten aus Deiner Hand und ziehe sieben neue Karten.",
-		it: "Scarta le carte che hai in mano e pescane altre 7."
+		'en-us': "Discard your hand, then draw 7 cards.",
+		'fr-fr': "Défaussez-vous de votre main, puis piochez 7 cartes.",
+		'de-de': "Entferne alle Karten aus Deiner Hand und ziehe sieben neue Karten.",
+		'it-it': "Scarta le carte che hai in mano e pescane altre 7."
 	},
 
 	variants: [

@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
-import serie from '../Pokémon TCG Pocket'
+import { Set } from 'models/database/set'
+import serie from '../A'
 
 const set: Set = {
 	id: "A3a",
 
 	name: {
 		// de: "Unschlagbare Gene",
-		en: "Extradimensional Crisis",
+		'en-us': "Extradimensional Crisis",
 		// es: "Genes Formidables",
-		fr: "Crise Interdimensionnelle",
+		'fr-fr': "Crise Interdimensionnelle",
 		// it: "Geni Supremi",
 		// 'pt-br': "Dominação Genética",
 		// ko: '최강의 유전자'
@@ -23,7 +23,7 @@ const set: Set = {
 	boosters: {
 		extradimensional: {
 			name: {
-				en: "Extradimensional"
+				'en-us': "Extradimensional"
 			}
 		}
 	},

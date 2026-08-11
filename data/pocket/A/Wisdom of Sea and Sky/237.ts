@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mismagius ex",
-		fr: "Magirêve-ex"
+		'en-us': "Mismagius ex",
+		'fr-fr': "Magirêve-ex"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Misdreavus"
+		'en-us': "Misdreavus"
 	},
 
 	stage: "Stage1",
@@ -26,16 +26,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Magical Delusion",
-			fr: "Voyage Magique"
+			'en-us': "Magical Delusion",
+			'fr-fr': "Voyage Magique"
 		},
 
 		damage: 70,
 		cost: ["Psychic", "Psychic"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus."
 		}
 	}],
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Ledyba",
-		fr: "Coxy",
-		de: "Ledyba"
+		'en-us': "Ledyba",
+		'fr-fr': "Coxy",
+		'de-de': "Ledyba"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Supersonic",
-				fr: "Ultrason",
-				de: "Superschall"
+				'en-us': "Supersonic",
+				'fr-fr': "Ultrason",
+				'de-de': "Superschall"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Comet Punch",
-				fr: "Poing comète",
-				de: "Kometenhieb"
+				'en-us': "Comet Punch",
+				'fr-fr': "Poing comète",
+				'de-de': "Kometenhieb"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf vier Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				'en-us': "Flip 4 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf vier Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
 			damage: "10x",
 
@@ -77,8 +77,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It is very timid. It's afraid to move if alone, but it's active if in a group.",
-		fr: "Il est très timide. Il a peur de se déplacer seul, mais il est très actif lorsqu'il est en groupe."
+		'en-us': "It is very timid. It's afraid to move if alone, but it's active if in a group.",
+		'fr-fr': "Il est très timide. Il a peur de se déplacer seul, mais il est très actif lorsqu'il est en groupe."
 	},
 
 

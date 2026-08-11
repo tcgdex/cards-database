@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Haxorus",
-		fr: "Tranchodon",
-		es: "Haxorus",
-		it: "Haxorus",
-		pt: "Haxorus",
-		de: "Maxax"
+		'en-us': "Haxorus",
+		'fr-fr': "Tranchodon",
+		'es-es': "Haxorus",
+		'it-it': "Haxorus",
+		'pt-br': "Haxorus",
+		'de-de': "Maxax"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Fraxure",
-		fr: "Incisache"
+		'en-us': "Fraxure",
+		'fr-fr': "Incisache"
 	},
 
 	stage: "Stage2",
@@ -41,8 +41,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Guillotine",
-				fr: "Guillotine"
+				'en-us': "Guillotine",
+				'fr-fr': "Guillotine"
 			},
 
 			damage: 60,
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stunning Uppercut",
-				fr: "Uppercut Assommant"
+				'en-us': "Stunning Uppercut",
+				'fr-fr': "Uppercut Assommant"
 			},
 			effect: {
-				en: "Flip 2 coins. If both of them are heads, the Defending Pokémon is now Paralyzed. If both of them are tails, this attack does nothing.",
-				fr: "Lancez 2 pièces. Si vous obtenez 2 côtés face, le Pokémon Défenseur est maintenant Paralysé. Si vous obtenez 2 côtés pile, cette attaque ne fait rien."
+				'en-us': "Flip 2 coins. If both of them are heads, the Defending Pokémon is now Paralyzed. If both of them are tails, this attack does nothing.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez 2 côtés face, le Pokémon Défenseur est maintenant Paralysé. Si vous obtenez 2 côtés pile, cette attaque ne fait rien."
 			},
 			damage: 80,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Their sturdy tusks will stay sharp even if used to cut steel beams. These Pokémon are covered in hard armor.",
+		'en-us': "Their sturdy tusks will stay sharp even if used to cut steel beams. These Pokémon are covered in hard armor.",
 	},
 
 	thirdParty: {

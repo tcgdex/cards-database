@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アンファロス",
+		'ja-jp': "アンファロス",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "サンダーショック",
+				'ja-jp': "サンダーショック",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Lightning", "Lightning", "Colorless"],
 			name: {
-				ja: "エネルギーを反映します",
+				'ja-jp': "エネルギーを反映します",
 			},
 			effect: {
-				ja: "ベンチ付きポケモンがあり、Ampharosに基本的なエネルギーカードが付いている場合は、それらのエネルギーカードの1つを取り、ポケモンの1つに取り付けます。",
+				'ja-jp': "ベンチ付きポケモンがあり、Ampharosに基本的なエネルギーカードが付いている場合は、それらのエネルギーカードの1つを取り、ポケモンの1つに取り付けます。",
 			},
 			damage: 50,
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Linoone",
-		fr: "Lineon",
-		de: "Geradaks"
+		'en-us': "Linoone",
+		'fr-fr': "Lineon",
+		'de-de': "Geradaks"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Zigzagoon",
-		fr: "Zigzaton"
+		'en-us': "Zigzagoon",
+		'fr-fr': "Zigzaton"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sniff Out",
-				fr: "Flairer",
-				de: "Sniff Out"
+				'en-us': "Sniff Out",
+				'fr-fr': "Flairer",
+				'de-de': "Sniff Out"
 			},
 			effect: {
-				en: "Put any 1 card from your discard pile into your hand.",
-				fr: "Placez n'importe quelle carte de votre pile de défausse dans votre main.",
-				de: "Put any 1 card from your discard pile into your hand."
+				'en-us': "Put any 1 card from your discard pile into your hand.",
+				'fr-fr': "Placez n'importe quelle carte de votre pile de défausse dans votre main.",
+				'de-de': "Put any 1 card from your discard pile into your hand."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Swipes",
-				fr: "Combo-griffe",
-				de: "Fury Swipes"
+				'en-us': "Fury Swipes",
+				'fr-fr': "Combo-griffe",
+				'de-de': "Fury Swipes"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez trois pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de face.",
-				de: "Flip 3 coins. This attack does 20 damage times the number of heads."
+				'en-us': "Flip 3 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez trois pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de face.",
+				'de-de': "Flip 3 coins. This attack does 20 damage times the number of heads."
 			},
 			damage: "20×",
 

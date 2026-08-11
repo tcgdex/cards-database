@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SLD"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "飯匙蛇",
-		ja: "ハブネーク"
+		'ja-jp': "ハブネーク"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "總是用岩石打磨尾巴上的刀刃，所以刀刃非常鋒利。和貓鼬斬是死對頭。",
-		ja: "尻尾の 刀は いつも 岩で 研いでいるので 切れ味 ばつぐん。 ザングースとは 因縁の あいだ。"
+		'ja-jp': "尻尾の 刀は いつも 岩で 研いでいるので 切れ味 ばつぐん。 ザングースとは 因縁の あいだ。"
 	},
 
 	stage: "Basic",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "突襲迴轉",
-			ja: "ふいうちターン"
+			'ja-jp': "ふいうちターン"
 		},
 
 		effect: {
 			'zh-tw': "將這隻寶可夢與備戰區的【惡】寶可夢互換。",
-			ja: "このポケモンをベンチのポケモンと入れ替える。"
+			'ja-jp': "このポケモンをベンチのポケモンと入れ替える。"
 		},
 
 		damage: 60,

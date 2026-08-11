@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Wooper",
-		fr: "Axoloto",
-		es: "Wooper",
-		it: "Wooper",
-		pt: "Wooper",
-		de: "Felino"
+		'en-us': "Wooper",
+		'fr-fr': "Axoloto",
+		'es-es': "Wooper",
+		'it-it': "Wooper",
+		'pt-br': "Wooper",
+		'de-de': "Felino"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nap",
-				fr: "Tit'Sieste",
-				es: "Siesta",
-				it: "Pausa",
-				pt: "Soneca",
-				de: "Nickerchen"
+				'en-us': "Nap",
+				'fr-fr': "Tit'Sieste",
+				'es-es': "Siesta",
+				'it-it': "Pausa",
+				'pt-br': "Soneca",
+				'de-de': "Nickerchen"
 			},
 			effect: {
-				en: "Heal 20 damage from this Pokémon.",
-				fr: "Soignez 20 dégâts à ce Pokémon.",
-				es: "Cura 20 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 20 danni.",
-				pt: "Cure 20 de danos deste Pokémon.",
-				de: "Heile 20 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 20 damage from this Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à ce Pokémon.",
+				'es-es': "Cura 20 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 20 danni.",
+				'pt-br': "Cure 20 de danos deste Pokémon.",
+				'de-de': "Heile 20 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse Vague",
-				es: "Chapoteo Ondulante",
-				it: "Schizzi d'Onda",
-				pt: "Onda Borrifante",
-				de: "Wellenplatscher"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse Vague",
+				'es-es': "Chapoteo Ondulante",
+				'it-it': "Schizzi d'Onda",
+				'pt-br': "Onda Borrifante",
+				'de-de': "Wellenplatscher"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When the temperature cools in the evening, they emerge from water to seek food along the shore.",
+		'en-us': "When the temperature cools in the evening, they emerge from water to seek food along the shore.",
 	},
 
 	thirdParty: {

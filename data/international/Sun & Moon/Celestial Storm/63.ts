@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Shuppet",
-		fr: "Polichombr",
-		es: "Shuppet",
-		it: "Shuppet",
-		pt: "Shuppet",
-		de: "Shuppet"
+		'en-us': "Shuppet",
+		'fr-fr': "Polichombr",
+		'es-es': "Shuppet",
+		'it-it': "Shuppet",
+		'pt-br': "Shuppet",
+		'de-de': "Shuppet"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d’Boule",
-				es: "Golpe Cabeza",
-				it: "Bottintesta",
-				pt: "Cabeçada",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d’Boule",
+				'es-es': "Golpe Cabeza",
+				'it-it': "Bottintesta",
+				'pt-br': "Cabeçada",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Will-O-Wisp",
-				fr: "Feu Follet",
-				es: "Fuego Fatuo",
-				it: "Fuocofatuo",
-				pt: "Fogo Fátuo",
-				de: "Irrlicht"
+				'en-us': "Will-O-Wisp",
+				'fr-fr': "Feu Follet",
+				'es-es': "Fuego Fatuo",
+				'it-it': "Fuocofatuo",
+				'pt-br': "Fogo Fátuo",
+				'de-de': "Irrlicht"
 			},
 
 			damage: 20,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live.",
+		'en-us': "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live.",
 	},
 
 	thirdParty: {

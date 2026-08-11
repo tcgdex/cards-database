@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [100],
 
 	name: {
-		en: "Voltorb",
-		fr: "Voltorbe",
-		es: "Voltorb",
-		it: "Voltorb",
-		pt: "Voltorb",
-		de: "Voltobal"
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe",
+		'es-es': "Voltorb",
+		'it-it': "Voltorb",
+		'pt-br': "Voltorb",
+		'de-de': "Voltobal"
 	},
 
 	illustrator: "Sekio",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Electro Ball",
-				fr: "Boule Élek",
-				es: "Bola Voltio",
-				it: "Energisfera",
-				pt: "Bola Elétrica",
-				de: "Elektroball"
+				'en-us': "Electro Ball",
+				'fr-fr': "Boule Élek",
+				'es-es': "Bola Voltio",
+				'it-it': "Energisfera",
+				'pt-br': "Bola Elétrica",
+				'de-de': "Elektroball"
 			},
 
 			damage: 40,
@@ -57,7 +57,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people."
+		'en-us': "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people."
 	},
 
 	variants: [

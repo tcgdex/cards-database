@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Snivy",
+		'en-us': "Snivy",
 	},
 
 	illustrator: "Aya Kusube",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leaf Blade",
+				'en-us': "Leaf Blade",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
 			},
 			damage: 10,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.",
+		'en-us': "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.",
 	},
 
 	thirdParty: {

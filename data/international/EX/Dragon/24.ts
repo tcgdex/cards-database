@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Camerupt",
-		fr: "Camerupt",
-		de: "Camerupt"
+		'en-us': "Camerupt",
+		'fr-fr': "Camerupt",
+		'de-de': "Camerupt"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Numel",
-		fr: "Chamallot"
+		'en-us': "Numel",
+		'fr-fr': "Chamallot"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Singe",
-				fr: "Ça sent le roussi !",
-				de: "Super-Versengung"
+				'en-us': "Super Singe",
+				'fr-fr': "Ça sent le roussi !",
+				'de-de': "Super-Versengung"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
-				fr: "Lancez une pièce. Si c'est face, Le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verbrannt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, Le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: 20,
 
@@ -54,9 +54,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'de-de': "Ramme"
 			},
 
 			damage: 50,

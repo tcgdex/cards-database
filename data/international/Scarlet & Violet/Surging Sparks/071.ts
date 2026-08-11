@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Togetic",
-		fr: "Togetic",
-		es: "Togetic",
-		it: "Togetic",
-		pt: "Togetic",
-		de: "Togetic"
+		'en-us': "Togetic",
+		'fr-fr': "Togetic",
+		'es-es': "Togetic",
+		'it-it': "Togetic",
+		'pt-br': "Togetic",
+		'de-de': "Togetic"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Togepi",
-		fr: "Togepi",
-		es: "Togepi",
-		it: "Togepi",
-		pt: "Togepi",
-		de: "Togepi"
+		'en-us': "Togepi",
+		'fr-fr': "Togepi",
+		'es-es': "Togepi",
+		'it-it': "Togepi",
+		'pt-br': "Togepi",
+		'de-de': "Togepi"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Draining Kiss",
-			fr: "Vampibaiser",
-			es: "Beso Drenaje",
-			it: "Assorbibacio",
-			pt: "Beijo Drenante",
-			de: "Diebeskuss"
+			'en-us': "Draining Kiss",
+			'fr-fr': "Vampibaiser",
+			'es-es': "Beso Drenaje",
+			'it-it': "Assorbibacio",
+			'pt-br': "Beijo Drenante",
+			'de-de': "Diebeskuss"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 30

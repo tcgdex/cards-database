@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガライボルトex"
+		'ja-jp': "メガライボルトex"
 	},
 	illustrator: "5ban Graphics",
 	category: "Pokemon",
@@ -22,24 +22,24 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ラクライ"
+		'ja-jp': "ラクライ"
 	},
 	attacks: [{
 		name: {
-			ja: "フラッシュレイ"
+			'ja-jp': "フラッシュレイ"
 		},
 		damage: 120,
 		effect: {
-			ja: "次の相手の番、このポケモンはたねポケモンからワザのダメージを受けない。"
+			'ja-jp': "次の相手の番、このポケモンはたねポケモンからワザのダメージを受けない。"
 		},
 		cost: ["Lightning", "Lightning"]
 	}, {
 		name: {
-			ja: "ライオットブラスター"
+			'ja-jp': "ライオットブラスター"
 		},
 		damage: "200+",
 		effect: {
-			ja: "のぞむなら、このポケモンについているエネルギーをすべてトラッシュし、130ダメージ追加。"
+			'ja-jp': "のぞむなら、このポケモンについているエネルギーをすべてトラッシュし、130ダメージ追加。"
 		},
 		cost: ["Lightning", "Lightning", "Lightning"]
 	}],

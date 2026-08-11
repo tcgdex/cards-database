@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グレッグル",
+		'ja-jp': "グレッグル",
 	},
 
 	illustrator: "matazo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "毒袋を ふくらませて 鳴らし あたりに 不気味な 音を 響かせ 相手が ひるむと どくづきをする。",
+		'ja-jp': "毒袋を ふくらませて 鳴らし あたりに 不気味な 音を 響かせ 相手が ひるむと どくづきをする。",
 	},
 
 	stage: "Basic",

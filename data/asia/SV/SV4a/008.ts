@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "クヌギダマ",
+		'ja-jp': "クヌギダマ",
 		'zh-tw': "榛果球",
-		th: "คุนุกิดามะ",
-		id: "Pineco"
+		'th-th': "คุนุกิดามะ",
+		'id-id': "Pineco"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -18,10 +18,10 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "木の 皮を 重ね合わせて 殻を 分厚くするのが 大好き。 重くなっても 気にしない。",
+		'ja-jp': "木の 皮を 重ね合わせて 殻を 分厚くするのが 大好き。 重くなっても 気にしない。",
 		'zh-tw': "最喜歡把樹皮疊在身上加厚外殼。 就算因此變重也毫不在意。",
-		th: "ชอบเอาเปลือกไม้มาทับซ้อนกันเพื่อให้เปลือกของตัวเองหนามากขึ้น ถึงจะหนักก็ไม่เป็นไร",
-		id: "Pineco sangat suka mempertebal cangkangnya dengan menumpuk kulit pohon ke tubuhnya. Pokémon ini tidak merasa terganggu meskipun tubuhnya menjadi berat."
+		'th-th': "ชอบเอาเปลือกไม้มาทับซ้อนกันเพื่อให้เปลือกของตัวเองหนามากขึ้น ถึงจะหนักก็ไม่เป็นไร",
+		'id-id': "Pineco sangat suka mempertebal cangkangnya dengan menumpuk kulit pohon ke tubuhnya. Pokémon ini tidak merasa terganggu meskipun tubuhnya menjadi berat."
 	},
 
 	stage: "Basic",
@@ -30,10 +30,10 @@ const card: Card = {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			ja: "ころがる",
+			'ja-jp': "ころがる",
 			'zh-tw': "滾動",
-			th: "กลิ้ง",
-			id: "Menggelinding"
+			'th-th': "กลิ้ง",
+			'id-id': "Menggelinding"
 		},
 
 		damage: 30

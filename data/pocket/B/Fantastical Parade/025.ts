@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [814],
 
 	name: {
-		en: "Raboot"
+		'en-us': "Raboot"
 	},
 
 	illustrator: "Mizue",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Scorbunny"
+		'en-us': "Scorbunny"
 	},
 
 	description: {
-		en: "While it prides itself on its varied kicking moves,\nit can also deliver powerful headbutts once its\nflames have heated up its forehead."
+		'en-us': "While it prides itself on its varied kicking moves,\nit can also deliver powerful headbutts once its\nflames have heated up its forehead."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Kick"
+			'en-us': "Kick"
 		},
 
 		damage: 40,

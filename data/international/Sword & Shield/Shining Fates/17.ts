@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Reshiram",
-		en: "Reshiram",
-		es: "Reshiram",
-		it: "Reshiram",
-		pt: "Reshiram",
-		de: "Reshiram"
+		'fr-fr': "Reshiram",
+		'en-us': "Reshiram",
+		'es-es': "Reshiram",
+		'it-it': "Reshiram",
+		'pt-br': "Reshiram",
+		'de-de': "Reshiram"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Brasier Magnifique",
-			en: "Amazing Blaze",
-			es: "Llamarada Increíble",
-			it: "Fiamma Policroma",
-			pt: "Incêndio Incrível",
-			de: "Atemberaubende Feuersbrunst"
+			'fr-fr': "Brasier Magnifique",
+			'en-us': "Amazing Blaze",
+			'es-es': "Llamarada Increíble",
+			'it-it': "Fiamma Policroma",
+			'pt-br': "Incêndio Incrível",
+			'de-de': "Atemberaubende Feuersbrunst"
 		},
 
 		effect: {
-			fr: "Ce Pokémon s'inflige aussi 60 dégâts.",
-			en: "This Pokémon also does 60 damage to itself.",
-			es: "Este Pokémon también se hace 60 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 60 danni a se stesso.",
-			pt: "Este Pokémon também causa 60 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 60 Schadenspunkte zu."
+			'fr-fr': "Ce Pokémon s'inflige aussi 60 dégâts.",
+			'en-us': "This Pokémon also does 60 damage to itself.",
+			'es-es': "Este Pokémon también se hace 60 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 60 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 60 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 60 Schadenspunkte zu."
 		},
 
 		damage: 270,
@@ -55,7 +55,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather."
+		'en-us': "When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather."
 	},
 
 	variants: [

@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../XY'
 
 const xy7: Set = {
 	id: "xy7",
 
 	name: {
-		en: "Ancient Origins",
-		fr: "Origines Antiques",
-		es: "Antiguos Orígenes",
-		it: "Antiche Origini",
-		de: "Ewiger Anfang",
-		pt: "Origens Ancestrais",
+		'en-us': "Ancient Origins",
+		'fr-fr': "Origines Antiques",
+		'es-es': "Antiguos Orígenes",
+		'it-it': "Antiche Origini",
+		'de-de': "Ewiger Anfang",
+		'pt-br': "Origens Ancestrais",
 		ru: "Древние Истоки"
 	},
 
@@ -25,7 +25,7 @@ const xy7: Set = {
 
 	abbreviations: {
 		official: "AOR",
-		fr: "ORA"
+		'fr-fr': "ORA"
 	},
 
 	thirdParty: {

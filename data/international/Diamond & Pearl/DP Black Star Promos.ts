@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Diamond & Pearl'
 
 const dpp: Set = {
 	id: "dpp",
 
 	name: {
-		en: "DP Black Star Promos",
-		fr: "Promo DP",
-		es: "DP Black Star Promos",
-		it: "DP Black Star Promos",
-		de: "Promo DP"
+		'en-us': "DP Black Star Promos",
+		'fr-fr': "Promo DP",
+		'es-es': "DP Black Star Promos",
+		'it-it': "DP Black Star Promos",
+		'de-de': "Promo DP"
 	},
 
 	serie: serie,

@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [35],
 
 	name: {
-		en: "Clefairy",
-		fr: "Mélofée",
-		es: "Clefairy",
-		it: "Clefairy",
-		pt: "Clefairy",
-		de: "Piepi"
+		'en-us': "Clefairy",
+		'fr-fr': "Mélofée",
+		'es-es': "Clefairy",
+		'it-it': "Clefairy",
+		'pt-br': "Clefairy",
+		'de-de': "Piepi"
 	},
 
 	illustrator: "sowsow",
@@ -24,20 +24,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shining Fingers",
-				fr: "Doigts Brillants",
-				es: "Dedos Brillantes",
-				it: "Dita Lucenti",
-				pt: "Dedos Brilhantes",
-				de: "Leuchtende Finger"
+				'en-us': "Shining Fingers",
+				'fr-fr': "Doigts Brillants",
+				'es-es': "Dedos Brillantes",
+				'it-it': "Dita Lucenti",
+				'pt-br': "Dedos Brilhantes",
+				'de-de': "Leuchtende Finger"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent's Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 
 		},
@@ -46,12 +46,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Magical Shot",
-				fr: "Coup Magique",
-				es: "Disparo Mágico",
-				it: "Magicolpo",
-				pt: "Tiro Mágico",
-				de: "Magischer Schuss"
+				'en-us': "Magical Shot",
+				'fr-fr': "Coup Magique",
+				'es-es': "Disparo Mágico",
+				'it-it': "Magicolpo",
+				'pt-br': "Tiro Mágico",
+				'de-de': "Magischer Schuss"
 			},
 
 			damage: 10,
@@ -75,7 +75,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon."
+		'en-us': "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon."
 	},
 
 	variants: [

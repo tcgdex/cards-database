@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Galopa de Galar",
-		en: "Galarian Rapidash",
-		es: "Rapidash de Galar",
-		it: "Rapidash di Galar",
-		pt: "Rapidash de Galar",
-		de: "Galar-Gallopa"
+		'fr-fr': "Galopa de Galar",
+		'en-us': "Galarian Rapidash",
+		'es-es': "Rapidash de Galar",
+		'it-it': "Rapidash di Galar",
+		'pt-br': "Rapidash de Galar",
+		'de-de': "Galar-Gallopa"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -21,49 +21,49 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		fr: "Ponyta de Galar",
-		en: "Galarian Ponyta"
+		'fr-fr': "Ponyta de Galar",
+		'en-us': "Galarian Ponyta"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			fr: "Voile Pastel",
-			en: "Pastel Veil",
-			es: "Velo Pastel",
-			it: "Pastelvelo",
-			pt: "Véu de Tons Pastéis",
-			de: "Pastellhülle"
+			'fr-fr': "Voile Pastel",
+			'en-us': "Pastel Veil",
+			'es-es': "Velo Pastel",
+			'it-it': "Pastelvelo",
+			'pt-br': "Véu de Tons Pastéis",
+			'de-de': "Pastellhülle"
 		},
 
 		effect: {
-			fr: "Vos Pokémon guérissent de tous les États Spéciaux et ne peuvent être affectés par aucun État Spécial.",
-			en: "Your Pokémon recover from all Special Conditions and can't be affected by any Special Conditions.",
-			es: "Tu Pokémon se recupera de todas las Condiciones Especiales y no puede verse afectado por ninguna Condición Especial.",
-			it: "I tuoi Pokémon guariscono da tutte le condizioni speciali e non possono esserne influenzati.",
-			pt: "Seus Pokémon se recuperam de todas as Condições Especiais e não podem ser afetados por quaisquer Condições Especiais.",
-			de: "Deine Pokémon erholen sich von allen Speziellen Zuständen und können von keinen Speziellen Zuständen betroffen werden."
+			'fr-fr': "Vos Pokémon guérissent de tous les États Spéciaux et ne peuvent être affectés par aucun État Spécial.",
+			'en-us': "Your Pokémon recover from all Special Conditions and can't be affected by any Special Conditions.",
+			'es-es': "Tu Pokémon se recupera de todas las Condiciones Especiales y no puede verse afectado por ninguna Condición Especial.",
+			'it-it': "I tuoi Pokémon guariscono da tutte le condizioni speciali e non possono esserne influenzati.",
+			'pt-br': "Seus Pokémon se recuperam de todas as Condições Especiais e não podem ser afetados por quaisquer Condições Especiais.",
+			'de-de': "Deine Pokémon erholen sich von allen Speziellen Zuständen und können von keinen Speziellen Zuständen betroffen werden."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			fr: "Psyko",
-			en: "Psychic",
-			es: "Psíquico",
-			it: "Psichico",
-			pt: "Psíquico",
-			de: "Psychokinese"
+			'fr-fr': "Psyko",
+			'en-us': "Psychic",
+			'es-es': "Psíquico",
+			'it-it': "Psichico",
+			'pt-br': "Psíquico",
+			'de-de': "Psychokinese"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
-			en: "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.",
-			es: "Este ataque hace 30 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
-			it: "Questo attacco infligge 30 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
-			pt: "Este ataque causa 30 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",
-			de: "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 30 Schadenspunkte mehr zu."
+			'fr-fr': "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
+			'en-us': "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.",
+			'es-es': "Este ataque hace 30 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
+			'it-it': "Questo attacco infligge 30 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
+			'pt-br': "Este ataque causa 30 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",
+			'de-de': "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+",
@@ -85,7 +85,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Brave and prideful, this Pokémon dashes airily through the forest, its steps aided by the psychic power stored in the fur on its fetlocks."
+		'en-us': "Brave and prideful, this Pokémon dashes airily through the forest, its steps aided by the psychic power stored in the fur on its fetlocks."
 	},
 
 	variants: [

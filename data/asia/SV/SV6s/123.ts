@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Heatran"
+		'id-id': "Heatran"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Heatran hidup di gua vulkanis. Pokémon ini menanamkan cakarnya yang berbentuk X dan merayap di dinding dan langit-langit."
+		'id-id': "Heatran hidup di gua vulkanis. Pokémon ini menanamkan cakarnya yang berbentuk X dan merayap di dinding dan langit-langit."
 	},
 
 	stage: "Basic",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Tubuh Berpijar"
+			'id-id': "Tubuh Berpijar"
 		},
 
 		effect: {
-			id: "Saat Pokémon ini ada di Arena Bertarung dan menerima kerusakan akibat serangan dari Pokémon lawan, ubah kondisi Pokémon yang telah menggunakan serangan menjadi Luka Bakar."
+			'id-id': "Saat Pokémon ini ada di Arena Bertarung dan menerima kerusakan akibat serangan dari Pokémon lawan, ubah kondisi Pokémon yang telah menggunakan serangan menjadi Luka Bakar."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Steel Burst"
+			'id-id': "Steel Burst"
 		},
 
 		effect: {
-			id: "Buang semua Energi {Logam} yang dikenakan pada Pokémon ini ke Trash, serangan ini memberikan kerusakan sejumlah 50 untuk tiap lembarnya."
+			'id-id': "Buang semua Energi {Logam} yang dikenakan pada Pokémon ini ke Trash, serangan ini memberikan kerusakan sejumlah 50 untuk tiap lembarnya."
 		},
 
 		damage: "50×",

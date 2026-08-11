@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グソクムシャGX",
+		'ja-jp': "グソクムシャGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Grass"],
 			effect: {
-				ja: "この番、このポケモンがベンチからバトル場に出ていたなら、90ダメージ追加。",
+				'ja-jp': "この番、このポケモンがベンチからバトル場に出ていたなら、90ダメージ追加。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。",
 			},
 		},
 		{
@@ -36,7 +36,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンをベンチポケモンと入れ替える。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "このポケモンをベンチポケモンと入れ替える。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -54,7 +54,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コソクムシ",
+		'ja-jp': "コソクムシ",
 	},
 
 	retreat: 3,

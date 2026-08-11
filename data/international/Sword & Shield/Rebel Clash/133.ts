@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [679],
 
 	name: {
-		en: "Honedge",
-		fr: "Monorpale",
-		es: "Honedge",
-		it: "Honedge",
-		pt: "Honedge",
-		de: "Gramokles"
+		'en-us': "Honedge",
+		'fr-fr': "Monorpale",
+		'es-es': "Honedge",
+		'it-it': "Honedge",
+		'pt-br': "Honedge",
+		'de-de': "Gramokles"
 	},
 
 	illustrator: "Sekio",
@@ -25,12 +25,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slicing Blade",
-				fr: "Lame Tranchante",
-				es: "Cuchilla Cortante",
-				it: "Affettalama",
-				pt: "Lâmina Fatiante",
-				de: "Schwertschneide"
+				'en-us': "Slicing Blade",
+				'fr-fr': "Lame Tranchante",
+				'es-es': "Cuchilla Cortante",
+				'it-it': "Affettalama",
+				'pt-br': "Lâmina Fatiante",
+				'de-de': "Schwertschneide"
 			},
 
 			damage: 30,
@@ -61,7 +61,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Honedge's soul once belonged to a person who was killed a long time ago by the sword that makes up Honedge's body."
+		'en-us': "Honedge's soul once belonged to a person who was killed a long time ago by the sword that makes up Honedge's body."
 	},
 
 	variants: [

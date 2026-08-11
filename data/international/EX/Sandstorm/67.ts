@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Lotad",
-		fr: "Nenupiot",
-		de: "Loturzel"
+		'en-us': "Lotad",
+		'fr-fr': "Nenupiot",
+		'de-de': "Loturzel"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blot",
-				fr: "Pâté",
-				de: "Klecks"
+				'en-us': "Blot",
+				'fr-fr': "Pâté",
+				'de-de': "Klecks"
 			},
 			effect: {
-				en: "Remove 1 damage counter from Lotad.",
-				fr: "Retirez à Nenupiot un marqueur de dégât.",
-				de: "Entferne 1 Schadensmarke von Loturzel."
+				'en-us': "Remove 1 damage counter from Lotad.",
+				'fr-fr': "Retirez à Nenupiot un marqueur de dégât.",
+				'de-de': "Entferne 1 Schadensmarke von Loturzel."
 			},
 			damage: 20,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チラチーノex",
+		'ja-jp': "チラチーノex",
 	},
 
 	illustrator: "Keisin",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "なめらかコート" },
 			effect: {
-				ja: "このポケモンがワザのダメージを受けるとき、自分はコインを1回投げる。オモテなら、このポケモンはそのダメージを受けない。",
+				'ja-jp': "このポケモンがワザのダメージを受けるとき、自分はコインを1回投げる。オモテなら、このポケモンはそのダメージを受けない。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "40×",
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーの数×40ダメージ。",
+				'ja-jp': "このポケモンについているエネルギーの数×40ダメージ。",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チラーミィ",
+		'ja-jp': "チラーミィ",
 	},
 
 	retreat: 1,

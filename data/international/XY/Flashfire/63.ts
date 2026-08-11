@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Flabébé",
-		fr: "Flabébé",
-		es: "Flabébé",
-		it: "Flabébé",
-		pt: "Flabébé",
-		de: "Flabébé"
+		'en-us': "Flabébé",
+		'fr-fr': "Flabébé",
+		'es-es': "Flabébé",
+		'it-it': "Flabébé",
+		'pt-br': "Flabébé",
+		'de-de': "Flabébé"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'Herbe",
-				es: "Hoja Afilada",
-				it: "Foglielama",
-				pt: "Folha Navalha",
-				de: "Rasierblatt"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'Herbe",
+				'es-es': "Hoja Afilada",
+				'it-it': "Foglielama",
+				'pt-br': "Folha Navalha",
+				'de-de': "Rasierblatt"
 			},
 
 			damage: 10,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It draws out and controls the hidden power of flowers. The flower Flabébé holds is most likely part of its body.",
+		'en-us': "It draws out and controls the hidden power of flowers. The flower Flabébé holds is most likely part of its body.",
 	},
 
 	thirdParty: {

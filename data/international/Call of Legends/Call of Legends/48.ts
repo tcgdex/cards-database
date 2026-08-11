@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Pidgeotto",
-		fr: "Roucoups",
-		de: "Tauboga"
+		'en-us': "Pidgeotto",
+		'fr-fr': "Roucoups",
+		'de-de': "Tauboga"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pidgey",
-		fr: "Roucool"
+		'en-us': "Pidgey",
+		'fr-fr': "Roucool"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gust",
-				fr: "Tornade",
-				de: "Windstoß"
+				'en-us': "Gust",
+				'fr-fr': "Tornade",
+				'de-de': "Windstoß"
 			},
 
 			damage: 20,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Twister",
-				fr: "Ouragan",
-				de: "Windhose"
+				'en-us': "Twister",
+				'fr-fr': "Ouragan",
+				'de-de': "Windhose"
 			},
 			effect: {
-				en: "Flip 2 coins. If both of them are tails, this attack does nothing. For each heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez 2 pièces. Si vous obtenez deux fois un côté pile, cette attaque ne fait rien. Pour chaque face, défaussez une Énergie au Pokémon Défenseur.",
-				de: "Wirf 2 Münzen. Wenn beide Münzen \"Zahl\" zeigen, hat dieser Angriff keine Auswirkungen. Lege pro \"Kopf\" eine Energie, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				'en-us': "Flip 2 coins. If both of them are tails, this attack does nothing. For each heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez deux fois un côté pile, cette attaque ne fait rien. Pour chaque face, défaussez une Énergie au Pokémon Défenseur.",
+				'de-de': "Wirf 2 Münzen. Wenn beide Münzen \"Zahl\" zeigen, hat dieser Angriff keine Auswirkungen. Lege pro \"Kopf\" eine Energie, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 
@@ -80,7 +80,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It renders its prey immobile using well-developed claws, then carries the prey more than 60 miles to its nest.",
+		'en-us': "It renders its prey immobile using well-developed claws, then carries the prey more than 60 miles to its nest.",
 	},
 
 	variants: [

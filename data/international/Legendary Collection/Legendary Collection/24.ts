@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Golem"
+		'en-us': "Golem"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Graveler"
+		'en-us': "Graveler"
 	},
 
 	stage: "Stage2",
@@ -34,7 +34,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Avalanche"
+				'en-us': "Avalanche"
 			},
 
 			damage: 60,
@@ -48,10 +48,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Selfdestruct"
+				'en-us': "Selfdestruct"
 			},
 			effect: {
-				en: "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Golem does 100 damage to itself."
+				'en-us': "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Golem does 100 damage to itself."
 			},
 			damage: 100,
 
@@ -68,7 +68,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage."
+		'en-us': "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage."
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spinarak",
-		fr: "Mimigal",
-		es: "Spinarak",
-		it: "Spinarak",
-		pt: "Spinarak",
-		de: "Webarak"
+		'en-us': "Spinarak",
+		'fr-fr': "Mimigal",
+		'es-es': "Spinarak",
+		'it-it': "Spinarak",
+		'pt-br': "Spinarak",
+		'de-de': "Webarak"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Bug Bite",
-			fr: "Piqûre",
-			es: "Picadura",
-			it: "Coleomorso",
-			pt: "Picada",
-			de: "Käferbiss"
+			'en-us': "Bug Bite",
+			'fr-fr': "Piqûre",
+			'es-es': "Picadura",
+			'it-it': "Coleomorso",
+			'pt-br': "Picada",
+			'de-de': "Käferbiss"
 		},
 
 		damage: 20
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Some fishers weave its sturdy thread into nets to catch fish Pokémon.",
+		'en-us': "Some fishers weave its sturdy thread into nets to catch fish Pokémon.",
 	},
 
 	variants: [

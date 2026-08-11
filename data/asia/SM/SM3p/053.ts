@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゾロア",
+		'ja-jp': "ゾロア",
 	},
 
 	illustrator: "kodama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "相手そっくりに 化けているように みせかけ だましたり 驚かして そのすきに 逃げ出すことが 多い。",
+		'ja-jp': "相手そっくりに 化けているように みせかけ だましたり 驚かして そのすきに 逃げ出すことが 多い。",
 	},
 
 	stage: "Basic",

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 3'
 
 const card: Card = {
 	name: {
-		en: "Marshtomp",
-		fr: "Flobio"
+		'en-us': "Marshtomp",
+		'fr-fr': "Flobio"
 	},
 
 	illustrator: "Midori Harada",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mudkip",
-		fr: "Gobou"
+		'en-us': "Mudkip",
+		'fr-fr': "Gobou"
 	},
 
 	stage: "Stage1",
@@ -33,8 +33,8 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mud Slap",
-				fr: "Coud'boue"
+				'en-us': "Mud Slap",
+				'fr-fr': "Coud'boue"
 			},
 
 			damage: 20,
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-edge",
-				fr: "Damoclès"
+				'en-us': "Double-edge",
+				'fr-fr': "Damoclès"
 			},
 			effect: {
-				en: "Marshtomp does 10 damage to itself.",
-				fr: "Flobio s'inflige 10 dégâts."
+				'en-us': "Marshtomp does 10 damage to itself.",
+				'fr-fr': "Flobio s'inflige 10 dégâts."
 			},
 			damage: 40,
 

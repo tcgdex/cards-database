@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カツラのドードー",
+		'ja-jp': "カツラのドードー",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ワイルドキック",
+				'ja-jp': "ワイルドキック",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "報復",
+				'ja-jp': "報復",
 			},
 			effect: {
-				ja: "10ダメージを繰り返し、ブレインのドドゥオのダメージ数をカウンターします。",
+				'ja-jp': "10ダメージを繰り返し、ブレインのドドゥオのダメージ数をカウンターします。",
 			},
 		},
 	],

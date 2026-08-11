@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVLS"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "シンボラー"
+		'ja-jp': "シンボラー"
 	},
 
 	illustrator: "svlt",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "サイコパワーで 空を 飛ぶ。 古代都市の 守り神 とも その遣いとも いわれている。"
+		'ja-jp': "サイコパワーで 空を 飛ぶ。 古代都市の 守り神 とも その遣いとも いわれている。"
 	},
 
 	stage: "Basic",
@@ -24,23 +24,23 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ダブルドロー"
+			'ja-jp': "ダブルドロー"
 		},
 
 		effect: {
-			ja: "自分の山札を2枚引く。"
+			'ja-jp': "自分の山札を2枚引く。"
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ねんりき"
+			'ja-jp': "ねんりき"
 		},
 
 		damage: 60,
 
 		effect: {
-			ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。"
+			'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。"
 		}
 	}],
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Cleffa",
-		fr: "Melo",
-		de: "Pii"
+		'en-us': "Cleffa",
+		'fr-fr': "Melo",
+		'de-de': "Pii"
 	},
 
 	illustrator: "Yuka Morii",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Baby Evolution",
-				fr: "Évolution bébé",
-				de: "Baby Evolution"
+				'en-us': "Baby Evolution",
+				'fr-fr': "Évolution bébé",
+				'de-de': "Baby Evolution"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may put Clefairy from your hand onto Cleffa (this counts as evolving Cleffa) and remove all damage counters from Cleffa.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Melofée de votre main sur Melo (vous faites ainsi évoluer Melo) et retirer à Melo tous ses marqueurs de dégât.",
-				de: "Once during your turn (before your attack), you may put Clefairy from your hand onto Cleffa (this counts as evolving Cleffa) and remove all damage counters from Cleffa."
+				'en-us': "Once during your turn (before your attack), you may put Clefairy from your hand onto Cleffa (this counts as evolving Cleffa) and remove all damage counters from Cleffa.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Melofée de votre main sur Melo (vous faites ainsi évoluer Melo) et retirer à Melo tous ses marqueurs de dégât.",
+				'de-de': "Once during your turn (before your attack), you may put Clefairy from your hand onto Cleffa (this counts as evolving Cleffa) and remove all damage counters from Cleffa."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Eeeeeeek",
-				fr: "Arheuuuuu",
-				de: "Eeeeeeek"
+				'en-us': "Eeeeeeek",
+				'fr-fr': "Arheuuuuu",
+				'de-de': "Eeeeeeek"
 			},
 			effect: {
-				en: "Shuffle your hand into your deck, then draw 6 cards.",
-				fr: "Mélangez votre main avec votre deck. Ensuite, piochez 6 cartes.",
-				de: "Shuffle your hand into your deck, then draw 6 cards."
+				'en-us': "Shuffle your hand into your deck, then draw 6 cards.",
+				'fr-fr': "Mélangez votre main avec votre deck. Ensuite, piochez 6 cartes.",
+				'de-de': "Shuffle your hand into your deck, then draw 6 cards."
 			},
 
 		},

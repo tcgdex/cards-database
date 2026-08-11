@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Detective Pikachu'
 
 const card: Card = {
 	name: {
-		en: "Snubbull",
-		fr: "Snubbull",
-		es: "Snubbull",
-		it: "Snubbull",
-		pt: "Snubbull",
-		de: "Snubbull"
+		'en-us': "Snubbull",
+		'fr-fr': "Snubbull",
+		'es-es': "Snubbull",
+		'it-it': "Snubbull",
+		'pt-br': "Snubbull",
+		'de-de': "Snubbull"
 	},
 
 	illustrator: "Framestore",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Play Rough",
-				fr: "Câlinerie",
-				es: "Carantoña",
-				it: "Carineria",
-				pt: "Jogo Duro",
-				de: "Knuddler"
+				'en-us': "Play Rough",
+				'fr-fr': "Câlinerie",
+				'es-es': "Carantoña",
+				'it-it': "Carineria",
+				'pt-br': "Jogo Duro",
+				'de-de': "Knuddler"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
-				pt: "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
-				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
+				'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
 			},
 			damage: "10+",
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It grows close to others easily and is also easily spoiled. The disparity between its face and its actions makes many young people wild about it.",
+		'en-us': "It grows close to others easily and is also easily spoiled. The disparity between its face and its actions makes many young people wild about it.",
 	},
 
 	thirdParty: {

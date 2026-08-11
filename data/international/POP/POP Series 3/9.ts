@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 3'
 
 const card: Card = {
 	name: {
-		en: "Forretress",
-		fr: "Foretress"
+		'en-us': "Forretress",
+		'fr-fr': "Foretress"
 	},
 
 	illustrator: "Midori Harada",
@@ -29,8 +29,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge"
+				'en-us': "Tackle",
+				'fr-fr': "Charge"
 			},
 
 			damage: 20,
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Toxic",
-				fr: "Toxik"
+				'en-us': "Toxic",
+				'fr-fr': "Toxik"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours."
+				'en-us': "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours."
 			},
 			damage: 20,
 

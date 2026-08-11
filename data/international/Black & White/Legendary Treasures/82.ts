@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Excadrill-EX",
+		'en-us': "Excadrill-EX",
 	},
 
 	illustrator: "Ryo Ueda",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dig Out",
+				'en-us': "Dig Out",
 			},
 			effect: {
-				en: "Discard the top card of your deck. If that card is a basic Energy card, attach it to 1 of your Pokémon.",
+				'en-us': "Discard the top card of your deck. If that card is a basic Energy card, attach it to 1 of your Pokémon.",
 			},
 			damage: 40,
 
@@ -46,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Break Ground",
+				'en-us': "Break Ground",
 			},
 			effect: {
-				en: "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'en-us': "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 120,
 

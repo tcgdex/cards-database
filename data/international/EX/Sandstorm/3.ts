@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Cradily",
-		fr: "Vacilys",
-		de: "Wielie"
+		'en-us': "Cradily",
+		'fr-fr': "Vacilys",
+		'de-de': "Wielie"
 	},
 
 	illustrator: "Midori Harada",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lileep",
-		fr: "Lilia"
+		'en-us': "Lileep",
+		'fr-fr': "Lilia"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Super Suction Cups",
-				fr: "Super ventouses",
-				de: "Super Suction Cups"
+				'en-us': "Super Suction Cups",
+				'fr-fr': "Super ventouses",
+				'de-de': "Super Suction Cups"
 			},
 			effect: {
-				en: "As long as Cradily is your Active Pokémon, your opponent's Pokémon can't retreat.",
-				fr: "Tant que Vacilys est votre Pokémon Actif, le Pokémon de votre adversaire ne peut pas battre en retraite.",
-				de: "As long as Cradily is your Active Pokémon, your opponent's Pokémon can't retreat."
+				'en-us': "As long as Cradily is your Active Pokémon, your opponent's Pokémon can't retreat.",
+				'fr-fr': "Tant que Vacilys est votre Pokémon Actif, le Pokémon de votre adversaire ne peut pas battre en retraite.",
+				'de-de': "As long as Cradily is your Active Pokémon, your opponent's Pokémon can't retreat."
 			}
 		},
 	],
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lure Poison",
-				fr: "Poison attractif",
-				de: "Lure Poison"
+				'en-us': "Lure Poison",
+				'fr-fr': "Poison attractif",
+				'de-de': "Lure Poison"
 			},
 			effect: {
-				en: "Before using this effect, you may switch the Defending Pokémon with 1 of your opponent's Benched Pokémon, if any. The Defending Pokémon is now Poisoned.",
-				fr: "Avant d'utiliser cet effet, vous pouvez échanger le Pokémon Défenseur contre un des Pokémon du Banc de votre adversaire, s'il en a. Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Before using this effect, you may switch the Defending Pokémon with 1 of your opponent's Benched Pokémon, if any. The Defending Pokémon is now Poisoned."
+				'en-us': "Before using this effect, you may switch the Defending Pokémon with 1 of your opponent's Benched Pokémon, if any. The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Avant d'utiliser cet effet, vous pouvez échanger le Pokémon Défenseur contre un des Pokémon du Banc de votre adversaire, s'il en a. Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Before using this effect, you may switch the Defending Pokémon with 1 of your opponent's Benched Pokémon, if any. The Defending Pokémon is now Poisoned."
 			},
 
 		},
@@ -68,14 +68,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spiral Drain",
-				fr: "Spirale",
-				de: "Spiral Drain"
+				'en-us': "Spiral Drain",
+				'fr-fr': "Spirale",
+				'de-de': "Spiral Drain"
 			},
 			effect: {
-				en: "Remove 2 damage counters from Cradily (remove 1 if there is only 1).",
-				fr: "Retirez à Vacilys deux marqueurs de dégât (ou un s'il n'en a qu'un).",
-				de: "Remove 2 damage counters from Cradily (remove 1 if there is only 1)."
+				'en-us': "Remove 2 damage counters from Cradily (remove 1 if there is only 1).",
+				'fr-fr': "Retirez à Vacilys deux marqueurs de dégât (ou un s'il n'en a qu'un).",
+				'de-de': "Remove 2 damage counters from Cradily (remove 1 if there is only 1)."
 			},
 			damage: 50,
 

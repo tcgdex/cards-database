@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Axoloto de Paldea",
-		en: "Paldean Wooper",
-		es: "Wooper de Paldea",
-		it: "Wooper di Paldea",
-		pt: "Wooper de Paldea",
-		de: "Paldea-Felino"
+		'fr-fr': "Axoloto de Paldea",
+		'en-us': "Paldean Wooper",
+		'es-es': "Wooper de Paldea",
+		'it-it': "Wooper di Paldea",
+		'pt-br': "Wooper de Paldea",
+		'de-de': "Paldea-Felino"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Ruée",
-			en: "Stampede",
-			es: "Estampida",
-			it: "Fuggi Fuggi",
-			pt: "Estouro",
-			de: "Zertrampeln"
+			'fr-fr': "Ruée",
+			'en-us': "Stampede",
+			'es-es': "Estampida",
+			'it-it': "Fuggi Fuggi",
+			'pt-br': "Estouro",
+			'de-de': "Zertrampeln"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			fr: "Coup de Pied de Garnement",
-			en: "Playful Kick",
-			es: "Patada Juguetona",
-			it: "Calcio Briccone",
-			pt: "Chute Brincalhão",
-			de: "Verspielter Kick"
+			'fr-fr': "Coup de Pied de Garnement",
+			'en-us': "Playful Kick",
+			'es-es': "Patada Juguetona",
+			'it-it': "Calcio Briccone",
+			'pt-br': "Chute Brincalhão",
+			'de-de': "Verspielter Kick"
 		},
 
 		damage: 20
@@ -79,7 +79,7 @@ const card: Card = {
 	illustrator: "Saya Tsuruta",
 
 	description: {
-		en: "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
+		'en-us': "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
 	},
 }
 

@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../SV'
 
 const set: Set = {
 	id: 'SV4M',
 
 	name: {
-		ja: '未来の一閃',
-		ko: '미래의 일섬',
+		'ja-jp': '未来の一閃',
+		'ko-kr': '미래의 일섬',
 		'zh-tw': '未來閃光',
-		th: 'ประกายแสงจากอนาคต'
+		'th-th': 'ประกายแสงจากอนาคต'
 	},
 
 	serie: serie,
@@ -18,7 +18,7 @@ const set: Set = {
 	},
 
 	releaseDate: {
-		ja: '2023-10-27',
+		'ja-jp': '2023-10-27',
 		'zh-tw': '2023-11-10'
 	},
 

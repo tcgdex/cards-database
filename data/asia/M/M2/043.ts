@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グライガー",
+		'ja-jp': "グライガー",
 	},
 
 	illustrator: "Kazumasa Yasukuni",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "切り立った 崖に 巣を作る。 一度 滑空したあとは 跳びはねながら 巣に 戻る。",
+		'ja-jp': "切り立った 崖に 巣を作る。 一度 滑空したあとは 跳びはねながら 巣に 戻る。",
 	},
 
 	stage: "Basic",

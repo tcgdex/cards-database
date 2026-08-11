@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メレシー",
+		'ja-jp': "メレシー",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "地下深くの 高温 高圧な 環境で 生まれた。 頭の 石から エネルギーを 放つ。",
+		'ja-jp': "地下深くの 高温 高圧な 環境で 生まれた。 頭の 石から エネルギーを 放つ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ダブルタイプ" },
 			effect: {
-				ja: "このポケモンは、場にいるかぎり[F]と[P]の2つのタイプになる。",
+				'ja-jp': "このポケモンは、場にいるかぎり[F]と[P]の2つのタイプになる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "70+",
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "相手のサイドの残り枚数が2枚以下なら、100ダメージ追加。",
+				'ja-jp': "相手のサイドの残り枚数が2枚以下なら、100ダメージ追加。",
 			},
 		},
 	],

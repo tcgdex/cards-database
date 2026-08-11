@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タイレーツ",
+		'ja-jp': "タイレーツ",
 	},
 
 	illustrator: "Kinu Nishimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "６匹で １匹の ポケモン。 隊列を 組み替えながら チームワークで 戦うのだ。",
+		'ja-jp': "６匹で １匹の ポケモン。 隊列を 組み替えながら チームワークで 戦うのだ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "自分の場の「れんげき」のポケモンの数×20ダメージ。",
+				'ja-jp': "自分の場の「れんげき」のポケモンの数×20ダメージ。",
 			},
 		},
 	],

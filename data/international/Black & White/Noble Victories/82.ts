@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Bisharp",
-		fr: "Scalproie",
-		es: "Bisharp",
-		it: "Bisharp",
-		pt: "Bisharp",
-		de: "Caesurio"
+		'en-us': "Bisharp",
+		'fr-fr': "Scalproie",
+		'es-es': "Bisharp",
+		'it-it': "Bisharp",
+		'pt-br': "Bisharp",
+		'de-de': "Caesurio"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pawniard",
-		fr: "Scalpion",
+		'en-us': "Pawniard",
+		'fr-fr': "Scalpion",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Stream",
-				fr: "Courant d'Énergie",
+				'en-us': "Energy Stream",
+				'fr-fr': "Courant d'Énergie",
 			},
 			effect: {
-				en: "Attach a Metal Energy card from your discard pile to this Pokémon.",
-				fr: "Attachez une carte Énergie Metal de votre pile de défausse à ce Pokémon.",
+				'en-us': "Attach a Metal Energy card from your discard pile to this Pokémon.",
+				'fr-fr': "Attachez une carte Énergie Metal de votre pile de défausse à ce Pokémon.",
 			},
 			damage: 20,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Scissors",
-				fr: "Ciseaux d'Acier",
+				'en-us': "Metal Scissors",
+				'fr-fr': "Ciseaux d'Acier",
 			},
 			effect: {
-				en: "Does 20 more damage for each Metal Energy attached to this Pokémon.",
-				fr: "Inflige 20 dégâts supplémentaires pour chaque Énergie Metal attachée à ce Pokémon.",
+				'en-us': "Does 20 more damage for each Metal Energy attached to this Pokémon.",
+				'fr-fr': "Inflige 20 dégâts supplémentaires pour chaque Énergie Metal attachée à ce Pokémon.",
 			},
 			damage: 40,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It leads a group of Pawniard. It battles to become the boss, but will be driven from the group if it loses.",
+		'en-us': "It leads a group of Pawniard. It battles to become the boss, but will be driven from the group if it loses.",
 	},
 
 	thirdParty: {

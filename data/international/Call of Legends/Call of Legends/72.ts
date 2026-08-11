@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Tangela",
-		fr: "Saquedeneu",
-		de: "Tangela"
+		'en-us': "Tangela",
+		'fr-fr': "Saquedeneu",
+		'de-de': "Tangela"
 	},
 
 	illustrator: "Hideaki Hakozaki",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Nutritional Support",
-				fr: "Support nutritionnel",
-				de: "Nahrungsversorgung"
+				'en-us': "Nutritional Support",
+				'fr-fr': "Support nutritionnel",
+				'de-de': "Nahrungsversorgung"
 			},
 			effect: {
-				en: "Search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck 1 carte Énergie Grass et attachez-la à l’un de vos Pokémon. Mélangez ensuite votre deck.",
-				de: "Durchsuche dein Deck nach 1 -Energiekarte und lege sie an 1 deiner Pokémon an. Mische dein Deck anschließend."
+				'en-us': "Search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez dans votre deck 1 carte Énergie Grass et attachez-la à l’un de vos Pokémon. Mélangez ensuite votre deck.",
+				'de-de': "Durchsuche dein Deck nach 1 -Energiekarte und lege sie an 1 deiner Pokémon an. Mische dein Deck anschließend."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poisonpowder",
-				fr: "Poudre Toxik",
-				de: "Giftpuder"
+				'en-us': "Poisonpowder",
+				'fr-fr': "Poudre Toxik",
+				'de-de': "Giftpuder"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 30,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It tangles any moving thing with its vines. Their subtle shaking is ticklish if you get ensnared.",
+		'en-us': "It tangles any moving thing with its vines. Their subtle shaking is ticklish if you get ensnared.",
 	},
 
 	variants: [

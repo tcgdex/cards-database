@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピカチュウEX",
+		'ja-jp': "ピカチュウEX",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数x30ダメージ。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数x30ダメージ。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[雷]エネルギーをすべてトラッシュし、トラッシュした枚数x50ダメージ。",
+				'ja-jp': "このポケモンについている[雷]エネルギーをすべてトラッシュし、トラッシュした枚数x50ダメージ。",
 			},
 		},
 	],

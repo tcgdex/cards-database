@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "プリン",
+		'ja-jp': "プリン",
 		'zh-tw': "胖丁",
-		th: "พูริน",
-		id: "Jigglypuff"
+		'th-th': "พูริน",
+		'id-id': "Jigglypuff"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "つぶらな 瞳が 揺れるとき 眠たくなるような 不思議で 気持ちのいい 歌を 歌う。",
+		'ja-jp': "つぶらな 瞳が 揺れるとき 眠たくなるような 不思議で 気持ちのいい 歌を 歌う。",
 		'zh-tw': "當牠圓圓的大眼睛轉動時，就會唱起奇妙的歌曲， 讓人舒服地昏昏欲睡。",
-		th: "เมื่อตากลมโตสั่นไหว จะร้องเพลงที่ทำให้ง่วงนอนและรู้สึกดีอย่างน่าประหลาด",
-		id: "Jigglypuff menyanyikan lagu ajaib yang menenangkan dan membuat siapa pun jadi mengantuk ketika mata bulatnya bergerak."
+		'th-th': "เมื่อตากลมโตสั่นไหว จะร้องเพลงที่ทำให้ง่วงนอนและรู้สึกดีอย่างน่าประหลาด",
+		'id-id': "Jigglypuff menyanyikan lagu ajaib yang menenangkan dan membuat siapa pun jadi mengantuk ketika mata bulatnya bergerak."
 	},
 
 	stage: "Basic",
@@ -31,26 +31,26 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "うたう",
+			'ja-jp': "うたう",
 			'zh-tw': "唱歌",
-			th: "ร้องเพลง",
-			id: "Menyanyi"
+			'th-th': "ร้องเพลง",
+			'id-id': "Menyanyi"
 		},
 
 		effect: {
-			ja: "相手のバトルポケモンをねむりにする。",
+			'ja-jp': "相手のバトルポケモンをねむりにする。",
 			'zh-tw': "將對手的戰鬥寶可夢【睡眠】。",
-			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[หลับ]",
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
+			'th-th': "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[หลับ]",
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "ビンタ",
+			'ja-jp': "ビンタ",
 			'zh-tw': "巴掌",
-			th: "ตบ",
-			id: "Menampar"
+			'th-th': "ตบ",
+			'id-id': "Menampar"
 		},
 
 		damage: 20

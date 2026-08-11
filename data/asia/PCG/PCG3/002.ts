@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Zubat",
+		'ja-jp': "Zubat",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "暗い縞",
+				'ja-jp': "暗い縞",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御する各ポケモンは現在麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御する各ポケモンは現在麻痺しています。",
 			},
 		},
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "待ち伏せ",
+				'ja-jp': "待ち伏せ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて10ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて10ダメージを与えます。",
 			},
 		},
 	],

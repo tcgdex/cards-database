@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
@@ -7,23 +7,23 @@ const card: Card = {
 	dexId: [681],
 
 	name: {
-		en: "Aegislash",
-		fr: "Exagide",
-		es: "Aegislash",
+		'en-us': "Aegislash",
+		'fr-fr': "Exagide",
+		'es-es': "Aegislash",
 		'es-mx': "Aegislash",
-		de: "Durengard",
-		it: "Aegislash",
-		pt: "Aegislash"
+		'de-de': "Durengard",
+		'it-it': "Aegislash",
+		'pt-br': "Aegislash"
 	},
 
 	evolveFrom: {
-		en: "Doublade",
-		fr: "Dimoclès",
-		es: "Doublade",
+		'en-us': "Doublade",
+		'fr-fr': "Dimoclès",
+		'es-es': "Doublade",
 		'es-mx': "Doublade",
-		de: "Duokles",
-		it: "Doublade",
-		pt: "Doublade",
+		'de-de': "Duokles",
+		'it-it': "Doublade",
+		'pt-br': "Doublade",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -37,13 +37,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Slash",
-			fr: "Tranche",
-			es: "Cuchillada",
+			'en-us': "Slash",
+			'fr-fr': "Tranche",
+			'es-es': "Cuchillada",
 			'es-mx': "Cuchillada",
-			de: "Schlitzer",
-			it: "Lacerazione",
-			pt: "Talho"
+			'de-de': "Schlitzer",
+			'it-it': "Lacerazione",
+			'pt-br': "Talho"
 		},
 
 		damage: 80
@@ -51,23 +51,23 @@ const card: Card = {
 		cost: ["Metal", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Metal Slash",
-			fr: "Tranche Métallique",
-			es: "Tajo Metálico",
+			'en-us': "Metal Slash",
+			'fr-fr': "Tranche Métallique",
+			'es-es': "Tajo Metálico",
 			'es-mx': "Cuchillada Metálica",
-			de: "Metallschlitzer",
-			it: "Lacerametallo",
-			pt: "Talho de Metal"
+			'de-de': "Metallschlitzer",
+			'it-it': "Lacerametallo",
+			'pt-br': "Talho de Metal"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use attacks.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser d'attaques.",
-			es: "Durante tu próximo turno, este Pokémon no puede usar ataques.",
+			'en-us': "During your next turn, this Pokémon can't use attacks.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser d'attaques.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede usar ataques.",
 			'es-mx': "Durante tu próximo turno, este Pokémon no puede usar ataques.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon keine Attacken einsetzen.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può usare attacchi.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar ataques."
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon keine Attacken einsetzen.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare attacchi.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar ataques."
 		},
 
 		damage: 230

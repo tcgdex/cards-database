@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Togepi",
-		fr: "Togepi",
-		de: "Togepi"
+		'en-us': "Togepi",
+		'fr-fr': "Togepi",
+		'de-de': "Togepi"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Minor Errand-Running",
-				fr: "Rendez-vous mineur",
-				de: "Kleine Besorgung"
+				'en-us': "Minor Errand-Running",
+				'fr-fr': "Rendez-vous mineur",
+				'de-de': "Kleine Besorgung"
 			},
 			effect: {
-				en: "Flip 2 coins. For each heads, search your deck for a basic Energy card. Show those cards to your opponent, and then put them into your hand. Shuffle your deck afterward.",
-				fr: "Lancez 2 pièces. Pour chaque face, cherchez dans votre deck une carte Énergie de base. Montrez ces cartes à votre adversaire avant de les ajouter à votre main. Mélangez ensuite votre deck.",
-				de: "Wirf 2 Münzen. Durchsuche jedesmal, wenn du \"Kopf\" geworfen hast, dein Deck nach einer Basis-Energiekarte. Zeige diese Karten deinem Gegner und nimm sie dann auf deine Hand. Mische dein Deck danach."
+				'en-us': "Flip 2 coins. For each heads, search your deck for a basic Energy card. Show those cards to your opponent, and then put them into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Lancez 2 pièces. Pour chaque face, cherchez dans votre deck une carte Énergie de base. Montrez ces cartes à votre adversaire avant de les ajouter à votre main. Mélangez ensuite votre deck.",
+				'de-de': "Wirf 2 Münzen. Durchsuche jedesmal, wenn du \"Kopf\" geworfen hast, dein Deck nach einer Basis-Energiekarte. Zeige diese Karten deinem Gegner und nimm sie dann auf deine Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'face",
-				de: "Pfund"
+				'en-us': "Pound",
+				'fr-fr': "Écras'face",
+				'de-de': "Pfund"
 			},
 
 			damage: 10,

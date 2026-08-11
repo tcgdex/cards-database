@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [746],
 
 	name: {
-		en: "Wishiwashi",
-		fr: "Froussardine",
-		es: "Wishiwashi",
-		it: "Wishiwashi",
-		pt: "Wishiwashi",
-		de: "Lusardin"
+		'en-us': "Wishiwashi",
+		'fr-fr': "Froussardine",
+		'es-es': "Wishiwashi",
+		'it-it': "Wishiwashi",
+		'pt-br': "Wishiwashi",
+		'de-de': "Lusardin"
 	},
 
 	illustrator: "sui",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Deep Sea Swirl",
-				fr: "Remous Abyssal",
-				es: "Remolino de Alta Mar",
-				it: "Vortice Abissale",
-				pt: "Giro em Mar Profundo",
-				de: "Tiefseewirbel"
+				'en-us': "Deep Sea Swirl",
+				'fr-fr': "Remous Abyssal",
+				'es-es': "Remolino de Alta Mar",
+				'it-it': "Vortice Abissale",
+				'pt-br': "Giro em Mar Profundo",
+				'de-de': "Tiefseewirbel"
 			},
 			effect: {
-				en: "Shuffle your hand into your deck. Then, draw 8 cards.",
-				fr: "Mélangez votre main avec votre deck. Ensuite, piochez 8 cartes.",
-				es: "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 8 cartas.",
-				it: "Rimischia le carte che hai in mano nel tuo mazzo. Poi pesca otto carte.",
-				pt: "Embaralhe a sua mão no seu baralho. Em seguida, compre 8 cartas.",
-				de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 8 Karten."
+				'en-us': "Shuffle your hand into your deck. Then, draw 8 cards.",
+				'fr-fr': "Mélangez votre main avec votre deck. Ensuite, piochez 8 cartes.",
+				'es-es': "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 8 cartas.",
+				'it-it': "Rimischia le carte che hai in mano nel tuo mazzo. Poi pesca otto carte.",
+				'pt-br': "Embaralhe a sua mão no seu baralho. Em seguida, compre 8 cartas.",
+				'de-de': "Mische deine Handkarten in dein Deck. Ziehe anschließend 8 Karten."
 			},
 
 		},
@@ -51,12 +51,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse Vague",
-				es: "Chapoteo Ondulante",
-				it: "Schizzi d'Onda",
-				pt: "Onda Borrifante",
-				de: "Wellenplatscher"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse Vague",
+				'es-es': "Chapoteo Ondulante",
+				'it-it': "Schizzi d'Onda",
+				'pt-br': "Onda Borrifante",
+				'de-de': "Wellenplatscher"
 			},
 
 			damage: 20,
@@ -78,7 +78,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Individually, they're incredibly weak. It's by gathering up into schools that they're able to confront opponents."
+		'en-us': "Individually, they're incredibly weak. It's by gathering up into schools that they're able to confront opponents."
 	},
 
 	variants: [

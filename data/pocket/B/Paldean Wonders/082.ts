@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Famignol",
-		en: "Maushold",
-		es: "Maushold",
-		it: "Maushold",
-		pt: "Maushold",
-		de: "Famieps"
+		'fr-fr': "Famignol",
+		'en-us': "Maushold",
+		'es-es': "Maushold",
+		'it-it': "Maushold",
+		'pt-br': "Maushold",
+		'de-de': "Famieps"
   },
   illustrator: "Saya Tsuruta",
   rarity: "Two Diamond",
@@ -18,12 +18,12 @@ const card: Card = {
   types: ["Colorless"],
   dexId: [925],
   evolveFrom: {
-		fr: "Compagnol",
-		en: "Tandemaus",
-		es: "Tandemaus",
-		it: "Tandemaus",
-		pt: "Tandemaus",
-		de: "Zwieps"
+		'fr-fr': "Compagnol",
+		'en-us': "Tandemaus",
+		'es-es': "Tandemaus",
+		'it-it': "Tandemaus",
+		'pt-br': "Tandemaus",
+		'de-de': "Zwieps"
   },
   description: {
     en: "The little one just appeared one day. They all live together like a family, but the relationship between the three is still unclear.",

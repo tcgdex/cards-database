@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Aegislash",
-		fr: "Exagide",
-		es: "Aegislash",
-		it: "Aegislash",
-		pt: "Aegislash",
-		de: "Durengard"
+		'en-us': "Aegislash",
+		'fr-fr': "Exagide",
+		'es-es': "Aegislash",
+		'it-it': "Aegislash",
+		'pt-br': "Aegislash",
+		'de-de': "Durengard"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Doublade",
-		fr: "Dimoclès",
-		es: "Doublade",
-		it: "Doublade",
-		pt: "Doublade",
-		de: "Duokles"
+		'en-us': "Doublade",
+		'fr-fr': "Dimoclès",
+		'es-es': "Doublade",
+		'it-it': "Doublade",
+		'pt-br': "Doublade",
+		'de-de': "Duokles"
 	},
 
 	stage: "Stage2",
@@ -45,20 +45,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Painful Sword",
-				fr: "Lame Douloureuse",
-				es: "Espada Dolorosa",
-				it: "Spada Funesta",
-				pt: "Espada Dolorosa",
-				de: "Schwertschmerz"
+				'en-us': "Painful Sword",
+				'fr-fr': "Lame Douloureuse",
+				'es-es': "Espada Dolorosa",
+				'it-it': "Spada Funesta",
+				'pt-br': "Espada Dolorosa",
+				'de-de': "Schwertschmerz"
 			},
 			effect: {
-				en: "Double the number of damage counters on each of your opponent's Pokémon.",
-				fr: "Doublez le nombre de marqueurs de dégâts sur chacun des Pokémon de votre adversaire.",
-				es: "Dobla el número de contadores de daño en cada uno de los Pokémon de tu rival.",
-				it: "Raddoppia il numero di segnalini danno su ciascuno dei Pokémon del tuo avversario.",
-				pt: "Duplique o número de contadores de danos em cada um dos Pokémon do seu oponente.",
-				de: "Verdopple die Anzahl der Schadensmarken auf jedem Pokémon deines Gegners."
+				'en-us': "Double the number of damage counters on each of your opponent's Pokémon.",
+				'fr-fr': "Doublez le nombre de marqueurs de dégâts sur chacun des Pokémon de votre adversaire.",
+				'es-es': "Dobla el número de contadores de daño en cada uno de los Pokémon de tu rival.",
+				'it-it': "Raddoppia il numero di segnalini danno su ciascuno dei Pokémon del tuo avversario.",
+				'pt-br': "Duplique o número de contadores de danos em cada um dos Pokémon do seu oponente.",
+				'de-de': "Verdopple die Anzahl der Schadensmarken auf jedem Pokémon deines Gegners."
 			},
 
 		},
@@ -70,20 +70,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Megaton Slash",
-				fr: "Tranche Mégatonne",
-				es: "Cuchillada Megatón",
-				it: "Squarcio Megatonico",
-				pt: "Talho Megaton",
-				de: "Megatonnenschlitzer"
+				'en-us': "Megaton Slash",
+				'fr-fr': "Tranche Mégatonne",
+				'es-es': "Cuchillada Megatón",
+				'it-it': "Squarcio Megatonico",
+				'pt-br': "Talho Megaton",
+				'de-de': "Megatonnenschlitzer"
 			},
 			effect: {
-				en: "This attack does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 10 dégâts à 2 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				es: "Este ataque hace 10 puntos de daño a 2 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-				it: "Questo attacco infligge 10 danni a due dei Pokémon nella panchina del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
-				pt: "Este ataque causa 10 de danos a 2 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
-				de: "Dieser Angriff fügt 2 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "This attack does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 10 dégâts à 2 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'es-es': "Este ataque hace 10 puntos de daño a 2 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+				'it-it': "Questo attacco infligge 10 danni a due dei Pokémon nella panchina del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
+				'pt-br': "Este ataque causa 10 de danos a 2 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
+				'de-de': "Dieser Angriff fügt 2 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 100,
 
@@ -107,7 +107,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Apparently, it can detect innate qualities of leadership. According to legend, whoever it recognizes is destined to become king.",
+		'en-us': "Apparently, it can detect innate qualities of leadership. According to legend, whoever it recognizes is destined to become king.",
 	},
 
 	thirdParty: {

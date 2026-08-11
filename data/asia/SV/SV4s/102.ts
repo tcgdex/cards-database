@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Porygon"
+		'id-id': "Porygon"
 	},
 
 	illustrator: "Taiga Kayama",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Belakangan Porygon berperan besar di dunia maya. Pokémon ini berkeliling mengecek untuk memastikan tidak ada data yang mencurigakan."
+		'id-id': "Belakangan Porygon berperan besar di dunia maya. Pokémon ini berkeliling mengecek untuk memastikan tidak ada data yang mencurigakan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menyingkirkan Data"
+			'id-id': "Menyingkirkan Data"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, pilih 1 Energi yang dikenakan pada Pokémon Bertarung lawan, lalu pindahkan ke Pokémon Cadangan lawan."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, pilih 1 Energi yang dikenakan pada Pokémon Bertarung lawan, lalu pindahkan ke Pokémon Cadangan lawan."
 		},
 
 		damage: 10,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フシギダネ",
+		'ja-jp': "フシギダネ",
 	},
 
 	illustrator: "Julie Hang",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "生まれたときから 背中に 植物の タネが あって 少しずつ 大きく 育つ。",
+		'ja-jp': "生まれたときから 背中に 植物の タネが あって 少しずつ 大きく 育つ。",
 	},
 
 	stage: "Basic",
@@ -23,8 +23,8 @@ const card: Card = {
 			name: { ja: "ゆすってあつめる" },
 			cost: ["Grass"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数ぶん、自分の山札を引く。",
-				en: "ウラが出るまでコインを投げ、オモテの数ぶん、自分の山札を引く。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数ぶん、自分の山札を引く。",
+				'en-us': "ウラが出るまでコインを投げ、オモテの数ぶん、自分の山札を引く。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カイリューEX",
+		'ja-jp': "カイリューEX",
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ひきあげる" },
 			effect: {
-				ja: "この特性は、このカードを手札からベンチに出したとき、1回使える。自分のトラッシュからたねポケモン（「カイリューEX」をのぞく）を2枚選び、相手に見せてから、手札に加える。",
+				'ja-jp': "この特性は、このカードを手札からベンチに出したとき、1回使える。自分のトラッシュからたねポケモン（「カイリューEX」をのぞく）を2枚選び、相手に見せてから、手札に加える。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],

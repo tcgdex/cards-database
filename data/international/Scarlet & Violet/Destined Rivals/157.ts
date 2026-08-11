@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Swellow",
-		fr: "Hélédelle",
-		de: "Schwalboss",
-		it: "Swellow",
-		es: "Swellow",
-		pt: "Swellow",
+		'en-us': "Swellow",
+		'fr-fr': "Hélédelle",
+		'de-de': "Schwalboss",
+		'it-it': "Swellow",
+		'es-es': "Swellow",
+		'pt-br': "Swellow",
 		'es-mx': "Swellow"
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Taillow",
-		fr: "Nirondelle",
-		de: "Schwalbini",
-		it: "Taillow",
-		es: "Taillow",
-		pt: "Taillow",
+		'en-us': "Taillow",
+		'fr-fr': "Nirondelle",
+		'de-de': "Schwalbini",
+		'it-it': "Taillow",
+		'es-es': "Taillow",
+		'pt-br': "Taillow",
 		'es-mx': "Taillow"
 	},
 	stage: "Stage1",
@@ -37,34 +37,34 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Add On",
-			fr: "Ajout",
-			de: "Hinzufügen",
-			it: "Supplemento",
-			es: "Sumar",
-			pt: "Adicionar",
+			'en-us': "Add On",
+			'fr-fr': "Ajout",
+			'de-de': "Hinzufügen",
+			'it-it': "Supplemento",
+			'es-es': "Sumar",
+			'pt-br': "Adicionar",
 			'es-mx': "Acarrear"
 		},
 
 		effect: {
-			en: "Draw 3 cards.",
-			fr: "Piochez 3 cartes.",
-			de: "Ziehe 3 Karten.",
-			it: "Pesca tre carte.",
-			es: "Roba 3 cartas.",
-			pt: "Compre 3 cartas.",
+			'en-us': "Draw 3 cards.",
+			'fr-fr': "Piochez 3 cartes.",
+			'de-de': "Ziehe 3 Karten.",
+			'it-it': "Pesca tre carte.",
+			'es-es': "Roba 3 cartas.",
+			'pt-br': "Compre 3 cartas.",
 			'es-mx': "Roba 3 cartas."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Speed Wing",
-			fr: "Ailes Vives",
-			de: "Turboschwinge",
-			it: "Alaveloce",
-			es: "Ala Veloz",
-			pt: "Asa da Velocidade",
+			'en-us': "Speed Wing",
+			'fr-fr': "Ailes Vives",
+			'de-de': "Turboschwinge",
+			'it-it': "Alaveloce",
+			'es-es': "Ala Veloz",
+			'pt-br': "Asa da Velocidade",
 			'es-mx': "Ala Veloz"
 		},
 

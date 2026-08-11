@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Mantine",
-		fr: "Demanta",
-		de: "Mantax"
+		'en-us': "Mantine",
+		'fr-fr': "Demanta",
+		'de-de': "Mantax"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Undulate",
-				fr: "Annulation",
-				de: "Undulate"
+				'en-us': "Undulate",
+				'fr-fr': "Annulation",
+				'de-de': "Undulate"
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Mantine.",
-				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Demanta.",
-				de: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Mantine."
+				'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Mantine.",
+				'fr-fr': "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Demanta.",
+				'de-de': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Mantine."
 			},
 			damage: 20,
 
@@ -63,8 +63,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Swimming freely in open seas, it may fly out of the water and over the waves if it builds up enough speed.",
-		fr: "Nageant librement en pleine mer, il peut s'envoler hors de l'eau et par-dessus les vagues s'il prend suffisamment de vitesse."
+		'en-us': "Swimming freely in open seas, it may fly out of the water and over the waves if it builds up enough speed.",
+		'fr-fr': "Nageant librement en pleine mer, il peut s'envoler hors de l'eau et par-dessus les vagues s'il prend suffisamment de vitesse."
 	},
 
 

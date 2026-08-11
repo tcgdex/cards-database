@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Houndour -069/092",
+		'ja-jp': "Houndour -069/092",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Darkness", "Colorless"],
 			name: {
-				ja: "FEINT攻撃",
+				'ja-jp': "FEINT攻撃",
 			},
 			effect: {
-				ja: "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに20のダメージを与えます。この攻撃の損傷は、脱力感、抵抗、pok？ -  powers、pok？bodies、またはそのポケモンに対するその他の影響の影響を受けません。",
+				'ja-jp': "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに20のダメージを与えます。この攻撃の損傷は、脱力感、抵抗、pok？ -  powers、pok？bodies、またはそのポケモンに対するその他の影響の影響を受けません。",
 			},
 		},
 	],

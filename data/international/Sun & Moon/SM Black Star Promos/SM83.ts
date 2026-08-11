@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Zorua",
-		fr: "Zorua",
-		es: "Zorua",
-		it: "Zorua",
-		pt: "Zorua",
-		de: "Zorua"
+		'en-us': "Zorua",
+		'fr-fr': "Zorua",
+		'es-es': "Zorua",
+		'it-it': "Zorua",
+		'pt-br': "Zorua",
+		'de-de': "Zorua"
 	},
 	illustrator: "kodama",
 	rarity: "Promo",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Stampede",
-				fr: "Ruée",
-				es: "Estampida",
-				it: "Fuggi Fuggi",
-				pt: "Estouro",
-				de: "Zertrampeln"
+				'en-us': "Stampede",
+				'fr-fr': "Ruée",
+				'es-es': "Estampida",
+				'it-it': "Fuggi Fuggi",
+				'pt-br': "Estouro",
+				'de-de': "Zertrampeln"
 			},
 
 			damage: 10,
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 20,
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It changes so it looks like its foe, tricks it, and then uses that opportunity to flee.",
+		'en-us': "It changes so it looks like its foe, tricks it, and then uses that opportunity to flee.",
 	},
 }
 

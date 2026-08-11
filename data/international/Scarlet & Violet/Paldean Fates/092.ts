@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Oddish",
-		fr: "Mystherbe",
-		es: "Oddish",
-		it: "Oddish",
-		pt: "Oddish",
-		de: "Myrapla"
+		'en-us': "Oddish",
+		'fr-fr': "Mystherbe",
+		'es-es': "Oddish",
+		'it-it': "Oddish",
+		'pt-br': "Oddish",
+		'de-de': "Myrapla"
 	},
 
 	rarity: "Shiny rare",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Razor Leaf",
-			fr: "Tranch'Herbe",
-			es: "Hoja Afilada",
-			it: "Foglielama",
-			pt: "Folha Navalha",
-			de: "Rasierblatt"
+			'en-us': "Razor Leaf",
+			'fr-fr': "Tranch'Herbe",
+			'es-es': "Hoja Afilada",
+			'it-it': "Foglielama",
+			'pt-br': "Folha Navalha",
+			'de-de': "Rasierblatt"
 		},
 
 		damage: 20
@@ -58,7 +58,7 @@ const card: Card = {
 	illustrator: "otumami",
 
 	description: {
-		en: "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
+		'en-us': "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
 	},
 
 }

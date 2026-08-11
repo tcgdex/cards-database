@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハネッコ",
+		'ja-jp': "ハネッコ",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "風に 流されて 漂う。 野山に ハネッコが 集まり出すと 春が 訪れると 言われている。",
+		'ja-jp': "風に 流されて 漂う。 野山に ハネッコが 集まり出すと 春が 訪れると 言われている。",
 	},
 
 	stage: "Basic",

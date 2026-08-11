@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [574],
 
 	name: {
-		en: "Gothita",
-		fr: "Scrutella",
-		es: "Gothita",
-		it: "Gothita",
-		pt: "Gothita",
-		de: "Mollimorba"
+		'en-us': "Gothita",
+		'fr-fr': "Scrutella",
+		'es-es': "Gothita",
+		'it-it': "Gothita",
+		'pt-br': "Gothita",
+		'de-de': "Mollimorba"
 	},
 
 	illustrator: "Mizue",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Fortunate Eye",
-				fr: "Regard Chanceux",
-				es: "Ojo Fortuito",
-				it: "Fortunocchio",
-				pt: "Olho da Sorte",
-				de: "Flüchtiger Glücksblick"
+				'en-us': "Fortunate Eye",
+				'fr-fr': "Regard Chanceux",
+				'es-es': "Ojo Fortuito",
+				'it-it': "Fortunocchio",
+				'pt-br': "Olho da Sorte",
+				'de-de': "Flüchtiger Glücksblick"
 			},
 			effect: {
-				en: "Look at the top 5 cards of your opponent's deck and put them back in any order.",
-				fr: "Regardez les 5 cartes du dessus du deck de votre adversaire, puis replacez-les dans l'ordre de votre choix.",
-				es: "Mira las 5 primeras cartas de la baraja de tu rival y vuelve a ponerlas en la parte superior de su baraja en el orden que quieras.",
-				it: "Guarda le prime cinque carte del mazzo del tuo avversario e rimettile a posto nell'ordine che preferisci.",
-				pt: "Olhe as 5 cartas de cima do baralho do seu oponente e coloque-as de volta em qualquer ordem.",
-				de: "Schau dir die obersten 5 Karten des Decks deines Gegners an und lege sie in beliebiger Reihenfolge zurück auf sein Deck."
+				'en-us': "Look at the top 5 cards of your opponent's deck and put them back in any order.",
+				'fr-fr': "Regardez les 5 cartes du dessus du deck de votre adversaire, puis replacez-les dans l'ordre de votre choix.",
+				'es-es': "Mira las 5 primeras cartas de la baraja de tu rival y vuelve a ponerlas en la parte superior de su baraja en el orden que quieras.",
+				'it-it': "Guarda le prime cinque carte del mazzo del tuo avversario e rimettile a posto nell'ordine che preferisci.",
+				'pt-br': "Olhe as 5 cartas de cima do baralho do seu oponente e coloque-as de volta em qualquer ordem.",
+				'de-de': "Schau dir die obersten 5 Karten des Decks deines Gegners an und lege sie in beliebiger Reihenfolge zurück auf sein Deck."
 			},
 
 		},
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gentle Slap",
-				fr: "Gifle Douce",
-				es: "Bofetada Gentil",
-				it: "Schiaffetto",
-				pt: "Tapinha",
-				de: "Sanfter Hieb"
+				'en-us': "Gentle Slap",
+				'fr-fr': "Gifle Douce",
+				'es-es': "Bofetada Gentil",
+				'it-it': "Schiaffetto",
+				'pt-br': "Tapinha",
+				'de-de': "Sanfter Hieb"
 			},
 
 			damage: 30,
@@ -86,7 +86,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Though they're still only babies, there's psychic power stored in their ribbonlike feelers, and sometimes they use that power to fight."
+		'en-us': "Though they're still only babies, there's psychic power stored in their ribbonlike feelers, and sometimes they use that power to fight."
 	},
 
 	variants: [

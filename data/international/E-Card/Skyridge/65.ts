@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Hoothoot",
-		de: "Hoothoot"
+		'en-us': "Hoothoot",
+		'de-de': "Hoothoot"
 	},
 
 	illustrator: "Hizuki Misono",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnosis",
-				de: "Hypnose"
+				'en-us': "Hypnosis",
+				'de-de': "Hypnose"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				de: "Das verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'de-de': "Das verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Eerie Light",
-				de: "Schauriges Licht"
+				'en-us': "Eerie Light",
+				'de-de': "Schauriges Licht"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},

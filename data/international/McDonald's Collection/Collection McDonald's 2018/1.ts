@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Feuillajou",
+		'fr-fr': "Feuillajou",
 	},
 
 	rarity: "None",
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				fr: "Fouet Lianes"
+				'fr-fr': "Fouet Lianes"
 			},
 			damage: 10
 		}

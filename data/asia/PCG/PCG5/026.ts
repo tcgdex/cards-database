@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウェイロード",
+		'ja-jp': "ウェイロード",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "反応性リフト",
+				'ja-jp': "反応性リフト",
 			},
 			effect: {
-				ja: "WailordにはReact Energy Cardsが付属している限り、Pokã©Mon（Pokã©Mon-Exを除く）のリトリートコストは0です。",
+				'ja-jp': "WailordにはReact Energy Cardsが付属している限り、Pokã©Mon（Pokã©Mon-Exを除く）のリトリートコストは0です。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Water", "Water", "Colorless"],
 			name: {
-				ja: "催眠術",
+				'ja-jp': "催眠術",
 			},
 			effect: {
-				ja: "防御ポケモンは今眠っています。",
+				'ja-jp': "防御ポケモンは今眠っています。",
 			},
 			damage: 40,
 		},
 		{
 			cost: ["Water", "Water", "Colorless", "Colorless"],
 			name: {
-				ja: "友達に頼ってください",
+				'ja-jp': "友達に頼ってください",
 			},
 			effect: {
-				ja: "40のダメージと、ベンチされたステージ1の各進化したポケモンに対してさらに10ダメージを与えます。",
+				'ja-jp': "40のダメージと、ベンチされたステージ1の各進化したポケモンに対してさらに10ダメージを与えます。",
 			},
 		},
 	],

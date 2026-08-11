@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Pignite",
-		fr: "Grotichon",
-		es: "Pignite",
-		it: "Pignite",
-		pt: "Pignite",
-		de: "Ferkokel"
+		'en-us': "Pignite",
+		'fr-fr': "Grotichon",
+		'es-es': "Pignite",
+		'it-it': "Pignite",
+		'pt-br': "Pignite",
+		'de-de': "Ferkokel"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tepig",
-		fr: "Gruikui",
+		'en-us': "Tepig",
+		'fr-fr': "Gruikui",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 30,
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Crash",
-				fr: "Tacle Feu",
-				es: "Golpe Calor",
-				it: "Marchiafuoco",
-				pt: "Choque de Calor",
-				de: "Brandstempel"
+				'en-us': "Heat Crash",
+				'fr-fr': "Tacle Feu",
+				'es-es': "Golpe Calor",
+				'it-it': "Marchiafuoco",
+				'pt-br': "Choque de Calor",
+				'de-de': "Brandstempel"
 			},
 
 			damage: 60,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "The more it eats, the more fuel it has to make the fire in its stomach stronger. This fills it with even more power.",
+		'en-us': "The more it eats, the more fuel it has to make the fire in its stomach stronger. This fills it with even more power.",
 	},
 
 	thirdParty: {

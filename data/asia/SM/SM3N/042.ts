@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポリゴン",
+		'ja-jp': "ポリゴン",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "およそ ２０年前に 当時の 科学力を 結集し 生みだされた 人工の ポケモン。",
+		'ja-jp': "およそ ２０年前に 当時の 科学力を 結集し 生みだされた 人工の ポケモン。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "コードチェック" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "ウラになっている相手のサイドを1枚選び、そのカードのオモテを見てから、もとにもどす。",
+				'ja-jp': "ウラになっている相手のサイドを1枚選び、そのカードのオモテを見てから、もとにもどす。",
 			},
 		},
 		{

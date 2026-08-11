@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM trainer Kit (Alolan Raichu)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spearow",
-		fr: "Piafabec",
-		es: "Spearow",
-		it: "Spearow",
-		pt: "Spearow",
-		de: "Habitak"
+		'en-us': "Spearow",
+		'fr-fr': "Piafabec",
+		'es-es': "Spearow",
+		'it-it': "Spearow",
+		'pt-br': "Spearow",
+		'de-de': "Habitak"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck Bugs"
+				'en-us': "Peck Bugs"
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is a Grass Pokémon, this attack does 30 more damage."
+				'en-us': "If your opponent's Active Pokémon is a Grass Pokémon, this attack does 30 more damage."
 			},
 			damage: "10+"
 		},

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Swoobat"
+		'id-id': "Swoobat"
 	},
 
 	illustrator: "Narumi Sato",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Kabarnya ada daerah yang memuja Swoobat sebagai simbol pemanggil kebahagiaan karena bentuk hidungnya dianggap membawa hoki."
+		'id-id': "Kabarnya ada daerah yang memuja Swoobat sebagai simbol pemanggil kebahagiaan karena bentuk hidungnya dianggap membawa hoki."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Gelombang Memesona"
+			'id-id': "Gelombang Memesona"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing. Jumlah Token Kerusakan yang diletakkan akibat kondisi Pusing ini adalah 6."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing. Jumlah Token Kerusakan yang diletakkan akibat kondisi Pusing ini adalah 6."
 		},
 
 		damage: 30,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Meowth",
-		fr: "Miaouss",
-		de: "Mauzi"
+		'en-us': "Meowth",
+		'fr-fr': "Miaouss",
+		'de-de': "Mauzi"
 	},
 
 	illustrator: 'Hironobu Yoshida',
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Scratch",
-				fr: "Double griffe",
-				de: "Double Scratch"
+				'en-us': "Double Scratch",
+				'fr-fr': "Double griffe",
+				'de-de': "Double Scratch"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10×",
 
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pay Day",
-				fr: "Jackpot",
-				de: "Pay Day"
+				'en-us': "Pay Day",
+				'fr-fr': "Jackpot",
+				'de-de': "Pay Day"
 			},
 			effect: {
-				en: "Flip a coin. If heads, draw a card.",
-				fr: "Lancez une pièce. Si c'est face, piochez une carte.",
-				de: "Flip a coin. If heads, draw a card."
+				'en-us': "Flip a coin. If heads, draw a card.",
+				'fr-fr': "Lancez une pièce. Si c'est face, piochez une carte.",
+				'de-de': "Flip a coin. If heads, draw a card."
 			},
 			damage: 10,
 

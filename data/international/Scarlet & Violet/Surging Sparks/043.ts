@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spheal",
-		fr: "Obalie",
-		es: "Spheal",
-		it: "Spheal",
-		pt: "Spheal",
-		de: "Seemops"
+		'en-us': "Spheal",
+		'fr-fr': "Obalie",
+		'es-es': "Spheal",
+		'it-it': "Spheal",
+		'pt-br': "Spheal",
+		'de-de': "Seemops"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Powder Snow",
-			fr: "Poudreuse",
-			es: "Nieve Polvo",
-			it: "Polneve",
-			pt: "Neve em Pó",
-			de: "Pulverschnee"
+			'en-us': "Powder Snow",
+			'fr-fr': "Poudreuse",
+			'es-es': "Nieve Polvo",
+			'it-it': "Polneve",
+			'pt-br': "Neve em Pó",
+			'de-de': "Pulverschnee"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 		},
 
 		damage: 10

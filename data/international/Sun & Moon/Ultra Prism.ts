@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sun & Moon'
 
 const sm5: Set = {
 	id: "sm5",
 
 	name: {
-		en: "Ultra Prism",
-		fr: "Ultra-Prisme",
-		es: "Ultraprisma",
-		it: "Ultraprisma",
-		de: "Ultra-Prisma",
-		pt: "Ultra Prisma"
+		'en-us': "Ultra Prism",
+		'fr-fr': "Ultra-Prisme",
+		'es-es': "Ultraprisma",
+		'it-it': "Ultraprisma",
+		'de-de': "Ultra-Prisma",
+		'pt-br': "Ultra Prisma"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const sm5: Set = {
 
 	abbreviations: {
 		official: "UPR",
-		fr: "UPR"
+		'fr-fr': "UPR"
 	},
 
 	thirdParty: {

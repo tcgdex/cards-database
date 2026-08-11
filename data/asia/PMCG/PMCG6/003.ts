@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジョバンニのニドラン♀",
+		'ja-jp': "ジョバンニのニドラン♀",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "ホーンスラスト",
+				'ja-jp': "ホーンスラスト",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ダブルエッジ",
+				'ja-jp': "ダブルエッジ",
 			},
 			effect: {
-				ja: "ジョバンニのニドランFは、それ自体に20のダメージを与えます。",
+				'ja-jp': "ジョバンニのニドランFは、それ自体に20のダメージを与えます。",
 			},
 			damage: 30,
 		},

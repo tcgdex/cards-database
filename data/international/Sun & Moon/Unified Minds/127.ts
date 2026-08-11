@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Alolan Grimer",
-		fr: "Tadmorv d’Alola",
-		es: "Grimer de Alola",
-		it: "Grimer di Alola",
-		pt: "Grimer de Alola",
-		de: "Alola-Sleima"
+		'en-us': "Alolan Grimer",
+		'fr-fr': "Tadmorv d’Alola",
+		'es-es': "Grimer de Alola",
+		'it-it': "Grimer di Alola",
+		'pt-br': "Grimer de Alola",
+		'de-de': "Alola-Sleima"
 	},
 
 	illustrator: "kawayoo",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Collect",
-				fr: "Collecte",
-				es: "Coleccionar",
-				it: "Tassa",
-				pt: "Coleta",
-				de: "Sammeln"
+				'en-us': "Collect",
+				'fr-fr': "Collecte",
+				'es-es': "Coleccionar",
+				'it-it': "Tassa",
+				'pt-br': "Coleta",
+				'de-de': "Sammeln"
 			},
 			effect: {
-				en: "Draw 2 cards.",
-				fr: "Piochez 2 cartes.",
-				es: "Roba 2 cartas.",
-				it: "Pesca due carte.",
-				pt: "Compre 2 cartas.",
-				de: "Ziehe 2 Karten."
+				'en-us': "Draw 2 cards.",
+				'fr-fr': "Piochez 2 cartes.",
+				'es-es': "Roba 2 cartas.",
+				'it-it': "Pesca due carte.",
+				'pt-br': "Compre 2 cartas.",
+				'de-de': "Ziehe 2 Karten."
 			},
 
 		},
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sludge Bomb",
-				fr: "Bomb-Beurk",
-				es: "Bomba Lodo",
-				it: "Fangobomba",
-				pt: "Bomba de Lodo",
-				de: "Matschbombe"
+				'en-us': "Sludge Bomb",
+				'fr-fr': "Bomb-Beurk",
+				'es-es': "Bomba Lodo",
+				'it-it': "Fangobomba",
+				'pt-br': "Bomba de Lodo",
+				'de-de': "Matschbombe"
 			},
 
 			damage: 30,
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "There are a hundred or so of them living in Alola's waste-disposal site. They're all hard workers who eat a lot of trash.",
+		'en-us': "There are a hundred or so of them living in Alola's waste-disposal site. They're all hard workers who eat a lot of trash.",
 	},
 
 	thirdParty: {

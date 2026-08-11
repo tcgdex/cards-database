@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Lure Ball",
-		de: "Köder Ball"
+		'en-us': "Lure Ball",
+		'de-de': "Köder Ball"
 	},
 
 	illustrator: "Katsura Tabata",
@@ -13,8 +13,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Flip 3 coins. For each heads, choose an Evolution card from your discard pile, show it to your opponent, and put it into your hand.",
-		de: "Wirf 3 Münzen. Bei jedem \"Kopf\" wähle eine Entwicklungskarte aus deinem Ablagestapel, zeige sie deinem Gegner und nimm sie auf deine Hand."
+		'en-us': "Flip 3 coins. For each heads, choose an Evolution card from your discard pile, show it to your opponent, and put it into your hand.",
+		'de-de': "Wirf 3 Münzen. Bei jedem \"Kopf\" wähle eine Entwicklungskarte aus deinem Ablagestapel, zeige sie deinem Gegner und nimm sie auf deine Hand."
 	},
 
 	variants: [

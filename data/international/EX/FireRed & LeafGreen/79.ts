@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Shellder",
-		fr: "Kokiyas",
-		de: "Muschas"
+		'en-us': "Shellder",
+		'fr-fr': "Kokiyas",
+		'de-de': "Muschas"
 	},
 
 	illustrator: "Aya Kusube",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Minimize",
-				fr: "Lilliput",
-				de: "Komprimator"
+				'en-us': "Minimize",
+				'fr-fr': "Lilliput",
+				'de-de': "Komprimator"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Shellder by attacks is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Lors du prochain tour de votre adversaire, les dégâts infligés à Kokiyas par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
-				de: "Aller Schaden, der Muschas während des nächsten Zuges deines Gegners durch Angriff zugefügt wird, wird um 20 Schadenspunkte reduziert (nach Verechnung von Schwäche und Resistenz.)"
+				'en-us': "During your opponent's next turn, any damage done to Shellder by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Lors du prochain tour de votre adversaire, les dégâts infligés à Kokiyas par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Aller Schaden, der Muschas während des nächsten Zuges deines Gegners durch Angriff zugefügt wird, wird um 20 Schadenspunkte reduziert (nach Verechnung von Schwäche und Resistenz.)"
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse vague",
-				de: "Wellenplatscher"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse vague",
+				'de-de': "Wellenplatscher"
 			},
 
 			damage: 10,

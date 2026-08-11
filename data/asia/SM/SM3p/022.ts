@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハリーセン",
+		'ja-jp': "ハリーセン",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "全身の 毒針を 飛ばすため １０リットルの 水を 一気に 飲みこみ 体を ふくらませる。",
+		'ja-jp': "全身の 毒針を 飛ばすため １０リットルの 水を 一気に 飲みこみ 体を ふくらませる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "どくばり" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが特殊状態なら、50ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが特殊状態なら、50ダメージ追加。",
 			},
 		},
 	],

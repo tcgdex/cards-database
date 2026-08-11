@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Cherrim",
-		fr: "Ceriflor",
-		es: "Cherrim",
-		it: "Cherrim",
-		pt: "Cherrim",
-		de: "Kinoso"
+		'en-us': "Cherrim",
+		'fr-fr': "Ceriflor",
+		'es-es': "Cherrim",
+		'it-it': "Cherrim",
+		'pt-br': "Cherrim",
+		'de-de': "Kinoso"
 	},
 
 	illustrator: "MAHOU",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cherubi",
-		fr: "Ceribou",
+		'en-us': "Cherubi",
+		'fr-fr': "Ceribou",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Weather Guard",
-				fr: "Protection Météo",
-				es: "Meteoroguardia",
-				it: "Meteodifesa",
-				pt: "Guarda do Clima",
-				de: "Wetterschutz"
+				'en-us': "Weather Guard",
+				'fr-fr': "Protection Météo",
+				'es-es': "Meteoroguardia",
+				'it-it': "Meteodifesa",
+				'pt-br': "Guarda do Clima",
+				'de-de': "Wetterschutz"
 			},
 			effect: {
-				en: "Your Grass Pokémon have no Weakness.",
-				fr: "Vos Pokémon Grass n’ont pas de Faiblesse.",
-				es: "Tus Pokémon Grass no tienen Debilidad.",
-				it: "I tuoi Pokémon Grass non hanno debolezza.",
-				pt: "Seus Pokémon Grass não têm Fraqueza.",
-				de: "Deine Grass-Pokémon haben keine Schwäche."
+				'en-us': "Your Grass Pokémon have no Weakness.",
+				'fr-fr': "Vos Pokémon Grass n’ont pas de Faiblesse.",
+				'es-es': "Tus Pokémon Grass no tienen Debilidad.",
+				'it-it': "I tuoi Pokémon Grass non hanno debolezza.",
+				'pt-br': "Seus Pokémon Grass não têm Fraqueza.",
+				'de-de': "Deine Grass-Pokémon haben keine Schwäche."
 			},
 		},
 	],
@@ -61,12 +61,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Seed Bomb",
-				fr: "Canon Graine",
-				es: "Bomba Germen",
-				it: "Semebomba",
-				pt: "Bomba de Sementes",
-				de: "Samenbomben"
+				'en-us': "Seed Bomb",
+				'fr-fr': "Canon Graine",
+				'es-es': "Bomba Germen",
+				'it-it': "Semebomba",
+				'pt-br': "Bomba de Sementes",
+				'de-de': "Samenbomben"
 			},
 
 			damage: 30,
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If it senses strong sunlight, it opens its folded petals to absorb the sun's rays with its whole body.",
+		'en-us': "If it senses strong sunlight, it opens its folded petals to absorb the sun's rays with its whole body.",
 	},
 
 	thirdParty: {

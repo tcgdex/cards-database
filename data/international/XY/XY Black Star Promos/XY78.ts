@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Latias",
-		fr: "Latias",
+		'en-us': "Latias",
+		'fr-fr': "Latias",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Eon Connection",
-				fr: "Connexion Éon",
+				'en-us': "Eon Connection",
+				'fr-fr': "Connexion Éon",
 			},
 			effect: {
-				en: "Draw a card. If Latios is on your Bench, draw 1 more card.",
-				fr: "Piochez une carte. Si Latios est sur votre Banc, piochez 1 carte supplémentaire.",
+				'en-us': "Draw a card. If Latios is on your Bench, draw 1 more card.",
+				'fr-fr': "Piochez une carte. Si Latios est sur votre Banc, piochez 1 carte supplémentaire.",
 			},
 
 		},
@@ -46,8 +46,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Speed Wing",
-				fr: "Ailes Vives"
+				'en-us': "Speed Wing",
+				'fr-fr': "Ailes Vives"
 			},
 
 			damage: 60,
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It can telepathically communicate with people. It changes its appearance using its down that refracts light.",
+		'en-us': "It can telepathically communicate with people. It changes its appearance using its down that refracts light.",
 	},
 
 	thirdParty: {

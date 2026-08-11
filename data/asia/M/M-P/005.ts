@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "あなあけスコップ",
+		'ja-jp': "あなあけスコップ",
 	},
 
 	illustrator: "Toyste Beach",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札を上から2枚トラッシュする。",
+		'ja-jp': "自分の山札を上から2枚トラッシュする。",
 	},
 
 	variants: [

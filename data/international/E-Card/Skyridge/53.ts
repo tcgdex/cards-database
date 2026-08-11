@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Dunsparce",
-		de: "Dummisel"
+		'en-us': "Dunsparce",
+		'de-de': "Dummisel"
 	},
 
 	illustrator: "Yuka Morii",
@@ -26,12 +26,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Slippery Skin",
-				de: "Glitschige Haut"
+				'en-us': "Slippery Skin",
+				'de-de': "Glitschige Haut"
 			},
 			effect: {
-				en: "As long as the Defending Pokémon is an Evolved Pokémon, Dunsparce's Retreat Cost is 0.",
-				de: "Solange das verteidigende Pokémon ein entwickeltes Pokémon ist, betragen Dummisels Rückzugskosten 0."
+				'en-us': "As long as the Defending Pokémon is an Evolved Pokémon, Dunsparce's Retreat Cost is 0.",
+				'de-de': "Solange das verteidigende Pokémon ein entwickeltes Pokémon ist, betragen Dummisels Rückzugskosten 0."
 			},
 		},
 	],
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Shake",
-				de: "Schweifwedeln"
+				'en-us': "Tail Shake",
+				'de-de': "Schweifwedeln"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				de: "Das verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'de-de': "Das verteidigende Pokémon schläft jetzt."
 			},
 			damage: 10,
 

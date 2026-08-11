@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Flamigo",
-		fr: "Flamenroule",
-		es: "Flamigo",
-		it: "Flamigo",
-		pt: "Flamigo",
-		de: "Flaminkno"
+		'en-us': "Flamigo",
+		'fr-fr': "Flamenroule",
+		'es-es': "Flamigo",
+		'it-it': "Flamigo",
+		'pt-br': "Flamigo",
+		'de-de': "Flaminkno"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Peck",
-			fr: "Picpic",
-			es: "Picotazo",
-			it: "Beccata",
-			pt: "Bicada",
-			de: "Pikser"
+			'en-us': "Peck",
+			'fr-fr': "Picpic",
+			'es-es': "Picotazo",
+			'it-it': "Beccata",
+			'pt-br': "Bicada",
+			'de-de': "Pikser"
 		},
 
 		damage: 30
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Combat Beak",
-			fr: "Bec Combatif",
-			es: "Pico Combate",
-			it: "Combattibecco",
-			pt: "Bico de Combate",
-			de: "Gefechtsschnabel"
+			'en-us': "Combat Beak",
+			'fr-fr': "Bec Combatif",
+			'es-es': "Pico Combate",
+			'it-it': "Combattibecco",
+			'pt-br': "Bico de Combate",
+			'de-de': "Gefechtsschnabel"
 		},
 
 		effect: {
-			en: "This attack does 20 more damage for each of your opponent's Benched Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chacun des Pokémon de Banc de votre adversaire.",
-			es: "Este ataque hace 20 puntos de daño más por cada uno de los Pokémon en Banca de tu rival.",
-			it: "Questo attacco infligge 20 danni in più per ogni Pokémon nella panchina del tuo avversario.",
-			pt: "Este ataque causa 20 pontos de dano a mais para cada Pokémon no Banco do seu oponente.",
-			de: "Diese Attacke fügt für jedes Pokémon auf der Bank deines Gegners 20 Schadenspunkte mehr zu."
+			'en-us': "This attack does 20 more damage for each of your opponent's Benched Pokémon.",
+			'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires pour chacun des Pokémon de Banc de votre adversaire.",
+			'es-es': "Este ataque hace 20 puntos de daño más por cada uno de los Pokémon en Banca de tu rival.",
+			'it-it': "Questo attacco infligge 20 danni in più per ogni Pokémon nella panchina del tuo avversario.",
+			'pt-br': "Este ataque causa 20 pontos de dano a mais para cada Pokémon no Banco do seu oponente.",
+			'de-de': "Diese Attacke fügt für jedes Pokémon auf der Bank deines Gegners 20 Schadenspunkte mehr zu."
 		},
 
 		damage: "20+"
@@ -73,7 +73,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "This Pokémon apparently ties the base of its neck into a knot so that energy stored in its belly does not escape from its beak.",
+		'en-us': "This Pokémon apparently ties the base of its neck into a knot so that energy stored in its belly does not escape from its beak.",
 	},
 
 	variants: [

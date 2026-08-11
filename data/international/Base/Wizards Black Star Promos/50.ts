@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Celebi",
+		'en-us': "Celebi",
 	},
 	illustrator: "Hajime Kusajima",
 	rarity: "Common",
@@ -28,10 +28,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leaf Slice",
+				'en-us': "Leaf Slice",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
 			},
 			damage: 20,
 

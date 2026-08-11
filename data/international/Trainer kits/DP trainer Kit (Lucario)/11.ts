@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../DP trainer Kit (Lucario)'
 
 const card: Card = {
 	name: {
-		en: "Fighting Energy",
-		fr: "Énergie Combat"
+		'en-us': "Fighting Energy",
+		'fr-fr': "Énergie Combat"
 	},
 	illustrator: "",
 	rarity: "None",

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Latios"
+		'id-id': "Latios"
 	},
 
 	illustrator: "chibi",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Latios memiliki kecerdasan tinggi dan dapat memahami bahasa manusia. Pokémon berhati lembut yang membenci pertikaian."
+		'id-id': "Latios memiliki kecerdasan tinggi dan dapat memahami bahasa manusia. Pokémon berhati lembut yang membenci pertikaian."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Melayang Rendah"
+			'id-id': "Melayang Rendah"
 		},
 
 		damage: 20,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Luster Purge"
+			'id-id': "Luster Purge"
 		},
 
 		effect: {
-			id: "Pilih 3 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
+			'id-id': "Pilih 3 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
 		},
 
 		damage: 180,

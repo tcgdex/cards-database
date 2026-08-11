@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Croagunk",
-		fr: "Cradopaud",
-		de: "Glibunkel"
+		'en-us': "Croagunk",
+		'fr-fr': "Cradopaud",
+		'de-de': "Glibunkel"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ghastly Sound",
-				fr: "Son affreux",
-				de: "Grässliche Geräusche"
+				'en-us': "Ghastly Sound",
+				'fr-fr': "Son affreux",
+				'de-de': "Grässliche Geräusche"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent can't play any Supporter cards from his or her hand during his or her next turn.",
-				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Supporter de sa main lors de son prochain tour.",
-				de: "Wirf 1 Münze. Bei 'Kopf' kann dein Gegner in seinem nächsten Zug keine Unterstützerkarten von seiner Hand spielen."
+				'en-us': "Flip a coin. If heads, your opponent can't play any Supporter cards from his or her hand during his or her next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Supporter de sa main lors de son prochain tour.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' kann dein Gegner in seinem nächsten Zug keine Unterstützerkarten von seiner Hand spielen."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Finger Poke",
-				fr: "Du bout du doigt",
-				de: "Fingerstubser"
+				'en-us': "Finger Poke",
+				'fr-fr': "Du bout du doigt",
+				'de-de': "Fingerstubser"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 			damage: 20,
 
@@ -72,8 +72,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers.",
-		fr: "Ses joues contiennent des glandes toxiques. Il attaque par surprise et utilise son toucher empoisonné."
+		'en-us': "Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers.",
+		'fr-fr': "Ses joues contiennent des glandes toxiques. Il attaque par surprise et utilise son toucher empoisonné."
 	},
 
 	thirdParty: {

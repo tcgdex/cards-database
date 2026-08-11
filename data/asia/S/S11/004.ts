@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キマワリ",
+		'ja-jp': "キマワリ",
 		'zh-tw': "向日花怪",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "暖かい 日差しが エネルギー。 太陽を 追いかけて 移動する 習性で 知られている。",
+		'ja-jp': "暖かい 日差しが エネルギー。 太陽を 追いかけて 移動する 習性で 知られている。",
 		'zh-tw': "溫暖的陽光就是牠的能量。以追著太陽移動的習性聞名。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "サンサンビーム",
+				'ja-jp': "サンサンビーム",
 				'zh-tw': "燦燦光束",
 			},
 			damage: "10+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "のぞむなら、自分の手札からエネルギーを3枚までトラッシュし、その枚数×70ダメージ追加。",
+				'ja-jp': "のぞむなら、自分の手札からエネルギーを3枚までトラッシュし、その枚数×70ダメージ追加。",
 				'zh-tw': "若希望，從自己的手牌將最多3張能量卡丟棄，增加其張數×70點傷害。",
 			},
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒマナッツ",
+		'ja-jp': "ヒマナッツ",
 	},
 
 	retreat: 2,

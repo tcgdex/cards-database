@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Shrouded Fable"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tapu Bulu",
-		fr: "Tokotoro",
-		es: "Tapu Bulu",
-		it: "Tapu Bulu",
-		pt: "Tapu Bulu",
-		de: "Kapu-Toro"
+		'en-us': "Tapu Bulu",
+		'fr-fr': "Tokotoro",
+		'es-es': "Tapu Bulu",
+		'it-it': "Tapu Bulu",
+		'pt-br': "Tapu Bulu",
+		'de-de': "Kapu-Toro"
 	},
 
 	rarity: "Illustration rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Wood Hammer",
-			fr: "Martobois",
-			es: "Mazazo",
-			it: "Mazzuolegno",
-			pt: "Martelo de Madeira",
-			de: "Holzhammer"
+			'en-us': "Wood Hammer",
+			'fr-fr': "Martobois",
+			'es-es': "Mazazo",
+			'it-it': "Mazzuolegno",
+			'pt-br': "Martelo de Madeira",
+			'de-de': "Holzhammer"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 220

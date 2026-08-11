@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Gastly"
+		'en-us': "Sabrina's Gastly"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -28,10 +28,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spook"
+				'en-us': "Spook"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn."
 			},
 			damage: 20,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エール団のしたっぱ",
+		'ja-jp': "エール団のしたっぱ",
 		'zh-tw': "萊希拉姆&噴火龍GX",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "相手の場のポケモンについているエネルギーを1個選び、相手の手札にもどす。",
+		'ja-jp': "相手の場のポケモンについているエネルギーを1個選び、相手の手札にもどす。",
 	},
 
 	variants: [

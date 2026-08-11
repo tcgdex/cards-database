@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ハロンタウン",
+		'ja-jp': "ハロンタウン",
 		'zh-tw': "化朗鎮",
 		'zh-cn': "化朗鎮"
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいの「ホップのポケモン」が使うワザの、相手のバトルポケモンへのダメージは「+30」される。",
+		'ja-jp': "おたがいの「ホップのポケモン」が使うワザの、相手のバトルポケモンへのダメージは「+30」される。",
 		'zh-tw': "雙方的「赫普的寶可夢」使用的招式，對對手的戰鬥寶可夢造成的傷害「+30」點。",
 		'zh-cn': "雙方的「赫普的寶可夢」使用的招式，對對手的戰鬥寶可夢造成的傷害「+30」點。"
 	},

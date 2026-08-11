@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Absol"
+		'id-id': "Absol"
 	},
 
 	illustrator: "Shinji Kanda",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Karena memiliki kemampuan untuk mendeteksi bahaya, orang salah sangka sehingga mengira Absol adalah Pokémon pembawa malapetaka."
+		'id-id': "Karena memiliki kemampuan untuk mendeteksi bahaya, orang salah sangka sehingga mengira Absol adalah Pokémon pembawa malapetaka."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Draw Sense"
+			'id-id': "Draw Sense"
 		},
 
 		effect: {
-			id: "Ambil kartu dari atas Deck hingga jumlah Kartu Pegangan sendiri menjadi 5 lembar. Sebelum mengambil kartu dari atas Deck, pemain dapat membuang sesukanya Kartu Pegangan sendiri ke Trash."
+			'id-id': "Ambil kartu dari atas Deck hingga jumlah Kartu Pegangan sendiri menjadi 5 lembar. Sebelum mengambil kartu dari atas Deck, pemain dapat membuang sesukanya Kartu Pegangan sendiri ke Trash."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Tebasan Diperkuat"
+			'id-id': "Tebasan Diperkuat"
 		},
 
 		effect: {
-			id: "Jika Pokémon ini mengenakan Pokémon Tool, kerusakan yang diberikan bertambah sejumlah 60."
+			'id-id': "Jika Pokémon ini mengenakan Pokémon Tool, kerusakan yang diberikan bertambah sejumlah 60."
 		},
 
 		damage: "20+",

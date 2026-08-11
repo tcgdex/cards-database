@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Sandygast",
-		th: "ซึนาบา"
+		'id-id': "Sandygast",
+		'th-th': "ซึนาบา"
 	},
 
 	illustrator: "Koji Nakata",
@@ -15,16 +15,16 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Sandygast membutakan mangsanya dengan pasir dan hendak mendekatinya pada kesempatan itu, tetapi mangsa tersebut melarikan diri karena pergerakan Pokémon ini lambat.",
-		th: "สาดทรายเข้าตาเหยื่อ แล้วอาศัยจังหวะนั้นขยับเข้าไปใกล้ ๆ แต่ เพราะเคลื่อนไหวช้าเหยื่อเลยมักหนีไปได้"
+		'id-id': "Sandygast membutakan mangsanya dengan pasir dan hendak mendekatinya pada kesempatan itu, tetapi mangsa tersebut melarikan diri karena pergerakan Pokémon ini lambat.",
+		'th-th': "สาดทรายเข้าตาเหยื่อ แล้วอาศัยจังหวะนั้นขยับเข้าไปใกล้ ๆ แต่ เพราะเคลื่อนไหวช้าเหยื่อเลยมักหนีไปได้"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Semburan Pasir",
-			th: "ละอองทราย"
+			'id-id': "Semburan Pasir",
+			'th-th': "ละอองทราย"
 		},
 
 		damage: 50,

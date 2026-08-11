@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マルヤクデVMAX",
+		'ja-jp': "マルヤクデVMAX",
 		'zh-tw': "焚焰蚣VMAX",
 	},
 
@@ -18,13 +18,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "キョダイヒャッカ",
+				'ja-jp': "キョダイヒャッカ",
 				'zh-tw': "超極巨百火焚野",
 			},
 			damage: "40+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[炎]エネルギーの数×40ダメージ追加。のぞむなら、ダメージを与えたあとに、自分のトラッシュから[炎]エネルギーを1枚選び、このポケモンにつける。",
+				'ja-jp': "このポケモンについている[炎]エネルギーの数×40ダメージ追加。のぞむなら、ダメージを与えたあとに、自分のトラッシュから[炎]エネルギーを1枚選び、このポケモンにつける。",
 				'zh-tw': "增加這隻寶可夢身上附加的【火】能量的數量×40點傷害。若希望，在造成傷害後，從自己的棄牌區選擇1張【火】能量卡，附於這隻寶可夢身上。",
 			},
 		},
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マルヤクデV",
+		'ja-jp': "マルヤクデV",
 	},
 
 	retreat: 3,

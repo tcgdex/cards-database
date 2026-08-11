@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Shrouded Fable"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cufant",
-		fr: "Charibari",
-		es: "Cufant",
-		it: "Cufant",
-		pt: "Cufant",
-		de: "Kupfanti"
+		'en-us': "Cufant",
+		'fr-fr': "Charibari",
+		'es-es': "Cufant",
+		'it-it': "Cufant",
+		'pt-br': "Cufant",
+		'de-de': "Kupfanti"
 	},
 
 	rarity: "Illustration rare",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 30
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Metal", "Metal", "Colorless"],
 
 		name: {
-			en: "Confront",
-			fr: "Confrontation",
-			es: "Confrontar",
-			it: "Confronto",
-			pt: "Confrontar",
-			de: "Konfrontieren"
+			'en-us': "Confront",
+			'fr-fr': "Confrontation",
+			'es-es': "Confrontar",
+			'it-it': "Confronto",
+			'pt-br': "Confrontar",
+			'de-de': "Konfrontieren"
 		},
 
 		damage: 70

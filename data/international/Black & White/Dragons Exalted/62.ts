@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Nosepass",
-		fr: "Tarinor",
-		es: "Nosepass",
-		it: "Nosepass",
-		pt: "Nosepass",
-		de: "Nasgnet"
+		'en-us': "Nosepass",
+		'fr-fr': "Tarinor",
+		'es-es': "Nosepass",
+		'it-it': "Nosepass",
+		'pt-br': "Nosepass",
+		'de-de': "Nasgnet"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Throw",
-				fr: "Jet-Pierres",
+				'en-us': "Rock Throw",
+				'fr-fr': "Jet-Pierres",
 			},
 
 			damage: 20,
@@ -54,7 +54,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When endangered, it may protect itself by raising its magnetism and drawing iron objects to its body.",
+		'en-us': "When endangered, it may protect itself by raising its magnetism and drawing iron objects to its body.",
 	},
 
 	thirdParty: {

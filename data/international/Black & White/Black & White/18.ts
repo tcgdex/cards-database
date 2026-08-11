@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Pignite",
-		fr: "Grotichon",
-		es: "Pignite",
-		it: "Pignite",
-		pt: "Pignite",
-		de: "Ferkokel"
+		'en-us': "Pignite",
+		'fr-fr': "Grotichon",
+		'es-es': "Pignite",
+		'it-it': "Pignite",
+		'pt-br': "Pignite",
+		'de-de': "Ferkokel"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tepig",
-		fr: "Gruikui",
+		'en-us': "Tepig",
+		'fr-fr': "Gruikui",
 	},
 
 	stage: "Stage1",
@@ -40,8 +40,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
 			},
 
 			damage: 20,
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-Flamme",
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-Flamme",
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon.",
 			},
 			damage: 70,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke.",
+		'en-us': "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke.",
 	},
 
 	thirdParty: {

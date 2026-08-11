@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVLN"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "マンタイン"
+		'ja-jp': "マンタイン"
 	},
 
 	illustrator: "satoma",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "泳いで スピードが のってくると 波の上に 飛びだし そのまま １００メートルも 滑空 する。"
+		'ja-jp': "泳いで スピードが のってくると 波の上に 飛びだし そのまま １００メートルも 滑空 する。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "スプラッシュ"
+			'ja-jp': "スプラッシュ"
 		},
 
 		damage: 30
@@ -32,11 +32,11 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			ja: "ウォーターダイブ"
+			'ja-jp': "ウォーターダイブ"
 		},
 
 		effect: {
-			ja: "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			'ja-jp': "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
 		}
 	}],
 

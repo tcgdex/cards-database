@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Klinklang",
-		fr: "Cliticlic",
-		es: "Klinklang",
-		it: "Klinklang",
-		pt: "Klinklang",
-		de: "Klikdiklak"
+		'en-us': "Klinklang",
+		'fr-fr': "Cliticlic",
+		'es-es': "Klinklang",
+		'it-it': "Klinklang",
+		'pt-br': "Klinklang",
+		'de-de': "Klikdiklak"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Klang",
-		fr: "Clic",
+		'en-us': "Klang",
+		'fr-fr': "Clic",
 	},
 
 	stage: "Stage2",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Charge Beam",
-				fr: "Rayon Chargé",
+				'en-us': "Charge Beam",
+				'fr-fr': "Rayon Chargé",
 			},
 			effect: {
-				en: "Attach an Energy card from your discard pile to this Pokémon.",
-				fr: "Attachez une carte Énergie de votre pile de défausse à ce Pokémon.",
+				'en-us': "Attach an Energy card from your discard pile to this Pokémon.",
+				'fr-fr': "Attachez une carte Énergie de votre pile de défausse à ce Pokémon.",
 			},
 			damage: 30,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Zap Cannon",
-				fr: "Élecanon",
+				'en-us': "Zap Cannon",
+				'fr-fr': "Élecanon",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon can't use Zap Cannon during your next turn.",
-				fr: "Lancez une pièce. Si c'est pile, ce Pokémon ne peut pas utiliser Élecanon pendant votre prochain tour.",
+				'en-us': "Flip a coin. If tails, this Pokémon can't use Zap Cannon during your next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, ce Pokémon ne peut pas utiliser Élecanon pendant votre prochain tour.",
 			},
 			damage: 80,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "The gear with the red core is rotated at high speed for a rapid energy charge.",
+		'en-us': "The gear with the red core is rotated at high speed for a rapid energy charge.",
 	},
 
 	thirdParty: {

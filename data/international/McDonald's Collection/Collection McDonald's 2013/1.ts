@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2013"
 
 const card: Card = {
 	name: {
-		fr: "Phyllali",
+		'fr-fr': "Phyllali",
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "None",
@@ -20,20 +20,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				fr: "Vive-Attaque",
+				'fr-fr': "Vive-Attaque",
 			},
 			effect: {
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: "10+",
 		},
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				fr: "Assistance Énergétique",
+				'fr-fr': "Assistance Énergétique",
 			},
 			effect: {
-				fr: "Attachez une carte Énergie de base de votre pile de défausse à I de vos Pokémon de Banc.",
+				'fr-fr': "Attachez une carte Énergie de base de votre pile de défausse à I de vos Pokémon de Banc.",
 			},
 			damage: 40,
 		},

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Goupix d'Alola",
+		'fr-fr': "Goupix d'Alola",
 	},
 
 	rarity: "None",
@@ -28,16 +28,16 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				fr: "Hurlement"
+				'fr-fr': "Hurlement"
 			},
 			effect: {
-				fr: "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc."
+				'fr-fr': "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc."
 			}
 		},
 		{
 			cost: ["Water"],
 			name: {
-				fr: "Verglas"
+				'fr-fr': "Verglas"
 			},
 			damage: 10,
 		},

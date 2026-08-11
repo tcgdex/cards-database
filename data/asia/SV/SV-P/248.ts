@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポケモンいれかえ",
+		'ja-jp': "ポケモンいれかえ",
 	},
 
 	illustrator: "Studio Bora Inc.",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のバトルポケモンをベンチポケモンと入れ替える。",
+		'ja-jp': "自分のバトルポケモンをベンチポケモンと入れ替える。",
 	},
 
 	variants: [

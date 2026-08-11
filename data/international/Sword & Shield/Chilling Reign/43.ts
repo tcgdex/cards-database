@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Inteleon",
-		fr: "Lézargus",
-		es: "Inteleon",
-		it: "Inteleon",
-		pt: "Inteleon",
-		de: "Intelleon"
+		'en-us': "Inteleon",
+		'fr-fr': "Lézargus",
+		'es-es': "Inteleon",
+		'it-it': "Inteleon",
+		'pt-br': "Inteleon",
+		'de-de': "Intelleon"
 	},
 
 	illustrator: "NC Empire",
@@ -21,44 +21,44 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Drizzile",
-		fr: "Arrozard",
-		es: "Drizzile",
-		it: "Drizzile",
-		pt: "Drizzile",
-		de: "Phlegleon"
+		'en-us': "Drizzile",
+		'fr-fr': "Arrozard",
+		'es-es': "Drizzile",
+		'it-it': "Drizzile",
+		'pt-br': "Drizzile",
+		'de-de': "Phlegleon"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			en: "Quick Shooting",
-			fr: "Tir Rapide",
-			es: "Disparo Rápido",
-			it: "Tiro Istantaneo",
-			pt: "Gatilho Rápido",
-			de: "Schnellschütze"
+			'en-us': "Quick Shooting",
+			'fr-fr': "Tir Rapide",
+			'es-es': "Disparo Rápido",
+			'it-it': "Tiro Istantaneo",
+			'pt-br': "Gatilho Rápido",
+			'de-de': "Schnellschütze"
 		},
 
 		effect: {
-			en: "Once during your turn, you may put 2 damage counters on 1 of your opponent's Pokémon.",
-			fr: "Une fois pendant votre tour, vous pouvez placer 2 marqueurs de dégâts sur l'un des Pokémon de votre adversaire.",
-			es: "Una vez durante tu turno, puedes poner 2 contadores de daño en 1 de los Pokémon de tu rival.",
-			it: "Una sola volta durante il tuo turno, puoi mettere due segnalini danno su uno dei Pokémon del tuo avversario.",
-			pt: "Uma vez durante o seu turno, você poderá colocar 2 contadores de dano em 1 dos Pokémon do seu oponente.",
-			de: "Einmal während deines Zuges kannst du 2 Schadensmarken auf 1 Pokémon deines Gegners legen."
+			'en-us': "Once during your turn, you may put 2 damage counters on 1 of your opponent's Pokémon.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez placer 2 marqueurs de dégâts sur l'un des Pokémon de votre adversaire.",
+			'es-es': "Una vez durante tu turno, puedes poner 2 contadores de daño en 1 de los Pokémon de tu rival.",
+			'it-it': "Una sola volta durante il tuo turno, puoi mettere due segnalini danno su uno dei Pokémon del tuo avversario.",
+			'pt-br': "Uma vez durante o seu turno, você poderá colocar 2 contadores de dano em 1 dos Pokémon do seu oponente.",
+			'de-de': "Einmal während deines Zuges kannst du 2 Schadensmarken auf 1 Pokémon deines Gegners legen."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Waterfall",
-			fr: "Cascade",
-			es: "Cascada",
-			it: "Cascata",
-			pt: "Cachoeira",
-			de: "Kaskade"
+			'en-us': "Waterfall",
+			'fr-fr': "Cascade",
+			'es-es': "Cascada",
+			'it-it': "Cascata",
+			'pt-br': "Cachoeira",
+			'de-de': "Kaskade"
 		},
 
 		damage: 70,
@@ -77,7 +77,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "Its nictitating membranes let it pick out foes' weak points so it can precisely blast them with water that shoots from its fingertips at Mach 3."
+		'en-us': "Its nictitating membranes let it pick out foes' weak points so it can precisely blast them with water that shoots from its fingertips at Mach 3."
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Anorith",
-		fr: "Anorith",
-		de: "Anorith"
+		'en-us': "Anorith",
+		'fr-fr': "Anorith",
+		'de-de': "Anorith"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Claw Fossil",
-		fr: "Fossile griffe"
+		'en-us': "Claw Fossil",
+		'fr-fr': "Fossile griffe"
 	},
 
 	stage: "Stage1",
@@ -34,9 +34,9 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 20,
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Scratch",
-				fr: "Double écorchure",
-				de: "Doppelkratzer"
+				'en-us': "Double Scratch",
+				'fr-fr': "Double écorchure",
+				'de-de': "Doppelkratzer"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
-				fr: "Lancez deux pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				'en-us': "Flip 2 coins. This attack does 40 damage times the number of heads.",
+				'fr-fr': "Lancez deux pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de face.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
 			damage: "40×",
 

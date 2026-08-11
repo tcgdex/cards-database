@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ネイティオ",
+		'ja-jp': "ネイティオ",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "未来を 予知する 力が あるが 未来を 変えるほどの 力は 持っていないと いわれる ポケモン。",
+		'ja-jp': "未来を 予知する 力が あるが 未来を 変えるほどの 力は 持っていないと いわれる ポケモン。",
 	},
 
 	stage: "Stage1",
@@ -23,14 +23,14 @@ const card: Card = {
 			name: { ja: "ぶきみなかぜ" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 		{
 			name: { ja: "ライフダウン" },
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンの残りHPが「10」になるように、ダメカンをのせる。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンの残りHPが「10」になるように、ダメカンをのせる。",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ネイティ",
+		'ja-jp': "ネイティ",
 	},
 
 	retreat: 2,

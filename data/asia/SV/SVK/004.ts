@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVK"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "かがやくゲッコウガ"
+		'ja-jp': "かがやくゲッコウガ"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -18,11 +18,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "かくしふだ"
+			'ja-jp': "かくしふだ"
 		},
 
 		effect: {
-			ja: "自分の番に、自分の手札からエネルギーを1枚トラッシュするなら、1回使える。自分の山札を2枚引く。"
+			'ja-jp': "自分の番に、自分の手札からエネルギーを1枚トラッシュするなら、1回使える。自分の山札を2枚引く。"
 		}
 	}],
 
@@ -30,11 +30,11 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			ja: "げっこうしゅりけん"
+			'ja-jp': "げっこうしゅりけん"
 		},
 
 		effect: {
-			ja: "このポケモンについているエネルギーを2個トラッシュし、相手のポケモン2匹に、それぞれ90ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			'ja-jp': "このポケモンについているエネルギーを2個トラッシュし、相手のポケモン2匹に、それぞれ90ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
 		}
 	}],
 

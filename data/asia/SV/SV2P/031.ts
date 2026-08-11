@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ゴチム",
+		'ja-jp': "ゴチム",
 		'zh-tw': "哥德寶寶",
-		th: "โกธิมู",
-		id: "Gothita"
+		'th-th': "โกธิมู",
+		'id-id': "Gothita"
 	},
 
 	illustrator: "0313",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "いつもは とっても 無邪気。 見えない なにかを 見ているときは 瞬きも せずに ずっと 無言。",
+		'ja-jp': "いつもは とっても 無邪気。 見えない なにかを 見ているときは 瞬きも せずに ずっと 無言。",
 		'zh-tw': "總是一副天真無邪的樣子。看見肉眼看不見的東西時， 就會眼都不眨地一語不發。",
-		th: "ปกติดูไร้เดียงสามาก ตอนที่มองดูอะไรที่มองไม่เห็นอยู่จะนิ่งเงียบ ไม่แม้แต่จะกะพริบตา",
-		id: "Biasanya Gothita bertingkah sangat polos. Pokémon ini akan terus diam tanpa berkedip saat melihat sesuatu yang tak kasat mata."
+		'th-th': "ปกติดูไร้เดียงสามาก ตอนที่มองดูอะไรที่มองไม่เห็นอยู่จะนิ่งเงียบ ไม่แม้แต่จะกะพริบตา",
+		'id-id': "Biasanya Gothita bertingkah sangat polos. Pokémon ini akan terus diam tanpa berkedip saat melihat sesuatu yang tak kasat mata."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "はたく",
+			'ja-jp': "はたく",
 			'zh-tw': "拍擊",
-			th: "ปัด",
-			id: "Tumbuk"
+			'th-th': "ปัด",
+			'id-id': "Tumbuk"
 		},
 
 		damage: 10
@@ -42,19 +42,19 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "ぶきみなねんぱ",
+			'ja-jp': "ぶきみなねんぱ",
 			'zh-tw': "不祥波動",
-			th: "คลื่นแปลกประหลาด",
-			id: "Telepati Menyeramkan"
+			'th-th': "คลื่นแปลกประหลาด",
+			'id-id': "Telepati Menyeramkan"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "相手のバトルポケモンをこんらんにする。",
+			'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			'zh-tw': "將對手的戰鬥寶可夢【混亂】。",
-			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[สับสน]",
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
+			'th-th': "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[สับสน]",
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
 		}
 	}],
 

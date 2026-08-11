@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Octillery",
-		fr: "Octillery",
-		es: "Octillery",
-		it: "Octillery",
-		pt: "Octillery",
-		de: "Octillery"
+		'en-us': "Octillery",
+		'fr-fr': "Octillery",
+		'es-es': "Octillery",
+		'it-it': "Octillery",
+		'pt-br': "Octillery",
+		'de-de': "Octillery"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Remoraid",
-		fr: "Rémoraid",
-		es: "Remoraid",
-		it: "Remoraid",
-		pt: "Remoraid",
-		de: "Remoraid"
+		'en-us': "Remoraid",
+		'fr-fr': "Rémoraid",
+		'es-es': "Remoraid",
+		'it-it': "Remoraid",
+		'pt-br': "Remoraid",
+		'de-de': "Remoraid"
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Abyssal Hand",
-				fr: "Main Abyssale",
-				es: "Mano Abismal",
-				it: "Manoabissale",
-				pt: "Mão Abissal",
-				de: "Abgrundtiefe Hand"
+				'en-us': "Abyssal Hand",
+				'fr-fr': "Main Abyssale",
+				'es-es': "Mano Abismal",
+				'it-it': "Manoabissale",
+				'pt-br': "Mão Abissal",
+				'de-de': "Abgrundtiefe Hand"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may draw cards until you have 5 cards in your hand.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez piocher des cartes jusqu'à ce que vous ayez 5 cartes en main.",
-				es: "Una vez durante tu turno (antes de tu ataque), puedes robar cartas hasta que tengas 5 cartas en tu mano.",
-				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi pescare fino ad avere cinque carte in mano.",
-				pt: "Uma vez durante sua vez de jogar (antes de atacar), você poderá comprar cards até ter 5 cards na mão.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du so viele Karten ziehen, bis du 5 Karten auf der Hand hast."
+				'en-us': "Once during your turn (before your attack), you may draw cards until you have 5 cards in your hand.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez piocher des cartes jusqu'à ce que vous ayez 5 cartes en main.",
+				'es-es': "Una vez durante tu turno (antes de tu ataque), puedes robar cartas hasta que tengas 5 cartas en tu mano.",
+				'it-it': "Una sola volta durante il tuo turno, prima di attaccare, puoi pescare fino ad avere cinque carte in mano.",
+				'pt-br': "Uma vez durante sua vez de jogar (antes de atacar), você poderá comprar cards até ter 5 cards na mão.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du so viele Karten ziehen, bis du 5 Karten auf der Hand hast."
 			},
 		},
 	],
@@ -67,20 +67,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hug",
-				fr: "Câlin",
-				es: "Abrazo",
-				it: "Abbraccio",
-				pt: "Abraço",
-				de: "Hug"
+				'en-us': "Hug",
+				'fr-fr': "Câlin",
+				'es-es': "Abrazo",
+				'it-it': "Abbraccio",
+				'pt-br': "Abraço",
+				'de-de': "Hug"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
-				es: "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
-				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-				pt: "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
-				de: "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'es-es': "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
+				'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+				'pt-br': "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
+				'de-de': "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 40,
 
@@ -97,7 +97,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It traps foes with the suction cups on its tentacles, then smashes them with its rock-hard head.",
+		'en-us': "It traps foes with the suction cups on its tentacles, then smashes them with its rock-hard head.",
 	},
 
 	thirdParty: {

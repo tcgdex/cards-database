@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Houndour",
-		fr: "Malosse de Team Magma",
-		de: "Team Magmas Hunduster"
+		'en-us': "Team Magma's Houndour",
+		'fr-fr': "Malosse de Team Magma",
+		'de-de': "Team Magmas Hunduster"
 	},
 
 	illustrator: "Atsuko Ujiie",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Singe",
-				fr: "Roussir",
-				de: "Singe"
+				'en-us': "Singe",
+				'fr-fr': "Roussir",
+				'de-de': "Singe"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Burned."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Burned."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Shock",
-				fr: "Sombre choc",
-				de: "Dark Shock"
+				'en-us': "Dark Shock",
+				'fr-fr': "Sombre choc",
+				'de-de': "Dark Shock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 

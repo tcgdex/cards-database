@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホッピップ",
+		'ja-jp': "ホッピップ",
 	},
 
 	rarity: "Common",
@@ -17,10 +17,10 @@ const card: Card = {
 	abilities: [
 		{
 			name: {
-				ja: "軽量",
+				'ja-jp': "軽量",
 			},
 			effect: {
-				ja: "あなたはそれに取り付けられた各草のエネルギーについてホッピップを後退させるために無色の少ない支払いをします。",
+				'ja-jp': "あなたはそれに取り付けられた各草のエネルギーについてホッピップを後退させるために無色の少ない支払いをします。",
 			},
 		}],
 
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "不注意なタックル",
+				'ja-jp': "不注意なタックル",
 			},
 			effect: {
-				ja: "Hoppipはそれ自体に10ダメージを与えます。",
+				'ja-jp': "Hoppipはそれ自体に10ダメージを与えます。",
 			},
 			damage: 20,
 		},

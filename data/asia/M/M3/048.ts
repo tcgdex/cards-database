@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴースト",
+		'ja-jp': "ゴースト",
 	},
 
 	illustrator: "Kedamahadaitai Yawarakai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "ガス状の 舌で なめられると 魂を 取られてしまう。 闇に 隠れて 獲物を 狙う。",
+		'ja-jp': "ガス状の 舌で なめられると 魂を 取られてしまう。 闇に 隠れて 獲物を 狙う。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "ゴース",
+		'ja-jp': "ゴース",
 	},
 
 	retreat: 1,

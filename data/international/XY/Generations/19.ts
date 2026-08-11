@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Shellder",
-		fr: "Kokiyas",
+		'en-us': "Shellder",
+		'fr-fr': "Kokiyas",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -31,8 +31,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rain Splash",
-				fr: "Pluie Éclaboussante",
+				'en-us': "Rain Splash",
+				'fr-fr': "Pluie Éclaboussante",
 			},
 
 			damage: 20,
@@ -50,7 +50,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.",
+		'en-us': "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.",
 	},
 
 	thirdParty: {

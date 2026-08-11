@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガルーラ",
+		'ja-jp': "ガルーラ",
 	},
 
 	illustrator: "Mékayu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "子どもの いない ガルーラが 遭難した 人間の 子を 育てていたという 記録がある。",
+		'ja-jp': "子どもの いない ガルーラが 遭難した 人間の 子を 育てていたという 記録がある。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "90×",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数×90ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数×90ダメージ。",
 			},
 		},
 	],

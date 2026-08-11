@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Kingdra ex",
-		fr: "Hyporoi ex",
-		de: "Seedraking ex"
+		'en-us': "Kingdra ex",
+		'fr-fr': "Hyporoi ex",
+		'de-de': "Seedraking ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Seadra",
-		fr: "Hypocéan"
+		'en-us': "Seadra",
+		'fr-fr': "Hypocéan"
 	},
 
 	suffix: "ex",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Genetic Memory",
-				fr: "Mémoire Génétique",
-				de: "Genetic Memory"
+				'en-us': "Genetic Memory",
+				'fr-fr': "Mémoire Génétique",
+				'de-de': "Genetic Memory"
 			},
 			effect: {
-				en: "Use any attack from Kingdra ex's Basic Pokémon card or Stage 1 Evolution card. (Kingdra ex doesn't have to pay for that attack's Energy cost.)",
-				fr: "Utilisez n'importe quelle attaque de la carte Pokémon de base ou de la carte Évolution Niveau 1 d'Hyporoi ex. (Hyporoi ex ne paye pas le Coût en Énergie de cette attaque).",
-				de: "Use any attack from Kindra ex's Basic Pokémon card or Stage 1 Evolution card. (Kindra ex doesn't have to pay for that attack's Energy cost.)"
+				'en-us': "Use any attack from Kingdra ex's Basic Pokémon card or Stage 1 Evolution card. (Kingdra ex doesn't have to pay for that attack's Energy cost.)",
+				'fr-fr': "Utilisez n'importe quelle attaque de la carte Pokémon de base ou de la carte Évolution Niveau 1 d'Hyporoi ex. (Hyporoi ex ne paye pas le Coût en Énergie de cette attaque).",
+				'de-de': "Use any attack from Kindra ex's Basic Pokémon card or Stage 1 Evolution card. (Kindra ex doesn't have to pay for that attack's Energy cost.)"
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydrocannon",
-				fr: "Canon à O",
-				de: "Hydrocannon"
+				'en-us': "Hydrocannon",
+				'fr-fr': "Canon à O",
+				'de-de': "Hydrocannon"
 			},
 			effect: {
-				en: "Does 50 damage plus 20 more damage for each Water Energy attached to Kingdra ex but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way.",
-				fr: "Inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie  attachée à Hyporoi ex qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 40 dégâts de cette façon.",
-				de: "Does 50 damage plus 20 more damage for each  Energy attached to Kindra ex but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way."
+				'en-us': "Does 50 damage plus 20 more damage for each Water Energy attached to Kingdra ex but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way.",
+				'fr-fr': "Inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie  attachée à Hyporoi ex qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 40 dégâts de cette façon.",
+				'de-de': "Does 50 damage plus 20 more damage for each  Energy attached to Kindra ex but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way."
 			},
 			damage: "50+",
 

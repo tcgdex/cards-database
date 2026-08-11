@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "M Blastoise EX",
-		fr: "M-Tortank-EX",
+		'en-us': "M Blastoise EX",
+		'fr-fr': "M-Tortank-EX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Blastoise-EX",
-		fr: "Tortank-EX",
+		'en-us': "Blastoise-EX",
+		'fr-fr': "Tortank-EX",
 	},
 
 	stage: "MEGA",
@@ -38,12 +38,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dread Launcher",
-				fr: "Lanceur d'Effroi",
+				'en-us': "Dread Launcher",
+				'fr-fr': "Lanceur d'Effroi",
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard 2 Water Energy attached to this Pokémon.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez 2 Énergies Water attachées à ce Pokémon.",
+				'en-us': "Flip a coin. If tails, discard 2 Water Energy attached to this Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez 2 Énergies Water attachées à ce Pokémon.",
 			},
 			damage: 180,
 

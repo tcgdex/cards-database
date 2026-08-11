@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Doduo",
-		fr: "Doduo",
-		de: "Dodu"
+		'en-us': "Doduo",
+		'fr-fr': "Doduo",
+		'de-de': "Dodu"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Speed",
-				fr: "Super vitesse",
-				de: "Super-Geschwindigkeit"
+				'en-us': "Super Speed",
+				'fr-fr': "Super vitesse",
+				'de-de': "Super-Geschwindigkeit"
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Doduo.",
-				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Doduo.",
-				de: "Wirf eine Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alls Effekte von Angriffen (einschließlich Schaden), die Dodu zugefügt werden."
+				'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Doduo.",
+				'fr-fr': "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Doduo.",
+				'de-de': "Wirf eine Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alls Effekte von Angriffen (einschließlich Schaden), die Dodu zugefügt werden."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rear Kick",
-				fr: "Ruade",
-				de: "Rückwärtskick"
+				'en-us': "Rear Kick",
+				'fr-fr': "Ruade",
+				'de-de': "Rückwärtskick"
 			},
 
 			damage: 20,

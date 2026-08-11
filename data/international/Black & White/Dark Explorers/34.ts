@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Vanillish",
-		fr: "Sorboul",
-		es: "Vanillish",
-		it: "Vanillish",
-		pt: "Vanillish",
-		de: "Gelatroppo"
+		'en-us': "Vanillish",
+		'fr-fr': "Sorboul",
+		'es-es': "Vanillish",
+		'it-it': "Vanillish",
+		'pt-br': "Vanillish",
+		'de-de': "Gelatroppo"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vanillite",
-		fr: "Sorbébé"
+		'en-us': "Vanillite",
+		'fr-fr': "Sorbébé"
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Triple Spin",
-				fr: "Triple Tour"
+				'en-us': "Triple Spin",
+				'fr-fr': "Triple Tour"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
+				'en-us': "Flip 3 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
 			},
 			damage: 20,
 
@@ -56,8 +56,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Frost Breath",
-				fr: "SouffleGlacé"
+				'en-us': "Frost Breath",
+				'fr-fr': "SouffleGlacé"
 			},
 
 			damage: 50,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Snowy mountains are this Pokémon's habitat. During an ancient ice age, they moved to southern areas.",
+		'en-us': "Snowy mountains are this Pokémon's habitat. During an ancient ice age, they moved to southern areas.",
 	},
 
 	thirdParty: {

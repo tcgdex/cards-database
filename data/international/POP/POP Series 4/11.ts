@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 4'
 
 const card: Card = {
 	name: {
-		en: "Mudkip",
-		fr: "Gobou"
+		'en-us': "Mudkip",
+		'fr-fr': "Gobou"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Hypno Wave",
-				fr: "Super hypnovague"
+				'en-us': "Super Hypno Wave",
+				'fr-fr': "Super hypnovague"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi."
 			},
 			damage: 20,
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Raichu",
-		fr: "Raichu",
-		de: "Raichu"
+		'en-us': "Raichu",
+		'fr-fr': "Raichu",
+		'de-de': "Raichu"
 	},
 
 	illustrator: "Masako Yamashita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pikachu",
-		fr: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thundershock",
-				fr: "Éclair",
-				de: "Thundershock"
+				'en-us': "Thundershock",
+				'fr-fr': "Éclair",
+				'de-de': "Thundershock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 
@@ -57,15 +57,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Lightning Strike",
-				fr: "Frap'éclair",
-				de: "Lightning Strike"
+				'en-us': "Lightning Strike",
+				'fr-fr': "Frap'éclair",
+				'de-de': "Lightning Strike"
 			},
 
 			effect: {
-				en: "You may discard all Energy cards attached to Raichu. If you do, this attack does 80 damage.",
-				fr: "Vous pouvez défausser toutes les cartes Énergie  attachées à Raichu. Si vous le faites, cette attaque inflige 80 dégâts.",
-				de: "You may discard all @energie cards attached to Raichu. If you do, this attack does 80 damage."
+				'en-us': "You may discard all Energy cards attached to Raichu. If you do, this attack does 80 damage.",
+				'fr-fr': "Vous pouvez défausser toutes les cartes Énergie  attachées à Raichu. Si vous le faites, cette attaque inflige 80 dégâts.",
+				'de-de': "You may discard all @energie cards attached to Raichu. If you do, this attack does 80 damage."
 			},
 
 			damage: 40
@@ -82,8 +82,8 @@ const card: Card = {
 
 
 	description: {
-		en: "If the electric pouches in its cheeks become fully charged, both ears will stand straight up.",
-		fr: "Si les poches électriques de ses joues sont complètement chargées, ses deux oreilles se dressent sur sa tête."
+		'en-us': "If the electric pouches in its cheeks become fully charged, both ears will stand straight up.",
+		'fr-fr': "Si les poches électriques de ses joues sont complètement chargées, ses deux oreilles se dressent sur sa tête."
 	},
 
 

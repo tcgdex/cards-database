@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drapion VSTAR",
-		fr: "Drascore VSTAR",
-		es: "Drapion V-ASTRO",
-		it: "Drapion V ASTRO",
-		pt: "Drapion V-ASTRO",
-		de: "Piondragi VSTAR"
+		'en-us': "Drapion VSTAR",
+		'fr-fr': "Drascore VSTAR",
+		'es-es': "Drapion V-ASTRO",
+		'it-it': "Drapion V ASTRO",
+		'pt-br': "Drapion V-ASTRO",
+		'de-de': "Piondragi VSTAR"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Drapion V",
-		fr: "Drascore-V",
-		es: "Drapion V",
-		it: "Drapion-V",
-		pt: "Drapion V",
-		de: "Piondragi-V"
+		'en-us': "Drapion V",
+		'fr-fr': "Drascore-V",
+		'es-es': "Drapion V",
+		'it-it': "Drapion-V",
+		'pt-br': "Drapion V",
+		'de-de': "Piondragi-V"
 	},
 
 	stage: "VSTAR",
@@ -36,21 +36,21 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Big Bang Arm",
-			fr: "Bras Big Bang",
-			es: "Brazo Big Bang",
-			it: "Braccio Big Bang",
-			pt: "Braço Big Bang",
-			de: "Urknall-Arm"
+			'en-us': "Big Bang Arm",
+			'fr-fr': "Bras Big Bang",
+			'es-es': "Brazo Big Bang",
+			'it-it': "Braccio Big Bang",
+			'pt-br': "Braço Big Bang",
+			'de-de': "Urknall-Arm"
 		},
 
 		effect: {
-			en: "This attack does 10 less damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 10 dégâts de moins pour chaque marqueur de dégâts sur ce Pokémon.",
-			es: "Este ataque hace 10 puntos de daño menos por cada contador de daño en este Pokémon.",
-			it: "Questo attacco infligge 10 danni in meno per ogni segnalino danno presente su questo Pokémon.",
-			pt: "Este ataque causa 10 pontos de dano a menos para cada contador de dano neste Pokémon.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte weniger zu."
+			'en-us': "This attack does 10 less damage for each damage counter on this Pokémon.",
+			'fr-fr': "Cette attaque inflige 10 dégâts de moins pour chaque marqueur de dégâts sur ce Pokémon.",
+			'es-es': "Este ataque hace 10 puntos de daño menos por cada contador de daño en este Pokémon.",
+			'it-it': "Questo attacco infligge 10 danni in meno per ogni segnalino danno presente su questo Pokémon.",
+			'pt-br': "Este ataque causa 10 pontos de dano a menos para cada contador de dano neste Pokémon.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte weniger zu."
 		},
 
 		damage: "250-"

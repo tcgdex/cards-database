@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 6'
 
 const card: Card = {
 	name: {
-		en: "Pachirisu",
-		fr: "Pachirisu"
+		'en-us': "Pachirisu",
+		'fr-fr': "Pachirisu"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Minor Errand-Running",
-				fr: "Rendez-vous mineur"
+				'en-us': "Minor Errand-Running",
+				'fr-fr': "Rendez-vous mineur"
 			},
 			effect: {
-				en: "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une Carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck."
+				'en-us': "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck une Carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck."
 			},
 
 		},
@@ -42,12 +42,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunder Jolt",
-				fr: "Secousse tonnerre"
+				'en-us': "Thunder Jolt",
+				'fr-fr': "Secousse tonnerre"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Pachirisu does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Pachirisu s'inflige 10 dégâts."
+				'en-us': "Flip a coin. If tails, Pachirisu does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Pachirisu s'inflige 10 dégâts."
 			},
 			damage: 20,
 
@@ -67,7 +67,7 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes."
+		'en-us': "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes."
 	},
 
 	retreat: 1,

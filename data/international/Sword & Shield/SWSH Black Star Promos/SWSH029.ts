@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rayquaza",
-		fr: "Rayquaza",
-		es: "Rayquaza",
-		pt: "Rayquaza",
-		de: "Rayquaza",
-		it: "Rayquaza"
+		'en-us': "Rayquaza",
+		'fr-fr': "Rayquaza",
+		'es-es': "Rayquaza",
+		'pt-br': "Rayquaza",
+		'de-de': "Rayquaza",
+		'it-it': "Rayquaza"
 	},
 
 	illustrator: "so-taro",
@@ -21,42 +21,42 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Jaw Lock",
-			fr: "Croque Fort",
-			es: "Presa Maxilar",
-			pt: "Trava de Mandíbula",
-			de: "Fesselbiss",
-			it: "Morsostretto"
+			'en-us': "Jaw Lock",
+			'fr-fr': "Croque Fort",
+			'es-es': "Presa Maxilar",
+			'pt-br': "Trava de Mandíbula",
+			'de-de': "Fesselbiss",
+			'it-it': "Morsostretto"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
-			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
-			es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
-			pt: "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar.",
-			de: "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen.",
-			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi."
+			'en-us': "During your opponent's next turn, the Defending Pokémon can't retreat.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
+			'es-es': "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
+			'pt-br': "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar.",
+			'de-de': "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen.",
+			'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi."
 		},
 
 		damage: 30,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Power Blast",
-			fr: "Violente Déflagration",
-			es: "Estallido Vigoroso",
-			pt: "Explosão Poderosa",
-			de: "Powerschuss",
-			it: "Forzacolpo"
+			'en-us': "Power Blast",
+			'fr-fr': "Violente Déflagration",
+			'es-es': "Estallido Vigoroso",
+			'pt-br': "Explosão Poderosa",
+			'de-de': "Powerschuss",
+			'it-it': "Forzacolpo"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			pt: "Descarte 1 Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
-			it: "Scarta un'Energia da questo Pokémon."
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'pt-br': "Descarte 1 Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+			'it-it': "Scarta un'Energia da questo Pokémon."
 		},
 
 		damage: 120,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it."
+		'en-us': "It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it."
 	},
 
 	stage: "Basic",

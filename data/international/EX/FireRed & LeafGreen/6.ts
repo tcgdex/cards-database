@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Kangaskhan",
-		fr: "Kangourex",
-		de: "Kangama"
+		'en-us': "Kangaskhan",
+		'fr-fr': "Kangourex",
+		'de-de': "Kangama"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fetch",
-				fr: "Rapporte",
-				de: "Apportieren"
+				'en-us': "Fetch",
+				'fr-fr': "Rapporte",
+				'de-de': "Apportieren"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Ziehe eine Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Ziehe eine Karte."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 20,
@@ -63,14 +63,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "One-Two Punch",
-				fr: "En deux punch",
-				de: "Doppelhieb"
+				'en-us': "One-Two Punch",
+				'fr-fr': "En deux punch",
+				'de-de': "Doppelhieb"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 

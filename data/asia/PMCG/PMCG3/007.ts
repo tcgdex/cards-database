@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ベトベトン",
+		'ja-jp': "ベトベトン",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "有毒ガス",
+				'ja-jp': "有毒ガス",
 			},
 			effect: {
-				ja: "有毒ガス以外のすべてのポケモンパワーを無視します。 MUKは特別な状態の影響を受けている間、このパワーは機能しなくなります。",
+				'ja-jp': "有毒ガス以外のすべてのポケモンパワーを無視します。 MUKは特別な状態の影響を受けている間、このパワーは機能しなくなります。",
 			},
 		}],
 
@@ -30,10 +30,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Grass", "Grass"],
 			name: {
-				ja: "スラッジ",
+				'ja-jp': "スラッジ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。",
 			},
 			damage: 30,
 		},

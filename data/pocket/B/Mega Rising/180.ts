@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pidgey"
+		'en-us': "Pidgey"
 	},
 
 	illustrator: "kodama",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It is docile and prefers to avoid conflict.\nIf disturbed, however, it can ferociously strike back."
+		'en-us': "It is docile and prefers to avoid conflict.\nIf disturbed, however, it can ferociously strike back."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Peck"
+			'en-us': "Peck"
 		},
 
 		damage: 30,

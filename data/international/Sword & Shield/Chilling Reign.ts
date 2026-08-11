@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sword & Shield'
 
 const swsh6: Set = {
 	id: "swsh6",
 
 	name: {
-		en: "Chilling Reign",
-		fr: "Règne de Glace",
-		es: "Reinado Escalofriante",
-		it: "Regno Glaciale",
-		de: "Schaurige Herrschaft",
-		pt: "Reinado Arrepiante"
+		'en-us': "Chilling Reign",
+		'fr-fr': "Règne de Glace",
+		'es-es': "Reinado Escalofriante",
+		'it-it': "Regno Glaciale",
+		'de-de': "Schaurige Herrschaft",
+		'pt-br': "Reinado Arrepiante"
 	},
 
 	tcgOnline: 'CRE',
@@ -24,7 +24,7 @@ const swsh6: Set = {
 
 	abbreviations: {
 		official: "CRE",
-		fr: "REG"
+		'fr-fr': "REG"
 	},
 
 	thirdParty: {

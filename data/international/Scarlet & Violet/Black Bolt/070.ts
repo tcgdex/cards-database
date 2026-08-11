@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Haxorus",
-		fr: "Tranchodon",
-		de: "Maxax",
-		it: "Haxorus",
-		pt: "Haxorus",
-		es: "Haxorus",
+		'en-us': "Haxorus",
+		'fr-fr': "Tranchodon",
+		'de-de': "Maxax",
+		'it-it': "Haxorus",
+		'pt-br': "Haxorus",
+		'es-es': "Haxorus",
 		'es-mx': "Haxorus"
 	},
 
@@ -21,12 +21,12 @@ const card: Card = {
 	hp: 170,
 	types: ["Dragon"],
 	evolveFrom: {
-		en: "Fraxure",
-		fr: "Incisache",
-		de: "Sharfax",
-		it: "Fraxure",
-		pt: "Fraxure",
-		es: "Fraxure",
+		'en-us': "Fraxure",
+		'fr-fr': "Incisache",
+		'de-de': "Sharfax",
+		'it-it': "Fraxure",
+		'pt-br': "Fraxure",
+		'es-es': "Fraxure",
 		'es-mx': "Fraxure"
 	},
 	stage: "Stage2",
@@ -35,22 +35,22 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Cross-Cut",
-			fr: "Coupe Transversale",
-			de: "Überkreuzzerschneider",
-			it: "Fendente Incrociato",
-			pt: "Corte em Cruz",
-			es: "Atajar",
+			'en-us': "Cross-Cut",
+			'fr-fr': "Coupe Transversale",
+			'de-de': "Überkreuzzerschneider",
+			'it-it': "Fendente Incrociato",
+			'pt-br': "Corte em Cruz",
+			'es-es': "Atajar",
 			'es-mx': "Corte Cruzado"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 80 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 80 dégâts supplémentaires.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 80 Schadenspunkte mehr zu.",
-			it: "Se il Pokémon attivo del tuo avversario è un Pokémon Evoluzione, questo attacco infligge 80 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon de Evolução, este ataque causará 80 pontos de dano a mais.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 80 puntos de daño más.",
+			'en-us': "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 80 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 80 dégâts supplémentaires.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 80 Schadenspunkte mehr zu.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon Evoluzione, questo attacco infligge 80 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon de Evolução, este ataque causará 80 pontos de dano a mais.",
+			'es-es': "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 80 puntos de daño más.",
 			'es-mx': "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 80 puntos de daño más."
 		},
 
@@ -59,22 +59,22 @@ const card: Card = {
 		cost: ["Fighting", "Metal", "Colorless"],
 
 		name: {
-			en: "Axe Blast",
-			fr: "Explosion de Haches",
-			de: "Axtplosion",
-			it: "Scure Esplosiva",
-			pt: "Estrondo de Machado",
-			es: "Hachazo Explosivo",
+			'en-us': "Axe Blast",
+			'fr-fr': "Explosion de Haches",
+			'de-de': "Axtplosion",
+			'it-it': "Scure Esplosiva",
+			'pt-br': "Estrondo de Machado",
+			'es-es': "Hachazo Explosivo",
 			'es-mx': "Hachazo Explosivo"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a Basic Pokémon, it is Knocked Out.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon de base, il est mis K.O.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Basis-Pokémon ist, ist es kampfunfähig.",
-			it: "Se il Pokémon attivo del tuo avversario è un Pokémon Base, viene messo KO.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Básico, ele será Nocauteado.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon Básico, queda Fuera de Combate.",
+			'en-us': "If your opponent's Active Pokémon is a Basic Pokémon, it is Knocked Out.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon de base, il est mis K.O.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners ein Basis-Pokémon ist, ist es kampfunfähig.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon Base, viene messo KO.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon Básico, ele será Nocauteado.",
+			'es-es': "Si el Pokémon Activo de tu rival es un Pokémon Básico, queda Fuera de Combate.",
 			'es-mx': "Si el Pokémon Activo de tu rival es un Pokémon Básico, queda Fuera de Combate."
 		}
 	}],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガラル タチフサグマ",
+		'ja-jp': "ガラル タチフサグマ",
 		'zh-tw': "皮卡丘V",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "凄まじい 声量を もつ。 シャウトとともに 威嚇するさまは ブロッキングと 呼ばれている。",
+		'ja-jp': "凄まじい 声量を もつ。 シャウトとともに 威嚇するさまは ブロッキングと 呼ばれている。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "バッドルーラー" },
 			effect: {
-				ja: "自分の番に1回使える。相手は相手自身の手札を、4枚になるようにトラッシュする。",
+				'ja-jp': "自分の番に1回使える。相手は相手自身の手札を、4枚になるようにトラッシュする。",
 			},
 		},
 	],
@@ -32,13 +32,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ナックルインパクト",
+				'ja-jp': "ナックルインパクト",
 				'zh-tw': "充電",
 			},
 			damage: 180,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 				'zh-tw': "從自己的牌庫選擇最多2張【雷】能量卡，附於這隻寶可夢身上。並且重洗牌庫。",
 			},
 		},
@@ -58,7 +58,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ガラル マッスグマ",
+		'ja-jp': "ガラル マッスグマ",
 	},
 
 	retreat: 2,

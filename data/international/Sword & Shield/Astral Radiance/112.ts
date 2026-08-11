@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bronzong",
-		fr: "Archéodong",
-		es: "Bronzong",
-		it: "Bronzong",
-		pt: "Bronzong",
-		de: "Bronzong"
+		'en-us': "Bronzong",
+		'fr-fr': "Archéodong",
+		'es-es': "Bronzong",
+		'it-it': "Bronzong",
+		'pt-br': "Bronzong",
+		'de-de': "Bronzong"
 	},
 
 	illustrator: "Shinji Kanda",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Bronzor",
-		fr: "Archéomire",
-		es: "Bronzor",
-		it: "Bronzor",
-		pt: "Bronzor",
-		de: "Bronzel"
+		'en-us': "Bronzor",
+		'fr-fr': "Archéomire",
+		'es-es': "Bronzor",
+		'it-it': "Bronzor",
+		'pt-br': "Bronzor",
+		'de-de': "Bronzel"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Heatproof",
-			fr: "Ignifugé",
-			es: "Ignífugo",
-			it: "Antifuoco",
-			pt: "À Prova de Calor",
-			de: "Hitzeschutz"
+			'en-us': "Heatproof",
+			'fr-fr': "Ignifugé",
+			'es-es': "Ignífugo",
+			'it-it': "Antifuoco",
+			'pt-br': "À Prova de Calor",
+			'de-de': "Hitzeschutz"
 		},
 
 		effect: {
-			en: "Prevent all damage done to this Pokémon by attacks from your opponent's Fire Pokémon.",
-			fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon Fire de votre adversaire.",
-			es: "Evita todo el daño infligido a este Pokémon por ataques de los Pokémon Fire de tu rival.",
-			it: "Previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon Fire del tuo avversario.",
-			pt: "Previne todo o dano causado a este Pokémon por ataques dos Pokémon Fire do seu oponente.",
-			de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Fire-Pokémon deines Gegners zugefügt wird."
+			'en-us': "Prevent all damage done to this Pokémon by attacks from your opponent's Fire Pokémon.",
+			'fr-fr': "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon Fire de votre adversaire.",
+			'es-es': "Evita todo el daño infligido a este Pokémon por ataques de los Pokémon Fire de tu rival.",
+			'it-it': "Previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon Fire del tuo avversario.",
+			'pt-br': "Previne todo o dano causado a este Pokémon por ataques dos Pokémon Fire do seu oponente.",
+			'de-de': "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Fire-Pokémon deines Gegners zugefügt wird."
 		}
 	}],
 
@@ -57,12 +57,12 @@ const card: Card = {
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			es: "Martillear",
-			it: "Martello",
-			pt: "Martelada",
-			de: "Einhämmern"
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'es-es': "Martillear",
+			'it-it': "Martello",
+			'pt-br': "Martelada",
+			'de-de': "Einhämmern"
 		},
 
 		damage: 100
@@ -85,7 +85,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Some believe it to be a deity that summons rain clouds. When angered, it lets out a warning cry that rings out like the tolling of a bell.",
+		'en-us': "Some believe it to be a deity that summons rain clouds. When angered, it lets out a warning cry that rings out like the tolling of a bell.",
 	},
 
 	variants: [

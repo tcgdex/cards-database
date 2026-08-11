@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SLD"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "達克萊伊VSTAR",
-		ja: "ダークライVSTAR"
+		'ja-jp': "ダークライVSTAR"
 	},
 
 	illustrator: "5ban Graphics",
@@ -30,27 +30,27 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "惡之波動",
-			ja: "あくのはどう"
+			'ja-jp': "あくのはどう"
 		},
 
 		effect: {
 			'zh-tw': "增加自己的場上寶可夢身上附加的【惡】能量的數量×30點傷害。",
-			ja: "自分の場のポケモンについているエネルギーの数×30ダメージ追加。"
+			'ja-jp': "自分の場のポケモンについているエネルギーの数×30ダメージ追加。"
 		},
 
 		damage: "30＋",
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			ja: "特性"
+			'ja-jp': "特性"
 		}
 	}, {
 		name: {
-			ja: "スターアビス"
+			'ja-jp': "スターアビス"
 		},
 
 		effect: {
-			ja: "自分の番に使える。自分のトラッシュからグッズを2枚まで選び、相手に見せて、手札に加える。［対戦中、自分はVSTARパワーを1回しか使えない。］"
+			'ja-jp': "自分の番に使える。自分のトラッシュからグッズを2枚まで選び、相手に見せて、手札に加える。［対戦中、自分はVSTARパワーを1回しか使えない。］"
 		}
 	}],
 

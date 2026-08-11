@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミカルゲ",
+		'ja-jp': "ミカルゲ",
 	},
 
 	illustrator: "mingo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "いつも 悪さばかり していたら 不思議な 術で 本体を 要石に 縛りつけられた。",
+		'ja-jp': "いつも 悪さばかり していたら 不思議な 術で 本体を 要石に 縛りつけられた。",
 	},
 
 	stage: "Basic",

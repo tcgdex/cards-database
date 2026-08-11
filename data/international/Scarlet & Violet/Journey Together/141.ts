@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Squawkabilly",
-		fr: "Tapatoès",
-		es: "Squawkabilly",
-		de: "Krawalloro",
-		it: "Squawkabilly",
-		pt: "Squawkabilly",
+		'en-us': "Squawkabilly",
+		'fr-fr': "Tapatoès",
+		'es-es': "Squawkabilly",
+		'de-de': "Krawalloro",
+		'it-it': "Squawkabilly",
+		'pt-br': "Squawkabilly",
 		'es-mx': "Squawkabilly"
 	},
 
@@ -25,34 +25,34 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Add On",
-			fr: "Ajout",
-			es: "Sumar",
-			de: "Hinzufügen",
-			it: "Supplemento",
-			pt: "Adicionar",
+			'en-us': "Add On",
+			'fr-fr': "Ajout",
+			'es-es': "Sumar",
+			'de-de': "Hinzufügen",
+			'it-it': "Supplemento",
+			'pt-br': "Adicionar",
 			'es-mx': "Acarrear"
 		},
 
 		effect: {
-			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
-			es: "Roba 2 cartas.",
-			de: "Ziehe 2 Karten.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas.",
+			'en-us': "Draw 2 cards.",
+			'fr-fr': "Piochez 2 cartes.",
+			'es-es': "Roba 2 cartas.",
+			'de-de': "Ziehe 2 Karten.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas.",
 			'es-mx': "Roba 2 cartas."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Hyper Voice",
-			fr: "Mégaphone",
-			es: "Vozarrón",
-			de: "Schallwelle",
-			it: "Granvoce",
-			pt: "Hipervoz",
+			'en-us': "Hyper Voice",
+			'fr-fr': "Mégaphone",
+			'es-es': "Vozarrón",
+			'de-de': "Schallwelle",
+			'it-it': "Granvoce",
+			'pt-br': "Hipervoz",
 			'es-mx': "Hipervoz"
 		},
 

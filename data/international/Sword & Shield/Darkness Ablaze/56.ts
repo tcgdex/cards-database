@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [180],
 
 	name: {
-		en: "Flaaffy",
-		fr: "Lainergie",
-		es: "Flaaffy",
-		it: "Flaaffy",
-		pt: "Flaaffy",
-		de: "Waaty"
+		'en-us': "Flaaffy",
+		'fr-fr': "Lainergie",
+		'es-es': "Flaaffy",
+		'it-it': "Flaaffy",
+		'pt-br': "Flaaffy",
+		'de-de': "Waaty"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mareep",
-		fr: "Wattouat",
-		es: "Mareep",
-		it: "Mareep",
-		pt: "Mareep",
-		de: "Voltilamm"
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat",
+		'es-es': "Mareep",
+		'it-it': "Mareep",
+		'pt-br': "Mareep",
+		'de-de': "Voltilamm"
 	},
 
 	attacks: [
@@ -38,12 +38,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Static Shock",
-				fr: "Choc Statique",
-				es: "Impacto Estático",
-				it: "Shock Statico",
-				pt: "Choque de Estática",
-				de: "Statischer Schock"
+				'en-us': "Static Shock",
+				'fr-fr': "Choc Statique",
+				'es-es': "Impacto Estático",
+				'it-it': "Shock Statico",
+				'pt-br': "Choque de Estática",
+				'de-de': "Statischer Schock"
 			},
 
 			damage: 40,
@@ -65,7 +65,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It stores electricity in its fluffy fleece. If it stores up too much, it will start to go bald in those patches."
+		'en-us': "It stores electricity in its fluffy fleece. If it stores up too much, it will start to go bald in those patches."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドラゴナイト",
+		'ja-jp': "ドラゴナイト",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "追い風",
+				'ja-jp': "追い風",
 			},
 			effect: {
-				ja: "ターン中（攻撃前）に（攻撃の前）、ドラゴナイトがベンチにある場合、アクティブなPokmonのリトリートコストを0に減らすことができます。",
+				'ja-jp': "ターン中（攻撃前）に（攻撃の前）、ドラゴナイトがベンチにある場合、アクティブなPokmonのリトリートコストを0に減らすことができます。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Water", "Fighting"],
 			name: {
-				ja: "ドラゴンテール",
+				'ja-jp': "ドラゴンテール",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の40回のダメージ倍になります。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の40回のダメージ倍になります。",
 			},
 		},
 	],

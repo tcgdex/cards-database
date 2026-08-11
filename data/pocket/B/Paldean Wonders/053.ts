@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Houndstone",
-		fr: "Tomberro",
-		de: "Friedwuff",
-		it: "Houndstone",
-		es: "Houndstone",
-		pt: "Houndstone",
+		'en-us': "Houndstone",
+		'fr-fr': "Tomberro",
+		'de-de': "Friedwuff",
+		'it-it': "Houndstone",
+		'es-es': "Houndstone",
+		'pt-br': "Houndstone",
 		'es-mx': "Houndstone"
   },
   illustrator: "Kouki Saitou",
@@ -19,12 +19,12 @@ const card: Card = {
   types: ["Psychic"],
   dexId: [972],
   evolveFrom: {
-		en: "Greavard",
-		fr: "Toutombe",
-		de: "Gruff",
-		it: "Greavard",
-		es: "Greavard",
-		pt: "Greavard",
+		'en-us': "Greavard",
+		'fr-fr': "Toutombe",
+		'de-de': "Gruff",
+		'it-it': "Greavard",
+		'es-es': "Greavard",
+		'pt-br': "Greavard",
 		'es-mx': "Greavard"
   },
   description: {

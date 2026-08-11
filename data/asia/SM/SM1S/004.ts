@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パラス",
+		'ja-jp': "パラス",
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "喰っても 喰っても 背中に 生えている キノコが ほとんど 栄養を 奪っていくのだ。",
+		'ja-jp': "喰っても 喰っても 背中に 生えている キノコが ほとんど 栄養を 奪っていくのだ。",
 	},
 
 	stage: "Basic",

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Omastar",
-		de: "Amoroso"
+		'en-us': "Omastar",
+		'de-de': "Amoroso"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Omanyte",
+		'en-us': "Omanyte",
 	},
 
 	stage: "Stage2",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Primal Stare",
-				de: "Ursprüngliche Starre"
+				'en-us': "Primal Stare",
+				'de-de': "Ursprüngliche Starre"
 			},
 			effect: {
-				en: "As long as Omastar is your Active Pokémon, your opponent can't play Basic Pokémon or Evolution cards from his or her hand to evolve his or her Active Pokémon.",
-				de: "Solange Amoroso dein aktives Pokémon ist, kann dein Gegner keinen Basis- Pokémon oder Entwicklungskarte aus seine Hand spielen, um sein aktives Pokémon zu entwickeln."
+				'en-us': "As long as Omastar is your Active Pokémon, your opponent can't play Basic Pokémon or Evolution cards from his or her hand to evolve his or her Active Pokémon.",
+				'de-de': "Solange Amoroso dein aktives Pokémon ist, kann dein Gegner keinen Basis- Pokémon oder Entwicklungskarte aus seine Hand spielen, um sein aktives Pokémon zu entwickeln."
 			},
 		},
 	],
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spook",
-				de: "Herumgeistern"
+				'en-us': "Spook",
+				'de-de': "Herumgeistern"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				de: "Das verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'de-de': "Das verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 50,
 

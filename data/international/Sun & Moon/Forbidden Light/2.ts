@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Alolan Exeggutor",
-		fr: "Noadkoko d’Alola",
-		es: "Exeggutor de Alola",
-		it: "Exeggutor di Alola",
-		pt: "Exeggutor de Alola",
-		de: "Alola-Kokowei"
+		'en-us': "Alolan Exeggutor",
+		'fr-fr': "Noadkoko d’Alola",
+		'es-es': "Exeggutor de Alola",
+		'it-it': "Exeggutor di Alola",
+		'pt-br': "Exeggutor de Alola",
+		'de-de': "Alola-Kokowei"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Exeggcute",
-		fr: "Noeunoeuf",
+		'en-us': "Exeggcute",
+		'fr-fr': "Noeunoeuf",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Tropical Shake",
-				fr: "Balancement Tropical",
-				es: "Sacudida Tropical",
-				it: "Scossone Tropicale",
-				pt: "Balançada Tropical",
-				de: "Tropisches Schütteln"
+				'en-us': "Tropical Shake",
+				'fr-fr': "Balancement Tropical",
+				'es-es': "Sacudida Tropical",
+				'it-it': "Scossone Tropicale",
+				'pt-br': "Balançada Tropical",
+				'de-de': "Tropisches Schütteln"
 			},
 			effect: {
-				en: "This attack does 20 more damage for each type of basic Energy card in your discard pile. You can’t add more than 100 damage in this way.",
-				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque type de carte Énergie de base dans votre pile de défausse. Vous ne pouvez pas ajouter plus de 100 dégâts de cette façon.",
-				es: "Este ataque hace 20 puntos de daño más por cada tipo de carta de Energía Básica diferente en tu pila de descartes. No puedes añadir más de 100 puntos de daño de esta manera.",
-				it: "Questo attacco infligge 20 danni in più per ogni tipo di carta Energia base nella tua pila degli scarti. Non puoi aggiungere più di 100 danni in questo modo.",
-				pt: "Este ataque causa 20 pontos de dano a mais para cada tipo de carta de Energia básica na sua pilha de descarte. Você não pode adicionar mais de 100 pontos de dano desta forma.",
-				de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der verschiedenen Basis-Energiekarten-Typen in deinem Ablagestapel zu. Du kannst auf diese Weise höchstens 100 Schadenspunkte mehr zufügen."
+				'en-us': "This attack does 20 more damage for each type of basic Energy card in your discard pile. You can’t add more than 100 damage in this way.",
+				'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires pour chaque type de carte Énergie de base dans votre pile de défausse. Vous ne pouvez pas ajouter plus de 100 dégâts de cette façon.",
+				'es-es': "Este ataque hace 20 puntos de daño más por cada tipo de carta de Energía Básica diferente en tu pila de descartes. No puedes añadir más de 100 puntos de daño de esta manera.",
+				'it-it': "Questo attacco infligge 20 danni in più per ogni tipo di carta Energia base nella tua pila degli scarti. Non puoi aggiungere più di 100 danni in questo modo.",
+				'pt-br': "Este ataque causa 20 pontos de dano a mais para cada tipo de carta de Energia básica na sua pilha de descarte. Você não pode adicionar mais de 100 pontos de dano desta forma.",
+				'de-de': "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der verschiedenen Basis-Energiekarten-Typen in deinem Ablagestapel zu. Du kannst auf diese Weise höchstens 100 Schadenspunkte mehr zufügen."
 			},
 			damage: "20+",
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon.",
+		'en-us': "As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon.",
 	},
 
 	thirdParty: {

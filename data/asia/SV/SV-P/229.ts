@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポケモンレンジャー",
+		'ja-jp': "ポケモンレンジャー",
 	},
 
 	illustrator: "Yusuke Ohmura",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのプレイヤーと、おたがいのポケモンにかかっているワザの効果は、すべてなくなる。",
+		'ja-jp': "おたがいのプレイヤーと、おたがいのポケモンにかかっているワザの効果は、すべてなくなる。",
 	},
 
 	variants: [

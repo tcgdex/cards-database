@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Mienfoo",
-		fr: "Kungfouine",
-		es: "Mienfoo",
-		it: "Mienfoo",
-		pt: "Mienfoo",
-		de: "Lin-Fu"
+		'en-us': "Mienfoo",
+		'fr-fr': "Kungfouine",
+		'es-es': "Mienfoo",
+		'it-it': "Mienfoo",
+		'pt-br': "Mienfoo",
+		'de-de': "Lin-Fu"
 	},
 
 	illustrator: "Midori Harada",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Triple Smash",
-				fr: "Triple Éclate",
+				'en-us': "Triple Smash",
+				'fr-fr': "Triple Éclate",
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They has mastered elegant combos. As they concentrate, their battle moves become swifter and more precise.",
+		'en-us': "They has mastered elegant combos. As they concentrate, their battle moves become swifter and more precise.",
 	},
 
 	thirdParty: {

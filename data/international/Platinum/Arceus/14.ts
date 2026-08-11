@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Bronzong",
-		de: "Bronzong"
+		'en-us': "Bronzong",
+		'de-de': "Bronzong"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bronzor"
+		'en-us': "Bronzor"
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Oracle Arrow",
-				de: "Orakelpfeil"
+				'en-us': "Oracle Arrow",
+				'de-de': "Orakelpfeil"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon that has any damage counters on it. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				de: "Wähle 1 Pokémon deines Gegners, auf den bereits mindestens 1 Schadensmarke liegt. Dieser Angriff fügt dem gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 1 of your opponent's Pokémon that has any damage counters on it. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'de-de': "Wähle 1 Pokémon deines Gegners, auf den bereits mindestens 1 Schadensmarke liegt. Dieser Angriff fügt dem gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Antigravity",
-				de: "Anti-Schwerkraft"
+				'en-us': "Antigravity",
+				'de-de': "Anti-Schwerkraft"
 			},
 			effect: {
-				en: "The Retreat Cost for Bronzong is 0 until the end of your next turn.",
-				de: "Bronzong hat Rückzugskosten 0 bis zum Ende deines nächsten Zuges."
+				'en-us': "The Retreat Cost for Bronzong is 0 until the end of your next turn.",
+				'de-de': "Bronzong hat Rückzugskosten 0 bis zum Ende deines nächsten Zuges."
 			},
 			damage: 60,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It brought rains by opening portals to another world. It was revered as a bringer of plentiful harvests."
+		'en-us': "It brought rains by opening portals to another world. It was revered as a bringer of plentiful harvests."
 	},
 
 	variants: [

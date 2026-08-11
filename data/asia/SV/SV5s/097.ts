@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Beldum"
+		'id-id': "Beldum"
 	},
 
 	illustrator: "hatachu",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Beldum menghasilkan kekuatan magnet dari bagian belakang tubuhnya untuk mengisap musuh mendekat dengan kuat lalu menusuknya hingga tembus dengan cakarnya yang tajam."
+		'id-id': "Beldum menghasilkan kekuatan magnet dari bagian belakang tubuhnya untuk mengisap musuh mendekat dengan kuat lalu menusuknya hingga tembus dengan cakarnya yang tajam."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Memasang Cakar"
+			'id-id': "Memasang Cakar"
 		},
 
 		damage: 10,
 		cost: ["Metal"]
 	}, {
 		name: {
-			id: "Iron Tackle"
+			'id-id': "Iron Tackle"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 10."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10."
 		},
 
 		damage: 50,

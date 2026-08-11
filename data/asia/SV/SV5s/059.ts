@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Girafarig"
+		'id-id': "Girafarig"
 	},
 
 	illustrator: "matazo",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Terdapat kepala kecil di ekor Girafarig. Bagian ini memiliki insting untuk menggigit musuh yang mendekat dari belakang."
+		'id-id': "Terdapat kepala kecil di ekor Girafarig. Bagian ini memiliki insting untuk menggigit musuh yang mendekat dari belakang."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Psychodamage"
+			'id-id': "Psychodamage"
 		},
 
 		effect: {
-			id: "Kerusakan yang diberikan bertambah sejumlah 10 untuk tiap Token Kerusakan yang dimiliki Pokémon Bertarung lawan."
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 10 untuk tiap Token Kerusakan yang dimiliki Pokémon Bertarung lawan."
 		},
 
 		damage: "20+",

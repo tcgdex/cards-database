@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Mr. Mime",
-		fr: "M. Mime",
+		'en-us': "Mr. Mime",
+		'fr-fr': "M. Mime",
 	},
 
 	illustrator: "kirisAki",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Bench Barrier",
-				fr: "Barrière de Banc",
+				'en-us': "Bench Barrier",
+				'fr-fr': "Barrière de Banc",
 			},
 			effect: {
-				en: "Prevent all damage done to your Benched Pokémon by attacks.",
-				fr: "Évitez tous les dégâts infligés à vos Pokémon de Banc par des attaques.",
+				'en-us': "Prevent all damage done to your Benched Pokémon by attacks.",
+				'fr-fr': "Évitez tous les dégâts infligés à vos Pokémon de Banc par des attaques.",
 			},
 		},
 	],
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Juggling",
-				fr: "Jonglerie",
+				'en-us': "Juggling",
+				'fr-fr': "Jonglerie",
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 4 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: "10×",
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is adept at conning people. It is said to be able to create walls out of thin air by miming.",
+		'en-us': "It is adept at conning people. It is said to be able to create walls out of thin air by miming.",
 	},
 
 	thirdParty: {

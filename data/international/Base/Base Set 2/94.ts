@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Starmie",
+		'en-us': "Starmie",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Staryu",
+		'en-us': "Staryu",
 	},
 
 	stage: "Stage1",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Recover",
+				'en-us': "Recover",
 			},
 			effect: {
-				en: "Discard 1 Energy card to Starmie in order to use this attack. Remove all damage counters from Starmie.",
+				'en-us': "Discard 1 Energy card to Starmie in order to use this attack. Remove all damage counters from Starmie.",
 			},
 
 		},
@@ -48,10 +48,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Star Freeze",
+				'en-us': "Star Freeze",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 20,
 
@@ -68,7 +68,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its central core glows with the seven colors of the rainbow. Some people value this core as a gem.",
+		'en-us': "Its central core glows with the seven colors of the rainbow. Some people value this core as a gem.",
 	},
 
 

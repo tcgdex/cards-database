@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Palafin ex"
+		'id-id': "Palafin ex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -17,19 +17,19 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "‌[Ability] Jiwa Perkasa"
+			'id-id': "‌[Ability] Jiwa Perkasa"
 		},
 
 		effect: {
-			id: "Kartu ini hanya dapat dimasukkan ke Arena menggunakan efek dari Ability Menjadi Perkasa Palafin."
+			'id-id': "Kartu ini hanya dapat dimasukkan ke Arena menggunakan efek dari Ability Menjadi Perkasa Palafin."
 		}
 	}, {
 		name: {
-			id: "Giga Impact"
+			'id-id': "Giga Impact"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 250,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Phanpy",
-		fr: "Phanpy",
-		de: "Phanpy"
+		'en-us': "Phanpy",
+		'fr-fr': "Phanpy",
+		'de-de': "Phanpy"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flail",
-				fr: "Fléau",
-				de: "Dreschflegel"
+				'en-us': "Flail",
+				'fr-fr': "Fléau",
+				'de-de': "Dreschflegel"
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on Phanpy.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Phanpy.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Phanpy zu."
+				'en-us': "Does 10 damage times the number of damage counters on Phanpy.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Phanpy.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Phanpy zu."
 			},
 			damage: "10x",
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				de: "Bodycheck"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'de-de': "Bodycheck"
 			},
 			effect: {
-				en: "Phanpy does 10 damage to itself.",
-				fr: "Phanpy s'inflige 10 dégâts.",
-				de: "Phanpy fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Phanpy does 10 damage to itself.",
+				'fr-fr': "Phanpy s'inflige 10 dégâts.",
+				'de-de': "Phanpy fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
+		'en-us': "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
 	},
 
 	thirdParty: {

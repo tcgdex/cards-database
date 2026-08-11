@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Krokorok",
-		fr: "Escroco",
-		es: "Krokorok",
-		it: "Krokorok",
-		pt: "Krokorok",
-		de: "Rokkaiman"
+		'en-us': "Krokorok",
+		'fr-fr': "Escroco",
+		'es-es': "Krokorok",
+		'it-it': "Krokorok",
+		'pt-br': "Krokorok",
+		'de-de': "Rokkaiman"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sandile",
-		fr: "Mascaïman",
-		es: "Sandile",
-		it: "Sandile",
-		pt: "Sandile",
-		de: "Ganovil"
+		'en-us': "Sandile",
+		'fr-fr': "Mascaïman",
+		'es-es': "Sandile",
+		'it-it': "Sandile",
+		'pt-br': "Sandile",
+		'de-de': "Ganovil"
 	},
 
 	stage: "Stage1",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crunch",
-				fr: "Mâchouille",
-				es: "Triturar",
-				it: "Sgranocchio",
-				pt: "Mastigada",
-				de: "Knirscher"
+				'en-us': "Crunch",
+				'fr-fr': "Mâchouille",
+				'es-es': "Triturar",
+				'it-it': "Sgranocchio",
+				'pt-br': "Mastigada",
+				'de-de': "Knirscher"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
-				es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía unida al Pokémon Activo de tu rival.",
-				it: "Lancia una moneta. Se esce testa, scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Jogue uma moeda. Se sair cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
-				de: "Wirf 1 Münze. Lege bei \"Kopf\" 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				'es-es': "Lanza 1 moneda. Si sale cara, descarta 1 Energía unida al Pokémon Activo de tu rival.",
+				'it-it': "Lancia una moneta. Se esce testa, scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Jogue uma moeda. Se sair cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
+				'de-de': "Wirf 1 Münze. Lege bei \"Kopf\" 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 20,
 
@@ -69,12 +69,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Darkness Fang",
-				fr: "Croc Obscur",
-				es: "Colmillo de Oscuridad",
-				it: "Oscurizanna",
-				pt: "Presa Sombria",
-				de: "Fänge der Dunkelheit"
+				'en-us': "Darkness Fang",
+				'fr-fr': "Croc Obscur",
+				'es-es': "Colmillo de Oscuridad",
+				'it-it': "Oscurizanna",
+				'pt-br': "Presa Sombria",
+				'de-de': "Fänge der Dunkelheit"
 			},
 
 			damage: 60,
@@ -99,7 +99,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "They live in groups of a few individuals. Protective membranes shield their eyes from sandstorms.",
+		'en-us': "They live in groups of a few individuals. Protective membranes shield their eyes from sandstorms.",
 	},
 
 	thirdParty: {

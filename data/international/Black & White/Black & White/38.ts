@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Alomomola",
-		fr: "Mamanbo",
-		es: "Alomomola",
-		it: "Alomomola",
-		pt: "Alomomola",
-		de: "Mamolida"
+		'en-us': "Alomomola",
+		'fr-fr': "Mamanbo",
+		'es-es': "Alomomola",
+		'it-it': "Alomomola",
+		'pt-br': "Alomomola",
+		'de-de': "Mamolida"
 	},
 
 	illustrator: "sui",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'Face",
+				'en-us': "Pound",
+				'fr-fr': "Écras'Face",
 			},
 
 			damage: 20,
@@ -50,8 +50,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse Vague",
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse Vague",
 			},
 
 			damage: 60,
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore.",
+		'en-us': "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore.",
 	},
 
 	thirdParty: {

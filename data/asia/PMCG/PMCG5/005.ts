@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリカのマダツボミ",
+		'ja-jp': "エリカのマダツボミ",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "不注意なタックル",
+				'ja-jp': "不注意なタックル",
 			},
 			effect: {
-				ja: "エリカのベルスプラウトは、それ自体に10ダメージを与えます。",
+				'ja-jp': "エリカのベルスプラウトは、それ自体に10ダメージを与えます。",
 			},
 			damage: 20,
 		},

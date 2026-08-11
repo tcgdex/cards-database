@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "テラキオン",
+		'ja-jp': "テラキオン",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "巨大な 城壁を 一撃で 突破するほどの 突進力。 伝説で 語られる ポケモン。",
+		'ja-jp': "巨大な 城壁を 一撃で 突破するほどの 突進力。 伝説で 語られる ポケモン。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチポケモン全員にダメカンがのっているなら、150ダメージ追加。",
+				'ja-jp': "自分のベンチポケモン全員にダメカンがのっているなら、150ダメージ追加。",
 			},
 		},
 		{

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ZなしZ",
+		'ja-jp': "ZなしZ",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "ズーム[ズーム]",
+				'ja-jp': "ズーム[ズーム]",
 			},
 			effect: {
-				ja: "[Z]がベンチにある限り、あなたはその名のないポケモンを退却するためにエネルギーコストを支払いません。",
+				'ja-jp': "[Z]がベンチにある限り、あなたはその名のないポケモンを退却するためにエネルギーコストを支払いません。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "隠された力",
+				'ja-jp': "隠された力",
 			},
 			damage: 10,
 		},

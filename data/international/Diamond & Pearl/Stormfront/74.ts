@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Snover",
-		fr: "Blizzi",
-		de: "Shnebedeck"
+		'en-us': "Snover",
+		'fr-fr': "Blizzi",
+		'de-de': "Shnebedeck"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		fr: "Blizzi",
+		'fr-fr': "Blizzi",
 	},
 
 	stage: "Basic",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hide",
-				fr: "Cachette",
-				de: "Verstecken"
+				'en-us': "Hide",
+				'fr-fr': "Cachette",
+				'de-de': "Verstecken"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Snover during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Blizzi lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Shnebedeck zugefügt würden."
+				'en-us': "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Snover during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Blizzi lors du prochain tour de votre adversaire.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Shnebedeck zugefügt würden."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Powder Snow",
-				fr: "Poudreuse",
-				de: "Pulverschnee"
+				'en-us': "Powder Snow",
+				'fr-fr': "Poudreuse",
+				'de-de': "Pulverschnee"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 10,
 
@@ -75,8 +75,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives on snowy mountains. Having had little contact with humans, it is boldly inquisitive.",
-		fr: "Il vit sur les monts enneigés. Ignorant des coutumes humaines, il lui arrive d'être très indiscret."
+		'en-us': "It lives on snowy mountains. Having had little contact with humans, it is boldly inquisitive.",
+		'fr-fr': "Il vit sur les monts enneigés. Ignorant des coutumes humaines, il lui arrive d'être très indiscret."
 	},
 
 	thirdParty: {

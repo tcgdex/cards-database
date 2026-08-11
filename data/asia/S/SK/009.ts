@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SK"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "銅鏡怪",
-		ja: "ドーミラー"
+		'ja-jp': "ドーミラー"
 	},
 
 	illustrator: "Mizue",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "雖然人們說把銅鏡怪打磨到發光，牠就能映照出真相，但其實牠非常討厭被打磨。",
-		ja: "磨けば 光り 真実を 映しだすとも いわれるが ドーミラーは とても 嫌がる。"
+		'ja-jp': "磨けば 光り 真実を 映しだすとも いわれるが ドーミラーは とても 嫌がる。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "衝撞",
-			ja: "ぶつかる"
+			'ja-jp': "ぶつかる"
 		},
 
 		damage: 30,

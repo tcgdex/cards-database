@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラニャース",
+		'ja-jp': "アローラニャース",
 	},
 
 	illustrator: "Sekio",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "気まぐれで わがままで 飽きっぽい。 尽くされるより 尽くすのが 好きな 一部の トレーナーに 大人気。",
+		'ja-jp': "気まぐれで わがままで 飽きっぽい。 尽くされるより 尽くすのが 好きな 一部の トレーナーに 大人気。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "いばる" },
 			cost: ["Darkness"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 		{

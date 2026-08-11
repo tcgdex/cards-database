@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Smeargle",
-		fr: "Queulorior"
+		'en-us': "Smeargle",
+		'fr-fr': "Queulorior"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Paint",
-				fr: "Peinture"
+				'en-us': "Paint",
+				'fr-fr': "Peinture"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose a type (other than colorless) and put a Coloring counter on the Defending Pokémon. That Pokémon is now the type you choose. If it already had a Coloring counter, remove the old one. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est face, choisissez un type (autre qu'Incolore) et placez un marqueur Colorant sur le Pokémon Défenseur. Ce Pokémon est maintenant du type que vous avez choisi. S'il a déjà un marqueur Colorant, retirez l'ancien. Si c'est pile, cette attaque ne fait rien."
+				'en-us': "Flip a coin. If heads, choose a type (other than colorless) and put a Coloring counter on the Defending Pokémon. That Pokémon is now the type you choose. If it already had a Coloring counter, remove the old one. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est face, choisissez un type (autre qu'Incolore) et placez un marqueur Colorant sur le Pokémon Défenseur. Ce Pokémon est maintenant du type que vous avez choisi. S'il a déjà un marqueur Colorant, retirez l'ancien. Si c'est pile, cette attaque ne fait rien."
 			},
 
 		},
@@ -58,8 +58,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Once it becomes an adult, it has a tendency to let its comrades plant footprints on its back.",
-		fr: "À l'âge adulte, il a tendance à laisser ses camarades imprimer leurs empreintes sur son dos."
+		'en-us': "Once it becomes an adult, it has a tendency to let its comrades plant footprints on its back.",
+		'fr-fr': "À l'âge adulte, il a tendance à laisser ses camarades imprimer leurs empreintes sur son dos."
 	},
 
 	variants: [

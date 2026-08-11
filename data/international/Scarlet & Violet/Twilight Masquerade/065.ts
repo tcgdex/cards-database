@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zapdos",
-		fr: "Électhor",
-		es: "Zapdos",
-		it: "Zapdos",
-		pt: "Zapdos",
-		de: "Zapdos"
+		'en-us': "Zapdos",
+		'fr-fr': "Électhor",
+		'es-es': "Zapdos",
+		'it-it': "Zapdos",
+		'pt-br': "Zapdos",
+		'de-de': "Zapdos"
 	},
 
 	rarity: "Rare",
@@ -24,41 +24,41 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Thunder Wave",
-			fr: "Cage Éclair",
-			es: "Onda Trueno",
-			it: "Tuononda",
-			pt: "Onda de Trovão",
-			de: "Donnerwelle"
+			'en-us': "Thunder Wave",
+			'fr-fr': "Cage Éclair",
+			'es-es': "Onda Trueno",
+			'it-it': "Tuononda",
+			'pt-br': "Onda de Trovão",
+			'de-de': "Donnerwelle"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		}
 	}, {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			en: "Thunderbolt",
-			fr: "Tonnerre",
-			es: "Rayo",
-			it: "Fulmine",
-			pt: "Relâmpago",
-			de: "Donnerblitz"
+			'en-us': "Thunderbolt",
+			'fr-fr': "Tonnerre",
+			'es-es': "Rayo",
+			'it-it': "Fulmine",
+			'pt-br': "Relâmpago",
+			'de-de': "Donnerblitz"
 		},
 
 		effect: {
-			en: "Discard all Energy from this Pokémon.",
-			fr: "Défaussez toutes les Énergies de ce Pokémon.",
-			es: "Descarta todas las Energías de este Pokémon.",
-			it: "Scarta tutte le Energie da questo Pokémon.",
-			pt: "Descarte todas as Energias deste Pokémon.",
-			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard all Energy from this Pokémon.",
+			'fr-fr': "Défaussez toutes les Énergies de ce Pokémon.",
+			'es-es': "Descarta todas las Energías de este Pokémon.",
+			'it-it': "Scarta tutte le Energie da questo Pokémon.",
+			'pt-br': "Descarte todas as Energias deste Pokémon.",
+			'de-de': "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 190
@@ -80,7 +80,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "This Pokémon has complete control over electricity. There are tales of Zapdos nesting in the dark depths of pitch-black thunderclouds.",
+		'en-us': "This Pokémon has complete control over electricity. There are tales of Zapdos nesting in the dark depths of pitch-black thunderclouds.",
 	},
 
 	variants: [

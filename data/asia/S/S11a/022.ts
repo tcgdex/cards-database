@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラ ロコンV",
+		'ja-jp': "アローラ ロコンV",
 		'zh-tw': "阿羅拉 六尾V",
 	},
 
@@ -18,19 +18,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ホワイトドロップ",
+				'ja-jp': "ホワイトドロップ",
 				'zh-tw': "皎白墜擊",
 			},
 			damage: "10+",
 			cost: [],
 			effect: {
-				ja: "相手のバトルポケモンが「ポケモンV」なら、50ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが「ポケモンV」なら、50ダメージ追加。",
 				'zh-tw': "若對手的戰鬥寶可夢為「寶可夢【V】」，則增加50點傷害。",
 			},
 		},
 		{
 			name: {
-				ja: "フロストスマッシュ",
+				'ja-jp': "フロストスマッシュ",
 				'zh-tw': "冰霜粉碎",
 			},
 			damage: 110,

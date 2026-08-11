@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヘラクロス",
+		'ja-jp': "ヘラクロス",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "太いツノが 自慢。 アローラでは クワガノンが 最大の ライバルで しょっちゅう ケンカを している。",
+		'ja-jp': "太いツノが 自慢。 アローラでは クワガノンが 最大の ライバルで しょっちゅう ケンカを している。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "どひょうがえし" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "前の相手の番に、相手のポケモンがGXワザを使っていたなら、相手のバトルポケモンと、ついているすべてのカードを、相手の山札にもどして切る。",
+				'ja-jp': "前の相手の番に、相手のポケモンがGXワザを使っていたなら、相手のバトルポケモンと、ついているすべてのカードを、相手の山札にもどして切る。",
 			},
 		},
 		{

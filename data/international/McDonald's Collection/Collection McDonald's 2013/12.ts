@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2013"
 
 const card: Card = {
 	name: {
-		fr: "Évoli",
+		'fr-fr': "Évoli",
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "None",
@@ -20,10 +20,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				fr: "Attaque Surprise",
+				'fr-fr': "Attaque Surprise",
 			},
 			effect: {
-				fr: "Lancez une pièce. Si c̕ est pile, cette attaque ne fait rien",
+				'fr-fr': "Lancez une pièce. Si c̕ est pile, cette attaque ne fait rien",
 			},
 			damage: 20,
 		},

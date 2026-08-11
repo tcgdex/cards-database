@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒビキのピチュー",
+		'ja-jp': "ヒビキのピチュー",
 	},
 
 	illustrator: "Narumi Sato",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "電気を 溜めこむのが 下手。 なんらかの ショックを 受けると すぐに 放電 してしまう。",
+		'ja-jp': "電気を 溜めこむのが 下手。 なんらかの ショックを 受けると すぐに 放電 してしまう。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: [],
 			effect: {
-				ja: "自分の山札を1枚引く。",
+				'ja-jp': "自分の山札を1枚引く。",
 			},
 		},
 	],

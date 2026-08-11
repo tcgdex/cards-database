@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Elgyem",
-		fr: "Lewsor",
-		es: "Elgyem",
-		it: "Elgyem",
-		pt: "Elgyem",
-		de: "Pygraulon"
+		'en-us': "Elgyem",
+		'fr-fr': "Lewsor",
+		'es-es': "Elgyem",
+		'it-it': "Elgyem",
+		'pt-br': "Elgyem",
+		'de-de': "Pygraulon"
 	},
 
 	illustrator: "sui",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'Boule",
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'Boule",
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Calm Mind",
-				fr: "Plénitude",
+				'en-us': "Calm Mind",
+				'fr-fr': "Plénitude",
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts à ce Pokémon.",
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon.",
 			},
 
 		},
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon had never been seen until it appeared from far in the desert 50 years ago.",
+		'en-us': "This Pokémon had never been seen until it appeared from far in the desert 50 years ago.",
 	},
 
 	thirdParty: {

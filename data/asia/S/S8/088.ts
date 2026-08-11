@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アオガラス",
+		'ja-jp': "アオガラス",
 		'zh-tw': "藍鴉",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "厳しい 戦いを くぐり抜けて 相手の 力量を 正確に 判断する 力が 身についた。",
+		'ja-jp': "厳しい 戦いを くぐり抜けて 相手の 力量を 正確に 判断する 力が 身についた。",
 		'zh-tw': "歷經無數次艱難的戰鬥後，牠學會了該如何正確地判斷敵人的力量。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "みだれづき",
+				'ja-jp': "みだれづき",
 				'zh-tw': "亂擊",
 			},
 			damage: "30×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数×30ダメージ。",
+				'ja-jp': "コインを3回投げ、オモテの数×30ダメージ。",
 				'zh-tw': "擲3次硬幣，造成正面出現的次數×30點傷害。",
 			},
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ココガラ",
+		'ja-jp': "ココガラ",
 	},
 
 	retreat: 1,

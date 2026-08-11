@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โซโด",
-		id: "Cufant"
+		'th-th': "โซโด",
+		'id-id': "Cufant"
 	},
 
 	illustrator: "Shinya Mizuno",
@@ -15,24 +15,24 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		th: "สามารถยกของที่หนัก 5 ตันได้ ในตอนเช้าจะมุ่งหน้าไปยังถ้ำเป็นฝูงเพื่อหาหินแร่ที่เป็นอาหาร",
-		id: "Cufant dapat mengangkat barang seberat 5 ton. Saat pagi tiba, Pokémon ini pergi ke gua bersama sesamanya untuk mencari bijih makanannya."
+		'th-th': "สามารถยกของที่หนัก 5 ตันได้ ในตอนเช้าจะมุ่งหน้าไปยังถ้ำเป็นฝูงเพื่อหาหินแร่ที่เป็นอาหาร",
+		'id-id': "Cufant dapat mengangkat barang seberat 5 ton. Saat pagi tiba, Pokémon ini pergi ke gua bersama sesamanya untuk mencari bijih makanannya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "พุ่งเข้าชน",
-			id: "Serudukan"
+			'th-th': "พุ่งเข้าชน",
+			'id-id': "Serudukan"
 		},
 
 		damage: 30,
 		cost: ["Metal", "Colorless"]
 	}, {
 		name: {
-			th: "ตั้งใจสู้",
-			id: "Menentang"
+			'th-th': "ตั้งใจสู้",
+			'id-id': "Menentang"
 		},
 
 		damage: 70,

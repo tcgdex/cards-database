@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Axew",
-		fr: "Coupenotte",
+		'en-us': "Axew",
+		'fr-fr': "Coupenotte",
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Common",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Big Bite",
-				fr: "Grosse Morsure",
+				'en-us': "Big Bite",
+				'fr-fr': "Grosse Morsure",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 			damage: 20,
 
@@ -48,7 +48,7 @@ const card: Card = {
 
 
 	description: {
-		en: "They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows in quickly.",
+		'en-us': "They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows in quickly.",
 	},
 }
 

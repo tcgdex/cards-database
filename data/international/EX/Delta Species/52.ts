@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Rapidash",
-		fr: "Galopa",
-		de: "Gallopa"
+		'en-us': "Rapidash",
+		'fr-fr': "Galopa",
+		'de-de': "Gallopa"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ponyta",
-		fr: "Ponyta"
+		'en-us': "Ponyta",
+		'fr-fr': "Ponyta"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Super Singe",
-				fr: "Ça sent le roussi!",
-				de: "Super Singe"
+				'en-us': "Super Singe",
+				'fr-fr': "Ça sent le roussi!",
+				'de-de': "Super Singe"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
-				de: "The Defending Pokémon is now Burned."
+				'en-us': "The Defending Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "The Defending Pokémon is now Burned."
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stomp",
-				fr: "Écrasement",
-				de: "Stomp"
+				'en-us': "Stomp",
+				'fr-fr': "Écrasement",
+				'de-de': "Stomp"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Flip a coin. If heads, this attack does 30 damage plus 10 more damage."
 			},
 			damage: "30+",
 

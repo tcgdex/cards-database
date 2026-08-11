@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tyrogue",
-		fr: "Debugant"
+		'en-us': "Tyrogue",
+		'fr-fr': "Debugant"
 	},
 
 	illustrator: "Mina Nakai",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It is always bursting with energy. To make itself\nstronger, it keeps on fighting even if it loses.",
-		fr: "Ce Pokémon est débordant d'énergie. Même s'il perd encore et encore, il se relève toujours pour devenir plus fort."
+		'en-us': "It is always bursting with energy. To make itself\nstronger, it keeps on fighting even if it loses.",
+		'fr-fr': "Ce Pokémon est débordant d'énergie. Même s'il perd encore et encore, il se relève toujours pour devenir plus fort."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Slappy Knuckle",
-			fr: "Poing qui Tabasse"
+			'en-us': "Slappy Knuckle",
+			'fr-fr': "Poing qui Tabasse"
 		},
 
 		damage: 20

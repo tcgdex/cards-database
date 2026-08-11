@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゲコガシラ",
+		'ja-jp': "ゲコガシラ",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "身軽さは だれにも 負けない。 ６００メートルを 超える タワーの 天辺まで １分で 登りきる。",
+		'ja-jp': "身軽さは だれにも 負けない。 ６００メートルを 超える タワーの 天辺まで １分で 登りきる。",
 	},
 
 	stage: "Stage1",
@@ -40,7 +40,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ケロマツ",
+		'ja-jp': "ケロマツ",
 	},
 
 	retreat: 1,

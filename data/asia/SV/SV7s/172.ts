@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "แรบบิฟุต"
+		'th-th': "แรบบิฟุต"
 	},
 
 	illustrator: "rika",
@@ -14,21 +14,21 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		th: "ภาคภูมิใจในท่าเตะที่หลากหลายของตน แต่ท่าพุ่งหัวชนด้วยหน้าผากที่ร้อนขึ้นด้วยเปลวเพลิงก็ทรงพลังเช่นกัน"
+		'th-th': "ภาคภูมิใจในท่าเตะที่หลากหลายของตน แต่ท่าพุ่งหัวชนด้วยหน้าผากที่ร้อนขึ้นด้วยเปลวเพลิงก็ทรงพลังเช่นกัน"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "เตะต่ำ"
+			'th-th': "เตะต่ำ"
 		},
 
 		damage: 30,
 		cost: ["Fire"]
 	}, {
 		name: {
-			th: "เผาไหม้"
+			'th-th': "เผาไหม้"
 		},
 
 		damage: 60,

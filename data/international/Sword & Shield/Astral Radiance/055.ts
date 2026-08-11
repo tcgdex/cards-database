@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Togepi",
-		fr: "Togepi",
-		es: "Togepi",
-		it: "Togepi",
-		pt: "Togepi",
-		de: "Togepi"
+		'en-us': "Togepi",
+		'fr-fr': "Togepi",
+		'es-es': "Togepi",
+		'it-it': "Togepi",
+		'pt-br': "Togepi",
+		'de-de': "Togepi"
 	},
 
 	illustrator: "Mizue",
@@ -25,21 +25,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Touch of Happiness",
-			fr: "Touche de Joie",
-			es: "Toque de Felicidad",
-			it: "Tocco di Felicità",
-			pt: "Toque da Alegria",
-			de: "Hauch der Freude"
+			'en-us': "Touch of Happiness",
+			'fr-fr': "Touche de Joie",
+			'es-es': "Toque de Felicidad",
+			'it-it': "Tocco di Felicità",
+			'pt-br': "Toque da Alegria",
+			'de-de': "Hauch der Freude"
 		},
 
 		effect: {
-			en: "When you play this Pokémon from your hand onto your Bench during your turn, you may heal 10 damage from your Active Pokémon.",
-			fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc pendant votre tour, vous pouvez soigner 10 dégâts de votre Pokémon Actif.",
-			es: "Cuando juegas este Pokémon de tu mano a tu Banca durante tu turno, puedes curar 10 puntos de daño a tu Pokémon Activo.",
-			it: "Quando giochi questo Pokémon dalla tua mano e lo metti in panchina durante il tuo turno, puoi curare il tuo Pokémon attivo da 10 danni.",
-			pt: "Quando você jogar este Pokémon da sua mão para o seu Banco durante o seu turno, você poderá curar 10 pontos de dano do seu Pokémon Ativo.",
-			de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand auf deine Bank spielst, kannst du 10 Schadenspunkte bei deinem Aktiven Pokémon heilen."
+			'en-us': "When you play this Pokémon from your hand onto your Bench during your turn, you may heal 10 damage from your Active Pokémon.",
+			'fr-fr': "Lorsque vous jouez ce Pokémon de votre main sur votre Banc pendant votre tour, vous pouvez soigner 10 dégâts de votre Pokémon Actif.",
+			'es-es': "Cuando juegas este Pokémon de tu mano a tu Banca durante tu turno, puedes curar 10 puntos de daño a tu Pokémon Activo.",
+			'it-it': "Quando giochi questo Pokémon dalla tua mano e lo metti in panchina durante il tuo turno, puoi curare il tuo Pokémon attivo da 10 danni.",
+			'pt-br': "Quando você jogar este Pokémon da sua mão para o seu Banco durante o seu turno, você poderá curar 10 pontos de dano do seu Pokémon Ativo.",
+			'de-de': "Wenn du dieses Pokémon während deines Zuges aus deiner Hand auf deine Bank spielst, kannst du 10 Schadenspunkte bei deinem Aktiven Pokémon heilen."
 		}
 	}],
 
@@ -47,12 +47,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Rollout",
-			fr: "Roulade",
-			es: "Rodar",
-			it: "Rotolamento",
-			pt: "Rolagem",
-			de: "Walzer"
+			'en-us': "Rollout",
+			'fr-fr': "Roulade",
+			'es-es': "Rodar",
+			'it-it': "Rotolamento",
+			'pt-br': "Rolagem",
+			'de-de': "Walzer"
 		},
 
 		damage: 10
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This ovate creature is frequently mistaken for a moving egg when encountered out in the fields or in the mountains. Its guileless smile soothes the soul.",
+		'en-us': "This ovate creature is frequently mistaken for a moving egg when encountered out in the fields or in the mountains. Its guileless smile soothes the soul.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドリュウズex",
+		'ja-jp': "ドリュウズex",
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Fighting", "Fighting"],
 			effect: {
-				ja: "ダメカンがのっている相手のベンチポケモン1匹にも、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "ダメカンがのっている相手のベンチポケモン1匹にも、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Fighting", "Fighting", "Fighting"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モグリュー",
+		'ja-jp': "モグリュー",
 	},
 
 	retreat: 3,

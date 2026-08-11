@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Aromatisse"
+		'en-us': "Aromatisse"
 	},
 
 	illustrator: "kirisAki",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Spritzee"
+		'en-us': "Spritzee"
 	},
 
 	description: {
-		en: "The scents Aromatisse can produce range from\nsweet smells that bolster allies to foul smells\nthat sap an opponent's will to fight."
+		'en-us': "The scents Aromatisse can produce range from\nsweet smells that bolster allies to foul smells\nthat sap an opponent's will to fight."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Confounding Cologne"
+			'en-us': "Confounding Cologne"
 		},
 
 		damage: 40,
 		cost: ["Psychic"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused."
+			'en-us': "Your opponent's Active Pokémon is now Confused."
 		}
 	}],
 

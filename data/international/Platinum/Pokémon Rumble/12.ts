@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Pokémon Rumble'
 
 const card: Card = {
 	name: {
-		en: "Lucario"
+		'en-us': "Lucario"
 	},
 
 	illustrator: undefined,
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Riolu"
+		'en-us': "Riolu"
 	},
 
 	stage: "Stage1",
@@ -33,7 +33,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Claw"
+				'en-us': "Metal Claw"
 			},
 
 			damage: 40,
@@ -47,7 +47,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pulse Blast"
+				'en-us': "Pulse Blast"
 			},
 
 			damage: 80,

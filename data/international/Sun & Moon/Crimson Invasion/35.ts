@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Emolga",
-		fr: "Emolga",
-		es: "Emolga",
-		it: "Emolga",
-		pt: "Emolga",
-		de: "Emolga"
+		'en-us': "Emolga",
+		'fr-fr': "Emolga",
+		'es-es': "Emolga",
+		'it-it': "Emolga",
+		'pt-br': "Emolga",
+		'de-de': "Emolga"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Catch",
-				fr: "Attrape-Énergie",
-				es: "Capturaenergía",
-				it: "Cattura Energia",
-				pt: "Captura de Energia",
-				de: "Energieschnapper"
+				'en-us': "Energy Catch",
+				'fr-fr': "Attrape-Énergie",
+				'es-es': "Capturaenergía",
+				'it-it': "Cattura Energia",
+				'pt-br': "Captura de Energia",
+				'de-de': "Energieschnapper"
 			},
 			effect: {
-				en: "Put 3 basic Energy cards from your discard pile into your hand.",
-				fr: "Ajoutez 3 cartes Énergie de base de votre pile de défausse à votre main.",
-				es: "Pon 3 cartas de Energía Básica de tu pila de descartes en tu mano.",
-				it: "Prendi tre carte Energia base dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
-				pt: "Coloque 3 cartas de Energia básica da sua pilha de descarte na sua mão.",
-				de: "Nimm 3 Basis-Energiekarten aus deinem Ablagestapel auf deine Hand."
+				'en-us': "Put 3 basic Energy cards from your discard pile into your hand.",
+				'fr-fr': "Ajoutez 3 cartes Énergie de base de votre pile de défausse à votre main.",
+				'es-es': "Pon 3 cartas de Energía Básica de tu pila de descartes en tu mano.",
+				'it-it': "Prendi tre carte Energia base dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
+				'pt-br': "Coloque 3 cartas de Energia básica da sua pilha de descarte na sua mão.",
+				'de-de': "Nimm 3 Basis-Energiekarten aus deinem Ablagestapel auf deine Hand."
 			},
 
 		},
@@ -56,20 +56,20 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Volt Switch",
-				fr: "Change Éclair",
-				es: "Voltiocambio",
-				it: "Invertivolt",
-				pt: "Troca Elétrica",
-				de: "Voltwechsel"
+				'en-us': "Volt Switch",
+				'fr-fr': "Change Éclair",
+				'es-es': "Voltiocambio",
+				'it-it': "Invertivolt",
+				'pt-br': "Troca Elétrica",
+				'de-de': "Voltwechsel"
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Lightning Pokémon.",
-				fr: "Échangez ce Pokémon avec l’un de vos Pokémon Lightning de Banc.",
-				es: "Cambia este Pokémon por 1 de tus Pokémon Lightning en Banca.",
-				it: "Scambia questo Pokémon con un Pokémon Lightning della tua panchina.",
-				pt: "Troque este Pokémon por 1 dos seus Pokémon Lightning no Banco.",
-				de: "Tausche dieses Pokémon gegen 1 Lightning-Pokémon auf deiner Bank aus."
+				'en-us': "Switch this Pokémon with 1 of your Benched Lightning Pokémon.",
+				'fr-fr': "Échangez ce Pokémon avec l’un de vos Pokémon Lightning de Banc.",
+				'es-es': "Cambia este Pokémon por 1 de tus Pokémon Lightning en Banca.",
+				'it-it': "Scambia questo Pokémon con un Pokémon Lightning della tua panchina.",
+				'pt-br': "Troque este Pokémon por 1 dos seus Pokémon Lightning no Banco.",
+				'de-de': "Tausche dieses Pokémon gegen 1 Lightning-Pokémon auf deiner Bank aus."
 			},
 			damage: 30,
 
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It glides using its cape-like membrane. Electrical energy scatters from it, shocking its friends and foes alike.",
+		'en-us': "It glides using its cape-like membrane. Electrical energy scatters from it, shocking its friends and foes alike.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Scrafty",
-		fr: "Baggaïd",
-		es: "Scrafty",
-		it: "Scrafty",
-		pt: "Scrafty",
-		de: "Irokex"
+		'en-us': "Scrafty",
+		'fr-fr': "Baggaïd",
+		'es-es': "Scrafty",
+		'it-it': "Scrafty",
+		'pt-br': "Scrafty",
+		'de-de': "Irokex"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Scraggy",
-		fr: "Baggiguane",
+		'en-us': "Scraggy",
+		'fr-fr': "Baggiguane",
 	},
 
 	stage: "Stage1",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Turf Raid",
-				fr: "Raid Territorial",
-				es: "Incursión Territorial",
-				it: "Raid Territoriale",
-				pt: "Incursão Territorial",
-				de: "Revier-Raid"
+				'en-us': "Turf Raid",
+				'fr-fr': "Raid Territorial",
+				'es-es': "Incursión Territorial",
+				'it-it': "Raid Territoriale",
+				'pt-br': "Incursão Territorial",
+				'de-de': "Revier-Raid"
 			},
 			effect: {
-				en: "This attack does 20 more damage for each of your remaining Prize cards.",
-				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chacune des cartes Récompense qu’il vous reste.",
-				es: "Este ataque hace 20 puntos de daño más por cada carta de Premio que te quede.",
-				it: "Questo attacco infligge 20 danni in più per ogni carta Premio che ti resta.",
-				pt: "Este ataque causa 20 pontos de dano a mais para cada uma das suas cartas de Prêmio restantes.",
-				de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl deiner verbleibenden Preiskarten zu."
+				'en-us': "This attack does 20 more damage for each of your remaining Prize cards.",
+				'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires pour chacune des cartes Récompense qu’il vous reste.",
+				'es-es': "Este ataque hace 20 puntos de daño más por cada carta de Premio que te quede.",
+				'it-it': "Questo attacco infligge 20 danni in più per ogni carta Premio che ti resta.",
+				'pt-br': "Este ataque causa 20 pontos de dano a mais para cada uma das suas cartas de Prêmio restantes.",
+				'de-de': "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl deiner verbleibenden Preiskarten zu."
 			},
 			damage: "20+",
 
@@ -65,12 +65,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbang",
-				fr: "Frappe de Tête",
-				es: "Cabecear",
-				it: "Scuotitesta",
-				pt: "Baque de Cabeça",
-				de: "Headbangen"
+				'en-us': "Headbang",
+				'fr-fr': "Frappe de Tête",
+				'es-es': "Cabecear",
+				'it-it': "Scuotitesta",
+				'pt-br': "Baque de Cabeça",
+				'de-de': "Headbangen"
 			},
 
 			damage: 70,
@@ -95,7 +95,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This Pokémon may be rude, but it takes very good care of its family, its friends, and its turf.",
+		'en-us': "This Pokémon may be rude, but it takes very good care of its family, its friends, and its turf.",
 	},
 
 	thirdParty: {

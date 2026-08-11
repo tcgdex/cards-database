@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニャルマー",
+		'ja-jp': "ニャルマー",
 	},
 
 	illustrator: "sowsow",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "気に入らないと ツメを 立てるが たまに のどを 鳴らして 甘える 性格が 一部に 大人気だ。",
+		'ja-jp': "気に入らないと ツメを 立てるが たまに のどを 鳴らして 甘える 性格が 一部に 大人気だ。",
 	},
 
 	stage: "Basic",
@@ -23,14 +23,14 @@ const card: Card = {
 			name: { ja: "ねこびより" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を1枚引く。その後、このポケモンをねむりにする。",
+				'ja-jp': "自分の山札を1枚引く。その後、このポケモンをねむりにする。",
 			},
 		},
 		{
 			name: { ja: "びょんびょんテール" },
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手の「ポケモンGX・EX」1匹に、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手の「ポケモンGX・EX」1匹に、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

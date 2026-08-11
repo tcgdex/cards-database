@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Whismur",
-		fr: "Chuchmur",
-		de: "Flurmel"
+		'en-us': "Whismur",
+		'fr-fr': "Chuchmur",
+		'de-de': "Flurmel"
 	},
 
 	illustrator: "Takao Unno",
@@ -29,9 +29,9 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Mumble",
-				fr: "Marmonner",
-				de: "Grummeln"
+				'en-us': "Mumble",
+				'fr-fr': "Marmonner",
+				'de-de': "Grummeln"
 			},
 
 			damage: 10,
@@ -42,14 +42,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Uproar",
-				fr: "Brouhaha",
-				de: "Aufruhr"
+				'en-us': "Uproar",
+				'fr-fr': "Brouhaha",
+				'de-de': "Aufruhr"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse ou la Résistance aux Pokémon de Banc).",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff allen Pokémon deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse ou la Résistance aux Pokémon de Banc).",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff allen Pokémon deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Usually, its cries are like quiet murmurs.  If frightened, it shrieks at the same volume as a jet plane.",
+		'en-us': "Usually, its cries are like quiet murmurs.  If frightened, it shrieks at the same volume as a jet plane.",
 	},
 
 	thirdParty: {

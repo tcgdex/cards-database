@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムゲンダイナV",
+		'ja-jp': "ムゲンダイナV",
 	},
 
 	illustrator: "kodama",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "のぞむなら、自分の手札から[悪]エネルギーを1枚選び、ベンチポケモンにつける。",
+				'ja-jp': "のぞむなら、自分の手札から[悪]エネルギーを1枚選び、ベンチポケモンにつける。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: "120+",
 			cost: ["Darkness", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが「ポケモンVMAX」なら、120ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが「ポケモンVMAX」なら、120ダメージ追加。",
 			},
 		},
 	],

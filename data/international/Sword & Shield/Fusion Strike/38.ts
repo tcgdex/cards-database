@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Simisear",
-		fr: "Flamoutan",
-		es: "Simisear",
-		it: "Simisear",
-		pt: "Simisear",
-		de: "Grillchita"
+		'en-us': "Simisear",
+		'fr-fr': "Flamoutan",
+		'es-es': "Simisear",
+		'it-it': "Simisear",
+		'pt-br': "Simisear",
+		'de-de': "Grillchita"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Pansear",
-		fr: "Flamajou",
-		es: "Pansear",
-		it: "Pansear",
-		pt: "Pansear",
-		de: "Grillmak"
+		'en-us': "Pansear",
+		'fr-fr': "Flamajou",
+		'es-es': "Pansear",
+		'it-it': "Pansear",
+		'pt-br': "Pansear",
+		'de-de': "Grillmak"
 	},
 
 	stage: "Stage1",
@@ -40,19 +40,19 @@ const card: Card = {
 	illustrator: "Tomokazu Komiya",
 
 	description: {
-		en: "When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets."
+		'en-us': "When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Light Punch",
-			fr: "Poing Léger",
-			de: "Leichter Hieb",
-			es: "Puño Ligero",
-			pt: "Soco de Luz",
-			it: "Pugnetto"
+			'en-us': "Light Punch",
+			'fr-fr': "Poing Léger",
+			'de-de': "Leichter Hieb",
+			'es-es': "Puño Ligero",
+			'pt-br': "Soco de Luz",
+			'it-it': "Pugnetto"
 		},
 
 		damage: 20
@@ -60,23 +60,23 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Fling Fire",
-			fr: "Dégommage Enflammé",
-			de: "Feuerschleuder",
-			es: "Lanzamiento Ígneo",
-			pt: "Arremessar Fogo",
-			it: "Lancio di Fuoco"
+			'en-us': "Fling Fire",
+			'fr-fr': "Dégommage Enflammé",
+			'de-de': "Feuerschleuder",
+			'es-es': "Lanzamiento Ígneo",
+			'pt-br': "Arremessar Fogo",
+			'it-it': "Lancio di Fuoco"
 		},
 
 		damage: "60×",
 
 		effect: {
-			en: "Discard up to 2 basic Energy cards from your hand. This attack does 60 damage for each card you discarded in this way.",
-			fr: "Défaussez jusqu'à 2 cartes Énergie de base de votre main. Cette attaque inflige 60 dégâts pour chaque carte défaussée de cette façon.",
-			de: "Lege bis zu 2 Basis-Energiekarten aus deiner Hand auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 60 Schadenspunkte zu.",
-			es: "Descarta hasta 2 cartas de Energía Básica de tu mano. Este ataque hace 60 puntos de daño por cada carta que hayas descartado de esta manera.",
-			pt: "Descarte até 2 cartas de Energia básica da sua mão. Este ataque causa 60 pontos de dano para cada carta descartada desta forma.",
-			it: "Scarta fino a due carte Energia base dalla tua mano. Questo attacco infligge 60 danni per ogni carta che hai scartato in questo modo."
+			'en-us': "Discard up to 2 basic Energy cards from your hand. This attack does 60 damage for each card you discarded in this way.",
+			'fr-fr': "Défaussez jusqu'à 2 cartes Énergie de base de votre main. Cette attaque inflige 60 dégâts pour chaque carte défaussée de cette façon.",
+			'de-de': "Lege bis zu 2 Basis-Energiekarten aus deiner Hand auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 60 Schadenspunkte zu.",
+			'es-es': "Descarta hasta 2 cartas de Energía Básica de tu mano. Este ataque hace 60 puntos de daño por cada carta que hayas descartado de esta manera.",
+			'pt-br': "Descarte até 2 cartas de Energia básica da sua mão. Este ataque causa 60 pontos de dano para cada carta descartada desta forma.",
+			'it-it': "Scarta fino a due carte Energia base dalla tua mano. Questo attacco infligge 60 danni per ogni carta che hai scartato in questo modo."
 		}
 	}],
 

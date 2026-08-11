@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Golduck",
-		fr: "Akwakwak",
-		es: "Golduck",
-		it: "Golduck",
-		pt: "Golduck",
-		de: "Entoron"
+		'en-us': "Golduck",
+		'fr-fr': "Akwakwak",
+		'es-es': "Golduck",
+		'it-it': "Golduck",
+		'pt-br': "Golduck",
+		'de-de': "Entoron"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Psyduck",
-		fr: "Psykokwak",
-		es: "Psyduck",
-		it: "Psyduck",
-		pt: "Psyduck",
-		de: "Enton"
+		'en-us': "Psyduck",
+		'fr-fr': "Psykokwak",
+		'es-es': "Psyduck",
+		'it-it': "Psyduck",
+		'pt-br': "Psyduck",
+		'de-de': "Enton"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Derail",
-				fr: "Déraillement",
-				es: "Descarrilar",
-				it: "Deragliamento",
-				pt: "Descarrilar",
-				de: "Entgleisen"
+				'en-us': "Derail",
+				'fr-fr': "Déraillement",
+				'es-es': "Descarrilar",
+				'it-it': "Deragliamento",
+				'pt-br': "Descarrilar",
+				'de-de': "Entgleisen"
 			},
 			effect: {
-				en: "Discard a Special Energy attached to your opponent's Active Pokémon.",
-				fr: "Défaussez une Énergie spéciale attachée au Pokémon Actif de votre adversaire.",
-				es: "Descarta 1 Energía Especial unida al Pokémon Activo de tu rival.",
-				it: "Scarta un'Energia speciale assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Descarte uma Energia Especial ligada ao Pokémon Ativo do seu oponente.",
-				de: "Lege 1 an das Aktive Pokémon deines Gegners angelegte Spezial-Energie auf den Ablagestapel deines Gegners."
+				'en-us': "Discard a Special Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Défaussez une Énergie spéciale attachée au Pokémon Actif de votre adversaire.",
+				'es-es': "Descarta 1 Energía Especial unida al Pokémon Activo de tu rival.",
+				'it-it': "Scarta un'Energia speciale assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Descarte uma Energia Especial ligada ao Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 1 an das Aktive Pokémon deines Gegners angelegte Spezial-Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 20,
 
@@ -68,12 +68,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Splash",
-				fr: "Hydro-Éclaboussure",
-				es: "Hidroestallido",
-				it: "Idrosplash",
-				pt: "Hidro Borrifada",
-				de: "Hydroplatscher"
+				'en-us': "Hydro Splash",
+				'fr-fr': "Hydro-Éclaboussure",
+				'es-es': "Hidroestallido",
+				'it-it': "Idrosplash",
+				'pt-br': "Hidro Borrifada",
+				'de-de': "Hydroplatscher"
 			},
 
 			damage: 70,
@@ -91,7 +91,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The forelegs are webbed, helping to make it an adept swimmer. It can be seen swimming elegantly in lakes, etc.",
+		'en-us': "The forelegs are webbed, helping to make it an adept swimmer. It can be seen swimming elegantly in lakes, etc.",
 	},
 
 	thirdParty: {

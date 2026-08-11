@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bruxish",
-		fr: "Denticrisse",
-		es: "Bruxish",
-		it: "Bruxish",
-		pt: "Bruxish",
-		de: "Knirfish"
+		'en-us': "Bruxish",
+		'fr-fr': "Denticrisse",
+		'es-es': "Bruxish",
+		'it-it': "Bruxish",
+		'pt-br': "Bruxish",
+		'de-de': "Knirfish"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -22,24 +22,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			es: "Mordisco",
-			it: "Morso",
-			pt: "Mordida",
-			de: "Biss"
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'es-es': "Mordisco",
+			'it-it': "Morso",
+			'pt-br': "Mordida",
+			'de-de': "Biss"
 		},
 
 		damage: 20,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Surf",
-			fr: "Surf",
-			es: "Surf",
-			it: "Surf",
-			pt: "Surfar",
-			de: "Surfer"
+			'en-us': "Surf",
+			'fr-fr': "Surf",
+			'es-es': "Surf",
+			'it-it': "Surf",
+			'pt-br': "Surfar",
+			'de-de': "Surfer"
 		},
 
 		damage: 110,
@@ -58,7 +58,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its skin is thick enough to fend off Mareanie's spikes. With its robust teeth, Bruxish crunches up the spikes and eats them."
+		'en-us': "Its skin is thick enough to fend off Mareanie's spikes. With its robust teeth, Bruxish crunches up the spikes and eats them."
 	},
 
 	variants: [

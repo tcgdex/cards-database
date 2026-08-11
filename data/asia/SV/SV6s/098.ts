@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Sandslash"
+		'id-id': "Sandslash"
 	},
 
 	illustrator: "Nisota Niso",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Durinya adalah kulitnya yang mengeras. Ia membulatkan tubuhnya dan menyerang dengan menusuk lawannya menggunakan duri-durinya."
+		'id-id': "Durinya adalah kulitnya yang mengeras. Ia membulatkan tubuhnya dan menyerang dengan menusuk lawannya menggunakan duri-durinya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Memasang Cakar"
+			'id-id': "Memasang Cakar"
 		},
 
 		damage: 30,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Gempa"
+			'id-id': "Gempa"
 		},
 
 		effect: {
-			id: "Serangan ini juga memberikan kerusakan masing-masing sejumlah 10 kepada semua Pokémon Cadangan sendiri. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
+			'id-id': "Serangan ini juga memberikan kerusakan masing-masing sejumlah 10 kepada semua Pokémon Cadangan sendiri. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
 		},
 
 		damage: 120,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Leavanny",
-		fr: "Manternel",
-		es: "Leavanny",
-		it: "Leavanny",
-		pt: "Leavanny",
-		de: "Matrifol"
+		'en-us': "Leavanny",
+		'fr-fr': "Manternel",
+		'es-es': "Leavanny",
+		'it-it': "Leavanny",
+		'pt-br': "Leavanny",
+		'de-de': "Matrifol"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Swadloon",
-		fr: "Couverdure",
+		'en-us': "Swadloon",
+		'fr-fr': "Couverdure",
 	},
 
 	stage: "Stage2",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
 			},
 
 			damage: 30,
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Triple Cutter",
-				fr: "Triple Lame",
+				'en-us': "Triple Cutter",
+				'fr-fr': "Triple Lame",
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 60 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 3 coins. This attack does 60 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 60,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It keeps its eggs warm with heat from fermenting leaves. It also uses leaves to make warm wrappings for Sewaddle.",
+		'en-us': "It keeps its eggs warm with heat from fermenting leaves. It also uses leaves to make warm wrappings for Sewaddle.",
 	},
 
 	thirdParty: {

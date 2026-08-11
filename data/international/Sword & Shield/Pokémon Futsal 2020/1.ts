@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Pokémon Futsal 2020'
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu on the Ball"
+		'en-us': "Pikachu on the Ball"
 	},
 
 	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
@@ -14,7 +14,7 @@ const card: Card = {
 	category: "Pokemon",
 
 	description: {
-		en: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy."
+		'en-us': "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy."
 	},
 
 	hp: 60,
@@ -25,7 +25,7 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Tail Whap"
+			'en-us': "Tail Whap"
 		},
 
 		damage: 10
@@ -33,13 +33,13 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			en: "Lightning Shot"
+			'en-us': "Lightning Shot"
 		},
 
 		damage: 120,
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing."
+			'en-us': "Flip a coin. If tails, this attack does nothing."
 		}
 	}],
 

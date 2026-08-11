@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Compagnol",
-		en: "Tandemaus",
-		es: "Tandemaus",
-		it: "Tandemaus",
-		pt: "Tandemaus",
-		de: "Zwieps"
+		'fr-fr': "Compagnol",
+		'en-us': "Tandemaus",
+		'es-es': "Tandemaus",
+		'it-it': "Tandemaus",
+		'pt-br': "Tandemaus",
+		'de-de': "Zwieps"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Accrochage",
-			en: "Attach",
-			es: "Pegarse",
-			it: "Appiccicoso",
-			pt: "Conectar",
-			de: "Festkleben"
+			'fr-fr': "Accrochage",
+			'en-us': "Attach",
+			'es-es': "Pegarse",
+			'it-it': "Appiccicoso",
+			'pt-br': "Conectar",
+			'de-de': "Festkleben"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Coud'Pattes",
-			en: "Smash Kick",
-			es: "Patada Destrucción",
-			it: "Calcio Esplosivo",
-			pt: "Chute Poderoso",
-			de: "Schmetterkick"
+			'fr-fr': "Coud'Pattes",
+			'en-us': "Smash Kick",
+			'es-es': "Patada Destrucción",
+			'it-it': "Calcio Esplosivo",
+			'pt-br': "Chute Poderoso",
+			'de-de': "Schmetterkick"
 		},
 
 		damage: 20
@@ -79,7 +79,7 @@ const card: Card = {
 	illustrator: "Sekio",
 
 	description: {
-		en: "Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them.",
+		'en-us': "Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them.",
 	},
 }
 

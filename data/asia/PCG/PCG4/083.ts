@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Teddiursa",
+		'ja-jp': "Teddiursa",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "涙目",
+				'ja-jp': "涙目",
 			},
 			effect: {
-				ja: "対戦相手の次のターン中に、攻撃によってTeddiursaに与えられた損害は20倍に減少します（脱力感と抵抗を適用した後）。",
+				'ja-jp': "対戦相手の次のターン中に、攻撃によってTeddiursaに与えられた損害は20倍に減少します（脱力感と抵抗を適用した後）。",
 			},
 		},
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "傷",
+				'ja-jp': "傷",
 			},
 			damage: 10,
 		},

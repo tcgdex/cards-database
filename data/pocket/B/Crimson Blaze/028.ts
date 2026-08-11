@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [694],
 
 	name: {
-		en: "Helioptile"
+		'en-us': "Helioptile"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "The sun powers this Pokémon's electricity\ngeneration. Interruption of that process\nstresses Helioptile to the point of weakness."
+		'en-us': "The sun powers this Pokémon's electricity\ngeneration. Interruption of that process\nstresses Helioptile to the point of weakness."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Thunder Shock"
+			'en-us': "Thunder Shock"
 		},
 
 		damage: 10,
 		cost: ["Lightning"],
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
 		}
 	}],
 

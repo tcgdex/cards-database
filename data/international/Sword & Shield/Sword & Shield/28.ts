@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Salazzle",
-		fr: "Malamandre",
-		es: "Salazzle",
-		it: "Salazzle",
-		pt: "Salazzle",
-		de: "Amfira"
+		'en-us': "Salazzle",
+		'fr-fr': "Malamandre",
+		'es-es': "Salazzle",
+		'it-it': "Salazzle",
+		'pt-br': "Salazzle",
+		'de-de': "Amfira"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Salandit",
-		fr: "Tritox",
-		es: "Salandit",
-		it: "Salandit",
-		pt: "Salandit",
-		de: "Molunk"
+		'en-us': "Salandit",
+		'fr-fr': "Tritox",
+		'es-es': "Salandit",
+		'it-it': "Salandit",
+		'pt-br': "Salandit",
+		'de-de': "Molunk"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Searing Flame",
-				fr: "Flammes Calcinantes",
-				es: "Llama Abrasadora",
-				it: "Fiamme Ustionanti",
-				pt: "Chama Cauterizante",
-				de: "Sengende Flammen"
+				'en-us': "Searing Flame",
+				'fr-fr': "Flammes Calcinantes",
+				'es-es': "Llama Abrasadora",
+				'it-it': "Fiamme Ustionanti",
+				'pt-br': "Chama Cauterizante",
+				'de-de': "Sengende Flammen"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Burned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+				'en-us': "Your opponent's Active Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 			},
 			damage: 20,
 
@@ -67,20 +67,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bright Flame",
-				fr: "Flamme Éclatante",
-				es: "Llama Viva",
-				it: "Splendifiamma",
-				pt: "Chama Reluzente",
-				de: "Helle Flamme"
+				'en-us': "Bright Flame",
+				'fr-fr': "Flamme Éclatante",
+				'es-es': "Llama Viva",
+				'it-it': "Splendifiamma",
+				'pt-br': "Chama Reluzente",
+				'de-de': "Helle Flamme"
 			},
 			effect: {
-				en: "Discard 2 Energy from this Pokémon.",
-				fr: "Défaussez 2 Énergies de ce Pokémon.",
-				es: "Descarta 2 Energías de este Pokémon.",
-				it: "Scarta due Energie da questo Pokémon.",
-				pt: "Descarte 2 Energias deste Pokémon.",
-				de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard 2 Energy from this Pokémon.",
+				'fr-fr': "Défaussez 2 Énergies de ce Pokémon.",
+				'es-es': "Descarta 2 Energías de este Pokémon.",
+				'it-it': "Scarta due Energie da questo Pokémon.",
+				'pt-br': "Descarte 2 Energias deste Pokémon.",
+				'de-de': "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 120,
 
@@ -105,7 +105,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Only female Salazzle exist. They emit a gas laden with pheromones to captivate male Salandit."
+		'en-us': "Only female Salazzle exist. They emit a gas laden with pheromones to captivate male Salandit."
 	},
 
 	thirdParty: {

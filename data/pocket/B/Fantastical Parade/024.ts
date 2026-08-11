@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [813],
 
 	name: {
-		en: "Scorbunny"
+		'en-us': "Scorbunny"
 	},
 
 	illustrator: "kirisAki",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "Fire energy gathers in the pads of its feet,\nraising their temperature. Once hot, Scorbunny's\nfootpads can deal heavy damage to opponents."
+		'en-us': "Fire energy gathers in the pads of its feet,\nraising their temperature. Once hot, Scorbunny's\nfootpads can deal heavy damage to opponents."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Flop"
+			'en-us': "Flop"
 		},
 
 		damage: 20,

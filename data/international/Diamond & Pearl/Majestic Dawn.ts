@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Diamond & Pearl'
 
 const dp5: Set = {
 	id: "dp5",
 
 	name: {
-		en: "Majestic Dawn",
-		fr: "Aube Majestueuse",
-		it: "Alba Suprema",
-		de: "Majestätischer Morgen"
+		'en-us': "Majestic Dawn",
+		'fr-fr': "Aube Majestueuse",
+		'it-it': "Alba Suprema",
+		'de-de': "Majestätischer Morgen"
 	},
 
 	serie: serie,
@@ -22,7 +22,7 @@ const dp5: Set = {
 
 	abbreviations: {
 		official: "MD",
-		fr: "AMJ"
+		'fr-fr': "AMJ"
 	},
 
 	thirdParty: {

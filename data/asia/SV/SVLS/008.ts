@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVLS"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "レジスチル"
+		'ja-jp': "レジスチル"
 	},
 
 	illustrator: "Shiburingaru",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "伸び縮みする 柔らかさも あるが どんな 金属よりも 頑丈な 不思議な 物質で できている。"
+		'ja-jp': "伸び縮みする 柔らかさも あるが どんな 金属よりも 頑丈な 不思議な 物質で できている。"
 	},
 
 	stage: "Basic",
@@ -24,13 +24,13 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			ja: "レイジングハンマー"
+			'ja-jp': "レイジングハンマー"
 		},
 
 		damage: "60＋",
 
 		effect: {
-			ja: "このポケモンにのっているダメカンの数×10ダメージ追加。"
+			'ja-jp': "このポケモンにのっているダメカンの数×10ダメージ追加。"
 		}
 	}],
 

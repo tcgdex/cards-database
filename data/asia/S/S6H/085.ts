@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "はくばバドレックスVMAX",
+		'ja-jp': "はくばバドレックスVMAX",
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモンの数×30ダメージ追加。",
+				'ja-jp': "相手のベンチポケモンの数×30ダメージ追加。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Water", "Water"],
 			effect: {
-				ja: "のぞむなら、このポケモンについているエネルギーを2枚まで選び、トラッシュする。その場合、トラッシュした枚数×120ダメージ追加。",
+				'ja-jp': "のぞむなら、このポケモンについているエネルギーを2枚まで選び、トラッシュする。その場合、トラッシュした枚数×120ダメージ追加。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "はくばバドレックスV",
+		'ja-jp': "はくばバドレックスV",
 	},
 
 	retreat: 2,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムンナ",
+		'ja-jp': "ムンナ",
 		'zh-tw': "食夢夢",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "夢を 食べて 煙を 吐く。 楽しい 夢なら ピンク色で 悪夢の ときは 黒っぽいぞ。",
+		'ja-jp': "夢を 食べて 煙を 吐く。 楽しい 夢なら ピンク色で 悪夢の ときは 黒っぽいぞ。",
 		'zh-tw': "在吃掉夢之後會吐出煙霧。吃了快樂的夢時，煙霧是粉紅色的；如果是惡夢，煙霧則是黑灰色的。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶつかる",
+				'ja-jp': "ぶつかる",
 				'zh-tw': "衝撞",
 			},
 			damage: 10,

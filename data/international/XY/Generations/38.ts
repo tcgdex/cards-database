@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Diglett",
-		fr: "Taupiqueur",
+		'en-us': "Diglett",
+		'fr-fr': "Taupiqueur",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mine",
-				fr: "Mine",
+				'en-us': "Mine",
+				'fr-fr': "Mine",
 			},
 			effect: {
-				en: "Look at the top card of your opponent's deck. Then, you may have your opponent shuffle his or her deck.",
-				fr: "Regardez la carte du dessus du deck de votre adversaire. Ensuite, vous pouvez demander à votre adversaire de mélanger son deck.",
+				'en-us': "Look at the top card of your opponent's deck. Then, you may have your opponent shuffle his or her deck.",
+				'fr-fr': "Regardez la carte du dessus du deck de votre adversaire. Ensuite, vous pouvez demander à votre adversaire de mélanger son deck.",
 			},
 
 		},
@@ -45,8 +45,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud-Slap",
-				fr: "Coud'Boue",
+				'en-us': "Mud-Slap",
+				'fr-fr': "Coud'Boue",
 			},
 
 			damage: 20,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Lives about one yard underground where it feeds on plant roots. It sometimes appears aboveground.",
+		'en-us': "Lives about one yard underground where it feeds on plant roots. It sometimes appears aboveground.",
 	},
 
 	thirdParty: {

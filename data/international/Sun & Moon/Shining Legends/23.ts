@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Floatzel",
-		fr: "Mustéflott",
-		es: "Floatzel",
-		it: "Floatzel",
-		pt: "Floatzel",
-		de: "Bojelin"
+		'en-us': "Floatzel",
+		'fr-fr': "Mustéflott",
+		'es-es': "Floatzel",
+		'it-it': "Floatzel",
+		'pt-br': "Floatzel",
+		'de-de': "Bojelin"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Buizel",
-		fr: "Mustébouée",
+		'en-us': "Buizel",
+		'fr-fr': "Mustébouée",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Fin",
-				fr: "Aileron-Rasoir",
-				es: "Aleta Afilada",
-				it: "Pinnalama",
-				pt: "Barbatana Cortante",
-				de: "Rasierflosse"
+				'en-us': "Razor Fin",
+				'fr-fr': "Aileron-Rasoir",
+				'es-es': "Aleta Afilada",
+				'it-it': "Pinnalama",
+				'pt-br': "Barbatana Cortante",
+				'de-de': "Rasierflosse"
 			},
 
 			damage: 20,
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Bomb",
-				fr: "Aqua Bombe",
-				es: "Bomba de Agua",
-				it: "Acquabomba",
-				pt: "Bomba Aquática",
-				de: "Wasserbombe"
+				'en-us': "Aqua Bomb",
+				'fr-fr': "Aqua Bombe",
+				'es-es': "Bomba de Agua",
+				'it-it': "Acquabomba",
+				'pt-br': "Bomba Aquática",
+				'de-de': "Wasserbombe"
 			},
 			effect: {
-				en: "This Pokémon does 30 damage to itself.",
-				fr: "Ce Pokémon s’inflige 30 dégâts.",
-				es: "Este Pokémon se hace 30 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 30 danni a se stesso.",
-				pt: "Este Pokémon causa 30 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 30 Schadenspunkte zu."
+				'en-us': "This Pokémon does 30 damage to itself.",
+				'fr-fr': "Ce Pokémon s’inflige 30 dégâts.",
+				'es-es': "Este Pokémon se hace 30 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 30 danni a se stesso.",
+				'pt-br': "Este Pokémon causa 30 pontos de dano a si mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 30 Schadenspunkte zu."
 			},
 			damage: 120,
 
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It floats using its well-developed flotation sac. It assists in the rescues of drowning people.",
+		'en-us': "It floats using its well-developed flotation sac. It assists in the rescues of drowning people.",
 	},
 
 	thirdParty: {

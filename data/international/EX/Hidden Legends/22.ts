@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Ninetales",
-		fr: "Feunard",
-		de: "Vulnona"
+		'en-us': "Ninetales",
+		'fr-fr': "Feunard",
+		'de-de': "Vulnona"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vulpix",
-		fr: "Goupix"
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Safeguard",
-				fr: "Rune protectrice",
-				de: "Safeguard"
+				'en-us': "Safeguard",
+				'fr-fr': "Rune protectrice",
+				'de-de': "Safeguard"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, including damage, done to Ninetales by your opponent's Pokémon-ex.",
-				fr: "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Feunard par le Pokémon-ex de votre adversaire.",
-				de: "Prevent all effects of attacks, including damage, done to Ninetales by your opponent's Pokémon-ex."
+				'en-us': "Prevent all effects of attacks, including damage, done to Ninetales by your opponent's Pokémon-ex.",
+				'fr-fr': "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Feunard par le Pokémon-ex de votre adversaire.",
+				'de-de': "Prevent all effects of attacks, including damage, done to Ninetales by your opponent's Pokémon-ex."
 			}
 		},
 	],
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-attaque",
-				de: "Quick Attack"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-attaque",
+				'de-de': "Quick Attack"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Flip a coin. If heads, this attack does 20 damage plus 20 more damage."
 			},
 			damage: "20+",
 
@@ -70,9 +70,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Will-o'-the-wisp",
-				fr: "Feu follet",
-				de: "Will-o'-the-wisp"
+				'en-us': "Will-o'-the-wisp",
+				'fr-fr': "Feu follet",
+				'de-de': "Will-o'-the-wisp"
 			},
 
 			damage: 50,

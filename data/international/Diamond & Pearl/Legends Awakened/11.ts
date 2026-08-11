@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo",
-		fr: "Mewtwo",
-		de: "Mewtu"
+		'en-us': "Mewtwo",
+		'fr-fr': "Mewtwo",
+		'de-de': "Mewtu"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnoblast",
-				fr: "Hypnoblast",
-				de: "Hypnoschuss"
+				'en-us': "Hypnoblast",
+				'fr-fr': "Hypnoblast",
+				'de-de': "Hypnoschuss"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 10,
 
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic",
-				fr: "Psyko",
-				de: "Psychokinese"
+				'en-us': "Psychic",
+				'fr-fr': "Psyko",
+				'de-de': "Psychokinese"
 			},
 			effect: {
-				en: "Does 40 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
-				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
-				de: "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede Energie, die am Verteidigenden Pokémon angelegt ist, zu."
+				'en-us': "Does 40 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
+				'fr-fr': "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede Energie, die am Verteidigenden Pokémon angelegt ist, zu."
 			},
 			damage: "40+",
 
@@ -74,8 +74,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
-		fr: "Un Pokémon conçu en réorganisant les gènes de Mew. On raconte qu'il s'agit du Pokémon le plus féroce."
+		'en-us': "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
+		'fr-fr': "Un Pokémon conçu en réorganisant les gènes de Mew. On raconte qu'il s'agit du Pokémon le plus féroce."
 	},
 
 	thirdParty: {

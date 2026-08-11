@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ボーマンダex"
+		'ja-jp': "ボーマンダex"
 	},
 
 	illustrator: "Tsuyoshi Nagano",
@@ -20,23 +20,23 @@ const card: Card = {
 		cost: ["Fire", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ワイドブラスト"
+			'ja-jp': "ワイドブラスト"
 		},
 
 		effect: {
-			ja: "相手のベンチポケモン全員に、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			'ja-jp': "相手のベンチポケモン全員に、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
 		}
 	}, {
 		cost: ["Fire", "Water", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ドラゴンインパクト"
+			'ja-jp': "ドラゴンインパクト"
 		},
 
 		damage: 300,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを2個選び、トラッシュする。"
+			'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。"
 		}
 	}],
 

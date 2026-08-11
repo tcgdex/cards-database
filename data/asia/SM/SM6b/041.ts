@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハッサムGX",
+		'ja-jp': "ハッサムGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "きけんしょく" },
 			effect: {
-				ja: "このポケモンの残りHPが「100」以下なら、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+80」される。",
+				'ja-jp': "このポケモンの残りHPが「100」以下なら、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+80」される。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Metal", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
 			},
 		},
 		{
@@ -38,7 +38,7 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが進化ポケモンなら、100ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のバトルポケモンが進化ポケモンなら、100ダメージ追加。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -56,7 +56,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ストライク",
+		'ja-jp': "ストライク",
 	},
 
 	retreat: 1,

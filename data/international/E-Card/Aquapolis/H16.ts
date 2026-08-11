@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Magneton",
-		fr: "Magneton",
-		de: "Magneton"
+		'en-us': "Magneton",
+		'fr-fr': "Magneton",
+		'de-de': "Magneton"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magnemite",
-		fr: "Magnéti"
+		'en-us': "Magnemite",
+		'fr-fr': "Magnéti"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Magnetic Flow",
-				fr: "Torrent magnétique",
-				de: "Magnetic Flow"
+				'en-us': "Magnetic Flow",
+				'fr-fr': "Torrent magnétique",
+				'de-de': "Magnetic Flow"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Magneton is your Active Pokémon, you may flip a coin. If heads, choose 2 of your opponent's Pokémon that have Energy cards attached to them. Choose 1 of the Energy cards attached to each of those Pokémon and switch them between the Pokémon. This power can't be used if Magneton is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), si Magneton est votre Pokémon Actif, vous pouvez lancer une pièce. Si c'est face, choisissez deux des Pokémon de votre adversaire avec des cartes Énergie attachées à eux. Choisissez une des cartes Énergie attachée à chacun de ces Pokémon et échangez-les entre les Pokémon. Ce pouvoir ne peut pas être utilisé si Magneton est affecté par un État spécial.",
-				de: "Once during your turn (before your attack), if Magneton is your Active Pokémon, you may flip a coin. If heads, choose 2 of your opponent's Pokémon that have Energy cards attached to them. Choose 1 of the Energy cards attached to each of those Pokémon and switch them between the Pokémon. This power can't be used if Magneton is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), if Magneton is your Active Pokémon, you may flip a coin. If heads, choose 2 of your opponent's Pokémon that have Energy cards attached to them. Choose 1 of the Energy cards attached to each of those Pokémon and switch them between the Pokémon. This power can't be used if Magneton is affected by a Special Condition.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), si Magneton est votre Pokémon Actif, vous pouvez lancer une pièce. Si c'est face, choisissez deux des Pokémon de votre adversaire avec des cartes Énergie attachées à eux. Choisissez une des cartes Énergie attachée à chacun de ces Pokémon et échangez-les entre les Pokémon. Ce pouvoir ne peut pas être utilisé si Magneton est affecté par un État spécial.",
+				'de-de': "Once during your turn (before your attack), if Magneton is your Active Pokémon, you may flip a coin. If heads, choose 2 of your opponent's Pokémon that have Energy cards attached to them. Choose 1 of the Energy cards attached to each of those Pokémon and switch them between the Pokémon. This power can't be used if Magneton is affected by a Special Condition."
 			}
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steel Wave",
-				fr: "Vague d'acier",
-				de: "Steel Wave"
+				'en-us': "Steel Wave",
+				'fr-fr': "Vague d'acier",
+				'de-de': "Steel Wave"
 			},
 			effect: {
-				en: "This attack does 10 damage to each of your opponent's Benched Pokémon that are the same type (color) as the Defending Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 10 dégâts à chacun des Pokémon du Banc de votre adversaire qui sont du même type (de la même couleur) que le Pokémon Défenseur. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
-				de: "This attack does 10 damage to each of your opponent's Benched Pokémon that are the same type (color) as the Defending Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "This attack does 10 damage to each of your opponent's Benched Pokémon that are the same type (color) as the Defending Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 10 dégâts à chacun des Pokémon du Banc de votre adversaire qui sont du même type (de la même couleur) que le Pokémon Défenseur. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
+				'de-de': "This attack does 10 damage to each of your opponent's Benched Pokémon that are the same type (color) as the Defending Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 30,
 

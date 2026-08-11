@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホップのバイウールー",
+		'ja-jp': "ホップのバイウールー",
 	},
 
 	illustrator: "Ryota Murayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "立派に 伸びた ツノは 異性に アピールするために 生えている。 武器として 使うことはない。",
+		'ja-jp': "立派に 伸びた ツノは 異性に アピールするために 生えている。 武器として 使うことはない。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "チャレンジホーン" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
 			},
 		},
 	],
@@ -62,7 +62,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ホップのウールー",
+		'ja-jp': "ホップのウールー",
 	},
 
 	retreat: 2,

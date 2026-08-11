@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Snom",
-		fr: "Frissonille",
-		es: "Snom",
-		it: "Snom",
-		pt: "Snom",
-		de: "Snomnom"
+		'en-us': "Snom",
+		'fr-fr': "Frissonille",
+		'es-es': "Snom",
+		'it-it': "Snom",
+		'pt-br': "Snom",
+		'de-de': "Snomnom"
 	},
 
 	rarity: "Illustration rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Powder Snow",
-			fr: "Poudreuse",
-			es: "Nieve Polvo",
-			it: "Polneve",
-			pt: "Neve em Pó",
-			de: "Pulverschnee"
+			'en-us': "Powder Snow",
+			'fr-fr': "Poudreuse",
+			'es-es': "Nieve Polvo",
+			'it-it': "Polneve",
+			'pt-br': "Neve em Pó",
+			'de-de': "Pulverschnee"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 		},
 
 		damage: 10
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It eats snow that has accumulated on the ground. It prefers soft, freshly fallen snow, so it will eat its way up a mountain, aiming for the peak.",
+		'en-us': "It eats snow that has accumulated on the ground. It prefers soft, freshly fallen snow, so it will eat its way up a mountain, aiming for the peak.",
 	},
 
 	variants: [

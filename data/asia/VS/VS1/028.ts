@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャスミンのマグネトン",
+		'ja-jp': "ジャスミンのマグネトン",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless", "Colorless"],
 			name: {
-				ja: "ソニックブーム",
+				'ja-jp': "ソニックブーム",
 			},
 			effect: {
-				ja: "この攻撃に衰弱と抵抗を適用しないでください。 （衰弱と抵抗を適用した後に発生する他の効果はまだ起こります。）",
+				'ja-jp': "この攻撃に衰弱と抵抗を適用しないでください。 （衰弱と抵抗を適用した後に発生する他の効果はまだ起こります。）",
 			},
 			damage: 30,
 		},

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Latios",
-		fr: "Latios",
+		'en-us': "Latios",
+		'fr-fr': "Latios",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Suersonic Flight",
-				fr: "Voyage Supersonique",
+				'en-us': "Suersonic Flight",
+				'fr-fr': "Voyage Supersonique",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 			},
 			damage: 40,
 
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psyburn",
-				fr: "Brûlure Psy"
+				'en-us': "Psyburn",
+				'fr-fr': "Brûlure Psy"
 			},
 
 			damage: 70,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting.",
+		'en-us': "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting.",
 	},
 
 	thirdParty: {

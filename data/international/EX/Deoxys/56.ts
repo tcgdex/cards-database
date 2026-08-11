@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Carvanha",
-		fr: "Carvanha",
-		de: "Kanivanha"
+		'en-us': "Carvanha",
+		'fr-fr': "Carvanha",
+		'de-de': "Kanivanha"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Sharp Fin",
-				fr: "Aileron aiguisé",
-				de: "Sharp Fin"
+				'en-us': "Sharp Fin",
+				'fr-fr': "Aileron aiguisé",
+				'de-de': "Sharp Fin"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rage",
-				fr: "Frénésie",
-				de: "Rage"
+				'en-us': "Rage",
+				'fr-fr': "Frénésie",
+				'de-de': "Rage"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each damage counter on Carvanha.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur Carvanha.",
-				de: "Does 10 damage plus 10 more damage for each damage counter on Carvanha."
+				'en-us': "Does 10 damage plus 10 more damage for each damage counter on Carvanha.",
+				'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur Carvanha.",
+				'de-de': "Does 10 damage plus 10 more damage for each damage counter on Carvanha."
 			},
 			damage: "10+",
 

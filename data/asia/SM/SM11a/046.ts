@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アクジキング",
+		'ja-jp': "アクジキング",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "この世界では 異質で 危険だが 本来 棲んでいる 世界では 普通に 見かける 生物らしい。",
+		'ja-jp': "この世界では 異質で 危険だが 本来 棲んでいる 世界では 普通に 見かける 生物らしい。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "やまかじり" },
 			cost: ["Darkness"],
 			effect: {
-				ja: "相手の山札を上から1枚トラッシュする。",
+				'ja-jp': "相手の山札を上から1枚トラッシュする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Darkness", "Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージで、相手のポケモンがきぜつしたなら、サイドを1枚多くとる。",
+				'ja-jp': "このワザのダメージで、相手のポケモンがきぜつしたなら、サイドを1枚多くとる。",
 			},
 		},
 	],

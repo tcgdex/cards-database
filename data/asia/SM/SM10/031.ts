@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴース",
+		'ja-jp': "ゴース",
 	},
 
 	illustrator: "MAHOU",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "墓場で 発生する ガスに 怨念が 宿るうち やがて ポケモンに なったと いわれている。",
+		'ja-jp': "墓場で 発生する ガスに 怨念が 宿るうち やがて ポケモンに なったと いわれている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "スモッグ" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 			},
 		},
 	],

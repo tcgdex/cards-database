@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ベロベルト",
+		'ja-jp': "ベロベルト",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "舌が どこまで 伸びるのかの コンテストが 開催 されている。 現在の 最高記録は２５ｍ。",
+		'ja-jp': "舌が どこまで 伸びるのかの コンテストが 開催 されている。 現在の 最高記録は２５ｍ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。トラッシュした場合、このポケモンのHPを、すべて回復する。",
+				'ja-jp': "ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。トラッシュした場合、このポケモンのHPを、すべて回復する。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "60×",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを4回投げ、オモテの数x60ダメージ。",
+				'ja-jp': "コインを4回投げ、オモテの数x60ダメージ。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ベロリンガ",
+		'ja-jp': "ベロリンガ",
 	},
 
 	retreat: 4,

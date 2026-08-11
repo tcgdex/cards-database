@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Misdreavus",
+		'en-us': "Misdreavus",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -30,7 +30,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spooky Shot",
+				'en-us': "Spooky Shot",
 			},
 
 			damage: 20,
@@ -48,7 +48,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon that startles people in the middle of the night. It gathers fear as its energy.",
+		'en-us': "A Pokémon that startles people in the middle of the night. It gathers fear as its energy.",
 	},
 
 	thirdParty: {

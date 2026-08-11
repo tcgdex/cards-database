@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [536],
 
 	name: {
-		en: "Palpitoad",
-		fr: "Batracné",
-		es: "Palpitoad",
-		it: "Palpitoad",
-		pt: "Palpitoad",
-		de: "Mebrana"
+		'en-us': "Palpitoad",
+		'fr-fr': "Batracné",
+		'es-es': "Palpitoad",
+		'it-it': "Palpitoad",
+		'pt-br': "Palpitoad",
+		'de-de': "Mebrana"
 	},
 
 	illustrator: "MAHOU",
@@ -19,12 +19,12 @@ const card: Card = {
 	set: Set,
 
 	evolveFrom: {
-		en: "Tympole",
-		fr: "Tritonde",
-		es: "Tympole",
-		it: "Tympole",
-		pt: "Tympole",
-		de: "Schallquap"
+		'en-us': "Tympole",
+		'fr-fr': "Tritonde",
+		'es-es': "Tympole",
+		'it-it': "Tympole",
+		'pt-br': "Tympole",
+		'de-de': "Schallquap"
 	},
 
 	attacks: [
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Twirling Sign",
-				fr: "Signe Virevoltant",
-				es: "Señal Pirueta",
-				it: "Segnale Roteante",
-				pt: "Sinal Espiral",
-				de: "Kreiselndes Schild"
+				'en-us': "Twirling Sign",
+				'fr-fr': "Signe Virevoltant",
+				'es-es': "Señal Pirueta",
+				'it-it': "Segnale Roteante",
+				'pt-br': "Sinal Espiral",
+				'de-de': "Kreiselndes Schild"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent's Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It weakens its prey with sound waves intense enough to cause headaches, then entangles them with its sticky tongue."
+		'en-us': "It weakens its prey with sound waves intense enough to cause headaches, then entangles them with its sticky tongue."
 	},
 
 	variants: [

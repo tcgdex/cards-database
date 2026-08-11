@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Venomoth",
-		de: "Omot"
+		'en-us': "Venomoth",
+		'de-de': "Omot"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Venonat",
+		'en-us': "Venonat",
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Healing Dust",
-				de: "Heilender Staub"
+				'en-us': "Healing Dust",
+				'de-de': "Heilender Staub"
 			},
 			effect: {
-				en: "Flip 2 coins. For each heads, remove 1 damage counter from each of your Pokémon. If a Pokémon has fewer damage counters than the number of heads, remove all of them.",
-				de: "Wirf 2 Münzen. Entferne für jeden geworfenen \"Kopf\" eine Schadensmarke von jedem deiner Pokémon. Hat ein Pokémon weniger Schadensmarken als du \"Kopf\" geworfen hast, entferne alle von ihm."
+				'en-us': "Flip 2 coins. For each heads, remove 1 damage counter from each of your Pokémon. If a Pokémon has fewer damage counters than the number of heads, remove all of them.",
+				'de-de': "Wirf 2 Münzen. Entferne für jeden geworfenen \"Kopf\" eine Schadensmarke von jedem deiner Pokémon. Hat ein Pokémon weniger Schadensmarken als du \"Kopf\" geworfen hast, entferne alle von ihm."
 			},
 
 		},
@@ -50,13 +50,13 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Miracle Powder",
-				de: "Wunderpulver"
+				'en-us': "Miracle Powder",
+				'de-de': "Wunderpulver"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, choose a Special Condition (Asleep, Burned, Confused, Paralyzed, or Poisoned). The Defending Pokémon is now affected by that Special Condition.",
-				de: "Wirf eine Münze. Wähle bei \"Kopf\" einen speziellen Zustand (Schlaf, verbrannt, verwirrt, gelähmt oder vergiftet). Das verteidigende Pokémon ist jetzt von diesem Spezielen Zustand betroffen."
+				'en-us': "Flip a coin. If heads, choose a Special Condition (Asleep, Burned, Confused, Paralyzed, or Poisoned). The Defending Pokémon is now affected by that Special Condition.",
+				'de-de': "Wirf eine Münze. Wähle bei \"Kopf\" einen speziellen Zustand (Schlaf, verbrannt, verwirrt, gelähmt oder vergiftet). Das verteidigende Pokémon ist jetzt von diesem Spezielen Zustand betroffen."
 			},
 
 			damage: 30,

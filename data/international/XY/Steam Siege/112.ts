@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "M Gardevoir EX",
-		fr: "M-Gardevoir EX",
-		es: "M-Gardevoir EX",
-		it: "M Gardevoir EX",
-		pt: "M-Gardevoir EX",
-		de: "M-Guardevoir EX"
+		'en-us': "M Gardevoir EX",
+		'fr-fr': "M-Gardevoir EX",
+		'es-es': "M-Gardevoir EX",
+		'it-it': "M Gardevoir EX",
+		'pt-br': "M-Gardevoir EX",
+		'de-de': "M-Guardevoir EX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -28,12 +28,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gardevoir-EX",
-		fr: "Gardevoir-EX",
-		es: "Gardevoir-EX",
-		it: "Gardevoir-EX",
-		pt: "Gardevoir-EX",
-		de: "Guardevoir-EX"
+		'en-us': "Gardevoir-EX",
+		'fr-fr': "Gardevoir-EX",
+		'es-es': "Gardevoir-EX",
+		'it-it': "Gardevoir-EX",
+		'pt-br': "Gardevoir-EX",
+		'de-de': "Guardevoir-EX"
 	},
 
 	stage: "MEGA",
@@ -45,20 +45,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Despair Ray",
-				fr: "Rayon Désespoir",
-				es: "Rayo de Desesperanza",
-				it: "Disperaggio",
-				pt: "Raio do Desespero",
-				de: "Verzweifelter Strahl"
+				'en-us': "Despair Ray",
+				'fr-fr': "Rayon Désespoir",
+				'es-es': "Rayo de Desesperanza",
+				'it-it': "Disperaggio",
+				'pt-br': "Raio do Desespero",
+				'de-de': "Verzweifelter Strahl"
 			},
 			effect: {
-				en: "Discard as many of your Benched Pokémon as you like. This attack does 10 more damage for each Benched Pokémon you discarded in this way.",
-				fr: "Défaussez autant de vos Pokémon de Banc que vous voulez. Cette attaque inflige 10 dégâts supplémentaires pour chaque Pokémon de Banc défaussé de cette façon.",
-				es: "Descarta tantos Pokémon de tu Banca como quieras. Este ataque hace 10 puntos de daño más por cada Pokémon de tu Banca descartado de esta manera.",
-				it: "Scarta a piacimento i tuoi Pokémon in panchina. Questo attacco infligge 10 danni in più per ogni Pokémon in panchina scartato in questo modo.",
-				pt: "Descarte tantos Pokémon no seu Banco quanto desejar. Este ataque causa 10 de danos adicionais para cada Pokémon no Banco descartado desta forma.",
-				de: "Lege beliebig viele Pokémon von deiner Bank auf deinen Ablagestapel. Dieser Angriff fügt 10 weitere Schadenspunkte für jedes Pokémon auf der Bank zu, das du auf diese Weise auf deinen Ablagestapel gelegt hast."
+				'en-us': "Discard as many of your Benched Pokémon as you like. This attack does 10 more damage for each Benched Pokémon you discarded in this way.",
+				'fr-fr': "Défaussez autant de vos Pokémon de Banc que vous voulez. Cette attaque inflige 10 dégâts supplémentaires pour chaque Pokémon de Banc défaussé de cette façon.",
+				'es-es': "Descarta tantos Pokémon de tu Banca como quieras. Este ataque hace 10 puntos de daño más por cada Pokémon de tu Banca descartado de esta manera.",
+				'it-it': "Scarta a piacimento i tuoi Pokémon in panchina. Questo attacco infligge 10 danni in più per ogni Pokémon in panchina scartato in questo modo.",
+				'pt-br': "Descarte tantos Pokémon no seu Banco quanto desejar. Este ataque causa 10 de danos adicionais para cada Pokémon no Banco descartado desta forma.",
+				'de-de': "Lege beliebig viele Pokémon von deiner Bank auf deinen Ablagestapel. Dieser Angriff fügt 10 weitere Schadenspunkte für jedes Pokémon auf der Bank zu, das du auf diese Weise auf deinen Ablagestapel gelegt hast."
 			},
 			damage: "110+",
 

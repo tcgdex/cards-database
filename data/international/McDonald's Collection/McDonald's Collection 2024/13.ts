@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2024'
 
 const card: Card = {
 	name: {
-		en: "Eevee",
-		fr: "Évoli",
-		es: "Eevee",
-		it: "Eevee",
-		pt: "Eevee",
-		de: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
+		'es-es': "Eevee",
+		'it-it': "Eevee",
+		'pt-br': "Eevee",
+		'de-de': "Evoli"
 	},
 
 	illustrator: "0313",
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				en: "Continuous Steps",
+				'en-us': "Continuous Steps",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 30 damage for each heads."
+				'en-us': "Flip a coin until you get tails. This attack does 30 damage for each heads."
 			},
 			damage: "30x",
 		}

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Darumaka"
+		'id-id': "Darumaka"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Saat sedang tidur, Darumaka tidak akan terguling meskipun didorong atau ditarik. Populer sebagai motif benda pembawa keberuntungan."
+		'id-id': "Saat sedang tidur, Darumaka tidak akan terguling meskipun didorong atau ditarik. Populer sebagai motif benda pembawa keberuntungan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Tandukan Kepala"
+			'id-id': "Tandukan Kepala"
 		},
 
 		damage: 20,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Serangan Kejutan"
+			'id-id': "Serangan Kejutan"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal."
 		},
 
 		damage: 70,

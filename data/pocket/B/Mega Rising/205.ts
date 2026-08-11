@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Braviary"
+		'en-us': "Braviary"
 	},
 
 	illustrator: "chibi",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Rufflet"
+		'en-us': "Rufflet"
 	},
 
 	description: {
-		en: "For the sake of its friends, this brave warrior of\nthe sky will not stop battling, even if injured."
+		'en-us': "For the sake of its friends, this brave warrior of\nthe sky will not stop battling, even if injured."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Slash"
+			'en-us': "Slash"
 		},
 
 		damage: 80,

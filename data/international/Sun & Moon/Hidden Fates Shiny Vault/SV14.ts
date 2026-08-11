@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Xurkitree",
-		fr: "Câblifère",
+		'en-us': "Xurkitree",
+		'fr-fr': "Câblifère",
 	},
 	illustrator: "Naoki Saito",
 	rarity: "Shiny rare",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Dazzle Blast",
-				fr: "Explosion de Lumière",
+				'en-us': "Dazzle Blast",
+				'fr-fr': "Explosion de Lumière",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'en-us': "Your opponent's Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 			},
 			damage: 20,
 
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cablegram",
-				fr: "Câblogramme",
+				'en-us': "Cablegram",
+				'fr-fr': "Câblogramme",
 			},
 			effect: {
-				en: "If you have exactly 3 Prize cards remaining, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "S’il vous reste exactement 3 cartes Récompense, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'en-us': "If you have exactly 3 Prize cards remaining, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "S’il vous reste exactement 3 cartes Récompense, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 			damage: 100,
 
@@ -74,7 +74,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It appeared from the Ultra Wormhole. It raided a power plant, so people think it energizes itself with electricity.",
+		'en-us': "It appeared from the Ultra Wormhole. It raided a power plant, so people think it energizes itself with electricity.",
 	},
 }
 

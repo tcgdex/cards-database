@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Serperior V",
-		fr: "Majaspic V",
-		es: "Serperior V",
-		it: "Serperior V",
-		pt: "Serperior V",
-		de: "Serpiroyal V"
+		'en-us': "Serperior V",
+		'fr-fr': "Majaspic V",
+		'es-es': "Serperior V",
+		'it-it': "Serperior V",
+		'pt-br': "Serperior V",
+		'de-de': "Serpiroyal V"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -26,32 +26,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Noble Light",
-			fr: "Noble Lumière",
-			es: "Luz Noble",
-			it: "Luce Nobile",
-			pt: "Luz Nobre",
-			de: "Nobles Licht"
+			'en-us': "Noble Light",
+			'fr-fr': "Noble Lumière",
+			'es-es': "Luz Noble",
+			'it-it': "Luce Nobile",
+			'pt-br': "Luz Nobre",
+			'de-de': "Nobles Licht"
 		},
 
 		effect: {
-			en: "Heal 30 damage from each Pokémon (both yours and your opponent's).",
-			fr: "Soignez 30 dégâts de chaque Pokémon (les vôtres et ceux de votre adversaire).",
-			es: "Cura 30 puntos de daño a cada Pokémon (tanto tuyos como de tu rival).",
-			it: "Cura tutti i Pokémon, sia tuoi che del tuo avversario, da 30 danni.",
-			pt: "Cure 30 pontos de dano de cada Pokémon (seus e do seu oponente).",
-			de: "Heile 30 Schadenspunkte bei jedem Pokémon (deinen und denen deines Gegners)."
+			'en-us': "Heal 30 damage from each Pokémon (both yours and your opponent's).",
+			'fr-fr': "Soignez 30 dégâts de chaque Pokémon (les vôtres et ceux de votre adversaire).",
+			'es-es': "Cura 30 puntos de daño a cada Pokémon (tanto tuyos como de tu rival).",
+			'it-it': "Cura tutti i Pokémon, sia tuoi che del tuo avversario, da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano de cada Pokémon (seus e do seu oponente).",
+			'de-de': "Heile 30 Schadenspunkte bei jedem Pokémon (deinen und denen deines Gegners)."
 		}
 	}, {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Solar Beam",
-			fr: "Lance-Soleil",
-			es: "Rayo Solar",
-			it: "Solarraggio",
-			pt: "Raio Solar",
-			de: "Solarstrahl"
+			'en-us': "Solar Beam",
+			'fr-fr': "Lance-Soleil",
+			'es-es': "Rayo Solar",
+			'it-it': "Solarraggio",
+			'pt-br': "Raio Solar",
+			'de-de': "Solarstrahl"
 		},
 
 		damage: 120

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Kyogre EX",
-		fr: "Kyogre EX",
+		'en-us': "Kyogre EX",
+		'fr-fr': "Kyogre EX",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Pulse",
-				fr: "Vibraqua",
+				'en-us': "Water Pulse",
+				'fr-fr': "Vibraqua",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'en-us': "Your opponent's Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			},
 			damage: 30,
 
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giant Whirlpool",
-				fr: "Siphon Colossal",
+				'en-us': "Giant Whirlpool",
+				'fr-fr': "Siphon Colossal",
 			},
 			effect: {
-				en: "Return 2 Water Energy attached to this Pokémon to your hand.",
-				fr: "Reprenez 2 Énergies Water attachées à ce Pokémon dans votre main.",
+				'en-us': "Return 2 Water Energy attached to this Pokémon to your hand.",
+				'fr-fr': "Reprenez 2 Énergies Water attachées à ce Pokémon dans votre main.",
 			},
 			damage: 140,
 

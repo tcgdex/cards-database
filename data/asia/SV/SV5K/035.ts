@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴビット",
+		'ja-jp': "ゴビット",
 	},
 
 	illustrator: "miki kudo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "粘土から 生み出された 古代の ポケモン。 なぜか 大岩を 並べ続ける ものも いる。",
+		'ja-jp': "粘土から 生み出された 古代の ポケモン。 なぜか 大岩を 並べ続ける ものも いる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "てっぺき" },
 			cost: ["Fighting"],
 			effect: {
-				ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。",
+				'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。",
 			},
 		},
 		{

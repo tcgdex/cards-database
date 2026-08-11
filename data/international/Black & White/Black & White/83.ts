@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Stoutland",
-		fr: "Mastouffe",
-		es: "Stoutland",
-		it: "Stoutland",
-		pt: "Stoutland",
-		de: "Bissbark"
+		'en-us': "Stoutland",
+		'fr-fr': "Mastouffe",
+		'es-es': "Stoutland",
+		'it-it': "Stoutland",
+		'pt-br': "Stoutland",
+		'de-de': "Bissbark"
 	},
 
 	illustrator: "match",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Herdier",
-		fr: "Ponchien",
+		'en-us': "Herdier",
+		'fr-fr': "Ponchien",
 	},
 
 	stage: "Stage2",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Odor Sleuth",
-				fr: "Flair",
+				'en-us': "Odor Sleuth",
+				'fr-fr': "Flair",
 			},
 			effect: {
-				en: "Flip 3 coins. For each heads, put a card from your discard pile into your hand.",
-				fr: "Lancez 3 pièces. Pour chaque côté face, prenez une carte dans votre pile de défausse et ajoutez-la à votre main.",
+				'en-us': "Flip 3 coins. For each heads, put a card from your discard pile into your hand.",
+				'fr-fr': "Lancez 3 pièces. Pour chaque côté face, prenez une carte dans votre pile de défausse et ajoutez-la à votre main.",
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giga Impact",
-				fr: "Giga Impact",
+				'en-us': "Giga Impact",
+				'fr-fr': "Giga Impact",
 			},
 			effect: {
-				en: "This Pokémon can't attack during your next turn.",
-				fr: "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				'en-us': "This Pokémon can't attack during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
 			},
 			damage: 90,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "This extremely wise Pokémon excels at rescuing people stranded at sea or in the mountains.",
+		'en-us': "This extremely wise Pokémon excels at rescuing people stranded at sea or in the mountains.",
 	},
 
 	thirdParty: {

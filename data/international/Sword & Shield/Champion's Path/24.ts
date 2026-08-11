@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [66],
 
 	name: {
-		en: "Machop",
-		fr: "Machoc",
-		es: "Machop",
-		it: "Machop",
-		pt: "Machop",
-		de: "Machollo"
+		'en-us': "Machop",
+		'fr-fr': "Machoc",
+		'es-es': "Machop",
+		'it-it': "Machop",
+		'pt-br': "Machop",
+		'de-de': "Machollo"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage",
-				es: "Patada Baja",
-				it: "Colpo Basso",
-				pt: "Rasteira",
-				de: "Fußkick"
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage",
+				'es-es': "Patada Baja",
+				'it-it': "Colpo Basso",
+				'pt-br': "Rasteira",
+				'de-de': "Fußkick"
 			},
 
 			damage: 10,
@@ -46,20 +46,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steady Punch",
-				fr: "Poing Énergétique",
-				es: "Puño Firme",
-				it: "Pugnosecco",
-				pt: "Soco Firme",
-				de: "Ruhiger Schlag"
+				'en-us': "Steady Punch",
+				'fr-fr': "Poing Énergétique",
+				'es-es': "Puño Firme",
+				'it-it': "Pugnosecco",
+				'pt-br': "Soco Firme",
+				'de-de': "Ruhiger Schlag"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 40 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 40 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 40 danni in più.",
-				pt: "Jogue 1 moeda. Se sair cara, este ataque causará 40 pontos de dano a mais.",
-				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 40 Schadenspunkte mehr zu."
+				'en-us': "Flip a coin. If heads, this attack does 40 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 40 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 40 danni in più.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 40 pontos de dano a mais.",
+				'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 40 Schadenspunkte mehr zu."
 			},
 			damage: "20+",
 
@@ -86,7 +86,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its whole body is composed of muscles. Even though it's the size of a human child, it can hurl 100 grown-ups."
+		'en-us': "Its whole body is composed of muscles. Even though it's the size of a human child, it can hurl 100 grown-ups."
 	},
 
 	thirdParty: {

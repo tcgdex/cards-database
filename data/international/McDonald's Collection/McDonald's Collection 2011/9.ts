@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2011'
 
 const card: Card = {
@@ -9,35 +9,35 @@ const card: Card = {
 	dexId: [570],
 
 	description: {
-		en: "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child."
+		'en-us': "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Scratch",
-			fr: "Griffe"
+			'en-us': "Scratch",
+			'fr-fr': "Griffe"
 		},
 
 		damage: 10
 	}, {
 		name: {
-			en: "Fury Swipes",
-			fr: "Combo-Griffe"
+			'en-us': "Fury Swipes",
+			'fr-fr': "Combo-Griffe"
 		},
 
 		damage: "10×",
 
 		effect: {
-			en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-			fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face."
+			'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads.",
+			'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face."
 		}
 	}],
 
 	name: {
-		en: "Zorua",
-		fr: "Zorua"
+		'en-us': "Zorua",
+		'fr-fr': "Zorua"
 	},
 
 	rarity: "None",

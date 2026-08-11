@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Phanpy"
+		'id-id': "Phanpy"
 	},
 
 	illustrator: "Saboteri",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Phanpy jauh lebih kuat dibandingkan penampilannya. Putaran belalainya dapat mematahkan lengan manusia yang bersentuhan dengannya."
+		'id-id': "Phanpy jauh lebih kuat dibandingkan penampilannya. Putaran belalainya dapat mematahkan lengan manusia yang bersentuhan dengannya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Tandukan Kepala"
+			'id-id': "Tandukan Kepala"
 		},
 
 		damage: 20,

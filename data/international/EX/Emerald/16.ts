@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Manectric",
-		fr: "Elecsprint",
-		de: "Voltenso"
+		'en-us': "Manectric",
+		'fr-fr': "Elecsprint",
+		'de-de': "Voltenso"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Electrike",
-		fr: "Dynavolt"
+		'en-us': "Electrike",
+		'fr-fr': "Dynavolt"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dazzle Blast",
-				fr: "Explosion de lumière",
-				de: "Dazzle Blast"
+				'en-us': "Dazzle Blast",
+				'fr-fr': "Explosion de lumière",
+				'de-de': "Dazzle Blast"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 10,
 
@@ -54,9 +54,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Zap Kick",
-				fr: "Coup de pied ravageur",
-				de: "Zap Kick"
+				'en-us': "Zap Kick",
+				'fr-fr': "Coup de pied ravageur",
+				'de-de': "Zap Kick"
 			},
 
 			damage: 40,

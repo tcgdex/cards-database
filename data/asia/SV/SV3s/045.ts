@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Tyranitar ex"
+		'id-id': "Tyranitar ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,22 +17,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Penghempas Gunung"
+			'id-id': "Penghempas Gunung"
 		},
 
 		effect: {
-			id: "Buang 2 kartu dari atas Deck sendiri ke Trash."
+			'id-id': "Buang 2 kartu dari atas Deck sendiri ke Trash."
 		},
 
 		damage: 120,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			id: "Thor Rampage"
+			'id-id': "Thor Rampage"
 		},
 
 		effect: {
-			id: "Jika Pokémon Cadangan sendiri memiliki Token Kerusakan, kerusakan yang diberikan bertambah sejumlah 100."
+			'id-id': "Jika Pokémon Cadangan sendiri memiliki Token Kerusakan, kerusakan yang diberikan bertambah sejumlah 100."
 		},
 
 		damage: "150+",

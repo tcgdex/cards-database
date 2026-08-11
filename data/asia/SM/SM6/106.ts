@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゼルネアスGX",
+		'ja-jp': "ゼルネアスGX",
 	},
 
 	illustrator: "Toyste Beach",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			name: { ja: "サンクチュアリGX" },
 			cost: ["Fairy", "Fairy", "Colorless"],
 			effect: {
-				ja: "自分のポケモン全員にのっているダメカンをすべて、相手のバトルポケモンにのせ替える。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分のポケモン全員にのっているダメカンをすべて、相手のバトルポケモンにのせ替える。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Leafeon EX",
-		fr: "Phyllali-EX",
+		'en-us': "Leafeon EX",
+		'fr-fr': "Phyllali-EX",
 	},
 
 	illustrator: "Naoki Saito",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leaf Blade",
-				fr: "Lame-Feuille",
+				'en-us': "Leaf Blade",
+				'fr-fr': "Lame-Feuille",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: "30+",
 
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nature's Breath",
-				fr: "Souffle de la Nature",
+				'en-us': "Nature's Breath",
+				'fr-fr': "Souffle de la Nature",
 			},
 			effect: {
-				en: "If there is any Stadium card in play, this attack does 30 more damage and heal 30 damage from this Pokémon.",
-				fr: "S'il y a une carte Stade en jeu, cette attaque inflige 30 dégâts supplémentaires et vous soignez 30 dégâts à ce Pokémon.",
+				'en-us': "If there is any Stadium card in play, this attack does 30 more damage and heal 30 damage from this Pokémon.",
+				'fr-fr': "S'il y a une carte Stade en jeu, cette attaque inflige 30 dégâts supplémentaires et vous soignez 30 dégâts à ce Pokémon.",
 			},
 			damage: "90+",
 

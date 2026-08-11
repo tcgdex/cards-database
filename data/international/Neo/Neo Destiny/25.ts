@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Light Machamp",
-		fr: "Mackogneur lumineux",
-		de: "Helles Machomei"
+		'en-us': "Light Machamp",
+		'fr-fr': "Mackogneur lumineux",
+		'de-de': "Helles Machomei"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Machoke",
-		fr: "Machopeur lumineux"
+		'en-us': "Machoke",
+		'fr-fr': "Machopeur lumineux"
 	},
 
 	stage: "Stage2",
@@ -39,15 +39,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Beatdown",
-				fr: "Combat",
-				de: "Beatdown"
+				'en-us': "Beatdown",
+				'fr-fr': "Combat",
+				'de-de': "Beatdown"
 			},
 
 			effect: {
-				en: "If the Defending Pokémon has Dark in its name or is a Pokémon, flip a coin. If heads, this attack does 100 damage instead of 50.",
-				fr: "Si le Pokémon Défenseur est un Pokémon obscur ou si c'est un Pokémon , lancez une pièce. Si c'est face, cette attaque inflige 100 dégâts au lieu de 50.",
-				de: "If the Defending Pokémon has Dark in its name or is a  Pokémon, flip a coin. If heads, this attack does 100 damage instead of 50."
+				'en-us': "If the Defending Pokémon has Dark in its name or is a Pokémon, flip a coin. If heads, this attack does 100 damage instead of 50.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon obscur ou si c'est un Pokémon , lancez une pièce. Si c'est face, cette attaque inflige 100 dégâts au lieu de 50.",
+				'de-de': "If the Defending Pokémon has Dark in its name or is a  Pokémon, flip a coin. If heads, this attack does 100 damage instead of 50."
 			},
 
 			damage: 50
@@ -64,21 +64,21 @@ const card: Card = {
 
 
 	description: {
-		en: "It uses its four arms in combat to unleash a ceaseless flurry of punches.",
-		fr: "Il utilise ses quatre bras au combat pour délivrer une véritable ruée de coups."
+		'en-us': "It uses its four arms in combat to unleash a ceaseless flurry of punches.",
+		'fr-fr': "Il utilise ses quatre bras au combat pour délivrer une véritable ruée de coups."
 	},
 
 	abilities: [{
 		name: {
-			fr: "Tandem",
-			de: "Tag Team",
-			en: "Tag Team",
+			'fr-fr': "Tandem",
+			'de-de': "Tag Team",
+			'en-us': "Tag Team",
 		},
 
 		effect: {
-			fr: "Quand vous jouez Mackogneur depuis votre main, si vous le placez sur votre Banc, retirez 3 marqueurs de dégâts de votre Pokémon Actif. S'il a moins de 3 marqueurs de dégâts, retirez-les tous. Échangez ensuite Mackogneur lumineux contre votre Pokémon Actif.",
-			en: "When you play Light Machamp from your hand, if is on your Bench, remove 3 damage counters than that, remove all of them. Then, switch Light Machamp with your Active Pokémon.",
-			de: "When you play Light Machamp from your hand, if is on your Bench, remove 3 damage counters than that, remove all of them. Then, switch Light Machamp with your Active Pokémon."
+			'fr-fr': "Quand vous jouez Mackogneur depuis votre main, si vous le placez sur votre Banc, retirez 3 marqueurs de dégâts de votre Pokémon Actif. S'il a moins de 3 marqueurs de dégâts, retirez-les tous. Échangez ensuite Mackogneur lumineux contre votre Pokémon Actif.",
+			'en-us': "When you play Light Machamp from your hand, if is on your Bench, remove 3 damage counters than that, remove all of them. Then, switch Light Machamp with your Active Pokémon.",
+			'de-de': "When you play Light Machamp from your hand, if is on your Bench, remove 3 damage counters than that, remove all of them. Then, switch Light Machamp with your Active Pokémon."
 		},
 
 		type: "Pokemon Power"

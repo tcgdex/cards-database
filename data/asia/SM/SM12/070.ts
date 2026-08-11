@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャランゴ",
+		'ja-jp': "ジャランゴ",
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "ウロコを 叩き合わせて 音を 鳴らす。 リズムが 最高潮に 達したところで 襲いかかる。",
+		'ja-jp': "ウロコを 叩き合わせて 音を 鳴らす。 リズムが 最高潮に 達したところで 襲いかかる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "せんしのほうこう" },
 			effect: {
-				ja: "このポケモンは、相手のバトル場に「ポケモンGX・EX」がいるなら、出したばかりでも進化できる。",
+				'ja-jp': "このポケモンは、相手のバトル場に「ポケモンGX・EX」がいるなら、出したばかりでも進化できる。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ジャラコ",
+		'ja-jp': "ジャラコ",
 	},
 
 	retreat: 2,

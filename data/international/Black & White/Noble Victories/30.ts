@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Frillish",
-		fr: "Viskuse",
-		es: "Frillish",
-		it: "Frillish",
-		pt: "Frillish",
-		de: "Quabbel"
+		'en-us': "Frillish",
+		'fr-fr': "Viskuse",
+		'es-es': "Frillish",
+		'it-it': "Frillish",
+		'pt-br': "Frillish",
+		'de-de': "Quabbel"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rain Splash",
-				fr: "Pluie Éclaboussante",
+				'en-us': "Rain Splash",
+				'fr-fr': "Pluie Éclaboussante",
 			},
 
 			damage: 20,
@@ -54,7 +54,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "With its thin, veil-like arms wrapped around the body of its opponent, it sinks to the ocean floor.",
+		'en-us': "With its thin, veil-like arms wrapped around the body of its opponent, it sinks to the ocean floor.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Trevenant",
-		fr: "Desséliande",
+		'en-us': "Trevenant",
+		'fr-fr': "Desséliande",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Phantump",
-		fr: "Brocélôme",
+		'en-us': "Phantump",
+		'fr-fr': "Brocélôme",
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Eerie Wave",
-				fr: "Vague Étrange",
+				'en-us': "Eerie Wave",
+				'fr-fr': "Vague Étrange",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'en-us': "Your opponent's Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 			},
 			damage: 20,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wood Hammer",
-				fr: "Martobois",
+				'en-us': "Wood Hammer",
+				'fr-fr': "Martobois",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon does 20 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 20 dégâts.",
+				'en-us': "Flip a coin. If tails, this Pokémon does 20 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 20 dégâts.",
 			},
 			damage: 90,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It can control trees at will. It will trap people who harm the forest, so they can never leave.",
+		'en-us': "It can control trees at will. It will trap people who harm the forest, so they can never leave.",
 	},
 
 	thirdParty: {

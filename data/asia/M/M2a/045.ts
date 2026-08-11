@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コイル",
+		'ja-jp': "コイル",
 	},
 
 	illustrator: "Hoshino KURO",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "空中に 浮いたまま 移動して 左右の ユニットから 電磁波などを 放射する。",
+		'ja-jp': "空中に 浮いたまま 移動して 左右の ユニットから 電磁波などを 放射する。",
 	},
 
 	stage: "Basic",

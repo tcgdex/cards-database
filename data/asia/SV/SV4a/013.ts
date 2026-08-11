@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ニャローテ",
+		'ja-jp': "ニャローテ",
 		'zh-tw': "蒂蕾喵",
-		th: "เนียโรเต",
-		id: "Floragato"
+		'th-th': "เนียโรเต",
+		'id-id': "Floragato"
 	},
 
 	illustrator: "nagimiso",
@@ -18,10 +18,10 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "長い 体毛の下に 隠した ツタを 器用に 操り 硬い つぼみを 敵に 叩きつける。",
+		'ja-jp': "長い 体毛の下に 隠した ツタを 器用に 操り 硬い つぼみを 敵に 叩きつける。",
 		'zh-tw': "會靈巧操控長長的體毛下隱藏的藤蔓，將堅硬的 花苞甩向敵人猛打。",
-		th: "ใช้เถาวัลย์ที่ซ่อนอยู่ภายใต้ขนตามร่างกายที่มีขนาดยาวได้อย่างคล่องแคล่ว และใช้ดอกตูมแข็ง ๆ ฟาดฟันศัตรู",
-		id: "Floragato mengendalikan sulur ranting yang tersembunyi di bawah bulu panjangnya dengan mahir, lalu membanting kuncup keras ke lawan."
+		'th-th': "ใช้เถาวัลย์ที่ซ่อนอยู่ภายใต้ขนตามร่างกายที่มีขนาดยาวได้อย่างคล่องแคล่ว และใช้ดอกตูมแข็ง ๆ ฟาดฟันศัตรู",
+		'id-id': "Floragato mengendalikan sulur ranting yang tersembunyi di bawah bulu panjangnya dengan mahir, lalu membanting kuncup keras ke lawan."
 	},
 
 	stage: "Stage1",
@@ -30,10 +30,10 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "タネばくだん",
+			'ja-jp': "タネばくだん",
 			'zh-tw': "種子炸彈",
-			th: "ระเบิดเมล็ดพืช",
-			id: "Bom Benih"
+			'th-th': "ระเบิดเมล็ดพืช",
+			'id-id': "Bom Benih"
 		},
 
 		damage: 30
@@ -41,19 +41,19 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "マジックウィップ",
+			'ja-jp': "マジックウィップ",
 			'zh-tw': "魔法鞭打",
-			th: "เมจิกวิป",
-			id: "Magic Whip"
+			'th-th': "เมจิกวิป",
+			'id-id': "Magic Whip"
 		},
 
 		damage: 50,
 
 		effect: {
-			ja: "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+			'ja-jp': "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
 			'zh-tw': "將對手的戰鬥寶可夢與備戰寶可夢互換。[由對手選擇放置於戰鬥場的寶可夢。]",
-			th: "สลับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามกับโปเกมอนบนเบนช์ {ฝ่ายตรงข้ามเลือกโปเกมอนที่จะวางบนตำแหน่งต่อสู้}",
-			id: "Tukar Pokémon Bertarung lawan dengan Pokémon Cadangan. [Pokémon yang akan dimasukkan ke Arena Bertarung dipilih oleh lawan.]"
+			'th-th': "สลับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามกับโปเกมอนบนเบนช์ {ฝ่ายตรงข้ามเลือกโปเกมอนที่จะวางบนตำแหน่งต่อสู้}",
+			'id-id': "Tukar Pokémon Bertarung lawan dengan Pokémon Cadangan. [Pokémon yang akan dimasukkan ke Arena Bertarung dipilih oleh lawan.]"
 		}
 	}],
 

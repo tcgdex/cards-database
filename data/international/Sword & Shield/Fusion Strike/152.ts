@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Clobbopus",
-		fr: "Poulpaf",
-		es: "Clobbopus",
-		it: "Clobbopus",
-		pt: "Clobbopus",
-		de: "Klopptopus"
+		'en-us': "Clobbopus",
+		'fr-fr': "Poulpaf",
+		'es-es': "Clobbopus",
+		'it-it': "Clobbopus",
+		'pt-br': "Clobbopus",
+		'de-de': "Klopptopus"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Mizue",
 
 	description: {
-		en: "Its tentacles tear off easily, but it isn't alarmed when that happens—it knows they'll grow back. It's about as smart as a three-year-old."
+		'en-us': "Its tentacles tear off easily, but it isn't alarmed when that happens—it knows they'll grow back. It's about as smart as a three-year-old."
 	},
 
 	attacks: [{
 		cost: ["Fighting"],
 
 		name: {
-			en: "Beat",
-			fr: "Bataille",
-			de: "Verprügler",
-			es: "Toque",
-			pt: "Pulso",
-			it: "Battuta"
+			'en-us': "Beat",
+			'fr-fr': "Bataille",
+			'de-de': "Verprügler",
+			'es-es': "Toque",
+			'pt-br': "Pulso",
+			'it-it': "Battuta"
 		},
 
 		damage: 10
@@ -50,12 +50,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Knuckle Punch",
-			fr: "Coud'Phalange",
-			de: "Knöchelhieb",
-			es: "Puño con Nudillos",
-			pt: "Soco com Punho",
-			it: "Noccapugno"
+			'en-us': "Knuckle Punch",
+			'fr-fr': "Coud'Phalange",
+			'de-de': "Knöchelhieb",
+			'es-es': "Puño con Nudillos",
+			'pt-br': "Soco com Punho",
+			'it-it': "Noccapugno"
 		},
 
 		damage: 20

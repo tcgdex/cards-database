@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モグリュー",
+		'ja-jp': "モグリュー",
 	},
 
 	illustrator: "Atsushi Furusawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "体を スピンさせることで 時速５０キロの スピードのまま まっすぐ 地面を 掘り進む。",
+		'ja-jp': "体を スピンさせることで 時速５０キロの スピードのまま まっすぐ 地面を 掘り進む。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "なかまをよぶ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
 			},
 		},
 		{

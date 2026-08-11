@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Eelektrik",
-		fr: "Lampéroie",
-		es: "Eelektrik",
-		it: "Eelektrik",
-		pt: "Eelektrik",
-		de: "Zapplalek"
+		'en-us': "Eelektrik",
+		'fr-fr': "Lampéroie",
+		'es-es': "Eelektrik",
+		'it-it': "Eelektrik",
+		'pt-br': "Eelektrik",
+		'de-de': "Zapplalek"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tynamo",
-		fr: "Anchwatt",
+		'en-us': "Tynamo",
+		'fr-fr': "Anchwatt",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunder Wave",
-				fr: "Cage-Éclair",
+				'en-us': "Thunder Wave",
+				'fr-fr': "Cage-Éclair",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 20,
 
@@ -55,8 +55,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'Boule",
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'Boule",
 			},
 
 			damage: 30,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It wraps itself around its prey and paralyzes it with electricity from the round spots on its sides. Then it chomps.",
+		'en-us': "It wraps itself around its prey and paralyzes it with electricity from the round spots on its sides. Then it chomps.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Marshtomp",
-		fr: "Flobio",
-		de: "Moorabbel"
+		'en-us': "Marshtomp",
+		'fr-fr': "Flobio",
+		'de-de': "Moorabbel"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mudkip",
-		fr: "Gobou",
+		'en-us': "Mudkip",
+		'fr-fr': "Gobou",
 	},
 
 	stage: "Stage1",
@@ -37,9 +37,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'face",
-				de: "Pfund"
+				'en-us': "Pound",
+				'fr-fr': "Écras'face",
+				'de-de': "Pfund"
 			},
 
 			damage: 20,
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Muddy Bomb",
-				fr: "Bombe boueuse",
-				de: "Lehmbombe"
+				'en-us': "Muddy Bomb",
+				'fr-fr': "Bombe boueuse",
+				'de-de': "Lehmbombe"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon and 10 damage to each of your opponent's other Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts et inflige 10 dégâts à chacun de ses autres Pokémon. (Vous ne pouvez pas appliquer la Faiblesse ou la Résistance aux Pokémon de Banc).",
-				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte und allen anderen Pokémon deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon and 10 damage to each of your opponent's other Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts et inflige 10 dégâts à chacun de ses autres Pokémon. (Vous ne pouvez pas appliquer la Faiblesse ou la Résistance aux Pokémon de Banc).",
+				'de-de': "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte und allen anderen Pokémon deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep.",
+		'en-us': "Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep.",
 	},
 
 	thirdParty: {

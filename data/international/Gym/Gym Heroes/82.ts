@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Rattata"
+		'en-us': "Lt. Surge's Rattata"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Focus Energy"
+				'en-us': "Focus Energy"
 			},
 			effect: {
-				en: "During your next turn, Lt. Surge's Rattata's Gnaw attack's base damage is doubled."
+				'en-us': "During your next turn, Lt. Surge's Rattata's Gnaw attack's base damage is doubled."
 			},
 
 		},
@@ -40,7 +40,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw"
+				'en-us': "Gnaw"
 			},
 
 			damage: 20,

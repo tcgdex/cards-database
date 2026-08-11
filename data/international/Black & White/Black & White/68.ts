@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Scraggy",
-		fr: "Baggiguane",
-		es: "Scraggy",
-		it: "Scraggy",
-		pt: "Scraggy",
-		de: "Zurrokex"
+		'en-us': "Scraggy",
+		'fr-fr': "Baggiguane",
+		'es-es': "Scraggy",
+		'it-it': "Scraggy",
+		'pt-br': "Scraggy",
+		'de-de': "Zurrokex"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'Boule",
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'Boule",
 			},
 
 			damage: 10,
@@ -60,7 +60,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck.",
+		'en-us': "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck.",
 	},
 
 	thirdParty: {

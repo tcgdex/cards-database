@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Double Colorless Energy",
-		fr: "Double Énergie Incolore",
+		'en-us': "Double Colorless Energy",
+		'fr-fr': "Double Énergie Incolore",
 	},
 
 	illustrator: "5ban Graphics",
@@ -13,8 +13,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Double Énergie Incolore fournit de l'Énergie ColorlessColorless.",
-		en: "Double Colorless Energy provides ColorlessColorless Energy."
+		'fr-fr': "Double Énergie Incolore fournit de l'Énergie ColorlessColorless.",
+		'en-us': "Double Colorless Energy provides ColorlessColorless Energy."
 	},
 
 	energyType: "Special",

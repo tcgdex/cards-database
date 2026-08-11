@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Heliolisk",
-		fr: "Iguolta",
-		es: "Heliolisk",
-		it: "Heliolisk",
-		pt: "Heliolisk",
-		de: "Elezard"
+		'en-us': "Heliolisk",
+		'fr-fr': "Iguolta",
+		'es-es': "Heliolisk",
+		'it-it': "Heliolisk",
+		'pt-br': "Heliolisk",
+		'de-de': "Elezard"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Helioptile",
-		fr: "Galvaran",
-		es: "Helioptile",
-		it: "Helioptile",
-		pt: "Helioptile",
-		de: "Eguana"
+		'en-us': "Helioptile",
+		'fr-fr': "Galvaran",
+		'es-es': "Helioptile",
+		'it-it': "Helioptile",
+		'pt-br': "Helioptile",
+		'de-de': "Eguana"
 	},
 	stage: "Stage1",
 
@@ -32,32 +32,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Parabolic Charge",
-			fr: "Parabocharge",
-			es: "Carga Parábola",
-			it: "Caricaparabola",
-			pt: "Ataque Parabólico",
-			de: "Parabolladung"
+			'en-us': "Parabolic Charge",
+			'fr-fr': "Parabocharge",
+			'es-es': "Carga Parábola",
+			'it-it': "Caricaparabola",
+			'pt-br': "Ataque Parabólico",
+			'de-de': "Parabolladung"
 		},
 
 		effect: {
-			en: "Search your deck for up to 4 Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu'à 4 cartes Énergie, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja hasta 4 cartas de Energía, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo fino a quattro carte Energia, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por até 4 cartas de Energia no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach bis zu 4 Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+			'en-us': "Search your deck for up to 4 Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck jusqu'à 4 cartes Énergie, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja hasta 4 cartas de Energía, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo fino a quattro carte Energia, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por até 4 cartas de Energia no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach bis zu 4 Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Electroslug",
-			fr: "Électro Frappe",
-			es: "Electropuñetazo",
-			it: "Elettropugno",
-			pt: "Soco Elétrico",
-			de: "Elektroschuss"
+			'en-us': "Electroslug",
+			'fr-fr': "Électro Frappe",
+			'es-es': "Electropuñetazo",
+			'it-it': "Elettropugno",
+			'pt-br': "Soco Elétrico",
+			'de-de': "Elektroschuss"
 		},
 
 		damage: 80

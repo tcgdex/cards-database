@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Kingdra",
-		fr: "Hyporoi",
-		es: "Kingdra",
-		it: "Kingdra",
-		pt: "Kingdra",
-		de: "Seedraking"
+		'en-us': "Kingdra",
+		'fr-fr': "Hyporoi",
+		'es-es': "Kingdra",
+		'it-it': "Kingdra",
+		'pt-br': "Kingdra",
+		'de-de': "Seedraking"
 	},
 
 	illustrator: "hatachu",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Seadra",
-		fr: "Hypocéan",
-		es: "Seadra",
-		it: "Seadra",
-		pt: "Seadra",
-		de: "Seemon"
+		'en-us': "Seadra",
+		'fr-fr': "Hypocéan",
+		'es-es': "Seadra",
+		'it-it': "Seadra",
+		'pt-br': "Seadra",
+		'de-de': "Seemon"
 	},
 
 	stage: "Stage2",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ancient Trait",
 			name: {
-				fr: "Croissance α",
-				en: "α Growth",
-				es: "{title}:",
-				it: "{title}:",
-				pt: "{title}:",
-				de: "{title}:"
+				'fr-fr': "Croissance α",
+				'en-us': "α Growth",
+				'es-es': "{title}:",
+				'it-it': "{title}:",
+				'pt-br': "{title}:",
+				'de-de': "{title}:"
 			},
 			effect: {
-				fr: "Lorsque vous attachez une carte Énergie de votre main à ce Pokémon (excepté à la suite d'une attaque, d'un talent ou d'une carte Dresseur), vous pouvez attacher 2 cartes Énergie au lieu d'une.",
-				en: "When you attach an Energy card from your hand to this Pokémon (except with an attack, Ability, or Trainer card), you may attach 2 Energy cards.",
-				es: "{title}: Cuando unas 1 carta de Energía de tu mano a este Pokémon (excepto con un ataque, habilidad o carta de Entrenador), puedes unir 2 cartas de Energía en vez de 1.",
-				it: "{title}: Quando assegni una carta Energia a questo Pokémon dalla tua mano (a meno che non sia in conseguenza di un attacco, un'abilità o una carta Allenatore), puoi assegnare due carte Energia.",
-				pt: "{title}: Quando você liga um card de Energia de sua mão neste Pokémon (exceto com um ataque, Habilidade ou card de Treinador), você pode ligar 2 cards de Energia.",
-				de: "{title}: Wenn du 1 Energiekarte von deiner Hand an dieses Pokémon anlegst (außer auf Anweisung einer Attacke, Fähigkeit oder Trainerkarte), kannst du bis zu 2 Energiekarten anlegen."
+				'fr-fr': "Lorsque vous attachez une carte Énergie de votre main à ce Pokémon (excepté à la suite d'une attaque, d'un talent ou d'une carte Dresseur), vous pouvez attacher 2 cartes Énergie au lieu d'une.",
+				'en-us': "When you attach an Energy card from your hand to this Pokémon (except with an attack, Ability, or Trainer card), you may attach 2 Energy cards.",
+				'es-es': "{title}: Cuando unas 1 carta de Energía de tu mano a este Pokémon (excepto con un ataque, habilidad o carta de Entrenador), puedes unir 2 cartas de Energía en vez de 1.",
+				'it-it': "{title}: Quando assegni una carta Energia a questo Pokémon dalla tua mano (a meno che non sia in conseguenza di un attacco, un'abilità o una carta Allenatore), puoi assegnare due carte Energia.",
+				'pt-br': "{title}: Quando você liga um card de Energia de sua mão neste Pokémon (exceto com um ataque, Habilidade ou card de Treinador), você pode ligar 2 cards de Energia.",
+				'de-de': "{title}: Wenn du 1 Energiekarte von deiner Hand an dieses Pokémon anlegst (außer auf Anweisung einer Attacke, Fähigkeit oder Trainerkarte), kannst du bis zu 2 Energiekarten anlegen."
 			},
 		},
 	],
@@ -65,20 +65,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gather Strength",
-				fr: "Pouvoir Collecté",
-				es: "Reunir Fuerzas",
-				it: "Radunaforze",
-				pt: "Reunir Força",
-				de: "Kraftsammler"
+				'en-us': "Gather Strength",
+				'fr-fr': "Pouvoir Collecté",
+				'es-es': "Reunir Fuerzas",
+				'it-it': "Radunaforze",
+				'pt-br': "Reunir Força",
+				'de-de': "Kraftsammler"
 			},
 			effect: {
-				en: "Search your deck for up to 4 basic Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez jusqu'à 4 cartes Énergie de base dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja hasta 4 cartas de Energía Básica, enséñalas y ponlas en tu mano. Baraja las cartas de tu baraja después.",
-				it: "Cerca nel tuo mazzo fino a quattro carte Energia base, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure no seu baralho até 4 cards de Energia básica, revele-os e coloque-os na mão. Em seguida, embaralhe seus cards.",
-				de: "Durchsuche dein Deck nach bis zu 4 Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				'en-us': "Search your deck for up to 4 basic Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez jusqu'à 4 cartes Énergie de base dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja hasta 4 cartas de Energía Básica, enséñalas y ponlas en tu mano. Baraja las cartas de tu baraja después.",
+				'it-it': "Cerca nel tuo mazzo fino a quattro carte Energia base, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure no seu baralho até 4 cards de Energia básica, revele-os e coloque-os na mão. Em seguida, embaralhe seus cards.",
+				'de-de': "Durchsuche dein Deck nach bis zu 4 Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -89,20 +89,20 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Dragon Blast",
-				fr: "Explo-Draco",
-				es: "Sacudida Dragón",
-				it: "Dragobotto",
-				pt: "Explosão do Dragão",
-				de: "Drachenbeben"
+				'en-us': "Dragon Blast",
+				'fr-fr': "Explo-Draco",
+				'es-es': "Sacudida Dragón",
+				'it-it': "Dragobotto",
+				'pt-br': "Explosão do Dragão",
+				'de-de': "Drachenbeben"
 			},
 			effect: {
-				en: "Discard a Water Energy and a Lightning Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie Water et une Énergie Lightning attachées à ce Pokémon.",
-				es: "Descarta 1 Energía Water y 1 Energía Lightning unidas a este Pokémon.",
-				it: "Scarta un'Energia Water e un'Energia Lightning assegnate a questo Pokémon.",
-				pt: "Descarte uma Energia Water e uma Energia Lightning ligadas a este Pokémon.",
-				de: "Lege 1 an dieses Pokémon angelegte Water-Energie sowie 1 an dieses Pokémon angelegte Lightning-Energie auf deinen Ablagestapel."
+				'en-us': "Discard a Water Energy and a Lightning Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie Water et une Énergie Lightning attachées à ce Pokémon.",
+				'es-es': "Descarta 1 Energía Water y 1 Energía Lightning unidas a este Pokémon.",
+				'it-it': "Scarta un'Energia Water e un'Energia Lightning assegnate a questo Pokémon.",
+				'pt-br': "Descarte uma Energia Water e uma Energia Lightning ligadas a este Pokémon.",
+				'de-de': "Lege 1 an dieses Pokémon angelegte Water-Energie sowie 1 an dieses Pokémon angelegte Lightning-Energie auf deinen Ablagestapel."
 			},
 			damage: 150,
 
@@ -119,7 +119,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It stores energy by sleeping at underwater depths at which no other life-forms can survive.",
+		'en-us': "It stores energy by sleeping at underwater depths at which no other life-forms can survive.",
 	},
 
 	thirdParty: {

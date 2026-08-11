@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [282],
 
 	name: {
-		en: "Mega Gardevoir ex"
+		'en-us': "Mega Gardevoir ex"
 	},
 
 	illustrator: "DOM",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Kirlia"
+		'en-us': "Kirlia"
 	},
 
 	description: {
-		en: "When it opens the red plate on its chest and\nunleashes its heart, its strongest psychic power\nis released."
+		'en-us': "When it opens the red plate on its chest and\nunleashes its heart, its strongest psychic power\nis released."
 	},
 
 	stage: "Stage2",
@@ -29,14 +29,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Fantasia Force"
+			'en-us': "Fantasia Force"
 		},
 
 		damage: 110,
 		cost: ["Psychic", "Psychic"],
 
 		effect: {
-			en: "Take 3 {P} Energy from your Energy Zone and attach it to your {P} Pokémon in any way you like."
+			'en-us': "Take 3 {P} Energy from your Energy Zone and attach it to your {P} Pokémon in any way you like."
 		}
 	}],
 

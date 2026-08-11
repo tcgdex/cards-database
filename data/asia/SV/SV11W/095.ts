@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビリジオン",
+		'ja-jp': "ビリジオン",
 	},
 
 	illustrator: "kodama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "仲間を 守るため 人間に 戦いを 挑んだ ポケモン。 伝説で 語り継がれている。",
+		'ja-jp': "仲間を 守るため 人間に 戦いを 挑んだ ポケモン。 伝説で 語り継がれている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Grass"],
 			effect: {
-				ja: "相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。",
+				'ja-jp': "相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。",
 			},
 		},
 		{

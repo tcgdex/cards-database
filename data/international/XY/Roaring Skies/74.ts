@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Altaria",
-		fr: "Altaria",
-		es: "Altaria",
-		it: "Altaria",
-		pt: "Altaria",
-		de: "Altaria"
+		'en-us': "Altaria",
+		'fr-fr': "Altaria",
+		'es-es': "Altaria",
+		'it-it': "Altaria",
+		'pt-br': "Altaria",
+		'de-de': "Altaria"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Swablu",
-		fr: "Tylton",
-		es: "Swablu",
-		it: "Swablu",
-		pt: "Swablu",
-		de: "Wablu"
+		'en-us': "Swablu",
+		'fr-fr': "Tylton",
+		'es-es': "Swablu",
+		'it-it': "Swablu",
+		'pt-br': "Swablu",
+		'de-de': "Wablu"
 	},
 
 	stage: "Stage1",
@@ -41,21 +41,21 @@ const card: Card = {
 		{
 			type: "Ancient Trait",
 			name: {
-				en: "Δ Evolution",
-				fr: "Évolution Δ",
+				'en-us': "Δ Evolution",
+				'fr-fr': "Évolution Δ",
 			},
 			effect: {
-				en: "You may play this card from your hand to evolve a Pokémon during your first turn or the turn you play that Pokémon.",
-				fr: "Vous pouvez jouer cette carte de votre main pour faire évoluer un Pokémon pendant votre premier tour ou pendant le tour où vous le jouez.",
+				'en-us': "You may play this card from your hand to evolve a Pokémon during your first turn or the turn you play that Pokémon.",
+				'fr-fr': "Vous pouvez jouer cette carte de votre main pour faire évoluer un Pokémon pendant votre premier tour ou pendant le tour où vous le jouez.",
 			},
 		},
 		{
 			type: "Ability",
 			name: {
-				en: "Clear Humming",
+				'en-us': "Clear Humming",
 			},
 			effect: {
-				en: "Each of your Colorless Pokémon has no Weakness.",
+				'en-us': "Each of your Colorless Pokémon has no Weakness.",
 			},
 		},
 	],
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-Aile",
-				es: "Ataque Ala",
-				it: "Attacco d'Ala",
-				pt: "Ataque de Asa",
-				de: "Flügelschlag"
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-Aile",
+				'es-es': "Ataque Ala",
+				'it-it': "Attacco d'Ala",
+				'pt-br': "Ataque de Asa",
+				'de-de': "Flügelschlag"
 			},
 
 			damage: 30,
@@ -97,7 +97,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.",
+		'en-us': "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.",
 	},
 
 	thirdParty: {

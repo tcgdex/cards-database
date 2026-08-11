@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Marshtomp",
-		fr: "Flobio",
-		de: "Moorabbel"
+		'en-us': "Marshtomp",
+		'fr-fr': "Flobio",
+		'de-de': "Moorabbel"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mudkip",
-		fr: "Gobou"
+		'en-us': "Mudkip",
+		'fr-fr': "Gobou"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Hypno Wave",
-				fr: "Super hypnovague",
-				de: "Super Hypno Wave"
+				'en-us': "Super Hypno Wave",
+				'fr-fr': "Super hypnovague",
+				'de-de': "Super Hypno Wave"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -55,9 +55,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
-				de: "Surf"
+				'en-us': "Surf",
+				'fr-fr': "Surf",
+				'de-de': "Surf"
 			},
 
 			damage: 50,

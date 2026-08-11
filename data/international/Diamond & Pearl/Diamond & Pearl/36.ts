@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Purugly",
-		fr: "Chaffreux",
-		de: "Shnurgarst"
+		'en-us': "Purugly",
+		'fr-fr': "Chaffreux",
+		'de-de': "Shnurgarst"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Glameow",
-		fr: "Chaglam",
+		'en-us': "Glameow",
+		'fr-fr': "Chaglam",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "High Hat",
-				fr: "Chapeau haut",
-				de: "Hoher Hut"
+				'en-us': "High Hat",
+				'fr-fr': "Chapeau haut",
+				'de-de': "Hoher Hut"
 			},
 			effect: {
-				en: "Choose 1 card from your opponent's hand without looking and discard it.",
-				fr: "Choisissez sans regarder 1 carte de la main de votre adversaire et défaussez-la.",
-				de: "Wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen). Dein Gegner legt diese Karte auf seinen Ablagestapel."
+				'en-us': "Choose 1 card from your opponent's hand without looking and discard it.",
+				'fr-fr': "Choisissez sans regarder 1 carte de la main de votre adversaire et défaussez-la.",
+				'de-de': "Wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen). Dein Gegner legt diese Karte auf seinen Ablagestapel."
 			},
 
 		},
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam",
-				fr: "Plaquage",
-				de: "Bodyslam"
+				'en-us': "Body Slam",
+				'fr-fr': "Plaquage",
+				'de-de': "Bodyslam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 50,
 
@@ -79,8 +79,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is a brazen brute that barges its way into another Pokémon's nest and claims it as its own.",
-		fr: "Cette brute arrogante n'hésite pas à voler le nid d'autres Pokémon pour s'y installer."
+		'en-us': "It is a brazen brute that barges its way into another Pokémon's nest and claims it as its own.",
+		'fr-fr': "Cette brute arrogante n'hésite pas à voler le nid d'autres Pokémon pour s'y installer."
 	},
 
 	thirdParty: {

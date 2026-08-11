@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Golett",
-		fr: "Gringolem",
-		es: "Golett",
-		it: "Golett",
-		pt: "Golett",
-		de: "Golbit"
+		'en-us': "Golett",
+		'fr-fr': "Gringolem",
+		'es-es': "Golett",
+		'it-it': "Golett",
+		'pt-br': "Golett",
+		'de-de': "Golbit"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Punch",
-				fr: "Ultimapoing",
-				es: "Megapuño",
-				it: "Megapugno",
-				pt: "Megassoco",
-				de: "Megahieb"
+				'en-us': "Mega Punch",
+				'fr-fr': "Ultimapoing",
+				'es-es': "Megapuño",
+				'it-it': "Megapugno",
+				'pt-br': "Megassoco",
+				'de-de': "Megahieb"
 			},
 
 			damage: 60,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "The energy that burns inside it enables it to move, but no one has yet been able to identify this energy.",
+		'en-us': "The energy that burns inside it enables it to move, but no one has yet been able to identify this energy.",
 	},
 
 	thirdParty: {

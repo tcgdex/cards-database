@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S12"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "アンノーンVSTAR"
+		'ja-jp': "アンノーンVSTAR"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -18,23 +18,23 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "トライパワー"
+			'ja-jp': "トライパワー"
 		},
 
 		damage: "70×",
 
 		effect: {
-			ja: "コインを3回投げ、オモテの数×70ダメージ。"
+			'ja-jp': "コインを3回投げ、オモテの数×70ダメージ。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "スターサイファー"
+			'ja-jp': "スターサイファー"
 		},
 
 		effect: {
-			ja: "このポケモンは、場をはなれるまで「相手の場のポケモン全員の弱点は、すべてタイプになる。」という効果の特性を持つ。［弱点は「×2」で計算する。］［対戦中、自分はVSTARパワーを1回しか使えない。］"
+			'ja-jp': "このポケモンは、場をはなれるまで「相手の場のポケモン全員の弱点は、すべてタイプになる。」という効果の特性を持つ。［弱点は「×2」で計算する。］［対戦中、自分はVSTARパワーを1回しか使えない。］"
 		}
 	}],
 

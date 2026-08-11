@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Crobat G",
-		fr: "Nostenfert ",
-		de: "Iksbat G"
+		'en-us': "Crobat G",
+		'fr-fr': "Nostenfert ",
+		'de-de': "Iksbat G"
 	},
 
 	illustrator: "Makoto Imai",
@@ -28,14 +28,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Flash Bite",
-				fr: "Morsure flash",
-				de: "Flash Bite"
+				'en-us': "Flash Bite",
+				'fr-fr': "Morsure flash",
+				'de-de': "Flash Bite"
 			},
 			effect: {
-				en: "Once during your turn, when you put Crobat G from your hand onto your Bench, you may put 1 damage counter on 1 of your opponent's Pokémon.",
-				fr: "Une seule fois lors de votre tour, lorsque vous placez Nostenfert  de votre main sur votre Banc, vous pouvez placer 1 marqueur de dégât sur 1 des Pokémon de votre adversaire.",
-				de: "One during your turn, when you put Crobat G from your hand onto your Bench, you may put 1 damage counter on 1 of your opponent's Pokémon."
+				'en-us': "Once during your turn, when you put Crobat G from your hand onto your Bench, you may put 1 damage counter on 1 of your opponent's Pokémon.",
+				'fr-fr': "Une seule fois lors de votre tour, lorsque vous placez Nostenfert  de votre main sur votre Banc, vous pouvez placer 1 marqueur de dégât sur 1 des Pokémon de votre adversaire.",
+				'de-de': "One during your turn, when you put Crobat G from your hand onto your Bench, you may put 1 damage counter on 1 of your opponent's Pokémon."
 			}
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Toxic Fang",
-				fr: "Croc toxik",
-				de: "Toxic Fang"
+				'en-us': "Toxic Fang",
+				'fr-fr': "Croc toxik",
+				'de-de': "Toxic Fang"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours.",
-				de: "The Defending pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns."
+				'en-us': "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours.",
+				'de-de': "The Defending pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns."
 			},
 
 		},

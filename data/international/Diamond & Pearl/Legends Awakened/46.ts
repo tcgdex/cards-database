@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Anorith",
-		fr: "Anorith",
-		de: "Anorith"
+		'en-us': "Anorith",
+		'fr-fr': "Anorith",
+		'de-de': "Anorith"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Claw Fossil",
-		fr: "Klauenfossil",
+		'en-us': "Claw Fossil",
+		'fr-fr': "Klauenfossil",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Guard Claw",
-				fr: "Griffe de garde",
-				de: "Abwehrklaue"
+				'en-us': "Guard Claw",
+				'fr-fr': "Griffe de garde",
+				'de-de': "Abwehrklaue"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Anorith by attacks is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Lors du prochain tour de votre adversaire, tous dégâts infligés à Anorith par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
-				de: "Während des nächsten Zuges deines Gegners wird Schaden, der Anorith durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "During your opponent's next turn, any damage done to Anorith by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Lors du prochain tour de votre adversaire, tous dégâts infligés à Anorith par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Während des nächsten Zuges deines Gegners wird Schaden, der Anorith durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 20,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "X-Scissor",
-				fr: "Plaie-Croix",
-				de: "Kreuzschere"
+				'en-us': "X-Scissor",
+				'fr-fr': "Plaie-Croix",
+				'de-de': "Kreuzschere"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -78,8 +78,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon ancestor that was reanimated from a fossil. It lived in the sea and hunted with claws.",
-		fr: "Un ancêtre Pokémon réanimé à partir d'un fossile. Il vivait en mer et chassait avec ses pinces."
+		'en-us': "A Pokémon ancestor that was reanimated from a fossil. It lived in the sea and hunted with claws.",
+		'fr-fr': "Un ancêtre Pokémon réanimé à partir d'un fossile. Il vivait en mer et chassait avec ses pinces."
 	},
 
 	thirdParty: {

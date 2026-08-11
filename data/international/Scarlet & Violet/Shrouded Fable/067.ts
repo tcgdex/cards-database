@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Shrouded Fable"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Horsea",
-		fr: "Hypotrempe",
-		es: "Horsea",
-		it: "Horsea",
-		pt: "Horsea",
-		de: "Seeper"
+		'en-us': "Horsea",
+		'fr-fr': "Hypotrempe",
+		'es-es': "Horsea",
+		'it-it': "Horsea",
+		'pt-br': "Horsea",
+		'de-de': "Seeper"
 	},
 
 	rarity: "Illustration rare",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Hold Still",
-			fr: "Ne Bougez Pas",
-			es: "Permanecer Inmóvil",
-			it: "Immobile",
-			pt: "Ficar Parado",
-			de: "Stillhalten"
+			'en-us': "Hold Still",
+			'fr-fr': "Ne Bougez Pas",
+			'es-es': "Permanecer Inmóvil",
+			'it-it': "Immobile",
+			'pt-br': "Ficar Parado",
+			'de-de': "Stillhalten"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Razor Fin",
-			fr: "Aileron-Rasoir",
-			es: "Aleta Afilada",
-			it: "Pinnalama",
-			pt: "Barbatana Cortante",
-			de: "Rasierflosse"
+			'en-us': "Razor Fin",
+			'fr-fr': "Aileron-Rasoir",
+			'es-es': "Aleta Afilada",
+			'it-it': "Pinnalama",
+			'pt-br': "Barbatana Cortante",
+			'de-de': "Rasierflosse"
 		},
 
 		damage: 20

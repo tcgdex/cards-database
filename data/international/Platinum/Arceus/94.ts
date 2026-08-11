@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Arceus LV.X",
-		fr: "Arceus",
-		de: "Arceus"
+		'en-us': "Arceus LV.X",
+		'fr-fr': "Arceus",
+		'de-de': "Arceus"
 	},
 	illustrator: "Shizurow",
 	rarity: "Rare Holo LV.X",
@@ -26,14 +26,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Multi-type",
-				fr: "Multi-Type",
-				de: "Variabilität"
+				'en-us': "Multi-type",
+				'fr-fr': "Multi-Type",
+				'de-de': "Variabilität"
 			},
 			effect: {
-				en: "Arceus LV. X's type is the same type as its previous Level.",
-				fr: "Le type d'Arceus NIV.X est le même qu'au tour précédent.",
-				de: "Arceus LV.X hat denselben Typ wie sein vorheriges Level."
+				'en-us': "Arceus LV. X's type is the same type as its previous Level.",
+				'fr-fr': "Le type d'Arceus NIV.X est le même qu'au tour précédent.",
+				'de-de': "Arceus LV.X hat denselben Typ wie sein vorheriges Level."
 			}
 		},
 	],

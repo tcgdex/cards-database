@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒドイデ",
+		'ja-jp': "ヒドイデ",
 	},
 
 	illustrator: "Aya Kusube",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "海底や 海岸を はいまわる。 サニーゴの 頭に 生える サンゴが 大好物だぞ。",
+		'ja-jp': "海底や 海岸を はいまわる。 サニーゴの 頭に 生える サンゴが 大好物だぞ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Water"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x30ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数x30ダメージ。",
 			},
 		},
 	],

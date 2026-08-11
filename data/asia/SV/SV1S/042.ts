@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "メグロコ",
+		'ja-jp': "メグロコ",
 		'zh-tw': "黑眼鱷",
-		th: "เมะกุโรโกะ",
-		id: "Sandile"
+		'th-th': "เมะกุโรโกะ",
+		'id-id': "Sandile"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "砂の中に 潜り 泳ぐように 移動。 敵に みつからないためと 体温を 下げない 知恵 なのだ。",
+		'ja-jp': "砂の中に 潜り 泳ぐように 移動。 敵に みつからないためと 体温を 下げない 知恵 なのだ。",
 		'zh-tw': "潛藏在沙中像游泳一樣移動。這是種兼具不被敵人發現和 保持體溫效果的生存智慧。",
-		th: "ดำลงไปในทรายแล้วเคลื่อนที่เหมือนว่ายอยู่ข้างใน เป็นวิธีการอันชาญฉลาดที่ช่วยไม่ให้ศัตรูเจอตัวและไม่ให้ตัวเย็นลง",
-		id: "Sandile menyelam dan berpindah seperti sedang berenang di dalam pasir. Pengetahuan yang berguna untuk melindungi diri dari musuh dan agar suhu tubuhnya tidak menurun."
+		'th-th': "ดำลงไปในทรายแล้วเคลื่อนที่เหมือนว่ายอยู่ข้างใน เป็นวิธีการอันชาญฉลาดที่ช่วยไม่ให้ศัตรูเจอตัวและไม่ให้ตัวเย็นลง",
+		'id-id': "Sandile menyelam dan berpindah seperti sedang berenang di dalam pasir. Pengetahuan yang berguna untuk melindungi diri dari musuh dan agar suhu tubuhnya tidak menurun."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "かじる",
+			'ja-jp': "かじる",
 			'zh-tw': "咬",
-			th: "แทะ",
-			id: "Menggerogot"
+			'th-th': "แทะ",
+			'id-id': "Menggerogot"
 		},
 
 		damage: 10
@@ -42,10 +42,10 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			ja: "ぶつかる",
+			'ja-jp': "ぶつかる",
 			'zh-tw': "衝撞",
-			th: "กระแทก",
-			id: "Menyeruduk"
+			'th-th': "กระแทก",
+			'id-id': "Menyeruduk"
 		},
 
 		damage: 30

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SLL"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "路卡利歐VSTAR",
-		ja: "ルカリオVSTAR"
+		'ja-jp': "ルカリオVSTAR"
 	},
 
 	illustrator: "aky CG Works",
@@ -18,12 +18,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "搏鬥肘擊",
-			ja: "ファイティングナックル"
+			'ja-jp': "ファイティングナックル"
 		},
 
 		effect: {
 			'zh-tw': "若對手的戰鬥寶可夢為「寶可夢【V】」，則增加120點傷害。",
-			ja: "相手のバトルポケモンが「ポケモンV」なら、120ダメージ追加。"
+			'ja-jp': "相手のバトルポケモンが「ポケモンV」なら、120ダメージ追加。"
 		},
 
 		damage: "120+",
@@ -31,12 +31,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "[VSTAR力量]波導星星",
-			ja: "はどうスター"
+			'ja-jp': "はどうスター"
 		},
 
 		effect: {
 			'zh-tw': "造成對手的場上寶可夢身上附加的能量的數量×70點傷害。[對戰中，己方只可使用1次【VSTAR】力量。]",
-			ja: "相手の場のポケモンについているエネルギーの数×70ダメージ。［対戦中、自分はVSTARパワーを1回しか使えない。］"
+			'ja-jp': "相手の場のポケモンについているエネルギーの数×70ダメージ。［対戦中、自分はVSTARパワーを1回しか使えない。］"
 		},
 
 		damage: "70×",

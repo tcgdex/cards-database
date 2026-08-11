@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イイネイヌex",
+		'ja-jp': "イイネイヌex",
 	},
 
 	illustrator: "kantaro",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "ポイズンマッスル" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から「基本[D]エネルギー」を2枚まで選び、このポケモンにつける。そして山札を切る。つけた場合、このポケモンをどくにする。",
+				'ja-jp': "自分の山札から「基本[D]エネルギー」を2枚まで選び、このポケモンにつける。そして山札を切る。つけた場合、このポケモンをどくにする。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "130+",
 			cost: ["Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "このポケモンがどくなら、130ダメージ追加。",
+				'ja-jp': "このポケモンがどくなら、130ダメージ追加。",
 			},
 		},
 	],

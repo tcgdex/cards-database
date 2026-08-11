@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Shellos West Sea",
-		fr: "Sancoki Mer Occident",
-		de: "Schalellos Westliches Meer"
+		'en-us': "Shellos West Sea",
+		'fr-fr': "Sancoki Mer Occident",
+		'de-de': "Schalellos Westliches Meer"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud Spatter",
-				fr: "Éclaboussure de boue",
-				de: "Lehmspritzer"
+				'en-us': "Mud Spatter",
+				'fr-fr': "Éclaboussure de boue",
+				'de-de': "Lehmspritzer"
 			},
 
 			damage: 10,
@@ -44,14 +44,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Recover",
-				fr: "Soin",
-				de: "Erholung"
+				'en-us': "Recover",
+				'fr-fr': "Soin",
+				'de-de': "Erholung"
 			},
 			effect: {
-				en: "Discard a Water Energy attached to Shellos West Sea and remove all damage counters from Shellos West Sea.",
-				fr: "Défaussez une Énergie Water attachée à Sancoki Mer Occident et retirez-lui tous ses marqueurs de dégât.",
-				de: "Lege 1 an Schalellos Westliches Meer angelegte -Energie auf deinen Ablagestapel und entferne alle Schadensmarken von Schalellos Westliches Meer."
+				'en-us': "Discard a Water Energy attached to Shellos West Sea and remove all damage counters from Shellos West Sea.",
+				'fr-fr': "Défaussez une Énergie Water attachée à Sancoki Mer Occident et retirez-lui tous ses marqueurs de dégât.",
+				'de-de': "Lege 1 an Schalellos Westliches Meer angelegte -Energie auf deinen Ablagestapel und entferne alle Schadensmarken von Schalellos Westliches Meer."
 			},
 
 		},
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its colors and shapes differ from region to region. In the Sinnoh region, two types are confirmed.",
+		'en-us': "Its colors and shapes differ from region to region. In the Sinnoh region, two types are confirmed.",
 	},
 
 	thirdParty: {

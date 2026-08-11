@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Staraptor",
-		fr: "Étouraptor",
-		es: "Staraptor",
-		it: "Staraptor",
-		pt: "Staraptor",
-		de: "Staraptor"
+		'en-us': "Staraptor",
+		'fr-fr': "Étouraptor",
+		'es-es': "Staraptor",
+		'it-it': "Staraptor",
+		'pt-br': "Staraptor",
+		'de-de': "Staraptor"
 	},
 
 	rarity: "Uncommon",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Staravia",
-		fr: "Étourvol"
+		'en-us': "Staravia",
+		'fr-fr': "Étourvol"
 	},
 
 	stage: "Stage2",
@@ -30,21 +30,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Tailspin Away",
-			fr: "Départ en Vrille",
-			es: "Caída en Picado",
-			it: "Avvitamento Evasivo",
-			pt: "Escapada Parafuso",
-			de: "Entfliegen"
+			'en-us': "Tailspin Away",
+			'fr-fr': "Départ en Vrille",
+			'es-es': "Caída en Picado",
+			'it-it': "Avvitamento Evasivo",
+			'pt-br': "Escapada Parafuso",
+			'de-de': "Entfliegen"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon.",
-			fr: "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon de base.",
-			es: "Durante el próximo turno de tu rival, se evita todo el daño infligido a este Pokémon por ataques de Pokémon Básicos.",
-			it: "Durante il prossimo turno del tuo avversario, previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon Base.",
-			pt: "Durante o próximo turno do seu oponente, previna todo o dano causado a este Pokémon por ataques de Pokémon Básicos.",
-			de: "Verhindere während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken von Basis-Pokémon zugefügt wird."
+			'en-us': "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon de base.",
+			'es-es': "Durante el próximo turno de tu rival, se evita todo el daño infligido a este Pokémon por ataques de Pokémon Básicos.",
+			'it-it': "Durante il prossimo turno del tuo avversario, previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon Base.",
+			'pt-br': "Durante o próximo turno do seu oponente, previna todo o dano causado a este Pokémon por ataques de Pokémon Básicos.",
+			'de-de': "Verhindere während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken von Basis-Pokémon zugefügt wird."
 		},
 
 		damage: 60
@@ -52,21 +52,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Power Blast",
-			fr: "Violente Déflagration",
-			es: "Estallido Vigoroso",
-			it: "Forzacolpo",
-			pt: "Explosão Poderosa",
-			de: "Powerschuss"
+			'en-us': "Power Blast",
+			'fr-fr': "Violente Déflagration",
+			'es-es': "Estallido Vigoroso",
+			'it-it': "Forzacolpo",
+			'pt-br': "Explosão Poderosa",
+			'de-de': "Powerschuss"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte uma Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 180
@@ -99,7 +99,7 @@ const card: Card = {
 	illustrator: "Atsushi Furusawa",
 
 	description: {
-		en: "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings.",
+		'en-us': "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings.",
 	},
 
 	thirdParty: {

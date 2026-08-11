@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Combee",
-		fr: "Apitrini",
-		es: "Combee",
-		it: "Combee",
-		pt: "Combee",
-		de: "Wadribie"
+		'en-us': "Combee",
+		'fr-fr': "Apitrini",
+		'es-es': "Combee",
+		'it-it': "Combee",
+		'pt-br': "Combee",
+		'de-de': "Wadribie"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sting Missile",
-				fr: "Dard-Missile",
+				'en-us': "Sting Missile",
+				'fr-fr': "Dard-Missile",
 			},
 			effect: {
-				en: "Shuffle this Pokémon and all cards attached to it into your deck.",
-				fr: "Mélangez ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck.",
+				'en-us': "Shuffle this Pokémon and all cards attached to it into your deck.",
+				'fr-fr': "Mélangez ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck.",
 			},
 			damage: 30,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon is a set of three. When they sleep, they gather up and form a giant hive of 100 Combee.",
+		'en-us': "This Pokémon is a set of three. When they sleep, they gather up and form a giant hive of 100 Combee.",
 	},
 
 	thirdParty: {

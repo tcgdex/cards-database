@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Torracat"
+		'en-us': "Torracat"
 	},
 
 	illustrator: "whomor Inc.",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Litten"
+		'en-us': "Litten"
 	},
 
 	description: {
-		en: "Torracat will let its Trainer coddle it once they've\ngrown close, but it's a powerful, sharp-clawed\nPokémon, so its Trainer gets covered in scratches."
+		'en-us': "Torracat will let its Trainer coddle it once they've\ngrown close, but it's a powerful, sharp-clawed\nPokémon, so its Trainer gets covered in scratches."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Heat Tackle"
+			'en-us': "Heat Tackle"
 		},
 
 		damage: 40,
 		cost: ["Fire"],
 
 		effect: {
-			en: "This Pokémon also does 10 damage to itself."
+			'en-us': "This Pokémon also does 10 damage to itself."
 		}
 	}],
 

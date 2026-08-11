@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Slugma",
-		de: "Schneckmag"
+		'en-us': "Slugma",
+		'de-de': "Schneckmag"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Singe",
-				de: "Versengung"
+				'en-us': "Singe",
+				'de-de': "Versengung"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				de: "Das verteidigende Pokémon ist jetzt verbrannt."
+				'en-us': "The Defending Pokémon is now Burned.",
+				'de-de': "Das verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 10,
 

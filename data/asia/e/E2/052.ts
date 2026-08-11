@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒットモンチャン",
+		'ja-jp': "ヒットモンチャン",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "急ぐ",
+				'ja-jp': "急ぐ",
 			},
 			effect: {
-				ja: "5枚のコインをひっくり返します。この攻撃は、ヘッド数の10倍のダメージを与えます。 Hitmonchanは次のターン中に攻撃できません。",
+				'ja-jp': "5枚のコインをひっくり返します。この攻撃は、ヘッド数の10倍のダメージを与えます。 Hitmonchanは次のターン中に攻撃できません。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "スマッシュパンチ",
+				'ja-jp': "スマッシュパンチ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
 			},
 			damage: 50,
 		},

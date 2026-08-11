@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Spoink",
-		fr: "Spoink",
-		es: "Spoink",
-		it: "Spoink",
-		pt: "Spoink",
-		de: "Spoink"
+		'en-us': "Spoink",
+		'fr-fr': "Spoink",
+		'es-es': "Spoink",
+		'it-it': "Spoink",
+		'pt-br': "Spoink",
+		'de-de': "Spoink"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Splash",
-				fr: "Trempette",
-				es: "Salpicadura",
-				it: "Splash",
-				pt: "Borrifada",
-				de: "Platscher"
+				'en-us': "Splash",
+				'fr-fr': "Trempette",
+				'es-es': "Salpicadura",
+				'it-it': "Splash",
+				'pt-br': "Borrifada",
+				'de-de': "Platscher"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It bounces constantly, using its tail like a spring. The shock of bouncing keeps its heart beating.",
+		'en-us': "It bounces constantly, using its tail like a spring. The shock of bouncing keeps its heart beating.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spinarak",
-		fr: "Mimigal",
-		es: "Spinarak",
-		it: "Spinarak",
-		pt: "Spinarak",
-		de: "Webarak"
+		'en-us': "Spinarak",
+		'fr-fr': "Mimigal",
+		'es-es': "Spinarak",
+		'it-it': "Spinarak",
+		'pt-br': "Spinarak",
+		'de-de': "Webarak"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Bug Bite",
-			fr: "Piqûre",
-			es: "Picadura",
-			it: "Coleomorso",
-			pt: "Picada",
-			de: "Käferbiss"
+			'en-us': "Bug Bite",
+			'fr-fr': "Piqûre",
+			'es-es': "Picadura",
+			'it-it': "Coleomorso",
+			'pt-br': "Picada",
+			'de-de': "Käferbiss"
 		},
 
 		damage: 30
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web.",
+		'en-us': "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web.",
 	},
 
 	variants: [

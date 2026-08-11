@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Porygon",
-		fr: "Porygon",
-		de: "Porygon"
+		'en-us': "Porygon",
+		'fr-fr': "Porygon",
+		'de-de': "Porygon"
 	},
 
 	illustrator: undefined,
@@ -32,9 +32,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharpen",
-				fr: "Affûtage",
-				de: "Sharpen"
+				'en-us': "Sharpen",
+				'fr-fr': "Affûtage",
+				'de-de': "Sharpen"
 			},
 
 			damage: 20,
@@ -59,8 +59,8 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon was created by human computer engineering. Its program is only capable of simple action and reaction.",
-		fr: "Ce Pokémon est le résultat de recherches informatiques. Son programme n'est capable que d'actions et de réactions simples."
+		'en-us': "This Pokémon was created by human computer engineering. Its program is only capable of simple action and reaction.",
+		'fr-fr': "Ce Pokémon est le résultat de recherches informatiques. Son programme n'est capable que d'actions et de réactions simples."
 	},
 
 

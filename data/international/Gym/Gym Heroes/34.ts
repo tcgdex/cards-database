@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Venomoth"
+		'en-us': "Sabrina's Venomoth"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Venonat"
+		'en-us': "Venonat"
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Healing Pollen"
+				'en-us': "Healing Pollen"
 			},
 			effect: {
-				en: "Flip 3 coins. For each heads, remove 1 damage counter from each of your Pokémon. If a Pokémon has fewer damage counters than the number of heads, remove all of them."
+				'en-us': "Flip 3 coins. For each heads, remove 1 damage counter from each of your Pokémon. If a Pokémon has fewer damage counters than the number of heads, remove all of them."
 			},
 
 		},
@@ -43,10 +43,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Sonic Distortion"
+				'en-us': "Sonic Distortion"
 			},
 			effect: {
-				en: "Flip 2 coins. If 1 or both of them are heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip 2 coins. If 1 or both of them are heads, the Defending Pokémon is now Confused."
 			},
 			damage: 10,
 

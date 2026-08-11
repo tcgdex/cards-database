@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "泥泥鰍",
-		ja: "ドジョッチ"
+		'ja-jp': "ドジョッチ"
 	},
 
 	illustrator: "Mizue",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "以水質混濁的沼澤為居所，藏身於濁水之中躲避天敵的視線。 體表的黏液使得牠很難用手抓住。",
-		ja: "水 濁りし 沼地を 棲み処とす。 視界 悪く 天敵より 姿を隠す。 体表の粘液により 手掴み 難儀なり。"
+		'ja-jp': "水 濁りし 沼地を 棲み処とす。 視界 悪く 天敵より 姿を隠す。 体表の粘液により 手掴み 難儀なり。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "潑水",
-			ja: "みずかけ"
+			'ja-jp': "みずかけ"
 		},
 
 		damage: 40,

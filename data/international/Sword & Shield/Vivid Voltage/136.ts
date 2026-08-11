@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [294],
 
 	name: {
-		en: "Loudred",
-		fr: "Ramboum",
-		es: "Loudred",
-		it: "Loudred",
-		pt: "Loudred",
-		de: "Krakeelo"
+		'en-us': "Loudred",
+		'fr-fr': "Ramboum",
+		'es-es': "Loudred",
+		'it-it': "Loudred",
+		'pt-br': "Loudred",
+		'de-de': "Krakeelo"
 	},
 
 	illustrator: "miki kudo",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Whismur",
-		fr: "Chuchmur",
-		es: "Whismur",
-		it: "Whismur",
-		pt: "Whismur",
-		de: "Flurmel"
+		'en-us': "Whismur",
+		'fr-fr': "Chuchmur",
+		'es-es': "Whismur",
+		'it-it': "Whismur",
+		'pt-br': "Whismur",
+		'de-de': "Flurmel"
 	},
 
 	attacks: [
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Round",
-				fr: "Chant Canon",
-				es: "Canon",
-				it: "Coro",
-				pt: "Circular",
-				de: "Kanon"
+				'en-us': "Round",
+				'fr-fr': "Chant Canon",
+				'es-es': "Canon",
+				'it-it': "Coro",
+				'pt-br': "Circular",
+				'de-de': "Kanon"
 			},
 			effect: {
-				en: "This attack does 20 damage for each of your Pokémon in play that has the Round attack.",
-				fr: "Cette attaque inflige 20 dégâts pour chacun de vos Pokémon en jeu ayant l'attaque Chant Canon.",
-				es: "Este ataque hace 20 puntos de daño por cada uno de tus Pokémon en juego que tenga el ataque Canon.",
-				it: "Questo attacco infligge 20 danni per ogni tuo Pokémon in gioco che ha l'attacco Coro.",
-				pt: "Este ataque causa 20 pontos de dano para cada um dos seus Pokémon em jogo que tenha o ataque Circular.",
-				de: "Diese Attacke fügt für jedes deiner Pokémon im Spiel, das die Attacke Kanon hat, 20 Schadenspunkte zu."
+				'en-us': "This attack does 20 damage for each of your Pokémon in play that has the Round attack.",
+				'fr-fr': "Cette attaque inflige 20 dégâts pour chacun de vos Pokémon en jeu ayant l'attaque Chant Canon.",
+				'es-es': "Este ataque hace 20 puntos de daño por cada uno de tus Pokémon en juego que tenga el ataque Canon.",
+				'it-it': "Questo attacco infligge 20 danni per ogni tuo Pokémon in gioco che ha l'attacco Coro.",
+				'pt-br': "Este ataque causa 20 pontos de dano para cada um dos seus Pokémon em jogo que tenha o ataque Circular.",
+				'de-de': "Diese Attacke fügt für jedes deiner Pokémon im Spiel, das die Attacke Kanon hat, 20 Schadenspunkte zu."
 			},
 			damage: "20×",
 
@@ -64,12 +64,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Voice",
-				fr: "Mégaphone",
-				es: "Vozarrón",
-				it: "Granvoce",
-				pt: "Hipervoz",
-				de: "Schallwelle"
+				'en-us': "Hyper Voice",
+				'fr-fr': "Mégaphone",
+				'es-es': "Vozarrón",
+				'it-it': "Granvoce",
+				'pt-br': "Hipervoz",
+				'de-de': "Schallwelle"
 			},
 
 			damage: 50,
@@ -91,7 +91,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "The shock waves from its cries can tip over trucks. It stamps its feet to power up."
+		'en-us': "The shock waves from its cries can tip over trucks. It stamps its feet to power up."
 	},
 
 	variants: [

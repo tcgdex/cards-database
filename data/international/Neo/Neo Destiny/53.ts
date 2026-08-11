@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Light Venomoth",
-		fr: "Aéromite lumineux",
-		de: "Helles Omot"
+		'en-us': "Light Venomoth",
+		'fr-fr': "Aéromite lumineux",
+		'de-de': "Helles Omot"
 	},
 
 	illustrator: "Masako Yamashita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Venonat",
-		fr: "Mimitoss"
+		'en-us': "Venonat",
+		'fr-fr': "Mimitoss"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Mysterious Wing",
-				fr: "Aile mystérieuse",
-				de: "Mysterious Wing"
+				'en-us': "Mysterious Wing",
+				'fr-fr': "Aile mystérieuse",
+				'de-de': "Mysterious Wing"
 			},
 			effect: {
-				en: "Your opponent may choose a Baby Pokémon, Basic Pokémon, or Evolution card from his or her discard pile and put it into his or her hand. Either way, you may do the same.",
-				fr: "Votre adversaire peut choisir une carte Bébé Pokémon, Pokémon de base ou Évolution de sa pile de défausse et l'ajouter à sa main. Quelle que soit sa décision, vous pouvez faire de même.",
-				de: "Your opponent may choose a Baby Pokémon, Basic Pokémon, or Evolution card from his or her discard pile and put it into his or her hand. Either way, you may do the same."
+				'en-us': "Your opponent may choose a Baby Pokémon, Basic Pokémon, or Evolution card from his or her discard pile and put it into his or her hand. Either way, you may do the same.",
+				'fr-fr': "Votre adversaire peut choisir une carte Bébé Pokémon, Pokémon de base ou Évolution de sa pile de défausse et l'ajouter à sa main. Quelle que soit sa décision, vous pouvez faire de même.",
+				'de-de': "Your opponent may choose a Baby Pokémon, Basic Pokémon, or Evolution card from his or her discard pile and put it into his or her hand. Either way, you may do the same."
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Synchronize",
-				fr: "Synchronisation",
-				de: "Synchronize"
+				'en-us': "Synchronize",
+				'fr-fr': "Synchronisation",
+				'de-de': "Synchronize"
 			},
 			effect: {
-				en: "If Light Venomoth and the Defending Pokémon have a different number of Energy cards attached to them, this attack does nothing.",
-				fr: "Si Aéromite lumineux et le Pokémon Défenseur ont un nombre différent de cartes Énergie attachées à eux, cette attaque ne fait rien.",
-				de: "If Light Venomoth and the Defending Pokémon have a differenz number of Energy cards attached to them, this attack does nothing."
+				'en-us': "If Light Venomoth and the Defending Pokémon have a different number of Energy cards attached to them, this attack does nothing.",
+				'fr-fr': "Si Aéromite lumineux et le Pokémon Défenseur ont un nombre différent de cartes Énergie attachées à eux, cette attaque ne fait rien.",
+				'de-de': "If Light Venomoth and the Defending Pokémon have a differenz number of Energy cards attached to them, this attack does nothing."
 			},
 			damage: 40,
 
@@ -82,8 +82,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It defends itself by flapping its wings at high speed, spreading poisonous powder throughout the air.",
-		fr: "Il se défend en battant des ailes à toute vitesse, libérant une poudre empoisonnée dans les airs."
+		'en-us': "It defends itself by flapping its wings at high speed, spreading poisonous powder throughout the air.",
+		'fr-fr': "Il se défend en battant des ailes à toute vitesse, libérant une poudre empoisonnée dans les airs."
 	},
 
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Geodude",
-		fr: "Racaillou",
-		de: "Kleinstein"
+		'en-us': "Geodude",
+		'fr-fr': "Racaillou",
+		'de-de': "Kleinstein"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knuckle Punch",
-				fr: "Coud'phalange",
-				de: "Knöchelhieb"
+				'en-us': "Knuckle Punch",
+				'fr-fr': "Coud'phalange",
+				'de-de': "Knöchelhieb"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Focus Fist",
-				fr: "Poing concentré",
-				de: "Fokussierfaust"
+				'en-us': "Focus Fist",
+				'fr-fr': "Poing concentré",
+				'de-de': "Fokussierfaust"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "At rest, it looks just like a rock. Carelessly stepping on it will make it swing its fists angrily."
+		'en-us': "At rest, it looks just like a rock. Carelessly stepping on it will make it swing its fists angrily."
 	},
 
 	variants: [

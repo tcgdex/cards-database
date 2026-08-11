@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY trainer Kit (Pikachu Libre)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Electrike",
-		fr: "Dynavolt",
-		es: "Electrike",
-		it: "Electrike",
-		pt: "Electrike",
-		de: "Frizelbliz"
+		'en-us': "Electrike",
+		'fr-fr': "Dynavolt",
+		'es-es': "Electrike",
+		'it-it': "Electrike",
+		'pt-br': "Electrike",
+		'de-de': "Frizelbliz"
 	},
 
 	rarity: "None",
@@ -23,13 +23,13 @@ const card: Card = {
 	illustrator: "Akira Komayama",
 
 	description: {
-		en: "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches."
+		'en-us': "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches."
 	},
 
 	attacks: [{
 		name: {
-			en: "Bite",
-			fr: "Morsure"
+			'en-us': "Bite",
+			'fr-fr': "Morsure"
 		},
 
 		damage: 10

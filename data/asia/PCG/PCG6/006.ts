@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "おしっこ",
+		'ja-jp': "おしっこ",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "体臭",
+				'ja-jp': "体臭",
 			},
 			effect: {
-				ja: "weezingがアクティブなポカモンである限り、ターンの間にポカンボディを持っている相手の各ポカモンに1つのダメージカウンターを1つのダメージカウンターに入れます。",
+				'ja-jp': "weezingがアクティブなポカモンである限り、ターンの間にポカンボディを持っている相手の各ポカモンに1つのダメージカウンターを1つのダメージカウンターに入れます。",
 			},
 		}],
 
@@ -29,16 +29,16 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "ミスト攻撃",
+				'ja-jp': "ミスト攻撃",
 			},
 			effect: {
-				ja: "対戦相手の各ポケモンに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "対戦相手の各ポケモンに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 		},
 		{
 			cost: ["Grass", "Colorless", "Colorless"],
 			name: {
-				ja: "スラッジ渦",
+				'ja-jp': "スラッジ渦",
 			},
 			damage: 50,
 		},

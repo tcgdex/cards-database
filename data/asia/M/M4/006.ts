@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハリボーグ",
+		'ja-jp': "ハリボーグ",
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "仲間同士で 体を ぶつけ合い 足腰を 鍛える。 自分からは 戦わない 優しい 性格。",
+		'ja-jp': "仲間同士で 体を ぶつけ合い 足腰を 鍛える。 自分からは 戦わない 優しい 性格。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Grass"],
 			effect: {
-				ja: "自分の山札から「基本[G]エネルギー」を1枚選び、このポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から「基本[G]エネルギー」を1枚選び、このポケモンにつける。そして山札を切る。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ハリマロン",
+		'ja-jp': "ハリマロン",
 	},
 
 	retreat: 3,

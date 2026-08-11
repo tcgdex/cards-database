@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW trainer Kit (Excadrill).ts'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lillipup",
-		fr: "Ponchiot",
-		es: "Lillipup",
-		it: "Lillipup",
-		pt: "Lillipup",
-		de: "Yorkleff"
+		'en-us': "Lillipup",
+		'fr-fr': "Ponchiot",
+		'es-es': "Lillipup",
+		'it-it': "Lillipup",
+		'pt-br': "Lillipup",
+		'de-de': "Yorkleff"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -30,20 +30,20 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Pickup",
-			fr: "Ramassage"
+			'en-us': "Pickup",
+			'fr-fr': "Ramassage"
 		},
 		effect: {
-			en: "Put an Item card from your discard pile into your hand.",
-			fr: "Prenez une carte Objet dans votre pile de défausse et ajoutez-la à votre main."
+			'en-us': "Put an Item card from your discard pile into your hand.",
+			'fr-fr': "Prenez une carte Objet dans votre pile de défausse et ajoutez-la à votre main."
 		}
 	}, {
 		cost: [
 			"Colorless",
 		],
 		name: {
-			en: "Bite",
-			fr: "Morsure"
+			'en-us': "Bite",
+			'fr-fr': "Morsure"
 		},
 		damage: 10
 	}],
@@ -54,7 +54,7 @@ const card: Card = {
 	}],
 
 	description: {
-		en: "It faces strong opponents with great courage. But, when at a disadvantage in a fight, this intelligent Pokémon flees."
+		'en-us': "It faces strong opponents with great courage. But, when at a disadvantage in a fight, this intelligent Pokémon flees."
 	},
 
 	retreat: 1,

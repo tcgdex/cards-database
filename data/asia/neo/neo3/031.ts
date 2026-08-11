@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スムーチュム",
+		'ja-jp': "スムーチュム",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "PSYKISS",
+				'ja-jp': "PSYKISS",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、対戦相手のポケモンの1つに取り付けられた特別なエネルギーカードを選択してください。あなたの対戦相手はそのカードを彼または彼女のデッキにシャッフルします。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、対戦相手のポケモンの1つに取り付けられた特別なエネルギーカードを選択してください。あなたの対戦相手はそのカードを彼または彼女のデッキにシャッフルします。",
 			},
 		},
 	],

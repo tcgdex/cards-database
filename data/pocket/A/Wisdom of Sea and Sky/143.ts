@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ambipom",
-		fr: "Capidextre"
+		'en-us': "Ambipom",
+		'fr-fr': "Capidextre"
 	},
 
 	illustrator: "Atsushi Furusawa",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Aipom"
+		'en-us': "Aipom"
 	},
 
 	description: {
-		en: "It uses its tails for everything. If it wraps both\nof its tails around you and gives you a squeeze,\nthat's proof it really likes you.",
-		fr: "Il utilise toujours ses deux queues pour faire la moindre tâche. Il s'en sert aussi pour enlacer les gens qu'il affectionne tout particulièrement."
+		'en-us': "It uses its tails for everything. If it wraps both\nof its tails around you and gives you a squeeze,\nthat's proof it really likes you.",
+		'fr-fr': "Il utilise toujours ses deux queues pour faire la moindre tâche. Il s'en sert aussi pour enlacer les gens qu'il affectionne tout particulièrement."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Tail Jab",
-			fr: "Coup d'Queue"
+			'en-us': "Tail Jab",
+			'fr-fr': "Coup d'Queue"
 		},
 
 		damage: 40,

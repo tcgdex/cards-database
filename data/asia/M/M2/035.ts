@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムウマ",
+		'ja-jp': "ムウマ",
 	},
 
 	illustrator: "Mousho",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "真夜中 人を 驚かせては 怖がる心を 集めて 自分の エネルギーに している ポケモン。",
+		'ja-jp': "真夜中 人を 驚かせては 怖がる心を 集めて 自分の エネルギーに している ポケモン。",
 	},
 
 	stage: "Basic",

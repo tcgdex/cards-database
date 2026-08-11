@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ฟุคุซึโร",
-		id: "Dartrix"
+		'th-th': "ฟุคุซึโร",
+		'id-id': "Dartrix"
 	},
 
 	illustrator: "Tetsu Kayama",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		th: "ซัดขนนกแหลมคมราวกับมีดจนถูกเรียกว่าขนใบมีดใส่ศัตรูอย่างต่อเนื่อง ขนนกจะทะลวงจุดตายของอีกฝ่ายได้อย่างแน่นอน",
-		id: "Dartrix melemparkan bulu seperti pisau yang disebut Bulu Pisau dengan terus-menerus dan secara pasti menembak tembus kelemahan musuh."
+		'th-th': "ซัดขนนกแหลมคมราวกับมีดจนถูกเรียกว่าขนใบมีดใส่ศัตรูอย่างต่อเนื่อง ขนนกจะทะลวงจุดตายของอีกฝ่ายได้อย่างแน่นอน",
+		'id-id': "Dartrix melemparkan bulu seperti pisau yang disebut Bulu Pisau dengan terus-menerus dan secara pasti menembak tembus kelemahan musuh."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "ปีกสามัคคี",
-			id: "Sayap Bersatu Padu"
+			'th-th': "ปีกสามัคคี",
+			'id-id': "Sayap Bersatu Padu"
 		},
 
 		effect: {
-			th: "แดเมจจะเท่ากับจำนวนการ์ดโปเกมอนที่มีท่าต่อสู้ [ปีกสามัคคี] ที่อยู่บนตำแหน่งทิ้งการ์ดฝ่ายเรา x20",
-			id: "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap lembar Pokémon yang memiliki serangan Sayap Bersatu Padu yang ada di Trash sendiri."
+			'th-th': "แดเมจจะเท่ากับจำนวนการ์ดโปเกมอนที่มีท่าต่อสู้ [ปีกสามัคคี] ที่อยู่บนตำแหน่งทิ้งการ์ดฝ่ายเรา x20",
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap lembar Pokémon yang memiliki serangan Sayap Bersatu Padu yang ada di Trash sendiri."
 		},
 
 		damage: "20×",
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "คัตเตอร์วินด์",
-			id: "Cutter Wind"
+			'th-th': "คัตเตอร์วินด์",
+			'id-id': "Cutter Wind"
 		},
 
 		damage: 30,

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pitch Black"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Finizen",
-		fr: "Dofin",
-		es: "Finizen",
+		'en-us': "Finizen",
+		'fr-fr': "Dofin",
+		'es-es': "Finizen",
 		'es-mx': "Finizen",
-		de: "Normifin",
-		it: "Finizen",
-		pt: "Finizen"
+		'de-de': "Normifin",
+		'it-it': "Finizen",
+		'pt-br': "Finizen"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -24,13 +24,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Draining Fin",
-			fr: "Aileron Siphon",
-			es: "Aleta Drenaje",
+			'en-us': "Draining Fin",
+			'fr-fr': "Aileron Siphon",
+			'es-es': "Aleta Drenaje",
 			'es-mx': "Aleta Drenadora",
-			de: "Diebesflosse",
-			it: "Assorbipinna",
-			pt: "Barbatana Drenante"
+			'de-de': "Diebesflosse",
+			'it-it': "Assorbipinna",
+			'pt-br': "Barbatana Drenante"
 		},
 
 		cost: ["Water", "Water"],
@@ -38,13 +38,13 @@ const card: Card = {
 		damage: 20,
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon.",
-			fr: "Soignez 20 dégâts de ce Pokémon.",
-			es: "Cura 20 puntos de daño a este Pokémon.",
+			'en-us': "Heal 20 damage from this Pokémon.",
+			'fr-fr': "Soignez 20 dégâts de ce Pokémon.",
+			'es-es': "Cura 20 puntos de daño a este Pokémon.",
 			'es-mx': "Cura 20 puntos de daño a este Pokémon.",
-			de: "Heile 20 Schadenspunkte bei diesem Pokémon.",
-			it: "Cura questo Pokémon da 20 danni.",
-			pt: "Cure 20 pontos de dano deste Pokémon."
+			'de-de': "Heile 20 Schadenspunkte bei diesem Pokémon.",
+			'it-it': "Cura questo Pokémon da 20 danni.",
+			'pt-br': "Cure 20 pontos de dano deste Pokémon."
 		}
 	}],
 

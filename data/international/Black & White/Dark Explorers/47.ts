@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Eelektross",
-		fr: "Ohmassacre",
-		es: "Eelektross",
-		it: "Eelektross",
-		pt: "Eelektross",
-		de: "Zapplarang"
+		'en-us': "Eelektross",
+		'fr-fr': "Ohmassacre",
+		'es-es': "Eelektross",
+		'it-it': "Eelektross",
+		'pt-br': "Eelektross",
+		'de-de': "Zapplarang"
 	},
 
 	illustrator: "kawayoo",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eelektrik",
-		fr: "Lampéroie"
+		'en-us': "Eelektrik",
+		'fr-fr': "Lampéroie"
 	},
 
 	stage: "Stage2",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Suction Heal",
-				fr: "Succion Guérisseuse"
+				'en-us': "Suction Heal",
+				'fr-fr': "Succion Guérisseuse"
 			},
 			effect: {
-				en: "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
-				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur."
+				'en-us': "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
+				'fr-fr': "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur."
 			},
 			damage: 40,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slurp Shakedown",
-				fr: "Aspiration Brutale"
+				'en-us': "Slurp Shakedown",
+				'fr-fr': "Aspiration Brutale"
 			},
 			effect: {
-				en: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. This attack does 60 damage to the new Defending Pokémon.",
-				fr: "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire. Cette attaque inflige 60 dégâts au nouveau Pokémon Défenseur."
+				'en-us': "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. This attack does 60 damage to the new Defending Pokémon.",
+				'fr-fr': "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire. Cette attaque inflige 60 dégâts au nouveau Pokémon Défenseur."
 			},
 
 		},
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "With their sucker mouths, they suck in prey. Then they use their fangs to shock the prey with electricity.",
+		'en-us': "With their sucker mouths, they suck in prey. Then they use their fangs to shock the prey with electricity.",
 	},
 
 	thirdParty: {

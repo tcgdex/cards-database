@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pitch Black"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vullaby",
-		fr: "Vostourno",
-		es: "Vullaby",
+		'en-us': "Vullaby",
+		'fr-fr': "Vostourno",
+		'es-es': "Vullaby",
 		'es-mx': "Vullaby",
-		de: "Skallyk",
-		it: "Vullaby",
-		pt: "Vullaby"
+		'de-de': "Skallyk",
+		'it-it': "Vullaby",
+		'pt-br': "Vullaby"
 	},
 
 	illustrator: "Shiburingaru",
@@ -24,13 +24,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Flap",
-			fr: "Battement",
-			es: "Aleteo",
+			'en-us': "Flap",
+			'fr-fr': "Battement",
+			'es-es': "Aleteo",
 			'es-mx': "Aleteo",
-			de: "Flattern",
-			it: "Alabattito",
-			pt: "Asa"
+			'de-de': "Flattern",
+			'it-it': "Alabattito",
+			'pt-br': "Asa"
 		},
 
 		cost: ["Darkness"],
@@ -38,13 +38,13 @@ const card: Card = {
 		damage: 10
 	}, {
 		name: {
-			en: "Gust",
-			fr: "Tornade",
-			es: "Tornado",
+			'en-us': "Gust",
+			'fr-fr': "Tornade",
+			'es-es': "Tornado",
 			'es-mx': "Ráfaga de Aire",
-			de: "Windstoß",
-			it: "Raffica",
-			pt: "Lufada de Vento"
+			'de-de': "Windstoß",
+			'it-it': "Raffica",
+			'pt-br': "Lufada de Vento"
 		},
 
 		cost: ["Darkness", "Colorless"],

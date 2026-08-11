@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Metang"
+		'id-id': "Metang"
 	},
 
 	illustrator: "Nobuhiro Imagawa",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Dua ekor Beldum yang menempel menggunakan kekuatan magnet. Berkat dua otaknya, kekuatan psikokinesis Metang menguat dua kali lipat."
+		'id-id': "Dua ekor Beldum yang menempel menggunakan kekuatan magnet. Berkat dua otaknya, kekuatan psikokinesis Metang menguat dua kali lipat."
 	},
 
 	stage: "Stage1",
@@ -23,17 +23,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Metal Maker"
+			'id-id': "Metal Maker"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri. Lihat 4 kartu dari atas Deck sendiri, pilih sesukanya Energi Dasar {Logam} di antaranya, lalu kenakan sesukanya pada Pokémon sendiri. Kocok semua sisa kartu dengan sisi depan menghadap ke bawah, lalu kembalikan ke bawah Deck."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri. Lihat 4 kartu dari atas Deck sendiri, pilih sesukanya Energi Dasar {Logam} di antaranya, lalu kenakan sesukanya pada Pokémon sendiri. Kocok semua sisa kartu dengan sisi depan menghadap ke bawah, lalu kembalikan ke bawah Deck."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Beam"
+			'id-id': "Beam"
 		},
 
 		damage: 60,

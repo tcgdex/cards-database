@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Chochodile",
-		en: "Fuecoco",
-		es: "Fuecoco",
-		it: "Fuecoco",
-		pt: "Fuecoco",
-		de: "Krokel"
+		'fr-fr': "Chochodile",
+		'en-us': "Fuecoco",
+		'es-es': "Fuecoco",
+		'it-it': "Fuecoco",
+		'pt-br': "Fuecoco",
+		'de-de': "Krokel"
 	},
 
 	illustrator: "Saboteri",
@@ -25,23 +25,23 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Flamethrower",
-			fr: "Lance-Flammes",
-			es: "Lanzallamas",
+			'en-us': "Flamethrower",
+			'fr-fr': "Lance-Flammes",
+			'es-es': "Lanzallamas",
 			'es-mx': "Lanzallamas",
-			de: "Flammenwurf",
-			it: "Lanciafiamme",
-			pt: "Lança-chamas"
+			'de-de': "Flammenwurf",
+			'it-it': "Lanciafiamme",
+			'pt-br': "Lança-chamas"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
 			'es-mx': "Descarta 1 Energía de este Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon."
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte uma Energia deste Pokémon."
 		},
 
 		damage: 70

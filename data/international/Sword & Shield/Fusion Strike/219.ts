@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rookidee",
-		fr: "Minisange",
-		es: "Rookidee",
-		it: "Rookidee",
-		pt: "Rookidee",
-		de: "Meikro"
+		'en-us': "Rookidee",
+		'fr-fr': "Minisange",
+		'es-es': "Rookidee",
+		'it-it': "Rookidee",
+		'pt-br': "Rookidee",
+		'de-de': "Meikro"
 	},
 
 	rarity: "Common",
@@ -36,30 +36,30 @@ const card: Card = {
 	illustrator: "OKACHEKE",
 
 	description: {
-		en: "Jumping nimbly about, this small-bodied Pokémon takes advantage of even the slightest opportunity to disorient larger opponents."
+		'en-us': "Jumping nimbly about, this small-bodied Pokémon takes advantage of even the slightest opportunity to disorient larger opponents."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Fury Attack",
-			fr: "Furie",
-			de: "Furienschlag",
-			es: "Ataque Furia",
-			pt: "Ataque de Fúria",
-			it: "Furia"
+			'en-us': "Fury Attack",
+			'fr-fr': "Furie",
+			'de-de': "Furienschlag",
+			'es-es': "Ataque Furia",
+			'pt-br': "Ataque de Fúria",
+			'it-it': "Furia"
 		},
 
 		damage: "10×",
 
 		effect: {
-			en: "Flip 3 coins. This attack does 10 damage for each heads.",
-			fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
-			de: "Wirf 3 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu.",
-			es: "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
-			pt: "Jogue 3 moedas. Este ataque causa 10 pontos de dano para cada cara.",
-			it: "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa."
+			'en-us': "Flip 3 coins. This attack does 10 damage for each heads.",
+			'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
+			'de-de': "Wirf 3 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu.",
+			'es-es': "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+			'pt-br': "Jogue 3 moedas. Este ataque causa 10 pontos de dano para cada cara.",
+			'it-it': "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa."
 		}
 	}],
 

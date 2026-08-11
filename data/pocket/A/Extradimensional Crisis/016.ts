@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Blitzle",
-		fr: "Zébibron"
+		'en-us': "Blitzle",
+		'fr-fr': "Zébibron"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "When thunderclouds cover the sky, it will appear.\nIt can catch lightning with its mane and store\nthe electricity.",
-		fr: "Il apparaît quand le ciel est à l'orage. Il capte les éclairs avec sa crinière et accumule de l'électricité."
+		'en-us': "When thunderclouds cover the sky, it will appear.\nIt can catch lightning with its mane and store\nthe electricity.",
+		'fr-fr': "Il apparaît quand le ciel est à l'orage. Il capte les éclairs avec sa crinière et accumule de l'électricité."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Rear Kick",
-			fr: "Ruade"
+			'en-us': "Rear Kick",
+			'fr-fr': "Ruade"
 		},
 
 		damage: 40,

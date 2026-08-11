@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ソルガレオ",
+		'ja-jp': "ソルガレオ",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "ライジングスター" },
 			cost: ["Metal"],
 			effect: {
-				ja: "自分のトラッシュにある[鋼]エネルギーを、相手の場のポケモンの数ぶん、自分のポケモンに好きなようにつける。",
+				'ja-jp': "自分のトラッシュにある[鋼]エネルギーを、相手の場のポケモンの数ぶん、自分のポケモンに好きなようにつける。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Metal", "Metal", "Metal", "Metal"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],

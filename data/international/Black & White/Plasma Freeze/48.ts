@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Espeon",
-		fr: "Mentali",
-		es: "Espeon",
-		it: "Espeon",
-		pt: "Espeon",
-		de: "Psiana"
+		'en-us': "Espeon",
+		'fr-fr': "Mentali",
+		'es-es': "Espeon",
+		'it-it': "Espeon",
+		'pt-br': "Espeon",
+		'de-de': "Psiana"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psy Alert",
-				fr: "Alerte Psychique",
+				'en-us': "Psy Alert",
+				'fr-fr': "Alerte Psychique",
 			},
 			effect: {
-				en: "Draw cards until you have 6 cards in your hand.",
-				fr: "Piochez des cartes jusqu'à ce que vous ayez 6 cartes en main.",
+				'en-us': "Draw cards until you have 6 cards in your hand.",
+				'fr-fr': "Piochez des cartes jusqu'à ce que vous ayez 6 cartes en main.",
 			},
 			damage: 20,
 
@@ -54,12 +54,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Shadow Ball",
-				fr: "Ball'Ombre",
+				'en-us': "Shadow Ball",
+				'fr-fr': "Ball'Ombre",
 			},
 			effect: {
-				en: "This attack does 40 damage to 1 of your opponent's Pokémon. Also apply Weakness and Resistance for Benched Pokémon.",
-				fr: "Cette attaque inflige 40 dégâts à 1 des Pokémon de votre adversaire. Appliquez aussi la Faiblesse et la Résistance aux Pokémon de Banc.",
+				'en-us': "This attack does 40 damage to 1 of your opponent's Pokémon. Also apply Weakness and Resistance for Benched Pokémon.",
+				'fr-fr': "Cette attaque inflige 40 dégâts à 1 des Pokémon de votre adversaire. Appliquez aussi la Faiblesse et la Résistance aux Pokémon de Banc.",
 			},
 
 		},
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its fur is so sensitive, it can feel minute shifts in the air and predict the weather…and its foes' thoughts.",
+		'en-us': "Its fur is so sensitive, it can feel minute shifts in the air and predict the weather…and its foes' thoughts.",
 	},
 
 	thirdParty: {

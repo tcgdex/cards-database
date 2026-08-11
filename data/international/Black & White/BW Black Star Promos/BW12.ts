@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Zorua",
-		fr: "Zorua",
+		'en-us': "Zorua",
+		'fr-fr': "Zorua",
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jump On",
-				fr: "Saut",
+				'en-us': "Jump On",
+				'fr-fr': "Saut",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -58,7 +58,7 @@ const card: Card = {
 
 
 	description: {
-		en: "To protect themselves from danger, they hide their true identities by transforming into people and Pokémon.",
+		'en-us': "To protect themselves from danger, they hide their true identities by transforming into people and Pokémon.",
 	},
 }
 

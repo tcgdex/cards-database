@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "デデンネex"
+		'ja-jp': "デデンネex"
 	},
 
 	illustrator: "aky CG Works",
@@ -19,23 +19,23 @@ const card: Card = {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			ja: "テールスワップ"
+			'ja-jp': "テールスワップ"
 		},
 
 		effect: {
-			ja: "自分のベンチポケモンを1匹選び、選んだポケモンにのっているダメカンをすべて、相手のバトルポケモンにのせ替える。"
+			'ja-jp': "自分のベンチポケモンを1匹選び、選んだポケモンにのっているダメカンをすべて、相手のバトルポケモンにのせ替える。"
 		}
 	}, {
 		cost: ["Psychic", "Psychic", "Psychic"],
 
 		name: {
-			ja: "ワンダーショット"
+			'ja-jp': "ワンダーショット"
 		},
 
 		damage: 170,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを1個選び、トラッシュする。"
+			'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。"
 		}
 	}],
 

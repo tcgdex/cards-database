@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gallade",
-		fr: "Gallame",
-		es: "Gallade",
-		it: "Gallade",
-		pt: "Gallade",
-		de: "Galagladi"
+		'en-us': "Gallade",
+		'fr-fr': "Gallame",
+		'es-es': "Gallade",
+		'it-it': "Gallade",
+		'pt-br': "Gallade",
+		'de-de': "Galagladi"
 	},
 
 	illustrator: "Atsushi Furusawa",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Kirlia",
-		fr: "Kirlia",
-		es: "Kirlia",
-		it: "Kirlia",
-		pt: "Kirlia",
-		de: "Kirlia"
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia",
+		'es-es': "Kirlia",
+		'it-it': "Kirlia",
+		'pt-br': "Kirlia",
+		'de-de': "Kirlia"
 	},
 
 	stage: "Stage2",
@@ -35,21 +35,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Buddy Catch",
-			fr: "Attrape Partenaire",
-			es: "Atrapa Amigos",
-			it: "Catturamico",
-			pt: "Captura Camarada",
-			de: "Kumpelfang"
+			'en-us': "Buddy Catch",
+			'fr-fr': "Attrape Partenaire",
+			'es-es': "Atrapa Amigos",
+			'it-it': "Catturamico",
+			'pt-br': "Captura Camarada",
+			'de-de': "Kumpelfang"
 		},
 
 		effect: {
-			en: "Once during your turn, you may search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.",
-			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck une carte Supporter, la montrer, puis l'ajouter à votre main. Mélangez ensuite votre deck.",
-			es: "Una vez durante tu turno, puedes buscar en tu baraja 1 carta de Partidario, enseñarla y ponerla en tu mano. Después, baraja las cartas de tu baraja.",
-			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta Aiuto, mostrarla e aggiungerla alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			pt: "Uma vez durante o seu turno, você poderá procurar por 1 carta de Apoiador no seu baralho, revelá-la e colocá-la na sua mão. Em seguida, embaralhe o seu baralho.",
-			de: "Einmal während deines Zuges kannst du dein Deck nach 1 Unterstützerkarte durchsuchen, sie deinem Gegner zeigen und auf deine Hand nehmen. Mische anschließend dein Deck."
+			'en-us': "Once during your turn, you may search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez chercher dans votre deck une carte Supporter, la montrer, puis l'ajouter à votre main. Mélangez ensuite votre deck.",
+			'es-es': "Una vez durante tu turno, puedes buscar en tu baraja 1 carta de Partidario, enseñarla y ponerla en tu mano. Después, baraja las cartas de tu baraja.",
+			'it-it': "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta Aiuto, mostrarla e aggiungerla alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Uma vez durante o seu turno, você poderá procurar por 1 carta de Apoiador no seu baralho, revelá-la e colocá-la na sua mão. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Einmal während deines Zuges kannst du dein Deck nach 1 Unterstützerkarte durchsuchen, sie deinem Gegner zeigen und auf deine Hand nehmen. Mische anschließend dein Deck."
 		}
 	}],
 
@@ -57,21 +57,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Swirling Slice",
-			fr: "Coupe Tourbillonnante",
-			es: "Tajo Remolino",
-			it: "Taglio Vorticoso",
-			pt: "Corte em Espiral",
-			de: "Wirbelnder Schnitt"
+			'en-us': "Swirling Slice",
+			'fr-fr': "Coupe Tourbillonnante",
+			'es-es': "Tajo Remolino",
+			'it-it': "Taglio Vorticoso",
+			'pt-br': "Corte em Espiral",
+			'de-de': "Wirbelnder Schnitt"
 		},
 
 		effect: {
-			en: "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
-			fr: "Déplacez une Énergie de ce Pokémon vers l'un de vos Pokémon de Banc.",
-			es: "Mueve 1 Energía de este Pokémon a 1 de tus Pokémon en Banca.",
-			it: "Sposta un'Energia da questo Pokémon a uno di quelli nella tua panchina.",
-			pt: "Mova 1 Energia deste Pokémon para 1 dos seus Pokémon no Banco.",
-			de: "Verschiebe 1 Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
+			'en-us': "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
+			'fr-fr': "Déplacez une Énergie de ce Pokémon vers l'un de vos Pokémon de Banc.",
+			'es-es': "Mueve 1 Energía de este Pokémon a 1 de tus Pokémon en Banca.",
+			'it-it': "Sposta un'Energia da questo Pokémon a uno di quelli nella tua panchina.",
+			'pt-br': "Mova 1 Energia deste Pokémon para 1 dos seus Pokémon no Banco.",
+			'de-de': "Verschiebe 1 Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
 		},
 
 		damage: 160
@@ -94,7 +94,7 @@ const card: Card = {
 
 
 	description: {
-		en: "True to its honorable-warrior image, it uses the blades on its elbows only in defense of something or someone.",
+		'en-us': "True to its honorable-warrior image, it uses the blades on its elbows only in defense of something or someone.",
 	},
 
 	variants: [

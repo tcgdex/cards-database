@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バタフリー",
+		'ja-jp': "バタフリー",
 	},
 
 	illustrator: "Midori Harada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "羽を 包む りん粉は 猛毒。 キャタピーを 狙う とりポケモンを 見つけると ふりかけて 追い払うぞ。",
+		'ja-jp': "羽を 包む りん粉は 猛毒。 キャタピーを 狙う とりポケモンを 見つけると ふりかけて 追い払うぞ。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "トリプルチャージ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある基本エネルギーを3枚まで、自分のポケモンに好きなようにつける。そして山札を切る。",
+				'ja-jp': "自分の山札にある基本エネルギーを3枚まで、自分のポケモンに好きなようにつける。そして山札を切る。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "トランセル",
+		'ja-jp': "トランセル",
 	},
 
 	retreat: 1,

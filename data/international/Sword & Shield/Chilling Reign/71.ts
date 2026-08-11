@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hatenna",
-		fr: "Bibichut",
-		es: "Hatenna",
-		it: "Hatenna",
-		pt: "Hatenna",
-		de: "Brimova"
+		'en-us': "Hatenna",
+		'fr-fr': "Bibichut",
+		'es-es': "Hatenna",
+		'it-it': "Hatenna",
+		'pt-br': "Hatenna",
+		'de-de': "Brimova"
 	},
 
 	illustrator: "Sekio",
@@ -22,12 +22,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Psyshot",
-			fr: "Piqûre Psy",
-			es: "Disparo Psi",
-			it: "Psicosparo",
-			pt: "Tiro Psíquico",
-			de: "Psychoschuss"
+			'en-us': "Psyshot",
+			'fr-fr': "Piqûre Psy",
+			'es-es': "Disparo Psi",
+			'it-it': "Psicosparo",
+			'pt-br': "Tiro Psíquico",
+			'de-de': "Psychoschuss"
 		},
 
 		damage: 20,
@@ -51,7 +51,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "If this Pokémon senses a strong emotion, it will run away as fast as it can. It prefers areas without people."
+		'en-us': "If this Pokémon senses a strong emotion, it will run away as fast as it can. It prefers areas without people."
 	},
 
 	variants: [

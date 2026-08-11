@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Krokorok",
-		fr: "Escroco",
-		es: "Krokorok",
-		it: "Krokorok",
-		pt: "Krokorok",
-		de: "Rokkaiman"
+		'en-us': "Krokorok",
+		'fr-fr': "Escroco",
+		'es-es': "Krokorok",
+		'it-it': "Krokorok",
+		'pt-br': "Krokorok",
+		'de-de': "Rokkaiman"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Sandile",
-		fr: "Mascaïman",
-		es: "Sandile",
-		it: "Sandile",
-		pt: "Sandile",
-		de: "Ganovil"
+		'en-us': "Sandile",
+		'fr-fr': "Mascaïman",
+		'es-es': "Sandile",
+		'it-it': "Sandile",
+		'pt-br': "Sandile",
+		'de-de': "Ganovil"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			es: "Mordisco",
-			it: "Morso",
-			pt: "Mordida",
-			de: "Biss"
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'es-es': "Mordisco",
+			'it-it': "Morso",
+			'pt-br': "Mordida",
+			'de-de': "Biss"
 		},
 
 		damage: 20
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Dredge Up",
-			fr: "Extraction",
-			es: "Ventilar",
-			it: "Dragaggio",
-			pt: "Dragar",
-			de: "Ausbaggern"
+			'en-us': "Dredge Up",
+			'fr-fr': "Extraction",
+			'es-es': "Ventilar",
+			'it-it': "Dragaggio",
+			'pt-br': "Dragar",
+			'de-de': "Ausbaggern"
 		},
 
 		effect: {
-			en: "Discard the top 3 cards of your opponent's deck.",
-			fr: "Défaussez les 3 cartes du dessus du deck de votre adversaire.",
-			es: "Descarta las 3 primeras cartas de la baraja de tu rival.",
-			it: "Scarta le prime tre carte del mazzo del tuo avversario.",
-			pt: "Descarte as 3 cartas de cima do baralho do seu oponente.",
-			de: "Lege die obersten 3 Karten des Decks deines Gegners auf seinen Ablagestapel."
+			'en-us': "Discard the top 3 cards of your opponent's deck.",
+			'fr-fr': "Défaussez les 3 cartes du dessus du deck de votre adversaire.",
+			'es-es': "Descarta las 3 primeras cartas de la baraja de tu rival.",
+			'it-it': "Scarta le prime tre carte del mazzo del tuo avversario.",
+			'pt-br': "Descarte as 3 cartas de cima do baralho do seu oponente.",
+			'de-de': "Lege die obersten 3 Karten des Decks deines Gegners auf seinen Ablagestapel."
 		}
 	}],
 
@@ -77,7 +77,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It buries some of its prey in the sand to use as emergency meals when its hunts are unsuccessful.",
+		'en-us': "It buries some of its prey in the sand to use as emergency meals when its hunts are unsuccessful.",
 	},
 
 	

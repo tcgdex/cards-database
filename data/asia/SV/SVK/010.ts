@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVK"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ビッパ"
+		'ja-jp': "ビッパ"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "いつも 大木や 石を かじって 丈夫な 前歯を 削っている。 水辺に 巣を 作り 暮らす。"
+		'ja-jp': "いつも 大木や 石を かじって 丈夫な 前歯を 削っている。 水辺に 巣を 作り 暮らす。"
 	},
 
 	stage: "Basic",
@@ -24,11 +24,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "へっちゃらがお"
+			'ja-jp': "へっちゃらがお"
 		},
 
 		effect: {
-			ja: "このポケモンは、ベンチにいるかぎり、ワザのダメージを受けない。"
+			'ja-jp': "このポケモンは、ベンチにいるかぎり、ワザのダメージを受けない。"
 		}
 	}],
 
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ひっさつまえば"
+			'ja-jp': "ひっさつまえば"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "コインを1回投げウラなら、このワザは失敗。"
+			'ja-jp': "コインを1回投げウラなら、このワザは失敗。"
 		}
 	}],
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カクレオン",
+		'ja-jp': "カクレオン",
 	},
 
 	illustrator: "OOYAMA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "体の 色を 変えて 景色に 溶けこみ 獲物に 忍び寄る。 お腹の 模様は 消せないのだ。",
+		'ja-jp': "体の 色を 変えて 景色に 溶けこみ 獲物に 忍び寄る。 お腹の 模様は 消せないのだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ユニットカラー２" },
 			effect: {
-				ja: "このポケモンに「ユニットエネルギー雷超鋼」がついているかぎり、このポケモンは[雷][超][鋼]の3つのタイプになる。",
+				'ja-jp': "このポケモンに「ユニットエネルギー雷超鋼」がついているかぎり、このポケモンは[雷][超][鋼]の3つのタイプになる。",
 			},
 		},
 	],

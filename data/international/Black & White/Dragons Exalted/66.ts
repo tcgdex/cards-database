@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Boldore",
-		fr: "Géolithe",
-		es: "Boldore",
-		it: "Boldore",
-		pt: "Boldore",
-		de: "Sedimantur"
+		'en-us': "Boldore",
+		'fr-fr': "Géolithe",
+		'es-es': "Boldore",
+		'it-it': "Boldore",
+		'pt-br': "Boldore",
+		'de-de': "Sedimantur"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Roggenrola",
-		fr: "Nodulithe",
+		'en-us': "Roggenrola",
+		'fr-fr': "Nodulithe",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Rock Cannon",
-				fr: "Canon à Pierres",
+				'en-us': "Rock Cannon",
+				'fr-fr': "Canon à Pierres",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 30,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Earthquake",
-				fr: "Séisme",
+				'en-us': "Earthquake",
+				'fr-fr': "Séisme",
 			},
 			effect: {
-				en: "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 60,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Because its energy was too great to be contained, the energy leaked and formed orange crystals.",
+		'en-us': "Because its energy was too great to be contained, the energy leaked and formed orange crystals.",
 	},
 
 	thirdParty: {

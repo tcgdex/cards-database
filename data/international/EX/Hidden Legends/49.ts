@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Starmie",
-		fr: "Staross",
-		de: "Starmie"
+		'en-us': "Starmie",
+		'fr-fr': "Staross",
+		'de-de': "Starmie"
 	},
 
 	illustrator: "Aya Kusube",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Staryu",
-		fr: "Stari"
+		'en-us': "Staryu",
+		'fr-fr': "Stari"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Arrow",
-				fr: "Flèche d'eau",
-				de: "Water Arrow"
+				'en-us': "Water Arrow",
+				'fr-fr': "Flèche d'eau",
+				'de-de': "Water Arrow"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rainbow Star",
-				fr: "Étoile multicolore",
-				de: "Rainbow Star"
+				'en-us': "Rainbow Star",
+				'fr-fr': "Étoile multicolore",
+				'de-de': "Rainbow Star"
 			},
 			effect: {
-				en: "Does 50 damage plus 10 more damage for each type of basic Energy attached to the Defending Pokémon.",
-				fr: "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque type d'Énergie de base attaché au Pokémon Défenseur.",
-				de: "Dies 50 damage plus 10 more damage for each type of basic Energy attached to the Defending Pokémon."
+				'en-us': "Does 50 damage plus 10 more damage for each type of basic Energy attached to the Defending Pokémon.",
+				'fr-fr': "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque type d'Énergie de base attaché au Pokémon Défenseur.",
+				'de-de': "Dies 50 damage plus 10 more damage for each type of basic Energy attached to the Defending Pokémon."
 			},
 			damage: "50+",
 

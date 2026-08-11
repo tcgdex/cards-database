@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カプ・テテフ",
+		'ja-jp': "カプ・テテフ",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "無邪気で 残酷な アーカラの 守り神。 花の 芳しい 香りが エネルギーの 源。",
+		'ja-jp': "無邪気で 残酷な アーカラの 守り神。 花の 芳しい 香りが エネルギーの 源。",
 	},
 
 	stage: "Basic",
@@ -24,14 +24,14 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Fairy"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数x20ダメージ。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数x20ダメージ。",
 			},
 		},
 		{
 			name: { ja: "マジカルスワップ" },
 			cost: ["Fairy", "Colorless"],
 			effect: {
-				ja: "相手の場のポケモンにのっているダメカンを好きなだけ選び、相手の場のポケモンに好きなようにのせ替える。",
+				'ja-jp': "相手の場のポケモンにのっているダメカンを好きなだけ選び、相手の場のポケモンに好きなようにのせ替える。",
 			},
 		},
 	],

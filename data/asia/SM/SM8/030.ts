@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドヒドイデ",
+		'ja-jp': "ドヒドイデ",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ドヒドイデの 毒に やられると ３日３晩 激痛に 苦しみ 助かっても 後遺症が 残る。",
+		'ja-jp': "ドヒドイデの 毒に やられると ３日３晩 激痛に 苦しみ 助かっても 後遺症が 残る。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "どくばり" },
 			cost: ["Water"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Water", "Water"],
 			effect: {
-				ja: "相手のバトルポケモンがどくなら、相手のバトルポケモンにのっているダメカンの数x50ダメージ。",
+				'ja-jp': "相手のバトルポケモンがどくなら、相手のバトルポケモンにのっているダメカンの数x50ダメージ。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒドイデ",
+		'ja-jp': "ヒドイデ",
 	},
 
 	retreat: 3,

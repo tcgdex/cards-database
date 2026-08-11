@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Raikou ex",
-		fr: "Raikou ex",
-		de: "Raikou ex"
+		'en-us': "Raikou ex",
+		'fr-fr': "Raikou ex",
+		'de-de': "Raikou ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Dazzle Blast",
-				fr: "Explosion de lumière",
-				de: "Dazzle Blast"
+				'en-us': "Dazzle Blast",
+				'fr-fr': "Explosion de lumière",
+				'de-de': "Dazzle Blast"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 10,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lightning Tackle",
-				fr: "Charge éclair",
-				de: "Lightning Tackle"
+				'en-us': "Lightning Tackle",
+				'fr-fr': "Charge éclair",
+				'de-de': "Lightning Tackle"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Raikou ex does 20 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Raikou ex s'inflige 20 dégâts.",
-				de: "Flip a coin. If tails, Raikou ex does 20 damage to itself."
+				'en-us': "Flip a coin. If tails, Raikou ex does 20 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Raikou ex s'inflige 20 dégâts.",
+				'de-de': "Flip a coin. If tails, Raikou ex does 20 damage to itself."
 			},
 			damage: 70,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハガネール",
+		'ja-jp': "ハガネール",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "土と 一緒に 飲みこんだ  鉄分が 溜まっていって 体が  変化したとも 考えられる。",
+		'ja-jp': "土と 一緒に 飲みこんだ  鉄分が 溜まっていって 体が  変化したとも 考えられる。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "holo"}],
 
 	evolveFrom: {
-		ja: "イワーク",
+		'ja-jp': "イワーク",
 	},
 
 	retreat: 4,

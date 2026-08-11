@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エネルギーを跳ね返します",
+		'ja-jp': "エネルギーを跳ね返します",
 	},
 
 	rarity: "Uncommon",

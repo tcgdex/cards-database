@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Toxicroak",
-		de: "Toxiquak"
+		'en-us': "Toxicroak",
+		'de-de': "Toxiquak"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Croagunk"
+		'en-us': "Croagunk"
 	},
 
 	stage: "Stage1",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Corner",
-				de: "Bedrängen"
+				'en-us': "Corner",
+				'de-de': "Bedrängen"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'de-de': "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 20,
 
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Convert Blow",
-				de: "Umwandlungsschlag"
+				'en-us': "Convert Blow",
+				'de-de': "Umwandlungsschlag"
 			},
 			effect: {
-				en: "If Toxicroak has any Psychic Energy attached to it, the Defending Pokémon is now Poisoned. If Toxicroak has any Fighting Energy attached to it, this attack does 30 damage plus 30 more damage.",
-				de: "Wenn an Toxiquak mindestens 1 -Energie angelegt ist, ist das Verteidigende Pokémon jetzt vergiftet. Wenn an Toxiquak mindestens 1 -Energie angelegt ist, fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "If Toxicroak has any Psychic Energy attached to it, the Defending Pokémon is now Poisoned. If Toxicroak has any Fighting Energy attached to it, this attack does 30 damage plus 30 more damage.",
+				'de-de': "Wenn an Toxiquak mindestens 1 -Energie angelegt ist, ist das Verteidigende Pokémon jetzt vergiftet. Wenn an Toxiquak mindestens 1 -Energie angelegt ist, fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has a poison sac at its throat. When it croaks, the stored poison is churned for more potency."
+		'en-us': "It has a poison sac at its throat. When it croaks, the stored poison is churned for more potency."
 	},
 
 	variants: [

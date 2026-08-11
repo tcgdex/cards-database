@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミロカロス",
+		'ja-jp': "ミロカロス",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "最も 美しい ポケモンとも 呼ばれ 多くの 芸術家に インスピレーションを 与えてきた。",
+		'ja-jp': "最も 美しい ポケモンとも 呼ばれ 多くの 芸術家に インスピレーションを 与えてきた。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "いつくしむ" },
 			cost: ["Water"],
 			effect: {
-				ja: "ダメカンがのっている相手のベンチポケモン1匹と、ついているすべてのカードを、山札にもどして切る。",
+				'ja-jp': "ダメカンがのっている相手のベンチポケモン1匹と、ついているすべてのカードを、山札にもどして切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Water", "Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒンバス",
+		'ja-jp': "ヒンバス",
 	},
 
 	retreat: 2,

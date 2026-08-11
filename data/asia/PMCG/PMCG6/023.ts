@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キョウのベトベトン",
+		'ja-jp': "キョウのベトベトン",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "エネルギー排水",
+				'ja-jp': "エネルギー排水",
 			},
 			effect: {
-				ja: "相手の攻撃がKogaのMUKにダメージを与えた場合（KogaのMukがノックアウトされたとしても）、コインをひっくり返します。ヘッドとそれがある場合は、攻撃するポクモンに1枚のエネルギーカードを選択して破棄します。コガのMUKがすでに眠っている場合、相手が攻撃したときに眠ったり、混乱したり、麻痺したりしている場合、このパワーは使用できません。",
+				'ja-jp': "相手の攻撃がKogaのMUKにダメージを与えた場合（KogaのMukがノックアウトされたとしても）、コインをひっくり返します。ヘッドとそれがある場合は、攻撃するポクモンに1枚のエネルギーカードを選択して破棄します。コガのMUKがすでに眠っている場合、相手が攻撃したときに眠ったり、混乱したり、麻痺したりしている場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -30,7 +30,7 @@ const card: Card = {
 		{
 			cost: ["Grass", "Grass", "Colorless"],
 			name: {
-				ja: "スラッジ渦",
+				'ja-jp': "スラッジ渦",
 			},
 			damage: 40,
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Poochyena",
-		fr: "Medhyena de Team Aqua",
-		de: "Team Aquas Fiffyen"
+		'en-us': "Team Aqua's Poochyena",
+		'fr-fr': "Medhyena de Team Aqua",
+		'de-de': "Team Aquas Fiffyen"
 	},
 
 	illustrator: "Shin-ichi Yoshikawa",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Roar",
-				fr: "Hurlement",
-				de: "Roar"
+				'en-us': "Roar",
+				'fr-fr': "Hurlement",
+				'de-de': "Roar"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
-				fr: "Si votre adversaire a des Pokémon sur son Banc, il choisit l'un d'eux et l'échange contre le Pokémon Défenseur.",
-				de: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
+				'fr-fr': "Si votre adversaire a des Pokémon sur son Banc, il choisit l'un d'eux et l'échange contre le Pokémon Défenseur.",
+				'de-de': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Crush",
-				fr: "Écrasement Aqua",
-				de: "Aqua Crush"
+				'en-us': "Aqua Crush",
+				'fr-fr': "Écrasement Aqua",
+				'de-de': "Aqua Crush"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon."
+				'en-us': "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon."
 			},
 			damage: 10,
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Swampert",
-		fr: "Laggron",
-		de: "Sumpex"
+		'en-us': "Swampert",
+		'fr-fr': "Laggron",
+		'de-de': "Sumpex"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Marshtomp",
-		fr: "Flobio"
+		'en-us': "Marshtomp",
+		'fr-fr': "Flobio"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Echo Draw",
-				fr: "Pioche renvoi",
-				de: "Echo Zug"
+				'en-us': "Echo Draw",
+				'fr-fr': "Pioche renvoi",
+				'de-de': "Echo Zug"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may draw a card. This power can't be used if Swampert is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez piocher une carte. Ce pouvoir ne peut pas être utilisé si Laggron est affecté par un État Spécial.",
-				de: "Ein Mal während deines Zuges (vor deinem Angriff) kannst du 1 Karte ziehen. Diese Poké-Power kann nicht benutzt werden, wenn Sumpex von einem Speziellen Zustand betroffen ist."
+				'en-us': "Once during your turn (before your attack), you may draw a card. This power can't be used if Swampert is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez piocher une carte. Ce pouvoir ne peut pas être utilisé si Laggron est affecté par un État Spécial.",
+				'de-de': "Ein Mal während deines Zuges (vor deinem Angriff) kannst du 1 Karte ziehen. Diese Poké-Power kann nicht benutzt werden, wenn Sumpex von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Hurl",
-				fr: "Lance-pierre",
-				de: "Steinschleuderer"
+				'en-us': "Rock Hurl",
+				'fr-fr': "Lance-pierre",
+				'de-de': "Steinschleuderer"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verringert."
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'de-de': "Der Schaden dieses Angriffs wird durch Resistenz nicht verringert."
 			},
 			damage: 60,
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SPD"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "代歐奇希斯VMAX",
-		ja: "デオキシスVMAX"
+		'ja-jp': "デオキシスVMAX"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -20,24 +20,24 @@ const card: Card = {
 
 		name: {
 			'zh-tw': "防護DNA",
-			ja: "プロテクトDNA"
+			'ja-jp': "プロテクトDNA"
 		},
 
 		effect: {
 			'zh-tw': "只要這隻寶可夢在場上，自己的所有寶可夢受到對手的「寶可夢【VSTAR】」招式的傷害「-30」點。",
-			ja: "このポケモンがいるかぎり、自分のポケモン全員が、相手の「ポケモンVSTAR」から受けるワザのダメージは「-30」される。"
+			'ja-jp': "このポケモンがいるかぎり、自分のポケモン全員が、相手の「ポケモンVSTAR」から受けるワザのダメージは「-30」される。"
 		}
 	}],
 
 	attacks: [{
 		name: {
 			'zh-tw': "極巨吸取",
-			ja: "ダイドレイン"
+			'ja-jp': "ダイドレイン"
 		},
 
 		effect: {
 			'zh-tw': "將這隻寶可夢恢復「30」HP。",
-			ja: "このポケモンのHPを「30」回復する。"
+			'ja-jp': "このポケモンのHPを「30」回復する。"
 		},
 
 		damage: 160,

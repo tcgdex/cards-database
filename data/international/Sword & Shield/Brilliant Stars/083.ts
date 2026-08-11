@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Golurk",
-		fr: "Golemastoc",
-		es: "Golurk",
-		it: "Golurk",
-		pt: "Golurk",
-		de: "Golgantes"
+		'en-us': "Golurk",
+		'fr-fr': "Golemastoc",
+		'es-es': "Golurk",
+		'it-it': "Golurk",
+		'pt-br': "Golurk",
+		'de-de': "Golgantes"
 	},
 
 	illustrator: "Aya Kusube",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Golett",
-		fr: "Gringolem",
-		es: "Golett",
-		it: "Golett",
-		pt: "Golett",
-		de: "Golbit"
+		'en-us': "Golett",
+		'fr-fr': "Gringolem",
+		'es-es': "Golett",
+		'it-it': "Golett",
+		'pt-br': "Golett",
+		'de-de': "Golbit"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Big Hand",
-			fr: "Grande Main",
-			es: "Manaza",
-			it: "Gran Mano",
-			pt: "Mãozona",
-			de: "Große Hand"
+			'en-us': "Big Hand",
+			'fr-fr': "Grande Main",
+			'es-es': "Manaza",
+			'it-it': "Gran Mano",
+			'pt-br': "Mãozona",
+			'de-de': "Große Hand"
 		},
 
 		effect: {
-			en: "This attack does 10 more damage for each card in your hand.",
-			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque carte dans votre main.",
-			es: "Este ataque hace 10 puntos de daño más por cada carta en tu mano.",
-			it: "Questo attacco infligge 10 danni in più per ogni carta nella tua mano.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada carta na sua mão.",
-			de: "Diese Attacke fügt für jede Karte auf deiner Hand 10 Schadenspunkte mehr zu."
+			'en-us': "This attack does 10 more damage for each card in your hand.",
+			'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chaque carte dans votre main.",
+			'es-es': "Este ataque hace 10 puntos de daño más por cada carta en tu mano.",
+			'it-it': "Questo attacco infligge 10 danni in più per ogni carta nella tua mano.",
+			'pt-br': "Este ataque causa 10 pontos de dano a mais para cada carta na sua mão.",
+			'de-de': "Diese Attacke fügt für jede Karte auf deiner Hand 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
@@ -57,12 +57,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Mega Punch",
-			fr: "Ultimapoing",
-			es: "Megapuño",
-			it: "Megapugno",
-			pt: "Megassoco",
-			de: "Megahieb"
+			'en-us': "Mega Punch",
+			'fr-fr': "Ultimapoing",
+			'es-es': "Megapuño",
+			'it-it': "Megapugno",
+			'pt-br': "Megassoco",
+			'de-de': "Megahieb"
 		},
 
 		damage: 120
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Artillery platforms built into the walls of ancient castles served as perches from which Golurk could fire energy beams.",
+		'en-us': "Artillery platforms built into the walls of ancient castles served as perches from which Golurk could fire energy beams.",
 	},
 
 	variants: [

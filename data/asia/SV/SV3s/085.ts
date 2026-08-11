@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Gible"
+		'id-id': "Gible"
 	},
 
 	illustrator: "saino misaki",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Gible menerjang lalu menggigit mangsa dan musuh yang melewati sarangnya. Terkadang giginya terlepas akibat menggigit terlalu kuat."
+		'id-id': "Gible menerjang lalu menggigit mangsa dan musuh yang melewati sarangnya. Terkadang giginya terlepas akibat menggigit terlalu kuat."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menggigit"
+			'id-id': "Menggigit"
 		},
 
 		damage: 20,

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Diancie",
-		fr: "Diancie",
+		'en-us': "Diancie",
+		'fr-fr': "Diancie",
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Shiny rare",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Sparkling Wish",
-				fr: "Espoir Étincelant",
+				'en-us': "Sparkling Wish",
+				'fr-fr': "Espoir Étincelant",
 			},
 			effect: {
-				en: "Search your deck for a card that evolves from 1 of your Pokémon and put it onto that Pokémon to evolve it. Then, shuffle your deck.",
-				fr: "Cherchez dans votre deck une carte Évolution de l’un de vos Pokémon et placez-la sur ce dernier pour le faire évoluer. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for a card that evolves from 1 of your Pokémon and put it onto that Pokémon to evolve it. Then, shuffle your deck.",
+				'fr-fr': "Cherchez dans votre deck une carte Évolution de l’un de vos Pokémon et placez-la sur ce dernier pour le faire évoluer. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Diamond Storm",
-				fr: "Orage Adamantin",
+				'en-us': "Diamond Storm",
+				'fr-fr': "Orage Adamantin",
 			},
 			effect: {
-				en: "Heal 30 damage from each of your Fairy Pokémon.",
-				fr: "Soignez 30 dégâts à chacun de vos Pokémon Fairy.",
+				'en-us': "Heal 30 damage from each of your Fairy Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à chacun de vos Pokémon Fairy.",
 			},
 			damage: 30,
 
@@ -72,7 +72,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world.",
+		'en-us': "A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world.",
 	},
 }
 

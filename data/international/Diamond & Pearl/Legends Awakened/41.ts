@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Torkoal",
-		fr: "Chartor",
-		de: "Qurtel"
+		'en-us': "Torkoal",
+		'fr-fr': "Chartor",
+		'de-de': "Qurtel"
 	},
 
 	illustrator: "Midori Harada",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "White Smoke",
-				fr: "Écran fumée",
-				de: "Pulverrauch"
+				'en-us': "White Smoke",
+				'fr-fr': "Écran fumée",
+				'de-de': "Pulverrauch"
 			},
 			effect: {
-				en: "As long as Torkoal is your Active Pokémon, prevent all effects, including damage, done to your Benched Pokémon by your opponent's attacks.",
-				fr: "Tant que Chartor est votre Pokémon Actif, prévenez tous les effets d'une attaque, dégâts inclus, infligés à vos Pokémon de Banc par des attaques de votre adversaire.",
-				de: "Solange Qurtel dein Aktives Pokémon ist, verhindere alle Effekte von Angriffen, einschließlich Schaden, die den Pokémon auf deiner Bank von Pokémon deines Gegners zugefügt würden."
+				'en-us': "As long as Torkoal is your Active Pokémon, prevent all effects, including damage, done to your Benched Pokémon by your opponent's attacks.",
+				'fr-fr': "Tant que Chartor est votre Pokémon Actif, prévenez tous les effets d'une attaque, dégâts inclus, infligés à vos Pokémon de Banc par des attaques de votre adversaire.",
+				'de-de': "Solange Qurtel dein Aktives Pokémon ist, verhindere alle Effekte von Angriffen, einschließlich Schaden, die den Pokémon auf deiner Bank von Pokémon deines Gegners zugefügt würden."
 			},
 		},
 	],
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Black Soot",
-				fr: "Suie noire",
-				de: "Rußschwärze"
+				'en-us': "Black Soot",
+				'fr-fr': "Suie noire",
+				'de-de': "Rußschwärze"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Burned and Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé et Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt und gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Burned and Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé et Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt und gelähmt."
 			},
 			damage: 30,
 
@@ -72,8 +72,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It burns coal inside its shell for energy. It blows out black soot if it is endangered.",
-		fr: "Il tire son énergie du charbon qu'il brûle dans sa carapace et crache de la suie noire en cas de danger."
+		'en-us': "It burns coal inside its shell for energy. It blows out black soot if it is endangered.",
+		'fr-fr': "Il tire son énergie du charbon qu'il brûle dans sa carapace et crache de la suie noire en cas de danger."
 	},
 
 	thirdParty: {

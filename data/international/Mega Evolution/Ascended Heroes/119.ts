@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Carkol",
-		fr: "Wagomine",
-		es: "Carkol",
+		'en-us': "Carkol",
+		'fr-fr': "Wagomine",
+		'es-es': "Carkol",
 		'es-mx': "Carkol",
-		de: "Wagong",
-		it: "Carkol",
-		pt: "Carkol"
+		'de-de': "Wagong",
+		'it-it': "Carkol",
+		'pt-br': "Carkol"
 	},
 
 	evolveFrom: {
-		en: "Rolycoly",
-		fr: "Charbi",
-		es: "Rolycoly",
+		'en-us': "Rolycoly",
+		'fr-fr': "Charbi",
+		'es-es': "Rolycoly",
 		'es-mx': "Rolycoly",
-		de: "Klonkett",
-		it: "Rolycoly",
-		pt: "Rolycoly",
+		'de-de': "Klonkett",
+		'it-it': "Rolycoly",
+		'pt-br': "Rolycoly",
 	},
 
 	illustrator: "Apios",
@@ -36,23 +36,23 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Guard Press",
-			fr: "Pression de Garde",
-			es: "Presión de Guardia",
+			'en-us': "Guard Press",
+			'fr-fr': "Pression de Garde",
+			'es-es': "Presión de Guardia",
 			'es-mx': "Prensa Guardiana",
-			de: "Schutzdruck",
-			it: "Pressadifesa",
-			pt: "Aperto Protetor"
+			'de-de': "Schutzdruck",
+			'it-it': "Pressadifesa",
+			'pt-br': "Aperto Protetor"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
-			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			es: "Durante el próximo turno de tu rival, los ataques hacen 20 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			'en-us': "During your opponent's next turn, this Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, ce Pokémon subit 20 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			'es-es': "Durante el próximo turno de tu rival, los ataques hacen 20 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
 			'es-mx': "Durante el próximo turno de tu rival, este Pokémon recibe 20 puntos de daño menos de ataques (después de aplicar Debilidad y Resistencia).",
-			de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
-			it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 20 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-			pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 20 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência)."
+			'de-de': "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
+			'it-it': "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 20 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+			'pt-br': "Durante o próximo turno do seu oponente, este Pokémon receberá 20 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência)."
 		},
 
 		damage: 20
@@ -60,13 +60,13 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			en: "Power Gem",
-			fr: "Rayon Gemme",
-			es: "Joya de Luz",
+			'en-us': "Power Gem",
+			'fr-fr': "Rayon Gemme",
+			'es-es': "Joya de Luz",
 			'es-mx': "Joya de Luz",
-			de: "Juwelenkraft",
-			it: "Gemmoforza",
-			pt: "Gema Poderosa"
+			'de-de': "Juwelenkraft",
+			'it-it': "Gemmoforza",
+			'pt-br': "Gema Poderosa"
 		},
 
 		damage: 60
@@ -82,7 +82,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Due to the coal tar created inside it, the heap of coal on Carkol’s back never falls apart, even when the Pokémon rolls around at high speeds.",
+		'en-us': "Due to the coal tar created inside it, the heap of coal on Carkol’s back never falls apart, even when the Pokémon rolls around at high speeds.",
 	},
 
 	variants: [

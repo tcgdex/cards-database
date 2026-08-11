@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shaymin",
-		fr: "Shaymin",
-		es: "Shaymin",
-		it: "Shaymin",
-		pt: "Shaymin",
-		de: "Shaymin"
+		'en-us': "Shaymin",
+		'fr-fr': "Shaymin",
+		'es-es': "Shaymin",
+		'it-it': "Shaymin",
+		'pt-br': "Shaymin",
+		'de-de': "Shaymin"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -25,32 +25,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Gather Flowers",
-			fr: "Brassée de Fleurs",
-			es: "Recoger Flores",
-			it: "Coglifiori",
-			pt: "Reunir Flores",
-			de: "Blumen sammeln"
+			'en-us': "Gather Flowers",
+			'fr-fr': "Brassée de Fleurs",
+			'es-es': "Recoger Flores",
+			'it-it': "Coglifiori",
+			'pt-br': "Reunir Flores",
+			'de-de': "Blumen sammeln"
 		},
 
 		effect: {
-			en: "Shuffle up to 2 Energy cards from your discard pile into your deck.",
-			fr: "Mélangez avec votre deck jusqu'à 2 cartes Énergie de votre pile de défausse.",
-			es: "Pon hasta 2 cartas de Energía de tu pila de descartes en tu baraja y barájalas todas.",
-			it: "Rimischia fino a due carte Energia dalla tua pila degli scarti nel tuo mazzo.",
-			pt: "Embaralhe até 2 cartas de Energia da sua pilha de descarte no seu baralho.",
-			de: "Mische bis zu 2 Energiekarten aus deinem Ablagestapel in dein Deck."
+			'en-us': "Shuffle up to 2 Energy cards from your discard pile into your deck.",
+			'fr-fr': "Mélangez avec votre deck jusqu'à 2 cartes Énergie de votre pile de défausse.",
+			'es-es': "Pon hasta 2 cartas de Energía de tu pila de descartes en tu baraja y barájalas todas.",
+			'it-it': "Rimischia fino a due carte Energia dalla tua pila degli scarti nel tuo mazzo.",
+			'pt-br': "Embaralhe até 2 cartas de Energia da sua pilha de descarte no seu baralho.",
+			'de-de': "Mische bis zu 2 Energiekarten aus deinem Ablagestapel in dein Deck."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Rear Kick",
-			fr: "Ruade",
-			es: "Patada Trasera",
-			it: "Retrocalcio",
-			pt: "Chute Traseiro",
-			de: "Rückwärtskick"
+			'en-us': "Rear Kick",
+			'fr-fr': "Ruade",
+			'es-es': "Patada Trasera",
+			'it-it': "Retrocalcio",
+			'pt-br': "Chute Traseiro",
+			'de-de': "Rückwärtskick"
 		},
 
 		damage: 30
@@ -73,7 +73,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers.",
+		'en-us': "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers.",
 	},
 
 	

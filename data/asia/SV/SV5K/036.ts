@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴルーグ",
+		'ja-jp': "ゴルーグ",
 	},
 
 	illustrator: "Oku",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "古代人の お城の 壁には ゴルーグが ビームを 撃つための 砲台の ような 台座が ある。",
+		'ja-jp': "古代人の お城の 壁には ゴルーグが ビームを 撃つための 砲台の ような 台座が ある。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "てっぺき" },
 			cost: ["Fighting"],
 			effect: {
-				ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。",
+				'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "120+",
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが「ポケモンex・V」なら、120ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが「ポケモンex・V」なら、120ダメージ追加。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴビット",
+		'ja-jp': "ゴビット",
 	},
 
 	retreat: 4,

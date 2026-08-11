@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Drowzee",
-		fr: "Soporifik",
-		de: "Traumato",
-		it: "Drowzee"
+		'en-us': "Drowzee",
+		'fr-fr': "Soporifik",
+		'de-de': "Traumato",
+		'it-it': "Drowzee"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras' Face",
-				de: "Pfund",
-				it: "Libbra"
+				'en-us': "Pound",
+				'fr-fr': "Écras' Face",
+				'de-de': "Pfund",
+				'it-it': "Libbra"
 			},
 
 			damage: 10,
@@ -47,16 +47,16 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde Folie",
-				de: "Konfustrahl",
-				it: "Stordiraggio"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde Folie",
+				'de-de': "Konfustrahl",
+				'it-it': "Stordiraggio"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon verwirrt.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Confuso.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon verwirrt.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon Difensore è Confuso.",
 			},
 			damage: 10,
 
@@ -73,9 +73,9 @@ const card: Card = {
 
 
 	description: {
-		en: "Puts enemies to sleep, then eats their dreams. Occasionally gets sick from eating bad dreams.",
-		fr: "Il endort ses ennemis et dévore leurs songes. En mangeant de mauvais rêves, il devient malade.",
-		it: "Addormenta i suoi nemici e poi mangia i loro sogni. A volte si sente male dopo aver mangiato dei brutti sogni. LIV 12 N.96",
+		'en-us': "Puts enemies to sleep, then eats their dreams. Occasionally gets sick from eating bad dreams.",
+		'fr-fr': "Il endort ses ennemis et dévore leurs songes. En mangeant de mauvais rêves, il devient malade.",
+		'it-it': "Addormenta i suoi nemici e poi mangia i loro sogni. A volte si sente male dopo aver mangiato dei brutti sogni. LIV 12 N.96",
 	},
 
 	variants: [

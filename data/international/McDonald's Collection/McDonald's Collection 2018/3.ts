@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2018'
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Horsea"
+		'en-us': "Horsea"
 	},
 
 	rarity: "None",
@@ -20,10 +20,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Arrow",
+				'en-us': "Water Arrow",
 			},
 			effect: {
-				en: "This attack does 10 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "This attack does 10 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Cherrim",
-		fr: "Ceriflor",
-		de: "Kinoso"
+		'en-us': "Cherrim",
+		'fr-fr': "Ceriflor",
+		'de-de': "Kinoso"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cherubi",
-		fr: "Ceribou"
+		'en-us': "Cherubi",
+		'fr-fr': "Ceribou"
 	},
 
 	stage: "Stage1",
@@ -32,9 +32,9 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'de-de': "Ramme"
 			},
 
 			damage: 20,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Petal Dance",
-				fr: "Danse-fleur",
-				de: "Blättertanz"
+				'en-us': "Petal Dance",
+				'fr-fr': "Danse-fleur",
+				'de-de': "Blättertanz"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 30 damage times the number of heads. Cherrim is now Confused.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces. Ceriflor est maintenant Confus.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu. Kinoso ist jetzt verwirrt."
+				'en-us': "Flip 3 coins. This attack does 30 damage times the number of heads. Cherrim is now Confused.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces. Ceriflor est maintenant Confus.",
+				'de-de': "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu. Kinoso ist jetzt verwirrt."
 			},
 			damage: "30x",
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If it senses strong sunlight, it opens its folded petals to absorb the sun's rays with its whole body."
+		'en-us': "If it senses strong sunlight, it opens its folded petals to absorb the sun's rays with its whole body."
 	},
 
 	variants: [

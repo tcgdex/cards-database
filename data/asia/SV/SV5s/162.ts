@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Lickitung"
+		'id-id': "Lickitung"
 	},
 
 	illustrator: "Orca",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Air liur lengket Lickitung yang dibiarkan menempel di tubuh lama-lama akan menjadi gatal luar biasa dan rasa gatal ini tidak akan hilang."
+		'id-id': "Air liur lengket Lickitung yang dibiarkan menempel di tubuh lama-lama akan menjadi gatal luar biasa dan rasa gatal ini tidak akan hilang."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Lidah Penarik"
+			'id-id': "Lidah Penarik"
 		},
 
 		effect: {
-			id: "Lihat Kartu Pegangan lawan, pilih paling banyak 2 lembar Pokémon Basic di antaranya, lalu masukkan ke Cadangan lawan."
+			'id-id': "Lihat Kartu Pegangan lawan, pilih paling banyak 2 lembar Pokémon Basic di antaranya, lalu masukkan ke Cadangan lawan."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Tenaga Super"
+			'id-id': "Tenaga Super"
 		},
 
 		damage: 50,

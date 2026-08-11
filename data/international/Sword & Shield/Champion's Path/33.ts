@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [23],
 
 	name: {
-		en: "Ekans",
-		fr: "Abo",
-		es: "Ekans",
-		it: "Ekans",
-		pt: "Ekans",
-		de: "Rettan"
+		'en-us': "Ekans",
+		'fr-fr': "Abo",
+		'es-es': "Ekans",
+		'it-it': "Ekans",
+		'pt-br': "Ekans",
+		'de-de': "Rettan"
 	},
 
 	illustrator: "Uta",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Snap",
-				fr: "Coud' Queue Sec",
-				es: "Pinza Cola",
-				it: "Schioccacoda",
-				pt: "Surpresa de Cauda",
-				de: "Schweifhieb"
+				'en-us': "Tail Snap",
+				'fr-fr': "Coud' Queue Sec",
+				'es-es': "Pinza Cola",
+				'it-it': "Schioccacoda",
+				'pt-br': "Surpresa de Cauda",
+				'de-de': "Schweifhieb"
 			},
 
 			damage: 30,
@@ -79,7 +79,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The eggs of bird Pokémon are its favorite food. It swallows eggs whole, so sometimes an egg gets stuck, and Ekans faints."
+		'en-us': "The eggs of bird Pokémon are its favorite food. It swallows eggs whole, so sometimes an egg gets stuck, and Ekans faints."
 	},
 
 	thirdParty: {

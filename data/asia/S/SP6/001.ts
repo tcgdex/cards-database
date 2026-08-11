@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SP6"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "洛托姆V",
-		ja: "ロトムV"
+		'ja-jp': "ロトムV"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,24 +19,24 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "放逐駭入",
-			ja: "ロストハック"
+			'ja-jp': "ロストハック"
 		},
 
 		effect: {
 			'zh-tw': "選擇1個對手的場上寶可夢身上附加的特殊能量，放置於放逐區。",
-			ja: "相手の場のポケモンについている特殊エネルギーを1個選び、ロストゾーンに置く。"
+			'ja-jp': "相手の場のポケモンについている特殊エネルギーを1個選び、ロストゾーンに置く。"
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
 			'zh-tw': "激電流",
-			ja: "げきでんりゅう"
+			'ja-jp': "げきでんりゅう"
 		},
 
 		effect: {
 			'zh-tw': "選擇1個這隻寶可夢身上附加的能量，將其丟棄。",
-			ja: "このポケモンについているエネルギーを1個選び、トラッシュする。"
+			'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。"
 		},
 
 		damage: 160,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Indeedee",
-		fr: "Wimessir",
-		es: "Indeedee",
-		it: "Indeedee",
-		pt: "Indeedee",
-		de: "Servol"
+		'en-us': "Indeedee",
+		'fr-fr': "Wimessir",
+		'es-es': "Indeedee",
+		'it-it': "Indeedee",
+		'pt-br': "Indeedee",
+		'de-de': "Servol"
 	},
 
 	illustrator: "kodama",
@@ -25,32 +25,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Smart Service",
-			fr: "Service Intelligent",
-			es: "Servicio Inteligente",
-			it: "Servizio Magistrale",
-			pt: "Serviço Inteligente",
-			de: "Pfiffiger Service"
+			'en-us': "Smart Service",
+			'fr-fr': "Service Intelligent",
+			'es-es': "Servicio Inteligente",
+			'it-it': "Servizio Magistrale",
+			'pt-br': "Serviço Inteligente",
+			'de-de': "Pfiffiger Service"
 		},
 
 		effect: {
-			en: "If you go first, you can use this attack during your first turn. Search your deck for a card and put it into your hand. Then, shuffle your deck.",
-			fr: "Si vous jouez en premier, vous pouvez utiliser cette attaque lors de votre premier tour. Cherchez dans votre deck une carte, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
-			es: "Si sales primero, puedes usar este ataque durante tu primer turno. Busca en tu baraja 1 carta y ponla en tu mano. Después, baraja las cartas de tu baraja.",
-			it: "Se inizi per primo, puoi usare questo attacco durante il tuo primo turno. Cerca nel tuo mazzo una carta e aggiungila a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			pt: "Se você for primeiro, poderá usar este ataque no seu primeiro turno. Procure por 1 carta no seu baralho e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
-			de: "Wenn du als Erster am Zug bist, kannst du diese Attacke während deines ersten Zuges einsetzen. Durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
+			'en-us': "If you go first, you can use this attack during your first turn. Search your deck for a card and put it into your hand. Then, shuffle your deck.",
+			'fr-fr': "Si vous jouez en premier, vous pouvez utiliser cette attaque lors de votre premier tour. Cherchez dans votre deck une carte, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+			'es-es': "Si sales primero, puedes usar este ataque durante tu primer turno. Busca en tu baraja 1 carta y ponla en tu mano. Después, baraja las cartas de tu baraja.",
+			'it-it': "Se inizi per primo, puoi usare questo attacco durante il tuo primo turno. Cerca nel tuo mazzo una carta e aggiungila a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Se você for primeiro, poderá usar este ataque no seu primeiro turno. Procure por 1 carta no seu baralho e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Wenn du als Erster am Zug bist, kannst du diese Attacke während deines ersten Zuges einsetzen. Durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Smack",
-			fr: "Claque",
-			es: "Palmetazo",
-			it: "Schiaffo",
-			pt: "Estalo",
-			de: "Klatscher"
+			'en-us': "Smack",
+			'fr-fr': "Claque",
+			'es-es': "Palmetazo",
+			'it-it': "Schiaffo",
+			'pt-br': "Estalo",
+			'de-de': "Klatscher"
 		},
 
 		damage: 40
@@ -73,7 +73,7 @@ const card: Card = {
 
 
 	description: {
-		en: "These intelligent Pokémon touch horns with each other to share information between them.",
+		'en-us': "These intelligent Pokémon touch horns with each other to share information between them.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホルード",
+		'ja-jp': "ホルード",
 		'zh-tw': "掘地兔",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "お腹の 体毛は 保温性に 優れる。 昔の 人は 抜けた 体毛で 防寒着を つくった。",
+		'ja-jp': "お腹の 体毛は 保温性に 優れる。 昔の 人は 抜けた 体毛で 防寒着を つくった。",
 		'zh-tw': "肚子上的體毛保溫性能優秀。在過去，人們會用牠掉落的毛來製作保暖服裝。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶちかます",
+				'ja-jp': "ぶちかます",
 				'zh-tw': "頭突",
 			},
 			damage: 80,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "とっしん",
+				'ja-jp': "とっしん",
 				'zh-tw': "猛撞",
 			},
 			damage: 150,
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 				'zh-tw': "這隻寶可夢也受到30點傷害。",
 			},
 		},
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ホルビー",
+		'ja-jp': "ホルビー",
 	},
 
 	retreat: 4,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ギャラドスGX",
+		'ja-jp': "ギャラドスGX",
 	},
 
 	illustrator: "",
@@ -25,14 +25,14 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Water", "Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "場にスタジアムが出ているなら、100ダメージ追加。その後、そのスタジアムをトラッシュする。",
+				'ja-jp': "場にスタジアムが出ているなら、100ダメージ追加。その後、そのスタジアムをトラッシュする。",
 			},
 		},
 		{
 			name: { ja: "ドレッドストームGX" },
 			cost: ["Water"],
 			effect: {
-				ja: "相手の場のポケモン全員についているエネルギーを、1個ずつトラッシュする。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手の場のポケモン全員についているエネルギーを、1個ずつトラッシュする。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コイキング",
+		'ja-jp': "コイキング",
 	},
 
 	retreat: 4,

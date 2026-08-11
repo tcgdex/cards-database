@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "テッカグヤGX",
+		'ja-jp': "テッカグヤGX",
 	},
 
 	illustrator: "aky CG Works",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "フォースキャンセラー" },
 			effect: {
-				ja: "このポケモンがバトル場にいるかぎり、自分のポケモン全員は、相手のポケモンが使うGXワザのダメージや効果を受けない。",
+				'ja-jp': "このポケモンがバトル場にいるかぎり、自分のポケモン全員は、相手のポケモンが使うGXワザのダメージや効果を受けない。",
 			},
 		},
 	],
@@ -30,14 +30,14 @@ const card: Card = {
 			damage: 110,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個、ベンチポケモンにつけ替える。",
+				'ja-jp': "このポケモンについているエネルギーを1個、ベンチポケモンにつけ替える。",
 			},
 		},
 		{
 			name: { ja: "ディスカバリーGX" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のサイドを数えたあと、すべて手札に加える。その後、山札の上から、加えた枚数ぶんのカードを、サイドとして置く。数えた枚数ぶんのサイドを置けないなら、このワザは失敗。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分のサイドを数えたあと、すべて手札に加える。その後、山札の上から、加えた枚数ぶんのカードを、サイドとして置く。数えた枚数ぶんのサイドを置けないなら、このワザは失敗。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Floette",
-		fr: "Floette",
+		'en-us': "Floette",
+		'fr-fr': "Floette",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Flabébé",
-		fr: "Flabébé",
+		'en-us': "Flabébé",
+		'fr-fr': "Flabébé",
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Petal Blizzard",
-				fr: "Tempête Florale",
+				'en-us': "Petal Blizzard",
+				'fr-fr': "Tempête Florale",
 			},
 			effect: {
-				en: "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},
@@ -50,8 +50,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'Herbe",
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'Herbe",
 			},
 
 			damage: 30,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The five of us team up to be the Pretty Young Girl Force! We'll show you some beautiful moves!",
+		'en-us': "The five of us team up to be the Pretty Young Girl Force! We'll show you some beautiful moves!",
 	},
 
 	thirdParty: {

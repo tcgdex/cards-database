@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Aron",
-		fr: "Galekid",
-		de: "Stollunior"
+		'en-us': "Aron",
+		'fr-fr': "Galekid",
+		'de-de': "Stollunior"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -28,9 +28,9 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				en: "Mud Slap",
-				fr: "Coud'boue",
-				de: "Lehmschelle"
+				'en-us': "Mud Slap",
+				'fr-fr': "Coud'boue",
+				'de-de': "Lehmschelle"
 			},
 
 			damage: 10,
@@ -42,9 +42,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Claw",
-				fr: "Griffe acier",
-				de: "Metallklaue"
+				'en-us': "Metal Claw",
+				'fr-fr': "Griffe acier",
+				'de-de': "Metallklaue"
 			},
 
 			damage: 20,

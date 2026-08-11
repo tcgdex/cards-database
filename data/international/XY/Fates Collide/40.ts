@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Larvitar",
-		fr: "Embrylex",
-		es: "Larvitar",
-		it: "Larvitar",
-		pt: "Larvitar",
-		de: "Larvitar"
+		'en-us': "Larvitar",
+		'fr-fr': "Embrylex",
+		'es-es': "Larvitar",
+		'it-it': "Larvitar",
+		'pt-br': "Larvitar",
+		'de-de': "Larvitar"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reckless Charge",
-				fr: "Attaque Imprudente",
-				es: "Carga Descuidada",
-				it: "Carica Avventata",
-				pt: "Carga Indomável",
-				de: "Waghalsiger Sturmangriff"
+				'en-us': "Reckless Charge",
+				'fr-fr': "Attaque Imprudente",
+				'es-es': "Carga Descuidada",
+				'it-it': "Carica Avventata",
+				'pt-br': "Carga Indomável",
+				'de-de': "Waghalsiger Sturmangriff"
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s'inflige 10 dégâts.",
-				es: "Este Pokémon se hace 10 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 10 danni a se stesso.",
-				pt: "Este Pokémon causa 10 de danos a ele mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "This Pokémon does 10 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 10 dégâts.",
+				'es-es': "Este Pokémon se hace 10 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 10 danni a se stesso.",
+				'pt-br': "Este Pokémon causa 10 de danos a ele mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil.",
+		'en-us': "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil.",
 	},
 
 	thirdParty: {

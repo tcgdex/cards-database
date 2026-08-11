@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Pokémon Rumble'
 
 const card: Card = {
 	name: {
-		en: "Starmie"
+		'en-us': "Starmie"
 	},
 
 	illustrator: undefined,
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Staryu"
+		'en-us': "Staryu"
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spiral Drain"
+				'en-us': "Spiral Drain"
 			},
 			effect: {
-				en: "Remove 1 damage counter from Starmie."
+				'en-us': "Remove 1 damage counter from Starmie."
 			},
 			damage: 50,
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Dusclops",
-		fr: "Teraclope",
-		de: "Zwirrklop"
+		'en-us': "Dusclops",
+		'fr-fr': "Teraclope",
+		'de-de': "Zwirrklop"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Duskull",
-		fr: "Skélénox",
+		'en-us': "Duskull",
+		'fr-fr': "Skélénox",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Roam",
-				fr: "Égarement",
-				de: "Umherstreifen"
+				'en-us': "Roam",
+				'fr-fr': "Égarement",
+				'de-de': "Umherstreifen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, put 2 damage counters on each of your opponent's Pokémon. If tails, put 2 damage counters on 1 of your Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, placez 2 marqueurs de dégât sur chacun des Pokémon de votre adversaire. Si c'est pile, placez 2 marqueurs de dégât sur 1 de vos Pokémon.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege 2 Schadensmarken auf jedes Pokémon deines Gegners. Bei \"Zahl\" lege 2 Schadensmarken auf 1 deiner Pokémon."
+				'en-us': "Flip a coin. If heads, put 2 damage counters on each of your opponent's Pokémon. If tails, put 2 damage counters on 1 of your Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, placez 2 marqueurs de dégât sur chacun des Pokémon de votre adversaire. Si c'est pile, placez 2 marqueurs de dégât sur 1 de vos Pokémon.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" lege 2 Schadensmarken auf jedes Pokémon deines Gegners. Bei \"Zahl\" lege 2 Schadensmarken auf 1 deiner Pokémon."
 			},
 
 		},
@@ -54,14 +54,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Gravity Wave",
-				fr: "Vague pesante",
-				de: "Schwerkraftwelle"
+				'en-us': "Gravity Wave",
+				'fr-fr': "Vague pesante",
+				'de-de': "Schwerkraftwelle"
 			},
 			effect: {
-				en: "Does 10 damage to each of your opponent's Benched Pokémon that doesn't have a Retreat Cost. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun de vos Pokémon de Banc ne possédant pas de Coût de retraite. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners, das Rückzugskosten 0 hat, 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Does 10 damage to each of your opponent's Benched Pokémon that doesn't have a Retreat Cost. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun de vos Pokémon de Banc ne possédant pas de Coût de retraite. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners, das Rückzugskosten 0 hat, 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 30,
 
@@ -85,8 +85,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its body is hollow. It is said that those who look into its body are sucked into the void.",
-		fr: "Son corps est creux. On raconte que celui qui regarde à l'intérieur finira aspiré par le néant."
+		'en-us': "Its body is hollow. It is said that those who look into its body are sucked into the void.",
+		'fr-fr': "Son corps est creux. On raconte que celui qui regarde à l'intérieur finira aspiré par le néant."
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Nidoran ♂",
-		fr: "Nidoran♂",
-		de: "Nidoran m"
+		'en-us': "Nidoran ♂",
+		'fr-fr': "Nidoran♂",
+		'de-de': "Nidoran m"
 	},
 
 	illustrator: "match",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pheromone Poison",
-				fr: "Poison de phéromones",
-				de: "Giftpheromone"
+				'en-us': "Pheromone Poison",
+				'fr-fr': "Poison de phéromones",
+				'de-de': "Giftpheromone"
 			},
 			effect: {
-				en: "If Nidoran ♀ is on your Bench, the Defending Pokémon is now Poisoned.",
-				fr: "Si Nidoran♀ est sur votre Banc, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wenn sich Nidoran♀ auf deiner Bank befindet, ist das Verteidigende Pokémon jetzt vergiftet."
+				'en-us': "If Nidoran ♀ is on your Bench, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Si Nidoran♀ est sur votre Banc, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wenn sich Nidoran♀ auf deiner Bank befindet, ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 			damage: 10,
 
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Attack",
-				fr: "Koud’korne",
-				de: "Hornattacke"
+				'en-us': "Horn Attack",
+				'fr-fr': "Koud’korne",
+				'de-de': "Hornattacke"
 			},
 
 			damage: 20,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It raises its big ears to check its surroundings. It will strike first if it senses any danger."
+		'en-us': "It raises its big ears to check its surroundings. It will strike first if it senses any danger."
 	},
 
 	variants: [

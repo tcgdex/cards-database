@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モルフォン",
+		'ja-jp': "モルフォン",
 		'zh-tw': "摩魯蛾",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "羽に りんぷんが ついていて ヒラヒラと 羽ばたくたびに 猛毒の 粉を ばらまく。",
+		'ja-jp': "羽に りんぷんが ついていて ヒラヒラと 羽ばたくたびに 猛毒の 粉を ばらまく。",
 		'zh-tw': "翅膀上附著鱗粉，每次翩翩拍動翅膀， 就會散播劇毒的粉末。",
 	},
 
@@ -23,19 +23,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ミラクルパウダー",
+				'ja-jp': "ミラクルパウダー",
 				'zh-tw': "奇跡粉",
 			},
 			damage: 30,
 			cost: ["Grass"],
 			effect: {
-				ja: "コインを1回投げオモテなら、特殊状態の中から1つを選び、相手のバトルポケモンをその状態にする。",
+				'ja-jp': "コインを1回投げオモテなら、特殊状態の中から1つを選び、相手のバトルポケモンをその状態にする。",
 				'zh-tw': "擲1次硬幣若為正面，則從特殊狀態中選擇1種，將對手的戰鬥寶可夢處於那個狀態。",
 			},
 		},
 		{
 			name: {
-				ja: "かぜおこし",
+				'ja-jp': "かぜおこし",
 				'zh-tw': "起風",
 			},
 			damage: 70,
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コンパン",
+		'ja-jp': "コンパン",
 	},
 
 	retreat: 0,

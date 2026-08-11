@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Barraskewda"
+		'en-us': "Barraskewda"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Arrokuda"
+		'en-us': "Arrokuda"
 	},
 
 	description: {
-		en: "It spins its tail fins to propel itself, surging\nforward at speeds of over 100 knots before\nramming prey and spearing into them."
+		'en-us': "It spins its tail fins to propel itself, surging\nforward at speeds of over 100 knots before\nramming prey and spearing into them."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Double-Edge"
+			'en-us': "Double-Edge"
 		},
 
 		damage: 80,
 		cost: ["Water", "Colorless"],
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself."
+			'en-us': "This Pokémon also does 20 damage to itself."
 		}
 	}],
 

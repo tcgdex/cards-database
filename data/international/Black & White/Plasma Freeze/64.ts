@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Umbreon",
-		fr: "Noctali",
-		es: "Umbreon",
-		it: "Umbreon",
-		pt: "Umbreon",
-		de: "Nachtara"
+		'en-us': "Umbreon",
+		'fr-fr': "Noctali",
+		'es-es': "Umbreon",
+		'it-it': "Umbreon",
+		'pt-br': "Umbreon",
+		'de-de': "Nachtara"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Dark Shade",
-				fr: "Ombre Ténébreuse",
-				es: "Sombra Oscura",
-				it: "Tonoscuro",
-				pt: "Máscara da Escuridão",
-				de: "Finsterer Schatten"
+				'en-us': "Dark Shade",
+				'fr-fr': "Ombre Ténébreuse",
+				'es-es': "Sombra Oscura",
+				'it-it': "Tonoscuro",
+				'pt-br': "Máscara da Escuridão",
+				'de-de': "Finsterer Schatten"
 			},
 			effect: {
-				en: "Each of your Team Plasma Pokémon in play gets +20 HP.",
-				fr: "Ajoute 20 PV à chacun de vos Pokémon de la Team Plasma en jeu.",
-				es: "Cada uno de tus Pokémon del Equipo Plasma en juego obtiene 20 PV más.",
-				it: "Ciascuno dei tuoi Pokémon Team Plasma in gioco ottiene 20 PV in più.",
-				pt: "Cada um dos seus Pokémon da Equipe Plasma em jogo recebe +20 PS.",
-				de: "Jedes deiner Team-Plasma-Pokémon im Spiel erhält +20 KP."
+				'en-us': "Each of your Team Plasma Pokémon in play gets +20 HP.",
+				'fr-fr': "Ajoute 20 PV à chacun de vos Pokémon de la Team Plasma en jeu.",
+				'es-es': "Cada uno de tus Pokémon del Equipo Plasma en juego obtiene 20 PV más.",
+				'it-it': "Ciascuno dei tuoi Pokémon Team Plasma in gioco ottiene 20 PV in più.",
+				'pt-br': "Cada um dos seus Pokémon da Equipe Plasma em jogo recebe +20 PS.",
+				'de-de': "Jedes deiner Team-Plasma-Pokémon im Spiel erhält +20 KP."
 			},
 		},
 	],
@@ -63,8 +63,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Darkness Fang",
-				fr: "Croc Obscur",
+				'en-us': "Darkness Fang",
+				'fr-fr': "Croc Obscur",
 			},
 
 			damage: 70,
@@ -89,7 +89,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When exposed to the moon's aura, the rings on its body glow faintly and it's filled with a mysterious power.",
+		'en-us': "When exposed to the moon's aura, the rings on its body glow faintly and it's filled with a mysterious power.",
 	},
 
 	thirdParty: {

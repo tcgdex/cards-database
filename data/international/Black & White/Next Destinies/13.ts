@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Arcanine",
-		fr: "Arcanin",
-		es: "Arcanine",
-		it: "Arcanine",
-		pt: "Arcanine",
-		de: "Arkani"
+		'en-us': "Arcanine",
+		'fr-fr': "Arcanin",
+		'es-es': "Arcanine",
+		'it-it': "Arcanine",
+		'pt-br': "Arcanine",
+		'de-de': "Arkani"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Growlithe",
-		fr: "Caninos",
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crunch",
-				fr: "Mâchouille",
+				'en-us': "Crunch",
+				'fr-fr': "Mâchouille",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 30,
 
@@ -57,8 +57,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Blast",
-				fr: "Explosion de Chaleur",
+				'en-us': "Heat Blast",
+				'fr-fr': "Explosion de Chaleur",
 			},
 
 			damage: 70,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its proud and regal appearance has captured the hearts of people since long ago.",
+		'en-us': "Its proud and regal appearance has captured the hearts of people since long ago.",
 	},
 
 	thirdParty: {

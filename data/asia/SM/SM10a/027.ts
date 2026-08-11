@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メロエッタ",
+		'ja-jp': "メロエッタ",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "メロエッタの 奏でる 旋律は まわりの ポケモンを 喜ばせたり 悲しませるほどの パワーがある。",
+		'ja-jp': "メロエッタの 奏でる 旋律は まわりの ポケモンを 喜ばせたり 悲しませるほどの パワーがある。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "タッグエール" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の手札にあるエネルギーを1枚、自分の「TAG TEAM」のポケモンにつける。",
+				'ja-jp': "自分の手札にあるエネルギーを1枚、自分の「TAG TEAM」のポケモンにつける。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数×30ダメージ追加。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数×30ダメージ追加。",
 			},
 		},
 	],

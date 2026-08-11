@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Altaria",
-		fr: "Altaria",
-		es: "Altaria",
-		it: "Altaria",
-		pt: "Altaria",
-		de: "Altaria"
+		'en-us': "Altaria",
+		'fr-fr': "Altaria",
+		'es-es': "Altaria",
+		'it-it': "Altaria",
+		'pt-br': "Altaria",
+		'de-de': "Altaria"
 	},
 
 	illustrator: "sui",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Swablu",
-		fr: "Tylton",
+		'en-us': "Swablu",
+		'fr-fr': "Tylton",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Draco Melody",
-				fr: "Mélodie Draconienne",
-				es: "Melodía Draco",
-				it: "Dragomelodia",
-				pt: "Melodia de Dragão",
-				de: "Dracomelodie"
+				'en-us': "Draco Melody",
+				'fr-fr': "Mélodie Draconienne",
+				'es-es': "Melodía Draco",
+				'it-it': "Dragomelodia",
+				'pt-br': "Melodia de Dragão",
+				'de-de': "Dracomelodie"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your deck for a Dragon Pokémon and put it onto your Bench. Then, shuffle your deck.",
-				fr: "Lancez une pièce. Si c’est face, cherchez un Pokémon Dragon dans votre deck et placez-le sur votre Banc. Mélangez ensuite votre deck.",
-				es: "Lanza 1 moneda. Si sale cara, busca en tu baraja 1 Pokémon Dragon y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
-				it: "Lancia una moneta. Se esce testa, cerca nel tuo mazzo un Pokémon Dragon e mettilo in panchina. Poi rimischia le carte del tuo mazzo.",
-				pt: "Jogue 1 moeda. Se sair cara, procure por 1 Pokémon Dragon no seu baralho e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho.",
-				de: "Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach 1 Dragon-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck."
+				'en-us': "Flip a coin. If heads, search your deck for a Dragon Pokémon and put it onto your Bench. Then, shuffle your deck.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cherchez un Pokémon Dragon dans votre deck et placez-le sur votre Banc. Mélangez ensuite votre deck.",
+				'es-es': "Lanza 1 moneda. Si sale cara, busca en tu baraja 1 Pokémon Dragon y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
+				'it-it': "Lancia una moneta. Se esce testa, cerca nel tuo mazzo un Pokémon Dragon e mettilo in panchina. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, procure por 1 Pokémon Dragon no seu baralho e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach 1 Dragon-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck."
 			},
 
 		},
@@ -61,20 +61,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cotton Guard",
-				fr: "Cotogarde",
-				es: "Rizo Algodón",
-				it: "Cotonscudo",
-				pt: "Proteção de Algodão",
-				de: "Watteschild"
+				'en-us': "Cotton Guard",
+				'fr-fr': "Cotogarde",
+				'es-es': "Rizo Algodón",
+				'it-it': "Cotonscudo",
+				'pt-br': "Proteção de Algodão",
+				'de-de': "Watteschild"
 			},
 			effect: {
-				en: "During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-				es: "Durante el próximo turno de tu rival, los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-				it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-				pt: "Durante a próxima vez de jogar do seu oponente, este Pokémon receberá 30 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
-				de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+				'es-es': "Durante el próximo turno de tu rival, los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+				'it-it': "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+				'pt-br': "Durante a próxima vez de jogar do seu oponente, este Pokémon receberá 30 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
+				'de-de': "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 30,
 
@@ -98,7 +98,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It flies gracefully through the sky. Its melodic humming makes you feel like you're in a dream.",
+		'en-us': "It flies gracefully through the sky. Its melodic humming makes you feel like you're in a dream.",
 	},
 
 	thirdParty: {

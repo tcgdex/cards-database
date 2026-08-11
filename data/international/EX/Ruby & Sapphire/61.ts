@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Numel",
-		fr: "Chamallot",
-		de: "Camaub"
+		'en-us': "Numel",
+		'fr-fr': "Chamallot",
+		'de-de': "Camaub"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Burn Off",
-				fr: "Crâmer",
-				de: "Abbrennen"
+				'en-us': "Burn Off",
+				'fr-fr': "Crâmer",
+				'de-de': "Abbrennen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, each Defending Pokémon is now Burned.",
-				fr: "Lancez une pièce. Si c'est face, chaque Pokémon Défenseur est maintenant Brûlé.",
-				de: "Wirf eine Münze. Bei 'Kopf' sind alle Verteidigenden Pokémon jetzt verbrannt."
+				'en-us': "Flip a coin. If heads, each Defending Pokémon is now Burned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, chaque Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' sind alle Verteidigenden Pokémon jetzt verbrannt."
 			},
 
 		},

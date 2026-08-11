@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Dondozo",
-		fr: "Oyacata",
-		es: "Dondozo",
-		it: "Dondozo",
-		de: "Heerashai",
+		'en-us': "Dondozo",
+		'fr-fr': "Oyacata",
+		'es-es': "Dondozo",
+		'it-it': "Dondozo",
+		'de-de': "Heerashai",
 		'pt-br': "Dondozo",
-		ko: "어써러셔"
+		'ko-kr': "어써러셔"
   },
   illustrator: "Souichirou Gunjima",
   rarity: "Two Diamond",
@@ -25,12 +25,12 @@ const card: Card = {
   attacks: [
     {
       name: {
-				en: "Giga Impact",
-				fr: "Giga Impact",
-				es: "Giga Impacto",
-				it: "Gigaimpatto",
-				pt: "Gigaimpacto",
-				de: "Gigastoß"
+				'en-us': "Giga Impact",
+				'fr-fr': "Giga Impact",
+				'es-es': "Giga Impacto",
+				'it-it': "Gigaimpatto",
+				'pt-br': "Gigaimpacto",
+				'de-de': "Gigastoß"
       },
       damage: "120",
       cost: ["Water", "Water", "Water", "Colorless"],

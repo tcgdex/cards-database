@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Grovyle",
-		fr: "Massko",
-		de: "Reptain"
+		'en-us': "Grovyle",
+		'fr-fr': "Massko",
+		'de-de': "Reptain"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Treecko",
-		fr: "Arcko",
+		'en-us': "Treecko",
+		'fr-fr': "Arcko",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Tail Shake",
-				fr: "Secoue-queue",
-				de: "Schweifwedeln"
+				'en-us': "Tail Shake",
+				'fr-fr': "Secoue-queue",
+				'de-de': "Schweifwedeln"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slam",
-				fr: "Souplesse",
-				de: "Slam"
+				'en-us': "Slam",
+				'fr-fr': "Souplesse",
+				'de-de': "Slam"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 60 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 60 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "60x",
 
@@ -86,8 +86,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
-		fr: "Il vit dans les jungles denses. Il saute de branche en branche pour approcher de sa proie."
+		'en-us': "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
+		'fr-fr': "Il vit dans les jungles denses. Il saute de branche en branche pour approcher de sa proie."
 	},
 
 	thirdParty: {

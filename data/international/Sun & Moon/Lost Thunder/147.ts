@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Morelull",
-		fr: "Spododo",
-		es: "Morelull",
-		it: "Morelull",
-		pt: "Morelull",
-		de: "Bubungus"
+		'en-us': "Morelull",
+		'fr-fr': "Spododo",
+		'es-es': "Morelull",
+		'it-it': "Morelull",
+		'pt-br': "Morelull",
+		'de-de': "Bubungus"
 	},
 
 	illustrator: "You Iribi",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Perplex",
-				fr: "Affolement",
-				es: "Desconcierto",
-				it: "Sconcerto",
-				pt: "Perplexo",
-				de: "Perplex"
+				'en-us': "Perplex",
+				'fr-fr': "Affolement",
+				'es-es': "Desconcierto",
+				'it-it': "Sconcerto",
+				'pt-br': "Perplexo",
+				'de-de': "Perplex"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent’s Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "As it drowses the day away, it nourishes itself by sucking from tree roots. It wakens at the fall of night, wandering off in search of a new tree.",
+		'en-us': "As it drowses the day away, it nourishes itself by sucking from tree roots. It wakens at the fall of night, wandering off in search of a new tree.",
 	},
 
 	thirdParty: {

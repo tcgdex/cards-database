@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マリィのレパルダス",
+		'ja-jp': "マリィのレパルダス",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "フォクスライと 縄張りを めぐり 争う。 音ひとつ たてずに 獲物の 背後に 忍び寄る。",
+		'ja-jp': "フォクスライと 縄張りを めぐり 争う。 音ひとつ たてずに 獲物の 背後に 忍び寄る。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "70+",
 			cost: ["Darkness", "Darkness"],
 			effect: {
-				ja: "相手のバトルポケモンが「ポケモンex」なら、70ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが「ポケモンex」なら、70ダメージ追加。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マリィのチョロネコ",
+		'ja-jp': "マリィのチョロネコ",
 	},
 
 	retreat: 1,

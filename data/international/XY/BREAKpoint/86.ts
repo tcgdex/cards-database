@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Dragalge",
-		fr: "Kravarech",
-		es: "Dragalge",
-		it: "Dragalge",
-		pt: "Dragalge",
-		de: "Tandrak"
+		'en-us': "Dragalge",
+		'fr-fr': "Kravarech",
+		'es-es': "Dragalge",
+		'it-it': "Dragalge",
+		'pt-br': "Dragalge",
+		'de-de': "Tandrak"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Skrelp",
-		fr: "Venalgue",
-		es: "Skrelp",
-		it: "Skrelp",
-		pt: "Skrelp",
-		de: "Algitt"
+		'en-us': "Skrelp",
+		'fr-fr': "Venalgue",
+		'es-es': "Skrelp",
+		'it-it': "Skrelp",
+		'pt-br': "Skrelp",
+		'de-de': "Algitt"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Severe Poison",
-				fr: "Poison Violent",
-				es: "Veneno Grave",
-				it: "Maloveleno",
-				pt: "Veneno Forte",
-				de: "Pures Gift"
+				'en-us': "Severe Poison",
+				'fr-fr': "Poison Violent",
+				'es-es': "Veneno Grave",
+				'it-it': "Maloveleno",
+				'pt-br': "Veneno Forte",
+				'de-de': "Pures Gift"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned. Put 4 damage counters instead of 1 on that Pokémon between turns.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Placez 4 marqueurs de dégâts au lieu d'un sur le Pokémon ciblé entre chaque tour.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado. Pon 4 contadores de daño en vez de 1 en ese Pokémon entre turnos.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato. Tra un turno e l'altro, metti quattro segnalini danno invece di uno su quel Pokémon.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado. Coloque 4 contadores de danos em vez de 1 nesse Pokémon entre as vezes de jogar.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Lege zwischen den Zügen 4 Schadensmarken anstelle von 1 Schadensmarke auf jenes Pokémon."
+				'en-us': "Your opponent's Active Pokémon is now Poisoned. Put 4 damage counters instead of 1 on that Pokémon between turns.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Placez 4 marqueurs de dégâts au lieu d'un sur le Pokémon ciblé entre chaque tour.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado. Pon 4 contadores de daño en vez de 1 en ese Pokémon entre turnos.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato. Tra un turno e l'altro, metti quattro segnalini danno invece di uno su quel Pokémon.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado. Coloque 4 contadores de danos em vez de 1 nesse Pokémon entre as vezes de jogar.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Lege zwischen den Zügen 4 Schadensmarken anstelle von 1 Schadensmarke auf jenes Pokémon."
 			},
 
 		},
@@ -66,20 +66,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Dragon Pulse",
-				fr: "Dracochoc",
-				es: "Pulso Dragón",
-				it: "Dragopulsar",
-				pt: "Pulso do Dragão",
-				de: "Drachenpuls"
+				'en-us': "Dragon Pulse",
+				'fr-fr': "Dracochoc",
+				'es-es': "Pulso Dragón",
+				'it-it': "Dragopulsar",
+				'pt-br': "Pulso do Dragão",
+				'de-de': "Drachenpuls"
 			},
 			effect: {
-				en: "Discard the top card of your deck.",
-				fr: "Défaussez la carte du dessus de votre deck.",
-				es: "Descarta la primera carta de tu baraja.",
-				it: "Scarta la prima carta del tuo mazzo.",
-				pt: "Descarte o card de cima do seu baralho.",
-				de: "Lege die oberste Karte deines Decks auf deinen Ablagestapel."
+				'en-us': "Discard the top card of your deck.",
+				'fr-fr': "Défaussez la carte du dessus de votre deck.",
+				'es-es': "Descarta la primera carta de tu baraja.",
+				'it-it': "Scarta la prima carta del tuo mazzo.",
+				'pt-br': "Descarte o card de cima do seu baralho.",
+				'de-de': "Lege die oberste Karte deines Decks auf deinen Ablagestapel."
 			},
 			damage: 60,
 
@@ -96,7 +96,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Tales are told of ships that wander into seas where Dragalge live, never to return.",
+		'en-us': "Tales are told of ships that wander into seas where Dragalge live, never to return.",
 	},
 
 	thirdParty: {

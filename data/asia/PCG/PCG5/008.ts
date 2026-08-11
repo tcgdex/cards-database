@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Wurmple",
+		'ja-jp': "Wurmple",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ポイズンの見返り",
+				'ja-jp': "ポイズンの見返り",
 			},
 			effect: {
-				ja: "Wurmpleがあなたのアクティブなポカモンであり、対戦相手の攻撃によって損傷を受けた場合（Wurmpleがノックアウトされたとしても）、攻撃するPokã©Monは現在毒されています。",
+				'ja-jp': "Wurmpleがあなたのアクティブなポカモンであり、対戦相手の攻撃によって損傷を受けた場合（Wurmpleがノックアウトされたとしても）、攻撃するPokã©Monは現在毒されています。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "文字列プル",
+				'ja-jp': "文字列プル",
 			},
 			effect: {
-				ja: "対戦相手のベンチポケモンの1つを防御ポケモンの1つに切り替えます。対戦相手は、防御するポケモンを選択して切り替えます。",
+				'ja-jp': "対戦相手のベンチポケモンの1つを防御ポケモンの1つに切り替えます。対戦相手は、防御するポケモンを選択して切り替えます。",
 			},
 		},
 	],

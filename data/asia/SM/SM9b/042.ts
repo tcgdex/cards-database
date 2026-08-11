@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブニャット",
+		'ja-jp': "ブニャット",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ほかの ポケモンの 住処でも 居心地が 良ければ 居座って 自分の 住処に してしまう。",
+		'ja-jp': "ほかの ポケモンの 住処でも 居心地が 良ければ 居座って 自分の 住処に してしまう。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手の手札からオモテを見ないで、1枚トラッシュする。この番、このポケモンが「ニャルマー」から進化していたなら、さらに1枚トラッシュする。",
+				'ja-jp': "相手の手札からオモテを見ないで、1枚トラッシュする。この番、このポケモンが「ニャルマー」から進化していたなら、さらに1枚トラッシュする。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニャルマー",
+		'ja-jp': "ニャルマー",
 	},
 
 	retreat: 3,

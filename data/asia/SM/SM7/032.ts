@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カイオーガ",
+		'ja-jp': "カイオーガ",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "大雨を 降らせる 能力で 海を 広げたと 言われている。 海溝の 底で 眠っていた。",
+		'ja-jp': "大雨を 降らせる 能力で 海を 広げたと 言われている。 海溝の 底で 眠っていた。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "デュアルスプラッシュ" },
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "相手のポケモン2匹に、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン2匹に、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「グランドウェーブ」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「グランドウェーブ」が使えない。",
 			},
 		},
 	],

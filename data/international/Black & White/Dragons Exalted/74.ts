@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Houndour",
-		fr: "Malosse",
-		es: "Houndour",
-		it: "Houndour",
-		pt: "Houndour",
-		de: "Hunduster"
+		'en-us': "Houndour",
+		'fr-fr': "Malosse",
+		'es-es': "Houndour",
+		'it-it': "Houndour",
+		'pt-br': "Houndour",
+		'de-de': "Hunduster"
 	},
 
 	illustrator: "Akira Komayama",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
 			},
 
 			damage: 10,
@@ -48,8 +48,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Darkness Fang",
-				fr: "Croc Obscur",
+				'en-us': "Darkness Fang",
+				'fr-fr': "Croc Obscur",
 			},
 
 			damage: 30,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is smart enough to hunt in packs. It uses a variety of cries for communicating with others.",
+		'en-us': "It is smart enough to hunt in packs. It uses a variety of cries for communicating with others.",
 	},
 
 	thirdParty: {

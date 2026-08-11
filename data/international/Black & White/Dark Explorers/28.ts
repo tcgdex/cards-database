@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Prinplup",
-		fr: "Prinplouf",
-		es: "Prinplup",
-		it: "Prinplup",
-		pt: "Prinplup",
-		de: "Pliprin"
+		'en-us': "Prinplup",
+		'fr-fr': "Prinplouf",
+		'es-es': "Prinplup",
+		'it-it': "Prinplup",
+		'pt-br': "Prinplup",
+		'de-de': "Pliprin"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Piplup",
-		fr: "Tiplouf"
+		'en-us': "Piplup",
+		'fr-fr': "Tiplouf"
 	},
 
 	stage: "Stage1",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Wing",
-				fr: "Aile Tranchante"
+				'en-us': "Razor Wing",
+				'fr-fr': "Aile Tranchante"
 			},
 
 			damage: 20,
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Attack",
-				fr: "Furie"
+				'en-us': "Fury Attack",
+				'fr-fr': "Furie"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
+				'en-us': "Flip 3 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
 			},
 			damage: 30,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Because every Prinplup considers itself to be the most important, they can never form a group.",
+		'en-us': "Because every Prinplup considers itself to be the most important, they can never form a group.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ストリンダーex",
+		'ja-jp': "ストリンダーex",
 	},
 
 	illustrator: "Anderson",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 240,
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを2個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。",
 			},
 		},
 	],
@@ -38,7 +38,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "エレズン",
+		'ja-jp': "エレズン",
 	},
 
 	retreat: 2,

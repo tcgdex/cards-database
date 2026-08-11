@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Latias",
-		fr: "Latias",
-		es: "Latias",
-		it: "Latias",
-		pt: "Latias",
-		de: "Latias"
+		'en-us': "Latias",
+		'fr-fr': "Latias",
+		'es-es': "Latias",
+		'it-it': "Latias",
+		'pt-br': "Latias",
+		'de-de': "Latias"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Promo",
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Flight Support",
-				fr: "Soutien Aérien",
-				es: "Asistencia en Vuelo",
-				it: "Assistenza Volo",
-				pt: "Suporte de Voo",
-				de: "Begleitflug"
+				'en-us': "Flight Support",
+				'fr-fr': "Soutien Aérien",
+				'es-es': "Asistencia en Vuelo",
+				'it-it': "Assistenza Volo",
+				'pt-br': "Suporte de Voo",
+				'de-de': "Begleitflug"
 			},
 			effect: {
-				en: "Your Latios in play have no Retreat Cost.",
-				fr: "Vos Latios en jeu n’ont pas de Coût de Retraite.",
-				es: "Tus Latios en juego no tienen ningún Coste de Retirada.",
-				it: "I tuoi Latios in gioco non hanno costo di ritirata.",
-				pt: "Seus Latios em jogo não têm custo de Recuo.",
-				de: "Deine Latios im Spiel haben keine Rückzugskosten."
+				'en-us': "Your Latios in play have no Retreat Cost.",
+				'fr-fr': "Vos Latios en jeu n’ont pas de Coût de Retraite.",
+				'es-es': "Tus Latios en juego no tienen ningún Coste de Retirada.",
+				'it-it': "I tuoi Latios in gioco non hanno costo di ritirata.",
+				'pt-br': "Seus Latios em jogo não têm custo de Recuo.",
+				'de-de': "Deine Latios im Spiel haben keine Rückzugskosten."
 			},
 		},
 	],
@@ -52,20 +52,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Misty Gale",
-				fr: "Bourrasque Brumeuse",
-				es: "Vendaval Nebuloso",
-				it: "Raffica di Nebbia",
-				pt: "Vendaval Nebuloso",
-				de: "Nebelsturm"
+				'en-us': "Misty Gale",
+				'fr-fr': "Bourrasque Brumeuse",
+				'es-es': "Vendaval Nebuloso",
+				'it-it': "Raffica di Nebbia",
+				'pt-br': "Vendaval Nebuloso",
+				'de-de': "Nebelsturm"
 			},
 			effect: {
-				en: "Heal 30 damage from each of your Benched Pokémon.",
-				fr: "Soignez 30 dégâts à chacun de vos Pokémon de Banc.",
-				es: "Cura 30 puntos de daño a cada uno de tus Pokémon en Banca.",
-				it: "Cura ciascuno dei tuoi Pokémon in panchina da 30 danni.",
-				pt: "Cure 30 pontos de dano de cada um dos seus Pokémon no Banco.",
-				de: "Heile 30 Schadenspunkte bei jedem Pokémon auf deiner Bank."
+				'en-us': "Heal 30 damage from each of your Benched Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à chacun de vos Pokémon de Banc.",
+				'es-es': "Cura 30 puntos de daño a cada uno de tus Pokémon en Banca.",
+				'it-it': "Cura ciascuno dei tuoi Pokémon in panchina da 30 danni.",
+				'pt-br': "Cure 30 pontos de dano de cada um dos seus Pokémon no Banco.",
+				'de-de': "Heile 30 Schadenspunkte bei jedem Pokémon auf deiner Bank."
 			},
 			damage: 30,
 
@@ -84,7 +84,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It communicates using telepathy. Its body is covered in down that refracts light to make it invisible.",
+		'en-us': "It communicates using telepathy. Its body is covered in down that refracts light to make it invisible.",
 	},
 }
 

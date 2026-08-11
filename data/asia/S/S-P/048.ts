@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ストリンダーV",
+		'ja-jp': "ストリンダーV",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "たいでん" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュから[雷]エネルギーを1枚選び、このポケモンにつける。",
+				'ja-jp': "自分のトラッシュから[雷]エネルギーを1枚選び、このポケモンにつける。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 			},
 		},
 	],

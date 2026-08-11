@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Vanilluxe",
-		fr: "Sorbouboul",
-		es: "Vanilluxe",
-		it: "Vanilluxe",
-		pt: "Vanilluxe",
-		de: "Gelatwino"
+		'en-us': "Vanilluxe",
+		'fr-fr': "Sorbouboul",
+		'es-es': "Vanilluxe",
+		'it-it': "Vanilluxe",
+		'pt-br': "Vanilluxe",
+		'de-de': "Gelatwino"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vanillish",
-		fr: "Sorboul",
+		'en-us': "Vanillish",
+		'fr-fr': "Sorboul",
 	},
 
 	stage: "Stage2",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Enefountain",
-				fr: "Fontaine d'Énergie",
+				'en-us': "Enefountain",
+				'fr-fr': "Fontaine d'Énergie",
 			},
 			effect: {
-				en: "Attach 2 basic Energy cards from your hand to 1 of your Pokémon.",
-				fr: "Attachez 2 cartes Énergie de base de votre main à 1 de vos Pokémon.",
+				'en-us': "Attach 2 basic Energy cards from your hand to 1 of your Pokémon.",
+				'fr-fr': "Attachez 2 cartes Énergie de base de votre main à 1 de vos Pokémon.",
 			},
 			damage: 30,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blizzard",
-				fr: "Blizzard",
+				'en-us': "Blizzard",
+				'fr-fr': "Blizzard",
 			},
 			effect: {
-				en: "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 70,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Swallowing large amounts of water, they make snow clouds inside their bodies and, when angry, cause violent blizzards.",
+		'en-us': "Swallowing large amounts of water, they make snow clouds inside their bodies and, when angry, cause violent blizzards.",
 	},
 
 	thirdParty: {

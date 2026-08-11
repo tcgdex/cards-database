@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [559],
 
 	name: {
-		en: "Scraggy"
+		'en-us': "Scraggy"
 	},
 
 	illustrator: "Sekio",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "It will abruptly headbutt anyone that makes eye\ncontact with it. Its skull is extremely hard."
+		'en-us': "It will abruptly headbutt anyone that makes eye\ncontact with it. Its skull is extremely hard."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Headbutt"
+			'en-us': "Headbutt"
 		},
 
 		damage: 20,

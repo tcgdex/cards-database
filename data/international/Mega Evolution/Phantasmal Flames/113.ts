@@ -1,25 +1,25 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mega Sharpedo ex",
-		fr: "Méga-Sharpedo-ex",
-		es: "Mega-Sharpedo ex",
+		'en-us': "Mega Sharpedo ex",
+		'fr-fr': "Méga-Sharpedo-ex",
+		'es-es': "Mega-Sharpedo ex",
 		'es-mx': "Mega-Sharpedo ex",
-		de: "Mega-Tohaido-ex",
-		it: "Mega Sharpedo-ex",
-		pt: "Mega Sharpedo ex"
+		'de-de': "Mega-Tohaido-ex",
+		'it-it': "Mega Sharpedo-ex",
+		'pt-br': "Mega Sharpedo ex"
 	},
 	evolveFrom: {
-		en: "Carvanha",
-		de: "Kanivanha",
-		es: "Carvanha",
-		fr: "Carvanha",
-		it: "Carvanha",
-		pt: "Carvanha",
+		'en-us': "Carvanha",
+		'de-de': "Kanivanha",
+		'es-es': "Carvanha",
+		'fr-fr': "Carvanha",
+		'it-it': "Carvanha",
+		'pt-br': "Carvanha",
 	},
 
 	rarity: "Ultra Rare",
@@ -34,23 +34,23 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Greedy Fang",
-			fr: "Croc Cupide",
-			es: "Colmillo Codicioso",
+			'en-us': "Greedy Fang",
+			'fr-fr': "Croc Cupide",
+			'es-es': "Colmillo Codicioso",
 			'es-mx': "Colmillo Codicioso",
-			de: "Gieriges Gebiss",
-			it: "Zanna Ingorda",
-			pt: "Presa Gananciosa"
+			'de-de': "Gieriges Gebiss",
+			'it-it': "Zanna Ingorda",
+			'pt-br': "Presa Gananciosa"
 		},
 
 		effect: {
-			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
-			es: "Roba 2 cartas.",
+			'en-us': "Draw 2 cards.",
+			'fr-fr': "Piochez 2 cartes.",
+			'es-es': "Roba 2 cartas.",
 			'es-mx': "Roba 2 cartas.",
-			de: "Ziehe 2 Karten.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas."
+			'de-de': "Ziehe 2 Karten.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas."
 		},
 
 		damage: 70
@@ -58,23 +58,23 @@ const card: Card = {
 		cost: ["Darkness", "Darkness"],
 
 		name: {
-			en: "Hungry Jaws",
-			fr: "Mâchoires Avides",
-			es: "Mandíbulas Hambrientas",
+			'en-us': "Hungry Jaws",
+			'fr-fr': "Mâchoires Avides",
+			'es-es': "Mandíbulas Hambrientas",
 			'es-mx': "Mandíbulas Voraces",
-			de: "Gefräßiger Schlund",
-			it: "Mandibole Affamate",
-			pt: "Bocarra Voraz"
+			'de-de': "Gefräßiger Schlund",
+			'it-it': "Mandibole Affamate",
+			'pt-br': "Bocarra Voraz"
 		},
 
 		effect: {
-			en: "If this Pokémon has any damage counters on it, this attack does 150 more damage.",
-			fr: "Si au moins un marqueur de dégâts est placé sur ce Pokémon, cette attaque inflige 150 dégâts supplémentaires.",
-			es: "Si este Pokémon tiene algún contador de daño sobre él, este ataque hace 150 puntos de daño más.",
+			'en-us': "If this Pokémon has any damage counters on it, this attack does 150 more damage.",
+			'fr-fr': "Si au moins un marqueur de dégâts est placé sur ce Pokémon, cette attaque inflige 150 dégâts supplémentaires.",
+			'es-es': "Si este Pokémon tiene algún contador de daño sobre él, este ataque hace 150 puntos de daño más.",
 			'es-mx': "Si este Pokémon tiene algún contador de daño sobre él, este ataque hace 150 puntos de daño más.",
-			de: "Wenn auf diesem Pokémon mindestens 1 Schadensmarke liegt, fügt diese Attacke 150 Schadenspunkte mehr zu.",
-			it: "Se questo Pokémon ha dei segnalini danno, questo attacco infligge 150 danni in più.",
-			pt: "Se este Pokémon tiver algum contador de dano nele, este ataque causará 150 pontos de dano a mais."
+			'de-de': "Wenn auf diesem Pokémon mindestens 1 Schadensmarke liegt, fügt diese Attacke 150 Schadenspunkte mehr zu.",
+			'it-it': "Se questo Pokémon ha dei segnalini danno, questo attacco infligge 150 danni in più.",
+			'pt-br': "Se este Pokémon tiver algum contador de dano nele, este ataque causará 150 pontos de dano a mais."
 		},
 
 		damage: "120+"

@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [14],
 
 	name: {
-		en: "Kakuna",
-		fr: "Coconfort",
-		es: "Kakuna",
-		it: "Kakuna",
-		pt: "Kakuna",
-		de: "Kokuna"
+		'en-us': "Kakuna",
+		'fr-fr': "Coconfort",
+		'es-es': "Kakuna",
+		'it-it': "Kakuna",
+		'pt-br': "Kakuna",
+		'de-de': "Kokuna"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Weedle",
-		fr: "Aspicot"
+		'en-us': "Weedle",
+		'fr-fr': "Aspicot"
 	},
 
 	attacks: [
@@ -34,12 +34,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Bug Bite",
-				fr: "Piqûre",
-				es: "Picadura",
-				it: "Coleomorso",
-				pt: "Picada",
-				de: "Käferbiss"
+				'en-us': "Bug Bite",
+				'fr-fr': "Piqûre",
+				'es-es': "Picadura",
+				'it-it': "Coleomorso",
+				'pt-br': "Picada",
+				'de-de': "Käferbiss"
 			},
 
 			damage: 30,
@@ -67,7 +67,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "While awaiting evolution, it hides from predators under leaves and in nooks of branches."
+		'en-us': "While awaiting evolution, it hides from predators under leaves and in nooks of branches."
 	},
 
 	thirdParty: {

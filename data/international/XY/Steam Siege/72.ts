@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Klang",
-		fr: "Clic",
-		es: "Klang",
-		it: "Klang",
-		pt: "Klang",
-		de: "Kliklak"
+		'en-us': "Klang",
+		'fr-fr': "Clic",
+		'es-es': "Klang",
+		'it-it': "Klang",
+		'pt-br': "Klang",
+		'de-de': "Kliklak"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Klink",
-		fr: "Tic",
-		es: "Klink",
-		it: "Klink",
-		pt: "Klink",
-		de: "Klikk"
+		'en-us': "Klink",
+		'fr-fr': "Tic",
+		'es-es': "Klink",
+		'it-it': "Klink",
+		'pt-br': "Klink",
+		'de-de': "Klikk"
 	},
 
 	stage: "Stage1",
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vice Grip",
-				fr: "Force Poigne",
-				es: "Agarre",
-				it: "Presa",
-				pt: "Agarramento Viciado",
-				de: "Klammer"
+				'en-us': "Vice Grip",
+				'fr-fr': "Force Poigne",
+				'es-es': "Agarre",
+				'it-it': "Presa",
+				'pt-br': "Agarramento Viciado",
+				'de-de': "Klammer"
 			},
 
 			damage: 30,
@@ -62,20 +62,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Disorderly Flip",
-				fr: "Renverse Désordre",
-				es: "Vuelta Indisciplinada",
-				it: "Girosmodato",
-				pt: "Virada Desordenada",
-				de: "Zügelloser Überschlag"
+				'en-us': "Disorderly Flip",
+				'fr-fr': "Renverse Désordre",
+				'es-es': "Vuelta Indisciplinada",
+				'it-it': "Girosmodato",
+				'pt-br': "Virada Desordenada",
+				'de-de': "Zügelloser Überschlag"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
-				es: "Lanza 4 monedas. Este ataque hace 30 puntos de daño por cada cara.",
-				it: "Lancia quattro volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
-				pt: "Jogue 4 moedas. Este ataque causa 30 de danos vezes o número de caras.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 4 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 4 monedas. Este ataque hace 30 puntos de daño por cada cara.",
+				'it-it': "Lancia quattro volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 4 moedas. Este ataque causa 30 de danos vezes o número de caras.",
+				'de-de': "Wirf 4 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "30×",
 
@@ -99,7 +99,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A minigear and big gear comprise its body. If the minigear it launches at a foe doesn't return, it will die.",
+		'en-us': "A minigear and big gear comprise its body. If the minigear it launches at a foe doesn't return, it will die.",
 	},
 
 	thirdParty: {

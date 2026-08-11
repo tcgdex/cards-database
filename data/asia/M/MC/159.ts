@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラプラス",
+		'ja-jp': "ラプラス",
 	},
 
 	illustrator: "rika",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "人や ポケモンを 背中に 乗せて 海を 渡ることが 大好き。 人の 言葉を 理解できる。",
+		'ja-jp': "人や ポケモンを 背中に 乗せて 海を 渡ることが 大好き。 人の 言葉を 理解できる。",
 	},
 
 	stage: "Basic",

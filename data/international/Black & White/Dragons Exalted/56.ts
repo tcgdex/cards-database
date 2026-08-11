@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Gothorita",
-		fr: "Mesmérella",
-		es: "Gothorita",
-		it: "Gothorita",
-		pt: "Gothorita",
-		de: "Hypnomorba"
+		'en-us': "Gothorita",
+		'fr-fr': "Mesmérella",
+		'es-es': "Gothorita",
+		'it-it': "Gothorita",
+		'pt-br': "Gothorita",
+		'de-de': "Hypnomorba"
 	},
 
 	illustrator: "Mizue",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gothita",
-		fr: "Scrutella",
+		'en-us': "Gothita",
+		'fr-fr': "Scrutella",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hypnoblast",
-				fr: "Hypnoblast",
+				'en-us': "Hypnoblast",
+				'fr-fr': "Hypnoblast",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
 			},
 			damage: 10,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mind Shock",
-				fr: "Choc Cérébral",
+				'en-us': "Mind Shock",
+				'fr-fr': "Choc Cérébral",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				'en-us': "This attack's damage isn't affected by Weakness or Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
 			},
 			damage: 40,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Starlight is the source of their power. At night, they mark star positions by using psychic power to float stones.",
+		'en-us': "Starlight is the source of their power. At night, they mark star positions by using psychic power to float stones.",
 	},
 
 	thirdParty: {

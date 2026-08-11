@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Dark Persian",
-		fr: "Persian obscur",
-		de: "Dunkles Snobilikat"
+		'en-us': "Dark Persian",
+		'fr-fr': "Persian obscur",
+		'de-de': "Dunkles Snobilikat"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Meowth",
-		fr: "Miaouss"
+		'en-us': "Meowth",
+		'fr-fr': "Miaouss"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fascinate",
-				fr: "Fascination",
-				de: "Fascinate"
+				'en-us': "Fascinate",
+				'fr-fr': "Fascination",
+				'de-de': "Fascinate"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon. This attack can't be used if your opponent has no Benched Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, choisissez 1 des Pokémon du Banc de votre adversaire et échangez-le avec le Pokémon Défenseur. Cette attaque ne peut être utilisée si votre adversaire n'a pas de Pokémon sur son Banc.",
-				de: "Flip a coin. If heads, choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon. This attack can't be used if our opponent has no benched Pokémon."
+				'en-us': "Flip a coin. If heads, choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon. This attack can't be used if your opponent has no Benched Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, choisissez 1 des Pokémon du Banc de votre adversaire et échangez-le avec le Pokémon Défenseur. Cette attaque ne peut être utilisée si votre adversaire n'a pas de Pokémon sur son Banc.",
+				'de-de': "Flip a coin. If heads, choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon. This attack can't be used if our opponent has no benched Pokémon."
 			},
 
 		},
@@ -54,15 +54,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Poison Claws",
-				fr: "Griffes empoisonnées",
-				de: "Poison Claws"
+				'en-us': "Poison Claws",
+				'fr-fr': "Griffes empoisonnées",
+				'de-de': "Poison Claws"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Flip a coin. If heads, the Defending Pokémonis now Poisoned."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémonis now Poisoned."
 			},
 
 			damage: 10
@@ -84,8 +84,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Popular with women because of its beautiful fur. The leader of the Rockets keeps one as a pet.",
-		fr: "Les femmes l'adorent en raison de sa magnifique fourrure. Le chef des Rocket en possède un comme animal de compagnie."
+		'en-us': "Popular with women because of its beautiful fur. The leader of the Rockets keeps one as a pet.",
+		'fr-fr': "Les femmes l'adorent en raison de sa magnifique fourrure. Le chef des Rocket en possède un comme animal de compagnie."
 	},
 
 

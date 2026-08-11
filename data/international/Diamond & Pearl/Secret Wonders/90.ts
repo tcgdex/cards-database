@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Hoppip",
-		fr: "Granivol",
-		de: "Hoppspross"
+		'en-us': "Hoppip",
+		'fr-fr': "Granivol",
+		'de-de': "Hoppspross"
 	},
 
 	illustrator: "Motofumi Fujiwara",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Cottonweed",
-				fr: "Mauvaise herbe de coton",
-				de: "Löwenzahn"
+				'en-us': "Cottonweed",
+				'fr-fr': "Mauvaise herbe de coton",
+				'de-de': "Löwenzahn"
 			},
 			effect: {
-				en: "If Hoppip has any Grass Energy attached to it, the Retreat Cost for Hoppip is 0.",
-				fr: "Si Granivol possède de l'Énergie Grass, son Coût de retraite est de 0.",
-				de: "Wenn an Hoppspross mindestens 1 -Energie angelegt ist, hat Hoppspross Rückzugskosten 0."
+				'en-us': "If Hoppip has any Grass Energy attached to it, the Retreat Cost for Hoppip is 0.",
+				'fr-fr': "Si Granivol possède de l'Énergie Grass, son Coût de retraite est de 0.",
+				'de-de': "Wenn an Hoppspross mindestens 1 -Energie angelegt ist, hat Hoppspross Rückzugskosten 0."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Hover Heal",
-				fr: "Guérison flottante",
-				de: "Heilgleiten"
+				'en-us': "Hover Heal",
+				'fr-fr': "Guérison flottante",
+				'de-de': "Heilgleiten"
 			},
 			effect: {
-				en: "Remove all Special Conditions from Hoppip.",
-				fr: "Retirez à Granivol tous ses États Spéciaux.",
-				de: "Entferne alle Speziellen Zustände von Hoppspross."
+				'en-us': "Remove all Special Conditions from Hoppip.",
+				'fr-fr': "Retirez à Granivol tous ses États Spéciaux.",
+				'de-de': "Entferne alle Speziellen Zustände von Hoppspross."
 			},
 			damage: 10,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It drifts on winds. It is said that when HOPPIP gather in fields and mountains, spring is on the way.",
+		'en-us': "It drifts on winds. It is said that when HOPPIP gather in fields and mountains, spring is on the way.",
 	},
 
 	thirdParty: {

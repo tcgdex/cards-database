@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リングマ",
+		'ja-jp': "リングマ",
 		'zh-tw': "圈圈熊",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "大きな 体の 持ち主だが 木登りが 上手で 木の 上で エサを 食べたり 寝たりする。",
+		'ja-jp': "大きな 体の 持ち主だが 木登りが 上手で 木の 上で エサを 食べたり 寝たりする。",
 		'zh-tw': "雖然體型很大，但很擅長爬樹，會在樹上進食和睡覺。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "きりさく",
+				'ja-jp': "きりさく",
 				'zh-tw': "劈開",
 			},
 			damage: 40,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "はりたおす",
+				'ja-jp': "はりたおす",
 				'zh-tw': "擊倒",
 			},
 			damage: 110,
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒメグマ",
+		'ja-jp': "ヒメグマ",
 	},
 
 	retreat: 3,

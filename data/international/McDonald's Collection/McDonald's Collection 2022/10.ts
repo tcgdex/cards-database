@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2022'
 
 const card: Card = {
 	name: {
-		en: "Tynamo",
-		fr: "Anchwatt",
-		es: "Tynamo",
-		it: "Tynamo",
-		pt: "Tynamo",
-		de: "Zapplardin"
+		'en-us': "Tynamo",
+		'fr-fr': "Anchwatt",
+		'es-es': "Tynamo",
+		'it-it': "Tynamo",
+		'pt-br': "Tynamo",
+		'de-de': "Zapplardin"
 	},
 
 	illustrator: "sowsow",
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Levitate"
+				'en-us': "Levitate"
 			},
 			effect: {
-				en: "If this Pokémon has any Energy attached, it has no Retreat Cost."
+				'en-us': "If this Pokémon has any Energy attached, it has no Retreat Cost."
 			}
 		}
 	],
@@ -40,7 +40,7 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				en: "Tiny Charge",
+				'en-us': "Tiny Charge",
 			},
 			damage: 10
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Slowbro",
-		fr: "Flagadoss",
-		de: "Lahmus"
+		'en-us': "Slowbro",
+		'fr-fr': "Flagadoss",
+		'de-de': "Lahmus"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Slowpoke",
-		fr: "Ramoloss"
+		'en-us': "Slowpoke",
+		'fr-fr': "Ramoloss"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Big Yawn",
-				fr: "Gros bâillement",
-				de: "Großer Gähner"
+				'en-us': "Big Yawn",
+				'fr-fr': "Gros bâillement",
+				'de-de': "Großer Gähner"
 			},
 			effect: {
-				en: "Both Slowbro and the Defending Pokémon are now Asleep.",
-				fr: "Flagadoss et le Pokémon Défenseur sont maintenant Endormis.",
-				de: "Lahmus und das Verteidigende Pokémon schlafen jetzt."
+				'en-us': "Both Slowbro and the Defending Pokémon are now Asleep.",
+				'fr-fr': "Flagadoss et le Pokémon Défenseur sont maintenant Endormis.",
+				'de-de': "Lahmus und das Verteidigende Pokémon schlafen jetzt."
 			},
 			damage: 30,
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Madkinesis",
-				fr: "Mentalisme",
-				de: "Irrkinese"
+				'en-us': "Madkinesis",
+				'fr-fr': "Mentalisme",
+				'de-de': "Irrkinese"
 			},
 			effect: {
-				en: "Does 30 damage plus 20 more damage for each Psychic Energy attached to Slowbro.",
-				fr: "Inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie Psychic attachée à Flagadoss.",
-				de: "Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jede an Lahmus angelegte -Energie zu."
+				'en-us': "Does 30 damage plus 20 more damage for each Psychic Energy attached to Slowbro.",
+				'fr-fr': "Inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie Psychic attachée à Flagadoss.",
+				'de-de': "Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jede an Lahmus angelegte -Energie zu."
 			},
 			damage: "30+",
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "If the tail-biting Shellder is thrown off in a harsh battle, it reverts to being an ordinary Slowpoke."
+		'en-us': "If the tail-biting Shellder is thrown off in a harsh battle, it reverts to being an ordinary Slowpoke."
 	},
 
 	variants: [

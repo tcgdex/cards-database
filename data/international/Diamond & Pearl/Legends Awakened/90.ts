@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Cubone",
-		fr: "Osselait",
-		de: "Tragosso"
+		'en-us': "Cubone",
+		'fr-fr': "Osselait",
+		'de-de': "Tragosso"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bonemerang",
-				fr: "Osmerang",
-				de: "Knochmerang"
+				'en-us': "Bonemerang",
+				'fr-fr': "Osmerang",
+				'de-de': "Knochmerang"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "20x",
 
@@ -76,8 +76,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it thinks of its dead mother, it cries. Its crying makes the skull it wears rattle hollowly.",
-		fr: "Il pleure en pensant à sa mère disparue, et ses larmes résonnent dans son crâne creux."
+		'en-us': "When it thinks of its dead mother, it cries. Its crying makes the skull it wears rattle hollowly.",
+		'fr-fr': "Il pleure en pensant à sa mère disparue, et ses larmes résonnent dans son crâne creux."
 	},
 
 	thirdParty: {

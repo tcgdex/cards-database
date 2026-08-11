@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skarmory",
-		fr: "Airmure",
-		es: "Skarmory",
-		it: "Skarmory",
-		pt: "Skarmory",
-		de: "Panzaeron"
+		'en-us': "Skarmory",
+		'fr-fr': "Airmure",
+		'es-es': "Skarmory",
+		'it-it': "Skarmory",
+		'pt-br': "Skarmory",
+		'de-de': "Panzaeron"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			en: "Cutting Wind",
-			fr: "Vent Glacial",
-			es: "Viento Helado",
-			it: "Vento Tagliente",
-			pt: "Vento Dilacerante",
-			de: "Schneidender Wind"
+			'en-us': "Cutting Wind",
+			'fr-fr': "Vent Glacial",
+			'es-es': "Viento Helado",
+			'it-it': "Vento Tagliente",
+			'pt-br': "Vento Dilacerante",
+			'de-de': "Schneidender Wind"
 		},
 
 		damage: 30
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Big Storm",
-			fr: "Forte Tempête",
-			es: "Gran Tempestad",
-			it: "Fortempesta",
-			pt: "Tempestade Enorme",
-			de: "Großer Sturm"
+			'en-us': "Big Storm",
+			'fr-fr': "Forte Tempête",
+			'es-es': "Gran Tempestad",
+			'it-it': "Fortempesta",
+			'pt-br': "Tempestade Enorme",
+			'de-de': "Großer Sturm"
 		},
 
 		effect: {
-			en: "Discard a Stadium in play.",
-			fr: "Défaussez un Stade en jeu.",
-			es: "Descarta 1 Estadio en juego.",
-			it: "Scarta una carta Stadio in gioco.",
-			pt: "Descarte um Estádio em jogo.",
-			de: "Lege 1 Stadionkarte im Spiel auf den Ablagestapel."
+			'en-us': "Discard a Stadium in play.",
+			'fr-fr': "Défaussez un Stade en jeu.",
+			'es-es': "Descarta 1 Estadio en juego.",
+			'it-it': "Scarta una carta Stadio in gioco.",
+			'pt-br': "Descarte um Estádio em jogo.",
+			'de-de': "Lege 1 Stadionkarte im Spiel auf den Ablagestapel."
 		},
 
 		damage: 90
@@ -73,7 +73,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "People fashion swords from Skarmory's shed feathers, so this Pokémon is a popular element in heraldic designs.",
+		'en-us': "People fashion swords from Skarmory's shed feathers, so this Pokémon is a popular element in heraldic designs.",
 	},
 
 	variants: [

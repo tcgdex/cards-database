@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [741],
 
 	name: {
-		en: "Oricorio"
+		'en-us': "Oricorio"
 	},
 
 	illustrator: "GOTO minori",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "This form of Oricorio has sipped red nectar. It whips up\nblazing flames as it moves to the steps of its passionate dance."
+		'en-us': "This form of Oricorio has sipped red nectar. It whips up\nblazing flames as it moves to the steps of its passionate dance."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Inspiring Dance"
+			'en-us': "Inspiring Dance"
 		},
 
 		damage: 10,
 		cost: ["Fire"],
 
 		effect: {
-			en: "During your next turn, attacks used by your Pokémon do +20 damage to your opponent's Active Pokémon."
+			'en-us': "During your next turn, attacks used by your Pokémon do +20 damage to your opponent's Active Pokémon."
 		}
 	}],
 

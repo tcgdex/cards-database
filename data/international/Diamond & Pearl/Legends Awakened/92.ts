@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Drifloon",
-		fr: "Baudrive",
-		de: "Driftlon"
+		'en-us': "Drifloon",
+		'fr-fr': "Baudrive",
+		'de-de': "Driftlon"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Mind Bend",
-				fr: "Contrôleur d'esprit",
-				de: "Gedankenverbiegung"
+				'en-us': "Mind Bend",
+				'fr-fr': "Contrôleur d'esprit",
+				'de-de': "Gedankenverbiegung"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -49,9 +49,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gust",
-				fr: "Tornade",
-				de: "Windstoß"
+				'en-us': "Gust",
+				'fr-fr': "Tornade",
+				'de-de': "Windstoß"
 			},
 
 			damage: 20,
@@ -76,8 +76,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon formed by the spirits of people and Pokémon. It loves damp, humid seasons.",
-		fr: "Un Pokémon né de l'esprit des gens et des Pokémon. Il aime les saisons chaudes et humides."
+		'en-us': "A Pokémon formed by the spirits of people and Pokémon. It loves damp, humid seasons.",
+		'fr-fr': "Un Pokémon né de l'esprit des gens et des Pokémon. Il aime les saisons chaudes et humides."
 	},
 
 	thirdParty: {

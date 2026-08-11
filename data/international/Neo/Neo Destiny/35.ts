@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Dark Forretress",
-		fr: "Foretress obscur",
-		de: "Dunkles Forstellka"
+		'en-us': "Dark Forretress",
+		'fr-fr': "Foretress obscur",
+		'de-de': "Dunkles Forstellka"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pineco",
-		fr: "Pomdepik"
+		'en-us': "Pineco",
+		'fr-fr': "Pomdepik"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Armor Up",
-				fr: "Blindage",
-				de: "Armor Up"
+				'en-us': "Armor Up",
+				'fr-fr': "Blindage",
+				'de-de': "Armor Up"
 			},
 			effect: {
-				en: "Until the end of your next turn, if Dark Forretress would be Knocked Out by damage from an attack, flip a coin. If heads, Dark Forretress is not Knocked Out and its remaining HP become 10 instead.",
-				fr: "Jusqu'à la fin de votre prochain tour, si Foretress obscur doit être mis K.O. par les dégâts d'une attaque, lancez une pièce. Si c'est face, Foretress obscur n'est pas mis K.O. et ses points de vie deviennent 10.",
-				de: "Until the end of your next turn, if Dark Forretress would be Knocked Out by damage from an attack, flip a coin. If heads, Dark Forretress is not Knocked Out and its remaining HP become 10 instead."
+				'en-us': "Until the end of your next turn, if Dark Forretress would be Knocked Out by damage from an attack, flip a coin. If heads, Dark Forretress is not Knocked Out and its remaining HP become 10 instead.",
+				'fr-fr': "Jusqu'à la fin de votre prochain tour, si Foretress obscur doit être mis K.O. par les dégâts d'une attaque, lancez une pièce. Si c'est face, Foretress obscur n'est pas mis K.O. et ses points de vie deviennent 10.",
+				'de-de': "Until the end of your next turn, if Dark Forretress would be Knocked Out by damage from an attack, flip a coin. If heads, Dark Forretress is not Knocked Out and its remaining HP become 10 instead."
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Explosion",
-				fr: "Explosion",
-				de: "Explosion"
+				'en-us': "Explosion",
+				'fr-fr': "Explosion",
+				'de-de': "Explosion"
 			},
 			effect: {
-				en: "Dark Forretress does 60 damage to itself.",
-				fr: "Foretress obscur s'inflige 60 dégâts.",
-				de: "Dark Forretress does 60 damage to itself."
+				'en-us': "Dark Forretress does 60 damage to itself.",
+				'fr-fr': "Foretress obscur s'inflige 60 dégâts.",
+				'de-de': "Dark Forretress does 60 damage to itself."
 			},
 			damage: 60,
 
@@ -77,8 +77,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It stays motionless in trees, driving away with flying armored shards from its hard shell any who come close.",
-		fr: "Il reste immobile dans les arbres et chasse les intrus en leur lançant des piquants blindés."
+		'en-us': "It stays motionless in trees, driving away with flying armored shards from its hard shell any who come close.",
+		'fr-fr': "Il reste immobile dans les arbres et chasse les intrus en leur lançant des piquants blindés."
 	},
 
 

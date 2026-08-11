@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ペパーのサンドウィッチ",
+		'ja-jp': "ペパーのサンドウィッチ",
 		'zh-tw': "派帕的三明治",
 		'zh-cn': "派帕的三明治"
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のバトルポケモンのHPを「30」回復する。そのポケモンが「ペパーのポケモン」なら、回復するHPは「100」になる。",
+		'ja-jp': "自分のバトルポケモンのHPを「30」回復する。そのポケモンが「ペパーのポケモン」なら、回復するHPは「100」になる。",
 		'zh-tw': "將自己的戰鬥寶可夢恢復「30」HP。若那隻寶可夢為「派帕的寶可夢」，則恢復的HP改為「100」。",
 		'zh-cn': "將自己的戰鬥寶可夢恢復「30」HP。若那隻寶可夢為「派帕的寶可夢」，則恢復的HP改為「100」。"
 	},

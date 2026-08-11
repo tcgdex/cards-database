@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケケンカニ",
+		'ja-jp': "ケケンカニ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "トップを 目指すはずが 雪山に 迷い登り 寒さに 耐えるうちに 毛が 生えてきて 進化していた。",
+		'ja-jp': "トップを 目指すはずが 雪山に 迷い登り 寒さに 耐えるうちに 毛が 生えてきて 進化していた。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Fighting"],
 			effect: {
-				ja: "このポケモンにも、このポケモンにのっているダメカンの数x10ダメージ。",
+				'ja-jp': "このポケモンにも、このポケモンにのっているダメカンの数x10ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Fighting", "Fighting", "Fighting"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x40ダメージ追加。",
+				'ja-jp': "コインを2回投げ、オモテの数x40ダメージ追加。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マケンカニ",
+		'ja-jp': "マケンカニ",
 	},
 
 	retreat: 4,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Full Heal",
-		fr: "Total Soin",
-		es: "Cura Total",
-		it: "Cura Totale",
-		pt: "Cura Total",
-		de: "Hyperheiler"
+		'en-us': "Full Heal",
+		'fr-fr': "Total Soin",
+		'es-es': "Cura Total",
+		'it-it': "Cura Totale",
+		'pt-br': "Cura Total",
+		'de-de': "Hyperheiler"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -17,12 +17,12 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Retirez tous les États Spéciaux de votre Pokémon Actif.",
-		en: "Remove all Special Conditions from your Active Pokémon.",
-		es: "Elimina todas las Condiciones Especiales de tu Pokémon Activo.",
-		it: "Rimuovi tutte le condizioni speciali dal tuo Pokémon attivo.",
-		pt: "Remova todas as Condições Especiais do seu Pokémon Ativo.",
-		de: "Alle Speziellen Zustände auf deinem Aktiven Pokémon verlieren ihre Wirkung."
+		'fr-fr': "Retirez tous les États Spéciaux de votre Pokémon Actif.",
+		'en-us': "Remove all Special Conditions from your Active Pokémon.",
+		'es-es': "Elimina todas las Condiciones Especiales de tu Pokémon Activo.",
+		'it-it': "Rimuovi tutte le condizioni speciali dal tuo Pokémon attivo.",
+		'pt-br': "Remova todas as Condições Especiais do seu Pokémon Ativo.",
+		'de-de': "Alle Speziellen Zustände auf deinem Aktiven Pokémon verlieren ihre Wirkung."
 	},
 
 	trainerType: "Item",

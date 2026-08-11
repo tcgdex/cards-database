@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Rocket's Snorlax Ex",
+		'ja-jp': "Rocket's Snorlax Ex",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ダークヒーラー",
+				'ja-jp': "ダークヒーラー",
 			},
 			effect: {
-				ja: "RocketのSnorlax Exがそれに付着した暗闇のエネルギーを持っている限り、RocketのSnorlax Exからターンの1つのダメージカウンターを削除します。",
+				'ja-jp': "RocketのSnorlax Exがそれに付着した暗闇のエネルギーを持っている限り、RocketのSnorlax Exからターンの1つのダメージカウンターを削除します。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "毒爪",
+				'ja-jp': "毒爪",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "崩壊",
+				'ja-jp': "崩壊",
 			},
 			effect: {
-				ja: "RocketのSnorlax Exは今眠っています。",
+				'ja-jp': "RocketのSnorlax Exは今眠っています。",
 			},
 			damage: 60,
 		},

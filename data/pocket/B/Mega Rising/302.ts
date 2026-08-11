@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zapdos"
+		'en-us': "Zapdos"
 	},
 
 	illustrator: "Taiga Kasai",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "This Pokémon has complete control over\nelectricity. There are tales of Zapdos nesting in\nthe dark depths of pitch-black thunderclouds."
+		'en-us': "This Pokémon has complete control over\nelectricity. There are tales of Zapdos nesting in\nthe dark depths of pitch-black thunderclouds."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Raging Thunder"
+			'en-us': "Raging Thunder"
 		},
 
 		damage: 100,
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		effect: {
-			en: "This attack also does 30 damage to 1 of your Benched Pokémon."
+			'en-us': "This attack also does 30 damage to 1 of your Benched Pokémon."
 		}
 	}],
 

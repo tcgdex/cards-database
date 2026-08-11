@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Electabuzz",
-		fr: "Élektek",
-		es: "Electabuzz",
-		it: "Electabuzz",
-		pt: "Electabuzz",
-		de: "Elektek"
+		'en-us': "Electabuzz",
+		'fr-fr': "Élektek",
+		'es-es': "Electabuzz",
+		'it-it': "Electabuzz",
+		'pt-br': "Electabuzz",
+		'de-de': "Elektek"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Chop",
-			fr: "Coup Tranchant",
-			es: "Cortar",
-			it: "Ceffone",
-			pt: "Trincar",
-			de: "Hacker"
+			'en-us': "Chop",
+			'fr-fr': "Coup Tranchant",
+			'es-es': "Cortar",
+			'it-it': "Ceffone",
+			'pt-br': "Trincar",
+			'de-de': "Hacker"
 		},
 
 		damage: 20
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			en: "Electric Punch",
-			fr: "Poing Électrique",
-			es: "Puño Eléctrico",
-			it: "Pugno Elettrico",
-			pt: "Murro Elétrico",
-			de: "Elektroschlag"
+			'en-us': "Electric Punch",
+			'fr-fr': "Poing Électrique",
+			'es-es': "Puño Eléctrico",
+			'it-it': "Pugno Elettrico",
+			'pt-br': "Murro Elétrico",
+			'de-de': "Elektroschlag"
 		},
 
 		damage: 50
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Many power plants keep Ground-type Pokémon around as a defense against Electabuzz that come seeking electricity.",
+		'en-us': "Many power plants keep Ground-type Pokémon around as a defense against Electabuzz that come seeking electricity.",
 	},
 
 	variants: [

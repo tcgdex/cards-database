@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "N's Klinklang",
-		fr: "Cliticlic de N",
-		es: "Klinklang de N",
-		de: "Ns Klikdiklak",
-		it: "Klinklang di N",
-		pt: "Klinklang do N",
+		'en-us': "N's Klinklang",
+		'fr-fr': "Cliticlic de N",
+		'es-es': "Klinklang de N",
+		'de-de': "Ns Klikdiklak",
+		'it-it': "Klinklang di N",
+		'pt-br': "Klinklang do N",
 		'es-mx': "Klinklang de N"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 160,
 	types: ["Metal"],
 	evolveFrom: {
-		en: "N's Klang",
-		fr: "Clic de N",
-		es: "Klang de N",
-		de: "Ns Kliklak",
-		it: "Klang di N",
-		pt: "Klang do N",
+		'en-us': "N's Klang",
+		'fr-fr': "Clic de N",
+		'es-es': "Klang de N",
+		'de-de': "Ns Kliklak",
+		'it-it': "Klang di N",
+		'pt-br': "Klang do N",
 		'es-mx': "Klang de N"
 	},
 	stage: "Stage2",
@@ -34,12 +34,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Magnetic Blast",
-			fr: "Explosion Magnétique",
-			es: "Explosión Magnética",
-			de: "Magnetstoß",
-			it: "Magnetebomba",
-			pt: "Explosão Magnética",
+			'en-us': "Magnetic Blast",
+			'fr-fr': "Explosion Magnétique",
+			'es-es': "Explosión Magnética",
+			'de-de': "Magnetstoß",
+			'it-it': "Magnetebomba",
+			'pt-br': "Explosão Magnética",
 			'es-mx': "Explosión Magnética"
 		},
 
@@ -48,22 +48,22 @@ const card: Card = {
 		cost: ["Metal", "Metal", "Colorless"],
 
 		name: {
-			en: "Triple Smash",
-			fr: "Triple Éclate",
-			es: "Golpe Triple",
-			de: "Dreifachschmetterer",
-			it: "Tripla Schiacciata",
-			pt: "Pancada Tripla",
+			'en-us': "Triple Smash",
+			'fr-fr': "Triple Éclate",
+			'es-es': "Golpe Triple",
+			'de-de': "Dreifachschmetterer",
+			'it-it': "Tripla Schiacciata",
+			'pt-br': "Pancada Tripla",
 			'es-mx': "Triple Golpazo"
 		},
 
 		effect: {
-			en: "Flip 3 coins. This attack does 120 damage for each heads.",
-			fr: "Lancez 3 pièces. Cette attaque inflige 120 dégâts pour chaque côté face.",
-			es: "Lanza 3 monedas. Este ataque hace 120 puntos de daño por cada cara.",
-			de: "Wirf 3 Münzen. Diese Attacke fügt 120 Schadenspunkte pro Kopf zu.",
-			it: "Lancia tre volte una moneta. Questo attacco infligge 120 danni ogni volta che esce testa.",
-			pt: "Jogue 3 moedas. Este ataque causa 120 pontos de dano para cada cara.",
+			'en-us': "Flip 3 coins. This attack does 120 damage for each heads.",
+			'fr-fr': "Lancez 3 pièces. Cette attaque inflige 120 dégâts pour chaque côté face.",
+			'es-es': "Lanza 3 monedas. Este ataque hace 120 puntos de daño por cada cara.",
+			'de-de': "Wirf 3 Münzen. Diese Attacke fügt 120 Schadenspunkte pro Kopf zu.",
+			'it-it': "Lancia tre volte una moneta. Questo attacco infligge 120 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 3 moedas. Este ataque causa 120 pontos de dano para cada cara.",
 			'es-mx': "Lanza 3 monedas. Este ataque hace 120 puntos de daño por cada cara."
 		},
 

@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "フカマル",
+		'ja-jp': "フカマル",
 		'zh-tw': "圓陸鯊",
-		th: "ฟุคามารุ"
+		'th-th': "ฟุคามารุ"
 	},
 
 	illustrator: "saino misaki",
@@ -18,9 +18,9 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "穴倉に 潜み 獲物や 敵が 横切ると 飛びだして 噛みつく。 勢い余り 歯が 欠けることも。",
+		'ja-jp': "穴倉に 潜み 獲物や 敵が 横切ると 飛びだして 噛みつく。 勢い余り 歯が 欠けることも。",
 		'zh-tw': "潛伏在地洞內，如果有獵物或敵人經過，就會撲出來咬住。 有時會用力過猛而咬壞牙齒。",
-		th: "ซ่อนตัวอยู่ในหลุมใต้ดิน ถ้ามีเหยื่อหรือศัตรูผ่านมาจะกระโดดกัด ใส่แรงมากไปจนบางครั้งฟันหัก"
+		'th-th': "ซ่อนตัวอยู่ในหลุมใต้ดิน ถ้ามีเหยื่อหรือศัตรูผ่านมาจะกระโดดกัด ใส่แรงมากไปจนบางครั้งฟันหัก"
 	},
 
 	stage: "Basic",
@@ -29,9 +29,9 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "かみつく",
+			'ja-jp': "かみつく",
 			'zh-tw': "咬住",
-			th: "กัดติด"
+			'th-th': "กัดติด"
 		},
 
 		damage: 20

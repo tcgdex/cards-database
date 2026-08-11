@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホッピップ",
+		'ja-jp': "ホッピップ",
 	},
 
 	rarity: "Common",
@@ -18,7 +18,7 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "ローリングタックル",
+				'ja-jp': "ローリングタックル",
 			},
 			damage: 20,
 		},

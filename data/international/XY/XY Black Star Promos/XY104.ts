@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "M Mawile EX",
-		fr: "M Mysdibule EX",
+		'en-us': "M Mawile EX",
+		'fr-fr': "M Mysdibule EX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Promo",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Fairy",
 	],
 	evolveFrom: {
-		en: "Mawile-EX",
-		fr: "Mysdibule-EX",
+		'en-us': "Mawile-EX",
+		'fr-fr': "Mysdibule-EX",
 	},
 	stage: "MEGA",
 
@@ -33,12 +33,12 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Twin Grapple",
-				fr: "Lutte Duo",
+				'en-us': "Twin Grapple",
+				'fr-fr': "Lutte Duo",
 			},
 			effect: {
-				en: "Flip 2 coins. For each heads, discard an Energy attached to your opponent's Active Pokémon.",
-				fr: "Lancez 2 pièces. Pour chaque côté face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				'en-us': "Flip 2 coins. For each heads, discard an Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Lancez 2 pièces. Pour chaque côté face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: 130,
 

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アセロラの予感",
+		'ja-jp': "アセロラの予感",
 	},
 
 	illustrator: "yuu",
 	category: "Trainer",
 
 	effect: {
-		ja: "相手の手札を見て、その中にあるトレーナーズの枚数ぶん、自分の山札を引く。",
+		'ja-jp': "相手の手札を見て、その中にあるトレーナーズの枚数ぶん、自分の山札を引く。",
 	},
 
 	variants: [

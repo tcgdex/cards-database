@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVLS"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "オドリドリ"
+		'ja-jp': "オドリドリ"
 	},
 
 	illustrator: "Heisuke Kitazawa",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "くれないのミツを 吸った 姿。 情熱的な ステップを 踏み 激しい 炎を 巻き起こす。"
+		'ja-jp': "くれないのミツを 吸った 姿。 情熱的な ステップを 踏み 激しい 炎を 巻き起こす。"
 	},
 
 	stage: "Basic",
@@ -24,23 +24,23 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "エネアシスト"
+			'ja-jp': "エネアシスト"
 		},
 
 		effect: {
-			ja: "自分のトラッシュから基本エネルギーを2枚まで選び、ベンチポケモン1匹につける。"
+			'ja-jp': "自分のトラッシュから基本エネルギーを2枚まで選び、ベンチポケモン1匹につける。"
 		}
 	}, {
 		cost: ["Fire"],
 
 		name: {
-			ja: "ひばな"
+			'ja-jp': "ひばな"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを1個選び、トラッシュする。"
+			'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。"
 		}
 	}],
 

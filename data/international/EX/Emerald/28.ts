@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Grovyle",
-		fr: "Massko",
-		de: "Reptain"
+		'en-us': "Grovyle",
+		'fr-fr': "Massko",
+		'de-de': "Reptain"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Treecko",
-		fr: "Arcko"
+		'en-us': "Treecko",
+		'fr-fr': "Arcko"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Tail Shake",
-				fr: "Secoue-queue",
-				de: "Tail Shake"
+				'en-us': "Tail Shake",
+				'fr-fr': "Secoue-queue",
+				'de-de': "Tail Shake"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -55,9 +55,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'herbe",
-				de: "Razor Leaf"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'herbe",
+				'de-de': "Razor Leaf"
 			},
 
 			damage: 40,

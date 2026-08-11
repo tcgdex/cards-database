@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モルペコV-UNION",
+		'ja-jp': "モルペコV-UNION",
 	},
 
 	illustrator: "Yuu Nishida",

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Triumphant Light"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Electrike",
-		fr: "Dynavolt",
-		es: "Electrike",
-		it: "Electrike",
-		de: "Frizelbliz",
+		'en-us': "Electrike",
+		'fr-fr': "Dynavolt",
+		'es-es': "Electrike",
+		'it-it': "Electrike",
+		'de-de': "Frizelbliz",
 		'pt-br': "Electrike",
-		ko: "썬더라이"
+		'ko-kr': "썬더라이"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -23,26 +23,26 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches.",
-		fr: "Il émet des décharges à partir de l'électricité\nstatique accumulée dans sa fourrure. Il produit\ndes étincelles lorsque le temps devient orageux.",
-		es: "Acumula electricidad estática en el pelaje para lanzar descargas.\nCuando va a haber tormenta, suelta chispas por todo el cuerpo.",
-		it: "Accumula elettricità statica nella pelliccia e poi la rilascia.\nSe si avvicina una tempesta, emette scintille.",
-		de: "In seinem Fell speichert es statische Elektrizität\nfür spätere Entladungen. Braut sich ein Sturm\nzusammen, entlädt es Funken.",
+		'en-us': "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches.",
+		'fr-fr': "Il émet des décharges à partir de l'électricité\nstatique accumulée dans sa fourrure. Il produit\ndes étincelles lorsque le temps devient orageux.",
+		'es-es': "Acumula electricidad estática en el pelaje para lanzar descargas.\nCuando va a haber tormenta, suelta chispas por todo el cuerpo.",
+		'it-it': "Accumula elettricità statica nella pelliccia e poi la rilascia.\nSe si avvicina una tempesta, emette scintille.",
+		'de-de': "In seinem Fell speichert es statische Elektrizität\nfür spätere Entladungen. Braut sich ein Sturm\nzusammen, entlädt es Funken.",
 		'pt-br': "Ele armazena eletricidade estática no pelo\npara depois descarregá-la.\nQuando uma tempestade se aproxima, solta fagulhas.",
-		ko: "정전기를 털에 비축하여\n방전한다. 폭풍이 가까이 오면\n온몸에서 불꽃을 튀긴다."
+		'ko-kr': "정전기를 털에 비축하여\n방전한다. 폭풍이 가까이 오면\n온몸에서 불꽃을 튀긴다."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Zap Kick",
-			fr: "Coup de Pied Ravageur",
-			es: "Electropatada",
-			it: "Dinamocalcio",
-			de: "Stromtritt",
+			'en-us': "Zap Kick",
+			'fr-fr': "Coup de Pied Ravageur",
+			'es-es': "Electropatada",
+			'it-it': "Dinamocalcio",
+			'de-de': "Stromtritt",
 			'pt-br': "Chute Zap",
-			ko: "일렉트릭킥"
+			'ko-kr': "일렉트릭킥"
 		},
 
 		damage: 20,

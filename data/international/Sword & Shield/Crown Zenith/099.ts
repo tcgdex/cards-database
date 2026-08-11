@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zamazenta VSTAR",
-		fr: "Zamazenta VSTAR",
-		es: "Zamazenta V-ASTRO",
-		it: "Zamazenta V ASTRO",
-		pt: "Zamazenta V-ASTRO",
-		de: "Zamazenta VSTAR"
+		'en-us': "Zamazenta VSTAR",
+		'fr-fr': "Zamazenta VSTAR",
+		'es-es': "Zamazenta V-ASTRO",
+		'it-it': "Zamazenta V ASTRO",
+		'pt-br': "Zamazenta V-ASTRO",
+		'de-de': "Zamazenta VSTAR"
 	},
 
 	illustrator: "5ban Graphics",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Zamazenta V",
-		fr: "Zamazenta-V",
-		es: "Zamazenta V",
-		it: "Zamazenta-V",
-		pt: "Zamazenta V",
-		de: "Zamazenta-V"
+		'en-us': "Zamazenta V",
+		'fr-fr': "Zamazenta-V",
+		'es-es': "Zamazenta V",
+		'it-it': "Zamazenta-V",
+		'pt-br': "Zamazenta V",
+		'de-de': "Zamazenta-V"
 	},
 
 	stage: "VSTAR",
@@ -36,21 +36,21 @@ const card: Card = {
 		cost: ["Metal", "Metal", "Colorless"],
 
 		name: {
-			en: "Giga Impact",
-			fr: "Giga Impact",
-			es: "Gigaimpacto",
-			it: "Gigaimpatto",
-			pt: "Gigaimpacto",
-			de: "Gigastoß"
+			'en-us': "Giga Impact",
+			'fr-fr': "Giga Impact",
+			'es-es': "Gigaimpacto",
+			'it-it': "Gigaimpatto",
+			'pt-br': "Gigaimpacto",
+			'de-de': "Gigastoß"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 220

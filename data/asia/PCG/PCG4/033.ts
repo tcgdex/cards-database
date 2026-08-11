@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Electabuzz",
+		'ja-jp': "Electabuzz",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "進化の段階",
+				'ja-jp': "進化の段階",
 			},
 			effect: {
-				ja: "Electabuzzが進化したポカモンである限り、特別なエネルギーカードを添付した相手のポカモンからの攻撃によってElectabuzに与えられた損害は40減少します（脱力感と抵抗を適用した後）。",
+				'ja-jp': "Electabuzzが進化したポカモンである限り、特別なエネルギーカードを添付した相手のポカモンからの攻撃によってElectabuzに与えられた損害は40減少します（脱力感と抵抗を適用した後）。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "二重衝撃",
+				'ja-jp': "二重衝撃",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。いずれかのコインがヘッドである場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。いずれかのコインがヘッドである場合、防御ポケモンは麻痺しています。",
 			},
 		},
 		{
 			cost: ["Lightning", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "光沢のある爆発",
+				'ja-jp': "光沢のある爆発",
 			},
 			effect: {
-				ja: "ElectaBuzzに取り付けられた3つのエネルギーを捨てます。",
+				'ja-jp': "ElectaBuzzに取り付けられた3つのエネルギーを捨てます。",
 			},
 			damage: 70,
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミュウツー",
+		'ja-jp': "ミュウツー",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "１人の 科学者が 何年も 恐ろしい 遺伝子 研究を 続けた 結果 誕生した。",
+		'ja-jp': "１人の 科学者が 何年も 恐ろしい 遺伝子 研究を 続けた 結果 誕生した。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "マインドリポート" },
 			effect: {
-				ja: "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分のトラッシュにあるサポートを1枚、相手に見せてから、山札の上にもどす。",
+				'ja-jp': "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分のトラッシュにあるサポートを1枚、相手に見せてから、山札の上にもどす。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 	],

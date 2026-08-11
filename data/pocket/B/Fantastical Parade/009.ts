@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [651],
 
 	name: {
-		en: "Quilladin"
+		'en-us': "Quilladin"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Chespin"
+		'en-us': "Chespin"
 	},
 
 	description: {
-		en: "It can send a trailer flying with a tackle. It's numb\nto pain, so even violent collisions don't faze it."
+		'en-us': "It can send a trailer flying with a tackle. It's numb\nto pain, so even violent collisions don't faze it."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Needle Arm"
+			'en-us': "Needle Arm"
 		},
 
 		damage: 60,

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Ponyta",
-		de: "Ponita"
+		'en-us': "Ponyta",
+		'de-de': "Ponita"
 	},
 
 	illustrator: "Kanako Eo",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ascension",
-				de: "Aufstieg"
+				'en-us': "Ascension",
+				'de-de': "Aufstieg"
 			},
 			effect: {
-				en: "Search your deck for a card that evolves from Ponyta and put it onto Ponyta. (This counts as evolving Ponyta.) Shuffle your deck afterward.",
-				de: "Durchsuche dein Deck nach einer Karte, die sich aus Ponita entwickelt, und lege diese auf Ponita. (Dies zählt als Entwickeln von Ponita.) Mische dein Deck danach."
+				'en-us': "Search your deck for a card that evolves from Ponyta and put it onto Ponyta. (This counts as evolving Ponyta.) Shuffle your deck afterward.",
+				'de-de': "Durchsuche dein Deck nach einer Karte, die sich aus Ponita entwickelt, und lege diese auf Ponita. (Dies zählt als Entwickeln von Ponita.) Mische dein Deck danach."
 			},
 
 		},
@@ -43,8 +43,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Combustion",
-				de: "Glühen"
+				'en-us': "Combustion",
+				'de-de': "Glühen"
 			},
 
 			damage: 20,
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster."
+		'en-us': "As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster."
 	},
 
 	variants: [

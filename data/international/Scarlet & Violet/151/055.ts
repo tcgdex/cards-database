@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Akwakwak",
-		en: "Golduck",
-		es: "Golduck",
-		it: "Golduck",
-		pt: "Golduck",
-		de: "Entoron"
+		'fr-fr': "Akwakwak",
+		'en-us': "Golduck",
+		'es-es': "Golduck",
+		'it-it': "Golduck",
+		'pt-br': "Golduck",
+		'de-de': "Entoron"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Water"],
 	evolveFrom: {
-		fr: "Psykokwak",
-		en: "Psyduck",
-		es: "Psyduck",
-		it: "Psyduck",
-		pt: "Psyduck",
-		de: "Enton"
+		'fr-fr': "Psykokwak",
+		'en-us': "Psyduck",
+		'es-es': "Psyduck",
+		'it-it': "Psyduck",
+		'pt-br': "Psyduck",
+		'de-de': "Enton"
 	},
 	stage: "Stage1",
 
@@ -32,32 +32,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Sauvetage Aquatique",
-			en: "Aquatic Rescue",
-			es: "Rescate Acuático",
-			it: "Idrosalvataggio",
-			pt: "Resgate Aquático",
-			de: "Wasserrettung"
+			'fr-fr': "Sauvetage Aquatique",
+			'en-us': "Aquatic Rescue",
+			'es-es': "Rescate Acuático",
+			'it-it': "Idrosalvataggio",
+			'pt-br': "Resgate Aquático",
+			'de-de': "Wasserrettung"
 		},
 
 		effect: {
-			fr: "Ajoutez jusqu'à 4 Pokémon de votre pile de défausse à votre main.",
-			en: "Put up to 4 Pokémon from your discard pile into your hand.",
-			es: "Pon hasta 4 Pokémon de tu pila de descartes en tu mano.",
-			it: "Prendi fino a quattro Pokémon dalla tua pila degli scarti e aggiungili alle carte che hai in mano.",
-			pt: "Coloque até 4 Pokémon da sua pilha de descarte na sua mão.",
-			de: "Nimm bis zu 4 Pokémon aus deinem Ablagestapel auf deine Hand."
+			'fr-fr': "Ajoutez jusqu'à 4 Pokémon de votre pile de défausse à votre main.",
+			'en-us': "Put up to 4 Pokémon from your discard pile into your hand.",
+			'es-es': "Pon hasta 4 Pokémon de tu pila de descartes en tu mano.",
+			'it-it': "Prendi fino a quattro Pokémon dalla tua pila degli scarti e aggiungili alle carte che hai in mano.",
+			'pt-br': "Coloque até 4 Pokémon da sua pilha de descarte na sua mão.",
+			'de-de': "Nimm bis zu 4 Pokémon aus deinem Ablagestapel auf deine Hand."
 		}
 	}, {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			fr: "Super Éclaboussure",
-			en: "Super Splash",
-			es: "Supersalpicadura",
-			it: "Super Splash",
-			pt: "Superborrifada",
-			de: "Superplatscher"
+			'fr-fr': "Super Éclaboussure",
+			'en-us': "Super Splash",
+			'es-es': "Supersalpicadura",
+			'it-it': "Super Splash",
+			'pt-br': "Superborrifada",
+			'de-de': "Superplatscher"
 		},
 
 		damage: 120
@@ -73,7 +73,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "When it swims at full speed using its long, webbed limbs, its forehead somehow begins to glow.",
+		'en-us': "When it swims at full speed using its long, webbed limbs, its forehead somehow begins to glow.",
 	},
 
 	variants: [

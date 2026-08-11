@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Blastoise",
-		fr: "Tortank",
-		es: "Blastoise",
-		it: "Blastoise",
-		pt: "Blastoise",
-		de: "Turtok"
+		'en-us': "Blastoise",
+		'fr-fr': "Tortank",
+		'es-es': "Blastoise",
+		'it-it': "Blastoise",
+		'pt-br': "Blastoise",
+		'de-de': "Turtok"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wartortle",
-		fr: "Carabaffe",
+		'en-us': "Wartortle",
+		'fr-fr': "Carabaffe",
 	},
 
 	stage: "Stage2",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Deluge",
-				fr: "Déluge",
-				es: "Inundación",
-				it: "Diluvio",
-				pt: "Inundar",
-				de: "Sintflut"
+				'en-us': "Deluge",
+				'fr-fr': "Déluge",
+				'es-es': "Inundación",
+				'it-it': "Diluvio",
+				'pt-br': "Inundar",
+				'de-de': "Sintflut"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may attach a Water Energy card from your hand to 1 of your Pokémon.",
-				fr: "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie Water de votre main à 1 de vos Pokémon.",
-				es: "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes unir una carta de Energía Water de tu mano a 1 de tus Pokémon.",
-				it: "Durante il tuo turno, prima di attaccare, puoi assegnare a piacimento le carte Energia Water che hai in mano ai tuoi Pokémon.",
-				pt: "Tantas vezes quanto desejar em sua vez de jogar (antes de atacar), você poderá ligar um card de Energia Water da sua mão a 1 dos seus Pokémon.",
-				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 Water-Energiekarte von deiner Hand an 1 deiner Pokémon anlegen."
+				'en-us': "As often as you like during your turn (before your attack), you may attach a Water Energy card from your hand to 1 of your Pokémon.",
+				'fr-fr': "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie Water de votre main à 1 de vos Pokémon.",
+				'es-es': "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes unir una carta de Energía Water de tu mano a 1 de tus Pokémon.",
+				'it-it': "Durante il tuo turno, prima di attaccare, puoi assegnare a piacimento le carte Energia Water che hai in mano ai tuoi Pokémon.",
+				'pt-br': "Tantas vezes quanto desejar em sua vez de jogar (antes de atacar), você poderá ligar um card de Energia Water da sua mão a 1 dos seus Pokémon.",
+				'de-de': "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 Water-Energiekarte von deiner Hand an 1 deiner Pokémon anlegen."
 			},
 		},
 	],
@@ -64,12 +64,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Pump",
-				fr: "Hydrocanon",
+				'en-us': "Hydro Pump",
+				'fr-fr': "Hydrocanon",
 			},
 			effect: {
-				en: "Does 10 more damage for each Water Energy attached to this Pokémon.",
-				fr: "Inflige 10 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+				'en-us': "Does 10 more damage for each Water Energy attached to this Pokémon.",
+				'fr-fr': "Inflige 10 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
 			},
 			damage: 60,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "The jets of water it spouts from the rocket cannons on its shell can punch through thick steel.",
+		'en-us': "The jets of water it spouts from the rocket cannons on its shell can punch through thick steel.",
 	},
 
 	thirdParty: {

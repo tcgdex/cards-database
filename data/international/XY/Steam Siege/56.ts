@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Anorith",
-		fr: "Anorith",
-		es: "Anorith",
-		it: "Anorith",
-		pt: "Anorith",
-		de: "Anorith"
+		'en-us': "Anorith",
+		'fr-fr': "Anorith",
+		'es-es': "Anorith",
+		'it-it': "Anorith",
+		'pt-br': "Anorith",
+		'de-de': "Anorith"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Restored Barrier",
-				fr: "Bouclier Recréé",
-				es: "Barrera de Recreados",
-				it: "Barriera Ricreazione",
-				pt: "Barreira Restaurada",
-				de: "Erweckte Barriere"
+				'en-us': "Restored Barrier",
+				'fr-fr': "Bouclier Recréé",
+				'es-es': "Barrera de Recreados",
+				'it-it': "Barriera Ricreazione",
+				'pt-br': "Barreira Restaurada",
+				'de-de': "Erweckte Barriere"
 			},
 			effect: {
-				en: "Each of your Restored Pokémon has no Weakness.",
-				fr: "Aucun de vos Pokémon Recréés n'a de Faiblesse.",
-				es: "Ninguno de tus Pokémon Recreados tiene Debilidad.",
-				it: "Nessuno dei tuoi Pokémon Ricreati ha debolezza.",
-				pt: "Cada um de seus Pokémon Restaurados não possui Fraqueza.",
-				de: "Keins deiner Erweckt-Pokémon hat eine Schwäche."
+				'en-us': "Each of your Restored Pokémon has no Weakness.",
+				'fr-fr': "Aucun de vos Pokémon Recréés n'a de Faiblesse.",
+				'es-es': "Ninguno de tus Pokémon Recreados tiene Debilidad.",
+				'it-it': "Nessuno dei tuoi Pokémon Ricreati ha debolezza.",
+				'pt-br': "Cada um de seus Pokémon Restaurados não possui Fraqueza.",
+				'de-de': "Keins deiner Erweckt-Pokémon hat eine Schwäche."
 			},
 		},
 	],
@@ -56,20 +56,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "X-Scissor",
-				fr: "Plaie-Croix",
-				es: "Tijera X",
-				it: "Forbice X",
-				pt: "Tesoura X",
-				de: "Kreuzschere"
+				'en-us': "X-Scissor",
+				'fr-fr': "Plaie-Croix",
+				'es-es': "Tijera X",
+				'it-it': "Forbice X",
+				'pt-br': "Tesoura X",
+				'de-de': "Kreuzschere"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-				pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+				'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 20 de danos adicionais.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -86,16 +86,16 @@ const card: Card = {
 	retreat: 1,
 
 	evolveFrom: {
-		en: "Claw Fossil",
-		fr: "Fossile Griffe",
-		es: "Fósil Garra",
-		it: "Fossilunghia",
-		pt: "Claw Fossil",
-		de: "Klauenfossil"
+		'en-us': "Claw Fossil",
+		'fr-fr': "Fossile Griffe",
+		'es-es': "Fósil Garra",
+		'it-it': "Fossilunghia",
+		'pt-br': "Claw Fossil",
+		'de-de': "Klauenfossil"
 	},
 
 	description: {
-		en: "A Pokémon ancestor that was reanimated from a fossil. It lived in the sea and hunted with claws.",
+		'en-us': "A Pokémon ancestor that was reanimated from a fossil. It lived in the sea and hunted with claws.",
 	},
 
 	thirdParty: {

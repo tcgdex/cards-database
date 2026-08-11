@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビードル",
+		'ja-jp': "ビードル",
 		'zh-tw': "獨角蟲",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "毒針は とても 強力。 目立つ 体の 色は 相手に 警戒を させるためだ。",
+		'ja-jp': "毒針は とても 強力。 目立つ 体の 色は 相手に 警戒を させるためだ。",
 		'zh-tw': "毒針非常厲害。鮮豔的體色是用來 警告對手的。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "つきさす",
+				'ja-jp': "つきさす",
 				'zh-tw': "突刺",
 			},
 			damage: 20,

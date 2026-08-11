@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Golurk"
+		'en-us': "Golurk"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Golett"
+		'en-us': "Golett"
 	},
 
 	description: {
-		en: "There's a theory that inside Golurk is a perpetual\nmotion machine that produces limitless energy,\nbut this belief hasn't been proven."
+		'en-us': "There's a theory that inside Golurk is a perpetual\nmotion machine that produces limitless energy,\nbut this belief hasn't been proven."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Heavy Rocket"
+			'en-us': "Heavy Rocket"
 		},
 
 		damage: 60,
 		cost: ["Fighting", "Fighting"],
 
 		effect: {
-			en: "Reveal the top 3 cards of your deck. This attack does 60 damage for each Pokémon with a Retreat Cost of 3 or more you find there. Shuffle the revealed cards back into your deck."
+			'en-us': "Reveal the top 3 cards of your deck. This attack does 60 damage for each Pokémon with a Retreat Cost of 3 or more you find there. Shuffle the revealed cards back into your deck."
 		}
 	}],
 

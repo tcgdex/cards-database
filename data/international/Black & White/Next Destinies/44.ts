@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Luxio",
-		fr: "Luxio",
-		es: "Luxio",
-		it: "Luxio",
-		pt: "Luxio",
-		de: "Luxio"
+		'en-us': "Luxio",
+		'fr-fr': "Luxio",
+		'es-es': "Luxio",
+		'it-it': "Luxio",
+		'pt-br': "Luxio",
+		'de-de': "Luxio"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shinx",
-		fr: "Lixy",
+		'en-us': "Shinx",
+		'fr-fr': "Lixy",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Jump On",
-				fr: "Saut",
+				'en-us': "Jump On",
+				'fr-fr': "Saut",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wild Charge",
-				fr: "Éclair Fou",
+				'en-us': "Wild Charge",
+				'fr-fr': "Éclair Fou",
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				'en-us': "This Pokémon does 10 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 10 dégâts.",
 			},
 			damage: 60,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+		'en-us': "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Grimer",
-		fr: "Tadmorv de la Team Aqua",
-		pt: "Grimer da Equipe Aqua",
+		'en-us': "Team Aqua's Grimer",
+		'fr-fr': "Tadmorv de la Team Aqua",
+		'pt-br': "Grimer da Equipe Aqua",
 	},
 
 	illustrator: "kawayoo",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'Face",
-				pt: "Pancada",
+				'en-us': "Pound",
+				'fr-fr': "Écras'Face",
+				'pt-br': "Pancada",
 			},
 
 			damage: 10,
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud-Slap",
-				fr: "Coud'Boue",
-				pt: "Tapa de Lama",
+				'en-us': "Mud-Slap",
+				'fr-fr': "Coud'Boue",
+				'pt-br': "Tapa de Lama",
 			},
 
 			damage: 30,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its flexible body, which allows it to squeeze into any cracks, comes in handy when invading enemy hideouts.",
+		'en-us': "Its flexible body, which allows it to squeeze into any cracks, comes in handy when invading enemy hideouts.",
 	},
 
 	thirdParty: {

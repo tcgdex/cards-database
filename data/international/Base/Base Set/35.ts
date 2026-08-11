@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Magikarp",
-		fr: "Magicarpe",
-		de: "Karpador",
-		it: "Magikarp"
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe",
+		'de-de': "Karpador",
+		'it-it': "Magikarp"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle",
-				it: "Azione"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle",
+				'it-it': "Azione"
 			},
 
 			damage: 10,
@@ -46,16 +46,16 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Flail",
-				fr: "Nageoire",
-				de: "Dreschflegel",
-				it: "Convulsione"
+				'en-us': "Flail",
+				'fr-fr': "Nageoire",
+				'de-de': "Dreschflegel",
+				'it-it': "Convulsione"
 			},
 			effect: {
-				en: "Does 10 damage times number of damage counters on Magikarp.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Magicarpe.",
-				de: "Fügt 10 Schadenspunkte mal der Anzahl der auf Karpador abgelegten Schadensmarken zu.",
-				it: "Infligge 10 danni moltiplicati per il numero di segnalini danno su Magikarp."
+				'en-us': "Does 10 damage times number of damage counters on Magikarp.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Magicarpe.",
+				'de-de': "Fügt 10 Schadenspunkte mal der Anzahl der auf Karpador abgelegten Schadensmarken zu.",
+				'it-it': "Infligge 10 danni moltiplicati per il numero di segnalini danno su Magikarp."
 			},
 			damage: "10x",
 
@@ -72,9 +72,9 @@ const card: Card = {
 
 
 	description: {
-		en: "In the distant past, it was stronger than its horribly weak descendants that exist today.",
-		fr: "Autrefois, il était beaucoup plus puissant que cette créature minablement faible.",
-		it: "In un passato remoto era molto più forte dei suoi debolissimi discendenti."
+		'en-us': "In the distant past, it was stronger than its horribly weak descendants that exist today.",
+		'fr-fr': "Autrefois, il était beaucoup plus puissant que cette créature minablement faible.",
+		'it-it': "In un passato remoto era molto più forte dei suoi debolissimi discendenti."
 	},
 
 	variants: [

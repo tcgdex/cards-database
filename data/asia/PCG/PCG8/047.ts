@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メディチャム",
+		'ja-jp': "メディチャム",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "デュアルアーマー",
+				'ja-jp': "デュアルアーマー",
 			},
 			effect: {
-				ja: "MedichamにはPsychic Energyカードが付いている限り、MedichamはPsychicと戦闘タイプの両方です。",
+				'ja-jp': "MedichamにはPsychic Energyカードが付いている限り、MedichamはPsychicと戦闘タイプの両方です。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "PsyShock",
+				'ja-jp': "PsyShock",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "スカイアッパーカット",
+				'ja-jp': "スカイアッパーカット",
 			},
 			effect: {
-				ja: "この攻撃の損傷は抵抗の影響を受けません。",
+				'ja-jp': "この攻撃の損傷は抵抗の影響を受けません。",
 			},
 			damage: 50,
 		},

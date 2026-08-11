@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Conkeldurr",
-		fr: "Bétochef",
-		es: "Conkeldurr",
-		it: "Conkeldurr",
-		pt: "Conkeldurr",
-		de: "Meistagrif"
+		'en-us': "Conkeldurr",
+		'fr-fr': "Bétochef",
+		'es-es': "Conkeldurr",
+		'it-it': "Conkeldurr",
+		'pt-br': "Conkeldurr",
+		'de-de': "Meistagrif"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 180,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Gurdurr",
-		fr: "Ouvrifier",
-		es: "Gurdurr",
-		it: "Gurdurr",
-		pt: "Gurdurr",
-		de: "Strepoli"
+		'en-us': "Gurdurr",
+		'fr-fr': "Ouvrifier",
+		'es-es': "Gurdurr",
+		'it-it': "Gurdurr",
+		'pt-br': "Gurdurr",
+		'de-de': "Strepoli"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Tantrum",
-			fr: "Mauvaise Humeur",
-			es: "Rabieta",
-			it: "Collera",
-			pt: "Petulância",
-			de: "Rappel"
+			'en-us': "Tantrum",
+			'fr-fr': "Mauvaise Humeur",
+			'es-es': "Rabieta",
+			'it-it': "Collera",
+			'pt-br': "Petulância",
+			'de-de': "Rappel"
 		},
 
 		effect: {
-			en: "This Pokémon is now Confused.",
-			fr: "Ce Pokémon est maintenant Confus.",
-			es: "Este Pokémon pasa a estar Confundido.",
-			it: "Questo Pokémon viene confuso.",
-			pt: "Este Pokémon agora está Confuso.",
-			de: "Dieses Pokémon ist jetzt verwirrt."
+			'en-us': "This Pokémon is now Confused.",
+			'fr-fr': "Ce Pokémon est maintenant Confus.",
+			'es-es': "Este Pokémon pasa a estar Confundido.",
+			'it-it': "Questo Pokémon viene confuso.",
+			'pt-br': "Este Pokémon agora está Confuso.",
+			'de-de': "Dieses Pokémon ist jetzt verwirrt."
 		},
 
 		damage: 80
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Gutsy Swing",
-			fr: "Coup Courageux",
-			es: "Golpe con Agallas",
-			it: "Baldocolpo",
-			pt: "Balanço Destemido",
-			de: "Mutiger Schwung"
+			'en-us': "Gutsy Swing",
+			'fr-fr': "Coup Courageux",
+			'es-es': "Golpe con Agallas",
+			'it-it': "Baldocolpo",
+			'pt-br': "Balanço Destemido",
+			'de-de': "Mutiger Schwung"
 		},
 
 		effect: {
-			en: "If this Pokémon is affected by a Special Condition, ignore all Energy in this attack's cost.",
-			fr: "Si ce Pokémon est affecté par un État Spécial, ignorez toutes les Énergies dans le coût de cette attaque.",
-			es: "Si este Pokémon se ve afectado por una Condición Especial, ignora todas las Energías en el coste de este ataque.",
-			it: "Se questo Pokémon è influenzato da una condizione speciale, ignora tutte le Energie necessarie per usare questo attacco.",
-			pt: "Se este Pokémon estiver afetado por uma Condição Especial, ignore todas as Energias no custo deste ataque.",
-			de: "Wenn dieses Pokémon von einem Speziellen Zustand betroffen ist, ignoriere alle Energien in den Kosten dieser Attacke."
+			'en-us': "If this Pokémon is affected by a Special Condition, ignore all Energy in this attack's cost.",
+			'fr-fr': "Si ce Pokémon est affecté par un État Spécial, ignorez toutes les Énergies dans le coût de cette attaque.",
+			'es-es': "Si este Pokémon se ve afectado por una Condición Especial, ignora todas las Energías en el coste de este ataque.",
+			'it-it': "Se questo Pokémon è influenzato da una condizione speciale, ignora tutte le Energie necessarie per usare questo attacco.",
+			'pt-br': "Se este Pokémon estiver afetado por uma Condição Especial, ignore todas as Energias no custo deste ataque.",
+			'de-de': "Wenn dieses Pokémon von einem Speziellen Zustand betroffen ist, ignoriere alle Energien in den Kosten dieser Attacke."
 		},
 
 		damage: 250
@@ -84,7 +84,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Rather than rely on their strength, they master moves that make good use of centrifugal force to swing around concrete.",
+		'en-us': "Rather than rely on their strength, they master moves that make good use of centrifugal force to swing around concrete.",
 	},
 
 	variants: [

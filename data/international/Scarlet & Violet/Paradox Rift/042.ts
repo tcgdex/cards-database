@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Simipour",
-		fr: "Flotoutan",
-		es: "Simipour",
-		it: "Simipour",
-		pt: "Simipour",
-		de: "Sodachita"
+		'en-us': "Simipour",
+		'fr-fr': "Flotoutan",
+		'es-es': "Simipour",
+		'it-it': "Simipour",
+		'pt-br': "Simipour",
+		'de-de': "Sodachita"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Panpour",
-		fr: "Flotajou",
-		es: "Panpour",
-		it: "Panpour",
-		pt: "Panpour",
-		de: "Sodamak"
+		'en-us': "Panpour",
+		'fr-fr': "Flotajou",
+		'es-es': "Panpour",
+		'it-it': "Panpour",
+		'pt-br': "Panpour",
+		'de-de': "Sodamak"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Monkey Trio",
-			fr: "Trio Simiesque",
-			es: "Trío de Monos",
-			it: "Trio delle Scimmie",
-			pt: "Trio Primata",
-			de: "Affentrio"
+			'en-us': "Monkey Trio",
+			'fr-fr': "Trio Simiesque",
+			'es-es': "Trío de Monos",
+			'it-it': "Trio delle Scimmie",
+			'pt-br': "Trio Primata",
+			'de-de': "Affentrio"
 		},
 
 		effect: {
-			en: "If you have Simisage, Simisear, and Simipour in play, ignore all {C} Energy in the costs of attacks used by this Pokémon.",
-			fr: "Si vous avez Feuiloutan, Flamoutan et Flotoutan en jeu, ignorez toutes les Énergies {C} dans le coût des attaques utilisées par ce Pokémon.",
-			es: "Si tienes a Simisage, Simisear y Simipour en juego, ignora todas las Energías {C} en los costes de los ataques usados por este Pokémon.",
-			it: "Se hai in gioco Simisage, Simisear e Simipour, ignora tutte le Energie {C} necessarie per gli attacchi usati da questo Pokémon.",
-			pt: "Se você tiver Simisage, Simisear e Simipour em jogo, ignore todas as Energias {C} nos custos dos ataques usados por este Pokémon.",
-			de: "Wenn du Vegichita, Grillchita und Sodachita im Spiel hast, ignoriere alle {C}-Energien in den Kosten der von diesem Pokémon eingesetzten Attacken."
+			'en-us': "If you have Simisage, Simisear, and Simipour in play, ignore all {C} Energy in the costs of attacks used by this Pokémon.",
+			'fr-fr': "Si vous avez Feuiloutan, Flamoutan et Flotoutan en jeu, ignorez toutes les Énergies {C} dans le coût des attaques utilisées par ce Pokémon.",
+			'es-es': "Si tienes a Simisage, Simisear y Simipour en juego, ignora todas las Energías {C} en los costes de los ataques usados por este Pokémon.",
+			'it-it': "Se hai in gioco Simisage, Simisear e Simipour, ignora tutte le Energie {C} necessarie per gli attacchi usati da questo Pokémon.",
+			'pt-br': "Se você tiver Simisage, Simisear e Simipour em jogo, ignore todas as Energias {C} nos custos dos ataques usados por este Pokémon.",
+			'de-de': "Wenn du Vegichita, Grillchita und Sodachita im Spiel hast, ignoriere alle {C}-Energien in den Kosten der von diesem Pokémon eingesetzten Attacken."
 		}
 	}],
 
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Liquid Lashing",
-			fr: "Projection de Liquide",
-			es: "Azote Líquido",
-			it: "Liquisferza",
-			pt: "Chicotada Líquida",
-			de: "Peitschenfluss"
+			'en-us': "Liquid Lashing",
+			'fr-fr': "Projection de Liquide",
+			'es-es': "Azote Líquido",
+			'it-it': "Liquisferza",
+			'pt-br': "Chicotada Líquida",
+			'de-de': "Peitschenfluss"
 		},
 
 		effect: {
-			en: "This attack also does 30 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Cette attaque inflige aussi 30 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-			es: "Este ataque también hace 30 puntos de daño a cada uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-			it: "Questo attacco infligge anche 30 danni a ciascuno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-			pt: "Este ataque também causa 30 pontos de dano a cada um dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
-			de: "Diese Attacke fügt auch jedem Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+			'en-us': "This attack also does 30 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Cette attaque inflige aussi 30 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			'es-es': "Este ataque también hace 30 puntos de daño a cada uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			'it-it': "Questo attacco infligge anche 30 danni a ciascuno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			'pt-br': "Este ataque também causa 30 pontos de dano a cada um dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
+			'de-de': "Diese Attacke fügt auch jedem Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		},
 
 		damage: 50
@@ -84,7 +84,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning up water with its tail.",
+		'en-us': "It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning up water with its tail.",
 	},
 
 	variants: [

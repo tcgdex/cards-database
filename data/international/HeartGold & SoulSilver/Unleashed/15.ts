@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Fearow",
-		fr: "Rapasdepic",
-		de: "Ibitak"
+		'en-us': "Fearow",
+		'fr-fr': "Rapasdepic",
+		'de-de': "Ibitak"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spearow",
-		fr: "Piafabec"
+		'en-us': "Spearow",
+		'fr-fr': "Piafabec"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-aile",
-				de: "Flügelschlag"
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-aile",
+				'de-de': "Flügelschlag"
 			},
 
 			damage: 30,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Repeating Drill",
-				fr: "Multivrille",
-				de: "Mehrfach-Bohrer"
+				'en-us': "Repeating Drill",
+				'fr-fr': "Multivrille",
+				'de-de': "Mehrfach-Bohrer"
 			},
 			effect: {
-				en: "Flip 5 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 5 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf 5 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 5 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 5 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'de-de': "Wirf 5 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "20×",
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It shoots itself suddenly high into the sky, then plummets down in one fell swoop to strike its prey."
+		'en-us': "It shoots itself suddenly high into the sky, then plummets down in one fell swoop to strike its prey."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モルトレス",
+		'ja-jp': "モルトレス",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "火災免疫",
+				'ja-jp': "火災免疫",
 			},
 			effect: {
-				ja: "手からモルトレスにファイアエネルギーカードを取り付けることはできません。",
+				'ja-jp': "手からモルトレスにファイアエネルギーカードを取り付けることはできません。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "火を集めます",
+				'ja-jp': "火を集めます",
 			},
 			effect: {
-				ja: "廃棄パイルに火災エネルギーカードがある場合は、コインをひっくり返します。頭の場合は、それらの1つをモルトレスに取り付けます。",
+				'ja-jp': "廃棄パイルに火災エネルギーカードがある場合は、コインをひっくり返します。頭の場合は、それらの1つをモルトレスに取り付けます。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fire", "Fire", "Colorless", "Colorless"],
 			name: {
-				ja: "燃えている尾",
+				'ja-jp': "燃えている尾",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、モルトレスに取り付けられた消防剤カードを捨ててください。",
+				'ja-jp': "コインをひっくり返します。尾の場合、モルトレスに取り付けられた消防剤カードを捨ててください。",
 			},
 			damage: 60,
 		},

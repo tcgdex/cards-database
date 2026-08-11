@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Relicanth",
-		fr: "Relicanth",
-		de: "Relicanth"
+		'en-us': "Relicanth",
+		'fr-fr': "Relicanth",
+		'de-de': "Relicanth"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharp Fin",
-				fr: "Aileron aiguisé",
-				de: "Sharp Fin"
+				'en-us': "Sharp Fin",
+				'fr-fr': "Aileron aiguisé",
+				'de-de': "Sharp Fin"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypno Splash",
-				fr: "Hypnoplouf",
-				de: "Hypno Splash"
+				'en-us': "Hypno Splash",
+				'fr-fr': "Hypnoplouf",
+				'de-de': "Hypno Splash"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 			damage: 20,
 

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โฟลเซล",
-		id: "Floatzel"
+		'th-th': "โฟลเซล",
+		'id-id': "Floatzel"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -15,28 +15,28 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		th: "พอพองถุงลมแล้วสามารถให้คนขึ้นบนหลังได้ จะทำให้ถุงลมแฟบลงก่อนดำลงไป",
-		id: "Floatzel dapat mengangkut manusia di atas punggungnya dengan menggembungkan kantong apungnya. Pokémon ini menyusutkan kantong apungnya lalu menyelam."
+		'th-th': "พอพองถุงลมแล้วสามารถให้คนขึ้นบนหลังได้ จะทำให้ถุงลมแฟบลงก่อนดำลงไป",
+		'id-id': "Floatzel dapat mengangkut manusia di atas punggungnya dengan menggembungkan kantong apungnya. Pokémon ini menyusutkan kantong apungnya lalu menyelam."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "หางหมุนวน",
-			id: "Ekor Berpusar"
+			'th-th': "หางหมุนวน",
+			'id-id': "Ekor Berpusar"
 		},
 
 		effect: {
-			th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว นำโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม และการ์ดทั้งหมดที่ติดอยู่ กลับขึ้นมือฝ่ายตรงข้าม",
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, kembalikan Pokémon Bertarung lawan dan semua kartu yang dikenakannya ke Kartu Pegangan lawan."
+			'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกหัว นำโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม และการ์ดทั้งหมดที่ติดอยู่ กลับขึ้นมือฝ่ายตรงข้าม",
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, kembalikan Pokémon Bertarung lawan dan semua kartu yang dikenakannya ke Kartu Pegangan lawan."
 		},
 
 		cost: ["Water"]
 	}, {
 		name: {
-			th: "ปีนน้ำตก",
-			id: "Melawan Arus"
+			'th-th': "ปีนน้ำตก",
+			'id-id': "Melawan Arus"
 		},
 
 		damage: 60,

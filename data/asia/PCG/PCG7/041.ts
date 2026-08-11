@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG7"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピカチュウ（デルタ種）",
+		'ja-jp': "ピカチュウ（デルタ種）",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "尾のwhap",
+				'ja-jp': "尾のwhap",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Metal", "Colorless", "Colorless"],
 			name: {
-				ja: "スチールヘッドバット",
+				'ja-jp': "スチールヘッドバット",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は30ダメージに加えて10ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は30ダメージに加えて10ダメージを与えます。",
 			},
 		},
 	],

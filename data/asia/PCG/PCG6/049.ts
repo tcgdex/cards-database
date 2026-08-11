@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エスペオン（デルタ種）",
+		'ja-jp': "エスペオン（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "デルタヒール",
+				'ja-jp': "デルタヒール",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前）になったら、カードにÅ¥を持っているPokã©Monから1つのダメージカウンターを削除できます。ターンごとに1つ以上のDelta HealPokã©-Powerを使用することはできません。 Espeonが特別な状態の影響を受けた場合、このパワーは使用できません。",
+				'ja-jp': "ターン中（攻撃の前）になったら、カードにÅ¥を持っているPokã©Monから1つのダメージカウンターを削除できます。ターンごとに1つ以上のDelta HealPokã©-Powerを使用することはできません。 Espeonが特別な状態の影響を受けた場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Metal"],
 			name: {
-				ja: "PsyShock",
+				'ja-jp': "PsyShock",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 30,
 		},

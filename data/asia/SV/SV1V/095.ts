@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1V"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ジュペッタex"
+		'ja-jp': "ジュペッタex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -19,25 +19,25 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "とこやみ"
+			'ja-jp': "とこやみ"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "次の相手の番、相手は手札からグッズを出して使えない。"
+			'ja-jp': "次の相手の番、相手は手札からグッズを出して使えない。"
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "ポルターガイスト"
+			'ja-jp': "ポルターガイスト"
 		},
 
 		damage: "60×",
 
 		effect: {
-			ja: "相手の手札を見て、その中にあるトレーナーズの枚数×60ダメージ。"
+			'ja-jp': "相手の手札を見て、その中にあるトレーナーズの枚数×60ダメージ。"
 		}
 	}],
 

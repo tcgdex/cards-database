@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Palpitoad",
-		fr: "Batracné",
-		es: "Palpitoad",
-		it: "Palpitoad",
-		pt: "Palpitoad",
-		de: "Mebrana"
+		'en-us': "Palpitoad",
+		'fr-fr': "Batracné",
+		'es-es': "Palpitoad",
+		'it-it': "Palpitoad",
+		'pt-br': "Palpitoad",
+		'de-de': "Mebrana"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tympole",
-		fr: "Tritonde",
+		'en-us': "Tympole",
+		'fr-fr': "Tritonde",
 	},
 
 	stage: "Stage1",
@@ -40,8 +40,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vibration",
-				fr: "Vibration",
+				'en-us': "Vibration",
+				'fr-fr': "Vibration",
 			},
 
 			damage: 20,
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Suspicious Soundwave",
-				fr: "Onde Sonore Suspecte",
+				'en-us': "Suspicious Soundwave",
+				'fr-fr': "Onde Sonore Suspecte",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: 30,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It lives in the water and on land. It uses its long, sticky tongue to immobilize its opponents.",
+		'en-us': "It lives in the water and on land. It uses its long, sticky tongue to immobilize its opponents.",
 	},
 
 	thirdParty: {

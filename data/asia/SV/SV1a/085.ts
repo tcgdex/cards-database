@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "パルデア ウパー"
+		'ja-jp': "パルデア ウパー"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "縄張り争いに 敗れて 陸で 暮らすうちに 毒の 粘膜で 体を 保護するように 変わった。"
+		'ja-jp': "縄張り争いに 敗れて 陸で 暮らすうちに 毒の 粘膜で 体を 保護するように 変わった。"
 	},
 
 	stage: "Basic",
@@ -24,17 +24,17 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "すみかをさがす"
+			'ja-jp': "すみかをさがす"
 		},
 
 		effect: {
-			ja: "自分の山札からスタジアムを1枚選び、相手に見せて、手札に加える。そして山札を切る。"
+			'ja-jp': "自分の山札からスタジアムを1枚選び、相手に見せて、手札に加える。そして山札を切る。"
 		}
 	}, {
 		cost: ["Darkness"],
 
 		name: {
-			ja: "ぶつかる"
+			'ja-jp': "ぶつかる"
 		},
 
 		damage: 10

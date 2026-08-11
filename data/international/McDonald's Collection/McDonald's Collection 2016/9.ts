@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2016'
 
 const card: Card = {
@@ -9,7 +9,7 @@ const card: Card = {
 	dexId: [175],
 
 	description: {
-		en: "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up."
+		'en-us': "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up."
 	},
 
 	hp: 40,
@@ -19,20 +19,20 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Sweet Kiss",
-			fr: "Doux Baiser"
+			'en-us': "Sweet Kiss",
+			'fr-fr': "Doux Baiser"
 		},
 
 		damage: 10,
 
 		effect: {
-			en: "Your opponent draws a card."
+			'en-us': "Your opponent draws a card."
 		}
 	}],
 
 	name: {
-		en: "Togepi",
-		fr: "Togepi"
+		'en-us': "Togepi",
+		'fr-fr': "Togepi"
 	},
 
 	rarity: "None",

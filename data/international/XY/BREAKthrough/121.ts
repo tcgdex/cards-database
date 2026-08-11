@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Teddiursa",
-		fr: "Teddiursa",
-		es: "Teddiursa",
-		it: "Teddiursa",
-		pt: "Teddiursa",
-		de: "Teddiursa"
+		'en-us': "Teddiursa",
+		'fr-fr': "Teddiursa",
+		'es-es': "Teddiursa",
+		'it-it': "Teddiursa",
+		'pt-br': "Teddiursa",
+		'de-de': "Teddiursa"
 	},
 
 	illustrator: "sui",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flop",
-				fr: "Flop",
-				es: "Vuelta",
-				it: "Tonfo",
-				pt: "Baque",
-				de: "Plumps"
+				'en-us': "Flop",
+				'fr-fr': "Flop",
+				'es-es': "Vuelta",
+				'it-it': "Tonfo",
+				'pt-br': "Baque",
+				'de-de': "Plumps"
 			},
 
 			damage: 30,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations.",
+		'en-us': "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations.",
 	},
 
 	thirdParty: {

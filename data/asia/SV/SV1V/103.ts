@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1V"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "テツノワダチex"
+		'ja-jp': "テツノワダチex"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -19,23 +19,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "トリプルレーザー"
+			'ja-jp': "トリプルレーザー"
 		},
 
 		effect: {
-			ja: "相手のポケモン3匹に、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			'ja-jp': "相手のポケモン3匹に、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
 		}
 	}, {
 		cost: ["Metal", "Metal", "Metal", "Colorless"],
 
 		name: {
-			ja: "サイバネホイール"
+			'ja-jp': "サイバネホイール"
 		},
 
 		damage: 160,
 
 		effect: {
-			ja: "このポケモンをベンチポケモンと入れ替える。"
+			'ja-jp': "このポケモンをベンチポケモンと入れ替える。"
 		}
 	}],
 

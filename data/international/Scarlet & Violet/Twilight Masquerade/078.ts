@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Clefairy",
-		fr: "Mélofée",
-		es: "Clefairy",
-		it: "Clefairy",
-		pt: "Clefairy",
-		de: "Piepi"
+		'en-us': "Clefairy",
+		'fr-fr': "Mélofée",
+		'es-es': "Clefairy",
+		'it-it': "Clefairy",
+		'pt-br': "Clefairy",
+		'de-de': "Piepi"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Moon Kick",
-			fr: "Coup d'Pied Lunaire",
-			es: "Patada Lunar",
-			it: "Calcioluna",
-			pt: "Chute Lunar",
-			de: "Mondkick"
+			'en-us': "Moon Kick",
+			'fr-fr': "Coup d'Pied Lunaire",
+			'es-es': "Patada Lunar",
+			'it-it': "Calcioluna",
+			'pt-br': "Chute Lunar",
+			'de-de': "Mondkick"
 		},
 
 		damage: 40
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "On nights with a full moon, they gather together and dance. The surrounding area is enveloped in an abnormal magnetic field.",
+		'en-us': "On nights with a full moon, they gather together and dance. The surrounding area is enveloped in an abnormal magnetic field.",
 	},
 
 	variants: [

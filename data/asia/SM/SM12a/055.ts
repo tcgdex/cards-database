@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミュウ",
+		'ja-jp': "ミュウ",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "あらゆる 技を 使うため ポケモンの 先祖と 考える 学者が たくさん いる。",
+		'ja-jp': "あらゆる 技を 使うため ポケモンの 先祖と 考える 学者が たくさん いる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ベンチバリア" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分のベンチポケモン全員は、相手のワザのダメージを受けない。",
+				'ja-jp': "このポケモンがいるかぎり、自分のベンチポケモン全員は、相手のワザのダメージを受けない。",
 			},
 		},
 	],
@@ -33,7 +33,7 @@ const card: Card = {
 			name: { ja: "サイコパワー" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "ダメカン3個を、相手のポケモンに好きなようにのせる。",
+				'ja-jp': "ダメカン3個を、相手のポケモンに好きなようにのせる。",
 			},
 		},
 	],

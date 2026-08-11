@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "暗いforretress",
+		'ja-jp': "暗いforretress",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "アーマーアップ",
+				'ja-jp': "アーマーアップ",
 			},
 			effect: {
-				ja: "次のターンの終わりまで、攻撃によるダメージによって暗いfortretressがノックアウトされる場合、コインをひっくり返します。ヘッドの場合、暗いfortretressはノックアウトされず、その残りのHPは代わりに10になります。",
+				'ja-jp': "次のターンの終わりまで、攻撃によるダメージによって暗いfortretressがノックアウトされる場合、コインをひっくり返します。ヘッドの場合、暗いfortretressはノックアウトされず、その残りのHPは代わりに10になります。",
 			},
 		},
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "爆発",
+				'ja-jp': "爆発",
 			},
 			effect: {
-				ja: "Dark Forretressは、それ自体に60のダメージを与えます。",
+				'ja-jp': "Dark Forretressは、それ自体に60のダメージを与えます。",
 			},
 			damage: 60,
 		},

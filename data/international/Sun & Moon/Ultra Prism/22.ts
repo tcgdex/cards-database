@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Monferno",
-		fr: "Chimpenfeu",
-		es: "Monferno",
-		it: "Monferno",
-		pt: "Monferno",
-		de: "Panpyro"
+		'en-us': "Monferno",
+		'fr-fr': "Chimpenfeu",
+		'es-es': "Monferno",
+		'it-it': "Monferno",
+		'pt-br': "Monferno",
+		'de-de': "Panpyro"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Chimchar",
-		fr: "Ouisticram",
+		'en-us': "Chimchar",
+		'fr-fr': "Ouisticram",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Super Singe",
-				fr: "Super Roussi",
-				es: "Superquemadura",
-				it: "Super Scottata",
-				pt: "Superchamuscada",
-				de: "Super-Versengung"
+				'en-us': "Super Singe",
+				'fr-fr': "Super Roussi",
+				'es-es': "Superquemadura",
+				'it-it': "Super Scottata",
+				'pt-br': "Superchamuscada",
+				'de-de': "Super-Versengung"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+				'en-us': "Your opponent’s Active Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 			},
 			damage: 20,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It uses ceilings and walls to launch aerial attacks. Its fiery tail is but one weapon.",
+		'en-us': "It uses ceilings and walls to launch aerial attacks. Its fiery tail is but one weapon.",
 	},
 
 	thirdParty: {

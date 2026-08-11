@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ベトベトン&アローラベトベトンGX",
+		'ja-jp': "ベトベトン&アローラベトベトンGX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "バッドポイズン" },
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は8個になる。",
+				'ja-jp': "相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は8個になる。",
 			},
 		},
 		{
@@ -27,14 +27,14 @@ const card: Card = {
 			damage: 120,
 			cost: ["Psychic", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンがどくなら、このポケモンのHPを「100」回復する。",
+				'ja-jp': "相手のバトルポケモンがどくなら、このポケモンのHPを「100」回復する。",
 			},
 		},
 		{
 			name: { ja: "ベトベトミックスGX" },
 			cost: [],
 			effect: {
-				ja: "相手のバトルポケモンをどくとマヒにする。追加でエネルギーが4個ついているなら、このどくでのせるダメカンの数は15個になる。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のバトルポケモンをどくとマヒにする。追加でエネルギーが4個ついているなら、このどくでのせるダメカンの数は15個になる。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

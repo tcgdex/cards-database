@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サダイジャV",
+		'ja-jp': "サダイジャV",
 		'zh-tw': "阿羅拉 椰蛋樹V",
 	},
 
@@ -20,7 +20,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "すなのぼうへき" },
 			effect: {
-				ja: "このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "このポケモンが受けるワザのダメージは「-30」される。",
 			},
 		},
 	],
@@ -28,7 +28,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ランドクラッシュ",
+				'ja-jp': "ランドクラッシュ",
 				'zh-tw': "悠悠成長",
 			},
 			damage: 140,

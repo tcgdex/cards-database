@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Furret",
-		fr: "Fouinar"
+		'en-us': "Furret",
+		'fr-fr': "Fouinar"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -18,28 +18,28 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Sentret"
+		'en-us': "Sentret"
 	},
 
 	description: {
-		en: "The mother puts its offspring to sleep by curling up\naround them. It corners foes with speed.",
-		fr: "La femelle s'enroule autour de ses petits pour les bercer. Il accule l'ennemi grâce à sa vitesse."
+		'en-us': "The mother puts its offspring to sleep by curling up\naround them. It corners foes with speed.",
+		'fr-fr': "La femelle s'enroule autour de ses petits pour les bercer. Il accule l'ennemi grâce à sa vitesse."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Tail Smash",
-			fr: "Éclate-Queue"
+			'en-us': "Tail Smash",
+			'fr-fr': "Éclate-Queue"
 		},
 
 		damage: 80,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
 		}
 	}],
 

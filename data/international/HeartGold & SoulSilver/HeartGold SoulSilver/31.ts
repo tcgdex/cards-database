@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Sunflora",
-		fr: "Heliatronc",
-		de: "Sonnflora"
+		'en-us': "Sunflora",
+		'fr-fr': "Heliatronc",
+		'de-de': "Sonnflora"
 	},
 
 	illustrator: "Yuka Morii",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sunkern",
-		fr: "Tournegrin"
+		'en-us': "Sunkern",
+		'fr-fr': "Tournegrin"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Sunshine Grace",
-				fr: "Grâce solaire",
-				de: "Sonnenmut"
+				'en-us': "Sunshine Grace",
+				'fr-fr': "Grâce solaire",
+				'de-de': "Sonnenmut"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may search your deck for a Grass Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward. This power can't be used if Sunflora is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez chercher un Pokémon Grass dans votre deck, le montrer à votre adversaire et l’ajouter à votre main. Mélangez ensuite votre deck. Ce pouvoir ne peut pas être utilisé si Heliatronc est affecté par un État spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dein Deck nach 1 -Pokémon durchsuchen, es deinem Gegner zeigen und auf die Hand nehmen. Mische anschließend dein Deck. Diese Poké-Power kann nicht benutzt werden, wenn Sonnflora von einem Speziellen Zustand betroffen ist."
+				'en-us': "Once during your turn (before your attack), you may search your deck for a Grass Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward. This power can't be used if Sunflora is affected by a Special Condition.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez chercher un Pokémon Grass dans votre deck, le montrer à votre adversaire et l’ajouter à votre main. Mélangez ensuite votre deck. Ce pouvoir ne peut pas être utilisé si Heliatronc est affecté par un État spécial.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du dein Deck nach 1 -Pokémon durchsuchen, es deinem Gegner zeigen und auf die Hand nehmen. Mische anschließend dein Deck. Diese Poké-Power kann nicht benutzt werden, wenn Sonnflora von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -52,9 +52,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blade Arms",
-				fr: "Bras tranchants",
-				de: "Klingenarme"
+				'en-us': "Blade Arms",
+				'fr-fr': "Bras tranchants",
+				'de-de': "Klingenarme"
 			},
 
 			damage: 40,
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It converts sunlight into energy. In the darkness after sunset, it closes its petals and becomes still."
+		'en-us': "It converts sunlight into energy. In the darkness after sunset, it closes its petals and becomes still."
 	},
 
 	variants: [

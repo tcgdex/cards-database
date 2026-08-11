@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビクティニ",
+		'ja-jp': "ビクティニ",
 	},
 
 	illustrator: "5ban Graphics",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "勝利を もたらす ポケモン。 ビクティニを 連れた トレーナーは どんな 勝負にも 勝てるという。",
+		'ja-jp': "勝利を もたらす ポケモン。 ビクティニを 連れた トレーナーは どんな 勝負にも 勝てるという。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Fire", "Fire"],
 			effect: {
-				ja: "自分のベンチポケモンが4匹以下なら、このワザは失敗。",
+				'ja-jp': "自分のベンチポケモンが4匹以下なら、このワザは失敗。",
 			},
 		},
 	],

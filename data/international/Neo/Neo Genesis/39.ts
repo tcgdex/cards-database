@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Ledian",
-		fr: "Coxyclaque",
-		de: "Ledian"
+		'en-us': "Ledian",
+		'fr-fr': "Coxyclaque",
+		'de-de': "Ledian"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ledyba",
-		fr: "Coxy"
+		'en-us': "Ledyba",
+		'fr-fr': "Coxy"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Baton Pass",
-				fr: "Relais",
-				de: "Stafette"
+				'en-us': "Baton Pass",
+				'fr-fr': "Relais",
+				'de-de': "Stafette"
 			},
 			effect: {
-				en: "If you have any Pokémon on your Bench, remove all Energy cards from Ledian and attach them to 1 of those Pokémon, then switch Ledian with that Pokémon.",
-				fr: "Si vous avez un ou plusieurs Pokémon  sur votre Banc, retirez toutes les cartes Énergie  sur Coxyclaque et attachez-les à l'un de ces Pokémon, échangez ensuite Coxyclaque avec ce Pokémon.",
-				de: "Falls du mindestens ein -Pokémon auf deiner Bank hast, entferne alle -Energiekarten von Ledian und lege sie an dieses Pokémon an, und tausche dann Ledian mit diesem Pokémon aus."
+				'en-us': "If you have any Pokémon on your Bench, remove all Energy cards from Ledian and attach them to 1 of those Pokémon, then switch Ledian with that Pokémon.",
+				'fr-fr': "Si vous avez un ou plusieurs Pokémon  sur votre Banc, retirez toutes les cartes Énergie  sur Coxyclaque et attachez-les à l'un de ces Pokémon, échangez ensuite Coxyclaque avec ce Pokémon.",
+				'de-de': "Falls du mindestens ein -Pokémon auf deiner Bank hast, entferne alle -Energiekarten von Ledian und lege sie an dieses Pokémon an, und tausche dann Ledian mit diesem Pokémon aus."
 			},
 			damage: 30,
 
@@ -66,8 +66,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "When the stars flicker in the night sky, Ledian flutters about, scattering a glowing powder.",
-		fr: "Lorsque les étoiles scintillent dans le ciel nocturne, Ledian voltige en répandant une poudre brillante."
+		'en-us': "When the stars flicker in the night sky, Ledian flutters about, scattering a glowing powder.",
+		'fr-fr': "Lorsque les étoiles scintillent dans le ciel nocturne, Ledian voltige en répandant une poudre brillante."
 	},
 
 

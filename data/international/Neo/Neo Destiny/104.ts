@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Heal Powder",
-		fr: "Poudre soin",
-		de: "Heilpuder"
+		'en-us': "Heal Powder",
+		'fr-fr': "Poudre soin",
+		'de-de': "Heilpuder"
 	},
 
 	illustrator: undefined,
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Flip a coin. If heads, your Active Pokémon is no longer Asleep, Confused, Paralyzed, or Poisoned and remove 2 damage counters from it. If your Active Pokémon has fewer damage counters than that, remove all of them.",
-		fr: "Lancez une pièce. Si c'est face, votre Pokémon Actif n'est plus Endormi, Confus, Paralysé ou Empoisonné, retirez 2 marqueurs de dégâts de votre Pokémon Actif. Si votre Pokémon Actif a moins de marqueurs de dégâts, retirez-les tous.",
-		de: "Wirf eine Münze. Bei 'Kopf' schläft dein Aktives Pokémon nicht mehr und ist nicht länger verwirrt, gelähmt oder vergiftet. Entferne zwei Schadensmarken von deinem aktiven Pokémon. Hat es weniger als zwei Schadensmarken, entferne alle."
+		'en-us': "Flip a coin. If heads, your Active Pokémon is no longer Asleep, Confused, Paralyzed, or Poisoned and remove 2 damage counters from it. If your Active Pokémon has fewer damage counters than that, remove all of them.",
+		'fr-fr': "Lancez une pièce. Si c'est face, votre Pokémon Actif n'est plus Endormi, Confus, Paralysé ou Empoisonné, retirez 2 marqueurs de dégâts de votre Pokémon Actif. Si votre Pokémon Actif a moins de marqueurs de dégâts, retirez-les tous.",
+		'de-de': "Wirf eine Münze. Bei 'Kopf' schläft dein Aktives Pokémon nicht mehr und ist nicht länger verwirrt, gelähmt oder vergiftet. Entferne zwei Schadensmarken von deinem aktiven Pokémon. Hat es weniger als zwei Schadensmarken, entferne alle."
 	},
 
 

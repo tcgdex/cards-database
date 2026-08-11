@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カラナクシ",
+		'ja-jp': "カラナクシ",
 		'zh-tw': "無殼海兔",
 		'zh-cn': "無殼海兔",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "磯辺で 見かけることが 多い。 ある程度の 時間であれば 陸上でも 活動できる。",
+		'ja-jp': "磯辺で 見かけることが 多い。 ある程度の 時間であれば 陸上でも 活動できる。",
 		'zh-tw': "經常能在岩岸發現牠的身影。 即使是在陸地上，也有辦法 活動上一定程度的時間。",
 		'zh-cn': "經常能在岩岸發現牠的身影。 即使是在陸地上，也有辦法 活動上一定程度的時間。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "うちみず",
+				'ja-jp': "うちみず",
 				'zh-tw': "潑灑清水",
 				'zh-cn': "潑灑清水",
 			},

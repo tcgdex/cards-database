@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Altaria",
-		fr: "Altaria",
+		'en-us': "Altaria",
+		'fr-fr': "Altaria",
 	},
 
 	illustrator: "Naoki Saito",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Swablu",
-		fr: "Tylton",
+		'en-us': "Swablu",
+		'fr-fr': "Tylton",
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Clear Humming",
-				fr: "Évolution Δ",
+				'en-us': "Clear Humming",
+				'fr-fr': "Évolution Δ",
 			},
 			effect: {
-				en: "Each of your Colorless Pokémon has no Weakness.",
-				fr: "Vous pouvez jouer cette carte de votre main pour faire évoluer un Pokémon pendant votre premier tour ou pendant le tour où vous le jouez.",
+				'en-us': "Each of your Colorless Pokémon has no Weakness.",
+				'fr-fr': "Vous pouvez jouer cette carte de votre main pour faire évoluer un Pokémon pendant votre premier tour ou pendant le tour où vous le jouez.",
 			},
 		},
 	],
@@ -50,8 +50,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-Aile",
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-Aile",
 			},
 
 			damage: 30,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.",
+		'en-us': "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.",
 	},
 
 	thirdParty: {

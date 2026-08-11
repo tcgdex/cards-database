@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pansage"
+		'en-us': "Pansage"
 	},
 
 	illustrator: "Jerky",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "It's good at finding berries and gathers them from\nall over. It's kind enough to share them\nwith friends."
+		'en-us': "It's good at finding berries and gathers them from\nall over. It's kind enough to share them\nwith friends."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Beat"
+			'en-us': "Beat"
 		},
 
 		damage: 10,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Empoleon",
-		fr: "Pingoléon",
-		es: "Empoleon",
-		it: "Empoleon",
-		pt: "Empoleon",
-		de: "Impoleon"
+		'en-us': "Empoleon",
+		'fr-fr': "Pingoléon",
+		'es-es': "Empoleon",
+		'it-it': "Empoleon",
+		'pt-br': "Empoleon",
+		'de-de': "Impoleon"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Prinplup",
-		fr: "Prinplouf",
+		'en-us': "Prinplup",
+		'fr-fr': "Prinplouf",
 	},
 
 	stage: "Stage2",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Recall",
-				fr: "Récupération",
-				es: "Recordar",
-				it: "Memoria",
-				pt: "Recordar",
-				de: "Abruf"
+				'en-us': "Recall",
+				'fr-fr': "Récupération",
+				'es-es': "Recordar",
+				'it-it': "Memoria",
+				'pt-br': "Recordar",
+				'de-de': "Abruf"
 			},
 			effect: {
-				en: "Choose an attack from 1 of this Pokémon’s previous Evolutions and use it as this attack.",
-				fr: "Choisissez une attaque de l’une des précédentes Évolutions de ce Pokémon et utilisez-la en tant que cette attaque.",
-				es: "Elige 1 ataque de 1 de las Evoluciones anteriores de este Pokémon y úsalo para este ataque.",
-				it: "Scegli uno degli attacchi degli stadi evolutivi precedenti di questo Pokémon e usalo al posto di questo attacco.",
-				pt: "Escolha 1 dos ataques das Evoluções anteriores deste Pokémon e use-o como este ataque.",
-				de: "Wähle 1 Attacke aus einer vorangegangenen Entwicklung dieses Pokémon und setze sie als diese Attacke ein."
+				'en-us': "Choose an attack from 1 of this Pokémon’s previous Evolutions and use it as this attack.",
+				'fr-fr': "Choisissez une attaque de l’une des précédentes Évolutions de ce Pokémon et utilisez-la en tant que cette attaque.",
+				'es-es': "Elige 1 ataque de 1 de las Evoluciones anteriores de este Pokémon y úsalo para este ataque.",
+				'it-it': "Scegli uno degli attacchi degli stadi evolutivi precedenti di questo Pokémon e usalo al posto di questo attacco.",
+				'pt-br': "Escolha 1 dos ataques das Evoluções anteriores deste Pokémon e use-o como este ataque.",
+				'de-de': "Wähle 1 Attacke aus einer vorangegangenen Entwicklung dieses Pokémon und setze sie als diese Attacke ein."
 			},
 
 		},
@@ -62,20 +62,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aquafall",
-				fr: "Aquasplash",
-				es: "Catarata",
-				it: "Idrocascata",
-				pt: "Queda d’Água",
-				de: "Aquafall"
+				'en-us': "Aquafall",
+				'fr-fr': "Aquasplash",
+				'es-es': "Catarata",
+				'it-it': "Idrocascata",
+				'pt-br': "Queda d’Água",
+				'de-de': "Aquafall"
 			},
 			effect: {
-				en: "Discard all Energy from this Pokémon.",
-				fr: "Défaussez toute l’Énergie de ce Pokémon.",
-				es: "Descarta todas las Energías de este Pokémon.",
-				it: "Scarta tutte le Energie assegnate a questo Pokémon.",
-				pt: "Descarte toda a Energia deste Pokémon.",
-				de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard all Energy from this Pokémon.",
+				'fr-fr': "Défaussez toute l’Énergie de ce Pokémon.",
+				'es-es': "Descarta todas las Energías de este Pokémon.",
+				'it-it': "Scarta tutte le Energie assegnate a questo Pokémon.",
+				'pt-br': "Descarte toda a Energia deste Pokémon.",
+				'de-de': "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 130,
 
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It swims as fast as a jet boat. The edges of its wings are sharp and can slice apart drifting ice.",
+		'en-us': "It swims as fast as a jet boat. The edges of its wings are sharp and can slice apart drifting ice.",
 	},
 
 	thirdParty: {

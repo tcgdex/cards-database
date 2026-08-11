@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Druddigon",
-		fr: "Drakkarmin",
-		es: "Druddigon",
-		it: "Druddigon",
-		pt: "Druddigon",
-		de: "Shardrago"
+		'en-us': "Druddigon",
+		'fr-fr': "Drakkarmin",
+		'es-es': "Druddigon",
+		'it-it': "Druddigon",
+		'pt-br': "Druddigon",
+		'de-de': "Shardrago"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Big Swing",
-				fr: "Vaste Oscillation",
+				'en-us': "Big Swing",
+				'fr-fr': "Vaste Oscillation",
 			},
 			effect: {
-				en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
-				fr: "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien.",
+				'en-us': "Flip 2 coins. If either of them is tails, this attack does nothing.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien.",
 			},
 			damage: 40,
 
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shred",
-				fr: "Déchiquetage",
+				'en-us': "Shred",
+				'fr-fr': "Déchiquetage",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by any effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Défenseur.",
+				'en-us': "This attack's damage isn't affected by any effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Défenseur.",
 			},
 			damage: 60,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It runs through the narrow tunnels formed by Excadrill and Onix. It uses its sharp claws to catch prey.",
+		'en-us': "It runs through the narrow tunnels formed by Excadrill and Onix. It uses its sharp claws to catch prey.",
 	},
 
 	thirdParty: {

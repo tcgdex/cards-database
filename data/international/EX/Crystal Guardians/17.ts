@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Dusclops",
-		fr: "Teraclope",
-		de: "Zwirrklop"
+		'en-us': "Dusclops",
+		'fr-fr': "Teraclope",
+		'de-de': "Zwirrklop"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Duskull",
-		fr: "Skelenox"
+		'en-us': "Duskull",
+		'fr-fr': "Skelenox"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Cursed Glare",
-				fr: "Regard maléfique",
-				de: "Verfluchender Blick"
+				'en-us': "Cursed Glare",
+				'fr-fr': "Regard maléfique",
+				'de-de': "Verfluchender Blick"
 			},
 			effect: {
-				en: "As long as Dusclops is your Active Pokémon, your opponent can't attach any Special Energy cards (except for Darkness and Metal Energy cards) from his or her hand to his or her Active Pokémon.",
-				fr: "Tant que Teraclope est votre Pokémon Actif, votre adversaire ne peut pas attacher de cartes Énergie spéciale (cartes Énergie  et  exceptées) de sa main à son Pokémon Actif.",
-				de: "Solange Zwirrklop dein Aktives Pokémon ist, kann dein Gegner keine Spezialenergiekarten (außer - und -Energiekarten) von seiner Hand an sein Aktives Pokémon anlegen."
+				'en-us': "As long as Dusclops is your Active Pokémon, your opponent can't attach any Special Energy cards (except for Darkness and Metal Energy cards) from his or her hand to his or her Active Pokémon.",
+				'fr-fr': "Tant que Teraclope est votre Pokémon Actif, votre adversaire ne peut pas attacher de cartes Énergie spéciale (cartes Énergie  et  exceptées) de sa main à son Pokémon Actif.",
+				'de-de': "Solange Zwirrklop dein Aktives Pokémon ist, kann dein Gegner keine Spezialenergiekarten (außer - und -Energiekarten) von seiner Hand an sein Aktives Pokémon anlegen."
 			},
 		},
 	],
@@ -53,9 +53,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Will-o'-the-wisp",
-				fr: "Feu follet",
-				de: "Irrlicht"
+				'en-us': "Will-o'-the-wisp",
+				'fr-fr': "Feu follet",
+				'de-de': "Irrlicht"
 			},
 
 			damage: 30,
@@ -68,14 +68,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic Shield",
-				fr: "Bouclier psychique",
-				de: "Psychoschild"
+				'en-us': "Psychic Shield",
+				'fr-fr': "Bouclier psychique",
+				'de-de': "Psychoschild"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, including damage, done to Dusclops by your opponent's Pokémon-ex during your opponent's next turn.",
-				fr: "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Teraclope par les Pokémon-ex de votre adversaire lors de son prochain tour.",
-				de: "Verhindere während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Zwirrklop von gegnerischen Pokémon-ex zugefügt werden."
+				'en-us': "Prevent all effects of attacks, including damage, done to Dusclops by your opponent's Pokémon-ex during your opponent's next turn.",
+				'fr-fr': "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Teraclope par les Pokémon-ex de votre adversaire lors de son prochain tour.",
+				'de-de': "Verhindere während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Zwirrklop von gegnerischen Pokémon-ex zugefügt werden."
 			},
 			damage: 50,
 

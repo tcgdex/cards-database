@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Dark Pupitar",
-		de: "Dunkles Pupitar"
+		'en-us': "Dark Pupitar",
+		'de-de': "Dunkles Pupitar"
 	},
 
 	illustrator: "Emi Miwa",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Larvitar",
+		'en-us': "Larvitar",
 	},
 
 	stage: "Stage1",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Streak",
-				de: "Dark Streak"
+				'en-us': "Dark Streak",
+				'de-de': "Dark Streak"
 			},
 			effect: {
-				en: "Flip a coin. If heads, each Defending Pokémon is now Paralyzed.",
-				de: "Flip a coin. If heads, each Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, each Defending Pokémon is now Paralyzed.",
+				'de-de': "Flip a coin. If heads, each Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Tumble",
-				de: "Rock Tumble"
+				'en-us': "Rock Tumble",
+				'de-de': "Rock Tumble"
 			},
 			effect: {
-				en: "This attack's damage is not affected by Resistance.",
-				de: "This attack's damage is not affected by Resistance."
+				'en-us': "This attack's damage is not affected by Resistance.",
+				'de-de': "This attack's damage is not affected by Resistance."
 			},
 			damage: 40,
 

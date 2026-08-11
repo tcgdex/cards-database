@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャニーンのクロバット",
+		'ja-jp': "ジャニーンのクロバット",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "超音速",
+				'ja-jp': "超音速",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "スパイラルダイビング",
+				'ja-jp': "スパイラルダイビング",
 			},
 			effect: {
-				ja: "対戦相手の各ポケモンに10ダメージを与えます。衰弱や抵抗を適用しないでください。",
+				'ja-jp': "対戦相手の各ポケモンに10ダメージを与えます。衰弱や抵抗を適用しないでください。",
 			},
 		},
 	],

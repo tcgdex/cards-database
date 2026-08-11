@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pignite",
-		fr: "Grotichon",
-		de: "Ferkokel",
-		it: "Pignite",
-		pt: "Pignite",
-		es: "Pignite",
+		'en-us': "Pignite",
+		'fr-fr': "Grotichon",
+		'de-de': "Ferkokel",
+		'it-it': "Pignite",
+		'pt-br': "Pignite",
+		'es-es': "Pignite",
 		'es-mx': "Pignite"
 	},
 
@@ -21,12 +21,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Tepig",
-		fr: "Gruikui",
-		de: "Floink",
-		it: "Tepig",
-		pt: "Tepig",
-		es: "Tepig",
+		'en-us': "Tepig",
+		'fr-fr': "Gruikui",
+		'de-de': "Floink",
+		'it-it': "Tepig",
+		'pt-br': "Tepig",
+		'es-es': "Tepig",
 		'es-mx': "Tepig"
 	},
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Combustion",
-			fr: "Fournaise",
-			de: "Glühen",
-			it: "Fuoco Continuo",
-			pt: "Combustão",
-			es: "Combustión",
+			'en-us': "Combustion",
+			'fr-fr': "Fournaise",
+			'de-de': "Glühen",
+			'it-it': "Fuoco Continuo",
+			'pt-br': "Combustão",
+			'es-es': "Combustión",
 			'es-mx': "Combustión"
 		},
 
@@ -49,12 +49,12 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Heat Crash",
-			fr: "Tacle Feu",
-			de: "Brandstempel",
-			it: "Marchiafuoco",
-			pt: "Choque de Calor",
-			es: "Golpe Calor",
+			'en-us': "Heat Crash",
+			'fr-fr': "Tacle Feu",
+			'de-de': "Brandstempel",
+			'it-it': "Marchiafuoco",
+			'pt-br': "Choque de Calor",
+			'es-es': "Golpe Calor",
 			'es-mx': "Golpe de Calor"
 		},
 

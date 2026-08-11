@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オドシシ",
+		'ja-jp': "オドシシ",
 	},
 
 	illustrator: "Midori Harada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ツノの 曲がり具合が まわりの 空気の 流れを 微妙に 変え 不思議な 空間を 作り出す。",
+		'ja-jp': "ツノの 曲がり具合が まわりの 空気の 流れを 微妙に 変え 不思議な 空間を 作り出す。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "つのでまどわす" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンに「ポケモンのどうぐ」がついているなら、60ダメージ追加。",
+				'ja-jp': "このポケモンに「ポケモンのどうぐ」がついているなら、60ダメージ追加。",
 			},
 		},
 	],

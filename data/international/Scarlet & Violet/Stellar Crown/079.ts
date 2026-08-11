@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Medicham",
-		fr: "Charmina",
-		es: "Medicham",
-		it: "Medicham",
-		pt: "Medicham",
-		de: "Meditalis"
+		'en-us': "Medicham",
+		'fr-fr': "Charmina",
+		'es-es': "Medicham",
+		'it-it': "Medicham",
+		'pt-br': "Medicham",
+		'de-de': "Meditalis"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Meditite",
-		fr: "Méditikka",
-		es: "Meditite",
-		it: "Meditite",
-		pt: "Meditite",
-		de: "Meditie"
+		'en-us': "Meditite",
+		'fr-fr': "Méditikka",
+		'es-es': "Meditite",
+		'it-it': "Meditite",
+		'pt-br': "Meditite",
+		'de-de': "Meditie"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Double Smash",
-			fr: "Double Broiement",
-			es: "Golpe Doble",
-			it: "Colpo Duplice",
-			pt: "Bordoada Dupla",
-			de: "Doppelstoß"
+			'en-us': "Double Smash",
+			'fr-fr': "Double Broiement",
+			'es-es': "Golpe Doble",
+			'it-it': "Colpo Duplice",
+			'pt-br': "Bordoada Dupla",
+			'de-de': "Doppelstoß"
 		},
 
 		effect: {
-			en: "Flip 2 coins. This attack does 40 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts pour chaque côté face.",
-			es: "Lanza 2 monedas. Este ataque hace 40 puntos de daño por cada cara.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 40 pontos de dano para cada cara.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip 2 coins. This attack does 40 damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 40 dégâts pour chaque côté face.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 40 puntos de daño por cada cara.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 40 pontos de dano para cada cara.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "40×"

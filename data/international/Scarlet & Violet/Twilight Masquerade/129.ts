@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drakloak",
-		fr: "Dispareptil",
-		es: "Drakloak",
-		it: "Drakloak",
-		pt: "Drakloak",
-		de: "Phandra"
+		'en-us': "Drakloak",
+		'fr-fr': "Dispareptil",
+		'es-es': "Drakloak",
+		'it-it': "Drakloak",
+		'pt-br': "Drakloak",
+		'de-de': "Phandra"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Dragon"],
 	evolveFrom: {
-		en: "Dreepy",
-		fr: "Fantyrm",
-		es: "Dreepy",
-		it: "Dreepy",
-		pt: "Dreepy",
-		de: "Grolldra"
+		'en-us': "Dreepy",
+		'fr-fr': "Fantyrm",
+		'es-es': "Dreepy",
+		'it-it': "Dreepy",
+		'pt-br': "Dreepy",
+		'de-de': "Grolldra"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Recon Directive",
-			fr: "Ordre de Reconnaissance",
-			es: "Orden de Búsqueda",
-			it: "Ordine di Ricognizione",
-			pt: "Ordem de Reconhecimento",
-			de: "Erkundungsbefehl"
+			'en-us': "Recon Directive",
+			'fr-fr': "Ordre de Reconnaissance",
+			'es-es': "Orden de Búsqueda",
+			'it-it': "Ordine di Ricognizione",
+			'pt-br': "Ordem de Reconhecimento",
+			'de-de': "Erkundungsbefehl"
 		},
 
 		effect: {
-			en: "Once during your turn, you may look at the top 2 cards of your deck and put 1 of them into your hand. Put the other card on the bottom of your deck.",
-			fr: "Une fois pendant votre tour, vous pouvez regarder les 2 cartes du dessus de votre deck, puis ajouter l'une d'elles à votre main. Placez l'autre carte en dessous de votre deck.",
-			es: "Una vez durante tu turno, puedes mirar las 2 primeras cartas de tu baraja y poner 1 de ellas en tu mano. Pon la otra carta en la parte inferior de tu baraja.",
-			it: "Una sola volta durante il tuo turno, puoi guardare le prime due carte del tuo mazzo e aggiungerne una alle carte che hai in mano. Metti l'altra carta in fondo al tuo mazzo.",
-			pt: "Uma vez durante o seu turno, você poderá olhar as 2 cartas de cima do seu baralho e colocar 1 delas na sua mão. Coloque a outra carta como a carta de baixo do seu baralho.",
-			de: "Einmal während deines Zuges kannst du dir die obersten 2 Karten deines Decks anschauen und 1 von ihnen auf deine Hand nehmen. Lege die andere Karte unter dein Deck."
+			'en-us': "Once during your turn, you may look at the top 2 cards of your deck and put 1 of them into your hand. Put the other card on the bottom of your deck.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez regarder les 2 cartes du dessus de votre deck, puis ajouter l'une d'elles à votre main. Placez l'autre carte en dessous de votre deck.",
+			'es-es': "Una vez durante tu turno, puedes mirar las 2 primeras cartas de tu baraja y poner 1 de ellas en tu mano. Pon la otra carta en la parte inferior de tu baraja.",
+			'it-it': "Una sola volta durante il tuo turno, puoi guardare le prime due carte del tuo mazzo e aggiungerne una alle carte che hai in mano. Metti l'altra carta in fondo al tuo mazzo.",
+			'pt-br': "Uma vez durante o seu turno, você poderá olhar as 2 cartas de cima do seu baralho e colocar 1 delas na sua mão. Coloque a outra carta como a carta de baixo do seu baralho.",
+			'de-de': "Einmal während deines Zuges kannst du dir die obersten 2 Karten deines Decks anschauen und 1 von ihnen auf deine Hand nehmen. Lege die andere Karte unter dein Deck."
 		}
 	}],
 
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Fire", "Psychic"],
 
 		name: {
-			en: "Dragon Headbutt",
-			fr: "Dracoud'Boule",
-			es: "Cabezazo Dragón",
-			it: "Dragozuccata",
-			pt: "Cabeçada do Dragão",
-			de: "Drachen-Kopfnuss"
+			'en-us': "Dragon Headbutt",
+			'fr-fr': "Dracoud'Boule",
+			'es-es': "Cabezazo Dragón",
+			'it-it': "Dragozuccata",
+			'pt-br': "Cabeçada do Dragão",
+			'de-de': "Drachen-Kopfnuss"
 		},
 
 		damage: 70
@@ -69,7 +69,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "This Pokémon stores up energy in its lungs, then shoots it out. It takes care of Dreepy and battles alongside them until they're all grown up.",
+		'en-us': "This Pokémon stores up energy in its lungs, then shoots it out. It takes care of Dreepy and battles alongside them until they're all grown up.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジジーロン",
+		'ja-jp': "ジジーロン",
 	},
 
 	illustrator: "match",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "心優しい 性質。 だが 一度 怒りに かられると 激しい 息吹で あたりを 破壊 し尽くす。",
+		'ja-jp': "心優しい 性質。 だが 一度 怒りに かられると 激しい 息吹で あたりを 破壊 し尽くす。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ためる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある基本エネルギーを1枚、このポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札にある基本エネルギーを1枚、このポケモンにつける。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個、ベンチポケモンにつけ替える。",
+				'ja-jp': "このポケモンについているエネルギーを1個、ベンチポケモンにつけ替える。",
 			},
 		},
 	],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Ekans",
-		fr: "Abo",
-		es: "Ekans",
-		it: "Ekans",
-		pt: "Ekans",
-		de: "Rettan"
+		'en-us': "Ekans",
+		'fr-fr': "Abo",
+		'es-es': "Ekans",
+		'it-it': "Ekans",
+		'pt-br': "Ekans",
+		'de-de': "Rettan"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 20,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest.",
+		'en-us': "The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest.",
 	},
 
 	thirdParty: {

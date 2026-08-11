@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Clauncher",
-		fr: "Flingouste",
-		es: "Clauncher",
-		it: "Clauncher",
-		pt: "Clauncher",
-		de: "Scampisto"
+		'en-us': "Clauncher",
+		'fr-fr': "Flingouste",
+		'es-es': "Clauncher",
+		'it-it': "Clauncher",
+		'pt-br': "Clauncher",
+		'de-de': "Scampisto"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Pani Kobayashi",
 
 	description: {
-		en: "It moves around by jetting water from its right pincer. It has a poor sense of balance, so it's terrible at swimming straight."
+		'en-us': "It moves around by jetting water from its right pincer. It has a poor sense of balance, so it's terrible at swimming straight."
 	},
 
 	attacks: [{
 		cost: ["Water"],
 
 		name: {
-			en: "Water Gun",
-			fr: "Pistolet à O",
-			de: "Aquaknarre",
-			es: "Pistola Agua",
-			pt: "Revólver d'Água",
-			it: "Pistolacqua"
+			'en-us': "Water Gun",
+			'fr-fr': "Pistolet à O",
+			'de-de': "Aquaknarre",
+			'es-es': "Pistola Agua",
+			'pt-br': "Revólver d'Água",
+			'it-it': "Pistolacqua"
 		},
 
 		damage: 10
@@ -50,12 +50,12 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Vise Grip",
-			fr: "Force Poigne",
-			de: "Klammer",
-			es: "Agarre",
-			pt: "Agarramento Compressor",
-			it: "Presa"
+			'en-us': "Vise Grip",
+			'fr-fr': "Force Poigne",
+			'de-de': "Klammer",
+			'es-es': "Agarre",
+			'pt-br': "Agarramento Compressor",
+			'it-it': "Presa"
 		},
 
 		damage: 20

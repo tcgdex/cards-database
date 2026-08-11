@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Houndoom",
-		fr: "Démolosse",
-		de: "Hundemon"
+		'en-us': "Houndoom",
+		'fr-fr': "Démolosse",
+		'de-de': "Hundemon"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Houndour",
-		fr: "Malosse"
+		'en-us': "Houndour",
+		'fr-fr': "Malosse"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Dark Flame",
-				fr: "Flamme obscure",
-				de: "Dark Flame"
+				'en-us': "Dark Flame",
+				'fr-fr': "Flamme obscure",
+				'de-de': "Dark Flame"
 			},
 			effect: {
-				en: "Discard 1 Energy card attached to Houndoom or this attack does nothing. If there are any Energy cards in your discard pile, attach 1 of them to Houndoom.",
-				fr: "Défaussez une carte Énergie  attachée à Démolosse pour utiliser cette attaque. S'il y a des cartes Énergie  dans votre pile de défausse, choisissez-en une et attachez-la à Démolosse.",
-				de: "Discard 1  Energy card attached to Houndoom or this attack does nothing. If there are any  Energy cards in your discard pile, attach 1 of them to Houndoom."
+				'en-us': "Discard 1 Energy card attached to Houndoom or this attack does nothing. If there are any Energy cards in your discard pile, attach 1 of them to Houndoom.",
+				'fr-fr': "Défaussez une carte Énergie  attachée à Démolosse pour utiliser cette attaque. S'il y a des cartes Énergie  dans votre pile de défausse, choisissez-en une et attachez-la à Démolosse.",
+				'de-de': "Discard 1  Energy card attached to Houndoom or this attack does nothing. If there are any  Energy cards in your discard pile, attach 1 of them to Houndoom."
 			},
 			damage: 20,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Black Fang",
-				fr: "Croc noir",
-				de: "Black Fang"
+				'en-us': "Black Fang",
+				'fr-fr': "Croc noir",
+				'de-de': "Black Fang"
 			},
 			effect: {
-				en: "Flip a number of coins equal to the number of Energy attached to Houndoom. This attack does 30 damage plus 10 more damage for each heads.",
-				fr: "Lancez un nombre de pièces égal au nombre d'Énergies  attachées à Démolosse. Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque face.",
-				de: "Flip a number of coins equal to the number of  Energy attached to Houndoom. This attack does 30 damage plus 10 more damage for each heads."
+				'en-us': "Flip a number of coins equal to the number of Energy attached to Houndoom. This attack does 30 damage plus 10 more damage for each heads.",
+				'fr-fr': "Lancez un nombre de pièces égal au nombre d'Énergies  attachées à Démolosse. Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque face.",
+				'de-de': "Flip a number of coins equal to the number of  Energy attached to Houndoom. This attack does 30 damage plus 10 more damage for each heads."
 			},
 			damage: "30+",
 
@@ -79,8 +79,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests.",
-		fr: "Quand ils entendent ses hurlements sinistres, les autres Pokémon ont un frisson dans le dos et ils retournent au nid."
+		'en-us': "Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests.",
+		'fr-fr': "Quand ils entendent ses hurlements sinistres, les autres Pokémon ont un frisson dans le dos et ils retournent au nid."
 	},
 
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Blitzle",
-		fr: "Zébibron",
-		es: "Blitzle",
-		it: "Blitzle",
-		pt: "Blitzle",
-		de: "Elezeba"
+		'en-us': "Blitzle",
+		'fr-fr': "Zébibron",
+		'es-es': "Blitzle",
+		'it-it': "Blitzle",
+		'pt-br': "Blitzle",
+		'de-de': "Elezeba"
 	},
 
 	illustrator: "sui",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Jolt",
-				fr: "Secousse Tonnerre",
+				'en-us': "Thunder Jolt",
+				'fr-fr': "Secousse Tonnerre",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 10 dégâts.",
+				'en-us': "Flip a coin. If tails, this Pokémon does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 10 dégâts.",
 			},
 			damage: 30,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its mane shines when it discharges electricity. They use their flashing manes to communicate with one another.",
+		'en-us': "Its mane shines when it discharges electricity. They use their flashing manes to communicate with one another.",
 	},
 
 	thirdParty: {

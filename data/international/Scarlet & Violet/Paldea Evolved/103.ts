@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Forgella",
-		en: "Tinkatuff",
-		es: "Tinkatuff",
-		it: "Tinkatuff",
-		pt: "Tinkatuff",
-		de: "Tafforgita"
+		'fr-fr': "Forgella",
+		'en-us': "Tinkatuff",
+		'es-es': "Tinkatuff",
+		'it-it': "Tinkatuff",
+		'pt-br': "Tinkatuff",
+		'de-de': "Tafforgita"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 80,
 	types: ["Psychic"],
 	evolveFrom: {
-		fr: "Forgerette",
-		en: "Tinkatink",
-		es: "Tinkatink",
-		it: "Tinkatink",
-		pt: "Tinkatink",
-		de: "Forgita"
+		'fr-fr': "Forgerette",
+		'en-us': "Tinkatink",
+		'es-es': "Tinkatink",
+		'it-it': "Tinkatink",
+		'pt-br': "Tinkatink",
+		'de-de': "Forgita"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Poing Léger",
-			en: "Light Punch",
-			es: "Puño Ligero",
-			it: "Pugnetto",
-			pt: "Soco de Luz",
-			de: "Leichter Hieb"
+			'fr-fr': "Poing Léger",
+			'en-us': "Light Punch",
+			'es-es': "Puño Ligero",
+			'it-it': "Pugnetto",
+			'pt-br': "Soco de Luz",
+			'de-de': "Leichter Hieb"
 		},
 
 		damage: 30
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			fr: "Puissance Illimitée",
-			en: "Boundless Power",
-			es: "Poder Ilimitado",
-			it: "Potere Incontenibile",
-			pt: "Poder Ilimitado",
-			de: "Unbegrenzte Kraft"
+			'fr-fr': "Puissance Illimitée",
+			'en-us': "Boundless Power",
+			'es-es': "Poder Ilimitado",
+			'it-it': "Potere Incontenibile",
+			'pt-br': "Poder Ilimitado",
+			'de-de': "Unbegrenzte Kraft"
 		},
 
 		effect: {
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			en: "During your next turn, this Pokémon can't attack.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 80
@@ -96,7 +96,7 @@ const card: Card = {
 	illustrator: "Akira Komayama",
 
 	description: {
-		en: "This Pokémon will attack groups of Pawniard and Bisharp, gathering metal from them in order to create a large and sturdy hammer.",
+		'en-us': "This Pokémon will attack groups of Pawniard and Bisharp, gathering metal from them in order to create a large and sturdy hammer.",
 	},
 }
 

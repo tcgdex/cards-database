@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Pheromosa",
-		fr: "Cancrelove",
-		es: "Pheromosa",
-		it: "Pheromosa",
-		pt: "Pheromosa",
-		de: "Schabelle"
+		'en-us': "Pheromosa",
+		'fr-fr': "Cancrelove",
+		'es-es': "Pheromosa",
+		'it-it': "Pheromosa",
+		'pt-br': "Pheromosa",
+		'de-de': "Schabelle"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "High Jump Kick",
-				fr: "Pied Voltige",
-				es: "Patada Salto Alta",
-				it: "Calcinvolo",
-				pt: "Chute de Pulo Alto",
-				de: "Turmkick"
+				'en-us': "High Jump Kick",
+				'fr-fr': "Pied Voltige",
+				'es-es': "Patada Salto Alta",
+				'it-it': "Calcinvolo",
+				'pt-br': "Chute de Pulo Alto",
+				'de-de': "Turmkick"
 			},
 
 			damage: 20,
@@ -52,20 +52,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "White Ray",
-				fr: "Rayon Blanc",
-				es: "Rayo Blanco",
-				it: "Raggiobianco",
-				pt: "Raio Branco",
-				de: "Weißer Strahl"
+				'en-us': "White Ray",
+				'fr-fr': "Rayon Blanc",
+				'es-es': "Rayo Blanco",
+				'it-it': "Raggiobianco",
+				'pt-br': "Raio Branco",
+				'de-de': "Weißer Strahl"
 			},
 			effect: {
-				en: "If you have only 1 Prize card remaining, this attack does 90 more damage.",
-				fr: "S’il vous reste exactement 1 carte Récompense, cette attaque inflige 90 dégâts supplémentaires.",
-				es: "Si te queda exactamente 1 carta de Premio, este ataque hace 90 puntos de daño más.",
-				it: "Se hai esattamente una carta Premio rimanente, questo attacco infligge 90 danni in più.",
-				pt: "Se você tiver apenas 1 carta de Prêmio restante, este ataque causará 90 pontos de dano a mais.",
-				de: "Wenn du genau 1 verbleibende Preiskarte hast, fügt diese Attacke 90 Schadenspunkte mehr zu."
+				'en-us': "If you have only 1 Prize card remaining, this attack does 90 more damage.",
+				'fr-fr': "S’il vous reste exactement 1 carte Récompense, cette attaque inflige 90 dégâts supplémentaires.",
+				'es-es': "Si te queda exactamente 1 carta de Premio, este ataque hace 90 puntos de daño más.",
+				'it-it': "Se hai esattamente una carta Premio rimanente, questo attacco infligge 90 danni in più.",
+				'pt-br': "Se você tiver apenas 1 carta de Prêmio restante, este ataque causará 90 pontos de dano a mais.",
+				'de-de': "Wenn du genau 1 verbleibende Preiskarte hast, fügt diese Attacke 90 Schadenspunkte mehr zu."
 			},
 			damage: "90+",
 
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "One of the Ultra Beasts. It refuses to touch anything, perhaps because it senses some uncleanness in this world.",
+		'en-us': "One of the Ultra Beasts. It refuses to touch anything, perhaps because it senses some uncleanness in this world.",
 	},
 
 	thirdParty: {

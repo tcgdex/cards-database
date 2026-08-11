@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Heracross",
-		de: "Skaraborn"
+		'en-us': "Heracross",
+		'de-de': "Skaraborn"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Crust",
-				de: "Crust"
+				'en-us': "Crust",
+				'de-de': "Crust"
 			},
 			effect: {
-				en: "Any damage done to Heracross by attacks from your opponent's Basic Pokémon is reduced by 20 (after applying Weakness and Resistance).",
-				de: "Any damage done to Heracross by attacks from your opponent's Basic Pokémon is reduced by 20 (after applying Weakness and Resistance)."
+				'en-us': "Any damage done to Heracross by attacks from your opponent's Basic Pokémon is reduced by 20 (after applying Weakness and Resistance).",
+				'de-de': "Any damage done to Heracross by attacks from your opponent's Basic Pokémon is reduced by 20 (after applying Weakness and Resistance)."
 			},
 		},
 	],
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Get Even",
-				de: "Get Even"
+				'en-us': "Get Even",
+				'de-de': "Get Even"
 			},
 			effect: {
-				en: "If you have more Prize cards left than your opponent, this attack does 20 damage plus 10 more damage for each Prize card more than your opponent.",
-				de: "If you hace more Prize cards left than your opponent, this attack does 20 damage plus 10 more damage for each Prize card more than your opponent."
+				'en-us': "If you have more Prize cards left than your opponent, this attack does 20 damage plus 10 more damage for each Prize card more than your opponent.",
+				'de-de': "If you hace more Prize cards left than your opponent, this attack does 20 damage plus 10 more damage for each Prize card more than your opponent."
 			},
 			damage: "20+",
 

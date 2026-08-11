@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Litwick"
+		'id-id': "Litwick"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Litwick mengisap vitalitas sambil menyala sebagai penerangan dan berpura-pura memandu jalan."
+		'id-id': "Litwick mengisap vitalitas sambil menyala sebagai penerangan dan berpura-pura memandu jalan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Memanggil Teman"
+			'id-id': "Memanggil Teman"
 		},
 
 		effect: {
-			id: "Pilih 1 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
+			'id-id': "Pilih 1 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
 		},
 
 		cost: ["Fire"]
 	}, {
 		name: {
-			id: "Nyala Api"
+			'id-id': "Nyala Api"
 		},
 
 		damage: 20,

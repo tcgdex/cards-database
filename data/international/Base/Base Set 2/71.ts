@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Diglett",
+		'en-us': "Diglett",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Dig",
+				'en-us': "Dig",
 			},
 
 			damage: 10,
@@ -41,7 +41,7 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mud Slap",
+				'en-us': "Mud Slap",
 			},
 
 			damage: 30,
@@ -64,7 +64,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Lives about three feet underground, where it feeds on plant roots. It sometimes appears above ground.",
+		'en-us': "Lives about three feet underground, where it feeds on plant roots. It sometimes appears above ground.",
 	},
 
 

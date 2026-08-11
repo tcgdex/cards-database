@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒポポタス",
+		'ja-jp': "ヒポポタス",
 		'zh-tw': "沙河馬",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "おもに 昼間に 活動する。 砂漠の夜は 冷えるので 砂の 奥深くに 潜って 眠る。",
+		'ja-jp': "おもに 昼間に 活動する。 砂漠の夜は 冷えるので 砂の 奥深くに 潜って 眠る。",
 		'zh-tw': "主要在白天活動。因為沙漠的夜晚會降溫，所以會鑽進沙子的深處睡覺。",
 	},
 

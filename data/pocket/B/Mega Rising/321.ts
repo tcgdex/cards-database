@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu ex"
+		'en-us': "Pikachu ex"
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -20,14 +20,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Thunderbolt"
+			'en-us': "Thunderbolt"
 		},
 
 		damage: 150,
 		cost: ["Lightning", "Lightning", "Lightning"],
 
 		effect: {
-			en: "Discard all Energy from this Pokémon."
+			'en-us': "Discard all Energy from this Pokémon."
 		}
 	}],
 

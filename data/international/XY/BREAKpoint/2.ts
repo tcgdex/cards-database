@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Bayleef",
-		fr: "Macronium",
-		es: "Bayleef",
-		it: "Bayleef",
-		pt: "Bayleef",
-		de: "Lorblatt"
+		'en-us': "Bayleef",
+		'fr-fr': "Macronium",
+		'es-es': "Bayleef",
+		'it-it': "Bayleef",
+		'pt-br': "Bayleef",
+		'de-de': "Lorblatt"
 	},
 
 	illustrator: "Mizue",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Chikorita",
-		fr: "Germignon",
-		es: "Chikorita",
-		it: "Chikorita",
-		pt: "Chikorita",
-		de: "Endivie"
+		'en-us': "Chikorita",
+		'fr-fr': "Germignon",
+		'es-es': "Chikorita",
+		'it-it': "Chikorita",
+		'pt-br': "Chikorita",
+		'de-de': "Endivie"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam",
-				fr: "Plaquage",
-				es: "Golpe Cuerpo",
-				it: "Corposcontro",
-				pt: "Pancada Corporal",
-				de: "Bodyslam"
+				'en-us': "Body Slam",
+				'fr-fr': "Plaquage",
+				'es-es': "Golpe Cuerpo",
+				'it-it': "Corposcontro",
+				'pt-br': "Pancada Corporal",
+				'de-de': "Bodyslam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vine Whip",
-				fr: "Fouet Lianes",
-				es: "Látigo Cepa",
-				it: "Frustata",
-				pt: "Chicote de Vinha",
-				de: "Rankenhieb"
+				'en-us': "Vine Whip",
+				'fr-fr': "Fouet Lianes",
+				'es-es': "Látigo Cepa",
+				'it-it': "Frustata",
+				'pt-br': "Chicote de Vinha",
+				'de-de': "Rankenhieb"
 			},
 
 			damage: 30,
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The buds that ring its neck give off a spicy aroma that perks people up.",
+		'en-us': "The buds that ring its neck give off a spicy aroma that perks people up.",
 	},
 
 	thirdParty: {

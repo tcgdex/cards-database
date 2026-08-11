@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 3'
 
 const card: Card = {
 	name: {
-		en: "Donphan",
-		fr: "Donphan"
+		'en-us': "Donphan",
+		'fr-fr': "Donphan"
 	},
 
 	illustrator: "Tomoaki Imakuni",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sniff Out",
-				fr: "Flairer"
+				'en-us': "Sniff Out",
+				'fr-fr': "Flairer"
 			},
 			effect: {
-				en: "Put any 1 card from your discard pile into your hand.",
-				fr: "Placez n'importe quelle carte de votre pile de défausse dans votre main."
+				'en-us': "Put any 1 card from your discard pile into your hand.",
+				'fr-fr': "Placez n'importe quelle carte de votre pile de défausse dans votre main."
 			},
 
 		},
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Attack",
-				fr: "Furie"
+				'en-us': "Fury Attack",
+				'fr-fr': "Furie"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
+				'en-us': "Flip 3 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
 			},
 			damage: "30×",
 

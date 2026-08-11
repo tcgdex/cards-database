@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hisuian Qwilfish",
-		fr: "Qwilfish de Hisui",
-		es: "Qwilfish de Hisui",
-		it: "Qwilfish di Hisui",
-		pt: "Qwilfish de Hisui",
-		de: "Hisui-Baldorfish"
+		'en-us': "Hisuian Qwilfish",
+		'fr-fr': "Qwilfish de Hisui",
+		'es-es': "Qwilfish de Hisui",
+		'it-it': "Qwilfish di Hisui",
+		'pt-br': "Qwilfish de Hisui",
+		'de-de': "Hisui-Baldorfish"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 10
@@ -38,12 +38,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Rolling Tackle",
-			fr: "Roulé-Boulé",
-			es: "Placaje Giro",
-			it: "Rollazione",
-			pt: "Golpe de Colisão Rolante",
-			de: "Rolltackle"
+			'en-us': "Rolling Tackle",
+			'fr-fr': "Roulé-Boulé",
+			'es-es': "Placaje Giro",
+			'it-it': "Rollazione",
+			'pt-br': "Golpe de Colisão Rolante",
+			'de-de': "Rolltackle"
 		},
 
 		damage: 30
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Fishers detest this troublesome Pokémon because it sprays poison from its spines, getting it everywhere. A different form of Qwilfish lives in other regions.",
+		'en-us': "Fishers detest this troublesome Pokémon because it sprays poison from its spines, getting it everywhere. A different form of Qwilfish lives in other regions.",
 	},
 
 	variants: [

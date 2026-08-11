@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Latios",
-		fr: "Latios",
+		'en-us': "Latios",
+		'fr-fr': "Latios",
 	},
 
 	illustrator: "Naoki Saito",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Glide",
-				fr: "Glissement",
+				'en-us': "Glide",
+				'fr-fr': "Glissement",
 			},
 
 			damage: 20,
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sky Blade",
-				fr: "Lame Céleste"
+				'en-us': "Sky Blade",
+				'fr-fr': "Lame Céleste"
 			},
 			effect: {
-				en: "If Latias is on your Bench, this attack does 50 more damage.",
-				fr: "Si Latias est sur votre Banc, cette attaque inflige 50 dégâts supplémentaires."
+				'en-us': "If Latias is on your Bench, this attack does 50 more damage.",
+				'fr-fr': "Si Latias est sur votre Banc, cette attaque inflige 50 dégâts supplémentaires."
 			},
 			damage: "70+",
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting.",
+		'en-us': "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting.",
 	},
 
 	thirdParty: {

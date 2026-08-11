@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2017'
 
 const card: Card = {
@@ -7,8 +7,8 @@ const card: Card = {
 	],
 	set: Set,
 	name: {
-		en: "Crabrawler",
-		fr: "Crabagarre",
+		'en-us': "Crabrawler",
+		'fr-fr': "Crabagarre",
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -24,8 +24,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Punch",
-				fr: "Koud'Poing",
+				'en-us': "Punch",
+				'fr-fr': "Koud'Poing",
 			},
 			damage: "20",
 		},
@@ -36,8 +36,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crabhammer",
-				fr: "Pince-Masse",
+				'en-us': "Crabhammer",
+				'fr-fr': "Pince-Masse",
 			},
 			damage: "40",
 		},

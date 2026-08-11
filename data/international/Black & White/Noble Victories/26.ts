@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Carracosta",
-		fr: "Mégapagos",
-		es: "Carracosta",
-		it: "Carracosta",
-		pt: "Carracosta",
-		de: "Karippas"
+		'en-us': "Carracosta",
+		'fr-fr': "Mégapagos",
+		'es-es': "Carracosta",
+		'it-it': "Carracosta",
+		'pt-br': "Carracosta",
+		'de-de': "Karippas"
 	},
 
 	illustrator: "match",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tirtouga",
-		fr: "Carapagos",
+		'en-us': "Tirtouga",
+		'fr-fr': "Carapagos",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Solid Rock",
-				fr: "Solide Roc",
-				es: "Roca Sólida",
-				it: "Solidroccia",
-				pt: "Rocha Sólida",
-				de: "Felskern"
+				'en-us': "Solid Rock",
+				'fr-fr': "Solide Roc",
+				'es-es': "Roca Sólida",
+				'it-it': "Solidroccia",
+				'pt-br': "Rocha Sólida",
+				'de-de': "Felskern"
 			},
 			effect: {
-				en: "If any damage is done to this Pokémon by attacks, flip a coin. If heads, reduce that damage by 50 (after applying Weakness and Resistance).",
-				fr: "Si des dégâts sont infligés à ce Pokémon par des attaques, lancez une pièce. Si c’est face, les dégâts sont réduits de 50 (après application de la Faiblesse et de la Résistance).",
-				es: "Si se inflige cualquier daño a este Pokémon por ataques, lanza una moneda. Si sale cara, reduce ese daño en 50 (después de aplicar Debilidad y Resistencia).",
-				it: "Se questo Pokémon subisce danni da attacchi, lancia una moneta. Se esce testa, i danni sono ridotti di 50, dopo aver applicato debolezza e resistenza.",
-				pt: "Se qualquer dano for causado a este Pokémon por ataques, jogue uma moeda. Se sair cara, reduza os danos em 50 (após aplicar Fraqueza e Resistência).",
-				de: "Wirf 1 Münze, wenn diesem Pokémon durch Angriffe Schaden zugefügt wird. Bei „Kopf“ wird der Schaden um 50 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "If any damage is done to this Pokémon by attacks, flip a coin. If heads, reduce that damage by 50 (after applying Weakness and Resistance).",
+				'fr-fr': "Si des dégâts sont infligés à ce Pokémon par des attaques, lancez une pièce. Si c’est face, les dégâts sont réduits de 50 (après application de la Faiblesse et de la Résistance).",
+				'es-es': "Si se inflige cualquier daño a este Pokémon por ataques, lanza una moneda. Si sale cara, reduce ese daño en 50 (después de aplicar Debilidad y Resistencia).",
+				'it-it': "Se questo Pokémon subisce danni da attacchi, lancia una moneta. Se esce testa, i danni sono ridotti di 50, dopo aver applicato debolezza e resistenza.",
+				'pt-br': "Se qualquer dano for causado a este Pokémon por ataques, jogue uma moeda. Se sair cara, reduza os danos em 50 (após aplicar Fraqueza e Resistência).",
+				'de-de': "Wirf 1 Münze, wenn diesem Pokémon durch Angriffe Schaden zugefügt wird. Bei „Kopf“ wird der Schaden um 50 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -64,12 +64,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crunch",
-				fr: "Mâchouille",
+				'en-us': "Crunch",
+				'fr-fr': "Mâchouille",
 			},
 			effect: {
-				en: "Discard an Energy attached to the Defending Pokémon.",
-				fr: "Défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 80,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "They can live both in the ocean and on land. A slap from one of them is enough to open a hole in the bottom of a tanker.",
+		'en-us': "They can live both in the ocean and on land. A slap from one of them is enough to open a hole in the bottom of a tanker.",
 	},
 
 	thirdParty: {

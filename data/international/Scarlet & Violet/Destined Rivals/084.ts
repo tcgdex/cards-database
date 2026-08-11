@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Steven's Claydol",
-		fr: "Kaorine de Pierre",
-		de: "Troys Lepumentas",
-		it: "Claydol di Rocco",
-		es: "Claydol de Máximo",
-		pt: "Claydol do Steven",
+		'en-us': "Steven's Claydol",
+		'fr-fr': "Kaorine de Pierre",
+		'de-de': "Troys Lepumentas",
+		'it-it': "Claydol di Rocco",
+		'es-es': "Claydol de Máximo",
+		'pt-br': "Claydol do Steven",
 		'es-mx': "Claydol de Steven"
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Steven's Baltoy",
-		fr: "Balbuto de Pierre",
-		de: "Troys Puppance",
-		it: "Baltoy di Rocco",
-		es: "Baltoy de Máximo",
-		pt: "Baltoy do Steven",
+		'en-us': "Steven's Baltoy",
+		'fr-fr': "Balbuto de Pierre",
+		'de-de': "Troys Puppance",
+		'it-it': "Baltoy di Rocco",
+		'es-es': "Baltoy de Máximo",
+		'pt-br': "Baltoy do Steven",
 		'es-mx': "Baltoy de Steven"
 	},
 	stage: "Stage1",
@@ -37,22 +37,22 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Eerie Light",
-			fr: "Lumière Étrange",
-			de: "Gespenstisches Licht",
-			it: "Luci Inquietanti",
-			es: "Luz Lúgubre",
-			pt: "Luz Misteriosa",
+			'en-us': "Eerie Light",
+			'fr-fr': "Lumière Étrange",
+			'de-de': "Gespenstisches Licht",
+			'it-it': "Luci Inquietanti",
+			'es-es': "Luz Lúgubre",
+			'pt-br': "Luz Misteriosa",
 			'es-mx': "Luz Inquietante"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
 			'es-mx': "El Pokémon Activo de tu rival ahora está Confundido."
 		},
 
@@ -61,22 +61,22 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			en: "Clay Blast",
-			fr: "Explosion d'Argile",
-			de: "Lehmdetonation",
-			it: "Esplosione d'Argilla",
-			es: "Explosión de Barro",
-			pt: "Explosão de Argila",
+			'en-us': "Clay Blast",
+			'fr-fr': "Explosion d'Argile",
+			'de-de': "Lehmdetonation",
+			'it-it': "Esplosione d'Argilla",
+			'es-es': "Explosión de Barro",
+			'pt-br': "Explosão de Argila",
 			'es-mx': "Explosión de Barro"
 		},
 
 		effect: {
-			en: "Discard all Energy from this Pokémon.",
-			fr: "Défaussez toutes les Énergies de ce Pokémon.",
-			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel.",
-			it: "Scarta tutte le Energie da questo Pokémon.",
-			es: "Descarta todas las Energías de este Pokémon.",
-			pt: "Descarte todas as Energias deste Pokémon.",
+			'en-us': "Discard all Energy from this Pokémon.",
+			'fr-fr': "Défaussez toutes les Énergies de ce Pokémon.",
+			'de-de': "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel.",
+			'it-it': "Scarta tutte le Energie da questo Pokémon.",
+			'es-es': "Descarta todas las Energías de este Pokémon.",
+			'pt-br': "Descarte todas as Energias deste Pokémon.",
 			'es-mx': "Descarta todas las Energías de este Pokémon."
 		},
 

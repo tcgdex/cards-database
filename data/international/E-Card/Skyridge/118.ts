@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Zubat",
-		de: "Zubat"
+		'en-us': "Zubat",
+		'de-de': "Zubat"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				de: "Flügelschlag"
+				'en-us': "Wing Attack",
+				'de-de': "Flügelschlag"
 			},
 
 			damage: 10,
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Spray",
-				de: "Giftspray"
+				'en-us': "Poison Spray",
+				'de-de': "Giftspray"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				de: "Das verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'de-de': "Das verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 10,
 

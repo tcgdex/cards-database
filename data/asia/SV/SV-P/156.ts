@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミミッキュ",
+		'ja-jp': "ミミッキュ",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "陽の 当たらない 暗がりに 棲む。 人前に 出るときは ピカチュウに 似せた 布で 全身を 隠す。",
+		'ja-jp': "陽の 当たらない 暗がりに 棲む。 人前に 出るときは ピカチュウに 似せた 布で 全身を 隠す。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "しんぴのまもり" },
 			effect: {
-				ja: "このポケモンは、相手の「ポケモンex・V」からワザのダメージを受けない。",
+				'ja-jp': "このポケモンは、相手の「ポケモンex・V」からワザのダメージを受けない。",
 			},
 		},
 	],
@@ -33,7 +33,7 @@ const card: Card = {
 			name: { ja: "ゴーストアイ" },
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンに、ダメカンを7個のせる。",
+				'ja-jp': "相手のバトルポケモンに、ダメカンを7個のせる。",
 			},
 		},
 	],

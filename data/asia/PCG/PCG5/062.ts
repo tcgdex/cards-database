@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スキッティ",
+		'ja-jp': "スキッティ",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "重要な用事",
+				'ja-jp': "重要な用事",
 			},
 			effect: {
-				ja: "デッキを検索してReact Energyカードを検索し、相手に見せて、手に入れてください。その後、デッキをシャッフルします。",
+				'ja-jp': "デッキを検索してReact Energyカードを検索し、相手に見せて、手に入れてください。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ジャンプします",
+				'ja-jp': "ジャンプします",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて20ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて20ダメージを与えます。",
 			},
 		},
 	],

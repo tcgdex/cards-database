@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドーブル",
+		'ja-jp': "ドーブル",
 	},
 
 	illustrator: "REND",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "大人になると 仲間から 背中に 足跡の マークを つけられる 習性を 持つ。",
+		'ja-jp': "大人になると 仲間から 背中に 足跡の マークを つけられる 習性を 持つ。",
 	},
 
 	stage: "Basic",

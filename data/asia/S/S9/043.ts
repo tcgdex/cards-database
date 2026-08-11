@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "天秤偶",
-		ja: "ヤジロン"
+		'ja-jp': "ヤジロン"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "用單腳一邊旋轉一邊移動。有時候也能看到 顛倒過來旋轉的天秤偶。",
-		ja: "一本足で 回転しながら 移動する。 逆さまに なって 回転する ヤジロンも 見かける。"
+		'ja-jp': "一本足で 回転しながら 移動する。 逆さまに なって 回転する ヤジロンも 見かける。"
 	},
 
 	stage: "Basic",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "三重旋轉",
-			ja: "トリプルスピン"
+			'ja-jp': "トリプルスピン"
 		},
 
 		effect: {
 			'zh-tw': "擲3次硬幣，造成正面出現的次數×20點傷害。",
-			ja: "コインを3回投げ、オモテの数×20ダメージ。"
+			'ja-jp': "コインを3回投げ、オモテの数×20ダメージ。"
 		},
 
 		damage: "20×",

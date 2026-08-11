@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グレイシア",
+		'ja-jp': "グレイシア",
 		'zh-tw': "冰伊布",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "体熱を 急低下させる 能力を 有す。 大気 凍らせ 宝石の如き 煌めく 細氷を 舞い躍らせる 現象 起こす。",
+		'ja-jp': "体熱を 急低下させる 能力を 有す。 大気 凍らせ 宝石の如き 煌めく 細氷を 舞い躍らせる 現象 起こす。",
 		'zh-tw': "擁有急速降低體熱的能力。 能凍結大氣，引發細碎冰晶 如同寶石般閃耀飛舞的現象。",
 	},
 
@@ -23,19 +23,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "フロストウォール",
+				'ja-jp': "フロストウォール",
 				'zh-tw': "冰霜堡壘",
 			},
 			damage: 30,
 			cost: ["Water"],
 			effect: {
-				ja: "次の相手の番、このポケモンは進化ポケモンからワザのダメージを受けない。",
+				'ja-jp': "次の相手の番、このポケモンは進化ポケモンからワザのダメージを受けない。",
 				'zh-tw': "在下個對手的回合，這隻寶可夢不會受到進化寶可夢招式的傷害。",
 			},
 		},
 		{
 			name: {
-				ja: "アイスブラスト",
+				'ja-jp': "アイスブラスト",
 				'zh-tw': "冰之爆破",
 			},
 			damage: 120,
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 1,

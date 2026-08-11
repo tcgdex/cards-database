@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Tadbulb"
+		'id-id': "Tadbulb"
 	},
 
 	illustrator: "kirisAki",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Tadbulb menghasilkan listrik dengan menggoyangkan ekornya. Ketika merasakan adanya bahaya, Pokémon ini memberitahukan sesamanya dengan mengedipkan cahaya kepalanya."
+		'id-id': "Tadbulb menghasilkan listrik dengan menggoyangkan ekornya. Ketika merasakan adanya bahaya, Pokémon ini memberitahukan sesamanya dengan mengedipkan cahaya kepalanya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Elektrifikasi"
+			'id-id': "Elektrifikasi"
 		},
 
 		effect: {
-			id: "Pilih 1 lembar Energi Dasar {Listrik} dari Trash sendiri, lalu kenakan pada Pokémon ini."
+			'id-id': "Pilih 1 lembar Energi Dasar {Listrik} dari Trash sendiri, lalu kenakan pada Pokémon ini."
 		},
 
 		cost: ["Lightning"]
 	}, {
 		name: {
-			id: "Bola Petir"
+			'id-id': "Bola Petir"
 		},
 
 		damage: 30,

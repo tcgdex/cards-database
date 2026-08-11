@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Potion"
+		'en-us': "Potion"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -12,7 +12,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Remove up to 2 damage counters from 1 of your Pokémon."
+		'en-us': "Remove up to 2 damage counters from 1 of your Pokémon."
 	},
 
 	variants: [

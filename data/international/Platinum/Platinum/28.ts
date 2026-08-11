@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Giratina",
-		fr: "Giratina",
-		de: "Giratina"
+		'en-us': "Giratina",
+		'fr-fr': "Giratina",
+		'de-de': "Giratina"
 	},
 
 	illustrator: "Yusuke Ishikawa",
@@ -30,9 +30,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Claw",
-				fr: "Dracogriffe",
-				de: "Dragon Claw"
+				'en-us': "Dragon Claw",
+				'fr-fr': "Dracogriffe",
+				'de-de': "Dragon Claw"
 			},
 
 			damage: 30,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragonbreath",
-				fr: "Dracosouffle",
-				de: "Dragonbreath"
+				'en-us': "Dragonbreath",
+				'fr-fr': "Dracosouffle",
+				'de-de': "Dragonbreath"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 80,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It was banished for its violence. It silently gazed upon the old world from the Distortion World."
+		'en-us': "It was banished for its violence. It silently gazed upon the old world from the Distortion World."
 	},
 
 	variants: [		{

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラビフット",
+		'ja-jp': "ラビフット",
 	},
 
 	illustrator: "Narumi Sato",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "ふかふかの 体毛の おかげで 炎エネルギーを 温めやすく さらに 強い 炎を 出せる。",
+		'ja-jp': "ふかふかの 体毛の おかげで 炎エネルギーを 温めやすく さらに 強い 炎を 出せる。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "ヒバニー",
+		'ja-jp': "ヒバニー",
 	},
 
 	retreat: 1,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ソルガレオ",
+		'ja-jp': "ソルガレオ",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "コスモッグが 進化した ♂だと いわれる。 第３の 眼が 浮かぶとき 別世界へと 駆け抜けていく。",
+		'ja-jp': "コスモッグが 進化した ♂だと いわれる。 第３の 眼が 浮かぶとき 別世界へと 駆け抜けていく。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ライジングスター" },
 			cost: ["Metal"],
 			effect: {
-				ja: "自分のトラッシュにある[鋼]エネルギーを、相手の場のポケモンの数ぶん、自分のポケモンに好きなようにつける。",
+				'ja-jp': "自分のトラッシュにある[鋼]エネルギーを、相手の場のポケモンの数ぶん、自分のポケモンに好きなようにつける。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Metal", "Metal", "Metal", "Metal"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Illumise",
-		fr: "Lumivole",
-		es: "Illumise",
-		it: "Illumise",
-		pt: "Illumise",
-		de: "Illumise"
+		'en-us': "Illumise",
+		'fr-fr': "Lumivole",
+		'es-es': "Illumise",
+		'it-it': "Illumise",
+		'pt-br': "Illumise",
+		'de-de': "Illumise"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Pheromone Signals",
-				fr: "Signaux de Phéromones",
-				es: "Señales Feromona",
-				it: "Segnali Feromonici",
-				pt: "Sinais de Feromônio",
-				de: "Pheromon-Signale"
+				'en-us': "Pheromone Signals",
+				'fr-fr': "Signaux de Phéromones",
+				'es-es': "Señales Feromona",
+				'it-it': "Segnali Feromonici",
+				'pt-br': "Sinais de Feromônio",
+				'de-de': "Pheromon-Signale"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent’s Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "With its sweet aroma, it guides Volbeat to draw signs with light in the night sky.",
+		'en-us': "With its sweet aroma, it guides Volbeat to draw signs with light in the night sky.",
 	},
 
 	thirdParty: {

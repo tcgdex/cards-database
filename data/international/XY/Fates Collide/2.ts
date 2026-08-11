@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Burmy",
-		fr: "Cheniti",
-		es: "Burmy",
-		it: "Burmy",
-		pt: "Burmy",
-		de: "Burmy"
+		'en-us': "Burmy",
+		'fr-fr': "Cheniti",
+		'es-es': "Burmy",
+		'it-it': "Burmy",
+		'pt-br': "Burmy",
+		'de-de': "Burmy"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hang Down",
-				fr: "Suspension",
-				es: "Prender",
-				it: "Tirar Giù",
-				pt: "Dependurar",
-				de: "Herunterhängen"
+				'en-us': "Hang Down",
+				'fr-fr': "Suspension",
+				'es-es': "Prender",
+				'it-it': "Tirar Giù",
+				'pt-br': "Dependurar",
+				'de-de': "Herunterhängen"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If its cloak is broken in battle, it quickly remakes the cloak with materials nearby.",
+		'en-us': "If its cloak is broken in battle, it quickly remakes the cloak with materials nearby.",
 	},
 
 	thirdParty: {

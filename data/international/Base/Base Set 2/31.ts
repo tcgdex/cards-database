@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Venomoth",
+		'en-us': "Venomoth",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Venonat",
+		'en-us': "Venonat",
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Shift",
+				'en-us': "Shift",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may change the type of Venomoth to the type of any other Pokémon in play other than Colorless. This power can't be used if Venomoth is Asleep, Confused, or Paralyzed.",
+				'en-us': "Once during your turn (before your attack), you may change the type of Venomoth to the type of any other Pokémon in play other than Colorless. This power can't be used if Venomoth is Asleep, Confused, or Paralyzed.",
 			},
 		},
 	],
@@ -46,10 +46,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Venom Powder",
+				'en-us': "Venom Powder",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.",
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "The dust-like scales covering its wings are color coded to indicate the kinds of poison it has.",
+		'en-us': "The dust-like scales covering its wings are color coded to indicate the kinds of poison it has.",
 	},
 
 

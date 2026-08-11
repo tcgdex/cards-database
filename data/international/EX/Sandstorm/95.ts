@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Aggron ex",
-		fr: "Galeking ex",
-		de: "Stollos ex"
+		'en-us': "Aggron ex",
+		'fr-fr': "Galeking ex",
+		'de-de': "Stollos ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lairon",
-		fr: "Galegon"
+		'en-us': "Lairon",
+		'fr-fr': "Galegon"
 	},
 
 	suffix: "ex",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rend",
-				fr: "Déchirer",
-				de: "Rend"
+				'en-us': "Rend",
+				'fr-fr': "Déchirer",
+				'de-de': "Rend"
 			},
 			effect: {
-				en: "If the Defending Pokémon has any damage counters on it, this attack does 30 damage plus 30 more damage.",
-				fr: "Si le Pokémon Défenseur possède des marqueurs de dégât, cette attaque inflige 60 dégâts.",
-				de: "If the Defending Pokémon has any damage counters on it, this attack does 30 damage plus 30 more damage."
+				'en-us': "If the Defending Pokémon has any damage counters on it, this attack does 30 damage plus 30 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur possède des marqueurs de dégât, cette attaque inflige 60 dégâts.",
+				'de-de': "If the Defending Pokémon has any damage counters on it, this attack does 30 damage plus 30 more damage."
 			},
 			damage: "30+",
 
@@ -58,14 +58,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Surge",
-				fr: "Vague métallique",
-				de: "Metal Surge"
+				'en-us': "Metal Surge",
+				'fr-fr': "Vague métallique",
+				'de-de': "Metal Surge"
 			},
 			effect: {
-				en: "Does 20 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 20 dégâts à chacun des Pokémon du Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
-				de: "Does 20 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for benched Pokémon.))"
+				'en-us': "Does 20 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 20 dégâts à chacun des Pokémon du Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
+				'de-de': "Does 20 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for benched Pokémon.))"
 			},
 			damage: 50,
 

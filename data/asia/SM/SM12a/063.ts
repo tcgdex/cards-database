@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミミッキュ",
+		'ja-jp': "ミミッキュ",
 	},
 
 	illustrator: "Yuka Morii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "大人しい 寂しがり屋 だけど ボロ切れの 中身を 見ようとすると 激しく 嫌がり 抵抗する。",
+		'ja-jp': "大人しい 寂しがり屋 だけど ボロ切れの 中身を 見ようとすると 激しく 嫌がり 抵抗する。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "シャドーボックス" },
 			effect: {
-				ja: "このポケモンがいるかぎり、おたがいの場のダメカンがのっている「ポケモンGX」の特性は、すべてなくなる",
+				'ja-jp': "このポケモンがいるかぎり、おたがいの場のダメカンがのっている「ポケモンGX」の特性は、すべてなくなる",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "インを1回投げオモテなら、相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "インを1回投げオモテなら、相手のバトルポケモンをこんらんにする。",
 			},
 		},
 	],

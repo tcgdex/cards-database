@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カプ・コケコ",
+		'ja-jp': "カプ・コケコ",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "目にも 止まらぬ スピードで 敵を かく乱する。 ひどく 怒りっぽいが なんで 怒ったかは すぐ 忘れる。",
+		'ja-jp': "目にも 止まらぬ スピードで 敵を かく乱する。 ひどく 怒りっぽいが なんで 怒ったかは すぐ 忘れる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "せんじんのまい" },
 			effect: {
-				ja: "このポケモンがベンチにいるなら、自分の番に1回使える。自分のベンチポケモン2匹に、トラッシュにある[雷]エネルギーを1枚ずつつける。その後、このカードをロストゾーンに置く。（ついているカードは、すべてトラッシュする。）",
+				'ja-jp': "このポケモンがベンチにいるなら、自分の番に1回使える。自分のベンチポケモン2匹に、トラッシュにある[雷]エネルギーを1枚ずつつける。その後、このカードをロストゾーンに置く。（ついているカードは、すべてトラッシュする。）",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Doduo",
-		fr: "Doduo",
-		de: "Dodu"
+		'en-us': "Doduo",
+		'fr-fr': "Doduo",
+		'de-de': "Dodu"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				de: "Schnabel"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'de-de': "Schnabel"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Headstrike",
-				fr: "Double coup d’tête",
-				de: "Doppelkopfstoß"
+				'en-us': "Double Headstrike",
+				'fr-fr': "Double coup d’tête",
+				'de-de': "Doppelkopfstoß"
 			},
 			effect: {
-				en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
-				fr: "Lancez 2 pièces. Si vous obtenez un côté pile, cette attaque ne fait rien.",
-				de: "Wirf 2 Münzen. Wenn eine oder beide Münzen \"Zahl\" gezeigt haben, hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip 2 coins. If either of them is tails, this attack does nothing.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez un côté pile, cette attaque ne fait rien.",
+				'de-de': "Wirf 2 Münzen. Wenn eine oder beide Münzen \"Zahl\" gezeigt haben, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 50,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "By alternately raising and lowering its two heads, it balances itself to be more stable while running."
+		'en-us': "By alternately raising and lowering its two heads, it balances itself to be more stable while running."
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hariyama"
+		'en-us': "Hariyama"
 	},
 
 	illustrator: "Scav",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Makuhita"
+		'en-us': "Makuhita"
 	},
 
 	description: {
-		en: "It stomps on the ground to build power.\nIt can send a 10-ton truck flying with a\nstraight-arm punch."
+		'en-us': "It stomps on the ground to build power.\nIt can send a 10-ton truck flying with a\nstraight-arm punch."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Slapping Knockdown"
+			'en-us': "Slapping Knockdown"
 		},
 
 		damage: 110,
 		cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
 
 		effect: {
-			en: "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon."
+			'en-us': "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon."
 		}
 	}],
 

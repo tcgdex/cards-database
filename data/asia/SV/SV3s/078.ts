@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Phanpy"
+		'id-id': "Phanpy"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -14,21 +14,21 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Phanpy membuat sarang dan hidup di pinggir sungai. Pokémon ini tidak merasa tenang jika tidak segera membersihkan tubuhnya setelah bermain di lumpur."
+		'id-id': "Phanpy membuat sarang dan hidup di pinggir sungai. Pokémon ini tidak merasa tenang jika tidak segera membersihkan tubuhnya setelah bermain di lumpur."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Tenaga Super"
+			'id-id': "Tenaga Super"
 		},
 
 		damage: 30,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Tubrukan Menggelinding"
+			'id-id': "Tubrukan Menggelinding"
 		},
 
 		damage: 60,

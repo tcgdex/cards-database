@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Victini",
-		fr: "Victini"
+		'en-us': "Victini",
+		'fr-fr': "Victini"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Assist",
-				fr: "Assistance Énergétique"
+				'en-us': "Energy Assist",
+				'fr-fr': "Assistance Énergétique"
 			},
 			effect: {
-				en: "Flip a coin. If heads, attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, attachez une carte Énergie de base de votre pile de défausse à l'un de vos Pokémon de Banc."
+				'en-us': "Flip a coin. If heads, attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, attachez une carte Énergie de base de votre pile de défausse à l'un de vos Pokémon de Banc."
 			},
 
 		},
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Victory Ball",
-				fr: "Balle Victoire"
+				'en-us': "Victory Ball",
+				'fr-fr': "Balle Victoire"
 			},
 			effect: {
-				en: "Discard a Fire Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie  attachée à ce Pokémon."
+				'en-us': "Discard a Fire Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie  attachée à ce Pokémon."
 			},
 			damage: 50,
 
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When it shares the infinite energy it creates, that being's entire body will be overflowing with power.",
+		'en-us': "When it shares the infinite energy it creates, that being's entire body will be overflowing with power.",
 	},
 
 	thirdParty: {

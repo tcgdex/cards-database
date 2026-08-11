@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Jungle'
 
 const card: Card = {
 	name: {
-		en: "Fearow",
-		fr: "Rapasdepic",
-		de: "Ibitak"
+		'en-us': "Fearow",
+		'fr-fr': "Rapasdepic",
+		'de-de': "Ibitak"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spearow",
-		fr: "Piafabec"
+		'en-us': "Spearow",
+		'fr-fr': "Piafabec"
 	},
 
 	stage: "Stage1",
@@ -38,14 +38,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Agility",
-				fr: "Hâte",
-				de: "Agilität"
+				'en-us': "Agility",
+				'fr-fr': "Hâte",
+				'de-de': "Agilität"
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Fearow.",
-				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Rapasdepic.",
-				de: "Wirf eine Münze. Bei 'Kopf' verhindere während des nächsten gegnerischen Zuges alle Auswirkungen von Angriffen auf Ibitak (einschließlich der Schadenspunkte)."
+				'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Fearow.",
+				'fr-fr': "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Rapasdepic.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' verhindere während des nächsten gegnerischen Zuges alle Auswirkungen von Angriffen auf Ibitak (einschließlich der Schadenspunkte)."
 			},
 			damage: 20,
 
@@ -58,9 +58,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drill Peck",
-				fr: "Bec vrille",
-				de: "Bohrschnabel"
+				'en-us': "Drill Peck",
+				'fr-fr': "Bec vrille",
+				'de-de': "Bohrschnabel"
 			},
 
 			damage: 40,
@@ -83,8 +83,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
-		fr: "Ses ailes géantes lui permettent de planer si longtemps qu'il ne se pose que très rarement."
+		'en-us': "With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
+		'fr-fr': "Ses ailes géantes lui permettent de planer si longtemps qu'il ne se pose que très rarement."
 	},
 
 

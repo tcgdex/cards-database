@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wailord",
-		fr: "Wailord",
-		es: "Wailord",
-		it: "Wailord",
-		pt: "Wailord",
-		de: "Wailord"
+		'en-us': "Wailord",
+		'fr-fr': "Wailord",
+		'es-es': "Wailord",
+		'it-it': "Wailord",
+		'pt-br': "Wailord",
+		'de-de': "Wailord"
 	},
 
 	illustrator: "KIYOTAKA OSHIYAMA",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Wailmer",
-		fr: "Wailmer",
-		es: "Wailmer",
-		it: "Wailmer",
-		pt: "Wailmer",
-		de: "Wailmer"
+		'en-us': "Wailmer",
+		'fr-fr': "Wailmer",
+		'es-es': "Wailmer",
+		'it-it': "Wailmer",
+		'pt-br': "Wailmer",
+		'de-de': "Wailmer"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Bubble Drain",
-			fr: "Vide Bulle",
-			es: "Drenaje Burbujas",
-			it: "Assorbibolla",
-			pt: "Dreno de Bolha",
-			de: "Blasengully"
+			'en-us': "Bubble Drain",
+			'fr-fr': "Vide Bulle",
+			'es-es': "Drenaje Burbujas",
+			'it-it': "Assorbibolla",
+			'pt-br': "Dreno de Bolha",
+			'de-de': "Blasengully"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 80
@@ -57,12 +57,12 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Heavy Impact",
-			fr: "Gros Impact",
-			es: "Impacto Pesado",
-			it: "Impatto Pesante",
-			pt: "Impacto Pesado",
-			de: "Schwerer Einschlag"
+			'en-us': "Heavy Impact",
+			'fr-fr': "Gros Impact",
+			'es-es': "Impacto Pesado",
+			'it-it': "Impatto Pesante",
+			'pt-br': "Impacto Pesado",
+			'de-de': "Schwerer Einschlag"
 		},
 
 		damage: 180
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It can sometimes knock out opponents with the shock created by breaching and crashing its big body onto the water.",
+		'en-us': "It can sometimes knock out opponents with the shock created by breaching and crashing its big body onto the water.",
 	},
 
 	

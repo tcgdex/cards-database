@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2016'
 
 const card: Card = {
@@ -9,7 +9,7 @@ const card: Card = {
 	dexId: [158],
 
 	description: {
-		en: "It is small but rough and tough. It won’t hesitate to take a bite out of anything that moves."
+		'en-us': "It is small but rough and tough. It won’t hesitate to take a bite out of anything that moves."
 	},
 
 	hp: 60,
@@ -19,21 +19,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Fury Strikes",
-			fr: "Attaques Furieuses"
+			'en-us': "Fury Strikes",
+			'fr-fr': "Attaques Furieuses"
 		},
 
 		damage: "10×",
 
 		effect: {
-			en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-			fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtes face."
+			'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads.",
+			'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtes face."
 		}
 	}],
 
 	name: {
-		en: "Totodile",
-		fr: "Kaiminus"
+		'en-us': "Totodile",
+		'fr-fr': "Kaiminus"
 	},
 
 	rarity: "None",

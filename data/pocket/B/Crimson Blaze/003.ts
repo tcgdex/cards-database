@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [3],
 
 	name: {
-		en: "Venusaur"
+		'en-us': "Venusaur"
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Ivysaur"
+		'en-us': "Ivysaur"
 	},
 
 	description: {
-		en: "A bewitching aroma wafts from its flower.\nThe fragrance becalms those engaged\nin a battle."
+		'en-us': "A bewitching aroma wafts from its flower.\nThe fragrance becalms those engaged\nin a battle."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Poisonous Whip"
+			'en-us': "Poisonous Whip"
 		},
 
 		damage: 90,
 		cost: ["Grass", "Grass", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned."
 		}
 	}],
 

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Meowth",
+		'en-us': "Meowth",
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
@@ -28,10 +28,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cat Punch",
+				'en-us': "Cat Punch",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage. If tails and if your opponent has any Benched Pokémon, he or she chooses 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'en-us': "Flip a coin. If heads, this attack does 20 damage. If tails and if your opponent has any Benched Pokémon, he or she chooses 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 20,
 
@@ -53,7 +53,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.",
+		'en-us': "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.",
 	},
 
 	variants: [

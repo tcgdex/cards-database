@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Froakie",
-		fr: "Grenousse",
-		es: "Froakie",
-		it: "Froakie",
-		pt: "Froakie",
-		de: "Froxy"
+		'en-us': "Froakie",
+		'fr-fr': "Grenousse",
+		'es-es': "Froakie",
+		'it-it': "Froakie",
+		'pt-br': "Froakie",
+		'de-de': "Froxy"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Frubbles",
-				fr: "Grebulles",
-				es: "Frurbujas",
-				it: "Frobolle",
-				pt: "Frobolhas",
-				de: "Flubba"
+				'en-us': "Frubbles",
+				'fr-fr': "Grebulles",
+				'es-es': "Frurbujas",
+				'it-it': "Frobolle",
+				'pt-br': "Frobolhas",
+				'de-de': "Flubba"
 			},
 			effect: {
-				en: "If this Pokémon has any Water Energy attached to it, it has no Retreat Cost.",
-				fr: "Si de l’Énergie Water est attachée à ce Pokémon, il n’a pas de coût de Retraite.",
-				es: "Si este Pokémon tiene alguna Energía Water unida a él, no tiene ningún Coste de Retirada.",
-				it: "Se questo Pokémon ha delle Energie Water assegnate, non ha costo di ritirata.",
-				pt: "Se este Pokémon tiver alguma Energia Water ligada a ele, não terá custo de Recuo.",
-				de: "Wenn an dieses Pokémon mindestens 1 Water-Energie angelegt ist, hat es keine Rückzugskosten."
+				'en-us': "If this Pokémon has any Water Energy attached to it, it has no Retreat Cost.",
+				'fr-fr': "Si de l’Énergie Water est attachée à ce Pokémon, il n’a pas de coût de Retraite.",
+				'es-es': "Si este Pokémon tiene alguna Energía Water unida a él, no tiene ningún Coste de Retirada.",
+				'it-it': "Se questo Pokémon ha delle Energie Water assegnate, non ha costo di ritirata.",
+				'pt-br': "Se este Pokémon tiver alguma Energia Water ligada a ele, não terá custo de Recuo.",
+				'de-de': "Wenn an dieses Pokémon mindestens 1 Water-Energie angelegt ist, hat es keine Rückzugskosten."
 			},
 		},
 	],
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flop",
-				fr: "Flop",
-				es: "Vuelta",
-				it: "Tonfo",
-				pt: "Baque",
-				de: "Plumps"
+				'en-us': "Flop",
+				'fr-fr': "Flop",
+				'es-es': "Vuelta",
+				'it-it': "Tonfo",
+				'pt-br': "Baque",
+				'de-de': "Plumps"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
+		'en-us': "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
 	},
 
 	thirdParty: {

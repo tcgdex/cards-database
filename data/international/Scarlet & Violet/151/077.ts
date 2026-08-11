@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Ponyta",
-		en: "Ponyta",
-		es: "Ponyta",
-		it: "Ponyta",
-		pt: "Ponyta",
-		de: "Ponita"
+		'fr-fr': "Ponyta",
+		'en-us': "Ponyta",
+		'es-es': "Ponyta",
+		'it-it': "Ponyta",
+		'pt-br': "Ponyta",
+		'de-de': "Ponita"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			fr: "Collecte",
-			en: "Collect",
-			es: "Coleccionar",
-			it: "Tassa",
-			pt: "Coleta",
-			de: "Sammeln"
+			'fr-fr': "Collecte",
+			'en-us': "Collect",
+			'es-es': "Coleccionar",
+			'it-it': "Tassa",
+			'pt-br': "Coleta",
+			'de-de': "Sammeln"
 		},
 
 		effect: {
-			fr: "Piochez une carte.",
-			en: "Draw a card.",
-			es: "Roba 1 carta.",
-			it: "Pesca una carta.",
-			pt: "Compre uma carta.",
-			de: "Ziehe 1 Karte."
+			'fr-fr': "Piochez une carte.",
+			'en-us': "Draw a card.",
+			'es-es': "Roba 1 carta.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre uma carta.",
+			'de-de': "Ziehe 1 Karte."
 		}
 	}, {
 		cost: ["Fire", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Flop",
-			en: "Flop",
-			es: "Vuelta",
-			it: "Tonfo",
-			pt: "Baque",
-			de: "Plumps"
+			'fr-fr': "Flop",
+			'en-us': "Flop",
+			'es-es': "Vuelta",
+			'it-it': "Tonfo",
+			'pt-br': "Baque",
+			'de-de': "Plumps"
 		},
 
 		damage: 30
@@ -65,7 +65,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "If you've been accepted by Ponyta, its burning mane is mysteriously no longer hot to the touch.",
+		'en-us': "If you've been accepted by Ponyta, its burning mane is mysteriously no longer hot to the touch.",
 	},
 
 	variants: [

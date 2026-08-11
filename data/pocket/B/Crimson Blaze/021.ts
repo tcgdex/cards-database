@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [550],
 
 	name: {
-		en: "Basculin"
+		'en-us': "Basculin"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "Anglers love the fight this Pokémon puts up on\nthe hook. And there are always more to catch—\nmany people release them into lakes illicitly."
+		'en-us': "Anglers love the fight this Pokémon puts up on\nthe hook. And there are always more to catch—\nmany people release them into lakes illicitly."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Surprise Strike"
+			'en-us': "Surprise Strike"
 		},
 
 		damage: 40,
 		cost: ["Water", "Colorless"],
 
 		effect: {
-			en: "If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 40 more damage."
+			'en-us': "If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 40 more damage."
 		}
 	}],
 

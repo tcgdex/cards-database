@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Deoxys",
-		fr: "Deoxys",
-		es: "Deoxys",
-		it: "Deoxys",
-		pt: "Deoxys",
-		de: "Deoxys"
+		'en-us': "Deoxys",
+		'fr-fr': "Deoxys",
+		'es-es': "Deoxys",
+		'it-it': "Deoxys",
+		'pt-br': "Deoxys",
+		'de-de': "Deoxys"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reflect",
-				fr: "Protection",
-				es: "Reflejo",
-				it: "Riflesso",
-				pt: "Refletir",
-				de: "Reflektor"
+				'en-us': "Reflect",
+				'fr-fr': "Protection",
+				'es-es': "Reflejo",
+				'it-it': "Riflesso",
+				'pt-br': "Refletir",
+				'de-de': "Reflektor"
 			},
 			effect: {
-				en: "During your opponent’s next turn, this Pokémon takes 40 less damage from attacks (after applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 40 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-				es: "Durante el próximo turno de tu rival, los ataques hacen 40 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-				it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 40 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-				pt: "Durante a próxima vez de jogar do seu oponente, este Pokémon receberá 40 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
-				de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 40 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "During your opponent’s next turn, this Pokémon takes 40 less damage from attacks (after applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, ce Pokémon subit 40 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+				'es-es': "Durante el próximo turno de tu rival, los ataques hacen 40 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+				'it-it': "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 40 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+				'pt-br': "Durante a próxima vez de jogar do seu oponente, este Pokémon receberá 40 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
+				'de-de': "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 40 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 
 		},
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic Corkscrew",
-				fr: "Vrille Psy",
-				es: "Tirabuzón Psíquico",
-				it: "Diretto Psichico",
-				pt: "Soco Giratório Psíquico",
-				de: "Psycho-Schraube"
+				'en-us': "Psychic Corkscrew",
+				'fr-fr': "Vrille Psy",
+				'es-es': "Tirabuzón Psíquico",
+				'it-it': "Diretto Psichico",
+				'pt-br': "Soco Giratório Psíquico",
+				'de-de': "Psycho-Schraube"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				es: "El daño de este ataque no se ve afectado por Resistencia.",
-				it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-				pt: "O dano deste ataque não é afetado por Resistência.",
-				de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+				'en-us': "This attack’s damage isn’t affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+				'it-it': "I danni di questo attacco non sono influenzati dalla resistenza.",
+				'pt-br': "O dano deste ataque não é afetado por Resistência.",
+				'de-de': "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
 			},
 			damage: 80,
 
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.",
+		'en-us': "DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パラス",
+		'ja-jp': "パラス",
 	},
 
 	illustrator: "Ayako Ozaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "穴を 掘り 木の根っこから 栄養を 取るが ほとんどは 背中の キノコに 奪われる。",
+		'ja-jp': "穴を 掘り 木の根っこから 栄養を 取るが ほとんどは 背中の キノコに 奪われる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Grass"],
 			effect: {
-				ja: "相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。",
+				'ja-jp': "相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。",
 			},
 		},
 	],

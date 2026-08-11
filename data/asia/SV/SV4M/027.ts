@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4M"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "テツノカイナex",
+		'ja-jp': "テツノカイナex",
 		'zh-tw': "鐵臂膀ex",
-		th: "แขนเหล็กex",
-		ko: "무쇠손 ex"
+		'th-th': "แขนเหล็กex",
+		'ko-kr': "무쇠손 ex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -23,10 +23,10 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			ja: "アームプレス",
+			'ja-jp': "アームプレス",
 			'zh-tw': "臂壓制",
-			th: "อาร์มเพรส",
-			ko: "암프레스"
+			'th-th': "อาร์มเพรส",
+			'ko-kr': "암프레스"
 		},
 
 		damage: 160
@@ -34,18 +34,18 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ごっつあんプリファイ",
+			'ja-jp': "ごっつあんプリファイ",
 			'zh-tw': "感激放大",
-			th: "เครื่องขยายขอบใจหลาย",
-			ko: "감사 앰플리파이"
+			'th-th': "เครื่องขยายขอบใจหลาย",
+			'ko-kr': "감사 앰플리파이"
 		},
 
 		damage: 120,
 
 		effect: {
-			ja: "このワザのダメージで、相手のポケモンがきぜつしたなら、サイドを1枚多くとる。",
+			'ja-jp': "このワザのダメージで、相手のポケモンがきぜつしたなら、サイドを1枚多くとる。",
 			'zh-tw': "若對手的寶可夢因這個招式的傷害而【昏厥】了，則多獲得1張獎賞卡。",
-			th: "ถ้าโปเกมอนฝ่ายตรงข้าม[หมดสภาพ] ด้วยแดเมจของท่าต่อสู้นี้แล้ว หยิบการ์ดรางวัลเพิ่ม 1 ใบ"
+			'th-th': "ถ้าโปเกมอนฝ่ายตรงข้าม[หมดสภาพ] ด้วยแดเมจของท่าต่อสู้นี้แล้ว หยิบการ์ดรางวัลเพิ่ม 1 ใบ"
 		}
 	}],
 

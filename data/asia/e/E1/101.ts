@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "おしっこ",
+		'ja-jp': "おしっこ",
 	},
 
 	rarity: "Holo Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "ファウルガス",
+				'ja-jp': "ファウルガス",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。尾の場合、防御ポケモンは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。尾の場合、防御ポケモンは混乱しています。",
 			},
 		},
 		{
 			cost: ["Grass", "Grass", "Colorless"],
 			name: {
-				ja: "失火",
+				'ja-jp': "失火",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、ウィージングに6つのダメージカウンターを入れます。",
+				'ja-jp': "コインをひっくり返します。尾の場合、ウィージングに6つのダメージカウンターを入れます。",
 			},
 			damage: 60,
 		},

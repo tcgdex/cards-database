@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pokémon GO"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bulbasaur",
-		fr: "Bulbizarre",
-		es: "Bulbasaur",
-		it: "Bulbasaur",
-		pt: "Bulbasaur",
-		de: "Bisasam"
+		'en-us': "Bulbasaur",
+		'fr-fr': "Bulbizarre",
+		'es-es': "Bulbasaur",
+		'it-it': "Bulbasaur",
+		'pt-br': "Bulbasaur",
+		'de-de': "Bisasam"
 	},
 
 	illustrator: "sowsow",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Vine Whip",
-			fr: "Fouet Lianes",
-			es: "Látigo Cepa",
-			it: "Frustata",
-			pt: "Chicote de Vinha",
-			de: "Rankenhieb"
+			'en-us': "Vine Whip",
+			'fr-fr': "Fouet Lianes",
+			'es-es': "Látigo Cepa",
+			'it-it': "Frustata",
+			'pt-br': "Chicote de Vinha",
+			'de-de': "Rankenhieb"
 		},
 
 		damage: 10
@@ -38,12 +38,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Razor Leaf",
-			fr: "Tranch'Herbe",
-			es: "Hoja Afilada",
-			it: "Foglielama",
-			pt: "Folha Navalha",
-			de: "Rasierblatt"
+			'en-us': "Razor Leaf",
+			'fr-fr': "Tranch'Herbe",
+			'es-es': "Hoja Afilada",
+			'it-it': "Foglielama",
+			'pt-br': "Folha Navalha",
+			'de-de': "Rasierblatt"
 		},
 
 		damage: 20
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
+		'en-us': "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
 	},
 
 	

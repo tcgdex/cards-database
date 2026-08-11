@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナエトル",
+		'ja-jp': "ナエトル",
 	},
 
 	illustrator: "OKACHEKE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "太陽の 光を 浴びて 全身で 光合成を する。 甲羅は 土が 硬くなったもの。",
+		'ja-jp': "太陽の 光を 浴びて 全身で 光合成を する。 甲羅は 土が 硬くなったもの。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かたいこうら" },
 			effect: {
-				ja: "このポケモンが受けるワザのダメージは「-20」される。",
+				'ja-jp': "このポケモンが受けるワザのダメージは「-20」される。",
 			},
 		},
 	],

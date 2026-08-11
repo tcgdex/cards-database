@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤバソチャex",
+		'ja-jp': "ヤバソチャex",
 	},
 
 	illustrator: "aky CG Works",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "せんじがえし" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュにある「基本[G]エネルギー」をすべて相手に見せ、その枚数×2個ぶんのダメカンを、相手のポケモン1匹にのせる。その後、見せたエネルギーを山札にもどして切る。",
+				'ja-jp': "自分のトラッシュにある「基本[G]エネルギー」をすべて相手に見せ、その枚数×2個ぶんのダメカンを、相手のポケモン1匹にのせる。その後、見せたエネルギーを山札にもどして切る。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "自分のポケモン全員のHPを、それぞれ「30」回復する。",
+				'ja-jp': "自分のポケモン全員のHPを、それぞれ「30」回復する。",
 			},
 		},
 	],
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チャデス",
+		'ja-jp': "チャデス",
 	},
 
 	retreat: 1,

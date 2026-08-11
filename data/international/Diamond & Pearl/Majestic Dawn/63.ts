@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Eevee",
-		fr: "Evoli",
-		de: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Evoli",
+		'de-de': "Evoli"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,9 +29,9 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Gnaw",
-				fr: "Rogne",
-				de: "Nagen"
+				'en-us': "Gnaw",
+				'fr-fr': "Rogne",
+				'de-de': "Nagen"
 			},
 
 			damage: 10,
@@ -42,14 +42,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sand Attack",
-				fr: "Jet de sable",
-				de: "Sandwirbel"
+				'en-us': "Sand Attack",
+				'fr-fr': "Jet de sable",
+				'de-de': "Sandwirbel"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Falls das Verteidigende Pokémon während des nächsen Zuges deines Gegners angreift, wirft dein Gegner eine Münze. Bei 'Kopf' hat dieser Angriff keine Auswirkungen."
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Falls das Verteidigende Pokémon während des nächsen Zuges deines Gegners angreift, wirft dein Gegner eine Münze. Bei 'Kopf' hat dieser Angriff keine Auswirkungen."
 			},
 
 		},
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A rare Pokémon that adapts to harsh environments by taking on different evolutionary forms.",
+		'en-us': "A rare Pokémon that adapts to harsh environments by taking on different evolutionary forms.",
 	},
 
 	thirdParty: {

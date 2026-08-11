@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
 
 	description: {
-		en: "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
+		'en-us': "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
 	},
 
 
 	name: {
-		en: "Deoxys",
-		fr: "Deoxys",
-		es: "Deoxys",
+		'en-us': "Deoxys",
+		'fr-fr': "Deoxys",
+		'es-es': "Deoxys",
 		'es-mx': "Deoxys",
-		de: "Deoxys",
-		it: "Deoxys",
-		pt: "Deoxys"
+		'de-de': "Deoxys",
+		'it-it': "Deoxys",
+		'pt-br': "Deoxys"
 	},
 
 	illustrator: "hncl",
@@ -29,26 +29,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Psyspeed",
-			fr: "Vitesse Psy",
-			es: "Psicovelocidad",
+			'en-us': "Psyspeed",
+			'fr-fr': "Vitesse Psy",
+			'es-es': "Psicovelocidad",
 			'es-mx': "Psicovelocidad",
-			de: "Psytempo",
-			it: "Velocità Psichica",
-			pt: "Velocidade Psíquica"
+			'de-de': "Psytempo",
+			'it-it': "Velocità Psichica",
+			'pt-br': "Velocidade Psíquica"
 		},
 
 		cost: ["Psychic"],
 		damage: 30,
 
 		effect: {
-			en: "You may draw cards until you have 5 cards in your hand.",
-			fr: "Vous pouvez piocher des cartes jusqu'à en avoir 5 en main.",
-			es: "Puedes robar cartas hasta tener 5 cartas en tu mano.",
+			'en-us': "You may draw cards until you have 5 cards in your hand.",
+			'fr-fr': "Vous pouvez piocher des cartes jusqu'à en avoir 5 en main.",
+			'es-es': "Puedes robar cartas hasta tener 5 cartas en tu mano.",
 			'es-mx': "Puedes robar cartas hasta que tengas 5 cartas en tu mano.",
-			de: "Du kannst so lange Karten ziehen, bis du 5 Karten auf deiner Hand hast.",
-			it: "Puoi pescare fino ad avere cinque carte in mano.",
-			pt: "Você pode comprar cartas até ter 5 cartas na sua mão."
+			'de-de': "Du kannst so lange Karten ziehen, bis du 5 Karten auf deiner Hand hast.",
+			'it-it': "Puoi pescare fino ad avere cinque carte in mano.",
+			'pt-br': "Você pode comprar cartas até ter 5 cartas na sua mão."
 		}
 	}],
 

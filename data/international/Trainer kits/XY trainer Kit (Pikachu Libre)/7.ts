@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY trainer Kit (Pikachu Libre)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Taillow",
-		fr: "Nirondelle",
-		es: "Taillow",
-		it: "Taillow",
-		pt: "Taillow",
-		de: "Schwalbini"
+		'en-us': "Taillow",
+		'fr-fr': "Nirondelle",
+		'es-es': "Taillow",
+		'it-it': "Taillow",
+		'pt-br': "Taillow",
+		'de-de': "Schwalbini"
 	},
 
 	rarity: "None",
@@ -23,20 +23,20 @@ const card: Card = {
 	illustrator: "Atsuko Nishida",
 
 	description: {
-		en: "It dislikes cold seasons. They migrate to other lands in search of warmth, flying over 180 miles a day."
+		'en-us': "It dislikes cold seasons. They migrate to other lands in search of warmth, flying over 180 miles a day."
 	},
 
 	attacks: [{
 		name: {
-			en: "Double Peck",
-			fr: "Double Picpic"
+			'en-us': "Double Peck",
+			'fr-fr': "Double Picpic"
 		},
 
 		damage: "10×",
 
 		effect: {
-			en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face."
+			'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face."
 		}
 	}],
 

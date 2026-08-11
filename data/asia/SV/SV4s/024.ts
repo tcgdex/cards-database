@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Charcadet"
+		'id-id': "Charcadet"
 	},
 
 	illustrator: "kantaro",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Jiwa bersemayam ke dalam arang terbakar, lalu berubah menjadi Pokémon. Dengan semangat bertarung yang membara, Charcadet menantang pertarungan meskipun dengan lawan yang kuat."
+		'id-id': "Jiwa bersemayam ke dalam arang terbakar, lalu berubah menjadi Pokémon. Dengan semangat bertarung yang membara, Charcadet menantang pertarungan meskipun dengan lawan yang kuat."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Proteksi"
+			'id-id': "Proteksi"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, pada giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan dan efek akibat serangan."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, pada giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan dan efek akibat serangan."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Magma Punch"
+			'id-id': "Magma Punch"
 		},
 
 		damage: 20,

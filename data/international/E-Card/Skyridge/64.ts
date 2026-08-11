@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Heracross",
-		de: "Skaraborn"
+		'en-us': "Heracross",
+		'de-de': "Skaraborn"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,8 +29,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 20,
@@ -44,13 +44,13 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Angry Horn",
-				de: "Wütendes Horn"
+				'en-us': "Angry Horn",
+				'de-de': "Wütendes Horn"
 			},
 
 			effect: {
-				en: "If there are 4 or more damage counters on Heracross, this attack's base damage is 50 instead of 30.",
-				de: "Liegen auf Skaraborn 4 oder mehr Schadensmarken, beträgt der Basisschaden dieses Angriffs 50 anstatt 30."
+				'en-us': "If there are 4 or more damage counters on Heracross, this attack's base damage is 50 instead of 30.",
+				'de-de': "Liegen auf Skaraborn 4 oder mehr Schadensmarken, beträgt der Basisschaden dieses Angriffs 50 anstatt 30."
 			},
 
 			damage: 30,

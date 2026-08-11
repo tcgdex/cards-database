@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Starmie",
-		fr: "Staross",
-		de: "Starmie"
+		'en-us': "Starmie",
+		'fr-fr': "Staross",
+		'de-de': "Starmie"
 	},
 
 	illustrator: undefined,
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Staryu",
-		fr: "Stari"
+		'en-us': "Staryu",
+		'fr-fr': "Stari"
 	},
 
 	stage: "Stage1",
@@ -37,15 +37,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde folie",
-				de: "Confuse Ray"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde folie",
+				'de-de': "Confuse Ray"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 
 			damage: 10
@@ -57,14 +57,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Core Stream",
-				fr: "Courant central",
-				de: "Core Stream"
+				'en-us': "Core Stream",
+				'fr-fr': "Courant central",
+				'de-de': "Core Stream"
 			},
 			effect: {
-				en: "Choose an Energy type other than . This attack does 20 damage to each of your opponent's Pokémon with any Energy cards of that type attached to it. Don't apply Weakness and Resistance.",
-				fr: "Choisissez un type d'Énergie autre que . Cette attaque inflige 20 dégâts à chaque Pokémon de votre adversaire possédant des cartes d'Énergie de ce type. N'appliquez ni la Faiblesse ni la Résistance.",
-				de: "Choose an Energy type other than . This attack does 20 damage to each of your opponent´s Pokémon with any Energy cards of that type attached to it. Don´t apply Weakness and Resistance."
+				'en-us': "Choose an Energy type other than . This attack does 20 damage to each of your opponent's Pokémon with any Energy cards of that type attached to it. Don't apply Weakness and Resistance.",
+				'fr-fr': "Choisissez un type d'Énergie autre que . Cette attaque inflige 20 dégâts à chaque Pokémon de votre adversaire possédant des cartes d'Énergie de ce type. N'appliquez ni la Faiblesse ni la Résistance.",
+				'de-de': "Choose an Energy type other than . This attack does 20 damage to each of your opponent´s Pokémon with any Energy cards of that type attached to it. Don´t apply Weakness and Resistance."
 			}
 
 		},
@@ -80,8 +80,8 @@ const card: Card = {
 
 
 	description: {
-		en: "The center section of its body is called the core. It glows in a different color each time it is seen.",
-		fr: "La section centrale de son corps est appelée \"cœur\". Elle luit d'une couleur différente à chaque fois qu'on la contemple."
+		'en-us': "The center section of its body is called the core. It glows in a different color each time it is seen.",
+		'fr-fr': "La section centrale de son corps est appelée \"cœur\". Elle luit d'une couleur différente à chaque fois qu'on la contemple."
 	},
 
 

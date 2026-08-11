@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クリーフ",
+		'ja-jp': "クリーフ",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "doubleslap",
+				'ja-jp': "doubleslap",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "二乗",
+				'ja-jp': "二乗",
 			},
 			effect: {
-				ja: "プレイ中のポケモンの総数に等しい多数のコインをひっくり返します。各ヘッドについて、デッキを検索して基本的なエネルギーカードを検索し、相手に見せて、手に渡すことができます。その後、デッキをシャッフルします。",
+				'ja-jp': "プレイ中のポケモンの総数に等しい多数のコインをひっくり返します。各ヘッドについて、デッキを検索して基本的なエネルギーカードを検索し、相手に見せて、手に渡すことができます。その後、デッキをシャッフルします。",
 			},
 		},
 	],

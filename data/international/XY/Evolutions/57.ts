@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Machop",
-		fr: "Machoc",
-		es: "Machop",
-		it: "Machop",
-		pt: "Machop",
-		de: "Machollo"
+		'en-us': "Machop",
+		'fr-fr': "Machoc",
+		'es-es': "Machop",
+		'it-it': "Machop",
+		'pt-br': "Machop",
+		'de-de': "Machollo"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Dual Chop",
-				fr: "Double Baffe",
-				es: "Golpe Bis",
-				it: "Doppiocolpo",
-				pt: "Pancada Dupla",
-				de: "Doppelhieb"
+				'en-us': "Dual Chop",
+				'fr-fr': "Double Baffe",
+				'es-es': "Golpe Bis",
+				'it-it': "Doppiocolpo",
+				'pt-br': "Pancada Dupla",
+				'de-de': "Doppelhieb"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
-				es: "Lanza 2 monedas. Este ataque hace 20 puntos de daño por cada cara.",
-				it: "Lancia due volte una moneta. Questo attacco infligge 20 danni ogni volta che esce testa.",
-				pt: "Jogue 2 moedas. Este ataque causa 20 de danos vezes o número de caras.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 20 puntos de daño por cada cara.",
+				'it-it': "Lancia due volte una moneta. Questo attacco infligge 20 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 2 moedas. Este ataque causa 20 de danos vezes o número de caras.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "20×",
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its whole body is composed of muscles. Even though it's the size of a human child, it can hurl 100 grown-ups.",
+		'en-us': "Its whole body is composed of muscles. Even though it's the size of a human child, it can hurl 100 grown-ups.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メルタン",
+		'ja-jp': "メルタン",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "とろりと 溶けた 鋼の 体。 地中の 鉄分や 金属を 溶かして 吸収する。",
+		'ja-jp': "とろりと 溶けた 鋼の 体。 地中の 鉄分や 金属を 溶かして 吸収する。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Metal"],
 			effect: {
-				ja: "相手のバトルポケモンが[鋼]ポケモンなら、40ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが[鋼]ポケモンなら、40ダメージ追加。",
 			},
 		},
 	],

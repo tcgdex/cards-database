@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Mentali",
-		en: "Espeon",
-		es: "Espeon",
-		it: "Espeon",
-		pt: "Espeon",
-		de: "Psiana"
+		'fr-fr': "Mentali",
+		'en-us': "Espeon",
+		'es-es': "Espeon",
+		'it-it': "Espeon",
+		'pt-br': "Espeon",
+		'de-de': "Psiana"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Psychic"],
 	evolveFrom: {
-		fr: "Évoli",
-		en: "Eevee",
-		es: "Eevee",
-		it: "Eevee",
-		pt: "Eevee",
-		de: "Evoli"
+		'fr-fr': "Évoli",
+		'en-us': "Eevee",
+		'es-es': "Eevee",
+		'it-it': "Eevee",
+		'pt-br': "Eevee",
+		'de-de': "Evoli"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			fr: "Assaut Psychique",
-			en: "Psychic Assault",
-			es: "Asalto Psíquico",
-			it: "Psicoassalto",
-			pt: "Ataque Psíquico",
-			de: "Psycho-Ansturm"
+			'fr-fr': "Assaut Psychique",
+			'en-us': "Psychic Assault",
+			'es-es': "Asalto Psíquico",
+			'it-it': "Psicoassalto",
+			'pt-br': "Ataque Psíquico",
+			'de-de': "Psycho-Ansturm"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
-			en: "This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.",
-			es: "Este ataque hace 10 puntos de daño más por cada contador de daño en el Pokémon Activo de tu rival.",
-			it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente sul Pokémon attivo del tuo avversario.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano no Pokémon Ativo do seu oponente.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu."
+			'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
+			'en-us': "This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.",
+			'es-es': "Este ataque hace 10 puntos de daño más por cada contador de daño en el Pokémon Activo de tu rival.",
+			'it-it': "Questo attacco infligge 10 danni in più per ogni segnalino danno presente sul Pokémon attivo del tuo avversario.",
+			'pt-br': "Este ataque causa 10 pontos de dano a mais para cada contador de dano no Pokémon Ativo do seu oponente.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			fr: "Choc Mental",
-			en: "Psy Bolt",
-			es: "Rayo Psi",
-			it: "Psico",
-			pt: "Raio Psíquico",
-			de: "Mentale Blockade"
+			'fr-fr': "Choc Mental",
+			'en-us': "Psy Bolt",
+			'es-es': "Rayo Psi",
+			'it-it': "Psico",
+			'pt-br': "Raio Psíquico",
+			'de-de': "Mentale Blockade"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		},
 
 		damage: 60
@@ -90,7 +90,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "The tip of its forked tail quivers when it is predicting its opponent's next move.",
+		'en-us': "The tip of its forked tail quivers when it is predicting its opponent's next move.",
 	},
 
 	variants: [

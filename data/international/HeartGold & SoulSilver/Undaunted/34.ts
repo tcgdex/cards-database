@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Raticate",
-		fr: "Rattatac",
-		de: "Rattikarl"
+		'en-us': "Raticate",
+		'fr-fr': "Rattatac",
+		'de-de': "Rattikarl"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rattata",
-		fr: "Rattata"
+		'en-us': "Rattata",
+		'fr-fr': "Rattata"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor-Sharp Incisors",
-				fr: "Incisives aiguisées",
-				de: "Scharfe Schneidezähne"
+				'en-us': "Razor-Sharp Incisors",
+				'fr-fr': "Incisives aiguisées",
+				'de-de': "Scharfe Schneidezähne"
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on the Defending Pokémon.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur le Pokémon Défenseur.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf dem Verteidigenden Pokémon zu."
+				'en-us': "Does 10 damage times the number of damage counters on the Defending Pokémon.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur le Pokémon Défenseur.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf dem Verteidigenden Pokémon zu."
 			},
 			damage: "10×",
 
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw Up",
-				fr: "Rongetout",
-				de: "Zernagen"
+				'en-us': "Gnaw Up",
+				'fr-fr': "Rongetout",
+				'de-de': "Zernagen"
 			},
 			effect: {
-				en: "Discard a Special Energy card attached to the Defending Pokémon.",
-				fr: "Défaussez une carte Énergie spéciale attachée au Pokémon Défenseur.",
-				de: "Lege 1 Spezialenergiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				'en-us': "Discard a Special Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Défaussez une carte Énergie spéciale attachée au Pokémon Défenseur.",
+				'de-de': "Lege 1 Spezialenergiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Its whiskers help it to maintain balance. Its fangs never stop growing, so it gnaws to pare them down."
+		'en-us': "Its whiskers help it to maintain balance. Its fangs never stop growing, so it gnaws to pare them down."
 	},
 
 	variants: [

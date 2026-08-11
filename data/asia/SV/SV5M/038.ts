@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チャーレム",
+		'ja-jp': "チャーレム",
 		'zh-tw': "恰雷姆",
-		th: "ชาเรม",
+		'th-th': "ชาเรม",
 	},
 
 	illustrator: "Masako Tomii",
@@ -15,9 +15,9 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ダンスのような 優雅な 動きで 攻撃を かわして 強烈な 一撃を 相手に お見舞いする。",
+		'ja-jp': "ダンスのような 優雅な 動きで 攻撃を かわして 強烈な 一撃を 相手に お見舞いする。",
 		'zh-tw': "會用跳舞般的優雅動作在躲避攻擊的同時 用強烈的一擊招呼對手。",
-		th: "หลบหลีกการโจมตีอย่างสง่างามราวร่ายรำ แล้วสวนกลับอีกฝ่ายอย่างรุนแรง",
+		'th-th': "หลบหลีกการโจมตีอย่างสง่างามราวร่ายรำ แล้วสวนกลับอีกฝ่ายอย่างรุนแรง",
 	},
 
 	stage: "Stage1",
@@ -25,18 +25,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ローキック",
+				'ja-jp': "ローキック",
 				'zh-tw': "下盤踢",
-				th: "เตะต่ำ",
+				'th-th': "เตะต่ำ",
 			},
 			damage: 40,
 			cost: ["Fighting"],
 		},
 		{
 			name: {
-				ja: "とびひざげり",
+				'ja-jp': "とびひざげり",
 				'zh-tw': "飛膝踢",
-				th: "กระโดดแทงเข่า",
+				'th-th': "กระโดดแทงเข่า",
 			},
 			damage: 110,
 			cost: ["Colorless", "Colorless", "Colorless"],
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アサナン",
+		'ja-jp': "アサナン",
 	},
 
 	retreat: 1,

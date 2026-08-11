@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S12"
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "垃垃藻",
-		th: "คูซูโม",
-		ja: "クズモー"
+		'th-th': "คูซูโม",
+		'ja-jp': "クズモー"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -17,8 +17,8 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "會混在海藻屑裡漂浮在大海，並且捕獵來吃海藻的寶可夢， 當作大餐飽吃一頓。",
-		th: "ลอยอยู่ในทะเลปะปนไปกับเศษสาหร่าย เพื่อคอยล่าโปเกมอนที่มากินสาหร่ายเอาไว้เป็นลาภปาก",
-		ja: "藻屑に 紛れて 海を 漂い 海藻を 食べに来た ポケモンを しとめて ご馳走に するのだ。"
+		'th-th': "ลอยอยู่ในทะเลปะปนไปกับเศษสาหร่าย เพื่อคอยล่าโปเกมอนที่มากินสาหร่ายเอาไว้เป็นลาภปาก",
+		'ja-jp': "藻屑に 紛れて 海を 漂い 海藻を 食べに来た ポケモンを しとめて ご馳走に するのだ。"
 	},
 
 	stage: "Basic",
@@ -26,8 +26,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "撞擊",
-			th: "พุ่งเข้าชน",
-			ja: "たいあたり"
+			'th-th': "พุ่งเข้าชน",
+			'ja-jp': "たいあたり"
 		},
 
 		damage: 10,
@@ -35,8 +35,8 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "溶解",
-			th: "หลอมละลาย",
-			ja: "とかす"
+			'th-th': "หลอมละลาย",
+			'ja-jp': "とかす"
 		},
 
 		damage: 20,

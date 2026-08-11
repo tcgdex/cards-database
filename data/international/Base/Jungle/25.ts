@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Jungle'
 
 const card: Card = {
 	name: {
-		en: "Pinsir",
-		fr: "Scarabrute",
-		de: "Pinsir"
+		'en-us': "Pinsir",
+		'fr-fr': "Scarabrute",
+		'de-de': "Pinsir"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Irongrip",
-				fr: "Poing de fer",
-				de: "Eiserner Griff"
+				'en-us': "Irongrip",
+				'fr-fr': "Poing de fer",
+				'de-de': "Eiserner Griff"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon jetzt gelähmt"
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon jetzt gelähmt"
 			},
 			damage: 20,
 
@@ -52,9 +52,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Guillotine",
-				fr: "Guillotine",
-				de: "Guillotine"
+				'en-us': "Guillotine",
+				'fr-fr': "Guillotine",
+				'de-de': "Guillotine"
 			},
 
 			damage: 50,
@@ -72,8 +72,8 @@ const card: Card = {
 
 
 	description: {
-		en: "If it fails to crush the victim in its pincers, it will swing its victim around and toss it hard.",
-		fr: "Quand il ne peut écraser sa proie avec sa pince, il la secoue et l'envoie dans les airs."
+		'en-us': "If it fails to crush the victim in its pincers, it will swing its victim around and toss it hard.",
+		'fr-fr': "Quand il ne peut écraser sa proie avec sa pince, il la secoue et l'envoie dans les airs."
 	},
 
 

@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "わるいオコリザル",
+		'ja-jp': "わるいオコリザル",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "狂乱",
+				'ja-jp': "狂乱",
 			},
 			effect: {
-				ja: "Dark Primeapeが混乱している間にダメージを与えた場合（それ自体が）</em> </em>であれば、30回のダメージを与えます。",
+				'ja-jp': "Dark Primeapeが混乱している間にダメージを与えた場合（それ自体が）</em> </em>であれば、30回のダメージを与えます。",
 			},
 		}],
 
@@ -30,10 +30,10 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Fighting"],
 			name: {
-				ja: "熱狂的な攻撃",
+				'ja-jp': "熱狂的な攻撃",
 			},
 			effect: {
-				ja: "ダークプライムエーテは現在混乱しています（ダメージを受けた後）。",
+				'ja-jp': "ダークプライムエーテは現在混乱しています（ダメージを受けた後）。",
 			},
 			damage: 40,
 		},

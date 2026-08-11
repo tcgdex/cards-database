@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gligar",
-		fr: "Scorplane"
+		'en-us': "Gligar",
+		'fr-fr': "Scorplane"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It usually clings to cliffs. When it spots its prey,\nit spreads its wings and glides down to attack.",
-		fr: "Il s'accroche souvent aux falaises. Sa proie repérée, il plane vers elle pour l'attaquer."
+		'en-us': "It usually clings to cliffs. When it spots its prey,\nit spreads its wings and glides down to attack.",
+		'fr-fr': "Il s'accroche souvent aux falaises. Sa proie repérée, il plane vers elle pour l'attaquer."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Glide",
-			fr: "Glissement"
+			'en-us': "Glide",
+			'fr-fr': "Glissement"
 		},
 
 		damage: 10,

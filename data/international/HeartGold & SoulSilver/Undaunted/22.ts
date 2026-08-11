@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Tropius",
-		fr: "Tropius",
-		de: "Tropius"
+		'en-us': "Tropius",
+		'fr-fr': "Tropius",
+		'de-de': "Tropius"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Fresh-Picked Fruit",
-				fr: "Fruit frais",
-				de: "Frisches Obst"
+				'en-us': "Fresh-Picked Fruit",
+				'fr-fr': "Fruit frais",
+				'de-de': "Frisches Obst"
 			},
 			effect: {
-				en: "Remove 6 damage counters from 1 of your Benched Pokémon.",
-				fr: "Retirez 6 marqueurs de dégât à l’un des Pokémon de votre Banc.",
-				de: "Entferne 6 Schadensmarken von 1 Pokémon auf deiner Bank."
+				'en-us': "Remove 6 damage counters from 1 of your Benched Pokémon.",
+				'fr-fr': "Retirez 6 marqueurs de dégât à l’un des Pokémon de votre Banc.",
+				'de-de': "Entferne 6 Schadensmarken von 1 Pokémon auf deiner Bank."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cutting Wind",
-				fr: "Vent glacial",
-				de: "Schneidender Wind"
+				'en-us': "Cutting Wind",
+				'fr-fr': "Vent glacial",
+				'de-de': "Schneidender Wind"
 			},
 
 			damage: 40,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The bunch of fruit around its neck ripens twice a year and is delicious. It’s a highly favored tropical snack."
+		'en-us': "The bunch of fruit around its neck ripens twice a year and is delicious. It’s a highly favored tropical snack."
 	},
 
 	variants: [

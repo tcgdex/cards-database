@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Starmie",
-		fr: "Staross",
-		de: "Starmie"
+		'en-us': "Starmie",
+		'fr-fr': "Staross",
+		'de-de': "Starmie"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Staryu",
-		fr: "Stari"
+		'en-us': "Staryu",
+		'fr-fr': "Stari"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Cosmic Cyclone",
-				fr: "Cyclone cosmique",
-				de: "Kosmischer Wirbelsturm"
+				'en-us': "Cosmic Cyclone",
+				'fr-fr': "Cyclone cosmique",
+				'de-de': "Kosmischer Wirbelsturm"
 			},
 			effect: {
-				en: "Choose as many Water Energy attached to your Pokémon as you like. This attack does 20 damage times the number of Energy you chose. Shuffle those cards back into your deck.",
-				fr: "Choisissez autant de cartes Énergie Water attachées à votre Pokémon que vous le souhaitez. Cette attaque inflige 20 dégâts multipliés par le nombre de cartes Énergie que vous avez choisies. Mélangez ces cartes dans votre deck.",
-				de: "Wähle eine beliebige Anzahl -Energien, die an 1 deiner Pokémon angelegt sind. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der gewählten Energie zu. Mische die gewählten Karten anschließend in dein Deck."
+				'en-us': "Choose as many Water Energy attached to your Pokémon as you like. This attack does 20 damage times the number of Energy you chose. Shuffle those cards back into your deck.",
+				'fr-fr': "Choisissez autant de cartes Énergie Water attachées à votre Pokémon que vous le souhaitez. Cette attaque inflige 20 dégâts multipliés par le nombre de cartes Énergie que vous avez choisies. Mélangez ces cartes dans votre deck.",
+				'de-de': "Wähle eine beliebige Anzahl -Energien, die an 1 deiner Pokémon angelegt sind. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der gewählten Energie zu. Mische die gewählten Karten anschließend in dein Deck."
 			},
 			damage: "20×",
 
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "The middle section of its body is called the core. It glows in a different color each time it is seen."
+		'en-us': "The middle section of its body is called the core. It glows in a different color each time it is seen."
 	},
 
 	variants: [

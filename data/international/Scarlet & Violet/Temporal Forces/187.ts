@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Incineroar ex",
-		fr: "Félinferno-ex",
-		es: "Incineroar ex",
-		it: "Incineroar-ex",
-		pt: "Incineroar ex",
-		de: "Fuegro-ex"
+		'en-us': "Incineroar ex",
+		'fr-fr': "Félinferno-ex",
+		'es-es': "Incineroar ex",
+		'it-it': "Incineroar-ex",
+		'pt-br': "Incineroar ex",
+		'de-de': "Fuegro-ex"
 	},
 
 	rarity: "Ultra Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 320,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Torracat",
-		fr: "Matoufeu",
-		es: "Torracat",
-		it: "Torracat",
-		pt: "Torracat",
-		de: "Miezunder"
+		'en-us': "Torracat",
+		'fr-fr': "Matoufeu",
+		'es-es': "Torracat",
+		'it-it': "Torracat",
+		'pt-br': "Torracat",
+		'de-de': "Miezunder"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Hustle Play",
-			fr: "Jeu Pressé",
-			es: "Juego Apremiante",
-			it: "Energiocata",
-			pt: "Cair pra Dentro",
-			de: "Ins Zeug legen"
+			'en-us': "Hustle Play",
+			'fr-fr': "Jeu Pressé",
+			'es-es': "Juego Apremiante",
+			'it-it': "Energiocata",
+			'pt-br': "Cair pra Dentro",
+			'de-de': "Ins Zeug legen"
 		},
 
 		effect: {
-			en: "Attacks used by this Pokémon cost {C} less for each of your opponent's Benched Pokémon.",
-			fr: "Les attaques utilisées par ce Pokémon coûtent {C} de moins pour chacun des Pokémon de Banc de votre adversaire.",
-			es: "Los ataques usados por este Pokémon cuestan {C} menos por cada uno de los Pokémon en Banca de tu rival.",
-			it: "Il costo degli attacchi usati da questo Pokémon è ridotto di {C} per ogni Pokémon nella panchina del tuo avversario.",
-			pt: "Os ataques usados por este Pokémon custam {C} a menos para cada Pokémon no Banco do seu oponente.",
-			de: "Die Kosten der von diesem Pokémon eingesetzten Attacken verringern sich für jedes Pokémon auf der Bank deines Gegners um {C}."
+			'en-us': "Attacks used by this Pokémon cost {C} less for each of your opponent's Benched Pokémon.",
+			'fr-fr': "Les attaques utilisées par ce Pokémon coûtent {C} de moins pour chacun des Pokémon de Banc de votre adversaire.",
+			'es-es': "Los ataques usados por este Pokémon cuestan {C} menos por cada uno de los Pokémon en Banca de tu rival.",
+			'it-it': "Il costo degli attacchi usati da questo Pokémon è ridotto di {C} per ogni Pokémon nella panchina del tuo avversario.",
+			'pt-br': "Os ataques usados por este Pokémon custam {C} a menos para cada Pokémon no Banco do seu oponente.",
+			'de-de': "Die Kosten der von diesem Pokémon eingesetzten Attacken verringern sich für jedes Pokémon auf der Bank deines Gegners um {C}."
 		}
 	}],
 
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Fire", "Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Blaze Blast",
-			fr: "Explosion Flamboyante",
-			es: "Explosión Llameante",
-			it: "Fiammata Esplosiva",
-			pt: "Incêndio Explosivo",
-			de: "Brandausbruch"
+			'en-us': "Blaze Blast",
+			'fr-fr': "Explosion Flamboyante",
+			'es-es': "Explosión Llameante",
+			'it-it': "Fiammata Esplosiva",
+			'pt-br': "Incêndio Explosivo",
+			'de-de': "Brandausbruch"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+			'en-us': "Your opponent's Active Pokémon is now Burned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 		},
 
 		damage: 240

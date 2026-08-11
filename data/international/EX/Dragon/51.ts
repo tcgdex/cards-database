@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Barboach",
-		fr: "Barloche",
-		de: "Schmerbe"
+		'en-us': "Barboach",
+		'fr-fr': "Barloche",
+		'de-de': "Schmerbe"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Splash",
-				fr: "Trempette",
-				de: "Platscher"
+				'en-us': "Splash",
+				'fr-fr': "Trempette",
+				'de-de': "Platscher"
 			},
 
 			damage: 10,
@@ -43,9 +43,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud Slap",
-				fr: "Coud'boue",
-				de: "Lehmschelle"
+				'en-us': "Mud Slap",
+				'fr-fr': "Coud'boue",
+				'de-de': "Lehmschelle"
 			},
 
 			damage: 20,

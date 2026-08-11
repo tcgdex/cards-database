@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Nintendo Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Groudon ex",
+		'en-us': "Groudon ex",
 	},
 	illustrator: "Kazuo Yazawa",
 	rarity: "Common",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Major Earthquake",
+				'en-us': "Major Earthquake",
 			},
 			effect: {
-				en: "Discard a Fighting Energy card attached to Groudon ex. Does 10 damage to your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'en-us': "Discard a Fighting Energy card attached to Groudon ex. Does 10 damage to your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 80,
 

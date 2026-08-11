@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Kakuna",
-		fr: "Coconfort",
-		es: "Kakuna",
-		it: "Kakuna",
-		pt: "Kakuna",
-		de: "Kokuna"
+		'en-us': "Kakuna",
+		'fr-fr': "Coconfort",
+		'es-es': "Kakuna",
+		'it-it': "Kakuna",
+		'pt-br': "Kakuna",
+		'de-de': "Kokuna"
 	},
 
 	illustrator: "Yuka Morii",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Weedle",
-		fr: "Aspicot",
+		'en-us': "Weedle",
+		'fr-fr': "Aspicot",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Grass Cushion",
-				fr: "Coussin Plante",
-				es: "Cojín Planta",
-				it: "Cuscino d’Erba",
-				pt: "Almofada de Planta",
-				de: "Pflanzenpolster"
+				'en-us': "Grass Cushion",
+				'fr-fr': "Coussin Plante",
+				'es-es': "Cojín Planta",
+				'it-it': "Cuscino d’Erba",
+				'pt-br': "Almofada de Planta",
+				'de-de': "Pflanzenpolster"
 			},
 			effect: {
-				en: "If this Pokémon has any Grass Energy attached to it, it takes 30 less damage from attacks (after applying Weakness and Resistance).",
-				fr: "Si de l’Énergie Grass est attachée à ce Pokémon, il subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-				es: "Si este Pokémon tiene alguna Energía Grass unida a él, los ataques le hacen 30 puntos de daño menos (después de aplicar Debilidad y Resistencia).",
-				it: "Se questo Pokémon ha delle Energie Grass assegnate, subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-				pt: "Se este Pokémon tiver alguma Energia Grass ligada a ele, receberá 30 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
-				de: "Wenn an dieses Pokémon mindestens 1 Grass-Energie angelegt ist, werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "If this Pokémon has any Grass Energy attached to it, it takes 30 less damage from attacks (after applying Weakness and Resistance).",
+				'fr-fr': "Si de l’Énergie Grass est attachée à ce Pokémon, il subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+				'es-es': "Si este Pokémon tiene alguna Energía Grass unida a él, los ataques le hacen 30 puntos de daño menos (después de aplicar Debilidad y Resistencia).",
+				'it-it': "Se questo Pokémon ha delle Energie Grass assegnate, subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+				'pt-br': "Se este Pokémon tiver alguma Energia Grass ligada a ele, receberá 30 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
+				'de-de': "Wenn an dieses Pokémon mindestens 1 Grass-Energie angelegt ist, werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bug Bite",
-				fr: "Piqûre",
-				es: "Picadura",
-				it: "Coleomorso",
-				pt: "Picada",
-				de: "Käferbiss"
+				'en-us': "Bug Bite",
+				'fr-fr': "Piqûre",
+				'es-es': "Picadura",
+				'it-it': "Coleomorso",
+				'pt-br': "Picada",
+				'de-de': "Käferbiss"
 			},
 
 			damage: 20,
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger.",
+		'en-us': "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger.",
 	},
 
 	thirdParty: {

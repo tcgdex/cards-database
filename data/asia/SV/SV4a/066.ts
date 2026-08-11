@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "パモ",
+		'ja-jp': "パモ",
 		'zh-tw': "布撥",
-		th: "พาโม",
-		id: "Pawmi"
+		'th-th': "พาโม",
+		'id-id': "Pawmi"
 	},
 
 	illustrator: "kantaro",
@@ -18,10 +18,10 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "手の 肉球が 放電器官。 後ろ脚で ようやく 立ち上がると 手のひらから 電撃を 放つ。",
+		'ja-jp': "手の 肉球が 放電器官。 後ろ脚で ようやく 立ち上がると 手のひらから 電撃を 放つ。",
 		'zh-tw': "手的肉球是放電的器官。會費勁地用後腳站起來， 然後從手掌釋放出電擊。",
-		th: "อุ้งมือคืออวัยวะปล่อยกระแสไฟฟ้า หลังจากที่ลุกขึ้นยืนด้วยขาหลังอย่างทุลักทุเลก็จะปล่อยไฟฟ้าออกมาจากอุ้งมือ",
-		id: "Bantalan tangannya adalah organ pelepasan listrik. Setelah berhasil berdiri dengan kaki belakangnya, Pawmi melepaskan serangan listrik dari telapak tangannya."
+		'th-th': "อุ้งมือคืออวัยวะปล่อยกระแสไฟฟ้า หลังจากที่ลุกขึ้นยืนด้วยขาหลังอย่างทุลักทุเลก็จะปล่อยไฟฟ้าออกมาจากอุ้งมือ",
+		'id-id': "Bantalan tangannya adalah organ pelepasan listrik. Setelah berhasil berdiri dengan kaki belakangnya, Pawmi melepaskan serangan listrik dari telapak tangannya."
 	},
 
 	stage: "Basic",
@@ -30,10 +30,10 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "なぐる",
+			'ja-jp': "なぐる",
 			'zh-tw': "打擊",
-			th: "ทุบตี",
-			id: "Memukul"
+			'th-th': "ทุบตี",
+			'id-id': "Memukul"
 		},
 
 		damage: 10
@@ -41,10 +41,10 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			ja: "エレキック",
+			'ja-jp': "エレキック",
 			'zh-tw': "電氣踢",
-			th: "ลูกเตะไฟฟ้า",
-			id: "Electric Kick"
+			'th-th': "ลูกเตะไฟฟ้า",
+			'id-id': "Electric Kick"
 		},
 
 		damage: 20

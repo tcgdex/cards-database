@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒスイ オオニューラV",
+		'ja-jp': "ヒスイ オオニューラV",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "どくのツメ" },
 			cost: [],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "80×",
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが受けている特殊状態の数×80ダメージ。",
+				'ja-jp': "相手のバトルポケモンが受けている特殊状態の数×80ダメージ。",
 			},
 		},
 	],

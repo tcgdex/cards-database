@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ブロロン",
+		'ja-jp': "ブロロン",
 		'zh-tw': "噗隆隆",
-		id: "Varoom"
+		'id-id': "Varoom"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "スクラップ工場に 放置された エンジンに 謎の 毒ポケモンが 入り込んで 生まれたと 言われる。",
+		'ja-jp': "スクラップ工場に 放置された エンジンに 謎の 毒ポケモンが 入り込んで 生まれたと 言われる。",
 		'zh-tw': "據說牠是神秘的毒寶可夢鑽進了被放置在廢鐵工廠 的引擎裡而誕生的。",
-		id: "Dikatakan bahwa Varoom terlahir dari Pokémon racun misterius yang masuk ke dalam mesin terbengkalai di pabrik besi bekas."
+		'id-id': "Dikatakan bahwa Varoom terlahir dari Pokémon racun misterius yang masuk ke dalam mesin terbengkalai di pabrik besi bekas."
 	},
 
 	stage: "Basic",
@@ -28,23 +28,23 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ふかす",
+			'ja-jp': "ふかす",
 			'zh-tw': "引擎全開",
-			id: "Mengegas"
+			'id-id': "Mengegas"
 		},
 
 		effect: {
-			ja: "自分のトラッシュから基本エネルギーを2枚まで選び、相手に見せて、手札に加える。",
+			'ja-jp': "自分のトラッシュから基本エネルギーを2枚まで選び、相手に見せて、手札に加える。",
 			'zh-tw': "從自己的棄牌區選擇最多2張基本能量卡，在給對手看過後加入手牌。",
-			id: "Pilih paling banyak 2 lembar Energi Dasar dari Trash sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan."
+			'id-id': "Pilih paling banyak 2 lembar Energi Dasar dari Trash sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan."
 		}
 	}, {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			ja: "ずつき",
+			'ja-jp': "ずつき",
 			'zh-tw': "頭錘",
-			id: "Tandukan Kepala"
+			'id-id': "Tandukan Kepala"
 		},
 
 		damage: 20

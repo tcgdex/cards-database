@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガルーラ",
+		'ja-jp': "ガルーラ",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "お腹の 袋に 我が子を 入れて 守る。 子どもを 傷つけた者は 絶対に 許さず 叩きのめす。",
+		'ja-jp': "お腹の 袋に 我が子を 入れて 守る。 子どもを 傷つけた者は 絶対に 許さず 叩きのめす。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ダブルドロー" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を2枚引く。",
+				'ja-jp': "自分の山札を2枚引く。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分の場の「TAG TEAM」のポケモンの数×50ダメージ。",
+				'ja-jp': "自分の場の「TAG TEAM」のポケモンの数×50ダメージ。",
 			},
 		},
 	],

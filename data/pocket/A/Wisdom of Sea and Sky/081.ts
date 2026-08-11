@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Natu",
-		fr: "Natu"
+		'en-us': "Natu",
+		'fr-fr': "Natu"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "It is extremely good at climbing tree trunks and\nlikes to eat the new sprouts on the trees.",
-		fr: "Il est très doué pour grimper aux arbres et ainsi manger les bourgeons dont il raffole."
+		'en-us': "It is extremely good at climbing tree trunks and\nlikes to eat the new sprouts on the trees.",
+		'fr-fr': "Il est très doué pour grimper aux arbres et ainsi manger les bourgeons dont il raffole."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Peck",
-			fr: "Picpic"
+			'en-us': "Peck",
+			'fr-fr': "Picpic"
 		},
 
 		damage: 20,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コバルオン",
+		'ja-jp': "コバルオン",
 	},
 
 	illustrator: "hncl",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "ポケモンを 守るため 人間と 争った 伝説の ポケモン。 沈着 冷静な 性格。",
+		'ja-jp': "ポケモンを 守るため 人間と 争った 伝説の ポケモン。 沈着 冷静な 性格。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Metal"],
 			effect: {
-				ja: "相手のバトルポケモンについている特殊エネルギーを1個選び、トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについている特殊エネルギーを1個選び、トラッシュする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "このポケモンに「ポケモンのどうぐ」がついているなら、40ダメージ追加。",
+				'ja-jp': "このポケモンに「ポケモンのどうぐ」がついているなら、40ダメージ追加。",
 			},
 		},
 	],

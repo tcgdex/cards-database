@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アクア団のハブネーク",
+		'ja-jp': "アクア団のハブネーク",
 	},
 
 	illustrator: "Naoki Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "ハブネークの しっぽは するどい 剣に なっているぞ。 毒を 出すことだって できるのさ！",
+		'ja-jp': "ハブネークの しっぽは するどい 剣に なっているぞ。 毒を 出すことだって できるのさ！",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Psychic"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをどくにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをどくにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが特殊状態なら、そのバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "相手のバトルポケモンが特殊状態なら、そのバトルポケモンについているエネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],

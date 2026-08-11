@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [641],
 
 	name: {
-		en: "Tornadus"
+		'en-us': "Tornadus"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Tornadus expels massive energy from its tail,\ncausing severe storms. Its power is great enough\nto blow houses away."
+		'en-us': "Tornadus expels massive energy from its tail,\ncausing severe storms. Its power is great enough\nto blow houses away."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Blow Through"
+			'en-us': "Blow Through"
 		},
 
 		damage: 40,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "If a Stadium is in play, this attack does 40 more damage."
+			'en-us': "If a Stadium is in play, this attack does 40 more damage."
 		}
 	}],
 

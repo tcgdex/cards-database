@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Pineco",
+		'ja-jp': "Pineco",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "バースト",
+				'ja-jp': "バースト",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、Pinecoはそれ自体に40のダメージを与え、各プレイヤーのベンチで各ポケモンに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）コインをひっくり返します。尾の場合、この攻撃は何もしません（ダメージさえありません）。",
+				'ja-jp': "コインをひっくり返します。頭の場合、Pinecoはそれ自体に40のダメージを与え、各プレイヤーのベンチで各ポケモンに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）コインをひっくり返します。尾の場合、この攻撃は何もしません（ダメージさえありません）。",
 			},
 			damage: 40,
 		},

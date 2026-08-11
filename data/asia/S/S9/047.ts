@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "黑夜魔靈",
-		ja: "ヨノワール"
+		'ja-jp': "ヨノワール"
 	},
 
 	illustrator: "otumami",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "沒人知道牠是否擁有意識。會從來自靈界的電波中接受指示， 將人和寶可夢帶走。",
-		ja: "意思が あるのか わかっていない。 霊界からの 電波に 従い 人や ポケモンを 連れ去るのだ。"
+		'ja-jp': "意思が あるのか わかっていない。 霊界からの 電波に 従い 人や ポケモンを 連れ去るのだ。"
 	},
 
 	stage: "Stage2",
@@ -26,19 +26,19 @@ const card: Card = {
 
 		name: {
 			'zh-tw': "特殊轉移",
-			ja: "スペシャルトランス"
+			'ja-jp': "スペシャルトランス"
 		},
 
 		effect: {
 			'zh-tw': "在自己的回合時，可不限次數使用。選擇1個自己的場上寶可夢身上附加的特殊能量，改附於自己的其他寶可夢身上。",
-			ja: "自分の番に何回でも使える。自分の場のポケモンについている特殊エネルギーを1個選び、自分の別のポケモンにつけ替える。"
+			'ja-jp': "自分の番に何回でも使える。自分の場のポケモンについている特殊エネルギーを1個選び、自分の別のポケモンにつけ替える。"
 		}
 	}],
 
 	attacks: [{
 		name: {
 			'zh-tw': "靈魂吃食",
-			ja: "ソウルイート"
+			'ja-jp': "ソウルイート"
 		},
 
 		damage: 120,

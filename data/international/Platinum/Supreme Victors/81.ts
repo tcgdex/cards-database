@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Roserade",
-		fr: "Roserade",
-		de: "Roserade"
+		'en-us': "Roserade",
+		'fr-fr': "Roserade",
+		'de-de': "Roserade"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Roselia",
-		fr: "Roselia"
+		'en-us': "Roselia",
+		'fr-fr': "Roselia"
 	},
 
 	stage: "Stage1",
@@ -34,9 +34,9 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Cut",
-				fr: "Coupe",
-				de: "Zerschneider"
+				'en-us': "Cut",
+				'fr-fr': "Coupe",
+				'de-de': "Zerschneider"
 			},
 
 			damage: 20,
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Seed",
-				fr: "Graine poison",
-				de: "Giftsamen"
+				'en-us': "Poison Seed",
+				'fr-fr': "Graine poison",
+				'de-de': "Giftsamen"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 30,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Each of its hands contains different toxins, but both hands can jab with near-fatal power."
+		'en-us': "Each of its hands contains different toxins, but both hands can jab with near-fatal power."
 	},
 
 	variants: [

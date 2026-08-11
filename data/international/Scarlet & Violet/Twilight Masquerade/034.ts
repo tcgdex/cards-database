@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Darumaka",
-		fr: "Darumarond",
-		es: "Darumaka",
-		it: "Darumaka",
-		pt: "Darumaka",
-		de: "Flampion"
+		'en-us': "Darumaka",
+		'fr-fr': "Darumarond",
+		'es-es': "Darumaka",
+		'it-it': "Darumaka",
+		'pt-br': "Darumaka",
+		'de-de': "Flampion"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Strength",
-			fr: "Force",
-			es: "Fuerza",
-			it: "Forza",
-			pt: "Força",
-			de: "Stärke"
+			'en-us': "Strength",
+			'fr-fr': "Force",
+			'es-es': "Fuerza",
+			'it-it': "Forza",
+			'pt-br': "Força",
+			'de-de': "Stärke"
 		},
 
 		damage: 10
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			en: "Fire Tackle",
-			fr: "Charge de Feu",
-			es: "Placaje Fuego",
-			it: "Fuocazione",
-			pt: "Investida de Fogo",
-			de: "Feuertackle"
+			'en-us': "Fire Tackle",
+			'fr-fr': "Charge de Feu",
+			'es-es': "Placaje Fuego",
+			'it-it': "Fuocazione",
+			'pt-br': "Investida de Fogo",
+			'de-de': "Feuertackle"
 		},
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 20 dégâts.",
-			es: "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 20 danni a se stesso.",
-			pt: "Este Pokémon também causa 20 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 20 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 20 dégâts.",
+			'es-es': "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 20 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 20 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu."
 		},
 
 		damage: 50
@@ -67,7 +67,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It derives its power from fire burning inside its body. If the fire dwindles, this Pokémon will immediately fall asleep.",
+		'en-us': "It derives its power from fire burning inside its body. If the fire dwindles, this Pokémon will immediately fall asleep.",
 	},
 
 	variants: [

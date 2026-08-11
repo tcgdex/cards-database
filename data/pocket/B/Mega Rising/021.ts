@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skiddo"
+		'en-us': "Skiddo"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "As long as it has sunlight and water, Skiddo can\nmake energy with the leaves on its body, allowing\nit to live on rocky mountains barren of food."
+		'en-us': "As long as it has sunlight and water, Skiddo can\nmake energy with the leaves on its body, allowing\nit to live on rocky mountains barren of food."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Razor Leaf"
+			'en-us': "Razor Leaf"
 		},
 
 		damage: 30,

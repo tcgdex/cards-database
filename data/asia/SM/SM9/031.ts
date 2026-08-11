@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピカチュウ&ゼクロムGX",
+		'ja-jp': "ピカチュウ&ゼクロムGX",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Lightning", "Lightning", "Lightning"],
 			effect: {
-				ja: "自分の山札にある[雷]エネルギーを3枚まで、自分のポケモン1匹につける。そして山札を切る。",
+				'ja-jp': "自分の山札にある[雷]エネルギーを3枚まで、自分のポケモン1匹につける。そして山札を切る。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Lightning", "Lightning", "Lightning"],
 			effect: {
-				ja: "追加で[雷]エネルギーが3個ついているなら、相手のベンチポケモン1匹にも、170ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "追加で[雷]エネルギーが3個ついているなら、相手のベンチポケモン1匹にも、170ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

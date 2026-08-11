@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ランクルス",
+		'ja-jp': "ランクルス",
 	},
 
 	illustrator: "LINNE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "ランクルス 同士が 握手すると 脳みそが ネットワークで つながり サイコパワーが 増幅されるのだ。",
+		'ja-jp': "ランクルス 同士が 握手すると 脳みそが ネットワークで つながり サイコパワーが 増幅されるのだ。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "さいぼうかくせい" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のベンチポケモン全員からそれぞれ進化するカードを、自分の山札から1枚ずつ選び、それぞれにのせて進化させる。そして山札を切る。",
+				'ja-jp': "自分のベンチポケモン全員からそれぞれ進化するカードを、自分の山札から1枚ずつ選び、それぞれにのせて進化させる。そして山札を切る。",
 			},
 		},
 		{
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ダブラン",
+		'ja-jp': "ダブラン",
 	},
 
 	retreat: 1,

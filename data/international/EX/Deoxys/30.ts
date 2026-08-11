@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Donphan",
-		fr: "Donphan",
-		de: "Donphan"
+		'en-us': "Donphan",
+		'fr-fr': "Donphan",
+		'de-de': "Donphan"
 	},
 
 	illustrator: "Yuka Morii",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Phanpy",
-		fr: "Phanpy"
+		'en-us': "Phanpy",
+		'fr-fr': "Phanpy"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Spinning Horn",
-				fr: "Corne tournante",
-				de: "Spinning Horn"
+				'en-us': "Spinning Horn",
+				'fr-fr': "Corne tournante",
+				'de-de': "Spinning Horn"
 			},
 			effect: {
-				en: "Does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Hurl",
-				fr: "Lance-pierre",
-				de: "Rock Hurl"
+				'en-us': "Rock Hurl",
+				'fr-fr': "Lance-pierre",
+				'de-de': "Rock Hurl"
 			},
 			effect: {
-				en: "This attack's damage is not affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				de: "This attack's damage is not affected by Resistance."
+				'en-us': "This attack's damage is not affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'de-de': "This attack's damage is not affected by Resistance."
 			},
 			damage: 50,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラダグトリオ",
+		'ja-jp': "アローラダグトリオ",
 	},
 
 	illustrator: "Yuka Morii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "大地の 女神たちの 化身と 考えられ アローラ地方では とても 大切に されている。",
+		'ja-jp': "大地の 女神たちの 化身と 考えられ アローラ地方では とても 大切に されている。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 60,
 			cost: [],
 			effect: {
-				ja: "このワザのダメージは弱点・抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは弱点・抵抗力を計算しない。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アローラディグダ",
+		'ja-jp': "アローラディグダ",
 	},
 
 	retreat: 1,

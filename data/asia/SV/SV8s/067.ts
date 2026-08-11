@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Miraidon",
-		th: "มิไรดอน"
+		'id-id': "Miraidon",
+		'th-th': "มิไรดอน"
 	},
 
 	illustrator: "Nurikabe",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Tampaknya Miraidon tertera di buku kuno dengan nama Iron Serpent. Dikabarkan Pokémon ini mengubah tanah lapang menjadi abu dengan petir.",
-		th: "ดูเหมือนว่าจะเป็นนาคเหล็กซึ่งมีชื่อในบันทึกเก่าแก่ ว่ากันว่ามันใช้ สายฟ้าทำให้ผืนดินกลายเป็นเถ้าถ่าน"
+		'id-id': "Tampaknya Miraidon tertera di buku kuno dengan nama Iron Serpent. Dikabarkan Pokémon ini mengubah tanah lapang menjadi abu dengan petir.",
+		'th-th': "ดูเหมือนว่าจะเป็นนาคเหล็กซึ่งมีชื่อในบันทึกเก่าแก่ ว่ากันว่ามันใช้ สายฟ้าทำให้ผืนดินกลายเป็นเถ้าถ่าน"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Protect Code",
-			th: "โพรเทกโค้ด"
+			'id-id': "Protect Code",
+			'th-th': "โพรเทกโค้ด"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, semua Pokémon Futur sendiri tidak menerima kerusakan akibat serangan dari Pokémon {ex}. Jika Pokémon ini meninggalkan Arena Bertarung, efek ini menjadi tidak berlaku.",
-			th: "เทิร์นถัดไปของฝ่ายตรงข้าม โปเกมอน [อนาคต] ฝ่ายเราทุกตัว จะไม่ได้รับ แดเมจของท่าต่อสู้จาก [โปเกมอน【ex】] เมื่อโปเกมอนนี้ออกจากตำแหน่งต่อสู้ เอฟเฟกต์นี้จะหายไป"
+			'id-id': "Pada giliran lawan berikutnya, semua Pokémon Futur sendiri tidak menerima kerusakan akibat serangan dari Pokémon {ex}. Jika Pokémon ini meninggalkan Arena Bertarung, efek ini menjadi tidak berlaku.",
+			'th-th': "เทิร์นถัดไปของฝ่ายตรงข้าม โปเกมอน [อนาคต] ฝ่ายเราทุกตัว จะไม่ได้รับ แดเมจของท่าต่อสู้จาก [โปเกมอน【ex】] เมื่อโปเกมอนนี้ออกจากตำแหน่งต่อสู้ เอฟเฟกต์นี้จะหายไป"
 		},
 
 		damage: 40,
 		cost: ["Lightning", "Colorless"]
 	}, {
 		name: {
-			id: "Thunder Claw",
-			th: "ธันเดอร์คลอว์"
+			'id-id': "Thunder Claw",
+			'th-th': "ธันเดอร์คลอว์"
 		},
 
 		damage: 100,

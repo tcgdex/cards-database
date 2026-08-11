@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロコン",
+		'ja-jp': "ロコン",
 	},
 
 	illustrator: "saino misaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "自分より 強い 相手に 襲われると キズついた ふりをして 惑わせ その隙に 逃げてしまう。",
+		'ja-jp': "自分より 強い 相手に 襲われると キズついた ふりをして 惑わせ その隙に 逃げてしまう。",
 	},
 
 	stage: "Basic",

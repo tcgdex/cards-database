@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Electrode"
+		'en-us': "Electrode"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Voltorb"
+		'en-us': "Voltorb"
 	},
 
 	stage: "Stage1",
@@ -32,7 +32,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle"
+				'en-us': "Tackle"
 			},
 
 			damage: 20,
@@ -45,10 +45,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Chain Lightning"
+				'en-us': "Chain Lightning"
 			},
 			effect: {
-				en: "If the Defending Pokémon isn't Colorless, this attack does 10 damage to each Benched Pokémon of the same type as the Defending Pokémon (including your own). (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "If the Defending Pokémon isn't Colorless, this attack does 10 damage to each Benched Pokémon of the same type as the Defending Pokémon (including your own). (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 20,
 
@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It stores electrical energy under very high pressure. It often explodes with little or no provocation."
+		'en-us': "It stores electrical energy under very high pressure. It often explodes with little or no provocation."
 	},
 
 	variants: [

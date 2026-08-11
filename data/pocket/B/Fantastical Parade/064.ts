@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [281],
 
 	name: {
-		en: "Kirlia"
+		'en-us': "Kirlia"
 	},
 
 	illustrator: "mingo",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Ralts"
+		'en-us': "Ralts"
 	},
 
 	description: {
-		en: "The cheerful spirit of its Trainer gives it energy\nfor its psychokinetic power. It spins and dances\nwhen happy."
+		'en-us': "The cheerful spirit of its Trainer gives it energy\nfor its psychokinetic power. It spins and dances\nwhen happy."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Psybeam"
+			'en-us': "Psybeam"
 		},
 
 		damage: 20,
 		cost: ["Psychic"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused."
+			'en-us': "Your opponent's Active Pokémon is now Confused."
 		}
 	}],
 

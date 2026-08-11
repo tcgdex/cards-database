@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ペパーのマフィティフex",
+		'ja-jp': "ペパーのマフィティフex",
 	},
 
 	illustrator: "akagi",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンにダメカンがのっていないなら、120ダメージ追加。",
+				'ja-jp': "このポケモンにダメカンがのっていないなら、120ダメージ追加。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 210,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「おやぶんヘッド」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「おやぶんヘッド」が使えない。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ペパーのオラチフ",
+		'ja-jp': "ペパーのオラチフ",
 	},
 
 	retreat: 3,

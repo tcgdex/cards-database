@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミスレアヴァス",
+		'ja-jp': "ミスレアヴァス",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "深い眠り",
+				'ja-jp': "深い眠り",
 			},
 			effect: {
-				ja: "Misdreavusがあなたのアクティブなポカモンである限り、各プレイヤーは、ターンの間に眠っている彼または彼女のポカモンのために2つのコインをひっくり返します。いずれかのコインが尾の場合、そのポカンはまだ眠っています。",
+				'ja-jp': "Misdreavusがあなたのアクティブなポカモンである限り、各プレイヤーは、ターンの間に眠っている彼または彼女のポカモンのために2つのコインをひっくり返します。いずれかのコインが尾の場合、そのポカンはまだ眠っています。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "トランスを返します",
+				'ja-jp': "トランスを返します",
 			},
 			effect: {
-				ja: "Misdreavusに取り付けられたエネルギーカードを手に返します。防御ポケモンは今眠っています。",
+				'ja-jp': "Misdreavusに取り付けられたエネルギーカードを手に返します。防御ポケモンは今眠っています。",
 			},
 		},
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "夢の食べる人",
+				'ja-jp': "夢の食べる人",
 			},
 			effect: {
-				ja: "防御するポケモンが眠っていない場合、この攻撃は何もしません。",
+				'ja-jp': "防御するポケモンが眠っていない場合、この攻撃は何もしません。",
 			},
 			damage: 30,
 		},

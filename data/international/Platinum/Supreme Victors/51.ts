@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Bibarel",
-		fr: "Castorno",
-		de: "Bidifas"
+		'en-us': "Bibarel",
+		'fr-fr': "Castorno",
+		'de-de': "Bidifas"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bidoof",
-		fr: "Keunotor"
+		'en-us': "Bidoof",
+		'fr-fr': "Keunotor"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rolling Tackle",
-				fr: "Roulé-boulé",
-				de: "Rolltackle"
+				'en-us': "Rolling Tackle",
+				'fr-fr': "Roulé-boulé",
+				'de-de': "Rolltackle"
 			},
 
 			damage: 20,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Rap",
-				fr: "Frap' keu",
-				de: "Schweifklopfen"
+				'en-us': "Tail Rap",
+				'fr-fr': "Frap' keu",
+				'de-de': "Schweifklopfen"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "30x",
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "A river dammed by Bibarel will never overflow its banks, which is appreciated by people nearby."
+		'en-us': "A river dammed by Bibarel will never overflow its banks, which is appreciated by people nearby."
 	},
 
 	variants: [

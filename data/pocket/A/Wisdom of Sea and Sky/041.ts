@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Horsea",
-		fr: "Hypotrempe"
+		'en-us': "Horsea",
+		'fr-fr': "Hypotrempe"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "Horsea makes its home in oceans with gentle\ncurrents. If this Pokémon is under attack, it spits\nout pitch-black ink and escapes.",
-		fr: "Il vit dans les mers calmes. Quand on l'attaque, il crache de l'encre noire et profite de la diversion pour s'enfuir."
+		'en-us': "Horsea makes its home in oceans with gentle\ncurrents. If this Pokémon is under attack, it spits\nout pitch-black ink and escapes.",
+		'fr-fr': "Il vit dans les mers calmes. Quand on l'attaque, il crache de l'encre noire et profite de la diversion pour s'enfuir."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Hook",
-			fr: "Crochet"
+			'en-us': "Hook",
+			'fr-fr': "Crochet"
 		},
 
 		damage: 30,

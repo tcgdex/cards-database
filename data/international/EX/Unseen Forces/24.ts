@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Hitmonchan",
-		fr: "Tygnon",
-		de: "Nockchan"
+		'en-us': "Hitmonchan",
+		'fr-fr': "Tygnon",
+		'de-de': "Nockchan"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Stages of Evolution",
-				fr: "Niveaux d'Évolution",
-				de: "Stages of Evolution"
+				'en-us': "Stages of Evolution",
+				'fr-fr': "Niveaux d'Évolution",
+				'de-de': "Stages of Evolution"
 			},
 			effect: {
-				en: "As long as Hitmonchan is an Evolved Pokémon, Hitmonchan gets +30 HP.",
-				fr: "Tant que Tygnon est un Pokémon Évolué, il obtient 30 Points de vie supplémentaires.",
-				de: "As long as Hitmonchan is an Evolved Pokémon, Hitmonchan gets +30 HP."
+				'en-us': "As long as Hitmonchan is an Evolved Pokémon, Hitmonchan gets +30 HP.",
+				'fr-fr': "Tant que Tygnon est un Pokémon Évolué, il obtient 30 Points de vie supplémentaires.",
+				'de-de': "As long as Hitmonchan is an Evolved Pokémon, Hitmonchan gets +30 HP."
 			},
 		},
 	],
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heavy Punch",
-				fr: "Poing lourd",
-				de: "Heavy Punch"
+				'en-us': "Heavy Punch",
+				'fr-fr': "Poing lourd",
+				'de-de': "Heavy Punch"
 			},
 			effect: {
-				en: "Does 10 damage times the number of your opponent's Benched Pokémon.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de Pokémon sur le Banc de votre adversaire.",
-				de: "Does 10 damage times the number of your opponent's Benched Pokémon."
+				'en-us': "Does 10 damage times the number of your opponent's Benched Pokémon.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de Pokémon sur le Banc de votre adversaire.",
+				'de-de': "Does 10 damage times the number of your opponent's Benched Pokémon."
 			},
 			damage: "10x",
 
@@ -67,14 +67,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Speedy Uppercut",
-				fr: "Uppercut super rapide",
-				de: "Speedy Uppercut"
+				'en-us': "Speedy Uppercut",
+				'fr-fr': "Uppercut super rapide",
+				'de-de': "Speedy Uppercut"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
-				de: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
+				'de-de': "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
 			},
 			damage: 50,
 

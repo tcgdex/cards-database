@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Lotad",
-		fr: "Nénupiot",
-		de: "Loturzel"
+		'en-us': "Lotad",
+		'fr-fr': "Nénupiot",
+		'de-de': "Loturzel"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Swift Swim",
-				fr: "Glissade",
-				de: "Swift Swim"
+				'en-us': "Swift Swim",
+				'fr-fr': "Glissade",
+				'de-de': "Swift Swim"
 			},
 			effect: {
-				en: "If Lotad has any Water Energy attached to it, Lotad's Retreat Cost is 0.",
-				fr: "Si Nénupiot possède de l'Énergie Water, son coût de retraite est de 0.",
-				de: "If Lotad has any  Energy attached to it, Lotad's Retreat Cost is 0."
+				'en-us': "If Lotad has any Water Energy attached to it, Lotad's Retreat Cost is 0.",
+				'fr-fr': "Si Nénupiot possède de l'Énergie Water, son coût de retraite est de 0.",
+				'de-de': "If Lotad has any  Energy attached to it, Lotad's Retreat Cost is 0."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blot",
-				fr: "Pâté",
-				de: "Blot"
+				'en-us': "Blot",
+				'fr-fr': "Pâté",
+				'de-de': "Blot"
 			},
 			effect: {
-				en: "Remove 1 damage counter from Lotad.",
-				fr: "Retirez à Nénupiot 1 marqueur de dégât.",
-				de: "Remove 1 damage counter from Lotad."
+				'en-us': "Remove 1 damage counter from Lotad.",
+				'fr-fr': "Retirez à Nénupiot 1 marqueur de dégât.",
+				'de-de': "Remove 1 damage counter from Lotad."
 			},
 			damage: 10,
 
@@ -65,14 +65,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jump On",
-				fr: "Sauter",
-				de: "Jump On"
+				'en-us': "Jump On",
+				'fr-fr': "Sauter",
+				'de-de': "Jump On"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
 			},
 			damage: "10+",
 

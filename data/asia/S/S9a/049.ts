@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "土狼犬",
-		ja: "ポチエナ"
+		'ja-jp': "ポチエナ"
 	},
 
 	illustrator: "KIYOTAKA OSHIYAMA",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "有著敏銳的嗅覺， 絕對不會放過自己盯上的獵物。 個性非常執著。",
-		ja: "鋭い きゅうかくで ねらった 獲物は 絶対に 逃がさない。 とっても しつこい 性格だ。"
+		'ja-jp': "鋭い きゅうかくで ねらった 獲物は 絶対に 逃がさない。 とっても しつこい 性格だ。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "咬",
-			ja: "かじる"
+			'ja-jp': "かじる"
 		},
 
 		damage: 10,
@@ -32,12 +32,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "撞一下",
-			ja: "ちょっとつっこむ"
+			'ja-jp': "ちょっとつっこむ"
 		},
 
 		effect: {
 			'zh-tw': "這隻寶可夢也受到10點傷害。",
-			ja: "このポケモンにも10ダメージ。"
+			'ja-jp': "このポケモンにも10ダメージ。"
 		},
 
 		damage: 30,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フィオネ",
+		'ja-jp': "フィオネ",
 		'zh-tw': "霏歐納",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "暖かい 海を 漂っている。 どんな 遠くに 流されても 生まれた 場所に かならず戻る。",
+		'ja-jp': "暖かい 海を 漂っている。 どんな 遠くに 流されても 生まれた 場所に かならず戻る。",
 		'zh-tw': "在溫暖的海面上漂流。不論被沖得多遠， 都能夠回到出生的地方。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "うみのうたげ",
+				'ja-jp': "うみのうたげ",
 				'zh-tw': "海之宴",
 			},
 			cost: ["Water"],
 			effect: {
-				ja: "自分の山札から[W]タイプのたねポケモンを3枚まで選び、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札から[W]タイプのたねポケモンを3枚まで選び、ベンチに出す。そして山札を切る。",
 				'zh-tw': "從自己的牌庫選擇最多3張【水】屬性的【基礎】寶可夢卡，放置於備戰區。並且重洗牌庫。",
 			},
 		},
 		{
 			name: {
-				ja: "スプラッシュ",
+				'ja-jp': "スプラッシュ",
 				'zh-tw': "飛濺",
 			},
 			damage: 20,

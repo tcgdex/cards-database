@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magmortar",
-		fr: "Maganon",
-		es: "Magmortar",
-		it: "Magmortar",
-		pt: "Magmortar",
-		de: "Magbrant"
+		'en-us': "Magmortar",
+		'fr-fr': "Maganon",
+		'es-es': "Magmortar",
+		'it-it': "Magmortar",
+		'pt-br': "Magmortar",
+		'de-de': "Magbrant"
 	},
 
 	rarity: "Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Magmar",
-		fr: "Magmar",
-		es: "Magmar",
-		it: "Magmar",
-		pt: "Magmar",
-		de: "Magmar"
+		'en-us': "Magmar",
+		'fr-fr': "Magmar",
+		'es-es': "Magmar",
+		'it-it': "Magmar",
+		'pt-br': "Magmar",
+		'de-de': "Magmar"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Flare",
-			fr: "Flamboiement",
-			es: "Llama",
-			it: "Fiammata",
-			pt: "Chama",
-			de: "Flackern"
+			'en-us': "Flare",
+			'fr-fr': "Flamboiement",
+			'es-es': "Llama",
+			'it-it': "Fiammata",
+			'pt-br': "Chama",
+			'de-de': "Flackern"
 		},
 
 		damage: 40
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Volcanic Heat",
-			fr: "Chaleur Volcanique",
-			es: "Calor Volcánico",
-			it: "Calore Vulcanico",
-			pt: "Calor Vulcânico",
-			de: "Vulkanhitze"
+			'en-us': "Volcanic Heat",
+			'fr-fr': "Chaleur Volcanique",
+			'es-es': "Calor Volcánico",
+			'it-it': "Calore Vulcanico",
+			'pt-br': "Calor Vulcânico",
+			'de-de': "Vulkanhitze"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 170
@@ -96,7 +96,7 @@ const card: Card = {
 	illustrator: "Hasuno",
 
 	description: {
-		en: "Living in the crater of a volcano has caused this Pokémon's body to resemble its environment— it has an organ similar to a magma chamber.",
+		'en-us': "Living in the crater of a volcano has caused this Pokémon's body to resemble its environment— it has an organ similar to a magma chamber.",
 	},
 
 }

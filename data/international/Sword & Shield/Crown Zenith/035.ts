@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Luvdisc",
-		fr: "Lovdisc",
-		es: "Luvdisc",
-		it: "Luvdisc",
-		pt: "Luvdisc",
-		de: "Liebiskus"
+		'en-us': "Luvdisc",
+		'fr-fr': "Lovdisc",
+		'es-es': "Luvdisc",
+		'it-it': "Luvdisc",
+		'pt-br': "Luvdisc",
+		'de-de': "Liebiskus"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -25,32 +25,32 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Emotional Draw",
-			fr: "Pioche Émouvante",
-			es: "Robo Emocional",
-			it: "Pesca Sentimentale",
-			pt: "Compra Emotiva",
-			de: "Emotionaler Zug"
+			'en-us': "Emotional Draw",
+			'fr-fr': "Pioche Émouvante",
+			'es-es': "Robo Emocional",
+			'it-it': "Pesca Sentimentale",
+			'pt-br': "Compra Emotiva",
+			'de-de': "Emotionaler Zug"
 		},
 
 		effect: {
-			en: "Shuffle your hand into your deck. Then, draw 5 cards.",
-			fr: "Mélangez votre main avec votre deck. Ensuite, piochez 5 cartes.",
-			es: "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 5 cartas.",
-			it: "Rimischia le carte che hai in mano nel tuo mazzo. Poi pesca cinque carte.",
-			pt: "Embaralhe a sua mão no seu baralho. Em seguida, compre 5 cartas.",
-			de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 5 Karten."
+			'en-us': "Shuffle your hand into your deck. Then, draw 5 cards.",
+			'fr-fr': "Mélangez votre main avec votre deck. Ensuite, piochez 5 cartes.",
+			'es-es': "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 5 cartas.",
+			'it-it': "Rimischia le carte che hai in mano nel tuo mazzo. Poi pesca cinque carte.",
+			'pt-br': "Embaralhe a sua mão no seu baralho. Em seguida, compre 5 cartas.",
+			'de-de': "Mische deine Handkarten in dein Deck. Ziehe anschließend 5 Karten."
 		}
 	}, {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 20
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Luvdisc makes its home in coral reefs in warm seas. It especially likes sleeping in the space between Corsola's branches.",
+		'en-us': "Luvdisc makes its home in coral reefs in warm seas. It especially likes sleeping in the space between Corsola's branches.",
 	},
 
 	

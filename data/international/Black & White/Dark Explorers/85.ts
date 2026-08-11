@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Chatot",
-		fr: "Pijako",
-		es: "Chatot",
-		it: "Chatot",
-		pt: "Chatot",
-		de: "Plaudagei"
+		'en-us': "Chatot",
+		'fr-fr': "Pijako",
+		'es-es': "Chatot",
+		'it-it': "Chatot",
+		'pt-br': "Chatot",
+		'de-de': "Plaudagei"
 	},
 
 	illustrator: "MAHOU",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tone-Deaf",
-				fr: "Dur d'Oreille"
+				'en-us': "Tone-Deaf",
+				'fr-fr': "Dur d'Oreille"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
 			},
 			damage: 10,
 
@@ -50,8 +50,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic"
+				'en-us': "Peck",
+				'fr-fr': "Picpic"
 			},
 
 			damage: 30,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its tongue is just like a human's. As a result, it can cleverly mimic human speech.",
+		'en-us': "Its tongue is just like a human's. As a result, it can cleverly mimic human speech.",
 	},
 
 	thirdParty: {

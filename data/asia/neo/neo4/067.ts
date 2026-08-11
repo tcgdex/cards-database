@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "暗いエスペオン",
+		'ja-jp': "暗いエスペオン",
 	},
 
 	rarity: "Holo Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ガウジ",
+				'ja-jp': "ガウジ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて10ダメージを与えます。尾の場合、この攻撃は10ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて10ダメージを与えます。尾の場合、この攻撃は10ダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Psychic", "Colorless", "Colorless"],
 			name: {
-				ja: "psysplash",
+				'ja-jp': "psysplash",
 			},
 			effect: {
-				ja: "そのポケモンに取り付けられた各エネルギーカードに対して、対戦相手の各ポケモンに10ダメージを与えます。衰弱と抵抗を適用しないでください。",
+				'ja-jp': "そのポケモンに取り付けられた各エネルギーカードに対して、対戦相手の各ポケモンに10ダメージを与えます。衰弱と抵抗を適用しないでください。",
 			},
 		},
 	],

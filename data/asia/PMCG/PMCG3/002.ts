@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ズバット",
+		'ja-jp': "ズバット",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "超音速",
+				'ja-jp': "超音速",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
 			},
 
 		},
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "リーチライフ",
+				'ja-jp': "リーチライフ",
 			},
 			effect: {
-				ja: "防御ポケモンに与えられた損傷に等しいZubatから多くのダメージカウンターを削除します（脱力と抵抗を適用した後）。 Zubatのダメージカウンターがそれよりも少ない場合は、それらすべてを削除します。",
+				'ja-jp': "防御ポケモンに与えられた損傷に等しいZubatから多くのダメージカウンターを削除します（脱力と抵抗を適用した後）。 Zubatのダメージカウンターがそれよりも少ない場合は、それらすべてを削除します。",
 			},
 			damage: 10,
 		},

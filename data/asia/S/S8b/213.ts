@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コロトックV",
+		'ja-jp': "コロトックV",
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "エキサイトステージ" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札が3枚になるように、山札を引く。このポケモンがバトル場にいるなら、4枚になるように引く。この番、すでに別の「エキサイトステージ」を使っていたなら、この特性は使えない。",
+				'ja-jp': "自分の番に1回使える。自分の手札が3枚になるように、山札を引く。このポケモンがバトル場にいるなら、4枚になるように引く。この番、すでに別の「エキサイトステージ」を使っていたなら、この特性は使えない。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、80ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、80ダメージ追加。",
 			},
 		},
 	],

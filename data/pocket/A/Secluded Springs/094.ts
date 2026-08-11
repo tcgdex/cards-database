@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Golduck",
-		fr: "Akwakwak"
+		'en-us': "Golduck",
+		'fr-fr': "Akwakwak"
 	},
 
 	illustrator: "Scav",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Psyduck"
+		'en-us': "Psyduck"
 	},
 
 	description: {
-		en: "When it swims at full speed using its long,\nwebbed limbs, its forehead somehow begins\nto glow.",
-		fr: "Quand il nage à vitesse maximale grâce à ses pattes palmées, son front se met à luire pour une raison inconnue."
+		'en-us': "When it swims at full speed using its long,\nwebbed limbs, its forehead somehow begins\nto glow.",
+		'fr-fr': "Quand il nage à vitesse maximale grâce à ses pattes palmées, son front se met à luire pour une raison inconnue."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Aqua Edge",
-			fr: "Aqua-Dague"
+			'en-us': "Aqua Edge",
+			'fr-fr': "Aqua-Dague"
 		},
 
 		damage: 70,

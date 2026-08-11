@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Gholdengo ex"
+		'id-id': "Gholdengo ex"
 	},
 
 	illustrator: "takuyoa",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Bonus Coin"
+			'id-id': "Bonus Coin"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri. Ambil 1 kartu dari atas Deck sendiri. Jika Pokémon ini ada di Arena Bertarung, ambil lagi 1 kartu tambahan."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri. Ambil 1 kartu dari atas Deck sendiri. Jika Pokémon ini ada di Arena Bertarung, ambil lagi 1 kartu tambahan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Terjangan Emas"
+			'id-id': "Terjangan Emas"
 		},
 
 		effect: {
-			id: "Buang sesukanya Energi Dasar dari Kartu Pegangan sendiri ke Trash, serangan ini memberikan kerusakan sejumlah 50 untuk tiap lembarnya."
+			'id-id': "Buang sesukanya Energi Dasar dari Kartu Pegangan sendiri ke Trash, serangan ini memberikan kerusakan sejumlah 50 untuk tiap lembarnya."
 		},
 
 		damage: "50×",

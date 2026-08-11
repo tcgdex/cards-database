@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Dark Slowking",
-		de: "Dunkles Laschoking"
+		'en-us': "Dark Slowking",
+		'de-de': "Dunkles Laschoking"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Slowpoke",
+		'en-us': "Slowpoke",
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Cunning",
-				de: "Cunning"
+				'en-us': "Cunning",
+				'de-de': "Cunning"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may look at the top card of your opponent's deck. Then, you may shuffle his or her deck. This power can't be used if Dark Slowking is affected by a Special Condition.",
-				de: "Once during your turn (before you attack), you may look at the top card of your opponent's deck. Then, you may shuffle his or her deck. This power can't be used if Dark Slowking is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), you may look at the top card of your opponent's deck. Then, you may shuffle his or her deck. This power can't be used if Dark Slowking is affected by a Special Condition.",
+				'de-de': "Once during your turn (before you attack), you may look at the top card of your opponent's deck. Then, you may shuffle his or her deck. This power can't be used if Dark Slowking is affected by a Special Condition."
 			},
 		},
 	],
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Litter",
-				de: "Litter"
+				'en-us': "Litter",
+				'de-de': "Litter"
 			},
 			effect: {
-				en: "You may discard a combination of up to 2 Pokémon Tool cards and Rocket's Secret Machine cards from your hand, and then do 20 damage plus 30 more damage for each card you discarded.",
-				de: "You may discard a combination of up to 2 Pokémon Tool cards and Rocket's Secret Machine cards from your hand. If you do, this attack does 20 damage plus 30 more damage for each card you discarded."
+				'en-us': "You may discard a combination of up to 2 Pokémon Tool cards and Rocket's Secret Machine cards from your hand, and then do 20 damage plus 30 more damage for each card you discarded.",
+				'de-de': "You may discard a combination of up to 2 Pokémon Tool cards and Rocket's Secret Machine cards from your hand. If you do, this attack does 20 damage plus 30 more damage for each card you discarded."
 			},
 			damage: "20+",
 

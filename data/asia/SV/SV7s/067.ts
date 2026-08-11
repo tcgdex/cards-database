@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "พาปิม็อตจิ",
-		id: "Fidough"
+		'th-th': "พาปิม็อตจิ",
+		'id-id': "Fidough"
 	},
 
 	illustrator: "Narumi Sato",
@@ -15,28 +15,28 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		th: "ยีสต์ที่อยู่ในลมหายใจของมันมีประโยชน์ในการปรุงอาหาร จึงมีมนุษย์คอยดูแลมันมาตั้งแต่ในอดีต",
-		id: "Karena napasnya yang mengandung ragi berguna untuk memasak, Fidough dirawat oleh manusia sejak zaman dahulu."
+		'th-th': "ยีสต์ที่อยู่ในลมหายใจของมันมีประโยชน์ในการปรุงอาหาร จึงมีมนุษย์คอยดูแลมันมาตั้งแต่ในอดีต",
+		'id-id': "Karena napasnya yang mengandung ragi berguna untuk memasak, Fidough dirawat oleh manusia sejak zaman dahulu."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "กลิ่นดี",
-			id: "Bau Harum"
+			'th-th': "กลิ่นดี",
+			'id-id': "Bau Harum"
 		},
 
 		effect: {
-			th: "เลือกการ์ดโปเกมอน[พื้นฐาน] 1 ใบจากสำรับการ์ดฝ่ายเรา วางบนเบนช์ แล้วสับสำรับการ์ด",
-			id: "Pilih 1 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
+			'th-th': "เลือกการ์ดโปเกมอน[พื้นฐาน] 1 ใบจากสำรับการ์ดฝ่ายเรา วางบนเบนช์ แล้วสับสำรับการ์ด",
+			'id-id': "Pilih 1 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "เหยียบ",
-			id: "Menginjak"
+			'th-th': "เหยียบ",
+			'id-id': "Menginjak"
 		},
 
 		damage: 10,

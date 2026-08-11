@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Litwick"
+		'en-us': "Litwick"
 	},
 
 	illustrator: "sowsow",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "The younger the life this Pokémon absorbs,\nthe brighter and eerier the flame on its\nhead burns."
+		'en-us': "The younger the life this Pokémon absorbs,\nthe brighter and eerier the flame on its\nhead burns."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Flare"
+			'en-us': "Flare"
 		},
 
 		damage: 20,

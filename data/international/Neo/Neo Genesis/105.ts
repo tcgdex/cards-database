@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Recycle Energy",
-		fr: "Énergie recyclable",
-		de: "Recycle-Energie"
+		'en-us': "Recycle Energy",
+		'fr-fr': "Énergie recyclable",
+		'de-de': "Recycle-Energie"
 	},
 
 	illustrator: "Hideki Kazama",
@@ -15,8 +15,8 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		en: "Recycle Energy provides Colorless Energy. (Doesn't count as a basic Energy card.) If this card is put into your discard pile from play, return it to your hand.",
-		de: "Recycle-Energie liefert -Energie. (Zählt nicht als Basis-Energiekarte.)Falls diese Karte aus dem Spiel auf deinen Ablagestapel gelegt wird, nimm sie wiede auf deine Hand zurück."
+		'en-us': "Recycle Energy provides Colorless Energy. (Doesn't count as a basic Energy card.) If this card is put into your discard pile from play, return it to your hand.",
+		'de-de': "Recycle-Energie liefert -Energie. (Zählt nicht als Basis-Energiekarte.)Falls diese Karte aus dem Spiel auf deinen Ablagestapel gelegt wird, nimm sie wiede auf deine Hand zurück."
 	},
 
 

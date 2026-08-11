@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lugia ex",
-		fr: "Lugia-ex"
+		'en-us': "Lugia ex",
+		'fr-fr': "Lugia-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -21,16 +21,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Elemental Blast",
-			fr: "Explosion Élémentaire"
+			'en-us': "Elemental Blast",
+			'fr-fr': "Explosion Élémentaire"
 		},
 
 		damage: 180,
 		cost: ["Fire", "Water", "Lightning"],
 
 		effect: {
-			en: "Discard a {R}, {W}, and {L} Energy from this Pokémon.",
-			fr: "Défaussez une Énergie {R}, {W} et {L} de ce Pokémon."
+			'en-us': "Discard a {R}, {W}, and {L} Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie {R}, {W} et {L} de ce Pokémon."
 		}
 	}],
 

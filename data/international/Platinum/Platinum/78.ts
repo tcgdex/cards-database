@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Kricketot",
-		fr: "Crikzik",
-		de: "Zirpurze"
+		'en-us': "Kricketot",
+		'fr-fr': "Crikzik",
+		'de-de': "Zirpurze"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Lullaby",
-				fr: "Comptine",
-				de: "Lullaby"
+				'en-us': "Lullaby",
+				'fr-fr': "Comptine",
+				'de-de': "Lullaby"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				de: "Rollout"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'de-de': "Rollout"
 			},
 
 			damage: 20,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its legs are short. Whenever it stumbles, its stiff antennae clack with a xylophone-like sound."
+		'en-us': "Its legs are short. Whenever it stumbles, its stiff antennae clack with a xylophone-like sound."
 	},
 
 	variants: [

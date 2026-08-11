@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "なみのりビーチ",
+		'ja-jp': "なみのりビーチ",
 	},
 
 	illustrator: "AYUMI ODASHIMA",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのプレイヤーは、自分の番ごとに1回、自分のバトル場の[W]ポケモンを、ベンチの[W]ポケモンと入れ替えてよい。",
+		'ja-jp': "おたがいのプレイヤーは、自分の番ごとに1回、自分のバトル場の[W]ポケモンを、ベンチの[W]ポケモンと入れ替えてよい。",
 	},
 
 	variants: [

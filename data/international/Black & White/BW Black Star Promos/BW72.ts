@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Cobalion",
-		fr: "Cobaltium",
+		'en-us': "Cobalion",
+		'fr-fr': "Cobaltium",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Common",
@@ -25,12 +25,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Justified",
-				fr: "Cœur Noble",
+				'en-us': "Justified",
+				'fr-fr': "Cœur Noble",
 			},
 			effect: {
-				en: "Each of this Pokémon's attacks does 50 more damage to Darkness Pokémon (before applying Weakness and Resistance).",
-				fr: "Chaque attaque de ce Pokémon inflige 50 dégâts supplémentaires aux Pokémon Darkness (avant application de la Faiblesse et de la Résistance).",
+				'en-us': "Each of this Pokémon's attacks does 50 more damage to Darkness Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Chaque attaque de ce Pokémon inflige 50 dégâts supplémentaires aux Pokémon Darkness (avant application de la Faiblesse et de la Résistance).",
 			},
 		},
 	],
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Iron Head",
-				fr: "Tête de Fer",
+				'en-us': "Iron Head",
+				'fr-fr': "Tête de Fer",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 20 more damage for each heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				'en-us': "Flip a coin until you get tails. This attack does 20 more damage for each heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
 			},
 			damage: 60,
 
@@ -71,7 +71,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This legendary Pokémon battled against humans to protect Pokémon. Its personality is calm and composed.",
+		'en-us': "This legendary Pokémon battled against humans to protect Pokémon. Its personality is calm and composed.",
 	},
 }
 

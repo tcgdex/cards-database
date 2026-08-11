@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Polarhume",
-		en: "Cubchoo",
-		es: "Cubchoo",
-		it: "Cubchoo",
-		pt: "Cubchoo",
-		de: "Petznief"
+		'fr-fr': "Polarhume",
+		'en-us': "Cubchoo",
+		'es-es': "Cubchoo",
+		'it-it': "Cubchoo",
+		'pt-br': "Cubchoo",
+		'de-de': "Petznief"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			fr: "Coud'Pattes",
-			en: "Smash Kick",
-			es: "Patada Destrucción",
-			it: "Calcio Esplosivo",
-			pt: "Chute Poderoso",
-			de: "Schmetterkick"
+			'fr-fr': "Coud'Pattes",
+			'en-us': "Smash Kick",
+			'es-es': "Patada Destrucción",
+			'it-it': "Calcio Esplosivo",
+			'pt-br': "Chute Poderoso",
+			'de-de': "Schmetterkick"
 		},
 
 		damage: 10
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			fr: "Croche-Pied",
-			en: "Trip Over",
-			es: "Tropezón",
-			it: "Inciampare",
-			pt: "Tropeção",
-			de: "Stolperer"
+			'fr-fr': "Croche-Pied",
+			'en-us': "Trip Over",
+			'es-es': "Tropezón",
+			'it-it': "Inciampare",
+			'pt-br': "Tropeção",
+			'de-de': "Stolperer"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-			en: "Flip a coin. If heads, this attack does 20 more damage.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+			'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
 		},
 
 		damage: "20+"
@@ -67,7 +67,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Many of this species can be found along the shorelines of cold regions. If a Cubchoo lacks dangling snot, there's a chance it is sick.",
+		'en-us': "Many of this species can be found along the shorelines of cold regions. If a Cubchoo lacks dangling snot, there's a chance it is sick.",
 	},
 
 	variants: [

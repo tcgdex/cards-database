@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Vaporeon V",
-		fr: "Aquali V",
-		es: "Vaporeon V",
-		it: "Vaporeon V",
-		pt: "Vaporeon V",
-		de: "Aquana V"
+		'en-us': "Vaporeon V",
+		'fr-fr': "Aquali V",
+		'es-es': "Vaporeon V",
+		'it-it': "Vaporeon V",
+		'pt-br': "Vaporeon V",
+		'de-de': "Aquana V"
 	},
 
 	rarity: "Ultra Rare",
@@ -23,41 +23,41 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Triple Draw",
-			fr: "Triple Pioche",
-			es: "Triple Robo",
-			it: "Pescata Tripla",
-			pt: "Triple Draw",
-			de: "Dreifachzug"
+			'en-us': "Triple Draw",
+			'fr-fr': "Triple Pioche",
+			'es-es': "Triple Robo",
+			'it-it': "Pescata Tripla",
+			'pt-br': "Triple Draw",
+			'de-de': "Dreifachzug"
 		},
 
 		effect: {
-			en: "Draw 3 cards.",
-			fr: "Piochez 3 cartes.",
-			es: "Roba 3 cartas.",
-			it: "Pesca tre carte.",
-			pt: "Draw 3 cards.",
-			de: "Ziehe 3 Karten."
+			'en-us': "Draw 3 cards.",
+			'fr-fr': "Piochez 3 cartes.",
+			'es-es': "Roba 3 cartas.",
+			'it-it': "Pesca tre carte.",
+			'pt-br': "Draw 3 cards.",
+			'de-de': "Ziehe 3 Karten."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Splash Jump",
-			fr: "Saut Éclaboussant",
-			es: "Salto Salpicadura",
-			it: "Salto Splash",
-			pt: "Splash Jump",
-			de: "Platschersprung"
+			'en-us': "Splash Jump",
+			'fr-fr': "Saut Éclaboussant",
+			'es-es': "Salto Salpicadura",
+			'it-it': "Salto Splash",
+			'pt-br': "Splash Jump",
+			'de-de': "Platschersprung"
 		},
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-			es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-			it: "Scambia questo Pokémon con uno della tua panchina.",
-			pt: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+			'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+			'fr-fr': "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'es-es': "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+			'it-it': "Scambia questo Pokémon con uno della tua panchina.",
+			'pt-br': "Switch this Pokémon with 1 of your Benched Pokémon.",
+			'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 		},
 
 		damage: 90,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG7"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラティアス（デルタ種）",
+		'ja-jp': "ラティアス（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "デュアルオーラ",
+				'ja-jp': "デュアルオーラ",
 			},
 			effect: {
-				ja: "LatiosまたはLatios Exがプレイしている限り、各プレイヤーの進化したPokã©Mon（Pokã©Mon-Exを除く）はPokã©Bodiesを使用できません。",
+				'ja-jp': "LatiosまたはLatios Exがプレイしている限り、各プレイヤーの進化したPokã©Mon（Pokã©Mon-Exを除く）はPokã©Bodiesを使用できません。",
 			},
 		}],
 
@@ -29,16 +29,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "スピアヘッド",
+				'ja-jp': "スピアヘッド",
 			},
 			effect: {
-				ja: "カードを描きます。",
+				'ja-jp': "カードを描きます。",
 			},
 		},
 		{
 			cost: ["Fire", "Colorless", "Colorless"],
 			name: {
-				ja: "ドラゴンクロー",
+				'ja-jp': "ドラゴンクロー",
 			},
 			damage: 40,
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Flygon Ex（デルタ種）",
+		'ja-jp': "Flygon Ex（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "砂の損傷",
+				'ja-jp': "砂の損傷",
 			},
 			effect: {
-				ja: "Flygon Exがアクティブなポカモンである限り、ターンの間に対戦相手のベンチに入った基本的なポケモンに1つのダメージカウンターを置きます。 1つ以上の砂ダメージを使用することはできません。",
+				'ja-jp': "Flygon Exがアクティブなポカモンである限り、ターンの間に対戦相手のベンチに入った基本的なポケモンに1つのダメージカウンターを置きます。 1つ以上の砂ダメージを使用することはできません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Psychic", "Colorless"],
 			name: {
-				ja: "サイキックパルス",
+				'ja-jp': "サイキックパルス",
 			},
 			effect: {
-				ja: "ダメージがカウンターを伴う相手のベンチ付きポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "ダメージがカウンターを伴う相手のベンチ付きポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 80,
 		},

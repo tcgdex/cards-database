@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Electrode",
-		fr: "Électrode",
-		es: "Electrode",
-		it: "Electrode",
-		pt: "Electrode",
-		de: "Lektrobal"
+		'en-us': "Electrode",
+		'fr-fr': "Électrode",
+		'es-es': "Electrode",
+		'it-it': "Electrode",
+		'pt-br': "Electrode",
+		'de-de': "Lektrobal"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Voltorb",
-		fr: "Voltorbe",
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe",
 	},
 
 	stage: "Stage1",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Static Shock",
-				fr: "Choc Statique",
+				'en-us': "Static Shock",
+				'fr-fr': "Choc Statique",
 			},
 
 			damage: 20,
@@ -53,8 +53,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electro Ball",
-				fr: "Boule Élek",
+				'en-us': "Electro Ball",
+				'fr-fr': "Boule Élek",
 			},
 
 			damage: 60,
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It is known to drift on winds if it is bloated to bursting with stored electricity.",
+		'en-us': "It is known to drift on winds if it is bloated to bursting with stored electricity.",
 	},
 
 	thirdParty: {

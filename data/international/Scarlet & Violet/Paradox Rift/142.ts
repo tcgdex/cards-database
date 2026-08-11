@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Porygon",
-		fr: "Porygon",
-		es: "Porygon",
-		it: "Porygon",
-		pt: "Porygon",
-		de: "Porygon"
+		'en-us': "Porygon",
+		'fr-fr': "Porygon",
+		'es-es': "Porygon",
+		'it-it': "Porygon",
+		'pt-br': "Porygon",
+		'de-de': "Porygon"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Data Displacement",
-			fr: "Déplacement de Données",
-			es: "Desplazamiento de Datos",
-			it: "Spostamento Dati",
-			pt: "Deslocamento de Dados",
-			de: "Datenverlagerung"
+			'en-us': "Data Displacement",
+			'fr-fr': "Déplacement de Données",
+			'es-es': "Desplazamiento de Datos",
+			'it-it': "Spostamento Dati",
+			'pt-br': "Deslocamento de Dados",
+			'de-de': "Datenverlagerung"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon.",
-			fr: "Lancez une pièce. Si c'est face, déplacez une Énergie du Pokémon Actif de votre adversaire vers l'un de ses Pokémon de Banc.",
-			es: "Lanza 1 moneda. Si sale cara, mueve 1 Energía del Pokémon Activo de tu rival a uno de sus Pokémon en Banca.",
-			it: "Lancia una moneta. Se esce testa, sposta un'Energia dal Pokémon attivo del tuo avversario a uno dei suoi Pokémon in panchina.",
-			pt: "Jogue uma moeda. Se sair cara, mova uma Energia do Pokémon Ativo do seu oponente para 1 dos Pokémon no Banco dele.",
-			de: "Wirf 1 Münze. Verschiebe bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf 1 Pokémon auf seiner Bank."
+			'en-us': "Flip a coin. If heads, move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon.",
+			'fr-fr': "Lancez une pièce. Si c'est face, déplacez une Énergie du Pokémon Actif de votre adversaire vers l'un de ses Pokémon de Banc.",
+			'es-es': "Lanza 1 moneda. Si sale cara, mueve 1 Energía del Pokémon Activo de tu rival a uno de sus Pokémon en Banca.",
+			'it-it': "Lancia una moneta. Se esce testa, sposta un'Energia dal Pokémon attivo del tuo avversario a uno dei suoi Pokémon in panchina.",
+			'pt-br': "Jogue uma moeda. Se sair cara, mova uma Energia do Pokémon Ativo do seu oponente para 1 dos Pokémon no Banco dele.",
+			'de-de': "Wirf 1 Münze. Verschiebe bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf 1 Pokémon auf seiner Bank."
 		},
 
 		damage: 10
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "In recent years, this species has been very helpful in cyberspace. These Pokémon will go around checking to make sure no suspicious data exists.",
+		'en-us': "In recent years, this species has been very helpful in cyberspace. These Pokémon will go around checking to make sure no suspicious data exists.",
 	},
 
 	variants: [

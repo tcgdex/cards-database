@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Space-Time Smackdown"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Monferno",
-		fr: "Chimpenfeu",
-		es: "Monferno",
-		it: "Monferno",
-		de: "Panpyro",
+		'en-us': "Monferno",
+		'fr-fr': "Chimpenfeu",
+		'es-es': "Monferno",
+		'it-it': "Monferno",
+		'de-de': "Panpyro",
 		'pt-br': "Monferno",
-		ko: "파이숭이"
+		'ko-kr': "파이숭이"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -23,30 +23,30 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Chimchar"
+		'en-us': "Chimchar"
 	},
 
 	description: {
-		en: "It skillfully controls the intensity of the fire on its tail to keep its foes at an ideal distance.",
-		fr: "Il contrôle habilement l'intensité de la flamme\nde sa queue pour maintenir une distance idéale\nentre lui et ses adversaires lors des combats.",
-		es: "Controla hábilmente la intensidad del fuego de la cola\npara mantener al enemigo a una distancia ideal.",
-		it: "Controlla abilmente l'intensità delle fiamme sulla\nsua coda per tenere i nemici alla distanza ideale.",
-		de: "Es kontrolliert die Stärke des Feuers an seinem Schweif\ngeschickt, um Gegner auf idealer Distanz zu halten.",
+		'en-us': "It skillfully controls the intensity of the fire on its tail to keep its foes at an ideal distance.",
+		'fr-fr': "Il contrôle habilement l'intensité de la flamme\nde sa queue pour maintenir une distance idéale\nentre lui et ses adversaires lors des combats.",
+		'es-es': "Controla hábilmente la intensidad del fuego de la cola\npara mantener al enemigo a una distancia ideal.",
+		'it-it': "Controlla abilmente l'intensità delle fiamme sulla\nsua coda per tenere i nemici alla distanza ideale.",
+		'de-de': "Es kontrolliert die Stärke des Feuers an seinem Schweif\ngeschickt, um Gegner auf idealer Distanz zu halten.",
 		'pt-br': "Controla habilmente a intensidade do fogo em sua cauda\npara manter seus inimigos a uma distância ideal.",
-		ko: "꼬리의 불꽃 세기를\n잘 컨트롤하여 자신에게\n맞는 거리를 두고 싸운다."
+		'ko-kr': "꼬리의 불꽃 세기를\n잘 컨트롤하여 자신에게\n맞는 거리를 두고 싸운다."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Fiery Punch",
-			fr: "Poing de Feu",
-			es: "Puño Ardiente",
-			it: "Pugnodifuoco",
-			de: "Flammenschlag",
+			'en-us': "Fiery Punch",
+			'fr-fr': "Poing de Feu",
+			'es-es': "Puño Ardiente",
+			'it-it': "Pugnodifuoco",
+			'de-de': "Flammenschlag",
 			'pt-br': "Soco Ardente",
-			ko: "불꽃튀는펀치"
+			'ko-kr': "불꽃튀는펀치"
 		},
 
 		damage: 30,

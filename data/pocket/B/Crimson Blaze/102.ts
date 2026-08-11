@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [681],
 
 	name: {
-		en: "Aegislash"
+		'en-us': "Aegislash"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Doublade"
+		'en-us': "Doublade"
 	},
 
 	description: {
-		en: "Once upon a time, a king with an Aegislash\nreigned over the land. His Pokémon eventually\ndrained him of life, and his kingdom fell with him."
+		'en-us': "Once upon a time, a king with an Aegislash\nreigned over the land. His Pokémon eventually\ndrained him of life, and his kingdom fell with him."
 	},
 
 	stage: "Stage2",
@@ -30,17 +30,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Cursed Metal"
+			'en-us': "Cursed Metal"
 		},
 
 		effect: {
-			en: "Attacks used by your {P} Pokémon and {M} Pokémon do +30 damage to your opponent's Active Pokémon."
+			'en-us': "Attacks used by your {P} Pokémon and {M} Pokémon do +30 damage to your opponent's Active Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Slicing Blade"
+			'en-us': "Slicing Blade"
 		},
 
 		damage: 70,

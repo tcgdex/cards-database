@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Jellicent",
-		fr: "Moyade",
-		es: "Jellicent",
-		it: "Jellicent",
-		pt: "Jellicent",
-		de: "Apoquallyp"
+		'en-us': "Jellicent",
+		'fr-fr': "Moyade",
+		'es-es': "Jellicent",
+		'it-it': "Jellicent",
+		'pt-br': "Jellicent",
+		'de-de': "Apoquallyp"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Frillish",
-		fr: "Viskuse",
+		'en-us': "Frillish",
+		'fr-fr': "Viskuse",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Cursed Body",
-				fr: "Corps Maudit",
-				es: "Cuerpo Maldito",
-				it: "Corpofunesto",
-				pt: "Corpo Amaldiçoado",
-				de: "Tastfluch"
+				'en-us': "Cursed Body",
+				'fr-fr': "Corps Maudit",
+				'es-es': "Cuerpo Maldito",
+				'it-it': "Corpofunesto",
+				'pt-br': "Corpo Amaldiçoado",
+				'de-de': "Tastfluch"
 			},
 			effect: {
-				en: "If this Pokémon is your Active Pokémon and is damaged by an opponent’s attack (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Confused.",
-				fr: "Si ce Pokémon est votre Pokémon Actif et qu’il subit les dégâts d’une attaque de votre adversaire (même si ce Pokémon est mis K.O.), le Pokémon Attaquant est maintenant Confus.",
-				es: "Si este Pokémon es tu Pokémon Activo y resulta dañado por el ataque de un rival (incluso si este Pokémon queda Fuera de Combate), el Pokémon Atacante pasa a estar Confundido.",
-				it: "Se questo Pokémon è il tuo Pokémon attivo e viene danneggiato da un attacco del tuo avversario, anche se viene messo K.O., il Pokémon attaccante viene confuso.",
-				pt: "Se este Pokémon for seu Pokémon Ativo e ele for danificado pelo ataque de um oponente (mesmo se esse Pokémon for Nocauteado), o Pokémon Atacante ficará Confuso.",
-				de: "Wenn dieses Pokémon dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (oder dieses Pokémon sogar kampfunfähig wird), ist das Angreifende Pokémon jetzt verwirrt."
+				'en-us': "If this Pokémon is your Active Pokémon and is damaged by an opponent’s attack (even if this Pokémon is Knocked Out), the Attacking Pokémon is now Confused.",
+				'fr-fr': "Si ce Pokémon est votre Pokémon Actif et qu’il subit les dégâts d’une attaque de votre adversaire (même si ce Pokémon est mis K.O.), le Pokémon Attaquant est maintenant Confus.",
+				'es-es': "Si este Pokémon es tu Pokémon Activo y resulta dañado por el ataque de un rival (incluso si este Pokémon queda Fuera de Combate), el Pokémon Atacante pasa a estar Confundido.",
+				'it-it': "Se questo Pokémon è il tuo Pokémon attivo e viene danneggiato da un attacco del tuo avversario, anche se viene messo K.O., il Pokémon attaccante viene confuso.",
+				'pt-br': "Se este Pokémon for seu Pokémon Ativo e ele for danificado pelo ataque de um oponente (mesmo se esse Pokémon for Nocauteado), o Pokémon Atacante ficará Confuso.",
+				'de-de': "Wenn dieses Pokémon dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (oder dieses Pokémon sogar kampfunfähig wird), ist das Angreifende Pokémon jetzt verwirrt."
 			},
 		},
 	],
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Pump",
-				fr: "Hydrocanon",
+				'en-us': "Hydro Pump",
+				'fr-fr': "Hydrocanon",
 			},
 			effect: {
-				en: "Does 20 more damage for each Water Energy attached to this Pokémon.",
-				fr: "Inflige 20 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+				'en-us': "Does 20 more damage for each Water Energy attached to this Pokémon.",
+				'fr-fr': "Inflige 20 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
 			},
 			damage: 10,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "The fate of ships and crew that wander into Jellicent's habitats: all sunken, all lost, all vanished.",
+		'en-us': "The fate of ships and crew that wander into Jellicent's habitats: all sunken, all lost, all vanished.",
 	},
 
 	thirdParty: {

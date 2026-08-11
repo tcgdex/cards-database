@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cubchoo",
-		fr: "Polarhume",
-		es: "Cubchoo",
-		it: "Cubchoo",
-		pt: "Cubchoo",
-		de: "Petznief"
+		'en-us': "Cubchoo",
+		'fr-fr': "Polarhume",
+		'es-es': "Cubchoo",
+		'it-it': "Cubchoo",
+		'pt-br': "Cubchoo",
+		'de-de': "Petznief"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Chilly",
-			fr: "Glacial",
-			es: "Fresquito",
-			it: "Addiaccio",
-			pt: "Frio",
-			de: "Frösteln"
+			'en-us': "Chilly",
+			'fr-fr': "Glacial",
+			'es-es': "Fresquito",
+			'it-it': "Addiaccio",
+			'pt-br': "Frio",
+			'de-de': "Frösteln"
 		},
 
 		damage: 20
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When this Pokémon is in good health, its snot becomes thicker and stickier. It will smear its snot on anyone it doesn't like.",
+		'en-us': "When this Pokémon is in good health, its snot becomes thicker and stickier. It will smear its snot on anyone it doesn't like.",
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Psyduck",
-		fr: "Psykokwak",
-		de: "Enton"
+		'en-us': "Psyduck",
+		'fr-fr': "Psykokwak",
+		'de-de': "Enton"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confusion Wave",
-				fr: "Vague de confusion",
-				de: "Confusion Wave"
+				'en-us': "Confusion Wave",
+				'fr-fr': "Vague de confusion",
+				'de-de': "Confusion Wave"
 			},
 			effect: {
-				en: "Both Psyduck and the Defending Pokémon are now Confused.",
-				fr: "Psykokwak et le Pokémon Défenseur sont maintenant Confus.",
-				de: "Both Psyduck and the Defending Pokémon are now Confused."
+				'en-us': "Both Psyduck and the Defending Pokémon are now Confused.",
+				'fr-fr': "Psykokwak et le Pokémon Défenseur sont maintenant Confus.",
+				'de-de': "Both Psyduck and the Defending Pokémon are now Confused."
 			},
 
 		},

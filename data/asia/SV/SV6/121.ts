@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハピナスex",
+		'ja-jp': "ハピナスex",
 		'zh-tw': "幸福蛋ex",
 	},
 
@@ -19,11 +19,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ハッピースイッチ",
+				'ja-jp': "ハッピースイッチ",
 				'zh-tw': "幸福切換",
 			},
 			effect: {
-				ja: "自分の番に1回使える。自分の場のポケモンについている基本エネルギーを1個選び、自分の別のポケモンにつけ替える。",
+				'ja-jp': "自分の番に1回使える。自分の場のポケモンについている基本エネルギーを1個選び、自分の別のポケモンにつけ替える。",
 				'zh-tw': "在自己的回合時可使用1次。選擇1個自己的場上寶可夢身上附加的基本能量，改附於自己的其他寶可夢身上。",
 			},
 		},
@@ -32,13 +32,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "おんがえし",
+				'ja-jp': "おんがえし",
 				'zh-tw': "報恩",
 			},
 			damage: 180,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "のぞむなら、自分の手札が6枚になるように、山札を引く。",
+				'ja-jp': "のぞむなら、自分の手札が6枚になるように、山札を引く。",
 				'zh-tw': "若希望，從牌庫抽卡直到自己的手牌滿6張為止。",
 			},
 		},
@@ -58,7 +58,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ラッキー",
+		'ja-jp': "ラッキー",
 	},
 
 	retreat: 4,

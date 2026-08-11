@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zubat",
-		fr: "Nosferapti",
-		es: "Zubat",
-		it: "Zubat",
-		pt: "Zubat",
-		de: "Zubat"
+		'en-us': "Zubat",
+		'fr-fr': "Nosferapti",
+		'es-es': "Zubat",
+		'it-it': "Zubat",
+		'pt-br': "Zubat",
+		'de-de': "Zubat"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			es: "Mordisco",
-			it: "Morso",
-			pt: "Mordida",
-			de: "Biss"
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'es-es': "Mordisco",
+			'it-it': "Morso",
+			'pt-br': "Mordida",
+			'de-de': "Biss"
 		},
 
 		damage: 10
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It emits ultrasonic waves from its mouth to check its surroundings. Even in tight caves, Zubat flies around with skill.",
+		'en-us': "It emits ultrasonic waves from its mouth to check its surroundings. Even in tight caves, Zubat flies around with skill.",
 	},
 
 	variants: [

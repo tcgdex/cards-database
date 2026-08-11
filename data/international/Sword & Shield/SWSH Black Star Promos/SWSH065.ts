@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eevee V",
-		fr: "Évoli V",
-		es: "Eevee V",
-		it: "Eevee V",
-		pt: "Eevee V",
-		de: "Evoli V"
+		'en-us': "Eevee V",
+		'fr-fr': "Évoli V",
+		'es-es': "Eevee V",
+		'it-it': "Eevee V",
+		'pt-br': "Eevee V",
+		'de-de': "Evoli V"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -21,41 +21,41 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			es: "Coleccionar",
-			it: "Tassa",
-			pt: "Coleta",
-			de: "Sammeln"
+			'en-us': "Collect",
+			'fr-fr': "Collecte",
+			'es-es': "Coleccionar",
+			'it-it': "Tassa",
+			'pt-br': "Coleta",
+			'de-de': "Sammeln"
 		},
 
 		effect: {
-			en: "Draw 3 cards.",
-			fr: "Piochez 3 cartes.",
-			es: "Roba 3 cartas.",
-			it: "Pesca tre carte.",
-			pt: "Compre 3 cartas.",
-			de: "Ziehe 3 Karten."
+			'en-us': "Draw 3 cards.",
+			'fr-fr': "Piochez 3 cartes.",
+			'es-es': "Roba 3 cartas.",
+			'it-it': "Pesca tre carte.",
+			'pt-br': "Compre 3 cartas.",
+			'de-de': "Ziehe 3 Karten."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Brave Buddies",
-			fr: "Copains Courageux",
-			es: "Colegas Osados",
-			it: "Amici Coraggiosi",
-			pt: "Bravos Amigos",
-			de: "Kühne Kumpel"
+			'en-us': "Brave Buddies",
+			'fr-fr': "Copains Courageux",
+			'es-es': "Colegas Osados",
+			'it-it': "Amici Coraggiosi",
+			'pt-br': "Bravos Amigos",
+			'de-de': "Kühne Kumpel"
 		},
 
 		effect: {
-			en: "If you played a Supporter card from your hand during this turn, this attack does 80 more damage.",
-			fr: "Si vous avez joué une carte Supporter de votre main pendant ce tour, cette attaque inflige 80 dégâts supplémentaires.",
-			es: "Si has jugado 1 carta de Partidario de tu mano durante este turno, este ataque hace 80 puntos de daño más.",
-			it: "Se hai giocato una carta Aiuto dalla tua mano durante questo turno, questo attacco infligge 80 danni in più.",
-			pt: "Se você jogou 1 carta de Apoiador da sua mão durante este turno, este ataque causará 80 pontos de dano a mais.",
-			de: "Wenn du eine Unterstützerkarte während dieses Zuges aus deiner Hand gespielt hast, fügt diese Attacke 80 Schadenspunkte mehr zu."
+			'en-us': "If you played a Supporter card from your hand during this turn, this attack does 80 more damage.",
+			'fr-fr': "Si vous avez joué une carte Supporter de votre main pendant ce tour, cette attaque inflige 80 dégâts supplémentaires.",
+			'es-es': "Si has jugado 1 carta de Partidario de tu mano durante este turno, este ataque hace 80 puntos de daño más.",
+			'it-it': "Se hai giocato una carta Aiuto dalla tua mano durante questo turno, questo attacco infligge 80 danni in più.",
+			'pt-br': "Se você jogou 1 carta de Apoiador da sua mão durante este turno, este ataque causará 80 pontos de dano a mais.",
+			'de-de': "Wenn du eine Unterstützerkarte während dieses Zuges aus deiner Hand gespielt hast, fügt diese Attacke 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+",

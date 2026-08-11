@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ファイアロー",
+		'ja-jp': "ファイアロー",
 	},
 
 	illustrator: "Shinji Kanda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "激しい 戦いで 興奮すると 全身の 羽毛の 隙間から 火の粉を 噴き出して 飛行する。",
+		'ja-jp': "激しい 戦いで 興奮すると 全身の 羽毛の 隙間から 火の粉を 噴き出して 飛行する。",
 	},
 
 	stage: "Stage2",
@@ -28,7 +28,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "ヒノヤコマ",
+		'ja-jp': "ヒノヤコマ",
 	},
 
 	retreat: 1,

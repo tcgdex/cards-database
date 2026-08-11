@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Poussacha",
-		en: "Sprigatito",
-		es: "Sprigatito",
-		it: "Sprigatito",
-		pt: "Sprigatito",
-		de: "Felori"
+		'fr-fr': "Poussacha",
+		'en-us': "Sprigatito",
+		'es-es': "Sprigatito",
+		'it-it': "Sprigatito",
+		'pt-br': "Sprigatito",
+		'de-de': "Felori"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Creusogriffes",
-			en: "Dig Claws",
-			es: "Hundir Garras",
-			it: "Scavazanne",
-			pt: "Fincar Garras",
-			de: "Schaufelkrallen"
+			'fr-fr': "Creusogriffes",
+			'en-us': "Dig Claws",
+			'es-es': "Hundir Garras",
+			'it-it': "Scavazanne",
+			'pt-br': "Fincar Garras",
+			'de-de': "Schaufelkrallen"
 		},
 
 		damage: 30
@@ -66,7 +66,7 @@ const card: Card = {
 	illustrator: "Naoyo Kimura",
 
 	description: {
-		en: "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out.",
+		'en-us': "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out.",
 	},
 }
 

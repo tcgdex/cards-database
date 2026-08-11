@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホウオウGX",
+		'ja-jp': "ホウオウGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "せいなるほのお" },
 			cost: ["Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -27,14 +27,14 @@ const card: Card = {
 			damage: 180,
 			cost: ["Fire", "Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「フェニックスバーン」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「フェニックスバーン」が使えない。",
 			},
 		},
 		{
 			name: { ja: "エターナルライトGX" },
 			cost: ["Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のトラッシュにある[炎]タイプの「ポケモンGX・EX」を3枚、ベンチに出す。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分のトラッシュにある[炎]タイプの「ポケモンGX・EX」を3枚、ベンチに出す。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

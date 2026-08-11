@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サワムラー",
+		'ja-jp': "サワムラー",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Fighting"],
 			name: {
-				ja: "ストレッチキック",
+				'ja-jp': "ストレッチキック",
 			},
 			effect: {
-				ja: "対戦相手のベンチポケモンの1つを選択すると、この攻撃は20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "対戦相手のベンチポケモンの1つを選択すると、この攻撃は20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 
 		},
 		{
 			cost: ["Fighting", "Fighting", "Fighting"],
 			name: {
-				ja: "ハイジャンプキック",
+				'ja-jp': "ハイジャンプキック",
 			},
 			damage: 50,
 		},

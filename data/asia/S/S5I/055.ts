@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S5I";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オニスズメ",
+		'ja-jp': "オニスズメ",
 		'zh-tw': "烈雀",
-		th: "โอนิสึซึเมะ",
+		'th-th': "โอนิสึซึเมะ",
 	},
 
 	illustrator: "Sekio",
@@ -15,9 +15,9 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "羽が 短く 長い 距離を 飛べない。 せわしなく 動き まわって むしポケモンを ついばむ。",
+		'ja-jp': "羽が 短く 長い 距離を 飛べない。 せわしなく 動き まわって むしポケモンを ついばむ。",
 		'zh-tw': "翅膀很短，無法長距離飛行。總是不停地四處跳來跳去，忙著啄食蟲寶可夢。",
-		th: "ด้วยปีกที่สั้นทำให้บินได้ไม่ไกล มักขยับไปมาอย่างลุกลี้ลุกลนจิกกินโปเกมอนแมลง",
+		'th-th': "ด้วยปีกที่สั้นทำให้บินได้ไม่ไกล มักขยับไปมาอย่างลุกลี้ลุกลนจิกกินโปเกมอนแมลง",
 	},
 
 	stage: "Basic",
@@ -25,9 +25,9 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "つつく",
+				'ja-jp': "つつく",
 				'zh-tw': "啄",
-				th: "จิก",
+				'th-th': "จิก",
 			},
 			damage: 20,
 			cost: ["Colorless"],

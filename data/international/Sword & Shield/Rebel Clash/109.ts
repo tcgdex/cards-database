@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	name: {
-		en: "Falinks",
-		fr: "Hexadron",
-		es: "Falinks",
-		it: "Falinks",
-		pt: "Falinks",
-		de: "Legios"
+		'en-us': "Falinks",
+		'fr-fr': "Hexadron",
+		'es-es': "Falinks",
+		'it-it': "Falinks",
+		'pt-br': "Falinks",
+		'de-de': "Legios"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -23,20 +23,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la Famille",
-				es: "Llamar a la Familia",
-				it: "Cerca Famiglia",
-				pt: "Chamar a Família",
-				de: "Familienruf"
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la Famille",
+				'es-es': "Llamar a la Familia",
+				'it-it': "Cerca Famiglia",
+				'pt-br': "Chamar a Família",
+				'de-de': "Familienruf"
 			},
 			effect: {
-				en: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
-				fr: "Cherchez dans votre deck jusqu'à 2 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja hasta 2 Pokémon Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
-				it: "Cerca nel tuo mazzo fino a due Pokémon Base e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure por até 2 Pokémon Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
+				'en-us': "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
+				'fr-fr': "Cherchez dans votre deck jusqu'à 2 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja hasta 2 Pokémon Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo fino a due Pokémon Base e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por até 2 Pokémon Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
 			},
 
 		},
@@ -46,20 +46,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Team Attack",
-				fr: "Attaque de Groupe",
-				es: "Ataque en Equipo",
-				it: "Attacco in Team",
-				pt: "Ataque em Equipe",
-				de: "Teamangriff"
+				'en-us': "Team Attack",
+				'fr-fr': "Attaque de Groupe",
+				'es-es': "Ataque en Equipo",
+				'it-it': "Attacco in Team",
+				'pt-br': "Ataque em Equipe",
+				'de-de': "Teamangriff"
 			},
 			effect: {
-				en: "This attack does 30 damage for each of your Benched Pokémon that has \"Falinks\" in its name.",
-				fr: "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon de Banc ayant « Hexadron » dans son nom.",
-				es: "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon en Banca que tenga \"Falinks\" en su nombre.",
-				it: "Questo attacco infligge 30 danni per ogni Pokémon nella tua panchina con “Falinks” nel nome.",
-				pt: "Este ataque causa 30 pontos de dano para cada um dos seus Pokémon no Banco que tenha \"Falinks” em seu nome.",
-				de: "Diese Attacke fügt für jedes Pokémon auf deiner Bank, bei dem „Legios“ zum Namen gehört, 30 Schadenspunkte zu."
+				'en-us': "This attack does 30 damage for each of your Benched Pokémon that has \"Falinks\" in its name.",
+				'fr-fr': "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon de Banc ayant « Hexadron » dans son nom.",
+				'es-es': "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon en Banca que tenga \"Falinks\" en su nombre.",
+				'it-it': "Questo attacco infligge 30 danni per ogni Pokémon nella tua panchina con “Falinks” nel nome.",
+				'pt-br': "Este ataque causa 30 pontos de dano para cada um dos seus Pokémon no Banco que tenha \"Falinks” em seu nome.",
+				'de-de': "Diese Attacke fügt für jedes Pokémon auf deiner Bank, bei dem „Legios“ zum Namen gehört, 30 Schadenspunkte zu."
 			},
 			damage: "30×",
 
@@ -82,7 +82,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Five of them are troopers, and one is the brass. The brass's orders are absolute."
+		'en-us': "Five of them are troopers, and one is the brass. The brass's orders are absolute."
 	},
 
 	variants: [

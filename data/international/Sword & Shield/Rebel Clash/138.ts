@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [884],
 
 	name: {
-		en: "Duraludon",
-		fr: "Duralugon",
-		es: "Duraludon",
-		it: "Duraludon",
-		pt: "Duraludon",
-		de: "Duraludon"
+		'en-us': "Duraludon",
+		'fr-fr': "Duralugon",
+		'es-es': "Duraludon",
+		'it-it': "Duraludon",
+		'pt-br': "Duraludon",
+		'de-de': "Duraludon"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -24,20 +24,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Sharpener",
-				fr: "Affuteur de Métal",
-				es: "Afilador de Metales",
-				it: "Affilametallo",
-				pt: "Amolador de Metal",
-				de: "Metallschleifer"
+				'en-us': "Metal Sharpener",
+				'fr-fr': "Affuteur de Métal",
+				'es-es': "Afilador de Metales",
+				'it-it': "Affilametallo",
+				'pt-br': "Amolador de Metal",
+				'de-de': "Metallschleifer"
 			},
 			effect: {
-				en: "Attach a Metal Energy card from your discard pile to 1 of your Pokémon.",
-				fr: "Attachez une carte Énergie Metal de votre pile de défausse à l'un de vos Pokémon.",
-				es: "Une 1 carta de Energía Metal de tu pila de descartes a 1 de tus Pokémon.",
-				it: "Assegna a uno dei tuoi Pokémon una carta Energia Metal dalla tua pila degli scarti.",
-				pt: "Ligue 1 carta de Energia Metal da sua pilha de descarte a 1 dos seus Pokémon.",
-				de: "Lege 1 Metal-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon an."
+				'en-us': "Attach a Metal Energy card from your discard pile to 1 of your Pokémon.",
+				'fr-fr': "Attachez une carte Énergie Metal de votre pile de défausse à l'un de vos Pokémon.",
+				'es-es': "Une 1 carta de Energía Metal de tu pila de descartes a 1 de tus Pokémon.",
+				'it-it': "Assegna a uno dei tuoi Pokémon una carta Energia Metal dalla tua pila degli scarti.",
+				'pt-br': "Ligue 1 carta de Energia Metal da sua pilha de descarte a 1 dos seus Pokémon.",
+				'de-de': "Lege 1 Metal-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon an."
 			},
 			damage: 30,
 
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Power Beam",
-				fr: "Puissant Rayon",
-				es: "Rayo de Luz Poderoso",
-				it: "Raggiopotenza",
-				pt: "Raio de Poder",
-				de: "Power-Strahl"
+				'en-us': "Power Beam",
+				'fr-fr': "Puissant Rayon",
+				'es-es': "Rayo de Luz Poderoso",
+				'it-it': "Raggiopotenza",
+				'pt-br': "Raio de Poder",
+				'de-de': "Power-Strahl"
 			},
 
 			damage: 110,
@@ -85,7 +85,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily."
+		'en-us': "Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily."
 	},
 
 	variants: [

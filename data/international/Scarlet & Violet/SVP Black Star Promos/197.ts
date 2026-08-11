@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Koraidon ex",
-		fr: "Koraidon-ex",
-		de: "Koraidon-ex",
-		es: "Koraidon ex",
-		it: "Koraidon-ex",
-		pt: "Koraidon ex"
+		'en-us': "Koraidon ex",
+		'fr-fr': "Koraidon-ex",
+		'de-de': "Koraidon-ex",
+		'es-es': "Koraidon ex",
+		'it-it': "Koraidon-ex",
+		'pt-br': "Koraidon ex"
 	},
 
 
@@ -28,12 +28,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Claw Slash",
-			fr: "Tranch'Griffe",
-			de: "Klauenschlitzer",
-			es: "Cuchillada Garra",
-			it: "Lacerartiglio",
-			pt: "Golpe de Garra"
+			'en-us': "Claw Slash",
+			'fr-fr': "Tranch'Griffe",
+			'de-de': "Klauenschlitzer",
+			'es-es': "Cuchillada Garra",
+			'it-it': "Lacerartiglio",
+			'pt-br': "Golpe de Garra"
 		},
 
 		damage: 50
@@ -41,21 +41,21 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Revenge Buster",
-			fr: "Buster Vengeur",
-			de: "Vergeltungsschlag",
-			es: "Venganza Destructora",
-			it: "Vendetta Distruttiva",
-			pt: "Vingança Aniquiladora"
+			'en-us': "Revenge Buster",
+			'fr-fr': "Buster Vengeur",
+			'de-de': "Vergeltungsschlag",
+			'es-es': "Venganza Destructora",
+			'it-it': "Vendetta Distruttiva",
+			'pt-br': "Vingança Aniquiladora"
 		},
 
 		effect: {
-			en: "If your Benched Pokémon have any damage counters on them, this attack does 120 more damage.",
-			fr: "Si au moins un marqueur de dégâts est placé sur vos Pokémon de Banc, cette attaque inflige 120 dégâts supplémentaires.",
-			de: "Wenn auf den Pokémon auf deiner Bank mindestens 1 Schadensmarke liegt, fügt diese Attacke 120 Schadenspunkte mehr zu.",
-			es: "Si tus Pokémon en Banca tienen algún contador de daño sobre ellos, este ataque hace 120 puntos de daño más.",
-			it: "Se i tuoi Pokémon in panchina hanno dei segnalini danno, questo attacco infligge 120 danni in più.",
-			pt: "Se os seus Pokémon no Banco tiverem algum contador de dano neles, este ataque causará 120 pontos de dano a mais."
+			'en-us': "If your Benched Pokémon have any damage counters on them, this attack does 120 more damage.",
+			'fr-fr': "Si au moins un marqueur de dégâts est placé sur vos Pokémon de Banc, cette attaque inflige 120 dégâts supplémentaires.",
+			'de-de': "Wenn auf den Pokémon auf deiner Bank mindestens 1 Schadensmarke liegt, fügt diese Attacke 120 Schadenspunkte mehr zu.",
+			'es-es': "Si tus Pokémon en Banca tienen algún contador de daño sobre ellos, este ataque hace 120 puntos de daño más.",
+			'it-it': "Se i tuoi Pokémon in panchina hanno dei segnalini danno, questo attacco infligge 120 danni in più.",
+			'pt-br': "Se os seus Pokémon no Banco tiverem algum contador de dano neles, este ataque causará 120 pontos de dano a mais."
 		},
 
 		damage: "100+"

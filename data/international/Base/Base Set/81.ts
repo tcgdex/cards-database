@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Energy Retrieval",
-		fr: "Sauvegarde d'Énergie",
-		de: "Energiezugewinnung",
-		it: "Recupero di Energia"
+		'en-us': "Energy Retrieval",
+		'fr-fr': "Sauvegarde d'Énergie",
+		'de-de': "Energiezugewinnung",
+		'it-it': "Recupero di Energia"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,10 +15,10 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Trade 1 of the other cards in your hand for up to 2 basic Energy cards from your discard pile.",
-		fr: "Ajoutez à votre main jusqu'à 2 cartes Énergie de base de votre pile de défausse.",
-		de: "Tausche eine Karte auf Deiner Hand gegen bis zu 2 Basis-Energiekarten von Deinem Ablagestapel.",
-		it: "Scambia una delle altre carte che hai in mano con un massimo di 2 carte Energia base dalla tua pila degli scarti.",
+		'en-us': "Trade 1 of the other cards in your hand for up to 2 basic Energy cards from your discard pile.",
+		'fr-fr': "Ajoutez à votre main jusqu'à 2 cartes Énergie de base de votre pile de défausse.",
+		'de-de': "Tausche eine Karte auf Deiner Hand gegen bis zu 2 Basis-Energiekarten von Deinem Ablagestapel.",
+		'it-it': "Scambia una delle altre carte che hai in mano con un massimo di 2 carte Energia base dalla tua pila degli scarti.",
 	},
 
 	variants: [

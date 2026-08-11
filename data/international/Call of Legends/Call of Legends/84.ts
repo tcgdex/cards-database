@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Research Record",
-		fr: "Archive des recherches",
-		de: "Forschungsdaten"
+		'en-us': "Research Record",
+		'fr-fr': "Archive des recherches",
+		'de-de': "Forschungsdaten"
 	},
 
 	illustrator: "Hideaki Hakozaki",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Look at the top 4 cards of your deck and put as many of them as you like back on top of your deck in any order. Then, put the remaining cards on the bottom of your deck in any order.",
-		fr: "Regardez les 4 cartes du dessus de votre deck et replacez celles que vous voulez sur le dessus de votre deck dans n'importe quel ordre. Ensuite, placez les cartes restantes au-dessous de votre deck dans n'importe quel ordre.",
-		de: "Schau dir die obersten 4 Karten deines Decks an und lege beliebig viele davon in beliebiger Reihenfolge auf dein Deck. Lege dann die restlichen Karten in beliebiger Reihenfolge unter dein Deck."
+		'en-us': "Look at the top 4 cards of your deck and put as many of them as you like back on top of your deck in any order. Then, put the remaining cards on the bottom of your deck in any order.",
+		'fr-fr': "Regardez les 4 cartes du dessus de votre deck et replacez celles que vous voulez sur le dessus de votre deck dans n'importe quel ordre. Ensuite, placez les cartes restantes au-dessous de votre deck dans n'importe quel ordre.",
+		'de-de': "Schau dir die obersten 4 Karten deines Decks an und lege beliebig viele davon in beliebiger Reihenfolge auf dein Deck. Lege dann die restlichen Karten in beliebiger Reihenfolge unter dein Deck."
 	},
 
 	trainerType: "Item",

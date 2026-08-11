@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Beheeyem",
-		fr: "Neitram",
-		es: "Beheeyem",
-		it: "Beheeyem",
-		pt: "Beheeyem",
-		de: "Megalon"
+		'en-us': "Beheeyem",
+		'fr-fr': "Neitram",
+		'es-es': "Beheeyem",
+		'it-it': "Beheeyem",
+		'pt-br': "Beheeyem",
+		'de-de': "Megalon"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Elgyem",
-		fr: "Lewsor",
+		'en-us': "Elgyem",
+		'fr-fr': "Lewsor",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Brain Control",
-				fr: "Contrôle Cérébral",
+				'en-us': "Brain Control",
+				'fr-fr': "Contrôle Cérébral",
 			},
 			effect: {
-				en: "Your opponent reveals his or her hand. Choose a card from there and put it on the bottom of your opponent's deck.",
-				fr: "Votre adversaire montre sa main. Choisissez-y une carte et mettez-la en dessous du deck de votre adversaire.",
+				'en-us': "Your opponent reveals his or her hand. Choose a card from there and put it on the bottom of your opponent's deck.",
+				'fr-fr': "Votre adversaire montre sa main. Choisissez-y une carte et mettez-la en dessous du deck de votre adversaire.",
 			},
 
 		},
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psybeam",
-				fr: "Rafale Psy",
+				'en-us': "Psybeam",
+				'fr-fr': "Rafale Psy",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: 40,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It can manipulate an opponent's memory. Apparently, it communicates by flashing its three different-colored fingers.",
+		'en-us': "It can manipulate an opponent's memory. Apparently, it communicates by flashing its three different-colored fingers.",
 	},
 
 	thirdParty: {

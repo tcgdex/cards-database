@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Pikipek",
-		fr: "Picassaut",
-		es: "Pikipek",
-		it: "Pikipek",
-		pt: "Pikipek",
-		de: "Peppeck"
+		'en-us': "Pikipek",
+		'fr-fr': "Picassaut",
+		'es-es': "Pikipek",
+		'it-it': "Pikipek",
+		'pt-br': "Pikipek",
+		'de-de': "Peppeck"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Smash",
-				fr: "Éclate-Roc",
-				es: "Golpe Roca",
-				it: "Spaccaroccia",
-				pt: "Esmagamento de Pedras",
-				de: "Zertrümmerer"
+				'en-us': "Rock Smash",
+				'fr-fr': "Éclate-Roc",
+				'es-es': "Golpe Roca",
+				'it-it': "Spaccaroccia",
+				'pt-br': "Esmagamento de Pedras",
+				'de-de': "Zertrümmerer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
-				pt: "Jogue 1 moeda. Se sair cara, este ataque causará 10 pontos de dano a mais.",
-				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 10 Schadenspunkte mehr zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 10 pontos de dano a mais.",
+				'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 10 Schadenspunkte mehr zu."
 			},
 			damage: "10+",
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon feeds on berries, whose leftover seeds become the ammunition for the attacks it fires off from its mouth.",
+		'en-us': "This Pokémon feeds on berries, whose leftover seeds become the ammunition for the attacks it fires off from its mouth.",
 	},
 
 	thirdParty: {

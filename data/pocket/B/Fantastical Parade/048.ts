@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [1017],
 
 	name: {
-		en: "Wellspring Mask Ogerpon"
+		'en-us': "Wellspring Mask Ogerpon"
 	},
 
 	illustrator: "Mina Nakai",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "In this form, it draws on the power of water.\nIt attacks unrelentingly with kicks and ivy strikes."
+		'en-us': "In this form, it draws on the power of water.\nIt attacks unrelentingly with kicks and ivy strikes."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Wellspring Dance"
+			'en-us': "Wellspring Dance"
 		},
 
 		damage: 40,
 		cost: ["Water", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, this attack also does 40 damage to 1 of your opponent's Benched Pokémon."
+			'en-us': "Flip a coin. If heads, this attack also does 40 damage to 1 of your opponent's Benched Pokémon."
 		}
 	}],
 

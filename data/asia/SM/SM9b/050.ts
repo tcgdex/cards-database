@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "無人発電所",
+		'ja-jp': "無人発電所",
 	},
 
 	illustrator: "aky CG Works",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいの場の「ポケモンGX・EX」の特性は、すべてなくなる。",
+		'ja-jp': "おたがいの場の「ポケモンGX・EX」の特性は、すべてなくなる。",
 	},
 
 	variants: [

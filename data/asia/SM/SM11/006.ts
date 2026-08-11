@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クルミル",
+		'ja-jp': "クルミル",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "葉っぱを かみ切り 口から 出す 粘着糸で 縫い合わせる。 自分で 服を 作る ポケモン。",
+		'ja-jp': "葉っぱを かみ切り 口から 出す 粘着糸で 縫い合わせる。 自分で 服を 作る ポケモン。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "はっぱのおくるみ" },
 			effect: {
-				ja: "このポケモンが受けるワザのダメージは「-10」される。",
+				'ja-jp': "このポケモンが受けるワザのダメージは「-10」される。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Grass"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
 			},
 		},
 	],

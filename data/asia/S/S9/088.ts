@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "美味之水組合",
-		ja: "おいしいみずセット"
+		'ja-jp': "おいしいみずセット"
 	},
 
 	illustrator: "AYUMI ODASHIMA",
@@ -14,7 +14,7 @@ const card: Card = {
 
 	effect: {
 		'zh-tw': "將自己的所有寶可夢各恢復「20」HP。",
-		ja: "自分のポケモン全員のHPを、それぞれ「20」回復する。"
+		'ja-jp': "自分のポケモン全員のHPを、それぞれ「20」回復する。"
 	},
 
 	variants: [

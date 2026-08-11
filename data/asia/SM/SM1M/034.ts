@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シロデスナ",
+		'ja-jp': "シロデスナ",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "城の 下には 精気を 吸われ 干からびた 者たちの 骨が 大量に 埋まっている。",
+		'ja-jp': "城の 下には 精気を 吸われ 干からびた 者たちの 骨が 大量に 埋まっている。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "すなのぼうへき" },
 			effect: {
-				ja: "このポケモンが受けるワザのダメージは「-20」される。",
+				'ja-jp': "このポケモンが受けるワザのダメージは「-20」される。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。",
+				'ja-jp': "相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "スナバァ",
+		'ja-jp': "スナバァ",
 	},
 
 	retreat: 4,

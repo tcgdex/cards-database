@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Swinub",
-		de: "Quiekel"
+		'en-us': "Swinub",
+		'de-de': "Quiekel"
 	},
 
 	illustrator: "Yuka Morii",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				de: "Ramme"
+				'en-us': "Ram",
+				'de-de': "Ramme"
 			},
 
 			damage: 10,
@@ -40,12 +40,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Freezing Breath",
-				de: "Eisiger Atem"
+				'en-us': "Freezing Breath",
+				'de-de': "Eisiger Atem"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Asleep.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt. Bei 'Zahl' schläft das verteidigende Pokémon jetzt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Asleep.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt. Bei 'Zahl' schläft das verteidigende Pokémon jetzt."
 			},
 
 		},

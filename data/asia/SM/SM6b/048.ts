@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホウオウ",
+		'ja-jp': "ホウオウ",
 	},
 
 	illustrator: "Aya Kusube",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "心正しき トレーナーの 前に 七色の 翼を 光らせながら 姿を 現すと 伝えられる。",
+		'ja-jp': "心正しき トレーナーの 前に 七色の 翼を 光らせながら 姿を 現すと 伝えられる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている基本エネルギーのタイプの数x30ダメージ追加。",
+				'ja-jp': "このポケモンについている基本エネルギーのタイプの数x30ダメージ追加。",
 			},
 		},
 	],

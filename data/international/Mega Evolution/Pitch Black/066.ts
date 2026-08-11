@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pitch Black"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikipek",
-		fr: "Picassaut",
-		es: "Pikipek",
+		'en-us': "Pikipek",
+		'fr-fr': "Picassaut",
+		'es-es': "Pikipek",
 		'es-mx': "Pikipek",
-		de: "Peppeck",
-		it: "Pikipek",
-		pt: "Pikipek"
+		'de-de': "Peppeck",
+		'it-it': "Pikipek",
+		'pt-br': "Pikipek"
 	},
 
 	illustrator: "Koji Nakata",
@@ -24,13 +24,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Double Stab",
-			fr: "Entaille Double",
-			es: "Doble Puñalada",
+			'en-us': "Double Stab",
+			'fr-fr': "Entaille Double",
+			'es-es': "Doble Puñalada",
 			'es-mx': "Doble Cuchillada",
-			de: "Doppelstich",
-			it: "Doppia Pugnalata",
-			pt: "Facada Dupla"
+			'de-de': "Doppelstich",
+			'it-it': "Doppia Pugnalata",
+			'pt-br': "Facada Dupla"
 		},
 
 		cost: ["Colorless"],
@@ -38,13 +38,13 @@ const card: Card = {
 		damage: "10×",
 
 		effect: {
-			en: "Flip 2 coins. This attack does 10 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
-			es: "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+			'en-us': "Flip 2 coins. This attack does 10 damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
 			'es-mx': "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 10 pontos de dano para cada cara."
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 10 pontos de dano para cada cara."
 		}
 	}],
 

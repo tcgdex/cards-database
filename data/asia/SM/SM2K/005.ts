@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドレディア",
+		'ja-jp': "ドレディア",
 	},
 
 	illustrator: "You Iribi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "どんなに 手間と お金を かけても 人の 手で 咲かせるよりも 野生で 咲く 花の ほうが 美しい。",
+		'ja-jp': "どんなに 手間と お金を かけても 人の 手で 咲かせるよりも 野生で 咲く 花の ほうが 美しい。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "はなふぶき" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のポケモン全員に、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン全員に、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "40×",
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数x40ダメージ。このポケモンをこんらんにする。",
+				'ja-jp': "コインを3回投げ、オモテの数x40ダメージ。このポケモンをこんらんにする。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チュリネ",
+		'ja-jp': "チュリネ",
 	},
 
 	retreat: 1,

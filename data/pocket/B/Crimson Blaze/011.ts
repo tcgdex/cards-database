@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [4],
 
 	name: {
-		en: "Charmander"
+		'en-us': "Charmander"
 	},
 
 	illustrator: "DOM",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "From the time it is born, a flame burns at the tip\nof its tail. Its life would end if the flame were to\ngo out."
+		'en-us': "From the time it is born, a flame burns at the tip\nof its tail. Its life would end if the flame were to\ngo out."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Bite"
+			'en-us': "Bite"
 		},
 
 		damage: 40,

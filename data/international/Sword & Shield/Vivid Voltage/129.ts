@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [884],
 
 	name: {
-		en: "Duraludon",
-		fr: "Duralugon",
-		es: "Duraludon",
-		it: "Duraludon",
-		pt: "Duraludon",
-		de: "Duraludon"
+		'en-us': "Duraludon",
+		'fr-fr': "Duralugon",
+		'es-es': "Duraludon",
+		'it-it': "Duraludon",
+		'pt-br': "Duraludon",
+		'de-de': "Duraludon"
 	},
 
 	illustrator: "kawayoo",
@@ -30,20 +30,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Raging Claws",
-				fr: "Griffes Enragées",
-				es: "Garras Furiosas",
-				it: "Furiartigli",
-				pt: "Garras Devastadoras",
-				de: "Wutklauen"
+				'en-us': "Raging Claws",
+				'fr-fr': "Griffes Enragées",
+				'es-es': "Garras Furiosas",
+				'it-it': "Furiartigli",
+				'pt-br': "Garras Devastadoras",
+				'de-de': "Wutklauen"
 			},
 			effect: {
-				en: "This attack does 10 more damage for each damage counter on this Pokémon.",
-				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur ce Pokémon.",
-				es: "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
-				it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
-				pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon.",
-				de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte mehr zu."
+				'en-us': "This attack does 10 more damage for each damage counter on this Pokémon.",
+				'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur ce Pokémon.",
+				'es-es': "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
+				'it-it': "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
+				'pt-br': "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon.",
+				'de-de': "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte mehr zu."
 			},
 			damage: "20+",
 
@@ -55,20 +55,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Power Blast",
-				fr: "Violente Déflagration",
-				es: "Estallido Vigoroso",
-				it: "Forzacolpo",
-				pt: "Explosão Poderosa",
-				de: "Powerschuss"
+				'en-us': "Power Blast",
+				'fr-fr': "Violente Déflagration",
+				'es-es': "Estallido Vigoroso",
+				'it-it': "Forzacolpo",
+				'pt-br': "Explosão Poderosa",
+				'de-de': "Powerschuss"
 			},
 			effect: {
-				en: "Discard an Energy from this Pokémon.",
-				fr: "Défaussez une Énergie de ce Pokémon.",
-				es: "Descarta 1 Energía de este Pokémon.",
-				it: "Scarta un'Energia da questo Pokémon.",
-				pt: "Descarte 1 Energia deste Pokémon.",
-				de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard an Energy from this Pokémon.",
+				'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+				'es-es': "Descarta 1 Energía de este Pokémon.",
+				'it-it': "Scarta un'Energia da questo Pokémon.",
+				'pt-br': "Descarte 1 Energia deste Pokémon.",
+				'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 120,
 
@@ -96,7 +96,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily."
+		'en-us': "Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily."
 	},
 
 	variants: [

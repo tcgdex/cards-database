@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キングドラGX",
+		'ja-jp': "キングドラGX",
 	},
 
 	illustrator: "",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンについている[水]エネルギーの数x50ダメージ追加。",
+				'ja-jp': "このポケモンについている[水]エネルギーの数x50ダメージ追加。",
 			},
 		},
 		{
@@ -28,14 +28,14 @@ const card: Card = {
 			damage: 30,
 			cost: ["Water"],
 			effect: {
-				ja: "このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 		{
 			name: { ja: "メイルストロムGX" },
 			cost: ["Water"],
 			effect: {
-				ja: "相手のポケモン全員に、それぞれ40ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のポケモン全員に、それぞれ40ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シードラ",
+		'ja-jp': "シードラ",
 	},
 
 	retreat: 2,

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HGSS Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Smoochum",
-		fr: "Lippouti"
+		'en-us': "Smoochum",
+		'fr-fr': "Lippouti"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Promo",
@@ -23,12 +23,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Sweet Sleeping Face",
-				fr: "Joli visage endormi"
+				'en-us': "Sweet Sleeping Face",
+				'fr-fr': "Joli visage endormi"
 			},
 			effect: {
-				en: "As long as Smoochum is Asleep, prevent all damage done to Smoochum by attacks.",
-				fr: "Tant que Lippouti reste Endormi, prévenez tous les dégâts qui peuvent lui être infligés par des attaques."
+				'en-us': "As long as Smoochum is Asleep, prevent all damage done to Smoochum by attacks.",
+				'fr-fr': "Tant que Lippouti reste Endormi, prévenez tous les dégâts qui peuvent lui être infligés par des attaques."
 			}
 		},
 	],
@@ -36,19 +36,19 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Energy Antics",
-				fr: "Singénergies"
+				'en-us': "Energy Antics",
+				'fr-fr': "Singénergies"
 			},
 			effect: {
-				en: "Move an Energy card attached to 1 of your opponent's Pokémon to another of your opponent's Pokémon. Smoochum is now Asleep.",
-				fr: "Déplacez une carte Énergie attachée à l'un des Pokémon de votre adversaire sur un autre de ses Pokémon. Lippouti est maintenant Endormi."
+				'en-us': "Move an Energy card attached to 1 of your opponent's Pokémon to another of your opponent's Pokémon. Smoochum is now Asleep.",
+				'fr-fr': "Déplacez une carte Énergie attachée à l'un des Pokémon de votre adversaire sur un autre de ses Pokémon. Lippouti est maintenant Endormi."
 			},
 
 		},
 	],
 
 	description: {
-		en: "Its lips are the most sensitive part of its body. It always uses its lips first to examine things."
+		'en-us': "Its lips are the most sensitive part of its body. It always uses its lips first to examine things."
 	},
 
 	variants: [

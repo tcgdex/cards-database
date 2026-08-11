@@ -1,10 +1,10 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../SV'
 
 const set: Set = {
 	id: 'SV6s',
 	name: {
-		id: 'Topeng Transfigurasi'
+		'id-id': 'Topeng Transfigurasi'
 	},
 
 	serie: serie,
@@ -13,7 +13,7 @@ const set: Set = {
 		official: 167
 	},
 	releaseDate: {
-		id: '2024-05-31'
+		'id-id': '2024-05-31'
 	}
 }
 

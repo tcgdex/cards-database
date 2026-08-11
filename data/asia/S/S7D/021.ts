@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グライオン",
+		'ja-jp': "グライオン",
 		'zh-tw': "天蠍王",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "羽音を 立てずに 空を 飛ぶ。 長い 尻尾で 獲物を 捕まえ キバで 急所を 一突き。",
+		'ja-jp': "羽音を 立てずに 空を 飛ぶ。 長い 尻尾で 獲物を 捕まえ キバで 急所を 一突き。",
 		'zh-tw': "可不發出振翅聲而在空中飛行。先用長長的尾巴攫住獵物，再用牙齒朝弱點給予一刺。",
 	},
 
@@ -23,25 +23,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "きりおとす",
+				'ja-jp': "きりおとす",
 				'zh-tw': "切落",
 			},
 			damage: 30,
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
 				'zh-tw': "選擇1個對手的戰鬥寶可夢身上附加的能量，將其丟棄。",
 			},
 		},
 		{
 			name: {
-				ja: "ベノムヒット",
+				'ja-jp': "ベノムヒット",
 				'zh-tw': "毒液一擊",
 			},
 			damage: 100,
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【中毒】。",
 			},
 		},
@@ -61,7 +61,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "グライガー",
+		'ja-jp': "グライガー",
 	},
 
 	retreat: 1,

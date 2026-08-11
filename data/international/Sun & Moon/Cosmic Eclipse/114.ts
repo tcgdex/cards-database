@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Drilbur",
-		fr: "Rototaupe",
-		es: "Drilbur",
-		it: "Drilbur",
-		pt: "Drilbur",
-		de: "Rotomurf"
+		'en-us': "Drilbur",
+		'fr-fr': "Rototaupe",
+		'es-es': "Drilbur",
+		'it-it': "Drilbur",
+		'pt-br': "Drilbur",
+		'de-de': "Rotomurf"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rototiller",
-				fr: "Fertilisation",
-				es: "Fertilizante",
-				it: "Aracampo",
-				pt: "Rototiller",
-				de: "Pflüger"
+				'en-us': "Rototiller",
+				'fr-fr': "Fertilisation",
+				'es-es': "Fertilizante",
+				'it-it': "Aracampo",
+				'pt-br': "Rototiller",
+				'de-de': "Pflüger"
 			},
 			effect: {
-				en: "Shuffle a card from your discard pile into your deck.",
-				fr: "Mélangez une carte de votre pile de défausse avec votre deck.",
-				es: "Pon 1 carta de tu pila de descartes en tu baraja y baraja todas las cartas.",
-				it: "Rimischia una carta dalla tua pila degli scarti nel tuo mazzo.",
-				pt: "Embaralhe 1 carta da sua pilha de descarte no seu baralho.",
-				de: "Mische 1 Karte aus deinem Ablagestapel in dein Deck."
+				'en-us': "Shuffle a card from your discard pile into your deck.",
+				'fr-fr': "Mélangez une carte de votre pile de défausse avec votre deck.",
+				'es-es': "Pon 1 carta de tu pila de descartes en tu baraja y baraja todas las cartas.",
+				'it-it': "Rimischia una carta dalla tua pila degli scarti nel tuo mazzo.",
+				'pt-br': "Embaralhe 1 carta da sua pilha de descarte no seu baralho.",
+				'de-de': "Mische 1 Karte aus deinem Ablagestapel in dein Deck."
 			},
 
 		},
@@ -56,12 +56,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mud-Slap",
-				fr: "Coud’Boue",
-				es: "Bofetón Lodo",
-				it: "Fangosberla",
-				pt: "Tapa de Lama",
-				de: "Lehmschelle"
+				'en-us': "Mud-Slap",
+				'fr-fr': "Coud’Boue",
+				'es-es': "Bofetón Lodo",
+				'it-it': "Fangosberla",
+				'pt-br': "Tapa de Lama",
+				'de-de': "Lehmschelle"
 			},
 
 			damage: 10,
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It makes its way swiftly through the soil by putting both claws together and rotating at high speed.",
+		'en-us': "It makes its way swiftly through the soil by putting both claws together and rotating at high speed.",
 	},
 
 	thirdParty: {

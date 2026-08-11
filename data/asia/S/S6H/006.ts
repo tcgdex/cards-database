@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メブキジカ",
+		'ja-jp': "メブキジカ",
 		'zh-tw': "萌芽鹿",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "季節の 移り変わりと ともに 住処を 変えるので メブキジカが 春を運ぶと いう 人もいる。",
+		'ja-jp': "季節の 移り変わりと ともに 住処を 変えるので メブキジカが 春を運ぶと いう 人もいる。",
 		'zh-tw': "會隨著季節的推移改變居所。所以也有人說萌芽鹿會運來春天。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "たいあたり",
+				'ja-jp': "たいあたり",
 				'zh-tw': "連擊觸手",
 			},
 			damage: 30,
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "場に自分のスタジアムが出ているなら、80ダメージ追加。",
+				'ja-jp': "場に自分のスタジアムが出ているなら、80ダメージ追加。",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シキジカ",
+		'ja-jp': "シキジカ",
 	},
 
 	retreat: 1,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Holon's Castform",
-		fr: "Morpheo d'Holon",
-		de: "Holon-Formeo"
+		'en-us': "Holon's Castform",
+		'fr-fr': "Morpheo d'Holon",
+		'de-de': "Holon-Formeo"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Delta Draw",
-				fr: "Pioche Delta",
-				de: "Delta-Zug"
+				'en-us': "Delta Draw",
+				'fr-fr': "Pioche Delta",
+				'de-de': "Delta-Zug"
 			},
 			effect: {
-				en: "Count the number of Pokémon you have in play that has δ on its card. Draw up to that many cards.",
-				fr: "Comptabilisez le nombre de Pokémon possédant le symbole δ que vous avez en jeu. Piochez autant de cartes.",
-				de: "Zähle die Anzahl der Pokémon, die du im Spiel hast, auf denen δ zu sehen ist. Ziehe bis zu dieser Anzahl Karten."
+				'en-us': "Count the number of Pokémon you have in play that has δ on its card. Draw up to that many cards.",
+				'fr-fr': "Comptabilisez le nombre de Pokémon possédant le symbole δ que vous avez en jeu. Piochez autant de cartes.",
+				'de-de': "Zähle die Anzahl der Pokémon, die du im Spiel hast, auf denen δ zu sehen ist. Ziehe bis zu dieser Anzahl Karten."
 			},
 
 		},

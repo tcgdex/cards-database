@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サーナイト",
+		'ja-jp': "サーナイト",
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "未来を 予知する 力を もつ。 トレーナーを 守る ときに 最大 パワーを 発揮する。",
+		'ja-jp': "未来を 予知する 力を もつ。 トレーナーを 守る ときに 最大 パワーを 発揮する。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "リファイン" },
 			effect: {
-				ja: "自分の番に、自分の手札を1枚トラッシュするなら、1回使える。自分の山札を2枚引く。",
+				'ja-jp': "自分の番に、自分の手札を1枚トラッシュするなら、1回使える。自分の山札を2枚引く。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "キルリア",
+		'ja-jp': "キルリア",
 	},
 
 	retreat: 2,

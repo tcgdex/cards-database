@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イトマル",
+		'ja-jp': "イトマル",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "丈夫な 糸を より合わせ さかなポケモンを 捕らえる 網を こしらえる 漁師も いるぞ。",
+		'ja-jp': "丈夫な 糸を より合わせ さかなポケモンを 捕らえる 網を こしらえる 漁師も いるぞ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "クモがくれ" },
 			cost: ["Grass"],
 			effect: {
-				ja: "相手のバトルポケモンをどくとマヒにする。このポケモンと、ついているすべてのカードを、ロストゾーンに置く。",
+				'ja-jp': "相手のバトルポケモンをどくとマヒにする。このポケモンと、ついているすべてのカードを、ロストゾーンに置く。",
 			},
 		},
 		{

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レアコイル",
+		'ja-jp': "レアコイル",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "Sonicboom",
+				'ja-jp': "Sonicboom",
 			},
 			effect: {
-				ja: "この攻撃に衰弱と抵抗を適用しないでください。 （衰弱と抵抗を適用した後に発生する他の効果はまだ起こります。）",
+				'ja-jp': "この攻撃に衰弱と抵抗を適用しないでください。 （衰弱と抵抗を適用した後に発生する他の効果はまだ起こります。）",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Lightning", "Lightning", "Lightning", "Lightning"],
 			name: {
-				ja: "セルフデストラクト",
+				'ja-jp': "セルフデストラクト",
 			},
 			effect: {
-				ja: "各プレイヤーのベンチで各ポケモンに20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）マグネトンはそれ自体に100のダメージを与えます。",
+				'ja-jp': "各プレイヤーのベンチで各ポケモンに20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）マグネトンはそれ自体に100のダメージを与えます。",
 			},
 			damage: 100,
 		},

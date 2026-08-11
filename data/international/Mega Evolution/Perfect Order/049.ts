@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
@@ -7,23 +7,23 @@ const card: Card = {
 	dexId: [93],
 
 	name: {
-		en: "Haunter",
-		fr: "Spectrum",
-		es: "Haunter",
+		'en-us': "Haunter",
+		'fr-fr': "Spectrum",
+		'es-es': "Haunter",
 		'es-mx': "Haunter",
-		de: "Alpollo",
-		it: "Haunter",
-		pt: "Haunter"
+		'de-de': "Alpollo",
+		'it-it': "Haunter",
+		'pt-br': "Haunter"
 	},
 
 	evolveFrom: {
-		en: "Gastly",
-		fr: "Fantominus",
-		es: "Gastly",
+		'en-us': "Gastly",
+		'fr-fr': "Fantominus",
+		'es-es': "Gastly",
 		'es-mx': "Gastly",
-		de: "Nebulak",
-		it: "Gastly",
-		pt: "Gastly",
+		'de-de': "Nebulak",
+		'it-it': "Gastly",
+		'pt-br': "Gastly",
 	},
 
 	illustrator: "Kedamahadaitai Yawarakai",
@@ -37,23 +37,23 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Haunt",
-			fr: "Hanter",
-			es: "Espanto",
+			'en-us': "Haunt",
+			'fr-fr': "Hanter",
+			'es-es': "Espanto",
 			'es-mx': "Maleficio",
-			de: "Spuk",
-			it: "Infestare",
-			pt: "Assombrar"
+			'de-de': "Spuk",
+			'it-it': "Infestare",
+			'pt-br': "Assombrar"
 		},
 
 		effect: {
-			en: "Place 3 damage counters on your opponent's Active Pokémon.",
-			fr: "Placez 3 marqueurs de dégâts sur le Pokémon Actif de votre adversaire.",
-			es: "Pon 3 contadores de daño en el Pokémon Activo de tu rival.",
+			'en-us': "Place 3 damage counters on your opponent's Active Pokémon.",
+			'fr-fr': "Placez 3 marqueurs de dégâts sur le Pokémon Actif de votre adversaire.",
+			'es-es': "Pon 3 contadores de daño en el Pokémon Activo de tu rival.",
 			'es-mx': "Pon 3 contadores de daño en el Pokémon Activo de tu rival.",
-			de: "Lege 3 Schadensmarken auf das Aktive Pokémon deines Gegners.",
-			it: "Metti tre segnalini danno sul Pokémon attivo del tuo avversario.",
-			pt: "Coloque 3 contadores de dano no Pokémon Ativo do seu oponente."
+			'de-de': "Lege 3 Schadensmarken auf das Aktive Pokémon deines Gegners.",
+			'it-it': "Metti tre segnalini danno sul Pokémon attivo del tuo avversario.",
+			'pt-br': "Coloque 3 contadores de dano no Pokémon Ativo do seu oponente."
 		}
 	}],
 

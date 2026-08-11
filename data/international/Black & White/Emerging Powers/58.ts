@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Throh",
-		fr: "Judokrak",
-		es: "Throh",
-		it: "Throh",
-		pt: "Throh",
-		de: "Jiutesto"
+		'en-us': "Throh",
+		'fr-fr': "Judokrak",
+		'es-es': "Throh",
+		'it-it': "Throh",
+		'pt-br': "Throh",
+		'de-de': "Jiutesto"
 	},
 
 	illustrator: "match",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scarf Hold",
-				fr: "Kesa-Gatame",
+				'en-us': "Scarf Hold",
+				'fr-fr': "Kesa-Gatame",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire.",
 			},
 			damage: 30,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When it tightens its belt, it becomes stronger. Wild Throh use vines to weave their own belts.",
+		'en-us': "When it tightens its belt, it becomes stronger. Wild Throh use vines to weave their own belts.",
 	},
 
 	thirdParty: {

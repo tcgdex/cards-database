@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Quilava",
-		fr: "Feurisson",
-		es: "Quilava",
-		it: "Quilava",
-		pt: "Quilava",
-		de: "Igelavar"
+		'en-us': "Quilava",
+		'fr-fr': "Feurisson",
+		'es-es': "Quilava",
+		'it-it': "Quilava",
+		'pt-br': "Quilava",
+		'de-de': "Igelavar"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Cyndaquil",
-		fr: "Héricendre",
-		es: "Cyndaquil",
-		it: "Cyndaquil",
-		pt: "Cyndaquil",
-		de: "Feurigel"
+		'en-us': "Cyndaquil",
+		'fr-fr': "Héricendre",
+		'es-es': "Cyndaquil",
+		'it-it': "Cyndaquil",
+		'pt-br': "Cyndaquil",
+		'de-de': "Feurigel"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 20
@@ -48,12 +48,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Flare",
-			fr: "Flamboiement",
-			es: "Llama",
-			it: "Fiammata",
-			pt: "Chama",
-			de: "Flackern"
+			'en-us': "Flare",
+			'fr-fr': "Flamboiement",
+			'es-es': "Llama",
+			'it-it': "Fiammata",
+			'pt-br': "Chama",
+			'de-de': "Flackern"
 		},
 
 		damage: 40
@@ -70,7 +70,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This creature's fur is most mysterious—it is wholly impervious to the burning touch of flame. Should Quilava turn its back to you, take heed! Such a posture indicates a forthcoming attack.",
+		'en-us': "This creature's fur is most mysterious—it is wholly impervious to the burning touch of flame. Should Quilava turn its back to you, take heed! Such a posture indicates a forthcoming attack.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 6'
 
 const card: Card = {
 	name: {
-		en: "Bastiodon",
-		fr: "Bastiodon"
+		'en-us': "Bastiodon",
+		'fr-fr': "Bastiodon"
 	},
 
 	illustrator: "Kazuyuki Kano",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shieldon",
-		fr: "Dinoclier"
+		'en-us': "Shieldon",
+		'fr-fr': "Dinoclier"
 	},
 
 	stage: "Stage2",
@@ -31,12 +31,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Protective Wall",
-				fr: "Mur protecteur"
+				'en-us': "Protective Wall",
+				'fr-fr': "Mur protecteur"
 			},
 			effect: {
-				en: "Prevent all damage done to your Benched Pokémon by your opponent's attacks.",
-				fr: "Prévenez tous les dégâts infligés à vos Pokémon de Banc par des attaques de votre adversaire."
+				'en-us': "Prevent all damage done to your Benched Pokémon by your opponent's attacks.",
+				'fr-fr': "Prévenez tous les dégâts infligés à vos Pokémon de Banc par des attaques de votre adversaire."
 			},
 		},
 	],
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Anger Revenge",
-				fr: "Vengeance furieuse"
+				'en-us': "Anger Revenge",
+				'fr-fr': "Vengeance furieuse"
 			},
 			effect: {
-				en: "If Bastiodon was damaged by an attack during your opponent's last turn, this attack does 40 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Si des dégâts ont été infligés à Bastiodon par une attaque lors du dernier tour de votre adversaire, cette attaque inflige 40 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+				'en-us': "If Bastiodon was damaged by an attack during your opponent's last turn, this attack does 40 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Si des dégâts ont été infligés à Bastiodon par une attaque lors du dernier tour de votre adversaire, cette attaque inflige 40 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 60,
 
@@ -74,7 +74,7 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "Any frontal attack is repulsed. It is a docile Pokémon that feeds on grass and berries."
+		'en-us': "Any frontal attack is repulsed. It is a docile Pokémon that feeds on grass and berries."
 	},
 
 	retreat: 3,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デデンネ",
+		'ja-jp': "デデンネ",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "尻尾で 発電所や 民家の コンセントから 電気を 吸い取り ヒゲから 電撃を 撃ち出す。",
+		'ja-jp': "尻尾で 発電所や 民家の コンセントから 電気を 吸い取り ヒゲから 電撃を 撃ち出す。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ともだちをさがす" },
 			cost: ["Fairy"],
 			effect: {
-				ja: "自分の山札にあるポケモンを1枚、相手に見せてから、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札にあるポケモンを1枚、相手に見せてから、手札に加える。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチに[雷]ポケモンがいるなら、30ダメージ追加。",
+				'ja-jp': "自分のベンチに[雷]ポケモンがいるなら、30ダメージ追加。",
 			},
 		},
 	],

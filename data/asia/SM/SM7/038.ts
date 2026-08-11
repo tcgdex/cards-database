@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バネブー",
+		'ja-jp': "バネブー",
 	},
 
 	illustrator: "MAHOU",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "尻尾で 飛び跳ねて 心臓を 動かしている。 パールルの 作った 真珠を 頭に 乗せている。",
+		'ja-jp': "尻尾で 飛び跳ねて 心臓を 動かしている。 パールルの 作った 真珠を 頭に 乗せている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "とびはねる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 	],

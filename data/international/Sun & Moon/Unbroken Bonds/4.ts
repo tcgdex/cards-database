@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Butterfree",
-		fr: "Papilusion",
-		es: "Butterfree",
-		it: "Butterfree",
-		pt: "Butterfree",
-		de: "Smettbo"
+		'en-us': "Butterfree",
+		'fr-fr': "Papilusion",
+		'es-es': "Butterfree",
+		'it-it': "Butterfree",
+		'pt-br': "Butterfree",
+		'de-de': "Smettbo"
 	},
 
 	illustrator: "Midori Harada",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Metapod",
-		fr: "Chrysacier",
+		'en-us': "Metapod",
+		'fr-fr': "Chrysacier",
 	},
 
 	stage: "Stage2",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Triple Charge",
-				fr: "Triple Charge",
-				es: "Triple Carga",
-				it: "Tripla Carica",
-				pt: "Carga Tripla",
-				de: "Dreifachaufladung"
+				'en-us': "Triple Charge",
+				'fr-fr': "Triple Charge",
+				'es-es': "Triple Carga",
+				'it-it': "Tripla Carica",
+				'pt-br': "Carga Tripla",
+				'de-de': "Dreifachaufladung"
 			},
 			effect: {
-				en: "Search your deck for up to 3 basic Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.",
-				fr: "Cherchez jusqu’à 3 cartes Énergie de base dans votre deck et attachez-les à vos Pokémon, de la manière que vous voulez. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja hasta 3 cartas de Energía Básica y únelas a tus Pokémon de la manera que desees. Después, baraja las cartas de tu baraja.",
-				it: "Cerca nel tuo mazzo fino a tre carte Energia base e assegnale a piacimento ai tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure por até 3 cartas de Energia básica no seu baralho e ligue-as aos seus Pokémon como desejar. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 3 Basis-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck."
+				'en-us': "Search your deck for up to 3 basic Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.",
+				'fr-fr': "Cherchez jusqu’à 3 cartes Énergie de base dans votre deck et attachez-les à vos Pokémon, de la manière que vous voulez. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja hasta 3 cartas de Energía Básica y únelas a tus Pokémon de la manera que desees. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo fino a tre carte Energia base e assegnale a piacimento ai tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por até 3 cartas de Energia básica no seu baralho e ligue-as aos seus Pokémon como desejar. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach bis zu 3 Basis-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Solar Beam",
-				fr: "Lance-Soleil",
-				es: "Rayo Solar",
-				it: "Solarraggio",
-				pt: "Raio Solar",
-				de: "Solarstrahl"
+				'en-us': "Solar Beam",
+				'fr-fr': "Lance-Soleil",
+				'es-es': "Rayo Solar",
+				'it-it': "Solarraggio",
+				'pt-br': "Raio Solar",
+				'de-de': "Solarstrahl"
 			},
 
 			damage: 70,
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its wings are covered in toxic scales. If it finds bird Pokémon going after Caterpie, Butterfree sprinkles its scales on them to drive them off.",
+		'en-us': "Its wings are covered in toxic scales. If it finds bird Pokémon going after Caterpie, Butterfree sprinkles its scales on them to drive them off.",
 	},
 
 	thirdParty: {

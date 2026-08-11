@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イオルブV",
+		'ja-jp': "イオルブV",
 		'zh-tw': "以歐路普V",
 	},
 
@@ -18,25 +18,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ひるがえす",
+				'ja-jp': "ひるがえす",
 				'zh-tw': "狡兔三窟",
 			},
 			damage: 20,
 			cost: ["Grass"],
 			effect: {
-				ja: "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
 				'zh-tw': "若希望，將這隻寶可夢與備戰寶可夢互換。",
 			},
 		},
 		{
 			name: {
-				ja: "ミステリーウェーブ",
+				'ja-jp': "ミステリーウェーブ",
 				'zh-tw': "神秘波",
 			},
 			damage: "50+",
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。",
 				'zh-tw': "增加對手的戰鬥寶可夢身上附加的能量的數量×30點傷害。",
 			},
 		},

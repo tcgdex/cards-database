@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Seviper",
-		fr: "Séviper",
-		es: "Seviper",
-		it: "Seviper",
-		pt: "Seviper",
-		de: "Vipitis"
+		'en-us': "Seviper",
+		'fr-fr': "Séviper",
+		'es-es': "Seviper",
+		'it-it': "Seviper",
+		'pt-br': "Seviper",
+		'de-de': "Vipitis"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Darkness", "Darkness"],
 
 		name: {
-			en: "Sucker Punch and Turn",
-			fr: "Coup Bas Évasif",
-			es: "Golpe Bajo y Cambio",
-			it: "Sbigoattacco e Svolta",
-			pt: "Soco e Giro Enganadores",
-			de: "Tiefschlag und Wende"
+			'en-us': "Sucker Punch and Turn",
+			'fr-fr': "Coup Bas Évasif",
+			'es-es': "Golpe Bajo y Cambio",
+			'it-it': "Sbigoattacco e Svolta",
+			'pt-br': "Soco e Giro Enganadores",
+			'de-de': "Tiefschlag und Wende"
 		},
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Darkness Pokémon.",
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon Darkness de Banc.",
-			es: "Cambia este Pokémon por 1 de tus Pokémon Darkness en Banca.",
-			it: "Scambia questo Pokémon con uno dei Pokémon Darkness della tua panchina.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon Darkness no Banco.",
-			de: "Tausche dieses Pokémon gegen 1 Darkness-Pokémon auf deiner Bank aus."
+			'en-us': "Switch this Pokémon with 1 of your Benched Darkness Pokémon.",
+			'fr-fr': "Échangez ce Pokémon contre l'un de vos Pokémon Darkness de Banc.",
+			'es-es': "Cambia este Pokémon por 1 de tus Pokémon Darkness en Banca.",
+			'it-it': "Scambia questo Pokémon con uno dei Pokémon Darkness della tua panchina.",
+			'pt-br': "Troque este Pokémon por 1 dos seus Pokémon Darkness no Banco.",
+			'de-de': "Tausche dieses Pokémon gegen 1 Darkness-Pokémon auf deiner Bank aus."
 		},
 
 		damage: 60

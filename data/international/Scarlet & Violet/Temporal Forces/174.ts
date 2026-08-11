@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Excadrill",
-		fr: "Minotaupe",
-		es: "Excadrill",
-		it: "Excadrill",
-		pt: "Excadrill",
-		de: "Stalobor"
+		'en-us': "Excadrill",
+		'fr-fr': "Minotaupe",
+		'es-es': "Excadrill",
+		'it-it': "Excadrill",
+		'pt-br': "Excadrill",
+		'de-de': "Stalobor"
 	},
 
 	rarity: "Illustration rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Drilbur",
-		fr: "Rototaupe",
-		es: "Drilbur",
-		it: "Drilbur",
-		pt: "Drilbur",
-		de: "Rotomurf"
+		'en-us': "Drilbur",
+		'fr-fr': "Rototaupe",
+		'es-es': "Drilbur",
+		'it-it': "Drilbur",
+		'pt-br': "Drilbur",
+		'de-de': "Rotomurf"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Mud Shot",
-			fr: "Tir de Boue",
-			es: "Disparo Lodo",
-			it: "Colpodifango",
-			pt: "Tiro de Lama",
-			de: "Lehmschuss"
+			'en-us': "Mud Shot",
+			'fr-fr': "Tir de Boue",
+			'es-es': "Disparo Lodo",
+			'it-it': "Colpodifango",
+			'pt-br': "Tiro de Lama",
+			'de-de': "Lehmschuss"
 		},
 
 		damage: 20
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Wild Tackle",
-			fr: "Tacle Brutal",
-			es: "Placaje Salvaje",
-			it: "Azionferoce",
-			pt: "Investida Feroz",
-			de: "Wilder Tackle"
+			'en-us': "Wild Tackle",
+			'fr-fr': "Tacle Brutal",
+			'es-es': "Placaje Salvaje",
+			'it-it': "Azionferoce",
+			'pt-br': "Investida Feroz",
+			'de-de': "Wilder Tackle"
 		},
 
 		effect: {
-			en: "This Pokémon also does 50 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 50 dégâts.",
-			es: "Este Pokémon también se hace 50 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 50 danni a se stesso.",
-			pt: "Este Pokémon também causa 50 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 50 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 50 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 50 dégâts.",
+			'es-es': "Este Pokémon también se hace 50 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 50 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 50 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 50 Schadenspunkte zu."
 		},
 
 		damage: 180
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It's not uncommon for tunnels that appear to have formed naturally to actually be a result of Excadrill's rampant digging.",
+		'en-us': "It's not uncommon for tunnels that appear to have formed naturally to actually be a result of Excadrill's rampant digging.",
 	},
 
 	variants: [

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グレートポーション",
+		'ja-jp': "グレートポーション",
 	},
 
 	illustrator: "Yoshinobu Saito",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のバトル場の「ポケモンGX」のHPを「50」回復する。",
+		'ja-jp': "自分のバトル場の「ポケモンGX」のHPを「50」回復する。",
 	},
 
 	variants: [

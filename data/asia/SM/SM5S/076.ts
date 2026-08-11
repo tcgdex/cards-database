@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "のぞきみレッドカード",
+		'ja-jp': "のぞきみレッドカード",
 	},
 
 	illustrator: "",
 	category: "Trainer",
 
 	effect: {
-		ja: "相手の手札を見る。のぞむなら、相手に相手自身の手札を数えさせたあと、すべて山札にもどして切らせる。その場合、相手はもどした枚数ぶん山札を引く。",
+		'ja-jp': "相手の手札を見る。のぞむなら、相手に相手自身の手札を数えさせたあと、すべて山札にもどして切らせる。その場合、相手はもどした枚数ぶん山札を引く。",
 	},
 
 	variants: [

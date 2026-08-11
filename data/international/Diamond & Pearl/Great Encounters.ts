@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Diamond & Pearl'
 
 const dp4: Set = {
 	id: "dp4",
 
 	name: {
-		en: "Great Encounters",
-		fr: "Duels au Sommets",
-		es: "Grandes Encuentros",
-		de: "Epische Begegnungen",
-		it: "Incontri Leggendari"
+		'en-us': "Great Encounters",
+		'fr-fr': "Duels au Sommets",
+		'es-es': "Grandes Encuentros",
+		'de-de': "Epische Begegnungen",
+		'it-it': "Incontri Leggendari"
 	},
 
 	serie: serie,
@@ -23,7 +23,7 @@ const dp4: Set = {
 
 	abbreviations: {
 		official: "GE",
-		fr: "DAS"
+		'fr-fr': "DAS"
 	},
 
 	thirdParty: {

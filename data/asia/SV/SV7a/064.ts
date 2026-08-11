@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "富裕能量",
 		'zh-cn': "富裕能量",
-		ja: "リッチエネルギー"
+		'ja-jp': "リッチエネルギー"
 	},
 
 	illustrator: "5ban Graphics",
@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		'zh-tw': "只要這張卡附於寶可夢身上，視為提供1個【無】能量。 從手牌將這張卡附於寶可夢身上時，從自己的牌庫抽出4張卡。",
 		'zh-cn': "只要這張卡附於寶可夢身上，視為提供1個【無】能量。 從手牌將這張卡附於寶可夢身上時，從自己的牌庫抽出4張卡。",
-		ja: "このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。\n\nこのカードを手札からポケモンにつけたとき、自分の山札を4枚引く。"
+		'ja-jp': "このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。\n\nこのカードを手札からポケモンにつけたとき、自分の山札を4枚引く。"
 	},
 
 	energyType: "Special",

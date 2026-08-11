@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨルノズク",
+		'ja-jp': "ヨルノズク",
 	},
 
 	illustrator: "Sekio",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "両目は 特殊な つくり。 わずかな 光を 集めては 暗闇でも まわりを 見分ける。",
+		'ja-jp': "両目は 特殊な つくり。 わずかな 光を 集めては 暗闇でも まわりを 見分ける。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手の手札を見て、その中にあるポケモンを、1枚トラッシュする。",
+				'ja-jp': "相手の手札を見て、その中にあるポケモンを、1枚トラッシュする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ホーホー",
+		'ja-jp': "ホーホー",
 	},
 
 	retreat: 1,

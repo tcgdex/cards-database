@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Celebi V",
-		en: "Celebi V",
-		es: "Celebi V",
-		it: "Celebi V",
-		pt: "Celebi V",
-		de: "Celebi V"
+		'fr-fr': "Celebi V",
+		'en-us': "Celebi V",
+		'es-es': "Celebi V",
+		'it-it': "Celebi V",
+		'pt-br': "Celebi V",
+		'de-de': "Celebi V"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -22,41 +22,41 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Foliole Dansante",
-			en: "Leaflet Dance",
-			es: "Danza de los Folíolos",
-			it: "Danza di Foglioline",
-			pt: "Dança das Folhinhas",
-			de: "Blättchenreigen"
+			'fr-fr': "Foliole Dansante",
+			'en-us': "Leaflet Dance",
+			'es-es': "Danza de los Folíolos",
+			'it-it': "Danza di Foglioline",
+			'pt-br': "Dança das Folhinhas",
+			'de-de': "Blättchenreigen"
 		},
 
 		effect: {
-			fr: "Attachez le nombre de cartes Énergie Grass voulues de votre main à vos Pokémon comme il vous plaît.",
-			en: "Attach any number of Grass Energy cards from your hand to your Pokémon in any way you like.",
-			es: "Une cualquier cantidad de cartas de Energía Grass de tu mano a tus Pokémon de la manera que desees.",
-			it: "Assegna ai tuoi Pokémon un numero qualsiasi di carte Energia Grass dalla tua mano nel modo che preferisci.",
-			pt: "Ligue qualquer número de cartas de Energia Grass da sua mão aos seus Pokémon como desejar.",
-			de: "Lege beliebig viele Grass-Energiekarten aus deiner Hand beliebig an deine Pokémon an."
+			'fr-fr': "Attachez le nombre de cartes Énergie Grass voulues de votre main à vos Pokémon comme il vous plaît.",
+			'en-us': "Attach any number of Grass Energy cards from your hand to your Pokémon in any way you like.",
+			'es-es': "Une cualquier cantidad de cartas de Energía Grass de tu mano a tus Pokémon de la manera que desees.",
+			'it-it': "Assegna ai tuoi Pokémon un numero qualsiasi di carte Energia Grass dalla tua mano nel modo che preferisci.",
+			'pt-br': "Ligue qualquer número de cartas de Energia Grass da sua mão aos seus Pokémon como desejar.",
+			'de-de': "Lege beliebig viele Grass-Energiekarten aus deiner Hand beliebig an deine Pokémon an."
 		},
 
 		cost: ["Grass"]
 	}, {
 		name: {
-			fr: "Retour de Frappe",
-			en: "Slash Back",
-			es: "Tajo Cambiante",
-			it: "Sferzata Inversa",
-			pt: "Contra-arranhar",
-			de: "Rückschnitt"
+			'fr-fr': "Retour de Frappe",
+			'en-us': "Slash Back",
+			'es-es': "Tajo Cambiante",
+			'it-it': "Sferzata Inversa",
+			'pt-br': "Contra-arranhar",
+			'de-de': "Rückschnitt"
 		},
 
 		effect: {
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-			it: "Scambia questo Pokémon con uno della tua panchina.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+			'fr-fr': "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+			'es-es': "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+			'it-it': "Scambia questo Pokémon con uno della tua panchina.",
+			'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+			'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 		},
 
 		damage: 60,

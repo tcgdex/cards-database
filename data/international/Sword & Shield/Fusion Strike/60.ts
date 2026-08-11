@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Qwilfish",
-		fr: "Qwilfish",
-		es: "Qwilfish",
-		it: "Qwilfish",
-		pt: "Qwilfish",
-		de: "Baldorfish"
+		'en-us': "Qwilfish",
+		'fr-fr': "Qwilfish",
+		'es-es': "Qwilfish",
+		'it-it': "Qwilfish",
+		'pt-br': "Qwilfish",
+		'de-de': "Baldorfish"
 	},
 
 	rarity: "Common",
@@ -30,39 +30,39 @@ const card: Card = {
 	illustrator: "HYOGONOSUKE",
 
 	description: {
-		en: "The small spikes covering its body developed from scales. They inject a toxin that causes fainting."
+		'en-us': "The small spikes covering its body developed from scales. They inject a toxin that causes fainting."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			de: "Sammeln",
-			es: "Coleccionar",
-			pt: "Coleta",
-			it: "Tassa"
+			'en-us': "Collect",
+			'fr-fr': "Collecte",
+			'de-de': "Sammeln",
+			'es-es': "Coleccionar",
+			'pt-br': "Coleta",
+			'it-it': "Tassa"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			de: "Ziehe 1 Karte.",
-			es: "Roba 1 carta.",
-			pt: "Compre 1 carta.",
-			it: "Pesca una carta."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'de-de': "Ziehe 1 Karte.",
+			'es-es': "Roba 1 carta.",
+			'pt-br': "Compre 1 carta.",
+			'it-it': "Pesca una carta."
 		}
 	}, {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Spike Sting",
-			fr: "Pic Piquant",
-			de: "Stachelstich",
-			es: "Picotazo Púas",
-			pt: "Ferroada de Espinhos",
-			it: "Aculeopuntura"
+			'en-us': "Spike Sting",
+			'fr-fr': "Pic Piquant",
+			'de-de': "Stachelstich",
+			'es-es': "Picotazo Púas",
+			'pt-br': "Ferroada de Espinhos",
+			'it-it': "Aculeopuntura"
 		},
 
 		damage: 30

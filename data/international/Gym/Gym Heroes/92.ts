@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Drowzee"
+		'en-us': "Sabrina's Drowzee"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Suggestion"
+				'en-us': "Suggestion"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn."
 			},
 
 		},
@@ -40,7 +40,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt"
+				'en-us': "Headbutt"
 			},
 
 			damage: 20,

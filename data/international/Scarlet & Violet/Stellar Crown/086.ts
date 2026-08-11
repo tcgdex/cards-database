@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Diancie",
-		fr: "Diancie",
-		es: "Diancie",
-		it: "Diancie",
-		pt: "Diancie",
-		de: "Diancie"
+		'en-us': "Diancie",
+		'fr-fr': "Diancie",
+		'es-es': "Diancie",
+		'it-it': "Diancie",
+		'pt-br': "Diancie",
+		'de-de': "Diancie"
 	},
 
 	rarity: "Uncommon",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Diffuse Reflection",
-			fr: "Réflexion Diffuse",
-			es: "Refracción Dispersa",
-			it: "Riflesso Diffuso",
-			pt: "Difusão de Reflexo",
-			de: "Streureflektion"
+			'en-us': "Diffuse Reflection",
+			'fr-fr': "Réflexion Diffuse",
+			'es-es': "Refracción Dispersa",
+			'it-it': "Riflesso Diffuso",
+			'pt-br': "Difusão de Reflexo",
+			'de-de': "Streureflektion"
 		},
 
 		effect: {
-			en: "This attack does 40 damage for each Special Energy attached to all of your opponent's Pokémon.",
-			fr: "Cette attaque inflige 40 dégâts pour chaque Énergie spéciale attachée à tous les Pokémon de votre adversaire.",
-			es: "Este ataque hace 40 puntos de daño por cada Energía Especial unida a cada uno de los Pokémon de tu rival.",
-			it: "Questo attacco infligge 40 danni per ogni Energia speciale assegnata ai Pokémon del tuo avversario.",
-			pt: "Este ataque causa 40 pontos de dano para cada Energia Especial ligada a todos os Pokémon do seu oponente.",
-			de: "Diese Attacke fügt für jede an alle Pokémon deines Gegners angelegte Spezial-Energie 40 Schadenspunkte zu."
+			'en-us': "This attack does 40 damage for each Special Energy attached to all of your opponent's Pokémon.",
+			'fr-fr': "Cette attaque inflige 40 dégâts pour chaque Énergie spéciale attachée à tous les Pokémon de votre adversaire.",
+			'es-es': "Este ataque hace 40 puntos de daño por cada Energía Especial unida a cada uno de los Pokémon de tu rival.",
+			'it-it': "Questo attacco infligge 40 danni per ogni Energia speciale assegnata ai Pokémon del tuo avversario.",
+			'pt-br': "Este ataque causa 40 pontos de dano para cada Energia Especial ligada a todos os Pokémon do seu oponente.",
+			'de-de': "Diese Attacke fügt für jede an alle Pokémon deines Gegners angelegte Spezial-Energie 40 Schadenspunkte zu."
 		},
 
 		damage: "40×"
@@ -46,12 +46,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Power Gem",
-			fr: "Rayon Gemme",
-			es: "Joya de Luz",
-			it: "Gemmoforza",
-			pt: "Gema Poderosa",
-			de: "Juwelenkraft"
+			'en-us': "Power Gem",
+			'fr-fr': "Rayon Gemme",
+			'es-es': "Joya de Luz",
+			'it-it': "Gemmoforza",
+			'pt-br': "Gema Poderosa",
+			'de-de': "Juwelenkraft"
 		},
 
 		damage: 60

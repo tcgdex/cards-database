@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hawlucha",
-		fr: "Brutalibré",
-		es: "Hawlucha",
-		it: "Hawlucha",
-		pt: "Hawlucha",
-		de: "Resladero"
+		'en-us': "Hawlucha",
+		'fr-fr': "Brutalibré",
+		'es-es': "Hawlucha",
+		'it-it': "Hawlucha",
+		'pt-br': "Hawlucha",
+		'de-de': "Resladero"
 	},
 
 	rarity: "Uncommon",
@@ -36,30 +36,30 @@ const card: Card = {
 	illustrator: "Taira Akitsu",
 
 	description: {
-		en: "It always strikes a pose before going for its finishing move. Sometimes opponents take advantage of that time to counterattack."
+		'en-us': "It always strikes a pose before going for its finishing move. Sometimes opponents take advantage of that time to counterattack."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Flying Stomp",
-			fr: "Écrasement Aérien",
-			de: "Flying Stomp",
-			es: "Pisotón Volador",
-			pt: "Pisoteada Voadora",
-			it: "Pestone Volante"
+			'en-us': "Flying Stomp",
+			'fr-fr': "Écrasement Aérien",
+			'de-de': "Flying Stomp",
+			'es-es': "Pisotón Volador",
+			'pt-br': "Pisoteada Voadora",
+			'it-it': "Pestone Volante"
 		},
 
 		damage: 20,
 
 		effect: {
-			en: "Discard a Special Energy from your opponent's Active Pokémon.",
-			fr: "Défaussez une Énergie spéciale du Pokémon Actif de votre adversaire.",
-			de: "Lege 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
-			es: "Descarta 1 Energía Especial del Pokémon Activo de tu rival.",
-			pt: "Descarte 1 Energia Especial do Pokémon Ativo do seu oponente.",
-			it: "Scarta un'Energia speciale dal Pokémon attivo del tuo avversario."
+			'en-us': "Discard a Special Energy from your opponent's Active Pokémon.",
+			'fr-fr': "Défaussez une Énergie spéciale du Pokémon Actif de votre adversaire.",
+			'de-de': "Lege 1 Spezial-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+			'es-es': "Descarta 1 Energía Especial del Pokémon Activo de tu rival.",
+			'pt-br': "Descarte 1 Energia Especial do Pokémon Ativo do seu oponente.",
+			'it-it': "Scarta un'Energia speciale dal Pokémon attivo del tuo avversario."
 		}
 	}],
 

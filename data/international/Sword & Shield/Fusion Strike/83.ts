@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Barraskewda",
-		fr: "Hastacuda",
-		es: "Barraskewda",
-		it: "Barraskewda",
-		pt: "Barraskewda",
-		de: "Barrakiefa"
+		'en-us': "Barraskewda",
+		'fr-fr': "Hastacuda",
+		'es-es': "Barraskewda",
+		'it-it': "Barraskewda",
+		'pt-br': "Barraskewda",
+		'de-de': "Barrakiefa"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Arrokuda",
-		fr: "Embrochet",
-		es: "Arrokuda",
-		it: "Arrokuda",
-		pt: "Arrokuda",
-		de: "Pikuda"
+		'en-us': "Arrokuda",
+		'fr-fr': "Embrochet",
+		'es-es': "Arrokuda",
+		'it-it': "Arrokuda",
+		'pt-br': "Arrokuda",
+		'de-de': "Pikuda"
 	},
 
 	stage: "Stage1",
@@ -40,19 +40,19 @@ const card: Card = {
 	illustrator: "Hideki Ishikawa",
 
 	description: {
-		en: "It spins its tail fins to propel itself, surging forward at speeds of over 100 knots before ramming prey and spearing into them."
+		'en-us': "It spins its tail fins to propel itself, surging forward at speeds of over 100 knots before ramming prey and spearing into them."
 	},
 
 	attacks: [{
 		cost: ["Water"],
 
 		name: {
-			en: "Pierce",
-			fr: "Transpercement",
-			de: "Durchbohren",
-			es: "Perforar",
-			pt: "Perfurar",
-			it: "Perforare"
+			'en-us': "Pierce",
+			'fr-fr': "Transpercement",
+			'de-de': "Durchbohren",
+			'es-es': "Perforar",
+			'pt-br': "Perfurar",
+			'it-it': "Perforare"
 		},
 
 		damage: 50

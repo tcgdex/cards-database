@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケットのウォブバッフェット",
+		'ja-jp': "ロケットのウォブバッフェット",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "不器用な攻撃",
+				'ja-jp': "不器用な攻撃",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、この攻撃には何もせず、ポケモンの1つに30ダメージを与えます。 （弱さや抵抗を適用しないでください。）",
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃には何もせず、ポケモンの1つに30ダメージを与えます。 （弱さや抵抗を適用しないでください。）",
 			},
 			damage: 30,
 		},

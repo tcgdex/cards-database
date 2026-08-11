@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Meditite",
-		fr: "Méditikka",
-		es: "Meditite",
-		it: "Meditite",
-		pt: "Meditite",
-		de: "Meditie"
+		'en-us': "Meditite",
+		'fr-fr': "Méditikka",
+		'es-es': "Meditite",
+		'it-it': "Meditite",
+		'pt-br': "Meditite",
+		'de-de': "Meditie"
 	},
 
 	rarity: "Illustration rare",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Calm Mind",
-			fr: "Plénitude",
-			es: "Paz Mental",
-			it: "Calmamente",
-			pt: "Mente Calma",
-			de: "Gedankengut"
+			'en-us': "Calm Mind",
+			'fr-fr': "Plénitude",
+			'es-es': "Paz Mental",
+			'it-it': "Calmamente",
+			'pt-br': "Mente Calma",
+			'de-de': "Gedankengut"
 		},
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon.",
-			fr: "Soignez 20 dégâts de ce Pokémon.",
-			es: "Cura 20 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 20 danni.",
-			pt: "Cure 20 pontos de dano deste Pokémon.",
-			de: "Heile 20 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 20 damage from this Pokémon.",
+			'fr-fr': "Soignez 20 dégâts de ce Pokémon.",
+			'es-es': "Cura 20 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 20 danni.",
+			'pt-br': "Cure 20 pontos de dano deste Pokémon.",
+			'de-de': "Heile 20 Schadenspunkte bei diesem Pokémon."
 		}
 	}, {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			en: "Chop",
-			fr: "Coup Tranchant",
-			es: "Cortar",
-			it: "Ceffone",
-			pt: "Trincar",
-			de: "Hacker"
+			'en-us': "Chop",
+			'fr-fr': "Coup Tranchant",
+			'es-es': "Cortar",
+			'it-it': "Ceffone",
+			'pt-br': "Trincar",
+			'de-de': "Hacker"
 		},
 
 		damage: 50

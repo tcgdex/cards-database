@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Salamence ex",
-		fr: "Drattak ex",
-		de: "Brutalanda ex"
+		'en-us': "Salamence ex",
+		'fr-fr': "Drattak ex",
+		'de-de': "Brutalanda ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shelgon",
-		fr: "Drackhaus"
+		'en-us': "Shelgon",
+		'fr-fr': "Drackhaus"
 	},
 
 	suffix: "ex",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Dragon Lift",
-				fr: "Élévation de dragon",
-				de: "Dragon Lift"
+				'en-us': "Dragon Lift",
+				'fr-fr': "Élévation de dragon",
+				'de-de': "Dragon Lift"
 			},
 			effect: {
-				en: "The Retreat Cost for each of your Pokémon (excluding Pokémon-ex and Baby Pokémon) is 0.",
-				fr: "Le Coût de retraite de chacun de vos Pokémon (Pokémon-ex et Bébé Pokémon exclus) est de 0.",
-				de: "The Retreat Cost of your Pokémon (excluding Pokémon-ex and Baby Pokémon) is 0."
+				'en-us': "The Retreat Cost for each of your Pokémon (excluding Pokémon-ex and Baby Pokémon) is 0.",
+				'fr-fr': "Le Coût de retraite de chacun de vos Pokémon (Pokémon-ex et Bébé Pokémon exclus) est de 0.",
+				'de-de': "The Retreat Cost of your Pokémon (excluding Pokémon-ex and Baby Pokémon) is 0."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flame Jet",
-				fr: "Jet de flamme",
-				de: "Flame Jet"
+				'en-us': "Flame Jet",
+				'fr-fr': "Jet de flamme",
+				'de-de': "Flame Jet"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 40 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
-				de: "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance."
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 40 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				'de-de': "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance."
 			},
 
 		},
@@ -72,14 +72,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bright Flame",
-				fr: "Flamme éclatante",
-				de: "Bright Flame"
+				'en-us': "Bright Flame",
+				'fr-fr': "Flamme éclatante",
+				'de-de': "Bright Flame"
 			},
 			effect: {
-				en: "Discard 2 Energy attached to Salamence ex.",
-				fr: "Défaussez 2 Énergies attachées à Drattak ex.",
-				de: "Discard 2 Energy attached to Salamence ex."
+				'en-us': "Discard 2 Energy attached to Salamence ex.",
+				'fr-fr': "Défaussez 2 Énergies attachées à Drattak ex.",
+				'de-de': "Discard 2 Energy attached to Salamence ex."
 			},
 			damage: 120,
 

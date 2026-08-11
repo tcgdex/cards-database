@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Grondogue",
-		en: "Maschiff",
-		es: "Maschiff",
-		it: "Maschiff",
-		pt: "Maschiff",
-		de: "Mobtiff"
+		'fr-fr': "Grondogue",
+		'en-us': "Maschiff",
+		'es-es': "Maschiff",
+		'it-it': "Maschiff",
+		'pt-br': "Maschiff",
+		'de-de': "Mobtiff"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Coud'Pattes",
-			en: "Smash Kick",
-			es: "Patada Destrucción",
-			it: "Calcio Esplosivo",
-			pt: "Chute Poderoso",
-			de: "Schmetterkick"
+			'fr-fr': "Coud'Pattes",
+			'en-us': "Smash Kick",
+			'es-es': "Patada Destrucción",
+			'it-it': "Calcio Esplosivo",
+			'pt-br': "Chute Poderoso",
+			'de-de': "Schmetterkick"
 		},
 
 		damage: 20
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Croc Aiguisé",
-			en: "Sharp Fang",
-			es: "Colmillo Afilado",
-			it: "Zannaffilata",
-			pt: "Presa Afiada",
-			de: "Scharfe Fänge"
+			'fr-fr': "Croc Aiguisé",
+			'en-us': "Sharp Fang",
+			'es-es': "Colmillo Afilado",
+			'it-it': "Zannaffilata",
+			'pt-br': "Presa Afiada",
+			'de-de': "Scharfe Fänge"
 		},
 
 		damage: 50
@@ -79,7 +79,7 @@ const card: Card = {
 	illustrator: "Shibuzoh.",
 
 	description: {
-		en: "It always scowls in an attempt to make opponents take it seriously, but even crying children will burst into laughter when they see Maschiff's face.",
+		'en-us': "It always scowls in an attempt to make opponents take it seriously, but even crying children will burst into laughter when they see Maschiff's face.",
 	},
 }
 

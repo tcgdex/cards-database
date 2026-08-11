@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニドリーナ",
+		'ja-jp': "ニドリーナ",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "メスなので 性格は 温厚。 口から 出す 超音波は 相手を まどわす 力がある。",
+		'ja-jp': "メスなので 性格は 温厚。 口から 出す 超音波は 相手を まどわす 力がある。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ファミリーレスキュー" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュにある[超]ポケモンを5枚、相手に見せてから、山札にもどして切る。",
+				'ja-jp': "自分のトラッシュにある[超]ポケモンを5枚、相手に見せてから、山札にもどして切る。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニドラン♀",
+		'ja-jp': "ニドラン♀",
 	},
 
 	retreat: 2,

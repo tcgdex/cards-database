@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mewtwo",
-		fr: "Mewtwo",
-		es: "Mewtwo",
-		it: "Mewtwo",
-		pt: "Mewtwo",
-		de: "Mewtu"
+		'en-us': "Mewtwo",
+		'fr-fr': "Mewtwo",
+		'es-es': "Mewtwo",
+		'it-it': "Mewtwo",
+		'pt-br': "Mewtwo",
+		'de-de': "Mewtu"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Life Sucker",
-			fr: "Aspire-Vie",
-			es: "Sorbevidas",
-			it: "Aspiravita",
-			pt: "Sugador de Vida",
-			de: "Lebenssauger"
+			'en-us': "Life Sucker",
+			'fr-fr': "Aspire-Vie",
+			'es-es': "Sorbevidas",
+			'it-it': "Aspiravita",
+			'pt-br': "Sugador de Vida",
+			'de-de': "Lebenssauger"
 		},
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon.",
-			fr: "Soignez 20 dégâts de ce Pokémon.",
-			es: "Cura 20 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 20 danni.",
-			pt: "Cure 20 pontos de dano deste Pokémon.",
-			de: "Heile 20 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 20 damage from this Pokémon.",
+			'fr-fr': "Soignez 20 dégâts de ce Pokémon.",
+			'es-es': "Cura 20 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 20 danni.",
+			'pt-br': "Cure 20 pontos de dano deste Pokémon.",
+			'de-de': "Heile 20 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 20
@@ -47,12 +47,12 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			en: "Psyburn",
-			fr: "Brûlure Psy",
-			es: "Psicoquemadura",
-			it: "Psicobrucia",
-			pt: "Queimadura Psíquica",
-			de: "Psychoverbrennung"
+			'en-us': "Psyburn",
+			'fr-fr': "Brûlure Psy",
+			'es-es': "Psicoquemadura",
+			'it-it': "Psicobrucia",
+			'pt-br': "Queimadura Psíquica",
+			'de-de': "Psychoverbrennung"
 		},
 
 		damage: 110
@@ -75,7 +75,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
+		'en-us': "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
 	},
 
 	variants: [

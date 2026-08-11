@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Pansage",
-		fr: "Feuillajou",
-		es: "Pansage",
-		it: "Pansage",
-		pt: "Pansage",
-		de: "Vegimak"
+		'en-us': "Pansage",
+		'fr-fr': "Feuillajou",
+		'es-es': "Pansage",
+		'it-it': "Pansage",
+		'pt-br': "Pansage",
+		'de-de': "Vegimak"
 	},
 
 	illustrator: "Midori Harada",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Vine Whip",
-				fr: "Fouet Lianes",
-				es: "Látigo Cepa",
-				it: "Frustata",
-				pt: "Chicote de Vinha",
-				de: "Rankenhieb"
+				'en-us': "Vine Whip",
+				'fr-fr': "Fouet Lianes",
+				'es-es': "Látigo Cepa",
+				'it-it': "Frustata",
+				'pt-br': "Chicote de Vinha",
+				'de-de': "Rankenhieb"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leech Seed",
-				fr: "Vampigraine",
-				es: "Drenadoras",
-				it: "Parassiseme",
-				pt: "Semente Sanguessuga",
-				de: "Egelsamen"
+				'en-us': "Leech Seed",
+				'fr-fr': "Vampigraine",
+				'es-es': "Drenadoras",
+				'it-it': "Parassiseme",
+				'pt-br': "Semente Sanguessuga",
+				'de-de': "Egelsamen"
 			},
 			effect: {
-				en: "Heal 10 damage from this Pokémon.",
-				fr: "Soignez 10 dégâts à ce Pokémon.",
-				es: "Cura 10 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 10 danni.",
-				pt: "Cure 10 de danos deste Pokémon.",
-				de: "Heile 10 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 10 damage from this Pokémon.",
+				'fr-fr': "Soignez 10 dégâts à ce Pokémon.",
+				'es-es': "Cura 10 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 10 danni.",
+				'pt-br': "Cure 10 de danos deste Pokémon.",
+				'de-de': "Heile 10 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 20,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It shares the leaf on its head with weary-looking Pokémon. These leaves are known to relieve stress.",
+		'en-us': "It shares the leaf on its head with weary-looking Pokémon. These leaves are known to relieve stress.",
 	},
 
 	thirdParty: {

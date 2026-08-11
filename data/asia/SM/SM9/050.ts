@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バリヤード",
+		'ja-jp': "バリヤード",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "素晴らしい パントマイムの 腕前。 見とれている 間に いつの間にか 本当に 壁が できているのだ。",
+		'ja-jp': "素晴らしい パントマイムの 腕前。 見とれている 間に いつの間にか 本当に 壁が できているのだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かいしゅうふうじ" },
 			effect: {
-				ja: "このポケモンがいるかぎり、ダメカンがのっている相手のポケモンと、そのポケモンについているすべてのカードは、手札にもどせない。",
+				'ja-jp': "このポケモンがいるかぎり、ダメカンがのっている相手のポケモンと、そのポケモンについているすべてのカードは、手札にもどせない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],

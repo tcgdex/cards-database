@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フラージェス",
+		'ja-jp': "フラージェス",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "育てた 花々を 操る。 フラージェスの 放つ 花吹雪は 美しさも パワーも 圧倒的。",
+		'ja-jp': "育てた 花々を 操る。 フラージェスの 放つ 花吹雪は 美しさも パワーも 圧倒的。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "はなつみ" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手の手札からオモテを見ないで2枚選び、そのカードのオモテを見てから、相手の山札にもどして切る。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手の手札からオモテを見ないで2枚選び、そのカードのオモテを見てから、相手の山札にもどして切る。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "60×",
 			cost: ["Fairy", "Colorless"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数×60ダメージ。このポケモンをこんらんにする。",
+				'ja-jp': "コインを3回投げ、オモテの数×60ダメージ。このポケモンをこんらんにする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "フラエッテ",
+		'ja-jp': "フラエッテ",
 	},
 
 	retreat: 2,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メタグロス",
+		'ja-jp': "メタグロス",
 	},
 
 	illustrator: "Bun Toujo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "メタングが 合体して 生まれた。 ４つの 脳を 持つ メタグロスは スーパーコンピュータ並みの 知能。",
+		'ja-jp': "メタングが 合体して 生まれた。 ４つの 脳を 持つ メタグロスは スーパーコンピュータ並みの 知能。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Metal"],
 			effect: {
-				ja: "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+				'ja-jp': "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "150+",
 			cost: ["Metal", "Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "のぞむなら、このポケモンについている[M]エネルギーを3個トラッシュし、150ダメージ追加。",
+				'ja-jp': "のぞむなら、このポケモンについている[M]エネルギーを3個トラッシュし、150ダメージ追加。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "メタング",
+		'ja-jp': "メタング",
 	},
 
 	retreat: 3,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カプ・テテフGX",
+		'ja-jp': "カプ・テテフGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ワンダータッチ" },
 			effect: {
-				ja: "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の山札にあるサポートを1枚、相手に見せてから、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の山札にあるサポートを1枚、相手に見せてから、手札に加える。そして山札を切る。",
 			},
 		},
 	],
@@ -30,14 +30,14 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "おたがいのバトルポケモンについているエネルギーの数x20ダメージ。このワザのダメージは弱点・抵抗力を計算しない。",
+				'ja-jp': "おたがいのバトルポケモンについているエネルギーの数x20ダメージ。このワザのダメージは弱点・抵抗力を計算しない。",
 			},
 		},
 		{
 			name: { ja: "カプキュアーGX" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分のベンチポケモン2匹のHPを、すべて回復する。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分のベンチポケモン2匹のHPを、すべて回復する。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

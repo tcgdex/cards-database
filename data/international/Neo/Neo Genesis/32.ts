@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Croconaw",
-		fr: "Crocrodil",
-		de: "Tyracroc"
+		'en-us': "Croconaw",
+		'fr-fr': "Crocrodil",
+		'de-de': "Tyracroc"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Totodile",
-		fr: "Kaiminus"
+		'en-us': "Totodile",
+		'fr-fr': "Kaiminus"
 	},
 
 	stage: "Stage1",
@@ -37,9 +37,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sweep Away",
-				fr: "Nettoyage",
-				de: "Wegfegen"
+				'en-us': "Sweep Away",
+				'fr-fr': "Nettoyage",
+				'de-de': "Wegfegen"
 			},
 			effect: {
-				en: "Discard the top 3 cards from your deck.",
-				fr: "Défaussez les 3 cartes du dessus de votre deck",
-				de: "Lege die obersten drei Karten deines Decks auf deinen Ablagestapel."
+				'en-us': "Discard the top 3 cards from your deck.",
+				'fr-fr': "Défaussez les 3 cartes du dessus de votre deck",
+				'de-de': "Lege die obersten drei Karten deines Decks auf deinen Ablagestapel."
 			},
 			damage: 50,
 
@@ -76,8 +76,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It opens its huge jaws wide when attacking. If it loses any fangs while biting, they grow back in.",
-		fr: "Il ouvre son immense mâchoire en grand lorsqu'il attaque. S'il perd un croc en mordant, celui-ci repoussera."
+		'en-us': "It opens its huge jaws wide when attacking. If it loses any fangs while biting, they grow back in.",
+		'fr-fr': "Il ouvre son immense mâchoire en grand lorsqu'il attaque. S'il perd un croc en mordant, celui-ci repoussera."
 	},
 
 

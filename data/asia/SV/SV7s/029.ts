@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ซีดรา",
-		id: "Seadra"
+		'th-th': "ซีดรา",
+		'id-id': "Seadra"
 	},
 
 	illustrator: "Yuya Oka",
@@ -15,28 +15,28 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		th: "ตัวผู้จะเป็นฝ่ายเลี้ยงดูลูก ระหว่างเลี้ยงดูลูกนั้นพิษของหนามบนหลังจะมีความรุนแรงและเข้มข้นขึ้น",
-		id: "Seadra jantanlah yang membesarkan anak. Selama masa membesarkan anak, unsur racun pada duri di punggungnya menjadi lebih kuat dan pekat."
+		'th-th': "ตัวผู้จะเป็นฝ่ายเลี้ยงดูลูก ระหว่างเลี้ยงดูลูกนั้นพิษของหนามบนหลังจะมีความรุนแรงและเข้มข้นขึ้น",
+		'id-id': "Seadra jantanlah yang membesarkan anak. Selama masa membesarkan anak, unsur racun pada duri di punggungnya menjadi lebih kuat dan pekat."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "กองหนุน",
-			id: "Bala Bantuan"
+			'th-th': "กองหนุน",
+			'id-id': "Bala Bantuan"
 		},
 
 		effect: {
-			th: "เลือกการ์ดโปเกมอนได้สูงสุด 3 ใบจากสำรับการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ แล้วสับสำรับการ์ด",
-			id: "Pilih paling banyak 3 lembar Pokémon dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
+			'th-th': "เลือกการ์ดโปเกมอนได้สูงสุด 3 ใบจากสำรับการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ แล้วสับสำรับการ์ด",
+			'id-id': "Pilih paling banyak 3 lembar Pokémon dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
 		},
 
 		cost: ["Water"]
 	}, {
 		name: {
-			th: "ครีบแหลมคม",
-			id: "Sirip Tajam"
+			'th-th': "ครีบแหลมคม",
+			'id-id': "Sirip Tajam"
 		},
 
 		damage: 40,

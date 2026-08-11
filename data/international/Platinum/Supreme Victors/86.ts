@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Togekiss C",
-		fr: "Togekiss ",
-		de: "Togekiss C"
+		'en-us': "Togekiss C",
+		'fr-fr': "Togekiss ",
+		'de-de': "Togekiss C"
 	},
 	illustrator: "kawayoo",
 	rarity: "Uncommon",
@@ -25,14 +25,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Collect",
-				fr: "Collectionner",
-				de: "Sammeln"
+				'en-us': "Collect",
+				'fr-fr': "Collectionner",
+				'de-de': "Sammeln"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -42,14 +42,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reckless Charge",
-				fr: "Attaque imprudente",
-				de: "Waghalsiger Sturmangriff"
+				'en-us': "Reckless Charge",
+				'fr-fr': "Attaque imprudente",
+				'de-de': "Waghalsiger Sturmangriff"
 			},
 			effect: {
-				en: "Togekiss C does 10 damage to itself.",
-				fr: "Togekiss  s'inflige 10 dégâts.",
-				de: "Togekiss C fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Togekiss C does 10 damage to itself.",
+				'fr-fr': "Togekiss  s'inflige 10 dégâts.",
+				'de-de': "Togekiss C fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

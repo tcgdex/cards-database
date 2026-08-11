@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エンニュート",
+		'ja-jp': "エンニュート",
 	},
 
 	illustrator: "hatachu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "洞窟の 奥深くに 棲み フェロモンで メロメロに した ヤトウモリたちを 侍らせている。",
+		'ja-jp': "洞窟の 奥深くに 棲み フェロモンで メロメロに した ヤトウモリたちを 侍らせている。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "あぶりだす" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札にある[炎]エネルギーを1枚トラッシュする。その後、山札を3枚引く。",
+				'ja-jp': "自分の番に1回使える。自分の手札にある[炎]エネルギーを1枚トラッシュする。その後、山札を3枚引く。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤトウモリ",
+		'ja-jp': "ヤトウモリ",
 	},
 
 	retreat: 1,

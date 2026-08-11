@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Impostor Professor Oak",
+		'en-us': "Impostor Professor Oak",
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Rare",
@@ -12,7 +12,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Your opponent shuffles his or her hand into his or her deck, then draws 7 cards.",
+		'en-us': "Your opponent shuffles his or her hand into his or her deck, then draws 7 cards.",
 	},
 
 	

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Jungle'
 
 const card: Card = {
 	name: {
-		en: "Electrode",
-		fr: "Électrode",
-		de: "Lektrobal"
+		'en-us': "Electrode",
+		'fr-fr': "Électrode",
+		'de-de': "Lektrobal"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Voltorb",
-		fr: "Voltorbe"
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe"
 	},
 
 	stage: "Stage1",
@@ -37,9 +37,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -52,14 +52,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Chain Lightning",
-				fr: "Rafale de foudre",
-				de: "Kettenblitz"
+				'en-us': "Chain Lightning",
+				'fr-fr': "Rafale de foudre",
+				'de-de': "Kettenblitz"
 			},
 			effect: {
-				en: "If the Defending Pokémon isn't Colorless, this attack does 10 damage to each Benched Pokémon of the same type as the Defending Pokémon (including your own).",
-				fr: "Si le Pokémon Défenseur n'est pas de type Incolore, cette attaque inflige 10 dégâts à chacun des Pokémon du même type que le Pokémon Défenseur qui sont sur un Banc (y compris le vôtre).",
-				de: "Ist das Verteidigende Pokémon nicht farblos, fügt dieser Angriff jedem auf der Bank befindlichen Pokémon (einschließlich deiner eigenen) vom gleichen Typs wie das Verteidigende Pokémon 10 Schadenspunkte zu."
+				'en-us': "If the Defending Pokémon isn't Colorless, this attack does 10 damage to each Benched Pokémon of the same type as the Defending Pokémon (including your own).",
+				'fr-fr': "Si le Pokémon Défenseur n'est pas de type Incolore, cette attaque inflige 10 dégâts à chacun des Pokémon du même type que le Pokémon Défenseur qui sont sur un Banc (y compris le vôtre).",
+				'de-de': "Ist das Verteidigende Pokémon nicht farblos, fügt dieser Angriff jedem auf der Bank befindlichen Pokémon (einschließlich deiner eigenen) vom gleichen Typs wie das Verteidigende Pokémon 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -76,8 +76,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It stores electrical energy under very high pressure. It often explodes with little or no provocation.",
-		fr: "Il emmagasine des quantités énormes de courant électrique sous pression pouvant exploser."
+		'en-us': "It stores electrical energy under very high pressure. It often explodes with little or no provocation.",
+		'fr-fr': "Il emmagasine des quantités énormes de courant électrique sous pression pouvant exploser."
 	},
 
 

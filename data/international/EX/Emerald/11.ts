@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Swampert",
-		fr: "Laggron",
-		de: "Sumpex"
+		'en-us': "Swampert",
+		'fr-fr': "Laggron",
+		'de-de': "Sumpex"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Marshtomp",
-		fr: "Flobio"
+		'en-us': "Marshtomp",
+		'fr-fr': "Flobio"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Water Cyclone",
-				fr: "Cyclone d'O",
-				de: "Water Cyclone"
+				'en-us': "Water Cyclone",
+				'fr-fr': "Cyclone d'O",
+				'de-de': "Water Cyclone"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may move a Water Energy attached to 1 of your Active Pokémon to 1 of your Benched Pokémon. This power can't be used if Swampert is affected by a Special Condition.",
-				fr: "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), vous pouvez déplacer 1 Énergie  d'1 de vos Pokémon Actifs à 1 de vos Pokémon de Banc. Ce pouvoir ne peut pas être utilisé si Laggron est affecté par un État Spécial.",
-				de: "As often you like during your turn (before your attack), you may move a  Energy attached to 1 of your Active Pokémon to 1 of your Benched Pokémon. This power can't be used if Swampert is affected by a Special Condition."
+				'en-us': "As often as you like during your turn (before your attack), you may move a Water Energy attached to 1 of your Active Pokémon to 1 of your Benched Pokémon. This power can't be used if Swampert is affected by a Special Condition.",
+				'fr-fr': "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), vous pouvez déplacer 1 Énergie  d'1 de vos Pokémon Actifs à 1 de vos Pokémon de Banc. Ce pouvoir ne peut pas être utilisé si Laggron est affecté par un État Spécial.",
+				'de-de': "As often you like during your turn (before your attack), you may move a  Energy attached to 1 of your Active Pokémon to 1 of your Benched Pokémon. This power can't be used if Swampert is affected by a Special Condition."
 			},
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spinning Tail",
-				fr: "Queue tournante",
-				de: "Spinning Tail"
+				'en-us': "Spinning Tail",
+				'fr-fr': "Queue tournante",
+				'de-de': "Spinning Tail"
 			},
 			effect: {
-				en: "Does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
-				de: "Does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
+				'de-de': "Does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},
@@ -70,14 +70,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Sonic",
-				fr: "Aquasonique",
-				de: "Aqua Sonic"
+				'en-us': "Aqua Sonic",
+				'fr-fr': "Aquasonique",
+				'de-de': "Aqua Sonic"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				de: "This attack's damage isn't affected by Resistance."
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'de-de': "This attack's damage isn't affected by Resistance."
 			},
 			damage: 60,
 

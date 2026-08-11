@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Yveltal",
-		en: "Yveltal",
-		es: "Yveltal",
-		it: "Yveltal",
-		pt: "Yveltal",
-		de: "Yveltal"
+		'fr-fr': "Yveltal",
+		'en-us': "Yveltal",
+		'es-es': "Yveltal",
+		'it-it': "Yveltal",
+		'pt-br': "Yveltal",
+		'de-de': "Yveltal"
 	},
 
 	illustrator: "Hasuno",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Annihilation Magnifique",
-			en: "Amazing Destruction",
-			es: "Destrucción Increíble",
-			it: "Distruzione Policroma",
-			pt: "Destruição Incrível",
-			de: "Atemberaubende Zerstörung"
+			'fr-fr': "Annihilation Magnifique",
+			'en-us': "Amazing Destruction",
+			'es-es': "Destrucción Increíble",
+			'it-it': "Distruzione Policroma",
+			'pt-br': "Destruição Incrível",
+			'de-de': "Atemberaubende Zerstörung"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est mis K.O.",
-			en: "Your opponent's Active Pokémon is Knocked Out.",
-			es: "El Pokémon Activo de tu rival queda Fuera de Combate.",
-			it: "Il Pokémon attivo del tuo avversario viene messo KO.",
-			pt: "O Pokémon Ativo do seu oponente é Nocauteado.",
-			de: "Das Aktive Pokémon deines Gegners ist kampfunfähig."
+			'fr-fr': "Le Pokémon Actif de votre adversaire est mis K.O.",
+			'en-us': "Your opponent's Active Pokémon is Knocked Out.",
+			'es-es': "El Pokémon Activo de tu rival queda Fuera de Combate.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene messo KO.",
+			'pt-br': "O Pokémon Ativo do seu oponente é Nocauteado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist kampfunfähig."
 		},
 
 		cost: ["Fire", "Psychic", "Darkness", "Colorless", "Colorless"]
@@ -59,7 +59,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more."
+		'en-us': "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more."
 	},
 
 	variants: [

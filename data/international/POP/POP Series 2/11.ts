@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 2'
 
 const card: Card = {
 	name: {
-		en: "TV Reporter",
-		fr: "Journaliste télé"
+		'en-us': "TV Reporter",
+		'fr-fr': "Journaliste télé"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -14,8 +14,8 @@ const card: Card = {
 	trainerType: "Supporter",
 
 	effect: {
-		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Draw 3 cards. Then discard any 1 card from your hand.",
-		fr: "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.\n\nPiochez 3 cartes. Ensuite, défaussez une carte de votre main."
+		'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Draw 3 cards. Then discard any 1 card from your hand.",
+		'fr-fr': "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.\n\nPiochez 3 cartes. Ensuite, défaussez une carte de votre main."
 	},
 
 	retreat: 0,

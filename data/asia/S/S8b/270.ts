@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マクワ",
+		'ja-jp': "マクワ",
 	},
 
 	illustrator: "Ryuta Fuse",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札を上から7枚見る。その中からエネルギーを好きなだけ選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。",
+		'ja-jp': "自分の山札を上から7枚見る。その中からエネルギーを好きなだけ選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。",
 	},
 
 	variants: [

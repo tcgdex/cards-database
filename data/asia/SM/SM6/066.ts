@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヌメラ",
+		'ja-jp': "ヌメラ",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "ヌメヌメの 粘膜で 身を 守る。 粘膜は 雑菌まみれ なので 触ったら しっかり 手を 洗おう。",
+		'ja-jp': "ヌメヌメの 粘膜で 身を 守る。 粘膜は 雑菌まみれ なので 触ったら しっかり 手を 洗おう。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "10×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数x10ダメージ。",
+				'ja-jp': "このポケモンにのっているダメカンの数x10ダメージ。",
 			},
 		},
 	],

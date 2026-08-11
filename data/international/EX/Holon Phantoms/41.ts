@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Exeggutor δ",
-		fr: "Noadkoko δ",
-		de: "Kokowei"
+		'en-us': "Exeggutor δ",
+		'fr-fr': "Noadkoko δ",
+		'de-de': "Kokowei"
 	},
 
 	illustrator: "Midori Harada",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Exeggcute",
-		fr: "Noeunoeuf"
+		'en-us': "Exeggcute",
+		'fr-fr': "Noeunoeuf"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Delta Circle",
-				fr: "Cercle Delta",
-				de: "Delta-Zirkel"
+				'en-us': "Delta Circle",
+				'fr-fr': "Cercle Delta",
+				'de-de': "Delta-Zirkel"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each Pokémon you have in play that has δ on its card.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Pokémon possédant le symbole δ que vous avez en jeu.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Pokémon, das du im Spiel hast, auf dem δ zu sehen ist, zu."
+				'en-us': "Does 10 damage plus 10 more damage for each Pokémon you have in play that has δ on its card.",
+				'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Pokémon possédant le symbole δ que vous avez en jeu.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Pokémon, das du im Spiel hast, auf dem δ zu sehen ist, zu."
 			},
 			damage: "10+",
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Split Bomb",
-				fr: "Bombe fendante",
-				de: "Splitterbombe"
+				'en-us': "Split Bomb",
+				'fr-fr': "Bombe fendante",
+				'de-de': "Splitterbombe"
 			},
 			effect: {
-				en: "Choose 2 of your opponent's Pokémon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 2 des Pokémon de votre adversaire. Cette attaque inflige 30 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Wähle 2 Pokémon deines Gegners. Dieser Angriff fügt beiden gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 2 of your opponent's Pokémon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 2 des Pokémon de votre adversaire. Cette attaque inflige 30 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Wähle 2 Pokémon deines Gegners. Dieser Angriff fügt beiden gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},

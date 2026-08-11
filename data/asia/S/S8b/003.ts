@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スピアー",
+		'ja-jp': "スピアー",
 		'zh-tw': "大針蜂",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "集団で 現れることもある。 猛スピードで 飛び回り お尻の 毒針で 刺しまくる。",
+		'ja-jp': "集団で 現れることもある。 猛スピードで 飛び回り お尻の 毒針で 刺しまくる。",
 		'zh-tw': "有時會成群結隊地出現。能以極快的速度飛來飛去， 並用尾部的毒針不斷刺擊對手。",
 	},
 
@@ -23,24 +23,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "いってんばり",
+				'ja-jp': "いってんばり",
 				'zh-tw': "對點針刺",
 			},
 			cost: ["Grass"],
 			effect: {
-				ja: "相手のバトルポケモンに特殊エネルギーがついているなら、そのポケモンをきぜつさせる。",
+				'ja-jp': "相手のバトルポケモンに特殊エネルギーがついているなら、そのポケモンをきぜつさせる。",
 				'zh-tw': "若對手的戰鬥寶可夢身上附有特殊能量，則將那隻寶可夢【氣絕】。",
 			},
 		},
 		{
 			name: {
-				ja: "ジェットスピア",
+				'ja-jp': "ジェットスピア",
 				'zh-tw': "噴射尖槍",
 			},
 			damage: 110,
 			cost: ["Grass"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。",
 				'zh-tw': "選擇1個這隻寶可夢身上附加的能量，將其丟棄。",
 			},
 		},
@@ -60,7 +60,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コクーン",
+		'ja-jp': "コクーン",
 	},
 
 	retreat: 1,

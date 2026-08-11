@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゾロアーク",
+		'ja-jp': "ゾロアーク",
 	},
 
 	illustrator: "Iwamoto05",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "相手を 化かす ことで 群れの 安全を 守ってきた ポケモン。 仲間同士の 結束が 固い。",
+		'ja-jp': "相手を 化かす ことで 群れの 安全を 守ってきた ポケモン。 仲間同士の 結束が 固い。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			name: { ja: "イカサマ" },
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが持つワザを1つ選び、このワザとして使う。",
+				'ja-jp': "相手のバトルポケモンが持つワザを1つ選び、このワザとして使う。",
 			},
 		},
 	],
@@ -43,7 +43,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゾロア",
+		'ja-jp': "ゾロア",
 	},
 
 	retreat: 1,

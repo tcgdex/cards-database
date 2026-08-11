@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Zoroark de Hisui VSTAR",
-		de: "Hisui-Zoroark VSTAR",
-		es: "Zoroark de Hisui V-ASTRO",
-		pt: "Zoroark de Hisui V-ASTRO",
-		it: "Zoroark di Hisui V ASTRO",
-		en: "Hisuian Zoroark VSTAR"
+		'fr-fr': "Zoroark de Hisui VSTAR",
+		'de-de': "Hisui-Zoroark VSTAR",
+		'es-es': "Zoroark de Hisui V-ASTRO",
+		'pt-br': "Zoroark de Hisui V-ASTRO",
+		'it-it': "Zoroark di Hisui V ASTRO",
+		'en-us': "Hisuian Zoroark VSTAR"
 	},
 
 	rarity: "Promo",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		fr: "Zoroark de Hisui-V",
-		de: "Hisui-Zoroark-V",
-		es: "Zoroark de Hisui V",
-		pt: "Zoroark de Hisui V",
-		it: "Zoroark di Hisui-V",
-		en: "Hisuian Zoroark V"
+		'fr-fr': "Zoroark de Hisui-V",
+		'de-de': "Hisui-Zoroark-V",
+		'es-es': "Zoroark de Hisui V",
+		'pt-br': "Zoroark de Hisui V",
+		'it-it': "Zoroark di Hisui-V",
+		'en-us': "Hisuian Zoroark V"
 	},
 
 	stage: "VSTAR",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Malédiction Imminente",
-			de: "Tickender Fluch",
-			es: "Maldición Inminente",
-			pt: "Tique-taque Amaldiçoado",
-			it: "Maledizione a Orologeria",
-			en: "Ticking Curse"
+			'fr-fr': "Malédiction Imminente",
+			'de-de': "Tickender Fluch",
+			'es-es': "Maldición Inminente",
+			'pt-br': "Tique-taque Amaldiçoado",
+			'it-it': "Maledizione a Orologeria",
+			'en-us': "Ticking Curse"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 50 dégâts pour chacun de vos Pokémon ayant au moins un marqueur de dégâts.",
-			de: "Diese Attacke fügt für jedes deiner Pokémon, auf dem mindestens 1 Schadensmarke liegt, 50 Schadenspunkte zu.",
-			es: "Este ataque hace 50 puntos de daño por cada uno de tus Pokémon que tenga algún contador de daño sobre él.",
-			pt: "Este ataque causa 50 pontos de dano para cada um dos seus Pokémon que tiver algum contador de dano nele.",
-			it: "Questo attacco infligge 50 danni per ogni tuo Pokémon che ha dei segnalini danno.",
-			en: "This attack does 50 damage for each of your Pokémon that has any damage counters on it."
+			'fr-fr': "Cette attaque inflige 50 dégâts pour chacun de vos Pokémon ayant au moins un marqueur de dégâts.",
+			'de-de': "Diese Attacke fügt für jedes deiner Pokémon, auf dem mindestens 1 Schadensmarke liegt, 50 Schadenspunkte zu.",
+			'es-es': "Este ataque hace 50 puntos de daño por cada uno de tus Pokémon que tenga algún contador de daño sobre él.",
+			'pt-br': "Este ataque causa 50 pontos de dano para cada um dos seus Pokémon que tiver algum contador de dano nele.",
+			'it-it': "Questo attacco infligge 50 danni per ogni tuo Pokémon che ha dei segnalini danno.",
+			'en-us': "This attack does 50 damage for each of your Pokémon that has any damage counters on it."
 		},
 
 		damage: "50×"

@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [375],
 
 	name: {
-		en: "Metang",
-		fr: "Métang",
-		es: "Metang",
-		it: "Metang",
-		pt: "Metang",
-		de: "Metang"
+		'en-us': "Metang",
+		'fr-fr': "Métang",
+		'es-es': "Metang",
+		'it-it': "Metang",
+		'pt-br': "Metang",
+		'de-de': "Metang"
 	},
 
 	illustrator: "Kazuma Koda",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Beldum",
-		fr: "Terhal",
-		es: "Beldum",
-		it: "Beldum",
-		pt: "Beldum",
-		de: "Tanhel"
+		'en-us': "Beldum",
+		'fr-fr': "Terhal",
+		'es-es': "Beldum",
+		'it-it': "Beldum",
+		'pt-br': "Beldum",
+		'de-de': "Tanhel"
 	},
 
 	attacks: [
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Claw",
-				fr: "Griffe Acier",
-				es: "Garra Metal",
-				it: "Ferrartigli",
-				pt: "Garra de Metal",
-				de: "Metallklaue"
+				'en-us': "Metal Claw",
+				'fr-fr': "Griffe Acier",
+				'es-es': "Garra Metal",
+				'it-it': "Ferrartigli",
+				'pt-br': "Garra de Metal",
+				'de-de': "Metallklaue"
 			},
 
 			damage: 30,
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnetic Blast",
-				fr: "Explosion Magnétique",
-				es: "Explosión Magnética",
-				it: "Magnetebomba",
-				pt: "Explosão Magnética",
-				de: "Magnetstoß"
+				'en-us': "Magnetic Blast",
+				'fr-fr': "Explosion Magnétique",
+				'es-es': "Explosión Magnética",
+				'it-it': "Magnetebomba",
+				'pt-br': "Explosão Magnética",
+				'de-de': "Magnetstoß"
 			},
 
 			damage: 60,
@@ -91,7 +91,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It flies at high speeds around the skies. When it finds its prey, Metang takes a firm grip with its sharp claws and never lets go."
+		'en-us': "It flies at high speeds around the skies. When it finds its prey, Metang takes a firm grip with its sharp claws and never lets go."
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Altaria",
-		fr: "Altaria",
-		de: "Altaria"
+		'en-us': "Altaria",
+		'fr-fr': "Altaria",
+		'de-de': "Altaria"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Swablu",
-		fr: "Tylton"
+		'en-us': "Swablu",
+		'fr-fr': "Tylton"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Dance",
-				fr: "Danse de dragon",
-				de: "Dragon Dance"
+				'en-us': "Dragon Dance",
+				'fr-fr': "Danse de dragon",
+				'de-de': "Dragon Dance"
 			},
 			effect: {
-				en: "During your next turn, if any of your current Active Pokémon does damage to any Defending Pokémon, this attack does 40 more damage (before applying Weakness and Resistance).",
-				fr: "Lors de votre prochain tour, si un de vos Pokémon Actifs inflige des dégâts à un des Pokémon Défenseurs, cette attaque inflige 40 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
-				de: "During your next turn, if any of your current Active Pokémon does damage to any Defending Pokémon, the attack does 40 more damage (before applying Weakness and Resistance)."
+				'en-us': "During your next turn, if any of your current Active Pokémon does damage to any Defending Pokémon, this attack does 40 more damage (before applying Weakness and Resistance).",
+				'fr-fr': "Lors de votre prochain tour, si un de vos Pokémon Actifs inflige des dégâts à un des Pokémon Défenseurs, cette attaque inflige 40 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "During your next turn, if any of your current Active Pokémon does damage to any Defending Pokémon, the attack does 40 more damage (before applying Weakness and Resistance)."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Dragon Song",
-				fr: "Chanson de dragon",
-				de: "Dragon Song"
+				'en-us': "Dragon Song",
+				'fr-fr': "Chanson de dragon",
+				'de-de': "Dragon Song"
 			},
 			effect: {
-				en: "Each Defending Pokémon is now Asleep.",
-				fr: "Chaque Pokémon Défenseur est maintenant Endormi.",
-				de: "Each Defending Pokémon is now Asleep."
+				'en-us': "Each Defending Pokémon is now Asleep.",
+				'fr-fr': "Chaque Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Each Defending Pokémon is now Asleep."
 			},
 			damage: 30,
 

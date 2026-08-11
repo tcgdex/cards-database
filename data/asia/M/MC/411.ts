@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "セキタンザン",
+		'ja-jp': "セキタンザン",
 	},
 
 	illustrator: "Shiburingaru",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "体を 大きく 振り動かし 燃え上がる 背中から 石炭を あたりに ばら撒いて 威嚇する。",
+		'ja-jp': "体を 大きく 振り動かし 燃え上がる 背中から 石炭を あたりに ばら撒いて 威嚇する。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "40+",
 			cost: ["Fighting"],
 			effect: {
-				ja: "このポケモンについている[R]エネルギーの数×80ダメージ追加。",
+				'ja-jp': "このポケモンについている[R]エネルギーの数×80ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手の山札を上から2枚トラッシュする。",
+				'ja-jp': "相手の山札を上から2枚トラッシュする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "トロッゴン",
+		'ja-jp': "トロッゴン",
 	},
 
 	retreat: 4,

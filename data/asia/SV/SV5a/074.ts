@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ラブトロス"
+		'ja-jp': "ラブトロス"
 	},
 
 	illustrator: "GOTO minori",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "海を越えて 飛来したらば 厳しき冬の 終わりを知る。 慈愛が ヒスイの地に 新しき命 芽吹かせるとの 伝承あり。"
+		'ja-jp': "海を越えて 飛来したらば 厳しき冬の 終わりを知る。 慈愛が ヒスイの地に 新しき命 芽吹かせるとの 伝承あり。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ハートサイン"
+			'ja-jp': "ハートサイン"
 		},
 
 		damage: 30
@@ -32,13 +32,13 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ラブレゾナンス"
+			'ja-jp': "ラブレゾナンス"
 		},
 
 		damage: "80＋",
 
 		effect: {
-			ja: "自分の場に、相手の場のポケモンと同じタイプのポケモンがいるなら、120ダメージ追加。"
+			'ja-jp': "自分の場に、相手の場のポケモンと同じタイプのポケモンがいるなら、120ダメージ追加。"
 		}
 	}],
 

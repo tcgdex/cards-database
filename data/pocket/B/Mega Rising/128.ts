@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hippopotas"
+		'en-us': "Hippopotas"
 	},
 
 	illustrator: "Yuya Oka",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It shrouds itself in sand to ward off germs.\nIt travels easily through the sands of the desert."
+		'en-us': "It shrouds itself in sand to ward off germs.\nIt travels easily through the sands of the desert."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Mud Shot"
+			'en-us': "Mud Shot"
 		},
 
 		damage: 30,

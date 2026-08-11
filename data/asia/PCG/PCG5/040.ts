@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジェンガー",
+		'ja-jp': "ジェンガー",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "影の呪い",
+				'ja-jp': "影の呪い",
 			},
 			effect: {
-				ja: "Gengarが相手の攻撃によるダメージによってノックアウトされる場合、相手のPokã©Monの1つに3つのダメージカウンターを入れることができます。",
+				'ja-jp': "Gengarが相手の攻撃によるダメージによってノックアウトされる場合、相手のPokã©Monの1つに3つのダメージカウンターを入れることができます。",
 			},
 		}],
 
@@ -29,16 +29,16 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "呪われた反応",
+				'ja-jp': "呪われた反応",
 			},
 			effect: {
-				ja: "相手のポケモンに2つのダメージカウンターを、好きなように配置します。 GengarにはReact Energy Cardが接続されている場合は、代わりに4つのダメージカウンターを入れます。",
+				'ja-jp': "相手のポケモンに2つのダメージカウンターを、好きなように配置します。 GengarにはReact Energy Cardが接続されている場合は、代わりに4つのダメージカウンターを入れます。",
 			},
 		},
 		{
 			cost: ["Psychic", "Psychic", "Colorless"],
 			name: {
-				ja: "スーパーPSYボルト",
+				'ja-jp': "スーパーPSYボルト",
 			},
 			damage: 60,
 		},

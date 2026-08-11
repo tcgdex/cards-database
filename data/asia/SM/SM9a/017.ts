@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デンヂムシ",
+		'ja-jp': "デンヂムシ",
 	},
 
 	illustrator: "Sekio",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "落ち葉に 埋まり ほとんど 動かず ひたすら 腐葉土を 食っている。 間違って 踏むと ビリビリするぞ。",
+		'ja-jp': "落ち葉に 埋まり ほとんど 動かず ひたすら 腐葉土を 食っている。 間違って 踏むと ビリビリするぞ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "バッテリー" },
 			effect: {
-				ja: "このカードが手札にあるなら、自分の番に1回使える。このカードを特殊エネルギーとして自分の「クワガノン（GXをふくむ）」につける。このカードは、ポケモンについているかぎり[雷]エネルギー2個ぶんとしてはたらく。",
+				'ja-jp': "このカードが手札にあるなら、自分の番に1回使える。このカードを特殊エネルギーとして自分の「クワガノン（GXをふくむ）」につける。このカードは、ポケモンについているかぎり[雷]エネルギー2個ぶんとしてはたらく。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アゴジムシ",
+		'ja-jp': "アゴジムシ",
 	},
 
 	retreat: 3,

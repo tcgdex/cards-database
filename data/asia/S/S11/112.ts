@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピジョットV",
+		'ja-jp': "ピジョットV",
 	},
 
 	illustrator: "Saki Hayashiro",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "きえさるつばさ" },
 			effect: {
-				ja: "このポケモンがベンチにいるなら、自分の番に1回使える。このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
+				'ja-jp': "このポケモンがベンチにいるなら、自分の番に1回使える。このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "場に自分のスタジアムが出ているなら、80ダメージ追加。",
+				'ja-jp': "場に自分のスタジアムが出ているなら、80ダメージ追加。",
 			},
 		},
 	],

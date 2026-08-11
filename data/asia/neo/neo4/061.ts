@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "暗いスローキング",
+		'ja-jp': "暗いスローキング",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "unning",
+				'ja-jp': "unning",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前に）</em> </em>、コインをひっくり返すことができます。頭の場合は、相手のデッキの一番上のカードを見てください。その後、相手にデッキをシャッフルさせることがあります。暗いスローキングが眠っている、混乱し、麻痺している場合、このパワーは使用できません。",
+				'ja-jp': "ターン中に（攻撃の前に）</em> </em>、コインをひっくり返すことができます。頭の場合は、相手のデッキの一番上のカードを見てください。その後、相手にデッキをシャッフルさせることがあります。暗いスローキングが眠っている、混乱し、麻痺している場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Psychic"],
 			name: {
-				ja: "マインドショック",
+				'ja-jp': "マインドショック",
 			},
 			effect: {
-				ja: "この攻撃に弱さや抵抗を適用しないでください。",
+				'ja-jp': "この攻撃に弱さや抵抗を適用しないでください。",
 			},
 			damage: 30,
 		},

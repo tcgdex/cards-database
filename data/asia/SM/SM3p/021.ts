@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オーダイル",
+		'ja-jp': "オーダイル",
 	},
 
 	illustrator: "nagimiso",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "普段は ゆっくりとした 動きだが 獲物に かみつくときは 目にも 止まらない スピードだ。",
+		'ja-jp': "普段は ゆっくりとした 動きだが 獲物に かみつくときは 目にも 止まらない スピードだ。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アリゲイツ",
+		'ja-jp': "アリゲイツ",
 	},
 
 	retreat: 3,

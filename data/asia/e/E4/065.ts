@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Eevee",
+		'ja-jp': "Eevee",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "スマッシュキック",
+				'ja-jp': "スマッシュキック",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "降ろす",
+				'ja-jp': "降ろす",
 			},
 			effect: {
-				ja: "Eeveeはそれ自体に10ダメージを与えます。",
+				'ja-jp': "Eeveeはそれ自体に10ダメージを与えます。",
 			},
 			damage: 30,
 		},

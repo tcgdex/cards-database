@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Meditite",
-		fr: "Meditikka",
-		de: "Meditie"
+		'en-us': "Meditite",
+		'fr-fr': "Meditikka",
+		'de-de': "Meditie"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Meditite",
+		'en-us': "Meditite",
 	},
 
 	stage: "Basic",
@@ -33,9 +33,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Punch",
-				fr: "Koud'poing",
-				de: "Punch"
+				'en-us': "Punch",
+				'fr-fr': "Koud'poing",
+				'de-de': "Punch"
 			},
 
 			damage: 10,
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Meditate",
-				fr: "Yoga",
-				de: "Meditate"
+				'en-us': "Meditate",
+				'fr-fr': "Yoga",
+				'de-de': "Meditate"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur le Pokémon Défenseur.",
-				de: "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+				'en-us': "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
+				'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur le Pokémon Défenseur.",
+				'de-de': "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon."
 			},
 			damage: "10+",
 

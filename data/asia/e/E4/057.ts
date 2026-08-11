@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カブトップス",
+		'ja-jp': "カブトップス",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "原始オーラ",
+				'ja-jp': "原始オーラ",
 			},
 			effect: {
-				ja: "Kabutopsがあなたのアクティブなポクモンである限り、どちらのプレイヤーも、ベンチでベンチポクモンを進化させるために彼または彼女の手から基本的なポクモンカードや進化カードをプレイすることはできません。",
+				'ja-jp': "Kabutopsがあなたのアクティブなポクモンである限り、どちらのプレイヤーも、ベンチでベンチポクモンを進化させるために彼または彼女の手から基本的なポクモンカードや進化カードをプレイすることはできません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
-				ja: "デュアルカット",
+				'ja-jp': "デュアルカット",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の50回のダメージ時間を実行します。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の50回のダメージ時間を実行します。",
 			},
 		},
 	],

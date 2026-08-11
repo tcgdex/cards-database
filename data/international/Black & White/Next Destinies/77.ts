@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Ferroseed",
-		fr: "Grindur",
-		es: "Ferroseed",
-		it: "Ferroseed",
-		pt: "Ferroseed",
-		de: "Kastadur"
+		'en-us': "Ferroseed",
+		'fr-fr': "Grindur",
+		'es-es': "Ferroseed",
+		'it-it': "Ferroseed",
+		'pt-br': "Ferroseed",
+		'de-de': "Kastadur"
 	},
 
 	illustrator: "match",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Self Destruct",
-				fr: "Destruction",
+				'en-us': "Self Destruct",
+				'fr-fr': "Destruction",
 			},
 			effect: {
-				en: "This Pokémon does 60 damage to itself.",
-				fr: "Ce Pokémon s'inflige 60 dégâts.",
+				'en-us': "This Pokémon does 60 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 60 dégâts.",
 			},
 			damage: 60,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "When threatened, it attacks by shooting a barrage of spikes, which gives it a chance to escape by rolling away.",
+		'en-us': "When threatened, it attacks by shooting a barrage of spikes, which gives it a chance to escape by rolling away.",
 	},
 
 	thirdParty: {

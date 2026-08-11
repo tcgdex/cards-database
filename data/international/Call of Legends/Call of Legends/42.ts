@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Donphan",
-		fr: "Donphan",
-		de: "Donphan"
+		'en-us': "Donphan",
+		'fr-fr': "Donphan",
+		'de-de': "Donphan"
 	},
 
 	illustrator: "Midori Harada",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Phanpy",
-		fr: "Phanpy"
+		'en-us': "Phanpy",
+		'fr-fr': "Phanpy"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Hurl",
-				fr: "Lance-pierre",
-				de: "Steinschleuderer"
+				'en-us': "Rock Hurl",
+				'fr-fr': "Lance-pierre",
+				'de-de': "Steinschleuderer"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance.",
-				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance.",
+				'de-de': "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 50,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Spin",
-				fr: "Double tour",
-				de: "Doppeldreher"
+				'en-us': "Double Spin",
+				'fr-fr': "Double tour",
+				'de-de': "Doppeldreher"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 70 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 70 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 70 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 70 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 70 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 70 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "70×",
 
@@ -86,7 +86,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It has sharp, hard tusks and a rugged hide. Its tackle is strong enough to knock down a house.",
+		'en-us': "It has sharp, hard tusks and a rugged hide. Its tackle is strong enough to knock down a house.",
 	},
 
 	variants: [

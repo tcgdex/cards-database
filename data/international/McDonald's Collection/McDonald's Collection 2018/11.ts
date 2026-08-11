@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2018'
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eevee"
+		'en-us': "Eevee"
 	},
 
 	rarity: "None",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Energy Evolution",
+				'en-us': "Energy Evolution",
 			},
 			effect: {
-				en: "When you attach a basic Energy card from your hand to this Pokémon during your turn, you may search your deck for a card that evolves from this Pokémon that is the same type as that Energy card and put it onto this Pokémon to evolve it. Then, shuffle your deck."
+				'en-us': "When you attach a basic Energy card from your hand to this Pokémon during your turn, you may search your deck for a card that evolves from this Pokémon that is the same type as that Energy card and put it onto this Pokémon to evolve it. Then, shuffle your deck."
 			}
 		}
 	],
@@ -31,10 +31,10 @@ const card: Card = {
 				"Colorless"
 			],
 			name: {
-				en: "Quick Draw",
+				'en-us': "Quick Draw",
 			},
 			effect: {
-				en: "Flip a coin. If heads, draw a card."
+				'en-us': "Flip a coin. If heads, draw a card."
 			},
 			damage: 80,
 		}

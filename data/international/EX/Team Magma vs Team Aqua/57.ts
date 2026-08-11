@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Spheal",
-		fr: "Obalie de Team Aqua",
-		de: "Team Aquas Seemops"
+		'en-us': "Team Aqua's Spheal",
+		'fr-fr': "Obalie de Team Aqua",
+		'de-de': "Team Aquas Seemops"
 	},
 
 	illustrator: "Nakaoka",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				de: "Rollout"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'de-de': "Rollout"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Trance",
-				fr: "Aqua-transe",
-				de: "Aqua Trance"
+				'en-us': "Aqua Trance",
+				'fr-fr': "Aqua-transe",
+				'de-de': "Aqua Trance"
 			},
 			effect: {
-				en: "At the end of your opponent's next turn, the Defending Pokémon is now Asleep.",
-				fr: "À la fin du prochain tour de votre adversaire, le Pokémon Défenseur est Endormi.",
-				de: "At the end of your opponent's next turn, the Defending Pokémon is now Asleep."
+				'en-us': "At the end of your opponent's next turn, the Defending Pokémon is now Asleep.",
+				'fr-fr': "À la fin du prochain tour de votre adversaire, le Pokémon Défenseur est Endormi.",
+				'de-de': "At the end of your opponent's next turn, the Defending Pokémon is now Asleep."
 			},
 			damage: 20,
 

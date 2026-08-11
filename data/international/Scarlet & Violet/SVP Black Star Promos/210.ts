@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tornadus",
-		fr: "Boréas",
-		de: "Boreos",
-		it: "Tornadus",
-		es: "Tornadus",
-		pt: "Tornadus"
+		'en-us': "Tornadus",
+		'fr-fr': "Boréas",
+		'de-de': "Boreos",
+		'it-it': "Tornadus",
+		'es-es': "Tornadus",
+		'pt-br': "Tornadus"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -25,41 +25,41 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Wrapped in Wind",
-			fr: "Enveloppement Éolien",
-			de: "Windhülle",
-			it: "Ventavvolto",
-			es: "Envuelto en Viento",
-			pt: "Embrulhado no Vento"
+			'en-us': "Wrapped in Wind",
+			'fr-fr': "Enveloppement Éolien",
+			'de-de': "Windhülle",
+			'it-it': "Ventavvolto",
+			'es-es': "Envuelto en Viento",
+			'pt-br': "Embrulhado no Vento"
 	},
 
 		effect: {
-			en: "Attach a Basic Energy card from your hand to this Pokémon.",
-			fr: "Attachez une carte Énergie de base de votre main à ce Pokémon.",
-			de: "Lege 1 Basis-Energiekarte aus deiner Hand an dieses Pokémon an.",
-			it: "Assegna a questo Pokémon una carta Energia base dalla tua mano.",
-			es: "Une 1 carta de Energía Básica de tu mano a este Pokémon.",
-			pt: "Ligue uma carta de Energia Básica da sua mão a este Pokémon."
+			'en-us': "Attach a Basic Energy card from your hand to this Pokémon.",
+			'fr-fr': "Attachez une carte Énergie de base de votre main à ce Pokémon.",
+			'de-de': "Lege 1 Basis-Energiekarte aus deiner Hand an dieses Pokémon an.",
+			'it-it': "Assegna a questo Pokémon una carta Energia base dalla tua mano.",
+			'es-es': "Une 1 carta de Energía Básica de tu mano a este Pokémon.",
+			'pt-br': "Ligue uma carta de Energia Básica da sua mão a este Pokémon."
 	}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Hurricane",
-			fr: "Vent Violent",
-			de: "Orkan",
-			it: "Tifone",
-			es: "Vendaval",
-			pt: "Furacão"
+			'en-us': "Hurricane",
+			'fr-fr': "Vent Violent",
+			'de-de': "Orkan",
+			'it-it': "Tifone",
+			'es-es': "Vendaval",
+			'pt-br': "Furacão"
 	},
 
 		effect: {
-			en: "Move a Basic Energy from this Pokémon to 1 of your Benched Pokémon.",
-			fr: "Déplacez une Énergie de base de ce Pokémon vers l'un de vos Pokémon de Banc.",
-			de: "Verschiebe 1 Basis-Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank.",
-			it: "Sposta un'Energia base da questo Pokémon a uno di quelli nella tua panchina.",
-			es: "Mueve 1 Energía Básica de este Pokémon a uno de tus Pokémon en Banca.",
-			pt: "Mova uma Energia Básica deste Pokémon para 1 dos seus Pokémon no Banco."
+			'en-us': "Move a Basic Energy from this Pokémon to 1 of your Benched Pokémon.",
+			'fr-fr': "Déplacez une Énergie de base de ce Pokémon vers l'un de vos Pokémon de Banc.",
+			'de-de': "Verschiebe 1 Basis-Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank.",
+			'it-it': "Sposta un'Energia base da questo Pokémon a uno di quelli nella tua panchina.",
+			'es-es': "Mueve 1 Energía Básica de este Pokémon a uno de tus Pokémon en Banca.",
+			'pt-br': "Mova uma Energia Básica deste Pokémon para 1 dos seus Pokémon no Banco."
 	},
 
 		damage: 100

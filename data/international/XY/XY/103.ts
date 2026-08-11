@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Swellow",
-		fr: "Hélédelle",
-		es: "Swellow",
-		it: "Swellow",
-		pt: "Swellow",
-		de: "Schwalboss"
+		'en-us': "Swellow",
+		'fr-fr': "Hélédelle",
+		'es-es': "Swellow",
+		'it-it': "Swellow",
+		'pt-br': "Swellow",
+		'de-de': "Schwalboss"
 	},
 
 	illustrator: "Mizue",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Taillow",
-		fr: "Nirondelle",
-		es: "Taillow",
-		it: "Taillow",
-		pt: "Taillow",
-		de: "Schwalbini"
+		'en-us': "Taillow",
+		'fr-fr': "Nirondelle",
+		'es-es': "Taillow",
+		'it-it': "Taillow",
+		'pt-br': "Taillow",
+		'de-de': "Schwalbini"
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Drive Off",
-				fr: "Déroute",
-				es: "Huida",
-				it: "Filar Via",
-				pt: "Rechaçar",
-				de: "Wegtreiben"
+				'en-us': "Drive Off",
+				'fr-fr': "Déroute",
+				'es-es': "Huida",
+				'it-it': "Filar Via",
+				'pt-br': "Rechaçar",
+				'de-de': "Wegtreiben"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez demander à votre adversaire d'échanger son Pokémon Actif avec l'un de ses Pokémon de Banc.",
-				es: "Una vez durante tu turno (antes de tu ataque), puedes hacer que tu rival cambie su Pokémon Activo por 1 de sus Pokémon en Banca.",
-				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi far scambiare al tuo avversario il suo Pokémon attivo con uno dei suoi Pokémon in panchina.",
-				pt: "Uma vez durante sua vez de jogar (antes de atacar), você poderá fazer com que seu oponente troque seu Pokémon Ativo por 1 dos Pokémon no Banco dele ou dela.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du deinen Gegner dazu veranlassen, sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank auszutauschen."
+				'en-us': "Once during your turn (before your attack), you may have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez demander à votre adversaire d'échanger son Pokémon Actif avec l'un de ses Pokémon de Banc.",
+				'es-es': "Una vez durante tu turno (antes de tu ataque), puedes hacer que tu rival cambie su Pokémon Activo por 1 de sus Pokémon en Banca.",
+				'it-it': "Una sola volta durante il tuo turno, prima di attaccare, puoi far scambiare al tuo avversario il suo Pokémon attivo con uno dei suoi Pokémon in panchina.",
+				'pt-br': "Uma vez durante sua vez de jogar (antes de atacar), você poderá fazer com que seu oponente troque seu Pokémon Ativo por 1 dos Pokémon no Banco dele ou dela.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du deinen Gegner dazu veranlassen, sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank auszutauschen."
 			},
 		},
 	],
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-Aile",
-				es: "Ataque Ala",
-				it: "Attacco d'Ala",
-				pt: "Ataque de Asa",
-				de: "Flügelschlag"
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-Aile",
+				'es-es': "Ataque Ala",
+				'it-it': "Attacco d'Ala",
+				'pt-br': "Ataque de Asa",
+				'de-de': "Flügelschlag"
 			},
 
 			damage: 60,
@@ -97,7 +97,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If its two tail feathers are standing at attention, it is proof of good health. It soars elegantly in the sky.",
+		'en-us': "If its two tail feathers are standing at attention, it is proof of good health. It soars elegantly in the sky.",
 	},
 
 	thirdParty: {

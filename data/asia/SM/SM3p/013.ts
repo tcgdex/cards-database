@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メラルバ",
+		'ja-jp': "メラルバ",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "太陽から 生まれたと いわれる。 進化するとき ツノから 噴き出した 炎で 全身を 包みこむ。",
+		'ja-jp': "太陽から 生まれたと いわれる。 進化するとき ツノから 噴き出した 炎で 全身を 包みこむ。",
 	},
 
 	stage: "Basic",

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Champion\'s Path'
 
 const card: Card = {
 	name: {
-		en: "Hattrem",
-		fr: "Chapotus",
-		es: "Hattrem",
-		it: "Hattrem",
-		pt: "Hattrem",
-		de: "Brimano"
+		'en-us': "Hattrem",
+		'fr-fr': "Chapotus",
+		'es-es': "Hattrem",
+		'it-it': "Hattrem",
+		'pt-br': "Hattrem",
+		'de-de': "Brimano"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Hatenna",
-		fr: "Bibichut"
+		'en-us': "Hatenna",
+		'fr-fr': "Bibichut"
 	},
 
 	attacks: [
@@ -33,12 +33,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Beat",
-				fr: "Bataille",
-				es: "Toque",
-				it: "Battuta",
-				pt: "Pulso",
-				de: "Verprügler"
+				'en-us': "Beat",
+				'fr-fr': "Bataille",
+				'es-es': "Toque",
+				'it-it': "Battuta",
+				'pt-br': "Pulso",
+				'de-de': "Verprügler"
 			},
 
 			damage: 20,
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Psy Bolt",
-				fr: "Super Psy",
-				es: "Superrayo Psi",
-				it: "Superpsico",
-				pt: "Super-raio Psíquico",
-				de: "Super-Psischlag"
+				'en-us': "Super Psy Bolt",
+				'fr-fr': "Super Psy",
+				'es-es': "Superrayo Psi",
+				'it-it': "Superpsico",
+				'pt-br': "Super-raio Psíquico",
+				'de-de': "Super-Psischlag"
 			},
 
 			damage: 40,
@@ -90,7 +90,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "No matter who you are, if you bring strong emotions near this Pokémon, it will silence you violently."
+		'en-us': "No matter who you are, if you bring strong emotions near this Pokémon, it will silence you violently."
 	},
 
 	thirdParty: {

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Charmeleon",
+		'en-us': "Charmeleon",
 	},
 
 	illustrator: "Akira Komayama",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmander",
+		'en-us': "Charmander",
 	},
 
 	stage: "Stage1",
@@ -33,7 +33,7 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flare",
+				'en-us': "Flare",
 			},
 
 			damage: 20,
@@ -46,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Raging Claws",
+				'en-us': "Raging Claws",
 			},
 			effect: {
-				en: "Does 10 more damage for each damage counter on this Pokémon.",
+				'en-us': "Does 10 more damage for each damage counter on this Pokémon.",
 			},
 			damage: 50,
 
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "In the rocky mountains where Charmeleon live, their fiery tails shine at night like stars.",
+		'en-us': "In the rocky mountains where Charmeleon live, their fiery tails shine at night like stars.",
 	},
 
 	thirdParty: {

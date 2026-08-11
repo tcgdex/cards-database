@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アイアント",
+		'ja-jp': "アイアント",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "鋼の よろいを 身にまとう。 天敵の クイタランの 攻撃を 集団で 防ぎ 反撃する。",
+		'ja-jp': "鋼の よろいを 身にまとう。 天敵の クイタランの 攻撃を 集団で 防ぎ 反撃する。",
 	},
 
 	stage: "Basic",
@@ -24,14 +24,14 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "のぞむなら、場に出ているスタジアムをトラッシュする。",
+				'ja-jp': "のぞむなら、場に出ているスタジアムをトラッシュする。",
 			},
 		},
 		{
 			name: { ja: "やまかじり" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手の山札を上から2枚トラッシュする。",
+				'ja-jp': "相手の山札を上から2枚トラッシュする。",
 			},
 		},
 	],

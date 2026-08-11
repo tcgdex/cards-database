@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Makuhita",
-		fr: "Makuhita",
-		es: "Makuhita",
-		it: "Makuhita",
-		pt: "Makuhita",
-		de: "Makuhita"
+		'en-us': "Makuhita",
+		'fr-fr': "Makuhita",
+		'es-es': "Makuhita",
+		'it-it': "Makuhita",
+		'pt-br': "Makuhita",
+		'de-de': "Makuhita"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Punch",
-				fr: "Koud'Poing",
-				es: "Puño",
-				it: "Pugno",
-				pt: "Soco",
-				de: "Boxhieb"
+				'en-us': "Punch",
+				'fr-fr': "Koud'Poing",
+				'es-es': "Puño",
+				'it-it': "Pugno",
+				'pt-br': "Soco",
+				'de-de': "Boxhieb"
 			},
 
 			damage: 10,
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strength",
-				fr: "Force",
-				es: "Fuerza",
-				it: "Forza",
-				pt: "Força",
-				de: "Stärke"
+				'en-us': "Strength",
+				'fr-fr': "Force",
+				'es-es': "Fuerza",
+				'it-it': "Forza",
+				'pt-br': "Força",
+				'de-de': "Stärke"
 			},
 
 			damage: 40,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It toughens up by slamming into thick trees over and over. It gains a sturdy body and dauntless spirit.",
+		'en-us': "It toughens up by slamming into thick trees over and over. It gains a sturdy body and dauntless spirit.",
 	},
 
 	thirdParty: {

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Southern Islands'
 
 const card: Card = {
 	name: {
-		en: "Vileplume",
+		'en-us': "Vileplume",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gloom",
+		'en-us': "Gloom",
 	},
 
 	stage: "Stage2",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Paradise Pollen",
+				'en-us': "Paradise Pollen",
 			},
 			effect: {
-				en: "Flip a coin. If heads, remove 2 damage counters from Vileplume (1 if it only has 1). Then, if you have any Benched Pokémon with damage counters on them, choose 1 of them and remove 2 damage counters from it (1 if it only has 1).",
+				'en-us': "Flip a coin. If heads, remove 2 damage counters from Vileplume (1 if it only has 1). Then, if you have any Benched Pokémon with damage counters on them, choose 1 of them and remove 2 damage counters from it (1 if it only has 1).",
 			},
 
 		},
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horrid Pollen",
+				'en-us': "Horrid Pollen",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Confused.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Confused.",
 			},
 			damage: 30,
 
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon makes a loud jangling noise when it shakes its petals to spread poison powder.",
+		'en-us': "This Pokémon makes a loud jangling noise when it shakes its petals to spread poison powder.",
 	},
 
 	variants: [

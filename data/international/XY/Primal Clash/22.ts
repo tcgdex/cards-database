@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Slugma",
-		fr: "Limagma",
-		es: "Slugma",
-		it: "Slugma",
-		pt: "Slugma",
-		de: "Schneckmag"
+		'en-us': "Slugma",
+		'fr-fr': "Limagma",
+		'es-es': "Slugma",
+		'it-it': "Slugma",
+		'pt-br': "Slugma",
+		'de-de': "Schneckmag"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Grass Fire",
-				fr: "Feu de Brousse",
-				es: "Quemaplantas",
-				it: "Fuoco d'Erba",
-				pt: "Fogo de Grama",
-				de: "Pflanzenbrand"
+				'en-us': "Grass Fire",
+				'fr-fr': "Feu de Brousse",
+				'es-es': "Quemaplantas",
+				'it-it': "Fuoco d'Erba",
+				'pt-br': "Fogo de Grama",
+				'de-de': "Pflanzenbrand"
 			},
 			effect: {
-				en: "Discard a Grass Energy attached to your opponent's Active Pokémon.",
-				fr: "Défaussez une Énergie Grass attachée au Pokémon Actif de votre adversaire.",
-				es: "Descarta 1 Energía Grass unida al Pokémon Activo de tu rival.",
-				it: "Scarta un'Energia Grass assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Descarte uma Energia Grass ligada ao Pokémon Ativo do seu oponente.",
-				de: "Lege 1 an das Aktive Pokémon deines Gegners angelegte Grass-Energie auf den Ablagestapel deines Gegners."
+				'en-us': "Discard a Grass Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Défaussez une Énergie Grass attachée au Pokémon Actif de votre adversaire.",
+				'es-es': "Descarta 1 Energía Grass unida al Pokémon Activo de tu rival.",
+				'it-it': "Scarta un'Energia Grass assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Descarte uma Energia Grass ligada ao Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 1 an das Aktive Pokémon deines Gegners angelegte Grass-Energie auf den Ablagestapel deines Gegners."
 			},
 
 		},
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 30,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its body is made of magma. If it doesn't keep moving, its body will cool and harden.",
+		'en-us': "Its body is made of magma. If it doesn't keep moving, its body will cool and harden.",
 	},
 
 	thirdParty: {

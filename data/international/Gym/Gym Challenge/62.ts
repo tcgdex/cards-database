@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Growlithe"
+		'en-us': "Blaine's Growlithe"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Stoke"
+				'en-us': "Stoke"
 			},
 			effect: {
-				en: "Search your deck for a Fire Energy card and attach it to Blaine's Growlithe. Shuffle your deck afterward."
+				'en-us': "Search your deck for a Fire Energy card and attach it to Blaine's Growlithe. Shuffle your deck afterward."
 			},
 
 		},
@@ -41,10 +41,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam"
+				'en-us': "Body Slam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 

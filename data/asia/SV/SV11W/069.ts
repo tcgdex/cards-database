@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "クリムガン",
+		'ja-jp': "クリムガン",
 	},
 
 	illustrator: "Nurikabe",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "日光を 翼で 受けて 体を 温める。 体温が 下がると 動けなくなってしまう。",
+		'ja-jp': "日光を 翼で 受けて 体を 温める。 体温が 下がると 動けなくなってしまう。",
 	},
 
 	stage: "Basic",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Colorless"],
 			effect: {
-				ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 		{

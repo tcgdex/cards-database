@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Seel",
-		fr: "Otaria",
-		de: "Jurob"
+		'en-us': "Seel",
+		'fr-fr': "Otaria",
+		'de-de': "Jurob"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Slap",
-				fr: "Coud'keu",
-				de: "Schweifschlag"
+				'en-us': "Tail Slap",
+				'fr-fr': "Coud'keu",
+				'de-de': "Schweifschlag"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Icy Wind",
-				fr: "Vent glacé",
-				de: "Eissturm"
+				'en-us': "Icy Wind",
+				'fr-fr': "Vent glacé",
+				'de-de': "Eissturm"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt."
 			},
 			damage: 20,
 
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A Pokémon that lives on icebergs. It swims in the sea using the point on its head to break up ice."
+		'en-us': "A Pokémon that lives on icebergs. It swims in the sea using the point on its head to break up ice."
 	},
 
 	variants: [

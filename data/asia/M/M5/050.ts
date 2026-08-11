@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カラマネロ",
+		'ja-jp': "カラマネロ",
 	},
 
 	illustrator: "Naoki Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "ポケモンで 一番 強力な 催眠術を 使う。 相手を 意のままに 操ってしまうのだ。",
+		'ja-jp': "ポケモンで 一番 強力な 催眠術を 使う。 相手を 意のままに 操ってしまうのだ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "まどわす" },
 			cost: ["Darkness"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Darkness"],
 			effect: {
-				ja: "相手のバトルポケモンがこんらんでないなら、このワザは失敗。",
+				'ja-jp': "相手のバトルポケモンがこんらんでないなら、このワザは失敗。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マーイーカ",
+		'ja-jp': "マーイーカ",
 	},
 
 	retreat: 2,

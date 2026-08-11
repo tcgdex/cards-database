@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カクナ",
+		'ja-jp': "カクナ",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "高速進化",
+				'ja-jp': "高速進化",
 			},
 			effect: {
-				ja: "デッキを検索して進化カードを探し、相手に見せて、手に入れてください。  その後、デッキをシャッフルします。",
+				'ja-jp': "デッキを検索して進化カードを探し、相手に見せて、手に入れてください。  その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "ロールアウトする",
+				'ja-jp': "ロールアウトする",
 			},
 			damage: 30,
 		},

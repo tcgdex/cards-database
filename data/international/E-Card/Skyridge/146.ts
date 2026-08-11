@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Charizard",
-		de: "Glurak"
+		'en-us': "Charizard",
+		'de-de': "Glurak"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmeleon",
+		'en-us': "Charmeleon",
 	},
 
 	stage: "Stage2",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Crystal Type",
-				de: "Kristall-Typ"
+				'en-us': "Crystal Type",
+				'de-de': "Kristall-Typ"
 			},
 			effect: {
-				en: "Whenever you attach a Fire, Lightning, or Fighting basic Energy card from your hand to Charizard, Charizard's type (color) becomes the same as that type of Energy until the end of the turn.",
-				de: "Immer wenn du eine -, - oder -Basis-Energiekarte aus deiner Hand an Glurak anlegst, ändert sich Gluraks Typ (Farbe) bis zum Ende des Zuges zu dem gleichen Typ wie diese Energie."
+				'en-us': "Whenever you attach a Fire, Lightning, or Fighting basic Energy card from your hand to Charizard, Charizard's type (color) becomes the same as that type of Energy until the end of the turn.",
+				'de-de': "Immer wenn du eine -, - oder -Basis-Energiekarte aus deiner Hand an Glurak anlegst, ändert sich Gluraks Typ (Farbe) bis zum Ende des Zuges zu dem gleichen Typ wie diese Energie."
 			},
 		},
 	],
@@ -48,12 +48,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Fireblast",
-				de: "Feuerstoß"
+				'en-us': "Fireblast",
+				'de-de': "Feuerstoß"
 			},
 			effect: {
-				en: "Discard an Energy card attached to Charizard.",
-				de: "Lege eine an Glurak angelegte Energiekarte auf deinen Ablagestapel."
+				'en-us': "Discard an Energy card attached to Charizard.",
+				'de-de': "Lege eine an Glurak angelegte Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 40,
 
@@ -66,12 +66,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Tail",
-				de: "Drachenschwanz"
+				'en-us': "Dragon Tail",
+				'de-de': "Drachenschwanz"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 50 damage times the number of heads.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "50×",
 

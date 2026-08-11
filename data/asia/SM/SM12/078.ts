@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リングマ",
+		'ja-jp': "リングマ",
 	},
 
 	illustrator: "Hiroki Asanuma",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "どんな においも かぎわける。 地面深くに 埋まっている 食べ物も 残らず 見つけ出す。",
+		'ja-jp': "どんな においも かぎわける。 地面深くに 埋まっている 食べ物も 残らず 見つけ出す。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、ワザが使えない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、ワザが使えない。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒメグマ",
+		'ja-jp': "ヒメグマ",
 	},
 
 	retreat: 3,

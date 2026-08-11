@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [773],
 
 	name: {
-		en: "Silvally"
+		'en-us': "Silvally"
 	},
 
 	illustrator: "Taiga Kasai",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Type: Null"
+		'en-us': "Type: Null"
 	},
 
 	description: {
-		en: "This is its form once it has awakened and\nevolved. Freed from its heavy mask, its speed is\ngreatly increased."
+		'en-us': "This is its form once it has awakened and\nevolved. Freed from its heavy mask, its speed is\ngreatly increased."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Brave Buddies"
+			'en-us': "Brave Buddies"
 		},
 
 		damage: 50,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "If you played a Supporter card from your hand during this turn, this attack does 50 more damage."
+			'en-us': "If you played a Supporter card from your hand during this turn, this attack does 50 more damage."
 		}
 	}],
 

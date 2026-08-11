@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クズモー",
+		'ja-jp': "クズモー",
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "腐った 海藻に 擬態する。 気づかずに 近寄ってきた 獲物に 毒液を 浴びせて 仕留める。",
+		'ja-jp': "腐った 海藻に 擬態する。 気づかずに 近寄ってきた 獲物に 毒液を 浴びせて 仕留める。",
 	},
 
 	stage: "Basic",

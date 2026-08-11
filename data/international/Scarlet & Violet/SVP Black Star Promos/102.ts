@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Oddish"
+		'en-us': "Oddish"
 	},
 
 	illustrator: "Miranda Branley",
@@ -20,7 +20,7 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Razor Leaf"
+			'en-us': "Razor Leaf"
 		},
 
 		damage: 10
@@ -28,11 +28,11 @@ const card: Card = {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			en: "Grass Knot"
+			'en-us': "Grass Knot"
 		},
 
 		effect: {
-			en: "This attack does 20 damage for each {C} in your opponent's Active Pokémon's Retreat Cost.",
+			'en-us': "This attack does 20 damage for each {C} in your opponent's Active Pokémon's Retreat Cost.",
 		},
 
 		damage: "20×"
@@ -46,7 +46,7 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 	description: {
-		en: "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
+		'en-us': "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
 	},
 	variants: [
 		{

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Gourgeist",
-		fr: "Banshitrouye",
-		es: "Gourgeist",
-		it: "Gourgeist",
-		pt: "Gourgeist",
-		de: "Pumpdjinn"
+		'en-us': "Gourgeist",
+		'fr-fr': "Banshitrouye",
+		'es-es': "Gourgeist",
+		'it-it': "Gourgeist",
+		'pt-br': "Gourgeist",
+		'de-de': "Pumpdjinn"
 	},
 
 	illustrator: "Kanako Eo",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pumpkaboo",
-		fr: "Pitrouille",
-		es: "Pumpkaboo",
-		it: "Pumpkaboo",
-		pt: "Pumpkaboo",
-		de: "Irrbis"
+		'en-us': "Pumpkaboo",
+		'fr-fr': "Pitrouille",
+		'es-es': "Pumpkaboo",
+		'it-it': "Pumpkaboo",
+		'pt-br': "Pumpkaboo",
+		'de-de': "Irrbis"
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Gourgantic",
-				fr: "Gigantrouye",
-				es: "Gourgante",
-				it: "Beffa di Gourgeist",
-				pt: "Gourgântico",
-				de: "Pu?mperlgesund"
+				'en-us': "Gourgantic",
+				'fr-fr': "Gigantrouye",
+				'es-es': "Gourgante",
+				'it-it': "Beffa di Gourgeist",
+				'pt-br': "Gourgântico",
+				'de-de': "Pu?mperlgesund"
 			},
 			effect: {
-				en: "If this Pokémon has any Grass Energy attached to it, its maximum HP is 200.",
-				fr: "Si de l'Énergie Grass est attachée à ce Pokémon, ses PV maximum sont de 200.",
-				es: "Si este Pokémon tiene alguna Energía Grass unida a él, sus PS máximos son 200.",
-				it: "Se questo Pokémon ha delle Energie Grass assegnate, i suoi PS massimi diventano 200.",
-				pt: "Se este Pokémon possuir alguma Energia Grass ligada a ele, seu PS máximo será 200.",
-				de: "Wenn an dieses Pokémon bereits Grass-Energie angelegt ist, verfügt es über 200 Grund-KP."
+				'en-us': "If this Pokémon has any Grass Energy attached to it, its maximum HP is 200.",
+				'fr-fr': "Si de l'Énergie Grass est attachée à ce Pokémon, ses PV maximum sont de 200.",
+				'es-es': "Si este Pokémon tiene alguna Energía Grass unida a él, sus PS máximos son 200.",
+				'it-it': "Se questo Pokémon ha delle Energie Grass assegnate, i suoi PS massimi diventano 200.",
+				'pt-br': "Se este Pokémon possuir alguma Energia Grass ligada a ele, seu PS máximo será 200.",
+				'de-de': "Wenn an dieses Pokémon bereits Grass-Energie angelegt ist, verfügt es über 200 Grund-KP."
 			},
 		},
 	],
@@ -67,20 +67,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horror Note",
-				fr: "Note Angoissante",
-				es: "Nota Horripilante",
-				it: "Nota di Paura",
-				pt: "Nota de Horror",
-				de: "Schaurige Note"
+				'en-us': "Horror Note",
+				'fr-fr': "Note Angoissante",
+				'es-es': "Nota Horripilante",
+				'it-it': "Nota di Paura",
+				'pt-br': "Nota de Horror",
+				'de-de': "Schaurige Note"
 			},
 			effect: {
-				en: "This attack does 10 damage times the number of cards in your hand.",
-				fr: "Cette attaque inflige 10 dégâts multipliés par le nombre de cartes dans votre main.",
-				es: "Este ataque hace 10 puntos de daño por cada carta de tu mano.",
-				it: "Questo attacco infligge 10 danni per ogni carta che hai in mano.",
-				pt: "Esse ataque causa 10 de danos vezes o número de cards em sua mão.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl der Karten auf deiner Hand zu."
+				'en-us': "This attack does 10 damage times the number of cards in your hand.",
+				'fr-fr': "Cette attaque inflige 10 dégâts multipliés par le nombre de cartes dans votre main.",
+				'es-es': "Este ataque hace 10 puntos de daño por cada carta de tu mano.",
+				'it-it': "Questo attacco infligge 10 danni per ogni carta che hai in mano.",
+				'pt-br': "Esse ataque causa 10 de danos vezes o número de cards em sua mão.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl der Karten auf deiner Hand zu."
 			},
 			damage: "10×",
 
@@ -104,7 +104,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Singing in eerie voices, they wander town streets on the night of the new moon. Anyone who hears their song is cursed.",
+		'en-us': "Singing in eerie voices, they wander town streets on the night of the new moon. Anyone who hears their song is cursed.",
 	},
 
 	thirdParty: {

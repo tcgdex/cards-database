@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガラル マッスグマ",
+		'ja-jp': "ガラル マッスグマ",
 		'zh-tw': "伽勒爾 直衝熊",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "とても 好戦的な 性質。 自分より 格上の 相手にも 平気で 挑む むこうみず。",
+		'ja-jp': "とても 好戦的な 性質。 自分より 格上の 相手にも 平気で 挑む むこうみず。",
 		'zh-tw': "有著十分好戰的性情。即使是比自己強的對手也會魯莽地發起挑戰。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "うしろげり",
+				'ja-jp': "うしろげり",
 				'zh-tw': "後踢",
 			},
 			damage: 30,
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ガラル ジグザグマ",
+		'ja-jp': "ガラル ジグザグマ",
 	},
 
 	retreat: 1,

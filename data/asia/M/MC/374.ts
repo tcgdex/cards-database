@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レジロックex",
+		'ja-jp': "レジロックex",
 	},
 
 	illustrator: "Nisota Niso",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "レジチャージ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュから「基本[F]エネルギー」を2枚まで選び、このポケモンにつける。",
+				'ja-jp': "自分のトラッシュから「基本[F]エネルギー」を2枚まで選び、このポケモンにつける。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "140+",
 			cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが2進化ポケモンなら、140ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが2進化ポケモンなら、140ダメージ追加。",
 			},
 		},
 	],

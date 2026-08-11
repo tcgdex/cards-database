@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เอเลบู",
-		id: "Electabuzz"
+		'th-th': "เอเลบู",
+		'id-id': "Electabuzz"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -15,28 +15,28 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		th: "งานวิจัยที่ให้เอเลบูกักเก็บสายฟ้าเอาไว้เพื่อให้สามารถใช้งานเมื่อใดก็ได้นั้นกำลังคืบหน้า",
-		id: "Tengah dilakukan penelitian dengan menghimpun guntur ke Electabuzz agar dapat digunakan kapan pun."
+		'th-th': "งานวิจัยที่ให้เอเลบูกักเก็บสายฟ้าเอาไว้เพื่อให้สามารถใช้งานเมื่อใดก็ได้นั้นกำลังคืบหน้า",
+		'id-id': "Tengah dilakukan penelitian dengan menghimpun guntur ke Electabuzz agar dapat digunakan kapan pun."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "รวบรวม",
-			id: "Mengumpulkan"
+			'th-th': "รวบรวม",
+			'id-id': "Mengumpulkan"
 		},
 
 		effect: {
-			th: "จั่วการ์ด 1 ใบจากสำรับการ์ดฝ่ายเรา",
-			id: "Ambil 1 kartu dari atas Deck sendiri."
+			'th-th': "จั่วการ์ด 1 ใบจากสำรับการ์ดฝ่ายเรา",
+			'id-id': "Ambil 1 kartu dari atas Deck sendiri."
 		},
 
 		cost: ["Lightning"]
 	}, {
 		name: {
-			th: "แมกนัมพันช์",
-			id: "Magnum Punch"
+			'th-th': "แมกนัมพันช์",
+			'id-id': "Magnum Punch"
 		},
 
 		damage: 40,

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Marowak",
+		'en-us': "Marowak",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cubone",
+		'en-us': "Cubone",
 	},
 
 	stage: "Stage1",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Bonemerang",
+				'en-us': "Bonemerang",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
 			},
 			damage: 30,
 
@@ -49,10 +49,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Friend",
+				'en-us': "Call for Friend",
 			},
 			effect: {
-				en: "Search your deck for a Fighting Basic Pokémon card and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
+				'en-us': "Search your deck for a Fighting Basic Pokémon card and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
 			},
 
 		},
@@ -75,7 +75,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to K.O. targets.",
+		'en-us': "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to K.O. targets.",
 	},
 
 

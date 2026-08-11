@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mightyena",
-		fr: "Grahyèna",
-		es: "Mightyena",
-		it: "Mightyena",
-		pt: "Mightyena",
-		de: "Magnayen"
+		'en-us': "Mightyena",
+		'fr-fr': "Grahyèna",
+		'es-es': "Mightyena",
+		'it-it': "Mightyena",
+		'pt-br': "Mightyena",
+		'de-de': "Magnayen"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Poochyena",
-		fr: "Medhyèna",
-		es: "Poochyena",
-		it: "Poochyena",
-		pt: "Poochyena",
-		de: "Fiffyen"
+		'en-us': "Poochyena",
+		'fr-fr': "Medhyèna",
+		'es-es': "Poochyena",
+		'it-it': "Poochyena",
+		'pt-br': "Poochyena",
+		'de-de': "Fiffyen"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Hunting Pack",
-			fr: "Meute Chasseuse",
-			es: "Manada a la Caza",
-			it: "Branco da Caccia",
-			pt: "Caça em Bando",
-			de: "Jagdrudel"
+			'en-us': "Hunting Pack",
+			'fr-fr': "Meute Chasseuse",
+			'es-es': "Manada a la Caza",
+			'it-it': "Branco da Caccia",
+			'pt-br': "Caça em Bando",
+			'de-de': "Jagdrudel"
 		},
 
 		effect: {
-			en: "If Mightyena is on your Bench, this attack does 90 more damage.",
-			fr: "Si Grahyèna est sur votre Banc, cette attaque inflige 90 dégâts supplémentaires.",
-			es: "Si Mightyena está en tu Banca, este ataque hace 90 puntos de daño más.",
-			it: "Se Mightyena è nella tua panchina, questo attacco infligge 90 danni in più.",
-			pt: "Se Mightyena estiver no seu Banco, este ataque causará 90 pontos de dano a mais.",
-			de: "Wenn sich Magnayen auf deiner Bank befindet, fügt diese Attacke 90 Schadenspunkte mehr zu."
+			'en-us': "If Mightyena is on your Bench, this attack does 90 more damage.",
+			'fr-fr': "Si Grahyèna est sur votre Banc, cette attaque inflige 90 dégâts supplémentaires.",
+			'es-es': "Si Mightyena está en tu Banca, este ataque hace 90 puntos de daño más.",
+			'it-it': "Se Mightyena è nella tua panchina, questo attacco infligge 90 danni in più.",
+			'pt-br': "Se Mightyena estiver no seu Banco, este ataque causará 90 pontos de dano a mais.",
+			'de-de': "Wenn sich Magnayen auf deiner Bank befindet, fügt diese Attacke 90 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Corner",
-			fr: "Coinçage",
-			es: "Arrinconar",
-			it: "Trappola",
-			pt: "Quina",
-			de: "Bedrängen"
+			'en-us': "Corner",
+			'fr-fr': "Coinçage",
+			'es-es': "Arrinconar",
+			'it-it': "Trappola",
+			'pt-br': "Quina",
+			'de-de': "Bedrängen"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
-			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
-			es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
-			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-			pt: "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar.",
-			de: "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
+			'en-us': "During your opponent's next turn, the Defending Pokémon can't retreat.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
+			'es-es': "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
+			'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+			'pt-br': "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar.",
+			'de-de': "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
 		},
 
 		damage: 60
@@ -84,7 +84,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Once it's caught the scent of faraway prey, the leader gives a signal, and the whole pack moves out.",
+		'en-us': "Once it's caught the scent of faraway prey, the leader gives a signal, and the whole pack moves out.",
 	},
 
 	variants: [

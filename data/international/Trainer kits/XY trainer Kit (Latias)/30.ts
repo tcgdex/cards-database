@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY trainer Kit (Latias)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Latias",
-		fr: "Latias",
-		es: "Latias",
-		it: "Latias",
-		pt: "Latias",
-		de: "Latias"
+		'en-us': "Latias",
+		'fr-fr': "Latias",
+		'es-es': "Latias",
+		'it-it': "Latias",
+		'pt-br': "Latias",
+		'de-de': "Latias"
 	},
 
 	rarity: "None",
@@ -23,27 +23,27 @@ const card: Card = {
 	illustrator: "Masakazu Fukuda",
 
 	description: {
-		en: "It can telepathically communicate with people. It changes its appearance using its down that refracts light."
+		'en-us': "It can telepathically communicate with people. It changes its appearance using its down that refracts light."
 	},
 
 	attacks: [{
 		name: {
-			en: "Psychic Sphere",
-			fr: "Sphère Psy"
+			'en-us': "Psychic Sphere",
+			'fr-fr': "Sphère Psy"
 		},
 
 		damage: 20
 	}, {
 		name: {
-			en: "Psychic Prism",
-			fr: "Prisme Psy"
+			'en-us': "Psychic Prism",
+			'fr-fr': "Prisme Psy"
 		},
 
 		damage: "60+",
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 20 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
+			'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
 		}
 	}],
 

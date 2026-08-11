@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Jirachi",
-		fr: "Jirachi",
+		'en-us': "Jirachi",
+		'fr-fr': "Jirachi",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Precognitive Dream",
-				fr: "Rêve Prémonitoire",
+				'en-us': "Precognitive Dream",
+				'fr-fr': "Rêve Prémonitoire",
 			},
 			effect: {
-				en: "Draw 3 cards. This Pokémon is now Asleep.",
-				fr: "Piochez 3 cartes. Ce Pokémon est maintenant Endormi.",
+				'en-us': "Draw 3 cards. This Pokémon is now Asleep.",
+				'fr-fr': "Piochez 3 cartes. Ce Pokémon est maintenant Endormi.",
 			},
 
 		},
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is said to have the ability to grant any wish for just one week every thousand years.",
+		'en-us': "It is said to have the ability to grant any wish for just one week every thousand years.",
 	},
 
 	thirdParty: {

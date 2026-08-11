@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Flamigo",
-		fr: "Flamenroule",
-		es: "Flamigo",
-		it: "Flamigo",
-		de: "Flaminkno",
+		'en-us': "Flamigo",
+		'fr-fr': "Flamenroule",
+		'es-es': "Flamigo",
+		'it-it': "Flamigo",
+		'de-de': "Flaminkno",
 		'pt-br': "Flamigo",
-		ko: "꼬이밍고"
+		'ko-kr': "꼬이밍고"
   },
   illustrator: "kantaro",
   rarity: "One Diamond",
@@ -25,9 +25,9 @@ const card: Card = {
   attacks: [
     {
       name: {
-				en: "Wing Attack",
-				fr: "Cru-aile",
-				de: "Wing Attack"
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-aile",
+				'de-de': "Wing Attack"
       },
       damage: "50",
       cost: ["Colorless", "Colorless"],

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Scizor",
-		fr: "Cizayox",
-		de: "Scherox"
+		'en-us': "Scizor",
+		'fr-fr': "Cizayox",
+		'de-de': "Scherox"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Scyther",
-		fr: "Insécateur",
+		'en-us': "Scyther",
+		'fr-fr': "Insécateur",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Special Blow",
-				fr: "Coup spécial",
-				de: "Spezialschlag"
+				'en-us': "Special Blow",
+				'fr-fr': "Coup spécial",
+				'de-de': "Spezialschlag"
 			},
 			effect: {
-				en: "If the Defending Pokémon has any Special Energy cards attached to it, this attack does 30 damage plus 50 more damage.",
-				fr: "Si le Pokémon Défenseur possède des cartes Énergie Spéciale, cette attaque inflige 30 dégâts plus 50 dégâts supplémentaires.",
-				de: "Wenn am Verteidigendem Pokémon mindestens 1 Spezialenergiekarte angelegt ist, fügt dieser Angriff 30 Schadenspunkte plus 50 weitere Schadenspunkte zu."
+				'en-us': "If the Defending Pokémon has any Special Energy cards attached to it, this attack does 30 damage plus 50 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur possède des cartes Énergie Spéciale, cette attaque inflige 30 dégâts plus 50 dégâts supplémentaires.",
+				'de-de': "Wenn am Verteidigendem Pokémon mindestens 1 Spezialenergiekarte angelegt ist, fügt dieser Angriff 30 Schadenspunkte plus 50 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "X-Scissor",
-				fr: "Plaie-Croix",
-				de: "Kreuzschere"
+				'en-us': "X-Scissor",
+				'fr-fr': "Plaie-Croix",
+				'de-de': "Kreuzschere"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 50 damage plus 40 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts plus 40 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 50 Schadenspunkte plus 40 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 50 damage plus 40 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts plus 40 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 50 Schadenspunkte plus 40 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has a steel-hard body. It intimidates foes by upraising its eye-patterned pincers.",
+		'en-us': "It has a steel-hard body. It intimidates foes by upraising its eye-patterned pincers.",
 	},
 
 	thirdParty: {

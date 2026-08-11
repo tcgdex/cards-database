@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Snover",
-		fr: "Blizzi",
-		de: "Shnebedeck",
-		it: "Snover",
-		es: "Snover",
-		pt: "Snover",
+		'en-us': "Snover",
+		'fr-fr': "Blizzi",
+		'de-de': "Shnebedeck",
+		'it-it': "Snover",
+		'es-es': "Snover",
+		'pt-br': "Snover",
 		'es-mx': "Snover"
 	},
 
@@ -28,12 +28,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Light Punch",
-			fr: "Poing Léger",
-			de: "Leichter Hieb",
-			it: "Pugnetto",
-			es: "Puño Ligero",
-			pt: "Soco de Luz",
+			'en-us': "Light Punch",
+			'fr-fr': "Poing Léger",
+			'de-de': "Leichter Hieb",
+			'it-it': "Pugnetto",
+			'es-es': "Puño Ligero",
+			'pt-br': "Soco de Luz",
 			'es-mx': "Puño Ligero"
 		},
 
@@ -42,12 +42,12 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Icicle",
-			fr: "Concrétion Glacée",
-			de: "Eiszapfen",
-			it: "Stalattite",
-			es: "Témpano",
-			pt: "Pingente de Gelo",
+			'en-us': "Icicle",
+			'fr-fr': "Concrétion Glacée",
+			'de-de': "Eiszapfen",
+			'it-it': "Stalattite",
+			'es-es': "Témpano",
+			'pt-br': "Pingente de Gelo",
 			'es-mx': "Témpano de Hielo"
 		},
 

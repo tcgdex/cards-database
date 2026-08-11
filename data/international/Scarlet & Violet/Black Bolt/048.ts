@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gurdurr",
-		fr: "Ouvrifier",
-		de: "Strepoli",
-		it: "Gurdurr",
-		pt: "Gurdurr",
-		es: "Gurdurr",
+		'en-us': "Gurdurr",
+		'fr-fr': "Ouvrifier",
+		'de-de': "Strepoli",
+		'it-it': "Gurdurr",
+		'pt-br': "Gurdurr",
+		'es-es': "Gurdurr",
 		'es-mx': "Gurdurr"
 	},
 
@@ -21,12 +21,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Timburr",
-		fr: "Charpenti",
-		de: "Praktibalk",
-		it: "Timburr",
-		pt: "Timburr",
-		es: "Timburr",
+		'en-us': "Timburr",
+		'fr-fr': "Charpenti",
+		'de-de': "Praktibalk",
+		'it-it': "Timburr",
+		'pt-br': "Timburr",
+		'es-es': "Timburr",
 		'es-mx': "Timburr"
 	},
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Low Kick",
-			fr: "Balayage",
-			de: "Fußkick",
-			it: "Colpo Basso",
-			pt: "Rasteira",
-			es: "Patada Baja",
+			'en-us': "Low Kick",
+			'fr-fr': "Balayage",
+			'de-de': "Fußkick",
+			'it-it': "Colpo Basso",
+			'pt-br': "Rasteira",
+			'es-es': "Patada Baja",
 			'es-mx': "Patada Baja"
 		},
 
@@ -49,22 +49,22 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			en: "Hammer Arm",
-			fr: "Marto-Poing",
-			de: "Hammerarm",
-			it: "Martelpugno",
-			pt: "Braço de Martelo",
-			es: "Machada",
+			'en-us': "Hammer Arm",
+			'fr-fr': "Marto-Poing",
+			'de-de': "Hammerarm",
+			'it-it': "Martelpugno",
+			'pt-br': "Braço de Martelo",
+			'es-es': "Machada",
 			'es-mx': "Brazo Martillo"
 		},
 
 		effect: {
-			en: "Discard the top card of your opponent's deck.",
-			fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-			de: "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel.",
-			it: "Scarta la prima carta del mazzo del tuo avversario.",
-			pt: "Descarte a carta de cima do baralho do seu oponente.",
-			es: "Descarta la primera carta de la baraja de tu rival.",
+			'en-us': "Discard the top card of your opponent's deck.",
+			'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+			'de-de': "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel.",
+			'it-it': "Scarta la prima carta del mazzo del tuo avversario.",
+			'pt-br': "Descarte a carta de cima do baralho do seu oponente.",
+			'es-es': "Descarta la primera carta de la baraja de tu rival.",
 			'es-mx': "Descarta la primera carta del mazo de tu rival."
 		},
 

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Stufful"
+		'en-us': "Stufful"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "The way it protects itself by flailing its arms may\nbe an adorable sight, but stay well away. This is\nflailing that can snap thick tree trunks."
+		'en-us': "The way it protects itself by flailing its arms may\nbe an adorable sight, but stay well away. This is\nflailing that can snap thick tree trunks."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Magnum Punch"
+			'en-us': "Magnum Punch"
 		},
 
 		damage: 40,

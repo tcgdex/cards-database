@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Karrablast",
-		fr: "Carabing",
-		es: "Karrablast",
-		it: "Karrablast",
-		pt: "Karrablast",
-		de: "Laukaps"
+		'en-us': "Karrablast",
+		'fr-fr': "Carabing",
+		'es-es': "Karrablast",
+		'it-it': "Karrablast",
+		'pt-br': "Karrablast",
+		'de-de': "Laukaps"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beat",
-				fr: "Bataille"
+				'en-us': "Beat",
+				'fr-fr': "Bataille"
 			},
 
 			damage: 10,
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reckless Charge",
-				fr: "Attaque Imprudente"
+				'en-us': "Reckless Charge",
+				'fr-fr': "Attaque Imprudente"
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s'inflige 10 dégâts."
+				'en-us': "This Pokémon does 10 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 10 dégâts."
 			},
 			damage: 40,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "These mysterious Pokémon evolve when they receive electrical stimulation while they are in the same place as Shelmet.",
+		'en-us': "These mysterious Pokémon evolve when they receive electrical stimulation while they are in the same place as Shelmet.",
 	},
 
 	thirdParty: {

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Dwebble",
+		'en-us': "Dwebble",
 	},
 
 	illustrator: "sui",
@@ -30,7 +30,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bug Bite",
+				'en-us': "Bug Bite",
 			},
 
 			damage: 20,
@@ -48,7 +48,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When it finds a stone of a suitable size, it secretes a liquid from its mouth to open up a hole to crawl into.",
+		'en-us': "When it finds a stone of a suitable size, it secretes a liquid from its mouth to open up a hole to crawl into.",
 	},
 
 	thirdParty: {

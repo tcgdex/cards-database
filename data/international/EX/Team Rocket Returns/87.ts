@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Rocket's Hideout",
-		de: "Rocket's Hideout*"
+		'en-us': "Rocket's Hideout",
+		'de-de': "Rocket's Hideout*"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -14,8 +14,8 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	effect: {
-		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Each Pokémon with Dark or Rocket's in its name (both yours and your opponent's) gets +20 HP.",
-		de: "Each Pokémon with Dark of Rocket's in its name (both yours an your opponent's) gets +20 HP."
+		'en-us': "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Each Pokémon with Dark or Rocket's in its name (both yours and your opponent's) gets +20 HP.",
+		'de-de': "Each Pokémon with Dark of Rocket's in its name (both yours an your opponent's) gets +20 HP."
 	},
 
 

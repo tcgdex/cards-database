@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Leafeon",
-		fr: "Phyllali",
-		de: "Folipurba"
+		'en-us': "Leafeon",
+		'fr-fr': "Phyllali",
+		'de-de': "Folipurba"
 	},
 
 	illustrator: "match",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Miasma Wind",
-				fr: "Vent miasme",
-				de: "Miasma"
+				'en-us': "Miasma Wind",
+				'fr-fr': "Vent miasme",
+				'de-de': "Miasma"
 			},
 			effect: {
-				en: "Does 50 damage times the number of Special Conditions affecting the Defending Pokémon.",
-				fr: "Inflige 50 dégâts multipliés par le nombre d'États Spéciaux affectant le Pokémon Défenseur.",
-				de: "Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl der Speziellen Zustände, von dem das Verteidigende Pokémon betroffen ist, zu."
+				'en-us': "Does 50 damage times the number of Special Conditions affecting the Defending Pokémon.",
+				'fr-fr': "Inflige 50 dégâts multipliés par le nombre d'États Spéciaux affectant le Pokémon Défenseur.",
+				'de-de': "Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl der Speziellen Zustände, von dem das Verteidigende Pokémon betroffen ist, zu."
 			},
 			damage: "50×",
 
@@ -51,14 +51,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sooting Scent",
-				fr: "Senteur apaisante",
-				de: "Beruhigender Duft"
+				'en-us': "Sooting Scent",
+				'fr-fr': "Senteur apaisante",
+				'de-de': "Beruhigender Duft"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 30,
 
@@ -81,7 +81,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When you see Leafeon asleep in a patch of sunshine, you'll know it is using photosynthesis to produce clean air.",
+		'en-us': "When you see Leafeon asleep in a patch of sunshine, you'll know it is using photosynthesis to produce clean air.",
 	},
 
 	variants: [

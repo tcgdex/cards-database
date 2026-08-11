@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โอการ์ปอง หน้ากากเตาไฟ",
-		id: "Ogerpon Topeng Tungku"
+		'th-th': "โอการ์ปอง หน้ากากเตาไฟ",
+		'id-id': "Ogerpon Topeng Tungku"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -15,33 +15,33 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		th: "ร่างที่ถนัดการโจมตีมากที่สุด จู่โจมศัตรูต่อเนื่องอย่างรุนแรงดั่ง เปลวไฟที่ลุกโชนในเตาไฟ",
-		id: "Wujud yang paling agresif. Ia menyerang musuhnya dengan ganas seperti api yang membara di dalam tungku."
+		'th-th': "ร่างที่ถนัดการโจมตีมากที่สุด จู่โจมศัตรูต่อเนื่องอย่างรุนแรงดั่ง เปลวไฟที่ลุกโชนในเตาไฟ",
+		'id-id': "Wujud yang paling agresif. Ia menyerang musuhnya dengan ganas seperti api yang membara di dalam tungku."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "รำสักการะไฟ",
-			id: "Pertunjukan Spiritual Api"
+			'th-th': "รำสักการะไฟ",
+			'id-id': "Pertunjukan Spiritual Api"
 		},
 
 		effect: {
-			th: "เลือกการ์ด [พลังงานพื้นฐาน[ไฟ]] 1 ใบจากสำรับการ์ดฝ่ายเรา ติดที่โปเกมอน ฝ่ายเรา แล้วสับสำรับการ์ด",
-			id: "Pilih 1 lembar Energi Dasar {Api} dari Deck sendiri, lalu kenakan pada Pokémon sendiri. Kemudian, kocok Deck."
+			'th-th': "เลือกการ์ด [พลังงานพื้นฐาน[ไฟ]] 1 ใบจากสำรับการ์ดฝ่ายเรา ติดที่โปเกมอน ฝ่ายเรา แล้วสับสำรับการ์ด",
+			'id-id': "Pilih 1 lembar Energi Dasar {Api} dari Deck sendiri, lalu kenakan pada Pokémon sendiri. Kemudian, kocok Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "เพลิงประลัยกัลป์",
-			id: "Kobaran Api Penghangus"
+			'th-th': "เพลิงประลัยกัลป์",
+			'id-id': "Kobaran Api Penghangus"
 		},
 
 		effect: {
-			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ไหม้]",
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
+			'th-th': "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ไหม้]",
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
 		},
 
 		damage: 80,

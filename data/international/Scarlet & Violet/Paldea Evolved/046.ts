@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Cadoizo",
-		en: "Delibird",
-		es: "Delibird",
-		it: "Delibird",
-		pt: "Delibird",
-		de: "Botogel"
+		'fr-fr': "Cadoizo",
+		'en-us': "Delibird",
+		'es-es': "Delibird",
+		'it-it': "Delibird",
+		'pt-br': "Delibird",
+		'de-de': "Botogel"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Double Pioche",
-			en: "Double Draw",
-			es: "Roba Doble",
-			it: "Pescata Doppia",
-			pt: "Compra Dupla",
-			de: "Zweifachzug"
+			'fr-fr': "Double Pioche",
+			'en-us': "Double Draw",
+			'es-es': "Roba Doble",
+			'it-it': "Pescata Doppia",
+			'pt-br': "Compra Dupla",
+			'de-de': "Zweifachzug"
 		},
 
 		effect: {
-			fr: "Piochez 2 cartes.",
-			en: "Draw 2 cards.",
-			es: "Roba 2 cartas.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas.",
-			de: "Ziehe 2 Karten."
+			'fr-fr': "Piochez 2 cartes.",
+			'en-us': "Draw 2 cards.",
+			'es-es': "Roba 2 cartas.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas.",
+			'de-de': "Ziehe 2 Karten."
 		}
 	}, {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			fr: "Aile Glace",
-			en: "Ice Wing",
-			es: "Ala Gélida",
-			it: "Alagelata",
-			pt: "Asa de Gelo",
-			de: "Frostschwinge"
+			'fr-fr': "Aile Glace",
+			'en-us': "Ice Wing",
+			'es-es': "Ala Gélida",
+			'it-it': "Alagelata",
+			'pt-br': "Asa de Gelo",
+			'de-de': "Frostschwinge"
 		},
 
 		damage: 30
@@ -93,7 +93,7 @@ const card: Card = {
 	illustrator: "miki kudo",
 
 	description: {
-		en: "It carries food all day long. There are tales about lost people who were saved by the food it had.",
+		'en-us': "It carries food all day long. There are tales about lost people who were saved by the food it had.",
 	},
 }
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バンバドロ",
+		'ja-jp': "バンバドロ",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "力仕事 だけでなく 陶器の 材料の 上質な 泥を 作り出すため 大事にされてきた。",
+		'ja-jp': "力仕事 だけでなく 陶器の 材料の 上質な 泥を 作り出すため 大事にされてきた。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "マッドストック" },
 			cost: ["Fighting"],
 			effect: {
-				ja: "自分のベンチポケモン全員に、トラッシュから「基本[F]エネルギー」を1枚ずつつける。",
+				'ja-jp': "自分のベンチポケモン全員に、トラッシュから「基本[F]エネルギー」を1枚ずつつける。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 140,
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも40ダメージ。",
+				'ja-jp': "このポケモンにも40ダメージ。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ドロバンコ",
+		'ja-jp': "ドロバンコ",
 	},
 
 	retreat: 3,

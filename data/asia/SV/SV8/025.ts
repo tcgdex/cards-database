@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒンバス",
+		'ja-jp': "ヒンバス",
 		'zh-tw': "醜醜魚",
 		'zh-cn': "醜醜魚",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "一番 みすぼらしい ポケモン。 水草の 多い 川底で 大勢 集まって 暮らしている。",
+		'ja-jp': "一番 みすぼらしい ポケモン。 水草の 多い 川底で 大勢 集まって 暮らしている。",
 		'zh-tw': "最寒酸的寶可夢。 在有許多水草的河底 群聚而居。",
 		'zh-cn': "最寒酸的寶可夢。 在有許多水草的河底 群聚而居。",
 	},
@@ -25,13 +25,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "はねにげ",
+				'ja-jp': "はねにげ",
 				'zh-tw': "躍起逃走",
 				'zh-cn': "躍起逃走",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "このポケモンをベンチポケモンと入れ替える。",
 				'zh-tw': "將這隻寶可夢與備戰寶可夢互換。",
 				'zh-cn': "將這隻寶可夢與備戰寶可夢互換。",
 			},

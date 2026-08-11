@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Melmetal",
-		fr: "Melmetal",
-		es: "Melmetal",
-		it: "Melmetal",
-		pt: "Melmetal",
-		de: "Melmetal"
+		'en-us': "Melmetal",
+		'fr-fr': "Melmetal",
+		'es-es': "Melmetal",
+		'it-it': "Melmetal",
+		'pt-br': "Melmetal",
+		'de-de': "Melmetal"
 	},
 
 	rarity: "Holo Rare",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Meltan",
-		fr: "Meltan",
-		es: "Meltan",
-		it: "Meltan",
-		pt: "Meltan",
-		de: "Meltan"
+		'en-us': "Meltan",
+		'fr-fr': "Meltan",
+		'es-es': "Meltan",
+		'it-it': "Meltan",
+		'pt-br': "Meltan",
+		'de-de': "Meltan"
 	},
 
 	stage: "Stage1",
@@ -46,52 +46,52 @@ const card: Card = {
 	illustrator: "Hasuno",
 
 	description: {
-		en: "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years."
+		'en-us': "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years."
 	},
 
 	attacks: [{
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		name: {
-			en: "Ingot Swing",
-			fr: "Coup de Lingot",
-			de: "Ingothieb",
-			es: "Giro Lingote",
-			pt: "Giro de Lingote",
-			it: "Oscillabarra"
+			'en-us': "Ingot Swing",
+			'fr-fr': "Coup de Lingot",
+			'de-de': "Ingothieb",
+			'es-es': "Giro Lingote",
+			'pt-br': "Giro de Lingote",
+			'it-it': "Oscillabarra"
 		},
 
 		damage: 80,
 
 		effect: {
-			en: "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Pokémon that have an Ability.",
-			fr: "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par les attaques de Pokémon ayant un talent.",
-			de: "Verhindere während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken von Pokémon zugefügt wird, die eine Fähigkeit haben.",
-			es: "Durante el próximo turno de tu rival, evita todo el daño infligido a este Pokémon por ataques de Pokémon que tengan una habilidad.",
-			pt: "Durante o próximo turno do seu oponente, previna todo o dano causado a este Pokémon por ataques de Pokémon que tiverem uma Habilidade.",
-			it: "Durante il prossimo turno del tuo avversario, previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon che hanno un'abilità."
+			'en-us': "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Pokémon that have an Ability.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par les attaques de Pokémon ayant un talent.",
+			'de-de': "Verhindere während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken von Pokémon zugefügt wird, die eine Fähigkeit haben.",
+			'es-es': "Durante el próximo turno de tu rival, evita todo el daño infligido a este Pokémon por ataques de Pokémon que tengan una habilidad.",
+			'pt-br': "Durante o próximo turno do seu oponente, previna todo o dano causado a este Pokémon por ataques de Pokémon que tiverem uma Habilidade.",
+			'it-it': "Durante il prossimo turno del tuo avversario, previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon che hanno un'abilità."
 		}
 	}, {
 		cost: ["Metal", "Metal", "Colorless", "Colorless"],
 
 		name: {
-			en: "Blasting Hammer",
-			fr: "Marteau Impitoyable",
-			de: "Sprengender Hammer",
-			es: "Martillo Explosivo",
-			pt: "Martelada Avassaladora",
-			it: "Martello Distruttivo"
+			'en-us': "Blasting Hammer",
+			'fr-fr': "Marteau Impitoyable",
+			'de-de': "Sprengender Hammer",
+			'es-es': "Martillo Explosivo",
+			'pt-br': "Martelada Avassaladora",
+			'it-it': "Martello Distruttivo"
 		},
 
 		damage: 150,
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			pt: "Descarte 1 Energia deste Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon."
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'pt-br': "Descarte 1 Energia deste Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon."
 		}
 	}],
 

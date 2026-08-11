@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Alolan Dugtrio"
+		'id-id': "Alolan Dugtrio"
 	},
 
 	illustrator: "Yukihiro Tada",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Kecepatannya tidak begitu bagus karena kumis metaliknya berat, tetapi ia memiliki kekuatan untuk menggali tembus bebatuan dasar yang keras."
+		'id-id': "Kecepatannya tidak begitu bagus karena kumis metaliknya berat, tetapi ia memiliki kekuatan untuk menggali tembus bebatuan dasar yang keras."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Three Bingo"
+			'id-id': "Three Bingo"
 		},
 
 		effect: {
-			id: "Jika jumlah Kartu Pegangan sendiri bukan 3 lembar, serangan ini gagal."
+			'id-id': "Jika jumlah Kartu Pegangan sendiri bukan 3 lembar, serangan ini gagal."
 		},
 
 		damage: 120

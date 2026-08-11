@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Brock's Sandslash"
+		'en-us': "Brock's Sandslash"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sandshrew"
+		'en-us': "Sandshrew"
 	},
 
 	stage: "Stage1",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swift"
+				'en-us': "Swift"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon."
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon."
 			},
 			damage: 20,
 
@@ -46,10 +46,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Needle Ball"
+				'en-us': "Needle Ball"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
 
 		},

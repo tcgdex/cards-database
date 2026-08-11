@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チャンジー",
+		'ja-jp': "チャンジー",
 	},
 
 	rarity: "Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ハイパーヒーリング",
+				'ja-jp': "ハイパーヒーリング",
 			},
 			effect: {
-				ja: "アクティブなポケモンのそれぞれから1つのダメージカウンターとすべての特別な条件を削除します。",
+				'ja-jp': "アクティブなポケモンのそれぞれから1つのダメージカウンターとすべての特別な条件を削除します。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ダブルタックル",
+				'ja-jp': "ダブルタックル",
 			},
 			effect: {
-				ja: "防御する各ポケモンに20のダメージを与えます。",
+				'ja-jp': "防御する各ポケモンに20のダメージを与えます。",
 			},
 		},
 	],

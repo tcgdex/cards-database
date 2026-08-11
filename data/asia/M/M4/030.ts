@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エモンガ",
+		'ja-jp': "エモンガ",
 	},
 
 	illustrator: "Kazumasa Yasukuni",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "頬の 電気袋で 作った 電気を 膜の 内側に 溜めて 滑空しながら 電気を 放つ。",
+		'ja-jp': "頬の 電気袋で 作った 電気を 膜の 内側に 溜めて 滑空しながら 電気を 放つ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ちいさなおつかい" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から基本エネルギーを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札から基本エネルギーを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Lightning"],
 			effect: {
-				ja: "このポケモンと、ついているすべてのカードを、手札にもどす。",
+				'ja-jp': "このポケモンと、ついているすべてのカードを、手札にもどす。",
 			},
 		},
 	],

@@ -1,13 +1,13 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../EX'
 
 const ex5: Set = {
 	id: "ex5",
 
 	name: {
-		en: "Hidden Legends",
-		fr: "EX Légendes Oubliées",
-		it: "EX Leggende Nascoste"
+		'en-us': "Hidden Legends",
+		'fr-fr': "EX Légendes Oubliées",
+		'it-it': "EX Leggende Nascoste"
 	},
 
 	serie: serie,
@@ -21,7 +21,7 @@ const ex5: Set = {
 
 	abbreviations: {
 		official: "HL",
-		fr: "LOU"
+		'fr-fr': "LOU"
 	},
 
 	thirdParty: {

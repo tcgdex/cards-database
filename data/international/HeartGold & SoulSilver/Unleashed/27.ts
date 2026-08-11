@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Ursaring",
-		fr: "Ursaring",
-		de: "Ursaring"
+		'en-us': "Ursaring",
+		'fr-fr': "Ursaring",
+		'de-de': "Ursaring"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Teddiursa",
-		fr: "Teddiursa"
+		'en-us': "Teddiursa",
+		'fr-fr': "Teddiursa"
 	},
 
 	stage: "Stage1",
@@ -34,9 +34,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confront",
-				fr: "Confrontation",
-				de: "Konfrontieren"
+				'en-us': "Confront",
+				'fr-fr': "Confrontation",
+				'de-de': "Konfrontieren"
 			},
 
 			damage: 20,
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cross Chop",
-				fr: "Coup-croix",
-				de: "Kreuzhieb"
+				'en-us': "Cross Chop",
+				'fr-fr': "Coup-croix",
+				'de-de': "Kreuzhieb"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 50 damage plus 30 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 50 damage plus 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "With its ability to distinguish any aroma, it unfailing finds all food buried deep underground."
+		'en-us': "With its ability to distinguish any aroma, it unfailing finds all food buried deep underground."
 	},
 
 	variants: [

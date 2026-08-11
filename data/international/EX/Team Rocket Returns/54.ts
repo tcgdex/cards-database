@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Drowzee",
-		de: "Traumato"
+		'en-us': "Drowzee",
+		'de-de': "Traumato"
 	},
 
 	illustrator: "Midori Harada",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Insomnia",
-				de: "Insomnia"
+				'en-us': "Insomnia",
+				'de-de': "Insomnia"
 			},
 			effect: {
-				en: "Drowzee can't be Asleep.",
-				de: "Drowzee can't be Asleep."
+				'en-us': "Drowzee can't be Asleep.",
+				'de-de': "Drowzee can't be Asleep."
 			},
 		},
 	],
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Soothing Wave",
-				de: "Soothing Wave"
+				'en-us': "Soothing Wave",
+				'de-de': "Soothing Wave"
 			},
 			effect: {
-				en: "Flip a coin. If heads, each Defending Pokémon is now Asleep.",
-				de: "Flip a coin. If heads, each Defending Pokémon is now Asleep."
+				'en-us': "Flip a coin. If heads, each Defending Pokémon is now Asleep.",
+				'de-de': "Flip a coin. If heads, each Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 

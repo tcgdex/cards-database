@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒポポタス",
+		'ja-jp': "ヒポポタス",
 	},
 
 	illustrator: "Yumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "全身に 砂を まとうことで ばい菌から 体を 守る。 水に ぬれることが 苦手。",
+		'ja-jp': "全身に 砂を まとうことで ばい菌から 体を 守る。 水に ぬれることが 苦手。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分の山札の残り枚数が3枚以下なら、130ダメージ追加。",
+				'ja-jp': "自分の山札の残り枚数が3枚以下なら、130ダメージ追加。",
 			},
 		},
 	],

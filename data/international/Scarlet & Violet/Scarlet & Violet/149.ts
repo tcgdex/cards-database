@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Staravia",
-		fr: "Étourvol",
-		es: "Staravia",
-		it: "Staravia",
-		pt: "Staravia",
-		de: "Staravia"
+		'en-us': "Staravia",
+		'fr-fr': "Étourvol",
+		'es-es': "Staravia",
+		'it-it': "Staravia",
+		'pt-br': "Staravia",
+		'de-de': "Staravia"
 	},
 
 	rarity: "Common",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Starly",
-		fr: "Étourmi"
+		'en-us': "Starly",
+		'fr-fr': "Étourmi"
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Wing Attack",
-			fr: "Cru-Ailes",
-			es: "Ataque Ala",
-			it: "Attacco d'Ala",
-			pt: "Ataque de Asa",
-			de: "Flügelschlag"
+			'en-us': "Wing Attack",
+			'fr-fr': "Cru-Ailes",
+			'es-es': "Ataque Ala",
+			'it-it': "Attacco d'Ala",
+			'pt-br': "Ataque de Asa",
+			'de-de': "Flügelschlag"
 		},
 
 		damage: 40
@@ -43,12 +43,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Speed Dive",
-			fr: "Plongée Rapide",
-			es: "Picado Rápido",
-			it: "Immersione Rapida",
-			pt: "Mergulho Veloz",
-			de: "Tempohechtsprung"
+			'en-us': "Speed Dive",
+			'fr-fr': "Plongée Rapide",
+			'es-es': "Picado Rápido",
+			'it-it': "Immersione Rapida",
+			'pt-br': "Mergulho Veloz",
+			'de-de': "Tempohechtsprung"
 		},
 
 		damage: 80
@@ -81,7 +81,7 @@ const card: Card = {
 	illustrator: "kantaro",
 
 	description: {
-		en: "Recognizing their own weakness, they always live in a group. When alone, a Staravia cries noisily.",
+		'en-us': "Recognizing their own weakness, they always live in a group. When alone, a Staravia cries noisily.",
 	},
 
 	thirdParty: {

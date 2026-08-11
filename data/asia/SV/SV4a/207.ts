@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カプサイジ",
+		'ja-jp': "カプサイジ",
 		'zh-tw': "熱辣娃",
-		id: "Capsakid"
+		'id-id': "Capsakid"
 	},
 
 	illustrator: "OKACHEKE",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "パルデアの 郷土料理は 抜け落ちた カプサイジの 前歯が 使われているので 激辛なのだ。",
+		'ja-jp': "パルデアの 郷土料理は 抜け落ちた カプサイジの 前歯が 使われているので 激辛なのだ。",
 		'zh-tw': "帕底亞當地會用熱辣娃掉落的門牙來做料理， 所以超級無敵霹靂辣。",
-		id: "Rasa masakan khas Paldea sangat pedas karena dibuat menggunakan gigi depan Capsakid yang lepas."
+		'id-id': "Rasa masakan khas Paldea sangat pedas karena dibuat menggunakan gigi depan Capsakid yang lepas."
 	},
 
 	stage: "Basic",
@@ -28,23 +28,23 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "からくなる",
+			'ja-jp': "からくなる",
 			'zh-tw': "變辣",
-			id: "Memedaskan"
+			'id-id': "Memedaskan"
 		},
 
 		effect: {
-			ja: "自分の山札から「基本エネルギー」を1枚選び、このポケモンにつける。そして山札を切る。",
+			'ja-jp': "自分の山札から「基本エネルギー」を1枚選び、このポケモンにつける。そして山札を切る。",
 			'zh-tw': "從自己的牌庫選擇1張「基本【火】能量」卡，附於這隻寶可夢身上。並且重洗牌庫。",
-			id: "Pilih 1 lembar Energi Dasar {Api} dari Deck sendiri, lalu kenakan pada Pokémon ini. Kemudian, kocok Deck."
+			'id-id': "Pilih 1 lembar Energi Dasar {Api} dari Deck sendiri, lalu kenakan pada Pokémon ini. Kemudian, kocok Deck."
 		}
 	}, {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			ja: "やんちゃげり",
+			'ja-jp': "やんちゃげり",
 			'zh-tw': "調皮踢",
-			id: "Tendangan Nakal"
+			'id-id': "Tendangan Nakal"
 		},
 
 		damage: 50

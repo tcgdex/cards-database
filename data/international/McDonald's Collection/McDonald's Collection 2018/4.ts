@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2018'
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu"
+		'en-us': "Pikachu"
 	},
 
 	rarity: "None",
@@ -20,10 +20,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pika Draw",
+				'en-us': "Pika Draw",
 			},
 			effect: {
-				en: "Draw a card"
+				'en-us': "Draw a card"
 			},
 		},
 		{
@@ -31,10 +31,10 @@ const card: Card = {
 				"Colorless", "Colorless",
 			],
 			name: {
-				en: "Quick Attack",
+				'en-us': "Quick Attack",
 			},
 			effect: {
-				en: "Flip a coin. If heads this attack does 20 more damage."
+				'en-us': "Flip a coin. If heads this attack does 20 more damage."
 			},
 			damage: "20+"
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴルーグ",
+		'ja-jp': "ゴルーグ",
 	},
 
 	illustrator: "Shinya Mizuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "マッハの スピードで 空を 飛ぶ。 胸の 封印を はがすと エネルギーが 暴走してしまう。",
+		'ja-jp': "マッハの スピードで 空を 飛ぶ。 胸の 封印を はがすと エネルギーが 暴走してしまう。",
 	},
 
 	stage: "Stage1",
@@ -38,7 +38,7 @@ const card: Card = {
 	variants: [{ type: "holo" }],
 
 	evolveFrom: {
-		ja: "ゴビット",
+		'ja-jp': "ゴビット",
 	},
 
 	retreat: 4,

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 2'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu"
 	},
 
 	illustrator: "Yuka Morii",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Rogne"
+				'en-us': "Gnaw",
+				'fr-fr': "Rogne"
 			},
 
 			damage: 10,
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Jolt",
-				fr: "Secousse tonnerre"
+				'en-us': "Thunder Jolt",
+				'fr-fr': "Secousse tonnerre"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Pikachu does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Pikachu s'inflige 10 dégâts."
+				'en-us': "Flip a coin. If tails, Pikachu does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Pikachu s'inflige 10 dégâts."
 			},
 			damage: 30,
 

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チリ",
+		'ja-jp': "チリ",
 	},
 
 	illustrator: "GIDORA",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札を上から4枚見て、その中からカードを2枚選び、手札に加える。残りのカードはすべてウラにして切り、山札の下にもどす。",
+		'ja-jp': "自分の山札を上から4枚見て、その中からカードを2枚選び、手札に加える。残りのカードはすべてウラにして切り、山札の下にもどす。",
 	},
 
 	variants: [

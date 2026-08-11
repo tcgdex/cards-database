@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ディアンシー",
+		'ja-jp': "ディアンシー",
 	},
 
 	illustrator: "TOKIYA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "メレシーの 突然変異。 ピンク色に 輝く 体は 世界一 美しいと 言われる。",
+		'ja-jp': "メレシーの 突然変異。 ピンク色に 輝く 体は 世界一 美しいと 言われる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "きらめくいのり" },
 			cost: ["Fairy"],
 			effect: {
-				ja: "自分の場のポケモン1匹から進化するカードを、自分の山札から1枚選び、そのポケモンにのせて進化させる。そして山札を切る。",
+				'ja-jp': "自分の場のポケモン1匹から進化するカードを、自分の山札から1枚選び、そのポケモンにのせて進化させる。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Fairy", "Colorless"],
 			effect: {
-				ja: "自分の[妖]ポケモン全員のHPを、それぞれ「30」回復する。",
+				'ja-jp': "自分の[妖]ポケモン全員のHPを、それぞれ「30」回復する。",
 			},
 		},
 	],

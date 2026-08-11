@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "リオル",
+		'ja-jp': "リオル",
 		'zh-tw': "利歐路",
-		id: "Riolu"
+		'id-id': "Riolu"
 	},
 
 	illustrator: "sowsow",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "仲間同士で 波動を 出して コミュニケーションを とっている。 一晩中 走り続けられる。",
+		'ja-jp': "仲間同士で 波動を 出して コミュニケーションを とっている。 一晩中 走り続けられる。",
 		'zh-tw': "夥伴們之間會透過發出波導來與彼此溝通。 跑步可以跑上一整晚。",
-		id: "Riolu mengeluarkan gelombang aura untuk berkomunikasi dengan kawannya. Pokémon ini dapat terus berlari sepanjang malam."
+		'id-id': "Riolu mengeluarkan gelombang aura untuk berkomunikasi dengan kawannya. Pokémon ini dapat terus berlari sepanjang malam."
 	},
 
 	stage: "Basic",
@@ -28,9 +28,9 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "パンチ",
+			'ja-jp': "パンチ",
 			'zh-tw': "出拳",
-			id: "Pukulan"
+			'id-id': "Pukulan"
 		},
 
 		damage: 10
@@ -38,17 +38,17 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			ja: "とつげき",
+			'ja-jp': "とつげき",
 			'zh-tw': "突擊",
-			id: "Menyerang"
+			'id-id': "Menyerang"
 		},
 
 		damage: 50,
 
 		effect: {
-			ja: "このポケモンにも20ダメージ。",
+			'ja-jp': "このポケモンにも20ダメージ。",
 			'zh-tw': "這隻寶可夢也受到20點傷害。",
-			id: "Pokémon ini juga menerima kerusakan sejumlah 20."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 20."
 		}
 	}],
 

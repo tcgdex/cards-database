@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Lairon",
-		fr: "Galegon de Team Magma",
-		de: "Team Magmas Stollrak"
+		'en-us': "Team Magma's Lairon",
+		'fr-fr': "Galegon de Team Magma",
+		'de-de': "Team Magmas Stollrak"
 	},
 
 	illustrator: "Hiromichi Sugiyama",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Ronge",
-				de: "Gnaw"
+				'en-us': "Gnaw",
+				'fr-fr': "Ronge",
+				'de-de': "Gnaw"
 			},
 
 			damage: 20,
@@ -44,14 +44,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Land Sonic",
-				fr: "Terre sonique",
-				de: "Land Sonic"
+				'en-us': "Land Sonic",
+				'fr-fr': "Terre sonique",
+				'de-de': "Land Sonic"
 			},
 			effect: {
-				en: "If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Confused.",
-				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, il est maintenant Confus.",
-				de: "If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Confused."
+				'en-us': "If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Confused.",
+				'fr-fr': "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, il est maintenant Confus.",
+				'de-de': "If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Confused."
 			},
 			damage: 40,
 

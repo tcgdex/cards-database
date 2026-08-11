@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Snorunt",
-		fr: "Stalgamin",
+		'en-us': "Snorunt",
+		'fr-fr': "Stalgamin",
 	},
 
 	illustrator: "MAHOU",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Icy Snow",
-				fr: "Verglas",
+				'en-us': "Icy Snow",
+				'fr-fr': "Verglas",
 			},
 
 			damage: 10,
@@ -49,7 +49,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "What a delicious-looking snowman! I think I'll sneak a bite. It's OK…no one's looking, right?",
+		'en-us': "What a delicious-looking snowman! I think I'll sneak a bite. It's OK…no one's looking, right?",
 	},
 
 	thirdParty: {

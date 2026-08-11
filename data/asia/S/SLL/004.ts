@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SLL"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "路卡利歐V",
-		ja: "ルカリオV"
+		'ja-jp': "ルカリオV"
 	},
 
 	illustrator: "takuyoa",
@@ -19,12 +19,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "粉碎拳",
-			ja: "クラッシュパンチ"
+			'ja-jp': "クラッシュパンチ"
 		},
 
 		effect: {
 			'zh-tw': "選擇1個對手的戰鬥寶可夢身上附加的特殊能量，將其丟棄。",
-			ja: "相手のバトルポケモンについている特殊エネルギーを1個選び、トラッシュする。"
+			'ja-jp': "相手のバトルポケモンについている特殊エネルギーを1個選び、トラッシュする。"
 		},
 
 		damage: 50,
@@ -32,7 +32,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "旋風踢",
-			ja: "せんぷうきゃく"
+			'ja-jp': "せんぷうきゃく"
 		},
 
 		damage: 120,

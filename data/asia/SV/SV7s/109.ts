@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เกโนเซ็กท์",
-		id: "Genesect"
+		'th-th': "เกโนเซ็กท์",
+		'id-id': "Genesect"
 	},
 
 	illustrator: "Kazumasa Yasukuni",
@@ -15,8 +15,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		th: "โปเกมอนแมลงโบราณที่ถูกแก๊งพลาสมาดัดแปลง ปืนใหญ่กลางหลังมีพลังเพิ่มขึ้น",
-		id: "Pokémon serangga purba yang telah dimodifikasi oleh Tim Plasma. Meriam di punggung Genesect telah diperkuat."
+		'th-th': "โปเกมอนแมลงโบราณที่ถูกแก๊งพลาสมาดัดแปลง ปืนใหญ่กลางหลังมีพลังเพิ่มขึ้น",
+		'id-id': "Pokémon serangga purba yang telah dimodifikasi oleh Tim Plasma. Meriam di punggung Genesect telah diperkuat."
 	},
 
 	stage: "Basic",
@@ -25,20 +25,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			th: "เอซแคนเซลเลอร์",
-			id: "Ace Canceler"
+			'th-th': "เอซแคนเซลเลอร์",
+			'id-id': "Ace Canceler"
 		},
 
 		effect: {
-			th: "ถ้าโปเกมอนนี้มี [ไอเท็มติดโปเกมอน] ติดอยู่ ฝ่ายตรงข้ามไม่สามารถนำการ์ด [【ACE SPEC】] จากบนมือออกมาใช้ได้",
-			id: "Jika Pokémon ini mengenakan Pokémon Tool, lawan tidak dapat memainkan kartu {ACE SPEC} dari Kartu Pegangan."
+			'th-th': "ถ้าโปเกมอนนี้มี [ไอเท็มติดโปเกมอน] ติดอยู่ ฝ่ายตรงข้ามไม่สามารถนำการ์ด [【ACE SPEC】] จากบนมือออกมาใช้ได้",
+			'id-id': "Jika Pokémon ini mengenakan Pokémon Tool, lawan tidak dapat memainkan kartu {ACE SPEC} dari Kartu Pegangan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			th: "แมกเน็ทบลาสต์",
-			id: "Magnetic Blast"
+			'th-th': "แมกเน็ทบลาสต์",
+			'id-id': "Magnetic Blast"
 		},
 
 		damage: 100,

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Abra",
+		'en-us': "Abra",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psyshock",
+				'en-us': "Psyshock",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 10,
 
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Using its ability to read minds, it will identify impending danger and teleport to safety.",
+		'en-us': "Using its ability to read minds, it will identify impending danger and teleport to safety.",
 	},
 
 

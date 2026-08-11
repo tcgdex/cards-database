@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クレッフィ",
+		'ja-jp': "クレッフィ",
 		'zh-tw': "鑰圈兒",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "昔は 鉱山に 棲んでいたが エサの 鉱物が 減ってきたので 人里に 現れるようになった。",
+		'ja-jp': "昔は 鉱山に 棲んでいたが エサの 鉱物が 減ってきたので 人里に 現れるようになった。",
 		'zh-tw': "過去棲息在礦山裡，因為作為食物的礦物逐漸減少，於是開始出現在人類的聚落中。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "アンロック",
+				'ja-jp': "アンロック",
 				'zh-tw': "解鎖",
 			},
 			damage: 10,
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を2枚引く。",
+				'ja-jp': "自分の山札を2枚引く。",
 				'zh-tw': "從自己的牌庫抽出2張卡。",
 			},
 		},

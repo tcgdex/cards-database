@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Dragonair",
-		fr: "Draco",
-		de: "Dragonir"
+		'en-us': "Dragonair",
+		'fr-fr': "Draco",
+		'de-de': "Dragonir"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dratini",
-		fr: "Minidraco",
+		'en-us': "Dratini",
+		'fr-fr': "Minidraco",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wrap",
-				fr: "Ligotage",
-				de: "Wickel"
+				'en-us': "Wrap",
+				'fr-fr': "Ligotage",
+				'de-de': "Wickel"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rising Lunge",
-				fr: "Botte secrète",
-				de: "Aufwärtsstoß"
+				'en-us': "Rising Lunge",
+				'fr-fr': "Botte secrète",
+				'de-de': "Aufwärtsstoß"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -80,8 +80,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.",
-		fr: "La météo change brusquement lorsqu'il est entouré d'une aura. On dit qu'il peuple les mers et les lacs."
+		'en-us': "If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.",
+		'fr-fr': "La météo change brusquement lorsqu'il est entouré d'une aura. On dit qu'il peuple les mers et les lacs."
 	},
 
 	thirdParty: {

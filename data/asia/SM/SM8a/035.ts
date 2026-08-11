@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドーミラー",
+		'ja-jp': "ドーミラー",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "古い お墓から ドーミラーに そっくりな 道具が 掘り出されたが 関係は わかっていない。",
+		'ja-jp': "古い お墓から ドーミラーに そっくりな 道具が 掘り出されたが 関係は わかっていない。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ぬけがけしんか" },
 			effect: {
-				ja: "このポケモンは、後攻プレイヤーの最初の番なら、出したばかりでも進化できる。",
+				'ja-jp': "このポケモンは、後攻プレイヤーの最初の番なら、出したばかりでも進化できる。",
 			},
 		},
 	],

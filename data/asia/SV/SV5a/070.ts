@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ゴウカザル"
+		'ja-jp': "ゴウカザル"
 	},
 
 	illustrator: "Krgc",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "頭で 燃える 炎の ように 激しい 性格の ポケモン。 素早さでは だれにも 負けない。"
+		'ja-jp': "頭で 燃える 炎の ように 激しい 性格の ポケモン。 素早さでは だれにも 負けない。"
 	},
 
 	stage: "Stage2",
@@ -24,11 +24,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "かえんぶとう"
+			'ja-jp': "かえんぶとう"
 		},
 
 		effect: {
-			ja: "自分の番に1回使える。自分の手札から「基本エネルギー」と「基本エネルギー」をそれぞれ1枚まで選び、自分のポケモンに好きなようにつける。"
+			'ja-jp': "自分の番に1回使える。自分の手札から「基本エネルギー」と「基本エネルギー」をそれぞれ1枚まで選び、自分のポケモンに好きなようにつける。"
 		}
 	}],
 
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			ja: "バーンアウト"
+			'ja-jp': "バーンアウト"
 		},
 
 		damage: 200,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを1個選び、トラッシュする。"
+			'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。"
 		}
 	}],
 

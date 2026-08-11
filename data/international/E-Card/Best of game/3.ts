@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Best of game'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Professor Elm"
+		'en-us': "Professor Elm"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Shuffle your hand into your deck. Then, draw 7 cards. You can’t play any more Trainer cards this turn."
+		'en-us': "Shuffle your hand into your deck. Then, draw 7 cards. You can’t play any more Trainer cards this turn."
 	},
 
 	variants: [

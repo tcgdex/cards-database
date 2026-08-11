@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cyndaquil",
-		fr: "Héricendre",
-		de: "Feurigel",
-		it: "Cyndaquil",
-		es: "Cyndaquil",
-		pt: "Cyndaquil",
+		'en-us': "Cyndaquil",
+		'fr-fr': "Héricendre",
+		'de-de': "Feurigel",
+		'it-it': "Cyndaquil",
+		'es-es': "Cyndaquil",
+		'pt-br': "Cyndaquil",
 		'es-mx': "Cyndaquil"
 	},
 

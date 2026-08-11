@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Corphish"
+		'id-id': "Corphish"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Pokémon ini tetap baik-baik saja meskipun kualitas air habitatnya buruk. Populasinya terus bertambah karena tidak perlu berebut makanan dengan Pokémon air lainnya."
+		'id-id': "Pokémon ini tetap baik-baik saja meskipun kualitas air habitatnya buruk. Populasinya terus bertambah karena tidak perlu berebut makanan dengan Pokémon air lainnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Capitan Keras"
+			'id-id': "Capitan Keras"
 		},
 
 		damage: 60,

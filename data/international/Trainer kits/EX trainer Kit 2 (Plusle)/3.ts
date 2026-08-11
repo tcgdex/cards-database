@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit 2 (Plusle)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Grumpig",
-		fr: "Groret"
+		'en-us': "Grumpig",
+		'fr-fr': "Groret"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spoink",
-		fr: "Spoink"
+		'en-us': "Spoink",
+		'fr-fr': "Spoink"
 	},
 
 	attacks: [{
@@ -30,12 +30,12 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Snap Tail",
-			fr: "Claquement de queue"
+			'en-us': "Snap Tail",
+			'fr-fr': "Claquement de queue"
 		},
 		effect: {
-			en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+			'en-us': "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
 		}
 	}, {
 		cost: [
@@ -43,8 +43,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Psypunch",
-			fr: "Coup de poing psy"
+			'en-us': "Psypunch",
+			'fr-fr': "Coup de poing psy"
 		},
 		damage: 40
 	}],

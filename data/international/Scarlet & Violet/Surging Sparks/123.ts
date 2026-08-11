@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Alolan Dugtrio",
-		fr: "Triopikeur d'Alola",
-		es: "Dugtrio de Alola",
-		it: "Dugtrio di Alola",
-		pt: "Dugtrio de Alola",
-		de: "Alola-Digdri"
+		'en-us': "Alolan Dugtrio",
+		'fr-fr': "Triopikeur d'Alola",
+		'es-es': "Dugtrio de Alola",
+		'it-it': "Dugtrio di Alola",
+		'pt-br': "Dugtrio de Alola",
+		'de-de': "Alola-Digdri"
 	},
 
 	rarity: "Uncommon",
@@ -19,32 +19,32 @@ const card: Card = {
 	hp: 110,
 	types: ["Metal"],
 	evolveFrom: {
-		en: "Alolan Diglett",
-		fr: "Taupiqueur d'Alola",
-		es: "Diglett de Alola",
-		it: "Diglett di Alola",
-		pt: "Diglett de Alola",
-		de: "Alola-Digda"
+		'en-us': "Alolan Diglett",
+		'fr-fr': "Taupiqueur d'Alola",
+		'es-es': "Diglett de Alola",
+		'it-it': "Diglett di Alola",
+		'pt-br': "Diglett de Alola",
+		'de-de': "Alola-Digda"
 	},
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Trio-Cheehoo",
-			fr: "Trio-Cheehoo",
-			es: "Trío Olé",
-			it: "Triurrà",
-			pt: "Trilegal",
-			de: "Dreistes Glück"
+			'en-us': "Trio-Cheehoo",
+			'fr-fr': "Trio-Cheehoo",
+			'es-es': "Trío Olé",
+			'it-it': "Triurrà",
+			'pt-br': "Trilegal",
+			'de-de': "Dreistes Glück"
 		},
 
 		effect: {
-			en: "If you don't have exactly 3 cards in your hand, this attack does nothing.",
-			fr: "Si vous n'avez pas exactement 3 cartes dans votre main, cette attaque ne fait rien.",
-			es: "Si no tienes exactamente 3 cartas en tu mano, este ataque no hace nada.",
-			it: "Se non hai esattamente tre carte in mano, questo attacco non ha effetto.",
-			pt: "Se você não tiver exatamente 3 cartas na sua mão, este ataque não fará nada.",
-			de: "Wenn du nicht genau 3 Karten auf deiner Hand hast, hat diese Attacke keine Auswirkungen."
+			'en-us': "If you don't have exactly 3 cards in your hand, this attack does nothing.",
+			'fr-fr': "Si vous n'avez pas exactement 3 cartes dans votre main, cette attaque ne fait rien.",
+			'es-es': "Si no tienes exactamente 3 cartas en tu mano, este ataque no hace nada.",
+			'it-it': "Se non hai esattamente tre carte in mano, questo attacco non ha effetto.",
+			'pt-br': "Se você não tiver exatamente 3 cartas na sua mão, este ataque não fará nada.",
+			'de-de': "Wenn du nicht genau 3 Karten auf deiner Hand hast, hat diese Attacke keine Auswirkungen."
 		},
 
 		damage: 120

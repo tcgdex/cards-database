@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クロバット",
+		'ja-jp': "クロバット",
 	},
 
 	illustrator: "Kazuhisa Uragami",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "両足が 羽に 変化。 音を たてずに 高速で 飛び 獲物の うなじに キバを たてる。",
+		'ja-jp': "両足が 羽に 変化。 音を たてずに 高速で 飛び 獲物の うなじに キバを たてる。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "よるこうさく" },
 			effect: {
-				ja: "このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札から好きなカードを1枚選ぶ。残りの山札を切り、選んだカードを山札の上にもどす。",
+				'ja-jp': "このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札から好きなカードを1枚選ぶ。残りの山札を切り、選んだカードを山札の上にもどす。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Darkness"],
 			effect: {
-				ja: "相手のバトルポケモンをどくとこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをどくとこんらんにする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴルバット",
+		'ja-jp': "ゴルバット",
 	},
 
 	retreat: 1,

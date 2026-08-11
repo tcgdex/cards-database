@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Galarian Linoone",
-		fr: "Linéon de Galar",
-		es: "Linoone de Galar",
+		'en-us': "Galarian Linoone",
+		'fr-fr': "Linéon de Galar",
+		'es-es': "Linoone de Galar",
 		'es-mx': "Linoone de Galar",
-		de: "Galar-Geradaks",
-		it: "Linoone di Galar",
-		pt: "Linoone de Galar"
+		'de-de': "Galar-Geradaks",
+		'it-it': "Linoone di Galar",
+		'pt-br': "Linoone de Galar"
 	},
 
 	evolveFrom: {
-		en: "Galarian Zigzagoon",
-		fr: "Zigzaton de Galar",
-		es: "Zigzagoon de Galar",
+		'en-us': "Galarian Zigzagoon",
+		'fr-fr': "Zigzaton de Galar",
+		'es-es': "Zigzagoon de Galar",
 		'es-mx': "Zigzagoon de Galar",
-		de: "Galar-Zigzachs",
-		it: "Zigzagoon di Galar",
-		pt: "Zigzagoon de Galar",
+		'de-de': "Galar-Zigzachs",
+		'it-it': "Zigzagoon di Galar",
+		'pt-br': "Zigzagoon de Galar",
 	},
 
 	illustrator: "Tomowaka",
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Gnaw",
-			fr: "Ronge",
-			es: "Roer",
+			'en-us': "Gnaw",
+			'fr-fr': "Ronge",
+			'es-es': "Roer",
 			'es-mx': "Mordisquear",
-			de: "Nagen",
-			it: "Rosicchiamento",
-			pt: "Roída"
+			'de-de': "Nagen",
+			'it-it': "Rosicchiamento",
+			'pt-br': "Roída"
 		},
 
 		damage: 20
@@ -50,13 +50,13 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Claw Slash",
-			fr: "Tranch'Griffe",
-			es: "Cuchillada Garra",
+			'en-us': "Claw Slash",
+			'fr-fr': "Tranch'Griffe",
+			'es-es': "Cuchillada Garra",
 			'es-mx': "Cuchillada con Garra",
-			de: "Klauenschlitzer",
-			it: "Lacerartiglio",
-			pt: "Golpe de Garra"
+			'de-de': "Klauenschlitzer",
+			'it-it': "Lacerartiglio",
+			'pt-br': "Golpe de Garra"
 		},
 
 		damage: 50
@@ -72,7 +72,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "It uses its long tongue to taunt opponents. Once the opposition is enraged, this Pokémon hurls itself at the opponent, tackling them forcefully.",
+		'en-us': "It uses its long tongue to taunt opponents. Once the opposition is enraged, this Pokémon hurls itself at the opponent, tackling them forcefully.",
 	},
 
 	variants: [

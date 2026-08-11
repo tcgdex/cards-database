@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マフォクシー",
+		'ja-jp': "マフォクシー",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "摂氏３０００度の 炎の 渦を 超能力で 操る。 敵を 渦で 包み 焼きつくす。",
+		'ja-jp': "摂氏３０００度の 炎の 渦を 超能力で 操る。 敵を 渦で 包み 焼きつくす。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "マジカルトーチ" },
 			effect: {
-				ja: "自分の番に1回使える。相手のバトルポケモンをやけどにする。",
+				'ja-jp': "自分の番に1回使える。相手のバトルポケモンをやけどにする。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Fire", "Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、2個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、2個トラッシュする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "テールナー",
+		'ja-jp': "テールナー",
 	},
 
 	retreat: 2,

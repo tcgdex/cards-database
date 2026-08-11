@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Fighting Energy",
-		fr: "Énergie Combat",
-		de: "Kampfenergie"
+		'en-us': "Fighting Energy",
+		'fr-fr': "Énergie Combat",
+		'de-de': "Kampfenergie"
 	},
 
 	illustrator: undefined,

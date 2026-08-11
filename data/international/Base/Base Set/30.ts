@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Ivysaur",
-		fr: "Herbizarre",
-		de: "Bisaknosp",
-		it: "Ivysaur"
+		'en-us': "Ivysaur",
+		'fr-fr': "Herbizarre",
+		'de-de': "Bisaknosp",
+		'it-it': "Ivysaur"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -25,9 +25,9 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bulbasaur",
-		fr: "Bulbizarre",
-		it: "Bulbasaur"
+		'en-us': "Bulbasaur",
+		'fr-fr': "Bulbizarre",
+		'it-it': "Bulbasaur"
 	},
 
 	stage: "Stage1",
@@ -40,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vine Whip",
-				fr: "Fouet Lianes",
-				de: "Rankenhieb",
-				it: "Frustata"
+				'en-us': "Vine Whip",
+				'fr-fr': "Fouet Lianes",
+				'de-de': "Rankenhieb",
+				'it-it': "Frustata"
 			},
 
 			damage: 30,
@@ -56,16 +56,16 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poisonpowder",
-				fr: "Poudre Toxik",
-				de: "Giftpuder",
-				it: "Velenpolvere"
+				'en-us': "Poisonpowder",
+				'fr-fr': "Poudre Toxik",
+				'de-de': "Giftpuder",
+				'it-it': "Velenpolvere"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das verteidigende Pokémon ist vergiftet.",
-				it: "Il Pokémon Difensore è Avvelenato."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das verteidigende Pokémon ist vergiftet.",
+				'it-it': "Il Pokémon Difensore è Avvelenato."
 			},
 			damage: 20,
 
@@ -82,9 +82,9 @@ const card: Card = {
 
 
 	description: {
-		en: "When the bulb on its back grows large, the Pokémon seems to lose the ability to stand on its hind legs.",
-		fr: "Son bulbe dorsal devient si gros qu'il ne peut plus se tenir sur ses membres postérieurs.",
-		it: "Quando la pianta che ha sul dorso cresce, questo Pokémon non è più in grado di mantenersi eretto sulle zampe posteriori. LIV 20 N.2"
+		'en-us': "When the bulb on its back grows large, the Pokémon seems to lose the ability to stand on its hind legs.",
+		'fr-fr': "Son bulbe dorsal devient si gros qu'il ne peut plus se tenir sur ses membres postérieurs.",
+		'it-it': "Quando la pianta che ha sul dorso cresce, questo Pokémon non è più in grado di mantenersi eretto sulle zampe posteriori. LIV 20 N.2"
 	},
 
 	variants: [

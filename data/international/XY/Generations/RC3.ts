@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Charmander",
-		fr: "Salamèche",
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche",
 	},
 
 	illustrator: "Akira Komayama",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Playful",
-				fr: "Garnement",
+				'en-us': "Playful",
+				'fr-fr': "Garnement",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage times the number of damage counters on this Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon.",
+				'en-us': "Flip a coin. If heads, this attack does 20 damage times the number of damage counters on this Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon.",
 			},
 			damage: "20×",
 
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "My Charmander is so rambunctious! I wonder if we can become good friends?",
+		'en-us': "My Charmander is so rambunctious! I wonder if we can become good friends?",
 	},
 
 	thirdParty: {

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โยมาวารุ",
-		id: "Duskull"
+		'th-th': "โยมาวารุ",
+		'id-id': "Duskull"
 	},
 
 	illustrator: "IKEDA Saki",
@@ -15,28 +15,28 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		th: "จะรู้สึกหนาวสั่นอย่างรุนแรงตอนที่ถูกมันจ้องเขม็งด้วยนัยน์ตาเดียวสีแดงฉานและสูบพลังงานชีวิตไป",
-		id: "Ketika vitalitas terisap akibat dipelototi oleh mata tunggal merah padam Pokémon ini, rasa menggigil yang luar biasa akan menyerang."
+		'th-th': "จะรู้สึกหนาวสั่นอย่างรุนแรงตอนที่ถูกมันจ้องเขม็งด้วยนัยน์ตาเดียวสีแดงฉานและสูบพลังงานชีวิตไป",
+		'id-id': "Ketika vitalitas terisap akibat dipelototi oleh mata tunggal merah padam Pokémon ini, rasa menggigil yang luar biasa akan menyerang."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "รับวิญญาณ",
-			id: "Pergi Menjemput"
+			'th-th': "รับวิญญาณ",
+			'id-id': "Pergi Menjemput"
 		},
 
 		effect: {
-			th: "เลือกการ์ด [โยมาวารุ] ได้สูงสุด 3 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา วางบนเบนช์",
-			id: "Pilih paling banyak 3 lembar Duskull dari Trash sendiri, lalu masukkan ke Cadangan."
+			'th-th': "เลือกการ์ด [โยมาวารุ] ได้สูงสุด 3 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา วางบนเบนช์",
+			'id-id': "Pilih paling banyak 3 lembar Duskull dari Trash sendiri, lalu masukkan ke Cadangan."
 		},
 
 		cost: ["Psychic"]
 	}, {
 		name: {
-			th: "งึมงำ",
-			id: "Bergumam"
+			'th-th': "งึมงำ",
+			'id-id': "Bergumam"
 		},
 
 		damage: 30,

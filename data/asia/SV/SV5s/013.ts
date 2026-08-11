@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Shaymin"
+		'id-id': "Shaymin"
 	},
 
 	illustrator: "Atsushi Furusawa",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Shaymin memiliki kekuatan untuk mengurai unsur racun di udara dan mengubah daratan gersang menjadi ladang bunga dalam sekejap."
+		'id-id': "Shaymin memiliki kekuatan untuk mengurai unsur racun di udara dan mengubah daratan gersang menjadi ladang bunga dalam sekejap."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Pinpoint Dive"
+			'id-id': "Pinpoint Dive"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan sejumlah 60 kepada 1 Pokémon {ex}/{V} di Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 60 kepada 1 Pokémon {ex}/{V} di Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
 		},
 
 		cost: ["Grass"]
 	}, {
 		name: {
-			id: "Tendangan Belakang"
+			'id-id': "Tendangan Belakang"
 		},
 
 		damage: 50,

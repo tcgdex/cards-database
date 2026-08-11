@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Galvantula",
-		fr: "Mygavolt",
-		es: "Galvantula",
-		it: "Galvantula",
-		pt: "Galvantula",
-		de: "Voltula"
+		'en-us': "Galvantula",
+		'fr-fr': "Mygavolt",
+		'es-es': "Galvantula",
+		'it-it': "Galvantula",
+		'pt-br': "Galvantula",
+		'de-de': "Voltula"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Joltik",
-		fr: "Statitik",
+		'en-us': "Joltik",
+		'fr-fr': "Statitik",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Discharge",
-				fr: "Coup d'Jus",
+				'en-us': "Discharge",
+				'fr-fr': "Coup d'Jus",
 			},
 			effect: {
-				en: "Discard all Lightning Energy attached to this Pokémon. This attack does 30 damage times the number of Energy cards you discarded.",
-				fr: "Défaussez toutes les Énergies Lightning attachées à ce Pokémon. Cette attaque inflige 30 dégâts multipliés par le nombre de cartes Énergie que vous avez défaussées.",
+				'en-us': "Discard all Lightning Energy attached to this Pokémon. This attack does 30 damage times the number of Energy cards you discarded.",
+				'fr-fr': "Défaussez toutes les Énergies Lightning attachées à ce Pokémon. Cette attaque inflige 30 dégâts multipliés par le nombre de cartes Énergie que vous avez défaussées.",
 			},
 			damage: 30,
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Signal Beam",
-				fr: "Rayon Signal",
+				'en-us': "Signal Beam",
+				'fr-fr': "Rayon Signal",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: 30,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It creates barriers from electrified silk that stun foes. This works as a weapon as well as a defense.",
+		'en-us': "It creates barriers from electrified silk that stun foes. This works as a weapon as well as a defense.",
 	},
 
 	thirdParty: {

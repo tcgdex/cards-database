@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ボーマンダGX",
+		'ja-jp': "ボーマンダGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ドラゴンフロート" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分のポケモン全員（「ポケモンGX・EX」をのぞく）のにげるためのエネルギーは、すべてなくなる。",
+				'ja-jp': "このポケモンがいるかぎり、自分のポケモン全員（「ポケモンGX・EX」をのぞく）のにげるためのエネルギーは、すべてなくなる。",
 			},
 		},
 	],
@@ -30,14 +30,14 @@ const card: Card = {
 			damage: 200,
 			cost: ["Fire", "Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、2個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、2個トラッシュする。",
 			},
 		},
 		{
 			name: { ja: "かえんひこうGX" },
 			cost: ["Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のポケモン1匹に、120ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のポケモン1匹に、120ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コモルー",
+		'ja-jp': "コモルー",
 	},
 
 	retreat: 2,

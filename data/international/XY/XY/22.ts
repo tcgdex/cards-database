@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Pansear",
-		fr: "Flamajou",
-		es: "Pansear",
-		it: "Pansear",
-		pt: "Pansear",
-		de: "Grillmak"
+		'en-us': "Pansear",
+		'fr-fr': "Flamajou",
+		'es-es': "Pansear",
+		'it-it': "Pansear",
+		'pt-br': "Pansear",
+		'de-de': "Grillmak"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Live Coal",
-				fr: "Charbon Mutant",
-				es: "Carbón Activado",
-				it: "Carboni Ardenti",
-				pt: "Carvão Vivo",
-				de: "Glühende Kohlen"
+				'en-us': "Live Coal",
+				'fr-fr': "Charbon Mutant",
+				'es-es': "Carbón Activado",
+				'it-it': "Carboni Ardenti",
+				'pt-br': "Carvão Vivo",
+				'de-de': "Glühende Kohlen"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fireworks",
-				fr: "Feu d'Artifice",
-				es: "Fuegos artificiales",
-				it: "Fuochi d'Artificio",
-				pt: "Fogos de Artifício",
-				de: "Feuerwerk"
+				'en-us': "Fireworks",
+				'fr-fr': "Feu d'Artifice",
+				'es-es': "Fuegos artificiales",
+				'it-it': "Fuochi d'Artificio",
+				'pt-br': "Fogos de Artifício",
+				'de-de': "Feuerwerk"
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon.",
-				es: "Descarta 1 Energía unida a este Pokémon.",
-				it: "Scarta un'Energia assegnata a questo Pokémon.",
-				pt: "Descarte uma Energia ligada a este Pokémon.",
-				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon.",
+				'es-es': "Descarta 1 Energía unida a este Pokémon.",
+				'it-it': "Scarta un'Energia assegnata a questo Pokémon.",
+				'pt-br': "Descarte uma Energia ligada a este Pokémon.",
+				'de-de': "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Very intelligent, it roasts berries before eating them. It likes to help people.",
+		'en-us': "Very intelligent, it roasts berries before eating them. It likes to help people.",
 	},
 
 	thirdParty: {

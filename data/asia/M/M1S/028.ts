@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レアコイル"
+		'ja-jp': "レアコイル"
 	},
 	illustrator: "Saboteri",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Lightning"],
 	description: {
-		ja: "3つのコイルは強い磁力で結びついている。そばに寄ると強い耳鳴りに襲われる。"
+		'ja-jp': "3つのコイルは強い磁力で結びついている。そばに寄ると強い耳鳴りに襲われる。"
 	},
 	stage: "Stage1",
 	variants: [
@@ -25,15 +25,15 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コイル"
+		'ja-jp': "コイル"
 	},
 	attacks: [{
 		name: {
-			ja: "でんきショック"
+			'ja-jp': "でんきショック"
 		},
 		damage: 30,
 		effect: {
-			ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。"
+			'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。"
 		},
 		cost: ["Lightning"]
 	}],

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Absol",
-		fr: "Absol",
-		de: "Absol"
+		'en-us': "Absol",
+		'fr-fr': "Absol",
+		'de-de': "Absol"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Foresight",
-				fr: "Prévoyance",
-				de: "Voraussicht"
+				'en-us': "Foresight",
+				'fr-fr': "Prévoyance",
+				'de-de': "Voraussicht"
 			},
 			effect: {
-				en: "Look at the top 5 cards of either player's deck and put them back on top of that player's deck in any order.",
-				fr: "Regardes les 5 cartes du dessus du deck d'1 des joueurs et replacez-les au dessus du deck de ce joueur dans n'importe quel ordre.",
-				de: "Schau dir die obersten 5 Karten des Decks eines Spielers an und lege die Karten in beliebiger Reihenfolge auf dieses Deck zurück."
+				'en-us': "Look at the top 5 cards of either player's deck and put them back on top of that player's deck in any order.",
+				'fr-fr': "Regardes les 5 cartes du dessus du deck d'1 des joueurs et replacez-les au dessus du deck de ce joueur dans n'importe quel ordre.",
+				'de-de': "Schau dir die obersten 5 Karten des Decks eines Spielers an und lege die Karten in beliebiger Reihenfolge auf dieses Deck zurück."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Overrun",
-				fr: "Dépassement",
-				de: "Überrennen"
+				'en-us': "Overrun",
+				'fr-fr': "Dépassement",
+				'de-de': "Überrennen"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Benched Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon de Banc de votre adversaire. Cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Wähle 1 gegnerisches Pokémon auf der Bank. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 1 of your opponent's Benched Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 1 des Pokémon de Banc de votre adversaire. Cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Wähle 1 gegnerisches Pokémon auf der Bank. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 10,
 

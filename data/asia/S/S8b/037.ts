@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジメレオン",
+		'ja-jp': "ジメレオン",
 		'zh-tw': "變澀蜥",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "頭が よく 面倒くさがり。 縄張りに 敵が 近づかないよう そこかしこに 罠を 仕掛けている。",
+		'ja-jp': "頭が よく 面倒くさがり。 縄張りに 敵が 近づかないよう そこかしこに 罠を 仕掛けている。",
 		'zh-tw': "頭腦聰明但是很怕麻煩。為了不讓敵人接近自己的地盤， 在各個地方都設下了陷阱。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "とびはねる",
+				'ja-jp': "とびはねる",
 				'zh-tw': "彈跳",
 			},
 			damage: 40,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "このポケモンをベンチポケモンと入れ替える。",
 				'zh-tw': "將這隻寶可夢與備戰寶可夢互換。",
 			},
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "メッソン",
+		'ja-jp': "メッソン",
 	},
 
 	retreat: 1,

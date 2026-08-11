@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フラベベ",
+		'ja-jp': "フラベベ",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "気に入った 花を 見つけると 一生 その花と 暮らす。 風に 乗って 気ままに 漂う。",
+		'ja-jp': "気に入った 花を 見つけると 一生 その花と 暮らす。 風に 乗って 気ままに 漂う。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ぬけがけしんか" },
 			effect: {
-				ja: "このポケモンは、後攻プレイヤーの最初の番なら、出したばかりでも進化できる。",
+				'ja-jp': "このポケモンは、後攻プレイヤーの最初の番なら、出したばかりでも進化できる。",
 			},
 		},
 	],

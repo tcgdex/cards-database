@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Cyndaquil",
-		fr: "Héricendre",
-		de: "Feurigel"
+		'en-us': "Cyndaquil",
+		'fr-fr': "Héricendre",
+		'de-de': "Feurigel"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fireworks",
-				fr: "Feu d'artifice",
-				de: "Feuerwerk"
+				'en-us': "Fireworks",
+				'fr-fr': "Feu d'artifice",
+				'de-de': "Feuerwerk"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard 1 Energy card attached to Cyndaquil.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez 1 carte Énergie attachée à Héricendre.",
-				de: "Wirf eine Münze. Lege bei 'Zahl' eine an Feurigel angelgte Energiekarte an deinen Ablagestapel."
+				'en-us': "Flip a coin. If tails, discard 1 Energy card attached to Cyndaquil.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez 1 carte Énergie attachée à Héricendre.",
+				'de-de': "Wirf eine Münze. Lege bei 'Zahl' eine an Feurigel angelgte Energiekarte an deinen Ablagestapel."
 			},
 			damage: 20,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-attaque",
-				de: "Ruckzuckhieb"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-attaque",
+				'de-de': "Ruckzuckhieb"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 10 points dégâts.",
-				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu; bei 'Zahl' fügt dieser Angriff 10 Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 10 points dégâts.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu; bei 'Zahl' fügt dieser Angriff 10 Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -73,8 +73,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It is timid and always curls itself up in a ball. If attacked, it flares up its back for protection.",
-		fr: "Il est timide et se roule toujours en boule. Quand on l'attaque, il enflamme son dos pour se protéger."
+		'en-us': "It is timid and always curls itself up in a ball. If attacked, it flares up its back for protection.",
+		'fr-fr': "Il est timide et se roule toujours en boule. Quand on l'attaque, il enflamme son dos pour se protéger."
 	},
 
 

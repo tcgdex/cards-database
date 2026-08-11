@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Glameow",
-		fr: "Chaglam",
-		de: "Charmian"
+		'en-us': "Glameow",
+		'fr-fr': "Chaglam",
+		'de-de': "Charmian"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Charm",
-				fr: "Charme",
-				de: "Charme"
+				'en-us': "Charm",
+				'fr-fr': "Charme",
+				'de-de': "Charme"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
-				fr: "Lors du prochain tour de votre adversaire, tous dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance).",
-				de: "Während des nächsten Zuges deines Gegners wird aller Schaden, der durch Angriffe des Verteidigenden Pokémon zugefügt wird, um 20 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
+				'fr-fr': "Lors du prochain tour de votre adversaire, tous dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "Während des nächsten Zuges deines Gegners wird aller Schaden, der durch Angriffe des Verteidigenden Pokémon zugefügt wird, um 20 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pose",
-				fr: "Pose",
-				de: "Posieren"
+				'en-us': "Pose",
+				'fr-fr': "Pose",
+				'de-de': "Posieren"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Wirf 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -72,8 +72,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It claws if displeased and purrs when affectionate. Its fickleness if very popular among some.",
-		fr: "Il griffe quand il est en colère et ronronne quand il est heureux. Certains aiment ce côté lunatique."
+		'en-us': "It claws if displeased and purrs when affectionate. Its fickleness if very popular among some.",
+		'fr-fr': "Il griffe quand il est en colère et ronronne quand il est heureux. Certains aiment ce côté lunatique."
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Metang",
-		fr: "Métang",
-		es: "Metang",
-		de: "Metang",
-		it: "Metang",
-		pt: "Metang",
+		'en-us': "Metang",
+		'fr-fr': "Métang",
+		'es-es': "Metang",
+		'de-de': "Metang",
+		'it-it': "Metang",
+		'pt-br': "Metang",
 		'es-mx': "Metang"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Beldum",
-		fr: "Terhal",
-		es: "Beldum",
-		de: "Tanhel",
-		it: "Beldum",
-		pt: "Beldum",
+		'en-us': "Beldum",
+		'fr-fr': "Terhal",
+		'es-es': "Beldum",
+		'de-de': "Tanhel",
+		'it-it': "Beldum",
+		'pt-br': "Beldum",
 		'es-mx': "Beldum"
 	},
 	stage: "Stage1",
@@ -34,12 +34,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Psypunch",
-			fr: "Coup de Poing Psy",
-			es: "Psicopuño",
-			de: "Psyhieb",
-			it: "Psicopugno",
-			pt: "Soco Psíquico",
+			'en-us': "Psypunch",
+			'fr-fr': "Coup de Poing Psy",
+			'es-es': "Psicopuño",
+			'de-de': "Psyhieb",
+			'it-it': "Psicopugno",
+			'pt-br': "Soco Psíquico",
 			'es-mx': "Psicopuño"
 		},
 
@@ -48,12 +48,12 @@ const card: Card = {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			en: "Zen Headbutt",
-			fr: "Psykoud'Boul",
-			es: "Cabezazo Zen",
-			de: "Zen-Kopfstoß",
-			it: "Cozzata Zen",
-			pt: "Cabeçada Zen",
+			'en-us': "Zen Headbutt",
+			'fr-fr': "Psykoud'Boul",
+			'es-es': "Cabezazo Zen",
+			'de-de': "Zen-Kopfstoß",
+			'it-it': "Cozzata Zen",
+			'pt-br': "Cabeçada Zen",
 			'es-mx': "Cabezazo Zen"
 		},
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [716],
 
 	name: {
-		en: "Xerneas"
+		'en-us': "Xerneas"
 	},
 
 	illustrator: "sui",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "When the horns on its head shine\nin seven colors, it is said to be\nsharing everlasting life."
+		'en-us': "When the horns on its head shine\nin seven colors, it is said to be\nsharing everlasting life."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Geoburst"
+			'en-us': "Geoburst"
 		},
 
 		damage: 120,
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		effect: {
-			en: "This attack's damage is reduced by the amount of damage this Pokémon has on it."
+			'en-us': "This attack's damage is reduced by the amount of damage this Pokémon has on it."
 		}
 	}],
 

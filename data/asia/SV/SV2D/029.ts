@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "スナバァ",
+		'ja-jp': "スナバァ",
 		'zh-tw': "沙丘娃",
-		th: "ซึนาบา",
-		id: "Sandygast"
+		'th-th': "ซึนาบา",
+		'id-id': "Sandygast"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "スコップを なくすと 木の枝などを 代わりに 挿し 新たな スコップが 見つかるまで 気を 紛らわす。",
+		'ja-jp': "スコップを なくすと 木の枝などを 代わりに 挿し 新たな スコップが 見つかるまで 気を 紛らわす。",
 		'zh-tw': "萬一鏟子弄丟了，就會用樹枝等東西插著代替，好讓牠在 找到新鏟子前能分散注意力。",
-		th: "หากทำพลั่วหาย จะปลอบใจตัวเองโดยหาสิ่งอื่น เช่น กิ่งไม้ มาปักแทนจนกว่าจะหาพลั่วใหม่ได้",
-		id: "Jika Sandygast menghilangkan sekopnya, ia menancapkan ranting pohon atau benda lainnya sebagai pengganti hingga menemukan sekop yang baru."
+		'th-th': "หากทำพลั่วหาย จะปลอบใจตัวเองโดยหาสิ่งอื่น เช่น กิ่งไม้ มาปักแทนจนกว่าจะหาพลั่วใหม่ได้",
+		'id-id': "Jika Sandygast menghilangkan sekopnya, ia menancapkan ranting pohon atau benda lainnya sebagai pengganti hingga menemukan sekop yang baru."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "つぶやく",
+			'ja-jp': "つぶやく",
 			'zh-tw': "囈語",
-			th: "งึมงำ",
-			id: "Bergumam"
+			'th-th': "งึมงำ",
+			'id-id': "Bergumam"
 		},
 
 		damage: 20
@@ -42,10 +42,10 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			ja: "マッドショット",
+			'ja-jp': "マッドショット",
 			'zh-tw': "泥巴射擊",
-			th: "มัดช็อต",
-			id: "Mud Shot"
+			'th-th': "มัดช็อต",
+			'id-id': "Mud Shot"
 		},
 
 		damage: 40

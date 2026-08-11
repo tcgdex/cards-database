@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ノズパス",
+		'ja-jp': "ノズパス",
 		'zh-tw': "朝北鼻",
 		'zh-cn': "朝北鼻",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ノズパスの 鼻の 磁石は 絶対に 狂わないので 旅する トレーナーの 良き パートナーだ。",
+		'ja-jp': "ノズパスの 鼻の 磁石は 絶対に 狂わないので 旅する トレーナーの 良き パートナーだ。",
 		'zh-tw': "朝北鼻鼻子上的磁鐵 絕對不會失靈，所以是 訓練家旅行時的良伴。",
 		'zh-cn': "朝北鼻鼻子上的磁鐵 絕對不會失靈，所以是 訓練家旅行時的良伴。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ずつき",
+				'ja-jp': "ずつき",
 				'zh-tw': "頭錘",
 				'zh-cn': "頭錘",
 			},
@@ -34,7 +34,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "いわおとし",
+				'ja-jp': "いわおとし",
 				'zh-tw': "落石",
 				'zh-cn': "落石",
 			},

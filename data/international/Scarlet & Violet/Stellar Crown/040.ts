@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Frogadier",
-		fr: "Croâporal",
-		es: "Frogadier",
-		it: "Frogadier",
-		pt: "Frogadier",
-		de: "Amphizel"
+		'en-us': "Frogadier",
+		'fr-fr': "Croâporal",
+		'es-es': "Frogadier",
+		'it-it': "Frogadier",
+		'pt-br': "Frogadier",
+		'de-de': "Amphizel"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Froakie",
-		fr: "Grenousse",
-		es: "Froakie",
-		it: "Froakie",
-		pt: "Froakie",
-		de: "Froxy"
+		'en-us': "Froakie",
+		'fr-fr': "Grenousse",
+		'es-es': "Froakie",
+		'it-it': "Froakie",
+		'pt-br': "Froakie",
+		'de-de': "Froxy"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Wave Splash",
-			fr: "Grosse Vague",
-			es: "Chapoteo Ondulante",
-			it: "Schizzi d'Onda",
-			pt: "Onda Borrifante",
-			de: "Wellenplatscher"
+			'en-us': "Wave Splash",
+			'fr-fr': "Grosse Vague",
+			'es-es': "Chapoteo Ondulante",
+			'it-it': "Schizzi d'Onda",
+			'pt-br': "Onda Borrifante",
+			'de-de': "Wellenplatscher"
 		},
 
 		damage: 40

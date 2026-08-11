@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Yanma",
-		fr: "Yanma",
-		es: "Yanma",
-		it: "Yanma",
-		pt: "Yanma",
-		de: "Yanma"
+		'en-us': "Yanma",
+		'fr-fr': "Yanma",
+		'es-es': "Yanma",
+		'it-it': "Yanma",
+		'pt-br': "Yanma",
+		'de-de': "Yanma"
 	},
 
 	illustrator: "match",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scout",
-				fr: "Espionnage",
-				es: "Explorar",
-				it: "Esplorazione",
-				pt: "Explorador",
-				de: "Späher"
+				'en-us': "Scout",
+				'fr-fr': "Espionnage",
+				'es-es': "Explorar",
+				'it-it': "Esplorazione",
+				'pt-br': "Explorador",
+				'de-de': "Späher"
 			},
 			effect: {
-				en: "Your opponent reveals his or her hand.",
-				fr: "Votre adversaire montre sa main.",
-				es: "Tu rival enseña las cartas de su mano.",
-				it: "Il tuo avversario mostra le carte che ha in mano.",
-				pt: "Seu oponente revela a própria mão.",
-				de: "Dein Gegner deckt seine Handkarten auf."
+				'en-us': "Your opponent reveals his or her hand.",
+				'fr-fr': "Votre adversaire montre sa main.",
+				'es-es': "Tu rival enseña las cartas de su mano.",
+				'it-it': "Il tuo avversario mostra le carte che ha in mano.",
+				'pt-br': "Seu oponente revela a própria mão.",
+				'de-de': "Dein Gegner deckt seine Handkarten auf."
 			},
 
 		},
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Speed Dive",
-				fr: "Plongée Rapide",
-				es: "Picado Rápido",
-				it: "Immersione Rapida",
-				pt: "Mergulho Veloz",
-				de: "Tempohechtsprung"
+				'en-us': "Speed Dive",
+				'fr-fr': "Plongée Rapide",
+				'es-es': "Picado Rápido",
+				'it-it': "Immersione Rapida",
+				'pt-br': "Mergulho Veloz",
+				'de-de': "Tempohechtsprung"
 			},
 
 			damage: 40,
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.",
+		'en-us': "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.",
 	},
 
 	thirdParty: {

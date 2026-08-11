@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Super Scoop Up",
-		fr: "Super rappel",
-		de: "Super-Anziehungskraft"
+		'en-us': "Super Scoop Up",
+		'fr-fr': "Super rappel",
+		'de-de': "Super-Anziehungskraft"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Flip a coin. If heads, return 1 of your Pokémon and all cards attached to it to your hand.",
-		fr: "Lancez une pièce. Si c'est face, reprenez 1 de vos Pokémon et toutes les cartes qui lui sont attachées dans votre main.",
-		de: "Flip a coin. If heads, return 1 of your Pokémon and all cards attached to it to your hand."
+		'en-us': "Flip a coin. If heads, return 1 of your Pokémon and all cards attached to it to your hand.",
+		'fr-fr': "Lancez une pièce. Si c'est face, reprenez 1 de vos Pokémon et toutes les cartes qui lui sont attachées dans votre main.",
+		'de-de': "Flip a coin. If heads, return 1 of your Pokémon and all cards attached to it to your hand."
 	},
 
 

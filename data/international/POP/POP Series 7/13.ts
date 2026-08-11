@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 7'
 
 const card: Card = {
 	name: {
-		en: "Corsola",
-		fr: "Corsola"
+		'en-us': "Corsola",
+		'fr-fr': "Corsola"
 	},
 
 	illustrator: "Midori Harada",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rally",
-				fr: "Regroupement"
+				'en-us': "Rally",
+				'fr-fr': "Regroupement"
 			},
 			effect: {
-				en: "Search your deck for up to 3 different types of Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck jusqu'à 3 types de Pokémon de base différents et placez-les sur votre Banc. Ensuite, mélangez votre deck."
+				'en-us': "Search your deck for up to 3 different types of Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck jusqu'à 3 types de Pokémon de base différents et placez-les sur votre Banc. Ensuite, mélangez votre deck."
 			},
 
 		},
@@ -43,8 +43,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hook",
-				fr: "Crochet"
+				'en-us': "Hook",
+				'fr-fr': "Crochet"
 			},
 
 			damage: 30,
@@ -59,7 +59,7 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "Many live in the clean seas of the south. They apparently can’t live in polluted waters."
+		'en-us': "Many live in the clean seas of the south. They apparently can’t live in polluted waters."
 	},
 
 	retreat: 1,

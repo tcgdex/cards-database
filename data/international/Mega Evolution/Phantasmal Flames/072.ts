@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bronzong",
-		fr: "Archéodong",
-		es: "Bronzong",
+		'en-us': "Bronzong",
+		'fr-fr': "Archéodong",
+		'es-es': "Bronzong",
 		'es-mx': "Bronzong",
-		de: "Bronzong",
-		it: "Bronzong",
-		pt: "Bronzong"
+		'de-de': "Bronzong",
+		'it-it': "Bronzong",
+		'pt-br': "Bronzong"
 	},
 
 	evolveFrom: {
-		en: "Bronzor",
-		fr: "Archéomire",
-		es: "Bronzor",
+		'en-us': "Bronzor",
+		'fr-fr': "Archéomire",
+		'es-es': "Bronzor",
 		'es-mx': "Bronzor",
-		de: "Bronzel",
-		it: "Bronzor",
-		pt: "Bronzor",
+		'de-de': "Bronzel",
+		'it-it': "Bronzor",
+		'pt-br': "Bronzor",
 	},
 
 	rarity: "Uncommon",
@@ -36,45 +36,45 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Triple Draw",
-			fr: "Triple Pioche",
-			es: "Triple Robo",
+			'en-us': "Triple Draw",
+			'fr-fr': "Triple Pioche",
+			'es-es': "Triple Robo",
 			'es-mx': "Triple Robo",
-			de: "Dreifachzug",
-			it: "Pescata Tripla",
-			pt: "Compra Tripla"
+			'de-de': "Dreifachzug",
+			'it-it': "Pescata Tripla",
+			'pt-br': "Compra Tripla"
 		},
 
 		effect: {
-			en: "Draw 3 cards.",
-			fr: "Piochez 3 cartes.",
-			es: "Roba 3 cartas.",
+			'en-us': "Draw 3 cards.",
+			'fr-fr': "Piochez 3 cartes.",
+			'es-es': "Roba 3 cartas.",
 			'es-mx': "Roba 3 cartas.",
-			de: "Ziehe 3 Karten.",
-			it: "Pesca tre carte.",
-			pt: "Compre 3 cartas."
+			'de-de': "Ziehe 3 Karten.",
+			'it-it': "Pesca tre carte.",
+			'pt-br': "Compre 3 cartas."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Tool Drop",
-			fr: "Chute d'Outils",
-			es: "Machaque Herramientas",
+			'en-us': "Tool Drop",
+			'fr-fr': "Chute d'Outils",
+			'es-es': "Machaque Herramientas",
 			'es-mx': "Herramientazo",
-			de: "Ausrüstungssturz",
-			it: "Oggettamico",
-			pt: "Queda de Ferramenta"
+			'de-de': "Ausrüstungssturz",
+			'it-it': "Oggettamico",
+			'pt-br': "Queda de Ferramenta"
 		},
 
 		effect: {
-			en: "This attack does 40 damage for each Pokémon Tool attached to all Pokémon.",
-			fr: "Cette attaque inflige 40 dégâts pour chaque Outil Pokémon attaché à tous les Pokémon.",
-			es: "Este ataque hace 40 puntos de daño por cada Herramienta Pokémon unida a cada Pokémon.",
+			'en-us': "This attack does 40 damage for each Pokémon Tool attached to all Pokémon.",
+			'fr-fr': "Cette attaque inflige 40 dégâts pour chaque Outil Pokémon attaché à tous les Pokémon.",
+			'es-es': "Este ataque hace 40 puntos de daño por cada Herramienta Pokémon unida a cada Pokémon.",
 			'es-mx': "Este ataque hace 40 puntos de daño por cada Herramienta Pokémon unida a cada Pokémon.",
-			de: "Diese Attacke fügt für jede an alle Pokémon angelegte Pokémon-Ausrüstung 40 Schadenspunkte zu.",
-			it: "Questo attacco infligge 40 danni per ogni carta Oggetto Pokémon assegnata a tutti i Pokémon.",
-			pt: "Este ataque causa 40 pontos de dano para cada Ferramenta Pokémon ligada a todos os Pokémon."
+			'de-de': "Diese Attacke fügt für jede an alle Pokémon angelegte Pokémon-Ausrüstung 40 Schadenspunkte zu.",
+			'it-it': "Questo attacco infligge 40 danni per ogni carta Oggetto Pokémon assegnata a tutti i Pokémon.",
+			'pt-br': "Este ataque causa 40 pontos de dano para cada Ferramenta Pokémon ligada a todos os Pokémon."
 		},
 
 		damage: "40×"
@@ -96,7 +96,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "In ages past, this Pokémon was revered as a bringer of rain. It was found buried in the ground.",
+		'en-us': "In ages past, this Pokémon was revered as a bringer of rain. It was found buried in the ground.",
 	},
 
 	illustrator: "Masako Tomii",

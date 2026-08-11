@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レジスチル",
+		'ja-jp': "レジスチル",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "何万年も 地下の 圧力で 鍛えられた 金属の ボディは 傷ひとつ つかない。",
+		'ja-jp': "何万年も 地下の 圧力で 鍛えられた 金属の ボディは 傷ひとつ つかない。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Metal"],
 			effect: {
-				ja: "自分のトラッシュにある基本エネルギーを1枚、ベンチポケモンにつける。",
+				'ja-jp': "自分のトラッシュにある基本エネルギーを1枚、ベンチポケモンにつける。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "自分のベンチに「レジアイス」がいるなら、このポケモンのHPを「30」回復する。",
+				'ja-jp': "自分のベンチに「レジアイス」がいるなら、このポケモンのHPを「30」回復する。",
 			},
 		},
 	],

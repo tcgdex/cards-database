@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガオーダイルex",
+		'ja-jp': "メガオーダイルex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "200+",
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンにダメカンがのっているなら、200ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンにダメカンがのっているなら、200ダメージ追加。",
 			},
 		},
 	],
@@ -38,7 +38,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アリゲイツ",
+		'ja-jp': "アリゲイツ",
 	},
 
 	retreat: 3,

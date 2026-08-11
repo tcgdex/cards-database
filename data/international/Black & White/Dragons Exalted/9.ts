@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Cascoon",
-		fr: "Blindalys",
-		es: "Cascoon",
-		it: "Cascoon",
-		pt: "Cascoon",
-		de: "Panekon"
+		'en-us': "Cascoon",
+		'fr-fr': "Blindalys",
+		'es-es': "Cascoon",
+		'it-it': "Cascoon",
+		'pt-br': "Cascoon",
+		'de-de': "Panekon"
 	},
 
 	illustrator: "match",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wurmple",
-		fr: "Chenipotte",
+		'en-us': "Wurmple",
+		'fr-fr': "Chenipotte",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tangle Drag",
-				fr: "Lasso Piège",
+				'en-us': "Tangle Drag",
+				'fr-fr': "Lasso Piège",
 			},
 			effect: {
-				en: "Switch 1 of your opponent's Benched Pokémon with the Defending Pokémon.",
-				fr: "Échangez 1 des Pokémon de Banc de votre adversaire avec le Pokémon Défenseur.",
+				'en-us': "Switch 1 of your opponent's Benched Pokémon with the Defending Pokémon.",
+				'fr-fr': "Échangez 1 des Pokémon de Banc de votre adversaire avec le Pokémon Défenseur.",
 			},
 
 		},
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spiral Drain",
-				fr: "Spirale Épuisante",
+				'en-us': "Spiral Drain",
+				'fr-fr': "Spirale Épuisante",
 			},
 			effect: {
-				en: "Heal 20 damage from this Pokémon.",
-				fr: "Soignez 20 dégâts à ce Pokémon.",
+				'en-us': "Heal 20 damage from this Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à ce Pokémon.",
 			},
 			damage: 20,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It never forgets any attack it endured while in the cocoon. After evolution, it seeks payback.",
+		'en-us': "It never forgets any attack it endured while in the cocoon. After evolution, it seeks payback.",
 	},
 
 	thirdParty: {

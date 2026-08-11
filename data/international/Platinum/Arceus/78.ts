@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Treecko",
-		de: "Geckarbor"
+		'en-us': "Treecko",
+		'de-de': "Geckarbor"
 	},
 
 	illustrator: "TOKIYA",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Crush",
-				de: "Zerquetschender Schweif"
+				'en-us': "Tail Crush",
+				'de-de': "Zerquetschender Schweif"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The soles of its feet are covered by countless tiny spikes, enabling it to walk on walls and ceilings."
+		'en-us': "The soles of its feet are covered by countless tiny spikes, enabling it to walk on walls and ceilings."
 	},
 
 	variants: [

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pitch Black"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shuppet",
-		fr: "Polichombr",
-		es: "Shuppet",
+		'en-us': "Shuppet",
+		'fr-fr': "Polichombr",
+		'es-es': "Shuppet",
 		'es-mx': "Shuppet",
-		de: "Shuppet",
-		it: "Shuppet",
-		pt: "Shuppet"
+		'de-de': "Shuppet",
+		'it-it': "Shuppet",
+		'pt-br': "Shuppet"
 	},
 
 	illustrator: "Bun Toujo",
@@ -26,35 +26,35 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Hide 'n' Sneak",
-			fr: "Cachette en Douce",
-			es: "Escondite a Hurtadillas",
+			'en-us': "Hide 'n' Sneak",
+			'fr-fr': "Cachette en Douce",
+			'es-es': "Escondite a Hurtadillas",
 			'es-mx': "Escondidas Furtivas",
-			de: "Listiges Versteckspiel",
-			it: "Nascondino Furbino",
-			pt: "Esconde-some"
+			'de-de': "Listiges Versteckspiel",
+			'it-it': "Nascondino Furbino",
+			'pt-br': "Esconde-some"
 		},
 
 		effect: {
-			en: "Prevent all effects of your opponent's Pokémon's attacks and Abilities done to this Pokémon. (Damage is not an effect.)",
-			fr: "Évitez tous les effets des attaques et des talents des Pokémon de votre adversaire infligés à ce Pokémon. (Les dégâts ne sont pas un effet.)",
-			es: "Se evitan todos los efectos de los ataques y las habilidades de los Pokémon de tu rival infligidos a este Pokémon. (El daño no es un efecto).",
+			'en-us': "Prevent all effects of your opponent's Pokémon's attacks and Abilities done to this Pokémon. (Damage is not an effect.)",
+			'fr-fr': "Évitez tous les effets des attaques et des talents des Pokémon de votre adversaire infligés à ce Pokémon. (Les dégâts ne sont pas un effet.)",
+			'es-es': "Se evitan todos los efectos de los ataques y las habilidades de los Pokémon de tu rival infligidos a este Pokémon. (El daño no es un efecto).",
 			'es-mx': "Se evitan todos los efectos de los ataques y las Habilidades de los Pokémon de tu rival infligidos a este Pokémon. (El daño no es un efecto).",
-			de: "Verhindere alle Effekte von Attacken und Fähigkeiten der Pokémon deines Gegners, die diesem Pokémon zugefügt werden. (Schaden ist kein Effekt.)",
-			it: "Previeni tutti gli effetti degli attacchi e delle abilità dei Pokémon del tuo avversario inflitti a questo Pokémon. I danni non sono un effetto.",
-			pt: "Previna todos os efeitos de ataques e Habilidades dos Pokémon do seu oponente causados a este Pokémon. (Dano não é um efeito.)"
+			'de-de': "Verhindere alle Effekte von Attacken und Fähigkeiten der Pokémon deines Gegners, die diesem Pokémon zugefügt werden. (Schaden ist kein Effekt.)",
+			'it-it': "Previeni tutti gli effetti degli attacchi e delle abilità dei Pokémon del tuo avversario inflitti a questo Pokémon. I danni non sono un effetto.",
+			'pt-br': "Previna todos os efeitos de ataques e Habilidades dos Pokémon do seu oponente causados a este Pokémon. (Dano não é um efeito.)"
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Hang Down",
-			fr: "Suspension",
-			es: "Prender",
+			'en-us': "Hang Down",
+			'fr-fr': "Suspension",
+			'es-es': "Prender",
 			'es-mx': "Colgadera",
-			de: "Herunterhängen",
-			it: "Tirar Giù",
-			pt: "Dependurar"
+			'de-de': "Herunterhängen",
+			'it-it': "Tirar Giù",
+			'pt-br': "Dependurar"
 		},
 
 		cost: ["Psychic"],

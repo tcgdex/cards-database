@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Slugma",
-		fr: "Limagma",
-		de: "Schneckmag"
+		'en-us': "Slugma",
+		'fr-fr': "Limagma",
+		'de-de': "Schneckmag"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,9 +32,9 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Combustion",
-				fr: "Fournaise",
-				de: "Combustion"
+				'en-us': "Combustion",
+				'fr-fr': "Fournaise",
+				'de-de': "Combustion"
 			},
 
 			damage: 30,
@@ -52,8 +52,8 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon is often seen crawling around in volcanic regions.",
-		fr: "On voit souvent ce Pokémon ramper dans les régions volcaniques."
+		'en-us': "This Pokémon is often seen crawling around in volcanic regions.",
+		'fr-fr': "On voit souvent ce Pokémon ramper dans les régions volcaniques."
 	},
 
 

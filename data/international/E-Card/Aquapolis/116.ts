@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Vulpix",
-		fr: "Goupix",
-		de: "Vulpix"
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix",
+		'de-de': "Vulpix"
 	},
 
 	illustrator: "Keiko Fukuyama",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Collect Fire",
-				fr: "Quête du feu",
-				de: "Feuersammeln"
+				'en-us': "Collect Fire",
+				'fr-fr': "Quête du feu",
+				'de-de': "Feuersammeln"
 			},
 			effect: {
-				en: "If there are any Fire Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Vulpix.",
-				fr: "Si vous avez des cartes Énergie  dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Goupix.",
-				de: "Wenn mindestens eine -Energiekarte in deinem Ablagestapel ist, wirf eine Münze. Lege bei \"Kopf\" 1 davon an Vulpix an."
+				'en-us': "If there are any Fire Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Vulpix.",
+				'fr-fr': "Si vous avez des cartes Énergie  dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Goupix.",
+				'de-de': "Wenn mindestens eine -Energiekarte in deinem Ablagestapel ist, wirf eine Münze. Lege bei \"Kopf\" 1 davon an Vulpix an."
 			},
 			damage: 10,
 

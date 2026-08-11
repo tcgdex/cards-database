@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エーフィ",
+		'ja-jp': "エーフィ",
 	},
 
 	illustrator: "Ryota Murayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "額の 玉から サイコパワーを 放射して 戦う。 パワーが 尽きると 玉の 色が くすむ。",
+		'ja-jp': "額の 玉から サイコパワーを 放射して 戦う。 パワーが 尽きると 玉の 色が くすむ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ひきつける" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を3枚引く。",
+				'ja-jp': "自分の山札を3枚引く。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手の場のポケモンについているエネルギーの数x20ダメージ追加。",
+				'ja-jp': "相手の場のポケモンについているエネルギーの数x20ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 1,

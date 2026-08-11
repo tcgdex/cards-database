@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レディバ",
+		'ja-jp': "レディバ",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "涙目",
+				'ja-jp': "涙目",
 			},
 			effect: {
-				ja: "対戦相手の次のターン中に、攻撃によるLedybaに与えられた損害は20倍に減少します。",
+				'ja-jp': "対戦相手の次のターン中に、攻撃によるLedybaに与えられた損害は20倍に減少します。",
 			},
 		},
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "クイックターン",
+				'ja-jp': "クイックターン",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 		},
 	],

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ralts",
-		fr: "Tarsal",
-		es: "Ralts",
-		it: "Ralts",
-		pt: "Ralts",
-		de: "Trasla"
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal",
+		'es-es': "Ralts",
+		'it-it': "Ralts",
+		'pt-br': "Ralts",
+		'de-de': "Trasla"
 	},
 
 	illustrator: "Narumi Sato",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Confuse Ray",
-			fr: "Onde Folie",
-			es: "Rayo Confuso",
-			it: "Stordiraggio",
-			pt: "Raio da Confusão",
-			de: "Konfusstrahl"
+			'en-us': "Confuse Ray",
+			'fr-fr': "Onde Folie",
+			'es-es': "Rayo Confuso",
+			'it-it': "Stordiraggio",
+			'pt-br': "Raio da Confusão",
+			'de-de': "Konfusstrahl"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
 		cost: ["Psychic"]
@@ -54,7 +54,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly."
+		'en-us': "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly."
 	},
 
 	variants: [

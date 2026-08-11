@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Efflèche",
-		en: "Dartrix",
-		es: "Dartrix",
-		it: "Dartrix",
-		pt: "Dartrix",
-		de: "Arboretoss"
+		'fr-fr': "Efflèche",
+		'en-us': "Dartrix",
+		'es-es': "Dartrix",
+		'it-it': "Dartrix",
+		'pt-br': "Dartrix",
+		'de-de': "Arboretoss"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -21,18 +21,18 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		fr: "Brindibou",
-		en: "Rowlet"
+		'fr-fr': "Brindibou",
+		'en-us': "Rowlet"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Tranch'Herbe",
-			en: "Razor Leaf",
-			es: "Hoja Afilada",
-			it: "Foglielama",
-			pt: "Folha Navalha",
-			de: "Rasierblatt"
+			'fr-fr': "Tranch'Herbe",
+			'en-us': "Razor Leaf",
+			'es-es': "Hoja Afilada",
+			'it-it': "Foglielama",
+			'pt-br': "Folha Navalha",
+			'de-de': "Rasierblatt"
 		},
 
 		damage: 40,
@@ -51,7 +51,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It throws one knifelike feather after another at its enemies, and each one precisely strikes a weak point. These feathers are known as blade quills."
+		'en-us': "It throws one knifelike feather after another at its enemies, and each one precisely strikes a weak point. These feathers are known as blade quills."
 	},
 
 	variants: [

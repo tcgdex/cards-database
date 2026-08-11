@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ペロリーム",
+		'ja-jp': "ペロリーム",
 	},
 
 	illustrator: "Yoshimoto Yoshimon",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "わずかな においでも かぎわける 敏感な 嗅覚を 活かして パティシエの 手伝いを している。",
+		'ja-jp': "わずかな においでも かぎわける 敏感な 嗅覚を 活かして パティシエの 手伝いを している。",
 	},
 
 	stage: "Stage1",
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ペロッパフ",
+		'ja-jp': "ペロッパフ",
 	},
 
 	retreat: 2,

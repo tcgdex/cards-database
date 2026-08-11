@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムシャーナ",
+		'ja-jp': "ムシャーナ",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "おでこから 出ている 煙の 中には 人や ポケモンの 見た 夢が たくさん つまっているのだ。",
+		'ja-jp': "おでこから 出ている 煙の 中には 人や ポケモンの 見た 夢が たくさん つまっているのだ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ねだめ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "おたがいのバトルポケモンを、それぞれねむりにする。次の自分の番、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+100」される。",
+				'ja-jp': "おたがいのバトルポケモンを、それぞれねむりにする。次の自分の番、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+100」される。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ムンナ",
+		'ja-jp': "ムンナ",
 	},
 
 	retreat: 2,

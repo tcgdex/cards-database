@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Pidove",
-		fr: "Poichigeon",
-		es: "Pidove",
-		it: "Pidove",
-		pt: "Pidove",
-		de: "Dusselgurr"
+		'en-us': "Pidove",
+		'fr-fr': "Poichigeon",
+		'es-es': "Pidove",
+		'it-it': "Pidove",
+		'pt-br': "Pidove",
+		'de-de': "Dusselgurr"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Glide",
-				fr: "Glissement",
-				es: "Planeo",
-				it: "Aliante",
-				pt: "Planeio",
-				de: "Gleiten"
+				'en-us': "Glide",
+				'fr-fr': "Glissement",
+				'es-es': "Planeo",
+				'it-it': "Aliante",
+				'pt-br': "Planeio",
+				'de-de': "Gleiten"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flap",
-				fr: "Battement",
-				es: "Aleteo",
-				it: "Alabattito",
-				pt: "Asa",
-				de: "Flattern"
+				'en-us': "Flap",
+				'fr-fr': "Battement",
+				'es-es': "Aleteo",
+				'it-it': "Alabattito",
+				'pt-br': "Asa",
+				'de-de': "Flattern"
 			},
 
 			damage: 20,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This very forgetful Pokémon will wait for a new order from its Trainer even though it already has one.",
+		'en-us': "This very forgetful Pokémon will wait for a new order from its Trainer even though it already has one.",
 	},
 
 	thirdParty: {

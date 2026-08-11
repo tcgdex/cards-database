@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Black & White'
 
 const dv1: Set = {
 	id: "dv1",
 
 	name: {
-		en: "Dragon Vault",
-		fr: "Coffre des Dragons",
-		it: "Tesoro dei Draghi",
-		de: "Drachengruft",
-		es: "Tesoro de Dragones", // NOTE: only went in the TCGO
-		pt: "Cofre do Dragão"
+		'en-us': "Dragon Vault",
+		'fr-fr': "Coffre des Dragons",
+		'it-it': "Tesoro dei Draghi",
+		'de-de': "Drachengruft",
+		'es-es': "Tesoro de Dragones", // NOTE: only went in the TCGO
+		'pt-br': "Cofre do Dragão"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const dv1: Set = {
 
 	abbreviations: {
 		official: "DRV",
-		fr: "CDR"
+		'fr-fr': "CDR"
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ユキカブリ",
+		'ja-jp': "ユキカブリ",
 		'zh-tw': "雪笠怪",
-		th: "ยูกิคาบูริ",
-		id: "Snover"
+		'th-th': "ยูกิคาบูริ",
+		'id-id': "Snover"
 	},
 
 	illustrator: "Taira Akitsu",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "寒い 季節は 山の ふもとまで 降りてくるが 春に なると 雪が 残る 山頂に 戻っていく。",
+		'ja-jp': "寒い 季節は 山の ふもとまで 降りてくるが 春に なると 雪が 残る 山頂に 戻っていく。",
 		'zh-tw': "在寒冷的季節裡會移動到山腳下，一到春天就會 返回積雪尚存的山頂。",
-		th: "ในฤดูหนาวจะลงมาจนถึงตีนเขา เมื่อถึงฤดูใบไม้ผลิจะกลับขึ้นไปยังยอดเขาที่ยังมีหิมะเหลืออยู่",
-		id: "Selama musim dingin, Snover turun ke kaki gunung dan kembali ke puncak yang tertutup salju di musim semi."
+		'th-th': "ในฤดูหนาวจะลงมาจนถึงตีนเขา เมื่อถึงฤดูใบไม้ผลิจะกลับขึ้นไปยังยอดเขาที่ยังมีหิมะเหลืออยู่",
+		'id-id': "Selama musim dingin, Snover turun ke kaki gunung dan kembali ke puncak yang tertutup salju di musim semi."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "どつく",
+			'ja-jp': "どつく",
 			'zh-tw': "推擊",
-			th: "ต่อยตี",
-			id: "Menohok"
+			'th-th': "ต่อยตี",
+			'id-id': "Menohok"
 		},
 
 		damage: 30

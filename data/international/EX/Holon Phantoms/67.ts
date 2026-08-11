@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Kabuto δ",
-		fr: "Kabuto δ",
-		de: "Kabuto"
+		'en-us': "Kabuto δ",
+		'fr-fr': "Kabuto δ",
+		'de-de': "Kabuto"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mysterious Fossil",
-		fr: "Mystérieux fossile"
+		'en-us': "Mysterious Fossil",
+		'fr-fr': "Mystérieux fossile"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Eerie Light",
-				fr: "Lumière étrange",
-				de: "Gespenstisches Licht"
+				'en-us': "Eerie Light",
+				'fr-fr': "Lumière étrange",
+				'de-de': "Gespenstisches Licht"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
-				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 
 		},
@@ -53,9 +53,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shell Attack",
-				fr: "Coquill-attaque",
-				de: "Muschelangriff"
+				'en-us': "Shell Attack",
+				'fr-fr': "Coquill-attaque",
+				'de-de': "Muschelangriff"
 			},
 
 			damage: 20,

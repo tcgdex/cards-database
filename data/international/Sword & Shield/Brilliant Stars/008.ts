@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Torterra",
-		fr: "Torterra",
-		es: "Torterra",
-		it: "Torterra",
-		pt: "Torterra",
-		de: "Chelterrar"
+		'en-us': "Torterra",
+		'fr-fr': "Torterra",
+		'es-es': "Torterra",
+		'it-it': "Torterra",
+		'pt-br': "Torterra",
+		'de-de': "Chelterrar"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Grotle",
-		fr: "Boskara",
-		es: "Grotle",
-		it: "Grotle",
-		pt: "Grotle",
-		de: "Chelcarain"
+		'en-us': "Grotle",
+		'fr-fr': "Boskara",
+		'es-es': "Grotle",
+		'it-it': "Grotle",
+		'pt-br': "Grotle",
+		'de-de': "Chelcarain"
 	},
 
 	stage: "Stage2",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Evopress",
-			fr: "Évopress",
-			es: "Evopresión",
-			it: "Evopressa",
-			pt: "Evocompressão",
-			de: "Evodruck"
+			'en-us': "Evopress",
+			'fr-fr': "Évopress",
+			'es-es': "Evopresión",
+			'it-it': "Evopressa",
+			'pt-br': "Evocompressão",
+			'de-de': "Evodruck"
 		},
 
 		effect: {
-			en: "This attack does 50 damage for each of your Evolution Pokémon in play.",
-			fr: "Cette attaque inflige 50 dégâts pour chacun de vos Pokémon Évolutifs en jeu.",
-			es: "Este ataque hace 50 puntos de daño por cada uno de tus Pokémon Evolución en juego.",
-			it: "Questo attacco infligge 50 danni per ogni tuo Pokémon Evoluzione in gioco.",
-			pt: "Este ataque causa 50 pontos de dano para cada um dos seus Pokémon de Evolução em jogo.",
-			de: "Diese Attacke fügt für jedes deiner Entwicklungs-Pokémon im Spiel 50 Schadenspunkte zu."
+			'en-us': "This attack does 50 damage for each of your Evolution Pokémon in play.",
+			'fr-fr': "Cette attaque inflige 50 dégâts pour chacun de vos Pokémon Évolutifs en jeu.",
+			'es-es': "Este ataque hace 50 puntos de daño por cada uno de tus Pokémon Evolución en juego.",
+			'it-it': "Questo attacco infligge 50 danni per ogni tuo Pokémon Evoluzione in gioco.",
+			'pt-br': "Este ataque causa 50 pontos de dano para cada um dos seus Pokémon de Evolução em jogo.",
+			'de-de': "Diese Attacke fügt für jedes deiner Entwicklungs-Pokémon im Spiel 50 Schadenspunkte zu."
 		},
 
 		damage: "50×"
@@ -57,12 +57,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			es: "Martillear",
-			it: "Martello",
-			pt: "Martelada",
-			de: "Einhämmern"
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'es-es': "Martillear",
+			'it-it': "Martello",
+			'pt-br': "Martelada",
+			'de-de': "Einhämmern"
 		},
 
 		damage: 160
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Small Pokémon occasionally gather on its unmoving back to begin building their nests.",
+		'en-us': "Small Pokémon occasionally gather on its unmoving back to begin building their nests.",
 	},
 
 	variants: [

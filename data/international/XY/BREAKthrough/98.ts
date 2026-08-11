@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Snubbull",
-		fr: "Snubbull",
-		es: "Snubbull",
-		it: "Snubbull",
-		pt: "Snubbull",
-		de: "Snubbull"
+		'en-us': "Snubbull",
+		'fr-fr': "Snubbull",
+		'es-es': "Snubbull",
+		'it-it': "Snubbull",
+		'pt-br': "Snubbull",
+		'de-de': "Snubbull"
 	},
 
 	illustrator: "Yuka Morii",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Roar",
-				fr: "Hurlement",
-				es: "Rugido",
-				it: "Boato",
-				pt: "Rugido",
-				de: "Brüller"
+				'en-us': "Roar",
+				'fr-fr': "Hurlement",
+				'es-es': "Rugido",
+				'it-it': "Boato",
+				'pt-br': "Rugido",
+				'de-de': "Brüller"
 			},
 			effect: {
-				en: "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc.",
-				es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
-				it: "Il tuo avversario scambia il suo Pokémon attivo con uno dei suoi Pokémon in panchina.",
-				pt: "Seu oponente troca o Pokémon Ativo por 1 dos próprios Pokémon no Banco.",
-				de: "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc.",
+				'es-es': "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
+				'it-it': "Il tuo avversario scambia il suo Pokémon attivo con uno dei suoi Pokémon in panchina.",
+				'pt-br': "Seu oponente troca o Pokémon Ativo por 1 dos próprios Pokémon no Banco.",
+				'de-de': "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 
 		},
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 40,
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Small Pokémon flee from its scary face. It is, however, considered by women to be cute.",
+		'en-us': "Small Pokémon flee from its scary face. It is, however, considered by women to be cute.",
 	},
 
 	thirdParty: {

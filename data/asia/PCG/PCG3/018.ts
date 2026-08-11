@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "猟犬",
+		'ja-jp': "猟犬",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ダークリフト",
+				'ja-jp': "ダークリフト",
 			},
 			effect: {
-				ja: "Houndourに暗闇のエネルギーが付着している場合、Houndourのリトリートコストは0です。",
+				'ja-jp': "Houndourに暗闇のエネルギーが付着している場合、Houndourのリトリートコストは0です。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Fire"],
 			name: {
-				ja: "火の猛烈な",
+				'ja-jp': "火の猛烈な",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて10ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて10ダメージを与えます。",
 			},
 		},
 	],

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scrafty",
-		fr: "Baggaïd",
-		de: "Irokex",
-		it: "Scrafty",
-		pt: "Scrafty",
-		es: "Scrafty",
+		'en-us': "Scrafty",
+		'fr-fr': "Baggaïd",
+		'de-de': "Irokex",
+		'it-it': "Scrafty",
+		'pt-br': "Scrafty",
+		'es-es': "Scrafty",
 		'es-mx': "Scrafty"
 	},
 
@@ -21,12 +21,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Scraggy",
-		fr: "Baggiguane",
-		de: "Zurrokex",
-		it: "Scraggy",
-		pt: "Scraggy",
-		es: "Scraggy",
+		'en-us': "Scraggy",
+		'fr-fr': "Baggiguane",
+		'de-de': "Zurrokex",
+		'it-it': "Scraggy",
+		'pt-br': "Scraggy",
+		'es-es': "Scraggy",
 		'es-mx': "Scraggy"
 	},
 	stage: "Stage1",
@@ -35,22 +35,22 @@ const card: Card = {
 		cost: ["Darkness", "Darkness"],
 
 		name: {
-			en: "Ruffians Attack",
-			fr: "Attaque de Brutes",
-			de: "Angriff der Grobiane",
-			it: "Canaglie all'Attacco",
-			pt: "Bando de Arruaceiros",
-			es: "Ataque de Rufianes",
+			'en-us': "Ruffians Attack",
+			'fr-fr': "Attaque de Brutes",
+			'de-de': "Angriff der Grobiane",
+			'it-it': "Canaglie all'Attacco",
+			'pt-br': "Bando de Arruaceiros",
+			'es-es': "Ataque de Rufianes",
 			'es-mx': "Ataque de Rufianes"
 		},
 
 		effect: {
-			en: "Flip a coin for each {D} Pokémon you have in play. This attack does 60 damage for each heads.",
-			fr: "Lancez une pièce pour chacun de vos Pokémon {D} en jeu. Cette attaque inflige 60 dégâts pour chaque côté face.",
-			de: "Wirf 1 Münze für jedes {D}-Pokémon, das du im Spiel hast. Diese Attacke fügt 60 Schadenspunkte pro Kopf zu.",
-			it: "Lancia una moneta per ogni Pokémon {D} che hai in gioco. Questo attacco infligge 60 danni ogni volta che esce testa.",
-			pt: "Jogue uma moeda para cada Pokémon {D} que você tem em jogo. Este ataque causa 60 pontos de dano para cada cara.",
-			es: "Lanza 1 moneda por cada Pokémon {D} que tengas en juego. Este ataque hace 60 puntos de daño por cada cara.",
+			'en-us': "Flip a coin for each {D} Pokémon you have in play. This attack does 60 damage for each heads.",
+			'fr-fr': "Lancez une pièce pour chacun de vos Pokémon {D} en jeu. Cette attaque inflige 60 dégâts pour chaque côté face.",
+			'de-de': "Wirf 1 Münze für jedes {D}-Pokémon, das du im Spiel hast. Diese Attacke fügt 60 Schadenspunkte pro Kopf zu.",
+			'it-it': "Lancia una moneta per ogni Pokémon {D} che hai in gioco. Questo attacco infligge 60 danni ogni volta che esce testa.",
+			'pt-br': "Jogue uma moeda para cada Pokémon {D} que você tem em jogo. Este ataque causa 60 pontos de dano para cada cara.",
+			'es-es': "Lanza 1 moneda por cada Pokémon {D} que tengas en juego. Este ataque hace 60 puntos de daño por cada cara.",
 			'es-mx': "Lanza 1 moneda por cada Pokémon {D} que tengas en juego. Este ataque hace 60 puntos de daño por cada cara."
 		},
 

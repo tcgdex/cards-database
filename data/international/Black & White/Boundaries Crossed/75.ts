@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Gothita",
-		fr: "Scrutella",
-		es: "Gothita",
-		it: "Gothita",
-		pt: "Gothita",
-		de: "Mollimorba"
+		'en-us': "Gothita",
+		'fr-fr': "Scrutella",
+		'es-es': "Gothita",
+		'it-it': "Gothita",
+		'pt-br': "Gothita",
+		'de-de': "Mollimorba"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'Face",
+				'en-us': "Pound",
+				'fr-fr': "Écras'Face",
 			},
 
 			damage: 10,
@@ -47,8 +47,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psypunch",
-				fr: "Coup de Poing Psy",
+				'en-us': "Psypunch",
+				'fr-fr': "Coup de Poing Psy",
 			},
 
 			damage: 20,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Their ribbonlike feelers increase their psychic power. They are always staring at something.",
+		'en-us': "Their ribbonlike feelers increase their psychic power. They are always staring at something.",
 	},
 
 	thirdParty: {

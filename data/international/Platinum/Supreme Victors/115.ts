@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Mime Jr.",
-		fr: "Mime Junior",
-		de: "Pantimimi"
+		'en-us': "Mime Jr.",
+		'fr-fr': "Mime Junior",
+		'de-de': "Pantimimi"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Baby Evolution",
-				fr: "Évolution bébé",
-				de: "Baby Evolution"
+				'en-us': "Baby Evolution",
+				'fr-fr': "Évolution bébé",
+				'de-de': "Baby Evolution"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may put Mr. Mime from your hand onto Mime Jr. (this counts as evolving Mime Jr.) and remove all damage counters from Mime Jr.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer M. Mime de votre main sur Mime Junior (vous le faites ainsi évoluer) et retirer à Mime Junior tous ses marqueurs de dégât.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du Pantimos von deiner Hand auf Pantimimi legen (das zählt als Entwickeln von Pantimimi). Entferne alle Schadensmarken von Pantimimi."
+				'en-us': "Once during your turn (before your attack), you may put Mr. Mime from your hand onto Mime Jr. (this counts as evolving Mime Jr.) and remove all damage counters from Mime Jr.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer M. Mime de votre main sur Mime Junior (vous le faites ainsi évoluer) et retirer à Mime Junior tous ses marqueurs de dégât.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du Pantimos von deiner Hand auf Pantimimi legen (das zählt als Entwickeln von Pantimimi). Entferne alle Schadensmarken von Pantimimi."
 			}
 		},
 	],
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Encore",
-				fr: "Encore",
-				de: "Zugabe"
+				'en-us': "Encore",
+				'fr-fr': "Encore",
+				'de-de': "Zugabe"
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can use only that attack during your opponent's next turn.",
-				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut utiliser que cette attaque lors du prochain tour de votre adversaire.",
-				de: "Wähle 1 Angriff des Verteidigenden Pokémon. Dieses Pokémon kann in der nächsten Runde nur den gewählten Angriff einsetzen."
+				'en-us': "Choose 1 of the Defending Pokémon's attacks. That Pokémon can use only that attack during your opponent's next turn.",
+				'fr-fr': "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut utiliser que cette attaque lors du prochain tour de votre adversaire.",
+				'de-de': "Wähle 1 Angriff des Verteidigenden Pokémon. Dieses Pokémon kann in der nächsten Runde nur den gewählten Angriff einsetzen."
 			},
 
 		},
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It mimics the expressions and motions of those it sees to understand the feelings of others."
+		'en-us': "It mimics the expressions and motions of those it sees to understand the feelings of others."
 	},
 
 	variants: [

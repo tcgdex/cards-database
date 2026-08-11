@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Muk",
+		'ja-jp': "Muk",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "悪臭",
+				'ja-jp': "悪臭",
 			},
 			effect: {
-				ja: "MUKがあなたのアクティブなポカモンである限り、各プレイヤーのPokã©MonはPokã©Powersを使用できません。",
+				'ja-jp': "MUKがあなたのアクティブなポカモンである限り、各プレイヤーのPokã©MonはPokã©Powersを使用できません。",
 			},
 		}],
 
@@ -29,17 +29,17 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "毒リング",
+				'ja-jp': "毒リング",
 			},
 			effect: {
-				ja: "防御ポケモンは現在中毒になっています。防御するポケモンは、相手の次のターン中に退却することはできません。",
+				'ja-jp': "防御ポケモンは現在中毒になっています。防御するポケモンは、相手の次のターン中に退却することはできません。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Grass", "Colorless", "Colorless"],
 			name: {
-				ja: "スラッジトス",
+				'ja-jp': "スラッジトス",
 			},
 			damage: 50,
 		},

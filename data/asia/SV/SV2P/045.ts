@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヤミカラス",
+		'ja-jp': "ヤミカラス",
 		'zh-tw': "黑暗鴉",
-		th: "ยามิคาราซึ",
-		id: "Murkrow"
+		'th-th': "ยามิคาราซึ",
+		'id-id': "Murkrow"
 	},
 
 	illustrator: "Teeziro",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "夜 姿を 見かけると 不吉なことが 起きると 信じられ 忌み嫌われている ポケモン。",
+		'ja-jp': "夜 姿を 見かけると 不吉なことが 起きると 信じられ 忌み嫌われている ポケモン。",
 		'zh-tw': "人們相信晚上看到牠就會發生不吉利的事， 這讓牠成了人見人厭的寶可夢。",
-		th: "เป็นโปเกมอนที่ผู้คนเกลียดเพราะเชื่อกันว่าหากเห็นตอนกลางคืนจะเกิดเรื่องไม่ดีขึ้น",
-		id: "Murkrow adalah Pokémon yang dibenci banyak orang karena dipercaya akan membawa kesialan kepada siapa pun yang melihatnya pada malam hari."
+		'th-th': "เป็นโปเกมอนที่ผู้คนเกลียดเพราะเชื่อกันว่าหากเห็นตอนกลางคืนจะเกิดเรื่องไม่ดีขึ้น",
+		'id-id': "Murkrow adalah Pokémon yang dibenci banyak orang karena dipercaya akan membawa kesialan kepada siapa pun yang melihatnya pada malam hari."
 	},
 
 	stage: "Basic",
@@ -31,37 +31,37 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "スピンターン",
+			'ja-jp': "スピンターン",
 			'zh-tw': "旋轉迴旋",
-			th: "สปินเทิร์น",
-			id: "Spin Turn"
+			'th-th': "สปินเทิร์น",
+			'id-id': "Spin Turn"
 		},
 
 		damage: 10,
 
 		effect: {
-			ja: "このポケモンをベンチポケモンと入れ替える。",
+			'ja-jp': "このポケモンをベンチポケモンと入れ替える。",
 			'zh-tw': "將這隻寶可夢與備戰寶可夢互換。",
-			th: "สลับโปเกมอนนี้กับโปเกมอนบนเบนช์",
-			id: "Tukar Pokémon ini dengan Pokémon Cadangan."
+			'th-th': "สลับโปเกมอนนี้กับโปเกมอนบนเบนช์",
+			'id-id': "Tukar Pokémon ini dengan Pokémon Cadangan."
 		}
 	}, {
 		cost: ["Darkness"],
 
 		name: {
-			ja: "だんけつのつばさ",
+			'ja-jp': "だんけつのつばさ",
 			'zh-tw': "團結之翼",
-			th: "ปีกสามัคคี",
-			id: "Sayap Bersatu Padu"
+			'th-th': "ปีกสามัคคี",
+			'id-id': "Sayap Bersatu Padu"
 		},
 
 		damage: "20×",
 
 		effect: {
-			ja: "自分のトラッシュにある、ワザ「だんけつのつばさ」を持つポケモンの枚数×20ダメージ。",
+			'ja-jp': "自分のトラッシュにある、ワザ「だんけつのつばさ」を持つポケモンの枚数×20ダメージ。",
 			'zh-tw': "造成自己的棄牌區的，持有「團結之翼」招式的寶可夢卡的張數×20點傷害。",
-			th: "แดเมจจะเท่ากับจำนวนการ์ดโปเกมอนที่มีท่าต่อสู้ [ปีกสามัคคี] ที่อยู่บนตำแหน่งทิ้งการ์ดฝ่ายเรา x20",
-			id: "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap lembar Pokémon yang memiliki serangan Sayap Bersatu Padu yang ada di Trash sendiri."
+			'th-th': "แดเมจจะเท่ากับจำนวนการ์ดโปเกมอนที่มีท่าต่อสู้ [ปีกสามัคคี] ที่อยู่บนตำแหน่งทิ้งการ์ดฝ่ายเรา x20",
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap lembar Pokémon yang memiliki serangan Sayap Bersatu Padu yang ada di Trash sendiri."
 		}
 	}],
 

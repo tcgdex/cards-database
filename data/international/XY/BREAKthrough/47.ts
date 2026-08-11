@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Frogadier",
-		fr: "Croâporal",
-		es: "Frogadier",
-		it: "Frogadier",
-		pt: "Frogadier",
-		de: "Amphizel"
+		'en-us': "Frogadier",
+		'fr-fr': "Croâporal",
+		'es-es': "Frogadier",
+		'it-it': "Frogadier",
+		'pt-br': "Frogadier",
+		'de-de': "Amphizel"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Froakie",
-		fr: "Grenousse",
-		es: "Froakie",
-		it: "Froakie",
-		pt: "Froakie",
-		de: "Froxy"
+		'en-us': "Froakie",
+		'fr-fr': "Grenousse",
+		'es-es': "Froakie",
+		'it-it': "Froakie",
+		'pt-br': "Froakie",
+		'de-de': "Froxy"
 	},
 
 	stage: "Stage1",
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cut",
-				fr: "Coupe",
-				es: "Corte",
-				it: "Taglio",
-				pt: "Cortar",
-				de: "Zerschneider"
+				'en-us': "Cut",
+				'fr-fr': "Coupe",
+				'es-es': "Corte",
+				'it-it': "Taglio",
+				'pt-br': "Cortar",
+				'de-de': "Zerschneider"
 			},
 
 			damage: 30,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its swiftness is unparalleled. It can scale a tower of more than 2,000 feet in a minute's time.",
+		'en-us': "Its swiftness is unparalleled. It can scale a tower of more than 2,000 feet in a minute's time.",
 	},
 
 	thirdParty: {

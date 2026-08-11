@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Luvdisc",
-		fr: "Lovdisc",
-		de: "Liebiskus"
+		'en-us': "Luvdisc",
+		'fr-fr': "Lovdisc",
+		'de-de': "Liebiskus"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Love Call",
-				fr: "Appel amoureux",
-				de: "Love Call"
+				'en-us': "Love Call",
+				'fr-fr': "Appel amoureux",
+				'de-de': "Love Call"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. Search your deck for a Pokémon that is the same type as the Pokémon you chose, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Choisissez dans votre deck un Pokémon du même type que le Pokémon que vous avez choisi, montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck.",
-				de: "Choose 1 of your opponent's Pokémon. Search your deck for a Pokémon that is the same type as the Pokémon you chose, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+				'en-us': "Choose 1 of your opponent's Pokémon. Search your deck for a Pokémon that is the same type as the Pokémon you chose, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Choisissez dans votre deck un Pokémon du même type que le Pokémon que vous avez choisi, montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck.",
+				'de-de': "Choose 1 of your opponent's Pokémon. Search your deck for a Pokémon that is the same type as the Pokémon you chose, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
 			},
 
 		},
@@ -43,14 +43,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Sweet Kiss",
-				fr: "Doux baiser",
-				de: "Sweet Kiss"
+				'en-us': "Sweet Kiss",
+				'fr-fr': "Doux baiser",
+				'de-de': "Sweet Kiss"
 			},
 			effect: {
-				en: "Your opponent may draw a card.",
-				fr: "Votre adversaire peut piocher une carte.",
-				de: "Your opponent may draw a card."
+				'en-us': "Your opponent may draw a card.",
+				'fr-fr': "Votre adversaire peut piocher une carte.",
+				'de-de': "Your opponent may draw a card."
 			},
 			damage: 30,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives in warm seas. It is said that a couple finding this Pokémon will be blessed with eternal love."
+		'en-us': "It lives in warm seas. It is said that a couple finding this Pokémon will be blessed with eternal love."
 	},
 
 	variants: [

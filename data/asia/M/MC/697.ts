@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アセロラのいたずら",
+		'ja-jp': "アセロラのいたずら",
 	},
 
 	illustrator: "Yuu Nishida",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードは、相手のサイドの残り枚数が2枚以下のときにしか使えない。 自分の場のポケモンを1匹選ぶ。次の相手の番、そのポケモンは相手の「ポケモンex」からワザのダメージや効果を受けない。",
+		'ja-jp': "このカードは、相手のサイドの残り枚数が2枚以下のときにしか使えない。 自分の場のポケモンを1匹選ぶ。次の相手の番、そのポケモンは相手の「ポケモンex」からワザのダメージや効果を受けない。",
 	},
 
 	variants: [

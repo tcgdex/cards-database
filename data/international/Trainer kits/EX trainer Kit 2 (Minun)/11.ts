@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit 2 (Minun).ts'
 
 const card: Card = {
 	name: {
-		en: "Fire Energy",
-		fr: "Énergie Feu"
+		'en-us': "Fire Energy",
+		'fr-fr': "Énergie Feu"
 	},
 
 	illustrator: "",

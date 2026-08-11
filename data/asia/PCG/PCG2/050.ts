@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ノセパス",
+		'ja-jp': "ノセパス",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "磁気反転",
+				'ja-jp': "磁気反転",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前）に一度、NosepassがアクティブなPokã©Monである場合、コインをひっくり返すことができます。頭の場合、対戦相手のベンチポカモンの1つを防御するポカモンの1つに切り替えます。対戦相手は、防御するポカモンを選択して切り替えます。 Nosepassが特別な状態の影響を受ける場合、このパワーは使用できません。",
+				'ja-jp': "ターン中（攻撃の前）に一度、NosepassがアクティブなPokã©Monである場合、コインをひっくり返すことができます。頭の場合、対戦相手のベンチポカモンの1つを防御するポカモンの1つに切り替えます。対戦相手は、防御するポカモンを選択して切り替えます。 Nosepassが特別な状態の影響を受ける場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "シャープ",
+				'ja-jp': "シャープ",
 			},
 			damage: 10,
 		},

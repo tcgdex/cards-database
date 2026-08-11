@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [673],
 
 	name: {
-		en: "Gogoat",
-		fr: "Chevroum",
-		es: "Gogoat",
-		it: "Gogoat",
-		pt: "Gogoat",
-		de: "Chevrumm"
+		'en-us': "Gogoat",
+		'fr-fr': "Chevroum",
+		'es-es': "Gogoat",
+		'it-it': "Gogoat",
+		'pt-br': "Gogoat",
+		'de-de': "Chevrumm"
 	},
 
 	illustrator: "Mina Nakai",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Skiddo",
-		fr: "Cabriolaine",
-		es: "Skiddo",
-		it: "Skiddo",
-		pt: "Skiddo",
-		de: "Mähikel"
+		'en-us': "Skiddo",
+		'fr-fr': "Cabriolaine",
+		'es-es': "Skiddo",
+		'it-it': "Skiddo",
+		'pt-br': "Skiddo",
+		'de-de': "Mähikel"
 	},
 
 	attacks: [
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'Herbe",
-				es: "Hoja Afilada",
-				it: "Foglielama",
-				pt: "Folha Navalha",
-				de: "Rasierblatt"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'Herbe",
+				'es-es': "Hoja Afilada",
+				'it-it': "Foglielama",
+				'pt-br': "Folha Navalha",
+				'de-de': "Rasierblatt"
 			},
 
 			damage: 50,
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				es: "Derribo",
-				it: "Riduttore",
-				pt: "Desmantelar",
-				de: "Bodycheck"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'es-es': "Derribo",
+				'it-it': "Riduttore",
+				'pt-br': "Desmantelar",
+				'de-de': "Bodycheck"
 			},
 			effect: {
-				en: "This Pokémon also does 30 damage to itself.",
-				fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-				es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-				pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+				'en-us': "This Pokémon also does 30 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+				'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+				'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+				'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 			},
 			damage: 160,
 
@@ -91,7 +91,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "They inhabit mountainous regions. The leader of the herd is decided by a battle of clashing horns."
+		'en-us': "They inhabit mountainous regions. The leader of the herd is decided by a battle of clashing horns."
 	},
 
 	variants: [

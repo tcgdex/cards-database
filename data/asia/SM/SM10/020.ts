@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニョロモ",
+		'ja-jp': "ニョロモ",
 	},
 
 	illustrator: "Midori Harada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "危険なのに 陸に 上がりたがる。 まだ よちよち歩き なので 敵に 見つかると 慌てて 水の中へ。",
+		'ja-jp': "危険なのに 陸に 上がりたがる。 まだ よちよち歩き なので 敵に 見つかると 慌てて 水の中へ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ぐるりんぱ" },
 			effect: {
-				ja: "後攻プレイヤーの最初の自分の番にだけ1回使える。相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "後攻プレイヤーの最初の自分の番にだけ1回使える。相手のバトルポケモンをこんらんにする。",
 			},
 		},
 	],

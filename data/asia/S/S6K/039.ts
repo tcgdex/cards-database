@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガマゲロゲ",
+		'ja-jp': "ガマゲロゲ",
 		'zh-tw': "蟾蜍王",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "コブが 起こす バイブレーションが マッサージに 良いと 老人に 大人気の ポケモンだ。",
+		'ja-jp': "コブが 起こす バイブレーションが マッサージに 良いと 老人に 大人気の ポケモンだ。",
 		'zh-tw': "在老年人之間廣受歡迎。因為他們覺得牠身上的瘤發出的震動拿來按摩剛剛好。",
 	},
 
@@ -23,19 +23,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "グラグラウェーブ",
+				'ja-jp': "グラグラウェーブ",
 				'zh-tw': "蕩蕩波",
 			},
 			damage: 60,
 			cost: ["Fighting"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、ワザを使うためのエネルギーとにげるためのエネルギーが、それぞれ【無】エネルギー1個ぶん多くなる。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、ワザを使うためのエネルギーとにげるためのエネルギーが、それぞれ【無】エネルギー1個ぶん多くなる。",
 				'zh-tw': "在下個對手的回合，受到這個招式的寶可夢使用招式所需的能量與【撤退】所需的能量，各增加1個【無】能量。",
 			},
 		},
 		{
 			name: {
-				ja: "ハイパーボイス",
+				'ja-jp': "ハイパーボイス",
 				'zh-tw': "巨聲",
 			},
 			damage: 160,
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ガマガル",
+		'ja-jp': "ガマガル",
 	},
 
 	retreat: 3,

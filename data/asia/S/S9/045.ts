@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "夜巡靈",
-		ja: "ヨマワル"
+		'ja-jp': "ヨマワル"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "據說一旦發現不聽話的孩子，牠就會在深夜裡把那個孩子 帶去某個不知名的地方。",
-		ja: "いいつけを 守らない 子供を 見つけると 夜中に どこかへ 連れていくと いわれている。"
+		'ja-jp': "いいつけを 守らない 子供を 見つけると 夜中に どこかへ 連れていくと いわれている。"
 	},
 
 	stage: "Basic",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "蠱惑",
-			ja: "まどわす"
+			'ja-jp': "まどわす"
 		},
 
 		effect: {
 			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【混亂】。",
-			ja: "コインを1回投げオモテなら、相手のバトルポケモンをこんらんにする。"
+			'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをこんらんにする。"
 		},
 
 		damage: 10,

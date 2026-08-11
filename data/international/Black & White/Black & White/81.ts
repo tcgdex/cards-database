@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Lillipup",
-		fr: "Ponchiot",
-		es: "Lillipup",
-		it: "Lillipup",
-		pt: "Lillipup",
-		de: "Yorkleff"
+		'en-us': "Lillipup",
+		'fr-fr': "Ponchiot",
+		'es-es': "Lillipup",
+		'it-it': "Lillipup",
+		'pt-br': "Lillipup",
+		'de-de': "Yorkleff"
 	},
 
 	illustrator: "sui",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collectionner",
+				'en-us': "Collect",
+				'fr-fr': "Collectionner",
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
 			},
 
 			damage: 20,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The long hair around its face provides an amazing radar that lets it sense subtle changes in its surroundings.",
+		'en-us': "The long hair around its face provides an amazing radar that lets it sense subtle changes in its surroundings.",
 	},
 
 	thirdParty: {

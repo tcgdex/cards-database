@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリカのピクシー",
+		'ja-jp': "エリカのピクシー",
 	},
 	illustrator: "Atsuko Nishida",
 
@@ -19,16 +19,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "妖精の力",
+				'ja-jp': "妖精の力",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、ポケモンをプレイし、すべてのカードを手に取り付けている任意の数のポケモンを返すことができます。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、ポケモンをプレイし、すべてのカードを手に取り付けている任意の数のポケモンを返すことができます。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "月の衝撃",
+				'ja-jp': "月の衝撃",
 			},
 			damage: 30,
 		},

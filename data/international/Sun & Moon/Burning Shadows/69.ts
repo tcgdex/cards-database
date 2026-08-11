@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Solrock",
-		fr: "Solaroc",
-		es: "Solrock",
-		it: "Solrock",
-		pt: "Solrock",
-		de: "Sonnfel"
+		'en-us': "Solrock",
+		'fr-fr': "Solaroc",
+		'es-es': "Solrock",
+		'it-it': "Solrock",
+		'pt-br': "Solrock",
+		'de-de': "Sonnfel"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Draw",
-				fr: "Double Pioche",
-				es: "Roba Doble",
-				it: "Pescata Doppia",
-				pt: "Compra Dupla",
-				de: "Zweifachzug"
+				'en-us': "Double Draw",
+				'fr-fr': "Double Pioche",
+				'es-es': "Roba Doble",
+				'it-it': "Pescata Doppia",
+				'pt-br': "Compra Dupla",
+				'de-de': "Zweifachzug"
 			},
 			effect: {
-				en: "Draw 2 cards.",
-				fr: "Piochez 2 cartes.",
-				es: "Roba 2 cartas.",
-				it: "Pesca due carte.",
-				pt: "Compre 2 cartas.",
-				de: "Ziehe 2 Karten."
+				'en-us': "Draw 2 cards.",
+				'fr-fr': "Piochez 2 cartes.",
+				'es-es': "Roba 2 cartas.",
+				'it-it': "Pesca due carte.",
+				'pt-br': "Compre 2 cartas.",
+				'de-de': "Ziehe 2 Karten."
 			},
 
 		},
@@ -56,20 +56,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Solar Heat",
-				fr: "Chaleur Solaire",
-				es: "Calor Solar",
-				it: "Calura Solare",
-				pt: "Calor Solar",
-				de: "Solarhitze"
+				'en-us': "Solar Heat",
+				'fr-fr': "Chaleur Solaire",
+				'es-es': "Calor Solar",
+				'it-it': "Calura Solare",
+				'pt-br': "Calor Solar",
+				'de-de': "Solarhitze"
 			},
 			effect: {
-				en: "If there is any Stadium card in play, this attack does 20 more damage.",
-				fr: "S’il y a une carte Stade en jeu, cette attaque inflige 20 dégâts supplémentaires.",
-				es: "Si hay alguna carta de Estadio en juego, este ataque hace 20 puntos de daño más.",
-				it: "Se c’è in gioco una carta Stadio, questo attacco infligge 20 danni in più.",
-				pt: "Se houver alguma carta de Estádio em jogo, este ataque causará 20 pontos de dano a mais.",
-				de: "Wenn mindestens 1 Stadionkarte im Spiel ist, fügt diese Attacke 20 Schadenspunkte mehr zu."
+				'en-us': "If there is any Stadium card in play, this attack does 20 more damage.",
+				'fr-fr': "S’il y a une carte Stade en jeu, cette attaque inflige 20 dégâts supplémentaires.",
+				'es-es': "Si hay alguna carta de Estadio en juego, este ataque hace 20 puntos de daño más.",
+				'it-it': "Se c’è in gioco una carta Stadio, questo attacco infligge 20 danni in più.",
+				'pt-br': "Se houver alguma carta de Estádio em jogo, este ataque causará 20 pontos de dano a mais.",
+				'de-de': "Wenn mindestens 1 Stadionkarte im Spiel ist, fügt diese Attacke 20 Schadenspunkte mehr zu."
 			},
 			damage: "20+",
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Solar energy is the source of its power, so it is strong during the daytime. When it spins, its body shines.",
+		'en-us': "Solar energy is the source of its power, so it is strong during the daytime. When it spins, its body shines.",
 	},
 
 	thirdParty: {

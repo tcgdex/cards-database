@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [213],
 
 	name: {
-		en: "Shuckle",
-		fr: "Caratroc",
-		es: "Shuckle",
-		it: "Shuckle",
-		pt: "Shuckle",
-		de: "Pottrott"
+		'en-us': "Shuckle",
+		'fr-fr': "Caratroc",
+		'es-es': "Shuckle",
+		'it-it': "Shuckle",
+		'pt-br': "Shuckle",
+		'de-de': "Pottrott"
 	},
 
 	illustrator: "Mizue",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Deck Distiller",
-				fr: "Distillateur de Deck",
-				es: "Alambique de Barajas",
-				it: "Distillamazzo",
-				pt: "Destilador de Baralho",
-				de: "Deck-Destillateur"
+				'en-us': "Deck Distiller",
+				'fr-fr': "Distillateur de Deck",
+				'es-es': "Alambique de Barajas",
+				'it-it': "Distillamazzo",
+				'pt-br': "Destilador de Baralho",
+				'de-de': "Deck-Destillateur"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. For each heads, discard the top card of your opponent's deck.",
-				fr: "Lancez une pièce jusqu'à obtenir un côté pile. Pour chaque côté face, défaussez la carte du dessus du deck de votre adversaire.",
-				es: "Lanza 1 moneda hasta que salga cruz. Por cada cara, descarta la primera carta de la baraja de tu rival.",
-				it: "Lancia una moneta finché non esce croce. Ogni volta che esce testa, scarta la prima carta del mazzo del tuo avversario.",
-				pt: "Jogue 1 moeda até sair coroa. Para cada cara, descarte a carta de cima do baralho do seu oponente.",
-				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Lege pro Kopf die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+				'en-us': "Flip a coin until you get tails. For each heads, discard the top card of your opponent's deck.",
+				'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Pour chaque côté face, défaussez la carte du dessus du deck de votre adversaire.",
+				'es-es': "Lanza 1 moneda hasta que salga cruz. Por cada cara, descarta la primera carta de la baraja de tu rival.",
+				'it-it': "Lancia una moneta finché non esce croce. Ogni volta che esce testa, scarta la prima carta del mazzo del tuo avversario.",
+				'pt-br': "Jogue 1 moeda até sair coroa. Para cada cara, descarte a carta de cima do baralho do seu oponente.",
+				'de-de': "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Lege pro Kopf die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Throw",
-				fr: "Jet-Pierres",
-				es: "Lanzarrocas",
-				it: "Sassata",
-				pt: "Lançamento de Rocha",
-				de: "Steinwurf"
+				'en-us': "Rock Throw",
+				'fr-fr': "Jet-Pierres",
+				'es-es': "Lanzarrocas",
+				'it-it': "Sassata",
+				'pt-br': "Lançamento de Rocha",
+				'de-de': "Steinwurf"
 			},
 
 			damage: 50,
@@ -79,7 +79,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still."
+		'en-us': "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still."
 	},
 
 	variants: [

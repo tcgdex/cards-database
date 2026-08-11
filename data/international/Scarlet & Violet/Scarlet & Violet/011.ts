@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skiddo",
-		fr: "Cabriolaine",
-		es: "Skiddo",
-		it: "Skiddo",
-		pt: "Skiddo",
-		de: "Mähikel"
+		'en-us': "Skiddo",
+		'fr-fr': "Cabriolaine",
+		'es-es': "Skiddo",
+		'it-it': "Skiddo",
+		'pt-br': "Skiddo",
+		'de-de': "Mähikel"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Vine Whip",
-			fr: "Fouet Lianes",
-			es: "Látigo Cepa",
-			it: "Frustata",
-			pt: "Chicote de Vinha",
-			de: "Rankenhieb"
+			'en-us': "Vine Whip",
+			'fr-fr': "Fouet Lianes",
+			'es-es': "Látigo Cepa",
+			'it-it': "Frustata",
+			'pt-br': "Chicote de Vinha",
+			'de-de': "Rankenhieb"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Smash Kick",
-			fr: "Coud'Pattes",
-			es: "Patada Destrucción",
-			it: "Calcio Esplosivo",
-			pt: "Chute Poderoso",
-			de: "Schmetterkick"
+			'en-us': "Smash Kick",
+			'fr-fr': "Coud'Pattes",
+			'es-es': "Patada Destrucción",
+			'it-it': "Calcio Esplosivo",
+			'pt-br': "Chute Poderoso",
+			'de-de': "Schmetterkick"
 		},
 
 		damage: 20
@@ -69,7 +69,7 @@ const card: Card = {
 	illustrator: "Tika Matsuno",
 
 	description: {
-		en: "Until recently, people living in the mountains would ride on the back of these Pokémon to traverse the mountain paths.",
+		'en-us': "Until recently, people living in the mountains would ride on the back of these Pokémon to traverse the mountain paths.",
 	},
 
 	thirdParty: {

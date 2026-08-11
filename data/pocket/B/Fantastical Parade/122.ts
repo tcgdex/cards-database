@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [372],
 
 	name: {
-		en: "Shelgon"
+		'en-us': "Shelgon"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Dragon"],
 
 	evolveFrom: {
-		en: "Bagon"
+		'en-us': "Bagon"
 	},
 
 	description: {
-		en: "Its armored body makes all attacks bounce off.\nThe armor is too tough, however, making it heavy\nand somewhat sluggish."
+		'en-us': "Its armored body makes all attacks bounce off.\nThe armor is too tough, however, making it heavy\nand somewhat sluggish."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Rolling Tackle"
+			'en-us': "Rolling Tackle"
 		},
 
 		damage: 60,

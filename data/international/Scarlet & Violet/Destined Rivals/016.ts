@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Applin",
-		fr: "Verpom",
-		de: "Knapfel",
-		it: "Applin",
-		es: "Applin",
-		pt: "Applin",
+		'en-us': "Applin",
+		'fr-fr': "Verpom",
+		'de-de': "Knapfel",
+		'it-it': "Applin",
+		'es-es': "Applin",
+		'pt-br': "Applin",
 		'es-mx': "Applin"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Mini Drain",
-			fr: "Mini-Assèchement",
-			de: "Minisauger",
-			it: "Miniassorbimento",
-			es: "Minidrenaje",
-			pt: "Minidreno",
+			'en-us': "Mini Drain",
+			'fr-fr': "Mini-Assèchement",
+			'de-de': "Minisauger",
+			'it-it': "Miniassorbimento",
+			'es-es': "Minidrenaje",
+			'pt-br': "Minidreno",
 			'es-mx': "Minidrenado"
 		},
 
 		effect: {
-			en: "Heal 10 damage from this Pokémon.",
-			fr: "Soignez 10 dégâts de ce Pokémon.",
-			de: "Heile 10 Schadenspunkte bei diesem Pokémon.",
-			it: "Cura questo Pokémon da 10 danni.",
-			es: "Cura 10 puntos de daño a este Pokémon.",
-			pt: "Cure 10 pontos de dano deste Pokémon.",
+			'en-us': "Heal 10 damage from this Pokémon.",
+			'fr-fr': "Soignez 10 dégâts de ce Pokémon.",
+			'de-de': "Heile 10 Schadenspunkte bei diesem Pokémon.",
+			'it-it': "Cura questo Pokémon da 10 danni.",
+			'es-es': "Cura 10 puntos de daño a este Pokémon.",
+			'pt-br': "Cure 10 pontos de dano deste Pokémon.",
 			'es-mx': "Cura 10 puntos de daño a este Pokémon."
 		},
 

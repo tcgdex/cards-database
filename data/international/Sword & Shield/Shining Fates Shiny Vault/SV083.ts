@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Grimalin",
-		en: "Impidimp",
-		es: "Impidimp",
-		it: "Impidimp",
-		pt: "Impidimp",
-		de: "Bähmon"
+		'fr-fr': "Grimalin",
+		'en-us': "Impidimp",
+		'es-es': "Impidimp",
+		'it-it': "Impidimp",
+		'pt-br': "Impidimp",
+		'de-de': "Bähmon"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -22,24 +22,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Bataille",
-			en: "Beat",
-			es: "Toque",
-			it: "Battuta",
-			pt: "Pulso",
-			de: "Verprügler"
+			'fr-fr': "Bataille",
+			'en-us': "Beat",
+			'es-es': "Toque",
+			'it-it': "Battuta",
+			'pt-br': "Pulso",
+			'de-de': "Verprügler"
 		},
 
 		damage: 10,
 		cost: ["Darkness"]
 	}, {
 		name: {
-			fr: "Ruée",
-			en: "Stampede",
-			es: "Estampida",
-			it: "Fuggi Fuggi",
-			pt: "Estouro",
-			de: "Zertrampeln"
+			'fr-fr': "Ruée",
+			'en-us': "Stampede",
+			'es-es': "Estampida",
+			'it-it': "Fuggi Fuggi",
+			'pt-br': "Estouro",
+			'de-de': "Zertrampeln"
 		},
 
 		damage: 20,
@@ -56,7 +56,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Through its nose, it sucks in the emanations produced by people and Pokémon when they feel annoyed. It thrives off this negative energy."
+		'en-us': "Through its nose, it sucks in the emanations produced by people and Pokémon when they feel annoyed. It thrives off this negative energy."
 	},
 
 	variants: [

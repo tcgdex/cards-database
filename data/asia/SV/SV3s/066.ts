@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Lunatone"
+		'id-id': "Lunatone"
 	},
 
 	illustrator: "Tetsu Kayama",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Lunatone ditemukan pertama kali 40 tahun lalu di tempat jatuhnya meteorit. Pokémon ini dapat membuat musuh tertidur hanya dengan memelototinya."
+		'id-id': "Lunatone ditemukan pertama kali 40 tahun lalu di tempat jatuhnya meteorit. Pokémon ini dapat membuat musuh tertidur hanya dengan memelototinya."
 	},
 
 	stage: "Basic",
@@ -23,17 +23,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Bulan Baru"
+			'id-id': "Bulan Baru"
 		},
 
 		effect: {
-			id: "Berjalan jika ada Solrock di Arena sendiri. Selama Pokémon ini ada di Arena, semua Pokémon sendiri tidak menerima efek Stadium."
+			'id-id': "Berjalan jika ada Solrock di Arena sendiri. Selama Pokémon ini ada di Arena, semua Pokémon sendiri tidak menerima efek Stadium."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Moon Press"
+			'id-id': "Moon Press"
 		},
 
 		damage: 100,

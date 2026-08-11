@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レックウザVMAX",
+		'ja-jp': "レックウザVMAX",
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "そうくうのはどう" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札をすべてトラッシュし、山札を3枚引く。",
+				'ja-jp': "自分の番に1回使える。自分の手札をすべてトラッシュし、山札を3枚引く。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Fire", "Lightning"],
 			effect: {
-				ja: "このポケモンについている[炎]または[雷]タイプのどちらかの基本エネルギーを好きなだけトラッシュし、その枚数×80ダメージ追加。",
+				'ja-jp': "このポケモンについている[炎]または[雷]タイプのどちらかの基本エネルギーを好きなだけトラッシュし、その枚数×80ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "レックウザV",
+		'ja-jp': "レックウザV",
 	},
 
 	retreat: 2,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Wailmer",
-		fr: "Wailmer",
-		es: "Wailmer",
-		it: "Wailmer",
-		pt: "Wailmer",
-		de: "Wailmer"
+		'en-us': "Wailmer",
+		'fr-fr': "Wailmer",
+		'es-es': "Wailmer",
+		'it-it': "Wailmer",
+		'pt-br': "Wailmer",
+		'de-de': "Wailmer"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Splash",
-				fr: "Trempette",
-				es: "Salpicadura",
-				it: "Splash",
-				pt: "Borrifada",
-				de: "Platscher"
+				'en-us': "Splash",
+				'fr-fr': "Trempette",
+				'es-es': "Salpicadura",
+				'it-it': "Splash",
+				'pt-br': "Borrifada",
+				'de-de': "Platscher"
 			},
 
 			damage: 20,
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
-				es: "Surf",
-				it: "Surf",
-				pt: "Surfe",
-				de: "Surfer"
+				'en-us': "Surf",
+				'fr-fr': "Surf",
+				'es-es': "Surf",
+				'it-it': "Surf",
+				'pt-br': "Surfe",
+				'de-de': "Surfer"
 			},
 
 			damage: 70,
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It loves to startle people. It fills itself up with seawater and plays by bouncing around like a ball.",
+		'en-us': "It loves to startle people. It fills itself up with seawater and plays by bouncing around like a ball.",
 	},
 
 	thirdParty: {

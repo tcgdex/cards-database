@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Sneasel",
-		fr: "Farfuret",
-		es: "Sneasel",
-		it: "Sneasel",
-		pt: "Sneasel",
-		de: "Sniebel"
+		'en-us': "Sneasel",
+		'fr-fr': "Farfuret",
+		'es-es': "Sneasel",
+		'it-it': "Sneasel",
+		'pt-br': "Sneasel",
+		'de-de': "Sniebel"
 	},
 
 	illustrator: "Hasuno",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hone Claws",
-				fr: "Aiguisage",
-				es: "Afilagarras",
-				it: "Unghiaguzze",
-				pt: "Garras Afiadas",
-				de: "Klauenwetzer"
+				'en-us': "Hone Claws",
+				'fr-fr': "Aiguisage",
+				'es-es': "Afilagarras",
+				'it-it': "Unghiaguzze",
+				'pt-br': "Garras Afiadas",
+				'de-de': "Klauenwetzer"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon’s Slash attack’s base damage is 80.",
-				fr: "Pendant votre prochain tour, les dégâts de base de l’attaque Tranche de ce Pokémon sont de 80.",
-				es: "Durante tu próximo turno, el daño básico del ataque Cuchillada de este Pokémon es de 80.",
-				it: "Durante il tuo prossimo turno, i danni base dell’attacco Lacerazione di questo Pokémon sono 80.",
-				pt: "Durante a sua próxima vez de jogar, o dano base do ataque Talho deste Pokémon será 80.",
-				de: "Während deines nächsten Zuges beträgt der Grundschaden der Attacke Schlitzer dieses Pokémon 80 Schadenspunkte."
+				'en-us': "During your next turn, this Pokémon’s Slash attack’s base damage is 80.",
+				'fr-fr': "Pendant votre prochain tour, les dégâts de base de l’attaque Tranche de ce Pokémon sont de 80.",
+				'es-es': "Durante tu próximo turno, el daño básico del ataque Cuchillada de este Pokémon es de 80.",
+				'it-it': "Durante il tuo prossimo turno, i danni base dell’attacco Lacerazione di questo Pokémon sono 80.",
+				'pt-br': "Durante a sua próxima vez de jogar, o dano base do ataque Talho deste Pokémon será 80.",
+				'de-de': "Während deines nächsten Zuges beträgt der Grundschaden der Attacke Schlitzer dieses Pokémon 80 Schadenspunkte."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				es: "Cuchillada",
-				it: "Lacerazione",
-				pt: "Talho",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'es-es': "Cuchillada",
+				'it-it': "Lacerazione",
+				'pt-br': "Talho",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 20,
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has a cunning yet savage disposition. It waits for parents to leave their nests, and then it sneaks in to steal their eggs.",
+		'en-us': "It has a cunning yet savage disposition. It waits for parents to leave their nests, and then it sneaks in to steal their eggs.",
 	},
 
 	thirdParty: {

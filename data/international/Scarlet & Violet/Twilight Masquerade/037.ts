@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lampent",
-		fr: "Mélancolux",
-		es: "Lampent",
-		it: "Lampent",
-		pt: "Lampent",
-		de: "Laternecto"
+		'en-us': "Lampent",
+		'fr-fr': "Mélancolux",
+		'es-es': "Lampent",
+		'it-it': "Lampent",
+		'pt-br': "Lampent",
+		'de-de': "Laternecto"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 80,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Litwick",
-		fr: "Funécire",
-		es: "Litwick",
-		it: "Litwick",
-		pt: "Litwick",
-		de: "Lichtel"
+		'en-us': "Litwick",
+		'fr-fr': "Funécire",
+		'es-es': "Litwick",
+		'it-it': "Litwick",
+		'pt-br': "Litwick",
+		'de-de': "Lichtel"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Live Coal",
-			fr: "Charbon Mutant",
-			es: "Carbón Activado",
-			it: "Carboni Ardenti",
-			pt: "Carvão Vivo",
-			de: "Glühende Kohlen"
+			'en-us': "Live Coal",
+			'fr-fr': "Charbon Mutant",
+			'es-es': "Carbón Activado",
+			'it-it': "Carboni Ardenti",
+			'pt-br': "Carvão Vivo",
+			'de-de': "Glühende Kohlen"
 		},
 
 		damage: 20
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Burn It All Up",
-			fr: "Combustion Totale",
-			es: "Carbonizar",
-			it: "Fiamma Estrema",
-			pt: "Queimar Tudo",
-			de: "Alles abbrennen"
+			'en-us': "Burn It All Up",
+			'fr-fr': "Combustion Totale",
+			'es-es': "Carbonizar",
+			'it-it': "Fiamma Estrema",
+			'pt-br': "Queimar Tudo",
+			'de-de': "Alles abbrennen"
 		},
 
 		effect: {
-			en: "Discard all Energy from this Pokémon.",
-			fr: "Défaussez toutes les Énergies de ce Pokémon.",
-			es: "Descarta todas las Energías de este Pokémon.",
-			it: "Scarta tutte le Energie da questo Pokémon.",
-			pt: "Descarte todas as Energias deste Pokémon.",
-			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard all Energy from this Pokémon.",
+			'fr-fr': "Défaussez toutes les Énergies de ce Pokémon.",
+			'es-es': "Descarta todas las Energías de este Pokémon.",
+			'it-it': "Scarta tutte le Energie da questo Pokémon.",
+			'pt-br': "Descarte todas as Energias deste Pokémon.",
+			'de-de': "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 60
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "The spirits it absorbs fuel its baleful fire. It hangs around hospitals waiting for people to pass on.",
+		'en-us': "The spirits it absorbs fuel its baleful fire. It hangs around hospitals waiting for people to pass on.",
 	},
 
 	variants: [

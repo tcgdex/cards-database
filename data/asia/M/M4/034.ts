@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デオキシス",
+		'ja-jp': "デオキシス",
 	},
 
 	illustrator: "hncl",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "隕石に 付着していた 宇宙ウイルスの ＤＮＡが 変異して 生まれた ポケモン。",
+		'ja-jp': "隕石に 付着していた 宇宙ウイルスの ＤＮＡが 変異して 生まれた ポケモン。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Psychic"],
 			effect: {
-				ja: "のぞむなら、自分の手札が5枚になるように、山札を引く。",
+				'ja-jp': "のぞむなら、自分の手札が5枚になるように、山札を引く。",
 			},
 		},
 	],

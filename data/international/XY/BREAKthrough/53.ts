@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Magneton",
-		fr: "Magnéton",
-		es: "Magneton",
-		it: "Magneton",
-		pt: "Magneton",
-		de: "Magneton"
+		'en-us': "Magneton",
+		'fr-fr': "Magnéton",
+		'es-es': "Magneton",
+		'it-it': "Magneton",
+		'pt-br': "Magneton",
+		'de-de': "Magneton"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magnemite",
-		fr: "Magnéti",
-		es: "Magnemite",
-		it: "Magnemite",
-		pt: "Magnemite",
-		de: "Magnetilo"
+		'en-us': "Magnemite",
+		'fr-fr': "Magnéti",
+		'es-es': "Magnemite",
+		'it-it': "Magnemite",
+		'pt-br': "Magnemite",
+		'de-de': "Magnetilo"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Static Shock",
-				fr: "Choc Statique",
-				es: "Impacto Estático",
-				it: "Shock Statico",
-				pt: "Choque de Estática",
-				de: "Statischer Schock"
+				'en-us': "Static Shock",
+				'fr-fr': "Choc Statique",
+				'es-es': "Impacto Estático",
+				'it-it': "Shock Statico",
+				'pt-br': "Choque de Estática",
+				'de-de': "Statischer Schock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 
 		},
@@ -67,20 +67,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electro Ball",
-				fr: "Boule Élek",
-				es: "Bola Voltio",
-				it: "Energisfera",
-				pt: "Bola Elétrica",
-				de: "Elektroball"
+				'en-us': "Electro Ball",
+				'fr-fr': "Boule Élek",
+				'es-es': "Bola Voltio",
+				'it-it': "Energisfera",
+				'pt-br': "Bola Elétrica",
+				'de-de': "Elektroball"
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon.",
-				es: "Descarta 1 Energía unida a este Pokémon.",
-				it: "Scarta un'Energia assegnata a questo Pokémon.",
-				pt: "Descarte uma Energia ligada a este Pokémon.",
-				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon.",
+				'es-es': "Descarta 1 Energía unida a este Pokémon.",
+				'it-it': "Scarta un'Energia assegnata a questo Pokémon.",
+				'pt-br': "Descarte uma Energia ligada a este Pokémon.",
+				'de-de': "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 70,
 
@@ -104,7 +104,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Generates strange radio signals. It raises the temperature by 3.6 degrees Fahrenheit within 3,300 feet.",
+		'en-us': "Generates strange radio signals. It raises the temperature by 3.6 degrees Fahrenheit within 3,300 feet.",
 	},
 
 	thirdParty: {

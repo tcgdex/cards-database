@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Meditite",
-		fr: "Méditikka",
-		es: "Meditite",
-		it: "Meditite",
-		pt: "Meditite",
-		de: "Meditie"
+		'en-us': "Meditite",
+		'fr-fr': "Méditikka",
+		'es-es': "Meditite",
+		'it-it': "Meditite",
+		'pt-br': "Meditite",
+		'de-de': "Meditie"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Slap",
-			fr: "Gifle",
-			es: "Bofetón",
-			it: "Sberla",
-			pt: "Tapa",
-			de: "Hieb"
+			'en-us': "Slap",
+			'fr-fr': "Gifle",
+			'es-es': "Bofetón",
+			'it-it': "Sberla",
+			'pt-br': "Tapa",
+			'de-de': "Hieb"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Kick",
-			fr: "Koud'Pied",
-			es: "Patada",
-			it: "Calcio",
-			pt: "Chute",
-			de: "Tritt"
+			'en-us': "Kick",
+			'fr-fr': "Koud'Pied",
+			'es-es': "Patada",
+			'it-it': "Calcio",
+			'pt-br': "Chute",
+			'de-de': "Tritt"
 		},
 
 		damage: 30
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It meditates to heighten its inner energy and to float in the air. It eats one berry a day.",
+		'en-us': "It meditates to heighten its inner energy and to float in the air. It eats one berry a day.",
 	},
 
 	variants: [

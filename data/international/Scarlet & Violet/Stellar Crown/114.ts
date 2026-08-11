@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hoothoot",
-		fr: "Hoothoot",
-		es: "Hoothoot",
-		it: "Hoothoot",
-		pt: "Hoothoot",
-		de: "Hoothoot"
+		'en-us': "Hoothoot",
+		'fr-fr': "Hoothoot",
+		'es-es': "Hoothoot",
+		'it-it': "Hoothoot",
+		'pt-br': "Hoothoot",
+		'de-de': "Hoothoot"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Triple Stab",
-			fr: "Aiguillon Triple",
-			es: "Triple Puñalada",
-			it: "Tripla Pugnalata",
-			pt: "Estocada Tripla",
-			de: "Triplexstich"
+			'en-us': "Triple Stab",
+			'fr-fr': "Aiguillon Triple",
+			'es-es': "Triple Puñalada",
+			'it-it': "Tripla Pugnalata",
+			'pt-br': "Estocada Tripla",
+			'de-de': "Triplexstich"
 		},
 
 		effect: {
-			en: "Flip 3 coins. This attack does 10 damage for each heads.",
-			fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
-			es: "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
-			it: "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
-			pt: "Jogue 3 moedas. Este ataque causa 10 pontos de dano para cada cara.",
-			de: "Wirf 3 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip 3 coins. This attack does 10 damage for each heads.",
+			'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
+			'es-es': "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+			'it-it': "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 3 moedas. Este ataque causa 10 pontos de dano para cada cara.",
+			'de-de': "Wirf 3 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "10×"

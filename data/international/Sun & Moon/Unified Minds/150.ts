@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Dragonair",
-		fr: "Draco",
-		es: "Dragonair",
-		it: "Dragonair",
-		pt: "Dragonair",
-		de: "Dragonir"
+		'en-us': "Dragonair",
+		'fr-fr': "Draco",
+		'es-es': "Dragonair",
+		'it-it': "Dragonair",
+		'pt-br': "Dragonair",
+		'de-de': "Dragonir"
 	},
 
 	illustrator: "sowsow",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dratini",
-		fr: "Minidraco",
+		'en-us': "Dratini",
+		'fr-fr': "Minidraco",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Whap",
-				fr: "Queue Battoir",
-				es: "Coletón",
-				it: "Codabotta",
-				pt: "Surra de Cauda",
-				de: "Schweifvertrimmer"
+				'en-us': "Tail Whap",
+				'fr-fr': "Queue Battoir",
+				'es-es': "Coletón",
+				'it-it': "Codabotta",
+				'pt-br': "Surra de Cauda",
+				'de-de': "Schweifvertrimmer"
 			},
 
 			damage: 20,
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Destructive Whirlpool",
-				fr: "Siphon Destructeur",
-				es: "Torbellino Destructivo",
-				it: "Rompivortice",
-				pt: "Redemoinho Destruidor",
-				de: "Schrecklicher Strudel"
+				'en-us': "Destructive Whirlpool",
+				'fr-fr': "Siphon Destructeur",
+				'es-es': "Torbellino Destructivo",
+				'it-it': "Rompivortice",
+				'pt-br': "Redemoinho Destruidor",
+				'de-de': "Schrecklicher Strudel"
 			},
 			effect: {
-				en: "Discard an Energy from your opponent’s Active Pokémon.",
-				fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
-				es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-				it: "Scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
-				de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard an Energy from your opponent’s Active Pokémon.",
+				'fr-fr': "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+				'es-es': "Descarta 1 Energía del Pokémon Activo de tu rival.",
+				'it-it': "Scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 70,
 
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Lakes where Dragonair live are filled with offerings from people, because they believe this Pokémon is able to control the weather.",
+		'en-us': "Lakes where Dragonair live are filled with offerings from people, because they believe this Pokémon is able to control the weather.",
 	},
 
 	thirdParty: {

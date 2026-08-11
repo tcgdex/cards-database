@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Koffing",
-		fr: "Smogo",
-		de: "Smogon"
+		'en-us': "Koffing",
+		'fr-fr': "Smogo",
+		'de-de': "Smogon"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -46,15 +46,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Poison Gas",
-				fr: "Gaz toxik",
-				de: "Poison Gas"
+				'en-us': "Poison Gas",
+				'fr-fr': "Gaz toxik",
+				'de-de': "Poison Gas"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Flip a coin. if heads, the Defending Pokémon is now Poisoned."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Flip a coin. if heads, the Defending Pokémon is now Poisoned."
 			},
 
 			damage: 20
@@ -71,8 +71,8 @@ const card: Card = {
 
 
 	description: {
-		en: "First discovered in a weapons factory, this Pokémon can now be found almost anywhere.",
-		fr: "Découvert en premier lieu dans une usine d'armement, on trouve ce Pokémon presque partout."
+		'en-us': "First discovered in a weapons factory, this Pokémon can now be found almost anywhere.",
+		'fr-fr': "Découvert en premier lieu dans une usine d'armement, on trouve ce Pokémon presque partout."
 	},
 
 

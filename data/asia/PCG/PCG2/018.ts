@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カメラプ",
+		'ja-jp': "カメラプ",
 	},
 
 	rarity: "Holo Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "バックバーナー",
+				'ja-jp': "バックバーナー",
 			},
 			effect: {
-				ja: "廃棄の山を検索して、最大2枚の基本エネルギーカードを使用して、好きな方法でポケモンに取り付けます。",
+				'ja-jp': "廃棄の山を検索して、最大2枚の基本エネルギーカードを使用して、好きな方法でポケモンに取り付けます。",
 			},
 		},
 		{
 			cost: ["Fire", "Colorless", "Colorless"],
 			name: {
-				ja: "分割爆弾",
+				'ja-jp': "分割爆弾",
 			},
 			effect: {
-				ja: "対戦相手のポケモンの2つを選択してください。この攻撃は、それぞれに30のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "対戦相手のポケモンの2つを選択してください。この攻撃は、それぞれに30のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 		},
 	],

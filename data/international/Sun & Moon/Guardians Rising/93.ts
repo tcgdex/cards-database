@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Comfey",
-		fr: "Guérilande",
-		es: "Comfey",
-		it: "Comfey",
-		pt: "Comfey",
-		de: "Curelei"
+		'en-us': "Comfey",
+		'fr-fr': "Guérilande",
+		'es-es': "Comfey",
+		'it-it': "Comfey",
+		'pt-br': "Comfey",
+		'de-de': "Curelei"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Flower Shield",
-				fr: "Garde Florale",
-				es: "Defensa Floral",
-				it: "Fiordifesa",
-				pt: "Escudo Florido",
-				de: "Floraschutz"
+				'en-us': "Flower Shield",
+				'fr-fr': "Garde Florale",
+				'es-es': "Defensa Floral",
+				'it-it': "Fiordifesa",
+				'pt-br': "Escudo Florido",
+				'de-de': "Floraschutz"
 			},
 			effect: {
-				en: "Each of your Pokémon that has any Fairy Energy attached to it can’t be affected by any Special Conditions. Remove any Special Conditions affecting those Pokémon.",
-				fr: "Aucun de vos Pokémon auquel de l’Énergie Fairy est attachée ne peut être affecté par des États Spéciaux. Retirez tous les États Spéciaux affectant ces Pokémon.",
-				es: "Cada uno de tus Pokémon que tenga alguna Energía Fairy unida a él no se puede ver afectado por ninguna Condición Especial. Elimina cualquier Condición Especial que afecte a esos Pokémon.",
-				it: "Nessuno dei tuoi Pokémon che ha delle Energie Fairy assegnate può essere influenzato da condizioni speciali. Rimuovi tutte le condizioni speciali che influenzano tali Pokémon.",
-				pt: "Cada um dos seus Pokémon que tiver alguma Energia Fairy ligada a ele não poderá ser afetado por quaisquer Condições Especiais. Remova todas as Condições Especiais que afetem aqueles Pokémon.",
-				de: "Jedes deiner Pokémon, an das mindestens 1 Fairy-Energie angelegt ist, kann nicht von Speziellen Zuständen betroffen werden. Alle Speziellen Zustände auf jenen Pokémon verlieren ihre Wirkung."
+				'en-us': "Each of your Pokémon that has any Fairy Energy attached to it can’t be affected by any Special Conditions. Remove any Special Conditions affecting those Pokémon.",
+				'fr-fr': "Aucun de vos Pokémon auquel de l’Énergie Fairy est attachée ne peut être affecté par des États Spéciaux. Retirez tous les États Spéciaux affectant ces Pokémon.",
+				'es-es': "Cada uno de tus Pokémon que tenga alguna Energía Fairy unida a él no se puede ver afectado por ninguna Condición Especial. Elimina cualquier Condición Especial que afecte a esos Pokémon.",
+				'it-it': "Nessuno dei tuoi Pokémon che ha delle Energie Fairy assegnate può essere influenzato da condizioni speciali. Rimuovi tutte le condizioni speciali che influenzano tali Pokémon.",
+				'pt-br': "Cada um dos seus Pokémon que tiver alguma Energia Fairy ligada a ele não poderá ser afetado por quaisquer Condições Especiais. Remova todas as Condições Especiais que afetem aqueles Pokémon.",
+				'de-de': "Jedes deiner Pokémon, an das mindestens 1 Fairy-Energie angelegt ist, kann nicht von Speziellen Zuständen betroffen werden. Alle Speziellen Zustände auf jenen Pokémon verlieren ihre Wirkung."
 			},
 		},
 	],
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sweet Kiss",
-				fr: "Doux Baiser",
-				es: "Beso Dulce",
-				it: "Dolcebacio",
-				pt: "Beijo Doce",
-				de: "Bitterkuss"
+				'en-us': "Sweet Kiss",
+				'fr-fr': "Doux Baiser",
+				'es-es': "Beso Dulce",
+				'it-it': "Dolcebacio",
+				'pt-br': "Beijo Doce",
+				'de-de': "Bitterkuss"
 			},
 			effect: {
-				en: "Your opponent draws a card.",
-				fr: "Votre adversaire pioche une carte.",
-				es: "Tu rival roba 1 carta.",
-				it: "Il tuo avversario pesca una carta.",
-				pt: "Seu oponente compra 1 carta.",
-				de: "Dein Gegner zieht 1 Karte."
+				'en-us': "Your opponent draws a card.",
+				'fr-fr': "Votre adversaire pioche une carte.",
+				'es-es': "Tu rival roba 1 carta.",
+				'it-it': "Il tuo avversario pesca una carta.",
+				'pt-br': "Seu oponente compra 1 carta.",
+				'de-de': "Dein Gegner zieht 1 Karte."
 			},
 			damage: 30,
 
@@ -94,7 +94,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It attaches flowers to its highly nutritious vine. This revitalizes the flowers, and they give off an aromatic scent.",
+		'en-us': "It attaches flowers to its highly nutritious vine. This revitalizes the flowers, and they give off an aromatic scent.",
 	},
 
 	thirdParty: {

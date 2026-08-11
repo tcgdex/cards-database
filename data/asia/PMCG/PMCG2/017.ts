@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ストライク",
+		'ja-jp': "ストライク",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "剣の踊り",
+				'ja-jp': "剣の踊り",
 			},
 			effect: {
-				ja: "次のターン中、このポケモンのスラッシュ攻撃は30回以上のダメージを与えます（脱力感と抵抗を適用する前）。",
+				'ja-jp': "次のターン中、このポケモンのスラッシュ攻撃は30回以上のダメージを与えます（脱力感と抵抗を適用する前）。",
 			},
 
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "スラッシュ",
+				'ja-jp': "スラッシュ",
 			},
 			damage: 30,
 		},

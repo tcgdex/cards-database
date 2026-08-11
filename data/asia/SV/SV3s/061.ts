@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Cleffa"
+		'id-id': "Cleffa"
 	},
 
 	illustrator: "kurumitsu",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Cleffa memiliki siluet seperti bintang. Karena wujudnya tersebut, Pokémon ini dipercaya datang dengan menaiki meteor."
+		'id-id': "Cleffa memiliki siluet seperti bintang. Karena wujudnya tersebut, Pokémon ini dipercaya datang dengan menaiki meteor."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Ambil Mengepal-ngepal"
+			'id-id': "Ambil Mengepal-ngepal"
 		},
 
 		effect: {
-			id: "Ambil kartu dari atas Deck hingga jumlah Kartu Pegangan sendiri menjadi 7 lembar."
+			'id-id': "Ambil kartu dari atas Deck hingga jumlah Kartu Pegangan sendiri menjadi 7 lembar."
 		}
 	}],
 

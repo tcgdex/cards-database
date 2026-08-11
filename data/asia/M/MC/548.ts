@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドラパルトex",
+		'ja-jp': "ドラパルトex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Fire", "Psychic"],
 			effect: {
-				ja: "ダメカン6個を、相手のベンチポケモンに好きなようにのせる。",
+				'ja-jp': "ダメカン6個を、相手のベンチポケモンに好きなようにのせる。",
 			},
 		},
 	],
@@ -43,7 +43,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ドロンチ",
+		'ja-jp': "ドロンチ",
 	},
 
 	retreat: 1,

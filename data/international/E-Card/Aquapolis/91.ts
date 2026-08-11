@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Magnemite",
-		fr: "Magneti",
-		de: "Magnetilo"
+		'en-us': "Magnemite",
+		'fr-fr': "Magneti",
+		'de-de': "Magnetilo"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Conductive Body",
-				fr: "Corps conducteur",
-				de: "Leitender Körper"
+				'en-us': "Conductive Body",
+				'fr-fr': "Corps conducteur",
+				'de-de': "Leitender Körper"
 			},
 			effect: {
-				en: "You pay Colorless less to retreat Magnemite for each Magnemite on your Bench.",
-				fr: "Vous payez  de moins pour faire battre Magneti en retraite pour chaque Magneti sur votre Banc.",
-				de: "Für jedes Magnetilo auf deiner Bank zahlst du  weniger, wenn du Magnetilo zurückziehst."
+				'en-us': "You pay Colorless less to retreat Magnemite for each Magnemite on your Bench.",
+				'fr-fr': "Vous payez  de moins pour faire battre Magneti en retraite pour chaque Magneti sur votre Banc.",
+				'de-de': "Für jedes Magnetilo auf deiner Bank zahlst du  weniger, wenn du Magnetilo zurückziehst."
 			}
 		},
 	],
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnetic Bomb",
-				fr: "Bombe magnétique",
-				de: "Magnetische Bombe"
+				'en-us': "Magnetic Bomb",
+				'fr-fr': "Bombe magnétique",
+				'de-de': "Magnetische Bombe"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage. If tails, Magnemite does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires. Si c'est pile, Magneti s'inflige 10 dégâts.",
-				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu. Bei 'Zahl' fügt sich Magnetilo selber 10 Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage. If tails, Magnemite does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires. Si c'est pile, Magneti s'inflige 10 dégâts.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu. Bei 'Zahl' fügt sich Magnetilo selber 10 Schadenspunkte zu."
 			},
 			damage: "20+",
 

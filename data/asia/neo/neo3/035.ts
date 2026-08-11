@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミスレアヴァス",
+		'ja-jp': "ミスレアヴァス",
 	},
 
 	rarity: "Holo Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "ナイトアイズ",
+				'ja-jp': "ナイトアイズ",
 			},
 			effect: {
-				ja: "防御ポケモンは今眠っています。",
+				'ja-jp': "防御ポケモンは今眠っています。",
 			},
 		},
 		{
 			cost: ["Psychic", "Psychic", "Psychic"],
 			name: {
-				ja: "滅びる歌",
+				'ja-jp': "滅びる歌",
 			},
 			effect: {
-				ja: "防衛ポケモンが眠っていて、最後のターン中に夜目で攻撃された場合、それはノックアウトされます。",
+				'ja-jp': "防衛ポケモンが眠っていて、最後のターン中に夜目で攻撃された場合、それはノックアウトされます。",
 			},
 		},
 	],

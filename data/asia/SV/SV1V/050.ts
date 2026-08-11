@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1V"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "オコリザル",
+		'ja-jp': "オコリザル",
 		'zh-tw': "火爆猴",
-		th: "โอโคริซารุ",
-		id: "Primeape"
+		'th-th': "โอโคริซารุ",
+		'id-id': "Primeape"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ある研究者の 学説では モンスターボールの 中でも オコリザルは 怒っているらしい。",
+		'ja-jp': "ある研究者の 学説では モンスターボールの 中でも オコリザルは 怒っているらしい。",
 		'zh-tw': "某位研究者的學說中提到，即使在精靈球裡， 火爆猴好像也在發怒。",
-		th: "มีทฤษฎีของนักวิจัยคนหนึ่งที่ว่าโอโคริซารุจะยังโกรธอยู่ แม้ตอนอยู่ในมอนสเตอร์บอลก็ตาม",
-		id: "Kabarnya, teori dari salah seorang peneliti mengatakan Primeape juga mengamuk ketika berada di dalam Bola Pokémon."
+		'th-th': "มีทฤษฎีของนักวิจัยคนหนึ่งที่ว่าโอโคริซารุจะยังโกรธอยู่ แม้ตอนอยู่ในมอนสเตอร์บอลก็ตาม",
+		'id-id': "Kabarnya, teori dari salah seorang peneliti mengatakan Primeape juga mengamuk ketika berada di dalam Bola Pokémon."
 	},
 
 	stage: "Stage1",
@@ -31,19 +31,19 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "あばれパンチ",
+			'ja-jp': "あばれパンチ",
 			'zh-tw': "暴亂拳",
-			th: "หมัดอาละวาด",
-			id: "Pukulan Mengamuk"
+			'th-th': "หมัดอาละวาด",
+			'id-id': "Pukulan Mengamuk"
 		},
 
 		damage: 70,
 
 		effect: {
-			ja: "このポケモンにも20ダメージ。",
+			'ja-jp': "このポケモンにも20ダメージ。",
 			'zh-tw': "這隻寶可夢也受到20點傷害。",
-			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 20 ด้วย",
-			id: "Pokémon ini juga menerima kerusakan sejumlah 20."
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 20 ด้วย",
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 20."
 		}
 	}],
 

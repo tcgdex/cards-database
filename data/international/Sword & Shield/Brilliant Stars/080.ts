@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Throh",
-		fr: "Judokrak",
-		es: "Throh",
-		it: "Throh",
-		pt: "Throh",
-		de: "Jiutesto"
+		'en-us': "Throh",
+		'fr-fr': "Judokrak",
+		'es-es': "Throh",
+		'it-it': "Throh",
+		'pt-br': "Throh",
+		'de-de': "Jiutesto"
 	},
 
 	illustrator: "Teeziro",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Lunge Out",
-			fr: "Allonger",
-			es: "Arremeter",
-			it: "Affondo Lungo",
-			pt: "Bote",
-			de: "Sprungangriff"
+			'en-us': "Lunge Out",
+			'fr-fr': "Allonger",
+			'es-es': "Arremeter",
+			'it-it': "Affondo Lungo",
+			'pt-br': "Bote",
+			'de-de': "Sprungangriff"
 		},
 
 		damage: 30
@@ -38,12 +38,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Seismic Toss",
-			fr: "Frappe Atlas",
-			es: "Sísmico",
-			it: "Movimento Sismico",
-			pt: "Arremesso Sísmico",
-			de: "Geowurf"
+			'en-us': "Seismic Toss",
+			'fr-fr': "Frappe Atlas",
+			'es-es': "Sísmico",
+			'it-it': "Movimento Sismico",
+			'pt-br': "Arremesso Sísmico",
+			'de-de': "Geowurf"
 		},
 
 		damage: 110
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It performs throwing moves with first-rate skill. Over the course of many battles, Throh's belt grows darker as it absorbs its wearer's sweat.",
+		'en-us': "It performs throwing moves with first-rate skill. Over the course of many battles, Throh's belt grows darker as it absorbs its wearer's sweat.",
 	},
 
 	variants: [

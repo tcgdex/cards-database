@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dedenne",
-		fr: "Dedenne",
-		es: "Dedenne",
-		it: "Dedenne",
-		pt: "Dedenne",
-		de: "Dedenne"
+		'en-us': "Dedenne",
+		'fr-fr': "Dedenne",
+		'es-es': "Dedenne",
+		'it-it': "Dedenne",
+		'pt-br': "Dedenne",
+		'de-de': "Dedenne"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Second Bite",
-			fr: "Double Morsure",
-			es: "Segundo Mordisco",
-			it: "Secondo Morso",
-			pt: "Segunda Mordida",
-			de: "Zweiter Biss"
+			'en-us': "Second Bite",
+			'fr-fr': "Double Morsure",
+			'es-es': "Segundo Mordisco",
+			'it-it': "Secondo Morso",
+			'pt-br': "Segunda Mordida",
+			'de-de': "Zweiter Biss"
 		},
 
 		effect: {
-			en: "This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.",
-			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
-			es: "Este ataque hace 10 puntos de daño más por cada contador de daño en el Pokémon Activo de tu rival.",
-			it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente sul Pokémon attivo del tuo avversario.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano no Pokémon Ativo do seu oponente.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu."
+			'en-us': "This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.",
+			'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
+			'es-es': "Este ataque hace 10 puntos de daño más por cada contador de daño en el Pokémon Activo de tu rival.",
+			'it-it': "Questo attacco infligge 10 danni in più per ogni segnalino danno presente sul Pokémon attivo del tuo avversario.",
+			'pt-br': "Este ataque causa 10 pontos de dano a mais para cada contador de dano no Pokémon Ativo do seu oponente.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
@@ -65,7 +65,7 @@ const card: Card = {
 	illustrator: "Nelnal",
 
 	description: {
-		en: "It's small and its electricity-generating organ is not fully developed, so it uses its tail to absorb electricity from people's homes and charge itself.",
+		'en-us': "It's small and its electricity-generating organ is not fully developed, so it uses its tail to absorb electricity from people's homes and charge itself.",
 	},
 
 	thirdParty: {

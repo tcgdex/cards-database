@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Vulpix δ",
-		fr: "Goupix δ",
-		de: "Vulpix"
+		'en-us': "Vulpix δ",
+		'fr-fr': "Goupix δ",
+		'de-de': "Vulpix"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnotic Gaze",
-				fr: "Regard hypnotique",
-				de: "Hypnotischer Blick"
+				'en-us': "Hypnotic Gaze",
+				'fr-fr': "Regard hypnotique",
+				'de-de': "Hypnotischer Blick"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Will-o'-the-wisp",
-				fr: "Feu follet",
-				de: "Irrlicht"
+				'en-us': "Will-o'-the-wisp",
+				'fr-fr': "Feu follet",
+				'de-de': "Irrlicht"
 			},
 
 			damage: 20,

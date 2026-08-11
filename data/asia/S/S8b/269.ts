@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポプラ",
+		'ja-jp': "ポプラ",
 	},
 
 	illustrator: "Taira Akitsu",
 	category: "Trainer",
 
 	effect: {
-		ja: "コインを2回投げ、オモテの数ぶんまで、自分の山札から好きなカードを選び、手札に加える。そして山札を切る。",
+		'ja-jp': "コインを2回投げ、オモテの数ぶんまで、自分の山札から好きなカードを選び、手札に加える。そして山札を切る。",
 	},
 
 	variants: [

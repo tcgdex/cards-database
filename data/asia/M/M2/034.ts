@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パーモット",
+		'ja-jp': "パーモット",
 	},
 
 	illustrator: "satoma",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "普段は おっとりしているが いざ 戦いになると 電光石火の 身のこなしで 敵を 叩きのめす。",
+		'ja-jp': "普段は おっとりしているが いざ 戦いになると 電光石火の 身のこなしで 敵を 叩きのめす。",
 	},
 
 	stage: "Stage2",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "holo"}],
 
 	evolveFrom: {
-		ja: "パモット",
+		'ja-jp': "パモット",
 	},
 
 	retreat: 1,

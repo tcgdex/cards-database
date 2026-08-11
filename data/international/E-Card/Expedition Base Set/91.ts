@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Quilava",
-		fr: "Feurisson",
-		de: "Igelavar"
+		'en-us': "Quilava",
+		'fr-fr': "Feurisson",
+		'de-de': "Igelavar"
 	},
 
 	illustrator: "Asuka Iwashita",
@@ -22,18 +22,18 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cyndaquil",
-		fr: "Héricendre"
+		'en-us': "Cyndaquil",
+		'fr-fr': "Héricendre"
 	},
 
 	abilities: [
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Conductive Body",
+				'en-us': "Conductive Body",
 			},
 			effect: {
-				en: "You pay Colorless less to retreat Magnemite for each Magnemite on your Bench.",
+				'en-us': "You pay Colorless less to retreat Magnemite for each Magnemite on your Bench.",
 			},
 		},
 	],
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Singe",
-				fr: "Ça sent le roussi !",
-				de: "Super-Versengung"
+				'en-us': "Super Singe",
+				'fr-fr': "Ça sent le roussi !",
+				'de-de': "Super-Versengung"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: 20,
 
@@ -65,9 +65,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 30,

@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Scarlet & Violet'
 
 const set: Set = {
 	id: "sv08.5",
 
 	name: {
-		de: "Prismatische Entwicklungen",
-		en: "Prismatic Evolutions",
-		es: "Evoluciones Prismáticas",
-		fr: "Évolutions Prismatiques",
-		it: "Evoluzioni Prismatiche",
-		pt: "Evoluções Prismáticas"
+		'de-de': "Prismatische Entwicklungen",
+		'en-us': "Prismatic Evolutions",
+		'es-es': "Evoluciones Prismáticas",
+		'fr-fr': "Évolutions Prismatiques",
+		'it-it': "Evoluzioni Prismatiche",
+		'pt-br': "Evoluções Prismáticas"
 	},
 
 	serie: serie,

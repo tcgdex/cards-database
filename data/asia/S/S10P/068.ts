@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スピアーV",
+		'ja-jp': "スピアーV",
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -20,14 +20,14 @@ const card: Card = {
 			damage: "40×",
 			cost: ["Grass"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数×40ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数×40ダメージ。",
 			},
 		},
 		{
 			name: { ja: "むれでさす" },
 			cost: ["Grass", "Grass", "Colorless"],
 			effect: {
-				ja: "相手のポケモン1匹に、自分の場の｢スピアーV｣の数×50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、自分の場の｢スピアーV｣の数×50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

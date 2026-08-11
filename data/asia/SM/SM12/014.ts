@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シシコ",
+		'ja-jp': "シシコ",
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "幼い頃は 仲間と 群れている。 自分で 獲物を 狩るようになると 群れから 追い出され 独り立ちする。",
+		'ja-jp': "幼い頃は 仲間と 群れている。 自分で 獲物を 狩るようになると 群れから 追い出され 独り立ちする。",
 	},
 
 	stage: "Basic",

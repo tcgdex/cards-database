@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ズピカ",
+		'ja-jp': "ズピカ",
 		'zh-tw': "光蚪仔",
-		th: "ซุพีคา"
+		'th-th': "ซุพีคา"
 	},
 
 	illustrator: "nisimono",
@@ -18,9 +18,9 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "体に 蓄えた 電力で 浮遊する。 雷雲のときは いつもより 高く 浮き上がるのだ。",
+		'ja-jp': "体に 蓄えた 電力で 浮遊する。 雷雲のときは いつもより 高く 浮き上がるのだ。",
 		'zh-tw': "會用蓄積在體內的電力 浮在空中。出現雷雲時 則能浮得比平時還要高。",
-		th: "ลอยตัวด้วยกระแสไฟฟ้าที่สะสมอยู่ในร่างกาย และจะลอยสูงกว่าปกติเมื่อมีเมฆฝนฟ้าคะนอง"
+		'th-th': "ลอยตัวด้วยกระแสไฟฟ้าที่สะสมอยู่ในร่างกาย และจะลอยสูงกว่าปกติเมื่อมีเมฆฝนฟ้าคะนอง"
 	},
 
 	stage: "Basic",
@@ -29,9 +29,9 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "たいあたり",
+			'ja-jp': "たいあたり",
 			'zh-tw': "撞擊",
-			th: "พุ่งเข้าชน"
+			'th-th': "พุ่งเข้าชน"
 		},
 
 		damage: 10
@@ -39,9 +39,9 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			ja: "エレキボール",
+			'ja-jp': "エレキボール",
 			'zh-tw': "電球",
-			th: "อิเล็กทริกบอล"
+			'th-th': "อิเล็กทริกบอล"
 		},
 
 		damage: 20

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "อาโอการาสึ <ของฮ็อป>",
-		id: "Corvisquire <Hop>"
+		'th-th': "อาโอการาสึ <ของฮ็อป>",
+		'id-id': "Corvisquire <Hop>"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -15,24 +15,24 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "หัวดี ถ้าเป็นอุปกรณ์ที่สามารถใช้งานด้วยเท้าหรือจะงอยปากได้ แป๊บเดียวก็จำวิธีใช้ได้",
-		id: "Corvisquire sangat cerdas. Pokémon ini dengan mudahnya mengingat cara pemakaian alat yang dapat digunakan dengan paruh dan kakinya."
+		'th-th': "หัวดี ถ้าเป็นอุปกรณ์ที่สามารถใช้งานด้วยเท้าหรือจะงอยปากได้ แป๊บเดียวก็จำวิธีใช้ได้",
+		'id-id': "Corvisquire sangat cerdas. Pokémon ini dengan mudahnya mengingat cara pemakaian alat yang dapat digunakan dengan paruh dan kakinya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "บินเร็วจี๋",
-			id: "Terbang Cepat"
+			'th-th': "บินเร็วจี๋",
+			'id-id': "Terbang Cepat"
 		},
 
 		damage: 30,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "ขนปีกแหลมคม",
-			id: "Bulu Tajam"
+			'th-th': "ขนปีกแหลมคม",
+			'id-id': "Bulu Tajam"
 		},
 
 		damage: 80,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Phanpy",
-		fr: "Phanpy",
-		de: "Phanpy"
+		'en-us': "Phanpy",
+		'fr-fr': "Phanpy",
+		'de-de': "Phanpy"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flail",
-				fr: "Fléau",
-				de: "Dreschflegel"
+				'en-us': "Flail",
+				'fr-fr': "Fléau",
+				'de-de': "Dreschflegel"
 			},
 			effect: {
-				en: "This attack does 10 damage times the number of damage counters on Phanpy.",
-				fr: "Cette attaque inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Phanpy.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl an Schadensmarken auf Phanpy zu."
+				'en-us': "This attack does 10 damage times the number of damage counters on Phanpy.",
+				'fr-fr': "Cette attaque inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Phanpy.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl an Schadensmarken auf Phanpy zu."
 			},
 			damage: "10×",
 
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'de-de': "Walzer"
 			},
 
 			damage: 20,

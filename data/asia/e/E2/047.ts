@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スムーチュム",
+		'ja-jp': "スムーチュム",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "エネルギーキス",
+				'ja-jp': "エネルギーキス",
 			},
 			effect: {
-				ja: "防御ポケモンに接続されたエネルギーカードの数に等しい多数のコインをひっくり返します。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "防御ポケモンに接続されたエネルギーカードの数に等しい多数のコインをひっくり返します。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 		},
 	],

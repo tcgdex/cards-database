@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ソロック",
+		'ja-jp': "ソロック",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ルナシェード",
+				'ja-jp': "ルナシェード",
 			},
 			effect: {
-				ja: "Lunatoneがプレイしている限り、各プレイヤーの無色のPokã©Mon（Pokã©Mon-Exを除く）はPokã©Powersを使用できません。",
+				'ja-jp': "Lunatoneがプレイしている限り、各プレイヤーの無色のPokã©Mon（Pokã©Mon-Exを除く）はPokã©Powersを使用できません。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "家族を呼びます",
+				'ja-jp': "家族を呼びます",
 			},
 			effect: {
-				ja: "デッキを検索してルナトンを探して、ベンチに置きます。その後、デッキをシャッフルします。",
+				'ja-jp': "デッキを検索してルナトンを探して、ベンチに置きます。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "ハイパービーム",
+				'ja-jp': "ハイパービーム",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、防御ポケモンに取り付けられたエネルギーカードを捨てます。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、防御ポケモンに取り付けられたエネルギーカードを捨てます。",
 			},
 		},
 	],

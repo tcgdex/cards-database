@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Team Flare Grunt",
-		fr: "Sbire de la Team Flare",
-		es: "Recluta del Team Flare",
-		it: "Recluta del Team Flare",
-		pt: "Grunhido da Equipe Flare",
-		de: "Team Flare-Rüpel"
+		'en-us': "Team Flare Grunt",
+		'fr-fr': "Sbire de la Team Flare",
+		'es-es': "Recluta del Team Flare",
+		'it-it': "Recluta del Team Flare",
+		'pt-br': "Grunhido da Equipe Flare",
+		'de-de': "Team Flare-Rüpel"
 	},
 
 	illustrator: "Yusuke Ohmura",
@@ -17,12 +17,12 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
-		en: "Discard an Energy attached to your opponent's Active Pokémon.",
-		es: "Descarta 1 Energía unida al Pokémon Activo de tu rival.",
-		it: "Scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
-		pt: "Descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
-		de: "Lege 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
+		'fr-fr': "Défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+		'en-us': "Discard an Energy attached to your opponent's Active Pokémon.",
+		'es-es': "Descarta 1 Energía unida al Pokémon Activo de tu rival.",
+		'it-it': "Scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
+		'pt-br': "Descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
+		'de-de': "Lege 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
 	},
 
 	trainerType: "Supporter",

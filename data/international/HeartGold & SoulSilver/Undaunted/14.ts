@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Hariyama",
-		fr: "Hariyama",
-		de: "Hariyama"
+		'en-us': "Hariyama",
+		'fr-fr': "Hariyama",
+		'de-de': "Hariyama"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Makuhita",
-		fr: "Makuhita"
+		'en-us': "Makuhita",
+		'fr-fr': "Makuhita"
 	},
 
 	stage: "Stage1",
@@ -36,9 +36,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer In",
-				fr: "Enfoncer",
-				de: "Einhämmern"
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncer",
+				'de-de': "Einhämmern"
 			},
 
 			damage: 60,
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Backward Belt Throw",
-				fr: "Projection arrière",
-				de: "Rückwärtsgürtelwurf"
+				'en-us': "Backward Belt Throw",
+				'fr-fr': "Projection arrière",
+				'de-de': "Rückwärtsgürtelwurf"
 			},
 			effect: {
-				en: "You may do 80 damage plus 20 more damage. If you do, Hariyama does 20 damage to itself.",
-				fr: "Vous pouvez infliger 80 dégâts plus 20 dégâts supplémentaires. Dans ce cas, Hariyama s’inflige 20 dégâts.",
-				de: "Dieser Angriff kann 80 Schadenspunkte plus 20 weitere Schadenspunkte zufügen. In diesem Fall fügt Hariyama sich selbst 20 Schadenspunkte zu."
+				'en-us': "You may do 80 damage plus 20 more damage. If you do, Hariyama does 20 damage to itself.",
+				'fr-fr': "Vous pouvez infliger 80 dégâts plus 20 dégâts supplémentaires. Dans ce cas, Hariyama s’inflige 20 dégâts.",
+				'de-de': "Dieser Angriff kann 80 Schadenspunkte plus 20 weitere Schadenspunkte zufügen. In diesem Fall fügt Hariyama sich selbst 20 Schadenspunkte zu."
 			},
 			damage: "80+",
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It loves challenging others to tests of strength. It has the power to stop a train with a slap."
+		'en-us': "It loves challenging others to tests of strength. It has the power to stop a train with a slap."
 	},
 
 	variants: [

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Voltorb"
+		'en-us': "Lt. Surge's Voltorb"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -28,10 +28,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bouncing Ball"
+				'en-us': "Bouncing Ball"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Lt. Surge's Voltorb does 10 damage to itself."
+				'en-us': "Flip a coin. If tails, Lt. Surge's Voltorb does 10 damage to itself."
 			},
 			damage: 30,
 

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Remoraid"
+		'id-id': "Remoraid"
 	},
 
 	illustrator: "Midori Harada",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Remoraid menggunakan sirip punggungnya yang berubah menjadi semacam pengisap untuk menempel di tubuh Mantine dan mendapatkan sisa makanan."
+		'id-id': "Remoraid menggunakan sirip punggungnya yang berubah menjadi semacam pengisap untuk menempel di tubuh Mantine dan mendapatkan sisa makanan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Percikan Air"
+			'id-id': "Percikan Air"
 		},
 
 		damage: 10,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジョルテオン（デルタ種）",
+		'ja-jp': "ジョルテオン（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "デルタ検索",
+				'ja-jp': "デルタ検索",
 			},
 			effect: {
-				ja: "デッキを検索してホロンエネルギーカードを調べ、ジョルテオンに添付してください。その後、デッキをシャッフルします。",
+				'ja-jp': "デッキを検索してホロンエネルギーカードを調べ、ジョルテオンに添付してください。その後、デッキをシャッフルします。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Lightning", "Metal", "Colorless"],
 			name: {
-				ja: "スパークを返します",
+				'ja-jp': "スパークを返します",
 			},
 			effect: {
-				ja: "Jolteonに取り付けられたエネルギーカードを手に返すことができます。もしそうなら、この攻撃は、相手のベンチ付きポケモンの1つに20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "Jolteonに取り付けられたエネルギーカードを手に返すことができます。もしそうなら、この攻撃は、相手のベンチ付きポケモンの1つに20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 50,
 		},

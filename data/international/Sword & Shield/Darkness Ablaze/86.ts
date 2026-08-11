@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [246],
 
 	name: {
-		en: "Larvitar",
-		fr: "Embrylex",
-		es: "Larvitar",
-		it: "Larvitar",
-		pt: "Larvitar",
-		de: "Larvitar"
+		'en-us': "Larvitar",
+		'fr-fr': "Embrylex",
+		'es-es': "Larvitar",
+		'it-it': "Larvitar",
+		'pt-br': "Larvitar",
+		'de-de': "Larvitar"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Sand Spray",
-				fr: "Jet Sableux",
-				es: "Rociado de Arena",
-				it: "Silicospruzzo",
-				pt: "Spray de Areia",
-				de: "Sandspray"
+				'en-us': "Sand Spray",
+				'fr-fr': "Jet Sableux",
+				'es-es': "Rociado de Arena",
+				'it-it': "Silicospruzzo",
+				'pt-br': "Spray de Areia",
+				'de-de': "Sandspray"
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pierce",
-				fr: "Transpercement",
-				es: "Perforar",
-				it: "Perforare",
-				pt: "Perfurar",
-				de: "Durchbohren"
+				'en-us': "Pierce",
+				'fr-fr': "Transpercement",
+				'es-es': "Perforar",
+				'it-it': "Perforare",
+				'pt-br': "Perfurar",
+				'de-de': "Durchbohren"
 			},
 
 			damage: 20,
@@ -73,7 +73,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil."
+		'en-us': "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil."
 	},
 
 	variants: [

@@ -1,31 +1,31 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ツボツボ"
+		'ja-jp': "ツボツボ"
 	},
 	illustrator: "Shinya Komatsu",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Grass"],
 	description: {
-		ja: "ツボのような甲羅の中にためこんだ木の実はいつの間にかドロドロのジュースに変わる。"
+		'ja-jp': "ツボのような甲羅の中にためこんだ木の実はいつの間にかドロドロのジュースに変わる。"
 	},
 	stage: "Basic",
 	abilities: [{
 		type: "Ability",
 		name: {
-			ja: "はっこうジュース"
+			'ja-jp': "はっこうジュース"
 		},
 		effect: {
-			ja: "このポケモンに草エネルギーがついているなら、自分の番に1回使える。自分のポケモン1匹のHPを「30」回復する。"
+			'ja-jp': "このポケモンに草エネルギーがついているなら、自分の番に1回使える。自分のポケモン1匹のHPを「30」回復する。"
 		}
 	}],
 	attacks: [{
 		name: {
-			ja: "ころがる"
+			'ja-jp': "ころがる"
 		},
 		damage: 30,
 		cost: ["Grass", "Colorless"]

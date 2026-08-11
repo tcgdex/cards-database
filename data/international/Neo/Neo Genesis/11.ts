@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Meganium",
-		fr: "Meganium",
-		de: "Meganie"
+		'en-us': "Meganium",
+		'fr-fr': "Meganium",
+		'de-de': "Meganie"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bayleef",
-		fr: "Macronium"
+		'en-us': "Bayleef",
+		'fr-fr': "Macronium"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Wild Growth",
-				fr: "Luxuriance",
-				de: "Wild Growth"
+				'en-us': "Wild Growth",
+				'fr-fr': "Luxuriance",
+				'de-de': "Wild Growth"
 			},
 			effect: {
-				en: "As long as Meganium is in play, each Grass Energy card attached to your Grass Pokémon instead provides GrassGrass. This power stops working while Meganium is Asleep, Confused, or Paralyzed.",
-				fr: "Aussi longtemps que Meganium est en jeu, chaque carte Énergie  attachée à vos Pokémon  fournit  . Ce pouvoir disparaît pendant que Meganium est Endormi, Confus ou Paralysé.",
-				de: "As long as Meganium is in play, each  Energy card attached to your  Pokémon instead provides . This power stops working while Meganium is Asleep, Confused, or Paralyzed."
+				'en-us': "As long as Meganium is in play, each Grass Energy card attached to your Grass Pokémon instead provides GrassGrass. This power stops working while Meganium is Asleep, Confused, or Paralyzed.",
+				'fr-fr': "Aussi longtemps que Meganium est en jeu, chaque carte Énergie  attachée à vos Pokémon  fournit  . Ce pouvoir disparaît pendant que Meganium est Endormi, Confus ou Paralysé.",
+				'de-de': "As long as Meganium is in play, each  Energy card attached to your  Pokémon instead provides . This power stops working while Meganium is Asleep, Confused, or Paralyzed."
 			},
 		},
 	],
@@ -55,14 +55,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Soothing Scent",
-				fr: "Senteur apaisante",
-				de: "Soothing Scent"
+				'en-us': "Soothing Scent",
+				'fr-fr': "Senteur apaisante",
+				'de-de': "Soothing Scent"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 			damage: 40,
 
@@ -79,8 +79,8 @@ const card: Card = {
 
 
 	description: {
-		en: "The aroma that rises from its petals contains a substance that calms aggressive feelings.",
-		fr: "Les arômes qui s'élèvent de ses pétales contiennent des substances qui effacent les sentiments agressifs."
+		'en-us': "The aroma that rises from its petals contains a substance that calms aggressive feelings.",
+		'fr-fr': "Les arômes qui s'élèvent de ses pétales contiennent des substances qui effacent les sentiments agressifs."
 	},
 
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デリバード",
+		'ja-jp': "デリバード",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "本来 寒い 土地を 好むが アローラの デリバードは ある程度の 暑さでも 耐えられる ようだ。",
+		'ja-jp': "本来 寒い 土地を 好むが アローラの デリバードは ある程度の 暑さでも 耐えられる ようだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ガンガンプレゼント" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数ぶんまで、自分の山札にある好きなカードを、手札に加える。そして山札を切る。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数ぶんまで、自分の山札にある好きなカードを、手札に加える。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Water"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
 			},
 		},
 	],

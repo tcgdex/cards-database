@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1V"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "スリープ"
+		'ja-jp': "スリープ"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "突き出た 鼻を ひくひくさせると どこの だれが どんな 夢を 見ているのか 全部 わかるという。"
+		'ja-jp': "突き出た 鼻を ひくひくさせると どこの だれが どんな 夢を 見ているのか 全部 わかるという。"
 	},
 
 	stage: "Basic",
@@ -24,17 +24,17 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "むりやりねかす"
+			'ja-jp': "むりやりねかす"
 		},
 
 		effect: {
-			ja: "相手は相手自身のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをねむりにする。"
+			'ja-jp': "相手は相手自身のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをねむりにする。"
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ひっぱたく"
+			'ja-jp': "ひっぱたく"
 		},
 
 		damage: 30

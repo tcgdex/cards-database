@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Caterpie",
-		fr: "Chenipan",
-		es: "Caterpie",
-		it: "Caterpie",
-		pt: "Caterpie",
-		de: "Raupy"
+		'en-us': "Caterpie",
+		'fr-fr': "Chenipan",
+		'es-es': "Caterpie",
+		'it-it': "Caterpie",
+		'pt-br': "Caterpie",
+		'de-de': "Raupy"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "String Shot",
-				fr: "Sécrétion",
-				es: "Disparo Demora",
-				it: "Millebave",
-				pt: "Estilingada",
-				de: "Fadenschuss"
+				'en-us': "String Shot",
+				'fr-fr': "Sécrétion",
+				'es-es': "Disparo Demora",
+				'it-it': "Millebave",
+				'pt-br': "Estilingada",
+				'de-de': "Fadenschuss"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 10,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is covered with a green skin. When it grows, it sheds the skin, covers itself with silk, and becomes a cocoon.",
+		'en-us': "It is covered with a green skin. When it grows, it sheds the skin, covers itself with silk, and becomes a cocoon.",
 	},
 
 	thirdParty: {

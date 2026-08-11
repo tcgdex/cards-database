@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Grookey",
-		fr: "Ouistempo",
-		es: "Grookey",
-		it: "Grookey",
-		pt: "Grookey",
-		de: "Chimpep"
+		'en-us': "Grookey",
+		'fr-fr': "Ouistempo",
+		'es-es': "Grookey",
+		'it-it': "Grookey",
+		'pt-br': "Grookey",
+		'de-de': "Chimpep"
 	},
 
 	illustrator: "kirisAki",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Branch Poke",
-				fr: "Tapotige",
-				es: "Punzada Rama",
-				it: "Ramostoccata",
-				pt: "Cutucada com Galho",
-				de: "Zweigstoß"
+				'en-us': "Branch Poke",
+				'fr-fr': "Tapotige",
+				'es-es': "Punzada Rama",
+				'it-it': "Ramostoccata",
+				'pt-br': "Cutucada com Galho",
+				'de-de': "Zweigstoß"
 			},
 
 			damage: 30,
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area."
+		'en-us': "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area."
 	},
 
 	dexId: [810],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダイゴのエアームド",
+		'ja-jp': "ダイゴのエアームド",
 	},
 
 	illustrator: "Nisota Niso",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "頑丈で 重そうな 鉄の 体だが 薄くて 軽いので 時速３００キロで とべる。",
+		'ja-jp': "頑丈で 重そうな 鉄の 体だが 薄くて 軽いので 時速３００キロで とべる。",
 	},
 
 	stage: "Basic",
@@ -28,7 +28,7 @@ const card: Card = {
 			name: { ja: "ツインソニック" },
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "相手のポケモン2匹に、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン2匹に、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

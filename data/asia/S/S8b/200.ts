@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デデンネ",
+		'ja-jp': "デデンネ",
 	},
 
 	illustrator: "kurumitsu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "電気を 生みだす 力が 弱いので コンセントや ほかの 電気ポケモンから 盗むのだ。",
+		'ja-jp': "電気を 生みだす 力が 弱いので コンセントや ほかの 電気ポケモンから 盗むのだ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のサイドの残り枚数が1枚なら、60ダメージ追加し、相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のサイドの残り枚数が1枚なら、60ダメージ追加し、相手のバトルポケモンをこんらんにする。",
 			},
 		},
 	],

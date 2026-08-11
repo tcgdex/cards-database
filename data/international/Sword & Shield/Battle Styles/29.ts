@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sizzlipede",
-		fr: "Grillepattes",
-		es: "Sizzlipede",
-		it: "Sizzlipede",
-		pt: "Sizzlipede",
-		de: "Thermopod"
+		'en-us': "Sizzlipede",
+		'fr-fr': "Grillepattes",
+		'es-es': "Sizzlipede",
+		'it-it': "Sizzlipede",
+		'pt-br': "Sizzlipede",
+		'de-de': "Thermopod"
 	},
 
 	illustrator: "Yuka Morii",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Searing Flame",
-			fr: "Flammes Calcinantes",
-			es: "Llama Abrasadora",
-			it: "Fiamme Ustionanti",
-			pt: "Chama Cauterizante",
-			de: "Sengende Flammen"
+			'en-us': "Searing Flame",
+			'fr-fr': "Flammes Calcinantes",
+			'es-es': "Llama Abrasadora",
+			'it-it': "Fiamme Ustionanti",
+			'pt-br': "Chama Cauterizante",
+			'de-de': "Sengende Flammen"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+			'en-us': "Your opponent's Active Pokémon is now Burned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 		},
 
 		damage: 20,
@@ -55,7 +55,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It wraps prey up with its heated body, cooking them in its coils. Once they're well-done, it will voraciously nibble them down to the last morsel."
+		'en-us': "It wraps prey up with its heated body, cooking them in its coils. Once they're well-done, it will voraciously nibble them down to the last morsel."
 	},
 
 	variants: [

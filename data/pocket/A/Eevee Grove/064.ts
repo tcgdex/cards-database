@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skwovet",
-		fr: "Rongourmand"
+		'en-us': "Skwovet",
+		'fr-fr': "Rongourmand"
 	},
 
 	illustrator: "Akira Komayama",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It stores berries in its cheeks. When there are no\nberries to be found, Skwovet will stuff pebbles\ninto its cheeks to stave off its cravings.",
-		fr: "Il emmagasine des Baies dans ses joues. Lorsqu'il n'en a plus, il essaie de compenser en accumulant des cailloux à la place."
+		'en-us': "It stores berries in its cheeks. When there are no\nberries to be found, Skwovet will stuff pebbles\ninto its cheeks to stave off its cravings.",
+		'fr-fr': "Il emmagasine des Baies dans ses joues. Lorsqu'il n'en a plus, il essaie de compenser en accumulant des cailloux à la place."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Bite",
-			fr: "Morsure"
+			'en-us': "Bite",
+			'fr-fr': "Morsure"
 		},
 
 		damage: 30,

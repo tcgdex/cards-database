@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Reuniclus",
+		'en-us': "Reuniclus",
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Duosion",
+		'en-us': "Duosion",
 	},
 
 	stage: "Stage2",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Future Sight",
+				'en-us': "Future Sight",
 			},
 			effect: {
-				en: "Look at the top 5 cards of your deck and put them back on top of your deck in any order.",
+				'en-us': "Look at the top 5 cards of your deck and put them back on top of your deck in any order.",
 			},
 
 		},
@@ -45,10 +45,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Net Force",
+				'en-us': "Net Force",
 			},
 			effect: {
-				en: "Does 40 damage times the number of Reuniclus you have in play.",
+				'en-us': "Does 40 damage times the number of Reuniclus you have in play.",
 			},
 			damage: 40,
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When Reuniclus shake hands, a network forms between their brains, increasing their psychic power.",
+		'en-us': "When Reuniclus shake hands, a network forms between their brains, increasing their psychic power.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ponyta",
-		fr: "Ponyta",
-		es: "Ponyta",
-		it: "Ponyta",
-		pt: "Ponyta",
-		de: "Ponita"
+		'en-us': "Ponyta",
+		'fr-fr': "Ponyta",
+		'es-es': "Ponyta",
+		'it-it': "Ponyta",
+		'pt-br': "Ponyta",
+		'de-de': "Ponita"
 	},
 
 	illustrator: "Jiro Sasumo",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Flame Tail",
-			fr: "Queue de Flammes",
-			es: "Cola de Fuego",
-			it: "Codafiamma",
-			pt: "Cauda de Chamas",
-			de: "Flammenschweif"
+			'en-us': "Flame Tail",
+			'fr-fr': "Queue de Flammes",
+			'es-es': "Cola de Fuego",
+			'it-it': "Codafiamma",
+			'pt-br': "Cauda de Chamas",
+			'de-de': "Flammenschweif"
 		},
 
 		damage: 20
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "These Pokémon live in herds out in the grassland. Newborn foals lack their fiery manes, which will develop about an hour after birth.",
+		'en-us': "These Pokémon live in herds out in the grassland. Newborn foals lack their fiery manes, which will develop about an hour after birth.",
 	},
 
 	variants: [

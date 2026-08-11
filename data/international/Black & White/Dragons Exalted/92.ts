@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Giratina-EX",
-		fr: "Giratina-EX",
-		es: "Giratina-EX",
-		it: "Giratina-EX",
-		pt: "Giratina-EX",
-		de: "Giratina-EX"
+		'en-us': "Giratina-EX",
+		'fr-fr': "Giratina-EX",
+		'es-es': "Giratina-EX",
+		'it-it': "Giratina-EX",
+		'pt-br': "Giratina-EX",
+		'de-de': "Giratina-EX"
 	},
 	illustrator: "Eske Yoshinob",
 	rarity: "Rare",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shred",
-				fr: "Déchiquetage",
+				'en-us': "Shred",
+				'fr-fr': "Déchiquetage",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by any effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Défenseur.",
+				'en-us': "This attack's damage isn't affected by any effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Défenseur.",
 			},
 			damage: 90,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Pulse",
-				fr: "Dracochoc",
+				'en-us': "Dragon Pulse",
+				'fr-fr': "Dracochoc",
 			},
 			effect: {
-				en: "Discard the top 3 cards of your deck.",
-				fr: "Défaussez les 3 cartes du dessus de votre deck.",
+				'en-us': "Discard the top 3 cards of your deck.",
+				'fr-fr': "Défaussez les 3 cartes du dessus de votre deck.",
 			},
 			damage: 130,
 

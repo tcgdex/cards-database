@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM trainer Kit (Lycanroc)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Makuhita",
-		fr: "Makuhita",
-		es: "Makuhita",
-		it: "Makuhita",
-		pt: "Makuhita",
-		de: "Makuhita"
+		'en-us': "Makuhita",
+		'fr-fr': "Makuhita",
+		'es-es': "Makuhita",
+		'it-it': "Makuhita",
+		'pt-br': "Makuhita",
+		'de-de': "Makuhita"
 	},
 
 	illustrator: "Mina Nakai",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Surprise Attack"
+				'en-us': "Surprise Attack"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing."
+				'en-us': "Flip a coin. If tails, this attack does nothing."
 			},
 			damage: 20
 		},
@@ -40,7 +40,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strength"
+				'en-us': "Strength"
 			},
 			damage: 40
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legend Maker'
 
 const card: Card = {
 	name: {
-		en: "Absol",
-		fr: "Absol",
-		de: "Absol"
+		'en-us': "Absol",
+		'fr-fr': "Absol",
+		'de-de': "Absol"
 	},
 
 	illustrator: "Midori Harada",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Shining Horn",
-				fr: "Corne brillante",
-				de: "Glänzendes Horn"
+				'en-us': "Shining Horn",
+				'fr-fr': "Corne brillante",
+				'de-de': "Glänzendes Horn"
 			},
 			effect: {
-				en: "As long as Absol is the only Pokémon you have in play, your opponent's Basic Pokémon can't attack.",
-				fr: "Tant qu'Absol est le seul Pokémon que vous ayez en jeu, les Pokémon de base de votre adversaire ne peuvent pas attaquer.",
-				de: "Solange Absol das einzige Pokémon ist, das du im Spiel hast, können die Basis-Pokémon deines Gegners nicht angreifen."
+				'en-us': "As long as Absol is the only Pokémon you have in play, your opponent's Basic Pokémon can't attack.",
+				'fr-fr': "Tant qu'Absol est le seul Pokémon que vous ayez en jeu, les Pokémon de base de votre adversaire ne peuvent pas attaquer.",
+				'de-de': "Solange Absol das einzige Pokémon ist, das du im Spiel hast, können die Basis-Pokémon deines Gegners nicht angreifen."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Extra Call",
-				fr: "Appel supplémentaire",
-				de: "Extraruf"
+				'en-us': "Extra Call",
+				'fr-fr': "Appel supplémentaire",
+				'de-de': "Extraruf"
 			},
 			effect: {
-				en: "Search your deck for a Pokémon-ex, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck un Pokémon-ex, montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach einem Pokémon-ex, zeige es deinem Gegner und nimm es danach auf deine Hand. Mische dein Deck danach."
+				'en-us': "Search your deck for a Pokémon-ex, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck un Pokémon-ex, montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach einem Pokémon-ex, zeige es deinem Gegner und nimm es danach auf deine Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -64,14 +64,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Feint Attack",
-				fr: "Feinte",
-				de: "Finte"
+				'en-us': "Feint Attack",
+				'fr-fr': "Feinte",
+				'de-de': "Finte"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur ce Pokémon.",
-				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. Schwäche, Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur ce Pokémon.",
+				'de-de': "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. Schwäche, Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
 			},
 
 		},

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Scrafty"
+		'id-id': "Scrafty"
 	},
 
 	illustrator: "Mousho",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Scrafty memiliki sifat yang sangat kasar, tapi Pokémon ini juga menjaga baik-baik keluarga, teman, dan daerah kekuasaannya."
+		'id-id': "Scrafty memiliki sifat yang sangat kasar, tapi Pokémon ini juga menjaga baik-baik keluarga, teman, dan daerah kekuasaannya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Hajar"
+			'id-id': "Hajar"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, Pokémon Basic yang menerima serangan ini tidak dapat menggunakan serangan."
+			'id-id': "Pada giliran lawan berikutnya, Pokémon Basic yang menerima serangan ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 30,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Hantaman Kepala"
+			'id-id': "Hantaman Kepala"
 		},
 
 		damage: 130,

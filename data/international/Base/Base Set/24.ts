@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Charmeleon",
-		fr: "Reptincel",
-		de: "Glutexo",
-		it: "Charmeleon"
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel",
+		'de-de': "Glutexo",
+		'it-it': "Charmeleon"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -25,9 +25,9 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmander",
-		fr: "Salamèche",
-		it: "Charmander"
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche",
+		'it-it': "Charmander"
 	},
 
 	stage: "Stage1",
@@ -40,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Schlitzer",
-				it: "Lacerazione"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Schlitzer",
+				'it-it': "Lacerazione"
 			},
 
 			damage: 30,
@@ -56,16 +56,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-flamme",
-				de: "Flammenwurf",
-				it: "Lanciafiamme"
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-flamme",
+				'de-de': "Flammenwurf",
+				'it-it': "Lanciafiamme"
 			},
 			effect: {
-				en: "Discard 1 Energy card attached to Charmeleon in order to use this attack.",
-				fr: "Défaussez 1 carte Énergie  attachée à Reptincel pour pouvoir utiliser cette attaque.",
-				de: "Entferne eine auf Glutexo abgelegte  Energiekarte, um diesen Angriff auszuführen.",
-				it: "Scarta una carta Energia Fuoco assegnata a Charmeleon per poter usare questo attacco."
+				'en-us': "Discard 1 Energy card attached to Charmeleon in order to use this attack.",
+				'fr-fr': "Défaussez 1 carte Énergie  attachée à Reptincel pour pouvoir utiliser cette attaque.",
+				'de-de': "Entferne eine auf Glutexo abgelegte  Energiekarte, um diesen Angriff auszuführen.",
+				'it-it': "Scarta una carta Energia Fuoco assegnata a Charmeleon per poter usare questo attacco."
 			},
 			damage: 50,
 
@@ -111,9 +111,9 @@ const card: Card = {
 
 
 	description: {
-		en: "When it swings its burning tail, it raises the temperature to unbearably high levels.",
-		fr: "En agitant sa queue, il peut élever le niveau de la température à un degré incroyable.",
-		it: "Quando rotea la coda incandescente, aumenta la temperatura a livelli insopportabilmente alti. LIV 32 N.5"
+		'en-us': "When it swings its burning tail, it raises the temperature to unbearably high levels.",
+		'fr-fr': "En agitant sa queue, il peut élever le niveau de la température à un degré incroyable.",
+		'it-it': "Quando rotea la coda incandescente, aumenta la temperatura a livelli insopportabilmente alti. LIV 32 N.5"
 	},
 }
 

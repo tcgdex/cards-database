@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Finneon",
-		fr: "Ecayon",
-		de: "Finneon"
+		'en-us': "Finneon",
+		'fr-fr': "Ecayon",
+		'de-de': "Finneon"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Elegant Swim",
-				fr: "Nage élégante",
-				de: "Elegantes Schwimmen"
+				'en-us': "Elegant Swim",
+				'fr-fr': "Nage élégante",
+				'de-de': "Elegantes Schwimmen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Finneon during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Ecayon lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Finneon zugefügt werden."
+				'en-us': "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Finneon during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Ecayon lors du prochain tour de votre adversaire.",
+				'de-de': "Wirf 1 Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Finneon zugefügt werden."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -68,8 +68,8 @@ const card: Card = {
 
 
 	description: {
-		en: "After long exposure to sunlight, the patterns on its tail fins shine vividly when darkness arrives.",
-		fr: "Après une longue exposition au soleil, les motifs de ses nageoires caudales luisent à la nuit tombée."
+		'en-us': "After long exposure to sunlight, the patterns on its tail fins shine vividly when darkness arrives.",
+		'fr-fr': "Après une longue exposition au soleil, les motifs de ses nageoires caudales luisent à la nuit tombée."
 	},
 
 	thirdParty: {

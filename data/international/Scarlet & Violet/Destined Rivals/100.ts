@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Medicham",
-		fr: "Charmina",
-		de: "Meditalis",
-		it: "Medicham",
-		es: "Medicham",
-		pt: "Medicham",
+		'en-us': "Medicham",
+		'fr-fr': "Charmina",
+		'de-de': "Meditalis",
+		'it-it': "Medicham",
+		'es-es': "Medicham",
+		'pt-br': "Medicham",
 		'es-mx': "Medicham"
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Meditite",
-		fr: "Méditikka",
-		de: "Meditie",
-		it: "Meditite",
-		es: "Meditite",
-		pt: "Meditite",
+		'en-us': "Meditite",
+		'fr-fr': "Méditikka",
+		'de-de': "Meditie",
+		'it-it': "Meditite",
+		'es-es': "Meditite",
+		'pt-br': "Meditite",
 		'es-mx': "Meditite"
 	},
 	stage: "Stage1",
@@ -37,22 +37,22 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Harmonious Spirit Palm",
-			fr: "Paume Esprit Harmonieux",
-			de: "Harmonische Mentalhand",
-			it: "Palmospirito Armonioso",
-			es: "Palma del Espíritu Armonioso",
-			pt: "Palma do Espírito Harmonioso",
+			'en-us': "Harmonious Spirit Palm",
+			'fr-fr': "Paume Esprit Harmonieux",
+			'de-de': "Harmonische Mentalhand",
+			'it-it': "Palmospirito Armonioso",
+			'es-es': "Palma del Espíritu Armonioso",
+			'pt-br': "Palma do Espírito Harmonioso",
 			'es-mx': "Palma del Espíritu Armonioso"
 		},
 
 		effect: {
-			en: "If this Pokémon and your opponent's Active Pokémon have the same amount of Energy attached, this attack does 120 more damage.",
-			fr: "Si ce Pokémon et le Pokémon Actif de votre adversaire ont autant d'Énergies attachées, cette attaque inflige 120 dégâts supplémentaires.",
-			de: "Wenn an dieses Pokémon genauso viel Energie angelegt ist wie an das Aktive Pokémon deines Gegners, fügt diese Attacke 120 Schadenspunkte mehr zu.",
-			it: "Se questo Pokémon e il Pokémon attivo del tuo avversario hanno la stessa quantità di Energie assegnate, questo attacco infligge 120 danni in più.",
-			es: "Si este Pokémon y el Pokémon Activo de tu rival tienen la misma cantidad de Energías unidas, este ataque hace 120 puntos de daño más.",
-			pt: "Se este Pokémon e o Pokémon Ativo do seu oponente tiverem a mesma quantidade de Energia ligada a eles, este ataque causará 120 pontos de dano a mais.",
+			'en-us': "If this Pokémon and your opponent's Active Pokémon have the same amount of Energy attached, this attack does 120 more damage.",
+			'fr-fr': "Si ce Pokémon et le Pokémon Actif de votre adversaire ont autant d'Énergies attachées, cette attaque inflige 120 dégâts supplémentaires.",
+			'de-de': "Wenn an dieses Pokémon genauso viel Energie angelegt ist wie an das Aktive Pokémon deines Gegners, fügt diese Attacke 120 Schadenspunkte mehr zu.",
+			'it-it': "Se questo Pokémon e il Pokémon attivo del tuo avversario hanno la stessa quantità di Energie assegnate, questo attacco infligge 120 danni in più.",
+			'es-es': "Si este Pokémon y el Pokémon Activo de tu rival tienen la misma cantidad de Energías unidas, este ataque hace 120 puntos de daño más.",
+			'pt-br': "Se este Pokémon e o Pokémon Ativo do seu oponente tiverem a mesma quantidade de Energia ligada a eles, este ataque causará 120 pontos de dano a mais.",
 			'es-mx': "Si este Pokémon y el Pokémon Activo de tu rival tienen la misma cantidad de Energías unidas, este ataque hace 120 puntos de daño más."
 		},
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チラーミィ",
+		'ja-jp': "チラーミィ",
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "きれい好きな 性格の ポケモン。 尻尾を ほうきがわりに いつも 棲み処の ほこりを 払っている。",
+		'ja-jp': "きれい好きな 性格の ポケモン。 尻尾を ほうきがわりに いつも 棲み処の ほこりを 払っている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンにも10ダメージ。",
+				'ja-jp': "このポケモンにも10ダメージ。",
 			},
 		},
 	],

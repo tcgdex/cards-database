@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Clefable",
-		fr: "Mélodelfe",
+		'en-us': "Clefable",
+		'fr-fr': "Mélodelfe",
 	},
 
 	illustrator: "sui",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Clefairy",
-		fr: "Mélofée",
+		'en-us': "Clefairy",
+		'fr-fr': "Mélofée",
 	},
 
 	stage: "Stage1",
@@ -36,8 +36,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras’Face",
+				'en-us': "Pound",
+				'fr-fr': "Écras’Face",
 			},
 
 			damage: 40,
@@ -50,8 +50,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Moon Impact",
-				fr: "Impact Lunaire",
+				'en-us': "Moon Impact",
+				'fr-fr': "Impact Lunaire",
 			},
 
 			damage: 90,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It can't help but hear a pin drop from over half a mile away, so it lives deep in the mountains where there aren't many people or Pokémon.",
+		'en-us': "It can't help but hear a pin drop from over half a mile away, so it lives deep in the mountains where there aren't many people or Pokémon.",
 	},
 
 	thirdParty: {

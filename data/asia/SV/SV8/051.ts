@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デスマス",
+		'ja-jp': "デスマス",
 		'zh-tw': "哭哭面具",
 		'zh-cn': "哭哭面具",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "夜な夜な 遺跡を さまよう。 もっている マスクは 人 だった ころの 自分の 顔 だという。",
+		'ja-jp': "夜な夜な 遺跡を さまよう。 もっている マスクは 人 だった ころの 自分の 顔 だという。",
 		'zh-tw': "每天夜裡都在遺跡中徘徊。 據說牠拿著的面具 是牠還是人類時的臉。",
 		'zh-cn': "每天夜裡都在遺跡中徘徊。 據說牠拿著的面具 是牠還是人類時的臉。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "つぶやく",
+				'ja-jp': "つぶやく",
 				'zh-tw': "囈語",
 				'zh-cn': "囈語",
 			},
@@ -34,7 +34,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ちょっとうらむ",
+				'ja-jp': "ちょっとうらむ",
 				'zh-tw': "咒怨一下",
 				'zh-cn': "咒怨一下",
 			},

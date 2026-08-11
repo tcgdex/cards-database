@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Haunter",
-		de: "Alpollo"
+		'en-us': "Haunter",
+		'de-de': "Alpollo"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gastly",
+		'en-us': "Gastly",
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confuse Ray",
-				de: "Konfustrahl"
+				'en-us': "Confuse Ray",
+				'de-de': "Konfustrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shadow Hand",
-				de: "Schattenhand"
+				'en-us': "Shadow Hand",
+				'de-de': "Schattenhand"
 			},
 			effect: {
-				en: "You may discard up to 2 cards from your hand. If you do, draw that many cards.",
-				de: "Du kannst bis zu 2 Karten aus deiner Hand auf deinen Ablagestapel legen. Ziehe für jede abgelegte Karte eine neue Karte."
+				'en-us': "You may discard up to 2 cards from your hand. If you do, draw that many cards.",
+				'de-de': "Du kannst bis zu 2 Karten aus deiner Hand auf deinen Ablagestapel legen. Ziehe für jede abgelegte Karte eine neue Karte."
 			},
 			damage: 30,
 

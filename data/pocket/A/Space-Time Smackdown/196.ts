@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Space-Time Smackdown"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Yanmega ex",
-		fr: "Yanmega-ex",
-		es: "Yanmega ex",
-		it: "Yanmega-ex",
-		de: "Yanmega-ex",
+		'en-us': "Yanmega ex",
+		'fr-fr': "Yanmega-ex",
+		'es-es': "Yanmega ex",
+		'it-it': "Yanmega-ex",
+		'de-de': "Yanmega-ex",
 		'pt-br': "Yanmega ex",
-		ko: "메가자리 ex"
+		'ko-kr': "메가자리 ex"
 	},
 
 	illustrator: "Mina Nakai",
@@ -23,7 +23,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Yanma"
+		'en-us': "Yanma"
 	},
 
 	stage: "Stage1",
@@ -31,26 +31,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Air Slash",
-			fr: "Lame d'Air",
-			es: "Tajo Aéreo",
-			it: "Eterelama",
-			de: "Luftschnitt",
+			'en-us': "Air Slash",
+			'fr-fr': "Lame d'Air",
+			'es-es': "Tajo Aéreo",
+			'it-it': "Eterelama",
+			'de-de': "Luftschnitt",
 			'pt-br': "Golpe de Ar",
-			ko: "에어슬래시"
+			'ko-kr': "에어슬래시"
 		},
 
 		damage: 120,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Discard a random Energy from this Pokémon.",
-			fr: "Défaussez une Énergie au hasard de ce Pokémon.",
-			es: "Descarta 1 Energía aleatoria de este Pokémon.",
-			it: "Rimuovi un'Energia a caso da questo Pokémon.",
-			de: "Lege 1 zufällige Energie von diesem Pokémon ab.",
+			'en-us': "Discard a random Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie au hasard de ce Pokémon.",
+			'es-es': "Descarta 1 Energía aleatoria de este Pokémon.",
+			'it-it': "Rimuovi un'Energia a caso da questo Pokémon.",
+			'de-de': "Lege 1 zufällige Energie von diesem Pokémon ab.",
 			
-			ko: "이 포켓몬에서 에너지를 랜덤으로 1개 트래쉬한다.",
+			'ko-kr': "이 포켓몬에서 에너지를 랜덤으로 1개 트래쉬한다.",
 			'pt-br': "Descarte 1 Energia aleatória deste Pokémon."
 		}
 	}],

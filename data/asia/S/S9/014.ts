@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "噴火龍V",
-		ja: "リザードンV"
+		'ja-jp': "リザードンV"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -19,12 +19,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "燒盡",
-			ja: "やきつくす"
+			'ja-jp': "やきつくす"
 		},
 
 		effect: {
 			'zh-tw': "在造成傷害前，將對手的戰鬥寶可夢身上附加的「寶可夢道具」丟棄。",
-			ja: "ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。"
+			'ja-jp': "ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。"
 		},
 
 		damage: 90,
@@ -32,7 +32,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "高溫爆破",
-			ja: "ヒートブラスト"
+			'ja-jp': "ヒートブラスト"
 		},
 
 		damage: 180,

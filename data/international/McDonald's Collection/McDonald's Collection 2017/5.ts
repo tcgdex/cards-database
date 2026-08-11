@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2017'
 
 const card: Card = {
@@ -7,8 +7,8 @@ const card: Card = {
 	],
 	set: Set,
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -23,12 +23,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thudner Wave",
-				fr: "Cage-Éclair",
+				'en-us': "Thudner Wave",
+				'fr-fr': "Cage-Éclair",
 			},
 			effect: {
-				en: "Flip a coin, If heads your opponent's active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'en-us': "Flip a coin, If heads your opponent's active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 		},
 		{
@@ -38,7 +38,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				fr: "Boule Élek",
+				'fr-fr': "Boule Élek",
 			},
 			damage: "50",
 		},

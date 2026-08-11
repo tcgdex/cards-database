@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ノクタス",
+		'ja-jp': "ノクタス",
 	},
 
 	illustrator: "Mina Nakai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "夜になると 活動を はじめる。 砂漠の 暑さに 疲れ果てた 獲物を 見つけ出し 捕らえるのだ。",
+		'ja-jp': "夜になると 活動を はじめる。 砂漠の 暑さに 疲れ果てた 獲物を 見つけ出し 捕らえるのだ。",
 	},
 
 	stage: "Stage1",
@@ -24,14 +24,14 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Grass"],
 			effect: {
-				ja: "相手のバトルポケモンにダメカンがのっているなら、60ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンにダメカンがのっているなら、60ダメージ追加。",
 			},
 		},
 		{
 			name: { ja: "つけねらう" },
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンに40ダメージ。",
+				'ja-jp': "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンに40ダメージ。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "サボネア",
+		'ja-jp': "サボネア",
 	},
 
 	retreat: 2,

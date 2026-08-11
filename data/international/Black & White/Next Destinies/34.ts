@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Frillish",
-		fr: "Viskuse",
-		es: "Frillish",
-		it: "Frillish",
-		pt: "Frillish",
-		de: "Quabbel"
+		'en-us': "Frillish",
+		'fr-fr': "Viskuse",
+		'es-es': "Frillish",
+		'it-it': "Frillish",
+		'pt-br': "Frillish",
+		'de-de': "Quabbel"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bubble",
-				fr: "Écume",
+				'en-us': "Bubble",
+				'fr-fr': "Écume",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spit Poison",
-				fr: "Crache-Venin",
+				'en-us': "Spit Poison",
+				'fr-fr': "Crache-Venin",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They paralyze prey with poison, then drag them down to their lairs, five miles below the surface.",
+		'en-us': "They paralyze prey with poison, then drag them down to their lairs, five miles below the surface.",
 	},
 
 	thirdParty: {

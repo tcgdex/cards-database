@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pidgeotto",
-		fr: "Roucoups",
-		es: "Pidgeotto",
-		it: "Pidgeotto",
-		pt: "Pidgeotto",
-		de: "Tauboga"
+		'en-us': "Pidgeotto",
+		'fr-fr': "Roucoups",
+		'es-es': "Pidgeotto",
+		'it-it': "Pidgeotto",
+		'pt-br': "Pidgeotto",
+		'de-de': "Tauboga"
 	},
 
 	rarity: "Shiny rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 80,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Pidgey",
-		fr: "Roucool",
-		es: "Pidgey",
-		it: "Pidgey",
-		pt: "Pidgey",
-		de: "Taubsi"
+		'en-us': "Pidgey",
+		'fr-fr': "Roucool",
+		'es-es': "Pidgey",
+		'it-it': "Pidgey",
+		'pt-br': "Pidgey",
+		'de-de': "Taubsi"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Flap",
-			fr: "Battement",
-			es: "Aleteo",
-			it: "Alabattito",
-			pt: "Asa",
-			de: "Flattern"
+			'en-us': "Flap",
+			'fr-fr': "Battement",
+			'es-es': "Aleteo",
+			'it-it': "Alabattito",
+			'pt-br': "Asa",
+			'de-de': "Flattern"
 		},
 
 		damage: 20
@@ -72,7 +72,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "Very protective of its sprawling territorial area, this Pokémon will fiercely peck at any intruder.",
+		'en-us': "Very protective of its sprawling territorial area, this Pokémon will fiercely peck at any intruder.",
 	},
 
 }

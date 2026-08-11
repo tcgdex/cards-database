@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブリジュラス",
+		'ja-jp': "ブリジュラス",
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "山中で 穴を 掘り エサを 探す。 落盤に 巻きこまれても へっちゃらなくらい 頑丈。",
+		'ja-jp': "山中で 穴を 掘り エサを 探す。 落盤に 巻きこまれても へっちゃらなくらい 頑丈。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "はがねのかけはし" },
 			effect: {
-				ja: "このポケモンがいるかぎり、[M]エネルギーがついている自分のポケモン全員のにげるためのエネルギーは、すべてなくなる。",
+				'ja-jp': "このポケモンがいるかぎり、[M]エネルギーがついている自分のポケモン全員のにげるためのエネルギーは、すべてなくなる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ジュラルドン",
+		'ja-jp': "ジュラルドン",
 	},
 
 	retreat: 2,

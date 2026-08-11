@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Porygon",
-		fr: "Porygon",
-		de: "Porygon"
+		'en-us': "Porygon",
+		'fr-fr': "Porygon",
+		'de-de': "Porygon"
 	},
 
 	illustrator: "Tomoaki Imakuni",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Data Retrieval",
-				fr: "Récupération d'informations",
-				de: "Data Retrieval"
+				'en-us': "Data Retrieval",
+				'fr-fr': "Récupération d'informations",
+				'de-de': "Data Retrieval"
 			},
 			effect: {
-				en: "If you have less than 4 cards in your hand, draw cards until you have 4 cards in your hand.",
-				fr: "Si vous avez moins de 4 cartes dans votre main, piochez des cartes jusqu'à ce que vous ayez 4 cartes en main.",
-				de: "If you have less than 4 cards in your hand, draw cards until you have 4 cards in your hand."
+				'en-us': "If you have less than 4 cards in your hand, draw cards until you have 4 cards in your hand.",
+				'fr-fr': "Si vous avez moins de 4 cartes dans votre main, piochez des cartes jusqu'à ce que vous ayez 4 cartes en main.",
+				'de-de': "If you have less than 4 cards in your hand, draw cards until you have 4 cards in your hand."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde folie",
-				de: "Confuse Ray"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde folie",
+				'de-de': "Confuse Ray"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
-				de: "The Defending Pokémon is now Confused."
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "The Defending Pokémon is now Confused."
 			},
 			damage: 10,
 

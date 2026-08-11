@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カルボウ",
+		'ja-jp': "カルボウ",
 		'zh-tw': "炭小侍",
-		th: "คาร์โบ",
-		id: "Charcadet"
+		'th-th': "คาร์โบ",
+		'id-id': "Charcadet"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "焼けた 木炭に 命が 宿り ポケモンになった。 燃える 闘志で 強敵にも 戦いを 挑む。",
+		'ja-jp': "焼けた 木炭に 命が 宿り ポケモンになった。 燃える 闘志で 強敵にも 戦いを 挑む。",
 		'zh-tw': "生命寄宿在燃燒的木炭上變成了寶可夢。即使敵人再強， 也會以燃燒的鬥志迎面而戰。",
-		th: "เป็นโปเกมอนที่เกิดจากถ่านไม้ที่ลุกไหม้ มีจิตวิญญาณการต่อสู้ที่เร่าร้อน กล้าเผชิญหน้าแม้กับศัตรูที่แข็งแกร่ง",
-		id: "Jiwa bersemayam ke dalam arang terbakar, lalu berubah menjadi Pokémon. Dengan semangat bertarung yang membara, Charcadet menantang pertarungan meskipun dengan lawan yang kuat."
+		'th-th': "เป็นโปเกมอนที่เกิดจากถ่านไม้ที่ลุกไหม้ มีจิตวิญญาณการต่อสู้ที่เร่าร้อน กล้าเผชิญหน้าแม้กับศัตรูที่แข็งแกร่ง",
+		'id-id': "Jiwa bersemayam ke dalam arang terbakar, lalu berubah menjadi Pokémon. Dengan semangat bertarung yang membara, Charcadet menantang pertarungan meskipun dengan lawan yang kuat."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ひだね",
+			'ja-jp': "ひだね",
 			'zh-tw': "火種",
-			th: "เชื้อไฟ",
-			id: "Nyala Api"
+			'th-th': "เชื้อไฟ",
+			'id-id': "Nyala Api"
 		},
 
 		damage: 10
@@ -42,10 +42,10 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "マグナムパンチ",
+			'ja-jp': "マグナムパンチ",
 			'zh-tw': "增量拳",
-			th: "แมกนัมพันช์",
-			id: "Magnum Punch"
+			'th-th': "แมกนัมพันช์",
+			'id-id': "Magnum Punch"
 		},
 
 		damage: 50

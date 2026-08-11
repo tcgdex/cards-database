@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レックウザGX",
+		'ja-jp': "レックウザGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "しっぷうどとう" },
 			effect: {
-				ja: "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の山札を上から3枚トラッシュする。その後、トラッシュにある基本エネルギーを1枚、このポケモンにつける。",
+				'ja-jp': "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の山札を上から3枚トラッシュする。その後、トラッシュにある基本エネルギーを1枚、このポケモンにつける。",
 			},
 		},
 	],
@@ -30,14 +30,14 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Grass", "Lightning", "Colorless"],
 			effect: {
-				ja: "自分の場のポケモンについている[草]と[雷]タイプの基本エネルギーの数x30ダメージ。",
+				'ja-jp': "自分の場のポケモンについている[草]と[雷]タイプの基本エネルギーの数x30ダメージ。",
 			},
 		},
 		{
 			name: { ja: "テンペストGX" },
 			cost: ["Grass"],
 			effect: {
-				ja: "自分の手札をすべてトラッシュし、山札を10枚引く。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分の手札をすべてトラッシュし、山札を10枚引く。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

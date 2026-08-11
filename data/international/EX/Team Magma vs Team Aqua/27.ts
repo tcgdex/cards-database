@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Electrike",
-		fr: "Dynavolt de Team Aqua",
-		de: "Team Aquas Frizelbliz"
+		'en-us': "Team Aqua's Electrike",
+		'fr-fr': "Dynavolt de Team Aqua",
+		'de-de': "Team Aquas Frizelbliz"
 	},
 
 	illustrator: "M. Akiyama",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Random Spark",
-				fr: "Étincelle surprise",
-				de: "Random Spark"
+				'en-us': "Random Spark",
+				'fr-fr': "Étincelle surprise",
+				'de-de': "Random Spark"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Plasma",
-				fr: "Plasma",
-				de: "Plasma"
+				'en-us': "Plasma",
+				'fr-fr': "Plasma",
+				'de-de': "Plasma"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your discard pile for a Lightning Energy card and attach it to Team Aqua's Electrike.",
-				fr: "Lancez une pièce. Si c'est face, cherchez une carte Énergie  dans votre pile de défausse et attachez-la à Dynavolt de Team Aqua.",
-				de: "Flip a coin. If heads, search your discard pile for a  Energy card and attach it to Team Aqua's Electrike."
+				'en-us': "Flip a coin. If heads, search your discard pile for a Lightning Energy card and attach it to Team Aqua's Electrike.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cherchez une carte Énergie  dans votre pile de défausse et attachez-la à Dynavolt de Team Aqua.",
+				'de-de': "Flip a coin. If heads, search your discard pile for a  Energy card and attach it to Team Aqua's Electrike."
 			},
 			damage: 10,
 

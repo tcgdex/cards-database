@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スカル団のしたっぱ",
+		'ja-jp': "スカル団のしたっぱ",
 	},
 
 	illustrator: "Ken Sugimori",
 	category: "Trainer",
 
 	effect: {
-		ja: "相手の手札を見て、その中にあるエネルギーを、2枚トラッシュする。",
+		'ja-jp': "相手の手札を見て、その中にあるエネルギーを、2枚トラッシュする。",
 	},
 
 	variants: [

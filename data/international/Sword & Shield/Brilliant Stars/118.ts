@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Staravia",
-		fr: "Étourvol",
-		es: "Staravia",
-		it: "Staravia",
-		pt: "Staravia",
-		de: "Staravia"
+		'en-us': "Staravia",
+		'fr-fr': "Étourvol",
+		'es-es': "Staravia",
+		'it-it': "Staravia",
+		'pt-br': "Staravia",
+		'de-de': "Staravia"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Starly",
-		fr: "Étourmi",
-		es: "Starly",
-		it: "Starly",
-		pt: "Starly",
-		de: "Staralili"
+		'en-us': "Starly",
+		'fr-fr': "Étourmi",
+		'es-es': "Starly",
+		'it-it': "Starly",
+		'pt-br': "Starly",
+		'de-de': "Staralili"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Wing Attack",
-			fr: "Cru-Ailes",
-			es: "Ataque Ala",
-			it: "Attacco d'Ala",
-			pt: "Ataque de Asa",
-			de: "Flügelschlag"
+			'en-us': "Wing Attack",
+			'fr-fr': "Cru-Ailes",
+			'es-es': "Ataque Ala",
+			'it-it': "Attacco d'Ala",
+			'pt-br': "Ataque de Asa",
+			'de-de': "Flügelschlag"
 		},
 
 		damage: 50
@@ -63,7 +63,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It lives in forests and fields. Squabbles over territory occur when flocks collide.",
+		'en-us': "It lives in forests and fields. Squabbles over territory occur when flocks collide.",
 	},
 
 	variants: [

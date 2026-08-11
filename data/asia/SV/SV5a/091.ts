@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ガチグマ アカツキex"
+		'ja-jp': "ガチグマ アカツキex"
 	},
 
 	illustrator: "MINAMINAMI Take",
@@ -19,11 +19,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ろうれんのわざ"
+			'ja-jp': "ろうれんのわざ"
 		},
 
 		effect: {
-			ja: "相手がすでにとったサイドの枚数ぶん、このポケモンが「ブラッドムーン」を使うためのエネルギーは少なくなる。"
+			'ja-jp': "相手がすでにとったサイドの枚数ぶん、このポケモンが「ブラッドムーン」を使うためのエネルギーは少なくなる。"
 		}
 	}],
 
@@ -31,13 +31,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ブラッドムーン"
+			'ja-jp': "ブラッドムーン"
 		},
 
 		damage: 240,
 
 		effect: {
-			ja: "次の自分の番、このポケモンはワザが使えない。"
+			'ja-jp': "次の自分の番、このポケモンはワザが使えない。"
 		}
 	}],
 

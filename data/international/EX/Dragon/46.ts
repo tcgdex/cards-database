@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Vibrava",
-		fr: "Vibraninf",
-		de: "Vibrava"
+		'en-us': "Vibrava",
+		'fr-fr': "Vibraninf",
+		'de-de': "Vibrava"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Trapinch",
-		fr: "Kraknoix"
+		'en-us': "Trapinch",
+		'fr-fr': "Kraknoix"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Levitate",
-				fr: "Lévitation",
-				de: "Schwebe"
+				'en-us': "Levitate",
+				'fr-fr': "Lévitation",
+				'de-de': "Schwebe"
 			},
 			effect: {
-				en: "If Vibrava has any basic Energy cards attached to it, Vibrava's Retreat Cost is 0.",
-				fr: "Si Vibraninf possède des cartes Énergie de base, son Coût de retraite est de 0.",
-				de: "Solange mindestens 1 Basis-Energiekarte an Vibrava angelegt ist, betragen die Rückzugskosten von Vibrava 0."
+				'en-us': "If Vibrava has any basic Energy cards attached to it, Vibrava's Retreat Cost is 0.",
+				'fr-fr': "Si Vibraninf possède des cartes Énergie de base, son Coût de retraite est de 0.",
+				'de-de': "Solange mindestens 1 Basis-Energiekarte an Vibrava angelegt ist, betragen die Rückzugskosten von Vibrava 0."
 			},
 		},
 	],
@@ -51,9 +51,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Wing",
-				fr: "Aile tranchante",
-				de: "Rasierflügel"
+				'en-us': "Razor Wing",
+				'fr-fr': "Aile tranchante",
+				'de-de': "Rasierflügel"
 			},
 
 			damage: 20,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Zebstrika",
-		fr: "Zéblitz",
-		es: "Zebstrika",
-		it: "Zebstrika",
-		pt: "Zebstrika",
-		de: "Zebritz"
+		'en-us': "Zebstrika",
+		'fr-fr': "Zéblitz",
+		'es-es': "Zebstrika",
+		'it-it': "Zebstrika",
+		'pt-br': "Zebstrika",
+		'de-de': "Zebritz"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Blitzle",
-		fr: "Zébibron",
+		'en-us': "Blitzle",
+		'fr-fr': "Zébibron",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stomp",
-				fr: "Écrasement",
+				'en-us': "Stomp",
+				'fr-fr': "Écrasement",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wild Charge",
-				fr: "Éclair Fou",
+				'en-us': "Wild Charge",
+				'fr-fr': "Éclair Fou",
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s’inflige 10 dégâts.",
+				'en-us': "This Pokémon does 10 damage to itself.",
+				'fr-fr': "Ce Pokémon s’inflige 10 dégâts.",
 			},
 			damage: 70,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This ill-tempered Pokémon is dangerous because when it's angry, it shoots lightning from its mane in all directions.",
+		'en-us': "This ill-tempered Pokémon is dangerous because when it's angry, it shoots lightning from its mane in all directions.",
 	},
 
 	thirdParty: {

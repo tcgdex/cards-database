@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sunflora",
-		fr: "Héliatronc"
+		'en-us': "Sunflora",
+		'fr-fr': "Héliatronc"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -18,28 +18,28 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Sunkern"
+		'en-us': "Sunkern"
 	},
 
 	description: {
-		en: "In the daytime, it rushes about in a hectic\nmanner, but it comes to a complete stop when\nthe sun sets.",
-		fr: "En journée, il court énergiquement dans tous les sens, mais il s'arrête net dès que la nuit tombe."
+		'en-us': "In the daytime, it rushes about in a hectic\nmanner, but it comes to a complete stop when\nthe sun sets.",
+		'fr-fr': "En journée, il court énergiquement dans tous les sens, mais il s'arrête net dès que la nuit tombe."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Trip Over",
-			fr: "Croche-Pied"
+			'en-us': "Trip Over",
+			'fr-fr': "Croche-Pied"
 		},
 
 		damage: 50,
 		cost: ["Grass", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts de plus."
+			'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts de plus."
 		}
 	}],
 

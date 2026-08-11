@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナツメのゴルダック",
+		'ja-jp': "ナツメのゴルダック",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Psychic"],
 			name: {
-				ja: "ダメージシフト",
+				'ja-jp': "ダメージシフト",
 			},
 			effect: {
-				ja: "ポケモンのそれぞれからディフェンディングポケモンに1つのダメージカウンターを移動します。 （弱さや抵抗を適用しないでください。）",
+				'ja-jp': "ポケモンのそれぞれからディフェンディングポケモンに1つのダメージカウンターを移動します。 （弱さや抵抗を適用しないでください。）",
 			},
 		},
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				ja: "水スプレー",
+				'ja-jp': "水スプレー",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて20ダメージを与えます。尾の場合、この攻撃は20ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて20ダメージを与えます。尾の場合、この攻撃は20ダメージを与えます。",
 			},
 		},
 	],

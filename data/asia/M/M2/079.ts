@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バトルコロシアム",
+		'ja-jp': "バトルコロシアム",
 	},
 
 	illustrator: "MARINA Chikazawa",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのベンチポケモン全員は、相手のワザや特性の効果で、ダメカンがのらない。［ワザのダメージは受ける。］ スタジアムは、自分の番に1枚、バトル場の横に出せる。別のスタジアムが場に出たなら、このカードをトラッシュする。同じ名前のスタジアムは場に出せない。",
+		'ja-jp': "おたがいのベンチポケモン全員は、相手のワザや特性の効果で、ダメカンがのらない。［ワザのダメージは受ける。］ スタジアムは、自分の番に1枚、バトル場の横に出せる。別のスタジアムが場に出たなら、このカードをトラッシュする。同じ名前のスタジアムは場に出せない。",
 	},
 
 	variants: [{"type": "normal"}],

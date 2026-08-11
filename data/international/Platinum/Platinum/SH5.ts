@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Swablu",
-		fr: "Tylton",
-		de: "Wablu"
+		'en-us': "Swablu",
+		'fr-fr': "Tylton",
+		'de-de': "Wablu"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Roost",
-				fr: "Atterrissage",
-				de: "Roost"
+				'en-us': "Roost",
+				'fr-fr': "Atterrissage",
+				'de-de': "Roost"
 			},
 			effect: {
-				en: "Remove 4 damage counters from Swablu. Swablu can't retreat during your next turn.",
-				fr: "Retirez à Tylton 4 marqueurs de dégât. Tylton ne peut pas battre en retraite lors de votre prochain tour.",
-				de: "Remove 4 damage counters from Swablu. Swablu can't retreat during your next turn."
+				'en-us': "Remove 4 damage counters from Swablu. Swablu can't retreat during your next turn.",
+				'fr-fr': "Retirez à Tylton 4 marqueurs de dégât. Tylton ne peut pas battre en retraite lors de votre prochain tour.",
+				'de-de': "Remove 4 damage counters from Swablu. Swablu can't retreat during your next turn."
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mirror Move",
-				fr: "Mimique",
-				de: "Mirror Move"
+				'en-us': "Mirror Move",
+				'fr-fr': "Mimique",
+				'de-de': "Mirror Move"
 			},
 			effect: {
-				en: "If Swablu was damaged by an attack during your opponent's last turn, this attack does the same amount of damage done to Swablu to the Defending Pokémon.",
-				fr: "Si une attaque a infligé des dégâts à Tylton lors du tour précédent de votre adversaire, cette attaque inflige le même nombre de dégâts au Pokémon Défenseur.",
-				de: "If Swablu was damaged by an attack during your opponent's last turn, this attack does the same amount of damage done to Swablu to the Defending Pokémon."
+				'en-us': "If Swablu was damaged by an attack during your opponent's last turn, this attack does the same amount of damage done to Swablu to the Defending Pokémon.",
+				'fr-fr': "Si une attaque a infligé des dégâts à Tylton lors du tour précédent de votre adversaire, cette attaque inflige le même nombre de dégâts au Pokémon Défenseur.",
+				'de-de': "If Swablu was damaged by an attack during your opponent's last turn, this attack does the same amount of damage done to Swablu to the Defending Pokémon."
 			},
 
 		},
@@ -61,14 +61,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Attack",
-				fr: "Furie",
-				de: "Fury Attack"
+				'en-us': "Fury Attack",
+				'fr-fr': "Furie",
+				'de-de': "Fury Attack"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 3 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 3 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10x",
 

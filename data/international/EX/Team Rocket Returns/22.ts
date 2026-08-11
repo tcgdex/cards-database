@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Furret",
-		de: "Wiesenior"
+		'en-us': "Furret",
+		'de-de': "Wiesenior"
 	},
 
 	illustrator: "Yuka Morii",
@@ -23,7 +23,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sentret",
+		'en-us': "Sentret",
 	},
 
 	stage: "Stage1",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Change",
-				de: "Quick Change"
+				'en-us': "Quick Change",
+				'de-de': "Quick Change"
 			},
 			effect: {
-				en: "Choose up to 3 cards in your hand and put them on top of your deck. Then, search your deck for that many cards and put them into your hand. Shuffle your deck afterward.",
-				de: "Choose up to 3 cards in your hand and put them on top of your deck. Then, search your deck for that many cards and put them into your hand. Shuffle your deck afterward."
+				'en-us': "Choose up to 3 cards in your hand and put them on top of your deck. Then, search your deck for that many cards and put them into your hand. Shuffle your deck afterward.",
+				'de-de': "Choose up to 3 cards in your hand and put them on top of your deck. Then, search your deck for that many cards and put them into your hand. Shuffle your deck afterward."
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Tail Smash",
-				de: "Quick Tail Smash"
+				'en-us': "Quick Tail Smash",
+				'de-de': "Quick Tail Smash"
 			},
 			effect: {
-				en: "Before doing damage, you may flip a coin. If heads, this attack does 80 damage instead. If tails, this attack does nothing.",
-				de: "Before doing damage, you may flip a coin. If heads, this attack does 80 damage instead. If tails, this attack does nothing."
+				'en-us': "Before doing damage, you may flip a coin. If heads, this attack does 80 damage instead. If tails, this attack does nothing.",
+				'de-de': "Before doing damage, you may flip a coin. If heads, this attack does 80 damage instead. If tails, this attack does nothing."
 			},
 			damage: 30,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オマニテ",
+		'ja-jp': "オマニテ",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "古代の触手",
+				'ja-jp': "古代の触手",
 			},
 			effect: {
-				ja: "あなたのオマニテ、オマスター、カブト、カブトップス、またはカブトップスの元によって相手のポカモンに与えられた損害は抵抗の影響を受けません。",
+				'ja-jp': "あなたのオマニテ、オマスター、カブト、カブトップス、またはカブトップスの元によって相手のポカモンに与えられた損害は抵抗の影響を受けません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "上昇する突進",
+				'ja-jp': "上昇する突進",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて20ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて20ダメージを与えます。",
 			},
 		},
 	],

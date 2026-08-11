@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サンド",
+		'ja-jp': "サンド",
 	},
 
 	illustrator: "Sekio",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "雨の 少ない 土地に 棲んでいる。 危険が 迫ると 身体を 丸め 柔らかい お腹を 守るぞ。",
+		'ja-jp': "雨の 少ない 土地に 棲んでいる。 危険が 迫ると 身体を 丸め 柔らかい お腹を 守るぞ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "もってくる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を1枚引く。",
+				'ja-jp': "自分の山札を1枚引く。",
 			},
 		},
 		{

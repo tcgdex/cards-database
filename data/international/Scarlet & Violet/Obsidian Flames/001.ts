@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Mystherbe",
-		en: "Oddish",
-		es: "Oddish",
-		it: "Oddish",
-		pt: "Oddish",
-		de: "Myrapla"
+		'fr-fr': "Mystherbe",
+		'en-us': "Oddish",
+		'es-es': "Oddish",
+		'it-it': "Oddish",
+		'pt-br': "Oddish",
+		'de-de': "Myrapla"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Mode Cool",
-			en: "Feelin' Fine",
-			es: "Buen Rollito",
-			it: "Tuttobene",
-			pt: "Sensação Boa",
-			de: "Wohl fühlen"
+			'fr-fr': "Mode Cool",
+			'en-us': "Feelin' Fine",
+			'es-es': "Buen Rollito",
+			'it-it': "Tuttobene",
+			'pt-br': "Sensação Boa",
+			'de-de': "Wohl fühlen"
 		},
 
 		effect: {
-			fr: "Piochez une carte.",
-			en: "Draw a card.",
-			es: "Roba 1 carta.",
-			it: "Pesca una carta.",
-			pt: "Compre uma carta.",
-			de: "Ziehe 1 Karte."
+			'fr-fr': "Piochez une carte.",
+			'en-us': "Draw a card.",
+			'es-es': "Roba 1 carta.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre uma carta.",
+			'de-de': "Ziehe 1 Karte."
 		}
 	}, {
 		cost: ["Grass"],
 
 		name: {
-			fr: "Ruée",
-			en: "Stampede",
-			es: "Estampida",
-			it: "Fuggi Fuggi",
-			pt: "Estouro",
-			de: "Zertrampeln"
+			'fr-fr': "Ruée",
+			'en-us': "Stampede",
+			'es-es': "Estampida",
+			'it-it': "Fuggi Fuggi",
+			'pt-br': "Estouro",
+			'de-de': "Zertrampeln"
 		},
 
 		damage: 10
@@ -65,7 +65,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
+		'en-us': "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
 	},
 
 	variants: [

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団の監視塔",
+		'ja-jp': "ロケット団の監視塔",
 	},
 
 	illustrator: "AYUMI ODASHIMA",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいの場の[C]ポケモン全員の特性は、すべてなくなる。",
+		'ja-jp': "おたがいの場の[C]ポケモン全員の特性は、すべてなくなる。",
 	},
 
 	variants: [

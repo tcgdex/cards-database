@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cyclizar",
-		fr: "Motorizard",
-		es: "Cyclizar",
-		it: "Cyclizar",
-		pt: "Cyclizar",
-		de: "Mopex"
+		'en-us': "Cyclizar",
+		'fr-fr': "Motorizard",
+		'es-es': "Cyclizar",
+		'it-it': "Cyclizar",
+		'pt-br': "Cyclizar",
+		'de-de': "Mopex"
 	},
 
 	rarity: "Uncommon",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Reckless Charge",
-			fr: "Attaque Imprudente",
-			es: "Carga Descuidada",
-			it: "Carica Avventata",
-			pt: "Carga Indomável",
-			de: "Waghalsiger Sturmangriff"
+			'en-us': "Reckless Charge",
+			'fr-fr': "Attaque Imprudente",
+			'es-es': "Carga Descuidada",
+			'it-it': "Carica Avventata",
+			'pt-br': "Carga Indomável",
+			'de-de': "Waghalsiger Sturmangriff"
 		},
 
 		effect: {
-			en: "This Pokémon also does 10 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
-			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 10 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 10 dégâts.",
+			'es-es': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 10 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
 		},
 
 		damage: 70
@@ -65,7 +65,7 @@ const card: Card = {
 	illustrator: "AKIRA EGAWA",
 
 	description: {
-		en: "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
+		'en-us': "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
 	},
 
 	thirdParty: {

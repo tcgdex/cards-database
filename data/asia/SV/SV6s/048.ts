@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Crawdaunt"
+		'id-id': "Crawdaunt"
 	},
 
 	illustrator: "Kurata So",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Pokémon pengamuk yang mengayun-ayunkan capit raksasanya. Konon ia merupakan Pokémon yang sulit sekali dipelihara."
+		'id-id': "Pokémon pengamuk yang mengayun-ayunkan capit raksasanya. Konon ia merupakan Pokémon yang sulit sekali dipelihara."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Gunting Gunting"
+			'id-id': "Gunting Gunting"
 		},
 
 		effect: {
-			id: "Lempar koin 2 kali. Buang kartu dari atas Deck lawan ke Trash untuk tiap lemparan dengan hasil sisi depan."
+			'id-id': "Lempar koin 2 kali. Buang kartu dari atas Deck lawan ke Trash untuk tiap lemparan dengan hasil sisi depan."
 		},
 
 		damage: 40,
 		cost: ["Water", "Colorless"]
 	}, {
 		name: {
-			id: "Palu Mengamuk"
+			'id-id': "Palu Mengamuk"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 180,

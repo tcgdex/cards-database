@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zarude",
-		fr: "Zarude",
-		es: "Zarude",
-		it: "Zarude",
-		pt: "Zarude",
-		de: "Zarude"
+		'en-us': "Zarude",
+		'fr-fr': "Zarude",
+		'es-es': "Zarude",
+		'it-it': "Zarude",
+		'pt-br': "Zarude",
+		'de-de': "Zarude"
 	},
 
 	rarity: "Rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Leaf Drain",
-			fr: "Feuille Sangsue",
-			es: "Hoja Drenante",
-			it: "Assorbifoglia",
-			pt: "Dreno Folha",
-			de: "Blattsauger"
+			'en-us': "Leaf Drain",
+			'fr-fr': "Feuille Sangsue",
+			'es-es': "Hoja Drenante",
+			'it-it': "Assorbifoglia",
+			'pt-br': "Dreno Folha",
+			'de-de': "Blattsauger"
 		},
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon.",
-			fr: "Soignez 20 dégâts de ce Pokémon.",
-			es: "Cura 20 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 20 danni.",
-			pt: "Cure 20 pontos de dano deste Pokémon.",
-			de: "Heile 20 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 20 damage from this Pokémon.",
+			'fr-fr': "Soignez 20 dégâts de ce Pokémon.",
+			'es-es': "Cura 20 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 20 danni.",
+			'pt-br': "Cure 20 pontos de dano deste Pokémon.",
+			'de-de': "Heile 20 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 20
@@ -46,21 +46,21 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			en: "Jungle Whip",
-			fr: "Fouet Végétal",
-			es: "Látigo Selvático",
-			it: "Giunglafrusta",
-			pt: "Chicote da Selva",
-			de: "Dschungelpeitsche"
+			'en-us': "Jungle Whip",
+			'fr-fr': "Fouet Végétal",
+			'es-es': "Látigo Selvático",
+			'it-it': "Giunglafrusta",
+			'pt-br': "Chicote da Selva",
+			'de-de': "Dschungelpeitsche"
 		},
 
 		effect: {
-			en: "You may put all Energy attached to this Pokémon into your hand to have this attack do 80 more damage.",
-			fr: "Vous pouvez ajouter à votre main toutes les Énergies attachées à ce Pokémon pour que cette attaque inflige 80 dégâts supplémentaires.",
-			es: "Puedes poner todas las Energías unidas a este Pokémon en tu mano para que este ataque haga 80 puntos de daño más.",
-			it: "Puoi prendere tutte le Energie assegnate a questo Pokémon e aggiungerle alle carte che hai in mano per infliggere 80 danni in più con questo attacco.",
-			pt: "Você pode colocar todas as Energias ligadas a este Pokémon na sua mão para fazer este ataque causar 80 pontos de dano a mais.",
-			de: "Du kannst alle an dieses Pokémon angelegten Energien auf deine Hand nehmen, sodass diese Attacke 80 Schadenspunkte mehr zufügt."
+			'en-us': "You may put all Energy attached to this Pokémon into your hand to have this attack do 80 more damage.",
+			'fr-fr': "Vous pouvez ajouter à votre main toutes les Énergies attachées à ce Pokémon pour que cette attaque inflige 80 dégâts supplémentaires.",
+			'es-es': "Puedes poner todas las Energías unidas a este Pokémon en tu mano para que este ataque haga 80 puntos de daño más.",
+			'it-it': "Puoi prendere tutte le Energie assegnate a questo Pokémon e aggiungerle alle carte che hai in mano per infliggere 80 danni in più con questo attacco.",
+			'pt-br': "Você pode colocar todas as Energias ligadas a este Pokémon na sua mão para fazer este ataque causar 80 pontos de dano a mais.",
+			'de-de': "Du kannst alle an dieses Pokémon angelegten Energien auf deine Hand nehmen, sodass diese Attacke 80 Schadenspunkte mehr zufügt."
 		},
 
 		damage: "80+"

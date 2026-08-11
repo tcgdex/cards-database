@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニトロ炎エネルギー",
+		'ja-jp': "ニトロ炎エネルギー",
 	},
 
 	illustrator: "",
@@ -12,7 +12,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		ja: "このカードは、ポケモンについているかぎり、[R]エネルギー1個ぶんとしてはたらく。このカードをつけている[R]ポケモンが使うワザの効果で、このカードがトラッシュされたなら、ワザのダメージや効果のあとに、手札にもどす。",
+		'ja-jp': "このカードは、ポケモンについているかぎり、[R]エネルギー1個ぶんとしてはたらく。このカードをつけている[R]ポケモンが使うワザの効果で、このカードがトラッシュされたなら、ワザのダメージや効果のあとに、手札にもどす。",
 	},
 
 	variants: [

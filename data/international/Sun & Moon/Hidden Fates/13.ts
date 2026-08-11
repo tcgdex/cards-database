@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Staryu",
-		fr: "Stari",
+		'en-us': "Staryu",
+		'fr-fr': "Stari",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Numbing Water",
-				fr: "Eau Paralysante",
+				'en-us': "Numbing Water",
+				'fr-fr': "Eau Paralysante",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 			damage: 10,
 
@@ -52,7 +52,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "In many places, there are folktales of stardust falling into the ocean and becoming Staryu.",
+		'en-us': "In many places, there are folktales of stardust falling into the ocean and becoming Staryu.",
 	},
 
 	thirdParty: {

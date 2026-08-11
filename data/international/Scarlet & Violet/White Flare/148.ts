@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ferroseed",
-		fr: "Grindur",
-		de: "Kastadur",
-		it: "Ferroseed",
-		pt: "Ferroseed",
-		es: "Ferroseed",
+		'en-us': "Ferroseed",
+		'fr-fr': "Grindur",
+		'de-de': "Kastadur",
+		'it-it': "Ferroseed",
+		'pt-br': "Ferroseed",
+		'es-es': "Ferroseed",
 		'es-mx': "Ferroseed"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			en: "Zzzt",
-			fr: "Bzzz",
-			de: "Piiieks",
-			it: "Bzzz",
-			pt: "Bzzz",
-			es: "Bzzz",
+			'en-us': "Zzzt",
+			'fr-fr': "Bzzz",
+			'de-de': "Piiieks",
+			'it-it': "Bzzz",
+			'pt-br': "Bzzz",
+			'es-es': "Bzzz",
 			'es-mx': "Bzzz"
 		},
 
@@ -40,12 +40,12 @@ const card: Card = {
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		name: {
-			en: "Metal Claw",
-			fr: "Griffe Acier",
-			de: "Metallklaue",
-			it: "Ferrartigli",
-			pt: "Garra de Metal",
-			es: "Garra Metal",
+			'en-us': "Metal Claw",
+			'fr-fr': "Griffe Acier",
+			'de-de': "Metallklaue",
+			'it-it': "Ferrartigli",
+			'pt-br': "Garra de Metal",
+			'es-es': "Garra Metal",
 			'es-mx': "Garra de Metal"
 		},
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Jungle'
 
 const card: Card = {
 	name: {
-		en: "Meowth",
-		fr: "Miaouss",
-		de: "Mauzi"
+		'en-us': "Meowth",
+		'fr-fr': "Miaouss",
+		'de-de': "Mauzi"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pay Day",
-				fr: "Jackpot",
-				de: "Zahltag"
+				'en-us': "Pay Day",
+				'fr-fr': "Jackpot",
+				'de-de': "Zahltag"
 			},
 			effect: {
-				en: "Flip a coin. If heads, draw a card.",
-				fr: "Lancez une pièce. Si c'est face, piochez une carte.",
-				de: "Wirf eine Münze. Bei 'Kopf' ziehe eine Karte."
+				'en-us': "Flip a coin. If heads, draw a card.",
+				'fr-fr': "Lancez une pièce. Si c'est face, piochez une carte.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ziehe eine Karte."
 			},
 			damage: 10,
 
@@ -63,8 +63,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.",
-		fr: "Il adore les pièces de monnaie. Il hante les rues à la recherche de pièces oubliées par les passants."
+		'en-us': "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.",
+		'fr-fr': "Il adore les pièces de monnaie. Il hante les rues à la recherche de pièces oubliées par les passants."
 	},
 
 

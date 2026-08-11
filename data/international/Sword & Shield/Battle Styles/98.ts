@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Morpeko",
-		fr: "Morpeko",
-		es: "Morpeko",
-		it: "Morpeko",
-		pt: "Morpeko",
-		de: "Morpeko"
+		'en-us': "Morpeko",
+		'fr-fr': "Morpeko",
+		'es-es': "Morpeko",
+		'it-it': "Morpeko",
+		'pt-br': "Morpeko",
+		'de-de': "Morpeko"
 	},
 
 	illustrator: "NC Empire",
@@ -22,41 +22,41 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Gather Food",
-			fr: "Approvisionnement",
-			es: "Avituallamiento",
-			it: "Raccolta di Cibo",
-			pt: "Catar Comida",
-			de: "Futter sammeln"
+			'en-us': "Gather Food",
+			'fr-fr': "Approvisionnement",
+			'es-es': "Avituallamiento",
+			'it-it': "Raccolta di Cibo",
+			'pt-br': "Catar Comida",
+			'de-de': "Futter sammeln"
 		},
 
 		effect: {
-			en: "Put an Item card from your discard pile into your hand.",
-			fr: "Ajoutez une carte Objet de votre pile de défausse à votre main.",
-			es: "Pon 1 carta de Objeto de tu pila de descartes en tu mano.",
-			it: "Prendi una carta Strumento dalla tua pila degli scarti e aggiungila a quelle che hai in mano.",
-			pt: "Coloque uma carta de Item da sua pilha de descarte na sua mão.",
-			de: "Nimm 1 Itemkarte aus deinem Ablagestapel auf deine Hand."
+			'en-us': "Put an Item card from your discard pile into your hand.",
+			'fr-fr': "Ajoutez une carte Objet de votre pile de défausse à votre main.",
+			'es-es': "Pon 1 carta de Objeto de tu pila de descartes en tu mano.",
+			'it-it': "Prendi una carta Strumento dalla tua pila degli scarti e aggiungila a quelle che hai in mano.",
+			'pt-br': "Coloque uma carta de Item da sua pilha de descarte na sua mão.",
+			'de-de': "Nimm 1 Itemkarte aus deinem Ablagestapel auf deine Hand."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Hangry Tackle",
-			fr: "Charge Affamée",
-			es: "Placaje Voraz",
-			it: "Azione Panciavuota",
-			pt: "Colisão Voraz",
-			de: "Kohldampf-Tackle"
+			'en-us': "Hangry Tackle",
+			'fr-fr': "Charge Affamée",
+			'es-es': "Placaje Voraz",
+			'it-it': "Azione Panciavuota",
+			'pt-br': "Colisão Voraz",
+			'de-de': "Kohldampf-Tackle"
 		},
 
 		effect: {
-			en: "If you have no cards in your hand, this attack does 90 more damage.",
-			fr: "Si vous n'avez aucune carte dans votre main, cette attaque inflige 90 dégâts supplémentaires.",
-			es: "Si no tienes ninguna carta en tu mano, este ataque hace 90 puntos de daño más.",
-			it: "Se non hai carte in mano, questo attacco infligge 90 danni in più.",
-			pt: "Se você não tiver cartas na sua mão, este ataque causará 90 pontos de dano a mais.",
-			de: "Wenn du keine Karten auf deiner Hand hast, fügt diese Attacke 90 Schadenspunkte mehr zu."
+			'en-us': "If you have no cards in your hand, this attack does 90 more damage.",
+			'fr-fr': "Si vous n'avez aucune carte dans votre main, cette attaque inflige 90 dégâts supplémentaires.",
+			'es-es': "Si no tienes ninguna carta en tu mano, este ataque hace 90 puntos de daño más.",
+			'it-it': "Se non hai carte in mano, questo attacco infligge 90 danni in più.",
+			'pt-br': "Se você não tiver cartas na sua mão, este ataque causará 90 pontos de dano a mais.",
+			'de-de': "Wenn du keine Karten auf deiner Hand hast, fügt diese Attacke 90 Schadenspunkte mehr zu."
 		},
 
 		damage: "20+",
@@ -75,7 +75,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Hunger hormones affect its temperament. Until its hunger is appeased, it gets up to all manner of evil deeds."
+		'en-us': "Hunger hormones affect its temperament. Until its hunger is appeased, it gets up to all manner of evil deeds."
 	},
 
 	variants: [

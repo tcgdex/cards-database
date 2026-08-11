@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Hippopotas",
-		fr: "Hippopotas",
-		es: "Hippopotas",
-		it: "Hippopotas",
-		pt: "Hippopotas",
-		de: "Hippopotas"
+		'en-us': "Hippopotas",
+		'fr-fr': "Hippopotas",
+		'es-es': "Hippopotas",
+		'it-it': "Hippopotas",
+		'pt-br': "Hippopotas",
+		'de-de': "Hippopotas"
 	},
 
 	rarity: "Common",
@@ -23,24 +23,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Tackle",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Tackle",
+			'de-de': "Tackle"
 		},
 
 		damage: 30,
 		cost: ["Fighting", "Colorless"]
 	}, {
 		name: {
-			en: "Mud Shot",
-			fr: "Tir de Boue",
-			es: "Disparo Lodo",
-			it: "Colpodifango",
-			pt: "Mud Shot",
-			de: "Lehmschuss"
+			'en-us': "Mud Shot",
+			'fr-fr': "Tir de Boue",
+			'es-es': "Disparo Lodo",
+			'it-it': "Colpodifango",
+			'pt-br': "Mud Shot",
+			'de-de': "Lehmschuss"
 		},
 
 		damage: 50,
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "This Pokémon is active during the day and passes the cold desert nights burrowed snugly into the sand."
+		'en-us': "This Pokémon is active during the day and passes the cold desert nights burrowed snugly into the sand."
 	},
 
 	dexId: [449],

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Misty's Poliwag"
+		'en-us': "Misty's Poliwag"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Bubbles"
+				'en-us': "Bubbles"
 			},
 			effect: {
-				en: "Flip a coin. If tails, you can't use this attack during your next turn."
+				'en-us': "Flip a coin. If tails, you can't use this attack during your next turn."
 			},
 			damage: 20,
 
@@ -41,10 +41,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Amnesia"
+				'en-us': "Amnesia"
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn."
+				'en-us': "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn."
 			},
 
 		},

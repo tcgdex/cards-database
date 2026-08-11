@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tornadus",
-		fr: "Boréas",
-		es: "Tornadus",
-		it: "Tornadus",
-		pt: "Tornadus",
-		de: "Boreos"
+		'en-us': "Tornadus",
+		'fr-fr': "Boréas",
+		'es-es': "Tornadus",
+		'it-it': "Tornadus",
+		'pt-br': "Tornadus",
+		'de-de': "Boreos"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -25,21 +25,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Sudden Cyclone",
-			fr: "Cyclone Surprise",
-			es: "Ciclón Súbito",
-			it: "Ciclone Improvviso",
-			pt: "Ciclone Súbito",
-			de: "Plötzlicher Sturm"
+			'en-us': "Sudden Cyclone",
+			'fr-fr': "Cyclone Surprise",
+			'es-es': "Ciclón Súbito",
+			'it-it': "Ciclone Improvviso",
+			'pt-br': "Ciclone Súbito",
+			'de-de': "Plötzlicher Sturm"
 		},
 
 		effect: {
-			en: "When you play this Pokémon from your hand onto your Bench, you may have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon.",
-			fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc, vous pouvez demander à votre adversaire d'échanger son Pokémon Actif avec l'un de ses Pokémon de Banc.",
-			es: "Cuando juegues este Pokémon de tu mano a tu Banca, puedes hacer que tu rival cambie su Pokémon Activo por 1 de sus Pokémon en Banca.",
-			it: "Quando giochi questo Pokémon dalla tua mano e lo metti in panchina, puoi far scambiare al tuo avversario il suo Pokémon attivo con uno dei suoi Pokémon in panchina.",
-			pt: "Ao jogar este Pokémon da sua mão em seu Banco, você poderá fazer com que seu oponente troque o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
-			de: "Wenn du dieses Pokémon von deiner Hand spielst und auf deine Bank legst, kannst du deinen Gegner dazu veranlassen, sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank auszutauschen."
+			'en-us': "When you play this Pokémon from your hand onto your Bench, you may have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon.",
+			'fr-fr': "Lorsque vous jouez ce Pokémon de votre main sur votre Banc, vous pouvez demander à votre adversaire d'échanger son Pokémon Actif avec l'un de ses Pokémon de Banc.",
+			'es-es': "Cuando juegues este Pokémon de tu mano a tu Banca, puedes hacer que tu rival cambie su Pokémon Activo por 1 de sus Pokémon en Banca.",
+			'it-it': "Quando giochi questo Pokémon dalla tua mano e lo metti in panchina, puoi far scambiare al tuo avversario il suo Pokémon attivo con uno dei suoi Pokémon in panchina.",
+			'pt-br': "Ao jogar este Pokémon da sua mão em seu Banco, você poderá fazer com que seu oponente troque o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
+			'de-de': "Wenn du dieses Pokémon von deiner Hand spielst und auf deine Bank legst, kannst du deinen Gegner dazu veranlassen, sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank auszutauschen."
 		}
 	}],
 
@@ -47,12 +47,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Blasting Wind",
-			fr: "Vent Impitoyable",
-			es: "Vientos Explosivos",
-			it: "Vento Distruttivo",
-			pt: "Vendaval Avassalador",
-			de: "Peitschender Wind"
+			'en-us': "Blasting Wind",
+			'fr-fr': "Vent Impitoyable",
+			'es-es': "Vientos Explosivos",
+			'it-it': "Vento Distruttivo",
+			'pt-br': "Vendaval Avassalador",
+			'de-de': "Peitschender Wind"
 		},
 
 		damage: 100
@@ -75,7 +75,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.",
+		'en-us': "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.",
 	},
 
 	variants: [

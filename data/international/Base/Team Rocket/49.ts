@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Abra",
-		fr: "Abra",
-		de: "Abra"
+		'en-us': "Abra",
+		'fr-fr': "Abra",
+		'de-de': "Abra"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Vanish",
-				fr: "Disparition",
-				de: "Vanish"
+				'en-us': "Vanish",
+				'fr-fr': "Disparition",
+				'de-de': "Vanish"
 			},
 			effect: {
-				en: "Shuffle Abra into your deck. (Discard all cards attached to Abra.)",
-				fr: "Mélangez Abra avec votre deck. (Défaussez toutes les cartes attachées à Abra.)",
-				de: "Shuffle Abra into your deck. (Discard all cards attached to Abra.)"
+				'en-us': "Shuffle Abra into your deck. (Discard all cards attached to Abra.)",
+				'fr-fr': "Mélangez Abra avec votre deck. (Défaussez toutes les cartes attachées à Abra.)",
+				'de-de': "Shuffle Abra into your deck. (Discard all cards attached to Abra.)"
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psyshock",
-				fr: "Choc psychique",
-				de: "Psyshock"
+				'en-us': "Psyshock",
+				'fr-fr': "Choc psychique",
+				'de-de': "Psyshock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paraylzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paraylzed."
 			},
 			damage: 10,
 
@@ -71,8 +71,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It teleports itself away from danger, making it difficult to capture.",
-		fr: "Il se téléporte hors du danger, rendant sa capture difficile."
+		'en-us': "It teleports itself away from danger, making it difficult to capture.",
+		'fr-fr': "Il se téléporte hors du danger, rendant sa capture difficile."
 	},
 
 

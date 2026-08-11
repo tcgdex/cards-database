@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lillie's Cutiefly",
-		fr: "Bombydou de Lilie",
-		es: "Cutiefly de Lylia",
-		de: "Lillys Wommel",
-		it: "Cutiefly di Lylia",
-		pt: "Cutiefly da Lílian",
+		'en-us': "Lillie's Cutiefly",
+		'fr-fr': "Bombydou de Lilie",
+		'es-es': "Cutiefly de Lylia",
+		'de-de': "Lillys Wommel",
+		'it-it': "Cutiefly di Lylia",
+		'pt-br': "Cutiefly da Lílian",
 		'es-mx': "Cutiefly de Lillie"
 	},
 
@@ -25,22 +25,22 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Hold Still",
-			fr: "Ne Bougez Pas",
-			es: "Permanecer Inmóvil",
-			de: "Stillhalten",
-			it: "Immobile",
-			pt: "Ficar Parado",
+			'en-us': "Hold Still",
+			'fr-fr': "Ne Bougez Pas",
+			'es-es': "Permanecer Inmóvil",
+			'de-de': "Stillhalten",
+			'it-it': "Immobile",
+			'pt-br': "Ficar Parado",
 			'es-mx': "Sin Moverse"
 		},
 
 		effect: {
-			en: "Heal 10 damage from this Pokémon.",
-			fr: "Soignez 10 dégâts de ce Pokémon.",
-			es: "Cura 10 puntos de daño a este Pokémon.",
-			de: "Heile 10 Schadenspunkte bei diesem Pokémon.",
-			it: "Cura questo Pokémon da 10 danni.",
-			pt: "Cure 10 pontos de dano deste Pokémon.",
+			'en-us': "Heal 10 damage from this Pokémon.",
+			'fr-fr': "Soignez 10 dégâts de ce Pokémon.",
+			'es-es': "Cura 10 puntos de daño a este Pokémon.",
+			'de-de': "Heile 10 Schadenspunkte bei diesem Pokémon.",
+			'it-it': "Cura questo Pokémon da 10 danni.",
+			'pt-br': "Cure 10 pontos de dano deste Pokémon.",
 			'es-mx': "Cura 10 puntos de daño a este Pokémon."
 		}
 	}],

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Houndoom",
-		fr: "Demolosse",
-		de: "Hundemon"
+		'en-us': "Houndoom",
+		'fr-fr': "Demolosse",
+		'de-de': "Hundemon"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Houndour",
-		fr: "Malosse",
+		'en-us': "Houndour",
+		'fr-fr': "Malosse",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Dark Fang",
-				fr: "Croc obscurité",
-				de: "Finsterzahn"
+				'en-us': "Dark Fang",
+				'fr-fr': "Croc obscurité",
+				'de-de': "Finsterzahn"
 			},
 			effect: {
-				en: "Choose 1 card from your opponent's hand without looking and discard it.",
-				fr: "Choisissez sans regarder 1 carte de la main de votre adversaire et défaussez-la.",
-				de: "Wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen) und lege sie auf seinen Ablagestapel."
+				'en-us': "Choose 1 card from your opponent's hand without looking and discard it.",
+				'fr-fr': "Choisissez sans regarder 1 carte de la main de votre adversaire et défaussez-la.",
+				'de-de': "Wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen) und lege sie auf seinen Ablagestapel."
 			},
 			damage: 20,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Black Fire",
-				fr: "Feu noir",
-				de: "Schwarzes Feuer"
+				'en-us': "Black Fire",
+				'fr-fr': "Feu noir",
+				'de-de': "Schwarzes Feuer"
 			},
 			effect: {
-				en: "You may discard a Fire or Darkness Energy attached to Houndoom. If you discard a Fire Energy, the Defending Pokémon is now Burned. If you discard a Darkness Energy, this attack does 40 damage plus 30 more damage.",
-				fr: "Vous pouvez défausser une Énergie Fire ou Darkness attachée à Demolosse. Si vous défaussez une Énergie Fire, le Pokémon Défenseur est maintenant Brûlé. Si vous défaussez une Énergie (D), cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires.",
-				de: "Du kannst 1 an Hundemon angelegte - oder -Energie auf deinen Ablagestapel legen. Wenn du 1 -Energie auf deinen Ablagestapel legst, ist das Verteidigende Pokémon jetzt verbrannt. Wenn du 1 -Energie auf deinen Ablagestapel legst, fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "You may discard a Fire or Darkness Energy attached to Houndoom. If you discard a Fire Energy, the Defending Pokémon is now Burned. If you discard a Darkness Energy, this attack does 40 damage plus 30 more damage.",
+				'fr-fr': "Vous pouvez défausser une Énergie Fire ou Darkness attachée à Demolosse. Si vous défaussez une Énergie Fire, le Pokémon Défenseur est maintenant Brûlé. Si vous défaussez une Énergie (D), cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "Du kannst 1 an Hundemon angelegte - oder -Energie auf deinen Ablagestapel legen. Wenn du 1 -Energie auf deinen Ablagestapel legst, ist das Verteidigende Pokémon jetzt verbrannt. Wenn du 1 -Energie auf deinen Ablagestapel legst, fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Long ago, people imagined its eerie howls to be the call of the grim reaper.",
+		'en-us': "Long ago, people imagined its eerie howls to be the call of the grim reaper.",
 	},
 
 	thirdParty: {

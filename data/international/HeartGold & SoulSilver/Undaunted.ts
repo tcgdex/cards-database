@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../HeartGold & SoulSilver'
 
 const hgss3: Set = {
 	id: "hgss3",
 
 	name: {
-		en: "Undaunted",
-		fr: "Indomptable",
-		it: "Senza Paura",
-		de: "Unerschrocken",
-		pt: "Destemido"
+		'en-us': "Undaunted",
+		'fr-fr': "Indomptable",
+		'it-it': "Senza Paura",
+		'de-de': "Unerschrocken",
+		'pt-br': "Destemido"
 	},
 
 	serie: serie,
@@ -23,7 +23,7 @@ const hgss3: Set = {
 
 	abbreviations: {
 		official: "UND",
-		fr: "IND"
+		'fr-fr': "IND"
 	},
 
 	thirdParty: {

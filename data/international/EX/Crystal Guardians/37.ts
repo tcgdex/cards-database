@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Lombre",
-		fr: "Lombre",
-		de: "Lombrero"
+		'en-us': "Lombre",
+		'fr-fr': "Lombre",
+		'de-de': "Lombrero"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lotad",
-		fr: "Nénupiot"
+		'en-us': "Lotad",
+		'fr-fr': "Nénupiot"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Plunder",
-				fr: "Pillage",
-				de: "Plündern"
+				'en-us': "Plunder",
+				'fr-fr': "Pillage",
+				'de-de': "Plündern"
 			},
 			effect: {
-				en: "Before doing damage, discard all Trainer cards attached to the Defending Pokémon.",
-				fr: "Avant d'infliger des dégâts, défaussez toutes les cartes Dresseur attachées au Pokémon Défenseur.",
-				de: "Bevor der Schaden zugefügt wird, lege alle an dem Verteidigenden Pokémon angelegten Trainerkarten auf den Ablagestapel."
+				'en-us': "Before doing damage, discard all Trainer cards attached to the Defending Pokémon.",
+				'fr-fr': "Avant d'infliger des dégâts, défaussez toutes les cartes Dresseur attachées au Pokémon Défenseur.",
+				'de-de': "Bevor der Schaden zugefügt wird, lege alle an dem Verteidigenden Pokémon angelegten Trainerkarten auf den Ablagestapel."
 			},
 			damage: 20,
 
@@ -56,9 +56,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse vague",
-				de: "Wellenplatscher"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse vague",
+				'de-de': "Wellenplatscher"
 			},
 
 			damage: 50,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zarude",
-		fr: "Zarude",
-		es: "Zarude",
-		it: "Zarude",
-		pt: "Zarude",
-		de: "Zarude"
+		'en-us': "Zarude",
+		'fr-fr': "Zarude",
+		'es-es': "Zarude",
+		'it-it': "Zarude",
+		'pt-br': "Zarude",
+		'de-de': "Zarude"
 	},
 
 	rarity: "Uncommon",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Anesaki Dynamic",
 
 	description: {
-		en: "Once the vines on Zarude's body tear off, they become nutrients in the soil. This helps the plants of the forest grow."
+		'en-us': "Once the vines on Zarude's body tear off, they become nutrients in the soil. This helps the plants of the forest grow."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Scratch",
-			fr: "Griffe",
-			de: "Kratzer",
-			es: "Arañazo",
-			pt: "Arranhão",
-			it: "Graffio"
+			'en-us': "Scratch",
+			'fr-fr': "Griffe",
+			'de-de': "Kratzer",
+			'es-es': "Arañazo",
+			'pt-br': "Arranhão",
+			'it-it': "Graffio"
 		},
 
 		damage: 20
@@ -50,23 +50,23 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Wild Whip",
-			fr: "Fouet Sauvage",
-			de: "Wilde Peitsche",
-			es: "Látigo Salvaje",
-			pt: "Chicote Selvagem",
-			it: "Frustata Selvaggia"
+			'en-us': "Wild Whip",
+			'fr-fr': "Fouet Sauvage",
+			'de-de': "Wilde Peitsche",
+			'es-es': "Látigo Salvaje",
+			'pt-br': "Chicote Selvagem",
+			'it-it': "Frustata Selvaggia"
 		},
 
 		damage: "40+",
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
-			pt: "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più."
+			'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più."
 		}
 	}],
 

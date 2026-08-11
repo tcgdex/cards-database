@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Stunfisk",
-		fr: "Limonde",
-		es: "Stunfisk",
-		it: "Stunfisk",
-		pt: "Stunfisk",
-		de: "Flunschlik"
+		'en-us': "Stunfisk",
+		'fr-fr': "Limonde",
+		'es-es': "Stunfisk",
+		'it-it': "Stunfisk",
+		'pt-br': "Stunfisk",
+		'de-de': "Flunschlik"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud Shot",
-				fr: "Tir de Boue",
+				'en-us': "Mud Shot",
+				'fr-fr': "Tir de Boue",
 			},
 
 			damage: 20,
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder",
-				fr: "Fatal-Foudre",
+				'en-us': "Thunder",
+				'fr-fr': "Fatal-Foudre",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon does 30 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 30 dégâts.",
+				'en-us': "Flip a coin. If tails, this Pokémon does 30 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 30 dégâts.",
 			},
 			damage: 60,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its skin is very hard, so it is unhurt even if stepped on by sumo wrestlers. It smiles when transmitting electricity.",
+		'en-us': "Its skin is very hard, so it is unhurt even if stepped on by sumo wrestlers. It smiles when transmitting electricity.",
 	},
 
 	thirdParty: {

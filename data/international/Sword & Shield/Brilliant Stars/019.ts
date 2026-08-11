@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magmar",
-		fr: "Magmar",
-		es: "Magmar",
-		it: "Magmar",
-		pt: "Magmar",
-		de: "Magmar"
+		'en-us': "Magmar",
+		'fr-fr': "Magmar",
+		'es-es': "Magmar",
+		'it-it': "Magmar",
+		'pt-br': "Magmar",
+		'de-de': "Magmar"
 	},
 
 	illustrator: "Shinji Kanda",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Low Kick",
-			fr: "Balayage",
-			es: "Patada Baja",
-			it: "Colpo Basso",
-			pt: "Rasteira",
-			de: "Fußkick"
+			'en-us': "Low Kick",
+			'fr-fr': "Balayage",
+			'es-es': "Patada Baja",
+			'it-it': "Colpo Basso",
+			'pt-br': "Rasteira",
+			'de-de': "Fußkick"
 		},
 
 		damage: 20
@@ -38,12 +38,12 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Fiery Punch",
-			fr: "Poing de Feu",
-			es: "Puño Ardiente",
-			it: "Pugnodifuoco",
-			pt: "Soco Ardente",
-			de: "Flammenschlag"
+			'en-us': "Fiery Punch",
+			'fr-fr': "Poing de Feu",
+			'es-es': "Puño Ardiente",
+			'it-it': "Pugnodifuoco",
+			'pt-br': "Soco Ardente",
+			'de-de': "Flammenschlag"
 		},
 
 		damage: 70
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Magmar dispatches its prey with fire. But it regrets this habit once it realizes that it has burned its intended prey to a charred crisp.",
+		'en-us': "Magmar dispatches its prey with fire. But it regrets this habit once it realizes that it has burned its intended prey to a charred crisp.",
 	},
 
 	variants: [

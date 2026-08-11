@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Chinchou",
-		fr: "Loupio",
-		de: "Lampi"
+		'en-us': "Chinchou",
+		'fr-fr': "Loupio",
+		'de-de': "Lampi"
 	},
 
 	illustrator: "sui",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'de-de': "Ramme"
 			},
 
 			damage: 10,
@@ -43,9 +43,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lightning Ball",
-				fr: "Boule éclair",
-				de: "Kugelblitz"
+				'en-us': "Lightning Ball",
+				'fr-fr': "Boule éclair",
+				'de-de': "Kugelblitz"
 			},
 
 			damage: 20,
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It shoots positive and negative electricity between the tips of its two antennae and zaps its enemies."
+		'en-us': "It shoots positive and negative electricity between the tips of its two antennae and zaps its enemies."
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chimchar",
-		fr: "Ouisticram",
-		es: "Chimchar",
-		it: "Chimchar",
-		pt: "Chimchar",
-		de: "Panflam"
+		'en-us': "Chimchar",
+		'fr-fr': "Ouisticram",
+		'es-es': "Chimchar",
+		'it-it': "Chimchar",
+		'pt-br': "Chimchar",
+		'de-de': "Panflam"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Ember",
-			fr: "Flammèche",
-			es: "Ascuas",
-			it: "Braciere",
-			pt: "Brasa",
-			de: "Glut"
+			'en-us': "Ember",
+			'fr-fr': "Flammèche",
+			'es-es': "Ascuas",
+			'it-it': "Braciere",
+			'pt-br': "Brasa",
+			'de-de': "Glut"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte 1 Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte 1 Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 30
@@ -56,7 +56,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick.",
+		'en-us': "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick.",
 	},
 
 	variants: [

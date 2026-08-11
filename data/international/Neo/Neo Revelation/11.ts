@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Misdreavus",
-		fr: "Feuforêve",
-		de: "Traunfugil"
+		'en-us': "Misdreavus",
+		'fr-fr': "Feuforêve",
+		'de-de': "Traunfugil"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Night Eyes",
-				fr: "Mauvais œil",
-				de: "Night Eyes"
+				'en-us': "Night Eyes",
+				'fr-fr': "Mauvais œil",
+				'de-de': "Night Eyes"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -49,14 +49,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Perish Song",
-				fr: "Requiem",
-				de: "Perish Song"
+				'en-us': "Perish Song",
+				'fr-fr': "Requiem",
+				'de-de': "Perish Song"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Asleep, and was attacked with Night Eyes during your last turn, it is Knocked Out.",
-				fr: "Si le Pokémon Défenseur est Endormi et s'il a subi l'attaque Mauvais œil durant votre tour précédent, il est mis K.O.",
-				de: "If the Defending Pokémon is Asleep and was attacked with Night Eyes during your last turn, it is Knocked Out."
+				'en-us': "If the Defending Pokémon is Asleep, and was attacked with Night Eyes during your last turn, it is Knocked Out.",
+				'fr-fr': "Si le Pokémon Défenseur est Endormi et s'il a subi l'attaque Mauvais œil durant votre tour précédent, il est mis K.O.",
+				'de-de': "If the Defending Pokémon is Asleep and was attacked with Night Eyes during your last turn, it is Knocked Out."
 			},
 
 		},
@@ -72,8 +72,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It likes playing mischievous tricks such as screaming and wailing to startle people at night.",
-		fr: "Il adore jouer des mauvais tours, comme pousser des hurlements sinistres à l'oreille des gens la nuit pour leur faire peur."
+		'en-us': "It likes playing mischievous tricks such as screaming and wailing to startle people at night.",
+		'fr-fr': "Il adore jouer des mauvais tours, comme pousser des hurlements sinistres à l'oreille des gens la nuit pour leur faire peur."
 	},
 
 

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 9'
 
 const card: Card = {
 	name: {
-		en: "Croagunk",
-		fr: "Cradopaud"
+		'en-us': "Croagunk",
+		'fr-fr': "Cradopaud"
 	},
 
 	illustrator: "Midori Harada",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Off",
-				fr: "Sabotage"
+				'en-us': "Knock Off",
+				'fr-fr': "Sabotage"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it.",
-				fr: "Lancez une pièce. Si c'est face, choisissez sans regarder 1 carte de la main de votre adversaire et défaussez-la."
+				'en-us': "Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it.",
+				'fr-fr': "Lancez une pièce. Si c'est face, choisissez sans regarder 1 carte de la main de votre adversaire et défaussez-la."
 			},
 
 		},
@@ -43,12 +43,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Nimble",
-				fr: "Agilité"
+				'en-us': "Nimble",
+				'fr-fr': "Agilité"
 			},
 			effect: {
-				en: "If you have Turtwig in play, remove from Croagunk the number of damage counters equal to the damage you did to the Defending Pokémon.",
-				fr: "Si vous avez un Tortipouss en jeu, retirez à Cradopaud autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur."
+				'en-us': "If you have Turtwig in play, remove from Croagunk the number of damage counters equal to the damage you did to the Defending Pokémon.",
+				'fr-fr': "Si vous avez un Tortipouss en jeu, retirez à Cradopaud autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur."
 			},
 			damage: 30,
 
@@ -64,8 +64,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Inflating its poison sacs, it makes an eerie blubbering sound for intimidation.",
-		fr: "Il émet un gargouillis étrange en gonflant ses glandes de poison pour intimider l'ennemi."
+		'en-us': "Inflating its poison sacs, it makes an eerie blubbering sound for intimidation.",
+		'fr-fr': "Il émet un gargouillis étrange en gonflant ses glandes de poison pour intimider l'ennemi."
 	},
 
 	variants: [

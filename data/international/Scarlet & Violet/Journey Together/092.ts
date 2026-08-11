@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Weezing",
-		fr: "Smogogo",
-		es: "Weezing",
-		de: "Smogmog",
-		it: "Weezing",
-		pt: "Weezing",
+		'en-us': "Weezing",
+		'fr-fr': "Smogogo",
+		'es-es': "Weezing",
+		'de-de': "Smogmog",
+		'it-it': "Weezing",
+		'pt-br': "Weezing",
 		'es-mx': "Weezing"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Koffing",
-		fr: "Smogo",
-		es: "Koffing",
-		de: "Smogon",
-		it: "Koffing",
-		pt: "Koffing",
+		'en-us': "Koffing",
+		'fr-fr': "Smogo",
+		'es-es': "Koffing",
+		'de-de': "Smogon",
+		'it-it': "Koffing",
+		'pt-br': "Koffing",
 		'es-mx': "Koffing"
 	},
 	stage: "Stage1",
@@ -34,22 +34,22 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Pervasive Gas",
-			fr: "Gaz Pénétrant",
-			es: "Gas Penetrante",
-			de: "Ausströmendes Gas",
-			it: "Gas Dilagante",
-			pt: "Gás Pervasivo",
+			'en-us': "Pervasive Gas",
+			'fr-fr': "Gaz Pénétrant",
+			'es-es': "Gas Penetrante",
+			'de-de': "Ausströmendes Gas",
+			'it-it': "Gas Dilagante",
+			'pt-br': "Gás Pervasivo",
 			'es-mx': "Gas Penetrante"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
 			'es-mx': "El Pokémon Activo de tu rival ahora está Confundido."
 		},
 
@@ -58,22 +58,22 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Crazy Blast",
-			fr: "Explosion Folle",
-			es: "Explosión Salvaje",
-			de: "Verrückte Explosion",
-			it: "Esplosione Folle",
-			pt: "Explosão Insana",
+			'en-us': "Crazy Blast",
+			'fr-fr': "Explosion Folle",
+			'es-es': "Explosión Salvaje",
+			'de-de': "Verrückte Explosion",
+			'it-it': "Esplosione Folle",
+			'pt-br': "Explosão Insana",
 			'es-mx': "Explosión Alocada"
 		},
 
 		effect: {
-			en: "If this Pokémon used Pervasive Gas during your last turn, this attack does 120 more damage.",
-			fr: "Si ce Pokémon a utilisé Gaz Pénétrant pendant votre dernier tour, cette attaque inflige 120 dégâts supplémentaires.",
-			es: "Si este Pokémon usó Gas Penetrante durante tu último turno, este ataque hace 120 puntos de daño más.",
-			de: "Wenn dieses Pokémon während deines letzten Zuges Ausströmendes Gas eingesetzt hat, fügt diese Attacke 120 Schadenspunkte mehr zu.",
-			it: "Se questo Pokémon ha usato Gas Dilagante durante il tuo ultimo turno, questo attacco infligge 120 danni in più.",
-			pt: "Se este Pokémon usou Gás Pervasivo durante o seu último turno, este ataque causará 120 pontos de dano a mais.",
+			'en-us': "If this Pokémon used Pervasive Gas during your last turn, this attack does 120 more damage.",
+			'fr-fr': "Si ce Pokémon a utilisé Gaz Pénétrant pendant votre dernier tour, cette attaque inflige 120 dégâts supplémentaires.",
+			'es-es': "Si este Pokémon usó Gas Penetrante durante tu último turno, este ataque hace 120 puntos de daño más.",
+			'de-de': "Wenn dieses Pokémon während deines letzten Zuges Ausströmendes Gas eingesetzt hat, fügt diese Attacke 120 Schadenspunkte mehr zu.",
+			'it-it': "Se questo Pokémon ha usato Gas Dilagante durante il tuo ultimo turno, questo attacco infligge 120 danni in più.",
+			'pt-br': "Se este Pokémon usou Gás Pervasivo durante o seu último turno, este ataque causará 120 pontos de dano a mais.",
 			'es-mx': "Si este Pokémon usó Gas Penetrante durante tu último turno, este ataque hace 120 puntos de daño más."
 		},
 

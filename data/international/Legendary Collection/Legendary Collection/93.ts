@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Slowpoke"
+		'en-us': "Slowpoke"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spacing Out"
+				'en-us': "Spacing Out"
 			},
 			effect: {
-				en: "Flip a coin. If heads, remove a damage counter from Slowpoke. This attack can't be used if Slowpoke has no damage counters on it."
+				'en-us': "Flip a coin. If heads, remove a damage counter from Slowpoke. This attack can't be used if Slowpoke has no damage counters on it."
 			},
 
 		},
@@ -40,10 +40,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Scavenge"
+				'en-us': "Scavenge"
 			},
 			effect: {
-				en: "Discard 1 Psychic Energy card attached to Slowpoke in order to use this attack. Put a Trainer card from your discard pile into your hand."
+				'en-us': "Discard 1 Psychic Energy card attached to Slowpoke in order to use this attack. Put a Trainer card from your discard pile into your hand."
 			},
 
 		},
@@ -59,7 +59,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack."
+		'en-us': "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack."
 	},
 
 	variants: [

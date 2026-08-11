@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Weepinbell"
+		'en-us': "Erika's Weepinbell"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bellsprout"
+		'en-us': "Bellsprout"
 	},
 
 	stage: "Stage1",
@@ -31,7 +31,7 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Drool"
+				'en-us': "Drool"
 			},
 
 			damage: 10,
@@ -43,10 +43,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Flytrap"
+				'en-us': "Flytrap"
 			},
 			effect: {
-				en: "Before doing damage, choose 1 of your opponent's Benched Pokémon and switch it with his or her Active Pokémon. This attack can't be used if your opponent has no Benched Pokémon."
+				'en-us': "Before doing damage, choose 1 of your opponent's Benched Pokémon and switch it with his or her Active Pokémon. This attack can't be used if your opponent has no Benched Pokémon."
 			},
 			damage: 20,
 

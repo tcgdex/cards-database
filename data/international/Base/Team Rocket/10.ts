@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Dark Machamp",
-		fr: "Mackogneur obscur",
-		de: "Dunkles Machomei"
+		'en-us': "Dark Machamp",
+		'fr-fr': "Mackogneur obscur",
+		'de-de': "Dunkles Machomei"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Machoke",
-		fr: "Machopeur obscur"
+		'en-us': "Machoke",
+		'fr-fr': "Machopeur obscur"
 	},
 
 	stage: "Stage2",
@@ -37,9 +37,9 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mega Punch",
-				fr: "Ultimapoing",
-				de: "Megahieb"
+				'en-us': "Mega Punch",
+				'fr-fr': "Ultimapoing",
+				'de-de': "Megahieb"
 			},
 
 			damage: 30,
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fling",
-				fr: "Lancer",
-				de: "Austoben"
+				'en-us': "Fling",
+				'fr-fr': "Lancer",
+				'de-de': "Austoben"
 			},
 			effect: {
-				en: "Your opponent shuffles his or her Active Pokémon and all cards attached to it into his or her deck. This attack can't be used if your opponent has no Benched Pokémon.",
-				fr: "Votre adversaire mélange son Pokémon Actif et toutes les cartes qui lui sont attachées à son deck. Cette attaque ne peut être utilisée si votre adversaire n'a pas de Pokémon sur son Banc.",
-				de: "Dein Gegnermischt sein oder ihr aktives Pokémon und alle darauf abgelegten Karten in sein oder ihr Deck. Dieser Angriff kann nicht gespielt werden, falls dein Gegner keine Pokémon auf derBank hat."
+				'en-us': "Your opponent shuffles his or her Active Pokémon and all cards attached to it into his or her deck. This attack can't be used if your opponent has no Benched Pokémon.",
+				'fr-fr': "Votre adversaire mélange son Pokémon Actif et toutes les cartes qui lui sont attachées à son deck. Cette attaque ne peut être utilisée si votre adversaire n'a pas de Pokémon sur son Banc.",
+				'de-de': "Dein Gegnermischt sein oder ihr aktives Pokémon und alle darauf abgelegten Karten in sein oder ihr Deck. Dieser Angriff kann nicht gespielt werden, falls dein Gegner keine Pokémon auf derBank hat."
 			},
 
 		},
@@ -76,8 +76,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It is almost impossible to defend against a Machamp's four powerful arms.",
-		fr: "Il est pratiquement impossible de se défendre contre les quatre bras d'un Mackogneur."
+		'en-us': "It is almost impossible to defend against a Machamp's four powerful arms.",
+		'fr-fr': "Il est pratiquement impossible de se défendre contre les quatre bras d'un Mackogneur."
 	},
 
 

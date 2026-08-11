@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Shinx",
-		fr: "Lixy",
-		de: "Sheinux"
+		'en-us': "Shinx",
+		'fr-fr': "Lixy",
+		'de-de': "Sheinux"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Spark",
-				fr: "Étincelle",
-				de: "Funkensprung"
+				'en-us': "Spark",
+				'fr-fr': "Étincelle",
+				'de-de': "Funkensprung"
 			},
 			effect: {
-				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 10,
 
@@ -62,8 +62,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
-		fr: "Sa fourrure étincelle en cas de danger. Il profite du fait que l'ennemi est aveuglé pour s'enfuir."
+		'en-us': "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
+		'fr-fr': "Sa fourrure étincelle en cas de danger. Il profite du fait que l'ennemi est aveuglé pour s'enfuir."
 	},
 
 	thirdParty: {

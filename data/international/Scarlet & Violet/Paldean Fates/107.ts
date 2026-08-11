@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scovillain",
-		fr: "Scovilain",
-		es: "Scovillain",
-		it: "Scovillain",
-		pt: "Scovillain",
-		de: "Halupenjo"
+		'en-us': "Scovillain",
+		'fr-fr': "Scovilain",
+		'es-es': "Scovillain",
+		'it-it': "Scovillain",
+		'pt-br': "Scovillain",
+		'de-de': "Halupenjo"
 	},
 
 	rarity: "Shiny rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Capsakid",
-		fr: "Pimito",
-		es: "Capsakid",
-		it: "Capsakid",
-		pt: "Capsakid",
-		de: "Chilingel"
+		'en-us': "Capsakid",
+		'fr-fr': "Pimito",
+		'es-es': "Capsakid",
+		'it-it': "Capsakid",
+		'pt-br': "Capsakid",
+		'de-de': "Chilingel"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Double Type",
-			fr: "Type Double",
-			es: "Doble Tipo",
-			it: "Doppio Tipo",
-			pt: "Tipo Duplo",
-			de: "Doppeltyp"
+			'en-us': "Double Type",
+			'fr-fr': "Type Double",
+			'es-es': "Doble Tipo",
+			'it-it': "Doppio Tipo",
+			'pt-br': "Tipo Duplo",
+			'de-de': "Doppeltyp"
 		},
 
 		effect: {
-			en: "As long as this Pokémon is in play, it is {G} and {R} type.",
-			fr: "Tant que ce Pokémon est en jeu, il est de type {G} et {R}.",
-			es: "Mientras este Pokémon esté en juego, es de tipo {G} y {R}.",
-			it: "Fintanto che questo Pokémon è in gioco, è di tipo {G} e {R}.",
-			pt: "Enquanto este Pokémon estiver em jogo, será um Pokémon de tipo {G} e {R}.",
-			de: "Solange dieses Pokémon im Spiel ist, ist es vom Typ {G} und {R}."
+			'en-us': "As long as this Pokémon is in play, it is {G} and {R} type.",
+			'fr-fr': "Tant que ce Pokémon est en jeu, il est de type {G} et {R}.",
+			'es-es': "Mientras este Pokémon esté en juego, es de tipo {G} y {R}.",
+			'it-it': "Fintanto che questo Pokémon è in gioco, è di tipo {G} e {R}.",
+			'pt-br': "Enquanto este Pokémon estiver em jogo, será um Pokémon de tipo {G} e {R}.",
+			'de-de': "Solange dieses Pokémon im Spiel ist, ist es vom Typ {G} und {R}."
 		}
 	}],
 
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Spicy Headbutt",
-			fr: "Coup d'Boule Pimenté",
-			es: "Cabezazo Picante",
-			it: "Testata Piccante",
-			pt: "Cabeçada Ardida",
-			de: "Scharfe Kopfnuss"
+			'en-us': "Spicy Headbutt",
+			'fr-fr': "Coup d'Boule Pimenté",
+			'es-es': "Cabezazo Picante",
+			'it-it': "Testata Piccante",
+			'pt-br': "Cabeçada Ardida",
+			'de-de': "Scharfe Kopfnuss"
 		},
 
 		effect: {
-			en: "This attack's damage isn't affected by Resistance.",
-			fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-			es: "El daño de este ataque no se ve afectado por Resistencia.",
-			it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-			pt: "O dano deste ataque não é afetado por Resistência.",
-			de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+			'en-us': "This attack's damage isn't affected by Resistance.",
+			'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+			'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+			'it-it': "I danni di questo attacco non sono influenzati dalla resistenza.",
+			'pt-br': "O dano deste ataque não é afetado por Resistência.",
+			'de-de': "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
 		},
 
 		damage: 110
@@ -97,7 +97,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "The red head converts spicy chemicals into fire energy and blasts the surrounding area with a super spicy stream of flame.",
+		'en-us': "The red head converts spicy chemicals into fire energy and blasts the surrounding area with a super spicy stream of flame.",
 	},
 
 }

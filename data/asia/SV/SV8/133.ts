@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サザンドラex",
+		'ja-jp': "サザンドラex",
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "相手の山札を上から3枚トラッシュする。",
+				'ja-jp': "相手の山札を上から3枚トラッシュする。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Psychic", "Darkness", "Metal", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン2匹にも、それぞれ130ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン2匹にも、それぞれ130ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ジヘッド",
+		'ja-jp': "ジヘッド",
 	},
 
 	retreat: 3,

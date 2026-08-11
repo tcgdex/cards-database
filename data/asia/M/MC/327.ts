@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オーベム",
+		'ja-jp': "オーベム",
 	},
 
 	illustrator: "Shinya Komatsu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "オーベムが 現れた 牧場 からは いつの間にか バイウールーが １匹 姿を 消してしまう。",
+		'ja-jp': "オーベムが 現れた 牧場 からは いつの間にか バイウールーが １匹 姿を 消してしまう。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分の場のポケモンの数×20ダメージ。",
+				'ja-jp': "自分の場のポケモンの数×20ダメージ。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "リグレー",
+		'ja-jp': "リグレー",
 	},
 
 	retreat: 1,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hop's Corvisquire",
-		fr: "Bleuseille de Nabil",
-		es: "Corvisquire de Paul",
-		de: "Hops Kranoviz",
-		it: "Corvisquire di Hop",
-		pt: "Corvisquire do Lupo",
+		'en-us': "Hop's Corvisquire",
+		'fr-fr': "Bleuseille de Nabil",
+		'es-es': "Corvisquire de Paul",
+		'de-de': "Hops Kranoviz",
+		'it-it': "Corvisquire di Hop",
+		'pt-br': "Corvisquire do Lupo",
 		'es-mx': "Corvisquire de Paul"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Hop's Rookidee",
-		fr: "Minisange de Nabil",
-		es: "Rookidee de Paul",
-		de: "Hops Meikro",
-		it: "Rookidee di Hop",
-		pt: "Rookidee do Lupo",
+		'en-us': "Hop's Rookidee",
+		'fr-fr': "Minisange de Nabil",
+		'es-es': "Rookidee de Paul",
+		'de-de': "Hops Meikro",
+		'it-it': "Rookidee di Hop",
+		'pt-br': "Rookidee do Lupo",
 		'es-mx': "Rookidee de Paul"
 	},
 	stage: "Stage1",
@@ -34,12 +34,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Speed Dive",
-			fr: "Plongée Rapide",
-			es: "Picado Rápido",
-			de: "Tempohechtsprung",
-			it: "Immersione Rapida",
-			pt: "Mergulho Veloz",
+			'en-us': "Speed Dive",
+			'fr-fr': "Plongée Rapide",
+			'es-es': "Picado Rápido",
+			'de-de': "Tempohechtsprung",
+			'it-it': "Immersione Rapida",
+			'pt-br': "Mergulho Veloz",
 			'es-mx': "Descenso Veloz"
 		},
 
@@ -48,12 +48,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Razor Wing",
-			fr: "Aile Tranchante",
-			es: "Ala Cortante",
-			de: "Rasierflügel",
-			it: "Ala Tagliente",
-			pt: "Asa Cortante",
+			'en-us': "Razor Wing",
+			'fr-fr': "Aile Tranchante",
+			'es-es': "Ala Cortante",
+			'de-de': "Rasierflügel",
+			'it-it': "Ala Tagliente",
+			'pt-br': "Asa Cortante",
 			'es-mx': "Ala Cortante"
 		},
 

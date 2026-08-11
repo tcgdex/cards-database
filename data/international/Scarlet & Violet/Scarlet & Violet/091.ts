@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Flabébé",
-		fr: "Flabébé",
-		es: "Flabébé",
-		it: "Flabébé",
-		pt: "Flabébé",
-		de: "Flabébé"
+		'en-us': "Flabébé",
+		'fr-fr': "Flabébé",
+		'es-es': "Flabébé",
+		'it-it': "Flabébé",
+		'pt-br': "Flabébé",
+		'de-de': "Flabébé"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Pollen Shot",
-			fr: "Tir Pollen",
-			es: "Lanzamiento de Polen",
-			it: "Colpo Pollinare",
-			pt: "Arremesso de Pólen",
-			de: "Pollenschuss"
+			'en-us': "Pollen Shot",
+			'fr-fr': "Tir Pollen",
+			'es-es': "Lanzamiento de Polen",
+			'it-it': "Colpo Pollinare",
+			'pt-br': "Arremesso de Pólen",
+			'de-de': "Pollenschuss"
 		},
 
 		damage: 20
@@ -56,7 +56,7 @@ const card: Card = {
 	illustrator: "Mizue",
 
 	description: {
-		en: "This Flabébé rides a red flower. Immediately after birth, this Pokémon begins flying around in search of a flower it likes.",
+		'en-us': "This Flabébé rides a red flower. Immediately after birth, this Pokémon begins flying around in search of a flower it likes.",
 	},
 
 	thirdParty: {

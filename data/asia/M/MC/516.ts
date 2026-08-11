@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メルタン",
+		'ja-jp': "メルタン",
 	},
 
 	illustrator: "Taiga Kayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "金属を 溶かして 食べてしまう。 液体金属を 循環させて 体内で エネルギーを つくる。",
+		'ja-jp': "金属を 溶かして 食べてしまう。 液体金属を 循環させて 体内で エネルギーを つくる。",
 	},
 
 	stage: "Basic",

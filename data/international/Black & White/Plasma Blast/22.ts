@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Glalie",
-		fr: "Oniglali",
-		es: "Glalie",
-		it: "Glalie",
-		pt: "Glalie",
-		de: "Firnontor"
+		'en-us': "Glalie",
+		'fr-fr': "Oniglali",
+		'es-es': "Glalie",
+		'it-it': "Glalie",
+		'pt-br': "Glalie",
+		'de-de': "Firnontor"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Snorunt",
-		fr: "Stalgamin",
+		'en-us': "Snorunt",
+		'fr-fr': "Stalgamin",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Powder Snow",
-				fr: "Poudreuse",
+				'en-us': "Powder Snow",
+				'fr-fr': "Poudreuse",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
 			},
 			damage: 30,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reflect Energy",
-				fr: "Renvoi d'Énergie",
+				'en-us': "Reflect Energy",
+				'fr-fr': "Renvoi d'Énergie",
 			},
 			effect: {
-				en: "Move a Water Energy from this Pokémon to 1 of your Benched Pokémon.",
-				fr: "Déplacez une Énergie Water de ce Pokémon vers 1 de vos Pokémon de Banc.",
+				'en-us': "Move a Water Energy from this Pokémon to 1 of your Benched Pokémon.",
+				'fr-fr': "Déplacez une Énergie Water de ce Pokémon vers 1 de vos Pokémon de Banc.",
 			},
 			damage: 60,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It prevents prey from escaping by instantaneously freezing moisture in the air.",
+		'en-us': "It prevents prey from escaping by instantaneously freezing moisture in the air.",
 	},
 
 	thirdParty: {

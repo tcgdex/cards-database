@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガドラミドロex",
+		'ja-jp': "メガドラミドロex",
 	},
 
 	illustrator: "Kazumasa Yasukuni",
@@ -19,14 +19,14 @@ const card: Card = {
 			name: { ja: "ふしょくえき" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のポケモン全員についている「ポケモンのどうぐ」と「特殊エネルギー」を、すべてトラッシュする。",
+				'ja-jp': "相手のポケモン全員についている「ポケモンのどうぐ」と「特殊エネルギー」を、すべてトラッシュする。",
 			},
 		},
 		{
 			name: { ja: "デッドリーポイズン" },
 			cost: ["Water", "Darkness"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は16個になる。",
+				'ja-jp': "相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は16個になる。",
 			},
 		},
 	],
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "クズモー",
+		'ja-jp': "クズモー",
 	},
 
 	retreat: 2,

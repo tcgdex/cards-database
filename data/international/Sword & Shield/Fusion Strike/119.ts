@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mawile",
-		fr: "Mysdibule",
-		es: "Mawile",
-		it: "Mawile",
-		pt: "Mawile",
-		de: "Flunkifer"
+		'en-us': "Mawile",
+		'fr-fr': "Mysdibule",
+		'es-es': "Mawile",
+		'it-it': "Mawile",
+		'pt-br': "Mawile",
+		'de-de': "Flunkifer"
 	},
 
 	rarity: "Common",
@@ -30,30 +30,30 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed."
+		'en-us': "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed."
 	},
 
 	attacks: [{
 		cost: ["Psychic"],
 
 		name: {
-			en: "Chomp Chomp Hold",
-			fr: "Mangeouille Acharnée",
-			de: "Mampfgriff",
-			es: "Obstrucción Ñam Ñam",
-			pt: "Imobilização Nhoc Nhoc",
-			it: "Stretta Mastica Bene"
+			'en-us': "Chomp Chomp Hold",
+			'fr-fr': "Mangeouille Acharnée",
+			'de-de': "Mampfgriff",
+			'es-es': "Obstrucción Ñam Ñam",
+			'pt-br': "Imobilização Nhoc Nhoc",
+			'it-it': "Stretta Mastica Bene"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "During your opponent's next turn, the Defending Pokémon's attacks cost {C} more, and its Retreat Cost is {C} more.",
-			fr: "Pendant le prochain tour de votre adversaire, les attaques du Pokémon Défenseur coûtent {C} de plus et son Coût de Retraite augmente de {C}.",
-			de: "Während des nächsten Zuges deines Gegners erhöhen sich die Kosten der Attacken des Verteidigenden Pokémon um {C}, und seine Rückzugskosten erhöhen sich um {C}.",
-			es: "Durante el próximo turno de tu rival, los ataques del Pokémon Defensor cuestan {C} más, y su Coste de Retirada es de {C} más.",
-			pt: "Durante o próximo turno do seu oponente, os ataques do Pokémon Defensor custarão {C} a mais e o seu custo de Recuo será {C} a mais.",
-			it: "Durante il prossimo turno del tuo avversario, il costo degli attacchi del Pokémon difensore aumenta di {C} e il suo costo di ritirata aumenta di {C}."
+			'en-us': "During your opponent's next turn, the Defending Pokémon's attacks cost {C} more, and its Retreat Cost is {C} more.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, les attaques du Pokémon Défenseur coûtent {C} de plus et son Coût de Retraite augmente de {C}.",
+			'de-de': "Während des nächsten Zuges deines Gegners erhöhen sich die Kosten der Attacken des Verteidigenden Pokémon um {C}, und seine Rückzugskosten erhöhen sich um {C}.",
+			'es-es': "Durante el próximo turno de tu rival, los ataques del Pokémon Defensor cuestan {C} más, y su Coste de Retirada es de {C} más.",
+			'pt-br': "Durante o próximo turno do seu oponente, os ataques do Pokémon Defensor custarão {C} a mais e o seu custo de Recuo será {C} a mais.",
+			'it-it': "Durante il prossimo turno del tuo avversario, il costo degli attacchi del Pokémon difensore aumenta di {C} e il suo costo di ritirata aumenta di {C}."
 		}
 	}],
 

@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Pokédex",
-		fr: "Pokédex",
-		de: "Pokédex",
-		it: "Pokédex"
+		'en-us': "Pokédex",
+		'fr-fr': "Pokédex",
+		'de-de': "Pokédex",
+		'it-it': "Pokédex"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,10 +15,10 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Look at up to 5 cards from the top of your deck and rearrange them as you like.",
-		fr: "Regardez jusqu'à 5 des 5 premières cartes du dessus de votre deck et triez-les comme bon vous semble.",
-		de: "Schaue Dir bis zu fünf der obersten Karten Deines Stapels an und lege sie in beliebiger Reihenfolge wieder in Deinen Stapel zurück.",
-		it: "Guarda un massimo di 5 carte in cima al tuo mazzo e rimettile nell'ordine che vuoi."
+		'en-us': "Look at up to 5 cards from the top of your deck and rearrange them as you like.",
+		'fr-fr': "Regardez jusqu'à 5 des 5 premières cartes du dessus de votre deck et triez-les comme bon vous semble.",
+		'de-de': "Schaue Dir bis zu fünf der obersten Karten Deines Stapels an und lege sie in beliebiger Reihenfolge wieder in Deinen Stapel zurück.",
+		'it-it': "Guarda un massimo di 5 carte in cima al tuo mazzo e rimettile nell'ordine che vuoi."
 	},
 
 	variants: [

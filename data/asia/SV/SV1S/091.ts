@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ギャラドスex"
+		'ja-jp': "ギャラドスex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 		cost: ["Water", "Water", "Water"],
 
 		name: {
-			ja: "たきのぼり"
+			'ja-jp': "たきのぼり"
 		},
 
 		damage: 100
@@ -27,13 +27,13 @@ const card: Card = {
 		cost: ["Water", "Water", "Water", "Colorless", "Colorless"],
 
 		name: {
-			ja: "タイラントテール"
+			'ja-jp': "タイラントテール"
 		},
 
 		damage: "180＋",
 
 		effect: {
-			ja: "相手のバトルポケモンにダメカンがのっているなら、180ダメージ追加。"
+			'ja-jp': "相手のバトルポケモンにダメカンがのっているなら、180ダメージ追加。"
 		}
 	}],
 

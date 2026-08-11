@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピカチュウ",
+		'ja-jp': "ピカチュウ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "gnaw",
+				'ja-jp': "gnaw",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "サンダージョルト",
+				'ja-jp': "サンダージョルト",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、このポケモンはそれ自体に10ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。尾の場合、このポケモンはそれ自体に10ダメージを与えます。",
 			},
 			damage: 30,
 		},

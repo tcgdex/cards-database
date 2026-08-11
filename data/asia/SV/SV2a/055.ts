@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴルダック",
+		'ja-jp': "ゴルダック",
 		'zh-tw': "哥達鴨",
-		th: "โกลดัก",
-		id: "Golduck",
+		'th-th': "โกลดัก",
+		'id-id': "Golduck",
 	},
 
 	illustrator: "Taira Akitsu",
@@ -16,10 +16,10 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "水かきのついた 長い 手足を 使い 全力で 泳ぎだすと なぜか 額が 光り輝く。",
+		'ja-jp': "水かきのついた 長い 手足を 使い 全力で 泳ぎだすと なぜか 額が 光り輝く。",
 		'zh-tw': "當牠用帶有水蹼的修長手腳全力游泳時， 不知為何額頭會閃閃發光。",
-		th: "ไม่รู้ทำไม พอใช้แขนขายาวที่มีพังผืดว่ายน้ำสุดกำลัง บริเวณหน้าผากจะเรืองแสงขึ้นมา",
-		id: "Entah kenapa kening Golduck bersinar ketika ia berenang sekuat tenaga menggunakan kaki dan tangan panjang berselaputnya.",
+		'th-th': "ไม่รู้ทำไม พอใช้แขนขายาวที่มีพังผืดว่ายน้ำสุดกำลัง บริเวณหน้าผากจะเรืองแสงขึ้นมา",
+		'id-id': "Entah kenapa kening Golduck bersinar ketika ia berenang sekuat tenaga menggunakan kaki dan tangan panjang berselaputnya.",
 	},
 
 	stage: "Stage1",
@@ -27,25 +27,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "すいなんきゅうじょ",
+				'ja-jp': "すいなんきゅうじょ",
 				'zh-tw': "水難救助",
-				th: "กู้ภัยทางน้ำ",
-				id: "Penyelamatan Bencana Air",
+				'th-th': "กู้ภัยทางน้ำ",
+				'id-id': "Penyelamatan Bencana Air",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュからポケモンを4枚まで選び、相手に見せて、手札に加える。",
+				'ja-jp': "自分のトラッシュからポケモンを4枚まで選び、相手に見せて、手札に加える。",
 				'zh-tw': "從自己的棄牌區選擇最多4張寶可夢卡，在給對手看過後加入手牌。",
-				th: "เลือกการ์ดโปเกมอนได้สูงสุด 4 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ",
-				id: "Pilih paling banyak 4 lembar Pokémon dari Trash sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan.",
+				'th-th': "เลือกการ์ดโปเกมอนได้สูงสุด 4 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ",
+				'id-id': "Pilih paling banyak 4 lembar Pokémon dari Trash sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan.",
 			},
 		},
 		{
 			name: {
-				ja: "スーパースプラッシュ",
+				'ja-jp': "スーパースプラッシュ",
 				'zh-tw': "超級飛濺",
-				th: "ซูเปอร์สแปลช",
-				id: "Super Splash",
+				'th-th': "ซูเปอร์สแปลช",
+				'id-id': "Super Splash",
 			},
 			damage: 120,
 			cost: ["Water", "Water", "Colorless"],
@@ -79,7 +79,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コダック",
+		'ja-jp': "コダック",
 	},
 
 	retreat: 1,

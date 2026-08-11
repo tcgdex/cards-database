@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Sandile",
-		fr: "Mascaïman",
-		es: "Sandile",
-		it: "Sandile",
-		pt: "Sandile",
-		de: "Ganovil"
+		'en-us': "Sandile",
+		'fr-fr': "Mascaïman",
+		'es-es': "Sandile",
+		'it-it': "Sandile",
+		'pt-br': "Sandile",
+		'de-de': "Ganovil"
 	},
 
 	illustrator: "sui",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gentle Slap",
-				fr: "Gifle Douce",
+				'en-us': "Gentle Slap",
+				'fr-fr': "Gifle Douce",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 10,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They live hidden under hot desert sands in order to keep their body temperature from dropping.",
+		'en-us': "They live hidden under hot desert sands in order to keep their body temperature from dropping.",
 	},
 
 	thirdParty: {

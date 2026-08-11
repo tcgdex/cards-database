@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Ralts",
-		fr: "Tarsal",
-		es: "Ralts",
-		it: "Ralts",
-		pt: "Ralts",
-		de: "Trasla"
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal",
+		'es-es': "Ralts",
+		'it-it': "Ralts",
+		'pt-br': "Ralts",
+		'de-de': "Trasla"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psyshot",
-				fr: "Piqûre Psy",
+				'en-us': "Psyshot",
+				'fr-fr': "Piqûre Psy",
 			},
 
 			damage: 10,
@@ -47,8 +47,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smack",
-				fr: "Claque",
+				'en-us': "Smack",
+				'fr-fr': "Claque",
 			},
 
 			damage: 20,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
+		'en-us': "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
 	},
 
 	thirdParty: {

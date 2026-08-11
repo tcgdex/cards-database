@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pineco",
-		fr: "Pomdepik",
-		es: "Pineco",
-		it: "Pineco",
-		pt: "Pineco",
-		de: "Tannza"
+		'en-us': "Pineco",
+		'fr-fr': "Pomdepik",
+		'es-es': "Pineco",
+		'it-it': "Pineco",
+		'pt-br': "Pineco",
+		'de-de': "Tannza"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			en: "Rollout",
-			fr: "Roulade",
-			es: "Rodar",
-			it: "Rotolamento",
-			pt: "Rolagem",
-			de: "Walzer"
+			'en-us': "Rollout",
+			'fr-fr': "Roulade",
+			'es-es': "Rodar",
+			'it-it': "Rotolamento",
+			'pt-br': "Rolagem",
+			'de-de': "Walzer"
 		},
 
 		damage: 30
@@ -66,7 +66,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
+		'en-us': "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
 	},
 
 }

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コクーン",
+		'ja-jp': "コクーン",
 	},
 
 	illustrator: "Mugi Hamada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "自分では ほとんど 動けないが 危ないときは 硬くなって 身を守っているようだ。",
+		'ja-jp': "自分では ほとんど 動けないが 危ないときは 硬くなって 身を守っているようだ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かたいからだ" },
 			effect: {
-				ja: "このポケモンが受けるワザのダメージは「-20」される。",
+				'ja-jp': "このポケモンが受けるワザのダメージは「-20」される。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ビードル",
+		'ja-jp': "ビードル",
 	},
 
 	retreat: 3,

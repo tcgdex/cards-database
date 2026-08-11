@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ウミディグダ",
+		'ja-jp': "ウミディグダ",
 		'zh-tw': "海地鼠",
-		id: "Wiglett"
+		'id-id': "Wiglett"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "２０メートル先の ミガルーサが 放つ 匂いも 嗅ぎとって 砂の中に 身を 隠すのだ。",
+		'ja-jp': "２０メートル先の ミガルーサが 放つ 匂いも 嗅ぎとって 砂の中に 身を 隠すのだ。",
 		'zh-tw': "就算身處於２０公尺外，牠都能嗅出輕身鱈散發出 的氣味，躲進沙子裡面藏身。",
-		id: "Wiglett dapat mencium bau yang dikeluarkan Veluza yang berada dalam jarak 20 m, lalu bersembunyi di dalam pasir."
+		'id-id': "Wiglett dapat mencium bau yang dikeluarkan Veluza yang berada dalam jarak 20 m, lalu bersembunyi di dalam pasir."
 	},
 
 	stage: "Basic",
@@ -28,17 +28,17 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "ひねりうち",
+			'ja-jp': "ひねりうち",
 			'zh-tw': "扭打",
-			id: "Serangan Memilin"
+			'id-id': "Serangan Memilin"
 		},
 
 		damage: 10,
 
 		effect: {
-			ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+			'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
 			'zh-tw': "擲1次硬幣若為正面，則在下個對手的回合，這隻寶可夢不會受到招式的傷害與效果的影響。",
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, pada giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan dan efek akibat serangan."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, pada giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan dan efek akibat serangan."
 		}
 	}],
 

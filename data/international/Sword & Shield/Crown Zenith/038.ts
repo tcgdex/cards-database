@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Glaceon V",
-		fr: "Givrali V",
-		es: "Glaceon V",
-		it: "Glaceon V",
-		pt: "Glaceon V",
-		de: "Glaziola V"
+		'en-us': "Glaceon V",
+		'fr-fr': "Givrali V",
+		'es-es': "Glaceon V",
+		'it-it': "Glaceon V",
+		'pt-br': "Glaceon V",
+		'de-de': "Glaziola V"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -26,21 +26,21 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Frost Charge",
-			fr: "Charge Givrée",
-			es: "Carga Helada",
-			it: "Gelocarica",
-			pt: "Carga de Gelo",
-			de: "Frostladung"
+			'en-us': "Frost Charge",
+			'fr-fr': "Charge Givrée",
+			'es-es': "Carga Helada",
+			'it-it': "Gelocarica",
+			'pt-br': "Carga de Gelo",
+			'de-de': "Frostladung"
 		},
 
 		effect: {
-			en: "Search your deck for a Water Energy card and attach it to this Pokémon. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck une carte Énergie Water, puis attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja 1 carta de Energía Water y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo una carta Energia Water e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por 1 carta de Energia Water no seu baralho e ligue-a a este Pokémon. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach 1 Water-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+			'en-us': "Search your deck for a Water Energy card and attach it to this Pokémon. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck une carte Énergie Water, puis attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja 1 carta de Energía Water y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo una carta Energia Water e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por 1 carta de Energia Water no seu baralho e ligue-a a este Pokémon. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach 1 Water-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 		},
 
 		damage: 30
@@ -48,12 +48,12 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			en: "Freezing Wind",
-			fr: "Vent Glaçant",
-			es: "Viento Gélido",
-			it: "Ventogelido",
-			pt: "Vento Gelado",
-			de: "Polarwind"
+			'en-us': "Freezing Wind",
+			'fr-fr': "Vent Glaçant",
+			'es-es': "Viento Gélido",
+			'it-it': "Ventogelido",
+			'pt-br': "Vento Gelado",
+			'de-de': "Polarwind"
 		},
 
 		damage: 130

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Bagon",
-		de: "Kindwurm"
+		'en-us': "Bagon",
+		'de-de': "Kindwurm"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -26,12 +26,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Star Barrier",
-				de: "Sternenbarriere"
+				'en-us': "Star Barrier",
+				'de-de': "Sternenbarriere"
 			},
 			effect: {
-				en: "As long as Bagon has any Energy attached to it, Bagon has no Weakness.",
-				de: "Solange an Kindwurm mindestens 1 Energie angelegt ist, hat Kindwurm keine Schwäche."
+				'en-us': "As long as Bagon has any Energy attached to it, Bagon has no Weakness.",
+				'de-de': "Solange an Kindwurm mindestens 1 Energie angelegt ist, hat Kindwurm keine Schwäche."
 			}
 		},
 	],
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Rage",
-				de: "Drachenwut"
+				'en-us': "Dragon Rage",
+				'de-de': "Drachenwut"
 			},
 			effect: {
-				en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
-				de: "Wirf 2 Münzen. Wenn mindestens eine Münze \"Zahl\" gezeigt hat, hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip 2 coins. If either of them is tails, this attack does nothing.",
+				'de-de': "Wirf 2 Münzen. Wenn mindestens eine Münze \"Zahl\" gezeigt hat, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 40,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Dreaming of one day flying, it practices by leaping off cliffs every day."
+		'en-us': "Dreaming of one day flying, it practices by leaping off cliffs every day."
 	},
 
 	variants: [

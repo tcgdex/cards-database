@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マケンカニ",
+		'ja-jp': "マケンカニ",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "硬い ハサミは 攻めも 守りも 得意。 マケンカニ 同士の 戦いは ボクシングの ようだ。",
+		'ja-jp': "硬い ハサミは 攻めも 守りも 得意。 マケンカニ 同士の 戦いは ボクシングの ようだ。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のサイドの残り枚数が、相手より多いなら、60ダメージ追加。",
+				'ja-jp': "自分のサイドの残り枚数が、相手より多いなら、60ダメージ追加。",
 			},
 		},
 	],

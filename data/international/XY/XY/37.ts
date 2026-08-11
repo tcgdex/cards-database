@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Panpour",
-		fr: "Flotajou",
-		es: "Panpour",
-		it: "Panpour",
-		pt: "Panpour",
-		de: "Sodamak"
+		'en-us': "Panpour",
+		'fr-fr': "Flotajou",
+		'es-es': "Panpour",
+		'it-it': "Panpour",
+		'pt-br': "Panpour",
+		'de-de': "Sodamak"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse Vague",
-				es: "Chapoteo Ondulante",
-				it: "Schizzi d'Onda",
-				pt: "Onda Borrifante",
-				de: "Wellenplatscher"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse Vague",
+				'es-es': "Chapoteo Ondulante",
+				'it-it': "Schizzi d'Onda",
+				'pt-br': "Onda Borrifante",
+				'de-de': "Wellenplatscher"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Splash",
-				fr: "Éclaboussure",
-				es: "Chapoteo agua",
-				it: "Acquasplash",
-				pt: "Espirro d'Água",
-				de: "Wasserplatscher"
+				'en-us': "Water Splash",
+				'fr-fr': "Éclaboussure",
+				'es-es': "Chapoteo agua",
+				'it-it': "Acquasplash",
+				'pt-br': "Espirro d'Água",
+				'de-de': "Wasserplatscher"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-				pt: "Jogue uma moeda. Se sair cara, esse ataque causará 20 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+				'pt-br': "Jogue uma moeda. Se sair cara, esse ataque causará 20 de danos adicionais.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The water stored inside the tuft on its head is full of nutrients. It waters plants with it using its tail.",
+		'en-us': "The water stored inside the tuft on its head is full of nutrients. It waters plants with it using its tail.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Shiftry",
-		fr: "Tengalice",
+		'en-us': "Shiftry",
+		'fr-fr': "Tengalice",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nuzleaf",
-		fr: "Pifeuil",
+		'en-us': "Nuzleaf",
+		'fr-fr': "Pifeuil",
 	},
 
 	stage: "Stage2",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Whisk Away",
-				fr: "Fouet Renvoi",
+				'en-us': "Whisk Away",
+				'fr-fr': "Fouet Renvoi",
 			},
 			effect: {
-				en: "Your opponent reveals his or her hand. Choose a Pokémon you find there and put it on the bottom of your opponent's deck. If you do, this attack does 30 more damage.",
-				fr: "Votre adversaire montre sa main. Choisissez un Pokémon que vous y trouvez et placez-le en dessous du deck de votre adversaire. Dans ce cas, cette attaque inflige 30 dégâts supplémentaires.",
+				'en-us': "Your opponent reveals his or her hand. Choose a Pokémon you find there and put it on the bottom of your opponent's deck. If you do, this attack does 30 more damage.",
+				'fr-fr': "Votre adversaire montre sa main. Choisissez un Pokémon que vous y trouvez et placez-le en dessous du deck de votre adversaire. Dans ce cas, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: "30＋",
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spirit Dance",
-				fr: "Danse Spirituelle",
+				'en-us': "Spirit Dance",
+				'fr-fr': "Danse Spirituelle",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
+				'en-us': "Flip 2 coins. This attack does 30 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
 			},
 			damage: "60＋",
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A Pokémon that was feared as a forest guardian. It can read the foe's mind and take preemptive action.",
+		'en-us': "A Pokémon that was feared as a forest guardian. It can read the foe's mind and take preemptive action.",
 	},
 
 	thirdParty: {

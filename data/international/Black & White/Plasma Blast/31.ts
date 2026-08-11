@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Tynamo",
-		fr: "Anchwatt",
-		es: "Tynamo",
-		it: "Tynamo",
-		pt: "Tynamo",
-		de: "Zapplardin"
+		'en-us': "Tynamo",
+		'fr-fr': "Anchwatt",
+		'es-es': "Tynamo",
+		'it-it': "Tynamo",
+		'pt-br': "Tynamo",
+		'de-de': "Zapplardin"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Razor Fin",
-				fr: "Aileron-Rasoir",
+				'en-us': "Razor Fin",
+				'fr-fr': "Aileron-Rasoir",
 			},
 
 			damage: 20,
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "One alone can emit only a trickle of electricity, so a group of them gathers to unleash a powerful electric shock.",
+		'en-us': "One alone can emit only a trickle of electricity, so a group of them gathers to unleash a powerful electric shock.",
 	},
 
 	thirdParty: {

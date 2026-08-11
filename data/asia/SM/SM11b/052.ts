@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポッチャマ",
+		'ja-jp': "ポッチャマ",
 	},
 
 	illustrator: "Tomomi Kaneko",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "世話を 焼かれる ことが 大嫌い。 トレーナーの 指示を 聞かないので 仲良く なるのが 難しい。",
+		'ja-jp': "世話を 焼かれる ことが 大嫌い。 トレーナーの 指示を 聞かないので 仲良く なるのが 難しい。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Water", "Water", "Water"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたたねポケモンは、ワザが使えない。",
+				'ja-jp': "次の相手の番、このワザを受けたたねポケモンは、ワザが使えない。",
 			},
 		},
 	],

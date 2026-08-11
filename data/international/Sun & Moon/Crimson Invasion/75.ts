@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Jangmo-o",
-		fr: "Bébécaille",
-		es: "Jangmo-o",
-		it: "Jangmo-o",
-		pt: "Jangmo-o",
-		de: "Miniras"
+		'en-us': "Jangmo-o",
+		'fr-fr': "Bébécaille",
+		'es-es': "Jangmo-o",
+		'it-it': "Jangmo-o",
+		'pt-br': "Jangmo-o",
+		'de-de': "Miniras"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d’Boule",
-				es: "Golpe Cabeza",
-				it: "Bottintesta",
-				pt: "Cabeçada",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d’Boule",
+				'es-es': "Golpe Cabeza",
+				'it-it': "Bottintesta",
+				'pt-br': "Cabeçada",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Gentle Slap",
-				fr: "Gifle Douce",
-				es: "Bofetada Gentil",
-				it: "Schiaffetto",
-				pt: "Tapinha",
-				de: "Sanfter Hieb"
+				'en-us': "Gentle Slap",
+				'fr-fr': "Gifle Douce",
+				'es-es': "Bofetada Gentil",
+				'it-it': "Schiaffetto",
+				'pt-br': "Tapinha",
+				'de-de': "Sanfter Hieb"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It expresses its feelings by smacking its scales. Metallic sounds echo through the tall mountains where Jangmo-o lives.",
+		'en-us': "It expresses its feelings by smacking its scales. Metallic sounds echo through the tall mountains where Jangmo-o lives.",
 	},
 
 	thirdParty: {

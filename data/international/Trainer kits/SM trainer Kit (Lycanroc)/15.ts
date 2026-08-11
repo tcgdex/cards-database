@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM trainer Kit (Lycanroc)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikipek",
-		fr: "Picassaut",
-		es: "Pikipek",
-		it: "Pikipek",
-		pt: "Pikipek",
-		de: "Peppeck"
+		'en-us': "Pikipek",
+		'fr-fr': "Picassaut",
+		'es-es': "Pikipek",
+		'it-it': "Pikipek",
+		'pt-br': "Pikipek",
+		'de-de': "Peppeck"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Smash"
+				'en-us': "Rock Smash"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 10 more damage."
 			},
 			damage: "10+"
 		},

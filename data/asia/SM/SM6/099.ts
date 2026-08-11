@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウルトラネクロズマGX",
+		'ja-jp': "ウルトラネクロズマGX",
 	},
 
 	illustrator: "PLANETA",
@@ -20,14 +20,14 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Psychic", "Metal"],
 			effect: {
-				ja: "このポケモンについている基本[超]エネルギーをすべてトラッシュし、その枚数x80ダメージ追加。",
+				'ja-jp': "このポケモンについている基本[超]エネルギーをすべてトラッシュし、その枚数x80ダメージ追加。",
 			},
 		},
 		{
 			name: { ja: "めつぼうのひかりGX" },
 			cost: ["Psychic", "Metal"],
 			effect: {
-				ja: "このワザは、おたがいのサイドの残り枚数の合計が、6枚以下のときにしか使えない。相手のポケモン全員に、それぞれダメカンを6個のせる。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "このワザは、おたがいのサイドの残り枚数の合計が、6枚以下のときにしか使えない。相手のポケモン全員に、それぞれダメカンを6個のせる。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

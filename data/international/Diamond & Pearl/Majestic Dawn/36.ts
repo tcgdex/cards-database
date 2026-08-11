@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Fearow",
-		fr: "Rapasdepic",
-		de: "Ibitak"
+		'en-us': "Fearow",
+		'fr-fr': "Rapasdepic",
+		'de-de': "Ibitak"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spearow",
-		fr: "Piafabec",
+		'en-us': "Spearow",
+		'fr-fr': "Piafabec",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Attack",
-				fr: "Furie",
-				de: "Furienschlag"
+				'en-us': "Fury Attack",
+				'fr-fr': "Furie",
+				'de-de': "Furienschlag"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 3 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "20x",
 
@@ -55,9 +55,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drill Peck",
-				fr: "Bec vrille",
-				de: "Bohrschnabel"
+				'en-us': "Drill Peck",
+				'fr-fr': "Bec vrille",
+				'de-de': "Bohrschnabel"
 			},
 
 			damage: 60,
@@ -80,7 +80,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It has the stamina to fly all day on its broad wings. It fights by using its sharp beak.",
+		'en-us': "It has the stamina to fly all day on its broad wings. It fights by using its sharp beak.",
 	},
 
 	thirdParty: {

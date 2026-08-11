@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
@@ -8,12 +8,12 @@ const card: Card = {
 	stage: "Basic",
 
 	name: {
-		en: "Blastoise V",
-		fr: "Tortank V",
-		de: "Turtok V",
-		es: "Blastoise V",
-		pt: "Blastoise V",
-		it: "Blastoise V"
+		'en-us': "Blastoise V",
+		'fr-fr': "Tortank V",
+		'de-de': "Turtok V",
+		'es-es': "Blastoise V",
+		'pt-br': "Blastoise V",
+		'it-it': "Blastoise V"
 	},
 
 	rarity: "Promo",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Water Gun",
-			fr: "Pistolet à O",
-			de: "Aquaknarre",
-			es: "Pistola Agua",
-			pt: "Revólver d'Água",
-			it: "Pistolacqua"
+			'en-us': "Water Gun",
+			'fr-fr': "Pistolet à O",
+			'de-de': "Aquaknarre",
+			'es-es': "Pistola Agua",
+			'pt-br': "Revólver d'Água",
+			'it-it': "Pistolacqua"
 		},
 
 		damage: 30
@@ -38,21 +38,21 @@ const card: Card = {
 		cost: ["Water", "Water", "Water"],
 
 		name: {
-			en: "Torrential Cannon",
-			fr: "Canon Torrentiel",
-			de: "Sintflutkanone",
-			es: "Cañón Torrencial",
-			pt: "Canhão Torrencial",
-			it: "Cannone Torrenziale"
+			'en-us': "Torrential Cannon",
+			'fr-fr': "Canon Torrentiel",
+			'de-de': "Sintflutkanone",
+			'es-es': "Cañón Torrencial",
+			'pt-br': "Canhão Torrencial",
+			'it-it': "Cannone Torrenziale"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use Torrential Cannon.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Canon Torrentiel.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon Sintflutkanone nicht einsetzen.",
-			es: "Durante tu próximo turno, este Pokémon no puede usar Cañón Torrencial.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Canhão Torrencial.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Cannone Torrenziale."
+			'en-us': "During your next turn, this Pokémon can't use Torrential Cannon.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Canon Torrentiel.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon Sintflutkanone nicht einsetzen.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede usar Cañón Torrencial.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar Canhão Torrencial.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Cannone Torrenziale."
 		},
 
 		damage: 200

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../web1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "暗い金星",
+		'ja-jp': "暗い金星",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Grass", "Grass"],
 			name: {
-				ja: "恐ろしい花粉",
+				'ja-jp': "恐ろしい花粉",
 			},
 			effect: {
-				ja: "防御するポケモンは、ランダムに眠り、毒され、混乱し、毒され、麻痺して毒されています。",
+				'ja-jp': "防御するポケモンは、ランダムに眠り、毒され、混乱し、毒され、麻痺して毒されています。",
 			},
 			damage: 30,
 		},

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scream Tail",
-		fr: "Hurle-Queue",
-		es: "Colagrito",
-		pt: "Cauda Brado",
-		it: "Codaurlante",
-		de: "Brüllschweif"
+		'en-us': "Scream Tail",
+		'fr-fr': "Hurle-Queue",
+		'es-es': "Colagrito",
+		'pt-br': "Cauda Brado",
+		'it-it': "Codaurlante",
+		'de-de': "Brüllschweif"
 	},
 
 	rarity: "Uncommon",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Slap",
-			fr: "Gifle",
-			es: "Bofetón",
-			pt: "Tapa",
-			it: "Sberla",
-			de: "Hieb"
+			'en-us': "Slap",
+			'fr-fr': "Gifle",
+			'es-es': "Bofetón",
+			'pt-br': "Tapa",
+			'it-it': "Sberla",
+			'de-de': "Hieb"
 		},
 
 		damage: 30
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Roaring Scream",
-			fr: "Hurlement Bestial",
-			es: "Grito Rugiente",
-			pt: "Brado Estrondo",
-			it: "Urlo Ruggente",
-			de: "Tosendes Gebrüll"
+			'en-us': "Roaring Scream",
+			'fr-fr': "Hurlement Bestial",
+			'es-es': "Grito Rugiente",
+			'pt-br': "Brado Estrondo",
+			'it-it': "Urlo Ruggente",
+			'de-de': "Tosendes Gebrüll"
 		},
 
 		effect: {
-			en: "This attack does 20 damage to 1 of your opponent's Pokémon for each damage counter on this Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Cette attaque inflige 20 dégâts à l'un des Pokémon de votre adversaire pour chaque marqueur de dégâts sur ce Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-			es: "Este ataque hace 20 puntos de daño a uno de los Pokémon de tu rival por cada contador de daño en este Pokémon. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-			pt: "Este ataque causa 20 pontos de dano a 1 dos Pokémon do seu oponente para cada contador de dano neste Pokémon. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
-			it: "Questo attacco infligge 20 danni a uno dei Pokémon del tuo avversario per ogni segnalino danno presente su questo Pokémon. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-			de: "Diese Attacke fügt 1 Pokémon deines Gegners für jede Schadensmarke auf diesem Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+			'en-us': "This attack does 20 damage to 1 of your opponent's Pokémon for each damage counter on this Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Cette attaque inflige 20 dégâts à l'un des Pokémon de votre adversaire pour chaque marqueur de dégâts sur ce Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			'es-es': "Este ataque hace 20 puntos de daño a uno de los Pokémon de tu rival por cada contador de daño en este Pokémon. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			'pt-br': "Este ataque causa 20 pontos de dano a 1 dos Pokémon do seu oponente para cada contador de dano neste Pokémon. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
+			'it-it': "Questo attacco infligge 20 danni a uno dei Pokémon del tuo avversario per ogni segnalino danno presente su questo Pokémon. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			'de-de': "Diese Attacke fügt 1 Pokémon deines Gegners für jede Schadensmarke auf diesem Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		}
 	}],
 

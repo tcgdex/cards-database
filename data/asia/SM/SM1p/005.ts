@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カリキリ",
+		'ja-jp': "カリキリ",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "爽やかで 甘い香りが する。 カリキリが 隠れている 草むらには よく アブリーが 群れている。",
+		'ja-jp': "爽やかで 甘い香りが する。 カリキリが 隠れている 草むらには よく アブリーが 群れている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "こうごうせい" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある[草]エネルギーを1枚、自分のポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札にある[草]エネルギーを1枚、自分のポケモンにつける。そして山札を切る。",
 			},
 		},
 		{

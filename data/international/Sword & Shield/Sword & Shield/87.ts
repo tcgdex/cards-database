@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Munna",
-		fr: "Munna",
-		es: "Munna",
-		it: "Munna",
-		pt: "Munna",
-		de: "Somniam"
+		'en-us': "Munna",
+		'fr-fr': "Munna",
+		'es-es': "Munna",
+		'it-it': "Munna",
+		'pt-br': "Munna",
+		'de-de': "Somniam"
 	},
 
 	illustrator: "Asako Ito",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Moonlight",
-				fr: "Rayon Lune",
-				es: "Luz Lunar",
-				it: "Lucelunare",
-				pt: "Luar",
-				de: "Mondschein"
+				'en-us': "Moonlight",
+				'fr-fr': "Rayon Lune",
+				'es-es': "Luz Lunar",
+				'it-it': "Lucelunare",
+				'pt-br': "Luar",
+				'de-de': "Mondschein"
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts de ce Pokémon.",
-				es: "Cura 30 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 30 danni.",
-				pt: "Cure 30 pontos de dano deste Pokémon.",
-				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+				'es-es': "Cura 30 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 30 danni.",
+				'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+				'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic Sphere",
-				fr: "Sphère Psy",
-				es: "Esfera Psíquica",
-				it: "Psicosfera",
-				pt: "Esfera Psíquica",
-				de: "Psychosphäre"
+				'en-us': "Psychic Sphere",
+				'fr-fr': "Sphère Psy",
+				'es-es': "Esfera Psíquica",
+				'it-it': "Psicosfera",
+				'pt-br': "Esfera Psíquica",
+				'de-de': "Psychosphäre"
 			},
 
 			damage: 30,
@@ -90,7 +90,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It eats dreams and releases mist. The mist is pink when it's eating a good dream, and black when it's eating a nightmare."
+		'en-us': "It eats dreams and releases mist. The mist is pink when it's eating a good dream, and black when it's eating a nightmare."
 	},
 
 	dexId: [517],

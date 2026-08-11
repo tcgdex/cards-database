@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โดกาซ",
-		id: "Koffing"
+		'th-th': "โดกาซ",
+		'id-id': "Koffing"
 	},
 
 	illustrator: "Rond",
@@ -15,24 +15,24 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		th: "เพราะภายในร่างกายที่เหมือนลูกโป่งบาง ๆ นั้นมีแก๊สพิษร้ายแรงอัด แน่นอยู่ บางครั้งมันก็จะทำให้เกิดระเบิดรุนแรง",
-		id: "Karena tubuhnya yang berbentuk balon tipis dipenuhi dengan gas beracun mematikan, terkadang ia menimbulkan ledakan yang besar."
+		'th-th': "เพราะภายในร่างกายที่เหมือนลูกโป่งบาง ๆ นั้นมีแก๊สพิษร้ายแรงอัด แน่นอยู่ บางครั้งมันก็จะทำให้เกิดระเบิดรุนแรง",
+		'id-id': "Karena tubuhnya yang berbentuk balon tipis dipenuhi dengan gas beracun mematikan, terkadang ia menimbulkan ledakan yang besar."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "พุ่งเข้าชน",
-			id: "Serudukan"
+			'th-th': "พุ่งเข้าชน",
+			'id-id': "Serudukan"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "ห่อหุ้มด้วยแก๊ส",
-			id: "Gas yang Menyelimuti"
+			'th-th': "ห่อหุ้มด้วยแก๊ส",
+			'id-id': "Gas yang Menyelimuti"
 		},
 
 		damage: 20,

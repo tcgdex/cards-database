@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Parecool",
-		en: "Slakoth",
-		es: "Slakoth",
-		it: "Slakoth",
-		pt: "Slakoth",
-		de: "Bummelz"
+		'fr-fr': "Parecool",
+		'en-us': "Slakoth",
+		'es-es': "Slakoth",
+		'it-it': "Slakoth",
+		'pt-br': "Slakoth",
+		'de-de': "Bummelz"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Bâillement",
-			en: "Yawn",
-			es: "Bostezo",
-			it: "Sbadiglio",
-			pt: "Bocejo",
-			de: "Gähner"
+			'fr-fr': "Bâillement",
+			'en-us': "Yawn",
+			'es-es': "Bostezo",
+			'it-it': "Sbadiglio",
+			'pt-br': "Bocejo",
+			'de-de': "Gähner"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 		}
 	}],
 
@@ -80,7 +80,7 @@ const card: Card = {
 	illustrator: "Shigenori Negishi",
 
 	description: {
-		en: "It sleeps for 20 hours every day. Making drowsy those that see it is one of its abilities.",
+		'en-us': "It sleeps for 20 hours every day. Making drowsy those that see it is one of its abilities.",
 	},
 }
 

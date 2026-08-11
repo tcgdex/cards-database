@@ -1,15 +1,15 @@
-import { Serie } from 'models/serie'
+import { Serie } from 'models/database/serie'
 
 const base: Serie = {
 	name: {
-		en: "Base",
-		fr: "Base",
-		es: "Clásica",
-		it: "Originale",
-		de: "Grund",
-		pt: "Coleção Básica",
-		nl: "Basis",
-		pl: "Opierać"
+		'en-us': "Base",
+		'fr-fr': "Base",
+		'es-es': "Clásica",
+		'it-it': "Originale",
+		'de-de': "Grund",
+		'pt-br': "Coleção Básica",
+		'nl-nl': "Basis",
+		'pl-pl': "Opierać"
 	},
 	id: "base"
 }

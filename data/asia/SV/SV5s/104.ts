@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Miraidon"
+		'id-id': "Miraidon"
 	},
 
 	illustrator: "GOSSAN",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		id: "Tampaknya Miraidon tertera di buku kuno dengan nama Iron Serpent. Dikabarkan Pokémon ini mengubah tanah lapang menjadi abu dengan petir."
+		'id-id': "Tampaknya Miraidon tertera di buku kuno dengan nama Iron Serpent. Dikabarkan Pokémon ini mengubah tanah lapang menjadi abu dengan petir."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Accel Peak"
+			'id-id': "Accel Peak"
 		},
 
 		effect: {
-			id: "Pilih paling banyak 2 lembar Energi Dasar dari Deck sendiri, lalu kenakan sesukanya pada Pokémon Futur sendiri. Kemudian, kocok Deck."
+			'id-id': "Pilih paling banyak 2 lembar Energi Dasar dari Deck sendiri, lalu kenakan sesukanya pada Pokémon Futur sendiri. Kemudian, kocok Deck."
 		},
 
 		damage: 40,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Sparking Attack"
+			'id-id': "Sparking Attack"
 		},
 
 		damage: 160,

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY trainer Kit (Latios)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Delcatty",
-		fr: "Delcatty",
-		es: "Delcatty",
-		it: "Delcatty",
-		pt: "Delcatty",
-		de: "Enekoro"
+		'en-us': "Delcatty",
+		'fr-fr': "Delcatty",
+		'es-es': "Delcatty",
+		'it-it': "Delcatty",
+		'pt-br': "Delcatty",
+		'de-de': "Enekoro"
 	},
 
 	rarity: "Rare",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Skitty",
-		fr: "Skitty",
-		es: "Skitty",
-		it: "Skitty",
-		pt: "Skitty",
-		de: "Eneco"
+		'en-us': "Skitty",
+		'fr-fr': "Skitty",
+		'es-es': "Skitty",
+		'it-it': "Skitty",
+		'pt-br': "Skitty",
+		'de-de': "Eneco"
 	},
 
 	stage: "Stage1",

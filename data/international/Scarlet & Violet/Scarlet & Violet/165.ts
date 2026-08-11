@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Flamigo",
-		fr: "Flamenroule",
-		es: "Flamigo",
-		it: "Flamigo",
-		pt: "Flamigo",
-		de: "Flaminkno"
+		'en-us': "Flamigo",
+		'fr-fr': "Flamenroule",
+		'es-es': "Flamigo",
+		'it-it': "Flamigo",
+		'pt-br': "Flamigo",
+		'de-de': "Flaminkno"
 	},
 
 	rarity: "Uncommon",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Flap",
-			fr: "Battement",
-			es: "Aleteo",
-			it: "Alabattito",
-			pt: "Asa",
-			de: "Flattern"
+			'en-us': "Flap",
+			'fr-fr': "Battement",
+			'es-es': "Aleteo",
+			'it-it': "Alabattito",
+			'pt-br': "Asa",
+			'de-de': "Flattern"
 		},
 
 		damage: 30
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Nosedive",
-			fr: "Descente en Piqué",
-			es: "Ataque en Picado",
-			it: "Rapidiscesa",
-			pt: "Mergulhar de Bico",
-			de: "Sturzflugangriff"
+			'en-us': "Nosedive",
+			'fr-fr': "Descente en Piqué",
+			'es-es': "Ataque en Picado",
+			'it-it': "Rapidiscesa",
+			'pt-br': "Mergulhar de Bico",
+			'de-de': "Sturzflugangriff"
 		},
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 20 dégâts.",
-			es: "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 20 danni a se stesso.",
-			pt: "Este Pokémon também causa 20 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 20 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 20 dégâts.",
+			'es-es': "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 20 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 20 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu."
 		},
 
 		damage: 110
@@ -84,7 +84,7 @@ const card: Card = {
 	illustrator: "kantaro",
 
 	description: {
-		en: "Thanks to a behavior of theirs known as \"synchronizing,\" an entire flock of these Pokémon can attack simultaneously in perfect harmony.",
+		'en-us': "Thanks to a behavior of theirs known as \"synchronizing,\" an entire flock of these Pokémon can attack simultaneously in perfect harmony.",
 	},
 
 	thirdParty: {

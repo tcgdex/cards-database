@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Gyarados",
-		fr: "Léviator",
-		de: "Garados"
+		'en-us': "Gyarados",
+		'fr-fr': "Léviator",
+		'de-de': "Garados"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magikarp",
-		fr: "Magicarpe"
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Dragon Spark",
-				fr: "Étincelle de dragon",
-				de: "Dragon Spark"
+				'en-us': "Dragon Spark",
+				'fr-fr': "Étincelle de dragon",
+				'de-de': "Dragon Spark"
 			},
 			effect: {
-				en: "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
-				de: "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and resistance for Benched Pokémon.)"
+				'en-us': "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
+				'de-de': "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and resistance for Benched Pokémon.)"
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Full Retaliation",
-				fr: "Vengeance totale",
-				de: "Full Retaliation"
+				'en-us': "Full Retaliation",
+				'fr-fr': "Vengeance totale",
+				'de-de': "Full Retaliation"
 			},
 			effect: {
-				en: "Does 20 damage times the number of damage counters on all of your Magikarp.",
-				fr: "Inflige 20 dégâts multipliés par le nombre de marqueurs de dégât sur tous vos Magicarpes.",
-				de: "Does 20 damage times the number of damage counters on all of your Magikarp."
+				'en-us': "Does 20 damage times the number of damage counters on all of your Magikarp.",
+				'fr-fr': "Inflige 20 dégâts multipliés par le nombre de marqueurs de dégât sur tous vos Magicarpes.",
+				'de-de': "Does 20 damage times the number of damage counters on all of your Magikarp."
 			},
 			damage: "20x",
 
@@ -73,14 +73,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pulverize",
-				fr: "Pulvériser",
-				de: "Pulverize"
+				'en-us': "Pulverize",
+				'fr-fr': "Pulvériser",
+				'de-de': "Pulverize"
 			},
 			effect: {
-				en: "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 50 damage plus 50 more damage.",
-				fr: "Si le Pokémon Défenseur possède au moins 2 marqueurs de dégât, cette attaque inflige 50 dégâts plus 50 dégâts supplémentaires.",
-				de: "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 50 damage plus 50 more damage."
+				'en-us': "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 50 damage plus 50 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur possède au moins 2 marqueurs de dégât, cette attaque inflige 50 dégâts plus 50 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 50 damage plus 50 more damage."
 			},
 			damage: "20x",
 

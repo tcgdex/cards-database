@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Palpitoad"
+		'id-id': "Palpitoad"
 	},
 
 	illustrator: "sowsow",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Palpitoad kadang mengorek dengan suara yang indah. Makin besar tonjolan di tubuhnya, makin luas pula jangkauan suara yang dapat dinyanyikan olehnya."
+		'id-id': "Palpitoad kadang mengorek dengan suara yang indah. Makin besar tonjolan di tubuhnya, makin luas pula jangkauan suara yang dapat dinyanyikan olehnya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Guyuran Air"
+			'id-id': "Guyuran Air"
 		},
 
 		damage: 50,

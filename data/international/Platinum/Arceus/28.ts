@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Rapidash",
-		de: "Gallopa"
+		'en-us': "Rapidash",
+		'de-de': "Gallopa"
 	},
 
 	illustrator: "Lee HyunJung",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ponyta"
+		'en-us': "Ponyta"
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Wild Guard",
-				de: "Wildheitsschutz"
+				'en-us': "Wild Guard",
+				'de-de': "Wildheitsschutz"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, including damage, done to Rapidash by your opponent's Pokémon SP.",
-				de: "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die Gallopa von gegnerischen Pokémon SP zugefügt würden."
+				'en-us': "Prevent all effects of attacks, including damage, done to Rapidash by your opponent's Pokémon SP.",
+				'de-de': "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die Gallopa von gegnerischen Pokémon SP zugefügt würden."
 			}
 		},
 	],
@@ -46,8 +46,8 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fire Mane",
-				de: "Flammenmähne"
+				'en-us': "Fire Mane",
+				'de-de': "Flammenmähne"
 			},
 
 			damage: 20,
@@ -60,12 +60,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rising Lunge",
-				de: "Aufwärtsstoß"
+				'en-us': "Rising Lunge",
+				'de-de': "Aufwärtsstoß"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 50 damage plus 20 more damage.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 50 damage plus 20 more damage.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 

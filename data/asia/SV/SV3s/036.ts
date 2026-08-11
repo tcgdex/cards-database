@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Cryogonal"
+		'id-id': "Cryogonal"
 	},
 
 	illustrator: "kirisAki",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Cryogonal muncul saat musim dingin. Dikatakan bahwa Pokémon ini adalah reinkarnasi Pokémon atau manusia yang meninggal di gunung salju."
+		'id-id': "Cryogonal muncul saat musim dingin. Dikatakan bahwa Pokémon ini adalah reinkarnasi Pokémon atau manusia yang meninggal di gunung salju."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "First Freeze"
+			'id-id': "First Freeze"
 		},
 
 		effect: {
-			id: "Jika ini adalah giliran pertama Pemain Kedua, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
+			'id-id': "Jika ini adalah giliran pertama Pemain Kedua, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
 		},
 
 		damage: 30,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Regigigas",
-		fr: "Regigigas",
-		es: "Regigigas",
-		pt: "Regigigas",
-		it: "Regigigas",
-		de: "Regigigas"
+		'en-us': "Regigigas",
+		'fr-fr': "Regigigas",
+		'es-es': "Regigigas",
+		'pt-br': "Regigigas",
+		'it-it': "Regigigas",
+		'de-de': "Regigigas"
 	},
 
 	rarity: "Uncommon",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Jewel Breaker",
-			fr: "Destruction de Joyaux",
-			es: "Rompejoyas",
-			pt: "Quebra-joias",
-			it: "Distruttore di Gemme",
-			de: "Juwelenbrecher"
+			'en-us': "Jewel Breaker",
+			'fr-fr': "Destruction de Joyaux",
+			'es-es': "Rompejoyas",
+			'pt-br': "Quebra-joias",
+			'it-it': "Distruttore di Gemme",
+			'de-de': "Juwelenbrecher"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a Tera Pokémon, this attack does 230 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Téracristal, cette attaque inflige 230 dégâts supplémentaires.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon Teracristal, este ataque hace 230 puntos de daño más.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Tera, este ataque causará 230 pontos de dano a mais.",
-			it: "Se il Pokémon attivo del tuo avversario è un Pokémon Teracristal, questo attacco infligge 230 danni in più.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Terakristall-Pokémon ist, fügt diese Attacke 230 Schadenspunkte mehr zu."
+			'en-us': "If your opponent's Active Pokémon is a Tera Pokémon, this attack does 230 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon Téracristal, cette attaque inflige 230 dégâts supplémentaires.",
+			'es-es': "Si el Pokémon Activo de tu rival es un Pokémon Teracristal, este ataque hace 230 puntos de daño más.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon Tera, este ataque causará 230 pontos de dano a mais.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon Teracristal, questo attacco infligge 230 danni in più.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners ein Terakristall-Pokémon ist, fügt diese Attacke 230 Schadenspunkte mehr zu."
 		},
 
 		damage: "100+"

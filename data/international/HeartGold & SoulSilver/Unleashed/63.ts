@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Squirtle",
-		fr: "Carapuce",
-		de: "Schiggy"
+		'en-us': "Squirtle",
+		'fr-fr': "Carapuce",
+		'de-de': "Schiggy"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Rain Splash",
-				fr: "Pluie éclaboussante",
-				de: "Regenplatscher"
+				'en-us': "Rain Splash",
+				'fr-fr': "Pluie éclaboussante",
+				'de-de': "Regenplatscher"
 			},
 
 			damage: 10,
@@ -44,9 +44,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shell Attack",
-				fr: "Coquill-attaque",
-				de: "Muschelangriff"
+				'en-us': "Shell Attack",
+				'fr-fr': "Coquill-attaque",
+				'de-de': "Muschelangriff"
 			},
 
 			damage: 40,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The shell is soft when it is born. It soon becomes so resilient, prodding fingers will bounce off it."
+		'en-us': "The shell is soft when it is born. It soon becomes so resilient, prodding fingers will bounce off it."
 	},
 
 	variants: [

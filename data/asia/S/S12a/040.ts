@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゼラオラV",
+		'ja-jp': "ゼラオラV",
 		'zh-tw': "捷拉奧拉V",
-		th: "เซราโอราV",
+		'th-th': "เซราโอราV",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,25 +19,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ツメできりさく",
+				'ja-jp': "ツメできりさく",
 				'zh-tw': "利爪劈擊",
-				th: "กรงเล็บฉีกร่าง",
+				'th-th': "กรงเล็บฉีกร่าง",
 			},
 			damage: 50,
 			cost: ["Lightning", "Colorless"],
 		},
 		{
 			name: {
-				ja: "サンダーボルト",
+				'ja-jp': "サンダーボルト",
 				'zh-tw': "閃電伏特",
-				th: "ธันเดอร์โบลท์",
+				'th-th': "ธันเดอร์โบลท์",
 			},
 			damage: 190,
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
-				th: "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
+				'th-th': "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
 			},
 		},
 	],

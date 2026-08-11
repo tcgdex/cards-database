@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Pelipper",
-		fr: "Bekipan",
-		de: "Pelipper"
+		'en-us': "Pelipper",
+		'fr-fr': "Bekipan",
+		'de-de': "Pelipper"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wingull",
-		fr: "Goélise"
+		'en-us': "Wingull",
+		'fr-fr': "Goélise"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bay Dance",
-				fr: "Danse de vengeance",
-				de: "Bay Dance"
+				'en-us': "Bay Dance",
+				'fr-fr': "Danse de vengeance",
+				'de-de': "Bay Dance"
 			},
 			effect: {
-				en: "During your next turn, if any of your current Active Pokémon does damage to any Defending Pokémon, the attack does 30 more damage (before applying Weakness and Resistance).",
-				fr: "Lors de votre prochain tour, si un de vos Pokémon Actifs inflige des dégâts à un des Pokémon Défenseurs, l'attaque inflige 30 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
-				de: "During your next turn, if any of your curret Active Pokémon does damage to any Defending Pokémon, the attack does 30 more damage (before apply Weakness and Resistance)."
+				'en-us': "During your next turn, if any of your current Active Pokémon does damage to any Defending Pokémon, the attack does 30 more damage (before applying Weakness and Resistance).",
+				'fr-fr': "Lors de votre prochain tour, si un de vos Pokémon Actifs inflige des dégâts à un des Pokémon Défenseurs, l'attaque inflige 30 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "During your next turn, if any of your curret Active Pokémon does damage to any Defending Pokémon, the attack does 30 more damage (before apply Weakness and Resistance)."
 			},
 			damage: 10,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Sonic",
-				fr: "Aquasonique",
-				de: "Aqua Sonic"
+				'en-us': "Aqua Sonic",
+				'fr-fr': "Aquasonique",
+				'de-de': "Aqua Sonic"
 			},
 			effect: {
-				en: "This attack's damage is not affected by Resistance.",
-				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance.",
-				de: "This attack's damage is not affected by Resistance."
+				'en-us': "This attack's damage is not affected by Resistance.",
+				'fr-fr': "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance.",
+				'de-de': "This attack's damage is not affected by Resistance."
 			},
 			damage: 50,
 

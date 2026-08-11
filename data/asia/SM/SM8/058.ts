@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブラッキー",
+		'ja-jp': "ブラッキー",
 	},
 
 	illustrator: "Ryota Murayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "闇に 溶け込む 黒い 体毛。 じっと 獲物の 隙を うかがい 喉笛 目掛けて 喰いかかる。",
+		'ja-jp': "闇に 溶け込む 黒い 体毛。 じっと 獲物の 隙を うかがい 喉笛 目掛けて 喰いかかる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Darkness"],
 			effect: {
-				ja: "前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、90ダメージ追加。",
+				'ja-jp': "前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、90ダメージ追加。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 1,

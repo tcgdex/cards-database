@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クセロシキのたくらみ",
+		'ja-jp': "クセロシキのたくらみ",
 	},
 
 	illustrator: "GOSSAN",
 	category: "Trainer",
 
 	effect: {
-		ja: "相手は相手自身の手札を、3枚になるようにトラッシュする。",
+		'ja-jp': "相手は相手自身の手札を、3枚になるようにトラッシュする。",
 	},
 
 	variants: [

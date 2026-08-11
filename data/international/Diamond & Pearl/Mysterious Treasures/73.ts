@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Bidoof",
-		fr: "Keunotor",
-		de: "Bidiza"
+		'en-us': "Bidoof",
+		'fr-fr': "Keunotor",
+		'de-de': "Bidiza"
 	},
 
 	illustrator: "Yusuke Ohmura",
@@ -32,9 +32,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 30,

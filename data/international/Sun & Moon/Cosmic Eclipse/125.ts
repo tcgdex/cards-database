@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Passimian",
-		fr: "Quartermac",
-		es: "Passimian",
-		it: "Passimian",
-		pt: "Passimian",
-		de: "Quartermak"
+		'en-us': "Passimian",
+		'fr-fr': "Quartermac",
+		'es-es': "Passimian",
+		'it-it': "Passimian",
+		'pt-br': "Passimian",
+		'de-de': "Quartermak"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Spike Draw",
-				fr: "Pique-Pioche",
-				es: "Robo Pico",
-				it: "Battipesca",
-				pt: "Comprada Espinhosa",
-				de: "Stachelzug"
+				'en-us': "Spike Draw",
+				'fr-fr': "Pique-Pioche",
+				'es-es': "Robo Pico",
+				'it-it': "Battipesca",
+				'pt-br': "Comprada Espinhosa",
+				'de-de': "Stachelzug"
 			},
 			effect: {
-				en: "Draw 2 cards.",
-				fr: "Piochez 2 cartes.",
-				es: "Roba 2 cartas.",
-				it: "Pesca due carte.",
-				pt: "Compre 2 cartas.",
-				de: "Ziehe 2 Karten."
+				'en-us': "Draw 2 cards.",
+				'fr-fr': "Piochez 2 cartes.",
+				'es-es': "Roba 2 cartas.",
+				'it-it': "Pesca due carte.",
+				'pt-br': "Compre 2 cartas.",
+				'de-de': "Ziehe 2 Karten."
 			},
 			damage: 20,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Seismic Toss",
-				fr: "Frappe Atlas",
-				es: "Movimiento Sísmico",
-				it: "Movimento Sismico",
-				pt: "Arremesso Sísmico",
-				de: "Geowurf"
+				'en-us': "Seismic Toss",
+				'fr-fr': "Frappe Atlas",
+				'es-es': "Movimiento Sísmico",
+				'it-it': "Movimento Sismico",
+				'pt-br': "Arremesso Sísmico",
+				'de-de': "Geowurf"
 			},
 
 			damage: 70,
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They use their saliva to stick leaves to their shoulders. You can tell what troop they belong to from the position of the leaves.",
+		'en-us': "They use their saliva to stick leaves to their shoulders. You can tell what troop they belong to from the position of the leaves.",
 	},
 
 	thirdParty: {

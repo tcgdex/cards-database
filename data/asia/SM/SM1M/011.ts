@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニョロボン",
+		'ja-jp': "ニョロボン",
 	},
 
 	illustrator: "Midori Harada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "体脂肪率は 大体０％。 全身が 筋肉で 重いので 泳ぐ 力が 発達した。",
+		'ja-jp': "体脂肪率は 大体０％。 全身が 筋肉で 重いので 泳ぐ 力が 発達した。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Water"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが特殊状態なら、80ダメージ追加。その後、相手のバトルポケモンの特殊状態をすべて回復する。",
+				'ja-jp': "相手のバトルポケモンが特殊状態なら、80ダメージ追加。その後、相手のバトルポケモンの特殊状態をすべて回復する。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニョロゾ",
+		'ja-jp': "ニョロゾ",
 	},
 
 	retreat: 3,

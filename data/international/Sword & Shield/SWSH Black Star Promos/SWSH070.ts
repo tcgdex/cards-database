@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Grookey",
-		fr: "Ouistempo",
-		es: "Grookey",
-		pt: "Grookey",
-		de: "Chimpep",
-		it: "Grookey"
+		'en-us': "Grookey",
+		'fr-fr': "Ouistempo",
+		'es-es': "Grookey",
+		'pt-br': "Grookey",
+		'de-de': "Chimpep",
+		'it-it': "Grookey"
 	},
 
 	illustrator: "Akira Komayama",
@@ -21,21 +21,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Full On",
-			fr: "Coup du Sort",
-			es: "Al Límite",
-			pt: "Tudo ou Nada",
-			de: "Alles oder nichts",
-			it: "Intenso"
+			'en-us': "Full On",
+			'fr-fr': "Coup du Sort",
+			'es-es': "Al Límite",
+			'pt-br': "Tudo ou Nada",
+			'de-de': "Alles oder nichts",
+			'it-it': "Intenso"
 		},
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-			pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
-			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
-			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto."
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			'pt-br': "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+			'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
+			'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto."
 		},
 
 		damage: 30,
@@ -50,7 +50,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area."
+		'en-us': "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area."
 	},
 
 	stage: "Basic",

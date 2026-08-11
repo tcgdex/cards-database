@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legend Maker'
 
 const card: Card = {
 	name: {
-		en: "Omanyte",
-		fr: "Amonita",
-		de: "Amonitas"
+		'en-us': "Omanyte",
+		'fr-fr': "Amonita",
+		'de-de': "Amonitas"
 	},
 
 	illustrator: "Kenkichi Toyama",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mysterious Fossil",
-		fr: "Mystérieux Fossile"
+		'en-us': "Mysterious Fossil",
+		'fr-fr': "Mystérieux Fossile"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Ancient Tentacles",
-				fr: "Tentacules anciennes",
-				de: "Uralte Tentakel"
+				'en-us': "Ancient Tentacles",
+				'fr-fr': "Tentacules anciennes",
+				'de-de': "Uralte Tentakel"
 			},
 			effect: {
-				en: "Damage done to your opponent's Pokémon by your Omanyte, Omastar, Kabuto, Kabutops, or Kabutops ex isn't affected by Resistance.",
-				fr: "Les dégâts infligés aux Pokémon de votre adversaire par votre Amonita, Amonistar, Kabuto, Kabutops ou Kabutops ex ne sont pas affectés par la Résistance.",
-				de: "Schaden, der den Pokémon deines Gegners durch Amonitas, Amoroso, Kabuto, Kabutops oder Kabutops ex zugefügt wird, wird durch Resistenzen nicht verringert."
+				'en-us': "Damage done to your opponent's Pokémon by your Omanyte, Omastar, Kabuto, Kabutops, or Kabutops ex isn't affected by Resistance.",
+				'fr-fr': "Les dégâts infligés aux Pokémon de votre adversaire par votre Amonita, Amonistar, Kabuto, Kabutops ou Kabutops ex ne sont pas affectés par la Résistance.",
+				'de-de': "Schaden, der den Pokémon deines Gegners durch Amonitas, Amoroso, Kabuto, Kabutops oder Kabutops ex zugefügt wird, wird durch Resistenzen nicht verringert."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rising Lunge",
-				fr: "Botte secrète",
-				de: "Aufwärtsstoß"
+				'en-us': "Rising Lunge",
+				'fr-fr': "Botte secrète",
+				'de-de': "Aufwärtsstoß"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 

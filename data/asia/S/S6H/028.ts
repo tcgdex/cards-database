@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "はくばバドレックスVMAX",
+		'ja-jp': "はくばバドレックスVMAX",
 		'zh-tw': "白馬蕾冠王VMAX",
 	},
 
@@ -18,25 +18,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "エンペラーライド",
+				'ja-jp': "エンペラーライド",
 				'zh-tw': "順風抽出",
 			},
 			damage: "10+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモンの数×30ダメージ追加。",
+				'ja-jp': "相手のベンチポケモンの数×30ダメージ追加。",
 				'zh-tw': "從自己的牌庫抽出1張卡。若在後攻玩家的最初回合使用，則再抽出3張卡。",
 			},
 		},
 		{
 			name: {
-				ja: "ダイランス",
+				'ja-jp': "ダイランス",
 				'zh-tw': "偷襲",
 			},
 			damage: "10+",
 			cost: ["Water", "Water"],
 			effect: {
-				ja: "のぞむなら、このポケモンについているエネルギーを2枚まで選び、トラッシュする。その場合、トラッシュした枚数×120ダメージ追加。",
+				'ja-jp': "のぞむなら、このポケモンについているエネルギーを2枚まで選び、トラッシュする。その場合、トラッシュした枚数×120ダメージ追加。",
 				'zh-tw': "擲1次硬幣若為反面，則這個招式失敗。",
 			},
 		},
@@ -56,7 +56,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "はくばバドレックスV",
+		'ja-jp': "はくばバドレックスV",
 	},
 
 	retreat: 2,

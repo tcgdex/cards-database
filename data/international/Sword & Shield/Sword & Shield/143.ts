@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Hoothoot",
-		fr: "Hoothoot",
-		es: "Hoothoot",
-		it: "Hoothoot",
-		pt: "Hoothoot",
-		de: "Hoothoot"
+		'en-us': "Hoothoot",
+		'fr-fr': "Hoothoot",
+		'es-es': "Hoothoot",
+		'it-it': "Hoothoot",
+		'pt-br': "Hoothoot",
+		'de-de': "Hoothoot"
 	},
 
 	illustrator: "Yumi",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Send Back",
-				fr: "Renvoyer",
-				es: "Retornar",
-				it: "Mandaindietro",
-				pt: "Mandar Embora",
-				de: "Zurückschicken"
+				'en-us': "Send Back",
+				'fr-fr': "Renvoyer",
+				'es-es': "Retornar",
+				'it-it': "Mandaindietro",
+				'pt-br': "Mandar Embora",
+				'de-de': "Zurückschicken"
 			},
 			effect: {
-				en: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif contre l'un de ses Pokémon de Banc.",
-				es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
-				it: "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
-				pt: "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
-				de: "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange son Pokémon Actif contre l'un de ses Pokémon de Banc.",
+				'es-es': "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
+				'it-it': "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
+				'pt-br': "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
+				'de-de': "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 
 		},
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-Ailes",
-				es: "Ataque Ala",
-				it: "Attacco d'Ala",
-				pt: "Ataque de Asa",
-				de: "Flügelschlag"
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-Ailes",
+				'es-es': "Ataque Ala",
+				'it-it': "Attacco d'Ala",
+				'pt-br': "Ataque de Asa",
+				'de-de': "Flügelschlag"
 			},
 
 			damage: 20,
@@ -90,7 +90,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It begins to hoot at the same time every day. Some Trainers use them in place of clocks."
+		'en-us': "It begins to hoot at the same time every day. Some Trainers use them in place of clocks."
 	},
 
 	dexId: [163],

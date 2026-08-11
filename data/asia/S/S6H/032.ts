@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スリーパー",
+		'ja-jp': "スリーパー",
 		'zh-tw': "引夢貘人",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "夜に 眠れない 人の ために 病院で お医者さんの 手伝いをする スリーパーも いる。",
+		'ja-jp': "夜に 眠れない 人の ために 病院で お医者さんの 手伝いをする スリーパーも いる。",
 		'zh-tw': "為了幫助那些晚上失眠的人，也有些引夢貘人會到醫院去協助醫生。",
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "さいみんじゅつ",
+				'ja-jp': "さいみんじゅつ",
 				'zh-tw': "咬",
 			},
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 		{
@@ -36,7 +36,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンが特殊状態なら、90ダメージ追加。その後、相手のバトルポケモンの特殊状態をすべて回復する。",
+				'ja-jp': "相手のバトルポケモンが特殊状態なら、90ダメージ追加。その後、相手のバトルポケモンの特殊状態をすべて回復する。",
 			},
 		},
 	],
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "スリープ",
+		'ja-jp': "スリープ",
 	},
 
 	retreat: 2,

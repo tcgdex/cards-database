@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Dark Weezing",
-		de: "Dunkles Smogmog"
+		'en-us': "Dark Weezing",
+		'de-de': "Dunkles Smogmog"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Koffing",
+		'en-us': "Koffing",
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Methane Leak",
-				de: "Methane Leak"
+				'en-us': "Methane Leak",
+				'de-de': "Methane Leak"
 			},
 			effect: {
-				en: "As long as Dark Weezing is your Active Pokémon, put 1 damage counter on each Pokémon that remains Poisoned between turns.",
-				de: "As long as Dark Weezing is your Active Pokémon, put 1 damage counter on each Pokémon that remains Poisoned between turns."
+				'en-us': "As long as Dark Weezing is your Active Pokémon, put 1 damage counter on each Pokémon that remains Poisoned between turns.",
+				'de-de': "As long as Dark Weezing is your Active Pokémon, put 1 damage counter on each Pokémon that remains Poisoned between turns."
 			},
 		},
 	],
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smog",
-				de: "Smog"
+				'en-us': "Smog",
+				'de-de': "Smog"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				de: "The Defending Pokémon is now Poisoned."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'de-de': "The Defending Pokémon is now Poisoned."
 			},
 
 		},
@@ -65,12 +65,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Darkness Charge",
-				de: "Darkness Charge"
+				'en-us': "Darkness Charge",
+				'de-de': "Darkness Charge"
 			},
 			effect: {
-				en: "Put 2 damage counters on Dark Weezing.",
-				de: "Put 2 damage counters on Dark Weezing."
+				'en-us': "Put 2 damage counters on Dark Weezing.",
+				'de-de': "Put 2 damage counters on Dark Weezing."
 			},
 			damage: 50,
 

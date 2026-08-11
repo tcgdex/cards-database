@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シビビール",
+		'ja-jp': "シビビール",
 	},
 
 	illustrator: "Jerky",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "丸い 模様が 発電 器官。 相手に 巻きついてから 模様を 押しつけて 電気を 流すのだ。",
+		'ja-jp': "丸い 模様が 発電 器官。 相手に 巻きついてから 模様を 押しつけて 電気を 流すのだ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "エレキダイナモ" },
 			effect: {
-				ja: "自分のトラッシュから[雷]エネルギーを1枚選び、自分のベンチポケモンにつける。この特性は、自分の番に1回使える。",
+				'ja-jp': "自分のトラッシュから[雷]エネルギーを1枚選び、自分のベンチポケモンにつける。この特性は、自分の番に1回使える。",
 			},
 		},
 	],
@@ -63,7 +63,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シビシラス",
+		'ja-jp': "シビシラス",
 	},
 
 	retreat: 2,

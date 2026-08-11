@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トゲキッス",
+		'ja-jp': "トゲキッス",
 		'zh-tw': "波克基斯",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "争い事や もめ事が 起こる 場所には 姿を 見せない。 近ごろは ほとんど 見かけない。",
+		'ja-jp': "争い事や もめ事が 起こる 場所には 姿を 見せない。 近ごろは ほとんど 見かけない。",
 		'zh-tw': "不會出現在發生爭端和紛亂的地方。 近來幾乎見不到牠的身影。",
 	},
 
@@ -24,11 +24,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "しあわせシャイン",
+				'ja-jp': "しあわせシャイン",
 				'zh-tw': "幸福閃耀",
 			},
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のバトルポケモンのHPを「90」回復する。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のバトルポケモンのHPを「90」回復する。",
 				'zh-tw': "在自己的回合，當從手牌使出這張卡並完成進化時，可使用1次。將自己的戰鬥寶可夢恢復「90」HP。",
 			},
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "マジカルショット",
+				'ja-jp': "マジカルショット",
 				'zh-tw': "魔法射擊",
 			},
 			damage: 120,
@@ -59,7 +59,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "トゲチック",
+		'ja-jp': "トゲチック",
 	},
 
 	retreat: 1,

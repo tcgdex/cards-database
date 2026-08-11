@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "c",
+		'ja-jp': "c",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "チェイス[チェイス]",
+				'ja-jp': "チェイス[チェイス]",
 			},
 			effect: {
-				ja: "[c]がアクティブなポクモンである限り、相手のアクティブなポクモンが退却しようとするたびに、コインをひっくり返します。頭の場合は、そのポクモンに1つのダメージカウンターを入れます。衰弱と抵抗を適用します。",
+				'ja-jp': "[c]がアクティブなポクモンである限り、相手のアクティブなポクモンが退却しようとするたびに、コインをひっくり返します。頭の場合は、そのポクモンに1つのダメージカウンターを入れます。衰弱と抵抗を適用します。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "隠された力",
+				'ja-jp': "隠された力",
 			},
 			damage: 10,
 		},

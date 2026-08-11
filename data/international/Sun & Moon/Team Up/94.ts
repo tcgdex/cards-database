@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Pangoro",
-		fr: "Pandarbare",
-		es: "Pangoro",
-		it: "Pangoro",
-		pt: "Pangoro",
-		de: "Pandagro"
+		'en-us': "Pangoro",
+		'fr-fr': "Pandarbare",
+		'es-es': "Pangoro",
+		'it-it': "Pangoro",
+		'pt-br': "Pangoro",
+		'de-de': "Pandagro"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pancham",
-		fr: "Pandespiègle",
+		'en-us': "Pancham",
+		'fr-fr': "Pandespiègle",
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tighten Up",
-				fr: "Resserrage",
-				es: "Apretar",
-				it: "Torchio",
-				pt: "Espremer",
-				de: "Zudrücken"
+				'en-us': "Tighten Up",
+				'fr-fr': "Resserrage",
+				'es-es': "Apretar",
+				'it-it': "Torchio",
+				'pt-br': "Espremer",
+				'de-de': "Zudrücken"
 			},
 			effect: {
-				en: "Your opponent discards 2 cards from their hand.",
-				fr: "Votre adversaire défausse 2 cartes de sa main.",
-				es: "Tu rival descarta 2 cartas de su mano.",
-				it: "Il tuo avversario scarta due carte che ha in mano.",
-				pt: "Seu oponente descarta 2 cartas da própria mão.",
-				de: "Dein Gegner legt 2 Karten aus seiner Hand auf seinen Ablagestapel."
+				'en-us': "Your opponent discards 2 cards from their hand.",
+				'fr-fr': "Votre adversaire défausse 2 cartes de sa main.",
+				'es-es': "Tu rival descarta 2 cartas de su mano.",
+				'it-it': "Il tuo avversario scarta due carte che ha in mano.",
+				'pt-br': "Seu oponente descarta 2 cartas da própria mão.",
+				'de-de': "Dein Gegner legt 2 Karten aus seiner Hand auf seinen Ablagestapel."
 			},
 			damage: 60,
 
@@ -67,20 +67,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tantrum",
-				fr: "Mauvaise Humeur",
-				es: "Rabieta",
-				it: "Collera",
-				pt: "Petulância",
-				de: "Rappel"
+				'en-us': "Tantrum",
+				'fr-fr': "Mauvaise Humeur",
+				'es-es': "Rabieta",
+				'it-it': "Collera",
+				'pt-br': "Petulância",
+				'de-de': "Rappel"
 			},
 			effect: {
-				en: "This Pokémon is now Confused.",
-				fr: "Ce Pokémon est maintenant Confus.",
-				es: "Este Pokémon pasa a estar Confundido.",
-				it: "Questo Pokémon viene confuso.",
-				pt: "Este Pokémon agora está Confuso.",
-				de: "Dieses Pokémon ist jetzt verwirrt."
+				'en-us': "This Pokémon is now Confused.",
+				'fr-fr': "Ce Pokémon est maintenant Confus.",
+				'es-es': "Este Pokémon pasa a estar Confundido.",
+				'it-it': "Questo Pokémon viene confuso.",
+				'pt-br': "Este Pokémon agora está Confuso.",
+				'de-de': "Dieses Pokémon ist jetzt verwirrt."
 			},
 			damage: 170,
 
@@ -104,7 +104,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "From the slight twitches of its bamboo leaf, it deduces its opponent's movements. It's eager to tussle but kindhearted toward its companions.",
+		'en-us': "From the slight twitches of its bamboo leaf, it deduces its opponent's movements. It's eager to tussle but kindhearted toward its companions.",
 	},
 
 	thirdParty: {

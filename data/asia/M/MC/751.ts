@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カポエラー",
+		'ja-jp': "カポエラー",
 	},
 
 	illustrator: "osare",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ツノを 軸に 回転しながら 華麗な キックを お見舞いする。 ツノは 生涯 伸び続ける。",
+		'ja-jp': "ツノを 軸に 回転しながら 華麗な キックを お見舞いする。 ツノは 生涯 伸び続ける。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "スピンドロー" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。",
+				'ja-jp': "自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。",
 			},
 		},
 		{

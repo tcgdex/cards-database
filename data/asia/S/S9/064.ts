@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "烏鴉頭頭V",
-		ja: "ドンカラスV"
+		'ja-jp': "ドンカラスV"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -21,24 +21,24 @@ const card: Card = {
 
 		name: {
 			'zh-tw': "頭頭的懷抱",
-			ja: "ドンのふところ"
+			'ja-jp': "ドンのふところ"
 		},
 
 		effect: {
 			'zh-tw': "這隻寶可夢身上最多可附有4張「寶可夢道具」卡。（這個特性消除時，自己將「寶可夢道具」卡丟棄直到變為1張為止。）",
-			ja: "このポケモンは、「ポケモンのどうぐ」を4枚までつけられる。（この特性がなくなったとき、自分は「ポケモンのどうぐ」を1枚になるようにトラッシュする。）"
+			'ja-jp': "このポケモンは、「ポケモンのどうぐ」を4枚までつけられる。（この特性がなくなったとき、自分は「ポケモンのどうぐ」を1枚になるようにトラッシュする。）"
 		}
 	}],
 
 	attacks: [{
 		name: {
 			'zh-tw': "暗影恐懼",
-			ja: "シャドーフィアー"
+			'ja-jp': "シャドーフィアー"
 		},
 
 		effect: {
 			'zh-tw': "查看對手的手牌。",
-			ja: "相手の手札を見る。"
+			'ja-jp': "相手の手札を見る。"
 		},
 
 		damage: 130,

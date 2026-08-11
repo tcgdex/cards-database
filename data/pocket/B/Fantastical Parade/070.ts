@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [648],
 
 	name: {
-		en: "Meloetta"
+		'en-us': "Meloetta"
 	},
 
 	illustrator: "REND",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Its melodies are sung with a special vocalization\nmethod that can control the feelings of those who\nhear it."
+		'en-us': "Its melodies are sung with a special vocalization\nmethod that can control the feelings of those who\nhear it."
 	},
 
 	stage: "Basic",
@@ -26,17 +26,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Strange Singing"
+			'en-us': "Strange Singing"
 		},
 
 		effect: {
-			en: "At the beginning of your turn, if this Pokémon is in the Active Spot, put a random {P} Pokémon from your deck into your hand."
+			'en-us': "At the beginning of your turn, if this Pokémon is in the Active Spot, put a random {P} Pokémon from your deck into your hand."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Psyshot"
+			'en-us': "Psyshot"
 		},
 
 		damage: 50,

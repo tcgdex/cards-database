@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Trapinch",
-		fr: "Kraknoix",
-		es: "Trapinch",
-		it: "Trapinch",
-		pt: "Trapinch",
-		de: "Knacklion"
+		'en-us': "Trapinch",
+		'fr-fr': "Kraknoix",
+		'es-es': "Trapinch",
+		'it-it': "Trapinch",
+		'pt-br': "Trapinch",
+		'de-de': "Knacklion"
 	},
 
 	illustrator: "zig",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Rising Lunge",
-			fr: "Botte Secrète",
-			es: "Embestida Ascendente",
-			it: "Elevazione",
-			pt: "Investida Ascendente",
-			de: "Aufwärtsstoß"
+			'en-us': "Rising Lunge",
+			'fr-fr': "Botte Secrète",
+			'es-es': "Embestida Ascendente",
+			'it-it': "Elevazione",
+			'pt-br': "Investida Ascendente",
+			'de-de': "Aufwärtsstoß"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 10 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
-			pt: "Jogue 1 moeda. Se sair cara, este ataque causará 10 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 10 Schadenspunkte mehr zu."
+			'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 10 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -56,7 +56,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its nest is a sloped, bowl-like pit in the desert. Once something has fallen in, there is no escape.",
+		'en-us': "Its nest is a sloped, bowl-like pit in the desert. Once something has fallen in, there is no escape.",
 	},
 
 	variants: [

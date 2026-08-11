@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Grookey"
+		'id-id': "Grookey"
 	},
 
 	illustrator: "Tomomi Ozaki",
@@ -14,21 +14,21 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Ketika Grookey mengetuk irama dengan stik spesialnya, kekuatan yang membuat tumbuhan sehat akan menjadi gelombang suara dan meluas."
+		'id-id': "Ketika Grookey mengetuk irama dengan stik spesialnya, kekuatan yang membuat tumbuhan sehat akan menjadi gelombang suara dan meluas."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Tendangan Penghempas"
+			'id-id': "Tendangan Penghempas"
 		},
 
 		damage: 10,
 		cost: ["Grass"]
 	}, {
 		name: {
-			id: "Tusukan Ranting"
+			'id-id': "Tusukan Ranting"
 		},
 
 		damage: 30,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プリン",
+		'ja-jp': "プリン",
 	},
 
 	illustrator: "You Iribi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "大きく お腹を 膨らませて 不思議な メロディーを 歌う。 聞くと すぐに 眠くなるぞ。",
+		'ja-jp': "大きく お腹を 膨らませて 不思議な メロディーを 歌う。 聞くと すぐに 眠くなるぞ。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Fairy", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x20ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数x20ダメージ。",
 			},
 		},
 	],

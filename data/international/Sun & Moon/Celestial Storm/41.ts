@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Clamperl",
-		fr: "Coquiperl",
-		es: "Clamperl",
-		it: "Clamperl",
-		pt: "Clamperl",
-		de: "Perlu"
+		'en-us': "Clamperl",
+		'fr-fr': "Coquiperl",
+		'es-es': "Clamperl",
+		'it-it': "Clamperl",
+		'pt-br': "Clamperl",
+		'de-de': "Perlu"
 	},
 
 	illustrator: "sui",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Evolutionary Advantage",
-				fr: "Avantage Évolutif",
-				es: "Ventaja Evolutiva",
-				it: "Vantaggio Evolutivo",
-				pt: "Vantagem Evolucionária",
-				de: "Entwicklungsvorteil"
+				'en-us': "Evolutionary Advantage",
+				'fr-fr': "Avantage Évolutif",
+				'es-es': "Ventaja Evolutiva",
+				'it-it': "Vantaggio Evolutivo",
+				'pt-br': "Vantagem Evolucionária",
+				'de-de': "Entwicklungsvorteil"
 			},
 			effect: {
-				en: "If you go second, this Pokémon can evolve during your first turn.",
-				fr: "Si vous jouez en second, ce Pokémon peut évoluer pendant votre premier tour.",
-				es: "Si sales segundo, este Pokémon puede evolucionar durante tu primer turno.",
-				it: "Se inizi per secondo, questo Pokémon può evolversi nel tuo primo turno.",
-				pt: "Se você for o segundo a jogar, este Pokémon poderá evoluir durante a sua primeira vez de jogar.",
-				de: "Wenn du als Zweiter am Zug bist, kann sich dieses Pokémon während deines ersten Zuges entwickeln."
+				'en-us': "If you go second, this Pokémon can evolve during your first turn.",
+				'fr-fr': "Si vous jouez en second, ce Pokémon peut évoluer pendant votre premier tour.",
+				'es-es': "Si sales segundo, este Pokémon puede evolucionar durante tu primer turno.",
+				'it-it': "Se inizi per secondo, questo Pokémon può evolversi nel tuo primo turno.",
+				'pt-br': "Se você for o segundo a jogar, este Pokémon poderá evoluir durante a sua primeira vez de jogar.",
+				'de-de': "Wenn du als Zweiter am Zug bist, kann sich dieses Pokémon während deines ersten Zuges entwickeln."
 			},
 		},
 	],
@@ -56,12 +56,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Sparkling Pearl",
-				fr: "Perle Étincelante",
-				es: "Perla Centelleante",
-				it: "Perla Sfavillante",
-				pt: "Pérola Cintilante",
-				de: "Funkelperle"
+				'en-us': "Sparkling Pearl",
+				'fr-fr': "Perle Étincelante",
+				'es-es': "Perla Centelleante",
+				'it-it': "Perla Sfavillante",
+				'pt-br': "Pérola Cintilante",
+				'de-de': "Funkelperle"
 			},
 
 			damage: 10,
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It is protected by a sturdy shell. Once in a lifetime, it makes a magnificent pearl.",
+		'en-us': "It is protected by a sturdy shell. Once in a lifetime, it makes a magnificent pearl.",
 	},
 
 	thirdParty: {

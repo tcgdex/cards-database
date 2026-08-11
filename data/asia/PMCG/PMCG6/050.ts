@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナツメのゴースト",
+		'ja-jp': "ナツメのゴースト",
 	},
 	illustrator: "Atsuko Nishida",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Psychic"],
 			name: {
-				ja: "ナイトスピリット",
+				'ja-jp': "ナイトスピリット",
 			},
 			effect: {
-				ja: "SabrinaのGastly、SabrinaのHaunter Band Sabrina's Gengarの総数に等しい数のコインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
+				'ja-jp': "SabrinaのGastly、SabrinaのHaunter Band Sabrina's Gengarの総数に等しい数のコインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
 			},
 		},
 	],

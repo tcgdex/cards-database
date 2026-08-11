@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バシャーモVMAX",
+		'ja-jp': "バシャーモVMAX",
 	},
 
 	illustrator: "KIYOTAKA OSHIYAMA",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Fire"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチの「れんげき」のポケモンを2匹まで選び、自分のトラッシュからエネルギーを1枚ずつつける。",
+				'ja-jp': "自分のベンチの「れんげき」のポケモンを2匹まで選び、自分のトラッシュからエネルギーを1枚ずつつける。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "バシャーモV",
+		'ja-jp': "バシャーモV",
 	},
 
 	retreat: 2,

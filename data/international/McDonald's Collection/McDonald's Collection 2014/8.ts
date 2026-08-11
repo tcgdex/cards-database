@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2014'
 
 const card: Card = {
@@ -8,11 +8,11 @@ const card: Card = {
 	set: Set,
 	illustrator: "Naoki Saito",
 	description: {
-		en: "It has an active, playful nature. Many women like to frolic with it because of its affectionate ways.",
+		'en-us': "It has an active, playful nature. Many women like to frolic with it because of its affectionate ways.",
 	},
 	name: {
-		en: "Snubbull",
-		fr: "Snubbull",
+		'en-us': "Snubbull",
+		'fr-fr': "Snubbull",
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'Boule",
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'Boule",
 			},
 			damage: "20",
 		},

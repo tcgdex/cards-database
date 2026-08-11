@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Floatzel",
-		fr: "Mustéflott",
-		de: "Bojelin"
+		'en-us': "Floatzel",
+		'fr-fr': "Mustéflott",
+		'de-de': "Bojelin"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		fr: "Mustébouée"
+		'fr-fr': "Mustébouée"
 	},
 
 	stage: "Stage1",
@@ -31,14 +31,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Water Acceleration",
-				fr: "Hydro-accélération",
-				de: "Wasser marsch!"
+				'en-us': "Water Acceleration",
+				'fr-fr': "Hydro-accélération",
+				'de-de': "Wasser marsch!"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may attach a Water Energy card from your hand to Floatzel. This power can't be used if Floatzel is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie Water de votre main à Mustéflott. Ce pouvoir ne peut pas être utilisé si Mustéflott est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 -Energiekarte aus deiner Hand an Bojelin anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Bojelin von einem Speziellen Zustand betroffen ist."
+				'en-us': "Once during your turn (before your attack), you may attach a Water Energy card from your hand to Floatzel. This power can't be used if Floatzel is affected by a Special Condition.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie Water de votre main à Mustéflott. Ce pouvoir ne peut pas être utilisé si Mustéflott est affecté par un État Spécial.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 -Energiekarte aus deiner Hand an Bojelin anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Bojelin von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -51,9 +51,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Waterfall",
-				fr: "Cascade",
-				de: "Kaskade"
+				'en-us': "Waterfall",
+				'fr-fr': "Cascade",
+				'de-de': "Kaskade"
 			},
 
 			damage: 60,
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives."
+		'en-us': "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives."
 	},
 
 	variants: [

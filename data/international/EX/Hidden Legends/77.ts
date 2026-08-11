@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Tentacool",
-		fr: "Tentacool",
-		de: "Tentacha"
+		'en-us': "Tentacool",
+		'fr-fr': "Tentacool",
+		'de-de': "Tentacha"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Freefloating",
-				fr: "Apesanteur",
-				de: "Freefloating"
+				'en-us': "Freefloating",
+				'fr-fr': "Apesanteur",
+				'de-de': "Freefloating"
 			},
 			effect: {
-				en: "If Tentacool has no Energy attached to it, Tentacool's Retreat Cost is 0.",
-				fr: "Si Tentacool ne possède pas d'Énergies, son Coût de Retraite est de 0.",
-				de: "If Tentacool has no Energy attached to it, Tentacool's Retreat Cost is 0."
+				'en-us': "If Tentacool has no Energy attached to it, Tentacool's Retreat Cost is 0.",
+				'fr-fr': "Si Tentacool ne possède pas d'Énergies, son Coût de Retraite est de 0.",
+				'de-de': "If Tentacool has no Energy attached to it, Tentacool's Retreat Cost is 0."
 			}
 		},
 	],
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wrap",
-				fr: "Ligotage",
-				de: "Wrap"
+				'en-us': "Wrap",
+				'fr-fr': "Ligotage",
+				'de-de': "Wrap"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 
 		},

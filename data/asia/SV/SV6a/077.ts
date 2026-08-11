@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キングドラex",
+		'ja-jp': "キングドラex",
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "おうのごうれい" },
 			cost: ["Water"],
 			effect: {
-				ja: "自分のトラッシュから[W]ポケモンを3枚まで選び、ベンチに出す。",
+				'ja-jp': "自分のトラッシュから[W]ポケモンを3枚まで選び、ベンチに出す。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[W]エネルギーの数×50ダメージ追加。",
+				'ja-jp': "このポケモンについている[W]エネルギーの数×50ダメージ追加。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シードラ",
+		'ja-jp': "シードラ",
 	},
 
 	retreat: 1,

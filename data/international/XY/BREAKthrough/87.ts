@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Hawlucha",
-		fr: "Brutalibré",
-		es: "Hawlucha",
-		it: "Hawlucha",
-		pt: "Hawlucha",
-		de: "Resladero"
+		'en-us': "Hawlucha",
+		'fr-fr': "Brutalibré",
+		'es-es': "Hawlucha",
+		'it-it': "Hawlucha",
+		'pt-br': "Hawlucha",
+		'de-de': "Resladero"
 	},
 
 	illustrator: "match",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "High Jump Kick",
-				fr: "Pied Voltige",
-				es: "Patada Salto Alta",
-				it: "Calcinvolo",
-				pt: "Chute de Pulo Alto",
-				de: "Turmkick"
+				'en-us': "High Jump Kick",
+				'fr-fr': "Pied Voltige",
+				'es-es': "Patada Salto Alta",
+				'it-it': "Calcinvolo",
+				'pt-br': "Chute de Pulo Alto",
+				'de-de': "Turmkick"
 			},
 
 			damage: 20,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Skyward Kick",
-				fr: "Coup d'Pied Aérien",
-				es: "Patada Cielo",
-				it: "Calcinalto",
-				pt: "Chute para o Céu",
-				de: "Hochschnellender Kick"
+				'en-us': "Skyward Kick",
+				'fr-fr': "Coup d'Pied Aérien",
+				'es-es': "Patada Cielo",
+				'it-it': "Calcinalto",
+				'pt-br': "Chute para o Céu",
+				'de-de': "Hochschnellender Kick"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				es: "El daño de este ataque no se ve afectado por Resistencia.",
-				it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-				pt: "Os danos deste ataque não são afetados por Resistência.",
-				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+				'it-it': "I danni di questo attacco non sono influenzati dalla resistenza.",
+				'pt-br': "Os danos deste ataque não são afetados por Resistência.",
+				'de-de': "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 40,
 
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "With its wings, it controls its position in the air. It likes to attack from above, a maneuver that is difficult to defend against.",
+		'en-us': "With its wings, it controls its position in the air. It likes to attack from above, a maneuver that is difficult to defend against.",
 	},
 
 	thirdParty: {

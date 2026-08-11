@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Capsakid",
-		fr: "Pimito",
-		es: "Capsakid",
-		it: "Capsakid",
-		pt: "Capsakid",
-		de: "Chilingel"
+		'en-us': "Capsakid",
+		'fr-fr': "Pimito",
+		'es-es': "Capsakid",
+		'it-it': "Capsakid",
+		'pt-br': "Capsakid",
+		'de-de': "Chilingel"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Slightly Spicy",
-			fr: "Légèrement Pimenté",
-			es: "Picantito",
-			it: "Piccantino",
-			pt: "Levemente Apimentado",
-			de: "Leicht gewürzt"
+			'en-us': "Slightly Spicy",
+			'fr-fr': "Légèrement Pimenté",
+			'es-es': "Picantito",
+			'it-it': "Piccantino",
+			'pt-br': "Levemente Apimentado",
+			'de-de': "Leicht gewürzt"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Burned.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Quemado.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene bruciato.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Queimado.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt verbrannt."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Burned.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Quemado.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene bruciato.",
+			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Queimado.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt verbrannt."
 		},
 
 		damage: 10
@@ -65,7 +65,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "Traditional Paldean dishes can be extremely spicy because they include the shed front teeth of Capsakid among their ingredients.",
+		'en-us': "Traditional Paldean dishes can be extremely spicy because they include the shed front teeth of Capsakid among their ingredients.",
 	},
 
 	thirdParty: {

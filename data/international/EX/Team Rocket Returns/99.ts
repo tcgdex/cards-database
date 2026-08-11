@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Rocket's Mewtwo ex",
-		de: "Rockets Mewtu ex"
+		'en-us': "Rocket's Mewtwo ex",
+		'de-de': "Rockets Mewtu ex"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Darkness Switch",
-				de: "Darkness Switch"
+				'en-us': "Darkness Switch",
+				'de-de': "Darkness Switch"
 			},
 			effect: {
-				en: "Discard an Energy card attached to Rocket's Mewtwo ex, and then switch all damage counters on Rocket's Mewtwo ex with those on the Defending Pokémon. (If an effect of this attack is prevented, this attack does nothing.)",
-				de: "Discard an Energy card attached to Rockets Mewtwo ex, and then switch all damage counters on Rocket´s Mewtwo ex with those on the Defending Pokémon. (If an effect of this attack is prevented, this attack does nothing.)"
+				'en-us': "Discard an Energy card attached to Rocket's Mewtwo ex, and then switch all damage counters on Rocket's Mewtwo ex with those on the Defending Pokémon. (If an effect of this attack is prevented, this attack does nothing.)",
+				'de-de': "Discard an Energy card attached to Rockets Mewtwo ex, and then switch all damage counters on Rocket´s Mewtwo ex with those on the Defending Pokémon. (If an effect of this attack is prevented, this attack does nothing.)"
 			},
 
 		},
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnoblast",
-				de: "Hypnoblast"
+				'en-us': "Hypnoblast",
+				'de-de': "Hypnoblast"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Asleep."
 			},
 			damage: 40,
 
@@ -64,8 +64,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psyburn",
-				de: "Psyburn"
+				'en-us': "Psyburn",
+				'de-de': "Psyburn"
 			},
 
 			damage: 70,

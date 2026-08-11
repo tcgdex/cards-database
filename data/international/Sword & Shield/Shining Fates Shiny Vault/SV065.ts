@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Tutafeh de Galar",
-		en: "Galarian Yamask",
-		es: "Yamask de Galar",
-		it: "Yamask di Galar",
-		pt: "Yamask de Galar",
-		de: "Galar-Makabaja"
+		'fr-fr': "Tutafeh de Galar",
+		'en-us': "Galarian Yamask",
+		'es-es': "Yamask de Galar",
+		'it-it': "Yamask di Galar",
+		'pt-br': "Yamask de Galar",
+		'de-de': "Galar-Makabaja"
 	},
 
 	illustrator: "sowsow",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Attaque Imprudente",
-			en: "Reckless Charge",
-			es: "Carga Descuidada",
-			it: "Carica Avventata",
-			pt: "Carga Indomável",
-			de: "Waghalsiger Sturmangriff"
+			'fr-fr': "Attaque Imprudente",
+			'en-us': "Reckless Charge",
+			'es-es': "Carga Descuidada",
+			'it-it': "Carica Avventata",
+			'pt-br': "Carga Indomável",
+			'de-de': "Waghalsiger Sturmangriff"
 		},
 
 		effect: {
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			en: "This Pokémon also does 30 damage to itself.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 50,
@@ -53,7 +53,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "A clay slab with cursed engravings took possession of a Yamask. The slab is said to be absorbing the Yamask's dark power."
+		'en-us': "A clay slab with cursed engravings took possession of a Yamask. The slab is said to be absorbing the Yamask's dark power."
 	},
 
 	variants: [

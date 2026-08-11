@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリカのピッピ",
+		'ja-jp': "エリカのピッピ",
 	},
 	illustrator: "Atsuko Nishida",
 
@@ -19,16 +19,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "月の力",
+				'ja-jp': "月の力",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、ベンチ付きポケモンの1つから進化するカードをデッキに検索し、そのカードをそのポケモンに置きます。 （これはポケモンの進化としてカウントされます。）その後、デッキをシャッフルします。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、ベンチ付きポケモンの1つから進化するカードをデッキに検索し、そのカードをそのポケモンに置きます。 （これはポケモンの進化としてカウントされます。）その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ムーンキック",
+				'ja-jp': "ムーンキック",
 			},
 			damage: 20,
 		},

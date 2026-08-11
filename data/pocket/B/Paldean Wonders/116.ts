@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
     set: Set,
 
     name: {
-		en: "Sprigatito",
-		fr: "Poussacha",
-		es: "Sprigatito",
-		it: "Sprigatito",
-		de: "Felori",
+		'en-us': "Sprigatito",
+		'fr-fr': "Poussacha",
+		'es-es': "Sprigatito",
+		'it-it': "Sprigatito",
+		'de-de': "Felori",
 		'pt-br': "Sprigatito",
-		ko: "나오하"
+		'ko-kr': "나오하"
     },
 
     illustrator: "Souichirou Gunjima",
@@ -31,13 +31,13 @@ const card: Card = {
     attacks: [
         {
 		name: {
-			en: "Leafage",
-			fr: "Feuillage",
-			es: "Follaje",
-			it: "Fogliame",
-			de: "Blattwerk",
+			'en-us': "Leafage",
+			'fr-fr': "Feuillage",
+			'es-es': "Follaje",
+			'it-it': "Fogliame",
+			'de-de': "Blattwerk",
 			'pt-br': "Folhagem",
-			ko: "나뭇잎"
+			'ko-kr': "나뭇잎"
 		},
         damage: 20,
         cost: ["Grass"]

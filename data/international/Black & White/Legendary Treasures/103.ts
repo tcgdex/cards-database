@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Swablu",
+		'en-us': "Swablu",
 	},
 
 	illustrator: "Akira Komayama",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Glare and Peck",
+				'en-us': "Glare and Peck",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 10,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "For some reason, it likes to land on people's heads softly and act like it's a hat.",
+		'en-us': "For some reason, it likes to land on people's heads softly and act like it's a hat.",
 	},
 
 	thirdParty: {

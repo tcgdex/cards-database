@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Manectric",
-		fr: "Elecsprint",
-		de: "Voltenso"
+		'en-us': "Manectric",
+		'fr-fr': "Elecsprint",
+		'de-de': "Voltenso"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Electrike",
-		fr: "Dynavolt"
+		'en-us': "Electrike",
+		'fr-fr': "Dynavolt"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Attract Current",
-				fr: "Courant électrique",
-				de: "Attract Current"
+				'en-us': "Attract Current",
+				'fr-fr': "Courant électrique",
+				'de-de': "Attract Current"
 			},
 			effect: {
-				en: "Search your deck for a Lightning Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une carte Énergie  et attachez-la à un de vos Pokémon. Mélangez ensuite votre deck.",
-				de: "Search your deck for a  Energy card amd attach it to 1 of your Pokémon. Shuffle your deck afterward."
+				'en-us': "Search your deck for a Lightning Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck une carte Énergie  et attachez-la à un de vos Pokémon. Mélangez ensuite votre deck.",
+				'de-de': "Search your deck for a  Energy card amd attach it to 1 of your Pokémon. Shuffle your deck afterward."
 			},
 			damage: 10,
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Jolt",
-				fr: "Secousse tonnerre",
-				de: "Thunder Jolt"
+				'en-us': "Thunder Jolt",
+				'fr-fr': "Secousse tonnerre",
+				'de-de': "Thunder Jolt"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Manectric does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Elecsprint s'inflige 10 dégâts.",
-				de: "Flip a coin. If tails, Manectric does 10 damage to itself."
+				'en-us': "Flip a coin. If tails, Manectric does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Elecsprint s'inflige 10 dégâts.",
+				'de-de': "Flip a coin. If tails, Manectric does 10 damage to itself."
 			},
 			damage: 50,
 

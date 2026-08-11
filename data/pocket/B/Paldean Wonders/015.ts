@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Wo-Chien",
-		fr: "Chongjian",
-		es: "Wo-Chien",
-		it: "Wo-Chien",
-		pt: "Wo-Chien",
-		de: "Chongjian"
+		'en-us': "Wo-Chien",
+		'fr-fr': "Chongjian",
+		'es-es': "Wo-Chien",
+		'it-it': "Wo-Chien",
+		'pt-br': "Wo-Chien",
+		'de-de': "Chongjian"
   },
   illustrator: "Kouki Saitou",
   rarity: "Three Diamond",

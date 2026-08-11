@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bronzong",
-		fr: "Archéodong",
-		es: "Bronzong",
-		it: "Bronzong",
-		pt: "Bronzong",
-		de: "Bronzong"
+		'en-us': "Bronzong",
+		'fr-fr': "Archéodong",
+		'es-es': "Bronzong",
+		'it-it': "Bronzong",
+		'pt-br': "Bronzong",
+		'de-de': "Bronzong"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Bronzor",
-		fr: "Archéomire",
-		es: "Bronzor",
-		it: "Bronzor",
-		pt: "Bronzor",
-		de: "Bronzel"
+		'en-us': "Bronzor",
+		'fr-fr': "Archéomire",
+		'es-es': "Bronzor",
+		'it-it': "Bronzor",
+		'pt-br': "Bronzor",
+		'de-de': "Bronzel"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Evolution Jammer",
-			fr: "Bloqueur d'Évolution",
-			es: "Interferente de Evolución",
-			it: "Evolviblocco",
-			pt: "Atolador de Evolução",
-			de: "Entwicklungsstörer"
+			'en-us': "Evolution Jammer",
+			'fr-fr': "Bloqueur d'Évolution",
+			'es-es': "Interferente de Evolución",
+			'it-it': "Evolviblocco",
+			'pt-br': "Atolador de Evolução",
+			'de-de': "Entwicklungsstörer"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, they can't play any Pokémon from their hand to evolve their Pokémon.",
-			fr: "Pendant le prochain tour de votre adversaire, il ne peut pas jouer de Pokémon de sa main pour faire évoluer ses Pokémon.",
-			es: "Durante el próximo turno de tu rival, este no puede jugar ningún Pokémon de su mano para hacer evolucionar a sus Pokémon.",
-			it: "Durante il suo prossimo turno, il tuo avversario non può giocare i Pokémon che ha in mano per far evolvere i suoi Pokémon.",
-			pt: "Durante o próximo turno do seu oponente, ele não poderá jogar nenhum Pokémon da mão dele para evoluir os Pokémon dele.",
-			de: "Dein Gegner kann während seines nächsten Zuges keine Pokémon aus seiner Hand spielen, um seine Pokémon zu entwickeln."
+			'en-us': "During your opponent's next turn, they can't play any Pokémon from their hand to evolve their Pokémon.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, il ne peut pas jouer de Pokémon de sa main pour faire évoluer ses Pokémon.",
+			'es-es': "Durante el próximo turno de tu rival, este no puede jugar ningún Pokémon de su mano para hacer evolucionar a sus Pokémon.",
+			'it-it': "Durante il suo prossimo turno, il tuo avversario non può giocare i Pokémon che ha in mano per far evolvere i suoi Pokémon.",
+			'pt-br': "Durante o próximo turno do seu oponente, ele não poderá jogar nenhum Pokémon da mão dele para evoluir os Pokémon dele.",
+			'de-de': "Dein Gegner kann während seines nächsten Zuges keine Pokémon aus seiner Hand spielen, um seine Pokémon zu entwickeln."
 		},
 
 		damage: 30
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Super Psy Bolt",
-			fr: "Super Psy",
-			es: "Superrayo Psi",
-			it: "Superpsico",
-			pt: "Super-raio Psíquico",
-			de: "Super-Psischlag"
+			'en-us': "Super Psy Bolt",
+			'fr-fr': "Super Psy",
+			'es-es': "Superrayo Psi",
+			'it-it': "Superpsico",
+			'pt-br': "Super-raio Psíquico",
+			'de-de': "Super-Psischlag"
 		},
 
 		damage: 100
@@ -81,7 +81,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "In ages past, this Pokémon was revered as a bringer of rain. It was found buried in the ground.",
+		'en-us': "In ages past, this Pokémon was revered as a bringer of rain. It was found buried in the ground.",
 	},
 
 	variants: [

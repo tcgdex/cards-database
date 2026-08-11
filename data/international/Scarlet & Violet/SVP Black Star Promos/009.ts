@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spidops",
-		fr: "Filentrappe",
-		es: "Spidops",
-		it: "Spidops",
-		pt: "Spidops",
-		de: "Spinsidias"
+		'en-us': "Spidops",
+		'fr-fr': "Filentrappe",
+		'es-es': "Spidops",
+		'it-it': "Spidops",
+		'pt-br': "Spidops",
+		'de-de': "Spinsidias"
 	},
 
 	rarity: "Promo",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Tarountula",
-		fr: "Tissenboule",
-		es: "Tarountula",
-		it: "Tarountula",
-		pt: "Tarountula",
-		de: "Tarundel"
+		'en-us': "Tarountula",
+		'fr-fr': "Tissenboule",
+		'es-es': "Tarountula",
+		'it-it': "Tarountula",
+		'pt-br': "Tarountula",
+		'de-de': "Tarundel"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "String Truss",
-			fr: "Ligotage Filaire",
-			es: "Sujeción Hilo",
-			it: "Legafilo",
-			pt: "Suporte de Fio",
-			de: "Fadenwickel"
+			'en-us': "String Truss",
+			'fr-fr': "Ligotage Filaire",
+			'es-es': "Sujeción Hilo",
+			'it-it': "Legafilo",
+			'pt-br': "Suporte de Fio",
+			'de-de': "Fadenwickel"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		},
 
 		damage: 30
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Jet Headbutt",
-			fr: "Bélier Volant",
-			es: "Turbocabezazo",
-			it: "Zuccata Jet",
-			pt: "Cabeçada a Jato",
-			de: "Flinke Kopfnuss"
+			'en-us': "Jet Headbutt",
+			'fr-fr': "Bélier Volant",
+			'es-es': "Turbocabezazo",
+			'it-it': "Zuccata Jet",
+			'pt-br': "Cabeçada a Jato",
+			'de-de': "Flinke Kopfnuss"
 		},
 
 		damage: 100
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "Anesaki Dynamic",
 	description: {
-		en: "It clings to branches and ceilings using its threads and moves without a sound. It takes out its prey before the prey even notices it.",
+		'en-us': "It clings to branches and ceilings using its threads and moves without a sound. It takes out its prey before the prey even notices it.",
 	},
 	variants: [
 		{

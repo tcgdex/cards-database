@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2023'
 
 const card: Card = {
 	name: {
-		en: "Kirlia",
-		fr: "Kirlia",
-		es: "Kirlia",
-		it: "Kirlia",
-		pt: "Kirlia",
-		de: "Kirlia"
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia",
+		'es-es': "Kirlia",
+		'it-it': "Kirlia",
+		'pt-br': "Kirlia",
+		'de-de': "Kirlia"
 	},
 
 	illustrator: "kawayoo",
@@ -25,34 +25,34 @@ const card: Card = {
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Ralts",
-		fr: "Tarsal",
-		es: "Ralts",
-		it: "Ralts",
-		pt: "Ralts",
-		de: "Trasla"
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal",
+		'es-es': "Ralts",
+		'it-it': "Ralts",
+		'pt-br': "Ralts",
+		'de-de': "Trasla"
 	},
 
 	attacks: [
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				en: "Magical Shot",
-				fr: "Coup Magique",
-				es: "Disparo Mágico",
-				it: "Magicolpo",
-				pt: "Tiro Mágico",
-				de: "Magischer Schuss"
+				'en-us': "Magical Shot",
+				'fr-fr': "Coup Magique",
+				'es-es': "Disparo Mágico",
+				'it-it': "Magicolpo",
+				'pt-br': "Tiro Mágico",
+				'de-de': "Magischer Schuss"
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Psychic"],
 			name: {
-				en: "Phychic",
+				'en-us': "Phychic",
 			},
 			effect: {
-				en: "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon."
+				'en-us': "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon."
 			},
 			damage: 20,
 		}

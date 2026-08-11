@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒードランV",
+		'ja-jp': "ヒードランV",
 		'zh-tw': "席多藍恩V",
 	},
 
@@ -18,25 +18,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ねつでこがす",
+				'ja-jp': "ねつでこがす",
 				'zh-tw': "熱灼燒",
 			},
 			damage: 30,
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【灼傷】。",
 			},
 		},
 		{
 			name: {
-				ja: "マグマフォール",
+				'ja-jp': "マグマフォール",
 				'zh-tw': "熔岩墜落",
 			},
 			damage: "90+",
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "場に自分のスタジアムが出ているなら、90ダメージ追加。",
+				'ja-jp': "場に自分のスタジアムが出ているなら、90ダメージ追加。",
 				'zh-tw': "若場上有自己的競技場卡，則增加90點傷害。",
 			},
 		},

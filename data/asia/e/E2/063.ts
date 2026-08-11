@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Porygon2",
+		'ja-jp': "Porygon2",
 	},
 
 	rarity: "Uncommon",
@@ -17,10 +17,10 @@ const card: Card = {
 	abilities: [
 		{
 			name: {
-				ja: "バックアップ",
+				'ja-jp': "バックアップ",
 			},
 			effect: {
-				ja: "それぞれのターンの間に（攻撃の前に）</em> </em>、手に2枚以下のカードがある場合は、手に3枚のカードがあるまでカードからカードを描くことができます。 Porygon2が特別な状態の影響を受ける場合、このパワーは使用できません。",
+				'ja-jp': "それぞれのターンの間に（攻撃の前に）</em> </em>、手に2枚以下のカードがある場合は、手に3枚のカードがあるまでカードからカードを描くことができます。 Porygon2が特別な状態の影響を受ける場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "催眠線",
+				'ja-jp': "催眠線",
 			},
 			effect: {
-				ja: "防御ポケモンは今眠っています。",
+				'ja-jp': "防御ポケモンは今眠っています。",
 			},
 			damage: 20,
 		},

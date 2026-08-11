@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Swellow",
-		fr: "Heledelle",
-		de: "Schwalboss"
+		'en-us': "Swellow",
+		'fr-fr': "Heledelle",
+		'de-de': "Schwalboss"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Taillow",
-		fr: "Schwalbini",
+		'en-us': "Taillow",
+		'fr-fr': "Schwalbini",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Big Wing",
-				fr: "Grande aile",
-				de: "Große Schwingen"
+				'en-us': "Big Wing",
+				'fr-fr': "Grande aile",
+				'de-de': "Große Schwingen"
 			},
 			effect: {
-				en: "If Swellow has no Energy attached to it, Swellow's Retreat Cost is 0.",
-				fr: "Si Heledelle ne possède pas d'Énergie, son Coût de retraite est de 0.",
-				de: "Wenn an Schwalboss keine Energie angelegt ist, hat Schwalboss Rückzugskosten 0."
+				'en-us': "If Swellow has no Energy attached to it, Swellow's Retreat Cost is 0.",
+				'fr-fr': "Si Heledelle ne possède pas d'Énergie, son Coût de retraite est de 0.",
+				'de-de': "Wenn an Schwalboss keine Energie angelegt ist, hat Schwalboss Rückzugskosten 0."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mach Descent",
-				fr: "Mach-attaque",
-				de: "Tempo-Sinkflug"
+				'en-us': "Mach Descent",
+				'fr-fr': "Mach-attaque",
+				'de-de': "Tempo-Sinkflug"
 			},
 			effect: {
-				en: "If Swellow was on your Bench this turn, this attack's base damage is 60 instead of 30.",
-				fr: "Si Heledelle se trouve sur votre Banc lors de ce tour, les dégâts de base de cette attaque sont de 60 au lieu de 30.",
-				de: "Wenn Schwalboss in diesem Zug auf deiner Bank war, beträgt der Grundschaden dieses Angriffs 60 Schadenspunkte."
+				'en-us': "If Swellow was on your Bench this turn, this attack's base damage is 60 instead of 30.",
+				'fr-fr': "Si Heledelle se trouve sur votre Banc lors de ce tour, les dégâts de base de cette attaque sont de 60 au lieu de 30.",
+				'de-de': "Wenn Schwalboss in diesem Zug auf deiner Bank war, beträgt der Grundschaden dieses Angriffs 60 Schadenspunkte."
 			},
 			damage: 30,
 
@@ -84,8 +84,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It circles the sky in search of prey. When it spots one, it dive steeply to catch the prey.",
-		fr: "Il vole en cercle en quête d'une proie. Dès qu'il l'a repérée, il fond sur elle en un éclair."
+		'en-us': "It circles the sky in search of prey. When it spots one, it dive steeply to catch the prey.",
+		'fr-fr': "Il vole en cercle en quête d'une proie. Dès qu'il l'a repérée, il fond sur elle en un éclair."
 	},
 
 	thirdParty: {

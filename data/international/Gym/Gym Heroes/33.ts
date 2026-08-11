@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Rocket's Snorlax"
+		'en-us': "Rocket's Snorlax"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Munchlax"
+		'en-us': "Munchlax"
 	},
 
 	stage: "Basic",
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Restless Sleep"
+				'en-us': "Restless Sleep"
 			},
 			effect: {
-				en: "If your opponent's attack does damage to Rocket's Snorlax and Rocket's Snorlax is already Asleep (even if it's Knocked Out), this power does 20 damage to the attacking Pokémon."
+				'en-us': "If your opponent's attack does damage to Rocket's Snorlax and Rocket's Snorlax is already Asleep (even if it's Knocked Out), this power does 20 damage to the attacking Pokémon."
 			}
 		},
 	],
@@ -45,10 +45,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collapse"
+				'en-us': "Collapse"
 			},
 			effect: {
-				en: "Rocket's Snorlax is now Asleep (after doing damage)."
+				'en-us': "Rocket's Snorlax is now Asleep (after doing damage)."
 			},
 			damage: 20,
 

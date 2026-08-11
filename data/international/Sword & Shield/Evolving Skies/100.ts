@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Garbodor V",
-		fr: "Miasmax V",
-		es: "Garbodor V",
-		it: "Garbodor V",
-		pt: "Garbodor V",
-		de: "Deponitox V"
+		'en-us': "Garbodor V",
+		'fr-fr': "Miasmax V",
+		'es-es': "Garbodor V",
+		'it-it': "Garbodor V",
+		'pt-br': "Garbodor V",
+		'de-de': "Deponitox V"
 	},
 
 	rarity: "Holo Rare V",
@@ -23,33 +23,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Trash Stench",
-			fr: "Relents d'Ordures",
-			es: "Basura Pestilente",
-			it: "Tanfo di Spazzatura",
-			pt: "Trash Stench",
-			de: "Müllmief"
+			'en-us': "Trash Stench",
+			'fr-fr': "Relents d'Ordures",
+			'es-es': "Basura Pestilente",
+			'it-it': "Tanfo di Spazzatura",
+			'pt-br': "Trash Stench",
+			'de-de': "Müllmief"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned. During your opponent's next turn, that Pokémon can't retreat.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas battre en retraite.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado. Durante el próximo turno de tu rival, ese Pokémon no puede retirarse.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato. Durante il prossimo turno del tuo avversario, quel Pokémon non può ritirarsi.",
-			pt: "Your opponent's Active Pokémon is now Poisoned. During your opponent's next turn, that Pokémon can't retreat.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Während des nächsten Zuges deines Gegners kann sich jenes Pokémon nicht zurückziehen."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned. During your opponent's next turn, that Pokémon can't retreat.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le prochain tour de votre adversaire, ce Pokémon-là ne peut pas battre en retraite.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado. Durante el próximo turno de tu rival, ese Pokémon no puede retirarse.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato. Durante il prossimo turno del tuo avversario, quel Pokémon non può ritirarsi.",
+			'pt-br': "Your opponent's Active Pokémon is now Poisoned. During your opponent's next turn, that Pokémon can't retreat.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Während des nächsten Zuges deines Gegners kann sich jenes Pokémon nicht zurückziehen."
 		},
 
 		damage: 40,
 		cost: ["Darkness", "Colorless"]
 	}, {
 		name: {
-			en: "Sludge Bomb",
-			fr: "Bombe Beurk",
-			es: "Bomba Lodo",
-			it: "Fangobomba",
-			pt: "Sludge Bomb",
-			de: "Matschbombe"
+			'en-us': "Sludge Bomb",
+			'fr-fr': "Bombe Beurk",
+			'es-es': "Bomba Lodo",
+			'it-it': "Fangobomba",
+			'pt-br': "Sludge Bomb",
+			'de-de': "Matschbombe"
 		},
 
 		damage: 130,

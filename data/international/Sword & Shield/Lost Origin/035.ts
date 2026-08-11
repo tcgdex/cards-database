@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Horsea",
-		fr: "Hypotrempe",
-		es: "Horsea",
-		it: "Horsea",
-		pt: "Horsea",
-		de: "Seeper"
+		'en-us': "Horsea",
+		'fr-fr': "Hypotrempe",
+		'es-es': "Horsea",
+		'it-it': "Horsea",
+		'pt-br': "Horsea",
+		'de-de': "Seeper"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Reverse Thrust",
-			fr: "Poussée Inverse",
-			es: "Invertir Impulso",
-			it: "Tornaindietro",
-			pt: "Impulso Reverso",
-			de: "Umkehrschub"
+			'en-us': "Reverse Thrust",
+			'fr-fr': "Poussée Inverse",
+			'es-es': "Invertir Impulso",
+			'it-it': "Tornaindietro",
+			'pt-br': "Impulso Reverso",
+			'de-de': "Umkehrschub"
 		},
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-			es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-			it: "Scambia questo Pokémon con uno della tua panchina.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+			'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+			'fr-fr': "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'es-es': "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+			'it-it': "Scambia questo Pokémon con uno della tua panchina.",
+			'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+			'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 		},
 
 		damage: 10

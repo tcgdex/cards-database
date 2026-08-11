@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エースバーンV",
+		'ja-jp': "エースバーンV",
 		'zh-tw': "波克基古",
 	},
 
@@ -18,7 +18,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ほのお",
+				'ja-jp': "ほのお",
 				'zh-tw': "妖精之風",
 			},
 			damage: 50,
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 210,
 			cost: ["Fire", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],

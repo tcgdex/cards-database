@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Milotic",
-		fr: "Milobellus",
-		es: "Milotic",
-		it: "Milotic",
-		pt: "Milotic",
-		de: "Milotic"
+		'en-us': "Milotic",
+		'fr-fr': "Milobellus",
+		'es-es': "Milotic",
+		'it-it': "Milotic",
+		'pt-br': "Milotic",
+		'de-de': "Milotic"
 	},
 
 	illustrator: "Mizue",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Feebas",
-		fr: "Barpau",
+		'en-us': "Feebas",
+		'fr-fr': "Barpau",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Clear Search",
-				fr: "Recherche Libre",
+				'en-us': "Clear Search",
+				'fr-fr': "Recherche Libre",
 			},
 			effect: {
-				en: "Search your deck for any 3 cards and put them into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez 3 cartes dans votre deck puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for any 3 cards and put them into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez 3 cartes dans votre deck puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Pulse",
-				fr: "Vibraqua",
+				'en-us': "Water Pulse",
+				'fr-fr': "Vibraqua",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
 			},
 			damage: 60,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its lovely scales are described as rainbow colored. They change color depending on the viewing angle.",
+		'en-us': "Its lovely scales are described as rainbow colored. They change color depending on the viewing angle.",
 	},
 
 	thirdParty: {

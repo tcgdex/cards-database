@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Kirlia",
-		fr: "Kirlia",
-		es: "Kirlia",
-		it: "Kirlia",
-		pt: "Kirlia",
-		de: "Kirlia"
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia",
+		'es-es': "Kirlia",
+		'it-it': "Kirlia",
+		'pt-br': "Kirlia",
+		'de-de': "Kirlia"
 	},
 
 	illustrator: "sowsow",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ralts",
-		fr: "Tarsal",
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnosis",
-				fr: "Hypnose",
-				es: "Hipnosis",
-				it: "Ipnosi",
-				pt: "Hipnose",
-				de: "Hypnose"
+				'en-us': "Hypnosis",
+				'fr-fr': "Hypnose",
+				'es-es': "Hipnosis",
+				'it-it': "Ipnosi",
+				'pt-br': "Hipnose",
+				'de-de': "Hypnose"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent’s Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 
 		},
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spiral Kick",
-				fr: "Coup’d Pied en Spirale",
-				es: "Patada Espiral",
-				it: "Spiralcalcio",
-				pt: "Chute Espiral",
-				de: "Drehtritt"
+				'en-us': "Spiral Kick",
+				'fr-fr': "Coup’d Pied en Spirale",
+				'es-es': "Patada Espiral",
+				'it-it': "Spiralcalcio",
+				'pt-br': "Chute Espiral",
+				'de-de': "Drehtritt"
 			},
 
 			damage: 20,
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The cheerful spirit of its Trainer gives it energy for its psychokinetic power. It spins and dances when happy.",
+		'en-us': "The cheerful spirit of its Trainer gives it energy for its psychokinetic power. It spins and dances when happy.",
 	},
 
 	thirdParty: {

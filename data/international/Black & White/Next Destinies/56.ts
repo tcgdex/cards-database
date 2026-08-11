@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Kirlia",
-		fr: "Kirlia",
-		es: "Kirlia",
-		it: "Kirlia",
-		pt: "Kirlia",
-		de: "Kirlia"
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia",
+		'es-es': "Kirlia",
+		'it-it': "Kirlia",
+		'pt-br': "Kirlia",
+		'de-de': "Kirlia"
 	},
 
 	illustrator: "MAHOU",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ralts",
-		fr: "Tarsal",
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal",
 	},
 
 	stage: "Stage1",
@@ -40,8 +40,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smack",
-				fr: "Claque",
+				'en-us': "Smack",
+				'fr-fr': "Claque",
 			},
 
 			damage: 20,
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic",
-				fr: "Psyko",
+				'en-us': "Psychic",
+				'fr-fr': "Psyko",
 			},
 			effect: {
-				en: "Does 10 more damage for each Energy attached to the Defending Pokémon.",
-				fr: "Inflige 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Does 10 more damage for each Energy attached to the Defending Pokémon.",
+				'fr-fr': "Inflige 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 40,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
+		'en-us': "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
 	},
 
 	thirdParty: {

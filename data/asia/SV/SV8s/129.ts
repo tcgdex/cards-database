@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Gholdengo",
-		th: "ซาร์ฟโก"
+		'id-id': "Gholdengo",
+		'th-th': "ซาร์ฟโก"
 	},
 
 	illustrator: "Dsuke",
@@ -15,34 +15,34 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Tubuh kukuh Gholdengo terbentuk dari koin yang disusun bertumpuk. Pokémon ini menembakkan koin secara beruntun dan mendesak musuhnya.",
-		th: "ร่างกายที่เกิดจากเหรียญที่กองซ้อนกันนั้นแข็งแรง เอาชนะศัตรูด้วย การยิงเหรียญใส่อย่างต่อเนื่อง"
+		'id-id': "Tubuh kukuh Gholdengo terbentuk dari koin yang disusun bertumpuk. Pokémon ini menembakkan koin secara beruntun dan mendesak musuhnya.",
+		'th-th': "ร่างกายที่เกิดจากเหรียญที่กองซ้อนกันนั้นแข็งแรง เอาชนะศัตรูด้วย การยิงเหรียญใส่อย่างต่อเนื่อง"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Rich Strike",
-			th: "ริชสไตรค์"
+			'id-id': "Rich Strike",
+			'th-th': "ริชสไตรค์"
 		},
 
 		effect: {
-			id: "Jika pada giliran ini, Pokémon ini berevolusi dari Gimmighoul, kerusakan yang diberikan bertambah sejumlah 90.",
-			th: "เทิร์นนี้ ถ้าโปเกมอนนี้วิวัฒนาการมาจาก [คอลเลคเรย์] แล้ว การโจมตีนี้จะ เพิ่มแดเมจอีก 90"
+			'id-id': "Jika pada giliran ini, Pokémon ini berevolusi dari Gimmighoul, kerusakan yang diberikan bertambah sejumlah 90.",
+			'th-th': "เทิร์นนี้ ถ้าโปเกมอนนี้วิวัฒนาการมาจาก [คอลเลคเรย์] แล้ว การโจมตีนี้จะ เพิ่มแดเมจอีก 90"
 		},
 
 		damage: "30+",
 		cost: ["Metal"]
 	}, {
 		name: {
-			id: "Surf Return",
-			th: "เซิร์ฟรีเทิร์น"
+			'id-id': "Surf Return",
+			'th-th': "เซิร์ฟรีเทิร์น"
 		},
 
 		effect: {
-			id: "Pemain dapat mengocok kembali Pokémon ini dan semua kartu yang dikenakannya ke Deck sendiri.",
-			th: "หากต้องการ นำโปเกมอนนี้ และการ์ดทั้งหมดที่ติดอยู่ ใส่กลับไปในสำรับการ์ด ฝ่ายเราแล้วสับ"
+			'id-id': "Pemain dapat mengocok kembali Pokémon ini dan semua kartu yang dikenakannya ke Deck sendiri.",
+			'th-th': "หากต้องการ นำโปเกมอนนี้ และการ์ดทั้งหมดที่ติดอยู่ ใส่กลับไปในสำรับการ์ด ฝ่ายเราแล้วสับ"
 		},
 
 		damage: 100,

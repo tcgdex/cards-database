@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムックル",
+		'ja-jp': "ムックル",
 	},
 
 	illustrator: "miki kudo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "たくさんの 群れで 行動する。 体は 小さいが 羽ばたく 力は 非常に 強い。",
+		'ja-jp': "たくさんの 群れで 行動する。 体は 小さいが 羽ばたく 力は 非常に 強い。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "むしさがし" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手の手札を見る。",
+				'ja-jp': "相手の手札を見る。",
 			},
 		},
 		{

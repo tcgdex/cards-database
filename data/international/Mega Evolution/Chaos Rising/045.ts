@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Donphan is normally a calm Pokemon, but once it is enraged, it will curl its body into a ball and charge at you while rolling.",
+		'en-us': "Donphan is normally a calm Pokemon, but once it is enraged, it will curl its body into a ball and charge at you while rolling.",
 	},
 
 
 	name: {
-		en: "Donphan",
-		fr: "Donphan",
-		es: "Donphan",
+		'en-us': "Donphan",
+		'fr-fr': "Donphan",
+		'es-es': "Donphan",
 		'es-mx': "Donphan",
-		de: "Donphan",
-		it: "Donphan",
-		pt: "Donphan"
+		'de-de': "Donphan",
+		'it-it': "Donphan",
+		'pt-br': "Donphan"
 	},
 
 	illustrator: "Julie Hang",
@@ -27,56 +27,56 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Phanpy"
+		'en-us': "Phanpy"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "No Reprieve",
-			fr: "Sans Répit",
-			es: "Sin Respiro",
+			'en-us': "No Reprieve",
+			'fr-fr': "Sans Répit",
+			'es-es': "Sin Respiro",
 			'es-mx': "Sin Tregua",
-			de: "Schonungslos",
-			it: "Senza Tregua",
-			pt: "Sem Trégua"
+			'de-de': "Schonungslos",
+			'it-it': "Senza Tregua",
+			'pt-br': "Sem Trégua"
 		},
 
 		cost: ["Fighting"],
 		damage: 20,
 
 		effect: {
-			en: "During your next turn, attacks used by this Pokémon do 120 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
-			fr: "Pendant votre prochain tour, les attaques utilisées par ce Pokémon infligent 120 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
-			es: "Durante tu próximo turno, los ataques usados por este Pokémon hacen 120 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
+			'en-us': "During your next turn, attacks used by this Pokémon do 120 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+			'fr-fr': "Pendant votre prochain tour, les attaques utilisées par ce Pokémon infligent 120 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
+			'es-es': "Durante tu próximo turno, los ataques usados por este Pokémon hacen 120 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 			'es-mx': "Durante tu próximo turno, los ataques usados por este Pokémon hacen 120 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
-			de: "Während deines nächsten Zuges fügen die von diesem Pokémon eingesetzten Attacken dem Aktiven Pokémon deines Gegners 120 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden).",
-			it: "Durante il tuo prossimo turno, gli attacchi usati da questo Pokémon infliggono 120 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
-			pt: "Durante o seu próximo turno, os ataques usados por este Pokémon causarão 120 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência)."
+			'de-de': "Während deines nächsten Zuges fügen die von diesem Pokémon eingesetzten Attacken dem Aktiven Pokémon deines Gegners 120 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden).",
+			'it-it': "Durante il tuo prossimo turno, gli attacchi usati da questo Pokémon infliggono 120 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
+			'pt-br': "Durante o seu próximo turno, os ataques usados por este Pokémon causarão 120 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência)."
 		}
 	}, {
 		name: {
-			en: "Smashing Headbutt",
-			fr: "Coup d'Boule Fracassant",
-			es: "Cabezazo Destructor",
+			'en-us': "Smashing Headbutt",
+			'fr-fr': "Coup d'Boule Fracassant",
+			'es-es': "Cabezazo Destructor",
 			'es-mx': "Cabezazo Devastador",
-			de: "Schmetternde Kopfnuss",
-			it: "Bottintesta Distruttivo",
-			pt: "Cabeçada Destruidora"
+			'de-de': "Schmetternde Kopfnuss",
+			'it-it': "Bottintesta Distruttivo",
+			'pt-br': "Cabeçada Destruidora"
 		},
 
 		cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
 		damage: 180,
 
 		effect: {
-			en: "Discard 2 Energy from this Pokémon.",
-			fr: "Défaussez 2 Énergies de ce Pokémon.",
-			es: "Descarta 2 Energías de este Pokémon.",
+			'en-us': "Discard 2 Energy from this Pokémon.",
+			'fr-fr': "Défaussez 2 Énergies de ce Pokémon.",
+			'es-es': "Descarta 2 Energías de este Pokémon.",
 			'es-mx': "Descarta 2 Energías de este Pokémon.",
-			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel.",
-			it: "Scarta due Energie da questo Pokémon.",
-			pt: "Descarte 2 Energias deste Pokémon."
+			'de-de': "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel.",
+			'it-it': "Scarta due Energie da questo Pokémon.",
+			'pt-br': "Descarte 2 Energias deste Pokémon."
 		}
 	}],
 

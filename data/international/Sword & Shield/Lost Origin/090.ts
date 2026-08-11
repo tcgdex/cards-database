@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rhydon",
-		fr: "Rhinoféros",
-		es: "Rhydon",
-		it: "Rhydon",
-		pt: "Rhydon",
-		de: "Rizeros"
+		'en-us': "Rhydon",
+		'fr-fr': "Rhinoféros",
+		'es-es': "Rhydon",
+		'it-it': "Rhydon",
+		'pt-br': "Rhydon",
+		'de-de': "Rizeros"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Rhyhorn",
-		fr: "Rhinocorne",
-		es: "Rhyhorn",
-		it: "Rhyhorn",
-		pt: "Rhyhorn",
-		de: "Rihorn"
+		'en-us': "Rhyhorn",
+		'fr-fr': "Rhinocorne",
+		'es-es': "Rhyhorn",
+		'it-it': "Rhyhorn",
+		'pt-br': "Rhyhorn",
+		'de-de': "Rihorn"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Horn Drill",
-			fr: "Empal'Korne",
-			es: "Perforador",
-			it: "Perforcorno",
-			pt: "Chifre Broca",
-			de: "Hornbohrer"
+			'en-us': "Horn Drill",
+			'fr-fr': "Empal'Korne",
+			'es-es': "Perforador",
+			'it-it': "Perforcorno",
+			'pt-br': "Chifre Broca",
+			'de-de': "Hornbohrer"
 		},
 
 		damage: 30
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Take Down",
-			fr: "Bélier",
-			es: "Derribo",
-			it: "Riduttore",
-			pt: "Desmantelar",
-			de: "Bodycheck"
+			'en-us': "Take Down",
+			'fr-fr': "Bélier",
+			'es-es': "Derribo",
+			'it-it': "Riduttore",
+			'pt-br': "Desmantelar",
+			'de-de': "Bodycheck"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 120

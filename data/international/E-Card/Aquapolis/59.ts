@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Seaking",
-		fr: "Poissoroy",
-		de: "Golking"
+		'en-us': "Seaking",
+		'fr-fr': "Poissoroy",
+		'de-de': "Golking"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Goldeen",
-		fr: "Poissirène"
+		'en-us': "Goldeen",
+		'fr-fr': "Poissirène"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flail",
-				fr: "Fléau",
-				de: "Dreschflegel"
+				'en-us': "Flail",
+				'fr-fr': "Fléau",
+				'de-de': "Dreschflegel"
 			},
 			effect: {
-				en: "This attack does 10 damage times the number of damage counters on Seaking.",
-				fr: "Cette attaque inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Poissoroy.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl an Schadensmarken auf Golking zu."
+				'en-us': "This attack does 10 damage times the number of damage counters on Seaking.",
+				'fr-fr': "Cette attaque inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Poissoroy.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl an Schadensmarken auf Golking zu."
 			},
 			damage: "10×",
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Undulate",
-				fr: "Annulation",
-				de: "Auf und Ab"
+				'en-us': "Undulate",
+				'fr-fr': "Annulation",
+				'de-de': "Auf und Ab"
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Seaking.",
-				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Poissoroy.",
-				de: "Wirf eine Münze. Verhindere bei 'Kopf' während des nächstens Zuges deines Gegners alle Effekte von Angriffen (einschließlich Schaden), die Golking zugefügt werden."
+				'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Seaking.",
+				'fr-fr': "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Poissoroy.",
+				'de-de': "Wirf eine Münze. Verhindere bei 'Kopf' während des nächstens Zuges deines Gegners alle Effekte von Angriffen (einschließlich Schaden), die Golking zugefügt werden."
 			},
 			damage: 30,
 

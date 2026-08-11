@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハカドッグ",
+		'ja-jp': "ハカドッグ",
 		'zh-tw': "潤水鴨",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "普段は 墓場で 眠っている。 数いる 犬ポケモンの中でも もっとも 主に 忠実だ。",
+		'ja-jp': "普段は 墓場で 眠っている。 数いる 犬ポケモンの中でも もっとも 主に 忠実だ。",
 		'zh-tw': "很久以前從遠方來到了這裡棲息。羽毛分泌出的凝膠有防水和防污的效果。",
 	},
 
@@ -23,17 +23,17 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ほりだす",
+				'ja-jp': "ほりだす",
 				'zh-tw': "拍擊",
 			},
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分のトラッシュからグッズを2枚まで選び、相手に見せて、手札に加える。",
+				'ja-jp': "自分のトラッシュからグッズを2枚まで選び、相手に見せて、手札に加える。",
 			},
 		},
 		{
 			name: {
-				ja: "ホロウショット",
+				'ja-jp': "ホロウショット",
 				'zh-tw': "踢",
 			},
 			damage: 100,
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ボチ",
+		'ja-jp': "ボチ",
 	},
 
 	retreat: 3,

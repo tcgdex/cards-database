@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Fennekin",
-		fr: "Feunnec",
-		es: "Fennekin",
+		'en-us': "Fennekin",
+		'fr-fr': "Feunnec",
+		'es-es': "Fennekin",
 		'es-mx': "Fennekin",
-		de: "Fynx",
-		it: "Fennekin",
-		pt: "Fennekin"
+		'de-de': "Fynx",
+		'it-it': "Fennekin",
+		'pt-br': "Fennekin"
 	},
 
 	illustrator: "Saboteri",
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Scratch",
-			fr: "Griffe",
-			de: "Kratzer",
-			it: "Graffio",
-			es: "Arañazo",
-			pt: "Arranhão"
+			'en-us': "Scratch",
+			'fr-fr': "Griffe",
+			'de-de': "Kratzer",
+			'it-it': "Graffio",
+			'es-es': "Arañazo",
+			'pt-br': "Arranhão"
 		},
 
 		damage: 30

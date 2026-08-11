@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Amoonguss ex",
-		fr: "Gaulet-ex",
-		es: "Amoonguss ex",
-		de: "Hutsassa-ex",
-		it: "Amoonguss-ex",
-		pt: "Amoonguss ex",
+		'en-us': "Amoonguss ex",
+		'fr-fr': "Gaulet-ex",
+		'es-es': "Amoonguss ex",
+		'de-de': "Hutsassa-ex",
+		'it-it': "Amoonguss-ex",
+		'pt-br': "Amoonguss ex",
 		'es-mx': "Amoonguss ex"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 260,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Foongus",
-		fr: "Trompignon",
-		es: "Foongus",
-		de: "Tarnpignon",
-		it: "Foongus",
-		pt: "Foongus",
+		'en-us': "Foongus",
+		'fr-fr': "Trompignon",
+		'es-es': "Foongus",
+		'de-de': "Tarnpignon",
+		'it-it': "Foongus",
+		'pt-br': "Foongus",
 		'es-mx': "Foongus"
 	},
 	stage: "Stage1",
@@ -34,22 +34,22 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Spore Ball",
-			fr: "Boule de Spores",
-			es: "Bola Espora",
-			de: "Sporenbällchen",
-			it: "Pallaspore",
-			pt: "Bola de Esporos",
+			'en-us': "Spore Ball",
+			'fr-fr': "Boule de Spores",
+			'es-es': "Bola Espora",
+			'de-de': "Sporenbällchen",
+			'it-it': "Pallaspore",
+			'pt-br': "Bola de Esporos",
 			'es-mx': "Bola Esporífera"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
 			'es-mx': "El Pokémon Activo de tu rival ahora está Dormido."
 		},
 
@@ -58,22 +58,22 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Champignon's Swing",
-			fr: "Frappe Champignon",
-			es: "Golpe Champiñón",
-			de: "Champignonschwinger",
-			it: "Colpo Champignon",
-			pt: "Balanço do Champignon",
+			'en-us': "Champignon's Swing",
+			'fr-fr': "Frappe Champignon",
+			'es-es': "Golpe Champiñón",
+			'de-de': "Champignonschwinger",
+			'it-it': "Colpo Champignon",
+			'pt-br': "Balanço do Champignon",
 			'es-mx': "Champigolpe"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 80 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 80 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 80 puntos de daño más.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 80 Schadenspunkte mehr zu.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 80 danni in più.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 80 pontos de dano a mais.",
+			'en-us': "Flip a coin. If heads, this attack does 80 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 80 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 80 puntos de daño más.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 80 Schadenspunkte mehr zu.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 80 danni in più.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 80 pontos de dano a mais.",
 			'es-mx': "Lanza 1 moneda. Si sale cara, este ataque hace 80 puntos de daño más."
 		},
 

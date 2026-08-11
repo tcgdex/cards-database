@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Vespiquen",
-		fr: "Apireine",
-		es: "Vespiquen",
-		it: "Vespiquen",
-		pt: "Vespiquen",
-		de: "Honweisel"
+		'en-us': "Vespiquen",
+		'fr-fr': "Apireine",
+		'es-es': "Vespiquen",
+		'it-it': "Vespiquen",
+		'pt-br': "Vespiquen",
+		'de-de': "Honweisel"
 	},
 
 	illustrator: "chibi",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Combee",
-		fr: "Apitrini",
+		'en-us': "Combee",
+		'fr-fr': "Apitrini",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Commanding Queen",
-				fr: "Reine Imposante",
-				es: "Reina al Mando",
-				it: "Regina Condottiera",
-				pt: "Rainha Comandante",
-				de: "Herrschende Königin"
+				'en-us': "Commanding Queen",
+				'fr-fr': "Reine Imposante",
+				'es-es': "Reina al Mando",
+				'it-it': "Regina Condottiera",
+				'pt-br': "Rainha Comandante",
+				'de-de': "Herrschende Königin"
 			},
 			effect: {
-				en: "If you have 4 or fewer Grass Pokémon on your Bench, this attack does nothing.",
-				fr: "Si vous avez 4 Pokémon Grass ou moins sur votre Banc, cette attaque ne fait rien.",
-				es: "Si tienes 4 o menos Pokémon Grass en tu Banca, este ataque no hace nada.",
-				it: "Se hai quattro o meno Pokémon Grass in panchina, questo attacco non ha effetto.",
-				pt: "Se você tiver 4 ou menos Pokémon Grass no seu Banco, este ataque não fará nada.",
-				de: "Wenn du 4 oder weniger Grass-Pokémon auf deiner Bank hast, hat diese Attacke keine Auswirkungen."
+				'en-us': "If you have 4 or fewer Grass Pokémon on your Bench, this attack does nothing.",
+				'fr-fr': "Si vous avez 4 Pokémon Grass ou moins sur votre Banc, cette attaque ne fait rien.",
+				'es-es': "Si tienes 4 o menos Pokémon Grass en tu Banca, este ataque no hace nada.",
+				'it-it': "Se hai quattro o meno Pokémon Grass in panchina, questo attacco non ha effetto.",
+				'pt-br': "Se você tiver 4 ou menos Pokémon Grass no seu Banco, este ataque não fará nada.",
+				'de-de': "Wenn du 4 oder weniger Grass-Pokémon auf deiner Bank hast, hat diese Attacke keine Auswirkungen."
 			},
 			damage: 120,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its abdomen is a honeycomb for grubs. It raises its grubs on honey collected by Combee.",
+		'en-us': "Its abdomen is a honeycomb for grubs. It raises its grubs on honey collected by Combee.",
 	},
 
 	thirdParty: {

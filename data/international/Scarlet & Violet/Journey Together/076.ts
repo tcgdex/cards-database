@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cubone",
-		fr: "Osselait",
-		es: "Cubone",
-		de: "Tragosso",
-		it: "Cubone",
-		pt: "Cubone",
+		'en-us': "Cubone",
+		'fr-fr': "Osselait",
+		'es-es': "Cubone",
+		'de-de': "Tragosso",
+		'it-it': "Cubone",
+		'pt-br': "Cubone",
 		'es-mx': "Cubone"
 	},
 
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Stampede",
-			fr: "Ruée",
-			es: "Estampida",
-			de: "Zertrampeln",
-			it: "Fuggi Fuggi",
-			pt: "Estouro",
+			'en-us': "Stampede",
+			'fr-fr': "Ruée",
+			'es-es': "Estampida",
+			'de-de': "Zertrampeln",
+			'it-it': "Fuggi Fuggi",
+			'pt-br': "Estouro",
 			'es-mx': "Estampida"
 		},
 
@@ -39,12 +39,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Light Punch",
-			fr: "Poing Léger",
-			es: "Puño Ligero",
-			de: "Leichter Hieb",
-			it: "Pugnetto",
-			pt: "Soco de Luz",
+			'en-us': "Light Punch",
+			'fr-fr': "Poing Léger",
+			'es-es': "Puño Ligero",
+			'de-de': "Leichter Hieb",
+			'it-it': "Pugnetto",
+			'pt-br': "Soco de Luz",
 			'es-mx': "Puño Ligero"
 		},
 

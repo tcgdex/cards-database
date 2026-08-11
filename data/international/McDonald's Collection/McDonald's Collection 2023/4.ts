@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2023'
 
 const card: Card = {
 	name: {
-		en: "Cetoddle",
-		fr: "Piétacé",
-		es: "Cetoddle",
-		it: "Cetoddle",
-		pt: "Cetoddle",
-		de: "Flaniwal"
+		'en-us': "Cetoddle",
+		'fr-fr': "Piétacé",
+		'es-es': "Cetoddle",
+		'it-it': "Cetoddle",
+		'pt-br': "Cetoddle",
+		'de-de': "Flaniwal"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -28,14 +28,14 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				en: "Icicle",
+				'en-us': "Icicle",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				en: "Sharp Fin",
+				'en-us': "Sharp Fin",
 			},
 			damage: 50,
 		},

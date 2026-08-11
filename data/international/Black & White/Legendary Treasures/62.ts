@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Croagunk",
+		'en-us': "Croagunk",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Jab",
+				'en-us': "Poison Jab",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
+				'en-us': "The Defending Pokémon is now Poisoned.",
 			},
 			damage: 20,
 
@@ -50,7 +50,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",
+		'en-us': "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",
 	},
 
 	thirdParty: {

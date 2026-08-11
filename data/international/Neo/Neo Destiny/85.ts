@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Totodile",
-		fr: "Kaiminus",
-		de: "Karnimani"
+		'en-us': "Totodile",
+		'fr-fr': "Kaiminus",
+		'de-de': "Karnimani"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
-				de: "Water Gun"
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
+				'de-de': "Water Gun"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each Energy attached to Totodile but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Kaiminus en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
-				de: "Does 10 damage plus 10 more damage for each  Energy attached to Totodile but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+				'en-us': "Does 10 damage plus 10 more damage for each Energy attached to Totodile but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+				'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Kaiminus en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
+				'de-de': "Does 10 damage plus 10 more damage for each  Energy attached to Totodile but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
 			},
 			damage: "10+",
 
@@ -55,8 +55,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its highly developed jaws are powerful enough to crush anything. Even experienced adult trainers must handle it with great caution.",
-		fr: "Ses mâchoires surdéveloppées sont assez puissantes pour écraser n'importe quoi. Même les dresseurs adultes les plus expérimentés font très attention."
+		'en-us': "Its highly developed jaws are powerful enough to crush anything. Even experienced adult trainers must handle it with great caution.",
+		'fr-fr': "Ses mâchoires surdéveloppées sont assez puissantes pour écraser n'importe quoi. Même les dresseurs adultes les plus expérimentés font très attention."
 	},
 
 

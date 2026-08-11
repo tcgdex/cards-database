@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Lugia",
-		fr: "Lugia",
-		de: "Lugia"
+		'en-us': "Lugia",
+		'fr-fr': "Lugia",
+		'de-de': "Lugia"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Linear Attack",
-				fr: "Attaque linéaire",
-				de: "Linearer Angriff"
+				'en-us': "Linear Attack",
+				'fr-fr': "Attaque linéaire",
+				'de-de': "Linearer Angriff"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez l’un des Pokémon de votre adversaire. Cette attaque inflige 30 dégâts à ce Pokémon (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez l’un des Pokémon de votre adversaire. Cette attaque inflige 30 dégâts à ce Pokémon (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'de-de': "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -51,9 +51,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Splash",
-				fr: "Hydro-éclaboussure",
-				de: "Hydroplatscher"
+				'en-us': "Hydro Splash",
+				'fr-fr': "Hydro-éclaboussure",
+				'de-de': "Hydroplatscher"
 			},
 
 			damage: 80,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.",
+		'en-us': "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミュウツー",
+		'ja-jp': "ミュウツー",
 		'zh-tw': "超夢",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "ミュウの 遺伝子を 組み替えて 生み出された。 ポケモンで 一番 凶暴な 心を 持つという。",
+		'ja-jp': "ミュウの 遺伝子を 組み替えて 生み出された。 ポケモンで 一番 凶暴な 心を 持つという。",
 		'zh-tw': "藉著重組夢幻的基因而誕生。據說有著所有寶可夢中最殘暴的心。",
 	},
 
@@ -23,24 +23,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "サイコパンプ",
+				'ja-jp': "サイコパンプ",
 				'zh-tw': "精神充氣",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュから[P]エネルギーを2枚まで選び、自分のポケモン1匹につける。",
+				'ja-jp': "自分のトラッシュから[P]エネルギーを2枚まで選び、自分のポケモン1匹につける。",
 				'zh-tw': "從自己的棄牌區選擇最多2張【超】能量卡，附於自己的1隻寶可夢身上。",
 			},
 		},
 		{
 			name: {
-				ja: "リミットブレイク",
+				'ja-jp': "リミットブレイク",
 				'zh-tw': "界限破壞",
 			},
 			damage: "90+",
 			cost: ["Psychic", "Psychic", "Colorless"],
 			effect: {
-				ja: "相手のサイドの残り枚数が3枚以下なら、90ダメージ追加。",
+				'ja-jp': "相手のサイドの残り枚数が3枚以下なら、90ダメージ追加。",
 				'zh-tw': "若對手剩餘獎賞卡的張數為3張以下，則增加90點傷害。",
 			},
 		},

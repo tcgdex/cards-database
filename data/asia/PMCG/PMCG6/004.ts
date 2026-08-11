@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジョバンニのニドラン♂",
+		'ja-jp': "ジョバンニのニドラン♂",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ダブルキック",
+				'ja-jp': "ダブルキック",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "報復",
+				'ja-jp': "報復",
 			},
 			effect: {
-				ja: "GiovanniのNidoran Mに2つ以上のダメージカウンターがある場合を除き、この攻撃を使用することはできません。",
+				'ja-jp': "GiovanniのNidoran Mに2つ以上のダメージカウンターがある場合を除き、この攻撃を使用することはできません。",
 			},
 			damage: 30,
 		},

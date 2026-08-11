@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Clefable ex",
-		fr: "Mélodelfe ex",
-		de: "Pixi ex"
+		'en-us': "Clefable ex",
+		'fr-fr': "Mélodelfe ex",
+		'de-de': "Pixi ex"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Clefairy",
-		fr: "Mélofée"
+		'en-us': "Clefairy",
+		'fr-fr': "Mélofée"
 	},
 
 	suffix: "ex",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metronome",
-				fr: "Métronome",
-				de: "Metronome"
+				'en-us': "Metronome",
+				'fr-fr': "Métronome",
+				'de-de': "Metronome"
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon's attacks. Metronome copies that attack except for its Energy cost. (You must still do anything else in order to use that attack.) (No matter what type that Pokémon is, Clefable ex's type is still Colorless.) Clefable ex performs that attack. \"",
-				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Métronome copie cette attaque sans tenir compte du Coût en Énergie. (Vous devez tout de même respecter les autres étapes si vous voulez utiliser cette attaque.) (Peu importe le type du Pokémon Défenseur, le type de Mélodelfe ex reste .) C'est Mélodelfe ex qui utilise cette attaque.",
-				de: "Choose 1 of the Defending Pokémon's attacks. Metronome copies that attack except for its Energy cost. (You must still do anything else in order to use that attack.) (No matter what type that Pokémon is, Clefable ex's type is still .) Clefable ex performs that attack."
+				'en-us': "Choose 1 of the Defending Pokémon's attacks. Metronome copies that attack except for its Energy cost. (You must still do anything else in order to use that attack.) (No matter what type that Pokémon is, Clefable ex's type is still Colorless.) Clefable ex performs that attack. \"",
+				'fr-fr': "Choisissez 1 des attaques du Pokémon Défenseur. Métronome copie cette attaque sans tenir compte du Coût en Énergie. (Vous devez tout de même respecter les autres étapes si vous voulez utiliser cette attaque.) (Peu importe le type du Pokémon Défenseur, le type de Mélodelfe ex reste .) C'est Mélodelfe ex qui utilise cette attaque.",
+				'de-de': "Choose 1 of the Defending Pokémon's attacks. Metronome copies that attack except for its Energy cost. (You must still do anything else in order to use that attack.) (No matter what type that Pokémon is, Clefable ex's type is still .) Clefable ex performs that attack."
 			},
 
 		},
@@ -54,9 +54,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Moon Impact",
-				fr: "Impact lunaire",
-				de: "Moon Impact"
+				'en-us': "Moon Impact",
+				'fr-fr': "Impact lunaire",
+				'de-de': "Moon Impact"
 			},
 
 			damage: 40,

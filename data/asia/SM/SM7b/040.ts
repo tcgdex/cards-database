@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カプ・レヒレ",
+		'ja-jp': "カプ・レヒレ",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "水を 操る ポニの 守り神。 けがれを 払う 清らかな 水を 生みだすと 伝えられている。",
+		'ja-jp': "水を 操る ポニの 守り神。 けがれを 払う 清らかな 水を 生みだすと 伝えられている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ドリームアウェイ" },
 			cost: ["Fairy", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンと、ついているすべてのカードを、相手の山札にもどして切る。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンと、ついているすべてのカードを、相手の山札にもどして切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Fairy", "Fairy", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 	],

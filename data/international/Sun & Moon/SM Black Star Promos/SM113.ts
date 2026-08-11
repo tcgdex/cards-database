@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Ash's Pikachu",
-		fr: "Pikachu de Sacha",
+		'en-us': "Ash's Pikachu",
+		'fr-fr': "Pikachu de Sacha",
 	},
 	illustrator: "2017 Pikachu Project",
 	rarity: "Promo",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Iron Tail",
-				fr: "Queue de Fer",
+				'en-us': "Iron Tail",
+				'fr-fr': "Queue de Fer",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 20 damage for each heads.",
-				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip a coin until you get tails. This attack does 20 damage for each heads.",
+				'fr-fr': "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 20,
 
@@ -45,8 +45,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electro Ball",
-				fr: "Boule Élek",
+				'en-us': "Electro Ball",
+				'fr-fr': "Boule Élek",
 			},
 
 			damage: 50,
@@ -71,7 +71,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This form of Pikachu is somewhat rare. It wears the hat of its Trainer, who is also its partner.",
+		'en-us': "This form of Pikachu is somewhat rare. It wears the hat of its Trainer, who is also its partner.",
 	},
 }
 

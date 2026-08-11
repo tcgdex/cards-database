@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Toxel",
-		fr: "Toxizap",
-		es: "Toxel",
-		it: "Toxel",
-		pt: "Toxel",
-		de: "Toxel"
+		'en-us': "Toxel",
+		'fr-fr': "Toxizap",
+		'es-es': "Toxel",
+		'it-it': "Toxel",
+		'pt-br': "Toxel",
+		'de-de': "Toxel"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Mina Nakai",
 
 	description: {
-		en: "It manipulates the chemical makeup of its poison to produce electricity. The voltage is weak, but it can cause a tingling paralysis."
+		'en-us': "It manipulates the chemical makeup of its poison to produce electricity. The voltage is weak, but it can cause a tingling paralysis."
 	},
 
 	attacks: [{
 		cost: ["Lightning"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			de: "Ramme",
-			es: "Apisonar",
-			pt: "Aríete",
-			it: "Carica"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'de-de': "Ramme",
+			'es-es': "Apisonar",
+			'pt-br': "Aríete",
+			'it-it': "Carica"
 		},
 
 		damage: 20

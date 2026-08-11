@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドーミラー",
+		'ja-jp': "ドーミラー",
 	},
 
 	illustrator: "Nabatame Kazutaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "古い お墓から みつかる。 背中の 模様には 神秘的な 力が 宿っていると いわれる。",
+		'ja-jp': "古い お墓から みつかる。 背中の 模様には 神秘的な 力が 宿っていると いわれる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Metal", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、20ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、20ダメージ追加。",
 			},
 		},
 	],

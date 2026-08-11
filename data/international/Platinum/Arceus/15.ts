@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Cherrim",
-		de: "Kinoso"
+		'en-us': "Cherrim",
+		'de-de': "Kinoso"
 	},
 
 	illustrator: "Midori Harada",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cherubi"
+		'en-us': "Cherubi"
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Cloudy Sky",
-				de: "Bedeckter Himmel"
+				'en-us': "Cloudy Sky",
+				'de-de': "Bedeckter Himmel"
 			},
 			effect: {
-				en: "If any of your Grass Pokémon or Fire Pokémon would be damaged by an attack, reduce that damage by 10 (after applying Weakness and Resistance).",
-				de: "Schaden, der deinen - oder -Pokémon durch Angriffe zugefügt würde, wird um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "If any of your Grass Pokémon or Fire Pokémon would be damaged by an attack, reduce that damage by 10 (after applying Weakness and Resistance).",
+				'de-de': "Schaden, der deinen - oder -Pokémon durch Angriffe zugefügt würde, wird um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			}
 		},
 	],
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Worry Seed",
-				de: "Sorgensamen"
+				'en-us': "Worry Seed",
+				'de-de': "Sorgensamen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If it senses strong sunlight, it opens its folded petals to absorb the sun's rays with its whole body."
+		'en-us': "If it senses strong sunlight, it opens its folded petals to absorb the sun's rays with its whole body."
 	},
 
 	variants: [

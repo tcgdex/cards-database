@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Kyurem Hitam ex"
+		'id-id': "Kyurem Hitam ex"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -17,22 +17,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Ice Age"
+			'id-id': "Ice Age"
 		},
 
 		effect: {
-			id: "Jika Pokémon Bertarung lawan adalah Pokémon {Naga}, ubah kondisi Pokémon tersebut menjadi Lumpuh."
+			'id-id': "Jika Pokémon Bertarung lawan adalah Pokémon {Naga}, ubah kondisi Pokémon tersebut menjadi Lumpuh."
 		},
 
 		damage: 90,
 		cost: ["Colorless", "Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Black Frost"
+			'id-id': "Black Frost"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 30."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 30."
 		},
 
 		damage: 250,

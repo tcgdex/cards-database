@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴーリキー",
+		'ja-jp': "ゴーリキー",
 		'zh-tw': "豪力",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "強靭な 肉体と 持久力 兼ね備えし 剛の者。 鍛錬を 何より 好み 開墾 普請など 進んで 手伝う。",
+		'ja-jp': "強靭な 肉体と 持久力 兼ね備えし 剛の者。 鍛錬を 何より 好み 開墾 普請など 進んで 手伝う。",
 		'zh-tw': "兼具強健肉體與持久耐力的強者。熱愛鍛鍊，會主動 協助進行開墾、建築等工作。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かいりき",
+				'ja-jp': "かいりき",
 				'zh-tw': "怪力",
 			},
 			damage: 30,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ちきゅうなげ",
+				'ja-jp': "ちきゅうなげ",
 				'zh-tw': "地球上投",
 			},
 			damage: 50,
@@ -59,7 +59,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ワンリキー",
+		'ja-jp': "ワンリキー",
 	},
 
 	retreat: 2,

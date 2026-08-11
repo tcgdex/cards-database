@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Gribouraigne",
-		en: "Shroodle",
-		es: "Shroodle",
-		it: "Shroodle",
-		pt: "Shroodle",
-		de: "Sproxi"
+		'fr-fr': "Gribouraigne",
+		'en-us': "Shroodle",
+		'es-es': "Shroodle",
+		'it-it': "Shroodle",
+		'pt-br': "Shroodle",
+		'de-de': "Sproxi"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Recherche de Baies",
-			en: "Berry Search",
-			es: "Buscabayas",
-			it: "Cercabacche",
-			pt: "Busca de Fruta",
-			de: "Beerensuche"
+			'fr-fr': "Recherche de Baies",
+			'en-us': "Berry Search",
+			'es-es': "Buscabayas",
+			'it-it': "Cercabacche",
+			'pt-br': "Busca de Fruta",
+			'de-de': "Beerensuche"
 		},
 
 		effect: {
-			fr: "Ajoutez une carte Énergie de base de votre pile de défausse à votre main.",
-			en: "Put a Basic Energy card from your discard pile into your hand.",
-			es: "Pon 1 carta de Energía Básica de tu pila de descartes en tu mano.",
-			it: "Prendi una carta Energia base dalla tua pila degli scarti e aggiungila alle carte che hai in mano.",
-			pt: "Coloque uma carta de Energia Básica da sua pilha de descarte na sua mão.",
-			de: "Nimm 1 Basis-Energiekarte aus deinem Ablagestapel auf deine Hand."
+			'fr-fr': "Ajoutez une carte Énergie de base de votre pile de défausse à votre main.",
+			'en-us': "Put a Basic Energy card from your discard pile into your hand.",
+			'es-es': "Pon 1 carta de Energía Básica de tu pila de descartes en tu mano.",
+			'it-it': "Prendi una carta Energia base dalla tua pila degli scarti e aggiungila alle carte che hai in mano.",
+			'pt-br': "Coloque uma carta de Energia Básica da sua pilha de descarte na sua mão.",
+			'de-de': "Nimm 1 Basis-Energiekarte aus deinem Ablagestapel auf deine Hand."
 		}
 	}, {
 		cost: ["Darkness"],
 
 		name: {
-			fr: "Griffe",
-			en: "Scratch",
-			es: "Arañazo",
-			it: "Graffio",
-			pt: "Arranhão",
-			de: "Kratzer"
+			'fr-fr': "Griffe",
+			'en-us': "Scratch",
+			'es-es': "Arañazo",
+			'it-it': "Graffio",
+			'pt-br': "Arranhão",
+			'de-de': "Kratzer"
 		},
 
 		damage: 10
@@ -86,7 +86,7 @@ const card: Card = {
 	illustrator: "Akira Komayama",
 
 	description: {
-		en: "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.",
+		'en-us': "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.",
 	},
 }
 

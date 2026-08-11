@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Hoopa EX",
-		fr: "Hoopa EX",
+		'en-us': "Hoopa EX",
+		'fr-fr': "Hoopa EX",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hyperspace Ring",
-				fr: "Anneau Hyperespace",
+				'en-us': "Hyperspace Ring",
+				'fr-fr': "Anneau Hyperespace",
 			},
 			effect: {
-				en: "Search your deck for up to 2 Item cards, reveal them, and put them into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez jusqu'à 2 cartes Objet dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for up to 2 Item cards, reveal them, and put them into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez jusqu'à 2 cartes Objet dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -46,12 +46,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Wonder Trick",
-				fr: "Astuce Merveilleuse"
+				'en-us': "Wonder Trick",
+				'fr-fr': "Astuce Merveilleuse"
 			},
 			effect: {
-				en: "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc."
+				'en-us': "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc."
 			},
 			damage: 100,
 

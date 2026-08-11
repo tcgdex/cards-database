@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Manectric",
-		fr: "Élecsprint",
-		es: "Manectric",
-		it: "Manectric",
-		pt: "Manectric",
-		de: "Voltenso"
+		'en-us': "Manectric",
+		'fr-fr': "Élecsprint",
+		'es-es': "Manectric",
+		'it-it': "Manectric",
+		'pt-br': "Manectric",
+		'de-de': "Voltenso"
 	},
 
 	illustrator: "GIDORA",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Electrike",
-		fr: "Dynavolt",
-		es: "Electrike",
-		it: "Electrike",
-		pt: "Electrike",
-		de: "Frizelbliz"
+		'en-us': "Electrike",
+		'fr-fr': "Dynavolt",
+		'es-es': "Electrike",
+		'it-it': "Electrike",
+		'pt-br': "Electrike",
+		'de-de': "Frizelbliz"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			es: "Mordisco",
-			it: "Morso",
-			pt: "Mordida",
-			de: "Biss"
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'es-es': "Mordisco",
+			'it-it': "Morso",
+			'pt-br': "Mordida",
+			'de-de': "Biss"
 		},
 
 		damage: 50
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			en: "Assault Laser",
-			fr: "Laser d'Assaut",
-			es: "Láser de Asalto",
-			it: "Laserassalto",
-			pt: "Laser de Ataque",
-			de: "Offensiv-Laser"
+			'en-us': "Assault Laser",
+			'fr-fr': "Laser d'Assaut",
+			'es-es': "Láser de Asalto",
+			'it-it': "Laserassalto",
+			'pt-br': "Laser de Ataque",
+			'de-de': "Offensiv-Laser"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon has a Pokémon Tool attached, this attack does 80 more damage.",
-			fr: "Si un Outil Pokémon est attaché au Pokémon Actif de votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
-			es: "Si el Pokémon Activo de tu rival tiene 1 Herramienta Pokémon unida a él, este ataque hace 80 puntos de daño más.",
-			it: "Se il Pokémon attivo del tuo avversario ha una carta Oggetto Pokémon assegnata, questo attacco infligge 80 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente tiver 1 Ferramenta Pokémon ligada a ele, este ataque causará 80 pontos de dano a mais.",
-			de: "Wenn an das Aktive Pokémon deines Gegners eine Pokémon-Ausrüstung angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
+			'en-us': "If your opponent's Active Pokémon has a Pokémon Tool attached, this attack does 80 more damage.",
+			'fr-fr': "Si un Outil Pokémon est attaché au Pokémon Actif de votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
+			'es-es': "Si el Pokémon Activo de tu rival tiene 1 Herramienta Pokémon unida a él, este ataque hace 80 puntos de daño más.",
+			'it-it': "Se il Pokémon attivo del tuo avversario ha una carta Oggetto Pokémon assegnata, questo attacco infligge 80 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente tiver 1 Ferramenta Pokémon ligada a ele, este ataque causará 80 pontos de dano a mais.",
+			'de-de': "Wenn an das Aktive Pokémon deines Gegners eine Pokémon-Ausrüstung angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+"

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Bulbasaur",
-		fr: "Bulbizarre",
-		de: "Bisasam"
+		'en-us': "Bulbasaur",
+		'fr-fr': "Bulbizarre",
+		'de-de': "Bisasam"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Growth",
-				fr: "Croissance",
-				de: "Growth"
+				'en-us': "Growth",
+				'fr-fr': "Croissance",
+				'de-de': "Growth"
 			},
 			effect: {
-				en: "Attach a Grass Energy card from your hand to Bulbasaur.",
-				fr: "Attachez une carte Énergie  de votre main à Bulbizarre.",
-				de: "Attach a  Energy card from your hand to Bulbasaur."
+				'en-us': "Attach a Grass Energy card from your hand to Bulbasaur.",
+				'fr-fr': "Attachez une carte Énergie  de votre main à Bulbizarre.",
+				'de-de': "Attach a  Energy card from your hand to Bulbasaur."
 			},
 
 		},
@@ -45,9 +45,9 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'herbe",
-				de: "Razor Leaf"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'herbe",
+				'de-de': "Razor Leaf"
 			},
 
 			damage: 10,

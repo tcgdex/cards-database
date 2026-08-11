@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Lilligant",
-		fr: "Fragilady",
-		es: "Lilligant",
-		it: "Lilligant",
-		pt: "Lilligant",
-		de: "Dressella"
+		'en-us': "Lilligant",
+		'fr-fr': "Fragilady",
+		'es-es': "Lilligant",
+		'it-it': "Lilligant",
+		'pt-br': "Lilligant",
+		'de-de': "Dressella"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Petilil",
-		fr: "Chlorobule",
+		'en-us': "Petilil",
+		'fr-fr': "Chlorobule",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Aromax",
-				fr: "Parfum Régénérant",
+				'en-us': "Aromax",
+				'fr-fr': "Parfum Régénérant",
 			},
 			effect: {
-				en: "Heal all damage from 1 of your Benched Pokémon.",
-				fr: "Soignez tous les dégâts de l'un de vos Pokémon de Banc.",
+				'en-us': "Heal all damage from 1 of your Benched Pokémon.",
+				'fr-fr': "Soignez tous les dégâts de l'un de vos Pokémon de Banc.",
 			},
 
 		},
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Windmill",
-				fr: "Moulin à Vent",
+				'en-us': "Windmill",
+				'fr-fr': "Moulin à Vent",
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
 			},
 			damage: 30,
 
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The fragrance of the garland on its head has a relaxing effect. It withers if a Trainer does not take good care of it.",
+		'en-us': "The fragrance of the garland on its head has a relaxing effect. It withers if a Trainer does not take good care of it.",
 	},
 
 	thirdParty: {

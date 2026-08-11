@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [1017],
 
 	name: {
-		en: "Cornerstone Mask Ogerpon"
+		'en-us': "Cornerstone Mask Ogerpon"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "In this form, it draws on the power of stone.\nIts body is rock-solid, protecting it from all\nmanner of attacks."
+		'en-us': "In this form, it draws on the power of stone.\nIts body is rock-solid, protecting it from all\nmanner of attacks."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Cornerstone Dance"
+			'en-us': "Cornerstone Dance"
 		},
 
 		damage: 40,
 		cost: ["Fighting", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, during your opponent's next turn, this Pokémon takes −100 damage from attacks."
+			'en-us': "Flip a coin. If heads, during your opponent's next turn, this Pokémon takes −100 damage from attacks."
 		}
 	}],
 

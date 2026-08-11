@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サンダーマウンテン",
+		'ja-jp': "サンダーマウンテン",
 	},
 
 	illustrator: "5ban Graphics",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいの場の[雷]ポケモンが使うワザに必要なエネルギーは、それぞれ[雷]エネルギー1個ぶん少なくなる。このスタジアムは、場に出ているかぎり、おたがいのプレイヤーが手札からグッズまたはサポートを出して使ったとき、その効果を受けない。",
+		'ja-jp': "おたがいの場の[雷]ポケモンが使うワザに必要なエネルギーは、それぞれ[雷]エネルギー1個ぶん少なくなる。このスタジアムは、場に出ているかぎり、おたがいのプレイヤーが手札からグッズまたはサポートを出して使ったとき、その効果を受けない。",
 	},
 
 	variants: [

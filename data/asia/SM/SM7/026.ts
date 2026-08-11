@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホエルオー",
+		'ja-jp': "ホエルオー",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "とにかく どでかいので 人気。 ホエルオーウォッチングは 各地で 人気の 観光プラン なのだ。",
+		'ja-jp': "とにかく どでかいので 人気。 ホエルオーウォッチングは 各地で 人気の 観光プラン なのだ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ひきしお 200-" },
 			cost: ["Water", "Water", "Water", "Water"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数x40ダメージぶん、このワザのダメージは小さくなる。",
+				'ja-jp': "このポケモンにのっているダメカンの数x40ダメージぶん、このワザのダメージは小さくなる。",
 			},
 		},
 	],
@@ -41,7 +41,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ホエルコ",
+		'ja-jp': "ホエルコ",
 	},
 
 	retreat: 4,

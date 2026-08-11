@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2022'
 
 const card: Card = {
 	name: {
-		en: "Victini",
-		fr: "Victini",
-		es: "Victini",
-		it: "Victini",
-		pt: "Victini",
-		de: "Victini"
+		'en-us': "Victini",
+		'fr-fr': "Victini",
+		'es-es': "Victini",
+		'it-it': "Victini",
+		'pt-br': "Victini",
+		'de-de': "Victini"
 	},
 
 	illustrator: "Teeziro",
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			cost: ["Fire"],
 			name: {
-				en: "Victory Dive",
+				'en-us': "Victory Dive",
 			},
 			effect: {
-				en: "You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck."
+				'en-us': "You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck."
 			},
 			damage: 30,
 		},

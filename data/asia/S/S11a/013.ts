@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウインディ",
+		'ja-jp': "ウインディ",
 		'zh-tw': "風速狗",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "一昼夜で １００００キロの 距離を 駆けぬける 姿は 多くの 人を 魅了してきた。",
+		'ja-jp': "一昼夜で １００００キロの 距離を 駆けぬける 姿は 多くの 人を 魅了してきた。",
 		'zh-tw': "只需要一晝夜時間就能跑完１００００公里的身影令許多人為之沉醉。",
 	},
 
@@ -23,25 +23,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ほのおをまとう",
+				'ja-jp': "ほのおをまとう",
 				'zh-tw': "火焰纏身",
 			},
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュから[R]エネルギーを1枚選び、このポケモンにつける。",
+				'ja-jp': "自分のトラッシュから[R]エネルギーを1枚選び、このポケモンにつける。",
 				'zh-tw': "從自己的棄牌區選擇1張【火】能量卡，附於這隻寶可夢身上。",
 			},
 		},
 		{
 			name: {
-				ja: "とうしのタックル",
+				'ja-jp': "とうしのタックル",
 				'zh-tw': "鬥志衝撞",
 			},
 			damage: "100+",
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが「ポケモンV」なら、100ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが「ポケモンV」なら、100ダメージ追加。",
 				'zh-tw': "若對手的戰鬥寶可夢為「寶可夢【V】」，則增加100點傷害。",
 			},
 		},
@@ -68,7 +68,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ガーディ",
+		'ja-jp': "ガーディ",
 	},
 
 	retreat: 3,

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Nintendo Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Jirachi",
+		'en-us': "Jirachi",
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "The Third Eye",
+				'en-us': "The Third Eye",
 			},
 			effect: {
-				en: "Discard an Energy card attached to Jirachi and draw 3 cards.",
+				'en-us': "Discard an Energy card attached to Jirachi and draw 3 cards.",
 			},
 
 		},
@@ -39,10 +39,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psywave",
+				'en-us': "Psywave",
 			},
 			effect: {
-				en: "Does 10 damage times the amount of Energy attached to the Defending Pokémon.",
+				'en-us': "Does 10 damage times the amount of Energy attached to the Defending Pokémon.",
 			},
 			damage: 10,
 

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2012'
 
 const card: Card = {
@@ -9,33 +9,33 @@ const card: Card = {
 	dexId: [511],
 
 	description: {
-		en: "This Pokémon dwells deep in the forest. Eating a leaf from its head whisks weariness away as if by magic."
+		'en-us': "This Pokémon dwells deep in the forest. Eating a leaf from its head whisks weariness away as if by magic."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Collect",
-			fr: "Collecte"
+			'en-us': "Collect",
+			'fr-fr': "Collecte"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte."
 		}
 	}, {
 		name: {
-			en: "Scratch",
-			fr: "Griffe"
+			'en-us': "Scratch",
+			'fr-fr': "Griffe"
 		},
 
 		damage: 20
 	}],
 
 	name: {
-		en: "Pansage",
-		fr: "Feuillajou"
+		'en-us': "Pansage",
+		'fr-fr': "Feuillajou"
 	},
 
 	rarity: "None",

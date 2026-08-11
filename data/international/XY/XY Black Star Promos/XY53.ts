@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Sceptile EX",
-		fr: "Jungko EX",
+		'en-us': "Sceptile EX",
+		'fr-fr': "Jungko EX",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Agility",
-				fr: "Hâte",
+				'en-us': "Agility",
+				'fr-fr': "Hâte",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
+				'en-us': "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
 			},
 			damage: 20,
 
@@ -47,12 +47,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Strong Slash",
-				fr: "Tranch'Intense",
+				'en-us': "Strong Slash",
+				'fr-fr': "Tranch'Intense",
 			},
 			effect: {
-				en: "This Pokémon can't use Strong Slash during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Tranch'Intense pendant votre prochain tour.",
+				'en-us': "This Pokémon can't use Strong Slash during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Tranch'Intense pendant votre prochain tour.",
 			},
 			damage: 130,
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Minun",
-		fr: "Negapi",
-		de: "Minun"
+		'en-us': "Minun",
+		'fr-fr': "Negapi",
+		'de-de': "Minun"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Minus Energy",
-				fr: "Énergie moins",
-				de: "Minus Energy"
+				'en-us': "Minus Energy",
+				'fr-fr': "Énergie moins",
+				'de-de': "Minus Energy"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 Energy attached to the Defending Pokémon. Your opponent returns that card to his or her hand.",
-				fr: "Lancez une pièce. Si c'est face, choisissez 1 Énergie attachée au Pokémon Défenseur. Votre adversaire replace cette carte dans sa main.",
-				de: "Flip a coin. If heads, choose 1 Energy attached to the Defending Pokémon. Your opponent returns that card to his or her hand."
+				'en-us': "Flip a coin. If heads, choose 1 Energy attached to the Defending Pokémon. Your opponent returns that card to his or her hand.",
+				'fr-fr': "Lancez une pièce. Si c'est face, choisissez 1 Énergie attachée au Pokémon Défenseur. Votre adversaire replace cette carte dans sa main.",
+				'de-de': "Flip a coin. If heads, choose 1 Energy attached to the Defending Pokémon. Your opponent returns that card to his or her hand."
 			},
 			damage: 10,
 
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thundershock",
-				fr: "Éclair",
-				de: "Thundershock"
+				'en-us': "Thundershock",
+				'fr-fr': "Éclair",
+				'de-de': "Thundershock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 

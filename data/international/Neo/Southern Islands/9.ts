@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Southern Islands'
 
 const card: Card = {
 	name: {
-		en: "Butterfree",
+		'en-us': "Butterfree",
 	},
 
 	illustrator: "Keiko Fukuyama",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Metapod",
+		'en-us': "Metapod",
 	},
 
 	stage: "Stage2",
@@ -35,10 +35,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fly",
+				'en-us': "Fly",
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Butterfree. If tails, this attack does nothing (not even damage).",
+				'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Butterfree. If tails, this attack does nothing (not even damage).",
 			},
 			damage: 30,
 
@@ -50,10 +50,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rainbow Powder",
+				'en-us': "Rainbow Powder",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Poisoned.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, the Defending Pokémon is now Poisoned.",
 			},
 			damage: 20,
 
@@ -77,7 +77,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The poison scales on its wings are waterproof, allowing this Pokémon to be active even on rainy days.",
+		'en-us': "The poison scales on its wings are waterproof, allowing this Pokémon to be active even on rainy days.",
 	},
 
 	variants: [

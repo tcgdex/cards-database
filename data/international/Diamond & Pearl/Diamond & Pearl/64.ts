@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Staravia",
-		fr: "Etourvol",
-		de: "Staravia"
+		'en-us': "Staravia",
+		'fr-fr': "Etourvol",
+		'de-de': "Staravia"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Starly",
-		fr: "Etourmi",
+		'en-us': "Starly",
+		'fr-fr': "Etourmi",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlwind",
-				fr: "Cyclone",
-				de: "Wirbelwind"
+				'en-us': "Whirlwind",
+				'fr-fr': "Cyclone",
+				'de-de': "Wirbelwind"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
-				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
+				'de-de': "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 20,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Clutch",
-				fr: "Serre",
-				de: "Greifer"
+				'en-us': "Clutch",
+				'fr-fr': "Serre",
+				'de-de': "Greifer"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
-				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				'de-de': "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 20,
 
@@ -84,8 +84,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It flies around forests and fields in search of bug Pokémon. It stays within a huge flock.",
-		fr: "Il survole les forêts et les champs en quête de Pokémon Insecte. Ils forment de grandes volées."
+		'en-us': "It flies around forests and fields in search of bug Pokémon. It stays within a huge flock.",
+		'fr-fr': "Il survole les forêts et les champs en quête de Pokémon Insecte. Ils forment de grandes volées."
 	},
 
 	thirdParty: {

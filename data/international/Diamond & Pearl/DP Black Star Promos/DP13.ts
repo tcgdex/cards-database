@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../DP Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Buizel",
-		de: "Bamelin"
+		'en-us': "Buizel",
+		'de-de': "Bamelin"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -34,25 +34,25 @@ const card: Card = {
 
 
 	effect: {
-		en: "If Buizel has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage.",
+		'en-us': "If Buizel has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage.",
 	},
 
 	attacks: [{
 		name: {
-			de: "Herumspritzen"
+			'de-de': "Herumspritzen"
 		},
 
 		damage: "10+",
 
 		effect: {
-			de: "Wenn an das Verteidigende Pokémon mehr Energie angelegt ist als an Bamelin, fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+			'de-de': "Wenn an das Verteidigende Pokémon mehr Energie angelegt ist als an Bamelin, fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 		},
 
 		cost: ["Water"]
 	}],
 
 	description: {
-		en: "It has a flotation sac that is like an inflatable collar. It floats on water with its head out.",
+		'en-us': "It has a flotation sac that is like an inflatable collar. It floats on water with its head out.",
 	},
 
 	variants: [

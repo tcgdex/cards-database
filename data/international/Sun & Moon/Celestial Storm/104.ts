@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Bagon",
-		fr: "Draby",
-		es: "Bagon",
-		it: "Bagon",
-		pt: "Bagon",
-		de: "Kindwurm"
+		'en-us': "Bagon",
+		'fr-fr': "Draby",
+		'es-es': "Bagon",
+		'it-it': "Bagon",
+		'pt-br': "Bagon",
+		'de-de': "Kindwurm"
 	},
 
 	illustrator: "sui",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reckless Charge",
-				fr: "Attaque Imprudente",
-				es: "Carga Descuidada",
-				it: "Carica Avventata",
-				pt: "Carga Indomável",
-				de: "Waghalsiger Sturmangriff"
+				'en-us': "Reckless Charge",
+				'fr-fr': "Attaque Imprudente",
+				'es-es': "Carga Descuidada",
+				'it-it': "Carica Avventata",
+				'pt-br': "Carga Indomável",
+				'de-de': "Waghalsiger Sturmangriff"
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s’inflige 10 dégâts.",
-				es: "Este Pokémon se hace 10 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 10 danni a se stesso.",
-				pt: "Este Pokémon causa 10 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "This Pokémon does 10 damage to itself.",
+				'fr-fr': "Ce Pokémon s’inflige 10 dégâts.",
+				'es-es': "Este Pokémon se hace 10 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 10 danni a se stesso.",
+				'pt-br': "Este Pokémon causa 10 pontos de dano a si mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 40,
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "With its steel-hard stone head, it headbutts indiscriminately. This is because of the stress it feels at being unable to fly.",
+		'en-us': "With its steel-hard stone head, it headbutts indiscriminately. This is because of the stress it feels at being unable to fly.",
 	},
 
 	thirdParty: {

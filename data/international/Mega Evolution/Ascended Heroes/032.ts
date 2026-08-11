@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "N's Darumaka",
-		fr: "Darumarond de N",
-		es: "Darumaka de N",
+		'en-us': "N's Darumaka",
+		'fr-fr': "Darumarond de N",
+		'es-es': "Darumaka de N",
 		'es-mx': "Darumaka de N",
-		de: "Ns Flampion",
-		it: "Darumaka di N",
-		pt: "Darumaka do N"
+		'de-de': "Ns Flampion",
+		'it-it': "Darumaka di N",
+		'pt-br': "Darumaka do N"
 	},
 
 	illustrator: "Gemi",
@@ -25,13 +25,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Rolling Tackle",
-			fr: "Roulé-Boulé",
-			es: "Placaje Giro",
+			'en-us': "Rolling Tackle",
+			'fr-fr': "Roulé-Boulé",
+			'es-es': "Placaje Giro",
 			'es-mx': "Tacleada Rodante",
-			de: "Rolltackle",
-			it: "Rollazione",
-			pt: "Golpe de Colisão Rolante"
+			'de-de': "Rolltackle",
+			'it-it': "Rollazione",
+			'pt-br': "Golpe de Colisão Rolante"
 		},
 
 		damage: 20
@@ -39,13 +39,13 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Flare",
-			fr: "Flamboiement",
-			es: "Llama",
+			'en-us': "Flare",
+			'fr-fr': "Flamboiement",
+			'es-es': "Llama",
 			'es-mx': "Llama",
-			de: "Flackern",
-			it: "Fiammata",
-			pt: "Chama"
+			'de-de': "Flackern",
+			'it-it': "Fiammata",
+			'pt-br': "Chama"
 		},
 
 		damage: 50
@@ -61,7 +61,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "This popular symbol of good fortune will never fall over in its sleep, no matter how it’s pushed or pulled.",
+		'en-us': "This popular symbol of good fortune will never fall over in its sleep, no matter how it’s pushed or pulled.",
 	},
 
 	variants: [

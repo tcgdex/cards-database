@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Bulbasaur",
-		fr: "Bulbizarre",
-		de: "Bisasam"
+		'en-us': "Bulbasaur",
+		'fr-fr': "Bulbizarre",
+		'de-de': "Bisasam"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Charge",
-				de: "Ram"
+				'en-us': "Ram",
+				'fr-fr': "Charge",
+				'de-de': "Ram"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Gouge",
-				fr: "Griffes rétractiles",
-				de: "Gouge"
+				'en-us': "Gouge",
+				'fr-fr': "Griffes rétractiles",
+				'de-de': "Gouge"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
 			},
 			damage: "20+",
 

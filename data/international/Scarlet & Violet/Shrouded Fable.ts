@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Scarlet & Violet'
 
 const set: Set = {
 	id: "sv06.5",
 
 	name: {
-		de: "Nebel der Sagen",
-		en: "Shrouded Fable",
-		es: "Fabula Sombría",
-		fr: "Fable Nébuleuse",
-		it: "Segreto Fiabesco",
-		pt: "Fábulas Nebulosas"
+		'de-de': "Nebel der Sagen",
+		'en-us': "Shrouded Fable",
+		'es-es': "Fabula Sombría",
+		'fr-fr': "Fable Nébuleuse",
+		'it-it': "Segreto Fiabesco",
+		'pt-br': "Fábulas Nebulosas"
 	},
 
 	serie: serie,
@@ -23,7 +23,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "SFA",
-		fr: "FNE"
+		'fr-fr': "FNE"
 	},
 
 	thirdParty: {

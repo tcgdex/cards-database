@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Bellibolt"
+		'id-id': "Bellibolt"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Dengan memanjangkan dan memendekkan tubuhnya yang bergelambir, pusar dinamo Bellibolt menghasilkan energi listrik yang besar."
+		'id-id': "Dengan memanjangkan dan memendekkan tubuhnya yang bergelambir, pusar dinamo Bellibolt menghasilkan energi listrik yang besar."
 	},
 
 	stage: "Stage1",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Isolator"
+			'id-id': "Isolator"
 		},
 
 		effect: {
-			id: "Pokémon ini tidak menerima kerusakan akibat serangan dari Pokémon {Listrik} lawan."
+			'id-id': "Pokémon ini tidak menerima kerusakan akibat serangan dari Pokémon {Listrik} lawan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Thunder Edge"
+			'id-id': "Thunder Edge"
 		},
 
 		effect: {
-			id: "Kerusakan akibat serangan ini tidak terpengaruh oleh efek yang sedang dialami Pokémon Bertarung lawan."
+			'id-id': "Kerusakan akibat serangan ini tidak terpengaruh oleh efek yang sedang dialami Pokémon Bertarung lawan."
 		},
 
 		damage: 100,

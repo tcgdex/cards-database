@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カメテテ",
+		'ja-jp': "カメテテ",
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "２匹の カメテテが ひとつの 岩で 暮らす。 ケンカすると どちらかが ほかの 岩に 移る。",
+		'ja-jp': "２匹の カメテテが ひとつの 岩で 暮らす。 ケンカすると どちらかが ほかの 岩に 移る。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ダブルドロー" },
 			cost: ["Fighting"],
 			effect: {
-				ja: "自分の山札を2枚引く。",
+				'ja-jp': "自分の山札を2枚引く。",
 			},
 		},
 		{

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラニャース",
+		'ja-jp': "アローラニャース",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "高いプライドを 傷つけられたり 額の 小判を 汚されると 狂ったような ヒステリーを 起こす。",
+		'ja-jp': "高いプライドを 傷つけられたり 額の 小判を 汚されると 狂ったような ヒステリーを 起こす。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: [],
 			effect: {
-				ja: "後攻プレイヤーの最初の番なら、60ダメージ追加。",
+				'ja-jp': "後攻プレイヤーの最初の番なら、60ダメージ追加。",
 			},
 		},
 	],

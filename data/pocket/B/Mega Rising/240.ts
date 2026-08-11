@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Makuhita"
+		'en-us': "Makuhita"
 	},
 
 	illustrator: "Koji Nakata",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It toughens up by slamming into thick trees\nover and over. It gains a sturdy body and\ndauntless spirit."
+		'en-us': "It toughens up by slamming into thick trees\nover and over. It gains a sturdy body and\ndauntless spirit."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Lunge Out"
+			'en-us': "Lunge Out"
 		},
 
 		damage: 50,

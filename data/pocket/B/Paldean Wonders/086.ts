@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Electric Generator",
-		fr: "Générateur Électrique",
-		es: "Generador Eléctrico",
-		it: "Generatore di Elettricità",
-		pt: "Gerador Elétrico",
-		de: "Elektrischer Generator"
+		'en-us': "Electric Generator",
+		'fr-fr': "Générateur Électrique",
+		'es-es': "Generador Eléctrico",
+		'it-it': "Generatore di Elettricità",
+		'pt-br': "Gerador Elétrico",
+		'de-de': "Elektrischer Generator"
   },
   illustrator: "Toyste Beach",
   rarity: "Two Diamond",

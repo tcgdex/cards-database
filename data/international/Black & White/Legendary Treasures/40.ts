@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Tympole",
+		'en-us': "Tympole",
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vibration",
+				'en-us': "Vibration",
 			},
 
 			damage: 10,
@@ -41,7 +41,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud Shot",
+				'en-us': "Mud Shot",
 			},
 
 			damage: 20,
@@ -59,7 +59,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "By vibrating its cheeks, it emits sound waves imperceptible to humans. It uses the rhythm of these sounds to talk.",
+		'en-us': "By vibrating its cheeks, it emits sound waves imperceptible to humans. It uses the rhythm of these sounds to talk.",
 	},
 
 	thirdParty: {

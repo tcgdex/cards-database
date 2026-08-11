@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モスノウ",
+		'ja-jp': "モスノウ",
 	},
 
 	illustrator: "aoki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "野山を 荒らすものには 容赦 しない。 冷たいはねで 飛びまわり 吹雪を 起こして 懲らしめる。",
+		'ja-jp': "野山を 荒らすものには 容赦 しない。 冷たいはねで 飛びまわり 吹雪を 起こして 懲らしめる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ひょうせつのまい" },
 			effect: {
-				ja: "自分の番に何回でも使える。自分の手札から[水]エネルギーを1枚選び、ベンチの[水]ポケモンにつける。",
+				'ja-jp': "自分の番に何回でも使える。自分の手札から[水]エネルギーを1枚選び、ベンチの[水]ポケモンにつける。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ユキハミ",
+		'ja-jp': "ユキハミ",
 	},
 
 	retreat: 2,

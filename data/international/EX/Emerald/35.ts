@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Loudred",
-		fr: "Ramboum",
-		de: "Krakeelo"
+		'en-us': "Loudred",
+		'fr-fr': "Ramboum",
+		'de-de': "Krakeelo"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Whismur",
-		fr: "Chuchmur"
+		'en-us': "Whismur",
+		'fr-fr': "Chuchmur"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam",
-				fr: "Plaquage",
-				de: "Body Slam"
+				'en-us': "Body Slam",
+				'fr-fr': "Plaquage",
+				'de-de': "Body Slam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-edge",
-				fr: "Damoclès",
-				de: "Double-edge"
+				'en-us': "Double-edge",
+				'fr-fr': "Damoclès",
+				'de-de': "Double-edge"
 			},
 			effect: {
-				en: "Loudred does 10 damage to itself.",
-				fr: "Ramboum s'inflige 10 dégâts.",
-				de: "Loudred does 10 damage to itself."
+				'en-us': "Loudred does 10 damage to itself.",
+				'fr-fr': "Ramboum s'inflige 10 dégâts.",
+				'de-de': "Loudred does 10 damage to itself."
 			},
 			damage: 50,
 

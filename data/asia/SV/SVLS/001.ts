@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVLS"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ロコン"
+		'ja-jp': "ロコン"
 	},
 
 	illustrator: "Narumi Sato",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "温かい ６本の 尻尾は 体が 育つごとに 毛並みが 良くなり 美しく なっていく。"
+		'ja-jp': "温かい ６本の 尻尾は 体が 育つごとに 毛並みが 良くなり 美しく なっていく。"
 	},
 
 	stage: "Basic",
@@ -24,13 +24,13 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "とっしん"
+			'ja-jp': "とっしん"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "このポケモンにも10ダメージ。"
+			'ja-jp': "このポケモンにも10ダメージ。"
 		}
 	}],
 

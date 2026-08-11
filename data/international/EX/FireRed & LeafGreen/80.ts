@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Slowpoke",
-		fr: "Ramoloss",
-		de: "Flegmon"
+		'en-us': "Slowpoke",
+		'fr-fr': "Ramoloss",
+		'de-de': "Flegmon"
 	},
 
 	illustrator: "Yuka Morii",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confusion Wave",
-				fr: "Vague de confusion",
-				de: "Confusing Wave"
+				'en-us': "Confusion Wave",
+				'fr-fr': "Vague de confusion",
+				'de-de': "Confusing Wave"
 			},
 			effect: {
-				en: "Both Slowpoke and the Defending Pokémon are now Confused.",
-				fr: "Ramoloss et le Pokémon Défenseur sont maintenant Confus.",
-				de: "Both Slowpoke and the Defending Pokémon are now Confused"
+				'en-us': "Both Slowpoke and the Defending Pokémon are now Confused.",
+				'fr-fr': "Ramoloss et le Pokémon Défenseur sont maintenant Confus.",
+				'de-de': "Both Slowpoke and the Defending Pokémon are now Confused"
 			},
 
 		},

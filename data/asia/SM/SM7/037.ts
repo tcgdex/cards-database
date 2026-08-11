@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オドリドリ",
+		'ja-jp': "オドリドリ",
 	},
 
 	illustrator: "Sekio",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "羽毛を こすり合わせ 帯電。 踊るように 敵に 近づき 電撃パンチを お見舞いするぞ。",
+		'ja-jp': "羽毛を こすり合わせ 帯電。 踊るように 敵に 近づき 電撃パンチを お見舞いするぞ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "びりびりポンポン" },
 			cost: ["Lightning"],
 			effect: {
-				ja: "おたがいの場の「ポケモンGX・EX」全員に、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "おたがいの場の「ポケモンGX・EX」全員に、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{

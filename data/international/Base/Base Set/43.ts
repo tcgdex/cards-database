@@ -1,13 +1,13 @@
 
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Abra",
-		fr: "Abra",
-		de: "Abra",
-		it: "Abra"
+		'en-us': "Abra",
+		'fr-fr': "Abra",
+		'de-de': "Abra",
+		'it-it': "Abra"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -33,16 +33,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psyshock",
-				fr: "Choc Psy",
-				de: "Psychoschock",
-				it: "Psicoshock"
+				'en-us': "Psyshock",
+				'fr-fr': "Choc Psy",
+				'de-de': "Psychoschock",
+				'it-it': "Psicoshock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è paralizzato."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon Difensore è paralizzato."
 			},
 			damage: 10,
 
@@ -57,9 +57,9 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Using its ability to read minds, it will identify impending danger and teleport to safety.",
-		fr: "Son don de télépathie lui permet de sentir le danger et de se téléporter en lieu sûr.",
-		it: "Le sue abilità telepatiche gli consentono di individuare eventuali pericoli e teletrasportarsi al sicuro."
+		'en-us': "Using its ability to read minds, it will identify impending danger and teleport to safety.",
+		'fr-fr': "Son don de télépathie lui permet de sentir le danger et de se téléporter en lieu sûr.",
+		'it-it': "Le sue abilità telepatiche gli consentono di individuare eventuali pericoli e teletrasportarsi al sicuro."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Rocket's Scizor Ex",
+		'ja-jp': "Rocket's Scizor Ex",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "デュアルアーマー",
+				'ja-jp': "デュアルアーマー",
 			},
 			effect: {
-				ja: "Rocket's Scizor Exがそれに金属エネルギーが付いている限り、Rocket's Scizor Exは闇と金属タイプの両方です。",
+				'ja-jp': "Rocket's Scizor Exがそれに金属エネルギーが付いている限り、Rocket's Scizor Exは闇と金属タイプの両方です。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "回転爪",
+				'ja-jp': "回転爪",
 			},
 			effect: {
-				ja: "Rocket's Scizor Exに取り付けられたエネルギーカードを捨てることができます。そうした場合は、廃棄パイルを検索して、エネルギーカード（廃棄したものを除く）を検索し、Rocket's Scizor Exに取り付けます。",
+				'ja-jp': "Rocket's Scizor Exに取り付けられたエネルギーカードを捨てることができます。そうした場合は、廃棄パイルを検索して、エネルギーカード（廃棄したものを除く）を検索し、Rocket's Scizor Exに取り付けます。",
 			},
 			damage: 50,
 		},

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [235],
 
 	name: {
-		en: "Smeargle"
+		'en-us': "Smeargle"
 	},
 
 	illustrator: "Sekio",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "The color of the mysterious fluid secreted from\nthe tip of the tail is predetermined for each\nSmeargle."
+		'en-us': "The color of the mysterious fluid secreted from\nthe tip of the tail is predetermined for each\nSmeargle."
 	},
 
 	stage: "Basic",
@@ -26,17 +26,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Portrait"
+			'en-us': "Portrait"
 		},
 
 		effect: {
-			en: "Once during your turn, if this Pokémon is in the Active Spot, you may look at a random Supporter card from your opponent's hand. Use the effect of that card as the effect of this Ability."
+			'en-us': "Once during your turn, if this Pokémon is in the Active Spot, you may look at a random Supporter card from your opponent's hand. Use the effect of that card as the effect of this Ability."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Tail Whap"
+			'en-us': "Tail Whap"
 		},
 
 		damage: 30,

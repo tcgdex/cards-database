@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルナアーラ",
+		'ja-jp': "ルナアーラ",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "フルムーンスター" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分のトラッシュにある[超]エネルギーを、相手の場のポケモンの数ぶん、自分のポケモンに好きなようにつける。",
+				'ja-jp': "自分のトラッシュにある[超]エネルギーを、相手の場のポケモンの数ぶん、自分のポケモンに好きなようにつける。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Psychic", "Psychic", "Psychic", "Psychic"],
 			effect: {
-				ja: "おたがいの場のポケモンについているエネルギーの数x20ダメージ。",
+				'ja-jp': "おたがいの場のポケモンについているエネルギーの数x20ダメージ。",
 			},
 		},
 	],

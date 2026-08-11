@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シバ",
+		'ja-jp': "シバ",
 		'zh-tw': "希巴",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の手札をすべて山札にもどして切る。その後、山札を4枚引く。前の相手の番に、自分のポケモンがきぜつしていたなら、引く枚数は7枚になる。",
+		'ja-jp': "自分の手札をすべて山札にもどして切る。その後、山札を4枚引く。前の相手の番に、自分のポケモンがきぜつしていたなら、引く枚数は7枚になる。",
 		'zh-tw': "將自己的手牌全部放回牌庫並重洗。然後，從牌庫抽出4張卡。在上個對手的回合，若自己的寶可夢【氣絕】了，則改爲抽出7張卡。",
 	},
 

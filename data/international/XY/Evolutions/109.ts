@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "ナッシー[Exeggutor]",
-		fr: "ナッシー[Noadkoko]",
-		es: "Exeggutor",
-		it: "Exeggutor",
-		pt: "Exeggutor",
-		de: "Kokowei"
+		'en-us': "ナッシー[Exeggutor]",
+		'fr-fr': "ナッシー[Noadkoko]",
+		'es-es': "Exeggutor",
+		'it-it': "Exeggutor",
+		'pt-br': "Exeggutor",
+		'de-de': "Kokowei"
 	},
 	illustrator: "Dr.Ooyama",
 	rarity: "Secret Rare",
@@ -23,12 +23,12 @@ const card: Card = {
 		"Grass",
 	],
 	evolveFrom: {
-		en: "Exeggcute",
-		fr: "Noeunoeuf",
-		es: "Exeggcute",
-		it: "Exeggcute",
-		pt: "Exeggcute",
-		de: "Owei"
+		'en-us': "Exeggcute",
+		'fr-fr': "Noeunoeuf",
+		'es-es': "Exeggcute",
+		'it-it': "Exeggcute",
+		'pt-br': "Exeggcute",
+		'de-de': "Owei"
 	},
 	stage: "Stage1",
 
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "ふみつけ[Stomp]",
-				fr: "ふみつけ [Écrasement]",
-				es: "Pisotón",
-				it: "Pestone",
-				pt: "Pisotear",
-				de: "Stampfer"
+				'en-us': "ふみつけ[Stomp]",
+				'fr-fr': "ふみつけ [Écrasement]",
+				'es-es': "Pisotón",
+				'it-it': "Pestone",
+				'pt-br': "Pisotear",
+				'de-de': "Stampfer"
 			},
 			effect: {
-				en: "コインを1回投げオモテなら、10ダメージを追加。\nFlip a coin. If heads, this attack does 10 more damage.",
-				fr: "コインを1回投げオモテなら、10ダメージを追加。\nLancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
-				pt: "Jogue uma moeda. Se sair cara, este ataque causará 10 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 weitere Schadenspunkte zu."
+				'en-us': "コインを1回投げオモテなら、10ダメージを追加。\nFlip a coin. If heads, this attack does 10 more damage.",
+				'fr-fr': "コインを1回投げオモテなら、10ダメージを追加。\nLancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
+				'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 10 de danos adicionais.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -72,7 +72,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Dr.オーヤマ考案「日米交流カード」パーティ気分で和洋せっちゅう。",
+		'en-us': "Dr.オーヤマ考案「日米交流カード」パーティ気分で和洋せっちゅう。",
 	},
 }
 

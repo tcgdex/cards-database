@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Team Rocket's Drowzee",
-		fr: "Soporifik de la Team Rocket",
-		de: "Team Rockets Traumato",
-		it: "Drowzee del Team Rocket",
-		es: "Drowzee del Team Rocket",
-		pt: "Drowzee da Equipe Rocket",
+		'en-us': "Team Rocket's Drowzee",
+		'fr-fr': "Soporifik de la Team Rocket",
+		'de-de': "Team Rockets Traumato",
+		'it-it': "Drowzee del Team Rocket",
+		'es-es': "Drowzee del Team Rocket",
+		'pt-br': "Drowzee da Equipe Rocket",
 		'es-mx': "Drowzee del Equipo Rocket"
 	},
 
@@ -28,22 +28,22 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Hypnotic Ray",
-			fr: "Onde Hypnotique",
-			de: "Hypnotischer Strahl",
-			it: "Ipnoraggio",
-			es: "Rayo Hipnótico",
-			pt: "Raio Hipnótico",
+			'en-us': "Hypnotic Ray",
+			'fr-fr': "Onde Hypnotique",
+			'de-de': "Hypnotischer Strahl",
+			'it-it': "Ipnoraggio",
+			'es-es': "Rayo Hipnótico",
+			'pt-br': "Raio Hipnótico",
 			'es-mx': "Rayo Hipnótico"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
 			'es-mx': "El Pokémon Activo de tu rival ahora está Dormido."
 		},
 

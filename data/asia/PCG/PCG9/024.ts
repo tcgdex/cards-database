@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "totodile（デルタ種）",
+		'ja-jp': "totodile（デルタ種）",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "傷",
+				'ja-jp': "傷",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "怒り",
+				'ja-jp': "怒り",
 			},
 			effect: {
-				ja: "Totodileの各ダメージカウンターで10ダメージと10ダメージをさらに10回します。",
+				'ja-jp': "Totodileの各ダメージカウンターで10ダメージと10ダメージをさらに10回します。",
 			},
 		},
 	],

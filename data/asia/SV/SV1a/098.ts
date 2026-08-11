@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ウェーニバルex"
+		'ja-jp': "ウェーニバルex"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -19,25 +19,25 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "エキサイトサンバ"
+			'ja-jp': "エキサイトサンバ"
 		},
 
 		damage: 60,
 
 		effect: {
-			ja: "このポケモンをベンチポケモンと入れ替える。その後、相手は相手自身のバトルポケモンをベンチポケモンと入れ替える。"
+			'ja-jp': "このポケモンをベンチポケモンと入れ替える。その後、相手は相手自身のバトルポケモンをベンチポケモンと入れ替える。"
 		}
 	}, {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			ja: "スクリューシュート"
+			'ja-jp': "スクリューシュート"
 		},
 
 		damage: 230,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを2個選び、手札にもどす。"
+			'ja-jp': "このポケモンについているエネルギーを2個選び、手札にもどす。"
 		}
 	}],
 

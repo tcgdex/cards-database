@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Chimecho",
-		fr: "Eoko",
-		de: "Palimpalim"
+		'en-us': "Chimecho",
+		'fr-fr': "Eoko",
+		'de-de': "Palimpalim"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collectionner",
-				de: "Collect"
+				'en-us': "Collect",
+				'fr-fr': "Collectionner",
+				'de-de': "Collect"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Draw a card."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Draw a card."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Warp Sounds",
-				fr: "Fausses notes",
-				de: "Warp Sounds"
+				'en-us': "Warp Sounds",
+				'fr-fr': "Fausses notes",
+				'de-de': "Warp Sounds"
 			},
 			effect: {
-				en: "If the Defending Pokémon is an Evolved Pokémon, the Defending Pokémon is now Confused.",
-				fr: "Si le Pokémon Défenseur est un Pokémon Évolué, il est maintenant Confus.",
-				de: "If the Defending Pokémon an Evolved Pokémon, the Defending Pokémon is now Confused."
+				'en-us': "If the Defending Pokémon is an Evolved Pokémon, the Defending Pokémon is now Confused.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon Évolué, il est maintenant Confus.",
+				'de-de': "If the Defending Pokémon an Evolved Pokémon, the Defending Pokémon is now Confused."
 			},
 			damage: 20,
 

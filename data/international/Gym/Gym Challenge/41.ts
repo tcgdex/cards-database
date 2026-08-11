@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Erika's Ivysaur"
+		'en-us': "Erika's Ivysaur"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bulbasaur"
+		'en-us': "Bulbasaur"
 	},
 
 	stage: "Stage1",
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Relaxing Scent"
+				'en-us': "Relaxing Scent"
 			},
 			effect: {
-				en: "As long as Erika's Ivysaur is your Active Pokémon, whenever an attack (even your own) does damage to any Pokémon (after applying Weakness and Resistance), that attack only does half the damage to that Pokémon (rounded up to the nearest 10). (Any other effects of attacks still happen.) This power stops working while Erika's Ivysaur is Asleep, Confused, or Paralyzed."
+				'en-us': "As long as Erika's Ivysaur is your Active Pokémon, whenever an attack (even your own) does damage to any Pokémon (after applying Weakness and Resistance), that attack only does half the damage to that Pokémon (rounded up to the nearest 10). (Any other effects of attacks still happen.) This power stops working while Erika's Ivysaur is Asleep, Confused, or Paralyzed."
 			}
 		},
 	],
@@ -45,10 +45,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Double Razor Leaf"
+				'en-us': "Double Razor Leaf"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 40 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 40 damage times the number of heads."
 			},
 			damage: "40x",
 

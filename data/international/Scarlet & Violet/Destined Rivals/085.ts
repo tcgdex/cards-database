@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Team Rocket's Chingling",
-		fr: "Korillon de la Team Rocket",
-		de: "Team Rockets Klingplim",
-		it: "Chingling del Team Rocket",
-		es: "Chingling del Team Rocket",
-		pt: "Chingling da Equipe Rocket",
+		'en-us': "Team Rocket's Chingling",
+		'fr-fr': "Korillon de la Team Rocket",
+		'de-de': "Team Rockets Klingplim",
+		'it-it': "Chingling del Team Rocket",
+		'es-es': "Chingling del Team Rocket",
+		'pt-br': "Chingling da Equipe Rocket",
 		'es-mx': "Chingling del Equipo Rocket"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Chiming Commotion",
-			fr: "Tapage Tintant",
-			de: "Tönender Tumult",
-			it: "Tintinnio Frastornante",
-			es: "Conmoción Tintineante",
-			pt: "Badalo Barulhento",
+			'en-us': "Chiming Commotion",
+			'fr-fr': "Tapage Tintant",
+			'de-de': "Tönender Tumult",
+			'it-it': "Tintinnio Frastornante",
+			'es-es': "Conmoción Tintineante",
+			'pt-br': "Badalo Barulhento",
 			'es-mx': "Conmoción Tintineante"
 		},
 
 		effect: {
-			en: "Discard a random card from your opponent's hand.",
-			fr: "Défaussez au hasard une carte de la main de votre adversaire.",
-			de: "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel.",
-			it: "Scarta una carta a caso dalla mano del tuo avversario.",
-			es: "Descarta 1 carta aleatoria de la mano de tu rival.",
-			pt: "Descarte uma carta aleatória da mão do seu oponente.",
+			'en-us': "Discard a random card from your opponent's hand.",
+			'fr-fr': "Défaussez au hasard une carte de la main de votre adversaire.",
+			'de-de': "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel.",
+			'it-it': "Scarta una carta a caso dalla mano del tuo avversario.",
+			'es-es': "Descarta 1 carta aleatoria de la mano de tu rival.",
+			'pt-br': "Descarte uma carta aleatória da mão do seu oponente.",
 			'es-mx': "Descarta 1 carta aleatoria de la mano de tu rival."
 		}
 	}],

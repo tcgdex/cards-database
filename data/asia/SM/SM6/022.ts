@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブロスター",
+		'ja-jp': "ブロスター",
 	},
 
 	illustrator: "otumami",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ハサミの 後ろの ノズルから 水を 噴き出す 推進力で ６０ノットの スピードで 進む。",
+		'ja-jp': "ハサミの 後ろの ノズルから 水を 噴き出す 推進力で ６０ノットの スピードで 進む。",
 	},
 
 	stage: "Stage1",
@@ -23,14 +23,14 @@ const card: Card = {
 			name: { ja: "スタンバイ" },
 			cost: ["Water"],
 			effect: {
-				ja: "次の自分の番、このポケモンの「ねらいうち」のダメージは「120」になる。",
+				'ja-jp': "次の自分の番、このポケモンの「ねらいうち」のダメージは「120」になる。",
 			},
 		},
 		{
 			name: { ja: "ねらいうち" },
 			cost: ["Water"],
 			effect: {
-				ja: "相手のポケモン1匹に、40ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、40ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ウデッポウ",
+		'ja-jp': "ウデッポウ",
 	},
 
 	retreat: 2,

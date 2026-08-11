@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Koga's Koffing"
+		'en-us': "Koga's Koffing"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Smokescreen"
+				'en-us': "Smokescreen"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
 			},
 			damage: 10,
 
@@ -41,10 +41,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Obscuring Gas"
+				'en-us': "Obscuring Gas"
 			},
 			effect: {
-				en: "Flip a coin. If heads, shuffle Koga's Koffing and all cards attached to it into your deck (after doing damage)."
+				'en-us': "Flip a coin. If heads, shuffle Koga's Koffing and all cards attached to it into your deck (after doing damage)."
 			},
 			damage: 30,
 

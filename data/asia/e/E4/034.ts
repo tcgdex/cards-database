@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ライチュ",
+		'ja-jp': "ライチュ",
 	},
 
 	rarity: "Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "zzzap",
+				'ja-jp': "zzzap",
 			},
 			effect: {
-				ja: "この攻撃は、ポックで各ポケモンに20のダメージを与えますか？ （衰弱や抵抗を適用しないでください。）",
+				'ja-jp': "この攻撃は、ポックで各ポケモンに20のダメージを与えますか？ （衰弱や抵抗を適用しないでください。）",
 			},
 		},
 		{
 			cost: ["Lightning", "Colorless", "Colorless"],
 			name: {
-				ja: "稲妻",
+				'ja-jp': "稲妻",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、Raichuに2つのダメージカウンターを入れます。",
+				'ja-jp': "コインをひっくり返します。尾の場合、Raichuに2つのダメージカウンターを入れます。",
 			},
 			damage: 50,
 		},

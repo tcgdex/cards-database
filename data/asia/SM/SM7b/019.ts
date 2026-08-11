@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デスマス",
+		'ja-jp': "デスマス",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "持っている マスクは デスマスが 人間だった ときの 顔。 たまに 見つめては 泣いている。",
+		'ja-jp': "持っている マスクは デスマスが 人間だった ときの 顔。 たまに 見つめては 泣いている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "のろう" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンに、ダメカンを1個のせる。",
+				'ja-jp': "相手のバトルポケモンに、ダメカンを1個のせる。",
 			},
 		},
 	],

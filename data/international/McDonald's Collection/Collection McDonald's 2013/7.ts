@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2013"
 
 const card: Card = {
 	name: {
-		fr: "Mentali",
+		'fr-fr': "Mentali",
 	},
 	illustrator: "Mizue",
 	rarity: "None",
@@ -20,10 +20,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				fr: "Révélation Solaire"
+				'fr-fr': "Révélation Solaire"
 			},
 			effect: {
-				fr: "Évitez tous les effets des attaques de vyotre adversaire, excepté les dégâts, infligés à chacun de vos Pokémon auquel de l'Energie est attachée. Observation Psychique Votre adversaire montre sa main."
+				'fr-fr': "Évitez tous les effets des attaques de vyotre adversaire, excepté les dégâts, infligés à chacun de vos Pokémon auquel de l'Energie est attachée. Observation Psychique Votre adversaire montre sa main."
 			},
 		}
 	],
@@ -31,10 +31,10 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Colorless", "Colorless"],
 			name: {
-				fr: "Observation Psychique",
+				'fr-fr': "Observation Psychique",
 			},
 			effect: {
-				fr: "Votre adversaire montre sa main."
+				'fr-fr': "Votre adversaire montre sa main."
 			},
 			damage: 60,
 		}

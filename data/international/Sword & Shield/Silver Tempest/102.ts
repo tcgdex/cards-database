@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ursaluna V",
-		fr: "Ursaking V",
-		es: "Ursaluna V",
-		it: "Ursaluna V",
-		pt: "Ursaluna V",
-		de: "Ursaluna V"
+		'en-us': "Ursaluna V",
+		'fr-fr': "Ursaking V",
+		'es-es': "Ursaluna V",
+		'it-it': "Ursaluna V",
+		'pt-br': "Ursaluna V",
+		'de-de': "Ursaluna V"
 	},
 
 	illustrator: "5ban Graphics",
@@ -26,21 +26,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Hard Coat",
-			fr: "Strate Dure",
-			es: "Capa Resistente",
-			it: "Patina Dura",
-			pt: "Camada Resistente",
-			de: "Schutzschicht"
+			'en-us': "Hard Coat",
+			'fr-fr': "Strate Dure",
+			'es-es': "Capa Resistente",
+			'it-it': "Patina Dura",
+			'pt-br': "Camada Resistente",
+			'de-de': "Schutzschicht"
 		},
 
 		effect: {
-			en: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
-			fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			es: "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-			it: "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-			pt: "Este Pokémon recebe 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
-			de: "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+			'en-us': "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+			'fr-fr': "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			'es-es': "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			'it-it': "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+			'pt-br': "Este Pokémon recebe 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
+			'de-de': "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 		}
 	}],
 
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Fighting"],
 
 		name: {
-			en: "Peat Shoulder",
-			fr: "Épaule Tourbe",
-			es: "Hombro Turba",
-			it: "Torbaspalla",
-			pt: "Ombro de Turfa",
-			de: "Torfschulter"
+			'en-us': "Peat Shoulder",
+			'fr-fr': "Épaule Tourbe",
+			'es-es': "Hombro Turba",
+			'it-it': "Torbaspalla",
+			'pt-br': "Ombro de Turfa",
+			'de-de': "Torfschulter"
 		},
 
 		effect: {
-			en: "This attack does 10 less damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 10 dégâts de moins pour chaque marqueur de dégâts sur ce Pokémon.",
-			es: "Este ataque hace 10 puntos de daño menos por cada contador de daño en este Pokémon.",
-			it: "Questo attacco infligge 10 danni in meno per ogni segnalino danno presente su questo Pokémon.",
-			pt: "Este ataque causa 10 pontos de dano a menos para cada contador de dano neste Pokémon.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte weniger zu."
+			'en-us': "This attack does 10 less damage for each damage counter on this Pokémon.",
+			'fr-fr': "Cette attaque inflige 10 dégâts de moins pour chaque marqueur de dégâts sur ce Pokémon.",
+			'es-es': "Este ataque hace 10 puntos de daño menos por cada contador de daño en este Pokémon.",
+			'it-it': "Questo attacco infligge 10 danni in meno per ogni segnalino danno presente su questo Pokémon.",
+			'pt-br': "Este ataque causa 10 pontos de dano a menos para cada contador de dano neste Pokémon.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte weniger zu."
 		},
 
 		damage: "220-"

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヒスイ ガーディ"
+		'ja-jp': "ヒスイ ガーディ"
 	},
 
 	illustrator: "GIDORA",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "対になりて 縄張りを 哨戒す。 体毛に 火成岩なる 成分 混ざるは 火山活動の 影響と 推察す。"
+		'ja-jp': "対になりて 縄張りを 哨戒す。 体毛に 火成岩なる 成分 混ざるは 火山活動の 影響と 推察す。"
 	},
 
 	stage: "Basic",
@@ -24,23 +24,23 @@ const card: Card = {
 
 
 		name: {
-			ja: "まるやけ"
+			'ja-jp': "まるやけ"
 		},
 
 		effect: {
-			ja: "場に出ているスタジアムをトラッシュする。"
+			'ja-jp': "場に出ているスタジアムをトラッシュする。"
 		}
 	}, {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			ja: "とっしん"
+			'ja-jp': "とっしん"
 		},
 
 		damage: 40,
 
 		effect: {
-			ja: "このポケモンにも10ダメージ。"
+			'ja-jp': "このポケモンにも10ダメージ。"
 		}
 	}],
 

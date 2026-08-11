@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magnemite",
-		fr: "Magnéti",
-		es: "Magnemite",
-		it: "Magnemite",
-		pt: "Magnemite",
-		de: "Magnetilo"
+		'en-us': "Magnemite",
+		'fr-fr': "Magnéti",
+		'es-es': "Magnemite",
+		'it-it': "Magnemite",
+		'pt-br': "Magnemite",
+		'de-de': "Magnetilo"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -25,32 +25,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Magnetic Catch",
-			fr: "Prise Magnétique",
-			es: "Captura Magnética",
-			it: "Cattura Magnetica",
-			pt: "Captura Magnética",
-			de: "Magnetfang"
+			'en-us': "Magnetic Catch",
+			'fr-fr': "Prise Magnétique",
+			'es-es': "Captura Magnética",
+			'it-it': "Cattura Magnetica",
+			'pt-br': "Captura Magnética",
+			'de-de': "Magnetfang"
 		},
 
 		effect: {
-			en: "Shuffle up to 3 Metal Energy cards from your discard pile into your deck.",
-			fr: "Mélangez avec votre deck jusqu'à 3 cartes Énergie Metal de votre pile de défausse.",
-			es: "Pon hasta 3 cartas de Energía Metal de tu pila de descartes en tu baraja y barájalas todas.",
-			it: "Rimischia fino a tre carte Energia Metal dalla tua pila degli scarti nel tuo mazzo.",
-			pt: "Embaralhe até 3 cartas de Energia Metal da sua pilha de descarte no seu baralho.",
-			de: "Mische bis zu 3 Metal-Energiekarten aus deinem Ablagestapel in dein Deck."
+			'en-us': "Shuffle up to 3 Metal Energy cards from your discard pile into your deck.",
+			'fr-fr': "Mélangez avec votre deck jusqu'à 3 cartes Énergie Metal de votre pile de défausse.",
+			'es-es': "Pon hasta 3 cartas de Energía Metal de tu pila de descartes en tu baraja y barájalas todas.",
+			'it-it': "Rimischia fino a tre carte Energia Metal dalla tua pila degli scarti nel tuo mazzo.",
+			'pt-br': "Embaralhe até 3 cartas de Energia Metal da sua pilha de descarte no seu baralho.",
+			'de-de': "Mische bis zu 3 Metal-Energiekarten aus deinem Ablagestapel in dein Deck."
 		}
 	}, {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			en: "Rolling Attack",
-			fr: "Attaque Qui Roule",
-			es: "Ataque Giro",
-			it: "Attacco Rotolante",
-			pt: "Golpe Rolador",
-			de: "Rollender Angriff"
+			'en-us': "Rolling Attack",
+			'fr-fr': "Attaque Qui Roule",
+			'es-es': "Ataque Giro",
+			'it-it': "Attacco Rotolante",
+			'pt-br': "Golpe Rolador",
+			'de-de': "Rollender Angriff"
 		},
 
 		damage: 30
@@ -73,7 +73,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A bizarre Pokémon with but a single eye embedded in an iron sphere. I suspect this creature levitates due to the magnetism it emits from its arms, which resemble horseshoe-shaped magnets.",
+		'en-us': "A bizarre Pokémon with but a single eye embedded in an iron sphere. I suspect this creature levitates due to the magnetism it emits from its arms, which resemble horseshoe-shaped magnets.",
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Tyrogue",
-		fr: "Debugant",
-		de: "Rabauz"
+		'en-us': "Tyrogue",
+		'fr-fr': "Debugant",
+		'de-de': "Rabauz"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Baby Evolution",
-				fr: "Évolution Bébé",
-				de: "Baby Evolution"
+				'en-us': "Baby Evolution",
+				'fr-fr': "Évolution Bébé",
+				'de-de': "Baby Evolution"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may put Hitmonlee, Hitmonchan, or Hitmontop from your hand onto Tyrogue (this counts as evolving Tyrogue) and remove all damage counters from Tyrogue.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Kicklee, Tygnon ou Kapoera de votre main sur Debugant (vous le faites ainsi évoluer) et retirer à Debugant tous ses marqueurs de dégât.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du Kicklee, Nockchan oder Kapoera von deiner Hand auf Rabauz legen (das zählt als Entwickeln von Rabauz). Entferne alle Schadensmarken von Rabauz."
+				'en-us': "Once during your turn (before your attack), you may put Hitmonlee, Hitmonchan, or Hitmontop from your hand onto Tyrogue (this counts as evolving Tyrogue) and remove all damage counters from Tyrogue.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Kicklee, Tygnon ou Kapoera de votre main sur Debugant (vous le faites ainsi évoluer) et retirer à Debugant tous ses marqueurs de dégât.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du Kicklee, Nockchan oder Kapoera von deiner Hand auf Rabauz legen (das zählt als Entwickeln von Rabauz). Entferne alle Schadensmarken von Rabauz."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Gut Blow",
-				fr: "Gros coup d'tripes",
-				de: "Magenhaken"
+				'en-us': "Gut Blow",
+				'fr-fr': "Gros coup d'tripes",
+				'de-de': "Magenhaken"
 			},
 			effect: {
-				en: "If the Defending Pokémon is an Evolved Pokémon, this attack does 10 damage plus 20 more damage and Tyrogue does 10 damage to itself.",
-				fr: "Si le Pokémon Défenseur est un Pokémon Évolué, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires et Debugant s'inflige 10 dégâts.",
-				de: "Wenn das Verteidigende Pokémon ein entwickeltes Pokémon ist, fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu und Rabauz fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "If the Defending Pokémon is an Evolved Pokémon, this attack does 10 damage plus 20 more damage and Tyrogue does 10 damage to itself.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon Évolué, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires et Debugant s'inflige 10 dégâts.",
+				'de-de': "Wenn das Verteidigende Pokémon ein entwickeltes Pokémon ist, fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu und Rabauz fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is famous for its eagerness to fight and always nurses injuries from challenging larger foes.",
+		'en-us': "It is famous for its eagerness to fight and always nurses injuries from challenging larger foes.",
 	},
 
 	thirdParty: {

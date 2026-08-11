@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lotad"
+		'en-us': "Lotad"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "Its leaf grew too large for it to live on land.\nThat is how it began to live floating in the water."
+		'en-us': "Its leaf grew too large for it to live on land.\nThat is how it began to live floating in the water."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Water Gun"
+			'en-us': "Water Gun"
 		},
 
 		damage: 20,

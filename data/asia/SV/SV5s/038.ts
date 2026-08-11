@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Carvanha"
+		'id-id': "Carvanha"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Meskipun menemukan mangsa, Carvanha tidak akan menyerang saat sedang sendirian. Pokémon ini menunggu kedatangan temannya dan menyerang secara berkelompok."
+		'id-id': "Meskipun menemukan mangsa, Carvanha tidak akan menyerang saat sedang sendirian. Pokémon ini menunggu kedatangan temannya dan menyerang secara berkelompok."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Splash"
+			'id-id': "Splash"
 		},
 
 		damage: 30,

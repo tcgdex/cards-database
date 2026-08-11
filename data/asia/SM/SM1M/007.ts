@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ネマシュ",
+		'ja-jp': "ネマシュ",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "昼は 寝ながら 樹木の 根から 養分を 吸う。 夜に 目覚め 新たな 樹木を 探し歩く。",
+		'ja-jp': "昼は 寝ながら 樹木の 根から 養分を 吸う。 夜に 目覚め 新たな 樹木を 探し歩く。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ゆれるほうし" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 		{

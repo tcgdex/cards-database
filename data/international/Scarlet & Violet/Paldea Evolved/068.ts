@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Lixy",
-		en: "Shinx",
-		es: "Shinx",
-		it: "Shinx",
-		pt: "Shinx",
-		de: "Sheinux"
+		'fr-fr': "Lixy",
+		'en-us': "Shinx",
+		'es-es': "Shinx",
+		'it-it': "Shinx",
+		'pt-br': "Shinx",
+		'de-de': "Sheinux"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			fr: "Rugissement Puissant",
-			en: "Big Roar",
-			es: "Gran Rugido",
-			it: "Granboato",
-			pt: "Rugido Grande",
-			de: "Großes Gebrüll"
+			'fr-fr': "Rugissement Puissant",
+			'en-us': "Big Roar",
+			'es-es': "Gran Rugido",
+			'it-it': "Granboato",
+			'pt-br': "Rugido Grande",
+			'de-de': "Großes Gebrüll"
 		},
 
 		effect: {
-			fr: "Une fois pendant votre tour, si ce Pokémon est sur le Poste Actif, vous pouvez envoyer le Pokémon Actif de votre adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
-			en: "Once during your turn, if this Pokémon is in the Active Spot, you may switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
-			es: "Una vez durante tu turno, si este Pokémon está en el Puesto Activo, puedes mover el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
-			it: "Una sola volta durante il tuo turno, se questo Pokémon è in posizione attiva, puoi spostare il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
-			pt: "Uma vez durante o seu turno, se este Pokémon estiver no Campo Ativo, você poderá mandar o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)",
-			de: "Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du das Aktive Pokémon deines Gegners auf seine Bank auswechseln. (Dein Gegner wählt das neue Aktive Pokémon.)"
+			'fr-fr': "Une fois pendant votre tour, si ce Pokémon est sur le Poste Actif, vous pouvez envoyer le Pokémon Actif de votre adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
+			'en-us': "Once during your turn, if this Pokémon is in the Active Spot, you may switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+			'es-es': "Una vez durante tu turno, si este Pokémon está en el Puesto Activo, puedes mover el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
+			'it-it': "Una sola volta durante il tuo turno, se questo Pokémon è in posizione attiva, puoi spostare il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
+			'pt-br': "Uma vez durante o seu turno, se este Pokémon estiver no Campo Ativo, você poderá mandar o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)",
+			'de-de': "Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du das Aktive Pokémon deines Gegners auf seine Bank auswechseln. (Dein Gegner wählt das neue Aktive Pokémon.)"
 		}
 	}],
 
@@ -46,12 +46,12 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			fr: "Collision",
-			en: "Ram",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'fr-fr': "Collision",
+			'en-us': "Ram",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 10
@@ -88,7 +88,7 @@ const card: Card = {
 	illustrator: "kurumitsu",
 
 	description: {
-		en: "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
+		'en-us': "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
 	},
 }
 

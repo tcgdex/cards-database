@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マルヤクデ"
+		'ja-jp': "マルヤクデ"
 	},
 	illustrator: "Shiburingaru",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fire"],
 	description: {
-		ja: "攻撃的な性質。焼けた体も危険だが大きなキバも鋭いぞ。"
+		'ja-jp': "攻撃的な性質。焼けた体も危険だが大きなキバも鋭いぞ。"
 	},
 	stage: "Stage1",
 	variants: [
@@ -25,20 +25,20 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤクデ"
+		'ja-jp': "ヤクデ"
 	},
 	attacks: [{
 		name: {
-			ja: "まきつきクラッシュ"
+			'ja-jp': "まきつきクラッシュ"
 		},
 		damage: 50,
 		effect: {
-			ja: "コインを2回投げ、オモテの数ぶん、相手のバトルポケモンについているエネルギーを選び、トラッシュする。"
+			'ja-jp': "コインを2回投げ、オモテの数ぶん、相手のバトルポケモンについているエネルギーを選び、トラッシュする。"
 		},
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			ja: "ヒートクローラー"
+			'ja-jp': "ヒートクローラー"
 		},
 		damage: 140,
 		cost: ["Fire", "Fire", "Colorless", "Colorless"]

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Chansey",
-		fr: "Leveinard",
-		de: "Chaneira"
+		'en-us': "Chansey",
+		'fr-fr': "Leveinard",
+		'de-de': "Chaneira"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sing",
-				fr: "Berceuse",
-				de: "Sing"
+				'en-us': "Sing",
+				'fr-fr': "Berceuse",
+				'de-de': "Sing"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Egg Surprise",
-				fr: "Oeuf surprise",
-				de: "Egg Surprise"
+				'en-us': "Egg Surprise",
+				'fr-fr': "Oeuf surprise",
+				'de-de': "Egg Surprise"
 			},
 			effect: {
-				en: "Flip a coin. If heads, Chansey does 50 damage to the Defending Pokémon. If tails, remove 5 damage counters from Chansey. (All if there are less than 5.)",
-				fr: "Lancez une pièce. Si c'est face, Leveinard inflige 50 dégâts au Pokémon Défenseur. Si c'est pile, retirez à Leveinard 5 marqueurs de dégât. (Retirez-les lui tous s'il y en a moins de 5.)",
-				de: "Flip a coin. If heads, Chansey does 50 damage to the Defending Pokémon. If tails, remove 5 damage counters from Chansey. (All if there are less than 5.)"
+				'en-us': "Flip a coin. If heads, Chansey does 50 damage to the Defending Pokémon. If tails, remove 5 damage counters from Chansey. (All if there are less than 5.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, Leveinard inflige 50 dégâts au Pokémon Défenseur. Si c'est pile, retirez à Leveinard 5 marqueurs de dégât. (Retirez-les lui tous s'il y en a moins de 5.)",
+				'de-de': "Flip a coin. If heads, Chansey does 50 damage to the Defending Pokémon. If tails, remove 5 damage counters from Chansey. (All if there are less than 5.)"
 			},
 
 		},

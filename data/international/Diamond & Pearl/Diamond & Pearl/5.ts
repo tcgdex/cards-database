@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Infernape",
-		fr: "Simiabraz",
-		de: "Panferno"
+		'en-us': "Infernape",
+		'fr-fr': "Simiabraz",
+		'de-de': "Panferno"
 	},
 
 	illustrator: "Nakaoka",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Monferno",
-		fr: "Chimpenfeu",
+		'en-us': "Monferno",
+		'fr-fr': "Chimpenfeu",
 	},
 
 	stage: "Stage2",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Meteor Punch",
-				fr: "Poing-météore",
-				de: "Meteorhieb"
+				'en-us': "Meteor Punch",
+				'fr-fr': "Poing-météore",
+				'de-de': "Meteorhieb"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu"
+				'en-us': "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu"
 			},
 			damage: "30x",
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flare Blitz",
-				fr: "Boutefeu",
-				de: "Flammenblitz"
+				'en-us': "Flare Blitz",
+				'fr-fr': "Boutefeu",
+				'de-de': "Flammenblitz"
 			},
 			effect: {
-				en: "Discard all Fire Energy attached to Infernape.",
-				fr: "Défaussez toutes les Énergies Fire attachées à Simiabraz.",
-				de: "Entferne alle an Panferno angelegten  Energien und lege sie auf deinen Ablagestapel"
+				'en-us': "Discard all Fire Energy attached to Infernape.",
+				'fr-fr': "Défaussez toutes les Énergies Fire attachées à Simiabraz.",
+				'de-de': "Entferne alle an Panferno angelegten  Energien und lege sie auf deinen Ablagestapel"
 			},
 			damage: 90,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It uses a special kind of martial arts involving all its limbs. Its fire never goes out.",
+		'en-us': "It uses a special kind of martial arts involving all its limbs. Its fire never goes out.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Lokix"
+		'id-id': "Lokix"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Lokix berdiri dengan kakinya yang terlipat dan menjadi mode bertarung jika menjadi serius dalam pertarungan. Pokémon ini akan mengalahkan lawannya dalam waktu singkat."
+		'id-id': "Lokix berdiri dengan kakinya yang terlipat dan menjadi mode bertarung jika menjadi serius dalam pertarungan. Pokémon ini akan mengalahkan lawannya dalam waktu singkat."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Memantul"
+			'id-id': "Memantul"
 		},
 
 		effect: {
-			id: "Tukar Pokémon ini dengan Pokémon Cadangan."
+			'id-id': "Tukar Pokémon ini dengan Pokémon Cadangan."
 		},
 
 		damage: 30,
 		cost: ["Darkness"]
 	}, {
 		name: {
-			id: "Punish Kick"
+			'id-id': "Punish Kick"
 		},
 
 		effect: {
-			id: "Kerusakan yang diberikan bertambah sejumlah 40 untuk tiap Token Kerusakan yang dimiliki Pokémon Bertarung lawan."
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 40 untuk tiap Token Kerusakan yang dimiliki Pokémon Bertarung lawan."
 		},
 
 		damage: "10+",

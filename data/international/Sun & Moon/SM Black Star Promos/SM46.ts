@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Seviper",
-		fr: "Séviper",
-		es: "Seviper",
-		it: "Seviper",
-		pt: "Seviper",
-		de: "Vipitis"
+		'en-us': "Seviper",
+		'fr-fr': "Séviper",
+		'es-es': "Seviper",
+		'it-it': "Seviper",
+		'pt-br': "Seviper",
+		'de-de': "Vipitis"
 	},
 	illustrator: "Eri Yamaki",
 	rarity: "Promo",
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "More Poison",
-				fr: "Poison Sans Fin",
-				es: "Veneno Plus",
-				it: "Più Veleno",
-				pt: "Veneno a Mais",
-				de: "Giftschub"
+				'en-us': "More Poison",
+				'fr-fr': "Poison Sans Fin",
+				'es-es': "Veneno Plus",
+				'it-it': "Più Veleno",
+				'pt-br': "Veneno a Mais",
+				'de-de': "Giftschub"
 			},
 			effect: {
-				en: "Put 1 more damage counter on your opponent’s Poisoned Pokémon between turns.",
-				fr: "Placez 1 marqueur de dégâts supplémentaire sur le Pokémon Empoisonné de votre adversaire entre chaque tour.",
-				es: "Pon 1 contador de daño más en el Pokémon Envenenado de tu rival entre turnos.",
-				it: "Metti un segnalino danno in più sul Pokémon avvelenato del tuo avversario tra un turno e l’altro.",
-				pt: "Coloque 1 contador de dano a mais no Pokémon Envenenado do seu oponente entre as vezes de jogar.",
-				de: "Lege zwischen den Zügen 1 Schadensmarke mehr auf das vergiftete Pokémon deines Gegners."
+				'en-us': "Put 1 more damage counter on your opponent’s Poisoned Pokémon between turns.",
+				'fr-fr': "Placez 1 marqueur de dégâts supplémentaire sur le Pokémon Empoisonné de votre adversaire entre chaque tour.",
+				'es-es': "Pon 1 contador de daño más en el Pokémon Envenenado de tu rival entre turnos.",
+				'it-it': "Metti un segnalino danno in più sul Pokémon avvelenato del tuo avversario tra un turno e l’altro.",
+				'pt-br': "Coloque 1 contador de dano a mais no Pokémon Envenenado do seu oponente entre as vezes de jogar.",
+				'de-de': "Lege zwischen den Zügen 1 Schadensmarke mehr auf das vergiftete Pokémon deines Gegners."
 			},
 		},
 	],
@@ -54,20 +54,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Venomous Fang",
-				fr: "Croc-Poison",
-				es: "Colmillo Nocivo",
-				it: "Dentevelenoso",
-				pt: "Dente Venenoso",
-				de: "Gifthauer"
+				'en-us': "Venomous Fang",
+				'fr-fr': "Croc-Poison",
+				'es-es': "Colmillo Nocivo",
+				'it-it': "Dentevelenoso",
+				'pt-br': "Dente Venenoso",
+				'de-de': "Gifthauer"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+				'en-us': "Your opponent’s Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 			damage: 30,
 
@@ -86,7 +86,7 @@ const card: Card = {
 
 
 	description: {
-		en: "In battle, it uses its bladed tail to counter any Zangoose. It secretes a deadly venom in its tail.",
+		'en-us': "In battle, it uses its bladed tail to counter any Zangoose. It secretes a deadly venom in its tail.",
 	},
 }
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sealeo",
-		fr: "Phogleur",
-		es: "Sealeo",
-		it: "Sealeo",
-		pt: "Sealeo",
-		de: "Seejong"
+		'en-us': "Sealeo",
+		'fr-fr': "Phogleur",
+		'es-es': "Sealeo",
+		'it-it': "Sealeo",
+		'pt-br': "Sealeo",
+		'de-de': "Seejong"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Spheal",
-		fr: "Obalie",
-		es: "Spheal",
-		it: "Spheal",
-		pt: "Spheal",
-		de: "Seemops"
+		'en-us': "Spheal",
+		'fr-fr': "Obalie",
+		'es-es': "Spheal",
+		'it-it': "Spheal",
+		'pt-br': "Spheal",
+		'de-de': "Seemops"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Lunge Out",
-			fr: "Allonger",
-			es: "Arremeter",
-			it: "Affondo Lungo",
-			pt: "Bote",
-			de: "Sprungangriff"
+			'en-us': "Lunge Out",
+			'fr-fr': "Allonger",
+			'es-es': "Arremeter",
+			'it-it': "Affondo Lungo",
+			'pt-br': "Bote",
+			'de-de': "Sprungangriff"
 		},
 
 		damage: 30
@@ -45,12 +45,12 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			en: "Ice Ball",
-			fr: "Ball'Glace",
-			es: "Bola Hielo",
-			it: "Palla Gelo",
-			pt: "Bola de Gelo",
-			de: "Frostbeule"
+			'en-us': "Ice Ball",
+			'fr-fr': "Ball'Glace",
+			'es-es': "Bola Hielo",
+			'it-it': "Palla Gelo",
+			'pt-br': "Bola de Gelo",
+			'de-de': "Frostbeule"
 		},
 
 		damage: 60

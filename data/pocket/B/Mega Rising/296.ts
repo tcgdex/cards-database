@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Poliwhirl"
+		'en-us': "Poliwhirl"
 	},
 
 	illustrator: "MAHOU",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Poliwag"
+		'en-us': "Poliwag"
 	},
 
 	description: {
-		en: "Staring at the swirl on its belly causes drowsiness.\nThis trait of Poliwhirl's has been used in place of\nlullabies to get children to go to sleep."
+		'en-us': "Staring at the swirl on its belly causes drowsiness.\nThis trait of Poliwhirl's has been used in place of\nlullabies to get children to go to sleep."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Knuckle Punch"
+			'en-us': "Knuckle Punch"
 		},
 
 		damage: 40,

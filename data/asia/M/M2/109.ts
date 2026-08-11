@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イグニッションエネルギー",
+		'ja-jp': "イグニッションエネルギー",
 	},
 
 	illustrator: "",
@@ -13,7 +13,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		ja: "ポケモンについているこのカードは、自分の番の終わりにトラッシュする。このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。進化ポケモンについているなら、エネルギー3個ぶんとしてはたらく。",
+		'ja-jp': "ポケモンについているこのカードは、自分の番の終わりにトラッシュする。このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。進化ポケモンについているなら、エネルギー3個ぶんとしてはたらく。",
 	},
 
 	variants: [{"type": "holo"}],

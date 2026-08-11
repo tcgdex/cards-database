@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY trainer Kit (Noivern)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Noivern",
-		fr: "Bruyverne",
-		es: "Noivern",
-		it: "Noivern",
-		pt: "Noivern",
-		de: "UHaFnir"
+		'en-us': "Noivern",
+		'fr-fr': "Bruyverne",
+		'es-es': "Noivern",
+		'it-it': "Noivern",
+		'pt-br': "Noivern",
+		'de-de': "UHaFnir"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,34 +19,34 @@ const card: Card = {
 	category: "Pokemon",
 
 	description: {
-		en: "They fly around on moonless nights and attack careless prey. Nothing can beat them in a battle in the dark."
+		'en-us': "They fly around on moonless nights and attack careless prey. Nothing can beat them in a battle in the dark."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Second Bite",
-			fr: "Double Morsure"
+			'en-us': "Second Bite",
+			'fr-fr': "Double Morsure"
 		},
 
 		damage: "20+",
 
 		effect: {
-			en: "This attack does 10 more damage for each damage counter on your opponent’s Active Pokémon.",
-			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur le Pokémon Actif de votre adversaire."
+			'en-us': "This attack does 10 more damage for each damage counter on your opponent’s Active Pokémon.",
+			'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur le Pokémon Actif de votre adversaire."
 		}
 	}, {
 		name: {
-			en: "Sonic Bazooka",
-			fr: "Canon Supersonique"
+			'en-us': "Sonic Bazooka",
+			'fr-fr': "Canon Supersonique"
 		},
 
 		damage: "60+",
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage and your opponent’s Active Pokémon is now Confused.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires et le Pokémon Actif de votre adversaire est maintenant Confus."
+			'en-us': "Flip a coin. If heads, this attack does 30 more damage and your opponent’s Active Pokémon is now Confused.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires et le Pokémon Actif de votre adversaire est maintenant Confus."
 		}
 	}],
 
@@ -54,12 +54,12 @@ const card: Card = {
 	types: ["Dragon"],
 
 	evolveFrom: {
-		en: "Noibat",
-		fr: "Sonistrelle",
-		es: "Noibat",
-		it: "Noibat",
-		pt: "Noibat",
-		de: "eF-eM"
+		'en-us': "Noibat",
+		'fr-fr': "Sonistrelle",
+		'es-es': "Noibat",
+		'it-it': "Noibat",
+		'pt-br': "Noibat",
+		'de-de': "eF-eM"
 	},
 
 	retreat: 1,

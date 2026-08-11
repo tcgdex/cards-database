@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wurmple"
+		'en-us': "Wurmple"
 	},
 
 	illustrator: "kirisAki",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "It lives among the tall grass and in forests. It repels\nattacks by raising up the spikes on its rear."
+		'en-us': "It lives among the tall grass and in forests. It repels\nattacks by raising up the spikes on its rear."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Ram"
+			'en-us': "Ram"
 		},
 
 		damage: 20,

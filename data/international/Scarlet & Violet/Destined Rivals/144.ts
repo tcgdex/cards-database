@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Steven's Metang",
-		fr: "Métang de Pierre",
-		de: "Troys Metang",
-		it: "Metang di Rocco",
-		es: "Metang de Máximo",
-		pt: "Metang do Steven",
+		'en-us': "Steven's Metang",
+		'fr-fr': "Métang de Pierre",
+		'de-de': "Troys Metang",
+		'it-it': "Metang di Rocco",
+		'es-es': "Metang de Máximo",
+		'pt-br': "Metang do Steven",
 		'es-mx': "Metang de Steven"
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Metal"],
 	evolveFrom: {
-		en: "Steven's Beldum",
-		fr: "Terhal de Pierre",
-		de: "Troys Tanhel",
-		it: "Beldum di Rocco",
-		es: "Beldum de Máximo",
-		pt: "Beldum do Steven",
+		'en-us': "Steven's Beldum",
+		'fr-fr': "Terhal de Pierre",
+		'de-de': "Troys Tanhel",
+		'it-it': "Beldum di Rocco",
+		'es-es': "Beldum de Máximo",
+		'pt-br': "Beldum do Steven",
 		'es-mx': "Beldum de Steven"
 	},
 	stage: "Stage1",
@@ -37,22 +37,22 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			en: "Metal Slash",
-			fr: "Tranche Métallique",
-			de: "Metallschlitzer",
-			it: "Lacerametallo",
-			es: "Tajo Metálico",
-			pt: "Talho de Metal",
+			'en-us': "Metal Slash",
+			'fr-fr': "Tranche Métallique",
+			'de-de': "Metallschlitzer",
+			'it-it': "Lacerametallo",
+			'es-es': "Tajo Metálico",
+			'pt-br': "Talho de Metal",
 			'es-mx': "Cuchillada Metálica"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
 			'es-mx': "Durante tu próximo turno, este Pokémon no puede atacar."
 		},
 

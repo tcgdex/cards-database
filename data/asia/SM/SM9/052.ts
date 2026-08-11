@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マンキー",
+		'ja-jp': "マンキー",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ちょっとしたことで すぐ 怒る。 ストレスを ため込まないので かなり 長生きする ポケモンだ。",
+		'ja-jp': "ちょっとしたことで すぐ 怒る。 ストレスを ため込まないので かなり 長生きする ポケモンだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "さぐる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手の手札を見る。",
+				'ja-jp': "相手の手札を見る。",
 			},
 		},
 		{

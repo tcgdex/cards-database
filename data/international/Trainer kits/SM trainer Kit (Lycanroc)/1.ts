@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM trainer Kit (Lycanroc)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Caterpie",
-		fr: "Chenipan",
-		es: "Caterpie",
-		it: "Caterpie",
-		pt: "Caterpie",
-		de: "Raupy"
+		'en-us': "Caterpie",
+		'fr-fr': "Chenipan",
+		'es-es': "Caterpie",
+		'it-it': "Caterpie",
+		'pt-br': "Caterpie",
+		'de-de': "Raupy"
 	},
 
 	illustrator: "Kanako Eo",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nap"
+				'en-us': "Nap"
 			},
 			effect: {
-				en: "Heal 20 damage from this Pokémon."
+				'en-us': "Heal 20 damage from this Pokémon."
 			}
 		},
 		{
@@ -39,7 +39,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw"
+				'en-us': "Gnaw"
 			},
 			damage: 20
 		},

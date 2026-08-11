@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユンゲラー"
+		'ja-jp': "ユンゲラー"
 	},
 	illustrator: "Saboteri",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Psychic"],
 	description: {
-		ja: "念力の威力は絶大。進化に備えて額の星にサイコパワーを蓄えている。"
+		'ja-jp': "念力の威力は絶大。進化に備えて額の星にサイコパワーを蓄えている。"
 	},
 	stage: "Stage1",
 	variants: [
@@ -25,20 +25,20 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ケーシィ"
+		'ja-jp': "ケーシィ"
 	},
 	abilities: [{
 		type: "Ability",
 		name: {
-			ja: "サイコドロー"
+			'ja-jp': "サイコドロー"
 		},
 		effect: {
-			ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札を2枚引く。"
+			'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札を2枚引く。"
 		}
 	}],
 	attacks: [{
 		name: {
-			ja: "ちょうねんりき"
+			'ja-jp': "ちょうねんりき"
 		},
 		damage: 30,
 		cost: ["Psychic"]

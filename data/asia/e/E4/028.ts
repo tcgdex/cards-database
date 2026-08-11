@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オマニテ",
+		'ja-jp': "オマニテ",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "進化の水",
+				'ja-jp': "進化の水",
 			},
 			effect: {
-				ja: "Omanyteに手からオマスターを置きます。これは進化するオマニテとしてカウントされます。",
+				'ja-jp': "Omanyteに手からオマスターを置きます。これは進化するオマニテとしてカウントされます。",
 			},
 		},
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "ドラッグします",
+				'ja-jp': "ドラッグします",
 			},
 			effect: {
-				ja: "ダメージを与える前に、対戦相手のベンチポケモンの1つを選択し、防御ポケモンに切り替えることができます。",
+				'ja-jp': "ダメージを与える前に、対戦相手のベンチポケモンの1つを選択し、防御ポケモンに切り替えることができます。",
 			},
 			damage: 20,
 		},

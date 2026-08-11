@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Garbodor"
+		'id-id': "Garbodor"
 	},
 
 	illustrator: "Aya Kusube",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Cairan beracun yang dikeluarkan dari lengan kanan Garbodor sangat berbahaya, sehingga makhluk hidup yang sedang lemah akan mati seketika jika bermandikan cairan tersebut."
+		'id-id': "Cairan beracun yang dikeluarkan dari lengan kanan Garbodor sangat berbahaya, sehingga makhluk hidup yang sedang lemah akan mati seketika jika bermandikan cairan tersebut."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Lempar Buang"
+			'id-id': "Lempar Buang"
 		},
 
 		effect: {
-			id: "Buang sesukanya Pokémon Tool dari Kartu Pegangan sendiri ke Trash, serangan ini memberikan kerusakan sejumlah 50 untuk tiap lembarnya."
+			'id-id': "Buang sesukanya Pokémon Tool dari Kartu Pegangan sendiri ke Trash, serangan ini memberikan kerusakan sejumlah 50 untuk tiap lembarnya."
 		},
 
 		damage: "50×",
 		cost: ["Darkness"]
 	}, {
 		name: {
-			id: "Venom Hit"
+			'id-id': "Venom Hit"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Racun."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Racun."
 		},
 
 		damage: 80,

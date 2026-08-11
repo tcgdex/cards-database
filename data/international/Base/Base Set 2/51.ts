@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Magmar",
+		'en-us': "Magmar",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -30,7 +30,7 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fire Punch",
+				'en-us': "Fire Punch",
 			},
 
 			damage: 30,
@@ -43,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
+				'en-us': "Flamethrower",
 			},
 			effect: {
-				en: "Discard 1 Energy card attached to Magmar in order to use this attack.",
+				'en-us': "Discard 1 Energy card attached to Magmar in order to use this attack.",
 			},
 			damage: 50,
 
@@ -63,7 +63,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
+		'en-us': "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
 	},
 
 

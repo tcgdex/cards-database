@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Lucario",
-		fr: "Lucario",
+		'en-us': "Lucario",
+		'fr-fr': "Lucario",
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Fighting",
 	],
 	evolveFrom: {
-		en: "Riolu",
-		fr: "Riolu",
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
 	},
 	stage: "Stage1",
 
@@ -28,11 +28,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Intuition",
+				'en-us': "Intuition",
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may draw 2 cards.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez piocher 2 cartes.",
+				'en-us': "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may draw 2 cards.",
+				'fr-fr': "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez piocher 2 cartes.",
 			},
 		},
 	],
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fast Punch",
-				fr: "Poing Rapide",
+				'en-us': "Fast Punch",
+				'fr-fr': "Poing Rapide",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: "60+",
 
@@ -68,7 +68,7 @@ const card: Card = {
 
 
 	description: {
-		en: "By reading the auras of all things, it can tell how others are feeling from over half a mile away.",
+		'en-us': "By reading the auras of all things, it can tell how others are feeling from over half a mile away.",
 	},
 }
 

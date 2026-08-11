@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gabite",
-		fr: "Carmache",
-		es: "Gabite",
-		it: "Gabite",
-		pt: "Gabite",
-		de: "Knarksel"
+		'en-us': "Gabite",
+		'fr-fr': "Carmache",
+		'es-es': "Gabite",
+		'it-it': "Gabite",
+		'pt-br': "Gabite",
+		'de-de': "Knarksel"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Gible",
-		fr: "Griknot",
-		es: "Gible",
-		it: "Gible",
-		pt: "Gible",
-		de: "Kaumalat"
+		'en-us': "Gible",
+		'fr-fr': "Griknot",
+		'es-es': "Gible",
+		'it-it': "Gible",
+		'pt-br': "Gible",
+		'de-de': "Kaumalat"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Power Blast",
-			fr: "Violente Déflagration",
-			es: "Estallido Vigoroso",
-			it: "Forzacolpo",
-			pt: "Explosão Poderosa",
-			de: "Powerschuss"
+			'en-us': "Power Blast",
+			'fr-fr': "Violente Déflagration",
+			'es-es': "Estallido Vigoroso",
+			'it-it': "Forzacolpo",
+			'pt-br': "Explosão Poderosa",
+			'de-de': "Powerschuss"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte uma Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 50
@@ -62,7 +62,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "In rare cases, it molts and sheds its scales. Medicine containing its scales as an ingredient will make a weary body feel invigorated.",
+		'en-us': "In rare cases, it molts and sheds its scales. Medicine containing its scales as an ingredient will make a weary body feel invigorated.",
 	},
 
 	variants: [

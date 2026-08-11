@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リーフィアex",
+		'ja-jp': "リーフィアex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "60×",
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "相手のポケモン全員についているエネルギーの数×60ダメージ。",
+				'ja-jp': "相手のポケモン全員についているエネルギーの数×60ダメージ。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 230,
 			cost: ["Grass", "Fire", "Water"],
 			effect: {
-				ja: "自分のベンチポケモン全員のHPを、それぞれ「100」回復する。",
+				'ja-jp': "自分のベンチポケモン全員のHPを、それぞれ「100」回復する。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 2,

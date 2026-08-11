@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HGSS Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Porygon2",
-		fr: "Porygon2"
+		'en-us': "Porygon2",
+		'fr-fr': "Porygon2"
 	},
 	illustrator: "TOKIYA",
 	rarity: "Promo",
@@ -17,8 +17,8 @@ const card: Card = {
 		"Colorless"
 	],
 	evolveFrom: {
-		en: "Porygon",
-		fr: "Porygon"
+		'en-us': "Porygon",
+		'fr-fr': "Porygon"
 	},
 	stage: "Stage1",
 
@@ -26,12 +26,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Shortcut",
-				fr: "Raccourci"
+				'en-us': "Shortcut",
+				'fr-fr': "Raccourci"
 			},
 			effect: {
-				en: "The Retreat Cost for each Porygon, Porygon2, and Porygon-Z you have in play is Colorless less.",
-				fr: "Le Coût de retraite de chacun de vos Porygon, Porygon2 et Porygon-Z en jeu est diminué de ."
+				'en-us': "The Retreat Cost for each Porygon, Porygon2, and Porygon-Z you have in play is Colorless less.",
+				'fr-fr': "Le Coût de retraite de chacun de vos Porygon, Porygon2 et Porygon-Z en jeu est diminué de ."
 			}
 		},
 	],
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reckless Charge",
-				fr: "Attaque imprudente"
+				'en-us': "Reckless Charge",
+				'fr-fr': "Attaque imprudente"
 			},
 			effect: {
-				en: "Porygon2 does 10 damage to itself.",
-				fr: "Porygon2 s'inflige 10 dégâts."
+				'en-us': "Porygon2 does 10 damage to itself.",
+				'fr-fr': "Porygon2 s'inflige 10 dégâts."
 			},
 			damage: 50,
 
@@ -64,7 +64,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This upgraded version of Porygon is designed for space exploration. It can't fly, though."
+		'en-us': "This upgraded version of Porygon is designed for space exploration. It can't fly, though."
 	},
 
 	variants: [

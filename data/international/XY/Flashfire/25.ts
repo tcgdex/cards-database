@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Sealeo",
-		fr: "Phogleur",
-		es: "Sealeo",
-		it: "Sealeo",
-		pt: "Sealeo",
-		de: "Seejong"
+		'en-us': "Sealeo",
+		'fr-fr': "Phogleur",
+		'es-es': "Sealeo",
+		'it-it': "Sealeo",
+		'pt-br': "Sealeo",
+		'de-de': "Seejong"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spheal",
-		fr: "Obalie",
-		es: "Spheal",
-		it: "Spheal",
-		pt: "Spheal",
-		de: "Seemops"
+		'en-us': "Spheal",
+		'fr-fr': "Obalie",
+		'es-es': "Spheal",
+		'it-it': "Spheal",
+		'pt-br': "Spheal",
+		'de-de': "Seemops"
 	},
 
 	stage: "Stage1",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rest",
-				fr: "Repos",
-				es: "Descanso",
-				it: "Riposo",
-				pt: "Descansar",
-				de: "Erholung"
+				'en-us': "Rest",
+				'fr-fr': "Repos",
+				'es-es': "Descanso",
+				'it-it': "Riposo",
+				'pt-br': "Descansar",
+				'de-de': "Erholung"
 			},
 			effect: {
-				en: "Heal 60 damage from this Pokémon. This Pokémon is now Asleep.",
-				fr: "Soignez 60 dégâts à ce Pokémon. Ce Pokémon est maintenant Endormi.",
-				es: "Cura 60 puntos de daño a este Pokémon. Este Pokémon pasa a estar Dormido.",
-				it: "Cura questo Pokémon da 60 danni. Questo Pokémon viene addormentato.",
-				pt: "Cure 60 de danos deste Pokémon. Este Pokémon agora está Adormecido.",
-				de: "Heile 60 Schadenspunkte bei diesem Pokémon. Dieses Pokémon schläft jetzt."
+				'en-us': "Heal 60 damage from this Pokémon. This Pokémon is now Asleep.",
+				'fr-fr': "Soignez 60 dégâts à ce Pokémon. Ce Pokémon est maintenant Endormi.",
+				'es-es': "Cura 60 puntos de daño a este Pokémon. Este Pokémon pasa a estar Dormido.",
+				'it-it': "Cura questo Pokémon da 60 danni. Questo Pokémon viene addormentato.",
+				'pt-br': "Cure 60 de danos deste Pokémon. Este Pokémon agora está Adormecido.",
+				'de-de': "Heile 60 Schadenspunkte bei diesem Pokémon. Dieses Pokémon schläft jetzt."
 			},
 
 		},
@@ -68,12 +68,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Ball",
-				fr: "Ball'Glace",
-				es: "Bola Hielo",
-				it: "Palla Gelo",
-				pt: "Bola de Gelo",
-				de: "Frostbeule"
+				'en-us': "Ice Ball",
+				'fr-fr': "Ball'Glace",
+				'es-es': "Bola Hielo",
+				'it-it': "Palla Gelo",
+				'pt-br': "Bola de Gelo",
+				'de-de': "Frostbeule"
 			},
 
 			damage: 60,
@@ -91,7 +91,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It has a very sensitive nose. It touches new things with its nose to examine them.",
+		'en-us': "It has a very sensitive nose. It touches new things with its nose to examine them.",
 	},
 
 	thirdParty: {

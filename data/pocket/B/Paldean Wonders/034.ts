@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Frigodo",
-		en: "Frigibax",
-		es: "Frigibax",
-		it: "Frigibax",
-		pt: "Frigibax",
-		de: "Frospino"
+		'fr-fr': "Frigodo",
+		'en-us': "Frigibax",
+		'es-es': "Frigibax",
+		'it-it': "Frigibax",
+		'pt-br': "Frigibax",
+		'de-de': "Frospino"
   },
   illustrator: "AKIRA EGAWA",
   rarity: "One Diamond",

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Bidoof",
-		fr: "Keunotor",
-		es: "Bidoof",
-		it: "Bidoof",
-		pt: "Bidoof",
-		de: "Bidiza"
+		'en-us': "Bidoof",
+		'fr-fr': "Keunotor",
+		'es-es': "Bidoof",
+		'it-it': "Bidoof",
+		'pt-br': "Bidoof",
+		'de-de': "Bidiza"
 	},
 
 	illustrator: "match",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bang Heads",
-				fr: "Choc Frontal",
+				'en-us': "Bang Heads",
+				'fr-fr': "Choc Frontal",
 			},
 			effect: {
-				en: "Both this Pokémon and the Defending Pokémon are now Confused.",
-				fr: "Ce Pokémon et le Pokémon Défenseur sont maintenant Confus.",
+				'en-us': "Both this Pokémon and the Defending Pokémon are now Confused.",
+				'fr-fr': "Ce Pokémon et le Pokémon Défenseur sont maintenant Confus.",
 			},
 			damage: 20,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A comparison revealed that Bidoof's front teeth grow at the same rate as Rattata's.",
+		'en-us': "A comparison revealed that Bidoof's front teeth grow at the same rate as Rattata's.",
 	},
 
 	thirdParty: {

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Emolga",
-		fr: "Emolga"
+		'en-us': "Emolga",
+		'fr-fr': "Emolga"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -18,24 +18,24 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "As Emolga flutters through the air, it crackles\nwith electricity. This Pokémon is cute, but it can\ncause a lot of trouble.",
-		fr: "Il virevolte dans le ciel en libérant des gerbes d'électricité. Son vol est gracieux, mais peut s'avérer dangereux."
+		'en-us': "As Emolga flutters through the air, it crackles\nwith electricity. This Pokémon is cute, but it can\ncause a lot of trouble.",
+		'fr-fr': "Il virevolte dans le ciel en libérant des gerbes d'électricité. Son vol est gracieux, mais peut s'avérer dangereux."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Raging Thunder",
-			fr: "Tonnerre Déchaîné"
+			'en-us': "Raging Thunder",
+			'fr-fr': "Tonnerre Déchaîné"
 		},
 
 		damage: 40,
 		cost: ["Lightning"],
 
 		effect: {
-			en: "This attack also does 10 damage to 1 of your Benched Pokémon.",
-			fr: "Cette attaque inflige aussi 10 dégâts à un de vos Pokémon de Banc."
+			'en-us': "This attack also does 10 damage to 1 of your Benched Pokémon.",
+			'fr-fr': "Cette attaque inflige aussi 10 dégâts à un de vos Pokémon de Banc."
 		}
 	}],
 

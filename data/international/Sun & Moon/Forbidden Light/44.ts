@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Espurr",
-		fr: "Psystigri",
-		es: "Espurr",
-		it: "Espurr",
-		pt: "Espurr",
-		de: "Psiau"
+		'en-us': "Espurr",
+		'fr-fr': "Psystigri",
+		'es-es': "Espurr",
+		'it-it': "Espurr",
+		'pt-br': "Espurr",
+		'de-de': "Psiau"
 	},
 
 	illustrator: "0313",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Energy Teaser",
-				fr: "Énergie Provocante",
-				es: "Señuelo Energía",
-				it: "Dispetto Energetico",
-				pt: "Instigador de Energia",
-				de: "Energieköder"
+				'en-us': "Energy Teaser",
+				'fr-fr': "Énergie Provocante",
+				'es-es': "Señuelo Energía",
+				'it-it': "Dispetto Energetico",
+				'pt-br': "Instigador de Energia",
+				'de-de': "Energieköder"
 			},
 			effect: {
-				en: "Move an Energy from 1 of your opponent’s Benched Pokémon to another of their Pokémon.",
-				fr: "Déplacez une Énergie de l’un des Pokémon de Banc de votre adversaire vers un autre de ses Pokémon.",
-				es: "Mueve 1 Energía de 1 de los Pokémon en Banca de tu rival a otro de sus Pokémon.",
-				it: "Sposta un’Energia da uno dei Pokémon in panchina del tuo avversario a un altro dei suoi Pokémon.",
-				pt: "Mova 1 Energia de 1 dos Pokémon no Banco do seu oponente para outro Pokémon dele(a).",
-				de: "Verschiebe 1 Energie von 1 Pokémon auf der Bank deines Gegners auf 1 anderes seiner Pokémon."
+				'en-us': "Move an Energy from 1 of your opponent’s Benched Pokémon to another of their Pokémon.",
+				'fr-fr': "Déplacez une Énergie de l’un des Pokémon de Banc de votre adversaire vers un autre de ses Pokémon.",
+				'es-es': "Mueve 1 Energía de 1 de los Pokémon en Banca de tu rival a otro de sus Pokémon.",
+				'it-it': "Sposta un’Energia da uno dei Pokémon in panchina del tuo avversario a un altro dei suoi Pokémon.",
+				'pt-br': "Mova 1 Energia de 1 dos Pokémon no Banco do seu oponente para outro Pokémon dele(a).",
+				'de-de': "Verschiebe 1 Energie von 1 Pokémon auf der Bank deines Gegners auf 1 anderes seiner Pokémon."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has enough psychic energy to blast everything within 300 feet of itself, but it has no control over its power.",
+		'en-us': "It has enough psychic energy to blast everything within 300 feet of itself, but it has no control over its power.",
 	},
 
 	thirdParty: {

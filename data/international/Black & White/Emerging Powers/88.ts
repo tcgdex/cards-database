@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Braviary",
-		fr: "Gueriaigle",
-		es: "Braviary",
-		it: "Braviary",
-		pt: "Braviary",
-		de: "Washakwil"
+		'en-us': "Braviary",
+		'fr-fr': "Gueriaigle",
+		'es-es': "Braviary",
+		'it-it': "Braviary",
+		'pt-br': "Braviary",
+		'de-de': "Washakwil"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rufflet",
-		fr: "Furaiglon",
+		'en-us': "Rufflet",
+		'fr-fr': "Furaiglon",
 	},
 
 	stage: "Stage1",
@@ -40,8 +40,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-Aile",
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-Aile",
 			},
 
 			damage: 40,
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Brave Bird",
-				fr: "Rapace",
+				'en-us': "Brave Bird",
+				'fr-fr': "Rapace",
 			},
 			effect: {
-				en: "This Pokémon does 30 damage to itself.",
-				fr: "Ce Pokémon s'inflige 30 dégâts.",
+				'en-us': "This Pokémon does 30 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 30 dégâts.",
 			},
 			damage: 90,
 
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The more scars they have, the more respect these brave soldiers of the sky get from their peers.",
+		'en-us': "The more scars they have, the more respect these brave soldiers of the sky get from their peers.",
 	},
 
 	thirdParty: {

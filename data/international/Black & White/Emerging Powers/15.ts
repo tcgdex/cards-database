@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Deerling",
-		fr: "Vivaldaim",
-		es: "Deerling",
-		it: "Deerling",
-		pt: "Deerling",
-		de: "Sesokitz"
+		'en-us': "Deerling",
+		'fr-fr': "Vivaldaim",
+		'es-es': "Deerling",
+		'it-it': "Deerling",
+		'pt-br': "Deerling",
+		'de-de': "Sesokitz"
 	},
 
 	illustrator: "sui",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
 			},
 
 			damage: 10,
@@ -47,12 +47,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Wild Kick",
-				fr: "Coup Déchaîné",
+				'en-us': "Wild Kick",
+				'fr-fr': "Coup Déchaîné",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 			},
 			damage: 40,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The turning of the seasons changes the color and scent of this Pokémon's fur. People use it to mark the seasons.",
+		'en-us': "The turning of the seasons changes the color and scent of this Pokémon's fur. People use it to mark the seasons.",
 	},
 
 	thirdParty: {

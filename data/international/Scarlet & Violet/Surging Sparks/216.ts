@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scovillain ex",
-		fr: "Scovilain-ex",
-		es: "Scovillain ex",
-		it: "Scovillain-ex",
-		pt: "Scovillain ex",
-		de: "Halupenjo-ex"
+		'en-us': "Scovillain ex",
+		'fr-fr': "Scovilain-ex",
+		'es-es': "Scovillain ex",
+		'it-it': "Scovillain-ex",
+		'pt-br': "Scovillain ex",
+		'de-de': "Halupenjo-ex"
 	},
 
 	rarity: "Ultra Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 260,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Capsakid",
-		fr: "Pimito",
-		es: "Capsakid",
-		it: "Capsakid",
-		pt: "Capsakid",
-		de: "Chilingel"
+		'en-us': "Capsakid",
+		'fr-fr': "Pimito",
+		'es-es': "Capsakid",
+		'it-it': "Capsakid",
+		'pt-br': "Capsakid",
+		'de-de': "Chilingel"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Double Type",
-			fr: "Type Double",
-			es: "Doble Tipo",
-			it: "Doppio Tipo",
-			pt: "Tipo Duplo",
-			de: "Doppeltyp"
+			'en-us': "Double Type",
+			'fr-fr': "Type Double",
+			'es-es': "Doble Tipo",
+			'it-it': "Doppio Tipo",
+			'pt-br': "Tipo Duplo",
+			'de-de': "Doppeltyp"
 		},
 
 		effect: {
-			en: "As long as this Pokémon is in play, it is {G} and {R} type.",
-			fr: "Tant que ce Pokémon est en jeu, il est de type {G} et {R}.",
-			es: "Mientras este Pokémon esté en juego, es de tipo {G} y {R}.",
-			it: "Fintanto che questo Pokémon è in gioco, è di tipo {G} e {R}.",
-			pt: "Enquanto este Pokémon estiver em jogo, será um Pokémon de tipo {G} e {R}.",
-			de: "Solange dieses Pokémon im Spiel ist, ist es vom Typ {G} und {R}."
+			'en-us': "As long as this Pokémon is in play, it is {G} and {R} type.",
+			'fr-fr': "Tant que ce Pokémon est en jeu, il est de type {G} et {R}.",
+			'es-es': "Mientras este Pokémon esté en juego, es de tipo {G} y {R}.",
+			'it-it': "Fintanto che questo Pokémon è in gioco, è di tipo {G} e {R}.",
+			'pt-br': "Enquanto este Pokémon estiver em jogo, será um Pokémon de tipo {G} e {R}.",
+			'de-de': "Solange dieses Pokémon im Spiel ist, ist es vom Typ {G} und {R}."
 		}
 	}],
 
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			en: "Spicy Rage",
-			fr: "Frénésie Pimentée",
-			es: "Furia Picante",
-			it: "Ira Piccante",
-			pt: "Ira Apimentada",
-			de: "Scharfer Zorn"
+			'en-us': "Spicy Rage",
+			'fr-fr': "Frénésie Pimentée",
+			'es-es': "Furia Picante",
+			'it-it': "Ira Piccante",
+			'pt-br': "Ira Apimentada",
+			'de-de': "Scharfer Zorn"
 		},
 
 		effect: {
-			en: "This attack does 70 more damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 70 dégâts supplémentaires pour chaque marqueur de dégâts sur ce Pokémon.",
-			es: "Este ataque hace 70 puntos de daño más por cada contador de daño en este Pokémon.",
-			it: "Questo attacco infligge 70 danni in più per ogni segnalino danno presente su questo Pokémon.",
-			pt: "Este ataque causa 70 pontos de dano a mais para cada contador de dano neste Pokémon.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 70 Schadenspunkte mehr zu."
+			'en-us': "This attack does 70 more damage for each damage counter on this Pokémon.",
+			'fr-fr': "Cette attaque inflige 70 dégâts supplémentaires pour chaque marqueur de dégâts sur ce Pokémon.",
+			'es-es': "Este ataque hace 70 puntos de daño más por cada contador de daño en este Pokémon.",
+			'it-it': "Questo attacco infligge 70 danni in più per ogni segnalino danno presente su questo Pokémon.",
+			'pt-br': "Este ataque causa 70 pontos de dano a mais para cada contador de dano neste Pokémon.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 70 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"

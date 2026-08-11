@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1V"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヤドン"
+		'ja-jp': "ヤドン"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "いつも ボーッとしていて なにを 考えているか わからない。 尻尾で エサを 釣るのが 得意。"
+		'ja-jp': "いつも ボーッとしていて なにを 考えているか わからない。 尻尾で エサを 釣るのが 得意。"
 	},
 
 	stage: "Basic",
@@ -24,17 +24,17 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ねむる"
+			'ja-jp': "ねむる"
 		},
 
 		effect: {
-			ja: "このポケモンをねむりにする。このポケモンのHPを「30」回復する。"
+			'ja-jp': "このポケモンをねむりにする。このポケモンのHPを「30」回復する。"
 		}
 	}, {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			ja: "ずつき"
+			'ja-jp': "ずつき"
 		},
 
 		damage: 20

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Kadabra"
+		'en-us': "Kadabra"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Abra"
+		'en-us': "Abra"
 	},
 
 	stage: "Stage1",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Recover"
+				'en-us': "Recover"
 			},
 			effect: {
-				en: "Discard 1 Psychic Energy card attached to Kadabra or this attack does nothing. Remove all damage counters from Kadabra."
+				'en-us': "Discard 1 Psychic Energy card attached to Kadabra or this attack does nothing. Remove all damage counters from Kadabra."
 			},
 
 		},
@@ -46,7 +46,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Psy"
+				'en-us': "Super Psy"
 			},
 
 			damage: 50,
@@ -64,7 +64,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It emits special alpha waves from its body that induce headaches even to those just nearby."
+		'en-us': "It emits special alpha waves from its body that induce headaches even to those just nearby."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブルー",
+		'ja-jp': "ブルー",
 	},
 
 	illustrator: "Gapao",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "じつは 臆病な 性格。 怯えているのが ばれないように 必死に 唸り声を あげる。",
+		'ja-jp': "じつは 臆病な 性格。 怯えているのが ばれないように 必死に 唸り声を あげる。",
 	},
 
 	stage: "Basic",

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Gulpin",
-		fr: "Gloupti",
-		de: "Schluppuck"
+		'en-us': "Gulpin",
+		'fr-fr': "Gloupti",
+		'de-de': "Schluppuck"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Headbutt"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Headbutt"
 			},
 
 			damage: 10,
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drool",
-				fr: "Gluant",
-				de: "Drool"
+				'en-us': "Drool",
+				'fr-fr': "Gluant",
+				'de-de': "Drool"
 			},
 
 			damage: 20,

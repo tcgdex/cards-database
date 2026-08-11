@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Treecko Star",
+		'ja-jp': "Treecko Star",
 	},
 
 	rarity: "Shiny rare",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "取り組む",
+				'ja-jp': "取り組む",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "バックバック",
+				'ja-jp': "バックバック",
 			},
 			effect: {
-				ja: "対戦相手が1枚の賞カードしか残っていない場合、この攻撃は20ダメージに加えて50ダメージを与え、ディフェンディングポケモンが毒されます。",
+				'ja-jp': "対戦相手が1枚の賞カードしか残っていない場合、この攻撃は20ダメージに加えて50ダメージを与え、ディフェンディングポケモンが毒されます。",
 			},
 		},
 	],

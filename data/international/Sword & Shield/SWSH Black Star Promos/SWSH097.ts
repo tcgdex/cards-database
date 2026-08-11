@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
@@ -8,12 +8,12 @@ const card: Card = {
 	stage: "VMAX",
 
 	name: {
-		en: "Dragapult VMAX",
-		fr: "Lanssorien VMAX",
-		de: "Katapuldra VMAX",
-		es: "Dragapult VMAX",
-		pt: "Dragapult VMAX",
-		it: "Dragapult VMAX"
+		'en-us': "Dragapult VMAX",
+		'fr-fr': "Lanssorien VMAX",
+		'de-de': "Katapuldra VMAX",
+		'es-es': "Dragapult VMAX",
+		'pt-br': "Dragapult VMAX",
+		'it-it': "Dragapult VMAX"
 	},
 
 	rarity: "Promo",
@@ -22,33 +22,33 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Dragapult V",
-		fr: "Lanssorien-V",
-		de: "Katapuldra-V",
-		es: "Dragapult V",
-		pt: "Dragapult V",
-		it: "Dragapult-V"
+		'en-us': "Dragapult V",
+		'fr-fr': "Lanssorien-V",
+		'de-de': "Katapuldra-V",
+		'es-es': "Dragapult V",
+		'pt-br': "Dragapult V",
+		'it-it': "Dragapult-V"
 	},
 
 	attacks: [{
 		cost: ["Psychic"],
 
 		name: {
-			en: "Shred",
-			fr: "Déchiquetage",
-			de: "Zerfetzer",
-			es: "Hacer Trizas",
-			pt: "Triturar",
-			it: "Tritatutto"
+			'en-us': "Shred",
+			'fr-fr': "Déchiquetage",
+			'de-de': "Zerfetzer",
+			'es-es': "Hacer Trizas",
+			'pt-br': "Triturar",
+			'it-it': "Tritatutto"
 		},
 
 		effect: {
-			en: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
-			fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
-			de: "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert.",
-			es: "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
-			pt: "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente.",
-			it: "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario."
+			'en-us': "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
+			'fr-fr': "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
+			'de-de': "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert.",
+			'es-es': "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
+			'pt-br': "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente.",
+			'it-it': "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario."
 		},
 
 		damage: 60
@@ -56,21 +56,21 @@ const card: Card = {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			en: "Max Phantom",
-			fr: "Fantômax",
-			de: "Dyna-Phantom",
-			es: "Maxifantasma",
-			pt: "Fantasma Max",
-			it: "Dynaspettro"
+			'en-us': "Max Phantom",
+			'fr-fr': "Fantômax",
+			'de-de': "Dyna-Phantom",
+			'es-es': "Maxifantasma",
+			'pt-br': "Fantasma Max",
+			'it-it': "Dynaspettro"
 		},
 
 		effect: {
-			en: "Put 5 damage counters on your opponent's Benched Pokémon in any way you like.",
-			fr: "Placez 5 marqueurs de dégâts sur les Pokémon de Banc de votre adversaire comme il vous plaît.",
-			de: "Lege 5 Schadensmarken beliebig auf die Pokémon auf der Bank deines Gegners.",
-			es: "Pon 5 contadores de daño en los Pokémon en Banca de tu rival de la manera que desees.",
-			pt: "Coloque 5 contadores de dano nos Pokémon no Banco do seu oponente como desejar.",
-			it: "Metti cinque segnalini danno sui Pokémon nella panchina del tuo avversario nel modo che preferisci."
+			'en-us': "Put 5 damage counters on your opponent's Benched Pokémon in any way you like.",
+			'fr-fr': "Placez 5 marqueurs de dégâts sur les Pokémon de Banc de votre adversaire comme il vous plaît.",
+			'de-de': "Lege 5 Schadensmarken beliebig auf die Pokémon auf der Bank deines Gegners.",
+			'es-es': "Pon 5 contadores de daño en los Pokémon en Banca de tu rival de la manera que desees.",
+			'pt-br': "Coloque 5 contadores de dano nos Pokémon no Banco do seu oponente como desejar.",
+			'it-it': "Metti cinque segnalini danno sui Pokémon nella panchina del tuo avversario nel modo che preferisci."
 		},
 
 		damage: 130

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "輝くチャリザード",
+		'ja-jp': "輝くチャリザード",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Fire", "Fire", "Fire", "Lightning", "Lightning"],
 			name: {
-				ja: "ホワイトホットの炎",
+				'ja-jp': "ホワイトホットの炎",
 			},
 			effect: {
-				ja: "輝くチャリザードに取り付けられた1つの消防エネルギーカードと1枚の稲妻エネルギーカードを捨てるか、この攻撃は何もしません。コインをひっくり返します。尾の場合、輝くカリザードはそれ自体に30のダメージを与えます。",
+				'ja-jp': "輝くチャリザードに取り付けられた1つの消防エネルギーカードと1枚の稲妻エネルギーカードを捨てるか、この攻撃は何もしません。コインをひっくり返します。尾の場合、輝くカリザードはそれ自体に30のダメージを与えます。",
 			},
 			damage: 100,
 		},

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magneton",
-		fr: "Magnéton",
-		es: "Magneton",
-		it: "Magneton",
-		pt: "Magneton",
-		de: "Magneton"
+		'en-us': "Magneton",
+		'fr-fr': "Magnéton",
+		'es-es': "Magneton",
+		'it-it': "Magneton",
+		'pt-br': "Magneton",
+		'de-de': "Magneton"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Magnemite",
-		fr: "Magnéti",
-		es: "Magnemite",
-		it: "Magnemite",
-		pt: "Magnemite",
-		de: "Magnetilo"
+		'en-us': "Magnemite",
+		'fr-fr': "Magnéti",
+		'es-es': "Magnemite",
+		'it-it': "Magnemite",
+		'pt-br': "Magnemite",
+		'de-de': "Magnetilo"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			en: "Bounce Back",
-			fr: "Retour à l'Envoyeur",
-			es: "Recuperarse",
-			it: "Rimbalzo Indietro",
-			pt: "Ricochete de Retrocesso",
-			de: "Zurückprallen"
+			'en-us': "Bounce Back",
+			'fr-fr': "Retour à l'Envoyeur",
+			'es-es': "Recuperarse",
+			'it-it': "Rimbalzo Indietro",
+			'pt-br': "Ricochete de Retrocesso",
+			'de-de': "Zurückprallen"
 		},
 
 		effect: {
-			en: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
-			fr: "Votre adversaire échange son Pokémon Actif contre l'un de ses Pokémon de Banc.",
-			es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
-			it: "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
-			pt: "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
-			de: "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+			'en-us': "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
+			'fr-fr': "Votre adversaire échange son Pokémon Actif contre l'un de ses Pokémon de Banc.",
+			'es-es': "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
+			'it-it': "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
+			'pt-br': "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
+			'de-de': "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
 		},
 
 		damage: 50
@@ -72,7 +72,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon is three Magnemite that have linked together. Magneton sends out powerful radio waves to study its surroundings.",
+		'en-us': "This Pokémon is three Magnemite that have linked together. Magneton sends out powerful radio waves to study its surroundings.",
 	},
 
 	variants: [

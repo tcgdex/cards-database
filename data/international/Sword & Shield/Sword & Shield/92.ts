@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Diglett",
-		fr: "Taupiqueur",
-		es: "Diglett",
-		it: "Diglett",
-		pt: "Diglett",
-		de: "Digda"
+		'en-us': "Diglett",
+		'fr-fr': "Taupiqueur",
+		'es-es': "Diglett",
+		'it-it': "Diglett",
+		'pt-br': "Diglett",
+		'de-de': "Digda"
 	},
 
 	illustrator: "Hasegawa Saki",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				es: "Arañazo",
-				it: "Graffio",
-				pt: "Arranhão",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'es-es': "Arañazo",
+				'it-it': "Graffio",
+				'pt-br': "Arranhão",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,
@@ -60,7 +60,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "If a Diglett digs through a field, it leaves the soil perfectly tilled and ideal for planting crops."
+		'en-us': "If a Diglett digs through a field, it leaves the soil perfectly tilled and ideal for planting crops."
 	},
 
 	dexId: [50],

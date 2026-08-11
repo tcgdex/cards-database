@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ホゲータ"
+		'ja-jp': "ホゲータ"
 	},
 
 	illustrator: "kantaro",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "温かい 岩の上で 寝転び 四角い うろこから 取り込んだ 熱で 炎エネルギーを 作る。"
+		'ja-jp': "温かい 岩の上で 寝転び 四角い うろこから 取り込んだ 熱で 炎エネルギーを 作る。"
 	},
 
 	stage: "Basic",
@@ -24,17 +24,17 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ぼーっとする"
+			'ja-jp': "ぼーっとする"
 		},
 
 		effect: {
-			ja: "コインを1回投げオモテなら、このポケモンのHPを「30」回復する。"
+			'ja-jp': "コインを1回投げオモテなら、このポケモンのHPを「30」回復する。"
 		}
 	}, {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			ja: "ほのお"
+			'ja-jp': "ほのお"
 		},
 
 		damage: 30

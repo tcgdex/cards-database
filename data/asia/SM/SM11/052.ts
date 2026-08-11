@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アーケオス",
+		'ja-jp': "アーケオス",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "羽毛が 細かいので 熟練の 職人 でなければ 復元に 失敗するという 古代の ポケモン。",
+		'ja-jp': "羽毛が 細かいので 熟練の 職人 でなければ 復元に 失敗するという 古代の ポケモン。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アーケン",
+		'ja-jp': "アーケン",
 	},
 
 	retreat: 1,

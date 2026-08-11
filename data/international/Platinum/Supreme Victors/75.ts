@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Pinsir",
-		fr: "Scarabrute",
-		de: "Pinsir"
+		'en-us': "Pinsir",
+		'fr-fr': "Scarabrute",
+		'de-de': "Pinsir"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gripthrow",
-				fr: "Lance-grippe",
-				de: "Wurfgriff"
+				'en-us': "Gripthrow",
+				'fr-fr': "Lance-grippe",
+				'de-de': "Wurfgriff"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent returns the Defending Pokémon and all cards attached to it to his or her hand.",
-				fr: "Lancez une pièce. Si c'est face, votre adversaire reprend dans sa main le Pokémon Défenseur ainsi que toutes les cartes qui lui sont attachées.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" nimmt dein Gegner das Verteidigende Pokémon und alle Karten, die an es angelegt sind, auf seine Hand zurück."
+				'en-us': "Flip a coin. If heads, your opponent returns the Defending Pokémon and all cards attached to it to his or her hand.",
+				'fr-fr': "Lancez une pièce. Si c'est face, votre adversaire reprend dans sa main le Pokémon Défenseur ainsi que toutes les cartes qui lui sont attachées.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" nimmt dein Gegner das Verteidigende Pokémon und alle Karten, die an es angelegt sind, auf seine Hand zurück."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sever",
-				fr: "Couper",
-				de: "Abtrennen"
+				'en-us': "Sever",
+				'fr-fr': "Couper",
+				'de-de': "Abtrennen"
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Stage 2 Pokémon, this attack does 50 damage plus 30 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon de Niveau 2, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wenn das Verteidigende Pokémon ein Phase 2 Pokémon ist, fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "If the Defending Pokémon is a Stage 2 Pokémon, this attack does 50 damage plus 30 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon de Niveau 2, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "Wenn das Verteidigende Pokémon ein Phase 2 Pokémon ist, fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It grips prey with its pincers until the prey is torn in half. What it can't tear, it tosses far."
+		'en-us': "It grips prey with its pincers until the prey is torn in half. What it can't tear, it tosses far."
 	},
 
 	variants: [

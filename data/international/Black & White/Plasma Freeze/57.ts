@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Cofagrigus",
-		fr: "Tutankafer",
-		es: "Cofagrigus",
-		it: "Cofagrigus",
-		pt: "Cofagrigus",
-		de: "Echnatoll"
+		'en-us': "Cofagrigus",
+		'fr-fr': "Tutankafer",
+		'es-es': "Cofagrigus",
+		'it-it': "Cofagrigus",
+		'pt-br': "Cofagrigus",
+		'de-de': "Echnatoll"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Yamask",
-		fr: "Tutafeh",
+		'en-us': "Yamask",
+		'fr-fr': "Tutafeh",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Elongating Arms",
-				fr: "Bras à Rallonges",
+				'en-us': "Elongating Arms",
+				'fr-fr': "Bras à Rallonges",
 			},
 			effect: {
-				en: "This attack does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 30 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "This attack does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 30 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crazy Slap",
-				fr: "Gifle Folle",
+				'en-us': "Crazy Slap",
+				'fr-fr': "Gifle Folle",
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 40 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 4 coins. This attack does 40 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 40,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Grave robbers who mistake them for real coffins and get too close end up trapped inside their bodies.",
+		'en-us': "Grave robbers who mistake them for real coffins and get too close end up trapped inside their bodies.",
 	},
 
 	thirdParty: {

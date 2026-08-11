@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Clemont"
+		'en-us': "Clemont"
 	},
 
 	illustrator: "Teeziro",
@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Put 2 random cards from among Magneton, Heliolisk, and Clemont's Backpack from your deck into your hand."
+		'en-us': "Put 2 random cards from among Magneton, Heliolisk, and Clemont's Backpack from your deck into your hand."
 	},
 
 	trainerType: "Supporter"

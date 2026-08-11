@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Grovyle",
-		de: "Reptain"
+		'en-us': "Grovyle",
+		'de-de': "Reptain"
 	},
 
 	illustrator: "Tomoaki Imakuni",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Treecko"
+		'en-us': "Treecko"
 	},
 
 	stage: "Stage1",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Detect",
-				de: "Scanner"
+				'en-us': "Detect",
+				'de-de': "Scanner"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Grovyle during your opponent's next turn.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Reptain zugefügt würden."
+				'en-us': "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Grovyle during your opponent's next turn.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Reptain zugefügt würden."
 			},
 
 		},
@@ -47,8 +47,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blade Arms",
-				de: "Klingenarme"
+				'en-us': "Blade Arms",
+				'de-de': "Klingenarme"
 			},
 
 			damage: 30,
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch."
+		'en-us': "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch."
 	},
 
 	variants: [

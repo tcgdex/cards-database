@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Xatu",
-		fr: "Xatu",
-		de: "Xatu"
+		'en-us': "Xatu",
+		'fr-fr': "Xatu",
+		'de-de': "Xatu"
 	},
 
 	illustrator: "Midori Harada",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Natu",
-		fr: "Natu"
+		'en-us': "Natu",
+		'fr-fr': "Natu"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Healing Wind",
-				fr: "Vent guérisseur",
-				de: "Heilender Wind"
+				'en-us': "Healing Wind",
+				'fr-fr': "Vent guérisseur",
+				'de-de': "Heilender Wind"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may remove 1 damage counter from each of your Active Pokémon. This power can't be used if Xatu is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez retirer un marqueur de dégât à chacun de vos Pokémon Actifs. Ce pouvoir ne peut pas être utilisé si Xatu est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Schadensmarke von jedem deiner Aktiven Pokémon entfernen. Diese Poké-Power kann nicht verwendet werden, falls Xatu von einem Speziellen Zustand betroffen ist."
+				'en-us': "Once during your turn (before your attack), you may remove 1 damage counter from each of your Active Pokémon. This power can't be used if Xatu is affected by a Special Condition.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez retirer un marqueur de dégât à chacun de vos Pokémon Actifs. Ce pouvoir ne peut pas être utilisé si Xatu est affecté par un État Spécial.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Schadensmarke von jedem deiner Aktiven Pokémon entfernen. Diese Poké-Power kann nicht verwendet werden, falls Xatu von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psyimpact",
-				fr: "Impact psy",
-				de: "Psieinschlag"
+				'en-us': "Psyimpact",
+				'fr-fr': "Impact psy",
+				'de-de': "Psieinschlag"
 			},
 			effect: {
-				en: "Put 1 damage counter on each of your opponent's Pokémon.",
-				fr: "Placez un marqueur de dégât sur chacun des Pokémon de votre adversaire.",
-				de: "Lege auf jedes Pokémon deines Gegners eine Schadensmarke."
+				'en-us': "Put 1 damage counter on each of your opponent's Pokémon.",
+				'fr-fr': "Placez un marqueur de dégât sur chacun des Pokémon de votre adversaire.",
+				'de-de': "Lege auf jedes Pokémon deines Gegners eine Schadensmarke."
 			},
 
 		},

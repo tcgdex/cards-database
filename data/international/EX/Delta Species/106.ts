@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Holon Energy WP",
-		fr: "Énergie Holon WP",
-		de: "Holon-Energie WP"
+		'en-us': "Holon Energy WP",
+		'fr-fr': "Énergie Holon WP",
+		'de-de': "Holon-Energie WP"
 	},
 
 	illustrator: "Takumi Akabane",
@@ -15,9 +15,9 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		en: "Holon Energy WP provides Colorless Energy. If the Pokémon that Holon Energy WP is attached to also has a basic Water Energy card attached to it, prevent all effects, excluding damage, done to that Pokémon by your opponent's Pokémon. If the Pokémon that Holon Energy WP is attached to also has a basic Psychic Energy card attached to it, that Pokémon's Retreat Cost is 0. Ignore these effects if Holon Energy WP is attached to Pokémon-ex.",
-		de: "Holon Energy WP provides  Energy.\nIf the Pokémon that Holon Energy WP is attached to also has any basic  Energy card attached to it, prevent all effects, excluding damage, done to that Pokémon by your opponent's Pokémon. If the Pokémon that Holon Energy WP is attached to also has any basic  Energy card attached to it, that Pokémon's Retreat Cost is 0. Ignore these effects if Holon Energy WP is attached to Pokémon-ex.",
-		fr: "Si le Pokémon auquel Énergie Holon WP est attachée possède également une carte Énergie de base Eau, prévenez tous les effets, dégâts exclus, qui lui sont infligés par le Pokémon de votre adversaire. Si le Pokémon auquel Énergie Holon WP est attachée possède également une carte Énergie de base Psy, son Coût de retraite est de 0. Ignorez ces effets si Énergie Holon WP est attachée à un Pokémon-ex.",
+		'en-us': "Holon Energy WP provides Colorless Energy. If the Pokémon that Holon Energy WP is attached to also has a basic Water Energy card attached to it, prevent all effects, excluding damage, done to that Pokémon by your opponent's Pokémon. If the Pokémon that Holon Energy WP is attached to also has a basic Psychic Energy card attached to it, that Pokémon's Retreat Cost is 0. Ignore these effects if Holon Energy WP is attached to Pokémon-ex.",
+		'de-de': "Holon Energy WP provides  Energy.\nIf the Pokémon that Holon Energy WP is attached to also has any basic  Energy card attached to it, prevent all effects, excluding damage, done to that Pokémon by your opponent's Pokémon. If the Pokémon that Holon Energy WP is attached to also has any basic  Energy card attached to it, that Pokémon's Retreat Cost is 0. Ignore these effects if Holon Energy WP is attached to Pokémon-ex.",
+		'fr-fr': "Si le Pokémon auquel Énergie Holon WP est attachée possède également une carte Énergie de base Eau, prévenez tous les effets, dégâts exclus, qui lui sont infligés par le Pokémon de votre adversaire. Si le Pokémon auquel Énergie Holon WP est attachée possède également une carte Énergie de base Psy, son Coût de retraite est de 0. Ignorez ces effets si Énergie Holon WP est attachée à un Pokémon-ex.",
 	},
 
 	thirdParty: {

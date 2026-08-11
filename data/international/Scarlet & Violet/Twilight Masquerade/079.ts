@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Clefable",
-		fr: "Mélodelfe",
-		es: "Clefable",
-		it: "Clefable",
-		pt: "Clefable",
-		de: "Pixi"
+		'en-us': "Clefable",
+		'fr-fr': "Mélodelfe",
+		'es-es': "Clefable",
+		'it-it': "Clefable",
+		'pt-br': "Clefable",
+		'de-de': "Pixi"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Clefairy",
-		fr: "Mélofée",
-		es: "Clefairy",
-		it: "Clefairy",
-		pt: "Clefairy",
-		de: "Piepi"
+		'en-us': "Clefairy",
+		'fr-fr': "Mélofée",
+		'es-es': "Clefairy",
+		'it-it': "Clefairy",
+		'pt-br': "Clefairy",
+		'de-de': "Piepi"
 	},
 	stage: "Stage1",
 
@@ -32,32 +32,32 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Metronome",
-			fr: "Métronome",
-			es: "Metrónomo",
-			it: "Metronomo",
-			pt: "Metrônomo",
-			de: "Metronom"
+			'en-us': "Metronome",
+			'fr-fr': "Métronome",
+			'es-es': "Metrónomo",
+			'it-it': "Metronomo",
+			'pt-br': "Metrônomo",
+			'de-de': "Metronom"
 		},
 
 		effect: {
-			en: "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.",
-			fr: "Choisissez l'une des attaques du Pokémon Actif de votre adversaire et utilisez-la en tant que cette attaque.",
-			es: "Elige uno de los ataques del Pokémon Activo de tu rival y úsalo para este ataque.",
-			it: "Scegli un attacco del Pokémon attivo del tuo avversario e usalo al posto di questo attacco.",
-			pt: "Escolha 1 dos ataques do Pokémon Ativo do seu oponente e use-o como este ataque.",
-			de: "Wähle 1 Attacke des Aktiven Pokémon deines Gegners und setze sie als diese Attacke ein."
+			'en-us': "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.",
+			'fr-fr': "Choisissez l'une des attaques du Pokémon Actif de votre adversaire et utilisez-la en tant que cette attaque.",
+			'es-es': "Elige uno de los ataques del Pokémon Activo de tu rival y úsalo para este ataque.",
+			'it-it': "Scegli un attacco del Pokémon attivo del tuo avversario e usalo al posto di questo attacco.",
+			'pt-br': "Escolha 1 dos ataques do Pokémon Ativo do seu oponente e use-o como este ataque.",
+			'de-de': "Wähle 1 Attacke des Aktiven Pokémon deines Gegners und setze sie als diese Attacke ein."
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Magical Shot",
-			fr: "Coup Magique",
-			es: "Disparo Mágico",
-			it: "Magicolpo",
-			pt: "Tiro Mágico",
-			de: "Magischer Schuss"
+			'en-us': "Magical Shot",
+			'fr-fr': "Coup Magique",
+			'es-es': "Disparo Mágico",
+			'it-it': "Magicolpo",
+			'pt-br': "Tiro Mágico",
+			'de-de': "Magischer Schuss"
 		},
 
 		damage: 100
@@ -73,7 +73,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It has an acute sense of hearing. It can easily hear a pin being dropped nearly 1,100 yards away.",
+		'en-us': "It has an acute sense of hearing. It can easily hear a pin being dropped nearly 1,100 yards away.",
 	},
 
 	variants: [

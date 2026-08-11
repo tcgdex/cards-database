@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "大牙狸",
-		ja: "ビッパ"
+		'ja-jp': "ビッパ"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "總是啃大樹和石頭來打磨堅硬的門牙。 在水邊築巢生活。",
-		ja: "いつも 大木や 石を かじって 丈夫な 前歯を 削っている。 水辺に 巣を 作り 暮らす。"
+		'ja-jp': "いつも 大木や 石を かじって 丈夫な 前歯を 削っている。 水辺に 巣を 作り 暮らす。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "滾動",
-			ja: "ころがる"
+			'ja-jp': "ころがる"
 		},
 
 		damage: 30,

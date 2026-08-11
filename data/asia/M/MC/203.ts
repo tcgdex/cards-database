@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キュレムex",
+		'ja-jp': "キュレムex",
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン全員にも、それぞれ、相手がすでにとったサイドの枚数×10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン全員にも、それぞれ、相手がすでにとったサイドの枚数×10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

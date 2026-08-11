@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Luxio",
-		fr: "Luxio"
+		'en-us': "Luxio",
+		'fr-fr': "Luxio"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Shinx"
+		'en-us': "Shinx"
 	},
 
 	description: {
-		en: "Strong electricity courses through the tips of\nits sharp claws. A light scratch causes fainting\nin foes.",
-		fr: "Le courant qui circule à la pointe de ses griffes est capable de faire perdre connaissance à ses proies."
+		'en-us': "Strong electricity courses through the tips of\nits sharp claws. A light scratch causes fainting\nin foes.",
+		'fr-fr': "Le courant qui circule à la pointe de ses griffes est capable de faire perdre connaissance à ses proies."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Head Bolt",
-			fr: "Éclair Frontal"
+			'en-us': "Head Bolt",
+			'fr-fr': "Éclair Frontal"
 		},
 
 		damage: 50,

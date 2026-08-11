@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Machoke",
-		fr: "Machopeur",
+		'en-us': "Machoke",
+		'fr-fr': "Machopeur",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Machop",
-		fr: "Machoc",
+		'en-us': "Machop",
+		'fr-fr': "Machoc",
 	},
 
 	stage: "Stage1",
@@ -36,8 +36,8 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Beatdown",
-				fr: "Dérouillée",
+				'en-us': "Beatdown",
+				'fr-fr': "Dérouillée",
 			},
 
 			damage: 40,
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions.",
+		'en-us': "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions.",
 	},
 
 	thirdParty: {

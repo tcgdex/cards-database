@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Vault'
 
 const card: Card = {
 	name: {
-		en: "Dragonair",
-		fr: "Draco",
+		'en-us': "Dragonair",
+		'fr-fr': "Draco",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dratini",
-		fr: "Minidraco",
+		'en-us': "Dratini",
+		'fr-fr': "Minidraco",
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Healing Melody",
-				fr: "Mélodie Apaisante",
+				'en-us': "Healing Melody",
+				'fr-fr': "Mélodie Apaisante",
 			},
 			effect: {
-				en: "Heal 10 damage from each of your Pokémon.",
-				fr: "Soignez 10 dégâts à chacun de vos Pokémon.",
+				'en-us': "Heal 10 damage from each of your Pokémon.",
+				'fr-fr': "Soignez 10 dégâts à chacun de vos Pokémon.",
 			},
 
 		},
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slam",
-				fr: "Souplesse",
+				'en-us': "Slam",
+				'fr-fr': "Souplesse",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 30,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.",
+		'en-us': "If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.",
 	},
 
 	thirdParty: {

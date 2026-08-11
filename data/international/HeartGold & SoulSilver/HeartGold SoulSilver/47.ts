@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Miltank",
-		fr: "Écrémeuh",
-		de: "Miltank"
+		'en-us': "Miltank",
+		'fr-fr': "Écrémeuh",
+		'de-de': "Miltank"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Moomoo Squeeze",
-				fr: "Compression Meumeu",
-				de: "Kuhmuh-Quetsche"
+				'en-us': "Moomoo Squeeze",
+				'fr-fr': "Compression Meumeu",
+				'de-de': "Kuhmuh-Quetsche"
 			},
 			effect: {
-				en: "Search your deck for a Moomoo Milk card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez une carte Lait Meumeu dans votre deck, montrez-la à votre adversaire, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
-				de: "Durchsuche dein Deck nach 1 Kuhmuh-Milch-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische anschließend dein Deck."
+				'en-us': "Search your deck for a Moomoo Milk card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez une carte Lait Meumeu dans votre deck, montrez-la à votre adversaire, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+				'de-de': "Durchsuche dein Deck nach 1 Kuhmuh-Milch-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam",
-				fr: "Plaquage",
-				de: "Bodyslam"
+				'en-us': "Body Slam",
+				'fr-fr': "Plaquage",
+				'de-de': "Bodyslam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "If it is around babies, the milk it produces contains much more nutrition than usual."
+		'en-us': "If it is around babies, the milk it produces contains much more nutrition than usual."
 	},
 
 	variants: [

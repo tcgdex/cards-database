@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [332],
 
 	name: {
-		en: "Cacturne"
+		'en-us': "Cacturne"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Cacnea"
+		'en-us': "Cacnea"
 	},
 
 	description: {
-		en: "It lives in deserts. It becomes active at night\nwhen it hunts for prey exhausted from the\ndesert's heat."
+		'en-us': "It lives in deserts. It becomes active at night\nwhen it hunts for prey exhausted from the\ndesert's heat."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Spike Rend"
+			'en-us': "Spike Rend"
 		},
 
 		damage: 60,
 		cost: ["Grass", "Grass", "Colorless"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon has damage on it, this attack does 60 more damage."
+			'en-us': "If your opponent's Active Pokémon has damage on it, this attack does 60 more damage."
 		}
 	}],
 

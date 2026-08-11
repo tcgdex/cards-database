@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ドクロッグex"
+		'ja-jp': "ドクロッグex"
 	},
 
 	illustrator: "PLANETA Hiiragi",
@@ -19,23 +19,23 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			ja: "わるだくみ"
+			'ja-jp': "わるだくみ"
 		},
 
 		effect: {
-			ja: "自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。"
+			'ja-jp': "自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。"
 		}
 	}, {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			ja: "どくどくリッパー"
+			'ja-jp': "どくどくリッパー"
 		},
 
 		damage: 120,
 
 		effect: {
-			ja: "相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は6個になる。"
+			'ja-jp': "相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は6個になる。"
 		}
 	}],
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "波加曼",
-		ja: "ポッチャマ"
+		'ja-jp': "ポッチャマ"
 	},
 
 	illustrator: "Atsushi Furusawa",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "自尊心很強，討厭從人那裡接受食物。 長長的絨毛能抵禦寒冷。",
-		ja: "プライドが 高く 人から 食べ物を もらう ことを 嫌う。 長い 産毛が 寒さを 防ぐ。"
+		'ja-jp': "プライドが 高く 人から 食べ物を もらう ことを 嫌う。 長い 産毛が 寒さを 防ぐ。"
 	},
 
 	stage: "Basic",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "泡沫",
-			ja: "あわ"
+			'ja-jp': "あわ"
 		},
 
 		effect: {
 			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。",
-			ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。"
+			'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。"
 		},
 
 		damage: 10,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニンフィアVMAX",
+		'ja-jp': "ニンフィアVMAX",
 	},
 
 	illustrator: "sui",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "プレシャスタッチ" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分の手札からエネルギーを1枚選び、自分のベンチポケモンにつける。その後、そのポケモンのHPを「120」回復する。",
+				'ja-jp': "自分の手札からエネルギーを1枚選び、自分のベンチポケモンにつける。その後、そのポケモンのHPを「120」回復する。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "70+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチポケモンのタイプの数×30ダメージ追加。",
+				'ja-jp': "自分のベンチポケモンのタイプの数×30ダメージ追加。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニンフィアV",
+		'ja-jp': "ニンフィアV",
 	},
 
 	retreat: 2,

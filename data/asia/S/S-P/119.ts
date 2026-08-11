@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ふくよかミュージシャン",
+		'ja-jp': "ふくよかミュージシャン",
 		'zh-tw': "仙子伊布",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "好きな歌を歌いながら、自分の山札を3枚引く。相手は、その歌が上手だと思ったら、はくしゅをしてもよい。",
+		'ja-jp': "好きな歌を歌いながら、自分の山札を3枚引く。相手は、その歌が上手だと思ったら、はくしゅをしてもよい。",
 	},
 
 	variants: [

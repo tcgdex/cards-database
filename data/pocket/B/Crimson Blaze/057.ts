@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [233],
 
 	name: {
-		en: "Porygon2"
+		'en-us': "Porygon2"
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Porygon"
+		'en-us': "Porygon"
 	},
 
 	description: {
-		en: "This is a Porygon that was updated with special\ndata. Porygon2 develops itself by learning about\nmany different subjects all on its own."
+		'en-us': "This is a Porygon that was updated with special\ndata. Porygon2 develops itself by learning about\nmany different subjects all on its own."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Speed Attack"
+			'en-us': "Speed Attack"
 		},
 
 		damage: 40,

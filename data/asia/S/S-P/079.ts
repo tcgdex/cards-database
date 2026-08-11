@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムゲンダイナV",
+		'ja-jp': "ムゲンダイナV",
 		'zh-tw': "皮卡丘",
 	},
 
@@ -18,25 +18,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "パワーアクセル",
+				'ja-jp': "パワーアクセル",
 				'zh-tw': "充電",
 			},
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "のぞむなら、自分の手札から[悪]エネルギーを1枚選び、ベンチポケモンにつける。",
+				'ja-jp': "のぞむなら、自分の手札から[悪]エネルギーを1枚選び、ベンチポケモンにつける。",
 				'zh-tw': "從自己的牌庫選擇1張【雷】能量卡，附於這隻寶可夢身上。並且重洗牌庫。",
 			},
 		},
 		{
 			name: {
-				ja: "ダイマックスほう",
+				'ja-jp': "ダイマックスほう",
 				'zh-tw': "電球",
 			},
 			damage: "120+",
 			cost: ["Darkness", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが「ポケモンVMAX」なら、120ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが「ポケモンVMAX」なら、120ダメージ追加。",
 			},
 		},
 	],

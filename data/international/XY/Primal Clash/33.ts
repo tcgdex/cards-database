@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Mudkip",
-		fr: "Gobou",
-		es: "Mudkip",
-		it: "Mudkip",
-		pt: "Mudkip",
-		de: "Hydropi"
+		'en-us': "Mudkip",
+		'fr-fr': "Gobou",
+		'es-es': "Mudkip",
+		'it-it': "Mudkip",
+		'pt-br': "Mudkip",
+		'de-de': "Hydropi"
 	},
 
 	illustrator: "Aya Kusube",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud-Slap",
-				fr: "Coud'Boue",
-				es: "Bofetón Lodo",
-				it: "Fangosberla",
-				pt: "Tapa de Lama",
-				de: "Lehmschelle"
+				'en-us': "Mud-Slap",
+				'fr-fr': "Coud'Boue",
+				'es-es': "Bofetón Lodo",
+				'it-it': "Fangosberla",
+				'pt-br': "Tapa de Lama",
+				'de-de': "Lehmschelle"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
+		'en-us': "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
 	},
 
 	thirdParty: {

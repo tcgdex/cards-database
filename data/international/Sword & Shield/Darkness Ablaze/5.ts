@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [455],
 
 	name: {
-		en: "Carnivine",
-		fr: "Vortente",
-		es: "Carnivine",
-		it: "Carnivine",
-		pt: "Carnivine",
-		de: "Venuflibis"
+		'en-us': "Carnivine",
+		'fr-fr': "Vortente",
+		'es-es': "Carnivine",
+		'it-it': "Carnivine",
+		'pt-br': "Carnivine",
+		'de-de': "Venuflibis"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Return",
-				fr: "Retour",
-				es: "Retribución",
-				it: "Ritorno",
-				pt: "Retorno",
-				de: "Rückkehr"
+				'en-us': "Return",
+				'fr-fr': "Retour",
+				'es-es': "Retribución",
+				'it-it': "Ritorno",
+				'pt-br': "Retorno",
+				'de-de': "Rückkehr"
 			},
 			effect: {
-				en: "You may draw cards until you have 5 cards in your hand.",
-				fr: "Vous pouvez piocher des cartes jusqu'à en avoir 5 en main.",
-				es: "Puedes robar cartas hasta que tengas 5 cartas en tu mano.",
-				it: "Puoi pescare fino ad avere cinque carte in mano.",
-				pt: "Você pode comprar cartas até ter 5 cartas na sua mão.",
-				de: "Du kannst so lange Karten ziehen, bis du 5 Karten auf deiner Hand hast."
+				'en-us': "You may draw cards until you have 5 cards in your hand.",
+				'fr-fr': "Vous pouvez piocher des cartes jusqu'à en avoir 5 en main.",
+				'es-es': "Puedes robar cartas hasta que tengas 5 cartas en tu mano.",
+				'it-it': "Puoi pescare fino ad avere cinque carte in mano.",
+				'pt-br': "Você pode comprar cartas até ter 5 cartas na sua mão.",
+				'de-de': "Du kannst so lange Karten ziehen, bis du 5 Karten auf deiner Hand hast."
 			},
 			damage: 20,
 
@@ -53,20 +53,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giga Drain",
-				fr: "Giga-Sangsue",
-				es: "Gigadrenado",
-				it: "Gigassorbimento",
-				pt: "Gigadreno",
-				de: "Gigasauger"
+				'en-us': "Giga Drain",
+				'fr-fr': "Giga-Sangsue",
+				'es-es': "Gigadrenado",
+				'it-it': "Gigassorbimento",
+				'pt-br': "Gigadreno",
+				'de-de': "Gigasauger"
 			},
 			effect: {
-				en: "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
-				fr: "Soignez ce Pokémon du nombre de dégâts que vous avez infligés au Pokémon Actif de votre adversaire.",
-				es: "Cura a este Pokémon la misma cantidad de puntos de daño que hayas infligido al Pokémon Activo de tu rival.",
-				it: "Cura questo Pokémon da una quantità di danni pari a quelli che hai inflitto al Pokémon attivo del tuo avversario.",
-				pt: "Cure deste Pokémon a mesma quantidade de dano que você causou ao Pokémon Ativo do seu oponente.",
-				de: "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Aktiven Pokémon deines Gegners zugefügt hast."
+				'en-us': "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
+				'fr-fr': "Soignez ce Pokémon du nombre de dégâts que vous avez infligés au Pokémon Actif de votre adversaire.",
+				'es-es': "Cura a este Pokémon la misma cantidad de puntos de daño que hayas infligido al Pokémon Activo de tu rival.",
+				'it-it': "Cura questo Pokémon da una quantità di danni pari a quelli che hai inflitto al Pokémon attivo del tuo avversario.",
+				'pt-br': "Cure deste Pokémon a mesma quantidade de dano que você causou ao Pokémon Ativo do seu oponente.",
+				'de-de': "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Aktiven Pokémon deines Gegners zugefügt hast."
 			},
 			damage: 40,
 
@@ -87,7 +87,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down."
+		'en-us': "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down."
 	},
 
 	variants: [

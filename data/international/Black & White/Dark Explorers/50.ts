@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Woobat",
-		fr: "Chovsourir",
-		es: "Woobat",
-		it: "Woobat",
-		pt: "Woobat",
-		de: "Fleknoil"
+		'en-us': "Woobat",
+		'fr-fr': "Chovsourir",
+		'es-es': "Woobat",
+		'it-it': "Woobat",
+		'pt-br': "Woobat",
+		'de-de': "Fleknoil"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Supersonic",
-				fr: "Ultrason"
+				'en-us': "Supersonic",
+				'fr-fr': "Ultrason"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heart Stamp",
-				fr: "Crèvecœur"
+				'en-us': "Heart Stamp",
+				'fr-fr': "Crèvecœur"
 			},
 
 			damage: 20,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Suction from its nostrils enables it to stick to cave walls during sleep. It leaves a heart-shaped mark behind.",
+		'en-us': "Suction from its nostrils enables it to stick to cave walls during sleep. It leaves a heart-shaped mark behind.",
 	},
 
 	thirdParty: {

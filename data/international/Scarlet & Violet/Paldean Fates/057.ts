@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gengar",
-		fr: "Ectoplasma",
-		es: "Gengar",
-		it: "Gengar",
-		pt: "Gengar",
-		de: "Gengar"
+		'en-us': "Gengar",
+		'fr-fr': "Ectoplasma",
+		'es-es': "Gengar",
+		'it-it': "Gengar",
+		'pt-br': "Gengar",
+		'de-de': "Gengar"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Haunter",
-		fr: "Spectrum",
-		es: "Haunter",
-		it: "Haunter",
-		pt: "Haunter",
-		de: "Alpollo"
+		'en-us': "Haunter",
+		'fr-fr': "Spectrum",
+		'es-es': "Haunter",
+		'it-it': "Haunter",
+		'pt-br': "Haunter",
+		'de-de': "Alpollo"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Night Gate",
-			fr: "Portail Nocturne",
-			es: "Portal Nocturno",
-			it: "Portale Notturno",
-			pt: "Portão Noturno",
-			de: "Nachtpforte"
+			'en-us': "Night Gate",
+			'fr-fr': "Portail Nocturne",
+			'es-es': "Portal Nocturno",
+			'it-it': "Portale Notturno",
+			'pt-br': "Portão Noturno",
+			'de-de': "Nachtpforte"
 		},
 
 		effect: {
-			en: "Once during your turn, you may switch your Active Pokémon with 1 of your Benched Pokémon.",
-			fr: "Une fois pendant votre tour, vous pouvez échanger votre Pokémon Actif contre l'un de vos Pokémon de Banc.",
-			es: "Una vez durante tu turno, puedes cambiar tu Pokémon Activo por uno de tus Pokémon en Banca.",
-			it: "Una sola volta durante il tuo turno, puoi scambiare il tuo Pokémon attivo con uno della tua panchina.",
-			pt: "Uma vez durante o seu turno, você poderá trocar o seu Pokémon Ativo por 1 dos seus Pokémon no Banco.",
-			de: "Einmal während deines Zuges kannst du dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank austauschen."
+			'en-us': "Once during your turn, you may switch your Active Pokémon with 1 of your Benched Pokémon.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez échanger votre Pokémon Actif contre l'un de vos Pokémon de Banc.",
+			'es-es': "Una vez durante tu turno, puedes cambiar tu Pokémon Activo por uno de tus Pokémon en Banca.",
+			'it-it': "Una sola volta durante il tuo turno, puoi scambiare il tuo Pokémon attivo con uno della tua panchina.",
+			'pt-br': "Uma vez durante o seu turno, você poderá trocar o seu Pokémon Ativo por 1 dos seus Pokémon no Banco.",
+			'de-de': "Einmal während deines Zuges kannst du dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank austauschen."
 		}
 	}],
 
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Nightmare",
-			fr: "Cauchemar",
-			es: "Pesadilla",
-			it: "Incubo",
-			pt: "Pesadelo",
-			de: "Nachtmahr"
+			'en-us': "Nightmare",
+			'fr-fr': "Cauchemar",
+			'es-es': "Pesadilla",
+			'it-it': "Incubo",
+			'pt-br': "Pesadelo",
+			'de-de': "Nachtmahr"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 		},
 
 		damage: 100
@@ -105,7 +105,7 @@ const card: Card = {
 	illustrator: "Nelnal",
 
 	description: {
-		en: "To steal the life of its target, it slips into the prey's shadow and silently waits for an opportunity.",
+		'en-us': "To steal the life of its target, it slips into the prey's shadow and silently waits for an opportunity.",
 	},
 
 }

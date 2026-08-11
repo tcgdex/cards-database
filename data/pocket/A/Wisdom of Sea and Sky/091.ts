@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Musharna",
-		fr: "Mushana"
+		'en-us': "Musharna",
+		'fr-fr': "Mushana"
 	},
 
 	illustrator: "MAHOU",
@@ -18,28 +18,28 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Munna"
+		'en-us': "Munna"
 	},
 
 	description: {
-		en: "When dark mists emanate from its body, don't\nget too near. If you do, your nightmares will\nbecome reality.",
-		fr: "Il est recommandé de ne pas l'approcher quand la fumée qui sort de son front a une teinte noire, sinon son cauchemar risque de se matérialiser."
+		'en-us': "When dark mists emanate from its body, don't\nget too near. If you do, your nightmares will\nbecome reality.",
+		'fr-fr': "Il est recommandé de ne pas l'approcher quand la fumée qui sort de son front a une teinte noire, sinon son cauchemar risque de se matérialiser."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Dream Dance",
-			fr: "Danse-Rêve"
+			'en-us': "Dream Dance",
+			'fr-fr': "Danse-Rêve"
 		},
 
 		damage: 60,
 		cost: ["Psychic", "Colorless"],
 
 		effect: {
-			en: "Both Active Pokémon are now Asleep.",
-			fr: "Les deux Pokémon Actifs sont maintenant Endormi."
+			'en-us': "Both Active Pokémon are now Asleep.",
+			'fr-fr': "Les deux Pokémon Actifs sont maintenant Endormi."
 		}
 	}],
 

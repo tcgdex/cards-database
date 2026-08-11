@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [523],
 
 	name: {
-		en: "Zebstrika",
-		fr: "Zéblitz",
-		es: "Zebstrika",
-		it: "Zebstrika",
-		pt: "Zebstrika",
-		de: "Zebritz"
+		'en-us': "Zebstrika",
+		'fr-fr': "Zéblitz",
+		'es-es': "Zebstrika",
+		'it-it': "Zebstrika",
+		'pt-br': "Zebstrika",
+		'de-de': "Zebritz"
 	},
 
 	illustrator: "0313",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Blitzle",
-		fr: "Zébibron",
-		es: "Blitzle",
-		it: "Blitzle",
-		pt: "Blitzle",
-		de: "Elezeba"
+		'en-us': "Blitzle",
+		'fr-fr': "Zébibron",
+		'es-es': "Blitzle",
+		'it-it': "Blitzle",
+		'pt-br': "Blitzle",
+		'de-de': "Elezeba"
 	},
 
 	attacks: [
@@ -38,12 +38,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage",
-				es: "Patada Baja",
-				it: "Colpo Basso",
-				pt: "Rasteira",
-				de: "Fußkick"
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage",
+				'es-es': "Patada Baja",
+				'it-it': "Colpo Basso",
+				'pt-br': "Rasteira",
+				'de-de': "Fußkick"
 			},
 
 			damage: 30,
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Zap Kick",
-				fr: "Coup de Pied Ravageur",
-				es: "Electropatada",
-				it: "Dinamocalcio",
-				pt: "Chute Zap",
-				de: "Stromtritt"
+				'en-us': "Zap Kick",
+				'fr-fr': "Coup de Pied Ravageur",
+				'es-es': "Electropatada",
+				'it-it': "Dinamocalcio",
+				'pt-br': "Chute Zap",
+				'de-de': "Stromtritt"
 			},
 
 			damage: 70,
@@ -82,7 +82,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates."
+		'en-us': "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates."
 	},
 
 	variants: [

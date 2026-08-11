@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Shining Raichu",
-		fr: "Raichu brillant",
-		de: "Schimmerndes Raichu"
+		'en-us': "Shining Raichu",
+		'fr-fr': "Raichu brillant",
+		'de-de': "Schimmerndes Raichu"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -35,15 +35,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Thundersquall",
-				fr: "Rafale-tonnerre",
-				de: "Donnernder Windstoß"
+				'en-us': "Thundersquall",
+				'fr-fr': "Rafale-tonnerre",
+				'de-de': "Donnernder Windstoß"
 			},
 
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to that Pokémon for each Energy attached to Shining Raichu. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque inflige 10 dégâts à ce Pokémon pour chaque Énergie  attachée à Raichu brillant. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
-				de: "Wenn dein gegner mindestens ein Pokémon auf seiner Bank hat, wählt eines von diesen, und dieser Angriff fügt diesem Pokémon 10 Schadenspunkte für jede an Schimmerndes Raichu angelegte -Energie zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to that Pokémon for each Energy attached to Shining Raichu. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque inflige 10 dégâts à ce Pokémon pour chaque Énergie  attachée à Raichu brillant. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
+				'de-de': "Wenn dein gegner mindestens ein Pokémon auf seiner Bank hat, wählt eines von diesen, und dieser Angriff fügt diesem Pokémon 10 Schadenspunkte für jede an Schimmerndes Raichu angelegte -Energie zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 			damage: 40
@@ -60,8 +60,8 @@ const card: Card = {
 
 
 	description: {
-		en: "If the electricity in its cheeks runs out, it sticks its tail straight up and uses it to collect energy from the air.",
-		fr: "S'il vient à court d'électricité au niveau de ses joues, il dresse sa queue pour collecter l'énergie dans l'air ambiant."
+		'en-us': "If the electricity in its cheeks runs out, it sticks its tail straight up and uses it to collect energy from the air.",
+		'fr-fr': "S'il vient à court d'électricité au niveau de ses joues, il dresse sa queue pour collecter l'énergie dans l'air ambiant."
 	},
 
 

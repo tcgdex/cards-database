@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ピカチュウex",
-		id: "Pikachu ex",
+		'ja-jp': "ピカチュウex",
+		'id-id': "Pikachu ex",
 		'zh-tw': "皮卡丘ex",
 		'zh-cn': "皮卡丘ex"
 	},
@@ -23,15 +23,15 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "がんばりハート",
-			id: "Hati Pejuang",
+			'ja-jp': "がんばりハート",
+			'id-id': "Hati Pejuang",
 			'zh-tw': "‌‌勤奮之心",
 			'zh-cn': "‌‌勤奮之心"
 		},
 
 		effect: {
-			ja: "このポケモンのHPがまんたんの状態で、このポケモンがワザのダメージを受けてきぜつするとき、きぜつせず、残りHPが「10」の状態で場に残る。",
-			id: "Saat Pokémon ini KO karena menerima kerusakan akibat serangan ketika HP Pokémon ini masih penuh, Pokémon ini tidak KO dan tetap berada di Arena dengan kondisi sisa HP sejumlah 10.",
+			'ja-jp': "このポケモンのHPがまんたんの状態で、このポケモンがワザのダメージを受けてきぜつするとき、きぜつせず、残りHPが「10」の状態で場に残る。",
+			'id-id': "Saat Pokémon ini KO karena menerima kerusakan akibat serangan ketika HP Pokémon ini masih penuh, Pokémon ini tidak KO dan tetap berada di Arena dengan kondisi sisa HP sejumlah 10.",
 			'zh-tw': "‌這隻寶可夢的HP是全滿的狀態下，這隻寶可夢受到招式的傷害而【昏厥】時，這隻寶可夢不會【昏厥】，而是以剩餘HP為「10」的狀態留在場上。",
 			'zh-cn': "‌這隻寶可夢的HP是全滿的狀態下，這隻寶可夢受到招式的傷害而【昏厥】時，這隻寶可夢不會【昏厥】，而是以剩餘HP為「10」的狀態留在場上。"
 		}
@@ -41,8 +41,8 @@ const card: Card = {
 		cost: ["Grass", "Lightning", "Metal"],
 
 		name: {
-			ja: "トパーズボルト",
-			id: "Topaz Bolt",
+			'ja-jp': "トパーズボルト",
+			'id-id': "Topaz Bolt",
 			'zh-tw': "黃玉伏特",
 			'zh-cn': "黃玉伏特"
 		},
@@ -50,8 +50,8 @@ const card: Card = {
 		damage: 300,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを3個選び、トラッシュする。",
-			id: "Pilih 3 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash.",
+			'ja-jp': "このポケモンについているエネルギーを3個選び、トラッシュする。",
+			'id-id': "Pilih 3 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash.",
 			'zh-tw': "選擇3個這隻寶可夢身上附加的能量，將其丟棄。",
 			'zh-cn': "選擇3個這隻寶可夢身上附加的能量，將其丟棄。"
 		}

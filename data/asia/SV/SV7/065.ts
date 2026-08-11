@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "詐唬魔",
 		'zh-cn': "詐唬魔",
-		ja: "ギモー"
+		'ja-jp': "ギモー"
 	},
 
 	illustrator: "Mékayu",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "吸收負面情緒來轉化成 自身能量的寶可夢。 深受有負面思考習慣的人歡迎。",
 		'zh-cn': "吸收負面情緒來轉化成 自身能量的寶可夢。 深受有負面思考習慣的人歡迎。",
-		ja: "負の 感情を 吸い取って エネルギーにしている ポケモン。 マイナス思考の 人に 人気。"
+		'ja-jp': "負の 感情を 吸い取って エネルギーにしている ポケモン。 マイナス思考の 人に 人気。"
 	},
 
 	stage: "Stage1",
@@ -27,7 +27,7 @@ const card: Card = {
 		name: {
 			'zh-tw': "重摑",
 			'zh-cn': "重摑",
-			ja: "ひっぱたく"
+			'ja-jp': "ひっぱたく"
 		},
 
 		damage: 40,
@@ -36,7 +36,7 @@ const card: Card = {
 		name: {
 			'zh-tw': "暗之牙",
 			'zh-cn': "暗之牙",
-			ja: "やみのキバ"
+			'ja-jp': "やみのキバ"
 		},
 
 		damage: 70,

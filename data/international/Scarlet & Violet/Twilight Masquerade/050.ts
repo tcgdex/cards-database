@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Milotic",
-		fr: "Milobellus",
-		es: "Milotic",
-		it: "Milotic",
-		pt: "Milotic",
-		de: "Milotic"
+		'en-us': "Milotic",
+		'fr-fr': "Milobellus",
+		'es-es': "Milotic",
+		'it-it': "Milotic",
+		'pt-br': "Milotic",
+		'de-de': "Milotic"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Feebas",
-		fr: "Barpau",
-		es: "Feebas",
-		it: "Feebas",
-		pt: "Feebas",
-		de: "Barschwa"
+		'en-us': "Feebas",
+		'fr-fr': "Barpau",
+		'es-es': "Feebas",
+		'it-it': "Feebas",
+		'pt-br': "Feebas",
+		'de-de': "Barschwa"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Mentally Calm",
-			fr: "Calme Mental",
-			es: "Calma Mental",
-			it: "Serenamente",
-			pt: "Calmaria Mental",
-			de: "Innere Ruhe"
+			'en-us': "Mentally Calm",
+			'fr-fr': "Calme Mental",
+			'es-es': "Calma Mental",
+			'it-it': "Serenamente",
+			'pt-br': "Calmaria Mental",
+			'de-de': "Innere Ruhe"
 		},
 
 		effect: {
-			en: "Your opponent's Pokémon in play and all attached cards can't be put into your opponent's hand.",
-			fr: "Les Pokémon en jeu de votre adversaire et toutes les cartes attachées ne peuvent pas être ajoutés à la main de votre adversaire.",
-			es: "Los Pokémon en juego de tu rival y todas las cartas unidas a ellos no pueden ponerse en la mano de tu rival.",
-			it: "I Pokémon in gioco del tuo avversario e tutte le carte a essi assegnate non possono essere aggiunti alle carte che ha in mano.",
-			pt: "Os Pokémon do seu oponente em jogo e todas as cartas ligadas a eles não podem ser colocados na mão do seu oponente.",
-			de: "Die Pokémon deines Gegners im Spiel und alle angelegten Karten können nicht auf die Hand deines Gegners genommen werden."
+			'en-us': "Your opponent's Pokémon in play and all attached cards can't be put into your opponent's hand.",
+			'fr-fr': "Les Pokémon en jeu de votre adversaire et toutes les cartes attachées ne peuvent pas être ajoutés à la main de votre adversaire.",
+			'es-es': "Los Pokémon en juego de tu rival y todas las cartas unidas a ellos no pueden ponerse en la mano de tu rival.",
+			'it-it': "I Pokémon in gioco del tuo avversario e tutte le carte a essi assegnate non possono essere aggiunti alle carte che ha in mano.",
+			'pt-br': "Os Pokémon do seu oponente em jogo e todas as cartas ligadas a eles não podem ser colocados na mão do seu oponente.",
+			'de-de': "Die Pokémon deines Gegners im Spiel und alle angelegten Karten können nicht auf die Hand deines Gegners genommen werden."
 		}
 	}],
 
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Hydro Splash",
-			fr: "Hydro-Éclaboussure",
-			es: "Hidroestallido",
-			it: "Idrosplash",
-			pt: "Hidroborrifada",
-			de: "Hydroplatscher"
+			'en-us': "Hydro Splash",
+			'fr-fr': "Hydro-Éclaboussure",
+			'es-es': "Hidroestallido",
+			'it-it': "Idrosplash",
+			'pt-br': "Hidroborrifada",
+			'de-de': "Hydroplatscher"
 		},
 
 		damage: 100
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It lives at the bottom of clear lakes. In times of war, it shows itself, which soothes people's minds and hearts.",
+		'en-us': "It lives at the bottom of clear lakes. In times of war, it shows itself, which soothes people's minds and hearts.",
 	},
 
 	variants: [

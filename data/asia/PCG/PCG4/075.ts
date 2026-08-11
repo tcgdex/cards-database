@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒットモントップ",
+		'ja-jp': "ヒットモントップ",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "進化の段階",
+				'ja-jp': "進化の段階",
 			},
 			effect: {
-				ja: "Hitmontopが進化したポカモンであり、アクティブなポケモンであり、対戦相手の攻撃によって損傷を受けている限り（Hitmontopがノックアウトされたとしても）、攻撃するPokã©Monに2つのダメージカウンターを置きます。",
+				'ja-jp': "Hitmontopが進化したポカモンであり、アクティブなポケモンであり、対戦相手の攻撃によって損傷を受けている限り（Hitmontopがノックアウトされたとしても）、攻撃するPokã©Monに2つのダメージカウンターを置きます。",
 			},
 		}],
 
@@ -29,16 +29,16 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "上向きキック",
+				'ja-jp': "上向きキック",
 			},
 			effect: {
-				ja: "防御するポケモンに少なくとも2つのダメージカウンターがすでにある場合、この攻撃は20のダメージと30のダメージを与えます。",
+				'ja-jp': "防御するポケモンに少なくとも2つのダメージカウンターがすでにある場合、この攻撃は20のダメージと30のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "スパイラルキック",
+				'ja-jp': "スパイラルキック",
 			},
 			damage: 50,
 		},

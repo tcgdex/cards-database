@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Quagsire",
-		fr: "Maraiste",
-		de: "Morlord"
+		'en-us': "Quagsire",
+		'fr-fr': "Maraiste",
+		'de-de': "Morlord"
 	},
 
 	illustrator: "Yuka Morii",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wooper",
-		fr: "Axoloto"
+		'en-us': "Wooper",
+		'fr-fr': "Axoloto"
 	},
 
 	stage: "Stage1",
@@ -37,9 +37,9 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mud Slap",
-				fr: "Coud'boue",
-				de: "Mud Slap"
+				'en-us': "Mud Slap",
+				'fr-fr': "Coud'boue",
+				'de-de': "Mud Slap"
 			},
 
 			damage: 30,
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlpool",
-				fr: "Lessiveuse",
-				de: "Whirlpool"
+				'en-us': "Whirlpool",
+				'fr-fr': "Lessiveuse",
+				'de-de': "Whirlpool"
 			},
 			effect: {
-				en: "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",
-				fr: "Si des cartes Énergie sont attachées au Pokémon Défenseur, choisissez 1 d'elle et défaussez-la.",
-				de: "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
+				'en-us': "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",
+				'fr-fr': "Si des cartes Énergie sont attachées au Pokémon Défenseur, choisissez 1 d'elle et défaussez-la.",
+				'de-de': "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
 			},
 			damage: 40,
 
@@ -84,8 +84,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Due to its relaxed and carefree attitude, it often bumps its head on boulders and boat hulls as it swims.",
-		fr: "Comme il est très insouciant et peu attentif, il se cogne dans les rochers ou les quilles des bateaux quand il nage."
+		'en-us': "Due to its relaxed and carefree attitude, it often bumps its head on boulders and boat hulls as it swims.",
+		'fr-fr': "Comme il est très insouciant et peu attentif, il se cogne dans les rochers ou les quilles des bateaux quand il nage."
 	},
 
 

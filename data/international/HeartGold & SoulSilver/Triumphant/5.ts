@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Mamoswine",
-		fr: "Mammochon",
-		de: "Mamutel"
+		'en-us': "Mamoswine",
+		'fr-fr': "Mammochon",
+		'de-de': "Mamutel"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Piloswine",
-		fr: "Cochignon"
+		'en-us': "Piloswine",
+		'fr-fr': "Cochignon"
 	},
 
 	stage: "Stage2",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Icy Wind",
-				fr: "Vent glacé",
-				de: "Eissturm"
+				'en-us': "Icy Wind",
+				'fr-fr': "Vent glacé",
+				'de-de': "Eissturm"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 40,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Snowstorm",
-				fr: "Tempête de neige",
-				de: "Schneesturm"
+				'en-us': "Snowstorm",
+				'fr-fr': "Tempête de neige",
+				'de-de': "Schneesturm"
 			},
 			effect: {
-				en: "Does 20 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 20 dégâts à chacun des Pokémon se trouvant sur le Banc de votre adversaire et ayant des marqueurs de dégât. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				de: "Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners, auf dem bereits mindestens 1 Schadensmarke liegt, 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Does 20 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 20 dégâts à chacun des Pokémon se trouvant sur le Banc de votre adversaire et ayant des marqueurs de dégât. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'de-de': "Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners, auf dem bereits mindestens 1 Schadensmarke liegt, 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 70,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "A frozen Mamoswine was dug from ice dating back 10,000 years. This Pokémon has been around a long, long, long time."
+		'en-us': "A frozen Mamoswine was dug from ice dating back 10,000 years. This Pokémon has been around a long, long, long time."
 	},
 
 	variants: [		{

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワナイダー",
+		'ja-jp': "ワナイダー",
 		'zh-tw': "新葉喵",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "木の枝や 天井に 糸で 張りつき 音もなく 行動する。 獲物に 気づかれる前に 倒す。",
+		'ja-jp': "木の枝や 天井に 糸で 張りつき 音もなく 行動する。 獲物に 気づかれる前に 倒す。",
 		'zh-tw': "毛茸茸的體毛有著 近似於植物的成分。 會勤快地洗臉以防止乾燥。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "いとでしばる",
+				'ja-jp': "いとでしばる",
 				'zh-tw': "小吸取",
 			},
 			damage: 30,
 			cost: ["Grass"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 				'zh-tw': "將這隻寶可夢恢復「10」HP。",
 			},
 		},
@@ -54,7 +54,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "タマンチュラ",
+		'ja-jp': "タマンチュラ",
 	},
 
 	retreat: 2,

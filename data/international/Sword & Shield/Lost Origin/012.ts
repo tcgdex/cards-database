@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Nuzleaf",
-		fr: "Pifeuil",
-		es: "Nuzleaf",
-		it: "Nuzleaf",
-		pt: "Nuzleaf",
-		de: "Blanas"
+		'en-us': "Nuzleaf",
+		'fr-fr': "Pifeuil",
+		'es-es': "Nuzleaf",
+		'it-it': "Nuzleaf",
+		'pt-br': "Nuzleaf",
+		'de-de': "Blanas"
 	},
 
 	illustrator: "Mizue",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Seedot",
-		fr: "Grainipiot",
-		es: "Seedot",
-		it: "Seedot",
-		pt: "Seedot",
-		de: "Samurzel"
+		'en-us': "Seedot",
+		'fr-fr': "Grainipiot",
+		'es-es': "Seedot",
+		'it-it': "Seedot",
+		'pt-br': "Seedot",
+		'de-de': "Samurzel"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Push Down",
-			fr: "Recul",
-			es: "Oprimir",
-			it: "Spintonare",
-			pt: "Rebaixar",
-			de: "Runterdrücken"
+			'en-us': "Push Down",
+			'fr-fr': "Recul",
+			'es-es': "Oprimir",
+			'it-it': "Spintonare",
+			'pt-br': "Rebaixar",
+			'de-de': "Runterdrücken"
 		},
 
 		effect: {
-			en: "You may have your opponent switch their Active Pokémon with 1 of their Benched Pokémon.",
-			fr: "Vous pouvez demander à votre adversaire d'échanger son Pokémon Actif contre l'un de ses Pokémon de Banc.",
-			es: "Puedes hacer que tu rival cambie su Pokémon Activo por 1 de sus Pokémon en Banca.",
-			it: "Puoi far scambiare al tuo avversario il suo Pokémon attivo con uno della sua panchina.",
-			pt: "Você pode fazer com que o seu oponente troque o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
-			de: "Du kannst deinen Gegner dazu veranlassen, sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank auszutauschen."
+			'en-us': "You may have your opponent switch their Active Pokémon with 1 of their Benched Pokémon.",
+			'fr-fr': "Vous pouvez demander à votre adversaire d'échanger son Pokémon Actif contre l'un de ses Pokémon de Banc.",
+			'es-es': "Puedes hacer que tu rival cambie su Pokémon Activo por 1 de sus Pokémon en Banca.",
+			'it-it': "Puoi far scambiare al tuo avversario il suo Pokémon attivo con uno della sua panchina.",
+			'pt-br': "Você pode fazer com que o seu oponente troque o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
+			'de-de': "Du kannst deinen Gegner dazu veranlassen, sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank auszutauschen."
 		},
 
 		damage: 30

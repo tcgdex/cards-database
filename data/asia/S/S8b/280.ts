@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミュウVMAX",
+		'ja-jp': "ミュウVMAX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "クロスフュージョン" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチの「フュージョン」のポケモンが持っているワザを1つ選び、このワザとして使う。",
+				'ja-jp': "自分のベンチの「フュージョン」のポケモンが持っているワザを1つ選び、このワザとして使う。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Psychic", "Psychic"],
 			effect: {
-				ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ミュウV",
+		'ja-jp': "ミュウV",
 	},
 
 	retreat: 0,

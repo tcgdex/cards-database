@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Crabrawler",
-		fr: "Crabagarre",
-		es: "Crabrawler",
-		it: "Crabrawler",
-		pt: "Crabrawler",
-		de: "Krabbox"
+		'en-us': "Crabrawler",
+		'fr-fr': "Crabagarre",
+		'es-es': "Crabrawler",
+		'it-it': "Crabrawler",
+		'pt-br': "Crabrawler",
+		'de-de': "Krabbox"
 	},
 
 	illustrator: "kirisAki",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Light Punch",
-				fr: "Poing Léger",
-				es: "Puño Ligero",
-				it: "Pugnetto",
-				pt: "Soco de Luz",
-				de: "Leichter Hieb"
+				'en-us': "Light Punch",
+				'fr-fr': "Poing Léger",
+				'es-es': "Puño Ligero",
+				'it-it': "Pugnetto",
+				'pt-br': "Soco de Luz",
+				'de-de': "Leichter Hieb"
 			},
 
 			damage: 40,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "While guarding its weak points with its pincers, it looks for an opening and unleashes punches. When it loses, it foams at the mouth and faints.",
+		'en-us': "While guarding its weak points with its pincers, it looks for an opening and unleashes punches. When it loses, it foams at the mouth and faints.",
 	},
 
 	thirdParty: {

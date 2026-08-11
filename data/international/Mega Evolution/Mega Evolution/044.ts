@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eiscue",
-		fr: "Bekaglaçon",
-		de: "Kubuin",
-		it: "Eiscue",
-		es: "Eiscue",
-		pt: "Eiscue",
+		'en-us': "Eiscue",
+		'fr-fr': "Bekaglaçon",
+		'de-de': "Kubuin",
+		'it-it': "Eiscue",
+		'es-es': "Eiscue",
+		'pt-br': "Eiscue",
 		'es-mx': "Eiscue"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Freezing Headbutt",
-			fr: "Coup d'Boule Gelant",
-			de: "Frostige Kopfnuss",
-			it: "Bottintesta Congelante",
-			es: "Cabezazo Paralizante",
-			pt: "Cabeçada Congelante",
+			'en-us': "Freezing Headbutt",
+			'fr-fr': "Coup d'Boule Gelant",
+			'de-de': "Frostige Kopfnuss",
+			'it-it': "Bottintesta Congelante",
+			'es-es': "Cabezazo Paralizante",
+			'pt-br': "Cabeçada Congelante",
 			'es-mx': "Cabezazo Gélido"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
 			'es-mx': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival ahora está Paralizado."
 		},
 
@@ -50,12 +50,12 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			de: "Tackle",
-			it: "Azione",
-			es: "Placaje",
-			pt: "Investida",
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'de-de': "Tackle",
+			'it-it': "Azione",
+			'es-es': "Placaje",
+			'pt-br': "Investida",
 			'es-mx': "Tacleada"
 		},
 

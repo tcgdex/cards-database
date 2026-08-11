@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サボテン（デルタ種）",
+		'ja-jp': "サボテン（デルタ種）",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "スパイクストーム",
+				'ja-jp': "スパイクストーム",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前に）、CacturneがアクティブなPokã©Monである場合、既にダメージカウンターがある対戦相手のPokã©Monに1つのダメージカウンターを置くことができます。 Cacturneが特別な状態の影響を受ける場合、この電力は使用できません。",
+				'ja-jp': "ターン中（攻撃の前に）、CacturneがアクティブなPokã©Monである場合、既にダメージカウンターがある対戦相手のPokã©Monに1つのダメージカウンターを置くことができます。 Cacturneが特別な状態の影響を受ける場合、この電力は使用できません。",
 			},
 		}],
 
@@ -29,16 +29,16 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "トリプルニードル",
+				'ja-jp': "トリプルニードル",
 			},
 			effect: {
-				ja: "対戦相手のポケモンの3つを選択してください。この攻撃は、それらのポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "対戦相手のポケモンの3つを選択してください。この攻撃は、それらのポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 		},
 		{
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "軽いパンチ",
+				'ja-jp': "軽いパンチ",
 			},
 			damage: 50,
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワシボン",
+		'ja-jp': "ワシボン",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "強い 相手にも 見境なく 戦いを 挑む。 戦いを 繰り返す ことで 強くなるのだ。",
+		'ja-jp': "強い 相手にも 見境なく 戦いを 挑む。 戦いを 繰り返す ことで 強くなるのだ。",
 	},
 
 	stage: "Basic",

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Beldum",
-		fr: "Terhal",
-		es: "Beldum",
-		de: "Tanhel",
-		it: "Beldum",
-		pt: "Beldum",
+		'en-us': "Beldum",
+		'fr-fr': "Terhal",
+		'es-es': "Beldum",
+		'de-de': "Tanhel",
+		'it-it': "Beldum",
+		'pt-br': "Beldum",
 		'es-mx': "Beldum"
 	},
 
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Spinning Attack",
-			fr: "Attaque Tournante",
-			es: "Ataque Giratorio",
-			de: "Rundumangriff",
-			it: "Attacco Rotante",
-			pt: "Ataque Giratório",
+			'en-us': "Spinning Attack",
+			'fr-fr': "Attaque Tournante",
+			'es-es': "Ataque Giratorio",
+			'de-de': "Rundumangriff",
+			'it-it': "Attacco Rotante",
+			'pt-br': "Ataque Giratório",
 			'es-mx': "Ataque Giratorio"
 		},
 
@@ -39,12 +39,12 @@ const card: Card = {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			en: "Beam",
-			fr: "Rayon",
-			es: "Transmisión",
-			de: "Strahl",
-			it: "Raggio",
-			pt: "Feixe",
+			'en-us': "Beam",
+			'fr-fr': "Rayon",
+			'es-es': "Transmisión",
+			'de-de': "Strahl",
+			'it-it': "Raggio",
+			'pt-br': "Feixe",
 			'es-mx': "Rayo"
 		},
 

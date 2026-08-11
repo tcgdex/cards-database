@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Magneton",
+		'en-us': "Magneton",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magnemite",
+		'en-us': "Magnemite",
 	},
 
 	stage: "Stage1",
@@ -35,10 +35,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Wave",
+				'en-us': "Thunder Wave",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 30,
 
@@ -51,10 +51,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Selfdestruct",
+				'en-us': "Selfdestruct",
 			},
 			effect: {
-				en: "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magneton does 80 damage to itself.",
+				'en-us': "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magneton does 80 damage to itself.",
 			},
 			damage: 80,
 
@@ -71,7 +71,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Formed by several Magnemites linked together. It frequently appears when sunspots flare up.",
+		'en-us': "Formed by several Magnemites linked together. It frequently appears when sunspots flare up.",
 	},
 
 

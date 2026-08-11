@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Spiritomb",
-		fr: "Spiritomb",
-		es: "Spiritomb",
-		it: "Spiritomb",
-		pt: "Spiritomb",
-		de: "Kryppuk"
+		'en-us': "Spiritomb",
+		'fr-fr': "Spiritomb",
+		'es-es': "Spiritomb",
+		'it-it': "Spiritomb",
+		'pt-br': "Spiritomb",
+		'de-de': "Kryppuk"
 	},
 
 	illustrator: "PLANETA",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "B Cancel",
-				fr: "Interruption B",
-				es: "B Cancelar",
-				it: "(B) Annulla",
-				pt: "Cancelamento B",
-				de: "B"
+				'en-us': "B Cancel",
+				'fr-fr': "Interruption B",
+				'es-es': "B Cancelar",
+				'it-it': "(B) Annulla",
+				'pt-br': "Cancelamento B",
+				'de-de': "B"
 			},
 			effect: {
-				en: "Your opponent can't play any Pokémon from his or her hand to evolve the Defending Pokémon during his or her next turn.",
-				fr: "Votre adversaire ne peut pas jouer de Pokémon de sa main pour faire évoluer le Pokémon Défenseur pendant son prochain tour.",
-				es: "Tu rival no puede jugar ningún Pokémon de su mano para hacer evolucionar al Pokémon Defensor durante su próximo turno.",
-				it: "Il tuo avversario non può giocare Pokémon dalla sua mano per far evolvere il Pokémon difensore durante il suo prossimo turno.",
-				pt: "Seu oponente não poderá jogar nenhum Pokémon da própria mão para evoluir o Pokémon Defensor durante a próxima vez de jogar desse oponente.",
-				de: "Dein Gegner kann während seines nächsten Zuges keine Pokémon von seiner Hand spielen, um das Verteidigende Pokémon zu entwickeln."
+				'en-us': "Your opponent can't play any Pokémon from his or her hand to evolve the Defending Pokémon during his or her next turn.",
+				'fr-fr': "Votre adversaire ne peut pas jouer de Pokémon de sa main pour faire évoluer le Pokémon Défenseur pendant son prochain tour.",
+				'es-es': "Tu rival no puede jugar ningún Pokémon de su mano para hacer evolucionar al Pokémon Defensor durante su próximo turno.",
+				'it-it': "Il tuo avversario non può giocare Pokémon dalla sua mano per far evolvere il Pokémon difensore durante il suo prossimo turno.",
+				'pt-br': "Seu oponente não poderá jogar nenhum Pokémon da própria mão para evoluir o Pokémon Defensor durante a próxima vez de jogar desse oponente.",
+				'de-de': "Dein Gegner kann während seines nächsten Zuges keine Pokémon von seiner Hand spielen, um das Verteidigende Pokémon zu entwickeln."
 			},
 			damage: 10,
 
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde Folie",
-				es: "Rayo Confuso",
-				it: "Stordiraggio",
-				pt: "Raio da Confusão",
-				de: "Konfustrahl"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde Folie",
+				'es-es': "Rayo Confuso",
+				'it-it': "Stordiraggio",
+				'pt-br': "Raio da Confusão",
+				'de-de': "Konfustrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Confuso.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Confuso.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon that was formed by 108 spirits. It is bound to a fissure in an odd keystone.",
+		'en-us': "A Pokémon that was formed by 108 spirits. It is bound to a fissure in an odd keystone.",
 	},
 
 	thirdParty: {

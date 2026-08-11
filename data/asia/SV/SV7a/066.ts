@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "マシェード"
+		'ja-jp': "マシェード"
 	},
 
 	illustrator: "matazo",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "点滅する 胞子の 光りで 獲物を おびき寄せて 眠らせる。 指先から 生気を 吸い取る。"
+		'ja-jp': "点滅する 胞子の 光りで 獲物を おびき寄せて 眠らせる。 指先から 生気を 吸い取る。"
 	},
 
 	stage: "Stage1",
@@ -24,11 +24,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "やすらぐひかり"
+			'ja-jp': "やすらぐひかり"
 		},
 
 		effect: {
-			ja: "このポケモンがバトル場にいるなら、自分の番に1回使える。相手のバトルポケモンをねむりにする。"
+			'ja-jp': "このポケモンがバトル場にいるなら、自分の番に1回使える。相手のバトルポケモンをねむりにする。"
 		}
 	}],
 
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			ja: "スパイラルラッシュ"
+			'ja-jp': "スパイラルラッシュ"
 		},
 
 		damage: "60＋",
 
 		effect: {
-			ja: "ウラが出るまでコインを投げ、オモテの数×30ダメージ追加。"
+			'ja-jp': "ウラが出るまでコインを投げ、オモテの数×30ダメージ追加。"
 		}
 	}],
 

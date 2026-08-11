@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Golduck",
-		fr: "Akwakwak",
-		es: "Golduck",
-		it: "Golduck",
-		pt: "Golduck",
-		de: "Entoron"
+		'en-us': "Golduck",
+		'fr-fr': "Akwakwak",
+		'es-es': "Golduck",
+		'it-it': "Golduck",
+		'pt-br': "Golduck",
+		'de-de': "Entoron"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Psyduck",
-		fr: "Psykokwak",
+		'en-us': "Psyduck",
+		'fr-fr': "Psykokwak",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Amnesia",
-				fr: "Amnésie",
+				'en-us': "Amnesia",
+				'fr-fr': "Amnésie",
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
-				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Le Pokémon ciblé ne peut pas utiliser l'attaque choisie pendant le prochain tour de votre adversaire.",
+				'en-us': "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
+				'fr-fr': "Choisissez 1 des attaques du Pokémon Défenseur. Le Pokémon ciblé ne peut pas utiliser l'attaque choisie pendant le prochain tour de votre adversaire.",
 			},
 			damage: 20,
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Aquafall",
-				fr: "Aquasplash",
+				'en-us': "Aquafall",
+				'fr-fr': "Aquasplash",
 			},
 			effect: {
-				en: "Discard all Energy attached to this Pokémon.",
-				fr: "Défaussez toutes les Énergies attachées à ce Pokémon.",
+				'en-us': "Discard all Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez toutes les Énergies attachées à ce Pokémon.",
 			},
 			damage: 90,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "When its forehead shines mysteriously, Golduck can use the full extent of its power.",
+		'en-us': "When its forehead shines mysteriously, Golduck can use the full extent of its power.",
 	},
 
 	thirdParty: {

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Meowth",
-		fr: "Miaouss",
-		es: "Meowth",
+		'en-us': "Meowth",
+		'fr-fr': "Miaouss",
+		'es-es': "Meowth",
 		'es-mx': "Meowth",
-		de: "Mauzi",
-		it: "Meowth",
-		pt: "Meowth"
+		'de-de': "Mauzi",
+		'it-it': "Meowth",
+		'pt-br': "Meowth"
 	},
 
 	rarity: "Illustration rare",
@@ -26,23 +26,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Fury Swipes",
-			fr: "Combo-Griffe",
-			es: "Golpes Furia",
+			'en-us': "Fury Swipes",
+			'fr-fr': "Combo-Griffe",
+			'es-es': "Golpes Furia",
 			'es-mx': "Garras Furiosas",
-			de: "Kratzfurie",
-			it: "Sfuriate",
-			pt: "Golpes de Fúria"
+			'de-de': "Kratzfurie",
+			'it-it': "Sfuriate",
+			'pt-br': "Golpes de Fúria"
 		},
 
 		effect: {
-			en: "Flip 3 coins. This attack does 20 damage for each heads.",
-			fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts pour chaque côté face.",
-			es: "Lanza 3 monedas. Este ataque hace 20 puntos de daño por cada cara.",
+			'en-us': "Flip 3 coins. This attack does 20 damage for each heads.",
+			'fr-fr': "Lancez 3 pièces. Cette attaque inflige 20 dégâts pour chaque côté face.",
+			'es-es': "Lanza 3 monedas. Este ataque hace 20 puntos de daño por cada cara.",
 			'es-mx': "Lanza 3 monedas. Este ataque hace 20 puntos de daño por cada cara.",
-			de: "Wirf 3 Münzen. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu.",
-			it: "Lancia tre volte una moneta. Questo attacco infligge 20 danni ogni volta che esce testa.",
-			pt: "Jogue 3 moedas. Este ataque causa 20 pontos de dano para cada cara."
+			'de-de': "Wirf 3 Münzen. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu.",
+			'it-it': "Lancia tre volte una moneta. Questo attacco infligge 20 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 3 moedas. Este ataque causa 20 pontos de dano para cada cara."
 		},
 
 		damage: "20×"
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It loves things that sparkle. When it sees a shiny object, the gold coin on its head shines, too.",
+		'en-us': "It loves things that sparkle. When it sees a shiny object, the gold coin on its head shines, too.",
 	},
 
 	illustrator: "Uninori",

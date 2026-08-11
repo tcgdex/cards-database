@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Rhyhorn",
-		fr: "Rhinocorne",
-		es: "Rhyhorn",
-		it: "Rhyhorn",
-		pt: "Rhyhorn",
-		de: "Rihorn"
+		'en-us': "Rhyhorn",
+		'fr-fr': "Rhinocorne",
+		'es-es': "Rhyhorn",
+		'it-it': "Rhyhorn",
+		'pt-br': "Rhyhorn",
+		'de-de': "Rihorn"
 	},
 
 	illustrator: "Sekio",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Attack",
-				fr: "Koud'Korne",
-				es: "Cornada",
-				it: "Incornata",
-				pt: "Ataque de Chifre",
-				de: "Hornattacke"
+				'en-us': "Horn Attack",
+				'fr-fr': "Koud'Korne",
+				'es-es': "Cornada",
+				'it-it': "Incornata",
+				'pt-br': "Ataque de Chifre",
+				'de-de': "Hornattacke"
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer In",
-				fr: "Enfoncement",
-				es: "Martillear",
-				it: "Martello",
-				pt: "Martelada",
-				de: "Einhämmern"
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncement",
+				'es-es': "Martillear",
+				'it-it': "Martello",
+				'pt-br': "Martelada",
+				'de-de': "Einhämmern"
 			},
 
 			damage: 30,
@@ -77,7 +77,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It can remember only one thing at a time. Once it starts rushing, it forgets why it started."
+		'en-us': "It can remember only one thing at a time. Once it starts rushing, it forgets why it started."
 	},
 
 	dexId: [111],

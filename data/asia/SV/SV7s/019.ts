@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เดลวิล",
-		id: "Houndour"
+		'th-th': "เดลวิล",
+		'id-id': "Houndour"
 	},
 
 	illustrator: "REND",
@@ -15,24 +15,24 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		th: "ชนิดของเสียงร้องที่ใช้ตอนสื่อสารกับฝูงกับตอนไล่ต้อนเหยื่อจะแตกต่างกัน",
-		id: "Jenis raungan Houndour ketika berkomunikasi dengan sesamanya atau ketika memburu mangsanya berbeda-beda."
+		'th-th': "ชนิดของเสียงร้องที่ใช้ตอนสื่อสารกับฝูงกับตอนไล่ต้อนเหยื่อจะแตกต่างกัน",
+		'id-id': "Jenis raungan Houndour ketika berkomunikasi dengan sesamanya atau ketika memburu mangsanya berbeda-beda."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "แทะ",
-			id: "Menggerogot"
+			'th-th': "แทะ",
+			'id-id': "Menggerogot"
 		},
 
 		damage: 20,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			th: "เตะกลับหลัง",
-			id: "Tendangan Belakang"
+			'th-th': "เตะกลับหลัง",
+			'id-id': "Tendangan Belakang"
 		},
 
 		damage: 50,

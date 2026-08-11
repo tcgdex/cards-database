@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Rayquaza",
-		fr: "Rayquaza",
+		'en-us': "Rayquaza",
+		'fr-fr': "Rayquaza",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Ozone Wall",
-				fr: "Mur d'Ozone",
+				'en-us': "Ozone Wall",
+				'fr-fr': "Mur d'Ozone",
 			},
 			effect: {
-				en: "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).",
-				fr: "Tant que ce Pokémon est sur votre Banc, évitez tous les dégâts infligés à ce Pokémon par des attaques (les vôtres et celles de votre adversaire).",
+				'en-us': "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).",
+				'fr-fr': "Tant que ce Pokémon est sur votre Banc, évitez tous les dégâts infligés à ce Pokémon par des attaques (les vôtres et celles de votre adversaire).",
 			},
 		},
 	],
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Pulse",
-				fr: "Dracochoc"
+				'en-us': "Dragon Pulse",
+				'fr-fr': "Dracochoc"
 			},
 			effect: {
-				en: "Discard the top 3 cards of your deck.",
-				fr: "Défaussez les 3 cartes du dessus de votre deck."
+				'en-us': "Discard the top 3 cards of your deck.",
+				'fr-fr': "Défaussez les 3 cartes du dessus de votre deck."
 			},
 			damage: 130,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It lives in the ozone layer far above the clouds and cannot be seen from the ground.",
+		'en-us': "It lives in the ozone layer far above the clouds and cannot be seen from the ground.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マラカッチ",
+		'ja-jp': "マラカッチ",
 		'zh-tw': "沙鈴仙人掌",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "１年に 一度 種を まく。 花の 種は 栄養満点で 砂漠の 貴重な 食料。",
+		'ja-jp': "１年に 一度 種を まく。 花の 種は 栄養満点で 砂漠の 貴重な 食料。",
 		'zh-tw': "一年散播一次種子。花的種子營養十足，是沙漠中貴重的食糧。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "つつく",
+				'ja-jp': "つつく",
 				'zh-tw': "啄",
 			},
 			damage: 20,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ぽいぽいシェイク",
+				'ja-jp': "ぽいぽいシェイク",
 				'zh-tw': "丟丟搖擺",
 			},
 			damage: "50×",
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "自分の手札から「ポケモンのどうぐ」を好きなだけトラッシュし、その枚数×50ダメージ。",
+				'ja-jp': "自分の手札から「ポケモンのどうぐ」を好きなだけトラッシュし、その枚数×50ダメージ。",
 				'zh-tw': "從自己的手牌將任意數量的「寶可夢道具」卡丟棄，造成其張數×50點傷害。",
 			},
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Torterra",
-		fr: "Torterra",
-		de: "Chelterrar"
+		'en-us': "Torterra",
+		'fr-fr': "Torterra",
+		'de-de': "Chelterrar"
 	},
 
 	illustrator: "match",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Grotle",
-		fr: "Boskara"
+		'en-us': "Grotle",
+		'fr-fr': "Boskara"
 	},
 
 	stage: "Stage2",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giga Drain",
-				fr: "Giga-sangsue",
-				de: "Gigasauger"
+				'en-us': "Giga Drain",
+				'fr-fr': "Giga-sangsue",
+				'de-de': "Gigasauger"
 			},
 			effect: {
-				en: "Remove from Torterra the number of damage counters equal to the damage you did to the Defending Pokémon.",
-				fr: "Retirez de Torterra un nombre de marqueurs de dégât équivalant aux dégâts que vous avez infligés au Pokémon Défenseur.",
-				de: "Entferne Schadensmarken von Chelterrar entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon durch diesen Angriff zugefügt wurden."
+				'en-us': "Remove from Torterra the number of damage counters equal to the damage you did to the Defending Pokémon.",
+				'fr-fr': "Retirez de Torterra un nombre de marqueurs de dégât équivalant aux dégâts que vous avez infligés au Pokémon Défenseur.",
+				'de-de': "Entferne Schadensmarken von Chelterrar entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon durch diesen Angriff zugefügt wurden."
 			},
 			damage: 40,
 
@@ -56,9 +56,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Land Crush",
-				fr: "Écras’terre",
-				de: "Schollenbrecher"
+				'en-us': "Land Crush",
+				'fr-fr': "Écras’terre",
+				'de-de': "Schollenbrecher"
 			},
 
 			damage: 80,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Ancient people imagined that beneath the ground, a gigantic Torterra dwelled."
+		'en-us': "Ancient people imagined that beneath the ground, a gigantic Torterra dwelled."
 	},
 
 	variants: [

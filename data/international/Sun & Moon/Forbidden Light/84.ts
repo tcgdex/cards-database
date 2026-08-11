@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Flabébé",
-		fr: "Flabébé",
-		es: "Flabébé",
-		it: "Flabébé",
-		pt: "Flabébé",
-		de: "Flabébé"
+		'en-us': "Flabébé",
+		'fr-fr': "Flabébé",
+		'es-es': "Flabébé",
+		'it-it': "Flabébé",
+		'pt-br': "Flabébé",
+		'de-de': "Flabébé"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Secret Blessings",
-				fr: "Bénédictions Secrètes",
-				es: "Bendiciones Secretas",
-				it: "Preghiera Segreta",
-				pt: "Bênçãos Secretas",
-				de: "Geheimer Segen"
+				'en-us': "Secret Blessings",
+				'fr-fr': "Bénédictions Secrètes",
+				'es-es': "Bendiciones Secretas",
+				'it-it': "Preghiera Segreta",
+				'pt-br': "Bênçãos Secretas",
+				'de-de': "Geheimer Segen"
 			},
 			effect: {
-				en: "Shuffle 3 in any combination of Pokémon and basic Energy cards from your discard pile into your deck.",
-				fr: "Choisissez une combinaison de 3 Pokémon et Énergies de base dans votre pile de défausse et mélangez-les avec votre deck.",
-				es: "Pon, en cualquier combinación, 3 cartas de Pokémon y de Energía Básica de tu pila de descartes en tu baraja y barájalas todas.",
-				it: "Rimischia tre carte Pokémon e Energia base in qualsiasi combinazione dalla tua pila degli scarti nel tuo mazzo.",
-				pt: "Embaralhe 3 cartas de Pokémon e de Energia básica da sua pilha de descarte no seu baralho em qualquer combinação.",
-				de: "Mische eine beliebige Kombination aus 3 Pokémon und Basis-Energiekarten aus deinem Ablagestapel in dein Deck."
+				'en-us': "Shuffle 3 in any combination of Pokémon and basic Energy cards from your discard pile into your deck.",
+				'fr-fr': "Choisissez une combinaison de 3 Pokémon et Énergies de base dans votre pile de défausse et mélangez-les avec votre deck.",
+				'es-es': "Pon, en cualquier combinación, 3 cartas de Pokémon y de Energía Básica de tu pila de descartes en tu baraja y barájalas todas.",
+				'it-it': "Rimischia tre carte Pokémon e Energia base in qualsiasi combinazione dalla tua pila degli scarti nel tuo mazzo.",
+				'pt-br': "Embaralhe 3 cartas de Pokémon e de Energia básica da sua pilha de descarte no seu baralho em qualquer combinação.",
+				'de-de': "Mische eine beliebige Kombination aus 3 Pokémon und Basis-Energiekarten aus deinem Ablagestapel in dein Deck."
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it finds a flower it likes, it dwells on that flower its whole life long. It floats in the wind's embrace with an untroubled heart.",
+		'en-us': "When it finds a flower it likes, it dwells on that flower its whole life long. It floats in the wind's embrace with an untroubled heart.",
 	},
 
 	thirdParty: {

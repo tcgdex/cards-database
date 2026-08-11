@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団のダグトリオ",
+		'ja-jp': "ロケット団のダグトリオ",
 	},
 
 	illustrator: "Whisker",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "地中を 掘りすすんで 相手が 油断しているところを 別の 場所から 攻撃する。",
+		'ja-jp': "地中を 掘りすすんで 相手が 油断しているところを 別の 場所から 攻撃する。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "あなぼこ" },
 			effect: {
-				ja: "このポケモンがいるかぎり、相手の番に、相手のバトルポケモンがベンチにもどるたび、そのポケモンにダメカンを2個のせる。",
+				'ja-jp': "このポケモンがいるかぎり、相手の番に、相手のバトルポケモンがベンチにもどるたび、そのポケモンにダメカンを2個のせる。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ロケット団のディグダ",
+		'ja-jp': "ロケット団のディグダ",
 	},
 
 	retreat: 1,

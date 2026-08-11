@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Gligar",
-		fr: "Scorplane",
-		de: "Skorgla"
+		'en-us': "Gligar",
+		'fr-fr': "Scorplane",
+		'de-de': "Skorgla"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -32,15 +32,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Poison Sting",
-				fr: "Dard-venin",
-				de: "Poison Sting"
+				'en-us': "Poison Sting",
+				'fr-fr': "Dard-venin",
+				'de-de': "Poison Sting"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
 
 			damage: 10
@@ -51,9 +51,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Slash"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Slash"
 			},
 
 			damage: 20,
@@ -76,8 +76,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It flies straight at its target's face, then clamps down on the startled victim to inject poison.",
-		fr: "Il vole droit sur le visage de sa cible, et s'accroche ensuite à sa victime effrayée pour lui injecter du poison."
+		'en-us': "It flies straight at its target's face, then clamps down on the startled victim to inject poison.",
+		'fr-fr': "Il vole droit sur le visage de sa cible, et s'accroche ensuite à sa victime effrayée pour lui injecter du poison."
 	},
 
 

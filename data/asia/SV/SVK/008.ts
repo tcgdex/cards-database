@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVK"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ピジョン"
+		'ja-jp': "ピジョン"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "広い 縄張りを 持っており 侵入する 邪魔者は 徹底的に つつかれてしまう。"
+		'ja-jp': "広い 縄張りを 持っており 侵入する 邪魔者は 徹底的に つつかれてしまう。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "はばたく"
+			'ja-jp': "はばたく"
 		},
 
 		damage: 20

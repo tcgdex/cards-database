@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Dunsparce",
-		fr: "Insolourdo",
-		de: "Dummisel"
+		'en-us': "Dunsparce",
+		'fr-fr': "Insolourdo",
+		'de-de': "Dummisel"
 	},
 
 	illustrator: "Midori Harada",
@@ -29,28 +29,28 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Snake Hook",
-				fr: "Crochet de serpent",
-				de: "Schlangenhaken"
+				'en-us': "Snake Hook",
+				'fr-fr': "Crochet de serpent",
+				'de-de': "Schlangenhaken"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
 		{
 
 			name: {
-				en: "Bite and Run",
-				fr: "Mordre et courrir",
-				de: "Zubeißen und Abhauen"
+				'en-us': "Bite and Run",
+				'fr-fr': "Mordre et courrir",
+				'de-de': "Zubeißen und Abhauen"
 			},
 			effect: {
-				en: "Switch Dunsparce with 1 of your Benched Pokémon.",
-				fr: "Échangez Insolourdo avec 1 de vos Pokémon de Banc.",
-				de: "Tausche Dummisel gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Switch Dunsparce with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez Insolourdo avec 1 de vos Pokémon de Banc.",
+				'de-de': "Tausche Dummisel gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 10,
 
@@ -67,8 +67,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It digs into the ground with its tail and makes a mazelike nest. It can fly just a little.",
-		fr: "Son nid est un véritable labyrinthe qu'il creuse à l'aide de sa queue. Il sait à peine voler."
+		'en-us': "It digs into the ground with its tail and makes a mazelike nest. It can fly just a little.",
+		'fr-fr': "Son nid est un véritable labyrinthe qu'il creuse à l'aide de sa queue. Il sait à peine voler."
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Cyndaquil",
-		fr: "Hericendre",
-		de: "Feurigel"
+		'en-us': "Cyndaquil",
+		'fr-fr': "Hericendre",
+		'de-de': "Feurigel"
 	},
 
 	illustrator: "Ken Ikuji",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swift",
-				fr: "Météores",
-				de: "Swift"
+				'en-us': "Swift",
+				'fr-fr': "Météores",
+				'de-de': "Swift"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
-				de: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
+				'de-de': "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
 			},
 			damage: 10,
 
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rage",
-				fr: "Frénésie",
-				de: "Rage"
+				'en-us': "Rage",
+				'fr-fr': "Frénésie",
+				'de-de': "Rage"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each damage counter on Cyndaquil.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Héricendre.",
-				de: "Does 10 damage plus 10 more damage for each damage counter on Cyndaquil."
+				'en-us': "Does 10 damage plus 10 more damage for each damage counter on Cyndaquil.",
+				'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Héricendre.",
+				'de-de': "Does 10 damage plus 10 more damage for each damage counter on Cyndaquil."
 			},
 			damage: "10+",
 

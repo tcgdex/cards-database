@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Chansey",
-		fr: "Leveinard",
-		de: "Chaneira"
+		'en-us': "Chansey",
+		'fr-fr': "Leveinard",
+		'de-de': "Chaneira"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scrunch",
-				fr: "Compresse",
-				de: "Zähneknirschen"
+				'en-us': "Scrunch",
+				'fr-fr': "Compresse",
+				'de-de': "Zähneknirschen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Chansey by attacks during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous dégâts infligés à Leveinard par des attaques lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" verhindere alle Schadenspunkte, die Chaneira während des nächsten Zuges deines Gegners durch Angriffe zugefügt werden."
+				'en-us': "Flip a coin. If heads, prevent all damage done to Chansey by attacks during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous dégâts infligés à Leveinard par des attaques lors du prochain tour de votre adversaire.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" verhindere alle Schadenspunkte, die Chaneira während des nächsten Zuges deines Gegners durch Angriffe zugefügt werden."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-edge",
-				fr: "Damoclès",
-				de: "Risikotackle"
+				'en-us': "Double-edge",
+				'fr-fr': "Damoclès",
+				'de-de': "Risikotackle"
 			},
 			effect: {
-				en: "Chansey does 60 damage to itself.",
-				fr: "Leveinard s'inflige 60 dégâts.",
-				de: "Chaneira fügt sich selbst 60 Schadenspunkte zu."
+				'en-us': "Chansey does 60 damage to itself.",
+				'fr-fr': "Leveinard s'inflige 60 dégâts.",
+				'de-de': "Chaneira fügt sich selbst 60 Schadenspunkte zu."
 			},
 			damage: 80,
 
@@ -75,8 +75,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It is said to deliver happiness. Being compassionate, it shares its eggs with injured people.",
-		fr: "Il est censé apporter la joie. Ce Pokémon charitable offre ses œufs aux blessés."
+		'en-us': "It is said to deliver happiness. Being compassionate, it shares its eggs with injured people.",
+		'fr-fr': "Il est censé apporter la joie. Ce Pokémon charitable offre ses œufs aux blessés."
 	},
 
 	thirdParty: {

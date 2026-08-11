@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Vigoroth",
-		en: "Vigoroth",
-		es: "Vigoroth",
-		it: "Vigoroth",
-		pt: "Vigoroth",
-		de: "Muntier"
+		'fr-fr': "Vigoroth",
+		'en-us': "Vigoroth",
+		'es-es': "Vigoroth",
+		'it-it': "Vigoroth",
+		'pt-br': "Vigoroth",
+		'de-de': "Muntier"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Colorless"],
 	evolveFrom: {
-		fr: "Parecool",
-		en: "Slakoth",
-		es: "Slakoth",
-		it: "Slakoth",
-		pt: "Slakoth",
-		de: "Bummelz"
+		'fr-fr': "Parecool",
+		'en-us': "Slakoth",
+		'es-es': "Slakoth",
+		'it-it': "Slakoth",
+		'pt-br': "Slakoth",
+		'de-de': "Bummelz"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Confrontation",
-			en: "Confront",
-			es: "Confrontar",
-			it: "Confronto",
-			pt: "Confrontar",
-			de: "Konfrontieren"
+			'fr-fr': "Confrontation",
+			'en-us': "Confront",
+			'es-es': "Confrontar",
+			'it-it': "Confronto",
+			'pt-br': "Confrontar",
+			'de-de': "Konfrontieren"
 		},
 
 		damage: 40
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Griffes Affûtées",
-			en: "Sharp Claws",
-			es: "Garras Afiladas",
-			it: "Artigli Affilati",
-			pt: "Garras Cortantes",
-			de: "Scharfe Krallen"
+			'fr-fr': "Griffes Affûtées",
+			'en-us': "Sharp Claws",
+			'es-es': "Garras Afiladas",
+			'it-it': "Artigli Affilati",
+			'pt-br': "Garras Cortantes",
+			'de-de': "Scharfe Krallen"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts supplémentaires.",
-			en: "Flip a coin. If heads, this attack does 60 more damage.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 60 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 60 danni in più.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 60 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 60 Schadenspunkte mehr zu."
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts supplémentaires.",
+			'en-us': "Flip a coin. If heads, this attack does 60 more damage.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 60 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 60 danni in più.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 60 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 60 Schadenspunkte mehr zu."
 		},
 
 		damage: "60+"
@@ -103,7 +103,7 @@ const card: Card = {
 	illustrator: "GIDORA",
 
 	description: {
-		en: "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick.",
+		'en-us': "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick.",
 	},
 }
 

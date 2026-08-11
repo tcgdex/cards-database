@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Black & White'
 
 const bw9: Set = {
 	id: "bw9",
 
 	name: {
-		en: "Plasma Freeze",
-		fr: "Glaciation Plasma",
-		es: "Glaciación Plasma",
-		it: "Glaciazione Plasma",
-		de: "Plasma-Frost",
-		pt: "Congelamento de Plasma"
+		'en-us': "Plasma Freeze",
+		'fr-fr': "Glaciation Plasma",
+		'es-es': "Glaciación Plasma",
+		'it-it': "Glaciazione Plasma",
+		'de-de': "Plasma-Frost",
+		'pt-br': "Congelamento de Plasma"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const bw9: Set = {
 
 	abbreviations: {
 		official: "PLF",
-		fr: "GPL"
+		'fr-fr': "GPL"
 	},
 
 	thirdParty: {

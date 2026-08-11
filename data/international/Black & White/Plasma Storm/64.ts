@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Trubbish",
-		fr: "Miamiasme",
-		es: "Trubbish",
-		it: "Trubbish",
-		pt: "Trubbish",
-		de: "Unratütox"
+		'en-us': "Trubbish",
+		'fr-fr': "Miamiasme",
+		'es-es': "Trubbish",
+		'it-it': "Trubbish",
+		'pt-br': "Trubbish",
+		'de-de': "Unratütox"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'Face",
+				'en-us': "Pound",
+				'fr-fr': "Écras'Face",
 			},
 
 			damage: 10,
@@ -48,8 +48,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sludge Bomb",
-				fr: "Bomb-Beurk",
+				'en-us': "Sludge Bomb",
+				'fr-fr': "Bomb-Beurk",
 			},
 
 			damage: 40,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Wanting more garbage, they follow people who litter. They always belch poison gas.",
+		'en-us': "Wanting more garbage, they follow people who litter. They always belch poison gas.",
 	},
 
 	thirdParty: {

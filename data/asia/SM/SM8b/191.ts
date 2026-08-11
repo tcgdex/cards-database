@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メタング",
+		'ja-jp': "メタング",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "２匹の ダンバルが 連結し サイコパワーは ２倍に。 ただし 賢さ自体は 変わっていない。",
+		'ja-jp': "２匹の ダンバルが 連結し サイコパワーは ２倍に。 ただし 賢さ自体は 変わっていない。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[鋼]エネルギーを、1個トラッシュする。",
+				'ja-jp': "このポケモンについている[鋼]エネルギーを、1個トラッシュする。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ダンバル",
+		'ja-jp': "ダンバル",
 	},
 
 	retreat: 3,

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HS trainer Kit (Gyarados)'
 
 const card: Card = {
 	name: {
-		en: "Water Energy",
+		'en-us': "Water Energy",
 	},
 
 	rarity: "None",

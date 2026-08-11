@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "姆克鳥",
-		ja: "ムクバード"
+		'ja-jp': "ムクバード"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "棲息在森林和草原。如果遇上同類的團隊， 就會開始爭奪地盤。",
-		ja: "森や 草原に 生息。 グループが 出くわすと なわばりを かけた 争いが はじまる。"
+		'ja-jp': "森や 草原に 生息。 グループが 出くわすと なわばりを かけた 争いが はじまる。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "翅膀攻擊",
-			ja: "つばさでうつ"
+			'ja-jp': "つばさでうつ"
 		},
 
 		damage: 50,

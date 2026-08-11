@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポリゴン",
+		'ja-jp': "ポリゴン",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "変換1",
+				'ja-jp': "変換1",
 			},
 			effect: {
-				ja: "防御するポケモンが弱点を持っている場合、それを無色の以外の選択の種類に変更することができます。 （いずれかのポケモンがこの効果を終了するかのいずれかのベンチを作成します。）",
+				'ja-jp': "防御するポケモンが弱点を持っている場合、それを無色の以外の選択の種類に変更することができます。 （いずれかのポケモンがこの効果を終了するかのいずれかのベンチを作成します。）",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "PSYBEAM",
+				'ja-jp': "PSYBEAM",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
 			},
 			damage: 20,
 		},

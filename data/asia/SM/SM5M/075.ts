@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パルキアGX",
+		'ja-jp': "パルキアGX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "くうかんせいぎょ" },
 			cost: ["Water"],
 			effect: {
-				ja: "自分のベンチポケモンについているエネルギーを好きなだけ、このポケモンにつけ替える。",
+				'ja-jp': "自分のベンチポケモンについているエネルギーを好きなだけ、このポケモンにつけ替える。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[水]エネルギーの数x20ダメージ追加。",
+				'ja-jp': "このポケモンについている[水]エネルギーの数x20ダメージ追加。",
 			},
 		},
 		{
@@ -35,7 +35,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Water", "Water", "Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手の場のポケモンについているエネルギーを、すべて山札にもどして切る。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手の場のポケモンについているエネルギーを、すべて山札にもどして切る。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

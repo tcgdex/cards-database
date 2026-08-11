@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "อิโนมู",
-		id: "Piloswine"
+		'th-th': "อิโนมู",
+		'id-id': "Piloswine"
 	},
 
 	illustrator: "Aliya Chen",
@@ -15,24 +15,24 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		th: "ร่างกายปกคลุมด้วยขนยาวและทนทานต่อความหนาวเย็น เขี้ยวน้ำแข็ง จะใหญ่ยิ่งขึ้นเมื่อหิมะตก",
-		id: "Ia diselimuti bulu panjang sehingga tahan dingin. Gading esnya akan menjadi makin tebal saat salju turun."
+		'th-th': "ร่างกายปกคลุมด้วยขนยาวและทนทานต่อความหนาวเย็น เขี้ยวน้ำแข็ง จะใหญ่ยิ่งขึ้นเมื่อหิมะตก",
+		'id-id': "Ia diselimuti bulu panjang sehingga tahan dingin. Gading esnya akan menjadi makin tebal saat salju turun."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "พลังมหากาฬ",
-			id: "Tenaga Super"
+			'th-th': "พลังมหากาฬ",
+			'id-id': "Tenaga Super"
 		},
 
 		damage: 20,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "เขี้ยวขวิด",
-			id: "Tusukan Taring"
+			'th-th': "เขี้ยวขวิด",
+			'id-id': "Tusukan Taring"
 		},
 
 		damage: 50,

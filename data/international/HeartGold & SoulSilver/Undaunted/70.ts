@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Togepi",
-		fr: "Togepi",
-		de: "Togepi"
+		'en-us': "Togepi",
+		'fr-fr': "Togepi",
+		'de-de': "Togepi"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Plead",
-				fr: "Supplication",
-				de: "Flehen"
+				'en-us': "Plead",
+				'fr-fr': "Supplication",
+				'de-de': "Flehen"
 			},
 			effect: {
-				en: "Ask your opponent if you may draw 2 cards. If yes, draw 2 cards. If no, this attack does 20 damage to the Defending Pokémon.",
-				fr: "Demandez à votre adversaire si vous pouvez piocher 2 cartes. S’il accepte, piochez 2 cartes. S’il refuse, cette attaque inflige 20 dégâts au Pokémon Défenseur.",
-				de: "Frage deinen Gegner, ob du 2 Karten ziehen darfst. Wenn ja, ziehe 2 Karten. Wenn nicht, fügt dieser Angriff dem Verteidigenden Pokémon 20 Schadenspunkte zu."
+				'en-us': "Ask your opponent if you may draw 2 cards. If yes, draw 2 cards. If no, this attack does 20 damage to the Defending Pokémon.",
+				'fr-fr': "Demandez à votre adversaire si vous pouvez piocher 2 cartes. S’il accepte, piochez 2 cartes. S’il refuse, cette attaque inflige 20 dégâts au Pokémon Défenseur.",
+				'de-de': "Frage deinen Gegner, ob du 2 Karten ziehen darfst. Wenn ja, ziehe 2 Karten. Wenn nicht, fügt dieser Angriff dem Verteidigenden Pokémon 20 Schadenspunkte zu."
 			},
 
 		},
@@ -52,7 +52,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up."
+		'en-us': "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up."
 	},
 
 	variants: [

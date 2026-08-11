@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポッチャマ",
+		'ja-jp': "ポッチャマ",
 	},
 
 	illustrator: "Jiro Sasumo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "歩くのは 苦手で こけたりするが ポッチャマの プライドは 高く 気にせず 堂々と 胸を はる。",
+		'ja-jp': "歩くのは 苦手で こけたりするが ポッチャマの プライドは 高く 気にせず 堂々と 胸を はる。",
 	},
 
 	stage: "Basic",

@@ -1,11 +1,11 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../S'
 
 const set: Set = {
 	id: 'S2a',
 	name: {
-		ja: '爆炎ウォーカー',
-		ko: '폭염워커'
+		'ja-jp': '爆炎ウォーカー',
+		'ko-kr': '폭염워커'
 	},
 
 	serie: serie,
@@ -14,7 +14,7 @@ const set: Set = {
 		official: 70
 	},
 	releaseDate: {
-		ja: '2020-04-24'
+		'ja-jp': '2020-04-24'
 	},
 
 	thirdParty: {

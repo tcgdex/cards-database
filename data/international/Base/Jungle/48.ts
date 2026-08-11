@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Jungle'
 
 const card: Card = {
 	name: {
-		en: "Weepinbell",
-		fr: "Boustiflor",
-		de: "Ultrigaria"
+		'en-us': "Weepinbell",
+		'fr-fr': "Boustiflor",
+		'de-de': "Ultrigaria"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bellsprout",
-		fr: "Chétiflor"
+		'en-us': "Bellsprout",
+		'fr-fr': "Chétiflor"
 	},
 
 	stage: "Stage1",
@@ -37,15 +37,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Poisonpowder",
-				fr: "Poudre toxik",
-				de: "Giftpuder"
+				'en-us': "Poisonpowder",
+				'fr-fr': "Poudre toxik",
+				'de-de': "Giftpuder"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 10
@@ -56,9 +56,9 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'herbe",
-				de: "Rasierblatt"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'herbe",
+				'de-de': "Rasierblatt"
 			},
 
 			damage: 30,
@@ -76,8 +76,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It spits out poisonpowder to immobilize the enemy, and then finishes the enemy with a spray of acid.",
-		fr: "Il crache de la poudre toxik pour immobiliser sa proie et il l'achève avec de l'acide."
+		'en-us': "It spits out poisonpowder to immobilize the enemy, and then finishes the enemy with a spray of acid.",
+		'fr-fr': "Il crache de la poudre toxik pour immobiliser sa proie et il l'achève avec de l'acide."
 	},
 
 

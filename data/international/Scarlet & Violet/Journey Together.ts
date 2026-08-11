@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Scarlet & Violet'
 
 const set: Set = {
 	id: "sv09",
 
 	name: {
-		de: "Reisegefährten",
-		en: "Journey Together",
-		es: "Juntos de Aventuras",
-		fr: "Aventures Ensemble",
-		it: "Avventure Insieme",
-		pt: "Amigos de Jornada",
+		'de-de': "Reisegefährten",
+		'en-us': "Journey Together",
+		'es-es': "Juntos de Aventuras",
+		'fr-fr': "Aventures Ensemble",
+		'it-it': "Avventure Insieme",
+		'pt-br': "Amigos de Jornada",
 		"es-mx": 'Aventuras Compartidas'
 	},
 

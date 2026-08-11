@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アクア団のベトベター",
+		'ja-jp': "アクア団のベトベター",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "どんな 隙間でも 入り込める 柔軟な 体は 敵の アジトに 侵入するときに 役立つぜ。",
+		'ja-jp': "どんな 隙間でも 入り込める 柔軟な 体は 敵の アジトに 侵入するときに 役立つぜ。",
 	},
 
 	stage: "Basic",

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "クリムガン",
+		'ja-jp': "クリムガン",
 		'zh-tw': "赤面龍",
 		'zh-cn': "赤面龍"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "凶暴で ずる賢い。 ほかの ポケモンが 掘った 巣穴を 奪って すみかにする。",
+		'ja-jp': "凶暴で ずる賢い。 ほかの ポケモンが 掘った 巣穴を 奪って すみかにする。",
 		'zh-tw': "性情凶暴且狡猾。會搶奪 其他寶可夢挖好的巢穴， 來當作是自己的窩。",
 		'zh-cn': "性情凶暴且狡猾。會搶奪 其他寶可夢挖好的巢穴， 來當作是自己的窩。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "りゅうのたけり",
+			'ja-jp': "りゅうのたけり",
 			'zh-tw': "龍之猛暴",
 			'zh-cn': "龍之猛暴"
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 		damage: 20,
 
 		effect: {
-			ja: "自分のトラッシュから「基本エネルギー」を1枚選び、自分のポケモンにつける。",
+			'ja-jp': "自分のトラッシュから「基本エネルギー」を1枚選び、自分のポケモンにつける。",
 			'zh-tw': "從自己的棄牌區選擇1張「基本【火】能量」卡，附於自己的【龍】寶可夢身上。",
 			'zh-cn': "從自己的棄牌區選擇1張「基本【火】能量」卡，附於自己的【龍】寶可夢身上。"
 		}
@@ -45,7 +45,7 @@ const card: Card = {
 		cost: ["Fire", "Water", "Colorless"],
 
 		name: {
-			ja: "スラッシュクロー",
+			'ja-jp': "スラッシュクロー",
 			'zh-tw': "利爪揮砍",
 			'zh-cn': "利爪揮砍"
 		},

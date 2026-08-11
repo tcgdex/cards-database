@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クレッフィ",
+		'ja-jp': "クレッフィ",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "頭の角を 金属の すき間に 突っ込んで 金属イオンを 吸う。 なぜか カギを 集めている。",
+		'ja-jp': "頭の角を 金属の すき間に 突っ込んで 金属イオンを 吸う。 なぜか カギを 集めている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ないしょのカギ" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分の[鋼]ポケモン全員の抵抗力は、すべて「-40」になる。",
+				'ja-jp': "このポケモンがいるかぎり、自分の[鋼]ポケモン全員の抵抗力は、すべて「-40」になる。",
 			},
 		},
 	],

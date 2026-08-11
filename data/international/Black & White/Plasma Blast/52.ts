@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Sawk",
-		fr: "Karaclée",
-		es: "Sawk",
-		it: "Sawk",
-		pt: "Sawk",
-		de: "Karadonis"
+		'en-us': "Sawk",
+		'fr-fr': "Karaclée",
+		'es-es': "Sawk",
+		'it-it': "Sawk",
+		'pt-br': "Sawk",
+		'de-de': "Karadonis"
 	},
 
 	illustrator: "Naoki Saito",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Kick of Righteousness",
-				fr: "Coup de Pied Vertueux",
+				'en-us': "Kick of Righteousness",
+				'fr-fr': "Coup de Pied Vertueux",
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Team Plasma Pokémon, this attack does 40 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon de la Team Plasma, cette attaque inflige 40 dégâts supplémentaires.",
+				'en-us': "If the Defending Pokémon is a Team Plasma Pokémon, this attack does 40 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon de la Team Plasma, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: 10,
 
@@ -51,8 +51,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Low Sweep",
-				fr: "Balayette",
+				'en-us': "Low Sweep",
+				'fr-fr': "Balayette",
 			},
 
 			damage: 60,
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Desiring the strongest karate chop, they seclude themselves in mountains and train without sleeping.",
+		'en-us': "Desiring the strongest karate chop, they seclude themselves in mountains and train without sleeping.",
 	},
 
 	thirdParty: {

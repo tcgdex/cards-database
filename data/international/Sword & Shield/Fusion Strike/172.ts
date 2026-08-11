@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vullaby",
-		fr: "Vostourno",
-		es: "Vullaby",
-		it: "Vullaby",
-		pt: "Vullaby",
-		de: "Skallyk"
+		'en-us': "Vullaby",
+		'fr-fr': "Vostourno",
+		'es-es': "Vullaby",
+		'it-it': "Vullaby",
+		'pt-br': "Vullaby",
+		'de-de': "Skallyk"
 	},
 
 	rarity: "Common",
@@ -36,19 +36,19 @@ const card: Card = {
 	illustrator: "Shigenori Negishi",
 
 	description: {
-		en: "Vullaby grow quickly. Bones that have gotten too small for older Vullaby to wear often get passed down to younger ones in the nest."
+		'en-us': "Vullaby grow quickly. Bones that have gotten too small for older Vullaby to wear often get passed down to younger ones in the nest."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Razor Wing",
-			fr: "Aile Tranchante",
-			de: "Rasierflügel",
-			es: "Ala Cortante",
-			pt: "Asa Cortante",
-			it: "Ala Tagliente"
+			'en-us': "Razor Wing",
+			'fr-fr': "Aile Tranchante",
+			'de-de': "Rasierflügel",
+			'es-es': "Ala Cortante",
+			'pt-br': "Asa Cortante",
+			'it-it': "Ala Tagliente"
 		},
 
 		damage: 10
@@ -56,23 +56,23 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Air Slash",
-			fr: "Lame d'Air",
-			de: "Luftschnitt",
-			es: "Tajo Aéreo",
-			pt: "Golpe de Ar",
-			it: "Eterelama"
+			'en-us': "Air Slash",
+			'fr-fr': "Lame d'Air",
+			'de-de': "Luftschnitt",
+			'es-es': "Tajo Aéreo",
+			'pt-br': "Golpe de Ar",
+			'it-it': "Eterelama"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			pt: "Descarte 1 Energia deste Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon."
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'pt-br': "Descarte 1 Energia deste Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon."
 		}
 	}],
 

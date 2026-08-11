@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Mightyena",
-		fr: "Grahyena",
-		de: "Magnayen"
+		'en-us': "Mightyena",
+		'fr-fr': "Grahyena",
+		'de-de': "Magnayen"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Poochyena",
-		fr: "Fiffyen",
+		'en-us': "Poochyena",
+		'fr-fr': "Fiffyen",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Bite On",
-				fr: "Morsure à répétition",
-				de: "Anbeißen"
+				'en-us': "Bite On",
+				'fr-fr': "Morsure à répétition",
+				'de-de': "Anbeißen"
 			},
 			effect: {
-				en: "If the Defending Pokémon isn't an Evolved Pokémon, that Pokémon can't attack, retreat, or use any Poké-Powers during your opponent's next turn.",
-				fr: "Si le Pokémon Défenseur n'est pas un Pokémon Évolué, il ne peut pas attaquer, battre en retraite ou utiliser de Poké-Powers lors du prochain tour de votre adversaire.",
-				de: "Wenn das Verteidigende Pokémon kein entwickeltes Pokémon ist, kann es im nächsten Zug deines Gegners nicht angreifen, sich zurückziehen oder Poké-Power benutzen."
+				'en-us': "If the Defending Pokémon isn't an Evolved Pokémon, that Pokémon can't attack, retreat, or use any Poké-Powers during your opponent's next turn.",
+				'fr-fr': "Si le Pokémon Défenseur n'est pas un Pokémon Évolué, il ne peut pas attaquer, battre en retraite ou utiliser de Poké-Powers lors du prochain tour de votre adversaire.",
+				'de-de': "Wenn das Verteidigende Pokémon kein entwickeltes Pokémon ist, kann es im nächsten Zug deines Gegners nicht angreifen, sich zurückziehen oder Poké-Power benutzen."
 			},
 			damage: 30,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Harass",
-				fr: "Harcèlement",
-				de: "Schikanieren"
+				'en-us': "Harass",
+				'fr-fr': "Harcèlement",
+				'de-de': "Schikanieren"
 			},
 			effect: {
-				en: "Does 10 damage times the number of Pokémon you have in play.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de Pokémon que vous avez en jeu.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl deiner Pokémon im Spiel zu."
+				'en-us': "Does 10 damage times the number of Pokémon you have in play.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de Pokémon que vous avez en jeu.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl deiner Pokémon im Spiel zu."
 			},
 			damage: "10x",
 
@@ -85,8 +85,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It chases down prey in a pack. It will never disobey the commands of a skilled Trainer.",
-		fr: "Il traque ses proies en groupe. Il ne désobéira jamais aux ordres d'un bon Dresseur."
+		'en-us': "It chases down prey in a pack. It will never disobey the commands of a skilled Trainer.",
+		'fr-fr': "Il traque ses proies en groupe. Il ne désobéira jamais aux ordres d'un bon Dresseur."
 	},
 
 	thirdParty: {

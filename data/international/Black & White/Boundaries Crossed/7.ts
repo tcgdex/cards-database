@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Scyther",
-		fr: "Insécateur",
-		es: "Scyther",
-		it: "Scyther",
-		pt: "Scyther",
-		de: "Sichlor"
+		'en-us': "Scyther",
+		'fr-fr': "Insécateur",
+		'es-es': "Scyther",
+		'it-it': "Scyther",
+		'pt-br': "Scyther",
+		'de-de': "Sichlor"
 	},
 
 	illustrator: "kawayoo",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
 			},
 
 			damage: 10,
@@ -47,8 +47,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharp Scythe",
-				fr: "Faucille Acérée",
+				'en-us': "Sharp Scythe",
+				'fr-fr': "Faucille Acérée",
 			},
 
 			damage: 20,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The sharp scythes on its forearms become increasingly sharp by cutting through hard objects.",
+		'en-us': "The sharp scythes on its forearms become increasingly sharp by cutting through hard objects.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シュシュプ",
+		'ja-jp': "シュシュプ",
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "昔の 貴婦人たちは 香水の かわりに 好みの 香りを 出す シュシュプを 連れていたという。",
+		'ja-jp': "昔の 貴婦人たちは 香水の かわりに 好みの 香りを 出す シュシュプを 連れていたという。",
 	},
 
 	stage: "Basic",

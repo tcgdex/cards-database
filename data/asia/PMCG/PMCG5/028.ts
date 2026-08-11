@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カスミのコイキング",
+		'ja-jp': "カスミのコイキング",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,16 +19,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "死んでプレイ",
+				'ja-jp': "死んでプレイ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。ヘッドの場合、対戦相手の次のターン中に、MistyのMagikarpに対して行われたダメージを含む攻撃のすべての影響を防ぎます。",
+				'ja-jp': "コインをひっくり返します。ヘッドの場合、対戦相手の次のターン中に、MistyのMagikarpに対して行われたダメージを含む攻撃のすべての影響を防ぎます。",
 			},
 		},
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "跳躍",
+				'ja-jp': "跳躍",
 			},
 			damage: 10,
 		},

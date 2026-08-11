@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Zekrom",
-		fr: "Zekrom",
+		'en-us': "Zekrom",
+		'fr-fr': "Zekrom",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Outrage",
-				fr: "Colère",
+				'en-us': "Outrage",
+				'fr-fr': "Colère",
 			},
 			effect: {
-				en: "Does 10 more damage for each damage counter on this Pokémon.",
-				fr: "Inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
+				'en-us': "Does 10 more damage for each damage counter on this Pokémon.",
+				'fr-fr': "Inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
 			},
 			damage: 20,
 
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bolt Strike",
-				fr: "ChargeFoudre",
+				'en-us': "Bolt Strike",
+				'fr-fr': "ChargeFoudre",
 			},
 			effect: {
-				en: "This Pokémon does 40 damage to itself.",
-				fr: "Ce Pokémon s’inflige 40 dégâts.",
+				'en-us': "This Pokémon does 40 damage to itself.",
+				'fr-fr': "Ce Pokémon s’inflige 40 dégâts.",
 			},
 			damage: 120,
 
@@ -70,7 +70,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity.",
+		'en-us': "This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity.",
 	},
 }
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スターミー",
+		'ja-jp': "スターミー",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "レイを混乱させます",
+				'ja-jp': "レイを混乱させます",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Psychic", "Psychic", "Colorless"],
 			name: {
-				ja: "コアストリーム",
+				'ja-jp': "コアストリーム",
 			},
 			effect: {
-				ja: "無色以外のエネルギータイプを選択してください。この攻撃は、そのタイプのエネルギーカードが添付された任意のエネルギーカードを備えた各相手のポケモンに20のダメージを与えます。衰弱と抵抗を適用しないでください。",
+				'ja-jp': "無色以外のエネルギータイプを選択してください。この攻撃は、そのタイプのエネルギーカードが添付された任意のエネルギーカードを備えた各相手のポケモンに20のダメージを与えます。衰弱と抵抗を適用しないでください。",
 			},
 		},
 	],

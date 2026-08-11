@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [514],
 
 	name: {
-		en: "Simisear",
-		fr: "Flamoutan",
-		es: "Simisear",
-		it: "Simisear",
-		pt: "Simisear",
-		de: "Grillchita"
+		'en-us': "Simisear",
+		'fr-fr': "Flamoutan",
+		'es-es': "Simisear",
+		'it-it': "Simisear",
+		'pt-br': "Simisear",
+		'de-de': "Grillchita"
 	},
 
 	illustrator: "0313",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pansear",
-		fr: "Flamajou",
-		es: "Pansear",
-		it: "Pansear",
-		pt: "Pansear",
-		de: "Grillmak"
+		'en-us': "Pansear",
+		'fr-fr': "Flamajou",
+		'es-es': "Pansear",
+		'it-it': "Pansear",
+		'pt-br': "Pansear",
+		'de-de': "Grillmak"
 	},
 
 	attacks: [
@@ -38,12 +38,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flare",
-				fr: "Flamboiement",
-				es: "Llama",
-				it: "Fiammata",
-				pt: "Chama",
-				de: "Flackern"
+				'en-us': "Flare",
+				'fr-fr': "Flamboiement",
+				'es-es': "Llama",
+				'it-it': "Fiammata",
+				'pt-br': "Chama",
+				'de-de': "Flackern"
 			},
 
 			damage: 30,
@@ -56,20 +56,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giga Impact",
-				fr: "Giga Impact",
-				es: "Gigaimpacto",
-				it: "Gigaimpatto",
-				pt: "Gigaimpacto",
-				de: "Gigastoß"
+				'en-us': "Giga Impact",
+				'fr-fr': "Giga Impact",
+				'es-es': "Gigaimpacto",
+				'it-it': "Gigaimpatto",
+				'pt-br': "Gigaimpacto",
+				'de-de': "Gigastoß"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon can't attack.",
-				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-				es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-				it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-				pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-				de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+				'en-us': "During your next turn, this Pokémon can't attack.",
+				'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+				'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+				'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+				'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+				'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 			},
 			damage: 110,
 
@@ -90,7 +90,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets."
+		'en-us': "When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets."
 	},
 
 	variants: [

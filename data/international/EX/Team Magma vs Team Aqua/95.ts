@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Swampert ex",
-		fr: "Laggron ex",
-		de: "Sumpex ex"
+		'en-us': "Swampert ex",
+		'fr-fr': "Laggron ex",
+		'de-de': "Sumpex ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Pump",
-				fr: "Hyper pompe",
-				de: "Hyper Pump"
+				'en-us': "Hyper Pump",
+				'fr-fr': "Hyper pompe",
+				'de-de': "Hyper Pump"
 			},
 			effect: {
-				en: "Does 20 damage plus 20 more damage for each basic Energy attached to Swampert ex but not used to pay for this attack's Energy cost. You can't add more than 80 damage in this way.",
-				fr: "Inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque Énergie de base attachée à Laggron ex qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 80 dégâts de cette façon.",
-				de: "Does 20 damage plus 20 more damage for each basic Energy attached to Swampert ex but not used to pay for this attack's Energy cost. You can't add more than 80 damage in this way."
+				'en-us': "Does 20 damage plus 20 more damage for each basic Energy attached to Swampert ex but not used to pay for this attack's Energy cost. You can't add more than 80 damage in this way.",
+				'fr-fr': "Inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque Énergie de base attachée à Laggron ex qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 80 dégâts de cette façon.",
+				'de-de': "Does 20 damage plus 20 more damage for each basic Energy attached to Swampert ex but not used to pay for this attack's Energy cost. You can't add more than 80 damage in this way."
 			},
 			damage: "20+",
 
@@ -50,15 +50,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Crushing Wave",
-				fr: "Vague écrasante",
-				de: "Crushing Wave"
+				'en-us': "Crushing Wave",
+				'fr-fr': "Vague écrasante",
+				'de-de': "Crushing Wave"
 			},
 
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. After doing damage, flip a coin. If heads, your opponent discards an Energy card, if any, attached to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 40 dégâts. Après avoir infligé des dégâts, lancez une pièce. Si c'est face, votre adversaire défausse une carte Énergie attachée à ce Pokémon, s'il en a. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. After doing damage, flip a coin. If heads, your opponent discard an Energy card, if any, attached to that Pokémon. (Don't apply Weakness and Resistance to benched Pokémon.)"
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. After doing damage, flip a coin. If heads, your opponent discards an Energy card, if any, attached to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 40 dégâts. Après avoir infligé des dégâts, lancez une pièce. Si c'est face, votre adversaire défausse une carte Énergie attachée à ce Pokémon, s'il en a. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. After doing damage, flip a coin. If heads, your opponent discard an Energy card, if any, attached to that Pokémon. (Don't apply Weakness and Resistance to benched Pokémon.)"
 			},
 
 			damage: "20+"

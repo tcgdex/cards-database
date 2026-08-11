@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カバルドン",
+		'ja-jp': "カバルドン",
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "体内に 溜めた 砂を 体の 穴から 噴き上げて 巨大な 竜巻を 作り 攻撃する。",
+		'ja-jp': "体内に 溜めた 砂を 体の 穴から 噴き上げて 巨大な 竜巻を 作り 攻撃する。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "ヒポポタス",
+		'ja-jp': "ヒポポタス",
 	},
 
 	retreat: 4,

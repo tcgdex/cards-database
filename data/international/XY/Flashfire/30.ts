@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Bergmite",
-		fr: "Grelaçon",
-		es: "Bergmite",
-		it: "Bergmite",
-		pt: "Bergmite",
-		de: "Arktip"
+		'en-us': "Bergmite",
+		'fr-fr': "Grelaçon",
+		'es-es': "Bergmite",
+		'it-it': "Bergmite",
+		'pt-br': "Bergmite",
+		'de-de': "Arktip"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Stomp Off",
-				fr: "Tohu-Bohu",
-				es: "Pisotear",
-				it: "Pestatura",
-				pt: "Sair Irritado",
-				de: "Davonstapfen"
+				'en-us': "Stomp Off",
+				'fr-fr': "Tohu-Bohu",
+				'es-es': "Pisotear",
+				'it-it': "Pestatura",
+				'pt-br': "Sair Irritado",
+				'de-de': "Davonstapfen"
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-				es: "Descarta la primera carta de la baraja de tu rival.",
-				it: "Scarta la carta in cima al mazzo del tuo avversario.",
-				pt: "Descarte o card de cima do baralho do seu oponente.",
-				de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard the top card of your opponent's deck.",
+				'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+				'es-es': "Descarta la primera carta de la baraja de tu rival.",
+				'it-it': "Scarta la carta in cima al mazzo del tuo avversario.",
+				'pt-br': "Descarte o card de cima do baralho do seu oponente.",
+				'de-de': "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 30,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It blocks opponents' attacks with the ice that shields its body. It uses cold air to repair any cracks with new ice.",
+		'en-us': "It blocks opponents' attacks with the ice that shields its body. It uses cold air to repair any cracks with new ice.",
 	},
 
 	thirdParty: {

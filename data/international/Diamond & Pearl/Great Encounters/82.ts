@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Slowpoke",
-		fr: "Ramoloss",
-		de: "Flegmon"
+		'en-us': "Slowpoke",
+		'fr-fr': "Ramoloss",
+		'de-de': "Flegmon"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rest",
-				fr: "Repos",
-				de: "Ruhe"
+				'en-us': "Rest",
+				'fr-fr': "Repos",
+				'de-de': "Ruhe"
 			},
 			effect: {
-				en: "Remove all Special Conditions and 3 damage counters from Slowpoke. Slowpoke is now Asleep.",
-				fr: "Retirez à Ramoloss tous ses États Spéciaux et 3 marqueurs de dégât. Ramoloss est maintenant Endormi.",
-				de: "Entferne alle Speziellen Zustände und 3 Schadensmarken von Flegmon. Flegmon schläft jetzt."
+				'en-us': "Remove all Special Conditions and 3 damage counters from Slowpoke. Slowpoke is now Asleep.",
+				'fr-fr': "Retirez à Ramoloss tous ses États Spéciaux et 3 marqueurs de dégât. Ramoloss est maintenant Endormi.",
+				'de-de': "Entferne alle Speziellen Zustände und 3 Schadensmarken von Flegmon. Flegmon schläft jetzt."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Tumble Over",
-				fr: "Culbuter",
-				de: "Umkippen"
+				'en-us': "Tumble Over",
+				'fr-fr': "Culbuter",
+				'de-de': "Umkippen"
 			},
 			effect: {
-				en: "Slowpoke can't attack during your next turn.",
-				fr: "Ramoloss ne peut pas attaquer lors de votre prochain tour.",
-				de: "Flegmon kann in deinem nächsten Zug nicht angreifen."
+				'en-us': "Slowpoke can't attack during your next turn.",
+				'fr-fr': "Ramoloss ne peut pas attaquer lors de votre prochain tour.",
+				'de-de': "Flegmon kann in deinem nächsten Zug nicht angreifen."
 			},
 			damage: 20,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Although slow, it is skilled at fishing with its tail. It does not feel pain if its tail is bitten.",
+		'en-us': "Although slow, it is skilled at fishing with its tail. It does not feel pain if its tail is bitten.",
 	},
 
 	thirdParty: {

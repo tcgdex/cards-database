@@ -1,11 +1,11 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../SV'
 
 const set: Set = {
 	id: 'SV9s',
 	name: {
-		th: 'สายใยแห่งโชคชะตา',
-		id: 'Ikatan Takdir'
+		'th-th': 'สายใยแห่งโชคชะตา',
+		'id-id': 'Ikatan Takdir'
 	},
 
 	serie: serie,
@@ -14,8 +14,8 @@ const set: Set = {
 		official: 139
 	},
 	releaseDate: {
-		th: '2025-04-11',
-		id: '2025-04-18'
+		'th-th': '2025-04-11',
+		'id-id': '2025-04-18'
 	}
 }
 

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celebrations Classic Collection'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Luxray GL LV.X",
-		fr: "Luxray GL NIV.X"
+		'en-us': "Luxray GL LV.X",
+		'fr-fr': "Luxray GL NIV.X"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -21,25 +21,25 @@ const card: Card = {
 		type: "Poke-POWER",
 
 		name: {
-			en: "Bright Look",
-			fr: "Regard alerte"
+			'en-us': "Bright Look",
+			'fr-fr': "Regard alerte"
 		},
 
 		effect: {
-			en: "Once during your turn (before your attack), when you put Luxray GL LV.X from your hand onto your Active Luxray GL, you may switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
-			fr: "Une seule fois lors de votre tour (avant votre attaque), lorsque vous placez Luxray  NIV.X de votre main sur votre Luxray  Actif, vous pouvez échanger le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire."
+			'en-us': "Once during your turn (before your attack), when you put Luxray GL LV.X from your hand onto your Active Luxray GL, you may switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
+			'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), lorsque vous placez Luxray  NIV.X de votre main sur votre Luxray  Actif, vous pouvez échanger le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Flash Impact",
-			fr: "Impact-flash"
+			'en-us': "Flash Impact",
+			'fr-fr': "Impact-flash"
 		},
 
 		effect: {
-			en: "Does 30 damage to 1 of your Pokémon, and don't apply Weakness and Resistance to this damage.",
-			fr: "Inflige 30 dégâts à 1 de vos Pokémon. N'appliquez pas la Faiblesse et la Résistance à ces dégâts."
+			'en-us': "Does 30 damage to 1 of your Pokémon, and don't apply Weakness and Resistance to this damage.",
+			'fr-fr': "Inflige 30 dégâts à 1 de vos Pokémon. N'appliquez pas la Faiblesse et la Résistance à ces dégâts."
 		},
 
 		damage: 60,

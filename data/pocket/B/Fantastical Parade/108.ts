@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [717],
 
 	name: {
-		en: "Yveltal"
+		'en-us': "Yveltal"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "When its life comes to an end, it absorbs\nthe life energy of every living thing\nand turns into a cocoon once more."
+		'en-us': "When its life comes to an end, it absorbs\nthe life energy of every living thing\nand turns into a cocoon once more."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Evil Crash"
+			'en-us': "Evil Crash"
 		},
 
 		damage: 90,
 		cost: ["Darkness", "Darkness", "Darkness"],
 
 		effect: {
-			en: "Discard a random Energy from both Active Pokémon."
+			'en-us': "Discard a random Energy from both Active Pokémon."
 		}
 	}],
 

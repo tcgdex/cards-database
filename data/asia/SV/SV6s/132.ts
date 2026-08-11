@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Farfetch'd"
+		'id-id': "Farfetch'd"
 	},
 
 	illustrator: "miki kudo",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Farfetch'd memegang batang tumbuhan dengan sayap dan menggunakannya bagaikan pedang untuk membelah musuhnya. Di saat kritis, senjatanya ini juga dapat dijadikan makanan."
+		'id-id': "Farfetch'd memegang batang tumbuhan dengan sayap dan menggunakannya bagaikan pedang untuk membelah musuhnya. Di saat kritis, senjatanya ini juga dapat dijadikan makanan."
 	},
 
 	stage: "Basic",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Memanggul Masuk Spontan"
+			'id-id': "Memanggul Masuk Spontan"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan ke Cadangan. Pilih 1 lembar Pokémon Tool dari Deck sendiri, lalu kenakan pada Pokémon ini. Kemudian, kocok Deck."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan ke Cadangan. Pilih 1 lembar Pokémon Tool dari Deck sendiri, lalu kenakan pada Pokémon ini. Kemudian, kocok Deck."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Sabetan Berkecepatan Suara"
+			'id-id': "Sabetan Berkecepatan Suara"
 		},
 
 		effect: {
-			id: "Pilih 1 Energi Spesial yang dikenakan pada Pokémon Bertarung lawan, lalu buang ke Trash."
+			'id-id': "Pilih 1 Energi Spesial yang dikenakan pada Pokémon Bertarung lawan, lalu buang ke Trash."
 		},
 
 		damage: 30,

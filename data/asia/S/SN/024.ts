@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SN"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "老大的指令（赤日）",
-		ja: "ボスの指令（アカギ）"
+		'ja-jp': "ボスの指令（アカギ）"
 	},
 
 	illustrator: "GIDORA",
@@ -14,7 +14,7 @@ const card: Card = {
 
 	effect: {
 		'zh-tw': "選擇1隻對手的備戰寶可夢，與戰鬥寶可夢互換。",
-		ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。"
+		'ja-jp': "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。"
 	},
 
 	trainerType: "Supporter",

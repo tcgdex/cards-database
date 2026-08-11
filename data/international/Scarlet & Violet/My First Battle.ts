@@ -1,11 +1,11 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Scarlet & Violet'
 
 const set: Set = {
 	id: "mfb",
 
 	name: {
-		en: "My First Battle",
+		'en-us': "My First Battle",
 	},
 
 	serie: serie,

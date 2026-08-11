@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マナフィ",
+		'ja-jp': "マナフィ",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "生まれたときから 備わっている 不思議な 力を 使うと どんな ポケモンとも 心が 通い合う。",
+		'ja-jp': "生まれたときから 備わっている 不思議な 力を 使うと どんな ポケモンとも 心が 通い合う。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "しんかいのめぐみ" },
 			effect: {
-				ja: "自分の番に1回使える。[水]エネルギーがついている自分のポケモン1匹のHPを「20」回復する。",
+				'ja-jp': "自分の番に1回使える。[水]エネルギーがついている自分のポケモン1匹のHPを「20」回復する。",
 			},
 		},
 	],

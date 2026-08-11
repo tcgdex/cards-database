@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Magnéton",
-		en: "Magneton",
-		es: "Magneton",
-		it: "Magneton",
-		pt: "Magneton",
-		de: "Magneton"
+		'fr-fr': "Magnéton",
+		'en-us': "Magneton",
+		'es-es': "Magneton",
+		'it-it': "Magneton",
+		'pt-br': "Magneton",
+		'de-de': "Magneton"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Lightning"],
 	evolveFrom: {
-		fr: "Magnéti",
-		en: "Magnemite",
-		es: "Magnemite",
-		it: "Magnemite",
-		pt: "Magnemite",
-		de: "Magnetilo"
+		'fr-fr': "Magnéti",
+		'en-us': "Magnemite",
+		'es-es': "Magnemite",
+		'it-it': "Magnemite",
+		'pt-br': "Magnemite",
+		'de-de': "Magnetilo"
 	},
 	stage: "Stage1",
 
@@ -32,32 +32,32 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			fr: "Aimant à Camelotes",
-			en: "Junk Magnet",
-			es: "Imán de Chatarra",
-			it: "Magnetescarti",
-			pt: "Ímã de Sucata",
-			de: "Schrottmagnet"
+			'fr-fr': "Aimant à Camelotes",
+			'en-us': "Junk Magnet",
+			'es-es': "Imán de Chatarra",
+			'it-it': "Magnetescarti",
+			'pt-br': "Ímã de Sucata",
+			'de-de': "Schrottmagnet"
 		},
 
 		effect: {
-			fr: "Ajoutez jusqu'à 2 cartes Objet de votre pile de défausse à votre main.",
-			en: "Put up to 2 Item cards from your discard pile into your hand.",
-			es: "Pon hasta 2 cartas de Objeto de tu pila de descartes en tu mano.",
-			it: "Prendi fino a due carte Strumento dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
-			pt: "Coloque até 2 cartas de Item da sua pilha de descarte na sua mão.",
-			de: "Nimm bis zu 2 Itemkarten aus deinem Ablagestapel auf deine Hand."
+			'fr-fr': "Ajoutez jusqu'à 2 cartes Objet de votre pile de défausse à votre main.",
+			'en-us': "Put up to 2 Item cards from your discard pile into your hand.",
+			'es-es': "Pon hasta 2 cartas de Objeto de tu pila de descartes en tu mano.",
+			'it-it': "Prendi fino a due carte Strumento dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
+			'pt-br': "Coloque até 2 cartas de Item da sua pilha de descarte na sua mão.",
+			'de-de': "Nimm bis zu 2 Itemkarten aus deinem Ablagestapel auf deine Hand."
 		}
 	}, {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Éclair Frontal",
-			en: "Head Bolt",
-			es: "Rayo de Cabeza",
-			it: "Zuccalampo",
-			pt: "Raio de Cabeça",
-			de: "Kopf-Blitz"
+			'fr-fr': "Éclair Frontal",
+			'en-us': "Head Bolt",
+			'es-es': "Rayo de Cabeza",
+			'it-it': "Zuccalampo",
+			'pt-br': "Raio de Cabeça",
+			'de-de': "Kopf-Blitz"
 		},
 
 		damage: 60
@@ -73,7 +73,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close.",
+		'en-us': "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close.",
 	},
 
 	variants: [

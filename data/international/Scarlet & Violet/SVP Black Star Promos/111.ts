@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pawniard",
-		fr: "Scalpion",
-		es: "Pawniard",
-		it: "Pawniard",
-		pt: "Pawniard",
-		de: "Gladiantri"
+		'en-us': "Pawniard",
+		'fr-fr': "Scalpion",
+		'es-es': "Pawniard",
+		'it-it': "Pawniard",
+		'pt-br': "Pawniard",
+		'de-de': "Gladiantri"
 	},
 
 	rarity: "Promo",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Pierce",
-			fr: "Transpercement",
-			es: "Perforar",
-			it: "Perforare",
-			pt: "Perfurar",
-			de: "Durchbohren"
+			'en-us': "Pierce",
+			'fr-fr': "Transpercement",
+			'es-es': "Perforar",
+			'it-it': "Perforare",
+			'pt-br': "Perfurar",
+			'de-de': "Durchbohren"
 		},
 
 		damage: 10

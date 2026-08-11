@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Shauna",
-		fr: "Sannah",
+		'en-us': "Shauna",
+		'fr-fr': "Sannah",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,8 +13,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Mélangez votre main avec votre deck. Ensuite, piochez 5 cartes.",
-		en: "Shuffle your hand into your deck. Then, draw 5 cards."
+		'fr-fr': "Mélangez votre main avec votre deck. Ensuite, piochez 5 cartes.",
+		'en-us': "Shuffle your hand into your deck. Then, draw 5 cards."
 	},
 
 	trainerType: "Supporter",

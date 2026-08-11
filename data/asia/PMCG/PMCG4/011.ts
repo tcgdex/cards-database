@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "わるいマタドガス",
+		'ja-jp': "わるいマタドガス",
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "大量爆発",
+				'ja-jp': "大量爆発",
 			},
 			effect: {
-				ja: "20回のダメージ時間、コッフィング、ウィージング、およびプレイ中の暗いweezingsの総数が発生します（脱力感と抵抗を適用します。）。その後、この攻撃は、各コッフィング、ウィージング、そして暗いweezing（あなた自身でさえ）に20のダメージを与えます。衰弱と抵抗を適用しないでください。",
+				'ja-jp': "20回のダメージ時間、コッフィング、ウィージング、およびプレイ中の暗いweezingsの総数が発生します（脱力感と抵抗を適用します。）。その後、この攻撃は、各コッフィング、ウィージング、そして暗いweezing（あなた自身でさえ）に20のダメージを与えます。衰弱と抵抗を適用しないでください。",
 			},
 		},
 		{
 			cost: ["Grass", "Grass", "Grass"],
 			name: {
-				ja: "スタンガス",
+				'ja-jp': "スタンガス",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御するポケモンは現在毒されています。尾の場合、防御するポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御するポケモンは現在毒されています。尾の場合、防御するポケモンは麻痺しています。",
 			},
 			damage: 20,
 		},

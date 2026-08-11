@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Piloswine",
-		fr: "Cochignon",
-		es: "Piloswine",
+		'en-us': "Piloswine",
+		'fr-fr': "Cochignon",
+		'es-es': "Piloswine",
 		'es-mx': "Piloswine",
-		de: "Keifel",
-		it: "Piloswine",
-		pt: "Piloswine"
+		'de-de': "Keifel",
+		'it-it': "Piloswine",
+		'pt-br': "Piloswine"
 	},
 
 	evolveFrom: {
-		en: "Swinub",
-		fr: "Marcacrin",
-		es: "Swinub",
+		'en-us': "Swinub",
+		'fr-fr': "Marcacrin",
+		'es-es': "Swinub",
 		'es-mx': "Swinub",
-		de: "Quiekel",
-		it: "Swinub",
-		pt: "Swinub",
+		'de-de': "Quiekel",
+		'it-it': "Swinub",
+		'pt-br': "Swinub",
 	},
 
 	rarity: "Common",
@@ -36,23 +36,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Rising Lunge",
-			fr: "Botte Secrète",
-			es: "Embestida Ascendente",
+			'en-us': "Rising Lunge",
+			'fr-fr': "Botte Secrète",
+			'es-es': "Embestida Ascendente",
 			'es-mx': "Embestida Ascendente",
-			de: "Aufwärtsstoß",
-			it: "Elevazione",
-			pt: "Investida Ascendente"
+			'de-de': "Aufwärtsstoß",
+			'it-it': "Elevazione",
+			'pt-br': "Investida Ascendente"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+			'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
 			'es-mx': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 30 pontos de dano a mais."
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 30 pontos de dano a mais."
 		},
 
 		damage: "30+"
@@ -60,13 +60,13 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Frost Smash",
-			fr: "Impact Glacial",
-			es: "Golpe Gélido",
+			'en-us': "Frost Smash",
+			'fr-fr': "Impact Glacial",
+			'es-es': "Golpe Gélido",
 			'es-mx': "Golpazo Gélido",
-			de: "Frostschlag",
-			it: "Gelocolpo",
-			pt: "Pancada Congelada"
+			'de-de': "Frostschlag",
+			'it-it': "Gelocolpo",
+			'pt-br': "Pancada Congelada"
 		},
 
 		damage: 70
@@ -82,7 +82,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Covered by a shaggy coat, it is resistant to the cold. Its tusks of ice thicken when it snows.",
+		'en-us': "Covered by a shaggy coat, it is resistant to the cold. Its tusks of ice thicken when it snows.",
 	},
 
 	illustrator: "Shinya Komatsu",

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Drilbur",
-		fr: "Rototaupe",
-		es: "Drilbur",
-		it: "Drilbur",
-		pt: "Drilbur",
-		de: "Rotomurf"
+		'en-us': "Drilbur",
+		'fr-fr': "Rototaupe",
+		'es-es': "Drilbur",
+		'it-it': "Drilbur",
+		'pt-br': "Drilbur",
+		'de-de': "Rotomurf"
 	},
 
 	illustrator: "Midori Harada",
@@ -36,8 +36,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud-Slap",
-				fr: "Coud'Boue",
+				'en-us': "Mud-Slap",
+				'fr-fr': "Coud'Boue",
 			},
 
 			damage: 40,
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It makes its way swiftly through the soil by putting both claws together and rotating at high speed.",
+		'en-us': "It makes its way swiftly through the soil by putting both claws together and rotating at high speed.",
 	},
 
 	thirdParty: {

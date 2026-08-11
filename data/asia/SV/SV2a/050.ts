@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ディグダ",
+		'ja-jp': "ディグダ",
 		'zh-tw': "地鼠",
-		th: "ดิกดา",
-		id: "Diglett",
+		'th-th': "ดิกดา",
+		'id-id': "Diglett",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -16,10 +16,10 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "地下１メートルくらいを 掘りすすみ 木の根っこなどを かじって 生きる。 たまに 地上に 顔を出す。",
+		'ja-jp': "地下１メートルくらいを 掘りすすみ 木の根っこなどを かじって 生きる。 たまに 地上に 顔を出す。",
 		'zh-tw': "在大約１公尺深的地底挖洞前進，靠啃食樹根之類的東西生存。 偶爾會到地面上露個臉。",
-		th: "ขุดโพรงในดินลึกประมาณ 1 เมตร ใช้ชีวิตโดยการกัดกินรากไม้ นาน ๆ ทีจะโผล่ขึ้นมาเหนือดิน",
-		id: "Diglett menggali tanah kira-kira sedalam 1 meter dan hidup dengan memakan akar tumbuhan. Terkadang Pokémon ini naik ke permukaan tanah.",
+		'th-th': "ขุดโพรงในดินลึกประมาณ 1 เมตร ใช้ชีวิตโดยการกัดกินรากไม้ นาน ๆ ทีจะโผล่ขึ้นมาเหนือดิน",
+		'id-id': "Diglett menggali tanah kira-kira sedalam 1 meter dan hidup dengan memakan akar tumbuhan. Terkadang Pokémon ini naik ke permukaan tanah.",
 	},
 
 	stage: "Basic",
@@ -27,20 +27,20 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "とびだしヘッド",
+				'ja-jp': "とびだしヘッド",
 				'zh-tw': "魯莽頭擊",
-				th: "กระโดดโหม่ง",
-				id: "Sundulan Meloncat",
+				'th-th': "กระโดดโหม่ง",
+				'id-id': "Sundulan Meloncat",
 			},
 			damage: 10,
 			cost: ["Fighting"],
 		},
 		{
 			name: {
-				ja: "どろかけ",
+				'ja-jp': "どろかけ",
 				'zh-tw': "擲泥",
-				th: "สาดโคลน",
-				id: "Semprotan Lumpur",
+				'th-th': "สาดโคลน",
+				'id-id': "Semprotan Lumpur",
 			},
 			damage: 30,
 			cost: ["Fighting", "Fighting"],

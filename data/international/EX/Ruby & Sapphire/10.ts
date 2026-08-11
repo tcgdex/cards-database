@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Mightyena",
-		fr: "Grahyena",
-		de: "Magnayen"
+		'en-us': "Mightyena",
+		'fr-fr': "Grahyena",
+		'de-de': "Magnayen"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Poochyena",
-		fr: "Medhyèna"
+		'en-us': "Poochyena",
+		'fr-fr': "Medhyèna"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Intimidating Fang",
-				fr: "Croc intimidant",
-				de: "Intimidating Fang"
+				'en-us': "Intimidating Fang",
+				'fr-fr': "Croc intimidant",
+				'de-de': "Intimidating Fang"
 			},
 			effect: {
-				en: "As long as Mightyena is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 10 (before applying Weakness and Resistance).",
-				fr: "Tant que Grahyena est votre Pokémon Actif, les dégâts qui lui sont infligés par une attaque de votre adversaire sont réduits de 10 (avant application de la Faiblesse et de la Résistance).",
-				de: "As long as Mightyena is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 10 (before applying Weakness and Resistance)."
+				'en-us': "As long as Mightyena is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 10 (before applying Weakness and Resistance).",
+				'fr-fr': "Tant que Grahyena est votre Pokémon Actif, les dégâts qui lui sont infligés par une attaque de votre adversaire sont réduits de 10 (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "As long as Mightyena is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 10 (before applying Weakness and Resistance)."
 			}
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shakedown",
-				fr: "Dépouiller",
-				de: "Shakedown"
+				'en-us': "Shakedown",
+				'fr-fr': "Dépouiller",
+				'de-de': "Shakedown"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it.",
-				fr: "Lancez une pièce. Si c'est face, choisissez une carte de la main de votre adversaire sans la regarder et défaussez-la.",
-				de: "Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it."
+				'en-us': "Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it.",
+				'fr-fr': "Lancez une pièce. Si c'est face, choisissez une carte de la main de votre adversaire sans la regarder et défaussez-la.",
+				'de-de': "Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it."
 			},
 			damage: 40,
 

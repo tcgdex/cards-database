@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ツボツボ",
+		'ja-jp': "ツボツボ",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "甲羅に 木の実を たくわえている。 襲われないように 岩の 下に こもって じっとしている。",
+		'ja-jp': "甲羅に 木の実を たくわえている。 襲われないように 岩の 下に こもって じっとしている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "なましぼり" },
 			effect: {
-				ja: "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の山札にある基本エネルギーを3枚まで、トラッシュする。そして山札を切る。",
+				'ja-jp': "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の山札にある基本エネルギーを3枚まで、トラッシュする。そして山札を切る。",
 			},
 		},
 	],
@@ -33,7 +33,7 @@ const card: Card = {
 			name: { ja: "エナジードリンク" },
 			cost: ["Grass"],
 			effect: {
-				ja: "自分のトラッシュにある基本エネルギーを2枚、自分のポケモンに好きなようにつける。",
+				'ja-jp': "自分のトラッシュにある基本エネルギーを2枚、自分のポケモンに好きなようにつける。",
 			},
 		},
 	],

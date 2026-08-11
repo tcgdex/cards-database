@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sun & Moon'
 
 const sm2: Set = {
 	id: "sm2",
 
 	name: {
-		en: "Guardians Rising",
-		fr: "Gardiens Ascendants",
-		es: "Albor de Guadianes",
-		it: "Guardiani Nascenti",
-		de: "Stunde der Wächter",
-		pt: "Guardiões Ascendentes"
+		'en-us': "Guardians Rising",
+		'fr-fr': "Gardiens Ascendants",
+		'es-es': "Albor de Guadianes",
+		'it-it': "Guardiani Nascenti",
+		'de-de': "Stunde der Wächter",
+		'pt-br': "Guardiões Ascendentes"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const sm2: Set = {
 
 	abbreviations: {
 		official: "GRI",
-		fr: "GAS"
+		'fr-fr': "GAS"
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Vespiquen ex"
+		'id-id': "Vespiquen ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,21 +17,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Feromon Pemulih"
+			'id-id': "Feromon Pemulih"
 		},
 
 		effect: {
-			id: "Pulihkan HP 1 Pokémon sendiri sejumlah 60."
+			'id-id': "Pulihkan HP 1 Pokémon sendiri sejumlah 60."
 		},
 
 		cost: ["Grass"]
 	}, {
 		name: {
-			id: "Phantom Queen"
+			'id-id': "Phantom Queen"
 		},
 
 		effect: {
-			id: "Letakkan masing-masing sejumlah 3 Token Kerusakan pada semua Pokémon Cadangan lawan yang memiliki Token Kerusakan."
+			'id-id': "Letakkan masing-masing sejumlah 3 Token Kerusakan pada semua Pokémon Cadangan lawan yang memiliki Token Kerusakan."
 		},
 
 		damage: 200,

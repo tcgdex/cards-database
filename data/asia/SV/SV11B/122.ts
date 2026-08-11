@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムシャーナ",
+		'ja-jp': "ムシャーナ",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "おでこから 出ている 煙の 中には 人や ポケモンの 見た 夢が たくさん つまっているのだ。",
+		'ja-jp': "おでこから 出ている 煙の 中には 人や ポケモンの 見た 夢が たくさん つまっているのだ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ドリームコール" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から「マコモ」を好きなだけ選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札から「マコモ」を好きなだけ選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 		{
@@ -40,7 +40,7 @@ const card: Card = {
 	variants: [{ type: "holo" }],
 
 	evolveFrom: {
-		ja: "ムンナ",
+		'ja-jp': "ムンナ",
 	},
 
 	retreat: 2,

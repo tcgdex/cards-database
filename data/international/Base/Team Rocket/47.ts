@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Magikarp",
-		fr: "Magicarpe",
-		de: "Karpador"
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe",
+		'de-de': "Karpador"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flop",
-				fr: "Flop",
-				de: "Flop"
+				'en-us': "Flop",
+				'fr-fr': "Flop",
+				'de-de': "Flop"
 			},
 
 			damage: 10,
@@ -46,14 +46,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Rapid Evolution",
-				fr: "Évolution rapide",
-				de: "Rapid Evolution"
+				'en-us': "Rapid Evolution",
+				'fr-fr': "Évolution rapide",
+				'de-de': "Rapid Evolution"
 			},
 			effect: {
-				en: "Search your deck for an Evolution card named Gyarados or Dark Gyarados and put it on Magikarp. (This counts as evolving Magikarp.) Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck une carte Léviator ou Léviator obscur et placez-la sur Magicarpe. (Cela revient à faire évoluer Magicarpe). Mélangez ensuite votre deck.",
-				de: "Search your deck for an Evolution card named Gyarados or Dark Gyarados and put it on Magikarp. (This counts as evolving Magikarp.) Shuffle your deck afterward."
+				'en-us': "Search your deck for an Evolution card named Gyarados or Dark Gyarados and put it on Magikarp. (This counts as evolving Magikarp.) Shuffle your deck afterward.",
+				'fr-fr': "Cherchez dans votre deck une carte Léviator ou Léviator obscur et placez-la sur Magicarpe. (Cela revient à faire évoluer Magicarpe). Mélangez ensuite votre deck.",
+				'de-de': "Search your deck for an Evolution card named Gyarados or Dark Gyarados and put it on Magikarp. (This counts as evolving Magikarp.) Shuffle your deck afterward."
 			},
 
 		},
@@ -69,8 +69,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Recent research has revealed the presence of dragon DNA in this species of Pokémon.",
-		fr: "De récentes recherches ont démontré la présence d'ADN de dragon dans cette race de Pokémon."
+		'en-us': "Recent research has revealed the presence of dragon DNA in this species of Pokémon.",
+		'fr-fr': "De récentes recherches ont démontré la présence d'ADN de dragon dans cette race de Pokémon."
 	},
 
 

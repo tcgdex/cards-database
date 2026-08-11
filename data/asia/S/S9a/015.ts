@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "小獅獅",
-		ja: "シシコ"
+		'ja-jp': "シシコ"
 	},
 
 	illustrator: "Sekio",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "血氣方剛且好奇心旺盛。 當牠生氣或是開始戰鬥時， 短短的鬃毛就會變熱。",
-		ja: "血気盛んで 好奇心旺盛。 怒ったり 戦いが 始まると 短い たてがみは 熱くなる。"
+		'ja-jp': "血気盛んで 好奇心旺盛。 怒ったり 戦いが 始まると 短い たてがみは 熱くなる。"
 	},
 
 	stage: "Basic",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "灼熱",
-			ja: "こがす"
+			'ja-jp': "こがす"
 		},
 
 		effect: {
 			'zh-tw': "將對手的戰鬥寶可夢【灼傷】。",
-			ja: "相手のバトルポケモンをやけどにする。"
+			'ja-jp': "相手のバトルポケモンをやけどにする。"
 		},
 
 		cost: ["Fire"]

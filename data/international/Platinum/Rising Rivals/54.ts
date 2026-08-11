@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Whiscash E4",
-		fr: "Barbicha  Niv. 50",
-		de: "Welsar 4"
+		'en-us': "Whiscash E4",
+		'fr-fr': "Barbicha  Niv. 50",
+		'de-de': "Welsar 4"
 	},
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
@@ -27,14 +27,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleep Pulse",
-				fr: "Pouls dodo",
-				de: "Schlafimpuls"
+				'en-us': "Sleep Pulse",
+				'fr-fr': "Pouls dodo",
+				'de-de': "Schlafimpuls"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 10,
 
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Earthquake",
-				fr: "Séisme",
-				de: "Erdbeben"
+				'en-us': "Earthquake",
+				'fr-fr': "Séisme",
+				'de-de': "Erdbeben"
 			},
 			effect: {
-				en: "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun de vos Pokémon de Banc. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
-				de: "Dieser Angriff fügt jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun de vos Pokémon de Banc. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
+				'de-de': "Dieser Angriff fügt jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 

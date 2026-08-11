@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gastly",
-		fr: "Fantominus",
-		es: "Gastly",
-		it: "Gastly",
-		pt: "Gastly",
-		de: "Nebulak"
+		'en-us': "Gastly",
+		'fr-fr': "Fantominus",
+		'es-es': "Gastly",
+		'it-it': "Gastly",
+		'pt-br': "Gastly",
+		'de-de': "Nebulak"
 	},
 
 	illustrator: "Motofumi Fujiwara",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Sleep Pulse",
-			fr: "Pouls Dodo",
-			es: "Pulso Soñoliento",
-			it: "Sonnopulsar",
-			pt: "Pulso Sonolento",
-			de: "Schlafimpuls"
+			'en-us': "Sleep Pulse",
+			'fr-fr': "Pouls Dodo",
+			'es-es': "Pulso Soñoliento",
+			'it-it': "Sonnopulsar",
+			'pt-br': "Pulso Sonolento",
+			'de-de': "Schlafimpuls"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Asleep.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Dormido.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Adormecido.",
-			de: "Wirf 1 Münze. Bei Kopf schläft das Aktive Pokémon deines Gegners jetzt."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Dormido.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene addormentato.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Adormecido.",
+			'de-de': "Wirf 1 Münze. Bei Kopf schläft das Aktive Pokémon deines Gegners jetzt."
 		},
 
 		damage: 10,
@@ -60,7 +60,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "With its gas-like body, it can sneak into any place it desires. However, it can be blown away by wind."
+		'en-us': "With its gas-like body, it can sneak into any place it desires. However, it can be blown away by wind."
 	},
 
 	variants: [

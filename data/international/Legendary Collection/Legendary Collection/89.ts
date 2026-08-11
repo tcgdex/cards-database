@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Rattata"
+		'en-us': "Rattata"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite"
+				'en-us': "Bite"
 			},
 
 			damage: 20,
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Bites anything when it attacks. Small and very quick, it is a common sight in many places."
+		'en-us': "Bites anything when it attacks. Small and very quick, it is a common sight in many places."
 	},
 
 	variants: [

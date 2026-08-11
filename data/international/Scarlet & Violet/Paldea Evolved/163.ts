@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Passerouge",
-		en: "Fletchling",
-		es: "Fletchling",
-		it: "Fletchling",
-		pt: "Fletchling",
-		de: "Dartiri"
+		'fr-fr': "Passerouge",
+		'en-us': "Fletchling",
+		'es-es': "Fletchling",
+		'it-it': "Fletchling",
+		'pt-br': "Fletchling",
+		'de-de': "Dartiri"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Descente en Piqué",
-			en: "Nosedive",
-			es: "Ataque en Picado",
-			it: "Rapidiscesa",
-			pt: "Mergulhar de Bico",
-			de: "Sturzflugangriff"
+			'fr-fr': "Descente en Piqué",
+			'en-us': "Nosedive",
+			'es-es': "Ataque en Picado",
+			'it-it': "Rapidiscesa",
+			'pt-br': "Mergulhar de Bico",
+			'de-de': "Sturzflugangriff"
 		},
 
 		effect: {
-			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
-			en: "This Pokémon also does 10 damage to itself.",
-			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
+			'fr-fr': "Ce Pokémon s'inflige aussi 10 dégâts.",
+			'en-us': "This Pokémon also does 10 damage to itself.",
+			'es-es': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 10 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
 		},
 
 		damage: 30
@@ -81,7 +81,7 @@ const card: Card = {
 	illustrator: "sui",
 
 	description: {
-		en: "This Pokémon is normally calm, but once it enters battle, its hormonal balance changes and it becomes aggressive.",
+		'en-us': "This Pokémon is normally calm, but once it enters battle, its hormonal balance changes and it becomes aggressive.",
 	},
 }
 

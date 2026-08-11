@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "麻山",
+		'ja-jp': "麻山",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "反転オーラ",
+				'ja-jp': "反転オーラ",
 			},
 			effect: {
-				ja: "相手よりも多くの賞品が残っている限り、Hariyamaのそれぞれの攻撃は、アクティブなポカモン（脱力感と抵抗を適用する前に）に20個のダメージを与え、アクティブポカモンによって行われたダメージが20倍になります（衰弱と抵抗を適用した後）。",
+				'ja-jp': "相手よりも多くの賞品が残っている限り、Hariyamaのそれぞれの攻撃は、アクティブなポカモン（脱力感と抵抗を適用する前に）に20個のダメージを与え、アクティブポカモンによって行われたダメージが20倍になります（衰弱と抵抗を適用した後）。",
 			},
 		}],
 
@@ -29,17 +29,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "スラッププッシュ",
+				'ja-jp': "スラッププッシュ",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
-				ja: "ブリックスマッシュ",
+				'ja-jp': "ブリックスマッシュ",
 			},
 			effect: {
-				ja: "この攻撃の損傷は、抵抗、ポケの提唱、ポケボディ、または防御ポケモンに対するその他の影響の影響を受けません。",
+				'ja-jp': "この攻撃の損傷は、抵抗、ポケの提唱、ポケボディ、または防御ポケモンに対するその他の影響の影響を受けません。",
 			},
 			damage: 50,
 		},

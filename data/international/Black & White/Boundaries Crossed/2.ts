@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Gloom",
-		fr: "Ortide",
-		es: "Gloom",
-		it: "Gloom",
-		pt: "Gloom",
-		de: "Duflor"
+		'en-us': "Gloom",
+		'fr-fr': "Ortide",
+		'es-es': "Gloom",
+		'it-it': "Gloom",
+		'pt-br': "Gloom",
+		'de-de': "Duflor"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Oddish",
-		fr: "Mystherbe",
+		'en-us': "Oddish",
+		'fr-fr': "Mystherbe",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Foul Odor",
-				fr: "Odeur Fétide",
+				'en-us': "Foul Odor",
+				'fr-fr': "Odeur Fétide",
 			},
 			effect: {
-				en: "Both this Pokémon and the Defending Pokémon are now Confused.",
-				fr: "Ce Pokémon et le Pokémon Défenseur sont maintenant Confus.",
+				'en-us': "Both this Pokémon and the Defending Pokémon are now Confused.",
+				'fr-fr': "Ce Pokémon et le Pokémon Défenseur sont maintenant Confus.",
 			},
 
 		},
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Powder",
-				fr: "Poudre Toxik",
+				'en-us': "Poison Powder",
+				'fr-fr': "Poudre Toxik",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
 			},
 			damage: 40,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
+		'en-us': "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
 	},
 
 	thirdParty: {

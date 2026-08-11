@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ambipom",
-		fr: "Capidextre",
-		es: "Ambipom",
-		it: "Ambipom",
-		pt: "Ambipom",
-		de: "Ambidiffel"
+		'en-us': "Ambipom",
+		'fr-fr': "Capidextre",
+		'es-es': "Ambipom",
+		'it-it': "Ambipom",
+		'pt-br': "Ambipom",
+		'de-de': "Ambidiffel"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Aipom",
-		fr: "Capumain",
-		es: "Aipom",
-		it: "Aipom",
-		pt: "Aipom",
-		de: "Griffel"
+		'en-us': "Aipom",
+		'fr-fr': "Capumain",
+		'es-es': "Aipom",
+		'it-it': "Aipom",
+		'pt-br': "Aipom",
+		'de-de': "Griffel"
 	},
 	stage: "Stage1",
 
@@ -32,41 +32,41 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			es: "Coleccionar",
-			it: "Tassa",
-			pt: "Coleta",
-			de: "Sammeln"
+			'en-us': "Collect",
+			'fr-fr': "Collecte",
+			'es-es': "Coleccionar",
+			'it-it': "Tassa",
+			'pt-br': "Coleta",
+			'de-de': "Sammeln"
 		},
 
 		effect: {
-			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
-			es: "Roba 2 cartas.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas.",
-			de: "Ziehe 2 Karten."
+			'en-us': "Draw 2 cards.",
+			'fr-fr': "Piochez 2 cartes.",
+			'es-es': "Roba 2 cartas.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas.",
+			'de-de': "Ziehe 2 Karten."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Hand Fling",
-			fr: "Catapu-Main",
-			es: "Golpe de Mano",
-			it: "Manofionda",
-			pt: "Arremesso de Mão",
-			de: "Handwurf"
+			'en-us': "Hand Fling",
+			'fr-fr': "Catapu-Main",
+			'es-es': "Golpe de Mano",
+			'it-it': "Manofionda",
+			'pt-br': "Arremesso de Mão",
+			'de-de': "Handwurf"
 		},
 
 		effect: {
-			en: "This attack does 20 damage for each card in your hand.",
-			fr: "Cette attaque inflige 20 dégâts pour chaque carte dans votre main.",
-			es: "Este ataque hace 20 puntos de daño por cada carta en tu mano.",
-			it: "Questo attacco infligge 20 danni per ogni carta che hai in mano.",
-			pt: "Este ataque causa 20 pontos de dano para cada carta na sua mão.",
-			de: "Diese Attacke fügt für jede Karte auf deiner Hand 20 Schadenspunkte zu."
+			'en-us': "This attack does 20 damage for each card in your hand.",
+			'fr-fr': "Cette attaque inflige 20 dégâts pour chaque carte dans votre main.",
+			'es-es': "Este ataque hace 20 puntos de daño por cada carta en tu mano.",
+			'it-it': "Questo attacco infligge 20 danni per ogni carta che hai in mano.",
+			'pt-br': "Este ataque causa 20 pontos de dano para cada carta na sua mão.",
+			'de-de': "Diese Attacke fügt für jede Karte auf deiner Hand 20 Schadenspunkte zu."
 		},
 
 		damage: "20×"
@@ -82,7 +82,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It uses its tails for everything. If it wraps both of its tails around you and gives you a squeeze, that's proof it really likes you.",
+		'en-us': "It uses its tails for everything. If it wraps both of its tails around you and gives you a squeeze, that's proof it really likes you.",
 	},
 
 	variants: [

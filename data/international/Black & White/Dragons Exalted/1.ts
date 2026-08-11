@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Hoppip",
-		fr: "Granivol",
-		es: "Hoppip",
-		it: "Hoppip",
-		pt: "Hoppip",
-		de: "Hoppspross"
+		'en-us': "Hoppip",
+		'fr-fr': "Granivol",
+		'es-es': "Hoppip",
+		'it-it': "Hoppip",
+		'pt-br': "Hoppip",
+		'de-de': "Hoppspross"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Flail Around",
-				fr: "Fléau Bougeant",
+				'en-us': "Flail Around",
+				'fr-fr': "Fléau Bougeant",
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 10,
 
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.",
+		'en-us': "It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.",
 	},
 
 	thirdParty: {

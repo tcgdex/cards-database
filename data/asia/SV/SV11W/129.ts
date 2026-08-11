@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アーケン",
+		'ja-jp': "アーケン",
 	},
 
 	illustrator: "Ounishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "とりポケモンの 祖先と 言われる。 飛ぶことは できず 枝から 枝へ 飛び移り 生活していたらしい。",
+		'ja-jp': "とりポケモンの 祖先と 言われる。 飛ぶことは できず 枝から 枝へ 飛び移り 生活していたらしい。",
 	},
 
 	stage: "Stage1",
@@ -36,7 +36,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "古びたはねの化石",
+		'ja-jp': "古びたはねの化石",
 	},
 
 	retreat: 1,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミロカロスex",
+		'ja-jp': "ミロカロスex",
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "きらめくウロコ" },
 			effect: {
-				ja: "このポケモンは、相手の「テラスタル」のポケモンからワザのダメージや効果を受けない。",
+				'ja-jp': "このポケモンは、相手の「テラスタル」のポケモンからワザのダメージや効果を受けない。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒンバス",
+		'ja-jp': "ヒンバス",
 	},
 
 	retreat: 2,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "啃果蟲",
 		'zh-cn': "啃果蟲",
-		ja: "カジッチュ"
+		'ja-jp': "カジッチュ"
 	},
 
 	illustrator: "Yoriyuki Ikegami",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "平時都在蘋果中生活。 如果失去了蘋果，身體的 水分就會流失而變得虛弱。",
 		'zh-cn': "平時都在蘋果中生活。 如果失去了蘋果，身體的 水分就會流失而變得虛弱。",
-		ja: "りんごの 中で 暮らしている。 りんごが なくなると 体の 水分が 抜けて 弱ってしまう。"
+		'ja-jp': "りんごの 中で 暮らしている。 りんごが なくなると 体の 水分が 抜けて 弱ってしまう。"
 	},
 
 	stage: "Basic",
@@ -27,7 +27,7 @@ const card: Card = {
 		name: {
 			'zh-tw': "噴汁",
 			'zh-cn': "噴汁",
-			ja: "しるをとばす"
+			'ja-jp': "しるをとばす"
 		},
 
 		damage: 20,

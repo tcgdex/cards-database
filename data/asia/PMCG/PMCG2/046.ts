@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガルーラ",
+		'ja-jp': "ガルーラ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "フェッチ",
+				'ja-jp': "フェッチ",
 			},
 			effect: {
-				ja: "カードを描きます。",
+				'ja-jp': "カードを描きます。",
 			},
 
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "彗星パンチ",
+				'ja-jp': "彗星パンチ",
 			},
 			effect: {
-				ja: "4コインをひっくり返します。この攻撃は、ヘッド数の20倍のダメージを与えます。",
+				'ja-jp': "4コインをひっくり返します。この攻撃は、ヘッド数の20倍のダメージを与えます。",
 			},
 
 		},

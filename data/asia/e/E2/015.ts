@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Growlithe -015/092",
+		'ja-jp': "Growlithe -015/092",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Fire", "Colorless"],
 			name: {
-				ja: "ember",
+				'ja-jp': "ember",
 			},
 			effect: {
-				ja: "Growlitheに取り付けられた消防エネルギーカードを廃棄します。",
+				'ja-jp': "Growlitheに取り付けられた消防エネルギーカードを廃棄します。",
 			},
 			damage: 30,
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "R団のストライク",
+		'ja-jp': "R団のストライク",
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Holo Rare",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "影の画像",
+				'ja-jp': "影の画像",
 			},
 			effect: {
-				ja: "RocketのScytherが攻撃されるたびに、相手はコインをひっくり返します。尾の場合、その攻撃はロケットのスキタイヤーにダメージを与えません。 （攻撃の他の効果はまだ発生します。）この効果は、ロケットのスキーターがダメージを受けるまで続きます（またはベンチにされるか、進化します）。",
+				'ja-jp': "RocketのScytherが攻撃されるたびに、相手はコインをひっくり返します。尾の場合、その攻撃はロケットのスキタイヤーにダメージを与えません。 （攻撃の他の効果はまだ発生します。）この効果は、ロケットのスキーターがダメージを受けるまで続きます（またはベンチにされるか、進化します）。",
 			},
 		},
 		{
 			cost: ["Grass", "Colorless", "Colorless"],
 			name: {
-				ja: "裂け目",
+				'ja-jp': "裂け目",
 			},
 			damage: 40,
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Meganium",
-		fr: "Meganium",
-		de: "Meganie"
+		'en-us': "Meganium",
+		'fr-fr': "Meganium",
+		'de-de': "Meganie"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bayleef",
-		fr: "Macronium"
+		'en-us': "Bayleef",
+		'fr-fr': "Macronium"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Healing Aroma",
-				fr: "Arôme guérisseur",
-				de: "Healing Aroma"
+				'en-us': "Healing Aroma",
+				'fr-fr': "Arôme guérisseur",
+				'de-de': "Healing Aroma"
 			},
 			effect: {
-				en: "As long as Meganium is your Active Pokémon, remove 1 damage counter from each Pokémon (excluding Pokémon-ex) (both yours and your opponent's) between turns.",
-				fr: "Tant que Meganium est votre Pokémon Actif, retirez 1 marqueur de dégât à chaque Pokémon (Pokémon-ex exclus) (les vôtres et ceux de votre adversaire) entre deux tours.",
-				de: "As long as Meganium is your Active Pokémon, remove 1 damage counter from each Pokémon (excluding Pokémon-ex) (both yours and your opponent's) between turns."
+				'en-us': "As long as Meganium is your Active Pokémon, remove 1 damage counter from each Pokémon (excluding Pokémon-ex) (both yours and your opponent's) between turns.",
+				'fr-fr': "Tant que Meganium est votre Pokémon Actif, retirez 1 marqueur de dégât à chaque Pokémon (Pokémon-ex exclus) (les vôtres et ceux de votre adversaire) entre deux tours.",
+				'de-de': "As long as Meganium is your Active Pokémon, remove 1 damage counter from each Pokémon (excluding Pokémon-ex) (both yours and your opponent's) between turns."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bouncy Move",
-				fr: "Mouvement bondissant",
-				de: "Bouncy Move"
+				'en-us': "Bouncy Move",
+				'fr-fr': "Mouvement bondissant",
+				'de-de': "Bouncy Move"
 			},
 			effect: {
-				en: "You may put up to 5 damage counters on Meganium. If you do, this attack does 50 damage plus 10 more damage for each damage counter you put on Meganium in this way.",
-				fr: "Vous pouvez placer jusqu'à 5 marqueurs de dégât sur Meganium. Cette attaque inflige alors 50 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât que vous placez sur Meganium de cette façon.",
-				de: "You may put up to 5 damage counters on Meganium. If you do, this attack does 50 damage plus 10 more damage for each damage counter you put on Meganium in this way."
+				'en-us': "You may put up to 5 damage counters on Meganium. If you do, this attack does 50 damage plus 10 more damage for each damage counter you put on Meganium in this way.",
+				'fr-fr': "Vous pouvez placer jusqu'à 5 marqueurs de dégât sur Meganium. Cette attaque inflige alors 50 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât que vous placez sur Meganium de cette façon.",
+				'de-de': "You may put up to 5 damage counters on Meganium. If you do, this attack does 50 damage plus 10 more damage for each damage counter you put on Meganium in this way."
 			},
 			damage: "50+",
 

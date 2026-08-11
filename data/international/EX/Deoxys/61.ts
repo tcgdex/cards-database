@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Goldeen",
-		fr: "Poissirène",
-		de: "Goldini"
+		'en-us': "Goldeen",
+		'fr-fr': "Poissirène",
+		'de-de': "Goldini"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Supersonic",
-				fr: "Ultrason",
-				de: "Supersonic"
+				'en-us': "Supersonic",
+				'fr-fr': "Ultrason",
+				'de-de': "Supersonic"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Waterfall",
-				fr: "Cascade",
-				de: "Waterfall"
+				'en-us': "Waterfall",
+				'fr-fr': "Cascade",
+				'de-de': "Waterfall"
 			},
 
 			damage: 10,

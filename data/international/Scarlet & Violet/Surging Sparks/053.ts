@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cetoddle",
-		fr: "Piétacé",
-		es: "Cetoddle",
-		it: "Cetoddle",
-		pt: "Cetoddle",
-		de: "Flaniwal"
+		'en-us': "Cetoddle",
+		'fr-fr': "Piétacé",
+		'es-es': "Cetoddle",
+		'it-it': "Cetoddle",
+		'pt-br': "Cetoddle",
+		'de-de': "Flaniwal"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Draining Fin",
-			fr: "Aileron Siphon",
-			es: "Aleta Drenaje",
-			it: "Assorbipinna",
-			pt: "Barbatana Drenante",
-			de: "Diebesflosse"
+			'en-us': "Draining Fin",
+			'fr-fr': "Aileron Siphon",
+			'es-es': "Aleta Drenaje",
+			'it-it': "Assorbipinna",
+			'pt-br': "Barbatana Drenante",
+			'de-de': "Diebesflosse"
 		},
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon.",
-			fr: "Soignez 20 dégâts de ce Pokémon.",
-			es: "Cura 20 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 20 danni.",
-			pt: "Cure 20 pontos de dano deste Pokémon.",
-			de: "Heile 20 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 20 damage from this Pokémon.",
+			'fr-fr': "Soignez 20 dégâts de ce Pokémon.",
+			'es-es': "Cura 20 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 20 danni.",
+			'pt-br': "Cure 20 pontos de dano deste Pokémon.",
+			'de-de': "Heile 20 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 20

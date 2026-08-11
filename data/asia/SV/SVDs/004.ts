@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โทรพิอุส",
-		id: "Tropius"
+		'th-th': "โทรพิอุส",
+		'id-id': "Tropius"
 	},
 
 	illustrator: "aoki",
@@ -15,28 +15,28 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		th: "อาศัยอยู่ในป่าเขตร้อน เครือผลที่คอรสชาติหวานอร่อย 1 ปีจะออกผลแค่ 2 ครั้ง",
-		id: "Tropius hidup di hutan tropis. Tandan di leher Pokémon ini rasanya manis dan lezat, dan berbuah 2 kali dalam 1 tahun."
+		'th-th': "อาศัยอยู่ในป่าเขตร้อน เครือผลที่คอรสชาติหวานอร่อย 1 ปีจะออกผลแค่ 2 ครั้ง",
+		'id-id': "Tropius hidup di hutan tropis. Tandan di leher Pokémon ini rasanya manis dan lezat, dan berbuah 2 kali dalam 1 tahun."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ผลไม้เก็บสด ๆ",
-			id: "Buah-buahan Baru Dipetik"
+			'th-th': "ผลไม้เก็บสด ๆ",
+			'id-id': "Buah-buahan Baru Dipetik"
 		},
 
 		effect: {
-			th: "ฟื้นฟู HP ของโปเกมอนบนเบนช์ฝ่ายเรา 1 ตัว [60]",
-			id: "Pulihkan HP 1 Pokémon Cadangan sendiri sejumlah 60."
+			'th-th': "ฟื้นฟู HP ของโปเกมอนบนเบนช์ฝ่ายเรา 1 ตัว [60]",
+			'id-id': "Pulihkan HP 1 Pokémon Cadangan sendiri sejumlah 60."
 		},
 
 		cost: ["Grass"]
 	}, {
 		name: {
-			th: "คัตเตอร์ใบไม้",
-			id: "Daun Pemotong"
+			'th-th': "คัตเตอร์ใบไม้",
+			'id-id': "Daun Pemotong"
 		},
 
 		damage: 50,

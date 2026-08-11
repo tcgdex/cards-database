@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "totodile",
+		'ja-jp': "totodile",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "Leer",
+				'ja-jp': "Leer",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防衛ポケモンは対戦相手の次のターン中にトトダイルを攻撃することはできません。 （どちらかのポケモンがこの効果を終了するか、ベンチまたは進化します。）",
+				'ja-jp': "コインをひっくり返します。頭の場合、防衛ポケモンは対戦相手の次のターン中にトトダイルを攻撃することはできません。 （どちらかのポケモンがこの効果を終了するか、ベンチまたは進化します。）",
 			},
 		},
 		{
 			cost: ["Water"],
 			name: {
-				ja: "フューリースワイプ",
+				'ja-jp': "フューリースワイプ",
 			},
 			effect: {
-				ja: "3コインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "3コインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 		},
 	],

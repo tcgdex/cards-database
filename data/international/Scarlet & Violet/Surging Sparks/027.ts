@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sizzlipede",
-		fr: "Grillepattes",
-		es: "Sizzlipede",
-		it: "Sizzlipede",
-		pt: "Sizzlipede",
-		de: "Thermopod"
+		'en-us': "Sizzlipede",
+		'fr-fr': "Grillepattes",
+		'es-es': "Sizzlipede",
+		'it-it': "Sizzlipede",
+		'pt-br': "Sizzlipede",
+		'de-de': "Thermopod"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Live Coal",
-			fr: "Charbon Mutant",
-			es: "Carbón Activado",
-			it: "Carboni Ardenti",
-			pt: "Carvão Vivo",
-			de: "Glühende Kohlen"
+			'en-us': "Live Coal",
+			'fr-fr': "Charbon Mutant",
+			'es-es': "Carbón Activado",
+			'it-it': "Carboni Ardenti",
+			'pt-br': "Carvão Vivo",
+			'de-de': "Glühende Kohlen"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Hook",
-			fr: "Crochet",
-			es: "Garfio",
-			it: "Uncino",
-			pt: "Gancho",
-			de: "Haken"
+			'en-us': "Hook",
+			'fr-fr': "Crochet",
+			'es-es': "Garfio",
+			'it-it': "Uncino",
+			'pt-br': "Gancho",
+			'de-de': "Haken"
 		},
 
 		damage: 30

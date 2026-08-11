@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Lairon",
-		fr: "Galegon",
-		de: "Stollrak"
+		'en-us': "Lairon",
+		'fr-fr': "Galegon",
+		'de-de': "Stollrak"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Aron",
-		fr: "Galekid"
+		'en-us': "Aron",
+		'fr-fr': "Galekid"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				de: "Bodycheck"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'de-de': "Bodycheck"
 			},
 			effect: {
-				en: "Lairon does 20 damage to itself.",
-				fr: "Galegon s’inflige 20 dégâts.",
-				de: "Stollrak fügt sich selbst 20 Schadenspunkte zu."
+				'en-us': "Lairon does 20 damage to itself.",
+				'fr-fr': "Galegon s’inflige 20 dégâts.",
+				'de-de': "Stollrak fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 80,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It loves iron ore. Groups of them fight for territory by bashing one another with their steel bodies."
+		'en-us': "It loves iron ore. Groups of them fight for territory by bashing one another with their steel bodies."
 	},
 
 	variants: [

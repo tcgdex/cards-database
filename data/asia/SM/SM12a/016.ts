@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レシラム&リザードンGX",
+		'ja-jp': "レシラム&リザードンGX",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数x10ダメージ追加。",
+				'ja-jp': "このポケモンにのっているダメカンの数x10ダメージ追加。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 230,
 			cost: ["Fire", "Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「フレアストライク」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「フレアストライク」が使えない。",
 			},
 		},
 		{
@@ -36,7 +36,7 @@ const card: Card = {
 			damage: "200+",
 			cost: ["Fire", "Fire", "Fire"],
 			effect: {
-				ja: "追加で[炎]エネルギーが3個ついているなら、100ダメージ追加。その場合、このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "追加で[炎]エネルギーが3個ついているなら、100ダメージ追加。その場合、このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

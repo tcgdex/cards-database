@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Greninja ex"
+		'en-us': "Greninja ex"
 	},
 
 	illustrator: "PLANETA Saito",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Frogadier"
+		'en-us': "Frogadier"
 	},
 
 	stage: "Stage2",
@@ -27,17 +27,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Shifting Stream"
+			'en-us': "Shifting Stream"
 		},
 
 		effect: {
-			en: "Once during your turn, you may switch your Active {W} Pokémon with 1 of your Benched Pokémon."
+			'en-us': "Once during your turn, you may switch your Active {W} Pokémon with 1 of your Benched Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Aqua Edge"
+			'en-us': "Aqua Edge"
 		},
 
 		damage: 100,

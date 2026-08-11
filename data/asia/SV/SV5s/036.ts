@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Croconaw"
+		'id-id': "Croconaw"
 	},
 
 	illustrator: "Jerky",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Meskipun copot, taring Croconaw akan terus-menerus tumbuh. Di dalam mulutnya, selalu ada 48 taring lengkap."
+		'id-id': "Meskipun copot, taring Croconaw akan terus-menerus tumbuh. Di dalam mulutnya, selalu ada 48 taring lengkap."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Dorongan Balik"
+			'id-id': "Dorongan Balik"
 		},
 
 		effect: {
-			id: "Tukar Pokémon ini dengan Pokémon Cadangan."
+			'id-id': "Tukar Pokémon ini dengan Pokémon Cadangan."
 		},
 
 		damage: 30,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サーナイト",
+		'ja-jp': "サーナイト",
 		'zh-tw': "沙奈朵",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "トレーナーを 守るためなら サイコパワーを 使いきり 小さな ブラックホールを つくりだす。",
+		'ja-jp': "トレーナーを 守るためなら サイコパワーを 使いきり 小さな ブラックホールを つくりだす。",
 		'zh-tw': "如果是為了保護訓練家，牠會不惜用盡自己的精神力量製造出小型黑洞。",
 	},
 
@@ -25,7 +25,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "アルカナシャイン" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札を上から2枚見て、その中から基本エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。残りのカードは手札に加える。",
+				'ja-jp': "自分の番に1回使える。自分の山札を上から2枚見て、その中から基本エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。残りのカードは手札に加える。",
 			},
 		},
 	],
@@ -36,7 +36,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[超]エネルギーの数×30ダメージ追加。",
+				'ja-jp': "このポケモンについている[超]エネルギーの数×30ダメージ追加。",
 			},
 		},
 	],
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "キルリア",
+		'ja-jp': "キルリア",
 	},
 
 	retreat: 2,

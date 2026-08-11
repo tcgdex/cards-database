@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジーランス",
+		'ja-jp': "ジーランス",
 	},
 
 	illustrator: "Yuka Morii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "絶滅したと 考えられていた。 ジーランスの 名は 発見者の 名前を もじって つけられた。",
+		'ja-jp': "絶滅したと 考えられていた。 ジーランスの 名は 発見者の 名前を もじって つけられた。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "しんかいボーリング" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にあるトレーナーズを1枚、相手に見せてから、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札にあるトレーナーズを1枚、相手に見せてから、手札に加える。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 	],

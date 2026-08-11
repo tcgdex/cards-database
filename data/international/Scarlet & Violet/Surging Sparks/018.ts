@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Paldean Tauros",
-		fr: "Tauros de Paldea",
-		es: "Tauros de Paldea",
-		it: "Tauros di Paldea",
-		pt: "Tauros de Paldea",
-		de: "Paldea-Tauros"
+		'en-us': "Paldean Tauros",
+		'fr-fr': "Tauros de Paldea",
+		'es-es': "Tauros de Paldea",
+		'it-it': "Tauros di Paldea",
+		'pt-br': "Tauros de Paldea",
+		'de-de': "Paldea-Tauros"
 	},
 
 	rarity: "Uncommon",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Rear Kick",
-			fr: "Ruade",
-			es: "Patada Trasera",
-			it: "Retrocalcio",
-			pt: "Chute Traseiro",
-			de: "Rückwärtskick"
+			'en-us': "Rear Kick",
+			'fr-fr': "Ruade",
+			'es-es': "Patada Trasera",
+			'it-it': "Retrocalcio",
+			'pt-br': "Chute Traseiro",
+			'de-de': "Rückwärtskick"
 		},
 
 		damage: 30
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Fire", "Colorless", "Colorless"],
 
 		name: {
-			en: "Spirited Tackle",
-			fr: "Charge Impétueuse",
-			es: "Placaje Vigoroso",
-			it: "Vigorazione",
-			pt: "Investida Vivaz",
-			de: "Hitziger Tackle"
+			'en-us': "Spirited Tackle",
+			'fr-fr': "Charge Impétueuse",
+			'es-es': "Placaje Vigoroso",
+			'it-it': "Vigorazione",
+			'pt-br': "Investida Vivaz",
+			'de-de': "Hitziger Tackle"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a Stage 1 Pokémon, this attack does 90 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon de Niveau 1, cette attaque inflige 90 dégâts supplémentaires.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon de Fase 1, este ataque hace 90 puntos de daño más.",
-			it: "Se il Pokémon attivo del tuo avversario è un Pokémon di Fase 1, questo attacco infligge 90 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Estágio 1, este ataque causará 90 pontos de dano a mais.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Phase-1-Pokémon ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
+			'en-us': "If your opponent's Active Pokémon is a Stage 1 Pokémon, this attack does 90 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon de Niveau 1, cette attaque inflige 90 dégâts supplémentaires.",
+			'es-es': "Si el Pokémon Activo de tu rival es un Pokémon de Fase 1, este ataque hace 90 puntos de daño más.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon di Fase 1, questo attacco infligge 90 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon Estágio 1, este ataque causará 90 pontos de dano a mais.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners ein Phase-1-Pokémon ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
 		},
 
 		damage: "90+"

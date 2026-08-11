@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フワライド",
+		'ja-jp': "フワライド",
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "体の 中で ガスを 作ったり 吐き出したり することで 空を 飛ぶ 高さを 調節する。",
+		'ja-jp': "体の 中で ガスを 作ったり 吐き出したり することで 空を 飛ぶ 高さを 調節する。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ぶきみなかぜ" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 110,
 			cost: ["Psychic", "Psychic"],
 			effect: {
-				ja: "このポケモンと、ついているすべてのカードを、手札にもどす。",
+				'ja-jp': "このポケモンと、ついているすべてのカードを、手札にもどす。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "フワンテ",
+		'ja-jp': "フワンテ",
 	},
 
 	retreat: 1,

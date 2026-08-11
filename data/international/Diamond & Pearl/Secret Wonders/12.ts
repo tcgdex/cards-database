@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Lickilicky",
-		fr: "Coudlangue",
-		de: "Schlurplek"
+		'en-us': "Lickilicky",
+		'fr-fr': "Coudlangue",
+		'de-de': "Schlurplek"
 	},
 
 	illustrator: "Kazuyuki Kano",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lickitung",
-		fr: "Excelangue",
+		'en-us': "Lickitung",
+		'fr-fr': "Excelangue",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tongue Reel",
-				fr: "Langue enroulante",
-				de: "Tongue Reel"
+				'en-us': "Tongue Reel",
+				'fr-fr': "Langue enroulante",
+				'de-de': "Tongue Reel"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. If you choose a Benched Pokémon, switch the Defending Pokémon with that Pokémon. This attack does 20 damage to the Pokémon you chose. Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Si vous choisissez un Pokémon de Banc, échangez le Pokémon Défenseur avec ce Pokémon. Cette attaque inflige 20 dégâts au Pokémon choisi. Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Choose 1 of your opponent's Pokémon. If you choose a Benched Pokémon, switch the Defending Pokémon with that Pokémon. This attack does 20 damage to the Pokémon you chose. Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Choose 1 of your opponent's Pokémon. If you choose a Benched Pokémon, switch the Defending Pokémon with that Pokémon. This attack does 20 damage to the Pokémon you chose. Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Si vous choisissez un Pokémon de Banc, échangez le Pokémon Défenseur avec ce Pokémon. Cette attaque inflige 20 dégâts au Pokémon choisi. Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Choose 1 of your opponent's Pokémon. If you choose a Benched Pokémon, switch the Defending Pokémon with that Pokémon. This attack does 20 damage to the Pokémon you chose. Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 
 		},
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Boundless Power",
-				fr: "Puissance illimitée",
-				de: "Boundless Power"
+				'en-us': "Boundless Power",
+				'fr-fr': "Puissance illimitée",
+				'de-de': "Boundless Power"
 			},
 			effect: {
-				en: "During your next turn, Lickilicky can't attack.",
-				fr: "Lors de votre prochain tour, Coudlangue ne peut pas attaquer.",
-				de: "During your next turn, Lickilicky can't attack."
+				'en-us': "During your next turn, Lickilicky can't attack.",
+				'fr-fr': "Lors de votre prochain tour, Coudlangue ne peut pas attaquer.",
+				'de-de': "During your next turn, Lickilicky can't attack."
 			},
 			damage: 80,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It wraps things with its extensible tongue. Getting to close to it will leave you soaked with drool.",
+		'en-us': "It wraps things with its extensible tongue. Getting to close to it will leave you soaked with drool.",
 	},
 
 	thirdParty: {

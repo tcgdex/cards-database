@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Rotom",
-		fr: "Motisma",
-		de: "Rotom"
+		'en-us': "Rotom",
+		'fr-fr': "Motisma",
+		'de-de': "Rotom"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Astonish",
-				fr: "Étonnement",
-				de: "Erstauner"
+				'en-us': "Astonish",
+				'fr-fr': "Étonnement",
+				'de-de': "Erstauner"
 			},
 			effect: {
-				en: "Choose 1 card from your opponent's hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck.",
-				fr: "Choisissez sans regarder 1 carte de la main de votre adversaire. Regardez cette carte et demandez à votre adversaire de la mélanger à son deck.",
-				de: "Wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen). Schau dir die Karte an, danach mischt dein Gegner sie in sein Deck."
+				'en-us': "Choose 1 card from your opponent's hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck.",
+				'fr-fr': "Choisissez sans regarder 1 carte de la main de votre adversaire. Regardez cette carte et demandez à votre adversaire de la mélanger à son deck.",
+				'de-de': "Wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen). Schau dir die Karte an, danach mischt dein Gegner sie in sein Deck."
 			},
 			damage: 20,
 
@@ -50,14 +50,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Telebeam",
-				fr: "Télérayon",
-				de: "Telestrahl"
+				'en-us': "Telebeam",
+				'fr-fr': "Télérayon",
+				'de-de': "Telestrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 30 more damage and the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires et le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 30 more damage and the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires et le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt gelähmt."
 			},
 			damage: "30+",
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
+		'en-us': "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
 	},
 
 	thirdParty: {

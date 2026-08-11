@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トドグラー",
+		'ja-jp': "トドグラー",
 		'zh-tw': "海魔獅",
 		'zh-cn': "海魔獅",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "流氷の 上で 生活。 泳ぎながら 獲物の 匂いを 嗅ぎわけて 見つけだし 捕まえる。",
+		'ja-jp': "流氷の 上で 生活。 泳ぎながら 獲物の 匂いを 嗅ぎわけて 見つけだし 捕まえる。",
 		'zh-tw': "在浮冰上生活。能夠一邊 游泳一邊嗅出獵物的氣味， 把對方找出來獵捕。",
 		'zh-cn': "在浮冰上生活。能夠一邊 游泳一邊嗅出獵物的氣味， 把對方找出來獵捕。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "つきたおし",
+				'ja-jp': "つきたおし",
 				'zh-tw': "撞倒",
 				'zh-cn': "撞倒",
 			},
@@ -34,7 +34,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "アイスボール",
+				'ja-jp': "アイスボール",
 				'zh-tw': "冰球",
 				'zh-cn': "冰球",
 			},
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "タマザラシ",
+		'ja-jp': "タマザラシ",
 	},
 
 	retreat: 3,

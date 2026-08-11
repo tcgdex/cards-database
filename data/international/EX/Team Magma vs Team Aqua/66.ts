@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Poochyena",
-		fr: "Medhyena de Team Magma",
-		de: "Team Magmas Fiffyen"
+		'en-us': "Team Magma's Poochyena",
+		'fr-fr': "Medhyena de Team Magma",
+		'de-de': "Team Magmas Fiffyen"
 	},
 
 	illustrator: "Shin-ichi Yoshikawa",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Darkness Call",
-				fr: "Demande d'Obscurité",
-				de: "Darkness Call"
+				'en-us': "Darkness Call",
+				'fr-fr': "Demande d'Obscurité",
+				'de-de': "Darkness Call"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc, s'il en a.",
-				de: "Your opponent switches the Defending Pokémon with 1 of this or her Benched Pokémon, if any."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc, s'il en a.",
+				'de-de': "Your opponent switches the Defending Pokémon with 1 of this or her Benched Pokémon, if any."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharp Fang",
-				fr: "Croc aiguisé",
-				de: "Sharp Fang"
+				'en-us': "Sharp Fang",
+				'fr-fr': "Croc aiguisé",
+				'de-de': "Sharp Fang"
 			},
 
 			damage: 20,

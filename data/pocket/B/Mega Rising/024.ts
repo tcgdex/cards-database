@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Trevenant"
+		'en-us': "Trevenant"
 	},
 
 	illustrator: "Hiroyuki Yamamoto",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Phantump"
+		'en-us': "Phantump"
 	},
 
 	description: {
-		en: "Small roots that extend from the tips of this\nPokémon's feet can tie into the trees of the\nforest and give Trevenant control over them."
+		'en-us': "Small roots that extend from the tips of this\nPokémon's feet can tie into the trees of the\nforest and give Trevenant control over them."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Horn Leech"
+			'en-us': "Horn Leech"
 		},
 
 		damage: 60,
 		cost: ["Grass", "Grass"],
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon."
+			'en-us': "Heal 20 damage from this Pokémon."
 		}
 	}],
 

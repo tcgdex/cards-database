@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Sneasel",
-		fr: "Farfuret",
-		de: "Sniebel"
+		'en-us': "Sneasel",
+		'fr-fr': "Farfuret",
+		'de-de': "Sniebel"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Swipes",
-				fr: "Combo-griffe",
-				de: "Fury Swipes"
+				'en-us': "Fury Swipes",
+				'fr-fr': "Combo-griffe",
+				'de-de': "Fury Swipes"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 3 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 3 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10x",
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Beat Up",
-				fr: "Baston",
-				de: "Beat Up"
+				'en-us': "Beat Up",
+				'fr-fr': "Baston",
+				'de-de': "Beat Up"
 			},
 			effect: {
-				en: "Flip a coin for each of your Pokémon in play (including this one). This attack does 20 damage times the number of heads.",
-				fr: "Lancez une pièce pour chacun de vos Pokémon en jeu (y compris celui-là). Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Flip a coin for each of your Pokémon in play (including this one). This attack does 20 damage times the number of heads."
+				'en-us': "Flip a coin for each of your Pokémon in play (including this one). This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce pour chacun de vos Pokémon en jeu (y compris celui-là). Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip a coin for each of your Pokémon in play (including this one). This attack does 20 damage times the number of heads."
 			},
 			damage: "20x",
 
@@ -71,8 +71,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Its paws conceal sharp claws. If attacked, it suddenly extends the claws and startles its enemy.",
-		fr: "Ses pattes cachent des griffes aiguisées. S'il est attaqué, il sort ses griffes et transperce son ennemi."
+		'en-us': "Its paws conceal sharp claws. If attacked, it suddenly extends the claws and startles its enemy.",
+		'fr-fr': "Ses pattes cachent des griffes aiguisées. S'il est attaqué, il sort ses griffes et transperce son ennemi."
 	},
 
 

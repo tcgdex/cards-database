@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cinderace V",
-		fr: "Pyrobut V",
-		es: "Cinderace V",
-		it: "Cinderace V",
-		pt: "Cinderace V",
-		de: "Liberlo V"
+		'en-us': "Cinderace V",
+		'fr-fr': "Pyrobut V",
+		'es-es': "Cinderace V",
+		'it-it': "Cinderace V",
+		'pt-br': "Cinderace V",
+		'de-de': "Liberlo V"
 	},
 
 	rarity: "Holo Rare V",
@@ -34,12 +34,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Flare",
-			fr: "Flamboiement",
-			de: "Flackern",
-			es: "Llama",
-			pt: "Chama",
-			it: "Fiammata"
+			'en-us': "Flare",
+			'fr-fr': "Flamboiement",
+			'de-de': "Flackern",
+			'es-es': "Llama",
+			'pt-br': "Chama",
+			'it-it': "Fiammata"
 		},
 
 		damage: 50
@@ -47,23 +47,23 @@ const card: Card = {
 		cost: ["Fire", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "All-Out Shot",
-			fr: "Tir Extrême",
-			de: "Wuchtiger Schuss",
-			es: "Disparo Demoledor",
-			pt: "Disparo Demolidor",
-			it: "Colpo Tutto-per-Tutto"
+			'en-us': "All-Out Shot",
+			'fr-fr': "Tir Extrême",
+			'de-de': "Wuchtiger Schuss",
+			'es-es': "Disparo Demoledor",
+			'pt-br': "Disparo Demolidor",
+			'it-it': "Colpo Tutto-per-Tutto"
 		},
 
 		damage: 210,
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare."
 		}
 	}],
 

@@ -1,17 +1,17 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Mega Evolution'
 
 const set: Set = {
 	id: "me02.5",
 
 	name: {
-		de: "Erhabene Helden",
-		en: "Ascended Heroes",
-		es: "Héroes Ascendentes",
+		'de-de': "Erhabene Helden",
+		'en-us': "Ascended Heroes",
+		'es-es': "Héroes Ascendentes",
 		'es-mx': 'Ascenso Heroico',
-		fr: "Héros Transcendants",
-		it: "Ascesa Eroica",
-		pt: "Heróis Excelsos"
+		'fr-fr': "Héros Transcendants",
+		'it-it': "Ascesa Eroica",
+		'pt-br': "Heróis Excelsos"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "ASC",
-		fr: "HER"
+		'fr-fr': "HER"
 	},
 
 	thirdParty: {

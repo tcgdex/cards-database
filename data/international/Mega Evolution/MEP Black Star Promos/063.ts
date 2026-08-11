@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Quaxly",
-		fr: "Coiffeton",
-		es: "Quaxly",
-		it: "Quaxly",
-		pt: "Quaxly",
-		de: "Kwaks"
+		'en-us': "Quaxly",
+		'fr-fr': "Coiffeton",
+		'es-es': "Quaxly",
+		'it-it': "Quaxly",
+		'pt-br': "Quaxly",
+		'de-de': "Kwaks"
 	},
 
 	illustrator: "Saboteri",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Wing Attack",
-			fr: "Cru-Ailes",
-			de: "Flügelschlag",
-			it: "Attacco d'Ala",
-			es: "Ataque Ala",
-			pt: "Ataque de Asa",
+			'en-us': "Wing Attack",
+			'fr-fr': "Cru-Ailes",
+			'de-de': "Flügelschlag",
+			'it-it': "Attacco d'Ala",
+			'es-es': "Ataque Ala",
+			'pt-br': "Ataque de Asa",
 			'es-mx': "Ataque de Ala"
 		},
 

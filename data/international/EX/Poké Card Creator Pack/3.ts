@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Poké Card Creator Pack'
 
 const card: Card = {
 	name: {
-		en: "Torchic"
+		'en-us': "Torchic"
 	},
 
 	illustrator: "May Do",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Super Singe"
+				'en-us': "Super Singe"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned."
+				'en-us': "The Defending Pokémon is now Burned."
 			},
 			damage: 10,
 
@@ -45,10 +45,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower"
+				'en-us': "Flamethrower"
 			},
 			effect: {
-				en: "Discard a Fire Energy card attached to Torchic."
+				'en-us': "Discard a Fire Energy card attached to Torchic."
 			},
 			damage: 40,
 

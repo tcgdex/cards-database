@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Munna",
-		fr: "Munna",
-		es: "Munna",
-		it: "Munna",
-		pt: "Munna",
-		de: "Somniam"
+		'en-us': "Munna",
+		'fr-fr': "Munna",
+		'es-es': "Munna",
+		'it-it': "Munna",
+		'pt-br': "Munna",
+		'de-de': "Somniam"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Future Sight",
-				fr: "Prescience",
-				es: "Premonición",
-				it: "Divinazione",
-				pt: "Visão do Futuro",
-				de: "Seher"
+				'en-us': "Future Sight",
+				'fr-fr': "Prescience",
+				'es-es': "Premonición",
+				'it-it': "Divinazione",
+				'pt-br': "Visão do Futuro",
+				'de-de': "Seher"
 			},
 			effect: {
-				en: "Look at the top 4 cards of either player’s deck and put them back in any order.",
-				fr: "Regardez les 4 cartes du dessus du deck de l’un des joueurs et replacez-les dans l’ordre de votre choix.",
-				es: "Mira las 4 primeras cartas de la baraja de cualquiera de los jugadores y vuelve a ponerlas en la parte superior de esa baraja en el orden que quieras.",
-				it: "Guarda le prime quattro carte del mazzo di uno dei giocatori e rimettile a posto nell’ordine che preferisci.",
-				pt: "Olhe as 4 primeiras cartas do baralho de um dos jogadores e coloque-as de volta em qualquer ordem.",
-				de: "Schau dir die obersten 4 Karten des Decks eines der beiden Spieler an und lege sie in beliebiger Reihenfolge zurück auf sein Deck."
+				'en-us': "Look at the top 4 cards of either player’s deck and put them back in any order.",
+				'fr-fr': "Regardez les 4 cartes du dessus du deck de l’un des joueurs et replacez-les dans l’ordre de votre choix.",
+				'es-es': "Mira las 4 primeras cartas de la baraja de cualquiera de los jugadores y vuelve a ponerlas en la parte superior de esa baraja en el orden que quieras.",
+				'it-it': "Guarda le prime quattro carte del mazzo di uno dei giocatori e rimettile a posto nell’ordine che preferisci.",
+				'pt-br': "Olhe as 4 primeiras cartas do baralho de um dos jogadores e coloque-as de volta em qualquer ordem.",
+				'de-de': "Schau dir die obersten 4 Karten des Decks eines der beiden Spieler an und lege sie in beliebiger Reihenfolge zurück auf sein Deck."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon appears before people and Pokémon who are having nightmares and eats those dreams.",
+		'en-us': "This Pokémon appears before people and Pokémon who are having nightmares and eats those dreams.",
 	},
 
 	thirdParty: {

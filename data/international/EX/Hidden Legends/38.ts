@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Lanturn",
-		fr: "Lanturn",
-		de: "Lanturn"
+		'en-us': "Lanturn",
+		'fr-fr': "Lanturn",
+		'de-de': "Lanturn"
 	},
 
 	illustrator: "Aya Kusube",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Chinchou",
-		fr: "Loupio"
+		'en-us': "Chinchou",
+		'fr-fr': "Loupio"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Energy Grounding",
-				fr: "Source d'Énergie",
-				de: "Energy Grounding"
+				'en-us': "Energy Grounding",
+				'fr-fr': "Source d'Énergie",
+				'de-de': "Energy Grounding"
 			},
 			effect: {
-				en: "Once during your opponent's turn, when any of your Pokémon is Knocked Out by your opponent's attacks, you may use this power. Choose a basic Energy card discarded from the Knocked Out Pokémon and attach it to Lanturn. You can't use more than 1 Energy Grounding Poké-Power each turn.",
-				fr: "Une seule fois lors du tour de votre adversaire, lorsqu'un de vos Pokémon est mis K.O par des attaques de votre adversaire, vous pouvez utiliser ce pouvoir. Choisissez une carte Énergie de base défaussée du Pokémon mis K.O et attachez-la à Lanturn. Vous ne pouvez pas utiliser Source d'Énergie plus d'une fois même s'il y a plus d'1 Lanturn en jeu.",
-				de: "Once during your opponent's turn, when any of your Pokémon is Knocked Out by your opponent's attacks, you may use this power. Choose a basic Energy card discarded from the Knocked Out Pokémon and attach it to Lanturn. You can't use more than 1 Energy Grounding Poké-Power each turn."
+				'en-us': "Once during your opponent's turn, when any of your Pokémon is Knocked Out by your opponent's attacks, you may use this power. Choose a basic Energy card discarded from the Knocked Out Pokémon and attach it to Lanturn. You can't use more than 1 Energy Grounding Poké-Power each turn.",
+				'fr-fr': "Une seule fois lors du tour de votre adversaire, lorsqu'un de vos Pokémon est mis K.O par des attaques de votre adversaire, vous pouvez utiliser ce pouvoir. Choisissez une carte Énergie de base défaussée du Pokémon mis K.O et attachez-la à Lanturn. Vous ne pouvez pas utiliser Source d'Énergie plus d'une fois même s'il y a plus d'1 Lanturn en jeu.",
+				'de-de': "Once during your opponent's turn, when any of your Pokémon is Knocked Out by your opponent's attacks, you may use this power. Choose a basic Energy card discarded from the Knocked Out Pokémon and attach it to Lanturn. You can't use more than 1 Energy Grounding Poké-Power each turn."
 			}
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lightning Strike",
-				fr: "Frap'éclair",
-				de: "Lightning Strike"
+				'en-us': "Lightning Strike",
+				'fr-fr': "Frap'éclair",
+				'de-de': "Lightning Strike"
 			},
 			effect: {
-				en: "You may discard all Lightning Energy attached to Lanturn. If you do, this attack's base damage is 90 instead of 50.",
-				fr: "Vous pouvez défausser toutes les Énergies  attachées à Lanturn. Les dégâts de base de cette attaque sont alors de 90 au lieu de 50.",
-				de: "You may discard all  Energy attached to Lanturn. If you do, this attack's base damage is 90 instead of 50."
+				'en-us': "You may discard all Lightning Energy attached to Lanturn. If you do, this attack's base damage is 90 instead of 50.",
+				'fr-fr': "Vous pouvez défausser toutes les Énergies  attachées à Lanturn. Les dégâts de base de cette attaque sont alors de 90 au lieu de 50.",
+				'de-de': "You may discard all  Energy attached to Lanturn. If you do, this attack's base damage is 90 instead of 50."
 			},
 			damage: 50,
 

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Zapdos"
+		'id-id': "Zapdos"
 	},
 
 	illustrator: "GOSSAN",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Zapdos mampu mengendalikan listrik sesukanya. Ada kisah yang menyampaikan bahwa sarangnya ada di dalam awan guntur gelap."
+		'id-id': "Zapdos mampu mengendalikan listrik sesukanya. Ada kisah yang menyampaikan bahwa sarangnya ada di dalam awan guntur gelap."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Gelombang Elektromagnetik"
+			'id-id': "Gelombang Elektromagnetik"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
 		},
 
 		cost: ["Lightning"]
 	}, {
 		name: {
-			id: "Ledakan Listrik"
+			'id-id': "Ledakan Listrik"
 		},
 
 		effect: {
-			id: "Buang semua Energi yang dikenakan pada Pokémon ini ke Trash."
+			'id-id': "Buang semua Energi yang dikenakan pada Pokémon ini ke Trash."
 		},
 
 		damage: 190,

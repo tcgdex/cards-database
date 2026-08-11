@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Mienfoo",
-		fr: "Kungfouine",
-		es: "Mienfoo",
-		it: "Mienfoo",
-		pt: "Mienfoo",
-		de: "Lin-Fu"
+		'en-us': "Mienfoo",
+		'fr-fr': "Kungfouine",
+		'es-es': "Mienfoo",
+		'it-it': "Mienfoo",
+		'pt-br': "Mienfoo",
+		'de-de': "Lin-Fu"
 	},
 
 	illustrator: "match",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'Face",
+				'en-us': "Pound",
+				'fr-fr': "Écras'Face",
 			},
 
 			damage: 10,
@@ -47,8 +47,8 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "High Jump Kick",
-				fr: "Pied Voltige",
+				'en-us': "High Jump Kick",
+				'fr-fr': "Pied Voltige",
 			},
 
 			damage: 30,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "In fights, they dominate with onslaughts of flowing, continuous attack. With their sharp claws, they cut enemies.",
+		'en-us': "In fights, they dominate with onslaughts of flowing, continuous attack. With their sharp claws, they cut enemies.",
 	},
 
 	thirdParty: {

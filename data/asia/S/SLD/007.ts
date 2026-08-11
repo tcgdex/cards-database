@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SLD"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "達克萊伊V",
-		ja: "ダークライV"
+		'ja-jp': "ダークライV"
 	},
 
 	illustrator: "takuyoa",
@@ -19,7 +19,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "暗之風",
-			ja: "やみのかぜ"
+			'ja-jp': "やみのかぜ"
 		},
 
 		damage: 50,
@@ -27,12 +27,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "暗黑洞",
-			ja: "ダークホール"
+			'ja-jp': "ダークホール"
 		},
 
 		effect: {
 			'zh-tw': "將對手的戰鬥寶可夢【睡眠】。",
-			ja: "相手のバトルポケモンをねむりにする。"
+			'ja-jp': "相手のバトルポケモンをねむりにする。"
 		},
 
 		damage: 130,

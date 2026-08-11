@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magnemite",
-		fr: "Magnéti",
-		es: "Magnemite",
-		it: "Magnemite",
-		pt: "Magnemite",
-		de: "Magnetilo"
+		'en-us': "Magnemite",
+		'fr-fr': "Magnéti",
+		'es-es': "Magnemite",
+		'it-it': "Magnemite",
+		'pt-br': "Magnemite",
+		'de-de': "Magnetilo"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Lightning Ball",
-			fr: "Boule Éclair",
-			es: "Bola Relámpago",
-			it: "Fulminpalla",
-			pt: "Bola de Raios",
-			de: "Kugelblitz"
+			'en-us': "Lightning Ball",
+			'fr-fr': "Boule Éclair",
+			'es-es': "Bola Relámpago",
+			'it-it': "Fulminpalla",
+			'pt-br': "Bola de Raios",
+			'de-de': "Kugelblitz"
 		},
 
 		damage: 20

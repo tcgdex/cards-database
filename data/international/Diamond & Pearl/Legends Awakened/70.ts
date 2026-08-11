@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Seadra",
-		fr: "Hypocean",
-		de: "Seemon"
+		'en-us': "Seadra",
+		'fr-fr': "Hypocean",
+		'de-de': "Seemon"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Horsea",
-		fr: "Seeper",
+		'en-us': "Horsea",
+		'fr-fr': "Seeper",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Aqua Pump",
-				fr: "Aqua-pompe",
-				de: "Aquapumpe"
+				'en-us': "Aqua Pump",
+				'fr-fr': "Aqua-pompe",
+				'de-de': "Aquapumpe"
 			},
 			effect: {
-				en: "You may discard up to 2 Water Energy cards from your hand. If you do, this attack does 30 damage plus 10 more damage for each Energy card you discarded.",
-				fr: "Vous pouvez défausser jusqu'à 2 cartes Énergie Water de votre main. Cette attaque inflige alors 30 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie défaussée.",
-				de: "Du kannst bis zu 2 -Energiekarten von deiner Hand auf den Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf diese Weise auf den Ablagestapel gelegte Energiekarte zu."
+				'en-us': "You may discard up to 2 Water Energy cards from your hand. If you do, this attack does 30 damage plus 10 more damage for each Energy card you discarded.",
+				'fr-fr': "Vous pouvez défausser jusqu'à 2 cartes Énergie Water de votre main. Cette attaque inflige alors 30 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie défaussée.",
+				'de-de': "Du kannst bis zu 2 -Energiekarten von deiner Hand auf den Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf diese Weise auf den Ablagestapel gelegte Energiekarte zu."
 			},
 			damage: "30+",
 
@@ -55,9 +55,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Waterfall",
-				fr: "Cascade",
-				de: "Kaskade"
+				'en-us': "Waterfall",
+				'fr-fr': "Cascade",
+				'de-de': "Kaskade"
 			},
 
 			damage: 50,
@@ -75,8 +75,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its spines provide protection. Its fins and bones are prized as traditional medicine ingredients.",
-		fr: "Son épine dorsale le protège. Ses os et ses nageoires sont très prisés en médecine traditionnelle."
+		'en-us': "Its spines provide protection. Its fins and bones are prized as traditional medicine ingredients.",
+		'fr-fr': "Son épine dorsale le protège. Ses os et ses nageoires sont très prisés en médecine traditionnelle."
 	},
 
 	thirdParty: {

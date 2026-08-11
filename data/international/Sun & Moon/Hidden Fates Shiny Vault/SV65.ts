@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Zygarde-GX",
-		fr: "Zygarde-GX",
+		'en-us': "Zygarde-GX",
+		'fr-fr': "Zygarde-GX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Shiny rare",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cell Connector",
-				fr: "Connecteur de Cellules",
+				'en-us': "Cell Connector",
+				'fr-fr': "Connecteur de Cellules",
 			},
 			effect: {
-				en: "Attach 2 Fighting Energy cards from your discard pile to this Pokémon.",
-				fr: "Attachez 2 cartes Énergie Fighting de votre pile de défausse à ce Pokémon.",
+				'en-us': "Attach 2 Fighting Energy cards from your discard pile to this Pokémon.",
+				'fr-fr': "Attachez 2 cartes Énergie Fighting de votre pile de défausse à ce Pokémon.",
 			},
 			damage: 50,
 
@@ -47,8 +47,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Land's Wrath",
-				fr: "Force Chtonienne",
+				'en-us': "Land's Wrath",
+				'fr-fr': "Force Chtonienne",
 			},
 
 			damage: 130,
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Verdict-GX",
-				fr: "Verdict-GX",
+				'en-us': "Verdict-GX",
+				'fr-fr': "Verdict-GX",
 			},
 			effect: {
-				en: "Prevent all damage done to this Pokémon by attacks from Pokémon-GX and Pokémon-EX during your opponent's next turn. (You can't use more than 1 GX attack in a game.)",
-				fr: "Évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon-GX et de Pokémon-EX pendant le prochain tour de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'en-us': "Prevent all damage done to this Pokémon by attacks from Pokémon-GX and Pokémon-EX during your opponent's next turn. (You can't use more than 1 GX attack in a game.)",
+				'fr-fr': "Évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon-GX et de Pokémon-EX pendant le prochain tour de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 			damage: 150,
 

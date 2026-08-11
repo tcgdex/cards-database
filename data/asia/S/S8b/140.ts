@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "やまびこホーン",
+		'ja-jp': "やまびこホーン",
 		'zh-tw': "山谷回音喇叭",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "相手のトラッシュからたねポケモンを1枚選び、相手のベンチに出す。",
+		'ja-jp': "相手のトラッシュからたねポケモンを1枚選び、相手のベンチに出す。",
 		'zh-tw': "從對手的棄牌區選擇1張【基礎】寶可夢卡，放置於對手的備戰區。",
 	},
 

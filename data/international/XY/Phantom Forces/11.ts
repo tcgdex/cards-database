@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Litleo",
-		fr: "Hélionceau",
-		es: "Litleo",
-		it: "Litleo",
-		pt: "Litleo",
-		de: "Leufeo"
+		'en-us': "Litleo",
+		'fr-fr': "Hélionceau",
+		'es-es': "Litleo",
+		'it-it': "Litleo",
+		'pt-br': "Litleo",
+		'de-de': "Leufeo"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Roar",
-				fr: "Hurlement",
-				es: "Rugido",
-				it: "Boato",
-				pt: "Rugido",
-				de: "Brüller"
+				'en-us': "Roar",
+				'fr-fr': "Hurlement",
+				'es-es': "Rugido",
+				'it-it': "Boato",
+				'pt-br': "Rugido",
+				'de-de': "Brüller"
 			},
 			effect: {
-				en: "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc.",
-				es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
-				it: "Il tuo avversario scambia il suo Pokémon attivo con uno dei suoi Pokémon in panchina.",
-				pt: "Seu oponente troca o Pokémon Ativo por 1 dos Pokémon no Banco dele ou dela.",
-				de: "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc.",
+				'es-es': "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
+				'it-it': "Il tuo avversario scambia il suo Pokémon attivo con uno dei suoi Pokémon in panchina.",
+				'pt-br': "Seu oponente troca o Pokémon Ativo por 1 dos Pokémon no Banco dele ou dela.",
+				'de-de': "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Live Coal",
-				fr: "Charbon Mutant",
-				es: "Carbón Activado",
-				it: "Carboni Ardenti",
-				pt: "Carvão Vivo",
-				de: "Glühende Kohlen"
+				'en-us': "Live Coal",
+				'fr-fr': "Charbon Mutant",
+				'es-es': "Carbón Activado",
+				'it-it': "Carboni Ardenti",
+				'pt-br': "Carvão Vivo",
+				'de-de': "Glühende Kohlen"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The stronger the opponent it faces, the more heat surges from its mane and the more power flows through its body.",
+		'en-us': "The stronger the opponent it faces, the more heat surges from its mane and the more power flows through its body.",
 	},
 
 	thirdParty: {

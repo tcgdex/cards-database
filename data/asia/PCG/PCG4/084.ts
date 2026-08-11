@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウルサリング",
+		'ja-jp': "ウルサリング",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "威圧的なリング",
+				'ja-jp': "威圧的なリング",
 			},
 			effect: {
-				ja: "UrsaringがアクティブなPokã©Monである限り、相手の基本的なPokã©MonはPokã©Powersを攻撃したり使用したりすることはできません。",
+				'ja-jp': "UrsaringがアクティブなPokã©Monである限り、相手の基本的なPokã©MonはPokã©Powersを攻撃したり使用したりすることはできません。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ドラッグします",
+				'ja-jp': "ドラッグします",
 			},
 			effect: {
-				ja: "ダメージを与える前に、対戦相手のベンチ付きポケモンを防御するポケモンと交換することができます。もしそうなら、この攻撃は新しい防御ポケモンに20のダメージを与えます。対戦相手は、防御するポケモンを選択して切り替えます。",
+				'ja-jp': "ダメージを与える前に、対戦相手のベンチ付きポケモンを防御するポケモンと交換することができます。もしそうなら、この攻撃は新しい防御ポケモンに20のダメージを与えます。対戦相手は、防御するポケモンを選択して切り替えます。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "ロックスマッシュ",
+				'ja-jp': "ロックスマッシュ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は40ダメージに加えて20ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は40ダメージに加えて20ダメージを与えます。",
 			},
 		},
 	],

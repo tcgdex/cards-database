@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Wooper",
-		fr: "Axoloto",
-		de: "Felino"
+		'en-us': "Wooper",
+		'fr-fr': "Axoloto",
+		'de-de': "Felino"
 	},
 
 	illustrator: "match",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Whip",
-				fr: "Mouvemend’keu",
-				de: "Rutenschlag"
+				'en-us': "Tail Whip",
+				'fr-fr': "Mouvemend’keu",
+				'de-de': "Rutenschlag"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur ne peut pas attaquer durant le prochain tour de votre adversaire.",
-				de: "Wirf eine Münze. Bei \"Kopf\" kann das Verteidigende Pokémon im nächsten Zug deines Gegners nicht angreifen."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Défenseur ne peut pas attaquer durant le prochain tour de votre adversaire.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" kann das Verteidigende Pokémon im nächsten Zug deines Gegners nicht angreifen."
 			},
 
 		},
@@ -45,9 +45,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Watering",
-				fr: "Arrosage",
-				de: "Gießen"
+				'en-us': "Watering",
+				'fr-fr': "Arrosage",
+				'de-de': "Gießen"
 			},
 
 			damage: 10,
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it walks around on the ground, it coats its body with a slimy, poisonous film."
+		'en-us': "When it walks around on the ground, it coats its body with a slimy, poisonous film."
 	},
 
 	variants: [

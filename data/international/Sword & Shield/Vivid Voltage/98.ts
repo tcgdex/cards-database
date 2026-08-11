@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	name: {
-		en: "Coalossal V",
-		fr: "Monthracite V",
-		es: "Coalossal V",
-		it: "Coalossal V",
-		pt: "Coalossal V",
-		de: "Montecarbo V"
+		'en-us': "Coalossal V",
+		'fr-fr': "Monthracite V",
+		'es-es': "Coalossal V",
+		'it-it': "Coalossal V",
+		'pt-br': "Coalossal V",
+		'de-de': "Montecarbo V"
 	},
 
 	illustrator: "5ban Graphics",
@@ -30,20 +30,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Searing Flame",
-				fr: "Flammes Calcinantes",
-				es: "Llama Abrasadora",
-				it: "Fiamme Ustionanti",
-				pt: "Chama Cauterizante",
-				de: "Sengende Flammen"
+				'en-us': "Searing Flame",
+				'fr-fr': "Flammes Calcinantes",
+				'es-es': "Llama Abrasadora",
+				'it-it': "Fiamme Ustionanti",
+				'pt-br': "Chama Cauterizante",
+				'de-de': "Sengende Flammen"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Burned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+				'en-us': "Your opponent's Active Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 			},
 			damage: 90,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Boulder Crush",
-				fr: "Rocher Écrasant",
-				es: "Alud de Rocas",
-				it: "Macignata",
-				pt: "Rocha Esmagadora",
-				de: "Felsenquetscher"
+				'en-us': "Boulder Crush",
+				'fr-fr': "Rocher Écrasant",
+				'es-es': "Alud de Rocas",
+				'it-it': "Macignata",
+				'pt-br': "Rocha Esmagadora",
+				'de-de': "Felsenquetscher"
 			},
 
 			damage: 180,

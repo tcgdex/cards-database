@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Arceus",
-		fr: "Arceus"
+		'en-us': "Arceus",
+		'fr-fr': "Arceus"
 	},
 
 	illustrator: "Naoki Saito",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Type Switch",
-				fr: "Échange de Type"
+				'en-us': "Type Switch",
+				'fr-fr': "Échange de Type"
 			},
 			effect: {
-				en: "Choose Grass, Fire, Water, Lightning, Psychic, Fighting, Darkness, Metal, Fairy, or Dragon type. Until the end of your next turn, this Pokémon is that type.",
-				fr: "Choisissez le type , , , , , , , ,  ou . Jusqu'à la fin de votre prochain tour, ce Pokémon est de ce type."
+				'en-us': "Choose Grass, Fire, Water, Lightning, Psychic, Fighting, Darkness, Metal, Fairy, or Dragon type. Until the end of your next turn, this Pokémon is that type.",
+				'fr-fr': "Choisissez le type , , , , , , , ,  ou . Jusqu'à la fin de votre prochain tour, ce Pokémon est de ce type."
 			},
 
 		},
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Power Blast",
-				fr: "Violente Déflagration"
+				'en-us': "Power Blast",
+				'fr-fr': "Violente Déflagration"
 			},
 			effect: {
-				en: "Discard an Energy card attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon."
+				'en-us': "Discard an Energy card attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon."
 			},
 			damage: 120,
 
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It is told in mythology that this Pokémon was born before the universe even existed.",
+		'en-us': "It is told in mythology that this Pokémon was born before the universe even existed.",
 	},
 
 	thirdParty: {

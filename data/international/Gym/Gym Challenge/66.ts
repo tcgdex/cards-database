@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Vulpix"
+		'en-us': "Blaine's Vulpix"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite"
+				'en-us': "Bite"
 			},
 
 			damage: 10,
@@ -38,10 +38,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Call Will-o'-the-wisp"
+				'en-us': "Call Will-o'-the-wisp"
 			},
 			effect: {
-				en: "Flip 3 coins. For each heads, if you have a Fire Energy card in your discard pile, put it into your hand."
+				'en-us': "Flip 3 coins. For each heads, if you have a Fire Energy card in your discard pile, put it into your hand."
 			},
 
 		},

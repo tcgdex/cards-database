@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Lapras ex",
-		fr: "Lokhlass ex",
-		de: "Lapras ex"
+		'en-us': "Lapras ex",
+		'fr-fr': "Lokhlass ex",
+		'de-de': "Lapras ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Energy Ball",
-				fr: "Boule d'énergie",
-				de: "Energy Ball"
+				'en-us': "Energy Ball",
+				'fr-fr': "Boule d'énergie",
+				'de-de': "Energy Ball"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each Energy attached to Lapras ex but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
-				fr: "Inflige 10 points de dégât plus 10 points de dégât supplémentaires pour chaque Énergie attachée à Lokhlass Ex qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
-				de: "Does 10 damage plu 10 more damage for each Energy attached to Lapras ex but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+				'en-us': "Does 10 damage plus 10 more damage for each Energy attached to Lapras ex but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+				'fr-fr': "Inflige 10 points de dégât plus 10 points de dégât supplémentaires pour chaque Énergie attachée à Lokhlass Ex qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
+				'de-de': "Does 10 damage plu 10 more damage for each Energy attached to Lapras ex but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
 			},
 			damage: "10+",
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde folie",
-				de: "Confuse Ray"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde folie",
+				'de-de': "Confuse Ray"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
-				de: "The Defending Pokémon is now Confused."
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "The Defending Pokémon is now Confused."
 			},
 			damage: 30,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニドリーノ（デルタ種）",
+		'ja-jp': "ニドリーノ（デルタ種）",
 	},
 
 	rarity: "Uncommon",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Darkness", "Colorless"],
 			name: {
-				ja: "怒り",
+				'ja-jp': "怒り",
 			},
 			effect: {
-				ja: "Nidorinoの各ダメージカウンターで10ダメージと10ダメージをさらに10回します。",
+				'ja-jp': "Nidorinoの各ダメージカウンターで10ダメージと10ダメージをさらに10回します。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "ホーンドリル",
+				'ja-jp': "ホーンドリル",
 			},
 			damage: 30,
 		},

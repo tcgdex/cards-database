@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "砂利",
+		'ja-jp': "砂利",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "外骨格",
+				'ja-jp': "外骨格",
 			},
 			effect: {
-				ja: "攻撃によって砂利に与えられた損害は、衰弱と抵抗を適用した後）10増加します。",
+				'ja-jp': "攻撃によって砂利に与えられた損害は、衰弱と抵抗を適用した後）10増加します。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "ロックスライド",
+				'ja-jp': "ロックスライド",
 			},
 			effect: {
-				ja: "対戦相手のベンチポケモンの2つに10ダメージを与えます（1つしかない場合は1）。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "対戦相手のベンチポケモンの2つに10ダメージを与えます（1つしかない場合は1）。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 20,
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Krabby",
-		fr: "Krabby",
-		de: "Krabby"
+		'en-us': "Krabby",
+		'fr-fr': "Krabby",
+		'de-de': "Krabby"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Irongrip",
-				fr: "Poigne de fer",
-				de: "Irongrip"
+				'en-us': "Irongrip",
+				'fr-fr': "Poigne de fer",
+				'de-de': "Irongrip"
 			},
 
 			damage: 10,
@@ -44,14 +44,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Nap",
-				fr: "Tit'sieste",
-				de: "Nap"
+				'en-us': "Nap",
+				'fr-fr': "Tit'sieste",
+				'de-de': "Nap"
 			},
 			effect: {
-				en: "Remove 2 damage counters from Krabby (remove 1 if there is only 1).",
-				fr: "Retirez à Krabby 2 marqueurs de dégât (ou 1 s'il n'y en a qu'1).",
-				de: "Remove 2 damage counters from Krabby (remove 1 if there is only 1)."
+				'en-us': "Remove 2 damage counters from Krabby (remove 1 if there is only 1).",
+				'fr-fr': "Retirez à Krabby 2 marqueurs de dégât (ou 1 s'il n'y en a qu'1).",
+				'de-de': "Remove 2 damage counters from Krabby (remove 1 if there is only 1)."
 			},
 
 		},

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Porygon-Z",
-		fr: "Porygon-Z",
-		es: "Porygon-Z",
-		it: "Porygon-Z",
-		pt: "Porygon-Z",
-		de: "Porygon-Z"
+		'en-us': "Porygon-Z",
+		'fr-fr': "Porygon-Z",
+		'es-es': "Porygon-Z",
+		'it-it': "Porygon-Z",
+		'pt-br': "Porygon-Z",
+		'de-de': "Porygon-Z"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Porygon2",
-		fr: "Porygon2",
-		es: "Porygon2",
-		it: "Porygon2",
-		pt: "Porygon2",
-		de: "Porygon2"
+		'en-us': "Porygon2",
+		'fr-fr': "Porygon2",
+		'es-es': "Porygon2",
+		'it-it': "Porygon2",
+		'pt-br': "Porygon2",
+		'de-de': "Porygon2"
 	},
 
 	stage: "Stage2",
@@ -35,32 +35,32 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Downgrading Beam",
-			fr: "Rayon Rétrograde",
-			es: "Transmisión de Involución",
-			it: "Raggio Declassante",
-			pt: "Raio de Degradação",
-			de: "Rückstufender Strahl"
+			'en-us': "Downgrading Beam",
+			'fr-fr': "Rayon Rétrograde",
+			'es-es': "Transmisión de Involución",
+			'it-it': "Raggio Declassante",
+			'pt-br': "Raio de Degradação",
+			'de-de': "Rückstufender Strahl"
 		},
 
 		effect: {
-			en: "Devolve 1 of your opponent's evolved Pokémon by removing any number of Evolution cards from it. Your opponent shuffles those cards into their deck.",
-			fr: "Faites dés-évoluer l'un des Pokémon évolués de votre adversaire en ôtant le nombre voulu de cartes Évolution. Votre adversaire mélange ces cartes avec son deck.",
-			es: "Involuciona 1 de los Pokémon evolucionados de tu rival quitándole cualquier cantidad de cartas de Evolución. Tu rival pone esas cartas en su baraja y las baraja todas.",
-			it: "Annulla l'evoluzione di uno dei Pokémon evoluti del tuo avversario rimuovendone un numero qualsiasi di carte Evoluzione. Il tuo avversario rimischia quelle carte nel suo mazzo.",
-			pt: "Reverta a evolução de 1 dos Pokémon evoluídos do seu oponente removendo qualquer número de cartas de Evolução sobre ele. Seu oponente embaralha aquelas cartas no próprio baralho.",
-			de: "Rückentwickle 1 entwickeltes Pokémon deines Gegners, indem du beliebig viele Entwicklungskarten von ihm entfernst. Dein Gegner mischt jene Karten in sein Deck."
+			'en-us': "Devolve 1 of your opponent's evolved Pokémon by removing any number of Evolution cards from it. Your opponent shuffles those cards into their deck.",
+			'fr-fr': "Faites dés-évoluer l'un des Pokémon évolués de votre adversaire en ôtant le nombre voulu de cartes Évolution. Votre adversaire mélange ces cartes avec son deck.",
+			'es-es': "Involuciona 1 de los Pokémon evolucionados de tu rival quitándole cualquier cantidad de cartas de Evolución. Tu rival pone esas cartas en su baraja y las baraja todas.",
+			'it-it': "Annulla l'evoluzione di uno dei Pokémon evoluti del tuo avversario rimuovendone un numero qualsiasi di carte Evoluzione. Il tuo avversario rimischia quelle carte nel suo mazzo.",
+			'pt-br': "Reverta a evolução de 1 dos Pokémon evoluídos do seu oponente removendo qualquer número de cartas de Evolução sobre ele. Seu oponente embaralha aquelas cartas no próprio baralho.",
+			'de-de': "Rückentwickle 1 entwickeltes Pokémon deines Gegners, indem du beliebig viele Entwicklungskarten von ihm entfernst. Dein Gegner mischt jene Karten in sein Deck."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Power Beam",
-			fr: "Puissant Rayon",
-			es: "Rayo de Luz Poderoso",
-			it: "Raggiopotenza",
-			pt: "Raio de Poder",
-			de: "Power-Strahl"
+			'en-us': "Power Beam",
+			'fr-fr': "Puissant Rayon",
+			'es-es': "Rayo de Luz Poderoso",
+			'it-it': "Raggiopotenza",
+			'pt-br': "Raio de Poder",
+			'de-de': "Power-Strahl"
 		},
 
 		damage: 130

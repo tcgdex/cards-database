@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Pomdepik",
-		en: "Pineco",
-		es: "Pineco",
-		it: "Pineco",
-		pt: "Pineco",
-		de: "Tannza"
+		'fr-fr': "Pomdepik",
+		'en-us': "Pineco",
+		'es-es': "Pineco",
+		'it-it': "Pineco",
+		'pt-br': "Pineco",
+		'de-de': "Tannza"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			fr: "Roulade",
-			en: "Rollout",
-			es: "Rodar",
-			it: "Rotolamento",
-			pt: "Rolagem",
-			de: "Walzer"
+			'fr-fr': "Roulade",
+			'en-us': "Rollout",
+			'es-es': "Rodar",
+			'it-it': "Rotolamento",
+			'pt-br': "Rolagem",
+			'de-de': "Walzer"
 		},
 
 		damage: 30
@@ -66,7 +66,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
+		'en-us': "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
 	},
 }
 

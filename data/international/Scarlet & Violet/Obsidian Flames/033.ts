@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Victini-ex",
-		en: "Victini ex",
-		es: "Victini ex",
-		it: "Victini-ex",
-		pt: "Victini ex",
-		de: "Victini-ex"
+		'fr-fr': "Victini-ex",
+		'en-us': "Victini ex",
+		'es-es': "Victini ex",
+		'it-it': "Victini-ex",
+		'pt-br': "Victini ex",
+		'de-de': "Victini-ex"
 	},
 
 	rarity: "Double rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			fr: "Bombarder",
-			en: "Strafe",
-			es: "Pasada de Ataque",
-			it: "Mitragliare",
-			pt: "Bombardear",
-			de: "Beharken"
+			'fr-fr': "Bombarder",
+			'en-us': "Strafe",
+			'es-es': "Pasada de Ataque",
+			'it-it': "Mitragliare",
+			'pt-br': "Bombardear",
+			'de-de': "Beharken"
 		},
 
 		effect: {
-			fr: "Vous pouvez échanger ce Pokémon contre l'un de vos Pokémon de Banc.",
-			en: "You may switch this Pokémon with 1 of your Benched Pokémon.",
-			es: "Puedes cambiar este Pokémon por uno de tus Pokémon en Banca.",
-			it: "Puoi scambiare questo Pokémon con uno della tua panchina.",
-			pt: "Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
-			de: "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen."
+			'fr-fr': "Vous pouvez échanger ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'en-us': "You may switch this Pokémon with 1 of your Benched Pokémon.",
+			'es-es': "Puedes cambiar este Pokémon por uno de tus Pokémon en Banca.",
+			'it-it': "Puoi scambiare questo Pokémon con uno della tua panchina.",
+			'pt-br': "Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
+			'de-de': "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen."
 		},
 
 		damage: 30
@@ -46,21 +46,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			fr: "Flamme Victorieuse",
-			en: "Victory Flame",
-			es: "Llama de Victoria",
-			it: "Fiamma della Vittoria",
-			pt: "Chama da Vitória",
-			de: "Triumphflamme"
+			'fr-fr': "Flamme Victorieuse",
+			'en-us': "Victory Flame",
+			'es-es': "Llama de Victoria",
+			'it-it': "Fiamma della Vittoria",
+			'pt-br': "Chama da Vitória",
+			'de-de': "Triumphflamme"
 		},
 
 		effect: {
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			en: "During your next turn, this Pokémon can't attack.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 220

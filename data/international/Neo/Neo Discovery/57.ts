@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Larvitar",
-		fr: "Embrylex",
-		de: "Larvitar"
+		'en-us': "Larvitar",
+		'fr-fr': "Embrylex",
+		'de-de': "Larvitar"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Biss"
 			},
 
 			damage: 10,
@@ -58,8 +58,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow.",
-		fr: "Il se nourrit de terre. Après avoir mangé une grosse montagne, il s'endort pour pouvoir grandir."
+		'en-us': "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow.",
+		'fr-fr': "Il se nourrit de terre. Après avoir mangé une grosse montagne, il s'endort pour pouvoir grandir."
 	},
 
 

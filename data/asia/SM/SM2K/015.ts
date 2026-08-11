@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユキワラシ",
+		'ja-jp': "ユキワラシ",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "気づくと アローラで 増えていた。 ユキワラシが 棲みついた 家は 子々孫々に 栄えると いう。",
+		'ja-jp': "気づくと アローラで 増えていた。 ユキワラシが 棲みついた 家は 子々孫々に 栄えると いう。",
 	},
 
 	stage: "Basic",

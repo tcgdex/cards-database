@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Dark Omastar",
-		fr: "Amonistar obscur",
-		de: "Dunkles Amoroso"
+		'en-us': "Dark Omastar",
+		'fr-fr': "Amonistar obscur",
+		'de-de': "Dunkles Amoroso"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Omanyte",
-		fr: "Amonita obscur"
+		'en-us': "Omanyte",
+		'fr-fr': "Amonita obscur"
 	},
 
 	stage: "Stage2",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Prehistoric Water",
-				fr: "Eau préhistorique",
-				de: "Prehistoric Water"
+				'en-us': "Prehistoric Water",
+				'fr-fr': "Eau préhistorique",
+				'de-de': "Prehistoric Water"
 			},
 			effect: {
-				en: "If your opponent has any evolved Pokémon in play, choose 1 of them and flip a coin. If heads, your opponent takes the highest Stage Evolution card on that Pokémon and shuffles it into his or her deck.",
-				fr: "Si votre adversaire a des Pokémon évolués, choisissez l'un d'eux et lancez une pièce. Si c'est face, votre adversaire prend la carte Évolution de niveau le plus élevé de ce Pokémon et la mélange à son deck.",
-				de: "If your opponent has any evolved Pokémon in play, choose 1 of them and flip a coin. If heads, your opponent takes the highest Stage Evolution card on that Pokémon and shuffles it into his or her deck."
+				'en-us': "If your opponent has any evolved Pokémon in play, choose 1 of them and flip a coin. If heads, your opponent takes the highest Stage Evolution card on that Pokémon and shuffles it into his or her deck.",
+				'fr-fr': "Si votre adversaire a des Pokémon évolués, choisissez l'un d'eux et lancez une pièce. Si c'est face, votre adversaire prend la carte Évolution de niveau le plus élevé de ce Pokémon et la mélange à son deck.",
+				'de-de': "If your opponent has any evolved Pokémon in play, choose 1 of them and flip a coin. If heads, your opponent takes the highest Stage Evolution card on that Pokémon and shuffles it into his or her deck."
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Tentacle",
-				fr: "Sombre tentacule",
-				de: "Dark Tentacle"
+				'en-us': "Dark Tentacle",
+				'fr-fr': "Sombre tentacule",
+				'de-de': "Dark Tentacle"
 			},
 			effect: {
-				en: "During your opponent's next turn, the Defending Pokémon can't evolve except from effects of attacks or Pokémon Powers. (Benching that Pokémon ends this effect.)",
-				fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas évoluer excepté par l'effet d'une attaque ou d'un Pouvoir Pokémon. (Envoyer ce Pokémon sur le Banc met fin à cet effet.)",
-				de: "During your opponent's next turn, the Defending Pokémon can't evolve except from effects of attacks or Pokémon Powers. (Benching that Pokémon ends this effect.)"
+				'en-us': "During your opponent's next turn, the Defending Pokémon can't evolve except from effects of attacks or Pokémon Powers. (Benching that Pokémon ends this effect.)",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas évoluer excepté par l'effet d'une attaque ou d'un Pouvoir Pokémon. (Envoyer ce Pokémon sur le Banc met fin à cet effet.)",
+				'de-de': "During your opponent's next turn, the Defending Pokémon can't evolve except from effects of attacks or Pokémon Powers. (Benching that Pokémon ends this effect.)"
 			},
 			damage: 30,
 
@@ -77,8 +77,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Nothing can escape once wrapped in its tentacles, which it uses for self-defense as well as to catch food.",
-		fr: "Rien ne peut lui échapper une fois dans ses tentacules, qu'il utilise pour se défendre, mais aussi pour se nourrir."
+		'en-us': "Nothing can escape once wrapped in its tentacles, which it uses for self-defense as well as to catch food.",
+		'fr-fr': "Rien ne peut lui échapper une fois dans ses tentacules, qu'il utilise pour se défendre, mais aussi pour se nourrir."
 	},
 
 

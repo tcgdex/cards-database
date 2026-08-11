@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アリアドス",
+		'ja-jp': "アリアドス",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "尻からも 口からも 糸をだす。 糸で 獲物を 絡め取り ゆっくりと 体液を すする。",
+		'ja-jp': "尻からも 口からも 糸をだす。 糸で 獲物を 絡め取り ゆっくりと 体液を すする。",
 	},
 
 	stage: "Stage1",
@@ -24,14 +24,14 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが受けている特殊状態の数x50ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが受けている特殊状態の数x50ダメージ追加。",
 			},
 		},
 		{
 			name: { ja: "スパイダートラップ" },
 			cost: ["Grass"],
 			effect: {
-				ja: "相手のバトルポケモンをどくとねむりにする。のぞむなら、相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをどくとねむりにする。",
+				'ja-jp': "相手のバトルポケモンをどくとねむりにする。のぞむなら、相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをどくとねむりにする。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イトマル",
+		'ja-jp': "イトマル",
 	},
 
 	retreat: 1,

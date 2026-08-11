@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Seismitoad",
-		fr: "Crapustule",
-		de: "Branawarz",
-		it: "Seismitoad",
-		pt: "Seismitoad",
-		es: "Seismitoad",
+		'en-us': "Seismitoad",
+		'fr-fr': "Crapustule",
+		'de-de': "Branawarz",
+		'it-it': "Seismitoad",
+		'pt-br': "Seismitoad",
+		'es-es': "Seismitoad",
 		'es-mx': "Seismitoad"
 	},
 
@@ -21,12 +21,12 @@ const card: Card = {
 	hp: 170,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Palpitoad",
-		fr: "Batracné",
-		de: "Mebrana",
-		it: "Palpitoad",
-		pt: "Palpitoad",
-		es: "Palpitoad",
+		'en-us': "Palpitoad",
+		'fr-fr': "Batracné",
+		'de-de': "Mebrana",
+		'it-it': "Palpitoad",
+		'pt-br': "Palpitoad",
+		'es-es': "Palpitoad",
 		'es-mx': "Palpitoad"
 	},
 	stage: "Stage2",
@@ -35,22 +35,22 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Round",
-			fr: "Chant Canon",
-			de: "Kanon",
-			it: "Coro",
-			pt: "Circular",
-			es: "Canon",
+			'en-us': "Round",
+			'fr-fr': "Chant Canon",
+			'de-de': "Kanon",
+			'it-it': "Coro",
+			'pt-br': "Circular",
+			'es-es': "Canon",
 			'es-mx': "Canon"
 		},
 
 		effect: {
-			en: "This attack does 70 damage for each of your Pokémon in play that has the Round attack.",
-			fr: "Cette attaque inflige 70 dégâts pour chacun de vos Pokémon en jeu ayant l'attaque Chant Canon.",
-			de: "Diese Attacke fügt für jedes deiner Pokémon im Spiel, das die Attacke Kanon hat, 70 Schadenspunkte zu.",
-			it: "Questo attacco infligge 70 danni per ogni tuo Pokémon in gioco che ha l'attacco Coro.",
-			pt: "Este ataque causa 70 pontos de dano para cada um dos seus Pokémon em jogo que tiver o ataque Circular.",
-			es: "Este ataque hace 70 puntos de daño por cada uno de tus Pokémon en juego que tenga el ataque Canon.",
+			'en-us': "This attack does 70 damage for each of your Pokémon in play that has the Round attack.",
+			'fr-fr': "Cette attaque inflige 70 dégâts pour chacun de vos Pokémon en jeu ayant l'attaque Chant Canon.",
+			'de-de': "Diese Attacke fügt für jedes deiner Pokémon im Spiel, das die Attacke Kanon hat, 70 Schadenspunkte zu.",
+			'it-it': "Questo attacco infligge 70 danni per ogni tuo Pokémon in gioco che ha l'attacco Coro.",
+			'pt-br': "Este ataque causa 70 pontos de dano para cada um dos seus Pokémon em jogo que tiver o ataque Circular.",
+			'es-es': "Este ataque hace 70 puntos de daño por cada uno de tus Pokémon en juego que tenga el ataque Canon.",
 			'es-mx': "Este ataque hace 70 puntos de daño por cada uno de tus Pokémon en juego que tenga el ataque Canon."
 		},
 
@@ -59,12 +59,12 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Hyper Voice",
-			fr: "Mégaphone",
-			de: "Schallwelle",
-			it: "Granvoce",
-			pt: "Hipervoz",
-			es: "Vozarrón",
+			'en-us': "Hyper Voice",
+			'fr-fr': "Mégaphone",
+			'de-de': "Schallwelle",
+			'it-it': "Granvoce",
+			'pt-br': "Hipervoz",
+			'es-es': "Vozarrón",
 			'es-mx': "Hipervoz"
 		},
 

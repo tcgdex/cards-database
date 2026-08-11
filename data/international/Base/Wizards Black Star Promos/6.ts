@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Arcanine",
-		fr: "Arcanin"
+		'en-us': "Arcanine",
+		'fr-fr': "Arcanin"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Growlithe",
-		fr: "Caninos"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos"
 	},
 
 	stage: "Stage1",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-attaque"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-attaque"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 10 dégâts."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 10 dégâts."
 			},
 			damage: "10+",
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flames of Rage",
-				fr: "Flammes de rage"
+				'en-us': "Flames of Rage",
+				'fr-fr': "Flammes de rage"
 			},
 			effect: {
-				en: "Discard 2 Energy cards attached to Arcanine in order to use this attack. This attack does 40 damage plus 10 more damage for each damage counter on Arcanine.",
-				fr: "Défaussez 2 cartes Énergie  attachées à Arcanin pour pouvoir utiliser cette attaque. Cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur Arcanin."
+				'en-us': "Discard 2 Energy cards attached to Arcanine in order to use this attack. This attack does 40 damage plus 10 more damage for each damage counter on Arcanine.",
+				'fr-fr': "Défaussez 2 cartes Énergie  attachées à Arcanin pour pouvoir utiliser cette attaque. Cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur Arcanin."
 			},
 			damage: "40+",
 
@@ -74,8 +74,8 @@ const card: Card = {
 
 
 	description: {
-		en: "A legendary Pokémon famous for its beauty. It looks almost as if it flies when it runs.",
-		fr: "Un Pokémon légendaire réputé pour sa beauté. Il galope si vite qu'il semble voler."
+		'en-us': "A legendary Pokémon famous for its beauty. It looks almost as if it flies when it runs.",
+		'fr-fr': "Un Pokémon légendaire réputé pour sa beauté. Il galope si vite qu'il semble voler."
 	},
 
 	variants: [

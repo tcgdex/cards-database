@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	name: {
-		fr: "Miaouss VMAX",
-		en: "Meowth VMAX",
-		es: "Meowth VMAX",
-		it: "Meowth VMAX",
-		pt: "Meowth VMAX",
-		de: "Mauzi VMAX"
+		'fr-fr': "Miaouss VMAX",
+		'en-us': "Meowth VMAX",
+		'es-es': "Meowth VMAX",
+		'it-it': "Meowth VMAX",
+		'pt-br': "Meowth VMAX",
+		'de-de': "Mauzi VMAX"
 	},
 
 	illustrator: "aky CG Works",
@@ -22,12 +22,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		fr: "Miaouss-V",
-		en: "Meowth V",
-		de: "Mauzi-V",
-		es: "Meowth V",
-		pt: "Meowth V",
-		it: "Meowth-V"
+		'fr-fr': "Miaouss-V",
+		'en-us': "Meowth V",
+		'de-de': "Mauzi-V",
+		'es-es': "Meowth V",
+		'pt-br': "Meowth V",
+		'it-it': "Meowth-V"
 	},
 
 	stage: "VMAX",
@@ -41,20 +41,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				fr: "Pactole G-Max",
-				en: "G-Max Gold Rush",
-				es: "Gigamonedas",
-				it: "Gigamonete",
-				pt: "Corrida do Ouro G-Max",
-				de: "Giga-Münzregen"
+				'fr-fr': "Pactole G-Max",
+				'en-us': "G-Max Gold Rush",
+				'es-es': "Gigamonedas",
+				'it-it': "Gigamonete",
+				'pt-br': "Corrida do Ouro G-Max",
+				'de-de': "Giga-Münzregen"
 			},
 			effect: {
-				fr: "Piochez 3 cartes.",
-				en: "Draw 3 cards.",
-				es: "Roba 3 cartas.",
-				it: "Pesca tre carte.",
-				pt: "Compre 3 cartas.",
-				de: "Ziehe 3 Karten."
+				'fr-fr': "Piochez 3 cartes.",
+				'en-us': "Draw 3 cards.",
+				'es-es': "Roba 3 cartas.",
+				'it-it': "Pesca tre carte.",
+				'pt-br': "Compre 3 cartas.",
+				'de-de': "Ziehe 3 Karten."
 			},
 			damage: 200,
 

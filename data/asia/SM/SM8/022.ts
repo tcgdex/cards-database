@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エンテイ",
+		'ja-jp': "エンテイ",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "エンテイが ほえると 世界の どこかの 火山が 噴火すると 言われている。",
+		'ja-jp': "エンテイが ほえると 世界の どこかの 火山が 噴火すると 言われている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "おたがいの山札を上から1枚ずつトラッシュし、その中のエネルギーの枚数x60ダメージ追加。",
+				'ja-jp': "おたがいの山札を上から1枚ずつトラッシュし、その中のエネルギーの枚数x60ダメージ追加。",
 			},
 		},
 	],

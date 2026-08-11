@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チルット",
+		'ja-jp': "チルット",
 		'zh-tw': "青綿鳥",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "真綿のような 翼は 空気を 含んで ふわふわの 触り心地。 こまめな 手入れを 欠かさない。",
+		'ja-jp': "真綿のような 翼は 空気を 含んで ふわふわの 触り心地。 こまめな 手入れを 欠かさない。",
 		'zh-tw': "絲綿般的翅膀會鎖住空氣，呈現蓬蓬鬆鬆的觸感。牠總是會細心地打理翅膀。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "れんぞくスピン",
+				'ja-jp': "れんぞくスピン",
 				'zh-tw': "連續旋轉",
 			},
 			damage: "20×",
 			cost: ["Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数×20ダメージ。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数×20ダメージ。",
 				'zh-tw': "擲硬幣直到出現反面，造成正面出現的次數×20點傷害。",
 			},
 		},

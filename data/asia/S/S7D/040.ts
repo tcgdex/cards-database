@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チルタリス",
+		'ja-jp': "チルタリス",
 		'zh-tw': "七夕青鳥",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "晴れた日 綿雲に まぎれながら 大空を 自由に 飛び回り 美しい ソプラノで 歌う。",
+		'ja-jp': "晴れた日 綿雲に まぎれながら 大空を 自由に 飛び回り 美しい ソプラノで 歌う。",
 		'zh-tw': "在晴朗的日子會混在雲朵中，自在地在空中來回飛行。會用美妙的高音歌唱。",
 	},
 
@@ -24,11 +24,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "いざなうしらべ",
+				'ja-jp': "いざなうしらべ",
 				'zh-tw': "勸誘曲調",
 			},
 			effect: {
-				ja: "自分の番に1回使える。自分の山札からサポートを1枚選び、相手に見せる。残りの山札を切り、選んだカードを山札の上にもどす。",
+				'ja-jp': "自分の番に1回使える。自分の山札からサポートを1枚選び、相手に見せる。残りの山札を切り、選んだカードを山札の上にもどす。",
 				'zh-tw': "在自己的回合時，可使用1次。從自己的牌庫選擇1張支援者卡，給對手看過。重洗剩餘牌庫，將所選的卡放回牌庫上方。",
 			},
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かっくう",
+				'ja-jp': "かっくう",
 				'zh-tw': "滑翔",
 			},
 			damage: 60,
@@ -59,7 +59,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チルット",
+		'ja-jp': "チルット",
 	},
 
 	retreat: 0,

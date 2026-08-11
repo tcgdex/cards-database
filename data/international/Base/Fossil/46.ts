@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fossil'
 
 const card: Card = {
 	name: {
-		en: "Ekans",
-		fr: "Abo",
-		de: "Rettan"
+		'en-us': "Ekans",
+		'fr-fr': "Abo",
+		'de-de': "Rettan"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Spit Poison",
-				fr: "Crache-venin",
-				de: "Giftspucke"
+				'en-us': "Spit Poison",
+				'fr-fr': "Crache-venin",
+				'de-de': "Giftspucke"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Wrap",
-				fr: "Ligotage",
-				de: "Wickel"
+				'en-us': "Wrap",
+				'fr-fr': "Ligotage",
+				'de-de': "Wickel"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -72,8 +72,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Moves silently and stealthily. Eats the eggs of birds such as Pidgey and Spearow whole.",
-		fr: "Il se déplace en silence pour dévorer des œufs de Roucool ou de Piafabec."
+		'en-us': "Moves silently and stealthily. Eats the eggs of birds such as Pidgey and Spearow whole.",
+		'fr-fr': "Il se déplace en silence pour dévorer des œufs de Roucool ou de Piafabec."
 	},
 
 

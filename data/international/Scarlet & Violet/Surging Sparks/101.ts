@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Paldean Tauros",
-		fr: "Tauros de Paldea",
-		es: "Tauros de Paldea",
-		it: "Tauros di Paldea",
-		pt: "Tauros de Paldea",
-		de: "Paldea-Tauros"
+		'en-us': "Paldean Tauros",
+		'fr-fr': "Tauros de Paldea",
+		'es-es': "Tauros de Paldea",
+		'it-it': "Tauros di Paldea",
+		'pt-br': "Tauros de Paldea",
+		'de-de': "Paldea-Tauros"
 	},
 
 	rarity: "Uncommon",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Smash Kick",
-			fr: "Coud'Pattes",
-			es: "Patada Destrucción",
-			it: "Calcio Esplosivo",
-			pt: "Chute Poderoso",
-			de: "Schmetterkick"
+			'en-us': "Smash Kick",
+			'fr-fr': "Coud'Pattes",
+			'es-es': "Patada Destrucción",
+			'it-it': "Calcio Esplosivo",
+			'pt-br': "Chute Poderoso",
+			'de-de': "Schmetterkick"
 		},
 
 		damage: 40
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			en: "Blocking Stomp",
-			fr: "Piétinement Bloquant",
-			es: "Pisotón Bloqueo",
-			it: "Pestonblocco",
-			pt: "Pisoteada Bloqueadora",
-			de: "Blockierstampfer"
+			'en-us': "Blocking Stomp",
+			'fr-fr': "Piétinement Bloquant",
+			'es-es': "Pisotón Bloqueo",
+			'it-it': "Pestonblocco",
+			'pt-br': "Pisoteada Bloqueadora",
+			'de-de': "Blockierstampfer"
 		},
 
 		effect: {
-			en: "If the Defending Pokémon is a Basic Pokémon, it can't attack during your opponent's next turn.",
-			fr: "Si le Pokémon Défenseur est un Pokémon de base, il ne peut pas attaquer pendant le prochain tour de votre adversaire.",
-			es: "Si el Pokémon Defensor es un Pokémon Básico, no puede atacar durante el próximo turno de tu rival.",
-			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può attaccare se è un Pokémon Base.",
-			pt: "Se o Pokémon Defensor for um Pokémon Básico, ele não poderá atacar durante o próximo turno do seu oponente.",
-			de: "Wenn das Verteidigende Pokémon ein Basis-Pokémon ist, kann es während des nächsten Zuges deines Gegners nicht angreifen."
+			'en-us': "If the Defending Pokémon is a Basic Pokémon, it can't attack during your opponent's next turn.",
+			'fr-fr': "Si le Pokémon Défenseur est un Pokémon de base, il ne peut pas attaquer pendant le prochain tour de votre adversaire.",
+			'es-es': "Si el Pokémon Defensor es un Pokémon Básico, no puede atacar durante el próximo turno de tu rival.",
+			'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può attaccare se è un Pokémon Base.",
+			'pt-br': "Se o Pokémon Defensor for um Pokémon Básico, ele não poderá atacar durante o próximo turno do seu oponente.",
+			'de-de': "Wenn das Verteidigende Pokémon ein Basis-Pokémon ist, kann es während des nächsten Zuges deines Gegners nicht angreifen."
 		},
 
 		damage: 90

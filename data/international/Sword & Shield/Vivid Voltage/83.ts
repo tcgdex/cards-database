@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [194],
 
 	name: {
-		en: "Wooper",
-		fr: "Axoloto",
-		es: "Wooper",
-		it: "Wooper",
-		pt: "Wooper",
-		de: "Felino"
+		'en-us': "Wooper",
+		'fr-fr': "Axoloto",
+		'es-es': "Wooper",
+		'it-it': "Wooper",
+		'pt-br': "Wooper",
+		'de-de': "Felino"
 	},
 
 	illustrator: "Mina Nakai",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mud Shot",
-				fr: "Tir de Boue",
-				es: "Disparo Lodo",
-				it: "Colpodifango",
-				pt: "Tiro de Lama",
-				de: "Lehmschuss"
+				'en-us': "Mud Shot",
+				'fr-fr': "Tir de Boue",
+				'es-es': "Disparo Lodo",
+				'it-it': "Colpodifango",
+				'pt-br': "Tiro de Lama",
+				'de-de': "Lehmschuss"
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beat",
-				fr: "Bataille",
-				es: "Toque",
-				it: "Battuta",
-				pt: "Pulso",
-				de: "Verprügler"
+				'en-us': "Beat",
+				'fr-fr': "Bataille",
+				'es-es': "Toque",
+				'it-it': "Battuta",
+				'pt-br': "Pulso",
+				'de-de': "Verprügler"
 			},
 
 			damage: 20,
@@ -73,7 +73,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "This Pokémon lives in cold water. It will leave the water to search for food when it gets cold outside."
+		'en-us': "This Pokémon lives in cold water. It will leave the water to search for food when it gets cold outside."
 	},
 
 	variants: [

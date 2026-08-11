@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Brock's Vulpix"
+		'en-us': "Brock's Vulpix"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnotic Gaze"
+				'en-us': "Hypnotic Gaze"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -40,10 +40,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fire Ring"
+				'en-us': "Fire Ring"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 20,
 

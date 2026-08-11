@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Metagross EX",
-		fr: "Métalosse EX",
+		'en-us': "Metagross EX",
+		'fr-fr': "Métalosse EX",
 	},
 
 	illustrator: "PLANETA",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnetic Laser",
-				fr: "Laser Magnétique",
+				'en-us': "Magnetic Laser",
+				'fr-fr': "Laser Magnétique",
 			},
 			effect: {
-				en: "You may move a Metal Energy from 1 of your Benched Pokémon to this Pokémon.",
-				fr: "Vous pouvez déplacer une Énergie Metal de l'un de vos Pokémon de Banc vers ce Pokémon.",
+				'en-us': "You may move a Metal Energy from 1 of your Benched Pokémon to this Pokémon.",
+				'fr-fr': "Vous pouvez déplacer une Énergie Metal de l'un de vos Pokémon de Banc vers ce Pokémon.",
 			},
 			damage: 20,
 
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Squared Attack",
-				fr: "Attaque Carrée",
+				'en-us': "Squared Attack",
+				'fr-fr': "Attaque Carrée",
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 50 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 4 coins. This attack does 50 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: "50×",
 

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Larvitar",
-		de: "Larvitar"
+		'en-us': "Larvitar",
+		'de-de': "Larvitar"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -23,7 +23,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Larvitar",
+		'en-us': "Larvitar",
 	},
 
 	stage: "Basic",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Fury Attack",
-				de: "Fury Attack"
+				'en-us': "Fury Attack",
+				'de-de': "Fury Attack"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				de: "Flip 3 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				'de-de': "Flip 3 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10x",
 

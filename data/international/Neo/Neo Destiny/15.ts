@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Light Togetic",
-		fr: "Togetic lumineux",
-		de: "Helles Togetic"
+		'en-us': "Light Togetic",
+		'fr-fr': "Togetic lumineux",
+		'de-de': "Helles Togetic"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Togepi",
-		fr: "Togepi"
+		'en-us': "Togepi",
+		'fr-fr': "Togepi"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Gift",
-				fr: "Don",
-				de: "Gabe"
+				'en-us': "Gift",
+				'fr-fr': "Don",
+				'de-de': "Gabe"
 			},
 			effect: {
-				en: "When you play Light Togetic from your hand, your opponent may search his or her deck for a Pokémon Tool card, show that card to you, and put it into his or her hand. Either way, you may do the same, and then each player who searched shuffles his or her deck.",
-				fr: "Quand vous jouez Togetic lumineux depuis votre main, votre adversaire peut chercher dans son deck une carte Outil Pokémon, vous la montrer et l'ajouter à sa main. Quelle que soit sa décision, vous pouvez faire de même, et chaque joueur ayant agi ainsi mélange ensuite son deck.",
-				de: "Wenn du Helles Togetic aus deiner Hand spielst, darf dein Gegner sein Deck nach einer Pokémon-Ausrüstungskarte durchsuchen, dir diese Karte zeigen und auf seine Hand nehmen. Unabhängig davon darfst du das selbe tun. Danach mischt jeder Spieler, der sein Deck durchsucht hat, sein Deck."
+				'en-us': "When you play Light Togetic from your hand, your opponent may search his or her deck for a Pokémon Tool card, show that card to you, and put it into his or her hand. Either way, you may do the same, and then each player who searched shuffles his or her deck.",
+				'fr-fr': "Quand vous jouez Togetic lumineux depuis votre main, votre adversaire peut chercher dans son deck une carte Outil Pokémon, vous la montrer et l'ajouter à sa main. Quelle que soit sa décision, vous pouvez faire de même, et chaque joueur ayant agi ainsi mélange ensuite son deck.",
+				'de-de': "Wenn du Helles Togetic aus deiner Hand spielst, darf dein Gegner sein Deck nach einer Pokémon-Ausrüstungskarte durchsuchen, dir diese Karte zeigen und auf seine Hand nehmen. Unabhängig davon darfst du das selbe tun. Danach mischt jeder Spieler, der sein Deck durchsucht hat, sein Deck."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sweet Kiss",
-				fr: "Doux baiser",
-				de: "Bitterkuss"
+				'en-us': "Sweet Kiss",
+				'fr-fr': "Doux baiser",
+				'de-de': "Bitterkuss"
 			},
 			effect: {
-				en: "Your opponent may draw a card.",
-				fr: "Votre adversaire peut piocher une carte.",
-				de: "Dein Gegner kann eine Karte ziehen."
+				'en-us': "Your opponent may draw a card.",
+				'fr-fr': "Votre adversaire peut piocher une carte.",
+				'de-de': "Dein Gegner kann eine Karte ziehen."
 			},
 			damage: 30,
 
@@ -75,8 +75,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It becomes depressed if it is not near kind-hearted people. Is is able to float in the air without moving its wings.",
-		fr: "Il devient rapidement déprimé s'il n'est pas près de personnes au grand cœur. Il peut flotter dans les airs sans bouger ses ailes."
+		'en-us': "It becomes depressed if it is not near kind-hearted people. Is is able to float in the air without moving its wings.",
+		'fr-fr': "Il devient rapidement déprimé s'il n'est pas près de personnes au grand cœur. Il peut flotter dans les airs sans bouger ses ailes."
 	},
 
 

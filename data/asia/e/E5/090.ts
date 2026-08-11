@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クロバット",
+		'ja-jp': "クロバット",
 	},
 
 	rarity: "Secret Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "クリスタルタイプ",
+				'ja-jp': "クリスタルタイプ",
 			},
 			effect: {
-				ja: "手からクロバットに草、火、またはサイキックの基本エネルギーカードを取り付けると、クロバットのタイプ（色）はターンの終わりまでそのタイプのエネルギーと同じになります。",
+				'ja-jp': "手からクロバットに草、火、またはサイキックの基本エネルギーカードを取り付けると、クロバットのタイプ（色）はターンの終わりまでそのタイプのエネルギーと同じになります。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Grass", "Fire", "Colorless"],
 			name: {
-				ja: "毒の炎",
+				'ja-jp': "毒の炎",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御するポケモンは燃やされ、毒されます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御するポケモンは燃やされ、毒されます。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Grass", "Psychic", "Psychic"],
 			name: {
-				ja: "四角い攻撃",
+				'ja-jp': "四角い攻撃",
 			},
 			effect: {
-				ja: "4コインをひっくり返します。この攻撃は、ヘッド数の20倍のダメージを与えます。",
+				'ja-jp': "4コインをひっくり返します。この攻撃は、ヘッド数の20倍のダメージを与えます。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Galvantula"
+		'en-us': "Galvantula"
 	},
 
 	illustrator: "Yumi",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Joltik"
+		'en-us': "Joltik"
 	},
 
 	description: {
-		en: "It lays traps of electrified threads near the nests\nof bird Pokémon, aiming to snare chicks that are\nnot yet good at flying."
+		'en-us': "It lays traps of electrified threads near the nests\nof bird Pokémon, aiming to snare chicks that are\nnot yet good at flying."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Electro Ball"
+			'en-us': "Electro Ball"
 		},
 
 		damage: 50,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ボクレー",
+		'ja-jp': "ボクレー",
 		'zh-tw': "小木靈",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "森で さまよい 命を 落とした 子どもの 魂が 切り株に 宿り ポケモンに 生まれ変わった。",
+		'ja-jp': "森で さまよい 命を 落とした 子どもの 魂が 切り株に 宿り ポケモンに 生まれ変わった。",
 		'zh-tw': "在森林中迷路死去的孩子的魂魄附在樹樁上， 轉生成了寶可夢。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ひっかける",
+				'ja-jp': "ひっかける",
 				'zh-tw': "鉤住",
 			},
 			damage: 10,

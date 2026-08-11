@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Kakuna",
-		fr: "Coconfort",
-		de: "Kokuna"
+		'en-us': "Kakuna",
+		'fr-fr': "Coconfort",
+		'de-de': "Kokuna"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Weedle",
-		fr: "Aspicot"
+		'en-us': "Weedle",
+		'fr-fr': "Aspicot"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Poison Payback",
-				fr: "Retour de poison",
-				de: "Giftige Abrechnung"
+				'en-us': "Poison Payback",
+				'fr-fr': "Retour de poison",
+				'de-de': "Giftige Abrechnung"
 			},
 			effect: {
-				en: "If Kakuna is your Active Pokémon and is damaged by an opponent's attack (even if Kakuna is Knocked Out), the Attacking Pokémon is now Poisoned.",
-				fr: "Si Coconfort est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Kakuna est mis K.O), le Pokémon Attaquant est maintenant Empoisonné.",
-				de: "Wenn Kokuna dein Aktives Pokémon ist und ihm Schaden durch einen gegnerischen Angriff zugefügt wird (auch wenn Kokuna kampfunfähig wird), ist das Angreifende Pokémon jetzt vergiftet."
+				'en-us': "If Kakuna is your Active Pokémon and is damaged by an opponent's attack (even if Kakuna is Knocked Out), the Attacking Pokémon is now Poisoned.",
+				'fr-fr': "Si Coconfort est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Kakuna est mis K.O), le Pokémon Attaquant est maintenant Empoisonné.",
+				'de-de': "Wenn Kokuna dein Aktives Pokémon ist und ihm Schaden durch einen gegnerischen Angriff zugefügt wird (auch wenn Kokuna kampfunfähig wird), ist das Angreifende Pokémon jetzt vergiftet."
 			},
 		},
 	],
@@ -52,9 +52,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 10,

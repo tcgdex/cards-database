@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Water Energy",
-		fr: "Énergie Eau",
-		es: "Energía Agua",
-		it: "Energia Acqua",
-		pt: "Energia de Água",
-		de: "Wasser-Energie"
+		'en-us': "Water Energy",
+		'fr-fr': "Énergie Eau",
+		'es-es': "Energía Agua",
+		'it-it': "Energia Acqua",
+		'pt-br': "Energia de Água",
+		'de-de': "Wasser-Energie"
 	},
 
 	illustrator: undefined,

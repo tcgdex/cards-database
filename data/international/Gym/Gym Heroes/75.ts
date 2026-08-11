@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Bellsprout"
+		'en-us': "Erika's Bellsprout"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Vine"
+				'en-us': "Poison Vine"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
 
 		},
@@ -40,7 +40,7 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Vine Whip"
+				'en-us': "Vine Whip"
 			},
 
 			damage: 30,

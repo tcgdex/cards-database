@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sunflora",
-		fr: "Héliatronc",
-		es: "Sunflora",
-		it: "Sunflora",
-		pt: "Sunflora",
-		de: "Sonnflora"
+		'en-us': "Sunflora",
+		'fr-fr': "Héliatronc",
+		'es-es': "Sunflora",
+		'it-it': "Sunflora",
+		'pt-br': "Sunflora",
+		'de-de': "Sonnflora"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Sunkern",
-		fr: "Tournegrin",
-		es: "Sunkern",
-		it: "Sunkern",
-		pt: "Sunkern",
-		de: "Sonnkern"
+		'en-us': "Sunkern",
+		'fr-fr': "Tournegrin",
+		'es-es': "Sunkern",
+		'it-it': "Sunkern",
+		'pt-br': "Sunkern",
+		'de-de': "Sonnkern"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Redirected Sunlight",
-			fr: "Redirection Solaire",
-			es: "Luz Solar Reflectada",
-			it: "Rifrangisole",
-			pt: "Desvio de Luz Solar",
-			de: "Umgeleitetes Sonnenlicht"
+			'en-us': "Redirected Sunlight",
+			'fr-fr': "Redirection Solaire",
+			'es-es': "Luz Solar Reflectada",
+			'it-it': "Rifrangisole",
+			'pt-br': "Desvio de Luz Solar",
+			'de-de': "Umgeleitetes Sonnenlicht"
 		},
 
 		effect: {
-			en: "This attack does 60 damage for each {R} Energy attached to all of your opponent's Pokémon.",
-			fr: "Cette attaque inflige 60 dégâts pour chaque Énergie {R} attachée à tous les Pokémon de votre adversaire.",
-			es: "Este ataque hace 60 puntos de daño por cada Energía {R} unida a cada uno de los Pokémon de tu rival.",
-			it: "Questo attacco infligge 60 danni per ogni Energia {R} assegnata ai Pokémon del tuo avversario.",
-			pt: "Este ataque causa 60 pontos de dano para cada Energia {R} ligada a todos os Pokémon do seu oponente.",
-			de: "Diese Attacke fügt für jede an alle Pokémon deines Gegners angelegte {R}-Energie 60 Schadenspunkte zu."
+			'en-us': "This attack does 60 damage for each {R} Energy attached to all of your opponent's Pokémon.",
+			'fr-fr': "Cette attaque inflige 60 dégâts pour chaque Énergie {R} attachée à tous les Pokémon de votre adversaire.",
+			'es-es': "Este ataque hace 60 puntos de daño por cada Energía {R} unida a cada uno de los Pokémon de tu rival.",
+			'it-it': "Questo attacco infligge 60 danni per ogni Energia {R} assegnata ai Pokémon del tuo avversario.",
+			'pt-br': "Este ataque causa 60 pontos de dano para cada Energia {R} ligada a todos os Pokémon do seu oponente.",
+			'de-de': "Diese Attacke fügt für jede an alle Pokémon deines Gegners angelegte {R}-Energie 60 Schadenspunkte zu."
 		},
 
 		damage: "60×"
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Mega Drain",
-			fr: "Méga-Sangsue",
-			es: "Megaagotar",
-			it: "Megassorbimento",
-			pt: "Megadreno",
-			de: "Megasauger"
+			'en-us': "Mega Drain",
+			'fr-fr': "Méga-Sangsue",
+			'es-es': "Megaagotar",
+			'it-it': "Megassorbimento",
+			'pt-br': "Megadreno",
+			'de-de': "Megasauger"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 50
@@ -84,7 +84,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Since it converts sunlight into energy, it is always looking in the direction of the sun.",
+		'en-us': "Since it converts sunlight into energy, it is always looking in the direction of the sun.",
 	},
 
 	variants: [

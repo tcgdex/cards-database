@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "วูลูของฮ็อป",
-		id: "Wooloo <Hop>"
+		'th-th': "วูลูของฮ็อป",
+		'id-id': "Wooloo <Hop>"
 	},
 
 	illustrator: "MINAMINAMI Take",
@@ -15,15 +15,15 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "ถ้าปล่อยขนไว้ยาวเกินไปจะขยับตัวไม่ได้ ผ้าที่ทอขึ้นจากขนตามตัวของ วูลูทนทานจนน่าประหลาดใจ"
+		'th-th': "ถ้าปล่อยขนไว้ยาวเกินไปจะขยับตัวไม่ได้ ผ้าที่ทอขึ้นจากขนตามตัวของ วูลูทนทานจนน่าประหลาดใจ"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ดีด",
-			id: "Tendangan Penghempas"
+			'th-th': "ดีด",
+			'id-id': "Tendangan Penghempas"
 		},
 
 		damage: 50,

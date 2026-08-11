@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Steelix ex",
-		fr: "Steelix ex",
-		de: "Stahlos ex"
+		'en-us': "Steelix ex",
+		'fr-fr': "Steelix ex",
+		'de-de': "Stahlos ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Onix",
-		fr: "Onix"
+		'en-us': "Onix",
+		'fr-fr': "Onix"
 	},
 
 	suffix: "ex",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Poison Resistance",
-				fr: "Résistance au poison",
-				de: "Poison Resistance"
+				'en-us': "Poison Resistance",
+				'fr-fr': "Résistance au poison",
+				'de-de': "Poison Resistance"
 			},
 			effect: {
-				en: "Steelix ex can't be Poisoned.",
-				fr: "Steelix ex ne peut pas être Empoisonné.",
-				de: "Steelix ex can't be Poisoned."
+				'en-us': "Steelix ex can't be Poisoned.",
+				'fr-fr': "Steelix ex ne peut pas être Empoisonné.",
+				'de-de': "Steelix ex can't be Poisoned."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Charge",
-				fr: "Attaque métallique",
-				de: "Metal Charge"
+				'en-us': "Metal Charge",
+				'fr-fr': "Attaque métallique",
+				'de-de': "Metal Charge"
 			},
 			effect: {
-				en: "Put 1 damage counter on Steelix ex.",
-				fr: "Placez 1 marqueur de dégât sur Steelix ex.",
-				de: "Put 1 damage counter on Steelix ex."
+				'en-us': "Put 1 damage counter on Steelix ex.",
+				'fr-fr': "Placez 1 marqueur de dégât sur Steelix ex.",
+				'de-de': "Put 1 damage counter on Steelix ex."
 			},
 			damage: 70,
 
@@ -74,14 +74,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mudslide",
-				fr: "Coulée de boue",
-				de: "Mudslide"
+				'en-us': "Mudslide",
+				'fr-fr': "Coulée de boue",
+				'de-de': "Mudslide"
 			},
 			effect: {
-				en: "Discard 2 Fighting Energy attached to Steelix ex and choose 1 of your opponent's Pokémon. This attack does 100 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Défaussez 2 Énergies  attachées à Steelix ex et choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 100 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Discard 2  Energy attached to Steelix ex and choose 1 of your opponent's Pokémon. This attack does 100 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Discard 2 Fighting Energy attached to Steelix ex and choose 1 of your opponent's Pokémon. This attack does 100 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Défaussez 2 Énergies  attachées à Steelix ex et choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 100 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Discard 2  Energy attached to Steelix ex and choose 1 of your opponent's Pokémon. This attack does 100 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},

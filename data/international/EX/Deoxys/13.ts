@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Ninjask",
-		fr: "Ninjask",
-		de: "Ninjask"
+		'en-us': "Ninjask",
+		'fr-fr': "Ninjask",
+		'de-de': "Ninjask"
 	},
 
 	illustrator: "Katsura Tabata",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nincada",
-		fr: "Ningale"
+		'en-us': "Nincada",
+		'fr-fr': "Ningale"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Fast Protection",
-				fr: "Protection rapide",
-				de: "Fast Protection"
+				'en-us': "Fast Protection",
+				'fr-fr': "Protection rapide",
+				'de-de': "Fast Protection"
 			},
 			effect: {
-				en: "Prevent all effects, including damage, done to Ninjask by your opponent's attacks from his or her Basic Pokémon.",
-				fr: "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Ninjask par les attaques du Pokémon de base de votre adversaire.",
-				de: "Prevent all effects, including damage, done to Ninjask by your opponent´s attacks from his or her Basic Pokémon."
+				'en-us': "Prevent all effects, including damage, done to Ninjask by your opponent's attacks from his or her Basic Pokémon.",
+				'fr-fr': "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Ninjask par les attaques du Pokémon de base de votre adversaire.",
+				'de-de': "Prevent all effects, including damage, done to Ninjask by your opponent´s attacks from his or her Basic Pokémon."
 			},
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swords Dance",
-				fr: "Danse-lames",
-				de: "Swords Dance"
+				'en-us': "Swords Dance",
+				'fr-fr': "Danse-lames",
+				'de-de': "Swords Dance"
 			},
 			effect: {
-				en: "During your next turn, Ninjask's Slash attack's base damage is 80.",
-				fr: "Lors de votre prochain tour, les dégâts de base de l'attaque Tranche de Ninjask sont de 80.",
-				de: "During your next turn, Ninjask´s Slash attack´s base damage is 80."
+				'en-us': "During your next turn, Ninjask's Slash attack's base damage is 80.",
+				'fr-fr': "Lors de votre prochain tour, les dégâts de base de l'attaque Tranche de Ninjask sont de 80.",
+				'de-de': "During your next turn, Ninjask´s Slash attack´s base damage is 80."
 			},
 
 		},
@@ -68,9 +68,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Slash"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Slash"
 			},
 
 			damage: 30,

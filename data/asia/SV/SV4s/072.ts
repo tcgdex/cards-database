@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Mienfoo"
+		'id-id': "Mienfoo"
 	},
 
 	illustrator: "Natsumi Yoshida",
@@ -14,21 +14,21 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Meskipun tubuhnya kecil, Mienfoo memiliki temperamen kasar. Lawan yang lengah dan mendekatinya akan disambut oleh pukulan beruntun yang menawan."
+		'id-id': "Meskipun tubuhnya kecil, Mienfoo memiliki temperamen kasar. Lawan yang lengah dan mendekatinya akan disambut oleh pukulan beruntun yang menawan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Tendangan Rendah"
+			'id-id': "Tendangan Rendah"
 		},
 
 		damage: 10,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			id: "Pukulan Lurus"
+			'id-id': "Pukulan Lurus"
 		},
 
 		damage: 20,

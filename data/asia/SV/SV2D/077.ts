@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ナカヌチャン"
+		'ja-jp': "ナカヌチャン"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "大きくて 頑丈な ハンマーを 作るために キリキザンの 群れを 襲って 金属を 集める。"
+		'ja-jp': "大きくて 頑丈な ハンマーを 作るために キリキザンの 群れを 襲って 金属を 集める。"
 	},
 
 	stage: "Stage1",
@@ -24,25 +24,25 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "じゃれつく"
+			'ja-jp': "じゃれつく"
 		},
 
 		damage: "30＋",
 
 		effect: {
-			ja: "コインを1回投げオモテなら、30ダメージ追加。"
+			'ja-jp': "コインを1回投げオモテなら、30ダメージ追加。"
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ふんさいプレス"
+			'ja-jp': "ふんさいプレス"
 		},
 
 		damage: 60,
 
 		effect: {
-			ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。"
+			'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。"
 		}
 	}],
 

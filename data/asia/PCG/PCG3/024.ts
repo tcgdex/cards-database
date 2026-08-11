@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マリル",
+		'ja-jp': "マリル",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "マイナーな用事が走る",
+				'ja-jp': "マイナーな用事が走る",
 			},
 			effect: {
-				ja: "デッキを最大2つの基本エネルギーカードで検索し、相手に見せて、手に入れてください。その後、デッキをシャッフルします。",
+				'ja-jp': "デッキを最大2つの基本エネルギーカードで検索し、相手に見せて、手に入れてください。その後、デッキをシャッフルします。",
 			},
 		},
 	],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Lapras",
-		fr: "Lokhlass",
-		es: "Lapras",
-		it: "Lapras",
-		pt: "Lapras",
-		de: "Lapras"
+		'en-us': "Lapras",
+		'fr-fr': "Lokhlass",
+		'es-es': "Lapras",
+		'it-it': "Lapras",
+		'pt-br': "Lapras",
+		'de-de': "Lapras"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la Famille",
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la Famille",
 			},
 			effect: {
-				en: "Search your deck for 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez 2 Pokémon de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez 2 Pokémon de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reckless Charge",
-				fr: "Attaque Imprudente",
+				'en-us': "Reckless Charge",
+				'fr-fr': "Attaque Imprudente",
 			},
 			effect: {
-				en: "This Pokémon does 20 damage to itself.",
-				fr: "Ce Pokémon s'inflige 20 dégâts.",
+				'en-us': "This Pokémon does 20 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 20 dégâts.",
 			},
 			damage: 40,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It loves crossing the sea with people and Pokémon on its back. It understands human speech.",
+		'en-us': "It loves crossing the sea with people and Pokémon on its back. It understands human speech.",
 	},
 
 	thirdParty: {

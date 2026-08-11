@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジガルデ",
+		'ja-jp': "ジガルデ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "生態系を 監視 していると 考えられている。 さらなる 力を 秘めているとの ウワサ。",
+		'ja-jp': "生態系を 監視 していると 考えられている。 さらなる 力を 秘めているとの ウワサ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分がすでにGXワザを使っていたなら、60ダメージ追加。",
+				'ja-jp': "自分がすでにGXワザを使っていたなら、60ダメージ追加。",
 			},
 		},
 	],

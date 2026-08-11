@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ライボルト",
+		'ja-jp': "ライボルト",
 	},
 
 	illustrator: "Uninori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "たてがみから 放電している。 頭上に 雷雲を 作り 稲妻を 落として 攻撃する。",
+		'ja-jp': "たてがみから 放電している。 頭上に 雷雲を 作り 稲妻を 落として 攻撃する。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Lightning", "Lightning"],
 			effect: {
-				ja: "次の相手の番、このポケモンは進化ポケモンからワザのダメージを受けない。",
+				'ja-jp': "次の相手の番、このポケモンは進化ポケモンからワザのダメージを受けない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 110,
 			cost: ["Lightning", "Lightning", "Lightning"],
 			effect: {
-				ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ラクライ",
+		'ja-jp': "ラクライ",
 	},
 
 	retreat: 1,

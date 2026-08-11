@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Durant"
+		'en-us': "Durant"
 	},
 
 	illustrator: "kodama",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "They lay their eggs deep inside their nests.\nWhen attacked by Heatmor, they retaliate\nusing their massive mandibles."
+		'en-us': "They lay their eggs deep inside their nests.\nWhen attacked by Heatmor, they retaliate\nusing their massive mandibles."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Bite Together"
+			'en-us': "Bite Together"
 		},
 
 		damage: 40,
 		cost: ["Metal", "Colorless"],
 
 		effect: {
-			en: "If Durant is on your Bench, this attack does 40 more damage."
+			'en-us': "If Durant is on your Bench, this attack does 40 more damage."
 		}
 	}],
 

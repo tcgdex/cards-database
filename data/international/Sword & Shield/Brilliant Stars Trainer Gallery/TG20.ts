@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars Trainer Gallery"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rapid Strike Urshifu V",
-		fr: "Shifours Mille Poings V",
-		es: "Urshifu Golpe Fluido V",
-		it: "Urshifu Pluricolpo V",
-		pt: "Urshifu Golpe Fluido V",
-		de: "Fließender-Angriff-Wulaosu V"
+		'en-us': "Rapid Strike Urshifu V",
+		'fr-fr': "Shifours Mille Poings V",
+		'es-es': "Urshifu Golpe Fluido V",
+		'it-it': "Urshifu Pluricolpo V",
+		'pt-br': "Urshifu Golpe Fluido V",
+		'de-de': "Fließender-Angriff-Wulaosu V"
 	},
 
 	illustrator: "takuyoa",
@@ -26,21 +26,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Strafe",
-			fr: "Bombarder",
-			es: "Pasada de Ataque",
-			it: "Mitragliare",
-			pt: "Bombardear",
-			de: "Beharken"
+			'en-us': "Strafe",
+			'fr-fr': "Bombarder",
+			'es-es': "Pasada de Ataque",
+			'it-it': "Mitragliare",
+			'pt-br': "Bombardear",
+			'de-de': "Beharken"
 		},
 
 		effect: {
-			en: "You may switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Vous pouvez échanger ce Pokémon contre l'un de vos Pokémon de Banc.",
-			es: "Puedes cambiar este Pokémon por 1 de tus Pokémon en Banca.",
-			it: "Puoi scambiare questo Pokémon con uno della tua panchina.",
-			pt: "Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
-			de: "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen."
+			'en-us': "You may switch this Pokémon with 1 of your Benched Pokémon.",
+			'fr-fr': "Vous pouvez échanger ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'es-es': "Puedes cambiar este Pokémon por 1 de tus Pokémon en Banca.",
+			'it-it': "Puoi scambiare questo Pokémon con uno della tua panchina.",
+			'pt-br': "Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
+			'de-de': "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen."
 		},
 
 		damage: 30
@@ -48,12 +48,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Hundred Furious Blows",
-			fr: "Multicoups Furieux",
-			es: "Cien Golpes Furiosos",
-			it: "Cento Colpi Distruttivi",
-			pt: "Centenas de Golpes Furiosos",
-			de: "Hundert heftige Schläge"
+			'en-us': "Hundred Furious Blows",
+			'fr-fr': "Multicoups Furieux",
+			'es-es': "Cien Golpes Furiosos",
+			'it-it': "Cento Colpi Distruttivi",
+			'pt-br': "Centenas de Golpes Furiosos",
+			'de-de': "Hundert heftige Schläge"
 		},
 
 		damage: 150

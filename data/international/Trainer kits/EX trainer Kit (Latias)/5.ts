@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit (Latias)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Numel",
-		fr: "Chamallot"
+		'en-us': "Numel",
+		'fr-fr': "Chamallot"
 	},
 
 	illustrator: "Yuka Morii",
@@ -25,12 +25,12 @@ const card: Card = {
 			"Fire",
 		],
 		name: {
-			en: "Firebreathing",
-			fr: "Souffle-feu"
+			'en-us': "Firebreathing",
+			'fr-fr': "Souffle-feu"
 		},
 		effect: {
-			en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+			'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
 		},
 		damage: "10+"
 	}, {
@@ -39,8 +39,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Tackle",
-			fr: "Charge"
+			'en-us': "Tackle",
+			'fr-fr': "Charge"
 		},
 		damage: 20
 	}],

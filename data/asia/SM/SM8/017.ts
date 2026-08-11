@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒノアラシ",
+		'ja-jp': "ヒノアラシ",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "臆病な 性格。 驚くと 背中の 炎が 一段と 強く 燃え上がる。",
+		'ja-jp': "臆病な 性格。 驚くと 背中の 炎が 一段と 強く 燃え上がる。",
 	},
 
 	stage: "Basic",

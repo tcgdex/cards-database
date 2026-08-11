@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
@@ -7,13 +7,13 @@ const card: Card = {
 	dexId: [19],
 
 	name: {
-		en: "Rattata",
-		fr: "Rattata",
-		es: "Rattata",
+		'en-us': "Rattata",
+		'fr-fr': "Rattata",
+		'es-es': "Rattata",
 		'es-mx': "Rattata",
-		de: "Rattfratz",
-		it: "Rattata",
-		pt: "Rattata"
+		'de-de': "Rattfratz",
+		'it-it': "Rattata",
+		'pt-br': "Rattata"
 	},
 
 	illustrator: "Shinya Komatsu",
@@ -27,23 +27,23 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Take Down",
-			fr: "Bélier",
-			es: "Derribo",
+			'en-us': "Take Down",
+			'fr-fr': "Bélier",
+			'es-es': "Derribo",
 			'es-mx': "Derribo",
-			de: "Bodycheck",
-			it: "Riduttore",
-			pt: "Desmantelar"
+			'de-de': "Bodycheck",
+			'it-it': "Riduttore",
+			'pt-br': "Desmantelar"
 		},
 
 		effect: {
-			en: "This Pokémon also does 10 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
-			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
+			'en-us': "This Pokémon also does 10 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 10 dégâts.",
+			'es-es': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
 			'es-mx': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
-			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu.",
-			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo."
+			'de-de': "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu.",
+			'it-it': "Questo Pokémon infligge anche 10 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 10 pontos de dano a si mesmo."
 		},
 
 		damage: 30

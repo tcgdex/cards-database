@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Krabby",
-		fr: "Krabby",
-		es: "Krabby",
-		it: "Krabby",
-		pt: "Krabby",
-		de: "Krabby"
+		'en-us': "Krabby",
+		'fr-fr': "Krabby",
+		'es-es': "Krabby",
+		'it-it': "Krabby",
+		'pt-br': "Krabby",
+		'de-de': "Krabby"
 	},
 
 	illustrator: "Sekio",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stampede",
-				fr: "Ruée",
-				es: "Estampida",
-				it: "Fuggi Fuggi",
-				pt: "Estouro",
-				de: "Zertrampeln"
+				'en-us': "Stampede",
+				'fr-fr': "Ruée",
+				'es-es': "Estampida",
+				'it-it': "Fuggi Fuggi",
+				'pt-br': "Estouro",
+				'de-de': "Zertrampeln"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vice Grip",
-				fr: "Force Poigne",
-				es: "Agarre",
-				it: "Presa",
-				pt: "Agarramento Viciado",
-				de: "Klammer"
+				'en-us': "Vice Grip",
+				'fr-fr': "Force Poigne",
+				'es-es': "Agarre",
+				'it-it': "Presa",
+				'pt-br': "Agarramento Viciado",
+				'de-de': "Klammer"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If it senses danger approaching, it cloaks itself with bubbles from its mouth so it will look bigger.",
+		'en-us': "If it senses danger approaching, it cloaks itself with bubbles from its mouth so it will look bigger.",
 	},
 
 	thirdParty: {

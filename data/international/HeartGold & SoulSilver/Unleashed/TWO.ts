@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Alph Lithograph",
-		fr: "Lithographie d'Alpha",
-		de: "Alph Lithograph"
+		'en-us': "Alph Lithograph",
+		'fr-fr': "Lithographie d'Alpha",
+		'de-de': "Alph Lithograph"
 	},
 
 	illustrator: "Milky Isobe",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Shuffle your deck!",
-		fr: "Mélangez votre deck.",
-		de: "Mische dein Deck!"
+		'en-us': "Shuffle your deck!",
+		'fr-fr': "Mélangez votre deck.",
+		'de-de': "Mische dein Deck!"
 	},
 
 	trainerType: "Item",

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "บาร์เรียด",
-		id: "Mr. Mime"
+		'th-th': "บาร์เรียด",
+		'id-id': "Mr. Mime"
 	},
 
 	illustrator: "GOTO minori",
@@ -15,33 +15,33 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		th: "ถนัดเล่นละครใบ้ สร้างกำแพงด้วยคลื่นที่ออกจากนิ้วเพื่อป้องกันตัว จากการโจมตีหลากหลายแบบ",
-		id: "Pintar memainkan pantomim. Mr. Mime membuat dinding menggunakan gelombang yang dikeluarkan dari jarinya untuk melindungi dirinya dari serangan lawan."
+		'th-th': "ถนัดเล่นละครใบ้ สร้างกำแพงด้วยคลื่นที่ออกจากนิ้วเพื่อป้องกันตัว จากการโจมตีหลากหลายแบบ",
+		'id-id': "Pintar memainkan pantomim. Mr. Mime membuat dinding menggunakan gelombang yang dikeluarkan dari jarinya untuk melindungi dirinya dari serangan lawan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ลอกเลียน",
-			id: "Mimik"
+			'th-th': "ลอกเลียน",
+			'id-id': "Mimik"
 		},
 
 		effect: {
-			th: "นำการ์ดบนมือฝ่ายเราทั้งหมดใส่กลับไปในสำรับการ์ดแล้วสับ หลังจากนั้น จั่ว การ์ดจากสำรับการ์ดฝ่ายเรา ตามจำนวนการ์ดบนมือฝ่ายตรงข้าม",
-			id: "Kocok kembali semua Kartu Pegangan sendiri ke Deck. Setelah itu, ambil kartu dari atas Deck sendiri untuk tiap lembar Kartu Pegangan lawan."
+			'th-th': "นำการ์ดบนมือฝ่ายเราทั้งหมดใส่กลับไปในสำรับการ์ดแล้วสับ หลังจากนั้น จั่ว การ์ดจากสำรับการ์ดฝ่ายเรา ตามจำนวนการ์ดบนมือฝ่ายตรงข้าม",
+			'id-id': "Kocok kembali semua Kartu Pegangan sendiri ke Deck. Setelah itu, ambil kartu dari atas Deck sendiri untuk tiap lembar Kartu Pegangan lawan."
 		},
 
 		cost: ["Psychic"]
 	}, {
 		name: {
-			th: "จิตตานุภาพ",
-			id: "Psikokinesis"
+			'th-th': "จิตตานุภาพ",
+			'id-id': "Psikokinesis"
 		},
 
 		effect: {
-			th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว จะทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม เป็นสภาวะ[ชา]",
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
+			'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกหัว จะทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม เป็นสภาวะ[ชา]",
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
 		},
 
 		damage: 40,

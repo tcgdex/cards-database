@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โกคูลิน",
-		id: "Gulpin"
+		'th-th': "โกคูลิน",
+		'id-id': "Gulpin"
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		th: "หัวใจและสมองมีขนาดเล็ก ร่างกายส่วนใหญ่เป็นกระเพาะอาหาร มีน้ำย่อยที่ละลายได้ทุกอย่าง",
-		id: "Gulpin memiliki jantung dan otak yang kecil, serta sebagian besar bagian tubuhnya adalah kantong lambung. Kantong tersebut mengeluarkan asam lambung yang dapat melarutkan apa pun."
+		'th-th': "หัวใจและสมองมีขนาดเล็ก ร่างกายส่วนใหญ่เป็นกระเพาะอาหาร มีน้ำย่อยที่ละลายได้ทุกอย่าง",
+		'id-id': "Gulpin memiliki jantung dan otak yang kecil, serta sebagian besar bagian tubuhnya adalah kantong lambung. Kantong tersebut mengeluarkan asam lambung yang dapat melarutkan apa pun."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "น้ำลายยืด",
-			id: "Liur"
+			'th-th': "น้ำลายยืด",
+			'id-id': "Liur"
 		},
 
 		damage: 10,
 		cost: ["Darkness"]
 	}, {
 		name: {
-			th: "ลมหายใจพิษ",
-			id: "Napas Beracun"
+			'th-th': "ลมหายใจพิษ",
+			'id-id': "Napas Beracun"
 		},
 
 		effect: {
-			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[พิษ]",
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Racun."
+			'th-th': "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[พิษ]",
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Racun."
 		},
 
 		damage: 30,

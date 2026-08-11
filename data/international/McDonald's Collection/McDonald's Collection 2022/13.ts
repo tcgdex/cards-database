@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2022'
 
 const card: Card = {
 	name: {
-		en: "Pangoro",
-		fr: "Pandarbare",
-		es: "Pangoro",
-		it: "Pangoro",
-		pt: "Pangoro",
-		de: "Pandagro"
+		'en-us': "Pangoro",
+		'fr-fr': "Pandarbare",
+		'es-es': "Pangoro",
+		'it-it': "Pangoro",
+		'pt-br': "Pangoro",
+		'de-de': "Pandagro"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -25,32 +25,32 @@ const card: Card = {
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Pancham",
-		fr: "Pandespiègle",
-		es: "Pancham",
-		it: "Pancham",
-		pt: "Pancham",
-		de: "Pam-Pam"
+		'en-us': "Pancham",
+		'fr-fr': "Pandespiègle",
+		'es-es': "Pancham",
+		'it-it': "Pancham",
+		'pt-br': "Pancham",
+		'de-de': "Pam-Pam"
 	},
 
 	attacks: [
 		{
 			cost: ["Darkness", "Darkness", "Colorless"],
 			name: {
-				en: "Knocking Hammer",
+				'en-us': "Knocking Hammer",
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck."
+				'en-us': "Discard the top card of your opponent's deck."
 			},
 			damage: 90,
 		},
 		{
 			cost: ["Darkness", "Darkness", "Darkness", "Colorless"],
 			name: {
-				en: "Shakedown",
+				'en-us': "Shakedown",
 			},
 			effect: {
-				en: "Discard a random card from your opponent's hand."
+				'en-us': "Discard a random card from your opponent's hand."
 			},
 			damage: 150,
 		},

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Poliwhirl",
+		'en-us': "Poliwhirl",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Poliwag",
+		'en-us': "Poliwag",
 	},
 
 	stage: "Stage1",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Amnesia",
+				'en-us': "Amnesia",
 			},
 			effect: {
-				en: "Choose 1 of defenders attacks. Defender cannot use that attack next turn.",
+				'en-us': "Choose 1 of defenders attacks. Defender cannot use that attack next turn.",
 			},
 
 		},
@@ -48,10 +48,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Doubleslap",
+				'en-us': "Doubleslap",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times number of heads.",
+				'en-us': "Flip 2 coins. This attack does 30 damage times number of heads.",
 			},
 			damage: 30,
 
@@ -68,7 +68,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Capable of living in or out of water. When out of water, it sweats to keep its body slimy.",
+		'en-us': "Capable of living in or out of water. When out of water, it sweats to keep its body slimy.",
 	},
 
 

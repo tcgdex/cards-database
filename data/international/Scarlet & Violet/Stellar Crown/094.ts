@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Impidimp",
-		fr: "Grimalin",
-		es: "Impidimp",
-		it: "Impidimp",
-		pt: "Impidimp",
-		de: "Bähmon"
+		'en-us': "Impidimp",
+		'fr-fr': "Grimalin",
+		'es-es': "Impidimp",
+		'it-it': "Impidimp",
+		'pt-br': "Impidimp",
+		'de-de': "Bähmon"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Smack",
-			fr: "Claque",
-			es: "Palmetazo",
-			it: "Schiaffo",
-			pt: "Estalo",
-			de: "Klatscher"
+			'en-us': "Smack",
+			'fr-fr': "Claque",
+			'es-es': "Palmetazo",
+			'it-it': "Schiaffo",
+			'pt-br': "Estalo",
+			'de-de': "Klatscher"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			en: "Claw Slash",
-			fr: "Tranch'Griffe",
-			es: "Cuchillada Garra",
-			it: "Lacerartiglio",
-			pt: "Golpe de Garra",
-			de: "Klauenschlitzer"
+			'en-us': "Claw Slash",
+			'fr-fr': "Tranch'Griffe",
+			'es-es': "Cuchillada Garra",
+			'it-it': "Lacerartiglio",
+			'pt-br': "Golpe de Garra",
+			'de-de': "Klauenschlitzer"
 		},
 
 		damage: 40

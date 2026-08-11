@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ฮาคุริว",
-		id: "Dragonair"
+		'th-th': "ฮาคุริว",
+		'id-id': "Dragonair"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		th: "ว่ากันว่าอากาศโดยรอบจะเปลี่ยนไปทันทีที่มันปล่อยออร่าออกมาจากทั่วทั้งตัว",
-		id: "Dikabarkan jika Dragonair mengeluarkan aura dari seluruh tubuhnya, cuaca di sekitarnya langsung berubah."
+		'th-th': "ว่ากันว่าอากาศโดยรอบจะเปลี่ยนไปทันทีที่มันปล่อยออร่าออกมาจากทั่วทั้งตัว",
+		'id-id': "Dikabarkan jika Dragonair mengeluarkan aura dari seluruh tubuhnya, cuaca di sekitarnya langsung berubah."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "กระแทก",
-			id: "Menyeruduk"
+			'th-th': "กระแทก",
+			'id-id': "Menyeruduk"
 		},
 
 		damage: 30,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "ดรากอนเทล",
-			id: "Dragon Tail"
+			'th-th': "ดรากอนเทล",
+			'id-id': "Dragon Tail"
 		},
 
 		effect: {
-			th: "ทอยเหรียญ 2 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x70",
-			id: "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 70 untuk tiap lemparan dengan hasil sisi depan."
+			'th-th': "ทอยเหรียญ 2 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x70",
+			'id-id': "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 70 untuk tiap lemparan dengan hasil sisi depan."
 		},
 
 		damage: "70×",

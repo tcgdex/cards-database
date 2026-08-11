@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リーフィア",
+		'ja-jp': "リーフィア",
 		'zh-tw': "洗翠 火爆獸V",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "しっぽは 鋭く 刃のよう。 大木も 真っ二つに する 抜群の 切れ味を 誇る。",
+		'ja-jp': "しっぽは 鋭く 刃のよう。 大木も 真っ二つに する 抜群の 切れ味を 誇る。",
 	},
 
 	stage: "Stage1",
@@ -22,25 +22,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "リーフガード",
+				'ja-jp': "リーフガード",
 				'zh-tw': "灼熱",
 			},
 			damage: 30,
 			cost: ["Grass"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
 				'zh-tw': "將對手的戰鬥寶可夢【灼傷】。",
 			},
 		},
 		{
 			name: {
-				ja: "くさむすび",
+				'ja-jp': "くさむすび",
 				'zh-tw': "戰慄火焰",
 			},
 			damage: "50+",
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ追加。",
 				'zh-tw': "在不看正面的情況下，從對手的手牌選擇1張，在看過那張卡正面後放回對手的牌庫並重洗。",
 			},
 		},
@@ -60,7 +60,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 1,

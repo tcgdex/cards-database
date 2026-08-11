@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Spinarak"
+		'id-id': "Spinarak"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Ada juga nelayan yang menyulam benang kuat Pokémon ini untuk membuat jaring guna menangkap Pokémon ikan."
+		'id-id': "Ada juga nelayan yang menyulam benang kuat Pokémon ini untuk membuat jaring guna menangkap Pokémon ikan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Gigitan Serangga"
+			'id-id': "Gigitan Serangga"
 		},
 
 		damage: 20,

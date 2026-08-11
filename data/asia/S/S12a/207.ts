@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パラス",
+		'ja-jp': "パラス",
 		'zh-tw': "派拉斯",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "冬虫夏草と いう キノコが 虫を 操っているのだ。 虫の 意思は 無視される。",
+		'ja-jp': "冬虫夏草と いう キノコが 虫を 操っているのだ。 虫の 意思は 無視される。",
 		'zh-tw': "控制蟲子的是一種叫做冬蟲夏草的蕈類。蟲子的意志會被忽視。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "すいとる",
+				'ja-jp': "すいとる",
 				'zh-tw': "吸取",
 			},
 			damage: 20,
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「10」回復する。",
+				'ja-jp': "このポケモンのHPを「10」回復する。",
 				'zh-tw': "將這隻寶可夢恢復「10」HP。",
 			},
 		},

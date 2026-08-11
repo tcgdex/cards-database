@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Sigilyph",
-		fr: "Cryptéro",
-		es: "Sigilyph",
-		it: "Sigilyph",
-		pt: "Sigilyph",
-		de: "Symvolara"
+		'en-us': "Sigilyph",
+		'fr-fr': "Cryptéro",
+		'es-es': "Sigilyph",
+		'it-it': "Sigilyph",
+		'pt-br': "Sigilyph",
+		'de-de': "Symvolara"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Safeguard",
-				fr: "Rune Protect",
-				es: "Velo Sagrado",
-				it: "Salvaguardia",
-				pt: "Salvaguarda",
-				de: "Bodyguard"
+				'en-us': "Safeguard",
+				'fr-fr': "Rune Protect",
+				'es-es': "Velo Sagrado",
+				'it-it': "Salvaguardia",
+				'pt-br': "Salvaguarda",
+				'de-de': "Bodyguard"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, including damage, done to this Pokémon by Pokémon-EX.",
-				fr: "Évitez tous les effets d’attaques (y compris les dégâts) infligés à ce Pokémon par des Pokémon-EX.",
-				es: "Evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon por Pokémon-EX.",
-				it: "Previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon da Pokémon-EX.",
-				pt: "Impede todos os efeitos de ataques, inclusive danos, causados a este Pokémon por Pokémon-EX.",
-				de: "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon durch Pokémon-EX zugefügt werden."
+				'en-us': "Prevent all effects of attacks, including damage, done to this Pokémon by Pokémon-EX.",
+				'fr-fr': "Évitez tous les effets d’attaques (y compris les dégâts) infligés à ce Pokémon par des Pokémon-EX.",
+				'es-es': "Evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon por Pokémon-EX.",
+				'it-it': "Previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon da Pokémon-EX.",
+				'pt-br': "Impede todos os efeitos de ataques, inclusive danos, causados a este Pokémon por Pokémon-EX.",
+				'de-de': "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon durch Pokémon-EX zugefügt werden."
 			},
 		},
 	],
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic",
-				fr: "Psyko",
+				'en-us': "Psychic",
+				'fr-fr': "Psyko",
 			},
 			effect: {
-				en: "Does 10 more damage for each Energy attached to the Defending Pokémon.",
-				fr: "Inflige 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Does 10 more damage for each Energy attached to the Defending Pokémon.",
+				'fr-fr': "Inflige 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 50,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
+		'en-us': "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
 	},
 
 	thirdParty: {

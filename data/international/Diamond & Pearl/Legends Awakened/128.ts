@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Yanma",
-		fr: "Yanma",
-		de: "Yanma"
+		'en-us': "Yanma",
+		'fr-fr': "Yanma",
+		'de-de': "Yanma"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "U-turn",
-				fr: "Demi-Tour",
-				de: "Kehrtwende"
+				'en-us': "U-turn",
+				'fr-fr': "Demi-Tour",
+				'de-de': "Kehrtwende"
 			},
 			effect: {
-				en: "Switch Yanma with 1 of your Benched Pokémon.",
-				fr: "Échangez Yanma avec 1 des Pokémon de votre Banc.",
-				de: "Tausche Yanma gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Switch Yanma with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez Yanma avec 1 des Pokémon de votre Banc.",
+				'de-de': "Tausche Yanma gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 10,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Agility",
-				fr: "Hâte",
-				de: "Agilität"
+				'en-us': "Agility",
+				'fr-fr': "Hâte",
+				'de-de': "Agilität"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Yanma during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Yanma lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Yanma zugefügt würden."
+				'en-us': "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Yanma during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Yanma lors du prochain tour de votre adversaire.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Yanma zugefügt würden."
 			},
 			damage: 20,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its eyes can see 360 degrees without moving its head. It won't miss prey—even those behind it.",
+		'en-us': "Its eyes can see 360 degrees without moving its head. It won't miss prey—even those behind it.",
 	},
 
 	thirdParty: {

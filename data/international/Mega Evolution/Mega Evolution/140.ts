@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Snover",
-		fr: "Blizzi",
-		de: "Shnebedeck",
-		it: "Snover",
-		es: "Snover",
-		pt: "Snover",
+		'en-us': "Snover",
+		'fr-fr': "Blizzi",
+		'de-de': "Shnebedeck",
+		'it-it': "Snover",
+		'es-es': "Snover",
+		'pt-br': "Snover",
 		'es-mx': "Snover"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Beat",
-			fr: "Bataille",
-			de: "Verprügler",
-			it: "Battuta",
-			es: "Toque",
-			pt: "Pulso",
+			'en-us': "Beat",
+			'fr-fr': "Bataille",
+			'de-de': "Verprügler",
+			'it-it': "Battuta",
+			'es-es': "Toque",
+			'pt-br': "Pulso",
 			'es-mx': "Golpeteo"
 		},
 
@@ -40,12 +40,12 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			en: "Icy Snow",
-			fr: "Verglas",
-			de: "Eisiger Schnee",
-			it: "Geloneve",
-			es: "Nieve Helada",
-			pt: "Neve Congelada",
+			'en-us': "Icy Snow",
+			'fr-fr': "Verglas",
+			'de-de': "Eisiger Schnee",
+			'it-it': "Geloneve",
+			'es-es': "Nieve Helada",
+			'pt-br': "Neve Congelada",
 			'es-mx': "Nieve Helada"
 		},
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャラコ",
+		'ja-jp': "ジャラコ",
 	},
 
 	illustrator: "match",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "ウロコを 叩き 気持ちを 伝える。 ジャラコの 棲む 高山では 金属音が 木霊する。",
+		'ja-jp': "ウロコを 叩き 気持ちを 伝える。 ジャラコの 棲む 高山では 金属音が 木霊する。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ぼうだん" },
 			effect: {
-				ja: "このポケモンが受けるワザのダメージは「-10」される。",
+				'ja-jp': "このポケモンが受けるワザのダメージは「-10」される。",
 			},
 		},
 	],

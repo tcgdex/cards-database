@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2022'
 
 const card: Card = {
 	name: {
-		en: "Cutiefly",
-		fr: "Bombydou",
-		es: "Cutiefly",
-		it: "Cutiefly",
-		pt: "Cutiefly",
-		de: "Wommel"
+		'en-us': "Cutiefly",
+		'fr-fr': "Bombydou",
+		'es-es': "Cutiefly",
+		'it-it': "Cutiefly",
+		'pt-br': "Cutiefly",
+		'de-de': "Wommel"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -28,7 +28,7 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				en: "Flap",
+				'en-us': "Flap",
 			},
 			damage: 10,
 		},

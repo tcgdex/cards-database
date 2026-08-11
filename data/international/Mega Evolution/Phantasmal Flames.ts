@@ -1,17 +1,17 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Mega Evolution'
 
 const set: Set = {
 	id: "me02",
 
 	name: {
-		de: "Fatale Flammen",
-		en: "Phantasmal Flames",
-		es: "Fuegos Fantasmales",
+		'de-de': "Fatale Flammen",
+		'en-us': "Phantasmal Flames",
+		'es-es': "Fuegos Fantasmales",
 		'es-mx': "Llamaradas Fantasmales",
-		fr: "Flammes Fantasmagoriques",
-		it: "Fiamme Spettrali",
-		pt: "Fogo Fantasmagórico"
+		'fr-fr': "Flammes Fantasmagoriques",
+		'it-it': "Fiamme Spettrali",
+		'pt-br': "Fogo Fantasmagórico"
 	},
 
 	serie: serie,

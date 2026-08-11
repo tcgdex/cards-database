@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Alakazam",
-		de: "Simsala"
+		'en-us': "Alakazam",
+		'de-de': "Simsala"
 	},
 
 	illustrator: "Kimiya Masago",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kadabra",
+		'en-us': "Kadabra",
 	},
 
 	stage: "Stage2",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Energy Jump",
-				de: "Energy Jump"
+				'en-us': "Energy Jump",
+				'de-de': "Energy Jump"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may move an Energy card from 1 of your Pokémon to another of your Pokémon. This power can't be used if Alakazam is affected by a Special Condition.",
-				de: "Once during your turn (before your attack), you may move an Energy card from 1 of your Pokémon to another of your Pokémon. This power can't be used if Alakazam is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), you may move an Energy card from 1 of your Pokémon to another of your Pokémon. This power can't be used if Alakazam is affected by a Special Condition.",
+				'de-de': "Once during your turn (before your attack), you may move an Energy card from 1 of your Pokémon to another of your Pokémon. This power can't be used if Alakazam is affected by a Special Condition."
 			},
 		},
 	],
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic",
-				de: "Psychic"
+				'en-us': "Psychic",
+				'de-de': "Psychic"
 			},
 			effect: {
-				en: "This attack does 30 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.",
-				de: "This attack does 30 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
+				'en-us': "This attack does 30 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.",
+				'de-de': "This attack does 30 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
 			},
 			damage: "30+",
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Canarticho",
-		en: "Farfetch'd",
-		es: "Farfetch'd",
-		it: "Farfetch'd",
-		pt: "Farfetch'd",
-		de: "Porenta"
+		'fr-fr': "Canarticho",
+		'en-us': "Farfetch'd",
+		'es-es': "Farfetch'd",
+		'it-it': "Farfetch'd",
+		'pt-br': "Farfetch'd",
+		'de-de': "Porenta"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Aubaine",
-			en: "Package Deal",
-			es: "Paquete Ganga",
-			it: "Pacchetto Completo",
-			pt: "Promoção Combinada",
-			de: "Pauschale"
+			'fr-fr': "Aubaine",
+			'en-us': "Package Deal",
+			'es-es': "Paquete Ganga",
+			'it-it': "Pacchetto Completo",
+			'pt-br': "Promoção Combinada",
+			'de-de': "Pauschale"
 		},
 
 		effect: {
-			fr: "Piochez 2 cartes.",
-			en: "Draw 2 cards.",
-			es: "Roba 2 cartas.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas.",
-			de: "Ziehe 2 Karten."
+			'fr-fr': "Piochez 2 cartes.",
+			'en-us': "Draw 2 cards.",
+			'es-es': "Roba 2 cartas.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas.",
+			'de-de': "Ziehe 2 Karten."
 		}
 	}, {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Poireau Tabasseur",
-			en: "Leek Clobber",
-			es: "Aporreo con Puerro",
-			it: "Gambomazzata",
-			pt: "Alho-poró Esmagador",
-			de: "Lauchvermöbler"
+			'fr-fr': "Poireau Tabasseur",
+			'en-us': "Leek Clobber",
+			'es-es': "Aporreo con Puerro",
+			'it-it': "Gambomazzata",
+			'pt-br': "Alho-poró Esmagador",
+			'de-de': "Lauchvermöbler"
 		},
 
 		damage: 30
@@ -71,7 +71,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "They use a plant stalk as a weapon, but not all of them use it in the same way. Several distinct styles of stalk fighting have been observed.",
+		'en-us': "They use a plant stalk as a weapon, but not all of them use it in the same way. Several distinct styles of stalk fighting have been observed.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミスティのquagsire",
+		'ja-jp': "ミスティのquagsire",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ヘッドバット",
+				'ja-jp': "ヘッドバット",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "ハグ",
+				'ja-jp': "ハグ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防衛ポケモンは相手の次のターン中に退却することはできません。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防衛ポケモンは相手の次のターン中に退却することはできません。",
 			},
 			damage: 20,
 		},

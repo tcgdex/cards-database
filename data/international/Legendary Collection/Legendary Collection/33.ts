@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Pidgeot"
+		'en-us': "Pidgeot"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pidgeotto"
+		'en-us': "Pidgeotto"
 	},
 
 	stage: "Stage2",
@@ -32,7 +32,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack"
+				'en-us': "Wing Attack"
 			},
 
 			damage: 20,
@@ -45,10 +45,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hurricane"
+				'en-us': "Hurricane"
 			},
 			effect: {
-				en: "Unless this attack Knocks Out the Defending Pokémon, return the Defending Pokémon and all cards attached to it to your opponent's hand."
+				'en-us': "Unless this attack Knocks Out the Defending Pokémon, return the Defending Pokémon and all cards attached to it to your opponent's hand."
 			},
 			damage: 30,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp."
+		'en-us': "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp."
 	},
 
 	variants: [

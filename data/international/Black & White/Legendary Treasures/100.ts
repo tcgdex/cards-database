@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Black Kyurem-EX",
+		'en-us': "Black Kyurem-EX",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Fang",
+				'en-us': "Dragon Fang",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 60,
 
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Freeze Shock",
+				'en-us': "Freeze Shock",
 			},
 			effect: {
-				en: "This Pokémon can't attack during your next turn.",
+				'en-us': "This Pokémon can't attack during your next turn.",
 			},
 			damage: 150,
 

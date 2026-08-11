@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レパルダスV",
+		'ja-jp': "レパルダスV",
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かくしヅメ" },
 			effect: {
-				ja: "自分の番に、このカードを手札からベンチに出したとき、1回使える。おたがいの場のポケモンについている「ポケモンのどうぐ」を1枚選び、トラッシュする。",
+				'ja-jp': "自分の番に、このカードを手札からベンチに出したとき、1回使える。おたがいの場のポケモンについている「ポケモンのどうぐ」を1枚選び、トラッシュする。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 110,
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "のぞむなら、このポケモンと、ついているすべてのカードを、手札にもどす。",
+				'ja-jp': "のぞむなら、このポケモンと、ついているすべてのカードを、手札にもどす。",
 			},
 		},
 	],

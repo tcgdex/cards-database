@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Blitzle",
-		fr: "Zébibron",
-		es: "Blitzle",
-		it: "Blitzle",
-		pt: "Blitzle",
-		de: "Elezeba"
+		'en-us': "Blitzle",
+		'fr-fr': "Zébibron",
+		'es-es': "Blitzle",
+		'it-it': "Blitzle",
+		'pt-br': "Blitzle",
+		'de-de': "Elezeba"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Flop",
-				fr: "Flop",
-				es: "Vuelta",
-				it: "Tonfo",
-				pt: "Baque",
-				de: "Plumps"
+				'en-us': "Flop",
+				'fr-fr': "Flop",
+				'es-es': "Vuelta",
+				'it-it': "Tonfo",
+				'pt-br': "Baque",
+				'de-de': "Plumps"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Zap Kick",
-				fr: "Coup de Pied Ravageur",
-				es: "Electropatada",
-				it: "Dinamocalcio",
-				pt: "Chute Zap",
-				de: "Stromtritt"
+				'en-us': "Zap Kick",
+				'fr-fr': "Coup de Pied Ravageur",
+				'es-es': "Electropatada",
+				'it-it': "Dinamocalcio",
+				'pt-br': "Chute Zap",
+				'de-de': "Stromtritt"
 			},
 
 			damage: 20,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate.",
+		'en-us': "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate.",
 	},
 
 	thirdParty: {

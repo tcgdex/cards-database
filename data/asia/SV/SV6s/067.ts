@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Luxio"
+		'id-id': "Luxio"
 	},
 
 	illustrator: "Takumi Wada",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Dengan menghubungkan ekornya ke ekor sesamanya, Luxio dapat mengeluarkan serangan listrik yang lebih kuat dari cakarnya."
+		'id-id': "Dengan menghubungkan ekornya ke ekor sesamanya, Luxio dapat mengeluarkan serangan listrik yang lebih kuat dari cakarnya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Menggerogoti Erat-erat"
+			'id-id': "Menggerogoti Erat-erat"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
+			'id-id': "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
 		},
 
 		damage: 60,

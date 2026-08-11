@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プリン",
+		'ja-jp': "プリン",
 		'zh-tw': "胖丁",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "歌う 歌は 棲む 地方によって 全然 違っている。 中には シャウトするような ものまで あるぞ。",
+		'ja-jp': "歌う 歌は 棲む 地方によって 全然 違っている。 中には シャウトするような ものまで あるぞ。",
 		'zh-tw': "隨著棲息的地方不同，所唱的歌也完全不一樣。甚至有一部分胖丁唱的歌聽起來就像是在大吼大叫。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "はたく",
+				'ja-jp': "はたく",
 				'zh-tw': "拍擊",
 			},
 			damage: 20,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "みんなでころがる",
+				'ja-jp': "みんなでころがる",
 				'zh-tw': "一同滾動",
 			},
 			damage: "20×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチの、ワザ「みんなでころがる」を持つポケモンの数×20ダメージ。",
+				'ja-jp': "自分のベンチの、ワザ「みんなでころがる」を持つポケモンの数×20ダメージ。",
 				'zh-tw': "造成自己的備戰區的，持有「一同滾動」招式的寶可夢的數量×20點傷害。",
 			},
 		},

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Ash's Pikachu",
-		fr: "Pikachu de Sacha",
+		'en-us': "Ash's Pikachu",
+		'fr-fr': "Pikachu de Sacha",
 	},
 	illustrator: "2017 Pikachu Project",
 	rarity: "Promo",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "I Choose You!",
-				fr: "Je te choisis !",
+				'en-us': "I Choose You!",
+				'fr-fr': "Je te choisis !",
 			},
 			effect: {
-				en: "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
-				fr: "Cherchez un Pokémon dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+				'fr-fr': "Cherchez un Pokémon dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -44,12 +44,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunderbolt",
-				fr: "Tonnerre",
+				'en-us': "Thunderbolt",
+				'fr-fr': "Tonnerre",
 			},
 			effect: {
-				en: "Discard all Energy from this Pokémon.",
-				fr: "Défaussez toute l’Énergie de ce Pokémon.",
+				'en-us': "Discard all Energy from this Pokémon.",
+				'fr-fr': "Défaussez toute l’Énergie de ce Pokémon.",
 			},
 			damage: 100,
 
@@ -73,7 +73,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pikachu is wearing its Trainer's cap. Since the cap's not the right size, the fit is a bit loose.",
+		'en-us': "This Pikachu is wearing its Trainer's cap. Since the cap's not the right size, the fit is a bit loose.",
 	},
 }
 

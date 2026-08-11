@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Spritzee",
-		fr: "Fluvetin",
-		es: "Spritzee",
-		it: "Spritzee",
-		pt: "Spritzee",
-		de: "Parfi"
+		'en-us': "Spritzee",
+		'fr-fr': "Fluvetin",
+		'es-es': "Spritzee",
+		'it-it': "Spritzee",
+		'pt-br': "Spritzee",
+		'de-de': "Parfi"
 	},
 
 	illustrator: "kirisAki",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beat",
-				fr: "Bataille",
-				es: "Toque",
-				it: "Battuta",
-				pt: "Pulso",
-				de: "Verprügler"
+				'en-us': "Beat",
+				'fr-fr': "Bataille",
+				'es-es': "Toque",
+				'it-it': "Battuta",
+				'pt-br': "Pulso",
+				'de-de': "Verprügler"
 			},
 
 			damage: 10,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "In the past, rather than using perfume, royal ladies carried a Spritzee that would waft a fragrance they liked.",
+		'en-us': "In the past, rather than using perfume, royal ladies carried a Spritzee that would waft a fragrance they liked.",
 	},
 
 	thirdParty: {

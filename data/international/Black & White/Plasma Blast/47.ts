@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Machop",
-		fr: "Machoc",
-		es: "Machop",
-		it: "Machop",
-		pt: "Machop",
-		de: "Machollo"
+		'en-us': "Machop",
+		'fr-fr': "Machoc",
+		'es-es': "Machop",
+		'it-it': "Machop",
+		'pt-br': "Machop",
+		'de-de': "Machollo"
 	},
 
 	illustrator: "sui",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage",
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage",
 			},
 
 			damage: 30,
@@ -54,7 +54,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Though small in stature, it is powerful enough to easily heft and throw a number of Geodude at once.",
+		'en-us': "Though small in stature, it is powerful enough to easily heft and throw a number of Geodude at once.",
 	},
 
 	thirdParty: {

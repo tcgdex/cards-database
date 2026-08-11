@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "電極-035/092",
+		'ja-jp': "電極-035/092",
 	},
 
 	rarity: "Rare",
@@ -17,10 +17,10 @@ const card: Card = {
 	abilities: [
 		{
 			name: {
-				ja: "スーパーダイナモ",
+				'ja-jp': "スーパーダイナモ",
 			},
 			effect: {
-				ja: "ターン中に<em>（攻撃の前）</em> </em>、電極がアクティブなポクモンの場合、コインをひっくり返すことができます。頭の場合は、廃棄パイルから稲妻エネルギーカードを選択し、1つのポクモンに取り付けます。電極が特別な状態の影響を受ける場合、この電力は使用できません。",
+				'ja-jp': "ターン中に<em>（攻撃の前）</em> </em>、電極がアクティブなポクモンの場合、コインをひっくり返すことができます。頭の場合は、廃棄パイルから稲妻エネルギーカードを選択し、1つのポクモンに取り付けます。電極が特別な状態の影響を受ける場合、この電力は使用できません。",
 			},
 		}],
 
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "迅速",
+				'ja-jp': "迅速",
 			},
 			effect: {
-				ja: "この攻撃の損傷は、脱力感、抵抗、pok？-Powers、pok？-bodies、または防御ポケモンに対するその他の影響の影響を受けません。",
+				'ja-jp': "この攻撃の損傷は、脱力感、抵抗、pok？-Powers、pok？-bodies、または防御ポケモンに対するその他の影響の影響を受けません。",
 			},
 			damage: 30,
 		},

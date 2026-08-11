@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fossil'
 
 const card: Card = {
 	name: {
-		en: "Magmar",
-		fr: "Magmar",
-		de: "Magmar"
+		'en-us': "Magmar",
+		'fr-fr': "Magmar",
+		'de-de': "Magmar"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magby",
+		'en-us': "Magby",
 	},
 
 	stage: "Basic",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Smokescreen",
-				fr: "Brouillard",
-				de: "Rauchwolke"
+				'en-us': "Smokescreen",
+				'fr-fr': "Brouillard",
+				'de-de': "Rauchwolke"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire doit lancer une pièce. Si c'est pile, cette attaque n'a aucun effet.",
-				de: "Falls das verteidigende Pokémon während des nächsten gegnerischen Zuges anzugreifen veruscht, wirft dein gegner eine Münze. Bei 'Zahl' fügt dieser Angriff keine Schadenspunkte zu."
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire doit lancer une pièce. Si c'est pile, cette attaque n'a aucun effet.",
+				'de-de': "Falls das verteidigende Pokémon während des nächsten gegnerischen Zuges anzugreifen veruscht, wirft dein gegner eine Münze. Bei 'Zahl' fügt dieser Angriff keine Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -54,15 +54,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Smog",
-				fr: "Purédpois",
-				de: "Smog"
+				'en-us': "Smog",
+				'fr-fr': "Purédpois",
+				'de-de': "Smog"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 20
@@ -79,8 +79,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Found at the mouths of volcanoes and extremely hard to spot. There are very few instances of capturing this Pokémon.",
-		fr: "On le trouve dans le coeur des volcans où il est très difficile à repérer. On compte très peu de captures de ce Pokémon."
+		'en-us': "Found at the mouths of volcanoes and extremely hard to spot. There are very few instances of capturing this Pokémon.",
+		'fr-fr': "On le trouve dans le coeur des volcans où il est très difficile à repérer. On compte très peu de captures de ce Pokémon."
 	},
 
 

@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM trainer Kit (Alolan Raichu)'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lightning Energy",
-		fr: "Énergie Électrique",
-		es: "Energía Rayo",
-		it: "Energia Lampo",
-		pt: "Energia de Raios",
-		de: "Elektro-Energie"
+		'en-us': "Lightning Energy",
+		'fr-fr': "Énergie Électrique",
+		'es-es': "Energía Rayo",
+		'it-it': "Energia Lampo",
+		'pt-br': "Energia de Raios",
+		'de-de': "Elektro-Energie"
 	},
 
 	rarity: "Common",

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2022'
 
 const card: Card = {
 	name: {
-		en: "Ledyba",
-		fr: "Coxy",
-		es: "Ledyba",
-		it: "Ledyba",
-		pt: "Ledyba",
-		de: "Ledyba"
+		'en-us': "Ledyba",
+		'fr-fr': "Coxy",
+		'es-es': "Ledyba",
+		'it-it': "Ledyba",
+		'pt-br': "Ledyba",
+		'de-de': "Ledyba"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -28,16 +28,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				en: "Collect",
+				'en-us': "Collect",
 			},
 			effect: {
-				en: "Draw a card.",
+				'en-us': "Draw a card.",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				en: "Punch",
+				'en-us': "Punch",
 			},
 			damage: 20,
 		},

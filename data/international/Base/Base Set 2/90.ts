@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Rhyhorn",
+		'en-us': "Rhyhorn",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leer",
+				'en-us': "Leer",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can't attack Rhyhorn during your opponent's next turn. (Benching either Pokémon ends this effect.)",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon can't attack Rhyhorn during your opponent's next turn. (Benching either Pokémon ends this effect.)",
 			},
 
 		},
@@ -43,7 +43,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Attack",
+				'en-us': "Horn Attack",
 			},
 
 			damage: 30,
@@ -68,7 +68,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its massive bones are 1,000 times harder than human bones. It can easily knock a trailer flying.",
+		'en-us': "Its massive bones are 1,000 times harder than human bones. It can easily knock a trailer flying.",
 	},
 
 

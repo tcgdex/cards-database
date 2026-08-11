@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2019'
 
 const card: Card = {
@@ -9,25 +9,25 @@ const card: Card = {
 	dexId: [25],
 
 	description: {
-		en: "A plan was recently announced to gather many Pikachu and make an electric power plant."
+		'en-us': "A plan was recently announced to gather many Pikachu and make an electric power plant."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Iron Tail"
+			'en-us': "Iron Tail"
 		},
 
 		damage: "20×",
 
 		effect: {
-			en: "Flip a coin until you get tails. This attack does 20 damage for each heads."
+			'en-us': "Flip a coin until you get tails. This attack does 20 damage for each heads."
 		}
 	}],
 
 	name: {
-		en: "Pikachu"
+		'en-us': "Pikachu"
 	},
 
 	rarity: "None",

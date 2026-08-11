@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Delcatty",
-		fr: "Delcatty",
-		de: "Enekoro"
+		'en-us': "Delcatty",
+		'fr-fr': "Delcatty",
+		'de-de': "Enekoro"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Skitty",
-		fr: "Skitty"
+		'en-us': "Skitty",
+		'fr-fr': "Skitty"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Power Circulation",
-				fr: "Circulation de puissance",
-				de: "Power Circulation"
+				'en-us': "Power Circulation",
+				'fr-fr': "Circulation de puissance",
+				'de-de': "Power Circulation"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may search your discard pile for up to 2 basic Energy cards, show them to your opponent, and put those cards on top of your deck in any order. If you do, put 2 damage counters on Delcatty. This power can't be used if Delcatty is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez choisir dans votre pile de défausse jusqu'à 2 cartes Énergie de base. Montrez-les à votre adversaire et placez-les au dessus de votre deck dans n'importe quel ordre. Placez alors 2 marqueurs de dégât sur Delcatty. Ce pouvoir ne peut pas être utilisé si Delcatty est affecté par un État Spécial.",
-				de: "Once during your turn (before your attack), you may search your discard pile for up to 2 basic Energy cards, show them to your opponent, and put them on top of your deck in any order. If you do, put 2 damage counters on Delcatty. This power can't be used if Delcatty is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), you may search your discard pile for up to 2 basic Energy cards, show them to your opponent, and put those cards on top of your deck in any order. If you do, put 2 damage counters on Delcatty. This power can't be used if Delcatty is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez choisir dans votre pile de défausse jusqu'à 2 cartes Énergie de base. Montrez-les à votre adversaire et placez-les au dessus de votre deck dans n'importe quel ordre. Placez alors 2 marqueurs de dégât sur Delcatty. Ce pouvoir ne peut pas être utilisé si Delcatty est affecté par un État Spécial.",
+				'de-de': "Once during your turn (before your attack), you may search your discard pile for up to 2 basic Energy cards, show them to your opponent, and put them on top of your deck in any order. If you do, put 2 damage counters on Delcatty. This power can't be used if Delcatty is affected by a Special Condition."
 			}
 		},
 	],
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Power Heal",
-				fr: "Pouvoir guérissant",
-				de: "Power Heal"
+				'en-us': "Power Heal",
+				'fr-fr': "Pouvoir guérissant",
+				'de-de': "Power Heal"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each damage counter on Delcatty. Then, remove 2 damage counters from Delcatty.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Delcatty. Ensuite, retirez à Delcatty 2 marqueurs de dégât.",
-				de: "Does 10 damage plus 10 more damage for each damage counter on Delcatty. Then, remove 2 damage counters from Delcatty."
+				'en-us': "Does 10 damage plus 10 more damage for each damage counter on Delcatty. Then, remove 2 damage counters from Delcatty.",
+				'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Delcatty. Ensuite, retirez à Delcatty 2 marqueurs de dégât.",
+				'de-de': "Does 10 damage plus 10 more damage for each damage counter on Delcatty. Then, remove 2 damage counters from Delcatty."
 			},
 			damage: "10+",
 
@@ -69,9 +69,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rear Kick",
-				fr: "Pouvoir guérisseur",
-				de: "Rear Kick"
+				'en-us': "Rear Kick",
+				'fr-fr': "Pouvoir guérisseur",
+				'de-de': "Rear Kick"
 			},
 
 			damage: 60,

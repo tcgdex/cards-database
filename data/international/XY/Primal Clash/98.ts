@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Honedge",
-		fr: "Monorpale",
-		es: "Honedge",
-		it: "Honedge",
-		pt: "Honedge",
-		de: "Gramokles"
+		'en-us': "Honedge",
+		'fr-fr': "Monorpale",
+		'es-es': "Honedge",
+		'it-it': "Honedge",
+		'pt-br': "Honedge",
+		'de-de': "Gramokles"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Metal Sound",
-				fr: "Strido-Son",
-				es: "Eco Metálico",
-				it: "Ferrostrido",
-				pt: "Som de Metal",
-				de: "Metallsound"
+				'en-us': "Metal Sound",
+				'fr-fr': "Strido-Son",
+				'es-es': "Eco Metálico",
+				'it-it': "Ferrostrido",
+				'pt-br': "Som de Metal",
+				'de-de': "Metallsound"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent's Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "If anyone dares to grab its hilt, it wraps a blue cloth around that person's arm and drains that person's life energy completely.",
+		'en-us': "If anyone dares to grab its hilt, it wraps a blue cloth around that person's arm and drains that person's life energy completely.",
 	},
 
 	thirdParty: {

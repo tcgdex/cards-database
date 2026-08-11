@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Vaporeon",
+		'ja-jp': "Vaporeon",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "アクア供給",
+				'ja-jp': "アクア供給",
 			},
 			effect: {
-				ja: "あなたはあなたの手からあなたのポケモンの1にあなたの手からの基本的なエネルギーカードを添付することができます。",
+				'ja-jp': "あなたはあなたの手からあなたのポケモンの1にあなたの手からの基本的なエネルギーカードを添付することができます。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "マルチバブル",
+				'ja-jp': "マルチバブル",
 			},
 			effect: {
-				ja: "Vaporeonに3つ以上の異なるタイプの基本エネルギーカードが付属している場合、この攻撃は40ダメージに20ダメージを与え、ディフェンディングポケモンは眠っています。",
+				'ja-jp': "Vaporeonに3つ以上の異なるタイプの基本エネルギーカードが付属している場合、この攻撃は40ダメージに20ダメージを与え、ディフェンディングポケモンは眠っています。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ゴチム",
+		'ja-jp': "ゴチム",
 	},
 
 	illustrator: "Mousho",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "リボンのような 触角で サイコパワーを 増幅させる。 なにかを じっと 見つめている。",
+		'ja-jp': "リボンのような 触角で サイコパワーを 増幅させる。 なにかを じっと 見つめている。",
 	},
 
 	stage: "Basic",

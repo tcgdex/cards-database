@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Brocélôme",
-		en: "Phantump",
-		es: "Phantump",
-		it: "Phantump",
-		pt: "Phantump",
-		de: "Paragoni"
+		'fr-fr': "Brocélôme",
+		'en-us': "Phantump",
+		'es-es': "Phantump",
+		'it-it': "Phantump",
+		'pt-br': "Phantump",
+		'de-de': "Paragoni"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Tapotige",
-			en: "Branch Poke",
-			es: "Punzada Rama",
-			it: "Ramostoccata",
-			pt: "Cutucada com Galho",
-			de: "Zweigstoß"
+			'fr-fr': "Tapotige",
+			'en-us': "Branch Poke",
+			'es-es': "Punzada Rama",
+			'it-it': "Ramostoccata",
+			'pt-br': "Cutucada com Galho",
+			'de-de': "Zweigstoß"
 		},
 
 		damage: 20
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "With a voice like a human child's, it cries out to lure adults deep into the forest, getting them lost among the trees.",
+		'en-us': "With a voice like a human child's, it cries out to lure adults deep into the forest, getting them lost among the trees.",
 	},
 
 	variants: [

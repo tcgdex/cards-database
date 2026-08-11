@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Ralts",
-		fr: "Tarsal",
-		de: "Trasla"
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal",
+		'de-de': "Trasla"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnosis",
-				fr: "Hypnose",
-				de: "Hypnosis"
+				'en-us': "Hypnosis",
+				'fr-fr': "Hypnose",
+				'de-de': "Hypnosis"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psychic Boom",
-				fr: "Psycho-boom",
-				de: "Psychic Boom"
+				'en-us': "Psychic Boom",
+				'fr-fr': "Psycho-boom",
+				'de-de': "Psychic Boom"
 			},
 			effect: {
-				en: "Does 10 damage times the amount of Energy attached to the Defending Pokémon.",
-				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergie attachées au Pokémon Défenseur.",
-				de: "Does 10 damage times the amount of Energy attached to the Defending Pokémon."
+				'en-us': "Does 10 damage times the amount of Energy attached to the Defending Pokémon.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre d'Énergie attachées au Pokémon Défenseur.",
+				'de-de': "Does 10 damage times the amount of Energy attached to the Defending Pokémon."
 			},
 			damage: "10×",
 

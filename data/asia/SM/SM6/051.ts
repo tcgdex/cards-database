@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ディアンシー",
+		'ja-jp': "ディアンシー",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "両手の すきまで 空気中の 炭素を 圧縮して たくさんの ダイヤを 一瞬で 生み出す。",
+		'ja-jp': "両手の すきまで 空気中の 炭素を 圧縮して たくさんの ダイヤを 一瞬で 生み出す。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "プリンセスエール" },
 			effect: {
-				ja: "このポケモンがベンチにいるかぎり、自分の[闘]ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+20」される。",
+				'ja-jp': "このポケモンがベンチにいるかぎり、自分の[闘]ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+20」される。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Fighting", "Fighting", "Fighting"],
 			effect: {
-				ja: "自分のベンチポケモン全員のHPを、それぞれ「30」回復する。",
+				'ja-jp': "自分のベンチポケモン全員のHPを、それぞれ「30」回復する。",
 			},
 		},
 	],

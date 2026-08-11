@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バゴン（デルタ種）",
+		'ja-jp': "バゴン（デルタ種）",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Fire", "Colorless"],
 			name: {
-				ja: "ember",
+				'ja-jp': "ember",
 			},
 			effect: {
-				ja: "バゴンに取り付けられた消防剤カードを捨てます。",
+				'ja-jp': "バゴンに取り付けられた消防剤カードを捨てます。",
 			},
 			damage: 30,
 		},

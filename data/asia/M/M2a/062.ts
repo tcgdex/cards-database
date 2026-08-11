@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団のナッシー",
+		'ja-jp': "ロケット団のナッシー",
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "ごくまれに 頭の どれか ひとつが 地面に 落ちると タマタマになって 動きだすという。",
+		'ja-jp': "ごくまれに 頭の どれか ひとつが 地面に 落ちると タマタマになって 動きだすという。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "トライキネシス" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを3回投げ、すべてオモテなら、相手のポケモンを1匹選び、きぜつさせる。",
+				'ja-jp': "コインを3回投げ、すべてオモテなら、相手のポケモンを1匹選び、きぜつさせる。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 			},
 		},
 	],
@@ -63,7 +63,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ロケット団のタマタマ",
+		'ja-jp': "ロケット団のタマタマ",
 	},
 
 	retreat: 3,

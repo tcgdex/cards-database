@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジュゴン",
+		'ja-jp': "ジュゴン",
 	},
 
 	illustrator: "Taira Akitsu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "水の 温度が 下がる 夜 食べものを 求め 泳ぎまわる。 昼間は 浅い 海底で 寝る。",
+		'ja-jp': "水の 温度が 下がる 夜 食べものを 求め 泳ぎまわる。 昼間は 浅い 海底で 寝る。",
 	},
 
 	stage: "Stage1",
@@ -28,7 +28,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "パウワウ",
+		'ja-jp': "パウワウ",
 	},
 
 	retreat: 2,

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Geodude"
+		'en-us': "Brock's Geodude"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Call for Friend"
+				'en-us': "Call for Friend"
 			},
 			effect: {
-				en: "Flip a coin. If heads, you may search your deck for a Basic Pokémon card with Brock in its name and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
+				'en-us': "Flip a coin. If heads, you may search your deck for a Basic Pokémon card with Brock in its name and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
 			},
 
 		},
@@ -40,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hook Shot"
+				'en-us': "Hook Shot"
 			},
 			effect: {
-				en: "Don't apply Resistance for this attack. (Any other effects that would happen after applying Resistance still happen.)"
+				'en-us': "Don't apply Resistance for this attack. (Any other effects that would happen after applying Resistance still happen.)"
 			},
 			damage: 20,
 

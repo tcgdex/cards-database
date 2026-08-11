@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Detective Pikachu'
 
 const card: Card = {
 	name: {
-		en: "Charizard",
-		fr: "Dracaufeu",
-		es: "Charizard",
-		it: "Charizard",
-		pt: "Charizard",
-		de: "Glurak"
+		'en-us': "Charizard",
+		'fr-fr': "Dracaufeu",
+		'es-es': "Charizard",
+		'it-it': "Charizard",
+		'pt-br': "Charizard",
+		'de-de': "Glurak"
 	},
 
 	illustrator: "Framestore",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmeleon",
-		fr: "Reptincel",
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel",
 	},
 
 	stage: "Stage2",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				es: "Cuchillada",
-				it: "Lacerazione",
-				pt: "Talho",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'es-es': "Cuchillada",
+				'it-it': "Lacerazione",
+				'pt-br': "Talho",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 70,
@@ -60,20 +60,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wild Tackle",
-				fr: "Tacle Brutal",
-				es: "Placaje Salvaje",
-				it: "Azionferoce",
-				pt: "Investida Feroz",
-				de: "Wilder Tackle"
+				'en-us': "Wild Tackle",
+				'fr-fr': "Tacle Brutal",
+				'es-es': "Placaje Salvaje",
+				'it-it': "Azionferoce",
+				'pt-br': "Investida Feroz",
+				'de-de': "Wilder Tackle"
 			},
 			effect: {
-				en: "This Pokémon does 50 damage to itself.",
-				fr: "Ce Pokémon s’inflige 50 dégâts.",
-				es: "Este Pokémon se hace 50 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 50 danni a se stesso.",
-				pt: "Este Pokémon causa 50 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 50 Schadenspunkte zu."
+				'en-us': "This Pokémon does 50 damage to itself.",
+				'fr-fr': "Ce Pokémon s’inflige 50 dégâts.",
+				'es-es': "Este Pokémon se hace 50 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 50 danni a se stesso.",
+				'pt-br': "Este Pokémon causa 50 pontos de dano a si mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 50 Schadenspunkte zu."
 			},
 			damage: 180,
 
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "When expelling a blast of superhot fire, the red flame at the tip of its tail burns more intensely.",
+		'en-us': "When expelling a blast of superhot fire, the red flame at the tip of its tail burns more intensely.",
 	},
 
 	thirdParty: {

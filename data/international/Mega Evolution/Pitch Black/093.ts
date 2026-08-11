@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pitch Black"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bastiodon",
-		fr: "Bastiodon",
-		es: "Bastiodon",
+		'en-us': "Bastiodon",
+		'fr-fr': "Bastiodon",
+		'es-es': "Bastiodon",
 		'es-mx': "Bastiodon",
-		de: "Bollterus",
-		it: "Bastiodon",
-		pt: "Bastiodon"
+		'de-de': "Bollterus",
+		'it-it': "Bastiodon",
+		'pt-br': "Bastiodon"
 	},
 
 	illustrator: "Yoriyuki Ikegami",
@@ -22,7 +22,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Shieldon"
+		'en-us': "Shieldon"
 	},
 
 	stage: "Stage2",
@@ -31,35 +31,35 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Ancient Bulwark",
-			fr: "Rempart Antique",
-			es: "Bastión Ancestral",
+			'en-us': "Ancient Bulwark",
+			'fr-fr': "Rempart Antique",
+			'es-es': "Bastión Ancestral",
 			'es-mx': "Bastión Ancestral",
-			de: "Altes Bollwerk",
-			it: "Bastione Antico",
-			pt: "Baluarte Ancestral"
+			'de-de': "Altes Bollwerk",
+			'it-it': "Bastione Antico",
+			'pt-br': "Baluarte Ancestral"
 		},
 
 		effect: {
-			en: "As long as this Pokémon is on your Bench, prevent all damage done to each of your Pokémon by attacks from your opponent's Pokémon that have 2 or less Energy attached.",
-			fr: "Tant que ce Pokémon est sur votre Banc, évitez tous les dégâts infligés à chacun de vos Pokémon par les attaques des Pokémon de votre adversaire auxquels 2 Énergies ou moins sont attachées.",
-			es: "Mientras este Pokémon esté en tu Banca, se evita todo el daño infligido a cada uno de tus Pokémon por ataques de los Pokémon de tu rival que tengan 2 Energías o menos unidas.",
+			'en-us': "As long as this Pokémon is on your Bench, prevent all damage done to each of your Pokémon by attacks from your opponent's Pokémon that have 2 or less Energy attached.",
+			'fr-fr': "Tant que ce Pokémon est sur votre Banc, évitez tous les dégâts infligés à chacun de vos Pokémon par les attaques des Pokémon de votre adversaire auxquels 2 Énergies ou moins sont attachées.",
+			'es-es': "Mientras este Pokémon esté en tu Banca, se evita todo el daño infligido a cada uno de tus Pokémon por ataques de los Pokémon de tu rival que tengan 2 Energías o menos unidas.",
 			'es-mx': "Mientras este Pokémon esté en tu Banca, se evita todo el daño infligido por ataques de los Pokémon de tu rival que tengan 2 Energías o menos unidas a cada uno de tus Pokémon.",
-			de: "Solange dieses Pokémon auf deiner Bank ist, verhindere allen Schaden, der jedem deiner Pokémon durch Attacken von Pokémon deines Gegners, an die 2 oder weniger Energien angelegt sind, zugefügt wird.",
-			it: "Fintanto che questo Pokémon è nella tua panchina, previeni tutti i danni inflitti a ciascuno dei tuoi Pokémon dagli attacchi dei Pokémon del tuo avversario che hanno due o meno Energie assegnate.",
-			pt: "Enquanto este Pokémon estiver no seu Banco, previna todo o dano causado a cada um dos seus Pokémon por ataques dos Pokémon do seu oponente que têm 2 ou menos Energias ligadas a eles."
+			'de-de': "Solange dieses Pokémon auf deiner Bank ist, verhindere allen Schaden, der jedem deiner Pokémon durch Attacken von Pokémon deines Gegners, an die 2 oder weniger Energien angelegt sind, zugefügt wird.",
+			'it-it': "Fintanto che questo Pokémon è nella tua panchina, previeni tutti i danni inflitti a ciascuno dei tuoi Pokémon dagli attacchi dei Pokémon del tuo avversario che hanno due o meno Energie assegnate.",
+			'pt-br': "Enquanto este Pokémon estiver no seu Banco, previna todo o dano causado a cada um dos seus Pokémon por ataques dos Pokémon do seu oponente que têm 2 ou menos Energias ligadas a eles."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			es: "Martillear",
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'es-es': "Martillear",
 			'es-mx': "Martillar",
-			de: "Einhämmern",
-			it: "Martello",
-			pt: "Martelada"
+			'de-de': "Einhämmern",
+			'it-it': "Martello",
+			'pt-br': "Martelada"
 		},
 
 		cost: ["Metal", "Metal", "Colorless"],

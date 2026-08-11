@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Pupitar",
+		'ja-jp': "Pupitar",
 	},
 
 	rarity: "Uncommon",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "頭蓋骨バッシュ",
+				'ja-jp': "頭蓋骨バッシュ",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Fighting", "Fighting"],
 			name: {
-				ja: "ダストデビル",
+				'ja-jp': "ダストデビル",
 			},
 			effect: {
-				ja: "プレイ中の各戦闘ポケモンに10ダメージを与えます。衰弱と抵抗を適用しないでください。",
+				'ja-jp': "プレイ中の各戦闘ポケモンに10ダメージを与えます。衰弱と抵抗を適用しないでください。",
 			},
 		},
 	],

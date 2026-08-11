@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トゲデマル",
+		'ja-jp': "トゲデマル",
 	},
 
 	illustrator: "sowsow",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "１４本の 背中の ハリの 毛は びっくりしたり 興奮することが あると 勝手に 逆立ってしまう。",
+		'ja-jp': "１４本の 背中の ハリの 毛は びっくりしたり 興奮することが あると 勝手に 逆立ってしまう。",
 	},
 
 	stage: "Basic",
@@ -23,14 +23,14 @@ const card: Card = {
 			name: { ja: "なかまをよぶ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にあるたねポケモンを2枚まで、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札にあるたねポケモンを2枚まで、ベンチに出す。そして山札を切る。",
 			},
 		},
 		{
 			name: { ja: "でんじスパーク" },
 			cost: ["Lightning"],
 			effect: {
-				ja: "相手のポケモン1匹に、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Énergie Psychic de base",
-		en: "Basic Psychic Energy",
-		es: "Energía Psychic Básica",
-		it: "Energia base Psychic",
-		pt: "Energia Psychic Básica",
-		de: "Basis-Psychic-Energie"
+		'fr-fr': "Énergie Psychic de base",
+		'en-us': "Basic Psychic Energy",
+		'es-es': "Energía Psychic Básica",
+		'it-it': "Energia base Psychic",
+		'pt-br': "Energia Psychic Básica",
+		'de-de': "Basis-Psychic-Energie"
 	},
 
 	rarity: "Hyper rare",

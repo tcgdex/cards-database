@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "熱帶龍",
-		ja: "トロピウス"
+		'ja-jp': "トロピウス"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "脖子上的美味水果很受歡迎。在溫暖的地區有很多 養殖熱帶龍的牧場。",
-		ja: "首の フサが 美味しくて 人気。 暖かい 土地には トロピウスを 育てる 牧場が たくさん。"
+		'ja-jp': "首の フサが 美味しくて 人気。 暖かい 土地には トロピウスを 育てる 牧場が たくさん。"
 	},
 
 	stage: "Basic",
@@ -26,19 +26,19 @@ const card: Card = {
 
 		name: {
 			'zh-tw': "治癒樹蔭",
-			ja: "いやしのこかげ"
+			'ja-jp': "いやしのこかげ"
 		},
 
 		effect: {
 			'zh-tw': "只要這隻寶可夢在場上，自己的所有身上附有【草】能量的寶可夢不會【混亂】，受到的【混亂】會全部恢復。",
-			ja: "このポケモンがいるかぎり、エネルギーがついている自分のポケモン全員は、こんらんにならず、受けているこんらんは、すべて回復する。"
+			'ja-jp': "このポケモンがいるかぎり、エネルギーがついている自分のポケモン全員は、こんらんにならず、受けているこんらんは、すべて回復する。"
 		}
 	}],
 
 	attacks: [{
 		name: {
 			'zh-tw': "利刃切割",
-			ja: "スライスブレード"
+			'ja-jp': "スライスブレード"
 		},
 
 		damage: 100,

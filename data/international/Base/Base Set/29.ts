@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Haunter",
-		fr: "Spectrum",
-		de: "Alpollo",
-		it: "Haunter"
+		'en-us': "Haunter",
+		'fr-fr': "Spectrum",
+		'de-de': "Alpollo",
+		'it-it': "Haunter"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -25,9 +25,9 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gastly",
-		fr: "Fantominus",
-		it: "Gastly"
+		'en-us': "Gastly",
+		'fr-fr': "Fantominus",
+		'it-it': "Gastly"
 	},
 
 	stage: "Stage1",
@@ -38,16 +38,16 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hypnosis",
-				fr: "Hypnose",
-				de: "Hypnose",
-				it: "Ipnosi"
+				'en-us': "Hypnosis",
+				'fr-fr': "Hypnose",
+				'de-de': "Hypnose",
+				'it-it': "Ipnosi"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das verteidigende Pokémon schläft jetzt.",
-				it: "Il Pokémon Difensore è Addormentato."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das verteidigende Pokémon schläft jetzt.",
+				'it-it': "Il Pokémon Difensore è Addormentato."
 			},
 
 		},
@@ -57,16 +57,16 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Dream Eater",
-				fr: "Dévorêve",
-				de: "Traumfresser",
-				it: "Mangiasogni"
+				'en-us': "Dream Eater",
+				'fr-fr': "Dévorêve",
+				'de-de': "Traumfresser",
+				'it-it': "Mangiasogni"
 			},
 			effect: {
-				en: "You can't this attack unless the Defending Pokémon is Asleep.",
-				fr: "Vous ne pouvez utiliser cette attaque que si le Pokémon Défenseur est Endormi.",
-				de: "Du kannst diesen Angriff nur einsetzen, wenn das verteidigende Pokémon schlafend ist.",
-				it: "Puoi usare questo attacco solo se il Pokémon Difensore è Addormentato."
+				'en-us': "You can't this attack unless the Defending Pokémon is Asleep.",
+				'fr-fr': "Vous ne pouvez utiliser cette attaque que si le Pokémon Défenseur est Endormi.",
+				'de-de': "Du kannst diesen Angriff nur einsetzen, wenn das verteidigende Pokémon schlafend ist.",
+				'it-it': "Puoi usare questo attacco solo se il Pokémon Difensore è Addormentato."
 			},
 			damage: 50,
 
@@ -83,9 +83,9 @@ const card: Card = {
 
 
 	description: {
-		en: "Because of its ability to slip through block walls, it is said to be from another dimension.",
-		fr: "Il peut se glisser à travers les murs comme une créature d'une autre dimension.",
-		it: "Per la sua abilità di passare attraverso i muri, si dice che venga da un'altra dimensione."
+		'en-us': "Because of its ability to slip through block walls, it is said to be from another dimension.",
+		'fr-fr': "Il peut se glisser à travers les murs comme une créature d'une autre dimension.",
+		'it-it': "Per la sua abilità di passare attraverso i muri, si dice che venga da un'altra dimensione."
 	},
 
 	variants: [

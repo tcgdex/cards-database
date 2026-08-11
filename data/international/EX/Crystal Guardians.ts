@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../EX'
 
 const ex14: Set = {
 	id: "ex14",
 
 	name: {
-		en: "Crystal Guardians",
-		fr: "EX Gardiens de Cristal",
-		de: "EX Crystal Guardians",
-		it: "EX Guardiani dei Cristalli"
+		'en-us': "Crystal Guardians",
+		'fr-fr': "EX Gardiens de Cristal",
+		'de-de': "EX Crystal Guardians",
+		'it-it': "EX Guardiani dei Cristalli"
 	},
 
 	serie: serie,
@@ -22,7 +22,7 @@ const ex14: Set = {
 
 	abbreviations: {
 		official: "CG",
-		fr: "GDC"
+		'fr-fr': "GDC"
 	},
 
 	thirdParty: {

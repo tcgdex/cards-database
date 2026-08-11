@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Aipom",
-		fr: "Capumain",
-		es: "Aipom",
+		'en-us': "Aipom",
+		'fr-fr': "Capumain",
+		'es-es': "Aipom",
 		'es-mx': "Aipom",
-		de: "Griffel",
-		it: "Aipom",
-		pt: "Aipom"
+		'de-de': "Griffel",
+		'it-it': "Aipom",
+		'pt-br': "Aipom"
 	},
 
 	rarity: "Common",
@@ -26,23 +26,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Astonish",
-			fr: "Étonnement",
-			es: "Impresionar",
+			'en-us': "Astonish",
+			'fr-fr': "Étonnement",
+			'es-es': "Impresionar",
 			'es-mx': "Impresión",
-			de: "Erstauner",
-			it: "Sgomento",
-			pt: "Abismar"
+			'de-de': "Erstauner",
+			'it-it': "Sgomento",
+			'pt-br': "Abismar"
 		},
 
 		effect: {
-			en: "Choose a random card from your opponent's hand, and your opponent reveals that card and shuffles it into their deck.",
-			fr: "Choisissez une carte au hasard dans la main de votre adversaire. Votre adversaire montre cette carte, puis la mélange avec son deck.",
-			es: "Elige 1 carta aleatoria de la mano de tu rival, y tu rival enseña esa carta, la pone en su baraja y baraja todas las cartas.",
+			'en-us': "Choose a random card from your opponent's hand, and your opponent reveals that card and shuffles it into their deck.",
+			'fr-fr': "Choisissez une carte au hasard dans la main de votre adversaire. Votre adversaire montre cette carte, puis la mélange avec son deck.",
+			'es-es': "Elige 1 carta aleatoria de la mano de tu rival, y tu rival enseña esa carta, la pone en su baraja y baraja todas las cartas.",
 			'es-mx': "Elige 1 carta aleatoria de la mano de tu rival, y tu rival muestra esa carta y la baraja en su mazo.",
-			de: "Wähle 1 zufällige Karte aus der Hand deines Gegners, und dein Gegner zeigt dir jene Karte und mischt sie in sein Deck.",
-			it: "Scegli una carta a caso dalla mano del tuo avversario, e il tuo avversario mostra quella carta e la rimischia nel suo mazzo.",
-			pt: "Escolha uma carta aleatória da mão do seu oponente, e seu oponente revela aquela carta e a embaralha no baralho dele."
+			'de-de': "Wähle 1 zufällige Karte aus der Hand deines Gegners, und dein Gegner zeigt dir jene Karte und mischt sie in sein Deck.",
+			'it-it': "Scegli una carta a caso dalla mano del tuo avversario, e il tuo avversario mostra quella carta e la rimischia nel suo mazzo.",
+			'pt-br': "Escolha uma carta aleatória da mão do seu oponente, e seu oponente revela aquela carta e a embaralha no baralho dele."
 		},
 
 		damage: 20
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "It lives atop tall trees. When leaping from branch to branch, it deftly uses its tail for balance.",
+		'en-us': "It lives atop tall trees. When leaping from branch to branch, it deftly uses its tail for balance.",
 	},
 
 	illustrator: "Saboteri",

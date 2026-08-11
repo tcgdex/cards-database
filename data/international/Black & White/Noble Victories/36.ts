@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Zebstrika",
-		fr: "Zéblitz",
-		es: "Zebstrika",
-		it: "Zebstrika",
-		pt: "Zebstrika",
-		de: "Zebritz"
+		'en-us': "Zebstrika",
+		'fr-fr': "Zéblitz",
+		'es-es': "Zebstrika",
+		'it-it': "Zebstrika",
+		'pt-br': "Zebstrika",
+		'de-de': "Zebritz"
 	},
 
 	illustrator: "match",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Blitzle",
-		fr: "Zébibron",
+		'en-us': "Blitzle",
+		'fr-fr': "Zébibron",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-Attaque",
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-Attaque",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 10,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shock Bolt",
-				fr: "Choc'Éclair",
+				'en-us': "Shock Bolt",
+				'fr-fr': "Choc'Éclair",
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard all Lightning Energy attached to this Pokémon.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez toutes les Énergies Lightning attachées à ce Pokémon.",
+				'en-us': "Flip a coin. If tails, discard all Lightning Energy attached to this Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez toutes les Énergies Lightning attachées à ce Pokémon.",
 			},
 			damage: 90,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+		'en-us': "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
 	},
 
 	thirdParty: {

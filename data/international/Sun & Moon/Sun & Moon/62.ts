@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Mareanie",
-		fr: "Vorastérie",
-		es: "Mareanie",
-		it: "Mareanie",
-		pt: "Mareanie",
-		de: "Garstella"
+		'en-us': "Mareanie",
+		'fr-fr': "Vorastérie",
+		'es-es': "Mareanie",
+		'it-it': "Mareanie",
+		'pt-br': "Mareanie",
+		'de-de': "Garstella"
 	},
 
 	illustrator: "match",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Poison Sting",
-				fr: "Dard-Venin",
-				es: "Picotazo Veneno",
-				it: "Velenospina",
-				pt: "Ferrão Venenoso",
-				de: "Giftstachel"
+				'en-us': "Poison Sting",
+				'fr-fr': "Dard-Venin",
+				'es-es': "Picotazo Veneno",
+				'it-it': "Velenospina",
+				'pt-br': "Ferrão Venenoso",
+				'de-de': "Giftstachel"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+				'en-us': "Your opponent’s Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It plunges the poison spike on its head into its prey. When the prey has weakened, Mareanie deals the finishing blow with its 10 tentacles.",
+		'en-us': "It plunges the poison spike on its head into its prey. When the prey has weakened, Mareanie deals the finishing blow with its 10 tentacles.",
 	},
 
 	thirdParty: {

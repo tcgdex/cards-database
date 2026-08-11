@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マッドキップ",
+		'ja-jp': "マッドキップ",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "昼寝",
+				'ja-jp': "昼寝",
 			},
 			effect: {
-				ja: "Mudkipから2つのダメージカウンターを削除します。",
+				'ja-jp': "Mudkipから2つのダメージカウンターを削除します。",
 			},
 		},
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "滝",
+				'ja-jp': "滝",
 			},
 			damage: 20,
 		},

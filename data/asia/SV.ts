@@ -1,13 +1,13 @@
-import { Serie } from '../interfaces'
+import { Serie } from 'models/database/serie'
 
 const serie: Serie = {
 	name: {
-		ja: 'ポケモンカードゲーム スカーレット&バイオレット',
+		'ja-jp': 'ポケモンカードゲーム スカーレット&バイオレット',
 		'zh-cn': '朱&紫',
 		'zh-tw': '朱&紫系列',
-		th: 'สการ์เล็ต&ไวโอเล็ต',
-		id: 'Scarlet & Violet',
-		ko: '스칼렛・바이올렛'
+		'th-th': 'สการ์เล็ต&ไวโอเล็ต',
+		'id-id': 'Scarlet & Violet',
+		'ko-kr': '스칼렛・바이올렛'
 	},
 	id: "SV"
 }

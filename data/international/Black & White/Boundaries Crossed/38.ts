@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Delibird",
-		fr: "Cadoizo",
-		es: "Delibird",
-		it: "Delibird",
-		pt: "Delibird",
-		de: "Botogel"
+		'en-us': "Delibird",
+		'fr-fr': "Cadoizo",
+		'es-es': "Delibird",
+		'it-it': "Delibird",
+		'pt-br': "Delibird",
+		'de-de': "Botogel"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Present",
-				fr: "Cadeau",
+				'en-us': "Present",
+				'fr-fr': "Cadeau",
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your deck for a card and put it into your hand. Shuffle your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, cherchez une carte dans votre deck puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+				'en-us': "Flip a coin. If heads, search your deck for a card and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cherchez une carte dans votre deck puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Icy Wind",
-				fr: "Vent Glace",
+				'en-us': "Icy Wind",
+				'fr-fr': "Vent Glace",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
 			},
 			damage: 30,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It carries food all day long. When someone is lost in the mountains, it shares that food.",
+		'en-us': "It carries food all day long. When someone is lost in the mountains, it shares that food.",
 	},
 
 	thirdParty: {

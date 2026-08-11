@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Sabelette d'Alola",
+		'fr-fr': "Sabelette d'Alola",
 	},
 
 	rarity: "None",
@@ -28,11 +28,11 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				fr: "Combo-Griffe"
+				'fr-fr': "Combo-Griffe"
 			},
 			damage: "10×",
 			effect: {
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face."
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face."
 			}
 		},
 	],

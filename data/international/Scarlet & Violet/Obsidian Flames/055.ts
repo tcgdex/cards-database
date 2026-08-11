@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Hexagel",
-		en: "Cryogonal",
-		es: "Cryogonal",
-		it: "Cryogonal",
-		pt: "Cryogonal",
-		de: "Frigometri"
+		'fr-fr': "Hexagel",
+		'en-us': "Cryogonal",
+		'es-es': "Cryogonal",
+		'it-it': "Cryogonal",
+		'pt-br': "Cryogonal",
+		'de-de': "Frigometri"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Premier Gel",
-			en: "First Freeze",
-			es: "Primera Congelación",
-			it: "Prima Gelata",
-			pt: "Congelamento Primário",
-			de: "Erster Frost"
+			'fr-fr': "Premier Gel",
+			'en-us': "First Freeze",
+			'es-es': "Primera Congelación",
+			'it-it': "Prima Gelata",
+			'pt-br': "Congelamento Primário",
+			'de-de': "Erster Frost"
 		},
 
 		effect: {
-			fr: "Si vous jouez en second et que c'est votre premier tour, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			en: "If you go second and it's your first turn, your opponent's Active Pokémon is now Paralyzed.",
-			es: "Si sales en segundo lugar y es tu primer turno, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Se inizi per secondo ed è il tuo primo turno, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Se você for o segundo a jogar e este for o seu primeiro turno, o Pokémon Ativo do seu oponente agora estará Paralisado.",
-			de: "Wenn du als Zweiter am Zug bist und es dein erster Zug ist, ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			'fr-fr': "Si vous jouez en second et que c'est votre premier tour, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'en-us': "If you go second and it's your first turn, your opponent's Active Pokémon is now Paralyzed.",
+			'es-es': "Si sales en segundo lugar y es tu primer turno, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Se inizi per secondo ed è il tuo primo turno, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Se você for o segundo a jogar e este for o seu primeiro turno, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			'de-de': "Wenn du als Zweiter am Zug bist und es dein erster Zug ist, ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		},
 
 		damage: 30
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Cryogonal appear during cold seasons. It is said that people and Pokémon who die on snowy mountains are reborn into these Pokémon.",
+		'en-us': "Cryogonal appear during cold seasons. It is said that people and Pokémon who die on snowy mountains are reborn into these Pokémon.",
 	},
 
 	variants: [

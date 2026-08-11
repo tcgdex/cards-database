@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Sliggoo",
-		fr: "Colimucus",
-		es: "Sliggoo",
-		it: "Sliggoo",
-		pt: "Sliggoo",
-		de: "Viscargot"
+		'en-us': "Sliggoo",
+		'fr-fr': "Colimucus",
+		'es-es': "Sliggoo",
+		'it-it': "Sliggoo",
+		'pt-br': "Sliggoo",
+		'de-de': "Viscargot"
 	},
 
 	illustrator: "Midori Harada",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Goomy",
-		fr: "Mucuscule",
-		es: "Goomy",
-		it: "Goomy",
-		pt: "Goomy",
-		de: "Viscora"
+		'en-us': "Goomy",
+		'fr-fr': "Mucuscule",
+		'es-es': "Goomy",
+		'it-it': "Goomy",
+		'pt-br': "Goomy",
+		'de-de': "Viscora"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bubble",
-				fr: "Écume",
-				es: "Burbuja",
-				it: "Bolla",
-				pt: "Bolha",
-				de: "Blubber"
+				'en-us': "Bubble",
+				'fr-fr': "Écume",
+				'es-es': "Burbuja",
+				'it-it': "Bolla",
+				'pt-br': "Bolha",
+				'de-de': "Blubber"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 
 		},
@@ -66,12 +66,12 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Melt",
-				fr: "Dissolution",
-				es: "Derretir",
-				it: "Liquefazione",
-				pt: "Derreter",
-				de: "Schmelzen"
+				'en-us': "Melt",
+				'fr-fr': "Dissolution",
+				'es-es': "Derretir",
+				'it-it': "Liquefazione",
+				'pt-br': "Derreter",
+				'de-de': "Schmelzen"
 			},
 
 			damage: 20,
@@ -89,7 +89,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its four horns are a high-performance radar system. It uses them to sense sounds and smells, rather than using ears or a nose.",
+		'en-us': "Its four horns are a high-performance radar system. It uses them to sense sounds and smells, rather than using ears or a nose.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pachirisu"
+		'en-us': "Pachirisu"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "A pair may be seen rubbing their cheek pouches\ntogether in an effort to share stored electricity."
+		'en-us': "A pair may be seen rubbing their cheek pouches\ntogether in an effort to share stored electricity."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Attack the Wound"
+			'en-us': "Attack the Wound"
 		},
 
 		damage: 30,
 		cost: ["Lightning", "Colorless"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon has damage on it, this attack does 30 more damage."
+			'en-us': "If your opponent's Active Pokémon has damage on it, this attack does 30 more damage."
 		}
 	}],
 

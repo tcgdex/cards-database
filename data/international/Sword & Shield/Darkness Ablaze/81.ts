@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [778],
 
 	name: {
-		en: "Mimikyu",
-		fr: "Mimiqui",
-		es: "Mimikyu",
-		it: "Mimikyu",
-		pt: "Mimikyu",
-		de: "Mimigma"
+		'en-us': "Mimikyu",
+		'fr-fr': "Mimiqui",
+		'es-es': "Mimikyu",
+		'it-it': "Mimikyu",
+		'pt-br': "Mimikyu",
+		'de-de': "Mimigma"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -27,20 +27,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Heal Jamming",
-				fr: "Soins Suspendus",
-				es: "Bloqueo Curación",
-				it: "Interferenza Malsana",
-				pt: "Interferência de Cura",
-				de: "Heilstörung"
+				'en-us': "Heal Jamming",
+				'fr-fr': "Soins Suspendus",
+				'es-es': "Bloqueo Curación",
+				'it-it': "Interferenza Malsana",
+				'pt-br': "Interferência de Cura",
+				'de-de': "Heilstörung"
 			},
 			effect: {
-				en: "Your opponent's Benched Pokémon can't be healed.",
-				fr: "Les Pokémon de Banc de votre adversaire ne peuvent pas être soignés.",
-				es: "Los Pokémon en Banca de tu rival no pueden ser curados.",
-				it: "I Pokémon nella panchina del tuo avversario non possono essere curati.",
-				pt: "Os Pokémon no Banco do seu oponente não podem ser curados.",
-				de: "Die Pokémon auf der Bank deines Gegners können nicht geheilt werden."
+				'en-us': "Your opponent's Benched Pokémon can't be healed.",
+				'fr-fr': "Les Pokémon de Banc de votre adversaire ne peuvent pas être soignés.",
+				'es-es': "Los Pokémon en Banca de tu rival no pueden ser curados.",
+				'it-it': "I Pokémon nella panchina del tuo avversario non possono essere curati.",
+				'pt-br': "Os Pokémon no Banco do seu oponente não podem ser curados.",
+				'de-de': "Die Pokémon auf der Bank deines Gegners können nicht geheilt werden."
 			},
 		},
 	],
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Claw Slash",
-				fr: "Tranch'Griffe",
-				es: "Cuchillada Garra",
-				it: "Lacerartiglio",
-				pt: "Golpe de Garra",
-				de: "Klauenschlitzer"
+				'en-us': "Claw Slash",
+				'fr-fr': "Tranch'Griffe",
+				'es-es': "Cuchillada Garra",
+				'it-it': "Lacerartiglio",
+				'pt-br': "Golpe de Garra",
+				'de-de': "Klauenschlitzer"
 			},
 
 			damage: 30,
@@ -86,7 +86,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It wears a rag fashioned into a Pikachu costume in an effort to look less scary. Unfortunately, the costume only makes it creepier."
+		'en-us': "It wears a rag fashioned into a Pikachu costume in an effort to look less scary. Unfortunately, the costume only makes it creepier."
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Pineco"
+		'id-id': "Pineco"
 	},
 
 	illustrator: "Midori Harada",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Cairan yang dimuntahkan Pineco dari mulutnya adalah perekat untuk menempelkan kulit pohon ke tubuhnya. Cairan tersebut mengeras jika terkena udara."
+		'id-id': "Cairan yang dimuntahkan Pineco dari mulutnya adalah perekat untuk menempelkan kulit pohon ke tubuhnya. Cairan tersebut mengeras jika terkena udara."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menyeruduk"
+			'id-id': "Menyeruduk"
 		},
 
 		damage: 50,

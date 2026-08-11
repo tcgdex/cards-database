@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リザード",
+		'ja-jp': "リザード",
 	},
 
 	illustrator: "Julie Hang",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "尻尾を 振りまわして 相手を なぎ倒し 鋭い ツメで ズタズタに ひきさいてしまう。",
+		'ja-jp': "尻尾を 振りまわして 相手を なぎ倒し 鋭い ツメで ズタズタに ひきさいてしまう。",
 	},
 
 	stage: "Stage1",
@@ -39,7 +39,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒトカゲ",
+		'ja-jp': "ヒトカゲ",
 	},
 
 	retreat: 1,

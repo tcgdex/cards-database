@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ラティオス"
+		'ja-jp': "ラティオス"
 	},
 
 	illustrator: "OKACHEKE",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "高い 知能を 持つ ポケモン。 腕を 折りたたんで 飛べば ジェット機を 追い越す スピードだ。"
+		'ja-jp': "高い 知能を 持つ ポケモン。 腕を 折りたたんで 飛べば ジェット機を 追い越す スピードだ。"
 	},
 
 	stage: "Basic",
@@ -24,17 +24,17 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "ちょくげきひこう"
+			'ja-jp': "ちょくげきひこう"
 		},
 
 		effect: {
-			ja: "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			'ja-jp': "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
 		}
 	}, {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			ja: "ジェットヘッド"
+			'ja-jp': "ジェットヘッド"
 		},
 
 		damage: 110

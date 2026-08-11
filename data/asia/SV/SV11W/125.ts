@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダンゴロ",
+		'ja-jp': "ダンゴロ",
 	},
 
 	illustrator: "Yuriko Akase",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "６角形の 耳を 持つ。 地底で 圧縮された 体は 鉄に 負けないくらい 硬い。",
+		'ja-jp': "６角形の 耳を 持つ。 地底で 圧縮された 体は 鉄に 負けないくらい 硬い。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "かたくなる" },
 			cost: ["Fighting"],
 			effect: {
-				ja: "次の相手の番、このポケモンは「40」以下のワザのダメージを受けない。",
+				'ja-jp': "次の相手の番、このポケモンは「40」以下のワザのダメージを受けない。",
 			},
 		},
 		{

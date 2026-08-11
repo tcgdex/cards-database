@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タケシのガッツ",
+		'ja-jp': "タケシのガッツ",
 	},
 
 	illustrator: "Naoki Saito",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のトラッシュからポケモンと基本エネルギーを合計6枚選び、相手に見せてから、山札にもどす。そして山札を切る。",
+		'ja-jp': "自分のトラッシュからポケモンと基本エネルギーを合計6枚選び、相手に見せてから、山札にもどす。そして山札を切る。",
 	},
 
 	variants: [

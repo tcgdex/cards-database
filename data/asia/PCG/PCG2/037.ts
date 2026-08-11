@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "xatu",
+		'ja-jp': "xatu",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ミラーコート",
+				'ja-jp': "ミラーコート",
 			},
 			effect: {
-				ja: "Xatuが対戦相手の攻撃によって焼かれたり毒されたりした場合（Xatuがノックアウトされたとしても）、攻撃するポカモンは同じ特別な条件の影響を受けます（1が1つしかない場合）。",
+				'ja-jp': "Xatuが対戦相手の攻撃によって焼かれたり毒されたりした場合（Xatuがノックアウトされたとしても）、攻撃するポカモンは同じ特別な条件の影響を受けます（1が1つしかない場合）。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "まばゆいばかりのダンス",
+				'ja-jp': "まばゆいばかりのダンス",
 			},
 			effect: {
-				ja: "防御するポケモンはそれぞれ混乱しています。",
+				'ja-jp': "防御するポケモンはそれぞれ混乱しています。",
 			},
 		},
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "ピループ",
+				'ja-jp': "ピループ",
 			},
 			effect: {
-				ja: "30のダメージに加えて、対戦相手がプレイしているトレーナーカードごとに30ダメージを与えます。",
+				'ja-jp': "30のダメージに加えて、対戦相手がプレイしているトレーナーカードごとに30ダメージを与えます。",
 			},
 		},
 	],

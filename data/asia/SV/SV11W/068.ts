@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "アイアント",
+		'ja-jp': "アイアント",
 	},
 
 	illustrator: "Yuka Morii",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "鋼の よろいを 身にまとう。 天敵の クイタランの 攻撃を 集団で 防ぎ 反撃する。",
+		'ja-jp': "鋼の よろいを 身にまとう。 天敵の クイタランの 攻撃を 集団で 防ぎ 反撃する。",
 	},
 
 	stage: "Basic",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のベンチに「アイアント」がいるなら、20ダメージ追加。",
+				'ja-jp': "自分のベンチに「アイアント」がいるなら、20ダメージ追加。",
 			},
 		},
 		{ name: { ja: "はさむ" }, damage: 50, cost: ["Metal", "Colorless"] },

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Espeon",
-		fr: "Mentali",
-		es: "Espeon",
-		it: "Espeon",
-		pt: "Espeon",
-		de: "Psiana"
+		'en-us': "Espeon",
+		'fr-fr': "Mentali",
+		'es-es': "Espeon",
+		'it-it': "Espeon",
+		'pt-br': "Espeon",
+		'de-de': "Psiana"
 	},
 
 	illustrator: "Mizue",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli"
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Solar Revelation",
-				fr: "Révélation Solaire",
-				es: "Revelación Solar",
-				it: "Rivelasole",
-				pt: "Revelação Solar",
-				de: "Solarschild"
+				'en-us': "Solar Revelation",
+				'fr-fr': "Révélation Solaire",
+				'es-es': "Revelación Solar",
+				'it-it': "Rivelasole",
+				'pt-br': "Revelação Solar",
+				'de-de': "Solarschild"
 			},
 			effect: {
-				en: "Prevent all effects of your opponent’s attacks, except damage, done to each of your Pokémon that has any Energy attached to it.",
-				fr: "Évitez tous les effets des attaques de votre adversaire, excepté les dégâts, infligés à chacun de vos Pokémon auquel de l’Énergie est attachée.",
-				es: "Evita todos los efectos de los ataques de tu rival, excepto el daño, infligidos a cada uno de tus Pokémon que tenga cualquier Energía unida a él.",
-				it: "Previeni tutti gli effetti degli attacchi del tuo avversario, esclusi i danni, inflitti ai tuoi Pokémon che abbiano delle Energie assegnate.",
-				pt: "Previne todos os efeitos dos ataques do seu oponente, exceto danos, causados a cada um dos seus Pokémon com Energia ligada.",
-				de: "Verhindere alle Effekte von gegnerischen Angriffen, außer Schaden, bei jedem deiner Pokémon, an das Energie angelegt ist."
+				'en-us': "Prevent all effects of your opponent’s attacks, except damage, done to each of your Pokémon that has any Energy attached to it.",
+				'fr-fr': "Évitez tous les effets des attaques de votre adversaire, excepté les dégâts, infligés à chacun de vos Pokémon auquel de l’Énergie est attachée.",
+				'es-es': "Evita todos los efectos de los ataques de tu rival, excepto el daño, infligidos a cada uno de tus Pokémon que tenga cualquier Energía unida a él.",
+				'it-it': "Previeni tutti gli effetti degli attacchi del tuo avversario, esclusi i danni, inflitti ai tuoi Pokémon che abbiano delle Energie assegnate.",
+				'pt-br': "Previne todos os efeitos dos ataques do seu oponente, exceto danos, causados a cada um dos seus Pokémon com Energia ligada.",
+				'de-de': "Verhindere alle Effekte von gegnerischen Angriffen, außer Schaden, bei jedem deiner Pokémon, an das Energie angelegt ist."
 			},
 		},
 	],
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psy Report",
-				fr: "Observation Psychique"
+				'en-us': "Psy Report",
+				'fr-fr': "Observation Psychique"
 			},
 			effect: {
-				en: "Your opponent reveals his or her hand.",
-				fr: "Votre adversaire montre sa main."
+				'en-us': "Your opponent reveals his or her hand.",
+				'fr-fr': "Votre adversaire montre sa main."
 			},
 			damage: 60,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its fur is so sensitive, it can sense minute shifts in the air and predict the weather.",
+		'en-us': "Its fur is so sensitive, it can sense minute shifts in the air and predict the weather.",
 	},
 
 	thirdParty: {

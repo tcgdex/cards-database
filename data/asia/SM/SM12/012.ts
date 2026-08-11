@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メラルバ",
+		'ja-jp': "メラルバ",
 	},
 
 	illustrator: "Midori Harada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "５本のツノから 炎を 吹きだし 相手と 戦う。 その温度は 最大で ３０００度に 達する。",
+		'ja-jp': "５本のツノから 炎を 吹きだし 相手と 戦う。 その温度は 最大で ３０００度に 達する。",
 	},
 
 	stage: "Basic",

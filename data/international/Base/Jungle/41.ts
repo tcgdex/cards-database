@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Jungle'
 
 const card: Card = {
 	name: {
-		en: "Parasect",
-		fr: "Parasect",
-		de: "Parasek"
+		'en-us': "Parasect",
+		'fr-fr': "Parasect",
+		'de-de': "Parasek"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Paras",
-		fr: "Paras"
+		'en-us': "Paras",
+		'fr-fr': "Paras"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Spore",
-				fr: "Spore",
-				de: "Pilzspore"
+				'en-us': "Spore",
+				'fr-fr': "Spore",
+				'de-de': "Pilzspore"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das verteidigende Pokémon ist jetzt schlafend."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das verteidigende Pokémon ist jetzt schlafend."
 			},
 
 		},
@@ -55,9 +55,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 30,
@@ -75,8 +75,8 @@ const card: Card = {
 
 
 	description: {
-		en: "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
-		fr: "Une symbiose entre un parasite et un insecte. Le champignon a pris le contrôle sur son hôte."
+		'en-us': "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
+		'fr-fr': "Une symbiose entre un parasite et un insecte. Le champignon a pris le contrôle sur son hôte."
 	},
 
 

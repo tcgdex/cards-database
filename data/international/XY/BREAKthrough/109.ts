@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Axew",
-		fr: "Coupenotte",
-		es: "Axew",
-		it: "Axew",
-		pt: "Axew",
-		de: "Milza"
+		'en-us': "Axew",
+		'fr-fr': "Coupenotte",
+		'es-es': "Axew",
+		'it-it': "Axew",
+		'pt-br': "Axew",
+		'de-de': "Milza"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Extra Chop",
-				fr: "Tranch'Extra",
-				es: "Tajo Extra",
-				it: "Porzione Extra",
-				pt: "Golpe Adicional",
-				de: "Nachschlag"
+				'en-us': "Extra Chop",
+				'fr-fr': "Tranch'Extra",
+				'es-es': "Tajo Extra",
+				'it-it': "Porzione Extra",
+				'pt-br': "Golpe Adicional",
+				'de-de': "Nachschlag"
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s'inflige 10 dégâts.",
-				es: "Este Pokémon se hace 10 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 10 danni a se stesso.",
-				pt: "Este Pokémon causa 10 de danos a si mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "This Pokémon does 10 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 10 dégâts.",
+				'es-es': "Este Pokémon se hace 10 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 10 danni a se stesso.",
+				'pt-br': "Este Pokémon causa 10 de danos a si mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Claw",
-				fr: "Dracogriffe",
-				es: "Garra Dragón",
-				it: "Dragartigli",
-				pt: "Garra de Dragão",
-				de: "Drachenklaue"
+				'en-us': "Dragon Claw",
+				'fr-fr': "Dracogriffe",
+				'es-es': "Garra Dragón",
+				'it-it': "Dragartigli",
+				'pt-br': "Garra de Dragão",
+				'de-de': "Drachenklaue"
 			},
 
 			damage: 40,
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows in quickly.",
+		'en-us': "They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows in quickly.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Klang",
-		fr: "Clic",
-		es: "Klang",
-		it: "Klang",
-		pt: "Klang",
-		de: "Kliklak"
+		'en-us': "Klang",
+		'fr-fr': "Clic",
+		'es-es': "Klang",
+		'it-it': "Klang",
+		'pt-br': "Klang",
+		'de-de': "Kliklak"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Klink",
-		fr: "Tic"
+		'en-us': "Klink",
+		'fr-fr': "Tic"
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Charge Beam",
-				fr: "Rayon Chargé"
+				'en-us': "Charge Beam",
+				'fr-fr': "Rayon Chargé"
 			},
 			effect: {
-				en: "Flip a coin. If heads, attach an Energy card from your discard pile to this Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, attachez une carte Énergie de votre pile de défausse à ce Pokémon."
+				'en-us': "Flip a coin. If heads, attach an Energy card from your discard pile to this Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, attachez une carte Énergie de votre pile de défausse à ce Pokémon."
 			},
 			damage: 20,
 
@@ -57,8 +57,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vice Grip",
-				fr: "Force Poigne"
+				'en-us': "Vice Grip",
+				'fr-fr': "Force Poigne"
 			},
 
 			damage: 50,
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Spinning minigears are rotated at high speed and repeatedly fired away. It is dangerous if the gears don't return.",
+		'en-us': "Spinning minigears are rotated at high speed and repeatedly fired away. It is dangerous if the gears don't return.",
 	},
 
 	thirdParty: {

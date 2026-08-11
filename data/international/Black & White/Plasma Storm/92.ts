@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Durant",
-		fr: "Fermite",
-		es: "Durant",
-		it: "Durant",
-		pt: "Durant",
-		de: "Fermicula"
+		'en-us': "Durant",
+		'fr-fr': "Fermite",
+		'es-es': "Durant",
+		'it-it': "Durant",
+		'pt-br': "Durant",
+		'de-de': "Fermicula"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Backup",
-				fr: "Renforts",
+				'en-us': "Call for Backup",
+				'fr-fr': "Renforts",
 			},
 			effect: {
-				en: "Search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez un Pokémon dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez un Pokémon dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Jail",
-				fr: "Prison Métallique",
+				'en-us': "Metal Jail",
+				'fr-fr': "Prison Métallique",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 			damage: 30,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Individuals each play different roles in driving Heatmor, their natural predator, away from their colony.",
+		'en-us': "Individuals each play different roles in driving Heatmor, their natural predator, away from their colony.",
 	},
 
 	thirdParty: {

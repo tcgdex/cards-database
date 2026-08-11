@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Porygon",
-		fr: "Porygon",
-		es: "Porygon",
-		it: "Porygon",
-		pt: "Porygon",
-		de: "Porygon"
+		'en-us': "Porygon",
+		'fr-fr': "Porygon",
+		'es-es': "Porygon",
+		'it-it': "Porygon",
+		'pt-br': "Porygon",
+		'de-de': "Porygon"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -22,12 +22,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Sharpen",
-			fr: "Affûtage",
-			es: "Afilar",
-			it: "Affilatore",
-			pt: "Afiar",
-			de: "Schärfer"
+			'en-us': "Sharpen",
+			'fr-fr': "Affûtage",
+			'es-es': "Afilar",
+			'it-it': "Affilatore",
+			'pt-br': "Afiar",
+			'de-de': "Schärfer"
 		},
 
 		damage: 20,
@@ -46,7 +46,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It was built 20 years ago by scientists who dreamed of exploring space. Their dreams have yet to come true."
+		'en-us': "It was built 20 years ago by scientists who dreamed of exploring space. Their dreams have yet to come true."
 	},
 
 	variants: [

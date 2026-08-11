@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu"
 	},
 
 	illustrator: "Gakuji Nomoto",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe"
 			},
 
 			damage: 10,
@@ -43,12 +43,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunderbolt",
-				fr: "Tonnerre"
+				'en-us': "Thunderbolt",
+				'fr-fr': "Tonnerre"
 			},
 			effect: {
-				en: "Discard all Energy cards attached to Pikachu in order to use this attack.",
-				fr: "Défaussez toutes les cartes Énergie attachées à Pikachu."
+				'en-us': "Discard all Energy cards attached to Pikachu in order to use this attack.",
+				'fr-fr': "Défaussez toutes les cartes Énergie attachées à Pikachu."
 			},
 			damage: 40,
 
@@ -65,8 +65,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It uses its sensitive tail to sense its environment and has been known to react violently if its tail is grabbed.",
-		fr: "Il utilise sa queue sensible pour explorer son environnement et réagit violemment si on l'attrape par la queue."
+		'en-us': "It uses its sensitive tail to sense its environment and has been known to react violently if its tail is grabbed.",
+		'fr-fr': "Il utilise sa queue sensible pour explorer son environnement et réagit violemment si on l'attrape par la queue."
 	},
 
 	variants: [

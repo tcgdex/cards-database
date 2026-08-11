@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sword & Shield'
 
 const cel25cc: Set = {
 	id: "cel25cc",
 
 	name: {
-		en: "Celebrations Classic Collection",
-		fr: "Célébrations Collection Classique",
-		es: "Celebraciones Colección Clásica",
-		it: "Gran Festa Collezione Classica",
-		de: "Celebrations Klassische Kollektion",
-		pt: "Celebrações Coleção Clássica"
+		'en-us': "Celebrations Classic Collection",
+		'fr-fr': "Célébrations Collection Classique",
+		'es-es': "Celebraciones Colección Clásica",
+		'it-it': "Gran Festa Collezione Classica",
+		'de-de': "Celebrations Klassische Kollektion",
+		'pt-br': "Celebrações Coleção Clássica"
 	},
 
 	tcgOnline: 'CEL',

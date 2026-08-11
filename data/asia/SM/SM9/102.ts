@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゲンガー&ミミッキュGX",
+		'ja-jp': "ゲンガー&ミミッキュGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,14 +20,14 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Psychic", "Psychic"],
 			effect: {
-				ja: "相手の手札を見て、その中にあるトレーナーズの枚数x50ダメージ。",
+				'ja-jp': "相手の手札を見て、その中にあるトレーナーズの枚数x50ダメージ。",
 			},
 		},
 		{
 			name: { ja: "ホラーハウスGX" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "次の相手の番、相手は手札からカードを出して使えない。追加で[超]エネルギーが1個ついているなら、おたがいのプレイヤーは、それぞれの手札が7枚になるように、山札を引く。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "次の相手の番、相手は手札からカードを出して使えない。追加で[超]エネルギーが1個ついているなら、おたがいのプレイヤーは、それぞれの手札が7枚になるように、山札を引く。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

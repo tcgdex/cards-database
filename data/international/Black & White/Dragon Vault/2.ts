@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Vault'
 
 const card: Card = {
 	name: {
-		en: "Dratini",
-		fr: "Minidraco",
+		'en-us': "Dratini",
+		'fr-fr': "Minidraco",
 	},
 
 	illustrator: "Naoki Saito",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Hypnotic Gaze",
-				fr: "Regard Hypnotique",
+				'en-us': "Hypnotic Gaze",
+				'fr-fr': "Regard Hypnotique",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
 			},
 
 		},
@@ -44,8 +44,8 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Tail Whap",
-				fr: "Queue Battoir",
+				'en-us': "Tail Whap",
+				'fr-fr': "Queue Battoir",
 			},
 
 			damage: 10,
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is called the \"Mirage Pokémon\" because so few have seen it. Its shed skin has been found.",
+		'en-us': "It is called the \"Mirage Pokémon\" because so few have seen it. Its shed skin has been found.",
 	},
 
 	thirdParty: {

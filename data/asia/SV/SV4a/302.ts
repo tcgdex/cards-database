@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "オンバット",
+		'ja-jp': "オンバット",
 		'zh-tw': "嗡蝠",
-		id: "Noibat"
+		'id-id': "Noibat"
 	},
 
 	illustrator: "Nelnal",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "大きな 耳から 超音波を 出して エサの 果物を 探す。 カジッチュを エサと 間違える。",
+		'ja-jp': "大きな 耳から 超音波を 出して エサの 果物を 探す。 カジッチュを エサと 間違える。",
 		'zh-tw': "從大大的耳朵發出超音波，尋找水果來填飽肚子。 會把啃果蟲誤認成食物。",
-		id: "Noibat mengeluarkan gelombang ultrasonik dari kuping besarnya untuk mencari buah makanannya. Ia keliru mengira Applin sebagai makanannya."
+		'id-id': "Noibat mengeluarkan gelombang ultrasonik dari kuping besarnya untuk mencari buah makanannya. Ia keliru mengira Applin sebagai makanannya."
 	},
 
 	stage: "Basic",
@@ -28,9 +28,9 @@ const card: Card = {
 		cost: ["Psychic", "Darkness"],
 
 		name: {
-			ja: "かぜおこし",
+			'ja-jp': "かぜおこし",
 			'zh-tw': "起風",
-			id: "Hembusan Angin"
+			'id-id': "Hembusan Angin"
 		},
 
 		damage: 40

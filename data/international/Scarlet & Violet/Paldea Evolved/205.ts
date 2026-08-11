@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Bekaglaçon",
-		en: "Eiscue",
-		es: "Eiscue",
-		it: "Eiscue",
-		pt: "Eiscue",
-		de: "Kubuin"
+		'fr-fr': "Bekaglaçon",
+		'en-us': "Eiscue",
+		'es-es': "Eiscue",
+		'it-it': "Eiscue",
+		'pt-br': "Eiscue",
+		'de-de': "Kubuin"
 	},
 
 	rarity: "Illustration rare",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			fr: "Coup d'Boule",
-			en: "Headbutt",
-			es: "Golpe Cabeza",
-			it: "Bottintesta",
-			pt: "Cabeçada",
-			de: "Kopfnuss"
+			'fr-fr': "Coup d'Boule",
+			'en-us': "Headbutt",
+			'es-es': "Golpe Cabeza",
+			'it-it': "Bottintesta",
+			'pt-br': "Cabeçada",
+			'de-de': "Kopfnuss"
 		},
 
 		damage: 20
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Water", "Water", "Water"],
 
 		name: {
-			fr: "Bloc Glacial",
-			en: "Frigid Block",
-			es: "Bloque Glacial",
-			it: "Blocco Glaciale",
-			pt: "Bloco Frígido",
-			de: "Kühler Block"
+			'fr-fr': "Bloc Glacial",
+			'en-us': "Frigid Block",
+			'es-es': "Bloque Glacial",
+			'it-it': "Blocco Glaciale",
+			'pt-br': "Bloco Frígido",
+			'de-de': "Kühler Block"
 		},
 
 		effect: {
-			fr: "Défaussez toutes les Énergies attachées à ce Pokémon. Pendant le prochain tour de votre adversaire, ce Pokémon subit 100 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			en: "Discard all Energy from this Pokémon. During your opponent's next turn, this Pokémon takes 100 less damage from attacks (after applying Weakness and Resistance).",
-			es: "Descarta todas las Energías de este Pokémon. Durante el próximo turno de tu rival, los ataques hacen 100 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-			it: "Scarta tutte le Energie da questo Pokémon. Durante il prossimo turno del tuo avversario, questo Pokémon subisce 100 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-			pt: "Descarte todas as Energias deste Pokémon. Durante o próximo turno do seu oponente, este Pokémon receberá 100 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
-			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel. Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 100 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+			'fr-fr': "Défaussez toutes les Énergies attachées à ce Pokémon. Pendant le prochain tour de votre adversaire, ce Pokémon subit 100 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			'en-us': "Discard all Energy from this Pokémon. During your opponent's next turn, this Pokémon takes 100 less damage from attacks (after applying Weakness and Resistance).",
+			'es-es': "Descarta todas las Energías de este Pokémon. Durante el próximo turno de tu rival, los ataques hacen 100 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			'it-it': "Scarta tutte le Energie da questo Pokémon. Durante il prossimo turno del tuo avversario, questo Pokémon subisce 100 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+			'pt-br': "Descarte todas as Energias deste Pokémon. Durante o próximo turno do seu oponente, este Pokémon receberá 100 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
+			'de-de': "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel. Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 100 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 		},
 
 		damage: 100
@@ -80,7 +80,7 @@ const card: Card = {
 	illustrator: "Nelnal",
 
 	description: {
-		en: "On hot days, these Pokémon press their ice cube heads together and pass the time cooling each other down.",
+		'en-us': "On hot days, these Pokémon press their ice cube heads together and pass the time cooling each other down.",
 	},
 }
 

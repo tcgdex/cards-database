@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Dwebble",
-		fr: "Crabicoque",
-		es: "Dwebble",
-		it: "Dwebble",
-		pt: "Dwebble",
-		de: "Lithomith"
+		'en-us': "Dwebble",
+		'fr-fr': "Crabicoque",
+		'es-es': "Dwebble",
+		'it-it': "Dwebble",
+		'pt-br': "Dwebble",
+		'de-de': "Lithomith"
 	},
 
 	illustrator: "kawayoo",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dig Claws",
-				fr: "Creusogriffes",
-				es: "Hundir Garras",
-				it: "Scavazanne",
-				pt: "Fincar Garras",
-				de: "Schaufelkrallen"
+				'en-us': "Dig Claws",
+				'fr-fr': "Creusogriffes",
+				'es-es': "Hundir Garras",
+				'it-it': "Scavazanne",
+				'pt-br': "Fincar Garras",
+				'de-de': "Schaufelkrallen"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It makes a hole in a suitable rock. If that rock breaks, the Pokémon remains agitated until it locates a replacement.",
+		'en-us': "It makes a hole in a suitable rock. If that rock breaks, the Pokémon remains agitated until it locates a replacement.",
 	},
 
 	thirdParty: {

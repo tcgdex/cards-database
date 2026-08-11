@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Unown [V]",
-		fr: "Zarbi V",
-		de: "Icognito V"
+		'en-us': "Unown [V]",
+		'fr-fr': "Zarbi V",
+		'de-de': "Icognito V"
 	},
 
 	illustrator: "CR CG gangs",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "[Vanish]",
-				fr: "Vanish",
-				de: "Vanish"
+				'en-us': "[Vanish]",
+				'fr-fr': "Vanish",
+				'de-de': "Vanish"
 			},
 			effect: {
-				en: "When you play Unown V from your hand, you may flip a coin. If heads, return 1 of your Pokémon with Unown in its name (other than Unown V) to your hand. (Discard all cards attached to that card.)",
-				fr: "Quand vous jouez Zarbi [V] depuis votre main, vous pouvez lancer une pièce. Si c'est face, renvoyez 1 de vos Pokémon Zarbi (autre que Zarbi [V]) dans votre main. (Défaussez-vous de toutes les cartes attachées à ce Pokémon.)",
-				de: "When you play Unown V from your hand, you may flip a coun. If heads, return 1 of your Pokémon with Unown in its name (other than Unown V) to your hand. (Discard all cards attached to that card.)"
+				'en-us': "When you play Unown V from your hand, you may flip a coin. If heads, return 1 of your Pokémon with Unown in its name (other than Unown V) to your hand. (Discard all cards attached to that card.)",
+				'fr-fr': "Quand vous jouez Zarbi [V] depuis votre main, vous pouvez lancer une pièce. Si c'est face, renvoyez 1 de vos Pokémon Zarbi (autre que Zarbi [V]) dans votre main. (Défaussez-vous de toutes les cartes attachées à ce Pokémon.)",
+				'de-de': "When you play Unown V from your hand, you may flip a coun. If heads, return 1 of your Pokémon with Unown in its name (other than Unown V) to your hand. (Discard all cards attached to that card.)"
 			},
 		},
 	],
@@ -47,9 +47,9 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hidden Power",
-				fr: "Puissance cachée",
-				de: "Kraftreserve"
+				'en-us': "Hidden Power",
+				'fr-fr': "Puissance cachée",
+				'de-de': "Kraftreserve"
 			},
 
 			damage: 10,
@@ -67,8 +67,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It is believed that the variety of types of this Pokémon were created by evolutionary adaptation, as each possesses a different ability.",
-		fr: "On pense que la variété des types de ce Pokémon particulier est le résultat d'une adaptation due à un caprice de l'évolution, chacun possédant une capacité différente."
+		'en-us': "It is believed that the variety of types of this Pokémon were created by evolutionary adaptation, as each possesses a different ability.",
+		'fr-fr': "On pense que la variété des types de ce Pokémon particulier est le résultat d'une adaptation due à un caprice de l'évolution, chacun possédant une capacité différente."
 	},
 
 

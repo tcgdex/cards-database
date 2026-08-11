@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スキスター",
+		'ja-jp': "スキスター",
 	},
 
 	rarity: "Uncommon",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "敏ility性",
+				'ja-jp': "敏ility性",
 			},
 			effect: {
-				ja: "コインをひっくり返します。ヘッドの場合、対戦相手の次のターン中に、Scytherに行われたダメージを含む攻撃のすべての影響を防ぎます。",
+				'ja-jp': "コインをひっくり返します。ヘッドの場合、対戦相手の次のターン中に、Scytherに行われたダメージを含む攻撃のすべての影響を防ぎます。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Grass", "Grass", "Grass"],
 			name: {
-				ja: "鋭い鎌",
+				'ja-jp': "鋭い鎌",
 			},
 			damage: 40,
 		},

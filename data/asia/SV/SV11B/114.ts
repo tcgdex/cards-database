@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ツンベアー",
+		'ja-jp': "ツンベアー",
 	},
 
 	illustrator: "Whisker",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "吐く 息を 自在に 凍らせる。 泳ぎが 得意で 北の 海を 泳ぎまわり 獲物を 捕まえる。",
+		'ja-jp': "吐く 息を 自在に 凍らせる。 泳ぎが 得意で 北の 海を 泳ぎまわり 獲物を 捕まえる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "50x",
 			cost: ["Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数×50ダメージ。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数×50ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Water", "Water", "Water", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、ワザが使えない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、ワザが使えない。",
 			},
 		},
 	],
@@ -43,7 +43,7 @@ const card: Card = {
 	variants: [{ type: "holo" }],
 
 	evolveFrom: {
-		ja: "クマシュン",
+		'ja-jp': "クマシュン",
 	},
 
 	retreat: 3,

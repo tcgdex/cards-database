@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Tepig",
+		'en-us': "Tepig",
 	},
 
 	illustrator: "Kanako Eo",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
+				'en-us': "Take Down",
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself.",
+				'en-us': "This Pokémon does 10 damage to itself.",
 			},
 			damage: 30,
 
@@ -50,7 +50,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It can deftly dodge its foe's attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
+		'en-us': "It can deftly dodge its foe's attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
 	},
 
 	thirdParty: {

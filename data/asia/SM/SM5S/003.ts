@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロゼリア",
+		'ja-jp': "ロゼリア",
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "栄養満点の わき水を 飲んだ ロゼリアは 珍しい 色の 花を 咲かせる らしい。",
+		'ja-jp': "栄養満点の わき水を 飲んだ ロゼリアは 珍しい 色の 花を 咲かせる らしい。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数x30ダメージ。このポケモンをこんらんにする。",
+				'ja-jp': "コインを3回投げ、オモテの数x30ダメージ。このポケモンをこんらんにする。",
 			},
 		},
 	],

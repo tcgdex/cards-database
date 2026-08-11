@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Machamp"
+		'en-us': "Machamp"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Machoke"
+		'en-us': "Machoke"
 	},
 
 	stage: "Stage2",
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Strikes Back"
+				'en-us': "Strikes Back"
 			},
 			effect: {
-				en: "Whenever your opponent's attack damages Machamp (even if Machamp is Knocked Out), this power does 10 damage to the attacking Pokémon. (Don't apply Weakness and Resistance.) This power can't be used if Machamp is already affected by a Special Condition when your opponent attacks."
+				'en-us': "Whenever your opponent's attack damages Machamp (even if Machamp is Knocked Out), this power does 10 damage to the attacking Pokémon. (Don't apply Weakness and Resistance.) This power can't be used if Machamp is already affected by a Special Condition when your opponent attacks."
 			}
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Seismic Toss"
+				'en-us': "Seismic Toss"
 			},
 
 			damage: 60,
@@ -64,7 +64,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Using its amazing muscles, it throws powerful punches that can knock its victim clear over the horizon."
+		'en-us': "Using its amazing muscles, it throws powerful punches that can knock its victim clear over the horizon."
 	},
 
 	variants: [

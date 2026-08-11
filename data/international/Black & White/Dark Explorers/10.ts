@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Shelmet",
-		fr: "Escargaume",
-		es: "Shelmet",
-		it: "Shelmet",
-		pt: "Shelmet",
-		de: "Schnuthelm"
+		'en-us': "Shelmet",
+		'fr-fr': "Escargaume",
+		'es-es': "Shelmet",
+		'it-it': "Shelmet",
+		'pt-br': "Shelmet",
+		'de-de': "Schnuthelm"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Body Slam",
-				fr: "Plaquage"
+				'en-us': "Body Slam",
+				'fr-fr': "Plaquage"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 20,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "When attacked, it defends itself by closing the lid of its shell. It can spit a sticky, poisonous liquid.",
+		'en-us': "When attacked, it defends itself by closing the lid of its shell. It can spit a sticky, poisonous liquid.",
 	},
 
 	thirdParty: {

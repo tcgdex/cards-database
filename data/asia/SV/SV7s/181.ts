@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "มาโฮมิล"
+		'th-th': "มาโฮมิล"
 	},
 
 	illustrator: "Dsuke",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		th: "หากถูกจู่โจม มันจะพุ่งเข้าชนทำให้ศัตรูเปรอะไปด้วยครีม ในช่วงที่ศัตรูมองไม่เห็นหรือตกใจกับความอร่อยของครีม ก็จะอาศัยจังหวะนั้นหนีไป"
+		'th-th': "หากถูกจู่โจม มันจะพุ่งเข้าชนทำให้ศัตรูเปรอะไปด้วยครีม ในช่วงที่ศัตรูมองไม่เห็นหรือตกใจกับความอร่อยของครีม ก็จะอาศัยจังหวะนั้นหนีไป"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "งึมงำ"
+			'th-th': "งึมงำ"
 		},
 
 		damage: 20,

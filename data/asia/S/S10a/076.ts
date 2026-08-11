@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミカルゲ",
+		'ja-jp': "ミカルゲ",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "邪悪なる 念にて 祟り もたらす。 百と八つの 悪しき 魂 集いて 生じたと 記されし ポケモン。",
+		'ja-jp': "邪悪なる 念にて 祟り もたらす。 百と八つの 悪しき 魂 集いて 生じたと 記されし ポケモン。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "のろいのことづけ" },
 			effect: {
-				ja: "このポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。",
+				'ja-jp': "このポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Darkness", "Darkness"],
 			effect: {
-				ja: "自分のトラッシュにある「ミカルゲ」の枚数×60ダメージ追加。",
+				'ja-jp': "自分のトラッシュにある「ミカルゲ」の枚数×60ダメージ追加。",
 			},
 		},
 	],

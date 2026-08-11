@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Fearow",
-		fr: "Rapasdepic",
-		de: "Ibitak"
+		'en-us': "Fearow",
+		'fr-fr': "Rapasdepic",
+		'de-de': "Ibitak"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -22,18 +22,18 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spearow",
-		fr: "Piafabec"
+		'en-us': "Spearow",
+		'fr-fr': "Piafabec"
 	},
 
 	abilities: [
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Energy Return",
+				'en-us': "Energy Return",
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), choose an Energy card attached to 1 of your Pokémon and return it to your hand. This power can't be used if Espeon is affected by a Special Condition.",
+				'en-us': "As often as you like during your turn (before your attack), choose an Energy card attached to 1 of your Pokémon and return it to your hand. This power can't be used if Espeon is affected by a Special Condition.",
 			},
 		},
 	],
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Clutch",
-				fr: "Serre",
-				de: "Greifer"
+				'en-us': "Clutch",
+				'fr-fr': "Serre",
+				'de-de': "Greifer"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
-				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'de-de': "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 20,
 
@@ -66,15 +66,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Supersonic Flight",
-				fr: "Vol supersonique",
-				de: "Superschallflug"
+				'en-us': "Supersonic Flight",
+				'fr-fr': "Vol supersonique",
+				'de-de': "Superschallflug"
 			},
 
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Wirkung."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'de-de': "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Wirkung."
 			},
 
 			damage: 50,

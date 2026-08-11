@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スカルモリー",
+		'ja-jp': "スカルモリー",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "メタリックリフト",
+				'ja-jp': "メタリックリフト",
 			},
 			effect: {
-				ja: "Skarmoryに金属エネルギーが付着している場合、Skarmoryのリトリートコストは0です。",
+				'ja-jp': "Skarmoryに金属エネルギーが付着している場合、Skarmoryのリトリートコストは0です。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "スピアヘッド",
+				'ja-jp': "スピアヘッド",
 			},
 			effect: {
-				ja: "カードを描きます。",
+				'ja-jp': "カードを描きます。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "重金属",
+				'ja-jp': "重金属",
 			},
 			effect: {
-				ja: "スカルモリーに取り付けられた金属エネルギーごとにコインを裏返します。この攻撃は、10ダメージに加えて、ヘッドごとに20のダメージを与えます。",
+				'ja-jp': "スカルモリーに取り付けられた金属エネルギーごとにコインを裏返します。この攻撃は、10ダメージに加えて、ヘッドごとに20のダメージを与えます。",
 			},
 		},
 	],

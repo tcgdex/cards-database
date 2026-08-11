@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Masquerain",
-		fr: "Maskadra",
-		es: "Masquerain",
-		it: "Masquerain",
-		pt: "Masquerain",
-		de: "Maskeregen"
+		'en-us': "Masquerain",
+		'fr-fr': "Maskadra",
+		'es-es': "Masquerain",
+		'it-it': "Masquerain",
+		'pt-br': "Masquerain",
+		'de-de': "Maskeregen"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Surskit",
-		fr: "Arakdo",
-		es: "Surskit",
-		it: "Surskit",
-		pt: "Surskit",
-		de: "Gehweiher"
+		'en-us': "Surskit",
+		'fr-fr': "Arakdo",
+		'es-es': "Surskit",
+		'it-it': "Surskit",
+		'pt-br': "Surskit",
+		'de-de': "Gehweiher"
 	},
 	stage: "Stage1",
 
@@ -32,32 +32,32 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Daunting Eyes",
-			fr: "Regard Intimidant",
-			es: "Ojos Intimidantes",
-			it: "Occhi Minacciosi",
-			pt: "Olhos Aterrorizantes",
-			de: "Einschüchternde Augen"
+			'en-us': "Daunting Eyes",
+			'fr-fr': "Regard Intimidant",
+			'es-es': "Ojos Intimidantes",
+			'it-it': "Occhi Minacciosi",
+			'pt-br': "Olhos Aterrorizantes",
+			'de-de': "Einschüchternde Augen"
 		},
 
 		effect: {
-			en: "Flip a coin until you get tails. For each heads, shuffle an Energy attached to your opponent's Active Pokémon into their deck.",
-			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Pour chaque côté face, mélangez une Énergie attachée au Pokémon Actif de votre adversaire avec son deck.",
-			es: "Lanza 1 moneda hasta que salga cruz. Por cada cara, pon 1 Energía unida al Pokémon Activo de tu rival en su baraja y barájala.",
-			it: "Lancia una moneta finché non esce croce. Ogni volta che esce testa, rimischia un'Energia assegnata al Pokémon attivo del tuo avversario nel suo mazzo.",
-			pt: "Jogue uma moeda até sair coroa. Para cada cara, embaralhe uma Energia ligada ao Pokémon Ativo do seu oponente no baralho dele.",
-			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Mische pro Kopf 1 an das Aktive Pokémon deines Gegners angelegte Energie in sein Deck."
+			'en-us': "Flip a coin until you get tails. For each heads, shuffle an Energy attached to your opponent's Active Pokémon into their deck.",
+			'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Pour chaque côté face, mélangez une Énergie attachée au Pokémon Actif de votre adversaire avec son deck.",
+			'es-es': "Lanza 1 moneda hasta que salga cruz. Por cada cara, pon 1 Energía unida al Pokémon Activo de tu rival en su baraja y barájala.",
+			'it-it': "Lancia una moneta finché non esce croce. Ogni volta che esce testa, rimischia un'Energia assegnata al Pokémon attivo del tuo avversario nel suo mazzo.",
+			'pt-br': "Jogue uma moeda até sair coroa. Para cada cara, embaralhe uma Energia ligada ao Pokémon Ativo do seu oponente no baralho dele.",
+			'de-de': "Wirf so lange 1 Münze, bis sie Zahl zeigt. Mische pro Kopf 1 an das Aktive Pokémon deines Gegners angelegte Energie in sein Deck."
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Cutting Wind",
-			fr: "Vent Glacial",
-			es: "Viento Helado",
-			it: "Vento Tagliente",
-			pt: "Vento Dilacerante",
-			de: "Schneidender Wind"
+			'en-us': "Cutting Wind",
+			'fr-fr': "Vent Glacial",
+			'es-es': "Viento Helado",
+			'it-it': "Vento Tagliente",
+			'pt-br': "Vento Dilacerante",
+			'de-de': "Schneidender Wind"
 		},
 
 		damage: 70
@@ -73,7 +73,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "The antennae have distinctive patterns that look like eyes. When it rains, they grow heavy, making flight impossible.",
+		'en-us': "The antennae have distinctive patterns that look like eyes. When it rains, they grow heavy, making flight impossible.",
 	},
 
 	variants: [

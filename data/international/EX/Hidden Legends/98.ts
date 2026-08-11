@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Regirock ex",
-		fr: "Regirock ex",
-		de: "Regirock ex"
+		'en-us': "Regirock ex",
+		'fr-fr': "Regirock ex",
+		'de-de': "Regirock ex"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -28,14 +28,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Healing Stone",
-				fr: "Pierre guérisseuse",
-				de: "Healing Stone"
+				'en-us': "Healing Stone",
+				'fr-fr': "Pierre guérisseuse",
+				'de-de': "Healing Stone"
 			},
 			effect: {
-				en: "At any time between turns, remove 1 damage counter from Regirock ex.",
-				fr: "N'importe quand entre deux tours, retirez à Regirock ex 1 marqueur de dégât.",
-				de: "At any time between turns, remove 1 damage counter from Regirock ex."
+				'en-us': "At any time between turns, remove 1 damage counter from Regirock ex.",
+				'fr-fr': "N'importe quand entre deux tours, retirez à Regirock ex 1 marqueur de dégât.",
+				'de-de': "At any time between turns, remove 1 damage counter from Regirock ex."
 			}
 		},
 	],
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tonnage",
-				fr: "Surpuissance",
-				de: "Tonnage"
+				'en-us': "Tonnage",
+				'fr-fr': "Surpuissance",
+				'de-de': "Tonnage"
 			},
 			effect: {
-				en: "You may do 60 damage plus 20 more damage. If you do, Regirock ex does 30 damage to itself.",
-				fr: "Vous pouvez infliger 60 dégâts plus 20 dégâts supplémentaires. Regirock ex s'inflige alors 30 dégâts.",
-				de: "You may do 60 damage plus 20 more damage. If you do, Regirock ex does 30 damage to itself."
+				'en-us': "You may do 60 damage plus 20 more damage. If you do, Regirock ex does 30 damage to itself.",
+				'fr-fr': "Vous pouvez infliger 60 dégâts plus 20 dégâts supplémentaires. Regirock ex s'inflige alors 30 dégâts.",
+				'de-de': "You may do 60 damage plus 20 more damage. If you do, Regirock ex does 30 damage to itself."
 			},
 			damage: "60+",
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Minccino",
-		fr: "Chinchidou",
-		es: "Minccino",
-		it: "Minccino",
-		pt: "Minccino",
-		de: "Picochilla"
+		'en-us': "Minccino",
+		'fr-fr': "Chinchidou",
+		'es-es': "Minccino",
+		'it-it': "Minccino",
+		'pt-br': "Minccino",
+		'de-de': "Picochilla"
 	},
 
 	illustrator: "sui",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Slap",
-				fr: "Plumo-Queue",
+				'en-us': "Tail Slap",
+				'fr-fr': "Plumo-Queue",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They greet one another by rubbing each other with their tails, which are always kept well groomed and clean.",
+		'en-us': "They greet one another by rubbing each other with their tails, which are always kept well groomed and clean.",
 	},
 
 	thirdParty: {

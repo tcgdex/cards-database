@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ribombee",
-		fr: "Rubombelle",
-		es: "Ribombee",
-		it: "Ribombee",
-		pt: "Ribombee",
-		de: "Bandelby"
+		'en-us': "Ribombee",
+		'fr-fr': "Rubombelle",
+		'es-es': "Ribombee",
+		'it-it': "Ribombee",
+		'pt-br': "Ribombee",
+		'de-de': "Bandelby"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 70,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Cutiefly",
-		fr: "Bombydou",
-		es: "Cutiefly",
-		it: "Cutiefly",
-		pt: "Cutiefly",
-		de: "Wommel"
+		'en-us': "Cutiefly",
+		'fr-fr': "Bombydou",
+		'es-es': "Cutiefly",
+		'it-it': "Cutiefly",
+		'pt-br': "Cutiefly",
+		'de-de': "Wommel"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Plentiful Pollen",
-			fr: "Pollen Abondant",
-			es: "Polen Copioso",
-			it: "Polline a Volontà",
-			pt: "Abundância de Pólen",
-			de: "Pollenreichtum"
+			'en-us': "Plentiful Pollen",
+			'fr-fr': "Pollen Abondant",
+			'es-es': "Polen Copioso",
+			'it-it': "Polline a Volontà",
+			'pt-br': "Abundância de Pólen",
+			'de-de': "Pollenreichtum"
 		},
 
 		effect: {
-			en: "During your next turn, if the Defending Pokémon is Knocked Out, take 2 more Prize cards.",
-			fr: "Pendant votre prochain tour, si le Pokémon Défenseur est mis K.O., récupérez 2 cartes Récompense supplémentaires.",
-			es: "Durante tu próximo turno, si el Pokémon Defensor queda Fuera de Combate, coge 2 cartas de Premio más.",
-			it: "Durante il tuo prossimo turno, se il Pokémon difensore viene messo KO, prendi due carte Premio in più.",
-			pt: "Durante o seu próximo turno, se o Pokémon Defensor for Nocauteado, pegue 2 cartas de Prêmio a mais.",
-			de: "Wenn das Verteidigende Pokémon während deines nächsten Zuges kampfunfähig wird, nimm 2 Preiskarten mehr."
+			'en-us': "During your next turn, if the Defending Pokémon is Knocked Out, take 2 more Prize cards.",
+			'fr-fr': "Pendant votre prochain tour, si le Pokémon Défenseur est mis K.O., récupérez 2 cartes Récompense supplémentaires.",
+			'es-es': "Durante tu próximo turno, si el Pokémon Defensor queda Fuera de Combate, coge 2 cartas de Premio más.",
+			'it-it': "Durante il tuo prossimo turno, se il Pokémon difensore viene messo KO, prendi due carte Premio in più.",
+			'pt-br': "Durante o seu próximo turno, se o Pokémon Defensor for Nocauteado, pegue 2 cartas de Prêmio a mais.",
+			'de-de': "Wenn das Verteidigende Pokémon während deines nächsten Zuges kampfunfähig wird, nimm 2 Preiskarten mehr."
 		},
 
 		damage: 30
@@ -62,7 +62,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It makes pollen puffs from pollen and nectar. The puffs' effects depend on the type of ingredients and how much of each one is used.",
+		'en-us': "It makes pollen puffs from pollen and nectar. The puffs' effects depend on the type of ingredients and how much of each one is used.",
 	},
 
 	variants: [

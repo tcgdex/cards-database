@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴチルゼル",
+		'ja-jp': "ゴチルゼル",
 	},
 
 	illustrator: "IKEDA Saki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "強力な サイコパワーの 影響で ゴチルゼルの 周囲の 空間が ねじれ 何万光年も 遠くの 星空が 映る。",
+		'ja-jp': "強力な サイコパワーの 影響で ゴチルゼルの 周囲の 空間が ねじれ 何万光年も 遠くの 星空が 映る。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ねじれたみらい" },
 			effect: {
-				ja: "このポケモンがバトル場にいるなら、自分の番に1回使える。相手は相手自身の手札をすべて山札にもどして切る。その後、相手は山札を3枚引く。",
+				'ja-jp': "このポケモンがバトル場にいるなら、自分の番に1回使える。相手は相手自身の手札をすべて山札にもどして切る。その後、相手は山札を3枚引く。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "90+",
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "自分の手札と相手の手札が同じ枚数なら、90ダメージ追加。",
+				'ja-jp': "自分の手札と相手の手札が同じ枚数なら、90ダメージ追加。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴチミル",
+		'ja-jp': "ゴチミル",
 	},
 
 	retreat: 2,

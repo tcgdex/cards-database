@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SLD"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "暗黑修正檔",
-		ja: "ダークパッチ"
+		'ja-jp': "ダークパッチ"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -14,7 +14,7 @@ const card: Card = {
 
 	effect: {
 		'zh-tw': "從自己的棄牌區選擇1張「基本【惡】能量」卡，附於備戰區的【惡】寶可夢身上。",
-		ja: "自分のトラッシュから「基本エネルギー」を1枚選び、ベンチのポケモンにつける。"
+		'ja-jp': "自分のトラッシュから「基本エネルギー」を1枚選び、ベンチのポケモンにつける。"
 	},
 
 	trainerType: "Item",

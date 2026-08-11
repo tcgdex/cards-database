@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サンダース",
+		'ja-jp': "サンダース",
 	},
 
 	illustrator: "Uta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "肺の 中に 電気を 生み出す 器官が ある。 吐息に 混ざって 電気の 音が バチバチ聞こえる。",
+		'ja-jp': "肺の 中に 電気を 生み出す 器官が ある。 吐息に 混ざって 電気の 音が バチバチ聞こえる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "スピードエール" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分の場の「イーブイ」から進化する「ポケモンGX」が使うワザに必要なエネルギーは、それぞれ【無】エネルギー1個ぶん少なくなる。この効果は、この特性を持つポケモンが何匹いても、重ならない",
+				'ja-jp': "このポケモンがいるかぎり、自分の場の「イーブイ」から進化する「ポケモンGX」が使うワザに必要なエネルギーは、それぞれ【無】エネルギー1個ぶん少なくなる。この効果は、この特性を持つポケモンが何匹いても、重ならない",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 1,

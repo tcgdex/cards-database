@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オニドリル",
+		'ja-jp': "オニドリル",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "敏ility性",
+				'ja-jp': "敏ility性",
 			},
 			effect: {
-				ja: "コインをひっくり返します。ヘッドが、相手の次のターン中に、Fearowに行われた損害を含む攻撃のすべての影響を防ぎます。",
+				'ja-jp': "コインをひっくり返します。ヘッドが、相手の次のターン中に、Fearowに行われた損害を含む攻撃のすべての影響を防ぎます。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "ドリルペック",
+				'ja-jp': "ドリルペック",
 			},
 			damage: 40,
 		},

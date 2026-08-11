@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Flaaffy",
-		fr: "Lainergie",
-		es: "Flaaffy",
-		it: "Flaaffy",
-		pt: "Flaaffy",
-		de: "Waaty"
+		'en-us': "Flaaffy",
+		'fr-fr': "Lainergie",
+		'es-es': "Flaaffy",
+		'it-it': "Flaaffy",
+		'pt-br': "Flaaffy",
+		'de-de': "Waaty"
 	},
 
 	illustrator: "Mizue",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mareep",
-		fr: "Wattouat",
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat",
 	},
 
 	stage: "Stage1",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Signal Beam",
-				fr: "Rayon Signal",
-				es: "Doble Rayo",
-				it: "Segnoraggio",
-				pt: "Feixe Sinalizador",
-				de: "Ampelleuchte"
+				'en-us': "Signal Beam",
+				'fr-fr': "Rayon Signal",
+				'es-es': "Doble Rayo",
+				'it-it': "Segnoraggio",
+				'pt-br': "Feixe Sinalizador",
+				'de-de': "Ampelleuchte"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent’s Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: 40,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If its coat becomes fully charged with electricity, its tail lights up. It fires hair that zaps on impact.",
+		'en-us': "If its coat becomes fully charged with electricity, its tail lights up. It fires hair that zaps on impact.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Miscellaneous Promos"
 
 const card: Card = {
 	name: {
 		// Ancient Mew
-		ja: "エンシェントミュウ"
+		'ja-jp': "エンシェントミュウ"
 	},
 	rarity: "Promo",
 	category: "Pokemon",
@@ -23,7 +23,7 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				ja: "サイケ",
+				'ja-jp': "サイケ",
 			},
 			damage: "40",
 		},
@@ -73,7 +73,7 @@ const card: Card = {
 	],
 
 	description: {
-		ja: '新種. 小さい神か悪魔'
+		'ja-jp': '新種. 小さい神か悪魔'
 	},
 }
 

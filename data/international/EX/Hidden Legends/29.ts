@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Beldum",
-		fr: "Terhal",
-		de: "Tanhel"
+		'en-us': "Beldum",
+		'fr-fr': "Terhal",
+		'de-de': "Tanhel"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Magnetic Call",
-				fr: "Appel magnétique",
-				de: "Magnetic Call"
+				'en-us': "Magnetic Call",
+				'fr-fr': "Appel magnétique",
+				'de-de': "Magnetic Call"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a Metal Basic Pokémon and put it onto your Bench. Shuffle your deck afterward. This power can't be used if Beldum is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, cherchez un Pokémon de base  dans votre deck et placez-le sur votre Banc. Ensuite, mélangez votre deck. Ce pouvoir ne peut pas être utilisé si Terhal est affecté par un État Spécial.",
-				de: "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a  Basic Pokémon and put it onto your Bench. Shuffle your deck afterward. This power can't be used if Beldum is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a Metal Basic Pokémon and put it onto your Bench. Shuffle your deck afterward. This power can't be used if Beldum is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, cherchez un Pokémon de base  dans votre deck et placez-le sur votre Banc. Ensuite, mélangez votre deck. Ce pouvoir ne peut pas être utilisé si Terhal est affecté par un État Spécial.",
+				'de-de': "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a  Basic Pokémon and put it onto your Bench. Shuffle your deck afterward. This power can't be used if Beldum is affected by a Special Condition."
 			}
 		},
 	],
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Charge",
-				fr: "Attaque métallique",
-				de: "Metal Charge"
+				'en-us': "Metal Charge",
+				'fr-fr': "Attaque métallique",
+				'de-de': "Metal Charge"
 			},
 			effect: {
-				en: "Put 1 damage counter on Beldum.",
-				fr: "Placez 1 marqueur de dégât sur Terhal.",
-				de: "Put 1 damage counter on Beldum."
+				'en-us': "Put 1 damage counter on Beldum.",
+				'fr-fr': "Placez 1 marqueur de dégât sur Terhal.",
+				'de-de': "Put 1 damage counter on Beldum."
 			},
 			damage: 30,
 

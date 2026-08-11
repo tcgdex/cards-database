@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サマヨール",
+		'ja-jp': "サマヨール",
 		'zh-tw': "彷徨夜靈",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "体の 中は 空っぽ。 口を 開けると ブラックホールの ように なんでも 吸いこんでしまう。",
+		'ja-jp': "体の 中は 空っぽ。 口を 開けると ブラックホールの ように なんでも 吸いこんでしまう。",
 		'zh-tw': "身體內部是空的。只要一張開嘴就會像黑洞一樣吸入所有東西。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "あやしいひかり",
+				'ja-jp': "あやしいひかり",
 				'zh-tw': "奇異之光",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【混亂】。",
 			},
 		},
 		{
 			name: {
-				ja: "サイコパンチ",
+				'ja-jp': "サイコパンチ",
 				'zh-tw': "精神拳",
 			},
 			damage: 60,
@@ -62,7 +62,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヨマワル",
+		'ja-jp': "ヨマワル",
 	},
 
 	retreat: 2,

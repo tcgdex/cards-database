@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Horsea"
+		'id-id': "Horsea"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Horsea berenang bagaikan menari di dalam air dan membuat pusaran. Mereka bermain dengan bertanding siapa yang membuat pusaran paling besar."
+		'id-id': "Horsea berenang bagaikan menari di dalam air dan membuat pusaran. Mereka bermain dengan bertanding siapa yang membuat pusaran paling besar."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Mengait"
+			'id-id': "Mengait"
 		},
 
 		damage: 20,

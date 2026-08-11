@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ho-Oh ex",
-		fr: "Ho-Oh-ex"
+		'en-us': "Ho-Oh ex",
+		'fr-fr': "Ho-Oh-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -21,16 +21,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Phoenix Turbo",
-			fr: "Accélération du Phénix"
+			'en-us': "Phoenix Turbo",
+			'fr-fr': "Accélération du Phénix"
 		},
 
 		damage: 80,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Take a {R}, {W}, and {L} Energy from your Energy Zone and attach them to your Benched Basic Pokémon in any way you like.",
-			fr: "Prenez une Énergie {R}, {W} et {L} de votre zone Énergie et attachez-les à vos Pokémon de base de Banc comme il vous plaît."
+			'en-us': "Take a {R}, {W}, and {L} Energy from your Energy Zone and attach them to your Benched Basic Pokémon in any way you like.",
+			'fr-fr': "Prenez une Énergie {R}, {W} et {L} de votre zone Énergie et attachez-les à vos Pokémon de base de Banc comme il vous plaît."
 		}
 	}],
 

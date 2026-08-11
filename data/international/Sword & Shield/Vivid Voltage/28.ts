@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [219],
 
 	name: {
-		en: "Magcargo",
-		fr: "Volcaropod",
-		es: "Magcargo",
-		it: "Magcargo",
-		pt: "Magcargo",
-		de: "Magcargo"
+		'en-us': "Magcargo",
+		'fr-fr': "Volcaropod",
+		'es-es': "Magcargo",
+		'it-it': "Magcargo",
+		'pt-br': "Magcargo",
+		'de-de': "Magcargo"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Slugma",
-		fr: "Limagma",
-		es: "Slugma",
-		it: "Slugma",
-		pt: "Slugma",
-		de: "Schneckmag"
+		'en-us': "Slugma",
+		'fr-fr': "Limagma",
+		'es-es': "Slugma",
+		'it-it': "Slugma",
+		'pt-br': "Slugma",
+		'de-de': "Schneckmag"
 	},
 
 	attacks: [
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Blast",
-				fr: "Explosion de Chaleur",
-				es: "Explosión de Calor",
-				it: "Caldobomba",
-				pt: "Raio de Calor",
-				de: "Hitzestoß"
+				'en-us': "Heat Blast",
+				'fr-fr': "Explosion de Chaleur",
+				'es-es': "Explosión de Calor",
+				'it-it': "Caldobomba",
+				'pt-br': "Raio de Calor",
+				'de-de': "Hitzestoß"
 			},
 
 			damage: 60,
@@ -59,20 +59,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bright Flame",
-				fr: "Flamme Éclatante",
-				es: "Llama Viva",
-				it: "Splendifiamma",
-				pt: "Chama Reluzente",
-				de: "Helle Flamme"
+				'en-us': "Bright Flame",
+				'fr-fr': "Flamme Éclatante",
+				'es-es': "Llama Viva",
+				'it-it': "Splendifiamma",
+				'pt-br': "Chama Reluzente",
+				'de-de': "Helle Flamme"
 			},
 			effect: {
-				en: "Discard 2 Energy from this Pokémon.",
-				fr: "Défaussez 2 Énergies de ce Pokémon.",
-				es: "Descarta 2 Energías de este Pokémon.",
-				it: "Scarta due Energie da questo Pokémon.",
-				pt: "Descarte 2 Energias deste Pokémon.",
-				de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard 2 Energy from this Pokémon.",
+				'fr-fr': "Défaussez 2 Énergies de ce Pokémon.",
+				'es-es': "Descarta 2 Energías de este Pokémon.",
+				'it-it': "Scarta due Energie da questo Pokémon.",
+				'pt-br': "Descarte 2 Energias deste Pokémon.",
+				'de-de': "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 180,
 
@@ -93,7 +93,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Its body is as hot as lava and is always billowing. Flames will occasionally burst from its shell."
+		'en-us': "Its body is as hot as lava and is always billowing. Flames will occasionally burst from its shell."
 	},
 
 	variants: [

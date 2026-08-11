@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Mesprit",
-		th: "เอ็มริต"
+		'id-id': "Mesprit",
+		'th-th': "เอ็มริต"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -15,33 +15,33 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Mesprit mengajarkan perihnya rasa sedih dan pentingnya rasa senang kepada manusia. Dikenal sebagai Dewa Emosi.",
-		th: "สอนให้ผู้คนได้รู้ถึงความทุกข์ทรมานของความเศร้าและคุณค่าของความ ยินดี ถูกเรียกว่าเป็นเทพแห่งอารมณ์"
+		'id-id': "Mesprit mengajarkan perihnya rasa sedih dan pentingnya rasa senang kepada manusia. Dikenal sebagai Dewa Emosi.",
+		'th-th': "สอนให้ผู้คนได้รู้ถึงความทุกข์ทรมานของความเศร้าและคุณค่าของความ ยินดี ถูกเรียกว่าเป็นเทพแห่งอารมณ์"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Memuaskan Hati",
-			th: "เติมเต็มหัวใจ"
+			'id-id': "Memuaskan Hati",
+			'th-th': "เติมเต็มหัวใจ"
 		},
 
 		effect: {
-			id: "Pilih paling banyak 2 lembar Energi Dasar {Psychic} dari Kartu Pegangan sendiri, lalu kenakan sesukanya pada Pokémon sendiri.",
-			th: "เลือกการ์ด [พลังงานพื้นฐาน[พลังจิต]] ได้สูงสุด 2 ใบจากบนมือฝ่ายเรา ติดที่ โปเกมอนฝ่ายเราตามชอบ"
+			'id-id': "Pilih paling banyak 2 lembar Energi Dasar {Psychic} dari Kartu Pegangan sendiri, lalu kenakan sesukanya pada Pokémon sendiri.",
+			'th-th': "เลือกการ์ด [พลังงานพื้นฐาน[พลังจิต]] ได้สูงสุด 2 ใบจากบนมือฝ่ายเรา ติดที่ โปเกมอนฝ่ายเราตามชอบ"
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "God Burst",
-			th: "ก็อดเบิสต์"
+			'id-id': "God Burst",
+			'th-th': "ก็อดเบิสต์"
 		},
 
 		effect: {
-			id: "Jika tidak ada Uxie dan Azelf di Cadangan sendiri, serangan ini gagal.",
-			th: "ถ้าบนเบนช์ฝ่ายเราไม่มี [ยุคซี] [อักนอม] อยู่ ท่าต่อสู้นี้จะล้มเหลว"
+			'id-id': "Jika tidak ada Uxie dan Azelf di Cadangan sendiri, serangan ini gagal.",
+			'th-th': "ถ้าบนเบนช์ฝ่ายเราไม่มี [ยุคซี] [อักนอม] อยู่ ท่าต่อสู้นี้จะล้มเหลว"
 		},
 
 		damage: 160,

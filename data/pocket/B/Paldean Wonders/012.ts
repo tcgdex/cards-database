@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Pimito",
-		en: "Capsakid",
-		es: "Capsakid",
-		it: "Capsakid",
-		pt: "Capsakid",
-		de: "Chilingel"
+		'fr-fr': "Pimito",
+		'en-us': "Capsakid",
+		'es-es': "Capsakid",
+		'it-it': "Capsakid",
+		'pt-br': "Capsakid",
+		'de-de': "Chilingel"
   },
   illustrator: "GIDORA",
   rarity: "One Diamond",

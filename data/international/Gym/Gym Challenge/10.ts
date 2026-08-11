@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Koga's Ditto"
+		'en-us': "Koga's Ditto"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giant Growth"
+				'en-us': "Giant Growth"
 			},
 			effect: {
-				en: "Flip a coin. If heads, Koga's Ditto's maximum HP is now 80 and Koga's Ditto's Pound attack's base damage is 30 instead of 10. (Benching Koga's Ditto ends this effect.)"
+				'en-us': "Flip a coin. If heads, Koga's Ditto's maximum HP is now 80 and Koga's Ditto's Pound attack's base damage is 30 instead of 10. (Benching Koga's Ditto ends this effect.)"
 			},
 
 		},
@@ -39,7 +39,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound"
+				'en-us': "Pound"
 			},
 
 			damage: 10,

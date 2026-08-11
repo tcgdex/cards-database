@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Mankey",
-		fr: "Férosinge",
-		es: "Mankey",
-		it: "Mankey",
-		pt: "Mankey",
-		de: "Menki"
+		'en-us': "Mankey",
+		'fr-fr': "Férosinge",
+		'es-es': "Mankey",
+		'it-it': "Mankey",
+		'pt-br': "Mankey",
+		'de-de': "Menki"
 	},
 
 	illustrator: "Akira Komayama",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scout",
-				fr: "Espionnage",
-				es: "Explorar",
-				it: "Esplorazione",
-				pt: "Explorador",
-				de: "Späher"
+				'en-us': "Scout",
+				'fr-fr': "Espionnage",
+				'es-es': "Explorar",
+				'it-it': "Esplorazione",
+				'pt-br': "Explorador",
+				'de-de': "Späher"
 			},
 			effect: {
-				en: "Your opponent reveals their hand.",
-				fr: "Votre adversaire dévoile sa main.",
-				es: "Tu rival enseña las cartas de su mano.",
-				it: "Il tuo avversario mostra le carte che ha in mano.",
-				pt: "Seu oponente revela a própria mão.",
-				de: "Dein Gegner zeigt dir seine Handkarten."
+				'en-us': "Your opponent reveals their hand.",
+				'fr-fr': "Votre adversaire dévoile sa main.",
+				'es-es': "Tu rival enseña las cartas de su mano.",
+				'it-it': "Il tuo avversario mostra le carte che ha in mano.",
+				'pt-br': "Seu oponente revela a própria mão.",
+				'de-de': "Dein Gegner zeigt dir seine Handkarten."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage",
-				es: "Patada Baja",
-				it: "Colpo Basso",
-				pt: "Rasteira",
-				de: "Fußkick"
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage",
+				'es-es': "Patada Baja",
+				'it-it': "Colpo Basso",
+				'pt-br': "Rasteira",
+				'de-de': "Fußkick"
 			},
 
 			damage: 30,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The smallest of things could cause it to lose its temper. Because it doesn't hold in its stress, this Pokémon can live a long time.",
+		'en-us': "The smallest of things could cause it to lose its temper. Because it doesn't hold in its stress, this Pokémon can live a long time.",
 	},
 
 	thirdParty: {

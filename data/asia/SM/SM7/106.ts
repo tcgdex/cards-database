@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バシャーモGX",
+		'ja-jp': "バシャーモGX",
 	},
 
 	illustrator: "",
@@ -25,14 +25,14 @@ const card: Card = {
 			damage: 210,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[炎]エネルギーを、2個トラッシュする。",
+				'ja-jp': "このポケモンについている[炎]エネルギーを、2個トラッシュする。",
 			},
 		},
 		{
 			name: { ja: "ブレイズアウトGX" },
 			cost: ["Fire"],
 			effect: {
-				ja: "相手の場のポケモンについているエネルギーを、2個トラッシュする。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手の場のポケモンについているエネルギーを、2個トラッシュする。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ワカシャモ",
+		'ja-jp': "ワカシャモ",
 	},
 
 	retreat: 1,

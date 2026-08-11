@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HS trainer Kit (Gyarados)'
 
 const card: Card = {
 	name: {
-		en: "Croconaw",
+		'en-us': "Croconaw",
 	},
 
 	illustrator: "kawayoo",
@@ -16,7 +16,7 @@ const card: Card = {
 		"Water",
 	],
 	evolveFrom: {
-		en: "Totodile",
+		'en-us': "Totodile",
 	},
 	stage: "Stage1",
 	attacks: [
@@ -26,7 +26,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wave Splash",
+				'en-us': "Wave Splash",
 			},
 			damage: 30,
 		},
@@ -37,10 +37,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Big Bite",
+				'en-us': "Big Bite",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
 			},
 			damage: 50,
 		},

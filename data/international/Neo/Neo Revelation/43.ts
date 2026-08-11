@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Farfetch'd",
-		fr: "Canarticho",
-		de: "Porenta"
+		'en-us': "Farfetch'd",
+		'fr-fr': "Canarticho",
+		'de-de': "Porenta"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gust",
-				fr: "Tornade",
-				de: "Gust"
+				'en-us': "Gust",
+				'fr-fr': "Tornade",
+				'de-de': "Gust"
 			},
 
 			damage: 10,
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leek Jab",
-				fr: "Coud'poireau",
-				de: "Leek Jab"
+				'en-us': "Leek Jab",
+				'fr-fr': "Coud'poireau",
+				'de-de': "Leek Jab"
 			},
 			effect: {
-				en: "This attack can't be used during your next turn. (Benching Farfetch'd ends this effect.)",
-				fr: "Cette attaque ne peut pas être utilisée à nouveau durant votre prochain tour. (Envoyer Canarticho sur le Banc met fin à cet effet.)",
-				de: "This attack can´t be used during your next turn. (Benching Farfetch´d ends this effect.)"
+				'en-us': "This attack can't be used during your next turn. (Benching Farfetch'd ends this effect.)",
+				'fr-fr': "Cette attaque ne peut pas être utilisée à nouveau durant votre prochain tour. (Envoyer Canarticho sur le Banc met fin à cet effet.)",
+				'de-de': "This attack can´t be used during your next turn. (Benching Farfetch´d ends this effect.)"
 			},
 			damage: 40,
 
@@ -77,8 +77,8 @@ const card: Card = {
 
 
 	description: {
-		en: "If anyone tries to disturb where the essential plant sticks grow, it uses its own stick to thwart them.",
-		fr: "Si quelqu'un tente de s'introduire dans son jardin de poireaux, il utilise son arme pour le faire partir."
+		'en-us': "If anyone tries to disturb where the essential plant sticks grow, it uses its own stick to thwart them.",
+		'fr-fr': "Si quelqu'un tente de s'introduire dans son jardin de poireaux, il utilise son arme pour le faire partir."
 	},
 
 

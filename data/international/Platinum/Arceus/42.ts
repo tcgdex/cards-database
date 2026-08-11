@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Haunter",
-		de: "Alpollo"
+		'en-us': "Haunter",
+		'de-de': "Alpollo"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gastly"
+		'en-us': "Gastly"
 	},
 
 	stage: "Stage1",
@@ -32,8 +32,8 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psyshot",
-				de: "Psychoschuss"
+				'en-us': "Psyshot",
+				'de-de': "Psychoschuss"
 			},
 
 			damage: 20,
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shadow Bind",
-				de: "Schattenbindung"
+				'en-us': "Shadow Bind",
+				'de-de': "Schattenbindung"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'de-de': "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 30,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering."
+		'en-us': "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering."
 	},
 
 	variants: [

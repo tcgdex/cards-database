@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オニスズメ",
+		'ja-jp': "オニスズメ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ペック",
+				'ja-jp': "ペック",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "鏡の動き",
+				'ja-jp': "鏡の動き",
 			},
 			effect: {
-				ja: "Spearowが最後のターンを攻撃された場合、Spearowに対するその攻撃の最終結果を防御ポケモンに行います。",
+				'ja-jp': "Spearowが最後のターンを攻撃された場合、Spearowに対するその攻撃の最終結果を防御ポケモンに行います。",
 			},
 
 		},

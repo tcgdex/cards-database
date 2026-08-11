@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デンヂムシ",
+		'ja-jp': "デンヂムシ",
 		'zh-tw': "蟲電寶",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "食べた 落ち葉を 消化するとき 発電する 仕組み。 お腹の 電気袋に 充電される。",
+		'ja-jp': "食べた 落ち葉を 消化するとき 発電する 仕組み。 お腹の 電気袋に 充電される。",
 		'zh-tw': "蟲電寶消化吃掉的落葉時會產生電能。牠會把這些電能儲存在自己肚子上的電囊中。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "はさむ",
+				'ja-jp': "はさむ",
 				'zh-tw': "夾住",
 			},
 			damage: 30,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ヘッドボルト",
+				'ja-jp': "ヘッドボルト",
 				'zh-tw': "伏特頭擊",
 			},
 			damage: 60,
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アゴジムシ",
+		'ja-jp': "アゴジムシ",
 	},
 
 	retreat: 3,

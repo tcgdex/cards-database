@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Dratini",
-		fr: "Minidraco",
-		es: "Dratini",
-		it: "Dratini",
-		pt: "Dratini",
-		de: "Dratini"
+		'en-us': "Dratini",
+		'fr-fr': "Minidraco",
+		'es-es': "Dratini",
+		'it-it': "Dratini",
+		'pt-br': "Dratini",
+		'de-de': "Dratini"
 	},
 
 	illustrator: "Midori Harada",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Dragon Rage",
-				fr: "Draco-Rage",
-				es: "Furia Dragón",
-				it: "Ira di Drago",
-				pt: "Ira do Dragão",
-				de: "Drachenwut"
+				'en-us': "Dragon Rage",
+				'fr-fr': "Draco-Rage",
+				'es-es': "Furia Dragón",
+				'it-it': "Ira di Drago",
+				'pt-br': "Ira do Dragão",
+				'de-de': "Drachenwut"
 			},
 			effect: {
-				en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
-				fr: "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien.",
-				es: "Lanza 2 monedas. Si sale cruz en alguna de ellas, este ataque no hace nada.",
-				it: "Lancia due volte una moneta. Se esce almeno una volta croce, questo attacco non ha effetto.",
-				pt: "Jogue 2 moedas. Se qualquer uma delas sair coroa, este ataque não fará nada.",
-				de: "Wirf 2 Münzen. Wenn eine oder beide Münzen Zahl zeigen, hat diese Attacke keine Auswirkungen."
+				'en-us': "Flip 2 coins. If either of them is tails, this attack does nothing.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien.",
+				'es-es': "Lanza 2 monedas. Si sale cruz en alguna de ellas, este ataque no hace nada.",
+				'it-it': "Lancia due volte una moneta. Se esce almeno una volta croce, questo attacco non ha effetto.",
+				'pt-br': "Jogue 2 moedas. Se qualquer uma delas sair coroa, este ataque não fará nada.",
+				'de-de': "Wirf 2 Münzen. Wenn eine oder beide Münzen Zahl zeigen, hat diese Attacke keine Auswirkungen."
 			},
 			damage: 60,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It's still weak, so it lurks on the floor of bodies of water, eating whatever food sinks down and living a quiet life.",
+		'en-us': "It's still weak, so it lurks on the floor of bodies of water, eating whatever food sinks down and living a quiet life.",
 	},
 
 	thirdParty: {

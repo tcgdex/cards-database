@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Primarina",
-		fr: "Oratoria",
-		es: "Primarina",
-		it: "Primarina",
-		pt: "Primarina",
-		de: "Primarene"
+		'en-us': "Primarina",
+		'fr-fr': "Oratoria",
+		'es-es': "Primarina",
+		'it-it': "Primarina",
+		'pt-br': "Primarina",
+		'de-de': "Primarene"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Brionne",
-		fr: "Otarlette",
+		'en-us': "Brionne",
+		'fr-fr': "Otarlette",
 	},
 
 	stage: "Stage2",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Disarming Voice",
-				fr: "Voix Enjôleuse",
-				es: "Voz Cautivadora",
-				it: "Incantavoce",
-				pt: "Voz Desarmante",
-				de: "Säuselstimme"
+				'en-us': "Disarming Voice",
+				'fr-fr': "Voix Enjôleuse",
+				'es-es': "Voz Cautivadora",
+				'it-it': "Incantavoce",
+				'pt-br': "Voz Desarmante",
+				'de-de': "Säuselstimme"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent’s Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -65,20 +65,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sparkling Aria",
-				fr: "Aria de l’Écume",
-				es: "Aria Burbuja",
-				it: "Canto Effimero",
-				pt: "Aria Cintilante",
-				de: "Schaumserenade"
+				'en-us': "Sparkling Aria",
+				'fr-fr': "Aria de l’Écume",
+				'es-es': "Aria Burbuja",
+				'it-it': "Canto Effimero",
+				'pt-br': "Aria Cintilante",
+				'de-de': "Schaumserenade"
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts à ce Pokémon.",
-				es: "Cura 30 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 30 danni.",
-				pt: "Cure 30 pontos de dano deste Pokémon.",
-				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon.",
+				'es-es': "Cura 30 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 30 danni.",
+				'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+				'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 100,
 
@@ -95,7 +95,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It controls its water balloons with song. The melody is learning from others of its kind and is passed down from one generation to the next.",
+		'en-us': "It controls its water balloons with song. The melody is learning from others of its kind and is passed down from one generation to the next.",
 	},
 
 	thirdParty: {

@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [785],
 
 	name: {
-		en: "Tapu Koko",
-		fr: "Tokorico",
-		es: "Tapu Koko",
-		it: "Tapu Koko",
-		pt: "Tapu Koko",
-		de: "Kapu-Riki"
+		'en-us': "Tapu Koko",
+		'fr-fr': "Tokorico",
+		'es-es': "Tapu Koko",
+		'it-it': "Tapu Koko",
+		'pt-br': "Tapu Koko",
+		'de-de': "Kapu-Riki"
 	},
 
 	illustrator: "Hasuno",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Allure",
-				fr: "Allure",
-				es: "Atractivo",
-				it: "Affascinante",
-				pt: "Fascinar",
-				de: "Verlockung"
+				'en-us': "Allure",
+				'fr-fr': "Allure",
+				'es-es': "Atractivo",
+				'it-it': "Affascinante",
+				'pt-br': "Fascinar",
+				'de-de': "Verlockung"
 			},
 			effect: {
-				en: "Draw 2 cards.",
-				fr: "Piochez 2 cartes.",
-				es: "Roba 2 cartas.",
-				it: "Pesca due carte.",
-				pt: "Compre 2 cartas.",
-				de: "Ziehe 2 Karten."
+				'en-us': "Draw 2 cards.",
+				'fr-fr': "Piochez 2 cartes.",
+				'es-es': "Roba 2 cartas.",
+				'it-it': "Pesca due carte.",
+				'pt-br': "Compre 2 cartas.",
+				'de-de': "Ziehe 2 Karten."
 			},
 
 		},
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electric Ball",
-				fr: "Boule de Foudre",
-				es: "Bola Eléctrica",
-				it: "Lamposfera",
-				pt: "Bola de Eletricidade",
-				de: "Stromball"
+				'en-us': "Electric Ball",
+				'fr-fr': "Boule de Foudre",
+				'es-es': "Bola Eléctrica",
+				'it-it': "Lamposfera",
+				'pt-br': "Bola de Eletricidade",
+				'de-de': "Stromball"
 			},
 
 			damage: 110,
@@ -80,7 +80,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The lightning-wielding guardian deity of Melemele, Tapu Koko is brimming with curiosity and appears before people from time to time."
+		'en-us': "The lightning-wielding guardian deity of Melemele, Tapu Koko is brimming with curiosity and appears before people from time to time."
 	},
 
 	variants: [

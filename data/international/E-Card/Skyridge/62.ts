@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Growlithe",
-		de: "Fukano"
+		'en-us': "Growlithe",
+		'de-de': "Fukano"
 	},
 
 	illustrator: "Masako Yamashita",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flare",
-				de: "Flackern"
+				'en-us': "Flare",
+				'de-de': "Flackern"
 			},
 
 			damage: 10,
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Kick",
-				de: "Doppelkick"
+				'en-us': "Double Kick",
+				'de-de': "Doppelkick"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "20×",
 

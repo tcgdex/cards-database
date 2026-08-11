@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
@@ -7,13 +7,13 @@ const card: Card = {
 	dexId: [299],
 
 	name: {
-		en: "Nosepass",
-		fr: "Tarinor",
-		es: "Nosepass",
+		'en-us': "Nosepass",
+		'fr-fr': "Tarinor",
+		'es-es': "Nosepass",
 		'es-mx': "Nosepass",
-		de: "Nasgnet",
-		it: "Nosepass",
-		pt: "Nosepass"
+		'de-de': "Nasgnet",
+		'it-it': "Nosepass",
+		'pt-br': "Nosepass"
 	},
 
 	illustrator: "Jerky",
@@ -27,13 +27,13 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			en: "Rolling Rocks",
-			fr: "Rochers Roulants",
-			es: "Rocas Rodantes",
+			'en-us': "Rolling Rocks",
+			'fr-fr': "Rochers Roulants",
+			'es-es': "Rocas Rodantes",
 			'es-mx': "Rocas Rodantes",
-			de: "Rollende Steine",
-			it: "Massi Rotolanti",
-			pt: "Pedras Rolantes"
+			'de-de': "Rollende Steine",
+			'it-it': "Massi Rotolanti",
+			'pt-br': "Pedras Rolantes"
 		},
 
 		damage: 40

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Minidraco",
-		en: "Dratini",
-		es: "Dratini",
-		it: "Dratini",
-		pt: "Dratini",
-		de: "Dratini"
+		'fr-fr': "Minidraco",
+		'en-us': "Dratini",
+		'es-es': "Dratini",
+		'it-it': "Dratini",
+		'pt-br': "Dratini",
+		'de-de': "Dratini"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Coud'Queue Sec",
-			en: "Tail Snap",
-			es: "Pinza Cola",
-			it: "Schioccacoda",
-			pt: "Surpresa de Cauda",
-			de: "Schweifhieb"
+			'fr-fr': "Coud'Queue Sec",
+			'en-us': "Tail Snap",
+			'es-es': "Pinza Cola",
+			'it-it': "Schioccacoda",
+			'pt-br': "Surpresa de Cauda",
+			'de-de': "Schweifhieb"
 		},
 
 		damage: 20
@@ -39,7 +39,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It sheds many layers of skin as it grows larger. During this process, it is protected by a rapid waterfall.",
+		'en-us': "It sheds many layers of skin as it grows larger. During this process, it is protected by a rapid waterfall.",
 	},
 
 	variants: [

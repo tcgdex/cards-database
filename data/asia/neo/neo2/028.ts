@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Unown u",
+		'ja-jp': "Unown u",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "元に戻す[元に戻す]",
+				'ja-jp': "元に戻す[元に戻す]",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前）</em> </em>、[u]、[n]、[n]、[d]、および[o]がベンチにいる場合は、アクティブなpokmonとすべてのカードを手に返すことができます。",
+				'ja-jp': "ターン中に（攻撃の前）</em> </em>、[u]、[n]、[n]、[d]、および[o]がベンチにいる場合は、アクティブなpokmonとすべてのカードを手に返すことができます。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "隠された力",
+				'ja-jp': "隠された力",
 			},
 			damage: 10,
 		},

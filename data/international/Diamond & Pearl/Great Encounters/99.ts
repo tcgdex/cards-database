@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Leftovers",
-		fr: "Restes",
-		de: "Überreste"
+		'en-us': "Leftovers",
+		'fr-fr': "Restes",
+		'de-de': "Überreste"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Attach Leftovers to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it. If that Pokémon is Knocked Out, discard this card. If the Pokémon Leftovers is attached to is your Active Pokémon at the end of your turn, remove 1 damage counter from the Pokémon.",
-		fr: "Attachez Pièce rune à 1 de vos Pokémon qui ne posséde pas déjà d'Outil Pokémon. Si ce Pokémon est mis K.O, défaussez cette carte.",
-		de: "Wenn das Pokémon, an das Überreste angelegt ist, am Ende deines Zuges dein Aktives Pokémon ist, entferne 1 Schadensmarke von diesem Pokémon."
+		'en-us': "Attach Leftovers to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it. If that Pokémon is Knocked Out, discard this card. If the Pokémon Leftovers is attached to is your Active Pokémon at the end of your turn, remove 1 damage counter from the Pokémon.",
+		'fr-fr': "Attachez Pièce rune à 1 de vos Pokémon qui ne posséde pas déjà d'Outil Pokémon. Si ce Pokémon est mis K.O, défaussez cette carte.",
+		'de-de': "Wenn das Pokémon, an das Überreste angelegt ist, am Ende deines Zuges dein Aktives Pokémon ist, entferne 1 Schadensmarke von diesem Pokémon."
 	},
 
 	trainerType: "Tool",

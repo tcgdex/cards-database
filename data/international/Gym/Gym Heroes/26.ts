@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Victreebel"
+		'en-us': "Erika's Victreebel"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Weepinbell"
+		'en-us': "Weepinbell"
 	},
 
 	stage: "Stage2",
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Fragrance Trap"
+				'en-us': "Fragrance Trap"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may flip a coin. If heads, and if your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon. This power can't be used if Erika's Victreebel is Asleep, Confused, or Paralyzed."
+				'en-us': "Once during your turn (before your attack), you may flip a coin. If heads, and if your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon. This power can't be used if Erika's Victreebel is Asleep, Confused, or Paralyzed."
 			}
 		},
 	],
@@ -45,7 +45,7 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Razor Leaf"
+				'en-us': "Razor Leaf"
 			},
 
 			damage: 50,

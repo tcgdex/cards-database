@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Rockruff",
-		fr: "Rocabot",
-		es: "Rockruff",
-		it: "Rockruff",
-		pt: "Rockruff",
-		de: "Wuffels"
+		'en-us': "Rockruff",
+		'fr-fr': "Rocabot",
+		'es-es': "Rockruff",
+		'it-it': "Rockruff",
+		'pt-br': "Rockruff",
+		'de-de': "Wuffels"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Roar",
-				fr: "Hurlement",
-				es: "Rugido",
-				it: "Boato",
-				pt: "Rugido",
-				de: "Brüller"
+				'en-us': "Roar",
+				'fr-fr': "Hurlement",
+				'es-es': "Rugido",
+				'it-it': "Boato",
+				'pt-br': "Rugido",
+				'de-de': "Brüller"
 			},
 			effect: {
-				en: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif avec l’un de ses Pokémon de Banc.",
-				es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
-				it: "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
-				pt: "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
-				de: "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange son Pokémon Actif avec l’un de ses Pokémon de Banc.",
+				'es-es': "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
+				'it-it': "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
+				'pt-br': "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
+				'de-de': "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 
 		},
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Throw",
-				fr: "Jet-Pierres",
-				es: "Lanzarrocas",
-				it: "Sassata",
-				pt: "Lançamento de Rocha",
-				de: "Steinwurf"
+				'en-us': "Rock Throw",
+				'fr-fr': "Jet-Pierres",
+				'es-es': "Lanzarrocas",
+				'it-it': "Sassata",
+				'pt-br': "Lançamento de Rocha",
+				'de-de': "Steinwurf"
 			},
 
 			damage: 40,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "As they develop, their disposition grows more violent and aggressive. Many Trainers find them too much to handle and abandon them.",
+		'en-us': "As they develop, their disposition grows more violent and aggressive. Many Trainers find them too much to handle and abandon them.",
 	},
 
 	thirdParty: {

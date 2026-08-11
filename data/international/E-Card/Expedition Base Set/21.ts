@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Ninetales",
-		fr: "Feunard",
-		de: "Vulnona"
+		'en-us': "Ninetales",
+		'fr-fr': "Feunard",
+		'de-de': "Vulnona"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,18 +22,18 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vulpix",
-		fr: "Goupix"
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix"
 	},
 
 	abilities: [
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Ion Coating",
+				'en-us': "Ion Coating",
 			},
 			effect: {
-				en: "You may use this power once during each of your turns (before your attack). All Lightning Energy attached to your Active Pokémon becomes Water Energy for the rest of the turn. (This effect ends if your Active Pokémon retreats or is returned to your hand.) This power can't be used if Lanturn is affected by a Special Condition.",
+				'en-us': "You may use this power once during each of your turns (before your attack). All Lightning Energy attached to your Active Pokémon becomes Water Energy for the rest of the turn. (This effect ends if your Active Pokémon retreats or is returned to your hand.) This power can't be used if Lanturn is affected by a Special Condition.",
 			},
 		},
 	],
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mislead",
-				fr: "Tromperie",
-				de: "Mislead"
+				'en-us': "Mislead",
+				'fr-fr': "Tromperie",
+				'de-de': "Mislead"
 			},
 			effect: {
-				en: "Flip 2 coins. If either of them is heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez 2 pièces. Si vous obtenez au moins une face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip 2 coins. If either of them is heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip 2 coins. If either of them is heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez au moins une face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Flip 2 coins. If either of them is heads, the Defending Pokémon is now Confused."
 			},
 
 		},
@@ -64,14 +64,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ethereal Flame",
-				fr: "Flamme éthérée",
-				de: "Ethereal Flame"
+				'en-us': "Ethereal Flame",
+				'fr-fr': "Flamme éthérée",
+				'de-de': "Ethereal Flame"
 			},
 			effect: {
-				en: "Discard all Fire Energy cards attached to Ninetales. This attack does 30 damage plus 20 more damage for each card discarded this way.",
-				fr: "Défaussez-vous de toutes les cartes Énergie  attachées à Feunard. Cette carte inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque carte défaussée de cette manière.",
-				de: "Discard all  Energy cards attached to Ninetales. This attack does 30 damage plus 20 more damage for each card discarded this way."
+				'en-us': "Discard all Fire Energy cards attached to Ninetales. This attack does 30 damage plus 20 more damage for each card discarded this way.",
+				'fr-fr': "Défaussez-vous de toutes les cartes Énergie  attachées à Feunard. Cette carte inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque carte défaussée de cette manière.",
+				'de-de': "Discard all  Energy cards attached to Ninetales. This attack does 30 damage plus 20 more damage for each card discarded this way."
 			},
 			damage: "30+",
 

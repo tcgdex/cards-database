@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Carvanha",
-		fr: "Carvanha",
-		de: "Kanivanha"
+		'en-us': "Carvanha",
+		'fr-fr': "Carvanha",
+		'de-de': "Kanivanha"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Rough Skin",
-				fr: "Peau dure",
-				de: "Rauhaut"
+				'en-us': "Rough Skin",
+				'fr-fr': "Peau dure",
+				'de-de': "Rauhaut"
 			},
 			effect: {
-				en: "If Carvanha is your Active Pokémon and is damaged by an opponent's attack (even if Carvanha is Knocked Out), put 1 damage counter on the Attacking Pokémon.",
-				fr: "Si Carvanha est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Carvanha est mis K.O), placez 1 marqueur de dégât sur le Pokémon Attaquant.",
-				de: "Wenn Kanivanha dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (selbst wenn Kanivanha dadurch kampfunfähig wird), lege 1 Schadensmarke auf das Angreifende Pokémon."
+				'en-us': "If Carvanha is your Active Pokémon and is damaged by an opponent's attack (even if Carvanha is Knocked Out), put 1 damage counter on the Attacking Pokémon.",
+				'fr-fr': "Si Carvanha est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Carvanha est mis K.O), placez 1 marqueur de dégât sur le Pokémon Attaquant.",
+				'de-de': "Wenn Kanivanha dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (selbst wenn Kanivanha dadurch kampfunfähig wird), lege 1 Schadensmarke auf das Angreifende Pokémon."
 			},
 		},
 	],
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Rogne",
-				de: "Nagen"
+				'en-us': "Gnaw",
+				'fr-fr': "Rogne",
+				'de-de': "Nagen"
 			},
 
 			damage: 20,

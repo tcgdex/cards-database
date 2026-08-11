@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Ninetales",
-		fr: "Feunard",
-		de: "Vulnona"
+		'en-us': "Ninetales",
+		'fr-fr': "Feunard",
+		'de-de': "Vulnona"
 	},
 
 	illustrator: "Tomoaki Imakuni",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vulpix",
-		fr: "Goupix"
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Safeguard",
-				fr: "Rune protectrice",
-				de: "Bodyguard"
+				'en-us': "Safeguard",
+				'fr-fr': "Rune protectrice",
+				'de-de': "Bodyguard"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, including damage, done to Ninetales by your opponent's Pokémon-ex.",
-				fr: "Prévenez tous les effets d'attaques, dégâts inclus, infligés à Feunard par les Pokémon-ex de votre adversaire.",
-				de: "Verhindere alle Effekte von Angriffen inklusive Schaden, die Vulnona von gegnerischen Pokémon-ex zugefügt werden."
+				'en-us': "Prevent all effects of attacks, including damage, done to Ninetales by your opponent's Pokémon-ex.",
+				'fr-fr': "Prévenez tous les effets d'attaques, dégâts inclus, infligés à Feunard par les Pokémon-ex de votre adversaire.",
+				'de-de': "Verhindere alle Effekte von Angriffen inklusive Schaden, die Vulnona von gegnerischen Pokémon-ex zugefügt werden."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-attaque",
-				de: "Ruckzuckhieb"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-attaque",
+				'de-de': "Ruckzuckhieb"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -72,9 +72,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Will-o'-the-wisp",
-				fr: "Feu follet",
-				de: "Irrlicht"
+				'en-us': "Will-o'-the-wisp",
+				'fr-fr': "Feu follet",
+				'de-de': "Irrlicht"
 			},
 
 			damage: 50,

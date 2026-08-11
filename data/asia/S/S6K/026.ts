@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴースト",
+		'ja-jp': "ゴースト",
 		'zh-tw': "鬼斯通",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "暗闇で だれもいないのに 見られているような 気がしたら そこに ゴーストが いるのだ。",
+		'ja-jp': "暗闇で だれもいないのに 見られているような 気がしたら そこに ゴーストが いるのだ。",
 		'zh-tw': "如果黑暗中空無一人，但你卻感覺被什麼盯上了，那麼鬼斯通一定就在那裡。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "おにび",
+				'ja-jp': "おにび",
 				'zh-tw': "鬼火",
 			},
 			damage: 30,
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴース",
+		'ja-jp': "ゴース",
 	},
 
 	retreat: 1,

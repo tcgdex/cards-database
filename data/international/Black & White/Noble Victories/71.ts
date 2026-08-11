@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Golett",
-		fr: "Gringolem",
-		es: "Golett",
-		it: "Golett",
-		pt: "Golett",
-		de: "Golbit"
+		'en-us': "Golett",
+		'fr-fr': "Gringolem",
+		'es-es': "Golett",
+		'it-it': "Golett",
+		'pt-br': "Golett",
+		'de-de': "Golbit"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dynamic Punch",
-				fr: "Dynamopoing",
+				'en-us': "Dynamic Punch",
+				'fr-fr': "Dynamopoing",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage and the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage and the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: 20,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "These Pokémon are thought to have been created by the science of an ancient and mysterious civilization.",
+		'en-us': "These Pokémon are thought to have been created by the science of an ancient and mysterious civilization.",
 	},
 
 	thirdParty: {

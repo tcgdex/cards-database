@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Purrloin",
+		'en-us': "Purrloin",
 	},
 
 	illustrator: "Mizue",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Captivate",
+				'en-us': "Captivate",
 			},
 			effect: {
-				en: "Flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with the Defending Pokémon.",
+				'en-us': "Flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with the Defending Pokémon.",
 			},
 
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Their cute act is a ruse. They trick people and steal their valuables just to see the looks on their faces.",
+		'en-us': "Their cute act is a ruse. They trick people and steal their valuables just to see the looks on their faces.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Masquerain",
-		fr: "Maskadra",
-		de: "Maskeregen"
+		'en-us': "Masquerain",
+		'fr-fr': "Maskadra",
+		'de-de': "Maskeregen"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Surskit",
-		fr: "Arakdo"
+		'en-us': "Surskit",
+		'fr-fr': "Arakdo"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Intimidating Pattern",
-				fr: "Style intimidant",
-				de: "Einschüchterndes Muster"
+				'en-us': "Intimidating Pattern",
+				'fr-fr': "Style intimidant",
+				'de-de': "Einschüchterndes Muster"
 			},
 			effect: {
-				en: "As long as Masquerain is your Active Pokémon, any damage done by an opponent's attack is reduced by 20 (before applying Weakness and Resistance).",
-				fr: "Tant que Maskadra est votre Pokémon Actif, tous les dégâts infligés par une attaque de votre adversaire sont réduits de 20 (avant application de la Faiblesse et de la Résistance).",
-				de: "Solange Maskeregen dein Aktives Pokémon ist, wird Schaden, der durch einen gegnerischen Angriff zugefügt wird, um 20 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "As long as Masquerain is your Active Pokémon, any damage done by an opponent's attack is reduced by 20 (before applying Weakness and Resistance).",
+				'fr-fr': "Tant que Maskadra est votre Pokémon Actif, tous les dégâts infligés par une attaque de votre adversaire sont réduits de 20 (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "Solange Maskeregen dein Aktives Pokémon ist, wird Schaden, der durch einen gegnerischen Angriff zugefügt wird, um 20 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet wurden)."
 			}
 		},
 	],
@@ -50,14 +50,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Skim Attack",
-				fr: "Attaque rasante",
-				de: "Absahnangriff"
+				'en-us': "Skim Attack",
+				'fr-fr': "Attaque rasante",
+				'de-de': "Absahnangriff"
 			},
 			effect: {
-				en: "Draw 2 cards.",
-				fr: "Piochez 2 cartes.",
-				de: "Ziehe 2 Karten."
+				'en-us': "Draw 2 cards.",
+				'fr-fr': "Piochez 2 cartes.",
+				'de-de': "Ziehe 2 Karten."
 			},
 			damage: 30,
 
@@ -77,7 +77,7 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction."
+		'en-us': "Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction."
 	},
 
 	retreat: 0,

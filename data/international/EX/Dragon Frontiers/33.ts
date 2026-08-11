@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Kirlia δ",
-		fr: "Kirlia δ",
-		de: "Kirlia"
+		'en-us': "Kirlia δ",
+		'fr-fr': "Kirlia δ",
+		'de-de': "Kirlia"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ralts",
-		fr: "Tarsal"
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flickering Flames",
-				fr: "Flammes vacillantes",
-				de: "Züngelnde Flammen"
+				'en-us': "Flickering Flames",
+				'fr-fr': "Flammes vacillantes",
+				'de-de': "Züngelnde Flammen"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -56,9 +56,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smack",
-				fr: "Claque",
-				de: "Klatscher"
+				'en-us': "Smack",
+				'fr-fr': "Claque",
+				'de-de': "Klatscher"
 			},
 
 			damage: 40,

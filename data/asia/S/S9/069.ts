@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "齒輪兒",
-		ja: "ギアル"
+		'ja-jp': "ギアル"
 	},
 
 	illustrator: "OKACHEKE",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "２個身體比雙胞胎還要親近。要是換成別的齒輪兒， 就沒有辦法好好咬合。",
-		ja: "２つの 体は 双子よりも 近い。 べつの 体同士だと いまいち うまく 噛み合わない。"
+		'ja-jp': "２つの 体は 双子よりも 近い。 べつの 体同士だと いまいち うまく 噛み合わない。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "夾住",
-			ja: "はさむ"
+			'ja-jp': "はさむ"
 		},
 
 		damage: 10,
@@ -32,7 +32,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "迴轉攻擊",
-			ja: "かいてんアタック"
+			'ja-jp': "かいてんアタック"
 		},
 
 		damage: 20,

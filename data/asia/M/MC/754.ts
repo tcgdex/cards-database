@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クチート",
+		'ja-jp': "クチート",
 	},
 
 	illustrator: "sowsow",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "ツノが 変形して できた 大あごが 頭に ついている。 鉄骨を 噛み切ってしまう。",
+		'ja-jp': "ツノが 変形して できた 大あごが 頭に ついている。 鉄骨を 噛み切ってしまう。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "なかまをよぶ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
 			},
 		},
 		{

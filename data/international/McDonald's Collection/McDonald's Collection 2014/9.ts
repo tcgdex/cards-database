@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2014'
 
 const card: Card = {
@@ -7,12 +7,12 @@ const card: Card = {
 	],
 	illustrator: "5ban Graphics",
 	description: {
-		en: "To entangle its opponents in battle, it extrudes white threads as sweet and sticky as cotton candy."
+		'en-us': "To entangle its opponents in battle, it extrudes white threads as sweet and sticky as cotton candy."
 	},
 	set: Set,
 	name: {
-		en: "Swirlix",
-		fr: "Sucroquin",
+		'en-us': "Swirlix",
+		'fr-fr': "Sucroquin",
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -27,12 +27,12 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Draining Kiss",
-				fr: "Vampibaiser",
+				'en-us': "Draining Kiss",
+				'fr-fr': "Vampibaiser",
 			},
 			damage: "10",
 			effect: {
-				en: "Heal 10 damage from this Pokémon."
+				'en-us': "Heal 10 damage from this Pokémon."
 			}
 		},
 	],

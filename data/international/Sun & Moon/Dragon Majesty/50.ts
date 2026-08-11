@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Majesty'
 
 const card: Card = {
 	name: {
-		en: "Turtonator",
-		fr: "Boumata",
-		es: "Turtonator",
-		it: "Turtonator",
-		pt: "Turtonator",
-		de: "Tortunator"
+		'en-us': "Turtonator",
+		'fr-fr': "Boumata",
+		'es-es': "Turtonator",
+		'it-it': "Turtonator",
+		'pt-br': "Turtonator",
+		'de-de': "Tortunator"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -36,20 +36,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Explosive Jet",
-				fr: "Souffle Explosif",
-				es: "Propulsión Explosiva",
-				it: "Getto Esplosivo",
-				pt: "Jato Explosivo",
-				de: "Explosiver Antrieb"
+				'en-us': "Explosive Jet",
+				'fr-fr': "Souffle Explosif",
+				'es-es': "Propulsión Explosiva",
+				'it-it': "Getto Esplosivo",
+				'pt-br': "Jato Explosivo",
+				'de-de': "Explosiver Antrieb"
 			},
 			effect: {
-				en: "Discard any amount of Fire Energy from your Pokémon. This attack does 50 damage for each card you discarded in this way.",
-				fr: "Défaussez n’importe quel nombre d’Énergies Fire de vos Pokémon. Cette attaque inflige 50 dégâts pour chaque carte défaussée de cette façon.",
-				es: "Descarta cualquier cantidad de Energías Fire de tus Pokémon. Este ataque hace 50 puntos de daño por cada carta que hayas descartado de esta manera.",
-				it: "Scarta tutte le Energie Fire che vuoi assegnate ai tuoi Pokémon. Questo attacco infligge 50 danni per ogni carta che hai scartato in questo modo.",
-				pt: "Descarte qualquer quantidade de Energia Fire dos seus Pokémon. Este ataque causa 50 pontos de dano para cada carta descartada desta forma.",
-				de: "Lege beliebig viele Fire-Energien von deinen Pokémon auf deinen Ablagestapel. Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
+				'en-us': "Discard any amount of Fire Energy from your Pokémon. This attack does 50 damage for each card you discarded in this way.",
+				'fr-fr': "Défaussez n’importe quel nombre d’Énergies Fire de vos Pokémon. Cette attaque inflige 50 dégâts pour chaque carte défaussée de cette façon.",
+				'es-es': "Descarta cualquier cantidad de Energías Fire de tus Pokémon. Este ataque hace 50 puntos de daño por cada carta que hayas descartado de esta manera.",
+				'it-it': "Scarta tutte le Energie Fire che vuoi assegnate ai tuoi Pokémon. Questo attacco infligge 50 danni per ogni carta che hai scartato in questo modo.",
+				'pt-br': "Descarte qualquer quantidade de Energia Fire dos seus Pokémon. Este ataque causa 50 pontos de dano para cada carta descartada desta forma.",
+				'de-de': "Lege beliebig viele Fire-Energien von deinen Pokémon auf deinen Ablagestapel. Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
 			},
 			damage: "50×",
 
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It gushes fire and poisonous gases from its nostrils. Its dung is an explosive substance and can be put to various uses.",
+		'en-us': "It gushes fire and poisonous gases from its nostrils. Its dung is an explosive substance and can be put to various uses.",
 	},
 
 	thirdParty: {

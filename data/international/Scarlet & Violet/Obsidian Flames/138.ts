@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Sepiatroce",
-		en: "Malamar",
-		es: "Malamar",
-		it: "Malamar",
-		pt: "Malamar",
-		de: "Calamanero"
+		'fr-fr': "Sepiatroce",
+		'en-us': "Malamar",
+		'es-es': "Malamar",
+		'it-it': "Malamar",
+		'pt-br': "Malamar",
+		'de-de': "Calamanero"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Darkness"],
 	evolveFrom: {
-		fr: "Sepiatop",
-		en: "Inkay",
-		es: "Inkay",
-		it: "Inkay",
-		pt: "Inkay",
-		de: "Iscalar"
+		'fr-fr': "Sepiatop",
+		'en-us': "Inkay",
+		'es-es': "Inkay",
+		'it-it': "Inkay",
+		'pt-br': "Inkay",
+		'de-de': "Iscalar"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			fr: "Vue Psy",
-			en: "Psychic Insight",
-			es: "Intuición Psíquica",
-			it: "Psicointuito",
-			pt: "Percepção Psíquica",
-			de: "Psycho-Einsicht"
+			'fr-fr': "Vue Psy",
+			'en-us': "Psychic Insight",
+			'es-es': "Intuición Psíquica",
+			'it-it': "Psicointuito",
+			'pt-br': "Percepção Psíquica",
+			'de-de': "Psycho-Einsicht"
 		},
 
 		effect: {
-			fr: "Une fois pendant votre tour, vous pouvez regarder la carte du dessus du deck de votre adversaire. Dans ce cas, regardez la carte du dessus de votre deck.",
-			en: "Once during your turn, you may look at the top card of your opponent's deck. If you do, look at the top card of your deck.",
-			es: "Una vez durante tu turno, puedes mirar la primera carta de la baraja de tu rival. Si lo haces, mira la primera carta de tu baraja.",
-			it: "Una sola volta durante il tuo turno, puoi guardare la prima carta del mazzo del tuo avversario. Se lo fai, guarda la prima carta del tuo mazzo.",
-			pt: "Uma vez durante o seu turno, você poderá olhar a carta de cima do baralho do seu oponente. Se fizer isto, olhe a carta de cima do seu baralho.",
-			de: "Einmal während deines Zuges kannst du dir die oberste Karte des Decks deines Gegners anschauen. Wenn du das machst, schau dir die oberste Karte deines Decks an."
+			'fr-fr': "Une fois pendant votre tour, vous pouvez regarder la carte du dessus du deck de votre adversaire. Dans ce cas, regardez la carte du dessus de votre deck.",
+			'en-us': "Once during your turn, you may look at the top card of your opponent's deck. If you do, look at the top card of your deck.",
+			'es-es': "Una vez durante tu turno, puedes mirar la primera carta de la baraja de tu rival. Si lo haces, mira la primera carta de tu baraja.",
+			'it-it': "Una sola volta durante il tuo turno, puoi guardare la prima carta del mazzo del tuo avversario. Se lo fai, guarda la prima carta del tuo mazzo.",
+			'pt-br': "Uma vez durante o seu turno, você poderá olhar a carta de cima do baralho do seu oponente. Se fizer isto, olhe a carta de cima do seu baralho.",
+			'de-de': "Einmal während deines Zuges kannst du dir die oberste Karte des Decks deines Gegners anschauen. Wenn du das machst, schau dir die oberste Karte deines Decks an."
 		}
 	}],
 
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Onde Hypnotique",
-			en: "Hypnotic Ray",
-			es: "Rayo Hipnótico",
-			it: "Ipnoraggio",
-			pt: "Raio Hipnótico",
-			de: "Hypnotischer Strahl"
+			'fr-fr': "Onde Hypnotique",
+			'en-us': "Hypnotic Ray",
+			'es-es': "Rayo Hipnótico",
+			'it-it': "Ipnoraggio",
+			'pt-br': "Raio Hipnótico",
+			'de-de': "Hypnotischer Strahl"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 		},
 
 		damage: 90
@@ -84,7 +84,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It's said that Malamar's hypnotic powers played a role in certain history-changing events.",
+		'en-us': "It's said that Malamar's hypnotic powers played a role in certain history-changing events.",
 	},
 
 	variants: [

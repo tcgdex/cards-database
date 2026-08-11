@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Staraptor",
-		fr: "Étouraptor",
-		es: "Staraptor",
-		it: "Staraptor",
-		pt: "Staraptor",
-		de: "Staraptor"
+		'en-us': "Staraptor",
+		'fr-fr': "Étouraptor",
+		'es-es': "Staraptor",
+		'it-it': "Staraptor",
+		'pt-br': "Staraptor",
+		'de-de': "Staraptor"
 	},
 
 	illustrator: "Sekio",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Staravia",
-		fr: "Étourvol",
+		'en-us': "Staravia",
+		'fr-fr': "Étourvol",
 	},
 
 	stage: "Stage2",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Clutch",
-				fr: "Serre",
-				es: "Embrague",
-				it: "Grinfie",
-				pt: "Agarramento",
-				de: "Greifer"
+				'en-us': "Clutch",
+				'fr-fr': "Serre",
+				'es-es': "Embrague",
+				'it-it': "Grinfie",
+				'pt-br': "Agarramento",
+				'de-de': "Greifer"
 			},
 			effect: {
-				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
-				es: "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
-				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-				pt: "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
-				de: "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can’t retreat during your opponent’s next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'es-es': "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
+				'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+				'pt-br': "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
+				'de-de': "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 50,
 
@@ -66,20 +66,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sky Hunting",
-				fr: "Chasse Aérienne",
-				es: "Caza Aérea",
-				it: "Aerocaccia",
-				pt: "Caça pelos Céus",
-				de: "Luftjagd"
+				'en-us': "Sky Hunting",
+				'fr-fr': "Chasse Aérienne",
+				'es-es': "Caza Aérea",
+				'it-it': "Aerocaccia",
+				'pt-br': "Caça pelos Céus",
+				'de-de': "Luftjagd"
 			},
 			effect: {
-				en: "If your opponent’s Pokémon is Knocked Out by the damage from this attack, switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Si le Pokémon de votre adversaire est mis K.O. par les dégâts de cette attaque, échangez ce Pokémon avec l’un de vos Pokémon de Banc.",
-				es: "Si el Pokémon de tu rival queda Fuera de Combate por el daño de este ataque, cambia este Pokémon por 1 de tus Pokémon en Banca.",
-				it: "Se un Pokémon del tuo avversario viene messo KO dai danni di questo attacco, scambia questo Pokémon con uno della tua panchina.",
-				pt: "Se o Pokémon do seu oponente for Nocauteado pelo dano deste ataque, troque este Pokémon por 1 dos seus Pokémon no Banco.",
-				de: "Wenn das Pokémon deines Gegners durch den Schaden dieser Attacke kampfunfähig wird, tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "If your opponent’s Pokémon is Knocked Out by the damage from this attack, switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Si le Pokémon de votre adversaire est mis K.O. par les dégâts de cette attaque, échangez ce Pokémon avec l’un de vos Pokémon de Banc.",
+				'es-es': "Si el Pokémon de tu rival queda Fuera de Combate por el daño de este ataque, cambia este Pokémon por 1 de tus Pokémon en Banca.",
+				'it-it': "Se un Pokémon del tuo avversario viene messo KO dai danni di questo attacco, scambia questo Pokémon con uno della tua panchina.",
+				'pt-br': "Se o Pokémon do seu oponente for Nocauteado pelo dano deste ataque, troque este Pokémon por 1 dos seus Pokémon no Banco.",
+				'de-de': "Wenn das Pokémon deines Gegners durch den Schaden dieser Attacke kampfunfähig wird, tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 120,
 
@@ -103,7 +103,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The muscles in its wings and legs are strong. It can easily fly while gripping a small Pokémon.",
+		'en-us': "The muscles in its wings and legs are strong. It can easily fly while gripping a small Pokémon.",
 	},
 
 	thirdParty: {

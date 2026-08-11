@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゼクロムex",
+		'ja-jp': "ゼクロムex",
 	},
 
 	illustrator: "takuyoa",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: "130+",
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "相手がすでにとったサイドの枚数×50ダメージ追加。このポケモンにも30ダメージ。",
+				'ja-jp': "相手がすでにとったサイドの枚数×50ダメージ追加。このポケモンにも30ダメージ。",
 			},
 		},
 	],

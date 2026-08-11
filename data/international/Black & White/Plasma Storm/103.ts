@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Togetic",
-		fr: "Togetic",
-		es: "Togetic",
-		it: "Togetic",
-		pt: "Togetic",
-		de: "Togetic"
+		'en-us': "Togetic",
+		'fr-fr': "Togetic",
+		'es-es': "Togetic",
+		'it-it': "Togetic",
+		'pt-br': "Togetic",
+		'de-de': "Togetic"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Togepi",
-		fr: "Togepi",
+		'en-us': "Togepi",
+		'fr-fr': "Togepi",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sweet Kiss",
-				fr: "Doux Baiser",
+				'en-us': "Sweet Kiss",
+				'fr-fr': "Doux Baiser",
 			},
 			effect: {
-				en: "Your opponent draws a card.",
-				fr: "Votre adversaire pioche une carte.",
+				'en-us': "Your opponent draws a card.",
+				'fr-fr': "Votre adversaire pioche une carte.",
 			},
 			damage: 30,
 
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "To share its happiness, it flies around the world seeking kind-hearted people.",
+		'en-us': "To share its happiness, it flies around the world seeking kind-hearted people.",
 	},
 
 	thirdParty: {

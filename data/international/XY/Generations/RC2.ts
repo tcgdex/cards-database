@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Shroomish",
-		fr: "Balignon",
+		'en-us': "Shroomish",
+		'fr-fr': "Balignon",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Worry Seed",
-				fr: "Soucigraine",
+				'en-us': "Worry Seed",
+				'fr-fr': "Soucigraine",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Confus.",
 			},
 			damage: 10,
 
@@ -52,7 +52,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "I wonder if I would look a little cuter with a beautiful flower?",
+		'en-us': "I wonder if I would look a little cuter with a beautiful flower?",
 	},
 
 	thirdParty: {

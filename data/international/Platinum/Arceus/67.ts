@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Kabuto",
-		de: "Kabuto"
+		'en-us': "Kabuto",
+		'de-de': "Kabuto"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dome Fossil"
+		'en-us': "Dome Fossil"
 	},
 
 	stage: "Stage1",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fast Evolution",
-				de: "Schnelle Evolution"
+				'en-us': "Fast Evolution",
+				'de-de': "Schnelle Evolution"
 			},
 			effect: {
-				en: "Search your deck for up to 2 Evolution cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
-				de: "Durchsuche dein Deck nach bis zu 2 Evolutionskarten, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+				'en-us': "Search your deck for up to 2 Evolution cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+				'de-de': "Durchsuche dein Deck nach bis zu 2 Evolutionskarten, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -47,8 +47,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Speed Attack",
-				de: "Tempoangriff"
+				'en-us': "Speed Attack",
+				'de-de': "Tempoangriff"
 			},
 
 			damage: 30,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is thought to have inhabited beaches 300 million years ago. It is protected by a stiff shell."
+		'en-us': "It is thought to have inhabited beaches 300 million years ago. It is protected by a stiff shell."
 	},
 
 	variants: [

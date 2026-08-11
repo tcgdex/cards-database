@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shinx",
-		fr: "Lixy",
-		es: "Shinx",
-		it: "Shinx",
-		pt: "Shinx",
-		de: "Sheinux"
+		'en-us': "Shinx",
+		'fr-fr': "Lixy",
+		'es-es': "Shinx",
+		'it-it': "Shinx",
+		'pt-br': "Shinx",
+		'de-de': "Sheinux"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Curiosity",
-			fr: "Curiosité",
-			es: "Curiosidad",
-			it: "Curiosità",
-			pt: "Curiosidade",
-			de: "Neugier"
+			'en-us': "Curiosity",
+			'fr-fr': "Curiosité",
+			'es-es': "Curiosidad",
+			'it-it': "Curiosità",
+			'pt-br': "Curiosidade",
+			'de-de': "Neugier"
 		},
 
 		effect: {
-			en: "Your opponent reveals their hand.",
-			fr: "Votre adversaire montre sa main.",
-			es: "Tu rival enseña las cartas de su mano.",
-			it: "Il tuo avversario mostra le carte che ha in mano.",
-			pt: "Seu oponente revela a mão dele.",
-			de: "Dein Gegner zeigt dir seine Handkarten."
+			'en-us': "Your opponent reveals their hand.",
+			'fr-fr': "Votre adversaire montre sa main.",
+			'es-es': "Tu rival enseña las cartas de su mano.",
+			'it-it': "Il tuo avversario mostra le carte che ha in mano.",
+			'pt-br': "Seu oponente revela a mão dele.",
+			'de-de': "Dein Gegner zeigt dir seine Handkarten."
 		}
 	}, {
 		cost: ["Lightning", "Lightning"],
 
 		name: {
-			en: "Static Shock",
-			fr: "Choc Statique",
-			es: "Impacto Estático",
-			it: "Shock Statico",
-			pt: "Choque de Estática",
-			de: "Statischer Schock"
+			'en-us': "Static Shock",
+			'fr-fr': "Choc Statique",
+			'es-es': "Impacto Estático",
+			'it-it': "Shock Statico",
+			'pt-br': "Choque de Estática",
+			'de-de': "Statischer Schock"
 		},
 
 		damage: 30
@@ -65,7 +65,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "The extension and contraction of its muscles generates electricity. Its fur glows when it's in trouble.",
+		'en-us': "The extension and contraction of its muscles generates electricity. Its fur glows when it's in trouble.",
 	},
 
 	variants: [

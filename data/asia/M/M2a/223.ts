@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガリザードンXex",
+		'ja-jp': "メガリザードンXex",
 	},
 
 	illustrator: "Saboteri",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "90×",
 			cost: ["Fire", "Fire"],
 			effect: {
-				ja: "自分の場のポケモンについている[R]エネルギーを好きなだけトラッシュし、その枚数×90ダメージ。",
+				'ja-jp': "自分の場のポケモンについている[R]エネルギーを好きなだけトラッシュし、その枚数×90ダメージ。",
 			},
 		},
 	],
@@ -38,7 +38,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "リザード",
+		'ja-jp': "リザード",
 	},
 
 	retreat: 2,

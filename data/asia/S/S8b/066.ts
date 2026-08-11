@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨマワル",
+		'ja-jp': "ヨマワル",
 		'zh-tw': "夜巡靈",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "いいつけを 守らない 子供を 見つけると 夜中に どこかへ 連れていくと いわれている。",
+		'ja-jp': "いいつけを 守らない 子供を 見つけると 夜中に どこかへ 連れていくと いわれている。",
 		'zh-tw': "據說一旦發現不聽話的孩子，牠就會在深夜裡把那個孩子帶去某個不知名的地方。",
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "みらいよち",
+				'ja-jp': "みらいよち",
 				'zh-tw': "預知未來",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分または相手の山札を上から4枚見て、好きな順番に入れ替えて、山札の上にもどす。",
+				'ja-jp': "自分または相手の山札を上から4枚見て、好きな順番に入れ替えて、山札の上にもどす。",
 				'zh-tw': "查看自己或者對手的牌庫上方4張卡，以任意順序排列，放回牌庫上方。",
 			},
 		},

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Snorlax",
-		fr: "Ronflex",
-		es: "Snorlax",
-		it: "Snorlax",
-		pt: "Snorlax",
-		de: "Relaxo"
+		'en-us': "Snorlax",
+		'fr-fr': "Ronflex",
+		'es-es': "Snorlax",
+		'it-it': "Snorlax",
+		'pt-br': "Snorlax",
+		'de-de': "Relaxo"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Oswaldo KATO",
 
 	description: {
-		en: "This Pokémon's stomach is so strong, even eating moldy or rotten food will not affect it."
+		'en-us': "This Pokémon's stomach is so strong, even eating moldy or rotten food will not affect it."
 	},
 
 	attacks: [{
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Heavy Impact",
-			fr: "Gros Impact",
-			de: "Schwerer Einschlag",
-			es: "Impacto Pesado",
-			pt: "Impacto Pesado",
-			it: "Impatto Pesante"
+			'en-us': "Heavy Impact",
+			'fr-fr': "Gros Impact",
+			'de-de': "Schwerer Einschlag",
+			'es-es': "Impacto Pesado",
+			'pt-br': "Impacto Pesado",
+			'it-it': "Impatto Pesante"
 		},
 
 		damage: 80

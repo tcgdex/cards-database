@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニャビー",
+		'ja-jp': "ニャビー",
 	},
 
 	illustrator: "REND",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "暇さえあれば 舐めて 毛づくろい。 お腹に たまった 抜け毛に 火を つけて 炎技を 放つ。",
+		'ja-jp': "暇さえあれば 舐めて 毛づくろい。 お腹に たまった 抜け毛に 火を つけて 炎技を 放つ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Fire"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],

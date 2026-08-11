@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Wobbuffet",
-		fr: "Qulbutoké",
-		de: "Woingenau"
+		'en-us': "Wobbuffet",
+		'fr-fr': "Qulbutoké",
+		'de-de': "Woingenau"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Countercharge",
-				fr: "Contre-charge",
-				de: "Konterangriff"
+				'en-us': "Countercharge",
+				'fr-fr': "Contre-charge",
+				'de-de': "Konterangriff"
 			},
 			effect: {
-				en: "Flip a coin. If heads, move all damage counters from Wobbuffet to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, déplacez tous les marqueurs de dégât de Qulbutoké sur le Pokémon Défenseur.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" entferne alle Schadensmarken von Woingenau und lege sie auf das Verteidigende Pokémon."
+				'en-us': "Flip a coin. If heads, move all damage counters from Wobbuffet to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, déplacez tous les marqueurs de dégât de Qulbutoké sur le Pokémon Défenseur.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" entferne alle Schadensmarken von Woingenau und lege sie auf das Verteidigende Pokémon."
 			},
 
 		},
@@ -55,8 +55,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It desperately tries to keep its black tail hidden. It is said to be proof the tail hides a secret.",
-		fr: "Il cherche désespérément à cacher sa queue noire. Certains pensent qu'elle renferme un secret."
+		'en-us': "It desperately tries to keep its black tail hidden. It is said to be proof the tail hides a secret.",
+		'fr-fr': "Il cherche désespérément à cacher sa queue noire. Certains pensent qu'elle renferme un secret."
 	},
 
 	thirdParty: {

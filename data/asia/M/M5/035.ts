@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ランプラー",
+		'ja-jp': "ランプラー",
 	},
 
 	illustrator: "sowsow",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "臨終の 際に 現れて 魂が 肉体を 離れると すかさず 吸い取ってしまうのだ。",
+		'ja-jp': "臨終の 際に 現れて 魂が 肉体を 離れると すかさず 吸い取ってしまうのだ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ふえるあかり" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分の山札から「ランプラー」を3枚まで選び、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札から「ランプラー」を3枚まで選び、ベンチに出す。そして山札を切る。",
 			},
 		},
 	],
@@ -41,7 +41,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒトモシ",
+		'ja-jp': "ヒトモシ",
 	},
 
 	retreat: 1,

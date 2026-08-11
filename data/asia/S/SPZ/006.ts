@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SPZ"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "捷拉奧拉VMAX",
-		ja: "ゼラオラVMAX"
+		'ja-jp': "ゼラオラVMAX"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -18,12 +18,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "反應脈衝",
-			ja: "リアクトパルス"
+			'ja-jp': "リアクトパルス"
 		},
 
 		effect: {
 			'zh-tw': "造成對手場上擁有特性的寶可夢的數量×60點傷害。",
-			ja: "相手の場の特性を持つポケモンの数×60ダメージ。"
+			'ja-jp': "相手の場の特性を持つポケモンの数×60ダメージ。"
 		},
 
 		damage: "60×",
@@ -31,12 +31,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "極巨電拳",
-			ja: "ダイフィスト"
+			'ja-jp': "ダイフィスト"
 		},
 
 		effect: {
 			'zh-tw': "選擇2個這隻寶可夢身上附加的能量，將其丟棄。",
-			ja: "このポケモンについているエネルギーを2個選び、トラッシュする。"
+			'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。"
 		},
 
 		damage: 240,

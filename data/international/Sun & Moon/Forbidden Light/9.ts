@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Skiddo",
-		fr: "Cabriolaine",
-		es: "Skiddo",
-		it: "Skiddo",
-		pt: "Skiddo",
-		de: "Mähikel"
+		'en-us': "Skiddo",
+		'fr-fr': "Cabriolaine",
+		'es-es': "Skiddo",
+		'it-it': "Skiddo",
+		'pt-br': "Skiddo",
+		'de-de': "Mähikel"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Growth",
-				fr: "Croissance",
-				es: "Desarrollo",
-				it: "Crescita",
-				pt: "Crescimento",
-				de: "Wachstum"
+				'en-us': "Growth",
+				'fr-fr': "Croissance",
+				'es-es': "Desarrollo",
+				'it-it': "Crescita",
+				'pt-br': "Crescimento",
+				'de-de': "Wachstum"
 			},
 			effect: {
-				en: "Attach a Grass Energy card from your hand to this Pokémon.",
-				fr: "Attachez une carte Énergie Grass de votre main à ce Pokémon.",
-				es: "Une 1 carta de Energía Grass de tu mano a este Pokémon.",
-				it: "Assegna a questo Pokémon una carta Energia Grass dalla tua mano.",
-				pt: "Ligue 1 carta de Energia Grass da sua mão a este Pokémon.",
-				de: "Lege1 Grass-Energiekarte aus deiner Hand an dieses Pokémon an."
+				'en-us': "Attach a Grass Energy card from your hand to this Pokémon.",
+				'fr-fr': "Attachez une carte Énergie Grass de votre main à ce Pokémon.",
+				'es-es': "Une 1 carta de Energía Grass de tu mano a este Pokémon.",
+				'it-it': "Assegna a questo Pokémon una carta Energia Grass dalla tua mano.",
+				'pt-br': "Ligue 1 carta de Energia Grass da sua mão a este Pokémon.",
+				'de-de': "Lege1 Grass-Energiekarte aus deiner Hand an dieses Pokémon an."
 			},
 
 		},
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch’Herbe",
-				es: "Hoja Afilada",
-				it: "Foglielama",
-				pt: "Folha Navalha",
-				de: "Rasierblatt"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch’Herbe",
+				'es-es': "Hoja Afilada",
+				'it-it': "Foglielama",
+				'pt-br': "Folha Navalha",
+				'de-de': "Rasierblatt"
 			},
 
 			damage: 40,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "If it has sunshine and water, it doesn't need to eat, because it can generate energy from the leaves on its back.",
+		'en-us': "If it has sunshine and water, it doesn't need to eat, because it can generate energy from the leaves on its back.",
 	},
 
 	thirdParty: {

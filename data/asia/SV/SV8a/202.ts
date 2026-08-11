@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ブースターex",
-		id: "Flareon ex",
+		'ja-jp': "ブースターex",
+		'id-id': "Flareon ex",
 		'zh-tw': "火伊布ex",
 		'zh-cn': "火伊布ex"
 	},
@@ -23,8 +23,8 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			ja: "バーニングチャージ",
-			id: "Burning Charge",
+			'ja-jp': "バーニングチャージ",
+			'id-id': "Burning Charge",
 			'zh-tw': "燃燒充能",
 			'zh-cn': "燃燒充能"
 		},
@@ -32,8 +32,8 @@ const card: Card = {
 		damage: 130,
 
 		effect: {
-			ja: "自分の山札から基本エネルギーを2枚まで選び、自分のポケモン1匹につける。そして山札を切る。",
-			id: "Pilih paling banyak 2 lembar Energi Dasar dari Deck sendiri, lalu kenakan pada 1 Pokémon sendiri. Kemudian, kocok Deck.",
+			'ja-jp': "自分の山札から基本エネルギーを2枚まで選び、自分のポケモン1匹につける。そして山札を切る。",
+			'id-id': "Pilih paling banyak 2 lembar Energi Dasar dari Deck sendiri, lalu kenakan pada 1 Pokémon sendiri. Kemudian, kocok Deck.",
 			'zh-tw': "從自己的牌庫選擇最多2張基本能量卡，附於自己的1隻寶可夢身上。並且重洗牌庫。",
 			'zh-cn': "從自己的牌庫選擇最多2張基本能量卡，附於自己的1隻寶可夢身上。並且重洗牌庫。"
 		}
@@ -41,8 +41,8 @@ const card: Card = {
 		cost: ["Fire", "Water", "Lightning"],
 
 		name: {
-			ja: "カーネリアン",
-			id: "Carnelian",
+			'ja-jp': "カーネリアン",
+			'id-id': "Carnelian",
 			'zh-tw': "紅玉髓",
 			'zh-cn': "紅玉髓"
 		},
@@ -50,8 +50,8 @@ const card: Card = {
 		damage: 280,
 
 		effect: {
-			ja: "次の自分の番、このポケモンはワザが使えない。",
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan.",
+			'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan.",
 			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
 			'zh-cn': "在下個自己的回合，這隻寶可夢無法使用招式。"
 		}

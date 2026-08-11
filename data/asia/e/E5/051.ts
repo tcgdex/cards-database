@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マチョーク",
+		'ja-jp': "マチョーク",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "フォーカスエネルギー",
+				'ja-jp': "フォーカスエネルギー",
 			},
 			effect: {
-				ja: "次のターン中、マチョークのメガパンチ攻撃のベースダメージは80です。",
+				'ja-jp': "次のターン中、マチョークのメガパンチ攻撃のベースダメージは80です。",
 			},
 		},
 		{
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "メガパンチ",
+				'ja-jp': "メガパンチ",
 			},
 			damage: 40,
 		},

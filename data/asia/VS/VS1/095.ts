@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケットのentei",
+		'ja-jp': "ロケットのentei",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Fire", "Colorless", "Colorless"],
 			name: {
-				ja: "燃焼タックル",
+				'ja-jp': "燃焼タックル",
 			},
 			effect: {
-				ja: "RocketのEnteiに取り付けられた1つのエネルギーカードを廃棄します。 Rocket's Enteiはそれ自体に10ダメージを与えます。",
+				'ja-jp': "RocketのEnteiに取り付けられた1つのエネルギーカードを廃棄します。 Rocket's Enteiはそれ自体に10ダメージを与えます。",
 			},
 			damage: 40,
 		},

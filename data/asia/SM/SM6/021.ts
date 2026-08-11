@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウデッポウ",
+		'ja-jp': "ウデッポウ",
 	},
 
 	illustrator: "Midori Harada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "体内ガスの 爆発で 水を ピストルのように 発射する。 至近距離なら 岩を 砕く。",
+		'ja-jp': "体内ガスの 爆発で 水を ピストルのように 発射する。 至近距離なら 岩を 砕く。",
 	},
 
 	stage: "Basic",

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガマガル",
+		'ja-jp': "ガマガル",
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "頭の コブを 振動させると 水中が 波立つ だけでなく 地面も 地震のように 揺れる。",
+		'ja-jp': "頭の コブを 振動させると 水中が 波立つ だけでなく 地面も 地震のように 揺れる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "40x",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の場の、ワザ「りんしょう」を持つポケモンの数×40ダメージ。",
+				'ja-jp': "自分の場の、ワザ「りんしょう」を持つポケモンの数×40ダメージ。",
 			},
 		},
 		{
@@ -40,7 +40,7 @@ const card: Card = {
 	variants: [{ type: "holo" }],
 
 	evolveFrom: {
-		ja: "オタマロ",
+		'ja-jp': "オタマロ",
 	},
 
 	retreat: 2,

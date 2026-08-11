@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Meltan",
-		fr: "Meltan",
-		es: "Meltan",
-		it: "Meltan",
-		pt: "Meltan",
-		de: "Meltan"
+		'en-us': "Meltan",
+		'fr-fr': "Meltan",
+		'es-es': "Meltan",
+		'it-it': "Meltan",
+		'pt-br': "Meltan",
+		'de-de': "Meltan"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			en: "Knickknack Carrying",
-			fr: "Trimballe Bricoles",
-			es: "Transporte de Chatarra",
-			it: "Trasporto di Cianfrusaglie",
-			pt: "Carregando Tranqueira",
-			de: "Klimbimtransport"
+			'en-us': "Knickknack Carrying",
+			'fr-fr': "Trimballe Bricoles",
+			'es-es': "Transporte de Chatarra",
+			'it-it': "Trasporto di Cianfrusaglie",
+			'pt-br': "Carregando Tranqueira",
+			'de-de': "Klimbimtransport"
 		},
 
 		effect: {
-			en: "Search your deck for a Pokémon Tool card, reveal it, and put it into your hand. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck une carte Outil Pokémon, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja 1 carta de Herramienta Pokémon, enséñala y ponla en tu mano. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo una carta Oggetto Pokémon, mostrala e aggiungila alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por uma carta de Ferramenta Pokémon no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach 1 Pokémon-Ausrüstung, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+			'en-us': "Search your deck for a Pokémon Tool card, reveal it, and put it into your hand. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck une carte Outil Pokémon, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja 1 carta de Herramienta Pokémon, enséñala y ponla en tu mano. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo una carta Oggetto Pokémon, mostrala e aggiungila alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por uma carta de Ferramenta Pokémon no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach 1 Pokémon-Ausrüstung, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 30

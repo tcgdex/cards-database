@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "軽いドラゴナイト",
+		'ja-jp': "軽いドラゴナイト",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "奇跡的な風",
+				'ja-jp': "奇跡的な風",
 			},
 			effect: {
-				ja: "軽いドラゴナイトがアクティブなポクモンである限り、各特別エネルギーカードは通常のタイプではなく無色のエネルギーを提供し、その他の効果は機能しなくなります。このパワーは、軽いドラゴナイトが眠っている、混乱し、麻痺している間に機能しなくなります。",
+				'ja-jp': "軽いドラゴナイトがアクティブなポクモンである限り、各特別エネルギーカードは通常のタイプではなく無色のエネルギーを提供し、その他の効果は機能しなくなります。このパワーは、軽いドラゴナイトが眠っている、混乱し、麻痺している間に機能しなくなります。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "光波",
+				'ja-jp': "光波",
 			},
 			effect: {
-				ja: "対戦相手の次のターン中に、ダメージ以外のダメージ以外のすべての影響を防ぎます。",
+				'ja-jp': "対戦相手の次のターン中に、ダメージ以外のダメージ以外のすべての影響を防ぎます。",
 			},
 			damage: 40,
 		},

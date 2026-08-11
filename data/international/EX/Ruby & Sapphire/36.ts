@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Lairon",
-		fr: "Galegon",
-		de: "Stollrak"
+		'en-us': "Lairon",
+		'fr-fr': "Galegon",
+		'de-de': "Stollrak"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Aron",
-		fr: "Galekid"
+		'en-us': "Aron",
+		'fr-fr': "Galekid"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Charge",
-				de: "Ram"
+				'en-us': "Ram",
+				'fr-fr': "Charge",
+				'de-de': "Ram"
 			},
 
 			damage: 20,
@@ -50,9 +50,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Claw",
-				fr: "Griffe acier",
-				de: "Metal Claw"
+				'en-us': "Metal Claw",
+				'fr-fr': "Griffe acier",
+				'de-de': "Metal Claw"
 			},
 
 			damage: 40,

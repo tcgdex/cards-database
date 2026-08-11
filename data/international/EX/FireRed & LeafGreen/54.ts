@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Bulbasaur",
-		fr: "Bulbizarre",
-		de: "Bisasam"
+		'en-us': "Bulbasaur",
+		'fr-fr': "Bulbizarre",
+		'de-de': "Bisasam"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleep Poison",
-				fr: "Poison dodo",
-				de: "Sleep Poison"
+				'en-us': "Sleep Poison",
+				'fr-fr': "Poison dodo",
+				'de-de': "Sleep Poison"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep and Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi et Empoisonné.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Asleep and Poisoned."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep and Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi et Empoisonné.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Asleep and Poisoned."
 			},
 
 		},
@@ -49,9 +49,9 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'herbe",
-				de: "Razor Leaf"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'herbe",
+				'de-de': "Razor Leaf"
 			},
 
 			damage: 20

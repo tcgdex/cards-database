@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Galarian Zigzagoon",
-		fr: "Zigzaton de Galar",
-		es: "Zigzagoon de Galar",
+		'en-us': "Galarian Zigzagoon",
+		'fr-fr': "Zigzaton de Galar",
+		'es-es': "Zigzagoon de Galar",
 		'es-mx': "Zigzagoon de Galar",
-		de: "Galar-Zigzachs",
-		it: "Zigzagoon di Galar",
-		pt: "Zigzagoon de Galar"
+		'de-de': "Galar-Zigzachs",
+		'it-it': "Zigzagoon di Galar",
+		'pt-br': "Zigzagoon de Galar"
 	},
 
 	illustrator: "osare",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Gnaw",
-			fr: "Ronge",
-			es: "Roer",
+			'en-us': "Gnaw",
+			'fr-fr': "Ronge",
+			'es-es': "Roer",
 			'es-mx': "Mordisquear",
-			de: "Nagen",
-			it: "Rosicchiamento",
-			pt: "Roída"
+			'de-de': "Nagen",
+			'it-it': "Rosicchiamento",
+			'pt-br': "Roída"
 		},
 
 		damage: 10
@@ -48,7 +48,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Its restlessness has it constantly running around. If it sees another Pokémon, it will purposely run into them in order to start a fight.",
+		'en-us': "Its restlessness has it constantly running around. If it sees another Pokémon, it will purposely run into them in order to start a fight.",
 	},
 
 	variants: [

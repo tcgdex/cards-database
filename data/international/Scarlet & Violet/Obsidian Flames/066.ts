@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Tyranocif-ex",
-		en: "Tyranitar ex",
-		es: "Tyranitar ex",
-		it: "Tyranitar-ex",
-		pt: "Tyranitar ex",
-		de: "Despotar-ex"
+		'fr-fr': "Tyranocif-ex",
+		'en-us': "Tyranitar ex",
+		'es-es': "Tyranitar ex",
+		'it-it': "Tyranitar-ex",
+		'pt-br': "Tyranitar ex",
+		'de-de': "Despotar-ex"
 	},
 
 	rarity: "Double rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 340,
 	types: ["Lightning"],
 	evolveFrom: {
-		fr: "Ymphect",
-		en: "Pupitar",
-		es: "Pupitar",
-		it: "Pupitar",
-		pt: "Pupitar",
-		de: "Pupitar"
+		'fr-fr': "Ymphect",
+		'en-us': "Pupitar",
+		'es-es': "Pupitar",
+		'it-it': "Pupitar",
+		'pt-br': "Pupitar",
+		'de-de': "Pupitar"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			fr: "Lance-Montagnes",
-			en: "Mountain Hurl",
-			es: "Lanzamiento de Montaña",
-			it: "Lanciamonte",
-			pt: "Arremesso Montanhoso",
-			de: "Bergschleuderer"
+			'fr-fr': "Lance-Montagnes",
+			'en-us': "Mountain Hurl",
+			'es-es': "Lanzamiento de Montaña",
+			'it-it': "Lanciamonte",
+			'pt-br': "Arremesso Montanhoso",
+			'de-de': "Bergschleuderer"
 		},
 
 		effect: {
-			fr: "Défaussez les 2 cartes du dessus de votre deck.",
-			en: "Discard the top 2 cards of your deck.",
-			es: "Descarta las 2 primeras cartas de tu baraja.",
-			it: "Scarta le prime due carte del tuo mazzo.",
-			pt: "Descarte as 2 cartas de cima do seu baralho.",
-			de: "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel."
+			'fr-fr': "Défaussez les 2 cartes du dessus de votre deck.",
+			'en-us': "Discard the top 2 cards of your deck.",
+			'es-es': "Descarta las 2 primeras cartas de tu baraja.",
+			'it-it': "Scarta le prime due carte del tuo mazzo.",
+			'pt-br': "Descarte as 2 cartas de cima do seu baralho.",
+			'de-de': "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel."
 		},
 
 		damage: 120
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			fr: "Saccage Électrique",
-			en: "Lightning Rampage",
-			es: "Furia Relámpago",
-			it: "Furia Fulminante",
-			pt: "Fúria Relâmpago",
-			de: "Blitzrandale"
+			'fr-fr': "Saccage Électrique",
+			'en-us': "Lightning Rampage",
+			'es-es': "Furia Relámpago",
+			'it-it': "Furia Fulminante",
+			'pt-br': "Fúria Relâmpago",
+			'de-de': "Blitzrandale"
 		},
 
 		effect: {
-			fr: "Si au moins un marqueur de dégâts est placé sur vos Pokémon de Banc, cette attaque inflige 100 dégâts supplémentaires.",
-			en: "If your Benched Pokémon have any damage counters on them, this attack does 100 more damage.",
-			es: "Si tus Pokémon en Banca tienen algún contador de daño sobre ellos, este ataque hace 100 puntos de daño más.",
-			it: "Se i tuoi Pokémon in panchina hanno dei segnalini danno, questo attacco infligge 100 danni in più.",
-			pt: "Se os seus Pokémon no Banco tiverem algum contador de dano neles, este ataque causará 100 pontos de dano a mais.",
-			de: "Wenn auf den Pokémon auf deiner Bank mindestens 1 Schadensmarke liegt, fügt diese Attacke 100 Schadenspunkte mehr zu."
+			'fr-fr': "Si au moins un marqueur de dégâts est placé sur vos Pokémon de Banc, cette attaque inflige 100 dégâts supplémentaires.",
+			'en-us': "If your Benched Pokémon have any damage counters on them, this attack does 100 more damage.",
+			'es-es': "Si tus Pokémon en Banca tienen algún contador de daño sobre ellos, este ataque hace 100 puntos de daño más.",
+			'it-it': "Se i tuoi Pokémon in panchina hanno dei segnalini danno, questo attacco infligge 100 danni in più.",
+			'pt-br': "Se os seus Pokémon no Banco tiverem algum contador de dano neles, este ataque causará 100 pontos de dano a mais.",
+			'de-de': "Wenn auf den Pokémon auf deiner Bank mindestens 1 Schadensmarke liegt, fügt diese Attacke 100 Schadenspunkte mehr zu."
 		},
 
 		damage: "150+"

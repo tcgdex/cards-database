@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オリジンパルキアV",
+		'ja-jp': "オリジンパルキアV",
 		'zh-tw': "起源帕路奇亞V",
 	},
 
@@ -18,24 +18,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "りょういきしはい",
+				'ja-jp': "りょういきしはい",
 				'zh-tw': "領域支配",
 			},
 			cost: ["Water"],
 			effect: {
-				ja: "自分の山札からスタジアムを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札からスタジアムを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
 				'zh-tw': "從自己的牌庫選擇1張競技場卡，在給對手看過後加入手牌。並且重洗牌庫。",
 			},
 		},
 		{
 			name: {
-				ja: "ハイドロブレイク",
+				'ja-jp': "ハイドロブレイク",
 				'zh-tw': "水炮破壞",
 			},
 			damage: 200,
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
 			},
 		},

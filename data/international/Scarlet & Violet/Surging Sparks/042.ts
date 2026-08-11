@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Milotic ex",
-		fr: "Milobellus-ex",
-		es: "Milotic ex",
-		it: "Milotic-ex",
-		pt: "Milotic ex",
-		de: "Milotic-ex"
+		'en-us': "Milotic ex",
+		'fr-fr': "Milobellus-ex",
+		'es-es': "Milotic ex",
+		'it-it': "Milotic-ex",
+		'pt-br': "Milotic ex",
+		'de-de': "Milotic-ex"
 	},
 
 	rarity: "Double rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 270,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Feebas",
-		fr: "Barpau",
-		es: "Feebas",
-		it: "Feebas",
-		pt: "Feebas",
-		de: "Barschwa"
+		'en-us': "Feebas",
+		'fr-fr': "Barpau",
+		'es-es': "Feebas",
+		'it-it': "Feebas",
+		'pt-br': "Feebas",
+		'de-de': "Barschwa"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Sparkling Scales",
-			fr: "Écailles Étincelantes",
-			es: "Escamas Centelleantes",
-			it: "Scaglie Scintillanti",
-			pt: "Escamas Cintilantes",
-			de: "Funkelnde Schuppen"
+			'en-us': "Sparkling Scales",
+			'fr-fr': "Écailles Étincelantes",
+			'es-es': "Escamas Centelleantes",
+			'it-it': "Scaglie Scintillanti",
+			'pt-br': "Escamas Cintilantes",
+			'de-de': "Funkelnde Schuppen"
 		},
 
 		effect: {
-			en: "Prevent all damage from and effects of attacks from your opponent's Tera Pokémon done to this Pokémon.",
-			fr: "Évitez tous les dégâts et les effets d'attaques infligés à ce Pokémon par les Pokémon Téracristal de votre adversaire.",
-			es: "Se evitan todo el daño y todos los efectos de los ataques de los Pokémon Teracristal de tu rival infligidos a este Pokémon.",
-			it: "Previeni sia i danni che gli effetti degli attacchi dei Pokémon Teracristal del tuo avversario inflitti a questo Pokémon.",
-			pt: "Previna todo o dano e os efeitos de ataques dos Pokémon Tera do seu oponente causados a este Pokémon.",
-			de: "Verhindere allen Schaden durch und alle Effekte von Attacken von Terakristall-Pokémon deines Gegners, die diesem Pokémon zugefügt werden."
+			'en-us': "Prevent all damage from and effects of attacks from your opponent's Tera Pokémon done to this Pokémon.",
+			'fr-fr': "Évitez tous les dégâts et les effets d'attaques infligés à ce Pokémon par les Pokémon Téracristal de votre adversaire.",
+			'es-es': "Se evitan todo el daño y todos los efectos de los ataques de los Pokémon Teracristal de tu rival infligidos a este Pokémon.",
+			'it-it': "Previeni sia i danni che gli effetti degli attacchi dei Pokémon Teracristal del tuo avversario inflitti a questo Pokémon.",
+			'pt-br': "Previna todo o dano e os efeitos de ataques dos Pokémon Tera do seu oponente causados a este Pokémon.",
+			'de-de': "Verhindere allen Schaden durch und alle Effekte von Attacken von Terakristall-Pokémon deines Gegners, die diesem Pokémon zugefügt werden."
 		}
 	}],
 
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Hypno Splash",
-			fr: "Hypnoplouf",
-			es: "Salpicadura Hipnótica",
-			it: "Ipnospruzzo",
-			pt: "Explosão Hipnótica",
-			de: "Hypnospritzer"
+			'en-us': "Hypno Splash",
+			'fr-fr': "Hypnoplouf",
+			'es-es': "Salpicadura Hipnótica",
+			'it-it': "Ipnospruzzo",
+			'pt-br': "Explosão Hipnótica",
+			'de-de': "Hypnospritzer"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 		},
 
 		damage: 160

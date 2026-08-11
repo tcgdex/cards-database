@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ボルケニオンV",
+		'ja-jp': "ボルケニオンV",
 		'zh-tw': "波爾凱尼恩V",
 	},
 
@@ -18,7 +18,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ヒートブラスト",
+				'ja-jp': "ヒートブラスト",
 				'zh-tw': "雙重金勾臂",
 			},
 			damage: 50,
@@ -26,13 +26,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ダイナマイトタックル",
+				'ja-jp': "ダイナマイトタックル",
 				'zh-tw': "蟹鉗錘",
 			},
 			damage: "100+",
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンにダメカンが10個以上のっているなら、150ダメージ追加。",
+				'ja-jp': "このポケモンにダメカンが10個以上のっているなら、150ダメージ追加。",
 			},
 		},
 	],

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Xatu",
+		'en-us': "Xatu",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Natu",
+		'en-us': "Natu",
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Fortunate Draw",
+				'en-us': "Fortunate Draw",
 			},
 			effect: {
-				en: "You and your opponent play Rock-Paper-Scissors. The player who wins draws 3 cards. The player who loses discards the top 3 cards of his or her deck.",
+				'en-us': "You and your opponent play Rock-Paper-Scissors. The player who wins draws 3 cards. The player who loses discards the top 3 cards of his or her deck.",
 			},
 
 		},
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Miracle Wing",
+				'en-us': "Miracle Wing",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 			},
 			damage: 60,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This odd Pokémon can see both the past and the future. It eyes the sun's movement all day.",
+		'en-us': "This odd Pokémon can see both the past and the future. It eyes the sun's movement all day.",
 	},
 
 	thirdParty: {

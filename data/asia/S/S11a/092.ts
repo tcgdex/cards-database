@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャローダVSTAR",
+		'ja-jp': "ジャローダVSTAR",
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 190,
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分の場のポケモンについているエネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。",
+				'ja-jp': "自分の場のポケモンについているエネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: "60×",
 			cost: ["Grass"],
 			effect: {
-				ja: "このポケモンについているエネルギーの数×60ダメージ。このポケモンをベンチポケモンと入れ替える。［対戦中、自分はVSTARパワーを1回しか使えない。］",
+				'ja-jp': "このポケモンについているエネルギーの数×60ダメージ。このポケモンをベンチポケモンと入れ替える。［対戦中、自分はVSTARパワーを1回しか使えない。］",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ジャローダV",
+		'ja-jp': "ジャローダV",
 	},
 
 	retreat: 0,

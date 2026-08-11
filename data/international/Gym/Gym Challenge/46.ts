@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Koga's Golbat"
+		'en-us': "Koga's Golbat"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Zubat"
+		'en-us': "Zubat"
 	},
 
 	stage: "Stage1",
@@ -32,7 +32,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite"
+				'en-us': "Bite"
 			},
 
 			damage: 20,
@@ -45,10 +45,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sonic Scream"
+				'en-us': "Sonic Scream"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 30,
 

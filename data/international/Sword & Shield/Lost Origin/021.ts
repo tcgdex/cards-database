@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slugma",
-		fr: "Limagma",
-		es: "Slugma",
-		it: "Slugma",
-		pt: "Slugma",
-		de: "Schneckmag"
+		'en-us': "Slugma",
+		'fr-fr': "Limagma",
+		'es-es': "Slugma",
+		'it-it': "Slugma",
+		'pt-br': "Slugma",
+		'de-de': "Schneckmag"
 	},
 
 	illustrator: "Scav",
@@ -25,32 +25,32 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Draw In",
-			fr: "Aspiracartes",
-			es: "Arrastre",
-			it: "Aspiracarte",
-			pt: "Envolver",
-			de: "Ansaugen"
+			'en-us': "Draw In",
+			'fr-fr': "Aspiracartes",
+			'es-es': "Arrastre",
+			'it-it': "Aspiracarte",
+			'pt-br': "Envolver",
+			'de-de': "Ansaugen"
 		},
 
 		effect: {
-			en: "Attach a Fire Energy card from your discard pile to this Pokémon.",
-			fr: "Attachez une carte Énergie Fire de votre pile de défausse à ce Pokémon.",
-			es: "Une 1 carta de Energía Fire de tu pila de descartes a este Pokémon.",
-			it: "Assegna a questo Pokémon una carta Energia Fire dalla tua pila degli scarti.",
-			pt: "Ligue 1 carta de Energia Fire da sua pilha de descarte a este Pokémon.",
-			de: "Lege 1 Fire-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+			'en-us': "Attach a Fire Energy card from your discard pile to this Pokémon.",
+			'fr-fr': "Attachez une carte Énergie Fire de votre pile de défausse à ce Pokémon.",
+			'es-es': "Une 1 carta de Energía Fire de tu pila de descartes a este Pokémon.",
+			'it-it': "Assegna a questo Pokémon una carta Energia Fire dalla tua pila degli scarti.",
+			'pt-br': "Ligue 1 carta de Energia Fire da sua pilha de descarte a este Pokémon.",
+			'de-de': "Lege 1 Fire-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 		}
 	}, {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Combustion",
-			fr: "Fournaise",
-			es: "Combustión",
-			it: "Fuoco Continuo",
-			pt: "Combustão",
-			de: "Glühen"
+			'en-us': "Combustion",
+			'fr-fr': "Fournaise",
+			'es-es': "Combustión",
+			'it-it': "Fuoco Continuo",
+			'pt-br': "Combustão",
+			'de-de': "Glühen"
 		},
 
 		damage: 50

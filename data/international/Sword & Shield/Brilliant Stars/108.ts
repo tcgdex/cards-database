@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gabite",
-		fr: "Carmache",
-		es: "Gabite",
-		it: "Gabite",
-		pt: "Gabite",
-		de: "Knarksel"
+		'en-us': "Gabite",
+		'fr-fr': "Carmache",
+		'es-es': "Gabite",
+		'it-it': "Gabite",
+		'pt-br': "Gabite",
+		'de-de': "Knarksel"
 	},
 
 	illustrator: "hatachu",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Dragon"],
 
 	evolveFrom: {
-		en: "Gible",
-		fr: "Griknot",
-		es: "Gible",
-		it: "Gible",
-		pt: "Gible",
-		de: "Kaumalat"
+		'en-us': "Gible",
+		'fr-fr': "Griknot",
+		'es-es': "Gible",
+		'it-it': "Gible",
+		'pt-br': "Gible",
+		'de-de': "Kaumalat"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Water", "Fighting"],
 
 		name: {
-			en: "Dragon Claw",
-			fr: "Draco-Griffe",
-			es: "Garra Dragón",
-			it: "Dragartigli",
-			pt: "Garra de Dragão",
-			de: "Drachenklaue"
+			'en-us': "Dragon Claw",
+			'fr-fr': "Draco-Griffe",
+			'es-es': "Garra Dragón",
+			'it-it': "Dragartigli",
+			'pt-br': "Garra de Dragão",
+			'de-de': "Drachenklaue"
 		},
 
 		damage: 70
@@ -51,7 +51,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon emits ultrasonic waves from a protrusion on either side of its head to probe pitch-dark caves.",
+		'en-us': "This Pokémon emits ultrasonic waves from a protrusion on either side of its head to probe pitch-dark caves.",
 	},
 
 	variants: [

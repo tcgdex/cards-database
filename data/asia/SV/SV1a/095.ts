@@ -1,18 +1,18 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ボスの指令（ゲーチス）"
+		'ja-jp': "ボスの指令（ゲーチス）"
 	},
 
 	illustrator: "Hideki Ishikawa",
 	category: "Trainer",
 
 	effect: {
-		ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。"
+		'ja-jp': "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。"
 	},
 
 	variants: [

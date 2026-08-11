@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Gabite",
-		fr: "Carmache",
+		'en-us': "Gabite",
+		'fr-fr': "Carmache",
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Shiny rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Dragon",
 	],
 	evolveFrom: {
-		en: "Gible",
-		fr: "Griknot",
+		'en-us': "Gible",
+		'fr-fr': "Griknot",
 	},
 	stage: "Stage1",
 
@@ -31,12 +31,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Ascension",
-				fr: "Ascension",
+				'en-us': "Ascension",
+				'fr-fr': "Ascension",
 			},
 			effect: {
-				en: "Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck.",
-				fr: "Cherchez dans votre deck une carte Évolution de ce Pokémon et placez-la sur ce Pokémon pour le faire évoluer. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck.",
+				'fr-fr': "Cherchez dans votre deck une carte Évolution de ce Pokémon et placez-la sur ce Pokémon pour le faire évoluer. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -46,8 +46,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
 			},
 
 			damage: 40,
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Shiny objects are its passion. It can be found in its cave, scarcely moving, its gaze fixed on the jewels it's amassed or Carbink it has caught.",
+		'en-us': "Shiny objects are its passion. It can be found in its cave, scarcely moving, its gaze fixed on the jewels it's amassed or Carbink it has caught.",
 	},
 }
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Krabby",
-		fr: "Krabby",
-		de: "Krabby"
+		'en-us': "Krabby",
+		'fr-fr': "Krabby",
+		'de-de': "Krabby"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -30,9 +30,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Crabhammer",
-				fr: "Pince-masse",
-				de: "Krabbhammer"
+				'en-us': "Crabhammer",
+				'fr-fr': "Pince-masse",
+				'de-de': "Krabbhammer"
 			},
 
 			damage: 30,

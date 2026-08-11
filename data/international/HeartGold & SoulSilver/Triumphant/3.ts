@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Celebi",
-		fr: "Celebi",
-		de: "Celebi"
+		'en-us': "Celebi",
+		'fr-fr': "Celebi",
+		'de-de': "Celebi"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Future Sight",
-				fr: "Prescience",
-				de: "Seher"
+				'en-us': "Future Sight",
+				'fr-fr': "Prescience",
+				'de-de': "Seher"
 			},
 			effect: {
-				en: "Look at the top 5 cards of either player's deck and put them back on top of that player's deck in any order.",
-				fr: "Regardez les 5 cartes du dessus d’un deck (le vôtre ou celui de votre adversaire) et replacez-les au-dessus du même deck dans n’importe quel ordre.",
-				de: "Schau dir die obersten 5 Karten eines Decks an und lege sie danach in beliebiger Reihenfolge wieder auf das Deck des Spielers zurück."
+				'en-us': "Look at the top 5 cards of either player's deck and put them back on top of that player's deck in any order.",
+				'fr-fr': "Regardez les 5 cartes du dessus d’un deck (le vôtre ou celui de votre adversaire) et replacez-les au-dessus du même deck dans n’importe quel ordre.",
+				'de-de': "Schau dir die obersten 5 Karten eines Decks an und lege sie danach in beliebiger Reihenfolge wieder auf das Deck des Spielers zurück."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leaf Bind",
-				fr: "Lassofeuille",
-				de: "Blattklammer"
+				'en-us': "Leaf Bind",
+				'fr-fr': "Lassofeuille",
+				'de-de': "Blattklammer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared."
+		'en-us': "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared."
 	},
 
 	variants: [		{

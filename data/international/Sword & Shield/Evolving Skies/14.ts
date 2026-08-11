@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Trevenant VMAX",
-		fr: "Desséliande VMAX",
-		es: "Trevenant VMAX",
-		it: "Trevenant VMAX",
-		pt: "Trevenant VMAX",
-		de: "Trombork VMAX"
+		'en-us': "Trevenant VMAX",
+		'fr-fr': "Desséliande VMAX",
+		'es-es': "Trevenant VMAX",
+		'it-it': "Trevenant VMAX",
+		'pt-br': "Trevenant VMAX",
+		'de-de': "Trombork VMAX"
 	},
 
 	rarity: "Holo Rare VMAX",
@@ -23,33 +23,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Missing in the Forest",
-			fr: "Perdus en Forêt",
-			es: "Desaparecidos en el Bosque",
-			it: "Persi nella Foresta",
-			pt: "Missing in the Forest",
-			de: "Verschollen im Wald"
+			'en-us': "Missing in the Forest",
+			'fr-fr': "Perdus en Forêt",
+			'es-es': "Desaparecidos en el Bosque",
+			'it-it': "Persi nella Foresta",
+			'pt-br': "Missing in the Forest",
+			'de-de': "Verschollen im Wald"
 		},
 
 		effect: {
-			en: "This attack does 40 damage for each Supporter card in your opponent's discard pile.",
-			fr: "Cette attaque inflige 40 dégâts pour chaque carte Supporter dans la pile de défausse de votre adversaire.",
-			es: "Este ataque hace 40 puntos de daño por cada carta de Partidario en la pila de descartes de tu rival.",
-			it: "Questo attacco infligge 40 danni per ogni carta Aiuto nella pila degli scarti del tuo avversario.",
-			pt: "This attack does 40 damage for each Supporter card in your opponent's discard pile.",
-			de: "Diese Attacke fügt für jede Unterstützerkarte im Ablagestapel deines Gegners 40 Schadenspunkte zu."
+			'en-us': "This attack does 40 damage for each Supporter card in your opponent's discard pile.",
+			'fr-fr': "Cette attaque inflige 40 dégâts pour chaque carte Supporter dans la pile de défausse de votre adversaire.",
+			'es-es': "Este ataque hace 40 puntos de daño por cada carta de Partidario en la pila de descartes de tu rival.",
+			'it-it': "Questo attacco infligge 40 danni per ogni carta Aiuto nella pila degli scarti del tuo avversario.",
+			'pt-br': "This attack does 40 damage for each Supporter card in your opponent's discard pile.",
+			'de-de': "Diese Attacke fügt für jede Unterstützerkarte im Ablagestapel deines Gegners 40 Schadenspunkte zu."
 		},
 
 		damage: "40×",
 		cost: ["Grass", "Colorless"]
 	}, {
 		name: {
-			en: "Max Tree",
-			fr: "Arbromax",
-			es: "Maxiárbol",
-			it: "Dynatronco",
-			pt: "Max Tree",
-			de: "Dyna-Baum"
+			'en-us': "Max Tree",
+			'fr-fr': "Arbromax",
+			'es-es': "Maxiárbol",
+			'it-it': "Dynatronco",
+			'pt-br': "Max Tree",
+			'de-de': "Dyna-Baum"
 		},
 
 		damage: 180,
@@ -64,12 +64,12 @@ const card: Card = {
 	retreat: 3,
 
 	evolveFrom: {
-		en: "Trevenant V",
-		fr: "Desséliande-V",
-		es: "Trevenant V",
-		it: "Trevenant-V",
-		pt: "Trevenant V",
-		de: "Trombork-V"
+		'en-us': "Trevenant V",
+		'fr-fr': "Desséliande-V",
+		'es-es': "Trevenant V",
+		'it-it': "Trevenant-V",
+		'pt-br': "Trevenant V",
+		'de-de': "Trombork-V"
 	},
 
 	dexId: [709],

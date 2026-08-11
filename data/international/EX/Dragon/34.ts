@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Houndoom",
-		fr: "Hypotrempe",
-		de: "Hundemon"
+		'en-us': "Houndoom",
+		'fr-fr': "Hypotrempe",
+		'de-de': "Hundemon"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Houndour",
-		fr: "Malosse"
+		'en-us': "Houndour",
+		'fr-fr': "Malosse"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Feint Attack",
-				fr: "Feinte",
-				de: "Feint Attack"
+				'en-us': "Feint Attack",
+				'fr-fr': "Feinte",
+				'de-de': "Feint Attack"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.",
-				fr: "Choisissez un des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet.",
-				de: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness, resistance, Poke-Powers, Poke-Bodies, or any other effects on that Pokémon."
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.",
+				'fr-fr': "Choisissez un des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet.",
+				'de-de': "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness, resistance, Poke-Powers, Poke-Bodies, or any other effects on that Pokémon."
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-flammes",
-				de: "Flamethrower"
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-flammes",
+				'de-de': "Flamethrower"
 			},
 			effect: {
-				en: "Discard a Fire Energy card attached to Houndoom.",
-				fr: "Défaussez une carte Énergie  attachée à Démolosse.",
-				de: "Discard a  Energy card attached to Houndoom."
+				'en-us': "Discard a Fire Energy card attached to Houndoom.",
+				'fr-fr': "Défaussez une carte Énergie  attachée à Démolosse.",
+				'de-de': "Discard a  Energy card attached to Houndoom."
 			},
 			damage: 50,
 

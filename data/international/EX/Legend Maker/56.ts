@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legend Maker'
 
 const card: Card = {
 	name: {
-		en: "Lileep",
-		fr: "Lilia",
-		de: "Liliep"
+		'en-us': "Lileep",
+		'fr-fr': "Lilia",
+		'de-de': "Liliep"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Root Fossil",
-		fr: "Fossile racine"
+		'en-us': "Root Fossil",
+		'fr-fr': "Fossile racine"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tender Tentacles",
-				fr: "Tentacules tendres",
-				de: "Zarte Tentakeln"
+				'en-us': "Tender Tentacles",
+				'fr-fr': "Tentacules tendres",
+				'de-de': "Zarte Tentakeln"
 			},
 			effect: {
-				en: "If Lileep has any React Energy cards attached to it, remove 2 damage counters from Lileep.",
-				fr: "Si Lilia possède des cartes Énergie réaction, retirez-lui 2 marqueurs de dégât.",
-				de: "Wenn an Liliep mindestens eine Reaktions-Energiekarte angelegt ist, entferne 2 Schadensmarken von Liliep."
+				'en-us': "If Lileep has any React Energy cards attached to it, remove 2 damage counters from Lileep.",
+				'fr-fr': "Si Lilia possède des cartes Énergie réaction, retirez-lui 2 marqueurs de dégât.",
+				'de-de': "Wenn an Liliep mindestens eine Reaktions-Energiekarte angelegt ist, entferne 2 Schadensmarken von Liliep."
 			},
 			damage: 20,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde folie",
-				de: "Konfustrahl"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde folie",
+				'de-de': "Konfustrahl"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
-				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 20,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コダック",
+		'ja-jp': "コダック",
 		'zh-tw': "可達鴨",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "常より 頭痛に 悩む。 強まりしとき 秘めたる力 意に反し 暴発するゆえ 痛み 和らげる術を 模索中なり。",
+		'ja-jp': "常より 頭痛に 悩む。 強まりしとき 秘めたる力 意に反し 暴発するゆえ 痛み 和らげる術を 模索中なり。",
 		'zh-tw': "常年為頭痛所苦。疼痛增強之時， 蘊藏於體內之力將失控爆發。 故吾人正在摸索舒緩頭痛之法。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぼーっとする",
+				'ja-jp': "ぼーっとする",
 				'zh-tw': "發呆",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、このポケモンのHPを「10」回復する。",
+				'ja-jp': "コインを1回投げオモテなら、このポケモンのHPを「10」回復する。",
 				'zh-tw': "擲1次硬幣若為正面，則將這隻寶可夢恢復「10」HP。",
 			},
 		},
 		{
 			name: {
-				ja: "ぶつかる",
+				'ja-jp': "ぶつかる",
 				'zh-tw': "衝撞",
 			},
 			damage: 20,

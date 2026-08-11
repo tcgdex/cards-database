@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Wrath"
+		'en-us': "Misty's Wrath"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -12,7 +12,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Look at the top 7 cards of your deck. Choose 2 of those cards and put them into your hand. Discard the rest."
+		'en-us': "Look at the top 7 cards of your deck. Choose 2 of those cards and put them into your hand. Discard the rest."
 	},
 	variants: [
 		{

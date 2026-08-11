@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Meowscarada",
-		fr: "Miascarade",
-		es: "Meowscarada",
-		it: "Meowscarada",
-		pt: "Meowscarada",
-		de: "Maskagato"
+		'en-us': "Meowscarada",
+		'fr-fr': "Miascarade",
+		'es-es': "Meowscarada",
+		'it-it': "Meowscarada",
+		'pt-br': "Meowscarada",
+		'de-de': "Maskagato"
 	},
 
 	rarity: "Rare",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Floragato",
-		fr: "Matourgeon"
+		'en-us': "Floragato",
+		'fr-fr': "Matourgeon"
 	},
 
 	stage: "Stage2",
@@ -30,21 +30,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Trick Cape",
-			fr: "Cape de Prestidigitation",
-			es: "Truquicapa",
-			it: "Manteltrucco",
-			pt: "Capa da Travessura",
-			de: "Trickumhang"
+			'en-us': "Trick Cape",
+			'fr-fr': "Cape de Prestidigitation",
+			'es-es': "Truquicapa",
+			'it-it': "Manteltrucco",
+			'pt-br': "Capa da Travessura",
+			'de-de': "Trickumhang"
 		},
 
 		effect: {
-			en: "You may put an Energy attached to your opponent's Active Pokémon into their hand.",
-			fr: "Vous pouvez ajouter à la main de votre adversaire une Énergie attachée à son Pokémon Actif.",
-			es: "Puedes poner 1 Energía unida al Pokémon Activo de tu rival en su mano.",
-			it: "Puoi prendere un'Energia assegnata al Pokémon attivo del tuo avversario e aggiungerla alle carte che ha in mano.",
-			pt: "Você pode colocar uma Energia ligada ao Pokémon Ativo do seu oponente na mão dele.",
-			de: "Du kannst deinem Gegner 1 an sein Aktives Pokémon angelegte Energie auf seine Hand geben."
+			'en-us': "You may put an Energy attached to your opponent's Active Pokémon into their hand.",
+			'fr-fr': "Vous pouvez ajouter à la main de votre adversaire une Énergie attachée à son Pokémon Actif.",
+			'es-es': "Puedes poner 1 Energía unida al Pokémon Activo de tu rival en su mano.",
+			'it-it': "Puoi prendere un'Energia assegnata al Pokémon attivo del tuo avversario e aggiungerla alle carte che ha in mano.",
+			'pt-br': "Você pode colocar uma Energia ligada ao Pokémon Ativo do seu oponente na mão dele.",
+			'de-de': "Du kannst deinem Gegner 1 an sein Aktives Pokémon angelegte Energie auf seine Hand geben."
 		},
 
 		damage: 40
@@ -52,12 +52,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Flower Blast",
-			fr: "Explosion Florale",
-			es: "Explosión Floral",
-			it: "Esplosione Floreale",
-			pt: "Flor Explosiva",
-			de: "Blumenexplosion"
+			'en-us': "Flower Blast",
+			'fr-fr': "Explosion Florale",
+			'es-es': "Explosión Floral",
+			'it-it': "Esplosione Floreale",
+			'pt-br': "Flor Explosiva",
+			'de-de': "Blumenexplosion"
 		},
 
 		damage: 130
@@ -84,7 +84,7 @@ const card: Card = {
 	illustrator: "Ryota Murayama",
 
 	description: {
-		en: "This Pokémon uses the reflective fur lining its cape to camouflage the stem of its flower, creating the illusion that the flower is floating.",
+		'en-us': "This Pokémon uses the reflective fur lining its cape to camouflage the stem of its flower, creating the illusion that the flower is floating.",
 	},
 
 	thirdParty: {

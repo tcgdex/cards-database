@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒバニー",
+		'ja-jp': "ヒバニー",
 	},
 
 	illustrator: "Cona Nitanda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "炎エネルギーが 集まる 足の 肉球は 高温になり 相手に 大ダメージを 与える。",
+		'ja-jp': "炎エネルギーが 集まる 足の 肉球は 高温になり 相手に 大ダメージを 与える。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、10ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、10ダメージ追加。",
 			},
 		},
 	],

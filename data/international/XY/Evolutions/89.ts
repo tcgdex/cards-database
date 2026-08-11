@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Venusaur Spirit Link",
-		fr: "Lien Spirituel Florizarre",
-		es: "Vínculo Espiritual de Venusaur",
-		it: "Legame Mentale con Venusaur",
-		pt: "Elo Espiritual de Venusaur",
-		de: "Bisaflors Geistesbund"
+		'en-us': "Venusaur Spirit Link",
+		'fr-fr': "Lien Spirituel Florizarre",
+		'es-es': "Vínculo Espiritual de Venusaur",
+		'it-it': "Legame Mentale con Venusaur",
+		'pt-br': "Elo Espiritual de Venusaur",
+		'de-de': "Bisaflors Geistesbund"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,12 +17,12 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Votre tour ne se termine pas si le Pokémon auquel cette carte est attachée devient M-Florizarre-EX.",
-		en: "Your turn does not end if the Pokémon this card is attached to becomes M Venusaur-EX.",
-		es: "Tu turno no termina si el Pokémon al que está unida esta carta se convierte en M-Venusaur-EX.",
-		it: "Il tuo turno non finisce se il Pokémon a cui è assegnata questa carta diventa M Venusaur-EX.",
-		pt: "Sua vez de jogar não terminará se o Pokémon ao qual este card está ligado tornar-se M-Venusaur-EX.",
-		de: "Dein Zug endet nicht, wenn das Pokémon, an das diese Karte angelegt ist, zu M-Bisaflor-EX wird."
+		'fr-fr': "Votre tour ne se termine pas si le Pokémon auquel cette carte est attachée devient M-Florizarre-EX.",
+		'en-us': "Your turn does not end if the Pokémon this card is attached to becomes M Venusaur-EX.",
+		'es-es': "Tu turno no termina si el Pokémon al que está unida esta carta se convierte en M-Venusaur-EX.",
+		'it-it': "Il tuo turno non finisce se il Pokémon a cui è assegnata questa carta diventa M Venusaur-EX.",
+		'pt-br': "Sua vez de jogar não terminará se o Pokémon ao qual este card está ligado tornar-se M-Venusaur-EX.",
+		'de-de': "Dein Zug endet nicht, wenn das Pokémon, an das diese Karte angelegt ist, zu M-Bisaflor-EX wird."
 	},
 
 	trainerType: "Tool",

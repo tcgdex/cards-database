@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "迷唇姐",
-		ja: "ルージュラ"
+		'ja-jp': "ルージュラ"
 	},
 
 	illustrator: "Nagomi Nijo",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "奇異的叫聲聽起來就像是 人類的語言。也有些音樂家 會創作讓迷唇姐唱的曲子。",
-		ja: "人間の 言葉のような 不思議な 鳴き声。 ルージュラに 歌わせる 曲を 作る 音楽家もいる。"
+		'ja-jp': "人間の 言葉のような 不思議な 鳴き声。 ルージュラに 歌わせる 曲を 作る 音楽家もいる。"
 	},
 
 	stage: "Basic",
@@ -24,19 +24,19 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "召喚舞",
-			ja: "よびだしダンス"
+			'ja-jp': "よびだしダンス"
 		},
 
 		effect: {
 			'zh-tw': "選擇1隻對手的備戰寶可夢，與戰鬥寶可夢互換。然後，將新上場的寶可夢【混亂】。",
-			ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをこんらんにする。"
+			'ja-jp': "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをこんらんにする。"
 		},
 
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
 			'zh-tw': "超念力",
-			ja: "ちょうねんりき"
+			'ja-jp': "ちょうねんりき"
 		},
 
 		damage: 80,

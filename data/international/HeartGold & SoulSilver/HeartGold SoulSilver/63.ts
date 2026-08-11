@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Exeggcute",
-		fr: "Noeunoeuf",
-		de: "Owei"
+		'en-us': "Exeggcute",
+		'fr-fr': "Noeunoeuf",
+		'de-de': "Owei"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Continuous Eggsplosion",
-				fr: "Éclate continue",
-				de: "Dauernde Eggsplosion"
+				'en-us': "Continuous Eggsplosion",
+				'fr-fr': "Éclate continue",
+				'de-de': "Dauernde Eggsplosion"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu’à ce qu’elle tombe sur pile. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf solange eine Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu’à ce qu’elle tombe sur pile. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf solange eine Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "10×",
 
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Using telepathy only they can employ, they always form a cluster of six Exeggcute."
+		'en-us': "Using telepathy only they can employ, they always form a cluster of six Exeggcute."
 	},
 
 	variants: [

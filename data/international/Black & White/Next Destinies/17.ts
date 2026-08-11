@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Darumaka",
-		fr: "Darumarond",
-		es: "Darumaka",
-		it: "Darumaka",
-		pt: "Darumaka",
-		de: "Flampion"
+		'en-us': "Darumaka",
+		'fr-fr': "Darumarond",
+		'es-es': "Darumaka",
+		'it-it': "Darumaka",
+		'pt-br': "Darumaka",
+		'de-de': "Flampion"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer In",
-				fr: "Enfoncer",
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncer",
 			},
 
 			damage: 20,
@@ -54,7 +54,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Darumaka's droppings are hot, so people used to put them in their clothes to keep themselves warm.",
+		'en-us': "Darumaka's droppings are hot, so people used to put them in their clothes to keep themselves warm.",
 	},
 
 	thirdParty: {

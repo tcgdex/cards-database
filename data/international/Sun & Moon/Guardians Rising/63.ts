@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Machop",
-		fr: "Machoc",
-		es: "Machop",
-		it: "Machop",
-		pt: "Machop",
-		de: "Machollo"
+		'en-us': "Machop",
+		'fr-fr': "Machoc",
+		'es-es': "Machop",
+		'it-it': "Machop",
+		'pt-br': "Machop",
+		'de-de': "Machollo"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dynamic Chop",
-				fr: "Coupe Dynamique",
-				es: "Golpe Dinámico",
-				it: "Dinamicolpo",
-				pt: "Golpe Dinâmico",
-				de: "Wuchthieb"
+				'en-us': "Dynamic Chop",
+				'fr-fr': "Coupe Dynamique",
+				'es-es': "Golpe Dinámico",
+				'it-it': "Dinamicolpo",
+				'pt-br': "Golpe Dinâmico",
+				'de-de': "Wuchthieb"
 			},
 
 			damage: 50,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It loves working out. As it gazes at its muscles, which continue to swell day by day, it becomes more and more dedicated to its training.",
+		'en-us': "It loves working out. As it gazes at its muscles, which continue to swell day by day, it becomes more and more dedicated to its training.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴルダック",
+		'ja-jp': "ゴルダック",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "泳ぎが 速い さかなポケモンでも 金縛りで 動きを 止めて 簡単に 捕まえることが できる。",
+		'ja-jp': "泳ぎが 速い さかなポケモンでも 金縛りで 動きを 止めて 簡単に 捕まえることが できる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Water"],
 			effect: {
-				ja: "相手のバトルポケモンが持っているワザを1つ選ぶ。次の相手の番、このワザを受けたポケモンは、選ばれたワザを使えない。",
+				'ja-jp': "相手のバトルポケモンが持っているワザを1つ選ぶ。次の相手の番、このワザを受けたポケモンは、選ばれたワザを使えない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手の場のポケモンに[水]エネルギーがついている場合、のぞむなら、このワザのダメージを、相手のバトルポケモンではなくベンチポケモン1匹に与える。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手の場のポケモンに[水]エネルギーがついている場合、のぞむなら、このワザのダメージを、相手のバトルポケモンではなくベンチポケモン1匹に与える。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コダック",
+		'ja-jp': "コダック",
 	},
 
 	retreat: 1,

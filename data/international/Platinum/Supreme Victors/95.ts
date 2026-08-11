@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Chatot",
-		fr: "Pijako",
-		de: "Plaudagei"
+		'en-us': "Chatot",
+		'fr-fr': "Pijako",
+		'de-de': "Plaudagei"
 	},
 
 	illustrator: "Satoshi Ohta",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la famille",
-				de: "Familienruf"
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la famille",
+				'de-de': "Familienruf"
 			},
 			effect: {
-				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach einer Basis-Pokémon-Karte und lege sie auf deine Bank. Mische dein Deck danach."
+				'en-us': "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach einer Basis-Pokémon-Karte und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nosedive",
-				fr: "Descendre en piqué",
-				de: "Sturzflugangriff"
+				'en-us': "Nosedive",
+				'fr-fr': "Descendre en piqué",
+				'de-de': "Sturzflugangriff"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Chatot does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Pijako s'inflige 10 dégâts.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" fügt Plaudagei sich selbst 10 Schadenspunkte zu."
+				'en-us': "Flip a coin. If tails, Chatot does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Pijako s'inflige 10 dégâts.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" fügt Plaudagei sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its tongue is just like a human's. As a result, it can cleverly mimic human speech."
+		'en-us': "Its tongue is just like a human's. As a result, it can cleverly mimic human speech."
 	},
 
 	variants: [

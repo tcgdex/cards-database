@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Fletchinder",
-		fr: "Braisillon",
-		es: "Fletchinder",
-		it: "Fletchinder",
-		pt: "Fletchinder",
-		de: "Dartignis"
+		'en-us': "Fletchinder",
+		'fr-fr': "Braisillon",
+		'es-es': "Fletchinder",
+		'it-it': "Fletchinder",
+		'pt-br': "Fletchinder",
+		'de-de': "Dartignis"
 	},
 
 	illustrator: "kawayoo",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Fletchling",
-		fr: "Passerouge",
+		'en-us': "Fletchling",
+		'fr-fr': "Passerouge",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flap",
-				fr: "Battement",
-				es: "Aleteo",
-				it: "Alabattito",
-				pt: "Asa",
-				de: "Flattern"
+				'en-us': "Flap",
+				'fr-fr': "Battement",
+				'es-es': "Aleteo",
+				'it-it': "Alabattito",
+				'pt-br': "Asa",
+				'de-de': "Flattern"
 			},
 
 			damage: 20,
@@ -56,20 +56,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Wind",
-				fr: "Coupe-Vent",
-				es: "Viento Cortante",
-				it: "Ventagliente",
-				pt: "Vento Cortante",
-				de: "Klingensturm"
+				'en-us': "Razor Wind",
+				'fr-fr': "Coupe-Vent",
+				'es-es': "Viento Cortante",
+				'it-it': "Ventagliente",
+				'pt-br': "Vento Cortante",
+				'de-de': "Klingensturm"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
-				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-				pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
-				de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+				'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+				'pt-br': "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+				'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 			},
 			damage: 40,
 
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "From its beak, it fires embers at its prey. Once it has caught them, it grills them at high heat before feasting upon them.",
+		'en-us': "From its beak, it fires embers at its prey. Once it has caught them, it grills them at high heat before feasting upon them.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Meowth"
+		'en-us': "Meowth"
 	},
 
 	illustrator: "Taiga Kasai",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "All it does is sleep during the daytime. At night,\nit patrols its territory with its eyes aglow."
+		'en-us': "All it does is sleep during the daytime. At night,\nit patrols its territory with its eyes aglow."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Pay Day"
+			'en-us': "Pay Day"
 		},
 
 		damage: 10,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Draw a card."
+			'en-us': "Draw a card."
 		}
 	}],
 

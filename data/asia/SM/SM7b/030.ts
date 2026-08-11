@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サーナイト",
+		'ja-jp': "サーナイト",
 	},
 
 	illustrator: "Ryota Murayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "未来を 予知する 力を 持つ。 トレーナーを 守る ときに 最大 パワーを 発揮する。",
+		'ja-jp': "未来を 予知する 力を 持つ。 トレーナーを 守る ときに 最大 パワーを 発揮する。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ブリリアントサーチ" },
 			cost: ["Fairy"],
 			effect: {
-				ja: "自分の山札にある好きなカードを3枚まで、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札にある好きなカードを3枚まで、手札に加える。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "70+",
 			cost: ["Fairy", "Colorless", "Colorless"],
 			effect: {
-				ja: "この番、手札からサポートを出して使っていたなら、90ダメージ追加。",
+				'ja-jp': "この番、手札からサポートを出して使っていたなら、90ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "キルリア",
+		'ja-jp': "キルリア",
 	},
 
 	retreat: 2,

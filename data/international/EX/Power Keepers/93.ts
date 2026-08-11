@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Claydol ex",
-		fr: "Kaorine ex",
-		de: "Lepumentas ex"
+		'en-us': "Claydol ex",
+		'fr-fr': "Kaorine ex",
+		'de-de': "Lepumentas ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Baltoy",
-		fr: "Balbuto"
+		'en-us': "Baltoy",
+		'fr-fr': "Balbuto"
 	},
 
 	suffix: "ex",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Type Shift",
-				fr: "Transfert de type",
-				de: "Typenwechsel"
+				'en-us': "Type Shift",
+				'fr-fr': "Transfert de type",
+				'de-de': "Typenwechsel"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may use this power. Claydol ex's type is Fighting until the end of your turn.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Le type de Kaorine ex est  jusqu'à la fin de votre tour.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du diese Poké-Power einsetzen. Lepumentas ex erhält den Typ  bis zum Ende des Zuges."
+				'en-us': "Once during your turn (before your attack), you may use this power. Claydol ex's type is Fighting until the end of your turn.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Le type de Kaorine ex est  jusqu'à la fin de votre tour.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du diese Poké-Power einsetzen. Lepumentas ex erhält den Typ  bis zum Ende des Zuges."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic Boom",
-				fr: "Psycho-boom",
-				de: "Psychoknall"
+				'en-us': "Psychic Boom",
+				'fr-fr': "Psycho-boom",
+				'de-de': "Psychoknall"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
-				de: "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede an das Verteidigende Pokémon angelegte Energie zu."
+				'en-us': "Does 20 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
+				'fr-fr': "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede an das Verteidigende Pokémon angelegte Energie zu."
 			},
 			damage: "20+",
 
@@ -72,14 +72,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shadow Crush",
-				fr: "Écras'ombre",
-				de: "Schattenzermalmer"
+				'en-us': "Shadow Crush",
+				'fr-fr': "Écras'ombre",
+				'de-de': "Schattenzermalmer"
 			},
 			effect: {
-				en: "You may discard a Psychic Energy card attached to Claydol ex. If you do, discard an Energy card attached to the Defending Pokémon.",
-				fr: "Vous pouvez défausser une carte Énergie  attachée à Kaorine ex. Défaussez alors une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Du kannst 1 -Energiekarte, die an Lepumentas ex angelegt ist, auf deinen Ablagestapel legen. Wenn du das machst, lege 1 Energiekarte, die an das Verteidigende Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				'en-us': "You may discard a Psychic Energy card attached to Claydol ex. If you do, discard an Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Vous pouvez défausser une carte Énergie  attachée à Kaorine ex. Défaussez alors une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Du kannst 1 -Energiekarte, die an Lepumentas ex angelegt ist, auf deinen Ablagestapel legen. Wenn du das machst, lege 1 Energiekarte, die an das Verteidigende Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 60,
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SP6"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "蒼響VSTAR",
-		ja: "ザシアンVSTAR"
+		'ja-jp': "ザシアンVSTAR"
 	},
 
 	illustrator: "5ban Graphics",
@@ -18,12 +18,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "破壞刀鋒",
-			ja: "ブレイクエッジ"
+			'ja-jp': "ブレイクエッジ"
 		},
 
 		effect: {
 			'zh-tw': "這個招式的傷害不計算弱點・抵抗力、對手的戰鬥寶可夢身上的附加效果。",
-			ja: "このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。"
+			'ja-jp': "このワザのダメージは、弱点・抵抗力と、相手のバトルポケモンにかかっている効果を計算しない。"
 		},
 
 		damage: 200,
@@ -31,12 +31,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "[VSTAR力量]劍之星星",
-			ja: "ソードスター"
+			'ja-jp': "ソードスター"
 		},
 
 		effect: {
 			'zh-tw': "這隻寶可夢也受到30點傷害。[對戰中，己方只可使用1次【VSTAR】力量。]",
-			ja: "このポケモンにも30ダメージ。［対戦中、自分はVSTARパワーを1回しか使えない。］"
+			'ja-jp': "このポケモンにも30ダメージ。［対戦中、自分はVSTARパワーを1回しか使えない。］"
 		},
 
 		damage: 310,

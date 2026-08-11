@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨノワール",
+		'ja-jp': "ヨノワール",
 		'zh-tw': "黑夜魔靈",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "この世と あの世を 行ったり来たり。 さまよう 魂を 吸い込んで 運ぶと いわれ 恐れられている。",
+		'ja-jp': "この世と あの世を 行ったり来たり。 さまよう 魂を 吸い込んで 運ぶと いわれ 恐れられている。",
 		'zh-tw': "在這個世界與另一個世界間往返。 據說會吸入並帶走遊蕩的靈魂， 因此遭到人們畏懼。",
 	},
 
@@ -25,7 +25,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "カースドボム" },
 			effect: {
-				ja: "自分の番に1回使えて、使ったなら、このポケモンをきぜつさせる。相手のポケモン1匹に、ダメカンを13個のせる。",
+				'ja-jp': "自分の番に1回使えて、使ったなら、このポケモンをきぜつさせる。相手のポケモン1匹に、ダメカンを13個のせる。",
 			},
 		},
 	],
@@ -33,13 +33,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かげしばり",
+				'ja-jp': "かげしばり",
 				'zh-tw': "‌[特性]咒詛炸彈",
 			},
 			damage: 150,
 			cost: ["Psychic", "Psychic", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 				'zh-tw': "在自己的回合時可使用1次，若使用，則將這隻寶可夢【昏厥】。在對手的1隻寶可夢身上放置13個傷害指示物。",
 			},
 		},
@@ -59,7 +59,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "サマヨール",
+		'ja-jp': "サマヨール",
 	},
 
 	retreat: 3,

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hop's Cramorant",
-		fr: "Nigosier de Nabil",
-		es: "Cramorant de Paul",
+		'en-us': "Hop's Cramorant",
+		'fr-fr': "Nigosier de Nabil",
+		'es-es': "Cramorant de Paul",
 		'es-mx': "Cramorant de Paul",
-		de: "Hops Urgl",
-		it: "Cramorant di Hop",
-		pt: "Cramorant do Lupo"
+		'de-de': "Hops Urgl",
+		'it-it': "Cramorant di Hop",
+		'pt-br': "Cramorant do Lupo"
 	},
 
 	illustrator: "Saboteri",
@@ -25,23 +25,23 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Fickle Spitting",
-			fr: "Crachement Inconstant",
-			es: "Escupitajo Impredecible",
+			'en-us': "Fickle Spitting",
+			'fr-fr': "Crachement Inconstant",
+			'es-es': "Escupitajo Impredecible",
 			'es-mx': "Escupitajo Impreciso",
-			de: "Wankelmütiges Spucken",
-			it: "Sputo Capriccioso",
-			pt: "Cusparada Errática"
+			'de-de': "Wankelmütiges Spucken",
+			'it-it': "Sputo Capriccioso",
+			'pt-br': "Cusparada Errática"
 		},
 
 		effect: {
-			en: "If your opponent doesn't have exactly 3 or 4 Prize cards remaining, this attack does nothing.",
-			fr: "S'il ne reste pas exactement 3 ou 4 cartes Récompense à votre adversaire, cette attaque ne fait rien.",
-			es: "Si a tu rival no le quedan exactamente 3 o 4 cartas de Premio, este ataque no hace nada.",
+			'en-us': "If your opponent doesn't have exactly 3 or 4 Prize cards remaining, this attack does nothing.",
+			'fr-fr': "S'il ne reste pas exactement 3 ou 4 cartes Récompense à votre adversaire, cette attaque ne fait rien.",
+			'es-es': "Si a tu rival no le quedan exactamente 3 o 4 cartas de Premio, este ataque no hace nada.",
 			'es-mx': "Si a tu rival no le quedan exactamente 3 o 4 cartas de Premio, este ataque no hace nada.",
-			de: "Wenn dein Gegner nicht genau 3 oder 4 verbleibende Preiskarten hat, hat diese Attacke keine Auswirkungen.",
-			it: "Se il tuo avversario non ha esattamente tre o quattro carte Premio rimanenti, questo attacco non ha effetto.",
-			pt: "Se o seu oponente não tiver exatamente 3 ou 4 cartas de Prêmio restantes, este ataque não fará nada."
+			'de-de': "Wenn dein Gegner nicht genau 3 oder 4 verbleibende Preiskarten hat, hat diese Attacke keine Auswirkungen.",
+			'it-it': "Se il tuo avversario non ha esattamente tre o quattro carte Premio rimanenti, questo attacco non ha effetto.",
+			'pt-br': "Se o seu oponente não tiver exatamente 3 ou 4 cartas de Prêmio restantes, este ataque não fará nada."
 		},
 
 		damage: 120
@@ -63,7 +63,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Cramorant instinctively swallow everything whole. They’re at their most formidable when they’re struggling to swallow overly large prey.",
+		'en-us': "Cramorant instinctively swallow everything whole. They’re at their most formidable when they’re struggling to swallow overly large prey.",
 	},
 
 	variants: [

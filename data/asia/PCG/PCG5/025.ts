@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウェイルマー",
+		'ja-jp': "ウェイルマー",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ダブルタックル",
+				'ja-jp': "ダブルタックル",
 			},
 			effect: {
-				ja: "防御する各ポケモンに20のダメージを与えます。",
+				'ja-jp': "防御する各ポケモンに20のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Water", "Water", "Colorless"],
 			name: {
-				ja: "渦",
+				'ja-jp': "渦",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、防御ポケモンに取り付けられたエネルギーカードを捨てます。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、防御ポケモンに取り付けられたエネルギーカードを捨てます。",
 			},
 			damage: 30,
 		},

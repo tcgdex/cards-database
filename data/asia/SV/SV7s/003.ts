@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ลิลีลา",
-		id: "Lileep"
+		'th-th': "ลิลีลา",
+		'id-id': "Lileep"
 	},
 
 	illustrator: "Ounishi",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		th: "โปเกมอนที่ฟื้นสภาพจากฟอสซิล อาศัยอยู่ใต้ทะเลอุ่นราว 1 ร้อยล้านปีก่อน",
-		id: "Pokémon yang direstorasi dari fosil. Lileep hidup di laut hangat sekitar 100 juta tahun yang lalu."
+		'th-th': "โปเกมอนที่ฟื้นสภาพจากฟอสซิล อาศัยอยู่ใต้ทะเลอุ่นราว 1 ร้อยล้านปีก่อน",
+		'id-id': "Pokémon yang direstorasi dari fosil. Lileep hidup di laut hangat sekitar 100 juta tahun yang lalu."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "มัดยึด",
-			id: "Menjerat"
+			'th-th': "มัดยึด",
+			'id-id': "Menjerat"
 		},
 
 		effect: {
-			th: "เทิร์นถัดไปของฝ่ายตรงข้าม โปเกมอนที่ได้รับท่าต่อสู้นี้ จะหนีไม่ได้",
-			id: "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
+			'th-th': "เทิร์นถัดไปของฝ่ายตรงข้าม โปเกมอนที่ได้รับท่าต่อสู้นี้ จะหนีไม่ได้",
+			'id-id': "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
 		},
 
 		damage: 50,

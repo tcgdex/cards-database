@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムクバード",
+		'ja-jp': "ムクバード",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "大きな グループを 作って 行動する 習性。 グループ同士の 争いは 激しい。",
+		'ja-jp': "大きな グループを 作って 行動する 習性。 グループ同士の 争いは 激しい。",
 	},
 
 	stage: "Stage1",
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ムックル",
+		'ja-jp': "ムックル",
 	},
 
 	retreat: 1,

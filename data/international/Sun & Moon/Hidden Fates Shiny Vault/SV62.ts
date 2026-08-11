@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Nihilego-GX",
-		fr: "Zéroïd-GX",
+		'en-us': "Nihilego-GX",
+		'fr-fr': "Zéroïd-GX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Shiny rare",
@@ -25,12 +25,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Empty Light",
-				fr: "Lumière Vide",
+				'en-us': "Empty Light",
+				'fr-fr': "Lumière Vide",
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand onto your Bench during your turn, you may leave both Active Pokémon Confused and Poisoned.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc pendant votre tour, vous pouvez laisser les deux Pokémon Actifs Confus et Empoisonnés.",
+				'en-us': "When you play this Pokémon from your hand onto your Bench during your turn, you may leave both Active Pokémon Confused and Poisoned.",
+				'fr-fr': "Lorsque vous jouez ce Pokémon de votre main sur votre Banc pendant votre tour, vous pouvez laisser les deux Pokémon Actifs Confus et Empoisonnés.",
 			},
 		},
 	],
@@ -42,12 +42,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Lock Up",
-				fr: "Cage",
+				'en-us': "Lock Up",
+				'fr-fr': "Cage",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 			damage: 120,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Symbiont-GX",
-				fr: "Parasite-GX",
+				'en-us': "Symbiont-GX",
+				'fr-fr': "Parasite-GX",
 			},
 			effect: {
-				en: "Add the top 2 cards of your opponent's deck to their Prize cards. (You can't use more than 1 GX attack in a game.)",
-				fr: "Ajoutez les 2 cartes du dessus du deck de votre adversaire à ses cartes Récompense. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'en-us': "Add the top 2 cards of your opponent's deck to their Prize cards. (You can't use more than 1 GX attack in a game.)",
+				'fr-fr': "Ajoutez les 2 cartes du dessus du deck de votre adversaire à ses cartes Récompense. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Staravia",
-		fr: "Étourvol",
-		de: "Staravia"
+		'en-us': "Staravia",
+		'fr-fr': "Étourvol",
+		'de-de': "Staravia"
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Starly",
-		fr: "Étourmi",
+		'en-us': "Starly",
+		'fr-fr': "Étourmi",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-attaque",
-				de: "Ruckzuckhieb"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-attaque",
+				'de-de': "Ruckzuckhieb"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 10 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 10 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -55,9 +55,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drill Peck",
-				fr: "Bec vrille",
-				de: "Bohrschnabel"
+				'en-us': "Drill Peck",
+				'fr-fr': "Bec vrille",
+				'de-de': "Bohrschnabel"
 			},
 
 			damage: 50,
@@ -80,7 +80,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It lives in forests and fields. Squabbles over territory occur when flocks collide.",
+		'en-us': "It lives in forests and fields. Squabbles over territory occur when flocks collide.",
 	},
 
 	thirdParty: {

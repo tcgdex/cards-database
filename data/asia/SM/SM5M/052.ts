@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジジーロン",
+		'ja-jp': "ジジーロン",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "人懐っこく 子どもが 大好き。 仲良しの 子どもと 遊ぶために 山奥から 町に 降りてくる。",
+		'ja-jp': "人懐っこく 子どもが 大好き。 仲良しの 子どもと 遊ぶために 山奥から 町に 降りてくる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数x10ダメージ追加。",
+				'ja-jp': "このポケモンにのっているダメカンの数x10ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分の山札を上から2枚トラッシュする。",
+				'ja-jp': "自分の山札を上から2枚トラッシュする。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Hitmonchan",
-		fr: "Tygnon",
+		'en-us': "Hitmonchan",
+		'fr-fr': "Tygnon",
 	},
 
 	illustrator: "match",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bullet Punch",
-				fr: "Pisto-Poing",
+				'en-us': "Bullet Punch",
+				'fr-fr': "Pisto-Poing",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				'en-us': "Flip 2 coins. This attack does 20 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
 			},
 			damage: "20+",
 
@@ -48,8 +48,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mach Cross",
-				fr: "Passage Éclair",
+				'en-us': "Mach Cross",
+				'fr-fr': "Passage Éclair",
 			},
 
 			damage: 60,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The arm-twisting punches it throws pulverize even concrete. It rests after three minutes of fighting.",
+		'en-us': "The arm-twisting punches it throws pulverize even concrete. It rests after three minutes of fighting.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Poliwrath",
+		'ja-jp': "Poliwrath",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "奇妙ならせん",
+				'ja-jp': "奇妙ならせん",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前に）一度、PoliwrathがアクティブなPokmonである場合、PoliWrathに取り付けられた基本的なエネルギーカードを破棄することができます。もしそうなら、防御するポクモンは今混乱しています。 Poliwrathが特別な状態の影響を受けている場合、このパワーは使用できません。",
+				'ja-jp': "ターン中（攻撃の前に）一度、PoliwrathがアクティブなPokmonである場合、PoliWrathに取り付けられた基本的なエネルギーカードを破棄することができます。もしそうなら、防御するポクモンは今混乱しています。 Poliwrathが特別な状態の影響を受けている場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
-				ja: "スパイラルパンチ",
+				'ja-jp': "スパイラルパンチ",
 			},
 			effect: {
-				ja: "尾がなくなるまでコインをひっくり返します。この攻撃は、40のダメージに加えて、ヘッドごとに20のダメージを与えます。",
+				'ja-jp': "尾がなくなるまでコインをひっくり返します。この攻撃は、40のダメージに加えて、ヘッドごとに20のダメージを与えます。",
 			},
 		},
 	],

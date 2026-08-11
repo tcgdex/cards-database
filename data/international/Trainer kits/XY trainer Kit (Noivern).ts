@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Trainer kits'
 
 const set: Set = {
 	id: "tk-xy-n",
 
 	name: {
-		en: "XY trainer Kit (Noivern)",
-		it: "XY trainer Kit (Noivern)",
-		fr: "XY Kit du dresseur (Bruyverne)",
-		es: "Kit de Entrenador XY (Noivern)"
+		'en-us': "XY trainer Kit (Noivern)",
+		'it-it': "XY trainer Kit (Noivern)",
+		'fr-fr': "XY Kit du dresseur (Bruyverne)",
+		'es-es': "Kit de Entrenador XY (Noivern)"
 	},
 
 	serie: serie,
@@ -21,7 +21,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "TK6N",
-		fr: "BRU"
+		'fr-fr': "BRU"
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドヒドイデGX",
+		'ja-jp': "ドヒドイデGX",
 	},
 
 	illustrator: "",
@@ -20,14 +20,14 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Psychic"],
 			effect: {
-				ja: "コインを4回投げ、オモテの数x30ダメージ。",
+				'ja-jp': "コインを4回投げ、オモテの数x30ダメージ。",
 			},
 		},
 		{
 			name: { ja: "げきヤバポイズン" },
 			cost: ["Psychic", "Psychic", "Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は10個になる。",
+				'ja-jp': "相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は10個になる。",
 			},
 		},
 		{
@@ -35,7 +35,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Psychic", "Psychic", "Psychic"],
 			effect: {
-				ja: "次の相手の番、このポケモンはワザのダメージや効果を受けない。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "次の相手の番、このポケモンはワザのダメージや効果を受けない。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒドイデ",
+		'ja-jp': "ヒドイデ",
 	},
 
 	retreat: 3,

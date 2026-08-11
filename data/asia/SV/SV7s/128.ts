@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เนียรุมา",
-		id: "Glameow"
+		'th-th': "เนียรุมา",
+		'id-id': "Glameow"
 	},
 
 	illustrator: "Yuriko Akase",
@@ -15,16 +15,16 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "พอไม่พอใจปุ๊บก็จะกางเล็บออกมา แต่นิสัยที่บางครั้งจะร้องครางในลำคอเพื่อออดอ้อนกลับเป็นที่นิยมในคนบางกลุ่ม",
-		id: "Glameow mencakar jika tidak senang, tetapi kadang mendengkur dan bersifat manja sehingga sebagian orang sangat menyukainya."
+		'th-th': "พอไม่พอใจปุ๊บก็จะกางเล็บออกมา แต่นิสัยที่บางครั้งจะร้องครางในลำคอเพื่อออดอ้อนกลับเป็นที่นิยมในคนบางกลุ่ม",
+		'id-id': "Glameow mencakar jika tidak senang, tetapi kadang mendengkur dan bersifat manja sehingga sebagian orang sangat menyukainya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "จับแขวน",
-			id: "Mengait"
+			'th-th': "จับแขวน",
+			'id-id': "Mengait"
 		},
 
 		damage: 20,

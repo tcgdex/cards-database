@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Plusle",
-		fr: "Posipi",
-		es: "Plusle",
-		it: "Plusle",
-		pt: "Plusle",
-		de: "Plusle"
+		'en-us': "Plusle",
+		'fr-fr': "Posipi",
+		'es-es': "Plusle",
+		'it-it': "Plusle",
+		'pt-br': "Plusle",
+		'de-de': "Plusle"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Tag Team Boost",
-				fr: "Boost de Groupe",
-				es: "Más Juego en Equipo",
-				it: "Carica Squadra",
-				pt: "Medalha de Impulso",
-				de: "Tag-Team-Aufladung"
+				'en-us': "Tag Team Boost",
+				'fr-fr': "Boost de Groupe",
+				'es-es': "Más Juego en Equipo",
+				'it-it': "Carica Squadra",
+				'pt-br': "Medalha de Impulso",
+				'de-de': "Tag-Team-Aufladung"
 			},
 			effect: {
-				en: "If Minun is on your Bench, this attack does 50 more damage.",
-				fr: "Si Négapi est sur votre Banc, cette attaque inflige 50 dégâts supplémentaires.",
-				es: "Si Minun está en tu Banca, este ataque hace 50 puntos de daño más.",
-				it: "Se Minun è nella tua panchina, questo attacco infligge 50 danni in più.",
-				pt: "Se Minun estiver no seu Banco, este ataque causará 50 pontos de dano a mais.",
-				de: "Wenn sich Minun auf deiner Bank befindet, fügt diese Attacke 50 Schadenspunkte mehr zu."
+				'en-us': "If Minun is on your Bench, this attack does 50 more damage.",
+				'fr-fr': "Si Négapi est sur votre Banc, cette attaque inflige 50 dégâts supplémentaires.",
+				'es-es': "Si Minun está en tu Banca, este ataque hace 50 puntos de daño más.",
+				'it-it': "Se Minun è nella tua panchina, questo attacco infligge 50 danni in più.",
+				'pt-br': "Se Minun estiver no seu Banco, este ataque causará 50 pontos de dano a mais.",
+				'de-de': "Wenn sich Minun auf deiner Bank befindet, fügt diese Attacke 50 Schadenspunkte mehr zu."
 			},
 			damage: "10+",
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It cheers on friends with pom-poms made of sparks. It drains power from telephone poles.",
+		'en-us': "It cheers on friends with pom-poms made of sparks. It drains power from telephone poles.",
 	},
 
 	thirdParty: {

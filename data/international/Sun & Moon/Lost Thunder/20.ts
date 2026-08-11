@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Treecko",
-		fr: "Arcko",
-		es: "Treecko",
-		it: "Treecko",
-		pt: "Treecko",
-		de: "Geckarbor"
+		'en-us': "Treecko",
+		'fr-fr': "Arcko",
+		'es-es': "Treecko",
+		'it-it': "Treecko",
+		'pt-br': "Treecko",
+		'de-de': "Geckarbor"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Find a Friend",
-				fr: "Trouver un Ami",
-				es: "Encontrar un Amigo",
-				it: "Trovamico",
-				pt: "Encontre um Amigo",
-				de: "Freunde finden"
+				'en-us': "Find a Friend",
+				'fr-fr': "Trouver un Ami",
+				'es-es': "Encontrar un Amigo",
+				'it-it': "Trovamico",
+				'pt-br': "Encontre um Amigo",
+				'de-de': "Freunde finden"
 			},
 			effect: {
-				en: "Search your deck for a Grass Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
-				fr: "Cherchez un Pokémon Grass dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja 1 Pokémon Grass, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
-				it: "Cerca nel tuo mazzo un Pokémon Grass, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure por 1 Pokémon Grass no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach 1 Grass-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+				'en-us': "Search your deck for a Grass Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+				'fr-fr': "Cherchez un Pokémon Grass dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja 1 Pokémon Grass, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo un Pokémon Grass, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por 1 Pokémon Grass no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach 1 Grass-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above.",
+		'en-us': "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above.",
 	},
 
 	thirdParty: {

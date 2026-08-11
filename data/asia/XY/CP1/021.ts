@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アクア団のサメハダー",
+		'ja-jp': "アクア団のサメハダー",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "自慢の キバは 一撃必殺の 威力！ 油断している 敵を 確実に 仕留めるわ！",
+		'ja-jp': "自慢の キバは 一撃必殺の 威力！ 油断している 敵を 確実に 仕留めるわ！",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "アクアサーチ" },
 			effect: {
-				ja: "自分の山札から「アクア団」のポケモンを1枚選び、相手に見せてから、手札に加える。そして山札を切る。この特性は、自分の番に1回使える。",
+				'ja-jp': "自分の山札から「アクア団」のポケモンを1枚選び、相手に見せてから、手札に加える。そして山札を切る。この特性は、自分の番に1回使える。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アクア団のキバニア",
+		'ja-jp': "アクア団のキバニア",
 	},
 
 	retreat: 0,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Stufful",
-		fr: "Nounourson",
-		es: "Stufful",
-		it: "Stufful",
-		pt: "Stufful",
-		de: "Velursi"
+		'en-us': "Stufful",
+		'fr-fr': "Nounourson",
+		'es-es': "Stufful",
+		'it-it': "Stufful",
+		'pt-br': "Stufful",
+		'de-de': "Velursi"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "OKACHEKE",
 
 	description: {
-		en: "The way it protects itself by flailing its arms may be an adorable sight, but stay well away. This is flailing that can snap thick tree trunks."
+		'en-us': "The way it protects itself by flailing its arms may be an adorable sight, but stay well away. This is flailing that can snap thick tree trunks."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Beat",
-			fr: "Bataille",
-			de: "Verprügler",
-			es: "Toque",
-			pt: "Pulso",
-			it: "Battuta"
+			'en-us': "Beat",
+			'fr-fr': "Bataille",
+			'de-de': "Verprügler",
+			'es-es': "Toque",
+			'pt-br': "Pulso",
+			'it-it': "Battuta"
 		},
 
 		damage: 10
@@ -50,12 +50,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Rollout",
-			fr: "Roulade",
-			de: "Walzer",
-			es: "Rodar",
-			pt: "Rolagem",
-			it: "Rotolamento"
+			'en-us': "Rollout",
+			'fr-fr': "Roulade",
+			'de-de': "Walzer",
+			'es-es': "Rodar",
+			'pt-br': "Rolagem",
+			'it-it': "Rotolamento"
 		},
 
 		damage: 30

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Nickit",
-		fr: "Goupilou",
-		es: "Nickit",
-		it: "Nickit",
-		pt: "Nickit",
-		de: "Kleptifux"
+		'en-us': "Nickit",
+		'fr-fr': "Goupilou",
+		'es-es': "Nickit",
+		'it-it': "Nickit",
+		'pt-br': "Nickit",
+		'de-de': "Kleptifux"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Rear Kick",
-			fr: "Ruade",
-			es: "Patada Trasera",
-			it: "Retrocalcio",
-			pt: "Chute Traseiro",
-			de: "Rückwärtskick"
+			'en-us': "Rear Kick",
+			'fr-fr': "Ruade",
+			'es-es': "Patada Trasera",
+			'it-it': "Retrocalcio",
+			'pt-br': "Chute Traseiro",
+			'de-de': "Rückwärtskick"
 		},
 
 		damage: 10
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Aided by the soft pads on its feet, it silently raids the food stores of other Pokémon. It survives off its ill-gotten gains.",
+		'en-us': "Aided by the soft pads on its feet, it silently raids the food stores of other Pokémon. It survives off its ill-gotten gains.",
 	},
 
 	variants: [

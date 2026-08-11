@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 		'zh-tw': "凍脊龍",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "環境の 変化に すぐさま 合わせられるよう いくつもの 進化の 可能性を 秘めている。",
+		'ja-jp': "環境の 変化に すぐさま 合わせられるよう いくつもの 進化の 可能性を 秘めている。",
 		'zh-tw': "凍結周圍的空氣，以冰之面罩保護臉部，並將背鰭變成冰劍。",
 	},
 
@@ -23,17 +23,17 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "なかまをよぶ",
+				'ja-jp': "なかまをよぶ",
 				'zh-tw': "銳利鰭",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。",
 			},
 		},
 		{
 			name: {
-				ja: "たいあたり",
+				'ja-jp': "たいあたり",
 				'zh-tw': "冰霜粉碎",
 			},
 			damage: 30,

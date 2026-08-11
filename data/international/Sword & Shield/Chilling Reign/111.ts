@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Aggron",
-		fr: "Galeking",
-		es: "Aggron",
-		it: "Aggron",
-		pt: "Aggron",
-		de: "Stolloss"
+		'en-us': "Aggron",
+		'fr-fr': "Galeking",
+		'es-es': "Aggron",
+		'it-it': "Aggron",
+		'pt-br': "Aggron",
+		'de-de': "Stolloss"
 	},
 
 	illustrator: "Teeziro",
@@ -21,52 +21,52 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Lairon",
-		fr: "Galegon",
-		es: "Lairon",
-		it: "Lairon",
-		pt: "Lairon",
-		de: "Stollrak"
+		'en-us': "Lairon",
+		'fr-fr': "Galegon",
+		'es-es': "Lairon",
+		'it-it': "Lairon",
+		'pt-br': "Lairon",
+		'de-de': "Stollrak"
 	},
 
 	attacks: [{
 		name: {
-			en: "Guard Press",
-			fr: "Pression de Garde",
-			es: "Presión de Guardia",
-			it: "Pressadifesa",
-			pt: "Aperto Protetor",
-			de: "Schutzdruck"
+			'en-us': "Guard Press",
+			'fr-fr': "Pression de Garde",
+			'es-es': "Presión de Guardia",
+			'it-it': "Pressadifesa",
+			'pt-br': "Aperto Protetor",
+			'de-de': "Schutzdruck"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
-			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			es: "Durante el próximo turno de tu rival, los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-			it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-			pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
-			de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+			'en-us': "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			'es-es': "Durante el próximo turno de tu rival, los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			'it-it': "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+			'pt-br': "Durante o próximo turno do seu oponente, este Pokémon receberá 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
+			'de-de': "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 		},
 
 		damage: 100,
 		cost: ["Metal", "Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Seismic Rift",
-			fr: "Faille Sismique",
-			es: "Grieta Sísmica",
-			it: "Frattura Sismica",
-			pt: "Fissura Sísmica",
-			de: "Seismischer Bruch"
+			'en-us': "Seismic Rift",
+			'fr-fr': "Faille Sismique",
+			'es-es': "Grieta Sísmica",
+			'it-it': "Frattura Sismica",
+			'pt-br': "Fissura Sísmica",
+			'de-de': "Seismischer Bruch"
 		},
 
 		effect: {
-			en: "This attack also does 30 damage to each of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Cette attaque inflige aussi 30 dégâts à chacun de vos Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-			es: "Este ataque también hace 30 puntos de daño a cada uno de tus Pokémon. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-			it: "Questo attacco infligge anche 30 danni a ciascuno dei tuoi Pokémon. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-			pt: "Este ataque também causa 30 pontos de dano a cada um dos seus Pokémon (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
-			de: "Diese Attacke fügt auch jedem deiner Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+			'en-us': "This attack also does 30 damage to each of your Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Cette attaque inflige aussi 30 dégâts à chacun de vos Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			'es-es': "Este ataque también hace 30 puntos de daño a cada uno de tus Pokémon. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			'it-it': "Questo attacco infligge anche 30 danni a ciascuno dei tuoi Pokémon. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			'pt-br': "Este ataque também causa 30 pontos de dano a cada um dos seus Pokémon (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
+			'de-de': "Diese Attacke fügt auch jedem deiner Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		},
 
 		damage: 240,
@@ -90,7 +90,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "While seeking iron for food, it digs tunnels by breaking through bedrock with its steel horns."
+		'en-us': "While seeking iron for food, it digs tunnels by breaking through bedrock with its steel horns."
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Whiscash",
-		fr: "Barbicha",
-		de: "Welsar"
+		'en-us': "Whiscash",
+		'fr-fr': "Barbicha",
+		'de-de': "Welsar"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Barboach",
-		fr: "Barloche"
+		'en-us': "Barboach",
+		'fr-fr': "Barloche"
 	},
 
 	stage: "Stage1",
@@ -38,14 +38,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury",
-				fr: "Furieux",
-				de: "Tobsucht"
+				'en-us': "Fury",
+				'fr-fr': "Furieux",
+				'de-de': "Tobsucht"
 			},
 			effect: {
-				en: "Does 20 damage times the number of damage counters on Whiscash.",
-				fr: "Inflige 20 dégâts multipliés par le nombre de marqueurs de dégât sur Barbicha.",
-				de: "Dieser Angriff fügt 20 Schadenspunkte für jede Schadensmarke auf Welsar zu."
+				'en-us': "Does 20 damage times the number of damage counters on Whiscash.",
+				'fr-fr': "Inflige 20 dégâts multipliés par le nombre de marqueurs de dégât sur Barbicha.",
+				'de-de': "Dieser Angriff fügt 20 Schadenspunkte für jede Schadensmarke auf Welsar zu."
 			},
 			damage: "20x",
 
@@ -58,14 +58,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnitude",
-				fr: "Ampleur",
-				de: "Intensität"
+				'en-us': "Magnitude",
+				'fr-fr': "Ampleur",
+				'de-de': "Intensität"
 			},
 			effect: {
-				en: "Does 20 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 20 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
-				de: "Dieser Angriff fügt jedem Pokémon auf der Bank (deinen und denen deines Gegners) 20 Schadenspunkte zu. (Wende Schwäche und Resistenz für Pokémon auf der Bank nicht an.)"
+				'en-us': "Does 20 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 20 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
+				'de-de': "Dieser Angriff fügt jedem Pokémon auf der Bank (deinen und denen deines Gegners) 20 Schadenspunkte zu. (Wende Schwäche und Resistenz für Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 
@@ -89,8 +89,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It is very territorial. It repels foes by setting of tremors that extend over a three-mile radius.",
-		fr: "Il est attaché à son territoire. Il repousse l'ennemi en provoquant des secousses qui portent à 5 Km."
+		'en-us': "It is very territorial. It repels foes by setting of tremors that extend over a three-mile radius.",
+		'fr-fr': "Il est attaché à son territoire. Il repousse l'ennemi en provoquant des secousses qui portent à 5 Km."
 	},
 
 	thirdParty: {

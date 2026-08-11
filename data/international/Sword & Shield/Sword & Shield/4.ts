@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Roserade",
-		fr: "Roserade",
-		es: "Roserade",
-		it: "Roserade",
-		pt: "Roserade",
-		de: "Roserade"
+		'en-us': "Roserade",
+		'fr-fr': "Roserade",
+		'es-es': "Roserade",
+		'it-it': "Roserade",
+		'pt-br': "Roserade",
+		'de-de': "Roserade"
 	},
 
 	illustrator: "chibi",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Roselia",
-		fr: "Rosélia",
-		es: "Roselia",
-		it: "Roselia",
-		pt: "Roselia",
-		de: "Roselia"
+		'en-us': "Roselia",
+		'fr-fr': "Rosélia",
+		'es-es': "Roselia",
+		'it-it': "Roselia",
+		'pt-br': "Roselia",
+		'de-de': "Roselia"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Paralyze Poison",
-				fr: "Poison Paralysant",
-				es: "Veneno Paralizante",
-				it: "Veleno Paralizzante",
-				pt: "Veneno Paralisante",
-				de: "Lähmendes Gift"
+				'en-us': "Paralyze Poison",
+				'fr-fr': "Poison Paralysant",
+				'es-es': "Veneno Paralizante",
+				'it-it': "Veleno Paralizzante",
+				'pt-br': "Veneno Paralisante",
+				'de-de': "Lähmendes Gift"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned. Flip a coin. If heads, your opponent's Active Pokémon is also Paralyzed.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est également Paralysé.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado. Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar también Paralizado.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato. Lancia una moneta. Se esce testa, viene anche paralizzato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado. Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente também ficará Paralisado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners auch paralysiert."
+				'en-us': "Your opponent's Active Pokémon is now Poisoned. Flip a coin. If heads, your opponent's Active Pokémon is also Paralyzed.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est également Paralysé.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado. Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar también Paralizado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato. Lancia una moneta. Se esce testa, viene anche paralizzato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado. Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente também ficará Paralisado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners auch paralysiert."
 			},
 			damage: 30,
 
@@ -68,20 +68,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Drain",
-				fr: "Méga-Sangsue",
-				es: "Megaagotar",
-				it: "Megassorbimento",
-				pt: "Megadreno",
-				de: "Megasauger"
+				'en-us': "Mega Drain",
+				'fr-fr': "Méga-Sangsue",
+				'es-es': "Megaagotar",
+				'it-it': "Megassorbimento",
+				'pt-br': "Megadreno",
+				'de-de': "Megasauger"
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts de ce Pokémon.",
-				es: "Cura 30 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 30 danni.",
-				pt: "Cure 30 pontos de dano deste Pokémon.",
-				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+				'es-es': "Cura 30 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 30 danni.",
+				'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+				'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 90,
 
@@ -106,7 +106,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "After captivating opponents with its sweet scent, it lashes them with its thorny whips."
+		'en-us': "After captivating opponents with its sweet scent, it lashes them with its thorny whips."
 	},
 
 	thirdParty: {

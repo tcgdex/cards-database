@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニャース",
+		'ja-jp': "ニャース",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "まるいものが 大好き。 夜な夜な 出かけては 落ちている コインを 拾い 集めて 帰ってくる。",
+		'ja-jp': "まるいものが 大好き。 夜な夜な 出かけては 落ちている コインを 拾い 集めて 帰ってくる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "へとへとタックル" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンに30ダメージ。ウラなら、このポケモンに30ダメージ。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンに30ダメージ。ウラなら、このポケモンに30ダメージ。",
 			},
 		},
 	],

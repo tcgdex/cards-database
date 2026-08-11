@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガラル ポニータ",
+		'ja-jp': "ガラル ポニータ",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "小さな ツノに 癒しの 力を 秘めている。 ちょっとした 傷なら ツノを すり寄せ 治して くれる。",
+		'ja-jp': "小さな ツノに 癒しの 力を 秘めている。 ちょっとした 傷なら ツノを すり寄せ 治して くれる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "いやしのはどう" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のポケモンを1匹選び、HPを「30」回復する。",
+				'ja-jp': "自分のポケモンを1匹選び、HPを「30」回復する。",
 			},
 		},
 		{

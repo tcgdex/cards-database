@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Wormadam Trash Cloak",
-		de: "Burmadame Lumpenumhang"
+		'en-us': "Wormadam Trash Cloak",
+		'de-de': "Burmadame Lumpenumhang"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Burmy Trash Cloak"
+		'en-us': "Burmy Trash Cloak"
 	},
 
 	stage: "Stage1",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Cloak Shard",
-				de: "Umhang-Scherbe"
+				'en-us': "Cloak Shard",
+				'de-de': "Umhang-Scherbe"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. If you have Wormadam Plant Cloak in play, this attack does 40 damage to that Pokémon instead. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte zu. Wenn du Burmadame Pflanzenumhang im Spiel hast, fügt dieser Angriff stattdessen dem gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. If you have Wormadam Plant Cloak in play, this attack does 40 damage to that Pokémon instead. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'de-de': "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte zu. Wenn du Burmadame Pflanzenumhang im Spiel hast, fügt dieser Angriff stattdessen dem gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Serve Trash",
-				de: "Müll servieren"
+				'en-us': "Serve Trash",
+				'de-de': "Müll servieren"
 			},
 			effect: {
-				en: "You may search your opponent's discard pile for any 1 card, show it to your opponent, and put it on top of his or her deck.",
-				de: "Du kannst den Ablagestapel deines Gegners nach 1 beliebigen Karte durchsuchen, sie deinem Gegner zeigen und oben auf sein Deck legen."
+				'en-us': "You may search your opponent's discard pile for any 1 card, show it to your opponent, and put it on top of his or her deck.",
+				'de-de': "Du kannst den Ablagestapel deines Gegners nach 1 beliebigen Karte durchsuchen, sie deinem Gegner zeigen und oben auf sein Deck legen."
 			},
 			damage: 30,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When evolving, its body takes in surrounding materials. As a result, there are many body variations."
+		'en-us': "When evolving, its body takes in surrounding materials. As a result, there are many body variations."
 	},
 
 	variants: [

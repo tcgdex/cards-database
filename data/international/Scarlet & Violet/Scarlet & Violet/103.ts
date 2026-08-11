@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Espathra",
-		fr: "Cléopsytra",
-		es: "Espathra",
-		it: "Espathra",
-		pt: "Espathra",
-		de: "Psiopatra"
+		'en-us': "Espathra",
+		'fr-fr': "Cléopsytra",
+		'es-es': "Espathra",
+		'it-it': "Espathra",
+		'pt-br': "Espathra",
+		'de-de': "Psiopatra"
 	},
 
 	rarity: "Uncommon",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Flittle",
-		fr: "Flotillon"
+		'en-us': "Flittle",
+		'fr-fr': "Flotillon"
 	},
 
 	stage: "Stage1",
@@ -30,21 +30,21 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Eye Strength",
-			fr: "Œil Inflexible",
-			es: "Fuerza Ocular",
-			it: "Occhioforza",
-			pt: "Olhar Poderoso",
-			de: "Augenkraft"
+			'en-us': "Eye Strength",
+			'fr-fr': "Œil Inflexible",
+			'es-es': "Fuerza Ocular",
+			'it-it': "Occhioforza",
+			'pt-br': "Olhar Poderoso",
+			'de-de': "Augenkraft"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
-			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
-			es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
-			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-			pt: "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar.",
-			de: "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
+			'en-us': "During your opponent's next turn, the Defending Pokémon can't retreat.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
+			'es-es': "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
+			'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+			'pt-br': "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar.",
+			'de-de': "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
 		},
 
 		damage: 20
@@ -52,21 +52,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Psychic",
-			fr: "Psyko",
-			es: "Psíquico",
-			it: "Psichico",
-			pt: "Psíquico",
-			de: "Psychokinese"
+			'en-us': "Psychic",
+			'fr-fr': "Psyko",
+			'es-es': "Psíquico",
+			'it-it': "Psichico",
+			'pt-br': "Psíquico",
+			'de-de': "Psychokinese"
 		},
 
 		effect: {
-			en: "This attack does 50 more damage for each Energy attached to your opponent's Active Pokémon.",
-			fr: "Cette attaque inflige 50 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
-			es: "Este ataque hace 50 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
-			it: "Questo attacco infligge 50 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
-			pt: "Este ataque causa 50 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",
-			de: "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 50 Schadenspunkte mehr zu."
+			'en-us': "This attack does 50 more damage for each Energy attached to your opponent's Active Pokémon.",
+			'fr-fr': "Cette attaque inflige 50 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
+			'es-es': "Este ataque hace 50 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
+			'it-it': "Questo attacco infligge 50 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
+			'pt-br': "Este ataque causa 50 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",
+			'de-de': "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 50 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
@@ -96,7 +96,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament.",
+		'en-us': "It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament.",
 	},
 
 	thirdParty: {

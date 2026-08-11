@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Donphan",
-		fr: "Donphan",
-		de: "Donphan"
+		'en-us': "Donphan",
+		'fr-fr': "Donphan",
+		'de-de': "Donphan"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Phanpy",
-		fr: "Phanpy",
+		'en-us': "Phanpy",
+		'fr-fr': "Phanpy",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rapid Spin",
-				fr: "Tour rapide",
-				de: "Turbodreher"
+				'en-us': "Rapid Spin",
+				'fr-fr': "Tour rapide",
+				'de-de': "Turbodreher"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. You switch Donphan with 1 of your Benched Pokémon, if any.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc, s'il en a. Vous échangez Donphan avec 1 des Pokémon de votre Banc, si vous en avez.",
-				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus. Du tauschst Donphan gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. You switch Donphan with 1 of your Benched Pokémon, if any.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc, s'il en a. Vous échangez Donphan avec 1 des Pokémon de votre Banc, si vous en avez.",
+				'de-de': "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus. Du tauschst Donphan gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 40,
 
@@ -57,14 +57,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bash In",
-				fr: "Cabosser",
-				de: "Einschlagen"
+				'en-us': "Bash In",
+				'fr-fr': "Cabosser",
+				'de-de': "Einschlagen"
 			},
 			effect: {
-				en: "If the Defending Pokémon has a Pokémon Tool card attached to it, this attack does 70 damage plus 60 more damage.",
-				fr: "Si le Pokémon Défenseur possède une carte Outil Pokémon, cette attaque inflige 70 dégâts plus 60 dégâts supplémentaires.",
-				de: "Wenn am Verteidigenden Pokémon mindestens 1 Pokémon-Ausrüstung angelegt ist, fügt dieser Angriff 70 Schadenspunkte plus 60 weitere Schadenspunkte zu."
+				'en-us': "If the Defending Pokémon has a Pokémon Tool card attached to it, this attack does 70 damage plus 60 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur possède une carte Outil Pokémon, cette attaque inflige 70 dégâts plus 60 dégâts supplémentaires.",
+				'de-de': "Wenn am Verteidigenden Pokémon mindestens 1 Pokémon-Ausrüstung angelegt ist, fügt dieser Angriff 70 Schadenspunkte plus 60 weitere Schadenspunkte zu."
 			},
 			damage: "70+",
 
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It attacks by curling up, then rolling into its foe. It can blow apart a house in one hit.",
+		'en-us': "It attacks by curling up, then rolling into its foe. It can blow apart a house in one hit.",
 	},
 
 	thirdParty: {

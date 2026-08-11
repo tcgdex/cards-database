@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Hoppip",
-		fr: "Granivol",
-		de: "Hoppspross"
+		'en-us': "Hoppip",
+		'fr-fr': "Granivol",
+		'de-de': "Hoppspross"
 	},
 
 	illustrator: "sui",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Bounce",
-				fr: "Faire des bonds",
-				de: "Sprungfeder"
+				'en-us': "Bounce",
+				'fr-fr': "Faire des bonds",
+				'de-de': "Sprungfeder"
 			},
 			effect: {
-				en: "You may switch Hoppip with 1 of your Benched Pokémon.",
-				fr: "Vous pouvez échanger Granivol contre un Pokémon de votre Banc.",
-				de: "Du kannst Hoppspross gegen 1 Pokémon auf deiner Bank austauschen."
+				'en-us': "You may switch Hoppip with 1 of your Benched Pokémon.",
+				'fr-fr': "Vous pouvez échanger Granivol contre un Pokémon de votre Banc.",
+				'de-de': "Du kannst Hoppspross gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 			damage: 10,
 
@@ -60,7 +60,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "To keep from being blown away by the wind, they gather in clusters. But they do enjoy gentle breezes."
+		'en-us': "To keep from being blown away by the wind, they gather in clusters. But they do enjoy gentle breezes."
 	},
 
 	variants: [

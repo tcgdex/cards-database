@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケッキングex",
+		'ja-jp': "ケッキングex",
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "さぼりたいしつ" },
 			effect: {
-				ja: "相手の場に「ポケモンex・V」がいないなら、このポケモンはワザが使えない。",
+				'ja-jp': "相手の場に「ポケモンex・V」がいないなら、このポケモンはワザが使えない。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 280,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤルキモノ",
+		'ja-jp': "ヤルキモノ",
 	},
 
 	retreat: 4,

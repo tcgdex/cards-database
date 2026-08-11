@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Ixon de Galar",
-		de: "Galar-Barrikadax",
-		es: "Obstagoon de Galar",
-		pt: "Obstagoon de Galar",
-		it: "Obstagoon di Galar",
-		en: "Galarian Obstagoon"
+		'fr-fr': "Ixon de Galar",
+		'de-de': "Galar-Barrikadax",
+		'es-es': "Obstagoon de Galar",
+		'pt-br': "Obstagoon de Galar",
+		'it-it': "Obstagoon di Galar",
+		'en-us': "Galarian Obstagoon"
 	},
 
 	rarity: "Promo",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		fr: "Linéon de Galar",
-		de: "Galar-Geradaks",
-		es: "Linoone de Galar",
-		pt: "Linoone de Galar",
-		it: "Linoone di Galar",
-		en: "Galarian Linoone"
+		'fr-fr': "Linéon de Galar",
+		'de-de': "Galar-Geradaks",
+		'es-es': "Linoone de Galar",
+		'pt-br': "Linoone de Galar",
+		'it-it': "Linoone di Galar",
+		'en-us': "Galarian Linoone"
 	},
 
 	stage: "Stage2",
@@ -34,21 +34,21 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			fr: "Coup de Pied Furieux",
-			de: "Randalekick",
-			es: "Patada Furiosa",
-			pt: "Chute Furioso",
-			it: "Calcio Infuriato",
-			en: "Rampaging Kick"
+			'fr-fr': "Coup de Pied Furieux",
+			'de-de': "Randalekick",
+			'es-es': "Patada Furiosa",
+			'pt-br': "Chute Furioso",
+			'it-it': "Calcio Infuriato",
+			'en-us': "Rampaging Kick"
 		},
 
 		effect: {
-			fr: "Défaussez 2 Énergies {D} de ce Pokémon.",
-			de: "Lege 2 {D}-Energien von diesem Pokémon auf deinen Ablagestapel.",
-			es: "Descarta 2 Energías {D} de este Pokémon.",
-			pt: "Descarte 2 Energias {D} deste Pokémon.",
-			it: "Scarta due Energie {D} da questo Pokémon.",
-			en: "Discard 2 {D} Energy from this Pokémon."
+			'fr-fr': "Défaussez 2 Énergies {D} de ce Pokémon.",
+			'de-de': "Lege 2 {D}-Energien von diesem Pokémon auf deinen Ablagestapel.",
+			'es-es': "Descarta 2 Energías {D} de este Pokémon.",
+			'pt-br': "Descarte 2 Energias {D} deste Pokémon.",
+			'it-it': "Scarta due Energie {D} da questo Pokémon.",
+			'en-us': "Discard 2 {D} Energy from this Pokémon."
 		},
 
 		damage: 180
@@ -64,7 +64,7 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "It evolved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch."
+		'en-us': "It evolved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch."
 	},
 
 	thirdParty: {

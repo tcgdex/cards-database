@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Bellsprout",
+		'en-us': "Bellsprout",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Vine Whip",
+				'en-us': "Vine Whip",
 			},
 
 			damage: 10,
@@ -40,10 +40,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Call for Family",
+				'en-us': "Call for Family",
 			},
 			effect: {
-				en: "Search your deck for a Basic Pokémon named Bellsprout and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
+				'en-us': "Search your deck for a Basic Pokémon named Bellsprout and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
 			},
 
 		},
@@ -59,7 +59,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A carnivorous Pokémon that traps and eats bugs. It uses its root feet to soak up needed moisture.",
+		'en-us': "A carnivorous Pokémon that traps and eats bugs. It uses its root feet to soak up needed moisture.",
 	},
 
 

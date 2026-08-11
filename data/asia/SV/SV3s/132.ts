@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Varoom"
+		'id-id': "Varoom"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Dikatakan bahwa Varoom terlahir dari Pokémon racun misterius yang masuk ke dalam mesin terbengkalai di pabrik besi bekas."
+		'id-id': "Dikatakan bahwa Varoom terlahir dari Pokémon racun misterius yang masuk ke dalam mesin terbengkalai di pabrik besi bekas."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Gas yang Menyelimuti"
+			'id-id': "Gas yang Menyelimuti"
 		},
 
 		damage: 30,

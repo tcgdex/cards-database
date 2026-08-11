@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Ledian",
-		fr: "Coxyclaque",
-		de: "Ledian"
+		'en-us': "Ledian",
+		'fr-fr': "Coxyclaque",
+		'de-de': "Ledian"
 	},
 
 	illustrator: "Yuka Morii",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ledyba",
-		fr: "Coxy"
+		'en-us': "Ledyba",
+		'fr-fr': "Coxy"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Quick Draw",
-				fr: "Pioche rapide",
-				de: "Schnellzieher"
+				'en-us': "Quick Draw",
+				'fr-fr': "Pioche rapide",
+				'de-de': "Schnellzieher"
 			},
 			effect: {
-				en: "Draw 3 cards.",
-				fr: "Piochez 3 cartes.",
-				de: "Ziehe 3 Karten."
+				'en-us': "Draw 3 cards.",
+				'fr-fr': "Piochez 3 cartes.",
+				'de-de': "Ziehe 3 Karten."
 			},
 			damage: 10,
 
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swift",
-				fr: "Météores",
-				de: "Sternschauer"
+				'en-us': "Swift",
+				'fr-fr': "Météores",
+				'de-de': "Sternschauer"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Power et les Poké-Body ou tout autre effet en action sur le Pokémon Défenseur.",
-				de: "Schwäche, Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Power et les Poké-Body ou tout autre effet en action sur le Pokémon Défenseur.",
+				'de-de': "Schwäche, Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
 			},
 			damage: 40,
 
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "The spot patterns on its back grow larger or smaller depending on the number of stars in the night sky."
+		'en-us': "The spot patterns on its back grow larger or smaller depending on the number of stars in the night sky."
 	},
 
 	variants: [

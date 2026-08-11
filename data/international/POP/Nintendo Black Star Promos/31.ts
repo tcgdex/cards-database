@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Nintendo Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Moltres ex",
-		fr: "Sulfura ex"
+		'en-us': "Moltres ex",
+		'fr-fr': "Sulfura ex"
 	},
 	illustrator: "Ken Ikuji",
 	rarity: "Common",
@@ -25,12 +25,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Synchronized Lift",
-				fr: "Élévation synchronisée"
+				'en-us': "Synchronized Lift",
+				'fr-fr': "Élévation synchronisée"
 			},
 			effect: {
-				en: "As long as you have Articuno ex and Zapdos ex in play, the Retreat Cost for Moltres ex is 0.",
-				fr: "Tant qu'Artikodin ex et Electhor ex sont en jeu, le Coût de retraite de Sulfura ex est de 0."
+				'en-us': "As long as you have Articuno ex and Zapdos ex in play, the Retreat Cost for Moltres ex is 0.",
+				'fr-fr': "Tant qu'Artikodin ex et Electhor ex sont en jeu, le Coût de retraite de Sulfura ex est de 0."
 			},
 		},
 	],
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flame Gift",
-				fr: "Cadeau de feu"
+				'en-us': "Flame Gift",
+				'fr-fr': "Cadeau de feu"
 			},
 			effect: {
-				en: "You may move a Fire Energy card attached to Moltres ex to 1 of your Pokémon.",
-				fr: "Vous pouvez déplacer 1 carte Énergie  attachée à Sulfura ex vers 1 de vos Pokémon."
+				'en-us': "You may move a Fire Energy card attached to Moltres ex to 1 of your Pokémon.",
+				'fr-fr': "Vous pouvez déplacer 1 carte Énergie  attachée à Sulfura ex vers 1 de vos Pokémon."
 			},
 			damage: 10,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scorching Wing",
-				fr: "Aile brûlante"
+				'en-us': "Scorching Wing",
+				'fr-fr': "Aile brûlante"
 			},
 			effect: {
-				en: "Discard all Fire Energy attached to Moltres ex.",
-				fr: "Défaussez toutes les Énergies  attachées à Sulfura ex."
+				'en-us': "Discard all Fire Energy attached to Moltres ex.",
+				'fr-fr': "Défaussez toutes les Énergies  attachées à Sulfura ex."
 			},
 			damage: 90,
 

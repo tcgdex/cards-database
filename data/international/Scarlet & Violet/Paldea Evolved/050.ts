@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Coiffeton",
-		en: "Quaxly",
-		es: "Quaxly",
-		it: "Quaxly",
-		pt: "Quaxly",
-		de: "Kwaks"
+		'fr-fr': "Coiffeton",
+		'en-us': "Quaxly",
+		'es-es': "Quaxly",
+		'it-it': "Quaxly",
+		'pt-br': "Quaxly",
+		'de-de': "Kwaks"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			fr: "Attaque Imprudente",
-			en: "Reckless Charge",
-			es: "Carga Descuidada",
-			it: "Carica Avventata",
-			pt: "Carga Indomável",
-			de: "Waghalsiger Sturmangriff"
+			'fr-fr': "Attaque Imprudente",
+			'en-us': "Reckless Charge",
+			'es-es': "Carga Descuidada",
+			'it-it': "Carica Avventata",
+			'pt-br': "Carga Indomável",
+			'de-de': "Waghalsiger Sturmangriff"
 		},
 
 		effect: {
-			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
-			en: "This Pokémon also does 10 damage to itself.",
-			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
+			'fr-fr': "Ce Pokémon s'inflige aussi 10 dégâts.",
+			'en-us': "This Pokémon also does 10 damage to itself.",
+			'es-es': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 10 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
 		},
 
 		damage: 30
@@ -75,7 +75,7 @@ const card: Card = {
 	illustrator: "Naoki Saito",
 
 	description: {
-		en: "This Pokémon migrated to Paldea from distant lands long ago. The gel secreted by its feathers repels water and grime.",
+		'en-us': "This Pokémon migrated to Paldea from distant lands long ago. The gel secreted by its feathers repels water and grime.",
 	},
 }
 

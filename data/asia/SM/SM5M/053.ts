@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "おとりよせパッド",
+		'ja-jp': "おとりよせパッド",
 	},
 
 	illustrator: "Eske Yoshinob",
 	category: "Trainer",
 
 	effect: {
-		ja: "コインを1回投げオモテなら、自分の山札にあるグッズを1枚、相手に見せてから、手札に加える。そして山札を切る。",
+		'ja-jp': "コインを1回投げオモテなら、自分の山札にあるグッズを1枚、相手に見せてから、手札に加える。そして山札を切る。",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウィルのexeggutor",
+		'ja-jp': "ウィルのexeggutor",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "卵爆弾",
+				'ja-jp': "卵爆弾",
 			},
 			effect: {
-				ja: "コインをひっくり返します。テールの場合、この攻撃は何もしません、そして、ウィルのexeggutorはそれ自体に20のダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。テールの場合、この攻撃は何もしません、そして、ウィルのexeggutorはそれ自体に20のダメージを与えます。",
 			},
 			damage: 40,
 		},

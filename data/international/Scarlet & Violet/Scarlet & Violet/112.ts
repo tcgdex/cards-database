@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Riolu",
-		fr: "Riolu",
-		es: "Riolu",
-		it: "Riolu",
-		pt: "Riolu",
-		de: "Riolu"
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
+		'es-es': "Riolu",
+		'it-it': "Riolu",
+		'pt-br': "Riolu",
+		'de-de': "Riolu"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Jab",
-			fr: "Taquet",
-			es: "Puya",
-			it: "Stoccata",
-			pt: "Murro",
-			de: "Boxschlag"
+			'en-us': "Jab",
+			'fr-fr': "Taquet",
+			'es-es': "Puya",
+			'it-it': "Stoccata",
+			'pt-br': "Murro",
+			'de-de': "Boxschlag"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Low Kick",
-			fr: "Balayage",
-			es: "Patada Baja",
-			it: "Colpo Basso",
-			pt: "Rasteira",
-			de: "Fußkick"
+			'en-us': "Low Kick",
+			'fr-fr': "Balayage",
+			'es-es': "Patada Baja",
+			'it-it': "Colpo Basso",
+			'pt-br': "Rasteira",
+			'de-de': "Fußkick"
 		},
 
 		damage: 20
@@ -67,7 +67,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "They communicate with one another using their auras. They are able to run all through the night.",
+		'en-us': "They communicate with one another using their auras. They are able to run all through the night.",
 	},
 
 	thirdParty: {

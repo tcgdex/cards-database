@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Tangela",
-		fr: "Saquedeneu",
+		'en-us': "Tangela",
+		'fr-fr': "Saquedeneu",
 	},
 
 	illustrator: "match",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Absorb",
-				fr: "Vol-Vie",
+				'en-us': "Absorb",
+				'fr-fr': "Vol-Vie",
 			},
 			effect: {
-				en: "Heal 20 damage from this Pokémon.",
-				fr: "Soignez 20 dégâts à ce Pokémon.",
+				'en-us': "Heal 20 damage from this Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à ce Pokémon.",
 			},
 			damage: 20,
 
@@ -48,8 +48,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vine Whip",
-				fr: "Fouet Lianes",
+				'en-us': "Vine Whip",
+				'fr-fr': "Fouet Lianes",
 			},
 
 			damage: 30,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It tangles any moving thing with its vines. Their subtle shaking is ticklish if you get ensnared.",
+		'en-us': "It tangles any moving thing with its vines. Their subtle shaking is ticklish if you get ensnared.",
 	},
 
 	thirdParty: {

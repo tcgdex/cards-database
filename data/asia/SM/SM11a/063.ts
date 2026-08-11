@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "おじょうさま",
+		'ja-jp': "おじょうさま",
 	},
 
 	illustrator: "kirisAki",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札にある基本エネルギーを4枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+		'ja-jp': "自分の山札にある基本エネルギーを4枚まで、相手に見せてから、手札に加える。そして山札を切る。",
 	},
 
 	variants: [

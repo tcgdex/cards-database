@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビワ",
+		'ja-jp': "ビワ",
 	},
 
 	illustrator: "GOSSAN",
 	category: "Trainer",
 
 	effect: {
-		ja: "相手の手札を見て、その中からグッズを2枚まで選び、トラッシュする。",
+		'ja-jp': "相手の手札を見て、その中からグッズを2枚まで選び、トラッシュする。",
 	},
 
 	variants: [

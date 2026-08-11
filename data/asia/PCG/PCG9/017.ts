@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "togetic（デルタ種）",
+		'ja-jp': "togetic（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "デルタコピー",
+				'ja-jp': "デルタコピー",
 			},
 			effect: {
-				ja: "カードにDがある相手のポケモンの1つの攻撃を選択します。デルタは、エネルギーコストを除いて、その攻撃をコピーします。 （その攻撃に必要な他のことをまだしなければなりません。）Togeticはその攻撃を実行します。",
+				'ja-jp': "カードにDがある相手のポケモンの1つの攻撃を選択します。デルタは、エネルギーコストを除いて、その攻撃をコピーします。 （その攻撃に必要な他のことをまだしなければなりません。）Togeticはその攻撃を実行します。",
 			},
 		},
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "波のスプラッシュ",
+				'ja-jp': "波のスプラッシュ",
 			},
 			damage: 30,
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Paras",
-		fr: "Paras",
-		de: "Paras"
+		'en-us': "Paras",
+		'fr-fr': "Paras",
+		'de-de': "Paras"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spore",
-				fr: "Spore",
-				de: "Pilzspore"
+				'en-us': "Spore",
+				'fr-fr': "Spore",
+				'de-de': "Pilzspore"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spore Evolution",
-				fr: "Évolution spore",
-				de: "Sporenentwicklung"
+				'en-us': "Spore Evolution",
+				'fr-fr': "Évolution spore",
+				'de-de': "Sporenentwicklung"
 			},
 			effect: {
-				en: "Search your deck for a card that evolves from Paras. Attach it to Paras. This counts as evolving Paras. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck une carte Évolution de Paras. Attachez-la à Paras. Cela revient à le faire évoluer. Mélangez ensuite votre deck.",
-				de: "Durchsuche dein Deck nach einer Karte, die aus Paras entsteht. Lege sie an Paras an. Dies zählt als Entwickeln von Paras. Mische dein Deck danach."
+				'en-us': "Search your deck for a card that evolves from Paras. Attach it to Paras. This counts as evolving Paras. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez dans votre deck une carte Évolution de Paras. Attachez-la à Paras. Cela revient à le faire évoluer. Mélangez ensuite votre deck.",
+				'de-de': "Durchsuche dein Deck nach einer Karte, die aus Paras entsteht. Lege sie an Paras an. Dies zählt als Entwickeln von Paras. Mische dein Deck danach."
 			},
 
 		},

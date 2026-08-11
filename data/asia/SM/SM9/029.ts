@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラプラス",
+		'ja-jp': "ラプラス",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "人を 乗せて 泳ぐのが 好き。 アローラ地方 では 大切な 水上の 交通 手段。",
+		'ja-jp': "人を 乗せて 泳ぐのが 好き。 アローラ地方 では 大切な 水上の 交通 手段。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "あやしいひかり" },
 			cost: ["Water"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンについている[水]エネルギーの数x30ダメージ追加。",
+				'ja-jp': "このポケモンについている[水]エネルギーの数x30ダメージ追加。",
 			},
 		},
 	],

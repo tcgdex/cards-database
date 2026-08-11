@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホップ",
+		'ja-jp': "ホップ",
 	},
 
 	illustrator: "Ken Sugimori",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札を3枚引く。",
+		'ja-jp': "自分の山札を3枚引く。",
 	},
 
 	variants: [

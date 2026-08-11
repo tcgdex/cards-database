@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "リザード",
+		'ja-jp': "リザード",
 		'zh-tw': "火恐龍",
-		th: "ลิซาร์โดะ",
-		id: "Charmeleon"
+		'th-th': "ลิซาร์โดะ",
+		'id-id': "Charmeleon"
 	},
 
 	illustrator: "Tonji Matsuno",
@@ -18,10 +18,10 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "戦いで 気持ちが たかぶると 灼熱の 炎を 吹きながら あたりを 燃やしてまわる。",
+		'ja-jp': "戦いで 気持ちが たかぶると 灼熱の 炎を 吹きながら あたりを 燃やしてまわる。",
 		'zh-tw': "如果牠在戰鬥中亢奮起來，就會噴出灼熱的火焰， 把周圍的東西燒得一乾二淨。",
-		th: "เมื่อตื่นเต้นจากการต่อสู้จะพ่นเปลวเพลิงร้อนแรงแผดเผารอบข้าง",
-		id: "Ketika pertarungan membuat semangat Charmeleon bergejolak, Pokémon ini meniupkan api berpijar dan membakar daerah sekelilingnya."
+		'th-th': "เมื่อตื่นเต้นจากการต่อสู้จะพ่นเปลวเพลิงร้อนแรงแผดเผารอบข้าง",
+		'id-id': "Ketika pertarungan membuat semangat Charmeleon bergejolak, Pokémon ini meniupkan api berpijar dan membakar daerah sekelilingnya."
 	},
 
 	stage: "Stage1",
@@ -30,17 +30,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "フレアヴェール",
+			'ja-jp': "フレアヴェール",
 			'zh-tw': "閃焰之幕",
-			th: "ม่านเพลิง",
-			id: "Tudung Berkobar"
+			'th-th': "ม่านเพลิง",
+			'id-id': "Tudung Berkobar"
 		},
 
 		effect: {
-			ja: "このポケモンは、相手のポケモンが使うワザの効果を受けない。",
+			'ja-jp': "このポケモンは、相手のポケモンが使うワザの効果を受けない。",
 			'zh-tw': "這隻寶可夢不會受到對手的寶可夢使用招式的效果的影響。",
-			th: "โปเกมอนนี้ จะไม่ได้รับเอฟเฟกต์ของท่าต่อสู้ที่โปเกมอนฝ่ายตรงข้ามใช้",
-			id: "Pokémon ini tidak menerima efek akibat serangan yang digunakan oleh Pokémon lawan."
+			'th-th': "โปเกมอนนี้ จะไม่ได้รับเอฟเฟกต์ของท่าต่อสู้ที่โปเกมอนฝ่ายตรงข้ามใช้",
+			'id-id': "Pokémon ini tidak menerima efek akibat serangan yang digunakan oleh Pokémon lawan."
 		}
 	}],
 
@@ -48,10 +48,10 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			ja: "かえん",
+			'ja-jp': "かえん",
 			'zh-tw': "烈焰",
-			th: "เผาไหม้",
-			id: "Lidah Api"
+			'th-th': "เผาไหม้",
+			'id-id': "Lidah Api"
 		},
 
 		damage: 50

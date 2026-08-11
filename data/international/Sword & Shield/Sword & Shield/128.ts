@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Galarian Perrserker",
-		fr: "Berserkatt de Galar",
-		es: "Perrserker de Galar",
-		it: "Perrserker di Galar",
-		pt: "Perrserker de Galar",
-		de: "Galar-Mauzinger"
+		'en-us': "Galarian Perrserker",
+		'fr-fr': "Berserkatt de Galar",
+		'es-es': "Perrserker de Galar",
+		'it-it': "Perrserker di Galar",
+		'pt-br': "Perrserker de Galar",
+		'de-de': "Galar-Mauzinger"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,12 +22,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Galarian Meowth",
-		fr: "Miaouss de Galar",
-		es: "Meowth de Galar",
-		it: "Meowth di Galar",
-		pt: "Meowth de Galar",
-		de: "Galar-Mauzi"
+		'en-us': "Galarian Meowth",
+		'fr-fr': "Miaouss de Galar",
+		'es-es': "Meowth de Galar",
+		'it-it': "Meowth di Galar",
+		'pt-br': "Meowth de Galar",
+		'de-de': "Galar-Mauzi"
 	},
 
 	stage: "Stage1",
@@ -36,20 +36,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Steely Spirit",
-				fr: "Boost Acier",
-				es: "Alma Acerada",
-				it: "Spiritoferreo",
-				pt: "Espírito Férreo",
-				de: "Stählerner Wille"
+				'en-us': "Steely Spirit",
+				'fr-fr': "Boost Acier",
+				'es-es': "Alma Acerada",
+				'it-it': "Spiritoferreo",
+				'pt-br': "Espírito Férreo",
+				'de-de': "Stählerner Wille"
 			},
 			effect: {
-				en: "Your Metal Pokémon's attacks do 20 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
-				fr: "Les attaques de vos Pokémon Metal infligent 20 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
-				es: "Los ataques de tus Pokémon Metal hacen 20 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
-				it: "Gli attacchi dei tuoi Pokémon Metal infliggono 20 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
-				pt: "Os ataques dos seus Pokémon Metal causam 20 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
-				de: "Die Attacken deiner Metal-Pokémon fügen dem Aktiven Pokémon deines Gegners 20 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "Your Metal Pokémon's attacks do 20 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Les attaques de vos Pokémon Metal infligent 20 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
+				'es-es': "Los ataques de tus Pokémon Metal hacen 20 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
+				'it-it': "Gli attacchi dei tuoi Pokémon Metal infliggono 20 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
+				'pt-br': "Os ataques dos seus Pokémon Metal causam 20 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
+				'de-de': "Die Attacken deiner Metal-Pokémon fügen dem Aktiven Pokémon deines Gegners 20 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Claw",
-				fr: "Griffe Acier",
-				es: "Garra Metal",
-				it: "Ferrartigli",
-				pt: "Garra de Metal",
-				de: "Metallklaue"
+				'en-us': "Metal Claw",
+				'fr-fr': "Griffe Acier",
+				'es-es': "Garra Metal",
+				'it-it': "Ferrartigli",
+				'pt-br': "Garra de Metal",
+				'de-de': "Metallklaue"
 			},
 
 			damage: 70,
@@ -100,7 +100,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle."
+		'en-us': "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle."
 	},
 
 	dexId: [863],

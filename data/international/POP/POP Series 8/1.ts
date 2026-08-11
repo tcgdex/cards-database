@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 8'
 
 const card: Card = {
 	name: {
-		en: "Heatran",
+		'en-us': "Heatran",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam",
+				'en-us': "Body Slam",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 20,
 
@@ -46,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Spin",
+				'en-us': "Fire Spin",
 			},
 			effect: {
-				en: "Discard 2 basic Energy cards attached to Heatran. (If you can’t discard cards, this attack does nothing.)",
+				'en-us': "Discard 2 basic Energy cards attached to Heatran. (If you can’t discard cards, this attack does nothing.)",
 			},
 			damage: 90,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls."
+		'en-us': "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls."
 	},
 
 	retreat: 3,

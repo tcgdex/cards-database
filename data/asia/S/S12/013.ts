@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S12"
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "燃燒蟲",
-		th: "เมลาร์วา",
-		ja: "メラルバ"
+		'th-th': "เมลาร์วา",
+		'ja-jp': "メラルバ"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -17,8 +17,8 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "遠古時代的人們相信燃燒蟲是從 太陽上摔下來的。",
-		th: "ผู้คนในอดีตอันนานมาแล้วเชื่อว่าเมลาร์วาตกลงมาจากดวงอาทิตย์",
-		ja: "はるか 昔の 人々は メラルバは 太陽から 落っこちてきたと 信じていた。"
+		'th-th': "ผู้คนในอดีตอันนานมาแล้วเชื่อว่าเมลาร์วาตกลงมาจากดวงอาทิตย์",
+		'ja-jp': "はるか 昔の 人々は メラルバは 太陽から 落っこちてきたと 信じていた。"
 	},
 
 	stage: "Basic",
@@ -26,8 +26,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "火種",
-			th: "เชื้อไฟ",
-			ja: "ひだね"
+			'th-th': "เชื้อไฟ",
+			'ja-jp': "ひだね"
 		},
 
 		damage: 20,

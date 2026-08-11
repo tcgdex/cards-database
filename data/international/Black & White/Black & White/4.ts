@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Servine",
-		fr: "Lianaja",
-		es: "Servine",
-		it: "Servine",
-		pt: "Servine",
-		de: "Efoserp"
+		'en-us': "Servine",
+		'fr-fr': "Lianaja",
+		'es-es': "Servine",
+		'it-it': "Servine",
+		'pt-br': "Servine",
+		'de-de': "Efoserp"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Snivy",
-		fr: "Vipélierre",
+		'en-us': "Snivy",
+		'fr-fr': "Vipélierre",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wring Out",
-				fr: "Essorage",
+				'en-us': "Wring Out",
+				'fr-fr': "Essorage",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé, et vous défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé, et vous défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 30,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques.",
+		'en-us': "They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques.",
 	},
 
 	thirdParty: {

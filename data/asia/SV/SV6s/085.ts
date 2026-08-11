@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Chimecho"
+		'id-id': "Chimecho"
 	},
 
 	illustrator: "Mousho",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Suara Pokémon ini menggema di rongga tubuhnya dan menghasilkan warna nada yang indah untuk mengejutkan dan mengusir musuh."
+		'id-id': "Suara Pokémon ini menggema di rongga tubuhnya dan menghasilkan warna nada yang indah untuk mengejutkan dan mengusir musuh."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Hyper Voice"
+			'id-id': "Hyper Voice"
 		},
 
 		damage: 20,
 		cost: ["Psychic"]
 	}, {
 		name: {
-			id: "Bunyi Lonceng Pulang"
+			'id-id': "Bunyi Lonceng Pulang"
 		},
 
 		effect: {
-			id: "Pilih 1 Pokémon Cadangan sendiri, lalu kocok kembali Pokémon tersebut dan semua kartu yang dikenakannya ke Deck."
+			'id-id': "Pilih 1 Pokémon Cadangan sendiri, lalu kocok kembali Pokémon tersebut dan semua kartu yang dikenakannya ke Deck."
 		},
 
 		cost: ["Colorless", "Colorless"]

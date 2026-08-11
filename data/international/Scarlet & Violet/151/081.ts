@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Magnéti",
-		en: "Magnemite",
-		es: "Magnemite",
-		it: "Magnemite",
-		pt: "Magnemite",
-		de: "Magnetilo"
+		'fr-fr': "Magnéti",
+		'en-us': "Magnemite",
+		'es-es': "Magnemite",
+		'it-it': "Magnemite",
+		'pt-br': "Magnemite",
+		'de-de': "Magnetilo"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			fr: "Décharge Mineure",
-			en: "Tiny Charge",
-			es: "Carga Diminuta",
-			it: "Sottocarica Minuscola",
-			pt: "Carga Pequenina",
-			de: "Mini-Stromstoß"
+			'fr-fr': "Décharge Mineure",
+			'en-us': "Tiny Charge",
+			'es-es': "Carga Diminuta",
+			'it-it': "Sottocarica Minuscola",
+			'pt-br': "Carga Pequenina",
+			'de-de': "Mini-Stromstoß"
 		},
 
 		damage: 10
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			fr: "Grosse Explosion",
-			en: "Big Explosion",
-			es: "Gran Explosión",
-			it: "Grande Esplosione",
-			pt: "Grande Explosão",
-			de: "Große Explosion"
+			'fr-fr': "Grosse Explosion",
+			'en-us': "Big Explosion",
+			'es-es': "Gran Explosión",
+			'it-it': "Grande Esplosione",
+			'pt-br': "Grande Explosão",
+			'de-de': "Große Explosion"
 		},
 
 		effect: {
-			fr: "Ce Pokémon s'inflige aussi 60 dégâts.",
-			en: "This Pokémon also does 60 damage to itself.",
-			es: "Este Pokémon también se hace 60 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 60 danni a se stesso.",
-			pt: "Este Pokémon também causa 60 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 60 Schadenspunkte zu."
+			'fr-fr': "Ce Pokémon s'inflige aussi 60 dégâts.",
+			'en-us': "This Pokémon also does 60 damage to itself.",
+			'es-es': "Este Pokémon también se hace 60 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 60 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 60 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 60 Schadenspunkte zu."
 		},
 
 		damage: 60
@@ -67,7 +67,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
+		'en-us': "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
 	},
 
 	variants: [

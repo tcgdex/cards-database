@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダブル無色エネルギー",
+		'ja-jp': "ダブル無色エネルギー",
 	},
 
 	illustrator: "",
@@ -12,7 +12,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		ja: "このカードは、[無]エネルギー2個ぶんとしてはたらく。",
+		'ja-jp': "このカードは、[無]エネルギー2個ぶんとしてはたらく。",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Nidoqueen",
-		de: "Nidoqueen"
+		'en-us': "Nidoqueen",
+		'de-de': "Nidoqueen"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidorina",
+		'en-us': "Nidorina",
 	},
 
 	stage: "Stage2",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Evolution Helper",
-				de: "Evolutions-Helfer"
+				'en-us': "Evolution Helper",
+				'de-de': "Evolutions-Helfer"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Nidoqueen is on your Bench, you may search your deck for a card that evolves from your Active Pokémon and attach it to your Active Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls Nidoqueen auf deiner Bank ist, dein Deck nach einer Karte durchsuchen, die sich aus deinem aktiven Pokémon entwickelt, und sie an dein aktives Pokémon anlegen. (Dies zählt als Entwickeln dieses Pokémon.) Mische dein Deck danach."
+				'en-us': "Once during your turn (before your attack), if Nidoqueen is on your Bench, you may search your deck for a card that evolves from your Active Pokémon and attach it to your Active Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls Nidoqueen auf deiner Bank ist, dein Deck nach einer Karte durchsuchen, die sich aus deinem aktiven Pokémon entwickelt, und sie an dein aktives Pokémon anlegen. (Dies zählt als Entwickeln dieses Pokémon.) Mische dein Deck danach."
 			},
 		},
 	],
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Claw",
-				de: "Doppelkralle"
+				'en-us': "Double Claw",
+				'de-de': "Doppelkralle"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte pro geworfenem \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte pro geworfenem \"Kopf\" zu."
 			},
 			damage: "30+",
 

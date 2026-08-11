@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock"
+		'en-us': "Brock"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -12,7 +12,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Remove 1 damage counter from each of your Pokémon that has any damage counters on it."
+		'en-us': "Remove 1 damage counter from each of your Pokémon that has any damage counters on it."
 	},
 	variants: [
 		{

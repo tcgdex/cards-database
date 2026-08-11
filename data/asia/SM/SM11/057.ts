@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チョロネコ",
+		'ja-jp': "チョロネコ",
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "かわいらしい 仕草で 油断させて その すきに 持ち物を 奪う。 怒ると ツメを 立てて 反撃。",
+		'ja-jp': "かわいらしい 仕草で 油断させて その すきに 持ち物を 奪う。 怒ると ツメを 立てて 反撃。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "おそうじ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手の場のポケモンについている「ポケモンのどうぐ」を、1枚トラッシュする。",
+				'ja-jp': "相手の場のポケモンについている「ポケモンのどうぐ」を、1枚トラッシュする。",
 			},
 		},
 	],

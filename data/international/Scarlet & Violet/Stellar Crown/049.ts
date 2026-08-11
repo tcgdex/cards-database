@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lanturn",
-		fr: "Lanturn",
-		es: "Lanturn",
-		it: "Lanturn",
-		pt: "Lanturn",
-		de: "Lanturn"
+		'en-us': "Lanturn",
+		'fr-fr': "Lanturn",
+		'es-es': "Lanturn",
+		'it-it': "Lanturn",
+		'pt-br': "Lanturn",
+		'de-de': "Lanturn"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Lightning"],
 	evolveFrom: {
-		en: "Chinchou",
-		fr: "Loupio",
-		es: "Chinchou",
-		it: "Chinchou",
-		pt: "Chinchou",
-		de: "Lampi"
+		'en-us': "Chinchou",
+		'fr-fr': "Loupio",
+		'es-es': "Chinchou",
+		'it-it': "Chinchou",
+		'pt-br': "Chinchou",
+		'de-de': "Lampi"
 	},
 	stage: "Stage1",
 
@@ -32,41 +32,41 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Disorienting Flash",
-			fr: "Flash Désorientant",
-			es: "Destello Aturdidor",
-			it: "Flash Disorientante",
-			pt: "Clarão Atordoante",
-			de: "Desorientierender Blitz"
+			'en-us': "Disorienting Flash",
+			'fr-fr': "Flash Désorientant",
+			'es-es': "Destello Aturdidor",
+			'it-it': "Flash Disorientante",
+			'pt-br': "Clarão Atordoante",
+			'de-de': "Desorientierender Blitz"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused. Put 8 damage counters instead of 3 on that Pokémon for this Special Condition.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus. Placez 8 marqueurs de dégâts au lieu de 3 sur ce Pokémon-là pour cet État Spécial.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido. Pon 8 contadores de daño en vez de 3 en ese Pokémon por esta Condición Especial.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso. Metti otto segnalini danno invece di tre su quel Pokémon per effetto di questa condizione speciale.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso. Coloque 8 contadores de dano ao invés de 3 naquele Pokémon para esta Condição Especial.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt. Lege für diesen Speziellen Zustand 8 Schadensmarken anstelle von 3 Schadensmarken auf jenes Pokémon."
+			'en-us': "Your opponent's Active Pokémon is now Confused. Put 8 damage counters instead of 3 on that Pokémon for this Special Condition.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus. Placez 8 marqueurs de dégâts au lieu de 3 sur ce Pokémon-là pour cet État Spécial.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido. Pon 8 contadores de daño en vez de 3 en ese Pokémon por esta Condición Especial.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso. Metti otto segnalini danno invece di tre su quel Pokémon per effetto di questa condizione speciale.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso. Coloque 8 contadores de dano ao invés de 3 naquele Pokémon para esta Condição Especial.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt. Lege für diesen Speziellen Zustand 8 Schadensmarken anstelle von 3 Schadensmarken auf jenes Pokémon."
 		}
 	}, {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			en: "Thunderous Bolt",
-			fr: "Éclair du Tonnerre",
-			es: "Rayo Atronador",
-			it: "Fulmine Tonante",
-			pt: "Raio Estrondoso",
-			de: "Donnernder Einschlag"
+			'en-us': "Thunderous Bolt",
+			'fr-fr': "Éclair du Tonnerre",
+			'es-es': "Rayo Atronador",
+			'it-it': "Fulmine Tonante",
+			'pt-br': "Raio Estrondoso",
+			'de-de': "Donnernder Einschlag"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 140

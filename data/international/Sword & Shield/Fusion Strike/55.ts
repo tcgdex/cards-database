@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Totodile",
-		fr: "Kaiminus",
-		es: "Totodile",
-		it: "Totodile",
-		pt: "Totodile",
-		de: "Karnimani"
+		'en-us': "Totodile",
+		'fr-fr': "Kaiminus",
+		'es-es': "Totodile",
+		'it-it': "Totodile",
+		'pt-br': "Totodile",
+		'de-de': "Karnimani"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Mizue",
 
 	description: {
-		en: "Its powerful, well-developed jaws are capable of crushing anything. Even its Trainer must be careful."
+		'en-us': "Its powerful, well-developed jaws are capable of crushing anything. Even its Trainer must be careful."
 	},
 
 	attacks: [{
 		cost: ["Water"],
 
 		name: {
-			en: "Rain Splash",
-			fr: "Pluie Éclaboussante",
-			de: "Regenplatscher",
-			es: "Golpe de Lluvia",
-			pt: "Chuva Borrifante",
-			it: "Spruzzapioggia"
+			'en-us': "Rain Splash",
+			'fr-fr': "Pluie Éclaboussante",
+			'de-de': "Regenplatscher",
+			'es-es': "Golpe de Lluvia",
+			'pt-br': "Chuva Borrifante",
+			'it-it': "Spruzzapioggia"
 		},
 
 		damage: 20

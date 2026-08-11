@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Watchog",
-		fr: "Miradar",
-		es: "Watchog",
-		it: "Watchog",
-		pt: "Watchog",
-		de: "Kukmarda"
+		'en-us': "Watchog",
+		'fr-fr': "Miradar",
+		'es-es': "Watchog",
+		'it-it': "Watchog",
+		'pt-br': "Watchog",
+		'de-de': "Kukmarda"
 	},
 
 	illustrator: "match",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Patrat",
-		fr: "Ratentif",
+		'en-us': "Patrat",
+		'fr-fr': "Ratentif",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde Folie",
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde Folie",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
 			},
 
 		},
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Fang",
-				fr: "Croc de Mort",
+				'en-us': "Hyper Fang",
+				'fr-fr': "Croc de Mort",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
 			},
 			damage: 60,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They make the patterns on their bodies shine in order to threaten predators. Keen eyesight lets them see in the dark.",
+		'en-us': "They make the patterns on their bodies shine in order to threaten predators. Keen eyesight lets them see in the dark.",
 	},
 
 	thirdParty: {

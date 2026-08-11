@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Kalos Starter Set'
 
 const card: Card = {
 	name: {
-		en: "Quilladin",
-		fr: "Boguérisse",
-		es: "Quilladin",
-		it: "Quilladin",
-		pt: "Quilladin",
-		de: "Igastarnish"
+		'en-us': "Quilladin",
+		'fr-fr': "Boguérisse",
+		'es-es': "Quilladin",
+		'it-it': "Quilladin",
+		'pt-br': "Quilladin",
+		'de-de': "Igastarnish"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Chespin",
-		fr: "Marisson",
-		es: "Chespin",
-		it: "Chespin",
-		pt: "Chespin",
-		de: "Igamaro"
+		'en-us': "Chespin",
+		'fr-fr': "Marisson",
+		'es-es': "Chespin",
+		'it-it': "Chespin",
+		'pt-br': "Chespin",
+		'de-de': "Igamaro"
 	},
 
 	stage: "Stage1",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leech Seed",
-				fr: "Vampigraine",
-				es: "Drenadoras",
-				it: "Parassiseme",
-				pt: "Semente Sanguessuga",
-				de: "Egelsamen"
+				'en-us': "Leech Seed",
+				'fr-fr': "Vampigraine",
+				'es-es': "Drenadoras",
+				'it-it': "Parassiseme",
+				'pt-br': "Semente Sanguessuga",
+				'de-de': "Egelsamen"
 			},
 			effect: {
-				en: "Heal 10 damage from this Pokémon.",
-				fr: "Soignez 10 dégâts à ce Pokémon.",
-				es: "Cura 10 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 10 danni.",
-				pt: "Cura 10 de danos deste Pokémon.",
-				de: "Heile 10 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 10 damage from this Pokémon.",
+				'fr-fr': "Soignez 10 dégâts à ce Pokémon.",
+				'es-es': "Cura 10 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 10 danni.",
+				'pt-br': "Cura 10 de danos deste Pokémon.",
+				'de-de': "Heile 10 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 20,
 
@@ -69,12 +69,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Needle Arm",
-				fr: "Poing Dard",
-				es: "Brazo Pincho",
-				it: "Pugnospine",
-				pt: "Braço de Agulha",
-				de: "Nietenranke"
+				'en-us': "Needle Arm",
+				'fr-fr': "Poing Dard",
+				'es-es': "Brazo Pincho",
+				'it-it': "Pugnospine",
+				'pt-br': "Braço de Agulha",
+				'de-de': "Nietenranke"
 			},
 
 			damage: 50,
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It relies on its sturdy shell to deflect predators' attacks. It counterattacks with its sharp quills.",
+		'en-us': "It relies on its sturdy shell to deflect predators' attacks. It counterattacks with its sharp quills.",
 	},
 
 	thirdParty: {

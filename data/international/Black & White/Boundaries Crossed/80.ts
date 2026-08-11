@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Gligar",
-		fr: "Scorplane",
-		es: "Gligar",
-		it: "Gligar",
-		pt: "Gligar",
-		de: "Skorgla"
+		'en-us': "Gligar",
+		'fr-fr': "Scorplane",
+		'es-es': "Gligar",
+		'it-it': "Gligar",
+		'pt-br': "Gligar",
+		'de-de': "Skorgla"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Tail Smack",
-				fr: "Coup de Queue",
+				'en-us': "Tail Smack",
+				'fr-fr': "Coup de Queue",
 			},
 
 			damage: 10,
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wicked Jab",
-				fr: "Piqûre Infernale",
+				'en-us': "Wicked Jab",
+				'fr-fr': "Piqûre Infernale",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 20,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It clamps on to its chosen prey then jabs the stinger on its tail into the prey while it's stunned with surprise.",
+		'en-us': "It clamps on to its chosen prey then jabs the stinger on its tail into the prey while it's stunned with surprise.",
 	},
 
 	thirdParty: {

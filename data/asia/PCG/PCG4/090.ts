@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Lugia Ex",
+		'ja-jp': "Lugia Ex",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "銀の輝き",
+				'ja-jp': "銀の輝き",
 			},
 			effect: {
-				ja: "Lugia Exがあなたのアクティブなポカモンであり、相手の攻撃によって損傷を受けている場合（Lugia Exがノックアウトされたとしても）、コインをひっくり返します。頭の場合は、攻撃するポカモンに取り付けられたエネルギーカードを選択し、相手の手に返します。",
+				'ja-jp': "Lugia Exがあなたのアクティブなポカモンであり、相手の攻撃によって損傷を受けている場合（Lugia Exがノックアウトされたとしても）、コインをひっくり返します。頭の場合は、攻撃するポカモンに取り付けられたエネルギーカードを選択し、相手の手に返します。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Fire", "Water", "Lightning"],
 			name: {
-				ja: "エレメンタルブラスト",
+				'ja-jp': "エレメンタルブラスト",
 			},
 			effect: {
-				ja: "Lugia Exに取り付けられた火エネルギー、水エネルギー、稲妻エネルギーを廃棄します。",
+				'ja-jp': "Lugia Exに取り付けられた火エネルギー、水エネルギー、稲妻エネルギーを廃棄します。",
 			},
 			damage: 200,
 		},

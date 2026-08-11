@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Exploud",
-		fr: "Brouhabam",
-		es: "Exploud",
-		it: "Exploud",
-		pt: "Exploud",
-		de: "Krawumms"
+		'en-us': "Exploud",
+		'fr-fr': "Brouhabam",
+		'es-es': "Exploud",
+		'it-it': "Exploud",
+		'pt-br': "Exploud",
+		'de-de': "Krawumms"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Loudred",
-		fr: "Ramboum",
-		es: "Loudred",
-		it: "Loudred",
-		pt: "Loudred",
-		de: "Krakeelo"
+		'en-us': "Loudred",
+		'fr-fr': "Ramboum",
+		'es-es': "Loudred",
+		'it-it': "Loudred",
+		'pt-br': "Loudred",
+		'de-de': "Krakeelo"
 	},
 
 	stage: "Stage2",
@@ -45,20 +45,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ambush",
-				fr: "Embuscade",
-				es: "Emboscada",
-				it: "Imboscata",
-				pt: "Emboscada",
-				de: "Hinterhalt"
+				'en-us': "Ambush",
+				'fr-fr': "Embuscade",
+				'es-es': "Emboscada",
+				'it-it': "Imboscata",
+				'pt-br': "Emboscada",
+				'de-de': "Hinterhalt"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 40 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 40 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 40 danni in più.",
-				pt: "Jogue uma moeda. Se sair cara, este ataque causará 40 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 40 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 40 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 40 danni in più.",
+				'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 40 de danos adicionais.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 weitere Schadenspunkte zu."
 			},
 			damage: "80+",
 
@@ -70,20 +70,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cacophony",
-				fr: "Cacophonie",
-				es: "Cacofonía",
-				it: "Dissonanza",
-				pt: "Cacofonia",
-				de: "Kakofonie"
+				'en-us': "Cacophony",
+				'fr-fr': "Cacophonie",
+				'es-es': "Cacofonía",
+				'it-it': "Dissonanza",
+				'pt-br': "Cacofonia",
+				'de-de': "Kakofonie"
 			},
 			effect: {
-				en: "At the end of your opponent's next turn, discard the Defending Pokémon and all cards attached to it.",
-				fr: "À la fin du prochain tour de votre adversaire, défaussez le Pokémon Défenseur et toutes les cartes qui lui sont attachées.",
-				es: "Al final del próximo turno de tu rival, descarta el Pokémon Defensor y todas las cartas unidas a él.",
-				it: "Alla fine del turno del tuo avversario, scarta il Pokémon difensore e tutte le carte assegnategli.",
-				pt: "Ao final da vez de jogar do seu oponente, descarte o Pokémon Defensor e todos os cards ligados a ele.",
-				de: "Lege am Ende des nächsten Zuges deines Gegners das Verteidigende Pokémon und alle daran angelegten Karten auf dessen Ablagestapel."
+				'en-us': "At the end of your opponent's next turn, discard the Defending Pokémon and all cards attached to it.",
+				'fr-fr': "À la fin du prochain tour de votre adversaire, défaussez le Pokémon Défenseur et toutes les cartes qui lui sont attachées.",
+				'es-es': "Al final del próximo turno de tu rival, descarta el Pokémon Defensor y todas las cartas unidas a él.",
+				'it-it': "Alla fine del turno del tuo avversario, scarta il Pokémon difensore e tutte le carte assegnategli.",
+				'pt-br': "Ao final da vez de jogar do seu oponente, descarte o Pokémon Defensor e todos os cards ligados a ele.",
+				'de-de': "Lege am Ende des nächsten Zuges deines Gegners das Verteidigende Pokémon und alle daran angelegten Karten auf dessen Ablagestapel."
 			},
 
 		},
@@ -99,7 +99,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its roar in battle shakes the ground like a tremor–or like an earthquake has struck.",
+		'en-us': "Its roar in battle shakes the ground like a tremor–or like an earthquake has struck.",
 	},
 
 	thirdParty: {

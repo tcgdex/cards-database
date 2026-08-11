@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロコン",
+		'ja-jp': "ロコン",
 		'zh-tw': "六尾",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "子どもだが ６本の しっぽが 美しい。 成長すると さらに しっぽが 増える。",
+		'ja-jp': "子どもだが ６本の しっぽが 美しい。 成長すると さらに しっぽが 増える。",
 		'zh-tw': "雖然還是孩子，但已擁有美麗的６根尾巴。 長大後尾巴會變得更多。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "とびつく",
+				'ja-jp': "とびつく",
 				'zh-tw': "飛撲",
 			},
 			damage: "10+",
 			cost: ["Fire"],
 			effect: {
-				ja: "コインを1回投げオモテなら、20ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、20ダメージ追加。",
 				'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。",
 			},
 		},

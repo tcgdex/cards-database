@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "電気",
+		'ja-jp': "電気",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "充電",
+				'ja-jp': "充電",
 			},
 			effect: {
-				ja: "デッキを稲妻エネルギーカードに検索し、エレクトリケに添付してください。その後、デッキをシャッフルします。",
+				'ja-jp': "デッキを稲妻エネルギーカードに検索し、エレクトリケに添付してください。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "クイック攻撃",
+				'ja-jp': "クイック攻撃",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて20ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて20ダメージを与えます。",
 			},
 		},
 	],

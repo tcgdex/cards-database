@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Psyduck",
-		fr: "Psykokwak",
-		es: "Psyduck",
+		'en-us': "Psyduck",
+		'fr-fr': "Psykokwak",
+		'es-es': "Psyduck",
 		'es-mx': "Psyduck",
-		de: "Enton",
-		it: "Psyduck",
-		pt: "Psyduck"
+		'de-de': "Enton",
+		'it-it': "Psyduck",
+		'pt-br': "Psyduck"
 	},
 
 	illustrator: "Jiro Sasumo",
@@ -26,23 +26,23 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Damp",
-			fr: "Moiteur",
-			es: "Humedad",
+			'en-us': "Damp",
+			'fr-fr': "Moiteur",
+			'es-es': "Humedad",
 			'es-mx': "Humedad",
-			de: "Feuchtigkeit",
-			it: "Umidità",
-			pt: "Ensopado"
+			'de-de': "Feuchtigkeit",
+			'it-it': "Umidità",
+			'pt-br': "Ensopado"
 		},
 
 		effect: {
-			en: "Pokémon in play (both yours and your opponent's) lose any Ability that requires the Pokémon using it to Knock Out itself.",
-			fr: "Les Pokémon en jeu (les vôtres et ceux de votre adversaire) perdent tout talent qui demande au Pokémon l'utilisant de se mettre K.O.",
-			es: "Los Pokémon en juego (tanto tuyos como de tu rival) pierden cualquier habilidad que requiera que el Pokémon que la use se deje Fuera de Combate a sí mismo.",
+			'en-us': "Pokémon in play (both yours and your opponent's) lose any Ability that requires the Pokémon using it to Knock Out itself.",
+			'fr-fr': "Les Pokémon en jeu (les vôtres et ceux de votre adversaire) perdent tout talent qui demande au Pokémon l'utilisant de se mettre K.O.",
+			'es-es': "Los Pokémon en juego (tanto tuyos como de tu rival) pierden cualquier habilidad que requiera que el Pokémon que la use se deje Fuera de Combate a sí mismo.",
 			'es-mx': "Los Pokémon en juego (tanto tuyos como de tu rival) pierden cualquier Habilidad que requiera que el Pokémon que la use se deje Fuera de Combate a sí mismo.",
-			de: "Pokémon im Spiel (deine und die deines Gegners) verlieren jede Fähigkeit, die vom Pokémon, das sie einsetzt, erfordert, sich selbst kampfunfähig zu machen.",
-			it: "I Pokémon in gioco, sia tuoi che del tuo avversario, perdono qualsiasi abilità che richieda al Pokémon che la usa di mettere KO se stesso.",
-			pt: "Os Pokémon em jogo (seus e do seu oponente) perdem qualquer Habilidade que exija que o Pokémon que a use Nocauteie a si mesmo."
+			'de-de': "Pokémon im Spiel (deine und die deines Gegners) verlieren jede Fähigkeit, die vom Pokémon, das sie einsetzt, erfordert, sich selbst kampfunfähig zu machen.",
+			'it-it': "I Pokémon in gioco, sia tuoi che del tuo avversario, perdono qualsiasi abilità che richieda al Pokémon che la usa di mettere KO se stesso.",
+			'pt-br': "Os Pokémon em jogo (seus e do seu oponente) perdem qualquer Habilidade que exija que o Pokémon que a use Nocauteie a si mesmo."
 		}
 	}],
 
@@ -50,13 +50,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
 			'es-mx': "Colisión",
-			de: "Ramme",
-			it: "Carica",
-			pt: "Aríete"
+			'de-de': "Ramme",
+			'it-it': "Carica",
+			'pt-br': "Aríete"
 		},
 
 		damage: 20
@@ -72,7 +72,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers.",
+		'en-us': "It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers.",
 	},
 
 	variants: [

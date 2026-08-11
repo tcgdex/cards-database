@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY trainer Kit (Latios)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rhydon",
-		fr: "Rhinoféros",
-		es: "Rhydon",
-		it: "Rhydon",
-		pt: "Rhydon",
-		de: "Rizeros"
+		'en-us': "Rhydon",
+		'fr-fr': "Rhinoféros",
+		'es-es': "Rhydon",
+		'it-it': "Rhydon",
+		'pt-br': "Rhydon",
+		'de-de': "Rizeros"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Rhyhorn",
-		fr: "Rhinocorne",
-		es: "Rhyhorn",
-		it: "Rhyhorn",
-		pt: "Rhyhorn",
-		de: "Rihorn"
+		'en-us': "Rhyhorn",
+		'fr-fr': "Rhinocorne",
+		'es-es': "Rhyhorn",
+		'it-it': "Rhyhorn",
+		'pt-br': "Rhyhorn",
+		'de-de': "Rihorn"
 	},
 
 	stage: "Stage1",

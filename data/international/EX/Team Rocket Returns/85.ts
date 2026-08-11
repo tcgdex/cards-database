@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Pow! Hand Extension",
-		de: "Pow! Hand Extension*"
+		'en-us': "Pow! Hand Extension",
+		'de-de': "Pow! Hand Extension*"
 	},
 
 	illustrator: "Katsura Tabata",
@@ -14,8 +14,8 @@ const card: Card = {
 	trainerType: "Rocket's Secret Machine",
 
 	effect: {
-		en: "You may use this card only if you have more Prize cards left than your opponent. Move 1 Energy card attached to the Defending Pokémon to another of your opponent's Pokémon. Or, switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.",
-		de: "You may use this card only if you have more Prize cards left than your opponent.\n\nMove 1 Energy card attached to the Defending Pokémon to another of your opponent's Pokémon.Or, switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch."
+		'en-us': "You may use this card only if you have more Prize cards left than your opponent. Move 1 Energy card attached to the Defending Pokémon to another of your opponent's Pokémon. Or, switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.",
+		'de-de': "You may use this card only if you have more Prize cards left than your opponent.\n\nMove 1 Energy card attached to the Defending Pokémon to another of your opponent's Pokémon.Or, switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch."
 	},
 
 

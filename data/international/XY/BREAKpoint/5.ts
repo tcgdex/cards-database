@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Kricketot",
-		fr: "Crikzik",
-		es: "Kricketot",
-		it: "Kricketot",
-		pt: "Kricketot",
-		de: "Zirpurze"
+		'en-us': "Kricketot",
+		'fr-fr': "Crikzik",
+		'es-es': "Kricketot",
+		'it-it': "Kricketot",
+		'pt-br': "Kricketot",
+		'de-de': "Zirpurze"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Bug Hunch",
-				fr: "Insec'tuition",
-				es: "Instinto Bicho",
-				it: "Sensinsetto",
-				pt: "Pressentimento de Inseto",
-				de: "Käferwahrnehmung"
+				'en-us': "Bug Hunch",
+				'fr-fr': "Insec'tuition",
+				'es-es': "Instinto Bicho",
+				'it-it': "Sensinsetto",
+				'pt-br': "Pressentimento de Inseto",
+				'de-de': "Käferwahrnehmung"
 			},
 			effect: {
-				en: "Search your deck for up to 3 Grass Pokémon, reveal them, and put them into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez jusqu'à 3 Pokémon Grass dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja hasta 3 Pokémon Grass, enséñalos y ponlos en tu mano. Baraja las cartas de tu baraja después.",
-				it: "Cerca nel tuo mazzo fino a tre Pokémon Grass, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure em seu baralho até 3 Pokémon Grass, revele-os e coloque-os na mão. Em seguida, embaralhe seus cards.",
-				de: "Durchsuche dein Deck nach bis zu 3 Grass-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				'en-us': "Search your deck for up to 3 Grass Pokémon, reveal them, and put them into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez jusqu'à 3 Pokémon Grass dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja hasta 3 Pokémon Grass, enséñalos y ponlos en tu mano. Baraja las cartas de tu baraja después.",
+				'it-it': "Cerca nel tuo mazzo fino a tre Pokémon Grass, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure em seu baralho até 3 Pokémon Grass, revele-os e coloque-os na mão. Em seguida, embaralhe seus cards.",
+				'de-de': "Durchsuche dein Deck nach bis zu 3 Grass-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When its antennae hit each other, it sounds like the music of a xylophone.",
+		'en-us': "When its antennae hit each other, it sounds like the music of a xylophone.",
 	},
 
 	thirdParty: {

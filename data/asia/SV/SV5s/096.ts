@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Mawile"
+		'id-id': "Mawile"
 	},
 
 	illustrator: "aspara",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Dengan wajahnya yang kalem, Mawile membuat lawan lengah dan menggigit dengan rahang besarnya. Begitu tergigit, Pokémon ini tidak akan pernah melepaskannya lagi."
+		'id-id': "Dengan wajahnya yang kalem, Mawile membuat lawan lengah dan menggigit dengan rahang besarnya. Begitu tergigit, Pokémon ini tidak akan pernah melepaskannya lagi."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Mengundang dan Menyakiti"
+			'id-id': "Mengundang dan Menyakiti"
 		},
 
 		effect: {
-			id: "Pilih 1 Pokémon Cadangan lawan, lalu tukar dengan Pokémon Bertarung. Setelah itu, berikan kerusakan sejumlah 30 kepada Pokémon Bertarung yang baru."
+			'id-id': "Pilih 1 Pokémon Cadangan lawan, lalu tukar dengan Pokémon Bertarung. Setelah itu, berikan kerusakan sejumlah 30 kepada Pokémon Bertarung yang baru."
 		},
 
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Taring Tajam"
+			'id-id': "Taring Tajam"
 		},
 
 		damage: 100,

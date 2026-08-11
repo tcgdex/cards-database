@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Manectric",
-		fr: "Elecsprint",
-		de: "Voltenso"
+		'en-us': "Manectric",
+		'fr-fr': "Elecsprint",
+		'de-de': "Voltenso"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Electrike",
-		fr: "Dynavolt"
+		'en-us': "Electrike",
+		'fr-fr': "Dynavolt"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swift",
-				fr: "Météores",
-				de: "Sternschauer"
+				'en-us': "Swift",
+				'fr-fr': "Météores",
+				'de-de': "Sternschauer"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
-				de: "This attacks damage isnt affected by Weakness, Resistance, Poke-Powers , Poke-Bodies, or any other effect on the Defending Pokémon"
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
+				'de-de': "This attacks damage isnt affected by Weakness, Resistance, Poke-Powers , Poke-Bodies, or any other effect on the Defending Pokémon"
 			},
 			damage: 20,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Shock",
-				fr: "Élektri-keu",
-				de: "Tail Shock"
+				'en-us': "Tail Shock",
+				'fr-fr': "Élektri-keu",
+				'de-de': "Tail Shock"
 			},
 			effect: {
-				en: "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Does 10 damage to each of your opponents Benched Pokémon. (Dont apply weakness and Resistance for Benched Pokémon)"
+				'en-us': "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Does 10 damage to each of your opponents Benched Pokémon. (Dont apply weakness and Resistance for Benched Pokémon)"
 			},
 			damage: 40,
 

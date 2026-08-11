@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゼブライカ",
+		'ja-jp': "ゼブライカ",
 		'zh-tw': "雷電斑馬",
 		'zh-cn': "雷電斑馬",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "雷鳴を 聞くと 群れの シママが 雷から 充電できるように 群れで 雷雲を 追いかける。",
+		'ja-jp': "雷鳴を 聞くと 群れの シママが 雷から 充電できるように 群れで 雷雲を 追いかける。",
 		'zh-tw': "為了讓群體裡的斑斑馬能 透過雷電充電，只要一聽到 雷鳴聲，就會成群追趕雷雲。",
 		'zh-cn': "為了讓群體裡的斑斑馬能 透過雷電充電，只要一聽到 雷鳴聲，就會成群追趕雷雲。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "キック",
+				'ja-jp': "キック",
 				'zh-tw': "踢",
 				'zh-cn': "踢",
 			},
@@ -34,7 +34,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "マッハボルト",
+				'ja-jp': "マッハボルト",
 				'zh-tw': "音速伏特",
 				'zh-cn': "音速伏特",
 			},
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シママ",
+		'ja-jp': "シママ",
 	},
 
 	retreat: 1,

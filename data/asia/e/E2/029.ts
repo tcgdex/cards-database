@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "quagsire",
+		'ja-jp': "quagsire",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "ウォーターガン",
+				'ja-jp': "ウォーターガン",
 			},
 			effect: {
-				ja: "この攻撃は、Quagsireに取り付けられた水エネルギーごとに20のダメージに加えて10ダメージを与えますが、この攻撃のエネルギーコストの支払いには使用されません。この方法で20以上のダメージを追加することはできません。",
+				'ja-jp': "この攻撃は、Quagsireに取り付けられた水エネルギーごとに20のダメージに加えて10ダメージを与えますが、この攻撃のエネルギーコストの支払いには使用されません。この方法で20以上のダメージを追加することはできません。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "スラム",
+				'ja-jp': "スラム",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の50回のダメージ時間を実行します。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の50回のダメージ時間を実行します。",
 			},
 		},
 	],

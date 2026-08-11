@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Dratini",
-		fr: "Minidraco",
-		de: "Dratini"
+		'en-us': "Dratini",
+		'fr-fr': "Minidraco",
+		'de-de': "Dratini"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -37,15 +37,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Dragon Smash",
-				fr: "Coup du dragon",
-				de: "Drachenschmetterschlag"
+				'en-us': "Dragon Smash",
+				'fr-fr': "Coup du dragon",
+				'de-de': "Drachenschmetterschlag"
 			},
 
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 40,

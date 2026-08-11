@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sunflora",
-		fr: "Héliatronc"
+		'en-us': "Sunflora",
+		'fr-fr': "Héliatronc"
 	},
 
 	illustrator: "Yumi",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Sunkern"
+		'en-us': "Sunkern"
 	},
 
 	description: {
-		en: "In the daytime, it rushes about in a hectic\nmanner, but it comes to a complete stop when\nthe sun sets.",
-		fr: "En journée, il court énergiquement dans tous les sens, mais il s'arrête net dès que la nuit tombe."
+		'en-us': "In the daytime, it rushes about in a hectic\nmanner, but it comes to a complete stop when\nthe sun sets.",
+		'fr-fr': "En journée, il court énergiquement dans tous les sens, mais il s'arrête net dès que la nuit tombe."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Solar Beam",
-			fr: "Lance-Soleil"
+			'en-us': "Solar Beam",
+			'fr-fr': "Lance-Soleil"
 		},
 
 		damage: 70,

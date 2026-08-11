@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Scolipede",
-		fr: "Brutapode",
-		es: "Scolipede",
-		it: "Scolipede",
-		pt: "Scolipede",
-		de: "Cerapendra"
+		'en-us': "Scolipede",
+		'fr-fr': "Brutapode",
+		'es-es': "Scolipede",
+		'it-it': "Scolipede",
+		'pt-br': "Scolipede",
+		'de-de': "Cerapendra"
 	},
 
 	illustrator: "kawayoo",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Whirlipede",
-		fr: "Scobolide",
+		'en-us': "Whirlipede",
+		'fr-fr': "Scobolide",
 	},
 
 	stage: "Stage2",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Toxic Claws",
-				fr: "Griffes Toxiques",
+				'en-us': "Toxic Claws",
+				'fr-fr': "Griffes Toxiques",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégâts au lieu d'un sur le Pokémon ciblé entre chaque tour.",
+				'en-us': "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégâts au lieu d'un sur le Pokémon ciblé entre chaque tour.",
 			},
 			damage: 30,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wild Horn",
-				fr: "Corne Sauvage",
+				'en-us': "Wild Horn",
+				'fr-fr': "Corne Sauvage",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				'en-us': "Flip 2 coins. This attack does 20 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
 			},
 			damage: 50,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.",
+		'en-us': "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Torracat",
-		fr: "Matoufeu",
-		es: "Torracat",
-		it: "Torracat",
-		pt: "Torracat",
-		de: "Miezunder"
+		'en-us': "Torracat",
+		'fr-fr': "Matoufeu",
+		'es-es': "Torracat",
+		'it-it': "Torracat",
+		'pt-br': "Torracat",
+		'de-de': "Miezunder"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Litten",
-		fr: "Flamiaou",
-		es: "Litten",
-		it: "Litten",
-		pt: "Litten",
-		de: "Flamiau"
+		'en-us': "Litten",
+		'fr-fr': "Flamiaou",
+		'es-es': "Litten",
+		'it-it': "Litten",
+		'pt-br': "Litten",
+		'de-de': "Flamiau"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			es: "Mordisco",
-			it: "Morso",
-			pt: "Mordida",
-			de: "Biss"
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'es-es': "Mordisco",
+			'it-it': "Morso",
+			'pt-br': "Mordida",
+			'de-de': "Biss"
 		},
 
 		damage: 30
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Fire", "Colorless", "Colorless"],
 
 		name: {
-			en: "Flare Strike",
-			fr: "Attaque Flamboyante",
-			es: "Impacto Ígneo",
-			it: "Colpo Fiammante",
-			pt: "Golpe de Chamas",
-			de: "Feuergeschoss"
+			'en-us': "Flare Strike",
+			'fr-fr': "Attaque Flamboyante",
+			'es-es': "Impacto Ígneo",
+			'it-it': "Colpo Fiammante",
+			'pt-br': "Golpe de Chamas",
+			'de-de': "Feuergeschoss"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use Flare Strike.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Attaque Flamboyante.",
-			es: "Durante tu próximo turno, este Pokémon no puede usar Impacto Ígneo.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Colpo Fiammante.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Golpe de Chamas.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon Feuergeschoss nicht einsetzen."
+			'en-us': "During your next turn, this Pokémon can't use Flare Strike.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Attaque Flamboyante.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede usar Impacto Ígneo.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Colpo Fiammante.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar Golpe de Chamas.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon Feuergeschoss nicht einsetzen."
 		},
 
 		damage: 80
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "In the midst of battle, the fire pouch on Torracat's neck rings like a bell and produces stronger flames than usual.",
+		'en-us': "In the midst of battle, the fire pouch on Torracat's neck rings like a bell and produces stronger flames than usual.",
 	},
 
 	variants: [

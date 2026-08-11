@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Carvanha",
-		en: "Carvanha",
-		es: "Carvanha",
-		it: "Carvanha",
-		pt: "Carvanha",
-		de: "Kanivanha"
+		'fr-fr': "Carvanha",
+		'en-us': "Carvanha",
+		'es-es': "Carvanha",
+		'it-it': "Carvanha",
+		'pt-br': "Carvanha",
+		'de-de': "Kanivanha"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			fr: "Croc Aiguisé",
-			en: "Sharp Fang",
-			es: "Colmillo Afilado",
-			it: "Zannaffilata",
-			pt: "Presa Afiada",
-			de: "Scharfe Fänge"
+			'fr-fr': "Croc Aiguisé",
+			'en-us': "Sharp Fang",
+			'es-es': "Colmillo Afilado",
+			'it-it': "Zannaffilata",
+			'pt-br': "Presa Afiada",
+			'de-de': "Scharfe Fänge"
 		},
 
 		damage: 20
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "These Pokémon have sharp fangs and powerful jaws. Sailors avoid Carvanha dens at all costs.",
+		'en-us': "These Pokémon have sharp fangs and powerful jaws. Sailors avoid Carvanha dens at all costs.",
 	},
 
 	variants: [

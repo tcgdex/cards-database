@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Petilil",
-		fr: "Chlorobule",
-		es: "Petilil",
-		it: "Petilil",
-		pt: "Petilil",
-		de: "Lilminip"
+		'en-us': "Petilil",
+		'fr-fr': "Chlorobule",
+		'es-es': "Petilil",
+		'it-it': "Petilil",
+		'pt-br': "Petilil",
+		'de-de': "Lilminip"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Stun Spore",
-				fr: "Para-Spore",
+				'en-us': "Stun Spore",
+				'fr-fr': "Para-Spore",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cut",
-				fr: "Coupe",
+				'en-us': "Cut",
+				'fr-fr': "Coupe",
 			},
 
 			damage: 20,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The leaves on its head are very bitter. Eating one of these leaves is known to refresh a tired body.",
+		'en-us': "The leaves on its head are very bitter. Eating one of these leaves is known to refresh a tired body.",
 	},
 
 	thirdParty: {

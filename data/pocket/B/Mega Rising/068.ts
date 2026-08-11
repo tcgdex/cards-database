@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Frillish"
+		'en-us': "Frillish"
 	},
 
 	illustrator: "Apios",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "Legend has it that the residents of a sunken\nancient city changed into these Pokémon."
+		'en-us': "Legend has it that the residents of a sunken\nancient city changed into these Pokémon."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Water Gun"
+			'en-us': "Water Gun"
 		},
 
 		damage: 20,

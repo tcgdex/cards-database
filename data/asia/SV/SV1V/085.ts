@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1V"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "パーモット"
+		'ja-jp': "パーモット"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "ふわふわの 体毛が バッテリー。 電気自動車と 同じ 量の 電気を 蓄えることができる。"
+		'ja-jp': "ふわふわの 体毛が バッテリー。 電気自動車と 同じ 量の 電気を 蓄えることができる。"
 	},
 
 	stage: "Stage2",
@@ -24,11 +24,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "でんきおこし"
+			'ja-jp': "でんきおこし"
 		},
 
 		effect: {
-			ja: "自分の番に1回使える。自分の山札から「基本エネルギー」を1枚選び、このポケモンにつける。そして山札を切る。"
+			'ja-jp': "自分の番に1回使える。自分の山札から「基本エネルギー」を1枚選び、このポケモンにつける。そして山札を切る。"
 		}
 	}],
 
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			ja: "エレクトロパウ"
+			'ja-jp': "エレクトロパウ"
 		},
 
 		damage: 230,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを、すべてトラッシュする。"
+			'ja-jp': "このポケモンについているエネルギーを、すべてトラッシュする。"
 		}
 	}],
 

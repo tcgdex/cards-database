@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Bibarel",
-		fr: "Castorno",
-		de: "Bidifas"
+		'en-us': "Bibarel",
+		'fr-fr': "Castorno",
+		'de-de': "Bidifas"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bidoof",
-		fr: "Keunotor",
+		'en-us': "Bidoof",
+		'fr-fr': "Keunotor",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rest",
-				fr: "Repos",
-				de: "Ruhe"
+				'en-us': "Rest",
+				'fr-fr': "Repos",
+				'de-de': "Ruhe"
 			},
 			effect: {
-				en: "Remove all Special Conditions and 4 damage counters from Bibarel. Bibarel is now Asleep.",
-				fr: "Retirez à Castorno tous ses États Spéciaux ainsi que 4 marqueurs de dégât. Castorno est maintenant Endormi.",
-				de: "Entferne alle Speziellen Zustände und 4 Schadensmarken von Bidifas. Bidifas schläft jetzt."
+				'en-us': "Remove all Special Conditions and 4 damage counters from Bibarel. Bibarel is now Asleep.",
+				'fr-fr': "Retirez à Castorno tous ses États Spéciaux ainsi que 4 marqueurs de dégât. Castorno est maintenant Endormi.",
+				'de-de': "Entferne alle Speziellen Zustände und 4 Schadensmarken von Bidifas. Bidifas schläft jetzt."
 			},
 
 		},
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				de: "Bodycheck"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'de-de': "Bodycheck"
 			},
 			effect: {
-				en: "Bibarel does 10 damage to itself.",
-				fr: "Castorno s'inflige 10 dégâts.",
-				de: "Bidifas fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Bibarel does 10 damage to itself.",
+				'fr-fr': "Castorno s'inflige 10 dégâts.",
+				'de-de': "Bidifas fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -78,8 +78,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It makes its nest by damming streams with bark and mud. It is known as an industrious worker.",
-		fr: "Il construit des barrages de boue et d'écorce le long des fleuves. C'est un ouvrier de renom."
+		'en-us': "It makes its nest by damming streams with bark and mud. It is known as an industrious worker.",
+		'fr-fr': "Il construit des barrages de boue et d'écorce le long des fleuves. C'est un ouvrier de renom."
 	},
 
 	thirdParty: {

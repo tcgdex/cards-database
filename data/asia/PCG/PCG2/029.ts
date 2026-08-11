@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ペリッパー",
+		'ja-jp': "ペリッパー",
 	},
 
 	rarity: "Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ベイダンス",
+				'ja-jp': "ベイダンス",
 			},
 			effect: {
-				ja: "次のターン中に、現在のアクティブなポケモンのいずれかが防御するポケモンにダメージを与えた場合、攻撃は30件のダメージを与えます（脱力感と抵抗を適用する前に）。",
+				'ja-jp': "次のターン中に、現在のアクティブなポケモンのいずれかが防御するポケモンにダメージを与えた場合、攻撃は30件のダメージを与えます（脱力感と抵抗を適用する前に）。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				ja: "アクアソニック",
+				'ja-jp': "アクアソニック",
 			},
 			effect: {
-				ja: "この攻撃の損傷は、抵抗の影響を受けません。",
+				'ja-jp': "この攻撃の損傷は、抵抗の影響を受けません。",
 			},
 			damage: 50,
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Treecko δ",
-		fr: "Arcko δ",
-		de: "Geckarbor"
+		'en-us': "Treecko δ",
+		'fr-fr': "Arcko δ",
+		'de-de': "Geckarbor"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'face",
-				de: "Pfund"
+				'en-us': "Pound",
+				'fr-fr': "Écras'face",
+				'de-de': "Pfund"
 			},
 
 			damage: 10,
@@ -44,14 +44,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Shining Claws",
-				fr: "Griffes étincelantes",
-				de: "Glänzende Krallen"
+				'en-us': "Shining Claws",
+				'fr-fr': "Griffes étincelantes",
+				'de-de': "Glänzende Krallen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 

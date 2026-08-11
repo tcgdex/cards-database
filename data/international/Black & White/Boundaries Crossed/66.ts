@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Toxicroak",
-		fr: "Coatox",
-		es: "Toxicroak",
-		it: "Toxicroak",
-		pt: "Toxicroak",
-		de: "Toxiquak"
+		'en-us': "Toxicroak",
+		'fr-fr': "Coatox",
+		'es-es': "Toxicroak",
+		'it-it': "Toxicroak",
+		'pt-br': "Toxicroak",
+		'de-de': "Toxiquak"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Croagunk",
-		fr: "Cradopaud",
+		'en-us': "Croagunk",
+		'fr-fr': "Cradopaud",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Revenge",
-				fr: "Vendetta",
+				'en-us': "Revenge",
+				'fr-fr': "Vendetta",
 			},
 			effect: {
-				en: "If any of your Pokémon were Knocked Out by damage from an opponent's attack during his or her last turn, this attack does 70 more damage.",
-				fr: "Si l'un de vos Pokémon a été mis K.O. par les dégâts d'une attaque de votre adversaire pendant son dernier tour, cette attaque inflige 70 dégâts supplémentaires.",
+				'en-us': "If any of your Pokémon were Knocked Out by damage from an opponent's attack during his or her last turn, this attack does 70 more damage.",
+				'fr-fr': "Si l'un de vos Pokémon a été mis K.O. par les dégâts d'une attaque de votre adversaire pendant son dernier tour, cette attaque inflige 70 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Jab",
-				fr: "Direct Toxik",
+				'en-us': "Poison Jab",
+				'fr-fr': "Direct Toxik",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
 			},
 			damage: 60,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The croaking that Toxicroak produces before a battle is for churning the poison it has stored in its poison sac.",
+		'en-us': "The croaking that Toxicroak produces before a battle is for churning the poison it has stored in its poison sac.",
 	},
 
 	thirdParty: {

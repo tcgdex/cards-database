@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Politoed",
-		fr: "Tarpaud",
-		es: "Politoed",
-		it: "Politoed",
-		pt: "Politoed",
-		de: "Quaxo"
+		'en-us': "Politoed",
+		'fr-fr': "Tarpaud",
+		'es-es': "Politoed",
+		'it-it': "Politoed",
+		'pt-br': "Politoed",
+		'de-de': "Quaxo"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Poliwhirl",
-		fr: "Têtarte",
-		es: "Poliwhirl",
-		it: "Poliwhirl",
-		pt: "Poliwhirl",
-		de: "Quaputzi"
+		'en-us': "Poliwhirl",
+		'fr-fr': "Têtarte",
+		'es-es': "Poliwhirl",
+		'it-it': "Poliwhirl",
+		'pt-br': "Poliwhirl",
+		'de-de': "Quaputzi"
 	},
 
 	stage: "Stage2",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "King's Song",
-				fr: "Chant du Roi",
-				es: "Canto Real",
-				it: "Canto Reale",
-				pt: "Canção do Rei",
-				de: "Königliche Klänge"
+				'en-us': "King's Song",
+				'fr-fr': "Chant du Roi",
+				'es-es': "Canto Real",
+				'it-it': "Canto Reale",
+				'pt-br': "Canção do Rei",
+				'de-de': "Königliche Klänge"
 			},
 			effect: {
-				en: "Ignore all Colorless Energy in the attack cost of each of your Poliwag, Poliwhirl, and Poliwrath's attacks.",
-				fr: "Ignorez toutes les Énergies Colorless dans les coûts d'attaque des attaques de vos Ptitard, Têtarte et Tartard.",
-				es: "Ignora todas las Energías Colorless en el coste de los ataques de tus Poliwag, Poliwhirl y Poliwrath.",
-				it: "Ignora tutte le Energie Colorless necessarie per usare gli attacchi dei tuoi Poliwag, Poliwhirl e Poliwrath.",
-				pt: "Ignore toda a Energia Colorless no custo do ataque para cada um dos ataques de seus Poliwag, Poliwhirl e Poliwrath.",
-				de: "Ignoriere alle Colorless-Energien in den Angriffskosten der Attacken deiner Quapsel, Quaputzi und Quappo."
+				'en-us': "Ignore all Colorless Energy in the attack cost of each of your Poliwag, Poliwhirl, and Poliwrath's attacks.",
+				'fr-fr': "Ignorez toutes les Énergies Colorless dans les coûts d'attaque des attaques de vos Ptitard, Têtarte et Tartard.",
+				'es-es': "Ignora todas las Energías Colorless en el coste de los ataques de tus Poliwag, Poliwhirl y Poliwrath.",
+				'it-it': "Ignora tutte le Energie Colorless necessarie per usare gli attacchi dei tuoi Poliwag, Poliwhirl e Poliwrath.",
+				'pt-br': "Ignore toda a Energia Colorless no custo do ataque para cada um dos ataques de seus Poliwag, Poliwhirl e Poliwrath.",
+				'de-de': "Ignoriere alle Colorless-Energien in den Angriffskosten der Attacken deiner Quapsel, Quaputzi und Quappo."
 			},
 		},
 	],
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Voice",
-				fr: "Mégaphone",
-				es: "Vozarrón",
-				it: "Granvoce",
-				pt: "Hipervoz",
-				de: "Schallwelle"
+				'en-us': "Hyper Voice",
+				'fr-fr': "Mégaphone",
+				'es-es': "Vozarrón",
+				'it-it': "Granvoce",
+				'pt-br': "Hipervoz",
+				'de-de': "Schallwelle"
 			},
 
 			damage: 70,
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Whenever three or more of these get together, they sing in a loud voice that sounds like bellowing.",
+		'en-us': "Whenever three or more of these get together, they sing in a loud voice that sounds like bellowing.",
 	},
 
 	thirdParty: {

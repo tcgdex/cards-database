@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Bulbasaur",
+		'en-us': "Bulbasaur",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Leech Seed",
+				'en-us': "Leech Seed",
 			},
 			effect: {
-				en: "Unless all damage from this attack is prevented, you may remove 1 damage counter from Bulbasaur.",
+				'en-us': "Unless all damage from this attack is prevented, you may remove 1 damage counter from Bulbasaur.",
 			},
 			damage: 20,
 
@@ -50,7 +50,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A strange seed was planted on its back at birth. Thus, a plant sprouted and now grows with this Pokémon.",
+		'en-us': "A strange seed was planted on its back at birth. Thus, a plant sprouted and now grows with this Pokémon.",
 	},
 
 

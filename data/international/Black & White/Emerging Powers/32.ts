@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Emolga",
-		fr: "Emolga",
-		es: "Emolga",
-		it: "Emolga",
-		pt: "Emolga",
-		de: "Emolga"
+		'en-us': "Emolga",
+		'fr-fr': "Emolga",
+		'es-es': "Emolga",
+		'it-it': "Emolga",
+		'pt-br': "Emolga",
+		'de-de': "Emolga"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thundershock",
-				fr: "Éclair",
+				'en-us': "Thundershock",
+				'fr-fr': "Éclair",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 10,
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Acrobatics",
-				fr: "Acrobatie",
+				'en-us': "Acrobatics",
+				'fr-fr': "Acrobatie",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				'en-us': "Flip 2 coins. This attack does 20 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
 			},
 			damage: 10,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "The energy made in its cheeks' electric pouches is stored inside its membranes and released while it is gliding.",
+		'en-us': "The energy made in its cheeks' electric pouches is stored inside its membranes and released while it is gliding.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Sceptile",
-		fr: "Jungko",
-		de: "Gewaldro"
+		'en-us': "Sceptile",
+		'fr-fr': "Jungko",
+		'de-de': "Gewaldro"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Grovyle",
-		fr: "Massko"
+		'en-us': "Grovyle",
+		'fr-fr': "Massko"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Green Essence",
-				fr: "Extrait de plante",
-				de: "Green Essence"
+				'en-us': "Green Essence",
+				'fr-fr': "Extrait de plante",
+				'de-de': "Green Essence"
 			},
 			effect: {
-				en: "As long as Sceptile is in play, each of your Active Pokémon that has Grass Energy attached to it can't be affected by any Special Conditions.",
-				fr: "Tant que Jungko est en jeu, vos Pokémon Actifs possédant une Énergie  ne peuvent pas être affectés par un État Spécial.",
-				de: "As long as Sceptile is in play, each of your Pokémon that has a  Energie attached to it can´t be affected by any Special Conditions."
+				'en-us': "As long as Sceptile is in play, each of your Active Pokémon that has Grass Energy attached to it can't be affected by any Special Conditions.",
+				'fr-fr': "Tant que Jungko est en jeu, vos Pokémon Actifs possédant une Énergie  ne peuvent pas être affectés par un État Spécial.",
+				'de-de': "As long as Sceptile is in play, each of your Pokémon that has a  Energie attached to it can´t be affected by any Special Conditions."
 			},
 		},
 	],
@@ -51,15 +51,15 @@ const card: Card = {
 			cost: ["Grass", "Colorless", "Colorless", "Colorless"],
 
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'herbe",
-				de: "Swift"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'herbe",
+				'de-de': "Swift"
 			},
 
 			damage: 60,
 
 			effect: {
-				de: "This attack isn´t affected by Weakness,Resistance,Pokepowers,Pokebodys,or any other effects on the defending Pokémon."
+				'de-de': "This attack isn´t affected by Weakness,Resistance,Pokepowers,Pokebodys,or any other effects on the defending Pokémon."
 			}
 		},
 		{
@@ -70,13 +70,13 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swift",
-				fr: "Météores",
-				de: "Razor Leaf"
+				'en-us': "Swift",
+				'fr-fr': "Météores",
+				'de-de': "Razor Leaf"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur."
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur."
 			},
 			damage: 30,
 

@@ -1,26 +1,26 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリキテル"
+		'ja-jp': "エリキテル"
 	},
 	illustrator: "Akira Komayama",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Lightning"],
 	description: {
-		ja: "太陽発電の仕組みをもつ。発電をじゃまされるとストレスで弱ってしまう。"
+		'ja-jp': "太陽発電の仕組みをもつ。発電をじゃまされるとストレスで弱ってしまう。"
 	},
 	stage: "Basic",
 	attacks: [{
 		name: {
-			ja: "ダブルひっかき"
+			'ja-jp': "ダブルひっかき"
 		},
 		damage: "10×",
 		effect: {
-			ja: "コインを2回投げ、オモテの数×10ダメージ。"
+			'ja-jp': "コインを2回投げ、オモテの数×10ダメージ。"
 		},
 		cost: ["Colorless"]
 	}],

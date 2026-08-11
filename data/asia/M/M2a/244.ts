@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キチキギスex",
+		'ja-jp': "キチキギスex",
 	},
 
 	illustrator: "SIE NANAHARA",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "さかてにとる" },
 			effect: {
-				ja: "前の相手の番に、自分のポケモンがきぜつしていたなら、自分の番に1回使える。自分の山札を3枚引く。この番、すでに別の「さかてにとる」を使っていたなら、この特性は使えない。",
+				'ja-jp': "前の相手の番に、自分のポケモンがきぜつしていたなら、自分の番に1回使える。自分の山札を3枚引く。この番、すでに別の「さかてにとる」を使っていたなら、この特性は使えない。",
 			},
 		},
 	],
@@ -29,7 +29,7 @@ const card: Card = {
 			name: { ja: "クルーエルアロー" },
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のポケモン1匹に、100ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、100ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HS trainer Kit (Gyarados)'
 
 const card: Card = {
 	name: {
-		en: "Magikarp",
+		'en-us': "Magikarp",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,7 +22,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Splash",
+				'en-us': "Splash",
 			},
 			damage: 10,
 		},

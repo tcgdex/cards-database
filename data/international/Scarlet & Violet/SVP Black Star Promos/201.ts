@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zebstrika",
-		fr: "Zéblitz",
-		de: "Zebritz",
-		it: "Zebstrika",
-		es: "Zebstrika",
-		pt: "Zebstrika"
+		'en-us': "Zebstrika",
+		'fr-fr': "Zéblitz",
+		'de-de': "Zebritz",
+		'it-it': "Zebstrika",
+		'es-es': "Zebstrika",
+		'pt-br': "Zebstrika"
 	},
 
 	illustrator: "Krgc",
@@ -22,45 +22,45 @@ const card: Card = {
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Blitzle",
-		fr: "Zébibron",
-		de: "Elezeba",
-		it: "Blitzle",
-		es: "Blitzle",
+		'en-us': "Blitzle",
+		'fr-fr': "Zébibron",
+		'de-de': "Elezeba",
+		'it-it': "Blitzle",
+		'es-es': "Blitzle",
 		'es-mx': "Blitzle",
-		pt: "Blitzle"
+		'pt-br': "Blitzle"
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Full Speed",
-			fr: "Pleine Vitesse",
-			de: "Full Speed",
-			it: "Piena Velocità",
-			es: "A Toda Velocidad",
-			pt: "Velocidade Máxima"
+			'en-us': "Full Speed",
+			'fr-fr': "Pleine Vitesse",
+			'de-de': "Full Speed",
+			'it-it': "Piena Velocità",
+			'es-es': "A Toda Velocidad",
+			'pt-br': "Velocidade Máxima"
 	},
 
 		effect: {
-			en: "Discard your hand and draw 6 cards.",
-			fr: "Défaussez votre main, puis piochez 6 cartes.",
-			de: "Lege deine Handkarten auf deinen Ablagestapel und ziehe 6 Karten.",
-			it: "Scarta le carte che hai in mano e pesca sei carte.",
-			es: "Descarta las cartas de tu mano y roba 6 cartas.",
-			pt: "Descarte a sua mão e compre 6 cartas."
+			'en-us': "Discard your hand and draw 6 cards.",
+			'fr-fr': "Défaussez votre main, puis piochez 6 cartes.",
+			'de-de': "Lege deine Handkarten auf deinen Ablagestapel und ziehe 6 Karten.",
+			'it-it': "Scarta le carte che hai in mano e pesca sei carte.",
+			'es-es': "Descarta las cartas de tu mano y roba 6 cartas.",
+			'pt-br': "Descarte a sua mão e compre 6 cartas."
 	}
 	}, {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Head Bolt",
-			fr: "Éclair Frontal",
-			de: "Kopf-Blitz",
-			it: "Zuccalampo",
-			es: "Rayo de Cabeza",
-			pt: "Raio de Cabeça"
+			'en-us': "Head Bolt",
+			'fr-fr': "Éclair Frontal",
+			'de-de': "Kopf-Blitz",
+			'it-it': "Zuccalampo",
+			'es-es': "Rayo de Cabeza",
+			'pt-br': "Raio de Cabeça"
 	},
 
 		damage: 70

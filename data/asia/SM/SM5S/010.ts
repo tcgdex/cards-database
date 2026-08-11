@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チェリム",
+		'ja-jp': "チェリム",
 	},
 
 	illustrator: "MAHOU",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "強い 日差しを 感じとると 閉ざしていた 花びらを 広げ 全身で 日光を 浴びる。",
+		'ja-jp': "強い 日差しを 感じとると 閉ざしていた 花びらを 広げ 全身で 日光を 浴びる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "おてんきガード" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分の[草]ポケモン全員の弱点は、すべてなくなる。",
+				'ja-jp': "このポケモンがいるかぎり、自分の[草]ポケモン全員の弱点は、すべてなくなる。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チェリンボ",
+		'ja-jp': "チェリンボ",
 	},
 
 	retreat: 1,

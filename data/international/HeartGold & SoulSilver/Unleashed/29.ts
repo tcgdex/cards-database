@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Dunsparce",
-		fr: "Insolourdo",
-		de: "Dummisel"
+		'en-us': "Dunsparce",
+		'fr-fr': "Insolourdo",
+		'de-de': "Dummisel"
 	},
 
 	illustrator: "Takashi Yamaguchi",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Return",
-				fr: "Retour",
-				de: "Rückkehr"
+				'en-us': "Return",
+				'fr-fr': "Retour",
+				'de-de': "Rückkehr"
 			},
 			effect: {
-				en: "Draw cards until you have 6 cards in your hand.",
-				fr: "Piochez jusqu’à ce que vous ayez 6 cartes en main.",
-				de: "Ziehe so viele Karten, bis du 6 Karten auf der Hand hast."
+				'en-us': "Draw cards until you have 6 cards in your hand.",
+				'fr-fr': "Piochez jusqu’à ce que vous ayez 6 cartes en main.",
+				'de-de': "Ziehe so viele Karten, bis du 6 Karten auf der Hand hast."
 			},
 			damage: 10,
 
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When spotted, this Pokémon escapes backward by furiously boring into the ground with its tail."
+		'en-us': "When spotted, this Pokémon escapes backward by furiously boring into the ground with its tail."
 	},
 
 	variants: [

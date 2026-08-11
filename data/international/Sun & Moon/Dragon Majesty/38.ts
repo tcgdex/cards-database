@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Majesty'
 
 const card: Card = {
 	name: {
-		en: "Vibrava",
-		fr: "Vibrava",
-		es: "Vibrava",
-		it: "Vibrava",
-		pt: "Vibrava",
-		de: "Vibrava"
+		'en-us': "Vibrava",
+		'fr-fr': "Vibrava",
+		'es-es': "Vibrava",
+		'it-it': "Vibrava",
+		'pt-br': "Vibrava",
+		'de-de': "Vibrava"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Trapinch",
-		fr: "Kraknoix",
+		'en-us': "Trapinch",
+		'fr-fr': "Kraknoix",
 	},
 
 	stage: "Stage1",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sonic Edge",
-				fr: "Tranchant Sonique",
-				es: "Tajo Sónico",
-				it: "Muro del Suono",
-				pt: "Gume Sônico",
-				de: "Schallkante"
+				'en-us': "Sonic Edge",
+				'fr-fr': "Tranchant Sonique",
+				'es-es': "Tajo Sónico",
+				'it-it': "Muro del Suono",
+				'pt-br': "Gume Sônico",
+				'de-de': "Schallkante"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
-				es: "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
-				it: "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
-				pt: "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente.",
-				de: "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
+				'en-us': "This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
+				'es-es': "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
+				'it-it': "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
+				'pt-br': "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente.",
+				'de-de': "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
 			},
 			damage: 50,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "To help make its wings grow, it dissolves quantities of prey in its digestive juices and guzzles them down every day.",
+		'en-us': "To help make its wings grow, it dissolves quantities of prey in its digestive juices and guzzles them down every day.",
 	},
 
 	thirdParty: {

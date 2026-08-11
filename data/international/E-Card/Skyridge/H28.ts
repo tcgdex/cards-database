@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Starmie",
-		de: "Starmie"
+		'en-us': "Starmie",
+		'de-de': "Starmie"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Staryu",
+		'en-us': "Staryu",
 	},
 
 	stage: "Stage1",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Energy Burst",
-				de: "Energieausbruch"
+				'en-us': "Energy Burst",
+				'de-de': "Energieausbruch"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage times the number of Energy attached to Starmie and the Defending Pokémon.",
-				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 10 Schadenspunkte mal der Anzahl an Energiekarten, die an Starmie und das Verteidigende Pokémon angelegt sind, zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage times the number of Energy attached to Starmie and the Defending Pokémon.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 10 Schadenspunkte mal der Anzahl an Energiekarten, die an Starmie und das Verteidigende Pokémon angelegt sind, zu."
 			},
 			damage: "10×",
 
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Star Back",
-				de: "Sternrückgewinnung"
+				'en-us': "Star Back",
+				'de-de': "Sternrückgewinnung"
 			},
 			effect: {
-				en: "Attach a basic Energy card from your discard pile to 1 of your Pokémon.",
-				de: "Lege eine Basis-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon an."
+				'en-us': "Attach a basic Energy card from your discard pile to 1 of your Pokémon.",
+				'de-de': "Lege eine Basis-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon an."
 			},
 			damage: 40,
 

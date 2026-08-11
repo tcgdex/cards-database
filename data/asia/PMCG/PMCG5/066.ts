@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリカのハクリュー",
+		'ja-jp': "エリカのハクリュー",
 	},
 	illustrator: "Atsuko Nishida",
 
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "ブリザード",
+				'ja-jp': "ブリザード",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は相手のベンチポケモンのそれぞれに10ダメージを与えます。尾の場合、この攻撃はあなた自身のベンチポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は相手のベンチポケモンのそれぞれに10ダメージを与えます。尾の場合、この攻撃はあなた自身のベンチポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "取り除く",
+				'ja-jp': "取り除く",
 			},
 			effect: {
-				ja: "Shuffle ErikaのDragonairとすべてのカードがデッキに取り付けられています。次に、相手はアクティブなポケモンとそれに取り付けられたすべてのカードを彼または彼女のデッキにシャッフルします。",
+				'ja-jp': "Shuffle ErikaのDragonairとすべてのカードがデッキに取り付けられています。次に、相手はアクティブなポケモンとそれに取り付けられたすべてのカードを彼または彼女のデッキにシャッフルします。",
 			},
 		},
 	],

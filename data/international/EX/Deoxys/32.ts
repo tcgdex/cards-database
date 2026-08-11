@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Grumpig",
-		fr: "Groret",
-		de: "Groink"
+		'en-us': "Grumpig",
+		'fr-fr': "Groret",
+		'de-de': "Groink"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spoink",
-		fr: "Spoink"
+		'en-us': "Spoink",
+		'fr-fr': "Spoink"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Carefree",
-				fr: "Insouciance",
-				de: "Carefree"
+				'en-us': "Carefree",
+				'fr-fr': "Insouciance",
+				'de-de': "Carefree"
 			},
 			effect: {
-				en: "Grumpig can't be Confused.",
-				fr: "Groret ne peut pas être Confus.",
-				de: "Grumpig can´t be Confused."
+				'en-us': "Grumpig can't be Confused.",
+				'fr-fr': "Groret ne peut pas être Confus.",
+				'de-de': "Grumpig can´t be Confused."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnoblast",
-				fr: "Hypnoblast",
-				de: "Hypnoblast"
+				'en-us': "Hypnoblast",
+				'fr-fr': "Hypnoblast",
+				'de-de': "Hypnoblast"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 			damage: 20,
 
@@ -72,14 +72,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Extra Ball",
-				fr: "Boule supplémentaire",
-				de: "Extra Ball"
+				'en-us': "Extra Ball",
+				'fr-fr': "Boule supplémentaire",
+				'de-de': "Extra Ball"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Pokémon-ex, this attack does 50 damage plus 30 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
-				de: "If the Defending Pokémon is Pokémon-ex, this attack does 50 damage plus 30 more damage."
+				'en-us': "If the Defending Pokémon is Pokémon-ex, this attack does 50 damage plus 30 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon is Pokémon-ex, this attack does 50 damage plus 30 more damage."
 			},
 			damage: "50+",
 

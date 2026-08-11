@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Meditite",
-		fr: "Meditikka",
-		de: "Meditie"
+		'en-us': "Meditite",
+		'fr-fr': "Meditikka",
+		'de-de': "Meditie"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psyshot",
-				fr: "Piqûre psy",
-				de: "Psychoschuss"
+				'en-us': "Psyshot",
+				'fr-fr': "Piqûre psy",
+				'de-de': "Psychoschuss"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Karate Chop",
-				fr: "Poing-Karaté",
-				de: "Karateschlag"
+				'en-us': "Karate Chop",
+				'fr-fr': "Poing-Karaté",
+				'de-de': "Karateschlag"
 			},
 			effect: {
-				en: "Does 30 damage minus 10 damage for each damage counter on Meditite.",
-				fr: "Inflige 30 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Meditikka.",
-				de: "Dieser Angriff fügt 30 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke auf Meditie zu."
+				'en-us': "Does 30 damage minus 10 damage for each damage counter on Meditite.",
+				'fr-fr': "Inflige 30 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Meditikka.",
+				'de-de': "Dieser Angriff fügt 30 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke auf Meditie zu."
 			},
 			damage: "30-",
 
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It always trains deep in mountains. It levitates when it heightens its spiritual power through meditation."
+		'en-us': "It always trains deep in mountains. It levitates when it heightens its spiritual power through meditation."
 	},
 
 	variants: [

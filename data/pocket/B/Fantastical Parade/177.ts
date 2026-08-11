@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [863],
 
 	name: {
-		en: "Galarian Perrserker"
+		'en-us': "Galarian Perrserker"
 	},
 
 	illustrator: "MINAMINAMI Take",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Galarian Meowth"
+		'en-us': "Galarian Meowth"
 	},
 
 	description: {
-		en: "After many battles, it evolved dangerous\nclaws that come together to form daggers\nwhen extended."
+		'en-us': "After many battles, it evolved dangerous\nclaws that come together to form daggers\nwhen extended."
 	},
 
 	stage: "Stage1",
@@ -30,17 +30,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Dig Up"
+			'en-us': "Dig Up"
 		},
 
 		effect: {
-			en: "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may put 2 random Pokémon Tool cards from your discard pile into your hand."
+			'en-us': "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may put 2 random Pokémon Tool cards from your discard pile into your hand."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Metal Claw"
+			'en-us': "Metal Claw"
 		},
 
 		damage: 70,

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "バンギラス"
+		'ja-jp': "バンギラス"
 	},
 
 	illustrator: "Nurikabe",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "あたりの 地形を 変えるぐらい 朝飯前の 力持ち。 まわりを 気にしない ふてぶてしさ。"
+		'ja-jp': "あたりの 地形を 変えるぐらい 朝飯前の 力持ち。 まわりを 気にしない ふてぶてしさ。"
 	},
 
 	stage: "Stage2",
@@ -24,25 +24,25 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			ja: "けちらす"
+			'ja-jp': "けちらす"
 		},
 
 		damage: "30＋",
 
 		effect: {
-			ja: "相手のベンチポケモンの数×30ダメージ追加。"
+			'ja-jp': "相手のベンチポケモンの数×30ダメージ追加。"
 		}
 	}, {
 		cost: ["Darkness", "Darkness"],
 
 		name: {
-			ja: "ドレッドマウンテン"
+			'ja-jp': "ドレッドマウンテン"
 		},
 
 		damage: 230,
 
 		effect: {
-			ja: "自分の山札を上から4枚トラッシュする。"
+			'ja-jp': "自分の山札を上から4枚トラッシュする。"
 		}
 	}],
 

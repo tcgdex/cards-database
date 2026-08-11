@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "คอยล์",
-		id: "Magnemite"
+		'th-th': "คอยล์",
+		'id-id': "Magnemite"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -15,24 +15,24 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		th: "ลอยบนท้องฟ้าโดยไม่สนใจแรงโน้มถ่วงได้ด้วยคลื่นแม่เหล็กไฟฟ้าที่ปล่อยออกมาจากชิ้นส่วนซ้ายขวาของตน",
-		id: "Dengan gelombang elektromagnetik yang dikeluarkan dari unit yang ada di sisi kiri dan kanannya, Magnemite melawan arus gravitasi dan melayang di udara."
+		'th-th': "ลอยบนท้องฟ้าโดยไม่สนใจแรงโน้มถ่วงได้ด้วยคลื่นแม่เหล็กไฟฟ้าที่ปล่อยออกมาจากชิ้นส่วนซ้ายขวาของตน",
+		'id-id': "Dengan gelombang elektromagnetik yang dikeluarkan dari unit yang ada di sisi kiri dan kanannya, Magnemite melawan arus gravitasi dan melayang di udara."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "กระแทก",
-			id: "Menyeruduk"
+			'th-th': "กระแทก",
+			'id-id': "Menyeruduk"
 		},
 
 		damage: 10,
 		cost: ["Lightning"]
 	}, {
 		name: {
-			th: "สปีดบอล",
-			id: "Speed Ball"
+			'th-th': "สปีดบอล",
+			'id-id': "Speed Ball"
 		},
 
 		damage: 20,

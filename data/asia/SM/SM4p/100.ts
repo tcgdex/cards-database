@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "古代のクリスタル",
+		'ja-jp': "古代のクリスタル",
 	},
 
 	illustrator: "Toyste Beach",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけている「レジロック」「レジアイス」「レジスチル」「レジギガス」が、相手のポケモンから受けるワザのダメージは「-30」される。",
+		'ja-jp': "このカードをつけている「レジロック」「レジアイス」「レジスチル」「レジギガス」が、相手のポケモンから受けるワザのダメージは「-30」される。",
 	},
 
 	variants: [

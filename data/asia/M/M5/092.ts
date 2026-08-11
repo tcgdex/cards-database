@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドデカバシ",
+		'ja-jp': "ドデカバシ",
 	},
 
 	illustrator: "miki kudo",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "スカイドロー" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札を1枚引く。",
+				'ja-jp': "自分の番に1回使える。自分の山札を1枚引く。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "おたがいのベンチポケモンの数×20ダメージ追加。",
+				'ja-jp': "おたがいのベンチポケモンの数×20ダメージ追加。",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ケララッパ",
+		'ja-jp': "ケララッパ",
 	},
 
 	retreat: 2,

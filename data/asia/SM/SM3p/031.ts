@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビリリダマ",
+		'ja-jp': "ビリリダマ",
 	},
 
 	illustrator: "match",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "モンスターボールが 売り出されたのと 同じ 時期に 発見された。 なにか 関係があると いわれる。",
+		'ja-jp': "モンスターボールが 売り出されたのと 同じ 時期に 発見された。 なにか 関係があると いわれる。",
 	},
 
 	stage: "Basic",

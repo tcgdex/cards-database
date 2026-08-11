@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Roggenrola",
-		fr: "Nodulithe",
-		es: "Roggenrola",
-		it: "Roggenrola",
-		pt: "Roggenrola",
-		de: "Kiesling"
+		'en-us': "Roggenrola",
+		'fr-fr': "Nodulithe",
+		'es-es': "Roggenrola",
+		'it-it': "Roggenrola",
+		'pt-br': "Roggenrola",
+		'de-de': "Kiesling"
 	},
 
 	illustrator: "5ban Graphics",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 30,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its ear is hexagonal in shape. Compressed underground, its body is as hard as steel.",
+		'en-us': "Its ear is hexagonal in shape. Compressed underground, its body is as hard as steel.",
 	},
 
 	thirdParty: {

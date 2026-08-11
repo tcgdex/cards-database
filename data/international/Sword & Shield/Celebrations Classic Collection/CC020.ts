@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celebrations Classic Collection'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Reshiram",
-		fr: "Reshiram"
+		'en-us': "Reshiram",
+		'fr-fr': "Reshiram"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,26 +19,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Outrage",
-			fr: "Vent Brûlant"
+			'en-us': "Outrage",
+			'fr-fr': "Vent Brûlant"
 		},
 
 		effect: {
-			en: "Does 10 more damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			'en-us': "Does 10 more damage for each damage counter on this Pokémon.",
+			'fr-fr': "Cette attaque inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 		},
 
 		damage: "20+",
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Blue Flare",
-			fr: "Flamme Noire"
+			'en-us': "Blue Flare",
+			'fr-fr': "Flamme Noire"
 		},
 
 		effect: {
-			en: "Discard 2 Fire Energy attached to this Pokémon.",
-			fr: "Si Zekrom est sur votre Banc, cette attaque inflige 80 dégâts supplémentaires."
+			'en-us': "Discard 2 Fire Energy attached to this Pokémon.",
+			'fr-fr': "Si Zekrom est sur votre Banc, cette attaque inflige 80 dégâts supplémentaires."
 		},
 
 		damage: 120,
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it."
+		'en-us': "This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it."
 	},
 
 

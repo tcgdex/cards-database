@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Bellossom",
-		fr: "Joliflor",
-		es: "Bellossom",
-		it: "Bellossom",
-		pt: "Bellossom",
-		de: "Blubella"
+		'en-us': "Bellossom",
+		'fr-fr': "Joliflor",
+		'es-es': "Bellossom",
+		'it-it': "Bellossom",
+		'pt-br': "Bellossom",
+		'de-de': "Blubella"
 	},
 
 	illustrator: "Mizue",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gloom",
-		fr: "Ortide",
+		'en-us': "Gloom",
+		'fr-fr': "Ortide",
 	},
 
 	stage: "Stage2",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Grass Knot",
-				fr: "Nœud Herbe",
+				'en-us': "Grass Knot",
+				'fr-fr': "Nœud Herbe",
 			},
 			effect: {
-				en: "Does 20 more damage for each Colorless in the Defending Pokémon's Retreat Cost.",
-				fr: "Inflige 20 dégâts supplémentaires pour chaque Colorless dans le coût de Retraite du Pokémon Défenseur.",
+				'en-us': "Does 20 more damage for each Colorless in the Defending Pokémon's Retreat Cost.",
+				'fr-fr': "Inflige 20 dégâts supplémentaires pour chaque Colorless dans le coût de Retraite du Pokémon Défenseur.",
 			},
 			damage: 10,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Petal Dance",
-				fr: "Danse-Fleur",
+				'en-us': "Petal Dance",
+				'fr-fr': "Danse-Fleur",
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 50 damage times the number of heads. This Pokémon is now Confused.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face. Ce Pokémon est maintenant Confus.",
+				'en-us': "Flip 3 coins. This attack does 50 damage times the number of heads. This Pokémon is now Confused.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face. Ce Pokémon est maintenant Confus.",
 			},
 			damage: 50,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open.",
+		'en-us': "When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open.",
 	},
 
 	thirdParty: {

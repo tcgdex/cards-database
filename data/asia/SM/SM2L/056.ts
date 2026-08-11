@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨワシGX",
+		'ja-jp': "ヨワシGX",
 	},
 
 	illustrator: "",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Water", "Water", "Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについている特殊エネルギーを、1個トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについている特殊エネルギーを、1個トラッシュする。",
 			},
 		},
 		{
@@ -33,7 +33,7 @@ const card: Card = {
 			damage: 220,
 			cost: ["Water", "Water", "Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーをすべて、ベンチポケモンに好きなようにつけ替える。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "このポケモンについているエネルギーをすべて、ベンチポケモンに好きなようにつけ替える。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

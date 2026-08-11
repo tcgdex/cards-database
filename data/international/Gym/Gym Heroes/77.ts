@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Exeggcute"
+		'en-us': "Erika's Exeggcute"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Eggsplosion"
+				'en-us': "Eggsplosion"
 			},
 			effect: {
-				en: "Flip a number of coins equal to the number of Energy attached to Erika's Exeggcute. This attack does 10 damage times the number of heads."
+				'en-us': "Flip a number of coins equal to the number of Energy attached to Erika's Exeggcute. This attack does 10 damage times the number of heads."
 			},
 			damage: "10x",
 
@@ -41,10 +41,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic"
+				'en-us': "Psychic"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
+				'en-us': "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
 			},
 			damage: "10+",
 

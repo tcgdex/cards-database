@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フクスロー",
+		'ja-jp': "フクスロー",
 	},
 
 	illustrator: "aspara",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "刃羽根と 呼ばれる 鋭い 羽根を 敵や 獲物に 投げつける。 ほぼ 百発百中 だ。",
+		'ja-jp': "刃羽根と 呼ばれる 鋭い 羽根を 敵や 獲物に 投げつける。 ほぼ 百発百中 だ。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "モクロー",
+		'ja-jp': "モクロー",
 	},
 
 	retreat: 2,

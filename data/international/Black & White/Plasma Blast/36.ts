@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Uxie",
-		fr: "Créhelf",
-		es: "Uxie",
-		it: "Uxie",
-		pt: "Uxie",
-		de: "Selfe"
+		'en-us': "Uxie",
+		'fr-fr': "Créhelf",
+		'es-es': "Uxie",
+		'it-it': "Uxie",
+		'pt-br': "Uxie",
+		'de-de': "Selfe"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psypower",
-				fr: "Puissance Psy",
+				'en-us': "Psypower",
+				'fr-fr': "Puissance Psy",
 			},
 			effect: {
-				en: "Put 3 damage counters on your opponent's Pokémon in any way you like.",
-				fr: "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire, de la manière que vous voulez.",
+				'en-us': "Put 3 damage counters on your opponent's Pokémon in any way you like.",
+				'fr-fr': "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire, de la manière que vous voulez.",
 			},
 
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When Uxie flew, people gained the ability to solve problems. It was the birth of knowledge.",
+		'en-us': "When Uxie flew, people gained the ability to solve problems. It was the birth of knowledge.",
 	},
 
 	thirdParty: {

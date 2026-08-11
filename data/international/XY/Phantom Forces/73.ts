@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Zweilous",
-		fr: "Diamat",
-		es: "Zweilous",
-		it: "Zweilous",
-		pt: "Zweilous",
-		de: "Duodino"
+		'en-us': "Zweilous",
+		'fr-fr': "Diamat",
+		'es-es': "Zweilous",
+		'it-it': "Zweilous",
+		'pt-br': "Zweilous",
+		'de-de': "Duodino"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Deino",
-		fr: "Solochi",
-		es: "Deino",
-		it: "Deino",
-		pt: "Deino",
-		de: "Kapuno"
+		'en-us': "Deino",
+		'fr-fr': "Solochi",
+		'es-es': "Deino",
+		'it-it': "Deino",
+		'pt-br': "Deino",
+		'de-de': "Kapuno"
 	},
 
 	stage: "Stage1",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Slam",
-				fr: "Souplesse",
-				es: "Atizar",
-				it: "Schianto",
-				pt: "Pancada Brusca",
-				de: "Slam"
+				'en-us': "Slam",
+				'fr-fr': "Souplesse",
+				'es-es': "Atizar",
+				'it-it': "Schianto",
+				'pt-br': "Pancada Brusca",
+				'de-de': "Slam"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
-				es: "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
-				it: "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
-				pt: "Jogue 2 moedas. Esse ataque causa 30 de danos vezes o número de caras.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
+				'it-it': "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 2 moedas. Esse ataque causa 30 de danos vezes o número de caras.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "30×",
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The two heads do not get along. Whichever head eats more than the other gets to be the leader.",
+		'en-us': "The two heads do not get along. Whichever head eats more than the other gets to be the leader.",
 	},
 
 	thirdParty: {

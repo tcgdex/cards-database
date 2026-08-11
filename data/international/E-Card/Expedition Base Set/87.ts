@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Metapod",
-		fr: "Chrysacier",
-		de: "Safcon"
+		'en-us': "Metapod",
+		'fr-fr': "Chrysacier",
+		'de-de': "Safcon"
 	},
 
 	illustrator: "Yuichi Sawayama",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Caterpie",
-		fr: "Chenipan"
+		'en-us': "Caterpie",
+		'fr-fr': "Chenipan"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Exoskeleton",
-				fr: "Exosquelette",
-				de: "Exoskelett"
+				'en-us': "Exoskeleton",
+				'fr-fr': "Exosquelette",
+				'de-de': "Exoskelett"
 			},
 			effect: {
-				en: "All damage done by attacks to Metapod is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Tous les dégâts infligés par des attaques sur Chrysacier sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
-				de: "Aller Schaden, der Safcon von Angriffen zugefügt wird, wird um 20 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "All damage done by attacks to Metapod is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Tous les dégâts infligés par des attaques sur Chrysacier sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Aller Schaden, der Safcon von Angriffen zugefügt wird, wird um 20 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -50,9 +50,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'de-de': "Walzer"
 			},
 
 			damage: 10,

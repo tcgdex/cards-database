@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フライゴン",
+		'ja-jp': "フライゴン",
 	},
 
 	illustrator: "Jerky",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "砂漠の精霊 と 呼ばれる。 はばたくことで 巻き起こした 砂嵐の 中に 隠れている。",
+		'ja-jp': "砂漠の精霊 と 呼ばれる。 はばたくことで 巻き起こした 砂嵐の 中に 隠れている。",
 	},
 
 	stage: "Stage2",
@@ -28,7 +28,7 @@ const card: Card = {
 	variants: [{"type": "holo"}],
 
 	evolveFrom: {
-		ja: "ビブラーバ",
+		'ja-jp': "ビブラーバ",
 	},
 
 	retreat: 1,

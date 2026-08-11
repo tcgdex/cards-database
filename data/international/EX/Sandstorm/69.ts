@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Natu",
-		fr: "Natu",
-		de: "Natu"
+		'en-us': "Natu",
+		'fr-fr': "Natu",
+		'de-de': "Natu"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				de: "Peck"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'de-de': "Peck"
 			},
 
 			damage: 10,
@@ -42,14 +42,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Soothing Wave",
-				fr: "Vague relaxante",
-				de: "Soothing Wave"
+				'en-us': "Soothing Wave",
+				'fr-fr': "Vague relaxante",
+				'de-de': "Soothing Wave"
 			},
 			effect: {
-				en: "Each Defending Pokémon is now Asleep.",
-				fr: "Chaque Pokémon Défenseur est maintenant Endormi.",
-				de: "Each Defending Pokémon is now Asleep."
+				'en-us': "Each Defending Pokémon is now Asleep.",
+				'fr-fr': "Chaque Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Each Defending Pokémon is now Asleep."
 			},
 
 		},

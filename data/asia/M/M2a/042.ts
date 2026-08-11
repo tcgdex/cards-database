@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブリザポス",
+		'ja-jp': "ブリザポス",
 	},
 
 	illustrator: "mashu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "蹄から 強力な 冷気を 放つ。 欲しいものは なんでも 力尽くで 奪う 暴れん坊。",
+		'ja-jp': "蹄から 強力な 冷気を 放つ。 欲しいものは なんでも 力尽くで 奪う 暴れん坊。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Water"],
 			effect: {
-				ja: "相手のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Water", "Water", "Water"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「フロストタイフーン」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「フロストタイフーン」が使えない。",
 			},
 		},
 	],

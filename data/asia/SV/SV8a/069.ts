@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ニンフィアex",
-		id: "Sylveon ex",
-		th: "นิมเฟียex",
+		'ja-jp': "ニンフィアex",
+		'id-id': "Sylveon ex",
+		'th-th': "นิมเฟียex",
 		'zh-tw': "仙子伊布ex",
 		'zh-cn': "仙子伊布ex"
 	},
@@ -24,9 +24,9 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			ja: "マジカルチャーム",
-			id: "Magical Charm",
-			th: "เสน่ห์แห่งเวทมนตร์",
+			'ja-jp': "マジカルチャーム",
+			'id-id': "Magical Charm",
+			'th-th': "เสน่ห์แห่งเวทมนตร์",
 			'zh-tw': "魔法魅惑",
 			'zh-cn': "魔法魅惑"
 		},
@@ -34,9 +34,9 @@ const card: Card = {
 		damage: 160,
 
 		effect: {
-			ja: "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-100」される。",
-			id: "Pada giliran lawan berikutnya, kerusakan akibat serangan yang digunakan oleh Pokémon yang menerima serangan ini berkurang sejumlah 100.",
-			th: "เทิร์นถัดไปของฝ่ายตรงข้าม แดเมจของท่าต่อสู้ที่โปเกมอนที่ได้รับท่าต่อสู้ นี้ใช้จะถูก [-100]",
+			'ja-jp': "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-100」される。",
+			'id-id': "Pada giliran lawan berikutnya, kerusakan akibat serangan yang digunakan oleh Pokémon yang menerima serangan ini berkurang sejumlah 100.",
+			'th-th': "เทิร์นถัดไปของฝ่ายตรงข้าม แดเมจของท่าต่อสู้ที่โปเกมอนที่ได้รับท่าต่อสู้ นี้ใช้จะถูก [-100]",
 			'zh-tw': "在下個對手的回合，受到這個招式的寶可夢使用招式的傷害「-100」點。",
 			'zh-cn': "在下個對手的回合，受到這個招式的寶可夢使用招式的傷害「-100」點。"
 		}
@@ -44,17 +44,17 @@ const card: Card = {
 		cost: ["Water", "Lightning", "Psychic"],
 
 		name: {
-			ja: "エンジェライト",
-			id: "Angelite",
-			th: "แองเจิลไลท์",
+			'ja-jp': "エンジェライト",
+			'id-id': "Angelite",
+			'th-th': "แองเจิลไลท์",
 			'zh-tw': "天仙石",
 			'zh-cn': "天仙石"
 		},
 
 		effect: {
-			ja: "相手のベンチポケモンを2匹選び、そのポケモンと、ついているすべてのカードを、山札にもどして切る。前の自分の番に、自分のポケモンが「エンジェライト」を使っていたなら、このワザは使えない。",
-			id: "Pilih 2 Pokémon Cadangan lawan, lalu kocok kembali Pokémon tersebut dan semua kartu yang dikenakannya ke Deck. Serangan ini tidak dapat digunakan jika pada giliran sendiri sebelumnya, Pokémon sendiri telah menggunakan Angelite.",
-			th: "เลือกโปเกมอนบนเบนช์ฝ่ายตรงข้าม 2 ตัว นำโปเกมอนนั้น และการ์ดทั้งหมดที่ ติดอยู่ ใส่กลับไปในสำรับการ์ดแล้วสับ ในเทิร์นก่อนของฝ่ายเรา ถ้าโปเกมอน ฝ่ายเราใช้ [แองเจิลไลท์] ไปแล้ว ท่าต่อสู้นี้จะใช้ไม่ได้",
+			'ja-jp': "相手のベンチポケモンを2匹選び、そのポケモンと、ついているすべてのカードを、山札にもどして切る。前の自分の番に、自分のポケモンが「エンジェライト」を使っていたなら、このワザは使えない。",
+			'id-id': "Pilih 2 Pokémon Cadangan lawan, lalu kocok kembali Pokémon tersebut dan semua kartu yang dikenakannya ke Deck. Serangan ini tidak dapat digunakan jika pada giliran sendiri sebelumnya, Pokémon sendiri telah menggunakan Angelite.",
+			'th-th': "เลือกโปเกมอนบนเบนช์ฝ่ายตรงข้าม 2 ตัว นำโปเกมอนนั้น และการ์ดทั้งหมดที่ ติดอยู่ ใส่กลับไปในสำรับการ์ดแล้วสับ ในเทิร์นก่อนของฝ่ายเรา ถ้าโปเกมอน ฝ่ายเราใช้ [แองเจิลไลท์] ไปแล้ว ท่าต่อสู้นี้จะใช้ไม่ได้",
 			'zh-tw': "選擇2隻對手的備戰寶可夢，將那些寶可夢與附加的卡全部放回牌庫並重洗。在上個自己的回合，若自己的寶可夢使出了「天仙石」，則無法使用這個招式。",
 			'zh-cn': "選擇2隻對手的備戰寶可夢，將那些寶可夢與附加的卡全部放回牌庫並重洗。在上個自己的回合，若自己的寶可夢使出了「天仙石」，則無法使用這個招式。"
 		}

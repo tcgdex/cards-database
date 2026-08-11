@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Meowth",
-		fr: "Miaouss",
-		de: "Mauzi"
+		'en-us': "Meowth",
+		'fr-fr': "Miaouss",
+		'de-de': "Mauzi"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Coin Hurl",
-				fr: "Lancé de monnaie",
-				de: "Coin Hurl"
+				'en-us': "Coin Hurl",
+				'fr-fr': "Lancé de monnaie",
+				'de-de': "Coin Hurl"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon and flip a coin. If heads, this attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
-				fr: "Choisissez 1 des Pokémon de votre adversaire et lancez une pièce. Si c'est face, cette attaque inflige 20 à ce Pokémon. N'appliquez pas la Faiblesse et la Résistance pour cette attaque. (Tous les autres effets ayant lieu après application de la Faiblesse et de la Résistance subsistent.)",
-				de: "Choose 1 of your opponent's Pokémon and flip a coin. If heads, this attack does 20 damage to that Pokémon. Don't apply Weakness and resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
+				'en-us': "Choose 1 of your opponent's Pokémon and flip a coin. If heads, this attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire et lancez une pièce. Si c'est face, cette attaque inflige 20 à ce Pokémon. N'appliquez pas la Faiblesse et la Résistance pour cette attaque. (Tous les autres effets ayant lieu après application de la Faiblesse et de la Résistance subsistent.)",
+				'de-de': "Choose 1 of your opponent's Pokémon and flip a coin. If heads, this attack does 20 damage to that Pokémon. Don't apply Weakness and resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
 			},
 
 		},
@@ -62,8 +62,8 @@ const card: Card = {
 
 
 	description: {
-		en: "A popular Pokémon that earns money for its owner with its \"Pay Day\" ability.",
-		fr: "Ce Pokémon très apprécié gagne ses gages de son propriétaire grâce à sa faculté \"Jour de paye\"."
+		'en-us': "A popular Pokémon that earns money for its owner with its \"Pay Day\" ability.",
+		'fr-fr': "Ce Pokémon très apprécié gagne ses gages de son propriétaire grâce à sa faculté \"Jour de paye\"."
 	},
 
 

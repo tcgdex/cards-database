@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Genetic Apex"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Voltorb",
-		fr: "Voltorbe",
-		es: "Voltorb",
-		it: "Voltorb",
-		de: "Voltobal",
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe",
+		'es-es': "Voltorb",
+		'it-it': "Voltorb",
+		'de-de': "Voltobal",
 		'pt-br': "Voltorb",
-		ko: "찌리리공"
+		'ko-kr': "찌리리공"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			de: "Tackle",
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'de-de': "Tackle",
 			'pt-br': "Investida",
-			ko: "몸통박치기"
+			'ko-kr': "몸통박치기"
 		},
 
 		damage: "20"
@@ -47,13 +47,13 @@ const card: Card = {
 	rarity: "One Diamond",
 
 	description: {
-		en: "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.",
-		fr: "Il se déplace en roulant. Si le sol est cabossé,\nles chocs le font exploser.",
-		es: "Se mueve rodando. Si el terreno es\nirregular, una chispa provocada por\nalgún bache lo hará explotar.",
-		it: "Rotola per spostarsi. Se il terreno è\nirregolare, può esplodere all'improvviso\na causa dell'urto contro un dosso.",
-		de: "Es bewegt sich rollend fort. Rollt es über\nunebenen Boden, kann es plötzlich explodieren.",
+		'en-us': "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.",
+		'fr-fr': "Il se déplace en roulant. Si le sol est cabossé,\nles chocs le font exploser.",
+		'es-es': "Se mueve rodando. Si el terreno es\nirregular, una chispa provocada por\nalgún bache lo hará explotar.",
+		'it-it': "Rotola per spostarsi. Se il terreno è\nirregolare, può esplodere all'improvviso\na causa dell'urto contro un dosso.",
+		'de-de': "Es bewegt sich rollend fort. Rollt es über\nunebenen Boden, kann es plötzlich explodieren.",
 		'pt-br': "Ele rola para se mover. Quando o solo está\ndesnivelado, um solavanco repentino após\num baque pode fazê-lo explodir.",
-		ko: "굴러서 이동하기 때문에\n땅이 울퉁불퉁하면\n충격으로 폭발해 버린다."
+		'ko-kr': "굴러서 이동하기 때문에\n땅이 울퉁불퉁하면\n충격으로 폭발해 버린다."
 	},
 
 	boosters: ["pikachu"]

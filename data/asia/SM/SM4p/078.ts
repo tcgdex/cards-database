@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラナッシー",
+		'ja-jp': "アローラナッシー",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "アローラは 最高の 環境。 この姿が 本来の ナッシーだと 地元の 人々は 誇らしげだ。",
+		'ja-jp': "アローラは 最高の 環境。 この姿が 本来の ナッシーだと 地元の 人々は 誇らしげだ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ナッシーパラダイス" },
 			cost: [],
 			effect: {
-				ja: "自分のベンチの「タマタマ」の数ぶん、自分の山札にある「アローラナッシー」または「アローラナッシーGX」を選び、ベンチの「タマタマ」それぞれにのせて進化させる。そして山札を切る。",
+				'ja-jp': "自分のベンチの「タマタマ」の数ぶん、自分の山札にある「アローラナッシー」または「アローラナッシーGX」を選び、ベンチの「タマタマ」それぞれにのせて進化させる。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "80×",
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[草]エネルギーの数ぶんコインを投げ、オモテの数x80ダメージ。",
+				'ja-jp': "このポケモンについている[草]エネルギーの数ぶんコインを投げ、オモテの数x80ダメージ。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "タマタマ",
+		'ja-jp': "タマタマ",
 	},
 
 	retreat: 3,

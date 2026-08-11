@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポニータ",
+		'ja-jp': "ポニータ",
 		'zh-tw': "小火馬",
-		th: "โพนีตะ",
-		id: "Ponyta",
+		'th-th': "โพนีตะ",
+		'id-id': "Ponyta",
 	},
 
 	illustrator: "Nurikabe",
@@ -16,10 +16,10 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "ポニータに 認められると 燃える たてがみに 触っても 不思議と 熱くなくなるのだ。",
+		'ja-jp': "ポニータに 認められると 燃える たてがみに 触っても 不思議と 熱くなくなるのだ。",
 		'zh-tw': "得到了小火馬認可的人，在觸摸牠燃燒著的鬃毛時 不會覺得燙手，真是不可思議。",
-		th: "หากได้รับการยอมรับจากโพนีตะแล้ว แม้จะจับแผงขนที่เผาไหม้ก็จะไม่รู้สึกร้อนอย่างน่าประหลาดใจ",
-		id: "Jika diakui oleh Ponyta, maka meskipun menyentuh surai membara Pokémon ini, entah kenapa surainya tidak terasa panas.",
+		'th-th': "หากได้รับการยอมรับจากโพนีตะแล้ว แม้จะจับแผงขนที่เผาไหม้ก็จะไม่รู้สึกร้อนอย่างน่าประหลาดใจ",
+		'id-id': "Jika diakui oleh Ponyta, maka meskipun menyentuh surai membara Pokémon ini, entah kenapa surainya tidak terasa panas.",
 	},
 
 	stage: "Basic",
@@ -27,25 +27,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "もってくる",
+				'ja-jp': "もってくる",
 				'zh-tw': "呼喚",
-				th: "รวบรวม",
-				id: "Mengumpulkan",
+				'th-th': "รวบรวม",
+				'id-id': "Mengumpulkan",
 			},
 			cost: ["Fire"],
 			effect: {
-				ja: "自分の山札を1枚引く。",
+				'ja-jp': "自分の山札を1枚引く。",
 				'zh-tw': "從自己的牌庫抽出1張卡。",
-				th: "จั่วการ์ด 1 ใบจากสำรับการ์ดฝ่ายเรา",
-				id: "Ambil 1 kartu dari atas Deck sendiri.",
+				'th-th': "จั่วการ์ด 1 ใบจากสำรับการ์ดฝ่ายเรา",
+				'id-id': "Ambil 1 kartu dari atas Deck sendiri.",
 			},
 		},
 		{
 			name: {
-				ja: "はねまわる",
+				'ja-jp': "はねまわる",
 				'zh-tw': "活蹦亂跳",
-				th: "สะบัดตัว",
-				id: "Melompat Berkeliling",
+				'th-th': "สะบัดตัว",
+				'id-id': "Melompat Berkeliling",
 			},
 			damage: 30,
 			cost: ["Fire", "Colorless", "Colorless"],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Voltorb",
+		'ja-jp': "Voltorb",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "磁気プル",
+				'ja-jp': "磁気プル",
 			},
 			effect: {
-				ja: "対戦相手がベンチポケモンを持っている場合は、それらの1つを選択し、防御ポケモンで切り替えます。",
+				'ja-jp': "対戦相手がベンチポケモンを持っている場合は、それらの1つを選択し、防御ポケモンで切り替えます。",
 			},
 		},
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "スピンタックル",
+				'ja-jp': "スピンタックル",
 			},
 			effect: {
-				ja: "Voltorbはそれ自体に10ダメージを与えます。",
+				'ja-jp': "Voltorbはそれ自体に10ダメージを与えます。",
 			},
 			damage: 30,
 		},

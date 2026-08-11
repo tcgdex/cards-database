@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Buizel",
-		fr: "Mustébouée",
-		es: "Buizel",
-		it: "Buizel",
-		pt: "Buizel",
-		de: "Bamelin"
+		'en-us': "Buizel",
+		'fr-fr': "Mustébouée",
+		'es-es': "Buizel",
+		'it-it': "Buizel",
+		'pt-br': "Buizel",
+		'de-de': "Bamelin"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Rain Splash",
-			fr: "Pluie Éclaboussante",
-			es: "Golpe de Lluvia",
-			it: "Spruzzapioggia",
-			pt: "Chuva Borrifante",
-			de: "Regenplatscher"
+			'en-us': "Rain Splash",
+			'fr-fr': "Pluie Éclaboussante",
+			'es-es': "Golpe de Lluvia",
+			'it-it': "Spruzzapioggia",
+			'pt-br': "Chuva Borrifante",
+			'de-de': "Regenplatscher"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Razor Fin",
-			fr: "Aileron-Rasoir",
-			es: "Aleta Afilada",
-			it: "Pinnalama",
-			pt: "Barbatana Cortante",
-			de: "Rasierflosse"
+			'en-us': "Razor Fin",
+			'fr-fr': "Aileron-Rasoir",
+			'es-es': "Aleta Afilada",
+			'it-it': "Pinnalama",
+			'pt-br': "Barbatana Cortante",
+			'de-de': "Rasierflosse"
 		},
 
 		damage: 20
@@ -69,7 +69,7 @@ const card: Card = {
 	illustrator: "Mizue",
 
 	description: {
-		en: "It spins its two tails like a screw to propel itself through water. The tails also slice clinging seaweed.",
+		'en-us': "It spins its two tails like a screw to propel itself through water. The tails also slice clinging seaweed.",
 	},
 
 	thirdParty: {

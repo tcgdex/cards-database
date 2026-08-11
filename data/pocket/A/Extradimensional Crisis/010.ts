@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mantine",
-		fr: "Démanta"
+		'en-us': "Mantine",
+		'fr-fr': "Démanta"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "If it builds up enough speed swimming, it\ncan jump out above the waves and glide\nfor over 300 feet.",
-		fr: "Il peut planer au-dessus des vagues sur plus de 100 m en prenant son élan dans la mer."
+		'en-us': "If it builds up enough speed swimming, it\ncan jump out above the waves and glide\nfor over 300 feet.",
+		'fr-fr': "Il peut planer au-dessus des vagues sur plus de 100 m en prenant son élan dans la mer."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Surf",
-			fr: "Surf"
+			'en-us': "Surf",
+			'fr-fr': "Surf"
 		},
 
 		damage: 50,

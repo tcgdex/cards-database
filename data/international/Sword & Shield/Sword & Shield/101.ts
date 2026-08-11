@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Baltoy",
-		fr: "Balbuto",
-		es: "Baltoy",
-		it: "Baltoy",
-		pt: "Baltoy",
-		de: "Puppance"
+		'en-us': "Baltoy",
+		'fr-fr': "Balbuto",
+		'es-es': "Baltoy",
+		'it-it': "Baltoy",
+		'pt-br': "Baltoy",
+		'de-de': "Puppance"
 	},
 
 	illustrator: "Uta",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beam",
-				fr: "Rayon",
-				es: "Transmisión",
-				it: "Raggio",
-				pt: "Feixe",
-				de: "Strahl"
+				'en-us': "Beam",
+				'fr-fr': "Rayon",
+				'es-es': "Transmisión",
+				'it-it': "Raggio",
+				'pt-br': "Feixe",
+				'de-de': "Strahl"
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Sand Spray",
-				fr: "Jet Sableux",
-				es: "Rociado de Arena",
-				it: "Silicospruzzo",
-				pt: "Spray de Areia",
-				de: "Sandspray"
+				'en-us': "Sand Spray",
+				'fr-fr': "Jet Sableux",
+				'es-es': "Rociado de Arena",
+				'it-it': "Silicospruzzo",
+				'pt-br': "Spray de Areia",
+				'de-de': "Sandspray"
 			},
 
 			damage: 30,
@@ -77,7 +77,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It moves while spinning around on its single foot. Some Baltoy have been seen spinning on their heads."
+		'en-us': "It moves while spinning around on its single foot. Some Baltoy have been seen spinning on their heads."
 	},
 
 	dexId: [343],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団のニドラン♂",
+		'ja-jp': "ロケット団のニドラン♂",
 		'zh-tw': "<火箭隊的>尼多朗",
 		'zh-cn': "<火箭隊的>尼多朗",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "小柄だが 勇ましい 性質。 仲良しの メスを 守るため 身を ていして 果敢に 戦う。",
+		'ja-jp': "小柄だが 勇ましい 性質。 仲良しの メスを 守るため 身を ていして 果敢に 戦う。",
 		'zh-tw': "體型嬌小，但性情勇猛。 為了保護感情好的雌性， 會奮不顧身地勇敢戰鬥。",
 		'zh-cn': "體型嬌小，但性情勇猛。 為了保護感情好的雌性， 會奮不顧身地勇敢戰鬥。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "つきさす",
+				'ja-jp': "つきさす",
 				'zh-tw': "突刺",
 				'zh-cn': "突刺",
 			},
@@ -34,7 +34,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ぶちかます",
+				'ja-jp': "ぶちかます",
 				'zh-tw': "頭突",
 				'zh-cn': "頭突",
 			},

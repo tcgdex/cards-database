@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Germéclat",
-		en: "Glimmet",
-		es: "Glimmet",
-		it: "Glimmet",
-		pt: "Glimmet",
-		de: "Lumispross"
+		'fr-fr': "Germéclat",
+		'en-us': "Glimmet",
+		'es-es': "Glimmet",
+		'it-it': "Glimmet",
+		'pt-br': "Glimmet",
+		'de-de': "Lumispross"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			fr: "Jet-Pierres",
-			en: "Rock Throw",
-			es: "Lanzarrocas",
-			it: "Sassata",
-			pt: "Lançamento de Rocha",
-			de: "Steinwurf"
+			'fr-fr': "Jet-Pierres",
+			'en-us': "Rock Throw",
+			'es-es': "Lanzarrocas",
+			'it-it': "Sassata",
+			'pt-br': "Lançamento de Rocha",
+			'de-de': "Steinwurf"
 		},
 
 		damage: 20
@@ -66,7 +66,7 @@ const card: Card = {
 	illustrator: "Sekio",
 
 	description: {
-		en: "It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.",
+		'en-us': "It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.",
 	},
 }
 

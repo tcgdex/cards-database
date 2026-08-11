@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Hypno -042/092",
+		'ja-jp': "Hypno -042/092",
 	},
 
 	rarity: "Holo Rare",
@@ -17,10 +17,10 @@ const card: Card = {
 	abilities: [
 		{
 			name: {
-				ja: "睡眠振り子",
+				'ja-jp': "睡眠振り子",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前に）</em> </em>、催眠がアクティブなポケモンである場合、防御するポケモンを眠らせることができます。 Hypnoが特別な状態の影響を受ける場合、このパワーは使用できません。",
+				'ja-jp': "ターン中に（攻撃の前に）</em> </em>、催眠がアクティブなポケモンである場合、防御するポケモンを眠らせることができます。 Hypnoが特別な状態の影響を受ける場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Colorless", "Colorless"],
 			name: {
-				ja: "スパイラルオーラ",
+				'ja-jp': "スパイラルオーラ",
 			},
 			effect: {
-				ja: "防御ポケモンがこの攻撃からのダメージによってノックアウトされていない場合、相手のベンチ付きポケモンの1つを選択し、防御ポケモンをそれで切り替えることができます。",
+				'ja-jp': "防御ポケモンがこの攻撃からのダメージによってノックアウトされていない場合、相手のベンチ付きポケモンの1つを選択し、防御ポケモンをそれで切り替えることができます。",
 			},
 			damage: 30,
 		},

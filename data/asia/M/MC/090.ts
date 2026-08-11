@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ギャロップ",
+		'ja-jp': "ギャロップ",
 	},
 
 	illustrator: "SIE NANAHARA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "いちばん 脚が 速い ものが リーダー。 群れが 行く 場所や 走る 速度を 決めている。",
+		'ja-jp': "いちばん 脚が 速い ものが リーダー。 群れが 行く 場所や 走る 速度を 決めている。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "いそぎあし" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札を1枚引く。",
+				'ja-jp': "自分の番に1回使える。自分の山札を1枚引く。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ポニータ",
+		'ja-jp': "ポニータ",
 	},
 
 	retreat: 1,

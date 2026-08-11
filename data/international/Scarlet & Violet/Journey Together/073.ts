@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Grimmsnarl",
-		fr: "Angoliath",
-		es: "Grimmsnarl",
-		de: "Olangaar",
-		it: "Grimmsnarl",
-		pt: "Grimmsnarl",
+		'en-us': "Grimmsnarl",
+		'fr-fr': "Angoliath",
+		'es-es': "Grimmsnarl",
+		'de-de': "Olangaar",
+		'it-it': "Grimmsnarl",
+		'pt-br': "Grimmsnarl",
 		'es-mx': "Grimmsnarl"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 170,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Morgrem",
-		fr: "Fourbelin",
-		es: "Morgrem",
-		de: "Pelzebub",
-		it: "Morgrem",
-		pt: "Morgrem",
+		'en-us': "Morgrem",
+		'fr-fr': "Fourbelin",
+		'es-es': "Morgrem",
+		'de-de': "Pelzebub",
+		'it-it': "Morgrem",
+		'pt-br': "Morgrem",
 		'es-mx': "Morgrem"
 	},
 	stage: "Stage2",
@@ -34,22 +34,22 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Shadowy Knot",
-			fr: "Nœud Sombre",
-			es: "Lazo Sombrío",
-			de: "Schattenknoten",
-			it: "Lacciombroso",
-			pt: "Nó Sombrio",
+			'en-us': "Shadowy Knot",
+			'fr-fr': "Nœud Sombre",
+			'es-es': "Lazo Sombrío",
+			'de-de': "Schattenknoten",
+			'it-it': "Lacciombroso",
+			'pt-br': "Nó Sombrio",
 			'es-mx': "Nudo Sombrío"
 		},
 
 		effect: {
-			en: "This attack does 50 damage for each {C} in your opponent's Active Pokémon's Retreat Cost.",
-			fr: "Cette attaque inflige 50 dégâts pour chaque {C} dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
-			es: "Este ataque hace 50 puntos de daño por cada {C} en el Coste de Retirada del Pokémon Activo de tu rival.",
-			de: "Diese Attacke fügt für jedes {C} in den Rückzugskosten des Aktiven Pokémon deines Gegners 50 Schadenspunkte zu.",
-			it: "Questo attacco infligge 50 danni per ogni {C} nel costo di ritirata del Pokémon attivo del tuo avversario.",
-			pt: "Este ataque causa 50 pontos de dano para cada {C} no custo de Recuo do Pokémon Ativo do seu oponente.",
+			'en-us': "This attack does 50 damage for each {C} in your opponent's Active Pokémon's Retreat Cost.",
+			'fr-fr': "Cette attaque inflige 50 dégâts pour chaque {C} dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
+			'es-es': "Este ataque hace 50 puntos de daño por cada {C} en el Coste de Retirada del Pokémon Activo de tu rival.",
+			'de-de': "Diese Attacke fügt für jedes {C} in den Rückzugskosten des Aktiven Pokémon deines Gegners 50 Schadenspunkte zu.",
+			'it-it': "Questo attacco infligge 50 danni per ogni {C} nel costo di ritirata del Pokémon attivo del tuo avversario.",
+			'pt-br': "Este ataque causa 50 pontos de dano para cada {C} no custo de Recuo do Pokémon Ativo do seu oponente.",
 			'es-mx': "Este ataque hace 50 puntos de daño por cada Colorless en el Costo de Retirada del Pokémon Activo de tu rival."
 		},
 
@@ -58,12 +58,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Mega Punch",
-			fr: "Ultimapoing",
-			es: "Megapuño",
-			de: "Megahieb",
-			it: "Megapugno",
-			pt: "Megassoco",
+			'en-us': "Mega Punch",
+			'fr-fr': "Ultimapoing",
+			'es-es': "Megapuño",
+			'de-de': "Megahieb",
+			'it-it': "Megapugno",
+			'pt-br': "Megassoco",
 			'es-mx': "Megapuño"
 		},
 

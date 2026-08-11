@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コフーライ",
+		'ja-jp': "コフーライ",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "硬い 体は とりポケモンの クチバシでも 傷ひとつ つかない。 粉を まき散らして 防戦する。",
+		'ja-jp': "硬い 体は とりポケモンの クチバシでも 傷ひとつ つかない。 粉を まき散らして 防戦する。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Grass"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コフキムシ",
+		'ja-jp': "コフキムシ",
 	},
 
 	retreat: 2,

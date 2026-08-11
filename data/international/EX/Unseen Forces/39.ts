@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Granbull",
-		fr: "Granbull",
-		de: "Granbull"
+		'en-us': "Granbull",
+		'fr-fr': "Granbull",
+		'de-de': "Granbull"
 	},
 
 	illustrator: "Midori Harada",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Snubbull",
-		fr: "Snubbull"
+		'en-us': "Snubbull",
+		'fr-fr': "Snubbull"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Intimidating Fang",
-				fr: "Croc intimidant",
-				de: "Intimidating Fang"
+				'en-us': "Intimidating Fang",
+				'fr-fr': "Croc intimidant",
+				'de-de': "Intimidating Fang"
 			},
 			effect: {
-				en: "As long as Granbull is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 10 (before applying Weakness and Resistance).",
-				fr: "Tant que Granbull est votre Pokémon Actif, les dégâts qui sont infligés à vos Pokémon par une attaque de votre adversaire sont réduits de 10 (avant application de la Faiblesse et de la Résistance).",
-				de: "As long as Granbull is your Active Pokémon, any damage done by an opponent's attack is reduced by 10 (before applying Weakness and Resistance)."
+				'en-us': "As long as Granbull is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 10 (before applying Weakness and Resistance).",
+				'fr-fr': "Tant que Granbull est votre Pokémon Actif, les dégâts qui sont infligés à vos Pokémon par une attaque de votre adversaire sont réduits de 10 (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "As long as Granbull is your Active Pokémon, any damage done by an opponent's attack is reduced by 10 (before applying Weakness and Resistance)."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crushing Blow",
-				fr: "Coup écrasant",
-				de: "Crushing Blow"
+				'en-us': "Crushing Blow",
+				'fr-fr': "Coup écrasant",
+				'de-de': "Crushing Blow"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
-				de: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon."
+				'en-us': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon."
 			},
 			damage: 30,
 
@@ -73,14 +73,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Lariat",
-				fr: "Double lasso",
-				de: "Double Lariat"
+				'en-us': "Double Lariat",
+				'fr-fr': "Double lasso",
+				'de-de': "Double Lariat"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 50 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 50 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 50 damage times the number of heads."
 			},
 			damage: "50x",
 

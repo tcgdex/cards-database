@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Excadrill",
-		fr: "Minotaupe",
-		es: "Excadrill",
-		it: "Excadrill",
-		pt: "Excadrill",
-		de: "Stalobor"
+		'en-us': "Excadrill",
+		'fr-fr': "Minotaupe",
+		'es-es': "Excadrill",
+		'it-it': "Excadrill",
+		'pt-br': "Excadrill",
+		'de-de': "Stalobor"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Drilbur",
-		fr: "Rototaupe"
+		'en-us': "Drilbur",
+		'fr-fr': "Rototaupe"
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Tunnel Strike",
-				fr: "Frappe en Tunnel"
+				'en-us': "Tunnel Strike",
+				'fr-fr': "Frappe en Tunnel"
 			},
 			effect: {
-				en: "This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+				'en-us': "This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 
 		},
@@ -54,12 +54,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Dig Uppercut",
-				fr: "Poing Excavateur"
+				'en-us': "Dig Uppercut",
+				'fr-fr': "Poing Excavateur"
 			},
 			effect: {
-				en: "Put a card from your discard pile into your hand.",
-				fr: "Ajoutez une carte de votre pile de défausse à votre main."
+				'en-us': "Put a card from your discard pile into your hand.",
+				'fr-fr': "Ajoutez une carte de votre pile de défausse à votre main."
 			},
 			damage: 50,
 
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "More than 300 feet below the surface, they build mazelike nests. Their activity can be destructive to subway tunnels.",
+		'en-us': "More than 300 feet below the surface, they build mazelike nests. Their activity can be destructive to subway tunnels.",
 	},
 
 	thirdParty: {

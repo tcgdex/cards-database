@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "浩大鯨",
 		'zh-cn': "浩大鯨",
-		ja: "ハルクジラ"
+		'ja-jp': "ハルクジラ"
 	},
 
 	illustrator: "Uta",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "會集中冰能量使上顎的角 變得超低溫，然後將自己 附近的一切都凍成冰塊。",
 		'zh-cn': "會集中冰能量使上顎的角 變得超低溫，然後將自己 附近的一切都凍成冰塊。",
-		ja: "氷エネルギーの 集中する 上あごの ツノが 超低温になって 周囲を 凍らせる。"
+		'ja-jp': "氷エネルギーの 集中する 上あごの ツノが 超低温になって 周囲を 凍らせる。"
 	},
 
 	stage: "Stage1",
@@ -29,13 +29,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "堅堅之軀",
 			'zh-cn': "堅堅之軀",
-			ja: "がっちりボディ"
+			'ja-jp': "がっちりボディ"
 		},
 
 		effect: {
 			'zh-tw': "這隻寶可夢受到招式的傷害「-30」點。",
 			'zh-cn': "這隻寶可夢受到招式的傷害「-30」點。",
-			ja: "このポケモンが受けるワザのダメージは「-30」される。"
+			'ja-jp': "このポケモンが受けるワザのダメージは「-30」される。"
 		}
 	}],
 
@@ -43,7 +43,7 @@ const card: Card = {
 		name: {
 			'zh-tw': "危殆嘴",
 			'zh-cn': "危殆嘴",
-			ja: "デンジャーマウス"
+			'ja-jp': "デンジャーマウス"
 		},
 
 		damage: 150,

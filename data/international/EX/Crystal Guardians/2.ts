@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Blastoise δ",
-		fr: "Tortank δ",
-		de: "Turtok"
+		'en-us': "Blastoise δ",
+		'fr-fr': "Tortank δ",
+		'de-de': "Turtok"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -25,8 +25,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wartortle",
-		fr: "Carabaffe"
+		'en-us': "Wartortle",
+		'fr-fr': "Carabaffe"
 	},
 
 	stage: "Stage2",
@@ -35,14 +35,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Shield Veil",
-				fr: "Voile protecteur",
-				de: "Schildhülle"
+				'en-us': "Shield Veil",
+				'fr-fr': "Voile protecteur",
+				'de-de': "Schildhülle"
 			},
 			effect: {
-				en: "Each of your Active Pokémon has no Weakness.",
-				fr: "Chacun de vos Pokémon Actifs ne possède pas de Faiblesse.",
-				de: "Jedes deiner Aktiven Pokémon hat keine Schwäche mehr."
+				'en-us': "Each of your Active Pokémon has no Weakness.",
+				'fr-fr': "Chacun de vos Pokémon Actifs ne possède pas de Faiblesse.",
+				'de-de': "Jedes deiner Aktiven Pokémon hat keine Schwäche mehr."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Enraged Linear Attack",
-				fr: "Attaque linéaire enragée",
-				de: "Wütender Linearer Angriff"
+				'en-us': "Enraged Linear Attack",
+				'fr-fr': "Attaque linéaire enragée",
+				'de-de': "Wütender Linearer Angriff"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage for each damage counter on Blastoise to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts pour chaque marqueur de dégât sur Tortank. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte für jede Schadensmarke auf Turtok zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 10 damage for each damage counter on Blastoise to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts pour chaque marqueur de dégât sur Tortank. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte für jede Schadensmarke auf Turtok zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -72,9 +72,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Skull Bash",
-				fr: "Coud'krane",
-				de: "Schädelwumme"
+				'en-us': "Skull Bash",
+				'fr-fr': "Coud'krane",
+				'de-de': "Schädelwumme"
 			},
 
 			damage: 60,

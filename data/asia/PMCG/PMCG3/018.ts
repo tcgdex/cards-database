@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パルシェン",
+		'ja-jp': "パルシェン",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Water", "Water"],
 			name: {
-				ja: "クランプ",
+				'ja-jp': "クランプ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。尾の場合、この攻撃は何もしません（ダメージさえありません）。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。尾の場合、この攻撃は何もしません（ダメージさえありません）。",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Water", "Water"],
 			name: {
-				ja: "スパイクキャノン",
+				'ja-jp': "スパイクキャノン",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
 			},
 
 		},

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Wobbuffet",
-		fr: "Qulbutoké",
-		es: "Wobbuffet",
-		it: "Wobbuffet",
-		pt: "Wobbuffet",
-		de: "Woingenau"
+		'en-us': "Wobbuffet",
+		'fr-fr': "Qulbutoké",
+		'es-es': "Wobbuffet",
+		'it-it': "Wobbuffet",
+		'pt-br': "Wobbuffet",
+		'de-de': "Woingenau"
 	},
 
 	illustrator: "nagimiso",
@@ -36,20 +36,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Shadowy Knot",
-				fr: "Nœud Sombre",
-				es: "Lazo Sombrío",
-				it: "Lacciombroso",
-				pt: "Nó Sombrio",
-				de: "Schattenknoten"
+				'en-us': "Shadowy Knot",
+				'fr-fr': "Nœud Sombre",
+				'es-es': "Lazo Sombrío",
+				'it-it': "Lacciombroso",
+				'pt-br': "Nó Sombrio",
+				'de-de': "Schattenknoten"
 			},
 			effect: {
-				en: "This attack does 50 damage for each Colorless in your opponent’s Active Pokémon’s Retreat Cost.",
-				fr: "Cette attaque inflige 50 dégâts pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
-				es: "Este ataque hace 50 puntos de daño por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
-				it: "Questo attacco infligge 50 danni per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
-				pt: "Este ataque causa 50 pontos de dano para cada Colorless no custo de Recuo do Pokémon Ativo do seu oponente.",
-				de: "Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der Colorless-Symbole in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
+				'en-us': "This attack does 50 damage for each Colorless in your opponent’s Active Pokémon’s Retreat Cost.",
+				'fr-fr': "Cette attaque inflige 50 dégâts pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
+				'es-es': "Este ataque hace 50 puntos de daño por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
+				'it-it': "Questo attacco infligge 50 danni per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
+				'pt-br': "Este ataque causa 50 pontos de dano para cada Colorless no custo de Recuo do Pokémon Ativo do seu oponente.",
+				'de-de': "Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der Colorless-Symbole in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
 			},
 			damage: "50×",
 
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It hates light and shock. If attacked, it inflates its body to build up its counterstrike.",
+		'en-us': "It hates light and shock. If attacked, it inflates its body to build up its counterstrike.",
 	},
 
 	thirdParty: {

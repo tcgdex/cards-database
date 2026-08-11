@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Solrock",
-		fr: "Solaroc",
-		es: "Solrock",
-		it: "Solrock",
-		pt: "Solrock",
-		de: "Sonnfel"
+		'en-us': "Solrock",
+		'fr-fr': "Solaroc",
+		'es-es': "Solrock",
+		'it-it': "Solrock",
+		'pt-br': "Solrock",
+		'de-de': "Sonnfel"
 	},
 
 	illustrator: "OKACHEKE",
@@ -25,21 +25,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Sun Energy",
-			fr: "Énergie Solaire",
-			es: "Energía Solar",
-			it: "Energia Solare",
-			pt: "Energia do Sol",
-			de: "Sonnenenergie"
+			'en-us': "Sun Energy",
+			'fr-fr': "Énergie Solaire",
+			'es-es': "Energía Solar",
+			'it-it': "Energia Solare",
+			'pt-br': "Energia do Sol",
+			'de-de': "Sonnenenergie"
 		},
 
 		effect: {
-			en: "Once during your turn, you may attach a Psychic Energy card from your discard pile to 1 of your Lunatone.",
-			fr: "Une fois pendant votre tour, vous pouvez attacher une carte Énergie Psychic de votre pile de défausse à l'un de vos Séléroc.",
-			es: "Una vez durante tu turno, puedes unir 1 carta de Energía Psychic de tu pila de descartes a 1 de tus Lunatone.",
-			it: "Una sola volta durante il tuo turno, puoi assegnare a uno dei tuoi Lunatone una carta Energia Psychic dalla tua pila degli scarti.",
-			pt: "Uma vez durante o seu turno, você poderá ligar 1 carta de Energia Psychic da sua pilha de descarte a 1 dos seus Lunatone.",
-			de: "Einmal während deines Zuges kannst du 1 Psychic-Energiekarte aus deinem Ablagestapel an 1 deiner Lunastein anlegen."
+			'en-us': "Once during your turn, you may attach a Psychic Energy card from your discard pile to 1 of your Lunatone.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez attacher une carte Énergie Psychic de votre pile de défausse à l'un de vos Séléroc.",
+			'es-es': "Una vez durante tu turno, puedes unir 1 carta de Energía Psychic de tu pila de descartes a 1 de tus Lunatone.",
+			'it-it': "Una sola volta durante il tuo turno, puoi assegnare a uno dei tuoi Lunatone una carta Energia Psychic dalla tua pila degli scarti.",
+			'pt-br': "Uma vez durante o seu turno, você poderá ligar 1 carta de Energia Psychic da sua pilha de descarte a 1 dos seus Lunatone.",
+			'de-de': "Einmal während deines Zuges kannst du 1 Psychic-Energiekarte aus deinem Ablagestapel an 1 deiner Lunastein anlegen."
 		}
 	}],
 
@@ -47,12 +47,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Spinning Attack",
-			fr: "Attaque Tournante",
-			es: "Ataque Giratorio",
-			it: "Attacco Rotante",
-			pt: "Ataque Giratório",
-			de: "Rundumangriff"
+			'en-us': "Spinning Attack",
+			'fr-fr': "Attaque Tournante",
+			'es-es': "Ataque Giratorio",
+			'it-it': "Attacco Rotante",
+			'pt-br': "Ataque Giratório",
+			'de-de': "Rundumangriff"
 		},
 
 		damage: 50
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When it rotates itself, it gives off light similar to the sun, thus blinding its foes.",
+		'en-us': "When it rotates itself, it gives off light similar to the sun, thus blinding its foes.",
 	},
 
 	

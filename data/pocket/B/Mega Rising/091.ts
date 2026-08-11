@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zebstrika"
+		'en-us': "Zebstrika"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Blitzle"
+		'en-us': "Blitzle"
 	},
 
 	description: {
-		en: "They have lightning-like movements.\nWhen Zebstrika run at full speed, the sound of\nthunder reverberates."
+		'en-us': "They have lightning-like movements.\nWhen Zebstrika run at full speed, the sound of\nthunder reverberates."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Electric Ball"
+			'en-us': "Electric Ball"
 		},
 
 		damage: 90,

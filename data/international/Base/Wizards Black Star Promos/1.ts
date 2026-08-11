@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
+		'en-us': "Pikachu",
 	},
 	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Growl",
+				'en-us': "Growl",
 			},
 			effect: {
-				en: "If the Defending Pokémon attacks Pikachu during your opponent's next turn, any damage done by the attack is reduced by 10 (after applying Weakness and Resistance). (Benching either Pokémon ends this effect.)",
+				'en-us': "If the Defending Pokémon attacks Pikachu during your opponent's next turn, any damage done by the attack is reduced by 10 (after applying Weakness and Resistance). (Benching either Pokémon ends this effect.)",
 			},
 
 		},
@@ -40,10 +40,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thundershock",
+				'en-us': "Thundershock",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 20,
 
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When several of these Pokémon gather, their electricity could build and cause lightning storms.",
+		'en-us': "When several of these Pokémon gather, their electricity could build and cause lightning storms.",
 	},
 
 	variants: [

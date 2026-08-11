@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Houndstone",
-		fr: "Tomberro",
-		es: "Houndstone",
-		it: "Houndstone",
-		pt: "Houndstone",
-		de: "Friedwuff"
+		'en-us': "Houndstone",
+		'fr-fr': "Tomberro",
+		'es-es': "Houndstone",
+		'it-it': "Houndstone",
+		'pt-br': "Houndstone",
+		'de-de': "Friedwuff"
 	},
 
 	rarity: "Promo",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Greavard",
-		fr: "Toutombe",
-		es: "Greavard",
-		it: "Greavard",
-		pt: "Greavard",
-		de: "Gruff"
+		'en-us': "Greavard",
+		'fr-fr': "Toutombe",
+		'es-es': "Greavard",
+		'it-it': "Greavard",
+		'pt-br': "Greavard",
+		'de-de': "Gruff"
 	},
 	stage: "Stage1",
 
@@ -32,32 +32,32 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Delve",
-			fr: "Fouille Exploratoire",
-			es: "Fisgar",
-			it: "Scava scava",
-			pt: "Examinar",
-			de: "Graben"
+			'en-us': "Delve",
+			'fr-fr': "Fouille Exploratoire",
+			'es-es': "Fisgar",
+			'it-it': "Scava scava",
+			'pt-br': "Examinar",
+			'de-de': "Graben"
 		},
 
 		effect: {
-			en: "Put up to 2 Item cards from your discard pile into your hand.",
-			fr: "Ajoutez jusqu'à 2 cartes Objet de votre pile de défausse à votre main.",
-			es: "Pon hasta 2 cartas de Objeto de tu pila de descartes en tu mano.",
-			it: "Prendi fino a due carte Strumento dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
-			pt: "Coloque até 2 cartas de Item da sua pilha de descarte na sua mão.",
-			de: "Nimm bis zu 2 Itemkarten aus deinem Ablagestapel auf deine Hand."
+			'en-us': "Put up to 2 Item cards from your discard pile into your hand.",
+			'fr-fr': "Ajoutez jusqu'à 2 cartes Objet de votre pile de défausse à votre main.",
+			'es-es': "Pon hasta 2 cartas de Objeto de tu pila de descartes en tu mano.",
+			'it-it': "Prendi fino a due carte Strumento dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
+			'pt-br': "Coloque até 2 cartas de Item da sua pilha de descarte na sua mão.",
+			'de-de': "Nimm bis zu 2 Itemkarten aus deinem Ablagestapel auf deine Hand."
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Spooky Shot",
-			fr: "Tir Effrayant",
-			es: "Disparo Embrujado",
-			it: "Colpomistero",
-			pt: "Tiro Assustador",
-			de: "Spukschuss"
+			'en-us': "Spooky Shot",
+			'fr-fr': "Tir Effrayant",
+			'es-es': "Disparo Embrujado",
+			'it-it': "Colpomistero",
+			'pt-br': "Tiro Assustador",
+			'de-de': "Spukschuss"
 		},
 
 		damage: 100
@@ -79,7 +79,7 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "Pani Kobayashi",
 	description: {
-		en: "Houndstone spends most of its time sleeping in graveyards. Among all the dog Pokémon, this one is most loyal to its master.",
+		'en-us': "Houndstone spends most of its time sleeping in graveyards. Among all the dog Pokémon, this one is most loyal to its master.",
 	},
 	variants: [
 		{

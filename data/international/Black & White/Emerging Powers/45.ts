@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Gothorita",
-		fr: "Mesmérella",
-		es: "Gothorita",
-		it: "Gothorita",
-		pt: "Gothorita",
-		de: "Hypnomorba"
+		'en-us': "Gothorita",
+		'fr-fr': "Mesmérella",
+		'es-es': "Gothorita",
+		'it-it': "Gothorita",
+		'pt-br': "Gothorita",
+		'de-de': "Hypnomorba"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gothita",
-		fr: "Scrutella",
+		'en-us': "Gothita",
+		'fr-fr': "Scrutella",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Slap",
-				fr: "Torgnoles",
+				'en-us': "Double Slap",
+				'fr-fr': "Torgnoles",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 20,
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psybeam",
-				fr: "Rafale Psy",
+				'en-us': "Psybeam",
+				'fr-fr': "Rafale Psy",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: 20,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They use hypnosis to control people and Pokémon. Tales of Gothorita leading people astray are told in every corner.",
+		'en-us': "They use hypnosis to control people and Pokémon. Tales of Gothorita leading people astray are told in every corner.",
 	},
 
 	thirdParty: {

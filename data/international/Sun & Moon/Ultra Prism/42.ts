@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Manaphy",
-		fr: "Manaphy",
-		es: "Manaphy",
-		it: "Manaphy",
-		pt: "Manaphy",
-		de: "Manaphy"
+		'en-us': "Manaphy",
+		'fr-fr': "Manaphy",
+		'es-es': "Manaphy",
+		'it-it': "Manaphy",
+		'pt-br': "Manaphy",
+		'de-de': "Manaphy"
 	},
 
 	illustrator: "kawayoo",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Deep Currents",
-				fr: "Courants Profonds",
-				es: "Corrientes Profundas",
-				it: "Correnti Profonde",
-				pt: "Correntezas Profundas",
-				de: "Tiefe Strömung"
+				'en-us': "Deep Currents",
+				'fr-fr': "Courants Profonds",
+				'es-es': "Corrientes Profundas",
+				'it-it': "Correnti Profonde",
+				'pt-br': "Correntezas Profundas",
+				'de-de': "Tiefe Strömung"
 			},
 			effect: {
-				en: "Shuffle 5 Water Energy cards from your discard pile into your deck.",
-				fr: "Mélangez 5 cartes Énergie Water de votre pile de défausse avec votre deck.",
-				es: "Pon 5 cartas de Energía Water de tu pila de descartes en tu baraja y barájalas todas.",
-				it: "Rimischia cinque carte Energia Water dalla tua pila degli scarti nel tuo mazzo.",
-				pt: "Embaralhe 5 cartas de Energia Water da sua pilha de descarte no seu baralho.",
-				de: "Mische 5 Water-Energiekarten aus deinem Ablagestapel in dein Deck."
+				'en-us': "Shuffle 5 Water Energy cards from your discard pile into your deck.",
+				'fr-fr': "Mélangez 5 cartes Énergie Water de votre pile de défausse avec votre deck.",
+				'es-es': "Pon 5 cartas de Energía Water de tu pila de descartes en tu baraja y barájalas todas.",
+				'it-it': "Rimischia cinque carte Energia Water dalla tua pila degli scarti nel tuo mazzo.",
+				'pt-br': "Embaralhe 5 cartas de Energia Water da sua pilha de descarte no seu baralho.",
+				'de-de': "Mische 5 Water-Energiekarten aus deinem Ablagestapel in dein Deck."
 			},
 
 		},
@@ -56,20 +56,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Pulse",
-				fr: "Vibraqua",
-				es: "Hidropulso",
-				it: "Idropulsar",
-				pt: "Pulso d’Água",
-				de: "Aquawelle"
+				'en-us': "Water Pulse",
+				'fr-fr': "Vibraqua",
+				'es-es': "Hidropulso",
+				'it-it': "Idropulsar",
+				'pt-br': "Pulso d’Água",
+				'de-de': "Aquawelle"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent’s Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 20,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon.",
+		'en-us': "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon.",
 	},
 
 	thirdParty: {

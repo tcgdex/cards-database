@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "鴨嘴炎獸",
-		ja: "ブーバーン"
+		'ja-jp': "ブーバーン"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "大口吸氣時，肚子裡的火焰就會燃燒得更旺盛， 達到攝氏２０００度。",
-		ja: "大きく 息を 吸いこむと 腹の 中の 炎が 勢いを 増して 摂氏２０００度に 達する。"
+		'ja-jp': "大きく 息を 吸いこむと 腹の 中の 炎が 勢いを 増して 摂氏２０００度に 達する。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "百萬噸重拳",
-			ja: "メガトンパンチ"
+			'ja-jp': "メガトンパンチ"
 		},
 
 		damage: 50,
@@ -32,12 +32,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "伏特爆發",
-			ja: "ボルトプロージョン"
+			'ja-jp': "ボルトプロージョン"
 		},
 
 		effect: {
 			'zh-tw': "若自己的備戰區有「電擊魔獸」，則增加120點傷害。",
-			ja: "自分のベンチに「エレキブル」がいるなら、120ダメージ追加。"
+			'ja-jp': "自分のベンチに「エレキブル」がいるなら、120ダメージ追加。"
 		},
 
 		damage: "120＋",

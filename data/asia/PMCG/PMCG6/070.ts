@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キョウのピジョン",
+		'ja-jp': "キョウのピジョン",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "クイックターン",
+				'ja-jp': "クイックターン",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "空中操作",
+				'ja-jp': "空中操作",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて30ダメージを与え、相手の次のターン中に、コガのピッジットに行われるダメージを含む攻撃のすべての影響を防ぎます。尾の場合、この攻撃は10ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて30ダメージを与え、相手の次のターン中に、コガのピッジットに行われるダメージを含む攻撃のすべての影響を防ぎます。尾の場合、この攻撃は10ダメージを与えます。",
 			},
 		},
 	],

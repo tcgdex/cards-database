@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エモンガ",
+		'ja-jp': "エモンガ",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "マントのような 膜で 滑空。 電気を まき散らして 敵も 味方も 感電 させまくる。",
+		'ja-jp': "マントのような 膜で 滑空。 電気を まき散らして 敵も 味方も 感電 させまくる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "エネキャッチ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュにある基本エネルギーを3枚、相手に見せてから、手札に加える。",
+				'ja-jp': "自分のトラッシュにある基本エネルギーを3枚、相手に見せてから、手札に加える。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Lightning"],
 			effect: {
-				ja: "このポケモンをベンチの[雷]ポケモンと入れ替える。",
+				'ja-jp': "このポケモンをベンチの[雷]ポケモンと入れ替える。",
 			},
 		},
 	],

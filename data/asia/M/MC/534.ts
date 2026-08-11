@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サーフゴー",
+		'ja-jp': "サーフゴー",
 	},
 
 	illustrator: "Dsuke",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "コインが 積みあがって 作られた 体は 頑丈。 コインを 連射して 敵を 圧倒する。",
+		'ja-jp': "コインが 積みあがって 作られた 体は 頑丈。 コインを 連射して 敵を 圧倒する。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Metal"],
 			effect: {
-				ja: "この番、このポケモンが「コレクレー」から進化していたなら、90ダメージ追加。",
+				'ja-jp': "この番、このポケモンが「コレクレー」から進化していたなら、90ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "のぞむなら、このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
+				'ja-jp': "のぞむなら、このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コレクレー",
+		'ja-jp': "コレクレー",
 	},
 
 	retreat: 2,

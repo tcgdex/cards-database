@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウーパー",
+		'ja-jp': "ウーパー",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "スライム",
+				'ja-jp': "スライム",
 			},
 			effect: {
-				ja: "対戦相手の次のターン中に攻撃がWooperにダメージを与える場合、対戦相手はコインをひっくり返します。尾の場合、その攻撃からWooperへのすべての損傷を防ぎます。 （その攻撃の他の効果はすべて発生します。）",
+				'ja-jp': "対戦相手の次のターン中に攻撃がWooperにダメージを与える場合、対戦相手はコインをひっくり返します。尾の場合、その攻撃からWooperへのすべての損傷を防ぎます。 （その攻撃の他の効果はすべて発生します。）",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "テールスラップ",
+				'ja-jp': "テールスラップ",
 			},
 			damage: 20,
 		},

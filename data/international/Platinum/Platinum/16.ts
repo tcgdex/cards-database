@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Slaking",
-		fr: "Monaflemit",
-		de: "Letarking"
+		'en-us': "Slaking",
+		'fr-fr': "Monaflemit",
+		'de-de': "Letarking"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vigoroth",
-		fr: "Vigoroth"
+		'en-us': "Vigoroth",
+		'fr-fr': "Vigoroth"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Lazy Paunch",
-				fr: "Ventre paresseux",
-				de: "Lazy Paunch"
+				'en-us': "Lazy Paunch",
+				'fr-fr': "Ventre paresseux",
+				'de-de': "Lazy Paunch"
 			},
 			effect: {
-				en: "If Slaking used any attacks during your last turn, Slaking can't attack.",
-				fr: "Si Monaflemit a utilisé des attaques lors de votre tour précédent, il ne peut pas attaquer.",
-				de: "If Slaking used any attacks during your last turn, Slaking can't attack."
+				'en-us': "If Slaking used any attacks during your last turn, Slaking can't attack.",
+				'fr-fr': "Si Monaflemit a utilisé des attaques lors de votre tour précédent, il ne peut pas attaquer.",
+				'de-de': "If Slaking used any attacks during your last turn, Slaking can't attack."
 			}
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Best Dash",
-				fr: "Meilleure ruée",
-				de: "Best Dash"
+				'en-us': "Best Dash",
+				'fr-fr': "Meilleure ruée",
+				'de-de': "Best Dash"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Slaking by attacks is increased by 50 (after applying Weakness and Resistance).",
-				fr: "Lors du prochain tour de votre adversaire, tous dégâts infligés à Monaflemit par des attaques sont augmentés de 50 (après application de la Faiblesse et de la Résistance).",
-				de: "During your opponent's next turn, any damage done to Slaking by attacks is increased by 50 (after applying Weakness and Resistance)."
+				'en-us': "During your opponent's next turn, any damage done to Slaking by attacks is increased by 50 (after applying Weakness and Resistance).",
+				'fr-fr': "Lors du prochain tour de votre adversaire, tous dégâts infligés à Monaflemit par des attaques sont augmentés de 50 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "During your opponent's next turn, any damage done to Slaking by attacks is increased by 50 (after applying Weakness and Resistance)."
 			},
 			damage: 150,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "The world's laziest Pokémon. When it is lounging, it is actually saving energy for striking back."
+		'en-us': "The world's laziest Pokémon. When it is lounging, it is actually saving energy for striking back."
 	},
 
 	variants: [

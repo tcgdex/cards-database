@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Igglybuff",
-		fr: "Toudoudou"
+		'en-us': "Igglybuff",
+		'fr-fr': "Toudoudou"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -18,23 +18,23 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Its body has a faintly sweet scent and is bouncy\nand soft. If it bounces even once, it cannot stop.",
-		fr: "Son corps mou dégage un parfum sucré. Quand il commence à rebondir, on ne peut plus l'arrêter."
+		'en-us': "Its body has a faintly sweet scent and is bouncy\nand soft. If it bounces even once, it cannot stop.",
+		'fr-fr': "Son corps mou dégage un parfum sucré. Quand il commence à rebondir, on ne peut plus l'arrêter."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Sleepy Lullaby",
-			fr: "Comptine qui Endort"
+			'en-us': "Sleepy Lullaby",
+			'fr-fr': "Comptine qui Endort"
 		},
 
 		damage: 10,
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi."
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi."
 		}
 	}],
 

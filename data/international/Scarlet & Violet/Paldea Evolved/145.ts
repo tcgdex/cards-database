@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Gribouraigne",
-		en: "Shroodle",
-		es: "Shroodle",
-		it: "Shroodle",
-		pt: "Shroodle",
-		de: "Sproxi"
+		'fr-fr': "Gribouraigne",
+		'en-us': "Shroodle",
+		'es-es': "Shroodle",
+		'it-it': "Shroodle",
+		'pt-br': "Shroodle",
+		'de-de': "Sproxi"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			fr: "Crache-Venin",
-			en: "Spit Poison",
-			es: "Escupir Veneno",
-			it: "Sputaveleno",
-			pt: "Cuspe Venenoso",
-			de: "Giftspucke"
+			'fr-fr': "Crache-Venin",
+			'en-us': "Spit Poison",
+			'es-es': "Escupir Veneno",
+			'it-it': "Sputaveleno",
+			'pt-br': "Cuspe Venenoso",
+			'de-de': "Giftspucke"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		}
 	}],
 
@@ -73,7 +73,7 @@ const card: Card = {
 	illustrator: "Anesaki Dynamic",
 
 	description: {
-		en: "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.",
+		'en-us': "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.",
 	},
 }
 

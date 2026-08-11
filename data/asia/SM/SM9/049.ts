@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スターミー",
+		'ja-jp': "スターミー",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "輝く コアは 海の 宝石と 呼ばれる。 高価な アクセサリーに 変えられ 隠れて 取引される。",
+		'ja-jp': "輝く コアは 海の 宝石と 呼ばれる。 高価な アクセサリーに 変えられ 隠れて 取引される。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある[水]または[超]エネルギーを3枚まで、自分のベンチポケモン1匹につける。そして山札を切る。",
+				'ja-jp': "自分の山札にある[水]または[超]エネルギーを3枚まで、自分のベンチポケモン1匹につける。そして山札を切る。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒトデマン",
+		'ja-jp': "ヒトデマン",
 	},
 
 	retreat: 0,

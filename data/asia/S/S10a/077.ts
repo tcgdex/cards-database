@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カビゴン",
+		'ja-jp': "カビゴン",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "出し抜けに 村に現れ たちまち 米蔵を 空にする 大食漢。 古より 災厄のひとつと 数えられし行為なり。",
+		'ja-jp': "出し抜けに 村に現れ たちまち 米蔵を 空にする 大食漢。 古より 災厄のひとつと 数えられし行為なり。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "へいきなしぼう" },
 			effect: {
-				ja: "このポケモンは、相手のポケモンが使うワザの効果を受けない。",
+				'ja-jp': "このポケモンは、相手のポケモンが使うワザの効果を受けない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンをねむりにする。このねむりで投げるコインは2回になり、すべてオモテが出ないと回復しない。",
+				'ja-jp': "このポケモンをねむりにする。このねむりで投げるコインは2回になり、すべてオモテが出ないと回復しない。",
 			},
 		},
 	],

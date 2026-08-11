@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Rattata",
-		de: "Rattfratz"
+		'en-us': "Rattata",
+		'de-de': "Rattfratz"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lunge",
-				de: "Ausfall"
+				'en-us': "Lunge",
+				'de-de': "Ausfall"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Cautious in the extreme, its hardy vitality lets it live in any kind of environment."
+		'en-us': "Cautious in the extreme, its hardy vitality lets it live in any kind of environment."
 	},
 
 	variants: [

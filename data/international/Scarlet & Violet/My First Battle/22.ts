@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../My First Battle"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Electrode",
+		'en-us': "Electrode",
 	},
 
 	rarity: "None",
@@ -14,7 +14,7 @@ const card: Card = {
 	hp: 80,
 	types: ["Lightning"],
 	evolveFrom: {
-		en: "Voltorb",
+		'en-us': "Voltorb",
 	},
 	stage: "Stage1",
 
@@ -22,7 +22,7 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Speed Attack",
+			'en-us': "Speed Attack",
 		},
 
 		damage: 40
@@ -30,11 +30,11 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Lightning"],
 
 		name: {
-			en: "Single Shot Blast",
+			'en-us': "Single Shot Blast",
 		},
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
 		},
 
 		damage: 120

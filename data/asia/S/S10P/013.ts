@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コータス",
+		'ja-jp': "コータス",
 		'zh-tw': "煤炭龜",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "甲羅の 中で 石炭を 燃やし エネルギーに している。 ピンチの ときは 黒い ススを 噴き出す。",
+		'ja-jp': "甲羅の 中で 石炭を 燃やし エネルギーに している。 ピンチの ときは 黒い ススを 噴き出す。",
 		'zh-tw': "會在甲殼中燃燒煤炭產生能量。遇到危機時 會噴出黑色的煤煙。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ふむ",
+				'ja-jp': "ふむ",
 				'zh-tw': "踩",
 			},
 			damage: 30,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "かえんほうしゃ",
+				'ja-jp': "かえんほうしゃ",
 				'zh-tw': "噴射火焰",
 			},
 			damage: 130,
 			cost: ["Fire", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。",
 				'zh-tw': "選擇1個這隻寶可夢身上附加的能量，將其丟棄。",
 			},
 		},

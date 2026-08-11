@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "อาร์โบ",
-		id: "Ekans"
+		'th-th': "อาร์โบ",
+		'id-id': "Ekans"
 	},
 
 	illustrator: "Kedamahadaitai Yawarakai",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		th: "ของโปรดคือไข่ของโปเกมอนนก เนื่องจากชอบกลืนเข้าไปทั้งคำโดยไม่เคี้ยว บางครั้งจึงติดคอจนหมดสติไป",
-		id: "Telur Pokémon burung adalah makanan favorit Ekans. Kadang Pokémon ini menelan telur tanpa mengunyahnya, sehingga pingsan karena telur tersangkut di kerongkongannya."
+		'th-th': "ของโปรดคือไข่ของโปเกมอนนก เนื่องจากชอบกลืนเข้าไปทั้งคำโดยไม่เคี้ยว บางครั้งจึงติดคอจนหมดสติไป",
+		'id-id': "Telur Pokémon burung adalah makanan favorit Ekans. Kadang Pokémon ini menelan telur tanpa mengunyahnya, sehingga pingsan karena telur tersangkut di kerongkongannya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ระเบิดกรด",
-			id: "Semprotan Asam"
+			'th-th': "ระเบิดกรด",
+			'id-id': "Semprotan Asam"
 		},
 
 		effect: {
-			th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว เลือกพลังงานที่ติดอยู่กับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม 1 ลูก ทิ้งที่ตำแหน่งทิ้งการ์ด",
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, pilih 1 Energi yang dikenakan pada Pokémon Bertarung lawan, lalu buang ke Trash."
+			'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกหัว เลือกพลังงานที่ติดอยู่กับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม 1 ลูก ทิ้งที่ตำแหน่งทิ้งการ์ด",
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, pilih 1 Energi yang dikenakan pada Pokémon Bertarung lawan, lalu buang ke Trash."
 		},
 
 		damage: 30,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Walrein",
-		fr: "Kaimorse",
-		es: "Walrein",
-		it: "Walrein",
-		pt: "Walrein",
-		de: "Walraisa"
+		'en-us': "Walrein",
+		'fr-fr': "Kaimorse",
+		'es-es': "Walrein",
+		'it-it': "Walrein",
+		'pt-br': "Walrein",
+		'de-de': "Walraisa"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sealeo",
-		fr: "Phogleur",
-		es: "Sealeo",
-		it: "Sealeo",
-		pt: "Sealeo",
-		de: "Seejong"
+		'en-us': "Sealeo",
+		'fr-fr': "Phogleur",
+		'es-es': "Sealeo",
+		'it-it': "Sealeo",
+		'pt-br': "Sealeo",
+		'de-de': "Seejong"
 	},
 
 	stage: "Stage2",
@@ -45,20 +45,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Powder Snow",
-				fr: "Poudreuse",
-				es: "Nieve Polvo",
-				it: "Polneve",
-				pt: "Neve em Pó",
-				de: "Pulverschnee"
+				'en-us': "Powder Snow",
+				'fr-fr': "Poudreuse",
+				'es-es': "Nieve Polvo",
+				'it-it': "Polneve",
+				'pt-br': "Neve em Pó",
+				'de-de': "Pulverschnee"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent's Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 60,
 
@@ -71,20 +71,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Big Tusk",
-				fr: "Défenses Puissantes",
-				es: "Gran Colmillo",
-				it: "Zannagrande",
-				pt: "Presa Grande",
-				de: "Großer Stoßzahn"
+				'en-us': "Big Tusk",
+				'fr-fr': "Défenses Puissantes",
+				'es-es': "Gran Colmillo",
+				'it-it': "Zannagrande",
+				'pt-br': "Presa Grande",
+				'de-de': "Großer Stoßzahn"
 			},
 			effect: {
-				en: "This attack does 120 damage minus 10 damage for each damage counter on this Pokémon.",
-				fr: "Cette attaque inflige 120 dégâts moins 10 dégâts pour chaque marqueur de dégâts placé sur ce Pokémon.",
-				es: "Este ataque hace 120 puntos de daño menos 10 puntos de daño por cada contador de daño en este Pokémon.",
-				it: "Questo attacco infligge 120 danni meno 10 per ogni segnalino danno presente su questo Pokémon.",
-				pt: "Este ataque causa 120 de danos menos 10 de danos para cada contador de danos neste Pokémon.",
-				de: "Dieser Angriff fügt 120 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke auf diesem Pokémon zu."
+				'en-us': "This attack does 120 damage minus 10 damage for each damage counter on this Pokémon.",
+				'fr-fr': "Cette attaque inflige 120 dégâts moins 10 dégâts pour chaque marqueur de dégâts placé sur ce Pokémon.",
+				'es-es': "Este ataque hace 120 puntos de daño menos 10 puntos de daño por cada contador de daño en este Pokémon.",
+				'it-it': "Questo attacco infligge 120 danni meno 10 per ogni segnalino danno presente su questo Pokémon.",
+				'pt-br': "Este ataque causa 120 de danos menos 10 de danos para cada contador de danos neste Pokémon.",
+				'de-de': "Dieser Angriff fügt 120 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke auf diesem Pokémon zu."
 			},
 			damage: "120-",
 
@@ -101,7 +101,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It shatters ice with its big tusks. Its thick blubber repels not only the cold, but also enemy attacks.",
+		'en-us': "It shatters ice with its big tusks. Its thick blubber repels not only the cold, but also enemy attacks.",
 	},
 
 	thirdParty: {

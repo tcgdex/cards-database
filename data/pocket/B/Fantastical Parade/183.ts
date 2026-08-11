@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [260],
 
 	name: {
-		en: "Mega Swampert ex"
+		'en-us': "Mega Swampert ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Marshtomp"
+		'en-us': "Marshtomp"
 	},
 
 	description: {
-		en: "Its arms are hard as rock. With one swing, it can\nbreak an enormous boulder into pieces."
+		'en-us': "Its arms are hard as rock. With one swing, it can\nbreak an enormous boulder into pieces."
 	},
 
 	stage: "Stage2",
@@ -29,14 +29,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Strong-Armed Destroyer"
+			'en-us': "Strong-Armed Destroyer"
 		},
 
 		damage: 150,
 		cost: ["Water", "Water", "Water"],
 
 		effect: {
-			en: "Discard 2 random Energy from among the Energy attached to all Pokémon (both yours and your opponent's)."
+			'en-us': "Discard 2 random Energy from among the Energy attached to all Pokémon (both yours and your opponent's)."
 		}
 	}],
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Scraggy",
-		fr: "Baggiguane",
-		es: "Scraggy",
-		it: "Scraggy",
-		pt: "Scraggy",
-		de: "Zurrokex"
+		'en-us': "Scraggy",
+		'fr-fr': "Baggiguane",
+		'es-es': "Scraggy",
+		'it-it': "Scraggy",
+		'pt-br': "Scraggy",
+		'de-de': "Zurrokex"
 	},
 
 	illustrator: "Mizue",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shed Skin",
-				fr: "Mue",
+				'en-us': "Shed Skin",
+				'fr-fr': "Mue",
 			},
 			effect: {
-				en: "Heal 40 damage from this Pokémon.",
-				fr: "Soignez 40 dégâts à ce Pokémon.",
+				'en-us': "Heal 40 damage from this Pokémon.",
+				'fr-fr': "Soignez 40 dégâts à ce Pokémon.",
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Lunge",
-				fr: "Coup Rapide",
+				'en-us': "Lunge",
+				'fr-fr': "Coup Rapide",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 			},
 			damage: 40,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It immediately headbutts anyones that makes eye contact with it. Its skull is massively thick.",
+		'en-us': "It immediately headbutts anyones that makes eye contact with it. Its skull is massively thick.",
 	},
 
 	thirdParty: {

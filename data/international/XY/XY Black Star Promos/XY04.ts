@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Sylveon",
-		fr: "Nymphali",
+		'en-us': "Sylveon",
+		'fr-fr': "Nymphali",
 	},
 
 	illustrator: "5ban Graphics",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Disarming Voice",
-				fr: "Voix Enjôleuse",
+				'en-us': "Disarming Voice",
+				'fr-fr': "Voix Enjôleuse",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'en-us': "Your opponent's Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 			},
 			damage: 20,
 
@@ -52,8 +52,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fairy Wind",
-				fr: "Vent Féérique",
+				'en-us': "Fairy Wind",
+				'fr-fr': "Vent Féérique",
 			},
 
 			damage: 60,
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It sends a soothing aura from its ribbonlike feelers to calm fights.",
+		'en-us': "It sends a soothing aura from its ribbonlike feelers to calm fights.",
 	},
 
 	thirdParty: {

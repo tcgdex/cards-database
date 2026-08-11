@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [524],
 
 	name: {
-		en: "Roggenrola"
+		'en-us': "Roggenrola"
 	},
 
 	illustrator: "Kanako Eo",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "When it detects a noise, it starts to move.\nThe energy core inside it makes this Pokémon\nslightly warm to the touch."
+		'en-us': "When it detects a noise, it starts to move.\nThe energy core inside it makes this Pokémon\nslightly warm to the touch."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Mud-Slap"
+			'en-us': "Mud-Slap"
 		},
 
 		damage: 30,

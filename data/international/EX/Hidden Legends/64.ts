@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Machop",
-		fr: "Machoc",
-		de: "Machollo"
+		'en-us': "Machop",
+		'fr-fr': "Machoc",
+		'de-de': "Machollo"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knuckle Punch",
-				fr: "Coud'phalange",
-				de: "Knuckle Punch"
+				'en-us': "Knuckle Punch",
+				'fr-fr': "Coud'phalange",
+				'de-de': "Knuckle Punch"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Karate Chop",
-				fr: "Poing-Karaté",
-				de: "Karate Chop"
+				'en-us': "Karate Chop",
+				'fr-fr': "Poing-Karaté",
+				'de-de': "Karate Chop"
 			},
 			effect: {
-				en: "Does 30 damage minus 10 damage for each damage counter on Machop.",
-				fr: "Inflige 30 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Machoc.",
-				de: "Does 30 damage minus 10 damage for each damage counter on Machop."
+				'en-us': "Does 30 damage minus 10 damage for each damage counter on Machop.",
+				'fr-fr': "Inflige 30 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Machoc.",
+				'de-de': "Does 30 damage minus 10 damage for each damage counter on Machop."
 			},
 			damage: "30-",
 

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Virizion",
+		'en-us': "Virizion",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Draw",
+				'en-us': "Double Draw",
 			},
 			effect: {
-				en: "Draw 2 cards.",
+				'en-us': "Draw 2 cards.",
 			},
 
 		},
@@ -42,10 +42,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leaf Wallop",
+				'en-us': "Leaf Wallop",
 			},
 			effect: {
-				en: "During your next turn, this Pokémon's Leaf Wallop attack does 40 more damage (before applying Weakness and Resistance).",
+				'en-us': "During your next turn, this Pokémon's Leaf Wallop attack does 40 more damage (before applying Weakness and Resistance).",
 			},
 			damage: 40,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its head sprouts horns as sharp as blades. Using whirlwind-like movements, it confounds and swiftly cuts opponents.",
+		'en-us': "Its head sprouts horns as sharp as blades. Using whirlwind-like movements, it confounds and swiftly cuts opponents.",
 	},
 
 	thirdParty: {

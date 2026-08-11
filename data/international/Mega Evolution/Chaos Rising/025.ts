@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It's nature's cleaner-it eats anything and everything, including garbage and rotten things. The ground near its nest is always clean.",
+		'en-us': "It's nature's cleaner-it eats anything and everything, including garbage and rotten things. The ground near its nest is always clean.",
 	},
 
 
 	name: {
-		en: "Wimpod",
-		fr: "Sovkipou",
-		es: "Wimpod",
+		'en-us': "Wimpod",
+		'fr-fr': "Sovkipou",
+		'es-es': "Wimpod",
 		'es-mx': "Wimpod",
-		de: "Reißlaus",
-		it: "Wimpod",
-		pt: "Wimpod"
+		'de-de': "Reißlaus",
+		'it-it': "Wimpod",
+		'pt-br': "Wimpod"
 	},
 
 	illustrator: "0313",
@@ -29,26 +29,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Gnaw",
-			fr: "Ronge",
-			es: "Roer",
+			'en-us': "Gnaw",
+			'fr-fr': "Ronge",
+			'es-es': "Roer",
 			'es-mx': "Mordisquear",
-			de: "Nagen",
-			it: "Rosicchiamento",
-			pt: "Roída"
+			'de-de': "Nagen",
+			'it-it': "Rosicchiamento",
+			'pt-br': "Roída"
 		},
 
 		cost: ["Water"],
 		damage: 10
 	}, {
 		name: {
-			en: "Corkscrew Punch",
-			fr: "Poing Tire-Bouchon",
-			es: "Puño Tirabuzón",
+			'en-us': "Corkscrew Punch",
+			'fr-fr': "Poing Tire-Bouchon",
+			'es-es': "Puño Tirabuzón",
 			'es-mx': "Puño Sacacorchos",
-			de: "Korkenzieherhieb",
-			it: "Pugno Rotante",
-			pt: "Soco Saca-rolha"
+			'de-de': "Korkenzieherhieb",
+			'it-it': "Pugno Rotante",
+			'pt-br': "Soco Saca-rolha"
 		},
 
 		cost: ["Colorless", "Colorless"],

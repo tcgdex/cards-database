@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Latios Ex（デルタ種）",
+		'ja-jp': "Latios Ex（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "リンクウィング",
+				'ja-jp': "リンクウィング",
 			},
 			effect: {
-				ja: "あなたのラティアス、ラティアスEx、ラティオス、およびラティオスExのそれぞれのリトリートコストは0です。",
+				'ja-jp': "あなたのラティアス、ラティアスEx、ラティオス、およびラティオスExのそれぞれのリトリートコストは0です。",
 			},
 		}],
 
@@ -29,17 +29,17 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "アイスバリア",
+				'ja-jp': "アイスバリア",
 			},
 			effect: {
-				ja: "対戦相手の次のターン中に、対戦相手のポケモンエクスがラティオスExに与えたダメージを含む攻撃のすべての影響を防ぎます。",
+				'ja-jp': "対戦相手の次のターン中に、対戦相手のポケモンエクスがラティオスExに与えたダメージを含む攻撃のすべての影響を防ぎます。",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				ja: "ハイドロスプラッシュ",
+				'ja-jp': "ハイドロスプラッシュ",
 			},
 			damage: 60,
 		},

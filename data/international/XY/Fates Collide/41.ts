@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Larvitar",
-		fr: "Embrylex",
-		es: "Larvitar",
-		it: "Larvitar",
-		pt: "Larvitar",
-		de: "Larvitar"
+		'en-us': "Larvitar",
+		'fr-fr': "Embrylex",
+		'es-es': "Larvitar",
+		'it-it': "Larvitar",
+		'pt-br': "Larvitar",
+		'de-de': "Larvitar"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mountain Munch",
-				fr: "Dévore-Montagne",
-				es: "Mascamontañas",
-				it: "Sgranocchiacime",
-				pt: "Masca-Montanhas",
-				de: "Gipfelmampfer"
+				'en-us': "Mountain Munch",
+				'fr-fr': "Dévore-Montagne",
+				'es-es': "Mascamontañas",
+				'it-it': "Sgranocchiacime",
+				'pt-br': "Masca-Montanhas",
+				'de-de': "Gipfelmampfer"
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-				es: "Descarta la primera carta de la baraja de tu rival.",
-				it: "Scarta la prima carta del mazzo del tuo avversario.",
-				pt: "Descarte o card de cima do baralho do seu oponente.",
-				de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard the top card of your opponent's deck.",
+				'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+				'es-es': "Descarta la primera carta de la baraja de tu rival.",
+				'it-it': "Scarta la prima carta del mazzo del tuo avversario.",
+				'pt-br': "Descarte o card de cima do baralho do seu oponente.",
+				'de-de': "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Corkscrew Punch",
-				fr: "Poing Tire-Bouchon",
-				es: "Puño Tirabuzón",
-				it: "Pugno Rotante",
-				pt: "Soco Saca-rolha",
-				de: "Korkenzieherhieb"
+				'en-us': "Corkscrew Punch",
+				'fr-fr': "Poing Tire-Bouchon",
+				'es-es': "Puño Tirabuzón",
+				'it-it': "Pugno Rotante",
+				'pt-br': "Soco Saca-rolha",
+				'de-de': "Korkenzieherhieb"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil.",
+		'en-us': "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil.",
 	},
 
 	thirdParty: {

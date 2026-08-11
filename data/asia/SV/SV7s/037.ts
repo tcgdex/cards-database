@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "อบาโกรา",
-		id: "Carracosta"
+		'th-th': "อบาโกรา",
+		'id-id': "Carracosta"
 	},
 
 	illustrator: "LINNE",
@@ -15,8 +15,8 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		th: "เพราะกลืนกินเหยื่ออย่างหมดจดไม่เหลือแม้แต่เปลือกหรือกระดูก ทำให้กระดองของมันเติบโตหนาและแข็งขึ้น",
-		id: "Karena cangkang dan tulang mangsanya pun disantap habis hingga bersih tanpa sisa, tempurung Carracosta tumbuh tebal dan keras."
+		'th-th': "เพราะกลืนกินเหยื่ออย่างหมดจดไม่เหลือแม้แต่เปลือกหรือกระดูก ทำให้กระดองของมันเติบโตหนาและแข็งขึ้น",
+		'id-id': "Karena cangkang dan tulang mangsanya pun disantap habis hingga bersih tanpa sisa, tempurung Carracosta tumbuh tebal dan keras."
 	},
 
 	stage: "Stage2",
@@ -25,20 +25,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			th: "เตรียมใจพร้อมจากยุคดึกดำบรรพ์",
-			id: "Pemahaman Primitif"
+			'th-th': "เตรียมใจพร้อมจากยุคดึกดำบรรพ์",
+			'id-id': "Pemahaman Primitif"
 		},
 
 		effect: {
-			th: "ตราบใดที่โปเกมอนนี้ยังอยู่ แดเมจของท่าต่อสู้ที่โปเกมอนฝ่ายเราใช้ทำกับโปเกมอนวิวัฒนาการบนตำแหน่งต่อสู้ฝ่ายตรงข้าม จะถูก [+30]",
-			id: "Selama Pokémon ini ada di Arena, kerusakan akibat serangan yang digunakan oleh Pokémon sendiri kepada Pokémon Evolusi di Arena Bertarung lawan bertambah sejumlah 30."
+			'th-th': "ตราบใดที่โปเกมอนนี้ยังอยู่ แดเมจของท่าต่อสู้ที่โปเกมอนฝ่ายเราใช้ทำกับโปเกมอนวิวัฒนาการบนตำแหน่งต่อสู้ฝ่ายตรงข้าม จะถูก [+30]",
+			'id-id': "Selama Pokémon ini ada di Arena, kerusakan akibat serangan yang digunakan oleh Pokémon sendiri kepada Pokémon Evolusi di Arena Bertarung lawan bertambah sejumlah 30."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			th: "ไฮโดรแครช",
-			id: "Hydro Crash"
+			'th-th': "ไฮโดรแครช",
+			'id-id': "Hydro Crash"
 		},
 
 		damage: 150,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Jungle'
 
 const card: Card = {
 	name: {
-		en: "Nidoran♀",
-		fr: "Nidoran ♀",
-		de: "Nidoran W"
+		'en-us': "Nidoran♀",
+		'fr-fr': "Nidoran ♀",
+		'de-de': "Nidoran W"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Fury Swipes",
-				fr: "Combo-griffe",
-				de: "Kratzfurie"
+				'en-us': "Fury Swipes",
+				'fr-fr': "Combo-griffe",
+				'de-de': "Kratzfurie"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf drei Münzen. Deiser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt, 10 Schadenspunkte zu."
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf drei Münzen. Deiser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt, 10 Schadenspunkte zu."
 			},
 			damage: "10x",
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la famille",
-				de: "Familienruf"
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la famille",
+				'de-de': "Familienruf"
 			},
 			effect: {
-				en: "Search your deck for a Basic Pokémon named Nidoran M or Nidoran F and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
-				fr: "Cherchez dans votre deck un Pokémon de base appelé Nidoran ♀ or Nidoran ♂ et placez-le sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)",
-				de: "Suche in deinem Deck nach einer Basis-Pokémon-Karte mit dem Namen Nidoran M oder Nidoran W und lege sie auf deine Bank. Mische dein deck dannach. (Du kannst diesen Angriff nicht einsetzen, wenn deine Bank voll ist.)"
+				'en-us': "Search your deck for a Basic Pokémon named Nidoran M or Nidoran F and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
+				'fr-fr': "Cherchez dans votre deck un Pokémon de base appelé Nidoran ♀ or Nidoran ♂ et placez-le sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)",
+				'de-de': "Suche in deinem Deck nach einer Basis-Pokémon-Karte mit dem Namen Nidoran M oder Nidoran W und lege sie auf deine Bank. Mische dein deck dannach. (Du kannst diesen Angriff nicht einsetzen, wenn deine Bank voll ist.)"
 			},
 
 		},
@@ -72,8 +72,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Although small, its venomous barbs make this Pokémon dangerous. The female has smaller horns.",
-		fr: "Ce Pokémon est hérissé de dards empoisonnés. Les femelles ont des dards plus petits."
+		'en-us': "Although small, its venomous barbs make this Pokémon dangerous. The female has smaller horns.",
+		'fr-fr': "Ce Pokémon est hérissé de dards empoisonnés. Les femelles ont des dards plus petits."
 	},
 
 	variants: [

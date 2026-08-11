@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アオキのネッコアラ",
+		'ja-jp': "アオキのネッコアラ",
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ネッコアラの よだれを 薄めると 強力な 麻酔薬になる。 昔の 手術に 使われた。",
+		'ja-jp': "ネッコアラの よだれを 薄めると 強力な 麻酔薬になる。 昔の 手術に 使われた。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "むきりょくチャージ" },
 			effect: {
-				ja: "このポケモンがベンチにいるなら、自分の番に1回使える。自分の手札からエネルギーを1枚選び、バトル場の「アオキのポケモン」につける。",
+				'ja-jp': "このポケモンがベンチにいるなら、自分の番に1回使える。自分の手札からエネルギーを1枚選び、バトル場の「アオキのポケモン」につける。",
 			},
 		},
 	],
@@ -33,7 +33,7 @@ const card: Card = {
 			name: { ja: "いねむりドロー" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンをねむりにする。自分の山札を2枚引く。",
+				'ja-jp': "このポケモンをねむりにする。自分の山札を2枚引く。",
 			},
 		},
 	],

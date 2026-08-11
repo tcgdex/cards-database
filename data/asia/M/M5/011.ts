@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グレンアルマ",
+		'ja-jp': "グレンアルマ",
 	},
 
 	illustrator: "Jiro Sasumo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "エスパーと 炎の エネルギーで 強化された 鎧を まとう。 灼熱の 火の玉を 放つ。",
+		'ja-jp': "エスパーと 炎の エネルギーで 強化された 鎧を まとう。 灼熱の 火の玉を 放つ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "40+",
 			cost: ["Fire"],
 			effect: {
-				ja: "[R]エネルギーがついている自分のベンチポケモンの数×40ダメージ追加。",
+				'ja-jp': "[R]エネルギーがついている自分のベンチポケモンの数×40ダメージ追加。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カルボウ",
+		'ja-jp': "カルボウ",
 	},
 
 	retreat: 2,

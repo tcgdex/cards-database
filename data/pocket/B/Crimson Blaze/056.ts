@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [137],
 
 	name: {
-		en: "Porygon"
+		'en-us': "Porygon"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "State-of-the-art technology was used to create\nPorygon. It was the first artificial Pokémon to be\ncreated via computer programming."
+		'en-us': "State-of-the-art technology was used to create\nPorygon. It was the first artificial Pokémon to be\ncreated via computer programming."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Stiffen"
+			'en-us': "Stiffen"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes −20 damage from attacks."
+			'en-us': "During your opponent's next turn, this Pokémon takes −20 damage from attacks."
 		}
 	}],
 

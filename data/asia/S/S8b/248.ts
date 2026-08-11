@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アーマーガアV",
+		'ja-jp': "アーマーガアV",
 	},
 
 	illustrator: "KIYOTAKA OSHIYAMA",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Metal"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 190,
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「スカイハリケーン」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「スカイハリケーン」が使えない。",
 			},
 		},
 	],

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hisuian Sneasler",
-		fr: "Farfurex de Hisui",
-		es: "Sneasler de Hisui",
-		it: "Sneasler di Hisui",
-		pt: "Sneasler de Hisui",
-		de: "Hisui-Snieboss"
+		'en-us': "Hisuian Sneasler",
+		'fr-fr': "Farfurex de Hisui",
+		'es-es': "Sneasler de Hisui",
+		'it-it': "Sneasler di Hisui",
+		'pt-br': "Sneasler de Hisui",
+		'de-de': "Hisui-Snieboss"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Hisuian Sneasel",
-		fr: "Farfuret de Hisui",
-		es: "Sneasel de Hisui",
-		it: "Sneasel di Hisui",
-		pt: "Sneasel de Hisui",
-		de: "Hisui-Sniebel"
+		'en-us': "Hisuian Sneasel",
+		'fr-fr': "Farfuret de Hisui",
+		'es-es': "Sneasel de Hisui",
+		'it-it': "Sneasel di Hisui",
+		'pt-br': "Sneasel de Hisui",
+		'de-de': "Hisui-Sniebel"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Carry and Climb",
-			fr: "Attrape et Grimpe",
-			es: "Cargar y Escalar",
-			it: "Piglia e Arrampicati",
-			pt: "Pegar e Escalar",
-			de: "Tragen und klettern"
+			'en-us': "Carry and Climb",
+			'fr-fr': "Attrape et Grimpe",
+			'es-es': "Cargar y Escalar",
+			'it-it': "Piglia e Arrampicati",
+			'pt-br': "Pegar e Escalar",
+			'de-de': "Tragen und klettern"
 		},
 
 		effect: {
-			en: "As long as this Pokémon is on your Bench, your Active Pokémon's Retreat Cost is ColorlessColorless less.",
-			fr: "Tant que ce Pokémon est sur votre Banc, le Coût de Retraite de votre Pokémon Actif est diminué de ColorlessColorless.",
-			es: "Mientras este Pokémon esté en tu Banca, el Coste de Retirada de tu Pokémon Activo es de ColorlessColorless menos.",
-			it: "Fintanto che questo Pokémon è nella tua panchina, il costo di ritirata del tuo Pokémon attivo è ridotto di ColorlessColorless.",
-			pt: "Enquanto este Pokémon estiver no seu Banco, o custo de Recuo do seu Pokémon Ativo será ColorlessColorless a menos.",
-			de: "Solange sich dieses Pokémon auf deiner Bank befindet, verringern sich die Rückzugskosten deines Aktiven Pokémon um ColorlessColorless."
+			'en-us': "As long as this Pokémon is on your Bench, your Active Pokémon's Retreat Cost is ColorlessColorless less.",
+			'fr-fr': "Tant que ce Pokémon est sur votre Banc, le Coût de Retraite de votre Pokémon Actif est diminué de ColorlessColorless.",
+			'es-es': "Mientras este Pokémon esté en tu Banca, el Coste de Retirada de tu Pokémon Activo es de ColorlessColorless menos.",
+			'it-it': "Fintanto che questo Pokémon è nella tua panchina, il costo di ritirata del tuo Pokémon attivo è ridotto di ColorlessColorless.",
+			'pt-br': "Enquanto este Pokémon estiver no seu Banco, o custo de Recuo do seu Pokémon Ativo será ColorlessColorless a menos.",
+			'de-de': "Solange sich dieses Pokémon auf deiner Bank befindet, verringern sich die Rückzugskosten deines Aktiven Pokémon um ColorlessColorless."
 		}
 	}],
 
@@ -57,12 +57,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Claw Slash",
-			fr: "Tranch'Griffe",
-			es: "Cuchillada Garra",
-			it: "Lacerartiglio",
-			pt: "Golpe de Garra",
-			de: "Klauenschlitzer"
+			'en-us': "Claw Slash",
+			'fr-fr': "Tranch'Griffe",
+			'es-es': "Cuchillada Garra",
+			'it-it': "Lacerartiglio",
+			'pt-br': "Golpe de Garra",
+			'de-de': "Klauenschlitzer"
 		},
 
 		damage: 60
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Because of Sneasler's virulent poison and daunting physical prowess, no other species could hope to best it on the frozen highlands. Preferring solitude, this species does not form packs.",
+		'en-us': "Because of Sneasler's virulent poison and daunting physical prowess, no other species could hope to best it on the frozen highlands. Preferring solitude, this species does not form packs.",
 	},
 
 	variants: [

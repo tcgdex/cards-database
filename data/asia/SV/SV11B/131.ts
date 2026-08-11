@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドッコラー",
+		'ja-jp': "ドッコラー",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "角材を 振り回して 戦う。 重い 角材を 苦も なく 持つようになると 進化は 近い。",
+		'ja-jp': "角材を 振り回して 戦う。 重い 角材を 苦も なく 持つようになると 進化は 近い。",
 	},
 
 	stage: "Basic",

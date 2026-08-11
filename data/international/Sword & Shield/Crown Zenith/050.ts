@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Heliolisk",
-		fr: "Iguolta",
-		es: "Heliolisk",
-		it: "Heliolisk",
-		pt: "Heliolisk",
-		de: "Elezard"
+		'en-us': "Heliolisk",
+		'fr-fr': "Iguolta",
+		'es-es': "Heliolisk",
+		'it-it': "Heliolisk",
+		'pt-br': "Heliolisk",
+		'de-de': "Elezard"
 	},
 
 	illustrator: "Akira Komayama",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Helioptile",
-		fr: "Galvaran",
-		es: "Helioptile",
-		it: "Helioptile",
-		pt: "Helioptile",
-		de: "Eguana"
+		'en-us': "Helioptile",
+		'fr-fr': "Galvaran",
+		'es-es': "Helioptile",
+		'it-it': "Helioptile",
+		'pt-br': "Helioptile",
+		'de-de': "Eguana"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Static Shock",
-			fr: "Choc Statique",
-			es: "Impacto Estático",
-			it: "Shock Statico",
-			pt: "Choque de Estática",
-			de: "Statischer Schock"
+			'en-us': "Static Shock",
+			'fr-fr': "Choc Statique",
+			'es-es': "Impacto Estático",
+			'it-it': "Shock Statico",
+			'pt-br': "Choque de Estática",
+			'de-de': "Statischer Schock"
 		},
 
 		damage: 30
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			en: "Wild Charge",
-			fr: "Éclair Fou",
-			es: "Voltio Cruel",
-			it: "Sprizzalampo",
-			pt: "Ataque Selvagem",
-			de: "Stromstoß"
+			'en-us': "Wild Charge",
+			'fr-fr': "Éclair Fou",
+			'es-es': "Voltio Cruel",
+			'it-it': "Sprizzalampo",
+			'pt-br': "Ataque Selvagem",
+			'de-de': "Stromstoß"
 		},
 
 		effect: {
-			en: "This Pokémon also does 50 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 50 dégâts.",
-			es: "Este Pokémon también se hace 50 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 50 danni a se stesso.",
-			pt: "Este Pokémon também causa 50 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 50 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 50 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 50 dégâts.",
+			'es-es': "Este Pokémon también se hace 50 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 50 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 50 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 50 Schadenspunkte zu."
 		},
 
 		damage: 150
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A now-vanished desert culture treasured these Pokémon. Appropriately, when Heliolisk came to the Galar region, treasure came with them.",
+		'en-us': "A now-vanished desert culture treasured these Pokémon. Appropriately, when Heliolisk came to the Galar region, treasure came with them.",
 	},
 
 	

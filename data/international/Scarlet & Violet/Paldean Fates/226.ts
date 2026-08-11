@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pawmi",
-		fr: "Pohm",
-		es: "Pawmi",
-		it: "Pawmi",
-		de: "Pamo",
-		pt: "Pawmi"
+		'en-us': "Pawmi",
+		'fr-fr': "Pohm",
+		'es-es': "Pawmi",
+		'it-it': "Pawmi",
+		'de-de': "Pamo",
+		'pt-br': "Pawmi"
 	},
 
 	rarity: "Illustration rare",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Light Punch",
-			fr: "Poing Léger",
-			es: "Puño Ligero",
-			it: "Pugnetto",
-			de: "Leichter Hieb",
-			pt: "Soco de Luz"
+			'en-us': "Light Punch",
+			'fr-fr': "Poing Léger",
+			'es-es': "Puño Ligero",
+			'it-it': "Pugnetto",
+			'de-de': "Leichter Hieb",
+			'pt-br': "Soco de Luz"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Zap Kick",
-			fr: "Coup de Pied Ravageur",
-			es: "Electropatada",
-			it: "Dinamocalcio",
-			de: "Stromtritt",
-			pt: "Chute Zap"
+			'en-us': "Zap Kick",
+			'fr-fr': "Coup de Pied Ravageur",
+			'es-es': "Electropatada",
+			'it-it': "Dinamocalcio",
+			'de-de': "Stromtritt",
+			'pt-br': "Chute Zap"
 		},
 
 		damage: 20
@@ -71,7 +71,7 @@ const card: Card = {
 	illustrator: "REND",
 
 	description: {
-		en: "The pads of its paws are electricity-discharging organs. Pawmi fires electricity from its forepaws while standing unsteadily on its hind legs.",
+		'en-us': "The pads of its paws are electricity-discharging organs. Pawmi fires electricity from its forepaws while standing unsteadily on its hind legs.",
 	},
 
 }

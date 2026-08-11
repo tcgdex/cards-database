@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "鑽角犀獸",
-		ja: "サイドン"
+		'ja-jp': "サイドン"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "進化後變得只用後腳就能站立。如果被牠的角刺中， 就連岩石也會被開出洞來。",
-		ja: "進化して 後ろ足だけで 立つようになった。 ツノで 突くと 岩石にも 穴を 開けてしまう。"
+		'ja-jp': "進化して 後ろ足だけで 立つようになった。 ツノで 突くと 岩石にも 穴を 開けてしまう。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "角鑽",
-			ja: "つのドリル"
+			'ja-jp': "つのドリル"
 		},
 
 		damage: 30,
@@ -32,12 +32,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "猛撞",
-			ja: "とっしん"
+			'ja-jp': "とっしん"
 		},
 
 		effect: {
 			'zh-tw': "這隻寶可夢也受到30點傷害。",
-			ja: "このポケモンにも30ダメージ。"
+			'ja-jp': "このポケモンにも30ダメージ。"
 		},
 
 		damage: 120,

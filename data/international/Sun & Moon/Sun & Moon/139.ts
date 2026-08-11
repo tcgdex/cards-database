@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Lapras GX",
-		fr: "Lokhlass GX",
-		es: "Lapras GX",
-		it: "Lapras GX",
-		pt: "Lapras GX",
-		de: "Lapras GX"
+		'en-us': "Lapras GX",
+		'fr-fr': "Lokhlass GX",
+		'es-es': "Lapras GX",
+		'it-it': "Lapras GX",
+		'pt-br': "Lapras GX",
+		'de-de': "Lapras GX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collecte",
-				es: "Coleccionar",
-				it: "Tassa",
-				pt: "Coleta",
-				de: "Sammeln"
+				'en-us': "Collect",
+				'fr-fr': "Collecte",
+				'es-es': "Coleccionar",
+				'it-it': "Tassa",
+				'pt-br': "Coleta",
+				'de-de': "Sammeln"
 			},
 			effect: {
-				en: "Draw 3 cards.",
-				fr: "Piochez 3 cartes.",
-				es: "Roba 3 cartas.",
-				it: "Pesca tre carte.",
-				pt: "Compre 3 cartas.",
-				de: "Ziehe 3 Karten."
+				'en-us': "Draw 3 cards.",
+				'fr-fr': "Piochez 3 cartes.",
+				'es-es': "Roba 3 cartas.",
+				'it-it': "Pesca tre carte.",
+				'pt-br': "Compre 3 cartas.",
+				'de-de': "Ziehe 3 Karten."
 			},
 
 		},
@@ -58,20 +58,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Blizzard Burn",
-				fr: "Blizzard Étourdissant",
-				es: "Quemadura de Hielo",
-				it: "Pirobora",
-				pt: "Queimadura de Neve",
-				de: "Blizzardbrand"
+				'en-us': "Blizzard Burn",
+				'fr-fr': "Blizzard Étourdissant",
+				'es-es': "Quemadura de Hielo",
+				'it-it': "Pirobora",
+				'pt-br': "Queimadura de Neve",
+				'de-de': "Blizzardbrand"
 			},
 			effect: {
-				en: "This Pokémon can’t attack during your next turn.",
-				fr: "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
-				es: "Este Pokémon no puede atacar durante tu próximo turno.",
-				it: "Questo Pokémon non può attaccare durante il tuo prossimo turno.",
-				pt: "Este Pokémon não poderá atacar durante a sua próxima vez de jogar.",
-				de: "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
+				'en-us': "This Pokémon can’t attack during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				'es-es': "Este Pokémon no puede atacar durante tu próximo turno.",
+				'it-it': "Questo Pokémon non può attaccare durante il tuo prossimo turno.",
+				'pt-br': "Este Pokémon não poderá atacar durante a sua próxima vez de jogar.",
+				'de-de': "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
 			},
 			damage: 160,
 
@@ -83,20 +83,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Beam GX",
-				fr: "Laser Glace GX",
-				es: "Rayo Hielo GX",
-				it: "Geloraggio-GX",
-				pt: "Raio Congelante GX",
-				de: "Eisstrahl GX"
+				'en-us': "Ice Beam GX",
+				'fr-fr': "Laser Glace GX",
+				'es-es': "Rayo Hielo GX",
+				'it-it': "Geloraggio-GX",
+				'pt-br': "Raio Congelante GX",
+				'de-de': "Eisstrahl GX"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Paralyzed. (You can’t use more than 1 GX attack in a game.)",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Paralysé. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-				es: "El Pokémon Activo de tu rival pasa a estar Paralizado. (No puedes usar más de 1 ataque GX en una partida).",
-				it: "Il Pokémon attivo del tuo avversario viene paralizzato. Non puoi usare più di un attacco GX a partita.",
-				pt: "O Pokémon Ativo do seu oponente agora está Paralisado (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt paralysiert. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				'en-us': "Your opponent’s Active Pokémon is now Paralyzed. (You can’t use more than 1 GX attack in a game.)",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Paralysé. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Paralizado. (No puedes usar más de 1 ataque GX en una partida).",
+				'it-it': "Il Pokémon attivo del tuo avversario viene paralizzato. Non puoi usare più di un attacco GX a partita.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Paralisado (você não pode usar mais de 1 ataque GX por partida).",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt paralysiert. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: 100,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フロストロトム",
+		'ja-jp': "フロストロトム",
 	},
 
 	illustrator: "MAHOU",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "プラズマで できた 体を 持つ。 電化製品に 潜りこみ 悪さを することで 知られている。",
+		'ja-jp': "プラズマで できた 体を 持つ。 電化製品に 潜りこみ 悪さを することで 知られている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ロトモーター" },
 			effect: {
-				ja: "自分のトラッシュに「ポケモンのどうぐ」が9枚以上あるなら、このポケモンが使うワザに必要なエネルギーは、すべてなくなる。",
+				'ja-jp': "自分のトラッシュに「ポケモンのどうぐ」が9枚以上あるなら、このポケモンが使うワザに必要なエネルギーは、すべてなくなる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "相手の場のポケモンについているエネルギーの数x20ダメージ追加。",
+				'ja-jp': "相手の場のポケモンについているエネルギーの数x20ダメージ追加。",
 			},
 		},
 	],

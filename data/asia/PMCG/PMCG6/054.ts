@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナツメのゲンガー",
+		'ja-jp': "ナツメのゲンガー",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "痛みアンプ",
+				'ja-jp': "痛みアンプ",
 			},
 			effect: {
-				ja: "対戦相手のポケモンのそれぞれにダメージカウンターを置いてください。",
+				'ja-jp': "対戦相手のポケモンのそれぞれにダメージカウンターを置いてください。",
 			},
 		},
 		{
 			cost: ["Psychic", "Psychic", "Psychic"],
 			name: {
-				ja: "夜の呼び出し",
+				'ja-jp': "夜の呼び出し",
 			},
 			effect: {
-				ja: "この攻撃が防御ポケモンをノックアウトしない限り、2コインをひっくり返します。両方がヘッドである場合、対戦相手は彼または彼女のアクティブなポケモンとそれに取り付けられたすべてのカードを彼または彼女のデッキにシャッフルします。",
+				'ja-jp': "この攻撃が防御ポケモンをノックアウトしない限り、2コインをひっくり返します。両方がヘッドである場合、対戦相手は彼または彼女のアクティブなポケモンとそれに取り付けられたすべてのカードを彼または彼女のデッキにシャッフルします。",
 			},
 			damage: 40,
 		},

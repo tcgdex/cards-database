@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キバゴ",
+		'ja-jp': "キバゴ",
 	},
 
 	illustrator: "Orca",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "岩や 樹木に 独特の 歯形を 見かけたら 近くに キバゴが 棲んでいるはずだ。",
+		'ja-jp': "岩や 樹木に 独特の 歯形を 見かけたら 近くに キバゴが 棲んでいるはずだ。",
 	},
 
 	stage: "Basic",

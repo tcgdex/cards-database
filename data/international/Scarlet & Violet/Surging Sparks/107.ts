@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gastrodon",
-		fr: "Tritosor",
-		es: "Gastrodon",
-		it: "Gastrodon",
-		pt: "Gastrodon",
-		de: "Gastrodon"
+		'en-us': "Gastrodon",
+		'fr-fr': "Tritosor",
+		'es-es': "Gastrodon",
+		'it-it': "Gastrodon",
+		'pt-br': "Gastrodon",
+		'de-de': "Gastrodon"
 	},
 
 	rarity: "Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Shellos",
-		fr: "Sancoki",
-		es: "Shellos",
-		it: "Shellos",
-		pt: "Shellos",
-		de: "Schalellos"
+		'en-us': "Shellos",
+		'fr-fr': "Sancoki",
+		'es-es': "Shellos",
+		'it-it': "Shellos",
+		'pt-br': "Shellos",
+		'de-de': "Schalellos"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Sticky Bind",
-			fr: "Entrave Collante",
-			es: "Sujeción Pegajosa",
-			it: "Legame Viscoso",
-			pt: "Aprisionamento Pegajoso",
-			de: "Klebrige Fessel"
+			'en-us': "Sticky Bind",
+			'fr-fr': "Entrave Collante",
+			'es-es': "Sujeción Pegajosa",
+			'it-it': "Legame Viscoso",
+			'pt-br': "Aprisionamento Pegajoso",
+			'de-de': "Klebrige Fessel"
 		},
 
 		effect: {
-			en: "As long as this Pokémon is on your Bench, Benched Stage 2 Pokémon (both yours and your opponent's) have no Abilities.",
-			fr: "Tant que ce Pokémon est sur votre Banc, les Pokémon de Banc de Niveau 2 (les vôtres et ceux de votre adversaire) n'ont pas de talent.",
-			es: "Mientras este Pokémon esté en tu Banca, los Pokémon de Fase 2 en Banca (tanto tuyos como de tu rival) no tienen ninguna habilidad.",
-			it: "Fintanto che questo Pokémon è nella tua panchina, i Pokémon di Fase 2 in panchina, sia tuoi che del tuo avversario, non hanno abilità.",
-			pt: "Enquanto este Pokémon estiver no seu Banco, os Pokémon Estágio 2 no Banco (seus e do seu oponente) não terão Habilidades.",
-			de: "Solange sich dieses Pokémon auf deiner Bank befindet, haben Phase-2-Pokémon auf der Bank (deiner und der deines Gegners) keine Fähigkeiten."
+			'en-us': "As long as this Pokémon is on your Bench, Benched Stage 2 Pokémon (both yours and your opponent's) have no Abilities.",
+			'fr-fr': "Tant que ce Pokémon est sur votre Banc, les Pokémon de Banc de Niveau 2 (les vôtres et ceux de votre adversaire) n'ont pas de talent.",
+			'es-es': "Mientras este Pokémon esté en tu Banca, los Pokémon de Fase 2 en Banca (tanto tuyos como de tu rival) no tienen ninguna habilidad.",
+			'it-it': "Fintanto che questo Pokémon è nella tua panchina, i Pokémon di Fase 2 in panchina, sia tuoi che del tuo avversario, non hanno abilità.",
+			'pt-br': "Enquanto este Pokémon estiver no seu Banco, os Pokémon Estágio 2 no Banco (seus e do seu oponente) não terão Habilidades.",
+			'de-de': "Solange sich dieses Pokémon auf deiner Bank befindet, haben Phase-2-Pokémon auf der Bank (deiner und der deines Gegners) keine Fähigkeiten."
 		}
 	}],
 
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			en: "Mud Shot",
-			fr: "Tir de Boue",
-			es: "Disparo Lodo",
-			it: "Colpodifango",
-			pt: "Tiro de Lama",
-			de: "Lehmschuss"
+			'en-us': "Mud Shot",
+			'fr-fr': "Tir de Boue",
+			'es-es': "Disparo Lodo",
+			'it-it': "Colpodifango",
+			'pt-br': "Tiro de Lama",
+			'de-de': "Lehmschuss"
 		},
 
 		damage: 80

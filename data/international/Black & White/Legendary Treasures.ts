@@ -1,13 +1,13 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Black & White'
 
 const bw11: Set = {
 	id: "bw11",
 
 	name: {
-		en: "Legendary Treasures",
+		'en-us': "Legendary Treasures",
 		// fr: "Trésors Légendaires", // ONLY PTCGO
-		pt: "Tesouros Lendários"
+		'pt-br': "Tesouros Lendários"
 	},
 
 	serie: serie,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バルジーナ",
+		'ja-jp': "バルジーナ",
 	},
 
 	illustrator: "Nisota Niso",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "空から 地上を 観察して 弱った 獲物に 襲いかかる。 骨で 着飾る 習性。",
+		'ja-jp': "空から 地上を 観察して 弱った 獲物に 襲いかかる。 骨で 着飾る 習性。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ボーンスナイプ" },
 			cost: ["Darkness"],
 			effect: {
-				ja: "特殊エネルギーがついている相手のポケモン1匹に、70ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "特殊エネルギーがついている相手のポケモン1匹に、70ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "バルチャイ",
+		'ja-jp': "バルチャイ",
 	},
 
 	retreat: 2,

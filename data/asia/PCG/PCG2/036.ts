@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "natu",
+		'ja-jp': "natu",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ミラーコート",
+				'ja-jp': "ミラーコート",
 			},
 			effect: {
-				ja: "NATUが敵の攻撃によって燃やされたり、毒されたりした場合（NATUがノックアウトされたとしても）、攻撃するポケモンは、同じ特別な条件の影響を受けます（1つしかない場合は1）。",
+				'ja-jp': "NATUが敵の攻撃によって燃やされたり、毒されたりした場合（NATUがノックアウトされたとしても）、攻撃するポケモンは、同じ特別な条件の影響を受けます（1つしかない場合は1）。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "かみそりの風",
+				'ja-jp': "かみそりの風",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
 			},
 			damage: 20,
 		},

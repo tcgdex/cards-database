@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アリゲイツ",
+		'ja-jp': "アリゲイツ",
 		'zh-tw': "藍鱷",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "一度 かみつくと キバが 抜けるまで 絶対に 離さない。 抜けた キバは すぐに 生えてくる。",
+		'ja-jp': "一度 かみつくと キバが 抜けるまで 絶対に 離さない。 抜けた キバは すぐに 生えてくる。",
 		'zh-tw': "一旦咬住，除非牙齒脫落，否則絕不會鬆口。脫落的牙齒馬上就能再長出來。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "スプラッシュ",
+				'ja-jp': "スプラッシュ",
 				'zh-tw': "飛濺",
 			},
 			damage: 30,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "なみのり",
+				'ja-jp': "なみのり",
 				'zh-tw': "衝浪",
 			},
 			damage: 60,
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ワニノコ",
+		'ja-jp': "ワニノコ",
 	},
 
 	retreat: 2,

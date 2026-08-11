@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "セレビィ",
+		'ja-jp': "セレビィ",
 	},
 
 	illustrator: "Naoki Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "未来から 時を 渡って やって来た。 キズを 癒し 草木に 力を 分け与える。",
+		'ja-jp': "未来から 時を 渡って やって来た。 キズを 癒し 草木に 力を 分け与える。",
 	},
 
 	stage: "Basic",

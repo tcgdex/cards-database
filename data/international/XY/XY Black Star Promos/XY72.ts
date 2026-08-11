@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Latios EX",
-		fr: "Latios EX",
+		'en-us': "Latios EX",
+		'fr-fr': "Latios EX",
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Fast Raid",
-				fr: "Raid Éclair",
+				'en-us': "Fast Raid",
+				'fr-fr': "Raid Éclair",
 			},
 			effect: {
-				en: "If you go first, you can use this attack on your first turn.",
-				fr: "Si vous jouez en premier, vous pouvez utiliser cette attaque lors de votre premier tour.",
+				'en-us': "If you go first, you can use this attack on your first turn.",
+				'fr-fr': "Si vous jouez en premier, vous pouvez utiliser cette attaque lors de votre premier tour.",
 			},
 			damage: 40,
 
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Light Pulse",
-				fr: "Vibrumineuse"
+				'en-us': "Light Pulse",
+				'fr-fr': "Vibrumineuse"
 			},
 			effect: {
-				en: "Prevent all effects of your opponent's attacks, except damage, done to this Pokémon during your opponent's next turn.",
-				fr: "Évitez tous les effets des attaques de votre adversaire, excepté les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire."
+				'en-us': "Prevent all effects of your opponent's attacks, except damage, done to this Pokémon during your opponent's next turn.",
+				'fr-fr': "Évitez tous les effets des attaques de votre adversaire, excepté les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire."
 			},
 			damage: 110,
 

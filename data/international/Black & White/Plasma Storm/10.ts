@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Leavanny",
-		fr: "Manternel",
-		es: "Leavanny",
-		it: "Leavanny",
-		pt: "Leavanny",
-		de: "Matrifol"
+		'en-us': "Leavanny",
+		'fr-fr': "Manternel",
+		'es-es': "Leavanny",
+		'it-it': "Leavanny",
+		'pt-br': "Leavanny",
+		'de-de': "Matrifol"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Swadloon",
-		fr: "Couverdure",
+		'en-us': "Swadloon",
+		'fr-fr': "Couverdure",
 	},
 
 	stage: "Stage2",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cleave",
-				fr: "Frappe Adhésive",
+				'en-us': "Cleave",
+				'fr-fr': "Frappe Adhésive",
 			},
 			effect: {
-				en: "Flip 2 coins. If both of them are heads, discard all Energy attached to the Defending Pokémon.",
-				fr: "Lancez 2 pièces. Si vous obtenez 2 côtés face, défaussez toutes les Énergies attachées au Pokémon Défenseur.",
+				'en-us': "Flip 2 coins. If both of them are heads, discard all Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez 2 côtés face, défaussez toutes les Énergies attachées au Pokémon Défenseur.",
 			},
 			damage: 30,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leaf Blade",
-				fr: "Lame-Feuille",
+				'en-us': "Leaf Blade",
+				'fr-fr': "Lame-Feuille",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 70,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Upon finding a small Pokémon, it weaves clothing for it from leaves by using the sticky silk secreted from its mouth.",
+		'en-us': "Upon finding a small Pokémon, it weaves clothing for it from leaves by using the sticky silk secreted from its mouth.",
 	},
 
 	thirdParty: {

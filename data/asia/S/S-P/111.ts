@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブリムオンV",
+		'ja-jp': "ブリムオンV",
 		'zh-tw': "火伊布VMAX",
 	},
 
@@ -18,12 +18,12 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "まよいのはどう",
+				'ja-jp': "まよいのはどう",
 				'zh-tw': "極巨爆裂",
 			},
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをこんらんにする。",
+				'ja-jp': "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをこんらんにする。",
 				'zh-tw': "將自己的牌庫上方5張卡丟棄，造成其中的能量卡的張數×100點傷害。",
 			},
 		},
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "90+",
 			cost: ["Psychic", "Psychic", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンがこんらんなら、90ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンがこんらんなら、90ダメージ追加。",
 			},
 		},
 	],

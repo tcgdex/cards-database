@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コダック",
+		'ja-jp': "コダック",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "念力を 使うと 頭痛が するので 普段は なるべく 何も しないで ボーっと 過ごしているよ。",
+		'ja-jp': "念力を 使うと 頭痛が するので 普段は なるべく 何も しないで ボーっと 過ごしているよ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、次の相手の番、相手は手札からトレーナーズを出して使えない。",
+				'ja-jp': "コインを1回投げオモテなら、次の相手の番、相手は手札からトレーナーズを出して使えない。",
 			},
 		},
 	],

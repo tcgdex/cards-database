@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Delcatty",
-		fr: "Delcatty",
-		es: "Delcatty",
+		'en-us': "Delcatty",
+		'fr-fr': "Delcatty",
+		'es-es': "Delcatty",
 		'es-mx': "Delcatty",
-		de: "Enekoro",
-		it: "Delcatty",
-		pt: "Delcatty"
+		'de-de': "Enekoro",
+		'it-it': "Delcatty",
+		'pt-br': "Delcatty"
 	},
 
 	evolveFrom: {
-		en: "Skitty",
-		fr: "Skitty",
-		es: "Skitty",
+		'en-us': "Skitty",
+		'fr-fr': "Skitty",
+		'es-es': "Skitty",
 		'es-mx': "Skitty",
-		de: "Eneco",
-		it: "Skitty",
-		pt: "Skitty",
+		'de-de': "Eneco",
+		'it-it': "Skitty",
+		'pt-br': "Skitty",
 	},
 
 	illustrator: "buchi",
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Cat Kick",
-			fr: "Coup d'Patte",
-			es: "Patada Gato",
+			'en-us': "Cat Kick",
+			'fr-fr': "Coup d'Patte",
+			'es-es': "Patada Gato",
 			'es-mx': "Patada Gatuna",
-			de: "Katzenkick",
-			it: "Calciogatto",
-			pt: "Chute do Gato"
+			'de-de': "Katzenkick",
+			'it-it': "Calciogatto",
+			'pt-br': "Chute do Gato"
 		},
 
 		damage: 40
@@ -50,23 +50,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Energy Crush",
-			fr: "Écras'Énergie",
-			es: "Comprimir Energía",
+			'en-us': "Energy Crush",
+			'fr-fr': "Écras'Énergie",
+			'es-es': "Comprimir Energía",
 			'es-mx': "Aplastamiento de Energía",
-			de: "Zermalmende Energie",
-			it: "Sgretolenergia",
-			pt: "Esmagamento de Energia"
+			'de-de': "Zermalmende Energie",
+			'it-it': "Sgretolenergia",
+			'pt-br': "Esmagamento de Energia"
 		},
 
 		effect: {
-			en: "This attack does 40 damage for each Energy attached to all of your opponent's Pokémon.",
-			fr: "Cette attaque inflige 40 dégâts pour chaque Énergie attachée à tous les Pokémon de votre adversaire.",
-			es: "Este ataque hace 40 puntos de daño por cada Energía unida a cada uno de los Pokémon de tu rival.",
+			'en-us': "This attack does 40 damage for each Energy attached to all of your opponent's Pokémon.",
+			'fr-fr': "Cette attaque inflige 40 dégâts pour chaque Énergie attachée à tous les Pokémon de votre adversaire.",
+			'es-es': "Este ataque hace 40 puntos de daño por cada Energía unida a cada uno de los Pokémon de tu rival.",
 			'es-mx': "Este ataque hace 40 puntos de daño por cada Energía unida a cada uno de los Pokémon de tu rival.",
-			de: "Diese Attacke fügt für jede an alle Pokémon deines Gegners angelegte Energie 40 Schadenspunkte zu.",
-			it: "Questo attacco infligge 40 danni per ogni Energia assegnata ai Pokémon del tuo avversario.",
-			pt: "Este ataque causa 40 pontos de dano para cada Energia ligada a todos os Pokémon do seu oponente."
+			'de-de': "Diese Attacke fügt für jede an alle Pokémon deines Gegners angelegte Energie 40 Schadenspunkte zu.",
+			'it-it': "Questo attacco infligge 40 danni per ogni Energia assegnata ai Pokémon del tuo avversario.",
+			'pt-br': "Este ataque causa 40 pontos de dano para cada Energia ligada a todos os Pokémon do seu oponente."
 		},
 
 		damage: "40×"
@@ -82,7 +82,7 @@ const card: Card = {
 	regulationMark: "J",
 
 	description: {
-		en: "It dislikes dirty places. It often searches for a comfortable place in which to groom itself.",
+		'en-us': "It dislikes dirty places. It often searches for a comfortable place in which to groom itself.",
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dolliv",
-		fr: "Olivado",
-		de: "Olivinio",
-		it: "Dolliv",
-		es: "Dolliv",
-		pt: "Dolliv",
+		'en-us': "Dolliv",
+		'fr-fr': "Olivado",
+		'de-de': "Olivinio",
+		'it-it': "Dolliv",
+		'es-es': "Dolliv",
+		'pt-br': "Dolliv",
 		'es-mx': "Dolliv"
 	},
 
@@ -21,12 +21,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Smoliv",
-		fr: "Olivini",
-		de: "Olini",
-		it: "Smoliv",
-		es: "Smoliv",
-		pt: "Smoliv",
+		'en-us': "Smoliv",
+		'fr-fr': "Olivini",
+		'de-de': "Olini",
+		'it-it': "Smoliv",
+		'es-es': "Smoliv",
+		'pt-br': "Smoliv",
 		'es-mx': "Smoliv"
 	},
 	stage: "Stage1",
@@ -35,34 +35,34 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Nutrients",
-			fr: "Nutriments",
-			de: "Nährstoffe",
-			it: "Nutrienti",
-			es: "Nutrientes",
-			pt: "Nutrientes",
+			'en-us': "Nutrients",
+			'fr-fr': "Nutriments",
+			'de-de': "Nährstoffe",
+			'it-it': "Nutrienti",
+			'es-es': "Nutrientes",
+			'pt-br': "Nutrientes",
 			'es-mx': "Nutrientes"
 		},
 
 		effect: {
-			en: "Heal 40 damage from 1 of your Pokémon.",
-			fr: "Soignez 40 dégâts de l'un de vos Pokémon.",
-			de: "Heile 40 Schadenspunkte bei 1 deiner Pokémon.",
-			it: "Cura uno dei tuoi Pokémon da 40 danni.",
-			es: "Cura 40 puntos de daño a uno de tus Pokémon.",
-			pt: "Cure 40 pontos de dano de 1 dos seus Pokémon.",
+			'en-us': "Heal 40 damage from 1 of your Pokémon.",
+			'fr-fr': "Soignez 40 dégâts de l'un de vos Pokémon.",
+			'de-de': "Heile 40 Schadenspunkte bei 1 deiner Pokémon.",
+			'it-it': "Cura uno dei tuoi Pokémon da 40 danni.",
+			'es-es': "Cura 40 puntos de daño a uno de tus Pokémon.",
+			'pt-br': "Cure 40 pontos de dano de 1 dos seus Pokémon.",
 			'es-mx': "Cura 40 puntos de daño a 1 de tus Pokémon."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			de: "Tackle",
-			it: "Azione",
-			es: "Placaje",
-			pt: "Investida",
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'de-de': "Tackle",
+			'it-it': "Azione",
+			'es-es': "Placaje",
+			'pt-br': "Investida",
 			'es-mx': "Tacleada"
 		},
 

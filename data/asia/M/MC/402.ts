@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イワンコ",
+		'ja-jp': "イワンコ",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "小さいころは よく 懐く。 育つと 気性が 荒くなるが 主への 恩は 忘れない。",
+		'ja-jp': "小さいころは よく 懐く。 育つと 気性が 荒くなるが 主への 恩は 忘れない。",
 	},
 
 	stage: "Basic",

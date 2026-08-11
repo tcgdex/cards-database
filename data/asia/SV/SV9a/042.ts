@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "シロナのフカマル",
+		'ja-jp': "シロナのフカマル",
 		'zh-tw': "<竹蘭的>圓陸鯊",
 		'zh-cn': "<竹蘭的>圓陸鯊"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "穴倉に 潜み 獲物や 敵が 横切ると 飛びだして 噛みつく。 勢い余り 歯が 欠けることも。",
+		'ja-jp': "穴倉に 潜み 獲物や 敵が 横切ると 飛びだして 噛みつく。 勢い余り 歯が 欠けることも。",
 		'zh-tw': "潛伏在地洞內，如果有獵物 或敵人經過，就會撲出來咬住。 有時會用力過猛而咬壞牙齒。",
 		'zh-cn': "潛伏在地洞內，如果有獵物 或敵人經過，就會撲出來咬住。 有時會用力過猛而咬壞牙齒。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "いわとばし",
+			'ja-jp': "いわとばし",
 			'zh-tw': "岩石投擲",
 			'zh-cn': "岩石投擲"
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 		damage: 20,
 
 		effect: {
-			ja: "このワザのダメージは抵抗力を計算しない。",
+			'ja-jp': "このワザのダメージは抵抗力を計算しない。",
 			'zh-tw': "這個招式的傷害不計算抵抗力。",
 			'zh-cn': "這個招式的傷害不計算抵抗力。"
 		}

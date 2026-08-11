@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "チャデス"
+		'ja-jp': "チャデス"
 	},
 
 	illustrator: "Saboteri",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "ヤバチャの リージョンフォームに 見えるが まったく 関係のない ポケモンと 最近 判明した。"
+		'ja-jp': "ヤバチャの リージョンフォームに 見えるが まったく 関係のない ポケモンと 最近 判明した。"
 	},
 
 	stage: "Basic",
@@ -24,11 +24,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "くらがくれ"
+			'ja-jp': "くらがくれ"
 		},
 
 		effect: {
-			ja: "このポケモンは、ベンチにいるかぎり、相手のポケモンからワザのダメージや効果を受けない。"
+			'ja-jp': "このポケモンは、ベンチにいるかぎり、相手のポケモンからワザのダメージや効果を受けない。"
 		}
 	}],
 
@@ -36,7 +36,7 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "ひっかける"
+			'ja-jp': "ひっかける"
 		},
 
 		damage: 10

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Foongus",
-		fr: "Trompignon",
-		es: "Foongus",
-		it: "Foongus",
-		pt: "Foongus",
-		de: "Tarnpignon"
+		'en-us': "Foongus",
+		'fr-fr': "Trompignon",
+		'es-es': "Foongus",
+		'it-it': "Foongus",
+		'pt-br': "Foongus",
+		'de-de': "Tarnpignon"
 	},
 
 	illustrator: "match",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
 			},
 
 			damage: 20,
@@ -60,7 +60,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "For some reason, this Pokémon resembles a Poké Ball. They release poison spores to repel those who try to catch them.",
+		'en-us': "For some reason, this Pokémon resembles a Poké Ball. They release poison spores to repel those who try to catch them.",
 	},
 
 	thirdParty: {

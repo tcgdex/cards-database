@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Golbat"
+		'id-id': "Golbat"
 	},
 
 	illustrator: "Eri Yamaki",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Golbat berjalan dengan cekatan menggunakan kakinya yang kecil. Pokémon ini mengendap mendekati mangsa yang sedang tidur, menusukkan taringnya, dan menyedot darah."
+		'id-id': "Golbat berjalan dengan cekatan menggunakan kakinya yang kecil. Pokémon ini mengendap mendekati mangsa yang sedang tidur, menusukkan taringnya, dan menyedot darah."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Mengisap Darah"
+			'id-id': "Mengisap Darah"
 		},
 
 		effect: {
-			id: "Pulihkan HP Pokémon ini sejumlah kerusakan yang diberikan kepada Pokémon Bertarung lawan."
+			'id-id': "Pulihkan HP Pokémon ini sejumlah kerusakan yang diberikan kepada Pokémon Bertarung lawan."
 		},
 
 		damage: 30,

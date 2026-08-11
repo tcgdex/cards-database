@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スキスター",
+		'ja-jp': "スキスター",
 	},
 
 	rarity: "Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ツインプレイ",
+				'ja-jp': "ツインプレイ",
 			},
 			effect: {
-				ja: "ScytherとScyther Exの任意の組み合わせで、デッキを最大2で検索し、ベンチに置きます。その後、デッキをシャッフルします。",
+				'ja-jp': "ScytherとScyther Exの任意の組み合わせで、デッキを最大2で検索し、ベンチに置きます。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "敏ility性",
+				'ja-jp': "敏ility性",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、対戦相手の次のターン中にScytherに行われたダメージを含む攻撃のすべての影響を防ぎます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、対戦相手の次のターン中にScytherに行われたダメージを含む攻撃のすべての影響を防ぎます。",
 			},
 			damage: 20,
 		},

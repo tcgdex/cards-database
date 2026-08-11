@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Dark Tyranitar",
-		de: "Dunkles Despotar"
+		'en-us': "Dark Tyranitar",
+		'de-de': "Dunkles Despotar"
 	},
 
 	illustrator: "Nakaoka",
@@ -23,7 +23,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dark Pupitar",
+		'en-us': "Dark Pupitar",
 	},
 
 	stage: "Stage2",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Grind",
-				de: "Grind"
+				'en-us': "Grind",
+				'de-de': "Grind"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each Energy attached to Dark Tyranitar.",
-				de: "Does 10 damage plus 10 more damage for each Energy attached to Dark Tyranitar."
+				'en-us': "Does 10 damage plus 10 more damage for each Energy attached to Dark Tyranitar.",
+				'de-de': "Does 10 damage plus 10 more damage for each Energy attached to Dark Tyranitar."
 			},
 			damage: "10+",
 
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spinning Tail",
-				de: "Spinning Tail"
+				'en-us': "Spinning Tail",
+				'de-de': "Spinning Tail"
 			},
 			effect: {
-				en: "Does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				de: "Does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'de-de': "Does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},
@@ -69,12 +69,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite Off",
-				de: "Bite Off"
+				'en-us': "Bite Off",
+				'de-de': "Bite Off"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Pokémon-ex, this attack does 70 damage plus 50 more damage.",
-				de: "If the Defending Pokémon is Pokémon-ex, this attack does 70 damage plus 50 more damage."
+				'en-us': "If the Defending Pokémon is Pokémon-ex, this attack does 70 damage plus 50 more damage.",
+				'de-de': "If the Defending Pokémon is Pokémon-ex, this attack does 70 damage plus 50 more damage."
 			},
 			damage: "70+",
 

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Volcarona",
-		fr: "Pyrax",
+		'en-us': "Volcarona",
+		'fr-fr': "Pyrax",
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Fire",
 	],
 	evolveFrom: {
-		en: "Larvesta",
-		fr: "Pyronille",
+		'en-us': "Larvesta",
+		'fr-fr': "Pyronille",
 	},
 	stage: "Stage1",
 
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Scorching Scales",
-				fr: "Écailles Brûlantes",
+				'en-us': "Scorching Scales",
+				'fr-fr': "Écailles Brûlantes",
 			},
 			effect: {
-				en: "Put 4 damage counters instead of 2 on your opponent's Burned Pokémon between turns.",
-				fr: "Placez 4 marqueurs de dégâts au lieu de 2 sur le Pokémon Brûlé de votre adversaire entre chaque tour.",
+				'en-us': "Put 4 damage counters instead of 2 on your opponent's Burned Pokémon between turns.",
+				'fr-fr': "Placez 4 marqueurs de dégâts au lieu de 2 sur le Pokémon Brûlé de votre adversaire entre chaque tour.",
 			},
 		},
 	],
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Burning Wind",
-				fr: "Vent Torride",
+				'en-us': "Burning Wind",
+				'fr-fr': "Vent Torride",
 			},
 			effect: {
-				en: "You may discard an Energy attached to this Pokémon. If you do, the Defending Pokémon is now Burned.",
-				fr: "Vous pouvez défausser une Énergie attachée à ce Pokémon. Dans ce cas, le Pokémon Défenseur est maintenant Brûlé.",
+				'en-us': "You may discard an Energy attached to this Pokémon. If you do, the Defending Pokémon is now Burned.",
+				'fr-fr': "Vous pouvez défausser une Énergie attachée à ce Pokémon. Dans ce cas, le Pokémon Défenseur est maintenant Brûlé.",
 			},
 			damage: 70,
 
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A sea of fire engulfs the surroundings of their battles, since they use their six wings to scatter their ember scales.",
+		'en-us': "A sea of fire engulfs the surroundings of their battles, since they use their six wings to scatter their ember scales.",
 	},
 }
 

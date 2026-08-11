@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Togepi",
-		de: "Togepi"
+		'en-us': "Togepi",
+		'de-de': "Togepi"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Yawn",
-				de: "Yawn"
+				'en-us': "Yawn",
+				'de-de': "Yawn"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mini-Metronome",
-				de: "Mini-Metronome"
+				'en-us': "Mini-Metronome",
+				'de-de': "Mini-Metronome"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 of the Defending Pokémon's attacks. Mini-Metronome copies that attack except for its Energy cost. (You must still do anything else required for that attack.) (No matter what type that Pokémon is, Togepi's type is still Colorless.) Togepi performs that attack.\"",
-				de: "Flip a coin. If heads, choose 1 of the Defending Pokémon's attacks. Mini-Metronome copies that attack except for its Energy cost. (You must still do anything else required for that attack.) (No matter what type that Pokémon is, Togepi's type is still .) Togepi performs that attack."
+				'en-us': "Flip a coin. If heads, choose 1 of the Defending Pokémon's attacks. Mini-Metronome copies that attack except for its Energy cost. (You must still do anything else required for that attack.) (No matter what type that Pokémon is, Togepi's type is still Colorless.) Togepi performs that attack.\"",
+				'de-de': "Flip a coin. If heads, choose 1 of the Defending Pokémon's attacks. Mini-Metronome copies that attack except for its Energy cost. (You must still do anything else required for that attack.) (No matter what type that Pokémon is, Togepi's type is still .) Togepi performs that attack."
 			},
 
 		},

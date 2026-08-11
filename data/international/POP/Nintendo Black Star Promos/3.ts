@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Nintendo Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Treecko",
-		fr: "Arcko"
+		'en-us': "Treecko",
+		'fr-fr': "Arcko"
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -27,8 +27,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Slap",
-				fr: "Coud'keu"
+				'en-us': "Tail Slap",
+				'fr-fr': "Coud'keu"
 			},
 
 			damage: 10,
@@ -40,8 +40,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'herbe"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'herbe"
 			},
 
 			damage: 20,

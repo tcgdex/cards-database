@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダーテング",
+		'ja-jp': "ダーテング",
 	},
 
 	illustrator: "Uninori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "老木の てっぺんで 葉っぱの 団扇を あおぐと 木枯らしが 吹き 季節が 冬になると いわれる。",
+		'ja-jp': "老木の てっぺんで 葉っぱの 団扇を あおぐと 木枯らしが 吹き 季節が 冬になると いわれる。",
 	},
 
 	stage: "Stage2",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "ダーテングGX",
+		'ja-jp': "ダーテングGX",
 	},
 
 	retreat: 2,

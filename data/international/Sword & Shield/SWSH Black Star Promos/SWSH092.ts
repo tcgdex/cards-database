@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
@@ -7,18 +7,18 @@ const card: Card = {
 	category: "Pokemon",
 
 	description: {
-		en: "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail."
+		'en-us': "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail."
 	},
 
 	stage: "Basic",
 
 	name: {
-		en: "Charmander",
-		fr: "Salamèche",
-		de: "Glumanda",
-		es: "Charmander",
-		pt: "Charmander",
-		it: "Charmander"
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche",
+		'de-de': "Glumanda",
+		'es-es': "Charmander",
+		'pt-br': "Charmander",
+		'it-it': "Charmander"
 	},
 
 	rarity: "Promo",
@@ -30,32 +30,32 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			de: "Sammeln",
-			es: "Coleccionar",
-			pt: "Coleta",
-			it: "Tassa"
+			'en-us': "Collect",
+			'fr-fr': "Collecte",
+			'de-de': "Sammeln",
+			'es-es': "Coleccionar",
+			'pt-br': "Coleta",
+			'it-it': "Tassa"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			de: "Ziehe 1 Karte.",
-			es: "Roba 1 carta.",
-			pt: "Compre 1 carta.",
-			it: "Pesca una carta."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'de-de': "Ziehe 1 Karte.",
+			'es-es': "Roba 1 carta.",
+			'pt-br': "Compre 1 carta.",
+			'it-it': "Pesca una carta."
 		}
 	}, {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			en: "Flare",
-			fr: "Flamboiement",
-			de: "Flackern",
-			es: "Llama",
-			pt: "Chama",
-			it: "Fiammata"
+			'en-us': "Flare",
+			'fr-fr': "Flamboiement",
+			'de-de': "Flackern",
+			'es-es': "Llama",
+			'pt-br': "Chama",
+			'it-it': "Fiammata"
 		},
 
 		damage: 30

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Budew",
-		fr: "Rozbouton",
-		es: "Budew",
+		'en-us': "Budew",
+		'fr-fr': "Rozbouton",
+		'es-es': "Budew",
 		'es-mx': "Budew",
-		de: "Knospi",
-		it: "Budew",
-		pt: "Budew"
+		'de-de': "Knospi",
+		'it-it': "Budew",
+		'pt-br': "Budew"
 	},
 
 	illustrator: "Yoriyuki Ikegami",
@@ -24,23 +24,23 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Itchy Pollen",
-			fr: "Pollen Démangeant",
-			es: "Polen Picazón",
+			'en-us': "Itchy Pollen",
+			'fr-fr': "Pollen Démangeant",
+			'es-es': "Polen Picazón",
 			'es-mx': "Polen Picazón",
-			de: "Juckende Pollen",
-			it: "Polline Urticante",
-			pt: "Comichão de Pólen"
+			'de-de': "Juckende Pollen",
+			'it-it': "Polline Urticante",
+			'pt-br': "Comichão de Pólen"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, they can't play any Item cards from their hand.",
-			fr: "Pendant le prochain tour de votre adversaire, il ne peut pas jouer de cartes Objet de sa main.",
-			es: "Durante el próximo turno de tu rival, este no puede jugar ninguna carta de Objeto de su mano.",
+			'en-us': "During your opponent's next turn, they can't play any Item cards from their hand.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, il ne peut pas jouer de cartes Objet de sa main.",
+			'es-es': "Durante el próximo turno de tu rival, este no puede jugar ninguna carta de Objeto de su mano.",
 			'es-mx': "Durante el próximo turno de tu rival, este no puede jugar ninguna carta de Objeto de su mano.",
-			de: "Dein Gegner kann während seines nächsten Zuges keine Itemkarten aus seiner Hand spielen.",
-			it: "Durante il suo prossimo turno, il tuo avversario non può giocare le carte Strumento che ha in mano.",
-			pt: "Durante o próximo turno do seu oponente, ele não poderá jogar nenhuma carta de Item da mão dele."
+			'de-de': "Dein Gegner kann während seines nächsten Zuges keine Itemkarten aus seiner Hand spielen.",
+			'it-it': "Durante il suo prossimo turno, il tuo avversario non può giocare le carte Strumento che ha in mano.",
+			'pt-br': "Durante o próximo turno do seu oponente, ele não poderá jogar nenhuma carta de Item da mão dele."
 		},
 
 		damage: 10
@@ -56,7 +56,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "The pollen it releases contains poison. If this Pokémon is raised on clean water, the poison’s toxicity is increased.",
+		'en-us': "The pollen it releases contains poison. If this Pokémon is raised on clean water, the poison’s toxicity is increased.",
 	},
 
 	variants: [

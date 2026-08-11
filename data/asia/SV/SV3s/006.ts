@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Combee"
+		'id-id': "Combee"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Saat malam, sekitar 100 Combee berkumpul dan tidur bersama membentuk gumpalan besar."
+		'id-id': "Saat malam, sekitar 100 Combee berkumpul dan tidur bersama membentuk gumpalan besar."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Berbagi Rezeki"
+			'id-id': "Berbagi Rezeki"
 		},
 
 		effect: {
-			id: "Pulihkan HP 1 Pokémon Cadangan sendiri sejumlah 20."
+			'id-id': "Pulihkan HP 1 Pokémon Cadangan sendiri sejumlah 20."
 		},
 
 		cost: ["Grass"]
 	}, {
 		name: {
-			id: "Menyeruduk"
+			'id-id': "Menyeruduk"
 		},
 
 		damage: 20,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Majesty'
 
 const card: Card = {
 	name: {
-		en: "Heatmor",
-		fr: "Aflamanoir",
-		es: "Heatmor",
-		it: "Heatmor",
-		pt: "Heatmor",
-		de: "Furnifraß"
+		'en-us': "Heatmor",
+		'fr-fr': "Aflamanoir",
+		'es-es': "Heatmor",
+		'it-it': "Heatmor",
+		'pt-br': "Heatmor",
+		'de-de': "Furnifraß"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Singe",
-				fr: "Roussi",
-				es: "Quemadura",
-				it: "Scottata",
-				pt: "Chamuscada",
-				de: "Versengung"
+				'en-us': "Singe",
+				'fr-fr': "Roussi",
+				'es-es': "Quemadura",
+				'it-it': "Scottata",
+				'pt-br': "Chamuscada",
+				'de-de': "Versengung"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+				'en-us': "Your opponent’s Active Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 			},
 
 		},
@@ -57,20 +57,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Charring Breath",
-				fr: "Souffle Incendiaire",
-				es: "Aliento Incendiario",
-				it: "Incenerespiro",
-				pt: "Hálito Carbonizador",
-				de: "Schwelender Atem"
+				'en-us': "Charring Breath",
+				'fr-fr': "Souffle Incendiaire",
+				'es-es': "Aliento Incendiario",
+				'it-it': "Incenerespiro",
+				'pt-br': "Hálito Carbonizador",
+				'de-de': "Schwelender Atem"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon isn’t Burned, this attack does nothing.",
-				fr: "Si le Pokémon Actif de votre adversaire n’est pas Brûlé, cette attaque ne fait rien.",
-				es: "Si el Pokémon Activo de tu rival no está Quemado, este ataque no hace nada.",
-				it: "Se il Pokémon attivo del tuo avversario non è bruciato, questo attacco non ha effetto.",
-				pt: "Se o Pokémon Ativo do seu oponente não estiver Queimado, este ataque não fará nada.",
-				de: "Wenn das Aktive Pokémon deines Gegners nicht verbrannt ist, hat diese Attacke keine Auswirkungen."
+				'en-us': "If your opponent’s Active Pokémon isn’t Burned, this attack does nothing.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire n’est pas Brûlé, cette attaque ne fait rien.",
+				'es-es': "Si el Pokémon Activo de tu rival no está Quemado, este ataque no hace nada.",
+				'it-it': "Se il Pokémon attivo del tuo avversario non è bruciato, questo attacco non ha effetto.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente não estiver Queimado, este ataque não fará nada.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners nicht verbrannt ist, hat diese Attacke keine Auswirkungen."
 			},
 			damage: 120,
 
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It draws in air through its tail, transforms it into fire, and uses it like a tongue. It melts Durant and eats them.",
+		'en-us': "It draws in air through its tail, transforms it into fire, and uses it like a tongue. It melts Durant and eats them.",
 	},
 
 	thirdParty: {

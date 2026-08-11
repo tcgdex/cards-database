@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ไซฮอร์น",
-		id: "Rhyhorn"
+		'th-th': "ไซฮอร์น",
+		'id-id': "Rhyhorn"
 	},
 
 	illustrator: "kodama",
@@ -15,16 +15,16 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		th: "มีลักษณะนิสัยที่เมื่อออกตัววิ่งไปแล้ว จะไม่ยอมหยุดวิ่งแม้จะชนเข้ากับหินก้อนใหญ่ก็ตาม ทำให้ถิ่นที่อยู่อาศัยของมันแผ่กว้างออกไป",
-		id: "Habitatnya menjadi luas dikarenakan sifatnya yang ketika sudah mulai berlari tidak akan berhenti meski menabrak bebatuan besar sekalipun."
+		'th-th': "มีลักษณะนิสัยที่เมื่อออกตัววิ่งไปแล้ว จะไม่ยอมหยุดวิ่งแม้จะชนเข้ากับหินก้อนใหญ่ก็ตาม ทำให้ถิ่นที่อยู่อาศัยของมันแผ่กว้างออกไป",
+		'id-id': "Habitatnya menjadi luas dikarenakan sifatnya yang ketika sudah mulai berlari tidak akan berhenti meski menabrak bebatuan besar sekalipun."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "เขาขวิด",
-			id: "Tusukan Tanduk"
+			'th-th': "เขาขวิด",
+			'id-id': "Tusukan Tanduk"
 		},
 
 		damage: 50,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Timburr",
-		fr: "Charpenti",
-		es: "Timburr",
-		it: "Timburr",
-		pt: "Timburr",
-		de: "Praktibalk"
+		'en-us': "Timburr",
+		'fr-fr': "Charpenti",
+		'es-es': "Timburr",
+		'it-it': "Timburr",
+		'pt-br': "Timburr",
+		'de-de': "Praktibalk"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Back",
-				fr: "Dégagement",
+				'en-us': "Knock Back",
+				'fr-fr': "Dégagement",
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
 			},
 			damage: 20,
 
@@ -52,8 +52,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage",
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage",
 			},
 
 			damage: 40,
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Always carrying squared logs, they help out with construction. As they grow, they carry bigger logs.",
+		'en-us': "Always carrying squared logs, they help out with construction. As they grow, they carry bigger logs.",
 	},
 
 	thirdParty: {

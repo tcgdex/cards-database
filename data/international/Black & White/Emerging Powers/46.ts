@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Gothorita",
-		fr: "Mesmérella",
-		es: "Gothorita",
-		it: "Gothorita",
-		pt: "Gothorita",
-		de: "Hypnomorba"
+		'en-us': "Gothorita",
+		'fr-fr': "Mesmérella",
+		'es-es': "Gothorita",
+		'it-it': "Gothorita",
+		'pt-br': "Gothorita",
+		'de-de': "Hypnomorba"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gothita",
-		fr: "Scrutella",
+		'en-us': "Gothita",
+		'fr-fr': "Scrutella",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Deleting Glare",
-				fr: "Regard Dépouillant",
+				'en-us': "Deleting Glare",
+				'fr-fr': "Regard Dépouillant",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to 1 of your opponent's Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée à 1 des Pokémon de votre adversaire.",
+				'en-us': "Flip a coin. If heads, discard an Energy attached to 1 of your opponent's Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée à 1 des Pokémon de votre adversaire.",
 			},
 
 		},
@@ -55,8 +55,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Psy Bolt",
-				fr: "Super Psy",
+				'en-us': "Super Psy Bolt",
+				'fr-fr': "Super Psy",
 			},
 
 			damage: 50,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Starlight is the source of their power. At night, they mark star positions by using psychic power to float stones.",
+		'en-us': "Starlight is the source of their power. At night, they mark star positions by using psychic power to float stones.",
 	},
 
 	thirdParty: {

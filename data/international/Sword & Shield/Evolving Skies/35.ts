@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Carvanha",
-		fr: "Carvanha",
-		es: "Carvanha",
-		it: "Carvanha",
-		pt: "Carvanha",
-		de: "Kanivanha"
+		'en-us': "Carvanha",
+		'fr-fr': "Carvanha",
+		'es-es': "Carvanha",
+		'it-it': "Carvanha",
+		'pt-br': "Carvanha",
+		'de-de': "Kanivanha"
 	},
 
 	rarity: "Common",
@@ -23,24 +23,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Ram",
-			de: "Ramme"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Ram",
+			'de-de': "Ramme"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Razor Fin",
-			fr: "Aileron-Rasoir",
-			es: "Aleta Afilada",
-			it: "Pinnalama",
-			pt: "Razor Fin",
-			de: "Rasierflosse"
+			'en-us': "Razor Fin",
+			'fr-fr': "Aileron-Rasoir",
+			'es-es': "Aleta Afilada",
+			'it-it': "Pinnalama",
+			'pt-br': "Razor Fin",
+			'de-de': "Rasierflosse"
 		},
 
 		damage: 20,
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "With its sturdy jaws and fangs, it can easily chomp wooden boats to splinters. It fights with Basculin over food."
+		'en-us': "With its sturdy jaws and fangs, it can easily chomp wooden boats to splinters. It fights with Basculin over food."
 	},
 
 	dexId: [318],

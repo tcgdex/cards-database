@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Wigglytuff",
+		'en-us': "Wigglytuff",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Jigglypuff",
+		'en-us': "Jigglypuff",
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lullaby",
+				'en-us': "Lullaby",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
+				'en-us': "The Defending Pokémon is now Asleep.",
 			},
 
 		},
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Do the Wave",
+				'en-us': "Do the Wave",
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each of your Benched Pokémon.",
+				'en-us': "Does 10 damage plus 10 more damage for each of your Benched Pokémon.",
 			},
 			damage: 10,
 
@@ -74,7 +74,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size.",
+		'en-us': "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size.",
 	},
 
 

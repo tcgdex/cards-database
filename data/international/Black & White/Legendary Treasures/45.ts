@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Keldeo-EX",
+		'en-us': "Keldeo-EX",
 	},
 
 	illustrator: "Toyste Beach",
@@ -27,10 +27,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Rush In",
+				'en-us': "Rush In",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if this Pokémon is on your Bench, you may switch this Pokémon with your Active Pokémon.",
+				'en-us': "Once during your turn (before your attack), if this Pokémon is on your Bench, you may switch this Pokémon with your Active Pokémon.",
 			},
 		},
 	],
@@ -43,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Secret Sword",
+				'en-us': "Secret Sword",
 			},
 			effect: {
-				en: "Does 20 more damage for each Water Energy attached to this Pokémon.",
+				'en-us': "Does 20 more damage for each Water Energy attached to this Pokémon.",
 			},
 			damage: 50,
 

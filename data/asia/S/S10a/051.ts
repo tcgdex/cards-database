@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドーミラー",
+		'ja-jp': "ドーミラー",
 		'zh-tw': "銅鏡怪",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "古い 遺跡に 現れる。 体の 模様は ガラルには ない 文化の もので 謎。",
+		'ja-jp': "古い 遺跡に 現れる。 体の 模様は ガラルには ない 文化の もので 謎。",
 		'zh-tw': "會在古老的遺跡出現。身上的紋路不屬於伽勒爾文化， 因此至今仍然謎團重重。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かいてんアタック",
+				'ja-jp': "かいてんアタック",
 				'zh-tw': "迴轉攻擊",
 			},
 			damage: 10,

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "テラキオン",
+		'ja-jp': "テラキオン",
 	},
 
 	illustrator: "Tonji Matsuno",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "人間 同士の 戦争によって 住処を 失った ポケモンたちを 守るため 人間と 戦った。",
+		'ja-jp': "人間 同士の 戦争によって 住処を 失った ポケモンたちを 守るため 人間と 戦った。",
 	},
 
 	stage: "Basic",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、80ダメージ追加。",
+				'ja-jp': "前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、80ダメージ追加。",
 			},
 		},
 		{

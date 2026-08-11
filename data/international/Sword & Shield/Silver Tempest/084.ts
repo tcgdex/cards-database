@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slurpuff",
-		fr: "Cupcanaille",
-		es: "Slurpuff",
-		it: "Slurpuff",
-		pt: "Slurpuff",
-		de: "Sabbaione"
+		'en-us': "Slurpuff",
+		'fr-fr': "Cupcanaille",
+		'es-es': "Slurpuff",
+		'it-it': "Slurpuff",
+		'pt-br': "Slurpuff",
+		'de-de': "Sabbaione"
 	},
 
 	illustrator: "Mizue",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Swirlix",
-		fr: "Sucroquin",
-		es: "Swirlix",
-		it: "Swirlix",
-		pt: "Swirlix",
-		de: "Flauschling"
+		'en-us': "Swirlix",
+		'fr-fr': "Sucroquin",
+		'es-es': "Swirlix",
+		'it-it': "Swirlix",
+		'pt-br': "Swirlix",
+		'de-de': "Flauschling"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Draining Kiss",
-			fr: "Vampibaiser",
-			es: "Beso Drenaje",
-			it: "Assorbibacio",
-			pt: "Beijo Drenante",
-			de: "Diebeskuss"
+			'en-us': "Draining Kiss",
+			'fr-fr': "Vampibaiser",
+			'es-es': "Beso Drenaje",
+			'it-it': "Assorbibacio",
+			'pt-br': "Beijo Drenante",
+			'de-de': "Diebeskuss"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 30
@@ -57,12 +57,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Magical Shot",
-			fr: "Coup Magique",
-			es: "Disparo Mágico",
-			it: "Magicolpo",
-			pt: "Tiro Mágico",
-			de: "Magischer Schuss"
+			'en-us': "Magical Shot",
+			'fr-fr': "Coup Magique",
+			'es-es': "Disparo Mágico",
+			'it-it': "Magicolpo",
+			'pt-br': "Tiro Mágico",
+			'de-de': "Magischer Schuss"
 		},
 
 		damage: 100
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "By taking in a person's scent, it can sniff out their mental and physical condition. It's hoped that this skill will have many medical applications.",
+		'en-us': "By taking in a person's scent, it can sniff out their mental and physical condition. It's hoped that this skill will have many medical applications.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Kartana-GX",
-		fr: "Katagami-GX",
+		'en-us': "Kartana-GX",
+		'fr-fr': "Katagami-GX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Shiny rare",
@@ -25,12 +25,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Slice Off",
-				fr: "Trancher",
+				'en-us': "Slice Off",
+				'fr-fr': "Trancher",
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand onto your Bench during your turn, you may discard a Special Energy from 1 of your opponent's Pokémon.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main sur votre Banc pendant votre tour, vous pouvez défausser une Énergie spéciale attachée à l’un des Pokémon de votre adversaire.",
+				'en-us': "When you play this Pokémon from your hand onto your Bench during your turn, you may discard a Special Energy from 1 of your opponent's Pokémon.",
+				'fr-fr': "Lorsque vous jouez ce Pokémon de votre main sur votre Banc pendant votre tour, vous pouvez défausser une Énergie spéciale attachée à l’un des Pokémon de votre adversaire.",
 			},
 		},
 	],
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gale Blade",
-				fr: "Lame Bourrasque",
+				'en-us': "Gale Blade",
+				'fr-fr': "Lame Bourrasque",
 			},
 			effect: {
-				en: "You may shuffle this Pokémon and all cards attached to it into your deck.",
-				fr: "Vous pouvez mélanger ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck.",
+				'en-us': "You may shuffle this Pokémon and all cards attached to it into your deck.",
+				'fr-fr': "Vous pouvez mélanger ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck.",
 			},
 			damage: 70,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Blade-GX",
-				fr: "Lame-GX",
+				'en-us': "Blade-GX",
+				'fr-fr': "Lame-GX",
 			},
 			effect: {
-				en: "Take a Prize card. (You can't use more than 1 GX attack in a game.)",
-				fr: "Récupérez une carte Récompense. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'en-us': "Take a Prize card. (You can't use more than 1 GX attack in a game.)",
+				'fr-fr': "Récupérez une carte Récompense. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 
 		},

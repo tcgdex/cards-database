@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Steven's Beldum",
-		fr: "Terhal de Pierre",
-		de: "Troys Tanhel",
-		it: "Beldum di Rocco",
-		es: "Beldum de Máximo",
-		pt: "Beldum do Steven",
+		'en-us': "Steven's Beldum",
+		'fr-fr': "Terhal de Pierre",
+		'de-de': "Troys Tanhel",
+		'it-it': "Beldum di Rocco",
+		'es-es': "Beldum de Máximo",
+		'pt-br': "Beldum do Steven",
 		'es-mx': "Beldum de Steven"
 	},
 
@@ -28,12 +28,12 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			de: "Ramme",
-			it: "Carica",
-			es: "Apisonar",
-			pt: "Aríete",
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'de-de': "Ramme",
+			'it-it': "Carica",
+			'es-es': "Apisonar",
+			'pt-br': "Aríete",
 			'es-mx': "Colisión"
 		},
 

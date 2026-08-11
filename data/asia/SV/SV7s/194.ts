@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "คิงดราex"
+		'th-th': "คิงดราex"
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -17,21 +17,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			th: "โองการแห่งราชันย์"
+			'th-th': "โองการแห่งราชันย์"
 		},
 
 		effect: {
-			th: "เลือกการ์ดโปเกมอน[น้ำ]ได้สูงสุด 3 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา วางบนเบนช์"
+			'th-th': "เลือกการ์ดโปเกมอน[น้ำ]ได้สูงสุด 3 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา วางบนเบนช์"
 		},
 
 		cost: ["Water"]
 	}, {
 		name: {
-			th: "ไฮโดรปั๊มพ์"
+			'th-th': "ไฮโดรปั๊มพ์"
 		},
 
 		effect: {
-			th: "แดเมจจะเพิ่มตามจำนวนพลังงาน[น้ำ]ที่ติดอยู่กับโปเกมอนนี้ x50"
+			'th-th': "แดเมจจะเพิ่มตามจำนวนพลังงาน[น้ำ]ที่ติดอยู่กับโปเกมอนนี้ x50"
 		},
 
 		damage: "50+",

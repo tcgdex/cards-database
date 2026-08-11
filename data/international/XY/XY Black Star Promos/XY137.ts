@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Vivillon",
-		fr: "Prismillon",
+		'en-us': "Vivillon",
+		'fr-fr': "Prismillon",
 	},
 
 	illustrator: "match",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spewpa",
-		fr: "Pérégrain",
+		'en-us': "Spewpa",
+		'fr-fr': "Pérégrain",
 	},
 
 	stage: "Stage2",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dizzying Poison",
-				fr: "Poison Étourdissant",
+				'en-us': "Dizzying Poison",
+				'fr-fr': "Poison Étourdissant",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused and Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
+				'en-us': "Your opponent's Active Pokémon is now Confused and Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Powder",
-				fr: "Nuée de Poudre",
+				'en-us': "Powder",
+				'fr-fr': "Nuée de Poudre",
 			},
 			effect: {
-				en: "This attack does 30 more damage for each Fire Energy attached to your opponent's Active Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Fire attachée au Pokémon Actif de votre adversaire.",
+				'en-us': "This attack does 30 more damage for each Fire Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Fire attachée au Pokémon Actif de votre adversaire.",
 			},
 			damage: "30+",
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The patterns on this Pokémon's wings depend on the climate and topography of its habitat. It scatters colorful scales.",
+		'en-us': "The patterns on this Pokémon's wings depend on the climate and topography of its habitat. It scatters colorful scales.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Potion",
-		fr: "Potion",
-		de: "Trank"
+		'en-us': "Potion",
+		'fr-fr': "Potion",
+		'de-de': "Trank"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,9 +15,9 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		en: "Remove 2 damage counters from 1 of your Pokémon (remove 1 damage counter if that Pokémon has only 1).",
-		fr: "Retirez jusqu'à deux marqueurs de dégât à l'un de vos Pokémon.",
-		de: "Entferne 2 Schadensmarken von 1 deiner Pokémon (1 falls dieses nur 1 hat)."
+		'en-us': "Remove 2 damage counters from 1 of your Pokémon (remove 1 damage counter if that Pokémon has only 1).",
+		'fr-fr': "Retirez jusqu'à deux marqueurs de dégât à l'un de vos Pokémon.",
+		'de-de': "Entferne 2 Schadensmarken von 1 deiner Pokémon (1 falls dieses nur 1 hat)."
 	},
 
 

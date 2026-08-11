@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wattrel",
-		fr: "Zapétrel",
-		es: "Wattrel",
-		it: "Wattrel",
-		pt: "Wattrel",
-		de: "Voltrel"
+		'en-us': "Wattrel",
+		'fr-fr': "Zapétrel",
+		'es-es': "Wattrel",
+		'it-it': "Wattrel",
+		'pt-br': "Wattrel",
+		'de-de': "Voltrel"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			es: "Coleccionar",
-			it: "Tassa",
-			pt: "Coleta",
-			de: "Sammeln"
+			'en-us': "Collect",
+			'fr-fr': "Collecte",
+			'es-es': "Coleccionar",
+			'it-it': "Tassa",
+			'pt-br': "Coleta",
+			'de-de': "Sammeln"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			es: "Roba 1 carta.",
-			it: "Pesca una carta.",
-			pt: "Compre uma carta.",
-			de: "Ziehe 1 Karte."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'es-es': "Roba 1 carta.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre uma carta.",
+			'de-de': "Ziehe 1 Karte."
 		}
 	}, {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Glide",
-			fr: "Glissement",
-			es: "Planeo",
-			it: "Aliante",
-			pt: "Planeio",
-			de: "Gleiten"
+			'en-us': "Glide",
+			'fr-fr': "Glissement",
+			'es-es': "Planeo",
+			'it-it': "Aliante",
+			'pt-br': "Planeio",
+			'de-de': "Gleiten"
 		},
 
 		damage: 20
@@ -82,7 +82,7 @@ const card: Card = {
 	illustrator: "Saya Tsuruta",
 
 	description: {
-		en: "When its wings catch the wind, the bones within produce electricity. This Pokémon dives into the ocean, catching prey by electrocuting them.",
+		'en-us': "When its wings catch the wind, the bones within produce electricity. This Pokémon dives into the ocean, catching prey by electrocuting them.",
 	},
 
 	thirdParty: {

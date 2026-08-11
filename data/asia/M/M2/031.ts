@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パルスワン",
+		'ja-jp': "パルスワン",
 	},
 
 	illustrator: "Orca",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "電気の 力で 脚力を  増強。 トップスピードは  時速 ９０キロを 軽く 超える。",
+		'ja-jp': "電気の 力で 脚力を  増強。 トップスピードは  時速 ９０キロを 軽く 超える。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "ワンパチ",
+		'ja-jp': "ワンパチ",
 	},
 
 	retreat: 1,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キャタピー",
+		'ja-jp': "キャタピー",
 	},
 
 	illustrator: "Shibuzoh.",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "早く 成長 したいのか 食欲旺盛で １日に １００枚の 葉っぱを 食らう。",
+		'ja-jp': "早く 成長 したいのか 食欲旺盛で １日に １００枚の 葉っぱを 食らう。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ようか" },
 			effect: {
-				ja: "自分の番に1回使える。コインを1回投げオモテなら、このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。",
+				'ja-jp': "自分の番に1回使える。コインを1回投げオモテなら、このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。",
 			},
 		},
 	],

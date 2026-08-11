@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Meowth δ",
-		fr: "Miaouss δ",
-		de: "Mauzi"
+		'en-us': "Meowth δ",
+		'fr-fr': "Miaouss δ",
+		'de-de': "Mauzi"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,9 +32,9 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 10,
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pay Day",
-				fr: "Jackpot",
-				de: "Zahltag"
+				'en-us': "Pay Day",
+				'fr-fr': "Jackpot",
+				'de-de': "Zahltag"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Ziehe eine Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Ziehe eine Karte."
 			},
 			damage: 10,
 

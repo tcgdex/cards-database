@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Magikarp",
-		fr: "Magicarpe",
-		de: "Karpador"
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe",
+		'de-de': "Karpador"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leap Out",
-				fr: "Bondir",
-				de: "Leap Out"
+				'en-us': "Leap Out",
+				'fr-fr': "Bondir",
+				'de-de': "Leap Out"
 			},
 			effect: {
-				en: "Switch Magikarp with 1 of your Benched Pokémon.",
-				fr: "Échangez Magicarpe avec 1 des Pokémon de votre Banc.",
-				de: "Switch Magikarp with 1 of your Benched Pokémon."
+				'en-us': "Switch Magikarp with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez Magicarpe avec 1 des Pokémon de votre Banc.",
+				'de-de': "Switch Magikarp with 1 of your Benched Pokémon."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rage",
-				fr: "Frénésie",
-				de: "Rage"
+				'en-us': "Rage",
+				'fr-fr': "Frénésie",
+				'de-de': "Rage"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each damage counter on Magikarp.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Magicarpe.",
-				de: "Does 10 damage plus 10 more damage for each damage counter on Magikarp."
+				'en-us': "Does 10 damage plus 10 more damage for each damage counter on Magikarp.",
+				'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Magicarpe.",
+				'de-de': "Does 10 damage plus 10 more damage for each damage counter on Magikarp."
 			},
 			damage: "10+",
 

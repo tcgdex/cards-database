@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Mothim",
-		fr: "Papilord",
-		de: "Moterpel"
+		'en-us': "Mothim",
+		'fr-fr': "Papilord",
+		'de-de': "Moterpel"
 	},
 
 	illustrator: "Kazuyuki Kano",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Burmy",
-		fr: "Cheniti",
+		'en-us': "Burmy",
+		'fr-fr': "Cheniti",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Silver Wind",
-				fr: "Vent argenté",
-				de: "Silberhauch"
+				'en-us': "Silver Wind",
+				'fr-fr': "Vent argenté",
+				'de-de': "Silberhauch"
 			},
 			effect: {
-				en: "During your next turn, if an attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 40 more damage.",
-				fr: "Lors de votre prochain tour, si une attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), cette attaque inflige 40 dégâts supplémentaires.",
-				de: "Während deines nächsten Zuges, wenn ein Angriff dem Verteidigenden Pokémon Schaden zufügt (nachdem Schwäche und Resistenz verrechnet wurden), fügt dieser Angriff 40 weitere Schadenspunkte zu."
+				'en-us': "During your next turn, if an attack does damage to the Defending Pokémon (after applying Weakness and Resistance), that attack does 40 more damage.",
+				'fr-fr': "Lors de votre prochain tour, si une attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), cette attaque inflige 40 dégâts supplémentaires.",
+				'de-de': "Während deines nächsten Zuges, wenn ein Angriff dem Verteidigenden Pokémon Schaden zufügt (nachdem Schwäche und Resistenz verrechnet wurden), fügt dieser Angriff 40 weitere Schadenspunkte zu."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Raging Scales",
-				fr: "Écailles enragées",
-				de: "Wütende Schuppen"
+				'en-us': "Raging Scales",
+				'fr-fr': "Écailles enragées",
+				'de-de': "Wütende Schuppen"
 			},
 			effect: {
-				en: "If Mothim has any damage counters on it, this attack does 30 damage plus 40 more damage.",
-				fr: "Si Papilord possède des marqueurs de dégât, cette attaque inflige 30 dégâts plus 40 dégâts supplémentaires.",
-				de: "Wenn auf Moterpel mindestens 1 Schadensmarke liegt, fügt dieser Angriff 30 Schadenspunkte plus 40 weitere Schadenspunkte zu."
+				'en-us': "If Mothim has any damage counters on it, this attack does 30 damage plus 40 more damage.",
+				'fr-fr': "Si Papilord possède des marqueurs de dégât, cette attaque inflige 30 dégâts plus 40 dégâts supplémentaires.",
+				'de-de': "Wenn auf Moterpel mindestens 1 Schadensmarke liegt, fügt dieser Angriff 30 Schadenspunkte plus 40 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -80,7 +80,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It loves the honey of flowers and steals honey collected by COMBEE.",
+		'en-us': "It loves the honey of flowers and steals honey collected by COMBEE.",
 	},
 
 	thirdParty: {

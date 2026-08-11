@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Zubat"
+		'id-id': "Zubat"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Zubat tinggal di gua yang tidak terkena sinar matahari. Ketika pagi tiba, Pokémon ini berkumpul dengan sesamanya dan tidur sambil saling menghangatkan tubuh."
+		'id-id': "Zubat tinggal di gua yang tidak terkena sinar matahari. Ketika pagi tiba, Pokémon ini berkumpul dengan sesamanya dan tidur sambil saling menghangatkan tubuh."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Supersonik"
+			'id-id': "Supersonik"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
 		},
 
 		cost: ["Darkness"]
 	}, {
 		name: {
-			id: "Bulu Tajam"
+			'id-id': "Bulu Tajam"
 		},
 
 		damage: 20,

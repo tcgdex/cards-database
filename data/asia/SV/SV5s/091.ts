@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Sableye"
+		'id-id': "Sableye"
 	},
 
 	illustrator: "0313",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Sableye membuat sarang di gua yang gelap. Pokémon ini menggunakan cakarnya yang tajam untuk menggali batu permata dan memakannya."
+		'id-id': "Sableye membuat sarang di gua yang gelap. Pokémon ini menggunakan cakarnya yang tajam untuk menggali batu permata dan memakannya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Cakar Penyayat"
+			'id-id': "Cakar Penyayat"
 		},
 
 		damage: 20,
 		cost: ["Darkness"]
 	}, {
 		name: {
-			id: "Damage Collect"
+			'id-id': "Damage Collect"
 		},
 
 		effect: {
-			id: "Pilih sesukanya Token Kerusakan yang dimiliki Pokémon Cadangan lawan, lalu pindahkan ke Pokémon Bertarung lawan."
+			'id-id': "Pilih sesukanya Token Kerusakan yang dimiliki Pokémon Cadangan lawan, lalu pindahkan ke Pokémon Bertarung lawan."
 		},
 
 		cost: ["Colorless", "Colorless"]

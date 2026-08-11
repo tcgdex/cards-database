@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "อาซานัน"
+		'th-th': "อาซานัน"
 	},
 
 	illustrator: "Yuriko Akase",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		th: "นั่งสมาธิเพื่อขัดเกลาพลังจิตให้เพิ่มขึ้นและลอยขึ้นกลางอากาศ จะกินผลไม้แค่ 1 ผลต่อวัน"
+		'th-th': "นั่งสมาธิเพื่อขัดเกลาพลังจิตให้เพิ่มขึ้นและลอยขึ้นกลางอากาศ จะกินผลไม้แค่ 1 ผลต่อวัน"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "เข้าฌาน"
+			'th-th': "เข้าฌาน"
 		},
 
 		effect: {
-			th: "ฟื้นฟู HP ของโปเกมอนนี้ [20]"
+			'th-th': "ฟื้นฟู HP ของโปเกมอนนี้ [20]"
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "สับ"
+			'th-th': "สับ"
 		},
 
 		damage: 50,

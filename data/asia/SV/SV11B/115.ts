@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フリージオ",
+		'ja-jp': "フリージオ",
 	},
 
 	illustrator: "rika",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "体温が 上がると 水蒸気に なって 姿を 消す。 体温が 下がると 元の 氷に 戻る。",
+		'ja-jp': "体温が 上がると 水蒸気に なって 姿を 消す。 体温が 下がると 元の 氷に 戻る。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ひきずりだす" },
 			cost: ["Water"],
 			effect: {
-				ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンに20ダメージ。",
+				'ja-jp': "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンに20ダメージ。",
 			},
 		},
 		{ name: { ja: "つらら" }, damage: 30, cost: ["Water"] },

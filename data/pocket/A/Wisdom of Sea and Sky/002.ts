@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gloom",
-		fr: "Ortide"
+		'en-us': "Gloom",
+		'fr-fr': "Ortide"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Oddish"
+		'en-us': "Oddish"
 	},
 
 	description: {
-		en: "Its pistils exude an incredibly foul odor.\nThe horrid stench can cause fainting at a distance\nof 1.25 miles.",
-		fr: "Ses pistils sécrètent une odeur incroyablement fétide qui fait perdre connaissance à ses adversaires jusqu'à 2 km à la ronde."
+		'en-us': "Its pistils exude an incredibly foul odor.\nThe horrid stench can cause fainting at a distance\nof 1.25 miles.",
+		'fr-fr': "Ses pistils sécrètent une odeur incroyablement fétide qui fait perdre connaissance à ses adversaires jusqu'à 2 km à la ronde."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Leaf Step",
-			fr: "Enjambée de Feuillage"
+			'en-us': "Leaf Step",
+			'fr-fr': "Enjambée de Feuillage"
 		},
 
 		damage: 40,

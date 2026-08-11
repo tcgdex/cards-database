@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミライドンex",
+		'ja-jp': "ミライドンex",
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Lightning", "Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンにダメカンがのっているなら、100ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンにダメカンがのっているなら、100ダメージ追加。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 220,
 			cost: ["Lightning", "Psychic", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「サイバードライブ」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「サイバードライブ」が使えない。",
 			},
 		},
 	],

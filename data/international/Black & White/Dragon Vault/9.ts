@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Vault'
 
 const card: Card = {
 	name: {
-		en: "Latias",
-		fr: "Latias",
+		'en-us': "Latias",
+		'fr-fr': "Latias",
 	},
 
 	illustrator: "Hideaki Hakozaki",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Assist",
-				fr: "Assistance Énergétique",
+				'en-us': "Energy Assist",
+				'fr-fr': "Assistance Énergétique",
 			},
 			effect: {
-				en: "Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.",
-				fr: "Attachez une carte Énergie de base de votre pile de défausse à 1 de vos Pokémon de Banc.",
+				'en-us': "Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.",
+				'fr-fr': "Attachez une carte Énergie de base de votre pile de défausse à 1 de vos Pokémon de Banc.",
 			},
 
 		},
@@ -45,12 +45,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Sky Heal",
-				fr: "Guérison Céleste",
+				'en-us': "Sky Heal",
+				'fr-fr': "Guérison Céleste",
 			},
 			effect: {
-				en: "If Latios is on your Bench, heal 20 damage from this Pokémon.",
-				fr: "Si Latios est sur votre Banc, soignez 20 dégâts à ce Pokémon.",
+				'en-us': "If Latios is on your Bench, heal 20 damage from this Pokémon.",
+				'fr-fr': "Si Latios est sur votre Banc, soignez 20 dégâts à ce Pokémon.",
 			},
 			damage: 40,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its body is covered in a down that can refract light in such a way that it becomes invisible.",
+		'en-us': "Its body is covered in a down that can refract light in such a way that it becomes invisible.",
 	},
 
 	thirdParty: {

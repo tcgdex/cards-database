@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVAM"
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "熱帶龍",
-		th: "โทรพิอุส",
-		id: "Tropius"
+		'th-th': "โทรพิอุส",
+		'id-id': "Tropius"
 	},
 
 	illustrator: "aoki",
@@ -17,8 +17,8 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "棲息在熱帶叢林裡。脖子上的果實香甜美味。 每年會結果２次。",
-		th: "อาศัยอยู่ในป่าเขตร้อน เครือผลที่คอรสชาติหวานอร่อย 1 ปีจะออกผลแค่ 2 ครั้ง",
-		id: "Tropius hidup di hutan tropis. Tandan di leher Pokémon ini rasanya manis dan lezat, dan berbuah 2 kali dalam 1 tahun."
+		'th-th': "อาศัยอยู่ในป่าเขตร้อน เครือผลที่คอรสชาติหวานอร่อย 1 ปีจะออกผลแค่ 2 ครั้ง",
+		'id-id': "Tropius hidup di hutan tropis. Tandan di leher Pokémon ini rasanya manis dan lezat, dan berbuah 2 kali dalam 1 tahun."
 	},
 
 	stage: "Basic",
@@ -26,22 +26,22 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "現摘水果",
-			th: "ผลไม้เก็บสด ๆ",
-			id: "Buah-buahan Baru Dipetik"
+			'th-th': "ผลไม้เก็บสด ๆ",
+			'id-id': "Buah-buahan Baru Dipetik"
 		},
 
 		effect: {
 			'zh-tw': "將自己的1隻備戰寶可夢恢復「60」HP。",
-			th: "ฟื้นฟู HP ของโปเกมอนบนเบนช์ฝ่ายเรา 1 ตัว [60]",
-			id: "Pulihkan HP 1 Pokémon Cadangan sendiri sejumlah 60."
+			'th-th': "ฟื้นฟู HP ของโปเกมอนบนเบนช์ฝ่ายเรา 1 ตัว [60]",
+			'id-id': "Pulihkan HP 1 Pokémon Cadangan sendiri sejumlah 60."
 		},
 
 		cost: ["Grass"]
 	}, {
 		name: {
 			'zh-tw': "飛葉快刀",
-			th: "คัตเตอร์ใบไม้",
-			id: "Daun Pemotong"
+			'th-th': "คัตเตอร์ใบไม้",
+			'id-id': "Daun Pemotong"
 		},
 
 		damage: 50,

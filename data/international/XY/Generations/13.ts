@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Ninetales EX",
-		fr: "Feunard-EX",
+		'en-us': "Ninetales EX",
+		'fr-fr': "Feunard-EX",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flare Bonus",
-				fr: "Fulmi-Bonus",
+				'en-us': "Flare Bonus",
+				'fr-fr': "Fulmi-Bonus",
 			},
 			effect: {
-				en: "Discard a Fire Energy card from your hand. If you do, draw 3 cards.",
-				fr: "Défaussez une carte Énergie Fire de votre main. Dans ce cas, piochez 3 cartes.",
+				'en-us': "Discard a Fire Energy card from your hand. If you do, draw 3 cards.",
+				'fr-fr': "Défaussez une carte Énergie Fire de votre main. Dans ce cas, piochez 3 cartes.",
 			},
 
 		},
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Blast",
-				fr: "Déflagration",
+				'en-us': "Fire Blast",
+				'fr-fr': "Déflagration",
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Fire Energy attached to this Pokémon.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à ce Pokémon.",
+				'en-us': "Flip a coin. If tails, discard a Fire Energy attached to this Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à ce Pokémon.",
 			},
 			damage: 130,
 

@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Its fluffy coat doubles in size when static electricity builds up. Touching it can be shocking.",
+		'en-us': "Its fluffy coat doubles in size when static electricity builds up. Touching it can be shocking.",
 	},
 
 
 	name: {
-		en: "Mareep",
-		fr: "Wattouat",
-		es: "Mareep",
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat",
+		'es-es': "Mareep",
 		'es-mx': "Mareep",
-		de: "Voltilamm",
-		it: "Mareep",
-		pt: "Mareep"
+		'de-de': "Voltilamm",
+		'it-it': "Mareep",
+		'pt-br': "Mareep"
 	},
 
 	illustrator: "UKUMO uiti",
@@ -29,26 +29,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Thunder Wave",
-			fr: "Cage Éclair",
-			es: "Onda Trueno",
+			'en-us': "Thunder Wave",
+			'fr-fr': "Cage Éclair",
+			'es-es': "Onda Trueno",
 			'es-mx': "Onda Trueno",
-			de: "Donnerwelle",
-			it: "Tuononda",
-			pt: "Onda de Trovão"
+			'de-de': "Donnerwelle",
+			'it-it': "Tuononda",
+			'pt-br': "Onda de Trovão"
 		},
 
 		cost: ["Lightning", "Colorless"],
 		damage: 20,
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 			'es-mx': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival ahora está Paralizado.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado."
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado."
 		}
 	}],
 

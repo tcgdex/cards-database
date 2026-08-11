@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スキプルーム",
+		'ja-jp': "スキプルーム",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ホップ",
+				'ja-jp': "ホップ",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "神秘的なパウダー",
+				'ja-jp': "神秘的なパウダー",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
 			},
 			damage: 10,
 		},

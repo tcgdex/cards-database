@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "わるいヤドラン",
+		'ja-jp': "わるいヤドラン",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "リールイン",
+				'ja-jp': "リールイン",
 			},
 			effect: {
-				ja: "このポケモンを手から演奏してポケモンを1つ進化させると、捨てられた山から3ポクモンを手に入れることができます。",
+				'ja-jp': "このポケモンを手から演奏してポケモンを1つ進化させると、捨てられた山から3ポクモンを手に入れることができます。",
 			},
 		}],
 
@@ -30,10 +30,10 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Psychic"],
 			name: {
-				ja: "気まぐれな攻撃",
+				'ja-jp': "気まぐれな攻撃",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
 			},
 			damage: 40,
 		},

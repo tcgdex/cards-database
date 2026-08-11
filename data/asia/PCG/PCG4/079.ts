@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Eevee",
+		'ja-jp': "Eevee",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "エネルギーの進化",
+				'ja-jp': "エネルギーの進化",
 			},
 			effect: {
-				ja: "手からイービーにエネルギーカードを取り付けるたびに、Eeveeに接続したエネルギーカードと同じタイプのEeveeから進化するカードをデッキを検索することができます。そのカードをEeveeに置きます。 （これは進化するEeveeとしてカウントされます。）その後、デッキをシャッフルします。攻撃の効果の一部としてEeveeにエネルギーカードを取り付ける場合、このパワーは使用できません。",
+				'ja-jp': "手からイービーにエネルギーカードを取り付けるたびに、Eeveeに接続したエネルギーカードと同じタイプのEeveeから進化するカードをデッキを検索することができます。そのカードをEeveeに置きます。 （これは進化するEeveeとしてカウントされます。）その後、デッキをシャッフルします。攻撃の効果の一部としてEeveeにエネルギーカードを取り付ける場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "尾のwhap",
+				'ja-jp': "尾のwhap",
 			},
 			damage: 10,
 		},

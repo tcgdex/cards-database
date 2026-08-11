@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Malvalame",
-		en: "Ceruledge",
-		es: "Ceruledge",
-		it: "Ceruledge",
-		pt: "Ceruledge",
-		de: "Azugladis"
+		'fr-fr': "Malvalame",
+		'en-us': "Ceruledge",
+		'es-es': "Ceruledge",
+		'it-it': "Ceruledge",
+		'pt-br': "Ceruledge",
+		'de-de': "Azugladis"
 	},
 
 	rarity: "Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Psychic"],
 	evolveFrom: {
-		fr: "Charbambin",
-		en: "Charcadet",
-		es: "Charcadet",
-		it: "Charcadet",
-		pt: "Charcadet",
-		de: "Knarbon"
+		'fr-fr': "Charbambin",
+		'en-us': "Charcadet",
+		'es-es': "Charcadet",
+		'it-it': "Charcadet",
+		'pt-br': "Charcadet",
+		'de-de': "Knarbon"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Aspire-Vie",
-			en: "Life Sucker",
-			es: "Sorbevidas",
-			it: "Aspiravita",
-			pt: "Sugador de Vida",
-			de: "Lebenssauger"
+			'fr-fr': "Aspire-Vie",
+			'en-us': "Life Sucker",
+			'es-es': "Sorbevidas",
+			'it-it': "Aspiravita",
+			'pt-br': "Sugador de Vida",
+			'de-de': "Lebenssauger"
 		},
 
 		effect: {
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			en: "Heal 30 damage from this Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 50
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Épée Combattante",
-			en: "Fighting Sword",
-			es: "Espada Combativa",
-			it: "Spada Combattente",
-			pt: "Espada de Combate",
-			de: "Kampfschwert"
+			'fr-fr': "Épée Combattante",
+			'en-us': "Fighting Sword",
+			'es-es': "Espada Combativa",
+			'it-it': "Spada Combattente",
+			'pt-br': "Espada de Combate",
+			'de-de': "Kampfschwert"
 		},
 
 		effect: {
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-ex ou un Pokémon-V, cette attaque inflige 100 dégâts supplémentaires.",
-			en: "If your opponent's Active Pokémon is a Pokémon ex or Pokémon V, this attack does 100 more damage.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon ex o un Pokémon V, este ataque hace 100 puntos de daño más.",
-			it: "Se il Pokémon attivo del tuo avversario è un Pokémon-ex o un Pokémon-V, questo attacco infligge 100 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon ex ou um Pokémon V, este ataque causará 100 pontos de dano a mais.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Pokémon-ex oder Pokémon-V ist, fügt diese Attacke 100 Schadenspunkte mehr zu."
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon-ex ou un Pokémon-V, cette attaque inflige 100 dégâts supplémentaires.",
+			'en-us': "If your opponent's Active Pokémon is a Pokémon ex or Pokémon V, this attack does 100 more damage.",
+			'es-es': "Si el Pokémon Activo de tu rival es un Pokémon ex o un Pokémon V, este ataque hace 100 puntos de daño más.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon-ex o un Pokémon-V, questo attacco infligge 100 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon ex ou um Pokémon V, este ataque causará 100 pontos de dano a mais.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners ein Pokémon-ex oder Pokémon-V ist, fügt diese Attacke 100 Schadenspunkte mehr zu."
 		},
 
 		damage: "100+"
@@ -111,7 +111,7 @@ const card: Card = {
 	illustrator: "Ryota Murayama",
 
 	description: {
-		en: "The fiery blades on its arms burn fiercely with the lingering resentment of a sword wielder who fell before accomplishing their goal.",
+		'en-us': "The fiery blades on its arms burn fiercely with the lingering resentment of a sword wielder who fell before accomplishing their goal.",
 	},
 }
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シャックル",
+		'ja-jp': "シャックル",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "花瓶の体",
+				'ja-jp': "花瓶の体",
 			},
 			effect: {
-				ja: "攻撃からシャックルへのすべての損傷は20増加します（衰弱と抵抗を適用した後）。",
+				'ja-jp': "攻撃からシャックルへのすべての損傷は20増加します（衰弱と抵抗を適用した後）。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "有毒唾液",
+				'ja-jp': "有毒唾液",
 			},
 			effect: {
-				ja: "防御ポケモンは現在中毒になっています。",
+				'ja-jp': "防御ポケモンは現在中毒になっています。",
 			},
 			damage: 10,
 		},

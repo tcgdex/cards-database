@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アズマオウ",
+		'ja-jp': "アズマオウ",
 	},
 
 	illustrator: "OKUBO",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "秋になると プロポーズのため 体に 脂が のってきて とても きれいな色に 変化する。",
+		'ja-jp': "秋になると プロポーズのため 体に 脂が のってきて とても きれいな色に 変化する。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ハイドロショット" },
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のポケモン1匹に、このポケモンについている[W]エネルギーの数×30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、このポケモンについている[W]エネルギーの数×30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -41,7 +41,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "トサキント",
+		'ja-jp': "トサキント",
 	},
 
 	retreat: 1,

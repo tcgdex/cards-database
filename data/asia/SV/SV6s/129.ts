@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Drakloak"
+		'id-id': "Drakloak"
 	},
 
 	illustrator: "cochi8i",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		id: "Drakloak mengumpulkan energi di paru-parunya lalu menembakkannya. Ia merawat dan bertarung bersama Dreepy hingga Dreepy itu tumbuh dengan baik."
+		'id-id': "Drakloak mengumpulkan energi di paru-parunya lalu menembakkannya. Ia merawat dan bertarung bersama Dreepy hingga Dreepy itu tumbuh dengan baik."
 	},
 
 	stage: "Stage1",
@@ -23,17 +23,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Perintah Rekonaisans"
+			'id-id': "Perintah Rekonaisans"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri. Lihat 2 kartu dari atas Deck sendiri, pilih salah satu, lalu tambahkan ke Kartu Pegangan. Kembalikan sisa kartu ke bawah Deck."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri. Lihat 2 kartu dari atas Deck sendiri, pilih salah satu, lalu tambahkan ke Kartu Pegangan. Kembalikan sisa kartu ke bawah Deck."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Sundulan Naga"
+			'id-id': "Sundulan Naga"
 		},
 
 		damage: 70,

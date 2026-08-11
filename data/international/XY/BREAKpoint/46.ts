@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Luxray",
-		fr: "Luxray",
-		es: "Luxray",
-		it: "Luxray",
-		pt: "Luxray",
-		de: "Luxtra"
+		'en-us': "Luxray",
+		'fr-fr': "Luxray",
+		'es-es': "Luxray",
+		'it-it': "Luxray",
+		'pt-br': "Luxray",
+		'de-de': "Luxtra"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Luxio",
-		fr: "Luxio",
-		es: "Luxio",
-		it: "Luxio",
-		pt: "Luxio",
-		de: "Luxio"
+		'en-us': "Luxio",
+		'fr-fr': "Luxio",
+		'es-es': "Luxio",
+		'it-it': "Luxio",
+		'pt-br': "Luxio",
+		'de-de': "Luxio"
 	},
 
 	stage: "Stage2",
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 50,
@@ -62,20 +62,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Snarl",
-				fr: "Aboiement",
-				es: "Alarido",
-				it: "Urlorabbia",
-				pt: "Rosnado",
-				de: "Standpauke"
+				'en-us': "Snarl",
+				'fr-fr': "Aboiement",
+				'es-es': "Alarido",
+				'it-it': "Urlorabbia",
+				'pt-br': "Rosnado",
+				'de-de': "Standpauke"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance).",
-				es: "Durante el próximo turno de tu rival, cualquier daño infligido por ataques del Pokémon Defensor se reduce en 20 (antes de aplicar Debilidad y Resistencia).",
-				it: "Durante il prossimo turno del tuo avversario, i danni inflitti dagli attacchi del Pokémon difensore sono ridotti di 20, prima di aver applicato debolezza e resistenza.",
-				pt: "Na próxima vez de jogar do seu oponente, qualquer dano causado por ataques do Pokémon Defensor será reduzido em 20 (antes da aplicação de Fraqueza e Resistência).",
-				de: "Während des nächsten Zuges deines Gegners wird Schaden, der durch Angriffe des Verteidigenden Pokémon zugefügt wird, um 20 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance).",
+				'es-es': "Durante el próximo turno de tu rival, cualquier daño infligido por ataques del Pokémon Defensor se reduce en 20 (antes de aplicar Debilidad y Resistencia).",
+				'it-it': "Durante il prossimo turno del tuo avversario, i danni inflitti dagli attacchi del Pokémon difensore sono ridotti di 20, prima di aver applicato debolezza e resistenza.",
+				'pt-br': "Na próxima vez de jogar do seu oponente, qualquer dano causado por ataques do Pokémon Defensor será reduzido em 20 (antes da aplicação de Fraqueza e Resistência).",
+				'de-de': "Während des nächsten Zuges deines Gegners wird Schaden, der durch Angriffe des Verteidigenden Pokémon zugefügt wird, um 20 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 			damage: 100,
 
@@ -99,7 +99,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Luxray's ability to see through objects comes in handy when it's scouting for danger.",
+		'en-us': "Luxray's ability to see through objects comes in handy when it's scouting for danger.",
 	},
 
 	thirdParty: {

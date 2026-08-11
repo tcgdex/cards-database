@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Oricorio",
-		th: "โอโดริโดริ"
+		'id-id': "Oricorio",
+		'th-th': "โอโดริโดริ"
 	},
 
 	illustrator: "saino misaki",
@@ -15,33 +15,33 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Wujud Oricorio yang mengisap Nektar Merah Muda. Pokémon ini meningkatkan mentalitasnya dengan stepnya yang lemah lembut, lalu melepaskan kekuatan psikokinesis.",
-		th: "ร่างที่ดูดน้ำหวานสีชมพู ขัดเกลาให้สมาธิสูงขึ้นด้วยจังหวะการเต้นที่ สบาย ๆ และปล่อยพลังจิต"
+		'id-id': "Wujud Oricorio yang mengisap Nektar Merah Muda. Pokémon ini meningkatkan mentalitasnya dengan stepnya yang lemah lembut, lalu melepaskan kekuatan psikokinesis.",
+		'th-th': "ร่างที่ดูดน้ำหวานสีชมพู ขัดเกลาให้สมาธิสูงขึ้นด้วยจังหวะการเต้นที่ สบาย ๆ และปล่อยพลังจิต"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Energy Assist",
-			th: "‌เอนเนอร์จี้แอสซิสต์"
+			'id-id': "Energy Assist",
+			'th-th': "‌เอนเนอร์จี้แอสซิสต์"
 		},
 
 		effect: {
-			id: "Pilih paling banyak 2 lembar Energi Dasar dari Trash sendiri, lalu kenakan pada 1 Pokémon Cadangan.",
-			th: "เลือกการ์ดพลังงานพื้นฐานได้สูงสุด 2 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา ติดที่ โปเกมอนบนเบนช์ 1 ตัว"
+			'id-id': "Pilih paling banyak 2 lembar Energi Dasar dari Trash sendiri, lalu kenakan pada 1 Pokémon Cadangan.",
+			'th-th': "เลือกการ์ดพลังงานพื้นฐานได้สูงสุด 2 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา ติดที่ โปเกมอนบนเบนช์ 1 ตัว"
 		},
 
 		cost: ["Psychic"]
 	}, {
 		name: {
-			id: "Tarian Menggoda",
-			th: "ระบำพิศวง"
+			'id-id': "Tarian Menggoda",
+			'th-th': "ระบำพิศวง"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing.",
-			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[สับสน]"
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing.",
+			'th-th': "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[สับสน]"
 		},
 
 		damage: 20,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Vaporeon",
-		fr: "Aquali",
-		es: "Vaporeon",
-		it: "Vaporeon",
-		pt: "Vaporeon",
-		de: "Aquana"
+		'en-us': "Vaporeon",
+		'fr-fr': "Aquali",
+		'es-es': "Vaporeon",
+		'it-it': "Vaporeon",
+		'pt-br': "Vaporeon",
+		'de-de': "Aquana"
 	},
 
 	illustrator: "kirisAki",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
-		es: "Eevee",
-		it: "Eevee",
-		pt: "Eevee",
-		de: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
+		'es-es': "Eevee",
+		'it-it': "Eevee",
+		'pt-br': "Eevee",
+		'de-de': "Evoli"
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Aqua Effect",
-				fr: "Effet Aqua",
-				es: "Efecto Aqua",
-				it: "Idroeffetto",
-				pt: "Efeito Aqua",
-				de: "Aqua-Effekt"
+				'en-us': "Aqua Effect",
+				'fr-fr': "Effet Aqua",
+				'es-es': "Efecto Aqua",
+				'it-it': "Idroeffetto",
+				'pt-br': "Efeito Aqua",
+				'de-de': "Aqua-Effekt"
 			},
 			effect: {
-				en: "Each of your Stage 1 Pokémon in play is now a Water Pokémon in addition to its existing types.",
-				fr: "Chacun de vos Pokémon de Niveau 1 en jeu est maintenant un Pokémon Water en plus de ses types existants.",
-				es: "Cada uno de tus Pokémon de Fase 1 en juego pasa a ser un Pokémon Water además de sus tipos actuales.",
-				it: "Ciascuno dei tuoi Pokémon di Fase 1 in gioco diventa di tipo Water in aggiunta ai suoi tipi originari.",
-				pt: "Cada um dos seus Pokémon Estágio 1 em jogo é agora um Pokémon Water, além dos seus tipos existentes.",
-				de: "Jedes deiner Phase-1-Pokémon im Spiel ist jetzt zusätzlich zu seinen bereits vorhandenen Typen ein Water-Pokémon."
+				'en-us': "Each of your Stage 1 Pokémon in play is now a Water Pokémon in addition to its existing types.",
+				'fr-fr': "Chacun de vos Pokémon de Niveau 1 en jeu est maintenant un Pokémon Water en plus de ses types existants.",
+				'es-es': "Cada uno de tus Pokémon de Fase 1 en juego pasa a ser un Pokémon Water además de sus tipos actuales.",
+				'it-it': "Ciascuno dei tuoi Pokémon di Fase 1 in gioco diventa di tipo Water in aggiunta ai suoi tipi originari.",
+				'pt-br': "Cada um dos seus Pokémon Estágio 1 em jogo é agora um Pokémon Water, além dos seus tipos existentes.",
+				'de-de': "Jedes deiner Phase-1-Pokémon im Spiel ist jetzt zusätzlich zu seinen bereits vorhandenen Typen ein Water-Pokémon."
 			},
 		},
 	],
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Splash",
-				fr: "Hydro-Éclaboussure",
-				es: "Hidroestallido",
-				it: "Idrosplash",
-				pt: "Hidro Borrifada",
-				de: "Hydroplatscher"
+				'en-us': "Hydro Splash",
+				'fr-fr': "Hydro-Éclaboussure",
+				'es-es': "Hidroestallido",
+				'it-it': "Idrosplash",
+				'pt-br': "Hidro Borrifada",
+				'de-de': "Hydroplatscher"
 			},
 
 			damage: 70,
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has evolved to be suitable for an aquatic life. It can invisibly melt away into water.",
+		'en-us': "It has evolved to be suitable for an aquatic life. It can invisibly melt away into water.",
 	},
 
 	thirdParty: {

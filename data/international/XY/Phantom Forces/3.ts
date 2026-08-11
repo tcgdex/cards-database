@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Yanma",
-		fr: "Yanma",
-		es: "Yanma",
-		it: "Yanma",
-		pt: "Yanma",
-		de: "Yanma"
+		'en-us': "Yanma",
+		'fr-fr': "Yanma",
+		'es-es': "Yanma",
+		'it-it': "Yanma",
+		'pt-br': "Yanma",
+		'de-de': "Yanma"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Air Slash",
-				fr: "Lame d'Air",
-				es: "Tajo Aéreo",
-				it: "Eterelama",
-				pt: "Golpe de Ar",
-				de: "Luftschnitt"
+				'en-us': "Air Slash",
+				'fr-fr': "Lame d'Air",
+				'es-es': "Tajo Aéreo",
+				'it-it': "Eterelama",
+				'pt-br': "Golpe de Ar",
+				'de-de': "Luftschnitt"
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon.",
-				es: "Descarta 1 Energía unida a este Pokémon.",
-				it: "Scarta un'Energia assegnata a questo Pokémon.",
-				pt: "Descarte uma Energia ligada a este Pokémon.",
-				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon.",
+				'es-es': "Descarta 1 Energía unida a este Pokémon.",
+				'it-it': "Scarta un'Energia assegnata a questo Pokémon.",
+				'pt-br': "Descarte uma Energia ligada a este Pokémon.",
+				'de-de': "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its eyes can see 360 degrees without moving its head. It won't miss prey—even those behind it.",
+		'en-us': "Its eyes can see 360 degrees without moving its head. It won't miss prey—even those behind it.",
 	},
 
 	thirdParty: {

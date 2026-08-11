@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S5R"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "蘭螳花",
-		th: "รารันเทส"
+		'th-th': "รารันเทส"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "斬斷敵人的動作就像是跳舞一般。優雅的姿態使得牠被稱為最豔麗的草屬性寶可夢。",
-		th: "เชือดเฉือนศัตรูด้วยการเต้นรำ จากรูปร่างที่งามสง่านี้ทำให้ถูกเรียกว่าเป็นโปเกมอนหญ้าที่มีเสน่ห์เย้ายวนที่สุด"
+		'th-th': "เชือดเฉือนศัตรูด้วยการเต้นรำ จากรูปร่างที่งามสง่านี้ทำให้ถูกเรียกว่าเป็นโปเกมอนหญ้าที่มีเสน่ห์เย้ายวนที่สุด"
 	},
 
 	stage: "Stage1",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "綠葉吸取",
-			th: "ลีฟเดรน"
+			'th-th': "ลีฟเดรน"
 		},
 
 		effect: {
 			'zh-tw': "將這隻寶可夢恢復「30」HP。",
-			th: "ฟื้นฟู HP ของโปเกมอนนี้ [30]"
+			'th-th': "ฟื้นฟู HP ของโปเกมอนนี้ [30]"
 		},
 
 		damage: 30,
@@ -37,7 +37,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "日光刀",
-			th: "โซลาร์คัตเตอร์"
+			'th-th': "โซลาร์คัตเตอร์"
 		},
 
 		damage: 70,

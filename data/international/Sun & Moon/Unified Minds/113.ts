@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Gabite",
-		fr: "Carmache",
-		es: "Gabite",
-		it: "Gabite",
-		pt: "Gabite",
-		de: "Knarksel"
+		'en-us': "Gabite",
+		'fr-fr': "Carmache",
+		'es-es': "Gabite",
+		'it-it': "Gabite",
+		'pt-br': "Gabite",
+		'de-de': "Knarksel"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gible",
-		fr: "Griknot",
+		'en-us': "Gible",
+		'fr-fr': "Griknot",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Corkscrew Punch",
-				fr: "Poing Tire-Bouchon",
-				es: "Puño Tirabuzón",
-				it: "Pugno Rotante",
-				pt: "Soco Saca-rolha",
-				de: "Korkenzieherhieb"
+				'en-us': "Corkscrew Punch",
+				'fr-fr': "Poing Tire-Bouchon",
+				'es-es': "Puño Tirabuzón",
+				'it-it': "Pugno Rotante",
+				'pt-br': "Soco Saca-rolha",
+				'de-de': "Korkenzieherhieb"
 			},
 
 			damage: 20,
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharp Scythe",
-				fr: "Faucille Acérée",
-				es: "Guadaña Afilada",
-				it: "Falcetagliente",
-				pt: "Foice Afiada",
-				de: "Scharfe Sense"
+				'en-us': "Sharp Scythe",
+				'fr-fr': "Faucille Acérée",
+				'es-es': "Guadaña Afilada",
+				'it-it': "Falcetagliente",
+				'pt-br': "Foice Afiada",
+				'de-de': "Scharfe Sense"
 			},
 
 			damage: 40,
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It loves shiny things. When it finds a Sableye trying to catch a Carbink, Gabite becomes furiously angry and attacks the Sableye.",
+		'en-us': "It loves shiny things. When it finds a Sableye trying to catch a Carbink, Gabite becomes furiously angry and attacks the Sableye.",
 	},
 
 	thirdParty: {

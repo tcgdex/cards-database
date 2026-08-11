@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Slakoth",
-		fr: "Parecool",
-		de: "Bummelz"
+		'en-us': "Slakoth",
+		'fr-fr': "Parecool",
+		'de-de': "Bummelz"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flail",
-				fr: "Fléau",
-				de: "Flail"
+				'en-us': "Flail",
+				'fr-fr': "Fléau",
+				'de-de': "Flail"
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on Slakoth.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Parecool.",
-				de: "Does 10 damage times the number of damage counters on Slakoth."
+				'en-us': "Does 10 damage times the number of damage counters on Slakoth.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Parecool.",
+				'de-de': "Does 10 damage times the number of damage counters on Slakoth."
 			},
 			damage: "10×",
 
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slack Off",
-				fr: "Paresse",
-				de: "Slack Off"
+				'en-us': "Slack Off",
+				'fr-fr': "Paresse",
+				'de-de': "Slack Off"
 			},
 			effect: {
-				en: "Remove all damage counters from Slakoth. Slakoth can't attack during your next turn.",
-				fr: "Retirez à Parecool tous ses marqueurs de dégât. Parecool ne peut pas attaquer lors de votre prochain tour.",
-				de: "Remove all damage counters from Slakoth. Slakoth can't attack during your next turn."
+				'en-us': "Remove all damage counters from Slakoth. Slakoth can't attack during your next turn.",
+				'fr-fr': "Retirez à Parecool tous ses marqueurs de dégât. Parecool ne peut pas attaquer lors de votre prochain tour.",
+				'de-de': "Remove all damage counters from Slakoth. Slakoth can't attack during your next turn."
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It spends nearly all its time in a day sprawled out. Just seeing it makes one drowsy."
+		'en-us': "It spends nearly all its time in a day sprawled out. Just seeing it makes one drowsy."
 	},
 
 	variants: [

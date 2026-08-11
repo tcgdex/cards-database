@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コスモッグ",
+		'ja-jp': "コスモッグ",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "大昔は 星の子 という 名で 呼ばれた。 別世界の ポケモンと いわれているが 詳しくは 不明。",
+		'ja-jp': "大昔は 星の子 という 名で 呼ばれた。 別世界の ポケモンと いわれているが 詳しくは 不明。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "コスモガード" },
 			effect: {
-				ja: "このポケモンは、ベンチにいるかぎり、ワザのダメージを受けない。",
+				'ja-jp': "このポケモンは、ベンチにいるかぎり、ワザのダメージを受けない。",
 			},
 		},
 	],

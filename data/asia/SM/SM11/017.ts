@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アバゴーラ",
+		'ja-jp': "アバゴーラ",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "アゴの 力が 凄まじい。 オムスターや オムナイトの カラも 気にせず 丸ごと 食っていた。",
+		'ja-jp': "アゴの 力が 凄まじい。 オムスターや オムナイトの カラも 気にせず 丸ごと 食っていた。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "こだいのしきたり" },
 			effect: {
-				ja: "このポケモンがいるかぎり、相手の場にある「ポケモンのどうぐ」の効果は、すべてなくなる。",
+				'ja-jp': "このポケモンがいるかぎり、相手の場にある「ポケモンのどうぐ」の効果は、すべてなくなる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンのにげるためのエネルギーの数×20ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンのにげるためのエネルギーの数×20ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "プロトーガ",
+		'ja-jp': "プロトーガ",
 	},
 
 	retreat: 3,

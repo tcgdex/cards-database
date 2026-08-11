@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Meowscarada ex",
-		fr: "Miascarade-ex",
-		es: "Meowscarada ex",
-		it: "Meowscarada-ex",
-		pt: "Meowscarada ex",
-		de: "Maskagato-ex"
+		'en-us': "Meowscarada ex",
+		'fr-fr': "Miascarade-ex",
+		'es-es': "Meowscarada ex",
+		'it-it': "Meowscarada-ex",
+		'pt-br': "Meowscarada ex",
+		'de-de': "Maskagato-ex"
 	},
 
 	rarity: "Promo",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 310,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Floragato",
-		fr: "Matourgeon",
-		es: "Floragato",
-		it: "Floragato",
-		pt: "Floragato",
-		de: "Feliospa"
+		'en-us': "Floragato",
+		'fr-fr': "Matourgeon",
+		'es-es': "Floragato",
+		'it-it': "Floragato",
+		'pt-br': "Floragato",
+		'de-de': "Feliospa"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Bouquet Magic",
-			fr: "Bouquet Magique",
-			es: "Magia Floral",
-			it: "Bouquet Magico",
-			pt: "Buquê Mágico",
-			de: "Bouquetmagie"
+			'en-us': "Bouquet Magic",
+			'fr-fr': "Bouquet Magique",
+			'es-es': "Magia Floral",
+			'it-it': "Bouquet Magico",
+			'pt-br': "Buquê Mágico",
+			'de-de': "Bouquetmagie"
 		},
 
 		effect: {
-			en: "You must discard a Basic {G} Energy card from your hand in order to use this Ability. Once during your turn, you may put 3 damage counters on 1 of your opponent's Benched Pokémon.",
-			fr: "Vous devez défausser une carte Énergie {G} de base de votre main pour pouvoir utiliser ce talent. Une fois pendant votre tour, vous pouvez placer 3 marqueurs de dégâts sur l'un des Pokémon de Banc de votre adversaire.",
-			es: "Debes descartar 1 carta de Energía {G} Básica de tu mano para poder usar esta habilidad. Una vez durante tu turno, puedes poner 3 contadores de daño en uno de los Pokémon en Banca de tu rival.",
-			it: "Devi scartare una carta Energia base {G} che hai in mano per usare questa abilità. Una sola volta durante il tuo turno, puoi mettere tre segnalini danno su uno dei Pokémon nella panchina del tuo avversario.",
-			pt: "Você deve descartar uma carta de Energia {G} Básica da sua mão para usar esta Habilidade. Uma vez durante o seu turno, você poderá colocar 3 contadores de dano em 1 dos Pokémon no Banco do seu oponente.",
-			de: "Du musst 1 Basis-{G}-Energiekarte aus deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Einmal während deines Zuges kannst du 3 Schadensmarken auf 1 Pokémon auf der Bank deines Gegners legen."
+			'en-us': "You must discard a Basic {G} Energy card from your hand in order to use this Ability. Once during your turn, you may put 3 damage counters on 1 of your opponent's Benched Pokémon.",
+			'fr-fr': "Vous devez défausser une carte Énergie {G} de base de votre main pour pouvoir utiliser ce talent. Une fois pendant votre tour, vous pouvez placer 3 marqueurs de dégâts sur l'un des Pokémon de Banc de votre adversaire.",
+			'es-es': "Debes descartar 1 carta de Energía {G} Básica de tu mano para poder usar esta habilidad. Una vez durante tu turno, puedes poner 3 contadores de daño en uno de los Pokémon en Banca de tu rival.",
+			'it-it': "Devi scartare una carta Energia base {G} che hai in mano per usare questa abilità. Una sola volta durante il tuo turno, puoi mettere tre segnalini danno su uno dei Pokémon nella panchina del tuo avversario.",
+			'pt-br': "Você deve descartar uma carta de Energia {G} Básica da sua mão para usar esta Habilidade. Uma vez durante o seu turno, você poderá colocar 3 contadores de dano em 1 dos Pokémon no Banco do seu oponente.",
+			'de-de': "Du musst 1 Basis-{G}-Energiekarte aus deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Einmal während deines Zuges kannst du 3 Schadensmarken auf 1 Pokémon auf der Bank deines Gegners legen."
 		}
 	}],
 
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Scratching Nails",
-			fr: "Griffes Griffantes",
-			es: "Uñas Rasgadoras",
-			it: "Unghie Graffianti",
-			pt: "Unhas Arranhadoras",
-			de: "Kratzende Krallen"
+			'en-us': "Scratching Nails",
+			'fr-fr': "Griffes Griffantes",
+			'es-es': "Uñas Rasgadoras",
+			'it-it': "Unghie Graffianti",
+			'pt-br': "Unhas Arranhadoras",
+			'de-de': "Kratzende Krallen"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 120 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire a déjà au moins un marqueur de dégâts, cette attaque inflige 120 dégâts supplémentaires.",
-			es: "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 120 puntos de daño más.",
-			it: "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 120 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 120 pontos de dano a mais.",
-			de: "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 120 Schadenspunkte mehr zu."
+			'en-us': "If your opponent's Active Pokémon already has any damage counters on it, this attack does 120 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire a déjà au moins un marqueur de dégâts, cette attaque inflige 120 dégâts supplémentaires.",
+			'es-es': "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 120 puntos de daño más.",
+			'it-it': "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 120 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 120 pontos de dano a mais.",
+			'de-de': "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 120 Schadenspunkte mehr zu."
 		},
 
 		damage: "100+"

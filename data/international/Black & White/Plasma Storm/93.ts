@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Cobalion-EX",
-		fr: "Cobaltium-EX",
-		es: "Cobalion-EX",
-		it: "Cobalion-EX",
-		pt: "Cobalion-EX",
-		de: "Kobalium-EX"
+		'en-us': "Cobalion-EX",
+		'fr-fr': "Cobaltium-EX",
+		'es-es': "Cobalion-EX",
+		'it-it': "Cobalion-EX",
+		'pt-br': "Cobalion-EX",
+		'de-de': "Kobalium-EX"
 	},
 	illustrator: "Eske Yoshinob",
 	rarity: "Rare",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Righteous Edge",
-				fr: "Lame Vertueuse",
+				'en-us': "Righteous Edge",
+				'fr-fr': "Lame Vertueuse",
 			},
 			effect: {
-				en: "Discard a Special Energy attached to the Defending Pokémon.",
-				fr: "Défaussez une Énergie spéciale attachée au Pokémon Défenseur.",
+				'en-us': "Discard a Special Energy attached to the Defending Pokémon.",
+				'fr-fr': "Défaussez une Énergie spéciale attachée au Pokémon Défenseur.",
 			},
 			damage: 30,
 
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steel Bullet",
-				fr: "Balle d'Acier",
+				'en-us': "Steel Bullet",
+				'fr-fr': "Balle d'Acier",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon Défenseur.",
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, or any other effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon Défenseur.",
 			},
 			damage: 100,
 

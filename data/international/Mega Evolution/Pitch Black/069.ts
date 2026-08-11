@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pitch Black"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Type: Null",
-		fr: "Type:0",
-		es: "Código Cero",
+		'en-us': "Type: Null",
+		'fr-fr': "Type:0",
+		'es-es': "Código Cero",
 		'es-mx': "Código Cero",
-		de: "Typ:Null",
-		it: "Tipo Zero",
-		pt: "Tipo Nulo"
+		'de-de': "Typ:Null",
+		'it-it': "Tipo Zero",
+		'pt-br': "Tipo Nulo"
 	},
 
 	illustrator: "Ligton",
@@ -24,13 +24,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Power Edge",
-			fr: "Lame Redoutable",
-			es: "Filo Poderoso",
+			'en-us': "Power Edge",
+			'fr-fr': "Lame Redoutable",
+			'es-es': "Filo Poderoso",
 			'es-mx': "Filo Poderoso",
-			de: "Kraftklinge",
-			it: "Colpotente",
-			pt: "Gume Poderoso"
+			'de-de': "Kraftklinge",
+			'it-it': "Colpotente",
+			'pt-br': "Gume Poderoso"
 		},
 
 		cost: ["Colorless", "Colorless"],

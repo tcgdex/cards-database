@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ファイヤー",
+		'ja-jp': "ファイヤー",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "伝説の とりポケモンの １匹。 ファイヤーが 姿を 見せると 春が 訪れると 言われている。",
+		'ja-jp': "伝説の とりポケモンの １匹。 ファイヤーが 姿を 見せると 春が 訪れると 言われている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Fire"],
 			effect: {
-				ja: "のぞむなら、自分の手札にある[炎]エネルギーを1枚、ベンチポケモンにつける。",
+				'ja-jp': "のぞむなら、自分の手札にある[炎]エネルギーを1枚、ベンチポケモンにつける。",
 			},
 		},
 		{

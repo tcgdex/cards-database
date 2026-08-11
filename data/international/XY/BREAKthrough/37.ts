@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Prinplup",
-		fr: "Prinplouf",
-		es: "Prinplup",
-		it: "Prinplup",
-		pt: "Prinplup",
-		de: "Pliprin"
+		'en-us': "Prinplup",
+		'fr-fr': "Prinplouf",
+		'es-es': "Prinplup",
+		'it-it': "Prinplup",
+		'pt-br': "Prinplup",
+		'de-de': "Pliprin"
 	},
 
 	illustrator: "kirisAki",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Piplup",
-		fr: "Tiplouf",
-		es: "Piplup",
-		it: "Piplup",
-		pt: "Piplup",
-		de: "Plinfa"
+		'en-us': "Piplup",
+		'fr-fr': "Tiplouf",
+		'es-es': "Piplup",
+		'it-it': "Piplup",
+		'pt-br': "Piplup",
+		'de-de': "Plinfa"
 	},
 
 	stage: "Stage1",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Beam",
-				fr: "Laser Glace",
-				es: "Rayo Hielo",
-				it: "Geloraggio",
-				pt: "Raio Congelante",
-				de: "Eisstrahl"
+				'en-us': "Ice Beam",
+				'fr-fr': "Laser Glace",
+				'es-es': "Rayo Hielo",
+				'it-it': "Geloraggio",
+				'pt-br': "Raio Congelante",
+				'de-de': "Eisstrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 30,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives a solitary life. Its wings deliver wicked blows that can snap even the thickest of trees.",
+		'en-us': "It lives a solitary life. Its wings deliver wicked blows that can snap even the thickest of trees.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キングラー（デルタ種）",
+		'ja-jp': "キングラー（デルタ種）",
 	},
 
 	rarity: "Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Metal", "Colorless"],
 			name: {
-				ja: "ボディスラム",
+				'ja-jp': "ボディスラム",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Fire", "Colorless", "Colorless"],
 			name: {
-				ja: "プロップアップピンチャー",
+				'ja-jp': "プロップアップピンチャー",
 			},
 			effect: {
-				ja: "Kinglerにポケモンツールカードが付属している場合、この攻撃は40ダメージに加えて40ダメージを与えます。",
+				'ja-jp': "Kinglerにポケモンツールカードが付属している場合、この攻撃は40ダメージに加えて40ダメージを与えます。",
 			},
 		},
 	],

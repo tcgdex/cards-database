@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Thwackey"
+		'id-id': "Thwackey"
 	},
 
 	illustrator: "GOSSAN",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Thwackey yang dapat mengetukkan irama menggunakan dua buah stiknya dengan kencanglah yang makin dihormati kawanannya."
+		'id-id': "Thwackey yang dapat mengetukkan irama menggunakan dua buah stiknya dengan kencanglah yang makin dihormati kawanannya."
 	},
 
 	stage: "Stage1",
@@ -23,17 +23,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Gendang Dung Dung Dung"
+			'id-id': "Gendang Dung Dung Dung"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri jika Pokémon Bertarung sendiri adalah Pokémon yang memiliki Ability Orkes Festival. Pilih 1 kartu sesukanya dari Deck sendiri, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri jika Pokémon Bertarung sendiri adalah Pokémon yang memiliki Ability Orkes Festival. Pilih 1 kartu sesukanya dari Deck sendiri, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Menghantam"
+			'id-id': "Menghantam"
 		},
 
 		damage: 50,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "PoliWhirl",
+		'ja-jp': "PoliWhirl",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "エネルギーボール",
+				'ja-jp': "エネルギーボール",
 			},
 			effect: {
-				ja: "PoliWhirlに付随する各エネルギーに対して30のダメージに加えて10ダメージを加えますが、この攻撃のエネルギーコストの支払いには使用されません。この方法で20以上のダメージを追加することはできません。",
+				'ja-jp': "PoliWhirlに付随する各エネルギーに対して30のダメージに加えて10ダメージを加えますが、この攻撃のエネルギーコストの支払いには使用されません。この方法で20以上のダメージを追加することはできません。",
 			},
 		},
 	],

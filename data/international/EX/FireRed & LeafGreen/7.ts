@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Marowak",
-		fr: "Ossatueur",
-		de: "Knogga"
+		'en-us': "Marowak",
+		'fr-fr': "Ossatueur",
+		'de-de': "Knogga"
 	},
 
 	illustrator: "Aya Kusube",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cubone",
-		fr: "Osselait"
+		'en-us': "Cubone",
+		'fr-fr': "Osselait"
 	},
 
 	stage: "Stage1",
@@ -35,15 +35,15 @@ const card: Card = {
 			cost: ["Lightning", "Lightning", "Colorless", "Colorless"],
 
 			name: {
-				en: "Linear Attack",
-				fr: "Attaque linéaire",
-				de: "Blitzsturm"
+				'en-us': "Linear Attack",
+				'fr-fr': "Attaque linéaire",
+				'de-de': "Blitzsturm"
 			},
 
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez un des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
-				de: "Wirf eine Münze. Lege bei \"Zahl\" 2 Schadensmarken auf Zapdos."
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez un des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
+				'de-de': "Wirf eine Münze. Lege bei \"Zahl\" 2 Schadensmarken auf Zapdos."
 			},
 
 			damage: 60
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vengeance",
-				fr: "Vengeance",
-				de: "Linear Attack"
+				'en-us': "Vengeance",
+				'fr-fr': "Vengeance",
+				'de-de': "Linear Attack"
 			},
 			effect: {
-				en: "Does 30 damage plus 10 more damage for each Basic Pokémon and each Evolution card in your discard pile. You can't add more than 60 damage in this way.",
-				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Pokémon de base et chaque carte Évolution dans votre pile de défausse. Vous ne pouvez pas infliger plus de 60 dégâts de cette façon.",
-				de: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to thad Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Does 30 damage plus 10 more damage for each Basic Pokémon and each Evolution card in your discard pile. You can't add more than 60 damage in this way.",
+				'fr-fr': "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Pokémon de base et chaque carte Évolution dans votre pile de défausse. Vous ne pouvez pas infliger plus de 60 dégâts de cette façon.",
+				'de-de': "Choose 1 of your opponent's Pokémon. This attack does 30 damage to thad Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: "30+",
 

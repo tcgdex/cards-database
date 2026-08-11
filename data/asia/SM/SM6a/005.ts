@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダルマッカ",
+		'ja-jp': "ダルマッカ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "寝るときは 手足を ひっこめ 体内で 燃えている ６００度の 炎も 小さくなり 落ち着くよ。",
+		'ja-jp': "寝るときは 手足を ひっこめ 体内で 燃えている ６００度の 炎も 小さくなり 落ち着くよ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数x30ダメージ追加。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数x30ダメージ追加。",
 			},
 		},
 	],

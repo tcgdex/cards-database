@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Shelgon δ",
-		fr: "Drackhaus δ",
-		de: "Draschel"
+		'en-us': "Shelgon δ",
+		'fr-fr': "Drackhaus δ",
+		'de-de': "Draschel"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bagon",
-		fr: "Draby"
+		'en-us': "Bagon",
+		'fr-fr': "Draby"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Exoskeleton",
-				fr: "Exosquelette",
-				de: "Exoskeleton"
+				'en-us': "Exoskeleton",
+				'fr-fr': "Exosquelette",
+				'de-de': "Exoskeleton"
 			},
 			effect: {
-				en: "Any damage done to Shelgon by attacks is reduced by 10 (after applying Weakness and Resistance).",
-				fr: "Les dégâts infligés à Drackhaus par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
-				de: "Any damage done to Shelgon by attacks is reduced by 10 (after applying Weakness and Resistance)."
+				'en-us': "Any damage done to Shelgon by attacks is reduced by 10 (after applying Weakness and Resistance).",
+				'fr-fr': "Les dégâts infligés à Drackhaus par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Any damage done to Shelgon by attacks is reduced by 10 (after applying Weakness and Resistance)."
 			},
 		},
 	],
@@ -49,9 +49,9 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				en: "Heat Blast",
-				fr: "Explosion de chaleur",
-				de: "Heat Blast"
+				'en-us': "Heat Blast",
+				'fr-fr': "Explosion de chaleur",
+				'de-de': "Heat Blast"
 			},
 
 			damage: 30,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Salamence ex",
-		fr: "Drattak ex",
-		de: "Brutalanda ex"
+		'en-us': "Salamence ex",
+		'fr-fr': "Drattak ex",
+		'de-de': "Brutalanda ex"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shelgon",
-		fr: "Drackhaus"
+		'en-us': "Shelgon",
+		'fr-fr': "Drackhaus"
 	},
 
 	suffix: "ex",
@@ -39,14 +39,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Volcanic Flame",
-				fr: "Flamme volcanique",
-				de: "Vulkanfeuer"
+				'en-us': "Volcanic Flame",
+				'fr-fr': "Flamme volcanique",
+				'de-de': "Vulkanfeuer"
 			},
 			effect: {
-				en: "Discard the top 5 cards from your deck.",
-				fr: "Défaussez les 5 cartes du dessus de votre deck.",
-				de: "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel."
+				'en-us': "Discard the top 5 cards from your deck.",
+				'fr-fr': "Défaussez les 5 cartes du dessus de votre deck.",
+				'de-de': "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel."
 			},
 			damage: 150,
 
@@ -59,14 +59,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Wave",
-				fr: "Hydro-vague",
-				de: "Hydrowelle"
+				'en-us': "Hydro Wave",
+				'fr-fr': "Hydro-vague",
+				'de-de': "Hydrowelle"
 			},
 			effect: {
-				en: "Discard all Water Energy attached to Salamence ex. This attack does 30 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Défaussez toutes les Énergies  attachées à Drattak ex. Cette attaque inflige 30 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Lege alle -Energie, die an Brutalanda ex angelegt ist, auf deinen Ablagestapel. Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Discard all Water Energy attached to Salamence ex. This attack does 30 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Défaussez toutes les Énergies  attachées à Drattak ex. Cette attaque inflige 30 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Lege alle -Energie, die an Brutalanda ex angelegt ist, auf deinen Ablagestapel. Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},

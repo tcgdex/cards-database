@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Marill"
+		'id-id': "Marill"
 	},
 
 	illustrator: "yuu",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Bulu Marill bersifat menangkal air. Bulu tersebut tetap kering meskipun Pokémon ini terguyur air."
+		'id-id': "Bulu Marill bersifat menangkal air. Bulu tersebut tetap kering meskipun Pokémon ini terguyur air."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menggelindingkan Bola"
+			'id-id': "Menggelindingkan Bola"
 		},
 
 		effect: {
-			id: "Lempar koin hingga hasilnya sisi belakang. Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lemparan dengan hasil sisi depan."
+			'id-id': "Lempar koin hingga hasilnya sisi belakang. Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lemparan dengan hasil sisi depan."
 		},
 
 		damage: "10×",
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Magical Shot"
+			'id-id': "Magical Shot"
 		},
 
 		damage: 40,

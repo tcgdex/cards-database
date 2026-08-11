@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Dragonium Z: Dragon Claw",
-		fr: "Dracozélite : Dracogriffe",
-		es: "Dracostal Z: Garra Dragón",
-		it: "Draconium Z: Dragartigli",
-		pt: "Dragonium Z: Garra de Dragão",
-		de: "Dracium Z: Drachenklaue"
+		'en-us': "Dragonium Z: Dragon Claw",
+		'fr-fr': "Dracozélite : Dracogriffe",
+		'es-es': "Dracostal Z: Garra Dragón",
+		'it-it': "Draconium Z: Dragartigli",
+		'pt-br': "Dragonium Z: Garra de Dragão",
+		'de-de': "Dracium Z: Drachenklaue"
 	},
 
 	illustrator: "aky CG Works",
@@ -18,11 +18,11 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: 'Destructive Drake GX',
+			'en-us': 'Destructive Drake GX',
 		},
 		damage: '80×',
 		effect: {
-			en: 'Discard all basic Energy from this Pokémon. This attack does 80 damage for each card you discarded in this way. (you can\'t use mote than 1 GX attack in a game.)'
+			'en-us': 'Discard all basic Energy from this Pokémon. This attack does 80 damage for each card you discarded in this way. (you can\'t use mote than 1 GX attack in a game.)'
 		},
 		cost: [
 			'Colorless',
@@ -32,12 +32,12 @@ const card: Card = {
 	}],
 
 	effect: {
-		fr: "Si le Pokémon auquel cette carte est attachée a l’attaque Dracogriffe, il peut utiliser l’attaque GX sur cette carte. (Vous avez toujours besoin de l’Énergie nécessaire pour utiliser cette attaque.)\n\nColorlessColorlessColorless Destruction Draconique GX 80×\nDéfaussez toute l’Énergie de base de ce Pokémon. Cette attaque inflige 80 dégâts pour chaque carte défaussée de cette façon. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-		en: "If the Pokémon this card is attached to has the Dragon Claw attack, it can use the GX attack on this card. (You still need the necessary Energy to use this attack.)",
-		es: "",
-		it: "",
-		pt: "",
-		de: ""
+		'fr-fr': "Si le Pokémon auquel cette carte est attachée a l’attaque Dracogriffe, il peut utiliser l’attaque GX sur cette carte. (Vous avez toujours besoin de l’Énergie nécessaire pour utiliser cette attaque.)\n\nColorlessColorlessColorless Destruction Draconique GX 80×\nDéfaussez toute l’Énergie de base de ce Pokémon. Cette attaque inflige 80 dégâts pour chaque carte défaussée de cette façon. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+		'en-us': "If the Pokémon this card is attached to has the Dragon Claw attack, it can use the GX attack on this card. (You still need the necessary Energy to use this attack.)",
+		'es-es': "",
+		'it-it': "",
+		'pt-br': "",
+		'de-de': ""
 	},
 
 	trainerType: "Tool",

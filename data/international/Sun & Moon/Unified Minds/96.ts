@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Mareanie",
-		fr: "Vorastérie",
-		es: "Mareanie",
-		it: "Mareanie",
-		pt: "Mareanie",
-		de: "Garstella"
+		'en-us': "Mareanie",
+		'fr-fr': "Vorastérie",
+		'es-es': "Mareanie",
+		'it-it': "Mareanie",
+		'pt-br': "Mareanie",
+		'de-de': "Garstella"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				es: "Picotazo",
-				it: "Beccata",
-				pt: "Bicada",
-				de: "Schnabel"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'es-es': "Picotazo",
+				'it-it': "Beccata",
+				'pt-br': "Bicada",
+				'de-de': "Schnabel"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They eat Corsola branches, so Mareanie are hated by craftsmen who work with Corsola branches that have naturally fallen off.",
+		'en-us': "They eat Corsola branches, so Mareanie are hated by craftsmen who work with Corsola branches that have naturally fallen off.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヒスイ バクフーンVSTAR"
+		'ja-jp': "ヒスイ バクフーンVSTAR"
 	},
 
 	illustrator: "5ban Graphics",
@@ -18,23 +18,23 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			ja: "ホロウフレイム"
+			'ja-jp': "ホロウフレイム"
 		},
 
 		damage: 180,
 
 		effect: {
-			ja: "ダメカン3個を、相手のベンチポケモンに好きなようにのせる。"
+			'ja-jp': "ダメカン3個を、相手のベンチポケモンに好きなようにのせる。"
 		}
 	}, {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "カゲロウスター"
+			'ja-jp': "カゲロウスター"
 		},
 
 		effect: {
-			ja: "相手のバトルポケモンにのっているダメカンが4個なら、そのポケモンをきぜつさせる。［対戦中、自分はVSTARパワーを1回しか使えない。］"
+			'ja-jp': "相手のバトルポケモンにのっているダメカンが4個なら、そのポケモンをきぜつさせる。［対戦中、自分はVSTARパワーを1回しか使えない。］"
 		}
 	}],
 

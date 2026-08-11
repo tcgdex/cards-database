@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラキュウコンGX",
+		'ja-jp': "アローラキュウコンGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "こおりのやいば" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -27,14 +27,14 @@ const card: Card = {
 			damage: 160,
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、2個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、2個トラッシュする。",
 			},
 		},
 		{
 			name: { ja: "クリアゲートGX" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにのっているダメカンをすべて、相手のバトルポケモンにのせ替える。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "このポケモンにのっているダメカンをすべて、相手のバトルポケモンにのせ替える。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アローラロコン",
+		'ja-jp': "アローラロコン",
 	},
 
 	retreat: 1,

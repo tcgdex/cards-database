@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Binacle",
-		fr: "Opermine",
-		es: "Binacle",
-		it: "Binacle",
-		pt: "Binacle",
-		de: "Bithora"
+		'en-us': "Binacle",
+		'fr-fr': "Opermine",
+		'es-es': "Binacle",
+		'it-it': "Binacle",
+		'pt-br': "Binacle",
+		'de-de': "Bithora"
 	},
 
 	illustrator: "Scav",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Mud-Slap",
-			fr: "Coud'Boue",
-			es: "Bofetón Lodo",
-			it: "Fangosberla",
-			pt: "Tapa de Lama",
-			de: "Lehmschelle"
+			'en-us': "Mud-Slap",
+			'fr-fr': "Coud'Boue",
+			'es-es': "Bofetón Lodo",
+			'it-it': "Fangosberla",
+			'pt-br': "Tapa de Lama",
+			'de-de': "Lehmschelle"
 		},
 
 		damage: 10
@@ -38,12 +38,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Slash",
-			fr: "Tranche",
-			es: "Cuchillada",
-			it: "Lacerazione",
-			pt: "Talho",
-			de: "Schlitzer"
+			'en-us': "Slash",
+			'fr-fr': "Tranche",
+			'es-es': "Cuchillada",
+			'it-it': "Lacerazione",
+			'pt-br': "Talho",
+			'de-de': "Schlitzer"
 		},
 
 		damage: 20

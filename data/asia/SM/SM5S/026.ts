@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドンカラス",
+		'ja-jp': "ドンカラス",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "獲物を 捕るのを 失敗したり 裏切った 子分の ヤミカラスを どこまでも 追い詰め 処分する。",
+		'ja-jp': "獲物を 捕るのを 失敗したり 裏切った 子分の ヤミカラスを どこまでも 追い詰め 処分する。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "スナッチターン" },
 			cost: ["Darkness"],
 			effect: {
-				ja: "相手の手札からオモテを見ないで、1枚トラッシュする。このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "相手の手札からオモテを見ないで、1枚トラッシュする。このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤミカラス",
+		'ja-jp': "ヤミカラス",
 	},
 
 	retreat: 1,

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Hypotrempe",
-		en: "Horsea",
-		es: "Horsea",
-		it: "Horsea",
-		pt: "Horsea",
-		de: "Seeper"
+		'fr-fr': "Hypotrempe",
+		'en-us': "Horsea",
+		'es-es': "Horsea",
+		'it-it': "Horsea",
+		'pt-br': "Horsea",
+		'de-de': "Seeper"
 	},
 
 	illustrator: "Taira Akitsu",
@@ -22,12 +22,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Pistolet à O",
-			en: "Water Gun",
-			es: "Pistola Agua",
-			it: "Pistolacqua",
-			pt: "Revólver d'Água",
-			de: "Aquaknarre"
+			'fr-fr': "Pistolet à O",
+			'en-us': "Water Gun",
+			'es-es': "Pistola Agua",
+			'it-it': "Pistolacqua",
+			'pt-br': "Revólver d'Água",
+			'de-de': "Aquaknarre"
 		},
 
 		damage: 10,
@@ -46,7 +46,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees."
+		'en-us': "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees."
 	},
 
 	variants: [

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Lairon",
-		fr: "Galegon",
-		es: "Lairon",
-		it: "Lairon",
-		pt: "Lairon",
-		de: "Stollrak"
+		'en-us': "Lairon",
+		'fr-fr': "Galegon",
+		'es-es': "Lairon",
+		'it-it': "Lairon",
+		'pt-br': "Lairon",
+		'de-de': "Stollrak"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Aron",
-		fr: "Galekid",
+		'en-us': "Aron",
+		'fr-fr': "Galekid",
 	},
 
 	stage: "Stage1",
@@ -40,8 +40,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Claw",
-				fr: "Griffe Acier",
+				'en-us': "Metal Claw",
+				'fr-fr': "Griffe Acier",
 			},
 
 			damage: 30,
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wreak Havoc",
-				fr: "Ravages",
+				'en-us': "Wreak Havoc",
+				'fr-fr': "Ravages",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. For each heads, discard the top card of your opponent's deck.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Pour chaque côté face, défaussez la carte du dessus du deck de votre adversaire.",
+				'en-us': "Flip a coin until you get tails. For each heads, discard the top card of your opponent's deck.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Pour chaque côté face, défaussez la carte du dessus du deck de votre adversaire.",
 			},
 			damage: 60,
 
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "For food, it digs up iron ore. It smashes it steely body against others to fight over territory.",
+		'en-us': "For food, it digs up iron ore. It smashes it steely body against others to fight over territory.",
 	},
 
 	thirdParty: {

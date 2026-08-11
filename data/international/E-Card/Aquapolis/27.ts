@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Parasect",
-		fr: "Parasect",
-		de: "Parasek"
+		'en-us': "Parasect",
+		'fr-fr': "Parasect",
+		'de-de': "Parasek"
 	},
 
 	illustrator: "Masako Yamashita",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Paras",
-		fr: "Paras"
+		'en-us': "Paras",
+		'fr-fr': "Paras"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sleep Inducer",
-				fr: "Poussododo",
-				de: "Sleep Inducer"
+				'en-us': "Sleep Inducer",
+				'fr-fr': "Poussododo",
+				'de-de': "Sleep Inducer"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Benched Pokémon and switch the Defending Pokémon with it. The new Defending Pokémon is now Asleep.",
-				fr: "Choisissez un des Pokémon du Banc de votre adversaire et échangez-le contre le Pokémon Défenseur. Le nouveau Pokémon Défenseur est maintenant Endormi.",
-				de: "Choose 1 of your opponent's Benched Pokémon and switch the Defending Pokémon with it. The new Defending Pokémon is now Asleep."
+				'en-us': "Choose 1 of your opponent's Benched Pokémon and switch the Defending Pokémon with it. The new Defending Pokémon is now Asleep.",
+				'fr-fr': "Choisissez un des Pokémon du Banc de votre adversaire et échangez-le contre le Pokémon Défenseur. Le nouveau Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Choose 1 of your opponent's Benched Pokémon and switch the Defending Pokémon with it. The new Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rapture Pollen",
-				fr: "Pollen d'extase",
-				de: "Rapture Pollen"
+				'en-us': "Rapture Pollen",
+				'fr-fr': "Pollen d'extase",
+				'de-de': "Rapture Pollen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, remove 2 damage counters from Parasect.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi. Si c'est pile, retirez 2 marqueurs de dégâts de Parasect.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, remove 2 damage counters from Parasect."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, remove 2 damage counters from Parasect.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi. Si c'est pile, retirez 2 marqueurs de dégâts de Parasect.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, remove 2 damage counters from Parasect."
 			},
 			damage: 20,
 

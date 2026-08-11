@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Houndoom",
-		fr: "Démolosse"
+		'en-us': "Houndoom",
+		'fr-fr': "Démolosse"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -18,28 +18,28 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Houndour"
+		'en-us': "Houndour"
 	},
 
 	description: {
-		en: "If you are burned by the flames it shoots from its\nmouth, the pain will never go away.",
-		fr: "Les blessures provoquées par son souffle enflammé sont permanentes, et la douleur ne disparaît jamais."
+		'en-us': "If you are burned by the flames it shoots from its\nmouth, the pain will never go away.",
+		'fr-fr': "Les blessures provoquées par son souffle enflammé sont permanentes, et la douleur ne disparaît jamais."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Diving Swipe",
-			fr: "Rafle Plongeante"
+			'en-us': "Diving Swipe",
+			'fr-fr': "Rafle Plongeante"
 		},
 
 		damage: 70,
 		cost: ["Darkness", "Darkness", "Darkness"],
 
 		effect: {
-			en: "Discard a random card from your opponent's hand.",
-			fr: "Défaussez au hasard une carte de la main de votre adversaire."
+			'en-us': "Discard a random card from your opponent's hand.",
+			'fr-fr': "Défaussez au hasard une carte de la main de votre adversaire."
 		}
 	}],
 

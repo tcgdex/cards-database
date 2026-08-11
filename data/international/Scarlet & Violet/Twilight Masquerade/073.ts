@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tadbulb",
-		fr: "Têtampoule",
-		es: "Tadbulb",
-		it: "Tadbulb",
-		pt: "Tadbulb",
-		de: "Blipp"
+		'en-us': "Tadbulb",
+		'fr-fr': "Têtampoule",
+		'es-es': "Tadbulb",
+		'it-it': "Tadbulb",
+		'pt-br': "Tadbulb",
+		'de-de': "Blipp"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Electro Ball",
-			fr: "Boule Élek",
-			es: "Bola Voltio",
-			it: "Energisfera",
-			pt: "Bola Elétrica",
-			de: "Elektroball"
+			'en-us': "Electro Ball",
+			'fr-fr': "Boule Élek",
+			'es-es': "Bola Voltio",
+			'it-it': "Energisfera",
+			'pt-br': "Bola Elétrica",
+			'de-de': "Elektroball"
 		},
 
 		damage: 20
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It floats using the electricity stored in its body. When thunderclouds are around, Tadbulb will float higher off the ground.",
+		'en-us': "It floats using the electricity stored in its body. When thunderclouds are around, Tadbulb will float higher off the ground.",
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Swirlix"
+		'en-us': "Swirlix"
 	},
 
 	illustrator: "Kurata So",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "The sweet smell of cotton candy perfumes\nSwirlix's fluffy fur. This Pokémon spits out\nsticky string to tangle up its enemies."
+		'en-us': "The sweet smell of cotton candy perfumes\nSwirlix's fluffy fur. This Pokémon spits out\nsticky string to tangle up its enemies."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Cotton Guard"
+			'en-us': "Cotton Guard"
 		},
 
 		damage: 10,
 		cost: ["Psychic"],
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes −20 damage from attacks."
+			'en-us': "During your opponent's next turn, this Pokémon takes −20 damage from attacks."
 		}
 	}],
 

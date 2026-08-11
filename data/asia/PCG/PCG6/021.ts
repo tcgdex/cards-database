@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サラメンス（デルタ種）",
+		'ja-jp': "サラメンス（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Fire", "Colorless"],
 			name: {
-				ja: "ファイアダンス",
+				'ja-jp': "ファイアダンス",
 			},
 			effect: {
-				ja: "廃棄の山を検索して、ファイアエネルギーカードを使用して、1枚のポケモンに取り付けます。",
+				'ja-jp': "廃棄の山を検索して、ファイアエネルギーカードを使用して、1枚のポケモンに取り付けます。",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Fire", "Metal", "Colorless", "Colorless"],
 			name: {
-				ja: "デルタブラスト",
+				'ja-jp': "デルタブラスト",
 			},
 			effect: {
-				ja: "サラメンスに取り付けられた金属エネルギーカードを捨てます。",
+				'ja-jp': "サラメンスに取り付けられた金属エネルギーカードを捨てます。",
 			},
 			damage: 100,
 		},

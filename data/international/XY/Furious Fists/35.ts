@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Drowzee",
-		fr: "Soporifik",
-		es: "Drowzee",
-		it: "Drowzee",
-		pt: "Drowzee",
-		de: "Traumato"
+		'en-us': "Drowzee",
+		'fr-fr': "Soporifik",
+		'es-es': "Drowzee",
+		'it-it': "Drowzee",
+		'pt-br': "Drowzee",
+		'de-de': "Traumato"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Sinister Suggestion",
-				fr: "Suggestion Sinistre",
-				es: "Sugerencia Siniestra",
-				it: "Sinistra Illusione",
-				pt: "Sugestão Sinistra",
-				de: "Finsterer Vorschlag"
+				'en-us': "Sinister Suggestion",
+				'fr-fr': "Suggestion Sinistre",
+				'es-es': "Sugerencia Siniestra",
+				'it-it': "Sinistra Illusione",
+				'pt-br': "Sugestão Sinistra",
+				'de-de': "Finsterer Vorschlag"
 			},
 			effect: {
-				en: "Whenever your opponent flips a coin during his or her next turn, treat it as tails.",
-				fr: "Chaque fois que votre adversaire lance une pièce pendant son prochain tour, considérez que c'est pile.",
-				es: "Cada vez que tu rival lance una moneda durante su próximo turno, se considerará que ha salido cruz.",
-				it: "Ogni lancio della moneta del tuo avversario durante il suo prossimo turno verrà considerato croce.",
-				pt: "Sempre que seu oponente jogar uma moeda na próxima vez dele jogar, trate-a como coroa.",
-				de: "Immer wenn dein Gegner während seines nächsten Zuges 1 Münze wirft, wird das Ergebnis als \"Zahl\" gewertet."
+				'en-us': "Whenever your opponent flips a coin during his or her next turn, treat it as tails.",
+				'fr-fr': "Chaque fois que votre adversaire lance une pièce pendant son prochain tour, considérez que c'est pile.",
+				'es-es': "Cada vez que tu rival lance una moneda durante su próximo turno, se considerará que ha salido cruz.",
+				'it-it': "Ogni lancio della moneta del tuo avversario durante il suo prossimo turno verrà considerato croce.",
+				'pt-br': "Sempre que seu oponente jogar uma moeda na próxima vez dele jogar, trate-a como coroa.",
+				'de-de': "Immer wenn dein Gegner während seines nächsten Zuges 1 Münze wirft, wird das Ergebnis als \"Zahl\" gewertet."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psyshot",
-				fr: "Piqûre Psy",
-				es: "Disparo Psi",
-				it: "Psicosparo",
-				pt: "Tiro Psíquico",
-				de: "Psychoschuss"
+				'en-us': "Psyshot",
+				'fr-fr': "Piqûre Psy",
+				'es-es': "Disparo Psi",
+				'it-it': "Psicosparo",
+				'pt-br': "Tiro Psíquico",
+				'de-de': "Psychoschuss"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Puts enemies to sleep, then eats their dreams. Occasionally gets sick from eating only bad dreams.",
+		'en-us': "Puts enemies to sleep, then eats their dreams. Occasionally gets sick from eating only bad dreams.",
 	},
 
 	thirdParty: {

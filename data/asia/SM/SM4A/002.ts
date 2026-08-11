@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コクーン",
+		'ja-jp': "コクーン",
 	},
 
 	illustrator: "miki kudo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "自分では ほとんど 動けないが 危ないときは 硬くなって 身を守っているようだ。",
+		'ja-jp': "自分では ほとんど 動けないが 危ないときは 硬くなって 身を守っているようだ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ふえる" },
 			cost: ["Grass"],
 			effect: {
-				ja: "自分の山札にある「コクーン」を3枚まで、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札にある「コクーン」を3枚まで、ベンチに出す。そして山札を切る。",
 			},
 		},
 	],
@@ -41,7 +41,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ビードル",
+		'ja-jp': "ビードル",
 	},
 
 	retreat: 2,

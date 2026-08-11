@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [617],
 
 	name: {
-		en: "Accelgor",
-		fr: "Limaspeed",
-		es: "Accelgor",
-		it: "Accelgor",
-		pt: "Accelgor",
-		de: "Hydragil"
+		'en-us': "Accelgor",
+		'fr-fr': "Limaspeed",
+		'es-es': "Accelgor",
+		'it-it': "Accelgor",
+		'pt-br': "Accelgor",
+		'de-de': "Hydragil"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shelmet",
-		fr: "Escargaume",
-		es: "Shelmet",
-		it: "Shelmet",
-		pt: "Shelmet",
-		de: "Schnuthelm"
+		'en-us': "Shelmet",
+		'fr-fr': "Escargaume",
+		'es-es': "Shelmet",
+		'it-it': "Shelmet",
+		'pt-br': "Shelmet",
+		'de-de': "Schnuthelm"
 	},
 
 	attacks: [
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jet Headbutt",
-				fr: "Bélier Volant",
-				es: "Turbocabezazo",
-				it: "Zuccata Jet",
-				pt: "Cabeçada a Jato",
-				de: "Flinke Kopfnuss"
+				'en-us': "Jet Headbutt",
+				'fr-fr': "Bélier Volant",
+				'es-es': "Turbocabezazo",
+				'it-it': "Zuccata Jet",
+				'pt-br': "Cabeçada a Jato",
+				'de-de': "Flinke Kopfnuss"
 			},
 
 			damage: 70,
@@ -66,7 +66,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It moves with blinding speed and lobs poison at foes. Featuring Accelgor as a main character is a surefire way to make a movie or comic popular."
+		'en-us': "It moves with blinding speed and lobs poison at foes. Featuring Accelgor as a main character is a surefire way to make a movie or comic popular."
 	},
 
 	variants: [

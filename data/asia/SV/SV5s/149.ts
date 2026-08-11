@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Charjabug"
+		'id-id': "Charjabug"
 	},
 
 	illustrator: "Mina Nakai",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Charjabug melindungi dirinya dengan cangkang yang kuat. Pokémon ini membalas serangan menggunakan listrik yang dialirkan dari ujung rahangnya."
+		'id-id': "Charjabug melindungi dirinya dengan cangkang yang kuat. Pokémon ini membalas serangan menggunakan listrik yang dialirkan dari ujung rahangnya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Berpijar-pijar"
+			'id-id': "Berpijar-pijar"
 		},
 
 		damage: 60,

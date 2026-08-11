@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Kangaskhan",
-		fr: "Kangourex",
+		'en-us': "Kangaskhan",
+		'fr-fr': "Kangourex",
 	},
 
 	illustrator: "You Iribi",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Parental Fury",
-				fr: "Fureur Maternelle",
+				'en-us': "Parental Fury",
+				'fr-fr': "Fureur Maternelle",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 40 damage for each heads.",
-				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 40 dégâts pour chaque côté face.",
+				'en-us': "Flip a coin until you get tails. This attack does 40 damage for each heads.",
+				'fr-fr': "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 40 dégâts pour chaque côté face.",
 			},
 			damage: "40×",
 
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Kangaskhan protects its child by keeping it in its pouch. It has zero forgiveness for those who harm its child and will beat them down.",
+		'en-us': "Kangaskhan protects its child by keeping it in its pouch. It has zero forgiveness for those who harm its child and will beat them down.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Escavalier",
-		fr: "Lançargot",
-		es: "Escavalier",
-		it: "Escavalier",
-		pt: "Escavalier",
-		de: "Cavalanzas"
+		'en-us': "Escavalier",
+		'fr-fr': "Lançargot",
+		'es-es': "Escavalier",
+		'it-it': "Escavalier",
+		'pt-br': "Escavalier",
+		'de-de': "Cavalanzas"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Karrablast",
-		fr: "Carabing"
+		'en-us': "Karrablast",
+		'fr-fr': "Carabing"
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Joust",
-				fr: "Joute"
+				'en-us': "Joust",
+				'fr-fr': "Joute"
 			},
 			effect: {
-				en: "Before doing damage, discard a Pokémon Tool card attached to the Defending Pokémon.",
-				fr: "Avant d'infliger des dégâts, défaussez une carte Outil Pokémon au Pokémon Défenseur."
+				'en-us': "Before doing damage, discard a Pokémon Tool card attached to the Defending Pokémon.",
+				'fr-fr': "Avant d'infliger des dégâts, défaussez une carte Outil Pokémon au Pokémon Défenseur."
 			},
 			damage: 30,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cavalry Lance",
-				fr: "Lance de Chevalier"
+				'en-us': "Cavalry Lance",
+				'fr-fr': "Lance de Chevalier"
 			},
 			effect: {
-				en: "During your opponent's next turn, this Pokémon has no Weakness.",
-				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon n'a pas de Faiblesse."
+				'en-us': "During your opponent's next turn, this Pokémon has no Weakness.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, ce Pokémon n'a pas de Faiblesse."
 			},
 			damage: 70,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "They fly around at high speed, striking with their pointed spears. Even when in trouble, they face opponents bravely.",
+		'en-us': "They fly around at high speed, striking with their pointed spears. Even when in trouble, they face opponents bravely.",
 	},
 
 	thirdParty: {

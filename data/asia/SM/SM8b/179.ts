@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ベベノム",
+		'ja-jp': "ベベノム",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "異世界に おいては 旅立ちの パートナーに 選ばれるほど 親しまれている ウルトラビースト。",
+		'ja-jp': "異世界に おいては 旅立ちの パートナーに 選ばれるほど 親しまれている ウルトラビースト。",
 	},
 
 	stage: "Basic",
@@ -23,14 +23,14 @@ const card: Card = {
 			name: { ja: "どくえき" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 			},
 		},
 		{
 			name: { ja: "コープスリバイバー" },
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンがきぜつしても、相手はサイドをとれない。",
+				'ja-jp': "次の相手の番、このポケモンがきぜつしても、相手はサイドをとれない。",
 			},
 		},
 	],

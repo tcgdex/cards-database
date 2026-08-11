@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Raticate",
-		fr: "Rattatac",
-		de: "Rattikarl"
+		'en-us': "Raticate",
+		'fr-fr': "Rattatac",
+		'de-de': "Rattikarl"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rattata",
-		fr: "Rattata",
+		'en-us': "Rattata",
+		'fr-fr': "Rattata",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw Off",
-				fr: "Ronger jusqu'au bout",
-				de: "Abnagen"
+				'en-us': "Gnaw Off",
+				'fr-fr': "Ronger jusqu'au bout",
+				'de-de': "Abnagen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 60 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 60 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 60 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 60 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 60 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 60 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sucker Punch",
-				fr: "Coup Bas",
-				de: "Tiefschlag"
+				'en-us': "Sucker Punch",
+				'fr-fr': "Coup Bas",
+				'de-de': "Tiefschlag"
 			},
 			effect: {
-				en: "If Raticate has any Darkness Energy attached to it, this attack does 20 damage plus 20 more damage.",
-				fr: "Si Rattatac possède de l'Énergie Darkness, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wenn an Rattikarl mindestens 1 -Energie angelegt ist, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "If Raticate has any Darkness Energy attached to it, this attack does 20 damage plus 20 more damage.",
+				'fr-fr': "Si Rattatac possède de l'Énergie Darkness, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wenn an Rattikarl mindestens 1 -Energie angelegt ist, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -75,7 +75,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It whittles its constantly growing fangs by gnawing on hard things. It can chew apart cinder walls.",
+		'en-us': "It whittles its constantly growing fangs by gnawing on hard things. It can chew apart cinder walls.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Riolu",
-		fr: "Riolu",
-		de: "Riolu"
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
+		'de-de': "Riolu"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Wild Kick",
-				fr: "Coup déchaîné",
-				de: "Stürmischer Kick"
+				'en-us': "Wild Kick",
+				'fr-fr': "Coup déchaîné",
+				'de-de': "Stürmischer Kick"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Wirf 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -55,8 +55,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The aura that emanates from its body intensifies to alert others if it is afraid or sad.",
-		fr: "Son aura s'intensifie pour prévenir son entourage quand il a peur ou qu'il est triste."
+		'en-us': "The aura that emanates from its body intensifies to alert others if it is afraid or sad.",
+		'fr-fr': "Son aura s'intensifie pour prévenir son entourage quand il a peur ou qu'il est triste."
 	},
 
 	thirdParty: {

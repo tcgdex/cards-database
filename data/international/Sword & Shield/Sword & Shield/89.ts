@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Sinistea",
-		fr: "Théffroi",
-		es: "Sinistea",
-		it: "Sinistea",
-		pt: "Sinistea",
-		de: "Fatalitee"
+		'en-us': "Sinistea",
+		'fr-fr': "Théffroi",
+		'es-es': "Sinistea",
+		'it-it': "Sinistea",
+		'pt-br': "Sinistea",
+		'de-de': "Fatalitee"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Teatime",
-				fr: "Thérémonie",
-				es: "Hora del Té",
-				it: "Ora del Tè",
-				pt: "Hora do Chá",
-				de: "Teatime"
+				'en-us': "Teatime",
+				'fr-fr': "Thérémonie",
+				'es-es': "Hora del Té",
+				'it-it': "Ora del Tè",
+				'pt-br': "Hora do Chá",
+				'de-de': "Teatime"
 			},
 			effect: {
-				en: "Each player draws 2 cards.",
-				fr: "Chaque joueur pioche 2 cartes.",
-				es: "Cada jugador roba 2 cartas.",
-				it: "Ciascun giocatore pesca due carte.",
-				pt: "Cada jogador compra 2 cartas.",
-				de: "Jeder Spieler zieht 2 Karten."
+				'en-us': "Each player draws 2 cards.",
+				'fr-fr': "Chaque joueur pioche 2 cartes.",
+				'es-es': "Cada jugador roba 2 cartas.",
+				'it-it': "Ciascun giocatore pesca due carte.",
+				'pt-br': "Cada jogador compra 2 cartas.",
+				'de-de': "Jeder Spieler zieht 2 Karten."
 			},
 
 		},
@@ -73,7 +73,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This Pokémon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea."
+		'en-us': "This Pokémon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea."
 	},
 
 	dexId: [854],

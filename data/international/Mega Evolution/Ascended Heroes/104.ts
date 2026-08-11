@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Medicham",
-		fr: "Charmina",
-		es: "Medicham",
+		'en-us': "Medicham",
+		'fr-fr': "Charmina",
+		'es-es': "Medicham",
 		'es-mx': "Medicham",
-		de: "Meditalis",
-		it: "Medicham",
-		pt: "Medicham"
+		'de-de': "Meditalis",
+		'it-it': "Medicham",
+		'pt-br': "Medicham"
 	},
 
 	evolveFrom: {
-		en: "Meditite",
-		fr: "Méditikka",
-		es: "Meditite",
+		'en-us': "Meditite",
+		'fr-fr': "Méditikka",
+		'es-es': "Meditite",
 		'es-mx': "Meditite",
-		de: "Meditie",
-		it: "Meditite",
-		pt: "Meditite",
+		'de-de': "Meditie",
+		'it-it': "Meditite",
+		'pt-br': "Meditite",
 	},
 
 	illustrator: "GIDORA",
@@ -36,23 +36,23 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Seventh Kick",
-			fr: "Septième Coup de Pied",
-			es: "Séptima Patada",
+			'en-us': "Seventh Kick",
+			'fr-fr': "Septième Coup de Pied",
+			'es-es': "Séptima Patada",
 			'es-mx': "Séptima Patada",
-			de: "Siebter Kick",
-			it: "Settimo Calcio",
-			pt: "Sétimo Chute"
+			'de-de': "Siebter Kick",
+			'it-it': "Settimo Calcio",
+			'pt-br': "Sétimo Chute"
 		},
 
 		effect: {
-			en: "If you don't have exactly 7 cards in your hand, this attack does nothing.",
-			fr: "Si vous n'avez pas exactement 7 cartes dans votre main, cette attaque ne fait rien.",
-			es: "Si no tienes exactamente 7 cartas en tu mano, este ataque no hace nada.",
+			'en-us': "If you don't have exactly 7 cards in your hand, this attack does nothing.",
+			'fr-fr': "Si vous n'avez pas exactement 7 cartes dans votre main, cette attaque ne fait rien.",
+			'es-es': "Si no tienes exactamente 7 cartas en tu mano, este ataque no hace nada.",
 			'es-mx': "Si no tienes exactamente 7 cartas en tu mano, este ataque no hace nada.",
-			de: "Wenn du nicht genau 7 Karten auf deiner Hand hast, hat diese Attacke keine Auswirkungen.",
-			it: "Se non hai esattamente sette carte in mano, questo attacco non ha effetto.",
-			pt: "Se você não tiver exatamente 7 cartas na sua mão, este ataque não fará nada."
+			'de-de': "Wenn du nicht genau 7 Karten auf deiner Hand hast, hat diese Attacke keine Auswirkungen.",
+			'it-it': "Se non hai esattamente sette carte in mano, questo attacco non ha effetto.",
+			'pt-br': "Se você não tiver exatamente 7 cartas na sua mão, este ataque não fará nada."
 		},
 
 		damage: 150

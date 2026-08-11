@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Voltorbe",
-		en: "Voltorb",
-		es: "Voltorb",
-		it: "Voltorb",
-		pt: "Voltorb",
-		de: "Voltobal"
+		'fr-fr': "Voltorbe",
+		'en-us': "Voltorb",
+		'es-es': "Voltorb",
+		'it-it': "Voltorb",
+		'pt-br': "Voltorb",
+		'de-de': "Voltobal"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			fr: "Boule Éclair",
-			en: "Lightning Ball",
-			es: "Bola Relámpago",
-			it: "Fulminpalla",
-			pt: "Bola de Raios",
-			de: "Kugelblitz"
+			'fr-fr': "Boule Éclair",
+			'en-us': "Lightning Ball",
+			'es-es': "Bola Relámpago",
+			'it-it': "Fulminpalla",
+			'pt-br': "Bola de Raios",
+			'de-de': "Kugelblitz"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Roulade",
-			en: "Rollout",
-			es: "Rodar",
-			it: "Rotolamento",
-			pt: "Rolagem",
-			de: "Walzer"
+			'fr-fr': "Roulade",
+			'en-us': "Rollout",
+			'es-es': "Rodar",
+			'it-it': "Rotolamento",
+			'pt-br': "Rolagem",
+			'de-de': "Walzer"
 		},
 
 		damage: 20
@@ -79,7 +79,7 @@ const card: Card = {
 	illustrator: "sui",
 
 	description: {
-		en: "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.",
+		'en-us': "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.",
 	},
 }
 

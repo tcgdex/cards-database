@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2022'
 
 const card: Card = {
 	name: {
-		en: "Growlithe",
-		fr: "Caninos",
-		es: "Growlithe",
-		it: "Growlithe",
-		pt: "Growlithe",
-		de: "Fukano"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos",
+		'es-es': "Growlithe",
+		'it-it': "Growlithe",
+		'pt-br': "Growlithe",
+		'de-de': "Fukano"
 	},
 
 	illustrator: "Narumi Sato",
@@ -28,16 +28,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				en: "Warm Up",
+				'en-us': "Warm Up",
 			},
 			effect: {
-				en: "Search your deck for a Fire Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck."
+				'en-us': "Search your deck for a Fire Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck."
 			}
 		},
 		{
 			cost: ["Fire", "Colorless", "Colorless"],
 			name: {
-				en: "Combustion",
+				'en-us': "Combustion",
 			},
 			damage: 30,
 		},

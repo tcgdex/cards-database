@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コライドン",
+		'ja-jp': "コライドン",
 	},
 
 	illustrator: "kodama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "拳で 大地を 引き裂いたと 古い 探検記に 記された ツバサノオウの 正体らしい。",
+		'ja-jp': "拳で 大地を 引き裂いたと 古い 探検記に 記された ツバサノオウの 正体らしい。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Fighting"],
 			effect: {
-				ja: "相手のバトルポケモンが進化ポケモンなら、30ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが進化ポケモンなら、30ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 190,
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、すべてトラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、すべてトラッシュする。",
 			},
 		},
 	],

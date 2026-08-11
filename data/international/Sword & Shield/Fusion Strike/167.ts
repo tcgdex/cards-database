@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Darkrai",
-		fr: "Darkrai",
-		es: "Darkrai",
-		it: "Darkrai",
-		pt: "Darkrai",
-		de: "Darkrai"
+		'en-us': "Darkrai",
+		'fr-fr': "Darkrai",
+		'es-es': "Darkrai",
+		'it-it': "Darkrai",
+		'pt-br': "Darkrai",
+		'de-de': "Darkrai"
 	},
 
 	rarity: "Uncommon",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Megumi Mizutani",
 
 	description: {
-		en: "It can lull people to sleep and make them dream. It is active during nights of the new moon."
+		'en-us': "It can lull people to sleep and make them dream. It is active during nights of the new moon."
 	},
 
 	attacks: [{
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			en: "Dark Cutter",
-			fr: "Tranch'Obscur",
-			de: "Dunkler Zerschneider",
-			es: "Cuchilla Oscura",
-			pt: "Cortador de Escuridão",
-			it: "Oscurotaglio"
+			'en-us': "Dark Cutter",
+			'fr-fr': "Tranch'Obscur",
+			'de-de': "Dunkler Zerschneider",
+			'es-es': "Cuchilla Oscura",
+			'pt-br': "Cortador de Escuridão",
+			'it-it': "Oscurotaglio"
 		},
 
 		damage: 90

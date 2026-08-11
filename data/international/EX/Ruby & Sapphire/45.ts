@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Slakoth",
-		fr: "Parecool",
-		de: "Bummelz"
+		'en-us': "Slakoth",
+		'fr-fr': "Parecool",
+		'de-de': "Bummelz"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Claw",
-				fr: "Mâchoire",
-				de: "Claw"
+				'en-us': "Claw",
+				'fr-fr': "Mâchoire",
+				'de-de': "Claw"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, l'attaque est sans effet.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, l'attaque est sans effet.",
+				'de-de': "Flip a coin. If tails, this attack does nothing."
 			},
 			damage: 20,
 
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slack Off",
-				fr: "Paresse",
-				de: "Slack Off"
+				'en-us': "Slack Off",
+				'fr-fr': "Paresse",
+				'de-de': "Slack Off"
 			},
 			effect: {
-				en: "Remove all damage counters from Slakoth. Slakoth can't attack during your next turn.",
-				fr: "Retirez à Paracool tous ses marqueurs de dégât. Paracool ne pourra pas attaquer pendant votre prochain tour.",
-				de: "Remove all damage counters from Slakoth. Slakoth can't attack during your next turn."
+				'en-us': "Remove all damage counters from Slakoth. Slakoth can't attack during your next turn.",
+				'fr-fr': "Retirez à Paracool tous ses marqueurs de dégât. Paracool ne pourra pas attaquer pendant votre prochain tour.",
+				'de-de': "Remove all damage counters from Slakoth. Slakoth can't attack during your next turn."
 			},
 
 		},

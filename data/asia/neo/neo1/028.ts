@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マンティン",
+		'ja-jp': "マンティン",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Water", "Water"],
 			name: {
-				ja: "うねります",
+				'ja-jp': "うねります",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭が、相手の次のターン中に、マンティンに行われた損害を含む攻撃のすべての影響を防ぎます。",
+				'ja-jp': "コインをひっくり返します。頭が、相手の次のターン中に、マンティンに行われた損害を含む攻撃のすべての影響を防ぎます。",
 			},
 			damage: 20,
 		},

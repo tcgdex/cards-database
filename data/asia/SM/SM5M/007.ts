@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブイゼル",
+		'ja-jp': "ブイゼル",
 	},
 
 	illustrator: "so-taro",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "首の 浮き袋を ふくらませ 水面から 顔を だして 辺りの 様子を うかがっている。",
+		'ja-jp': "首の 浮き袋を ふくらませ 水面から 顔を だして 辺りの 様子を うかがっている。",
 	},
 
 	stage: "Basic",

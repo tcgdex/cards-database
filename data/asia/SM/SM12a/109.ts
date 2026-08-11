@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "イーブイだけが とても 不安定な 遺伝子を 持っている 理由は 未だ 解明 されて いない。",
+		'ja-jp': "イーブイだけが とても 不安定な 遺伝子を 持っている 理由は 未だ 解明 されて いない。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "しっぽにとまれ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "分の山札にある「イーブイ（GXをふくむ）」を好きなだけ、ベンチに出す。そして山札を切る。",
+				'ja-jp': "分の山札にある「イーブイ（GXをふくむ）」を好きなだけ、ベンチに出す。そして山札を切る。",
 			},
 		},
 		{

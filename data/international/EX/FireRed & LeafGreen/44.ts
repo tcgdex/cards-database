@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Persian",
-		fr: "Persian",
-		de: "Snobilikat"
+		'en-us': "Persian",
+		'fr-fr': "Persian",
+		'de-de': "Snobilikat"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Meowth",
-		fr: "Miaouss"
+		'en-us': "Meowth",
+		'fr-fr': "Miaouss"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Thick Skin",
-				fr: "Dur à cuire",
-				de: "Dicke Haut"
+				'en-us': "Thick Skin",
+				'fr-fr': "Dur à cuire",
+				'de-de': "Dicke Haut"
 			},
 			effect: {
-				en: "Persian can't be affected by any Special Conditions.",
-				fr: "Persian ne peut pas être affecté par des États Spéciaux.",
-				de: "Snobilikat kann nicht von Speziellen Zuständen betroffen werden."
+				'en-us': "Persian can't be affected by any Special Conditions.",
+				'fr-fr': "Persian ne peut pas être affecté par des États Spéciaux.",
+				'de-de': "Snobilikat kann nicht von Speziellen Zuständen betroffen werden."
 			},
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Claws",
-				fr: "Griffes empoisonnées",
-				de: "Giftkrallen"
+				'en-us': "Poison Claws",
+				'fr-fr': "Griffes empoisonnées",
+				'de-de': "Giftkrallen"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 
 		},
@@ -69,14 +69,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shining Claws",
-				fr: "Griffes étincelantes",
-				de: "Glänzende Krallen"
+				'en-us': "Shining Claws",
+				'fr-fr': "Griffes étincelantes",
+				'de-de': "Glänzende Krallen"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
-				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 30,
 

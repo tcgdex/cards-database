@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Grimer"
+		'en-us': "Grimer"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nasty Goo"
+				'en-us': "Nasty Goo"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 
@@ -40,10 +40,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Minimized"
+				'en-us': "Minimized"
 			},
 			effect: {
-				en: "All damage done by attacks to Grimer during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance)."
+				'en-us': "All damage done by attacks to Grimer during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance)."
 			},
 
 		},
@@ -59,7 +59,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories."
+		'en-us': "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories."
 	},
 
 	variants: [

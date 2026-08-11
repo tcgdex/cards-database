@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lairon",
-		fr: "Galegon",
-		es: "Lairon",
-		it: "Lairon",
-		pt: "Lairon",
-		de: "Stollrak"
+		'en-us': "Lairon",
+		'fr-fr': "Galegon",
+		'es-es': "Lairon",
+		'it-it': "Lairon",
+		'pt-br': "Lairon",
+		'de-de': "Stollrak"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -21,34 +21,34 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Aron",
-		fr: "Galekid",
-		es: "Aron",
-		it: "Aron",
-		pt: "Aron",
-		de: "Stollunior"
+		'en-us': "Aron",
+		'fr-fr': "Galekid",
+		'es-es': "Aron",
+		'it-it': "Aron",
+		'pt-br': "Aron",
+		'de-de': "Stollunior"
 	},
 
 	attacks: [{
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 50,
 		cost: ["Metal", "Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Metal Claw",
-			fr: "Griffe Acier",
-			es: "Garra Metal",
-			it: "Ferrartigli",
-			pt: "Garra de Metal",
-			de: "Metallklaue"
+			'en-us': "Metal Claw",
+			'fr-fr': "Griffe Acier",
+			'es-es': "Garra Metal",
+			'it-it': "Ferrartigli",
+			'pt-br': "Garra de Metal",
+			'de-de': "Metallklaue"
 		},
 
 		damage: 90,
@@ -72,7 +72,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It habitually shows off its strength with the size of sparks it creates by ramming its steel body into boulders."
+		'en-us': "It habitually shows off its strength with the size of sparks it creates by ramming its steel body into boulders."
 	},
 
 	variants: [

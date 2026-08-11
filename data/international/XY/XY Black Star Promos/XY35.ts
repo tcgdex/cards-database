@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "M Metagross EX",
-		fr: "M Métalosse EX",
+		'en-us': "M Metagross EX",
+		'fr-fr': "M Métalosse EX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Promo",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Metal",
 	],
 	evolveFrom: {
-		en: "Metagross-EX",
-		fr: "Métalosse-EX",
+		'en-us': "Metagross-EX",
+		'fr-fr': "Métalosse-EX",
 	},
 	stage: "MEGA",
 
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gatling Slug",
-				fr: "Frappe Répétée",
+				'en-us': "Gatling Slug",
+				'fr-fr': "Frappe Répétée",
 			},
 			effect: {
-				en: "This attack does 10 more damage for each Metal Energy attached to this Pokémon.",
-				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Énergie Metal attachée à ce Pokémon.",
+				'en-us': "This attack does 10 more damage for each Metal Energy attached to this Pokémon.",
+				'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chaque Énergie Metal attachée à ce Pokémon.",
 			},
 			damage: "130＋",
 

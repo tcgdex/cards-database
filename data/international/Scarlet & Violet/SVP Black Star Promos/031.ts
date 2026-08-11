@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tinkaton ex",
-		fr: "Forgelina-ex",
-		es: "Tinkaton ex",
-		it: "Tinkaton-ex",
-		pt: "Tinkaton ex",
-		de: "Granforgita-ex"
+		'en-us': "Tinkaton ex",
+		'fr-fr': "Forgelina-ex",
+		'es-es': "Tinkaton ex",
+		'it-it': "Tinkaton-ex",
+		'pt-br': "Tinkaton ex",
+		'de-de': "Granforgita-ex"
 	},
 
 	rarity: "Promo",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 300,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Tinkatuff",
-		fr: "Forgella",
-		es: "Tinkatuff",
-		it: "Tinkatuff",
-		pt: "Tinkatuff",
-		de: "Tafforgita"
+		'en-us': "Tinkatuff",
+		'fr-fr': "Forgella",
+		'es-es': "Tinkatuff",
+		'it-it': "Tinkatuff",
+		'pt-br': "Tinkatuff",
+		'de-de': "Tafforgita"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Big Hammer",
-			fr: "Marteau Massif",
-			es: "Gran Martillo",
-			it: "Gran Martello",
-			pt: "Martelão",
-			de: "Großer Hammer"
+			'en-us': "Big Hammer",
+			'fr-fr': "Marteau Massif",
+			'es-es': "Gran Martillo",
+			'it-it': "Gran Martello",
+			'pt-br': "Martelão",
+			'de-de': "Großer Hammer"
 		},
 
 		effect: {
-			en: "This attack does 30 damage for each card in your hand.",
-			fr: "Cette attaque inflige 30 dégâts pour chaque carte dans votre main.",
-			es: "Este ataque hace 30 puntos de daño por cada carta en tu mano.",
-			it: "Questo attacco infligge 30 danni per ogni carta che hai in mano.",
-			pt: "Este ataque causa 30 pontos de dano para cada carta na sua mão.",
-			de: "Diese Attacke fügt für jede Karte auf deiner Hand 30 Schadenspunkte zu."
+			'en-us': "This attack does 30 damage for each card in your hand.",
+			'fr-fr': "Cette attaque inflige 30 dégâts pour chaque carte dans votre main.",
+			'es-es': "Este ataque hace 30 puntos de daño por cada carta en tu mano.",
+			'it-it': "Questo attacco infligge 30 danni per ogni carta che hai in mano.",
+			'pt-br': "Este ataque causa 30 pontos de dano para cada carta na sua mão.",
+			'de-de': "Diese Attacke fügt für jede Karte auf deiner Hand 30 Schadenspunkte zu."
 		},
 
 		damage: "30×"
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Pulverizing Press",
-			fr: "Pression Pulvérisante",
-			es: "Presión Pulverizadora",
-			it: "Pressa Polverizzante",
-			pt: "Aperto Pulverizador",
-			de: "Pulverisierende Presse"
+			'en-us': "Pulverizing Press",
+			'fr-fr': "Pression Pulvérisante",
+			'es-es': "Presión Pulverizadora",
+			'it-it': "Pressa Polverizzante",
+			'pt-br': "Aperto Pulverizador",
+			'de-de': "Pulverisierende Presse"
 		},
 
 		effect: {
-			en: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
-			fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
-			es: "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
-			it: "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
-			pt: "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente.",
-			de: "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
+			'en-us': "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
+			'fr-fr': "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
+			'es-es': "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
+			'it-it': "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
+			'pt-br': "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente.",
+			'de-de': "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
 		},
 
 		damage: 140

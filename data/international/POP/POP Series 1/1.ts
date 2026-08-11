@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 1'
 
 const card: Card = {
 	name: {
-		en: "Blaziken",
-		fr: "Brasegali"
+		'en-us': "Blaziken",
+		'fr-fr': "Brasegali"
 	},
 
 	illustrator: "Katsura Tabata",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Combusken",
-		fr: "Galifeu"
+		'en-us': "Combusken",
+		'fr-fr': "Galifeu"
 	},
 
 	stage: "Stage2",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Punch",
-				fr: "Poing de feu"
+				'en-us': "Fire Punch",
+				'fr-fr': "Poing de feu"
 			},
 
 			damage: 40,
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Kick",
-				fr: "Double pied"
+				'en-us': "Double Kick",
+				'fr-fr': "Double pied"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de faces."
+				'en-us': "Flip 2 coins. This attack does 50 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de faces."
 			},
 			damage: "50×",
 

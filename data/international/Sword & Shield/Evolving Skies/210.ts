@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Dracozolt VMAX",
-		fr: "Galvagon VMAX",
-		es: "Dracozolt VMAX",
-		it: "Dracozolt VMAX",
-		pt: "Dracozolt VMAX",
-		de: "Lectragon VMAX"
+		'en-us': "Dracozolt VMAX",
+		'fr-fr': "Galvagon VMAX",
+		'es-es': "Dracozolt VMAX",
+		'it-it': "Dracozolt VMAX",
+		'pt-br': "Dracozolt VMAX",
+		'de-de': "Lectragon VMAX"
 	},
 
 	rarity: "Secret Rare",
@@ -23,25 +23,25 @@ const card: Card = {
 	dexId: [880],
 
 	evolveFrom: {
-		en: "Dracozolt V",
-		fr: "Galvagon-V",
-		es: "Dracozolt V",
-		it: "Dracozolt-V",
-		pt: "Dracozolt V",
-		de: "Lectragon-V"
+		'en-us': "Dracozolt V",
+		'fr-fr': "Galvagon-V",
+		'es-es': "Dracozolt V",
+		'it-it': "Dracozolt-V",
+		'pt-br': "Dracozolt V",
+		'de-de': "Lectragon-V"
 	},
 
 	attacks: [{
 		cost: ["Lightning"],
 
 		name: {
-			en: "Spark Trap",
-			fr: "Piège Étincelle"
+			'en-us': "Spark Trap",
+			'fr-fr': "Piège Étincelle"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, if this Pokémon is damaged by an attack (even if it is Knocked Out), put 12 damage counters on the Attacking Pokémon.",
-			fr: "Pendant le prochain tour de votre adversaire, si ce Pokémon subit les dégâts d'une attaque (même s'il est mis K.O.), placez 12 marqueurs de dégâts sur le Pokémon Attaquant."
+			'en-us': "During your opponent's next turn, if this Pokémon is damaged by an attack (even if it is Knocked Out), put 12 damage counters on the Attacking Pokémon.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, si ce Pokémon subit les dégâts d'une attaque (même s'il est mis K.O.), placez 12 marqueurs de dégâts sur le Pokémon Attaquant."
 		},
 
 		damage: 60
@@ -49,8 +49,8 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Max Impact",
-			fr: "Impactomax"
+			'en-us': "Max Impact",
+			'fr-fr': "Impactomax"
 		},
 
 		damage: 200

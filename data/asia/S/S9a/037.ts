@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "獨角犀牛",
-		ja: "サイホーン"
+		'ja-jp': "サイホーン"
 	},
 
 	illustrator: "Scav",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "頭腦很差但力氣很大，只要撞擊就能把 高樓大廈撞得粉粹。",
-		ja: "頭は 悪いが 力が 強く 高層ビルも 体当たりで コナゴナに 粉砕する。"
+		'ja-jp': "頭は 悪いが 力が 強く 高層ビルも 体当たりで コナゴナに 粉砕する。"
 	},
 
 	stage: "Basic",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "猛撞",
-			ja: "とっしん"
+			'ja-jp': "とっしん"
 		},
 
 		effect: {
 			'zh-tw': "這隻寶可夢也受到20點傷害。",
-			ja: "このポケモンにも20ダメージ。"
+			'ja-jp': "このポケモンにも20ダメージ。"
 		},
 
 		damage: 70,

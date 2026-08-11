@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Aipom"
+		'id-id': "Aipom"
 	},
 
 	illustrator: "Yuka Morii",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Aipom mencari ada tidaknya mangsa dari atas pohon. Semangat Pokémon ini bergejolak jika melihat makanan favoritnya, Bounsweet, dan akan melompat menyerbunya."
+		'id-id': "Aipom mencari ada tidaknya mangsa dari atas pohon. Semangat Pokémon ini bergejolak jika melihat makanan favoritnya, Bounsweet, dan akan melompat menyerbunya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Mencopet"
+			'id-id': "Mencopet"
 		},
 
 		effect: {
-			id: "Ambil 1 kartu dari atas Deck sendiri."
+			'id-id': "Ambil 1 kartu dari atas Deck sendiri."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Tampar"
+			'id-id': "Tampar"
 		},
 
 		damage: 20,

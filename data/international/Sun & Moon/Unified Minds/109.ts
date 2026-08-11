@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Meditite",
-		fr: "Méditikka",
-		es: "Meditite",
-		it: "Meditite",
-		pt: "Meditite",
-		de: "Meditie"
+		'en-us': "Meditite",
+		'fr-fr': "Méditikka",
+		'es-es': "Meditite",
+		'it-it': "Meditite",
+		'pt-br': "Meditite",
+		'de-de': "Meditie"
 	},
 
 	illustrator: "Mina Nakai",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Spirited Headbutt",
-				fr: "Coup d’Boule Emporté",
-				es: "Cabezazo Vigoroso",
-				it: "Testata Ascetica",
-				pt: "Cabeçada Vigorosa",
-				de: "Kühne Kopfnuss"
+				'en-us': "Spirited Headbutt",
+				'fr-fr': "Coup d’Boule Emporté",
+				'es-es': "Cabezazo Vigoroso",
+				'it-it': "Testata Ascetica",
+				'pt-br': "Cabeçada Vigorosa",
+				'de-de': "Kühne Kopfnuss"
 			},
 			effect: {
-				en: "This Pokémon can’t use Spirited Headbutt during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Coup d’Boule Emporté pendant votre prochain tour.",
-				es: "Este Pokémon no puede usar Cabezazo Vigoroso durante tu próximo turno.",
-				it: "Durante il tuo prossimo turno, questo Pokémon non può usare Testata Ascetica.",
-				pt: "Este Pokémon não poderá usar Cabeçada Vigorosa durante a sua próxima vez de jogar.",
-				de: "Dieses Pokémon kann Kühne Kopfnuss während deines nächsten Zuges nicht einsetzen."
+				'en-us': "This Pokémon can’t use Spirited Headbutt during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Coup d’Boule Emporté pendant votre prochain tour.",
+				'es-es': "Este Pokémon no puede usar Cabezazo Vigoroso durante tu próximo turno.",
+				'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Testata Ascetica.",
+				'pt-br': "Este Pokémon não poderá usar Cabeçada Vigorosa durante a sua próxima vez de jogar.",
+				'de-de': "Dieses Pokémon kann Kühne Kopfnuss während deines nächsten Zuges nicht einsetzen."
 			},
 			damage: 40,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It always trains deep in mountains. It levitates when it heightens its spiritual power through meditation.",
+		'en-us': "It always trains deep in mountains. It levitates when it heightens its spiritual power through meditation.",
 	},
 
 	thirdParty: {

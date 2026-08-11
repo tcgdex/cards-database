@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ひかるレックウザ",
+		'ja-jp': "ひかるレックウザ",
 	},
 
 	illustrator: "Naoki Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "雲より はるか上の オゾン層に 生息しているため 地上から 姿を 見ることは できない。",
+		'ja-jp': "雲より はるか上の オゾン層に 生息しているため 地上から 姿を 見ることは できない。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Lightning"],
 			effect: {
-				ja: "自分の山札を上から2枚トラッシュする。",
+				'ja-jp': "自分の山札を上から2枚トラッシュする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 190,
 			cost: ["Fire", "Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、3個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、3個トラッシュする。",
 			},
 		},
 	],

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フーディン"
+		'ja-jp': "フーディン"
 	},
 	illustrator: "Aya Kusube",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Psychic"],
 	description: {
-		ja: "強力な超能力を操る。両手のスプーンはその力で作りだしたという。"
+		'ja-jp': "強力な超能力を操る。両手のスプーンはその力で作りだしたという。"
 	},
 	stage: "Stage2",
 	variants: [
@@ -25,23 +25,23 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ユンゲラー"
+		'ja-jp': "ユンゲラー"
 	},
 	abilities: [{
 		type: "Ability",
 		name: {
-			ja: "サイコドロー"
+			'ja-jp': "サイコドロー"
 		},
 		effect: {
-			ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札を3枚引く。"
+			'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札を3枚引く。"
 		}
 	}],
 	attacks: [{
 		name: {
-			ja: "ハンドパワー"
+			'ja-jp': "ハンドパワー"
 		},
 		effect: {
-			ja: "自分の手札の枚数×2個ぶんのダメカンを、相手のバトルポケモンにのせる。"
+			'ja-jp': "自分の手札の枚数×2個ぶんのダメカンを、相手のバトルポケモンにのせる。"
 		},
 		cost: ["Psychic"]
 	}],

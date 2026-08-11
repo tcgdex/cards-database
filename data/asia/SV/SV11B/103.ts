@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メラルバ",
+		'ja-jp': "メラルバ",
 	},
 
 	illustrator: "Katsunori Sato",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "太陽から 生まれた ポケモンと 信じられてきた。 進化するとき 全身が 炎に 包まれる。",
+		'ja-jp': "太陽から 生まれた ポケモンと 信じられてきた。 進化するとき 全身が 炎に 包まれる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Colorless"],
 			effect: {
-				ja: "ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。",
+				'ja-jp': "ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。",
 			},
 		},
 	],

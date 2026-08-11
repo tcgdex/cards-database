@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sliggoo",
-		fr: "Colimucus",
-		es: "Sliggoo",
-		it: "Sliggoo",
-		pt: "Sliggoo",
-		de: "Viscargot"
+		'en-us': "Sliggoo",
+		'fr-fr': "Colimucus",
+		'es-es': "Sliggoo",
+		'it-it': "Sliggoo",
+		'pt-br': "Sliggoo",
+		'de-de': "Viscargot"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Dragon"],
 
 	evolveFrom: {
-		en: "Goomy",
-		fr: "Mucuscule",
-		es: "Goomy",
-		it: "Goomy",
-		pt: "Goomy",
-		de: "Viscora"
+		'en-us': "Goomy",
+		'fr-fr': "Mucuscule",
+		'es-es': "Goomy",
+		'it-it': "Goomy",
+		'pt-br': "Goomy",
+		'de-de': "Viscora"
 	},
 
 	stage: "Stage1",
@@ -34,19 +34,19 @@ const card: Card = {
 	illustrator: "Saya Tsuruta",
 
 	description: {
-		en: "The lump on its back contains its tiny brain. It thinks only of food and escaping its enemies."
+		'en-us': "The lump on its back contains its tiny brain. It thinks only of food and escaping its enemies."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Melt",
-			fr: "Dissolution",
-			de: "Schmelzen",
-			es: "Derretir",
-			pt: "Derreter",
-			it: "Liquefazione"
+			'en-us': "Melt",
+			'fr-fr': "Dissolution",
+			'de-de': "Schmelzen",
+			'es-es': "Derretir",
+			'pt-br': "Derreter",
+			'it-it': "Liquefazione"
 		},
 
 		damage: 20
@@ -54,23 +54,23 @@ const card: Card = {
 		cost: ["Water", "Psychic"],
 
 		name: {
-			en: "Body Slam",
-			fr: "Plaquage",
-			de: "Bodyslam",
-			es: "Golpe Cuerpo",
-			pt: "Pancada Corporal",
-			it: "Corposcontro"
+			'en-us': "Body Slam",
+			'fr-fr': "Plaquage",
+			'de-de': "Bodyslam",
+			'es-es': "Golpe Cuerpo",
+			'pt-br': "Pancada Corporal",
+			'it-it': "Corposcontro"
 		},
 
 		damage: 50,
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato."
 		}
 	}],
 

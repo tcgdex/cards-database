@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カラナクシ",
+		'ja-jp': "カラナクシ",
 		'zh-tw': "無殼海兔",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "エサで 姿が 変わるとも いわれるが 正しいことは まだまだ わかっていないのだ。",
+		'ja-jp': "エサで 姿が 変わるとも いわれるが 正しいことは まだまだ わかっていないのだ。",
 		'zh-tw': "雖然也有人認為牠的樣子是因吃下的食物而變化的， 不過至今仍未得到證實。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "みずかけ",
+				'ja-jp': "みずかけ",
 				'zh-tw': "潑水",
 			},
 			damage: 10,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "なみのり",
+				'ja-jp': "なみのり",
 				'zh-tw': "衝浪",
 			},
 			damage: 30,

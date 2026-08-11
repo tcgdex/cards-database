@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Machamp EX",
-		fr: "Mackogneur EX",
+		'en-us': "Machamp EX",
+		'fr-fr': "Mackogneur EX",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steaming Mad",
-				fr: "Fou Furax",
+				'en-us': "Steaming Mad",
+				'fr-fr': "Fou Furax",
 			},
 			effect: {
-				en: "This attack does 20 damage times the number of damage counters on this Pokémon. This Pokémon is now Confused.",
-				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon. Ce Pokémon est maintenant Confus.",
+				'en-us': "This attack does 20 damage times the number of damage counters on this Pokémon. This Pokémon is now Confused.",
+				'fr-fr': "Cette attaque inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon. Ce Pokémon est maintenant Confus.",
 			},
 			damage: "20×",
 

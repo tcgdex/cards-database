@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [27],
 
 	name: {
-		en: "Sandshrew"
+		'en-us': "Sandshrew"
 	},
 
 	illustrator: "Uninori",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "No matter how high a place it falls from, this\nPokémon can save itself by rolling into a ball\nand bouncing."
+		'en-us': "No matter how high a place it falls from, this\nPokémon can save itself by rolling into a ball\nand bouncing."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Double Scratch"
+			'en-us': "Double Scratch"
 		},
 
 		damage: 20,
 		cost: ["Fighting"],
 
 		effect: {
-			en: "Flip 2 coins. This attack does 20 damage for each heads."
+			'en-us': "Flip 2 coins. This attack does 20 damage for each heads."
 		}
 	}],
 

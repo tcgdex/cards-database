@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Gligar",
-		de: "Skorgla"
+		'en-us': "Gligar",
+		'de-de': "Skorgla"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Irongrip",
-				de: "Eiserner Griff"
+				'en-us': "Irongrip",
+				'de-de': "Eiserner Griff"
 			},
 
 			damage: 10,
@@ -42,13 +42,13 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Sharp Stinger",
-				de: "Scharfer Stich"
+				'en-us': "Sharp Stinger",
+				'de-de': "Scharfer Stich"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Paralyzed.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt vergiftet. Bei 'Zahl' ist das verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Paralyzed.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt vergiftet. Bei 'Zahl' ist das verteidigende Pokémon jetzt gelähmt."
 			},
 
 			damage: 10,

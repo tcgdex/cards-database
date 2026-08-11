@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Virizion",
-		fr: "Viridium",
-		es: "Virizion",
-		it: "Virizion",
-		pt: "Virizion",
-		de: "Viridium"
+		'en-us': "Virizion",
+		'fr-fr': "Viridium",
+		'es-es': "Virizion",
+		'it-it': "Virizion",
+		'pt-br': "Virizion",
+		'de-de': "Viridium"
 	},
 
 	illustrator: "5ban Graphics",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giga Drain",
-				fr: "Giga-Sangsue",
+				'en-us': "Giga Drain",
+				'fr-fr': "Giga-Sangsue",
 			},
 			effect: {
-				en: "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
-				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur.",
+				'en-us': "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
+				'fr-fr': "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur.",
 			},
 			damage: 30,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sacred Sword",
-				fr: "Lame Sainte",
+				'en-us': "Sacred Sword",
+				'fr-fr': "Lame Sainte",
 			},
 			effect: {
-				en: "This Pokémon can't use Sacred Sword during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Lame Sainte pendant votre prochain tour.",
+				'en-us': "This Pokémon can't use Sacred Sword during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Lame Sainte pendant votre prochain tour.",
 			},
 			damage: 100,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon fought humans in order to protect its friends. Legends about it continue to be passed down.",
+		'en-us': "This Pokémon fought humans in order to protect its friends. Legends about it continue to be passed down.",
 	},
 
 	thirdParty: {

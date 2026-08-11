@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2024'
 
 const card: Card = {
 	name: {
-		en: "Koraidon",
-		fr: "Koraidon",
-		es: "Koraidon",
-		it: "Koraidon",
-		pt: "Koraidon",
-		de: "Koraidon"
+		'en-us': "Koraidon",
+		'fr-fr': "Koraidon",
+		'es-es': "Koraidon",
+		'it-it': "Koraidon",
+		'pt-br': "Koraidon",
+		'de-de': "Koraidon"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -28,18 +28,18 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				en: "Claw Clash",
+				'en-us': "Claw Clash",
 			},
 			damage: 70,
 		},
 		{
 			cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
 			name: {
-				en: "Wild Impact",
+				'en-us': "Wild Impact",
 			},
 			damage: 190,
 			effect: {
-				en: "Discard 3 Energy from this Pokémon.",
+				'en-us': "Discard 3 Energy from this Pokémon.",
 			},
 		},
 	],

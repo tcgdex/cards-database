@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [210],
 
 	name: {
-		en: "Granbull"
+		'en-us': "Granbull"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Snubbull"
+		'en-us': "Snubbull"
 	},
 
 	description: {
-		en: "It can make most any Pokémon run away\nby opening its big mouth to reveal its\nthick fangs."
+		'en-us': "It can make most any Pokémon run away\nby opening its big mouth to reveal its\nthick fangs."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Strength"
+			'en-us': "Strength"
 		},
 
 		damage: 90,

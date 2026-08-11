@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "わるいゴルダック",
+		'ja-jp': "わるいゴルダック",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,16 +19,16 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "第三の目",
+				'ja-jp': "第三の目",
 			},
 			effect: {
-				ja: "最大3枚のカードを作成するために、Dark Golduckに取り付けられた1つのエネルギーカードを捨てます。",
+				'ja-jp': "最大3枚のカードを作成するために、Dark Golduckに取り付けられた1つのエネルギーカードを捨てます。",
 			},
 		},
 		{
 			cost: ["Psychic", "Psychic", "Colorless"],
 			name: {
-				ja: "Super Psy",
+				'ja-jp': "Super Psy",
 			},
 			damage: 50,
 		},

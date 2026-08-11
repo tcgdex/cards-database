@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Darkrai"
+		'id-id': "Darkrai"
 	},
 
 	illustrator: "Bun Toujo",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Darkrai memiliki kemampuan untuk membuat orang-orang tidur nyenyak dan memperlihatkan mimpi. Aktif pada malam bulan baru."
+		'id-id': "Darkrai memiliki kemampuan untuk membuat orang-orang tidur nyenyak dan memperlihatkan mimpi. Aktif pada malam bulan baru."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Tidur Singkat Hitam"
+			'id-id': "Tidur Singkat Hitam"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
 		},
 
 		damage: 20,
 		cost: ["Darkness"]
 	}, {
 		name: {
-			id: "Night Cyclone"
+			'id-id': "Night Cyclone"
 		},
 
 		effect: {
-			id: "Pindahkan sesukanya semua Energi yang dikenakan pada Pokémon ini ke Pokémon Cadangan."
+			'id-id': "Pindahkan sesukanya semua Energi yang dikenakan pada Pokémon ini ke Pokémon Cadangan."
 		},
 
 		damage: 120,

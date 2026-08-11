@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ディグダ",
+		'ja-jp': "ディグダ",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "地下に トンネルを 掘って 移動。 光が 嫌いなので 地上に 出てくるのは 日が 沈んでから。",
+		'ja-jp': "地下に トンネルを 掘って 移動。 光が 嫌いなので 地上に 出てくるのは 日が 沈んでから。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ちかこうさく" },
 			effect: {
-				ja: "このポケモンが、「サカキの追放」の効果でトラッシュされたとき、相手の山札を上から1枚トラッシュする。",
+				'ja-jp': "このポケモンが、「サカキの追放」の効果でトラッシュされたとき、相手の山札を上から1枚トラッシュする。",
 			},
 		},
 	],

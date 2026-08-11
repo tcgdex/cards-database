@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Tyrogue",
-		fr: "Débugant",
-		de: "Rabauz"
+		'en-us': "Tyrogue",
+		'fr-fr': "Débugant",
+		'de-de': "Rabauz"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -30,15 +30,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Energy Punch",
-				fr: "Poing énergétique",
-				de: "Energy Punch"
+				'en-us': "Energy Punch",
+				'fr-fr': "Poing énergétique",
+				'de-de': "Energy Punch"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, discard a Special Energy card attached to the Defending Pokémon. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est face, défaussez-vous d'une carte Énergie spéciale attachée au Pokémon Défenseur. Si c'est pile, cette attaque ne fait rien.",
-				de: "Flip a coin. If heads, discard a Special Energy card attached to the Defending Pokémon. If tails, this attack does nothing."
+				'en-us': "Flip a coin. If heads, discard a Special Energy card attached to the Defending Pokémon. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez-vous d'une carte Énergie spéciale attachée au Pokémon Défenseur. Si c'est pile, cette attaque ne fait rien.",
+				'de-de': "Flip a coin. If heads, discard a Special Energy card attached to the Defending Pokémon. If tails, this attack does nothing."
 			},
 
 			damage: 10

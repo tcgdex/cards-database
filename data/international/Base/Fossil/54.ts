@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fossil'
 
 const card: Card = {
 	name: {
-		en: "Shellder",
-		fr: "Kokiyas",
-		de: "Muschas"
+		'en-us': "Shellder",
+		'fr-fr': "Kokiyas",
+		'de-de': "Muschas"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Supersonic",
-				fr: "Ultrason",
-				de: "Superschall"
+				'en-us': "Supersonic",
+				'fr-fr': "Ultrason",
+				'de-de': "Superschall"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Hide in Shell",
-				fr: "Cache-coquille",
-				de: "In Muschel verstecken"
+				'en-us': "Hide in Shell",
+				'fr-fr': "Cache-coquille",
+				'de-de': "In Muschel verstecken"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Shellder during your opponent's next turn. (Any other effects of attacks still happen.)",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Kokiyas pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
-				de: "Wirf eine Münze. Bei 'Kopf' verhindere allen Schaden, der Muschas während des nächsten Zuges deines gegners zugefügt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+				'en-us': "Flip a coin. If heads, prevent all damage done to Shellder during your opponent's next turn. (Any other effects of attacks still happen.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Kokiyas pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' verhindere allen Schaden, der Muschas während des nächsten Zuges deines gegners zugefügt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
 			},
 
 		},
@@ -70,8 +70,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.",
-		fr: "Protégé par une carapace très résistante, il est vulnérable quand celle-ci s'ouvre."
+		'en-us': "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.",
+		'fr-fr': "Protégé par une carapace très résistante, il est vulnérable quand celle-ci s'ouvre."
 	},
 
 

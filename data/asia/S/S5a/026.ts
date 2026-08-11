@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S5a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "滾滾蝙蝠",
-		th: "โคโรโมริ"
+		'th-th': "โคโรโมริ"
 	},
 
 	illustrator: "Yuka Morii",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "一邊發出超音波，一邊飛來飛去尋找蟲寶可夢來填飽自己的肚子。",
-		th: "กระพือปีกบินไปพร้อมกับปล่อยคลื่นความถี่สูงเพื่อหาโปเกมอนแมลงที่เป็นเหยื่อของมัน"
+		'th-th': "กระพือปีกบินไปพร้อมกับปล่อยคลื่นความถี่สูงเพื่อหาโปเกมอนแมลงที่เป็นเหยื่อของมัน"
 	},
 
 	stage: "Basic",
@@ -24,19 +24,19 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "呼喚",
-			th: "รวบรวม"
+			'th-th': "รวบรวม"
 		},
 
 		effect: {
 			'zh-tw': "從自己的牌庫抽出1張卡。",
-			th: "จั่วการ์ด 1 ใบจากสำรับการ์ดฝ่ายเรา"
+			'th-th': "จั่วการ์ด 1 ใบจากสำรับการ์ดฝ่ายเรา"
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
 			'zh-tw': "咬",
-			th: "แทะ"
+			'th-th': "แทะ"
 		},
 
 		damage: 10,

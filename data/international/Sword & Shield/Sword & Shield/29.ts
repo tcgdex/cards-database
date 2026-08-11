@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Turtonator",
-		fr: "Boumata",
-		es: "Turtonator",
-		it: "Turtonator",
-		pt: "Turtonator",
-		de: "Tortunator"
+		'en-us': "Turtonator",
+		'fr-fr': "Boumata",
+		'es-es': "Turtonator",
+		'it-it': "Turtonator",
+		'pt-br': "Turtonator",
+		'de-de': "Tortunator"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 30,
@@ -54,20 +54,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Spin",
-				fr: "Danse Flammes",
-				es: "Giro Fuego",
-				it: "Turbofuoco",
-				pt: "Chama Furacão",
-				de: "Feuerwirbel"
+				'en-us': "Fire Spin",
+				'fr-fr': "Danse Flammes",
+				'es-es': "Giro Fuego",
+				'it-it': "Turbofuoco",
+				'pt-br': "Chama Furacão",
+				'de-de': "Feuerwirbel"
 			},
 			effect: {
-				en: "Discard 2 Energy from this Pokémon.",
-				fr: "Défaussez 2 Énergies de ce Pokémon.",
-				es: "Descarta 2 Energías de este Pokémon.",
-				it: "Scarta due Energie da questo Pokémon.",
-				pt: "Descarte 2 Energias deste Pokémon.",
-				de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard 2 Energy from this Pokémon.",
+				'fr-fr': "Défaussez 2 Énergies de ce Pokémon.",
+				'es-es': "Descarta 2 Energías de este Pokémon.",
+				'it-it': "Scarta due Energie da questo Pokémon.",
+				'pt-br': "Descarte 2 Energias deste Pokémon.",
+				'de-de': "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 150,
 
@@ -92,7 +92,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Explosive substances coat the shell on its back. Enemies that dare attack it will be blown away by an immense detonation."
+		'en-us': "Explosive substances coat the shell on its back. Enemies that dare attack it will be blown away by an immense detonation."
 	},
 
 	thirdParty: {

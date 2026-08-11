@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Metapod",
-		fr: "Chrysacier",
-		de: "Safcon"
+		'en-us': "Metapod",
+		'fr-fr': "Chrysacier",
+		'de-de': "Safcon"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Caterpie",
-		fr: "Chenipan"
+		'en-us': "Caterpie",
+		'fr-fr': "Chenipan"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Harden",
-				fr: "Armure",
-				de: "Härtner"
+				'en-us': "Harden",
+				'fr-fr': "Armure",
+				'de-de': "Härtner"
 			},
 			effect: {
-				en: "During your opponent's next turn, whenever 20 or less damage is done to Metapod (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)",
-				fr: "Pendant le prochain tour de votre adversaire, à chaque fois que 20 dégâts ou moins sont infligés à Chrysacier (après application de la Faiblesse et de la Résistance), prévenez ces dégâts. (Tout autre effet ou attaque est toujours valide.)",
-				de: "Immer wenn Safcon während des nächsten Zuges deines Gegners 20 oder weniger Schadenspunkte zugefügt werden (nachdem Schäwche und Resistenz verrechnet wurden), verhindere diesen Schaden. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+				'en-us': "During your opponent's next turn, whenever 20 or less damage is done to Metapod (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, à chaque fois que 20 dégâts ou moins sont infligés à Chrysacier (après application de la Faiblesse et de la Résistance), prévenez ces dégâts. (Tout autre effet ou attaque est toujours valide.)",
+				'de-de': "Immer wenn Safcon während des nächsten Zuges deines Gegners 20 oder weniger Schadenspunkte zugefügt werden (nachdem Schäwche und Resistenz verrechnet wurden), verhindere diesen Schaden. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
 			},
 
 		},
@@ -54,14 +54,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Hatch",
-				fr: "Éclosion",
-				de: "Schlüpfen"
+				'en-us': "Hatch",
+				'fr-fr': "Éclosion",
+				'de-de': "Schlüpfen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, remove all damage counters from Metapod. Then, search your deck for a card that evolves from Metapod and attach that card to Metapod. This counts as evolving Metapod. Shuffle your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, retirez tous les marqueurs de dégâts sur Chrysacier. Puis, cherchez dans votre deck une carte Évolution de Chrysacier et attachez-la à Chrysacier. Cela revient à le faire évoluer. Mélangez ensuite votre deck.",
-				de: "Wirf eine Münze. Entferne bei \"Kopf\" alle Schadensmarken von Safcon. Durchsuche dann dein Deck nach einer Karte, die aus Safcon entsteht, und lege sie auf Safcon. Dies zählt als Entwicklung von Safcon. Mische danach dein Deck."
+				'en-us': "Flip a coin. If heads, remove all damage counters from Metapod. Then, search your deck for a card that evolves from Metapod and attach that card to Metapod. This counts as evolving Metapod. Shuffle your deck afterward.",
+				'fr-fr': "Lancez une pièce. Si c'est face, retirez tous les marqueurs de dégâts sur Chrysacier. Puis, cherchez dans votre deck une carte Évolution de Chrysacier et attachez-la à Chrysacier. Cela revient à le faire évoluer. Mélangez ensuite votre deck.",
+				'de-de': "Wirf eine Münze. Entferne bei \"Kopf\" alle Schadensmarken von Safcon. Durchsuche dann dein Deck nach einer Karte, die aus Safcon entsteht, und lege sie auf Safcon. Dies zählt als Entwicklung von Safcon. Mische danach dein Deck."
 			},
 
 		},
@@ -77,8 +77,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Inside the shell, it is soft and weak as it prepares to evolve. It stays motionless in the shell.",
-		fr: "Son corps est tendre et mou dans sa carapace. Il reste immobile dans son cocon."
+		'en-us': "Inside the shell, it is soft and weak as it prepares to evolve. It stays motionless in the shell.",
+		'fr-fr': "Son corps est tendre et mou dans sa carapace. Il reste immobile dans son cocon."
 	},
 
 

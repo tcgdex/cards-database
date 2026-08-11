@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Meowth",
-		fr: "Miaouss",
+		'en-us': "Meowth",
+		'fr-fr': "Miaouss",
 	},
 
 	illustrator: "kirisAki",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Exhausted Tackle",
-				fr: "Tacle Épuisé",
+				'en-us': "Exhausted Tackle",
+				'fr-fr': "Tacle Épuisé",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage to your opponent's Active Pokémon. If tails, this Pokémon does 30 damage to itself.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts au Pokémon Actif de votre adversaire. Si c'est pile, ce Pokémon s'inflige 30 dégâts.",
+				'en-us': "Flip a coin. If heads, this attack does 30 damage to your opponent's Active Pokémon. If tails, this Pokémon does 30 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts au Pokémon Actif de votre adversaire. Si c'est pile, ce Pokémon s'inflige 30 dégâts.",
 			},
 
 		},
@@ -51,7 +51,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change.",
+		'en-us': "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change.",
 	},
 
 	thirdParty: {

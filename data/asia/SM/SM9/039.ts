@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニドラン♀",
+		'ja-jp': "ニドラン♀",
 	},
 
 	illustrator: "miki kudo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "体は 小さくても 毒針を 持つため 注意が 必要だ。 メスのほうが ツノが 小さい。",
+		'ja-jp': "体は 小さくても 毒針を 持つため 注意が 必要だ。 メスのほうが ツノが 小さい。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "なかまをよぶ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にあるたねポケモンを1枚、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札にあるたねポケモンを1枚、ベンチに出す。そして山札を切る。",
 			},
 		},
 		{

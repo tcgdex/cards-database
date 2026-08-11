@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴーゴート",
+		'ja-jp': "ゴーゴート",
 	},
 
 	illustrator: "You Iribi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "ツノを 握る わずかな 違いから トレーナーの 気持ちを 読み取るので 一体となって 走れるのだ。",
+		'ja-jp': "ツノを 握る わずかな 違いから トレーナーの 気持ちを 読み取るので 一体となって 走れるのだ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "そうしょく" },
 			effect: {
-				ja: "このポケモンが使うワザの、相手の[草]ポケモンへのダメージは「+80」される。",
+				'ja-jp': "このポケモンが使うワザの、相手の[草]ポケモンへのダメージは「+80」される。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「20」回復する。",
+				'ja-jp': "このポケモンのHPを「20」回復する。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "メェークル",
+		'ja-jp': "メェークル",
 	},
 
 	retreat: 2,

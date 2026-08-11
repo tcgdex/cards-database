@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スイクンV",
+		'ja-jp': "スイクンV",
 		'zh-tw': "水君V",
 	},
 
@@ -19,11 +19,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "しゅんそく",
+				'ja-jp': "しゅんそく",
 				'zh-tw': "瞬步",
 			},
 			effect: {
-				ja: "このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札を1枚引く。",
+				'ja-jp': "このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札を1枚引く。",
 				'zh-tw': "若這隻寶可夢在戰鬥場上，則在自己的回合時可使用1次。從自己的牌庫抽出1張卡。",
 			},
 		},
@@ -32,13 +32,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ブリザードロンド",
+				'ja-jp': "ブリザードロンド",
 				'zh-tw': "暴雪迴旋曲",
 			},
 			damage: "20+",
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "おたがいのベンチポケモンの数×20ダメージ追加。",
+				'ja-jp': "おたがいのベンチポケモンの数×20ダメージ追加。",
 				'zh-tw': "增加雙方的備戰寶可夢的數量×20點傷害。",
 			},
 		},

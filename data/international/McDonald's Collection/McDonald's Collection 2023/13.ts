@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2023'
 
 const card: Card = {
 	name: {
-		en: "Tandemaus",
-		fr: "Compagnol",
-		es: "Tandemaus",
-		it: "Tandemaus",
-		pt: "Tandemaus",
-		de: "Zwieps"
+		'en-us': "Tandemaus",
+		'fr-fr': "Compagnol",
+		'es-es': "Tandemaus",
+		'it-it': "Tandemaus",
+		'pt-br': "Tandemaus",
+		'de-de': "Zwieps"
 	},
 
 	illustrator: "yuu",
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				en: "Double Hit",
+				'en-us': "Double Hit",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage for each heads.",
+				'en-us': "Flip 2 coins. This attack does 30 damage for each heads.",
 			},
 			damage: "30x"
 		},

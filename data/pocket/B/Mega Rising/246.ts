@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Corviknight"
+		'en-us': "Corviknight"
 	},
 
 	illustrator: "hncl",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Corvisquire"
+		'en-us': "Corvisquire"
 	},
 
 	description: {
-		en: "Although its wings have partly turned to steel and\nbecome heavy as a result, this Pokémon flies\nthrough the skies with ease."
+		'en-us': "Although its wings have partly turned to steel and\nbecome heavy as a result, this Pokémon flies\nthrough the skies with ease."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Iron Wings"
+			'en-us': "Iron Wings"
 		},
 
 		damage: 100,
 		cost: ["Metal", "Metal", "Colorless"],
 
 		effect: {
-			en: "Discard 2 {M} Energy from this Pokémon. During your opponent's next turn, this Pokémon takes −50 damage from attacks."
+			'en-us': "Discard 2 {M} Energy from this Pokémon. During your opponent's next turn, this Pokémon takes −50 damage from attacks."
 		}
 	}],
 

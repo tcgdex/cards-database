@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Sharpedo",
-		fr: "Sharpedo",
-		de: "Tohaido"
+		'en-us': "Sharpedo",
+		'fr-fr': "Sharpedo",
+		'de-de': "Tohaido"
 	},
 
 	illustrator: "Midori Harada",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Carvanha",
-		fr: "Carvanha"
+		'en-us': "Carvanha",
+		'fr-fr': "Carvanha"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tight Jaw",
-				fr: "Mâchoire serrée",
-				de: "Fester Biss"
+				'en-us': "Tight Jaw",
+				'fr-fr': "Mâchoire serrée",
+				'de-de': "Fester Biss"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Darkness Charge",
-				fr: "Recharge obscurité",
-				de: "Finstere Attacke"
+				'en-us': "Darkness Charge",
+				'fr-fr': "Recharge obscurité",
+				'de-de': "Finstere Attacke"
 			},
 			effect: {
-				en: "Put 1 damage counter on Sharpedo.",
-				fr: "Placez 1 marqueur de dégât sur Sharpedo.",
-				de: "Lege 1 Schadensmarke auf Tohaido."
+				'en-us': "Put 1 damage counter on Sharpedo.",
+				'fr-fr': "Placez 1 marqueur de dégât sur Sharpedo.",
+				'de-de': "Lege 1 Schadensmarke auf Tohaido."
 			},
 			damage: 50,
 

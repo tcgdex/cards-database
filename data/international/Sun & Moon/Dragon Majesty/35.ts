@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Majesty'
 
 const card: Card = {
 	name: {
-		en: "Dratini",
-		fr: "Minidraco",
-		es: "Dratini",
-		it: "Dratini",
-		pt: "Dratini",
-		de: "Dratini"
+		'en-us': "Dratini",
+		'fr-fr': "Minidraco",
+		'es-es': "Dratini",
+		'it-it': "Dratini",
+		'pt-br': "Dratini",
+		'de-de': "Dratini"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Whap",
-				fr: "Queue Battoir",
-				es: "Coletón",
-				it: "Codabotta",
-				pt: "Surra de Cauda",
-				de: "Schweifvertrimmer"
+				'en-us': "Tail Whap",
+				'fr-fr': "Queue Battoir",
+				'es-es': "Coletón",
+				'it-it': "Codabotta",
+				'pt-br': "Surra de Cauda",
+				'de-de': "Schweifvertrimmer"
 			},
 
 			damage: 30,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "After a 10-hour struggle, a fisherman was able to pull one up and confirm its existence.",
+		'en-us': "After a 10-hour struggle, a fisherman was able to pull one up and confirm its existence.",
 	},
 
 	thirdParty: {

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コック",
+		'ja-jp': "コック",
 	},
 
 	illustrator: "Hideki Ishikawa",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のバトルポケモンのHPを「70」回復する。",
+		'ja-jp': "自分のバトルポケモンのHPを「70」回復する。",
 	},
 
 	variants: [

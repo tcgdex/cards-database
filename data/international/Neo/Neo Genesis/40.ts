@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Magmar",
-		fr: "Magmar",
-		de: "Magmar"
+		'en-us': "Magmar",
+		'fr-fr': "Magmar",
+		'de-de': "Magmar"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -32,9 +32,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Slap",
-				fr: "Coud'keu",
-				de: "Schweifschlag"
+				'en-us': "Tail Slap",
+				'fr-fr': "Coud'keu",
+				'de-de': "Schweifschlag"
 			},
 
 			damage: 20,
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magma Punch",
-				fr: "Poing magma",
-				de: "Magmahieb"
+				'en-us': "Magma Punch",
+				'fr-fr': "Poing magma",
+				'de-de': "Magmahieb"
 			},
 
 			damage: 40,
@@ -67,8 +67,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It dislikes cold places, so it blows scorching flames to make the environment suitable for itself.",
-		fr: "Il n'aime pas les endroits froids, il souffle donc des flammes ardentes pour rendre l'atmosphère plus agréable à son goût."
+		'en-us': "It dislikes cold places, so it blows scorching flames to make the environment suitable for itself.",
+		'fr-fr': "Il n'aime pas les endroits froids, il souffle donc des flammes ardentes pour rendre l'atmosphère plus agréable à son goût."
 	},
 
 

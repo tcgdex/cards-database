@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シシコ"
+		'ja-jp': "シシコ"
 	},
 	illustrator: "Teeziro",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Fire"],
 	description: {
-		ja: "幼いうちにメスのカエンジシに狩りを教わるが成長すると群れを離れて独り立ちする。"
+		'ja-jp': "幼いうちにメスのカエンジシに狩りを教わるが成長すると群れを離れて独り立ちする。"
 	},
 	stage: "Basic",
 	attacks: [{
 		name: {
-			ja: "ほのお"
+			'ja-jp': "ほのお"
 		},
 		damage: 30,
 		cost: ["Fire", "Colorless"]

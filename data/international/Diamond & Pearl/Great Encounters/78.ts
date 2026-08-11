@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Makuhita",
-		fr: "Makuhita",
-		de: "Makuhita"
+		'en-us': "Makuhita",
+		'fr-fr': "Makuhita",
+		'de-de': "Makuhita"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Punch",
-				fr: "Koud'poing",
-				de: "Boxhieb"
+				'en-us': "Punch",
+				'fr-fr': "Koud'poing",
+				'de-de': "Boxhieb"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Arm Thrust",
-				fr: "Cogne",
-				de: "Armstoß"
+				'en-us': "Arm Thrust",
+				'fr-fr': "Cogne",
+				'de-de': "Armstoß"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing. If heads, discard an Energy card attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen. Bei \"Kopf\" entferne 1 Energiekarte, die an das Verteidigende Pokémon angelegt ist, und lege sie auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin. If tails, this attack does nothing. If heads, discard an Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen. Bei \"Kopf\" entferne 1 Energiekarte, die an das Verteidigende Pokémon angelegt ist, und lege sie auf den Ablagestapel deines Gegners."
 			},
 			damage: 40,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It toughens its body by slamming into thick trees. Many snapped trees can be found near its nest.",
+		'en-us': "It toughens its body by slamming into thick trees. Many snapped trees can be found near its nest.",
 	},
 
 	thirdParty: {

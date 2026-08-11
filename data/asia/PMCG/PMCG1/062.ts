@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラッタ",
+		'ja-jp': "ラッタ",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "噛む",
+				'ja-jp': "噛む",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "スーパーファング",
+				'ja-jp': "スーパーファング",
 			},
 			effect: {
-				ja: "防御ポケモンへの損傷は、防御ポケモンの残りのHPの半分に等しい（最も近い10に丸められています）。",
+				'ja-jp': "防御ポケモンへの損傷は、防御ポケモンの残りのHPの半分に等しい（最も近い10に丸められています）。",
 			},
 
 		},

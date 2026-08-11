@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Combee",
-		fr: "Apitrini",
-		de: "Wadribie"
+		'en-us': "Combee",
+		'fr-fr': "Apitrini",
+		'de-de': "Wadribie"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Honey Scent",
-				fr: "Parfum de miel",
-				de: "Honigduft"
+				'en-us': "Honey Scent",
+				'fr-fr': "Parfum de miel",
+				'de-de': "Honigduft"
 			},
 			effect: {
-				en: "Remove 2 damage counters from 1 of your Pokémon.",
-				fr: "Retirez à 1 de vos Pokémon 2 marqueurs de dégât.",
-				de: "Entferne 2 Schadensmarken von 1 deiner Pokémon."
+				'en-us': "Remove 2 damage counters from 1 of your Pokémon.",
+				'fr-fr': "Retirez à 1 de vos Pokémon 2 marqueurs de dégât.",
+				'de-de': "Entferne 2 Schadensmarken von 1 deiner Pokémon."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Flitter",
-				fr: "Voltige",
-				de: "Huschen"
+				'en-us': "Flitter",
+				'fr-fr': "Voltige",
+				'de-de': "Huschen"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
-				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. Der Schaden dieses Angriffs wird durch die Schwäche und Resistenz des gewählten Pokémon nicht verändert."
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				'de-de': "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. Der Schaden dieses Angriffs wird durch die Schwäche und Resistenz des gewählten Pokémon nicht verändert."
 			},
 
 		},
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It collects and delivers honey to its colony. At night, they cluster to form a beehive and sleep.",
+		'en-us': "It collects and delivers honey to its colony. At night, they cluster to form a beehive and sleep.",
 	},
 
 	thirdParty: {

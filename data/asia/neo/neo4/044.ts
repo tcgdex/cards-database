@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "暗いフラフィ",
+		'ja-jp': "暗いフラフィ",
 	},
 
 	rarity: "Uncommon",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "高電圧",
+				'ja-jp': "高電圧",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、対戦相手は次のターン中にトレーナーカードをプレイできません。",
+				'ja-jp': "コインをひっくり返します。頭の場合、対戦相手は次のターン中にトレーナーカードをプレイできません。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "スタンウェーブ",
+				'ja-jp': "スタンウェーブ",
 			},
 			effect: {
-				ja: "防衛ポケモンにポケモンのパワーがある場合、そのパワーは次のターンの終わりまで機能しなくなります。",
+				'ja-jp': "防衛ポケモンにポケモンのパワーがある場合、そのパワーは次のターンの終わりまで機能しなくなります。",
 			},
 			damage: 30,
 		},

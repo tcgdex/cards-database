@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Ninetales",
-		fr: "Feunard",
+		'en-us': "Ninetales",
+		'fr-fr': "Feunard",
 	},
 	illustrator: "Hideaki Hakozaki",
 	rarity: "Common",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Fire",
 	],
 	evolveFrom: {
-		en: "Vulpix",
-		fr: "Goupix",
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix",
 	},
 	stage: "Stage1",
 
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Bright Look",
-				fr: "Regard Alerte",
+				'en-us': "Bright Look",
+				'fr-fr': "Regard Alerte",
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez échanger 1 des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
+				'en-us': "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.",
+				'fr-fr': "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez échanger 1 des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
 			},
 		},
 	],
@@ -43,12 +43,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Hexed Flame",
-				fr: "Flamme Maudite",
+				'en-us': "Hexed Flame",
+				'fr-fr': "Flamme Maudite",
 			},
 			effect: {
-				en: "Does 50 more damage for each Special Condition affecting the Defending Pokémon.",
-				fr: "Inflige 50 dégâts supplémentaires pour chaque État Spécial affectant le Pokémon Défenseur.",
+				'en-us': "Does 50 more damage for each Special Condition affecting the Defending Pokémon.",
+				'fr-fr': "Inflige 50 dégâts supplémentaires pour chaque État Spécial affectant le Pokémon Défenseur.",
 			},
 			damage: 20,
 
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its nine tails are said to be imbued with a mystic power. It can live for a thousand years.",
+		'en-us': "Its nine tails are said to be imbued with a mystic power. It can live for a thousand years.",
 	},
 }
 

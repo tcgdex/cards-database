@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Seaking",
-		fr: "Poissoroy",
-		es: "Seaking",
-		it: "Seaking",
-		pt: "Seaking",
-		de: "Golking"
+		'en-us': "Seaking",
+		'fr-fr': "Poissoroy",
+		'es-es': "Seaking",
+		'it-it': "Seaking",
+		'pt-br': "Seaking",
+		'de-de': "Golking"
 	},
 
 	illustrator: "Midori Harada",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Goldeen",
-		fr: "Poissirène",
+		'en-us': "Goldeen",
+		'fr-fr': "Poissirène",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Enhanced Horn",
-				fr: "Corne Améliorée",
-				es: "Cuerno Mejorado",
-				it: "Ipercorno",
-				pt: "Chifre Acentuado",
-				de: "Spezial-Horn"
+				'en-us': "Enhanced Horn",
+				'fr-fr': "Corne Améliorée",
+				'es-es': "Cuerno Mejorado",
+				'it-it': "Ipercorno",
+				'pt-br': "Chifre Acentuado",
+				'de-de': "Spezial-Horn"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage for each heads. If this Pokémon has a Pokémon Tool card attached to it, flip 6 coins instead.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts pour chaque côté face. Si une carte Outil Pokémon est attachée à ce Pokémon, lancez 6 pièces à la place.",
-				es: "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara. Si este Pokémon tiene 1 carta de Herramienta Pokémon unida a él, lanza 6 monedas.",
-				it: "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa. Se questo Pokémon ha una carta Oggetto Pokémon assegnata, invece, lancia sei volte una moneta.",
-				pt: "Jogue 2 moedas. Este ataque causa 30 pontos de dano para cada cara. Se este Pokémon tiver uma carta de Ferramenta Pokémon ligada a ele, jogue 6 moedas ao invés de 2.",
-				de: "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu. Wenn an dieses Pokémon eine Pokémon-Ausrüstung angelegt ist, wirf stattdessen 6 Münzen."
+				'en-us': "Flip 2 coins. This attack does 30 damage for each heads. If this Pokémon has a Pokémon Tool card attached to it, flip 6 coins instead.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts pour chaque côté face. Si une carte Outil Pokémon est attachée à ce Pokémon, lancez 6 pièces à la place.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara. Si este Pokémon tiene 1 carta de Herramienta Pokémon unida a él, lanza 6 monedas.",
+				'it-it': "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa. Se questo Pokémon ha una carta Oggetto Pokémon assegnata, invece, lancia sei volte una moneta.",
+				'pt-br': "Jogue 2 moedas. Este ataque causa 30 pontos de dano para cada cara. Se este Pokémon tiver uma carta de Ferramenta Pokémon ligada a ele, jogue 6 moedas ao invés de 2.",
+				'de-de': "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu. Wenn an dieses Pokémon eine Pokémon-Ausrüstung angelegt ist, wirf stattdessen 6 Münzen."
 			},
 			damage: "30×",
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its horn spins like a drill to steadily hollow out rocks—even harder ones. The coloration of the male is more vivid.",
+		'en-us': "Its horn spins like a drill to steadily hollow out rocks—even harder ones. The coloration of the male is more vivid.",
 	},
 
 	thirdParty: {

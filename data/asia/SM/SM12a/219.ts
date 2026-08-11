@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イーブイGX",
+		'ja-jp': "イーブイGX",
 	},
 
 	illustrator: "aky CG Works",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かくせいDNA" },
 			effect: {
-				ja: "このポケモンは、自分の番に、「イーブイ」から進化するカードを手札から出して、このポケモンに重ねて進化できる（最初の自分の番と、このポケモンを場に出した番はのぞく）。進化する前に、このポケモンのHPを、すべて回復する。",
+				'ja-jp': "このポケモンは、自分の番に、「イーブイ」から進化するカードを手札から出して、このポケモンに重ねて進化できる（最初の自分の番と、このポケモンを場に出した番はのぞく）。進化する前に、このポケモンのHPを、すべて回復する。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			name: { ja: "ハッピーメーカーGX" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュにある好きなカードを3枚、相手に見せてから、手札に加える。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分のトラッシュにある好きなカードを3枚、相手に見せてから、手札に加える。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Alakazam",
-		fr: "Alakazam",
-		de: "Simsala"
+		'en-us': "Alakazam",
+		'fr-fr': "Alakazam",
+		'de-de': "Simsala"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kadabra",
-		fr: "Kadabra"
+		'en-us': "Kadabra",
+		'fr-fr': "Kadabra"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Power Cancel",
-				fr: "Annulation de pouvoir",
-				de: "Power Ausschalten"
+				'en-us': "Power Cancel",
+				'fr-fr': "Annulation de pouvoir",
+				'de-de': "Power Ausschalten"
 			},
 			effect: {
-				en: "Once during your opponent's turn, when your opponent's Pokémon uses any Poké-Power, you may discard 2 cards from your hand and prevent all effects of that Poké-Power. (This counts as that Pokémon using its Poké-Power.) This power can't be used if Alakazam is affected by a Special Condition.",
-				fr: "Une seule fois lors du tour de votre adversaire, lorsque celui-ci utilise un Poké-Power, vous pouvez défausser 2 cartes de votre main et prévenir les effets de ce Poké-Power. (C'est ce Pokémon qui utilise ce Poké-Power.) Ce pouvoir ne peut pas être utilisé si Alakazam possède un État Spécial.",
-				de: "Einmal während des Zuges deines Gegners kannst du, wenn 1 Pokémon deines Gegners eine Poké-Power benutzt, 2 Karten von der Hand auf deinen Ablagestapel legen. Wenn du das machst, verhindere alle Effekte dieser Poké-Power. (Die Poké-Power gilt dennoch als benutzt.) Diese Poké-Power kann nicht benutzt werden, wenn Simsala von einem Speziellen Zustand betroffen ist."
+				'en-us': "Once during your opponent's turn, when your opponent's Pokémon uses any Poké-Power, you may discard 2 cards from your hand and prevent all effects of that Poké-Power. (This counts as that Pokémon using its Poké-Power.) This power can't be used if Alakazam is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors du tour de votre adversaire, lorsque celui-ci utilise un Poké-Power, vous pouvez défausser 2 cartes de votre main et prévenir les effets de ce Poké-Power. (C'est ce Pokémon qui utilise ce Poké-Power.) Ce pouvoir ne peut pas être utilisé si Alakazam possède un État Spécial.",
+				'de-de': "Einmal während des Zuges deines Gegners kannst du, wenn 1 Pokémon deines Gegners eine Poké-Power benutzt, 2 Karten von der Hand auf deinen Ablagestapel legen. Wenn du das machst, verhindere alle Effekte dieser Poké-Power. (Die Poké-Power gilt dennoch als benutzt.) Diese Poké-Power kann nicht benutzt werden, wenn Simsala von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic Guard",
-				fr: "Barrière psy",
-				de: "Psychobarriere"
+				'en-us': "Psychic Guard",
+				'fr-fr': "Barrière psy",
+				'de-de': "Psychobarriere"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Alakazam by attacks from your opponent's Stage 2 Evolved Pokémon is reduced by 30 (after applying Weakness and Resistance).",
-				fr: "Lors du prochain tour de votre adversaire, tous dégâts infligés à Alakazam par des attaques de Pokémon de Niveau 2 de votre adversaire sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
-				de: "Während des nächsten Zuges deines Gegners wird Schaden, der Simsala durch Angriffe von entwickelten Pokémon der Phase 2 deines Gegners zugefügt wird, um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "During your opponent's next turn, any damage done to Alakazam by attacks from your opponent's Stage 2 Evolved Pokémon is reduced by 30 (after applying Weakness and Resistance).",
+				'fr-fr': "Lors du prochain tour de votre adversaire, tous dégâts infligés à Alakazam par des attaques de Pokémon de Niveau 2 de votre adversaire sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Während des nächsten Zuges deines Gegners wird Schaden, der Simsala durch Angriffe von entwickelten Pokémon der Phase 2 deines Gegners zugefügt wird, um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 50,
 
@@ -78,8 +78,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its superb memory lets it recall everything it has experienced from birth. Its IQ exceeds 5,000.",
-		fr: "Grâce à sa mémoire exceptionnelle, il n'a rien oublié depuis sa naissance. Il a un Q.I. de 5 000."
+		'en-us': "Its superb memory lets it recall everything it has experienced from birth. Its IQ exceeds 5,000.",
+		'fr-fr': "Grâce à sa mémoire exceptionnelle, il n'a rien oublié depuis sa naissance. Il a un Q.I. de 5 000."
 	},
 
 	thirdParty: {

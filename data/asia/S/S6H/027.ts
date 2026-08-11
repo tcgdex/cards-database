@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "はくばバドレックスV",
+		'ja-jp': "はくばバドレックスV",
 		'zh-tw': "白馬蕾冠王V",
 	},
 
@@ -18,7 +18,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "つきさす",
+				'ja-jp': "つきさす",
 				'zh-tw': "迴轉攻擊",
 			},
 			damage: 40,
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを2個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。",
 			},
 		},
 	],

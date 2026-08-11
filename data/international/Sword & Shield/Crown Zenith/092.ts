@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pawniard",
-		fr: "Scalpion",
-		es: "Pawniard",
-		it: "Pawniard",
-		pt: "Pawniard",
-		de: "Gladiantri"
+		'en-us': "Pawniard",
+		'fr-fr': "Scalpion",
+		'es-es': "Pawniard",
+		'it-it': "Pawniard",
+		'pt-br': "Pawniard",
+		'de-de': "Gladiantri"
 	},
 
 	illustrator: "Yuka Morii",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			en: "Pierce",
-			fr: "Transpercement",
-			es: "Perforar",
-			it: "Perforare",
-			pt: "Perfurar",
-			de: "Durchbohren"
+			'en-us': "Pierce",
+			'fr-fr': "Transpercement",
+			'es-es': "Perforar",
+			'it-it': "Perforare",
+			'pt-br': "Perfurar",
+			'de-de': "Durchbohren"
 		},
 
 		damage: 20
@@ -53,7 +53,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It uses river stones to maintain the cutting edges of the blades covering its body. These sharpened blades allow it to bring down opponents.",
+		'en-us': "It uses river stones to maintain the cutting edges of the blades covering its body. These sharpened blades allow it to bring down opponents.",
 	},
 
 	

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クセロシキのたくらみ",
+		'ja-jp': "クセロシキのたくらみ",
 		'zh-tw': "庫瑟洛斯奇的企圖",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "相手は相手自身の手札を、3枚になるようにトラッシュする。",
+		'ja-jp': "相手は相手自身の手札を、3枚になるようにトラッシュする。",
 		'zh-tw': "對手將對手自己的手牌丟棄直到變為3張為止。",
 	},
 

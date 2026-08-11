@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 7'
 
 const card: Card = {
 	name: {
-		en: "Kirlia",
-		fr: "Kirlia"
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ralts",
-		fr: "Tarsal"
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal"
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psychic Research",
-				fr: "Recherche psy"
+				'en-us': "Psychic Research",
+				'fr-fr': "Recherche psy"
 			},
 			effect: {
-				en: "Search your discard pile for a Supporter card and use the effect of that card as the effect of this attack. (The Supporter card remains in your discard pile.)",
-				fr: "Choisissez dans votre pile de défausse une carte Supporter et utilisez l'effet de cette carte comme l'effet de cette carte comme l'effet de cette attaque. (La carte Supporter reste dans la pile de défausse.)"
+				'en-us': "Search your discard pile for a Supporter card and use the effect of that card as the effect of this attack. (The Supporter card remains in your discard pile.)",
+				'fr-fr': "Choisissez dans votre pile de défausse une carte Supporter et utilisez l'effet de cette carte comme l'effet de cette carte comme l'effet de cette attaque. (La carte Supporter reste dans la pile de défausse.)"
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Telekinesis",
-				fr: "Télékinésie"
+				'en-us': "Telekinesis",
+				'fr-fr': "Télékinésie"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 40 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance."
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 40 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance."
 			},
 
 		},
@@ -67,7 +67,7 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "It is highly perceptive of its Trainer’s feelings. It dances when it is feeling happy."
+		'en-us': "It is highly perceptive of its Trainer’s feelings. It dances when it is feeling happy."
 	},
 
 	retreat: 1,

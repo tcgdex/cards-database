@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Togepi"
+		'id-id': "Togepi"
 	},
 
 	illustrator: "Natsumi Yoshida",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Simbol keberuntungan. Kabarnya cangkang Togepi dipenuhi dengan kebahagiaan."
+		'id-id': "Simbol keberuntungan. Kabarnya cangkang Togepi dipenuhi dengan kebahagiaan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Suara Manja"
+			'id-id': "Suara Manja"
 		},
 
 		effect: {
-			id: "Pilih 1 kartu dari Kartu Pegangan lawan tanpa melihat sisi depan, lihat sisi depan kartu tersebut, lalu kocok kembali ke Deck lawan."
+			'id-id': "Pilih 1 kartu dari Kartu Pegangan lawan tanpa melihat sisi depan, lihat sisi depan kartu tersebut, lalu kocok kembali ke Deck lawan."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Tubrukan Menggelinding"
+			'id-id': "Tubrukan Menggelinding"
 		},
 
 		damage: 20,

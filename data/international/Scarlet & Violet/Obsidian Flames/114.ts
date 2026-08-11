@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Crabagarre",
-		en: "Crabrawler",
-		es: "Crabrawler",
-		it: "Crabrawler",
-		pt: "Crabrawler",
-		de: "Krabbox"
+		'fr-fr': "Crabagarre",
+		'en-us': "Crabrawler",
+		'es-es': "Crabrawler",
+		'it-it': "Crabrawler",
+		'pt-br': "Crabrawler",
+		'de-de': "Krabbox"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			fr: "Coud'Phalange",
-			en: "Knuckle Punch",
-			es: "Puño con Nudillos",
-			it: "Noccapugno",
-			pt: "Soco com Punho",
-			de: "Knöchelhieb"
+			'fr-fr': "Coud'Phalange",
+			'en-us': "Knuckle Punch",
+			'es-es': "Puño con Nudillos",
+			'it-it': "Noccapugno",
+			'pt-br': "Soco com Punho",
+			'de-de': "Knöchelhieb"
 		},
 
 		damage: 30
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			fr: "Poing Magnum",
-			en: "Magnum Punch",
-			es: "Puño Mágnum",
-			it: "Superpugno",
-			pt: "Soco Magnum",
-			de: "Magnum-Schlag"
+			'fr-fr': "Poing Magnum",
+			'en-us': "Magnum Punch",
+			'es-es': "Puño Mágnum",
+			'it-it': "Superpugno",
+			'pt-br': "Soco Magnum",
+			'de-de': "Magnum-Schlag"
 		},
 
 		damage: 60
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "This Pokémon punches trees and eats the berries that drop down, training itself and getting food at the same time.",
+		'en-us': "This Pokémon punches trees and eats the berries that drop down, training itself and getting food at the same time.",
 	},
 
 	variants: [

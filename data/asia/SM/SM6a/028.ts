@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カイリューGX",
+		'ja-jp': "カイリューGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -25,14 +25,14 @@ const card: Card = {
 			damage: 200,
 			cost: ["Water", "Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 		{
 			name: { ja: "ドラゴンポーターGX" },
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のトラッシュにある[竜]ポケモンを3枚、ベンチに出す。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分のトラッシュにある[竜]ポケモンを3枚、ベンチに出す。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ハクリュー",
+		'ja-jp': "ハクリュー",
 	},
 
 	retreat: 3,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Venipede",
-		fr: "Venipatte",
-		es: "Venipede",
-		it: "Venipede",
-		pt: "Venipede",
-		de: "Toxiped"
+		'en-us': "Venipede",
+		'fr-fr': "Venipatte",
+		'es-es': "Venipede",
+		'it-it': "Venipede",
+		'pt-br': "Venipede",
+		'de-de': "Toxiped"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Poison Sting",
-				fr: "Dard-Venin",
+				'en-us': "Poison Sting",
+				'fr-fr': "Dard-Venin",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
 			},
 
 			damage: 20,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It discovers what is going on around it by using the feelers on its head and tail. It is brutally aggressive.",
+		'en-us': "It discovers what is going on around it by using the feelers on its head and tail. It is brutally aggressive.",
 	},
 
 	thirdParty: {

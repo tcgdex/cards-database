@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イーブイ&カビゴンGX",
+		'ja-jp': "イーブイ&カビゴンGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "おうえん" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の手札にあるエネルギーを1枚、自分のポケモンにつける。",
+				'ja-jp': "自分の手札にあるエネルギーを1枚、自分のポケモンにつける。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "120+",
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが進化ポケモンなら、120ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが進化ポケモンなら、120ダメージ追加。",
 			},
 		},
 		{
@@ -35,7 +35,7 @@ const card: Card = {
 			damage: 210,
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "追加でエネルギーが1個ついているなら、自分の手札が10枚になるように、山札を引く。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "追加でエネルギーが1個ついているなら、自分の手札が10枚になるように、山札を引く。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

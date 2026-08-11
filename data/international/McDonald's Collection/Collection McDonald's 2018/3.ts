@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Sovkipou",
+		'fr-fr': "Sovkipou",
 	},
 
 	rarity: "None",
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				fr: "Escampette"
+				'fr-fr': "Escampette"
 			},
 			effect: {
-				fr: "Pendant votre premier tour, ce Pokémon n'a pas de Coût de Retraite."
+				'fr-fr': "Pendant votre premier tour, ce Pokémon n'a pas de Coût de Retraite."
 			}
 		}
 	],
@@ -41,7 +41,7 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless", "Colorless"],
 			name: {
-				fr: "Ronge"
+				'fr-fr': "Ronge"
 			},
 			damage: 30
 		}

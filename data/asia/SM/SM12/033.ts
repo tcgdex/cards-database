@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クズモー",
+		'ja-jp': "クズモー",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "藻屑に 紛れ 大きなポケモンに 襲われないよう じっと している。 腐った 海草が 主な エサ。",
+		'ja-jp': "藻屑に 紛れ 大きなポケモンに 襲われないよう じっと している。 腐った 海草が 主な エサ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "どくをはく" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 			},
 		},
 	],

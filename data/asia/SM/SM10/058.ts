@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メグロコ",
+		'ja-jp': "メグロコ",
 	},
 
 	illustrator: "Yuka Morii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "年中 暖かい アローラは 過ごしやすい 環境。 砂漠 以外でも 時々 見かける。",
+		'ja-jp': "年中 暖かい アローラは 過ごしやすい 環境。 砂漠 以外でも 時々 見かける。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "いかくのキバ" },
 			effect: {
-				ja: "このポケモンがバトル場にいるかぎり、相手のバトルポケモンが使うワザのダメージは、すべて「-20」される。",
+				'ja-jp': "このポケモンがバトル場にいるかぎり、相手のバトルポケモンが使うワザのダメージは、すべて「-20」される。",
 			},
 		},
 	],

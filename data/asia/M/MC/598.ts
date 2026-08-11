@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マメパト",
+		'ja-jp': "マメパト",
 	},
 
 	illustrator: "Tomomi Ozaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "トレーナーの 命令を よく 聞く 性格だが 難しい 指示は 理解 できない こともある。",
+		'ja-jp': "トレーナーの 命令を よく 聞く 性格だが 難しい 指示は 理解 できない こともある。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "さぐる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手の手札を見る。",
+				'ja-jp': "相手の手札を見る。",
 			},
 		},
 		{

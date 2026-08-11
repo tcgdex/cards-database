@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Garbodor",
-		fr: "Miasmax",
-		es: "Garbodor",
-		it: "Garbodor",
-		pt: "Garbodor",
-		de: "Deponitox"
+		'en-us': "Garbodor",
+		'fr-fr': "Miasmax",
+		'es-es': "Garbodor",
+		'it-it': "Garbodor",
+		'pt-br': "Garbodor",
+		'de-de': "Deponitox"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Trubbish",
-		fr: "Miamiasme",
+		'en-us': "Trubbish",
+		'fr-fr': "Miamiasme",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ensnarl",
-				fr: "Empêtrement",
+				'en-us': "Ensnarl",
+				'fr-fr': "Empêtrement",
 			},
 			effect: {
-				en: "Does 20 damage times the number of Colorless in the Defending Pokémon's Retreat Cost.",
-				fr: "Inflige 20 dégâts multipliés par le nombre de Colorless dans le coût de Retraite du Pokémon Défenseur.",
+				'en-us': "Does 20 damage times the number of Colorless in the Defending Pokémon's Retreat Cost.",
+				'fr-fr': "Inflige 20 dégâts multipliés par le nombre de Colorless dans le coût de Retraite du Pokémon Défenseur.",
 			},
 			damage: 20,
 
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Ducts",
-				fr: "Double Boyau",
+				'en-us': "Double Ducts",
+				'fr-fr': "Double Boyau",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 80 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 80 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 80 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 80 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 80,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Consuming garbage makes new kinds of poison gases and liquids inside their bodies.",
+		'en-us': "Consuming garbage makes new kinds of poison gases and liquids inside their bodies.",
 	},
 
 	thirdParty: {

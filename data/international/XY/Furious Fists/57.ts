@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Mienshao",
-		fr: "Shaofouine",
-		es: "Mienshao",
-		it: "Mienshao",
-		pt: "Mienshao",
-		de: "Wie-Shu"
+		'en-us': "Mienshao",
+		'fr-fr': "Shaofouine",
+		'es-es': "Mienshao",
+		'it-it': "Mienshao",
+		'pt-br': "Mienshao",
+		'de-de': "Wie-Shu"
 	},
 
 	illustrator: "TOKIYA",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mienfoo",
-		fr: "Kungfouine",
-		es: "Mienfoo",
-		it: "Mienfoo",
-		pt: "Mienfoo",
-		de: "Lin-Fu"
+		'en-us': "Mienfoo",
+		'fr-fr': "Kungfouine",
+		'es-es': "Mienfoo",
+		'it-it': "Mienfoo",
+		'pt-br': "Mienfoo",
+		'de-de': "Lin-Fu"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Aero Turn",
-				fr: "Tour Aérien",
-				es: "Giro Aéreo",
-				it: "Virata",
-				pt: "Virada Aérea",
-				de: "Aero-Kehre"
+				'en-us': "Aero Turn",
+				'fr-fr': "Tour Aérien",
+				'es-es': "Giro Aéreo",
+				'it-it': "Virata",
+				'pt-br': "Virada Aérea",
+				'de-de': "Aero-Kehre"
 			},
 			effect: {
-				en: "Return this Pokémon and all cards attached to it to your hand.",
-				fr: "Reprenez ce Pokémon et toutes les cartes qui lui sont attachées dans votre main.",
-				es: "Devuelve este Pokémon y todas las cartas unidas a él a tu mano.",
-				it: "Riprendi in mano questo Pokémon e tutte le carte a esso assegnate.",
-				pt: "Devolva este Pokémon e todos os cards ligados a ele para sua mão.",
-				de: "Nimm dieses Pokémon und alle daran angelegten Karten zurück auf deine Hand."
+				'en-us': "Return this Pokémon and all cards attached to it to your hand.",
+				'fr-fr': "Reprenez ce Pokémon et toutes les cartes qui lui sont attachées dans votre main.",
+				'es-es': "Devuelve este Pokémon y todas las cartas unidas a él a tu mano.",
+				'it-it': "Riprendi in mano questo Pokémon e tutte le carte a esso assegnate.",
+				'pt-br': "Devolva este Pokémon e todos os cards ligados a ele para sua mão.",
+				'de-de': "Nimm dieses Pokémon und alle daran angelegten Karten zurück auf deine Hand."
 			},
 			damage: 40,
 
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "High Jump Kick",
-				fr: "Pied Voltige",
-				es: "Patada Salto Alta",
-				it: "Calcinvolo",
-				pt: "Chute de Pulo Alto",
-				de: "Turmkick"
+				'en-us': "High Jump Kick",
+				'fr-fr': "Pied Voltige",
+				'es-es': "Patada Salto Alta",
+				'it-it': "Calcinvolo",
+				'pt-br': "Chute de Pulo Alto",
+				'de-de': "Turmkick"
 			},
 
 			damage: 40,
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It wields the fur on its arm like a whip. Its arm attacks come with such rapidity that they cannot even be seen.",
+		'en-us': "It wields the fur on its arm like a whip. Its arm attacks come with such rapidity that they cannot even be seen.",
 	},
 
 	thirdParty: {

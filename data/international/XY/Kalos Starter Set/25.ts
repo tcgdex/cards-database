@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Kalos Starter Set'
 
 const card: Card = {
 	name: {
-		en: "Farfetch'd",
-		fr: "Canarticho",
-		es: "Farfetch'd",
-		it: "Farfetch'd",
-		pt: "Farfetch'd",
-		de: "Porenta"
+		'en-us': "Farfetch'd",
+		'fr-fr': "Canarticho",
+		'es-es': "Farfetch'd",
+		'it-it': "Farfetch'd",
+		'pt-br': "Farfetch'd",
+		'de-de': "Porenta"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				es: "Cuchillada",
-				it: "Lacerazione",
-				pt: "Talho",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'es-es': "Cuchillada",
+				'it-it': "Lacerazione",
+				'pt-br': "Talho",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 30,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The plant stalk it holds is its weapon. The stalk is used like a sword to cut all sorts of things.",
+		'en-us': "The plant stalk it holds is its weapon. The stalk is used like a sword to cut all sorts of things.",
 	},
 
 	thirdParty: {

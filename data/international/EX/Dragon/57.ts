@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Grimer",
-		fr: "Tadmorv",
-		de: "Sleima"
+		'en-us': "Grimer",
+		'fr-fr': "Tadmorv",
+		'de-de': "Sleima"
 	},
 
 	illustrator: "Yuka Morii",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'face",
-				de: "Pound"
+				'en-us': "Pound",
+				'fr-fr': "Écras'face",
+				'de-de': "Pound"
 			},
 
 			damage: 10,
@@ -42,14 +42,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Spurt",
-				fr: "Jet de poison",
-				de: "Poison Spurt"
+				'en-us': "Poison Spurt",
+				'fr-fr': "Jet de poison",
+				'de-de': "Poison Spurt"
 			},
 			effect: {
-				en: "Discard a Grass Energy card attached to Grimer. The Defending Pokémon is now Poisoned.",
-				fr: "Défaussez une carte Énergie  attachée à Tadmorv. Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Discard a  Energy card attached to Grimer. The Defending Pokémon is now Poisoned."
+				'en-us': "Discard a Grass Energy card attached to Grimer. The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Défaussez une carte Énergie  attachée à Tadmorv. Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Discard a  Energy card attached to Grimer. The Defending Pokémon is now Poisoned."
 			},
 
 		},

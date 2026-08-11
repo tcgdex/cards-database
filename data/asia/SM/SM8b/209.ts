@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リザードンGX",
+		'ja-jp': "リザードンGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -25,14 +25,14 @@ const card: Card = {
 			damage: 300,
 			cost: ["Fire", "Fire", "Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[炎]エネルギーを、3個トラッシュする。",
+				'ja-jp': "このポケモンについている[炎]エネルギーを、3個トラッシュする。",
 			},
 		},
 		{
 			name: { ja: "レイジングアウトGX" },
 			cost: ["Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手の山札を上から10枚トラッシュする。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手の山札を上から10枚トラッシュする。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "リザード",
+		'ja-jp': "リザード",
 	},
 
 	retreat: 2,

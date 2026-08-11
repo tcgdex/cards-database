@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴチム",
+		'ja-jp': "ゴチム",
 	},
 
 	illustrator: "Yuka Morii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "リボンのような 触角で サイコパワーを 増幅させる。 なにかを じっと 見つめている。",
+		'ja-jp': "リボンのような 触角で サイコパワーを 増幅させる。 なにかを じっと 見つめている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "なげキッス" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のポケモン1匹に、ダメカンを1個のせる。",
+				'ja-jp': "相手のポケモン1匹に、ダメカンを1個のせる。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナッシー",
+		'ja-jp': "ナッシー",
 	},
 
 	illustrator: "Kazumasa Yasukuni",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "歩く 熱帯雨林 と呼ばれる。 実の ひとつひとつに 顔があって それぞれ 意思を 持っている。",
+		'ja-jp': "歩く 熱帯雨林 と呼ばれる。 実の ひとつひとつに 顔があって それぞれ 意思を 持っている。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "アローラナッシー",
+		'ja-jp': "アローラナッシー",
 	},
 
 	retreat: 2,

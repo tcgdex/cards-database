@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウルトラネクロズマ",
+		'ja-jp': "ウルトラネクロズマ",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "圧倒的な 光エネルギーを 吸収し 変化した 姿。 全身から レーザー光を 放つ。",
+		'ja-jp': "圧倒的な 光エネルギーを 吸収し 変化した 姿。 全身から レーザー光を 放つ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ウルトラバースト" },
 			effect: {
-				ja: "このポケモンは、相手のサイドの残り枚数が2枚以下でなければ、ワザが使えない。",
+				'ja-jp': "このポケモンは、相手のサイドの残り枚数が2枚以下でなければ、ワザが使えない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 170,
 			cost: ["Psychic", "Metal"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 	],

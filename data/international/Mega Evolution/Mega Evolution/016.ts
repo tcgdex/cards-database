@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Nincada",
-		fr: "Ningale",
-		de: "Nincada",
-		it: "Nincada",
-		es: "Nincada",
-		pt: "Nincada",
+		'en-us': "Nincada",
+		'fr-fr': "Ningale",
+		'de-de': "Nincada",
+		'it-it': "Nincada",
+		'es-es': "Nincada",
+		'pt-br': "Nincada",
 		'es-mx': "Nincada"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Scratch",
-			fr: "Griffe",
-			de: "Kratzer",
-			it: "Graffio",
-			es: "Arañazo",
-			pt: "Arranhão",
+			'en-us': "Scratch",
+			'fr-fr': "Griffe",
+			'de-de': "Kratzer",
+			'it-it': "Graffio",
+			'es-es': "Arañazo",
+			'pt-br': "Arranhão",
 			'es-mx': "Arañazo"
 		},
 

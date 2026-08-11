@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Watchog",
-		fr: "Miradar",
-		es: "Watchog",
-		it: "Watchog",
-		pt: "Watchog",
-		de: "Kukmarda"
+		'en-us': "Watchog",
+		'fr-fr': "Miradar",
+		'es-es': "Watchog",
+		'it-it': "Watchog",
+		'pt-br': "Watchog",
+		'de-de': "Kukmarda"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Patrat",
-		fr: "Ratentif",
+		'en-us': "Patrat",
+		'fr-fr': "Ratentif",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fast Swipe",
-				fr: "Fauchage Éclair",
+				'en-us': "Fast Swipe",
+				'fr-fr': "Fauchage Éclair",
 			},
 			effect: {
-				en: "Discard a random card from your opponent's hand.",
-				fr: "Défaussez au hasard une carte de la main de votre adversaire.",
+				'en-us': "Discard a random card from your opponent's hand.",
+				'fr-fr': "Défaussez au hasard une carte de la main de votre adversaire.",
 			},
 
 		},
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Biting Fang",
-				fr: "Croc Mordant",
+				'en-us': "Biting Fang",
+				'fr-fr': "Croc Mordant",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 30,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Using luminescent matter, it makes its eyes and body glow and stuns attacking opponents.",
+		'en-us': "Using luminescent matter, it makes its eyes and body glow and stuns attacking opponents.",
 	},
 
 	thirdParty: {

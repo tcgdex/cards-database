@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "名探偵ピカチュウ",
+		'ja-jp': "名探偵ピカチュウ",
 		'zh-tw': "拉帝亞斯",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "調査には 根気が 必要。 粘り強い調査で 事件の手がかりを 探し出せ！",
+		'ja-jp': "調査には 根気が 必要。 粘り強い調査で 事件の手がかりを 探し出せ！",
 		'zh-tw': "透過心靈感應和人類交流情感。 會用能令光線折射的羽毛 變化成其他的樣子。",
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "てっていちょうさ",
+				'ja-jp': "てっていちょうさ",
 				'zh-tw': "0",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数ぶん、自分の山札を引く。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数ぶん、自分の山札を引く。",
 				'zh-tw': "‌若這隻寶可夢身上附有【超】能量，則將這隻寶可夢【撤退】所需的能量全部消除。",
 			},
 		},

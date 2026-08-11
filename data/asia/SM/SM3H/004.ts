@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヘラクロス",
+		'ja-jp': "ヘラクロス",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "自慢のツノを 相手の お腹の 下に ねじこみ 一気に 持ち上げ ぶん投げてしまう 力持ち。",
+		'ja-jp': "自慢のツノを 相手の お腹の 下に ねじこみ 一気に 持ち上げ ぶん投げてしまう 力持ち。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "こんじょう" },
 			effect: {
-				ja: "このポケモンが、ワザのダメージを受けてきぜつするとき、コインを1回投げる。オモテなら、このポケモンはきぜつせず、残りHPが「10」の状態で場に残る。",
+				'ja-jp': "このポケモンが、ワザのダメージを受けてきぜつするとき、コインを1回投げる。オモテなら、このポケモンはきぜつせず、残りHPが「10」の状態で場に残る。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Grass", "Grass"],
 			effect: {
-				ja: "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+				'ja-jp': "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
 			},
 		},
 	],

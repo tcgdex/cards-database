@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キノガッサ",
+		'ja-jp': "キノガッサ",
 	},
 
 	illustrator: "Taiga Kasai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "尻尾の タネは 毒の 胞子で できている。 動きが 見えないほど 素早い パンチで 敵を 倒す。",
+		'ja-jp': "尻尾の タネは 毒の 胞子で できている。 動きが 見えないほど 素早い パンチで 敵を 倒す。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "キノココ",
+		'ja-jp': "キノココ",
 	},
 
 	retreat: 1,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Unown D",
-		fr: "Zarbi D",
-		de: "Icognito D"
+		'en-us': "Unown D",
+		'fr-fr': "Zarbi D",
+		'de-de': "Icognito D"
 	},
 
 	illustrator: "Nakaoka",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Draw",
-				fr: "DONNER",
-				de: "DRAW"
+				'en-us': "Draw",
+				'fr-fr': "DONNER",
+				'de-de': "DRAW"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Unown D is on your Bench, you may flip a coin. If heads, each player may draw a card. (You draw your card first.)",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), si Zarbi D est sur votre Banc, vous pouvez lancer une pièce. Si c'est face, chaque joueur peut piocher une carte. (Vous piochez votre carte en premier.)",
-				de: "Einmal während deines Zuges (vor deinem Angriff), wenn Icognito D auf deiner Bank liegt, kannst du 1 Münze werfen. Bei 'Kopf' kann jeder Spieler eine Karte ziehen. (Du ziehst deine Karte zuerst.)"
+				'en-us': "Once during your turn (before your attack), if Unown D is on your Bench, you may flip a coin. If heads, each player may draw a card. (You draw your card first.)",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), si Zarbi D est sur votre Banc, vous pouvez lancer une pièce. Si c'est face, chaque joueur peut piocher une carte. (Vous piochez votre carte en premier.)",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff), wenn Icognito D auf deiner Bank liegt, kannst du 1 Münze werfen. Bei 'Kopf' kann jeder Spieler eine Karte ziehen. (Du ziehst deine Karte zuerst.)"
 			},
 		},
 	],
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hidden Power",
-				fr: "Puissance cachée",
-				de: "Kraftreserve"
+				'en-us': "Hidden Power",
+				'fr-fr': "Puissance cachée",
+				'de-de': "Kraftreserve"
 			},
 
 			damage: 10,
@@ -67,8 +67,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Shaped like ancient writing, it is a huge mystery whether language or UNOWN came first.",
-		fr: "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier."
+		'en-us': "Shaped like ancient writing, it is a huge mystery whether language or UNOWN came first.",
+		'fr-fr': "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier."
 	},
 
 	variants: [

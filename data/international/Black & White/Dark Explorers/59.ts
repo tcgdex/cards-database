@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Gurdurr",
-		fr: "Ouvrifier",
-		es: "Gurdurr",
-		it: "Gurdurr",
-		pt: "Gurdurr",
-		de: "Strepoli"
+		'en-us': "Gurdurr",
+		'fr-fr': "Ouvrifier",
+		'es-es': "Gurdurr",
+		'it-it': "Gurdurr",
+		'pt-br': "Gurdurr",
+		'de-de': "Strepoli"
 	},
 
 	illustrator: "Mizue",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Timburr",
-		fr: "Charpenti"
+		'en-us': "Timburr",
+		'fr-fr': "Charpenti"
 	},
 
 	stage: "Stage1",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage"
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage"
 			},
 
 			damage: 20,
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steel Swing",
-				fr: "Frappe d'Acier"
+				'en-us': "Steel Swing",
+				'fr-fr': "Frappe d'Acier"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 60 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face."
+				'en-us': "Flip 2 coins. This attack does 60 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face."
 			},
 			damage: 60,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They strengthen their bodies by carrying steel beams. They show off their big muscles to their friends.",
+		'en-us': "They strengthen their bodies by carrying steel beams. They show off their big muscles to their friends.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Shroomish"
+		'id-id': "Shroomish"
 	},
 
 	illustrator: "Yoriyuki Ikegami",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Shroomish adalah Pokémon yang melindungi dirinya dengan menyebarkan spora beracun dari ujung kepalanya ketika mendeteksi bahaya."
+		'id-id': "Shroomish adalah Pokémon yang melindungi dirinya dengan menyebarkan spora beracun dari ujung kepalanya ketika mendeteksi bahaya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Sundulan Dua Kali"
+			'id-id': "Sundulan Dua Kali"
 		},
 
 		effect: {
-			id: "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lemparan dengan hasil sisi depan."
+			'id-id': "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lemparan dengan hasil sisi depan."
 		},
 
 		damage: "10×",
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Bom Benih"
+			'id-id': "Bom Benih"
 		},
 
 		damage: 20,

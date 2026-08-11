@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Doublade",
-		fr: "Dimoclès",
-		es: "Doublade",
-		it: "Doublade",
-		pt: "Doublade",
-		de: "Duokles"
+		'en-us': "Doublade",
+		'fr-fr': "Dimoclès",
+		'es-es': "Doublade",
+		'it-it': "Doublade",
+		'pt-br': "Doublade",
+		'de-de': "Duokles"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Metal"],
 	evolveFrom: {
-		en: "Honedge",
-		fr: "Monorpale",
-		es: "Honedge",
-		it: "Honedge",
-		pt: "Honedge",
-		de: "Gramokles"
+		'en-us': "Honedge",
+		'fr-fr': "Monorpale",
+		'es-es': "Honedge",
+		'it-it': "Honedge",
+		'pt-br': "Honedge",
+		'de-de': "Gramokles"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Slash",
-			fr: "Tranche",
-			es: "Cuchillada",
-			it: "Lacerazione",
-			pt: "Talho",
-			de: "Schlitzer"
+			'en-us': "Slash",
+			'fr-fr': "Tranche",
+			'es-es': "Cuchillada",
+			'it-it': "Lacerazione",
+			'pt-br': "Talho",
+			'de-de': "Schlitzer"
 		},
 
 		damage: 20
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			en: "Slashing Strike",
-			fr: "Coup Déchirant",
-			es: "Golpe Cuchillazo",
-			it: "Lacerattacco",
-			pt: "Ataque Cortante",
-			de: "Schlitzender Schlag"
+			'en-us': "Slashing Strike",
+			'fr-fr': "Coup Déchirant",
+			'es-es': "Golpe Cuchillazo",
+			'it-it': "Lacerattacco",
+			'pt-br': "Ataque Cortante",
+			'de-de': "Schlitzender Schlag"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use Slashing Strike.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup Déchirant.",
-			es: "Durante tu próximo turno, este Pokémon no puede usar Golpe Cuchillazo.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Lacerattacco.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Ataque Cortante.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon Schlitzender Schlag nicht einsetzen."
+			'en-us': "During your next turn, this Pokémon can't use Slashing Strike.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup Déchirant.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede usar Golpe Cuchillazo.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Lacerattacco.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar Ataque Cortante.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon Schlitzender Schlag nicht einsetzen."
 		},
 
 		damage: 80
@@ -81,7 +81,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "The two swords employ a strategy of rapidly alternating between offense and defense to bring down their prey.",
+		'en-us': "The two swords employ a strategy of rapidly alternating between offense and defense to bring down their prey.",
 	},
 
 	variants: [

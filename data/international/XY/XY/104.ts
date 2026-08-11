@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Skitty",
-		fr: "Skitty",
-		es: "Skitty",
-		it: "Skitty",
-		pt: "Skitty",
-		de: "Eneco"
+		'en-us': "Skitty",
+		'fr-fr': "Skitty",
+		'es-es': "Skitty",
+		'it-it': "Skitty",
+		'pt-br': "Skitty",
+		'de-de': "Eneco"
 	},
 
 	illustrator: "kawayoo",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heal Bell",
-				fr: "Glas de Soin",
-				es: "Campana Cura",
-				it: "Rintoccasana",
-				pt: "Sino da Cura",
-				de: "Vitalglocke"
+				'en-us': "Heal Bell",
+				'fr-fr': "Glas de Soin",
+				'es-es': "Campana Cura",
+				'it-it': "Rintoccasana",
+				'pt-br': "Sino da Cura",
+				'de-de': "Vitalglocke"
 			},
 			effect: {
-				en: "Heal 10 damage from each of your Pokémon.",
-				fr: "Soignez 10 dégâts à chacun de vos Pokémon.",
-				es: "Cura 10 puntos de daño a cada uno de tus Pokémon.",
-				it: "Cura ciascuno dei tuoi Pokémon da 10 danni.",
-				pt: "Cure 10 de danos de cada um dos seus Pokémon.",
-				de: "Heile 10 Schadenspunkte bei jedem deiner Pokémon."
+				'en-us': "Heal 10 damage from each of your Pokémon.",
+				'fr-fr': "Soignez 10 dégâts à chacun de vos Pokémon.",
+				'es-es': "Cura 10 puntos de daño a cada uno de tus Pokémon.",
+				'it-it': "Cura ciascuno dei tuoi Pokémon da 10 danni.",
+				'pt-br': "Cure 10 de danos de cada um dos seus Pokémon.",
+				'de-de': "Heile 10 Schadenspunkte bei jedem deiner Pokémon."
 			},
 
 		},
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Whap",
-				fr: "Queue Battoir",
-				es: "Coletón",
-				it: "Codabotta",
-				pt: "Surra de Cauda",
-				de: "Schweifvertrimmer"
+				'en-us': "Tail Whap",
+				'fr-fr': "Queue Battoir",
+				'es-es': "Coletón",
+				'it-it': "Codabotta",
+				'pt-br': "Surra de Cauda",
+				'de-de': "Schweifvertrimmer"
 			},
 
 			damage: 10,
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It can't stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
+		'en-us': "It can't stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
 	},
 
 	thirdParty: {

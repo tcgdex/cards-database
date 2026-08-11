@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クレファ",
+		'ja-jp': "クレファ",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "eeeeeeek",
+				'ja-jp': "eeeeeeek",
 			},
 			effect: {
-				ja: "手をデッキにシャッフルしてから、7枚のカードを描きます。",
+				'ja-jp': "手をデッキにシャッフルしてから、7枚のカードを描きます。",
 			},
 		},
 	],

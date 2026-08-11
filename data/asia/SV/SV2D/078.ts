@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コジオ"
+		'ja-jp': "コジオ"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "地底の 岩塩層で 生まれた。 貴重な 塩を 分けてくれるため 昔は とくに 大事にされた。"
+		'ja-jp': "地底の 岩塩層で 生まれた。 貴重な 塩を 分けてくれるため 昔は とくに 大事にされた。"
 	},
 
 	stage: "Basic",
@@ -24,17 +24,17 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "しおぬり"
+			'ja-jp': "しおぬり"
 		},
 
 		effect: {
-			ja: "自分のポケモン1匹のHPを「20」回復する。"
+			'ja-jp': "自分のポケモン1匹のHPを「20」回復する。"
 		}
 	}, {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			ja: "たいあたり"
+			'ja-jp': "たいあたり"
 		},
 
 		damage: 30

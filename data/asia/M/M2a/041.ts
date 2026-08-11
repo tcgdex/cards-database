@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モスノウ",
+		'ja-jp': "モスノウ",
 	},
 
 	illustrator: "cochi8i",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "冷気を 発する 大きな 翅で 飛びまわり 猛吹雪を 起こす。 綺麗な 雪解け水が 好物。",
+		'ja-jp': "冷気を 発する 大きな 翅で 飛びまわり 猛吹雪を 起こす。 綺麗な 雪解け水が 好物。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "いざなうはね" },
 			effect: {
-				ja: "このポケモンがバトル場にいるなら、自分の番に1回使える。おたがいのプレイヤーは、それぞれ山札を1枚引く。",
+				'ja-jp': "このポケモンがバトル場にいるなら、自分の番に1回使える。おたがいのプレイヤーは、それぞれ山札を1枚引く。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Water", "Water"],
 			effect: {
-				ja: "このポケモンについている[W]エネルギーを1個選び、ベンチポケモンにつけ替える。",
+				'ja-jp': "このポケモンについている[W]エネルギーを1個選び、ベンチポケモンにつけ替える。",
 			},
 		},
 	],
@@ -66,7 +66,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ユキハミ",
+		'ja-jp': "ユキハミ",
 	},
 
 	retreat: 2,

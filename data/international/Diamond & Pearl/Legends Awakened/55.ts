@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Gliscor",
-		fr: "Scorvol",
-		de: "Skorgro"
+		'en-us': "Gliscor",
+		'fr-fr': "Scorvol",
+		'de-de': "Skorgro"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gligar",
-		fr: "Skorgla",
+		'en-us': "Gligar",
+		'fr-fr': "Skorgla",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Poison Jab",
-				fr: "Direct Toxik",
-				de: "Gifthieb"
+				'en-us': "Poison Jab",
+				'fr-fr': "Direct Toxik",
+				'de-de': "Gifthieb"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 20,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharp Tail",
-				fr: "Queue tranchante",
-				de: "Scharfer Schweif"
+				'en-us': "Sharp Tail",
+				'fr-fr': "Queue tranchante",
+				'de-de': "Scharfer Schweif"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 40 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 40 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 40 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 40 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 40 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 40 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -85,8 +85,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
-		fr: "Il guette sa proie, pendu à une branche la tête en bas, et s'en saisit à la première occasion."
+		'en-us': "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
+		'fr-fr': "Il guette sa proie, pendu à une branche la tête en bas, et s'en saisit à la première occasion."
 	},
 
 	thirdParty: {

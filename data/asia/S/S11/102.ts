@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キュレムV",
+		'ja-jp': "キュレムV",
 	},
 
 	illustrator: "takuyoa",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "きゅうげきれいとう" },
 			cost: ["Water"],
 			effect: {
-				ja: "自分の手札から[W]エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。",
+				'ja-jp': "自分の手札から[W]エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。",
 			},
 		},
 		{

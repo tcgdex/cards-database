@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Beedrill",
-		fr: "Dardargnan",
-		es: "Beedrill",
-		it: "Beedrill",
-		pt: "Beedrill",
-		de: "Bibor"
+		'en-us': "Beedrill",
+		'fr-fr': "Dardargnan",
+		'es-es': "Beedrill",
+		'it-it': "Beedrill",
+		'pt-br': "Beedrill",
+		'de-de': "Bibor"
 	},
 
 	illustrator: "You Iribi",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kakuna",
-		fr: "Coconfort",
+		'en-us': "Kakuna",
+		'fr-fr': "Coconfort",
 	},
 
 	stage: "Stage2",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Destiny Stinger",
-				fr: "Piqûre du Destin",
-				es: "Aguijón Destino",
-				it: "Destinopungente",
-				pt: "Ferrão do Destino",
-				de: "Schicksalsstich"
+				'en-us': "Destiny Stinger",
+				'fr-fr': "Piqûre du Destin",
+				'es-es': "Aguijón Destino",
+				'it-it': "Destinopungente",
+				'pt-br': "Ferrão do Destino",
+				'de-de': "Schicksalsstich"
 			},
 			effect: {
-				en: "You can use this attack only if this Pokémon has any damage counters on it. Both Active Pokémon are Knocked Out.",
-				fr: "Vous ne pouvez utiliser cette attaque que si ce Pokémon a des marqueurs de dégâts. Les deux Pokémon Actifs sont mis K.O.",
-				es: "Puedes usar este ataque solo si este Pokémon tiene algún contador de daño sobre él. Ambos Pokémon Activos quedan Fuera de Combate.",
-				it: "Puoi usare questo attacco solo se questo Pokémon ha dei segnalini danno. Entrambi i Pokémon attivi vengono messi KO.",
-				pt: "Você só pode usar este ataque se este Pokémon tiver algum contador de dano nele. Ambos os Pokémon Ativos são Nocauteados.",
-				de: "Du kannst diese Attacke nur einsetzen, wenn auf diesem Pokémon mindestens 1 Schadensmarke liegt. Beide Aktiven Pokémon sind kampfunfähig."
+				'en-us': "You can use this attack only if this Pokémon has any damage counters on it. Both Active Pokémon are Knocked Out.",
+				'fr-fr': "Vous ne pouvez utiliser cette attaque que si ce Pokémon a des marqueurs de dégâts. Les deux Pokémon Actifs sont mis K.O.",
+				'es-es': "Puedes usar este ataque solo si este Pokémon tiene algún contador de daño sobre él. Ambos Pokémon Activos quedan Fuera de Combate.",
+				'it-it': "Puoi usare questo attacco solo se questo Pokémon ha dei segnalini danno. Entrambi i Pokémon attivi vengono messi KO.",
+				'pt-br': "Você só pode usar este ataque se este Pokémon tiver algum contador de dano nele. Ambos os Pokémon Ativos são Nocauteados.",
+				'de-de': "Du kannst diese Attacke nur einsetzen, wenn auf diesem Pokémon mindestens 1 Schadensmarke liegt. Beide Aktiven Pokémon sind kampfunfähig."
 			},
 
 		},
@@ -62,20 +62,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reckless Charge",
-				fr: "Attaque Imprudente",
-				es: "Carga Descuidada",
-				it: "Carica Avventata",
-				pt: "Carga Indomável",
-				de: "Waghalsiger Sturmangriff"
+				'en-us': "Reckless Charge",
+				'fr-fr': "Attaque Imprudente",
+				'es-es': "Carga Descuidada",
+				'it-it': "Carica Avventata",
+				'pt-br': "Carga Indomável",
+				'de-de': "Waghalsiger Sturmangriff"
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s’inflige 10 dégâts.",
-				es: "Este Pokémon se hace 10 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 10 danni a se stesso.",
-				pt: "Este Pokémon causa 10 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "This Pokémon does 10 damage to itself.",
+				'fr-fr': "Ce Pokémon s’inflige 10 dégâts.",
+				'es-es': "Este Pokémon se hace 10 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 10 danni a se stesso.",
+				'pt-br': "Este Pokémon causa 10 pontos de dano a si mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 90,
 
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",
+		'en-us': "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",
 	},
 
 	thirdParty: {

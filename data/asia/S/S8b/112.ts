@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドーミラー",
+		'ja-jp': "ドーミラー",
 		'zh-tw': "銅鏡怪",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "磨けば 光り 真実を 映しだすとも いわれるが ドーミラーは とても 嫌がる。",
+		'ja-jp': "磨けば 光り 真実を 映しだすとも いわれるが ドーミラーは とても 嫌がる。",
 		'zh-tw': "雖然人們說把銅鏡怪打磨到發光，牠就能映照出真相，但其實牠非常討厭被打磨。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶつかる",
+				'ja-jp': "ぶつかる",
 				'zh-tw': "衝撞",
 			},
 			damage: 30,

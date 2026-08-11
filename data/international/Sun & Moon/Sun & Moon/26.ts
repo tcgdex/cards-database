@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Incineroar",
-		fr: "Félinferno",
-		es: "Incineroar",
-		it: "Incineroar",
-		pt: "Incineroar",
-		de: "Fuegro"
+		'en-us': "Incineroar",
+		'fr-fr': "Félinferno",
+		'es-es': "Incineroar",
+		'it-it': "Incineroar",
+		'pt-br': "Incineroar",
+		'de-de': "Fuegro"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Torracat",
-		fr: "Matoufeu",
+		'en-us': "Torracat",
+		'fr-fr': "Matoufeu",
 	},
 
 	stage: "Stage2",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Fang",
-				fr: "Crocs Feu",
-				es: "Colmillo Ígneo",
-				it: "Rogodenti",
-				pt: "Presas de Fogo",
-				de: "Feuerzahn"
+				'en-us': "Fire Fang",
+				'fr-fr': "Crocs Feu",
+				'es-es': "Colmillo Ígneo",
+				'it-it': "Rogodenti",
+				'pt-br': "Presas de Fogo",
+				'de-de': "Feuerzahn"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+				'en-us': "Your opponent’s Active Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 			},
 			damage: 30,
 
@@ -65,20 +65,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Darkest Lariat",
-				fr: "Dark Lariat",
-				es: "Lariat Oscuro",
-				it: "Braccioteso",
-				pt: "Lariat Escuro",
-				de: "Dark Lariat"
+				'en-us': "Darkest Lariat",
+				'fr-fr': "Dark Lariat",
+				'es-es': "Lariat Oscuro",
+				'it-it': "Braccioteso",
+				'pt-br': "Lariat Escuro",
+				'de-de': "Dark Lariat"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 100 damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 100 dégâts multipliés par le nombre de côtés face.",
-				es: "Lanza 2 monedas. Este ataque hace 100 puntos de daño por cada cara.",
-				it: "Lancia due volte una moneta. Questo attacco infligge 100 danni ogni volta che esce testa.",
-				pt: "Jogue 2 moedas. Este ataque causa 100 pontos de dano para cada cara.",
-				de: "Wirf 2 Münzen. Diese Attacke fügt 100 Schadenspunkte pro Kopf zu."
+				'en-us': "Flip 2 coins. This attack does 100 damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 100 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 100 puntos de daño por cada cara.",
+				'it-it': "Lancia due volte una moneta. Questo attacco infligge 100 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 2 moedas. Este ataque causa 100 pontos de dano para cada cara.",
+				'de-de': "Wirf 2 Münzen. Diese Attacke fügt 100 Schadenspunkte pro Kopf zu."
 			},
 			damage: "100×",
 
@@ -95,7 +95,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "This Pokémon has a violent, selfish disposition. If it's not in the mood to listen, it will ignore its Trainer's orders with complete nonchalance.",
+		'en-us': "This Pokémon has a violent, selfish disposition. If it's not in the mood to listen, it will ignore its Trainer's orders with complete nonchalance.",
 	},
 
 	thirdParty: {

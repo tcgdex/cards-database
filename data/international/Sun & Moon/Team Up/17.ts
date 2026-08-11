@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Ponyta",
-		fr: "Ponyta",
-		es: "Ponyta",
-		it: "Ponyta",
-		pt: "Ponyta",
-		de: "Ponita"
+		'en-us': "Ponyta",
+		'fr-fr': "Ponyta",
+		'es-es': "Ponyta",
+		'it-it': "Ponyta",
+		'pt-br': "Ponyta",
+		'de-de': "Ponita"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Live Coal",
-				fr: "Charbon Mutant",
-				es: "Carbón Activado",
-				it: "Carboni Ardenti",
-				pt: "Carvão Vivo",
-				de: "Glühende Kohlen"
+				'en-us': "Live Coal",
+				'fr-fr': "Charbon Mutant",
+				'es-es': "Carbón Activado",
+				'it-it': "Carboni Ardenti",
+				'pt-br': "Carvão Vivo",
+				'de-de': "Glühende Kohlen"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Stomp",
-				fr: "Écrasement",
-				es: "Pisotón",
-				it: "Pestone",
-				pt: "Pisotear",
-				de: "Stampfer"
+				'en-us': "Stomp",
+				'fr-fr': "Écrasement",
+				'es-es': "Pisotón",
+				'it-it': "Pestone",
+				'pt-br': "Pisotear",
+				'de-de': "Stampfer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
-				pt: "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
-				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
+				'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
 			},
 			damage: "10+",
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster.",
+		'en-us': "As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster.",
 	},
 
 	thirdParty: {

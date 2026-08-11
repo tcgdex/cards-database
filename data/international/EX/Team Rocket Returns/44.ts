@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Magmar",
-		de: "Magmar"
+		'en-us': "Magmar",
+		'de-de': "Magmar"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dump and Draw",
-				de: "Dump and Draw"
+				'en-us': "Dump and Draw",
+				'de-de': "Dump and Draw"
 			},
 			effect: {
-				en: "Discard up to 2 Energy cards from your hand. Then, draw 2 cards for each Energy card you discarded.",
-				de: "Discard up to 2 Energy cards from your hand. Then, draw 2 cards for each Energy card you discarded."
+				'en-us': "Discard up to 2 Energy cards from your hand. Then, draw 2 cards for each Energy card you discarded.",
+				'de-de': "Discard up to 2 Energy cards from your hand. Then, draw 2 cards for each Energy card you discarded."
 			},
 
 		},
@@ -46,8 +46,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flame Tail",
-				de: "Flame Tail"
+				'en-us': "Flame Tail",
+				'de-de': "Flame Tail"
 			},
 
 			damage: 40,

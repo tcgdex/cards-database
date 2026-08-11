@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "モモワロウex",
-		id: "Pecharunt ex",
-		th: "โมโมวาโร่ex",
+		'ja-jp': "モモワロウex",
+		'id-id': "Pecharunt ex",
+		'th-th': "โมโมวาโร่ex",
 		'zh-tw': "桃歹郎ex",
 		'zh-cn': "桃歹郎ex"
 	},
@@ -24,17 +24,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "しはいのくさり",
-			id: "Rantai Dominasi",
-			th: "‌‌ โซ่ครอบงำ",
+			'ja-jp': "しはいのくさり",
+			'id-id': "Rantai Dominasi",
+			'th-th': "‌‌ โซ่ครอบงำ",
 			'zh-tw': "支配鎖鏈",
 			'zh-cn': "支配鎖鏈"
 		},
 
 		effect: {
-			ja: "自分の番に1回使える。自分のベンチのポケモン（「モモワロウex」をのぞく）を1匹選び、バトルポケモンと入れ替える。その後、新しいバトルポケモンをどくにする。この番、すでに別の「しはいのくさり」を使っていたなら、この特性は使えない。",
-			id: "Dapat digunakan 1 kali pada giliran sendiri. Pilih 1 Pokémon {Kegelapan} (selain Pecharunt {ex}) di Cadangan sendiri, lalu tukar dengan Pokémon Bertarung. Setelah itu, ubah kondisi Pokémon Bertarung yang baru menjadi Racun. Jika pada giliran ini, Rantai Dominasi lainnya telah digunakan, Ability ini tidak dapat digunakan.",
-			th: "ใช้ได้ 1 ครั้งในเทิร์นฝ่ายเรา เลือกโปเกมอน[ความมืด]บนเบนช์ฝ่ายเรา (ยกเว้น [โมโมวาโร่【ex】]) 1 ตัว สลับกับโปเกมอนบนตำแหน่งต่อสู้ หลังจากนั้น ทำให้โปเกมอนใหม่บนตำแหน่งต่อสู้เป็นสภาวะ[พิษ] เทิร์นนี้ ถ้าใช้ [โซ่ครอบงำ] ใบอื่นไปแล้ว จะใช้ความสามารถนี้ไม่ได้",
+			'ja-jp': "自分の番に1回使える。自分のベンチのポケモン（「モモワロウex」をのぞく）を1匹選び、バトルポケモンと入れ替える。その後、新しいバトルポケモンをどくにする。この番、すでに別の「しはいのくさり」を使っていたなら、この特性は使えない。",
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri. Pilih 1 Pokémon {Kegelapan} (selain Pecharunt {ex}) di Cadangan sendiri, lalu tukar dengan Pokémon Bertarung. Setelah itu, ubah kondisi Pokémon Bertarung yang baru menjadi Racun. Jika pada giliran ini, Rantai Dominasi lainnya telah digunakan, Ability ini tidak dapat digunakan.",
+			'th-th': "ใช้ได้ 1 ครั้งในเทิร์นฝ่ายเรา เลือกโปเกมอน[ความมืด]บนเบนช์ฝ่ายเรา (ยกเว้น [โมโมวาโร่【ex】]) 1 ตัว สลับกับโปเกมอนบนตำแหน่งต่อสู้ หลังจากนั้น ทำให้โปเกมอนใหม่บนตำแหน่งต่อสู้เป็นสภาวะ[พิษ] เทิร์นนี้ ถ้าใช้ [โซ่ครอบงำ] ใบอื่นไปแล้ว จะใช้ความสามารถนี้ไม่ได้",
 			'zh-tw': "在自己的回合時可使用1次。選擇1隻自己的備戰區的【惡】寶可夢（「桃歹郎【ex】」除外），與戰鬥寶可夢互換。然後，將新的戰鬥寶可夢【中毒】。在這個回合，若已經使出了其他的「支配鎖鏈」，則這個特性無法使用。",
 			'zh-cn': "在自己的回合時可使用1次。選擇1隻自己的備戰區的【惡】寶可夢（「桃歹郎【ex】」除外），與戰鬥寶可夢互換。然後，將新的戰鬥寶可夢【中毒】。在這個回合，若已經使出了其他的「支配鎖鏈」，則這個特性無法使用。"
 		}
@@ -44,9 +44,9 @@ const card: Card = {
 		cost: ["Darkness", "Darkness"],
 
 		name: {
-			ja: "イライラバースト",
-			id: "Ledakan Marah-marah",
-			th: "หงุดหงิดระเบิด",
+			'ja-jp': "イライラバースト",
+			'id-id': "Ledakan Marah-marah",
+			'th-th': "หงุดหงิดระเบิด",
 			'zh-tw': "煩煩爆炸",
 			'zh-cn': "煩煩爆炸"
 		},
@@ -54,9 +54,9 @@ const card: Card = {
 		damage: "60×",
 
 		effect: {
-			ja: "相手がすでにとったサイドの枚数×60ダメージ。",
-			id: "Serangan ini memberikan kerusakan sejumlah 60 untuk tiap lembar Kartu Point yang telah diambil lawan.",
-			th: "แดเมจจะเท่ากับจำนวนการ์ดรางวัลที่ฝ่ายตรงข้ามหยิบไปแล้ว x60",
+			'ja-jp': "相手がすでにとったサイドの枚数×60ダメージ。",
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 60 untuk tiap lembar Kartu Point yang telah diambil lawan.",
+			'th-th': "แดเมจจะเท่ากับจำนวนการ์ดรางวัลที่ฝ่ายตรงข้ามหยิบไปแล้ว x60",
 			'zh-tw': "造成對手已經獲得的獎賞卡的張數×60點傷害。",
 			'zh-cn': "造成對手已經獲得的獎賞卡的張數×60點傷害。"
 		}

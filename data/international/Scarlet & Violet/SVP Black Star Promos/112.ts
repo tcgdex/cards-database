@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bisharp",
-		fr: "Scalproie",
-		es: "Bisharp",
-		it: "Bisharp",
-		pt: "Bisharp",
-		de: "Caesurio"
+		'en-us': "Bisharp",
+		'fr-fr': "Scalproie",
+		'es-es': "Bisharp",
+		'it-it': "Bisharp",
+		'pt-br': "Bisharp",
+		'de-de': "Caesurio"
 	},
 
 	rarity: "Promo",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Pawniard",
-		fr: "Scalpion",
-		es: "Pawniard",
-		it: "Pawniard",
-		pt: "Pawniard",
-		de: "Gladiantri"
+		'en-us': "Pawniard",
+		'fr-fr': "Scalpion",
+		'es-es': "Pawniard",
+		'it-it': "Pawniard",
+		'pt-br': "Pawniard",
+		'de-de': "Gladiantri"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Cut",
-			fr: "Coupe",
-			es: "Corte",
-			it: "Taglio",
-			pt: "Cortar",
-			de: "Zerschneider"
+			'en-us': "Cut",
+			'fr-fr': "Coupe",
+			'es-es': "Corte",
+			'it-it': "Taglio",
+			'pt-br': "Cortar",
+			'de-de': "Zerschneider"
 		},
 
 		damage: 30

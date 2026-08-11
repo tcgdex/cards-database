@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドータクン",
+		'ja-jp': "ドータクン",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが進化ポケモンから受けるワザのダメージは「-100」される。",
+				'ja-jp': "次の相手の番、このポケモンが進化ポケモンから受けるワザのダメージは「-100」される。",
 			},
 		},
 	],
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ドーミラー",
+		'ja-jp': "ドーミラー",
 	},
 
 	retreat: 3,

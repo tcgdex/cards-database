@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Popplio",
-		fr: "Otaquin"
+		'en-us': "Popplio",
+		'fr-fr': "Otaquin"
 	},
 
 	illustrator: "match",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "The balloons it inflates with its nose grow\nlarger and larger as it practices day by day.",
-		fr: "Grâce à son entraînement quotidien, les ballons qu'il gonfle avec son nez sont de plus en plus gros."
+		'en-us': "The balloons it inflates with its nose grow\nlarger and larger as it practices day by day.",
+		'fr-fr': "Grâce à son entraînement quotidien, les ballons qu'il gonfle avec son nez sont de plus en plus gros."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Watering",
-			fr: "Arrosage"
+			'en-us': "Watering",
+			'fr-fr': "Arrosage"
 		},
 
 		damage: 30,

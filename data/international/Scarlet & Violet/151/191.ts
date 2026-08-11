@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Lippoutou-ex",
-		en: "Jynx ex",
-		es: "Jynx ex",
-		it: "Jynx-ex",
-		pt: "Jynx ex",
-		de: "Rossana-ex"
+		'fr-fr': "Lippoutou-ex",
+		'en-us': "Jynx ex",
+		'es-es': "Jynx ex",
+		'it-it': "Jynx-ex",
+		'pt-br': "Jynx ex",
+		'de-de': "Rossana-ex"
 	},
 
 	rarity: "Ultra Rare",
@@ -24,41 +24,41 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Baiser Coup de Foudre",
-			en: "Heart-Stopping Kiss",
-			es: "Beso de Infarto",
-			it: "Bacio Fatale",
-			pt: "Beijo Arrasa Coração",
-			de: "Herzzerreißender Kuss"
+			'fr-fr': "Baiser Coup de Foudre",
+			'en-us': "Heart-Stopping Kiss",
+			'es-es': "Beso de Infarto",
+			'it-it': "Bacio Fatale",
+			'pt-br': "Beijo Arrasa Coração",
+			'de-de': "Herzzerreißender Kuss"
 		},
 
 		effect: {
-			fr: "Si le Pokémon Actif de votre adversaire est Endormi, il est mis K.O.",
-			en: "If your opponent's Active Pokémon is Asleep, it is Knocked Out.",
-			es: "Si el Pokémon Activo de tu rival está Dormido, queda Fuera de Combate.",
-			it: "Se il Pokémon attivo del tuo avversario è addormentato, viene messo KO.",
-			pt: "Se o Pokémon Ativo do seu oponente estiver Adormecido, ele será Nocauteado.",
-			de: "Wenn das Aktive Pokémon deines Gegners schläft, ist es kampfunfähig."
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est Endormi, il est mis K.O.",
+			'en-us': "If your opponent's Active Pokémon is Asleep, it is Knocked Out.",
+			'es-es': "Si el Pokémon Activo de tu rival está Dormido, queda Fuera de Combate.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è addormentato, viene messo KO.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente estiver Adormecido, ele será Nocauteado.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners schläft, ist es kampfunfähig."
 		}
 	}, {
 		cost: ["Water", "Water", "Water"],
 
 		name: {
-			fr: "Vent Glace",
-			en: "Icy Wind",
-			es: "Viento Hielo",
-			it: "Ventogelato",
-			pt: "Vento Congelante",
-			de: "Eissturm"
+			'fr-fr': "Vent Glace",
+			'en-us': "Icy Wind",
+			'es-es': "Viento Hielo",
+			'it-it': "Ventogelato",
+			'pt-br': "Vento Congelante",
+			'de-de': "Eissturm"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 		},
 
 		damage: 120

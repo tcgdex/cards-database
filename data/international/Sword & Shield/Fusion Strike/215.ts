@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Diggersby",
-		fr: "Excavarenne",
-		es: "Diggersby",
-		it: "Diggersby",
-		pt: "Diggersby",
-		de: "Grebbit"
+		'en-us': "Diggersby",
+		'fr-fr': "Excavarenne",
+		'es-es': "Diggersby",
+		'it-it': "Diggersby",
+		'pt-br': "Diggersby",
+		'de-de': "Grebbit"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Bunnelby",
-		fr: "Sapereau",
-		es: "Bunnelby",
-		it: "Bunnelby",
-		pt: "Bunnelby",
-		de: "Scoppel"
+		'en-us': "Bunnelby",
+		'fr-fr': "Sapereau",
+		'es-es': "Bunnelby",
+		'it-it': "Bunnelby",
+		'pt-br': "Bunnelby",
+		'de-de': "Scoppel"
 	},
 
 	stage: "Stage1",
@@ -40,19 +40,19 @@ const card: Card = {
 	illustrator: "MAHOU",
 
 	description: {
-		en: "The fur on its belly retains heat exceptionally well. People used to make heavy winter clothing from fur shed by this Pokémon."
+		'en-us': "The fur on its belly retains heat exceptionally well. People used to make heavy winter clothing from fur shed by this Pokémon."
 	},
 
 	attacks: [{
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			de: "Einhämmern",
-			es: "Martillear",
-			pt: "Martelada",
-			it: "Martello"
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'de-de': "Einhämmern",
+			'es-es': "Martillear",
+			'pt-br': "Martelada",
+			'it-it': "Martello"
 		},
 
 		damage: 80
@@ -60,23 +60,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Take Down",
-			fr: "Bélier",
-			de: "Bodycheck",
-			es: "Derribo",
-			pt: "Desmantelar",
-			it: "Riduttore"
+			'en-us': "Take Down",
+			'fr-fr': "Bélier",
+			'de-de': "Bodycheck",
+			'es-es': "Derribo",
+			'pt-br': "Desmantelar",
+			'it-it': "Riduttore"
 		},
 
 		damage: 150,
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso."
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso."
 		}
 	}],
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Blaziken",
-		fr: "Braségali",
-		es: "Blaziken",
-		it: "Blaziken",
-		pt: "Blaziken",
-		de: "Lohgock"
+		'en-us': "Blaziken",
+		'fr-fr': "Braségali",
+		'es-es': "Blaziken",
+		'it-it': "Blaziken",
+		'pt-br': "Blaziken",
+		'de-de': "Lohgock"
 	},
 
 	illustrator: "TOKIYA",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Combusken",
-		fr: "Galifeu"
+		'en-us': "Combusken",
+		'fr-fr': "Galifeu"
 	},
 
 	stage: "Stage2",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blaze Kick",
-				fr: "Pied Brûleur"
+				'en-us': "Blaze Kick",
+				'fr-fr': "Pied Brûleur"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage. If tails, the Defending Pokémon is now Burned.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires. Si c'est pile, le Pokémon Défenseur est maintenant Brûlé."
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage. If tails, the Defending Pokémon is now Burned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires. Si c'est pile, le Pokémon Défenseur est maintenant Brûlé."
 			},
 			damage: 40,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-Flamme"
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-Flamme"
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon."
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon."
 			},
 			damage: 130,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Flames spout from its wrists, enveloping its knuckles. Its punches scorch it foes.",
+		'en-us': "Flames spout from its wrists, enveloping its knuckles. Its punches scorch it foes.",
 	},
 
 	thirdParty: {

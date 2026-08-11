@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Frillish",
-		fr: "Viskuse",
-		es: "Frillish",
-		it: "Frillish",
-		pt: "Frillish",
-		de: "Quabbel"
+		'en-us': "Frillish",
+		'fr-fr': "Viskuse",
+		'es-es': "Frillish",
+		'it-it': "Frillish",
+		'pt-br': "Frillish",
+		'de-de': "Quabbel"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -36,8 +36,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse Vague",
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse Vague",
 			},
 
 			damage: 40,
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "If its veil-like arms stun and wrap a foe, that foe will be dragged miles below the surface, never to return.",
+		'en-us': "If its veil-like arms stun and wrap a foe, that foe will be dragged miles below the surface, never to return.",
 	},
 
 	thirdParty: {

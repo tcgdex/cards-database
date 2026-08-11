@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タマゲタケ",
+		'ja-jp': "タマゲタケ",
 		'zh-tw': "哎呀球菇",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "モンスターボールに よく 似た 模様の 意味や 理由は いまだに だれも わからない。",
+		'ja-jp': "モンスターボールに よく 似た 模様の 意味や 理由は いまだに だれも わからない。",
 		'zh-tw': "酷似精靈球的花紋究竟有什麼意義和理由， 至今仍沒有人能了解。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶつかる",
+				'ja-jp': "ぶつかる",
 				'zh-tw': "衝撞",
 			},
 			damage: 10,

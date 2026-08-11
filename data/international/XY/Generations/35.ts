@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Gengar",
-		fr: "Ectoplasma",
+		'en-us': "Gengar",
+		'fr-fr': "Ectoplasma",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Haunter",
-		fr: "Spectrum",
+		'en-us': "Haunter",
+		'fr-fr': "Spectrum",
 	},
 
 	stage: "Stage2",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Sinister Fog",
-				fr: "Brouillard Sinistre",
+				'en-us': "Sinister Fog",
+				'fr-fr': "Brouillard Sinistre",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned. Put 1 damage counter on each of your opponent's Benched Pokémon.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Placez 1 marqueur de dégâts sur chacun des Pokémon de Banc de votre adversaire.",
+				'en-us': "Your opponent's Active Pokémon is now Poisoned. Put 1 damage counter on each of your opponent's Benched Pokémon.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Placez 1 marqueur de dégâts sur chacun des Pokémon de Banc de votre adversaire.",
 			},
 
 		},
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Creep Show",
-				fr: "Spectacle Perturbant",
+				'en-us': "Creep Show",
+				'fr-fr': "Spectacle Perturbant",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon has 3 or more damage counters on it, that Pokémon is Knocked Out.",
-				fr: "Si le Pokémon Actif de votre adversaire a 3 marqueurs de dégâts ou plus, ce dernier est mis K.O.",
+				'en-us': "If your opponent's Active Pokémon has 3 or more damage counters on it, that Pokémon is Knocked Out.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire a 3 marqueurs de dégâts ou plus, ce dernier est mis K.O.",
 			},
 
 		},
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Hiding in people's shadows at night, it absorbs their heat. The chill it causes makes the victims shake.",
+		'en-us': "Hiding in people's shadows at night, it absorbs their heat. The chill it causes makes the victims shake.",
 	},
 
 	thirdParty: {

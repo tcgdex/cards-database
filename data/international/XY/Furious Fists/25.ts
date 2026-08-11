@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Amaura",
-		fr: "Amagara",
-		es: "Amaura",
-		it: "Amaura",
-		pt: "Amaura",
-		de: "Amarino"
+		'en-us': "Amaura",
+		'fr-fr': "Amagara",
+		'es-es': "Amaura",
+		'it-it': "Amaura",
+		'pt-br': "Amaura",
+		'de-de': "Amarino"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Stampede",
-				fr: "Ruée",
-				es: "Estampida",
-				it: "Fuggi Fuggi",
-				pt: "Estouro",
-				de: "Zertrampeln"
+				'en-us': "Stampede",
+				'fr-fr': "Ruée",
+				'es-es': "Estampida",
+				'it-it': "Fuggi Fuggi",
+				'pt-br': "Estouro",
+				'de-de': "Zertrampeln"
 			},
 
 			damage: 20,
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aurora Beam",
-				fr: "Onde Boréale",
-				es: "Rayo Aurora",
-				it: "Raggiaurora",
-				pt: "Raio Aurora",
-				de: "Aurorastrahl"
+				'en-us': "Aurora Beam",
+				'fr-fr': "Onde Boréale",
+				'es-es': "Rayo Aurora",
+				'it-it': "Raggiaurora",
+				'pt-br': "Raio Aurora",
+				'de-de': "Aurorastrahl"
 			},
 
 			damage: 50,
@@ -75,16 +75,16 @@ const card: Card = {
 	retreat: 3,
 
 	evolveFrom: {
-		en: "Sail Fossil",
-		fr: "Fossile Nageoire",
-		es: "Fósil Aleta",
-		it: "Fossilpinna",
-		pt: "Fóssil de Vela",
-		de: "Flossenfossil"
+		'en-us': "Sail Fossil",
+		'fr-fr': "Fossile Nageoire",
+		'es-es': "Fósil Aleta",
+		'it-it': "Fossilpinna",
+		'pt-br': "Fóssil de Vela",
+		'de-de': "Flossenfossil"
 	},
 
 	description: {
-		en: "This ancient Pokémon was restored from part of its body that had been frozen in ice for over 100 million years.",
+		'en-us': "This ancient Pokémon was restored from part of its body that had been frozen in ice for over 100 million years.",
 	},
 
 	thirdParty: {

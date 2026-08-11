@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "なんでもなおし",
+		'ja-jp': "なんでもなおし",
 	},
 
 	illustrator: "Yoshinobu Saito",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のバトルポケモンの特殊状態を、すべて回復する。",
+		'ja-jp': "自分のバトルポケモンの特殊状態を、すべて回復する。",
 	},
 
 	variants: [

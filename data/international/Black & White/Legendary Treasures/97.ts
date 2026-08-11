@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Deino",
+		'en-us': "Deino",
 	},
 
 	illustrator: "Akira Komayama",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Deep Growl",
+				'en-us': "Deep Growl",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 
 		},
@@ -42,10 +42,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Power Breath",
+				'en-us': "Power Breath",
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
+				'en-us': "Discard an Energy attached to this Pokémon.",
 			},
 			damage: 30,
 
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It tends to bite everything, and it is not a picky eater. Approaching it carelessly is dangerous.",
+		'en-us': "It tends to bite everything, and it is not a picky eater. Approaching it carelessly is dangerous.",
 	},
 
 	thirdParty: {

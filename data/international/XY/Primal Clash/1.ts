@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Weedle",
-		fr: "Aspicot",
-		es: "Weedle",
-		it: "Weedle",
-		pt: "Weedle",
-		de: "Hornliu"
+		'en-us': "Weedle",
+		'fr-fr': "Aspicot",
+		'es-es': "Weedle",
+		'it-it': "Weedle",
+		'pt-br': "Weedle",
+		'de-de': "Hornliu"
 	},
 
 	illustrator: "Midori Harada",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Multiply",
-				fr: "Multiplication",
-				es: "Multiplicar",
-				it: "Moltiplicazione",
-				pt: "Multiplicar",
-				de: "Vervielfachung"
+				'en-us': "Multiply",
+				'fr-fr': "Multiplication",
+				'es-es': "Multiplicar",
+				'it-it': "Moltiplicazione",
+				'pt-br': "Multiplicar",
+				'de-de': "Vervielfachung"
 			},
 			effect: {
-				en: "Search your deck for Weedle and put it onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez Aspicot dans votre deck et placez-le sur votre Banc. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja 1 Weedle y ponlo en tu Banca. Baraja las cartas de tu baraja después.",
-				it: "Cerca Weedle nel tuo mazzo e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure em seu baralho por Weedle e coloque-o no seu Banco. Em seguida, embaralhe seus cards.",
-				de: "Durchsuche dein Deck nach Hornliu und lege es auf deine Bank. Mische anschließend dein Deck."
+				'en-us': "Search your deck for Weedle and put it onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez Aspicot dans votre deck et placez-le sur votre Banc. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja 1 Weedle y ponlo en tu Banca. Baraja las cartas de tu baraja después.",
+				'it-it': "Cerca Weedle nel tuo mazzo e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure em seu baralho por Weedle e coloque-o no seu Banco. Em seguida, embaralhe seus cards.",
+				'de-de': "Durchsuche dein Deck nach Hornliu und lege es auf deine Bank. Mische anschließend dein Deck."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",
+		'en-us': "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eevee V",
-		fr: "Évoli V",
-		es: "Eevee V",
-		it: "Eevee V",
-		pt: "Eevee V",
-		de: "Evoli V"
+		'en-us': "Eevee V",
+		'fr-fr': "Évoli V",
+		'es-es': "Eevee V",
+		'it-it': "Eevee V",
+		'pt-br': "Eevee V",
+		'de-de': "Evoli V"
 	},
 
 	illustrator: "You Iribi",
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 30
@@ -39,21 +39,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Vee Brave",
-			fr: "Vraiment Vaillant",
-			es: "Atre-Veedo",
-			it: "Audace V",
-			pt: "Bravo V",
-			de: "V-Kühnheit"
+			'en-us': "Vee Brave",
+			'fr-fr': "Vraiment Vaillant",
+			'es-es': "Atre-Veedo",
+			'it-it': "Audace V",
+			'pt-br': "Bravo V",
+			'de-de': "V-Kühnheit"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a Pokémon V, this attack does 80 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-V, cette attaque inflige 80 dégâts supplémentaires.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon V, este ataque hace 80 puntos de daño más.",
-			it: "Se il Pokémon attivo del tuo avversario è un Pokémon-V, questo attacco infligge 80 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon V, este ataque causará 80 pontos de dano a mais.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Pokémon-V ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
+			'en-us': "If your opponent's Active Pokémon is a Pokémon V, this attack does 80 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon-V, cette attaque inflige 80 dégâts supplémentaires.",
+			'es-es': "Si el Pokémon Activo de tu rival es un Pokémon V, este ataque hace 80 puntos de daño más.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon-V, questo attacco infligge 80 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon V, este ataque causará 80 pontos de dano a mais.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners ein Pokémon-V ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+"

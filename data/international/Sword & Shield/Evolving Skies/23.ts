@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Pyroar",
-		fr: "Némélios",
-		es: "Pyroar",
-		it: "Pyroar",
-		pt: "Pyroar",
-		de: "Pyroleo"
+		'en-us': "Pyroar",
+		'fr-fr': "Némélios",
+		'es-es': "Pyroar",
+		'it-it': "Pyroar",
+		'pt-br': "Pyroar",
+		'de-de': "Pyroleo"
 	},
 
 	rarity: "Uncommon",
@@ -23,33 +23,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Combustion",
-			fr: "Fournaise",
-			es: "Combustión",
-			it: "Fuoco Continuo",
-			pt: "Combustion",
-			de: "Glühen"
+			'en-us': "Combustion",
+			'fr-fr': "Fournaise",
+			'es-es': "Combustión",
+			'it-it': "Fuoco Continuo",
+			'pt-br': "Combustion",
+			'de-de': "Glühen"
 		},
 
 		damage: 30,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Rip Claw",
-			fr: "Griffe Déchirante",
-			es: "Garra Arrebatadora",
-			it: "Strappartiglio",
-			pt: "Rip Claw",
-			de: "Reißklaue"
+			'en-us': "Rip Claw",
+			'fr-fr': "Griffe Déchirante",
+			'es-es': "Garra Arrebatadora",
+			'it-it': "Strappartiglio",
+			'pt-br': "Rip Claw",
+			'de-de': "Reißklaue"
 		},
 
 		effect: {
-			en: "Discard an Energy from your opponent's Active Pokémon.",
-			fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
-			es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-			it: "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
-			pt: "Discard an Energy from your opponent's Active Pokémon.",
-			de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+			'en-us': "Discard an Energy from your opponent's Active Pokémon.",
+			'fr-fr': "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			'es-es': "Descarta 1 Energía del Pokémon Activo de tu rival.",
+			'it-it': "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			'pt-br': "Discard an Energy from your opponent's Active Pokémon.",
+			'de-de': "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 70,
@@ -64,16 +64,16 @@ const card: Card = {
 	retreat: 2,
 
 	evolveFrom: {
-		en: "Litleo",
-		fr: "Hélionceau",
-		es: "Litleo",
-		it: "Litleo",
-		pt: "Litleo",
-		de: "Leufeo"
+		'en-us': "Litleo",
+		'fr-fr': "Hélionceau",
+		'es-es': "Litleo",
+		'it-it': "Litleo",
+		'pt-br': "Litleo",
+		'de-de': "Leufeo"
 	},
 
 	description: {
-		en: "The temperature of its breath is over 10,000 degrees Fahrenheit, but Pyroar doesn't use it on its prey. This Pokémon prefers to eat raw meat."
+		'en-us': "The temperature of its breath is over 10,000 degrees Fahrenheit, but Pyroar doesn't use it on its prey. This Pokémon prefers to eat raw meat."
 	},
 
 	dexId: [668],

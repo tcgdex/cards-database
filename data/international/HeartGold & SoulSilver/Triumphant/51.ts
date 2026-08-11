@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Unown",
-		fr: "Zarbi",
-		de: "Icognito"
+		'en-us': "Unown",
+		'fr-fr': "Zarbi",
+		'de-de': "Icognito"
 	},
 
 	illustrator: "Hideaki Hakozaki",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "CURE",
-				fr: "GUÉRISON",
-				de: "CURE"
+				'en-us': "CURE",
+				'fr-fr': "GUÉRISON",
+				'de-de': "CURE"
 			},
 			effect: {
-				en: "Once during your turn, when you put Unown from your hand onto your Bench, remove all Special Conditions from your Active Pokémon.",
-				fr: "Une seule fois pendant votre tour, lorsque vous placez Zarbi de votre main sur votre Banc, retirez tous les États Spéciaux à votre Pokémon Actif.",
-				de: "Einmal während deines Zuges kannst du, wenn du Icognito von deiner Hand auf deine Bank legst, alle Speziellen Zustände von deinem Aktiven Pokémon entfernen."
+				'en-us': "Once during your turn, when you put Unown from your hand onto your Bench, remove all Special Conditions from your Active Pokémon.",
+				'fr-fr': "Une seule fois pendant votre tour, lorsque vous placez Zarbi de votre main sur votre Banc, retirez tous les États Spéciaux à votre Pokémon Actif.",
+				'de-de': "Einmal während deines Zuges kannst du, wenn du Icognito von deiner Hand auf deine Bank legst, alle Speziellen Zustände von deinem Aktiven Pokémon entfernen."
 			}
 		},
 	],
@@ -45,9 +45,9 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hidden Power",
-				fr: "Puissance cachée",
-				de: "Kraftreserve"
+				'en-us': "Hidden Power",
+				'fr-fr': "Puissance cachée",
+				'de-de': "Kraftreserve"
 			},
 
 			damage: 10,
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its flat, thin body is always stuck on walls. Its shape appears to have some meaning."
+		'en-us': "Its flat, thin body is always stuck on walls. Its shape appears to have some meaning."
 	},
 
 	variants: [

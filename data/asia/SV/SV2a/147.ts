@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミニリュウ",
+		'ja-jp': "ミニリュウ",
 		'zh-tw': "迷你龍",
-		th: "มินิริว",
-		id: "Dratini",
+		'th-th': "มินิริว",
+		'id-id': "Dratini",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -16,10 +16,10 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "激しく 流れ落ちる 滝に 守られながら 脱皮を 繰り返し どんどん 大きくなる。",
+		'ja-jp': "激しく 流れ落ちる 滝に 守られながら 脱皮を 繰り返し どんどん 大きくなる。",
 		'zh-tw': "會在直瀉而下的瀑布保護下反覆蛻皮， 使身體變得越來越大。",
-		th: "ขณะที่ถูกปกป้องด้วยน้ำตกที่ไหลแรง ก็จะลอกคราบไปเรื่อย ๆ จนค่อย ๆ โตขึ้น",
-		id: "Sambil dilindungi air terjun yang mengalir deras, Dratini terus-menerus berganti kulit dan tumbuh membesar.",
+		'th-th': "ขณะที่ถูกปกป้องด้วยน้ำตกที่ไหลแรง ก็จะลอกคราบไปเรื่อย ๆ จนค่อย ๆ โตขึ้น",
+		'id-id': "Sambil dilindungi air terjun yang mengalir deras, Dratini terus-menerus berganti kulit dan tumbuh membesar.",
 	},
 
 	stage: "Basic",
@@ -27,20 +27,20 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "たたく",
+				'ja-jp': "たたく",
 				'zh-tw': "敲擊",
-				th: "ตี",
-				id: "Menghantam",
+				'th-th': "ตี",
+				'id-id': "Menghantam",
 			},
 			damage: 10,
 			cost: ["Water"],
 		},
 		{
 			name: {
-				ja: "ドラゴンウィップ",
+				'ja-jp': "ドラゴンウィップ",
 				'zh-tw': "龍之鞭打",
-				th: "ดรากอนวิป",
-				id: "Dragon Whip",
+				'th-th': "ดรากอนวิป",
+				'id-id': "Dragon Whip",
 			},
 			damage: 40,
 			cost: ["Water", "Lightning"],

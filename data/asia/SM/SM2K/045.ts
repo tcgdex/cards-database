@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オオスバメ",
+		'ja-jp': "オオスバメ",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "２本の 尾羽が ピンと 立って いれば 健康な 証拠。 優雅に 大空を 飛び回る。",
+		'ja-jp': "２本の 尾羽が ピンと 立って いれば 健康な 証拠。 優雅に 大空を 飛び回る。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "40+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "前の自分の番、このポケモンが「こうそくいどう」を使っていたなら、80ダメージ追加。",
+				'ja-jp': "前の自分の番、このポケモンが「こうそくいどう」を使っていたなら、80ダメージ追加。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "スバメ",
+		'ja-jp': "スバメ",
 	},
 
 	retreat: 1,

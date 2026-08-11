@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Heatran",
-		fr: "Heatran",
-		es: "Heatran",
-		pt: "Heatran",
-		it: "Heatran",
-		de: "Heatran"
+		'en-us': "Heatran",
+		'fr-fr': "Heatran",
+		'es-es': "Heatran",
+		'pt-br': "Heatran",
+		'it-it': "Heatran",
+		'de-de': "Heatran"
 	},
 
 	rarity: "Uncommon",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			en: "Wrack Down",
-			fr: "Réduire en Poussière",
-			es: "Desmoronar",
-			pt: "Desmoronar",
-			it: "Abbattere",
-			de: "Niederschleudern"
+			'en-us': "Wrack Down",
+			'fr-fr': "Réduire en Poussière",
+			'es-es': "Desmoronar",
+			'pt-br': "Desmoronar",
+			'it-it': "Abbattere",
+			'de-de': "Niederschleudern"
 		},
 
 		damage: 40
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Metal", "Metal", "Colorless"],
 
 		name: {
-			en: "Iron Buster",
-			fr: "Buster de Fer",
-			es: "Destructor Férreo",
-			pt: "Destruidor Férreo",
-			it: "Ferro Distruttivo",
-			de: "Eisensprenger"
+			'en-us': "Iron Buster",
+			'fr-fr': "Buster de Fer",
+			'es-es': "Destructor Férreo",
+			'pt-br': "Destruidor Férreo",
+			'it-it': "Ferro Distruttivo",
+			'de-de': "Eisensprenger"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 130

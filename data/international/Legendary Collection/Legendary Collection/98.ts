@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Vulpix"
+		'en-us': "Vulpix"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -28,10 +28,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Confuse Ray"
+				'en-us': "Confuse Ray"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 10,
 
@@ -48,7 +48,7 @@ const card: Card = {
 
 
 	description: {
-		en: "At the time of birth, it has just one tail. Its tail splits from the tip as it grows older."
+		'en-us': "At the time of birth, it has just one tail. Its tail splits from the tip as it grows older."
 	},
 
 	variants: [

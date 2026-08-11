@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Volbeat"
+		'id-id': "Volbeat"
 	},
 
 	illustrator: "Orca",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Volbeat mengedipkan cahaya di posteriornya untuk berkomunikasi dengan sesamanya. Ia sangat menyukai aroma manis yang dikeluarkan Illumise."
+		'id-id': "Volbeat mengedipkan cahaya di posteriornya untuk berkomunikasi dengan sesamanya. Ia sangat menyukai aroma manis yang dikeluarkan Illumise."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Fast Sign"
+			'id-id': "Fast Sign"
 		},
 
 		effect: {
-			id: "Serangan ini juga dapat digunakan pada giliran pertama Pemain Pertama. Pilih paling banyak 2 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
+			'id-id': "Serangan ini juga dapat digunakan pada giliran pertama Pemain Pertama. Pilih paling banyak 2 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Serangan Kerja Sama"
+			'id-id': "Serangan Kerja Sama"
 		},
 
 		effect: {
-			id: "Jika ada Illumise di Cadangan sendiri, kerusakan yang diberikan bertambah sejumlah 60."
+			'id-id': "Jika ada Illumise di Cadangan sendiri, kerusakan yang diberikan bertambah sejumlah 60."
 		},
 
 		damage: "20+",

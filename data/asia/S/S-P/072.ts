@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナックラー",
+		'ja-jp': "ナックラー",
 		'zh-tw': "伊布",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "砂漠に つくられた 巣穴は すり鉢の 形を しているので 落ちてしまうと 脱出不可能。",
+		'ja-jp': "砂漠に つくられた 巣穴は すり鉢の 形を しているので 落ちてしまうと 脱出不可能。",
 		'zh-tw': "由於不穩定的基因，蘊含著各式各樣進化可能性的特殊寶可夢。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "だいちのこどう",
+				'ja-jp': "だいちのこどう",
 				'zh-tw': "準備",
 			},
 			damage: "10+",
 			cost: ["Fighting"],
 			effect: {
-				ja: "場にスタジアムが出ているなら、10ダメージ追加。",
+				'ja-jp': "場にスタジアムが出ているなら、10ダメージ追加。",
 				'zh-tw': "從自己的手牌選擇1張基本能量卡，附於這隻寶可夢身上。",
 			},
 		},

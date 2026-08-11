@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シュシュプ",
+		'ja-jp': "シュシュプ",
 	},
 
 	illustrator: "MAHOU",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "かいだ 者を うっとりさせる 香りを 体から 漂わせる。 食べた もので 香りが 変わる。",
+		'ja-jp': "かいだ 者を うっとりさせる 香りを 体から 漂わせる。 食べた もので 香りが 変わる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ひとやすみ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「20」回復する。",
+				'ja-jp': "このポケモンのHPを「20」回復する。",
 			},
 		},
 		{

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Best of game'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rocket’s Scizor"
+		'en-us': "Rocket’s Scizor"
 	},
 
 	illustrator: "K. Hoshiba",
@@ -21,23 +21,23 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Focus"
+			'en-us': "Focus"
 		},
 
 		effect: {
-			en: "During your next turn, Rocket’s Scizor’s Agility attack’s damage is doubled."
+			'en-us': "During your next turn, Rocket’s Scizor’s Agility attack’s damage is doubled."
 		}
 	}, {
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		name: {
-			en: "Agility"
+			'en-us': "Agility"
 		},
 
 		damage: 20,
 
 		effect: {
-			en: "Flip a coin. If heads, during your opponent’s next turn, prevent all effects of attacks, including damage, done to Rocket’s Scizor."
+			'en-us': "Flip a coin. If heads, during your opponent’s next turn, prevent all effects of attacks, including damage, done to Rocket’s Scizor."
 		}
 	}],
 	weaknesses: [

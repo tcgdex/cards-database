@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Delcatty"
+		'en-us': "Delcatty"
 	},
 
 	illustrator: "Sekio",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Skitty"
+		'en-us': "Skitty"
 	},
 
 	description: {
-		en: "It is highly popular among female Trainers for its\nsublime fur. It does not keep a nest."
+		'en-us': "It is highly popular among female Trainers for its\nsublime fur. It does not keep a nest."
 	},
 
 	stage: "Stage1",
@@ -30,17 +30,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Search for Friends"
+			'en-us': "Search for Friends"
 		},
 
 		effect: {
-			en: "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may put a Supporter card from your discard pile into your hand."
+			'en-us': "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may put a Supporter card from your discard pile into your hand."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Cat Kick"
+			'en-us': "Cat Kick"
 		},
 
 		damage: 40,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガラル マッスグマ",
+		'ja-jp': "ガラル マッスグマ",
 	},
 
 	illustrator: "Tomowaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "長い舌で 獲物を 挑発。 怒った 相手に 強烈な タックルを おみまい するぞ。",
+		'ja-jp': "長い舌で 獲物を 挑発。 怒った 相手に 強烈な タックルを おみまい するぞ。",
 	},
 
 	stage: "Stage1",
@@ -58,7 +58,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ガラル ジグザグマ",
+		'ja-jp': "ガラル ジグザグマ",
 	},
 
 	retreat: 2,

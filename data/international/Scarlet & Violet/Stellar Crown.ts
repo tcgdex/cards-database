@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Scarlet & Violet'
 
 const set: Set = {
 	id: "sv07",
 
 	name: {
-		de: "Stellarkrone",
-		en: "Stellar Crown",
-		es: "Corona Astral",
-		fr: "Couronne Stellaire",
-		it: "Corona Astrale",
-		pt: "Coroa Estelar"
+		'de-de': "Stellarkrone",
+		'en-us': "Stellar Crown",
+		'es-es': "Corona Astral",
+		'fr-fr': "Couronne Stellaire",
+		'it-it': "Corona Astrale",
+		'pt-br': "Coroa Estelar"
 	},
 
 	serie: serie,

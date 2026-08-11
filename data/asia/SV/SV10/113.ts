@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハルクジラex",
+		'ja-jp': "ハルクジラex",
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ゆきにまぎれる" },
 			effect: {
-				ja: "このポケモンは、相手が手札からグッズまたはサポートを出して使ったとき、その効果を受けない。",
+				'ja-jp': "このポケモンは、相手が手札からグッズまたはサポートを出して使ったとき、その効果を受けない。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "140+",
 			cost: ["Water", "Water", "Water", "Colorless"],
 			effect: {
-				ja: "のぞむなら、場に出ているスタジアムをトラッシュする。その場合、140ダメージ追加。",
+				'ja-jp': "のぞむなら、場に出ているスタジアムをトラッシュする。その場合、140ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アルクジラ",
+		'ja-jp': "アルクジラ",
 	},
 
 	retreat: 4,

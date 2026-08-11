@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Gloom",
-		fr: "Ortide",
-		de: "Duflor"
+		'en-us': "Gloom",
+		'fr-fr': "Ortide",
+		'de-de': "Duflor"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Oddish",
-		fr: "Myrapla",
+		'en-us': "Oddish",
+		'fr-fr': "Myrapla",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Space Out",
-				fr: "Sonné",
-				de: "Abdriften"
+				'en-us': "Space Out",
+				'fr-fr': "Sonné",
+				'de-de': "Abdriften"
 			},
 			effect: {
-				en: "Remove 2 damage counters from Gloom. Gloom is now Asleep.",
-				fr: "Retirez à Ortide 2 marqueurs de dégât. Ortide est maintenant Endormi.",
-				de: "Entferne 2 Schadensmarken von Duflor. Duflor schläft jetzt."
+				'en-us': "Remove 2 damage counters from Gloom. Gloom is now Asleep.",
+				'fr-fr': "Retirez à Ortide 2 marqueurs de dégât. Ortide est maintenant Endormi.",
+				'de-de': "Entferne 2 Schadensmarken von Duflor. Duflor schläft jetzt."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stinky Nectar",
-				fr: "Nectar puant",
-				de: "Stinkender Nektar"
+				'en-us': "Stinky Nectar",
+				'fr-fr': "Nectar puant",
+				'de-de': "Stinkender Nektar"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus et Empoisonné.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt und vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus et Empoisonné.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt und vergiftet."
 			},
 			damage: 30,
 
@@ -75,8 +75,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
-		fr: "L'odeur du nectar de sa bouche est si répugnante qu'elle agresse les narines à deux kilomètres."
+		'en-us': "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
+		'fr-fr': "L'odeur du nectar de sa bouche est si répugnante qu'elle agresse les narines à deux kilomètres."
 	},
 
 	thirdParty: {

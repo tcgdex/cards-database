@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Bronzong"
+		'id-id': "Bronzong"
 	},
 
 	illustrator: "Katsunori Sato",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Bronzong dipuja sejak zaman dahulu sebagai Pokémon pemanggil awan hujan. Kadang Pokémon ini terkubur di permukaan tanah."
+		'id-id': "Bronzong dipuja sejak zaman dahulu sebagai Pokémon pemanggil awan hujan. Kadang Pokémon ini terkubur di permukaan tanah."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Pengacak Evolusi"
+			'id-id': "Pengacak Evolusi"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, lawan tidak dapat melakukan evolusi dengan memasukkan Pokémon dari Kartu Pegangan."
+			'id-id': "Pada giliran lawan berikutnya, lawan tidak dapat melakukan evolusi dengan memasukkan Pokémon dari Kartu Pegangan."
 		},
 
 		damage: 30,
 		cost: ["Psychic"]
 	}, {
 		name: {
-			id: "Psikokinesis Super"
+			'id-id': "Psikokinesis Super"
 		},
 
 		damage: 100,

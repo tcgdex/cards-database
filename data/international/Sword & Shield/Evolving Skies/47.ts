@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Eiscue",
-		fr: "Bekaglaçon",
-		es: "Eiscue",
-		it: "Eiscue",
-		pt: "Eiscue",
-		de: "Kubuin"
+		'en-us': "Eiscue",
+		'fr-fr': "Bekaglaçon",
+		'es-es': "Eiscue",
+		'it-it': "Eiscue",
+		'pt-br': "Eiscue",
+		'de-de': "Kubuin"
 	},
 
 	rarity: "Uncommon",
@@ -23,33 +23,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Icy Snow",
-			fr: "Verglas",
-			es: "Nieve Helada",
-			it: "Geloneve",
-			pt: "Icy Snow",
-			de: "Eisiger Schnee"
+			'en-us': "Icy Snow",
+			'fr-fr': "Verglas",
+			'es-es': "Nieve Helada",
+			'it-it': "Geloneve",
+			'pt-br': "Icy Snow",
+			'de-de': "Eisiger Schnee"
 		},
 
 		damage: 20,
 		cost: ["Water"]
 	}, {
 		name: {
-			en: "Blockface",
-			fr: "Tête de Bloc",
-			es: "Carabloque",
-			it: "Cubofaccia",
-			pt: "Blockface",
-			de: "Blockkopf"
+			'en-us': "Blockface",
+			'fr-fr': "Tête de Bloc",
+			'es-es': "Carabloque",
+			'it-it': "Cubofaccia",
+			'pt-br': "Blockface",
+			'de-de': "Blockkopf"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon.",
-			fr: "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon de base.",
-			es: "Durante el próximo turno de tu rival, evita todo el daño infligido a este Pokémon por ataques de Pokémon Básicos.",
-			it: "Durante il prossimo turno del tuo avversario, previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon Base.",
-			pt: "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon.",
-			de: "Verhindere während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken von Basis-Pokémon zugefügt wird."
+			'en-us': "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon de base.",
+			'es-es': "Durante el próximo turno de tu rival, evita todo el daño infligido a este Pokémon por ataques de Pokémon Básicos.",
+			'it-it': "Durante il prossimo turno del tuo avversario, previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon Base.",
+			'pt-br': "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon.",
+			'de-de': "Verhindere während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken von Basis-Pokémon zugefügt wird."
 		},
 
 		damage: 70,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This Pokémon keeps its heat-sensitive head cool with ice. It fishes for its food, dangling its single hair into the sea to lure in prey."
+		'en-us': "This Pokémon keeps its heat-sensitive head cool with ice. It fishes for its food, dangling its single hair into the sea to lure in prey."
 	},
 
 	dexId: [875],

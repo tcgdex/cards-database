@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pitch Black"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Litwick",
-		fr: "Funécire",
-		es: "Litwick",
+		'en-us': "Litwick",
+		'fr-fr': "Funécire",
+		'es-es': "Litwick",
 		'es-mx': "Litwick",
-		de: "Lichtel",
-		it: "Litwick",
-		pt: "Litwick"
+		'de-de': "Lichtel",
+		'it-it': "Litwick",
+		'pt-br': "Litwick"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -24,13 +24,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Will-O-Wisp",
-			fr: "Feu Follet",
-			es: "Fuego Fatuo",
+			'en-us': "Will-O-Wisp",
+			'fr-fr': "Feu Follet",
+			'es-es': "Fuego Fatuo",
 			'es-mx': "Fuego Fatuo",
-			de: "Irrlicht",
-			it: "Fuocofatuo",
-			pt: "Fogo Fátuo"
+			'de-de': "Irrlicht",
+			'it-it': "Fuocofatuo",
+			'pt-br': "Fogo Fátuo"
 		},
 
 		cost: ["Psychic"],

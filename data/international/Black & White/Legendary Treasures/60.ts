@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Kirlia",
+		'en-us': "Kirlia",
 	},
 
 	illustrator: "Yukiko Baba",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ralts",
+		'en-us': "Ralts",
 	},
 
 	stage: "Stage1",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mind Bend",
+				'en-us': "Mind Bend",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 			},
 			damage: 20,
 
@@ -49,7 +49,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spinning Attack",
+				'en-us': "Spinning Attack",
 			},
 
 			damage: 40,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
+		'en-us': "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
 	},
 
 	thirdParty: {

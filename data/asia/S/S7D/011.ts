@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プクリン",
+		'ja-jp': "プクリン",
 		'zh-tw': "胖可丁",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "怒ると 思いっきり 息を 吸い込み どんどん 膨らんでいく。 なんと ２０倍に なることもある。",
+		'ja-jp': "怒ると 思いっきり 息を 吸い込み どんどん 膨らんでいく。 なんと ２０倍に なることもある。",
 		'zh-tw': "生氣時會拼命吸氣，讓自己的身體不斷膨脹。有時甚至能脹大到原來的２０倍。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "たからをみつける",
+				'ja-jp': "たからをみつける",
 				'zh-tw': "發現寶物",
 			},
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。",
 				'zh-tw': "從自己的牌庫任意選擇最多2張卡加入手牌。並且重洗牌庫。",
 			},
 		},
 		{
 			name: {
-				ja: "ハイパーボイス",
+				'ja-jp': "ハイパーボイス",
 				'zh-tw': "巨聲",
 			},
 			damage: 90,
@@ -56,7 +56,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "プリン",
+		'ja-jp': "プリン",
 	},
 
 	retreat: 2,

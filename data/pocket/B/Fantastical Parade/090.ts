@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [697],
 
 	name: {
-		en: "Tyrantrum"
+		'en-us': "Tyrantrum"
 	},
 
 	illustrator: "hatachu",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Tyrunt"
+		'en-us': "Tyrunt"
 	},
 
 	description: {
-		en: "A single bite of Tyrantrum's massive jaws will\ndemolish a car. This Pokémon was the king of the\nancient world."
+		'en-us': "A single bite of Tyrantrum's massive jaws will\ndemolish a car. This Pokémon was the king of the\nancient world."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Tyrannical Fang"
+			'en-us': "Tyrannical Fang"
 		},
 
 		damage: 100,
 		cost: ["Fighting", "Fighting", "Fighting"],
 
 		effect: {
-			en: "If you have fewer Pokémon in play than your opponent, this attack does 80 more damage."
+			'en-us': "If you have fewer Pokémon in play than your opponent, this attack does 80 more damage."
 		}
 	}],
 

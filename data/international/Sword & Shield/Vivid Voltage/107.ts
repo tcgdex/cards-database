@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [551],
 
 	name: {
-		en: "Sandile",
-		fr: "Mascaïman",
-		es: "Sandile",
-		it: "Sandile",
-		pt: "Sandile",
-		de: "Ganovil"
+		'en-us': "Sandile",
+		'fr-fr': "Mascaïman",
+		'es-es': "Sandile",
+		'it-it': "Sandile",
+		'pt-br': "Sandile",
+		'de-de': "Ganovil"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -32,20 +32,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dredge Up",
-				fr: "Extraction",
-				es: "Ventilar",
-				it: "Dragaggio",
-				pt: "Dragar",
-				de: "Ausbaggern"
+				'en-us': "Dredge Up",
+				'fr-fr': "Extraction",
+				'es-es': "Ventilar",
+				'it-it': "Dragaggio",
+				'pt-br': "Dragar",
+				'de-de': "Ausbaggern"
 			},
 			effect: {
-				en: "Discard the top 3 cards of your opponent's deck.",
-				fr: "Défaussez les 3 cartes du dessus du deck de votre adversaire.",
-				es: "Descarta las 3 primeras cartas de la baraja de tu rival.",
-				it: "Scarta le prime tre carte del mazzo del tuo avversario.",
-				pt: "Descarte as 3 cartas de cima do baralho do seu oponente.",
-				de: "Lege die obersten 3 Karten des Decks deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard the top 3 cards of your opponent's deck.",
+				'fr-fr': "Défaussez les 3 cartes du dessus du deck de votre adversaire.",
+				'es-es': "Descarta las 3 primeras cartas de la baraja de tu rival.",
+				'it-it': "Scarta le prime tre carte del mazzo del tuo avversario.",
+				'pt-br': "Descarte as 3 cartas de cima do baralho do seu oponente.",
+				'de-de': "Lege die obersten 3 Karten des Decks deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -65,7 +65,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Sandile's still not good at hunting, so it mostly eats things that have collapsed in the desert. It's called \"the cleaner of the desert.\""
+		'en-us': "Sandile's still not good at hunting, so it mostly eats things that have collapsed in the desert. It's called \"the cleaner of the desert.\""
 	},
 
 	variants: [

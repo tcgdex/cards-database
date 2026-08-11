@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Têtampoule",
-		en: "Tadbulb",
-		es: "Tadbulb",
-		it: "Tadbulb",
-		pt: "Tadbulb",
-		de: "Blipp"
+		'fr-fr': "Têtampoule",
+		'en-us': "Tadbulb",
+		'es-es': "Tadbulb",
+		'it-it': "Tadbulb",
+		'pt-br': "Tadbulb",
+		'de-de': "Blipp"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Ruée",
-			en: "Stampede",
-			es: "Estampida",
-			it: "Fuggi Fuggi",
-			pt: "Estouro",
-			de: "Zertrampeln"
+			'fr-fr': "Ruée",
+			'en-us': "Stampede",
+			'es-es': "Estampida",
+			'it-it': "Fuggi Fuggi",
+			'pt-br': "Estouro",
+			'de-de': "Zertrampeln"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Lightning", "Lightning"],
 
 		name: {
-			fr: "Choc Statique",
-			en: "Static Shock",
-			es: "Impacto Estático",
-			it: "Shock Statico",
-			pt: "Choque de Estática",
-			de: "Statischer Schock"
+			'fr-fr': "Choc Statique",
+			'en-us': "Static Shock",
+			'es-es': "Impacto Estático",
+			'it-it': "Shock Statico",
+			'pt-br': "Choque de Estática",
+			'de-de': "Statischer Schock"
 		},
 
 		damage: 30
@@ -79,7 +79,7 @@ const card: Card = {
 	illustrator: "Tika Matsuno",
 
 	description: {
-		en: "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.",
+		'en-us': "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.",
 	},
 }
 

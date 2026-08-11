@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
     set: Set,
 
 	name: {
-		en: "Tinkatink",
-		fr: "Forgerette",
-		de: "Forgita",
-		it: "Tinkatink",
-		es: "Tinkatink",
-		pt: "Tinkatink",
+		'en-us': "Tinkatink",
+		'fr-fr': "Forgerette",
+		'de-de': "Forgita",
+		'it-it': "Tinkatink",
+		'es-es': "Tinkatink",
+		'pt-br': "Tinkatink",
 		'es-mx': "Tinkatink"
 	},
 
@@ -31,12 +31,12 @@ const card: Card = {
     attacks: [
         {
 		name: {
-			en: "Beat",
-			fr: "Bataille",
-			de: "Verprügler",
-			it: "Battuta",
-			es: "Toque",
-			pt: "Pulso",
+			'en-us': "Beat",
+			'fr-fr': "Bataille",
+			'de-de': "Verprügler",
+			'it-it': "Battuta",
+			'es-es': "Toque",
+			'pt-br': "Pulso",
 			'es-mx': "Golpeteo"
 		},
         damage: "30",

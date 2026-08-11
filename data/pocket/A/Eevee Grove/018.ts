@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vanillite",
-		fr: "Sorbébé"
+		'en-us': "Vanillite",
+		'fr-fr': "Sorbébé"
 	},
 
 	illustrator: "MAHOU",
@@ -18,24 +18,24 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "Unable to survive in hot areas, it makes itself\ncomfortable by breathing out air cold enough to\ncause snow. It burrows into the snow to sleep.",
-		fr: "Il ne peut pas vivre dans les contrées chaudes. Il souffle un air glacial pour faire tomber la neige, puis s'y plonge pour dormir."
+		'en-us': "Unable to survive in hot areas, it makes itself\ncomfortable by breathing out air cold enough to\ncause snow. It burrows into the snow to sleep.",
+		'fr-fr': "Il ne peut pas vivre dans les contrées chaudes. Il souffle un air glacial pour faire tomber la neige, puis s'y plonge pour dormir."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Sweets Relay",
-			fr: "Saupoudrage Sucré"
+			'en-us': "Sweets Relay",
+			'fr-fr': "Saupoudrage Sucré"
 		},
 
 		damage: 10,
 		cost: ["Water"],
 
 		effect: {
-			en: "If 1 of your Pokémon used Sweets Relay during your last turn, this attack does 20 more damage.",
-			fr: "Si un de vos Pokémon a utilisé  lors de votre dernier tour, cette attaque inflige 20 dégâts supplémentaires."
+			'en-us': "If 1 of your Pokémon used Sweets Relay during your last turn, this attack does 20 more damage.",
+			'fr-fr': "Si un de vos Pokémon a utilisé  lors de votre dernier tour, cette attaque inflige 20 dégâts supplémentaires."
 		}
 	}],
 

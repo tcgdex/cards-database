@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "蝶",
+		'ja-jp': "蝶",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "奇跡的なパウダー",
+				'ja-jp': "奇跡的なパウダー",
 			},
 			effect: {
-				ja: "ターン中（攻撃前）に、アクティブなポケモンからすべての特別な条件を削除できます。蝶が特別な状態の影響を受けている場合、このパワーは使用できません。",
+				'ja-jp': "ターン中（攻撃前）に、アクティブなポケモンからすべての特別な条件を削除できます。蝶が特別な状態の影響を受けている場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless", "Colorless"],
 			name: {
-				ja: "スパイラルドレイン",
+				'ja-jp': "スパイラルドレイン",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、蝶から2つのダメージカウンターを取り外します。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、蝶から2つのダメージカウンターを取り外します。",
 			},
 			damage: 40,
 		},

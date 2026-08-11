@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Cacnea",
-		fr: "Cacnea",
-		de: "Tuska"
+		'en-us': "Cacnea",
+		'fr-fr': "Cacnea",
+		'de-de': "Tuska"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Poison Payback",
-				fr: "Retour de poison",
-				de: "Giftige Abrechnung"
+				'en-us': "Poison Payback",
+				'fr-fr': "Retour de poison",
+				'de-de': "Giftige Abrechnung"
 			},
 			effect: {
-				en: "If Cacnea is your Active Pokémon and is damaged by an opponent's attack (even if Cacnea is Knocked Out), the Attacking Pokémon is now Poisoned.",
-				fr: "Si Cacnea est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Cacnea est mis K.O), le Pokémon Attaquant est maintenant Empoisonné.",
-				de: "Wenn Tuska dein Aktives Pokémon ist und ihm Schaden durch einen gegnerischen Angriff zugefügt wird ( auch wenn Tuska kampfunfähig wird), ist das Angreifende Pokémon jetzt vergiftet."
+				'en-us': "If Cacnea is your Active Pokémon and is damaged by an opponent's attack (even if Cacnea is Knocked Out), the Attacking Pokémon is now Poisoned.",
+				'fr-fr': "Si Cacnea est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Cacnea est mis K.O), le Pokémon Attaquant est maintenant Empoisonné.",
+				'de-de': "Wenn Tuska dein Aktives Pokémon ist und ihm Schaden durch einen gegnerischen Angriff zugefügt wird ( auch wenn Tuska kampfunfähig wird), ist das Angreifende Pokémon jetzt vergiftet."
 			}
 		},
 	],
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Light Punch",
-				fr: "Poing léger",
-				de: "Leichter Hieb"
+				'en-us': "Light Punch",
+				'fr-fr': "Poing léger",
+				'de-de': "Leichter Hieb"
 			},
 
 			damage: 10,

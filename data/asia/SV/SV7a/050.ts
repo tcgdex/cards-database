@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "勇士雄鷹",
 		'zh-cn': "勇士雄鷹",
-		ja: "ウォーグル"
+		'ja-jp': "ウォーグル"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "只要是為了夥伴， 即使身受重傷也不會停止戰鬥。 是勇敢的天空戰士。",
 		'zh-cn': "只要是為了夥伴， 即使身受重傷也不會停止戰鬥。 是勇敢的天空戰士。",
-		ja: "仲間の ためなら どれだけ 傷つこうとも 戦いを やめない 勇敢な 大空の 戦士。"
+		'ja-jp': "仲間の ためなら どれだけ 傷つこうとも 戦いを やめない 勇敢な 大空の 戦士。"
 	},
 
 	stage: "Stage1",
@@ -27,13 +27,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "拖出",
 			'zh-cn': "拖出",
-			ja: "ひきずりだす"
+			'ja-jp': "ひきずりだす"
 		},
 
 		effect: {
 			'zh-tw': "選擇1隻對手的備戰寶可夢，與戰鬥寶可夢互換。然後，新上場的寶可夢受到40點傷害。",
 			'zh-cn': "選擇1隻對手的備戰寶可夢，與戰鬥寶可夢互換。然後，新上場的寶可夢受到40點傷害。",
-			ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンに40ダメージ。"
+			'ja-jp': "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンに40ダメージ。"
 		},
 
 		cost: ["Colorless", "Colorless"]
@@ -41,7 +41,7 @@ const card: Card = {
 		name: {
 			'zh-tw': "爆破之風",
 			'zh-cn': "爆破之風",
-			ja: "ブラストウインド"
+			'ja-jp': "ブラストウインド"
 		},
 
 		damage: 120,

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Croquine",
+		'fr-fr': "Croquine",
 	},
 
 	rarity: "None",
@@ -29,16 +29,16 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				fr: "Doux Parfum"
+				'fr-fr': "Doux Parfum"
 			},
 			effect: {
-				fr: "Soignez 30 dégâts à l'un de vos Pokémon."
+				'fr-fr': "Soignez 30 dégâts à l'un de vos Pokémon."
 			}
 		},
 		{
 			cost: ["Colorless"],
 			name: {
-				fr: "Trempette"
+				'fr-fr': "Trempette"
 			},
 			damage: 10
 		}

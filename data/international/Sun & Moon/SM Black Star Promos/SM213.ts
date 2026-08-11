@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Raichu GX",
-		fr: "Raichu GX",
-		es: "Raichu GX",
-		it: "Raichu GX",
-		pt: "Raichu GX",
-		de: "Raichu GX"
+		'en-us': "Raichu GX",
+		'fr-fr': "Raichu GX",
+		'es-es': "Raichu GX",
+		'it-it': "Raichu GX",
+		'pt-br': "Raichu GX",
+		'de-de': "Raichu GX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pikachu",
-		fr: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunderbolt",
-				fr: "Tonnerre",
-				es: "Rayo",
-				it: "Fulmine",
-				pt: "Relâmpago",
-				de: "Donnerblitz"
+				'en-us': "Thunderbolt",
+				'fr-fr': "Tonnerre",
+				'es-es': "Rayo",
+				'it-it': "Fulmine",
+				'pt-br': "Relâmpago",
+				'de-de': "Donnerblitz"
 			},
 
 			damage: 120,
@@ -59,20 +59,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spark Ball GX",
-				fr: "Boule Étincelles GX",
-				es: "Bola Chispa GX",
-				it: "Sfera Scintilla GX",
-				pt: "Bola de Fagulhas GX",
-				de: "Zündball GX"
+				'en-us': "Spark Ball GX",
+				'fr-fr': "Boule Étincelles GX",
+				'es-es': "Bola Chispa GX",
+				'it-it': "Sfera Scintilla GX",
+				'pt-br': "Bola de Fagulhas GX",
+				'de-de': "Zündball GX"
 			},
 			effect: {
-				en: "(You can’t use more than 1 GX attack in a game.)",
-				fr: "(Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-				es: "(No puedes usar más de 1 ataque GX en una partida).",
-				it: "Non puoi usare più di un attacco GX a partita.",
-				pt: "(Você não pode usar mais de 1 ataque GX por partida.)",
-				de: "(Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				'en-us': "(You can’t use more than 1 GX attack in a game.)",
+				'fr-fr': "(Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'es-es': "(No puedes usar más de 1 ataque GX en una partida).",
+				'it-it': "Non puoi usare più di un attacco GX a partita.",
+				'pt-br': "(Você não pode usar mais de 1 ataque GX por partida.)",
+				'de-de': "(Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: 200,
 

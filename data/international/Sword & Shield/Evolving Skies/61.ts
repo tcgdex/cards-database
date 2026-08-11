@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Drowzee",
-		fr: "Soporifik",
-		es: "Drowzee",
-		it: "Drowzee",
-		pt: "Drowzee",
-		de: "Traumato"
+		'en-us': "Drowzee",
+		'fr-fr': "Soporifik",
+		'es-es': "Drowzee",
+		'it-it': "Drowzee",
+		'pt-br': "Drowzee",
+		'de-de': "Traumato"
 	},
 
 	rarity: "Common",
@@ -23,12 +23,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Pound",
-			fr: "Écras'Face",
-			es: "Destructor",
-			it: "Botta",
-			pt: "Pound",
-			de: "Klaps"
+			'en-us': "Pound",
+			'fr-fr': "Écras'Face",
+			'es-es': "Destructor",
+			'it-it': "Botta",
+			'pt-br': "Pound",
+			'de-de': "Klaps"
 		},
 
 		damage: 10,
@@ -48,7 +48,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It puts its prey to sleep and devours their dreams. It seems that bad dreams taste sour, so Drowzee doesn't particularly like eating them."
+		'en-us': "It puts its prey to sleep and devours their dreams. It seems that bad dreams taste sour, so Drowzee doesn't particularly like eating them."
 	},
 
 	dexId: [96],

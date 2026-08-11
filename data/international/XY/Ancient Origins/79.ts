@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Paint Roller",
-		fr: "Rouleau à Peinture",
-		es: "Rodillo de Pintura",
-		it: "Imbiancarullo",
-		pt: "Rolo de Pintura",
-		de: "Farbroller"
+		'en-us': "Paint Roller",
+		'fr-fr': "Rouleau à Peinture",
+		'es-es': "Rodillo de Pintura",
+		'it-it': "Imbiancarullo",
+		'pt-br': "Rolo de Pintura",
+		'de-de': "Farbroller"
 	},
 
 	illustrator: "Toyste Beach",
@@ -17,12 +17,12 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Défaussez toute carte Stade en jeu. Ensuite, piochez une carte.",
-		en: "Discard any Stadium card in play. Then, draw a card.",
-		es: "Descarta cualquier carta de Estadio en juego. Después, roba 1 carta.",
-		it: "Scarta una carta Stadio in gioco. Poi, pesca una carta.",
-		pt: "Descarte qualquer card de Estádio em jogo. Em seguida, compre um card.",
-		de: "Lege 1 beliebige Stadionkarte im Spiel auf den Ablagestapel. Ziehe anschließend 1 Karte."
+		'fr-fr': "Défaussez toute carte Stade en jeu. Ensuite, piochez une carte.",
+		'en-us': "Discard any Stadium card in play. Then, draw a card.",
+		'es-es': "Descarta cualquier carta de Estadio en juego. Después, roba 1 carta.",
+		'it-it': "Scarta una carta Stadio in gioco. Poi, pesca una carta.",
+		'pt-br': "Descarte qualquer card de Estádio em jogo. Em seguida, compre um card.",
+		'de-de': "Lege 1 beliebige Stadionkarte im Spiel auf den Ablagestapel. Ziehe anschließend 1 Karte."
 	},
 
 	trainerType: "Item",

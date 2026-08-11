@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Growlithe",
-		fr: "Caninos"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -17,16 +17,16 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "It has a brave and trustworthy nature. It fearlessly\nstands up to bigger and stronger foes.",
-		fr: "Courageux et fidèle, il se dresse vaillamment devant ses ennemis même s'ils sont plus puissants que lui."
+		'en-us': "It has a brave and trustworthy nature. It fearlessly\nstands up to bigger and stronger foes.",
+		'fr-fr': "Courageux et fidèle, il se dresse vaillamment devant ses ennemis même s'ils sont plus puissants que lui."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Bite",
-			fr: "Morsure"
+			'en-us': "Bite",
+			'fr-fr': "Morsure"
 		},
 
 		damage: 20,

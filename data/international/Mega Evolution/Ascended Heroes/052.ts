@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Snom",
-		fr: "Frissonille",
-		es: "Snom",
+		'en-us': "Snom",
+		'fr-fr': "Frissonille",
+		'es-es': "Snom",
 		'es-mx': "Snom",
-		de: "Snomnom",
-		it: "Snom",
-		pt: "Snom"
+		'de-de': "Snomnom",
+		'it-it': "Snom",
+		'pt-br': "Snom"
 	},
 
 	illustrator: "Izucch",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Icicle",
-			fr: "Concrétion Glacée",
-			es: "Témpano",
+			'en-us': "Icicle",
+			'fr-fr': "Concrétion Glacée",
+			'es-es': "Témpano",
 			'es-mx': "Témpano de Hielo",
-			de: "Eiszapfen",
-			it: "Stalattite",
-			pt: "Pingente de Gelo"
+			'de-de': "Eiszapfen",
+			'it-it': "Stalattite",
+			'pt-br': "Pingente de Gelo"
 		},
 
 		damage: 20
@@ -48,7 +48,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Within its internal organs, Snom amplifies the frigid air it gets from eating snow and then uses this amplified air to create icicle-like spikes.",
+		'en-us': "Within its internal organs, Snom amplifies the frigid air it gets from eating snow and then uses this amplified air to create icicle-like spikes.",
 	},
 
 	variants: [

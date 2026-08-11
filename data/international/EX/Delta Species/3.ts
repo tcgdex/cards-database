@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Dragonite δ",
-		fr: "Dracolosse δ",
-		de: "Dragoran"
+		'en-us': "Dragonite δ",
+		'fr-fr': "Dracolosse δ",
+		'de-de': "Dragoran"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -25,8 +25,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dragonair",
-		fr: "Draco"
+		'en-us': "Dragonair",
+		'fr-fr': "Draco"
 	},
 
 	stage: "Stage2",
@@ -35,14 +35,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Delta Charge",
-				fr: "Charge Delta",
-				de: "Delta-Aufladung"
+				'en-us': "Delta Charge",
+				'fr-fr': "Charge Delta",
+				'de-de': "Delta-Aufladung"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may attach a Lightning Energy card from your discard pile to 1 of your Benched Pokémon. This power can't be used if Dragonite is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez attacher une carte Énergie  de votre pile de défausse à 1 de vos Pokémon de Banc. Ce pouvoir ne peut pas être utilisé si Dracolosse est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du eine -Energiekarte von deinem Ablagestapel nehmen und an 1 Pokémon auf deiner Bank anlegen. Diese Poké-Power kann nicht verwendet werden, falls Dragoran von einem Speziellen Zustand betroffen ist."
+				'en-us': "Once during your turn (before your attack), you may attach a Lightning Energy card from your discard pile to 1 of your Benched Pokémon. This power can't be used if Dragonite is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez attacher une carte Énergie  de votre pile de défausse à 1 de vos Pokémon de Banc. Ce pouvoir ne peut pas être utilisé si Dracolosse est affecté par un État Spécial.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du eine -Energiekarte von deinem Ablagestapel nehmen und an 1 Pokémon auf deiner Bank anlegen. Diese Poké-Power kann nicht verwendet werden, falls Dragoran von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Agility",
-				fr: "Hâte",
-				de: "Agilität"
+				'en-us': "Agility",
+				'fr-fr': "Hâte",
+				'de-de': "Agilität"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Dragonite during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous le effets d'une attaque, dégâts inclus, infligés à Dracolosse lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen (einschließlich Schaden), die Dragoran zugefügt werden."
+				'en-us': "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Dragonite during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous le effets d'une attaque, dégâts inclus, infligés à Dracolosse lors du prochain tour de votre adversaire.",
+				'de-de': "Wirf 1 Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen (einschließlich Schaden), die Dragoran zugefügt werden."
 			},
 			damage: 30,
 
@@ -74,9 +74,9 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Heavy Impact",
-				fr: "Gros impact",
-				de: "Schwerer Einschlag"
+				'en-us': "Heavy Impact",
+				'fr-fr': "Gros impact",
+				'de-de': "Schwerer Einschlag"
 			},
 
 			damage: 70,

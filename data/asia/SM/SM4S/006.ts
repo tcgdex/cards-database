@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラガラガラ",
+		'ja-jp': "アローラガラガラ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "手にした ホネは 母のホネ。 死してなお 子を想う 母の無念は 炎となって ガラガラを 守る。",
+		'ja-jp': "手にした ホネは 母のホネ。 死してなお 子を想う 母の無念は 炎となって ガラガラを 守る。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ファイヤーダンス" },
 			cost: [],
 			effect: {
-				ja: "自分のトラッシュにある[炎]エネルギーを、相手の場のポケモンについているエネルギーの数ぶん、自分のポケモンに好きなようにつける。",
+				'ja-jp': "自分のトラッシュにある[炎]エネルギーを、相手の場のポケモンについているエネルギーの数ぶん、自分のポケモンに好きなようにつける。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "70×",
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x70ダメージ。1回でもオモテなら、相手のバトルポケモンをやけどにする。",
+				'ja-jp': "コインを2回投げ、オモテの数x70ダメージ。1回でもオモテなら、相手のバトルポケモンをやけどにする。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カラカラ",
+		'ja-jp': "カラカラ",
 	},
 
 	retreat: 2,

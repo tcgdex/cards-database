@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Stoutland",
-		fr: "Mastouffe",
-		es: "Stoutland",
-		it: "Stoutland",
-		pt: "Stoutland",
-		de: "Bissbark"
+		'en-us': "Stoutland",
+		'fr-fr': "Mastouffe",
+		'es-es': "Stoutland",
+		'it-it': "Stoutland",
+		'pt-br': "Stoutland",
+		'de-de': "Bissbark"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Herdier",
-		fr: "Ponchien",
+		'en-us': "Herdier",
+		'fr-fr': "Ponchien",
 	},
 
 	stage: "Stage2",
@@ -41,20 +41,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ferocious Bellow",
-				fr: "Grognement Féroce",
-				es: "Gruñido Feroz",
-				it: "Ruggitorvo",
-				pt: "Rugido Feroz",
-				de: "Wildes Kläffen"
+				'en-us': "Ferocious Bellow",
+				'fr-fr': "Grognement Féroce",
+				'es-es': "Gruñido Feroz",
+				'it-it': "Ruggitorvo",
+				'pt-br': "Rugido Feroz",
+				'de-de': "Wildes Kläffen"
 			},
 			effect: {
-				en: "During your opponent’s next turn, the Defending Pokémon’s attacks do 50 less damage (before applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, les attaques du Pokémon Défenseur infligent 50 dégâts de moins (avant application de la Faiblesse et de la Résistance).",
-				es: "Durante el próximo turno de tu rival, los ataques del Pokémon Defensor hacen 50 puntos de daño menos (antes de aplicar Debilidad y Resistencia).",
-				it: "Durante il prossimo turno del tuo avversario, gli attacchi del Pokémon difensore infliggono 50 danni in meno, prima di aver applicato debolezza e resistenza.",
-				pt: "Durante a próxima vez de jogar do seu oponente, os ataques do Pokémon Defensor causarão 50 pontos de dano a menos (antes de aplicar Fraqueza e Resistência).",
-				de: "Während des nächsten Zuges deines Gegners fügen die Attacken des Verteidigenden Pokémon 50 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "During your opponent’s next turn, the Defending Pokémon’s attacks do 50 less damage (before applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, les attaques du Pokémon Défenseur infligent 50 dégâts de moins (avant application de la Faiblesse et de la Résistance).",
+				'es-es': "Durante el próximo turno de tu rival, los ataques del Pokémon Defensor hacen 50 puntos de daño menos (antes de aplicar Debilidad y Resistencia).",
+				'it-it': "Durante il prossimo turno del tuo avversario, gli attacchi del Pokémon difensore infliggono 50 danni in meno, prima di aver applicato debolezza e resistenza.",
+				'pt-br': "Durante a próxima vez de jogar do seu oponente, os ataques do Pokémon Defensor causarão 50 pontos de dano a menos (antes de aplicar Fraqueza e Resistência).",
+				'de-de': "Während des nächsten Zuges deines Gegners fügen die Attacken des Verteidigenden Pokémon 50 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 			damage: 50,
 
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer In",
-				fr: "Enfoncer",
-				es: "Martillear",
-				it: "Martello",
-				pt: "Martelada",
-				de: "Einhämmern"
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncer",
+				'es-es': "Martillear",
+				'it-it': "Martello",
+				'pt-br': "Martelada",
+				'de-de': "Einhämmern"
 			},
 
 			damage: 120,
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Intelligent, good-natured, and valiant, it's a trustworthy partner on rescue teams.",
+		'en-us': "Intelligent, good-natured, and valiant, it's a trustworthy partner on rescue teams.",
 	},
 
 	thirdParty: {

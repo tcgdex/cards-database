@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Beartic"
+		'id-id': "Beartic"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Pokémon karnivor yang ganas. Beartic mengembuskan udara dingin untuk membekukan dan menyimpan mangsanya saat ditangkap."
+		'id-id': "Pokémon karnivor yang ganas. Beartic mengembuskan udara dingin untuk membekukan dan menyimpan mangsanya saat ditangkap."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Pukulan Pilar Es"
+			'id-id': "Pukulan Pilar Es"
 		},
 
 		damage: 30,
 		cost: ["Water"]
 	}, {
 		name: {
-			id: "Frost Purge"
+			'id-id': "Frost Purge"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi belakang, buang semua Energi yang dikenakan pada Pokémon ini ke Trash."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi belakang, buang semua Energi yang dikenakan pada Pokémon ini ke Trash."
 		},
 
 		damage: 170,

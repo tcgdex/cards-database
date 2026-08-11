@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Houndour",
-		fr: "Malosse"
+		'en-us': "Houndour",
+		'fr-fr': "Malosse"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "It is smart enough to hunt in packs. It uses a\nvariety of cries for communicating with others.",
-		fr: "Ce Pokémon est rusé. Il chasse en meute en communiquant avec les siens grâce à une variété de cris."
+		'en-us': "It is smart enough to hunt in packs. It uses a\nvariety of cries for communicating with others.",
+		'fr-fr': "Ce Pokémon est rusé. Il chasse en meute en communiquant avec les siens grâce à une variété de cris."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Bite",
-			fr: "Morsure"
+			'en-us': "Bite",
+			'fr-fr': "Morsure"
 		},
 
 		damage: 40,

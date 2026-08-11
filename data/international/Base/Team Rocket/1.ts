@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Dark Alakazam",
-		fr: "Alakazam obscur",
-		de: "Dunkles Simsala"
+		'en-us': "Dark Alakazam",
+		'fr-fr': "Alakazam obscur",
+		'de-de': "Dunkles Simsala"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kadabra",
-		fr: "Kadabra obscur"
+		'en-us': "Kadabra",
+		'fr-fr': "Kadabra obscur"
 	},
 
 	stage: "Stage2",
@@ -38,14 +38,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Teleport Blast",
-				fr: "Téléportation instantanée",
-				de: "Teleport Blast"
+				'en-us': "Teleport Blast",
+				'fr-fr': "Téléportation instantanée",
+				'de-de': "Teleport Blast"
 			},
 			effect: {
-				en: "You may switch Dark Alakazam with 1 of your Benched Pokémon (Do the damage before switching the Pokémon).",
-				fr: "Vous pouvez échanger Alakazam obscur avec 1 des Pokémon de votre Banc. (Infligez les dégâts avant d'échanger les Pokémon.)",
-				de: "You may switch Dark Alakazam with 1 of your Benched Pokémon. (Do the damage before switching the Pokémon.)"
+				'en-us': "You may switch Dark Alakazam with 1 of your Benched Pokémon (Do the damage before switching the Pokémon).",
+				'fr-fr': "Vous pouvez échanger Alakazam obscur avec 1 des Pokémon de votre Banc. (Infligez les dégâts avant d'échanger les Pokémon.)",
+				'de-de': "You may switch Dark Alakazam with 1 of your Benched Pokémon. (Do the damage before switching the Pokémon.)"
 			},
 			damage: 30,
 
@@ -57,14 +57,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Mind Shock",
-				fr: "Choc mémoriel",
-				de: "Mind Shock"
+				'en-us': "Mind Shock",
+				'fr-fr': "Choc mémoriel",
+				'de-de': "Mind Shock"
 			},
 			effect: {
-				en: "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
-				fr: "N'appliquez pas la Faiblesse et la Résistance pour cette attaque. (Tous les autres effets ayant lieu après application de la Faiblesse et la Résistance subsistent.)",
-				de: "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and resistance still happen.)"
+				'en-us': "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
+				'fr-fr': "N'appliquez pas la Faiblesse et la Résistance pour cette attaque. (Tous les autres effets ayant lieu après application de la Faiblesse et la Résistance subsistent.)",
+				'de-de': "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and resistance still happen.)"
 			},
 			damage: 40,
 
@@ -81,8 +81,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Almost as if it were being controlled by something else, it never changes expressions, even in the middle of battle.",
-		fr: "Il ne change jamais d'expression, même en plein cœur d'une bataille, comme s'il était sous le contrôle d'une force inconnue."
+		'en-us': "Almost as if it were being controlled by something else, it never changes expressions, even in the middle of battle.",
+		'fr-fr': "Il ne change jamais d'expression, même en plein cœur d'une bataille, comme s'il était sous le contrôle d'une force inconnue."
 	},
 
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハーデリア",
+		'ja-jp': "ハーデリア",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "黒い 体毛は とても 硬くて どんどん 伸びる。 トリミング代が かかって 大変な ポケモン。",
+		'ja-jp': "黒い 体毛は とても 硬くて どんどん 伸びる。 トリミング代が かかって 大変な ポケモン。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "おたからサーチ" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のトラッシュにあるグッズを1枚、相手に見せてから、手札に加える。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のトラッシュにあるグッズを1枚、相手に見せてから、手札に加える。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヨーテリー",
+		'ja-jp': "ヨーテリー",
 	},
 
 	retreat: 1,

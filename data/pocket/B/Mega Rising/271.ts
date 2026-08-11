@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lisia"
+		'en-us': "Lisia"
 	},
 
 	illustrator: "Cona Nitanda",
@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Put 2 random Basic Pokémon with 50 HP or less from your deck into your hand."
+		'en-us': "Put 2 random Basic Pokémon with 50 HP or less from your deck into your hand."
 	},
 
 	trainerType: "Supporter",

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Axew",
-		fr: "Coupenotte",
-		es: "Axew",
-		it: "Axew",
-		pt: "Axew",
-		de: "Milza"
+		'en-us': "Axew",
+		'fr-fr': "Coupenotte",
+		'es-es': "Axew",
+		'it-it': "Axew",
+		'pt-br': "Axew",
+		'de-de': "Milza"
 	},
 
 	illustrator: "sui",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strong Bond",
-				fr: "Attachement Profond",
+				'en-us': "Strong Bond",
+				'fr-fr': "Attachement Profond",
 			},
 			effect: {
-				en: "Search your deck for a Supporter card named Iris, reveal it, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez une carte Supporter nommée Iris dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for a Supporter card named Iris, reveal it, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez une carte Supporter nommée Iris dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Dragon Claw",
-				fr: "Dracogriffe",
+				'en-us': "Dragon Claw",
+				'fr-fr': "Dracogriffe",
 			},
 
 			damage: 20,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its large tusks have a tendency to break, but each time they grow back, they grow in harder and sturdier.",
+		'en-us': "Its large tusks have a tendency to break, but each time they grow back, they grow in harder and sturdier.",
 	},
 
 	thirdParty: {

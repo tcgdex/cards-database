@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロトム",
+		'ja-jp': "ロトム",
 	},
 
 	illustrator: "Shinya Mizuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "特殊な モーターを 動かす 動力源として 長い あいだ 研究されていた ポケモン。",
+		'ja-jp': "特殊な モーターを 動かす 動力源として 長い あいだ 研究されていた ポケモン。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "クラッシュパルス" },
 			cost: ["Lightning"],
 			effect: {
-				ja: "相手の手札を見て、その中にある「グッズ」と「ポケモンのどうぐ」を、すべてトラッシュする。",
+				'ja-jp': "相手の手札を見て、その中にある「グッズ」と「ポケモンのどうぐ」を、すべてトラッシュする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Lightning"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数×20ダメージ。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数×20ダメージ。",
 			},
 		},
 	],

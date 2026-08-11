@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Geodude",
-		fr: "Racaillou",
-		es: "Geodude",
-		it: "Geodude",
-		pt: "Geodude",
-		de: "Kleinstein"
+		'en-us': "Geodude",
+		'fr-fr': "Racaillou",
+		'es-es': "Geodude",
+		'it-it': "Geodude",
+		'pt-br': "Geodude",
+		'de-de': "Kleinstein"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "OKACHEKE",
 
 	description: {
-		en: "It uses both hands to climb precipitous cliffs. People who see it in action have been known to take up bouldering."
+		'en-us': "It uses both hands to climb precipitous cliffs. People who see it in action have been known to take up bouldering."
 	},
 
 	attacks: [{
 		cost: ["Fighting"],
 
 		name: {
-			en: "Rollout",
-			fr: "Roulade",
-			de: "Walzer",
-			es: "Rodar",
-			pt: "Rolagem",
-			it: "Rotolamento"
+			'en-us': "Rollout",
+			'fr-fr': "Roulade",
+			'de-de': "Walzer",
+			'es-es': "Rodar",
+			'pt-br': "Rolagem",
+			'it-it': "Rotolamento"
 		},
 
 		damage: 10
@@ -50,12 +50,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Light Punch",
-			fr: "Poing Léger",
-			de: "Leichter Hieb",
-			es: "Puño Ligero",
-			pt: "Soco de Luz",
-			it: "Pugnetto"
+			'en-us': "Light Punch",
+			'fr-fr': "Poing Léger",
+			'de-de': "Leichter Hieb",
+			'es-es': "Puño Ligero",
+			'pt-br': "Soco de Luz",
+			'it-it': "Pugnetto"
 		},
 
 		damage: 20

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ハスボー",
+		'ja-jp': "ハスボー",
 		'zh-tw': "蓮葉童子",
 		'zh-cn': "蓮葉童子"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "頭の 葉っぱは 汚れを 弾く 性質。 泥だらけの ポケモンを 乗せても 葉っぱは きれいなままだ。",
+		'ja-jp': "頭の 葉っぱは 汚れを 弾く 性質。 泥だらけの ポケモンを 乗せても 葉っぱは きれいなままだ。",
 		'zh-tw': "頭上的葉子具有防污的性質。 即使載了滿身是泥的寶可夢， 葉子也能常保乾淨。",
 		'zh-cn': "頭上的葉子具有防污的性質。 即使載了滿身是泥的寶可夢， 葉子也能常保乾淨。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "みずでっぽう",
+			'ja-jp': "みずでっぽう",
 			'zh-tw': "水槍",
 			'zh-cn': "水槍"
 		},

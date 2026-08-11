@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コータス",
+		'ja-jp': "コータス",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "甲羅の中の 炎が 消えると 死んでしまう。 家で 育てるには 常に 燃やすものが いるぞ。",
+		'ja-jp': "甲羅の中の 炎が 消えると 死んでしまう。 家で 育てるには 常に 燃やすものが いるぞ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の山札を上から4枚トラッシュし、その中にある[炎]エネルギーをすべて、自分のポケモンに好きなようにつける。",
+				'ja-jp': "自分の山札を上から4枚トラッシュし、その中にある[炎]エネルギーをすべて、自分のポケモンに好きなようにつける。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 	],

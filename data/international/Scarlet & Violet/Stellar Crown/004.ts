@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Celebi",
-		fr: "Celebi",
-		es: "Celebi",
-		it: "Celebi",
-		pt: "Celebi",
-		de: "Celebi"
+		'en-us': "Celebi",
+		'fr-fr': "Celebi",
+		'es-es': "Celebi",
+		'it-it': "Celebi",
+		'pt-br': "Celebi",
+		'de-de': "Celebi"
 	},
 
 	rarity: "Uncommon",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			es: "Coleccionar",
-			it: "Tassa",
-			pt: "Coleta",
-			de: "Sammeln"
+			'en-us': "Collect",
+			'fr-fr': "Collecte",
+			'es-es': "Coleccionar",
+			'it-it': "Tassa",
+			'pt-br': "Coleta",
+			'de-de': "Sammeln"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			es: "Roba 1 carta.",
-			it: "Pesca una carta.",
-			pt: "Compre uma carta.",
-			de: "Ziehe 1 Karte."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'es-es': "Roba 1 carta.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre uma carta.",
+			'de-de': "Ziehe 1 Karte."
 		}
 	}, {
 		cost: ["Grass"],
 
 		name: {
-			en: "Leaf Step",
-			fr: "Enjambée de Feuillage",
-			es: "Paso Hoja",
-			it: "Passofoglia",
-			pt: "Passo de Folha",
-			de: "Blattschritt"
+			'en-us': "Leaf Step",
+			'fr-fr': "Enjambée de Feuillage",
+			'es-es': "Paso Hoja",
+			'it-it': "Passofoglia",
+			'pt-br': "Passo de Folha",
+			'de-de': "Blattschritt"
 		},
 
 		damage: 30

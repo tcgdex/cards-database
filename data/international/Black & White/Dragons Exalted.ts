@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Black & White'
 
 const bw6: Set = {
 	id: "bw6",
 
 	name: {
-		en: "Dragons Exalted",
-		fr: "Dragons Éxaltés",
-		es: "Dragones Majestuosos",
-		it: "Stirpe dei Draghi",
-		de: "Hoheit der Drachen",
-		pt: "Dragões Enaltecidos"
+		'en-us': "Dragons Exalted",
+		'fr-fr': "Dragons Éxaltés",
+		'es-es': "Dragones Majestuosos",
+		'it-it': "Stirpe dei Draghi",
+		'de-de': "Hoheit der Drachen",
+		'pt-br': "Dragões Enaltecidos"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const bw6: Set = {
 
 	abbreviations: {
 		official: "DRX",
-		fr: "DEX"
+		'fr-fr': "DEX"
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Altaria",
-		fr: "Altaria",
+		'en-us': "Altaria",
+		'fr-fr': "Altaria",
 	},
 	illustrator: "kirisAki",
 	rarity: "Shiny rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Dragon",
 	],
 	evolveFrom: {
-		en: "Swablu",
-		fr: "Tylton",
+		'en-us': "Swablu",
+		'fr-fr': "Tylton",
 	},
 	stage: "Stage1",
 
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Fight Song",
-				fr: "Hymne au Combat",
+				'en-us': "Fight Song",
+				'fr-fr': "Hymne au Combat",
 			},
 			effect: {
-				en: "Your Dragon Pokémon's attacks do 20 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
-				fr: "Les attaques de vos Pokémon Dragon infligent 20 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
+				'en-us': "Your Dragon Pokémon's attacks do 20 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Les attaques de vos Pokémon Dragon infligent 20 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
 			},
 		},
 	],
@@ -44,8 +44,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pierce",
-				fr: "Transpercement",
+				'en-us': "Pierce",
+				'fr-fr': "Transpercement",
 			},
 
 			damage: 20,
@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.",
+		'en-us': "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.",
 	},
 }
 

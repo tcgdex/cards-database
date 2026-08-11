@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เฮราครอส",
-		id: "Heracross"
+		'th-th': "เฮราครอส",
+		'id-id': "Heracross"
 	},
 
 	illustrator: "GOSSAN",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		th: "ชอบน้ำผึ้งหวาน ๆ มาก ใช้เขาที่ภูมิใจเหวี่ยงอีกฝ่ายไปไกล ๆ เพื่อที่ตัวเองจะได้ยึดครองน้ำผึ้งไว้เพียงผู้เดียว",
-		id: "Heracross sangat menyukai madu manis. Agar dapat memonopoli madunya, Pokémon ini menggunakan tanduk kebanggaannya untuk melempar lawannya."
+		'th-th': "ชอบน้ำผึ้งหวาน ๆ มาก ใช้เขาที่ภูมิใจเหวี่ยงอีกฝ่ายไปไกล ๆ เพื่อที่ตัวเองจะได้ยึดครองน้ำผึ้งไว้เพียงผู้เดียว",
+		'id-id': "Heracross sangat menyukai madu manis. Agar dapat memonopoli madunya, Pokémon ini menggunakan tanduk kebanggaannya untuk melempar lawannya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "พุ่งเข้าชน",
-			id: "Serudukan"
+			'th-th': "พุ่งเข้าชน",
+			'id-id': "Serudukan"
 		},
 
 		damage: 50,
 		cost: ["Grass", "Grass"]
 	}, {
 		name: {
-			th: "สแมชฮอร์น",
-			id: "Smash Horn"
+			'th-th': "สแมชฮอร์น",
+			'id-id': "Smash Horn"
 		},
 
 		effect: {
-			th: "แดเมจของท่าต่อสู้นี้จะไม่นำความต้านทานมาคิด",
-			id: "Kerusakan akibat serangan ini tidak terpengaruh oleh Resistansi."
+			'th-th': "แดเมจของท่าต่อสู้นี้จะไม่นำความต้านทานมาคิด",
+			'id-id': "Kerusakan akibat serangan ini tidak terpengaruh oleh Resistansi."
 		},
 
 		damage: 110,

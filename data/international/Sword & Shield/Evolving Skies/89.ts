@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Palpitoad",
-		fr: "Batracné",
-		es: "Palpitoad",
-		it: "Palpitoad",
-		pt: "Palpitoad",
-		de: "Mebrana"
+		'en-us': "Palpitoad",
+		'fr-fr': "Batracné",
+		'es-es': "Palpitoad",
+		'it-it': "Palpitoad",
+		'pt-br': "Palpitoad",
+		'de-de': "Mebrana"
 	},
 
 	rarity: "Uncommon",
@@ -23,24 +23,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Stampede",
-			fr: "Ruée",
-			es: "Estampida",
-			it: "Fuggi Fuggi",
-			pt: "Stampede",
-			de: "Zertrampeln"
+			'en-us': "Stampede",
+			'fr-fr': "Ruée",
+			'es-es': "Estampida",
+			'it-it': "Fuggi Fuggi",
+			'pt-br': "Stampede",
+			'de-de': "Zertrampeln"
 		},
 
 		damage: 20,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			en: "Tongue Slap",
-			fr: "Gros Coup de Langue",
-			es: "Bofetón Lengua",
-			it: "Linguasberla",
-			pt: "Tongue Slap",
-			de: "Zungenschelle"
+			'en-us': "Tongue Slap",
+			'fr-fr': "Gros Coup de Langue",
+			'es-es': "Bofetón Lengua",
+			'it-it': "Linguasberla",
+			'pt-br': "Tongue Slap",
+			'de-de': "Zungenschelle"
 		},
 
 		damage: 50,
@@ -55,16 +55,16 @@ const card: Card = {
 	retreat: 3,
 
 	evolveFrom: {
-		en: "Tympole",
-		fr: "Tritonde",
-		es: "Tympole",
-		it: "Tympole",
-		pt: "Tympole",
-		de: "Schallquap"
+		'en-us': "Tympole",
+		'fr-fr': "Tritonde",
+		'es-es': "Tympole",
+		'it-it': "Tympole",
+		'pt-br': "Tympole",
+		'de-de': "Schallquap"
 	},
 
 	description: {
-		en: "On occasion, their cries are sublimely pleasing to the ear. Palpitoad with larger lumps on their bodies can sing with a wider range of sounds."
+		'en-us': "On occasion, their cries are sublimely pleasing to the ear. Palpitoad with larger lumps on their bodies can sing with a wider range of sounds."
 	},
 
 	dexId: [536],

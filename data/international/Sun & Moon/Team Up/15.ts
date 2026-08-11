@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Vulpix",
-		fr: "Goupix",
-		es: "Vulpix",
-		it: "Vulpix",
-		pt: "Vulpix",
-		de: "Vulpix"
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix",
+		'es-es': "Vulpix",
+		'it-it': "Vulpix",
+		'pt-br': "Vulpix",
+		'de-de': "Vulpix"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Whip",
-				fr: "Mimi-Queue",
-				es: "Látigo",
-				it: "Colpocoda",
-				pt: "Cauda Chicote",
-				de: "Rutenschlag"
+				'en-us': "Tail Whip",
+				'fr-fr': "Mimi-Queue",
+				'es-es': "Látigo",
+				'it-it': "Colpocoda",
+				'pt-br': "Cauda Chicote",
+				'de-de': "Rutenschlag"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can’t attack during your opponent’s next turn.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Defensor no puede atacar durante el próximo turno de tu rival.",
-				it: "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, il Pokémon difensore non può attaccare.",
-				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Defensor não poderá atacar durante a próxima vez de jogar do seu oponente.",
-				de: "Wirf 1 Münze. Bei Kopf kann das Verteidigende Pokémon während des nächsten Zuges deines Gegners nicht angreifen."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon can’t attack during your opponent’s next turn.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Defensor no puede atacar durante el próximo turno de tu rival.",
+				'it-it': "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, il Pokémon difensore non può attaccare.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Defensor não poderá atacar durante a próxima vez de jogar do seu oponente.",
+				'de-de': "Wirf 1 Münze. Bei Kopf kann das Verteidigende Pokémon während des nächsten Zuges deines Gegners nicht angreifen."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its beautiful tails have made it very popular. However, if it's not brushed diligently, it will be a mass of tangles before you know it.",
+		'en-us': "Its beautiful tails have made it very popular. However, if it's not brushed diligently, it will be a mass of tangles before you know it.",
 	},
 
 	thirdParty: {

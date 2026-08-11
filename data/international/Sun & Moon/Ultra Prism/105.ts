@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Eevee",
-		fr: "Évoli",
-		es: "Eevee",
-		it: "Eevee",
-		pt: "Eevee",
-		de: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
+		'es-es': "Eevee",
+		'it-it': "Eevee",
+		'pt-br': "Eevee",
+		'de-de': "Evoli"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Palette of Friends",
-				fr: "Palette d’Amis",
-				es: "Paleta de Amigos",
-				it: "Amici Diversi",
-				pt: "Palheta de Amigos",
-				de: "Freundespalette"
+				'en-us': "Palette of Friends",
+				'fr-fr': "Palette d’Amis",
+				'es-es': "Paleta de Amigos",
+				'it-it': "Amici Diversi",
+				'pt-br': "Palheta de Amigos",
+				'de-de': "Freundespalette"
 			},
 			effect: {
-				en: "This attack does 10 damage for each different type of Pokémon on your Bench.",
-				fr: "Cette attaque inflige 10 dégâts pour chaque type différent de Pokémon sur votre Banc.",
-				es: "Este ataque hace 10 puntos de daño por cada tipo de Pokémon diferente en tu Banca.",
-				it: "Questo attacco infligge 10 danni per ogni Pokémon di tipo diverso nella tua panchina.",
-				pt: "Este ataque causa 10 pontos de dano para cada tipo diferente de Pokémon no seu Banco.",
-				de: "Diese Attacke fügt 10 Schadenspunkte mal der Anzahl der verschiedenen Pokémon-Typen auf deiner Bank zu."
+				'en-us': "This attack does 10 damage for each different type of Pokémon on your Bench.",
+				'fr-fr': "Cette attaque inflige 10 dégâts pour chaque type différent de Pokémon sur votre Banc.",
+				'es-es': "Este ataque hace 10 puntos de daño por cada tipo de Pokémon diferente en tu Banca.",
+				'it-it': "Questo attacco infligge 10 danni per ogni Pokémon di tipo diverso nella tua panchina.",
+				'pt-br': "Este ataque causa 10 pontos de dano para cada tipo diferente de Pokémon no seu Banco.",
+				'de-de': "Diese Attacke fügt 10 Schadenspunkte mal der Anzahl der verschiedenen Pokémon-Typen auf deiner Bank zu."
 			},
 			damage: "10×",
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Possessing an unbalanced and unstable genetic makeup, it conceals many possible evolutions.",
+		'en-us': "Possessing an unbalanced and unstable genetic makeup, it conceals many possible evolutions.",
 	},
 
 	thirdParty: {

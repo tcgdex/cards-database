@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マチョーク",
+		'ja-jp': "マチョーク",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "妄想",
+				'ja-jp': "妄想",
 			},
 			effect: {
-				ja: "マチョークが混乱している限り、マチョークの攻撃は防御するポカン（脱力感と抵抗を適用する前）に50回以上のダメージを与えます。",
+				'ja-jp': "マチョークが混乱している限り、マチョークの攻撃は防御するポカン（脱力感と抵抗を適用する前）に50回以上のダメージを与えます。",
 			},
 		}],
 
@@ -29,16 +29,16 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "スプリットキック",
+				'ja-jp': "スプリットキック",
 			},
 			effect: {
-				ja: "防御する各ポケモンに20のダメージを与えます。",
+				'ja-jp': "防御する各ポケモンに20のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "マグナムパンチ",
+				'ja-jp': "マグナムパンチ",
 			},
 			damage: 40,
 		},

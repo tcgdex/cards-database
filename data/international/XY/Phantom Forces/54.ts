@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Mightyena",
-		fr: "Grahyèna",
-		es: "Mightyena",
-		it: "Mightyena",
-		pt: "Mightyena",
-		de: "Magnayen"
+		'en-us': "Mightyena",
+		'fr-fr': "Grahyèna",
+		'es-es': "Mightyena",
+		'it-it': "Mightyena",
+		'pt-br': "Mightyena",
+		'de-de': "Magnayen"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Poochyena",
-		fr: "Medhyèna",
-		es: "Poochyena",
-		it: "Poochyena",
-		pt: "Poochyena",
-		de: "Fiffyen"
+		'en-us': "Poochyena",
+		'fr-fr': "Medhyèna",
+		'es-es': "Poochyena",
+		'it-it': "Poochyena",
+		'pt-br': "Poochyena",
+		'de-de': "Fiffyen"
 	},
 
 	stage: "Stage1",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crunch",
-				fr: "Mâchouille",
-				es: "Triturar",
-				it: "Sgranocchio",
-				pt: "Mastigada",
-				de: "Knirscher"
+				'en-us': "Crunch",
+				'fr-fr': "Mâchouille",
+				'es-es': "Triturar",
+				'it-it': "Sgranocchio",
+				'pt-br': "Mastigada",
+				'de-de': "Knirscher"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
-				es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía unida al Pokémon Activo de tu rival.",
-				it: "Lancia una moneta. Se esce testa, scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Jogue uma moeda. Se sair cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
-				de: "Wirf 1 Münze. Lege bei \"Kopf\" 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				'es-es': "Lanza 1 moneda. Si sale cara, descarta 1 Energía unida al Pokémon Activo de tu rival.",
+				'it-it': "Lancia una moneta. Se esce testa, scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Jogue uma moeda. Se sair cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
+				'de-de': "Wirf 1 Münze. Lege bei \"Kopf\" 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 
@@ -69,12 +69,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Darkness Fang",
-				fr: "Croc Obscur",
-				es: "Colmillo de Oscuridad",
-				it: "Oscurizanna",
-				pt: "Presa Sombria",
-				de: "Fänge der Dunkelheit"
+				'en-us': "Darkness Fang",
+				'fr-fr': "Croc Obscur",
+				'es-es': "Colmillo de Oscuridad",
+				'it-it': "Oscurizanna",
+				'pt-br': "Presa Sombria",
+				'de-de': "Fänge der Dunkelheit"
 			},
 
 			damage: 80,
@@ -99,7 +99,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It will always obey the commands of a skilled Trainer. Its behavior arises from its living in packs in ancient times.",
+		'en-us': "It will always obey the commands of a skilled Trainer. Its behavior arises from its living in packs in ancient times.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ネクロズマ たそがれのたてがみ",
+		'ja-jp': "ネクロズマ たそがれのたてがみ",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "ソルガレオの光を 喰らい続ける 姿。 敵に とびかかり 背中と 四肢のツメで 相手を 切り裂く。",
+		'ja-jp': "ソルガレオの光を 喰らい続ける 姿。 敵に とびかかり 背中と 四肢のツメで 相手を 切り裂く。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "たそがれのだんがん" },
 			cost: ["Metal"],
 			effect: {
-				ja: "相手の「ポケモンGX・EX」1匹に、60ダメージ。このワザのダメージは、弱点・抵抗力を計算しない。",
+				'ja-jp': "相手の「ポケモンGX・EX」1匹に、60ダメージ。このワザのダメージは、弱点・抵抗力を計算しない。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "相手のサイドの残り枚数が1枚なら、100ダメージ追加。",
+				'ja-jp': "相手のサイドの残り枚数が1枚なら、100ダメージ追加。",
 			},
 		},
 	],

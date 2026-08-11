@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Abomasnow",
-		fr: "Blizzaroi",
-		de: "Rexblisar"
+		'en-us': "Abomasnow",
+		'fr-fr': "Blizzaroi",
+		'de-de': "Rexblisar"
 	},
 
 	illustrator: "Kazuyuki Kano",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Snover",
-		fr: "Blizzi"
+		'en-us': "Snover",
+		'fr-fr': "Blizzi"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Glacier Snow",
-				fr: "Neige de glacier",
-				de: "Gletscherschnee"
+				'en-us': "Glacier Snow",
+				'fr-fr': "Neige de glacier",
+				'de-de': "Gletscherschnee"
 			},
 			effect: {
-				en: "If Abomasnow is your Active Pokémon and is damaged by an opponent's attack (even if Abomasnow is Knocked Out), the Attacking Pokémon is now Asleep.",
-				fr: "Si Blizzaroi est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Blizzaroi est mis K.O), le Pokémon Attaquant est maintenant Endormi.",
-				de: "Wenn Rexblisar dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Rexblisar dadurch kampfunfähig wird), schläft das Angreifende Pokémon jetzt."
+				'en-us': "If Abomasnow is your Active Pokémon and is damaged by an opponent's attack (even if Abomasnow is Knocked Out), the Attacking Pokémon is now Asleep.",
+				'fr-fr': "Si Blizzaroi est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Blizzaroi est mis K.O), le Pokémon Attaquant est maintenant Endormi.",
+				'de-de': "Wenn Rexblisar dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Rexblisar dadurch kampfunfähig wird), schläft das Angreifende Pokémon jetzt."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heavy Blizzard",
-				fr: "Gros blizzard",
-				de: "Schwerer Schneesturm"
+				'en-us': "Heavy Blizzard",
+				'fr-fr': "Gros blizzard",
+				'de-de': "Schwerer Schneesturm"
 			},
 			effect: {
-				en: "Flip a coin. If heads, put 1 damage counter on each of your opponent's Benched Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, placez 1 marqueur de dégât sur chaque Pokémon de Banc de votre adversaire.",
-				de: "Wirf 1 Münze. Bei 'Kopf' lege 1 Schadensmarke auf jedes Pokémon auf der Bank deines Gegners."
+				'en-us': "Flip a coin. If heads, put 1 damage counter on each of your opponent's Benched Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, placez 1 marqueur de dégât sur chaque Pokémon de Banc de votre adversaire.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' lege 1 Schadensmarke auf jedes Pokémon auf der Bank deines Gegners."
 			},
 			damage: 60,
 
@@ -78,8 +78,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It whips up blizzards in mountains that are always buried in snow. It is the abominable snowman.",
-		fr: "C'est l'abominable homme des neiges. Il ensevelit les montagnes sous ses blizzards."
+		'en-us': "It whips up blizzards in mountains that are always buried in snow. It is the abominable snowman.",
+		'fr-fr': "C'est l'abominable homme des neiges. Il ensevelit les montagnes sous ses blizzards."
 	},
 
 	thirdParty: {

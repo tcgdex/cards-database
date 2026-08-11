@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "わるいリザードン",
+		'ja-jp': "わるいリザードン",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ネイルフリック",
+				'ja-jp': "ネイルフリック",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fire", "Fire"],
 			name: {
-				ja: "連続した火の玉",
+				'ja-jp': "連続した火の玉",
 			},
 			effect: {
-				ja: "ダークチャリザードに取り付けられた消防エネルギーカードの数に等しい多数のコインをひっくり返します。この攻撃は、ヘッド数の50回のダメージ時間を実行します。頭の数に等しい暗いリザードに取り付けられた多くの火エネルギーカードを廃棄します。",
+				'ja-jp': "ダークチャリザードに取り付けられた消防エネルギーカードの数に等しい多数のコインをひっくり返します。この攻撃は、ヘッド数の50回のダメージ時間を実行します。頭の数に等しい暗いリザードに取り付けられた多くの火エネルギーカードを廃棄します。",
 			},
 		},
 	],

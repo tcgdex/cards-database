@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Fraxure",
-		fr: "Incisache",
-		de: "Sharfax",
-		it: "Fraxure",
-		pt: "Fraxure",
-		es: "Fraxure",
+		'en-us': "Fraxure",
+		'fr-fr': "Incisache",
+		'de-de': "Sharfax",
+		'it-it': "Fraxure",
+		'pt-br': "Fraxure",
+		'es-es': "Fraxure",
 		'es-mx': "Fraxure"
 	},
 
@@ -21,12 +21,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Dragon"],
 	evolveFrom: {
-		en: "Axew",
-		fr: "Coupenotte",
-		de: "Milza",
-		it: "Axew",
-		pt: "Axew",
-		es: "Axew",
+		'en-us': "Axew",
+		'fr-fr': "Coupenotte",
+		'de-de': "Milza",
+		'it-it': "Axew",
+		'pt-br': "Axew",
+		'es-es': "Axew",
 		'es-mx': "Axew"
 	},
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			de: "Biss",
-			it: "Morso",
-			pt: "Mordida",
-			es: "Mordisco",
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'de-de': "Biss",
+			'it-it': "Morso",
+			'pt-br': "Mordida",
+			'es-es': "Mordisco",
 			'es-mx': "Mordida"
 		},
 
@@ -49,22 +49,22 @@ const card: Card = {
 		cost: ["Fighting", "Metal"],
 
 		name: {
-			en: "Boundless Power",
-			fr: "Puissance Illimitée",
-			de: "Unbegrenzte Kraft",
-			it: "Potere Incontenibile",
-			pt: "Poder Ilimitado",
-			es: "Poder Ilimitado",
+			'en-us': "Boundless Power",
+			'fr-fr': "Puissance Illimitée",
+			'de-de': "Unbegrenzte Kraft",
+			'it-it': "Potere Incontenibile",
+			'pt-br': "Poder Ilimitado",
+			'es-es': "Poder Ilimitado",
 			'es-mx': "Poder Ilimitado"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use attacks.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser d'attaques.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon keine Attacken einsetzen.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può usare attacchi.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar ataques.",
-			es: "Durante tu próximo turno, este Pokémon no puede usar ataques.",
+			'en-us': "During your next turn, this Pokémon can't use attacks.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser d'attaques.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon keine Attacken einsetzen.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare attacchi.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar ataques.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede usar ataques.",
 			'es-mx': "Durante tu próximo turno, este Pokémon no puede usar ataques."
 		},
 

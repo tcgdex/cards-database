@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドダイトスex",
+		'ja-jp': "ドダイトスex",
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Grass"],
 			effect: {
-				ja: "自分の場の[G]ポケモンの数×30ダメージ。",
+				'ja-jp': "自分の場の[G]ポケモンの数×30ダメージ。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「50」回復する。",
+				'ja-jp': "このポケモンのHPを「50」回復する。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ハヤシガメ",
+		'ja-jp': "ハヤシガメ",
 	},
 
 	retreat: 4,

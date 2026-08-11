@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Charmeleon",
-		fr: "Reptincel",
-		de: "Glutexo"
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel",
+		'de-de': "Glutexo"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmander",
-		fr: "Salamèche"
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche"
 	},
 
 	stage: "Stage1",
@@ -37,9 +37,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare",
-				fr: "Intimidation",
-				de: "Flare"
+				'en-us': "Flare",
+				'fr-fr': "Intimidation",
+				'de-de': "Flare"
 			},
 
 			damage: 30,
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Damage Burn",
-				fr: "Brûlure",
-				de: "Damage Burn"
+				'en-us': "Damage Burn",
+				'fr-fr': "Brûlure",
+				'de-de': "Damage Burn"
 			},
 			effect: {
-				en: "If the Defending Pokémon has already any damage counters on it, this attack does 40 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
-				de: "If the Defending pokemon already has any damage counters on it, this attack does 40 damage plus 20 more damage."
+				'en-us': "If the Defending Pokémon has already any damage counters on it, this attack does 40 damage plus 20 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "If the Defending pokemon already has any damage counters on it, this attack does 40 damage plus 20 more damage."
 			},
 			damage: "40+",
 

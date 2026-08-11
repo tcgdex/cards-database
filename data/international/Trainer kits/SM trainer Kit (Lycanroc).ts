@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Trainer kits'
 
 const set: Set = {
 	id: "tk-sm-l",
 
 	name: {
-		en: "SM trainer Kit (Lycanroc)",
-		it: "Sole e Luna trainer Kit (Lycanroc)",
-		fr: "SM Kit du dresseur (Lougarox)",
-		es: "Kit de Entrenador Sol y Luna (Lycanroc)"
+		'en-us': "SM trainer Kit (Lycanroc)",
+		'it-it': "Sole e Luna trainer Kit (Lycanroc)",
+		'fr-fr': "SM Kit du dresseur (Lougarox)",
+		'es-es': "Kit de Entrenador Sol y Luna (Lycanroc)"
 	},
 
 	serie: serie,
@@ -21,7 +21,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "TK10L",
-		fr: "LOU"
+		'fr-fr': "LOU"
 	},
 
 	thirdParty: {

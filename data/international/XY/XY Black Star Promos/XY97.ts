@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Aerodactyl EX",
-		fr: "Ptéra EX",
+		'en-us': "Aerodactyl EX",
+		'fr-fr': "Ptéra EX",
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Smash",
-				fr: "Éclate-Roc",
+				'en-us': "Rock Smash",
+				'fr-fr': "Éclate-Roc",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: "30+",
 
@@ -48,8 +48,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Land Crush",
-				fr: "Écras'Terre"
+				'en-us': "Land Crush",
+				'fr-fr': "Écras'Terre"
 			},
 
 			damage: 70,

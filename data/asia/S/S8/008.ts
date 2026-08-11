@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アギルダー",
+		'ja-jp': "アギルダー",
 		'zh-tw': "敏捷蟲",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "殻を 脱ぎ捨て 身軽に なった。 帯状の 粘膜を 体に 巻きつけ 乾燥を 防ぐ。",
+		'ja-jp': "殻を 脱ぎ捨て 身軽に なった。 帯状の 粘膜を 体に 巻きつけ 乾燥を 防ぐ。",
 		'zh-tw': "脫殼後變得更輕巧了。為了防止乾燥，會將帶狀的黏膜裹在身上。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ニンジャトルネード",
+				'ja-jp': "ニンジャトルネード",
 				'zh-tw': "忍者龍捲風",
 			},
 			damage: 120,
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "この番、このポケモンがベンチからバトル場に出ていたなら、このワザは【草】エネルギー1個で使える。",
+				'ja-jp': "この番、このポケモンがベンチからバトル場に出ていたなら、このワザは【草】エネルギー1個で使える。",
 				'zh-tw': "在這個回合，若從備戰區將這隻寶可夢放置於戰鬥場，則這個招式只需要1個【草】能量即可使用。",
 			},
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チョボマキ",
+		'ja-jp': "チョボマキ",
 	},
 
 	retreat: 1,

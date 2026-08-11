@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユキワラシ",
+		'ja-jp': "ユキワラシ",
 	},
 
 	illustrator: "June",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ユキワラシの 棲みついた 家は お金持ちになるという 言い伝えが 雪国には 残っている。",
+		'ja-jp': "ユキワラシの 棲みついた 家は お金持ちになるという 言い伝えが 雪国には 残っている。",
 	},
 
 	stage: "Basic",

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ネッコアラ",
+		'ja-jp': "ネッコアラ",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "生まれてから ずっと 眠ったまま。 深い 眠りに 落ちているときは 一切 動かなくなる。",
+		'ja-jp': "生まれてから ずっと 眠ったまま。 深い 眠りに 落ちているときは 一切 動かなくなる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ゆめうつつ" },
 			effect: {
-				ja: "このポケモンがねむりのとき、ポケモンチェックで、このポケモンがねむりから回復しなかったなら、相手のバトルポケモンに、ダメカンを6個のせる。",
+				'ja-jp': "このポケモンがねむりのとき、ポケモンチェックで、このポケモンがねむりから回復しなかったなら、相手のバトルポケモンに、ダメカンを6個のせる。",
 			},
 		},
 	],
@@ -33,7 +33,7 @@ const card: Card = {
 			name: { ja: "うとうと" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンをねむりにする。",
+				'ja-jp': "このポケモンをねむりにする。",
 			},
 		},
 	],

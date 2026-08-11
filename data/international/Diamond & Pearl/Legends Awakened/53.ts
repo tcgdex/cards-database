@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Drifblim",
-		fr: "Grodrive",
-		de: "Drifzepli"
+		'en-us': "Drifblim",
+		'fr-fr': "Grodrive",
+		'de-de': "Drifzepli"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Drifloon",
-		fr: "Baudrive",
+		'en-us': "Drifloon",
+		'fr-fr': "Baudrive",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Expand",
-				fr: "Pousstoidla",
-				de: "Ausdehnen"
+				'en-us': "Expand",
+				'fr-fr': "Pousstoidla",
+				'de-de': "Ausdehnen"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Drifblim by attacks is reduced by 10 (after applying Weakness and Resistance).",
-				fr: "Lors du prochain tour de votre adversaire, tous dégâts infligés à Grodrive par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
-				de: "Während des nächsten Zuges deines Gegners wird Schaden, der Drifzepeli durch Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "During your opponent's next turn, any damage done to Drifblim by attacks is reduced by 10 (after applying Weakness and Resistance).",
+				'fr-fr': "Lors du prochain tour de votre adversaire, tous dégâts infligés à Grodrive par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Während des nächsten Zuges deines Gegners wird Schaden, der Drifzepeli durch Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 30,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlwind",
-				fr: "Cyclone",
-				de: "Wirbelwind"
+				'en-us': "Whirlwind",
+				'fr-fr': "Cyclone",
+				'de-de': "Wirbelwind"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
-				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				'de-de': "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 60,
 
@@ -84,8 +84,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It's drowzy in daytime, but flies off in the evening in big groups. No one knows where they go.",
-		fr: "Il somnole la journée et s'envole en grands groupes le soir venu. Nul ne sait où ils vont."
+		'en-us': "It's drowzy in daytime, but flies off in the evening in big groups. No one knows where they go.",
+		'fr-fr': "Il somnole la journée et s'envole en grands groupes le soir venu. Nul ne sait où ils vont."
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Finizen",
-		fr: "Dofin",
-		es: "Finizen",
-		it: "Finizen",
-		pt: "Finizen",
-		de: "Normifin"
+		'en-us': "Finizen",
+		'fr-fr': "Dofin",
+		'es-es': "Finizen",
+		'it-it': "Finizen",
+		'pt-br': "Finizen",
+		'de-de': "Normifin"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Rain Splash",
-			fr: "Pluie Éclaboussante",
-			es: "Golpe de Lluvia",
-			it: "Spruzzapioggia",
-			pt: "Chuva Borrifante",
-			de: "Regenplatscher"
+			'en-us': "Rain Splash",
+			'fr-fr': "Pluie Éclaboussante",
+			'es-es': "Golpe de Lluvia",
+			'it-it': "Spruzzapioggia",
+			'pt-br': "Chuva Borrifante",
+			'de-de': "Regenplatscher"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Sharp Fin",
-			fr: "Aileron Aiguisé",
-			es: "Cortaleta",
-			it: "Pinnaffilata",
-			pt: "Barbatana Afiada",
-			de: "Schneidige Flosse"
+			'en-us': "Sharp Fin",
+			'fr-fr': "Aileron Aiguisé",
+			'es-es': "Cortaleta",
+			'it-it': "Pinnaffilata",
+			'pt-br': "Barbatana Afiada",
+			'de-de': "Schneidige Flosse"
 		},
 
 		damage: 50
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures.",
+		'en-us': "It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures.",
 	},
 
 	variants: [

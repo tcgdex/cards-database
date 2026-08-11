@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Doduo",
-		en: "Doduo",
-		es: "Doduo",
-		it: "Doduo",
-		pt: "Doduo",
-		de: "Dodu"
+		'fr-fr': "Doduo",
+		'en-us': "Doduo",
+		'es-es': "Doduo",
+		'it-it': "Doduo",
+		'pt-br': "Doduo",
+		'de-de': "Dodu"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Attaque Imprudente",
-			en: "Reckless Charge",
-			es: "Carga Descuidada",
-			it: "Carica Avventata",
-			pt: "Carga Indomável",
-			de: "Waghalsiger Sturmangriff"
+			'fr-fr': "Attaque Imprudente",
+			'en-us': "Reckless Charge",
+			'es-es': "Carga Descuidada",
+			'it-it': "Carica Avventata",
+			'pt-br': "Carga Indomável",
+			'de-de': "Waghalsiger Sturmangriff"
 		},
 
 		effect: {
-			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
-			en: "This Pokémon also does 10 damage to itself.",
-			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
+			'fr-fr': "Ce Pokémon s'inflige aussi 10 dégâts.",
+			'en-us': "This Pokémon also does 10 damage to itself.",
+			'es-es': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 10 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
 		},
 
 		damage: 30
@@ -60,7 +60,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "The brains in its two heads appear to communicate emotions to each other with a telepathic power.",
+		'en-us': "The brains in its two heads appear to communicate emotions to each other with a telepathic power.",
 	},
 
 	variants: [

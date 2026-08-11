@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユキハミ",
+		'ja-jp': "ユキハミ",
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "エサは 地面に 積もった 雪。 柔らかな 新雪を 好み 山頂 目指して 食べ進む。",
+		'ja-jp': "エサは 地面に 積もった 雪。 柔らかな 新雪を 好み 山頂 目指して 食べ進む。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Water"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 	],

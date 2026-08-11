@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dreepy",
-		fr: "Fantyrm",
-		es: "Dreepy",
-		it: "Dreepy",
-		pt: "Dreepy",
-		de: "Grolldra"
+		'en-us': "Dreepy",
+		'fr-fr': "Fantyrm",
+		'es-es': "Dreepy",
+		'it-it': "Dreepy",
+		'pt-br': "Dreepy",
+		'de-de': "Grolldra"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Petty Grudge",
-			fr: "Rancune Mesquine",
-			es: "Rencor Ruin",
-			it: "Rancormeschino",
-			pt: "Rancinho",
-			de: "Mini-Groll"
+			'en-us': "Petty Grudge",
+			'fr-fr': "Rancune Mesquine",
+			'es-es': "Rencor Ruin",
+			'it-it': "Rancormeschino",
+			'pt-br': "Rancinho",
+			'de-de': "Mini-Groll"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Fire", "Psychic"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			es: "Mordisco",
-			it: "Morso",
-			pt: "Mordida",
-			de: "Biss"
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'es-es': "Mordisco",
+			'it-it': "Morso",
+			'pt-br': "Mordida",
+			'de-de': "Biss"
 		},
 
 		damage: 40
@@ -52,7 +52,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It has a habit of biting at Clauncher even though it doesn't feed on them. This is said to be vestigial behavior from when Dreepy was alive.",
+		'en-us': "It has a habit of biting at Clauncher even though it doesn't feed on them. This is said to be vestigial behavior from when Dreepy was alive.",
 	},
 
 	variants: [

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Larry's Rufflet",
-		fr: "Furaiglon d'Okuba",
-		es: "Rufflet de Laureano",
+		'en-us': "Larry's Rufflet",
+		'fr-fr': "Furaiglon d'Okuba",
+		'es-es': "Rufflet de Laureano",
 		'es-mx': "Rufflet de Laureano",
-		de: "Aokis Geronimatz",
-		it: "Rufflet di Ubaldo",
-		pt: "Rufflet do Lauro"
+		'de-de': "Aokis Geronimatz",
+		'it-it': "Rufflet di Ubaldo",
+		'pt-br': "Rufflet do Lauro"
 	},
 
 	illustrator: "cochi8i",
@@ -25,23 +25,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Peck the Wound",
-			fr: "Picpic Plaie",
-			es: "Picotear la Herida",
+			'en-us': "Peck the Wound",
+			'fr-fr': "Picpic Plaie",
+			'es-es': "Picotear la Herida",
 			'es-mx': "Picotear la Herida",
-			de: "Wundenpiekser",
-			it: "Beccaferita",
-			pt: "Bicar a Ferida"
+			'de-de': "Wundenpiekser",
+			'it-it': "Beccaferita",
+			'pt-br': "Bicar a Ferida"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 80 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire a déjà au moins un marqueur de dégâts, cette attaque inflige 80 dégâts supplémentaires.",
-			es: "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 80 puntos de daño más.",
+			'en-us': "If your opponent's Active Pokémon already has any damage counters on it, this attack does 80 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire a déjà au moins un marqueur de dégâts, cette attaque inflige 80 dégâts supplémentaires.",
+			'es-es': "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 80 puntos de daño más.",
 			'es-mx': "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 80 puntos de daño más.",
-			de: "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 80 Schadenspunkte mehr zu.",
-			it: "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 80 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 80 pontos de dano a mais."
+			'de-de': "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 80 Schadenspunkte mehr zu.",
+			'it-it': "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 80 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 80 pontos de dano a mais."
 		},
 
 		damage: "20+"
@@ -63,7 +63,7 @@ const card: Card = {
 	regulationMark: "J",
 
 	description: {
-		en: "With its sharp claws, this Pokémon pierces its prey, and then it pecks at them. Although it also consumes berries, it’s a carnivore at heart.",
+		'en-us': "With its sharp claws, this Pokémon pierces its prey, and then it pecks at them. Although it also consumes berries, it’s a carnivore at heart.",
 	},
 
 	variants: [

@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [213],
 
 	name: {
-		en: "Shuckle",
-		fr: "Caratroc",
-		es: "Shuckle",
-		it: "Shuckle",
-		pt: "Shuckle",
-		de: "Pottrott"
+		'en-us': "Shuckle",
+		'fr-fr': "Caratroc",
+		'es-es': "Shuckle",
+		'it-it': "Shuckle",
+		'pt-br': "Shuckle",
+		'de-de': "Pottrott"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -24,20 +24,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Berry Picking",
-				fr: "Cueillette de Baies",
-				es: "Recogida de Bayas",
-				it: "Raccolta di Bacche",
-				pt: "Catando Frutas",
-				de: "Beerenpflücken"
+				'en-us': "Berry Picking",
+				'fr-fr': "Cueillette de Baies",
+				'es-es': "Recogida de Bayas",
+				'it-it': "Raccolta di Bacche",
+				'pt-br': "Catando Frutas",
+				'de-de': "Beerenpflücken"
 			},
 			effect: {
-				en: "Shuffle up to 5 basic Energy cards from your discard pile into your deck.",
-				fr: "Mélangez avec votre deck jusqu'à 5 cartes Énergie de base de votre pile de défausse.",
-				es: "Pon hasta 5 cartas de Energía Básica de tu pila de descartes en tu baraja y barájalas todas.",
-				it: "Rimischia fino a cinque carte Energia base dalla tua pila degli scarti nel tuo mazzo.",
-				pt: "Embaralhe até 5 cartas de Energia básica da sua pilha de descarte no seu baralho.",
-				de: "Mische bis zu 5 Basis-Energiekarten aus deinem Ablagestapel in dein Deck."
+				'en-us': "Shuffle up to 5 basic Energy cards from your discard pile into your deck.",
+				'fr-fr': "Mélangez avec votre deck jusqu'à 5 cartes Énergie de base de votre pile de défausse.",
+				'es-es': "Pon hasta 5 cartas de Energía Básica de tu pila de descartes en tu baraja y barájalas todas.",
+				'it-it': "Rimischia fino a cinque carte Energia base dalla tua pila degli scarti nel tuo mazzo.",
+				'pt-br': "Embaralhe até 5 cartas de Energia básica da sua pilha de descarte no seu baralho.",
+				'de-de': "Mische bis zu 5 Basis-Energiekarten aus deinem Ablagestapel in dein Deck."
 			},
 
 		},
@@ -48,20 +48,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bind",
-				fr: "Étreinte",
-				es: "Atadura",
-				it: "Legatutto",
-				pt: "Ligação",
-				de: "Klammergriff"
+				'en-us': "Bind",
+				'fr-fr': "Étreinte",
+				'es-es': "Atadura",
+				'it-it': "Legatutto",
+				'pt-br': "Ligação",
+				'de-de': "Klammergriff"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
-				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 50,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still."
+		'en-us': "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still."
 	},
 
 	variants: [

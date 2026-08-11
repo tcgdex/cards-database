@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Kingambit",
-		fr: "Scalpereur",
-		es: "Kingambit",
-		it: "Kingambit",
-		pt: "Kingambit",
-		de: "Gladimperio"
+		'en-us': "Kingambit",
+		'fr-fr': "Scalpereur",
+		'es-es': "Kingambit",
+		'it-it': "Kingambit",
+		'pt-br': "Kingambit",
+		'de-de': "Gladimperio"
 	},
 
 	rarity: "Promo",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 170,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Bisharp",
-		fr: "Scalproie",
-		es: "Bisharp",
-		it: "Bisharp",
-		pt: "Bisharp",
-		de: "Caesurio"
+		'en-us': "Bisharp",
+		'fr-fr': "Scalproie",
+		'es-es': "Bisharp",
+		'it-it': "Bisharp",
+		'pt-br': "Bisharp",
+		'de-de': "Caesurio"
 	},
 	stage: "Stage2",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Elbow Strike",
-			fr: "Coup de Coude",
-			es: "Codazo",
-			it: "Colpogomito",
-			pt: "Golpe de Cotovelo",
-			de: "Ellbogenstoß"
+			'en-us': "Elbow Strike",
+			'fr-fr': "Coup de Coude",
+			'es-es': "Codazo",
+			'it-it': "Colpogomito",
+			'pt-br': "Golpe de Cotovelo",
+			'de-de': "Ellbogenstoß"
 		},
 
 		damage: 40
@@ -45,12 +45,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Slicing Blade",
-			fr: "Lame Tranchante",
-			es: "Cuchilla Cortante",
-			it: "Affettalama",
-			pt: "Lâmina Fatiante",
-			de: "Schwertschneide"
+			'en-us': "Slicing Blade",
+			'fr-fr': "Lame Tranchante",
+			'es-es': "Cuchilla Cortante",
+			'it-it': "Affettalama",
+			'pt-br': "Lâmina Fatiante",
+			'de-de': "Schwertschneide"
 		},
 
 		damage: 100

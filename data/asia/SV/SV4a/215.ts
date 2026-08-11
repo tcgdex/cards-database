@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ホゲータ",
+		'ja-jp': "ホゲータ",
 		'zh-tw': "呆火鱷",
-		id: "Fuecoco"
+		'id-id': "Fuecoco"
 	},
 
 	illustrator: "OKACHEKE",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "温かい 岩の上で 寝転び 四角い うろこから 取り込んだ 熱で 炎エネルギーを 作る。",
+		'ja-jp': "温かい 岩の上で 寝転び 四角い うろこから 取り込んだ 熱で 炎エネルギーを 作る。",
 		'zh-tw': "會躺在溫熱的岩石上，用四角形的鱗片所吸收的 熱能來製造火之能量。",
-		id: "Fuecoco berbaring di atas batu hangat dan menciptakan energi api dengan menyerap energi panas tersebut menggunakan sisik perseginya."
+		'id-id': "Fuecoco berbaring di atas batu hangat dan menciptakan energi api dengan menyerap energi panas tersebut menggunakan sisik perseginya."
 	},
 
 	stage: "Basic",
@@ -28,9 +28,9 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "たいあたり",
+			'ja-jp': "たいあたり",
 			'zh-tw': "撞擊",
-			id: "Serudukan"
+			'id-id': "Serudukan"
 		},
 
 		damage: 20

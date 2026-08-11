@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
@@ -7,23 +7,23 @@ const card: Card = {
 	dexId: [662],
 
 	name: {
-		en: "Fletchinder",
-		fr: "Braisillon",
-		es: "Fletchinder",
+		'en-us': "Fletchinder",
+		'fr-fr': "Braisillon",
+		'es-es': "Fletchinder",
 		'es-mx': "Fletchinder",
-		de: "Dartignis",
-		it: "Fletchinder",
-		pt: "Fletchinder"
+		'de-de': "Dartignis",
+		'it-it': "Fletchinder",
+		'pt-br': "Fletchinder"
 	},
 
 	evolveFrom: {
-		en: "Fletchling",
-		fr: "Passerouge",
-		es: "Fletchling",
+		'en-us': "Fletchling",
+		'fr-fr': "Passerouge",
+		'es-es': "Fletchling",
 		'es-mx': "Fletchling",
-		de: "Dartiri",
-		it: "Fletchling",
-		pt: "Fletchling",
+		'de-de': "Dartiri",
+		'it-it': "Fletchling",
+		'pt-br': "Fletchling",
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -37,13 +37,13 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			en: "Flare",
-			fr: "Flamboiement",
-			es: "Llama",
+			'en-us': "Flare",
+			'fr-fr': "Flamboiement",
+			'es-es': "Llama",
 			'es-mx': "Llama",
-			de: "Flackern",
-			it: "Fiammata",
-			pt: "Chama"
+			'de-de': "Flackern",
+			'it-it': "Fiammata",
+			'pt-br': "Chama"
 		},
 
 		damage: 60

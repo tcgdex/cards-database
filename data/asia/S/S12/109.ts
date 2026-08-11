@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S12"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "洛奇亞V",
-		ja: "ルギアV"
+		'ja-jp': "ルギアV"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,24 +19,24 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "讀風",
-			ja: "かぜよみ"
+			'ja-jp': "かぜよみ"
 		},
 
 		effect: {
 			'zh-tw': "將自己的1張手牌丟棄。然後，從自己的牌庫抽出3張卡。",
-			ja: "自分の手札を1枚トラッシュする。その後、自分の山札を3枚引く。"
+			'ja-jp': "自分の手札を1枚トラッシュする。その後、自分の山札を3枚引く。"
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
 			'zh-tw': "氣旋俯衝",
-			ja: "エアロダイブ"
+			'ja-jp': "エアロダイブ"
 		},
 
 		effect: {
 			'zh-tw': "若希望，將場上的競技場卡丟棄。",
-			ja: "のぞむなら、場に出ているスタジアムをトラッシュする。"
+			'ja-jp': "のぞむなら、場に出ているスタジアムをトラッシュする。"
 		},
 
 		damage: 130,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Alolan Graveler",
-		fr: "Gravalanch d’Alola",
-		es: "Graveler de Alola",
-		it: "Graveler di Alola",
-		pt: "Graveler de Alola",
-		de: "Alola-Georok"
+		'en-us': "Alolan Graveler",
+		'fr-fr': "Gravalanch d’Alola",
+		'es-es': "Graveler de Alola",
+		'it-it': "Graveler di Alola",
+		'pt-br': "Graveler de Alola",
+		'de-de': "Alola-Georok"
 	},
 
 	illustrator: "kirisAki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Alolan Geodude",
-		fr: "Racaillou d’Alola",
+		'en-us': "Alolan Geodude",
+		'fr-fr': "Racaillou d’Alola",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Corkscrew Punch",
-				fr: "Poing Tire-Bouchon",
-				es: "Puño Tirabuzón",
-				it: "Pugno Rotante",
-				pt: "Soco Saca-rolha",
-				de: "Korkenzieherhieb"
+				'en-us': "Corkscrew Punch",
+				'fr-fr': "Poing Tire-Bouchon",
+				'es-es': "Puño Tirabuzón",
+				'it-it': "Pugno Rotante",
+				'pt-br': "Soco Saca-rolha",
+				'de-de': "Korkenzieherhieb"
 			},
 
 			damage: 30,
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Self-Destruct",
-				fr: "Destruction",
-				es: "Autodestrucción",
-				it: "Autodistruzione",
-				pt: "Autodestruição",
-				de: "Finale"
+				'en-us': "Self-Destruct",
+				'fr-fr': "Destruction",
+				'es-es': "Autodestrucción",
+				'it-it': "Autodistruzione",
+				'pt-br': "Autodestruição",
+				'de-de': "Finale"
 			},
 			effect: {
-				en: "This Pokémon does 100 damage to itself.",
-				fr: "Ce Pokémon s’inflige 100 dégâts.",
-				es: "Este Pokémon se hace 100 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 100 danni a se stesso.",
-				pt: "Este Pokémon causa 100 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 100 Schadenspunkte zu."
+				'en-us': "This Pokémon does 100 damage to itself.",
+				'fr-fr': "Ce Pokémon s’inflige 100 dégâts.",
+				'es-es': "Este Pokémon se hace 100 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 100 danni a se stesso.",
+				'pt-br': "Este Pokémon causa 100 pontos de dano a si mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 100 Schadenspunkte zu."
 			},
 			damage: 100,
 
@@ -95,7 +95,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its preferred food is dravite. After it has eaten this mineral, crystals form inside the Pokémon, rising to the surface of part of its body.",
+		'en-us': "Its preferred food is dravite. After it has eaten this mineral, crystals form inside the Pokémon, rising to the surface of part of its body.",
 	},
 
 	thirdParty: {

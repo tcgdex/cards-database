@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Muk",
-		fr: "Grotadmorv",
-		es: "Muk",
-		it: "Muk",
-		pt: "Muk",
-		de: "Sleimok"
+		'en-us': "Muk",
+		'fr-fr': "Grotadmorv",
+		'es-es': "Muk",
+		'it-it': "Muk",
+		'pt-br': "Muk",
+		'de-de': "Sleimok"
 	},
 
 	rarity: "Uncommon",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Grimer",
-		fr: "Tadmorv"
+		'en-us': "Grimer",
+		'fr-fr': "Tadmorv"
 	},
 
 	stage: "Stage1",
@@ -30,21 +30,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Poison Sacs",
-			fr: "Sacs de Poison",
-			es: "Sacos de Veneno",
-			it: "Sacche Velenose",
-			pt: "Bolsas de Veneno",
-			de: "Gifttaschen"
+			'en-us': "Poison Sacs",
+			'fr-fr': "Sacs de Poison",
+			'es-es': "Sacos de Veneno",
+			'it-it': "Sacche Velenose",
+			'pt-br': "Bolsas de Veneno",
+			'de-de': "Gifttaschen"
 		},
 
 		effect: {
-			en: "Your opponent's Poisoned Pokémon don't recover from that Special Condition when they evolve or devolve.",
-			fr: "Les Pokémon Empoisonnés de votre adversaire ne guérissent pas de cet État Spécial lorsqu'ils évoluent ou dés-évoluent.",
-			es: "Los Pokémon Envenenados de tu rival no se recuperan de esa Condición Especial cuando evolucionan o involucionan.",
-			it: "I Pokémon avvelenati del tuo avversario non guariscono da quella condizione speciale quando si evolvono o se ne annulla l'evoluzione.",
-			pt: "Os Pokémon Envenenados do seu oponente não se recuperarão daquela Condição Especial quando eles evoluírem ou suas evoluções forem revertidas.",
-			de: "Die vergifteten Pokémon deines Gegners erholen sich nicht von jenem Speziellen Zustand, wenn sie sich entwickeln oder rückentwickeln."
+			'en-us': "Your opponent's Poisoned Pokémon don't recover from that Special Condition when they evolve or devolve.",
+			'fr-fr': "Les Pokémon Empoisonnés de votre adversaire ne guérissent pas de cet État Spécial lorsqu'ils évoluent ou dés-évoluent.",
+			'es-es': "Los Pokémon Envenenados de tu rival no se recuperan de esa Condición Especial cuando evolucionan o involucionan.",
+			'it-it': "I Pokémon avvelenati del tuo avversario non guariscono da quella condizione speciale quando si evolvono o se ne annulla l'evoluzione.",
+			'pt-br': "Os Pokémon Envenenados do seu oponente não se recuperarão daquela Condição Especial quando eles evoluírem ou suas evoluções forem revertidas.",
+			'de-de': "Die vergifteten Pokémon deines Gegners erholen sich nicht von jenem Speziellen Zustand, wenn sie sich entwickeln oder rückentwickeln."
 		}
 	}],
 
@@ -52,21 +52,21 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Toxic Strike",
-			fr: "Frappe Toxique",
-			es: "Golpe Tóxico",
-			it: "Attacco Tossico",
-			pt: "Golpe Tóxico",
-			de: "Giftschlag"
+			'en-us': "Toxic Strike",
+			'fr-fr': "Frappe Toxique",
+			'es-es': "Golpe Tóxico",
+			'it-it': "Attacco Tossico",
+			'pt-br': "Golpe Tóxico",
+			'de-de': "Giftschlag"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		},
 
 		damage: 100
@@ -91,7 +91,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It's thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
+		'en-us': "It's thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
 	},
 
 	thirdParty: {

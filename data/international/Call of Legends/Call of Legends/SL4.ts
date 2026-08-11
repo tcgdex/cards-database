@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Groudon",
-		fr: "Groudon",
-		de: "Groudon"
+		'en-us': "Groudon",
+		'fr-fr': "Groudon",
+		'de-de': "Groudon"
 	},
 
 	illustrator: "Yuri Umemura",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Volcano Stomp",
-				fr: "Écrasement volcanique",
-				de: "Vulkanstampfer"
+				'en-us': "Volcano Stomp",
+				'fr-fr': "Écrasement volcanique",
+				'de-de': "Vulkanstampfer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard the top 4 cards of your opponent's deck. If tails, discard the top 4 cards of your deck.",
-				fr: "Lancez une pièce. Si c’est face, défaussez les 4 premières cartes du deck de votre adversaire. Si c’est pile, défaussez les 4 premières cartes de votre deck.",
-				de: "Wirf eine Münze. Bei \"Kopf\" lege die obersten 4 Karten vom Deck deines Gegners auf seinen Ablagestapel. Bei \"Zahl\" lege die obersten 4 Karten von deinem Deck auf deinen Ablagestapel."
+				'en-us': "Flip a coin. If heads, discard the top 4 cards of your opponent's deck. If tails, discard the top 4 cards of your deck.",
+				'fr-fr': "Lancez une pièce. Si c’est face, défaussez les 4 premières cartes du deck de votre adversaire. Si c’est pile, défaussez les 4 premières cartes de votre deck.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" lege die obersten 4 Karten vom Deck deines Gegners auf seinen Ablagestapel. Bei \"Zahl\" lege die obersten 4 Karten von deinem Deck auf deinen Ablagestapel."
 			},
 			damage: 80,
 
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Said to have expanded the lands by evaporating water with raging heat. It battled titanically with Kyogre.",
+		'en-us': "Said to have expanded the lands by evaporating water with raging heat. It battled titanically with Kyogre.",
 	},
 
 	variants: [

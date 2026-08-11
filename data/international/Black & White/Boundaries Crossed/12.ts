@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Servine",
-		fr: "Lianaja",
-		es: "Servine",
-		it: "Servine",
-		pt: "Servine",
-		de: "Efoserp"
+		'en-us': "Servine",
+		'fr-fr': "Lianaja",
+		'es-es': "Servine",
+		'it-it': "Servine",
+		'pt-br': "Servine",
+		'de-de': "Efoserp"
 	},
 
 	illustrator: "Mizue",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Snivy",
-		fr: "Vipélierre",
+		'en-us': "Snivy",
+		'fr-fr': "Vipélierre",
 	},
 
 	stage: "Stage1",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Vine Whip",
-				fr: "Fouet Lianes",
+				'en-us': "Vine Whip",
+				'fr-fr': "Fouet Lianes",
 			},
 
 			damage: 20,
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Slash",
-				fr: "Double Lame",
+				'en-us': "Double Slash",
+				'fr-fr': "Double Lame",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 40 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 40,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It moves along the ground as if sliding. Its swift movements befuddle its foes, and it then attacks with a vine whip.",
+		'en-us': "It moves along the ground as if sliding. Its swift movements befuddle its foes, and it then attacks with a vine whip.",
 	},
 
 	thirdParty: {

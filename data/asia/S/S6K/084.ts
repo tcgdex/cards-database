@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "セレビィVMAX",
+		'ja-jp': "セレビィVMAX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "いやしのもり" },
 			effect: {
-				ja: "自分の番に1回使える。自分の[草]ポケモン全員のHPを、それぞれ「20」回復する。",
+				'ja-jp': "自分の番に1回使える。自分の[草]ポケモン全員のHPを、それぞれ「20」回復する。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "自分の山札からポケモンを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札からポケモンを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "セレビィV",
+		'ja-jp': "セレビィV",
 	},
 
 	retreat: 1,

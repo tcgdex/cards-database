@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Flaaffy",
-		fr: "Lainergie",
-		de: "Waaty"
+		'en-us': "Flaaffy",
+		'fr-fr': "Lainergie",
+		'de-de': "Waaty"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mareep",
-		fr: "Wattouat"
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Wave",
-				fr: "Cage-éclair",
-				de: "Thunder Wave"
+				'en-us': "Thunder Wave",
+				'fr-fr': "Cage-éclair",
+				'de-de': "Thunder Wave"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder",
-				fr: "Fatal-foudre",
-				de: "Thunder"
+				'en-us': "Thunder",
+				'fr-fr': "Fatal-foudre",
+				'de-de': "Thunder"
 			},
 			effect: {
-				en: "Flaaffy does 10 damage to itself.",
-				fr: "Lainergie s'inflige 10 dégâts.",
-				de: "Flaaffy does 10 damage to itself."
+				'en-us': "Flaaffy does 10 damage to itself.",
+				'fr-fr': "Lainergie s'inflige 10 dégâts.",
+				'de-de': "Flaaffy does 10 damage to itself."
 			},
 			damage: 50,
 

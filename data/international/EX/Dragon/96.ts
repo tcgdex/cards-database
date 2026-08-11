@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Muk ex",
-		fr: "Grotadmorv ex",
-		de: "Sleimok ex"
+		'en-us': "Muk ex",
+		'fr-fr': "Grotadmorv ex",
+		'de-de': "Sleimok ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Grimer",
-		fr: "Tadmorv"
+		'en-us': "Grimer",
+		'fr-fr': "Tadmorv"
 	},
 
 	suffix: "ex",
@@ -33,14 +33,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Toxic Gas",
-				fr: "Gaz chimique",
-				de: "Toxic Gas"
+				'en-us': "Toxic Gas",
+				'fr-fr': "Gaz chimique",
+				'de-de': "Toxic Gas"
 			},
 			effect: {
-				en: "As long as Muk ex is your Active Pokémon, ignore all Poké-Powers and Poké-Bodies other than Toxic Gas.",
-				fr: "Tant que Grotadmorv ex est votre Pokémon Actif, ignorez tous les Poké-Powers et les Poké-Bodies autres que Puanteur.",
-				de: "As long as Muk is your active Pokémon, ignore all Poke-Powers and Poke-Bodies other than Toxic Gas."
+				'en-us': "As long as Muk ex is your Active Pokémon, ignore all Poké-Powers and Poké-Bodies other than Toxic Gas.",
+				'fr-fr': "Tant que Grotadmorv ex est votre Pokémon Actif, ignorez tous les Poké-Powers et les Poké-Bodies autres que Puanteur.",
+				'de-de': "As long as Muk is your active Pokémon, ignore all Poke-Powers and Poke-Bodies other than Toxic Gas."
 			},
 		},
 	],
@@ -51,14 +51,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Breath",
-				fr: "Haleine empoisonnée",
-				de: "Poison Breath"
+				'en-us': "Poison Breath",
+				'fr-fr': "Haleine empoisonnée",
+				'de-de': "Poison Breath"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned"
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "The Defending Pokémon is now Poisoned"
 			},
 			damage: 10,
 
@@ -70,14 +70,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slimy Water",
-				fr: "Eau gluante",
-				de: "Slimy Water"
+				'en-us': "Slimy Water",
+				'fr-fr': "Eau gluante",
+				'de-de': "Slimy Water"
 			},
 			effect: {
-				en: "Does 40 damage plus 10 more damage for each Colorless Energy in the Defending Pokémon's Retreat Cost (after applying effects to the Retreat Cost).",
-				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  dans le Coût de retraite du Pokémon Défenseur (après application des effets sur le Coût de retraite).",
-				de: "Does 40 damage plus 10 more damage for each  Energy in the Defending Pokémon's Retreat Cost (after applying effects to the Retreat Cost)."
+				'en-us': "Does 40 damage plus 10 more damage for each Colorless Energy in the Defending Pokémon's Retreat Cost (after applying effects to the Retreat Cost).",
+				'fr-fr': "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  dans le Coût de retraite du Pokémon Défenseur (après application des effets sur le Coût de retraite).",
+				'de-de': "Does 40 damage plus 10 more damage for each  Energy in the Defending Pokémon's Retreat Cost (after applying effects to the Retreat Cost)."
 			},
 			damage: "40+",
 

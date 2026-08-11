@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Zangoose",
-		fr: "Mangriff",
-		de: "Sengo"
+		'en-us': "Zangoose",
+		'fr-fr': "Mangriff",
+		'de-de': "Sengo"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Extra Claws",
-				fr: "Griffes supplémentaires",
-				de: "Extra Claws"
+				'en-us': "Extra Claws",
+				'fr-fr': "Griffes supplémentaires",
+				'de-de': "Extra Claws"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Pokémon-ex, this attack does 10 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
-				de: "If the Defending Pokémon is Pokémon-ex, this attack does 10 damage plus 20 more damage."
+				'en-us': "If the Defending Pokémon is Pokémon-ex, this attack does 10 damage plus 20 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon is Pokémon-ex, this attack does 10 damage plus 20 more damage."
 			},
 			damage: "10+",
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-attaque",
-				de: "Ruckzuckhieb"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-attaque",
+				'de-de': "Ruckzuckhieb"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
 			},
 			damage: "20+",
 

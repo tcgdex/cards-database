@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Krabby",
-		fr: "Krabby",
+		'en-us': "Krabby",
+		'fr-fr': "Krabby",
 	},
 
 	illustrator: "kirisAki",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Vice Grip",
-				fr: "Force Poigne",
+				'en-us': "Vice Grip",
+				'fr-fr': "Force Poigne",
 			},
 
 			damage: 10,
@@ -44,8 +44,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Crabhammer",
-				fr: "Pince-Masse",
+				'en-us': "Crabhammer",
+				'fr-fr': "Pince-Masse",
 			},
 
 			damage: 50,
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "If it senses danger approaching, it cloaks itself with bubbles from its mouth so it will look bigger.",
+		'en-us': "If it senses danger approaching, it cloaks itself with bubbles from its mouth so it will look bigger.",
 	},
 
 	thirdParty: {

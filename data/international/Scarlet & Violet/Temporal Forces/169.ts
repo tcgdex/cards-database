@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charjabug",
-		fr: "Chrysapile",
-		es: "Charjabug",
-		it: "Charjabug",
-		pt: "Charjabug",
-		de: "Akkup"
+		'en-us': "Charjabug",
+		'fr-fr': "Chrysapile",
+		'es-es': "Charjabug",
+		'it-it': "Charjabug",
+		'pt-br': "Charjabug",
+		'de-de': "Akkup"
 	},
 
 	rarity: "Illustration rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Lightning"],
 	evolveFrom: {
-		en: "Grubbin",
-		fr: "Larvibule",
-		es: "Grubbin",
-		it: "Grubbin",
-		pt: "Grubbin",
-		de: "Mabula"
+		'en-us': "Grubbin",
+		'fr-fr': "Larvibule",
+		'es-es': "Grubbin",
+		'it-it': "Grubbin",
+		'pt-br': "Grubbin",
+		'de-de': "Mabula"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Lightning", "Lightning"],
 
 		name: {
-			en: "Static Shock",
-			fr: "Choc Statique",
-			es: "Impacto Estático",
-			it: "Shock Statico",
-			pt: "Choque de Estática",
-			de: "Statischer Schock"
+			'en-us': "Static Shock",
+			'fr-fr': "Choc Statique",
+			'es-es': "Impacto Estático",
+			'it-it': "Shock Statico",
+			'pt-br': "Choque de Estática",
+			'de-de': "Statischer Schock"
 		},
 
 		damage: 60
@@ -53,7 +53,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "While its durable shell protects it from attacks, Charjabug strikes at enemies with jolts of electricity discharged from the tips of its jaws.",
+		'en-us': "While its durable shell protects it from attacks, Charjabug strikes at enemies with jolts of electricity discharged from the tips of its jaws.",
 	},
 
 	variants: [

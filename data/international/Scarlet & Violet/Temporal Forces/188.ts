@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gouging Fire ex",
-		fr: "Feu-Perçant-ex",
-		es: "Flamariete ex",
-		it: "Vampeaguzze-ex",
-		pt: "Fogo Corrosão ex",
-		de: "Keilflamme-ex"
+		'en-us': "Gouging Fire ex",
+		'fr-fr': "Feu-Perçant-ex",
+		'es-es': "Flamariete ex",
+		'it-it': "Vampeaguzze-ex",
+		'pt-br': "Fogo Corrosão ex",
+		'de-de': "Keilflamme-ex"
 	},
 
 	rarity: "Ultra Rare",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Heat Blast",
-			fr: "Explosion de Chaleur",
-			es: "Explosión de Calor",
-			it: "Caldobomba",
-			pt: "Raio de Calor",
-			de: "Hitzestoß"
+			'en-us': "Heat Blast",
+			'fr-fr': "Explosion de Chaleur",
+			'es-es': "Explosión de Calor",
+			'it-it': "Caldobomba",
+			'pt-br': "Raio de Calor",
+			'de-de': "Hitzestoß"
 		},
 
 		damage: 60
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Blaze Blitz",
-			fr: "Assaut Flamboyant",
-			es: "Envite Llameante",
-			it: "Carica Infuocata",
-			pt: "Avanço Incendiário",
-			de: "Feuerblitz"
+			'en-us': "Blaze Blitz",
+			'fr-fr': "Assaut Flamboyant",
+			'es-es': "Envite Llameante",
+			'it-it': "Carica Infuocata",
+			'pt-br': "Avanço Incendiário",
+			'de-de': "Feuerblitz"
 		},
 
 		effect: {
-			en: "This Pokémon can't use Blaze Blitz again until it leaves the Active Spot.",
-			fr: "Ce Pokémon ne peut pas réutiliser Assaut Flamboyant tant qu'il ne quitte pas le Poste Actif.",
-			es: "Este Pokémon no puede usar Envite Llameante de nuevo hasta que deje el Puesto Activo.",
-			it: "Questo Pokémon non può più usare Carica Infuocata finché non lascia la posizione attiva.",
-			pt: "Este Pokémon não poderá usar Avanço Incendiário novamente até sair do Campo Ativo.",
-			de: "Dieses Pokémon kann Feuerblitz nicht wieder einsetzen, bis es die Aktive Position verlässt."
+			'en-us': "This Pokémon can't use Blaze Blitz again until it leaves the Active Spot.",
+			'fr-fr': "Ce Pokémon ne peut pas réutiliser Assaut Flamboyant tant qu'il ne quitte pas le Poste Actif.",
+			'es-es': "Este Pokémon no puede usar Envite Llameante de nuevo hasta que deje el Puesto Activo.",
+			'it-it': "Questo Pokémon non può più usare Carica Infuocata finché non lascia la posizione attiva.",
+			'pt-br': "Este Pokémon não poderá usar Avanço Incendiário novamente até sair do Campo Ativo.",
+			'de-de': "Dieses Pokémon kann Feuerblitz nicht wieder einsetzen, bis es die Aktive Position verlässt."
 		},
 
 		damage: 260

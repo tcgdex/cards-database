@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sneasel",
-		fr: "Farfuret",
-		es: "Sneasel",
+		'en-us': "Sneasel",
+		'fr-fr': "Farfuret",
+		'es-es': "Sneasel",
 		'es-mx': "Sneasel",
-		de: "Sniebel",
-		it: "Sneasel",
-		pt: "Sneasel"
+		'de-de': "Sniebel",
+		'it-it': "Sneasel",
+		'pt-br': "Sneasel"
 	},
 
 	illustrator: "Krgc",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Cut",
-			fr: "Coupe",
-			es: "Corte",
+			'en-us': "Cut",
+			'fr-fr': "Coupe",
+			'es-es': "Corte",
 			'es-mx': "Corte",
-			de: "Zerschneider",
-			it: "Taglio",
-			pt: "Cortar"
+			'de-de': "Zerschneider",
+			'it-it': "Taglio",
+			'pt-br': "Cortar"
 		},
 
 		damage: 10
@@ -40,23 +40,23 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			en: "Beset",
-			fr: "Piégeage",
-			es: "Acorralar",
+			'en-us': "Beset",
+			'fr-fr': "Piégeage",
+			'es-es': "Acorralar",
 			'es-mx': "Acorralar",
-			de: "Einengen",
-			it: "Importunare",
-			pt: "Atazanar"
+			'de-de': "Einengen",
+			'it-it': "Importunare",
+			'pt-br': "Atazanar"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
-			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
-			es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
+			'en-us': "During your opponent's next turn, the Defending Pokémon can't retreat.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
+			'es-es': "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
 			'es-mx': "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
-			de: "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen.",
-			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-			pt: "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar."
+			'de-de': "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen.",
+			'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+			'pt-br': "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar."
 		},
 
 		damage: 30
@@ -72,7 +72,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "This is a smart and sneaky Pokémon. A pair may work together to steal eggs by having one lure the parents away.",
+		'en-us': "This is a smart and sneaky Pokémon. A pair may work together to steal eggs by having one lure the parents away.",
 	},
 
 	variants: [

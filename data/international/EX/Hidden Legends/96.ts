@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Ninetales ex",
-		fr: "Feunard ex",
-		de: "Vulnona ex"
+		'en-us': "Ninetales ex",
+		'fr-fr': "Feunard ex",
+		'de-de': "Vulnona ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vulpix",
-		fr: "Goupix"
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix"
 	},
 
 	suffix: "ex",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Intense Glare",
-				fr: "Regard intense",
-				de: "Intense Glare"
+				'en-us': "Intense Glare",
+				'fr-fr': "Regard intense",
+				'de-de': "Intense Glare"
 			},
 			effect: {
-				en: "Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. The new Defending Pokémon is now Burned and Confused.",
-				fr: "Échangez 1 des Pokémon de Banc de votre adversaire avec 1 des Pokémon Défenseurs. Votre adversaire choisit le Pokémon Défenseur à échanger. Le nouveau Pokémon Défenseur est maintenant Brûlé et Confus.",
-				de: "Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. The new Defending Pokémon is now Burned and Confused."
+				'en-us': "Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. The new Defending Pokémon is now Burned and Confused.",
+				'fr-fr': "Échangez 1 des Pokémon de Banc de votre adversaire avec 1 des Pokémon Défenseurs. Votre adversaire choisit le Pokémon Défenseur à échanger. Le nouveau Pokémon Défenseur est maintenant Brûlé et Confus.",
+				'de-de': "Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. The new Defending Pokémon is now Burned and Confused."
 			},
 
 		},
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Blast",
-				fr: "Déflagration",
-				de: "Fire Blast"
+				'en-us': "Fire Blast",
+				'fr-fr': "Déflagration",
+				'de-de': "Fire Blast"
 			},
 			effect: {
-				en: "Discard a Fire Energy attached to Ninetales ex.",
-				fr: "Défaussez une Énergie  attachée à Feunard ex.",
-				de: "Discard a  Energy card attached to Ninetales ex."
+				'en-us': "Discard a Fire Energy attached to Ninetales ex.",
+				'fr-fr': "Défaussez une Énergie  attachée à Feunard ex.",
+				'de-de': "Discard a  Energy card attached to Ninetales ex."
 			},
 			damage: 100,
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Blizzaroi",
-		en: "Abomasnow",
-		es: "Abomasnow",
-		it: "Abomasnow",
-		pt: "Abomasnow",
-		de: "Rexblisar"
+		'fr-fr': "Blizzaroi",
+		'en-us': "Abomasnow",
+		'es-es': "Abomasnow",
+		'it-it': "Abomasnow",
+		'pt-br': "Abomasnow",
+		'de-de': "Rexblisar"
 	},
 
 	rarity: "Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 150,
 	types: ["Grass"],
 	evolveFrom: {
-		fr: "Blizzi",
-		en: "Snover",
-		es: "Snover",
-		it: "Snover",
-		pt: "Snover",
-		de: "Shnebedeck"
+		'fr-fr': "Blizzi",
+		'en-us': "Snover",
+		'es-es': "Snover",
+		'it-it': "Snover",
+		'pt-br': "Snover",
+		'de-de': "Shnebedeck"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			fr: "Désastre Glaçant",
-			en: "Freezing Disaster",
-			es: "Desastre Gélido",
-			it: "Disastro Congelante",
-			pt: "Desastre Congelante",
-			de: "Frostiges Desaster"
+			'fr-fr': "Désastre Glaçant",
+			'en-us': "Freezing Disaster",
+			'es-es': "Desastre Gélido",
+			'it-it': "Disastro Congelante",
+			'pt-br': "Desastre Congelante",
+			'de-de': "Frostiges Desaster"
 		},
 
 		effect: {
-			fr: "Les Pokémon (les vôtres et ceux de votre adversaire) ne peuvent pas être soignés.",
-			en: "Pokémon (both yours and your opponent's) can't be healed.",
-			es: "Los Pokémon (tanto tuyos como de tu rival) no pueden ser curados.",
-			it: "I Pokémon, sia tuoi che del tuo avversario, non possono essere curati.",
-			pt: "Os Pokémon (seus e do seu oponente) não podem ser curados.",
-			de: "Pokémon (deine und die deines Gegners) können nicht geheilt werden."
+			'fr-fr': "Les Pokémon (les vôtres et ceux de votre adversaire) ne peuvent pas être soignés.",
+			'en-us': "Pokémon (both yours and your opponent's) can't be healed.",
+			'es-es': "Los Pokémon (tanto tuyos como de tu rival) no pueden ser curados.",
+			'it-it': "I Pokémon, sia tuoi che del tuo avversario, non possono essere curati.",
+			'pt-br': "Os Pokémon (seus e do seu oponente) não podem ser curados.",
+			'de-de': "Pokémon (deine und die deines Gegners) können nicht geheilt werden."
 		}
 	}],
 
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			fr: "Poing Magnum",
-			en: "Magnum Punch",
-			es: "Puño Mágnum",
-			it: "Superpugno",
-			pt: "Soco Magnum",
-			de: "Magnum-Schlag"
+			'fr-fr': "Poing Magnum",
+			'en-us': "Magnum Punch",
+			'es-es': "Puño Mágnum",
+			'it-it': "Superpugno",
+			'pt-br': "Soco Magnum",
+			'de-de': "Magnum-Schlag"
 		},
 
 		damage: 110
@@ -96,7 +96,7 @@ const card: Card = {
 	illustrator: "Ryuta Fuse",
 
 	description: {
-		en: "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards.",
+		'en-us': "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards.",
 	},
 }
 

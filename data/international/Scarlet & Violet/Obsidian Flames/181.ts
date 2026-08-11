@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Gourmelet",
-		en: "Lechonk",
-		es: "Lechonk",
-		it: "Lechonk",
-		pt: "Lechonk",
-		de: "Ferkuli"
+		'fr-fr': "Gourmelet",
+		'en-us': "Lechonk",
+		'es-es': "Lechonk",
+		'it-it': "Lechonk",
+		'pt-br': "Lechonk",
+		'de-de': "Ferkuli"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Voix Enjôleuse",
-			en: "Disarming Voice",
-			es: "Voz Cautivadora",
-			it: "Incantavoce",
-			pt: "Voz Desarmante",
-			de: "Säuselstimme"
+			'fr-fr': "Voix Enjôleuse",
+			'en-us': "Disarming Voice",
+			'es-es': "Voz Cautivadora",
+			'it-it': "Incantavoce",
+			'pt-br': "Voz Desarmante",
+			'de-de': "Säuselstimme"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			en: "Your opponent's Active Pokémon is now Confused.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
 		damage: 20
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
+		'en-us': "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
 	},
 
 	variants: [

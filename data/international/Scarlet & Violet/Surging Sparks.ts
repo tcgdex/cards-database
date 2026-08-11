@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Scarlet & Violet'
 
 const set: Set = {
 	id: "sv08",
 
 	name: {
-		de: "Stürmische Funken",
-		en: "Surging Sparks",
-		es: "Chispas Fulgurantes",
-		fr: "Étincelles Déferlantes",
-		it: "Scintille Folgoranti",
-		pt: "Fagulhas Impetuosas"
+		'de-de': "Stürmische Funken",
+		'en-us': "Surging Sparks",
+		'es-es': "Chispas Fulgurantes",
+		'fr-fr': "Étincelles Déferlantes",
+		'it-it': "Scintille Folgoranti",
+		'pt-br': "Fagulhas Impetuosas"
 	},
 
 	serie: serie,
@@ -23,7 +23,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "SSP",
-		fr: "ETD"
+		'fr-fr': "ETD"
 	},
 
 	thirdParty: {

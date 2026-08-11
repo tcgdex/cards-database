@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロンベル",
+		'ja-jp': "ロンベル",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "アクアリフト",
+				'ja-jp': "アクアリフト",
 			},
 			effect: {
-				ja: "Lombreに水エネルギーが付着している場合、Lombreのリトリートコストは0です。",
+				'ja-jp': "Lombreに水エネルギーが付着している場合、Lombreのリトリートコストは0です。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "待ち伏せ",
+				'ja-jp': "待ち伏せ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて20ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて20ダメージを与えます。",
 			},
 		},
 	],

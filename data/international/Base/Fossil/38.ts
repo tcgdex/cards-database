@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fossil'
 
 const card: Card = {
 	name: {
-		en: "Kingler",
-		fr: "Krabboss",
-		de: "Kingler"
+		'en-us': "Kingler",
+		'fr-fr': "Krabboss",
+		'de-de': "Kingler"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Krabby",
-		fr: "Krabby"
+		'en-us': "Krabby",
+		'fr-fr': "Krabby"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Flail",
-				fr: "Nageoire",
-				de: "Dreschflegel"
+				'en-us': "Flail",
+				'fr-fr': "Nageoire",
+				'de-de': "Dreschflegel"
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on Kingler.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Krabboss.",
-				de: "Fügt 10 Schadenspunkte mal die Anzahl der Schadensmarken auf Kingler zu."
+				'en-us': "Does 10 damage times the number of damage counters on Kingler.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Krabboss.",
+				'de-de': "Fügt 10 Schadenspunkte mal die Anzahl der Schadensmarken auf Kingler zu."
 			},
 			damage: "10x",
 
@@ -55,9 +55,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crabhammer",
-				fr: "Pince-masse",
-				de: "Krabbhammer"
+				'en-us': "Crabhammer",
+				'fr-fr': "Pince-masse",
+				'de-de': "Krabbhammer"
 			},
 
 			damage: 40,
@@ -75,8 +75,8 @@ const card: Card = {
 
 
 	description: {
-		en: "The large pincer has 10,000 horsepower of crushing power. However, its huge size makes it unwieldy to use.",
-		fr: "Son énorme pince peut déployer une pression de 1000 Kg. Mais elle est très encombrante."
+		'en-us': "The large pincer has 10,000 horsepower of crushing power. However, its huge size makes it unwieldy to use.",
+		'fr-fr': "Son énorme pince peut déployer une pression de 1000 Kg. Mais elle est très encombrante."
 	},
 
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Psyduck",
-		fr: "Psykokwak",
-		de: "Enton"
+		'en-us': "Psyduck",
+		'fr-fr': "Psykokwak",
+		'de-de': "Enton"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Headache",
-				fr: "Migraine",
-				de: "Headache"
+				'en-us': "Headache",
+				'fr-fr': "Migraine",
+				'de-de': "Headache"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent can't play any Trainer, Supporter, or Stadium cards from his or her hand during his or her next turn.",
-				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Dresseur, Supporter ou Stade de sa main lors de son prochain tour.",
-				de: "Flip a coin. If heads, your opponent can't play any Trainer, Supporter, or Stadium cards from his or her hand during his or her next turn."
+				'en-us': "Flip a coin. If heads, your opponent can't play any Trainer, Supporter, or Stadium cards from his or her hand during his or her next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Dresseur, Supporter ou Stade de sa main lors de son prochain tour.",
+				'de-de': "Flip a coin. If heads, your opponent can't play any Trainer, Supporter, or Stadium cards from his or her hand during his or her next turn."
 			},
 
 		},
@@ -43,14 +43,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Latent Power",
-				fr: "Puissance dormante",
-				de: "Latent Power"
+				'en-us': "Latent Power",
+				'fr-fr': "Puissance dormante",
+				'de-de': "Latent Power"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does no damage to the Defending Pokémon. Instead, Psyduck is now Confused.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque n'inflige pas de dégâts au Pokémon Défenseur. Psykokwak est alors Confus.",
-				de: "Flip a coin. If tails, this attack does no damage to the Defending Pokémon. Instead, Psyduck is now Confused."
+				'en-us': "Flip a coin. If tails, this attack does no damage to the Defending Pokémon. Instead, Psyduck is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque n'inflige pas de dégâts au Pokémon Défenseur. Psykokwak est alors Confus.",
+				'de-de': "Flip a coin. If tails, this attack does no damage to the Defending Pokémon. Instead, Psyduck is now Confused."
 			},
 			damage: 30,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Overwhelmed by enigmatic abilities, it suffers a constant headache. It sometimes uses mysterious powers."
+		'en-us': "Overwhelmed by enigmatic abilities, it suffers a constant headache. It sometimes uses mysterious powers."
 	},
 
 	variants: [

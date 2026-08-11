@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [579],
 
 	name: {
-		en: "Reuniclus"
+		'en-us': "Reuniclus"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Duosion"
+		'en-us': "Duosion"
 	},
 
 	description: {
-		en: "It's said that drinking the liquid surrounding\nReuniclus grants wisdom. Problem is, the liquid is\nhighly toxic to anything besides Reuniclus itself."
+		'en-us': "It's said that drinking the liquid surrounding\nReuniclus grants wisdom. Problem is, the liquid is\nhighly toxic to anything besides Reuniclus itself."
 	},
 
 	stage: "Stage2",
@@ -30,17 +30,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Infinite Increase"
+			'en-us': "Infinite Increase"
 		},
 
 		effect: {
-			en: "This Pokémon gets +30 HP for each {P} Energy attached to it."
+			'en-us': "This Pokémon gets +30 HP for each {P} Energy attached to it."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Psypunch"
+			'en-us': "Psypunch"
 		},
 
 		damage: 90,

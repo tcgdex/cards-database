@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Applin",
-		fr: "Verpom",
-		es: "Applin",
-		it: "Applin",
-		pt: "Applin",
-		de: "Knapfel"
+		'en-us': "Applin",
+		'fr-fr': "Verpom",
+		'es-es': "Applin",
+		'it-it': "Applin",
+		'pt-br': "Applin",
+		'de-de': "Knapfel"
 	},
 
 	rarity: "Common",
@@ -23,12 +23,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Rollout",
-			fr: "Roulade",
-			es: "Rodar",
-			it: "Rotolamento",
-			pt: "Rollout",
-			de: "Walzer"
+			'en-us': "Rollout",
+			'fr-fr': "Roulade",
+			'es-es': "Rodar",
+			'it-it': "Rotolamento",
+			'pt-br': "Rollout",
+			'de-de': "Walzer"
 		},
 
 		damage: 10,
@@ -43,7 +43,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "As soon as it's born, it burrows into an apple. Not only does the apple serve as its food source, but the flavor of the fruit determines its evolution."
+		'en-us': "As soon as it's born, it burrows into an apple. Not only does the apple serve as its food source, but the flavor of the fruit determines its evolution."
 	},
 
 	dexId: [840],

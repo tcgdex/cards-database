@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Groudon",
-		fr: "Groudon",
-		de: "Groudon"
+		'en-us': "Groudon",
+		'fr-fr': "Groudon",
+		'de-de': "Groudon"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -30,9 +30,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud Shot",
-				fr: "Tir de boue",
-				de: "Mud Shot"
+				'en-us': "Mud Shot",
+				'fr-fr': "Tir de boue",
+				'de-de': "Mud Shot"
 			},
 
 			damage: 20,
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Earthquake",
-				fr: "Séisme",
-				de: "Earthquake"
+				'en-us': "Earthquake",
+				'fr-fr': "Séisme",
+				'de-de': "Earthquake"
 			},
 			effect: {
-				en: "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon de votre Banc. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Does 10 damage to each of your benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun des Pokémon de votre Banc. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Does 10 damage to each of your benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 60,
 

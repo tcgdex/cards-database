@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イシズマイ",
+		'ja-jp': "イシズマイ",
 	},
 
 	illustrator: "Tetsu Kayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "石を 溶かす 液体を 口から 分泌するので 硬い 石でも 簡単に 穴を 開けられるのだ。",
+		'ja-jp': "石を 溶かす 液体を 口から 分泌するので 硬い 石でも 簡単に 穴を 開けられるのだ。",
 	},
 
 	stage: "Basic",

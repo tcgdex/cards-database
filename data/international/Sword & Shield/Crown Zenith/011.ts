@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cherubi",
-		fr: "Ceribou",
-		es: "Cherubi",
-		it: "Cherubi",
-		pt: "Cherubi",
-		de: "Kikugi"
+		'en-us': "Cherubi",
+		'fr-fr': "Ceribou",
+		'es-es': "Cherubi",
+		'it-it': "Cherubi",
+		'pt-br': "Cherubi",
+		'de-de': "Kikugi"
 	},
 
 	illustrator: "Lee HyunJung",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Leafage",
-			fr: "Feuillage",
-			es: "Follaje",
-			it: "Fogliame",
-			pt: "Folhagem",
-			de: "Blattwerk"
+			'en-us': "Leafage",
+			'fr-fr': "Feuillage",
+			'es-es': "Follaje",
+			'it-it': "Fogliame",
+			'pt-br': "Folhagem",
+			'de-de': "Blattwerk"
 		},
 
 		damage: 10
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The deeper a Cherubi's red, the more nutrients it has stockpiled in its body. And the sweeter and tastier its small ball!",
+		'en-us': "The deeper a Cherubi's red, the more nutrients it has stockpiled in its body. And the sweeter and tastier its small ball!",
 	},
 
 	

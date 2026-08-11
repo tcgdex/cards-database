@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Yamper",
-		fr: "Voltoutou",
-		es: "Yamper",
-		it: "Yamper",
-		pt: "Yamper",
-		de: "Voldi"
+		'en-us': "Yamper",
+		'fr-fr': "Voltoutou",
+		'es-es': "Yamper",
+		'it-it': "Yamper",
+		'pt-br': "Yamper",
+		'de-de': "Voldi"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Zap Kick",
-				fr: "Coup de Pied Ravageur",
-				es: "Electropatada",
-				it: "Dinamocalcio",
-				pt: "Chute Zap",
-				de: "Stromtritt"
+				'en-us': "Zap Kick",
+				'fr-fr': "Coup de Pied Ravageur",
+				'es-es': "Electropatada",
+				'it-it': "Dinamocalcio",
+				'pt-br': "Chute Zap",
+				'de-de': "Stromtritt"
 			},
 
 			damage: 20,
@@ -77,7 +77,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This Pokémon is very popular as a herding dog in the Galar region. As it runs, it generates electricity from the base of its tail."
+		'en-us': "This Pokémon is very popular as a herding dog in the Galar region. As it runs, it generates electricity from the base of its tail."
 	},
 
 	dexId: [835],

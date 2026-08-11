@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Larvitar",
-		fr: "Embrylex",
-		de: "Larvitar"
+		'en-us': "Larvitar",
+		'fr-fr': "Embrylex",
+		'de-de': "Larvitar"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leer",
-				fr: "Groz'yeux",
-				de: "Leer"
+				'en-us': "Leer",
+				'fr-fr': "Groz'yeux",
+				'de-de': "Leer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn. (Benching or evolving either Pokémon ends this effect.)",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire. (Envoyer l'un des deux Pokémon sur son Banc ou le faire évoluer met fin à cet effet.)",
-				de: "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn. (Benching or evolving either Pokémon ends this effect.)"
+				'en-us': "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn. (Benching or evolving either Pokémon ends this effect.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire. (Envoyer l'un des deux Pokémon sur son Banc ou le faire évoluer met fin à cet effet.)",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn. (Benching or evolving either Pokémon ends this effect.)"
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Throw",
-				fr: "Jet-pierres",
-				de: "Rock Throw"
+				'en-us': "Rock Throw",
+				'fr-fr': "Jet-pierres",
+				'de-de': "Rock Throw"
 			},
 
 			damage: 20,
@@ -75,8 +75,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It is born deep within the ground and has to burrow its way out.",
-		fr: "Il est né dans les profondeurs de la terre et il doit creuser pour sortir à l'air libre."
+		'en-us': "It is born deep within the ground and has to burrow its way out.",
+		'fr-fr': "Il est né dans les profondeurs de la terre et il doit creuser pour sortir à l'air libre."
 	},
 
 

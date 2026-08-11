@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トーチの星",
+		'ja-jp': "トーチの星",
 	},
 
 	rarity: "Shiny rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Fire"],
 			name: {
-				ja: "花火",
+				'ja-jp': "花火",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、Torchic {{Star | This Pokemon}}に取り付けられた火災エネルギーカードを捨てます。",
+				'ja-jp': "コインをひっくり返します。尾の場合、Torchic {{Star | This Pokemon}}に取り付けられた火災エネルギーカードを捨てます。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Fire", "Fire"],
 			name: {
-				ja: "バックバック",
+				'ja-jp': "バックバック",
 			},
 			effect: {
-				ja: "対戦相手に賞品が1枚しか残っていない場合、この攻撃は20ダメージに加えて50ダメージを与え、防御ポケモンが混乱しています。",
+				'ja-jp': "対戦相手に賞品が1枚しか残っていない場合、この攻撃は20ダメージに加えて50ダメージを与え、防御ポケモンが混乱しています。",
 			},
 		},
 	],

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY trainer Kit (Suicune)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Piplup",
-		fr: "Tiplouf",
-		es: "Piplup",
-		it: "Piplup",
-		pt: "Piplup",
-		de: "Plinfa"
+		'en-us': "Piplup",
+		'fr-fr': "Tiplouf",
+		'es-es': "Piplup",
+		'it-it': "Piplup",
+		'pt-br': "Piplup",
+		'de-de': "Plinfa"
 	},
 
 	rarity: "Common",

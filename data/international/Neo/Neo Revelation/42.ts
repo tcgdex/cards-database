@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Chinchou",
-		fr: "Loupio",
-		de: "Lampi"
+		'en-us': "Chinchou",
+		'fr-fr': "Loupio",
+		'de-de': "Lampi"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Positive Ion",
-				fr: "Ion positif",
-				de: "Positive Ion"
+				'en-us': "Positive Ion",
+				'fr-fr': "Ion positif",
+				'de-de': "Positive Ion"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage. If tails, this attack does 10 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires. Si c'est pile, cette attaque inflige 10 dégâts.",
-				de: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage. If tails, this attack does 10 damage."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage. If tails, this attack does 10 damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires. Si c'est pile, cette attaque inflige 10 dégâts.",
+				'de-de': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage. If tails, this attack does 10 damage."
 			},
 			damage: "10+",
 
@@ -48,14 +48,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Negative Ion",
-				fr: "Ion négatif",
-				de: "Negative Ion"
+				'en-us': "Negative Ion",
+				'fr-fr': "Ion négatif",
+				'de-de': "Negative Ion"
 			},
 			effect: {
-				en: "If the Defending Pokémon attacks Chinchou during your opponent's next turn, any damage done to Chinchou is reduced by 10 (before applying Weakness and Resistance). (Benching either Pokémon ends this effect.)",
-				fr: "Si le Pokémon Défenseur attaque Loupio pendant le prochain tour de votre adversaire, les dégâts infligés à Loupio sont réduits de 10 (avant application de la Faiblesse et de la Résistance). (Envoyer l'un des deux Pokémon sur son Banc ou le faire évoluer met fin à cet effet.)",
-				de: "If the Defending Pokémon attacks Chinchou during your opponent´s next turn, any damage done to Chinchou is reduced by 10 (before applying Weakness and Resistance). (Benching or evolving either Pokémon ends this effect.)"
+				'en-us': "If the Defending Pokémon attacks Chinchou during your opponent's next turn, any damage done to Chinchou is reduced by 10 (before applying Weakness and Resistance). (Benching either Pokémon ends this effect.)",
+				'fr-fr': "Si le Pokémon Défenseur attaque Loupio pendant le prochain tour de votre adversaire, les dégâts infligés à Loupio sont réduits de 10 (avant application de la Faiblesse et de la Résistance). (Envoyer l'un des deux Pokémon sur son Banc ou le faire évoluer met fin à cet effet.)",
+				'de-de': "If the Defending Pokémon attacks Chinchou during your opponent´s next turn, any damage done to Chinchou is reduced by 10 (before applying Weakness and Resistance). (Benching or evolving either Pokémon ends this effect.)"
 			},
 			damage: 10,
 
@@ -72,8 +72,8 @@ const card: Card = {
 
 
 	description: {
-		en: "On the dark ocean floor, its only means of communication is its constantly flashing lights.",
-		fr: "Au fond de l'océan, il fait clignoter ses lumières constamment pour communiquer."
+		'en-us': "On the dark ocean floor, its only means of communication is its constantly flashing lights.",
+		'fr-fr': "Au fond de l'océan, il fait clignoter ses lumières constamment pour communiquer."
 	},
 
 

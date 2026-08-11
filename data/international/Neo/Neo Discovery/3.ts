@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Hitmontop",
-		fr: "Kapoera",
-		de: "Kapoera"
+		'en-us': "Hitmontop",
+		'fr-fr': "Kapoera",
+		'de-de': "Kapoera"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Detect",
-				fr: "Détection",
-				de: "Scanner"
+				'en-us': "Detect",
+				'fr-fr': "Détection",
+				'de-de': "Scanner"
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Hitmontop.",
-				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, tous les effets des attaques contre Kapoera, y compris les dégâts, sont annulés.",
-				de: "Wirf eine Münze. Verhindere bei \"Kopf\" während des nächsten gegenerischen Zugs alle Aus-wirkungen von Angriffen auf kapoera (einschließlich der Schadenspunkte)."
+				'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Hitmontop.",
+				'fr-fr': "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, tous les effets des attaques contre Kapoera, y compris les dégâts, sont annulés.",
+				'de-de': "Wirf eine Münze. Verhindere bei \"Kopf\" während des nächsten gegenerischen Zugs alle Aus-wirkungen von Angriffen auf kapoera (einschließlich der Schadenspunkte)."
 			},
 
 		},
@@ -50,15 +50,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Triple Kick",
-				fr: "Triple pied",
-				de: "Dreifachkick"
+				'en-us': "Triple Kick",
+				'fr-fr': "Triple pied",
+				'de-de': "Dreifachkick"
 			},
 
 			effect: {
-				en: "Flip 3 coins. This attack does 30 times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Wirf drei Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 3 coins. This attack does 30 times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf drei Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 
 			damage: "30x"
@@ -75,8 +75,8 @@ const card: Card = {
 
 
 	description: {
-		en: "If you become enchanted by its smooth, elegant, dancelike kicks, you may get drilled hard.",
-		fr: "Si vous vous laissez ensorceler par l'élégance de ses coups de pieds, vous risquez de vous faire perforer."
+		'en-us': "If you become enchanted by its smooth, elegant, dancelike kicks, you may get drilled hard.",
+		'fr-fr': "Si vous vous laissez ensorceler par l'élégance de ses coups de pieds, vous risquez de vous faire perforer."
 	},
 
 

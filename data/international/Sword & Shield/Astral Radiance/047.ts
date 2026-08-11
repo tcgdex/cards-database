@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bergmite",
-		fr: "Grelaçon",
-		es: "Bergmite",
-		it: "Bergmite",
-		pt: "Bergmite",
-		de: "Arktip"
+		'en-us': "Bergmite",
+		'fr-fr': "Grelaçon",
+		'es-es': "Bergmite",
+		'it-it': "Bergmite",
+		'pt-br': "Bergmite",
+		'de-de': "Arktip"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Icicle",
-			fr: "Concrétion Glacée",
-			es: "Témpano",
-			it: "Stalattite",
-			pt: "Pingente de Gelo",
-			de: "Eiszapfen"
+			'en-us': "Icicle",
+			'fr-fr': "Concrétion Glacée",
+			'es-es': "Témpano",
+			'it-it': "Stalattite",
+			'pt-br': "Pingente de Gelo",
+			'de-de': "Eiszapfen"
 		},
 
 		damage: 40
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Lives on mountains blanketed in perennial snow. It freezes water vapor in the air to make the ice helmet that it dons for defense.",
+		'en-us': "Lives on mountains blanketed in perennial snow. It freezes water vapor in the air to make the ice helmet that it dons for defense.",
 	},
 
 	variants: [

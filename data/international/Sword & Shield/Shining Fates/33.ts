@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Luxray",
-		en: "Luxray",
-		es: "Luxray",
-		it: "Luxray",
-		pt: "Luxray",
-		de: "Luxtra"
+		'fr-fr': "Luxray",
+		'en-us': "Luxray",
+		'es-es': "Luxray",
+		'it-it': "Luxray",
+		'pt-br': "Luxray",
+		'de-de': "Luxtra"
 	},
 
 	illustrator: "Hasuno",
@@ -21,39 +21,39 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		fr: "Luxio",
-		en: "Luxio"
+		'fr-fr': "Luxio",
+		'en-us': "Luxio"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Razzia Obscure",
-			en: "Raid",
-			es: "Raid Oscuro",
-			it: "Raid",
-			pt: "Reide",
-			de: "Überfall"
+			'fr-fr': "Razzia Obscure",
+			'en-us': "Raid",
+			'es-es': "Raid Oscuro",
+			'it-it': "Raid",
+			'pt-br': "Reide",
+			'de-de': "Überfall"
 		},
 
 		effect: {
-			fr: "Si ce Pokémon a évolué de Luxio pendant ce tour, cette attaque inflige 100 dégâts supplémentaires.",
-			en: "If this Pokémon evolved from Luxio during this turn, this attack does 100 more damage.",
-			es: "Si este Pokémon ha evolucionado de Luxio durante este turno, este ataque hace 100 puntos de daño más.",
-			it: "Se questo Pokémon si è evoluto da Luxio durante questo turno, questo attacco infligge 100 danni in più.",
-			pt: "Se este Pokémon evoluiu de Luxio durante este turno, este ataque causará 100 pontos de dano a mais.",
-			de: "Wenn sich dieses Pokémon während dieses Zuges aus Luxio entwickelt hat, fügt diese Attacke 100 Schadenspunkte mehr zu."
+			'fr-fr': "Si ce Pokémon a évolué de Luxio pendant ce tour, cette attaque inflige 100 dégâts supplémentaires.",
+			'en-us': "If this Pokémon evolved from Luxio during this turn, this attack does 100 more damage.",
+			'es-es': "Si este Pokémon ha evolucionado de Luxio durante este turno, este ataque hace 100 puntos de daño más.",
+			'it-it': "Se questo Pokémon si è evoluto da Luxio durante questo turno, questo attacco infligge 100 danni in più.",
+			'pt-br': "Se este Pokémon evoluiu de Luxio durante este turno, este ataque causará 100 pontos de dano a mais.",
+			'de-de': "Wenn sich dieses Pokémon während dieses Zuges aus Luxio entwickelt hat, fügt diese Attacke 100 Schadenspunkte mehr zu."
 		},
 
 		damage: "60+",
 		cost: ["Lightning"]
 	}, {
 		name: {
-			fr: "Éclair Frontal",
-			en: "Head Bolt",
-			es: "Rayo de Cabeza",
-			it: "Zuccalampo",
-			pt: "Raio de Cabeça",
-			de: "Kopf-Blitz"
+			'fr-fr': "Éclair Frontal",
+			'en-us': "Head Bolt",
+			'es-es': "Rayo de Cabeza",
+			'it-it': "Zuccalampo",
+			'pt-br': "Raio de Cabeça",
+			'de-de': "Kopf-Blitz"
 		},
 
 		damage: 120,
@@ -72,7 +72,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "Luxray's ability to see through objects comes in handy when it's scouting for danger."
+		'en-us': "Luxray's ability to see through objects comes in handy when it's scouting for danger."
 	},
 
 	variants: [

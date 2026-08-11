@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [91],
 
 	name: {
-		en: "Cloyster"
+		'en-us': "Cloyster"
 	},
 
 	illustrator: "whomor Inc.",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Shellder"
+		'en-us': "Shellder"
 	},
 
 	description: {
-		en: "Cloyster that live in seas with harsh tidal currents\ngrow large, sharp spikes on their shells."
+		'en-us': "Cloyster that live in seas with harsh tidal currents\ngrow large, sharp spikes on their shells."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Guard Press"
+			'en-us': "Guard Press"
 		},
 
 		damage: 50,
 		cost: ["Water", "Water"],
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes −20 damage from attacks."
+			'en-us': "During your opponent's next turn, this Pokémon takes −20 damage from attacks."
 		}
 	}],
 

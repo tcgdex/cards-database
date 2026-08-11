@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ポッポ",
+		'ja-jp': "ポッポ",
 		'zh-tw': "波波",
-		id: "Pidgey"
+		'id-id': "Pidgey"
 	},
 
 	illustrator: "sowsow",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "戦いを 好まない おとなしい 性格だが 下手に 手を 出すと 強烈に 反撃されるぞ。",
+		'ja-jp': "戦いを 好まない おとなしい 性格だが 下手に 手を 出すと 強烈に 反撃されるぞ。",
 		'zh-tw': "雖然性情溫和不愛戰鬥，但要是隨意對牠出手的話， 就會受到牠強烈的反擊。",
-		id: "Meski Pidgey berkepribadian tenang dan tidak menyukai pertikaian, ia akan melawan balik dengan ganas jika diganggu."
+		'id-id': "Meski Pidgey berkepribadian tenang dan tidak menyukai pertikaian, ia akan melawan balik dengan ganas jika diganggu."
 	},
 
 	stage: "Basic",
@@ -28,23 +28,23 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "なかまをよぶ",
+			'ja-jp': "なかまをよぶ",
 			'zh-tw': "呼朋引伴",
-			id: "Memanggil Teman"
+			'id-id': "Memanggil Teman"
 		},
 
 		effect: {
-			ja: "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
+			'ja-jp': "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
 			'zh-tw': "從自己的牌庫選擇最多2張【基礎】寶可夢卡，放置於備戰區。並且重洗牌庫。",
-			id: "Pilih paling banyak 2 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
+			'id-id': "Pilih paling banyak 2 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "たいあたり",
+			'ja-jp': "たいあたり",
 			'zh-tw': "撞擊",
-			id: "Serudukan"
+			'id-id': "Serudukan"
 		},
 
 		damage: 20

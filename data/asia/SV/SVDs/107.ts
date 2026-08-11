@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เมลตัน",
-		id: "Meltan"
+		'th-th': "เมลตัน",
+		'id-id': "Meltan"
 	},
 
 	illustrator: "Nobuhiro Imagawa",
@@ -15,16 +15,16 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		th: "อาศัยอยู่รวมกันเป็นฝูง เมื่อเวลามาถึง เมลตันตัวที่แข็งแกร่งตัวหนึ่งจะดูดกลืนผองเพื่อนเข้าไปในตัวแล้ววิวัฒนาการ",
-		id: "Pokémon yang hidup secara berkelompok. Tetapi ketika saatnya tiba, satu Meltan yang kuat akan menyerap kawan-kawannya dan berevolusi."
+		'th-th': "อาศัยอยู่รวมกันเป็นฝูง เมื่อเวลามาถึง เมลตันตัวที่แข็งแกร่งตัวหนึ่งจะดูดกลืนผองเพื่อนเข้าไปในตัวแล้ววิวัฒนาการ",
+		'id-id': "Pokémon yang hidup secara berkelompok. Tetapi ketika saatnya tiba, satu Meltan yang kuat akan menyerap kawan-kawannya dan berevolusi."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "หลอมละลาย",
-			id: "Melarutkan"
+			'th-th': "หลอมละลาย",
+			'id-id': "Melarutkan"
 		},
 
 		damage: 20,

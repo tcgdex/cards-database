@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ボルケニオン",
+		'ja-jp': "ボルケニオン",
 	},
 
 	illustrator: "GIDORA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "背中の アームから  体内の 水蒸気を 噴射する。  山 ひとつ 吹き飛ばす 威力。",
+		'ja-jp': "背中の アームから  体内の 水蒸気を 噴射する。  山 ひとつ 吹き飛ばす 威力。",
 	},
 
 	stage: "Basic",

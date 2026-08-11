@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒコウZエアスラッシュ",
+		'ja-jp': "ヒコウZエアスラッシュ",
 	},
 
 	illustrator: "aky CG Works",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけている、ワザ「エアスラッシュ」を持つポケモンは、このカードに書かれているGXワザを使える。［ワザを使うためのエネルギーは必要。］",
+		'ja-jp': "このカードをつけている、ワザ「エアスラッシュ」を持つポケモンは、このカードに書かれているGXワザを使える。［ワザを使うためのエネルギーは必要。］",
 	},
 
 	attacks: [
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				'ja-jp': "次の相手の番、このポケモンはワザのダメージや効果を受けない。",
 			},
 		},
 	],

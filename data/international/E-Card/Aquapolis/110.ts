@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Sneasel",
-		fr: "Farfuret",
-		de: "Sniebel"
+		'en-us': "Sneasel",
+		'fr-fr': "Farfuret",
+		'de-de': "Sniebel"
 	},
 
 	illustrator: "Midori Harada",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Rob",
-				fr: "Dérober",
-				de: "Räuber"
+				'en-us': "Rob",
+				'fr-fr': "Dérober",
+				'de-de': "Räuber"
 			},
 			effect: {
-				en: "Look at your opponent's hand. Choose all Technical Machine and Pokémon Tool cards there and put them into his or her deck. Your opponent shuffles the deck afterward.",
-				fr: "Regardez la main de votre adversaire. Choisissez-y toutes les cartes Outil Pokémon et Machine technique et placez-les dans son deck. Votre adversaire mélange ensuite son deck.",
-				de: "Schau dir die Karten auf der Hand deines Gegners an. Wähle alle Technischen Maschinen und Pokémon-Ausrüstungskarten darunter und lege sie in das Deck deines Gegners. Dein Gegner mischt danach sein Deck."
+				'en-us': "Look at your opponent's hand. Choose all Technical Machine and Pokémon Tool cards there and put them into his or her deck. Your opponent shuffles the deck afterward.",
+				'fr-fr': "Regardez la main de votre adversaire. Choisissez-y toutes les cartes Outil Pokémon et Machine technique et placez-les dans son deck. Votre adversaire mélange ensuite son deck.",
+				'de-de': "Schau dir die Karten auf der Hand deines Gegners an. Wähle alle Technischen Maschinen und Pokémon-Ausrüstungskarten darunter und lege sie in das Deck deines Gegners. Dein Gegner mischt danach sein Deck."
 			},
 
 		},
@@ -47,15 +47,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Claw",
-				fr: "Mâchoire",
-				de: "Klaue"
+				'en-us': "Claw",
+				'fr-fr': "Mâchoire",
+				'de-de': "Klaue"
 			},
 
 			effect: {
-				en: "Flip a coin. If tails this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 30

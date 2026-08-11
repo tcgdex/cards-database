@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナンジャモのビリリダマ",
+		'ja-jp': "ナンジャモのビリリダマ",
 	},
 
 	illustrator: "Kazumasa Yasukuni",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "転がって 移動するので 地面が デコボコだと ショックで 爆発してしまう。",
+		'ja-jp': "転がって 移動するので 地面が デコボコだと ショックで 爆発してしまう。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の「ナンジャモのポケモン」全員についている[L]エネルギーの数×20ダメージ追加。",
+				'ja-jp': "自分の「ナンジャモのポケモン」全員についている[L]エネルギーの数×20ダメージ追加。",
 			},
 		},
 	],

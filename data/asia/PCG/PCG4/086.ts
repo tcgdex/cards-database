@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スタントラー",
+		'ja-jp': "スタントラー",
 	},
 
 	rarity: "Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "スクリーチの声",
+				'ja-jp': "スクリーチの声",
 			},
 			effect: {
-				ja: "防御ポケモンが進化したポケモンである場合、防御ポケモンは混乱しています。",
+				'ja-jp': "防御ポケモンが進化したポケモンである場合、防御ポケモンは混乱しています。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "押しのけます",
+				'ja-jp': "押しのけます",
 			},
 			effect: {
-				ja: "対戦相手の手を見て、そこにあるトレーナーカードを選択して、それを破棄します。",
+				'ja-jp': "対戦相手の手を見て、そこにあるトレーナーカードを選択して、それを破棄します。",
 			},
 			damage: 20,
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スリープ",
+		'ja-jp': "スリープ",
 		'zh-tw': "催眠貘",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "獲物を 眠らせ 見ている ユメを 喰らう。 悪いユメは すっぱくて あまり 好んで 食べないらしい。",
+		'ja-jp': "獲物を 眠らせ 見ている ユメを 喰らう。 悪いユメは すっぱくて あまり 好んで 食べないらしい。",
 		'zh-tw': "會讓獵物睡著，吃掉對方所做的夢。惡夢的味道是酸的， 所以牠似乎不怎麼愛吃。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "サイコパンチ",
+				'ja-jp': "サイコパンチ",
 				'zh-tw': "精神拳",
 			},
 			damage: 10,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "さいみんこうせん",
+				'ja-jp': "さいみんこうせん",
 				'zh-tw': "催眠光線",
 			},
 			damage: 20,
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【睡眠】。",
 			},
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マフォクシーV",
+		'ja-jp': "マフォクシーV",
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "あやしいともしび" },
 			cost: ["Fire"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどとこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをやけどとこんらんにする。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを2個、ロストゾーンに置き、相手のベンチポケモン1匹にも、120ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "このポケモンについているエネルギーを2個、ロストゾーンに置き、相手のベンチポケモン1匹にも、120ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

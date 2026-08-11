@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [459],
 
 	name: {
-		en: "Snover",
-		fr: "Blizzi",
-		es: "Snover",
-		it: "Snover",
-		pt: "Snover",
-		de: "Shnebedeck"
+		'en-us': "Snover",
+		'fr-fr': "Blizzi",
+		'es-es': "Snover",
+		'it-it': "Snover",
+		'pt-br': "Snover",
+		'de-de': "Shnebedeck"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -25,12 +25,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beat",
-				fr: "Bataille",
-				es: "Toque",
-				it: "Battuta",
-				pt: "Pulso",
-				de: "Verprügler"
+				'en-us': "Beat",
+				'fr-fr': "Bataille",
+				'es-es': "Toque",
+				'it-it': "Battuta",
+				'pt-br': "Pulso",
+				'de-de': "Verprügler"
 			},
 
 			damage: 20,
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'Herbe",
-				es: "Hoja Afilada",
-				it: "Foglielama",
-				pt: "Folha Navalha",
-				de: "Rasierblatt"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'Herbe",
+				'es-es': "Hoja Afilada",
+				'it-it': "Foglielama",
+				'pt-br': "Folha Navalha",
+				'de-de': "Rasierblatt"
 			},
 
 			damage: 50,
@@ -72,7 +72,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It lives on snowy mountains. It sinks its legs into the snow to absorb water and keep its own temperature down."
+		'en-us': "It lives on snowy mountains. It sinks its legs into the snow to absorb water and keep its own temperature down."
 	},
 
 	variants: [

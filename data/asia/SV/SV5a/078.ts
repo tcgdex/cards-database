@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "イーブイ"
+		'ja-jp': "イーブイ"
 	},
 
 	illustrator: "Narumi Sato",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "不規則な 遺伝子を 持つ。 石から出る 放射線によって 体が 突然変異を 起こす。"
+		'ja-jp': "不規則な 遺伝子を 持つ。 石から出る 放射線によって 体が 突然変異を 起こす。"
 	},
 
 	stage: "Basic",
@@ -24,23 +24,23 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "かくせい"
+			'ja-jp': "かくせい"
 		},
 
 		effect: {
-			ja: "このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。"
+			'ja-jp': "このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "でんこうせっか"
+			'ja-jp': "でんこうせっか"
 		},
 
 		damage: "20＋",
 
 		effect: {
-			ja: "コインを1回投げオモテなら、20ダメージ追加。"
+			'ja-jp': "コインを1回投げオモテなら、20ダメージ追加。"
 		}
 	}],
 

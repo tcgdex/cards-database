@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トランセル",
+		'ja-jp': "トランセル",
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "カラの中には トロトロの 中身が 詰まっている。 ほぼ動かないのは ウッカリ 中身が こぼれないため。",
+		'ja-jp': "カラの中には トロトロの 中身が 詰まっている。 ほぼ動かないのは ウッカリ 中身が こぼれないため。",
 	},
 
 	stage: "Stage1",
@@ -28,7 +28,7 @@ const card: Card = {
 			name: { ja: "だっぴ" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「40」回復する。",
+				'ja-jp': "このポケモンのHPを「40」回復する。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "キャタピー",
+		'ja-jp': "キャタピー",
 	},
 
 	retreat: 2,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Mélofée",
-		en: "Clefairy",
-		es: "Clefairy",
-		it: "Clefairy",
-		pt: "Clefairy",
-		de: "Piepi"
+		'fr-fr': "Mélofée",
+		'en-us': "Clefairy",
+		'es-es': "Clefairy",
+		'it-it': "Clefairy",
+		'pt-br': "Clefairy",
+		'de-de': "Piepi"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			fr: "Paf Paf",
-			en: "Slap Slap",
-			es: "Doble Bofetada",
-			it: "Schiaffo e Manrovescio",
-			pt: "Bate e Rebate",
-			de: "Klitsch-Klatsch"
+			'fr-fr': "Paf Paf",
+			'en-us': "Slap Slap",
+			'es-es': "Doble Bofetada",
+			'it-it': "Schiaffo e Manrovescio",
+			'pt-br': "Bate e Rebate",
+			'de-de': "Klitsch-Klatsch"
 		},
 
 		effect: {
-			fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
-			en: "Flip 2 coins. This attack does 30 damage for each heads.",
-			es: "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 30 pontos de dano para cada cara.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
+			'en-us': "Flip 2 coins. This attack does 30 damage for each heads.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 30 pontos de dano para cada cara.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "30×"
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Its adorable behavior and cry make it highly popular. However, this cute Pokémon is rarely found.",
+		'en-us': "Its adorable behavior and cry make it highly popular. However, this cute Pokémon is rarely found.",
 	},
 
 	variants: [

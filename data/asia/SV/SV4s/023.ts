@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Simisear"
+		'id-id': "Simisear"
 	},
 
 	illustrator: "Yuya Oka",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Ketika emosi Simisear bergejolak, bara api terbang tinggi dari kepala dan ekornya serta suhu memanas. Entah kenapa, makanan manis menjadi favorit Pokémon ini."
+		'id-id': "Ketika emosi Simisear bergejolak, bara api terbang tinggi dari kepala dan ekornya serta suhu memanas. Entah kenapa, makanan manis menjadi favorit Pokémon ini."
 	},
 
 	stage: "Stage1",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Monkey Trio"
+			'id-id': "Monkey Trio"
 		},
 
 		effect: {
-			id: "Jika ada Simisage, Simisear, dan Simipour di Arena sendiri, Pokémon ini menjadi tidak membutuhkan Energi {Bening} untuk menggunakan serangan."
+			'id-id': "Jika ada Simisage, Simisear, dan Simipour di Arena sendiri, Pokémon ini menjadi tidak membutuhkan Energi {Bening} untuk menggunakan serangan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Heat Tackle"
+			'id-id': "Heat Tackle"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 30."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 30."
 		},
 
 		damage: 190,

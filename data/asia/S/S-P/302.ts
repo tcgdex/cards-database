@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アブソル",
+		'ja-jp': "アブソル",
 	},
 
 	illustrator: "Shiburingaru",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "風のように 野山を 駆けぬける。 弓なりの ツノは 自然災害の 予兆を 敏感に 感じとる。",
+		'ja-jp': "風のように 野山を 駆けぬける。 弓なりの ツノは 自然災害の 予兆を 敏感に 感じとる。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手の手札からオモテを見ないで1枚選び、ロストゾーンに置く。",
+				'ja-jp': "相手の手札からオモテを見ないで1枚選び、ロストゾーンに置く。",
 			},
 		},
 	],

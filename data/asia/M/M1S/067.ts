@@ -1,28 +1,28 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユキカブリ"
+		'ja-jp': "ユキカブリ"
 	},
 	illustrator: "Nurikabe",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],
 	description: {
-		ja: "寒い 季節は 山の ふもとまで 降りてくるが 春に なると 雪が 残る 山頂に 戻っていく。"
+		'ja-jp': "寒い 季節は 山の ふもとまで 降りてくるが 春に なると 雪が 残る 山頂に 戻っていく。"
 	},
 	stage: "Basic",
 	attacks: [{
 		name: {
-			ja: "たたく"
+			'ja-jp': "たたく"
 		},
 		damage: 10,
 		cost: ["Water"]
 	}, {
 		name: {
-			ja: "スノーアイス"
+			'ja-jp': "スノーアイス"
 		},
 		damage: 30,
 		cost: ["Water", "Water"]

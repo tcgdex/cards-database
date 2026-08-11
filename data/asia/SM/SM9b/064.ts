@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カメックスGX",
+		'ja-jp': "カメックスGX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かたいこうら" },
 			effect: {
-				ja: "このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "このポケモンが受けるワザのダメージは「-30」される。",
 			},
 		},
 	],
@@ -30,14 +30,14 @@ const card: Card = {
 			damage: "60×",
 			cost: ["Water", "Water"],
 			effect: {
-				ja: "自分の場のポケモンについている[水]エネルギーを好きなだけ山札にもどし、その枚数x60ダメージ。その場合、山札を切る。",
+				'ja-jp': "自分の場のポケモンについている[水]エネルギーを好きなだけ山札にもどし、その枚数x60ダメージ。その場合、山札を切る。",
 			},
 		},
 		{
 			name: { ja: "だいほうすいGX" },
 			cost: ["Water"],
 			effect: {
-				ja: "自分の手札にある[水]エネルギーを好きなだけ、自分のポケモンに好きなようにつける。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分の手札にある[水]エネルギーを好きなだけ、自分のポケモンに好きなようにつける。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カメール",
+		'ja-jp': "カメール",
 	},
 
 	retreat: 3,

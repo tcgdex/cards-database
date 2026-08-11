@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Torracat",
-		fr: "Matoufeu",
-		es: "Torracat",
-		it: "Torracat",
-		pt: "Torracat",
-		de: "Miezunder"
+		'en-us': "Torracat",
+		'fr-fr': "Matoufeu",
+		'es-es': "Torracat",
+		'it-it': "Torracat",
+		'pt-br': "Torracat",
+		'de-de': "Miezunder"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Litten",
-		fr: "Flamiaou",
+		'en-us': "Litten",
+		'fr-fr': "Flamiaou",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swagger",
-				fr: "Vantardise",
-				es: "Contoneo",
-				it: "Bullo",
-				pt: "Arrogância",
-				de: "Angeberei"
+				'en-us': "Swagger",
+				'fr-fr': "Vantardise",
+				'es-es': "Contoneo",
+				'it-it': "Bullo",
+				'pt-br': "Arrogância",
+				'de-de': "Angeberei"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy from your opponent’s Active Pokémon.",
-				fr: "Lancez une pièce. Si c’est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
-				es: "Lanza 1 moneda. Si sala cara, descarta 1 Energía del Pokémon Activo de tu rival.",
-				it: "Lancia una moneta. Se esce testa, scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Jogue 1 moeda. Se sair cara, descarte 1 Energia do Pokémon Ativo do seu oponente.",
-				de: "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+				'en-us': "Flip a coin. If heads, discard an Energy from your opponent’s Active Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c’est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
+				'es-es': "Lanza 1 moneda. Si sala cara, descarta 1 Energía del Pokémon Activo de tu rival.",
+				'it-it': "Lancia una moneta. Se esce testa, scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, descarte 1 Energia do Pokémon Ativo do seu oponente.",
+				'de-de': "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Claws",
-				fr: "Griffes Enflammées",
-				es: "Garras de Fuego",
-				it: "Artigli Infuocati",
-				pt: "Garras de Fogo",
-				de: "Feuerkrallen"
+				'en-us': "Fire Claws",
+				'fr-fr': "Griffes Enflammées",
+				'es-es': "Garras de Fuego",
+				'it-it': "Artigli Infuocati",
+				'pt-br': "Garras de Fogo",
+				'de-de': "Feuerkrallen"
 			},
 
 			damage: 30,
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "At its throat, it bears a bell of fire. The bell rings brightly whenever this Pokémon spits fire.",
+		'en-us': "At its throat, it bears a bell of fire. The bell rings brightly whenever this Pokémon spits fire.",
 	},
 
 	thirdParty: {

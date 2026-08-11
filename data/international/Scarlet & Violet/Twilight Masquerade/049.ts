@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Feebas",
-		fr: "Barpau",
-		es: "Feebas",
-		it: "Feebas",
-		pt: "Feebas",
-		de: "Barschwa"
+		'en-us': "Feebas",
+		'fr-fr': "Barpau",
+		'es-es': "Feebas",
+		'it-it': "Feebas",
+		'pt-br': "Feebas",
+		'de-de': "Barschwa"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Flail",
-			fr: "Gigotage",
-			es: "Azote",
-			it: "Flagello",
-			pt: "Mangual",
-			de: "Dreschflegel"
+			'en-us': "Flail",
+			'fr-fr': "Gigotage",
+			'es-es': "Azote",
+			'it-it': "Flagello",
+			'pt-br': "Mangual",
+			'de-de': "Dreschflegel"
 		},
 
 		effect: {
-			en: "This attack does 10 damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 10 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
-			es: "Este ataque hace 10 puntos de daño por cada contador de daño en este Pokémon.",
-			it: "Questo attacco infligge 10 danni per ogni segnalino danno presente su questo Pokémon.",
-			pt: "Este ataque causa 10 pontos de dano para cada contador de dano neste Pokémon.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte zu."
+			'en-us': "This attack does 10 damage for each damage counter on this Pokémon.",
+			'fr-fr': "Cette attaque inflige 10 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
+			'es-es': "Este ataque hace 10 puntos de daño por cada contador de daño en este Pokémon.",
+			'it-it': "Questo attacco infligge 10 danni per ogni segnalino danno presente su questo Pokémon.",
+			'pt-br': "Este ataque causa 10 pontos de dano para cada contador de dano neste Pokémon.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte zu."
 		},
 
 		damage: "10×"
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It is the shabbiest Pokémon of all. It forms schools and lives at the bottom of rivers that teem with plant life.",
+		'en-us': "It is the shabbiest Pokémon of all. It forms schools and lives at the bottom of rivers that teem with plant life.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゲンガー",
+		'ja-jp': "ゲンガー",
 		'zh-tw': "耿鬼",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "山で 遭難したとき 命を 奪いに 暗闇から 現れることが あるという。",
+		'ja-jp': "山で 遭難したとき 命を 奪いに 暗闇から 現れることが あるという。",
 		'zh-tw': "據說牠會為了奪取山中遇難者的生命而從黑暗中出現。",
 	},
 
@@ -24,11 +24,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ダイイングギフト",
+				'ja-jp': "ダイイングギフト",
 				'zh-tw': "臨終之禮",
 			},
 			effect: {
-				ja: "このポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。",
+				'ja-jp': "このポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。",
 				'zh-tw': "當這隻寶可夢受到對手的寶可夢招式的傷害而【氣絕】時，從自己的牌庫任意選擇最多2張卡加入手牌。並且重洗牌庫。",
 			},
 		},
@@ -37,13 +37,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ペインバースト",
+				'ja-jp': "ペインバースト",
 				'zh-tw': "傷痛暴擊",
 			},
 			damage: "10+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンにのっているダメカンの数×40ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンにのっているダメカンの数×40ダメージ追加。",
 				'zh-tw': "增加對手的戰鬥寶可夢身上放置的傷害指示物的數量×40點傷害。",
 			},
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴースト",
+		'ja-jp': "ゴースト",
 	},
 
 	retreat: 1,

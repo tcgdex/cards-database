@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マリィのズルッグ",
+		'ja-jp': "マリィのズルッグ",
 	},
 
 	illustrator: "Teeziro",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "だるんと のびた 皮を 首まで 引っ張りあげて ガード。 皮が のびている 個体ほど 偉いらしい。",
+		'ja-jp': "だるんと のびた 皮を 首まで 引っ張りあげて ガード。 皮が のびている 個体ほど 偉いらしい。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],

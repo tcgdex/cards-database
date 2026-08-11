@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワルビル",
+		'ja-jp': "ワルビル",
 		'zh-tw': "強顎雞母蟲",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "獲物の １部は 砂の中に 埋めて 狩りが 失敗したときの 非常食に するのだ。",
+		'ja-jp': "獲物の １部は 砂の中に 埋めて 狩りが 失敗したときの 非常食に するのだ。",
 	},
 
 	stage: "Stage1",
@@ -22,7 +22,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かみつく",
+				'ja-jp': "かみつく",
 				'zh-tw': "帶電",
 			},
 			damage: 20,
@@ -30,12 +30,12 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ほりあらす",
+				'ja-jp': "ほりあらす",
 				'zh-tw': "偷襲",
 			},
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手の山札を上から3枚トラッシュする。",
+				'ja-jp': "相手の山札を上から3枚トラッシュする。",
 				'zh-tw': "擲1次硬幣若為反面，則這個招式失敗。",
 			},
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "メグロコ",
+		'ja-jp': "メグロコ",
 	},
 
 	retreat: 2,

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポピー",
+		'ja-jp': "ポピー",
 	},
 
 	illustrator: "yuu",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の場のポケモン1匹についているエネルギーを2個まで選び、自分の別のポケモン1匹につけ替える。",
+		'ja-jp': "自分の場のポケモン1匹についているエネルギーを2個まで選び、自分の別のポケモン1匹につけ替える。",
 	},
 
 	variants: [

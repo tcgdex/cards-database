@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Beheeyem",
-		fr: "Neitram",
-		es: "Beheeyem",
-		it: "Beheeyem",
-		pt: "Beheeyem",
-		de: "Megalon"
+		'en-us': "Beheeyem",
+		'fr-fr': "Neitram",
+		'es-es': "Beheeyem",
+		'it-it': "Beheeyem",
+		'pt-br': "Beheeyem",
+		'de-de': "Megalon"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Elgyem",
-		fr: "Lewsor",
-		es: "Elgyem",
-		it: "Elgyem",
-		pt: "Elgyem",
-		de: "Pygraulon"
+		'en-us': "Elgyem",
+		'fr-fr': "Lewsor",
+		'es-es': "Elgyem",
+		'it-it': "Elgyem",
+		'pt-br': "Elgyem",
+		'de-de': "Pygraulon"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Cosmic Beatdown",
-			fr: "Dérouillée Cosmique",
-			es: "Porrazo Cósmico",
-			it: "Cosmobatosta",
-			pt: "Abater Cósmico",
-			de: "Kosmischer Niederprügler"
+			'en-us': "Cosmic Beatdown",
+			'fr-fr': "Dérouillée Cosmique",
+			'es-es': "Porrazo Cósmico",
+			'it-it': "Cosmobatosta",
+			'pt-br': "Abater Cósmico",
+			'de-de': "Kosmischer Niederprügler"
 		},
 
 		effect: {
-			en: "This attack does 20 damage for each of your Pokémon in play.",
-			fr: "Cette attaque inflige 20 dégâts pour chacun de vos Pokémon en jeu.",
-			es: "Este ataque hace 20 puntos de daño por cada uno de tus Pokémon en juego.",
-			it: "Questo attacco infligge 20 danni per ogni tuo Pokémon in gioco.",
-			pt: "Este ataque causa 20 pontos de dano para cada um dos seus Pokémon em jogo.",
-			de: "Diese Attacke fügt für jedes deiner Pokémon im Spiel 20 Schadenspunkte zu."
+			'en-us': "This attack does 20 damage for each of your Pokémon in play.",
+			'fr-fr': "Cette attaque inflige 20 dégâts pour chacun de vos Pokémon en jeu.",
+			'es-es': "Este ataque hace 20 puntos de daño por cada uno de tus Pokémon en juego.",
+			'it-it': "Questo attacco infligge 20 danni per ogni tuo Pokémon in gioco.",
+			'pt-br': "Este ataque causa 20 pontos de dano para cada um dos seus Pokémon em jogo.",
+			'de-de': "Diese Attacke fügt für jedes deiner Pokémon im Spiel 20 Schadenspunkte zu."
 		},
 
 		damage: "20×"
@@ -68,7 +68,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Whenever a Beheeyem visits a farm, a Dubwool mysteriously disappears.",
+		'en-us': "Whenever a Beheeyem visits a farm, a Dubwool mysteriously disappears.",
 	},
 
 	variants: [

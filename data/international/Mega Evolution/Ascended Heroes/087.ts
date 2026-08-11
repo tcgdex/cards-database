@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ralts",
-		fr: "Tarsal",
-		es: "Ralts",
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal",
+		'es-es': "Ralts",
 		'es-mx': "Ralts",
-		de: "Trasla",
-		it: "Ralts",
-		pt: "Ralts"
+		'de-de': "Trasla",
+		'it-it': "Ralts",
+		'pt-br': "Ralts"
 	},
 
 	illustrator: "Terada Tera",
@@ -26,35 +26,35 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			es: "Coleccionar",
+			'en-us': "Collect",
+			'fr-fr': "Collecte",
+			'es-es': "Coleccionar",
 			'es-mx': "Recolectar",
-			de: "Sammeln",
-			it: "Tassa",
-			pt: "Coleta"
+			'de-de': "Sammeln",
+			'it-it': "Tassa",
+			'pt-br': "Coleta"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			es: "Roba 1 carta.",
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'es-es': "Roba 1 carta.",
 			'es-mx': "Roba 1 carta.",
-			de: "Ziehe 1 Karte.",
-			it: "Pesca una carta.",
-			pt: "Compre uma carta."
+			'de-de': "Ziehe 1 Karte.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre uma carta."
 		}
 	}, {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			es: "Golpe Cabeza",
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'es-es': "Golpe Cabeza",
 			'es-mx': "Golpe Cabeza",
-			de: "Kopfnuss",
-			it: "Bottintesta",
-			pt: "Cabeçada"
+			'de-de': "Kopfnuss",
+			'it-it': "Bottintesta",
+			'pt-br': "Cabeçada"
 		},
 
 		damage: 10
@@ -76,7 +76,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "The horns on its head provide a strong power that enables it to sense people’s emotions.",
+		'en-us': "The horns on its head provide a strong power that enables it to sense people’s emotions.",
 	},
 
 	variants: [

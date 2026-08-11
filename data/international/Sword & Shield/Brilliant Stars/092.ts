@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Impidimp",
-		fr: "Grimalin",
-		es: "Impidimp",
-		it: "Impidimp",
-		pt: "Impidimp",
-		de: "Bähmon"
+		'en-us': "Impidimp",
+		'fr-fr': "Grimalin",
+		'es-es': "Impidimp",
+		'it-it': "Impidimp",
+		'pt-br': "Impidimp",
+		'de-de': "Bähmon"
 	},
 
 	illustrator: "Rianti Hidayat",
@@ -25,32 +25,32 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Call for Family",
-			fr: "Appel à la Famille",
-			es: "Llamar a la Familia",
-			it: "Cerca Famiglia",
-			pt: "Chamar a Família",
-			de: "Familienruf"
+			'en-us': "Call for Family",
+			'fr-fr': "Appel à la Famille",
+			'es-es': "Llamar a la Familia",
+			'it-it': "Cerca Famiglia",
+			'pt-br': "Chamar a Família",
+			'de-de': "Familienruf"
 		},
 
 		effect: {
-			en: "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck un Pokémon de base, puis placez-le sur votre Banc. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja 1 Pokémon Básico y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo un Pokémon Base e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por 1 Pokémon Básico no seu baralho e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach 1 Basis-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck."
+			'en-us': "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck un Pokémon de base, puis placez-le sur votre Banc. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja 1 Pokémon Básico y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo un Pokémon Base e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por 1 Pokémon Básico no seu baralho e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach 1 Basis-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			es: "Mordisco",
-			it: "Morso",
-			pt: "Mordida",
-			de: "Biss"
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'es-es': "Mordisco",
+			'it-it': "Morso",
+			'pt-br': "Mordida",
+			'de-de': "Biss"
 		},
 
 		damage: 30
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Through its nose, it sucks in the emanations produced by people and Pokémon when they feel annoyed. It thrives off this negative energy.",
+		'en-us': "Through its nose, it sucks in the emanations produced by people and Pokémon when they feel annoyed. It thrives off this negative energy.",
 	},
 
 	variants: [

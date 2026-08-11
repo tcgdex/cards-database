@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マイムさん",
+		'ja-jp': "マイムさん",
 	},
 
 	rarity: "Common",
@@ -17,10 +17,10 @@ const card: Card = {
 	abilities: [
 		{
 			name: {
-				ja: "エネルギー障壁",
+				'ja-jp': "エネルギー障壁",
 			},
 			effect: {
-				ja: "Mime氏が攻撃によって損傷を受けた場合、Mime氏に取り付けられた基本エネルギーカードごとにそのダメージを10倍に減らします。エネルギー障壁によって減少する可能性のある損傷の最大量は20です。",
+				'ja-jp': "Mime氏が攻撃によって損傷を受けた場合、Mime氏に取り付けられた基本エネルギーカードごとにそのダメージを10倍に減らします。エネルギー障壁によって減少する可能性のある損傷の最大量は20です。",
 			},
 		}],
 
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "マインドショック",
+				'ja-jp': "マインドショック",
 			},
 			effect: {
-				ja: "衰弱と抵抗を適用しないでください。",
+				'ja-jp': "衰弱と抵抗を適用しないでください。",
 			},
 			damage: 20,
 		},

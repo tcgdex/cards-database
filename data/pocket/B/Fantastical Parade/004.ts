@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [315],
 
 	name: {
-		en: "Roselia"
+		'en-us': "Roselia"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "It uses the different poisons in each hand\nseparately when it attacks. The stronger its\naroma, the healthier it is."
+		'en-us': "It uses the different poisons in each hand\nseparately when it attacks. The stronger its\naroma, the healthier it is."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Trip Over"
+			'en-us': "Trip Over"
 		},
 
 		damage: 10,
 		cost: ["Grass"],
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage."
+			'en-us': "Flip a coin. If heads, this attack does 30 more damage."
 		}
 	}],
 

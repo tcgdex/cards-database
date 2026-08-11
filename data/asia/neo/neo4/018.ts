@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "軽いニネタール",
+		'ja-jp': "軽いニネタール",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Fire"],
 			name: {
-				ja: "ガイドフレーム",
+				'ja-jp': "ガイドフレーム",
 			},
 			effect: {
-				ja: "ベビーポケモンまたは基本的なポケモンカードを、捨てられた山からベンチに置きます。 （ベンチがいっぱいの場合、この攻撃を使用できません。）",
+				'ja-jp': "ベビーポケモンまたは基本的なポケモンカードを、捨てられた山からベンチに置きます。 （ベンチがいっぱいの場合、この攻撃を使用できません。）",
 			},
 		},
 		{
 			cost: ["Fire", "Fire", "Fire"],
 			name: {
-				ja: "火の爆発",
+				'ja-jp': "火の爆発",
 			},
 			effect: {
-				ja: "この攻撃を使用するために、軽いニネタールに取り付けられた消防エネルギーカードを廃棄します。",
+				'ja-jp': "この攻撃を使用するために、軽いニネタールに取り付けられた消防エネルギーカードを廃棄します。",
 			},
 			damage: 50,
 		},

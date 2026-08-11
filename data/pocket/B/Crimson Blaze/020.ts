@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [9],
 
 	name: {
-		en: "Mega Blastoise ex"
+		'en-us': "Mega Blastoise ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Wartortle"
+		'en-us': "Wartortle"
 	},
 
 	description: {
-		en: "The cannon on its back is as powerful as a\ntank gun. Its tough legs and back enable it to\nwithstand the recoil from firing the cannon."
+		'en-us': "The cannon on its back is as powerful as a\ntank gun. Its tough legs and back enable it to\nwithstand the recoil from firing the cannon."
 	},
 
 	stage: "Stage2",
@@ -29,14 +29,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Triple Bombardment"
+			'en-us': "Triple Bombardment"
 		},
 
 		damage: 130,
 		cost: ["Water", "Water", "Colorless"],
 
 		effect: {
-			en: "If this Pokémon has at least 3 extra {W} Energy attached, this attack also does 50 damage to 2 of your opponent's Benched Pokémon."
+			'en-us': "If this Pokémon has at least 3 extra {W} Energy attached, this attack also does 50 damage to 2 of your opponent's Benched Pokémon."
 		}
 	}],
 

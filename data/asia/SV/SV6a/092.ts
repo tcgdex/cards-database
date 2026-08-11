@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モモワロウex",
+		'ja-jp': "モモワロウex",
 	},
 
 	illustrator: "aky CG Works",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "しはいのくさり" },
 			effect: {
-				ja: "自分の番に1回使える。自分のベンチの[D]ポケモン（「モモワロウex」をのぞく）を1匹選び、バトルポケモンと入れ替える。その後、新しいバトルポケモンをどくにする。この番、すでに別の「しはいのくさり」を使っていたなら、この特性は使えない。",
+				'ja-jp': "自分の番に1回使える。自分のベンチの[D]ポケモン（「モモワロウex」をのぞく）を1匹選び、バトルポケモンと入れ替える。その後、新しいバトルポケモンをどくにする。この番、すでに別の「しはいのくさり」を使っていたなら、この特性は使えない。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "60×",
 			cost: ["Darkness", "Darkness"],
 			effect: {
-				ja: "相手がすでにとったサイドの枚数×60ダメージ。",
+				'ja-jp': "相手がすでにとったサイドの枚数×60ダメージ。",
 			},
 		},
 	],

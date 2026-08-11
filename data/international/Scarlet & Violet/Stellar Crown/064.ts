@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Milcery",
-		fr: "Crèmy",
-		es: "Milcery",
-		it: "Milcery",
-		pt: "Milcery",
-		de: "Hokumil"
+		'en-us': "Milcery",
+		'fr-fr': "Crèmy",
+		'es-es': "Milcery",
+		'it-it': "Milcery",
+		'pt-br': "Milcery",
+		'de-de': "Hokumil"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Mumble",
-			fr: "Murmure",
-			es: "Farfullar",
-			it: "Borbottio",
-			pt: "Resmungo",
-			de: "Grummeln"
+			'en-us': "Mumble",
+			'fr-fr': "Murmure",
+			'es-es': "Farfullar",
+			'it-it': "Borbottio",
+			'pt-br': "Resmungo",
+			'de-de': "Grummeln"
 		},
 
 		damage: 20

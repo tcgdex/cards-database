@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Stunky",
-		fr: "Moufouette",
-		de: "Skunkapuh"
+		'en-us': "Stunky",
+		'fr-fr': "Moufouette",
+		'de-de': "Skunkapuh"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Severe Gas",
-				fr: "Gaz intense",
-				de: "Übler Gestank"
+				'en-us': "Severe Gas",
+				'fr-fr': "Gaz intense",
+				'de-de': "Übler Gestank"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 10,
 
@@ -76,8 +76,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It protects itself by spraying a noxious fluid from its rear. The stench lingers for 24 hours.",
-		fr: "Il se protège en expulsant un fluide nocif par son derrière. La puanteur dure 24 heures."
+		'en-us': "It protects itself by spraying a noxious fluid from its rear. The stench lingers for 24 hours.",
+		'fr-fr': "Il se protège en expulsant un fluide nocif par son derrière. La puanteur dure 24 heures."
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Herdier"
+		'en-us': "Herdier"
 	},
 
 	illustrator: "sui",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Lillipup"
+		'en-us': "Lillipup"
 	},
 
 	description: {
-		en: "The black fur that covers this Pokémon's body\nis dense and springy. Even sharp fangs bounce\nright off."
+		'en-us': "The black fur that covers this Pokémon's body\nis dense and springy. Even sharp fangs bounce\nright off."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Headbutt Bounce"
+			'en-us': "Headbutt Bounce"
 		},
 
 		damage: 40,

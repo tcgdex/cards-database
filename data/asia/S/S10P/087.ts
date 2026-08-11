@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シンオウ神殿",
+		'ja-jp': "シンオウ神殿",
 	},
 
 	illustrator: "Oswaldo KATO",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいの場のポケモンについている特殊エネルギーの効果はすべてなくなり、[C]エネルギー1個ぶんとしてはたらく。",
+		'ja-jp': "おたがいの場のポケモンについている特殊エネルギーの効果はすべてなくなり、[C]エネルギー1個ぶんとしてはたらく。",
 	},
 
 	variants: [

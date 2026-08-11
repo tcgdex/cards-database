@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "VS Seeker",
-		fr: "Cherche VS",
-		de: "Kampffahnder"
+		'en-us': "VS Seeker",
+		'fr-fr': "Cherche VS",
+		'de-de': "Kampffahnder"
 	},
 
 	illustrator: "K. Utsunomiya",
@@ -15,9 +15,9 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		en: "Search your discard pile for a Supporter card, show it to your opponent, and put it into your hand.",
-		fr: "Cherchez dans votre pile de défausse une carte Supporter, montrez-la à votre adversaire et placez-la dans votre main.",
-		de: "Search your dicard pile for a Supporter card, show it to your opponent, and put it into your hand."
+		'en-us': "Search your discard pile for a Supporter card, show it to your opponent, and put it into your hand.",
+		'fr-fr': "Cherchez dans votre pile de défausse une carte Supporter, montrez-la à votre adversaire et placez-la dans votre main.",
+		'de-de': "Search your dicard pile for a Supporter card, show it to your opponent, and put it into your hand."
 	},
 
 

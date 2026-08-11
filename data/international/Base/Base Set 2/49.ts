@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Machoke",
+		'en-us': "Machoke",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Machop",
+		'en-us': "Machop",
 	},
 
 	stage: "Stage1",
@@ -35,10 +35,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Karate Chop",
+				'en-us': "Karate Chop",
 			},
 			effect: {
-				en: "Does 50 damage minus 10 for each damage counter on Machoke.",
+				'en-us': "Does 50 damage minus 10 for each damage counter on Machoke.",
 			},
 
 		},
@@ -50,10 +50,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Submission",
+				'en-us': "Submission",
 			},
 			effect: {
-				en: "Machoke does 20 damage to itself.",
+				'en-us': "Machoke does 20 damage to itself.",
 			},
 			damage: 60,
 
@@ -70,7 +70,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its muscular body is so powerful that it must wear a power-save belt to help regulate its motions.",
+		'en-us': "Its muscular body is so powerful that it must wear a power-save belt to help regulate its motions.",
 	},
 
 

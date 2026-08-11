@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クマシュン",
+		'ja-jp': "クマシュン",
 	},
 
 	illustrator: "0313",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "鼻水は 健康の バロメータ。 調子が いいと 粘り強くなり 氷の 技の 威力も 増す。",
+		'ja-jp': "鼻水は 健康の バロメータ。 調子が いいと 粘り強くなり 氷の 技の 威力も 増す。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "あとびえ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "このワザは、後攻プレイヤーの最初の番にだけ使える。相手のバトルポケモンをマヒにする。",
+				'ja-jp': "このワザは、後攻プレイヤーの最初の番にだけ使える。相手のバトルポケモンをマヒにする。",
 			},
 		},
 		{

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Zebstrika",
-		fr: "Zéblitz",
-		es: "Zebstrika",
-		it: "Zebstrika",
-		pt: "Zebstrika",
-		de: "Zebritz"
+		'en-us': "Zebstrika",
+		'fr-fr': "Zéblitz",
+		'es-es': "Zebstrika",
+		'it-it': "Zebstrika",
+		'pt-br': "Zebstrika",
+		'de-de': "Zebritz"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Blitzle",
-		fr: "Zébibron",
+		'en-us': "Blitzle",
+		'fr-fr': "Zébibron",
 	},
 
 	stage: "Stage1",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rear Kick",
-				fr: "Ruade",
+				'en-us': "Rear Kick",
+				'fr-fr': "Ruade",
 			},
 
 			damage: 30,
@@ -53,12 +53,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Electrispark",
-				fr: "Arc Électrique",
+				'en-us': "Electrispark",
+				'fr-fr': "Arc Électrique",
 			},
 			effect: {
-				en: "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 70,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+		'en-us': "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
 	},
 
 	thirdParty: {

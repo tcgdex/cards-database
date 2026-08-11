@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [15],
 
 	name: {
-		en: "Beedrill",
-		fr: "Dardargnan",
-		es: "Beedrill",
-		it: "Beedrill",
-		pt: "Beedrill",
-		de: "Bibor"
+		'en-us': "Beedrill",
+		'fr-fr': "Dardargnan",
+		'es-es': "Beedrill",
+		'it-it': "Beedrill",
+		'pt-br': "Beedrill",
+		'de-de': "Bibor"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kakuna",
-		fr: "Coconfort"
+		'en-us': "Kakuna",
+		'fr-fr': "Coconfort"
 	},
 
 	attacks: [
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Jab",
-				fr: "Direct Toxik",
-				es: "Puya Nociva",
-				it: "Velenpuntura",
-				pt: "Golpe Envenenado",
-				de: "Gifthieb"
+				'en-us': "Poison Jab",
+				'fr-fr': "Direct Toxik",
+				'es-es': "Puya Nociva",
+				'it-it': "Velenpuntura",
+				'pt-br': "Golpe Envenenado",
+				'de-de': "Gifthieb"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+				'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 			damage: 80,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "May appear in a swarm. Flies at violent speeds, all the while stabbing with the toxic stinger on its rear."
+		'en-us': "May appear in a swarm. Flies at violent speeds, all the while stabbing with the toxic stinger on its rear."
 	},
 
 	thirdParty: {

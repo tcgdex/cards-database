@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
@@ -19,12 +19,12 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Mimikyu",
-		fr: "Mimiqui",
-		de: "Mimigma",
-		es: "Mimikyu",
-		pt: "Mimikyu",
-		it: "Mimikyu"
+		'en-us': "Mimikyu",
+		'fr-fr': "Mimiqui",
+		'de-de': "Mimigma",
+		'es-es': "Mimikyu",
+		'pt-br': "Mimikyu",
+		'it-it': "Mimikyu"
 	},
 
 	rarity: "Promo",
@@ -37,41 +37,41 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			fr: "Maraudage",
-			de: "Mopsen",
-			es: "Birlar",
-			pt: "Furtar",
-			it: "Furtarello",
-			en: "Filch"
+			'fr-fr': "Maraudage",
+			'de-de': "Mopsen",
+			'es-es': "Birlar",
+			'pt-br': "Furtar",
+			'it-it': "Furtarello",
+			'en-us': "Filch"
 		},
 
 		effect: {
-			fr: "Piochez 2 cartes.",
-			de: "Ziehe 2 Karten.",
-			es: "Roba 2 cartas.",
-			pt: "Compre 2 cartas.",
-			it: "Pesca due carte.",
-			en: "Draw 2 cards."
+			'fr-fr': "Piochez 2 cartes.",
+			'de-de': "Ziehe 2 Karten.",
+			'es-es': "Roba 2 cartas.",
+			'pt-br': "Compre 2 cartas.",
+			'it-it': "Pesca due carte.",
+			'en-us': "Draw 2 cards."
 		}
 	}, {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			fr: "Griffe Trempée",
-			de: "Nasse Klaue",
-			es: "Garra Húmeda",
-			pt: "Garra Molhada",
-			it: "Artiglio Bagnato",
-			en: "Wet Claw"
+			'fr-fr': "Griffe Trempée",
+			'de-de': "Nasse Klaue",
+			'es-es': "Garra Húmeda",
+			'pt-br': "Garra Molhada",
+			'it-it': "Artiglio Bagnato",
+			'en-us': "Wet Claw"
 		},
 
 		effect: {
-			fr: "Ajoutez à la main de votre adversaire une Énergie attachée à son Pokémon Actif.",
-			de: "Gib deinem Gegner 1 an sein Aktives Pokémon angelegte Energie auf seine Hand.",
-			es: "Pon 1 Energía unida al Pokémon Activo de tu rival en su mano.",
-			pt: "Coloque 1 Energia ligada ao Pokémon Ativo do seu oponente na mão dele(a).",
-			it: "Prendi un'Energia assegnata al Pokémon attivo del tuo avversario e aggiungila alle carte che ha in mano.",
-			en: "Put an Energy attached to your opponent's Active Pokémon into their hand."
+			'fr-fr': "Ajoutez à la main de votre adversaire une Énergie attachée à son Pokémon Actif.",
+			'de-de': "Gib deinem Gegner 1 an sein Aktives Pokémon angelegte Energie auf seine Hand.",
+			'es-es': "Pon 1 Energía unida al Pokémon Activo de tu rival en su mano.",
+			'pt-br': "Coloque 1 Energia ligada ao Pokémon Ativo do seu oponente na mão dele(a).",
+			'it-it': "Prendi un'Energia assegnata al Pokémon attivo del tuo avversario e aggiungila alle carte che ha in mano.",
+			'en-us': "Put an Energy attached to your opponent's Active Pokémon into their hand."
 		},
 
 		damage: 40

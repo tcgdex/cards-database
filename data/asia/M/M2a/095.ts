@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タンドン",
+		'ja-jp': "タンドン",
 	},
 
 	illustrator: "Kurata So",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "古くなり 剥がれ落ちた 体の 表面は 石炭の 代わりに 燃料として 使われてきた。",
+		'ja-jp': "古くなり 剥がれ落ちた 体の 表面は 石炭の 代わりに 燃料として 使われてきた。",
 	},
 
 	stage: "Basic",

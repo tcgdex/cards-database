@@ -1,4 +1,4 @@
-import { Serie } from 'models/serie'
+import { Serie } from 'models/database/serie'
 
 const serie: Serie = {
 	id: "B",

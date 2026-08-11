@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Slaking",
-		fr: "Monaflemit",
-		de: "Letarking"
+		'en-us': "Slaking",
+		'fr-fr': "Monaflemit",
+		'de-de': "Letarking"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vigoroth",
-		fr: "Vigoroth"
+		'en-us': "Vigoroth",
+		'fr-fr': "Vigoroth"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Lazy Aura",
-				fr: "Aura fainéante",
-				de: "Lazy Aura"
+				'en-us': "Lazy Aura",
+				'fr-fr': "Aura fainéante",
+				'de-de': "Lazy Aura"
 			},
 			effect: {
-				en: "As long as Slaking is your Active Pokémon, any damage done by attacks from your opponent's Pokémon-ex is reduced by 30 (before applying Weakness and Resistance).",
-				fr: "Tant que Monaflemit est votre Pokémon Actif, les dégâts infligés par des attaques du Pokémon-ex de votre adversaire sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
-				de: "As long as Slarking is your Active Pokémon, any damage done by attacks from your opponent's Pokémon-ex is reduced by 30 (before applying Weakness and Resistance)."
+				'en-us': "As long as Slaking is your Active Pokémon, any damage done by attacks from your opponent's Pokémon-ex is reduced by 30 (before applying Weakness and Resistance).",
+				'fr-fr': "Tant que Monaflemit est votre Pokémon Actif, les dégâts infligés par des attaques du Pokémon-ex de votre adversaire sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "As long as Slarking is your Active Pokémon, any damage done by attacks from your opponent's Pokémon-ex is reduced by 30 (before applying Weakness and Resistance)."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Amnesia",
-				fr: "Amnésie",
-				de: "Amnesia"
+				'en-us': "Amnesia",
+				'fr-fr': "Amnésie",
+				'de-de': "Amnesia"
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
-				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire.",
-				de: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn."
+				'en-us': "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
+				'fr-fr': "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire.",
+				'de-de': "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn."
 			},
 			damage: 20,
 
@@ -73,14 +73,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lazy Headbutt",
-				fr: "Coup d'boule fainéant",
-				de: "Lazy Headbutt"
+				'en-us': "Lazy Headbutt",
+				'fr-fr': "Coup d'boule fainéant",
+				'de-de': "Lazy Headbutt"
 			},
 			effect: {
-				en: "Slaking is now Asleep.",
-				fr: "Monaflemit est maintenant Endormi.",
-				de: "Slaking is now Asleep."
+				'en-us': "Slaking is now Asleep.",
+				'fr-fr': "Monaflemit est maintenant Endormi.",
+				'de-de': "Slaking is now Asleep."
 			},
 			damage: 70,
 

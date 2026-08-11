@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Flareon V",
-		fr: "Pyroli V",
-		es: "Flareon V",
-		it: "Flareon V",
-		pt: "Flareon V",
-		de: "Flamara V"
+		'en-us': "Flareon V",
+		'fr-fr': "Pyroli V",
+		'es-es': "Flareon V",
+		'it-it': "Flareon V",
+		'pt-br': "Flareon V",
+		'de-de': "Flamara V"
 	},
 
 	rarity: "Ultra Rare",
@@ -23,42 +23,42 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Flaming Breath",
-			fr: "Souffle de Flamme",
-			es: "Aliento Flamígero",
-			it: "Soffio Ardente",
-			pt: "Flaming Breath",
-			de: "Flammender Atem"
+			'en-us': "Flaming Breath",
+			'fr-fr': "Souffle de Flamme",
+			'es-es': "Aliento Flamígero",
+			'it-it': "Soffio Ardente",
+			'pt-br': "Flaming Breath",
+			'de-de': "Flammender Atem"
 		},
 
 		effect: {
-			en: "Search your deck for a Fire Energy card and attach it to this Pokémon. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck une carte Énergie Fire, puis attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja 1 carta de Energía Fire y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo una carta Energia Fire e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
-			pt: "Search your deck for a Fire Energy card and attach it to this Pokémon. Then, shuffle your deck.",
-			de: "Durchsuche dein Deck nach 1 Fire-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+			'en-us': "Search your deck for a Fire Energy card and attach it to this Pokémon. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck une carte Énergie Fire, puis attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja 1 carta de Energía Fire y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo una carta Energia Fire e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Search your deck for a Fire Energy card and attach it to this Pokémon. Then, shuffle your deck.",
+			'de-de': "Durchsuche dein Deck nach 1 Fire-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 		},
 
 		damage: 20,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Scorching Column",
-			fr: "Colonne Torride",
-			es: "Columna Abrasadora",
-			it: "Torre Ustionante",
-			pt: "Scorching Column",
-			de: "Versengende Säule"
+			'en-us': "Scorching Column",
+			'fr-fr': "Colonne Torride",
+			'es-es': "Columna Abrasadora",
+			'it-it': "Torre Ustionante",
+			'pt-br': "Scorching Column",
+			'de-de': "Versengende Säule"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			pt: "Your opponent's Active Pokémon is now Burned.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+			'en-us': "Your opponent's Active Pokémon is now Burned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+			'pt-br': "Your opponent's Active Pokémon is now Burned.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 		},
 
 		damage: 120,

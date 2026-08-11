@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [583],
 
 	name: {
-		en: "Vanillish"
+		'en-us': "Vanillish"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Vanillite"
+		'en-us': "Vanillite"
 	},
 
 	description: {
-		en: "It blasts enemies with cold air reaching −148\ndegrees Fahrenheit, freezing them solid. But it\nspares their lives afterward—it's a kind Pokémon."
+		'en-us': "It blasts enemies with cold air reaching −148\ndegrees Fahrenheit, freezing them solid. But it\nspares their lives afterward—it's a kind Pokémon."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Frost Breath"
+			'en-us': "Frost Breath"
 		},
 
 		damage: 40,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルージュラ",
+		'ja-jp': "ルージュラ",
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "独特の リズムで 腰を 振る。 アローラに 棲む ルージュラは そのキレが 実に 素晴らしい。",
+		'ja-jp': "独特の リズムで 腰を 振る。 アローラに 棲む ルージュラは そのキレが 実に 素晴らしい。",
 	},
 
 	stage: "Basic",
@@ -23,14 +23,14 @@ const card: Card = {
 			name: { ja: "げんわくダンス" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 		{
 			name: { ja: "なぞのダンス" },
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモンの数ぶんのダメカンを、相手のポケモンに好きなようにのせる。",
+				'ja-jp': "相手のベンチポケモンの数ぶんのダメカンを、相手のポケモンに好きなようにのせる。",
 			},
 		},
 	],

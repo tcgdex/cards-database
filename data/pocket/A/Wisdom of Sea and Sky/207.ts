@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Crobat ex",
-		fr: "Nostenfer-ex"
+		'en-us': "Crobat ex",
+		'fr-fr': "Nostenfer-ex"
 	},
 
 	illustrator: "Shinji Kanda",
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Golbat"
+		'en-us': "Golbat"
 	},
 
 	stage: "Stage2",
@@ -26,16 +26,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Venomous Slash",
-			fr: "Taillade Venimeuse"
+			'en-us': "Venomous Slash",
+			'fr-fr': "Taillade Venimeuse"
 		},
 
 		damage: 70,
 		cost: ["Darkness"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
 		}
 	}],
 

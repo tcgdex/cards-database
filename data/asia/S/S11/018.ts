@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒノヤコマ",
+		'ja-jp': "ヒノヤコマ",
 		'zh-tw': "火箭雀",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "巣穴の中に 火の粉を 飛ばし 驚いて 出てきた 獲物を 鋭い ツメで しとめるのだ。",
+		'ja-jp': "巣穴の中に 火の粉を 飛ばし 驚いて 出てきた 獲物を 鋭い ツメで しとめるのだ。",
 		'zh-tw': "會朝著獵物的巢穴中噴射火花，再用銳利的爪子解決掉 受驚嚇而跑出來的獵物。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ひをはく",
+				'ja-jp': "ひをはく",
 				'zh-tw': "吐火",
 			},
 			damage: 30,
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤヤコマ",
+		'ja-jp': "ヤヤコマ",
 	},
 
 	retreat: 1,

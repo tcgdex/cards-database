@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
     set: Set,
 
 	name: {
-		en: "Gholdengo",
-		fr: "Gromago",
-		es: "Gholdengo",
-		it: "Gholdengo",
-		de: "Monetigo",
+		'en-us': "Gholdengo",
+		'fr-fr': "Gromago",
+		'es-es': "Gholdengo",
+		'it-it': "Gholdengo",
+		'de-de': "Monetigo",
 		'pt-br': "Gholdengo",
-		ko: "타부자고"
+		'ko-kr': "타부자고"
 	},
 
     suffix: "EX",
@@ -24,12 +24,12 @@ const card: Card = {
     dexId: [1000],
 
     evolveFrom: {
-		en: "Gimmighoul",
-		fr: "Mordudor",
-		de: "Gierspenst",
-		it: "Gimmighoul",
-		es: "Gimmighoul",
-		pt: "Gimmighoul",
+		'en-us': "Gimmighoul",
+		'fr-fr': "Mordudor",
+		'de-de': "Gierspenst",
+		'it-it': "Gimmighoul",
+		'es-es': "Gimmighoul",
+		'pt-br': "Gimmighoul",
 		'es-mx': "Gimmighoul"
     },
     stage: "Stage1",

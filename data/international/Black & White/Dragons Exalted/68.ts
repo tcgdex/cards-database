@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Throh",
-		fr: "Judokrak",
-		es: "Throh",
-		it: "Throh",
-		pt: "Throh",
-		de: "Jiutesto"
+		'en-us': "Throh",
+		'fr-fr': "Judokrak",
+		'es-es': "Throh",
+		'it-it': "Throh",
+		'pt-br': "Throh",
+		'de-de': "Jiutesto"
 	},
 
 	illustrator: "Midori Harada",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Squeeze",
-				fr: "Compression",
+				'en-us': "Squeeze",
+				'fr-fr': "Compression",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage and the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage and the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 40,
 
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Superpower",
-				fr: "Surpuissance",
+				'en-us': "Superpower",
+				'fr-fr': "Surpuissance",
 			},
 			effect: {
-				en: "You may do 20 more damage. If you do, this Pokémon does 20 damage to itself.",
-				fr: "Vous pouvez infliger 20 dégâts supplémentaires. Dans ce cas, ce Pokémon s'inflige 20 dégâts.",
+				'en-us': "You may do 20 more damage. If you do, this Pokémon does 20 damage to itself.",
+				'fr-fr': "Vous pouvez infliger 20 dégâts supplémentaires. Dans ce cas, ce Pokémon s'inflige 20 dégâts.",
 			},
 			damage: 70,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "When they encounter foes bigger than themselves, they try to throw them. They always travel in packs of five.",
+		'en-us': "When they encounter foes bigger than themselves, they try to throw them. They always travel in packs of five.",
 	},
 
 	thirdParty: {

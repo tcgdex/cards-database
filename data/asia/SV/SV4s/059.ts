@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Cofagrigus ex"
+		'id-id': "Cofagrigus ex"
 	},
 
 	illustrator: "kawayoo",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Peti Mati Keemasan"
+			'id-id': "Peti Mati Keemasan"
 		},
 
 		effect: {
-			id: "Saat Pokémon ini KO karena menerima kerusakan akibat serangan dari Pokémon lawan, pilih 1 kartu sesukanya dari Deck sendiri, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
+			'id-id': "Saat Pokémon ini KO karena menerima kerusakan akibat serangan dari Pokémon lawan, pilih 1 kartu sesukanya dari Deck sendiri, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Hollow Hands"
+			'id-id': "Hollow Hands"
 		},
 
 		effect: {
-			id: "Letakkan sejumlah 5 Token Kerusakan pada Pokémon Cadangan lawan sesukanya."
+			'id-id': "Letakkan sejumlah 5 Token Kerusakan pada Pokémon Cadangan lawan sesukanya."
 		},
 
 		damage: 110,

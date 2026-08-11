@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユキメノコ",
+		'ja-jp': "ユキメノコ",
 		'zh-tw': "雪妖女",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "マイナス５０度の 冷気を 吐き 凍らせた 獲物を すみかに 持ち帰り きれいに 並べる。",
+		'ja-jp': "マイナス５０度の 冷気を 吐き 凍らせた 獲物を すみかに 持ち帰り きれいに 並べる。",
 		'zh-tw': "會吐出零下５０度的冷氣凍住獵物，並把牠們帶回自己的巢穴，整齊地擺成一排。",
 	},
 
@@ -25,7 +25,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "しもふらし" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のトラッシュから[水]エネルギーを1枚選び、自分のポケモンにつける。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のトラッシュから[水]エネルギーを1枚選び、自分のポケモンにつける。",
 			},
 		},
 	],
@@ -33,13 +33,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "クリスタルブレス",
+				'ja-jp': "クリスタルブレス",
 				'zh-tw': "天狗再見",
 			},
 			damage: 90,
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 				'zh-tw': "將身上放置有傷害指示物的對手的戰鬥寶可夢與附加的卡，全部放回對手的手牌。",
 			},
 		},
@@ -59,7 +59,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ユキワラシ",
+		'ja-jp': "ユキワラシ",
 	},
 
 	retreat: 1,

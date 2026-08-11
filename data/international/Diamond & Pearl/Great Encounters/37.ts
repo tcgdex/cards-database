@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Floatzel",
-		fr: "Mustéflott",
-		de: "Bojelin"
+		'en-us': "Floatzel",
+		'fr-fr': "Mustéflott",
+		'de-de': "Bojelin"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Buizel",
-		fr: "Mustébouée",
+		'en-us': "Buizel",
+		'fr-fr': "Mustébouée",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Agility",
-				fr: "Hâte",
-				de: "Agilität"
+				'en-us': "Agility",
+				'fr-fr': "Hâte",
+				'de-de': "Agilität"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Floatzel during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Mustéflott lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei 'Kopf' verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Bojelin zugefügt würden."
+				'en-us': "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Floatzel during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Mustéflott lors du prochain tour de votre adversaire.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Bojelin zugefügt würden."
 			},
 			damage: 20,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Jet",
-				fr: "Aqua-Jet",
-				de: "Wasserdüse"
+				'en-us': "Aqua Jet",
+				'fr-fr': "Aqua-Jet",
+				'de-de': "Wasserdüse"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse ou la Résistance aux Pokémon de Banc).",
-				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff einem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz für Pokémon auf der Bank nicht an.)"
+				'en-us': "Flip a coin. If heads, this attack does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse ou la Résistance aux Pokémon de Banc).",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff einem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz für Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It floats using its well-developed floatation sac. It assists in the rescues of drowning people.",
+		'en-us': "It floats using its well-developed floatation sac. It assists in the rescues of drowning people.",
 	},
 
 	thirdParty: {

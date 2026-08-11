@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Grimer",
-		fr: "Tadmorv",
-		es: "Grimer",
-		it: "Grimer",
-		pt: "Grimer",
-		de: "Sleima"
+		'en-us': "Grimer",
+		'fr-fr': "Tadmorv",
+		'es-es': "Grimer",
+		'it-it': "Grimer",
+		'pt-br': "Grimer",
+		'de-de': "Sleima"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Lure Poison",
-				fr: "Appât Vénéneux",
+				'en-us': "Lure Poison",
+				'fr-fr': "Appât Vénéneux",
 			},
 			effect: {
-				en: "Flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with the Defending Pokémon. The new Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, échangez 1 des Pokémon de Banc de votre adversaire avec le Pokémon Défenseur. Le nouveau Pokémon Défenseur est maintenant Empoisonné.",
+				'en-us': "Flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with the Defending Pokémon. The new Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, échangez 1 des Pokémon de Banc de votre adversaire avec le Pokémon Défenseur. Le nouveau Pokémon Défenseur est maintenant Empoisonné.",
 			},
 
 		},
@@ -50,8 +50,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sludge Toss",
-				fr: "Giclée Vaseuse",
+				'en-us': "Sludge Toss",
+				'fr-fr': "Giclée Vaseuse",
 			},
 
 			damage: 30,
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies.",
+		'en-us': "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies.",
 	},
 
 	thirdParty: {

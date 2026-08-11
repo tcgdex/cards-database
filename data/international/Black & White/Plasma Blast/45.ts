@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Golett",
-		fr: "Gringolem",
-		es: "Golett",
-		it: "Golett",
-		pt: "Golett",
-		de: "Golbit"
+		'en-us': "Golett",
+		'fr-fr': "Gringolem",
+		'es-es': "Golett",
+		'it-it': "Golett",
+		'pt-br': "Golett",
+		'de-de': "Golbit"
 	},
 
 	illustrator: "Midori Harada",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beat",
-				fr: "Bataille",
+				'en-us': "Beat",
+				'fr-fr': "Bataille",
 			},
 
 			damage: 10,
@@ -48,8 +48,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Punch",
-				fr: "Ultimapoing",
+				'en-us': "Mega Punch",
+				'fr-fr': "Ultimapoing",
 			},
 
 			damage: 50,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Ancient science fashioned this Pokémon from clay. It's been active for thousands of years.",
+		'en-us': "Ancient science fashioned this Pokémon from clay. It's been active for thousands of years.",
 	},
 
 	thirdParty: {

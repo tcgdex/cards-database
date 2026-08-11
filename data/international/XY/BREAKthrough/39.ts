@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Snover",
-		fr: "Blizzi",
-		es: "Snover",
-		it: "Snover",
-		pt: "Snover",
-		de: "Shnebedeck"
+		'en-us': "Snover",
+		'fr-fr': "Blizzi",
+		'es-es': "Snover",
+		'it-it': "Snover",
+		'pt-br': "Snover",
+		'de-de': "Shnebedeck"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Powder Snow",
-				fr: "Poudreuse",
-				es: "Nieve Polvo",
-				it: "Polneve",
-				pt: "Neve em Pó",
-				de: "Pulverschnee"
+				'en-us': "Powder Snow",
+				'fr-fr': "Poudreuse",
+				'es-es': "Nieve Polvo",
+				'it-it': "Polneve",
+				'pt-br': "Neve em Pó",
+				'de-de': "Pulverschnee"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent's Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 
 		},
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Smash",
-				fr: "Double Broiement",
-				es: "Golpe Doble",
-				it: "Colpo Duplice",
-				pt: "Bordoada Dupla",
-				de: "Doppelstoß"
+				'en-us': "Double Smash",
+				'fr-fr': "Double Broiement",
+				'es-es': "Golpe Doble",
+				'it-it': "Colpo Duplice",
+				'pt-br': "Bordoada Dupla",
+				'de-de': "Doppelstoß"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
-				es: "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
-				it: "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
-				pt: "Jogue 2 moedas. Este ataque causa 30 de danos vezes o número de caras.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
+				'it-it': "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 2 moedas. Este ataque causa 30 de danos vezes o número de caras.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "30×",
 
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "In the spring, it grows berries with the texture of frozen treats around its belly.",
+		'en-us': "In the spring, it grows berries with the texture of frozen treats around its belly.",
 	},
 
 	thirdParty: {

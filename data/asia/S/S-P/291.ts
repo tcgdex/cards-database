@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メルメタルV",
+		'ja-jp': "メルメタルV",
 	},
 
 	illustrator: "sadaji",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Metal", "Metal"],
 			effect: {
-				ja: "のぞむなら、自分の手札から[M]エネルギーを1枚選び、このポケモンにつける。",
+				'ja-jp': "のぞむなら、自分の手札から[M]エネルギーを1枚選び、このポケモンにつける。",
 			},
 		},
 		{

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クワガノン",
+		'ja-jp': "クワガノン",
 	},
 
 	illustrator: "Tonji Matsuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "デンヂムシを 抱えて 電気を もらい 大あごから 強力な 電磁ビームを 連射する。",
+		'ja-jp': "デンヂムシを 抱えて 電気を もらい 大あごから 強力な 電磁ビームを 連射する。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Lightning"],
 			effect: {
-				ja: "このポケモンをベンチの[L]ポケモンと入れ替える。",
+				'ja-jp': "このポケモンをベンチの[L]ポケモンと入れ替える。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "デンヂムシ",
+		'ja-jp': "デンヂムシ",
 	},
 
 	retreat: 1,

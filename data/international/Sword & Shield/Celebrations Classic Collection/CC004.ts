@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celebrations Classic Collection'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Imposter Professor Oak",
-		fr: "Faux Professeur Chen"
+		'en-us': "Imposter Professor Oak",
+		'fr-fr': "Faux Professeur Chen"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -15,8 +15,8 @@ const card: Card = {
 	trainerType: "Supporter",
 
 	effect: {
-		en: "Your opponent shuffles his or her hand into his or her deck, then draws 7 cards.",
-		fr: "Votre adversaire mélange sa main avec son deck, puis pioche 7 cartes."
+		'en-us': "Your opponent shuffles his or her hand into his or her deck, then draws 7 cards.",
+		'fr-fr': "Votre adversaire mélange sa main avec son deck, puis pioche 7 cartes."
 	},
 
 

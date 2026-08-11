@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Bronzong",
-		fr: "Archéodong",
-		de: "Bronzong"
+		'en-us': "Bronzong",
+		'fr-fr': "Archéodong",
+		'de-de': "Bronzong"
 	},
 
 	illustrator: "Yuka Morii",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bronzor",
-		fr: "Archeomire"
+		'en-us': "Bronzor",
+		'fr-fr': "Archeomire"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Legend Ceremony",
-				fr: "Cérémonie légendaire",
-				de: "Legendenzeremonie"
+				'en-us': "Legend Ceremony",
+				'fr-fr': "Cérémonie légendaire",
+				'de-de': "Legendenzeremonie"
 			},
 			effect: {
-				en: "Search your deck for both halves of a Pokémon LEGEND, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez les deux moitiés d’un Pokémon LÉGENDE dans votre deck, montrez-les à votre adversaire, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
-				de: "Durchsuche dein Deck nach beiden Hälften einer Pokémon-LEGENDE, zeige sie deinem Gegner und nimm sie auf die Hand. Mische anschließend dein Deck."
+				'en-us': "Search your deck for both halves of a Pokémon LEGEND, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez les deux moitiés d’un Pokémon LÉGENDE dans votre deck, montrez-les à votre adversaire, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				'de-de': "Durchsuche dein Deck nach beiden Hälften einer Pokémon-LEGENDE, zeige sie deinem Gegner und nimm sie auf die Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reflect Energy",
-				fr: "Renvoi d’énergie",
-				de: "Energiereflexion"
+				'en-us': "Reflect Energy",
+				'fr-fr': "Renvoi d’énergie",
+				'de-de': "Energiereflexion"
 			},
 			effect: {
-				en: "Move an Energy card attached to Bronzong to 1 of your Benched Pokémon.",
-				fr: "Prenez une carte Énergie attachée à Archéodong et attachez-la à l’un de vos Pokémon de Banc.",
-				de: "Lege eine Energiekarte, die an Bronzong angelegt ist, an 1 Pokémon auf deiner Bank an."
+				'en-us': "Move an Energy card attached to Bronzong to 1 of your Benched Pokémon.",
+				'fr-fr': "Prenez une carte Énergie attachée à Archéodong et attachez-la à l’un de vos Pokémon de Banc.",
+				'de-de': "Lege eine Energiekarte, die an Bronzong angelegt ist, an 1 Pokémon auf deiner Bank an."
 			},
 			damage: 30,
 
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Ancient people believed that petitioning Bronzong for rain was the way to make crops grow."
+		'en-us': "Ancient people believed that petitioning Bronzong for rain was the way to make crops grow."
 	},
 
 	variants: [

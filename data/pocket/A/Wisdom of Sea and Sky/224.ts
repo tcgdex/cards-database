@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Nidorina",
-		fr: "Nidorina"
+		'en-us': "Nidorina",
+		'fr-fr': "Nidorina"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Nidoran♀"
+		'en-us': "Nidoran♀"
 	},
 
 	description: {
-		en: "The horn on its head has atrophied. It's thought\nthat this happens so Nidorina's children won't get\npoked while their mother is feeding them.",
-		fr: "On pense que sa corne frontale s'est atrophiée pour lui permettre de nourrir ses petits sans les blesser."
+		'en-us': "The horn on its head has atrophied. It's thought\nthat this happens so Nidorina's children won't get\npoked while their mother is feeding them.",
+		'fr-fr': "On pense que sa corne frontale s'est atrophiée pour lui permettre de nourrir ses petits sans les blesser."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Bite",
-			fr: "Morsure"
+			'en-us': "Bite",
+			'fr-fr': "Morsure"
 		},
 
 		damage: 30,

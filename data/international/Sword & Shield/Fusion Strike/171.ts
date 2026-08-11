@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zoroark",
-		fr: "Zoroark",
-		es: "Zoroark",
-		it: "Zoroark",
-		pt: "Zoroark",
-		de: "Zoroark"
+		'en-us': "Zoroark",
+		'fr-fr': "Zoroark",
+		'es-es': "Zoroark",
+		'it-it': "Zoroark",
+		'pt-br': "Zoroark",
+		'de-de': "Zoroark"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Zorua",
-		fr: "Zorua",
-		es: "Zorua",
-		it: "Zorua",
-		pt: "Zorua",
-		de: "Zorua"
+		'en-us': "Zorua",
+		'fr-fr': "Zorua",
+		'es-es': "Zorua",
+		'it-it': "Zorua",
+		'pt-br': "Zorua",
+		'de-de': "Zorua"
 	},
 
 	stage: "Stage1",
@@ -40,41 +40,41 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "If it thinks humans are going to discover its den, Zoroark shows them visions that make them wander around in the woods."
+		'en-us': "If it thinks humans are going to discover its den, Zoroark shows them visions that make them wander around in the woods."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Double Claw",
-			fr: "Double-Griffe",
-			de: "Doppelklaue",
-			es: "Doble Zarpa",
-			pt: "Garra em Dobro",
-			it: "Doppio-Artiglio"
+			'en-us': "Double Claw",
+			'fr-fr': "Double-Griffe",
+			'de-de': "Doppelklaue",
+			'es-es': "Doble Zarpa",
+			'pt-br': "Garra em Dobro",
+			'it-it': "Doppio-Artiglio"
 		},
 
 		damage: "40×",
 
 		effect: {
-			en: "Flip 2 coins. This attack does 40 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts pour chaque côté face.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu.",
-			es: "Lanza 2 monedas. Este ataque hace 40 puntos de daño por cada cara.",
-			pt: "Jogue 2 moedas. Este ataque causa 40 pontos de dano para cada cara.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa."
+			'en-us': "Flip 2 coins. This attack does 40 damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 40 dégâts pour chaque côté face.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 40 puntos de daño por cada cara.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 40 pontos de dano para cada cara.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 40 danni ogni volta che esce testa."
 		}
 	}, {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Night Daze",
-			fr: "Explonuit",
-			de: "Nachtflut",
-			es: "Pulso Noche",
-			pt: "Ofuscamento Noturno",
-			it: "Urtoscuro"
+			'en-us': "Night Daze",
+			'fr-fr': "Explonuit",
+			'de-de': "Nachtflut",
+			'es-es': "Pulso Noche",
+			'pt-br': "Ofuscamento Noturno",
+			'it-it': "Urtoscuro"
 		},
 
 		damage: 100

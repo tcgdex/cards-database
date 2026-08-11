@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "蒂安希",
 		'zh-cn': "蒂安希",
-		ja: "ディアンシー"
+		'ja-jp': "ディアンシー"
 	},
 
 	illustrator: "Jiro Sasumo",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "小碎鑽的突變種。 散發著粉紅光輝的身體 被譽為世界第一美麗。",
 		'zh-cn': "小碎鑽的突變種。 散發著粉紅光輝的身體 被譽為世界第一美麗。",
-		ja: "メレシーの 突然変異。 ピンク色に 輝く 体は 世界一 美しいと 言われる。"
+		'ja-jp': "メレシーの 突然変異。 ピンク色に 輝く 体は 世界一 美しいと 言われる。"
 	},
 
 	stage: "Basic",
@@ -27,13 +27,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "漫反射",
 			'zh-cn': "漫反射",
-			ja: "らんはんしゃ"
+			'ja-jp': "らんはんしゃ"
 		},
 
 		effect: {
 			'zh-tw': "造成對手的所有寶可夢身上附加的特殊能量卡的張數×40點傷害。",
 			'zh-cn': "造成對手的所有寶可夢身上附加的特殊能量卡的張數×40點傷害。",
-			ja: "相手のポケモン全員についている特殊エネルギーの枚数×40ダメージ。"
+			'ja-jp': "相手のポケモン全員についている特殊エネルギーの枚数×40ダメージ。"
 		},
 
 		damage: "40×",
@@ -42,7 +42,7 @@ const card: Card = {
 		name: {
 			'zh-tw': "力量寶石",
 			'zh-cn': "力量寶石",
-			ja: "パワージェム"
+			'ja-jp': "パワージェム"
 		},
 
 		damage: 60,

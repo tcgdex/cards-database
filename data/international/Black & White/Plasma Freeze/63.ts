@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Hariyama",
-		fr: "Hariyama",
-		es: "Hariyama",
-		it: "Hariyama",
-		pt: "Hariyama",
-		de: "Hariyama"
+		'en-us': "Hariyama",
+		'fr-fr': "Hariyama",
+		'es-es': "Hariyama",
+		'it-it': "Hariyama",
+		'pt-br': "Hariyama",
+		'de-de': "Hariyama"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Makuhita",
-		fr: "Makuhita",
+		'en-us': "Makuhita",
+		'fr-fr': "Makuhita",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fake Out",
-				fr: "Bluff",
+				'en-us': "Fake Out",
+				'fr-fr': "Bluff",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 30,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pivot Throw",
-				fr: "Lancer Tournant",
+				'en-us': "Pivot Throw",
+				'fr-fr': "Lancer Tournant",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is increased by 20 (after applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont augmentés de 20 (après application de la Faiblesse et de la Résistance).",
+				'en-us': "During your opponent's next turn, any damage done to this Pokémon by attacks is increased by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont augmentés de 20 (après application de la Faiblesse et de la Résistance).",
 			},
 			damage: 90,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It loves to match power with big-bodied Pokémon. It can knock a truck flying with its arm thrusts.",
+		'en-us': "It loves to match power with big-bodied Pokémon. It can knock a truck flying with its arm thrusts.",
 	},
 
 	thirdParty: {

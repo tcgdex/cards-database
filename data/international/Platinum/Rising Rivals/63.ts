@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Growlithe",
-		fr: "Caninos Niv. 26",
-		de: "Fukano"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos Niv. 26",
+		'de-de': "Fukano"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stoke",
-				fr: "Crémation",
-				de: "Anheizen"
+				'en-us': "Stoke",
+				'fr-fr': "Crémation",
+				'de-de': "Anheizen"
 			},
 			effect: {
-				en: "Search your deck for a Fire Energy card and attach it to Growlithe. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck une carte Énergie Fire et attachez-la à Caninos. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach 1 -Energiekarte und lege sie an Fukano an. Mische dein Deck danach."
+				'en-us': "Search your deck for a Fire Energy card and attach it to Growlithe. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez dans votre deck une carte Énergie Fire et attachez-la à Caninos. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach 1 -Energiekarte und lege sie an Fukano an. Mische dein Deck danach."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				de: "Bodycheck"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'de-de': "Bodycheck"
 			},
 			effect: {
-				en: "Growlithe does 10 damage to itself.",
-				fr: "Caninos s'inflige 10 dégâts.",
-				de: "Fukano fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Growlithe does 10 damage to itself.",
+				'fr-fr': "Caninos s'inflige 10 dégâts.",
+				'de-de': "Fukano fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 50,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A Pokémon with a loyal nature. It will remain motionless until it is given an order by its Trainer."
+		'en-us': "A Pokémon with a loyal nature. It will remain motionless until it is given an order by its Trainer."
 	},
 
 	variants: [

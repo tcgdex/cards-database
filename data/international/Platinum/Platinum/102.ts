@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Vulpix",
-		fr: "Goupix",
-		de: "Vulpix"
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix",
+		'de-de': "Vulpix"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Reheat",
-				fr: "Réchauffer",
-				de: "Reheat"
+				'en-us': "Reheat",
+				'fr-fr': "Réchauffer",
+				'de-de': "Reheat"
 			},
 			effect: {
-				en: "Discard up to 2 Energy cards from your hand. For each card you discarded, draw 2 cards.",
-				fr: "Défaussez jusqu'à 2 cartes Énergie de votre main. Pour chaque carte défaussée, piochez 2 cartes.",
-				de: "Discard up to 2 Energy cards from your hand. For each card you discarded, draw 2 cards."
+				'en-us': "Discard up to 2 Energy cards from your hand. For each card you discarded, draw 2 cards.",
+				'fr-fr': "Défaussez jusqu'à 2 cartes Énergie de votre main. Pour chaque carte défaussée, piochez 2 cartes.",
+				'de-de': "Discard up to 2 Energy cards from your hand. For each card you discarded, draw 2 cards."
 			},
 
 		},
@@ -44,14 +44,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde folie",
-				de: "Confuse Ray"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde folie",
+				'de-de': "Confuse Ray"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 20,
 
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It controls balls of fire. As it grows, its six tails split from their tips to make more tails."
+		'en-us': "It controls balls of fire. As it grows, its six tails split from their tips to make more tails."
 	},
 
 	variants: [

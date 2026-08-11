@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Typhlosion",
-		fr: "Typhlosion",
-		de: "Tornupto"
+		'en-us': "Typhlosion",
+		'fr-fr': "Typhlosion",
+		'de-de': "Tornupto"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Quilava",
-		fr: "Fleurisson"
+		'en-us': "Quilava",
+		'fr-fr': "Fleurisson"
 	},
 
 	stage: "Stage2",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magma Punch",
-				fr: "Poing magma",
-				de: "Magmahieb"
+				'en-us': "Magma Punch",
+				'fr-fr': "Poing magma",
+				'de-de': "Magmahieb"
 			},
 
 			damage: 50,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Spin",
-				fr: "Danseflamme",
-				de: "Feuerwirbel"
+				'en-us': "Fire Spin",
+				'fr-fr': "Danseflamme",
+				'de-de': "Feuerwirbel"
 			},
 			effect: {
-				en: "Discard 2 Energy attached to Typhlosion.",
-				fr: "Défaussez-vous de 2 cartes Énergie attachées à Typhlosion.",
-				de: "Lege 2 an Tornupto angelegte Energien auf deinen Ablagestapel."
+				'en-us': "Discard 2 Energy attached to Typhlosion.",
+				'fr-fr': "Défaussez-vous de 2 cartes Énergie attachées à Typhlosion.",
+				'de-de': "Lege 2 an Tornupto angelegte Energien auf deinen Ablagestapel."
 			},
 			damage: 120,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions."
+		'en-us': "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions."
 	},
 
 	variants: [

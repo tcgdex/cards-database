@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エレキブル",
+		'ja-jp': "エレキブル",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "尻尾の 先を 敵に 押しつけ 高圧電流を 流し込む。 一瞬で 敵は 黒コゲ。",
+		'ja-jp': "尻尾の 先を 敵に 押しつけ 高圧電流を 流し込む。 一瞬で 敵は 黒コゲ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、60ダメージ追加。ウラなら、このポケモンにも20ダメージ。",
+				'ja-jp': "コインを1回投げオモテなら、60ダメージ追加。ウラなら、このポケモンにも20ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 170,
 			cost: ["Lightning", "Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "エレブー",
+		'ja-jp': "エレブー",
 	},
 
 	retreat: 4,

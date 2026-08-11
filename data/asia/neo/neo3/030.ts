@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "k",
+		'ja-jp': "k",
 	},
 
 	rarity: "Common",
@@ -17,10 +17,10 @@ const card: Card = {
 	abilities: [
 		{
 			name: {
-				ja: "[保持]",
+				'ja-jp': "[保持]",
 			},
 			effect: {
-				ja: "対戦相手の攻撃、ポケモンのパワー、トレーナーカードは、名前が付けられていないポケモンからエネルギーカードを捨てることはできません。 <em>（他の効果はまだ発生します。）</em>",
+				'ja-jp': "対戦相手の攻撃、ポケモンのパワー、トレーナーカードは、名前が付けられていないポケモンからエネルギーカードを捨てることはできません。 <em>（他の効果はまだ発生します。）</em>",
 			},
 		}],
 
@@ -28,7 +28,7 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "隠された力",
+				'ja-jp': "隠された力",
 			},
 			damage: 10,
 		},

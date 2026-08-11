@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゼイユ",
+		'ja-jp': "ゼイユ",
 	},
 
 	illustrator: "kantaro",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードは、先攻プレイヤーの最初の番でも使える。自分の手札をすべてトラッシュし、山札を5枚引く。",
+		'ja-jp': "このカードは、先攻プレイヤーの最初の番でも使える。自分の手札をすべてトラッシュし、山札を5枚引く。",
 	},
 
 	variants: [

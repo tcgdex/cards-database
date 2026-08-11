@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S5R"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "索偵蟲",
-		th: "ซัจจิมุชิ"
+		'th-th': "ซัจจิมุชิ"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "經常出現在田地裡的寶可夢。會透過長在身體上的毛來感應周圍發生的事。",
-		th: "เป็นโปเกมอนที่พบเห็นได้บ่อยตามทุ่งนา รับรู้ความรู้สึกของสิ่งที่เกิดขึ้นรอบตัวได้ด้วยขนที่ขึ้นตามร่างกาย"
+		'th-th': "เป็นโปเกมอนที่พบเห็นได้บ่อยตามทุ่งนา รับรู้ความรู้สึกของสิ่งที่เกิดขึ้นรอบตัวได้ด้วยขนที่ขึ้นตามร่างกาย"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "踩",
-			th: "เหยียบ"
+			'th-th': "เหยียบ"
 		},
 
 		damage: 10,

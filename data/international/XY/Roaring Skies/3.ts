@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Wurmple",
-		fr: "Chenipotte",
-		es: "Wurmple",
-		it: "Wurmple",
-		pt: "Wurmple",
-		de: "Waumpel"
+		'en-us': "Wurmple",
+		'fr-fr': "Chenipotte",
+		'es-es': "Wurmple",
+		'it-it': "Wurmple",
+		'pt-br': "Wurmple",
+		'de-de': "Waumpel"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Flock",
-				fr: "Nuée",
-				es: "Multitud",
-				it: "Frotta",
-				pt: "Bando",
-				de: "Ausschwärmen"
+				'en-us': "Flock",
+				'fr-fr': "Nuée",
+				'es-es': "Multitud",
+				'it-it': "Frotta",
+				'pt-br': "Bando",
+				'de-de': "Ausschwärmen"
 			},
 			effect: {
-				en: "Search your deck for Wurmple and put it onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez Chenipotte dans votre deck et placez-le sur votre Banc. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja 1 Wurmple y ponlo en tu Banca. Baraja las cartas de tu baraja después.",
-				it: "Cerca Wurmple nel tuo mazzo e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure em seu baralho por Wurmple e coloque-o no seu Banco. Em seguida, embaralhe seus cards.",
-				de: "Durchsuche dein Deck nach Waumpel und lege es auf deine Bank. Mische anschließend dein Deck."
+				'en-us': "Search your deck for Wurmple and put it onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez Chenipotte dans votre deck et placez-le sur votre Banc. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja 1 Wurmple y ponlo en tu Banca. Baraja las cartas de tu baraja después.",
+				'it-it': "Cerca Wurmple nel tuo mazzo e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure em seu baralho por Wurmple e coloque-o no seu Banco. Em seguida, embaralhe seus cards.",
+				'de-de': "Durchsuche dein Deck nach Waumpel und lege es auf deine Bank. Mische anschließend dein Deck."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives among the tall grass and in forests. It repels attacks by raising up the spikes on its rear.",
+		'en-us': "It lives among the tall grass and in forests. It repels attacks by raising up the spikes on its rear.",
 	},
 
 	thirdParty: {

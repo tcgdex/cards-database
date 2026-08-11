@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Vault'
 
 const card: Card = {
 	name: {
-		en: "Rayquaza",
-		fr: "Rayquaza",
+		'en-us': "Rayquaza",
+		'fr-fr': "Rayquaza",
 	},
 
 	illustrator: "5ban Graphics",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Dragon Pulse",
-				fr: "Dracochoc",
+				'en-us': "Dragon Pulse",
+				'fr-fr': "Dracochoc",
 			},
 			effect: {
-				en: "Discard the top 2 cards of your deck.",
-				fr: "Défaussez les 2 cartes du dessus de votre deck.",
+				'en-us': "Discard the top 2 cards of your deck.",
+				'fr-fr': "Défaussez les 2 cartes du dessus de votre deck.",
 			},
 			damage: 40,
 
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shred",
-				fr: "Déchiquetage",
+				'en-us': "Shred",
+				'fr-fr': "Déchiquetage",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by any effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Défenseur.",
+				'en-us': "This attack's damage isn't affected by any effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Défenseur.",
 			},
 			damage: 90,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It lives in the ozone layer far above the clouds and cannot be seen from the ground.",
+		'en-us': "It lives in the ozone layer far above the clouds and cannot be seen from the ground.",
 	},
 
 	thirdParty: {

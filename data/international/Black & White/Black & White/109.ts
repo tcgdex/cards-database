@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Psychic Energy",
-		fr: "Énergie Psy",
-		es: "Energía Psíquica",
-		it: "Energia Psiche",
-		pt: "Energia Psíquica",
-		de: "Psycho-Energie"
+		'en-us': "Psychic Energy",
+		'fr-fr': "Énergie Psy",
+		'es-es': "Energía Psíquica",
+		'it-it': "Energia Psiche",
+		'pt-br': "Energia Psíquica",
+		'de-de': "Psycho-Energie"
 	},
 
 	illustrator: undefined,
@@ -19,12 +19,12 @@ const card: Card = {
 	energyType: "Normal",
 
 	effect: {
-		en: "",
-		fr: "",
-		es: "",
-		it: "",
-		pt: "",
-		de: ""
+		'en-us': "",
+		'fr-fr': "",
+		'es-es': "",
+		'it-it': "",
+		'pt-br': "",
+		'de-de': ""
 	},
 
 	thirdParty: {

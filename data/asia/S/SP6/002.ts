@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SP6"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "洛托姆VSTAR",
-		ja: "ロトムVSTAR"
+		'ja-jp': "ロトムVSTAR"
 	},
 
 	illustrator: "5ban Graphics",
@@ -30,27 +30,27 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "廢鐵脈衝",
-			ja: "スクラップパルス"
+			'ja-jp': "スクラップパルス"
 		},
 
 		effect: {
 			'zh-tw': "將自己的棄牌區的任意數量的「寶可夢道具」放置於放逐區，增加其張數×40點傷害。",
-			ja: "自分のトラッシュにある「ポケモンのどうぐ」を好きなだけロストゾーンに置き、その枚数×40ダメージ追加。"
+			'ja-jp': "自分のトラッシュにある「ポケモンのどうぐ」を好きなだけロストゾーンに置き、その枚数×40ダメージ追加。"
 		},
 
 		damage: "80＋",
 		cost: ["Lightning", "Lightning"]
 	}, {
 		name: {
-			ja: "特性"
+			'ja-jp': "特性"
 		}
 	}, {
 		name: {
-			ja: "へんかんスター"
+			'ja-jp': "へんかんスター"
 		},
 
 		effect: {
-			ja: "自分の番に使える。自分の手札を好きなだけトラッシュし、その枚数ぶん、山札を引く。［対戦中、自分はVSTARパワーを1回しか使えない。］"
+			'ja-jp': "自分の番に使える。自分の手札を好きなだけトラッシュし、その枚数ぶん、山札を引く。［対戦中、自分はVSTARパワーを1回しか使えない。］"
 		}
 	}],
 

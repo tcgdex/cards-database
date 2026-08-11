@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カエンジシ",
+		'ja-jp': "カエンジシ",
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "オスは 普段 だらだら しているが 強敵が 襲ってくると わが身を かえりみず 仲間を 守るぞ。",
+		'ja-jp': "オスは 普段 だらだら しているが 強敵が 襲ってくると わが身を かえりみず 仲間を 守るぞ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "相手の場のポケモンについている「ポケモンのどうぐ」と「特殊エネルギー」を、すべてトラッシュする。",
+				'ja-jp': "相手の場のポケモンについている「ポケモンのどうぐ」と「特殊エネルギー」を、すべてトラッシュする。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シシコ",
+		'ja-jp': "シシコ",
 	},
 
 	retreat: 2,

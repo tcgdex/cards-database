@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アグノム",
+		'ja-jp': "アグノム",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "ユクシー エムリット アグノムは 同じ タマゴから 生まれた ポケモンと 考えられている。",
+		'ja-jp': "ユクシー エムリット アグノムは 同じ タマゴから 生まれた ポケモンと 考えられている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "サイコアブダクション" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "このワザは、後攻プレイヤーの最初の番にだけ使える。相手のベンチポケモン1匹と、そのポケモンについているすべてのカードを、相手の山札にもどして切る。",
+				'ja-jp': "このワザは、後攻プレイヤーの最初の番にだけ使える。相手のベンチポケモン1匹と、そのポケモンについているすべてのカードを、相手の山札にもどして切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 	],

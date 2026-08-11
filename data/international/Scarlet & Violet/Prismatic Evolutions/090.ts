@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Noibat",
-		fr: "Sonistrelle",
-		es: "Noibat",
-		pt: "Noibat",
-		it: "Noibat",
-		de: "eF-eM"
+		'en-us': "Noibat",
+		'fr-fr': "Sonistrelle",
+		'es-es': "Noibat",
+		'pt-br': "Noibat",
+		'it-it': "Noibat",
+		'de-de': "eF-eM"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Flap",
-			fr: "Battement",
-			es: "Aleteo",
-			pt: "Asa",
-			it: "Alabattito",
-			de: "Flattern"
+			'en-us': "Flap",
+			'fr-fr': "Battement",
+			'es-es': "Aleteo",
+			'pt-br': "Asa",
+			'it-it': "Alabattito",
+			'de-de': "Flattern"
 		},
 
 		damage: 20

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Engineer's Adjustments",
-		fr: "Réglages techniques",
-		de: "Ingenieurkniffe"
+		'en-us': "Engineer's Adjustments",
+		'fr-fr': "Réglages techniques",
+		'de-de': "Ingenieurkniffe"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Défaussez une carte Énergie de votre main. Piochez 4 cartes dans votre deck.",
-		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Discard an Energy card from your hand. Then, draw 4 cards.",
-		de: "Lege 1 Energiekarte von deiner Hand auf deinen Ablagestapel. Ziehe 4 Karten."
+		'fr-fr': "Défaussez une carte Énergie de votre main. Piochez 4 cartes dans votre deck.",
+		'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Discard an Energy card from your hand. Then, draw 4 cards.",
+		'de-de': "Lege 1 Energiekarte von deiner Hand auf deinen Ablagestapel. Ziehe 4 Karten."
 	},
 
 	trainerType: "Supporter",

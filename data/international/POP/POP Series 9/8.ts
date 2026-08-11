@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 9'
 
 const card: Card = {
 	name: {
-		en: "Gabite",
-		fr: "Gabite"
+		'en-us': "Gabite",
+		'fr-fr': "Gabite"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gible",
-		fr: "Griknot"
+		'en-us': "Gible",
+		'fr-fr': "Griknot"
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Burrow",
-				fr: "Terrier"
+				'en-us': "Burrow",
+				'fr-fr': "Terrier"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Gabite by attacks during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Carmache par des attaques lors du prochain tour de votre adversaire."
+				'en-us': "Flip a coin. If heads, prevent all damage done to Gabite by attacks during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Carmache par des attaques lors du prochain tour de votre adversaire."
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Distored Wave",
-				fr: "Vague tordue"
+				'en-us': "Distored Wave",
+				'fr-fr': "Vague tordue"
 			},
 			effect: {
-				en: "Before doing damage, remove 2 damage counters from the Defending Pokémon.",
-				fr: "Avant d'infliger des dégâts, retirez au Pokémon Défenseur 2 marqueurs de dégât."
+				'en-us': "Before doing damage, remove 2 damage counters from the Defending Pokémon.",
+				'fr-fr': "Avant d'infliger des dégâts, retirez au Pokémon Défenseur 2 marqueurs de dégât."
 			},
 			damage: 60,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It habitually digs up and hoards gems in its nest. Its loot is constantly targeted by thieves."
+		'en-us': "It habitually digs up and hoards gems in its nest. Its loot is constantly targeted by thieves."
 	},
 
 	variants: [

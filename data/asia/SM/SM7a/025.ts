@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハギギシリ",
+		'ja-jp': "ハギギシリ",
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "念力で 獲物を しびれさせ 丈夫な 歯で 噛み砕く。 シェルダーの 殻でも よゆうだ。",
+		'ja-jp': "念力で 獲物を しびれさせ 丈夫な 歯で 噛み砕く。 シェルダーの 殻でも よゆうだ。",
 	},
 
 	stage: "Basic",
@@ -24,14 +24,14 @@ const card: Card = {
 			damage: 20,
 			cost: ["Water"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 		{
 			name: { ja: "きずをたどる" },
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "ダメカンがのっている相手のベンチポケモン1匹に、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "ダメカンがのっている相手のベンチポケモン1匹に、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

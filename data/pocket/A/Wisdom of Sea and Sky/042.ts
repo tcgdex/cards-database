@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Seadra",
-		fr: "Hypocéan"
+		'en-us': "Seadra",
+		'fr-fr': "Hypocéan"
 	},
 
 	illustrator: "sui",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Horsea"
+		'en-us': "Horsea"
 	},
 
 	description: {
-		en: "It's the males that raise the offspring. While\nSeadra are raising young, the spines on their\nbacks secrete thicker and stronger poison.",
-		fr: "Les mâles s'occupent des petits, et tant qu'ils en ont à élever, le venin contenu dans leurs épines dorsales devient beaucoup plus fort."
+		'en-us': "It's the males that raise the offspring. While\nSeadra are raising young, the spines on their\nbacks secrete thicker and stronger poison.",
+		'fr-fr': "Les mâles s'occupent des petits, et tant qu'ils en ont à élever, le venin contenu dans leurs épines dorsales devient beaucoup plus fort."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Razor Fin",
-			fr: "Aileron-Rasoir"
+			'en-us': "Razor Fin",
+			'fr-fr': "Aileron-Rasoir"
 		},
 
 		damage: 50,

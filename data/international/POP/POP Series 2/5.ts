@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 2'
 
 const card: Card = {
 	name: {
-		en: "Tauros",
-		fr: "Tauros"
+		'en-us': "Tauros",
+		'fr-fr': "Tauros"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rage",
-				fr: "Frénésie"
+				'en-us': "Rage",
+				'fr-fr': "Frénésie"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each damage counter on Tauros.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Tauros."
+				'en-us': "Does 10 damage plus 10 more damage for each damage counter on Tauros.",
+				'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Tauros."
 			},
 			damage: "10+",
 
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier"
 			},
 			effect: {
-				en: "Tauros does 10 damage to itself.",
-				fr: "Tauros s'inflige 10 dégâts."
+				'en-us': "Tauros does 10 damage to itself.",
+				'fr-fr': "Tauros s'inflige 10 dégâts."
 			},
 			damage: 40,
 

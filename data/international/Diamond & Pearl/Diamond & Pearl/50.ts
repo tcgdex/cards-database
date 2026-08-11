@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Haunter",
-		fr: "Spectrum",
-		de: "Alpollo"
+		'en-us': "Haunter",
+		'fr-fr': "Spectrum",
+		'de-de': "Alpollo"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gastly",
-		fr: "Fantominus",
+		'en-us': "Gastly",
+		'fr-fr': "Fantominus",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hypnosis",
-				fr: "Hypnose",
-				de: "Hypnose"
+				'en-us': "Hypnosis",
+				'fr-fr': "Hypnose",
+				'de-de': "Hypnose"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Dream Eater",
-				fr: "Dévorêve",
-				de: "Traumfresser"
+				'en-us': "Dream Eater",
+				'fr-fr': "Dévorêve",
+				'de-de': "Traumfresser"
 			},
 			effect: {
-				en: "If the Defending Pokémon is not Asleep, this attack does nothing.",
-				fr: "Si le Pokémon Défenseur n'est pas Endormi, cette attaque est sans effet.",
-				de: "Wenn das Verteidigende Pokémon nicht schläft, hat dieser Angriff keine Auswirkungen."
+				'en-us': "If the Defending Pokémon is not Asleep, this attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur n'est pas Endormi, cette attaque est sans effet.",
+				'de-de': "Wenn das Verteidigende Pokémon nicht schläft, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 60,
 
@@ -82,8 +82,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It can slip through any obstacle. It lurks inside walls to keep an eye on its foes.",
-		fr: "Il peut traverser n'importe quel obstacle. Il rôde dans les murs pour surveiller ses ennemis."
+		'en-us': "It can slip through any obstacle. It lurks inside walls to keep an eye on its foes.",
+		'fr-fr': "Il peut traverser n'importe quel obstacle. Il rôde dans les murs pour surveiller ses ennemis."
 	},
 
 	thirdParty: {

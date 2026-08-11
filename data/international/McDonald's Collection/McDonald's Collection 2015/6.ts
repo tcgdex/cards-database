@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2015'
 
 const card: Card = {
@@ -7,8 +7,8 @@ const card: Card = {
 	],
 	set: Set,
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -23,12 +23,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Whip",
-				fr: "Mimi-Queue",
+				'en-us': "Tail Whip",
+				'fr-fr': "Mimi-Queue",
 			},
 			effect: {
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire.",
-				en: "Flip a coin, If heads, the Defending Pokémon can't attack during your opponent's next turn."
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire.",
+				'en-us': "Flip a coin, If heads, the Defending Pokémon can't attack during your opponent's next turn."
 			},
 		},
 		{
@@ -37,8 +37,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electro Ball",
-				fr: "Boule Élek",
+				'en-us': "Electro Ball",
+				'fr-fr': "Boule Élek",
 			},
 			damage: "30",
 		},

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Relicanth"
+		'id-id': "Relicanth"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Relicanth bertahan mengatasi tekanan air laut dalam menggunakan sisiknya yang sekeras bebatuan dan kantong apungnya yang penuh tertimbun lemak."
+		'id-id': "Relicanth bertahan mengatasi tekanan air laut dalam menggunakan sisiknya yang sekeras bebatuan dan kantong apungnya yang penuh tertimbun lemak."
 	},
 
 	stage: "Basic",
@@ -23,17 +23,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Menyelami Ingatan"
+			'id-id': "Menyelami Ingatan"
 		},
 
 		effect: {
-			id: "Selama Pokémon ini ada di Arena, semua Pokémon sendiri yang telah berevolusi dapat menggunakan semua serangan yang dimiliki sebelum evolusi. [Pemain tetap membutuhkan Energi untuk menggunakan serangan tersebut.]"
+			'id-id': "Selama Pokémon ini ada di Arena, semua Pokémon sendiri yang telah berevolusi dapat menggunakan semua serangan yang dimiliki sebelum evolusi. [Pemain tetap membutuhkan Energi untuk menggunakan serangan tersebut.]"
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Sirip Pemotong"
+			'id-id': "Sirip Pemotong"
 		},
 
 		damage: 30,

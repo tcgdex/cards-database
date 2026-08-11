@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Solosis"
+		'id-id': "Solosis"
 	},
 
 	illustrator: "Cona Nitanda",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Solosis saling menyampaikan pikirannya menggunakan telepati. Jika menerima hentakan keras, cairan yang melapisi tubuhnya akan bocor keluar."
+		'id-id': "Solosis saling menyampaikan pikirannya menggunakan telepati. Jika menerima hentakan keras, cairan yang melapisi tubuhnya akan bocor keluar."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Serangan Kejutan"
+			'id-id': "Serangan Kejutan"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal."
 		},
 
 		damage: 30,

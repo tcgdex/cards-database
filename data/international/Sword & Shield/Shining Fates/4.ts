@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Cacnea",
-		en: "Cacnea",
-		es: "Cacnea",
-		it: "Cacnea",
-		pt: "Cacnea",
-		de: "Tuska"
+		'fr-fr': "Cacnea",
+		'en-us': "Cacnea",
+		'es-es': "Cacnea",
+		'it-it': "Cacnea",
+		'pt-br': "Cacnea",
+		'de-de': "Tuska"
 	},
 
 	illustrator: "Uta",
@@ -22,12 +22,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Transpercement",
-			en: "Pierce",
-			es: "Perforar",
-			it: "Perforare",
-			pt: "Perfurar",
-			de: "Durchbohren"
+			'fr-fr': "Transpercement",
+			'en-us': "Pierce",
+			'es-es': "Perforar",
+			'it-it': "Perforare",
+			'pt-br': "Perfurar",
+			'de-de': "Durchbohren"
 		},
 
 		damage: 50,
@@ -46,7 +46,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It prefers harsh environments such as deserts. It can survive for 30 days on water stored in its body."
+		'en-us': "It prefers harsh environments such as deserts. It can survive for 30 days on water stored in its body."
 	},
 
 	variants: [

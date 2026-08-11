@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Trevenant",
-		fr: "Desséliande",
-		es: "Trevenant",
-		it: "Trevenant",
-		pt: "Trevenant",
-		de: "Trombork"
+		'en-us': "Trevenant",
+		'fr-fr': "Desséliande",
+		'es-es': "Trevenant",
+		'it-it': "Trevenant",
+		'pt-br': "Trevenant",
+		'de-de': "Trombork"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Phantump",
-		fr: "Brocélôme",
-		es: "Phantump",
-		it: "Phantump",
-		pt: "Phantump",
-		de: "Paragoni"
+		'en-us': "Phantump",
+		'fr-fr': "Brocélôme",
+		'es-es': "Phantump",
+		'it-it': "Phantump",
+		'pt-br': "Phantump",
+		'de-de': "Paragoni"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Giga Drain",
-			fr: "Giga-Sangsue",
-			es: "Gigadrenado",
-			it: "Gigassorbimento",
-			pt: "Gigadreno",
-			de: "Gigasauger"
+			'en-us': "Giga Drain",
+			'fr-fr': "Giga-Sangsue",
+			'es-es': "Gigadrenado",
+			'it-it': "Gigassorbimento",
+			'pt-br': "Gigadreno",
+			'de-de': "Gigasauger"
 		},
 
 		effect: {
-			en: "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
-			fr: "Soignez ce Pokémon du nombre de dégâts que vous avez infligés au Pokémon Actif de votre adversaire.",
-			es: "Cura a este Pokémon la misma cantidad de puntos de daño que hayas infligido al Pokémon Activo de tu rival.",
-			it: "Cura questo Pokémon da una quantità di danni pari a quelli che hai inflitto al Pokémon attivo del tuo avversario.",
-			pt: "Cure deste Pokémon a mesma quantidade de dano que você causou ao Pokémon Ativo do seu oponente.",
-			de: "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Aktiven Pokémon deines Gegners zugefügt hast."
+			'en-us': "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
+			'fr-fr': "Soignez ce Pokémon du nombre de dégâts que vous avez infligés au Pokémon Actif de votre adversaire.",
+			'es-es': "Cura a este Pokémon la misma cantidad de puntos de daño que hayas infligido al Pokémon Activo de tu rival.",
+			'it-it': "Cura questo Pokémon da una quantità di danni pari a quelli che hai inflitto al Pokémon attivo del tuo avversario.",
+			'pt-br': "Cure deste Pokémon a mesma quantidade de dano que você causou ao Pokémon Ativo do seu oponente.",
+			'de-de': "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Aktiven Pokémon deines Gegners zugefügt hast."
 		},
 
 		damage: 50
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			en: "Forest Dump",
-			fr: "Rejet Forestier",
-			es: "Descarga Forestal",
-			it: "Impatto Forestale",
-			pt: "Floresta Entulhada",
-			de: "Waldhieb"
+			'en-us': "Forest Dump",
+			'fr-fr': "Rejet Forestier",
+			'es-es': "Descarga Forestal",
+			'it-it': "Impatto Forestale",
+			'pt-br': "Floresta Entulhada",
+			'de-de': "Waldhieb"
 		},
 
 		damage: 130
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Trevenant is very kind to Pokémon living in the forest. It doesn't even care if these Pokémon take up residence in the greenery on its head.",
+		'en-us': "Trevenant is very kind to Pokémon living in the forest. It doesn't even care if these Pokémon take up residence in the greenery on its head.",
 	},
 
 	variants: [

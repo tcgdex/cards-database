@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ラウドボーンex"
+		'ja-jp': "ラウドボーンex"
 	},
 
 	illustrator: "kantaro",
@@ -19,25 +19,25 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "かつりょくのうた"
+			'ja-jp': "かつりょくのうた"
 		},
 
 		damage: 50,
 
 		effect: {
-			ja: "自分のポケモン全員のHPを、それぞれ「30」回復する。"
+			'ja-jp': "自分のポケモン全員のHPを、それぞれ「30」回復する。"
 		}
 	}, {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			ja: "バーニングボイス"
+			'ja-jp': "バーニングボイス"
 		},
 
 		damage: "270－",
 
 		effect: {
-			ja: "このポケモンにのっているダメカンの数×10ダメージぶん、このワザのダメージは小さくなる。"
+			'ja-jp': "このポケモンにのっているダメカンの数×10ダメージぶん、このワザのダメージは小さくなる。"
 		}
 	}],
 

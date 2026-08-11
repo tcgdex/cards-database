@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダルマッカ",
+		'ja-jp': "ダルマッカ",
 	},
 
 	illustrator: "NC Empire",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "寝ているときは 押しても 引いても  けっして 倒れない。 縁起ものの  モチーフとして 人気が 高い。",
+		'ja-jp': "寝ているときは 押しても 引いても  けっして 倒れない。 縁起ものの  モチーフとして 人気が 高い。",
 	},
 
 	stage: "Basic",

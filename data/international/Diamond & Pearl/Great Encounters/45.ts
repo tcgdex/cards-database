@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Magcargo",
-		fr: "Volcaropod",
-		de: "Magcargo"
+		'en-us': "Magcargo",
+		'fr-fr': "Volcaropod",
+		'de-de': "Magcargo"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Slugma",
-		fr: "Limagma",
+		'en-us': "Slugma",
+		'fr-fr': "Limagma",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Magma Armor",
-				fr: "Magmascudo",
-				de: "Magmapanzer"
+				'en-us': "Magma Armor",
+				'fr-fr': "Magmascudo",
+				'de-de': "Magmapanzer"
 			},
 			effect: {
-				en: "Magcargo can't be Asleep or Paralyzed.",
-				fr: "Volcaropod ne peut pas être Endormi ou Paralysé.",
-				de: "Magcargo kann nicht schlafen oder gelähmt sein."
+				'en-us': "Magcargo can't be Asleep or Paralyzed.",
+				'fr-fr': "Volcaropod ne peut pas être Endormi ou Paralysé.",
+				'de-de': "Magcargo kann nicht schlafen oder gelähmt sein."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lava Plume",
-				fr: "Ébullilave",
-				de: "Flammensturm"
+				'en-us': "Lava Plume",
+				'fr-fr': "Ébullilave",
+				'de-de': "Flammensturm"
 			},
 			effect: {
-				en: "You may discard the top card of your deck. If you do, the Defending Pokémon is now Burned.",
-				fr: "Vous pouvez défausser la carte du dessus de votre deck. Le Pokémon Défenseur est alors Brûlé.",
-				de: "Du kannst die oberste Karte deines Decks auf deinen Ablagestapel legen. Wenn du das machst, ist das Verteidigende Pokémon jetzt verbrannt."
+				'en-us': "You may discard the top card of your deck. If you do, the Defending Pokémon is now Burned.",
+				'fr-fr': "Vous pouvez défausser la carte du dessus de votre deck. Le Pokémon Défenseur est alors Brûlé.",
+				'de-de': "Du kannst die oberste Karte deines Decks auf deinen Ablagestapel legen. Wenn du das machst, ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: 60,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its body temperature is roughly 18,000 degrees F. Flames spout from gaps in its hardened shell.",
+		'en-us': "Its body temperature is roughly 18,000 degrees F. Flames spout from gaps in its hardened shell.",
 	},
 
 	thirdParty: {

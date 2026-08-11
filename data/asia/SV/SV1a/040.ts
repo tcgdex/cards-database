@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カヌチャン",
+		'ja-jp': "カヌチャン",
 		'zh-tw': "小鍛匠",
-		th: "คานุจัง",
-		id: "Tinkatink"
+		'th-th': "คานุจัง",
+		'id-id': "Tinkatink"
 	},
 
 	illustrator: "Mizue",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "手作りの ハンマーを 振りまわして 身を 守るが 金属を 食べる ポケモンには よく 奪われる。",
+		'ja-jp': "手作りの ハンマーを 振りまわして 身を 守るが 金属を 食べる ポケモンには よく 奪われる。",
 		'zh-tw': "雖然會揮舞著手工打造的錘子來保護自己，但卻常被 以金屬為食的寶可夢搶走。",
-		th: "เหวี่ยงค้อนทำมือเพื่อป้องกันตัว แต่มักถูกโปเกมอนที่กินโลหะแย่งไป",
-		id: "Tinkatink mengayunkan palu buatannya untuk melindungi dirinya, namun palu tersebut sering direbut oleh Pokémon pemakan logam."
+		'th-th': "เหวี่ยงค้อนทำมือเพื่อป้องกันตัว แต่มักถูกโปเกมอนที่กินโลหะแย่งไป",
+		'id-id': "Tinkatink mengayunkan palu buatannya untuk melindungi dirinya, namun palu tersebut sering direbut oleh Pokémon pemakan logam."
 	},
 
 	stage: "Basic",
@@ -31,26 +31,26 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "もってくる",
+			'ja-jp': "もってくる",
 			'zh-tw': "呼喚",
-			th: "รวบรวม",
-			id: "Mengumpulkan"
+			'th-th': "รวบรวม",
+			'id-id': "Mengumpulkan"
 		},
 
 		effect: {
-			ja: "自分の山札を1枚引く。",
+			'ja-jp': "自分の山札を1枚引く。",
 			'zh-tw': "從自己的牌庫抽出1張卡。",
-			th: "จั่วการ์ด 1 ใบจากสำรับการ์ดฝ่ายเรา",
-			id: "Ambil 1 kartu dari atas Deck sendiri."
+			'th-th': "จั่วการ์ด 1 ใบจากสำรับการ์ดฝ่ายเรา",
+			'id-id': "Ambil 1 kartu dari atas Deck sendiri."
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "どつく",
+			'ja-jp': "どつく",
 			'zh-tw': "推擊",
-			th: "ต่อยตี",
-			id: "Menohok"
+			'th-th': "ต่อยตี",
+			'id-id': "Menohok"
 		},
 
 		damage: 20

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Jynx"
+		'en-us': "Sabrina's Jynx"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Helping Hand"
+				'en-us': "Helping Hand"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. Remove any number of damage counters from that Pokémon, then draw that many cards."
+				'en-us': "Choose 1 of your opponent's Pokémon. Remove any number of damage counters from that Pokémon, then draw that many cards."
 			},
 
 		},
@@ -40,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hug"
+				'en-us': "Hug"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can't retreat during your opponent's next turn."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon can't retreat during your opponent's next turn."
 			},
 			damage: 20,
 

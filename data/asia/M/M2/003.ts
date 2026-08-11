@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラフレシア",
+		'ja-jp': "ラフレシア",
 	},
 
 	illustrator: "Shibuzoh.",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "ボンッという 音がして つぼみが 開くと アレルギーを 起こす 毒花粉を ばら撒きはじめる。",
+		'ja-jp': "ボンッという 音がして つぼみが 開くと アレルギーを 起こす 毒花粉を ばら撒きはじめる。",
 	},
 
 	stage: "Stage2",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "ラフレシアGX",
+		'ja-jp': "ラフレシアGX",
 	},
 
 	retreat: 2,

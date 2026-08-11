@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イワーク",
+		'ja-jp': "イワーク",
 	},
 
 	illustrator: "Uta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "大きく 丈夫な 体を  くねらせ よじらせ 時速８０キロで  地面を 勢いよく 掘り進む。",
+		'ja-jp': "大きく 丈夫な 体を  くねらせ よじらせ 時速８０キロで  地面を 勢いよく 掘り進む。",
 	},
 
 	stage: "Basic",

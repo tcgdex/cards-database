@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [679],
 
 	name: {
-		en: "Honedge"
+		'en-us': "Honedge"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "The blue eye on the sword's handguard is the\ntrue body of Honedge. With its old cloth, it\ndrains people's lives away."
+		'en-us': "The blue eye on the sword's handguard is the\ntrue body of Honedge. With its old cloth, it\ndrains people's lives away."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Cut Up"
+			'en-us': "Cut Up"
 		},
 
 		damage: 20,

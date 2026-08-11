@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カミツレのきらめき",
+		'ja-jp': "カミツレのきらめき",
 	},
 
 	illustrator: "Ryuta Fuse",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の「フュージョン」のポケモンを2匹まで選び、山札から「フュージョンエネルギー」を1枚ずつつける。そして山札を切る。",
+		'ja-jp': "自分の「フュージョン」のポケモンを2匹まで選び、山札から「フュージョンエネルギー」を1枚ずつつける。そして山札を切る。",
 	},
 
 	variants: [

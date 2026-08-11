@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤナッキー",
+		'ja-jp': "ヤナッキー",
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "トゲの たくさん ついた 尻尾を 相手に たたきつけて 攻撃。 気性の 激しい ポケモン。",
+		'ja-jp': "トゲの たくさん ついた 尻尾を 相手に たたきつけて 攻撃。 気性の 激しい ポケモン。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "のぞむなら、自分の手札にある[草]エネルギーを1枚、自分のポケモンにつける。",
+				'ja-jp': "のぞむなら、自分の手札にある[草]エネルギーを1枚、自分のポケモンにつける。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤナップ",
+		'ja-jp': "ヤナップ",
 	},
 
 	retreat: 1,

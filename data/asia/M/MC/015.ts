@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ストライク",
+		'ja-jp': "ストライク",
 	},
 
 	illustrator: "Dsuke",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "両手の 鋭い カマは 硬いものを 切れば切るほど さらに 切れ味を 増していく。",
+		'ja-jp': "両手の 鋭い カマは 硬いものを 切れば切るほど さらに 切れ味を 増していく。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「スラッシュダウン」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「スラッシュダウン」が使えない。",
 			},
 		},
 	],

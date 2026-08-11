@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [847],
 
 	name: {
-		en: "Barraskewda"
+		'en-us': "Barraskewda"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Arrokuda"
+		'en-us': "Arrokuda"
 	},
 
 	description: {
-		en: "It spins its tail fins to propel itself, surging\nforward at speeds of over 100 knots before\nramming prey and spearing into them."
+		'en-us': "It spins its tail fins to propel itself, surging\nforward at speeds of over 100 knots before\nramming prey and spearing into them."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Jet Headbutt"
+			'en-us': "Jet Headbutt"
 		},
 
 		damage: 40,

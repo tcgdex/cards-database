@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤヤコマ",
+		'ja-jp': "ヤヤコマ",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "人懐っこい ポケモンだけど 無理やり 触ると 身体を 一気に 発熱させるので 火傷 するぞ。",
+		'ja-jp': "人懐っこい ポケモンだけど 無理やり 触ると 身体を 一気に 発熱させるので 火傷 するぞ。",
 	},
 
 	stage: "Basic",

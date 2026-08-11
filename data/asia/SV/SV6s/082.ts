@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Alakazam"
+		'id-id': "Alakazam"
 	},
 
 	illustrator: "Masako Tomii",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Alakazam memiliki kecerdasan yang sangat tinggi. Ada yang mengatakan bahwa Pokémon ini ingat segala kejadian yang terjadi sejak lahir hingga mati."
+		'id-id': "Alakazam memiliki kecerdasan yang sangat tinggi. Ada yang mengatakan bahwa Pokémon ini ingat segala kejadian yang terjadi sejak lahir hingga mati."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			id: "Strange Hack"
+			'id-id': "Strange Hack"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing. Pilih sesukanya Token Kerusakan yang dimiliki Pokémon di Arena lawan, lalu pindahkan sesukanya ke Pokémon di Arena lawan."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing. Pilih sesukanya Token Kerusakan yang dimiliki Pokémon di Arena lawan, lalu pindahkan sesukanya ke Pokémon di Arena lawan."
 		},
 
 		cost: ["Psychic"]
 	}, {
 		name: {
-			id: "Psikis"
+			'id-id': "Psikis"
 		},
 
 		effect: {
-			id: "Kerusakan yang diberikan bertambah sejumlah 50 untuk tiap Energi yang dikenakan pada Pokémon Bertarung lawan."
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 50 untuk tiap Energi yang dikenakan pada Pokémon Bertarung lawan."
 		},
 
 		damage: "10+",

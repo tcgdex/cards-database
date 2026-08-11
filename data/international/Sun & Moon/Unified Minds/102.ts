@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Poipole",
-		fr: "Vémini",
-		es: "Poipole",
-		it: "Poipole",
-		pt: "Poipole",
-		de: "Venicro"
+		'en-us': "Poipole",
+		'fr-fr': "Vémini",
+		'es-es': "Poipole",
+		'it-it': "Poipole",
+		'pt-br': "Poipole",
+		'de-de': "Venicro"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Belt",
-				fr: "Taloche",
-				es: "Sopetón",
-				it: "Buttafuori",
-				pt: "Cinturão",
-				de: "Versohler"
+				'en-us': "Belt",
+				'fr-fr': "Taloche",
+				'es-es': "Sopetón",
+				'it-it': "Buttafuori",
+				'pt-br': "Cinturão",
+				'de-de': "Versohler"
 			},
 
 			damage: 10,
@@ -52,20 +52,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Last Scene",
-				fr: "Dernière Scène",
-				es: "Última Escena",
-				it: "Ultimo Atto",
-				pt: "Última Cena",
-				de: "Schlussszene"
+				'en-us': "Last Scene",
+				'fr-fr': "Dernière Scène",
+				'es-es': "Última Escena",
+				'it-it': "Ultimo Atto",
+				'pt-br': "Última Cena",
+				'de-de': "Schlussszene"
 			},
 			effect: {
-				en: "If each player has exactly 1 Prize card remaining, this attack does 130 more damage.",
-				fr: "S’il reste exactement une carte Récompense à chaque joueur, cette attaque inflige 130 dégâts supplémentaires.",
-				es: "Si a cada jugador le queda exactamente 1 carta de Premio, este ataque hace 130 puntos de daño más.",
-				it: "Se ciascun giocatore ha esattamente una carta Premio rimanente, questo attacco infligge 130 danni in più.",
-				pt: "Se cada jogador tiver exatamente 1 carta de Prêmio restante, este ataque causará 130 pontos de dano a mais.",
-				de: "Wenn jeder Spieler genau 1 verbleibende Preiskarte hat, fügt diese Attacke 130 Schadenspunkte mehr zu."
+				'en-us': "If each player has exactly 1 Prize card remaining, this attack does 130 more damage.",
+				'fr-fr': "S’il reste exactement une carte Récompense à chaque joueur, cette attaque inflige 130 dégâts supplémentaires.",
+				'es-es': "Si a cada jugador le queda exactamente 1 carta de Premio, este ataque hace 130 puntos de daño más.",
+				'it-it': "Se ciascun giocatore ha esattamente una carta Premio rimanente, questo attacco infligge 130 danni in più.",
+				'pt-br': "Se cada jogador tiver exatamente 1 carta de Prêmio restante, este ataque causará 130 pontos de dano a mais.",
+				'de-de': "Wenn jeder Spieler genau 1 verbleibende Preiskarte hat, fügt diese Attacke 130 Schadenspunkte mehr zu."
 			},
 			damage: "50+",
 
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Ultra Beast is well enough liked to be chosen as a first partner in its own world.",
+		'en-us': "This Ultra Beast is well enough liked to be chosen as a first partner in its own world.",
 	},
 
 	thirdParty: {

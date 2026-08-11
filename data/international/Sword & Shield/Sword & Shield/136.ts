@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Cufant",
-		fr: "Charibari",
-		es: "Cufant",
-		it: "Cufant",
-		pt: "Cufant",
-		de: "Kupfanti"
+		'en-us': "Cufant",
+		'fr-fr': "Charibari",
+		'es-es': "Cufant",
+		'it-it': "Cufant",
+		'pt-br': "Cufant",
+		'de-de': "Kupfanti"
 	},
 
 	illustrator: "kirisAki",
@@ -30,20 +30,20 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Stomp",
-				fr: "Écrasement",
-				es: "Pisotón",
-				it: "Pestone",
-				pt: "Pisotear",
-				de: "Stampfer"
+				'en-us': "Stomp",
+				'fr-fr': "Écrasement",
+				'es-es': "Pisotón",
+				'it-it': "Pestone",
+				'pt-br': "Pisotear",
+				'de-de': "Stampfer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-				pt: "Jogue 1 moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
-				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
+				'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
 			},
 			damage: "20+",
 
@@ -75,7 +75,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "If a job requires serious strength, this Pokémon will excel at it. Its copper body tarnishes in the rain, turning a vibrant green color."
+		'en-us': "If a job requires serious strength, this Pokémon will excel at it. Its copper body tarnishes in the rain, turning a vibrant green color."
 	},
 
 	dexId: [878],

@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [3],
 
 	name: {
-		en: "Venusaur V",
-		fr: "Florizarre V",
-		es: "Venusaur V",
-		it: "Venusaur V",
-		pt: "Venusaur V",
-		de: "Bisaflor V"
+		'en-us': "Venusaur V",
+		'fr-fr': "Florizarre V",
+		'es-es': "Venusaur V",
+		'it-it': "Venusaur V",
+		'pt-br': "Venusaur V",
+		'de-de': "Bisaflor V"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -31,20 +31,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pollen Bomb",
-				fr: "Bombe Pollen",
-				es: "Bomba de Polen",
-				it: "Bomba di Polline",
-				pt: "Bomba de Pólen",
-				de: "Pollenbombe"
+				'en-us': "Pollen Bomb",
+				'fr-fr': "Bombe Pollen",
+				'es-es': "Bomba de Polen",
+				'it-it': "Bomba di Polline",
+				'pt-br': "Bomba de Pólen",
+				'de-de': "Pollenbombe"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep and Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi et Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido y Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato e avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido e Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt und ist vergiftet."
+				'en-us': "Your opponent's Active Pokémon is now Asleep and Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi et Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido y Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato e avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido e Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt und ist vergiftet."
 			},
 			damage: 80,
 
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Solar Typhoon",
-				fr: "Typhon Solaire",
-				es: "Tifón Solar",
-				it: "Tifone Solare",
-				pt: "Tufão Solar",
-				de: "Solartaifun"
+				'en-us': "Solar Typhoon",
+				'fr-fr': "Typhon Solaire",
+				'es-es': "Tifón Solar",
+				'it-it': "Tifone Solare",
+				'pt-br': "Tufão Solar",
+				'de-de': "Solartaifun"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon can't use Solar Typhoon.",
-				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Typhon Solaire.",
-				es: "Durante tu próximo turno, este Pokémon no puede usar Tifón Solar.",
-				it: "Durante il tuo prossimo turno, questo Pokémon non può usare Tifone Solare.",
-				pt: "Durante o seu próximo turno, este Pokémon não poderá usar Tufão Solar.",
-				de: "Während deines nächsten Zuges kann dieses Pokémon Solartaifun nicht einsetzen."
+				'en-us': "During your next turn, this Pokémon can't use Solar Typhoon.",
+				'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Typhon Solaire.",
+				'es-es': "Durante tu próximo turno, este Pokémon no puede usar Tifón Solar.",
+				'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Tifone Solare.",
+				'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar Tufão Solar.",
+				'de-de': "Während deines nächsten Zuges kann dieses Pokémon Solartaifun nicht einsetzen."
 			},
 			damage: 220,
 

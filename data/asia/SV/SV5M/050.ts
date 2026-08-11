@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メルメタル",
+		'ja-jp': "メルメタル",
 		'zh-tw': "美錄梅塔",
-		th: "เมลเมทัล",
+		'th-th': "เมลเมทัล",
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -15,9 +15,9 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "寿命が 尽きると 体が 錆びて 崩れる。 やがて 小さな 破片が メルタンに 復活する。",
+		'ja-jp': "寿命が 尽きると 体が 錆びて 崩れる。 やがて 小さな 破片が メルタンに 復活する。",
 		'zh-tw': "壽命快到盡頭的時候，身體就會生鏽解體。到最後 細小的碎片會復活為美錄坦。",
-		th: "เมื่อถึงอายุขัย ร่างกายก็จะเริ่มขึ้นสนิมและพังทลายลง แต่สะเก็ดชิ้นเล็ก ๆ ของมันจะฟื้นกลับคืนเป็นเมลตันในไม่ช้า",
+		'th-th': "เมื่อถึงอายุขัย ร่างกายก็จะเริ่มขึ้นสนิมและพังทลายลง แต่สะเก็ดชิ้นเล็ก ๆ ของมันจะฟื้นกลับคืนเป็นเมลตันในไม่ช้า",
 	},
 
 	stage: "Stage1",
@@ -25,18 +25,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶちかます",
+				'ja-jp': "ぶちかます",
 				'zh-tw': "頭突",
-				th: "ตบหนัก",
+				'th-th': "ตบหนัก",
 			},
 			damage: 120,
 			cost: ["Metal", "Metal", "Colorless"],
 		},
 		{
 			name: {
-				ja: "アイアンバッシュ",
+				'ja-jp': "アイアンバッシュ",
 				'zh-tw': "鐵之猛擊",
-				th: "ไอออนแบช",
+				'th-th': "ไอออนแบช",
 			},
 			damage: 230,
 			cost: ["Metal", "Metal", "Metal", "Metal", "Colorless"],
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "メルタン",
+		'ja-jp': "メルタン",
 	},
 
 	retreat: 4,

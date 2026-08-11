@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [135],
 
 	name: {
-		en: "Jolteon",
-		fr: "Voltali",
-		es: "Jolteon",
-		it: "Jolteon",
-		pt: "Jolteon",
-		de: "Blitza"
+		'en-us': "Jolteon",
+		'fr-fr': "Voltali",
+		'es-es': "Jolteon",
+		'it-it': "Jolteon",
+		'pt-br': "Jolteon",
+		'de-de': "Blitza"
 	},
 
 	illustrator: "Mizue",
@@ -24,32 +24,32 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
-		es: "Eevee",
-		it: "Eevee",
-		pt: "Eevee",
-		de: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
+		'es-es': "Eevee",
+		'it-it': "Eevee",
+		'pt-br': "Eevee",
+		'de-de': "Evoli"
 	},
 
 	abilities: [
 		{
 			type: "Ability",
 			name: {
-				en: "Thunderous Awakening",
-				fr: "Éveil Fulgurant",
-				es: "Despertar Atronador",
-				it: "Risveglio Tonante",
-				pt: "Despertar Estrondoso",
-				de: "Donnerndes Erwachen"
+				'en-us': "Thunderous Awakening",
+				'fr-fr': "Éveil Fulgurant",
+				'es-es': "Despertar Atronador",
+				'it-it': "Risveglio Tonante",
+				'pt-br': "Despertar Estrondoso",
+				'de-de': "Donnerndes Erwachen"
 			},
 			effect: {
-				en: "If this Pokémon has a Memory Capsule attached, Water Pokémon in play (both yours and your opponent's) have no Abilities.",
-				fr: "Si une carte Capsule Mémoire est attachée à ce Pokémon, les Pokémon Water en jeu (les vôtres et ceux de votre adversaire) n'ont pas de talent.",
-				es: "Si este Pokémon tiene 1 Cápsula de Memoria unida a él, los Pokémon Water en juego (tanto tuyos como de tu rival) no tienen ninguna habilidad.",
-				it: "Se questo Pokémon ha una carta Capsula della Memoria assegnata, i Pokémon Water in gioco, sia tuoi che del tuo avversario, non hanno abilità.",
-				pt: "Se este Pokémon tiver 1 Cápsula de Memória ligada a ele, Pokémon Metal em jogo (seus e do seu oponente) não terão Habilidades.",
-				de: "Wenn an dieses Pokémon eine Gedächtniskapsel angelegt ist, haben Water-Pokémon im Spiel (deine und die deines Gegners) keine Fähigkeiten."
+				'en-us': "If this Pokémon has a Memory Capsule attached, Water Pokémon in play (both yours and your opponent's) have no Abilities.",
+				'fr-fr': "Si une carte Capsule Mémoire est attachée à ce Pokémon, les Pokémon Water en jeu (les vôtres et ceux de votre adversaire) n'ont pas de talent.",
+				'es-es': "Si este Pokémon tiene 1 Cápsula de Memoria unida a él, los Pokémon Water en juego (tanto tuyos como de tu rival) no tienen ninguna habilidad.",
+				'it-it': "Se questo Pokémon ha una carta Capsula della Memoria assegnata, i Pokémon Water in gioco, sia tuoi che del tuo avversario, non hanno abilità.",
+				'pt-br': "Se este Pokémon tiver 1 Cápsula de Memória ligada a ele, Pokémon Metal em jogo (seus e do seu oponente) não terão Habilidades.",
+				'de-de': "Wenn an dieses Pokémon eine Gedächtniskapsel angelegt ist, haben Water-Pokémon im Spiel (deine und die deines Gegners) keine Fähigkeiten."
 			},
 		},
 	],
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electric Ball",
-				fr: "Boule de Foudre",
-				es: "Bola Eléctrica",
-				it: "Lamposfera",
-				pt: "Bola de Eletricidade",
-				de: "Stromball"
+				'en-us': "Electric Ball",
+				'fr-fr': "Boule de Foudre",
+				'es-es': "Bola Eléctrica",
+				'it-it': "Lamposfera",
+				'pt-br': "Bola de Eletricidade",
+				'de-de': "Stromball"
 			},
 
 			damage: 90,
@@ -89,7 +89,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "If it is angered or startled, the fur all over its body bristles like sharp needles that pierce foes."
+		'en-us': "If it is angered or startled, the fur all over its body bristles like sharp needles that pierce foes."
 	},
 
 	variants: [

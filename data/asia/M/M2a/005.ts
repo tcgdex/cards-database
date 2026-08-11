@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カラサリス",
+		'ja-jp': "カラサリス",
 	},
 
 	illustrator: "Eri Yamaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "糸を 木の枝に 巻きつけている。 糸についた 雨水を 飲みながら 進化の ときを 待っている。",
+		'ja-jp': "糸を 木の枝に 巻きつけている。 糸についた 雨水を 飲みながら 進化の ときを 待っている。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ふえるまゆ" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札から「カラサリス」または「マユルド」を1枚選び、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札から「カラサリス」または「マユルド」を1枚選び、ベンチに出す。そして山札を切る。",
 			},
 		},
 	],
@@ -63,7 +63,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ケムッソ",
+		'ja-jp': "ケムッソ",
 	},
 
 	retreat: 3,

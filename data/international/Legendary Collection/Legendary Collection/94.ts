@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Spearow"
+		'en-us': "Spearow"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck"
+				'en-us': "Peck"
 			},
 
 			damage: 10,
@@ -40,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mirror Move"
+				'en-us': "Mirror Move"
 			},
 			effect: {
-				en: "If Spearow was attacked last turn, do the final result of that attack on Spearow to the Defending Pokémon."
+				'en-us': "If Spearow was attacked last turn, do the final result of that attack on Spearow to the Defending Pokémon."
 			},
 
 		},
@@ -64,7 +64,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne."
+		'en-us': "Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne."
 	},
 
 	variants: [

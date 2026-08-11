@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [660],
 
 	name: {
-		en: "Diggersby"
+		'en-us': "Diggersby"
 	},
 
 	illustrator: "Mina Nakai",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Bunnelby"
+		'en-us': "Bunnelby"
 	},
 
 	description: {
-		en: "The fur on its belly retains heat exceptionally\nwell. People used to make heavy winter clothing\nfrom fur shed by this Pokémon."
+		'en-us': "The fur on its belly retains heat exceptionally\nwell. People used to make heavy winter clothing\nfrom fur shed by this Pokémon."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Earthquake"
+			'en-us': "Earthquake"
 		},
 
 		damage: 70,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "This attack also does 10 damage to each of your Benched Pokémon."
+			'en-us': "This attack also does 10 damage to each of your Benched Pokémon."
 		}
 	}],
 

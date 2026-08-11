@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デンリュウGX",
+		'ja-jp': "デンリュウGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Lightning"],
 			effect: {
-				ja: "自分のトラッシュにある「エレキパワー」をすべて、相手に見せてから、手札に加える。",
+				'ja-jp': "自分のトラッシュにある「エレキパワー」をすべて、相手に見せてから、手札に加える。",
 			},
 		},
 		{
@@ -28,14 +28,14 @@ const card: Card = {
 			damage: 150,
 			cost: ["Lightning", "Lightning"],
 			effect: {
-				ja: "このポケモンについている[雷]エネルギーを、すべてトラッシュする。",
+				'ja-jp': "このポケモンについている[雷]エネルギーを、すべてトラッシュする。",
 			},
 		},
 		{
 			name: { ja: "エレクトリカルGX" },
 			cost: ["Lightning"],
 			effect: {
-				ja: "自分の山札にあるポケモンを7枚まで、相手に見せてから、手札に加える。そして山札を切る。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分の山札にあるポケモンを7枚まで、相手に見せてから、手札に加える。そして山札を切る。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モココ",
+		'ja-jp': "モココ",
 	},
 
 	retreat: 3,

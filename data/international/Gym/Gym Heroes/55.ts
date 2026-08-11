@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Seaking"
+		'en-us': "Misty's Seaking"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Goldeen"
+		'en-us': "Goldeen"
 	},
 
 	stage: "Stage1",
@@ -31,7 +31,7 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Horn Attack"
+				'en-us': "Horn Attack"
 			},
 
 			damage: 10,
@@ -43,10 +43,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Mud Splash"
+				'en-us': "Mud Splash"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 1 of them and flip a coin. If heads, this attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "If your opponent has any Benched Pokémon, choose 1 of them and flip a coin. If heads, this attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 30,
 

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 4'
 
 const card: Card = {
 	name: {
-		en: "Grovyle",
-		fr: "Massko"
+		'en-us': "Grovyle",
+		'fr-fr': "Massko"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Treecko",
-		fr: "Arcko"
+		'en-us': "Treecko",
+		'fr-fr': "Arcko"
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-attaque"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-attaque"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
 			},
 			damage: "10+",
 
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blot",
-				fr: "Pâté"
+				'en-us': "Blot",
+				'fr-fr': "Pâté"
 			},
 			effect: {
-				en: "Remove 2 damage counters from Grovyle.",
-				fr: "Retirez à Massko 2 marqueurs de dégât."
+				'en-us': "Remove 2 damage counters from Grovyle.",
+				'fr-fr': "Retirez à Massko 2 marqueurs de dégât."
 			},
 			damage: 20,
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Charmeleon",
-		fr: "Reptincel",
-		de: "Glutexo"
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel",
+		'de-de': "Glutexo"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmander",
-		fr: "Salamèche",
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fire Fang",
-				fr: "Crocs Feu",
-				de: "Feuerzahn"
+				'en-us': "Fire Fang",
+				'fr-fr': "Crocs Feu",
+				'de-de': "Feuerzahn"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
+				'en-us': "The Defending Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 20,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare Tail",
-				fr: "Queue flamboyante",
-				de: "Fackelschweif"
+				'en-us': "Flare Tail",
+				'fr-fr': "Queue flamboyante",
+				'de-de': "Fackelschweif"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard a Fire Energy attached to Charmeleon and this attack does 50 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie Fire attachée à Reptincel et cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege eine -Energie, die an Glutexo angelegt ist, auf deinen Ablagestapel und dieser Angriff fügt 50 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, discard a Fire Energy attached to Charmeleon and this attack does 50 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie Fire attachée à Reptincel et cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" lege eine -Energie, die an Glutexo angelegt ist, auf deinen Ablagestapel und dieser Angriff fügt 50 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "In the rocky mountains where CHARMELEON live, their fiery tails shine at night like stars.",
+		'en-us': "In the rocky mountains where CHARMELEON live, their fiery tails shine at night like stars.",
 	},
 
 	thirdParty: {

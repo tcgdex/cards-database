@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit 2 (Plusle)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Meowth",
-		fr: "Miaouss"
+		'en-us': "Meowth",
+		'fr-fr': "Miaouss"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -25,12 +25,12 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Collect",
-			fr: "Collectionner"
+			'en-us': "Collect",
+			'fr-fr': "Collectionner"
 		},
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte."
 		}
 	}, {
 		cost: [
@@ -38,8 +38,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Cat Kick",
-			fr: "Coup d'patte"
+			'en-us': "Cat Kick",
+			'fr-fr': "Coup d'patte"
 		},
 		damage: 20
 	}],

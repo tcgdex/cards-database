@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sobble",
-		fr: "Larméléon",
-		de: "Memmeon",
-		it: "Sobble",
-		es: "Sobble",
-		pt: "Sobble",
+		'en-us': "Sobble",
+		'fr-fr': "Larméléon",
+		'de-de': "Memmeon",
+		'it-it': "Sobble",
+		'es-es': "Sobble",
+		'pt-br': "Sobble",
 		'es-mx': "Sobble"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Water Gun",
-			fr: "Pistolet à O",
-			es: "Pistola Agua",
-			it: "Pistolacqua",
-			pt: "Revólver d’Água",
-			de: "Aquaknarre"
+			'en-us': "Water Gun",
+			'fr-fr': "Pistolet à O",
+			'es-es': "Pistola Agua",
+			'it-it': "Pistolacqua",
+			'pt-br': "Revólver d’Água",
+			'de-de': "Aquaknarre"
 		},
 
 		damage: 40

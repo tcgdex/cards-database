@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mabosstiff",
-		fr: "Dogrino",
-		es: "Mabosstiff",
-		it: "Mabosstiff",
-		pt: "Mabosstiff",
-		de: "Mastifioso"
+		'en-us': "Mabosstiff",
+		'fr-fr': "Dogrino",
+		'es-es': "Mabosstiff",
+		'it-it': "Mabosstiff",
+		'pt-br': "Mabosstiff",
+		'de-de': "Mastifioso"
 	},
 
 	rarity: "Shiny rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Maschiff",
-		fr: "Grondogue",
-		es: "Maschiff",
-		it: "Maschiff",
-		pt: "Maschiff",
-		de: "Mobtiff"
+		'en-us': "Maschiff",
+		'fr-fr': "Grondogue",
+		'es-es': "Maschiff",
+		'it-it': "Maschiff",
+		'pt-br': "Maschiff",
+		'de-de': "Mobtiff"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Intimidating Howl",
-			fr: "Hurlement Intimidant",
-			es: "Aullido Intimidatorio",
-			it: "Gridodilotta Spaventoso",
-			pt: "Uivo Intimidante",
-			de: "Angsteinflößender Jauler"
+			'en-us': "Intimidating Howl",
+			'fr-fr': "Hurlement Intimidant",
+			'es-es': "Aullido Intimidatorio",
+			'it-it': "Gridodilotta Spaventoso",
+			'pt-br': "Uivo Intimidante",
+			'de-de': "Angsteinflößender Jauler"
 		},
 
 		effect: {
-			en: "Once during your turn, you may switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
-			fr: "Une fois pendant votre tour, vous pouvez envoyer le Pokémon Actif de votre adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
-			es: "Una vez durante tu turno, puedes mover el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
-			it: "Una sola volta durante il tuo turno, puoi spostare il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
-			pt: "Uma vez durante o seu turno, você poderá mandar o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)",
-			de: "Einmal während deines Zuges kannst du das Aktive Pokémon deines Gegners auf seine Bank auswechseln. (Dein Gegner wählt das neue Aktive Pokémon.)"
+			'en-us': "Once during your turn, you may switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez envoyer le Pokémon Actif de votre adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
+			'es-es': "Una vez durante tu turno, puedes mover el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
+			'it-it': "Una sola volta durante il tuo turno, puoi spostare il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
+			'pt-br': "Uma vez durante o seu turno, você poderá mandar o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)",
+			'de-de': "Einmal während deines Zuges kannst du das Aktive Pokémon deines Gegners auf seine Bank auswechseln. (Dein Gegner wählt das neue Aktive Pokémon.)"
 		}
 	}],
 
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Wild Tackle",
-			fr: "Tacle Brutal",
-			es: "Placaje Salvaje",
-			it: "Azionferoce",
-			pt: "Investida Feroz",
-			de: "Wilder Tackle"
+			'en-us': "Wild Tackle",
+			'fr-fr': "Tacle Brutal",
+			'es-es': "Placaje Salvaje",
+			'it-it': "Azionferoce",
+			'pt-br': "Investida Feroz",
+			'de-de': "Wilder Tackle"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 160
@@ -97,7 +97,7 @@ const card: Card = {
 	illustrator: "Hitoshi Ariga",
 
 	description: {
-		en: "Mabosstiff loves playing with children. Though usually gentle, it takes on an intimidating look when protecting its family.",
+		'en-us': "Mabosstiff loves playing with children. Though usually gentle, it takes on an intimidating look when protecting its family.",
 	},
 
 }

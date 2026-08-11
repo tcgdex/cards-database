@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クラブ",
+		'ja-jp': "クラブ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "家族を呼びます",
+				'ja-jp': "家族を呼びます",
 			},
 			effect: {
-				ja: "Krabbyという名前の基本的なポケモンをデッキに検索し、ベンチに置いてください。その後、デッキをシャッフルします。 （ベンチがいっぱいの場合、この攻撃を使用できません。）",
+				'ja-jp': "Krabbyという名前の基本的なポケモンをデッキに検索し、ベンチに置いてください。その後、デッキをシャッフルします。 （ベンチがいっぱいの場合、この攻撃を使用できません。）",
 			},
 
 		},
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "Irongrip",
+				'ja-jp': "Irongrip",
 			},
 			damage: 20,
 		},

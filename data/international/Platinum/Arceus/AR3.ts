@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Arceus",
-		fr: "Arceus",
-		de: "Arceus"
+		'en-us': "Arceus",
+		'fr-fr': "Arceus",
+		'de-de': "Arceus"
 	},
 
 	illustrator: "Wataru Kawahara",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bright Flame",
-				fr: "Flamme éclatante",
-				de: "Helle Flamme"
+				'en-us': "Bright Flame",
+				'fr-fr': "Flamme éclatante",
+				'de-de': "Helle Flamme"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard 2 Energy attached to Arceus.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez 2 Énergies attachées à Arceus.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" entferne 2 Energien, die an Arceus angelegt sind, und lege sie auf deinen Ablagestapel."
+				'en-us': "Flip a coin. If tails, discard 2 Energy attached to Arceus.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez 2 Énergies attachées à Arceus.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" entferne 2 Energien, die an Arceus angelegt sind, und lege sie auf deinen Ablagestapel."
 			},
 			damage: 80,
 
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms."
+		'en-us': "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドラピオン",
+		'ja-jp': "ドラピオン",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "猛毒を もつが 使うことは  まれ。 車も 叩きつぶす  怪力で 暴れまわる。",
+		'ja-jp': "猛毒を もつが 使うことは  まれ。 車も 叩きつぶす  怪力で 暴れまわる。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "holo"}],
 
 	evolveFrom: {
-		ja: "スコルピ",
+		'ja-jp': "スコルピ",
 	},
 
 	retreat: 3,

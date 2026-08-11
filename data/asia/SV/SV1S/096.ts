@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "パフュートンex"
+		'ja-jp': "パフュートンex"
 	},
 
 	illustrator: "aky CG Works",
@@ -19,25 +19,25 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "きょうらんのかおり"
+			'ja-jp': "きょうらんのかおり"
 		},
 
 		damage: "10＋",
 
 		effect: {
-			ja: "相手のベンチポケモンの数×30ダメージ追加。"
+			'ja-jp': "相手のベンチポケモンの数×30ダメージ追加。"
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ヘビースタンプ"
+			'ja-jp': "ヘビースタンプ"
 		},
 
 		damage: 210,
 
 		effect: {
-			ja: "コインを1回投げウラなら、次の自分の番、このポケモンはワザが使えない。"
+			'ja-jp': "コインを1回投げウラなら、次の自分の番、このポケモンはワザが使えない。"
 		}
 	}],
 

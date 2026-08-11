@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit 2 (Plusle)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Beldum",
-		fr: "Terhal"
+		'en-us': "Beldum",
+		'fr-fr': "Terhal"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -25,24 +25,24 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Call for Family",
-			fr: "Appel à la famille"
+			'en-us': "Call for Family",
+			'fr-fr': "Appel à la famille"
 		},
 		effect: {
-			en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
-			fr: "Choisissez un Pokémon de base dans votre deck et placez-le sur votre Banc. Ensuite, mélangez votre deck."
+			'en-us': "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
+			'fr-fr': "Choisissez un Pokémon de base dans votre deck et placez-le sur votre Banc. Ensuite, mélangez votre deck."
 		}
 	}, {
 		cost: [
 			"Psychic",
 		],
 		name: {
-			en: "Metal Ball",
-			fr: "Boule métallique"
+			'en-us': "Metal Ball",
+			'fr-fr': "Boule métallique"
 		},
 		effect: {
-			en: "Put 1 damage counter on the Defending Pokémon.",
-			fr: "Placez 1 marqueur de dégât sur le Pokémon Défenseur."
+			'en-us': "Put 1 damage counter on the Defending Pokémon.",
+			'fr-fr': "Placez 1 marqueur de dégât sur le Pokémon Défenseur."
 		}
 	}],
 

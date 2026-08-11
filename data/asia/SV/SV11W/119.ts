@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デスマス",
+		'ja-jp': "デスマス",
 	},
 
 	illustrator: "YASHIRO Nanaco",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "持っている マスクは デスマスが 人間だった ときの 顔。 たまに 見つめては 泣いている。",
+		'ja-jp': "持っている マスクは デスマスが 人間だった ときの 顔。 たまに 見つめては 泣いている。",
 	},
 
 	stage: "Basic",

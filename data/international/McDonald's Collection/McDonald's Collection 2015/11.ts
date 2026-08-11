@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2015'
 
 const card: Card = {
@@ -7,8 +7,8 @@ const card: Card = {
 	],
 	set: Set,
 	name: {
-		en: "Zigzagoon",
-		fr: "Zigzaton",
+		'en-us': "Zigzagoon",
+		'fr-fr': "Zigzaton",
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -23,12 +23,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sand Attack",
-				fr: "Jet de Sable",
+				'en-us': "Sand Attack",
+				'fr-fr': "Jet de Sable",
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c'est pile, son attaque ne fait rien.",
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c'est pile, son attaque ne fait rien.",
 			},
 		},
 		{
@@ -37,8 +37,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'Boule",
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'Boule",
 			},
 			damage: "20",
 		},

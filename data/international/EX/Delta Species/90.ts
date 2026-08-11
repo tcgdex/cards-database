@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Great Ball",
-		fr: "Super Ball",
-		de: "Superball"
+		'en-us': "Great Ball",
+		'fr-fr': "Super Ball",
+		'de-de': "Superball"
 	},
 
 	illustrator: "Nakaoka",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Search your deck for a Basic Pokémon (excluding Pokémon-ex) and put it onto your Bench. Shuffle your deck afterward.",
-		fr: "Choisissez dans votre deck un Pokémon de base (Pokémon-ex exclus) et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
-		de: "Search you deck for a Basic Pokémon (excluding Pokémon-ex) and put it onto your Bench. Shuffle your deck afterward."
+		'en-us': "Search your deck for a Basic Pokémon (excluding Pokémon-ex) and put it onto your Bench. Shuffle your deck afterward.",
+		'fr-fr': "Choisissez dans votre deck un Pokémon de base (Pokémon-ex exclus) et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+		'de-de': "Search you deck for a Basic Pokémon (excluding Pokémon-ex) and put it onto your Bench. Shuffle your deck afterward."
 	},
 
 	trainerType: "Item",

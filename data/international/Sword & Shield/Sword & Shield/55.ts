@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Sobble",
-		fr: "Larméléon",
-		es: "Sobble",
-		it: "Sobble",
-		pt: "Sobble",
-		de: "Memmeon"
+		'en-us': "Sobble",
+		'fr-fr': "Larméléon",
+		'es-es': "Sobble",
+		'it-it': "Sobble",
+		'pt-br': "Sobble",
+		'de-de': "Memmeon"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'Face",
-				es: "Destructor",
-				it: "Botta",
-				pt: "Pancada",
-				de: "Klaps"
+				'en-us': "Pound",
+				'fr-fr': "Écras'Face",
+				'es-es': "Destructor",
+				'it-it': "Botta",
+				'pt-br': "Pancada",
+				'de-de': "Klaps"
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
-				es: "Pistola Agua",
-				it: "Pistolacqua",
-				pt: "Revólver d'Água",
-				de: "Aquaknarre"
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
+				'es-es': "Pistola Agua",
+				'it-it': "Pistolacqua",
+				'pt-br': "Revólver d'Água",
+				'de-de': "Aquaknarre"
 			},
 
 			damage: 20,
@@ -77,7 +77,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won't be able to resist weeping."
+		'en-us': "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won't be able to resist weeping."
 	},
 
 	dexId: [816],

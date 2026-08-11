@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エーフィGX",
+		'ja-jp': "エーフィGX",
 	},
 
 	illustrator: "",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 		{
@@ -28,14 +28,14 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数x30ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数x30ダメージ追加。",
 			},
 		},
 		{
 			name: { ja: "ディビジョンGX" },
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "ダメカン10個を、相手のポケモンに好きなようにのせる。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "ダメカン10個を、相手のポケモンに好きなようにのせる。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 1,

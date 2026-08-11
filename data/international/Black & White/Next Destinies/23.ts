@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Staryu",
-		fr: "Stari",
-		es: "Staryu",
-		it: "Staryu",
-		pt: "Staryu",
-		de: "Sterndu"
+		'en-us': "Staryu",
+		'fr-fr': "Stari",
+		'es-es': "Staryu",
+		'it-it': "Staryu",
+		'pt-br': "Staryu",
+		'de-de': "Sterndu"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Recover",
-				fr: "Soin",
+				'en-us': "Recover",
+				'fr-fr': "Soin",
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon and heal all damage from this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon et soignez tous les dégâts de ce Pokémon.",
+				'en-us': "Discard an Energy attached to this Pokémon and heal all damage from this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon et soignez tous les dégâts de ce Pokémon.",
 			},
 
 		},
@@ -48,8 +48,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
 			},
 
 			damage: 10,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If its body is torn, it can grow back if the red core remains. The core flashes at midnight.",
+		'en-us': "If its body is torn, it can grow back if the red core remains. The core flashes at midnight.",
 	},
 
 	thirdParty: {

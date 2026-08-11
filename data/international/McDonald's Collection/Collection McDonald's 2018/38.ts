@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Passerouge",
+		'fr-fr': "Passerouge",
 	},
 
 	rarity: "None",
@@ -36,16 +36,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				fr: "Rugissement"
+				'fr-fr': "Rugissement"
 			},
 			effect: {
-				fr: "Pendant le prochain tour de votre adversaire, les attaques du Pokémon Défenseur infligent 20 dégâts de moins (avant application de la Faiblesse et de la Résistance)."
+				'fr-fr': "Pendant le prochain tour de votre adversaire, les attaques du Pokémon Défenseur infligent 20 dégâts de moins (avant application de la Faiblesse et de la Résistance)."
 			}
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				fr: "Battement"
+				'fr-fr': "Battement"
 			},
 			damage: 20
 		}

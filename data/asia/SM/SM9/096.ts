@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "セレビィ&フシギバナGX",
+		'ja-jp': "セレビィ&フシギバナGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくとやけどとこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをどくとやけどとこんらんにする。",
 			},
 		},
 		{
@@ -33,7 +33,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Grass", "Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンのHPを、すべて回復する。追加で[草]エネルギーが1個ついているなら、自分のトラッシュにあるカードをすべて山札にもどして切る。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "このポケモンのHPを、すべて回復する。追加で[草]エネルギーが1個ついているなら、自分のトラッシュにあるカードをすべて山札にもどして切る。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

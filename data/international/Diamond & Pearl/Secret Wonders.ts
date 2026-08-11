@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Diamond & Pearl'
 
 const dp3: Set = {
 	id: "dp3",
 
 	name: {
-		en: "Secret Wonders",
-		fr: "Merveilles Secrètes",
-		es: "Maravillas Secretas",
-		it: "Prodigi Segreti",
-		de: "Rätselhafte Wunder",
-		pt: "Maravilhas Secretas"
+		'en-us': "Secret Wonders",
+		'fr-fr': "Merveilles Secrètes",
+		'es-es': "Maravillas Secretas",
+		'it-it': "Prodigi Segreti",
+		'de-de': "Rätselhafte Wunder",
+		'pt-br': "Maravilhas Secretas"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const dp3: Set = {
 
 	abbreviations: {
 		official: "SW",
-		fr: "MSQ"
+		'fr-fr': "MSQ"
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ariados",
-		fr: "Migalos",
-		es: "Ariados",
-		it: "Ariados",
-		pt: "Ariados",
-		de: "Ariados"
+		'en-us': "Ariados",
+		'fr-fr': "Migalos",
+		'es-es': "Ariados",
+		'it-it': "Ariados",
+		'pt-br': "Ariados",
+		'de-de': "Ariados"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Spinarak",
-		fr: "Mimigal",
-		es: "Spinarak",
-		it: "Spinarak",
-		pt: "Spinarak",
-		de: "Webarak"
+		'en-us': "Spinarak",
+		'fr-fr': "Mimigal",
+		'es-es': "Spinarak",
+		'it-it': "Spinarak",
+		'pt-br': "Spinarak",
+		'de-de': "Webarak"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Hidden Threads",
-			fr: "Toile Dissimulée",
-			es: "Hilos Ocultos",
-			it: "Tela Occulta",
-			pt: "Fios Ocultos",
-			de: "Verborgene Fäden"
+			'en-us': "Hidden Threads",
+			'fr-fr': "Toile Dissimulée",
+			'es-es': "Hilos Ocultos",
+			'it-it': "Tela Occulta",
+			'pt-br': "Fios Ocultos",
+			'de-de': "Verborgene Fäden"
 		},
 
 		effect: {
-			en: "Your opponent's Pokémon VSTAR's attacks cost Colorless more. You can't apply more than 1 Hidden Threads Ability at a time.",
-			fr: "Les attaques des Pokémon-VSTAR de votre adversaire coûtent Colorless de plus. Vous ne pouvez utiliser qu'un talent Toile Dissimulée à la fois.",
-			es: "Los ataques de los Pokémon V-ASTRO de tu rival cuestan Colorless más. No puedes aplicar más de 1 habilidad Hilos Ocultos a la vez.",
-			it: "Il costo degli attacchi dei Pokémon-V ASTRO del tuo avversario aumenta di Colorless. Non puoi applicare più di un'abilità Tela Occulta alla volta.",
-			pt: "Os ataques dos Pokémon V-ASTRO do seu oponente custam Colorless a mais. Você não pode usar mais de 1 Habilidade Fios Ocultos por vez.",
-			de: "Die Kosten der Attacken von Pokémon-VSTAR deines Gegners erhöhen sich um Colorless. Du kannst immer nur jeweils 1 Fähigkeit Verborgene Fäden einsetzen."
+			'en-us': "Your opponent's Pokémon VSTAR's attacks cost Colorless more. You can't apply more than 1 Hidden Threads Ability at a time.",
+			'fr-fr': "Les attaques des Pokémon-VSTAR de votre adversaire coûtent Colorless de plus. Vous ne pouvez utiliser qu'un talent Toile Dissimulée à la fois.",
+			'es-es': "Los ataques de los Pokémon V-ASTRO de tu rival cuestan Colorless más. No puedes aplicar más de 1 habilidad Hilos Ocultos a la vez.",
+			'it-it': "Il costo degli attacchi dei Pokémon-V ASTRO del tuo avversario aumenta di Colorless. Non puoi applicare più di un'abilità Tela Occulta alla volta.",
+			'pt-br': "Os ataques dos Pokémon V-ASTRO do seu oponente custam Colorless a mais. Você não pode usar mais de 1 Habilidade Fios Ocultos por vez.",
+			'de-de': "Die Kosten der Attacken von Pokémon-VSTAR deines Gegners erhöhen sich um Colorless. Du kannst immer nur jeweils 1 Fähigkeit Verborgene Fäden einsetzen."
 		}
 	}],
 
@@ -57,12 +57,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Pierce",
-			fr: "Transpercement",
-			es: "Perforar",
-			it: "Perforare",
-			pt: "Perfurar",
-			de: "Durchbohren"
+			'en-us': "Pierce",
+			'fr-fr': "Transpercement",
+			'es-es': "Perforar",
+			'it-it': "Perforare",
+			'pt-br': "Perfurar",
+			'de-de': "Durchbohren"
 		},
 
 		damage: 50
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It spews threads from its mouth to catch its prey. When night falls, it leaves its web to go hunt aggressively.",
+		'en-us': "It spews threads from its mouth to catch its prey. When night falls, it leaves its web to go hunt aggressively.",
 	},
 
 	variants: [

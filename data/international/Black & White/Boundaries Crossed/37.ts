@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Azumarill",
-		fr: "Azumarill",
-		es: "Azumarill",
-		it: "Azumarill",
-		pt: "Azumarill",
-		de: "Azumarill"
+		'en-us': "Azumarill",
+		'fr-fr': "Azumarill",
+		'es-es': "Azumarill",
+		'it-it': "Azumarill",
+		'pt-br': "Azumarill",
+		'de-de': "Azumarill"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Marill",
-		fr: "Marill",
+		'en-us': "Marill",
+		'fr-fr': "Marill",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Deep Dive",
-				fr: "Plongée Profonde",
+				'en-us': "Deep Dive",
+				'fr-fr': "Plongée Profonde",
 			},
 			effect: {
-				en: "Flip 2 coins. For each heads, heal 40 damage from this Pokémon.",
-				fr: "Lancez 2 pièces. Pour chaque côté face, soignez 40 dégâts à ce Pokémon.",
+				'en-us': "Flip 2 coins. For each heads, heal 40 damage from this Pokémon.",
+				'fr-fr': "Lancez 2 pièces. Pour chaque côté face, soignez 40 dégâts à ce Pokémon.",
 			},
 
 		},
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Sonic",
-				fr: "Aquasonique",
+				'en-us': "Aqua Sonic",
+				'fr-fr': "Aquasonique",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 70,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.",
+		'en-us': "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.",
 	},
 
 	thirdParty: {

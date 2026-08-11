@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヌオー",
+		'ja-jp': "ヌオー",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "のんびりとした 性格。 川底で 口を 開けて エサが 飛びこんでくるのを ひたすら 待つ。",
+		'ja-jp': "のんびりとした 性格。 川底で 口を 開けて エサが 飛びこんでくるのを ひたすら 待つ。",
 	},
 
 	stage: "Stage1",
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ウパー",
+		'ja-jp': "ウパー",
 	},
 
 	retreat: 2,

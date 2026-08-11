@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Poochyena",
-		fr: "Medhyèna de la Team Aqua",
-		pt: "Poochyena da Equipe Aqua",
+		'en-us': "Team Aqua's Poochyena",
+		'fr-fr': "Medhyèna de la Team Aqua",
+		'pt-br': "Poochyena da Equipe Aqua",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Roar",
-				fr: "Hurlement",
-				pt: "Rugido",
+				'en-us': "Roar",
+				'fr-fr': "Hurlement",
+				'pt-br': "Rugido",
 			},
 			effect: {
-				en: "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc.",
-				pt: "Seu oponente troca o Pokémon Ativo por 1 dos próprios Pokémon no Banco."
+				'en-us': "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc.",
+				'pt-br': "Seu oponente troca o Pokémon Ativo por 1 dos próprios Pokémon no Banco."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				pt: "Mordida",
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'pt-br': "Mordida",
 			},
 
 			damage: 20,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Poochyena can easily detect invading foes with its acute sense of smell. It's an excellent lookout!",
+		'en-us': "Poochyena can easily detect invading foes with its acute sense of smell. It's an excellent lookout!",
 	},
 
 	thirdParty: {

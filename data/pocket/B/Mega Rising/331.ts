@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Flame Patch"
+		'en-us': "Flame Patch"
 	},
 
 	illustrator: "Studio Bora Inc.",
@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Attach a {R} Energy from your discard pile to your Active {R} Pokémon."
+		'en-us': "Attach a {R} Energy from your discard pile to your Active {R} Pokémon."
 	},
 
 	trainerType: "Item",

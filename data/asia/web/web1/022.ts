@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../web1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダークチャームレオン",
+		'ja-jp': "ダークチャームレオン",
 	},
 
 	rarity: "Uncommon",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "テールスラップ",
+				'ja-jp': "テールスラップ",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Fire", "Fire", "Fire"],
 			name: {
-				ja: "火の玉",
+				'ja-jp': "火の玉",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、このポケモンに取り付けられた火災エネルギーカードを捨ててください。尾の場合、この攻撃は何もしません。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、このポケモンに取り付けられた火災エネルギーカードを捨ててください。尾の場合、この攻撃は何もしません。",
 			},
 			damage: 70,
 		},

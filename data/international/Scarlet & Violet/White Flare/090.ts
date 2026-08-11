@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cottonee",
-		fr: "Doudouvet",
-		de: "Waumboll",
-		it: "Cottonee",
-		pt: "Cottonee",
-		es: "Cottonee",
+		'en-us': "Cottonee",
+		'fr-fr': "Doudouvet",
+		'de-de': "Waumboll",
+		'it-it': "Cottonee",
+		'pt-br': "Cottonee",
+		'es-es': "Cottonee",
 		'es-mx': "Cottonee"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Absorb",
-			fr: "Vole-Vie",
-			de: "Absorber",
-			it: "Assorbimento",
-			pt: "Absorção",
-			es: "Absorber",
+			'en-us': "Absorb",
+			'fr-fr': "Vole-Vie",
+			'de-de': "Absorber",
+			'it-it': "Assorbimento",
+			'pt-br': "Absorção",
+			'es-es': "Absorber",
 			'es-mx': "Absorción"
 		},
 
 		effect: {
-			en: "Heal 10 damage from this Pokémon.",
-			fr: "Soignez 10 dégâts de ce Pokémon.",
-			de: "Heile 10 Schadenspunkte bei diesem Pokémon.",
-			it: "Cura questo Pokémon da 10 danni.",
-			pt: "Cure 10 pontos de dano deste Pokémon.",
-			es: "Cura 10 puntos de daño a este Pokémon.",
+			'en-us': "Heal 10 damage from this Pokémon.",
+			'fr-fr': "Soignez 10 dégâts de ce Pokémon.",
+			'de-de': "Heile 10 Schadenspunkte bei diesem Pokémon.",
+			'it-it': "Cura questo Pokémon da 10 danni.",
+			'pt-br': "Cure 10 pontos de dano deste Pokémon.",
+			'es-es': "Cura 10 puntos de daño a este Pokémon.",
 			'es-mx': "Cura 10 puntos de daño a este Pokémon."
 		},
 

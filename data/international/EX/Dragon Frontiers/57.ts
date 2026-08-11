@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Nidoran♂ δ",
-		fr: "Nidoran ♂ δ",
-		de: "Nidoran M"
+		'en-us': "Nidoran♂ δ",
+		'fr-fr': "Nidoran ♂ δ",
+		'de-de': "Nidoran M"
 	},
 	illustrator: "Midori Harada",
 	rarity: "Common",
@@ -34,9 +34,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				de: "Schnabel"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'de-de': "Schnabel"
 			},
 
 			damage: 10,
@@ -47,14 +47,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Poison Horn",
-				fr: "Corne empoisonnée",
-				de: "Gifthorn"
+				'en-us': "Poison Horn",
+				'fr-fr': "Corne empoisonnée",
+				'de-de': "Gifthorn"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 
 		},

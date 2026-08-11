@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Audino",
-		fr: "Nanméouïe",
-		es: "Audino",
-		it: "Audino",
-		pt: "Audino",
-		de: "Ohrdoch"
+		'en-us': "Audino",
+		'fr-fr': "Nanméouïe",
+		'es-es': "Audino",
+		'it-it': "Audino",
+		'pt-br': "Audino",
+		'de-de': "Ohrdoch"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Powerful Slap",
-				fr: "Grosse Baffe",
+				'en-us': "Powerful Slap",
+				'fr-fr': "Grosse Baffe",
 			},
 			effect: {
-				en: "Flip a coin for each Energy attached to this Pokémon. This attack does 40 damage times the number of heads.",
-				fr: "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip a coin for each Energy attached to this Pokémon. This attack does 40 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 40,
 
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heal Pulse",
-				fr: "Vibra Soin",
+				'en-us': "Heal Pulse",
+				'fr-fr': "Vibra Soin",
 			},
 			effect: {
-				en: "Heal 50 damage from 1 of your Pokémon.",
-				fr: "Soignez 50 dégâts à 1 de vos Pokémon.",
+				'en-us': "Heal 50 damage from 1 of your Pokémon.",
+				'fr-fr': "Soignez 50 dégâts à 1 de vos Pokémon.",
 			},
 
 		},
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its auditory sense is astounding. It has a radar-like ability to understand its surrounding through slight sounds.",
+		'en-us': "Its auditory sense is astounding. It has a radar-like ability to understand its surrounding through slight sounds.",
 	},
 
 	thirdParty: {

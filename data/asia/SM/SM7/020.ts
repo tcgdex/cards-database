@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オドリドリ",
+		'ja-jp': "オドリドリ",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "くれないのミツを 吸った オドリドリ。 情熱的な ステップで 敵の 身も 心も 焼き尽くす。",
+		'ja-jp': "くれないのミツを 吸った オドリドリ。 情熱的な ステップで 敵の 身も 心も 焼き尽くす。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "みわくのサルサ" },
 			cost: ["Fire"],
 			effect: {
-				ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをやけどとこんらんにする。",
+				'ja-jp': "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをやけどとこんらんにする。",
 			},
 		},
 		{

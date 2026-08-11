@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Jungle'
 
 const card: Card = {
 	name: {
-		en: "Pidgeot",
-		fr: "Roucarnage",
-		de: "Tauboss"
+		'en-us': "Pidgeot",
+		'fr-fr': "Roucarnage",
+		'de-de': "Tauboss"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pidgeotto",
-		fr: "Roucoups"
+		'en-us': "Pidgeotto",
+		'fr-fr': "Roucoups"
 	},
 
 	stage: "Stage2",
@@ -37,9 +37,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-aile",
-				de: "Flügelschlag"
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-aile",
+				'de-de': "Flügelschlag"
 			},
 
 			damage: 20,
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hurricane",
-				fr: "Ouragan",
-				de: "Hurrikan"
+				'en-us': "Hurricane",
+				'fr-fr': "Ouragan",
+				'de-de': "Hurrikan"
 			},
 			effect: {
-				en: "Unless this attack Knocks Out the Defending Pokémon, return the Defending Pokémon and all cards attached to it to your opponent's hand.",
-				fr: "À moins que cette attaque ne mette le Pokémon Défenseur K.O., renvoyez le Pokémon Défenseur et toutes les cartes qui lui sont attachées dans la main de votre adversaire.",
-				de: "Falls dieser Angriff den verteidigenden Pokémon nicht kampfunfähig macht, gib den verteidigenden Pokémon und alle daraufabgelegten Karten deinem Gegner auf die Hand zurück."
+				'en-us': "Unless this attack Knocks Out the Defending Pokémon, return the Defending Pokémon and all cards attached to it to your opponent's hand.",
+				'fr-fr': "À moins que cette attaque ne mette le Pokémon Défenseur K.O., renvoyez le Pokémon Défenseur et toutes les cartes qui lui sont attachées dans la main de votre adversaire.",
+				'de-de': "Falls dieser Angriff den verteidigenden Pokémon nicht kampfunfähig macht, gib den verteidigenden Pokémon und alle daraufabgelegten Karten deinem Gegner auf die Hand zurück."
 			},
 			damage: 30,
 
@@ -81,8 +81,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
-		fr: "Il chasse en surveillant la surface de l'eau et en plongeant pour attraper des proies faciles."
+		'en-us': "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
+		'fr-fr': "Il chasse en surveillant la surface de l'eau et en plongeant pour attraper des proies faciles."
 	},
 
 

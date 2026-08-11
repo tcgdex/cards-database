@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Grapploct"
+		'id-id': "Grapploct"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Grapploct naik ke daratan dan mencari lawan bertarung untuk menguji kemampuannya. Pokémon ini akan kembali ke laut begitu pertarungan selesai."
+		'id-id': "Grapploct naik ke daratan dan mencari lawan bertarung untuk menguji kemampuannya. Pokémon ini akan kembali ke laut begitu pertarungan selesai."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Menjatuhkan Perlahan-lahan"
+			'id-id': "Menjatuhkan Perlahan-lahan"
 		},
 
 		effect: {
-			id: "Pada akhir giliran lawan berikutnya, Pokémon yang menerima serangan ini KO."
+			'id-id': "Pada akhir giliran lawan berikutnya, Pokémon yang menerima serangan ini KO."
 		},
 
 		damage: 30,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			id: "Mach Straight"
+			'id-id': "Mach Straight"
 		},
 
 		damage: 120,

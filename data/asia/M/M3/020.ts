@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒトデマン",
+		'ja-jp': "ヒトデマン",
 	},
 
 	illustrator: "Takeshi Nakamura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "体の 中心で 光る コアが ある限り 体が ちぎれても 再生できる。",
+		'ja-jp': "体の 中心で 光る コアが ある限り 体が ちぎれても 再生できる。",
 	},
 
 	stage: "Basic",

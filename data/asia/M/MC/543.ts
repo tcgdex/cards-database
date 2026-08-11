@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オノノクス",
+		'ja-jp': "オノノクス",
 	},
 
 	illustrator: "Tsuyoshi Nagano",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "自慢の キバで 敵を 圧倒。 鉄塔を 一刀のもとに 切り捨てる 切れ味を 誇る。",
+		'ja-jp': "自慢の キバで 敵を 圧倒。 鉄塔を 一刀のもとに 切り捨てる 切れ味を 誇る。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "アックスダウン" },
 			cost: ["Fighting"],
 			effect: {
-				ja: "相手のバトルポケモンに特殊エネルギーがついているなら、そのポケモンをきぜつさせる。",
+				'ja-jp': "相手のバトルポケモンに特殊エネルギーがついているなら、そのポケモンをきぜつさせる。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 230,
 			cost: ["Fighting", "Metal"],
 			effect: {
-				ja: "自分の山札を上から3枚トラッシュする。",
+				'ja-jp': "自分の山札を上から3枚トラッシュする。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "オノンド",
+		'ja-jp': "オノンド",
 	},
 
 	retreat: 2,

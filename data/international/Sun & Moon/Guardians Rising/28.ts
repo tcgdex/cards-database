@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Sharpedo",
-		fr: "Sharpedo",
-		es: "Sharpedo",
-		it: "Sharpedo",
-		pt: "Sharpedo",
-		de: "Tohaido"
+		'en-us': "Sharpedo",
+		'fr-fr': "Sharpedo",
+		'es-es': "Sharpedo",
+		'it-it': "Sharpedo",
+		'pt-br': "Sharpedo",
+		'de-de': "Tohaido"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Carvanha",
-		fr: "Carvanha",
+		'en-us': "Carvanha",
+		'fr-fr': "Carvanha",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jet Headbutt",
-				fr: "Bélier Volant",
-				es: "Turbocabezazo",
-				it: "Zuccata Jet",
-				pt: "Cabeçada a Jato",
-				de: "Flinke Kopfnuss"
+				'en-us': "Jet Headbutt",
+				'fr-fr': "Bélier Volant",
+				'es-es': "Turbocabezazo",
+				'it-it': "Zuccata Jet",
+				'pt-br': "Cabeçada a Jato",
+				'de-de': "Flinke Kopfnuss"
 			},
 
 			damage: 70,
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It pursues its prey at speeds of 75 mph and finishes them off with fangs that can crush iron. It is known as the bully of the sea.",
+		'en-us': "It pursues its prey at speeds of 75 mph and finishes them off with fangs that can crush iron. It is known as the bully of the sea.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Grumpig",
-		fr: "Groret",
-		de: "Groink"
+		'en-us': "Grumpig",
+		'fr-fr': "Groret",
+		'de-de': "Groink"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spoink",
-		fr: "Spoink"
+		'en-us': "Spoink",
+		'fr-fr': "Spoink"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psyshock",
-				fr: "Choc psy",
-				de: "Psyshock"
+				'en-us': "Psyshock",
+				'fr-fr': "Choc psy",
+				'de-de': "Psyshock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Teleport Blast",
-				fr: "Téléportation instantanée",
-				de: "Teleport Blast"
+				'en-us': "Teleport Blast",
+				'fr-fr': "Téléportation instantanée",
+				'de-de': "Teleport Blast"
 			},
 			effect: {
-				en: "After your attack, you may switch Grumpig with 1 of your Benched Pokémon.",
-				fr: "Après votre attaque, vous pouvez échanger Groret avec 1 des Pokémon de votre Banc.",
-				de: "After your attack, you may switch Grumpig with 1 of your Benched Pokémon."
+				'en-us': "After your attack, you may switch Grumpig with 1 of your Benched Pokémon.",
+				'fr-fr': "Après votre attaque, vous pouvez échanger Groret avec 1 des Pokémon de votre Banc.",
+				'de-de': "After your attack, you may switch Grumpig with 1 of your Benched Pokémon."
 			},
 			damage: 40,
 

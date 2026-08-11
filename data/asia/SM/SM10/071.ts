@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドードリオ",
+		'ja-jp': "ドードリオ",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "３つの 頭が 見ている前で わずかでも すきを 見せると クチバシで 激しく つつかれる。",
+		'ja-jp': "３つの 頭が 見ている前で わずかでも すきを 見せると クチバシで 激しく つつかれる。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "60×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数x60ダメージ。",
+				'ja-jp': "コインを3回投げ、オモテの数x60ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「かそくづき」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「かそくづき」が使えない。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ドードー",
+		'ja-jp': "ドードー",
 	},
 
 	retreat: 0,

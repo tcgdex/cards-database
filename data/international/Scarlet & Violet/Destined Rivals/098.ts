@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Probopass",
-		fr: "Tarinorme",
-		de: "Voluminas",
-		it: "Probopass",
-		es: "Probopass",
-		pt: "Probopass",
+		'en-us': "Probopass",
+		'fr-fr': "Tarinorme",
+		'de-de': "Voluminas",
+		'it-it': "Probopass",
+		'es-es': "Probopass",
+		'pt-br': "Probopass",
 		'es-mx': "Probopass"
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Nosepass",
-		fr: "Tarinor",
-		de: "Nasgnet",
-		it: "Nosepass",
-		es: "Nosepass",
-		pt: "Nosepass",
+		'en-us': "Nosepass",
+		'fr-fr': "Tarinor",
+		'de-de': "Nasgnet",
+		'it-it': "Nosepass",
+		'es-es': "Nosepass",
+		'pt-br': "Nosepass",
 		'es-mx': "Nosepass"
 	},
 	stage: "Stage1",
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Power Gem",
-			fr: "Rayon Gemme",
-			de: "Juwelenkraft",
-			it: "Gemmoforza",
-			es: "Joya de Luz",
-			pt: "Gema Poderosa",
+			'en-us': "Power Gem",
+			'fr-fr': "Rayon Gemme",
+			'de-de': "Juwelenkraft",
+			'it-it': "Gemmoforza",
+			'es-es': "Joya de Luz",
+			'pt-br': "Gema Poderosa",
 			'es-mx': "Joya de Luz"
 		},
 
@@ -51,22 +51,22 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Mountain Drop",
-			fr: "Montagne Écrasante",
-			de: "Gebirgssturz",
-			it: "Smottamento",
-			es: "Caída Montaña Abajo",
-			pt: "Queda da Montanha",
+			'en-us': "Mountain Drop",
+			'fr-fr': "Montagne Écrasante",
+			'de-de': "Gebirgssturz",
+			'it-it': "Smottamento",
+			'es-es': "Caída Montaña Abajo",
+			'pt-br': "Queda da Montanha",
 			'es-mx': "Caída Montañosa"
 		},
 
 		effect: {
-			en: "If a Stadium is in play, this attack does 70 more damage.",
-			fr: "Si un Stade est en jeu, cette attaque inflige 70 dégâts supplémentaires.",
-			de: "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 70 Schadenspunkte mehr zu.",
-			it: "Se c'è in gioco una carta Stadio, questo attacco infligge 70 danni in più.",
-			es: "Si hay un Estadio en juego, este ataque hace 70 puntos de daño más.",
-			pt: "Se um Estádio estiver em jogo, este ataque causará 70 pontos de dano a mais.",
+			'en-us': "If a Stadium is in play, this attack does 70 more damage.",
+			'fr-fr': "Si un Stade est en jeu, cette attaque inflige 70 dégâts supplémentaires.",
+			'de-de': "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 70 Schadenspunkte mehr zu.",
+			'it-it': "Se c'è in gioco una carta Stadio, questo attacco infligge 70 danni in più.",
+			'es-es': "Si hay un Estadio en juego, este ataque hace 70 puntos de daño más.",
+			'pt-br': "Se um Estádio estiver em jogo, este ataque causará 70 pontos de dano a mais.",
 			'es-mx': "Si hay un Estadio en juego, este ataque hace 70 puntos de daño más."
 		},
 

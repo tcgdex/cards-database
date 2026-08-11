@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Blaziken ex",
-		fr: "Braségali-ex",
-		es: "Blaziken ex",
-		de: "Lohgock-ex",
-		it: "Blaziken-ex",
-		pt: "Blaziken ex",
+		'en-us': "Blaziken ex",
+		'fr-fr': "Braségali-ex",
+		'es-es': "Blaziken ex",
+		'de-de': "Lohgock-ex",
+		'it-it': "Blaziken-ex",
+		'pt-br': "Blaziken ex",
 		'es-mx': "Blaziken ex"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 320,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Combusken",
-		fr: "Galifeu",
-		es: "Combusken",
-		de: "Jungglut",
-		it: "Combusken",
-		pt: "Combusken",
+		'en-us': "Combusken",
+		'fr-fr': "Galifeu",
+		'es-es': "Combusken",
+		'de-de': "Jungglut",
+		'it-it': "Combusken",
+		'pt-br': "Combusken",
 		'es-mx': "Combusken"
 	},
 	stage: "Stage2",
@@ -34,22 +34,22 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Seething Spirit",
-			fr: "Esprit Bouillonnant",
-			es: "Espíritu Incandescente",
-			de: "Brodelnder Kampfgeist",
-			it: "Spirito Ribollente",
-			pt: "Espírito Furioso",
+			'en-us': "Seething Spirit",
+			'fr-fr': "Esprit Bouillonnant",
+			'es-es': "Espíritu Incandescente",
+			'de-de': "Brodelnder Kampfgeist",
+			'it-it': "Spirito Ribollente",
+			'pt-br': "Espírito Furioso",
 			'es-mx': "Espíritu Incandescente"
 		},
 
 		effect: {
-			en: "Once during your turn, you may attach a Basic Energy card from your discard pile to 1 of your Pokémon.",
-			fr: "Une fois pendant votre tour, vous pouvez attacher une carte Énergie de base de votre pile de défausse à l'un de vos Pokémon.",
-			es: "Una vez durante tu turno, puedes unir 1 carta de Energía Básica de tu pila de descartes a uno de tus Pokémon.",
-			de: "Einmal während deines Zuges kannst du 1 Basis-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon anlegen.",
-			it: "Una sola volta durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon una carta Energia base dalla tua pila degli scarti.",
-			pt: "Uma vez durante o seu turno, você poderá ligar uma carta de Energia Básica da sua pilha de descarte a 1 dos seus Pokémon.",
+			'en-us': "Once during your turn, you may attach a Basic Energy card from your discard pile to 1 of your Pokémon.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez attacher une carte Énergie de base de votre pile de défausse à l'un de vos Pokémon.",
+			'es-es': "Una vez durante tu turno, puedes unir 1 carta de Energía Básica de tu pila de descartes a uno de tus Pokémon.",
+			'de-de': "Einmal während deines Zuges kannst du 1 Basis-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon anlegen.",
+			'it-it': "Una sola volta durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon una carta Energia base dalla tua pila degli scarti.",
+			'pt-br': "Uma vez durante o seu turno, você poderá ligar uma carta de Energia Básica da sua pilha de descarte a 1 dos seus Pokémon.",
 			'es-mx': "Una vez durante tu turno, puedes unir 1 carta de Energía Básica de tu pila de descartes a 1 de tus Pokémon."
 		}
 	}],
@@ -58,22 +58,22 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Smolder-sault",
-			fr: "Pyro-ette",
-			es: "Salto Abrasador",
-			de: "Feuerflugrolle",
-			it: "Capriola Ardente",
-			pt: "Queima-lhota",
+			'en-us': "Smolder-sault",
+			'fr-fr': "Pyro-ette",
+			'es-es': "Salto Abrasador",
+			'de-de': "Feuerflugrolle",
+			'it-it': "Capriola Ardente",
+			'pt-br': "Queima-lhota",
 			'es-mx': "Pirosalto"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
 			'es-mx': "Durante tu próximo turno, este Pokémon no puede atacar."
 		},
 

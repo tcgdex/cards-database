@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Iron Boulder",
-		fr: "Roc-de-Fer",
-		es: "Ferromole",
-		it: "Massoferreo",
-		pt: "Rocha Férrea",
-		de: "Eisenfels"
+		'en-us': "Iron Boulder",
+		'fr-fr': "Roc-de-Fer",
+		'es-es': "Ferromole",
+		'it-it': "Massoferreo",
+		'pt-br': "Rocha Férrea",
+		'de-de': "Eisenfels"
 	},
 
 	rarity: "Rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Adjusted Horn",
-			fr: "Corne Ajustée",
-			es: "Cuerno Graduable",
-			it: "Equicorno",
-			pt: "Chifre Ajustado",
-			de: "Angepasstes Horn"
+			'en-us': "Adjusted Horn",
+			'fr-fr': "Corne Ajustée",
+			'es-es': "Cuerno Graduable",
+			'it-it': "Equicorno",
+			'pt-br': "Chifre Ajustado",
+			'de-de': "Angepasstes Horn"
 		},
 
 		effect: {
-			en: "If you don't have the same number of cards in your hand as your opponent, this attack does nothing.",
-			fr: "Si vous n'avez pas le même nombre de cartes dans votre main que votre adversaire, cette attaque ne fait rien.",
-			es: "Si no tienes la misma cantidad de cartas en tu mano que tu rival, este ataque no hace nada.",
-			it: "Se non hai lo stesso numero di carte in mano del tuo avversario, questo attacco non ha effetto.",
-			pt: "Se você não tiver o mesmo número de cartas na sua mão do que seu oponente, este ataque não fará nada.",
-			de: "Wenn du nicht genauso viele Karten auf der Hand hast wie dein Gegner, hat diese Attacke keine Auswirkungen."
+			'en-us': "If you don't have the same number of cards in your hand as your opponent, this attack does nothing.",
+			'fr-fr': "Si vous n'avez pas le même nombre de cartes dans votre main que votre adversaire, cette attaque ne fait rien.",
+			'es-es': "Si no tienes la misma cantidad de cartas en tu mano que tu rival, este ataque no hace nada.",
+			'it-it': "Se non hai lo stesso numero di carte in mano del tuo avversario, questo attacco non ha effetto.",
+			'pt-br': "Se você não tiver o mesmo número de cartas na sua mão do que seu oponente, este ataque não fará nada.",
+			'de-de': "Wenn du nicht genauso viele Karten auf der Hand hast wie dein Gegner, hat diese Attacke keine Auswirkungen."
 		},
 
 		damage: 170

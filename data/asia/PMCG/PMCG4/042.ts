@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "わるいゴーリキー",
+		'ja-jp': "わるいゴーリキー",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
-				ja: "ドラッグします",
+				'ja-jp': "ドラッグします",
 			},
 			effect: {
-				ja: "ダメージを与える前に、対戦相手のベンチポケモンの1つを選択し、防御ポケモンに切り替えます。新しい防御ポケモンにダメージを与えます。対戦相手にベンチポケモンがない場合、この攻撃は使用できません。",
+				'ja-jp': "ダメージを与える前に、対戦相手のベンチポケモンの1つを選択し、防御ポケモンに切り替えます。新しい防御ポケモンにダメージを与えます。対戦相手にベンチポケモンがない場合、この攻撃は使用できません。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
-				ja: "ノックバック",
+				'ja-jp': "ノックバック",
 			},
 			effect: {
-				ja: "対戦相手がベンチポケモンを持っている場合、彼または彼女はそれらの1つを選択し、防御ポケモンでそれを切り替えます。 （ポケモンを切り替える前にダメージを与えます。）",
+				'ja-jp': "対戦相手がベンチポケモンを持っている場合、彼または彼女はそれらの1つを選択し、防御ポケモンでそれを切り替えます。 （ポケモンを切り替える前にダメージを与えます。）",
 			},
 			damage: 30,
 		},

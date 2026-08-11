@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Gligar",
-		fr: "Scorplane",
-		de: "Skorgla"
+		'en-us': "Gligar",
+		'fr-fr': "Scorplane",
+		'de-de': "Skorgla"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Light Poison",
-				fr: "Poison léger",
-				de: "Schwaches Gift"
+				'en-us': "Light Poison",
+				'fr-fr': "Poison léger",
+				'de-de': "Schwaches Gift"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 			damage: 10,
 
@@ -46,14 +46,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Jump On",
-				fr: "Sauter",
-				de: "Draufspringen"
+				'en-us': "Jump On",
+				'fr-fr': "Sauter",
+				'de-de': "Draufspringen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -77,8 +77,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It sails on the winds with its limbs extended to strike from the sky. It aims for the prey's face.",
-		fr: "Il chevauche les vents en tendant ses membres pour frapper depuis le ciel. Il vise toujours au visage."
+		'en-us': "It sails on the winds with its limbs extended to strike from the sky. It aims for the prey's face.",
+		'fr-fr': "Il chevauche les vents en tendant ses membres pour frapper depuis le ciel. Il vise toujours au visage."
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒスイ ゾロアークVSTAR",
+		'ja-jp': "ヒスイ ゾロアークVSTAR",
 	},
 
 	illustrator: "aky CG Works",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ファントムスター" },
 			effect: {
-				ja: "自分の番に使える。自分の手札をすべてトラッシュし、山札を7枚引く。［対戦中、自分はVSTARパワーを1回しか使えない。］",
+				'ja-jp': "自分の番に使える。自分の手札をすべてトラッシュし、山札を7枚引く。［対戦中、自分はVSTARパワーを1回しか使えない。］",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分の場のダメカンがのっているポケモンの数×50ダメージ。",
+				'ja-jp': "自分の場のダメカンがのっているポケモンの数×50ダメージ。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒスイ ゾロアークV",
+		'ja-jp': "ヒスイ ゾロアークV",
 	},
 
 	retreat: 2,

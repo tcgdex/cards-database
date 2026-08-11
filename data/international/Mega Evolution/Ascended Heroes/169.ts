@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Larry's Staravia",
-		fr: "Étourvol d'Okuba",
-		es: "Staravia de Laureano",
+		'en-us': "Larry's Staravia",
+		'fr-fr': "Étourvol d'Okuba",
+		'es-es': "Staravia de Laureano",
 		'es-mx': "Staravia de Laureano",
-		de: "Aokis Staravia",
-		it: "Staravia di Ubaldo",
-		pt: "Staravia do Lauro"
+		'de-de': "Aokis Staravia",
+		'it-it': "Staravia di Ubaldo",
+		'pt-br': "Staravia do Lauro"
 	},
 
 	evolveFrom: {
-		en: "Larry's Starly",
-		fr: "Étourmi d'Okuba",
-		es: "Starly de Laureano",
+		'en-us': "Larry's Starly",
+		'fr-fr': "Étourmi d'Okuba",
+		'es-es': "Starly de Laureano",
 		'es-mx': "Starly de Laureano",
-		de: "Aokis Staralili",
-		it: "Starly di Ubaldo",
-		pt: "Starly do Lauro",
+		'de-de': "Aokis Staralili",
+		'it-it': "Starly di Ubaldo",
+		'pt-br': "Starly do Lauro",
 	},
 
 	illustrator: "Fujimoto Gold",
@@ -35,13 +35,13 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Flap",
-			fr: "Battement",
-			es: "Aleteo",
+			'en-us': "Flap",
+			'fr-fr': "Battement",
+			'es-es': "Aleteo",
 			'es-mx': "Aleteo",
-			de: "Flattern",
-			it: "Alabattito",
-			pt: "Asa"
+			'de-de': "Flattern",
+			'it-it': "Alabattito",
+			'pt-br': "Asa"
 		},
 
 		damage: 20
@@ -49,13 +49,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Razor Wing",
-			fr: "Aile Tranchante",
-			es: "Ala Cortante",
+			'en-us': "Razor Wing",
+			'fr-fr': "Aile Tranchante",
+			'es-es': "Ala Cortante",
 			'es-mx': "Ala Cortante",
-			de: "Rasierflügel",
-			it: "Ala Tagliente",
-			pt: "Asa Cortante"
+			'de-de': "Rasierflügel",
+			'it-it': "Ala Tagliente",
+			'pt-br': "Asa Cortante"
 		},
 
 		damage: 50
@@ -77,7 +77,7 @@ const card: Card = {
 	regulationMark: "J",
 
 	description: {
-		en: "They maintain huge flocks, although fierce scuffles break out between various flocks.",
+		'en-us': "They maintain huge flocks, although fierce scuffles break out between various flocks.",
 	},
 
 	variants: [

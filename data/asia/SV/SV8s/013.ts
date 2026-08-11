@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Rellor",
-		th: "ชิกาโรโค"
+		'id-id': "Rellor",
+		'th-th': "ชิกาโรโค"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -15,28 +15,28 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Rellor mematangkan energi evolusi sambil menggelindingkan bola lumpur. Pada akhirnya, waktu evolusi Pokémon ini akan tiba.",
-		th: "บ่มพลังงานที่ใช้ในการวิวัฒนาการให้สุกไปในขณะที่กลิ้งก้อนโคลน เพื่อ รอช่วงเวลาที่จะได้วิวัฒนาการ"
+		'id-id': "Rellor mematangkan energi evolusi sambil menggelindingkan bola lumpur. Pada akhirnya, waktu evolusi Pokémon ini akan tiba.",
+		'th-th': "บ่มพลังงานที่ใช้ในการวิวัฒนาการให้สุกไปในขณะที่กลิ้งก้อนโคลน เพื่อ รอช่วงเวลาที่จะได้วิวัฒนาการ"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Mengumpulkan",
-			th: "รวบรวม"
+			'id-id': "Mengumpulkan",
+			'th-th': "รวบรวม"
 		},
 
 		effect: {
-			id: "Ambil 1 kartu dari atas Deck sendiri.",
-			th: "จั่วการ์ด 1 ใบจากสำรับการ์ดฝ่ายเรา"
+			'id-id': "Ambil 1 kartu dari atas Deck sendiri.",
+			'th-th': "จั่วการ์ด 1 ใบจากสำรับการ์ดฝ่ายเรา"
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Menggelinding",
-			th: "กลิ้ง"
+			'id-id': "Menggelinding",
+			'th-th': "กลิ้ง"
 		},
 
 		damage: 10,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シャンデラV",
+		'ja-jp': "シャンデラV",
 		'zh-tw': "水晶燈火靈V",
 	},
 
@@ -18,24 +18,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "あやしいひかり",
+				'ja-jp': "あやしいひかり",
 				'zh-tw': "奇異之光",
 			},
 			cost: ["Fire"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【混亂】。",
 			},
 		},
 		{
 			name: {
-				ja: "ポルターガイスト",
+				'ja-jp': "ポルターガイスト",
 				'zh-tw': "靈騷",
 			},
 			damage: "40×",
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "相手の手札を見て、その中にあるトレーナーズの枚数×40ダメージ。",
+				'ja-jp': "相手の手札を見て、その中にあるトレーナーズの枚数×40ダメージ。",
 				'zh-tw': "查看對手的手牌，造成其中訓練家卡的張數×40點傷害。",
 			},
 		},

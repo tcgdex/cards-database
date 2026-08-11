@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "slugma",
+		'ja-jp': "slugma",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "取り組む",
+				'ja-jp': "取り組む",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fire"],
 			name: {
-				ja: "焼ける溶岩",
+				'ja-jp': "焼ける溶岩",
 			},
 			effect: {
-				ja: "この攻撃を使用するために、Slugmaに取り付けられた消防エネルギーカードを廃棄します。防御ポケモンは現在燃やされています。",
+				'ja-jp': "この攻撃を使用するために、Slugmaに取り付けられた消防エネルギーカードを廃棄します。防御ポケモンは現在燃やされています。",
 			},
 		},
 	],

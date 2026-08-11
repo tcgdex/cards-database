@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Rhydon",
+		'en-us': "Rhydon",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rhyhorn",
+		'en-us': "Rhyhorn",
 	},
 
 	stage: "Stage1",
@@ -35,7 +35,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Attack",
+				'en-us': "Horn Attack",
 			},
 
 			damage: 30,
@@ -49,10 +49,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Ram",
+				'en-us': "Ram",
 			},
 			effect: {
-				en: "Rhydon does 20 damage to itself. If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon. Switch the Pokémon even if Rhydon is knocked out.)",
+				'en-us': "Rhydon does 20 damage to itself. If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon. Switch the Pokémon even if Rhydon is knocked out.)",
 			},
 			damage: 50,
 
@@ -76,7 +76,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Protected by an armor-like hide, it is capable of living in molten lava of 3600 degrees.",
+		'en-us': "Protected by an armor-like hide, it is capable of living in molten lava of 3600 degrees.",
 	},
 
 

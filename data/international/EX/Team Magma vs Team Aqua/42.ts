@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Meowth",
-		fr: "Miaouss",
-		de: "Mauzi"
+		'en-us': "Meowth",
+		'fr-fr': "Miaouss",
+		'de-de': "Mauzi"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Plunder",
-				fr: "Pillage",
-				de: "Plunder"
+				'en-us': "Plunder",
+				'fr-fr': "Pillage",
+				'de-de': "Plunder"
 			},
 			effect: {
-				en: "Before doing damage, discard all Trainer cards attached to the Defending Pokémon (before they affect the damage).",
-				fr: "Avant d'infliger des dégâts, défaussez toutes les cartes Dresseur attachées au Pokémon Défenseur (avant qu'elles n'affectent les dégâts).",
-				de: "Before doing damage, discard all Trainer cards attached to the Defending Pokémon (before they affect the damage)."
+				'en-us': "Before doing damage, discard all Trainer cards attached to the Defending Pokémon (before they affect the damage).",
+				'fr-fr': "Avant d'infliger des dégâts, défaussez toutes les cartes Dresseur attachées au Pokémon Défenseur (avant qu'elles n'affectent les dégâts).",
+				'de-de': "Before doing damage, discard all Trainer cards attached to the Defending Pokémon (before they affect the damage)."
 			},
 			damage: 10,
 
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Scratch"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Scratch"
 			},
 
 			damage: 20,

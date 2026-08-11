@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "フワンテ",
+		'ja-jp': "フワンテ",
 		'zh-tw': "飄飄球",
-		id: "Drifloon"
+		'id-id': "Drifloon"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "風船と 間違えて フワンテを 持っていた 小さな 子どもが 消えてしまうことが あるという。",
+		'ja-jp': "風船と 間違えて フワンテを 持っていた 小さな 子どもが 消えてしまうことが あるという。",
 		'zh-tw': "據說有些因為誤認成氣球，而把牠拿在手上的小孩， 會就此消失無蹤。",
-		id: "Dikabarkan ada kejadian menghilangnya anak kecil yang menyangka Drifloon sebagai balonnya dan membawanya pergi."
+		'id-id': "Dikabarkan ada kejadian menghilangnya anak kecil yang menyangka Drifloon sebagai balonnya dan membawanya pergi."
 	},
 
 	stage: "Basic",
@@ -28,9 +28,9 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "かぜおこし",
+			'ja-jp': "かぜおこし",
 			'zh-tw': "起風",
-			id: "Hembusan Angin"
+			'id-id': "Hembusan Angin"
 		},
 
 		damage: 10
@@ -38,17 +38,17 @@ const card: Card = {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			ja: "バルーンボム",
+			'ja-jp': "バルーンボム",
 			'zh-tw': "氣球爆破",
-			id: "Balloon Bomb"
+			'id-id': "Balloon Bomb"
 		},
 
 		damage: "30×",
 
 		effect: {
-			ja: "このポケモンにのっているダメカンの数×30ダメージ。",
+			'ja-jp': "このポケモンにのっているダメカンの数×30ダメージ。",
 			'zh-tw': "造成這隻寶可夢身上放置的傷害指示物的數量×30點傷害。",
-			id: "Serangan ini memberikan kerusakan sejumlah 30 untuk tiap Token Kerusakan yang dimiliki Pokémon ini."
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 30 untuk tiap Token Kerusakan yang dimiliki Pokémon ini."
 		}
 	}],
 

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Kabutops",
-		de: "Kabutops"
+		'en-us': "Kabutops",
+		'de-de': "Kabutops"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kabuto",
+		'en-us': "Kabuto",
 	},
 
 	stage: "Stage2",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Primal Aura",
-				de: "Ursprüngliche Aura"
+				'en-us': "Primal Aura",
+				'de-de': "Ursprüngliche Aura"
 			},
 			effect: {
-				en: "As long as Kabutops is your Active Pokémon, neither player can play Basic Pokémon or Evolution cards from his or her hand to evolve Benched Pokémon.",
-				de: "Solange Kabutops dein aktives Pokémon ist, kann keiner der Spieler Basis- Pokémon oder Entwicklungskarten aus seiner Hand spielen, um Pokémon auf seiner Bank zu entwickeln."
+				'en-us': "As long as Kabutops is your Active Pokémon, neither player can play Basic Pokémon or Evolution cards from his or her hand to evolve Benched Pokémon.",
+				'de-de': "Solange Kabutops dein aktives Pokémon ist, kann keiner der Spieler Basis- Pokémon oder Entwicklungskarten aus seiner Hand spielen, um Pokémon auf seiner Bank zu entwickeln."
 			},
 		},
 	],
@@ -48,12 +48,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Dual Cut",
-				de: "Doppel-Zerschneider"
+				'en-us': "Dual Cut",
+				'de-de': "Doppel-Zerschneider"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 50 damage times the number of heads.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "50×",
 

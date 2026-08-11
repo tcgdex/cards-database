@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Feebas",
-		fr: "Barpau",
-		es: "Feebas",
-		it: "Feebas",
-		pt: "Feebas",
-		de: "Barschwa"
+		'en-us': "Feebas",
+		'fr-fr': "Barpau",
+		'es-es': "Feebas",
+		'it-it': "Feebas",
+		'pt-br': "Feebas",
+		'de-de': "Barschwa"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Drawup Power",
-			fr: "Pouvoir Bloquant",
-			es: "Extraer Poder",
-			it: "Prelievo Energetico",
-			pt: "Poder de Içamento",
-			de: "Kraft aufziehen"
+			'en-us': "Drawup Power",
+			'fr-fr': "Pouvoir Bloquant",
+			'es-es': "Extraer Poder",
+			'it-it': "Prelievo Energetico",
+			'pt-br': "Poder de Içamento",
+			'de-de': "Kraft aufziehen"
 		},
 
 		effect: {
-			en: "Search your deck for an Energy card, reveal it, and put it into your hand. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck une carte Énergie, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja 1 carta de Energía, enséñala y ponla en tu mano. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo una carta Energia, mostrala e aggiungila alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por uma carta de Energia no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach 1 Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+			'en-us': "Search your deck for an Energy card, reveal it, and put it into your hand. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck une carte Énergie, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja 1 carta de Energía, enséñala y ponla en tu mano. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo una carta Energia, mostrala e aggiungila alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por uma carta de Energia no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach 1 Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 		}
 	}],
 
@@ -52,7 +52,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water.",
+		'en-us': "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water.",
 	},
 
 	variants: [

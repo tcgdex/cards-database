@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Drifblim",
-		fr: "Grodrive",
-		de: "Drifzepeli"
+		'en-us': "Drifblim",
+		'fr-fr': "Grodrive",
+		'de-de': "Drifzepeli"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Drifloon",
-		fr: "Baudrive"
+		'en-us': "Drifloon",
+		'fr-fr': "Baudrive"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'de-de': "Ramme"
 			},
 
 			damage: 20,
@@ -50,9 +50,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gust",
-				fr: "Tornade",
-				de: "Windstoß"
+				'en-us': "Gust",
+				'fr-fr': "Tornade",
+				'de-de': "Windstoß"
 			},
 
 			damage: 40,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "At dusk, swarms of them are carried aloft on winds. When noticed, they suddenly vanish."
+		'en-us': "At dusk, swarms of them are carried aloft on winds. When noticed, they suddenly vanish."
 	},
 
 	variants: [

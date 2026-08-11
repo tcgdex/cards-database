@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Nuzleaf",
-		fr: "Pifeuil",
-		de: "Blanas"
+		'en-us': "Nuzleaf",
+		'fr-fr': "Pifeuil",
+		'de-de': "Blanas"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Seedot",
-		fr: "Grainipiot"
+		'en-us': "Seedot",
+		'fr-fr': "Grainipiot"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Self Charge",
-				fr: "Auto-chargement",
-				de: "Selbstaufladung"
+				'en-us': "Self Charge",
+				'fr-fr': "Auto-chargement",
+				'de-de': "Selbstaufladung"
 			},
 			effect: {
-				en: "Attach a Darkness Energy card from your hand to Nuzleaf.",
-				fr: "Attachez une carte Énergie  de votre main à Pifeuil.",
-				de: "Lege eine -Energiekarte von deiner Hand an Blanas an."
+				'en-us': "Attach a Darkness Energy card from your hand to Nuzleaf.",
+				'fr-fr': "Attachez une carte Énergie  de votre main à Pifeuil.",
+				'de-de': "Lege eine -Energiekarte von deiner Hand an Blanas an."
 			},
 
 		},
@@ -54,9 +54,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Corkscrew Punch",
-				fr: "Poing en tire-bouchon",
-				de: "Korkenzieherhieb"
+				'en-us': "Corkscrew Punch",
+				'fr-fr': "Poing en tire-bouchon",
+				'de-de': "Korkenzieherhieb"
 			},
 
 			damage: 40,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Misdreavus",
-		fr: "Feuforêve",
-		de: "Traunfugil"
+		'en-us': "Misdreavus",
+		'fr-fr': "Feuforêve",
+		'de-de': "Traunfugil"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Take Back",
-				fr: "Reprendre",
-				de: "Take Back"
+				'en-us': "Take Back",
+				'fr-fr': "Reprendre",
+				'de-de': "Take Back"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your discard pile for a Trainer card, show it to your opponent, and put it into your hand.",
-				fr: "Lancez une pièce. Si c'est face, choisissez dans votre pile de défausse une carte Dresseur, montrez-la à votre adversaire et placez-la dans votre main.",
-				de: "Flip a coin. If heads, search your discard pile for a Trainer card, show it to your opponent, and put it into your hand."
+				'en-us': "Flip a coin. If heads, search your discard pile for a Trainer card, show it to your opponent, and put it into your hand.",
+				'fr-fr': "Lancez une pièce. Si c'est face, choisissez dans votre pile de défausse une carte Dresseur, montrez-la à votre adversaire et placez-la dans votre main.",
+				'de-de': "Flip a coin. If heads, search your discard pile for a Trainer card, show it to your opponent, and put it into your hand."
 			},
 
 		},
@@ -43,9 +43,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon that startles people in the middle of the night. It gathers fear as its energy."
+		'en-us': "A Pokémon that startles people in the middle of the night. It gathers fear as its energy."
 	},
 
 	variants: [

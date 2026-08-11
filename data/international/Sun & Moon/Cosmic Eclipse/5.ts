@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Tangela",
-		fr: "Saquedeneu",
-		es: "Tangela",
-		it: "Tangela",
-		pt: "Tangela",
-		de: "Tangela"
+		'en-us': "Tangela",
+		'fr-fr': "Saquedeneu",
+		'es-es': "Tangela",
+		'it-it': "Tangela",
+		'pt-br': "Tangela",
+		'de-de': "Tangela"
 	},
 
 	illustrator: "otumami",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Toxic",
-				fr: "Toxik",
-				es: "Tóxico",
-				it: "Tossina",
-				pt: "Tóxico",
-				de: "Toxin"
+				'en-us': "Toxic",
+				'fr-fr': "Toxik",
+				'es-es': "Tóxico",
+				'it-it': "Tossina",
+				'pt-br': "Tóxico",
+				'de-de': "Toxin"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Placez 2 marqueurs de dégâts au lieu d’un sur ce Pokémon-là entre chaque tour.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado. Pon 2 contadores de daño en vez de 1 en ese Pokémon entre turnos.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato. Tra un turno e l’altro, metti due segnalini danno invece di uno su quel Pokémon.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado. Coloque 2 contadores de dano ao invés de 1 naquele Pokémon entre as vezes de jogar.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf jenes Pokémon."
+				'en-us': "Your opponent’s Active Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Placez 2 marqueurs de dégâts au lieu d’un sur ce Pokémon-là entre chaque tour.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado. Pon 2 contadores de daño en vez de 1 en ese Pokémon entre turnos.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato. Tra un turno e l’altro, metti due segnalini danno invece di uno su quel Pokémon.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado. Coloque 2 contadores de dano ao invés de 1 naquele Pokémon entre as vezes de jogar.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf jenes Pokémon."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Many writhing vines cover it, so its true identity remains unknown. The blue vines grow its whole life long.",
+		'en-us': "Many writhing vines cover it, so its true identity remains unknown. The blue vines grow its whole life long.",
 	},
 
 	thirdParty: {

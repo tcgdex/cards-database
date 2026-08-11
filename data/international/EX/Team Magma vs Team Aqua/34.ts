@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Houndoom",
-		fr: "Démolosse de Team Magma",
-		de: "Team Magmas Hundemon"
+		'en-us': "Team Magma's Houndoom",
+		'fr-fr': "Démolosse de Team Magma",
+		'de-de': "Team Magmas Hundemon"
 	},
 
 	illustrator: "Ken Ikuji",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Target Scorch",
-				fr: "Brûlure ciblée",
-				de: "Target Scorch"
+				'en-us': "Target Scorch",
+				'fr-fr': "Brûlure ciblée",
+				'de-de': "Target Scorch"
 			},
 			effect: {
-				en: "If the Defending Pokémon has Team Aqua in its name, the Defending Pokémon is now Burned.",
-				fr: "Si le nom du Pokémon Défenseur comporte Team Aqua, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "If the Defending Pokémon has Team Aqua in its name, the Defending Pokémon is now Burned."
+				'en-us': "If the Defending Pokémon has Team Aqua in its name, the Defending Pokémon is now Burned.",
+				'fr-fr': "Si le nom du Pokémon Défenseur comporte Team Aqua, le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "If the Defending Pokémon has Team Aqua in its name, the Defending Pokémon is now Burned."
 			},
 			damage: 30,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Damage Burn",
-				fr: "Dégâts brûlants",
-				de: "Damage Burn"
+				'en-us': "Damage Burn",
+				'fr-fr': "Dégâts brûlants",
+				'de-de': "Damage Burn"
 			},
 			effect: {
-				en: "If the Defending Pokémon already has any damage counters on it, this attack does 40 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
-				de: "If the Defending Pokémon already has any damage counters on it, this attack does 40 damage plus 20 more damage."
+				'en-us': "If the Defending Pokémon already has any damage counters on it, this attack does 40 damage plus 20 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon already has any damage counters on it, this attack does 40 damage plus 20 more damage."
 			},
 			damage: "40+",
 

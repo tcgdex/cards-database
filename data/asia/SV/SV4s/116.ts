@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Iron Jugulis"
+		'id-id': "Iron Jugulis"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Kemungkinan Pokémon ini adalah objek bernama Iron Jugulis yang tertera dalam buku kuno."
+		'id-id': "Kemungkinan Pokémon ini adalah objek bernama Iron Jugulis yang tertera dalam buku kuno."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Homing Head"
+			'id-id': "Homing Head"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan masing-masing sejumlah 50 kepada 3 Pokémon lawan yang memiliki Token Kerusakan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
+			'id-id': "Serangan ini memberikan kerusakan masing-masing sejumlah 50 kepada 3 Pokémon lawan yang memiliki Token Kerusakan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
 		},
 
 		cost: ["Colorless", "Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Baryon Beam"
+			'id-id': "Baryon Beam"
 		},
 
 		effect: {
-			id: "Jika Pokémon ini mengenakan Pemacu Energi Futur, serangan ini dapat digunakan dengan 3 Energi {Bening}."
+			'id-id': "Jika Pokémon ini mengenakan Pemacu Energi Futur, serangan ini dapat digunakan dengan 3 Energi {Bening}."
 		},
 
 		damage: 150,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Grondogue",
-		en: "Maschiff",
-		es: "Maschiff",
-		it: "Maschiff",
-		pt: "Maschiff",
-		de: "Mobtiff"
+		'fr-fr': "Grondogue",
+		'en-us': "Maschiff",
+		'es-es': "Maschiff",
+		'it-it': "Maschiff",
+		'pt-br': "Maschiff",
+		'de-de': "Mobtiff"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			fr: "Embuscade",
-			en: "Ambush",
-			es: "Emboscada",
-			it: "Imboscata",
-			pt: "Emboscada",
-			de: "Hinterhalt"
+			'fr-fr': "Embuscade",
+			'en-us': "Ambush",
+			'es-es': "Emboscada",
+			'it-it': "Imboscata",
+			'pt-br': "Emboscada",
+			'de-de': "Hinterhalt"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-			en: "Flip a coin. If heads, this attack does 20 more damage.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+			'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -75,7 +75,7 @@ const card: Card = {
 	illustrator: "DOM",
 
 	description: {
-		en: "It always scowls in an attempt to make opponents take it seriously, but even crying children will burst into laughter when they see Maschiff's face.",
+		'en-us': "It always scowls in an attempt to make opponents take it seriously, but even crying children will burst into laughter when they see Maschiff's face.",
 	},
 }
 

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Darkrai",
-		fr: "Darkrai",
+		'en-us': "Darkrai",
+		'fr-fr': "Darkrai",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Common",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hide in Shadows",
-				fr: "Cachette d'Ombre",
+				'en-us': "Hide in Shadows",
+				'fr-fr': "Cachette d'Ombre",
 			},
 			effect: {
-				en: "You may switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Vous pouvez échanger ce Pokémon avec 1 de vos Pokémon de Banc.",
+				'en-us': "You may switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Vous pouvez échanger ce Pokémon avec 1 de vos Pokémon de Banc.",
 			},
 			damage: 30,
 
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Hole",
-				fr: "Trou Obscur",
+				'en-us': "Dark Hole",
+				'fr-fr': "Trou Obscur",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
 			},
 			damage: 90,
 
@@ -76,7 +76,7 @@ const card: Card = {
 
 
 	description: {
-		en: "To protect itself, it afflicts those around it with nightmares. However, it means no harm.",
+		'en-us': "To protect itself, it afflicts those around it with nightmares. However, it means no harm.",
 	},
 }
 

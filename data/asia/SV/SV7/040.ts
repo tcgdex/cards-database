@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "飄飄球",
 		'zh-cn': "飄飄球",
-		ja: "フワンテ"
+		'ja-jp': "フワンテ"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "漫無目的浮在空中的樣子， 使牠在某些民間故事裡 被相傳為迷途靈魂的路標。",
 		'zh-cn': "漫無目的浮在空中的樣子， 使牠在某些民間故事裡 被相傳為迷途靈魂的路標。",
-		ja: "あてもなく 浮かぶ 様子から 迷える 魂の道しるべ と 伝える 昔話も ある。"
+		'ja-jp': "あてもなく 浮かぶ 様子から 迷える 魂の道しるべ と 伝える 昔話も ある。"
 	},
 
 	stage: "Basic",
@@ -27,13 +27,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "膨脹",
 			'zh-cn': "膨脹",
-			ja: "ふくらむ"
+			'ja-jp': "ふくらむ"
 		},
 
 		effect: {
 			'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-10」點。",
 			'zh-cn': "在下個對手的回合，這隻寶可夢受到招式的傷害「-10」點。",
-			ja: "次の相手の番、このポケモンが受けるワザのダメージは「-10」される。"
+			'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-10」される。"
 		},
 
 		damage: 10,

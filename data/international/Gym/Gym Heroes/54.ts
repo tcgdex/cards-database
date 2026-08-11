@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Psyduck"
+		'en-us': "Misty's Psyduck"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch"
+				'en-us': "Scratch"
 			},
 
 			damage: 10,
@@ -38,10 +38,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Call for Friend"
+				'en-us': "Call for Friend"
 			},
 			effect: {
-				en: "Flip a coin. If heads, you may search your deck for a Basic Pokémon with Misty in its name and put it onto your Bench. (You can't use this attack if your Bench is full.) Shuffle your deck afterward."
+				'en-us': "Flip a coin. If heads, you may search your deck for a Basic Pokémon with Misty in its name and put it onto your Bench. (You can't use this attack if your Bench is full.) Shuffle your deck afterward."
 			},
 
 		},

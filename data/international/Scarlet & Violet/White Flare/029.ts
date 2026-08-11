@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vanilluxe",
-		fr: "Sorbouboul",
-		de: "Gelatwino",
-		it: "Vanilluxe",
-		pt: "Vanilluxe",
-		es: "Vanilluxe",
+		'en-us': "Vanilluxe",
+		'fr-fr': "Sorbouboul",
+		'de-de': "Gelatwino",
+		'it-it': "Vanilluxe",
+		'pt-br': "Vanilluxe",
+		'es-es': "Vanilluxe",
 		'es-mx': "Vanilluxe"
 	},
 
@@ -21,12 +21,12 @@ const card: Card = {
 	hp: 150,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Vanillish",
-		fr: "Sorboul",
-		de: "Gelatroppo",
-		it: "Vanillish",
-		pt: "Vanillish",
-		es: "Vanillish",
+		'en-us': "Vanillish",
+		'fr-fr': "Sorboul",
+		'de-de': "Gelatroppo",
+		'it-it': "Vanillish",
+		'pt-br': "Vanillish",
+		'es-es': "Vanillish",
 		'es-mx': "Vanillish"
 	},
 	stage: "Stage2",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			de: "Ramme",
-			it: "Carica",
-			pt: "Aríete",
-			es: "Apisonar",
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'de-de': "Ramme",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'es-es': "Apisonar",
 			'es-mx': "Colisión"
 		},
 
@@ -49,22 +49,22 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Double Freeze",
-			fr: "Double Gelure",
-			de: "Doppelfroster",
-			it: "Doppiogelo",
-			pt: "Congelamento Duplo",
-			es: "Doble Congelación",
+			'en-us': "Double Freeze",
+			'fr-fr': "Double Gelure",
+			'de-de': "Doppelfroster",
+			'it-it': "Doppiogelo",
+			'pt-br': "Congelamento Duplo",
+			'es-es': "Doble Congelación",
 			'es-mx': "Doble Congelación"
 		},
 
 		effect: {
-			en: "Flip 2 coins. This attack does 90 damage for each heads. If either of them is heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 90 dégâts pour chaque côté face. Si vous obtenez au moins un côté face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 90 Schadenspunkte pro Kopf zu. Zeigt mindestens 1 Kopf, ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 90 danni ogni volta che esce testa. Se esce almeno una volta testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue 2 moedas. Este ataque causa 90 pontos de dano para cada cara. Se qualquer uma delas sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
-			es: "Lanza 2 monedas. Este ataque hace 90 puntos de daño por cada cara. Si sale cara en alguna de ellas, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'en-us': "Flip 2 coins. This attack does 90 damage for each heads. If either of them is heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 90 dégâts pour chaque côté face. Si vous obtenez au moins un côté face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 90 Schadenspunkte pro Kopf zu. Zeigt mindestens 1 Kopf, ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 90 danni ogni volta che esce testa. Se esce almeno una volta testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 90 pontos de dano para cada cara. Se qualquer uma delas sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 90 puntos de daño por cada cara. Si sale cara en alguna de ellas, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 			'es-mx': "Lanza 2 monedas. Este ataque hace 90 puntos de daño por cada cara. Si sale alguna cara, el Pokémon Activo de tu rival ahora está Paralizado."
 		},
 

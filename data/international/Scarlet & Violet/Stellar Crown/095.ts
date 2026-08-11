@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Morgrem",
-		fr: "Fourbelin",
-		es: "Morgrem",
-		it: "Morgrem",
-		pt: "Morgrem",
-		de: "Pelzebub"
+		'en-us': "Morgrem",
+		'fr-fr': "Fourbelin",
+		'es-es': "Morgrem",
+		'it-it': "Morgrem",
+		'pt-br': "Morgrem",
+		'de-de': "Pelzebub"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Impidimp",
-		fr: "Grimalin",
-		es: "Impidimp",
-		it: "Impidimp",
-		pt: "Impidimp",
-		de: "Bähmon"
+		'en-us': "Impidimp",
+		'fr-fr': "Grimalin",
+		'es-es': "Impidimp",
+		'it-it': "Impidimp",
+		'pt-br': "Impidimp",
+		'de-de': "Bähmon"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Gentle Slap",
-			fr: "Gifle Douce",
-			es: "Bofetada Gentil",
-			it: "Schiaffetto",
-			pt: "Tapinha",
-			de: "Sanfter Hieb"
+			'en-us': "Gentle Slap",
+			'fr-fr': "Gifle Douce",
+			'es-es': "Bofetada Gentil",
+			'it-it': "Schiaffetto",
+			'pt-br': "Tapinha",
+			'de-de': "Sanfter Hieb"
 		},
 
 		damage: 40
@@ -45,12 +45,12 @@ const card: Card = {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			en: "Darkness Fang",
-			fr: "Croc Obscur",
-			es: "Colmillo de Oscuridad",
-			it: "Oscurizanna",
-			pt: "Presa Sombria",
-			de: "Fänge der Dunkelheit"
+			'en-us': "Darkness Fang",
+			'fr-fr': "Croc Obscur",
+			'es-es': "Colmillo de Oscuridad",
+			'it-it': "Oscurizanna",
+			'pt-br': "Presa Sombria",
+			'de-de': "Fänge der Dunkelheit"
 		},
 
 		damage: 70

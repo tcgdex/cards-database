@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Spiritomb",
-		fr: "Spiritomb",
-		de: "Kryppuk"
+		'en-us': "Spiritomb",
+		'fr-fr': "Spiritomb",
+		'de-de': "Kryppuk"
 	},
 
 	illustrator: "Shizurow",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Spooky Whirlpool",
-				fr: "Tourbillon d’esprits",
-				de: "Schauriger Whirlpool"
+				'en-us': "Spooky Whirlpool",
+				'fr-fr': "Tourbillon d’esprits",
+				'de-de': "Schauriger Whirlpool"
 			},
 			effect: {
-				en: "Once during your turn, when you put Spiritomb from your hand onto your Bench, you may use this power. Your opponent shuffles his or her hand into his or her deck and draws 6 cards.",
-				fr: "Une seule fois pendant votre tour, lorsque vous placez Spiritomb de votre main sur votre Banc, vous pouvez utiliser ce Poké-Power. Votre adversaire mélange sa main avec son deck, puis pioche 6 cartes.",
-				de: "Einmal während deines Zuges kannst du, wenn du Kryppuk von deiner Hand auf deine Bank legst, diese Poké-Power benutzen. Dein Gegner mischt seine Handkarten in sein Deck und zieht 6 Karten."
+				'en-us': "Once during your turn, when you put Spiritomb from your hand onto your Bench, you may use this power. Your opponent shuffles his or her hand into his or her deck and draws 6 cards.",
+				'fr-fr': "Une seule fois pendant votre tour, lorsque vous placez Spiritomb de votre main sur votre Banc, vous pouvez utiliser ce Poké-Power. Votre adversaire mélange sa main avec son deck, puis pioche 6 cartes.",
+				'de-de': "Einmal während deines Zuges kannst du, wenn du Kryppuk von deiner Hand auf deine Bank legst, diese Poké-Power benutzen. Dein Gegner mischt seine Handkarten in sein Deck und zieht 6 Karten."
 			}
 		},
 	],
@@ -45,14 +45,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Color Tag",
-				fr: "Panel de couleurs",
-				de: "Farbmarkierung"
+				'en-us': "Color Tag",
+				'fr-fr': "Panel de couleurs",
+				'de-de': "Farbmarkierung"
 			},
 			effect: {
-				en: "Choose Grass Fire Water Lightning Psychic Fighting Darkness Metal or Colorless type. Put 1 damage counter on each Pokémon your opponent has in play of the type you chose.",
-				fr: "Choisissez le type GrassFireWaterLightningPsychicFightingDarknessMetal ou Colorless. Placez un marqueur de dégât sur chacun des Pokémon que votre adversaire a en jeu et qui correspond au type choisi.",
-				de: "Wähle einen Typ: ,  oder . Lege auf jedes Pokémon des gewählten Typs, das dein Gegner im Spiel hat, 1 Schadensmarke."
+				'en-us': "Choose Grass Fire Water Lightning Psychic Fighting Darkness Metal or Colorless type. Put 1 damage counter on each Pokémon your opponent has in play of the type you chose.",
+				'fr-fr': "Choisissez le type GrassFireWaterLightningPsychicFightingDarknessMetal ou Colorless. Placez un marqueur de dégât sur chacun des Pokémon que votre adversaire a en jeu et qui correspond au type choisi.",
+				'de-de': "Wähle einen Typ: ,  oder . Lege auf jedes Pokémon des gewählten Typs, das dein Gegner im Spiel hat, 1 Schadensmarke."
 			},
 
 		},
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It was formed by uniting 108 spirits. It has been bound to the Odd Keystone to keep it from doing any mischief."
+		'en-us': "It was formed by uniting 108 spirits. It has been bound to the Odd Keystone to keep it from doing any mischief."
 	},
 
 	variants: [		{

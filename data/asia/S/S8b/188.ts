@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブースター",
+		'ja-jp': "ブースター",
 	},
 
 	illustrator: "You Iribi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "体内に 炎が 溜まると ブースターの 体温も 最高 ９００度 まで 上がっていく。",
+		'ja-jp': "体内に 炎が 溜まると ブースターの 体温も 最高 ９００度 まで 上がっていく。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "しゃくねつのめざめ" },
 			effect: {
-				ja: "このポケモンに「メモリーカプセル」がついているなら、おたがいの場の[草]ポケモンの特性は、すべてなくなる。",
+				'ja-jp': "このポケモンに「メモリーカプセル」がついているなら、おたがいの場の[草]ポケモンの特性は、すべてなくなる。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 2,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Donphan",
-		fr: "Donphan",
-		de: "Donphan"
+		'en-us': "Donphan",
+		'fr-fr': "Donphan",
+		'de-de': "Donphan"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Phanpy",
-		fr: "Phanpy"
+		'en-us': "Phanpy",
+		'fr-fr': "Phanpy"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Earthquake",
-				fr: "Séisme",
-				de: "Earthquake"
+				'en-us': "Earthquake",
+				'fr-fr': "Séisme",
+				'de-de': "Earthquake"
 			},
 			effect: {
-				en: "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon de votre propre Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
-				de: "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun des Pokémon de votre propre Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
+				'de-de': "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 30,
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Stab",
-				fr: "Coup double",
-				de: "Double Stab"
+				'en-us': "Double Stab",
+				'fr-fr': "Coup double",
+				'de-de': "Double Stab"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque fait 40 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 40 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 40 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque fait 40 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 40 damage times the number of heads."
 			},
 			damage: "40×",
 

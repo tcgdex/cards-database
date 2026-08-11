@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マッギョ",
+		'ja-jp': "マッギョ",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "海辺の 泥に 埋まって 獲物を 待ち構える。 獲物が 触ったとき 電気を 出して しびれさせるのだ。",
+		'ja-jp': "海辺の 泥に 埋まって 獲物を 待ち構える。 獲物が 触ったとき 電気を 出して しびれさせるのだ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10×",
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数x10ダメージ。",
+				'ja-jp': "このポケモンにのっているダメカンの数x10ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Lightning"],
 			effect: {
-				ja: "このポケモンについている[雷]エネルギーを、1個トラッシュする。",
+				'ja-jp': "このポケモンについている[雷]エネルギーを、1個トラッシュする。",
 			},
 		},
 	],

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Genetic Apex"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Seel",
-		fr: "Otaria",
-		es: "Seel",
-		it: "Seel",
-		de: "Jurob",
+		'en-us': "Seel",
+		'fr-fr': "Otaria",
+		'es-es': "Seel",
+		'it-it': "Seel",
+		'de-de': "Jurob",
 		'pt-br': "Seel",
-		ko: "쥬쥬"
+		'ko-kr': "쥬쥬"
 	},
 
 	illustrator: "Masako Yamashita",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			es: "Golpe Cabeza",
-			it: "Bottintesta",
-			de: "Kopfnuss",
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'es-es': "Golpe Cabeza",
+			'it-it': "Bottintesta",
+			'de-de': "Kopfnuss",
 			'pt-br': "Cabeçada",
-			ko: "박치기"
+			'ko-kr': "박치기"
 		},
 
 		damage: "30"
@@ -47,13 +47,13 @@ const card: Card = {
 	rarity: "One Diamond",
 
 	description: {
-		en: "Thanks to its thick fat, cold seas don't bother it at all, but it gets tired pretty easily in warm waters.",
-		fr: "Sa couche de gras lui permet d'être à l'aise\ndans les eaux les plus froides. Il a par contre\nplus de mal à supporter les mers chaudes.",
-		es: "La gruesa capa de grasa que le permite\nnadar sin problemas en aguas frías le da\nmás de un sofoco en climas más cálidos.",
-		it: "Grazie al suo spesso strato di grasso nuota\ntranquillamente nell'acqua gelida. Nei mari\ncaldi rischia facilmente lo sfinimento.",
-		de: "Kalte Meere machen ihm dank seiner dicken\nFettschicht nichts aus. Wärmere Gewässer\nsetzen ihm hingegen sehr zu.",
+		'en-us': "Thanks to its thick fat, cold seas don't bother it at all, but it gets tired pretty easily in warm waters.",
+		'fr-fr': "Sa couche de gras lui permet d'être à l'aise\ndans les eaux les plus froides. Il a par contre\nplus de mal à supporter les mers chaudes.",
+		'es-es': "La gruesa capa de grasa que le permite\nnadar sin problemas en aguas frías le da\nmás de un sofoco en climas más cálidos.",
+		'it-it': "Grazie al suo spesso strato di grasso nuota\ntranquillamente nell'acqua gelida. Nei mari\ncaldi rischia facilmente lo sfinimento.",
+		'de-de': "Kalte Meere machen ihm dank seiner dicken\nFettschicht nichts aus. Wärmere Gewässer\nsetzen ihm hingegen sehr zu.",
 		'pt-br': "Graças a sua gordura, os mares gelados não\nincomodam este Pokémon, mas ele fica cansado\nfacilmente em águas mornas.",
-		ko: "두꺼운 지방 덕분에\n추운 바다는 문제없지만\n따뜻한 바다에서 쉽게 지친다."
+		'ko-kr': "두꺼운 지방 덕분에\n추운 바다는 문제없지만\n따뜻한 바다에서 쉽게 지친다."
 	},
 
 	boosters: ["pikachu"]

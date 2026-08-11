@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Braixen",
-		fr: "Roussil",
-		es: "Braixen",
-		it: "Braixen",
-		pt: "Braixen",
-		de: "Rutena"
+		'en-us': "Braixen",
+		'fr-fr': "Roussil",
+		'es-es': "Braixen",
+		'it-it': "Braixen",
+		'pt-br': "Braixen",
+		'de-de': "Rutena"
 	},
 
 	illustrator: "Ligton",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Fennekin",
-		fr: "Feunnec",
-		es: "Fennekin",
-		it: "Fennekin",
-		pt: "Fennekin",
-		de: "Fynx"
+		'en-us': "Fennekin",
+		'fr-fr': "Feunnec",
+		'es-es': "Fennekin",
+		'it-it': "Fennekin",
+		'pt-br': "Fennekin",
+		'de-de': "Fynx"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Combustion",
-			fr: "Fournaise",
-			es: "Combustión",
-			it: "Fuoco Continuo",
-			pt: "Combustão",
-			de: "Glühen"
+			'en-us': "Combustion",
+			'fr-fr': "Fournaise",
+			'es-es': "Combustión",
+			'it-it': "Fuoco Continuo",
+			'pt-br': "Combustão",
+			'de-de': "Glühen"
 		},
 
 		damage: 30
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Flare Parade",
-			fr: "Parade Flamboyante",
-			es: "Desfile de Antorchas",
-			it: "Corteo Fiammeggiante",
-			pt: "Desfile de Labaredas",
-			de: "Flammenparade"
+			'en-us': "Flare Parade",
+			'fr-fr': "Parade Flamboyante",
+			'es-es': "Desfile de Antorchas",
+			'it-it': "Corteo Fiammeggiante",
+			'pt-br': "Desfile de Labaredas",
+			'de-de': "Flammenparade"
 		},
 
 		effect: {
-			en: "This attack does 60 damage for each Serena card in your discard pile.",
-			fr: "Cette attaque inflige 60 dégâts pour chaque carte Serena dans votre pile de défausse.",
-			es: "Este ataque hace 60 puntos de daño por cada carta de Serena en tu pila de descartes.",
-			it: "Questo attacco infligge 60 danni per ogni carta Serena nella tua pila degli scarti.",
-			pt: "Este ataque causa 60 pontos de dano para cada carta Serena na sua pilha de descarte.",
-			de: "Diese Attacke fügt für jede Serena-Karte in deinem Ablagestapel 60 Schadenspunkte zu."
+			'en-us': "This attack does 60 damage for each Serena card in your discard pile.",
+			'fr-fr': "Cette attaque inflige 60 dégâts pour chaque carte Serena dans votre pile de défausse.",
+			'es-es': "Este ataque hace 60 puntos de daño por cada carta de Serena en tu pila de descartes.",
+			'it-it': "Questo attacco infligge 60 danni per ogni carta Serena nella tua pila degli scarti.",
+			'pt-br': "Este ataque causa 60 pontos de dano para cada carta Serena na sua pilha de descarte.",
+			'de-de': "Diese Attacke fügt für jede Serena-Karte in deinem Ablagestapel 60 Schadenspunkte zu."
 		},
 
 		damage: "60×"
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When the twig is plucked from its tail, friction sets the twig alight. The flame is used to send signals to its allies.",
+		'en-us': "When the twig is plucked from its tail, friction sets the twig alight. The flame is used to send signals to its allies.",
 	},
 
 	variants: [

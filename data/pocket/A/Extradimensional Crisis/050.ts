@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Aggron",
-		fr: "Galeking"
+		'en-us': "Aggron",
+		'fr-fr': "Galeking"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -18,28 +18,28 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Lairon"
+		'en-us': "Lairon"
 	},
 
 	description: {
-		en: "Aggron has a horn sharp enough to perforate\nthick iron sheets. It brings down its opponents by\nramming into them horn first.",
-		fr: "Il terrasse ses ennemis en chargeant et en donnant des coups avec ses cornes acérées capables de transpercer des plaques de fer épaisses."
+		'en-us': "Aggron has a horn sharp enough to perforate\nthick iron sheets. It brings down its opponents by\nramming into them horn first.",
+		'fr-fr': "Il terrasse ses ennemis en chargeant et en donnant des coups avec ses cornes acérées capables de transpercer des plaques de fer épaisses."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Giga Impact",
-			fr: "Giga Impact"
+			'en-us': "Giga Impact",
+			'fr-fr': "Giga Impact"
 		},
 
 		damage: 150,
 		cost: ["Metal", "Metal", "Colorless", "Colorless"],
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
 		}
 	}],
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Minotaupe",
-		en: "Excadrill",
-		es: "Excadrill",
-		it: "Excadrill",
-		pt: "Excadrill",
-		de: "Stalobor"
+		'fr-fr': "Minotaupe",
+		'en-us': "Excadrill",
+		'es-es': "Excadrill",
+		'it-it': "Excadrill",
+		'pt-br': "Excadrill",
+		'de-de': "Stalobor"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Metal"],
 	evolveFrom: {
-		fr: "Rototaupe",
-		en: "Drilbur",
-		es: "Drilbur",
-		it: "Drilbur",
-		pt: "Drilbur",
-		de: "Rotomurf"
+		'fr-fr': "Rototaupe",
+		'en-us': "Drilbur",
+		'es-es': "Drilbur",
+		'it-it': "Drilbur",
+		'pt-br': "Drilbur",
+		'de-de': "Rotomurf"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			fr: "Transpercement",
-			en: "Pierce",
-			es: "Perforar",
-			it: "Perforare",
-			pt: "Perfurar",
-			de: "Durchbohren"
+			'fr-fr': "Transpercement",
+			'en-us': "Pierce",
+			'es-es': "Perforar",
+			'it-it': "Perforare",
+			'pt-br': "Perfurar",
+			'de-de': "Durchbohren"
 		},
 
 		damage: 60
@@ -59,7 +59,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Known as the Drill King, this Pokémon can tunnel through the terrain at speeds of over 90 mph.",
+		'en-us': "Known as the Drill King, this Pokémon can tunnel through the terrain at speeds of over 90 mph.",
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "メグロコ"
+		'ja-jp': "メグロコ"
 	},
 
 	illustrator: "Nurikabe",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "砂の中に 潜り 泳ぐように 移動。 敵に みつからないためと 体温を 下げない 知恵 なのだ。"
+		'ja-jp': "砂の中に 潜り 泳ぐように 移動。 敵に みつからないためと 体温を 下げない 知恵 なのだ。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "かじる"
+			'ja-jp': "かじる"
 		},
 
 		damage: 10
@@ -32,7 +32,7 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			ja: "ぶつかる"
+			'ja-jp': "ぶつかる"
 		},
 
 		damage: 30

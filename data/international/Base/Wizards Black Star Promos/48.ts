@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Articuno",
+		'en-us': "Articuno",
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -24,10 +24,10 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Aurora Veil",
+				'en-us': "Aurora Veil",
 			},
 			effect: {
-				en: "As long as Articuno is your Active Pokémon, you Benched Pokémon are not affected by attacks. This power cannot be used if Articuno is affected by a Special Condition.",
+				'en-us': "As long as Articuno is your Active Pokémon, you Benched Pokémon are not affected by attacks. This power cannot be used if Articuno is affected by a Special Condition.",
 			},
 		},
 	],
@@ -40,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Beam",
+				'en-us': "Ice Beam",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 30,
 
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
+		'en-us': "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
 	},
 
 	variants: [

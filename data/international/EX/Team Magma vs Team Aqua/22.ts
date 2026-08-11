@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Rhydon",
-		fr: "Rhinoféros de Team Magma",
-		de: "Team Magmas Rizeros"
+		'en-us': "Team Magma's Rhydon",
+		'fr-fr': "Rhinoféros de Team Magma",
+		'de-de': "Team Magmas Rizeros"
 	},
 
 	illustrator: "T. Honda",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Second Strike",
-				fr: "Deuxième coup",
-				de: "Second Strike"
+				'en-us': "Second Strike",
+				'fr-fr': "Deuxième coup",
+				'de-de': "Second Strike"
 			},
 			effect: {
-				en: "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 20 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur possède déjà au moins 2 marqueurs de dégâts, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 20 damage plus 20 more damage."
+				'en-us': "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 20 damage plus 20 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur possède déjà au moins 2 marqueurs de dégâts, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 20 damage plus 20 more damage."
 			},
 			damage: "20+",
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Land Crush",
-				fr: "Écrasement au sol",
-				de: "Land Crush"
+				'en-us': "Land Crush",
+				'fr-fr': "Écrasement au sol",
+				'de-de': "Land Crush"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard an Energy card attached to Team Magma's Rhydon.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie attachée à Rhinoféros de Team Magma.",
-				de: "Flip a coin. If tails, discard and Energy card attached to Team Magma´s Rhydon."
+				'en-us': "Flip a coin. If tails, discard an Energy card attached to Team Magma's Rhydon.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez une carte Énergie attachée à Rhinoféros de Team Magma.",
+				'de-de': "Flip a coin. If tails, discard and Energy card attached to Team Magma´s Rhydon."
 			},
 			damage: 60,
 

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Pikachu",
+		'fr-fr': "Pikachu",
 	},
 
 	rarity: "None",
@@ -36,11 +36,11 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				fr: "Queue de Fer"
+				'fr-fr': "Queue de Fer"
 			},
 			damage: "20×",
 			effect: {
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
 			}
 		},
 	],

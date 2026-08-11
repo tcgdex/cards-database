@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Tournicoton",
-		en: "Gossifleur",
-		es: "Gossifleur",
-		it: "Gossifleur",
-		pt: "Gossifleur",
-		de: "Cottini"
+		'fr-fr': "Tournicoton",
+		'en-us': "Gossifleur",
+		'es-es': "Gossifleur",
+		'it-it': "Gossifleur",
+		'pt-br': "Gossifleur",
+		'de-de': "Cottini"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -22,12 +22,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Feuillage",
-			en: "Leafage",
-			es: "Follaje",
-			it: "Fogliame",
-			pt: "Folhagem",
-			de: "Blattwerk"
+			'fr-fr': "Feuillage",
+			'en-us': "Leafage",
+			'es-es': "Follaje",
+			'it-it': "Fogliame",
+			'pt-br': "Folhagem",
+			'de-de': "Blattwerk"
 		},
 
 		damage: 10,
@@ -46,7 +46,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon."
+		'en-us': "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon."
 	},
 
 	variants: [

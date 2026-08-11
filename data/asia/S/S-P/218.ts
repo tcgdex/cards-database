@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グレッグル",
+		'ja-jp': "グレッグル",
 		'zh-tw': "雷吉鐸拉戈V",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "毒を 薄めると 薬に なる。 薬品会社の マスコットに なって 人気者に なった。",
+		'ja-jp': "毒を 薄めると 薬に なる。 薬品会社の マスコットに なって 人気者に なった。",
 	},
 
 	stage: "Basic",
@@ -22,7 +22,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "どつく",
+				'ja-jp': "どつく",
 				'zh-tw': "天之吶喊",
 			},
 			damage: 20,

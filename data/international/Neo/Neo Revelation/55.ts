@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Snubbull",
-		fr: "Snubbull",
-		de: "Snubbull"
+		'en-us': "Snubbull",
+		'fr-fr': "Snubbull",
+		'de-de': "Snubbull"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				de: "Bite"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Bite"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Raging Headbutt",
-				fr: "Coup d'boule rageur",
-				de: "Raging Headbutt"
+				'en-us': "Raging Headbutt",
+				'fr-fr': "Coup d'boule rageur",
+				'de-de': "Raging Headbutt"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 damage times the number of damage counters on Snubbull. If tails, this attack does 10 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Snubbull. Si c'est pile, cette attaque inflige 10 dégâts.",
-				de: "Flip a coin. If heads, this attack does 10 damage plus 10damage times the number of damage counters on Snubbull. If tails, this attack does 10 damage."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 damage times the number of damage counters on Snubbull. If tails, this attack does 10 damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Snubbull. Si c'est pile, cette attaque inflige 10 dégâts.",
+				'de-de': "Flip a coin. If heads, this attack does 10 damage plus 10damage times the number of damage counters on Snubbull. If tails, this attack does 10 damage."
 			},
 			damage: "10+",
 
@@ -76,8 +76,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It has an active, playful nature. Many people like to frolic with it because of its affectionate ways.",
-		fr: "Il est d'humeur joueuse et agitée. Bon nombre de personnes aiment batifoler avec lui parce qu'il est affectueux."
+		'en-us': "It has an active, playful nature. Many people like to frolic with it because of its affectionate ways.",
+		'fr-fr': "Il est d'humeur joueuse et agitée. Bon nombre de personnes aiment batifoler avec lui parce qu'il est affectueux."
 	},
 
 

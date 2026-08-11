@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イオルブV",
+		'ja-jp': "イオルブV",
 	},
 
 	illustrator: "Nisota Niso",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Grass"],
 			effect: {
-				ja: "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "のぞむなら、このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。",
 			},
 		},
 	],

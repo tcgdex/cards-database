@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Politoed",
-		de: "Quaxo"
+		'en-us': "Politoed",
+		'de-de': "Quaxo"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Poliwhirl",
+		'en-us': "Poliwhirl",
 	},
 
 	stage: "Stage2",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sudden Growth",
-				de: "Plötzliches Wachstum"
+				'en-us': "Sudden Growth",
+				'de-de': "Plötzliches Wachstum"
 			},
 			effect: {
-				en: "Attach any number of basic Energy cards from your hand to Politoed.",
-				de: "Lege eine beliebige Anzahl an Basis-Energiekarten aus deiner Hand an Quaxo an."
+				'en-us': "Attach any number of basic Energy cards from your hand to Politoed.",
+				'de-de': "Lege eine beliebige Anzahl an Basis-Energiekarten aus deiner Hand an Quaxo an."
 			},
 
 		},
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Frog Hop",
-				de: "Froschhüpfer"
+				'en-us': "Frog Hop",
+				'de-de': "Froschhüpfer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage.",
-				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 20 more damage.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Splash",
-				de: "Energieplatscher"
+				'en-us': "Energy Splash",
+				'de-de': "Energieplatscher"
 			},
 			effect: {
-				en: "Move 2 Water Energy cards attached to Politoed to 1 or 2 of your Benched Pokémon. (You may put both on the same Pokémon or 1 each on 2 different Pokémon.) If you have no Benched Pokémon, ignore this effect.",
-				de: "Lege 2 an Quaxo angelegte -Energiekarten an 1 oder 2 der Pokémon auf deiner Bank an. (Du kannst beide an dasselbe Pokémon anlegen oder je 1 an 2 verschiedene Pokémon.) Hast du keine Pokémon auf deiner Bank, ignoriere diesen Effekt."
+				'en-us': "Move 2 Water Energy cards attached to Politoed to 1 or 2 of your Benched Pokémon. (You may put both on the same Pokémon or 1 each on 2 different Pokémon.) If you have no Benched Pokémon, ignore this effect.",
+				'de-de': "Lege 2 an Quaxo angelegte -Energiekarten an 1 oder 2 der Pokémon auf deiner Bank an. (Du kannst beide an dasselbe Pokémon anlegen oder je 1 an 2 verschiedene Pokémon.) Hast du keine Pokémon auf deiner Bank, ignoriere diesen Effekt."
 			},
 			damage: 70,
 

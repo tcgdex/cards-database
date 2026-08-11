@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "バサギリ"
+		'ja-jp': "バサギリ"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "硬き岩で 身を守り 無骨な 斧は 大木を 切り倒す。 気性 荒々しく 荒地にて 遭遇しときは 逃げの一手。"
+		'ja-jp': "硬き岩で 身を守り 無骨な 斧は 大木を 切り倒す。 気性 荒々しく 荒地にて 遭遇しときは 逃げの一手。"
 	},
 
 	stage: "Stage1",
@@ -24,23 +24,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "たいぼくぎり"
+			'ja-jp': "たいぼくぎり"
 		},
 
 		effect: {
-			ja: "コインを2回投げ、すべてオモテなら、相手のバトルポケモンをきぜつさせる。"
+			'ja-jp': "コインを2回投げ、すべてオモテなら、相手のバトルポケモンをきぜつさせる。"
 		}
 	}, {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			ja: "あばれタックル"
+			'ja-jp': "あばれタックル"
 		},
 
 		damage: 120,
 
 		effect: {
-			ja: "このポケモンにも30ダメージ。"
+			'ja-jp': "このポケモンにも30ダメージ。"
 		}
 	}],
 

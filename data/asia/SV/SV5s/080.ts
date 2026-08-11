@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Carkol"
+		'id-id': "Carkol"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Suhu tubuh Carkol meningkat jika emosinya memuncak. Pokémon ini terus berlari sambil mengembuskan api."
+		'id-id': "Suhu tubuh Carkol meningkat jika emosinya memuncak. Pokémon ini terus berlari sambil mengembuskan api."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Menghempaskan"
+			'id-id': "Menghempaskan"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 40."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 40."
 		},
 
 		damage: "20+",
 		cost: ["Fighting"]
 	}, {
 		name: {
-			id: "Rock Smash"
+			'id-id': "Rock Smash"
 		},
 
 		damage: 80,

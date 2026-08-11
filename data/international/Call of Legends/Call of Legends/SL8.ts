@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Palkia",
-		fr: "Palkia",
-		de: "Palkia"
+		'en-us': "Palkia",
+		'fr-fr': "Palkia",
+		'de-de': "Palkia"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Wormhole",
-				fr: "Trou de ver",
-				de: "Wurmloch"
+				'en-us': "Wormhole",
+				'fr-fr': "Trou de ver",
+				'de-de': "Wurmloch"
 			},
 			effect: {
-				en: "Switch Palkia with 1 of your Benched Pokémon. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Échangez Palkia avec l’un des Pokémon de votre Banc. Ensuite, votre adversaire échange le Pokémon Défenseur avec l’un de ses Pokémon de Banc.",
-				de: "Tausche Palkia gegen 1 Pokémon auf deiner Bank aus. Danach tauscht dein Gegner das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Switch Palkia with 1 of your Benched Pokémon. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Échangez Palkia avec l’un des Pokémon de votre Banc. Ensuite, votre adversaire échange le Pokémon Défenseur avec l’un de ses Pokémon de Banc.",
+				'de-de': "Tausche Palkia gegen 1 Pokémon auf deiner Bank aus. Danach tauscht dein Gegner das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 60,
 
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its total control over the boundaries of space enable it to transport itself to faraway places or even other dimensions.",
+		'en-us': "Its total control over the boundaries of space enable it to transport itself to faraway places or even other dimensions.",
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Broken Time-Space",
-		fr: "Espace-Temps brisé",
-		de: "Raum-Zeit-Anomalie"
+		'en-us': "Broken Time-Space",
+		'fr-fr': "Espace-Temps brisé",
+		'de-de': "Raum-Zeit-Anomalie"
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Each player may evolve a Pokémon that he or she just played or evolved during that turn.",
-		fr: "Chaque joueur peut faire évoluer un Pokémon qu'il ou elle a joué ou fait évolué ce tour-ci.",
-		de: "Each player may evolve a Pokémon that he or she just played or evolved during that turn."
+		'en-us': "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Each player may evolve a Pokémon that he or she just played or evolved during that turn.",
+		'fr-fr': "Chaque joueur peut faire évoluer un Pokémon qu'il ou elle a joué ou fait évolué ce tour-ci.",
+		'de-de': "Each player may evolve a Pokémon that he or she just played or evolved during that turn."
 	},
 
 	trainerType: "Stadium",

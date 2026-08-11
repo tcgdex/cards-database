@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Eevee",
+		'en-us': "Eevee",
 	},
 
 	illustrator: "kirisAki",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surprise Attack",
+				'en-us': "Surprise Attack",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
 			},
 			damage: 20,
 
@@ -49,7 +49,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
+		'en-us': "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
 	},
 
 	thirdParty: {

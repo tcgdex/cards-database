@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リザードン",
+		'ja-jp': "リザードン",
 	},
 
 	illustrator: "GIDORA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "岩石も 焼けるような 灼熱の 炎を 吐いて 山火事を 起こすことが ある。",
+		'ja-jp': "岩石も 焼けるような 灼熱の 炎を 吐いて 山火事を 起こすことが ある。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "バトルセンス" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札を上から3枚見て、その中からカードを1枚選び、手札に加える。残りのカードはトラッシュする。",
+				'ja-jp': "自分の番に1回使える。自分の山札を上から3枚見て、その中からカードを1枚選び、手札に加える。残りのカードはトラッシュする。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Fire", "Fire"],
 			effect: {
-				ja: "自分のトラッシュにある「ダンデ」の枚数×50ダメージ追加。",
+				'ja-jp': "自分のトラッシュにある「ダンデ」の枚数×50ダメージ追加。",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "リザード",
+		'ja-jp': "リザード",
 	},
 
 	retreat: 3,

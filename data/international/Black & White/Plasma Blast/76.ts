@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Ursaring",
-		fr: "Ursaring",
-		es: "Ursaring",
-		it: "Ursaring",
-		pt: "Ursaring",
-		de: "Ursaring"
+		'en-us': "Ursaring",
+		'fr-fr': "Ursaring",
+		'es-es': "Ursaring",
+		'it-it': "Ursaring",
+		'pt-br': "Ursaring",
+		'de-de': "Ursaring"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Teddiursa",
-		fr: "Teddiursa",
+		'en-us': "Teddiursa",
+		'fr-fr': "Teddiursa",
 	},
 
 	stage: "Stage1",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Adrenalash",
-				fr: "Adrénarush",
+				'en-us': "Adrenalash",
+				'fr-fr': "Adrénarush",
 			},
 			effect: {
-				en: "During your next turn, each of this Pokémon's attacks does 50 more damage (before applying Weakness and Resistance).",
-				fr: "Pendant votre prochain tour, chaque attaque de ce Pokémon inflige 50 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				'en-us': "During your next turn, each of this Pokémon's attacks does 50 more damage (before applying Weakness and Resistance).",
+				'fr-fr': "Pendant votre prochain tour, chaque attaque de ce Pokémon inflige 50 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: 50,
 
@@ -59,8 +59,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strength",
-				fr: "Force",
+				'en-us': "Strength",
+				'fr-fr': "Force",
 			},
 
 			damage: 80,
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "In its territory, it leaves scratches on trees that bear delicious berries or fruits.",
+		'en-us': "In its territory, it leaves scratches on trees that bear delicious berries or fruits.",
 	},
 
 	thirdParty: {

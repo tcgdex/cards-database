@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [106],
 
 	name: {
-		en: "Hitmonlee"
+		'en-us': "Hitmonlee"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "This amazing Pokémon has an awesome sense of\nbalance. It can kick in succession from any position."
+		'en-us': "This amazing Pokémon has an awesome sense of\nbalance. It can kick in succession from any position."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Stretch Kick"
+			'en-us': "Stretch Kick"
 		},
 
 		cost: ["Fighting"],
 
 		effect: {
-			en: "This attack does 30 damage to 1 of your opponent's Benched Pokémon."
+			'en-us': "This attack does 30 damage to 1 of your opponent's Benched Pokémon."
 		}
 	}],
 

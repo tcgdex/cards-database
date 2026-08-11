@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Lapras",
-		fr: "Lokhlass",
+		'en-us': "Lapras",
+		'fr-fr': "Lokhlass",
 	},
 
 	illustrator: "kodama",
@@ -32,8 +32,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Wave",
-				fr: "Aqua-Vague",
+				'en-us': "Aqua Wave",
+				'fr-fr': "Aqua-Vague",
 			},
 
 			damage: 80,
@@ -51,7 +51,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It likes swimming around with people on its back. In the Alola region, it's an important means of transportation over water.",
+		'en-us': "It likes swimming around with people on its back. In the Alola region, it's an important means of transportation over water.",
 	},
 
 	thirdParty: {

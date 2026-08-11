@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sandygast",
-		fr: "Bacabouh",
-		es: "Sandygast",
-		it: "Sandygast",
-		pt: "Sandygast",
-		de: "Sankabuh"
+		'en-us': "Sandygast",
+		'fr-fr': "Bacabouh",
+		'es-es': "Sandygast",
+		'it-it': "Sandygast",
+		'pt-br': "Sandygast",
+		'de-de': "Sankabuh"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Sand Spray",
-			fr: "Jet Sableux",
-			es: "Rociado de Arena",
-			it: "Silicospruzzo",
-			pt: "Spray de Areia",
-			de: "Sandspray"
+			'en-us': "Sand Spray",
+			'fr-fr': "Jet Sableux",
+			'es-es': "Rociado de Arena",
+			'it-it': "Silicospruzzo",
+			'pt-br': "Spray de Areia",
+			'de-de': "Sandspray"
 		},
 
 		damage: 50

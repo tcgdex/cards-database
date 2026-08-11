@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../DP trainer Kit (Manaphy)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Seaking",
-		fr: "Poissoroy"
+		'en-us': "Seaking",
+		'fr-fr': "Poissoroy"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Goldeen",
-		fr: "Poissirène"
+		'en-us': "Goldeen",
+		'fr-fr': "Poissirène"
 	},
 
 	attacks: [
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless"
 			],
 			name: {
-				en: "Flail",
-				fr: "Fléau"
+				'en-us': "Flail",
+				'fr-fr': "Fléau"
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on Seaking.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Poissoroy."
+				'en-us': "Does 10 damage times the number of damage counters on Seaking.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Poissoroy."
 			},
 			damage: "10×"
 		},
@@ -48,8 +48,8 @@ const card: Card = {
 				"Water"
 			],
 			name: {
-				en: "Horn Drill",
-				fr: "Empal'korne"
+				'en-us': "Horn Drill",
+				'fr-fr': "Empal'korne"
 			},
 			damage: 50
 		}
@@ -63,7 +63,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It makes its nest by hollowing out boulders in streams with its horn. It defends its eggs with its life."
+		'en-us': "It makes its nest by hollowing out boulders in streams with its horn. It defends its eggs with its life."
 	},
 
 	retreat: 1,

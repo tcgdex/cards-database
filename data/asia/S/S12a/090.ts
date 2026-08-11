@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゾロア",
+		'ja-jp': "ゾロア",
 		'zh-tw': "索羅亞",
-		th: "โซรัว",
+		'th-th': "โซรัว",
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -15,9 +15,9 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "普段 おしゃべりな 子どもが 無口に なった ときは ゾロアが 入れ替わって いるかも しれないよ。",
+		'ja-jp': "普段 おしゃべりな 子どもが 無口に なった ときは ゾロアが 入れ替わって いるかも しれないよ。",
 		'zh-tw': "平常很愛說話的孩子如果突然變得很沉默， 就有可能是索羅亞假扮的。",
-		th: "เวลาที่เด็กช่างพูดเกิดเงียบขึ้นมา อาจเป็นเพราะโซรัวมาสลับตัวอยู่ก็เป็นได้",
+		'th-th': "เวลาที่เด็กช่างพูดเกิดเงียบขึ้นมา อาจเป็นเพราะโซรัวมาสลับตัวอยู่ก็เป็นได้",
 	},
 
 	stage: "Basic",
@@ -25,9 +25,9 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "うしろげり",
+				'ja-jp': "うしろげり",
 				'zh-tw': "後踢",
-				th: "เตะกลับหลัง",
+				'th-th': "เตะกลับหลัง",
 			},
 			damage: 30,
 			cost: ["Colorless", "Colorless"],

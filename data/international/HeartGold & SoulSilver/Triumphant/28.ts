@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Nidoqueen",
-		fr: "Nidoqueen",
-		de: "Nidoqueen"
+		'en-us': "Nidoqueen",
+		'fr-fr': "Nidoqueen",
+		'de-de': "Nidoqueen"
 	},
 
 	illustrator: "sui",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidorina",
-		fr: "Nidorina"
+		'en-us': "Nidorina",
+		'fr-fr': "Nidorina"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Return",
-				fr: "Retour",
-				de: "Rückkehr"
+				'en-us': "Return",
+				'fr-fr': "Retour",
+				'de-de': "Rückkehr"
 			},
 			effect: {
-				en: "Draw cards until you have 6 cards in your hand.",
-				fr: "Piochez jusqu’à ce que vous ayez 6 cartes en main.",
-				de: "Ziehe so viele Karten, bis du 6 Karten auf der Hand hast."
+				'en-us': "Draw cards until you have 6 cards in your hand.",
+				'fr-fr': "Piochez jusqu’à ce que vous ayez 6 cartes en main.",
+				'de-de': "Ziehe so viele Karten, bis du 6 Karten auf der Hand hast."
 			},
 			damage: 30,
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Prize Count",
-				fr: "Compteur de Récompense",
-				de: "Preiszähler"
+				'en-us': "Prize Count",
+				'fr-fr': "Compteur de Récompense",
+				'de-de': "Preiszähler"
 			},
 			effect: {
-				en: "If you have more Prize cards left than your opponent, this attack does 50 damage plus 30 more damage.",
-				fr: "S’il vous reste plus de cartes Récompense que votre adversaire, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wenn du mehr Preise übrig hast als dein Gegner, fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "If you have more Prize cards left than your opponent, this attack does 50 damage plus 30 more damage.",
+				'fr-fr': "S’il vous reste plus de cartes Récompense que votre adversaire, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "Wenn du mehr Preise übrig hast als dein Gegner, fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It uses its scaly, rugged body to seal the entrance of its nest and protect its young from predators."
+		'en-us': "It uses its scaly, rugged body to seal the entrance of its nest and protect its young from predators."
 	},
 
 	variants: [

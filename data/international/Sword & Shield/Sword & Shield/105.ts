@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Mudbray",
-		fr: "Tiboudet",
-		es: "Mudbray",
-		it: "Mudbray",
-		pt: "Mudbray",
-		de: "Pampuli"
+		'en-us': "Mudbray",
+		'fr-fr': "Tiboudet",
+		'es-es': "Mudbray",
+		'it-it': "Mudbray",
+		'pt-br': "Mudbray",
+		'de-de': "Pampuli"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stampede",
-				fr: "Ruée",
-				es: "Estampida",
-				it: "Fuggi Fuggi",
-				pt: "Estouro",
-				de: "Zertrampeln"
+				'en-us': "Stampede",
+				'fr-fr': "Ruée",
+				'es-es': "Estampida",
+				'it-it': "Fuggi Fuggi",
+				'pt-br': "Estouro",
+				'de-de': "Zertrampeln"
 			},
 
 			damage: 10,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rear Kick",
-				fr: "Ruade",
-				es: "Patada Trasera",
-				it: "Retrocalcio",
-				pt: "Chute Traseiro",
-				de: "Rückwärtskick"
+				'en-us': "Rear Kick",
+				'fr-fr': "Ruade",
+				'es-es': "Patada Trasera",
+				'it-it': "Retrocalcio",
+				'pt-br': "Chute Traseiro",
+				'de-de': "Rückwärtskick"
 			},
 
 			damage: 30,
@@ -77,7 +77,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Loads weighing up to 50 times as much as its own body weight pose no issue for this Pokémon. It's skilled at making use of mud."
+		'en-us': "Loads weighing up to 50 times as much as its own body weight pose no issue for this Pokémon. It's skilled at making use of mud."
 	},
 
 	dexId: [749],

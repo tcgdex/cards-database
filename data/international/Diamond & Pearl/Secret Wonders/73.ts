@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Venomoth",
-		fr: "Aéromite",
-		de: "Omot"
+		'en-us': "Venomoth",
+		'fr-fr': "Aéromite",
+		'de-de': "Omot"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Venonat",
-		fr: "Mimitoss",
+		'en-us': "Venonat",
+		'fr-fr': "Mimitoss",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Dangerous Scales",
-				fr: "Écailles dangereuses",
-				de: "Schadende Schuppen"
+				'en-us': "Dangerous Scales",
+				'fr-fr': "Écailles dangereuses",
+				'de-de': "Schadende Schuppen"
 			},
 			effect: {
-				en: "If Venomoth is your Active Pokémon and is damaged by an opponent's attack (even if Venomoth is Knocked Out), the Attacking Pokémon is now Asleep and Poisoned.",
-				fr: "Si Aéromite est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Aéromite est mis K.O), le Pokémon Attaquant est maintenant Endormi et Empoisonné.",
-				de: "Wenn Omot dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Omot dadurch kampfunfähig wird), schläft das Angreifende Pokémon jetzt und ist vergiftet."
+				'en-us': "If Venomoth is your Active Pokémon and is damaged by an opponent's attack (even if Venomoth is Knocked Out), the Attacking Pokémon is now Asleep and Poisoned.",
+				'fr-fr': "Si Aéromite est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Aéromite est mis K.O), le Pokémon Attaquant est maintenant Endormi et Empoisonné.",
+				'de-de': "Wenn Omot dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Omot dadurch kampfunfähig wird), schläft das Angreifende Pokémon jetzt und ist vergiftet."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Disturbance Dive",
-				fr: "Plongeon perturbant",
-				de: "Abwehrsturzflug"
+				'en-us': "Disturbance Dive",
+				'fr-fr': "Plongeon perturbant",
+				'de-de': "Abwehrsturzflug"
 			},
 			effect: {
-				en: "Prevent all effects of an attack, excluding damage, done to Venomoth during your opponent's next turn.",
-				fr: "Prévenez tous les effets d'une attaque, dégâts exclus, infligés à Aéromite lors du prochain tour de votre adversaire.",
-				de: "Verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, außer Schaden, die Omot zugefügt würden."
+				'en-us': "Prevent all effects of an attack, excluding damage, done to Venomoth during your opponent's next turn.",
+				'fr-fr': "Prévenez tous les effets d'une attaque, dégâts exclus, infligés à Aéromite lors du prochain tour de votre adversaire.",
+				'de-de': "Verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, außer Schaden, die Omot zugefügt würden."
 			},
 			damage: 50,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It flutters its wings to scatter dustlike scales. The scales leach toxins if they contact skin.",
+		'en-us': "It flutters its wings to scatter dustlike scales. The scales leach toxins if they contact skin.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2024'
 
 const card: Card = {
 	name: {
-		en: "Dragonite",
-		fr: "Dracolosse",
-		es: "Dragonite",
-		it: "Dragonite",
-		pt: "Dragonite",
-		de: "Dragoran"
+		'en-us': "Dragonite",
+		'fr-fr': "Dracolosse",
+		'es-es': "Dragonite",
+		'it-it': "Dragonite",
+		'pt-br': "Dragonite",
+		'de-de': "Dragoran"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -25,22 +25,22 @@ const card: Card = {
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Dragonair",
-		fr: "Draco",
-		es: "Dragonair",
-		it: "Dragonair",
-		pt: "Dragonair",
-		de: "Dragonir"
+		'en-us': "Dragonair",
+		'fr-fr': "Draco",
+		'es-es': "Dragonair",
+		'it-it': "Dragonair",
+		'pt-br': "Dragonair",
+		'de-de': "Dragonir"
 	},
 
 	abilities: [
 		{
 			type: "Ability",
 			name: {
-				en: "Jet Cruise"
+				'en-us': "Jet Cruise"
 			},
 			effect: {
-				en: "Your Pokémon in play have no Retreat Cost."
+				'en-us': "Your Pokémon in play have no Retreat Cost."
 			}
 		}
 	],
@@ -49,11 +49,11 @@ const card: Card = {
 		{
 			cost: ["Water", "Lightning", "Colorless"],
 			name: {
-				en: "Dragon Pulse",
+				'en-us': "Dragon Pulse",
 			},
 			damage: 180,
 			effect: {
-				en: "Discard the top 2 cards of your deck.",
+				'en-us': "Discard the top 2 cards of your deck.",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "テンタクルエル",
+		'ja-jp': "テンタクルエル",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "反応シールド",
+				'ja-jp': "反応シールド",
 			},
 			effect: {
-				ja: "TentacruelにReact Energy Cardsが取り付けられている限り、対戦相手のPokã©Mon-Exからの攻撃によってプレイ中のTentacruelのいずれかに対して行われたダメージを含むすべての効果を防​​ぎます。",
+				'ja-jp': "TentacruelにReact Energy Cardsが取り付けられている限り、対戦相手のPokã©Mon-Exからの攻撃によってプレイ中のTentacruelのいずれかに対して行われたダメージを含むすべての効果を防​​ぎます。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "水の矢",
+				'ja-jp': "水の矢",
 			},
 			effect: {
-				ja: "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "フューリーストライク",
+				'ja-jp': "フューリーストライク",
 			},
 			effect: {
-				ja: "3コインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。",
+				'ja-jp': "3コインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。",
 			},
 		},
 	],

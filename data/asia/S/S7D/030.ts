@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダストダスV",
+		'ja-jp': "ダストダスV",
 		'zh-tw': "灰塵山V",
 	},
 
@@ -18,19 +18,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ゴミしゅうき",
+				'ja-jp': "ゴミしゅうき",
 				'zh-tw': "垃圾臭氣",
 			},
 			damage: 40,
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "相手のバトルポケモンをどくにする。次の相手の番、このワザを受けたポケモンは、にげられない。",
 				'zh-tw': "將對手的戰鬥寶可夢【中毒】。在下個對手的回合，受到這個招式的寶可夢無法撤退。",
 			},
 		},
 		{
 			name: {
-				ja: "ヘドロばくだん",
+				'ja-jp': "ヘドロばくだん",
 				'zh-tw': "污泥炸彈",
 			},
 			damage: 130,

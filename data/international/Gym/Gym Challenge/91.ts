@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Misty's Seel"
+		'en-us': "Misty's Seel"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Frostbite"
+				'en-us': "Frostbite"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn."
 			},
 			damage: 10,
 
@@ -41,10 +41,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mirage"
+				'en-us': "Mirage"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
 			},
 			damage: 10,
 

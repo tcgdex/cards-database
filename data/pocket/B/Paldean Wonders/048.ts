@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Malvalame",
-		en: "Ceruledge",
-		es: "Ceruledge",
-		it: "Ceruledge",
-		pt: "Ceruledge",
-		de: "Azugladis"
+		'fr-fr': "Malvalame",
+		'en-us': "Ceruledge",
+		'es-es': "Ceruledge",
+		'it-it': "Ceruledge",
+		'pt-br': "Ceruledge",
+		'de-de': "Azugladis"
   },
   illustrator: "Ryota Murayama",
   rarity: "Three Diamond",
@@ -18,12 +18,12 @@ const card: Card = {
   types: ["Psychic"],
   dexId: [937],
   evolveFrom: {
-		fr: "Charbambin",
-		en: "Charcadet",
-		es: "Charcadet",
-		it: "Charcadet",
-		pt: "Charcadet",
-		de: "Knarbon"
+		'fr-fr': "Charbambin",
+		'en-us': "Charcadet",
+		'es-es': "Charcadet",
+		'it-it': "Charcadet",
+		'pt-br': "Charcadet",
+		'de-de': "Knarbon"
   },
   description: {
     en: "An old set of armor steeped in grudges caused this Pokémon's evolution. Ceruledge cuts its enemies to pieces without mercy.",

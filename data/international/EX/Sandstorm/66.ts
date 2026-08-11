@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Lotad",
-		fr: "Nenupiot",
-		de: "Loturzel"
+		'en-us': "Lotad",
+		'fr-fr': "Nenupiot",
+		'de-de': "Loturzel"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Rain Dish",
-				fr: "Cuvette",
-				de: "Regengenuss"
+				'en-us': "Rain Dish",
+				'fr-fr': "Cuvette",
+				'de-de': "Regengenuss"
 			},
 			effect: {
-				en: "At any time between turns, remove 1 damage counter from Lotad.",
-				fr: "N'importe quand entre deux tours, retirez à Nenupiot un marqueur de dégât.",
-				de: "Entferne zu einem beliebigen Zeitpunkt zwischen zwei Zügen 1 Schadensmarke von Loturzel."
+				'en-us': "At any time between turns, remove 1 damage counter from Lotad.",
+				'fr-fr': "N'importe quand entre deux tours, retirez à Nenupiot un marqueur de dégât.",
+				'de-de': "Entferne zu einem beliebigen Zeitpunkt zwischen zwei Zügen 1 Schadensmarke von Loturzel."
 			}
 		},
 	],
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'de-de': "Ramme"
 			},
 
 			damage: 10,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Piloswine",
-		fr: "Cochignon",
-		de: "Keifel"
+		'en-us': "Piloswine",
+		'fr-fr': "Cochignon",
+		'de-de': "Keifel"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Swinub",
-		fr: "Marcacrin"
+		'en-us': "Swinub",
+		'fr-fr': "Marcacrin"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blizzard",
-				fr: "Blizzard",
-				de: "Blizzard"
+				'en-us': "Blizzard",
+				'fr-fr': "Blizzard",
+				'de-de': "Blizzard"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts à chaque Pokémon de Banc de votre adversaire. Si c’est pile, cette attaque inflige 10 dégâts à chacun de vos Pokémon de Banc. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. Bei \"Zahl\" fügt dieser Angriff jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts à chaque Pokémon de Banc de votre adversaire. Si c’est pile, cette attaque inflige 10 dégâts à chacun de vos Pokémon de Banc. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. Bei \"Zahl\" fügt dieser Angriff jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 40,
 
@@ -56,9 +56,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer In",
-				fr: "Enfoncer",
-				de: "Einhämmern"
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncer",
+				'de-de': "Einhämmern"
 			},
 
 			damage: 60,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly."
+		'en-us': "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly."
 	},
 
 	variants: [

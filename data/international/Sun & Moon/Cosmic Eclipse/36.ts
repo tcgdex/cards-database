@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Litleo",
-		fr: "Hélionceau",
-		es: "Litleo",
-		it: "Litleo",
-		pt: "Litleo",
-		de: "Leufeo"
+		'en-us': "Litleo",
+		'fr-fr': "Hélionceau",
+		'es-es': "Litleo",
+		'it-it': "Litleo",
+		'pt-br': "Litleo",
+		'de-de': "Leufeo"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flame Tail",
-				fr: "Queue de Flammes",
-				es: "Cola de Fuego",
-				it: "Codafiamma",
-				pt: "Cauda de Chamas",
-				de: "Flammenschweif"
+				'en-us': "Flame Tail",
+				'fr-fr': "Queue de Flammes",
+				'es-es': "Cola de Fuego",
+				'it-it': "Codafiamma",
+				'pt-br': "Cauda de Chamas",
+				'de-de': "Flammenschweif"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When they're young, they live with a pride. Once they're able to hunt prey on their own, they're kicked out and have to make their own way.",
+		'en-us': "When they're young, they live with a pride. Once they're able to hunt prey on their own, they're kicked out and have to make their own way.",
 	},
 
 	thirdParty: {

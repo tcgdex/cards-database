@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エルレイドV",
+		'ja-jp': "エルレイドV",
 	},
 
 	illustrator: "takuyoa",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "自分がすでにとったサイドの枚数×50ダメージ追加。",
+				'ja-jp': "自分がすでにとったサイドの枚数×50ダメージ追加。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 130,
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。",
 			},
 		},
 	],

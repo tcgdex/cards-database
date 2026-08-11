@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S5I";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カプ・コケコV",
+		'ja-jp': "カプ・コケコV",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "相手の場のポケモンについているエネルギーの数×40ダメージ追加。",
+				'ja-jp': "相手の場のポケモンについているエネルギーの数×40ダメージ追加。",
 			},
 		},
 	],

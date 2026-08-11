@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S5a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "利牙魚",
-		th: "คิบาเนีย"
+		'th-th': "คิบาเนีย"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "結實的下巴和牙齒能夠輕易地咬碎木造的船隻。與野蠻鱸魚互相爭奪著食物。",
-		th: "กรามและเขี้ยวที่แข็งแรงนั้นสามารถบดทำลายเรือไม้ได้อย่างง่ายดาย มักแย่งชิงเหยื่อกับบาสราโอ"
+		'th-th': "กรามและเขี้ยวที่แข็งแรงนั้นสามารถบดทำลายเรือไม้ได้อย่างง่ายดาย มักแย่งชิงเหยื่อกับบาสราโอ"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "衝撞",
-			th: "กระแทก"
+			'th-th': "กระแทก"
 		},
 
 		damage: 10,
@@ -32,7 +32,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "鰭快刀",
-			th: "ครีบใบมีด"
+			'th-th': "ครีบใบมีด"
 		},
 
 		damage: 20,

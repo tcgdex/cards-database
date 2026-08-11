@@ -1,10 +1,10 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../M'
 
 const set: Set = {
 	id: 'M1S',
 	name: {
-		ja: 'メガシンフォニア'
+		'ja-jp': 'メガシンフォニア'
 	},
 
 	serie: serie,
@@ -14,7 +14,7 @@ const set: Set = {
 	},
 
 	releaseDate: {
-		ja: '2025-08-01'
+		'ja-jp': '2025-08-01'
 	}
 }
 

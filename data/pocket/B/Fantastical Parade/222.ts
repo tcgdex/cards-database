@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [231],
 
 	name: {
-		en: "Phanpy"
+		'en-us': "Phanpy"
 	},
 
 	illustrator: "kurumitsu",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "This Pokémon lives and nests on a riverbank.\nAfter playing in the mud, it won't be able to\nsettle down unless it washes its body."
+		'en-us': "This Pokémon lives and nests on a riverbank.\nAfter playing in the mud, it won't be able to\nsettle down unless it washes its body."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Reckless Charge"
+			'en-us': "Reckless Charge"
 		},
 
 		damage: 30,
 		cost: ["Fighting"],
 
 		effect: {
-			en: "This Pokémon also does 10 damage to itself."
+			'en-us': "This Pokémon also does 10 damage to itself."
 		}
 	}],
 

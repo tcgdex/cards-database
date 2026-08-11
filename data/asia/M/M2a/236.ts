@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナンジャモのハラバリーex",
+		'ja-jp': "ナンジャモのハラバリーex",
 	},
 
 	illustrator: "Akira Komayama",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "エレキストリーマー" },
 			effect: {
-				ja: "自分の番に何回でも使える。自分の手札から「基本[L]エネルギー」を1枚選び、自分の「ナンジャモのポケモン」につける。",
+				'ja-jp': "自分の番に何回でも使える。自分の手札から「基本[L]エネルギー」を1枚選び、自分の「ナンジャモのポケモン」につける。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 230,
 			cost: ["Lightning", "Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ナンジャモのズピカ",
+		'ja-jp': "ナンジャモのズピカ",
 	},
 
 	retreat: 2,

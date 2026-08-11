@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เมแทงก์ <ของไดโกะ>",
-		id: "Metang <Steven>"
+		'th-th': "เมแทงก์ <ของไดโกะ>",
+		'id-id': "Metang <Steven>"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		th: "ดันบัล 2 ตัวเชื่อมต่อตัวเข้าด้วยกัน ด้วยเนื้อเยื่อสมอง 2 ก้อนที่ เชื่อมกันทำให้พลังจิตนั้นแข็งแกร่งขึ้นกว่าเดิม",
-		id: "Dua Beldum telah menyatu. Karena 2 otaknya telah terhubung, kekuatan psikokinesisnya menjadi lebih kuat."
+		'th-th': "ดันบัล 2 ตัวเชื่อมต่อตัวเข้าด้วยกัน ด้วยเนื้อเยื่อสมอง 2 ก้อนที่ เชื่อมกันทำให้พลังจิตนั้นแข็งแกร่งขึ้นกว่าเดิม",
+		'id-id': "Dua Beldum telah menyatu. Karena 2 otaknya telah terhubung, kekuatan psikokinesisnya menjadi lebih kuat."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "เมทัลสแลช",
-			id: "Metal Slash"
+			'th-th': "เมทัลสแลช",
+			'id-id': "Metal Slash"
 		},
 
 		effect: {
-			th: "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'th-th': "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 70,

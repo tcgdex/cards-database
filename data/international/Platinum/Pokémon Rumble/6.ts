@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Pokémon Rumble'
 
 const card: Card = {
 	name: {
-		en: "Gyarados"
+		'en-us': "Gyarados"
 	},
 
 	illustrator: undefined,
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magikarp"
+		'en-us': "Magikarp"
 	},
 
 	stage: "Stage1",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thrash Tackle"
+				'en-us': "Thrash Tackle"
 			},
 			effect: {
-				en: "Gyarados does 20 damage to itself."
+				'en-us': "Gyarados does 20 damage to itself."
 			},
 			damage: 80,
 

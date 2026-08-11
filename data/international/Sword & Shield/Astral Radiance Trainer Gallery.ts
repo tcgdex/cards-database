@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sword & Shield'
 
 const swsh10tg: Set = {
 	id: "swsh10tg",
 
 	name: {
-		en: "Astral Radiance Trainer Gallery",
-		fr: "Astres Radieux Galerie de Dresseurs",
-		es: "Resplandor Astral Galería de Entrenador",
-		it: "Lucentezza Siderale Galleria Allenatori",
-		de: "Astralglanz Trainer-Galerie",
-		pt: "Estrelas Radiantes Galeria de Treinador"
+		'en-us': "Astral Radiance Trainer Gallery",
+		'fr-fr': "Astres Radieux Galerie de Dresseurs",
+		'es-es': "Resplandor Astral Galería de Entrenador",
+		'it-it': "Lucentezza Siderale Galleria Allenatori",
+		'de-de': "Astralglanz Trainer-Galerie",
+		'pt-br': "Estrelas Radiantes Galeria de Treinador"
 	},
 
 	tcgOnline: 'ASR',

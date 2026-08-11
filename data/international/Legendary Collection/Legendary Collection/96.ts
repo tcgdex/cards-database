@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Tentacool"
+		'en-us': "Tentacool"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -25,10 +25,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Cowardice"
+				'en-us': "Cowardice"
 			},
 			effect: {
-				en: "At any time during your turn (before your attack), you may return Tentacool to your hand. (Discard all cards attached to Tentacool.) This power can't be used the turn you put Tentacool into play or if Tentacool is affected by a Special Condition."
+				'en-us': "At any time during your turn (before your attack), you may return Tentacool to your hand. (Discard all cards attached to Tentacool.) This power can't be used the turn you put Tentacool into play or if Tentacool is affected by a Special Condition."
 			}
 		},
 	],
@@ -39,7 +39,7 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Acid"
+				'en-us': "Acid"
 			},
 
 			damage: 10,
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid."
+		'en-us': "Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid."
 	},
 
 	variants: [

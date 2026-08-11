@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アルタリア",
+		'ja-jp': "アルタリア",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "保護",
+				'ja-jp': "保護",
 			},
 			effect: {
-				ja: "対戦相手のポカン©Mon-Exによってaltariaに行われた損害を含む攻撃のすべての影響を防ぎます。",
+				'ja-jp': "対戦相手のポカン©Mon-Exによってaltariaに行われた損害を含む攻撃のすべての影響を防ぎます。",
 			},
 		}],
 
@@ -29,16 +29,16 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "ダブルウィング攻撃",
+				'ja-jp': "ダブルウィング攻撃",
 			},
 			effect: {
-				ja: "防御する各ポケモンに20のダメージを与えます。",
+				'ja-jp': "防御する各ポケモンに20のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				ja: "ダイビング",
+				'ja-jp': "ダイビング",
 			},
 			damage: 50,
 		},

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Flabébé"
+		'id-id': "Flabébé"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Flabébé yang menunggangi bunga merah. Begitu lahir, ia langsung terbang berkeliling untuk mencari bunga favoritnya."
+		'id-id': "Flabébé yang menunggangi bunga merah. Begitu lahir, ia langsung terbang berkeliling untuk mencari bunga favoritnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Memulihkan Luka"
+			'id-id': "Memulihkan Luka"
 		},
 
 		effect: {
-			id: "Pulihkan HP 1 Pokémon sendiri sejumlah 30."
+			'id-id': "Pulihkan HP 1 Pokémon sendiri sejumlah 30."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Angin Peri"
+			'id-id': "Angin Peri"
 		},
 
 		damage: 10,

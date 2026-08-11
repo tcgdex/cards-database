@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "摩托蜥ex",
 		'zh-cn': "摩托蜥ex",
-		ja: "モトトカゲex"
+		'ja-jp': "モトトカゲex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -21,13 +21,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "突圍",
 			'zh-cn': "突圍",
-			ja: "ブレイクスルー"
+			'ja-jp': "ブレイクスルー"
 		},
 
 		effect: {
 			'zh-tw': "對手的1隻備戰寶可夢也受到30點傷害。[在備戰區不計算弱點・抵抗力。]",
 			'zh-cn': "對手的1隻備戰寶可夢也受到30點傷害。[在備戰區不計算弱點・抵抗力。]",
-			ja: "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			'ja-jp': "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
 		},
 
 		damage: 130,
@@ -36,13 +36,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "鋯石之路",
 			'zh-cn': "鋯石之路",
-			ja: "ジルコンロード"
+			'ja-jp': "ジルコンロード"
 		},
 
 		effect: {
 			'zh-tw': "若希望，從自己的牌庫抽出5張卡。",
 			'zh-cn': "若希望，從自己的牌庫抽出5張卡。",
-			ja: "のぞむなら、自分の山札を5枚引く。"
+			'ja-jp': "のぞむなら、自分の山札を5枚引く。"
 		},
 
 		damage: 180,

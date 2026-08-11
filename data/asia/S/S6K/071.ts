@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "セレビィV",
+		'ja-jp': "セレビィV",
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "わかばのまい" },
 			cost: ["Grass"],
 			effect: {
-				ja: "自分の手札から[草]エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。",
+				'ja-jp': "自分の手札から[草]エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 	],

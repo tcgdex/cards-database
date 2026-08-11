@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コノヨザルex"
+		'ja-jp': "コノヨザルex"
 	},
 
 	illustrator: "PLANETA Hiiragi",
@@ -19,19 +19,19 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "アンガーグラッジ"
+			'ja-jp': "アンガーグラッジ"
 		},
 
 		damage: "20×",
 
 		effect: {
-			ja: "このポケモンにダメカンを12個までのせ、のせた数×20ダメージ。"
+			'ja-jp': "このポケモンにダメカンを12個までのせ、のせた数×20ダメージ。"
 		}
 	}, {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			ja: "ちきゅうなげ"
+			'ja-jp': "ちきゅうなげ"
 		},
 
 		damage: 150

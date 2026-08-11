@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "龍頭地鼠",
 		'zh-cn': "龍頭地鼠",
-		ja: "ドリュウズ"
+		'ja-jp': "ドリュウズ"
 	},
 
 	illustrator: "Yuya Oka",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "進化為鋼的鑽頭有著 能穿透鐵板的破壞力。 在隧道工程裡可幫上大忙。",
 		'zh-cn': "進化為鋼的鑽頭有著 能穿透鐵板的破壞力。 在隧道工程裡可幫上大忙。",
-		ja: "鋼に 進化した ドリルは 鉄板を 貫く 破壊力。 トンネル工事で 大活躍する。"
+		'ja-jp': "鋼に 進化した ドリルは 鉄板を 貫く 破壊力。 トンネル工事で 大活躍する。"
 	},
 
 	stage: "Stage1",
@@ -27,13 +27,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "挖洞爪",
 			'zh-cn': "挖洞爪",
-			ja: "あなほりクロー"
+			'ja-jp': "あなほりクロー"
 		},
 
 		effect: {
 			'zh-tw': "將對手的牌庫上方1張卡丟棄。",
 			'zh-cn': "將對手的牌庫上方1張卡丟棄。",
-			ja: "相手の山札を上から1枚トラッシュする。"
+			'ja-jp': "相手の山札を上から1枚トラッシュする。"
 		},
 
 		damage: 20,
@@ -42,13 +42,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "鑽粉碎",
 			'zh-cn': "鑽粉碎",
-			ja: "ドリルスマッシュ"
+			'ja-jp': "ドリルスマッシュ"
 		},
 
 		effect: {
 			'zh-tw': "若自己的備戰區有【鋼】寶可夢，則增加80點傷害。",
 			'zh-cn': "若自己的備戰區有【鋼】寶可夢，則增加80點傷害。",
-			ja: "自分のベンチにポケモンがいるなら、80ダメージ追加。"
+			'ja-jp': "自分のベンチにポケモンがいるなら、80ダメージ追加。"
 		},
 
 		damage: "60＋",

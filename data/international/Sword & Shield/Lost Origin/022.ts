@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magcargo",
-		fr: "Volcaropod",
-		es: "Magcargo",
-		it: "Magcargo",
-		pt: "Magcargo",
-		de: "Magcargo"
+		'en-us': "Magcargo",
+		'fr-fr': "Volcaropod",
+		'es-es': "Magcargo",
+		'it-it': "Magcargo",
+		'pt-br': "Magcargo",
+		'de-de': "Magcargo"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Slugma",
-		fr: "Limagma",
-		es: "Slugma",
-		it: "Slugma",
-		pt: "Slugma",
-		de: "Schneckmag"
+		'en-us': "Slugma",
+		'fr-fr': "Limagma",
+		'es-es': "Slugma",
+		'it-it': "Slugma",
+		'pt-br': "Slugma",
+		'de-de': "Schneckmag"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Flare",
-			fr: "Flamboiement",
-			es: "Llama",
-			it: "Fiammata",
-			pt: "Chama",
-			de: "Flackern"
+			'en-us': "Flare",
+			'fr-fr': "Flamboiement",
+			'es-es': "Llama",
+			'it-it': "Fiammata",
+			'pt-br': "Chama",
+			'de-de': "Flackern"
 		},
 
 		damage: 30
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Lost Volcano",
-			fr: "Volcan Perdu",
-			es: "Volcán Perdido",
-			it: "Vulcano Perduto",
-			pt: "Vulcão Perdido",
-			de: "Nirgendwo-Vulkan"
+			'en-us': "Lost Volcano",
+			'fr-fr': "Volcan Perdu",
+			'es-es': "Volcán Perdido",
+			'it-it': "Vulcano Perduto",
+			'pt-br': "Vulcão Perdido",
+			'de-de': "Nirgendwo-Vulkan"
 		},
 
 		effect: {
-			en: "Put all Energy attached to this Pokémon in the Lost Zone.",
-			fr: "Placez toutes les Énergies attachées à ce Pokémon dans la Zone Perdue.",
-			es: "Pon todas las Energías unidas a este Pokémon en la Zona Perdida.",
-			it: "Prendi tutte le Energie assegnate a questo Pokémon e mettile nell'area perduta.",
-			pt: "Coloque todas as Energias ligadas a este Pokémon na Zona Perdida.",
-			de: "Lege alle an dieses Pokémon angelegten Energien ins Nirgendwo."
+			'en-us': "Put all Energy attached to this Pokémon in the Lost Zone.",
+			'fr-fr': "Placez toutes les Énergies attachées à ce Pokémon dans la Zone Perdue.",
+			'es-es': "Pon todas las Energías unidas a este Pokémon en la Zona Perdida.",
+			'it-it': "Prendi tutte le Energie assegnate a questo Pokémon e mettile nell'area perduta.",
+			'pt-br': "Coloque todas as Energias ligadas a este Pokémon na Zona Perdida.",
+			'de-de': "Lege alle an dieses Pokémon angelegten Energien ins Nirgendwo."
 		},
 
 		damage: 220

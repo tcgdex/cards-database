@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [143],
 
 	name: {
-		en: "Snorlax",
-		fr: "Ronflex",
-		es: "Snorlax",
-		it: "Snorlax",
-		pt: "Snorlax",
-		de: "Relaxo"
+		'en-us': "Snorlax",
+		'fr-fr': "Ronflex",
+		'es-es': "Snorlax",
+		'it-it': "Snorlax",
+		'pt-br': "Snorlax",
+		'de-de': "Relaxo"
 	},
 
 	illustrator: "Eri Yamaki",
@@ -24,20 +24,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collecte",
-				es: "Coleccionar",
-				it: "Tassa",
-				pt: "Coleta",
-				de: "Sammeln"
+				'en-us': "Collect",
+				'fr-fr': "Collecte",
+				'es-es': "Coleccionar",
+				'it-it': "Tassa",
+				'pt-br': "Coleta",
+				'de-de': "Sammeln"
 			},
 			effect: {
-				en: "Draw 2 cards.",
-				fr: "Piochez 2 cartes.",
-				es: "Roba 2 cartas.",
-				it: "Pesca due carte.",
-				pt: "Compre 2 cartas.",
-				de: "Ziehe 2 Karten."
+				'en-us': "Draw 2 cards.",
+				'fr-fr': "Piochez 2 cartes.",
+				'es-es': "Roba 2 cartas.",
+				'it-it': "Pesca due carte.",
+				'pt-br': "Compre 2 cartas.",
+				'de-de': "Ziehe 2 Karten."
 			},
 
 		},
@@ -48,20 +48,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collapse",
-				fr: "Effondrement",
-				es: "Colapso",
-				it: "Collassare",
-				pt: "Colapso",
-				de: "Kollaps"
+				'en-us': "Collapse",
+				'fr-fr': "Effondrement",
+				'es-es': "Colapso",
+				'it-it': "Collassare",
+				'pt-br': "Colapso",
+				'de-de': "Kollaps"
 			},
 			effect: {
-				en: "This Pokémon is now Asleep.",
-				fr: "Ce Pokémon est maintenant Endormi.",
-				es: "Este Pokémon pasa a estar Dormido.",
-				it: "Questo Pokémon viene addormentato.",
-				pt: "Este Pokémon agora está Adormecido.",
-				de: "Dieses Pokémon schläft jetzt."
+				'en-us': "This Pokémon is now Asleep.",
+				'fr-fr': "Ce Pokémon est maintenant Endormi.",
+				'es-es': "Este Pokémon pasa a estar Dormido.",
+				'it-it': "Questo Pokémon viene addormentato.",
+				'pt-br': "Este Pokémon agora está Adormecido.",
+				'de-de': "Dieses Pokémon schläft jetzt."
 			},
 			damage: 120,
 
@@ -84,7 +84,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep."
+		'en-us': "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep."
 	},
 
 	variants: [

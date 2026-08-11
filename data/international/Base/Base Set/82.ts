@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Full Heal",
-		fr: "Guérison Totale",
-		de: "Hyperheiler",
-		it: "Recupero Totale"
+		'en-us': "Full Heal",
+		'fr-fr': "Guérison Totale",
+		'de-de': "Hyperheiler",
+		'it-it': "Recupero Totale"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,10 +15,10 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Your Active Pokémon is no longer Asleep, Confused, Paralyzed, or Poisoned.",
-		fr: "Votre Pokémon actif n'est plus Endormi, Confus, Paralysé ou Empoisonné.",
-		de: "Dein aktives Pokémon ist nicht mehr schlafend, verwirrt, gelähmt oder vergiftet.",
-		it: "Il tuo Pokémon Attivo non è più Addormentato, Confuso, Paralizzato o Avvelenato."
+		'en-us': "Your Active Pokémon is no longer Asleep, Confused, Paralyzed, or Poisoned.",
+		'fr-fr': "Votre Pokémon actif n'est plus Endormi, Confus, Paralysé ou Empoisonné.",
+		'de-de': "Dein aktives Pokémon ist nicht mehr schlafend, verwirrt, gelähmt oder vergiftet.",
+		'it-it': "Il tuo Pokémon Attivo non è più Addormentato, Confuso, Paralizzato o Avvelenato."
 	},
 
 	variants: [

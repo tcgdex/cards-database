@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Solosis",
-		fr: "Nucléos",
-		de: "Monozyto",
-		it: "Solosis",
-		pt: "Solosis",
-		es: "Solosis",
+		'en-us': "Solosis",
+		'fr-fr': "Nucléos",
+		'de-de': "Monozyto",
+		'it-it': "Solosis",
+		'pt-br': "Solosis",
+		'es-es': "Solosis",
 		'es-mx': "Solosis"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Rollout",
-			fr: "Roulade",
-			de: "Walzer",
-			it: "Rotolamento",
-			pt: "Rolagem",
-			es: "Rodar",
+			'en-us': "Rollout",
+			'fr-fr': "Roulade",
+			'de-de': "Walzer",
+			'it-it': "Rotolamento",
+			'pt-br': "Rolagem",
+			'es-es': "Rodar",
 			'es-mx': "Rodada"
 		},
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Clefairy",
-		fr: "Mélofée",
-		de: "Piepi"
+		'en-us': "Clefairy",
+		'fr-fr': "Mélofée",
+		'de-de': "Piepi"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shining Fingers",
-				fr: "Doigts brillants",
-				de: "Leuchtender Finger"
+				'en-us': "Shining Fingers",
+				'fr-fr': "Doigts brillants",
+				'de-de': "Leuchtender Finger"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slap",
-				fr: "Beigne",
-				de: "Ohrfeige"
+				'en-us': "Slap",
+				'fr-fr': "Beigne",
+				'de-de': "Ohrfeige"
 			},
 
 			damage: 10,

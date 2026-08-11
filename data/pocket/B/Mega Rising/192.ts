@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Exploud"
+		'en-us': "Exploud"
 	},
 
 	illustrator: "kawayoo",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Loudred"
+		'en-us': "Loudred"
 	},
 
 	description: {
-		en: "This Pokémon can do more than just shout. To\ncommunicate with others of its kind, it'll emit all\nsorts of sounds from the holes in its body."
+		'en-us': "This Pokémon can do more than just shout. To\ncommunicate with others of its kind, it'll emit all\nsorts of sounds from the holes in its body."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Booming Roar"
+			'en-us': "Booming Roar"
 		},
 
 		damage: 90,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "During your opponent's next turn, they can't play any Item cards from their hand."
+			'en-us': "During your opponent's next turn, they can't play any Item cards from their hand."
 		}
 	}],
 

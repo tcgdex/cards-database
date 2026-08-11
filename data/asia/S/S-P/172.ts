@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガラル ヤドン",
+		'ja-jp': "ガラル ヤドン",
 		'zh-tw': "拉苯博士",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "ガラル地方にだけ 生息する 植物の タネを 食べているため しっぽは スパイシーな 味わいだ。",
+		'ja-jp': "ガラル地方にだけ 生息する 植物の タネを 食べているため しっぽは スパイシーな 味わいだ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			name: { ja: "みんなでねそべる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のポケモン全員のHPを、それぞれ「10」回復する。",
+				'ja-jp': "自分のポケモン全員のHPを、それぞれ「10」回復する。",
 			},
 		},
 		{

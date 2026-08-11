@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Golem",
-		de: "Geowaz"
+		'en-us': "Golem",
+		'de-de': "Geowaz"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Graveler",
+		'en-us': "Graveler",
 	},
 
 	stage: "Stage2",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Crystal Type",
-				de: "Kristall-Typ"
+				'en-us': "Crystal Type",
+				'de-de': "Kristall-Typ"
 			},
 			effect: {
-				en: "Whenever you attach a Grass, Fire, or Fighting basic Energy card from your hand to Golem, Golem's type (color) becomes the same as that type of Energy until the end of the turn.",
-				de: "Immer wenn du eine -, - oder -Basis-Energiekarte aus deiner Hand an Geowaz anlegst, ändert sich Geowaz Typ (Farbe) bis zum Ende des Zuges zu dem gleichen Typ wie diese Energie."
+				'en-us': "Whenever you attach a Grass, Fire, or Fighting basic Energy card from your hand to Golem, Golem's type (color) becomes the same as that type of Energy until the end of the turn.",
+				'de-de': "Immer wenn du eine -, - oder -Basis-Energiekarte aus deiner Hand an Geowaz anlegst, ändert sich Geowaz Typ (Farbe) bis zum Ende des Zuges zu dem gleichen Typ wie diese Energie."
 			},
 		},
 	],
@@ -48,8 +48,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Throw",
-				de: "Steinwurf"
+				'en-us': "Rock Throw",
+				'de-de': "Steinwurf"
 			},
 
 			damage: 30,
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Earth Bomb",
-				de: "Erdbombe"
+				'en-us': "Earth Bomb",
+				'de-de': "Erdbombe"
 			},
 			effect: {
-				en: "Golem does 20 damage to itself. This attack also does 10 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				de: "Geowaz fügt sich selber 20 Schadenspunkte zu. Deiser Angriff fügt zudem jedem Pokémon auf der Bank 10 Schadnepunkte zu (deinen und den gegnerischen Pokémon). (Wende keine Schwäche oder resistenz bei Pokémon auf der Bank an.)"
+				'en-us': "Golem does 20 damage to itself. This attack also does 10 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'de-de': "Geowaz fügt sich selber 20 Schadenspunkte zu. Deiser Angriff fügt zudem jedem Pokémon auf der Bank 10 Schadnepunkte zu (deinen und den gegnerischen Pokémon). (Wende keine Schwäche oder resistenz bei Pokémon auf der Bank an.)"
 			},
 			damage: 50,
 

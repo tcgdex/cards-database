@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Raichu",
-		fr: "Raichu",
-		es: "Raichu",
-		it: "Raichu",
-		pt: "Raichu",
-		de: "Raichu"
+		'en-us': "Raichu",
+		'fr-fr': "Raichu",
+		'es-es': "Raichu",
+		'it-it': "Raichu",
+		'pt-br': "Raichu",
+		'de-de': "Raichu"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pikachu",
-		fr: "Pikachu",
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thundershock",
-				fr: "Éclair",
+				'en-us': "Thundershock",
+				'fr-fr': "Éclair",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 20,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slam",
-				fr: "Souplesse",
+				'en-us': "Slam",
+				'fr-fr': "Souplesse",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 80 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 80 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 80 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 80 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 80,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+		'en-us': "Its tail discharges electricity into the ground, protecting it from getting shocked.",
 	},
 
 	thirdParty: {

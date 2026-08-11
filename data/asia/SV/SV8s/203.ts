@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Appletun"
+		'id-id': "Appletun"
 	},
 
 	illustrator: "MINAMINAMI Take",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		id: "Appletun mengusir Lechonk yang datang untuk menjilat madu manis di punggungnya dengan memuntahkan nektar lengket."
+		'id-id': "Appletun mengusir Lechonk yang datang untuk menjilat madu manis di punggungnya dengan memuntahkan nektar lengket."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Sweet Melt"
+			'id-id': "Sweet Melt"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat menggunakan serangan."
+			'id-id': "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 50,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Wild Tackle"
+			'id-id': "Wild Tackle"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 20."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 20."
 		},
 
 		damage: 130,

@@ -1,13 +1,13 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Trainer kits'
 
 const set: Set = {
 	id: "tk-bw-e",
 
 	name: {
-		en: "BW trainer Kit (Excadrill)",
-		fr: "BW Kit du dresseur (Minitaupe)",
-		es: "Kit de Entrenador BW (Excadrill)",
+		'en-us': "BW trainer Kit (Excadrill)",
+		'fr-fr': "BW Kit du dresseur (Minitaupe)",
+		'es-es': "Kit de Entrenador BW (Excadrill)",
 	},
 
 	serie: serie,
@@ -20,7 +20,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "TK5E",
-		fr: "MIN"
+		'fr-fr': "MIN"
 	},
 
 	thirdParty: {

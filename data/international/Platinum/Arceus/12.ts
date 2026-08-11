@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Zapdos G",
-		de: "Zapdos G"
+		'en-us': "Zapdos G",
+		'de-de': "Zapdos G"
 	},
 
 	illustrator: "Ryota Saito",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Charge Beam",
-				de: "Ladestrahl"
+				'en-us': "Charge Beam",
+				'de-de': "Ladestrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your discard pile for an Energy card and attach it to Zapdos G.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" durchsuche deinen Ablagestapel nach 1 Energiekarte und lege sie an Zapdos G an."
+				'en-us': "Flip a coin. If heads, search your discard pile for an Energy card and attach it to Zapdos G.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" durchsuche deinen Ablagestapel nach 1 Energiekarte und lege sie an Zapdos G an."
 			},
 			damage: 10,
 
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lightning Strike",
-				de: "Blitzschlag"
+				'en-us': "Lightning Strike",
+				'de-de': "Blitzschlag"
 			},
 			effect: {
-				en: "You may discard all Lightning attached to Zapdos G. If you do, this attack's base damage is 80 instead of 40.",
-				de: "Du kannst alle -Energien von Zapdos G entfernen und auf deinen Ablagestapel legen. Wenn du das machst, beträgt der Grundschaden dieses Angriffs 80 Schadenspunkte anstelle von 40 Schadenspunkten."
+				'en-us': "You may discard all Lightning attached to Zapdos G. If you do, this attack's base damage is 80 instead of 40.",
+				'de-de': "Du kannst alle -Energien von Zapdos G entfernen und auf deinen Ablagestapel legen. Wenn du das machst, beträgt der Grundschaden dieses Angriffs 80 Schadenspunkte anstelle von 40 Schadenspunkten."
 			},
 			damage: 40,
 

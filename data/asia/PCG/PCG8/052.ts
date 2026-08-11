@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウィグリティフ",
+		'ja-jp': "ウィグリティフ",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ふわふわした毛皮",
+				'ja-jp': "ふわふわした毛皮",
 			},
 			effect: {
-				ja: "Wigglytuffがあなたのアクティブなポカモンであり、相手の攻撃によって損傷を受けている場合（Wigglytuffがノックアウトされたとしても）、攻撃するPokã©Monは今眠っています。",
+				'ja-jp': "Wigglytuffがあなたのアクティブなポカモンであり、相手の攻撃によって損傷を受けている場合（Wigglytuffがノックアウトされたとしても）、攻撃するPokã©Monは今眠っています。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "集める",
+				'ja-jp': "集める",
 			},
 			effect: {
-				ja: "3枚のカードを描きます。",
+				'ja-jp': "3枚のカードを描きます。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ペスター",
+				'ja-jp': "ペスター",
 			},
 			effect: {
-				ja: "防御ポケモンが特別な状態の影響を受ける場合、この攻撃は30のダメージと20のダメージを与えます。",
+				'ja-jp': "防御ポケモンが特別な状態の影響を受ける場合、この攻撃は30のダメージと20のダメージを与えます。",
 			},
 		},
 	],

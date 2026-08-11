@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Igglybuff",
+		'ja-jp': "Igglybuff",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "エネルギーヒール",
+				'ja-jp': "エネルギーヒール",
 			},
 			effect: {
-				ja: "エネルギーカードが取り付けられたポケモンを1つ選択します。そのポケモンから1つのダメージカウンターを取り外します。",
+				'ja-jp': "エネルギーカードが取り付けられたポケモンを1つ選択します。そのポケモンから1つのダメージカウンターを取り外します。",
 			},
 		},
 	],

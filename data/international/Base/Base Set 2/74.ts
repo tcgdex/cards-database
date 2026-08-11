@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Exeggcute",
+		'en-us': "Exeggcute",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hypnosis",
+				'en-us': "Hypnosis",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
+				'en-us': "The Defending Pokémon is now Asleep.",
 			},
 
 		},
@@ -42,10 +42,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Leech Seed",
+				'en-us': "Leech Seed",
 			},
 			effect: {
-				en: "Unless all damage from this attack is prevented, you may remove 1 damage counter from Exeggcute.",
+				'en-us': "Unless all damage from this attack is prevented, you may remove 1 damage counter from Exeggcute.",
 			},
 			damage: 20,
 
@@ -62,7 +62,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms.",
+		'en-us': "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms.",
 	},
 
 

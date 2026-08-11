@@ -1,18 +1,18 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S12"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "大口の沼"
+		'ja-jp': "大口の沼"
 	},
 
 	illustrator: "Oswaldo KATO",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのプレイヤーは、それぞれ、手札からたねポケモンをベンチに出すたび、そのポケモンにダメカンを2個のせる。"
+		'ja-jp': "おたがいのプレイヤーは、それぞれ、手札からたねポケモンをベンチに出すたび、そのポケモンにダメカンを2個のせる。"
 	},
 
 	variants: [

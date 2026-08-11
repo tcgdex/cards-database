@@ -1,5 +1,5 @@
 import Set from "."
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 
 const card: Card = {
 	set: Set,

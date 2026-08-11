@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Flabébé",
-		fr: "Flabébé",
+		'en-us': "Flabébé",
+		'fr-fr': "Flabébé",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'Herbe",
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'Herbe",
 			},
 
 			damage: 10,
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It's OK. No one will take away your flower. You look cute even when you're angry.",
+		'en-us': "It's OK. No one will take away your flower. You look cute even when you're angry.",
 	},
 
 	thirdParty: {

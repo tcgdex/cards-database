@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グリ",
+		'ja-jp': "グリ",
 	},
 
 	illustrator: "Souichirou Gunjima",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのポケモン全員のHPを、それぞれ「50」回復する。",
+		'ja-jp': "おたがいのポケモン全員のHPを、それぞれ「50」回復する。",
 	},
 
 	variants: [{ type: "normal" }],

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Phantump"
+		'id-id': "Phantump"
 	},
 
 	illustrator: "Katsunori Sato",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Pokémon yang merupakan roh anak kecil yang meninggal, lalu bersemayam di tunggul pohon. Ia berkeliaran di hutan dan mencari kawan."
+		'id-id': "Pokémon yang merupakan roh anak kecil yang meninggal, lalu bersemayam di tunggul pohon. Ia berkeliaran di hutan dan mencari kawan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Bibit Parasit"
+			'id-id': "Bibit Parasit"
 		},
 
 		effect: {
-			id: "Pulihkan HP Pokémon ini sejumlah 20."
+			'id-id': "Pulihkan HP Pokémon ini sejumlah 20."
 		},
 
 		damage: 20,

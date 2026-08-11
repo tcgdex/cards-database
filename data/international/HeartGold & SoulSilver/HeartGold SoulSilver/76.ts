@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Paras",
-		fr: "Paras",
-		de: "Paras"
+		'en-us': "Paras",
+		'fr-fr': "Paras",
+		'de-de': "Paras"
 	},
 
 	illustrator: "Midori Harada",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-edge Claw",
-				fr: "Griffe Damoclès",
-				de: "Zweischneidige Klaue"
+				'en-us': "Double-edge Claw",
+				'fr-fr': "Griffe Damoclès",
+				'de-de': "Zweischneidige Klaue"
 			},
 			effect: {
-				en: "Paras does 10 damage to itself.",
-				fr: "Paras s’inflige 10 dégâts.",
-				de: "Paras fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Paras does 10 damage to itself.",
+				'fr-fr': "Paras s’inflige 10 dégâts.",
+				'de-de': "Paras fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "As its body grows large, large mushrooms named tochukaso start sprouting out of its back."
+		'en-us': "As its body grows large, large mushrooms named tochukaso start sprouting out of its back."
 	},
 
 	variants: [

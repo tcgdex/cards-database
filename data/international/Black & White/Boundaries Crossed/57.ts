@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Zebstrika",
-		fr: "Zéblitz",
-		es: "Zebstrika",
-		it: "Zebstrika",
-		pt: "Zebstrika",
-		de: "Zebritz"
+		'en-us': "Zebstrika",
+		'fr-fr': "Zéblitz",
+		'es-es': "Zebstrika",
+		'it-it': "Zebstrika",
+		'pt-br': "Zebstrika",
+		'de-de': "Zebritz"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Blitzle",
-		fr: "Zébibron",
+		'en-us': "Blitzle",
+		'fr-fr': "Zébibron",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flame Charge",
-				fr: "Nitrocharge",
+				'en-us': "Flame Charge",
+				'fr-fr': "Nitrocharge",
 			},
 			effect: {
-				en: "Search your deck for a Fire Energy card and attach it to this Pokémon. Shuffle your deck afterward.",
-				fr: "Cherchez une carte Énergie Fire dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for a Fire Energy card and attach it to this Pokémon. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez une carte Énergie Fire dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder",
-				fr: "Fatal-Foudre",
+				'en-us': "Thunder",
+				'fr-fr': "Fatal-Foudre",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon does 30 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 30 dégâts.",
+				'en-us': "Flip a coin. If tails, this Pokémon does 30 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 30 dégâts.",
 			},
 			damage: 90,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When this ill-tempered Pokémon runs wild, it shoots lightning from its mane in all directions.",
+		'en-us': "When this ill-tempered Pokémon runs wild, it shoots lightning from its mane in all directions.",
 	},
 
 	thirdParty: {

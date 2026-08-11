@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハクリュー",
+		'ja-jp': "ハクリュー",
 	},
 
 	illustrator: "hatachu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "天候を 司る 者として 太古から 農業を 営む 人々に 崇められてきた。",
+		'ja-jp': "天候を 司る 者として 太古から 農業を 営む 人々に 崇められてきた。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "りゅうのいのり" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の自分の番、自分は、手札からエネルギーを何枚でもポケモンにつけられる。",
+				'ja-jp': "次の自分の番、自分は、手札からエネルギーを何枚でもポケモンにつけられる。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ミニリュウ",
+		'ja-jp': "ミニリュウ",
 	},
 
 	retreat: 2,

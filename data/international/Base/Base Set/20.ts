@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Electabuzz",
-		fr: "Élektek",
-		de: "Elektek",
-		it: "Electabuzz"
+		'en-us': "Electabuzz",
+		'fr-fr': "Élektek",
+		'de-de': "Elektek",
+		'it-it': "Electabuzz"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,16 +32,16 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thundershock",
-				fr: "Éclair",
-				de: "Donnerschock",
-				it: "Tuonoshock"
+				'en-us': "Thundershock",
+				'fr-fr': "Éclair",
+				'de-de': "Donnerschock",
+				'it-it': "Tuonoshock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon gelhämt.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon gelhämt.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
 			},
 			damage: 10,
 
@@ -52,16 +52,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunderpunch",
-				fr: "Poing-Éclair",
-				de: "Donnerschlag",
-				it: "Tuonopugno"
+				'en-us': "Thunderpunch",
+				'fr-fr': "Poing-Éclair",
+				'de-de': "Donnerschlag",
+				'it-it': "Tuonopugno"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage and Electabuzz does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires ; si c'est pile, cette attaque inflige 30 dégâts et Élektek s'inflige 10 dégâts.",
-				de: "Wirf eine Münze. Bei Kopf fügt dieser Angriff 30 Schdenspunkte plus 10 weitere Schadenspunkte zu. Bei Zahl fügt dieser Angriff 30 Schadenspunkte zu, und Elektek fügt sich selbst 10 Schadenspunkte zu.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni più altri 10 danni; se esce croce, questo attacco infligge 30 danni e Electabuzz si infligge 10 danni.",
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage and Electabuzz does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires ; si c'est pile, cette attaque inflige 30 dégâts et Élektek s'inflige 10 dégâts.",
+				'de-de': "Wirf eine Münze. Bei Kopf fügt dieser Angriff 30 Schdenspunkte plus 10 weitere Schadenspunkte zu. Bei Zahl fügt dieser Angriff 30 Schadenspunkte zu, und Elektek fügt sich selbst 10 Schadenspunkte zu.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni più altri 10 danni; se esce croce, questo attacco infligge 30 danni e Electabuzz si infligge 10 danni.",
 			},
 			damage: "30+",
 
@@ -108,9 +108,9 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Normally found near power plants, it can wander away and cause major blackouts in cities.",
-		fr: "Vivant dans les centrales, il provoque des pannes de courant en s'aventurant en ville.",
-		it: "Si trova in genere vicino a centrali elettriche, ma può allontanarsi e causare gravissimi blackout nelle città. LIV 35 N.125"
+		'en-us': "Normally found near power plants, it can wander away and cause major blackouts in cities.",
+		'fr-fr': "Vivant dans les centrales, il provoque des pannes de courant en s'aventurant en ville.",
+		'it-it': "Si trova in genere vicino a centrali elettriche, ma può allontanarsi e causare gravissimi blackout nelle città. LIV 35 N.125"
 	}
 }
 

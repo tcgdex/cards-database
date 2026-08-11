@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY trainer Kit (Sylveon)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Granbull",
-		fr: "Granbull",
-		es: "Granbull",
-		it: "Granbull",
-		pt: "Granbull",
-		de: "Granbull"
+		'en-us': "Granbull",
+		'fr-fr': "Granbull",
+		'es-es': "Granbull",
+		'it-it': "Granbull",
+		'pt-br': "Granbull",
+		'de-de': "Granbull"
 	},
 
 	rarity: "Common",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Fairy"],
 
 	evolveFrom: {
-		en: "Snubbull",
-		fr: "Snubbull",
-		es: "Snubbull",
-		it: "Snubbull",
-		pt: "Snubbull",
-		de: "Snubbull"
+		'en-us': "Snubbull",
+		'fr-fr': "Snubbull",
+		'es-es': "Snubbull",
+		'it-it': "Snubbull",
+		'pt-br': "Snubbull",
+		'de-de': "Snubbull"
 	},
 
 	stage: "Stage1",

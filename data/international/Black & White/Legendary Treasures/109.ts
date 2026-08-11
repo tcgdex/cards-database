@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Bianca",
+		'en-us': "Bianca",
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -13,7 +13,7 @@ const card: Card = {
 	trainerType: "Supporter",
 
 	effect: {
-		en: "Draw cards until you have 6 cards in your hand."
+		'en-us': "Draw cards until you have 6 cards in your hand."
 	},
 
 	thirdParty: {

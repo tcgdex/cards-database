@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Quagsire",
-		fr: "Maraiste",
-		es: "Quagsire",
-		it: "Quagsire",
-		pt: "Quagsire",
-		de: "Morlord"
+		'en-us': "Quagsire",
+		'fr-fr': "Maraiste",
+		'es-es': "Quagsire",
+		'it-it': "Quagsire",
+		'pt-br': "Quagsire",
+		'de-de': "Morlord"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wooper",
-		fr: "Axoloto",
-		es: "Wooper",
-		it: "Wooper",
-		pt: "Wooper",
-		de: "Felino"
+		'en-us': "Wooper",
+		'fr-fr': "Axoloto",
+		'es-es': "Wooper",
+		'it-it': "Wooper",
+		'pt-br': "Wooper",
+		'de-de': "Felino"
 	},
 
 	stage: "Stage1",
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse Vague",
-				es: "Chapoteo Ondulante",
-				it: "Schizzi d'Onda",
-				pt: "Onda Borrifante",
-				de: "Wellenplatscher"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse Vague",
+				'es-es': "Chapoteo Ondulante",
+				'it-it': "Schizzi d'Onda",
+				'pt-br': "Onda Borrifante",
+				'de-de': "Wellenplatscher"
 			},
 
 			damage: 30,
@@ -62,20 +62,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Landslide",
-				fr: "Glissement de Terrain",
-				es: "Desprendimiento",
-				it: "Sconquasso",
-				pt: "Deslizamento de Terra",
-				de: "Erdlawine"
+				'en-us': "Landslide",
+				'fr-fr': "Glissement de Terrain",
+				'es-es': "Desprendimiento",
+				'it-it': "Sconquasso",
+				'pt-br': "Deslizamento de Terra",
+				'de-de': "Erdlawine"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				es: "El daño de este ataque no se ve afectado por Resistencia.",
-				it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-				pt: "Os danos deste ataque não são afetados por Resistência.",
-				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+				'it-it': "I danni di questo attacco non sono influenzati dalla resistenza.",
+				'pt-br': "Os danos deste ataque não são afetados por Resistência.",
+				'de-de': "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 80,
 
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "This carefree Pokémon has an easy-going nature. While swimming, it always bumps into boat hulls.",
+		'en-us': "This carefree Pokémon has an easy-going nature. While swimming, it always bumps into boat hulls.",
 	},
 
 	thirdParty: {

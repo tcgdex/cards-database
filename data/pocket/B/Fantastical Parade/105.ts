@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [510],
 
 	name: {
-		en: "Liepard"
+		'en-us': "Liepard"
 	},
 
 	illustrator: "sui",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Purrloin"
+		'en-us': "Purrloin"
 	},
 
 	description: {
-		en: "Don't be fooled by its gorgeous fur and elegant\nfigure. This is a moody and vicious Pokémon."
+		'en-us': "Don't be fooled by its gorgeous fur and elegant\nfigure. This is a moody and vicious Pokémon."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Fasten Claws"
+			'en-us': "Fasten Claws"
 		},
 
 		damage: 30,
 		cost: ["Darkness"],
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage."
+			'en-us': "Flip a coin. If heads, this attack does 30 more damage."
 		}
 	}],
 

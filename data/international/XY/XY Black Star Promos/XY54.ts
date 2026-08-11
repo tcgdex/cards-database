@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Blaziken EX",
-		fr: "Braségali EX",
+		'en-us': "Blaziken EX",
+		'fr-fr': "Braségali EX",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fist of Focus",
-				fr: "Poing Déterminé",
+				'en-us': "Fist of Focus",
+				'fr-fr': "Poing Déterminé",
 			},
 			effect: {
-				en: "Attach an Energy card from your discard pile to this Pokémon.",
-				fr: "Attachez une carte Énergie de votre pile de défausse à ce Pokémon.",
+				'en-us': "Attach an Energy card from your discard pile to this Pokémon.",
+				'fr-fr': "Attachez une carte Énergie de votre pile de défausse à ce Pokémon.",
 			},
 			damage: 30,
 
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare Storm",
-				fr: "Tempête Flamboyante",
+				'en-us': "Flare Storm",
+				'fr-fr': "Tempête Flamboyante",
 			},
 			effect: {
-				en: "Flip a coin for each Fire Energy attached to this Pokémon. This attack does 20 more damage for each heads.",
-				fr: "Lancez une pièce pour chaque Énergie Fire attachée à ce Pokémon. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				'en-us': "Flip a coin for each Fire Energy attached to this Pokémon. This attack does 20 more damage for each heads.",
+				'fr-fr': "Lancez une pièce pour chaque Énergie Fire attachée à ce Pokémon. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
 			},
 			damage: "100＋",
 

@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pignite",
-		fr: "Grotichon",
-		es: "Pignite",
+		'en-us': "Pignite",
+		'fr-fr': "Grotichon",
+		'es-es': "Pignite",
 		'es-mx': "Pignite",
-		de: "Ferkokel",
-		it: "Pignite",
-		pt: "Pignite"
+		'de-de': "Ferkokel",
+		'it-it': "Pignite",
+		'pt-br': "Pignite"
 	},
 
 	evolveFrom: {
-		en: "Tepig",
-		fr: "Gruikui",
-		es: "Tepig",
+		'en-us': "Tepig",
+		'fr-fr': "Gruikui",
+		'es-es': "Tepig",
 		'es-mx': "Tepig",
-		de: "Floink",
-		it: "Tepig",
-		pt: "Tepig",
+		'de-de': "Floink",
+		'it-it': "Tepig",
+		'pt-br': "Tepig",
 	},
 
 	illustrator: "Aliya Chen",
@@ -36,23 +36,23 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Super Singe",
-			fr: "Super Roussi",
-			es: "Superquemadura",
+			'en-us': "Super Singe",
+			'fr-fr': "Super Roussi",
+			'es-es': "Superquemadura",
 			'es-mx': "Superquemadura",
-			de: "Super-Versengung",
-			it: "Super Scottata",
-			pt: "Superchamuscada"
+			'de-de': "Super-Versengung",
+			'it-it': "Super Scottata",
+			'pt-br': "Superchamuscada"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			'en-us': "Your opponent's Active Pokémon is now Burned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
 			'es-mx': "El Pokémon Activo de tu rival ahora está Quemado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado."
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado."
 		},
 
 		damage: 70
@@ -68,7 +68,7 @@ const card: Card = {
 	regulationMark: "J",
 
 	description: {
-		en: "The more it eats, the more fuel it has to make the fire in its stomach stronger. This fills it with even more power.",
+		'en-us': "The more it eats, the more fuel it has to make the fire in its stomach stronger. This fills it with even more power.",
 	},
 
 	variants: [

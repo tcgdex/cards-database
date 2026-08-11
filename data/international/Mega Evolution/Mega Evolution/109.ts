@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Yungoos",
-		fr: "Manglouton",
-		de: "Mangunior",
-		it: "Yungoos",
-		es: "Yungoos",
-		pt: "Yungoos",
+		'en-us': "Yungoos",
+		'fr-fr': "Manglouton",
+		'de-de': "Mangunior",
+		'it-it': "Yungoos",
+		'es-es': "Yungoos",
+		'pt-br': "Yungoos",
 		'es-mx': "Yungoos"
 	},
 
@@ -26,34 +26,34 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			de: "Sammeln",
-			it: "Tassa",
-			es: "Coleccionar",
-			pt: "Coleta",
+			'en-us': "Collect",
+			'fr-fr': "Collecte",
+			'de-de': "Sammeln",
+			'it-it': "Tassa",
+			'es-es': "Coleccionar",
+			'pt-br': "Coleta",
 			'es-mx': "Recolectar"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			de: "Ziehe 1 Karte.",
-			it: "Pesca una carta.",
-			es: "Roba 1 carta.",
-			pt: "Compre uma carta.",
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'de-de': "Ziehe 1 Karte.",
+			'it-it': "Pesca una carta.",
+			'es-es': "Roba 1 carta.",
+			'pt-br': "Compre uma carta.",
 			'es-mx': "Roba 1 carta."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Gnaw",
-			fr: "Ronge",
-			de: "Nagen",
-			it: "Rosicchiamento",
-			es: "Roer",
-			pt: "Roída",
+			'en-us': "Gnaw",
+			'fr-fr': "Ronge",
+			'de-de': "Nagen",
+			'it-it': "Rosicchiamento",
+			'es-es': "Roer",
+			'pt-br': "Roída",
 			'es-mx': "Mordisquear"
 		},
 

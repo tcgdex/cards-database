@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クチート",
+		'ja-jp': "クチート",
 	},
 
 	illustrator: "OKACHEKE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "ツノが 変形して できた 大あごが 頭に ついている。 鉄骨を 噛み切ってしまう。",
+		'ja-jp': "ツノが 変形して できた 大あごが 頭に ついている。 鉄骨を 噛み切ってしまう。",
 	},
 
 	stage: "Basic",

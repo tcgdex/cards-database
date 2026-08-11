@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Sewaddle",
-		fr: "Larveyette",
-		es: "Sewaddle",
-		it: "Sewaddle",
-		pt: "Sewaddle",
-		de: "Strawickl"
+		'en-us': "Sewaddle",
+		'fr-fr': "Larveyette",
+		'es-es': "Sewaddle",
+		'it-it': "Sewaddle",
+		'pt-br': "Sewaddle",
+		'de-de': "Strawickl"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Swaddling Leaves",
-				fr: "Feuillage Enveloppant",
-				es: "Hojas Envolventes",
-				it: "Fogliefascia",
-				pt: "Enfaixar com Folhas",
-				de: "Blätterwickel"
+				'en-us': "Swaddling Leaves",
+				'fr-fr': "Feuillage Enveloppant",
+				'es-es': "Hojas Envolventes",
+				'it-it': "Fogliefascia",
+				'pt-br': "Enfaixar com Folhas",
+				'de-de': "Blätterwickel"
 			},
 			effect: {
-				en: "This Pokémon takes 10 less damage from attacks (after applying Weakness and Resistance).",
-				fr: "Ce Pokémon subit 10 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-				es: "Los ataques hacen 10 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-				it: "Questo Pokémon subisce 10 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-				pt: "Este Pokémon recebe 10 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
-				de: "Diesem Pokémon werden durch Attacken 10 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "This Pokémon takes 10 less damage from attacks (after applying Weakness and Resistance).",
+				'fr-fr': "Ce Pokémon subit 10 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+				'es-es': "Los ataques hacen 10 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+				'it-it': "Questo Pokémon subisce 10 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+				'pt-br': "Este Pokémon recebe 10 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
+				'de-de': "Diesem Pokémon werden durch Attacken 10 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -56,20 +56,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Surprise Attack",
-				fr: "Attaque Surprise",
-				es: "Ataque Sorpresa",
-				it: "Attacco a Sorpresa",
-				pt: "Ataque Surpresa",
-				de: "Überraschungsangriff"
+				'en-us': "Surprise Attack",
+				'fr-fr': "Attaque Surprise",
+				'es-es': "Ataque Sorpresa",
+				'it-it': "Attacco a Sorpresa",
+				'pt-br': "Ataque Surpresa",
+				'de-de': "Überraschungsangriff"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
-				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-				pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
-				de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+				'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+				'pt-br': "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+				'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon makes clothes for itself. It chews up leaves and sews them with sticky thread extruded from its mouth.",
+		'en-us': "This Pokémon makes clothes for itself. It chews up leaves and sews them with sticky thread extruded from its mouth.",
 	},
 
 	thirdParty: {

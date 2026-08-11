@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [582],
 
 	name: {
-		en: "Vanillite"
+		'en-us': "Vanillite"
 	},
 
 	illustrator: "Orca",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "Supposedly, this Pokémon was born from an\nicicle. It spews out freezing air at −58 degrees\nFahrenheit to make itself more comfortable."
+		'en-us': "Supposedly, this Pokémon was born from an\nicicle. It spews out freezing air at −58 degrees\nFahrenheit to make itself more comfortable."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Chilly"
+			'en-us': "Chilly"
 		},
 
 		damage: 20,

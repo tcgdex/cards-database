@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Electrike",
-		fr: "Dynavolt",
-		de: "Frizelbliz"
+		'en-us': "Electrike",
+		'fr-fr': "Dynavolt",
+		'de-de': "Frizelbliz"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sniff Out",
-				fr: "Flairer",
-				de: "Rumschnüffeln"
+				'en-us': "Sniff Out",
+				'fr-fr': "Flairer",
+				'de-de': "Rumschnüffeln"
 			},
 			effect: {
-				en: "Put any 1 card from your discard pile into your hand.",
-				fr: "Placez n'importe quelle carte de votre pile de défausse dans votre main.",
-				de: "Wähle 1 Karte von deinem Ablagestapel und nimm sie auf deine Hand."
+				'en-us': "Put any 1 card from your discard pile into your hand.",
+				'fr-fr': "Placez n'importe quelle carte de votre pile de défausse dans votre main.",
+				'de-de': "Wähle 1 Karte von deinem Ablagestapel und nimm sie auf deine Hand."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Quick Blow",
-				fr: "Coup d'poing éclair",
-				de: "Schnellschlag"
+				'en-us': "Quick Blow",
+				'fr-fr': "Coup d'poing éclair",
+				'de-de': "Schnellschlag"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 

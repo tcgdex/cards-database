@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "のんびりじゃらし",
+		'ja-jp': "のんびりじゃらし",
 	},
 
 	illustrator: "AYUMI ODASHIMA",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードは、後攻プレイヤーの最初の番しか使えない。相手の場のポケモンについているエネルギーを1個選び、相手の手札にもどす。",
+		'ja-jp': "このカードは、後攻プレイヤーの最初の番しか使えない。相手の場のポケモンについているエネルギーを1個選び、相手の手札にもどす。",
 	},
 
 	variants: [

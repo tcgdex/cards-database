@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "テッポウオ",
+		'ja-jp': "テッポウオ",
 		'zh-tw': "鐵炮魚",
 		'zh-cn': "鐵炮魚"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "吸盤の ように 変化した 背びれで マンタインに くっつき 食べ残しを わけてもらっている。",
+		'ja-jp': "吸盤の ように 変化した 背びれで マンタインに くっつき 食べ残しを わけてもらっている。",
 		'zh-tw': "會用變成吸盤狀的背鰭 吸附在巨翅飛魚身上， 吃牠平常吃剩下的東西。",
 		'zh-cn': "會用變成吸盤狀的背鰭 吸附在巨翅飛魚身上， 吃牠平常吃剩下的東西。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "じたばた",
+			'ja-jp': "じたばた",
 			'zh-tw': "抓狂",
 			'zh-cn': "抓狂"
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 		damage: "10×",
 
 		effect: {
-			ja: "このポケモンにのっているダメカンの数×10ダメージ。",
+			'ja-jp': "このポケモンにのっているダメカンの数×10ダメージ。",
 			'zh-tw': "造成這隻寶可夢身上放置的傷害指示物的數量×10點傷害。",
 			'zh-cn': "造成這隻寶可夢身上放置的傷害指示物的數量×10點傷害。"
 		}
@@ -45,7 +45,7 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "みずかけ",
+			'ja-jp': "みずかけ",
 			'zh-tw': "潑水",
 			'zh-cn': "潑水"
 		},

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../DP Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Cresselia",
-		de: "Cresselia"
+		'en-us': "Cresselia",
+		'de-de': "Cresselia"
 	},
 	illustrator: "Wataru Kawahara",
 	rarity: "Common",
@@ -25,12 +25,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Lunar Aura",
-				de: "Lunar Aura"
+				'en-us': "Lunar Aura",
+				'de-de': "Lunar Aura"
 			},
 			effect: {
-				en: "If you have Darkrai in play, remove 1 damage counter from Cresselia between turns.",
-				de: "If you have Darkrai in play, remove 1 damage counter from Cresselia between turns."
+				'en-us': "If you have Darkrai in play, remove 1 damage counter from Cresselia between turns.",
+				'de-de': "If you have Darkrai in play, remove 1 damage counter from Cresselia between turns."
 			},
 		},
 	],
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lunar Flight",
-				de: "Lunar Flight"
+				'en-us': "Lunar Flight",
+				'de-de': "Lunar Flight"
 			},
 			effect: {
-				en: "Does 80 damage minus 10 damage for each damage counter on Cresselia.",
-				de: "Does 80 damage minus 10 damage for each damage counter on Cresselia."
+				'en-us': "Does 80 damage minus 10 damage for each damage counter on Cresselia.",
+				'de-de': "Does 80 damage minus 10 damage for each damage counter on Cresselia."
 			},
 			damage: "80-",
 
@@ -63,7 +63,7 @@ const card: Card = {
 
 
 	description: {
-		en: "On nights around the quarter moon, the aurora from its tail extends and undulates beautifully.",
+		'en-us': "On nights around the quarter moon, the aurora from its tail extends and undulates beautifully.",
 	},
 
 	variants: [

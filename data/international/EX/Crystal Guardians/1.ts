@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Banette",
-		fr: "Branette",
-		de: "Banette"
+		'en-us': "Banette",
+		'fr-fr': "Branette",
+		'de-de': "Banette"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shuppet",
-		fr: "Polichombr"
+		'en-us': "Shuppet",
+		'fr-fr': "Polichombr"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Safeguard",
-				fr: "Rune protectrice",
-				de: "Bodyguard"
+				'en-us': "Safeguard",
+				'fr-fr': "Rune protectrice",
+				'de-de': "Bodyguard"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, including damage, done to Banette by your opponent's Pokémon-ex.",
-				fr: "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Branette par les Pokémon-ex de votre adversaire.",
-				de: "Verhindere alle Effekte von Angiffen inklusive Schaden, die Banette von gegnerischen Pokémon-ex zugefügt werden."
+				'en-us': "Prevent all effects of attacks, including damage, done to Banette by your opponent's Pokémon-ex.",
+				'fr-fr': "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Branette par les Pokémon-ex de votre adversaire.",
+				'de-de': "Verhindere alle Effekte von Angiffen inklusive Schaden, die Banette von gegnerischen Pokémon-ex zugefügt werden."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Night Murmurs",
-				fr: "Murmures nocturnes",
-				de: "Nachtgeflüster"
+				'en-us': "Night Murmurs",
+				'fr-fr': "Murmures nocturnes",
+				'de-de': "Nachtgeflüster"
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Basic Pokémon, that Pokémon is now Confused.",
-				fr: "Si le Pokémon Défenseur est un Pokémon de base, il est maintenant Confus.",
-				de: "Wenn das Verteidigende Pokémon ein Basis-Pokémon ist, ist es jetzt verwirrt."
+				'en-us': "If the Defending Pokémon is a Basic Pokémon, that Pokémon is now Confused.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon de base, il est maintenant Confus.",
+				'de-de': "Wenn das Verteidigende Pokémon ein Basis-Pokémon ist, ist es jetzt verwirrt."
 			},
 			damage: 30,
 

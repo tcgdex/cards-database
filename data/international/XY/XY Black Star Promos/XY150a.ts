@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Yveltal-EX",
-		fr: "Yveltal-EX"
+		'en-us': "Yveltal-EX",
+		'fr-fr': "Yveltal-EX"
 	},
 	illustrator: "Eske Yoshinob",
 	rarity: "Promo",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Evil Ball",
-				fr: "Balle Maléfique"
+				'en-us': "Evil Ball",
+				'fr-fr': "Balle Maléfique"
 			},
 			effect: {
-				en: "This attack does 20 more damage times the amount of Energy attached to both Active Pokémon.",
-				fr: "Cette attaque inflige 20 dégâts supplémentaires multipliés par le nombre d'Énergies attachées aux deux Pokémon Actifs."
+				'en-us': "This attack does 20 more damage times the amount of Energy attached to both Active Pokémon.",
+				'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires multipliés par le nombre d'Énergies attachées aux deux Pokémon Actifs."
 			},
 			damage: 20,
 
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Y Cyclone",
-				fr: "Cyclone Y"
+				'en-us': "Y Cyclone",
+				'fr-fr': "Cyclone Y"
 			},
 			effect: {
-				en: "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
-				fr: "Déplacez une Énergie de ce Pokémon vers l'un de vos Pokémon de Banc."
+				'en-us': "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
+				'fr-fr': "Déplacez une Énergie de ce Pokémon vers l'un de vos Pokémon de Banc."
 			},
 			damage: 90,
 

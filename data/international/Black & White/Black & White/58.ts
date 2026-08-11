@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Timburr",
-		fr: "Charpenti",
-		es: "Timburr",
-		it: "Timburr",
-		pt: "Timburr",
-		de: "Praktibalk"
+		'en-us': "Timburr",
+		'fr-fr': "Charpenti",
+		'es-es': "Timburr",
+		'it-it': "Timburr",
+		'pt-br': "Timburr",
+		'de-de': "Praktibalk"
 	},
 
 	illustrator: "match",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'Face",
+				'en-us': "Pound",
+				'fr-fr': "Écras'Face",
 			},
 
 			damage: 30,
@@ -54,7 +54,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It fights by swinging a piece of timber around. It is close to evolving when it can handle the lumber without difficulty.",
+		'en-us': "It fights by swinging a piece of timber around. It is close to evolving when it can handle the lumber without difficulty.",
 	},
 
 	thirdParty: {

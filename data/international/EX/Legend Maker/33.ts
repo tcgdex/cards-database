@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legend Maker'
 
 const card: Card = {
 	name: {
-		en: "Furret",
-		fr: "Fouinar",
-		de: "Wiesenior"
+		'en-us': "Furret",
+		'fr-fr': "Fouinar",
+		'de-de': "Wiesenior"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sentret",
-		fr: "Fouinette"
+		'en-us': "Sentret",
+		'fr-fr': "Fouinette"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam",
-				fr: "Plaquage",
-				de: "Bodyslam"
+				'en-us': "Body Slam",
+				'fr-fr': "Plaquage",
+				'de-de': "Bodyslam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Do the Wave",
-				fr: "Faites la vague",
-				de: "Wellenreiten"
+				'en-us': "Do the Wave",
+				'fr-fr': "Faites la vague",
+				'de-de': "Wellenreiten"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each of your Benched Pokémon.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Pokémon que vous avez sur votre Banc.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Pokémon auf deiner Bank zu."
+				'en-us': "Does 10 damage plus 10 more damage for each of your Benched Pokémon.",
+				'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Pokémon que vous avez sur votre Banc.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Pokémon auf deiner Bank zu."
 			},
 			damage: "10+",
 

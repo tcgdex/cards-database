@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガラル ニャイキングV",
+		'ja-jp': "ガラル ニャイキングV",
 		'zh-tw': "伽勒爾 喵頭目V",
 	},
 
@@ -18,24 +18,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "じょうきげん",
+				'ja-jp': "じょうきげん",
 				'zh-tw': "好心情",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を3枚引く。",
+				'ja-jp': "自分の山札を3枚引く。",
 				'zh-tw': "從自己的牌庫抽出3張卡。",
 			},
 		},
 		{
 			name: {
-				ja: "おたからラッシュ",
+				'ja-jp': "おたからラッシュ",
 				'zh-tw': "寶物猛攻",
 			},
 			damage: "20×",
 			cost: ["Metal", "Colorless"],
 			effect: {
-				ja: "自分の手札の枚数×20ダメージ。",
+				'ja-jp': "自分の手札の枚数×20ダメージ。",
 				'zh-tw': "造成自己的手牌的張數×20點傷害。",
 			},
 		},

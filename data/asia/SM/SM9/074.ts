@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガルーラ",
+		'ja-jp': "ガルーラ",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "お腹の 袋に 我が子を 入れて 守る。 子どもを 傷つけた者は 絶対に 許さず 叩きのめす。",
+		'ja-jp': "お腹の 袋に 我が子を 入れて 守る。 子どもを 傷つけた者は 絶対に 許さず 叩きのめす。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "しんかそくせい" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある進化ポケモンを2枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札にある進化ポケモンを2枚まで、相手に見せてから、手札に加える。そして山札を切る。",
 			},
 		},
 		{

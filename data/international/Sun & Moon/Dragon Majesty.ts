@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sun & Moon'
 
 const sm75: Set = {
 	id: "sm7.5",
 
 	name: {
-		en: "Dragon Majesty",
-		fr: "Majesté Des Dragons",
-		es: "Majestad De Dragones",
-		it: "Trionfo Dei Draghi",
-		de: "Majestät Der Drachen",
-		pt: "Dragões Soberanos"
+		'en-us': "Dragon Majesty",
+		'fr-fr': "Majesté Des Dragons",
+		'es-es': "Majestad De Dragones",
+		'it-it': "Trionfo Dei Draghi",
+		'de-de': "Majestät Der Drachen",
+		'pt-br': "Dragões Soberanos"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const sm75: Set = {
 
 	abbreviations: {
 		official: "DRM",
-		fr: "MDD"
+		'fr-fr': "MDD"
 	},
 
 	thirdParty: {

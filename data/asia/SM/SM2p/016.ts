@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホエルオー",
+		'ja-jp': "ホエルオー",
 	},
 
 	illustrator: "OOYAMA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "群れで 獲物を 追う 習性。 大きな 口で ヨワシの 群れごと 一気に 呑み込んでしまうぞ。",
+		'ja-jp': "群れで 獲物を 追う 習性。 大きな 口で ヨワシの 群れごと 一気に 呑み込んでしまうぞ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Water", "Water", "Water", "Colorless"],
 			effect: {
-				ja: "自分の[水]ポケモン全員のHPを、それぞれ「30」回復する。",
+				'ja-jp': "自分の[水]ポケモン全員のHPを、それぞれ「30」回復する。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ホエルコ",
+		'ja-jp': "ホエルコ",
 	},
 
 	retreat: 4,

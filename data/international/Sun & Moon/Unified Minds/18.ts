@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Steenee",
-		fr: "Candine",
-		es: "Steenee",
-		it: "Steenee",
-		pt: "Steenee",
-		de: "Frubaila"
+		'en-us': "Steenee",
+		'fr-fr': "Candine",
+		'es-es': "Steenee",
+		'it-it': "Steenee",
+		'pt-br': "Steenee",
+		'de-de': "Frubaila"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bounsweet",
-		fr: "Croquine",
+		'en-us': "Bounsweet",
+		'fr-fr': "Croquine",
 	},
 
 	stage: "Stage1",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Slap",
-				fr: "Torgnoles",
-				es: "Doble Bofetón",
-				it: "Doppiasberla",
-				pt: "Tapa Duplo",
-				de: "Duplexhieb"
+				'en-us': "Double Slap",
+				'fr-fr': "Torgnoles",
+				'es-es': "Doble Bofetón",
+				'it-it': "Doppiasberla",
+				'pt-br': "Tapa Duplo",
+				'de-de': "Duplexhieb"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
-				es: "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
-				it: "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
-				pt: "Jogue 2 moedas. Este ataque causa 30 pontos de dano para cada cara.",
-				de: "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
+				'en-us': "Flip 2 coins. This attack does 30 damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts pour chaque côté face.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 30 puntos de daño por cada cara.",
+				'it-it': "Lancia due volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 2 moedas. Este ataque causa 30 pontos de dano para cada cara.",
+				'de-de': "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
 			},
 			damage: "30×",
 
@@ -65,12 +65,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leaf Step",
-				fr: "Enjambée de Feuillage",
-				es: "Paso Hoja",
-				it: "Passofoglia",
-				pt: "Passo de Folha",
-				de: "Blattschritt"
+				'en-us': "Leaf Step",
+				'fr-fr': "Enjambée de Feuillage",
+				'es-es': "Paso Hoja",
+				'it-it': "Passofoglia",
+				'pt-br': "Passo de Folha",
+				'de-de': "Blattschritt"
 			},
 
 			damage: 60,
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It's protected by its hard sepals, so it plays with bird Pokémon without worry. They peck it relentlessly, but it doesn't care.",
+		'en-us': "It's protected by its hard sepals, so it plays with bird Pokémon without worry. They peck it relentlessly, but it doesn't care.",
 	},
 
 	thirdParty: {

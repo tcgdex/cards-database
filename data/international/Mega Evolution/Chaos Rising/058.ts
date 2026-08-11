@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Camouflaged as rotten kelp, this Pokemon sprays liquid poison to take down prey that approach unawares.",
+		'en-us': "Camouflaged as rotten kelp, this Pokemon sprays liquid poison to take down prey that approach unawares.",
 	},
 
 
 	name: {
-		en: "Skrelp",
-		fr: "Venalgue",
-		es: "Skrelp",
+		'en-us': "Skrelp",
+		'fr-fr': "Venalgue",
+		'es-es': "Skrelp",
 		'es-mx': "Skrelp",
-		de: "Algitt",
-		it: "Skrelp",
-		pt: "Skrelp"
+		'de-de': "Algitt",
+		'it-it': "Skrelp",
+		'pt-br': "Skrelp"
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -29,13 +29,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Hook",
-			fr: "Crochet",
-			es: "Garfio",
+			'en-us': "Hook",
+			'fr-fr': "Crochet",
+			'es-es': "Garfio",
 			'es-mx': "Gancho",
-			de: "Haken",
-			it: "Uncino",
-			pt: "Gancho"
+			'de-de': "Haken",
+			'it-it': "Uncino",
+			'pt-br': "Gancho"
 		},
 
 		cost: ["Colorless"],

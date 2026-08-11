@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Recover Energy",
-		fr: "Énergie guérison",
-		de: "Erhol-Energie"
+		'en-us': "Recover Energy",
+		'fr-fr': "Énergie guérison",
+		'de-de': "Erhol-Energie"
 	},
 
 	illustrator: "Takumi Akabane",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Recover Energy provides Colorless Energy. When you attach this card from your hand to 1 of your Pokémon, remove all Special Conditions from that Pokémon.",
-		fr: "Énergie guérison fournit de l'Énergie Colorless. Lorsque vous attachez cette carte de votre main à 1 de vos Pokémon, retirez-lui tous ses États Spéciaux.",
-		de: "Erhol-Energie liefert -Energie. Wenn du diese Karte von deiner Hand an 1 deiner Pokémon anlegst, entferne alle Speziellen Zustände von diesem Pokémon."
+		'en-us': "Recover Energy provides Colorless Energy. When you attach this card from your hand to 1 of your Pokémon, remove all Special Conditions from that Pokémon.",
+		'fr-fr': "Énergie guérison fournit de l'Énergie Colorless. Lorsque vous attachez cette carte de votre main à 1 de vos Pokémon, retirez-lui tous ses États Spéciaux.",
+		'de-de': "Erhol-Energie liefert -Energie. Wenn du diese Karte von deiner Hand an 1 deiner Pokémon anlegst, entferne alle Speziellen Zustände von diesem Pokémon."
 	},
 
 	energyType: "Special",

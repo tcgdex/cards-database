@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Hitmonlee",
+		'ja-jp': "Hitmonlee",
 	},
 
 	rarity: "Uncommon",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "スマッシュキック",
+				'ja-jp': "スマッシュキック",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
-				ja: "ストレッチキック",
+				'ja-jp': "ストレッチキック",
 			},
 			effect: {
-				ja: "対戦相手がベンチポケモンを持っている場合は、1つを選択すると、この攻撃は30のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "対戦相手がベンチポケモンを持っている場合は、1つを選択すると、この攻撃は30のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フラエッテ",
+		'ja-jp': "フラエッテ",
 	},
 
 	illustrator: "Mina Nakai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "手入れの 行き届いた 花壇の 花が 咲くと 姿を 現して かれんな ダンスで 祝福する。",
+		'ja-jp': "手入れの 行き届いた 花壇の 花が 咲くと 姿を 現して かれんな ダンスで 祝福する。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "はなびらくるくる" },
 			cost: ["Fairy"],
 			effect: {
-				ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 	],
@@ -41,7 +41,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "フラベベ",
+		'ja-jp': "フラベベ",
 	},
 
 	retreat: 1,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウィルのxatu",
+		'ja-jp': "ウィルのxatu",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ペック",
+				'ja-jp': "ペック",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Psychic", "Psychic"],
 			name: {
-				ja: "痛みアンプ",
+				'ja-jp': "痛みアンプ",
 			},
 			effect: {
-				ja: "対戦相手のポケモンのそれぞれにダメージカウンターを置いてください。",
+				'ja-jp': "対戦相手のポケモンのそれぞれにダメージカウンターを置いてください。",
 			},
 		},
 	],

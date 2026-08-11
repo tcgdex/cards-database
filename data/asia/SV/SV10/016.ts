@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団のデルビル",
+		'ja-jp': "ロケット団のデルビル",
 		'zh-tw': "<火箭隊的>戴魯比",
 		'zh-cn': "<火箭隊的>戴魯比",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "様々な 鳴き声を 使い分け 仲間と コミュニケーションしながら 狩りを おこなう 賢さを持つ。",
+		'ja-jp': "様々な 鳴き声を 使い分け 仲間と コミュニケーションしながら 狩りを おこなう 賢さを持つ。",
 		'zh-tw': "擁有在狩獵的時候 能使用各式各樣的叫聲 來與夥伴溝通的智慧。",
 		'zh-cn': "擁有在狩獵的時候 能使用各式各樣的叫聲 來與夥伴溝通的智慧。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ひをはく",
+				'ja-jp': "ひをはく",
 				'zh-tw': "吐火",
 				'zh-cn': "吐火",
 			},

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Nincada",
-		fr: "Ningale",
-		es: "Nincada",
-		it: "Nincada",
-		pt: "Nincada",
-		de: "Nincada"
+		'en-us': "Nincada",
+		'fr-fr': "Ningale",
+		'es-es': "Nincada",
+		'it-it': "Nincada",
+		'pt-br': "Nincada",
+		'de-de': "Nincada"
 	},
 
 	illustrator: "MAHOU",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dig",
-				fr: "Tunnel",
+				'en-us': "Dig",
+				'fr-fr': "Tunnel",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
+				'en-us': "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It grows underground, sensing its surroundings using antennae instead of its virtually blind eyes.",
+		'en-us': "It grows underground, sensing its surroundings using antennae instead of its virtually blind eyes.",
 	},
 
 	thirdParty: {

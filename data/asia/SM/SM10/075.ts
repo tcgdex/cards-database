@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポリゴンZ",
+		'ja-jp': "ポリゴンZ",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "不安定な 挙動が 目立つ。 プログラムを アップデートした 技術者の 腕の せいらしい。",
+		'ja-jp': "不安定な 挙動が 目立つ。 プログラムを アップデートした 技術者の 腕の せいらしい。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "クレイジーコード" },
 			effect: {
-				ja: "自分の番に何回でも使える。自分の手札にある特殊エネルギーを1枚、自分のポケモンにつける。",
+				'ja-jp': "自分の番に何回でも使える。自分の手札にある特殊エネルギーを1枚、自分のポケモンにつける。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンをこんらんにする。",
+				'ja-jp': "このポケモンをこんらんにする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ポリゴン２",
+		'ja-jp': "ポリゴン２",
 	},
 
 	retreat: 2,

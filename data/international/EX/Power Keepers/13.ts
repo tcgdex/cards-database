@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Slaking",
-		fr: "Monaflemit",
-		de: "Letarking"
+		'en-us': "Slaking",
+		'fr-fr': "Monaflemit",
+		'de-de': "Letarking"
 	},
 
 	illustrator: "Midori Harada",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vigoroth",
-		fr: "Vigoroth"
+		'en-us': "Vigoroth",
+		'fr-fr': "Vigoroth"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Lazy",
-				fr: "Fainéant",
-				de: "Faulheit"
+				'en-us': "Lazy",
+				'fr-fr': "Fainéant",
+				'de-de': "Faulheit"
 			},
 			effect: {
-				en: "As long as Slaking is your Active Pokémon, your opponent's Pokémon can't use any Poké-Powers.",
-				fr: "Tant que Monaflemit est votre Pokémon Actif, les Pokémon de votre adversaire ne peuvent pas utiliser de Poké-Powers.",
-				de: "Solange Letarking dein Aktives Pokémon ist, können gegnerische Pokémon keine Poké-Power benutzen."
+				'en-us': "As long as Slaking is your Active Pokémon, your opponent's Pokémon can't use any Poké-Powers.",
+				'fr-fr': "Tant que Monaflemit est votre Pokémon Actif, les Pokémon de votre adversaire ne peuvent pas utiliser de Poké-Powers.",
+				'de-de': "Solange Letarking dein Aktives Pokémon ist, können gegnerische Pokémon keine Poké-Power benutzen."
 			},
 		},
 	],
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Critical Move",
-				fr: "Mouvement décisif",
-				de: "Entscheidung"
+				'en-us': "Critical Move",
+				'fr-fr': "Mouvement décisif",
+				'de-de': "Entscheidung"
 			},
 			effect: {
-				en: "Discard a basic Energy card attached to Slaking or this attack does nothing. Slaking can't attack during your next turn.",
-				fr: "Défaussez une carte Énergie de base attachée à Monaflemit ou cette attaque est sans effet. Monaflemit ne peut pas attaquer lors de votre prochain tour.",
-				de: "Entferne 1 Basis-Energiekarte von Letarking und lege sie auf den Ablagestapel, sonst hat dieser Angriff keine Auswirkungen. Letarking kann in deinem nächsten Zug nicht angreifen."
+				'en-us': "Discard a basic Energy card attached to Slaking or this attack does nothing. Slaking can't attack during your next turn.",
+				'fr-fr': "Défaussez une carte Énergie de base attachée à Monaflemit ou cette attaque est sans effet. Monaflemit ne peut pas attaquer lors de votre prochain tour.",
+				'de-de': "Entferne 1 Basis-Energiekarte von Letarking und lege sie auf den Ablagestapel, sonst hat dieser Angriff keine Auswirkungen. Letarking kann in deinem nächsten Zug nicht angreifen."
 			},
 			damage: 100,
 

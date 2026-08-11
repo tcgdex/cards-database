@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Aerodactyl",
-		fr: "Ptéra",
-		es: "Aerodactyl",
-		it: "Aerodactyl",
-		pt: "Aerodactyl",
-		de: "Aerodactyl"
+		'en-us': "Aerodactyl",
+		'fr-fr': "Ptéra",
+		'es-es': "Aerodactyl",
+		'it-it': "Aerodactyl",
+		'pt-br': "Aerodactyl",
+		'de-de': "Aerodactyl"
 	},
 
 	illustrator: "hatachu",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Unidentified Fossil",
-		fr: "Fossile Inconnu",
+		'en-us': "Unidentified Fossil",
+		'fr-fr': "Fossile Inconnu",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Supersonic",
-				fr: "Ultrason",
-				es: "Supersónico",
-				it: "Supersuono",
-				pt: "Supersônico",
-				de: "Superschall"
+				'en-us': "Supersonic",
+				'fr-fr': "Ultrason",
+				'es-es': "Supersónico",
+				'it-it': "Supersuono",
+				'pt-br': "Supersônico",
+				'de-de': "Superschall"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent’s Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 
 		},
@@ -63,20 +63,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fossil Fangs",
-				fr: "Crocs Fossiles",
-				es: "Colmillos Fósil",
-				it: "Zanne Fossili",
-				pt: "Caninos Fossilizados",
-				de: "Fossile Reißer"
+				'en-us': "Fossil Fangs",
+				'fr-fr': "Crocs Fossiles",
+				'es-es': "Colmillos Fósil",
+				'it-it': "Zanne Fossili",
+				'pt-br': "Caninos Fossilizados",
+				'de-de': "Fossile Reißer"
 			},
 			effect: {
-				en: "If you don’t have any Pokémon-GX or Pokémon-EX on your Bench, this attack does 90 more damage.",
-				fr: "Si vous n’avez pas de Pokémon-GX ou de Pokémon-EX sur votre Banc, cette attaque inflige 90 dégâts supplémentaires.",
-				es: "Si no tienes ningún Pokémon-GX o Pokémon-EX en tu Banca, este ataque hace 90 puntos de daño más.",
-				it: "Se non hai dei Pokémon-GX o dei Pokémon-EX in panchina, questo attacco infligge 90 danni in più.",
-				pt: "Se você não tiver nenhum Pokémon-GX ou Pokémon-EX no seu Banco, este ataque causará 90 pontos de dano a mais.",
-				de: "Wenn du kein Pokémon-GX oder Pokémon-EX auf deiner Bank hast, fügt diese Attacke 90 Schadenspunkte mehr zu."
+				'en-us': "If you don’t have any Pokémon-GX or Pokémon-EX on your Bench, this attack does 90 more damage.",
+				'fr-fr': "Si vous n’avez pas de Pokémon-GX ou de Pokémon-EX sur votre Banc, cette attaque inflige 90 dégâts supplémentaires.",
+				'es-es': "Si no tienes ningún Pokémon-GX o Pokémon-EX en tu Banca, este ataque hace 90 puntos de daño más.",
+				'it-it': "Se non hai dei Pokémon-GX o dei Pokémon-EX in panchina, questo attacco infligge 90 danni in più.",
+				'pt-br': "Se você não tiver nenhum Pokémon-GX ou Pokémon-EX no seu Banco, este ataque causará 90 pontos de dano a mais.",
+				'de-de': "Wenn du kein Pokémon-GX oder Pokémon-EX auf deiner Bank hast, fügt diese Attacke 90 Schadenspunkte mehr zu."
 			},
 			damage: "90+",
 
@@ -100,7 +100,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Restored from DNA found in amber, this Pokémon exhibited ferocity that was greater than expected. Some casualties resulted.",
+		'en-us': "Restored from DNA found in amber, this Pokémon exhibited ferocity that was greater than expected. Some casualties resulted.",
 	},
 
 	thirdParty: {

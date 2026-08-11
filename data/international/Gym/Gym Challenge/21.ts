@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Ninetales"
+		'en-us': "Blaine's Ninetales"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vulpix"
+		'en-us': "Vulpix"
 	},
 
 	stage: "Stage1",
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Healing Fire"
+				'en-us': "Healing Fire"
 			},
 			effect: {
-				en: "Whenever you attach a Fire Energy card from your hand to Blaine's Ninetales, remove 1 damage counter from it, if it has any. This power stops working when Blaine's Ninetales is Asleep, Confused, or Paralyzed."
+				'en-us': "Whenever you attach a Fire Energy card from your hand to Blaine's Ninetales, remove 1 damage counter from it, if it has any. This power stops working when Blaine's Ninetales is Asleep, Confused, or Paralyzed."
 			}
 		},
 	],
@@ -44,10 +44,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Burn Up"
+				'en-us': "Burn Up"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard all Fire Energy cards attached to Blaine's Ninetales."
+				'en-us': "Flip a coin. If tails, discard all Fire Energy cards attached to Blaine's Ninetales."
 			},
 			damage: 50,
 

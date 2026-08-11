@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Zeraora",
-		fr: "Zeraora",
-		es: "Zeraora",
-		it: "Zeraora",
-		pt: "Zeraora",
-		de: "Zeraora"
+		'en-us': "Zeraora",
+		'fr-fr': "Zeraora",
+		'es-es': "Zeraora",
+		'it-it': "Zeraora",
+		'pt-br': "Zeraora",
+		'de-de': "Zeraora"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				es: "Cuchillada",
-				it: "Lacerazione",
-				pt: "Talho",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'es-es': "Cuchillada",
+				'it-it': "Lacerazione",
+				'pt-br': "Talho",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 20,
@@ -52,20 +52,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wild Charge",
-				fr: "Éclair Fou",
-				es: "Voltio Cruel",
-				it: "Sprizzalampo",
-				pt: "Ataque Selvagem",
-				de: "Stromstoß"
+				'en-us': "Wild Charge",
+				'fr-fr': "Éclair Fou",
+				'es-es': "Voltio Cruel",
+				'it-it': "Sprizzalampo",
+				'pt-br': "Ataque Selvagem",
+				'de-de': "Stromstoß"
 			},
 			effect: {
-				en: "This Pokémon does 20 damage to itself.",
-				fr: "Ce Pokémon s’inflige 20 dégâts.",
-				es: "Este Pokémon se hace 20 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 20 danni a se stesso.",
-				pt: "Este Pokémon causa 20 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 20 Schadenspunkte zu."
+				'en-us': "This Pokémon does 20 damage to itself.",
+				'fr-fr': "Ce Pokémon s’inflige 20 dégâts.",
+				'es-es': "Este Pokémon se hace 20 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 20 danni a se stesso.",
+				'pt-br': "Este Pokémon causa 20 pontos de dano a si mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 120,
 
@@ -89,7 +89,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It electrifies its claws and tears its opponents apart with them. Even if they dodge its attack, they'll be electrocuted by the flying sparks.",
+		'en-us': "It electrifies its claws and tears its opponents apart with them. Even if they dodge its attack, they'll be electrocuted by the flying sparks.",
 	},
 
 	thirdParty: {

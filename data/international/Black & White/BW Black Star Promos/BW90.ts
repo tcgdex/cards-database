@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Glaceon",
-		fr: "Givrali",
+		'en-us': "Glaceon",
+		'fr-fr': "Givrali",
 	},
 	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
 	rarity: "Common",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Water",
 	],
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
 	},
 	stage: "Stage1",
 
@@ -31,12 +31,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-Attaque",
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-Attaque",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: 10,
 
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reflect Energy",
-				fr: "Renvoi d'Énergie",
+				'en-us': "Reflect Energy",
+				'fr-fr': "Renvoi d'Énergie",
 			},
 			effect: {
-				en: "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
-				fr: "Déplacez une Énergie de ce Pokémon vers 1 de vos Pokémon de Banc.",
+				'en-us': "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
+				'fr-fr': "Déplacez une Énergie de ce Pokémon vers 1 de vos Pokémon de Banc.",
 			},
 			damage: 40,
 
@@ -71,7 +71,7 @@ const card: Card = {
 
 
 	description: {
-		en: "By controlling its body heat, it can freeze the atmosphere around it to make a diamond-dust flurry.",
+		'en-us': "By controlling its body heat, it can freeze the atmosphere around it to make a diamond-dust flurry.",
 	},
 }
 

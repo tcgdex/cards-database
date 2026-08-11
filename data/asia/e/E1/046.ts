@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピッジット",
+		'ja-jp': "ピッジット",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "旋風",
+				'ja-jp': "旋風",
 			},
 			effect: {
-				ja: "対戦相手がベンチでポケモンを持っている場合、彼または彼女はそれらの1つを選択し、防御するポケモンをそれで切り替えます。 （ポケモンを切り替える前にダメージを与えます。）",
+				'ja-jp': "対戦相手がベンチでポケモンを持っている場合、彼または彼女はそれらの1つを選択し、防御するポケモンをそれで切り替えます。 （ポケモンを切り替える前にダメージを与えます。）",
 			},
 			damage: 20,
 		},

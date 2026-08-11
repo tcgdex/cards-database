@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マンキー",
+		'ja-jp': "マンキー",
 		'zh-tw': "猴怪",
 		'zh-cn': "猴怪",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "木の上で 群れをつくって 暮らす。 群れから はぐれた マンキーは 寂しくて すぐに 怒りだす。",
+		'ja-jp': "木の上で 群れをつくって 暮らす。 群れから はぐれた マンキーは 寂しくて すぐに 怒りだす。",
 		'zh-tw': "在樹上群居的寶可夢。 和夥伴走散的猴怪會因為 按捺不住寂寞而動不動就生氣。",
 		'zh-cn': "在樹上群居的寶可夢。 和夥伴走散的猴怪會因為 按捺不住寂寞而動不動就生氣。",
 	},
@@ -25,14 +25,14 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "けりつける",
+				'ja-jp': "けりつける",
 				'zh-tw': "踹",
 				'zh-cn': "踹",
 			},
 			damage: 30,
 			cost: ["Fighting"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
 				'zh-tw': "擲1次硬幣若為反面，則這個招式失敗。",
 				'zh-cn': "擲1次硬幣若為反面，則這個招式失敗。",
 			},

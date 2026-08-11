@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Delibird",
-		de: "Botogel"
+		'en-us': "Delibird",
+		'de-de': "Botogel"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Limited Delivery",
-				de: "Eingeschränkte Lieferung"
+				'en-us': "Limited Delivery",
+				'de-de': "Eingeschränkte Lieferung"
 			},
 			effect: {
-				en: "Search your deck for a Technical Machine or Pokémon Tool card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				de: "Durchsuche dein Deck nach einer technischen Maschine- oder Pokémon-Ausrüstungskarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
+				'en-us': "Search your deck for a Technical Machine or Pokémon Tool card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'de-de': "Durchsuche dein Deck nach einer technischen Maschine- oder Pokémon-Ausrüstungskarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Kick Away",
-				de: "Wegkicken"
+				'en-us': "Kick Away",
+				'de-de': "Wegkicken"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. (Do the damage before switching the Pokémon.)",
-				de: "Dein Gegner tauscht das verteidigende Pokémon mit einem der Pokémon auf seiner Bank aus, falls er dort mindestens eins hat. (Füge die Schadenspunkte vor dem Austauschen der Pokémon zu.)"
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. (Do the damage before switching the Pokémon.)",
+				'de-de': "Dein Gegner tauscht das verteidigende Pokémon mit einem der Pokémon auf seiner Bank aus, falls er dort mindestens eins hat. (Füge die Schadenspunkte vor dem Austauschen der Pokémon zu.)"
 			},
 			damage: 20,
 

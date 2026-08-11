@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サザンドラ",
+		'ja-jp': "サザンドラ",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "両腕の 頭は 脳みそを 持たない。 ３つの 頭で すべてを 食べつくし 破壊してしまう。",
+		'ja-jp': "両腕の 頭は 脳みそを 持たない。 ３つの 頭で すべてを 食べつくし 破壊してしまう。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ふるいおとす" },
 			effect: {
-				ja: "自分の番に1回使える。自分のベンチポケモンを3匹選ぶ。その後、選んでいない自分のベンチポケモン全員と、ついているすべてのカードを、トラッシュする。",
+				'ja-jp': "自分の番に1回使える。自分のベンチポケモンを3匹選ぶ。その後、選んでいない自分のベンチポケモン全員と、ついているすべてのカードを、トラッシュする。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "のぞむなら、このポケモンについているエネルギーを、1個トラッシュする。その場合、相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "のぞむなら、このポケモンについているエネルギーを、1個トラッシュする。その場合、相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ジヘッド",
+		'ja-jp': "ジヘッド",
 	},
 
 	retreat: 2,

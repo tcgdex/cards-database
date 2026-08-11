@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クヌギダマ",
+		'ja-jp': "クヌギダマ",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "木の実に そっくり。 間違われて とりポケモンに つつかれてしまうが 硬い 殻で 守られている。",
+		'ja-jp': "木の実に そっくり。 間違われて とりポケモンに つつかれてしまうが 硬い 殻で 守られている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数x20ダメージ。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数x20ダメージ。",
 			},
 		},
 	],

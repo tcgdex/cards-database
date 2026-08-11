@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オンバーンV",
+		'ja-jp': "オンバーンV",
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "ばくおんぱ" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のポケモン全員に、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン全員に、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Psychic", "Darkness"],
 			effect: {
-				ja: "自分の手札と相手の手札が同じ枚数なら、120ダメージ追加。",
+				'ja-jp': "自分の手札と相手の手札が同じ枚数なら、120ダメージ追加。",
 			},
 		},
 	],

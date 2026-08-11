@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	name: {
-		en: "Toxel",
-		fr: "Toxizap",
-		es: "Toxel",
-		it: "Toxel",
-		pt: "Toxel",
-		de: "Toxel"
+		'en-us': "Toxel",
+		'fr-fr': "Toxizap",
+		'es-es': "Toxel",
+		'it-it': "Toxel",
+		'pt-br': "Toxel",
+		'de-de': "Toxel"
 	},
 
 	illustrator: "Akira Komayama",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slap",
-				fr: "Gifle",
-				es: "Bofetón",
-				it: "Sberla",
-				pt: "Tapa",
-				de: "Hieb"
+				'en-us': "Slap",
+				'fr-fr': "Gifle",
+				'es-es': "Bofetón",
+				'it-it': "Sberla",
+				'pt-br': "Tapa",
+				'de-de': "Hieb"
 			},
 
 			damage: 10,
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Static Shock",
-				fr: "Choc Statique",
-				es: "Impacto Estático",
-				it: "Shock Statico",
-				pt: "Choque de Estática",
-				de: "Statischer Schock"
+				'en-us': "Static Shock",
+				'fr-fr': "Choc Statique",
+				'es-es': "Impacto Estático",
+				'it-it': "Shock Statico",
+				'pt-br': "Choque de Estática",
+				'de-de': "Statischer Schock"
 			},
 
 			damage: 20,
@@ -72,7 +72,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It stores poison in an internal poison sac and secretes that poison through its skin. If you touch this Pokémon, a tingling sensation follows."
+		'en-us': "It stores poison in an internal poison sac and secretes that poison through its skin. If you touch this Pokémon, a tingling sensation follows."
 	},
 
 	variants: [

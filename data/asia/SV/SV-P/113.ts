@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デスマス",
+		'ja-jp': "デスマス",
 	},
 
 	illustrator: "aoki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "古代人の 魂が ポケモンに なった。 自分の 顔を 知る 人を 探し 遺跡を さまよう。",
+		'ja-jp': "古代人の 魂が ポケモンに なった。 自分の 顔を 知る 人を 探し 遺跡を さまよう。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ふきつなめ" },
 			cost: ["Psychic", "Psychic"],
 			effect: {
-				ja: "相手のポケモン1匹に、ダメカンを3個のせる。",
+				'ja-jp': "相手のポケモン1匹に、ダメカンを3個のせる。",
 			},
 		},
 	],

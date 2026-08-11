@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Detective Pikachu'
 
 const card: Card = {
 	name: {
-		en: "Magikarp",
-		fr: "Magicarpe",
-		es: "Magikarp",
-		it: "Magikarp",
-		pt: "Magikarp",
-		de: "Karpador"
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe",
+		'es-es': "Magikarp",
+		'it-it': "Magikarp",
+		'pt-br': "Magikarp",
+		'de-de': "Karpador"
 	},
 
 	illustrator: "Framestore",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Hold Still",
-				fr: "Ne Bougez Pas",
-				es: "Permanecer Inmóvil",
-				it: "Immobile",
-				pt: "Ficar Parado",
-				de: "Stillhalten"
+				'en-us': "Hold Still",
+				'fr-fr': "Ne Bougez Pas",
+				'es-es': "Permanecer Inmóvil",
+				'it-it': "Immobile",
+				'pt-br': "Ficar Parado",
+				'de-de': "Stillhalten"
 			},
 			effect: {
-				en: "Heal 10 damage from this Pokémon.",
-				fr: "Soignez 10 dégâts à ce Pokémon.",
-				es: "Cura 10 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 10 danni.",
-				pt: "Cure 10 pontos de dano deste Pokémon.",
-				de: "Heile 10 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 10 damage from this Pokémon.",
+				'fr-fr': "Soignez 10 dégâts à ce Pokémon.",
+				'es-es': "Cura 10 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 10 danni.",
+				'pt-br': "Cure 10 pontos de dano deste Pokémon.",
+				'de-de': "Heile 10 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "In the distant past, they were fairly strong, but they have become gradually weaker over time.",
+		'en-us': "In the distant past, they were fairly strong, but they have become gradually weaker over time.",
 	},
 
 	thirdParty: {

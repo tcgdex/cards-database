@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モスノウ"
+		'ja-jp': "モスノウ"
 	},
 	illustrator: "miki kudo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Water"],
 	description: {
-		ja: "触角で大気の流れを察知する。りんぷんに冷気を織り交ぜ雪のように降らせる。"
+		'ja-jp': "触角で大気の流れを察知する。りんぷんに冷気を織り交ぜ雪のように降らせる。"
 	},
 	stage: "Stage1",
 	variants: [
@@ -25,14 +25,14 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ユキハミ"
+		'ja-jp': "ユキハミ"
 	},
 	attacks: [{
 		name: {
-			ja: "こごえるはばたき"
+			'ja-jp': "こごえるはばたき"
 		},
 		effect: {
-			ja: "相手のポケモン全員に、それぞれ20ダメージ。相手のバトルポケモンをねむりにする。[ベンチは弱点・抵抗力を計算しない。]"
+			'ja-jp': "相手のポケモン全員に、それぞれ20ダメージ。相手のバトルポケモンをねむりにする。[ベンチは弱点・抵抗力を計算しない。]"
 		},
 		cost: ["Water"]
 	}],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Shellder",
-		fr: "Kokiyas",
-		es: "Shellder",
-		it: "Shellder",
-		pt: "Shellder",
-		de: "Muschas"
+		'en-us': "Shellder",
+		'fr-fr': "Kokiyas",
+		'es-es': "Shellder",
+		'it-it': "Shellder",
+		'pt-br': "Shellder",
+		'de-de': "Muschas"
 	},
 
 	illustrator: "Midori Harada",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The hardness of its shell surpasses the hardness of a diamond. In days gone by, people used the shells to make shields.",
+		'en-us': "The hardness of its shell surpasses the hardness of a diamond. In days gone by, people used the shells to make shields.",
 	},
 
 	thirdParty: {

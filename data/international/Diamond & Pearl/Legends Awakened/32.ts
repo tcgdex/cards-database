@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Kyogre",
-		fr: "Kyogre",
-		de: "Kyogre"
+		'en-us': "Kyogre",
+		'fr-fr': "Kyogre",
+		'de-de': "Kyogre"
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Drizzle",
-				fr: "Crachin",
-				de: "Niesel"
+				'en-us': "Drizzle",
+				'fr-fr': "Crachin",
+				'de-de': "Niesel"
 			},
 			effect: {
-				en: "Choose up to 2 basic Water Energy cards from your hand and attach them to 1 of your Pokémon.",
-				fr: "Choisissez jusqu'à 2 cartes Énergie de base Water de votre main et attachez-les à 1 de vos Pokémon.",
-				de: "Wähle bis zu 2 -Basis-Energiekarten von deiner Hand und lege sie an 1 deiner Pokémon an."
+				'en-us': "Choose up to 2 basic Water Energy cards from your hand and attach them to 1 of your Pokémon.",
+				'fr-fr': "Choisissez jusqu'à 2 cartes Énergie de base Water de votre main et attachez-les à 1 de vos Pokémon.",
+				'de-de': "Wähle bis zu 2 -Basis-Energiekarten von deiner Hand und lege sie an 1 deiner Pokémon an."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "High Tide",
-				fr: "Marée haute",
-				de: "Hochwasser"
+				'en-us': "High Tide",
+				'fr-fr': "Marée haute",
+				'de-de': "Hochwasser"
 			},
 			effect: {
-				en: "Discard 2 Water Energy attached to Kyogre. This attack does 20 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Défaussez 2 Énergies Water attachées à Kyogre. Cette attaque inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Lege 2 an Kyogre angelegte -Energien auf deinen Ablagestapel. Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Discard 2 Water Energy attached to Kyogre. This attack does 20 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Défaussez 2 Énergies Water attachées à Kyogre. Cette attaque inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Lege 2 an Kyogre angelegte -Energien auf deinen Ablagestapel. Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 
@@ -71,8 +71,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench.",
-		fr: "On dit qu'il a fait monter les eaux en causant des pluies diluviennes. Il somnolait dans une fosse marine."
+		'en-us': "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench.",
+		'fr-fr': "On dit qu'il a fait monter les eaux en causant des pluies diluviennes. Il somnolait dans une fosse marine."
 	},
 
 	thirdParty: {

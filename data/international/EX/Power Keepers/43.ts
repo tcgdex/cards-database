@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Bagon",
-		fr: "Draby",
-		de: "Kindwurm"
+		'en-us': "Bagon",
+		'fr-fr': "Draby",
+		'de-de': "Kindwurm"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Retaliate",
-				fr: "Représailles",
-				de: "Vergeltung"
+				'en-us': "Retaliate",
+				'fr-fr': "Représailles",
+				'de-de': "Vergeltung"
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on Bagon.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Draby.",
-				de: "Dieser Angriff fügt für jede Schadensmarke auf Kindwurm 10 Schadenspunkte zu."
+				'en-us': "Does 10 damage times the number of damage counters on Bagon.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Draby.",
+				'de-de': "Dieser Angriff fügt für jede Schadensmarke auf Kindwurm 10 Schadenspunkte zu."
 			},
 			damage: "10x",
 

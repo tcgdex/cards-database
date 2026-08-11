@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [7],
 
 	name: {
-		en: "Squirtle"
+		'en-us': "Squirtle"
 	},
 
 	illustrator: "Naoki Saito",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "When it feels threatened, it draws its limbs inside\nits shell and sprays water from its mouth."
+		'en-us': "When it feels threatened, it draws its limbs inside\nits shell and sprays water from its mouth."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Tail Whap"
+			'en-us': "Tail Whap"
 		},
 
 		damage: 40,

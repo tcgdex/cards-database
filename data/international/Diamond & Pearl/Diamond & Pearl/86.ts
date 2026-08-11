@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Machop",
-		fr: "Machoc",
-		de: "Machollo"
+		'en-us': "Machop",
+		'fr-fr': "Machoc",
+		'de-de': "Machollo"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage",
-				de: "Fußkick"
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage",
+				'de-de': "Fußkick"
 			},
 
 			damage: 20,
@@ -51,8 +51,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It hefts a GRAVELER repeatedly to strengthen its entire body. It uses every type of martial arts.",
-		fr: "Il muscle son corps en soulevant régulièrement un Gravalanch. Il est rompu à tous les arts martiaux."
+		'en-us': "It hefts a GRAVELER repeatedly to strengthen its entire body. It uses every type of martial arts.",
+		'fr-fr': "Il muscle son corps en soulevant régulièrement un Gravalanch. Il est rompu à tous les arts martiaux."
 	},
 
 	thirdParty: {

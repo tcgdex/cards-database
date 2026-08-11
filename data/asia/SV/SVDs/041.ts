@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "อุมิดิกดา",
-		id: "Wiglett"
+		'th-th': "อุมิดิกดา",
+		'id-id': "Wiglett"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -15,16 +15,16 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		th: "จะหลบซ่อนตัวในทรายเมื่อได้กลิ่นที่มิกาลูซาปล่อยออกมาแม้จะห่างออกไปกว่า 20 เมตร",
-		id: "Wiglett dapat mencium bau yang dikeluarkan Veluza yang berada dalam jarak 20 meter, lalu bersembunyi di dalam pasir."
+		'th-th': "จะหลบซ่อนตัวในทรายเมื่อได้กลิ่นที่มิกาลูซาปล่อยออกมาแม้จะห่างออกไปกว่า 20 เมตร",
+		'id-id': "Wiglett dapat mencium bau yang dikeluarkan Veluza yang berada dalam jarak 20 meter, lalu bersembunyi di dalam pasir."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "สาดน้ำ",
-			id: "Guyuran Air"
+			'th-th': "สาดน้ำ",
+			'id-id': "Guyuran Air"
 		},
 
 		damage: 10,

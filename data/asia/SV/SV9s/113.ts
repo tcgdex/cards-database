@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โนโกก็อจจิex",
-		id: "Dudunsparce ex"
+		'th-th': "โนโกก็อจจิex",
+		'id-id': "Dudunsparce ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -18,26 +18,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			th: "หางแห่งภัยพิบัติ",
-			id: "Ekor Kemalangan"
+			'th-th': "หางแห่งภัยพิบัติ",
+			'id-id': "Ekor Kemalangan"
 		},
 
 		effect: {
-			th: "แดเมจจะเท่ากับจำนวน [โปเกมอน【ex】] บนกระดานฝ่ายตรงข้าม x60",
-			id: "Serangan ini memberikan kerusakan sejumlah 60 untuk tiap Pokémon {ex} di Arena lawan."
+			'th-th': "แดเมจจะเท่ากับจำนวน [โปเกมอน【ex】] บนกระดานฝ่ายตรงข้าม x60",
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 60 untuk tiap Pokémon {ex} di Arena lawan."
 		},
 
 		damage: "60×",
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "ดริลเบรก",
-			id: "Drill Break"
+			'th-th': "ดริลเบรก",
+			'id-id': "Drill Break"
 		},
 
 		effect: {
-			th: "แดเมจของท่าต่อสู้นี้ จะไม่นำเอฟเฟกต์ที่มีผลอยู่กับโปเกมอนบนตำแหน่งต่อสู้ ฝ่ายตรงข้ามมาคิด",
-			id: "Kerusakan akibat serangan ini tidak terpengaruh oleh efek yang sedang dialami Pokémon Bertarung lawan."
+			'th-th': "แดเมจของท่าต่อสู้นี้ จะไม่นำเอฟเฟกต์ที่มีผลอยู่กับโปเกมอนบนตำแหน่งต่อสู้ ฝ่ายตรงข้ามมาคิด",
+			'id-id': "Kerusakan akibat serangan ini tidak terpengaruh oleh efek yang sedang dialami Pokémon Bertarung lawan."
 		},
 
 		damage: 150,

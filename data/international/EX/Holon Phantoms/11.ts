@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Latias δ",
-		fr: "Latias δ",
-		de: "Latias"
+		'en-us': "Latias δ",
+		'fr-fr': "Latias δ",
+		'de-de': "Latias"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Dual Aura",
-				fr: "Double aura",
-				de: "Doppel-Aura"
+				'en-us': "Dual Aura",
+				'fr-fr': "Double aura",
+				'de-de': "Doppel-Aura"
 			},
 			effect: {
-				en: "As long as you have Latios or Latios ex in play, each player's Evolved Pokémon (excluding Pokémon-ex) can't use any Poké-Bodies.",
-				fr: "Tant que vous avez Latios ou Latios ex en jeu, les Pokémon Évolués de chaque joueur (Pokémon-ex exclus) ne peuvent pas utiliser de Poké-Bodies.",
-				de: "Solange du Latios oder Latios ex im Spiel hast, können die entwickelten Pokémon beider Spieler (außer Pokémon ex) keine Poké-Body benutzen."
+				'en-us': "As long as you have Latios or Latios ex in play, each player's Evolved Pokémon (excluding Pokémon-ex) can't use any Poké-Bodies.",
+				'fr-fr': "Tant que vous avez Latios ou Latios ex en jeu, les Pokémon Évolués de chaque joueur (Pokémon-ex exclus) ne peuvent pas utiliser de Poké-Bodies.",
+				'de-de': "Solange du Latios oder Latios ex im Spiel hast, können die entwickelten Pokémon beider Spieler (außer Pokémon ex) keine Poké-Body benutzen."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spearhead",
-				fr: "Meneur",
-				de: "Speerspitze"
+				'en-us': "Spearhead",
+				'fr-fr': "Meneur",
+				'de-de': "Speerspitze"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -65,9 +65,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Claw",
-				fr: "Griffe de dragon",
-				de: "Drachenklaue"
+				'en-us': "Dragon Claw",
+				'fr-fr': "Griffe de dragon",
+				'de-de': "Drachenklaue"
 			},
 
 			damage: 40,

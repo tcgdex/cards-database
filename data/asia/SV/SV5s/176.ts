@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Farigiraf ex"
+		'id-id': "Farigiraf ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Zirah Ekor"
+			'id-id': "Zirah Ekor"
 		},
 
 		effect: {
-			id: "Pokémon ini tidak menerima kerusakan akibat serangan dari Pokémon {ex} yang merupakan Pokémon Basic lawan."
+			'id-id': "Pokémon ini tidak menerima kerusakan akibat serangan dari Pokémon {ex} yang merupakan Pokémon Basic lawan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Dirty Beam"
+			'id-id': "Dirty Beam"
 		},
 
 		effect: {
-			id: "Serangan ini juga memberikan kerusakan sejumlah 30 kepada 1 Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
+			'id-id': "Serangan ini juga memberikan kerusakan sejumlah 30 kepada 1 Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
 		},
 
 		damage: 160,

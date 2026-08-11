@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Dark Slowbro"
+		'en-us': "Dark Slowbro"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Slowpoke"
+		'en-us': "Slowpoke"
 	},
 
 	stage: "Stage1",
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Reel In"
+				'en-us': "Reel In"
 			},
 			effect: {
-				en: "When you play Dark Slowbro from your hand, choose up to 3 Basic Pokémon and/or Evolution cards from your discard pile and put them into your hand."
+				'en-us': "When you play Dark Slowbro from your hand, choose up to 3 Basic Pokémon and/or Evolution cards from your discard pile and put them into your hand."
 			}
 		},
 	],
@@ -44,10 +44,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Fickle Attack"
+				'en-us': "Fickle Attack"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing."
+				'en-us': "Flip a coin. If tails, this attack does nothing."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It loves nothing better than to be left alone, and so sometimes ends up being manipulated by unscrupulous people."
+		'en-us': "It loves nothing better than to be left alone, and so sometimes ends up being manipulated by unscrupulous people."
 	},
 
 	variants: [

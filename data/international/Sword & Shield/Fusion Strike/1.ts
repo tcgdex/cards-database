@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Caterpie",
-		fr: "Chenipan",
-		es: "Caterpie",
-		it: "Caterpie",
-		pt: "Caterpie",
-		de: "Raupy"
+		'en-us': "Caterpie",
+		'fr-fr': "Chenipan",
+		'es-es': "Caterpie",
+		'it-it': "Caterpie",
+		'pt-br': "Caterpie",
+		'de-de': "Raupy"
 	},
 
 	rarity: "Common",
@@ -30,39 +30,39 @@ const card: Card = {
 	illustrator: "Mitsuhiro Arita",
 
 	description: {
-		en: "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls."
+		'en-us': "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Flock",
-			fr: "Nuée",
-			de: "Ausschwärmen",
-			es: "Multitud",
-			pt: "Bando",
-			it: "Frotta"
+			'en-us': "Flock",
+			'fr-fr': "Nuée",
+			'de-de': "Ausschwärmen",
+			'es-es': "Multitud",
+			'pt-br': "Bando",
+			'it-it': "Frotta"
 		},
 
 		effect: {
-			en: "Search your deck for a Caterpie and put it onto your Bench. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck un Chenipan, puis placez-le sur votre Banc. Mélangez ensuite votre deck.",
-			de: "Durchsuche dein Deck nach 1 Raupy und lege es auf deine Bank. Mische anschließend dein Deck.",
-			es: "Busca en tu baraja 1 Caterpie y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
-			pt: "Procure por 1 Caterpie no seu baralho e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho.",
-			it: "Cerca nel tuo mazzo un Caterpie e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo."
+			'en-us': "Search your deck for a Caterpie and put it onto your Bench. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck un Chenipan, puis placez-le sur votre Banc. Mélangez ensuite votre deck.",
+			'de-de': "Durchsuche dein Deck nach 1 Raupy und lege es auf deine Bank. Mische anschließend dein Deck.",
+			'es-es': "Busca en tu baraja 1 Caterpie y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
+			'pt-br': "Procure por 1 Caterpie no seu baralho e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho.",
+			'it-it': "Cerca nel tuo mazzo un Caterpie e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo."
 		}
 	}, {
 		cost: ["Grass"],
 
 		name: {
-			en: "Bug Bite",
-			fr: "Piqûre",
-			de: "Käferbiss",
-			es: "Picadura",
-			pt: "Picada",
-			it: "Coleomorso"
+			'en-us': "Bug Bite",
+			'fr-fr': "Piqûre",
+			'de-de': "Käferbiss",
+			'es-es': "Picadura",
+			'pt-br': "Picada",
+			'it-it': "Coleomorso"
 		},
 
 		damage: 10

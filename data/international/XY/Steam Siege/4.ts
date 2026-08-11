@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Skiploom",
-		fr: "Floravol",
-		es: "Skiploom",
-		it: "Skiploom",
-		pt: "Skiploom",
-		de: "Hubelupf"
+		'en-us': "Skiploom",
+		'fr-fr': "Floravol",
+		'es-es': "Skiploom",
+		'it-it': "Skiploom",
+		'pt-br': "Skiploom",
+		'de-de': "Hubelupf"
 	},
 
 	illustrator: "Eri Yamaki",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Hoppip",
-		fr: "Granivol",
-		es: "Hoppip",
-		it: "Hoppip",
-		pt: "Hoppip",
-		de: "Hoppspross"
+		'en-us': "Hoppip",
+		'fr-fr': "Granivol",
+		'es-es': "Hoppip",
+		'it-it': "Hoppip",
+		'pt-br': "Hoppip",
+		'de-de': "Hoppspross"
 	},
 
 	stage: "Stage1",
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Splash",
-				fr: "Trempette",
-				es: "Salpicadura",
-				it: "Splash",
-				pt: "Borrifada",
-				de: "Platscher"
+				'en-us': "Splash",
+				'fr-fr': "Trempette",
+				'es-es': "Salpicadura",
+				'it-it': "Splash",
+				'pt-br': "Borrifada",
+				'de-de': "Platscher"
 			},
 
 			damage: 20,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It spreads its petals to absorb sunlight. It also floats in the air to get closer to the sun.",
+		'en-us': "It spreads its petals to absorb sunlight. It also floats in the air to get closer to the sun.",
 	},
 
 	thirdParty: {

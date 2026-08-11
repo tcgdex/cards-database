@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [277],
 
 	name: {
-		en: "Swellow"
+		'en-us': "Swellow"
 	},
 
 	illustrator: "Mizue",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Taillow"
+		'en-us': "Taillow"
 	},
 
 	description: {
-		en: "It dives at a steep angle as soon as it spots its\nprey. It catches its prey with sharp claws."
+		'en-us': "It dives at a steep angle as soon as it spots its\nprey. It catches its prey with sharp claws."
 	},
 
 	stage: "Stage1",
@@ -30,17 +30,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Repelling Wind"
+			'en-us': "Repelling Wind"
 		},
 
 		effect: {
-			en: "Once during your turn, you may switch out your opponent's Active Basic Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)"
+			'en-us': "Once during your turn, you may switch out your opponent's Active Basic Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)"
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Wing Attack"
+			'en-us': "Wing Attack"
 		},
 
 		damage: 50,

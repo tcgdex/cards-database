@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミニーブ",
+		'ja-jp': "ミニーブ",
 		'zh-tw': "迷你芙",
 		'zh-cn': "迷你芙",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "頭の 実から オイルを 出して 敵から 身を 守る。 オイルは とびあがるほど 苦くて 渋い。",
+		'ja-jp': "頭の 実から オイルを 出して 敵から 身を 守る。 オイルは とびあがるほど 苦くて 渋い。",
 		'zh-tw': "會從頭上的果實噴出油 來保護自己不受敵人攻擊。 油的味道苦澀到會讓人跳起來。",
 		'zh-cn': "會從頭上的果實噴出油 來保護自己不受敵人攻擊。 油的味道苦澀到會讓人跳起來。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶつかる",
+				'ja-jp': "ぶつかる",
 				'zh-tw': "衝撞",
 				'zh-cn': "衝撞",
 			},

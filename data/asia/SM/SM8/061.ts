@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハッサム",
+		'ja-jp': "ハッサム",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "ひとたび 敵と 認識すると 鋼鉄の 硬度を 持つ ハサミで 容赦なく 叩き潰す。",
+		'ja-jp': "ひとたび 敵と 認識すると 鋼鉄の 硬度を 持つ ハサミで 容赦なく 叩き潰す。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かたいからだ" },
 			effect: {
-				ja: "このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "このポケモンが受けるワザのダメージは「-30」される。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Metal", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンに特殊エネルギーがついているなら、70ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンに特殊エネルギーがついているなら、70ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ストライク",
+		'ja-jp': "ストライク",
 	},
 
 	retreat: 1,

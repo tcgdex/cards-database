@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [609],
 
 	name: {
-		en: "Chandelure",
-		fr: "Lugulabre",
-		es: "Chandelure",
-		it: "Chandelure",
-		pt: "Chandelure",
-		de: "Skelabra"
+		'en-us': "Chandelure",
+		'fr-fr': "Lugulabre",
+		'es-es': "Chandelure",
+		'it-it': "Chandelure",
+		'pt-br': "Chandelure",
+		'de-de': "Skelabra"
 	},
 
 	illustrator: "Taira Akitsu",
@@ -19,32 +19,32 @@ const card: Card = {
 	set: Set,
 
 	evolveFrom: {
-		en: "Lampent",
-		fr: "Mélancolux",
-		es: "Lampent",
-		it: "Lampent",
-		pt: "Lampent",
-		de: "Laternecto"
+		'en-us': "Lampent",
+		'fr-fr': "Mélancolux",
+		'es-es': "Lampent",
+		'it-it': "Lampent",
+		'pt-br': "Lampent",
+		'de-de': "Laternecto"
 	},
 
 	abilities: [
 		{
 			type: "Ability",
 			name: {
-				en: "Protective Glow",
-				fr: "Lueur Protectrice",
-				es: "Brillo Protector",
-				it: "Lume Protettivo",
-				pt: "Brilho Protetor",
-				de: "Schützender Schein"
+				'en-us': "Protective Glow",
+				'fr-fr': "Lueur Protectrice",
+				'es-es': "Brillo Protector",
+				'it-it': "Lume Protettivo",
+				'pt-br': "Brilho Protetor",
+				'de-de': "Schützender Schein"
 			},
 			effect: {
-				en: "All of your Pokémon that have Energy attached have no Weakness.",
-				fr: "Vos Pokémon auxquels de l'Énergie est attachée n'ont pas de Faiblesse.",
-				es: "Ninguno de tus Pokémon que tenga alguna Energía unida a él tiene Debilidad.",
-				it: "Tutti i tuoi Pokémon che hanno delle Energie assegnate non hanno debolezza.",
-				pt: "Todos os seus Pokémon que tenham Energia ligada a eles não têm Fraqueza.",
-				de: "Alle deine Pokémon, an die Energie angelegt ist, haben keine Schwäche."
+				'en-us': "All of your Pokémon that have Energy attached have no Weakness.",
+				'fr-fr': "Vos Pokémon auxquels de l'Énergie est attachée n'ont pas de Faiblesse.",
+				'es-es': "Ninguno de tus Pokémon que tenga alguna Energía unida a él tiene Debilidad.",
+				'it-it': "Tutti i tuoi Pokémon che hanno delle Energie assegnate non hanno debolezza.",
+				'pt-br': "Todos os seus Pokémon que tenham Energia ligada a eles não têm Fraqueza.",
+				'de-de': "Alle deine Pokémon, an die Energie angelegt ist, haben keine Schwäche."
 			},
 		},
 	],
@@ -56,20 +56,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mirage Flare",
-				fr: "Mirage Flamboyant",
-				es: "Destello Espejismo",
-				it: "Miraggio Abbagliante",
-				pt: "Miragem de Chamas",
-				de: "Illusionsflackern"
+				'en-us': "Mirage Flare",
+				'fr-fr': "Mirage Flamboyant",
+				'es-es': "Destello Espejismo",
+				'it-it': "Miraggio Abbagliante",
+				'pt-br': "Miragem de Chamas",
+				'de-de': "Illusionsflackern"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent's Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: 110,
 
@@ -92,7 +92,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "This Pokémon haunts dilapidated mansions. It sways its arms to hypnotize opponents with the ominous dancing of its flames."
+		'en-us': "This Pokémon haunts dilapidated mansions. It sways its arms to hypnotize opponents with the ominous dancing of its flames."
 	},
 
 	variants: [

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Lapras VMAX",
-		fr: "Lokhlass VMAX",
-		es: "Lapras VMAX",
-		it: "Lapras VMAX",
-		pt: "Lapras VMAX",
-		de: "Lapras VMAX"
+		'en-us': "Lapras VMAX",
+		'fr-fr': "Lokhlass VMAX",
+		'es-es': "Lapras VMAX",
+		'it-it': "Lapras VMAX",
+		'pt-br': "Lapras VMAX",
+		'de-de': "Lapras VMAX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lapras V",
-		fr: "Lokhlass-V",
-		es: "Lapras V",
-		it: "Lapras V",
-		pt: "Lapras V",
-		de: "Lapras V"
+		'en-us': "Lapras V",
+		'fr-fr': "Lokhlass-V",
+		'es-es': "Lapras V",
+		'it-it': "Lapras V",
+		'pt-br': "Lapras V",
+		'de-de': "Lapras V"
 	},
 
 	stage: "VMAX",
@@ -45,20 +45,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "G-Max Pump",
-				fr: "Pompe G-Max",
-				es: "Gigabomba",
-				it: "Gigapompa",
-				pt: "Jato G-Max",
-				de: "Giga-Pumpe"
+				'en-us': "G-Max Pump",
+				'fr-fr': "Pompe G-Max",
+				'es-es': "Gigabomba",
+				'it-it': "Gigapompa",
+				'pt-br': "Jato G-Max",
+				'de-de': "Giga-Pumpe"
 			},
 			effect: {
-				en: "This attack does 30 more damage for each Water Energy attached to this Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
-				es: "Este ataque hace 30 puntos de daño más por cada Energía Water unida a este Pokémon.",
-				it: "Questo attacco infligge 30 danni in più per ogni Energia Water assegnata a questo Pokémon.",
-				pt: "Este ataque causa 30 pontos de dano a mais para cada Energia Water ligada a este Pokémon.",
-				de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Water-Energie 30 Schadenspunkte mehr zu."
+				'en-us': "This attack does 30 more damage for each Water Energy attached to this Pokémon.",
+				'fr-fr': "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+				'es-es': "Este ataque hace 30 puntos de daño más por cada Energía Water unida a este Pokémon.",
+				'it-it': "Questo attacco infligge 30 danni in più per ogni Energia Water assegnata a questo Pokémon.",
+				'pt-br': "Este ataque causa 30 pontos de dano a mais para cada Energia Water ligada a este Pokémon.",
+				'de-de': "Diese Attacke fügt für jede an dieses Pokémon angelegte Water-Energie 30 Schadenspunkte mehr zu."
 			},
 			damage: "90+",
 

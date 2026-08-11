@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Flareon",
-		fr: "Pyroli",
-		de: "Flamara"
+		'en-us': "Flareon",
+		'fr-fr': "Pyroli",
+		'de-de': "Flamara"
 	},
 
 	illustrator: "kawayoo",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli"
 	},
 
 	stage: "Stage1",
@@ -34,9 +34,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flame Tail",
-				fr: "Queue de flammes",
-				de: "Flammenschweif"
+				'en-us': "Flame Tail",
+				'fr-fr': "Queue de flammes",
+				'de-de': "Flammenschweif"
 			},
 
 			damage: 30,
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-flamme",
-				de: "Flammenwurf"
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-flamme",
+				'de-de': "Flammenwurf"
 			},
 			effect: {
-				en: "Discard an Energy attached to Flareon.",
-				fr: "Défaussez une carte Énergie attachée à Pyroli.",
-				de: "Lege 1 an Flamara angelegte Energie auf deinen Ablagestapel."
+				'en-us': "Discard an Energy attached to Flareon.",
+				'fr-fr': "Défaussez une carte Énergie attachée à Pyroli.",
+				'de-de': "Lege 1 an Flamara angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 90,
 
@@ -73,7 +73,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It stores some of the air it inhales in its internal flame pouch, which heats it to over 3,000 degrees Fahrenheit.",
+		'en-us': "It stores some of the air it inhales in its internal flame pouch, which heats it to over 3,000 degrees Fahrenheit.",
 	},
 
 	variants: [

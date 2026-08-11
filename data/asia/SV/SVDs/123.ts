@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โยเทอรี",
-		id: "Lillipup"
+		'th-th': "โยเทอรี",
+		'id-id': "Lillipup"
 	},
 
 	illustrator: "Yuka Morii",
@@ -15,16 +15,16 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "ฉลาดกว่าเด็กโดยทั่วไป จะไม่ลืมความรักและการกระทำใด ๆ ที่เคยได้รับ",
-		id: "Lillipup jauh lebih pintar daripada anak kecil pada umumnya. Pokémon ini tidak akan melupakan cinta dan derita yang pernah dialaminya."
+		'th-th': "ฉลาดกว่าเด็กโดยทั่วไป จะไม่ลืมความรักและการกระทำใด ๆ ที่เคยได้รับ",
+		'id-id': "Lillipup jauh lebih pintar daripada anak kecil pada umumnya. Pokémon ini tidak akan melupakan cinta dan derita yang pernah dialaminya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "เตะกลับหลัง",
-			id: "Tendangan Belakang"
+			'th-th': "เตะกลับหลัง",
+			'id-id': "Tendangan Belakang"
 		},
 
 		damage: 20,

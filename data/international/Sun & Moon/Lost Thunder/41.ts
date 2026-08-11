@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Quilava",
-		fr: "Feurisson",
-		es: "Quilava",
-		it: "Quilava",
-		pt: "Quilava",
-		de: "Igelavar"
+		'en-us': "Quilava",
+		'fr-fr': "Feurisson",
+		'es-es': "Quilava",
+		'it-it': "Quilava",
+		'pt-br': "Quilava",
+		'de-de': "Igelavar"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cyndaquil",
-		fr: "Héricendre",
+		'en-us': "Cyndaquil",
+		'fr-fr': "Héricendre",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer In",
-				fr: "Enfoncement",
-				es: "Martillear",
-				it: "Martello",
-				pt: "Martelada",
-				de: "Einhämmern"
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncement",
+				'es-es': "Martillear",
+				'it-it': "Martello",
+				'pt-br': "Martelada",
+				'de-de': "Einhämmern"
 			},
 
 			damage: 30,
@@ -58,20 +58,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Super Singe",
-				fr: "Super Roussi",
-				es: "Superquemadura",
-				it: "Super Scottata",
-				pt: "Superchamuscada",
-				de: "Super-Versengung"
+				'en-us': "Super Singe",
+				'fr-fr': "Super Roussi",
+				'es-es': "Superquemadura",
+				'it-it': "Super Scottata",
+				'pt-br': "Superchamuscada",
+				'de-de': "Super-Versengung"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Burned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+				'en-us': "Your opponent’s Active Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 			},
 			damage: 60,
 
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Be careful if it turns its back during battle. It means that it will attack with the fire on its back.",
+		'en-us': "Be careful if it turns its back during battle. It means that it will attack with the fire on its back.",
 	},
 
 	thirdParty: {

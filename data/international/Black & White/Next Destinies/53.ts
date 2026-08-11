@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Muk",
-		fr: "Grotadmorv",
-		es: "Muk",
-		it: "Muk",
-		pt: "Muk",
-		de: "Sleimok"
+		'en-us': "Muk",
+		'fr-fr': "Grotadmorv",
+		'es-es': "Muk",
+		'it-it': "Muk",
+		'pt-br': "Muk",
+		'de-de': "Sleimok"
 	},
 
 	illustrator: "match",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Grimer",
-		fr: "Tadmorv",
+		'en-us': "Grimer",
+		'fr-fr': "Tadmorv",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gentle Wrap",
-				fr: "Enveloppe Douce",
+				'en-us': "Gentle Wrap",
+				'fr-fr': "Enveloppe Douce",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 			damage: 20,
 
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Toxic Secretion",
-				fr: "Sécrétion Toxique",
+				'en-us': "Toxic Secretion",
+				'fr-fr': "Sécrétion Toxique",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégâts au lieu d'un sur le Pokémon ciblé entre chaque tour.",
+				'en-us': "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégâts au lieu d'un sur le Pokémon ciblé entre chaque tour.",
 			},
 			damage: 60,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "A toxic fluids seeps from its body. The fluid instantly kills plants and trees on contact.",
+		'en-us': "A toxic fluids seeps from its body. The fluid instantly kills plants and trees on contact.",
 	},
 
 	thirdParty: {

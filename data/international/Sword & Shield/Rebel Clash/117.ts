@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [568],
 
 	name: {
-		en: "Trubbish",
-		fr: "Miamiasme",
-		es: "Trubbish",
-		it: "Trubbish",
-		pt: "Trubbish",
-		de: "Unratütox"
+		'en-us': "Trubbish",
+		'fr-fr': "Miamiasme",
+		'es-es': "Trubbish",
+		'it-it': "Trubbish",
+		'pt-br': "Trubbish",
+		'de-de': "Unratütox"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -25,20 +25,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Venoshock",
-				fr: "Choc Venin",
-				es: "Carga Tóxica",
-				it: "Velenoshock",
-				pt: "Venochoque",
-				de: "Giftschock"
+				'en-us': "Venoshock",
+				'fr-fr': "Choc Venin",
+				'es-es': "Carga Tóxica",
+				'it-it': "Velenoshock",
+				'pt-br': "Venochoque",
+				'de-de': "Giftschock"
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is Poisoned, this attack does 50 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire est Empoisonné, cette attaque inflige 50 dégâts supplémentaires.",
-				es: "Si el Pokémon Activo de tu rival está Envenenado, este ataque hace 50 puntos de daño más.",
-				it: "Se il Pokémon attivo del tuo avversario è avvelenato, questo attacco infligge 50 danni in più.",
-				pt: "Se o Pokémon Ativo do seu oponente estiver Envenenado, este ataque causará 50 pontos de dano a mais.",
-				de: "Wenn das Aktive Pokémon deines Gegners vergiftet ist, fügt diese Attacke 50 Schadenspunkte mehr zu."
+				'en-us': "If your opponent's Active Pokémon is Poisoned, this attack does 50 more damage.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est Empoisonné, cette attaque inflige 50 dégâts supplémentaires.",
+				'es-es': "Si el Pokémon Activo de tu rival está Envenenado, este ataque hace 50 puntos de daño más.",
+				'it-it': "Se il Pokémon attivo del tuo avversario è avvelenato, questo attacco infligge 50 danni in più.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente estiver Envenenado, este ataque causará 50 pontos de dano a mais.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners vergiftet ist, fügt diese Attacke 50 Schadenspunkte mehr zu."
 			},
 			damage: "20+",
 
@@ -61,7 +61,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its favorite places are unsanitary ones. If you leave trash lying around, you could even find one of these Pokémon living in your room."
+		'en-us': "Its favorite places are unsanitary ones. If you leave trash lying around, you could even find one of these Pokémon living in your room."
 	},
 
 	variants: [

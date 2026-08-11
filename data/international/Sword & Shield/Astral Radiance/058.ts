@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Misdreavus",
-		fr: "Feuforêve",
-		es: "Misdreavus",
-		it: "Misdreavus",
-		pt: "Misdreavus",
-		de: "Traunfugil"
+		'en-us': "Misdreavus",
+		'fr-fr': "Feuforêve",
+		'es-es': "Misdreavus",
+		'it-it': "Misdreavus",
+		'pt-br': "Misdreavus",
+		'de-de': "Traunfugil"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Mumble",
-			fr: "Murmure",
-			es: "Farfullar",
-			it: "Borbottio",
-			pt: "Resmungo",
-			de: "Grummeln"
+			'en-us': "Mumble",
+			'fr-fr': "Murmure",
+			'es-es': "Farfullar",
+			'it-it': "Borbottio",
+			'pt-br': "Resmungo",
+			'de-de': "Grummeln"
 		},
 
 		damage: 10
@@ -53,7 +53,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It conceals itself in darkness, sending chills up travelers' spines with its childlike weeping. As it observes the frightened travelers with glee, the red orbs upon its chest let off an eerie light.",
+		'en-us': "It conceals itself in darkness, sending chills up travelers' spines with its childlike weeping. As it observes the frightened travelers with glee, the red orbs upon its chest let off an eerie light.",
 	},
 
 	variants: [

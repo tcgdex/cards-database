@@ -1,18 +1,18 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Tukar Pokémon"
+		'id-id': "Tukar Pokémon"
 	},
 
 	illustrator: "Studio Bora Inc.",
 	category: "Trainer",
 
 	effect: {
-		id: "Tukar Pokémon Bertarung sendiri dengan Pokémon Cadangan."
+		'id-id': "Tukar Pokémon Bertarung sendiri dengan Pokémon Cadangan."
 	},
 
 	trainerType: "Item",

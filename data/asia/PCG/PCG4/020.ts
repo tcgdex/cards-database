@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ho-oh ex",
+		'ja-jp': "ho-oh ex",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ゴールデンウィング",
+				'ja-jp': "ゴールデンウィング",
 			},
 			effect: {
-				ja: "Ho-oh Exが相手の攻撃によるダメージによってノックアウトされた場合、あなたが好きな方法でHo-oh exに2つのエネルギーをあなたのポカモンに移動することができます。",
+				'ja-jp': "Ho-oh Exが相手の攻撃によるダメージによってノックアウトされた場合、あなたが好きな方法でHo-oh exに2つのエネルギーをあなたのポカモンに移動することができます。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "レインボーバーン",
+				'ja-jp': "レインボーバーン",
 			},
 			effect: {
-				ja: "Ho-Oh Exに取り付けられた各タイプの基本エネルギーカードに対して、10のダメージと20のダメージを与えます。",
+				'ja-jp': "Ho-Oh Exに取り付けられた各タイプの基本エネルギーカードに対して、10のダメージと20のダメージを与えます。",
 			},
 		},
 	],

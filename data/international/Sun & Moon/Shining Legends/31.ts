@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Electrode",
-		fr: "Électrode",
-		es: "Electrode",
-		it: "Electrode",
-		pt: "Electrode",
-		de: "Lektrobal"
+		'en-us': "Electrode",
+		'fr-fr': "Électrode",
+		'es-es': "Electrode",
+		'it-it': "Electrode",
+		'pt-br': "Electrode",
+		'de-de': "Lektrobal"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Voltorb",
-		fr: "Voltorbe",
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Swift",
-				fr: "Météores",
-				es: "Rapidez",
-				it: "Comete",
-				pt: "Ataque Veloz",
-				de: "Sternschauer"
+				'en-us': "Swift",
+				'fr-fr': "Météores",
+				'es-es': "Rapidez",
+				'it-it': "Comete",
+				'pt-br': "Ataque Veloz",
+				'de-de': "Sternschauer"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Weakness, Resistance, or any other effects on your opponent’s Active Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon Actif de votre adversaire.",
-				es: "El daño de este ataque no se ve afectado por Debilidad, Resistencia o cualquier otro efecto en el Pokémon Activo de tu rival.",
-				it: "I danni di questo attacco non sono influenzati dalla debolezza, dalla resistenza o da qualsiasi altro effetto presente sul Pokémon attivo del tuo avversario.",
-				pt: "O dano deste ataque não é afetado por Fraqueza, Resistência ou quaisquer outros efeitos no Pokémon Ativo do seu oponente.",
-				de: "Der Schaden dieser Attacke wird durch Schwäche, Resistenz oder alle anderen Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
+				'en-us': "This attack’s damage isn’t affected by Weakness, Resistance, or any other effects on your opponent’s Active Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon Actif de votre adversaire.",
+				'es-es': "El daño de este ataque no se ve afectado por Debilidad, Resistencia o cualquier otro efecto en el Pokémon Activo de tu rival.",
+				'it-it': "I danni di questo attacco non sono influenzati dalla debolezza, dalla resistenza o da qualsiasi altro effetto presente sul Pokémon attivo del tuo avversario.",
+				'pt-br': "O dano deste ataque não é afetado por Fraqueza, Resistência ou quaisquer outros efeitos no Pokémon Ativo do seu oponente.",
+				'de-de': "Der Schaden dieser Attacke wird durch Schwäche, Resistenz oder alle anderen Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
 			},
 			damage: 60,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It explodes in response to even minor stimuli. It is feared, with the nickname of \"The Bomb Ball.\"",
+		'en-us': "It explodes in response to even minor stimuli. It is feared, with the nickname of \"The Bomb Ball.\"",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Conkeldurr"
+		'id-id': "Conkeldurr"
 	},
 
 	illustrator: "Takeshi Nakamura",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Conkeldurr menguasai teknik mengayun-ayunkan beton tanpa mengandalkan tenaga dengan memanfaatkan kekuatan sentrifugal secara mahir."
+		'id-id': "Conkeldurr menguasai teknik mengayun-ayunkan beton tanpa mengandalkan tenaga dengan memanfaatkan kekuatan sentrifugal secara mahir."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			id: "Mengamuk"
+			'id-id': "Mengamuk"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon ini menjadi Pusing."
+			'id-id': "Ubah kondisi Pokémon ini menjadi Pusing."
 		},
 
 		damage: 80,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			id: "Guts Swing"
+			'id-id': "Guts Swing"
 		},
 
 		effect: {
-			id: "Jika Pokémon ini mengalami Kondisi Khusus, serangan ini dapat digunakan meskipun Pokémon ini tidak mengenakan Energi yang dibutuhkan untuk menggunakan serangan ini."
+			'id-id': "Jika Pokémon ini mengalami Kondisi Khusus, serangan ini dapat digunakan meskipun Pokémon ini tidak mengenakan Energi yang dibutuhkan untuk menggunakan serangan ini."
 		},
 
 		damage: 250,

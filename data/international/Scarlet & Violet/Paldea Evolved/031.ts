@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Hélionceau",
-		en: "Litleo",
-		es: "Litleo",
-		it: "Litleo",
-		pt: "Litleo",
-		de: "Leufeo"
+		'fr-fr': "Hélionceau",
+		'en-us': "Litleo",
+		'es-es': "Litleo",
+		'it-it': "Litleo",
+		'pt-br': "Litleo",
+		'de-de': "Leufeo"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Destruction Ardente",
-			en: "Blazing Destruction",
-			es: "Destrucción Abrasadora",
-			it: "Raso al Fuoco",
-			pt: "Destruição Flamejante",
-			de: "Feurige Verwüstung"
+			'fr-fr': "Destruction Ardente",
+			'en-us': "Blazing Destruction",
+			'es-es': "Destrucción Abrasadora",
+			'it-it': "Raso al Fuoco",
+			'pt-br': "Destruição Flamejante",
+			'de-de': "Feurige Verwüstung"
 		},
 
 		effect: {
-			fr: "Défaussez un Stade en jeu.",
-			en: "Discard a Stadium in play.",
-			es: "Descarta 1 Estadio en juego.",
-			it: "Scarta una carta Stadio in gioco.",
-			pt: "Descarte um Estádio em jogo.",
-			de: "Lege 1 Stadionkarte im Spiel auf den Ablagestapel."
+			'fr-fr': "Défaussez un Stade en jeu.",
+			'en-us': "Discard a Stadium in play.",
+			'es-es': "Descarta 1 Estadio en juego.",
+			'it-it': "Scarta una carta Stadio in gioco.",
+			'pt-br': "Descarte um Estádio em jogo.",
+			'de-de': "Lege 1 Stadionkarte im Spiel auf den Ablagestapel."
 		}
 	}, {
 		cost: ["Fire"],
 
 		name: {
-			fr: "Charbon Mutant",
-			en: "Live Coal",
-			es: "Carbón Activado",
-			it: "Carboni Ardenti",
-			pt: "Carvão Vivo",
-			de: "Glühende Kohlen"
+			'fr-fr': "Charbon Mutant",
+			'en-us': "Live Coal",
+			'es-es': "Carbón Activado",
+			'it-it': "Carboni Ardenti",
+			'pt-br': "Carvão Vivo",
+			'de-de': "Glühende Kohlen"
 		},
 
 		damage: 10
@@ -66,7 +66,7 @@ const card: Card = {
 	illustrator: "Yuu Nishida",
 
 	description: {
-		en: "When Litleo are young, female Pyroar will teach them how to hunt. Once the Litleo mature, they will leave the pride and set out on their own.",
+		'en-us': "When Litleo are young, female Pyroar will teach them how to hunt. Once the Litleo mature, they will leave the pride and set out on their own.",
 	},
 
 	variants: [

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルチアのアピール",
+		'ja-jp': "ルチアのアピール",
 	},
 
 	illustrator: "En Morikura",
 	category: "Trainer",
 
 	effect: {
-		ja: "相手のベンチのたねポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをこんらんにする。",
+		'ja-jp': "相手のベンチのたねポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをこんらんにする。",
 	},
 
 	variants: [

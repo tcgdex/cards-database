@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パラス",
+		'ja-jp': "パラス",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "湿気が 足りないのか 栄養が 足りないのか アローラの パラスの キノコは 育ちが いまいち。",
+		'ja-jp': "湿気が 足りないのか 栄養が 足りないのか アローラの パラスの キノコは 育ちが いまいち。",
 	},
 
 	stage: "Basic",

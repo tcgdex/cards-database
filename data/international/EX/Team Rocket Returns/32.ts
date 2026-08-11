@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Dark Dragonair",
-		de: "Dunkles Dragonir"
+		'en-us': "Dark Dragonair",
+		'de-de': "Dunkles Dragonir"
 	},
 
 	illustrator: "Tomoaki Imakuni",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dratini",
+		'en-us': "Dratini",
 	},
 
 	stage: "Stage1",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Tackle",
-				de: "Double Tackle"
+				'en-us': "Double Tackle",
+				'de-de': "Double Tackle"
 			},
 			effect: {
-				en: "Does 20 damage to each Defending Pokémon.",
-				de: "Does 20 damage to each Defending Pokémon."
+				'en-us': "Does 20 damage to each Defending Pokémon.",
+				'de-de': "Does 20 damage to each Defending Pokémon."
 			},
 
 		},
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crushing Blow",
-				de: "Crushing Blow"
+				'en-us': "Crushing Blow",
+				'de-de': "Crushing Blow"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
-				de: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon."
+				'en-us': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				'de-de': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon."
 			},
 			damage: 40,
 

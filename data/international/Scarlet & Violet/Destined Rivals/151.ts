@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Kangaskhan",
-		fr: "Kangourex",
-		de: "Kangama",
-		it: "Kangaskhan",
-		es: "Kangaskhan",
-		pt: "Kangaskhan",
+		'en-us': "Kangaskhan",
+		'fr-fr': "Kangourex",
+		'de-de': "Kangama",
+		'it-it': "Kangaskhan",
+		'es-es': "Kangaskhan",
+		'pt-br': "Kangaskhan",
 		'es-mx': "Kangaskhan"
 	},
 
@@ -28,12 +28,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Gentle Slap",
-			fr: "Gifle Douce",
-			de: "Sanfter Hieb",
-			it: "Schiaffetto",
-			es: "Bofetada Gentil",
-			pt: "Tapinha",
+			'en-us': "Gentle Slap",
+			'fr-fr': "Gifle Douce",
+			'de-de': "Sanfter Hieb",
+			'it-it': "Schiaffetto",
+			'es-es': "Bofetada Gentil",
+			'pt-br': "Tapinha",
 			'es-mx': "Cachetadita"
 		},
 
@@ -42,22 +42,22 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Dizzy Punch",
-			fr: "Uppercut",
-			de: "Irrschlag",
-			it: "Stordipugno",
-			es: "Puño Mareo",
-			pt: "Soco Estonteante",
+			'en-us': "Dizzy Punch",
+			'fr-fr': "Uppercut",
+			'de-de': "Irrschlag",
+			'it-it': "Stordipugno",
+			'es-es': "Puño Mareo",
+			'pt-br': "Soco Estonteante",
 			'es-mx': "Puño Mareador"
 		},
 
 		effect: {
-			en: "Flip 2 coins. This attack does 90 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 90 dégâts pour chaque côté face.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 90 Schadenspunkte pro Kopf zu.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 90 danni ogni volta che esce testa.",
-			es: "Lanza 2 monedas. Este ataque hace 90 puntos de daño por cada cara.",
-			pt: "Jogue 2 moedas. Este ataque causa 90 pontos de dano para cada cara.",
+			'en-us': "Flip 2 coins. This attack does 90 damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 90 dégâts pour chaque côté face.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 90 Schadenspunkte pro Kopf zu.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 90 danni ogni volta che esce testa.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 90 puntos de daño por cada cara.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 90 pontos de dano para cada cara.",
 			'es-mx': "Lanza 2 monedas. Este ataque hace 90 puntos de daño por cada cara."
 		},
 

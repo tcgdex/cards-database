@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Vault'
 
 const card: Card = {
 	name: {
-		en: "Fraxure",
-		fr: "Incisache",
+		'en-us': "Fraxure",
+		'fr-fr': "Incisache",
 	},
 
 	illustrator: "match",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Axew",
-		fr: "Coupenotte",
+		'en-us': "Axew",
+		'fr-fr': "Coupenotte",
 	},
 
 	stage: "Stage1",
@@ -36,8 +36,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
 			},
 
 			damage: 20,
@@ -50,8 +50,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharp Fang",
-				fr: "Croc Aiguisé",
+				'en-us': "Sharp Fang",
+				'fr-fr': "Croc Aiguisé",
 			},
 
 			damage: 40,
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Their tusks can shatter rocks. Territory battles between Fraxure can be intensely violent.",
+		'en-us': "Their tusks can shatter rocks. Territory battles between Fraxure can be intensely violent.",
 	},
 
 	thirdParty: {

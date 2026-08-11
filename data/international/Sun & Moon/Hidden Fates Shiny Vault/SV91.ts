@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Tapu Bulu-GX",
-		fr: "Tokotoro-GX",
+		'en-us': "Tapu Bulu-GX",
+		'fr-fr': "Tokotoro-GX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Horn Attack",
-				fr: "Koud’Korne",
+				'en-us': "Horn Attack",
+				'fr-fr': "Koud’Korne",
 			},
 
 			damage: 30,
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nature's Judgment",
-				fr: "Jugement de la Nature",
+				'en-us': "Nature's Judgment",
+				'fr-fr': "Jugement de la Nature",
 			},
 			effect: {
-				en: "You may discard all Energy from this Pokémon. If you do, this attack does 60 more damage.",
-				fr: "Vous pouvez défausser toute l’Énergie attachée à ce Pokémon. Dans ce cas, cette attaque inflige 60 dégâts supplémentaires.",
+				'en-us': "You may discard all Energy from this Pokémon. If you do, this attack does 60 more damage.",
+				'fr-fr': "Vous pouvez défausser toute l’Énergie attachée à ce Pokémon. Dans ce cas, cette attaque inflige 60 dégâts supplémentaires.",
 			},
 			damage: 120,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tapu Wilderness-GX",
-				fr: "Toko Nature-GX",
+				'en-us': "Tapu Wilderness-GX",
+				'fr-fr': "Toko Nature-GX",
 			},
 			effect: {
-				en: "Heal all damage from this Pokémon. (You can't use more than 1 GX attack in a game.)",
-				fr: "Soignez tous les dégâts de ce Pokémon. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'en-us': "Heal all damage from this Pokémon. (You can't use more than 1 GX attack in a game.)",
+				'fr-fr': "Soignez tous les dégâts de ce Pokémon. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 			damage: 150,
 

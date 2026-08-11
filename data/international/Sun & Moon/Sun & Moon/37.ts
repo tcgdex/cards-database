@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Wingull",
-		fr: "Goélise",
-		es: "Wingull",
-		it: "Wingull",
-		pt: "Wingull",
-		de: "Wingull"
+		'en-us': "Wingull",
+		'fr-fr': "Goélise",
+		'es-es': "Wingull",
+		'it-it': "Wingull",
+		'pt-br': "Wingull",
+		'de-de': "Wingull"
 	},
 
 	illustrator: "Aya Kusube",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Roost",
-				fr: "Atterrissage",
-				es: "Respiro",
-				it: "Trespolo",
-				pt: "Poleiro",
-				de: "Ruheort"
+				'en-us': "Roost",
+				'fr-fr': "Atterrissage",
+				'es-es': "Respiro",
+				'it-it': "Trespolo",
+				'pt-br': "Poleiro",
+				'de-de': "Ruheort"
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon. It can’t retreat during your next turn.",
-				fr: "Soignez 30 dégâts à ce Pokémon. Il ne peut pas battre en retraite pendant votre prochain tour.",
-				es: "Cura 30 puntos de daño a este Pokémon. No puede retirarse durante tu próximo turno.",
-				it: "Cura questo Pokémon da 30 danni. Non può ritirarsi durante il tuo prossimo turno.",
-				pt: "Cure 30 pontos de dano deste Pokémon. Este Pokémon não poderá recuar durante a sua próxima vez de jogar.",
-				de: "Heile 30 Schadenspunkte bei diesem Pokémon. Es kann sich während deines nächsten Zuges nicht zurückziehen."
+				'en-us': "Heal 30 damage from this Pokémon. It can’t retreat during your next turn.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon. Il ne peut pas battre en retraite pendant votre prochain tour.",
+				'es-es': "Cura 30 puntos de daño a este Pokémon. No puede retirarse durante tu próximo turno.",
+				'it-it': "Cura questo Pokémon da 30 danni. Non può ritirarsi durante il tuo prossimo turno.",
+				'pt-br': "Cure 30 pontos de dano deste Pokémon. Este Pokémon não poderá recuar durante a sua próxima vez de jogar.",
+				'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon. Es kann sich während deines nächsten Zuges nicht zurückziehen."
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Fishermen keep an eye out for Wingull in the sky, because wherever they're circling, the ocean sure to be is teeming with fish Pokémon.",
+		'en-us': "Fishermen keep an eye out for Wingull in the sky, because wherever they're circling, the ocean sure to be is teeming with fish Pokémon.",
 	},
 
 	thirdParty: {

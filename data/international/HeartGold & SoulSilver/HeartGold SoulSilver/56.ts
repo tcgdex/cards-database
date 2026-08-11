@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Wigglytuff",
-		fr: "Grodoudou",
-		de: "Knuddeluff"
+		'en-us': "Wigglytuff",
+		'fr-fr': "Grodoudou",
+		'de-de': "Knuddeluff"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Jiggylypuff",
-		fr: "Rondoudou"
+		'en-us': "Jiggylypuff",
+		'fr-fr': "Rondoudou"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Slap",
-				fr: "Torgnoles",
-				de: "Duplexhieb"
+				'en-us': "Double Slap",
+				'fr-fr': "Torgnoles",
+				'de-de': "Duplexhieb"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 40 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "40×",
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Expand",
-				fr: "Pousstoidla",
-				de: "Ausdehnen"
+				'en-us': "Expand",
+				'fr-fr': "Pousstoidla",
+				'de-de': "Ausdehnen"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Wigglytuff by attacks is reduced by 10 (after applying Weakness and Resistance).",
-				fr: "Tous les dégâts infligés à Grodoudou par des attaques pendant le prochain tour de votre adversaire sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
-				de: "Während des nächsten Zuges deines Gegners wird Schaden, der Knuddeluff durch Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "During your opponent's next turn, any damage done to Wigglytuff by attacks is reduced by 10 (after applying Weakness and Resistance).",
+				'fr-fr': "Tous les dégâts infligés à Grodoudou par des attaques pendant le prochain tour de votre adversaire sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Während des nächsten Zuges deines Gegners wird Schaden, der Knuddeluff durch Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 50,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a Body Slam."
+		'en-us': "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a Body Slam."
 	},
 
 	variants: [

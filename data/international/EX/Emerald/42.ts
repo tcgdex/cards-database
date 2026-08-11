@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Volbeat",
-		fr: "Muciole",
-		de: "Volbeat"
+		'en-us': "Volbeat",
+		'fr-fr': "Muciole",
+		'de-de': "Volbeat"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde folie",
-				de: "Confuse Ray"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde folie",
+				'de-de': "Confuse Ray"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-edge",
-				fr: "Damoclès",
-				de: "Double-edge"
+				'en-us': "Double-edge",
+				'fr-fr': "Damoclès",
+				'de-de': "Double-edge"
 			},
 			effect: {
-				en: "Volbeat does 10 damage to itself.",
-				fr: "Muciole s'inflige 10 dégâts.",
-				de: "Volbeat does 10 damage to itself."
+				'en-us': "Volbeat does 10 damage to itself.",
+				'fr-fr': "Muciole s'inflige 10 dégâts.",
+				'de-de': "Volbeat does 10 damage to itself."
 			},
 			damage: 30,
 

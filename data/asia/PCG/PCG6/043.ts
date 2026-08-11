@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レイカザ（デルタ種）",
+		'ja-jp': "レイカザ（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "デルタガード",
+				'ja-jp': "デルタガード",
 			},
 			effect: {
-				ja: "Rayquazaにホロンエネルギーカードが付いている限り、Rayquazaの稲妻攻撃の効果を無視してください。",
+				'ja-jp': "Rayquazaにホロンエネルギーカードが付いている限り、Rayquazaの稲妻攻撃の効果を無視してください。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "パワーブロー",
+				'ja-jp': "パワーブロー",
 			},
 			effect: {
-				ja: "Rayquazaに取り付けられたエネルギーの量を10回損傷します。",
+				'ja-jp': "Rayquazaに取り付けられたエネルギーの量を10回損傷します。",
 			},
 		},
 		{
 			cost: ["Lightning", "Metal", "Colorless", "Colorless"],
 			name: {
-				ja: "稲妻",
+				'ja-jp': "稲妻",
 			},
 			effect: {
-				ja: "Rayquazaに7つのダメージカウンターを入れます。",
+				'ja-jp': "Rayquazaに7つのダメージカウンターを入れます。",
 			},
 			damage: 70,
 		},

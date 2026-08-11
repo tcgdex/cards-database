@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤトウモリ",
+		'ja-jp': "ヤトウモリ",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "火山や 乾いた 岩場に 棲む。 甘い 香りの 毒ガスを 放ち むしポケモンを おびき寄せ 襲う。",
+		'ja-jp': "火山や 乾いた 岩場に 棲む。 甘い 香りの 毒ガスを 放ち むしポケモンを おびき寄せ 襲う。",
 	},
 
 	stage: "Basic",

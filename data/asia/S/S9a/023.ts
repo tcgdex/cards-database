@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "洗翠 野蠻鱸魚",
-		ja: "ヒスイ バスラオ"
+		'ja-jp': "ヒスイ バスラオ"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "此寶可夢具有多項野蠻鱸魚的特徵，雖然有性情溫馴等不同點存在， 吾人仍將其定義為野蠻鱸魚的地區形態。",
-		ja: "温厚な 気質など 相違点 あれども バスラオの 特徴を 多く 有すゆえ そのリージョンフォームと 定義す。"
+		'ja-jp': "温厚な 気質など 相違点 あれども バスラオの 特徴を 多く 有すゆえ そのリージョンフォームと 定義す。"
 	},
 
 	stage: "Basic",
@@ -24,17 +24,17 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "群集",
-			ja: "むれをあつめる"
+			'ja-jp': "むれをあつめる"
 		},
 
 		effect: {
 			'zh-tw': "從自己的牌庫選擇最多2張【基礎】寶可夢卡，放置於備戰區。並且重洗牌庫。",
-			ja: "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。"
+			'ja-jp': "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。"
 		}
 	}, {
 		name: {
 			'zh-tw': "撞擊",
-			ja: "たいあたり"
+			'ja-jp': "たいあたり"
 		},
 
 		damage: 10,

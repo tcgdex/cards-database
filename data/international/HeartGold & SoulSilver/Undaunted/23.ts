@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Vespiquen",
-		fr: "Apireine",
-		de: "Honweisel"
+		'en-us': "Vespiquen",
+		'fr-fr': "Apireine",
+		'de-de': "Honweisel"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Combee",
-		fr: "Apitrini"
+		'en-us': "Combee",
+		'fr-fr': "Apitrini"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Defense Sign",
-				fr: "Signal de défense",
-				de: "Abwehrzeichen"
+				'en-us': "Defense Sign",
+				'fr-fr': "Signal de défense",
+				'de-de': "Abwehrzeichen"
 			},
 			effect: {
-				en: "Prevent all damage done to your Benched Grass Pokémon by attacks.",
-				fr: "Prévenez tous les dégâts infligés par des attaques aux Pokémon Grass de votre Banc.",
-				de: "Verhindere allen Schaden, der -Pokémon auf deiner Bank durch Angriffe zugefügt wird."
+				'en-us': "Prevent all damage done to your Benched Grass Pokémon by attacks.",
+				'fr-fr': "Prévenez tous les dégâts infligés par des attaques aux Pokémon Grass de votre Banc.",
+				'de-de': "Verhindere allen Schaden, der -Pokémon auf deiner Bank durch Angriffe zugefügt wird."
 			}
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mach Wind",
-				fr: "Vent frénétique",
-				de: "Stürmische Brise"
+				'en-us': "Mach Wind",
+				'fr-fr': "Vent frénétique",
+				'de-de': "Stürmische Brise"
 			},
 			effect: {
-				en: "During your next turn, Vespiquen's Retreat Cost is 0.",
-				fr: "Pendant votre prochain tour, le Coût de retraite d’Apireine est de 0.",
-				de: "Die Rückzugskosten für Honweisel betragen in deinem nächsten Zug 0."
+				'en-us': "During your next turn, Vespiquen's Retreat Cost is 0.",
+				'fr-fr': "Pendant votre prochain tour, le Coût de retraite d’Apireine est de 0.",
+				'de-de': "Die Rückzugskosten für Honweisel betragen in deinem nächsten Zug 0."
 			},
 			damage: 60,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It raises grubs in the holes in its body. It secretes pheromones to control Combee."
+		'en-us': "It raises grubs in the holes in its body. It secretes pheromones to control Combee."
 	},
 
 	variants: [

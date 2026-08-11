@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Solosis",
-		fr: "Nucléos",
-		es: "Solosis",
-		it: "Solosis",
-		pt: "Solosis",
-		de: "Monozyto"
+		'en-us': "Solosis",
+		'fr-fr': "Nucléos",
+		'es-es': "Solosis",
+		'it-it': "Solosis",
+		'pt-br': "Solosis",
+		'de-de': "Monozyto"
 	},
 
 	illustrator: "Midori Harada",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hide",
-				fr: "Cachette",
+				'en-us': "Hide",
+				'fr-fr': "Cachette",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
+				'en-us': "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
 			},
 
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Because their bodies are enveloped in a special liquid, they are fine in any environment, no matter how severe.",
+		'en-us': "Because their bodies are enveloped in a special liquid, they are fine in any environment, no matter how severe.",
 	},
 
 	thirdParty: {

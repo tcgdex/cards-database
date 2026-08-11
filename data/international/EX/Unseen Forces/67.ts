@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Poliwag",
-		fr: "Ptitard",
-		de: "Quapsel"
+		'en-us': "Poliwag",
+		'fr-fr': "Ptitard",
+		'de-de': "Quapsel"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,22 +31,22 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnosis",
-				fr: "Hypnose",
-				de: "Hypnosis"
+				'en-us': "Hypnosis",
+				'fr-fr': "Hypnose",
+				'de-de': "Hypnosis"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 
 		},
 		{
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse vague",
-				de: "Wave Splash"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse vague",
+				'de-de': "Wave Splash"
 			},
 
 			damage: 10,

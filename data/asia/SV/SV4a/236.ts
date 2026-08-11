@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ピカチュウ",
+		'ja-jp': "ピカチュウ",
 		'zh-tw': "皮卡丘",
-		id: "Pikachu"
+		'id-id': "Pikachu"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "両頬には 電気を 溜めこむ 袋がある。 怒ると 溜めこんだ 電気を 一気に 放ってくる。",
+		'ja-jp': "両頬には 電気を 溜めこむ 袋がある。 怒ると 溜めこんだ 電気を 一気に 放ってくる。",
 		'zh-tw': "雙頰上有儲存電力的囊袋。一旦生氣就會把儲存的電力 一口氣釋放出來。",
-		id: "Pikachu memiliki kantong penampung listrik di kedua pipinya. Ketika marah, Pokémon ini mengeluarkan seluruh listrik yang telah terkumpul."
+		'id-id': "Pikachu memiliki kantong penampung listrik di kedua pipinya. Ketika marah, Pokémon ini mengeluarkan seluruh listrik yang telah terkumpul."
 	},
 
 	stage: "Basic",
@@ -28,23 +28,23 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "なきごえ",
+			'ja-jp': "なきごえ",
 			'zh-tw': "叫聲",
-			id: "Bersuara"
+			'id-id': "Bersuara"
 		},
 
 		effect: {
-			ja: "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-20」される。",
+			'ja-jp': "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-20」される。",
 			'zh-tw': "在下個對手的回合，受到這個招式的寶可夢使用招式的傷害「-20」點。",
-			id: "Pada giliran lawan berikutnya, kerusakan akibat serangan yang digunakan oleh Pokémon yang menerima serangan ini berkurang sejumlah 20."
+			'id-id': "Pada giliran lawan berikutnya, kerusakan akibat serangan yang digunakan oleh Pokémon yang menerima serangan ini berkurang sejumlah 20."
 		}
 	}, {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			ja: "ピカボルト",
+			'ja-jp': "ピカボルト",
 			'zh-tw': "皮卡伏特",
-			id: "Pika Bolt"
+			'id-id': "Pika Bolt"
 		},
 
 		damage: 30

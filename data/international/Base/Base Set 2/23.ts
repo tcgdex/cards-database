@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Dugtrio",
+		'en-us': "Dugtrio",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Diglett",
+		'en-us': "Diglett",
 	},
 
 	stage: "Stage1",
@@ -35,7 +35,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
+				'en-us': "Slash",
 			},
 
 			damage: 40,
@@ -49,10 +49,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Earthquake",
+				'en-us': "Earthquake",
 			},
 			effect: {
-				en: "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'en-us': "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 70,
 
@@ -76,7 +76,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
+		'en-us': "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
 	},
 
 

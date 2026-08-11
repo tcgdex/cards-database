@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Croconaw",
-		fr: "Crocrodil",
-		es: "Croconaw",
+		'en-us': "Croconaw",
+		'fr-fr': "Crocrodil",
+		'es-es': "Croconaw",
 		'es-mx': "Croconaw",
-		de: "Tyracroc",
-		it: "Croconaw",
-		pt: "Croconaw"
+		'de-de': "Tyracroc",
+		'it-it': "Croconaw",
+		'pt-br': "Croconaw"
 	},
 
 	evolveFrom: {
-		en: "Totodile",
-		fr: "Kaiminus",
-		es: "Totodile",
+		'en-us': "Totodile",
+		'fr-fr': "Kaiminus",
+		'es-es': "Totodile",
 		'es-mx': "Totodile",
-		de: "Karnimani",
-		it: "Totodile",
-		pt: "Totodile",
+		'de-de': "Karnimani",
+		'it-it': "Totodile",
+		'pt-br': "Totodile",
 	},
 
 	illustrator: "Felicia Chen",
@@ -36,23 +36,23 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			en: "Crunch",
-			fr: "Mâchouille",
-			es: "Triturar",
+			'en-us': "Crunch",
+			'fr-fr': "Mâchouille",
+			'es-es': "Triturar",
 			'es-mx': "Triturar",
-			de: "Knirscher",
-			it: "Sgranocchio",
-			pt: "Mastigada"
+			'de-de': "Knirscher",
+			'it-it': "Sgranocchio",
+			'pt-br': "Mastigada"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
-			fr: "Lancez une pièce. Si c'est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
-			es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
+			'en-us': "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
+			'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			'es-es': "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
 			'es-mx': "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
-			de: "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
-			it: "Lancia una moneta. Se esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
-			pt: "Jogue uma moeda. Se sair cara, descarte uma Energia do Pokémon Ativo do seu oponente."
+			'de-de': "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+			'it-it': "Lancia una moneta. Se esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			'pt-br': "Jogue uma moeda. Se sair cara, descarte uma Energia do Pokémon Ativo do seu oponente."
 		},
 
 		damage: 50
@@ -68,7 +68,7 @@ const card: Card = {
 	regulationMark: "J",
 
 	description: {
-		en: "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth.",
+		'en-us': "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth.",
 	},
 
 	variants: [

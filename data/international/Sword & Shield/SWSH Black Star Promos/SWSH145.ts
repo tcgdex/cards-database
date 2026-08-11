@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
@@ -19,12 +19,12 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Pikachu V",
-		fr: "Pikachu V",
-		de: "Pikachu V",
-		es: "Pikachu V",
-		pt: "Pikachu V",
-		it: "Pikachu V"
+		'en-us': "Pikachu V",
+		'fr-fr': "Pikachu V",
+		'de-de': "Pikachu V",
+		'es-es': "Pikachu V",
+		'pt-br': "Pikachu V",
+		'it-it': "Pikachu V"
 	},
 
 	rarity: "Promo",
@@ -38,21 +38,21 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			fr: "Électacle",
-			de: "Volttackle",
-			es: "Placaje Eléctrico",
-			pt: "Investida Trovão",
-			it: "Locomovolt",
-			en: "Volt Tackle"
+			'fr-fr': "Électacle",
+			'de-de': "Volttackle",
+			'es-es': "Placaje Eléctrico",
+			'pt-br': "Investida Trovão",
+			'it-it': "Locomovolt",
+			'en-us': "Volt Tackle"
 		},
 
 		effect: {
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			en: "This Pokémon also does 30 damage to itself."
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'en-us': "This Pokémon also does 30 damage to itself."
 		},
 
 		damage: 210

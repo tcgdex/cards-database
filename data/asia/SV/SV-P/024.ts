@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガーディ",
+		'ja-jp': "ガーディ",
 		'zh-tw': "新葉喵",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "人懐こく 誠実な 性格。 敵には ほえて かみつき 追い払おうとする。",
+		'ja-jp': "人懐こく 誠実な 性格。 敵には ほえて かみつき 追い払おうとする。",
 		'zh-tw': "毛茸茸的體毛有著近似於植物的成分。會勤快地洗臉以防止乾燥。",
 	},
 
@@ -23,17 +23,17 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "もえあがる",
+				'ja-jp': "もえあがる",
 				'zh-tw': "抓",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から「基本[R]エネルギー」を2枚まで選び、このポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から「基本[R]エネルギー」を2枚まで選び、このポケモンにつける。そして山札を切る。",
 			},
 		},
 		{
 			name: {
-				ja: "ほのおのツメ",
+				'ja-jp': "ほのおのツメ",
 				'zh-tw': "樹葉",
 			},
 			damage: 70,

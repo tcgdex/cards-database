@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Natu"
+		'en-us': "Natu"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Because its wings aren't yet fully grown, it has to\nhop to get around. It is always staring\nat something."
+		'en-us': "Because its wings aren't yet fully grown, it has to\nhop to get around. It is always staring\nat something."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Peck"
+			'en-us': "Peck"
 		},
 
 		damage: 10,

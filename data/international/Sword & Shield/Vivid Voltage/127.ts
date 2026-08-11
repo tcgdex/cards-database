@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	name: {
-		en: "Aegislash VMAX",
-		fr: "Exagide VMAX",
-		es: "Aegislash VMAX",
-		it: "Aegislash VMAX",
-		pt: "Aegislash VMAX",
-		de: "Durengard VMAX"
+		'en-us': "Aegislash VMAX",
+		'fr-fr': "Exagide VMAX",
+		'es-es': "Aegislash VMAX",
+		'it-it': "Aegislash VMAX",
+		'pt-br': "Aegislash VMAX",
+		'de-de': "Durengard VMAX"
 	},
 
 	illustrator: "aky CG Works",
@@ -23,12 +23,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Aegislash V",
-		fr: "Exagide-V",
-		es: "Aegislash V",
-		it: "Aegislash-V",
-		pt: "Aegislash V",
-		de: "Durengard-V"
+		'en-us': "Aegislash V",
+		'fr-fr': "Exagide-V",
+		'es-es': "Aegislash V",
+		'it-it': "Aegislash-V",
+		'pt-br': "Aegislash V",
+		'de-de': "Durengard-V"
 	},
 
 	attacks: [
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Max Hack",
-				fr: "Taillomax",
-				es: "Maxitajada",
-				it: "Dynataglio",
-				pt: "Ceifada Max",
-				de: "Dyna-Hieb"
+				'en-us': "Max Hack",
+				'fr-fr': "Taillomax",
+				'es-es': "Maxitajada",
+				'it-it': "Dynataglio",
+				'pt-br': "Ceifada Max",
+				'de-de': "Dyna-Hieb"
 			},
 			effect: {
-				en: "This attack does 30 more damage for each Prize card you have taken.",
-				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque carte Récompense que vous avez récupérée.",
-				es: "Este ataque hace 30 puntos de daño más por cada carta de Premio que hayas cogido.",
-				it: "Questo attacco infligge 30 danni in più per ogni carta Premio che hai preso.",
-				pt: "Este ataque causa 30 pontos de dano a mais para cada carta de Prêmio que você pegou.",
-				de: "Diese Attacke fügt für jede von dir genommene Preiskarte 30 Schadenspunkte mehr zu."
+				'en-us': "This attack does 30 more damage for each Prize card you have taken.",
+				'fr-fr': "Cette attaque inflige 30 dégâts supplémentaires pour chaque carte Récompense que vous avez récupérée.",
+				'es-es': "Este ataque hace 30 puntos de daño más por cada carta de Premio que hayas cogido.",
+				'it-it': "Questo attacco infligge 30 danni in più per ogni carta Premio che hai preso.",
+				'pt-br': "Este ataque causa 30 pontos de dano a mais para cada carta de Prêmio que você pegou.",
+				'de-de': "Diese Attacke fügt für jede von dir genommene Preiskarte 30 Schadenspunkte mehr zu."
 			},
 			damage: "160+",
 

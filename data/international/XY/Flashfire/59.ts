@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Scrafty",
-		fr: "Baggaïd",
-		es: "Scrafty",
-		it: "Scrafty",
-		pt: "Scrafty",
-		de: "Irokex"
+		'en-us': "Scrafty",
+		'fr-fr': "Baggaïd",
+		'es-es': "Scrafty",
+		'it-it': "Scrafty",
+		'pt-br': "Scrafty",
+		'de-de': "Irokex"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Scraggy",
-		fr: "Baggiguane",
-		es: "Scraggy",
-		it: "Scraggy",
-		pt: "Scraggy",
-		de: "Zurrokex"
+		'en-us': "Scraggy",
+		'fr-fr': "Baggiguane",
+		'es-es': "Scraggy",
+		'it-it': "Scraggy",
+		'pt-br': "Scraggy",
+		'de-de': "Zurrokex"
 	},
 
 	stage: "Stage1",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Corner",
-				fr: "Coinçage",
-				es: "Arrinconar",
-				it: "Trappola",
-				pt: "Quina",
-				de: "Bedrängen"
+				'en-us': "Corner",
+				'fr-fr': "Coinçage",
+				'es-es': "Arrinconar",
+				'it-it': "Trappola",
+				'pt-br': "Quina",
+				'de-de': "Bedrängen"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
-				es: "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
-				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-				pt: "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
-				de: "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'es-es': "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
+				'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+				'pt-br': "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
+				'de-de': "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 30,
 
@@ -69,12 +69,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jet Headbutt",
-				fr: "Bélier Volant",
-				es: "Turbocabezazo",
-				it: "Zuccata Jet",
-				pt: "Cabeçada a Jato",
-				de: "Flinke Kopfnuss"
+				'en-us': "Jet Headbutt",
+				'fr-fr': "Bélier Volant",
+				'es-es': "Turbocabezazo",
+				'it-it': "Zuccata Jet",
+				'pt-br': "Cabeçada a Jato",
+				'de-de': "Flinke Kopfnuss"
 			},
 
 			damage: 80,
@@ -99,7 +99,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It pulls up its shed skin to protect itself while it kicks. The bigger the crest, the more respected it is.",
+		'en-us': "It pulls up its shed skin to protect itself while it kicks. The bigger the crest, the more respected it is.",
 	},
 
 	thirdParty: {

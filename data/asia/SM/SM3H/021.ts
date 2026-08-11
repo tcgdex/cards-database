@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ソーナンス",
+		'ja-jp': "ソーナンス",
 	},
 
 	illustrator: "nagimiso",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "光や ショックを 嫌う。 攻撃されると 体が ふくらみ 反撃が 強力に なる。",
+		'ja-jp': "光や ショックを 嫌う。 攻撃されると 体が ふくらみ 反撃が 強力に なる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Psychic", "Psychic", "Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンのにげるためのエネルギーの数x50ダメージ。",
+				'ja-jp': "相手のバトルポケモンのにげるためのエネルギーの数x50ダメージ。",
 			},
 		},
 	],

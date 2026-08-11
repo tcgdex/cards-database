@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Oinkologne"
+		'id-id': "Oinkologne"
 	},
 
 	illustrator: "Akira Komayama",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Oinkologne menyebarkan wangi semerbak layaknya bunga. Otot kakinya yang telah berkembang membuat Pokémon ini melompat setinggi lebih dari 5 meter dengan mudahnya."
+		'id-id': "Oinkologne menyebarkan wangi semerbak layaknya bunga. Otot kakinya yang telah berkembang membuat Pokémon ini melompat setinggi lebih dari 5 meter dengan mudahnya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Pilihan Terbaik"
+			'id-id': "Pilihan Terbaik"
 		},
 
 		effect: {
-			id: "Lempar koin 3 kali. Pilih kartu sesukanya dari Trash sendiri paling banyak sejumlah lemparan dengan hasil sisi depan, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan."
+			'id-id': "Lempar koin 3 kali. Pilih kartu sesukanya dari Trash sendiri paling banyak sejumlah lemparan dengan hasil sisi depan, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan."
 		},
 
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Perfume Press"
+			'id-id': "Perfume Press"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
 		},
 
 		damage: 70,

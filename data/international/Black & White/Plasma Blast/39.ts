@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Munna",
-		fr: "Munna",
-		es: "Munna",
-		it: "Munna",
-		pt: "Munna",
-		de: "Somniam"
+		'en-us': "Munna",
+		'fr-fr': "Munna",
+		'es-es': "Munna",
+		'it-it': "Munna",
+		'pt-br': "Munna",
+		'de-de': "Somniam"
 	},
 
 	illustrator: "Mizue",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mumble",
-				fr: "Murmure",
+				'en-us': "Mumble",
+				'fr-fr': "Murmure",
 			},
 
 			damage: 10,
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Focused Wish",
-				fr: "Vœu Fervent",
+				'en-us': "Focused Wish",
+				'fr-fr': "Vœu Fervent",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 10,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon appears before people and Pokémon who are having nightmares and eats those dreams.",
+		'en-us': "This Pokémon appears before people and Pokémon who are having nightmares and eats those dreams.",
 	},
 
 	thirdParty: {

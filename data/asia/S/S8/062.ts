@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤブクロン",
+		'ja-jp': "ヤブクロン",
 		'zh-tw': "破破袋",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "ゴミの 詰まった ゴミ袋から 生まれた。 吐き出す 毒ガスは ガラルの マタドガスの 好物。",
+		'ja-jp': "ゴミの 詰まった ゴミ袋から 生まれた。 吐き出す 毒ガスは ガラルの マタドガスの 好物。",
 		'zh-tw': "誕生自塞滿垃圾的垃圾袋裡。牠嘴裡噴出的毒氣是伽勒爾雙彈瓦斯的最愛。",
 	},
 
@@ -23,24 +23,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "なかまをよぶ",
+				'ja-jp': "なかまをよぶ",
 				'zh-tw': "呼朋引伴",
 			},
 			cost: ["Darkness"],
 			effect: {
-				ja: "自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。",
 				'zh-tw': "從自己的牌庫選擇1張【基礎】寶可夢卡，放置於備戰區。並且重洗牌庫。",
 			},
 		},
 		{
 			name: {
-				ja: "どくのいき",
+				'ja-jp': "どくのいき",
 				'zh-tw': "毒之氣息",
 			},
 			damage: 20,
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【中毒】。",
 			},
 		},

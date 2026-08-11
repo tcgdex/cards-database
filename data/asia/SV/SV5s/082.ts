@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Great Tusk"
+		'id-id': "Great Tusk"
 	},
 
 	illustrator: "GIDORA",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Terdapat laporan kesaksian atas Pokémon ini dalam beberapa tahun terakhir. Nama Great Tusk diambil dari nama makhluk hidup yang tercantum dalam suatu buku."
+		'id-id': "Terdapat laporan kesaksian atas Pokémon ini dalam beberapa tahun terakhir. Nama Great Tusk diambil dari nama makhluk hidup yang tercantum dalam suatu buku."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Fondasi Runtuh"
+			'id-id': "Fondasi Runtuh"
 		},
 
 		effect: {
-			id: "Buang 1 kartu dari atas Deck lawan ke Trash. Jika pada giliran ini, Supporter Purba telah dimainkan dari Kartu Pegangan, buang lagi 3 kartu tambahan ke Trash."
+			'id-id': "Buang 1 kartu dari atas Deck lawan ke Trash. Jika pada giliran ini, Supporter Purba telah dimainkan dari Kartu Pegangan, buang lagi 3 kartu tambahan ke Trash."
 		},
 
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Taring Raksasa"
+			'id-id': "Taring Raksasa"
 		},
 
 		damage: 160,

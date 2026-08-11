@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "リザードンex"
+		'ja-jp': "リザードンex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,11 +19,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "れんごくしはい"
+			'ja-jp': "れんごくしはい"
 		},
 
 		effect: {
-			ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札から「基本エネルギー」を3枚まで選び、自分のポケモンに好きなようにつける。そして山札を切る。"
+			'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分の山札から「基本エネルギー」を3枚まで選び、自分のポケモンに好きなようにつける。そして山札を切る。"
 		}
 	}],
 
@@ -31,13 +31,13 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			ja: "バーニングダーク"
+			'ja-jp': "バーニングダーク"
 		},
 
 		damage: "180＋",
 
 		effect: {
-			ja: "相手がすでにとったサイドの枚数×30ダメージ追加。"
+			'ja-jp': "相手がすでにとったサイドの枚数×30ダメージ追加。"
 		}
 	}],
 

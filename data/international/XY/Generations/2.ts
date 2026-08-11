@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "M Venusaur EX",
-		fr: "M-Florizarre-EX",
+		'en-us': "M Venusaur EX",
+		'fr-fr': "M-Florizarre-EX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Venusaur-EX",
-		fr: "Florizarre-EX",
+		'en-us': "Venusaur-EX",
+		'fr-fr': "Florizarre-EX",
 	},
 
 	stage: "MEGA",
@@ -38,12 +38,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bloom Buster",
-				fr: "Explo Pousse",
+				'en-us': "Bloom Buster",
+				'fr-fr': "Explo Pousse",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "Flip a coin. If heads, this attack does 30 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: "130+",
 

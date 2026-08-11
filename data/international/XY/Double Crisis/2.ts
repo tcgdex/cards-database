@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Camerupt",
-		fr: "Camérupt de la Team Magma",
-		pt: "Camerupt da Equipe Magma",
+		'en-us': "Team Magma's Camerupt",
+		'fr-fr': "Camérupt de la Team Magma",
+		'pt-br': "Camerupt da Equipe Magma",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -24,9 +24,9 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Team Magma's Numel",
-		fr: "Chamallot de la Team Magma",
-		pt: "Numel da Equipe Magma",
+		'en-us': "Team Magma's Numel",
+		'fr-fr': "Chamallot de la Team Magma",
+		'pt-br': "Numel da Equipe Magma",
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Burning Draft",
-				fr: "Souffle Enflammé",
-				pt: "Brisa Ardente",
+				'en-us': "Burning Draft",
+				'fr-fr': "Souffle Enflammé",
+				'pt-br': "Brisa Ardente",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may attach a {F} or {R} Energy card from your discard pile to this Pokémon.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie {F} ou {R} de votre pile de défausse à ce Pokémon.",
-				pt: "Uma vez durante sua vez de jogar (antes de atacar), você poderá ligar um card de Energia {F} ou {R} da sua pilha de descarte a este Pokémon.",
+				'en-us': "Once during your turn (before your attack), you may attach a {F} or {R} Energy card from your discard pile to this Pokémon.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie {F} ou {R} de votre pile de défausse à ce Pokémon.",
+				'pt-br': "Uma vez durante sua vez de jogar (antes de atacar), você poderá ligar um card de Energia {F} ou {R} da sua pilha de descarte a este Pokémon.",
 			},
 		},
 	],
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flame Ball",
-				fr: "Boule de Feu",
-				pt: "Bola de Chamas",
+				'en-us': "Flame Ball",
+				'fr-fr': "Boule de Feu",
+				'pt-br': "Bola de Chamas",
 			},
 			effect: {
-				en: "Move a basic Energy from this Pokémon to 1 of your Benched Pokémon.",
-				fr: "Déplacez une Énergie de base de ce Pokémon vers l'un de vos Pokémon de Banc.",
-				pt: "Mova uma Energia básica deste Pokémon para 1 dos seus Pokémon do Banco.",
+				'en-us': "Move a basic Energy from this Pokémon to 1 of your Benched Pokémon.",
+				'fr-fr': "Déplacez une Énergie de base de ce Pokémon vers l'un de vos Pokémon de Banc.",
+				'pt-br': "Mova uma Energia básica deste Pokémon para 1 dos seus Pokémon do Banco.",
 			},
 			damage: 60,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Camerupt, with its strength against fire, played a big role in rescuing team members.",
+		'en-us': "Camerupt, with its strength against fire, played a big role in rescuing team members.",
 	},
 
 	thirdParty: {

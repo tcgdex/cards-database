@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Poochyena",
-		fr: "Medhyena de Team Aqua",
-		de: "Team Aquas Fiffyen"
+		'en-us': "Team Aqua's Poochyena",
+		'fr-fr': "Medhyena de Team Aqua",
+		'de-de': "Team Aquas Fiffyen"
 	},
 
 	illustrator: "Shin-ichi Yoshikawa",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Scratch",
-				fr: "Double écorchure",
-				de: "Double Scratch"
+				'en-us': "Double Scratch",
+				'fr-fr': "Double écorchure",
+				'de-de': "Double Scratch"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10×",
 
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Slap",
-				fr: "Coud'keu",
-				de: "Tail Slap"
+				'en-us': "Tail Slap",
+				'fr-fr': "Coud'keu",
+				'de-de': "Tail Slap"
 			},
 
 			damage: 20,

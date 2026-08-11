@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Exploud",
-		fr: "Brouhabam",
-		de: "Krawumms"
+		'en-us': "Exploud",
+		'fr-fr': "Brouhabam",
+		'de-de': "Krawumms"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Loudred",
-		fr: "Ramboum"
+		'en-us': "Loudred",
+		'fr-fr': "Ramboum"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Erasing Sound",
-				fr: "Son effaçant",
-				de: "Löschgeräusche"
+				'en-us': "Erasing Sound",
+				'fr-fr': "Son effaçant",
+				'de-de': "Löschgeräusche"
 			},
 			effect: {
-				en: "Each of your Pokémon has no Weakness.",
-				fr: "Aucun de vos Pokémon ne possède de Faiblesse.",
-				de: "Deine Pokémon haben keine Schwäche."
+				'en-us': "Each of your Pokémon has no Weakness.",
+				'fr-fr': "Aucun de vos Pokémon ne possède de Faiblesse.",
+				'de-de': "Deine Pokémon haben keine Schwäche."
 			}
 		},
 	],
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Back",
-				fr: "Engloutir",
-				de: "Schlag versetzen"
+				'en-us': "Knock Back",
+				'fr-fr': "Engloutir",
+				'de-de': "Schlag versetzen"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
-				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				'de-de': "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 40,
 
@@ -70,14 +70,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Beam",
-				fr: "Ultralaser",
-				de: "Hyperstrahl"
+				'en-us': "Hyper Beam",
+				'fr-fr': "Ultralaser",
+				'de-de': "Hyperstrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 60,
 

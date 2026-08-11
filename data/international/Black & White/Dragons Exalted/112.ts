@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Braviary",
-		fr: "Gueriaigle",
-		es: "Braviary",
-		it: "Braviary",
-		pt: "Braviary",
-		de: "Washakwil"
+		'en-us': "Braviary",
+		'fr-fr': "Gueriaigle",
+		'es-es': "Braviary",
+		'it-it': "Braviary",
+		'pt-br': "Braviary",
+		'de-de': "Washakwil"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rufflet",
-		fr: "Furaiglon",
+		'en-us': "Rufflet",
+		'fr-fr': "Furaiglon",
 	},
 
 	stage: "Stage1",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
 			},
 
 			damage: 30,
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Attack",
-				fr: "Furie",
+				'en-us': "Fury Attack",
+				'fr-fr': "Furie",
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 50 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 3 coins. This attack does 50 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 50,
 
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "They fight for their friends without any thought about danger to themselves. One can carry a car while flying.",
+		'en-us': "They fight for their friends without any thought about danger to themselves. One can carry a car while flying.",
 	},
 
 	thirdParty: {

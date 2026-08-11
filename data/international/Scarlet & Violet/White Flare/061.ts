@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../White Flare"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zorua",
-		fr: "Zorua",
-		de: "Zorua",
-		it: "Zorua",
-		pt: "Zorua",
-		es: "Zorua",
+		'en-us': "Zorua",
+		'fr-fr': "Zorua",
+		'de-de': "Zorua",
+		'it-it': "Zorua",
+		'pt-br': "Zorua",
+		'es-es': "Zorua",
 		'es-mx': "Zorua"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Take Down",
-			fr: "Bélier",
-			de: "Bodycheck",
-			it: "Riduttore",
-			pt: "Desmantelar",
-			es: "Derribo",
+			'en-us': "Take Down",
+			'fr-fr': "Bélier",
+			'de-de': "Bodycheck",
+			'it-it': "Riduttore",
+			'pt-br': "Desmantelar",
+			'es-es': "Derribo",
 			'es-mx': "Derribo"
 		},
 
 		effect: {
-			en: "This Pokémon also does 10 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
-			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu.",
-			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",
-			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
+			'en-us': "This Pokémon also does 10 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 10 dégâts.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu.",
+			'it-it': "Questo Pokémon infligge anche 10 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+			'es-es': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
 			'es-mx': "Este Pokémon también se hace 10 puntos de daño a sí mismo."
 		},
 

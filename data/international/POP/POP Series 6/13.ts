@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 6'
 
 const card: Card = {
 	name: {
-		en: "Cherubi",
-		fr: "Cherubi"
+		'en-us': "Cherubi",
+		'fr-fr': "Cherubi"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sleep Powder",
-				fr: "Poudre dodo"
+				'en-us': "Sleep Powder",
+				'fr-fr': "Poudre dodo"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi."
 			},
 
 		},
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leech Seed",
-				fr: "Vampigraine"
+				'en-us': "Leech Seed",
+				'fr-fr': "Vampigraine"
 			},
 			effect: {
-				en: "If this attack does any damage to the Defending Pokémon (after applying Weakness and Resistance), remove 1 damage counter from Cherubi.",
-				fr: "Si cette attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), retirez 1 marqueur de dégât à Ceribou."
+				'en-us': "If this attack does any damage to the Defending Pokémon (after applying Weakness and Resistance), remove 1 damage counter from Cherubi.",
+				'fr-fr': "Si cette attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), retirez 1 marqueur de dégât à Ceribou."
 			},
 			damage: 20,
 
@@ -68,7 +68,7 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty."
+		'en-us': "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty."
 	},
 
 	retreat: 1,

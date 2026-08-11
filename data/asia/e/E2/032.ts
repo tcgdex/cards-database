@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグネマイト-032/092",
+		'ja-jp': "マグネマイト-032/092",
 	},
 
 	rarity: "Common",
@@ -17,10 +17,10 @@ const card: Card = {
 	abilities: [
 		{
 			name: {
-				ja: "導電性ボディ",
+				'ja-jp': "導電性ボディ",
 			},
 			effect: {
-				ja: "ベンチ上の各マグナイトにこのポケモンを支払います。",
+				'ja-jp': "ベンチ上の各マグナイトにこのポケモンを支払います。",
 			},
 		}],
 
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "磁気爆弾",
+				'ja-jp': "磁気爆弾",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて10ダメージを与えます。尾の場合、マグネマイトはそれ自体に10ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて10ダメージを与えます。尾の場合、マグネマイトはそれ自体に10ダメージを与えます。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トリミアン",
+		'ja-jp': "トリミアン",
 	},
 
 	illustrator: "Keisin",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "体毛を いかに 美しく カットするか 貴族たちの 間で 競われた 時代が あった。",
+		'ja-jp': "体毛を いかに 美しく カットするか 貴族たちの 間で 競われた 時代が あった。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ファーコート" },
 			effect: {
-				ja: "このポケモンが受けるワザのダメージは「-20」される。",
+				'ja-jp': "このポケモンが受けるワザのダメージは「-20」される。",
 			},
 		},
 	],

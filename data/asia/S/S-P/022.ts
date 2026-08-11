@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エースバーン",
+		'ja-jp': "エースバーン",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "小石を リフティングして 炎の サッカーボールを つくる。 するどい シュートで 相手を 燃やす。",
+		'ja-jp': "小石を リフティングして 炎の サッカーボールを つくる。 するどい シュートで 相手を 燃やす。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Fire"],
 			effect: {
-				ja: "自分のトラッシュから[炎]エネルギーを1枚選び、このポケモンにつける。",
+				'ja-jp': "自分のトラッシュから[炎]エネルギーを1枚選び、このポケモンにつける。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "コインを1回投げウラなら、このポケモンについているエネルギーを2個選び、トラッシュする。",
+				'ja-jp': "コインを1回投げウラなら、このポケモンについているエネルギーを2個選び、トラッシュする。",
 			},
 		},
 	],
@@ -51,7 +51,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ラビフット",
+		'ja-jp': "ラビフット",
 	},
 
 	retreat: 2,

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Gogoat",
-		fr: "Chevroum",
+		'en-us': "Gogoat",
+		'fr-fr': "Chevroum",
 	},
 
 	illustrator: "5ban Graphics",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Skiddo",
-		fr: "Cabriolaine",
+		'en-us': "Skiddo",
+		'fr-fr': "Cabriolaine",
 	},
 
 	stage: "Stage1",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Push Down",
-				fr: "Recul",
+				'en-us': "Push Down",
+				'fr-fr': "Recul",
 			},
 			effect: {
-				en: "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc.",
+				'en-us': "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc.",
 			},
 			damage: 30,
 
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Forest Press",
-				fr: "Pression de la Forêt",
+				'en-us': "Forest Press",
+				'fr-fr': "Pression de la Forêt",
 			},
 			effect: {
-				en: "Flip a coin for each Grass Energy attached to this Pokémon. This attack does 30 more damage for each heads.",
-				fr: "Lancez une pièce pour chaque Énergie Grass attachée à ce Pokémon. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
+				'en-us': "Flip a coin for each Grass Energy attached to this Pokémon. This attack does 30 more damage for each heads.",
+				'fr-fr': "Lancez une pièce pour chaque Énergie Grass attachée à ce Pokémon. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
 			},
 			damage: "60+",
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It can tell how its trainer is feeling by subtle shifts in the grip on its horns. This empathetic sense lets them run as if one being.",
+		'en-us': "It can tell how its trainer is feeling by subtle shifts in the grip on its horns. This empathetic sense lets them run as if one being.",
 	},
 
 	thirdParty: {

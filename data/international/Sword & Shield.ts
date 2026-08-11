@@ -1,14 +1,14 @@
-import { Serie } from 'models/serie'
+import { Serie } from 'models/database/serie'
 
 const set: Serie = {
 	id: "swsh",
 	name: {
-		en: "Sword & Shield",
-		fr: "Épée et Bouclier",
-		es: "Espada y Escudo",
-		it: "Spada e Scudo",
-		de: "Schwert & Schild",
-		pt: "Espada e Escudo"
+		'en-us': "Sword & Shield",
+		'fr-fr': "Épée et Bouclier",
+		'es-es': "Espada y Escudo",
+		'it-it': "Spada e Scudo",
+		'de-de': "Schwert & Schild",
+		'pt-br': "Espada e Escudo"
 	},
 
 	energies: [

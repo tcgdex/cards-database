@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Swadloon",
-		fr: "Couverdure",
-		es: "Swadloon",
-		it: "Swadloon",
-		pt: "Swadloon",
-		de: "Folikon"
+		'en-us': "Swadloon",
+		'fr-fr': "Couverdure",
+		'es-es': "Swadloon",
+		'it-it': "Swadloon",
+		'pt-br': "Swadloon",
+		'de-de': "Folikon"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sewaddle",
-		fr: "Larveyette",
+		'en-us': "Sewaddle",
+		'fr-fr': "Larveyette",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Swaddle Guard",
-				fr: "Layette Protectrice",
+				'en-us': "Swaddle Guard",
+				'fr-fr': "Layette Protectrice",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 40 (after applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 40 (après application de la Faiblesse et de la Résistance).",
+				'en-us': "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 40 (after applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 40 (après application de la Faiblesse et de la Résistance).",
 			},
 
 		},
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surprise Attack",
-				fr: "Attaque Surprise",
+				'en-us': "Surprise Attack",
+				'fr-fr': "Attaque Surprise",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 			},
 			damage: 40,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Preferring dark, damp places, it spends the entire day eating fallen leaves that lie around it.",
+		'en-us': "Preferring dark, damp places, it spends the entire day eating fallen leaves that lie around it.",
 	},
 
 	thirdParty: {

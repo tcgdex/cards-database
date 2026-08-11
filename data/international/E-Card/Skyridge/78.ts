@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Meowth",
-		de: "Mauzi"
+		'en-us': "Meowth",
+		'de-de': "Mauzi"
 	},
 
 	illustrator: "Keiko Fukuyama",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sudden Swipe",
-				de: "Plötzlicher Schlag"
+				'en-us': "Sudden Swipe",
+				'de-de': "Plötzlicher Schlag"
 			},
 			effect: {
-				en: "Flip a coin. If heads, look at your opponent's hand. If he or she has any Energy cards there, choose 1 of them. Your opponent shuffles that card into his or her deck.",
-				de: "Wirf eine Münze. Schau dir bei \"Kopf\" die Karten auf der Hand deines Gegners an. Wenn er darunter mindestens eine Energiekarte hat, wähle eine davon. Dein Gegner mischt diese Karte in sein Deck."
+				'en-us': "Flip a coin. If heads, look at your opponent's hand. If he or she has any Energy cards there, choose 1 of them. Your opponent shuffles that card into his or her deck.",
+				'de-de': "Wirf eine Münze. Schau dir bei \"Kopf\" die Karten auf der Hand deines Gegners an. Wenn er darunter mindestens eine Energiekarte hat, wähle eine davon. Dein Gegner mischt diese Karte in sein Deck."
 			},
 			damage: 10,
 

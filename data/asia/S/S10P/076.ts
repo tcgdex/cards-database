@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤレユータンV",
+		'ja-jp': "ヤレユータンV",
 	},
 
 	illustrator: "Toyste Beach",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "おとりよせ" },
 			effect: {
-				ja: "このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札から「ポケモンのどうぐ」を2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札から「ポケモンのどうぐ」を2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数×50ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数×50ダメージ追加。",
 			},
 		},
 	],

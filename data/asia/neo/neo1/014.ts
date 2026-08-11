@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミーガニウム",
+		'ja-jp': "ミーガニウム",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "野生の成長",
+				'ja-jp': "野生の成長",
 			},
 			effect: {
-				ja: "ミーガニウムが機能している限り、草のポケモンに取り付けられた各草のエネルギーカードは代わりに草を草にします。このパワーは、ミーガニウムが眠っている、混乱し、麻痺している間に機能しなくなります。",
+				'ja-jp': "ミーガニウムが機能している限り、草のポケモンに取り付けられた各草のエネルギーカードは代わりに草を草にします。このパワーは、ミーガニウムが眠っている、混乱し、麻痺している間に機能しなくなります。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Grass", "Grass", "Grass"],
 			name: {
-				ja: "なだめるような香り",
+				'ja-jp': "なだめるような香り",
 			},
 			effect: {
-				ja: "防御ポケモンは今眠っています。",
+				'ja-jp': "防御ポケモンは今眠っています。",
 			},
 			damage: 40,
 		},

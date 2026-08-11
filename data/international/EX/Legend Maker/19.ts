@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legend Maker'
 
 const card: Card = {
 	name: {
-		en: "Lanturn",
-		fr: "Lanturn",
-		de: "Lanturn"
+		'en-us': "Lanturn",
+		'fr-fr': "Lanturn",
+		'de-de': "Lanturn"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Chinchou",
-		fr: "Loupio"
+		'en-us': "Chinchou",
+		'fr-fr': "Loupio"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Dual Armor",
-				fr: "Double armure",
-				de: "Doppelte Rüstung"
+				'en-us': "Dual Armor",
+				'fr-fr': "Double armure",
+				'de-de': "Doppelte Rüstung"
 			},
 			effect: {
-				en: "As long as Lanturn has any Water Energy attached to it, Lanturn is both Water and Lightning type.",
-				fr: "Tant que Lanturn possède des Énergies , il est de type  et .",
-				de: "Solange an Lanturn eine -Energie angelegt ist, ist Lanturn ein Pokémon vom Typ  und ."
+				'en-us': "As long as Lanturn has any Water Energy attached to it, Lanturn is both Water and Lightning type.",
+				'fr-fr': "Tant que Lanturn possède des Énergies , il est de type  et .",
+				'de-de': "Solange an Lanturn eine -Energie angelegt ist, ist Lanturn ein Pokémon vom Typ  und ."
 			},
 		},
 	],
@@ -53,9 +53,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Fin",
-				fr: "Aileron-rasoir",
-				de: "Rasierflosse"
+				'en-us': "Razor Fin",
+				'fr-fr': "Aileron-rasoir",
+				'de-de': "Rasierflosse"
 			},
 
 			damage: 30,
@@ -68,14 +68,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
-				de: "Aquaknarre"
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
+				'de-de': "Aquaknarre"
 			},
 			effect: {
-				en: "Does 40 damage plus 20 more damage for each Water Energy attached to Lanturn but not used to pay for this attack's Energy cost. You can't add more then 40 damage in this way.",
-				fr: "Inflige 40 dégâts plus 20 dégâts supplémentaires pour chaque Énergie  attachée à Lanturn qui n'a pas été utilisée pour payer le Coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 40 dégâts de cette façon.",
-				de: "Dieser Angriff fügt 40 Schadenspunkte plus 20 weitere Schadenspunkte für jede an Lanturn -Energiekarte zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 40 Schadenspunkte hinzufügen."
+				'en-us': "Does 40 damage plus 20 more damage for each Water Energy attached to Lanturn but not used to pay for this attack's Energy cost. You can't add more then 40 damage in this way.",
+				'fr-fr': "Inflige 40 dégâts plus 20 dégâts supplémentaires pour chaque Énergie  attachée à Lanturn qui n'a pas été utilisée pour payer le Coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 40 dégâts de cette façon.",
+				'de-de': "Dieser Angriff fügt 40 Schadenspunkte plus 20 weitere Schadenspunkte für jede an Lanturn -Energiekarte zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 40 Schadenspunkte hinzufügen."
 			},
 			damage: "40+",
 

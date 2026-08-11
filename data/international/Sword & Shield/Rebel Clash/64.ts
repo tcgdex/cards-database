@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [695],
 
 	name: {
-		en: "Heliolisk",
-		fr: "Iguolta",
-		es: "Heliolisk",
-		it: "Heliolisk",
-		pt: "Heliolisk",
-		de: "Elezard"
+		'en-us': "Heliolisk",
+		'fr-fr': "Iguolta",
+		'es-es': "Heliolisk",
+		'it-it': "Heliolisk",
+		'pt-br': "Heliolisk",
+		'de-de': "Elezard"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -19,12 +19,12 @@ const card: Card = {
 	set: Set,
 
 	evolveFrom: {
-		en: "Helioptile",
-		fr: "Galvaran",
-		es: "Helioptile",
-		it: "Helioptile",
-		pt: "Helioptile",
-		de: "Eguana"
+		'en-us': "Helioptile",
+		'fr-fr': "Galvaran",
+		'es-es': "Helioptile",
+		'it-it': "Helioptile",
+		'pt-br': "Helioptile",
+		'de-de': "Eguana"
 	},
 
 	attacks: [
@@ -33,20 +33,20 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Eerie Impulse",
-				fr: "Ondes Étranges",
-				es: "Onda Anómala",
-				it: "Elettromistero",
-				pt: "Impulso Misterioso",
-				de: "Mystowellen"
+				'en-us': "Eerie Impulse",
+				'fr-fr': "Ondes Étranges",
+				'es-es': "Onda Anómala",
+				'it-it': "Elettromistero",
+				'pt-br': "Impulso Misterioso",
+				'de-de': "Mystowellen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy from 1 of your opponent's Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie de l'un des Pokémon de votre adversaire.",
-				es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía de 1 de los Pokémon de tu rival.",
-				it: "Lancia una moneta. Se esce testa, scarta un'Energia da uno dei Pokémon del tuo avversario.",
-				pt: "Jogue 1 moeda. Se sair cara, descarte 1 Energia de 1 dos Pokémon do seu oponente.",
-				de: "Wirf 1 Münze. Lege bei Kopf 1 Energie von 1 Pokémon deines Gegners auf seinen Ablagestapel."
+				'en-us': "Flip a coin. If heads, discard an Energy from 1 of your opponent's Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie de l'un des Pokémon de votre adversaire.",
+				'es-es': "Lanza 1 moneda. Si sale cara, descarta 1 Energía de 1 de los Pokémon de tu rival.",
+				'it-it': "Lancia una moneta. Se esce testa, scarta un'Energia da uno dei Pokémon del tuo avversario.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, descarte 1 Energia de 1 dos Pokémon do seu oponente.",
+				'de-de': "Wirf 1 Münze. Lege bei Kopf 1 Energie von 1 Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -56,20 +56,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder",
-				fr: "Fatal-Foudre",
-				es: "Trueno",
-				it: "Tuono",
-				pt: "Trovão",
-				de: "Donner"
+				'en-us': "Thunder",
+				'fr-fr': "Fatal-Foudre",
+				'es-es': "Trueno",
+				'it-it': "Tuono",
+				'pt-br': "Trovão",
+				'de-de': "Donner"
 			},
 			effect: {
-				en: "This Pokémon also does 30 damage to itself.",
-				fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-				es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-				pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+				'en-us': "This Pokémon also does 30 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+				'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+				'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+				'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 			},
 			damage: 120,
 
@@ -92,7 +92,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "A now-vanished desert culture treasured these Pokémon. Appropriately, when Heliolisk came to the Galar region, treasure came with them."
+		'en-us': "A now-vanished desert culture treasured these Pokémon. Appropriately, when Heliolisk came to the Galar region, treasure came with them."
 	},
 
 	variants: [

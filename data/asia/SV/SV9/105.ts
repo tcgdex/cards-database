@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "リーリエのアブリボン"
+		'ja-jp': "リーリエのアブリボン"
 	},
 
 	illustrator: "saino misaki",
@@ -16,7 +16,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "落ちこんでいる 人や ポケモンの 気持ちを 感じ取っては 手作りの 花粉団子で 元気づけたりする。"
+		'ja-jp': "落ちこんでいる 人や ポケモンの 気持ちを 感じ取っては 手作りの 花粉団子で 元気づけたりする。"
 	},
 
 	stage: "Stage1",
@@ -25,11 +25,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "おさそいウインク"
+			'ja-jp': "おさそいウインク"
 		},
 
 		effect: {
-			ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手の手札を見て、その中からたねポケモンを好きなだけ選び、相手のベンチに出す。"
+			'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手の手札を見て、その中からたねポケモンを好きなだけ選び、相手のベンチに出す。"
 		}
 	}],
 
@@ -37,7 +37,7 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "マジカルショット"
+			'ja-jp': "マジカルショット"
 		},
 
 		damage: 50

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Smoliv",
-		fr: "Olivini",
-		es: "Smoliv",
-		it: "Smoliv",
-		pt: "Smoliv",
-		de: "Olini"
+		'en-us': "Smoliv",
+		'fr-fr': "Olivini",
+		'es-es': "Smoliv",
+		'it-it': "Smoliv",
+		'pt-br': "Smoliv",
+		'de-de': "Olini"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 30
@@ -56,7 +56,7 @@ const card: Card = {
 	illustrator: "yuu",
 
 	description: {
-		en: "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.",
+		'en-us': "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.",
 	},
 
 	thirdParty: {

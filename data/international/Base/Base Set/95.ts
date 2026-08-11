@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Switch",
-		fr: "Transfert",
-		de: "Tausch",
-		it: "Scambio"
+		'en-us': "Switch",
+		'fr-fr': "Transfert",
+		'de-de': "Tausch",
+		'it-it': "Scambio"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,10 +15,10 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Switch 1 of your own Benched Pokémon with your Active Pokémon.",
-		fr: "Échangez 1 Pokémon de votre Banc avec votre Pokémon actif.",
-		de: "Tausche eines Deiner Pokémon auf der Bank mit Deinem aktiven Pokémon aus.",
-		it: "Scambia uno dei tuoi Pokémon in Panchina con il tuo Pokémon Attivo."
+		'en-us': "Switch 1 of your own Benched Pokémon with your Active Pokémon.",
+		'fr-fr': "Échangez 1 Pokémon de votre Banc avec votre Pokémon actif.",
+		'de-de': "Tausche eines Deiner Pokémon auf der Bank mit Deinem aktiven Pokémon aus.",
+		'it-it': "Scambia uno dei tuoi Pokémon in Panchina con il tuo Pokémon Attivo."
 	},
 
 	variants: [

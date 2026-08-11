@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shelmet",
-		fr: "Escargaume",
-		es: "Shelmet",
-		it: "Shelmet",
-		pt: "Shelmet",
-		de: "Schnuthelm"
+		'en-us': "Shelmet",
+		'fr-fr': "Escargaume",
+		'es-es': "Shelmet",
+		'it-it': "Shelmet",
+		'pt-br': "Shelmet",
+		'de-de': "Schnuthelm"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Shibuzoh.",
 
 	description: {
-		en: "It has a strange physiology that responds to electricity. When together with Karrablast, Shelmet evolves for some reason."
+		'en-us': "It has a strange physiology that responds to electricity. When together with Karrablast, Shelmet evolves for some reason."
 	},
 
 	attacks: [{
 		cost: ["Grass"],
 
 		name: {
-			en: "Spit Beam",
-			fr: "Rayon Cracheur",
-			de: "Spuckstrahl",
-			es: "Rayo Escupitajo",
-			pt: "Raio de Cuspe",
-			it: "Raggiosputo"
+			'en-us': "Spit Beam",
+			'fr-fr': "Rayon Cracheur",
+			'de-de': "Spuckstrahl",
+			'es-es': "Rayo Escupitajo",
+			'pt-br': "Raio de Cuspe",
+			'it-it': "Raggiosputo"
 		},
 
 		damage: 20

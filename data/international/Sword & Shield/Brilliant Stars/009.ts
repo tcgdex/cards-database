@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Burmy",
-		fr: "Cheniti",
-		es: "Burmy",
-		it: "Burmy",
-		pt: "Burmy",
-		de: "Burmy"
+		'en-us': "Burmy",
+		'fr-fr': "Cheniti",
+		'es-es': "Burmy",
+		'it-it': "Burmy",
+		'pt-br': "Burmy",
+		'de-de': "Burmy"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Hang Down",
-			fr: "Suspension",
-			es: "Prender",
-			it: "Tirar Giù",
-			pt: "Dependurar",
-			de: "Herunterhängen"
+			'en-us': "Hang Down",
+			'fr-fr': "Suspension",
+			'es-es': "Prender",
+			'it-it': "Tirar Giù",
+			'pt-br': "Dependurar",
+			'de-de': "Herunterhängen"
 		},
 
 		damage: 20
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "If its cloak is broken in battle, it quickly remakes the cloak with materials nearby.",
+		'en-us': "If its cloak is broken in battle, it quickly remakes the cloak with materials nearby.",
 	},
 
 	variants: [

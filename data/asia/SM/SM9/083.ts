@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムキムキパッド",
+		'ja-jp': "ムキムキパッド",
 	},
 
 	illustrator: "Yoshinobu Saito",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけているにげるためのエネルギーが4個のポケモンの最大HPは「50」大きくなる。",
+		'ja-jp': "このカードをつけているにげるためのエネルギーが4個のポケモンの最大HPは「50」大きくなる。",
 	},
 
 	variants: [

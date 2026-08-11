@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Volcanion",
-		fr: "Volcanion",
-		es: "Volcanion",
-		it: "Volcanion",
-		pt: "Volcanion",
-		de: "Volcanion"
+		'en-us': "Volcanion",
+		'fr-fr': "Volcanion",
+		'es-es': "Volcanion",
+		'it-it': "Volcanion",
+		'pt-br': "Volcanion",
+		'de-de': "Volcanion"
 	},
 
 	illustrator: "Shiburingaru",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			es: "Martillear",
-			it: "Martello",
-			pt: "Martelada",
-			de: "Einhämmern"
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'es-es': "Martillear",
+			'it-it': "Martello",
+			'pt-br': "Martelada",
+			'de-de': "Einhämmern"
 		},
 
 		damage: 30
@@ -38,21 +38,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Hydro Burn",
-			fr: "Brûlure Hydro",
-			es: "Hidroquemadura",
-			it: "Idroustione",
-			pt: "Hidroqueimadura",
-			de: "Hydrobrand"
+			'en-us': "Hydro Burn",
+			'fr-fr': "Brûlure Hydro",
+			'es-es': "Hidroquemadura",
+			'it-it': "Idroustione",
+			'pt-br': "Hidroqueimadura",
+			'de-de': "Hydrobrand"
 		},
 
 		effect: {
-			en: "If this Pokémon has any Water Energy attached, this attack does 80 more damage.",
-			fr: "Si au moins une Énergie Water est attachée à ce Pokémon, cette attaque inflige 80 dégâts supplémentaires.",
-			es: "Si este Pokémon tiene alguna Energía Water unida a él, este ataque hace 80 puntos de daño más.",
-			it: "Se questo Pokémon ha delle Energie Water assegnate, questo attacco infligge 80 danni in più.",
-			pt: "Se este Pokémon tiver alguma Energia Water ligada a ele, este ataque causará 80 pontos de dano a mais.",
-			de: "Wenn an dieses Pokémon mindestens 1 Water-Energie angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
+			'en-us': "If this Pokémon has any Water Energy attached, this attack does 80 more damage.",
+			'fr-fr': "Si au moins une Énergie Water est attachée à ce Pokémon, cette attaque inflige 80 dégâts supplémentaires.",
+			'es-es': "Si este Pokémon tiene alguna Energía Water unida a él, este ataque hace 80 puntos de daño más.",
+			'it-it': "Se questo Pokémon ha delle Energie Water assegnate, questo attacco infligge 80 danni in più.",
+			'pt-br': "Se este Pokémon tiver alguma Energia Water ligada a ele, este ataque causará 80 pontos de dano a mais.",
+			'de-de': "Wenn an dieses Pokémon mindestens 1 Water-Energie angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+"
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain.",
+		'en-us': "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain.",
 	},
 
 	

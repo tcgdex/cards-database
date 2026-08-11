@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Drifloon",
-		fr: "Baudrive",
-		es: "Drifloon",
-		it: "Drifloon",
-		pt: "Drifloon",
-		de: "Driftlon"
+		'en-us': "Drifloon",
+		'fr-fr': "Baudrive",
+		'es-es': "Drifloon",
+		'it-it': "Drifloon",
+		'pt-br': "Drifloon",
+		'de-de': "Driftlon"
 	},
 
 	illustrator: "Asako Ito",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Creepy Wind",
-				fr: "Vent Perturbant",
-				es: "Viento Escalofriante",
-				it: "Ventolosco",
-				pt: "Vento Amedrontador",
-				de: "Schauriger Wind"
+				'en-us': "Creepy Wind",
+				'fr-fr': "Vent Perturbant",
+				'es-es': "Viento Escalofriante",
+				'it-it': "Ventolosco",
+				'pt-br': "Vento Amedrontador",
+				'de-de': "Schauriger Wind"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent’s Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 
 		},
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hang Down",
-				fr: "Suspension",
-				es: "Prender",
-				it: "Tirar Giù",
-				pt: "Dependurar",
-				de: "Herunterhängen"
+				'en-us': "Hang Down",
+				'fr-fr': "Suspension",
+				'es-es': "Prender",
+				'it-it': "Tirar Giù",
+				'pt-br': "Dependurar",
+				'de-de': "Herunterhängen"
 			},
 
 			damage: 10,
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If for some reason its body bursts, its soul spills out with a screaming sound.",
+		'en-us': "If for some reason its body bursts, its soul spills out with a screaming sound.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dondozo",
-		fr: "Oyacata",
-		es: "Dondozo",
-		it: "Dondozo",
-		pt: "Dondozo",
-		de: "Heerashai"
+		'en-us': "Dondozo",
+		'fr-fr': "Oyacata",
+		'es-es': "Dondozo",
+		'it-it': "Dondozo",
+		'pt-br': "Dondozo",
+		'de-de': "Heerashai"
 	},
 
 	rarity: "Illustration rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Release Rage",
-			fr: "Colère Libérée",
-			es: "Furia Desatada",
-			it: "Scatenafuria",
-			pt: "Irradiar Ira",
-			de: "Wut ablassen"
+			'en-us': "Release Rage",
+			'fr-fr': "Colère Libérée",
+			'es-es': "Furia Desatada",
+			'it-it': "Scatenafuria",
+			'pt-br': "Irradiar Ira",
+			'de-de': "Wut ablassen"
 		},
 
 		effect: {
-			en: "This attack does 50 damage for each Tatsugiri in your discard pile.",
-			fr: "Cette attaque inflige 50 dégâts pour chaque Nigirigon dans votre pile de défausse.",
-			es: "Este ataque hace 50 puntos de daño por cada Tatsugiri en tu pila de descartes.",
-			it: "Questo attacco infligge 50 danni per ogni Tatsugiri nella tua pila degli scarti.",
-			pt: "Este ataque causa 50 pontos de dano para cada Tatsugiri na sua pilha de descarte.",
-			de: "Diese Attacke fügt für jedes Nigiragi in deinem Ablagestapel 50 Schadenspunkte zu."
+			'en-us': "This attack does 50 damage for each Tatsugiri in your discard pile.",
+			'fr-fr': "Cette attaque inflige 50 dégâts pour chaque Nigirigon dans votre pile de défausse.",
+			'es-es': "Este ataque hace 50 puntos de daño por cada Tatsugiri en tu pila de descartes.",
+			'it-it': "Questo attacco infligge 50 danni per ogni Tatsugiri nella tua pila degli scarti.",
+			'pt-br': "Este ataque causa 50 pontos de dano para cada Tatsugiri na sua pilha de descarte.",
+			'de-de': "Diese Attacke fügt für jedes Nigiragi in deinem Ablagestapel 50 Schadenspunkte zu."
 		},
 
 		damage: "50×"
@@ -46,12 +46,12 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Heavy Splash",
-			fr: "Éclaboussure Massive",
-			es: "Salpicadura Formidable",
-			it: "Grande Splash",
-			pt: "Borrifada Pesada",
-			de: "Heftiger Platscher"
+			'en-us': "Heavy Splash",
+			'fr-fr': "Éclaboussure Massive",
+			'es-es': "Salpicadura Formidable",
+			'it-it': "Grande Splash",
+			'pt-br': "Borrifada Pesada",
+			'de-de': "Heftiger Platscher"
 		},
 
 		damage: 120
@@ -75,7 +75,7 @@ const card: Card = {
 	illustrator: "AKIRA EGAWA",
 
 	description: {
-		en: "This Pokémon is a glutton, but it's bad at getting food. It teams up with a Tatsugiri to catch prey.",
+		'en-us': "This Pokémon is a glutton, but it's bad at getting food. It teams up with a Tatsugiri to catch prey.",
 	},
 
 	thirdParty: {

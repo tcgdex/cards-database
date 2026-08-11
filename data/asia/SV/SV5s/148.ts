@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Snom"
+		'id-id': "Snom"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Makanannya adalah salju yang menumpuk di tanah. Snom menyukai salju segar yang empuk dan terus memakan salju hingga mencapai puncak gunung."
+		'id-id': "Makanannya adalah salju yang menumpuk di tanah. Snom menyukai salju segar yang empuk dan terus memakan salju hingga mencapai puncak gunung."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Bubuk Salju"
+			'id-id': "Bubuk Salju"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
 		},
 
 		damage: 10,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Taillow",
-		fr: "Nirondelle",
-		de: "Schwalbini"
+		'en-us': "Taillow",
+		'fr-fr': "Nirondelle",
+		'de-de': "Schwalbini"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fly",
-				fr: "Vol",
-				de: "Fly"
+				'en-us': "Fly",
+				'fr-fr': "Vol",
+				'de-de': "Fly"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of an attack, including damage, done to Taillow during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Nirondelle lors du prochain tour de votre adversaire.",
-				de: "Flip a coin. If tails, this attack does nothing. if heads, prevent all effects of an attack, including damage, done to Taillow during your opponent's next turn."
+				'en-us': "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of an attack, including damage, done to Taillow during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Nirondelle lors du prochain tour de votre adversaire.",
+				'de-de': "Flip a coin. If tails, this attack does nothing. if heads, prevent all effects of an attack, including damage, done to Taillow during your opponent's next turn."
 			},
 			damage: 10,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カスミのニョロボン",
+		'ja-jp': "カスミのニョロボン",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Water", "Water", "Colorless", "Colorless"],
 			name: {
-				ja: "ウォーターリング",
+				'ja-jp': "ウォーターリング",
 			},
 			effect: {
-				ja: "各プレイヤーのベンチに水がない各ポケモンに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "各プレイヤーのベンチに水がない各ポケモンに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 30,
 		},

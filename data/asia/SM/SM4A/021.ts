@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤレユータン",
+		'ja-jp': "ヤレユータン",
 	},
 
 	illustrator: "Yoshinobu Saito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "非常に 賢いことで 知られる。 未熟な トレーナーは 見下す ベテラン向けの ポケモンだぞ。",
+		'ja-jp': "非常に 賢いことで 知られる。 未熟な トレーナーは 見下す ベテラン向けの ポケモンだぞ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "もりのしゅうりや" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分のトラッシュにある「ポケモンのどうぐ」を3枚、相手に見せてから、手札に加える。",
+				'ja-jp': "自分のトラッシュにある「ポケモンのどうぐ」を3枚、相手に見せてから、手札に加える。",
 			},
 		},
 		{

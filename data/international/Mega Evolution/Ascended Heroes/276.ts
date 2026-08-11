@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu ex",
-		fr: "Pikachu-ex",
-		es: "Pikachu ex",
+		'en-us': "Pikachu ex",
+		'fr-fr': "Pikachu-ex",
+		'es-es': "Pikachu ex",
 		'es-mx': "Pikachu ex",
-		de: "Pikachu-ex",
-		it: "Pikachu-ex",
-		pt: "Pikachu ex"
+		'de-de': "Pikachu-ex",
+		'it-it': "Pikachu-ex",
+		'pt-br': "Pikachu ex"
 	},
 
 	suffix: "ex",
@@ -27,13 +27,13 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			en: "Thunderbolt",
-			fr: "Tonnerre",
-			es: "Rayo",
+			'en-us': "Thunderbolt",
+			'fr-fr': "Tonnerre",
+			'es-es': "Rayo",
 			'es-mx': "Atactrueno",
-			de: "Donnerblitz",
-			it: "Fulmine",
-			pt: "Relâmpago"
+			'de-de': "Donnerblitz",
+			'it-it': "Fulmine",
+			'pt-br': "Relâmpago"
 		},
 
 		damage: 120

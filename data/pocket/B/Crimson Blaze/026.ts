@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [462],
 
 	name: {
-		en: "Magnezone"
+		'en-us': "Magnezone"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Magneton"
+		'en-us': "Magneton"
 	},
 
 	description: {
-		en: "Exposure to a special magnetic field changed\nMagneton's molecular structure, turning it into\nMagnezone."
+		'en-us': "Exposure to a special magnetic field changed\nMagneton's molecular structure, turning it into\nMagnezone."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Mirror Shot"
+			'en-us': "Mirror Shot"
 		},
 
 		damage: 90,
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		effect: {
-			en: "During your opponent's next turn, if the Defending Pokémon tries to use an attack, your opponent flips a coin. If tails, that attack doesn't happen."
+			'en-us': "During your opponent's next turn, if the Defending Pokémon tries to use an attack, your opponent flips a coin. If tails, that attack doesn't happen."
 		}
 	}],
 

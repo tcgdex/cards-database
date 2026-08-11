@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Smoochum δ",
-		fr: "Lippouti δ",
-		de: "Kussilla"
+		'en-us': "Smoochum δ",
+		'fr-fr': "Lippouti δ",
+		'de-de': "Kussilla"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Baby Evolution",
-				fr: "Évolution bébé",
-				de: "Baby Evolution"
+				'en-us': "Baby Evolution",
+				'fr-fr': "Évolution bébé",
+				'de-de': "Baby Evolution"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may put Jynx from your hand onto Smoochum (this counts as evolving Smoochum) and remove all damage counters from Smoochum.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Lippoutou de votre main sur Lippouti (vous le faites ainsi évoluer) et retirer à Lippouti tous ses marqueurs de dégât.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du Rossana von deiner Hand auf Kussilla legen (das zählt als Entwickeln von Kussilla) und alle Schadensmarken von Kussilla entfernen."
+				'en-us': "Once during your turn (before your attack), you may put Jynx from your hand onto Smoochum (this counts as evolving Smoochum) and remove all damage counters from Smoochum.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Lippoutou de votre main sur Lippouti (vous le faites ainsi évoluer) et retirer à Lippouti tous ses marqueurs de dégât.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du Rossana von deiner Hand auf Kussilla legen (das zählt als Entwickeln von Kussilla) und alle Schadensmarken von Kussilla entfernen."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Alluring Kiss",
-				fr: "Baiser piégeant",
-				de: "Verführerischer Kuss"
+				'en-us': "Alluring Kiss",
+				'fr-fr': "Baiser piégeant",
+				'de-de': "Verführerischer Kuss"
 			},
 			effect: {
-				en: "Search your deck for a Basic Pokémon and a basic Energy card, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck un Pokémon de base et une carte Énergie de base. Montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach 1 Basis-Pokémon- und 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
+				'en-us': "Search your deck for a Basic Pokémon and a basic Energy card, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck un Pokémon de base et une carte Énergie de base. Montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach 1 Basis-Pokémon- und 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
 			},
 
 		},

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Aurorus",
-		fr: "Dragmara",
-		es: "Aurorus",
-		it: "Aurorus",
-		pt: "Aurorus",
-		de: "Amagarga"
+		'en-us': "Aurorus",
+		'fr-fr': "Dragmara",
+		'es-es': "Aurorus",
+		'it-it': "Aurorus",
+		'pt-br': "Aurorus",
+		'de-de': "Amagarga"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Amaura",
-		fr: "Amagara",
+		'en-us': "Amaura",
+		'fr-fr': "Amagara",
 	},
 
 	stage: "Stage2",
@@ -41,20 +41,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Frost Wall",
-				fr: "Mur de Givre",
-				es: "Muro Gélido",
-				it: "Murogelo",
-				pt: "Muro Congelado",
-				de: "Frostwand"
+				'en-us': "Frost Wall",
+				'fr-fr': "Mur de Givre",
+				'es-es': "Muro Gélido",
+				'it-it': "Murogelo",
+				'pt-br': "Muro Congelado",
+				'de-de': "Frostwand"
 			},
 			effect: {
-				en: "During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Evolution Pokémon.",
-				fr: "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon Évolutifs.",
-				es: "Durante el próximo turno de tu rival, evita todo el daño infligido a este Pokémon por ataques de Pokémon Evolución.",
-				it: "Durante il prossimo turno del tuo avversario, previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon Evoluzione.",
-				pt: "Durante a próxima vez de jogar do seu oponente, prevenirá todo o dano causado a este Pokémon por ataques de Pokémon de Evolução.",
-				de: "Verhindere während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken von Entwicklungs-Pokémon zugefügt wird."
+				'en-us': "During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Evolution Pokémon.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon Évolutifs.",
+				'es-es': "Durante el próximo turno de tu rival, evita todo el daño infligido a este Pokémon por ataques de Pokémon Evolución.",
+				'it-it': "Durante il prossimo turno del tuo avversario, previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon Evoluzione.",
+				'pt-br': "Durante a próxima vez de jogar do seu oponente, prevenirá todo o dano causado a este Pokémon por ataques de Pokémon de Evolução.",
+				'de-de': "Verhindere während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken von Entwicklungs-Pokémon zugefügt wird."
 			},
 			damage: 50,
 
@@ -67,20 +67,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blizzard Burn",
-				fr: "Blizzard Étourdissant",
-				es: "Quemadura de Hielo",
-				it: "Pirobora",
-				pt: "Queimadura de Neve",
-				de: "Blizzardbrand"
+				'en-us': "Blizzard Burn",
+				'fr-fr': "Blizzard Étourdissant",
+				'es-es': "Quemadura de Hielo",
+				'it-it': "Pirobora",
+				'pt-br': "Queimadura de Neve",
+				'de-de': "Blizzardbrand"
 			},
 			effect: {
-				en: "This Pokémon can’t attack during your next turn.",
-				fr: "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
-				es: "Este Pokémon no puede atacar durante tu próximo turno.",
-				it: "Questo Pokémon non può attaccare durante il tuo prossimo turno.",
-				pt: "Este Pokémon não poderá atacar durante a sua próxima vez de jogar.",
-				de: "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
+				'en-us': "This Pokémon can’t attack during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				'es-es': "Este Pokémon no puede atacar durante tu próximo turno.",
+				'it-it': "Questo Pokémon non può attaccare durante il tuo prossimo turno.",
+				'pt-br': "Este Pokémon não poderá atacar durante a sua próxima vez de jogar.",
+				'de-de': "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
 			},
 			damage: 150,
 
@@ -97,7 +97,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Using its diamond-shaped crystals, it can instantly create a wall of ice to block an opponent's attack.",
+		'en-us': "Using its diamond-shaped crystals, it can instantly create a wall of ice to block an opponent's attack.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Duskull",
-		fr: "Skelenox",
-		de: "Zwirrlicht"
+		'en-us': "Duskull",
+		'fr-fr': "Skelenox",
+		'de-de': "Zwirrlicht"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'face",
-				de: "Pound"
+				'en-us': "Pound",
+				'fr-fr': "Écras'face",
+				'de-de': "Pound"
 			},
 
 			damage: 10,

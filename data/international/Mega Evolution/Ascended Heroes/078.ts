@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Team Rocket's Exeggutor",
-		fr: "Noadkoko de la Team Rocket",
-		es: "Exeggutor del Team Rocket",
+		'en-us': "Team Rocket's Exeggutor",
+		'fr-fr': "Noadkoko de la Team Rocket",
+		'es-es': "Exeggutor del Team Rocket",
 		'es-mx': "Exeggutor del Equipo Rocket",
-		de: "Team Rockets Kokowei",
-		it: "Exeggutor del Team Rocket",
-		pt: "Exeggutor da Equipe Rocket"
+		'de-de': "Team Rockets Kokowei",
+		'it-it': "Exeggutor del Team Rocket",
+		'pt-br': "Exeggutor da Equipe Rocket"
 	},
 
 	evolveFrom: {
-		en: "Team Rocket's Exeggcute",
-		fr: "Noeunoeuf de la Team Rocket",
-		es: "Exeggcute del Team Rocket",
+		'en-us': "Team Rocket's Exeggcute",
+		'fr-fr': "Noeunoeuf de la Team Rocket",
+		'es-es': "Exeggcute del Team Rocket",
 		'es-mx': "Exeggcute del Equipo Rocket",
-		de: "Team Rockets Owei",
-		it: "Exeggcute del Team Rocket",
-		pt: "Exeggcute da Equipe Rocket",
+		'de-de': "Team Rockets Owei",
+		'it-it': "Exeggcute del Team Rocket",
+		'pt-br': "Exeggcute da Equipe Rocket",
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -35,45 +35,45 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Tri Kinesis",
-			fr: "Tri-Kinésie",
-			es: "Triple Kinesia",
+			'en-us': "Tri Kinesis",
+			'fr-fr': "Tri-Kinésie",
+			'es-es': "Triple Kinesia",
 			'es-mx': "Triple Kinesia",
-			de: "Trikinese",
-			it: "Cinèsi Tripla",
-			pt: "Tricinese"
+			'de-de': "Trikinese",
+			'it-it': "Cinèsi Tripla",
+			'pt-br': "Tricinese"
 		},
 
 		effect: {
-			en: "Flip 3 coins. If all of them are heads, Knock Out 1 of your opponent's Pokémon.",
-			fr: "Lancez 3 pièces. Si vous obtenez 3 côtés face, mettez K.O. l'un des Pokémon de votre adversaire.",
-			es: "Lanza 3 monedas. Si salen 3 caras, deja Fuera de Combate a 1 de los Pokémon de tu rival.",
+			'en-us': "Flip 3 coins. If all of them are heads, Knock Out 1 of your opponent's Pokémon.",
+			'fr-fr': "Lancez 3 pièces. Si vous obtenez 3 côtés face, mettez K.O. l'un des Pokémon de votre adversaire.",
+			'es-es': "Lanza 3 monedas. Si salen 3 caras, deja Fuera de Combate a 1 de los Pokémon de tu rival.",
 			'es-mx': "Lanza 3 monedas. Si sale cara en todas, deja Fuera de Combate a 1 de los Pokémon de tu rival.",
-			de: "Wirf 3 Münzen. Zeigen alle Münzen Kopf, mache 1 Pokémon deines Gegners kampfunfähig.",
-			it: "Lancia tre volte una moneta. Se esce testa tutte e tre le volte, metti KO uno dei Pokémon del tuo avversario.",
-			pt: "Jogue 3 moedas. Se todas saírem cara, Nocauteie 1 dos Pokémon do seu oponente."
+			'de-de': "Wirf 3 Münzen. Zeigen alle Münzen Kopf, mache 1 Pokémon deines Gegners kampfunfähig.",
+			'it-it': "Lancia tre volte una moneta. Se esce testa tutte e tre le volte, metti KO uno dei Pokémon del tuo avversario.",
+			'pt-br': "Jogue 3 moedas. Se todas saírem cara, Nocauteie 1 dos Pokémon do seu oponente."
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Double-Edge",
-			fr: "Damoclès",
-			es: "Doble Filo",
+			'en-us': "Double-Edge",
+			'fr-fr': "Damoclès",
+			'es-es': "Doble Filo",
 			'es-mx': "Doble Filo",
-			de: "Risikotackle",
-			it: "Sdoppiatore",
-			pt: "Faca de Dois Gumes"
+			'de-de': "Risikotackle",
+			'it-it': "Sdoppiatore",
+			'pt-br': "Faca de Dois Gumes"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
 			'es-mx': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo."
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo."
 		},
 
 		damage: 150
@@ -95,7 +95,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "It is said that on rare occasions, one of its heads will drop off and continue on as an Exeggcute.",
+		'en-us': "It is said that on rare occasions, one of its heads will drop off and continue on as an Exeggcute.",
 	},
 
 	variants: [

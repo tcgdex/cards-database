@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レアコイル",
+		'ja-jp': "レアコイル",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "ほぼ コイル ３倍の 電力。 太陽の黒点が 多いとき なぜか 大量発生。",
+		'ja-jp': "ほぼ コイル ３倍の 電力。 太陽の黒点が 多いとき なぜか 大量発生。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「でんじほう」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「でんじほう」が使えない。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コイル",
+		'ja-jp': "コイル",
 	},
 
 	retreat: 2,

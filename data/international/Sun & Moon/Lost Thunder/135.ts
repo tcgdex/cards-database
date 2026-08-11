@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Marill",
-		fr: "Marill",
-		es: "Marill",
-		it: "Marill",
-		pt: "Marill",
-		de: "Marill"
+		'en-us': "Marill",
+		'fr-fr': "Marill",
+		'es-es': "Marill",
+		'it-it': "Marill",
+		'pt-br': "Marill",
+		'de-de': "Marill"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magical Shot",
-				fr: "Coup Magique",
-				es: "Disparo Mágico",
-				it: "Magicolpo",
-				pt: "Tiro Mágico",
-				de: "Magischer Schuss"
+				'en-us': "Magical Shot",
+				'fr-fr': "Coup Magique",
+				'es-es': "Disparo Mágico",
+				'it-it': "Magicolpo",
+				'pt-br': "Tiro Mágico",
+				'de-de': "Magischer Schuss"
 			},
 
 			damage: 30,
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The tip of its tail is filled with oil that is lighter than water, so it acts as a float.",
+		'en-us': "The tip of its tail is filled with oil that is lighter than water, so it acts as a float.",
 	},
 
 	thirdParty: {

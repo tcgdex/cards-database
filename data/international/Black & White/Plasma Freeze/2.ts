@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Kakuna",
-		fr: "Coconfort",
-		es: "Kakuna",
-		it: "Kakuna",
-		pt: "Kakuna",
-		de: "Kokuna"
+		'en-us': "Kakuna",
+		'fr-fr': "Coconfort",
+		'es-es': "Kakuna",
+		'it-it': "Kakuna",
+		'pt-br': "Kakuna",
+		'de-de': "Kokuna"
 	},
 
 	illustrator: "match",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Weedle",
-		fr: "Aspicot",
+		'en-us': "Weedle",
+		'fr-fr': "Aspicot",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Hide",
-				fr: "Cachette",
+				'en-us': "Hide",
+				'fr-fr': "Cachette",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
+				'en-us': "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
 			},
 
 		},
@@ -60,7 +60,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "While awaiting evolution, it hides from predators under leaves and in nooks of branches.",
+		'en-us': "While awaiting evolution, it hides from predators under leaves and in nooks of branches.",
 	},
 
 	thirdParty: {

@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magnemite",
-		fr: "Magnéti",
-		de: "Magnetilo",
-		it: "Magnemite",
-		es: "Magnemite",
-		pt: "Magnemite",
+		'en-us': "Magnemite",
+		'fr-fr': "Magnéti",
+		'de-de': "Magnetilo",
+		'it-it': "Magnemite",
+		'es-es': "Magnemite",
+		'pt-br': "Magnemite",
 		'es-mx': "Magnemite"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Beam",
-			fr: "Rayon",
-			de: "Strahl",
-			it: "Raggio",
-			es: "Transmisión",
-			pt: "Feixe",
+			'en-us': "Beam",
+			'fr-fr': "Rayon",
+			'de-de': "Strahl",
+			'it-it': "Raggio",
+			'es-es': "Transmisión",
+			'pt-br': "Feixe",
 			'es-mx': "Rayo"
 		},
 

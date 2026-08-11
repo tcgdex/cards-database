@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドーミラー",
+		'ja-jp': "ドーミラー",
 	},
 
 	illustrator: "Saboteri",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "古い お墓から みつかる。 背中の 模様には 神秘的な 力が 宿っていると いわれる。",
+		'ja-jp': "古い お墓から みつかる。 背中の 模様には 神秘的な 力が 宿っていると いわれる。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Metal"],
 			effect: {
-				ja: "相手のバトルポケモンが[M]ポケモンなら、30ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが[M]ポケモンなら、30ダメージ追加。",
 			},
 		},
 	],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Sealeo",
-		fr: "Phogleur",
-		es: "Sealeo",
-		it: "Sealeo",
-		pt: "Sealeo",
-		de: "Seejong"
+		'en-us': "Sealeo",
+		'fr-fr': "Phogleur",
+		'es-es': "Sealeo",
+		'it-it': "Sealeo",
+		'pt-br': "Sealeo",
+		'de-de': "Seejong"
 	},
 
 	illustrator: "Mizue",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spheal",
-		fr: "Obalie",
+		'en-us': "Spheal",
+		'fr-fr': "Obalie",
 	},
 
 	stage: "Stage1",
@@ -40,8 +40,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Ball",
-				fr: "Ball'Glace",
+				'en-us': "Ice Ball",
+				'fr-fr': "Ball'Glace",
 			},
 
 			damage: 30,
@@ -54,8 +54,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aurora Beam",
-				fr: "Onde Boréale",
+				'en-us': "Aurora Beam",
+				'fr-fr': "Onde Boréale",
 			},
 
 			damage: 40,
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It habitually spins things on its nose. By doing so, it learns textures and odors.",
+		'en-us': "It habitually spins things on its nose. By doing so, it learns textures and odors.",
 	},
 
 	thirdParty: {

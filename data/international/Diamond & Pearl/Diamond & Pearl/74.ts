@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Chatot",
-		fr: "Pijako",
-		de: "Plaudagei"
+		'en-us': "Chatot",
+		'fr-fr': "Pijako",
+		'de-de': "Plaudagei"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Me First",
-				fr: "Moi d'Abord",
-				de: "Egotrip"
+				'en-us': "Me First",
+				'fr-fr': "Moi d'Abord",
+				'de-de': "Egotrip"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tone-Deaf",
-				fr: "Dur d'oreille",
-				de: "Unmusikalisch"
+				'en-us': "Tone-Deaf",
+				'fr-fr': "Dur d'oreille",
+				'de-de': "Unmusikalisch"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -78,8 +78,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It can learn and speak human words. If they gather, they all learn the same saying.",
-		fr: "On peut lui enseigner quelques mots. S'il s'agit d'un groupe, ils retiendront les mêmes phrases."
+		'en-us': "It can learn and speak human words. If they gather, they all learn the same saying.",
+		'fr-fr': "On peut lui enseigner quelques mots. S'il s'agit d'un groupe, ils retiendront les mêmes phrases."
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "鐵螯龍蝦",
-		ja: "シザリガー"
+		'ja-jp': "シザリガー"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "不停揮舞自己巨大的鉗子，是個性情粗暴的傢伙。 被認為是很難培育的寶可夢。",
-		ja: "巨大な ハサミを 振りまわす 暴れ者。 育てるのが とても 難しい ポケモンと いわれる。"
+		'ja-jp': "巨大な ハサミを 振りまわす 暴れ者。 育てるのが とても 難しい ポケモンと いわれる。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "推擊",
-			ja: "どつく"
+			'ja-jp': "どつく"
 		},
 
 		damage: 30,
@@ -32,12 +32,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "蝦鉗衝擊",
-			ja: "クラブインパクト"
+			'ja-jp': "クラブインパクト"
 		},
 
 		effect: {
 			'zh-tw': "選擇2個這隻寶可夢身上附加的能量，將其丟棄。",
-			ja: "このポケモンについているエネルギーを2個選び、トラッシュする。"
+			'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。"
 		},
 
 		damage: 150,

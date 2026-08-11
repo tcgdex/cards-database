@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レイロン",
+		'ja-jp': "レイロン",
 	},
 
 	rarity: "Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ro音",
+				'ja-jp': "ro音",
 			},
 			effect: {
-				ja: "対戦相手は、ベンチ付きポケモンの1つで防御ポケモンを切り替えます。",
+				'ja-jp': "対戦相手は、ベンチ付きポケモンの1つで防御ポケモンを切り替えます。",
 			},
 		},
 		{
 			cost: ["Metal", "Colorless", "Colorless"],
 			name: {
-				ja: "金属電荷",
+				'ja-jp': "金属電荷",
 			},
 			effect: {
-				ja: "ライロンに1つのダメージカウンターを置きます。",
+				'ja-jp': "ライロンに1つのダメージカウンターを置きます。",
 			},
 			damage: 50,
 		},

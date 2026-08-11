@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カポエラー",
+		'ja-jp': "カポエラー",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "コマのように 回転しながら 戦う。 遠心力の パワーで 破壊力は １０倍だ。",
+		'ja-jp': "コマのように 回転しながら 戦う。 遠心力の パワーで 破壊力は １０倍だ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "フィニッシュコンボ" },
 			cost: ["Fighting"],
 			effect: {
-				ja: "このワザは、前の自分の番に「サワムラー」が「スペシャルコンボ」を使っていなければ使えない。相手のポケモン全員に、それぞれ60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "このワザは、前の自分の番に「サワムラー」が「スペシャルコンボ」を使っていなければ使えない。相手のポケモン全員に、それぞれ60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2016'
 
 const card: Card = {
@@ -9,7 +9,7 @@ const card: Card = {
 	dexId: [52],
 
 	description: {
-		en: "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change."
+		'en-us': "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change."
 	},
 
 	hp: 60,
@@ -19,21 +19,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Act Tough",
-			fr: "Dur à Cuire"
+			'en-us': "Act Tough",
+			'fr-fr': "Dur à Cuire"
 		},
 
 		damage: "10+",
 
 		effect: {
-			en: "If this Pokémon has any Darkness Energy attached to it, this attack does 20 more damage.",
-			fr: "Si de l'Énergie  est attachée à ce Pokémon, cette attaque inflige 20 dégâts supplémentaires."
+			'en-us': "If this Pokémon has any Darkness Energy attached to it, this attack does 20 more damage.",
+			'fr-fr': "Si de l'Énergie  est attachée à ce Pokémon, cette attaque inflige 20 dégâts supplémentaires."
 		}
 	}],
 
 	name: {
-		en: "Meowth",
-		fr: "Miaouss"
+		'en-us': "Meowth",
+		'fr-fr': "Miaouss"
 	},
 
 	rarity: "None",

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドクロッグ",
+		'ja-jp': "ドクロッグ",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "のど元に 毒袋を 持つ。 のどを 鳴らすと 溜まった 毒は 練りこまれ 強力になる。",
+		'ja-jp': "のど元に 毒袋を 持つ。 のどを 鳴らすと 溜まった 毒は 練りこまれ 強力になる。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "90+",
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが進化ポケモンなら、90ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが進化ポケモンなら、90ダメージ追加。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "グレッグル",
+		'ja-jp': "グレッグル",
 	},
 
 	retreat: 1,

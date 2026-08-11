@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Loudred",
-		fr: "Ramboum",
-		es: "Loudred",
-		it: "Loudred",
-		pt: "Loudred",
-		de: "Krakeelo"
+		'en-us': "Loudred",
+		'fr-fr': "Ramboum",
+		'es-es': "Loudred",
+		'it-it': "Loudred",
+		'pt-br': "Loudred",
+		'de-de': "Krakeelo"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Whismur",
-		fr: "Chuchmur",
-		es: "Whismur",
-		it: "Whismur",
-		pt: "Whismur",
-		de: "Flurmel"
+		'en-us': "Whismur",
+		'fr-fr': "Chuchmur",
+		'es-es': "Whismur",
+		'it-it': "Whismur",
+		'pt-br': "Whismur",
+		'de-de': "Flurmel"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Body Slam",
-			fr: "Plaquage",
-			es: "Golpe Cuerpo",
-			it: "Corposcontro",
-			pt: "Pancada Corporal",
-			de: "Bodyslam"
+			'en-us': "Body Slam",
+			'fr-fr': "Plaquage",
+			'es-es': "Golpe Cuerpo",
+			'it-it': "Corposcontro",
+			'pt-br': "Pancada Corporal",
+			'de-de': "Bodyslam"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		},
 
 		damage: 10
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Mega Impact",
-			fr: "Méga Impact",
-			es: "Megaimpacto",
-			it: "Mega Impatto",
-			pt: "Mega-impacto",
-			de: "Mega-Einschlag"
+			'en-us': "Mega Impact",
+			'fr-fr': "Méga Impact",
+			'es-es': "Megaimpacto",
+			'it-it': "Mega Impatto",
+			'pt-br': "Mega-impacto",
+			'de-de': "Mega-Einschlag"
 		},
 
 		damage: 40
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "The force of this Pokémon's loud voice isn't just the sound—it's also the wave of air pressure that blows opponents away and damages them.",
+		'en-us': "The force of this Pokémon's loud voice isn't just the sound—it's also the wave of air pressure that blows opponents away and damages them.",
 	},
 
 	variants: [

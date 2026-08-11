@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunder Wave",
-				fr: "Cage-Éclair",
+				'en-us': "Thunder Wave",
+				'fr-fr': "Cage-Éclair",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 
 		},
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electric Ring",
-				fr: "Anneau Électrique"
+				'en-us': "Electric Ring",
+				'fr-fr': "Anneau Électrique"
 			},
 			effect: {
-				en: "If Hoopa is on your Bench, this attack does 30 more damage.",
-				fr: "Si Hoopa est sur votre Banc, cette attaque inflige 30 dégâts supplémentaires."
+				'en-us': "If Hoopa is on your Bench, this attack does 30 more damage.",
+				'fr-fr': "Si Hoopa est sur votre Banc, cette attaque inflige 30 dégâts supplémentaires."
 			},
 			damage: "30+",
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs.",
+		'en-us': "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs.",
 	},
 
 	thirdParty: {

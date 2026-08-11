@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ラルトス",
+		'ja-jp': "ラルトス",
 		'zh-tw': "拉魯拉絲",
-		id: "Ralts"
+		'id-id': "Ralts"
 	},
 
 	illustrator: "yuu",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "人の 感情を 頭の 赤い ツノで 敏感に キャッチする 力を 持つ。",
+		'ja-jp': "人の 感情を 頭の 赤い ツノで 敏感に キャッチする 力を 持つ。",
 		'zh-tw': "擁有使用頭上的紅角就可以敏銳察覺 人類感情的能力。",
-		id: "Ralts memiliki kekuatan untuk menangkap emosi manusia secara sensitif dengan menggunakan tanduk merah di kepalanya."
+		'id-id': "Ralts memiliki kekuatan untuk menangkap emosi manusia secara sensitif dengan menggunakan tanduk merah di kepalanya."
 	},
 
 	stage: "Basic",
@@ -28,9 +28,9 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "サイコショット",
+			'ja-jp': "サイコショット",
 			'zh-tw': "精神射擊",
-			id: "Psyshot"
+			'id-id': "Psyshot"
 		},
 
 		damage: 30

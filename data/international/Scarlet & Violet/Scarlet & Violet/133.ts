@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bisharp",
-		fr: "Scalproie",
-		es: "Bisharp",
-		it: "Bisharp",
-		pt: "Bisharp",
-		de: "Caesurio"
+		'en-us': "Bisharp",
+		'fr-fr': "Scalproie",
+		'es-es': "Bisharp",
+		'it-it': "Bisharp",
+		'pt-br': "Bisharp",
+		'de-de': "Caesurio"
 	},
 
 	rarity: "Common",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Pawniard",
-		fr: "Scalpion"
+		'en-us': "Pawniard",
+		'fr-fr': "Scalpion"
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Dark Cutter",
-			fr: "Tranch'Obscur",
-			es: "Cuchilla Oscura",
-			it: "Oscurotaglio",
-			pt: "Cortador de Escuridão",
-			de: "Dunkler Zerschneider"
+			'en-us': "Dark Cutter",
+			'fr-fr': "Tranch'Obscur",
+			'es-es': "Cuchilla Oscura",
+			'it-it': "Oscurotaglio",
+			'pt-br': "Cortador de Escuridão",
+			'de-de': "Dunkler Zerschneider"
 		},
 
 		damage: 40
@@ -43,21 +43,21 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Double-Edged Slash",
-			fr: "Double Tranchant",
-			es: "Cuchillada Doble Filo",
-			it: "Doppio Taglio",
-			pt: "Talho de Dois Gumes",
-			de: "Zweischneidiger Schlitzer"
+			'en-us': "Double-Edged Slash",
+			'fr-fr': "Double Tranchant",
+			'es-es': "Cuchillada Doble Filo",
+			'it-it': "Doppio Taglio",
+			'pt-br': "Talho de Dois Gumes",
+			'de-de': "Zweischneidiger Schlitzer"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 120
@@ -82,7 +82,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "This Pokémon commands a group of several Pawniard. Groups that are defeated in territorial disputes are absorbed by the winning side.",
+		'en-us': "This Pokémon commands a group of several Pawniard. Groups that are defeated in territorial disputes are absorbed by the winning side.",
 	},
 
 	thirdParty: {

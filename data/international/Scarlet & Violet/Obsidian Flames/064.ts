@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Magnéton",
-		en: "Magneton",
-		es: "Magneton",
-		it: "Magneton",
-		pt: "Magneton",
-		de: "Magneton"
+		'fr-fr': "Magnéton",
+		'en-us': "Magneton",
+		'es-es': "Magneton",
+		'it-it': "Magneton",
+		'pt-br': "Magneton",
+		'de-de': "Magneton"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Lightning"],
 	evolveFrom: {
-		fr: "Magnéti",
-		en: "Magnemite",
-		es: "Magnemite",
-		it: "Magnemite",
-		pt: "Magnemite",
-		de: "Magnetilo"
+		'fr-fr': "Magnéti",
+		'en-us': "Magnemite",
+		'es-es': "Magnemite",
+		'it-it': "Magnemite",
+		'pt-br': "Magnemite",
+		'de-de': "Magnetilo"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			fr: "Charge",
-			en: "Tackle",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'fr-fr': "Charge",
+			'en-us': "Tackle",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 30
@@ -45,12 +45,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Boule Élek",
-			en: "Electro Ball",
-			es: "Bola Voltio",
-			it: "Energisfera",
-			pt: "Bola Elétrica",
-			de: "Elektroball"
+			'fr-fr': "Boule Élek",
+			'en-us': "Electro Ball",
+			'es-es': "Bola Voltio",
+			'it-it': "Energisfera",
+			'pt-br': "Bola Elétrica",
+			'de-de': "Elektroball"
 		},
 
 		damage: 60
@@ -66,7 +66,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close.",
+		'en-us': "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close.",
 	},
 
 	variants: [

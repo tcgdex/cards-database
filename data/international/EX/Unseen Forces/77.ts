@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Teddiursa",
-		fr: "Teddiursa",
-		de: "Teddiursa"
+		'en-us': "Teddiursa",
+		'fr-fr': "Teddiursa",
+		'de-de': "Teddiursa"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Teary Eyes",
-				fr: "Des larmes dans les yeux",
-				de: "Teary Eyes"
+				'en-us': "Teary Eyes",
+				'fr-fr': "Des larmes dans les yeux",
+				'de-de': "Teary Eyes"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Teddiursa by attacks is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Lors du prochain tour de votre adversaire, les dégâts infligés à Teddiursa par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
-				de: "During your opponent's next turn, any damage done to Teddiursa by attacks is reduced by 20 (after applying Weakness and Resistance)."
+				'en-us': "During your opponent's next turn, any damage done to Teddiursa by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Lors du prochain tour de votre adversaire, les dégâts infligés à Teddiursa par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "During your opponent's next turn, any damage done to Teddiursa by attacks is reduced by 20 (after applying Weakness and Resistance)."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Scratch"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Scratch"
 			},
 
 			damage: 10,

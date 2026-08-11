@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リーフィアV",
+		'ja-jp': "リーフィアV",
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Grass"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Grass", "Grass", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「スラッシュダウン」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「スラッシュダウン」が使えない。",
 			},
 		},
 	],

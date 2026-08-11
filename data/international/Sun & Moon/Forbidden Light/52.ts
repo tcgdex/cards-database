@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Skrelp",
-		fr: "Venalgue",
-		es: "Skrelp",
-		it: "Skrelp",
-		pt: "Skrelp",
-		de: "Algitt"
+		'en-us': "Skrelp",
+		'fr-fr': "Venalgue",
+		'es-es': "Skrelp",
+		'it-it': "Skrelp",
+		'pt-br': "Skrelp",
+		'de-de': "Algitt"
 	},
 
 	illustrator: "Mina Nakai",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hook",
-				fr: "Crochet",
-				es: "Garfio",
-				it: "Uncino",
-				pt: "Gancho",
-				de: "Haken"
+				'en-us': "Hook",
+				'fr-fr': "Crochet",
+				'es-es': "Garfio",
+				'it-it': "Uncino",
+				'pt-br': "Gancho",
+				'de-de': "Haken"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It looks just like rotten kelp. It hides from foes while storing up power for its evolution.",
+		'en-us': "It looks just like rotten kelp. It hides from foes while storing up power for its evolution.",
 	},
 
 	thirdParty: {

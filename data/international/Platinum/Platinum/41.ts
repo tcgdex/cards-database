@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Bronzong G",
-		fr: "Archéodong ",
-		de: "Bronzong G"
+		'en-us': "Bronzong G",
+		'fr-fr': "Archéodong ",
+		'de-de': "Bronzong G"
 	},
 
 	illustrator: "Makoto Imai",
@@ -28,14 +28,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Galactic Switch",
-				fr: "Échange galactique",
-				de: "Galactic Switch"
+				'en-us': "Galactic Switch",
+				'fr-fr': "Échange galactique",
+				'de-de': "Galactic Switch"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may move an Energy card attached to 1 of your Pokémon SP to another of your Pokémon. Then, put 2 damage counters on Bronzong G. This power can't be used if Bronzong G is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez déplacer une carte Énergie attachée à 1 de vos Pokémon SP sur un autre de vos Pokémon. Ensuite, placez 2 marqueurs de dégât sur Archéodong . Ce pouvoir ne peut pas être utilisé si Archéodong  est affecté par un État Spécial.",
-				de: "Once during your turn (before your attack), you may move an Energy card attached to 1 of your Pokémon SP to another of your Pokémon. Then, put 2 damage counters on Bronzong G. This power can't be used if Bronzong G is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), you may move an Energy card attached to 1 of your Pokémon SP to another of your Pokémon. Then, put 2 damage counters on Bronzong G. This power can't be used if Bronzong G is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez déplacer une carte Énergie attachée à 1 de vos Pokémon SP sur un autre de vos Pokémon. Ensuite, placez 2 marqueurs de dégât sur Archéodong . Ce pouvoir ne peut pas être utilisé si Archéodong  est affecté par un État Spécial.",
+				'de-de': "Once during your turn (before your attack), you may move an Energy card attached to 1 of your Pokémon SP to another of your Pokémon. Then, put 2 damage counters on Bronzong G. This power can't be used if Bronzong G is affected by a Special Condition."
 			}
 		},
 	],
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic Pulse",
-				fr: "Vibration psy",
-				de: "Psychic Pulse"
+				'en-us': "Psychic Pulse",
+				'fr-fr': "Vibration psy",
+				'de-de': "Psychic Pulse"
 			},
 			effect: {
-				en: "Does 10 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire possédant des marqueurs de dégât. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Does 10 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Does 10 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire possédant des marqueurs de dégât. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Does 10 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 40,
 

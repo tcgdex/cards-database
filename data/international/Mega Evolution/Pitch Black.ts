@@ -1,17 +1,17 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Mega Evolution'
 
 const set: Set = {
 	id: "me05",
 
 	name: {
-		de: "Dunkelnacht",
-		en: "Pitch Black",
-		es: "Oscuridad Absoluta",
+		'de-de': "Dunkelnacht",
+		'en-us': "Pitch Black",
+		'es-es': "Oscuridad Absoluta",
 		'es-mx': "Tinieblas Umbrías",
-		fr: "Nuit Noire",
-		it: "Buio Pesto",
-		pt: "Escuridão Absoluta"
+		'fr-fr': "Nuit Noire",
+		'it-it': "Buio Pesto",
+		'pt-br': "Escuridão Absoluta"
 	},
 
 	serie: serie,

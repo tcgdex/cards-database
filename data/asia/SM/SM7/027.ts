@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パールル",
+		'ja-jp': "パールル",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "頑丈な 殻に 守られて 一生の うちに １個だけ 見事な 真珠を 作る。",
+		'ja-jp': "頑丈な 殻に 守られて 一生の うちに １個だけ 見事な 真珠を 作る。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ぬけがけしんか" },
 			effect: {
-				ja: "このポケモンは、後攻プレイヤーの最初の番なら、出したばかりでも進化できる。",
+				'ja-jp': "このポケモンは、後攻プレイヤーの最初の番なら、出したばかりでも進化できる。",
 			},
 		},
 	],

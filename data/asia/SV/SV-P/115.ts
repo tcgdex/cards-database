@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キョジオーンex",
+		'ja-jp': "キョジオーンex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ソルティボディ" },
 			effect: {
-				ja: "このポケモンは特殊状態にならない。",
+				'ja-jp': "このポケモンは特殊状態にならない。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 170,
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-60」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-60」される。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ジオヅム",
+		'ja-jp': "ジオヅム",
 	},
 
 	retreat: 4,

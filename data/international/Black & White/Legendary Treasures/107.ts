@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Bouffalant",
+		'en-us': "Bouffalant",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Revenge",
+				'en-us': "Revenge",
 			},
 			effect: {
-				en: "If any of your Pokémon were Knocked Out by damage from an opponent's attack during his or her last turn, this attack does 70 more damage.",
+				'en-us': "If any of your Pokémon were Knocked Out by damage from an opponent's attack during his or her last turn, this attack does 70 more damage.",
 			},
 			damage: 20,
 
@@ -46,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Head Charge",
+				'en-us': "Head Charge",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon does 20 damage to itself.",
+				'en-us': "Flip a coin. If tails, this Pokémon does 20 damage to itself.",
 			},
 			damage: 80,
 
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Their fluffy fur absorbs damage, even if they strike foes with a fierce headbutt.",
+		'en-us': "Their fluffy fur absorbs damage, even if they strike foes with a fierce headbutt.",
 	},
 
 	thirdParty: {

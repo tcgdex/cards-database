@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Jellicent",
-		fr: "Moyade",
-		es: "Jellicent",
-		it: "Jellicent",
-		pt: "Jellicent",
-		de: "Apoquallyp"
+		'en-us': "Jellicent",
+		'fr-fr': "Moyade",
+		'es-es': "Jellicent",
+		'it-it': "Jellicent",
+		'pt-br': "Jellicent",
+		'de-de': "Apoquallyp"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -21,31 +21,31 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Frillish",
-		fr: "Viskuse",
-		es: "Frillish",
-		it: "Frillish",
-		pt: "Frillish",
-		de: "Quabbel"
+		'en-us': "Frillish",
+		'fr-fr': "Viskuse",
+		'es-es': "Frillish",
+		'it-it': "Frillish",
+		'pt-br': "Frillish",
+		'de-de': "Quabbel"
 	},
 
 	attacks: [{
 		name: {
-			en: "Sediment Sink",
-			fr: "Sédiment Visqueux",
-			es: "Sumidero de Sedimentos",
-			it: "Sedimentazione",
-			pt: "Sumidouro de Sedimentos",
-			de: "Sedimentsenke"
+			'en-us': "Sediment Sink",
+			'fr-fr': "Sédiment Visqueux",
+			'es-es': "Sumidero de Sedimentos",
+			'it-it': "Sedimentazione",
+			'pt-br': "Sumidouro de Sedimentos",
+			'de-de': "Sedimentsenke"
 		},
 
 		effect: {
-			en: "This attack does 10 damage for each Water Energy card in your discard pile.",
-			fr: "Cette attaque inflige 10 dégâts pour chaque carte Énergie Water dans votre pile de défausse.",
-			es: "Este ataque hace 10 puntos de daño por cada carta de Energía Water en tu pila de descartes.",
-			it: "Questo attacco infligge 10 danni per ogni carta Energia Water nella tua pila degli scarti.",
-			pt: "Este ataque causa 10 pontos de dano para cada carta de Energia Water na sua pilha de descarte.",
-			de: "Diese Attacke fügt für jede Water-Energiekarte in deinem Ablagestapel 10 Schadenspunkte zu."
+			'en-us': "This attack does 10 damage for each Water Energy card in your discard pile.",
+			'fr-fr': "Cette attaque inflige 10 dégâts pour chaque carte Énergie Water dans votre pile de défausse.",
+			'es-es': "Este ataque hace 10 puntos de daño por cada carta de Energía Water en tu pila de descartes.",
+			'it-it': "Questo attacco infligge 10 danni per ogni carta Energia Water nella tua pila degli scarti.",
+			'pt-br': "Este ataque causa 10 pontos de dano para cada carta de Energia Water na sua pilha de descarte.",
+			'de-de': "Diese Attacke fügt für jede Water-Energiekarte in deinem Ablagestapel 10 Schadenspunkte zu."
 		},
 
 		damage: "10×",
@@ -64,7 +64,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Whenever a full moon hangs in the night sky, schools of Jellicent gather near the surface of the sea, waiting for their prey to appear."
+		'en-us': "Whenever a full moon hangs in the night sky, schools of Jellicent gather near the surface of the sea, waiting for their prey to appear."
 	},
 
 	variants: [

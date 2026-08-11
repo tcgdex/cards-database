@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Azelf",
-		fr: "Créfadet",
+		'en-us': "Azelf",
+		'fr-fr': "Créfadet",
 	},
 
 	illustrator: "chibi",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Shining Eyes",
-				fr: "Yeux Brillants",
+				'en-us': "Shining Eyes",
+				'fr-fr': "Yeux Brillants",
 			},
 			effect: {
-				en: "Put 2 damage counters on each of your opponent's Pokémon that has any damage counters on it.",
-				fr: "Placez 2 marqueurs de dégâts sur chacun des Pokémon de votre adversaire ayant au moins un marqueur de dégâts.",
+				'en-us': "Put 2 damage counters on each of your opponent's Pokémon that has any damage counters on it.",
+				'fr-fr': "Placez 2 marqueurs de dégâts sur chacun des Pokémon de votre adversaire ayant au moins un marqueur de dégâts.",
 			},
 
 		},
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mind Bend",
-				fr: "Contrôleur d'Esprit",
+				'en-us': "Mind Bend",
+				'fr-fr': "Contrôleur d'Esprit",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'en-us': "Your opponent's Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 			},
 			damage: 30,
 
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is thought that Uxie, Mesprit, and Azelf all came from the same egg.",
+		'en-us': "It is thought that Uxie, Mesprit, and Azelf all came from the same egg.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オニシズクモ",
+		'ja-jp': "オニシズクモ",
 	},
 
 	illustrator: "kodama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "見かけに よらず 面倒見が いい。 弱く 小さな 仲間を 見つけると 水泡の 中に 入れて 守る。",
+		'ja-jp': "見かけに よらず 面倒見が いい。 弱く 小さな 仲間を 見つけると 水泡の 中に 入れて 守る。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Water"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "40+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "前の自分の番、自分のポケモンが「あわ」を使っていたなら、80ダメージ追加。",
+				'ja-jp': "前の自分の番、自分のポケモンが「あわ」を使っていたなら、80ダメージ追加。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シズクモ",
+		'ja-jp': "シズクモ",
 	},
 
 	retreat: 1,

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Gothita",
+		'en-us': "Gothita",
 	},
 
 	illustrator: "TOKIYA",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnotic Gaze",
+				'en-us': "Hypnotic Gaze",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
+				'en-us': "The Defending Pokémon is now Asleep.",
 			},
 
 		},
@@ -42,10 +42,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Slap",
+				'en-us': "Double Slap",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
 			},
 			damage: 20,
 
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Their ribbonlike feelers increase their psychic power. They are always staring at something.",
+		'en-us': "Their ribbonlike feelers increase their psychic power. They are always staring at something.",
 	},
 
 	thirdParty: {

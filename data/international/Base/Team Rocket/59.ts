@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Machop",
-		fr: "Machoc",
-		de: "Machollo"
+		'en-us': "Machop",
+		'fr-fr': "Machoc",
+		'de-de': "Machollo"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,9 +32,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Punch",
-				fr: "Koud'poing",
-				de: "Hieb"
+				'en-us': "Punch",
+				'fr-fr': "Koud'poing",
+				'de-de': "Hieb"
 			},
 
 			damage: 20,
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Kick",
-				fr: "Koud'pied",
-				de: "Kicks"
+				'en-us': "Kick",
+				'fr-fr': "Koud'pied",
+				'de-de': "Kicks"
 			},
 
 			damage: 30,
@@ -67,8 +67,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It's said that not even pro wrestlers can take down a Machop.",
-		fr: "Il est dit que même les lutteurs professionnels ne parviennent pas à battre un Machoc."
+		'en-us': "It's said that not even pro wrestlers can take down a Machop.",
+		'fr-fr': "Il est dit que même les lutteurs professionnels ne parviennent pas à battre un Machoc."
 	},
 
 

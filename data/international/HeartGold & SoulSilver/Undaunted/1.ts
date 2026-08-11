@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Bellossom",
-		fr: "Joliflor",
-		de: "Blubella"
+		'en-us': "Bellossom",
+		'fr-fr': "Joliflor",
+		'de-de': "Blubella"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gloom",
-		fr: "Ortide"
+		'en-us': "Gloom",
+		'fr-fr': "Ortide"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Hustle Step",
-				fr: "Foulée rapide",
-				de: "Übereifriger Schritt"
+				'en-us': "Hustle Step",
+				'fr-fr': "Foulée rapide",
+				'de-de': "Übereifriger Schritt"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may remove 1 damage counter from each of your Pokémon. This power can't be used if Bellossom is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez retirer un marqueur de dégât à chacun de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Joliflor est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Schadensmarke von jedem deiner Pokémon entfernen. Diese Poké-Power kann nicht benutzt werden, wenn Blubella von einem Speziellen Zustand betroffen ist."
+				'en-us': "Once during your turn (before your attack), you may remove 1 damage counter from each of your Pokémon. This power can't be used if Bellossom is affected by a Special Condition.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez retirer un marqueur de dégât à chacun de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Joliflor est affecté par un État Spécial.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Schadensmarke von jedem deiner Pokémon entfernen. Diese Poké-Power kann nicht benutzt werden, wenn Blubella von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dance 'til Dawn",
-				fr: "Danse nocturne",
-				de: "Tanz bis zum Morgen"
+				'en-us': "Dance 'til Dawn",
+				'fr-fr': "Danse nocturne",
+				'de-de': "Tanz bis zum Morgen"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 30 damage times the number of heads. Bellossom is now Asleep.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face. Joliflor est maintenant Endormi.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu. Blubella schläft jetzt."
+				'en-us': "Flip 3 coins. This attack does 30 damage times the number of heads. Bellossom is now Asleep.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face. Joliflor est maintenant Endormi.",
+				'de-de': "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu. Blubella schläft jetzt."
 			},
 			damage: "30×",
 
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Bellossom gather at times and seem to dance. They say that the dance is a ritual to summon the sun."
+		'en-us': "Bellossom gather at times and seem to dance. They say that the dance is a ritual to summon the sun."
 	},
 
 	variants: [

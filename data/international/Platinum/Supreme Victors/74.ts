@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Numel",
-		fr: "Chamallot",
-		de: "Camaub"
+		'en-us': "Numel",
+		'fr-fr': "Chamallot",
+		'de-de': "Camaub"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Draw In",
-				fr: "Attirer",
-				de: "Ansaugen"
+				'en-us': "Draw In",
+				'fr-fr': "Attirer",
+				'de-de': "Ansaugen"
 			},
 			effect: {
-				en: "Search your discard pile for up to 2 Fire Energy cards and attach them to Numel.",
-				fr: "Cherchez dans votre pile de défausse jusqu'à 2 cartes Énergie Fire et attachez-les à Chamallot.",
-				de: "Durchsuche deinen Ablagestapel nach bis zu 2 -Energiekarten und lege sie an Camaub an."
+				'en-us': "Search your discard pile for up to 2 Fire Energy cards and attach them to Numel.",
+				'fr-fr': "Cherchez dans votre pile de défausse jusqu'à 2 cartes Énergie Fire et attachez-les à Chamallot.",
+				'de-de': "Durchsuche deinen Ablagestapel nach bis zu 2 -Energiekarten und lege sie an Camaub an."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Combustion",
-				fr: "Fournaise",
-				de: "Glühen"
+				'en-us': "Combustion",
+				'fr-fr': "Fournaise",
+				'de-de': "Glühen"
 			},
 
 			damage: 40,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its humped back stores intensely hot magma. In rain, the magma cools, slowing its movement."
+		'en-us': "Its humped back stores intensely hot magma. In rain, the magma cools, slowing its movement."
 	},
 
 	variants: [

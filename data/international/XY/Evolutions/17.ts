@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Growlithe",
-		fr: "Caninos",
-		es: "Growlithe",
-		it: "Growlithe",
-		pt: "Growlithe",
-		de: "Fukano"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos",
+		'es-es': "Growlithe",
+		'it-it': "Growlithe",
+		'pt-br': "Growlithe",
+		'de-de': "Fukano"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hind Kick",
-				fr: "Coup d'Pied Arrière",
-				es: "Patada Posterior",
-				it: "Calcio Posteriore",
-				pt: "Patada Traseira",
-				de: "Austreten"
+				'en-us': "Hind Kick",
+				'fr-fr': "Coup d'Pied Arrière",
+				'es-es': "Patada Posterior",
+				'it-it': "Calcio Posteriore",
+				'pt-br': "Patada Traseira",
+				'de-de': "Austreten"
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
-				es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-				it: "Scambia questo Pokémon con uno della tua panchina.",
-				pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
+				'es-es': "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+				'it-it': "Scambia questo Pokémon con uno della tua panchina.",
+				'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+				'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 10,
 
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare",
-				fr: "Flamboiement",
-				es: "Llama",
-				it: "Fiammata",
-				pt: "Labareda",
-				de: "Flackern"
+				'en-us': "Flare",
+				'fr-fr': "Flamboiement",
+				'es-es': "Llama",
+				'it-it': "Fiammata",
+				'pt-br': "Labareda",
+				'de-de': "Flackern"
 			},
 
 			damage: 20,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Very friendly and faithful to people. It will try to repel enemies by barking and biting.",
+		'en-us': "Very friendly and faithful to people. It will try to repel enemies by barking and biting.",
 	},
 
 	thirdParty: {

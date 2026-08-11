@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Ditto",
-		fr: "Métamorph",
+		'en-us': "Ditto",
+		'fr-fr': "Métamorph",
 	},
 
 	illustrator: "5ban Graphics",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Metamorphosis Gene",
-				fr: "Gène Métamorphique",
+				'en-us': "Metamorphosis Gene",
+				'fr-fr': "Gène Métamorphique",
 			},
 			effect: {
-				en: "If this Pokémon is your Active Pokémon, it can use the attacks of your opponent's Active Pokémon. (You still need the necessary Energy to use each attack.)",
-				fr: "Si ce Pokémon est votre Pokémon Actif, il peut utiliser les attaques du Pokémon Actif de votre adversaire. (Vous avez toujours besoin de l'Énergie nécessaire pour utiliser chaque attaque.)",
+				'en-us': "If this Pokémon is your Active Pokémon, it can use the attacks of your opponent's Active Pokémon. (You still need the necessary Energy to use each attack.)",
+				'fr-fr': "Si ce Pokémon est votre Pokémon Actif, il peut utiliser les attaques du Pokémon Actif de votre adversaire. (Vous avez toujours besoin de l'Énergie nécessaire pour utiliser chaque attaque.)",
 			},
 		},
 	],
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stick On",
-				fr: "Collage",
+				'en-us': "Stick On",
+				'fr-fr': "Collage",
 			},
 			effect: {
-				en: "Attach a basic Energy card from your discard pile to this Pokémon.",
-				fr: "Attachez une carte Énergie de base de votre pile de défausse à ce Pokémon.",
+				'en-us': "Attach a basic Energy card from your discard pile to this Pokémon.",
+				'fr-fr': "Attachez une carte Énergie de base de votre pile de défausse à ce Pokémon.",
 			},
 			damage: 10,
 
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has the ability to reconstitute its entire cellular structure to transform into whatever it sees.",
+		'en-us': "It has the ability to reconstitute its entire cellular structure to transform into whatever it sees.",
 	},
 
 	thirdParty: {

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Magikarp",
-		fr: "Magicarpe",
-		de: "Karpador"
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe",
+		'de-de': "Karpador"
 	},
 
 	illustrator: "Yusuke Ohmura",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flail",
-				fr: "Fléau",
-				de: "Dreschflegel"
+				'en-us': "Flail",
+				'fr-fr': "Fléau",
+				'de-de': "Dreschflegel"
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on Magikarp.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Magicarpe.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Karpador zu."
+				'en-us': "Does 10 damage times the number of damage counters on Magikarp.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Magicarpe.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Karpador zu."
 			},
 			damage: "10x",
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Dragon Rage",
-				fr: "Draco-rage",
-				de: "Drachenwut"
+				'en-us': "Dragon Rage",
+				'fr-fr': "Draco-rage",
+				'de-de': "Drachenwut"
 			},
 			effect: {
-				en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
-				fr: "Lancez 2 pièces. Si vous obtenez une pile, cette attaque est sans effet.",
-				de: "Wirf 2 Münzen. Wenn eine oder beide Münzen 'Zahl' gezeigt haben, hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip 2 coins. If either of them is tails, this attack does nothing.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez une pile, cette attaque est sans effet.",
+				'de-de': "Wirf 2 Münzen. Wenn eine oder beide Münzen 'Zahl' gezeigt haben, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 60,
 
@@ -73,8 +73,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It is said to be the world's weakest Pokémon. No one knows why it has managed to survive.",
-		fr: "Ce Pokémon est réputé pour être le plus faible au monde. Nul ne sait comment son espèce perdure."
+		'en-us': "It is said to be the world's weakest Pokémon. No one knows why it has managed to survive.",
+		'fr-fr': "Ce Pokémon est réputé pour être le plus faible au monde. Nul ne sait comment son espèce perdure."
 	},
 
 	thirdParty: {

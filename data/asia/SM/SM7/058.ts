@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "テッカグヤ",
+		'ja-jp': "テッカグヤ",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "ＵＢの 一種。 ２本の 腕から ガスを 噴きだし 森を 焼き払う 姿が 確認 されている。",
+		'ja-jp': "ＵＢの 一種。 ２本の 腕から ガスを 噴きだし 森を 焼き払う 姿が 確認 されている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Metal", "Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザは、おたがいのサイドの残り枚数の合計が6枚なら、[鋼]エネルギー1個で使える。",
+				'ja-jp': "このワザは、おたがいのサイドの残り枚数の合計が6枚なら、[鋼]エネルギー1個で使える。",
 			},
 		},
 	],

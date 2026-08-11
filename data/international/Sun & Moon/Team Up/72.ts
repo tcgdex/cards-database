@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Primeape",
-		fr: "Colossinge",
-		es: "Primeape",
-		it: "Primeape",
-		pt: "Primeape",
-		de: "Rasaff"
+		'en-us': "Primeape",
+		'fr-fr': "Colossinge",
+		'es-es': "Primeape",
+		'it-it': "Primeape",
+		'pt-br': "Primeape",
+		'de-de': "Rasaff"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mankey",
-		fr: "Férosinge",
+		'en-us': "Mankey",
+		'fr-fr': "Férosinge",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage",
-				es: "Patada Baja",
-				it: "Colpo Basso",
-				pt: "Rasteira",
-				de: "Fußkick"
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage",
+				'es-es': "Patada Baja",
+				'it-it': "Colpo Basso",
+				'pt-br': "Rasteira",
+				'de-de': "Fußkick"
 			},
 
 			damage: 30,
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wreck",
-				fr: "Anéantissement",
-				es: "Naufragio",
-				it: "Demolitore",
-				pt: "Destruir",
-				de: "Abreißen"
+				'en-us': "Wreck",
+				'fr-fr': "Anéantissement",
+				'es-es': "Naufragio",
+				'it-it': "Demolitore",
+				'pt-br': "Destruir",
+				'de-de': "Abreißen"
 			},
 			effect: {
-				en: "If there is any Stadium card in play, this attack does 80 more damage. Then, discard that Stadium card.",
-				fr: "S’il y a une carte Stade en jeu, cette attaque inflige 80 dégâts supplémentaires. Ensuite, défaussez la carte Stade.",
-				es: "Si hay alguna carta de Estadio en juego, este ataque hace 80 puntos de daño más. Después, descarta esa carta de Estadio.",
-				it: "Se c’è in gioco una carta Stadio, questo attacco infligge 80 danni in più. Poi scarta quella carta Stadio.",
-				pt: "Se houver alguma carta de Estádio em jogo, este ataque causará 80 pontos de dano a mais. Em seguida, descarte aquela carta de Estádio.",
-				de: "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 80 Schadenspunkte mehr zu. Lege anschließend jene Stadionkarte auf den Ablagestapel."
+				'en-us': "If there is any Stadium card in play, this attack does 80 more damage. Then, discard that Stadium card.",
+				'fr-fr': "S’il y a une carte Stade en jeu, cette attaque inflige 80 dégâts supplémentaires. Ensuite, défaussez la carte Stade.",
+				'es-es': "Si hay alguna carta de Estadio en juego, este ataque hace 80 puntos de daño más. Después, descarta esa carta de Estadio.",
+				'it-it': "Se c’è in gioco una carta Stadio, questo attacco infligge 80 danni in più. Poi scarta quella carta Stadio.",
+				'pt-br': "Se houver alguma carta de Estádio em jogo, este ataque causará 80 pontos de dano a mais. Em seguida, descarte aquela carta de Estádio.",
+				'de-de': "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 80 Schadenspunkte mehr zu. Lege anschließend jene Stadionkarte auf den Ablagestapel."
 			},
 			damage: "80+",
 
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It will never forgive opponents who have angered it. Even after it has beaten them down until they can't move, it never ever forgives.",
+		'en-us': "It will never forgive opponents who have angered it. Even after it has beaten them down until they can't move, it never ever forgives.",
 	},
 
 	thirdParty: {

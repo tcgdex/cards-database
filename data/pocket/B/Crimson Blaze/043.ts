@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [619],
 
 	name: {
-		en: "Mienfoo"
+		'en-us': "Mienfoo"
 	},
 
 	illustrator: "yuu",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "Though small, Mienfoo's temperament is fierce.\nAny creature that approaches Mienfoo carelessly\nwill be greeted with a flurry of graceful attacks."
+		'en-us': "Though small, Mienfoo's temperament is fierce.\nAny creature that approaches Mienfoo carelessly\nwill be greeted with a flurry of graceful attacks."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Chop"
+			'en-us': "Chop"
 		},
 
 		damage: 30,

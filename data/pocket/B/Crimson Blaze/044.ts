@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [620],
 
 	name: {
-		en: "Mienshao"
+		'en-us': "Mienshao"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Mienfoo"
+		'en-us': "Mienfoo"
 	},
 
 	description: {
-		en: "Delivered at blinding speeds, kicks from this\nPokémon can shatter massive boulders into\ntiny pieces."
+		'en-us': "Delivered at blinding speeds, kicks from this\nPokémon can shatter massive boulders into\ntiny pieces."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Low Sweep"
+			'en-us': "Low Sweep"
 		},
 
 		damage: 50,

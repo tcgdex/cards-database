@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Palossand",
-		fr: "Trépassable",
-		es: "Palossand",
-		it: "Palossand",
-		pt: "Palossand",
-		de: "Colossand"
+		'en-us': "Palossand",
+		'fr-fr': "Trépassable",
+		'es-es': "Palossand",
+		'it-it': "Palossand",
+		'pt-br': "Palossand",
+		'de-de': "Colossand"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 150,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Sandygast",
-		fr: "Bacabouh",
-		es: "Sandygast",
-		it: "Sandygast",
-		pt: "Sandygast",
-		de: "Sankabuh"
+		'en-us': "Sandygast",
+		'fr-fr': "Bacabouh",
+		'es-es': "Sandygast",
+		'it-it': "Sandygast",
+		'pt-br': "Sandygast",
+		'de-de': "Sankabuh"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Sand Attack",
-			fr: "Jet de Sable",
-			es: "Ataque Arena",
-			it: "Turbosabbia",
-			pt: "Ataque de Areia",
-			de: "Sandwirbel"
+			'en-us': "Sand Attack",
+			'fr-fr': "Jet de Sable",
+			'es-es': "Ataque Arena",
+			'it-it': "Turbosabbia",
+			'pt-br': "Ataque de Areia",
+			'de-de': "Sandwirbel"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, if the Defending Pokémon tries to use an attack, your opponent flips a coin. If tails, that attack doesn't happen.",
-			fr: "Pendant le prochain tour de votre adversaire, si le Pokémon Défenseur essaie d'utiliser une attaque, votre adversaire lance une pièce. Si c'est pile, l'attaque n'est pas lancée.",
-			es: "Durante el próximo turno de tu rival, si el Pokémon Defensor intenta usar un ataque, tu rival lanza 1 moneda. Si sale cruz, ese ataque no se lleva a cabo.",
-			it: "Durante il prossimo turno del tuo avversario, se il Pokémon difensore prova a usare un attacco, il tuo avversario lancia una moneta. Se esce croce, quell'attacco non ha luogo.",
-			pt: "Durante o próximo turno do seu oponente, se o Pokémon Defensor tentar usar um ataque, seu oponente jogará uma moeda. Se sair coroa, aquele ataque não acontecerá.",
-			de: "Wenn das Verteidigende Pokémon während des nächsten Zuges deines Gegners versucht, eine Attacke einzusetzen, wirft dein Gegner 1 Münze. Bei Zahl wird jene Attacke nicht ausgeführt."
+			'en-us': "During your opponent's next turn, if the Defending Pokémon tries to use an attack, your opponent flips a coin. If tails, that attack doesn't happen.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, si le Pokémon Défenseur essaie d'utiliser une attaque, votre adversaire lance une pièce. Si c'est pile, l'attaque n'est pas lancée.",
+			'es-es': "Durante el próximo turno de tu rival, si el Pokémon Defensor intenta usar un ataque, tu rival lanza 1 moneda. Si sale cruz, ese ataque no se lleva a cabo.",
+			'it-it': "Durante il prossimo turno del tuo avversario, se il Pokémon difensore prova a usare un attacco, il tuo avversario lancia una moneta. Se esce croce, quell'attacco non ha luogo.",
+			'pt-br': "Durante o próximo turno do seu oponente, se o Pokémon Defensor tentar usar um ataque, seu oponente jogará uma moeda. Se sair coroa, aquele ataque não acontecerá.",
+			'de-de': "Wenn das Verteidigende Pokémon während des nächsten Zuges deines Gegners versucht, eine Attacke einzusetzen, wirft dein Gegner 1 Münze. Bei Zahl wird jene Attacke nicht ausgeführt."
 		},
 
 		damage: 60
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Spooky Sand",
-			fr: "Sable Effrayant",
-			es: "Arena Embrujada",
-			it: "Sabbia Inquietante",
-			pt: "Areia Assustadora",
-			de: "Spuksand"
+			'en-us': "Spooky Sand",
+			'fr-fr': "Sable Effrayant",
+			'es-es': "Arena Embrujada",
+			'it-it': "Sabbia Inquietante",
+			'pt-br': "Areia Assustadora",
+			'de-de': "Spuksand"
 		},
 
 		damage: 150
@@ -81,7 +81,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "From the hollows in its arms, it fires the bones of its victims, which are all dried up after being drained of their vitality.",
+		'en-us': "From the hollows in its arms, it fires the bones of its victims, which are all dried up after being drained of their vitality.",
 	},
 
 	variants: [

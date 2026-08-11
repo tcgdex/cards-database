@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Deino",
-		fr: "Solochi",
-		es: "Deino",
-		it: "Deino",
-		pt: "Deino",
-		de: "Kapuno"
+		'en-us': "Deino",
+		'fr-fr': "Solochi",
+		'es-es': "Deino",
+		'it-it': "Deino",
+		'pt-br': "Deino",
+		'de-de': "Kapuno"
 	},
 
 	rarity: "Common",
@@ -23,32 +23,32 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Call for Family",
-			fr: "Appel à la Famille",
-			es: "Llamar a la Familia",
-			it: "Cerca Famiglia",
-			pt: "Call for Family",
-			de: "Familienruf"
+			'en-us': "Call for Family",
+			'fr-fr': "Appel à la Famille",
+			'es-es': "Llamar a la Familia",
+			'it-it': "Cerca Famiglia",
+			'pt-br': "Call for Family",
+			'de-de': "Familienruf"
 		},
 
 		effect: {
-			en: "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck un Pokémon de base, puis placez-le sur votre Banc. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja 1 Pokémon Básico y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo un Pokémon Base e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-			pt: "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",
-			de: "Durchsuche dein Deck nach 1 Basis-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck."
+			'en-us': "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck un Pokémon de base, puis placez-le sur votre Banc. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja 1 Pokémon Básico y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo un Pokémon Base e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",
+			'de-de': "Durchsuche dein Deck nach 1 Basis-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck."
 		},
 
 		cost: ["Darkness"]
 	}, {
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			es: "Mordisco",
-			it: "Morso",
-			pt: "Bite",
-			de: "Biss"
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'es-es': "Mordisco",
+			'it-it': "Morso",
+			'pt-br': "Bite",
+			'de-de': "Biss"
 		},
 
 		damage: 30,
@@ -59,7 +59,7 @@ const card: Card = {
 	dexId: [633],
 
 	description: {
-		en: "Because it can't see, this Pokémon is constantly biting at everything it touches, trying to keep track of its surroundings."
+		'en-us': "Because it can't see, this Pokémon is constantly biting at everything it touches, trying to keep track of its surroundings."
 	},
 
 	regulationMark: "E",

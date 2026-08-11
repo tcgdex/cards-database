@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Darmanitan",
-		fr: "Darumacho",
-		es: "Darmanitan",
-		it: "Darmanitan",
-		pt: "Darmanitan",
-		de: "Flampivian"
+		'en-us': "Darmanitan",
+		'fr-fr': "Darumacho",
+		'es-es': "Darmanitan",
+		'it-it': "Darmanitan",
+		'pt-br': "Darmanitan",
+		'de-de': "Flampivian"
 	},
 
 	illustrator: "kawayoo",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Darumaka",
-		fr: "Darumarond",
+		'en-us': "Darumaka",
+		'fr-fr': "Darumarond",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Continuous Tumble",
-				fr: "Roulade Continue",
+				'en-us': "Continuous Tumble",
+				'fr-fr': "Roulade Continue",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 20 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip a coin until you get tails. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 20,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Damage Counterpunch",
-				fr: "Riposte Enragée",
+				'en-us': "Damage Counterpunch",
+				'fr-fr': "Riposte Enragée",
 			},
 			effect: {
-				en: "If this Pokémon has any damage counters on it, this attack does 60 more damage.",
-				fr: "Si ce Pokémon a des marqueurs de dégâts, cette attaque inflige 60 dégâts supplémentaires.",
+				'en-us': "If this Pokémon has any damage counters on it, this attack does 60 more damage.",
+				'fr-fr': "Si ce Pokémon a des marqueurs de dégâts, cette attaque inflige 60 dégâts supplémentaires.",
 			},
 			damage: 60,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When one is injured in a fierce battle, it hardens into a stone-like form. Then it meditates and sharpens its mind.",
+		'en-us': "When one is injured in a fierce battle, it hardens into a stone-like form. Then it meditates and sharpens its mind.",
 	},
 
 	thirdParty: {

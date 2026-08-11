@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴビット",
+		'ja-jp': "ゴビット",
 	},
 
 	illustrator: "Nabatame Kazutaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "体内で 燃える エネルギーに よって 活動しているが どんな エネルギーなのかは 不明である。",
+		'ja-jp': "体内で 燃える エネルギーに よって 活動しているが どんな エネルギーなのかは 不明である。",
 	},
 
 	stage: "Basic",

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 		'zh-tw': "巨鍛匠",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "環境の 変化に すぐさま 合わせられるよう いくつもの 進化の 可能性を 秘めている。",
+		'ja-jp': "環境の 変化に すぐさま 合わせられるよう いくつもの 進化の 可能性を 秘めている。",
 		'zh-tw': "智商高超，性格豪邁。 會用錘子打飛岩石來攻擊 飛在空中的鋼鎧鴉。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "れんぞくダッシュ",
+				'ja-jp': "れんぞくダッシュ",
 				'zh-tw': "拍落",
 			},
 			damage: "20+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数×20ダメージ追加。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数×20ダメージ追加。",
 				'zh-tw': "在不看正面的情況下，選擇1張對手的手牌，將其丟棄。",
 			},
 		},

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Léopardus",
-		de: "Kleoparda",
-		es: "Liepard",
-		pt: "Liepard",
-		it: "Liepard",
-		en: "Liepard"
+		'fr-fr': "Léopardus",
+		'de-de': "Kleoparda",
+		'es-es': "Liepard",
+		'pt-br': "Liepard",
+		'it-it': "Liepard",
+		'en-us': "Liepard"
 	},
 
 	rarity: "Promo",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		fr: "Chacripan",
-		de: "Felilou",
-		es: "Purrloin",
-		pt: "Purrloin",
-		it: "Purrloin",
-		en: "Purrloin"
+		'fr-fr': "Chacripan",
+		'de-de': "Felilou",
+		'es-es': "Purrloin",
+		'pt-br': "Purrloin",
+		'it-it': "Purrloin",
+		'en-us': "Purrloin"
 	},
 
 	stage: "Stage1",
@@ -34,21 +34,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			fr: "Troc",
-			de: "Ersetzen",
-			es: "Intercambiar",
-			pt: "Troca",
-			it: "Contraccambio",
-			en: "Trade"
+			'fr-fr': "Troc",
+			'de-de': "Ersetzen",
+			'es-es': "Intercambiar",
+			'pt-br': "Troca",
+			'it-it': "Contraccambio",
+			'en-us': "Trade"
 		},
 
 		effect: {
-			fr: "Vous devez défausser une carte de votre main pour pouvoir utiliser ce talent. Une fois pendant votre tour, vous pouvez piocher 2 cartes.",
-			de: "Du musst 1 Karte aus deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Einmal während deines Zuges kannst du 2 Karten ziehen.",
-			es: "Debes descartar 1 carta de tu mano para poder usar esta habilidad. Una vez durante tu turno, puedes robar 2 cartas.",
-			pt: "Você deve descartar 1 carta da sua mão para usar esta Habilidade. Uma vez durante o seu turno, você poderá comprar 2 cartas.",
-			it: "Devi scartare una carta che hai in mano per usare questa abilità. Una sola volta durante il tuo turno, puoi pescare due carte.",
-			en: "You must discard a card from your hand in order to use this Ability. Once during your turn, you may draw 2 cards."
+			'fr-fr': "Vous devez défausser une carte de votre main pour pouvoir utiliser ce talent. Une fois pendant votre tour, vous pouvez piocher 2 cartes.",
+			'de-de': "Du musst 1 Karte aus deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Einmal während deines Zuges kannst du 2 Karten ziehen.",
+			'es-es': "Debes descartar 1 carta de tu mano para poder usar esta habilidad. Una vez durante tu turno, puedes robar 2 cartas.",
+			'pt-br': "Você deve descartar 1 carta da sua mão para usar esta Habilidade. Uma vez durante o seu turno, você poderá comprar 2 cartas.",
+			'it-it': "Devi scartare una carta che hai in mano per usare questa abilità. Una sola volta durante il tuo turno, puoi pescare due carte.",
+			'en-us': "You must discard a card from your hand in order to use this Ability. Once during your turn, you may draw 2 cards."
 		}
 	}],
 
@@ -56,12 +56,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Tranche",
-			de: "Schlitzer",
-			es: "Cuchillada",
-			pt: "Talho",
-			it: "Lacerazione",
-			en: "Slash"
+			'fr-fr': "Tranche",
+			'de-de': "Schlitzer",
+			'es-es': "Cuchillada",
+			'pt-br': "Talho",
+			'it-it': "Lacerazione",
+			'en-us': "Slash"
 		},
 
 		damage: 60
@@ -77,7 +77,7 @@ const card: Card = {
 	regulationMark: "F",
 
 	description: {
-		en: "Don't be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon."
+		'en-us': "Don't be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon."
 	},
 
 	thirdParty: {

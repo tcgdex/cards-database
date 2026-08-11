@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Scrafty",
-		fr: "Baggaïd",
-		es: "Scrafty",
-		it: "Scrafty",
-		pt: "Scrafty",
-		de: "Irokex"
+		'en-us': "Scrafty",
+		'fr-fr': "Baggaïd",
+		'es-es': "Scrafty",
+		'it-it': "Scrafty",
+		'pt-br': "Scrafty",
+		'de-de': "Irokex"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Scraggy",
-		fr: "Baggiguane"
+		'en-us': "Scraggy",
+		'fr-fr': "Baggiguane"
 	},
 
 	stage: "Stage1",
@@ -40,8 +40,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'Boule"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'Boule"
 			},
 
 			damage: 30,
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crushing Blow",
-				fr: "Coup Écrasant"
+				'en-us': "Crushing Blow",
+				'fr-fr': "Coup Écrasant"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie au Pokémon Défenseur."
+				'en-us': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie au Pokémon Défenseur."
 			},
 			damage: 70,
 
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Groups of them beat up anything that enters their territory. Each can spit acidic liquid from its mouth.",
+		'en-us': "Groups of them beat up anything that enters their territory. Each can spit acidic liquid from its mouth.",
 	},
 
 	thirdParty: {

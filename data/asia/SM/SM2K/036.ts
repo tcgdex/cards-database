@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピクシー",
+		'ja-jp': "ピクシー",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "人前に 姿を みせることを 好まない。 深い 山の 奥で 群れに なって ひっそり 暮らす。",
+		'ja-jp': "人前に 姿を みせることを 好まない。 深い 山の 奥で 群れに なって ひっそり 暮らす。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Fairy", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンの「コメットパンチ」のダメージは「+60」される。",
+				'ja-jp': "次の自分の番、このポケモンの「コメットパンチ」のダメージは「+60」される。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ピッピ",
+		'ja-jp': "ピッピ",
 	},
 
 	retreat: 1,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒトツキ",
+		'ja-jp': "ヒトツキ",
 	},
 
 	illustrator: "Apios",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "死者の 魂が 古代の 剣に 宿って 生まれたらしい。 人に とりつき 命を 吸う。",
+		'ja-jp': "死者の 魂が 古代の 剣に 宿って 生まれたらしい。 人に とりつき 命を 吸う。",
 	},
 
 	stage: "Basic",

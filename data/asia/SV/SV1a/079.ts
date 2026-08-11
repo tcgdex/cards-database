@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "アチゲータ"
+		'ja-jp': "アチゲータ"
 	},
 
 	illustrator: "kantaro",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "炎エネルギーと 有り余る 生命力が 交じり 頭上に タマゴ型の 火玉が 現れた。"
+		'ja-jp': "炎エネルギーと 有り余る 生命力が 交じり 頭上に タマゴ型の 火玉が 現れた。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "ひをはく"
+			'ja-jp': "ひをはく"
 		},
 
 		damage: 30
@@ -32,7 +32,7 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			ja: "ハイパーボイス"
+			'ja-jp': "ハイパーボイス"
 		},
 
 		damage: 70

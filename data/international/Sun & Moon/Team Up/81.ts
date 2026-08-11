@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Pancham",
-		fr: "Pandespiègle",
-		es: "Pancham",
-		it: "Pancham",
-		pt: "Pancham",
-		de: "Pam-Pam"
+		'en-us': "Pancham",
+		'fr-fr': "Pandespiègle",
+		'es-es': "Pancham",
+		'it-it': "Pancham",
+		'pt-br': "Pancham",
+		'de-de': "Pam-Pam"
 	},
 
 	illustrator: "Yuka Morii",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Arm Thrust",
-				fr: "Cogne",
-				es: "Empujón",
-				it: "Sberletese",
-				pt: "Golpe de Braço",
-				de: "Armstoß"
+				'en-us': "Arm Thrust",
+				'fr-fr': "Cogne",
+				'es-es': "Empujón",
+				'it-it': "Sberletese",
+				'pt-br': "Golpe de Braço",
+				'de-de': "Armstoß"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy from your opponent’s Active Pokémon. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c’est face, défaussez une Énergie du Pokémon Actif de votre adversaire. Si c’est pile, cette attaque ne fait rien.",
-				es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival. Si sale cruz, este ataque no hace nada.",
-				it: "Lancia una moneta. Se esce testa, scarta un’Energia assegnata al Pokémon attivo del tuo avversario. Se esce croce, questo attacco non ha effetto.",
-				pt: "Jogue 1 moeda. Se sair cara, descarte 1 Energia do Pokémon Ativo do seu oponente. Se sair coroa, este ataque não fará nada.",
-				de: "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel. Bei Zahl hat diese Attacke keine Auswirkungen."
+				'en-us': "Flip a coin. If heads, discard an Energy from your opponent’s Active Pokémon. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c’est face, défaussez une Énergie du Pokémon Actif de votre adversaire. Si c’est pile, cette attaque ne fait rien.",
+				'es-es': "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival. Si sale cruz, este ataque no hace nada.",
+				'it-it': "Lancia una moneta. Se esce testa, scarta un’Energia assegnata al Pokémon attivo del tuo avversario. Se esce croce, questo attacco non ha effetto.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, descarte 1 Energia do Pokémon Ativo do seu oponente. Se sair coroa, este ataque não fará nada.",
+				'de-de': "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel. Bei Zahl hat diese Attacke keine Auswirkungen."
 			},
 			damage: 40,
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "There's no point to the leaf in its mouth, aside from an effort to look cool. It's mischievous, so it's not well suited to inexperienced Trainers.",
+		'en-us': "There's no point to the leaf in its mouth, aside from an effort to look cool. It's mischievous, so it's not well suited to inexperienced Trainers.",
 	},
 
 	thirdParty: {

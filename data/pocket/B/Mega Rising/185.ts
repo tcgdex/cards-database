@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Aipom"
+		'en-us': "Aipom"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It searches for prey from the tops of trees.\nWhen it spots its favorite food, Bounsweet,\nAipom gets excited and pounces."
+		'en-us': "It searches for prey from the tops of trees.\nWhen it spots its favorite food, Bounsweet,\nAipom gets excited and pounces."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Tail Smash"
+			'en-us': "Tail Smash"
 		},
 
 		damage: 40,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing."
+			'en-us': "Flip a coin. If tails, this attack does nothing."
 		}
 	}],
 

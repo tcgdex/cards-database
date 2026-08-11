@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Shellder",
-		fr: "Kokiyas",
-		de: "Muschas"
+		'en-us': "Shellder",
+		'fr-fr': "Kokiyas",
+		'de-de': "Muschas"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Irongrip",
-				fr: "Poigne de fer",
-				de: "Eisener Griff"
+				'en-us': "Irongrip",
+				'fr-fr': "Poigne de fer",
+				'de-de': "Eisener Griff"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lick",
-				fr: "Léchouille",
-				de: "Schlecker"
+				'en-us': "Lick",
+				'fr-fr': "Léchouille",
+				'de-de': "Schlecker"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 

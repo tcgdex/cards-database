@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Politoed",
-		fr: "Tarpaud"
+		'en-us': "Politoed",
+		'fr-fr': "Tarpaud"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -18,12 +18,12 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Poliwhirl"
+		'en-us': "Poliwhirl"
 	},
 
 	description: {
-		en: "At nightfall, these Pokémon appear on the shores\nof lakes. They announce their territorial claims by\nletting out cries that sound like shouting.",
-		fr: "Il apparaît sur les rives des étangs à la nuit tombée. Il marque son territoire en poussant des hurlements."
+		'en-us': "At nightfall, these Pokémon appear on the shores\nof lakes. They announce their territorial claims by\nletting out cries that sound like shouting.",
+		'fr-fr': "Il apparaît sur les rives des étangs à la nuit tombée. Il marque son territoire en poussant des hurlements."
 	},
 
 	stage: "Stage2",
@@ -32,20 +32,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Lordly Cheering",
-			fr: "Encouragements Dignes"
+			'en-us': "Lordly Cheering",
+			'fr-fr': "Encouragements Dignes"
 		},
 
 		effect: {
-			en: "As long as this Pokémon is on your Bench, attacks used by your Pokémon that evolve from Poliwhirl do +40 damage to your opponent's Active Pokémon.",
-			fr: "Tant que ce Pokémon est sur votre Banc, les attaques de vos Pokémon évoluant de Têtarte infligent + 40 dégâts au Pokémon Actif de votre adversaire."
+			'en-us': "As long as this Pokémon is on your Bench, attacks used by your Pokémon that evolve from Poliwhirl do +40 damage to your opponent's Active Pokémon.",
+			'fr-fr': "Tant que ce Pokémon est sur votre Banc, les attaques de vos Pokémon évoluant de Têtarte infligent + 40 dégâts au Pokémon Actif de votre adversaire."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Hyper Voice",
-			fr: "Mégaphone"
+			'en-us': "Hyper Voice",
+			'fr-fr': "Mégaphone"
 		},
 
 		damage: 60,

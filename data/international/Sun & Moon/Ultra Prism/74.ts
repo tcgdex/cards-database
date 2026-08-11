@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Weavile",
-		fr: "Dimoret",
-		es: "Weavile",
-		it: "Weavile",
-		pt: "Weavile",
-		de: "Snibunna"
+		'en-us': "Weavile",
+		'fr-fr': "Dimoret",
+		'es-es': "Weavile",
+		'it-it': "Weavile",
+		'pt-br': "Weavile",
+		'de-de': "Snibunna"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sneasel",
-		fr: "Farfuret",
+		'en-us': "Sneasel",
+		'fr-fr': "Farfuret",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Icy Wind",
-				fr: "Vent Glace",
-				es: "Viento Hielo",
-				it: "Ventogelato",
-				pt: "Vento Congelante",
-				de: "Eissturm"
+				'en-us': "Icy Wind",
+				'fr-fr': "Vent Glace",
+				'es-es': "Viento Hielo",
+				'it-it': "Ventogelato",
+				'pt-br': "Vento Congelante",
+				'de-de': "Eissturm"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent’s Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 10,
 
@@ -62,20 +62,20 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Evil Admonition",
-				fr: "Réprimande Maléfique",
-				es: "Amonestación Malvada",
-				it: "Avvertimento Malvagio",
-				pt: "Advertência Maligna",
-				de: "Böses Gebot"
+				'en-us': "Evil Admonition",
+				'fr-fr': "Réprimande Maléfique",
+				'es-es': "Amonestación Malvada",
+				'it-it': "Avvertimento Malvagio",
+				'pt-br': "Advertência Maligna",
+				'de-de': "Böses Gebot"
 			},
 			effect: {
-				en: "This attack does 50 damage for each of your opponent’s Pokémon that has an Ability.",
-				fr: "Cette attaque inflige 50 dégâts pour chaque Pokémon de votre adversaire ayant un talent.",
-				es: "Este ataque hace 50 puntos de daño por cada uno de los Pokémon de tu rival que tenga una habilidad.",
-				it: "Questo attacco infligge 50 danni per ogni Pokémon del tuo avversario che abbia un’abilità.",
-				pt: "Este ataque causa 50 pontos de dano para cada um dos Pokémon do seu oponente que tiver uma Habilidade.",
-				de: "Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der Pokémon deines Gegners zu, die eine Fähigkeit haben."
+				'en-us': "This attack does 50 damage for each of your opponent’s Pokémon that has an Ability.",
+				'fr-fr': "Cette attaque inflige 50 dégâts pour chaque Pokémon de votre adversaire ayant un talent.",
+				'es-es': "Este ataque hace 50 puntos de daño por cada uno de los Pokémon de tu rival que tenga una habilidad.",
+				'it-it': "Questo attacco infligge 50 danni per ogni Pokémon del tuo avversario che abbia un’abilità.",
+				'pt-br': "Este ataque causa 50 pontos de dano para cada um dos Pokémon do seu oponente que tiver uma Habilidade.",
+				'de-de': "Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der Pokémon deines Gegners zu, die eine Fähigkeit haben."
 			},
 			damage: "50×",
 
@@ -99,7 +99,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They dwell in cold places. This Pokémon's main food source in Alola is Vulpix and Sandshrew, which they carefully divide among their group.",
+		'en-us': "They dwell in cold places. This Pokémon's main food source in Alola is Vulpix and Sandshrew, which they carefully divide among their group.",
 	},
 
 	thirdParty: {

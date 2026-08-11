@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Landorus",
-		fr: "Démétéros",
-		es: "Landorus",
-		it: "Landorus",
-		pt: "Landorus",
-		de: "Demeteros"
+		'en-us': "Landorus",
+		'fr-fr': "Démétéros",
+		'es-es': "Landorus",
+		'it-it': "Landorus",
+		'pt-br': "Landorus",
+		'de-de': "Demeteros"
 	},
 
 	illustrator: "PLANETA",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Shout of Power",
-				fr: "Cri de Puissance",
-				es: "Grito de Poder",
-				it: "Urlotonante",
-				pt: "Grito de Poder",
-				de: "Mächtiger Aufruf"
+				'en-us': "Shout of Power",
+				'fr-fr': "Cri de Puissance",
+				'es-es': "Grito de Poder",
+				'it-it': "Urlotonante",
+				'pt-br': "Grito de Poder",
+				'de-de': "Mächtiger Aufruf"
 			},
 			effect: {
-				en: "Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.",
-				fr: "Attachez une carte Énergie de base de votre pile de défausse à l'un de vos Pokémon de Banc.",
-				es: "Une 1 carta de Energía Básica de tu pila de descartes a 1 de tus Pokémon en Banca.",
-				it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia base dalla tua pila degli scarti.",
-				pt: "Ligue um card de Energia básica da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-				de: "Lege 1 Basis-Energiekarte von deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
+				'en-us': "Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.",
+				'fr-fr': "Attachez une carte Énergie de base de votre pile de défausse à l'un de vos Pokémon de Banc.",
+				'es-es': "Une 1 carta de Energía Básica de tu pila de descartes a 1 de tus Pokémon en Banca.",
+				'it-it': "Assegna a uno dei tuoi Pokémon in panchina una carta Energia base dalla tua pila degli scarti.",
+				'pt-br': "Ligue um card de Energia básica da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
+				'de-de': "Lege 1 Basis-Energiekarte von deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
 			},
 			damage: 20,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sky Lariat",
-				fr: "Lasso Céleste",
-				es: "Lazo Celestial",
-				it: "Lazoaereo",
-				pt: "Laço Celeste",
-				de: "Sensensturz"
+				'en-us': "Sky Lariat",
+				'fr-fr': "Lasso Céleste",
+				'es-es': "Lazo Celestial",
+				'it-it': "Lazoaereo",
+				'pt-br': "Laço Celeste",
+				'de-de': "Sensensturz"
 			},
 
 			damage: 90,
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Lands visited by Landorus grant such bountiful crops that it has been hailed as \"The Guardian of the Fields.\"",
+		'en-us': "Lands visited by Landorus grant such bountiful crops that it has been hailed as \"The Guardian of the Fields.\"",
 	},
 
 	thirdParty: {

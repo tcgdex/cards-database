@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Golett",
-		fr: "Gringolem",
-		es: "Golett",
-		it: "Golett",
-		pt: "Golett",
-		de: "Golbit"
+		'en-us': "Golett",
+		'fr-fr': "Gringolem",
+		'es-es': "Golett",
+		'it-it': "Golett",
+		'pt-br': "Golett",
+		'de-de': "Golbit"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nap",
-				fr: "Tit'Sieste",
+				'en-us': "Nap",
+				'fr-fr': "Tit'Sieste",
 			},
 			effect: {
-				en: "Heal 40 damage from this Pokémon.",
-				fr: "Soignez 40 dégâts à ce Pokémon.",
+				'en-us': "Heal 40 damage from this Pokémon.",
+				'fr-fr': "Soignez 40 dégâts à ce Pokémon.",
 			},
 
 		},
@@ -51,8 +51,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'Face",
+				'en-us': "Pound",
+				'fr-fr': "Écras'Face",
 			},
 
 			damage: 40,
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "The energy that burns inside it enables it to move, but no one has yet been able to identify this energy.",
+		'en-us': "The energy that burns inside it enables it to move, but no one has yet been able to identify this energy.",
 	},
 
 	thirdParty: {

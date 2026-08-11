@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マンキー",
+		'ja-jp': "マンキー",
 	},
 
 	illustrator: "Yuka Morii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "普段は 機嫌が 良くても ちょっとしたことで いきなり 暴れだすから 怖いのだ。",
+		'ja-jp': "普段は 機嫌が 良くても ちょっとしたことで いきなり 暴れだすから 怖いのだ。",
 	},
 
 	stage: "Basic",

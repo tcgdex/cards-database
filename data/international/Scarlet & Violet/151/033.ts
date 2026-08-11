@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Nidorino",
-		en: "Nidorino",
-		es: "Nidorino",
-		it: "Nidorino",
-		pt: "Nidorino",
-		de: "Nidorino"
+		'fr-fr': "Nidorino",
+		'en-us': "Nidorino",
+		'es-es': "Nidorino",
+		'it-it': "Nidorino",
+		'pt-br': "Nidorino",
+		'de-de': "Nidorino"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Darkness"],
 	evolveFrom: {
-		fr: "Nidoran♂",
-		en: "Nidoran♂",
-		es: "Nidoran♂",
-		it: "Nidoran♂",
-		pt: "Nidoran♂",
-		de: "Nidoran♂"
+		'fr-fr': "Nidoran♂",
+		'en-us': "Nidoran♂",
+		'es-es': "Nidoran♂",
+		'it-it': "Nidoran♂",
+		'pt-br': "Nidoran♂",
+		'de-de': "Nidoran♂"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			fr: "Croc Aiguisé",
-			en: "Sharp Fang",
-			es: "Colmillo Afilado",
-			it: "Zannaffilata",
-			pt: "Presa Afiada",
-			de: "Scharfe Fänge"
+			'fr-fr': "Croc Aiguisé",
+			'en-us': "Sharp Fang",
+			'es-es': "Colmillo Afilado",
+			'it-it': "Zannaffilata",
+			'pt-br': "Presa Afiada",
+			'de-de': "Scharfe Fänge"
 		},
 
 		damage: 30
@@ -45,12 +45,12 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			fr: "Cornes Surpuissantes",
-			en: "Superpowered Horns",
-			es: "Cuernos Superpoderosos",
-			it: "Corna Superpotenziate",
-			pt: "Chifres Superpoderosos",
-			de: "Superstarke Hörner"
+			'fr-fr': "Cornes Surpuissantes",
+			'en-us': "Superpowered Horns",
+			'es-es': "Cuernos Superpoderosos",
+			'it-it': "Corna Superpotenziate",
+			'pt-br': "Chifres Superpoderosos",
+			'de-de': "Superstarke Hörner"
 		},
 
 		damage: 100
@@ -66,7 +66,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It's nervous and quick to act aggressively. The potency of its poison increases along with the level of adrenaline present in its body.",
+		'en-us': "It's nervous and quick to act aggressively. The potency of its poison increases along with the level of adrenaline present in its body.",
 	},
 
 	variants: [

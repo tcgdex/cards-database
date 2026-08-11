@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wooper",
-		fr: "Axoloto"
+		'en-us': "Wooper",
+		'fr-fr': "Axoloto"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "This Pokémon lives in cold water. It will leave the\nwater to search for food when it gets cold outside.",
-		fr: "Ce Pokémon vit en eaux froides. Si la température extérieure est assez basse, il lui arrive de se rendre sur la terre ferme pour se nourrir."
+		'en-us': "This Pokémon lives in cold water. It will leave the\nwater to search for food when it gets cold outside.",
+		'fr-fr': "Ce Pokémon vit en eaux froides. Si la température extérieure est assez basse, il lui arrive de se rendre sur la terre ferme pour se nourrir."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Rain Splash",
-			fr: "Pluie Éclaboussante"
+			'en-us': "Rain Splash",
+			'fr-fr': "Pluie Éclaboussante"
 		},
 
 		damage: 30,

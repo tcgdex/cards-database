@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Hitmonlee"
+		'en-us': "Hitmonlee"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -28,10 +28,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Stretch Kick"
+				'en-us': "Stretch Kick"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Benched Pokémon, and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Choose 1 of your opponent's Benched Pokémon, and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 20,
 
@@ -43,7 +43,7 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "High Jump Kick"
+				'en-us': "High Jump Kick"
 			},
 
 			damage: 50,
@@ -61,7 +61,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When in a hurry, its legs lengthen progressively. It runs smoothly with extra long, loping strides."
+		'en-us': "When in a hurry, its legs lengthen progressively. It runs smoothly with extra long, loping strides."
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Wartortle",
-		fr: "Carabaffe",
-		de: "Schillok"
+		'en-us': "Wartortle",
+		'fr-fr': "Carabaffe",
+		'de-de': "Schillok"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Squirtle",
-		fr: "Carapuce",
+		'en-us': "Squirtle",
+		'fr-fr': "Carapuce",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Giant Wave",
-				fr: "Vague géante",
-				de: "Riesenwelle"
+				'en-us': "Giant Wave",
+				'fr-fr': "Vague géante",
+				'de-de': "Riesenwelle"
 			},
 			effect: {
-				en: "Wartortle can't use Giant Wave during your next turn.",
-				fr: "Carabaffe ne peut pas utiliser Vague géante lors de votre prochain tour.",
-				de: "Schillok kann Riesenwelle in deinem nächsten Zug nicht einsetzen."
+				'en-us': "Wartortle can't use Giant Wave during your next turn.",
+				'fr-fr': "Carabaffe ne peut pas utiliser Vague géante lors de votre prochain tour.",
+				'de-de': "Schillok kann Riesenwelle in deinem nächsten Zug nicht einsetzen."
 			},
 			damage: 40,
 
@@ -56,9 +56,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shell Attack",
-				fr: "Coquill-attaque",
-				de: "Muschelangriff"
+				'en-us': "Shell Attack",
+				'fr-fr': "Coquill-attaque",
+				'de-de': "Muschelangriff"
 			},
 
 			damage: 50,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.",
+		'en-us': "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.",
 	},
 
 	thirdParty: {

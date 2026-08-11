@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Gardevoir",
-		fr: "Gardevoir",
-		de: "Guardevoir"
+		'en-us': "Gardevoir",
+		'fr-fr': "Gardevoir",
+		'de-de': "Guardevoir"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kirlia",
-		fr: "Kirlia"
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Psy Shadow",
-				fr: "Ombre psy",
-				de: "Psy Shadow"
+				'en-us': "Psy Shadow",
+				'fr-fr': "Ombre psy",
+				'de-de': "Psy Shadow"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may search your deck for a Psychic Energy card and attach it to 1 of your Pokémon. Put 2 damage counters on that Pokémon. Shuffle your deck afterward. This power can't be used if Gardevoir is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez choisir dans votre deck une carte Énergie  et l'attacher à un de vos Pokémon. Placez deux marqueurs de dégât sur ce Pokémon. Mélangez ensuite votre deck. Ce pouvoir ne peut être utilisé si Gardevoir est affecté par un État Spécial.",
-				de: "Once during your turn (before your attack), you may search your Deck for a  Energy card and attach it to 1 of your Pokémon. Put 2 damage counters on that Pokémon. Shuffle your Deck afterward. This power can't be used if Gardevoir is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), you may search your deck for a Psychic Energy card and attach it to 1 of your Pokémon. Put 2 damage counters on that Pokémon. Shuffle your deck afterward. This power can't be used if Gardevoir is affected by a Special Condition.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez choisir dans votre deck une carte Énergie  et l'attacher à un de vos Pokémon. Placez deux marqueurs de dégât sur ce Pokémon. Mélangez ensuite votre deck. Ce pouvoir ne peut être utilisé si Gardevoir est affecté par un État Spécial.",
+				'de-de': "Once during your turn (before your attack), you may search your Deck for a  Energy card and attach it to 1 of your Pokémon. Put 2 damage counters on that Pokémon. Shuffle your Deck afterward. This power can't be used if Gardevoir is affected by a Special Condition."
 			}
 		},
 	],
@@ -50,14 +50,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Energy Burst",
-				fr: "Explosion d'énergie",
-				de: "Energy Burst"
+				'en-us': "Energy Burst",
+				'fr-fr': "Explosion d'énergie",
+				'de-de': "Energy Burst"
 			},
 			effect: {
-				en: "Does 10 damage times the total amount of Energy attached to Gardevoir and the Defending Pokémon.",
-				fr: "Inflige 10 dégâts pour chaque carte Énergie attachée à Gardevoir et au Pokémon Défenseur.",
-				de: "Does 10 damage times the total amount of Energy attached to Gardevoir and the Defending Pokémon."
+				'en-us': "Does 10 damage times the total amount of Energy attached to Gardevoir and the Defending Pokémon.",
+				'fr-fr': "Inflige 10 dégâts pour chaque carte Énergie attachée à Gardevoir et au Pokémon Défenseur.",
+				'de-de': "Does 10 damage times the total amount of Energy attached to Gardevoir and the Defending Pokémon."
 			},
 			damage: "10×",
 

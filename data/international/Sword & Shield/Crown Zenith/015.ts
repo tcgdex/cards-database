@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Grubbin",
-		fr: "Larvibule",
-		es: "Grubbin",
-		it: "Grubbin",
-		pt: "Grubbin",
-		de: "Mabula"
+		'en-us': "Grubbin",
+		'fr-fr': "Larvibule",
+		'es-es': "Grubbin",
+		'it-it': "Grubbin",
+		'pt-br': "Grubbin",
+		'de-de': "Mabula"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -25,41 +25,41 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Energize",
-			fr: "Énergisant",
-			es: "Vigorizar",
-			it: "Energizza",
-			pt: "Energizar",
-			de: "Energiezufuhr"
+			'en-us': "Energize",
+			'fr-fr': "Énergisant",
+			'es-es': "Vigorizar",
+			'it-it': "Energizza",
+			'pt-br': "Energizar",
+			'de-de': "Energiezufuhr"
 		},
 
 		effect: {
-			en: "Attach a Lightning Energy card from your discard pile to this Pokémon.",
-			fr: "Attachez une carte Énergie Lightning de votre pile de défausse à ce Pokémon.",
-			es: "Une 1 carta de Energía Lightning de tu pila de descartes a este Pokémon.",
-			it: "Assegna a questo Pokémon una carta Energia Lightning dalla tua pila degli scarti.",
-			pt: "Ligue 1 carta de Energia Lightning da sua pilha de descarte a este Pokémon.",
-			de: "Lege 1 Lightning-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+			'en-us': "Attach a Lightning Energy card from your discard pile to this Pokémon.",
+			'fr-fr': "Attachez une carte Énergie Lightning de votre pile de défausse à ce Pokémon.",
+			'es-es': "Une 1 carta de Energía Lightning de tu pila de descartes a este Pokémon.",
+			'it-it': "Assegna a questo Pokémon una carta Energia Lightning dalla tua pila degli scarti.",
+			'pt-br': "Ligue 1 carta de Energia Lightning da sua pilha de descarte a este Pokémon.",
+			'de-de': "Lege 1 Lightning-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Surprise Attack",
-			fr: "Attaque Surprise",
-			es: "Ataque Sorpresa",
-			it: "Attacco a Sorpresa",
-			pt: "Ataque Surpresa",
-			de: "Überraschungsangriff"
+			'en-us': "Surprise Attack",
+			'fr-fr': "Attaque Surprise",
+			'es-es': "Ataque Sorpresa",
+			'it-it': "Attacco a Sorpresa",
+			'pt-br': "Ataque Surpresa",
+			'de-de': "Überraschungsangriff"
 		},
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-			pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
-			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+			'pt-br': "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+			'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 		},
 
 		damage: 50
@@ -76,7 +76,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It uses its big jaws to dig nests into the forest floor, and it loves to feed on sweet tree sap.",
+		'en-us': "It uses its big jaws to dig nests into the forest floor, and it loves to feed on sweet tree sap.",
 	},
 
 	

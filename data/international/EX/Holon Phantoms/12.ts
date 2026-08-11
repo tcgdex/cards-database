@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Latios δ",
-		fr: "Latios δ",
-		de: "Latios"
+		'en-us': "Latios δ",
+		'fr-fr': "Latios δ",
+		'de-de': "Latios"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Dual Aura (Duaru oora)",
-				fr: "Double aura",
-				de: "Doppel-Aura"
+				'en-us': "Dual Aura (Duaru oora)",
+				'fr-fr': "Double aura",
+				'de-de': "Doppel-Aura"
 			},
 			effect: {
-				en: "As long as you have Latias or Latias ex in play, each player's Evolved Pokémon (excluding Pokémon-ex) can't use any Poké-Bodies.",
-				fr: "Tant que vous avez Latias ou Latias ex en jeu, les Pokémon Évolués de chaque joueur (Pokémon-ex exclus) ne peuvent pas utiliser de Poké-Bodies.",
-				de: "Solange du Latias oder Latias ex im Spiel hast, können die entwickelten Pokémon beider Spieler (außer Pokémon ex) keine Poké-Body benutzen."
+				'en-us': "As long as you have Latias or Latias ex in play, each player's Evolved Pokémon (excluding Pokémon-ex) can't use any Poké-Bodies.",
+				'fr-fr': "Tant que vous avez Latias ou Latias ex en jeu, les Pokémon Évolués de chaque joueur (Pokémon-ex exclus) ne peuvent pas utiliser de Poké-Bodies.",
+				'de-de': "Solange du Latias oder Latias ex im Spiel hast, können die entwickelten Pokémon beider Spieler (außer Pokémon ex) keine Poké-Body benutzen."
 			},
 		},
 	],
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dive",
-				fr: "Plongée",
-				de: "Taucher"
+				'en-us': "Dive",
+				'fr-fr': "Plongée",
+				'de-de': "Taucher"
 			},
 
 			damage: 10,
@@ -62,14 +62,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Blast",
-				fr: "Explosion aquatique",
-				de: "Wasserschuss"
+				'en-us': "Aqua Blast",
+				'fr-fr': "Explosion aquatique",
+				'de-de': "Wasserschuss"
 			},
 			effect: {
-				en: "Discard a Water Energy attached to Latios.",
-				fr: "Défaussez une Énergie  attachée à Latios.",
-				de: "Lege eine -Energiekarte, die an Latios angelegt ist, auf deinen Ablagestapel."
+				'en-us': "Discard a Water Energy attached to Latios.",
+				'fr-fr': "Défaussez une Énergie  attachée à Latios.",
+				'de-de': "Lege eine -Energiekarte, die an Latios angelegt ist, auf deinen Ablagestapel."
 			},
 			damage: 50,
 

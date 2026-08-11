@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Chartor",
+		'fr-fr': "Chartor",
 	},
 
 	rarity: "None",
@@ -31,20 +31,20 @@ const card: Card = {
 		{
 			cost: ["Fire"],
 			name: {
-				fr: "Roussi"
+				'fr-fr': "Roussi"
 			},
 			effect: {
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
 			}
 		},
 		{
 			cost: ["Fire", "Colorless"],
 			name: {
-				fr: "Plaquage"
+				'fr-fr': "Plaquage"
 			},
 			damage: 50,
 			effect: {
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
 			}
 		},
 	],

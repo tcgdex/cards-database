@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Nidoran♂",
-		fr: "Nidoran♂",
-		es: "Nidoran♂",
-		it: "Nidoran♂",
-		pt: "Nidoran♂",
-		de: "Nidoran♂"
+		'en-us': "Nidoran♂",
+		'fr-fr': "Nidoran♂",
+		'es-es': "Nidoran♂",
+		'it-it': "Nidoran♂",
+		'pt-br': "Nidoran♂",
+		'de-de': "Nidoran♂"
 	},
 	illustrator: "Hasuno",
 	rarity: "Common",
@@ -32,20 +32,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Come Along",
-				fr: "Compagnon",
-				es: "Acompáñame",
-				it: "Rimorchiare",
-				pt: "Acompanha-me",
-				de: "Komm mit!"
+				'en-us': "Come Along",
+				'fr-fr': "Compagnon",
+				'es-es': "Acompáñame",
+				'it-it': "Rimorchiare",
+				'pt-br': "Acompanha-me",
+				'de-de': "Komm mit!"
 			},
 			effect: {
-				en: "Search your deck for Nidoran♀ and put it onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez Nidoran♀ dans votre deck et placez-le sur votre Banc. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja 1 Nidoran♀ y ponlo en tu Banca. Baraja las cartas de tu baraja después.",
-				it: "Cerca Nidoran♀ nel tuo mazzo e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure em seu baralho por Nidoran♀ e coloque-a no seu Banco. Em seguida, embaralhe seus cards.",
-				de: "Durchsuche dein Deck nach Nidoran♀ und lege es auf deine Bank. Mische anschließend dein Deck."
+				'en-us': "Search your deck for Nidoran♀ and put it onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez Nidoran♀ dans votre deck et placez-le sur votre Banc. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja 1 Nidoran♀ y ponlo en tu Banca. Baraja las cartas de tu baraja después.",
+				'it-it': "Cerca Nidoran♀ nel tuo mazzo e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure em seu baralho por Nidoran♀ e coloque-a no seu Banco. Em seguida, embaralhe seus cards.",
+				'de-de': "Durchsuche dein Deck nach Nidoran♀ und lege es auf deine Bank. Mische anschließend dein Deck."
 			},
 
 		},
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				es: "Picotazo",
-				it: "Beccata",
-				pt: "Bicada",
-				de: "Schnabel"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'es-es': "Picotazo",
+				'it-it': "Beccata",
+				'pt-br': "Bicada",
+				'de-de': "Schnabel"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its large ears are flapped like wings when it is listening to distant sounds. It extends toxic barbs when angered.",
+		'en-us': "Its large ears are flapped like wings when it is listening to distant sounds. It extends toxic barbs when angered.",
 	},
 }
 

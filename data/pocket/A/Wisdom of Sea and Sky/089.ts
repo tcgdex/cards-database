@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Granbull",
-		fr: "Granbull"
+		'en-us': "Granbull",
+		'fr-fr': "Granbull"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -18,28 +18,28 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Snubbull"
+		'en-us': "Snubbull"
 	},
 
 	description: {
-		en: "While it has powerful jaws, it doesn't care for\ndisputes, so it rarely has a chance to display\ntheir might.",
-		fr: "Sa mâchoire est étonnamment puissante, mais comme il n'aime pas se battre, il n'a pas souvent l'occasion de s'en servir."
+		'en-us': "While it has powerful jaws, it doesn't care for\ndisputes, so it rarely has a chance to display\ntheir might.",
+		'fr-fr': "Sa mâchoire est étonnamment puissante, mais comme il n'aime pas se battre, il n'a pas souvent l'occasion de s'en servir."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Wild Tackle",
-			fr: "Tacle Brutal"
+			'en-us': "Wild Tackle",
+			'fr-fr': "Tacle Brutal"
 		},
 
 		damage: 100,
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 20 dégâts."
+			'en-us': "This Pokémon also does 20 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 20 dégâts."
 		}
 	}],
 

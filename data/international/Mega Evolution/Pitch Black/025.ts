@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pitch Black"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charjabug",
-		fr: "Chrysapile",
-		es: "Charjabug",
+		'en-us': "Charjabug",
+		'fr-fr': "Chrysapile",
+		'es-es': "Charjabug",
 		'es-mx': "Charjabug",
-		de: "Akkup",
-		it: "Charjabug",
-		pt: "Charjabug"
+		'de-de': "Akkup",
+		'it-it': "Charjabug",
+		'pt-br': "Charjabug"
 	},
 
 	illustrator: "Kazuhisa Uragami",
@@ -22,20 +22,20 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Grubbin"
+		'en-us': "Grubbin"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Vise Grip",
-			fr: "Force Poigne",
-			es: "Agarre",
+			'en-us': "Vise Grip",
+			'fr-fr': "Force Poigne",
+			'es-es': "Agarre",
 			'es-mx': "Fuerza de Garra",
-			de: "Klammer",
-			it: "Presa",
-			pt: "Agarramento Compressor"
+			'de-de': "Klammer",
+			'it-it': "Presa",
+			'pt-br': "Agarramento Compressor"
 		},
 
 		cost: ["Lightning"],
@@ -43,13 +43,13 @@ const card: Card = {
 		damage: 30
 	}, {
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
 			'es-mx': "Colisión",
-			de: "Ramme",
-			it: "Carica",
-			pt: "Aríete"
+			'de-de': "Ramme",
+			'it-it': "Carica",
+			'pt-br': "Aríete"
 		},
 
 		cost: ["Lightning", "Lightning"],

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 6'
 
 const card: Card = {
 	name: {
-		en: "Bidoof",
-		fr: "Bidoof"
+		'en-us': "Bidoof",
+		'fr-fr': "Bidoof"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Amnesia",
-				fr: "Amnésie"
+				'en-us': "Amnesia",
+				'fr-fr': "Amnésie"
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
-				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire."
+				'en-us': "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
+				'fr-fr': "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire."
 			},
 
 		},
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scavenge",
-				fr: "Farfouille"
+				'en-us': "Scavenge",
+				'fr-fr': "Farfouille"
 			},
 			effect: {
-				en: "Search your discard pile for a Trainer card, show it to your opponent, an put it into your hand.",
-				fr: "Choisissez une carte Dresseur dans votre pile de défausse, montrez-la à votre adversaire et placez-la dans votre main."
+				'en-us': "Search your discard pile for a Trainer card, show it to your opponent, an put it into your hand.",
+				'fr-fr': "Choisissez une carte Dresseur dans votre pile de défausse, montrez-la à votre adversaire et placez-la dans votre main."
 			},
 
 		},
@@ -60,7 +60,7 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "With nerves of steel, nothing can perturb it. It is more agile and active than it appears."
+		'en-us': "With nerves of steel, nothing can perturb it. It is more agile and active than it appears."
 	},
 
 	retreat: 1,

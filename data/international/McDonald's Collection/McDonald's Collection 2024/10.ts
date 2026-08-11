@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2024'
 
 const card: Card = {
 	name: {
-		en: "Hydreigon",
-		fr: "Trioxhydre",
-		es: "Hydreigon",
-		it: "Hydreigon",
-		pt: "Hydreigon",
-		de: "Trikephalo"
+		'en-us': "Hydreigon",
+		'fr-fr': "Trioxhydre",
+		'es-es': "Hydreigon",
+		'it-it': "Hydreigon",
+		'pt-br': "Hydreigon",
+		'de-de': "Trikephalo"
 	},
 
 	illustrator: "Teeziro",
@@ -25,22 +25,22 @@ const card: Card = {
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Zweilous",
-		fr: "Diamat",
-		es: "Zweilous",
-		it: "Zweilous",
-		pt: "Zweilous",
-		de: "Duodino"
+		'en-us': "Zweilous",
+		'fr-fr': "Diamat",
+		'es-es': "Zweilous",
+		'it-it': "Zweilous",
+		'pt-br': "Zweilous",
+		'de-de': "Duodino"
 	},
 
 	abilities: [
 		{
 			type: "Ability",
 			name: {
-				en: "Tri Howl"
+				'en-us': "Tri Howl"
 			},
 			effect: {
-				en: "Once during your turn, you may look at the top 3 cards of your deck and attach any number of Energy cards you find there to your Pokémon in any way you like. Discard the other cards."
+				'en-us': "Once during your turn, you may look at the top 3 cards of your deck and attach any number of Energy cards you find there to your Pokémon in any way you like. Discard the other cards."
 			}
 		}
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 		{
 			cost: ["Darkness", "Darkness", "Colorless"],
 			name: {
-				en: "Dark Cutter",
+				'en-us': "Dark Cutter",
 			},
 			damage: 160,
 		}

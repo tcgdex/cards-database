@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Wailord",
-		fr: "Wailord",
-		es: "Wailord",
-		it: "Wailord",
-		pt: "Wailord",
-		de: "Wailord"
+		'en-us': "Wailord",
+		'fr-fr': "Wailord",
+		'es-es': "Wailord",
+		'it-it': "Wailord",
+		'pt-br': "Wailord",
+		'de-de': "Wailord"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wailmer",
-		fr: "Wailmer",
+		'en-us': "Wailmer",
+		'fr-fr': "Wailmer",
 	},
 
 	stage: "Stage1",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heavy Impact",
-				fr: "Gros Impact",
-				es: "Impacto Pesado",
-				it: "Impatto Pesante",
-				pt: "Impacto Pesado",
-				de: "Schwerer Einschlag"
+				'en-us': "Heavy Impact",
+				'fr-fr': "Gros Impact",
+				'es-es': "Impacto Pesado",
+				'it-it': "Impatto Pesante",
+				'pt-br': "Impacto Pesado",
+				'de-de': "Schwerer Einschlag"
 			},
 
 			damage: 90,
@@ -60,12 +60,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Splash",
-				fr: "Hydro-Éclaboussure",
-				es: "Hidroestallido",
-				it: "Idrosplash",
-				pt: "Hidroborrifada",
-				de: "Hydroplatscher"
+				'en-us': "Hydro Splash",
+				'fr-fr': "Hydro-Éclaboussure",
+				'es-es': "Hidroestallido",
+				'it-it': "Idrosplash",
+				'pt-br': "Hidroborrifada",
+				'de-de': "Hydroplatscher"
 			},
 
 			damage: 140,
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "They eat so many fish Pokémon that when Wailord become too numerous, fishermen have to chase them off.",
+		'en-us': "They eat so many fish Pokémon that when Wailord become too numerous, fishermen have to chase them off.",
 	},
 
 	thirdParty: {

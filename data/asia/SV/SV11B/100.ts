@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒトモシ",
+		'ja-jp': "ヒトモシ",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "ヒトモシの 灯す 明かりは 人や ポケモンの 生命力を 吸い取って 燃えているのだ。",
+		'ja-jp': "ヒトモシの 灯す 明かりは 人や ポケモンの 生命力を 吸い取って 燃えているのだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "てらしてもやす" },
 			cost: ["Fire"],
 			effect: {
-				ja: "自分の山札を上から1枚見て、もとにもどす。のぞむなら、そのカードをトラッシュする。",
+				'ja-jp': "自分の山札を上から1枚見て、もとにもどす。のぞむなら、そのカードをトラッシュする。",
 			},
 		},
 	],

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Dewott",
-		fr: "Mateloutre",
-		es: "Dewott",
-		it: "Dewott",
-		pt: "Dewott",
-		de: "Zwottronin"
+		'en-us': "Dewott",
+		'fr-fr': "Mateloutre",
+		'es-es': "Dewott",
+		'it-it': "Dewott",
+		'pt-br': "Dewott",
+		'de-de': "Zwottronin"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Oshawott",
-		fr: "Moustillon",
+		'en-us': "Oshawott",
+		'fr-fr': "Moustillon",
 	},
 
 	stage: "Stage1",
@@ -40,8 +40,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
 			},
 
 			damage: 30,
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Shell",
-				fr: "Coquilame",
+				'en-us': "Razor Shell",
+				'fr-fr': "Coquilame",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 40,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Scalchop techniques differ from one Dewott to another. It never neglects maintaining its scalchops.",
+		'en-us': "Scalchop techniques differ from one Dewott to another. It never neglects maintaining its scalchops.",
 	},
 
 	thirdParty: {

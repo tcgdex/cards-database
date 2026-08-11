@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Spinda",
-		fr: "Spinda",
-		de: "Pandir"
+		'en-us': "Spinda",
+		'fr-fr': "Spinda",
+		'de-de': "Pandir"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "The Hula-la",
-				fr: "Danse-folle",
-				de: "The Hula-la"
+				'en-us': "The Hula-la",
+				'fr-fr': "Danse-folle",
+				'de-de': "The Hula-la"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, both the Defending Pokémon and Spinda are now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus. Si c'est pile, le Pokémon Défenseur et Spinda sont maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, both the Defending Pokémon and Spinda are now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, both the Defending Pokémon and Spinda are now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus. Si c'est pile, le Pokémon Défenseur et Spinda sont maintenant Confus.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, both the Defending Pokémon and Spinda are now Confused."
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flail",
-				fr: "Fléau",
-				de: "Flail"
+				'en-us': "Flail",
+				'fr-fr': "Fléau",
+				'de-de': "Flail"
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on Spinda.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Spinda.",
-				de: "Does 10 damage times the number of damage counters on Spinda."
+				'en-us': "Does 10 damage times the number of damage counters on Spinda.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Spinda.",
+				'de-de': "Does 10 damage times the number of damage counters on Spinda."
 			},
 			damage: "10×",
 

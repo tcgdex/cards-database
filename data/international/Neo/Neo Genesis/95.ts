@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "New Pokédex",
-		fr: "Nouveau Pokédex",
-		de: "Neuer Pokedex"
+		'en-us': "New Pokédex",
+		'fr-fr': "Nouveau Pokédex",
+		'de-de': "Neuer Pokedex"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Shuffle your deck. Then, look at up to 5 cards from the top of your deck and rearrange them as you like.",
-		fr: "Mélangez votre deck. Ensuite, regardez jusqu'à 5 cartes du dessus de votre deck et ordonnez-les comme bon vous semble.",
-		de: "Shuffle your deck. Then, look at up to 5 cards from the top of your deck and rearrange them as you like."
+		'en-us': "Shuffle your deck. Then, look at up to 5 cards from the top of your deck and rearrange them as you like.",
+		'fr-fr': "Mélangez votre deck. Ensuite, regardez jusqu'à 5 cartes du dessus de votre deck et ordonnez-les comme bon vous semble.",
+		'de-de': "Shuffle your deck. Then, look at up to 5 cards from the top of your deck and rearrange them as you like."
 	},
 
 

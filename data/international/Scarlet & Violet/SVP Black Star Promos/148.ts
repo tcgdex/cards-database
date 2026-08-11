@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Miraidon",
-		fr: "Miraidon",
-		es: "Miraidon",
-		it: "Miraidon",
-		pt: "Miraidon",
-		de: "Miraidon"
+		'en-us': "Miraidon",
+		'fr-fr': "Miraidon",
+		'es-es': "Miraidon",
+		'it-it': "Miraidon",
+		'pt-br': "Miraidon",
+		'de-de': "Miraidon"
 	},
 
 	rarity: "Promo",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Electric Claws",
-			fr: "Griffes Électriques",
-			es: "Garras Eléctricas",
-			it: "Artigli Elettrici",
-			pt: "Garras Elétricas",
-			de: "Elektrokrallen"
+			'en-us': "Electric Claws",
+			'fr-fr': "Griffes Électriques",
+			'es-es': "Garras Eléctricas",
+			'it-it': "Artigli Elettrici",
+			'pt-br': "Garras Elétricas",
+			'de-de': "Elektrokrallen"
 		},
 
 		damage: 30
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Lightning", "Lightning"],
 
 		name: {
-			en: "Mach Bolt",
-			fr: "Éclair Fulgurant",
-			es: "Rayo Mach",
-			it: "Fulmine Mach",
-			pt: "Raio Supersônico",
-			de: "Flotter Sprung"
+			'en-us': "Mach Bolt",
+			'fr-fr': "Éclair Fulgurant",
+			'es-es': "Rayo Mach",
+			'it-it': "Fulmine Mach",
+			'pt-br': "Raio Supersônico",
+			'de-de': "Flotter Sprung"
 		},
 
 		damage: 60

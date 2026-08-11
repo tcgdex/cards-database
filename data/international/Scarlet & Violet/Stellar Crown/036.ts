@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lumineon",
-		fr: "Luminéon",
-		es: "Lumineon",
-		it: "Lumineon",
-		pt: "Lumineon",
-		de: "Lumineon"
+		'en-us': "Lumineon",
+		'fr-fr': "Luminéon",
+		'es-es': "Lumineon",
+		'it-it': "Lumineon",
+		'pt-br': "Lumineon",
+		'de-de': "Lumineon"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Finneon",
-		fr: "Écayon",
-		es: "Finneon",
-		it: "Finneon",
-		pt: "Finneon",
-		de: "Finneon"
+		'en-us': "Finneon",
+		'fr-fr': "Écayon",
+		'es-es': "Finneon",
+		'it-it': "Finneon",
+		'pt-br': "Finneon",
+		'de-de': "Finneon"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Return",
-			fr: "Retour",
-			es: "Retribución",
-			it: "Ritorno",
-			pt: "Retorno",
-			de: "Rückkehr"
+			'en-us': "Return",
+			'fr-fr': "Retour",
+			'es-es': "Retribución",
+			'it-it': "Ritorno",
+			'pt-br': "Retorno",
+			'de-de': "Rückkehr"
 		},
 
 		effect: {
-			en: "You may draw cards until you have 6 cards in your hand.",
-			fr: "Vous pouvez piocher des cartes jusqu'à en avoir 6 en main.",
-			es: "Puedes robar cartas hasta que tengas 6 cartas en tu mano.",
-			it: "Puoi pescare fino ad avere sei carte in mano.",
-			pt: "Você pode comprar cartas até ter 6 cartas na sua mão.",
-			de: "Du kannst so lange Karten ziehen, bis du 6 Karten auf deiner Hand hast."
+			'en-us': "You may draw cards until you have 6 cards in your hand.",
+			'fr-fr': "Vous pouvez piocher des cartes jusqu'à en avoir 6 en main.",
+			'es-es': "Puedes robar cartas hasta que tengas 6 cartas en tu mano.",
+			'it-it': "Puoi pescare fino ad avere sei carte in mano.",
+			'pt-br': "Você pode comprar cartas até ter 6 cartas na sua mão.",
+			'de-de': "Du kannst so lange Karten ziehen, bis du 6 Karten auf deiner Hand hast."
 		},
 
 		damage: 20
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Razor Fin",
-			fr: "Aileron-Rasoir",
-			es: "Aleta Afilada",
-			it: "Pinnalama",
-			pt: "Barbatana Cortante",
-			de: "Rasierflosse"
+			'en-us': "Razor Fin",
+			'fr-fr': "Aileron-Rasoir",
+			'es-es': "Aleta Afilada",
+			'it-it': "Pinnalama",
+			'pt-br': "Barbatana Cortante",
+			'de-de': "Rasierflosse"
 		},
 
 		damage: 70

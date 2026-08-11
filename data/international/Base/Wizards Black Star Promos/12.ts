@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo",
+		'en-us': "Mewtwo",
 	},
 	illustrator: "Christopher Rush",
 	rarity: "Common",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Energy Control",
+				'en-us': "Energy Control",
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose a basic Energy card attached to 1 of your opponent's Pokémon and attach it to another of your opponent's Pokémon of your choice.",
+				'en-us': "Flip a coin. If heads, choose a basic Energy card attached to 1 of your opponent's Pokémon and attach it to another of your opponent's Pokémon of your choice.",
 			},
 
 		},
@@ -41,10 +41,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Telekinesis",
+				'en-us': "Telekinesis",
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
 			},
 			damage: 30,
 
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A scientist created this Pokémon after years of horrific gene-splicing and DNA engineering experiments.",
+		'en-us': "A scientist created this Pokémon after years of horrific gene-splicing and DNA engineering experiments.",
 	},
 
 	variants: [

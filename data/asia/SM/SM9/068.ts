@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポッポ",
+		'ja-jp': "ポッポ",
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "森や 林に 多く 分布。 地上でも 激しく はばたいて 砂を かけたりする。",
+		'ja-jp': "森や 林に 多く 分布。 地上でも 激しく はばたいて 砂を かけたりする。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、10ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、10ダメージ追加。",
 			},
 		},
 	],

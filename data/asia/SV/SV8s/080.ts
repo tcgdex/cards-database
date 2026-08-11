@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Yamask",
-		th: "เดธมาส"
+		'id-id': "Yamask",
+		'th-th': "เดธมาส"
 	},
 
 	illustrator: "IKEDA Saki",
@@ -15,24 +15,24 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Yamask gentayangan di reruntuhan pada malam hari. Kabarnya topeng yang dibawa oleh Pokémon ini adalah wajahnya saat masih hidup sebagai manusia.",
-		th: "เร่ร่อนไปตามโบราณสถานยามดึก ว่ากันว่าหน้ากากที่มีคือใบหน้าของ ตัวเองตอนเป็นคน"
+		'id-id': "Yamask gentayangan di reruntuhan pada malam hari. Kabarnya topeng yang dibawa oleh Pokémon ini adalah wajahnya saat masih hidup sebagai manusia.",
+		'th-th': "เร่ร่อนไปตามโบราณสถานยามดึก ว่ากันว่าหน้ากากที่มีคือใบหน้าของ ตัวเองตอนเป็นคน"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Bergumam",
-			th: "งึมงำ"
+			'id-id': "Bergumam",
+			'th-th': "งึมงำ"
 		},
 
 		damage: 10,
 		cost: ["Psychic"]
 	}, {
 		name: {
-			id: "Mendendam Sedikit",
-			th: "เจ็บแค้นหน่อย"
+			'id-id': "Mendendam Sedikit",
+			'th-th': "เจ็บแค้นหน่อย"
 		},
 
 		damage: 20,

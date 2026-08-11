@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "エルフーンV"
+		'ja-jp': "エルフーンV"
 	},
 
 	illustrator: "Saki Hayashiro",
@@ -19,25 +19,25 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "おじゃまなわたげ"
+			'ja-jp': "おじゃまなわたげ"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "次の相手の番、このワザを受けたたねポケモンは、ワザが使えない。"
+			'ja-jp': "次の相手の番、このワザを受けたたねポケモンは、ワザが使えない。"
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			ja: "コットンガード"
+			'ja-jp': "コットンガード"
 		},
 
 		damage: 90,
 
 		effect: {
-			ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。"
+			'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。"
 		}
 	}],
 

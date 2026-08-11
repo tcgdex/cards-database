@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イワパレス",
+		'ja-jp': "イワパレス",
 	},
 
 	illustrator: "MINAMINAMI Take",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "縄張りを 取り合って イワパレス 同士が 激しく 戦う。 岩を 壊された ほうが 負け。",
+		'ja-jp': "縄張りを 取り合って イワパレス 同士が 激しく 戦う。 岩を 壊された ほうが 負け。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "がんじょう" },
 			effect: {
-				ja: "このポケモンのHPがまんたんの状態で、このポケモンがワザのダメージを受けてきぜつするとき、きぜつせず、残りHPが「10」の状態で場に残る。",
+				'ja-jp': "このポケモンのHPがまんたんの状態で、このポケモンがワザのダメージを受けてきぜつするとき、きぜつせず、残りHPが「10」の状態で場に残る。",
 			},
 		},
 	],
@@ -43,7 +43,7 @@ const card: Card = {
 	variants: [{ type: "holo" }],
 
 	evolveFrom: {
-		ja: "イシズマイ",
+		'ja-jp': "イシズマイ",
 	},
 
 	retreat: 3,

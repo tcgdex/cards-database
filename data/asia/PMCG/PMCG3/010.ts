@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コダック",
+		'ja-jp': "コダック",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "頭痛",
+				'ja-jp': "頭痛",
 			},
 			effect: {
-				ja: "対戦相手は、次のターン中にトレーナーカードをプレイできません。",
+				'ja-jp': "対戦相手は、次のターン中にトレーナーカードをプレイできません。",
 			},
 
 		},
 		{
 			cost: ["Water"],
 			name: {
-				ja: "フューリースワイプ",
+				'ja-jp': "フューリースワイプ",
 			},
 			effect: {
-				ja: "3コインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "3コインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 
 		},

@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Tatsugiri",
-		fr: "Nigirigon",
-		es: "Tatsugiri",
-		it: "Tatsugiri",
-		de: "Nigiragi",
+		'en-us': "Tatsugiri",
+		'fr-fr': "Nigirigon",
+		'es-es': "Tatsugiri",
+		'it-it': "Tatsugiri",
+		'de-de': "Nigiragi",
 		'pt-br': "Tatsugiri",
-		ko: "싸리용"
+		'ko-kr': "싸리용"
   },
   illustrator: "OKACHEKE",
   rarity: "Two Diamond",

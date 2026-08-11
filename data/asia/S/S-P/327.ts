@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アーケオス",
+		'ja-jp': "アーケオス",
 	},
 
 	illustrator: "Nisota Niso",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "飛び立つために 助走する。 その 距離は およそ ４キロ。 走る速さは 時速４０キロ。",
+		'ja-jp': "飛び立つために 助走する。 その 距離は およそ ４キロ。 走る速さは 時速４０キロ。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "プライマルターボ" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札から特殊エネルギーを2枚まで選び、自分のポケモン1匹につける。そして山札を切る。",
+				'ja-jp': "自分の番に1回使える。自分の山札から特殊エネルギーを2枚まで選び、自分のポケモン1匹につける。そして山札を切る。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アーケン",
+		'ja-jp': "アーケン",
 	},
 
 	retreat: 1,

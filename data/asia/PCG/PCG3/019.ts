@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグビー",
+		'ja-jp': "マグビー",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "赤ちゃんの進化",
+				'ja-jp': "赤ちゃんの進化",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前に）一度、マグマーをマグビーに乗せ（これは進化するマグビーとしてカウントされます）、Magbyからすべてのダメージカウンターを削除することができます。",
+				'ja-jp': "ターン中（攻撃の前に）一度、マグマーをマグビーに乗せ（これは進化するマグビーとしてカウントされます）、Magbyからすべてのダメージカウンターを削除することができます。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "迂回",
+				'ja-jp': "迂回",
 			},
 			effect: {
-				ja: "プレイ中のサポーターカードがある場合は、この攻撃の効果としてそのカードの効果を使用してください。",
+				'ja-jp': "プレイ中のサポーターカードがある場合は、この攻撃の効果としてそのカードの効果を使用してください。",
 			},
 		},
 	],

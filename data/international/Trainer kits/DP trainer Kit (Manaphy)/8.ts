@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../DP trainer Kit (Manaphy)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Totodile",
-		fr: "Kaiminus"
+		'en-us': "Totodile",
+		'fr-fr': "Kaiminus"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 				"Colorless"
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure"
+				'en-us': "Bite",
+				'fr-fr': "Morsure"
 			},
 			damage: 10
 		},
@@ -37,12 +37,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Shining Fang",
-				fr: "Croc luisant"
+				'en-us': "Shining Fang",
+				'fr-fr': "Croc luisant"
 			},
 			effect: {
-				en: "If the Defending Pokémon already has any damage counters on it, this attack does 10 damage plus 10 more damage.",
-				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+				'en-us': "If the Defending Pokémon already has any damage counters on it, this attack does 10 damage plus 10 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
 			},
 			damage: "10+"
 		}
@@ -56,7 +56,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It has the habit of biting anything with its developed jaws. Even its Trainer needs to be careful."
+		'en-us': "It has the habit of biting anything with its developed jaws. Even its Trainer needs to be careful."
 	},
 
 	retreat: 1,

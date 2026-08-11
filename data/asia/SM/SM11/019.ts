@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オニシズクモ",
+		'ja-jp': "オニシズクモ",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "普段は 水の中で 過ごす。 満腹の とき 仕留めた 獲物は 頭の 水泡に 仕舞っておく。",
+		'ja-jp': "普段は 水の中で 過ごす。 満腹の とき 仕留めた 獲物は 頭の 水泡に 仕舞っておく。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "からめてひっぱる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+				'ja-jp': "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、ワザに必要なエネルギーとにげるためのエネルギーが、それぞれ【無】エネルギー1個ぶん多くなる。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、ワザに必要なエネルギーとにげるためのエネルギーが、それぞれ【無】エネルギー1個ぶん多くなる。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シズクモ",
+		'ja-jp': "シズクモ",
 	},
 
 	retreat: 1,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レドームシ",
+		'ja-jp': "レドームシ",
 		'zh-tw': "天罩蟲",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "ほぼ 動かないが 生きている。 飲まず食わずで 殻に こもるうち 超能力に 目覚めたらしい。",
+		'ja-jp': "ほぼ 動かないが 生きている。 飲まず食わずで 殻に こもるうち 超能力に 目覚めたらしい。",
 		'zh-tw': "雖然幾乎從來不動但還是活著的。牠的超能力似乎是在縮在殼裡 不吃不喝的過程中覺醒的。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "バリアアタック",
+				'ja-jp': "バリアアタック",
 				'zh-tw': "屏障攻擊",
 			},
 			damage: 30,
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
 				'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-30」點。",
 			},
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "サッチムシ",
+		'ja-jp': "サッチムシ",
 	},
 
 	retreat: 2,

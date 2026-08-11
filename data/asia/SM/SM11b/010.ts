@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポッタイシ",
+		'ja-jp': "ポッタイシ",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "群れを 作らずに １匹で いる。 自分が 一番 偉いと どの ポッタイシも 考えているようだ。",
+		'ja-jp': "群れを 作らずに １匹で いる。 自分が 一番 偉いと どの ポッタイシも 考えているようだ。",
 	},
 
 	stage: "Stage1",
@@ -28,7 +28,7 @@ const card: Card = {
 			name: { ja: "ダイレクトダイブ" },
 			cost: ["Water", "Water", "Water"],
 			effect: {
-				ja: "このポケモンについているエネルギーをすべてトラッシュし、相手のベンチポケモン1匹に、100ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "このポケモンについているエネルギーをすべてトラッシュし、相手のベンチポケモン1匹に、100ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ポッチャマ",
+		'ja-jp': "ポッチャマ",
 	},
 
 	retreat: 2,

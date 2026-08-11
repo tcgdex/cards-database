@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 8'
 
 const card: Card = {
 	name: {
-		en: "Croagunk",
+		'en-us': "Croagunk",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ghastly Sound",
+				'en-us': "Ghastly Sound",
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent can’t play any Supporter cards from his or her hand during his or her next turn.",
+				'en-us': "Flip a coin. If heads, your opponent can’t play any Supporter cards from his or her hand during his or her next turn.",
 			},
 
 		},
@@ -42,10 +42,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Finger Poke",
+				'en-us': "Finger Poke",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 			},
 			damage: 20,
 
@@ -60,7 +60,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers."
+		'en-us': "Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers."
 	},
 
 	retreat: 1,

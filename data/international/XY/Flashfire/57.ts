@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Krokorok",
-		fr: "Escroco",
-		es: "Krokorok",
-		it: "Krokorok",
-		pt: "Krokorok",
-		de: "Rokkaiman"
+		'en-us': "Krokorok",
+		'fr-fr': "Escroco",
+		'es-es': "Krokorok",
+		'it-it': "Krokorok",
+		'pt-br': "Krokorok",
+		'de-de': "Rokkaiman"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sandile",
-		fr: "Mascaïman",
-		es: "Sandile",
-		it: "Sandile",
-		pt: "Sandile",
-		de: "Ganovil"
+		'en-us': "Sandile",
+		'fr-fr': "Mascaïman",
+		'es-es': "Sandile",
+		'it-it': "Sandile",
+		'pt-br': "Sandile",
+		'de-de': "Ganovil"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Dark Clamp",
-				fr: "Pince des Ténèbres",
-				es: "Tenaza Oscura",
-				it: "Buiotenaglia",
-				pt: "Grampo da Escuridão",
-				de: "Dunkler Klammergriff"
+				'en-us': "Dark Clamp",
+				'fr-fr': "Pince des Ténèbres",
+				'es-es': "Tenaza Oscura",
+				'it-it': "Buiotenaglia",
+				'pt-br': "Grampo da Escuridão",
+				'de-de': "Dunkler Klammergriff"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
-				es: "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
-				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-				pt: "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
-				de: "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'es-es': "El Pokémon Defensor no puede retirarse durante el próximo turno de tu rival.",
+				'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+				'pt-br': "O Pokémon Defensor não poderá recuar durante a próxima vez de jogar do seu oponente.",
+				'de-de': "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 10,
 
@@ -68,20 +68,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Swing",
-				fr: "Double Oscillation",
-				es: "Doble Sacudida",
-				it: "Bicolpo",
-				pt: "Balanço Duplo",
-				de: "Doppelter Haken"
+				'en-us': "Double Swing",
+				'fr-fr': "Double Oscillation",
+				'es-es': "Doble Sacudida",
+				'it-it': "Bicolpo",
+				'pt-br': "Balanço Duplo",
+				'de-de': "Doppelter Haken"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 60 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
-				es: "Lanza 2 monedas. Este ataque hace 60 puntos de daño por cada cara.",
-				it: "Lancia due volte una moneta. Questo attacco infligge 60 danni ogni volta che esce testa.",
-				pt: "Jogue 2 moedas. Esse ataque causa 60 de danos vezes o número de caras.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 60 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 60 puntos de daño por cada cara.",
+				'it-it': "Lancia due volte una moneta. Questo attacco infligge 60 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 2 moedas. Esse ataque causa 60 de danos vezes o número de caras.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "60×",
 
@@ -105,7 +105,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They live in groups of a few individuals. Protective membranes shield their eyes from sandstorms.",
+		'en-us': "They live in groups of a few individuals. Protective membranes shield their eyes from sandstorms.",
 	},
 
 	thirdParty: {

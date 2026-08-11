@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Yanmega ex",
-		fr: "Yanmega-ex"
+		'en-us': "Yanmega ex",
+		'fr-fr': "Yanmega-ex"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Yanma"
+		'en-us': "Yanma"
 	},
 
 	stage: "Stage1",
@@ -26,16 +26,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Air Slash",
-			fr: "Lame d'Air"
+			'en-us': "Air Slash",
+			'fr-fr': "Lame d'Air"
 		},
 
 		damage: 120,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Discard a random Energy from this Pokémon.",
-			fr: "Défaussez une Énergie au hasard de ce Pokémon."
+			'en-us': "Discard a random Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie au hasard de ce Pokémon."
 		}
 	}],
 

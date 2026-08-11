@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Dewpider",
-		fr: "Araqua",
-		es: "Dewpider",
-		it: "Dewpider",
-		pt: "Dewpider",
-		de: "Araqua"
+		'en-us': "Dewpider",
+		'fr-fr': "Araqua",
+		'es-es': "Dewpider",
+		'it-it': "Dewpider",
+		'pt-br': "Dewpider",
+		'de-de': "Araqua"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Ambush",
-				fr: "Embuscade",
-				es: "Emboscada",
-				it: "Imboscata",
-				pt: "Emboscada",
-				de: "Hinterhalt"
+				'en-us': "Ambush",
+				'fr-fr': "Embuscade",
+				'es-es': "Emboscada",
+				'it-it': "Imboscata",
+				'pt-br': "Emboscada",
+				'de-de': "Hinterhalt"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
-				pt: "Jogue uma moeda. Se sair cara, esse ataque causará 10 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
+				'pt-br': "Jogue uma moeda. Se sair cara, esse ataque causará 10 de danos adicionais.",
+				'de-de': "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It crawls onto the land in search of food. Its water bubble allows it to breathe and protects its soft head.",
+		'en-us': "It crawls onto the land in search of food. Its water bubble allows it to breathe and protects its soft head.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Scatterbug",
-		fr: "Lépidonille",
-		es: "Scatterbug",
-		it: "Scatterbug",
-		pt: "Scatterbug",
-		de: "Purmel"
+		'en-us': "Scatterbug",
+		'fr-fr': "Lépidonille",
+		'es-es': "Scatterbug",
+		'it-it': "Scatterbug",
+		'pt-br': "Scatterbug",
+		'de-de': "Purmel"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bug Bite",
-				fr: "Piqûre",
-				es: "Picadura",
-				it: "Coleomorso",
-				pt: "Picada",
-				de: "Käferbiss"
+				'en-us': "Bug Bite",
+				'fr-fr': "Piqûre",
+				'es-es': "Picadura",
+				'it-it': "Coleomorso",
+				'pt-br': "Picada",
+				'de-de': "Käferbiss"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When under attack from bird Pokémon, it spews a poisonous black powder that causes paralysis on contact.",
+		'en-us': "When under attack from bird Pokémon, it spews a poisonous black powder that causes paralysis on contact.",
 	},
 
 	thirdParty: {

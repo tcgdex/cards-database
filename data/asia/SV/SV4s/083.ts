@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Ting-Lu"
+		'id-id': "Ting-Lu"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Ting-Lu adalah, rasa takut yang tertuang pada wadah yang digunakan dalam ritual kuno menyelimuti dirinya dengan tanah dan batu, lalu berubah menjadi Pokémon."
+		'id-id': "Ting-Lu adalah, rasa takut yang tertuang pada wadah yang digunakan dalam ritual kuno menyelimuti dirinya dengan tanah dan batu, lalu berubah menjadi Pokémon."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Sand Bring"
+			'id-id': "Sand Bring"
 		},
 
 		effect: {
-			id: "Pilih paling banyak 2 lembar Energi Dasar {Petarung} dari Trash sendiri, lalu kenakan pada 1 Pokémon sendiri."
+			'id-id': "Pilih paling banyak 2 lembar Energi Dasar {Petarung} dari Trash sendiri, lalu kenakan pada 1 Pokémon sendiri."
 		},
 
 		cost: ["Fighting"]
 	}, {
 		name: {
-			id: "Hantaman Kecongkakan"
+			'id-id': "Hantaman Kecongkakan"
 		},
 
 		effect: {
-			id: "Jika Pokémon ini memiliki Token Kerusakan sejumlah 4 atau lebih, serangan ini gagal."
+			'id-id': "Jika Pokémon ini memiliki Token Kerusakan sejumlah 4 atau lebih, serangan ini gagal."
 		},
 
 		damage: 220,

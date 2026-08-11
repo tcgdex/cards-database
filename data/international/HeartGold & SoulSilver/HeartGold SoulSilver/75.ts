@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Meowth",
-		fr: "Miaouss",
-		de: "Mauzi"
+		'en-us': "Meowth",
+		'fr-fr': "Miaouss",
+		'de-de': "Mauzi"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pay Day",
-				fr: "Jackpot",
-				de: "Zahltag"
+				'en-us': "Pay Day",
+				'fr-fr': "Jackpot",
+				'de-de': "Zahltag"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Ziehe 1 Karte."
 			},
 			damage: 10,
 
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dig Claws",
-				fr: "Creusogriffes",
-				de: "Schaufelkrallen"
+				'en-us': "Dig Claws",
+				'fr-fr': "Creusogriffes",
+				'de-de': "Schaufelkrallen"
 			},
 
 			damage: 20,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It loves anything that shines. It especially adores coins that it picks up and secretly hoards."
+		'en-us': "It loves anything that shines. It especially adores coins that it picks up and secretly hoards."
 	},
 
 	variants: [

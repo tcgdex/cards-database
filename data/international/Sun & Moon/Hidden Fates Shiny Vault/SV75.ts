@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Gardevoir-GX",
-		fr: "Gardevoir-GX",
+		'en-us': "Gardevoir-GX",
+		'fr-fr': "Gardevoir-GX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Shiny rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Fairy",
 	],
 	evolveFrom: {
-		en: "Kirlia",
-		fr: "Kirlia",
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia",
 	},
 
 	suffix: "GX",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Secret Spring",
-				fr: "Rebond Secret",
+				'en-us': "Secret Spring",
+				'fr-fr': "Rebond Secret",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may attach a Fairy Energy card from your hand to 1 of your Pokémon.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie Fairy de votre main à l’un de vos Pokémon.",
+				'en-us': "Once during your turn (before your attack), you may attach a Fairy Energy card from your hand to 1 of your Pokémon.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie Fairy de votre main à l’un de vos Pokémon.",
 			},
 		},
 	],
@@ -43,12 +43,12 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Infinite Force",
-				fr: "Force Infinie",
+				'en-us': "Infinite Force",
+				'fr-fr': "Force Infinie",
 			},
 			effect: {
-				en: "This attack does 30 damage times the amount of Energy attached to both Active Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts multipliés par le nombre d’Énergies attachées aux deux Pokémon Actifs.",
+				'en-us': "This attack does 30 damage times the amount of Energy attached to both Active Pokémon.",
+				'fr-fr': "Cette attaque inflige 30 dégâts multipliés par le nombre d’Énergies attachées aux deux Pokémon Actifs.",
 			},
 			damage: 30,
 
@@ -58,12 +58,12 @@ const card: Card = {
 				"Fairy",
 			],
 			name: {
-				en: "Twilight-GX",
-				fr: "Tombée de la Nuit-GX",
+				'en-us': "Twilight-GX",
+				'fr-fr': "Tombée de la Nuit-GX",
 			},
 			effect: {
-				en: "Shuffle 10 cards from your discard pile into your deck. (You can't use more than 1 GX attack in a game.)",
-				fr: "Mélangez 10 cartes de votre pile de défausse avec votre deck. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'en-us': "Shuffle 10 cards from your discard pile into your deck. (You can't use more than 1 GX attack in a game.)",
+				'fr-fr': "Mélangez 10 cartes de votre pile de défausse avec votre deck. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 
 		},

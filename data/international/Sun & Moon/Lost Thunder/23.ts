@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Wurmple",
-		fr: "Chenipotte",
-		es: "Wurmple",
-		it: "Wurmple",
-		pt: "Wurmple",
-		de: "Waumpel"
+		'en-us': "Wurmple",
+		'fr-fr': "Chenipotte",
+		'es-es': "Wurmple",
+		'it-it': "Wurmple",
+		'pt-br': "Wurmple",
+		'de-de': "Waumpel"
 	},
 
 	illustrator: "kirisAki",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives among the tall grass and in forests. It repels attacks by raising up the spikes on its rear.",
+		'en-us': "It lives among the tall grass and in forests. It repels attacks by raising up the spikes on its rear.",
 	},
 
 	thirdParty: {

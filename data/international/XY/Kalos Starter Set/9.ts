@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Kalos Starter Set'
 
 const card: Card = {
 	name: {
-		en: "Braixen",
-		fr: "Roussil",
-		es: "Braixen",
-		it: "Braixen",
-		pt: "Braixen",
-		de: "Rutena"
+		'en-us': "Braixen",
+		'fr-fr': "Roussil",
+		'es-es': "Braixen",
+		'it-it': "Braixen",
+		'pt-br': "Braixen",
+		'de-de': "Rutena"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Fennekin",
-		fr: "Feunnec",
-		es: "Fennekin",
-		it: "Fennekin",
-		pt: "Fennekin",
-		de: "Fynx"
+		'en-us': "Fennekin",
+		'fr-fr': "Feunnec",
+		'es-es': "Fennekin",
+		'it-it': "Fennekin",
+		'pt-br': "Fennekin",
+		'de-de': "Fynx"
 	},
 
 	stage: "Stage1",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Firebreathing",
-				fr: "Souffle-Feu",
-				es: "Aliento de Fuego",
-				it: "Fuocospiro",
-				pt: "Hálito de Fogo",
-				de: "Feuerhauch"
+				'en-us': "Firebreathing",
+				'fr-fr': "Souffle-Feu",
+				'es-es': "Aliento de Fuego",
+				'it-it': "Fuocospiro",
+				'pt-br': "Hálito de Fogo",
+				'de-de': "Feuerhauch"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-				es: "Lanza una moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-				pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'es-es': "Lanza una moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+				'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 20 de danos adicionais.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: '20+',
 
@@ -69,12 +69,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flame Tail",
-				fr: "Queue de Flammes",
-				es: "Cola de Fuego",
-				it: "Coda-Fiamma",
-				pt: "Cauda de Chamas",
-				de: "Flammenschweif"
+				'en-us': "Flame Tail",
+				'fr-fr': "Queue de Flammes",
+				'es-es': "Cola de Fuego",
+				'it-it': "Coda-Fiamma",
+				'pt-br': "Cauda de Chamas",
+				'de-de': "Flammenschweif"
 			},
 
 			damage: 60,
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has a twig stuck in its tail. With friction from its tail fur, it sets the twig on fire and launches into battle.",
+		'en-us': "It has a twig stuck in its tail. With friction from its tail fur, it sets the twig on fire and launches into battle.",
 	},
 
 	thirdParty: {

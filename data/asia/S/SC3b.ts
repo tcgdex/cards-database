@@ -1,11 +1,11 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../S'
 
 const set: Set = {
 	id: 'SC3b',
 	name: {
-		id: 'Koleksi VMAX Berkilau Set B',
-		th: 'ชนี VMAX คอลเลกชัน ชุด B'
+		'id-id': 'Koleksi VMAX Berkilau Set B',
+		'th-th': 'ชนี VMAX คอลเลกชัน ชุด B'
 	},
 
 	serie: serie,
@@ -14,8 +14,8 @@ const set: Set = {
 		official: 158
 	},
 	releaseDate: {
-		th: '2021-01-29',
-		id: '2021-03-21'
+		'th-th': '2021-01-29',
+		'id-id': '2021-03-21'
 	}
 }
 

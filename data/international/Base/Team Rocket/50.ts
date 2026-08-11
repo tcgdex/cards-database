@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Charmander",
-		fr: "Salamèche",
-		de: "Glumanda"
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche",
+		'de-de': "Glumanda"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,12 +29,12 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Gather Fire",
-				fr: "Récolte de feu"
+				'en-us': "Gather Fire",
+				'fr-fr': "Récolte de feu"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may take 1 Fire Energy card attached to 1 of your other Pokémon and attach it to Charmander. This power can't be used if Charmander is Asleep, Confused, or Paralyzed.",
-				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez prendre 1 Énergie  attachée à l'un de vos autres Pokémon et l'attacher à Salamèche. Ce pouvoir ne peut être utilisé si Salamèche est Endormi, Confus ou Paralysé."
+				'en-us': "Once during your turn (before your attack), you may take 1 Fire Energy card attached to 1 of your other Pokémon and attach it to Charmander. This power can't be used if Charmander is Asleep, Confused, or Paralyzed.",
+				'fr-fr': "Une fois pendant votre tour (avant votre attaque), vous pouvez prendre 1 Énergie  attachée à l'un de vos autres Pokémon et l'attacher à Salamèche. Ce pouvoir ne peut être utilisé si Salamèche est Endormi, Confus ou Paralysé."
 			},
 		},
 	],
@@ -45,9 +45,9 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fire Tail",
-				fr: "Pyro queue",
-				de: "Feuerschweif"
+				'en-us': "Fire Tail",
+				'fr-fr': "Pyro queue",
+				'de-de': "Feuerschweif"
 			},
 
 			damage: 20,
@@ -65,8 +65,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Many people find it cute and try to hold it, only to be burned by its tail.",
-		fr: "De nombreuses personnes le trouvent mignon et essaient de l'attraper. Leur seule récompense est de se brûler sur sa queue."
+		'en-us': "Many people find it cute and try to hold it, only to be burned by its tail.",
+		'fr-fr': "De nombreuses personnes le trouvent mignon et essaient de l'attraper. Leur seule récompense est de se brûler sur sa queue."
 	},
 
 

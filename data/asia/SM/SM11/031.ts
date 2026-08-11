@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナッシー",
+		'ja-jp': "ナッシー",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "サイコパワーで 敵を 迎え撃つ。 ３つの頭 それぞれが 念力を 放つので その威力は ３倍だ。",
+		'ja-jp': "サイコパワーで 敵を 迎え撃つ。 ３つの頭 それぞれが 念力を 放つので その威力は ３倍だ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Psychic", "Psychic", "Colorless"],
 			effect: {
-				ja: "自分の手札をすべてトラッシュする。",
+				'ja-jp': "自分の手札をすべてトラッシュする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "タマタマ",
+		'ja-jp': "タマタマ",
 	},
 
 	retreat: 3,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケケンカニ",
+		'ja-jp': "ケケンカニ",
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "パンチは 強力だが 動きが 遅い。 口から 氷の 泡を 吹いて 相手の 動きを 止める。",
+		'ja-jp': "パンチは 強力だが 動きが 遅い。 口から 氷の 泡を 吹いて 相手の 動きを 止める。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "したごしらえ" },
 			effect: {
-				ja: "自分のトラッシュにある「ハイダイ」の枚数ぶん、このポケモンがワザを使うための[C]エネルギーは少なくなる。",
+				'ja-jp': "自分のトラッシュにある「ハイダイ」の枚数ぶん、このポケモンがワザを使うための[C]エネルギーは少なくなる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 250,
 			cost: ["Water", "Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「おおぶりパンチ」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「おおぶりパンチ」が使えない。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マケンカニ",
+		'ja-jp': "マケンカニ",
 	},
 
 	retreat: 3,

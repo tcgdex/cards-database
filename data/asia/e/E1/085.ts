@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジェンガー",
+		'ja-jp': "ジェンガー",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "カオスは動きます",
+				'ja-jp': "カオスは動きます",
 			},
 			effect: {
-				ja: "ターン中（攻撃前）に、相手が3つ以下の賞品を持っている場合、1ポクモン（あなたまたは相手）から1つのダメージカウンターを別のポクモン（他のポクモンをノックアウトしても）に移動できます。 Gengarが特別な状態の影響を受けている場合、このパワーは使用できません。",
+				'ja-jp': "ターン中（攻撃前）に、相手が3つ以下の賞品を持っている場合、1ポクモン（あなたまたは相手）から1つのダメージカウンターを別のポクモン（他のポクモンをノックアウトしても）に移動できます。 Gengarが特別な状態の影響を受けている場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Psychic", "Colorless"],
 			name: {
-				ja: "影を隠します",
+				'ja-jp': "影を隠します",
 			},
 			effect: {
-				ja: "ベンチ付きポケモンの1つを使用してGengarを切り替えます。",
+				'ja-jp': "ベンチ付きポケモンの1つを使用してGengarを切り替えます。",
 			},
 			damage: 40,
 		},

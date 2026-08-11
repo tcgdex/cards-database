@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴースト",
+		'ja-jp': "ゴースト",
 	},
 
 	illustrator: "Eri Yamaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "暗闇から 人間を 狙う。 冷たい 舌に 舐められると 日に日に 弱り 死に 至る。",
+		'ja-jp': "暗闇から 人間を 狙う。 冷たい 舌に 舐められると 日に日に 弱り 死に 至る。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ダメージぞうふく" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "ダメカンがのっている相手のポケモン全員に、それぞれダメカンを2個のせる。",
+				'ja-jp': "ダメカンがのっている相手のポケモン全員に、それぞれダメカンを2個のせる。",
 			},
 		},
 	],
@@ -41,7 +41,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴース",
+		'ja-jp': "ゴース",
 	},
 
 	retreat: 1,

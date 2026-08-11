@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hippowdon",
-		fr: "Hippodocus",
-		es: "Hippowdon",
-		pt: "Hippowdon",
-		it: "Hippowdon",
-		de: "Hippoterus"
+		'en-us': "Hippowdon",
+		'fr-fr': "Hippodocus",
+		'es-es': "Hippowdon",
+		'pt-br': "Hippowdon",
+		'it-it': "Hippowdon",
+		'de-de': "Hippoterus"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 150,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Hippopotas",
-		fr: "Hippopotas",
-		es: "Hippopotas",
-		pt: "Hippopotas",
-		it: "Hippopotas",
-		de: "Hippopotas"
+		'en-us': "Hippopotas",
+		'fr-fr': "Hippopotas",
+		'es-es': "Hippopotas",
+		'pt-br': "Hippopotas",
+		'it-it': "Hippopotas",
+		'de-de': "Hippopotas"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Sand Spray",
-			fr: "Jet Sableux",
-			es: "Rociado de Arena",
-			pt: "Spray de Areia",
-			it: "Silicospruzzo",
-			de: "Sandspray"
+			'en-us': "Sand Spray",
+			'fr-fr': "Jet Sableux",
+			'es-es': "Rociado de Arena",
+			'pt-br': "Spray de Areia",
+			'it-it': "Silicospruzzo",
+			'de-de': "Sandspray"
 		},
 
 		damage: 90
@@ -45,12 +45,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Land Crush",
-			fr: "Écras'Terre",
-			es: "Aterrizaje",
-			pt: "Aperto de Terra",
-			it: "Schiacciaterra",
-			de: "Schollenbrecher"
+			'en-us': "Land Crush",
+			'fr-fr': "Écras'Terre",
+			'es-es': "Aterrizaje",
+			'pt-br': "Aperto de Terra",
+			'it-it': "Schiacciaterra",
+			'de-de': "Schollenbrecher"
 		},
 
 		damage: 140

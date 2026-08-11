@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Moltres",
+		'en-us': "Moltres",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Searing Flame",
+				'en-us': "Searing Flame",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
+				'en-us': "The Defending Pokémon is now Burned.",
 			},
 			damage: 50,
 
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Blast",
+				'en-us': "Fire Blast",
 			},
 			effect: {
-				en: "Discard a Fire Energy attached to this Pokémon.",
+				'en-us': "Discard a Fire Energy attached to this Pokémon.",
 			},
 			damage: 90,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "One of the legendary bird Pokémon. It is said that its appearance indicates the coming of spring.",
+		'en-us': "One of the legendary bird Pokémon. It is said that its appearance indicates the coming of spring.",
 	},
 
 	thirdParty: {

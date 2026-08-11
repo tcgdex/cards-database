@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Lugia",
-		fr: "Lugia",
-		de: "Lugia"
+		'en-us': "Lugia",
+		'fr-fr': "Lugia",
+		'de-de': "Lugia"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -33,14 +33,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aeroblast",
-				fr: "Aeroblast",
-				de: "Aeroblast"
+				'en-us': "Aeroblast",
+				'fr-fr': "Aeroblast",
+				'de-de': "Aeroblast"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage plus 20 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque face.",
-				de: "Flip 2 coins. This attack does 20 damage plus 20 more damage for each heads."
+				'en-us': "Flip 2 coins. This attack does 20 damage plus 20 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque face.",
+				'de-de': "Flip 2 coins. This attack does 20 damage plus 20 more damage for each heads."
 			},
 			damage: "20+",
 

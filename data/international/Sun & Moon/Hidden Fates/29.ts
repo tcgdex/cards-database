@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Weezing",
-		fr: "Smogogo",
+		'en-us': "Weezing",
+		'fr-fr': "Smogogo",
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Koffing",
-		fr: "Smogo",
+		'en-us': "Koffing",
+		'fr-fr': "Smogo",
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Surrender Now",
-				fr: "Rendez-Vous Tous"
+				'en-us': "Surrender Now",
+				'fr-fr': "Rendez-Vous Tous"
 			},
 			effect: {
-				en: "Once during your turn, if this Pokémon is discarded with the effect of Jessie & James, you may have your opponent discard a card from their hand. (They discard that card after the effect of Jessie & James.)",
-				fr: "Une seule fois pendant votre tour, si ce Pokémon est défaussé du fait de l'effet de la carte Jessie et James, vous pouvez demander à votre adversaire de défausser une carte de sa main. (Cette carte est défaussée après l'effet de Jessie et James.)"
+				'en-us': "Once during your turn, if this Pokémon is discarded with the effect of Jessie & James, you may have your opponent discard a card from their hand. (They discard that card after the effect of Jessie & James.)",
+				'fr-fr': "Une seule fois pendant votre tour, si ce Pokémon est défaussé du fait de l'effet de la carte Jessie et James, vous pouvez demander à votre adversaire de défausser une carte de sa main. (Cette carte est défaussée après l'effet de Jessie et James.)"
 			},
 		},
 	],
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Rendez-Vous Tous",
+				'en-us': "Tackle",
+				'fr-fr': "Rendez-Vous Tous",
 			},
 			damage: 40,
 
@@ -60,7 +60,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				fr: "Charge",
+				'fr-fr': "Charge",
 			},
 
 			damage: 40,
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases.",
+		'en-us': "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases.",
 	},
 
 	thirdParty: {

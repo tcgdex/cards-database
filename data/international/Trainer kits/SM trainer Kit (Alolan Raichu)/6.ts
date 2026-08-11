@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM trainer Kit (Alolan Raichu)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Golbat",
-		fr: "Nosferalto",
-		es: "Golbat",
-		it: "Golbat",
-		pt: "Golbat",
-		de: "Golbat"
+		'en-us': "Golbat",
+		'fr-fr': "Nosferalto",
+		'es-es': "Golbat",
+		'it-it': "Golbat",
+		'pt-br': "Golbat",
+		'de-de': "Golbat"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -23,12 +23,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Zubat",
-		fr: "Nosferapti",
-		es: "Zubat",
-		it: "Zubat",
-		pt: "Zubat",
-		de: "Zubat"
+		'en-us': "Zubat",
+		'fr-fr': "Nosferapti",
+		'es-es': "Zubat",
+		'it-it': "Zubat",
+		'pt-br': "Zubat",
+		'de-de': "Zubat"
 	},
 
 	attacks: [
@@ -37,10 +37,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Super Poison Breath"
+				'en-us': "Super Poison Breath"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Poisoned."
+				'en-us': "Your opponent's Active Pokémon is now Poisoned."
 			}
 		},
 		{
@@ -49,10 +49,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Acrobatics"
+				'en-us': "Acrobatics"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 more damage for each heads."
+				'en-us': "Flip 2 coins. This attack does 20 more damage for each heads."
 			},
 			damage: "10+"
 		},

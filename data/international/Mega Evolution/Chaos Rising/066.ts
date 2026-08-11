@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Thanks to the slimy membrane covering its body punches or kicks from its enemies slide right off it.",
+		'en-us': "Thanks to the slimy membrane covering its body punches or kicks from its enemies slide right off it.",
 	},
 
 
 	name: {
-		en: "Goomy",
-		fr: "Mucuscule",
-		es: "Goomy",
+		'en-us': "Goomy",
+		'fr-fr': "Mucuscule",
+		'es-es': "Goomy",
 		'es-mx': "Goomy",
-		de: "Viscora",
-		it: "Goomy",
-		pt: "Goomy"
+		'de-de': "Viscora",
+		'it-it': "Goomy",
+		'pt-br': "Goomy"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -29,26 +29,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Absorb",
-			fr: "Vole-Vie",
-			es: "Absorber",
+			'en-us': "Absorb",
+			'fr-fr': "Vole-Vie",
+			'es-es': "Absorber",
 			'es-mx': "Absorción",
-			de: "Absorber",
-			it: "Assorbimento",
-			pt: "Absorção"
+			'de-de': "Absorber",
+			'it-it': "Assorbimento",
+			'pt-br': "Absorção"
 		},
 
 		cost: ["Water", "Psychic"],
 		damage: 30,
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
 			'es-mx': "Cura 30 puntos de daño a este Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon."
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon."
 		}
 	}],
 

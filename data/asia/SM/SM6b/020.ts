@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルンパッパ",
+		'ja-jp': "ルンパッパ",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "楽しい 音楽の リズムが ルンパッパの 細胞を 活性化させて パワーを 発揮するのだ。",
+		'ja-jp': "楽しい 音楽の リズムが ルンパッパの 細胞を 活性化させて パワーを 発揮するのだ。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "すいすいダンス" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札を1枚引く。",
+				'ja-jp': "自分の番に1回使える。自分の山札を1枚引く。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "70+",
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモン以外の、おたがいの場のポケモンの数x10ダメージ追加。",
+				'ja-jp': "このポケモン以外の、おたがいの場のポケモンの数x10ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ハスブレロ",
+		'ja-jp': "ハスブレロ",
 	},
 
 	retreat: 2,

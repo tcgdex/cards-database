@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Qwilfish",
-		fr: "Qwilfish",
-		es: "Qwilfish",
-		it: "Qwilfish",
-		pt: "Qwilfish",
-		de: "Baldorfish"
+		'en-us': "Qwilfish",
+		'fr-fr': "Qwilfish",
+		'es-es': "Qwilfish",
+		'it-it': "Qwilfish",
+		'pt-br': "Qwilfish",
+		'de-de': "Baldorfish"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Sting",
-				fr: "Dard-Venin",
-				es: "Picotazo Veneno",
-				it: "Velenospina",
-				pt: "Ferrão Venenoso",
-				de: "Giftstachel"
+				'en-us': "Poison Sting",
+				'fr-fr': "Dard-Venin",
+				'es-es': "Picotazo Veneno",
+				'it-it': "Velenospina",
+				'pt-br': "Ferrão Venenoso",
+				'de-de': "Giftstachel"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+				'en-us': "Your opponent’s Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 			},
 
 		},
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shocking Sting",
-				fr: "Dard Choquant",
-				es: "Picotazo Impactante",
-				it: "Spinashock",
-				pt: "Ferrão Chocante",
-				de: "Schockstachel"
+				'en-us': "Shocking Sting",
+				'fr-fr': "Dard Choquant",
+				'es-es': "Picotazo Impactante",
+				'it-it': "Spinashock",
+				'pt-br': "Ferrão Chocante",
+				'de-de': "Schockstachel"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is affected by a Special Condition, this attack does 50 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire est affecté par un État Spécial, cette attaque inflige 50 dégâts supplémentaires.",
-				es: "Si el Pokémon Activo de tu rival se ve afectado por una Condición Especial, este ataque hace 50 puntos de daño más.",
-				it: "Se il Pokémon attivo del tuo avversario è influenzato da una condizione speciale, questo attacco infligge 50 danni in più.",
-				pt: "Se o Pokémon Ativo do seu oponente estiver afetado por uma Condição Especial, este ataque causará 50 pontos de dano a mais.",
-				de: "Wenn das Aktive Pokémon deines Gegners von einem Speziellen Zustand betroffen ist, fügt diese Attacke 50 Schadenspunkte mehr zu."
+				'en-us': "If your opponent’s Active Pokémon is affected by a Special Condition, this attack does 50 more damage.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est affecté par un État Spécial, cette attaque inflige 50 dégâts supplémentaires.",
+				'es-es': "Si el Pokémon Activo de tu rival se ve afectado por una Condición Especial, este ataque hace 50 puntos de daño más.",
+				'it-it': "Se il Pokémon attivo del tuo avversario è influenzato da una condizione speciale, questo attacco infligge 50 danni in più.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente estiver afetado por uma Condição Especial, este ataque causará 50 pontos de dano a mais.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners von einem Speziellen Zustand betroffen ist, fügt diese Attacke 50 Schadenspunkte mehr zu."
 			},
 			damage: "20+",
 
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once.",
+		'en-us': "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once.",
 	},
 
 	thirdParty: {

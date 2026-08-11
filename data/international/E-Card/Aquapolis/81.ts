@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Hitmonchan",
-		fr: "Tygnon",
-		de: "Nockchan"
+		'en-us': "Hitmonchan",
+		'fr-fr': "Tygnon",
+		'de-de': "Nockchan"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Rush",
-				fr: "Précipitation",
-				de: "Hatz"
+				'en-us': "Rush",
+				'fr-fr': "Précipitation",
+				'de-de': "Hatz"
 			},
 			effect: {
-				en: "Flip 5 coins. This attack does 10 damage times the number of heads. Hitmonchan can't attack during your next turn.",
-				fr: "Lancez 5 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces. Tygnon ne peut pas attaquer pendant votre prochain tour.",
-				de: "Wirf 5 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu. Nockchan kann während deines nächsten Zuges nicht angreifen."
+				'en-us': "Flip 5 coins. This attack does 10 damage times the number of heads. Hitmonchan can't attack during your next turn.",
+				'fr-fr': "Lancez 5 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces. Tygnon ne peut pas attaquer pendant votre prochain tour.",
+				'de-de': "Wirf 5 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu. Nockchan kann während deines nächsten Zuges nicht angreifen."
 			},
 			damage: "10×",
 
@@ -50,15 +50,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Smash Punch",
-				fr: "Ruade",
-				de: "Schmetterschlag"
+				'en-us': "Smash Punch",
+				'fr-fr': "Ruade",
+				'de-de': "Schmetterschlag"
 			},
 
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'de-de': "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 50

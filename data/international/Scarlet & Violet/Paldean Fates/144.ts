@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pawmot",
-		fr: "Pohmarmotte",
-		es: "Pawmot",
-		it: "Pawmot",
-		pt: "Pawmot",
-		de: "Pamomamo"
+		'en-us': "Pawmot",
+		'fr-fr': "Pohmarmotte",
+		'es-es': "Pawmot",
+		'it-it': "Pawmot",
+		'pt-br': "Pawmot",
+		'de-de': "Pamomamo"
 	},
 
 	rarity: "Shiny rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Lightning"],
 	evolveFrom: {
-		en: "Pawmo",
-		fr: "Pohmotte",
-		es: "Pawmo",
-		it: "Pawmo",
-		pt: "Pawmo",
-		de: "Pamamo"
+		'en-us': "Pawmo",
+		'fr-fr': "Pohmotte",
+		'es-es': "Pawmo",
+		'it-it': "Pawmo",
+		'pt-br': "Pawmo",
+		'de-de': "Pamamo"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Electrogenesis",
-			fr: "Électrogenèse",
-			es: "Electrorigen",
-			it: "Elettroproduzione",
-			pt: "Gênese Elétrica",
-			de: "Elektrogenese"
+			'en-us': "Electrogenesis",
+			'fr-fr': "Électrogenèse",
+			'es-es': "Electrorigen",
+			'it-it': "Elettroproduzione",
+			'pt-br': "Gênese Elétrica",
+			'de-de': "Elektrogenese"
 		},
 
 		effect: {
-			en: "Once during your turn, you may search your deck for a Basic {L} Energy card and attach it to this Pokémon. Then, shuffle your deck.",
-			fr: "Une fois pendant votre tour, vous pouvez chercher dans votre deck une carte Énergie {L} de base, puis l'attacher à ce Pokémon. Mélangez ensuite votre deck.",
-			es: "Una vez durante tu turno, puedes buscar en tu baraja 1 carta de Energía {L} Básica y unirla a este Pokémon. Después, baraja las cartas de tu baraja.",
-			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta Energia base {L} e assegnarla a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
-			pt: "Uma vez durante o seu turno, você poderá procurar por uma carta de Energia {L} Básica no seu baralho e ligá-la a este Pokémon. Em seguida, embaralhe o seu baralho.",
-			de: "Einmal während deines Zuges kannst du dein Deck nach 1 Basis-{L}-Energiekarte durchsuchen und sie an dieses Pokémon anlegen. Mische anschließend dein Deck."
+			'en-us': "Once during your turn, you may search your deck for a Basic {L} Energy card and attach it to this Pokémon. Then, shuffle your deck.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez chercher dans votre deck une carte Énergie {L} de base, puis l'attacher à ce Pokémon. Mélangez ensuite votre deck.",
+			'es-es': "Una vez durante tu turno, puedes buscar en tu baraja 1 carta de Energía {L} Básica y unirla a este Pokémon. Después, baraja las cartas de tu baraja.",
+			'it-it': "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta Energia base {L} e assegnarla a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Uma vez durante o seu turno, você poderá procurar por uma carta de Energia {L} Básica no seu baralho e ligá-la a este Pokémon. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Einmal während deines Zuges kannst du dein Deck nach 1 Basis-{L}-Energiekarte durchsuchen und sie an dieses Pokémon anlegen. Mische anschließend dein Deck."
 		}
 	}],
 
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			en: "Electro Paws",
-			fr: "Électro Pattes",
-			es: "Electropatas",
-			it: "Elettrozampe",
-			pt: "Patas Elétricas",
-			de: "Elektropfoten"
+			'en-us': "Electro Paws",
+			'fr-fr': "Électro Pattes",
+			'es-es': "Electropatas",
+			'it-it': "Elettrozampe",
+			'pt-br': "Patas Elétricas",
+			'de-de': "Elektropfoten"
 		},
 
 		effect: {
-			en: "Discard all Energy from this Pokémon.",
-			fr: "Défaussez toutes les Énergies de ce Pokémon.",
-			es: "Descarta todas las Energías de este Pokémon.",
-			it: "Scarta tutte le Energie da questo Pokémon.",
-			pt: "Descarte todas as Energias deste Pokémon.",
-			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard all Energy from this Pokémon.",
+			'fr-fr': "Défaussez toutes les Énergies de ce Pokémon.",
+			'es-es': "Descarta todas las Energías de este Pokémon.",
+			'it-it': "Scarta tutte le Energie da questo Pokémon.",
+			'pt-br': "Descarte todas as Energias deste Pokémon.",
+			'de-de': "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 230
@@ -97,7 +97,7 @@ const card: Card = {
 	illustrator: "Atsushi Furusawa",
 
 	description: {
-		en: "Pawmot's fluffy fur acts as a battery. It can store the same amount of electricity as an electric car.",
+		'en-us': "Pawmot's fluffy fur acts as a battery. It can store the same amount of electricity as an electric car.",
 	},
 
 }

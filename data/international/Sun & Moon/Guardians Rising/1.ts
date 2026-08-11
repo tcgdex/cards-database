@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Bellsprout",
-		fr: "Chétiflor",
-		es: "Bellsprout",
-		it: "Bellsprout",
-		pt: "Bellsprout",
-		de: "Knofensa"
+		'en-us': "Bellsprout",
+		'fr-fr': "Chétiflor",
+		'es-es': "Bellsprout",
+		'it-it': "Bellsprout",
+		'pt-br': "Bellsprout",
+		'de-de': "Knofensa"
 	},
 
 	illustrator: "Aya Kusube",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vine Whip",
-				fr: "Fouet Lianes",
-				es: "Látigo Cepa",
-				it: "Frustata",
-				pt: "Chicote de Vinha",
-				de: "Rankenhieb"
+				'en-us': "Vine Whip",
+				'fr-fr': "Fouet Lianes",
+				'es-es': "Látigo Cepa",
+				'it-it': "Frustata",
+				'pt-br': "Chicote de Vinha",
+				'de-de': "Rankenhieb"
 			},
 
 			damage: 30,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Even though its body is extremely skinny, it is blindingly fast when catching its prey.",
+		'en-us': "Even though its body is extremely skinny, it is blindingly fast when catching its prey.",
 	},
 
 	thirdParty: {

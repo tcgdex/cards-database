@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Oshawott",
-		fr: "Moustillon",
-		es: "Oshawott",
-		it: "Oshawott",
-		pt: "Oshawott",
-		de: "Ottaro"
+		'en-us': "Oshawott",
+		'fr-fr': "Moustillon",
+		'es-es': "Oshawott",
+		'it-it': "Oshawott",
+		'pt-br': "Oshawott",
+		'de-de': "Ottaro"
 	},
 
 	illustrator: "5ban Graphics",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Shell",
-				fr: "Coquilame",
+				'en-us': "Razor Shell",
+				'fr-fr': "Coquilame",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The scalchop on its stomach is made from the same elements as claws. It detaches the scalchop for use as a blade.",
+		'en-us': "The scalchop on its stomach is made from the same elements as claws. It detaches the scalchop for use as a blade.",
 	},
 
 	thirdParty: {

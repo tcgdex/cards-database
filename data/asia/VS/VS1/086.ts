@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブルーノのヒットモントップ",
+		'ja-jp': "ブルーノのヒットモントップ",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "クイックローテーション",
+				'ja-jp': "クイックローテーション",
 			},
 			effect: {
-				ja: "次のターン中に、ブルーノのヒットモントップスピニングヘッド攻撃ベースのダメージは20ではなく40です。",
+				'ja-jp': "次のターン中に、ブルーノのヒットモントップスピニングヘッド攻撃ベースのダメージは20ではなく40です。",
 			},
 		},
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "スピニングヘッド",
+				'ja-jp': "スピニングヘッド",
 			},
 			effect: {
-				ja: "ベンチ付きポケモンがある場合は、コインをひっくり返します。頭の場合は、1匹のベンチポケモンでブルーノのヒットモントップを切り替えます。",
+				'ja-jp': "ベンチ付きポケモンがある場合は、コインをひっくり返します。頭の場合は、1匹のベンチポケモンでブルーノのヒットモントップを切り替えます。",
 			},
 			damage: 20,
 		},

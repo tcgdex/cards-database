@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Gyarados GX",
-		fr: "Léviator GX",
-		es: "Gyarados GX",
-		it: "Gyarados GX",
-		pt: "Gyarados GX",
-		de: "Garados GX"
+		'en-us': "Gyarados GX",
+		'fr-fr': "Léviator GX",
+		'es-es': "Gyarados GX",
+		'it-it': "Gyarados GX",
+		'pt-br': "Gyarados GX",
+		'de-de': "Garados GX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magikarp",
-		fr: "Magicarpe"
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe"
 	},
 
 	stage: "Stage1",
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Rage",
-				fr: "Draco-Rage",
-				es: "Furia Dragón",
-				it: "Ira di Drago",
-				pt: "Ira do Dragão",
-				de: "Drachenwut"
+				'en-us': "Dragon Rage",
+				'fr-fr': "Draco-Rage",
+				'es-es': "Furia Dragón",
+				'it-it': "Ira di Drago",
+				'pt-br': "Ira do Dragão",
+				'de-de': "Drachenwut"
 			},
 
 			damage: 130,
@@ -61,20 +61,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Beam GX",
-				fr: "Ultralaser GX",
-				es: "Hiperrayo GX",
-				it: "Iper Raggio GX",
-				pt: "Hiper-raio GX",
-				de: "Hyperstrahl GX"
+				'en-us': "Hyper Beam GX",
+				'fr-fr': "Ultralaser GX",
+				'es-es': "Hiperrayo GX",
+				'it-it': "Iper Raggio GX",
+				'pt-br': "Hiper-raio GX",
+				'de-de': "Hyperstrahl GX"
 			},
 			effect: {
-				en: "(You can’t use more than 1 GX attack in a game.)",
-				fr: "(Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-				es: "(No puedes usar más de 1 ataque GX en una partida).",
-				it: "Non puoi usare più di un attacco GX a partita.",
-				pt: "(Você não pode usar mais de 1 ataque GX por partida.)",
-				de: "(Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				'en-us': "(You can’t use more than 1 GX attack in a game.)",
+				'fr-fr': "(Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'es-es': "(No puedes usar más de 1 ataque GX en una partida).",
+				'it-it': "Non puoi usare più di un attacco GX a partita.",
+				'pt-br': "(Você não pode usar mais de 1 ataque GX por partida.)",
+				'de-de': "(Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: 240,
 

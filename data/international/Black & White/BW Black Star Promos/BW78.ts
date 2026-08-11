@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Raichu",
-		fr: "Raichu"
+		'en-us': "Raichu",
+		'fr-fr': "Raichu"
 	},
 	illustrator: "Mizue",
 	rarity: "Common",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-Attaque"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-Attaque"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
 			},
 			damage: 30,
 
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Blast",
-				fr: "Grondement de Tonnerre"
+				'en-us': "Thunder Blast",
+				'fr-fr': "Grondement de Tonnerre"
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon."
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon."
 			},
 			damage: 90,
 
@@ -72,7 +72,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+		'en-us': "Its tail discharges electricity into the ground, protecting it from getting shocked.",
 	},
 }
 

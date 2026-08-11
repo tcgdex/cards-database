@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Kadabra"
+		'id-id': "Kadabra"
 	},
 
 	illustrator: "Uninori",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Kadabra tidur dalam kondisi tetap mengambang di udara menggunakan kekuatan psikokinesis. Pokémon ini menggunakan ekornya yang membal sebagai bantal."
+		'id-id': "Kadabra tidur dalam kondisi tetap mengambang di udara menggunakan kekuatan psikokinesis. Pokémon ini menggunakan ekornya yang membal sebagai bantal."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Psikis"
+			'id-id': "Psikis"
 		},
 
 		effect: {
-			id: "Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap Energi yang dikenakan pada Pokémon Bertarung lawan."
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap Energi yang dikenakan pada Pokémon Bertarung lawan."
 		},
 
 		damage: "10+",

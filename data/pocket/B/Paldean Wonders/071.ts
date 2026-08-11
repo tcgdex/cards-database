@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Bombirdier",
-		fr: "Lestombaile",
-		es: "Bombirdier",
-		de: "Adebom",
-		it: "Bombirdier",
-		pt: "Bombirdier",
+		'en-us': "Bombirdier",
+		'fr-fr': "Lestombaile",
+		'es-es': "Bombirdier",
+		'de-de': "Adebom",
+		'it-it': "Bombirdier",
+		'pt-br': "Bombirdier",
 		'es-mx': "Bombirdier"
   },
   illustrator: "nagimiso",
@@ -25,12 +25,12 @@ const card: Card = {
   attacks: [
     {
       name: {
-				en: "Fly",
-				fr: "Vol",
-				es: "Vuelo",
-				it: "Volo",
-				pt: "Voar",
-				de: "Fliegen"
+				'en-us': "Fly",
+				'fr-fr': "Vol",
+				'es-es': "Vuelo",
+				'it-it': "Volo",
+				'pt-br': "Voar",
+				'de-de': "Fliegen"
       },
       damage: "70",
       cost: ["Colorless", "Colorless", "Colorless"],

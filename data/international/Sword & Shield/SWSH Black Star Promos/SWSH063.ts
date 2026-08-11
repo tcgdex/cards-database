@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu V",
-		fr: "Pikachu V",
-		es: "Pikachu V",
-		it: "Pikachu V",
-		pt: "Pikachu V",
-		de: "Pikachu V"
+		'en-us': "Pikachu V",
+		'fr-fr': "Pikachu V",
+		'es-es': "Pikachu V",
+		'it-it': "Pikachu V",
+		'pt-br': "Pikachu V",
+		'de-de': "Pikachu V"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -21,33 +21,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Pika Ball",
-			fr: "Pika Ball",
-			es: "Pika Ball",
-			it: "Pikasfera",
-			pt: "Bola Pikachu",
-			de: "Pikaball"
+			'en-us': "Pika Ball",
+			'fr-fr': "Pika Ball",
+			'es-es': "Pika Ball",
+			'it-it': "Pikasfera",
+			'pt-br': "Bola Pikachu",
+			'de-de': "Pikaball"
 		},
 
 		damage: 30,
 		cost: ["Lightning"]
 	}, {
 		name: {
-			en: "Circle Circuit",
-			fr: "Cercle Électrik",
-			es: "Circuito Circular",
-			it: "Elettroruota",
-			pt: "Circuito Circular",
-			de: "Rundparcours"
+			'en-us': "Circle Circuit",
+			'fr-fr': "Cercle Électrik",
+			'es-es': "Circuito Circular",
+			'it-it': "Elettroruota",
+			'pt-br': "Circuito Circular",
+			'de-de': "Rundparcours"
 		},
 
 		effect: {
-			en: "This attack does 30 damage for each of your Benched Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon de Banc.",
-			es: "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon en Banca.",
-			it: "Questo attacco infligge 30 danni per ogni Pokémon nella tua panchina.",
-			pt: "Este ataque causa 30 pontos de dano para cada Pokémon no seu Banco.",
-			de: "Diese Attacke fügt für jedes Pokémon auf deiner Bank 30 Schadenspunkte zu."
+			'en-us': "This attack does 30 damage for each of your Benched Pokémon.",
+			'fr-fr': "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon de Banc.",
+			'es-es': "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon en Banca.",
+			'it-it': "Questo attacco infligge 30 danni per ogni Pokémon nella tua panchina.",
+			'pt-br': "Este ataque causa 30 pontos de dano para cada Pokémon no seu Banco.",
+			'de-de': "Diese Attacke fügt für jedes Pokémon auf deiner Bank 30 Schadenspunkte zu."
 		},
 
 		damage: "30×",

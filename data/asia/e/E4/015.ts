@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヘラクロス",
+		'ja-jp': "ヘラクロス",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "スラッシュ",
+				'ja-jp': "スラッシュ",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Grass", "Colorless", "Colorless"],
 			name: {
-				ja: "怒っている角",
+				'ja-jp': "怒っている角",
 			},
 			effect: {
-				ja: "ヘラクロスに4つ以上のダメージカウンターがある場合、この攻撃のベースダメージは30ではなく50です。",
+				'ja-jp': "ヘラクロスに4つ以上のダメージカウンターがある場合、この攻撃のベースダメージは30ではなく50です。",
 			},
 			damage: 30,
 		},

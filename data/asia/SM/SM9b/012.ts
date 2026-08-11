@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤドラン",
+		'ja-jp': "ヤドラン",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "基本的に ぼんやり している。 シッポが ちぎれて シェルダーが 外れてしまうと ヤドンに 戻る。",
+		'ja-jp': "基本的に ぼんやり している。 シッポが ちぎれて シェルダーが 外れてしまうと ヤドンに 戻る。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "あくび" },
 			cost: ["Water"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "100×",
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数x100ダメージ。すべてウラなら、この対戦は自分の負けになる。",
+				'ja-jp': "コインを3回投げ、オモテの数x100ダメージ。すべてウラなら、この対戦は自分の負けになる。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤドン",
+		'ja-jp': "ヤドン",
 	},
 
 	retreat: 2,

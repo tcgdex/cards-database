@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バゴン",
+		'ja-jp': "バゴン",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Fire"],
 			name: {
-				ja: "シング",
+				'ja-jp': "シング",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御するポケモンが燃やされます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御するポケモンが燃やされます。",
 			},
 		},
 		{
 			cost: ["Water"],
 			name: {
-				ja: "doubleslap",
+				'ja-jp': "doubleslap",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 		},
 	],

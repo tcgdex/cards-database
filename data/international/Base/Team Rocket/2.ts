@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Dark Arbok",
-		fr: "Arbok obscur",
-		de: "Dunkles Arbok"
+		'en-us': "Dark Arbok",
+		'fr-fr': "Arbok obscur",
+		'de-de': "Dunkles Arbok"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ekans",
-		fr: "Abo"
+		'en-us': "Ekans",
+		'fr-fr': "Abo"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Stare",
-				fr: "Regard",
-				de: "Starren"
+				'en-us': "Stare",
+				'fr-fr': "Regard",
+				'de-de': "Starren"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.) If that Pokémon has a Pokémon Power, that power stops working until the end of your opponent's next turn.",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque inflige 10 dégâts à ce Pokémon. N'appliquez pas la Faiblesse et la Résistance pour cette attaque. (Tous les autres effets ayant lieu après application de la Faiblesse et de la Résistance subsistent.) Si ce Pokémon possède un Pouvoir Pokémon, ce pouvoir cesse de fonctionner jusqu'à la fin du prochain tour de votre adversaire.",
-				de: "Wähle ein Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 10 Schadenspunkte zu. Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.) Falls dieses Pokémon über Pokémon-Power verfügt, funkioniert diese Fähigkeit bis zum Ende des nächsten gegnerischen Zuges nicht mehr."
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.) If that Pokémon has a Pokémon Power, that power stops working until the end of your opponent's next turn.",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque inflige 10 dégâts à ce Pokémon. N'appliquez pas la Faiblesse et la Résistance pour cette attaque. (Tous les autres effets ayant lieu après application de la Faiblesse et de la Résistance subsistent.) Si ce Pokémon possède un Pouvoir Pokémon, ce pouvoir cesse de fonctionner jusqu'à la fin du prochain tour de votre adversaire.",
+				'de-de': "Wähle ein Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 10 Schadenspunkte zu. Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.) Falls dieses Pokémon über Pokémon-Power verfügt, funkioniert diese Fähigkeit bis zum Ende des nächsten gegnerischen Zuges nicht mehr."
 			}
 
 		},
@@ -55,14 +55,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Vapor",
-				fr: "Brume poisoneuse",
-				de: "Giftige Dämpfe"
+				'en-us': "Poison Vapor",
+				'fr-fr': "Brume poisoneuse",
+				'de-de': "Giftige Dämpfe"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned. This attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Cette attaque inflige 10 dégâts à chaque Pokémon du Banc de votre adversaire. (N'appliquez pas la Faiblesse et la Résistance aux Pokémon du Banc.)",
-				de: "Das verteidigende Pokémon ist jetzt vergiftet. Dieser Angriff fügt jedem Pokémon auf der gegnerischen Bank 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
+				'en-us': "The Defending Pokémon is now Poisoned. This attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné. Cette attaque inflige 10 dégâts à chaque Pokémon du Banc de votre adversaire. (N'appliquez pas la Faiblesse et la Résistance aux Pokémon du Banc.)",
+				'de-de': "Das verteidigende Pokémon ist jetzt vergiftet. Dieser Angriff fügt jedem Pokémon auf der gegnerischen Bank 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
 			},
 			damage: 10,
 
@@ -79,8 +79,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Freezes its prey with its stare. If you should encounter one, remember not to look into its eyes.",
-		fr: "Il paralyse ses proies d'un regard. Si vous en rencontrez un, gardez-vous de le regarder dans les yeux ."
+		'en-us': "Freezes its prey with its stare. If you should encounter one, remember not to look into its eyes.",
+		'fr-fr': "Il paralyse ses proies d'un regard. Si vous en rencontrez un, gardez-vous de le regarder dans les yeux ."
 	},
 
 

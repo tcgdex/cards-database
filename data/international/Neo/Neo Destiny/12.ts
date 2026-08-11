@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Light Arcanine",
-		fr: "Arcanin lumineux",
-		de: "Helles Arkani"
+		'en-us': "Light Arcanine",
+		'fr-fr': "Arcanin lumineux",
+		'de-de': "Helles Arkani"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Growlithe",
-		fr: "Caninos"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Drive Off",
-				fr: "Déroute",
-				de: "Drive Off"
+				'en-us': "Drive Off",
+				'fr-fr': "Déroute",
+				'de-de': "Drive Off"
 			},
 			effect: {
-				en: "As long as Light Arcanine is your Active Pokémon, once during your turn (before your attack), if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. This power can't be used while Light Arcanine is Asleep, Confused, or Paralyzed.",
-				fr: "Tant qu'Arcanin lumineux est votre Pokémon Actif, une fois pendant votre tour (avant votre attaque), si votre adversaire a des Pokémon sur son Banc, il en choisit un et l'échange contre le Pokémon Défenseur. Ce pouvoir ne fonctionne pas si Arcanin lumineux est Endormi, Confus ou Paralysé.",
-				de: "As long as Light Arcanine is your Active Pokémon, once during your turn (before your attack), if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. This power can't be used while Light Arcanine is Asleep, Confused, or Paralayzed."
+				'en-us': "As long as Light Arcanine is your Active Pokémon, once during your turn (before your attack), if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. This power can't be used while Light Arcanine is Asleep, Confused, or Paralyzed.",
+				'fr-fr': "Tant qu'Arcanin lumineux est votre Pokémon Actif, une fois pendant votre tour (avant votre attaque), si votre adversaire a des Pokémon sur son Banc, il en choisit un et l'échange contre le Pokémon Défenseur. Ce pouvoir ne fonctionne pas si Arcanin lumineux est Endormi, Confus ou Paralysé.",
+				'de-de': "As long as Light Arcanine is your Active Pokémon, once during your turn (before your attack), if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. This power can't be used while Light Arcanine is Asleep, Confused, or Paralayzed."
 			},
 		},
 	],
@@ -55,15 +55,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Gentle Flames",
-				fr: "Douces flammes",
-				de: "Gentle Flames"
+				'en-us': "Gentle Flames",
+				'fr-fr': "Douces flammes",
+				'de-de': "Gentle Flames"
 			},
 
 			effect: {
-				en: "If the Defending Pokémon is a Baby Pokémon, this attack does 10 damage instead of 50. If the Defending Pokémon is a Basic Pokémon, this attack does 30 damage instead of 50.",
-				fr: "Si le Pokémon Défenseur est un Bébé Pokémon, cette attaque inflige 10 dégâts au lieu de 50. Si le Pokémon Défenseur est un Pokémon de base, cette attaque inflige 30 dégâts au lieu de 50.",
-				de: "If the Defending Pokémon is a Baby Pokémon, this attack does 10 damage instead of 50. If the Defending Pokémon is a Basic Pokémon, this attack does 30 damage instead of 50."
+				'en-us': "If the Defending Pokémon is a Baby Pokémon, this attack does 10 damage instead of 50. If the Defending Pokémon is a Basic Pokémon, this attack does 30 damage instead of 50.",
+				'fr-fr': "Si le Pokémon Défenseur est un Bébé Pokémon, cette attaque inflige 10 dégâts au lieu de 50. Si le Pokémon Défenseur est un Pokémon de base, cette attaque inflige 30 dégâts au lieu de 50.",
+				'de-de': "If the Defending Pokémon is a Baby Pokémon, this attack does 10 damage instead of 50. If the Defending Pokémon is a Basic Pokémon, this attack does 30 damage instead of 50."
 			},
 
 			damage: 50
@@ -80,8 +80,8 @@ const card: Card = {
 
 
 	description: {
-		en: "This legendary Chinese Pokémon is easily recognized by its large flowing mane.",
-		fr: "Ce légendaire Pokémon chinois est facilement reconnaissable de par sa grande crinière."
+		'en-us': "This legendary Chinese Pokémon is easily recognized by its large flowing mane.",
+		'fr-fr': "Ce légendaire Pokémon chinois est facilement reconnaissable de par sa grande crinière."
 	},
 
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../My First Battle"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magneton",
+		'en-us': "Magneton",
 	},
 
 	rarity: "None",
@@ -14,7 +14,7 @@ const card: Card = {
 	hp: 110,
 	types: ["Lightning"],
 	evolveFrom: {
-		en: "Magnemite",
+		'en-us': "Magnemite",
 	},
 	stage: "Stage1",
 
@@ -22,7 +22,7 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Thunder Shock",
+			'en-us': "Thunder Shock",
 		},
 
 		damage: 20
@@ -30,11 +30,11 @@ const card: Card = {
 		cost: ["Lightning", "Lightning"],
 
 		name: {
-			en: "Magnetic Circle",
+			'en-us': "Magnetic Circle",
 		},
 
 		effect: {
-			en: "This attack does 20 more damage for each of your Benched lightning Pokémon",
+			'en-us': "This attack does 20 more damage for each of your Benched lightning Pokémon",
 		},
 
 		damage: "20+"

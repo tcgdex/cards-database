@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムウマ",
+		'ja-jp': "ムウマ",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "驚かせることが 生きがい。 首の 赤い玉に 耳を あてると 中から 悲鳴が 聞こえてくるぞ。",
+		'ja-jp': "驚かせることが 生きがい。 首の 赤い玉に 耳を あてると 中から 悲鳴が 聞こえてくるぞ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ふきつなめ" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のポケモン1匹に、ダメカンを1個のせる。",
+				'ja-jp': "相手のポケモン1匹に、ダメカンを1個のせる。",
 			},
 		},
 	],

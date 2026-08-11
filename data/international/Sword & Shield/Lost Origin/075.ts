@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hisuian Zorua",
-		fr: "Zorua de Hisui",
-		es: "Zorua de Hisui",
-		it: "Zorua di Hisui",
-		pt: "Zorua de Hisui",
-		de: "Hisui-Zorua"
+		'en-us': "Hisuian Zorua",
+		'fr-fr': "Zorua de Hisui",
+		'es-es': "Zorua de Hisui",
+		'it-it': "Zorua di Hisui",
+		'pt-br': "Zorua de Hisui",
+		'de-de': "Hisui-Zorua"
 	},
 
 	illustrator: "Akira Komayama",
@@ -23,32 +23,32 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			es: "Coleccionar",
-			it: "Tassa",
-			pt: "Coleta",
-			de: "Sammeln"
+			'en-us': "Collect",
+			'fr-fr': "Collecte",
+			'es-es': "Coleccionar",
+			'it-it': "Tassa",
+			'pt-br': "Coleta",
+			'de-de': "Sammeln"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			es: "Roba 1 carta.",
-			it: "Pesca una carta.",
-			pt: "Compre 1 carta.",
-			de: "Ziehe 1 Karte."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'es-es': "Roba 1 carta.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre 1 carta.",
+			'de-de': "Ziehe 1 Karte."
 		}
 	}, {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Mumble",
-			fr: "Murmure",
-			es: "Farfullar",
-			it: "Borbottio",
-			pt: "Resmungo",
-			de: "Grummeln"
+			'en-us': "Mumble",
+			'fr-fr': "Murmure",
+			'es-es': "Farfullar",
+			'it-it': "Borbottio",
+			'pt-br': "Resmungo",
+			'de-de': "Grummeln"
 		},
 
 		damage: 10

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Orbeetle",
-		fr: "Astronelle",
-		es: "Orbeetle",
-		it: "Orbeetle",
-		pt: "Orbeetle",
-		de: "Maritellit"
+		'en-us': "Orbeetle",
+		'fr-fr': "Astronelle",
+		'es-es': "Orbeetle",
+		'it-it': "Orbeetle",
+		'pt-br': "Orbeetle",
+		'de-de': "Maritellit"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -22,12 +22,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dottler",
-		fr: "Coléodôme",
-		es: "Dottler",
-		it: "Dottler",
-		pt: "Dottler",
-		de: "Keradar"
+		'en-us': "Dottler",
+		'fr-fr': "Coléodôme",
+		'es-es': "Dottler",
+		'it-it': "Dottler",
+		'pt-br': "Dottler",
+		'de-de': "Keradar"
 	},
 
 	stage: "Stage2",
@@ -36,20 +36,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Bug's Radar",
-				fr: "Radar d'Insecte",
-				es: "Radar de Bichos",
-				it: "Coleoradar",
-				pt: "Radar de Inseto",
-				de: "Käferradar"
+				'en-us': "Bug's Radar",
+				'fr-fr': "Radar d'Insecte",
+				'es-es': "Radar de Bichos",
+				'it-it': "Coleoradar",
+				'pt-br': "Radar de Inseto",
+				'de-de': "Käferradar"
 			},
 			effect: {
-				en: "Once during your turn, you may look at the top 3 cards of your opponent's deck and put them back in any order.",
-				fr: "Une fois pendant votre tour, vous pouvez regarder les 3 cartes du dessus du deck de votre adversaire, puis les replacer dans l'ordre désiré.",
-				es: "Una vez durante tu turno, puedes mirar las 3 primeras cartas de la baraja de tu rival y volver a ponerlas en la parte superior de su baraja en el orden que quieras.",
-				it: "Una sola volta durante il tuo turno, puoi guardare le prime tre carte del mazzo del tuo avversario e rimetterle a posto nell'ordine che preferisci.",
-				pt: "Uma vez durante o seu turno, você poderá olhar as 3 cartas de cima do baralho do seu oponente e colocá-las de volta em qualquer ordem.",
-				de: "Einmal während deines Zuges kannst du dir die obersten 3 Karten des Decks deines Gegners anschauen und sie in beliebiger Reihenfolge zurücklegen."
+				'en-us': "Once during your turn, you may look at the top 3 cards of your opponent's deck and put them back in any order.",
+				'fr-fr': "Une fois pendant votre tour, vous pouvez regarder les 3 cartes du dessus du deck de votre adversaire, puis les replacer dans l'ordre désiré.",
+				'es-es': "Una vez durante tu turno, puedes mirar las 3 primeras cartas de la baraja de tu rival y volver a ponerlas en la parte superior de su baraja en el orden que quieras.",
+				'it-it': "Una sola volta durante il tuo turno, puoi guardare le prime tre carte del mazzo del tuo avversario e rimetterle a posto nell'ordine che preferisci.",
+				'pt-br': "Uma vez durante o seu turno, você poderá olhar as 3 cartas de cima do baralho do seu oponente e colocá-las de volta em qualquer ordem.",
+				'de-de': "Einmal während deines Zuges kannst du dir die obersten 3 Karten des Decks deines Gegners anschauen und sie in beliebiger Reihenfolge zurücklegen."
 			},
 		},
 	],
@@ -61,20 +61,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Brainwave",
-				fr: "Onde Cérébrale",
-				es: "Onda Cerebral",
-				it: "Onda Cerebrale",
-				pt: "Onda Cerebral",
-				de: "Gehirnwelle"
+				'en-us': "Brainwave",
+				'fr-fr': "Onde Cérébrale",
+				'es-es': "Onda Cerebral",
+				'it-it': "Onda Cerebrale",
+				'pt-br': "Onda Cerebral",
+				'de-de': "Gehirnwelle"
 			},
 			effect: {
-				en: "This attack does 30 more damage for each Psychic Energy attached to this Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Psychic attachée à ce Pokémon.",
-				es: "Este ataque hace 30 puntos de daño más por cada Energía Psychic unida a este Pokémon.",
-				it: "Questo attacco infligge 30 danni in più per ogni Energia Psychic assegnata a questo Pokémon.",
-				pt: "Este ataque causa 30 pontos de dano a mais para cada Energia Psychic ligada a este Pokémon.",
-				de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Psychic-Energie 30 Schadenspunkte mehr zu."
+				'en-us': "This attack does 30 more damage for each Psychic Energy attached to this Pokémon.",
+				'fr-fr': "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie Psychic attachée à ce Pokémon.",
+				'es-es': "Este ataque hace 30 puntos de daño más por cada Energía Psychic unida a este Pokémon.",
+				'it-it': "Questo attacco infligge 30 danni in più per ogni Energia Psychic assegnata a questo Pokémon.",
+				'pt-br': "Este ataque causa 30 pontos de dano a mais para cada Energia Psychic ligada a este Pokémon.",
+				'de-de': "Diese Attacke fügt für jede an dieses Pokémon angelegte Psychic-Energie 30 Schadenspunkte mehr zu."
 			},
 			damage: "90+",
 
@@ -99,7 +99,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It emits psychic energy to observe and study what's around it—and what's around it can include things over six miles away."
+		'en-us': "It emits psychic energy to observe and study what's around it—and what's around it can include things over six miles away."
 	},
 
 	dexId: [826],

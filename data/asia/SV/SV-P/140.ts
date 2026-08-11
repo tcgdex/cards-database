@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サイレントラボ",
+		'ja-jp': "サイレントラボ",
 	},
 
 	illustrator: "Ryo Ueda",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいの場・手札・トラッシュにあるたねポケモンの特性は、すべてなくなる。",
+		'ja-jp': "おたがいの場・手札・トラッシュにあるたねポケモンの特性は、すべてなくなる。",
 	},
 
 	variants: [

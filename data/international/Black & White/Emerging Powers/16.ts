@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Sawsbuck",
-		fr: "Haydaim",
-		es: "Sawsbuck",
-		it: "Sawsbuck",
-		pt: "Sawsbuck",
-		de: "Kronjuwild"
+		'en-us': "Sawsbuck",
+		'fr-fr': "Haydaim",
+		'es-es': "Sawsbuck",
+		'it-it': "Sawsbuck",
+		'pt-br': "Sawsbuck",
+		'de-de': "Kronjuwild"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Deerling",
-		fr: "Vivaldaim",
+		'en-us': "Deerling",
+		'fr-fr': "Vivaldaim",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Push Down",
-				fr: "Renversement",
+				'en-us': "Push Down",
+				'fr-fr': "Renversement",
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
 			},
 			damage: 30,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
 			},
 			effect: {
-				en: "This Pokémon does 20 damage to itself.",
-				fr: "Ce Pokémon s'inflige 20 dégâts.",
+				'en-us': "This Pokémon does 20 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 20 dégâts.",
 			},
 			damage: 60,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.",
+		'en-us': "The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.",
 	},
 
 	thirdParty: {

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マツリカ",
+		'ja-jp': "マツリカ",
 	},
 
 	illustrator: "Sanosuke Sakuma",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札にある[妖]エネルギーを1枚、自分のポケモンにつける。そして山札を切る。",
+		'ja-jp': "自分の山札にある[妖]エネルギーを1枚、自分のポケモンにつける。そして山札を切る。",
 	},
 
 	variants: [

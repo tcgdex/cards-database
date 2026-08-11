@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アーゴヨンGX",
+		'ja-jp': "アーゴヨンGX",
 	},
 
 	illustrator: "",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の場の「ウルトラビースト」の数x20ダメージ。",
+				'ja-jp': "自分の場の「ウルトラビースト」の数x20ダメージ。",
 			},
 		},
 		{
@@ -28,14 +28,14 @@ const card: Card = {
 			damage: 110,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは弱点・抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは弱点・抵抗力を計算しない。",
 			},
 		},
 		{
 			name: { ja: "スティンガーGX" },
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "おたがいのプレイヤーは、それぞれサイドをすべて山札にもどして切る。その後、それぞれ山札を上から3枚、サイドとして置く。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "おたがいのプレイヤーは、それぞれサイドをすべて山札にもどして切る。その後、それぞれ山札を上から3枚、サイドとして置く。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ベベノム",
+		'ja-jp': "ベベノム",
 	},
 
 	retreat: 1,

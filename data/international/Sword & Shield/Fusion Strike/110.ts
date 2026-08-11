@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Jigglypuff",
-		fr: "Rondoudou",
-		es: "Jigglypuff",
-		it: "Jigglypuff",
-		pt: "Jigglypuff",
-		de: "Pummeluff"
+		'en-us': "Jigglypuff",
+		'fr-fr': "Rondoudou",
+		'es-es': "Jigglypuff",
+		'it-it': "Jigglypuff",
+		'pt-br': "Jigglypuff",
+		'de-de': "Pummeluff"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Saya Tsuruta",
 
 	description: {
-		en: "The songs they sing are totally different depending on the region they live in. Some even sound like they're shouting!"
+		'en-us': "The songs they sing are totally different depending on the region they live in. Some even sound like they're shouting!"
 	},
 
 	attacks: [{
 		cost: ["Psychic"],
 
 		name: {
-			en: "Pound",
-			fr: "Écras'Face",
-			de: "Klaps",
-			es: "Destructor",
-			pt: "Pancada",
-			it: "Botta"
+			'en-us': "Pound",
+			'fr-fr': "Écras'Face",
+			'de-de': "Klaps",
+			'es-es': "Destructor",
+			'pt-br': "Pancada",
+			'it-it': "Botta"
 		},
 
 		damage: 20
@@ -50,23 +50,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Let's All Rollout",
-			fr: "Roulade Collégiale",
-			de: "Gemeinsamer Walzer",
-			es: "Todos a Rodar",
-			pt: "Vamos Botar pra Rolar",
-			it: "Rotolamento Collettivo"
+			'en-us': "Let's All Rollout",
+			'fr-fr': "Roulade Collégiale",
+			'de-de': "Gemeinsamer Walzer",
+			'es-es': "Todos a Rodar",
+			'pt-br': "Vamos Botar pra Rolar",
+			'it-it': "Rotolamento Collettivo"
 		},
 
 		damage: "20×",
 
 		effect: {
-			en: "This attack does 20 damage for each of your Benched Pokémon that has the Let's All Rollout attack.",
-			fr: "Cette attaque inflige 20 dégâts pour chacun de vos Pokémon de Banc ayant l'attaque Roulade Collégiale.",
-			de: "Diese Attacke fügt für jedes Pokémon auf deiner Bank, das die Attacke Gemeinsamer Walzer hat, 20 Schadenspunkte zu.",
-			es: "Este ataque hace 20 puntos de daño por cada uno de tus Pokémon en Banca que tenga el ataque Todos a Rodar.",
-			pt: "Este ataque causa 20 pontos de dano para cada um dos seus Pokémon no Banco que tiver o ataque Vamos Botar pra Rolar.",
-			it: "Questo attacco infligge 20 danni per ogni Pokémon nella tua panchina che ha l'attacco Rotolamento Collettivo."
+			'en-us': "This attack does 20 damage for each of your Benched Pokémon that has the Let's All Rollout attack.",
+			'fr-fr': "Cette attaque inflige 20 dégâts pour chacun de vos Pokémon de Banc ayant l'attaque Roulade Collégiale.",
+			'de-de': "Diese Attacke fügt für jedes Pokémon auf deiner Bank, das die Attacke Gemeinsamer Walzer hat, 20 Schadenspunkte zu.",
+			'es-es': "Este ataque hace 20 puntos de daño por cada uno de tus Pokémon en Banca que tenga el ataque Todos a Rodar.",
+			'pt-br': "Este ataque causa 20 pontos de dano para cada um dos seus Pokémon no Banco que tiver o ataque Vamos Botar pra Rolar.",
+			'it-it': "Questo attacco infligge 20 danni per ogni Pokémon nella tua panchina che ha l'attacco Rotolamento Collettivo."
 		}
 	}],
 

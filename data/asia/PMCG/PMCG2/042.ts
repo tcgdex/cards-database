@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケンタロス",
+		'ja-jp': "ケンタロス",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "踏みつけ",
+				'ja-jp': "踏みつけ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて10ダメージを与えます。尾の場合、この攻撃は20ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて10ダメージを与えます。尾の場合、この攻撃は20ダメージを与えます。",
 			},
 
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "大暴れ",
+				'ja-jp': "大暴れ",
 			},
 			effect: {
-				ja: "タウロスのダメージカウンターごとに20のダメージに加えて10ダメージを加えます。コインをひっくり返します。尾の場合、タウロスは（ダメージを与えた後）混乱しています。",
+				'ja-jp': "タウロスのダメージカウンターごとに20のダメージに加えて10ダメージを加えます。コインをひっくり返します。尾の場合、タウロスは（ダメージを与えた後）混乱しています。",
 			},
 
 		},

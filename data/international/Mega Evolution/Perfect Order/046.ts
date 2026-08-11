@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
@@ -7,13 +7,13 @@ const card: Card = {
 	dexId: [701],
 
 	name: {
-		en: "Hawlucha",
-		fr: "Brutalibré",
-		es: "Hawlucha",
+		'en-us': "Hawlucha",
+		'fr-fr': "Brutalibré",
+		'es-es': "Hawlucha",
 		'es-mx': "Hawlucha",
-		de: "Resladero",
-		it: "Hawlucha",
-		pt: "Hawlucha"
+		'de-de': "Resladero",
+		'it-it': "Hawlucha",
+		'pt-br': "Hawlucha"
 	},
 
 	illustrator: "osare",
@@ -27,23 +27,23 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Vengeful Kick",
-			fr: "Coup de Pied Vengeur",
-			es: "Patada Vengativa",
+			'en-us': "Vengeful Kick",
+			'fr-fr': "Coup de Pied Vengeur",
+			'es-es': "Patada Vengativa",
 			'es-mx': "Patada Vengativa",
-			de: "Rachekick",
-			it: "Calcio Vendicativo",
-			pt: "Chute Vingativo"
+			'de-de': "Rachekick",
+			'it-it': "Calcio Vendicativo",
+			'pt-br': "Chute Vingativo"
 		},
 
 		effect: {
-			en: "If your Benched Pokémon have any damage counters on them, this attack does 60 more damage.",
-			fr: "Si au moins un marqueur de dégâts est placé sur vos Pokémon de Banc, cette attaque inflige 60 dégâts supplémentaires.",
-			es: "Si tus Pokémon en Banca tienen algún contador de daño sobre ellos, este ataque hace 60 puntos de daño más.",
+			'en-us': "If your Benched Pokémon have any damage counters on them, this attack does 60 more damage.",
+			'fr-fr': "Si au moins un marqueur de dégâts est placé sur vos Pokémon de Banc, cette attaque inflige 60 dégâts supplémentaires.",
+			'es-es': "Si tus Pokémon en Banca tienen algún contador de daño sobre ellos, este ataque hace 60 puntos de daño más.",
 			'es-mx': "Si tus Pokémon en Banca tienen algún contador de daño sobre ellos, este ataque hace 60 puntos de daño más.",
-			de: "Wenn auf den Pokémon auf deiner Bank mindestens 1 Schadensmarke liegt, fügt diese Attacke 60 Schadenspunkte mehr zu.",
-			it: "Se i Pokémon nella tua panchina hanno dei segnalini danno, questo attacco infligge 60 danni in più.",
-			pt: "Se os seus Pokémon no Banco tiverem algum contador de dano neles, este ataque causará 60 pontos de dano a mais."
+			'de-de': "Wenn auf den Pokémon auf deiner Bank mindestens 1 Schadensmarke liegt, fügt diese Attacke 60 Schadenspunkte mehr zu.",
+			'it-it': "Se i Pokémon nella tua panchina hanno dei segnalini danno, questo attacco infligge 60 danni in più.",
+			'pt-br': "Se os seus Pokémon no Banco tiverem algum contador de dano neles, este ataque causará 60 pontos de dano a mais."
 		},
 
 		damage: "30+"

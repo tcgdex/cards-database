@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVAW"
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "保母曼波",
-		th: "มามันโบ",
-		id: "Alomomola"
+		'th-th': "มามันโบ",
+		'id-id': "Alomomola"
 	},
 
 	illustrator: "Shinji Kanda",
@@ -17,8 +17,8 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "會用魚鰭溫柔地抱住受傷或是虛弱的寶可夢， 並用特殊的黏膜加以治療。",
-		th: "ประคองโปเกมอนที่อ่อนแอหรือบาดเจ็บด้วยครีบอย่างอ่อนโยน แล้วใช้เยื่อเมือกพิเศษช่วยรักษา",
-		id: "Sambil memeluk lembut Pokémon yang melemah atau terluka dengan siripnya, Alomomola menyembuhkan mereka menggunakan membran khususnya."
+		'th-th': "ประคองโปเกมอนที่อ่อนแอหรือบาดเจ็บด้วยครีบอย่างอ่อนโยน แล้วใช้เยื่อเมือกพิเศษช่วยรักษา",
+		'id-id': "Sambil memeluk lembut Pokémon yang melemah atau terluka dengan siripnya, Alomomola menyembuhkan mereka menggunakan membran khususnya."
 	},
 
 	stage: "Basic",
@@ -26,8 +26,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "衝浪",
-			th: "โต้คลื่น",
-			id: "Berselancar"
+			'th-th': "โต้คลื่น",
+			'id-id': "Berselancar"
 		},
 
 		damage: 30,
@@ -35,14 +35,14 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "水流斬",
-			th: "อควาสแลช",
-			id: "Aqua Slash"
+			'th-th': "อควาสแลช",
+			'id-id': "Aqua Slash"
 		},
 
 		effect: {
 			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
-			th: "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'th-th': "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 120,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アマカジ",
+		'ja-jp': "アマカジ",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "甘く 美味しそうな 匂いのせいで とりポケモンに 狙われるが あまり 賢くないので 気に していない。",
+		'ja-jp': "甘く 美味しそうな 匂いのせいで とりポケモンに 狙われるが あまり 賢くないので 気に していない。",
 	},
 
 	stage: "Basic",

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Conkeldurr",
-		fr: "Bétochef",
-		es: "Conkeldurr",
-		it: "Conkeldurr",
-		pt: "Conkeldurr",
-		de: "Meistagrif"
+		'en-us': "Conkeldurr",
+		'fr-fr': "Bétochef",
+		'es-es': "Conkeldurr",
+		'it-it': "Conkeldurr",
+		'pt-br': "Conkeldurr",
+		'de-de': "Meistagrif"
 	},
 
 	illustrator: "kawayoo",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gurdurr",
-		fr: "Ouvrifier",
+		'en-us': "Gurdurr",
+		'fr-fr': "Ouvrifier",
 	},
 
 	stage: "Stage2",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Craftsmanship",
-				fr: "Maître d’Œuvre",
-				es: "Maestro de Obras",
-				it: "Maestria",
-				pt: "Manufatura",
-				de: "Handwerkskunst"
+				'en-us': "Craftsmanship",
+				'fr-fr': "Maître d’Œuvre",
+				'es-es': "Maestro de Obras",
+				'it-it': "Maestria",
+				'pt-br': "Manufatura",
+				'de-de': "Handwerkskunst"
 			},
 			effect: {
-				en: "This Pokémon gets +20 HP for each Fighting Energy attached to it.",
-				fr: "Chaque Énergie Fighting attachée à ce Pokémon lui ajoute 20 PV.",
-				es: "Este Pokémon obtiene 20 PV más por cada Energía Fighting unida a él.",
-				it: "Questo Pokémon ha 20 PV in più per ogni Energia Fighting assegnatagli.",
-				pt: "Este Pokémon recebe mais 20 PS para cada Energia Fighting ligada a ele.",
-				de: "Dieses Pokémon erhält +20 KP für jede an es angelegte Fighting-Energie."
+				'en-us': "This Pokémon gets +20 HP for each Fighting Energy attached to it.",
+				'fr-fr': "Chaque Énergie Fighting attachée à ce Pokémon lui ajoute 20 PV.",
+				'es-es': "Este Pokémon obtiene 20 PV más por cada Energía Fighting unida a él.",
+				'it-it': "Questo Pokémon ha 20 PV in più per ogni Energia Fighting assegnatagli.",
+				'pt-br': "Este Pokémon recebe mais 20 PS para cada Energia Fighting ligada a ele.",
+				'de-de': "Dieses Pokémon erhält +20 KP für jede an es angelegte Fighting-Energie."
 			},
 		},
 	],
@@ -64,12 +64,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Top Down",
-				fr: "Écras'Montagne",
+				'en-us': "Top Down",
+				'fr-fr': "Écras'Montagne",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. For each heads, discard the top card of your opponent's deck.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Pour chaque côté face, défaussez la carte du dessus du deck de votre adversaire.",
+				'en-us': "Flip a coin until you get tails. For each heads, discard the top card of your opponent's deck.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Pour chaque côté face, défaussez la carte du dessus du deck de votre adversaire.",
 			},
 			damage: 80,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It it thought that Conkeldurr taught humans how to make concrete more than 2,000 years ago.",
+		'en-us': "It it thought that Conkeldurr taught humans how to make concrete more than 2,000 years ago.",
 	},
 
 	thirdParty: {

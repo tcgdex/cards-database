@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シズクモ",
+		'ja-jp': "シズクモ",
 		'zh-tw': "滴蛛",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "お尻で 水泡を 膨らませて 頭を 包む。 仲間同士で 水泡の 大きさを 比べる。",
+		'ja-jp': "お尻で 水泡を 膨らませて 頭を 包む。 仲間同士で 水泡の 大きさを 比べる。",
 		'zh-tw': "用臀部讓水泡膨脹，並包裹住自己的頭部。 會和同類比拼水泡的大小。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ひっかける",
+				'ja-jp': "ひっかける",
 				'zh-tw': "鉤住",
 			},
 			damage: 30,

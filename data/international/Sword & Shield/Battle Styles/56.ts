@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Grumpig",
-		fr: "Groret",
-		es: "Grumpig",
-		it: "Grumpig",
-		pt: "Grumpig",
-		de: "Groink"
+		'en-us': "Grumpig",
+		'fr-fr': "Groret",
+		'es-es': "Grumpig",
+		'it-it': "Grumpig",
+		'pt-br': "Grumpig",
+		'de-de': "Groink"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -21,43 +21,43 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Spoink",
-		fr: "Spoink",
-		es: "Spoink",
-		it: "Spoink",
-		pt: "Spoink",
-		de: "Spoink"
+		'en-us': "Spoink",
+		'fr-fr': "Spoink",
+		'es-es': "Spoink",
+		'it-it': "Spoink",
+		'pt-br': "Spoink",
+		'de-de': "Spoink"
 	},
 
 	attacks: [{
 		name: {
-			en: "Dazzle Dance",
-			fr: "Danse Éblouissante",
-			es: "Danza Deslumbrante",
-			it: "Accecadanza",
-			pt: "Dança Fascinante",
-			de: "Verwirrender Tanz"
+			'en-us': "Dazzle Dance",
+			'fr-fr': "Danse Éblouissante",
+			'es-es': "Danza Deslumbrante",
+			'it-it': "Accecadanza",
+			'pt-br': "Dança Fascinante",
+			'de-de': "Verwirrender Tanz"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
 		damage: 30,
 		cost: ["Psychic", "Colorless"]
 	}, {
 		name: {
-			en: "Power Gem",
-			fr: "Rayon Gemme",
-			es: "Joya de Luz",
-			it: "Gemmoforza",
-			pt: "Gema Poderosa",
-			de: "Juwelenkraft"
+			'en-us': "Power Gem",
+			'fr-fr': "Rayon Gemme",
+			'es-es': "Joya de Luz",
+			'it-it': "Gemmoforza",
+			'pt-br': "Gema Poderosa",
+			'de-de': "Juwelenkraft"
 		},
 
 		damage: 120,
@@ -81,7 +81,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It uses black pearls to amplify its psychic power. It does an odd dance to gain control over foes."
+		'en-us': "It uses black pearls to amplify its psychic power. It does an odd dance to gain control over foes."
 	},
 
 	variants: [

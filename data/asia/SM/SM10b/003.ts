@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イワパレス",
+		'ja-jp': "イワパレス",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "重たい 岩を 背負って 乾燥した 土地を 何日でも 移動できる 脚力を 持つ。",
+		'ja-jp': "重たい 岩を 背負って 乾燥した 土地を 何日でも 移動できる 脚力を 持つ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "シェルアーマー" },
 			effect: {
-				ja: "このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "このポケモンが受けるワザのダメージは「-30」される。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを3回投げる。オモテが1回なら、40ダメージ追加。オモテが2回なら、80ダメージ追加。すべてオモテなら、150ダメージ追加。",
+				'ja-jp': "コインを3回投げる。オモテが1回なら、40ダメージ追加。オモテが2回なら、80ダメージ追加。すべてオモテなら、150ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イシズマイ",
+		'ja-jp': "イシズマイ",
 	},
 
 	retreat: 3,

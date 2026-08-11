@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gyarados"
+		'en-us': "Gyarados"
 	},
 
 	illustrator: "kawayoo",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Magikarp"
+		'en-us': "Magikarp"
 	},
 
 	description: {
-		en: "It appears whenever there is world conflict,\nburning down any place it travels through."
+		'en-us': "It appears whenever there is world conflict,\nburning down any place it travels through."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Hammering Tail"
+			'en-us': "Hammering Tail"
 		},
 
 		damage: 100,
 		cost: ["Water", "Water", "Water", "Colorless"],
 
 		effect: {
-			en: "Discard the top card of your opponent's deck."
+			'en-us': "Discard the top card of your opponent's deck."
 		}
 	}],
 

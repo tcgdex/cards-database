@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケケンカニ",
+		'ja-jp': "ケケンカニ",
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ハサミの 中に 冷気を 溜めて ぶん殴る。 分厚い 氷の 壁も 粉々に してしまうぞ。",
+		'ja-jp': "ハサミの 中に 冷気を 溜めて ぶん殴る。 分厚い 氷の 壁も 粉々に してしまうぞ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かたいこうら" },
 			effect: {
-				ja: "このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "このポケモンが受けるワザのダメージは「-30」される。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "このポケモンに[水]エネルギーがついているなら、80ダメージ追加。",
+				'ja-jp': "このポケモンに[水]エネルギーがついているなら、80ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マケンカニ",
+		'ja-jp': "マケンカニ",
 	},
 
 	retreat: 4,

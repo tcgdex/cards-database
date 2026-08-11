@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Gulpin",
-		fr: "Gloupti",
-		de: "Schluppuck"
+		'en-us': "Gulpin",
+		'fr-fr': "Gloupti",
+		'de-de': "Schluppuck"
 	},
 
 	illustrator: "Yuka Morii",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Yawn",
-				fr: "Baillement",
-				de: "Yawn"
+				'en-us': "Yawn",
+				'fr-fr': "Baillement",
+				'de-de': "Yawn"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Spit Poison",
-				fr: "Crache-venin",
-				de: "Spit Poison"
+				'en-us': "Spit Poison",
+				'fr-fr': "Crache-venin",
+				'de-de': "Spit Poison"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "The Defending Pokémon is now Poisoned."
 			},
 
 		},

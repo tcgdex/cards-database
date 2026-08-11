@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ยาดง",
-		id: "Slowpoke"
+		'th-th': "ยาดง",
+		'id-id': "Slowpoke"
 	},
 
 	illustrator: "Teeziro",
@@ -15,28 +15,28 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		th: "ดูเหม่อลอยตลอดเวลา ไม่รู้ว่าคิดอะไรอยู่ ถนัดใช้หางตกเหยื่อ",
-		id: "Slowpoke selalu bengong dan tidak ada yang tahu apa yang sedang dipikirkannya. Pokémon ini pandai memancing makanan menggunakan ekornya."
+		'th-th': "ดูเหม่อลอยตลอดเวลา ไม่รู้ว่าคิดอะไรอยู่ ถนัดใช้หางตกเหยื่อ",
+		'id-id': "Slowpoke selalu bengong dan tidak ada yang tahu apa yang sedang dipikirkannya. Pokémon ini pandai memancing makanan menggunakan ekornya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ทำหางตก",
-			id: "Merundukkan Ekor"
+			'th-th': "ทำหางตก",
+			'id-id': "Merundukkan Ekor"
 		},
 
 		effect: {
-			th: "เลือกการ์ดโปเกมอน 1 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ",
-			id: "Pilih 1 lembar Pokémon dari Trash sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan."
+			'th-th': "เลือกการ์ดโปเกมอน 1 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ",
+			'id-id': "Pilih 1 lembar Pokémon dari Trash sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "พุ่งเข้าชน",
-			id: "Serudukan"
+			'th-th': "พุ่งเข้าชน",
+			'id-id': "Serudukan"
 		},
 
 		damage: 30,

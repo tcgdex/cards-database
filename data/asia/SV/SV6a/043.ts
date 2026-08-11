@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブロロン",
+		'ja-jp': "ブロロン",
 		'zh-tw': "噗隆隆",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "鋼の 体が 本体。 岩に 張りつき その成分を エネルギーに 変えて 活動する。",
+		'ja-jp': "鋼の 体が 本体。 岩に 張りつき その成分を エネルギーに 変えて 活動する。",
 		'zh-tw': "鋼鐵身軀才是本體。 會貼在岩石上將其成分 轉換成活動用的能量。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "こうちょく",
+				'ja-jp': "こうちょく",
 				'zh-tw': "硬化",
 			},
 			cost: ["Metal"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
 				'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-30」點。",
 			},
 		},
 		{
 			name: {
-				ja: "とびだしヘッド",
+				'ja-jp': "とびだしヘッド",
 				'zh-tw': "魯莽頭擊",
 			},
 			damage: 20,

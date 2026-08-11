@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Selutin",
-		en: "Nacli",
-		es: "Nacli",
-		it: "Nacli",
-		pt: "Nacli",
-		de: "Geosali"
+		'fr-fr': "Selutin",
+		'en-us': "Nacli",
+		'es-es': "Nacli",
+		'it-it': "Nacli",
+		'pt-br': "Nacli",
+		'de-de': "Geosali"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			fr: "Coup d'Boule",
-			en: "Headbutt",
-			es: "Golpe Cabeza",
-			it: "Bottintesta",
-			pt: "Cabeçada",
-			de: "Kopfnuss"
+			'fr-fr': "Coup d'Boule",
+			'en-us': "Headbutt",
+			'es-es': "Golpe Cabeza",
+			'it-it': "Bottintesta",
+			'pt-br': "Cabeçada",
+			'de-de': "Kopfnuss"
 		},
 
 		damage: 20
@@ -66,7 +66,7 @@ const card: Card = {
 	illustrator: "yuu",
 
 	description: {
-		en: "It was born in a layer of rock salt deep under the earth. This species was particularly treasured in the old days, as they would share precious salt.",
+		'en-us': "It was born in a layer of rock salt deep under the earth. This species was particularly treasured in the old days, as they would share precious salt.",
 	},
 }
 

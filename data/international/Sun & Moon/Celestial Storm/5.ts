@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Celestial Storm'
 
 const card: Card = {
 	name: {
-		en: "Spinarak",
-		fr: "Mimigal",
-		es: "Spinarak",
-		it: "Spinarak",
-		pt: "Spinarak",
-		de: "Webarak"
+		'en-us': "Spinarak",
+		'fr-fr': "Mimigal",
+		'es-es': "Spinarak",
+		'it-it': "Spinarak",
+		'pt-br': "Spinarak",
+		'de-de': "Webarak"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Stun Poison",
-				fr: "Poison Neural",
-				es: "Veneno Paralizador",
-				it: "Bloccanervi",
-				pt: "Veneno Paralisante",
-				de: "Nervengift"
+				'en-us': "Stun Poison",
+				'fr-fr': "Poison Neural",
+				'es-es': "Veneno Paralizador",
+				'it-it': "Bloccanervi",
+				'pt-br': "Veneno Paralisante",
+				'de-de': "Nervengift"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed and Poisoned.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné et Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Envenenado y Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato e avvelenato.",
-				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Envenenado e Paralisado.",
-				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert und vergiftet."
+				'en-us': "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed and Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné et Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Envenenado y Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato e avvelenato.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Envenenado e Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert und vergiftet."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pierce",
-				fr: "Transpercer",
-				es: "Perforar",
-				it: "Perforare",
-				pt: "Perfurar",
-				de: "Durchbohren"
+				'en-us': "Pierce",
+				'fr-fr': "Transpercer",
+				'es-es': "Perforar",
+				'it-it': "Perforare",
+				'pt-br': "Perfurar",
+				'de-de': "Durchbohren"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Some fishermen weave its sturdy thread into nets to catch fish Pokémon.",
+		'en-us': "Some fishermen weave its sturdy thread into nets to catch fish Pokémon.",
 	},
 
 	thirdParty: {

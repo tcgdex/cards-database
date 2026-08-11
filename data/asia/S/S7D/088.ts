@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フルフェイスガード",
+		'ja-jp': "フルフェイスガード",
 	},
 
 	illustrator: "",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけているポケモン（特性を持つポケモンをのぞく）が、相手のポケモンから受けるワザのダメージは「-20」される。",
+		'ja-jp': "このカードをつけているポケモン（特性を持つポケモンをのぞく）が、相手のポケモンから受けるワザのダメージは「-20」される。",
 	},
 
 	variants: [

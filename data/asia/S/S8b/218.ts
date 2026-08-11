@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マルヤクデV",
+		'ja-jp': "マルヤクデV",
 	},
 
 	illustrator: "Yuya Oka",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Fire"],
 			effect: {
-				ja: "のぞむなら、このポケモンについているエネルギーを1個選び、トラッシュする。その場合、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "のぞむなら、このポケモンについているエネルギーを1個選び、トラッシュする。その場合、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
 			},
 		},
 		{

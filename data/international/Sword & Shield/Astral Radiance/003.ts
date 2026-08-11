@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hisuian Electrode",
-		fr: "Électrode de Hisui",
-		es: "Electrode de Hisui",
-		it: "Electrode di Hisui",
-		pt: "Electrode de Hisui",
-		de: "Hisui-Lektrobal"
+		'en-us': "Hisuian Electrode",
+		'fr-fr': "Électrode de Hisui",
+		'es-es': "Electrode de Hisui",
+		'it-it': "Electrode di Hisui",
+		'pt-br': "Electrode de Hisui",
+		'de-de': "Hisui-Lektrobal"
 	},
 
 	illustrator: "Akira Komayama",
@@ -21,42 +21,42 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Hisuian Voltorb",
-		fr: "Voltorbe de Hisui",
-		es: "Voltorb de Hisui",
-		it: "Voltorb di Hisui",
-		pt: "Voltorb de Hisui",
-		de: "Hisui-Voltobal"
+		'en-us': "Hisuian Voltorb",
+		'fr-fr': "Voltorbe de Hisui",
+		'es-es': "Voltorb de Hisui",
+		'it-it': "Voltorb di Hisui",
+		'pt-br': "Voltorb de Hisui",
+		'de-de': "Hisui-Voltobal"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Triple Draw",
-			fr: "Triple Pioche",
-			es: "Triple Robo",
-			it: "Pescata Tripla",
-			pt: "Compra Tripla",
-			de: "Dreifachzug"
+			'en-us': "Triple Draw",
+			'fr-fr': "Triple Pioche",
+			'es-es': "Triple Robo",
+			'it-it': "Pescata Tripla",
+			'pt-br': "Compra Tripla",
+			'de-de': "Dreifachzug"
 		},
 
 		effect: {
-			en: "Draw 3 cards.",
-			fr: "Piochez 3 cartes.",
-			es: "Roba 3 cartas.",
-			it: "Pesca tre carte.",
-			pt: "Compre 3 cartas.",
-			de: "Ziehe 3 Karten."
+			'en-us': "Draw 3 cards.",
+			'fr-fr': "Piochez 3 cartes.",
+			'es-es': "Roba 3 cartas.",
+			'it-it': "Pesca tre carte.",
+			'pt-br': "Compre 3 cartas.",
+			'de-de': "Ziehe 3 Karten."
 		}
 	}, {
 		name: {
-			en: "Irritated Bomb",
-			fr: "Bombe Agacée",
-			es: "Bomba Enojada",
-			it: "Irritabomba",
-			pt: "Bomba Irritada",
-			de: "Gereizte Bombe"
+			'en-us': "Irritated Bomb",
+			'fr-fr': "Bombe Agacée",
+			'es-es': "Bomba Enojada",
+			'it-it': "Irritabomba",
+			'pt-br': "Bomba Irritada",
+			'de-de': "Gereizte Bombe"
 		},
 
 		damage: 50
@@ -73,7 +73,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The tissue on the surface of its body is curiously similar in composition to an Apricorn. When irritated, this Pokémon lets loose an electric current equal to 20 lightning bolts.",
+		'en-us': "The tissue on the surface of its body is curiously similar in composition to an Apricorn. When irritated, this Pokémon lets loose an electric current equal to 20 lightning bolts.",
 	},
 
 	variants: [

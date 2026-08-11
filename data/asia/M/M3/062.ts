@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カビゴン",
+		'ja-jp': "カビゴン",
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "胃袋の 消化液は どんな 毒も 消化できる。 落ちているものを 食べても 平気。",
+		'ja-jp': "胃袋の 消化液は どんな 毒も 消化できる。 落ちているものを 食べても 平気。",
 	},
 
 	stage: "Basic",

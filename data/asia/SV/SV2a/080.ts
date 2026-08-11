@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤドラン",
+		'ja-jp': "ヤドラン",
 		'zh-tw': "呆殼獸",
-		th: "ยาโดรัน",
-		id: "Slowbro",
+		'th-th': "ยาโดรัน",
+		'id-id': "Slowbro",
 	},
 
 	illustrator: "OKACHEKE",
@@ -16,10 +16,10 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "ヤドンが 海へ エサを 取りにいったとき シェルダーに 尻尾を かまれ ヤドランになった。",
+		'ja-jp': "ヤドンが 海へ エサを 取りにいったとき シェルダーに 尻尾を かまれ ヤドランになった。",
 		'zh-tw': "呆呆獸去海裡捕食時，被大舌貝咬住了尾巴， 於是就變成了呆殼獸。",
-		th: "ยาดงโดนเชลเดอร์งับหางตอนออกไปหาอาหารแถวทะเลจนกลายเป็นยาโดรัน",
-		id: "Ketika Slowpoke sedang mencari makan di laut, ekornya digigit oleh Shellder, lalu ia berevolusi menjadi Slowbro.",
+		'th-th': "ยาดงโดนเชลเดอร์งับหางตอนออกไปหาอาหารแถวทะเลจนกลายเป็นยาโดรัน",
+		'id-id': "Ketika Slowpoke sedang mencari makan di laut, ekornya digigit oleh Shellder, lalu ia berevolusi menjadi Slowbro.",
 	},
 
 	stage: "Stage1",
@@ -27,33 +27,33 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "おおあくび",
+				'ja-jp': "おおあくび",
 				'zh-tw': "大哈欠",
-				th: "หาวปากกว้าง",
-				id: "Menguap Lebar",
+				'th-th': "หาวปากกว้าง",
+				'id-id': "Menguap Lebar",
 			},
 			cost: ["Psychic"],
 			effect: {
-				ja: "おたがいのバトルポケモンを、それぞれねむりにする。",
+				'ja-jp': "おたがいのバトルポケモンを、それぞれねむりにする。",
 				'zh-tw': "將雙方的戰鬥寶可夢【睡眠】。",
-				th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ของทั้งสองฝ่าย แต่ละตัวเป็นสภาวะ[หลับ]",
-				id: "Ubah kondisi Pokémon Bertarung kedua pemain masing-masing menjadi Tidur.",
+				'th-th': "ทำให้โปเกมอนบนตำแหน่งต่อสู้ของทั้งสองฝ่าย แต่ละตัวเป็นสภาวะ[หลับ]",
+				'id-id': "Ubah kondisi Pokémon Bertarung kedua pemain masing-masing menjadi Tidur.",
 			},
 		},
 		{
 			name: {
-				ja: "のんびりタックル",
+				'ja-jp': "のんびりタックル",
 				'zh-tw': "悠哉衝撞",
-				th: "กระแทกเรื่อยเฉื่อย",
-				id: "Serudukan Perlahan",
+				'th-th': "กระแทกเรื่อยเฉื่อย",
+				'id-id': "Serudukan Perlahan",
 			},
 			damage: 160,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "この番、このポケモンに進化していたなら、このワザは失敗。",
+				'ja-jp': "この番、このポケモンに進化していたなら、このワザは失敗。",
 				'zh-tw': "在這個回合，若進化成這隻寶可夢，則這個招式失敗。",
-				th: "เทิร์นนี้ ถ้าวิวัฒนาการเป็นโปเกมอนนี้แล้ว ท่าต่อสู้นี้จะล้มเหลว",
-				id: "Jika pada giliran ini, Pokémon berevolusi menjadi Pokémon ini, serangan ini gagal.",
+				'th-th': "เทิร์นนี้ ถ้าวิวัฒนาการเป็นโปเกมอนนี้แล้ว ท่าต่อสู้นี้จะล้มเหลว",
+				'id-id': "Jika pada giliran ini, Pokémon berevolusi menjadi Pokémon ini, serangan ini gagal.",
 			},
 		},
 	],
@@ -85,7 +85,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤドン",
+		'ja-jp': "ヤドン",
 	},
 
 	retreat: 2,

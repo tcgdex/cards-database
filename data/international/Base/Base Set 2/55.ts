@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Parasect",
+		'en-us': "Parasect",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Paras",
+		'en-us': "Paras",
 	},
 
 	stage: "Stage1",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Spore",
+				'en-us': "Spore",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
+				'en-us': "The Defending Pokémon is now Asleep.",
 			},
 
 		},
@@ -48,7 +48,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
+				'en-us': "Slash",
 			},
 
 			damage: 30,
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
+		'en-us': "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
 	},
 
 

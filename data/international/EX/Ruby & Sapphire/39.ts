@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Manectric",
-		fr: "Elecsprint",
-		de: "Voltenso"
+		'en-us': "Manectric",
+		'fr-fr': "Elecsprint",
+		'de-de': "Voltenso"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Electrike",
-		fr: "Dynavolt"
+		'en-us': "Electrike",
+		'fr-fr': "Dynavolt"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thundershock",
-				fr: "Éclair",
-				de: "Thundershock"
+				'en-us': "Thundershock",
+				'fr-fr': "Éclair",
+				'de-de': "Thundershock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gigashock",
-				fr: "Electrochok",
-				de: "Gigashock"
+				'en-us': "Gigashock",
+				'fr-fr': "Electrochok",
+				'de-de': "Gigashock"
 			},
 			effect: {
-				en: "Does 10 damage to 2 of your opponent's Benched Pokémon (1 if there is only 1). (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à deux des Pokémon du Banc de votre adversaire (ou un s'il n'y en a qu'un). (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
-				de: "Does 10 damage to 2 of your opponent's Benched Pokémon. (1 if there is only 1). (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Does 10 damage to 2 of your opponent's Benched Pokémon (1 if there is only 1). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à deux des Pokémon du Banc de votre adversaire (ou un s'il n'y en a qu'un). (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
+				'de-de': "Does 10 damage to 2 of your opponent's Benched Pokémon. (1 if there is only 1). (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 40,
 

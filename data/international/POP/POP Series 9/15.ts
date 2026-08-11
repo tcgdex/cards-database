@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 9'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu"
 	},
 
 	illustrator: "Midori Harada",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Growl",
-				fr: "Rugissement"
+				'en-us': "Growl",
+				'fr-fr': "Rugissement"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
-				fr: "Lors du prochain tour de votre adversaire, tous dégâts infligés par des attaques au Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance)."
+				'en-us': "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
+				'fr-fr': "Lors du prochain tour de votre adversaire, tous dégâts infligés par des attaques au Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance)."
 			},
 
 		},
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Numb",
-				fr: "Engourdi"
+				'en-us': "Numb",
+				'fr-fr': "Engourdi"
 			},
 			effect: {
-				en: "If Pikachu evolved from Pichu during this turn, the Defending Pokémon is now Paralyzed.",
-				fr: "Si Pikachu évolue de Pichu lors de ce tour, le Pokémon Défenseur est maintenant Paralysé."
+				'en-us': "If Pikachu evolved from Pichu during this turn, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Si Pikachu évolue de Pichu lors de ce tour, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 30,
 
@@ -69,8 +69,8 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "If it looses crackling power from the electric pouches on its cheeks, it is being wary.",
-		fr: "Si les poches électriques de ses joues crépitent, c'est qu'il est sur ses gardes."
+		'en-us': "If it looses crackling power from the electric pouches on its cheeks, it is being wary.",
+		'fr-fr': "Si les poches électriques de ses joues crépitent, c'est qu'il est sur ses gardes."
 	},
 
 	retreat: 1,

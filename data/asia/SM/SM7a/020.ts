@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ツンベアー",
+		'ja-jp': "ツンベアー",
 	},
 
 	illustrator: "Mina Nakai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "吐く 息を 凍らせて 氷の キバや ツメを 作り 戦う。 北の 寒い 土地で 暮らす。",
+		'ja-jp': "吐く 息を 凍らせて 氷の キバや ツメを 作り 戦う。 北の 寒い 土地で 暮らす。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが「ポケモンGX・EX」なら、60ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが「ポケモンGX・EX」なら、60ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Water", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "クマシュン",
+		'ja-jp': "クマシュン",
 	},
 
 	retreat: 3,

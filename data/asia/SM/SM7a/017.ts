@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラプラス",
+		'ja-jp': "ラプラス",
 	},
 
 	illustrator: "Sekio",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "密漁で 絶滅寸前に。 大切に 保護 された 結果 逆に 増え過ぎてきたという。",
+		'ja-jp': "密漁で 絶滅寸前に。 大切に 保護 された 結果 逆に 増え過ぎてきたという。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ゆうえい" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札を上から2枚見て、好きな順番に入れ替えて、山札の上にもどす。",
+				'ja-jp': "自分の番に1回使える。自分の山札を上から2枚見て、好きな順番に入れ替えて、山札の上にもどす。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],

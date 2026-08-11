@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒガナ",
+		'ja-jp': "ヒガナ",
 	},
 
 	illustrator: "Hideki Ishikawa",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードは、前の相手の番に、自分のポケモンがきぜつしていなければ使えない。自分の手札にある基本エネルギーを2枚まで、自分の[竜]ポケモン1匹につける。",
+		'ja-jp': "このカードは、前の相手の番に、自分のポケモンがきぜつしていなければ使えない。自分の手札にある基本エネルギーを2枚まで、自分の[竜]ポケモン1匹につける。",
 	},
 
 	variants: [

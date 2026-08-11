@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Computer Search",
-		fr: "Recherche informatique",
-		de: "Computersuche",
-		it: "Ricerca Computerizzata"
+		'en-us': "Computer Search",
+		'fr-fr': "Recherche informatique",
+		'de-de': "Computersuche",
+		'it-it': "Ricerca Computerizzata"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -15,10 +15,10 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Discard 2 of the other cards from your hand in order to search your deck for any card and put it into your hand. Shuffle your deck afterward.",
-		fr: "Défaussez 2 des autres cartes de votre main pour chercher n'importe quelle carte dans votre deck et la placer dans votre main. Ensuite, mélangez votre deck.",
-		de: "Entferne 2 Karten aus deiner Hand, um im Stapel nach einer beliebigen Karte zu suchen. Nimm die gewählte Karte auf Deiner Hand und mische danach den Stapel.",
-		it: "Scarta 2 delle altre carte che hai in mano, cerca nel tuo mazzo una carta a scelta e pescala. Poi rimischia le carte del mazzo."
+		'en-us': "Discard 2 of the other cards from your hand in order to search your deck for any card and put it into your hand. Shuffle your deck afterward.",
+		'fr-fr': "Défaussez 2 des autres cartes de votre main pour chercher n'importe quelle carte dans votre deck et la placer dans votre main. Ensuite, mélangez votre deck.",
+		'de-de': "Entferne 2 Karten aus deiner Hand, um im Stapel nach einer beliebigen Karte zu suchen. Nimm die gewählte Karte auf Deiner Hand und mische danach den Stapel.",
+		'it-it': "Scarta 2 delle altre carte che hai in mano, cerca nel tuo mazzo una carta a scelta e pescala. Poi rimischia le carte del mazzo."
 	},
 
 	variants: [

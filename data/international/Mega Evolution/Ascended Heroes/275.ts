@@ -1,25 +1,25 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mega Froslass ex",
-		fr: "Méga-Momartik-ex",
-		es: "Mega-Froslass ex",
+		'en-us': "Mega Froslass ex",
+		'fr-fr': "Méga-Momartik-ex",
+		'es-es': "Mega-Froslass ex",
 		'es-mx': "Mega-Froslass ex",
-		de: "Mega-Frosdedje-ex",
-		it: "Mega Froslass-ex",
-		pt: "Mega Froslass ex"
+		'de-de': "Mega-Frosdedje-ex",
+		'it-it': "Mega Froslass-ex",
+		'pt-br': "Mega Froslass ex"
 	},
 	evolveFrom: {
-		en: "Snorunt",
-		de: "Schneppke",
-		es: "Snorunt",
-		fr: "Stalgamin",
-		it: "Snorunt",
-		pt: "Snorunt",
+		'en-us': "Snorunt",
+		'de-de': "Schneppke",
+		'es-es': "Snorunt",
+		'fr-fr': "Stalgamin",
+		'it-it': "Snorunt",
+		'pt-br': "Snorunt",
 	},
 
 	suffix: "ex",
@@ -35,23 +35,23 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Resentful Refrain",
-			fr: "Complainte Rancunière",
-			es: "Rencor Contenido",
+			'en-us': "Resentful Refrain",
+			'fr-fr': "Complainte Rancunière",
+			'es-es': "Rencor Contenido",
 			'es-mx': "Rencor Lírico",
-			de: "Missgünstiger Refrain",
-			it: "Ritornello Rancoroso",
-			pt: "Refrão Ressentido"
+			'de-de': "Missgünstiger Refrain",
+			'it-it': "Ritornello Rancoroso",
+			'pt-br': "Refrão Ressentido"
 		},
 
 		effect: {
-			en: "This attack does 50 damage for each card in your opponent's hand.",
-			fr: "Cette attaque inflige 50 dégâts pour chaque carte dans la main de votre adversaire.",
-			es: "Este ataque hace 50 puntos de daño por cada carta en la mano de tu rival.",
+			'en-us': "This attack does 50 damage for each card in your opponent's hand.",
+			'fr-fr': "Cette attaque inflige 50 dégâts pour chaque carte dans la main de votre adversaire.",
+			'es-es': "Este ataque hace 50 puntos de daño por cada carta en la mano de tu rival.",
 			'es-mx': "Este ataque hace 50 puntos de daño por cada carta en la mano de tu rival.",
-			de: "Diese Attacke fügt für jede Karte auf der Hand deines Gegners 50 Schadenspunkte zu.",
-			it: "Questo attacco infligge 50 danni per ogni carta nella mano del tuo avversario.",
-			pt: "Este ataque causa 50 pontos de dano para cada carta na mão do seu oponente."
+			'de-de': "Diese Attacke fügt für jede Karte auf der Hand deines Gegners 50 Schadenspunkte zu.",
+			'it-it': "Questo attacco infligge 50 danni per ogni carta nella mano del tuo avversario.",
+			'pt-br': "Este ataque causa 50 pontos de dano para cada carta na mão do seu oponente."
 		},
 
 		damage: "50×"
@@ -59,23 +59,23 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Absolute Snow",
-			fr: "Neige Absolue",
-			es: "Nieve Absoluta",
+			'en-us': "Absolute Snow",
+			'fr-fr': "Neige Absolue",
+			'es-es': "Nieve Absoluta",
 			'es-mx': "Nieve Absoluta",
-			de: "Absoluter Schnee",
-			it: "Neve Assoluta",
-			pt: "Neve Absoluta"
+			'de-de': "Absoluter Schnee",
+			'it-it': "Neve Assoluta",
+			'pt-br': "Neve Absoluta"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
 			'es-mx': "El Pokémon Activo de tu rival ahora está Dormido.",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Adormecido."
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido."
 		},
 
 		damage: 150

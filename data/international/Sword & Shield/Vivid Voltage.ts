@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sword & Shield'
 
 const swsh4: Set = {
 	id: "swsh4",
 
 	name: {
-		en: "Vivid Voltage",
-		fr: "Voltage Éclatant",
-		es: "Voltaje Vívido",
-		it: "Voltaggio Sfolgorante",
-		de: "Farbenschock",
-		pt: "Voltagem Vívida"
+		'en-us': "Vivid Voltage",
+		'fr-fr': "Voltage Éclatant",
+		'es-es': "Voltaje Vívido",
+		'it-it': "Voltaggio Sfolgorante",
+		'de-de': "Farbenschock",
+		'pt-br': "Voltagem Vívida"
 	},
 
 	tcgOnline: 'VIV',
@@ -24,7 +24,7 @@ const swsh4: Set = {
 
 	abbreviations: {
 		official: "VIV",
-		fr: "VOL"
+		'fr-fr': "VOL"
 	},
 
 	thirdParty: {

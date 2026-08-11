@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エスペオン",
+		'ja-jp': "エスペオン",
 	},
 
 	rarity: "Holo Rare",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "噛む",
+				'ja-jp': "噛む",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Psychic", "Psychic", "Colorless"],
 			name: {
-				ja: "サイキック",
+				'ja-jp': "サイキック",
 			},
 			effect: {
-				ja: "防御ポケモンに取り付けられたエネルギーカードごとに30のダメージと10ダメージを与えます。",
+				'ja-jp': "防御ポケモンに取り付けられたエネルギーカードごとに30のダメージと10ダメージを与えます。",
 			},
 		},
 	],

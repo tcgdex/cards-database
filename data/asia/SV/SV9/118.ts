@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ホップのザシアンex"
+		'ja-jp': "ホップのザシアンex"
 	},
 
 	illustrator: "aky CG Works",
@@ -20,25 +20,25 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "せつなぎり"
+			'ja-jp': "せつなぎり"
 		},
 
 		damage: 30,
 
 		effect: {
-			ja: "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			'ja-jp': "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
 		}
 	}, {
 		cost: ["Metal", "Metal", "Metal", "Colorless"],
 
 		name: {
-			ja: "ブレイブスラッシュ"
+			'ja-jp': "ブレイブスラッシュ"
 		},
 
 		damage: 240,
 
 		effect: {
-			ja: "次の自分の番、このポケモンは「ブレイブスラッシュ」が使えない。"
+			'ja-jp': "次の自分の番、このポケモンは「ブレイブスラッシュ」が使えない。"
 		}
 	}],
 

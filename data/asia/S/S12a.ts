@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../S'
 
 const set: Set = {
 	id: 'S12a',
 
 	name: {
-		ja: 'VSTARユニバース',
-		ko: 'VSTAR 유니버스',
+		'ja-jp': 'VSTARユニバース',
+		'ko-kr': 'VSTAR 유니버스',
 		'zh-tw': '天地萬物VSTAR',
-		th: 'จักรวาลแห่งVSTAR',
-		id: 'VSTAR Semesta',
+		'th-th': 'จักรวาลแห่งVSTAR',
+		'id-id': 'VSTAR Semesta',
 	},
 
 	serie: serie,
@@ -19,9 +19,9 @@ const set: Set = {
 	},
 
 	releaseDate: {
-		ja: '2022-12-02',
-		id: '2022-12-23',
-		th: '2022-12-23'
+		'ja-jp': '2022-12-02',
+		'id-id': '2022-12-23',
+		'th-th': '2022-12-23'
 		// TODO: find the release dates
 	},
 

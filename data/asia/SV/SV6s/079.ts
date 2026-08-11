@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Clefable"
+		'id-id': "Clefable"
 	},
 
 	illustrator: "satoma",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Pendengarannya bagus. Ia dapat membedakan dengan baik bunyi jarum yang jatuh pada tempat berjarak 1 km jauhnya."
+		'id-id': "Pendengarannya bagus. Ia dapat membedakan dengan baik bunyi jarum yang jatuh pada tempat berjarak 1 km jauhnya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Goyang Jari"
+			'id-id': "Goyang Jari"
 		},
 
 		effect: {
-			id: "Pilih 1 serangan yang dimiliki Pokémon Bertarung lawan, lalu gunakan sebagai serangan ini."
+			'id-id': "Pilih 1 serangan yang dimiliki Pokémon Bertarung lawan, lalu gunakan sebagai serangan ini."
 		},
 
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Magical Shot"
+			'id-id': "Magical Shot"
 		},
 
 		damage: 100,

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Thundurus",
+		'en-us': "Thundurus",
 	},
 
 	illustrator: "Yukiko Baba",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Charge",
+				'en-us': "Charge",
 			},
 			effect: {
-				en: "Search your deck for a Lightning Energy card and attach it to this Pokémon. Shuffle your deck afterward.",
+				'en-us': "Search your deck for a Lightning Energy card and attach it to this Pokémon. Shuffle your deck afterward.",
 			},
 
 		},
@@ -43,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Disaster Volt",
+				'en-us': "Disaster Volt",
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
+				'en-us': "Discard an Energy attached to this Pokémon.",
 			},
 			damage: 80,
 
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.",
+		'en-us': "The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.",
 	},
 
 	thirdParty: {

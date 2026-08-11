@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Whirlipede",
-		fr: "Scobolide",
-		es: "Whirlipede",
-		it: "Whirlipede",
-		pt: "Whirlipede",
-		de: "Rollum"
+		'en-us': "Whirlipede",
+		'fr-fr': "Scobolide",
+		'es-es': "Whirlipede",
+		'it-it': "Whirlipede",
+		'pt-br': "Whirlipede",
+		'de-de': "Rollum"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Venipede",
-		fr: "Venipatte",
+		'en-us': "Venipede",
+		'fr-fr': "Venipatte",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Sting",
-				fr: "Dard-Venin",
+				'en-us': "Poison Sting",
+				'fr-fr': "Dard-Venin",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
 			},
 			damage: 20,
 
@@ -57,8 +57,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
 			},
 
 			damage: 50,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Protected by a hard shell, it spins its body like a wheel and crashes furiously into its enemies.",
+		'en-us': "Protected by a hard shell, it spins its body like a wheel and crashes furiously into its enemies.",
 	},
 
 	thirdParty: {

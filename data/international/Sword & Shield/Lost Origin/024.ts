@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Litwick",
-		fr: "Funécire",
-		es: "Litwick",
-		it: "Litwick",
-		pt: "Litwick",
-		de: "Lichtel"
+		'en-us': "Litwick",
+		'fr-fr': "Funécire",
+		'es-es': "Litwick",
+		'it-it': "Litwick",
+		'pt-br': "Litwick",
+		'de-de': "Lichtel"
 	},
 
 	illustrator: "Yuka Morii",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Kindling Panic",
-			fr: "Panique Montante",
-			es: "Pánico Encendido",
-			it: "Accendipanico",
-			pt: "Centelha de Pânico",
-			de: "Panik schüren"
+			'en-us': "Kindling Panic",
+			'fr-fr': "Panique Montante",
+			'es-es': "Pánico Encendido",
+			'it-it': "Accendipanico",
+			'pt-br': "Centelha de Pânico",
+			'de-de': "Panik schüren"
 		},
 
 		effect: {
-			en: "Discard the top card of your opponent's deck.",
-			fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-			es: "Descarta la primera carta de la baraja de tu rival.",
-			it: "Scarta la prima carta del mazzo del tuo avversario.",
-			pt: "Descarte a carta de cima do baralho do seu oponente.",
-			de: "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
+			'en-us': "Discard the top card of your opponent's deck.",
+			'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+			'es-es': "Descarta la primera carta de la baraja de tu rival.",
+			'it-it': "Scarta la prima carta del mazzo del tuo avversario.",
+			'pt-br': "Descarte a carta de cima do baralho do seu oponente.",
+			'de-de': "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
 		}
 	}],
 

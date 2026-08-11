@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラブトロスV",
+		'ja-jp': "ラブトロスV",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "あいのしゅごしん" },
 			effect: {
-				ja: "このポケモンがいるかぎり、[P]エネルギーがついている自分のポケモン（「ラブトロスV」をのぞく）全員は、相手のポケモンから特性の効果を受けない。",
+				'ja-jp': "このポケモンがいるかぎり、[P]エネルギーがついている自分のポケモン（「ラブトロスV」をのぞく）全員は、相手のポケモンから特性の効果を受けない。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のトラッシュから基本エネルギーを2枚まで選び、ベンチポケモンに好きなようにつける。",
+				'ja-jp': "自分のトラッシュから基本エネルギーを2枚まで選び、ベンチポケモンに好きなようにつける。",
 			},
 		},
 	],

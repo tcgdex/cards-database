@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カナザワのピカチュウ",
+		'ja-jp': "カナザワのピカチュウ",
 		'zh-tw': "伊布",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "つくる 電気が 強力な ピカチュウほど ほっぺの 袋は 軟らかく よく 伸びるぞ。",
+		'ja-jp': "つくる 電気が 強力な ピカチュウほど ほっぺの 袋は 軟らかく よく 伸びるぞ。",
 		'zh-tw': "由於不穩定的基因，蘊含著各式各樣進化可能性的特殊寶可夢。",
 	},
 
@@ -23,24 +23,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ニューオープン",
+				'ja-jp': "ニューオープン",
 				'zh-tw': "布搜索",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "おたがいのプレイヤーは、それぞれ自分の山札を上から1枚オモテにして、相手に見せて、手札に加える。",
+				'ja-jp': "おたがいのプレイヤーは、それぞれ自分の山札を上から1枚オモテにして、相手に見せて、手札に加える。",
 				'zh-tw': "從自己的牌庫選擇最多3張「寶可夢【V】」卡，在給對手看過後加入手牌。並且重洗牌庫。",
 			},
 		},
 		{
 			name: {
-				ja: "ピカさんぽ",
+				'ja-jp': "ピカさんぽ",
 				'zh-tw': "踩",
 			},
 			damage: "30+",
 			cost: ["Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、30ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、30ダメージ追加。",
 			},
 		},
 	],

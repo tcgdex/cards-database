@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 3'
 
 const card: Card = {
 	name: {
-		en: "Plusle",
-		fr: "Posipi"
+		'en-us': "Plusle",
+		'fr-fr': "Posipi"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cheer Up",
-				fr: "Courage !"
+				'en-us': "Cheer Up",
+				'fr-fr': "Courage !"
 			},
 			effect: {
-				en: "Draw a card. If you have Minun in play, draw 2 cards instead.",
-				fr: "Piochez une carte. Si vous avez Négapi en jeu, piochez 2 cartes à la place."
+				'en-us': "Draw a card. If you have Minun in play, draw 2 cards instead.",
+				'fr-fr': "Piochez une carte. Si vous avez Négapi en jeu, piochez 2 cartes à la place."
 			},
 
 		},
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Positive Ion",
-				fr: "Ion positif"
+				'en-us': "Positive Ion",
+				'fr-fr': "Ion positif"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
 			},
 			damage: "20+",
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Body Bolt",
-				fr: "« Boulon corporel »"
+				'en-us': "Body Bolt",
+				'fr-fr': "« Boulon corporel »"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon that has any Poké-Bodies. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon de votre adversaire qui a un Poké-Body. Cette attaque inflige 30 dégâts à ce Pokémon. (N'appliquez pas la Faiblesse et la Résistance aux Pokémon de Banc.)"
+				'en-us': "Choose 1 of your opponent's Pokémon that has any Poké-Bodies. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire qui a un Poké-Body. Cette attaque inflige 30 dégâts à ce Pokémon. (N'appliquez pas la Faiblesse et la Résistance aux Pokémon de Banc.)"
 			}
 
 		},

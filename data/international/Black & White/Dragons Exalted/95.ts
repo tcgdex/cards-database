@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Zweilous",
-		fr: "Diamat",
-		es: "Zweilous",
-		it: "Zweilous",
-		pt: "Zweilous",
-		de: "Duodino"
+		'en-us': "Zweilous",
+		'fr-fr': "Diamat",
+		'es-es': "Zweilous",
+		'it-it': "Zweilous",
+		'pt-br': "Zweilous",
+		'de-de': "Duodino"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Deino",
-		fr: "Solochi",
+		'en-us': "Deino",
+		'fr-fr': "Solochi",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crunch",
-				fr: "Mâchouille",
+				'en-us': "Crunch",
+				'fr-fr': "Mâchouille",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 30,
 
@@ -57,8 +57,8 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Dragon Claw",
-				fr: "Dracogriffe",
+				'en-us': "Dragon Claw",
+				'fr-fr': "Dracogriffe",
 			},
 
 			damage: 80,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "After it has eaten up all the food in its territory, it moves to another area. Its two heads do not get along.",
+		'en-us': "After it has eaten up all the food in its territory, it moves to another area. Its two heads do not get along.",
 	},
 
 	thirdParty: {

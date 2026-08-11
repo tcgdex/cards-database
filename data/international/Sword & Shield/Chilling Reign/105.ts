@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Venipede",
-		fr: "Venipatte",
-		es: "Venipede",
-		it: "Venipede",
-		pt: "Venipede",
-		de: "Toxiped"
+		'en-us': "Venipede",
+		'fr-fr': "Venipatte",
+		'es-es': "Venipede",
+		'it-it': "Venipede",
+		'pt-br': "Venipede",
+		'de-de': "Toxiped"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -22,21 +22,21 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Poison Sting",
-			fr: "Dard-Venin",
-			es: "Picotazo Veneno",
-			it: "Velenospina",
-			pt: "Ferrão Venenoso",
-			de: "Giftstachel"
+			'en-us': "Poison Sting",
+			'fr-fr': "Dard-Venin",
+			'es-es': "Picotazo Veneno",
+			'it-it': "Velenospina",
+			'pt-br': "Ferrão Venenoso",
+			'de-de': "Giftstachel"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		},
 
 		damage: 10,
@@ -55,7 +55,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it."
+		'en-us': "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it."
 	},
 
 	variants: [

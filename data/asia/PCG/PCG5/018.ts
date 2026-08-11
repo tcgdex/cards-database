@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグビー",
+		'ja-jp': "マグビー",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "赤ちゃんの進化",
+				'ja-jp': "赤ちゃんの進化",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前に）、マグマーをマグビーに乗せて（これは進化するマグビーとしてカウントされます）、Magbyからすべてのダメージカウンターを削除することができます。",
+				'ja-jp': "ターン中に（攻撃の前に）、マグマーをマグビーに乗せて（これは進化するマグビーとしてカウントされます）、Magbyからすべてのダメージカウンターを削除することができます。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "発火",
+				'ja-jp': "発火",
 			},
 			effect: {
-				ja: "74が機能している場合、防御するポケモンは燃えています。",
+				'ja-jp': "74が機能している場合、防御するポケモンは燃えています。",
 			},
 			damage: 10,
 		},

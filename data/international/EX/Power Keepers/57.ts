@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Charge",
-				fr: "Recharge",
-				de: "Laden"
+				'en-us': "Charge",
+				'fr-fr': "Recharge",
+				'de-de': "Laden"
 			},
 			effect: {
-				en: "Search your discard pile for a Lightning Energy card and attach it to Pikachu.",
-				fr: "Cherchez dans votre pile de défausse une carte Énergie  et attachez-la à Pikachu.",
-				de: "Durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an Pikachu an."
+				'en-us': "Search your discard pile for a Lightning Energy card and attach it to Pikachu.",
+				'fr-fr': "Cherchez dans votre pile de défausse une carte Énergie  et attachez-la à Pikachu.",
+				'de-de': "Durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an Pikachu an."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slam",
-				fr: "Souplesse",
-				de: "Slam"
+				'en-us': "Slam",
+				'fr-fr': "Souplesse",
+				'de-de': "Slam"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "20x",
 

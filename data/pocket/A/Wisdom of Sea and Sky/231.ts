@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eevee",
-		fr: "Évoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli"
 	},
 
 	illustrator: "MAHOU",
@@ -18,23 +18,23 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Its ability to evolve into many forms allows it to\nadapt smoothly and perfectly to any environment.",
-		fr: "Ses multiples évolutions lui permettent de s'adapter à tout type de milieu naturel."
+		'en-us': "Its ability to evolve into many forms allows it to\nadapt smoothly and perfectly to any environment.",
+		'fr-fr': "Ses multiples évolutions lui permettent de s'adapter à tout type de milieu naturel."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Find a Friend",
-			fr: "Trouver un Ami"
+			'en-us': "Find a Friend",
+			'fr-fr': "Trouver un Ami"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Put a random Pokémon from your deck into your hand.",
-			fr: "Ajoutez au hasard un Pokémon de votre deck à votre main."
+			'en-us': "Put a random Pokémon from your deck into your hand.",
+			'fr-fr': "Ajoutez au hasard un Pokémon de votre deck à votre main."
 		}
 	}],
 

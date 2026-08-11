@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mow Rotom",
-		fr: "Motisma Tonte",
-		es: "Rotom Corte",
-		it: "Rotom Taglio",
-		pt: "Rotom Corte",
-		de: "Schneid-Rotom"
+		'en-us': "Mow Rotom",
+		'fr-fr': "Motisma Tonte",
+		'es-es': "Rotom Corte",
+		'it-it': "Rotom Taglio",
+		'pt-br': "Rotom Corte",
+		'de-de': "Schneid-Rotom"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Reaping Dash",
-			fr: "Ruée Faucheuse",
-			es: "Carrera Segadora",
-			it: "Falciscatto",
-			pt: "Arremetida Ceifadora",
-			de: "Mähender Sprint"
+			'en-us': "Reaping Dash",
+			'fr-fr': "Ruée Faucheuse",
+			'es-es': "Carrera Segadora",
+			'it-it': "Falciscatto",
+			'pt-br': "Arremetida Ceifadora",
+			'de-de': "Mähender Sprint"
 		},
 
 		effect: {
-			en: "Before doing damage, discard all Pokémon Tools and Special Energy from your opponent's Active Pokémon.",
-			fr: "Avant d'infliger des dégâts, défaussez tous les Outils Pokémon et toutes les Énergies spéciales du Pokémon Actif de votre adversaire.",
-			es: "Antes de infligir daño, descarta todas las Herramientas Pokémon y Energías Especiales del Pokémon Activo de tu rival.",
-			it: "Prima di infliggere danni, scarta tutte le carte Oggetto Pokémon e le Energie speciali dal Pokémon attivo del tuo avversario.",
-			pt: "Antes de causar dano, descarte todas as Ferramentas Pokémon e Energias Especiais do Pokémon Ativo do seu oponente.",
-			de: "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen und Spezial-Energien vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+			'en-us': "Before doing damage, discard all Pokémon Tools and Special Energy from your opponent's Active Pokémon.",
+			'fr-fr': "Avant d'infliger des dégâts, défaussez tous les Outils Pokémon et toutes les Énergies spéciales du Pokémon Actif de votre adversaire.",
+			'es-es': "Antes de infligir daño, descarta todas las Herramientas Pokémon y Energías Especiales del Pokémon Activo de tu rival.",
+			'it-it': "Prima di infliggere danni, scarta tutte le carte Oggetto Pokémon e le Energie speciali dal Pokémon attivo del tuo avversario.",
+			'pt-br': "Antes de causar dano, descarte todas as Ferramentas Pokémon e Energias Especiais do Pokémon Ativo do seu oponente.",
+			'de-de': "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen und Spezial-Energien vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 30

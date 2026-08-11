@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ギルガルド",
+		'ja-jp': "ギルガルド",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "王の 素質を 持つ 人間を 見抜くらしい。 認められた 人は やがて 王になると 言われている。",
+		'ja-jp': "王の 素質を 持つ 人間を 見抜くらしい。 認められた 人は やがて 王になると 言われている。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ロイヤルガード" },
 			effect: {
-				ja: "このポケモンが受けるワザのダメージは「-40」される。",
+				'ja-jp': "このポケモンが受けるワザのダメージは「-40」される。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Metal", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニダンギル",
+		'ja-jp': "ニダンギル",
 	},
 
 	retreat: 3,

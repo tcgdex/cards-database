@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Charmander",
+		'en-us': "Charmander",
 	},
 
 	illustrator: "match",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Draw In",
+				'en-us': "Draw In",
 			},
 			effect: {
-				en: "Attach 2 Fire Energy cards from your discard pile to this Pokémon.",
+				'en-us': "Attach 2 Fire Energy cards from your discard pile to this Pokémon.",
 			},
 
 		},
@@ -42,7 +42,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare",
+				'en-us': "Flare",
 			},
 
 			damage: 20,
@@ -60,7 +60,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.",
+		'en-us': "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.",
 	},
 
 	thirdParty: {

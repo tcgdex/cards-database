@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Solosis",
-		fr: "Nucléos",
-		es: "Solosis",
-		it: "Solosis",
-		pt: "Solosis",
-		de: "Monozyto"
+		'en-us': "Solosis",
+		'fr-fr': "Nucléos",
+		'es-es': "Solosis",
+		'it-it': "Solosis",
+		'pt-br': "Solosis",
+		'de-de': "Monozyto"
 	},
 
 	illustrator: "MAHOU",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Cell Culture",
-				fr: "Culture Cellulaire",
+				'en-us': "Cell Culture",
+				'fr-fr': "Culture Cellulaire",
 			},
 			effect: {
-				en: "Search your deck for Solosis and put it onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez Nucléos dans votre deck et placez-le sur votre Banc. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for Solosis and put it onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez Nucléos dans votre deck et placez-le sur votre Banc. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
 			},
 
 			damage: 20,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Because their bodies are enveloped in a special liquid, they can survive in any environment.",
+		'en-us': "Because their bodies are enveloped in a special liquid, they can survive in any environment.",
 	},
 
 	thirdParty: {

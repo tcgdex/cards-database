@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Lucario C",
-		fr: "Lucario ",
-		de: "Lucario C"
+		'en-us': "Lucario C",
+		'fr-fr': "Lucario ",
+		'de-de': "Lucario C"
 	},
 	illustrator: "kawayoo",
 	rarity: "Rare",
@@ -27,9 +27,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Claw",
-				fr: "Griffe acier",
-				de: "Metallklaue"
+				'en-us': "Metal Claw",
+				'fr-fr': "Griffe acier",
+				'de-de': "Metallklaue"
 			},
 
 			damage: 20,
@@ -42,14 +42,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mid-air Strike",
-				fr: "Coup en l'air",
-				de: "Sprunghieb"
+				'en-us': "Mid-air Strike",
+				'fr-fr': "Coup en l'air",
+				'de-de': "Sprunghieb"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 

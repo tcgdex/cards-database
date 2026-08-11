@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spinda",
-		fr: "Spinda",
-		es: "Spinda",
-		it: "Spinda",
-		pt: "Spinda",
-		de: "Pandir"
+		'en-us': "Spinda",
+		'fr-fr': "Spinda",
+		'es-es': "Spinda",
+		'it-it': "Spinda",
+		'pt-br': "Spinda",
+		'de-de': "Pandir"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Tangled Feet",
-			fr: "Pieds Confus",
-			es: "Tumbos",
-			it: "Intricopiedi",
-			pt: "Pés Confusos",
-			de: "Taumelschritt"
+			'en-us': "Tangled Feet",
+			'fr-fr': "Pieds Confus",
+			'es-es': "Tumbos",
+			'it-it': "Intricopiedi",
+			'pt-br': "Pés Confusos",
+			'de-de': "Taumelschritt"
 		},
 
 		effect: {
-			en: "If this Pokémon is Confused and is damaged by an attack, flip a coin. If heads, prevent that damage.",
-			fr: "Si ce Pokémon est Confus et qu'il subit les dégâts d'une attaque, lancez une pièce. Si c'est face, évitez ces dégâts.",
-			es: "Si este Pokémon está Confundido y resulta dañado por un ataque, lanza 1 moneda. Si sale cara, se evita ese daño.",
-			it: "Se questo Pokémon è confuso e viene danneggiato da un attacco, lancia una moneta. Se esce testa, previeni quei danni.",
-			pt: "Se este Pokémon estiver Confuso e for danificado por um ataque, jogue uma moeda. Se sair cara, previna aquele dano.",
-			de: "Wenn dieses Pokémon verwirrt ist und durch eine Attacke Schaden erhält, wirf 1 Münze. Verhindere bei Kopf jenen Schaden."
+			'en-us': "If this Pokémon is Confused and is damaged by an attack, flip a coin. If heads, prevent that damage.",
+			'fr-fr': "Si ce Pokémon est Confus et qu'il subit les dégâts d'une attaque, lancez une pièce. Si c'est face, évitez ces dégâts.",
+			'es-es': "Si este Pokémon está Confundido y resulta dañado por un ataque, lanza 1 moneda. Si sale cara, se evita ese daño.",
+			'it-it': "Se questo Pokémon è confuso e viene danneggiato da un attacco, lancia una moneta. Se esce testa, previeni quei danni.",
+			'pt-br': "Se este Pokémon estiver Confuso e for danificado por um ataque, jogue uma moeda. Se sair cara, previna aquele dano.",
+			'de-de': "Wenn dieses Pokémon verwirrt ist und durch eine Attacke Schaden erhält, wirf 1 Münze. Verhindere bei Kopf jenen Schaden."
 		}
 	}],
 
@@ -46,21 +46,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Teetering Steps",
-			fr: "Pas Chancelants",
-			es: "Pisadas Tambaleantes",
-			it: "Strampapassi",
-			pt: "Passos Cambaleantes",
-			de: "Schwankende Schritte"
+			'en-us': "Teetering Steps",
+			'fr-fr': "Pas Chancelants",
+			'es-es': "Pisadas Tambaleantes",
+			'it-it': "Strampapassi",
+			'pt-br': "Passos Cambaleantes",
+			'de-de': "Schwankende Schritte"
 		},
 
 		effect: {
-			en: "This Pokémon is now Confused.",
-			fr: "Ce Pokémon est maintenant Confus.",
-			es: "Este Pokémon pasa a estar Confundido.",
-			it: "Questo Pokémon viene confuso.",
-			pt: "Este Pokémon agora está Confuso.",
-			de: "Dieses Pokémon ist jetzt verwirrt."
+			'en-us': "This Pokémon is now Confused.",
+			'fr-fr': "Ce Pokémon est maintenant Confus.",
+			'es-es': "Este Pokémon pasa a estar Confundido.",
+			'it-it': "Questo Pokémon viene confuso.",
+			'pt-br': "Este Pokémon agora está Confuso.",
+			'de-de': "Dieses Pokémon ist jetzt verwirrt."
 		},
 
 		damage: 100
@@ -76,7 +76,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Each Spinda's spot pattern is different. With its stumbling movements, it evades opponents' attacks brilliantly!",
+		'en-us': "Each Spinda's spot pattern is different. With its stumbling movements, it evades opponents' attacks brilliantly!",
 	},
 
 	variants: [

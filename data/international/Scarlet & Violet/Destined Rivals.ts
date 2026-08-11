@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Scarlet & Violet'
 
 const set: Set = {
 	id: "sv10",
 
 	name: {
-		de: "Ewige Rivalen",
-		en: "Destined Rivals",
-		es: "Rivales Predestinados",
-		fr: "Rivalités Destinées",
-		it: "Rivali Predestinati",
-		pt: "Rivais Predestinados",
+		'de-de': "Ewige Rivalen",
+		'en-us': "Destined Rivals",
+		'es-es': "Rivales Predestinados",
+		'fr-fr': "Rivalités Destinées",
+		'it-it': "Rivali Predestinati",
+		'pt-br': "Rivais Predestinados",
 		'es-mx': 'Rivales Predestinados'
 	},
 
@@ -24,7 +24,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "DRI",
-		fr: "RVD"
+		'fr-fr': "RVD"
 	},
 
 	thirdParty: {

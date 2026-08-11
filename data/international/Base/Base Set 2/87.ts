@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
+		'en-us': "Pikachu",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
+				'en-us': "Gnaw",
 			},
 
 			damage: 10,
@@ -41,10 +41,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Jolt",
+				'en-us': "Thunder Jolt",
 			},
 			effect: {
-				en: "Flip a coin. If tails, Pikachu does 10 damage to itself.",
+				'en-us': "Flip a coin. If tails, Pikachu does 10 damage to itself.",
 			},
 			damage: 30,
 
@@ -61,7 +61,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When several of these Pokémon gather, their electricity can cause lightning storms.",
+		'en-us': "When several of these Pokémon gather, their electricity can cause lightning storms.",
 	},
 
 

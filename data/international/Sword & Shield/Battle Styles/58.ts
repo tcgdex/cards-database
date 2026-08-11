@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Claydol",
-		fr: "Kaorine",
-		es: "Claydol",
-		it: "Claydol",
-		pt: "Claydol",
-		de: "Lepumentas"
+		'en-us': "Claydol",
+		'fr-fr': "Kaorine",
+		'es-es': "Claydol",
+		'it-it': "Claydol",
+		'pt-br': "Claydol",
+		'de-de': "Lepumentas"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -21,42 +21,42 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Baltoy",
-		fr: "Balbuto",
-		es: "Baltoy",
-		it: "Baltoy",
-		pt: "Baltoy",
-		de: "Puppance"
+		'en-us': "Baltoy",
+		'fr-fr': "Balbuto",
+		'es-es': "Baltoy",
+		'it-it': "Baltoy",
+		'pt-br': "Baltoy",
+		'de-de': "Puppance"
 	},
 
 	attacks: [{
 		name: {
-			en: "Power Split",
-			fr: "Partage Force",
-			es: "Isofuerza",
-			it: "Pariattacco",
-			pt: "Divisão Poderosa",
-			de: "Kraftteiler"
+			'en-us': "Power Split",
+			'fr-fr': "Partage Force",
+			'es-es': "Isofuerza",
+			'it-it': "Pariattacco",
+			'pt-br': "Divisão Poderosa",
+			'de-de': "Kraftteiler"
 		},
 
 		effect: {
-			en: "Attach Psychic Energy cards from your discard pile to your Pokémon in any way you like until your Pokémon and your opponent's Pokémon have the same total amount of Energy attached.",
-			fr: "Attachez des cartes Énergie Psychic de votre pile de défausse à vos Pokémon comme il vous plaît, jusqu'à ce que vos Pokémon et ceux de votre adversaire aient la même quantité d'Énergie attachée.",
-			es: "Une cartas de Energía Psychic de tu pila de descartes a tus Pokémon de la manera que desees hasta que tus Pokémon y los Pokémon de tu rival tengan la misma cantidad total de Energías unidas a ellos.",
-			it: "Assegna ai tuoi Pokémon delle carte Energia Psychic dalla tua pila degli scarti nel modo che preferisci finché i tuoi Pokémon e quelli del tuo avversario non hanno lo stesso numero totale di Energie assegnate.",
-			pt: "Ligue cartas de Energia Psychic da sua pilha de descarte aos seus Pokémon como desejar até que seus Pokémon e os Pokémon do seu oponente tenham a mesma quantidade total de Energia ligada a eles.",
-			de: "Lege so lange Psychic-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an, bis an deine Pokémon und die Pokémon deines Gegners dieselbe Gesamtzahl von Energiekarten angelegt ist."
+			'en-us': "Attach Psychic Energy cards from your discard pile to your Pokémon in any way you like until your Pokémon and your opponent's Pokémon have the same total amount of Energy attached.",
+			'fr-fr': "Attachez des cartes Énergie Psychic de votre pile de défausse à vos Pokémon comme il vous plaît, jusqu'à ce que vos Pokémon et ceux de votre adversaire aient la même quantité d'Énergie attachée.",
+			'es-es': "Une cartas de Energía Psychic de tu pila de descartes a tus Pokémon de la manera que desees hasta que tus Pokémon y los Pokémon de tu rival tengan la misma cantidad total de Energías unidas a ellos.",
+			'it-it': "Assegna ai tuoi Pokémon delle carte Energia Psychic dalla tua pila degli scarti nel modo che preferisci finché i tuoi Pokémon e quelli del tuo avversario non hanno lo stesso numero totale di Energie assegnate.",
+			'pt-br': "Ligue cartas de Energia Psychic da sua pilha de descarte aos seus Pokémon como desejar até que seus Pokémon e os Pokémon do seu oponente tenham a mesma quantidade total de Energia ligada a eles.",
+			'de-de': "Lege so lange Psychic-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an, bis an deine Pokémon und die Pokémon deines Gegners dieselbe Gesamtzahl von Energiekarten angelegt ist."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Psyshot",
-			fr: "Piqûre Psy",
-			es: "Disparo Psi",
-			it: "Psicosparo",
-			pt: "Tiro Psíquico",
-			de: "Psychoschuss"
+			'en-us': "Psyshot",
+			'fr-fr': "Piqûre Psy",
+			'es-es': "Disparo Psi",
+			'it-it': "Psicosparo",
+			'pt-br': "Tiro Psíquico",
+			'de-de': "Psychoschuss"
 		},
 
 		damage: 100,
@@ -80,7 +80,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It appears to have been born from clay dolls made by ancient people. It uses telekinesis to float and move."
+		'en-us': "It appears to have been born from clay dolls made by ancient people. It uses telekinesis to float and move."
 	},
 
 	variants: [

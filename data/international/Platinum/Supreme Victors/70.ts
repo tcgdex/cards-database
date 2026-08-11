@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Milotic",
-		fr: "Milobellus",
-		de: "Milotic"
+		'en-us': "Milotic",
+		'fr-fr': "Milobellus",
+		'de-de': "Milotic"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Feebas",
-		fr: "Barpau"
+		'en-us': "Feebas",
+		'fr-fr': "Barpau"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cleansing Ring",
-				fr: "Cercle nettoyant",
-				de: "Reinigungsring"
+				'en-us': "Cleansing Ring",
+				'fr-fr': "Cercle nettoyant",
+				'de-de': "Reinigungsring"
 			},
 			effect: {
-				en: "You may discard 2 cards from your hand. If you do, remove 4 damage counters from 1 of your Pokémon.",
-				fr: "Vous pouvez défausser 2 cartes de votre main. Retirez alors à 1 de vos Pokémon 4 marqueurs de dégât.",
-				de: "Du kannst 2 Karten von deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, entferne 4 Schadensmarken von 1 deiner Pokémon."
+				'en-us': "You may discard 2 cards from your hand. If you do, remove 4 damage counters from 1 of your Pokémon.",
+				'fr-fr': "Vous pouvez défausser 2 cartes de votre main. Retirez alors à 1 de vos Pokémon 4 marqueurs de dégât.",
+				'de-de': "Du kannst 2 Karten von deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, entferne 4 Schadensmarken von 1 deiner Pokémon."
 			},
 			damage: 20,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scale Blow",
-				fr: "Coup d'écaille",
-				de: "Schuppenschlag"
+				'en-us': "Scale Blow",
+				'fr-fr': "Coup d'écaille",
+				'de-de': "Schuppenschlag"
 			},
 			effect: {
-				en: "Does 90 damage minus 10 damage for each card in your hand.",
-				fr: "Inflige 90 dégâts moins 10 dégâts pour chaque carte se trouvant dans votre main.",
-				de: "Dieser Angriff fügt 90 Schadenspunkte minus 10 Schadenspunkte für jede Karte auf deiner Hand zu."
+				'en-us': "Does 90 damage minus 10 damage for each card in your hand.",
+				'fr-fr': "Inflige 90 dégâts moins 10 dégâts pour chaque carte se trouvant dans votre main.",
+				'de-de': "Dieser Angriff fügt 90 Schadenspunkte minus 10 Schadenspunkte für jede Karte auf deiner Hand zu."
 			},
 			damage: "90-",
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its lovely scales are described as rainbow colored. They change color depending on the viewing angle."
+		'en-us': "Its lovely scales are described as rainbow colored. They change color depending on the viewing angle."
 	},
 
 	variants: [

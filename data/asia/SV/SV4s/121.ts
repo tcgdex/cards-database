@@ -1,18 +1,18 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Kemoceng Terkutuk"
+		'id-id': "Kemoceng Terkutuk"
 	},
 
 	illustrator: "AYUMI ODASHIMA",
 	category: "Trainer",
 
 	effect: {
-		id: "Saat Pokémon yang mengenakan kartu ini KO karena menerima kerusakan akibat serangan dari Pokémon lawan, pilih 1 kartu dari Kartu Pegangan lawan tanpa melihat sisi depan, lalu buang ke Trash."
+		'id-id': "Saat Pokémon yang mengenakan kartu ini KO karena menerima kerusakan akibat serangan dari Pokémon lawan, pilih 1 kartu dari Kartu Pegangan lawan tanpa melihat sisi depan, lalu buang ke Trash."
 	},
 
 	trainerType: "Tool",

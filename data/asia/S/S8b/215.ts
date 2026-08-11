@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イオルブVMAX",
+		'ja-jp': "イオルブVMAX",
 	},
 
 	illustrator: "Teeziro",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かいこうせん" },
 			effect: {
-				ja: "このポケモンがバトル場にいるなら、自分の番に1回使える。相手のポケモン全員に、それぞれダメカンを1個のせる。",
+				'ja-jp': "このポケモンがバトル場にいるなら、自分の番に1回使える。相手のポケモン全員に、それぞれダメカンを1個のせる。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数×50ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数×50ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イオルブV",
+		'ja-jp': "イオルブV",
 	},
 
 	retreat: 1,

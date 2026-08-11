@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Golurk",
-		fr: "Golemastoc",
-		es: "Golurk",
-		it: "Golurk",
-		pt: "Golurk",
-		de: "Golgantes"
+		'en-us': "Golurk",
+		'fr-fr': "Golemastoc",
+		'es-es': "Golurk",
+		'it-it': "Golurk",
+		'pt-br': "Golurk",
+		'de-de': "Golgantes"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Golett",
-		fr: "Gringolem",
+		'en-us': "Golett",
+		'fr-fr': "Gringolem",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Rock Tumble",
-				fr: "Roule-Pierre",
-				es: "Avalancha de Rocas",
-				it: "Tiramassi",
-				pt: "Desabamento de Pedras",
-				de: "Rollende Felsen"
+				'en-us': "Rock Tumble",
+				'fr-fr': "Roule-Pierre",
+				'es-es': "Avalancha de Rocas",
+				'it-it': "Tiramassi",
+				'pt-br': "Desabamento de Pedras",
+				'de-de': "Rollende Felsen"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				es: "El daño de este ataque no se ve afectado por Resistencia.",
-				it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-				pt: "O dano deste ataque não é afetado por Resistência.",
-				de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+				'en-us': "This attack’s damage isn’t affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+				'it-it': "I danni di questo attacco non sono influenzati dalla resistenza.",
+				'pt-br': "O dano deste ataque não é afetado por Resistência.",
+				'de-de': "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
 			},
 			damage: 40,
 
@@ -63,20 +63,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fist of Antiquity",
-				fr: "Poing d’Antiquité",
-				es: "Puño de Antigüedad",
-				it: "Pugno dell’Antichità",
-				pt: "Punho da Antiguidade",
-				de: "Faust des Altertums"
+				'en-us': "Fist of Antiquity",
+				'fr-fr': "Poing d’Antiquité",
+				'es-es': "Puño de Antigüedad",
+				'it-it': "Pugno dell’Antichità",
+				'pt-br': "Punho da Antiguidade",
+				'de-de': "Faust des Altertums"
 			},
 			effect: {
-				en: "If you have any Supporter cards in your discard pile, this attack does nothing.",
-				fr: "Si vous avez une carte Supporter dans votre pile de défausse, cette attaque ne fait rien.",
-				es: "Si tienes alguna carta de Partidario en tu pila de descartes, este ataque no hace nada.",
-				it: "Se hai delle carte Aiuto nella tua pila degli scarti, questo attacco non ha effetto.",
-				pt: "Se você tiver alguma carta de Apoiador na sua pilha de descarte, este ataque não fará nada.",
-				de: "Wenn du mindestens 1 Unterstützerkarte in deinem Ablagestapel hast, hat diese Attacke keine Auswirkungen."
+				'en-us': "If you have any Supporter cards in your discard pile, this attack does nothing.",
+				'fr-fr': "Si vous avez une carte Supporter dans votre pile de défausse, cette attaque ne fait rien.",
+				'es-es': "Si tienes alguna carta de Partidario en tu pila de descartes, este ataque no hace nada.",
+				'it-it': "Se hai delle carte Aiuto nella tua pila degli scarti, questo attacco non ha effetto.",
+				'pt-br': "Se você tiver alguma carta de Apoiador na sua pilha de descarte, este ataque não fará nada.",
+				'de-de': "Wenn du mindestens 1 Unterstützerkarte in deinem Ablagestapel hast, hat diese Attacke keine Auswirkungen."
 			},
 			damage: 160,
 
@@ -100,7 +100,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Some say that ancient people invented Golurk to serve as a laborer. It follows its master's orders faithfully.",
+		'en-us': "Some say that ancient people invented Golurk to serve as a laborer. It follows its master's orders faithfully.",
 	},
 
 	thirdParty: {

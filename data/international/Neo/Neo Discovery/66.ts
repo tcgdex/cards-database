@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Tyrogue",
-		fr: "Débugant",
-		de: "Rabauz"
+		'en-us': "Tyrogue",
+		'fr-fr': "Débugant",
+		'de-de': "Rabauz"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -32,15 +32,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Smash Punch",
-				fr: "Boxe",
-				de: "Schmetterschlag"
+				'en-us': "Smash Punch",
+				'fr-fr': "Boxe",
+				'de-de': "Schmetterschlag"
 			},
 
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 30
@@ -48,8 +48,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It is always bursting with energy. To make itself stronger, it keeps on fighting even if it loses.",
-		fr: "Il déborde toujours d'énergie. Pour devenir plus fort, il continue de se battre même s'il perd."
+		'en-us': "It is always bursting with energy. To make itself stronger, it keeps on fighting even if it loses.",
+		'fr-fr': "Il déborde toujours d'énergie. Pour devenir plus fort, il continue de se battre même s'il perd."
 	},
 
 

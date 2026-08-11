@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Otaria",
-		en: "Seel",
-		es: "Seel",
-		it: "Seel",
-		pt: "Seel",
-		de: "Jurob"
+		'fr-fr': "Otaria",
+		'en-us': "Seel",
+		'es-es': "Seel",
+		'it-it': "Seel",
+		'pt-br': "Seel",
+		'de-de': "Jurob"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			fr: "Glacial",
-			en: "Chilly",
-			es: "Fresquito",
-			it: "Addiaccio",
-			pt: "Frio",
-			de: "Frösteln"
+			'fr-fr': "Glacial",
+			'en-us': "Chilly",
+			'es-es': "Fresquito",
+			'it-it': "Addiaccio",
+			'pt-br': "Frio",
+			'de-de': "Frösteln"
 		},
 
 		damage: 20
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Thanks to its thick fat, cold seas don't bother it at all, but it gets tired pretty easily in warm waters.",
+		'en-us': "Thanks to its thick fat, cold seas don't bother it at all, but it gets tired pretty easily in warm waters.",
 	},
 
 	variants: [

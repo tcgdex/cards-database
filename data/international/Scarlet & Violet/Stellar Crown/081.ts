@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Riolu",
-		fr: "Riolu",
-		es: "Riolu",
-		it: "Riolu",
-		pt: "Riolu",
-		de: "Riolu"
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
+		'es-es': "Riolu",
+		'it-it': "Riolu",
+		'pt-br': "Riolu",
+		'de-de': "Riolu"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Punch",
-			fr: "Koud'Poing",
-			es: "Puño",
-			it: "Pugno",
-			pt: "Soco",
-			de: "Boxhieb"
+			'en-us': "Punch",
+			'fr-fr': "Koud'Poing",
+			'es-es': "Puño",
+			'it-it': "Pugno",
+			'pt-br': "Soco",
+			'de-de': "Boxhieb"
 		},
 
 		damage: 30

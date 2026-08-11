@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cynthia's Roselia",
-		fr: "Rosélia de Cynthia",
-		de: "Cynthias Roselia",
-		it: "Roselia di Camilla",
-		es: "Roselia de Cintia",
-		pt: "Roselia da Cíntia",
+		'en-us': "Cynthia's Roselia",
+		'fr-fr': "Rosélia de Cynthia",
+		'de-de': "Cynthias Roselia",
+		'it-it': "Roselia di Camilla",
+		'es-es': "Roselia de Cintia",
+		'pt-br': "Roselia da Cíntia",
 		'es-mx': "Roselia de Cynthia"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Spike Sting",
-			fr: "Pic Piquant",
-			de: "Stachelstich",
-			it: "Aculeopuntura",
-			es: "Picotazo Púas",
-			pt: "Ferroada de Espinhos",
+			'en-us': "Spike Sting",
+			'fr-fr': "Pic Piquant",
+			'de-de': "Stachelstich",
+			'it-it': "Aculeopuntura",
+			'es-es': "Picotazo Púas",
+			'pt-br': "Ferroada de Espinhos",
 			'es-mx': "Piquete de Púas"
 		},
 

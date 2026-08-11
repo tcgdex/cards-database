@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wormadam",
-		fr: "Cheniselle",
-		es: "Wormadam",
-		it: "Wormadam",
-		pt: "Wormadam",
-		de: "Burmadame"
+		'en-us': "Wormadam",
+		'fr-fr': "Cheniselle",
+		'es-es': "Wormadam",
+		'it-it': "Wormadam",
+		'pt-br': "Wormadam",
+		'de-de': "Burmadame"
 	},
 
 	illustrator: "Yuka Morii",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Burmy",
-		fr: "Cheniti",
-		es: "Burmy",
-		it: "Burmy",
-		pt: "Burmy",
-		de: "Burmy"
+		'en-us': "Burmy",
+		'fr-fr': "Cheniti",
+		'es-es': "Burmy",
+		'it-it': "Burmy",
+		'pt-br': "Burmy",
+		'de-de': "Burmy"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Matron's Anger",
-			fr: "Dame Colérique",
-			es: "Enfado de Dama",
-			it: "Ira della Dama",
-			pt: "Fúria Matriarcal",
-			de: "Zorn der Dame"
+			'en-us': "Matron's Anger",
+			'fr-fr': "Dame Colérique",
+			'es-es': "Enfado de Dama",
+			'it-it': "Ira della Dama",
+			'pt-br': "Fúria Matriarcal",
+			'de-de': "Zorn der Dame"
 		},
 
 		effect: {
-			en: "This attack does 10 more damage for each Pokémon in your discard pile.",
-			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Pokémon dans votre pile de défausse.",
-			es: "Este ataque hace 10 puntos de daño más por cada Pokémon en tu pila de descartes.",
-			it: "Questo attacco infligge 10 danni in più per ogni Pokémon nella tua pila degli scarti.",
-			pt: "Este ataque causa 10 pontos de dano a mais para cada Pokémon na sua pilha de descarte.",
-			de: "Diese Attacke fügt für jedes Pokémon in deinem Ablagestapel 10 Schadenspunkte mehr zu."
+			'en-us': "This attack does 10 more damage for each Pokémon in your discard pile.",
+			'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chaque Pokémon dans votre pile de défausse.",
+			'es-es': "Este ataque hace 10 puntos de daño más por cada Pokémon en tu pila de descartes.",
+			'it-it': "Questo attacco infligge 10 danni in più per ogni Pokémon nella tua pila degli scarti.",
+			'pt-br': "Este ataque causa 10 pontos de dano a mais para cada Pokémon na sua pilha de descarte.",
+			'de-de': "Diese Attacke fügt für jedes Pokémon in deinem Ablagestapel 10 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
@@ -57,21 +57,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Leaf Drain",
-			fr: "Feuille Sangsue",
-			es: "Hoja Drenante",
-			it: "Assorbifoglia",
-			pt: "Dreno Folha",
-			de: "Blattsauger"
+			'en-us': "Leaf Drain",
+			'fr-fr': "Feuille Sangsue",
+			'es-es': "Hoja Drenante",
+			'it-it': "Assorbifoglia",
+			'pt-br': "Dreno Folha",
+			'de-de': "Blattsauger"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 80
@@ -88,7 +88,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
+		'en-us': "When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
 	},
 
 	variants: [

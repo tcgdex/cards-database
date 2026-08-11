@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Zygarde",
-		fr: "Zygarde",
-		es: "Zygarde",
-		it: "Zygarde",
-		pt: "Zygarde",
-		de: "Zygarde"
+		'en-us': "Zygarde",
+		'fr-fr': "Zygarde",
+		'es-es': "Zygarde",
+		'it-it': "Zygarde",
+		'pt-br': "Zygarde",
+		'de-de': "Zygarde"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Land Crush",
-				fr: "Écras’Terre",
-				es: "Aterrizaje",
-				it: "Schiacciaterra",
-				pt: "Aperto de Terra",
-				de: "Schollenbrecher"
+				'en-us': "Land Crush",
+				'fr-fr': "Écras’Terre",
+				'es-es': "Aterrizaje",
+				'it-it': "Schiacciaterra",
+				'pt-br': "Aperto de Terra",
+				'de-de': "Schollenbrecher"
 			},
 
 			damage: 80,
@@ -55,20 +55,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Core Enforcer",
-				fr: "Sanction Suprême",
-				es: "Núcleo Castigo",
-				it: "Nucleocastigo",
-				pt: "Núcleo Executor",
-				de: "Sanktionskern"
+				'en-us': "Core Enforcer",
+				'fr-fr': "Sanction Suprême",
+				'es-es': "Núcleo Castigo",
+				'it-it': "Nucleocastigo",
+				'pt-br': "Núcleo Executor",
+				'de-de': "Sanktionskern"
 			},
 			effect: {
-				en: "Discard a Darkness Energy and a Fairy Energy from this Pokémon.",
-				fr: "Défaussez une Énergie Darkness et une Énergie Fairy de ce Pokémon.",
-				es: "Descarta 1 Energía Darkness y 1 Energía Fairy de este Pokémon.",
-				it: "Scarta un’Energia Darkness e un’Energia Fairy assegnate a questo Pokémon.",
-				pt: "Descarte 1 Energia Darkness e 1 Energia Fairy deste Pokémon.",
-				de: "Lege 1 Darkness-Energie sowie 1 Fairy-Energie von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard a Darkness Energy and a Fairy Energy from this Pokémon.",
+				'fr-fr': "Défaussez une Énergie Darkness et une Énergie Fairy de ce Pokémon.",
+				'es-es': "Descarta 1 Energía Darkness y 1 Energía Fairy de este Pokémon.",
+				'it-it': "Scarta un’Energia Darkness e un’Energia Fairy assegnate a questo Pokémon.",
+				'pt-br': "Descarte 1 Energia Darkness e 1 Energia Fairy deste Pokémon.",
+				'de-de': "Lege 1 Darkness-Energie sowie 1 Fairy-Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 150,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "This is Zygarde's form at times when it uses its overwhelming power to suppress those who endanger the ecosystem.",
+		'en-us': "This is Zygarde's form at times when it uses its overwhelming power to suppress those who endanger the ecosystem.",
 	},
 
 	thirdParty: {

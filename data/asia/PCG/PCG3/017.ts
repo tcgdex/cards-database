@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグマー",
+		'ja-jp': "マグマー",
 	},
 
 	rarity: "Rare",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ダンプとドロー",
+				'ja-jp': "ダンプとドロー",
 			},
 			effect: {
-				ja: "手から最大2枚のエネルギーカードを捨ててください。次に、廃棄したエネルギーカードごとに2枚のカードを描画します。",
+				'ja-jp': "手から最大2枚のエネルギーカードを捨ててください。次に、廃棄したエネルギーカードごとに2枚のカードを描画します。",
 			},
 		},
 		{
 			cost: ["Fire", "Colorless", "Colorless"],
 			name: {
-				ja: "炎の尾",
+				'ja-jp': "炎の尾",
 			},
 			damage: 40,
 		},

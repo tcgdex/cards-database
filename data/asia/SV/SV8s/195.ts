@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Latios"
+		'id-id': "Latios"
 	},
 
 	illustrator: "OKACHEKE",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Pokémon yang memiliki kecerdasan tinggi. Jika ia melipat lengannya dan terbang, kecepatannya melampaui pesawat jet."
+		'id-id': "Pokémon yang memiliki kecerdasan tinggi. Jika ia melipat lengannya dan terbang, kecepatannya melampaui pesawat jet."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Terbang Linear"
+			'id-id': "Terbang Linear"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan sejumlah 50 kepada 1 Pokémon lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 50 kepada 1 Pokémon lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
 		},
 
 		cost: ["Psychic", "Colorless"]
 	}, {
 		name: {
-			id: "Jet Head"
+			'id-id': "Jet Head"
 		},
 
 		damage: 110,

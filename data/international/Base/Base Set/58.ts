@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		de: "Pikachu",
-		it: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'de-de': "Pikachu",
+		'it-it': "Pikachu"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Rogne",
-				de: "Nagen",
-				it: "Rosicchiamento"
+				'en-us': "Gnaw",
+				'fr-fr': "Rogne",
+				'de-de': "Nagen",
+				'it-it': "Rosicchiamento"
 			},
 
 			damage: 10,
@@ -47,16 +47,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Jolt",
-				fr: "Secousse Tonnerre",
-				de: "Donnerschock",
-				it: "Scoppiotuono"
+				'en-us': "Thunder Jolt",
+				'fr-fr': "Secousse Tonnerre",
+				'de-de': "Donnerschock",
+				'it-it': "Scoppiotuono"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Pikachu does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Pikachu s'inflige 10 dégâts.",
-				de: "Wirf eine Münze. Bei \"Zahl\" fügt Pikachu sich selbst 10 Schadenspunkte zu.",
-				it: "Lancia una moneta. Se esce croce, Pikachu si infligge 10 danni.",
+				'en-us': "Flip a coin. If tails, Pikachu does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Pikachu s'inflige 10 dégâts.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" fügt Pikachu sich selbst 10 Schadenspunkte zu.",
+				'it-it': "Lancia una moneta. Se esce croce, Pikachu si infligge 10 danni.",
 			},
 			damage: 30,
 
@@ -73,9 +73,9 @@ const card: Card = {
 
 
 	description: {
-		en: "When several of these Pokémon gather, their electricity can cause lightning storms.",
-		fr: "Quand plusieurs de ces Pokémon se réunissent, ils provoquent de gigantesques orages.",
-		it: "Quando diversi Pokémon di questo tipo si riuniscono, generano tanta energia elettrica da scatenare delle tempeste di fulmini. LIV 12 N.25"
+		'en-us': "When several of these Pokémon gather, their electricity can cause lightning storms.",
+		'fr-fr': "Quand plusieurs de ces Pokémon se réunissent, ils provoquent de gigantesques orages.",
+		'it-it': "Quando diversi Pokémon di questo tipo si riuniscono, generano tanta energia elettrica da scatenare delle tempeste di fulmini. LIV 12 N.25"
 	},
 
 	variants: [

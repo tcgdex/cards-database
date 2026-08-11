@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Hitmonchan ex",
-		fr: "Tygnon ex",
-		de: "Nockchan ex"
+		'en-us': "Hitmonchan ex",
+		'fr-fr': "Tygnon ex",
+		'de-de': "Nockchan ex"
 	},
 
 	illustrator: "Hiromichi Sugiyama",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Steady Punch",
-				fr: "Poing énergétique",
-				de: "Ruhiger Schlag"
+				'en-us': "Steady Punch",
+				'fr-fr': "Poing énergétique",
+				'de-de': "Ruhiger Schlag"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts.",
-				de: "Wirf eine Münze. Bei Kopf fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts.",
+				'de-de': "Wirf eine Münze. Bei Kopf fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sky Uppercut",
-				fr: "Stratopercut",
-				de: "Mächtiger Aufwärtshaken"
+				'en-us': "Sky Uppercut",
+				'fr-fr': "Stratopercut",
+				'de-de': "Mächtiger Aufwärtshaken"
 			},
 			effect: {
-				en: "This attack's damage is not affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				de: "Der Schaden dieses Angriff wird nicht durch die Resistenz des Verteidigenden Pokémon verringert."
+				'en-us': "This attack's damage is not affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'de-de': "Der Schaden dieses Angriff wird nicht durch die Resistenz des Verteidigenden Pokémon verringert."
 			},
 			damage: 50,
 

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVLN"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "オドリドリ"
+		'ja-jp': "オドリドリ"
 	},
 
 	illustrator: "saino misaki",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "うすもものミツを 吸った 姿。 緩やかな ステップで 精神を 高め サイコパワーを 放つ。"
+		'ja-jp': "うすもものミツを 吸った 姿。 緩やかな ステップで 精神を 高め サイコパワーを 放つ。"
 	},
 
 	stage: "Basic",
@@ -24,23 +24,23 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "エネアシスト"
+			'ja-jp': "エネアシスト"
 		},
 
 		effect: {
-			ja: "自分のトラッシュから基本エネルギーを2枚まで選び、ベンチポケモン1匹につける。"
+			'ja-jp': "自分のトラッシュから基本エネルギーを2枚まで選び、ベンチポケモン1匹につける。"
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "げんわくダンス"
+			'ja-jp': "げんわくダンス"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "相手のバトルポケモンをこんらんにする。"
+			'ja-jp': "相手のバトルポケモンをこんらんにする。"
 		}
 	}],
 

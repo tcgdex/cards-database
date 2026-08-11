@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "グレンアルマ",
+		'ja-jp': "グレンアルマ",
 		'zh-tw': "紅蓮鎧騎",
-		th: "กุเร็นอาร์มา",
-		id: "Armarouge"
+		'th-th': "กุเร็นอาร์มา",
+		'id-id': "Armarouge"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -18,10 +18,10 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "多くの 武勲を 立てた 戦士の 鎧によって 進化した 姿。 忠誠心の 厚い ポケモン。",
+		'ja-jp': "多くの 武勲を 立てた 戦士の 鎧によって 進化した 姿。 忠誠心の 厚い ポケモン。",
 		'zh-tw': "藉由立下眾多勛績的戰士所穿的鎧甲進化成的樣子。 是忠心耿耿的寶可夢。",
-		th: "ร่างที่วิวัฒนาการด้วยชุดเกราะของนักรบที่สร้างผลงานมามากมาย เป็นโปเกมอนที่มีความจงรักภักดีมาก",
-		id: "Wujud evolusi dari Charcadet menjadi Armarouge berkat zirah milik pendekar yang memenangkan banyak pertarungan. Pokémon yang sangat setia."
+		'th-th': "ร่างที่วิวัฒนาการด้วยชุดเกราะของนักรบที่สร้างผลงานมามากมาย เป็นโปเกมอนที่มีความจงรักภักดีมาก",
+		'id-id': "Wujud evolusi dari Charcadet menjadi Armarouge berkat zirah milik pendekar yang memenangkan banyak pertarungan. Pokémon yang sangat setia."
 	},
 
 	stage: "Stage1",
@@ -30,17 +30,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ひおくり",
+			'ja-jp': "ひおくり",
 			'zh-tw': "送火",
-			th: "ส่งไฟ",
-			id: "Mengantarkan Api"
+			'th-th': "ส่งไฟ",
+			'id-id': "Mengantarkan Api"
 		},
 
 		effect: {
-			ja: "自分の番に何回でも使える。自分のベンチポケモンについているエネルギーを1個選び、バトルポケモンにつけ替える。",
+			'ja-jp': "自分の番に何回でも使える。自分のベンチポケモンについているエネルギーを1個選び、バトルポケモンにつけ替える。",
 			'zh-tw': "在自己的回合時，可不限次數使用。選擇1個自己的備戰寶可夢身上附加的【火】能量，改附於戰鬥寶可夢身上。",
-			th: "ใช้กี่ครั้งก็ได้ในเทิร์นฝ่ายเรา เลือกพลังงาน[ไฟ]ที่ติดอยู่กับโปเกมอนบนเบนช์ฝ่ายเรา 1 ลูก ย้ายไปติดกับโปเกมอนบนตำแหน่งต่อสู้",
-			id: "Dapat digunakan berkali-kali pada giliran sendiri. Pilih 1 Energi {Api} yang dikenakan pada Pokémon Cadangan sendiri, lalu pindahkan ke Pokémon Bertarung."
+			'th-th': "ใช้กี่ครั้งก็ได้ในเทิร์นฝ่ายเรา เลือกพลังงาน[ไฟ]ที่ติดอยู่กับโปเกมอนบนเบนช์ฝ่ายเรา 1 ลูก ย้ายไปติดกับโปเกมอนบนตำแหน่งต่อสู้",
+			'id-id': "Dapat digunakan berkali-kali pada giliran sendiri. Pilih 1 Energi {Api} yang dikenakan pada Pokémon Cadangan sendiri, lalu pindahkan ke Pokémon Bertarung."
 		}
 	}],
 
@@ -48,19 +48,19 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			ja: "フレイムキャノン",
+			'ja-jp': "フレイムキャノン",
 			'zh-tw': "火焰加農炮",
-			th: "เฟลมแคนนอน",
-			id: "Flame Cannon"
+			'th-th': "เฟลมแคนนอน",
+			'id-id': "Flame Cannon"
 		},
 
 		damage: 90,
 
 		effect: {
-			ja: "相手のバトルポケモンをやけどにする。",
+			'ja-jp': "相手のバトルポケモンをやけどにする。",
 			'zh-tw': "將對手的戰鬥寶可夢【灼傷】。",
-			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ไหม้]",
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
+			'th-th': "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ไหม้]",
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
 		}
 	}],
 

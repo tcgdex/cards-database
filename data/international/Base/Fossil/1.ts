@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fossil'
 
 const card: Card = {
 	name: {
-		en: "Aerodactyl",
-		fr: "Ptera",
-		de: "Aerodactyl"
+		'en-us': "Aerodactyl",
+		'fr-fr': "Ptera",
+		'de-de': "Aerodactyl"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Prehistoric Power",
-				fr: "Arcane",
-				de: "Urzeit-Power"
+				'en-us': "Prehistoric Power",
+				'fr-fr': "Arcane",
+				'de-de': "Urzeit-Power"
 			},
 			effect: {
-				en: "No more Evolution cards can be played. This power stops working while Aerodactyl is Asleep, Confused, or Paralyzed.",
-				fr: "Aucune carte Évolution ne peut être jouée. Ce pouvoir cesse si Ptera est Endormi, Confus ou Paralysé.",
-				de: "Es können keine weiteren Evolutionskarten gespielt werden. Diese Fähigkeit verliert ihre Wirkung, solange Aerodactyl schläft, verwirrt oder gelähmt ist."
+				'en-us': "No more Evolution cards can be played. This power stops working while Aerodactyl is Asleep, Confused, or Paralyzed.",
+				'fr-fr': "Aucune carte Évolution ne peut être jouée. Ce pouvoir cesse si Ptera est Endormi, Confus ou Paralysé.",
+				'de-de': "Es können keine weiteren Evolutionskarten gespielt werden. Diese Fähigkeit verliert ihre Wirkung, solange Aerodactyl schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -49,9 +49,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-aile",
-				de: "Flügelschlag"
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-aile",
+				'de-de': "Flügelschlag"
 			},
 
 			damage: 30,
@@ -76,8 +76,8 @@ const card: Card = {
 
 
 	description: {
-		en: "A ferocious prehistoric Pokémon that goes for the enemy's throat with its serrated saw-like fangs.",
-		fr: "Un Pokémon préhistorique qui attaque son ennemi à la gorge avec ses crocs acérés."
+		'en-us': "A ferocious prehistoric Pokémon that goes for the enemy's throat with its serrated saw-like fangs.",
+		'fr-fr': "Un Pokémon préhistorique qui attaque son ennemi à la gorge avec ses crocs acérés."
 	},
 
 

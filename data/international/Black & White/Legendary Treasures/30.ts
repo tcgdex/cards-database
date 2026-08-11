@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Magikarp",
+		'en-us': "Magikarp",
 	},
 
 	illustrator: "Midori Harada",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flailing Flop",
+				'en-us': "Flailing Flop",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon does 10 damage to itself.",
+				'en-us': "Flip a coin. If tails, this Pokémon does 10 damage to itself.",
 			},
 			damage: 10,
 
@@ -49,7 +49,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Magikarp living for many years can leap a mountain using Splash. The move remains useless, though.",
+		'en-us': "A Magikarp living for many years can leap a mountain using Splash. The move remains useless, though.",
 	},
 
 	thirdParty: {

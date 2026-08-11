@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゼニガメ",
+		'ja-jp': "ゼニガメ",
 		'zh-tw': "哭哭面具",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "危なくなると 甲羅に 手足を 引っこめて 身を 守りながら 口から 水を 吹き出している。",
+		'ja-jp': "危なくなると 甲羅に 手足を 引っこめて 身を 守りながら 口から 水を 吹き出している。",
 		'zh-tw': "古代人的靈魂變成了寶可夢。 為了尋找認得自己長相的人 而在遺跡裡徘徊。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "あわ",
+				'ja-jp': "あわ",
 				'zh-tw': "不祥之眼",
 			},
 			damage: 20,
 			cost: ["Water", "Water"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 				'zh-tw': "在對手的1隻寶可夢身上放置3個傷害指示物。",
 			},
 		},

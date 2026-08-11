@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Camerupt",
-		fr: "Camerupt",
-		de: "Camerupt"
+		'en-us': "Camerupt",
+		'fr-fr': "Camerupt",
+		'de-de': "Camerupt"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Numel",
-		fr: "Chamallot"
+		'en-us': "Numel",
+		'fr-fr': "Chamallot"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lava Burn",
-				fr: "Brûlure de lave",
-				de: "Lava Burn"
+				'en-us': "Lava Burn",
+				'fr-fr': "Brûlure de lave",
+				'de-de': "Lava Burn"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez un Pokémon du Banc de votre adversaire: cette attaque inflige 10 dégâts à ce Pokémon (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
-				de: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez un Pokémon du Banc de votre adversaire: cette attaque inflige 10 dégâts à ce Pokémon (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
+				'de-de': "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 20,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Spin",
-				fr: "Danseflamme",
-				de: "Fire Spin"
+				'en-us': "Fire Spin",
+				'fr-fr': "Danseflamme",
+				'de-de': "Fire Spin"
 			},
 			effect: {
-				en: "Discard 2 basic Energy cards attached to Camerupt or this attack does nothing.",
-				fr: "Défaussez deux cartes Énergie de base attachées à Camerupt ou cette attaque est sans effet.",
-				de: "Discard 2 basic Energy cards attached to Camerupt or this attack does nothing."
+				'en-us': "Discard 2 basic Energy cards attached to Camerupt or this attack does nothing.",
+				'fr-fr': "Défaussez deux cartes Énergie de base attachées à Camerupt ou cette attaque est sans effet.",
+				'de-de': "Discard 2 basic Energy cards attached to Camerupt or this attack does nothing."
 			},
 			damage: 100,
 

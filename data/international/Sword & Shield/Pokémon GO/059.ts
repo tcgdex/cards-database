@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pokémon GO"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bidoof",
-		fr: "Keunotor",
-		es: "Bidoof",
-		it: "Bidoof",
-		pt: "Bidoof",
-		de: "Bidiza"
+		'en-us': "Bidoof",
+		'fr-fr': "Keunotor",
+		'es-es': "Bidoof",
+		'it-it': "Bidoof",
+		'pt-br': "Bidoof",
+		'de-de': "Bidiza"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Take Down",
-			fr: "Bélier",
-			es: "Derribo",
-			it: "Riduttore",
-			pt: "Desmantelar",
-			de: "Bodycheck"
+			'en-us': "Take Down",
+			'fr-fr': "Bélier",
+			'es-es': "Derribo",
+			'it-it': "Riduttore",
+			'pt-br': "Desmantelar",
+			'de-de': "Bodycheck"
 		},
 
 		effect: {
-			en: "This Pokémon also does 10 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
-			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 10 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 10 dégâts.",
+			'es-es': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 10 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
 		},
 
 		damage: 50
@@ -56,7 +56,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.",
+		'en-us': "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.",
 	},
 
 

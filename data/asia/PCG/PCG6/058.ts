@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マロワク（デルタ種）",
+		'ja-jp': "マロワク（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Metal"],
 			name: {
-				ja: "エネルギー骨",
+				'ja-jp': "エネルギー骨",
 			},
 			effect: {
-				ja: "Marowakに取り付けられたエネルギーの量まで、相手のポケモンをいくつか選択してください。この攻撃は、それぞれに20のダメージを与えます。",
+				'ja-jp': "Marowakに取り付けられたエネルギーの量まで、相手のポケモンをいくつか選択してください。この攻撃は、それぞれに20のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "メタルクラッシャー",
+				'ja-jp': "メタルクラッシャー",
 			},
 			effect: {
-				ja: "防御ポケモンが金属ポケモンの場合、この攻撃の基本ダメージは90です。",
+				'ja-jp': "防御ポケモンが金属ポケモンの場合、この攻撃の基本ダメージは90です。",
 			},
 			damage: 50,
 		},

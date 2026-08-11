@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vanillish",
-		fr: "Sorboul",
-		es: "Vanillish",
-		it: "Vanillish",
-		pt: "Vanillish",
-		de: "Gelatroppo"
+		'en-us': "Vanillish",
+		'fr-fr': "Sorboul",
+		'es-es': "Vanillish",
+		'it-it': "Vanillish",
+		'pt-br': "Vanillish",
+		'de-de': "Gelatroppo"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Vanillite",
-		fr: "Sorbébé",
-		es: "Vanillite",
-		it: "Vanillite",
-		pt: "Vanillite",
-		de: "Gelatini"
+		'en-us': "Vanillite",
+		'fr-fr': "Sorbébé",
+		'es-es': "Vanillite",
+		'it-it': "Vanillite",
+		'pt-br': "Vanillite",
+		'de-de': "Gelatini"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			en: "Frost Smash",
-			fr: "Impact Glacial",
-			es: "Golpe Gélido",
-			it: "Gelocolpo",
-			pt: "Pancada Congelada",
-			de: "Frostschlag"
+			'en-us': "Frost Smash",
+			'fr-fr': "Impact Glacial",
+			'es-es': "Golpe Gélido",
+			'it-it': "Gelocolpo",
+			'pt-br': "Pancada Congelada",
+			'de-de': "Frostschlag"
 		},
 
 		damage: 60
@@ -53,7 +53,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It blasts enemies with cold air reaching −148 degrees Fahrenheit, freezing them solid. But it spares their lives afterward—it's a kind Pokémon.",
+		'en-us': "It blasts enemies with cold air reaching −148 degrees Fahrenheit, freezing them solid. But it spares their lives afterward—it's a kind Pokémon.",
 	},
 
 	variants: [

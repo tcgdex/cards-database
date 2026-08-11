@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Hachécateur V",
-		de: "Axantor V",
-		es: "Kleavor V",
-		pt: "Kleavor V",
-		it: "Kleavor V",
-		en: "Kleavor V"
+		'fr-fr': "Hachécateur V",
+		'de-de': "Axantor V",
+		'es-es': "Kleavor V",
+		'pt-br': "Kleavor V",
+		'it-it': "Kleavor V",
+		'en-us': "Kleavor V"
 	},
 
 	rarity: "Promo",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			fr: "Coupe",
-			de: "Zerschneider",
-			es: "Corte",
-			pt: "Cortar",
-			it: "Taglio",
-			en: "Cut"
+			'fr-fr': "Coupe",
+			'de-de': "Zerschneider",
+			'es-es': "Corte",
+			'pt-br': "Cortar",
+			'it-it': "Taglio",
+			'en-us': "Cut"
 		},
 
 		damage: 40
@@ -38,21 +38,21 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			fr: "Hache Tranchante",
-			de: "Axthieb",
-			es: "Tajo Hacha",
-			pt: "Machadada",
-			it: "Lacerascure",
-			en: "Axe Slash"
+			'fr-fr': "Hache Tranchante",
+			'de-de': "Axthieb",
+			'es-es': "Tajo Hacha",
+			'pt-br': "Machadada",
+			'it-it': "Lacerascure",
+			'en-us': "Axe Slash"
 		},
 
 		effect: {
-			fr: "Défaussez une Énergie de ce Pokémon. Dans ce cas, défaussez une Énergie du Pokémon Actif de votre adversaire.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel. Wenn du das machst, lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
-			es: "Descarta 1 Energía de este Pokémon. Si lo haces, descarta 1 Energía del Pokémon Activo de tu rival.",
-			pt: "Descarte 1 Energia deste Pokémon. Se fizer isto, descarte 1 Energia do Pokémon Ativo do seu oponente.",
-			it: "Scarta un'Energia da questo Pokémon. Se lo fai, scarta un'Energia dal Pokémon attivo del tuo avversario.",
-			en: "Discard an Energy from this Pokémon. If you do, discard an Energy from your opponent's Active Pokémon."
+			'fr-fr': "Défaussez une Énergie de ce Pokémon. Dans ce cas, défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel. Wenn du das machst, lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+			'es-es': "Descarta 1 Energía de este Pokémon. Si lo haces, descarta 1 Energía del Pokémon Activo de tu rival.",
+			'pt-br': "Descarte 1 Energia deste Pokémon. Se fizer isto, descarte 1 Energia do Pokémon Ativo do seu oponente.",
+			'it-it': "Scarta un'Energia da questo Pokémon. Se lo fai, scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			'en-us': "Discard an Energy from this Pokémon. If you do, discard an Energy from your opponent's Active Pokémon."
 		},
 
 		damage: 150

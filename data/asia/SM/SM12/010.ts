@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジュナイパー",
+		'ja-jp': "ジュナイパー",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "矢羽を つがえ 相手に 放つ。 絶対 外せない時は 頭の ツルを引き 集中 するのだ。",
+		'ja-jp': "矢羽を つがえ 相手に 放つ。 絶対 外せない時は 頭の ツルを引き 集中 するのだ。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ちょくげきひこう" },
 			cost: ["Grass"],
 			effect: {
-				ja: "相手のポケモン1匹に、40ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、40ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "ダメカンがのっている相手のベンチポケモン1匹にも、80ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "ダメカンがのっている相手のベンチポケモン1匹にも、80ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "フクスロー",
+		'ja-jp': "フクスロー",
 	},
 
 	retreat: 1,

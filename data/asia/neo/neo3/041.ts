@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピロスワイン",
+		'ja-jp': "ピロスワイン",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "昼寝",
+				'ja-jp': "昼寝",
 			},
 			effect: {
-				ja: "Piloswineから3つのダメージカウンターを削除します。それよりもダメージカウンターが少ない場合は、それらすべてを削除します。",
+				'ja-jp': "Piloswineから3つのダメージカウンターを削除します。それよりもダメージカウンターが少ない場合は、それらすべてを削除します。",
 			},
 		},
 		{
 			cost: ["Fighting", "Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "高速電荷",
+				'ja-jp': "高速電荷",
 			},
 			effect: {
-				ja: "Piloswineはそれ自体に30のダメージを与えます。 Piloswineは、次のターン中にこの攻撃を使用できません。",
+				'ja-jp': "Piloswineはそれ自体に30のダメージを与えます。 Piloswineは、次のターン中にこの攻撃を使用できません。",
 			},
 			damage: 80,
 		},

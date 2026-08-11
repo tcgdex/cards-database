@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Shieldon",
-		fr: "Dinoclier",
-		es: "Shieldon",
-		it: "Shieldon",
-		pt: "Shieldon",
-		de: "Schilterus"
+		'en-us': "Shieldon",
+		'fr-fr': "Dinoclier",
+		'es-es': "Shieldon",
+		'it-it': "Shieldon",
+		'pt-br': "Shieldon",
+		'de-de': "Schilterus"
 	},
 
 	illustrator: "so-taro",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Unidentified Fossil",
-		fr: "Fossile Inconnu",
+		'en-us': "Unidentified Fossil",
+		'fr-fr': "Fossile Inconnu",
 	},
 
 	stage: "Stage1",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				es: "Derribo",
-				it: "Riduttore",
-				pt: "Desmantelar",
-				de: "Bodycheck"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'es-es': "Derribo",
+				'it-it': "Riduttore",
+				'pt-br': "Desmantelar",
+				'de-de': "Bodycheck"
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s’inflige 10 dégâts.",
-				es: "Este Pokémon se hace 10 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 10 danni a se stesso.",
-				pt: "Este Pokémon causa 10 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "This Pokémon does 10 damage to itself.",
+				'fr-fr': "Ce Pokémon s’inflige 10 dégâts.",
+				'es-es': "Este Pokémon se hace 10 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 10 danni a se stesso.",
+				'pt-br': "Este Pokémon causa 10 pontos de dano a si mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 50,
 
@@ -65,12 +65,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confront",
-				fr: "Confrontation",
-				es: "Confrontar",
-				it: "Confronto",
-				pt: "Confrontar",
-				de: "Konfrontieren"
+				'en-us': "Confront",
+				'fr-fr': "Confrontation",
+				'es-es': "Confrontar",
+				'it-it': "Confronto",
+				'pt-br': "Confrontar",
+				'de-de': "Konfrontieren"
 			},
 
 			damage: 80,
@@ -95,7 +95,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This Pokémon lived in primeval jungles. Few enemies would have been willing to square off against its heavily armored face, so it's thought.",
+		'en-us': "This Pokémon lived in primeval jungles. Few enemies would have been willing to square off against its heavily armored face, so it's thought.",
 	},
 
 	thirdParty: {

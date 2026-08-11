@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムキムキダンベル",
+		'ja-jp': "ムキムキダンベル",
 	},
 
 	illustrator: "",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけている1進化ポケモンの最大HPは「40」大きくなる。",
+		'ja-jp': "このカードをつけている1進化ポケモンの最大HPは「40」大きくなる。",
 	},
 
 	variants: [

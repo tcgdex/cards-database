@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG7"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホロンのキャストフォーム",
+		'ja-jp': "ホロンのキャストフォーム",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "デルタドロー",
+				'ja-jp': "デルタドロー",
 			},
 			effect: {
-				ja: "カードにデルタを持っているポケモンの数を数えます。その多くのカードに作成します。",
+				'ja-jp': "カードにデルタを持っているポケモンの数を数えます。その多くのカードに作成します。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Incineroar ex"
+		'id-id': "Incineroar ex"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Hustle Play"
+			'id-id': "Hustle Play"
 		},
 
 		effect: {
-			id: "Energi {Bening} yang dibutuhkan oleh Pokémon ini untuk menggunakan serangan berkurang untuk tiap Pokémon Cadangan lawan."
+			'id-id': "Energi {Bening} yang dibutuhkan oleh Pokémon ini untuk menggunakan serangan berkurang untuk tiap Pokémon Cadangan lawan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Blaze Bomb"
+			'id-id': "Blaze Bomb"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
 		},
 
 		damage: 240,

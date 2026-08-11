@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Okidogi"
+		'id-id': "Okidogi"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Pokémon yang kasar dan mudah marah. Ia memukul habis segalanya dengan mengayunkan rantai di lehernya."
+		'id-id': "Pokémon yang kasar dan mudah marah. Ia memukul habis segalanya dengan mengayunkan rantai di lehernya."
 	},
 
 	stage: "Basic",
@@ -23,17 +23,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Adrenaline Power"
+			'id-id': "Adrenaline Power"
 		},
 
 		effect: {
-			id: "Jika Pokémon ini mengenakan Energi {Kegelapan}, HP maksimal Pokémon ini bertambah sejumlah 100 dan kerusakan akibat serangan yang digunakan oleh Pokémon ini kepada Pokémon Bertarung lawan bertambah sejumlah 100."
+			'id-id': "Jika Pokémon ini mengenakan Energi {Kegelapan}, HP maksimal Pokémon ini bertambah sejumlah 100 dan kerusakan akibat serangan yang digunakan oleh Pokémon ini kepada Pokémon Bertarung lawan bertambah sejumlah 100."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Good Punch"
+			'id-id': "Good Punch"
 		},
 
 		damage: 70,

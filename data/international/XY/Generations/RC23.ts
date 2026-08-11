@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Swablu",
-		fr: "Tylton",
+		'en-us': "Swablu",
+		'fr-fr': "Tylton",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bind Wound",
-				fr: "Blessure Pansée",
+				'en-us': "Bind Wound",
+				'fr-fr': "Blessure Pansée",
 			},
 			effect: {
-				en: "Heal 20 damage from 1 of your Pokémon.",
-				fr: "Soignez 20 dégâts à l'un de vos Pokémon.",
+				'en-us': "Heal 20 damage from 1 of your Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à l'un de vos Pokémon.",
 			},
 
 		},
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Wings and beaks. I like yours, and I like mine, too.",
+		'en-us': "Wings and beaks. I like yours, and I like mine, too.",
 	},
 
 	thirdParty: {

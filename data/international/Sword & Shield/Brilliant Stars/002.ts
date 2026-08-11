@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Exeggutor",
-		fr: "Noadkoko",
-		es: "Exeggutor",
-		it: "Exeggutor",
-		pt: "Exeggutor",
-		de: "Kokowei"
+		'en-us': "Exeggutor",
+		'fr-fr': "Noadkoko",
+		'es-es': "Exeggutor",
+		'it-it': "Exeggutor",
+		'pt-br': "Exeggutor",
+		'de-de': "Kokowei"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Exeggcute",
-		fr: "Noeunoeuf",
-		es: "Exeggcute",
-		it: "Exeggcute",
-		pt: "Exeggcute",
-		de: "Owei"
+		'en-us': "Exeggcute",
+		'fr-fr': "Noeunoeuf",
+		'es-es': "Exeggcute",
+		'it-it': "Exeggcute",
+		'pt-br': "Exeggcute",
+		'de-de': "Owei"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Mega Drain",
-			fr: "Méga-Sangsue",
-			es: "Megaagotar",
-			it: "Megassorbimento",
-			pt: "Megadreno",
-			de: "Megasauger"
+			'en-us': "Mega Drain",
+			'fr-fr': "Méga-Sangsue",
+			'es-es': "Megaagotar",
+			'it-it': "Megassorbimento",
+			'pt-br': "Megadreno",
+			'de-de': "Megasauger"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 70
@@ -57,12 +57,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Seed Bomb",
-			fr: "Canon Graine",
-			es: "Bomba Germen",
-			it: "Semebomba",
-			pt: "Bomba de Sementes",
-			de: "Samenbomben"
+			'en-us': "Seed Bomb",
+			'fr-fr': "Canon Graine",
+			'es-es': "Bomba Germen",
+			'it-it': "Semebomba",
+			'pt-br': "Bomba de Sementes",
+			'de-de': "Samenbomben"
 		},
 
 		damage: 130
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Each of Exeggutor's three heads is thinking different thoughts. The three don't seem to be very interested in one another.",
+		'en-us': "Each of Exeggutor's three heads is thinking different thoughts. The three don't seem to be very interested in one another.",
 	},
 
 	variants: [

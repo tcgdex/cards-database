@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Marill",
-		th: "มาริล"
+		'id-id': "Marill",
+		'th-th': "มาริล"
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -15,16 +15,16 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Karena ekor Marill yang berisi lemak berfungsi sebagai pengganti kantong apung, Pokémon ini baik-baik saja meskipun berada di sungai berarus deras.",
-		th: "หางที่เต็มไปด้วยไขมันข้างในทำหน้าที่เหมือนทุ่นลอยน้ำ แม้ลงแม่น้ำที่ ไหลเชี่ยวก็ไม่เป็นไร"
+		'id-id': "Karena ekor Marill yang berisi lemak berfungsi sebagai pengganti kantong apung, Pokémon ini baik-baik saja meskipun berada di sungai berarus deras.",
+		'th-th': "หางที่เต็มไปด้วยไขมันข้างในทำหน้าที่เหมือนทุ่นลอยน้ำ แม้ลงแม่น้ำที่ ไหลเชี่ยวก็ไม่เป็นไร"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Tubrukan Menggelinding",
-			th: "กลิ้งโจมตี"
+			'id-id': "Tubrukan Menggelinding",
+			'th-th': "กลิ้งโจมตี"
 		},
 
 		damage: 20,

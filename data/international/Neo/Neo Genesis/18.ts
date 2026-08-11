@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Typhlosion",
-		fr: "Typhlosion",
-		de: "Tornupto"
+		'en-us': "Typhlosion",
+		'fr-fr': "Typhlosion",
+		'de-de': "Tornupto"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Quilava",
-		fr: "Feurisson"
+		'en-us': "Quilava",
+		'fr-fr': "Feurisson"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Fire Boost",
-				fr: "Attise feu",
-				de: "Fire Boost"
+				'en-us': "Fire Boost",
+				'fr-fr': "Attise feu",
+				'de-de': "Fire Boost"
 			},
 			effect: {
-				en: "When you play Typhlosion from your hand, you may flip a coin. If heads, search your deck for up to 4 Fire Energy cards and attach them to Typhlosion. Shuffle your deck afterward.",
-				fr: "Lorsque vous jouez Typhlosion depuis votre main, vous pouvez lancer une pièce. Si c'est face, cherchez jusqu'à 4 cartes Énergie  et attachez-les à Typhlosion. Mélangez ensuite votre deck.",
-				de: "When you play Typhlosion from your hand, you may flip a coin. If heads, search your deck for up to 4 @fire Energy cards and attach them to Typhlosion. Shuffle your deck afterward."
+				'en-us': "When you play Typhlosion from your hand, you may flip a coin. If heads, search your deck for up to 4 Fire Energy cards and attach them to Typhlosion. Shuffle your deck afterward.",
+				'fr-fr': "Lorsque vous jouez Typhlosion depuis votre main, vous pouvez lancer une pièce. Si c'est face, cherchez jusqu'à 4 cartes Énergie  et attachez-les à Typhlosion. Mélangez ensuite votre deck.",
+				'de-de': "When you play Typhlosion from your hand, you may flip a coin. If heads, search your deck for up to 4 @fire Energy cards and attach them to Typhlosion. Shuffle your deck afterward."
 			},
 		},
 	],
@@ -55,14 +55,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flame Wheel",
-				fr: "Roue de flammes",
-				de: "Flame Wheel"
+				'en-us': "Flame Wheel",
+				'fr-fr': "Roue de flammes",
+				'de-de': "Flame Wheel"
 			},
 			effect: {
-				en: "Discard 3 Energy cards attached to Typhlosion in order to use this attack. Do 20 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Défaussez 3 cartes Énergie  attachées à Typhlosion afin de pouvoir utiliser cette attaque. Inflige 20 dégâts à chaque Pokémon du Banc (le vôtre et celui de votre adversaire). (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
-				de: "Discard 3  Energy cards attached to Typhlosion in order to use this attack. Do 20 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Discard 3 Energy cards attached to Typhlosion in order to use this attack. Do 20 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Défaussez 3 cartes Énergie  attachées à Typhlosion afin de pouvoir utiliser cette attaque. Inflige 20 dégâts à chaque Pokémon du Banc (le vôtre et celui de votre adversaire). (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
+				'de-de': "Discard 3  Energy cards attached to Typhlosion in order to use this attack. Do 20 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 80,
 
@@ -79,8 +79,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions.",
-		fr: "Il possède une botte secrète dévastatrice. Il frotte sa fourrure de flamme pour provoquer de gigantesques explosions."
+		'en-us': "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions.",
+		'fr-fr': "Il possède une botte secrète dévastatrice. Il frotte sa fourrure de flamme pour provoquer de gigantesques explosions."
 	},
 
 

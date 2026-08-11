@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Cosmog",
-		fr: "Cosmog",
-		es: "Cosmog",
-		it: "Cosmog",
-		pt: "Cosmog",
-		de: "Cosmog"
+		'en-us': "Cosmog",
+		'fr-fr': "Cosmog",
+		'es-es': "Cosmog",
+		'it-it': "Cosmog",
+		'pt-br': "Cosmog",
+		'de-de': "Cosmog"
 	},
 
 	illustrator: "Akira Komayama",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Splash",
-				fr: "Trempette",
-				es: "Salpicadura",
-				it: "Splash",
-				pt: "Borrifada",
-				de: "Platscher"
+				'en-us': "Splash",
+				'fr-fr': "Trempette",
+				'es-es': "Salpicadura",
+				'it-it': "Splash",
+				'pt-br': "Borrifada",
+				'de-de': "Platscher"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Even though its helpless, gaseous body can be blown away by the slightest breeze, it doesn't seem to care.",
+		'en-us': "Even though its helpless, gaseous body can be blown away by the slightest breeze, it doesn't seem to care.",
 	},
 
 	thirdParty: {

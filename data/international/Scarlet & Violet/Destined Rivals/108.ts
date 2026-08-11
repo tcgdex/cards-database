@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mudsdale",
-		fr: "Bourrinos",
-		de: "Pampross",
-		it: "Mudsdale",
-		es: "Mudsdale",
-		pt: "Mudsdale",
+		'en-us': "Mudsdale",
+		'fr-fr': "Bourrinos",
+		'de-de': "Pampross",
+		'it-it': "Mudsdale",
+		'es-es': "Mudsdale",
+		'pt-br': "Mudsdale",
 		'es-mx': "Mudsdale"
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	hp: 150,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Mudbray",
-		fr: "Tiboudet",
-		de: "Pampuli",
-		it: "Mudbray",
-		es: "Mudbray",
-		pt: "Mudbray",
+		'en-us': "Mudbray",
+		'fr-fr': "Tiboudet",
+		'de-de': "Pampuli",
+		'it-it': "Mudbray",
+		'es-es': "Mudbray",
+		'pt-br': "Mudbray",
 		'es-mx': "Mudbray"
 	},
 	stage: "Stage1",
@@ -37,22 +37,22 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Mud Coat",
-			fr: "Toison Boueuse",
-			de: "Schlammschicht",
-			it: "Manto Fangoso",
-			es: "Pelaje Lodo",
-			pt: "Camada de Lama",
+			'en-us': "Mud Coat",
+			'fr-fr': "Toison Boueuse",
+			'de-de': "Schlammschicht",
+			'it-it': "Manto Fangoso",
+			'es-es': "Pelaje Lodo",
+			'pt-br': "Camada de Lama",
 			'es-mx': "Capa de Lodo"
 		},
 
 		effect: {
-			en: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
-			fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			de: "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
-			it: "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-			es: "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-			pt: "Este Pokémon recebe 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
+			'en-us': "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+			'fr-fr': "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			'de-de': "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden).",
+			'it-it': "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+			'es-es': "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			'pt-br': "Este Pokémon recebe 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
 			'es-mx': "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia)."
 		}
 	}],
@@ -61,12 +61,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Heavy Impact",
-			fr: "Gros Impact",
-			de: "Schwerer Einschlag",
-			it: "Impatto Pesante",
-			es: "Impacto Pesado",
-			pt: "Impacto Pesado",
+			'en-us': "Heavy Impact",
+			'fr-fr': "Gros Impact",
+			'de-de': "Schwerer Einschlag",
+			'it-it': "Impatto Pesante",
+			'es-es': "Impacto Pesado",
+			'pt-br': "Impacto Pesado",
 			'es-mx': "Impacto Pesado"
 		},
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Heat Rotom",
-		fr: "Motisma Chaleur",
-		es: "Rotom Calor",
-		it: "Rotom Calore",
-		pt: "Rotom Calor",
-		de: "Hitze-Rotom"
+		'en-us': "Heat Rotom",
+		'fr-fr': "Motisma Chaleur",
+		'es-es': "Rotom Calor",
+		'it-it': "Rotom Calore",
+		'pt-br': "Rotom Calor",
+		'de-de': "Hitze-Rotom"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Roto Motor",
-				fr: "Moti-Moteur",
-				es: "Motor Rotom",
-				it: "Rotomotore",
-				pt: "Rotom Motor",
-				de: "Roto-Motor"
+				'en-us': "Roto Motor",
+				'fr-fr': "Moti-Moteur",
+				'es-es': "Motor Rotom",
+				'it-it': "Rotomotore",
+				'pt-br': "Rotom Motor",
+				'de-de': "Roto-Motor"
 			},
 			effect: {
-				en: "If you have 9 or more Pokémon Tool cards in your discard pile, ignore all Energy in the attack cost of each of this Pokémon’s attacks.",
-				fr: "Si vous avez 9 cartes Outil Pokémon ou plus dans votre pile de défausse, ignorez toutes les Énergies dans le coût d’attaque de chacune des attaques de ce Pokémon.",
-				es: "Si tienes 9 o más cartas de Herramienta Pokémon en tu pila de descartes, ignora todas las Energías en el coste de los ataques de este Pokémon.",
-				it: "Se hai nove o più carte Oggetto Pokémon nella tua pila degli scarti, ignora tutte le Energie necessarie per usare ciascuno degli attacchi di questo Pokémon.",
-				pt: "Se você tiver 9 ou mais cartas de Ferramenta Pokémon na sua pilha de descarte, ignore todas as Energias no custo do ataque de cada ataque deste Pokémon.",
-				de: "Wenn du 9 Pokémon-Ausrüstungen oder mehr in deinem Ablagestapel hast, ignoriere alle Energien in den Attackenkosten jeder Attacke dieses Pokémon."
+				'en-us': "If you have 9 or more Pokémon Tool cards in your discard pile, ignore all Energy in the attack cost of each of this Pokémon’s attacks.",
+				'fr-fr': "Si vous avez 9 cartes Outil Pokémon ou plus dans votre pile de défausse, ignorez toutes les Énergies dans le coût d’attaque de chacune des attaques de ce Pokémon.",
+				'es-es': "Si tienes 9 o más cartas de Herramienta Pokémon en tu pila de descartes, ignora todas las Energías en el coste de los ataques de este Pokémon.",
+				'it-it': "Se hai nove o più carte Oggetto Pokémon nella tua pila degli scarti, ignora tutte le Energie necessarie per usare ciascuno degli attacchi di questo Pokémon.",
+				'pt-br': "Se você tiver 9 ou mais cartas de Ferramenta Pokémon na sua pilha de descarte, ignore todas as Energias no custo do ataque de cada ataque deste Pokémon.",
+				'de-de': "Wenn du 9 Pokémon-Ausrüstungen oder mehr in deinem Ablagestapel hast, ignoriere alle Energien in den Attackenkosten jeder Attacke dieses Pokémon."
 			},
 		},
 	],
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Blast",
-				fr: "Explosion de Chaleur",
-				es: "Explosión de Calor",
-				it: "Caldobomba",
-				pt: "Raio de Calor",
-				de: "Hitzestoß"
+				'en-us': "Heat Blast",
+				'fr-fr': "Explosion de Chaleur",
+				'es-es': "Explosión de Calor",
+				'it-it': "Caldobomba",
+				'pt-br': "Raio de Calor",
+				'de-de': "Hitzestoß"
 			},
 
 			damage: 80,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
+		'en-us': "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
 	},
 
 	thirdParty: {

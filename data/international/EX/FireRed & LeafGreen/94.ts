@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Mt. Moon",
-		fr: "Mont Selenite",
-		de: "Mondberg"
+		'en-us': "Mt. Moon",
+		'fr-fr': "Mont Selenite",
+		'de-de': "Mondberg"
 	},
 
 	illustrator: "Nakaoka",
@@ -15,9 +15,9 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	effect: {
-		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Any Pokémon (both yours and your opponent's) with maximum HP less than 70 can't use any Poké-Powers.",
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez -la si une autre Carte Stade est mise en jeu.",
-		de: "Any Pokémon (both yours and your opponent's) with maximum HP less than 70 can't use any Poke-Power",
+		'en-us': "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Any Pokémon (both yours and your opponent's) with maximum HP less than 70 can't use any Poké-Powers.",
+		'fr-fr': "Cette carte reste en jeu lorsque vous la jouez. Défaussez -la si une autre Carte Stade est mise en jeu.",
+		'de-de': "Any Pokémon (both yours and your opponent's) with maximum HP less than 70 can't use any Poke-Power",
 	},
 
 

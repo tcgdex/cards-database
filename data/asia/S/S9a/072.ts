@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "グラエナ"
+		'ja-jp': "グラエナ"
 	},
 
 	illustrator: "GOSSAN",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "１０匹 程度の 群れを 作って 一糸乱れぬ チームワークで 獲物を 追いつめて しとめるのだ。"
+		'ja-jp': "１０匹 程度の 群れを 作って 一糸乱れぬ チームワークで 獲物を 追いつめて しとめるのだ。"
 	},
 
 	stage: "Stage1",
@@ -24,11 +24,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ハッスルバーク"
+			'ja-jp': "ハッスルバーク"
 		},
 
 		effect: {
-			ja: "相手の場に「ポケモンVMAX」がいるなら、このポケモンがワザを使うためのエネルギーは、エネルギー3個ぶん少なくなる。"
+			'ja-jp': "相手の場に「ポケモンVMAX」がいるなら、このポケモンがワザを使うためのエネルギーは、エネルギー3個ぶん少なくなる。"
 		}
 	}],
 
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ワイルドタックル"
+			'ja-jp': "ワイルドタックル"
 		},
 
 		damage: 160,
 
 		effect: {
-			ja: "このポケモンにも50ダメージ。"
+			'ja-jp': "このポケモンにも50ダメージ。"
 		}
 	}],
 

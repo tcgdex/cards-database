@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Froakie"
+		'id-id': "Froakie"
 	},
 
 	illustrator: "Yuka Morii",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Froakie mengeluarkan gelembung dari dada dan punggungnya. Pokémon ini menerima serangan menggunakan gelembungnya yang elastis dan mengurangi kerusakan."
+		'id-id': "Froakie mengeluarkan gelembung dari dada dan punggungnya. Pokémon ini menerima serangan menggunakan gelembungnya yang elastis dan mengurangi kerusakan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menggerombol"
+			'id-id': "Menggerombol"
 		},
 
 		effect: {
-			id: "Pilih paling banyak 2 lembar Froakie dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
+			'id-id': "Pilih paling banyak 2 lembar Froakie dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
 		},
 
 		cost: ["Water"]
 	}, {
 		name: {
-			id: "Melompat Berkeliling"
+			'id-id': "Melompat Berkeliling"
 		},
 
 		damage: 10,

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2019'
 
 const card: Card = {
@@ -9,25 +9,25 @@ const card: Card = {
 	dexId: [51],
 
 	description: {
-		en: "These Pokémon are cherished in the Alola region, where they are thought to be feminine deities of the land incarnate."
+		'en-us': "These Pokémon are cherished in the Alola region, where they are thought to be feminine deities of the land incarnate."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Gold Rush"
+			'en-us': "Gold Rush"
 		},
 
 		damage: "30×",
 
 		effect: {
-			en: "Discard any number of Metal Energy cards from your hand. This attack does 30 damage for each card you discarded in this way."
+			'en-us': "Discard any number of Metal Energy cards from your hand. This attack does 30 damage for each card you discarded in this way."
 		}
 	}],
 
 	name: {
-		en: "Alolan Dugtrio"
+		'en-us': "Alolan Dugtrio"
 	},
 
 	rarity: "None",

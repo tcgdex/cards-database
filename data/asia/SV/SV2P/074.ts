@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コオリッポ"
+		'ja-jp': "コオリッポ"
 	},
 
 	illustrator: "Nelnal",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "気温の 高い日は 仲間同士で 頭の 氷を くっつけて おたがいを 冷やしながら 過ごす。"
+		'ja-jp': "気温の 高い日は 仲間同士で 頭の 氷を くっつけて おたがいを 冷やしながら 過ごす。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "ずつき"
+			'ja-jp': "ずつき"
 		},
 
 		damage: 20
@@ -32,13 +32,13 @@ const card: Card = {
 		cost: ["Water", "Water", "Water"],
 
 		name: {
-			ja: "アイスブロック"
+			'ja-jp': "アイスブロック"
 		},
 
 		damage: 100,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを、すべてトラッシュする。次の相手の番、このポケモンが受けるワザのダメージは「-100」される。"
+			'ja-jp': "このポケモンについているエネルギーを、すべてトラッシュする。次の相手の番、このポケモンが受けるワザのダメージは「-100」される。"
 		}
 	}],
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Darkness Energy",
-		fr: "Énergie Obscurité",
-		es: "Energía Oscura",
-		it: "Energia Oscurità",
-		pt: "Energia de Escuridão",
-		de: "Finsternis-Energie"
+		'en-us': "Darkness Energy",
+		'fr-fr': "Énergie Obscurité",
+		'es-es': "Energía Oscura",
+		'it-it': "Energia Oscurità",
+		'pt-br': "Energia de Escuridão",
+		'de-de': "Finsternis-Energie"
 	},
 
 	illustrator: undefined,
@@ -19,12 +19,12 @@ const card: Card = {
 	energyType: "Normal",
 
 	effect: {
-		en: "",
-		fr: "",
-		es: "",
-		it: "",
-		pt: "",
-		de: ""
+		'en-us': "",
+		'fr-fr': "",
+		'es-es': "",
+		'it-it': "",
+		'pt-br': "",
+		'de-de': ""
 	},
 
 	thirdParty: {

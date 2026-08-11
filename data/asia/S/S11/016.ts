@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグカルゴ",
+		'ja-jp': "マグカルゴ",
 		'zh-tw': "熔岩蝸牛",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "体は いつも 波打っていて 溶岩のように 熱い。 ときどき 殻から 火の粉が漏れる。",
+		'ja-jp': "体は いつも 波打っていて 溶岩のように 熱い。 ときどき 殻から 火の粉が漏れる。",
 		'zh-tw': "身體總是不斷起伏著，像熔岩一樣灼熱。 會不時從殼裡冒出火花。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ほのお",
+				'ja-jp': "ほのお",
 				'zh-tw': "火焰",
 			},
 			damage: 30,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ロストボルケーノ",
+				'ja-jp': "ロストボルケーノ",
 				'zh-tw': "放逐火山",
 			},
 			damage: 220,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーをすべて、ロストゾーンに置く。",
+				'ja-jp': "このポケモンについているエネルギーをすべて、ロストゾーンに置く。",
 				'zh-tw': "將這隻寶可夢身上附加的所有能量放置於放逐區。",
 			},
 		},
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マグマッグ",
+		'ja-jp': "マグマッグ",
 	},
 
 	retreat: 3,

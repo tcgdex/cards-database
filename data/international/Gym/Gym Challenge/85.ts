@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Rattata"
+		'en-us': "Lt. Surge's Rattata"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Focus Energy"
+				'en-us': "Focus Energy"
 			},
 			effect: {
-				en: "During your next turn, Lt. Surge's Rattata's Quick Attack's base damage is doubled."
+				'en-us': "During your next turn, Lt. Surge's Rattata's Quick Attack's base damage is doubled."
 			},
 
 		},
@@ -40,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack"
+				'en-us': "Quick Attack"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
 			},
 			damage: "10+",
 

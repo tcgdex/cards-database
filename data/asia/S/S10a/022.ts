@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴースト",
+		'ja-jp': "ゴースト",
 		'zh-tw': "鬼斯通",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "壁をすり抜け 何処にでも 姿 現す 恐ろしき悪霊。 舌で 舐められし者 日に日に 衰弱し 死に至るとの噂。",
+		'ja-jp': "壁をすり抜け 何処にでも 姿 現す 恐ろしき悪霊。 舌で 舐められし者 日に日に 衰弱し 死に至るとの噂。",
 		'zh-tw': "能夠穿牆透壁，出現在任何地方的恐怖惡靈。傳說被牠的舌頭舔過的人 將會日漸衰弱，最後喪命。",
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "のろいのしずく",
+				'ja-jp': "のろいのしずく",
 				'zh-tw': "詛咒水滴",
 			},
 			cost: ["Psychic"],
 			effect: {
-				ja: "ダメカン3個を、相手のポケモンに好きなようにのせる。",
+				'ja-jp': "ダメカン3個を、相手のポケモンに好きなようにのせる。",
 				'zh-tw': "將3個傷害指示物以任意方式放置於對手的寶可夢身上。",
 			},
 		},
@@ -54,7 +54,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴース",
+		'ja-jp': "ゴース",
 	},
 
 	retreat: 1,

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Gengar",
-		de: "Gengar"
+		'en-us': "Gengar",
+		'de-de': "Gengar"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Haunter"
+		'en-us': "Haunter"
 	},
 
 	stage: "Stage2",
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharpshooting",
-				de: "Scharfschuss"
+				'en-us': "Sharpshooting",
+				'de-de': "Scharfschuss"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'de-de': "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Jab",
-				de: "Gifthieb"
+				'en-us': "Poison Jab",
+				'de-de': "Gifthieb"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 60,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "The leer that floats in darkness belongs to a Gengar delighting in casting curses on people."
+		'en-us': "The leer that floats in darkness belongs to a Gengar delighting in casting curses on people."
 	},
 
 	variants: [

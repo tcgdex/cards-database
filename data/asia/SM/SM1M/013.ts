@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キャモメ",
+		'ja-jp': "キャモメ",
 	},
 
 	illustrator: "Aya Kusube",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "キャモメが 飛び交う 海の 下は さかなポケモンが 群れているので 漁師は まずキャモメを 探す。",
+		'ja-jp': "キャモメが 飛び交う 海の 下は さかなポケモンが 群れているので 漁師は まずキャモメを 探す。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "はねやすめ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「30」回復する。次の自分の番、このポケモンは、にげられない。",
+				'ja-jp': "このポケモンのHPを「30」回復する。次の自分の番、このポケモンは、にげられない。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ギャラドス",
+		'ja-jp': "ギャラドス",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Water", "Water", "Water"],
 			name: {
-				ja: "ドラゴンレイジ",
+				'ja-jp': "ドラゴンレイジ",
 			},
 			damage: 50,
 		},
 		{
 			cost: ["Water", "Water", "Water", "Water"],
 			name: {
-				ja: "バブルビーム",
+				'ja-jp': "バブルビーム",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 40,
 		},

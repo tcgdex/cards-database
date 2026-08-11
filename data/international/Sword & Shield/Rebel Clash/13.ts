@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [460],
 
 	name: {
-		en: "Abomasnow",
-		fr: "Blizzaroi",
-		es: "Abomasnow",
-		it: "Abomasnow",
-		pt: "Abomasnow",
-		de: "Rexblisar"
+		'en-us': "Abomasnow",
+		'fr-fr': "Blizzaroi",
+		'es-es': "Abomasnow",
+		'it-it': "Abomasnow",
+		'pt-br': "Abomasnow",
+		'de-de': "Rexblisar"
 	},
 
 	illustrator: "Kazuma Koda",
@@ -19,12 +19,12 @@ const card: Card = {
 	set: Set,
 
 	evolveFrom: {
-		en: "Snover",
-		fr: "Blizzi",
-		es: "Snover",
-		it: "Snover",
-		pt: "Snover",
-		de: "Shnebedeck"
+		'en-us': "Snover",
+		'fr-fr': "Blizzi",
+		'es-es': "Snover",
+		'it-it': "Snover",
+		'pt-br': "Snover",
+		'de-de': "Shnebedeck"
 	},
 
 	attacks: [
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Soothing Scent",
-				fr: "Senteur Apaisante",
-				es: "Aroma Sedante",
-				it: "Aroma Calmante",
-				pt: "Odor Calmante",
-				de: "Beruhigender Duft"
+				'en-us': "Soothing Scent",
+				'fr-fr': "Senteur Apaisante",
+				'es-es': "Aroma Sedante",
+				'it-it': "Aroma Calmante",
+				'pt-br': "Odor Calmante",
+				'de-de': "Beruhigender Duft"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent's Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 80,
 
@@ -61,12 +61,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Megaton Lariat",
-				fr: "Lasso Titanesque",
-				es: "Lazo Megatón",
-				it: "Lazo Megatonico",
-				pt: "Lariat Megaton",
-				de: "Megatonnenlasso"
+				'en-us': "Megaton Lariat",
+				'fr-fr': "Lasso Titanesque",
+				'es-es': "Lazo Megatón",
+				'it-it': "Lazo Megatonico",
+				'pt-br': "Lariat Megaton",
+				'de-de': "Megatonnenlasso"
 			},
 
 			damage: 140,
@@ -90,7 +90,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "If it sees any packs of Darumaka going after Snover, it chases them off, swinging its sizable arms like hammers."
+		'en-us': "If it sees any packs of Darumaka going after Snover, it chases them off, swinging its sizable arms like hammers."
 	},
 
 	variants: [

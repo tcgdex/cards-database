@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Golem EX",
-		fr: "Grolem-EX",
+		'en-us': "Golem EX",
+		'fr-fr': "Grolem-EX",
 	},
 
 	illustrator: "Toyste Beach",
@@ -32,8 +32,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Boulder Crush",
-				fr: "Rocher Écrasant",
+				'en-us': "Boulder Crush",
+				'fr-fr': "Rocher Écrasant",
 			},
 
 			damage: 80,
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Megaton Fall",
-				fr: "Chute Mégatonne",
+				'en-us': "Megaton Fall",
+				'fr-fr': "Chute Mégatonne",
 			},
 			effect: {
-				en: "This Pokémon does 60 damage to itself.",
-				fr: "Ce Pokémon s'inflige 60 dégâts.",
+				'en-us': "This Pokémon does 60 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 60 dégâts.",
 			},
 			damage: 180,
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Swablu",
-		fr: "Tylton",
-		es: "Swablu",
-		it: "Swablu",
-		pt: "Swablu",
-		de: "Wablu"
+		'en-us': "Swablu",
+		'fr-fr': "Tylton",
+		'es-es': "Swablu",
+		'it-it': "Swablu",
+		'pt-br': "Swablu",
+		'de-de': "Wablu"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Peck",
-			fr: "Picpic",
-			es: "Picotazo",
-			it: "Beccata",
-			pt: "Bicada",
-			de: "Pikser"
+			'en-us': "Peck",
+			'fr-fr': "Picpic",
+			'es-es': "Picotazo",
+			'it-it': "Beccata",
+			'pt-br': "Bicada",
+			'de-de': "Pikser"
 		},
 
 		damage: 10
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Bind Wound",
-			fr: "Blessure Pansée",
-			es: "Vendar Herida",
-			it: "Cura Ferite",
-			pt: "Ligar Ferida",
-			de: "Wunden verbinden"
+			'en-us': "Bind Wound",
+			'fr-fr': "Blessure Pansée",
+			'es-es': "Vendar Herida",
+			'it-it': "Cura Ferite",
+			'pt-br': "Ligar Ferida",
+			'de-de': "Wunden verbinden"
 		},
 
 		effect: {
-			en: "Heal 30 damage from 1 of your Pokémon.",
-			fr: "Soignez 30 dégâts de l'un de vos Pokémon.",
-			es: "Cura 30 puntos de daño a uno de tus Pokémon.",
-			it: "Cura uno dei tuoi Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano de 1 dos seus Pokémon.",
-			de: "Heile 30 Schadenspunkte bei 1 deiner Pokémon."
+			'en-us': "Heal 30 damage from 1 of your Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de l'un de vos Pokémon.",
+			'es-es': "Cura 30 puntos de daño a uno de tus Pokémon.",
+			'it-it': "Cura uno dei tuoi Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano de 1 dos seus Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei 1 deiner Pokémon."
 		}
 	}],
 
@@ -71,7 +71,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It can't relax if it or its surroundings are not clean. It wipes off dirt with its wings.",
+		'en-us': "It can't relax if it or its surroundings are not clean. It wipes off dirt with its wings.",
 	},
 
 	variants: [

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Appletun",
-		fr: "Dratatin"
+		'en-us': "Appletun",
+		'fr-fr': "Dratatin"
 	},
 
 	illustrator: "Akira Komayama",
@@ -18,28 +18,28 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Applin"
+		'en-us': "Applin"
 	},
 
 	description: {
-		en: "It feeds mainly on sweet apples. It will also eat\nsmall bug Pokémon that are attracted by its\nsweet nectar.",
-		fr: "Il se nourrit principalement de pommes sucrées, mais il peut aussi manger de petits Pokémon Insecte, attirés par son miel onctueux."
+		'en-us': "It feeds mainly on sweet apples. It will also eat\nsmall bug Pokémon that are attracted by its\nsweet nectar.",
+		'fr-fr': "Il se nourrit principalement de pommes sucrées, mais il peut aussi manger de petits Pokémon Insecte, attirés par son miel onctueux."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Sweets Relay",
-			fr: "Saupoudrage Sucré"
+			'en-us': "Sweets Relay",
+			'fr-fr': "Saupoudrage Sucré"
 		},
 
 		damage: 40,
 		cost: ["Grass"],
 
 		effect: {
-			en: "If 1 of your Pokémon used Sweets Relay during your last turn, this attack does 30 more damage.",
-			fr: "Si un de vos Pokémon a utilisé  lors de votre dernier tour, cette attaque inflige 30 dégâts supplémentaires."
+			'en-us': "If 1 of your Pokémon used Sweets Relay during your last turn, this attack does 30 more damage.",
+			'fr-fr': "Si un de vos Pokémon a utilisé  lors de votre dernier tour, cette attaque inflige 30 dégâts supplémentaires."
 		}
 	}],
 

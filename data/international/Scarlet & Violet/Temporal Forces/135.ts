@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Unfezant",
-		fr: "Déflaisan",
-		es: "Unfezant",
-		it: "Unfezant",
-		pt: "Unfezant",
-		de: "Fasasnob"
+		'en-us': "Unfezant",
+		'fr-fr': "Déflaisan",
+		'es-es': "Unfezant",
+		'it-it': "Unfezant",
+		'pt-br': "Unfezant",
+		'de-de': "Fasasnob"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 150,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Tranquill",
-		fr: "Colombeau",
-		es: "Tranquill",
-		it: "Tranquill",
-		pt: "Tranquill",
-		de: "Navitaub"
+		'en-us': "Tranquill",
+		'fr-fr': "Colombeau",
+		'es-es': "Tranquill",
+		'it-it': "Tranquill",
+		'pt-br': "Tranquill",
+		'de-de': "Navitaub"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Opposing Winds",
-			fr: "Vents Contraires",
-			es: "Vientos Adversos",
-			it: "Venti Avversi",
-			pt: "Ventos Opostos",
-			de: "Widerstreitende Winde"
+			'en-us': "Opposing Winds",
+			'fr-fr': "Vents Contraires",
+			'es-es': "Vientos Adversos",
+			'it-it': "Venti Avversi",
+			'pt-br': "Ventos Opostos",
+			'de-de': "Widerstreitende Winde"
 		},
 
 		effect: {
-			en: "You may put 2 Energy attached to your opponent's Active Pokémon into their hand.",
-			fr: "Vous pouvez ajouter à la main de votre adversaire 2 Énergies attachées à son Pokémon Actif.",
-			es: "Puedes poner 2 Energías unidas al Pokémon Activo de tu rival en su mano.",
-			it: "Puoi prendere due Energie assegnate al Pokémon attivo del tuo avversario e aggiungerle alle carte che ha in mano.",
-			pt: "Você pode colocar 2 Energias ligadas ao Pokémon Ativo do seu oponente na mão dele.",
-			de: "Du kannst deinem Gegner 2 an sein Aktives Pokémon angelegte Energien auf seine Hand geben."
+			'en-us': "You may put 2 Energy attached to your opponent's Active Pokémon into their hand.",
+			'fr-fr': "Vous pouvez ajouter à la main de votre adversaire 2 Énergies attachées à son Pokémon Actif.",
+			'es-es': "Puedes poner 2 Energías unidas al Pokémon Activo de tu rival en su mano.",
+			'it-it': "Puoi prendere due Energie assegnate al Pokémon attivo del tuo avversario e aggiungerle alle carte che ha in mano.",
+			'pt-br': "Você pode colocar 2 Energias ligadas ao Pokémon Ativo do seu oponente na mão dele.",
+			'de-de': "Du kannst deinem Gegner 2 an sein Aktives Pokémon angelegte Energien auf seine Hand geben."
 		},
 
 		damage: 70
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Boundless Power",
-			fr: "Puissance Illimitée",
-			es: "Poder Ilimitado",
-			it: "Potere Incontenibile",
-			pt: "Poder Ilimitado",
-			de: "Unbegrenzte Kraft"
+			'en-us': "Boundless Power",
+			'fr-fr': "Puissance Illimitée",
+			'es-es': "Poder Ilimitado",
+			'it-it': "Potere Incontenibile",
+			'pt-br': "Poder Ilimitado",
+			'de-de': "Unbegrenzte Kraft"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 180
@@ -90,7 +90,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Unfezant are exceptional fliers. The females are known for their stamina, while the males outclass them in terms of speed.",
+		'en-us': "Unfezant are exceptional fliers. The females are known for their stamina, while the males outclass them in terms of speed.",
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Pokémon Futsal 2020'
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sobble on the Ball"
+		'en-us': "Sobble on the Ball"
 	},
 
 	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
@@ -14,7 +14,7 @@ const card: Card = {
 	category: "Pokemon",
 
 	description: {
-		en: "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won't be able to resist weeping."
+		'en-us': "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won't be able to resist weeping."
 	},
 
 	hp: 60,
@@ -25,17 +25,17 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Spectacular Save"
+			'en-us': "Spectacular Save"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to this Pokémon."
+			'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to this Pokémon."
 		}
 	}, {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Rain Splash"
+			'en-us': "Rain Splash"
 		},
 
 		damage: 20

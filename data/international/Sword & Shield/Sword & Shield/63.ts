@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Snom",
-		fr: "Frissonille",
-		es: "Snom",
-		it: "Snom",
-		pt: "Snom",
-		de: "Snomnom"
+		'en-us': "Snom",
+		'fr-fr': "Frissonille",
+		'es-es': "Snom",
+		'it-it': "Snom",
+		'pt-br': "Snom",
+		'de-de': "Snomnom"
 	},
 
 	illustrator: "Mina Nakai",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 10,
@@ -60,7 +60,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It eats snow that piles up on the ground. The more snow it eats, the bigger and more impressive the spikes on its back grow."
+		'en-us': "It eats snow that piles up on the ground. The more snow it eats, the bigger and more impressive the spikes on its back grow."
 	},
 
 	dexId: [872],

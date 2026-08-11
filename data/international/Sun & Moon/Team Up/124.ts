@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Pidgeot",
-		fr: "Roucarnage",
-		es: "Pidgeot",
-		it: "Pidgeot",
-		pt: "Pidgeot",
-		de: "Tauboss"
+		'en-us': "Pidgeot",
+		'fr-fr': "Roucarnage",
+		'es-es': "Pidgeot",
+		'it-it': "Pidgeot",
+		'pt-br': "Pidgeot",
+		'de-de': "Tauboss"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pidgeotto",
-		fr: "Roucoups",
+		'en-us': "Pidgeotto",
+		'fr-fr': "Roucoups",
 	},
 
 	stage: "Stage2",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlwind",
-				fr: "Cyclone",
-				es: "Remolino",
-				it: "Turbine",
-				pt: "Ataque de Vento",
-				de: "Wirbelwind"
+				'en-us': "Whirlwind",
+				'fr-fr': "Cyclone",
+				'es-es': "Remolino",
+				'it-it': "Turbine",
+				'pt-br': "Ataque de Vento",
+				'de-de': "Wirbelwind"
 			},
 			effect: {
-				en: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif avec l’un de ses Pokémon de Banc.",
-				es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
-				it: "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
-				pt: "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
-				de: "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange son Pokémon Actif avec l’un de ses Pokémon de Banc.",
+				'es-es': "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
+				'it-it': "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
+				'pt-br': "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
+				'de-de': "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 60,
 
@@ -65,20 +65,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spin Storm",
-				fr: "Orage Virevoltant",
-				es: "Tormenta Giratoria",
-				it: "Vortempesta",
-				pt: "Tempestade Giratória",
-				de: "Sturmwirbel"
+				'en-us': "Spin Storm",
+				'fr-fr': "Orage Virevoltant",
+				'es-es': "Tormenta Giratoria",
+				'it-it': "Vortempesta",
+				'pt-br': "Tempestade Giratória",
+				'de-de': "Sturmwirbel"
 			},
 			effect: {
-				en: "Your opponent puts their Active Pokémon and all cards attached to it into their hand.",
-				fr: "Votre adversaire place son Pokémon Actif et toutes les cartes qui lui sont attachées dans sa main.",
-				es: "Tu rival pone su Pokémon Activo y todas las cartas unidas a él en su mano.",
-				it: "Il tuo avversario riprende in mano il suo Pokémon attivo e tutte le carte a esso assegnate.",
-				pt: "Seu oponente coloca o Pokémon Ativo dele(a) e todas as cartas ligadas a ele na própria mão.",
-				de: "Dein Gegner nimmt sein Aktives Pokémon und alle an es angelegten Karten auf seine Hand."
+				'en-us': "Your opponent puts their Active Pokémon and all cards attached to it into their hand.",
+				'fr-fr': "Votre adversaire place son Pokémon Actif et toutes les cartes qui lui sont attachées dans sa main.",
+				'es-es': "Tu rival pone su Pokémon Activo y todas las cartas unidas a él en su mano.",
+				'it-it': "Il tuo avversario riprende in mano il suo Pokémon attivo e tutte le carte a esso assegnate.",
+				'pt-br': "Seu oponente coloca o Pokémon Ativo dele(a) e todas as cartas ligadas a ele na própria mão.",
+				'de-de': "Dein Gegner nimmt sein Aktives Pokémon und alle an es angelegten Karten auf seine Hand."
 			},
 
 		},
@@ -101,7 +101,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
+		'en-us': "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Gruikui",
-		de: "Floink",
-		es: "Tepig",
-		pt: "Tepig",
-		it: "Tepig",
-		en: "Tepig"
+		'fr-fr': "Gruikui",
+		'de-de': "Floink",
+		'es-es': "Tepig",
+		'pt-br': "Tepig",
+		'it-it': "Tepig",
+		'en-us': "Tepig"
 	},
 
 	rarity: "Promo",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Collision",
-			de: "Ramme",
-			es: "Apisonar",
-			pt: "Aríete",
-			it: "Carica",
-			en: "Ram"
+			'fr-fr': "Collision",
+			'de-de': "Ramme",
+			'es-es': "Apisonar",
+			'pt-br': "Aríete",
+			'it-it': "Carica",
+			'en-us': "Ram"
 		},
 
 		damage: 20
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			fr: "Fournaise",
-			de: "Glühen",
-			es: "Combustión",
-			pt: "Combustão",
-			it: "Fuoco Continuo",
-			en: "Combustion"
+			'fr-fr': "Fournaise",
+			'de-de': "Glühen",
+			'es-es': "Combustión",
+			'pt-br': "Combustão",
+			'it-it': "Fuoco Continuo",
+			'en-us': "Combustion"
 		},
 
 		damage: 50
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "It loves to eat roasted berries, but sometimes it gets too excited and burns them to a crisp."
+		'en-us': "It loves to eat roasted berries, but sometimes it gets too excited and burns them to a crisp."
 	},
 
 	thirdParty: {

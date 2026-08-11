@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モジャンボ",
+		'ja-jp': "モジャンボ",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "暖かい 季節に なると 目玉も 隠れてしまうほど 植物の ツルが 伸び続ける。",
+		'ja-jp': "暖かい 季節に なると 目玉も 隠れてしまうほど 植物の ツルが 伸び続ける。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "この番、このポケモンのHPを回復していたなら、130ダメージ追加。",
+				'ja-jp': "この番、このポケモンのHPを回復していたなら、130ダメージ追加。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モンジャラ",
+		'ja-jp': "モンジャラ",
 	},
 
 	retreat: 3,

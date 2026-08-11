@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Magneton",
-		fr: "Magneton",
-		de: "Magneton"
+		'en-us': "Magneton",
+		'fr-fr': "Magneton",
+		'de-de': "Magneton"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magnemite",
-		fr: "Magneti",
+		'en-us': "Magnemite",
+		'fr-fr': "Magneti",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnetic Resonance",
-				fr: "Résonance magnétique",
-				de: "Magnetische Resonanz"
+				'en-us': "Magnetic Resonance",
+				'fr-fr': "Résonance magnétique",
+				'de-de': "Magnetische Resonanz"
 			},
 			effect: {
-				en: "If you have a Stadium card in play, this attack does 20 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Si vous avez une carte Stade en jeu, cette attaque inflige 20 dégâts à 2 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Wenn du 1 Stadion-Karte im Spiel hast, fügt dieser Angriff 2 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "If you have a Stadium card in play, this attack does 20 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Si vous avez une carte Stade en jeu, cette attaque inflige 20 dégâts à 2 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Wenn du 1 Stadion-Karte im Spiel hast, fügt dieser Angriff 2 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 20,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnetic Release",
-				fr: "Relâche magnétique",
-				de: "Magnetfreisetzung"
+				'en-us': "Magnetic Release",
+				'fr-fr': "Relâche magnétique",
+				'de-de': "Magnetfreisetzung"
 			},
 			effect: {
-				en: "Does 40 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
-				fr: "Inflige 40 dégâts plus 20 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
-				de: "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede Energie, die am Verteidigenden Pokémon angelegt ist, zu."
+				'en-us': "Does 40 damage plus 10 more damage for each Energy attached to the Defending Pokémon.",
+				'fr-fr': "Inflige 40 dégâts plus 20 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede Energie, die am Verteidigenden Pokémon angelegt ist, zu."
 			},
 			damage: "40+",
 
@@ -87,8 +87,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is actually three Magnemite linked by magnetism. A group can set off a magnetic storm.",
-		fr: "Il est formé de trois Magnéti liés par magnétisme. En groupe, ils déclenchent un orage magnétique"
+		'en-us': "It is actually three Magnemite linked by magnetism. A group can set off a magnetic storm.",
+		'fr-fr': "Il est formé de trois Magnéti liés par magnétisme. En groupe, ils déclenchent un orage magnétique"
 	},
 
 	thirdParty: {

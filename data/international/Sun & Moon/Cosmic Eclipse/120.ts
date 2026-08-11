@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Pangoro",
-		fr: "Pandarbare",
-		es: "Pangoro",
-		it: "Pangoro",
-		pt: "Pangoro",
-		de: "Pandagro"
+		'en-us': "Pangoro",
+		'fr-fr': "Pandarbare",
+		'es-es': "Pangoro",
+		'it-it': "Pangoro",
+		'pt-br': "Pangoro",
+		'de-de': "Pandagro"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pancham",
-		fr: "Pandespiègle",
+		'en-us': "Pancham",
+		'fr-fr': "Pandespiègle",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Light Punch",
-				fr: "Poing Léger",
-				es: "Puño Ligero",
-				it: "Pugnetto",
-				pt: "Soco de Luz",
-				de: "Leichter Hieb"
+				'en-us': "Light Punch",
+				'fr-fr': "Poing Léger",
+				'es-es': "Puño Ligero",
+				'it-it': "Pugnetto",
+				'pt-br': "Soco de Luz",
+				'de-de': "Leichter Hieb"
 			},
 
 			damage: 40,
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnum Punch",
-				fr: "Poing Magnum",
-				es: "Puño Magnum",
-				it: "Superpugno",
-				pt: "Soco Magnum",
-				de: "Magnum-Schlag"
+				'en-us': "Magnum Punch",
+				'fr-fr': "Poing Magnum",
+				'es-es': "Puño Magnum",
+				'it-it': "Superpugno",
+				'pt-br': "Soco Magnum",
+				'de-de': "Magnum-Schlag"
 			},
 
 			damage: 90,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This rowdy Pokémon boasts great physical strength. Many Trainers are also smitten by its lively character.",
+		'en-us': "This rowdy Pokémon boasts great physical strength. Many Trainers are also smitten by its lively character.",
 	},
 
 	thirdParty: {

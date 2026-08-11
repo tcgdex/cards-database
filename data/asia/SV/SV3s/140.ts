@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Kangaskhan"
+		'id-id': "Kangaskhan"
 	},
 
 	illustrator: "Yuya Oka",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Terdapat catatan yang isinya tentang Kangaskhan tanpa anak yang membesarkan anak manusia yang tersesat."
+		'id-id': "Terdapat catatan yang isinya tentang Kangaskhan tanpa anak yang membesarkan anak manusia yang tersesat."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Tandukan Kepala"
+			'id-id': "Tandukan Kepala"
 		},
 
 		damage: 30,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Spike Draw"
+			'id-id': "Spike Draw"
 		},
 
 		effect: {
-			id: "Ambil 2 kartu dari atas Deck sendiri."
+			'id-id': "Ambil 2 kartu dari atas Deck sendiri."
 		},
 
 		damage: 60,

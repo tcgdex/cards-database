@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Larvitar",
-		fr: "Embrylex"
+		'en-us': "Larvitar",
+		'fr-fr': "Embrylex"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "Born deep underground, this Pokémon\nbecomes a pupa after eating enough\ndirt to make a mountain.",
-		fr: "Il naît dans les profondeurs terrestres. Après avoir englouti une quantité de terre équivalente à une montagne, il se transforme en chrysalide."
+		'en-us': "Born deep underground, this Pokémon\nbecomes a pupa after eating enough\ndirt to make a mountain.",
+		'fr-fr': "Il naît dans les profondeurs terrestres. Après avoir englouti une quantité de terre équivalente à une montagne, il se transforme en chrysalide."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Tackle",
-			fr: "Charge"
+			'en-us': "Tackle",
+			'fr-fr': "Charge"
 		},
 
 		damage: 10,

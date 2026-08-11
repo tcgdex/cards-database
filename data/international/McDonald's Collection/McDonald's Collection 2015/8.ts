@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2015'
 
 const card: Card = {
@@ -7,8 +7,8 @@ const card: Card = {
 	],
 	set: Set,
 	name: {
-		en: "Rhyhorn",
-		fr: "Rhinocorne",
+		'en-us': "Rhyhorn",
+		'fr-fr': "Rhinocorne",
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -24,13 +24,13 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
 			},
 			damage: 40,
 			effect: {
-				en: "This Pokémon does 10 damage to itself",
-				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				'en-us': "This Pokémon does 10 damage to itself",
+				'fr-fr': "Ce Pokémon s'inflige 10 dégâts.",
 			},
 		},
 	],

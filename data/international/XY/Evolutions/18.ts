@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Arcanine",
-		fr: "Arcanin",
-		es: "Arcanine",
-		it: "Arcanine",
-		pt: "Arcanine",
-		de: "Arkani"
+		'en-us': "Arcanine",
+		'fr-fr': "Arcanin",
+		'es-es': "Arcanine",
+		'it-it': "Arcanine",
+		'pt-br': "Arcanine",
+		'de-de': "Arkani"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Growlithe",
-		fr: "Caninos",
-		es: "Growlithe",
-		it: "Growlithe",
-		pt: "Growlithe",
-		de: "Fukano"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos",
+		'es-es': "Growlithe",
+		'it-it': "Growlithe",
+		'pt-br': "Growlithe",
+		'de-de': "Fukano"
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Burning Road",
-				fr: "Route Enflammée",
-				es: "Camino Ardiente",
-				it: "Scia Infuocata",
-				pt: "Estrada Queimada",
-				de: "Brennender Weg"
+				'en-us': "Burning Road",
+				'fr-fr': "Route Enflammée",
+				'es-es': "Camino Ardiente",
+				'it-it': "Scia Infuocata",
+				'pt-br': "Estrada Queimada",
+				'de-de': "Brennender Weg"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if this Pokémon was on the Bench and became your Active Pokémon this turn, you may move any number of Fire Energy attached to your Pokémon to this Pokémon.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon était sur le Banc et est devenu votre Pokémon Actif lors de ce tour, vous pouvez déplacer des Énergies Fire attachées à vos Pokémon vers ce Pokémon.",
-				es: "Una vez durante tu turno (antes de tu ataque), si este Pokémon estaba en la Banca y se ha convertido en tu Pokémon Activo en este turno, puedes mover cualquier cantidad de Energía Fire unida a tus Pokémon a este Pokémon.",
-				it: "Una sola volta durante il tuo turno, prima di attaccare, se questo Pokémon era in panchina ed è diventato il tuo Pokémon attivo in questo turno, puoi spostare un numero qualsiasi di Energie Fire assegnate ai tuoi Pokémon su questo Pokémon.",
-				pt: "Uma vez durante sua vez de jogar (antes de atacar), se este Pokémon estava no Banco e tornou-se o seu Pokémon Ativo nesta vez de jogar, você poderá ligar qualquer número de Energia Fire ligada a seus Pokémon a este Pokémon.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn dieses Pokémon auf der Bank war und während dieses Zuges zu deinem Aktiven Pokémon wurde, beliebig viele Fire-Energien, die an deine Pokémon angelegt sind, auf dieses Pokémon verschieben."
+				'en-us': "Once during your turn (before your attack), if this Pokémon was on the Bench and became your Active Pokémon this turn, you may move any number of Fire Energy attached to your Pokémon to this Pokémon.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon était sur le Banc et est devenu votre Pokémon Actif lors de ce tour, vous pouvez déplacer des Énergies Fire attachées à vos Pokémon vers ce Pokémon.",
+				'es-es': "Una vez durante tu turno (antes de tu ataque), si este Pokémon estaba en la Banca y se ha convertido en tu Pokémon Activo en este turno, puedes mover cualquier cantidad de Energía Fire unida a tus Pokémon a este Pokémon.",
+				'it-it': "Una sola volta durante il tuo turno, prima di attaccare, se questo Pokémon era in panchina ed è diventato il tuo Pokémon attivo in questo turno, puoi spostare un numero qualsiasi di Energie Fire assegnate ai tuoi Pokémon su questo Pokémon.",
+				'pt-br': "Uma vez durante sua vez de jogar (antes de atacar), se este Pokémon estava no Banco e tornou-se o seu Pokémon Ativo nesta vez de jogar, você poderá ligar qualquer número de Energia Fire ligada a seus Pokémon a este Pokémon.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn dieses Pokémon auf der Bank war und während dieses Zuges zu deinem Aktiven Pokémon wurde, beliebig viele Fire-Energien, die an deine Pokémon angelegt sind, auf dieses Pokémon verschieben."
 			},
 		},
 	],
@@ -68,20 +68,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scorching Breath",
-				fr: "Souffle Brûlant",
-				es: "Aliento Ígneo",
-				it: "Soffio Ustionante",
-				pt: "Hálito Ardente",
-				de: "Sengender Atem"
+				'en-us': "Scorching Breath",
+				'fr-fr': "Souffle Brûlant",
+				'es-es': "Aliento Ígneo",
+				'it-it': "Soffio Ustionante",
+				'pt-br': "Hálito Ardente",
+				'de-de': "Sengender Atem"
 			},
 			effect: {
-				en: "This Pokémon can't attack during your next turn.",
-				fr: "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
-				es: "Este Pokémon no puede atacar durante tu próximo turno.",
-				it: "Questo Pokémon non può attaccare durante il tuo prossimo turno.",
-				pt: "Este Pokémon não poderá atacar durante sua próxima vez de jogar.",
-				de: "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
+				'en-us': "This Pokémon can't attack during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				'es-es': "Este Pokémon no puede atacar durante tu próximo turno.",
+				'it-it': "Questo Pokémon non può attaccare durante il tuo prossimo turno.",
+				'pt-br': "Este Pokémon não poderá atacar durante sua próxima vez de jogar.",
+				'de-de': "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
 			},
 			damage: 150,
 
@@ -98,7 +98,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A Pokémon that is described in Chinese legends. It is said to race at an unbelievable speed.",
+		'en-us': "A Pokémon that is described in Chinese legends. It is said to race at an unbelievable speed.",
 	},
 
 	thirdParty: {

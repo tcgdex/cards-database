@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Palkia",
-		fr: "Palkia",
-		de: "Palkia"
+		'en-us': "Palkia",
+		'fr-fr': "Palkia",
+		'de-de': "Palkia"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,11 +27,11 @@ const card: Card = {
 
 	item: {
 		name: {
-			fr: "Orbe Perlé",
+			'fr-fr': "Orbe Perlé",
 
 		},
 		effect: {
-			fr: "Si un Pokémon Actif possède une Faiblesse au type Water, les attaques de Palkia infligent 20 dégâts supplémentaires à ce Pokémon (avant application de la Faiblesse et de la Résistance).",
+			'fr-fr': "Si un Pokémon Actif possède une Faiblesse au type Water, les attaques de Palkia infligent 20 dégâts supplémentaires à ce Pokémon (avant application de la Faiblesse et de la Résistance).",
 
 		}
 	},
@@ -42,14 +42,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Zone Shift",
-				fr: "Changement de zone",
-				de: 'Zonenwechsel'
+				'en-us': "Zone Shift",
+				'fr-fr': "Changement de zone",
+				'de-de': 'Zonenwechsel'
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Défenseur Pokémon avec 1 de ses Pokémon de Banc.",
-				de: 'Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus. '
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Défenseur Pokémon avec 1 de ses Pokémon de Banc.",
+				'de-de': 'Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus. '
 			},
 
 		},
@@ -61,14 +61,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pearl Blast",
-				fr: "Explosion perle",
-				de: 'Perlschuss'
+				'en-us': "Pearl Blast",
+				'fr-fr': "Explosion perle",
+				'de-de': 'Perlschuss'
 			},
 			effect: {
-				en: "You may return an Energy card attached to Palkia to your hand. If you do, choose an Energy card attached to the Defending Pokémon and return it to your opponent's hand.",
-				fr: "Vous pouvez reprendre dans votre main une carte Énergie attachée à Palkia. Choisissez alors une carte Énergie attachée au Pokémon Défenseur et demandez à votre adversaire de la reprendre dans sa main.",
-				de: 'Du kannst eine an Palkia angelegte Energiekarte zurück auf deine Hand nehmen. Wenn du das machst, wähle 1 am Verteidigenden Pokémon angelegte Energiekarte. Dein Gegner nimmt die gewählte Energiekarte auf die Hand. '
+				'en-us': "You may return an Energy card attached to Palkia to your hand. If you do, choose an Energy card attached to the Defending Pokémon and return it to your opponent's hand.",
+				'fr-fr': "Vous pouvez reprendre dans votre main une carte Énergie attachée à Palkia. Choisissez alors une carte Énergie attachée au Pokémon Défenseur et demandez à votre adversaire de la reprendre dans sa main.",
+				'de-de': 'Du kannst eine an Palkia angelegte Energiekarte zurück auf deine Hand nehmen. Wenn du das machst, wähle 1 am Verteidigenden Pokémon angelegte Energiekarte. Dein Gegner nimmt die gewählte Energiekarte auf die Hand. '
 			},
 			damage: 60,
 

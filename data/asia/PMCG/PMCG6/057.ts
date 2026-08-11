@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サカキのワンリキー",
+		'ja-jp': "サカキのワンリキー",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "チョップ",
+				'ja-jp': "チョップ",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fighting", "Fighting"],
 			name: {
-				ja: "フューリーパンチ",
+				'ja-jp': "フューリーパンチ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。ヘッドの場合、この攻撃は20倍のダメージ数のダメージ数がジョバンニのマチュップのカウンターカウンターになります。",
+				'ja-jp': "コインをひっくり返します。ヘッドの場合、この攻撃は20倍のダメージ数のダメージ数がジョバンニのマチュップのカウンターカウンターになります。",
 			},
 		},
 	],

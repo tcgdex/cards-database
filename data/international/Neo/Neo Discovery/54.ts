@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Dunsparce",
-		fr: "Insolourdo",
-		de: "Dummisel"
+		'en-us': "Dunsparce",
+		'fr-fr': "Insolourdo",
+		'de-de': "Dummisel"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Glare",
-				fr: "Intimidation",
-				de: "Giftblick"
+				'en-us': "Glare",
+				'fr-fr': "Intimidation",
+				'de-de': "Giftblick"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est Paralysé.",
-				de: "Wird eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est Paralysé.",
+				'de-de': "Wird eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -60,8 +60,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "When spotted, this Pokémon escapes backward by furiously boring into the ground with its tail.",
-		fr: "Quand il se fait remarquer, ce Pokémon fuit à reculons en plantant furieusement sa queue dans le sol."
+		'en-us': "When spotted, this Pokémon escapes backward by furiously boring into the ground with its tail.",
+		'fr-fr': "Quand il se fait remarquer, ce Pokémon fuit à reculons en plantant furieusement sa queue dans le sol."
 	},
 
 

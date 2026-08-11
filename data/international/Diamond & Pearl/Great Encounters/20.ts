@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Kingler",
-		fr: "Krabboss",
-		de: "Kingler"
+		'en-us': "Kingler",
+		'fr-fr': "Krabboss",
+		'de-de': "Kingler"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Krabby",
-		fr: "Krabby",
+		'en-us': "Krabby",
+		'fr-fr': "Krabby",
 	},
 
 	stage: "Stage1",
@@ -37,9 +37,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crabhammer",
-				fr: "Pince-masse",
-				de: "Krabbhammer"
+				'en-us': "Crabhammer",
+				'fr-fr': "Pince-masse",
+				'de-de': "Krabbhammer"
 			},
 
 			damage: 30,
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scissor Blow",
-				fr: "Cou d'ciseaux",
-				de: "Scherenschlag"
+				'en-us': "Scissor Blow",
+				'fr-fr': "Cou d'ciseaux",
+				'de-de': "Scherenschlag"
 			},
 			effect: {
-				en: "If the Defending Pokémon would be Knocked Out by this attack, Kingler does 30 damage to itself.",
-				fr: "Si le Pokémon Défenseur est mis K.O par cette attaque, Krabboss s'inflige 30 dégâts.",
-				de: "Wenn das Verteidigende Pokémon durch diesen Angriff kampfunfähig würde, fügt Kingler sich selbst 30 Schadenspunkte zu."
+				'en-us': "If the Defending Pokémon would be Knocked Out by this attack, Kingler does 30 damage to itself.",
+				'fr-fr': "Si le Pokémon Défenseur est mis K.O par cette attaque, Krabboss s'inflige 30 dégâts.",
+				'de-de': "Wenn das Verteidigende Pokémon durch diesen Angriff kampfunfähig würde, fügt Kingler sich selbst 30 Schadenspunkte zu."
 			},
 			damage: 80,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "The larger pincer has 10,000-horsepower strength. However, it is so heavy, it is difficult to aim.",
+		'en-us': "The larger pincer has 10,000-horsepower strength. However, it is so heavy, it is difficult to aim.",
 	},
 
 	thirdParty: {

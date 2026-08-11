@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Gallade EX",
-		fr: "Gallame EX",
+		'en-us': "Gallade EX",
+		'fr-fr': "Gallame EX",
 	},
 
 	illustrator: "PLANETA",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Assault Sword",
-				fr: "Lame d'Assaut",
+				'en-us': "Assault Sword",
+				'fr-fr': "Lame d'Assaut",
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon has no Energy attached to it, this attack does 40 more damage.",
-				fr: "Si aucune Énergie n'est attachée au Pokémon Actif de votre adversaire, cette attaque inflige 40 dégâts supplémentaires.",
+				'en-us': "If your opponent's Active Pokémon has no Energy attached to it, this attack does 40 more damage.",
+				'fr-fr': "Si aucune Énergie n'est attachée au Pokémon Actif de votre adversaire, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: "40＋",
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cross Slash",
-				fr: "Entaille Croisée",
+				'en-us': "Cross Slash",
+				'fr-fr': "Entaille Croisée",
 			},
 			effect: {
-				en: "This Pokémon can't use Cross Slash during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Entaille Croisée pendant votre prochain tour.",
+				'en-us': "This Pokémon can't use Cross Slash during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Entaille Croisée pendant votre prochain tour.",
 			},
 			damage: 130,
 

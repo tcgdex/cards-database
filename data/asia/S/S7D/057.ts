@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "しんかのおこう",
+		'ja-jp': "しんかのおこう",
 		'zh-tw': "進化薰香",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札から進化ポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+		'ja-jp': "自分の山札から進化ポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
 		'zh-tw': "從自己的牌庫選擇1張進化寶可夢卡，在給對手看過後加入手牌。並且重洗牌庫。",
 	},
 

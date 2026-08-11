@@ -1,17 +1,17 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Mega Evolution'
 
 const set: Set = {
 	id: "me04",
 
 	name: {
-		de: "Wachsendes Chaos",
-		en: "Chaos Rising",
-		es: "Caos Creciente",
+		'de-de': "Wachsendes Chaos",
+		'en-us': "Chaos Rising",
+		'es-es': "Caos Creciente",
 		'es-mx': 'Caos Creciente',
-		fr: "Chaos Ascendant",
-		it: "Caos Nascente",
-		pt: "Caos Ascendente"
+		'fr-fr': "Chaos Ascendant",
+		'it-it': "Caos Nascente",
+		'pt-br': "Caos Ascendente"
 	},
 
 	serie: serie,

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Feebas"
+		'id-id': "Feebas"
 	},
 
 	illustrator: "Tetsu Kayama",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Pokémon yang lusuh dan jelek, tapi memiliki daya hidup yang gigih sehingga Feebas dapat bertahan hidup di tempat yang airnya sedikit."
+		'id-id': "Pokémon yang lusuh dan jelek, tapi memiliki daya hidup yang gigih sehingga Feebas dapat bertahan hidup di tempat yang airnya sedikit."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Draw Up"
+			'id-id': "Draw Up"
 		},
 
 		effect: {
-			id: "Pilih 1 lembar Energi dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
+			'id-id': "Pilih 1 lembar Energi dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
 		},
 
 		cost: ["Water"]

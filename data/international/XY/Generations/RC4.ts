@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Charmeleon",
-		fr: "Reptincel",
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel",
 	},
 
 	illustrator: "Akira Komayama",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmander",
-		fr: "Salamèche",
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche",
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Support",
-				fr: "Appel au Renfort",
+				'en-us': "Call for Support",
+				'fr-fr': "Appel au Renfort",
 			},
 			effect: {
-				en: "Search your deck for a Supporter card, reveal it, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez une carte Supporter dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for a Supporter card, reveal it, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez une carte Supporter dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -51,8 +51,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
 			},
 
 			damage: 80,
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "My precious friend who is always with me. I have so many things I want to tell you.",
+		'en-us': "My precious friend who is always with me. I have so many things I want to tell you.",
 	},
 
 	thirdParty: {

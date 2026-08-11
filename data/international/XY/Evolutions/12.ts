@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Charizard EX",
-		fr: "Dracaufeu EX",
-		es: "Charizard EX",
-		it: "Charizard EX",
-		pt: "Charizard EX",
-		de: "Glurak EX"
+		'en-us': "Charizard EX",
+		'fr-fr': "Dracaufeu EX",
+		'es-es': "Charizard EX",
+		'it-it': "Charizard EX",
+		'pt-br': "Charizard EX",
+		'de-de': "Glurak EX"
 	},
 
 	illustrator: "PLANETA",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-Aile",
-				es: "Ataque Ala",
-				it: "Attacco d'Ala",
-				pt: "Ataque de Asa",
-				de: "Flügelschlag"
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-Aile",
+				'es-es': "Ataque Ala",
+				'it-it': "Attacco d'Ala",
+				'pt-br': "Ataque de Asa",
+				'de-de': "Flügelschlag"
 			},
 
 			damage: 60,
@@ -55,20 +55,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Combustion Blast",
-				fr: "Explo-Combustion",
-				es: "Estallido Fuego",
-				it: "Combustibomba",
-				pt: "Explosão de Combustão",
-				de: "Brandbombe"
+				'en-us': "Combustion Blast",
+				'fr-fr': "Explo-Combustion",
+				'es-es': "Estallido Fuego",
+				'it-it': "Combustibomba",
+				'pt-br': "Explosão de Combustão",
+				'de-de': "Brandbombe"
 			},
 			effect: {
-				en: "This Pokémon can't use Combustion Blast during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Explo-Combustion pendant votre prochain tour.",
-				es: "Este Pokémon no puede usar Estallido Fuego durante tu próximo turno.",
-				it: "Durante il tuo prossimo turno, questo Pokémon non può usare Combustibomba.",
-				pt: "Este Pokémon não poderá usar Explosão de Combustão em sua próxima vez de jogar.",
-				de: "Dieses Pokémon kann Brandbombe während deines nächsten Zuges nicht einsetzen."
+				'en-us': "This Pokémon can't use Combustion Blast during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Explo-Combustion pendant votre prochain tour.",
+				'es-es': "Este Pokémon no puede usar Estallido Fuego durante tu próximo turno.",
+				'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Combustibomba.",
+				'pt-br': "Este Pokémon não poderá usar Explosão de Combustão em sua próxima vez de jogar.",
+				'de-de': "Dieses Pokémon kann Brandbombe während deines nächsten Zuges nicht einsetzen."
 			},
 			damage: 150,
 

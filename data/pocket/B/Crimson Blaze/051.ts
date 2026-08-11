@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [208],
 
 	name: {
-		en: "Steelix"
+		'en-us': "Steelix"
 	},
 
 	illustrator: "NC Empire",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Onix"
+		'en-us': "Onix"
 	},
 
 	description: {
-		en: "It is thought its body transformed as a result of\niron accumulating internally from swallowing soil."
+		'en-us': "It is thought its body transformed as a result of\niron accumulating internally from swallowing soil."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Metal Defender"
+			'en-us': "Metal Defender"
 		},
 
 		damage: 100,
 		cost: ["Metal", "Metal", "Colorless", "Colorless"],
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon has no Weakness."
+			'en-us': "During your opponent's next turn, this Pokémon has no Weakness."
 		}
 	}],
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Staryu",
-		fr: "Stari",
-		de: "Sterndu"
+		'en-us': "Staryu",
+		'fr-fr': "Stari",
+		'de-de': "Sterndu"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Spinning Attack",
-				fr: "Attaque tournante",
-				de: "Rundumangriff"
+				'en-us': "Spinning Attack",
+				'fr-fr': "Attaque tournante",
+				'de-de': "Rundumangriff"
 			},
 
 			damage: 20,
@@ -49,7 +49,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "At night, the center of its body slowly flickers with the same rhythm as a human heartbeat."
+		'en-us': "At night, the center of its body slowly flickers with the same rhythm as a human heartbeat."
 	},
 
 	variants: [

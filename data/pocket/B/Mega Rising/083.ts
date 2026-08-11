@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Flaaffy"
+		'en-us': "Flaaffy"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Mareep"
+		'en-us': "Mareep"
 	},
 
 	description: {
-		en: "Because of its rubbery, electricity-resistant skin,\nit can store lots of electricity in its fur."
+		'en-us': "Because of its rubbery, electricity-resistant skin,\nit can store lots of electricity in its fur."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Electric Punch"
+			'en-us': "Electric Punch"
 		},
 
 		damage: 40,

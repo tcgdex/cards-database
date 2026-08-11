@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Growlithe"
+		'en-us': "Growlithe"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -28,7 +28,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare"
+				'en-us': "Flare"
 			},
 
 			damage: 20,
@@ -46,7 +46,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Very protective of its territory. It will bark and bite to repel intruders from its space."
+		'en-us': "Very protective of its territory. It will bark and bite to repel intruders from its space."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Torchic ☆",
-		de: "Flemmli ☆"
+		'en-us': "Torchic ☆",
+		'de-de': "Flemmli ☆"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fireworks",
-				de: "Firworks"
+				'en-us': "Fireworks",
+				'de-de': "Firworks"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Fire Energy card attached to Torchic ☆.",
-				de: "Flip a coin. If tails, discard a Fire Energy card attached to Torchic ☆."
+				'en-us': "Flip a coin. If tails, discard a Fire Energy card attached to Torchic ☆.",
+				'de-de': "Flip a coin. If tails, discard a Fire Energy card attached to Torchic ☆."
 			},
 			damage: 20,
 
@@ -46,12 +46,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Spring Back",
-				de: "Spring Back"
+				'en-us': "Spring Back",
+				'de-de': "Spring Back"
 			},
 			effect: {
-				en: "If your opponent has only 1 Prize card left, this attack does 20 damage plus 50 more damage and the Defending Pokémon is now Confused.",
-				de: "If your opponent has only 1 Prize card left, this atack does 20 damage plus 50 more damage and the Defending Pokémon is now Confused."
+				'en-us': "If your opponent has only 1 Prize card left, this attack does 20 damage plus 50 more damage and the Defending Pokémon is now Confused.",
+				'de-de': "If your opponent has only 1 Prize card left, this atack does 20 damage plus 50 more damage and the Defending Pokémon is now Confused."
 			},
 			damage: "20+",
 

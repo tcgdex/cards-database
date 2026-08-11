@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Genesect",
-		fr: "Genesect",
-		es: "Genesect",
-		it: "Genesect",
-		pt: "Genesect",
-		de: "Genesect"
+		'en-us': "Genesect",
+		'fr-fr': "Genesect",
+		'es-es': "Genesect",
+		'it-it': "Genesect",
+		'pt-br': "Genesect",
+		'de-de': "Genesect"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la Famille",
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la Famille",
 			},
 			effect: {
-				en: "Search your deck for 2 Grass Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez 2 Pokémon Grass de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for 2 Grass Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez 2 Pokémon Grass de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jet Impact",
-				fr: "Impact Aérien",
+				'en-us': "Jet Impact",
+				'fr-fr': "Impact Aérien",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 80,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.",
+		'en-us': "This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.",
 	},
 
 	thirdParty: {

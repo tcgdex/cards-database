@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mantine",
-		es: "Mantine",
-		pt: "Mantine",
-		de: "Mantax",
-		fr: "Démanta",
-		it: "Mantine"
+		'en-us': "Mantine",
+		'es-es': "Mantine",
+		'pt-br': "Mantine",
+		'de-de': "Mantax",
+		'fr-fr': "Démanta",
+		'it-it': "Mantine"
 	},
 
 	illustrator: "0313",
@@ -21,32 +21,32 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Water Reserve",
-			es: "Reserva de Agua",
-			pt: "Reservatório de Água",
-			de: "Wasserreserve",
-			fr: "Réserve d'Eau",
-			it: "Riserva Idrica"
+			'en-us': "Water Reserve",
+			'es-es': "Reserva de Agua",
+			'pt-br': "Reservatório de Água",
+			'de-de': "Wasserreserve",
+			'fr-fr': "Réserve d'Eau",
+			'it-it': "Riserva Idrica"
 		},
 
 		effect: {
-			en: "Search your deck for up to 3 {W} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
-			es: "Busca en tu baraja hasta 3 cartas de Energía {W}, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
-			pt: "Procure por até 3 cartas de Energia {W} no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach bis zu 3 {W}-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
-			fr: "Cherchez dans votre deck jusqu'à 3 cartes Énergie {W}, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
-			it: "Cerca nel tuo mazzo fino a tre carte Energia {W}, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo."
+			'en-us': "Search your deck for up to 3 {W} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+			'es-es': "Busca en tu baraja hasta 3 cartas de Energía {W}, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
+			'pt-br': "Procure por até 3 cartas de Energia {W} no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach bis zu 3 {W}-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+			'fr-fr': "Cherchez dans votre deck jusqu'à 3 cartes Énergie {W}, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+			'it-it': "Cerca nel tuo mazzo fino a tre carte Energia {W}, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo."
 		},
 
 		cost: ["Water"]
 	}, {
 		name: {
-			en: "Wave Splash",
-			es: "Chapoteo Ondulante",
-			pt: "Onda Borrifante",
-			de: "Wellenplatscher",
-			fr: "Grosse Vague",
-			it: "Schizzi d'Onda"
+			'en-us': "Wave Splash",
+			'es-es': "Chapoteo Ondulante",
+			'pt-br': "Onda Borrifante",
+			'de-de': "Wellenplatscher",
+			'fr-fr': "Grosse Vague",
+			'it-it': "Schizzi d'Onda"
 		},
 
 		damage: 60,
@@ -61,7 +61,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If it builds up enough speed swimming, it can jump out above the waves and glide for over 300 feet."
+		'en-us': "If it builds up enough speed swimming, it can jump out above the waves and glide for over 300 feet."
 	},
 
 	stage: "Basic",

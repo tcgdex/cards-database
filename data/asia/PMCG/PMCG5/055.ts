@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タケシのサイドン",
+		'ja-jp': "タケシのサイドン",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "ベンチガード",
+				'ja-jp': "ベンチガード",
 			},
 			effect: {
-				ja: "BrockのRhydonがベンチに入れられている限り、ベンチに入ったPokmonが損傷したときはいつでも、代わりにBrockのRhydonにそのダメージを10回することがあります。 <em>（ベンチ付きポクモンの2つ以上が同時に破損している場合、それらのそれぞれに対してこのパワーを1回使用できます。）</em>",
+				'ja-jp': "BrockのRhydonがベンチに入れられている限り、ベンチに入ったPokmonが損傷したときはいつでも、代わりにBrockのRhydonにそのダメージを10回することがあります。 <em>（ベンチ付きポクモンの2つ以上が同時に破損している場合、それらのそれぞれに対してこのパワーを1回使用できます。）</em>",
 			},
 		}],
 
@@ -30,10 +30,10 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "ラリアット",
+				'ja-jp': "ラリアット",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃は何もしません。",
 			},
 			damage: 70,
 		},

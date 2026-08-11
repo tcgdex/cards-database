@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Articuno-EX",
-		fr: "Artikodin-EX",
-		es: "Articuno-EX",
-		it: "Articuno-EX",
-		pt: "Articuno-EX",
-		de: "Arktos-EX"
+		'en-us': "Articuno-EX",
+		'fr-fr': "Artikodin-EX",
+		'es-es': "Articuno-EX",
+		'it-it': "Articuno-EX",
+		'pt-br': "Articuno-EX",
+		'de-de': "Arktos-EX"
 	},
 	illustrator: "Toyste Beach",
 	rarity: "Rare",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blizzard",
-				fr: "Blizzard",
+				'en-us': "Blizzard",
+				'fr-fr': "Blizzard",
 			},
 			effect: {
-				en: "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 60,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Frost Prison",
-				fr: "Prison de Givre",
+				'en-us': "Frost Prison",
+				'fr-fr': "Prison de Givre",
 			},
 			effect: {
-				en: "If this Pokémon has any Plasma Energy attached to it, the Defending Pokémon is now Paralyzed.",
-				fr: "Si de l'Énergie Plasma est attachée à ce Pokémon, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "If this Pokémon has any Plasma Energy attached to it, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Si de l'Énergie Plasma est attachée à ce Pokémon, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 80,
 

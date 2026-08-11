@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デリバード",
+		'ja-jp': "デリバード",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "自分の 餌を 人や ポケモンに 分け与える 習性が あるため いつも 餌を 探しまわっている。",
+		'ja-jp': "自分の 餌を 人や ポケモンに 分け与える 習性が あるため いつも 餌を 探しまわっている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ハッピーデリバリー" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "「ポケモンのどうぐ」がついていない自分のベンチポケモンを好きなだけ選ぶ。その後、選んだ数ぶんまでの「ポケモンのどうぐ」を自分の山札から選び、選んだポケモンにそれぞれつける。そして山札を切る。",
+				'ja-jp': "「ポケモンのどうぐ」がついていない自分のベンチポケモンを好きなだけ選ぶ。その後、選んだ数ぶんまでの「ポケモンのどうぐ」を自分の山札から選び、選んだポケモンにそれぞれつける。そして山札を切る。",
 			},
 		},
 		{

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zweilous"
+		'en-us': "Zweilous"
 	},
 
 	illustrator: "kodama",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Deino"
+		'en-us': "Deino"
 	},
 
 	description: {
-		en: "The two heads have different likes and dislikes.\nBecause the heads fight with each other, Zweilous\ngets stronger without needing to rely on others."
+		'en-us': "The two heads have different likes and dislikes.\nBecause the heads fight with each other, Zweilous\ngets stronger without needing to rely on others."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Darkness Fang"
+			'en-us': "Darkness Fang"
 		},
 
 		damage: 40,

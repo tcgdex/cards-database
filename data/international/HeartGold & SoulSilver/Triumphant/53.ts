@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Weepinbell",
-		fr: "Boustiflor",
-		de: "Ultrigaria"
+		'en-us': "Weepinbell",
+		'fr-fr': "Boustiflor",
+		'de-de': "Ultrigaria"
 	},
 
 	illustrator: "Midori Harada",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bellsprout",
-		fr: "Chetiflor"
+		'en-us': "Bellsprout",
+		'fr-fr': "Chetiflor"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poisonpowder",
-				fr: "Poudre Toxik",
-				de: "Giftpuder"
+				'en-us': "Poisonpowder",
+				'fr-fr': "Poudre Toxik",
+				'de-de': "Giftpuder"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Corrode Target",
-				fr: "Visée corrosive",
-				de: "Ziel korrodieren"
+				'en-us': "Corrode Target",
+				'fr-fr': "Visée corrosive",
+				'de-de': "Ziel korrodieren"
 			},
 			effect: {
-				en: "Flip a coin. If heads, look at your opponent's hand, choose 1 card, and discard it.",
-				fr: "Lancez une pièce. Si c’est face, regardez la main de votre adversaire, choisissez une carte et défaussez-la.",
-				de: "Wirf eine Münze. Schau dir bei \"Kopf\" die Handkarten deines Gegners an, wähle 1 davon und lege sie auf seinen Ablagestapel."
+				'en-us': "Flip a coin. If heads, look at your opponent's hand, choose 1 card, and discard it.",
+				'fr-fr': "Lancez une pièce. Si c’est face, regardez la main de votre adversaire, choisissez une carte et défaussez-la.",
+				'de-de': "Wirf eine Münze. Schau dir bei \"Kopf\" die Handkarten deines Gegners an, wähle 1 davon und lege sie auf seinen Ablagestapel."
 			},
 			damage: 10,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Even though it is filled with acid, it does not melt because it also oozes a protective fluid."
+		'en-us': "Even though it is filled with acid, it does not melt because it also oozes a protective fluid."
 	},
 
 	variants: [

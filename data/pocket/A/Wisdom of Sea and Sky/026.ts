@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ninetales",
-		fr: "Feunard"
+		'en-us': "Ninetales",
+		'fr-fr': "Feunard"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -18,28 +18,28 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Vulpix"
+		'en-us': "Vulpix"
 	},
 
 	description: {
-		en: "It is said to live 1,000 years, and each of its tails\nis loaded with supernatural powers.",
-		fr: "On dit qu'il vit 1 000 ans et que chacune de ses queues a un pouvoir magique."
+		'en-us': "It is said to live 1,000 years, and each of its tails\nis loaded with supernatural powers.",
+		'fr-fr': "On dit qu'il vit 1 000 ans et que chacune de ses queues a un pouvoir magique."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Scorching Breath",
-			fr: "Souffle Brûlant"
+			'en-us': "Scorching Breath",
+			'fr-fr': "Souffle Brûlant"
 		},
 
 		damage: 120,
 		cost: ["Fire", "Fire", "Colorless"],
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer."
 		}
 	}],
 

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drifblim",
-		fr: "Grodrive",
-		es: "Drifblim",
-		it: "Drifblim",
-		pt: "Drifblim",
-		de: "Drifzepeli"
+		'en-us': "Drifblim",
+		'fr-fr': "Grodrive",
+		'es-es': "Drifblim",
+		'it-it': "Drifblim",
+		'pt-br': "Drifblim",
+		'de-de': "Drifzepeli"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Drifloon",
-		fr: "Baudrive",
-		es: "Drifloon",
-		it: "Drifloon",
-		pt: "Drifloon",
-		de: "Driftlon"
+		'en-us': "Drifloon",
+		'fr-fr': "Baudrive",
+		'es-es': "Drifloon",
+		'it-it': "Drifloon",
+		'pt-br': "Drifloon",
+		'de-de': "Driftlon"
 	},
 
 	stage: "Stage1",
@@ -35,21 +35,21 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Spooky Balloon",
-			fr: "Ballon Effrayant",
-			es: "Globo Aterrador",
-			it: "Pallone Inquietante",
-			pt: "Balão Assustador",
-			de: "Spukballon"
+			'en-us': "Spooky Balloon",
+			'fr-fr': "Ballon Effrayant",
+			'es-es': "Globo Aterrador",
+			'it-it': "Pallone Inquietante",
+			'pt-br': "Balão Assustador",
+			'de-de': "Spukballon"
 		},
 
 		effect: {
-			en: "Put 2 damage counters on 1 of your opponent's Benched Pokémon.",
-			fr: "Placez 2 marqueurs de dégâts sur l'un des Pokémon de Banc de votre adversaire.",
-			es: "Pon 2 contadores de daño en 1 de los Pokémon en Banca de tu rival.",
-			it: "Metti due segnalini danno su uno dei Pokémon nella panchina del tuo avversario.",
-			pt: "Coloque 2 contadores de dano em 1 dos Pokémon no Banco do seu oponente.",
-			de: "Lege 2 Schadensmarken auf 1 Pokémon auf der Bank deines Gegners."
+			'en-us': "Put 2 damage counters on 1 of your opponent's Benched Pokémon.",
+			'fr-fr': "Placez 2 marqueurs de dégâts sur l'un des Pokémon de Banc de votre adversaire.",
+			'es-es': "Pon 2 contadores de daño en 1 de los Pokémon en Banca de tu rival.",
+			'it-it': "Metti due segnalini danno su uno dei Pokémon nella panchina del tuo avversario.",
+			'pt-br': "Coloque 2 contadores de dano em 1 dos Pokémon no Banco do seu oponente.",
+			'de-de': "Lege 2 Schadensmarken auf 1 Pokémon auf der Bank deines Gegners."
 		},
 
 		damage: 50
@@ -72,7 +72,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Some say this Pokémon is a collection of souls burdened with regrets, silently drifting through the dusk.",
+		'en-us': "Some say this Pokémon is a collection of souls burdened with regrets, silently drifting through the dusk.",
 	},
 
 	variants: [

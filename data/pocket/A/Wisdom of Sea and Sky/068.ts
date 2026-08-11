@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Flaaffy",
-		fr: "Lainergie"
+		'en-us': "Flaaffy",
+		'fr-fr': "Lainergie"
 	},
 
 	illustrator: "MAHOU",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Mareep"
+		'en-us': "Mareep"
 	},
 
 	description: {
-		en: "As a result of storing too much electricity,\nit developed patches where even downy\nwool won't grow.",
-		fr: "Il a emmagasiné tellement d'électricité que sa laine ne peut plus repousser à certains endroits de son corps."
+		'en-us': "As a result of storing too much electricity,\nit developed patches where even downy\nwool won't grow.",
+		'fr-fr': "Il a emmagasiné tellement d'électricité que sa laine ne peut plus repousser à certains endroits de son corps."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Zap Kick",
-			fr: "Coup de Pied Ravageur"
+			'en-us': "Zap Kick",
+			'fr-fr': "Coup de Pied Ravageur"
 		},
 
 		damage: 50,

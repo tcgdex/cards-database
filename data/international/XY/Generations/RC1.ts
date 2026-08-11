@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Chikorita",
-		fr: "Germignon",
+		'en-us': "Chikorita",
+		'fr-fr': "Germignon",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Run Around",
-				fr: "Course Effrénée",
+				'en-us': "Run Around",
+				'fr-fr': "Course Effrénée",
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
 			},
 
 		},
@@ -45,8 +45,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vine Whip",
-				fr: "Fouet Lianes",
+				'en-us': "Vine Whip",
+				'fr-fr': "Fouet Lianes",
 			},
 
 			damage: 20,
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Running around, climbing trees, playing hide-and-seek! Another wonderful day begins!",
+		'en-us': "Running around, climbing trees, playing hide-and-seek! Another wonderful day begins!",
 	},
 
 	thirdParty: {

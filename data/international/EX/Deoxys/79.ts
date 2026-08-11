@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Swablu",
-		fr: "Tylton",
-		de: "Wablu"
+		'en-us': "Swablu",
+		'fr-fr': "Tylton",
+		'de-de': "Wablu"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Fluff",
-				fr: "Coton",
-				de: "Fluff"
+				'en-us': "Fluff",
+				'fr-fr': "Coton",
+				'de-de': "Fluff"
 			},
 			effect: {
-				en: "Whenever Swablu would be damaged or affected by an opponent's attack and already has at least 1 damage counter on it, flip a coin. If heads, prevent all effects of that attack, including damage, done to Swablu.",
-				fr: "Dès qu'une attaque de votre adversaire inflige des dégâts ou affecte Tylton et si Tylton possède déjà un marqueur de dégât, lancez une pièce. Si c'est face, prévenez tous les effets infligés à Tylton, dégâts inclus, lors de cette attaque.",
-				de: "Whenever Swablu would be damaged or affected by an opponent's attack and already has at leats 1 damage counter on it, flip a coin. If heads, prevent all effects of that attack, including damage, done to Swablu."
+				'en-us': "Whenever Swablu would be damaged or affected by an opponent's attack and already has at least 1 damage counter on it, flip a coin. If heads, prevent all effects of that attack, including damage, done to Swablu.",
+				'fr-fr': "Dès qu'une attaque de votre adversaire inflige des dégâts ou affecte Tylton et si Tylton possède déjà un marqueur de dégât, lancez une pièce. Si c'est face, prévenez tous les effets infligés à Tylton, dégâts inclus, lors de cette attaque.",
+				'de-de': "Whenever Swablu would be damaged or affected by an opponent's attack and already has at leats 1 damage counter on it, flip a coin. If heads, prevent all effects of that attack, including damage, done to Swablu."
 			},
 		},
 	],
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				de: "Peck"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'de-de': "Peck"
 			},
 
 			damage: 10,

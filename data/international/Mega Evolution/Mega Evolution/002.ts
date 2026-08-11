@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ivysaur",
-		fr: "Herbizarre",
-		de: "Bisaknosp",
-		it: "Ivysaur",
-		es: "Ivysaur",
-		pt: "Ivysaur",
+		'en-us': "Ivysaur",
+		'fr-fr': "Herbizarre",
+		'de-de': "Bisaknosp",
+		'it-it': "Ivysaur",
+		'es-es': "Ivysaur",
+		'pt-br': "Ivysaur",
 		'es-mx': "Ivysaur"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Bulbasaur",
-		fr: "Bulbizarre",
-		de: "Bisasam",
-		it: "Bulbasaur",
-		es: "Bulbasaur",
-		pt: "Bulbasaur",
+		'en-us': "Bulbasaur",
+		'fr-fr': "Bulbizarre",
+		'de-de': "Bisasam",
+		'it-it': "Bulbasaur",
+		'es-es': "Bulbasaur",
+		'pt-br': "Bulbasaur",
 		'es-mx': "Bulbasaur"
 	},
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			en: "Razor Leaf",
-			fr: "Tranch'Herbe",
-			de: "Rasierblatt",
-			it: "Foglielama",
-			es: "Hoja Afilada",
-			pt: "Folha Navalha",
+			'en-us': "Razor Leaf",
+			'fr-fr': "Tranch'Herbe",
+			'de-de': "Rasierblatt",
+			'it-it': "Foglielama",
+			'es-es': "Hoja Afilada",
+			'pt-br': "Folha Navalha",
 			'es-mx': "Hojas Navaja"
 		},
 

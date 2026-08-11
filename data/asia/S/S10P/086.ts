@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オリジンパルキアVSTAR",
+		'ja-jp': "オリジンパルキアVSTAR",
 	},
 
 	illustrator: "aky CG Works",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "スターポータル" },
 			effect: {
-				ja: "自分の番に使える。自分のトラッシュから[W]エネルギーを3枚まで選び、自分の[W]ポケモンに好きなようにつける。［対戦中、自分はVSTARパワーを1回しか使えない。］",
+				'ja-jp': "自分の番に使える。自分のトラッシュから[W]エネルギーを3枚まで選び、自分の[W]ポケモンに好きなようにつける。［対戦中、自分はVSTARパワーを1回しか使えない。］",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Water", "Water"],
 			effect: {
-				ja: "おたがいのベンチポケモンの数×20ダメージ追加。",
+				'ja-jp': "おたがいのベンチポケモンの数×20ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "nullV",
+		'ja-jp': "nullV",
 	},
 
 	retreat: 2,

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Charizard",
-		fr: "Dracaufeu",
+		'en-us': "Charizard",
+		'fr-fr': "Dracaufeu",
 	},
 
 	illustrator: "Akira Komayama",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmeleon",
-		fr: "Reptincel",
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel",
 	},
 
 	stage: "Stage2",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Recall",
-				fr: "Récupération",
+				'en-us': "Recall",
+				'fr-fr': "Récupération",
 			},
 			effect: {
-				en: "Choose 1 of this Pokémon's attacks from its previous Evolutions and use it as this attack.",
-				fr: "Choisissez l'une des attaques de pré-évolutions de ce Pokémon et utilisez-la en tant que cette attaque.",
+				'en-us': "Choose 1 of this Pokémon's attacks from its previous Evolutions and use it as this attack.",
+				'fr-fr': "Choisissez l'une des attaques de pré-évolutions de ce Pokémon et utilisez-la en tant que cette attaque.",
 			},
 
 		},
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Combustion Blast",
-				fr: "Explo-Combustion",
+				'en-us': "Combustion Blast",
+				'fr-fr': "Explo-Combustion",
 			},
 			effect: {
-				en: "This Pokémon can't use Combustion Blast during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Explo-Combustion pendant votre prochain tour.",
+				'en-us': "This Pokémon can't use Combustion Blast during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Explo-Combustion pendant votre prochain tour.",
 			},
 			damage: 130,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "No matter what happens, if we stick together, we can get past it. Forever and ever.",
+		'en-us': "No matter what happens, if we stick together, we can get past it. Forever and ever.",
 	},
 
 	thirdParty: {

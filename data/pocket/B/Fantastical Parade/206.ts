@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [240],
 
 	name: {
-		en: "Magby"
+		'en-us': "Magby"
 	},
 
 	illustrator: "MAHOU",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		en: "This Pokémon is still small and timid.\nWhenever Magby gets excited or surprised,\nflames leak from its mouth and its nose."
+		'en-us': "This Pokémon is still small and timid.\nWhenever Magby gets excited or surprised,\nflames leak from its mouth and its nose."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Toasty Toss"
+			'en-us': "Toasty Toss"
 		},
 
 		effect: {
-			en: "Take a {R} Energy from your Energy Zone and attach it to 1 of your Benched Basic Pokémon."
+			'en-us': "Take a {R} Energy from your Energy Zone and attach it to 1 of your Benched Basic Pokémon."
 		}
 	}],
 

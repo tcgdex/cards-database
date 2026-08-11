@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バネット",
+		'ja-jp': "バネット",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "保護",
+				'ja-jp': "保護",
 			},
 			effect: {
-				ja: "対戦相手のPokã©Mon-ExによってBanetteに行われた損害を含む攻撃のすべての影響を防ぎます。",
+				'ja-jp': "対戦相手のPokã©Mon-ExによってBanetteに行われた損害を含む攻撃のすべての影響を防ぎます。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "夜のつぶやき",
+				'ja-jp': "夜のつぶやき",
 			},
 			effect: {
-				ja: "防御ポケモンが基本的なポケモンである場合、そのポケモンは混乱しています。",
+				'ja-jp': "防御ポケモンが基本的なポケモンである場合、そのポケモンは混乱しています。",
 			},
 			damage: 30,
 		},

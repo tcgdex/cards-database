@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Scyther",
-		fr: "Insécateur",
+		'en-us': "Scyther",
+		'fr-fr': "Insécateur",
 	},
 
 	illustrator: "Hasuno",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
 			},
 
 			damage: 10,
@@ -43,8 +43,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharp Scythe",
-				fr: "Faucille Acérée",
+				'en-us': "Sharp Scythe",
+				'fr-fr': "Faucille Acérée",
 			},
 
 			damage: 30,
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its two sharp scythes are more than just weapons. It uses them with dexterity to dress its prey before eating.",
+		'en-us': "Its two sharp scythes are more than just weapons. It uses them with dexterity to dress its prey before eating.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "烈咬陸鯊V",
-		ja: "ガブリアスV"
+		'ja-jp': "ガブリアスV"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -19,7 +19,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "龍爪",
-			ja: "ドラゴンクロー"
+			'ja-jp': "ドラゴンクロー"
 		},
 
 		damage: 120,
@@ -27,12 +27,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "音波強襲",
-			ja: "ソニックストライク"
+			'ja-jp': "ソニックストライク"
 		},
 
 		effect: {
 			'zh-tw': "將這隻寶可夢身上附加的3個能量丟棄，對手的1隻寶可夢受到220點傷害。[在備戰區不計算弱點・抵抗力。]",
-			ja: "このポケモンについているエネルギーを3個トラッシュし、相手のポケモン1匹に、220ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			'ja-jp': "このポケモンについているエネルギーを3個トラッシュし、相手のポケモン1匹に、220ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
 		},
 
 		cost: ["Water", "Fighting", "Fighting", "Colorless"]

@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドードー",
+		'ja-jp': "ドードー",
 		'zh-tw': "嘟嘟",
-		th: "โดโด",
-		id: "Doduo",
+		'th-th': "โดโด",
+		'id-id': "Doduo",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -16,10 +16,10 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "２つの 頭の 脳みそは テレパシーのような 力で 気持ちを 通じ合わせているらしい。",
+		'ja-jp': "２つの 頭の 脳みそは テレパシーのような 力で 気持ちを 通じ合わせているらしい。",
 		'zh-tw': "２個腦袋好像會用 類似心靈感應的力量， 來傳遞彼此的想法。",
-		th: "ดูเหมือนว่าสมองในหัวทั้งสองนั้นจะสื่อความรู้สึกถึงกันได้ด้วยพลังคล้ายโทรจิต",
-		id: "Kabarnya otak pada 2 kepala Doduo saling menyalurkan perasaan dengan kekuatan yang seperti telepati.",
+		'th-th': "ดูเหมือนว่าสมองในหัวทั้งสองนั้นจะสื่อความรู้สึกถึงกันได้ด้วยพลังคล้ายโทรจิต",
+		'id-id': "Kabarnya otak pada 2 kepala Doduo saling menyalurkan perasaan dengan kekuatan yang seperti telepati.",
 	},
 
 	stage: "Basic",
@@ -27,18 +27,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "とつげき",
+				'ja-jp': "とつげき",
 				'zh-tw': "突擊",
-				th: "ประจัญบาน",
-				id: "Menyerang",
+				'th-th': "ประจัญบาน",
+				'id-id': "Menyerang",
 			},
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンにも10ダメージ。",
+				'ja-jp': "このポケモンにも10ダメージ。",
 				'zh-tw': "這隻寶可夢也受到10點傷害。",
-				th: "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
-				id: "Pokémon ini juga menerima kerusakan sejumlah 10.",
+				'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
+				'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10.",
 			},
 		},
 	],

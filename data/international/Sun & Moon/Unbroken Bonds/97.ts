@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Quagsire",
-		fr: "Maraiste",
-		es: "Quagsire",
-		it: "Quagsire",
-		pt: "Quagsire",
-		de: "Morlord"
+		'en-us': "Quagsire",
+		'fr-fr': "Maraiste",
+		'es-es': "Quagsire",
+		'it-it': "Quagsire",
+		'pt-br': "Quagsire",
+		'de-de': "Morlord"
 	},
 
 	illustrator: "kirisAki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wooper",
-		fr: "Axoloto",
+		'en-us': "Wooper",
+		'fr-fr': "Axoloto",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
-				es: "Pistola Agua",
-				it: "Pistolacqua",
-				pt: "Revólver d’Água",
-				de: "Aquaknarre"
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
+				'es-es': "Pistola Agua",
+				'it-it': "Pistolacqua",
+				'pt-br': "Revólver d’Água",
+				'de-de': "Aquaknarre"
 			},
 
 			damage: 20,
@@ -57,12 +57,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
-				es: "Surf",
-				it: "Surf",
-				pt: "Surfar",
-				de: "Surfer"
+				'en-us': "Surf",
+				'fr-fr': "Surf",
+				'es-es': "Surf",
+				'it-it': "Surf",
+				'pt-br': "Surfar",
+				'de-de': "Surfer"
 			},
 
 			damage: 120,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has a sluggish nature. It lies at the river's bottom, waiting for prey to stray into its mouth.",
+		'en-us': "It has a sluggish nature. It lies at the river's bottom, waiting for prey to stray into its mouth.",
 	},
 
 	thirdParty: {

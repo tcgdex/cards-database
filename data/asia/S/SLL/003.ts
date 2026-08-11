@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SLL"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "恰雷姆",
-		ja: "チャーレム"
+		'ja-jp': "チャーレム"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "能用在瑜伽的修行中鍛鍊出來的精神力量預測對手的行動。",
-		ja: "ヨガの 修行で 鍛えられた サイコパワーで 相手の 動きを 予測する ことが できるのだ。"
+		'ja-jp': "ヨガの 修行で 鍛えられた サイコパワーで 相手の 動きを 予測する ことが できるのだ。"
 	},
 
 	stage: "Stage1",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "戰鬥舞步",
-			ja: "バトルステップ"
+			'ja-jp': "バトルステップ"
 		},
 
 		effect: {
 			'zh-tw': "從自己的牌庫選擇最多2張【鬥】能量卡，以任意方式附於備戰寶可夢身上。並且重洗牌庫。",
-			ja: "自分の山札からエネルギーを2枚まで選び、ベンチポケモンに好きなようにつける。そして山札を切る。"
+			'ja-jp': "自分の山札からエネルギーを2枚まで選び、ベンチポケモンに好きなようにつける。そして山札を切る。"
 		},
 
 		damage: 50,

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skitty"
+		'en-us': "Skitty"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It shows its cute side by chasing its own tail\nuntil it gets dizzy."
+		'en-us': "It shows its cute side by chasing its own tail\nuntil it gets dizzy."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Play Rough"
+			'en-us': "Play Rough"
 		},
 
 		damage: 10,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage."
+			'en-us': "Flip a coin. If heads, this attack does 30 more damage."
 		}
 	}],
 

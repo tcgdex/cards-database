@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Magnemite",
-		fr: "Magnéti",
-		es: "Magnemite",
-		it: "Magnemite",
-		pt: "Magnemite",
-		de: "Magnetilo"
+		'en-us': "Magnemite",
+		'fr-fr': "Magnéti",
+		'es-es': "Magnemite",
+		'it-it': "Magnemite",
+		'pt-br': "Magnemite",
+		'de-de': "Magnetilo"
 	},
 
 	illustrator: "Akira Komayama",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Shock Generator",
-				fr: "Générateur de Choc",
-				es: "Generador Sacudida",
-				it: "Generatore Shock",
-				pt: "Gerador de Choque",
-				de: "Schockgenerator"
+				'en-us': "Shock Generator",
+				'fr-fr': "Générateur de Choc",
+				'es-es': "Generador Sacudida",
+				'it-it': "Generatore Shock",
+				'pt-br': "Gerador de Choque",
+				'de-de': "Schockgenerator"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lightning Ball",
-				fr: "Boule Éclair",
-				es: "Bola Relámpago",
-				it: "Fulminpalla",
-				pt: "Bola de Raios",
-				de: "Kugelblitz"
+				'en-us': "Lightning Ball",
+				'fr-fr': "Boule Éclair",
+				'es-es': "Bola Relámpago",
+				'it-it': "Fulminpalla",
+				'pt-br': "Bola de Raios",
+				'de-de': "Kugelblitz"
 			},
 
 			damage: 20,
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It moves while constantly hovering. It discharges Thunder Wave and so on from the units at its sides.",
+		'en-us': "It moves while constantly hovering. It discharges Thunder Wave and so on from the units at its sides.",
 	},
 
 	thirdParty: {

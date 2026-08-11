@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "xatu",
+		'ja-jp': "xatu",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "同期性",
+				'ja-jp': "同期性",
 			},
 			effect: {
-				ja: "任意の技術マシンをXatuに接続できます。",
+				'ja-jp': "任意の技術マシンをXatuに接続できます。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "ワープホール",
+				'ja-jp': "ワープホール",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、廃棄パイルからカードを選択し、デッキの上に置きます。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、廃棄パイルからカードを選択し、デッキの上に置きます。",
 			},
 			damage: 30,
 		},

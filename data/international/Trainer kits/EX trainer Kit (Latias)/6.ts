@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit (Latias)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skitty",
-		fr: "Skitty"
+		'en-us': "Skitty",
+		'fr-fr': "Skitty"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -25,8 +25,8 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Tackle",
-			fr: "Charge"
+			'en-us': "Tackle",
+			'fr-fr': "Charge"
 		},
 		damage: 10
 	}, {
@@ -35,12 +35,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Lunge",
-			fr: "Coup rapide"
+			'en-us': "Lunge",
+			'fr-fr': "Coup rapide"
 		},
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, l'attaque est sans effet."
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, l'attaque est sans effet."
 		},
 		damage: 30
 	}],

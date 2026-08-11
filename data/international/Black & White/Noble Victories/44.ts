@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Yamask",
-		fr: "Tutafeh",
-		es: "Yamask",
-		it: "Yamask",
-		pt: "Yamask",
-		de: "Makabaja"
+		'en-us': "Yamask",
+		'fr-fr': "Tutafeh",
+		'es-es': "Yamask",
+		'it-it': "Yamask",
+		'pt-br': "Yamask",
+		'de-de': "Makabaja"
 	},
 
 	illustrator: "Midori Harada",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Perplex",
-				fr: "Affolement",
+				'en-us': "Perplex",
+				'fr-fr': "Affolement",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: 10,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Each of them carries a mask that used to be its face when it was human. Sometimes they look at it and cry.",
+		'en-us': "Each of them carries a mask that used to be its face when it was human. Sometimes they look at it and cry.",
 	},
 
 	thirdParty: {

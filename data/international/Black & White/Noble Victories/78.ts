@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Zweilous",
-		fr: "Diamat",
-		es: "Zweilous",
-		it: "Zweilous",
-		pt: "Zweilous",
-		de: "Duodino"
+		'en-us': "Zweilous",
+		'fr-fr': "Diamat",
+		'es-es': "Zweilous",
+		'it-it': "Zweilous",
+		'pt-br': "Zweilous",
+		'de-de': "Duodino"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Deino",
-		fr: "Solochi",
+		'en-us': "Deino",
+		'fr-fr': "Solochi",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Hit",
-				fr: "Coup Double",
+				'en-us': "Double Hit",
+				'fr-fr': "Coup Double",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 20,
 
@@ -56,8 +56,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strength",
-				fr: "Force",
+				'en-us': "Strength",
+				'fr-fr': "Force",
 			},
 
 			damage: 50,
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Since their two heads do not get along and compete with each other for food, they always eat too much.",
+		'en-us': "Since their two heads do not get along and compete with each other for food, they always eat too much.",
 	},
 
 	thirdParty: {

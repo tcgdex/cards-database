@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カゲボウズ",
+		'ja-jp': "カゲボウズ",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "恨みの 感情が 大好き。 恨みを 持つ 人が 住む 家の 軒下に ずらりと ぶらさがる。",
+		'ja-jp': "恨みの 感情が 大好き。 恨みを 持つ 人が 住む 家の 軒下に ずらりと ぶらさがる。",
 	},
 
 	stage: "Basic",

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タケシのゴローン",
+		'ja-jp': "タケシのゴローン",
 	},
 	illustrator: "Atsuko Nishida",
 
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "取り組む",
+				'ja-jp': "取り組む",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Fighting", "Fighting", "Fighting"],
 			name: {
-				ja: "爆発します",
+				'ja-jp': "爆発します",
 			},
 			effect: {
-				ja: "各プレイヤーのベンチで各ポケモンに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）ブロックの砂利機はそれ自体に50のダメージを与えます。スタジアムカードが再生されている場合は、捨ててください。",
+				'ja-jp': "各プレイヤーのベンチで各ポケモンに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）ブロックの砂利機はそれ自体に50のダメージを与えます。スタジアムカードが再生されている場合は、捨ててください。",
 			},
 			damage: 50,
 		},

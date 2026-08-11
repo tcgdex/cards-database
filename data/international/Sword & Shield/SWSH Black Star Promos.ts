@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sword & Shield'
 
 const swshp: Set = {
 	id: "swshp",
 
 	name: {
-		en: "SWSH Black Star Promos",
-		pt: "ESES Promos",
-		fr: "Promo SWSH",
-		es: "Cartas de promoción ESES",
-		it: "SPSC Promo",
-		de: "SCSC Promokarten"
+		'en-us': "SWSH Black Star Promos",
+		'pt-br': "ESES Promos",
+		'fr-fr': "Promo SWSH",
+		'es-es': "Cartas de promoción ESES",
+		'it-it': "SPSC Promo",
+		'de-de': "SCSC Promokarten"
 	},
 
 	serie: serie,

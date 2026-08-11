@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Quaxwell",
-		fr: "Canarbello",
-		es: "Quaxwell",
-		it: "Quaxwell",
-		pt: "Quaxwell",
-		de: "Fuentente"
+		'en-us': "Quaxwell",
+		'fr-fr': "Canarbello",
+		'es-es': "Quaxwell",
+		'it-it': "Quaxwell",
+		'pt-br': "Quaxwell",
+		'de-de': "Fuentente"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Quaxly",
-		fr: "Coiffeton",
-		es: "Quaxly",
-		it: "Quaxly",
-		pt: "Quaxly",
-		de: "Kwaks"
+		'en-us': "Quaxly",
+		'fr-fr': "Coiffeton",
+		'es-es': "Quaxly",
+		'it-it': "Quaxly",
+		'pt-br': "Quaxly",
+		'de-de': "Kwaks"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Aqua Edge",
-			fr: "Aqua-Dague",
-			es: "Filo Agua",
-			it: "Acquataglio",
-			pt: "Aqua Gume",
-			de: "Aquaschneide"
+			'en-us': "Aqua Edge",
+			'fr-fr': "Aqua-Dague",
+			'es-es': "Filo Agua",
+			'it-it': "Acquataglio",
+			'pt-br': "Aqua Gume",
+			'de-de': "Aquaschneide"
 		},
 
 		damage: 40

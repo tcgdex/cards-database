@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Bayleef",
-		fr: "Macronium",
-		es: "Bayleef",
-		it: "Bayleef",
-		pt: "Bayleef",
-		de: "Lorblatt"
+		'en-us': "Bayleef",
+		'fr-fr': "Macronium",
+		'es-es': "Bayleef",
+		'it-it': "Bayleef",
+		'pt-br': "Bayleef",
+		'de-de': "Lorblatt"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Chikorita",
-		fr: "Germignon",
+		'en-us': "Chikorita",
+		'fr-fr': "Germignon",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Soothing Scent",
-				fr: "Senteur Apaisante",
-				es: "Aroma Sedante",
-				it: "Aroma Calmante",
-				pt: "Odor Calmante",
-				de: "Beruhigender Duft"
+				'en-us': "Soothing Scent",
+				'fr-fr': "Senteur Apaisante",
+				'es-es': "Aroma Sedante",
+				'it-it': "Aroma Calmante",
+				'pt-br': "Odor Calmante",
+				'de-de': "Beruhigender Duft"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent’s Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 20,
 
@@ -64,12 +64,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch’Herbe",
-				es: "Hoja Afilada",
-				it: "Foglielama",
-				pt: "Folha Navalha",
-				de: "Rasierblatt"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch’Herbe",
+				'es-es': "Hoja Afilada",
+				'it-it': "Foglielama",
+				'pt-br': "Folha Navalha",
+				'de-de': "Rasierblatt"
 			},
 
 			damage: 50,
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The buds that ring its neck give off a spicy aroma that perks people up.",
+		'en-us': "The buds that ring its neck give off a spicy aroma that perks people up.",
 	},
 
 	thirdParty: {

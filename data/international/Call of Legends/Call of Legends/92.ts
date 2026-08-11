@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Psychic Energy",
-		fr: "Énergie Psy",
-		de: "Psychoenergie"
+		'en-us': "Psychic Energy",
+		'fr-fr': "Énergie Psy",
+		'de-de': "Psychoenergie"
 	},
 
 	illustrator: undefined,

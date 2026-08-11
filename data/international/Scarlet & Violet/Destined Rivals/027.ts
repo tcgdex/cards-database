@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Growlithe",
-		fr: "Caninos",
-		de: "Fukano",
-		it: "Growlithe",
-		es: "Growlithe",
-		pt: "Growlithe",
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos",
+		'de-de': "Fukano",
+		'it-it': "Growlithe",
+		'es-es': "Growlithe",
+		'pt-br': "Growlithe",
 		'es-mx': "Growlithe"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Live Coal",
-			fr: "Charbon Mutant",
-			de: "Glühende Kohlen",
-			it: "Carboni Ardenti",
-			es: "Carbón Activado",
-			pt: "Carvão Vivo",
+			'en-us': "Live Coal",
+			'fr-fr': "Charbon Mutant",
+			'de-de': "Glühende Kohlen",
+			'it-it': "Carboni Ardenti",
+			'es-es': "Carbón Activado",
+			'pt-br': "Carvão Vivo",
 			'es-mx': "Carbón Activado"
 		},
 
@@ -40,12 +40,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Dig Claws",
-			fr: "Creusogriffes",
-			de: "Schaufelkrallen",
-			it: "Scavazanne",
-			es: "Hundir Garras",
-			pt: "Fincar Garras",
+			'en-us': "Dig Claws",
+			'fr-fr': "Creusogriffes",
+			'de-de': "Schaufelkrallen",
+			'it-it': "Scavazanne",
+			'es-es': "Hundir Garras",
+			'pt-br': "Fincar Garras",
 			'es-mx': "Clavar Garras"
 		},
 

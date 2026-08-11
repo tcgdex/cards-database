@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Burmy Sandy Cloak",
-		de: "Burmy Sandumhang"
+		'en-us': "Burmy Sandy Cloak",
+		'de-de': "Burmy Sandumhang"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -26,12 +26,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Cloak Evolution",
-				de: "Umhang-Evolution"
+				'en-us': "Cloak Evolution",
+				'de-de': "Umhang-Evolution"
 			},
 			effect: {
-				en: "Burmy Sandy Cloak can evolve during the turn you play it.",
-				de: "Burmy Sandumhang kann in dem Zug entwickelt werden, in dem du es gespielt hast."
+				'en-us': "Burmy Sandy Cloak can evolve during the turn you play it.",
+				'de-de': "Burmy Sandumhang kann in dem Zug entwickelt werden, in dem du es gespielt hast."
 			}
 		},
 	],
@@ -43,8 +43,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Even if it is born where there are no cocooning materials, it somehow always ends up with a cloak."
+		'en-us': "Even if it is born where there are no cocooning materials, it somehow always ends up with a cloak."
 	},
 
 	variants: [

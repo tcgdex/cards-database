@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Kangaskhan",
-		fr: "Kangourex",
-		es: "Kangaskhan",
-		it: "Kangaskhan",
-		pt: "Kangaskhan",
-		de: "Kangama"
+		'en-us': "Kangaskhan",
+		'fr-fr': "Kangourex",
+		'es-es': "Kangaskhan",
+		'it-it': "Kangaskhan",
+		'pt-br': "Kangaskhan",
+		'de-de': "Kangama"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Draw",
-				fr: "Double Pioche",
-				es: "Roba Doble",
-				it: "Pescata Doppia",
-				pt: "Compra Dupla",
-				de: "Zweifachzug"
+				'en-us': "Double Draw",
+				'fr-fr': "Double Pioche",
+				'es-es': "Roba Doble",
+				'it-it': "Pescata Doppia",
+				'pt-br': "Compra Dupla",
+				'de-de': "Zweifachzug"
 			},
 			effect: {
-				en: "Draw 2 cards.",
-				fr: "Piochez 2 cartes.",
-				es: "Roba 2 cartas.",
-				it: "Pesca due carte.",
-				pt: "Compre 2 cartas.",
-				de: "Ziehe 2 Karten."
+				'en-us': "Draw 2 cards.",
+				'fr-fr': "Piochez 2 cartes.",
+				'es-es': "Roba 2 cartas.",
+				'it-it': "Pesca due carte.",
+				'pt-br': "Compre 2 cartas.",
+				'de-de': "Ziehe 2 Karten."
 			},
 
 		},
@@ -59,20 +59,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tag Impact",
-				fr: "Impact d’Escouade",
-				es: "Impacto Relevo",
-				it: "Impatto Alleati",
-				pt: "Impacto de Aliados",
-				de: "Team-Einschlag"
+				'en-us': "Tag Impact",
+				'fr-fr': "Impact d’Escouade",
+				'es-es': "Impacto Relevo",
+				'it-it': "Impatto Alleati",
+				'pt-br': "Impacto de Aliados",
+				'de-de': "Team-Einschlag"
 			},
 			effect: {
-				en: "This attack does 50 damage for each of your TAG TEAM Pokémon in play.",
-				fr: "Cette attaque inflige 50 dégâts pour chacun de vos Pokémon ESCOUADE en jeu.",
-				es: "Este ataque hace 50 puntos de daño por cada uno de tus Pokémon de equipo de RELEVOS en juego.",
-				it: "Questo attacco infligge 50 danni per ogni tuo Pokémon ALLEATI in gioco.",
-				pt: "Este ataque causa 50 pontos de dano para cada um dos seus Pokémon ALIADOS em jogo.",
-				de: "Diese Attacke fügt 50 Schadenspunkte mal der Anzahl deiner TAG TEAM Pokémon im Spiel zu."
+				'en-us': "This attack does 50 damage for each of your TAG TEAM Pokémon in play.",
+				'fr-fr': "Cette attaque inflige 50 dégâts pour chacun de vos Pokémon ESCOUADE en jeu.",
+				'es-es': "Este ataque hace 50 puntos de daño por cada uno de tus Pokémon de equipo de RELEVOS en juego.",
+				'it-it': "Questo attacco infligge 50 danni per ogni tuo Pokémon ALLEATI in gioco.",
+				'pt-br': "Este ataque causa 50 pontos de dano para cada um dos seus Pokémon ALIADOS em jogo.",
+				'de-de': "Diese Attacke fügt 50 Schadenspunkte mal der Anzahl deiner TAG TEAM Pokémon im Spiel zu."
 			},
 			damage: "50×",
 
@@ -89,7 +89,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Kangaskhan protects its child by keeping it in its pouch. It has zero forgiveness for those who harm its child and will beat them down.",
+		'en-us': "Kangaskhan protects its child by keeping it in its pouch. It has zero forgiveness for those who harm its child and will beat them down.",
 	},
 
 	thirdParty: {

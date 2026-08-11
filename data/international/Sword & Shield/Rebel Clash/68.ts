@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	name: {
-		en: "Toxel",
-		fr: "Toxizap",
-		es: "Toxel",
-		it: "Toxel",
-		pt: "Toxel",
-		de: "Toxel"
+		'en-us': "Toxel",
+		'fr-fr': "Toxizap",
+		'es-es': "Toxel",
+		'it-it': "Toxel",
+		'pt-br': "Toxel",
+		'de-de': "Toxel"
 	},
 
 	illustrator: "nagimiso",
@@ -23,20 +23,20 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Tight Jaw",
-				fr: "Mâchoire Serrée",
-				es: "Mandíbula Cerrada",
-				it: "Strettazanna",
-				pt: "Mandíbula Firme",
-				de: "Fester Biss"
+				'en-us': "Tight Jaw",
+				'fr-fr': "Mâchoire Serrée",
+				'es-es': "Mandíbula Cerrada",
+				'it-it': "Strettazanna",
+				'pt-br': "Mandíbula Firme",
+				'de-de': "Fester Biss"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
-				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 10,
 
@@ -59,7 +59,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It stores poison in an internal poison sac and secretes that poison through its skin. If you touch this Pokémon, a tingling sensation follows."
+		'en-us': "It stores poison in an internal poison sac and secretes that poison through its skin. If you touch this Pokémon, a tingling sensation follows."
 	},
 
 	variants: [

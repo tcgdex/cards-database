@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Maractus",
-		fr: "Maracachi",
-		es: "Maractus",
-		it: "Maractus",
-		pt: "Maractus",
-		de: "Maracamba"
+		'en-us': "Maractus",
+		'fr-fr': "Maracachi",
+		'es-es': "Maractus",
+		'it-it': "Maractus",
+		'pt-br': "Maractus",
+		'de-de': "Maracamba"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Mega Drain",
-				fr: "Méga-Sangsue",
+				'en-us': "Mega Drain",
+				'fr-fr': "Méga-Sangsue",
 			},
 			effect: {
-				en: "Heal 20 damage from this Pokémon.",
-				fr: "Soignez 20 dégâts infligés à ce Pokémon.",
+				'en-us': "Heal 20 damage from this Pokémon.",
+				'fr-fr': "Soignez 20 dégâts infligés à ce Pokémon.",
 			},
 			damage: 20,
 
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pin Missile",
-				fr: "Dard-Nuée",
+				'en-us': "Pin Missile",
+				'fr-fr': "Dard-Nuée",
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 4 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 20,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds.",
+		'en-us': "It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds.",
 	},
 
 	thirdParty: {

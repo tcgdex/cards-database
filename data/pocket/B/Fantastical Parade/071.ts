@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [710],
 
 	name: {
-		en: "Pumpkaboo"
+		'en-us': "Pumpkaboo"
 	},
 
 	illustrator: "Mousho",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "The light that streams out from the holes in the\npumpkin can hypnotize and control the people\nand Pokémon that see it."
+		'en-us': "The light that streams out from the holes in the\npumpkin can hypnotize and control the people\nand Pokémon that see it."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Ram"
+			'en-us': "Ram"
 		},
 
 		damage: 20,

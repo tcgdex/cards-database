@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒヤッキー",
+		'ja-jp': "ヒヤッキー",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "尻尾から 高圧の 水を 発射すると コンクリートの 壁も 破壊する 威力。",
+		'ja-jp': "尻尾から 高圧の 水を 発射すると コンクリートの 壁も 破壊する 威力。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[水]エネルギーを1個、ベンチポケモンにつけ替える。",
+				'ja-jp': "このポケモンについている[水]エネルギーを1個、ベンチポケモンにつけ替える。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒヤップ",
+		'ja-jp': "ヒヤップ",
 	},
 
 	retreat: 1,

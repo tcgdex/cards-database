@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キバニア",
+		'ja-jp': "キバニア",
 		'zh-tw': "纏紅鶴ex",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "鋭い キバと たくましい 顎を もつ。 船乗りたちは キバニアの すみかには けっして 近づかない。",
+		'ja-jp': "鋭い キバと たくましい 顎を もつ。 船乗りたちは キバニアの すみかには けっして 近づかない。",
 	},
 
 	stage: "Basic",
@@ -22,7 +22,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "するどいキバ",
+				'ja-jp': "するどいキバ",
 				'zh-tw': "恰好喙",
 			},
 			damage: 20,

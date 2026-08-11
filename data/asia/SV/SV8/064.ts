@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴマゾウ",
+		'ja-jp': "ゴマゾウ",
 		'zh-tw': "小小象",
 		'zh-cn': "小小象",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "見た目より ずっと 力持ち。 振りまわす 鼻に ぶつかると 腕の 骨が もっていかれる。",
+		'ja-jp': "見た目より ずっと 力持ち。 振りまわす 鼻に ぶつかると 腕の 骨が もっていかれる。",
 		'zh-tw': "有別於外表的大力士。 如果被牠甩動的鼻子揮中， 手臂的骨頭就會支離破碎。",
 		'zh-cn': "有別於外表的大力士。 如果被牠甩動的鼻子揮中， 手臂的骨頭就會支離破碎。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ずつき",
+				'ja-jp': "ずつき",
 				'zh-tw': "頭錘",
 				'zh-cn': "頭錘",
 			},

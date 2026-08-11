@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Garbodor",
-		fr: "Miasmax",
-		es: "Garbodor",
-		it: "Garbodor",
-		pt: "Garbodor",
-		de: "Deponitox"
+		'en-us': "Garbodor",
+		'fr-fr': "Miasmax",
+		'es-es': "Garbodor",
+		'it-it': "Garbodor",
+		'pt-br': "Garbodor",
+		'de-de': "Deponitox"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -20,44 +20,44 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Trubbish",
-		fr: "Miamiasme",
-		de: "Unratütox",
-		es: "Trubbish",
-		pt: "Trubbish",
-		it: "Trubbish"
+		'en-us': "Trubbish",
+		'fr-fr': "Miamiasme",
+		'de-de': "Unratütox",
+		'es-es': "Trubbish",
+		'pt-br': "Trubbish",
+		'it-it': "Trubbish"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			en: "Poisonous Puddle",
-			fr: "Flaque Toxique",
-			es: "Charco Venenoso",
-			it: "Pozza Velenosa",
-			pt: "Chorume Venenoso",
-			de: "Giftpfütze"
+			'en-us': "Poisonous Puddle",
+			'fr-fr': "Flaque Toxique",
+			'es-es': "Charco Venenoso",
+			'it-it': "Pozza Velenosa",
+			'pt-br': "Chorume Venenoso",
+			'de-de': "Giftpfütze"
 		},
 
 		effect: {
-			en: "Once during your turn, if a Stadium is in play, you may make your opponent's Active Pokémon Poisoned.",
-			fr: "Une fois pendant votre tour, si un Stade est en jeu, vous pouvez laisser le Pokémon Actif de votre adversaire Empoisonné.",
-			es: "Una vez durante tu turno, si hay un Estadio en juego, puedes dejar al Pokémon Activo de tu rival Envenenado.",
-			it: "Una sola volta durante il tuo turno, se c'è in gioco una carta Stadio, puoi lasciare il Pokémon attivo del tuo avversario avvelenato.",
-			pt: "Uma vez durante o seu turno, se um Estádio estiver em jogo, você poderá deixar o Pokémon Ativo do seu oponente Envenenado.",
-			de: "Einmal während deines Zuges, wenn eine Stadionkarte im Spiel ist, kannst du das Aktive Pokémon deines Gegners vergiften."
+			'en-us': "Once during your turn, if a Stadium is in play, you may make your opponent's Active Pokémon Poisoned.",
+			'fr-fr': "Une fois pendant votre tour, si un Stade est en jeu, vous pouvez laisser le Pokémon Actif de votre adversaire Empoisonné.",
+			'es-es': "Una vez durante tu turno, si hay un Estadio en juego, puedes dejar al Pokémon Activo de tu rival Envenenado.",
+			'it-it': "Una sola volta durante il tuo turno, se c'è in gioco una carta Stadio, puoi lasciare il Pokémon attivo del tuo avversario avvelenato.",
+			'pt-br': "Uma vez durante o seu turno, se um Estádio estiver em jogo, você poderá deixar o Pokémon Ativo do seu oponente Envenenado.",
+			'de-de': "Einmal während deines Zuges, wenn eine Stadionkarte im Spiel ist, kannst du das Aktive Pokémon deines Gegners vergiften."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Sludge Bomb",
-			fr: "Bombe Beurk",
-			es: "Bomba Lodo",
-			it: "Fangobomba",
-			pt: "Bomba de Lodo",
-			de: "Matschbombe"
+			'en-us': "Sludge Bomb",
+			'fr-fr': "Bombe Beurk",
+			'es-es': "Bomba Lodo",
+			'it-it': "Fangobomba",
+			'pt-br': "Bomba de Lodo",
+			'de-de': "Matschbombe"
 		},
 
 		damage: 80,
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This Pokémon eats trash, which turns into poison inside its body. The main component of the poison depends on what sort of trash was eaten."
+		'en-us': "This Pokémon eats trash, which turns into poison inside its body. The main component of the poison depends on what sort of trash was eaten."
 	},
 
 	stage: "Stage1",

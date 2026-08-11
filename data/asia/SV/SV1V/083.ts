@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1V"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ウデッポウ"
+		'ja-jp': "ウデッポウ"
 	},
 
 	illustrator: "Shinya Komatsu",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ハサミは 取れても 再生する。 中の 身は 食べられるが クセが 強いので 好みは 分かれる。"
+		'ja-jp': "ハサミは 取れても 再生する。 中の 身は 食べられるが クセが 強いので 好みは 分かれる。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			ja: "はさむ"
+			'ja-jp': "はさむ"
 		},
 
 		damage: 10

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Chinchou"
+		'id-id': "Chinchou"
 	},
 
 	illustrator: "yuu",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Di dasar laut yang gelap gulita, lampu di tentakel Chinchou yang selalu berkedip-kedip menjadi satu-satunya sarana untuk berkomunikasi."
+		'id-id': "Di dasar laut yang gelap gulita, lampu di tentakel Chinchou yang selalu berkedip-kedip menjadi satu-satunya sarana untuk berkomunikasi."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menerangi"
+			'id-id': "Menerangi"
 		},
 
 		effect: {
-			id: "Lihat 1 kartu dari atas Deck sendiri, lalu kembalikan ke posisi semula. Pemain dapat mengembalikan kartu tersebut ke bawah Deck."
+			'id-id': "Lihat 1 kartu dari atas Deck sendiri, lalu kembalikan ke posisi semula. Pemain dapat mengembalikan kartu tersebut ke bawah Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Listrik Mini"
+			'id-id': "Listrik Mini"
 		},
 
 		damage: 20,

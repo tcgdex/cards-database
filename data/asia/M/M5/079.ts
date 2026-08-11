@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "化石採掘場",
+		'ja-jp': "化石採掘場",
 	},
 
 	illustrator: "Oswaldo KATO",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのプレイヤーは、自分の番ごとに1回、自分の山札から、名前に「古びた」とつくグッズを2枚まで選び、ベンチに出してよい。そして山札を切る。",
+		'ja-jp': "おたがいのプレイヤーは、自分の番ごとに1回、自分の山札から、名前に「古びた」とつくグッズを2枚まで選び、ベンチに出してよい。そして山札を切る。",
 	},
 
 	variants: [

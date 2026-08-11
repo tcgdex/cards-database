@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu ex",
-		fr: "Pikachu-ex",
-		es: "Pikachu ex",
-		it: "Pikachu-ex",
-		pt: "Pikachu ex",
-		de: "Pikachu-ex"
+		'en-us': "Pikachu ex",
+		'fr-fr': "Pikachu-ex",
+		'es-es': "Pikachu ex",
+		'it-it': "Pikachu-ex",
+		'pt-br': "Pikachu ex",
+		'de-de': "Pikachu-ex"
 	},
 
 	rarity: "Promo",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			en: "Thunderbolt",
-			fr: "Tonnerre",
-			es: "Rayo",
-			it: "Fulmine",
-			pt: "Relâmpago",
-			de: "Donnerblitz"
+			'en-us': "Thunderbolt",
+			'fr-fr': "Tonnerre",
+			'es-es': "Rayo",
+			'it-it': "Fulmine",
+			'pt-br': "Relâmpago",
+			'de-de': "Donnerblitz"
 		},
 
 		damage: 120

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シャックル",
+		'ja-jp': "シャックル",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "非常にタイト",
+				'ja-jp': "非常にタイト",
 			},
 			effect: {
-				ja: "対戦相手のポカモンエクスからの攻撃により、あらゆるダメージが攻撃を行うのを防ぎます。",
+				'ja-jp': "対戦相手のポカモンエクスからの攻撃により、あらゆるダメージが攻撃を行うのを防ぎます。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "有毒",
+				'ja-jp': "有毒",
 			},
 			effect: {
-				ja: "防御ポケモンは現在中毒になっています。ターンの間に防御ポケモンに1つではなく2つのダメージカウンターを置きます。",
+				'ja-jp': "防御ポケモンは現在中毒になっています。ターンの間に防御ポケモンに1つではなく2つのダメージカウンターを置きます。",
 			},
 		},
 	],

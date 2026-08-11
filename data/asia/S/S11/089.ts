@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バッフロン",
+		'ja-jp': "バッフロン",
 		'zh-tw': "爆炸頭水牛",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "頭突きだけで 車を 潰す。 頭の 毛が 大きいほど 群れでの 地位が 上がるのだ。",
+		'ja-jp': "頭突きだけで 車を 潰す。 頭の 毛が 大きいほど 群れでの 地位が 上がるのだ。",
 		'zh-tw': "只用頭錘就能壓扁汽車。頭部的那團毛越大一團， 在群體裡的地位就會越高。",
 	},
 
@@ -23,19 +23,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ロストヘッド",
+				'ja-jp': "ロストヘッド",
 				'zh-tw': "放逐頭擊",
 			},
 			damage: 50,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーを1個選び、ロストゾーンに置く。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーを1個選び、ロストゾーンに置く。",
 				'zh-tw': "選擇1個對手的戰鬥寶可夢身上附加的能量，放置於放逐區。",
 			},
 		},
 		{
 			name: {
-				ja: "かいりきホーン",
+				'ja-jp': "かいりきホーン",
 				'zh-tw': "怪力角擊",
 			},
 			damage: 120,

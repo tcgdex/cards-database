@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Seadra"
+		'en-us': "Seadra"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Horsea"
+		'en-us': "Horsea"
 	},
 
 	stage: "Stage1",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun"
+				'en-us': "Water Gun"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each Water Energy attached to Seadra but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+				'en-us': "Does 20 damage plus 10 more damage for each Water Energy attached to Seadra but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
 			},
 			damage: "20+",
 
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Agility"
+				'en-us': "Agility"
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Seadra."
+				'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Seadra."
 			},
 			damage: 20,
 
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Capable of swimming backward by rapidly flapping its wing-like pectoral fins and stout tail."
+		'en-us': "Capable of swimming backward by rapidly flapping its wing-like pectoral fins and stout tail."
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cinccino",
-		fr: "Pashmilla",
-		de: "Chillabell",
-		it: "Cinccino",
-		pt: "Cinccino",
-		es: "Cinccino",
+		'en-us': "Cinccino",
+		'fr-fr': "Pashmilla",
+		'de-de': "Chillabell",
+		'it-it': "Cinccino",
+		'pt-br': "Cinccino",
+		'es-es': "Cinccino",
 		'es-mx': "Cinccino"
 	},
 
@@ -21,12 +21,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Minccino",
-		fr: "Chinchidou",
-		de: "Picochilla",
-		it: "Minccino",
-		pt: "Minccino",
-		es: "Minccino",
+		'en-us': "Minccino",
+		'fr-fr': "Chinchidou",
+		'de-de': "Picochilla",
+		'it-it': "Minccino",
+		'pt-br': "Minccino",
+		'es-es': "Minccino",
 		'es-mx': "Minccino"
 	},
 	stage: "Stage1",
@@ -35,22 +35,22 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Do the Wave",
-			fr: "Faites la Vague",
-			de: "Wellenreiten",
-			it: "Fare la Ola",
-			pt: "Fazer a Ola",
-			es: "Hacer la Ola",
+			'en-us': "Do the Wave",
+			'fr-fr': "Faites la Vague",
+			'de-de': "Wellenreiten",
+			'it-it': "Fare la Ola",
+			'pt-br': "Fazer a Ola",
+			'es-es': "Hacer la Ola",
 			'es-mx': "Hacer la Ola"
 		},
 
 		effect: {
-			en: "This attack does 20 more damage for each of your Benched Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chacun de vos Pokémon de Banc.",
-			de: "Diese Attacke fügt für jedes Pokémon auf deiner Bank 20 Schadenspunkte mehr zu.",
-			it: "Questo attacco infligge 20 danni in più per ogni Pokémon nella tua panchina.",
-			pt: "Este ataque causa 20 pontos de dano a mais para cada um dos seus Pokémon no Banco.",
-			es: "Este ataque hace 20 puntos de daño más por cada uno de tus Pokémon en Banca.",
+			'en-us': "This attack does 20 more damage for each of your Benched Pokémon.",
+			'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires pour chacun de vos Pokémon de Banc.",
+			'de-de': "Diese Attacke fügt für jedes Pokémon auf deiner Bank 20 Schadenspunkte mehr zu.",
+			'it-it': "Questo attacco infligge 20 danni in più per ogni Pokémon nella tua panchina.",
+			'pt-br': "Este ataque causa 20 pontos de dano a mais para cada um dos seus Pokémon no Banco.",
+			'es-es': "Este ataque hace 20 puntos de daño más por cada uno de tus Pokémon en Banca.",
 			'es-mx': "Este ataque hace 20 puntos de daño más por cada uno de tus Pokémon en Banca."
 		},
 

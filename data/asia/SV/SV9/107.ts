@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ルガルガン"
+		'ja-jp': "ルガルガン"
 	},
 
 	illustrator: "GIDORA",
@@ -16,7 +16,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "鋭い ツメや キバで 獲物を 襲う。 信頼する トレーナーの 指示には 忠実に 従う。"
+		'ja-jp': "鋭い ツメや キバで 獲物を 襲う。 信頼する トレーナーの 指示には 忠実に 従う。"
 	},
 
 	stage: "Stage1",
@@ -25,11 +25,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "とげをまとう"
+			'ja-jp': "とげをまとう"
 		},
 
 		effect: {
-			ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のトラッシュから「スパイクエネルギー」を2枚まで選び、このポケモンにつける。"
+			'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のトラッシュから「スパイクエネルギー」を2枚まで選び、このポケモンにつける。"
 		}
 	}],
 
@@ -37,13 +37,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			ja: "クラッチファング"
+			'ja-jp': "クラッチファング"
 		},
 
 		damage: "40＋",
 
 		effect: {
-			ja: "相手のバトルポケモンにのっているダメカンの数×40ダメージ追加。"
+			'ja-jp': "相手のバトルポケモンにのっているダメカンの数×40ダメージ追加。"
 		}
 	}],
 

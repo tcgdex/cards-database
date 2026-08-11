@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プラスル",
+		'ja-jp': "プラスル",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "火花の ボンボンを 作って 仲間を 応援する。 電柱から 電気を 吸い取る。",
+		'ja-jp': "火花の ボンボンを 作って 仲間を 応援する。 電柱から 電気を 吸い取る。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Lightning"],
 			effect: {
-				ja: "自分のベンチに「マイナン」がいるなら、50ダメージ追加。",
+				'ja-jp': "自分のベンチに「マイナン」がいるなら、50ダメージ追加。",
 			},
 		},
 	],

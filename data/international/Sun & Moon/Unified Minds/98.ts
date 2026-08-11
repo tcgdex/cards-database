@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Salandit",
-		fr: "Tritox",
-		es: "Salandit",
-		it: "Salandit",
-		pt: "Salandit",
-		de: "Molunk"
+		'en-us': "Salandit",
+		'fr-fr': "Tritox",
+		'es-es': "Salandit",
+		'it-it': "Salandit",
+		'pt-br': "Salandit",
+		'de-de': "Molunk"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Suffocating Gas",
-				fr: "Gaz Suffocant",
-				es: "Gas Sofocante",
-				it: "Gas Soffocante",
-				pt: "Gás Asfixiante",
-				de: "Würgegas"
+				'en-us': "Suffocating Gas",
+				'fr-fr': "Gaz Suffocant",
+				'es-es': "Gas Sofocante",
+				'it-it': "Gas Soffocante",
+				'pt-br': "Gás Asfixiante",
+				'de-de': "Würgegas"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Ronge",
-				es: "Roer",
-				it: "Rosicchiamento",
-				pt: "Roída",
-				de: "Nagen"
+				'en-us': "Gnaw",
+				'fr-fr': "Ronge",
+				'es-es': "Roer",
+				'it-it': "Rosicchiamento",
+				'pt-br': "Roída",
+				'de-de': "Nagen"
 			},
 
 			damage: 30,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The males will do whatever the females tell them. They give the females most of their food. Due to malnutrition, the males can't evolve.",
+		'en-us': "The males will do whatever the females tell them. They give the females most of their food. Due to malnutrition, the males can't evolve.",
 	},
 
 	thirdParty: {

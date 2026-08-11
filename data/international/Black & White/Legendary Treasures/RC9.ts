@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Kirlia",
+		'en-us': "Kirlia",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ralts",
+		'en-us': "Ralts",
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Tiptoe Step",
+				'en-us': "Tiptoe Step",
 			},
 			effect: {
-				en: "Draw a card for each Psychic Energy attached to this Pokémon.",
+				'en-us': "Draw a card for each Psychic Energy attached to this Pokémon.",
 			},
 
 		},
@@ -46,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Slap",
+				'en-us': "Double Slap",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
 			},
 			damage: 20,
 
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
+		'en-us': "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
 	},
 
 	thirdParty: {

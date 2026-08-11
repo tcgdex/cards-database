@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pawmo",
-		fr: "Pohmotte",
-		es: "Pawmo",
+		'en-us': "Pawmo",
+		'fr-fr': "Pohmotte",
+		'es-es': "Pawmo",
 		'es-mx': "Pawmo",
-		de: "Pamamo",
-		it: "Pawmo",
-		pt: "Pawmo"
+		'de-de': "Pamamo",
+		'it-it': "Pawmo",
+		'pt-br': "Pawmo"
 	},
 
 	evolveFrom: {
-		en: "Pawmi",
-		fr: "Pohm",
-		es: "Pawmi",
+		'en-us': "Pawmi",
+		'fr-fr': "Pohm",
+		'es-es': "Pawmi",
 		'es-mx': "Pawmi",
-		de: "Pamo",
-		it: "Pawmi",
-		pt: "Pawmi",
+		'de-de': "Pamo",
+		'it-it': "Pawmi",
+		'pt-br': "Pawmi",
 	},
 
 	rarity: "Common",
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Lightning", "Lightning"],
 
 		name: {
-			en: "Electric Punch",
-			fr: "Poing Électrique",
-			es: "Puño Eléctrico",
+			'en-us': "Electric Punch",
+			'fr-fr': "Poing Électrique",
+			'es-es': "Puño Eléctrico",
 			'es-mx': "Puño Eléctrico",
-			de: "Elektroschlag",
-			it: "Pugno Elettrico",
-			pt: "Murro Elétrico"
+			'de-de': "Elektroschlag",
+			'it-it': "Pugno Elettrico",
+			'pt-br': "Murro Elétrico"
 		},
 
 		damage: 60
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks.",
+		'en-us': "When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks.",
 	},
 
 	illustrator: "Taiga Kayama",

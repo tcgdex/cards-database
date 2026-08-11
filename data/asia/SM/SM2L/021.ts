@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダダリン",
+		'ja-jp': "ダダリン",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "でかい 錨を ブンブン 振り回し ホエルオーさえ 一撃で ＫＯ。 緑の モズクが 本体だ。",
+		'ja-jp': "でかい 錨を ブンブン 振り回し ホエルオーさえ 一撃で ＫＯ。 緑の モズクが 本体だ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "はがねつかい" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分の[鋼]ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+10」される。",
+				'ja-jp': "このポケモンがいるかぎり、自分の[鋼]ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+10」される。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 	],

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "月輪の祭壇",
+		'ja-jp': "月輪の祭壇",
 	},
 
 	illustrator: "5ban Graphics",
 	category: "Trainer",
 
 	effect: {
-		ja: "[超]または[悪]エネルギーがついているおたがいのポケモン全員のにげるためのエネルギーは、それぞれ2個ぶん少なくなる。",
+		'ja-jp': "[超]または[悪]エネルギーがついているおたがいのポケモン全員のにげるためのエネルギーは、それぞれ2個ぶん少なくなる。",
 	},
 
 	variants: [

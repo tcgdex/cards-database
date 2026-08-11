@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rotom",
-		fr: "Motisma",
-		es: "Rotom",
-		it: "Rotom",
-		pt: "Rotom",
-		de: "Rotom"
+		'en-us': "Rotom",
+		'fr-fr': "Motisma",
+		'es-es': "Rotom",
+		'it-it': "Rotom",
+		'pt-br': "Rotom",
+		'de-de': "Rotom"
 	},
 
 	illustrator: "Taira Akitsu",
@@ -25,32 +25,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Overhaul",
-			fr: "Refonte",
-			es: "Reparación",
-			it: "Revisione",
-			pt: "Reconstrução",
-			de: "Überholung"
+			'en-us': "Overhaul",
+			'fr-fr': "Refonte",
+			'es-es': "Reparación",
+			'it-it': "Revisione",
+			'pt-br': "Reconstrução",
+			'de-de': "Überholung"
 		},
 
 		effect: {
-			en: "Shuffle your hand into your deck. Then, draw 6 cards.",
-			fr: "Mélangez votre main avec votre deck. Ensuite, piochez 6 cartes.",
-			es: "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 6 cartas.",
-			it: "Rimischia le carte che hai in mano nel tuo mazzo. Poi pesca sei carte.",
-			pt: "Embaralhe a sua mão no seu baralho. Em seguida, compre 6 cartas.",
-			de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 6 Karten."
+			'en-us': "Shuffle your hand into your deck. Then, draw 6 cards.",
+			'fr-fr': "Mélangez votre main avec votre deck. Ensuite, piochez 6 cartes.",
+			'es-es': "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 6 cartas.",
+			'it-it': "Rimischia le carte che hai in mano nel tuo mazzo. Poi pesca sei carte.",
+			'pt-br': "Embaralhe a sua mão no seu baralho. Em seguida, compre 6 cartas.",
+			'de-de': "Mische deine Handkarten in dein Deck. Ziehe anschließend 6 Karten."
 		}
 	}, {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			en: "Mach Bolt",
-			fr: "Éclair Fulgurant",
-			es: "Rayo Mach",
-			it: "Fulmine Mach",
-			pt: "Raio Supersônico",
-			de: "Flotter Sprung"
+			'en-us': "Mach Bolt",
+			'fr-fr': "Éclair Fulgurant",
+			'es-es': "Rayo Mach",
+			'it-it': "Fulmine Mach",
+			'pt-br': "Raio Supersônico",
+			'de-de': "Flotter Sprung"
 		},
 
 		damage: 80
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "One boy's invention led to the development of many different machines that take advantage of Rotom's unique capabilities.",
+		'en-us': "One boy's invention led to the development of many different machines that take advantage of Rotom's unique capabilities.",
 	},
 
 	variants: [

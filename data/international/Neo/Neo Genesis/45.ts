@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Quagsire",
-		fr: "Maraistre",
-		de: "Morlord"
+		'en-us': "Quagsire",
+		'fr-fr': "Maraistre",
+		'de-de': "Morlord"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wooper",
-		fr: "Axoloto"
+		'en-us': "Wooper",
+		'fr-fr': "Axoloto"
 	},
 
 	stage: "Stage1",
@@ -37,9 +37,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
-				de: "Surf"
+				'en-us': "Surf",
+				'fr-fr': "Surf",
+				'de-de': "Surf"
 			},
 
 			damage: 30,
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Earthquake",
-				fr: "Séisme",
-				de: "Earthquake"
+				'en-us': "Earthquake",
+				'fr-fr': "Séisme",
+				'de-de': "Earthquake"
 			},
 			effect: {
-				en: "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun des Pokémon de votre Banc. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
-				de: "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun des Pokémon de votre Banc. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
+				'de-de': "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 60,
 
@@ -84,8 +84,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Due to its relaxed and carefree attitude, it often bumps its head on boulders and boat hulls as it swims.",
-		fr: "Comme il est très insouciant et peu attentif, il se cogne souvent dans les rochers ou les quilles des bateaux lorsqu'il nage."
+		'en-us': "Due to its relaxed and carefree attitude, it often bumps its head on boulders and boat hulls as it swims.",
+		'fr-fr': "Comme il est très insouciant et peu attentif, il se cogne souvent dans les rochers ou les quilles des bateaux lorsqu'il nage."
 	},
 
 

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2021'
 
 const card: Card = {
 	name: {
-		en: "Chespin",
-		fr: "Marisson",
+		'en-us': "Chespin",
+		'fr-fr': "Marisson",
 	},
 
 	illustrator: "5ban Graphics",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Vine Whip",
-				fr: "Fouet Lianes",
+				'en-us': "Vine Whip",
+				'fr-fr': "Fouet Lianes",
 			},
 
 			damage: 10,
@@ -43,8 +43,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Seed Bomb",
-				fr: "Canon Graine",
+				'en-us': "Seed Bomb",
+				'fr-fr': "Canon Graine",
 			},
 
 			damage: 20,
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock."
+		'en-us': "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock."
 	},
 	
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホイーガ",
+		'ja-jp': "ホイーガ",
 	},
 
 	illustrator: "kurumitsu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "硬い 殻に 守られている。 タイヤのように 回転して 敵に 激しく 体当たりする。",
+		'ja-jp': "硬い 殻に 守られている。 タイヤのように 回転して 敵に 激しく 体当たりする。",
 	},
 
 	stage: "Stage1",
@@ -33,7 +33,7 @@ const card: Card = {
 	variants: [{ type: "holo" }],
 
 	evolveFrom: {
-		ja: "フシデ",
+		'ja-jp': "フシデ",
 	},
 
 	retreat: 3,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アマルス",
+		'ja-jp': "アマルス",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "１億年前から 氷漬けに なっていた 体の 一部から 復活した 古代の ポケモン。",
+		'ja-jp': "１億年前から 氷漬けに なっていた 体の 一部から 復活した 古代の ポケモン。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "古びたヒレの化石",
+		'ja-jp': "古びたヒレの化石",
 	},
 
 	retreat: 3,

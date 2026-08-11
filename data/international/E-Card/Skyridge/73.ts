@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Ledyba",
-		de: "Ledyba"
+		'en-us': "Ledyba",
+		'de-de': "Ledyba"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Gnaw",
-				de: "Nagen"
+				'en-us': "Gnaw",
+				'de-de': "Nagen"
 			},
 
 			damage: 10,
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slam",
-				de: "Slam"
+				'en-us': "Slam",
+				'de-de': "Slam"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "20×",
 

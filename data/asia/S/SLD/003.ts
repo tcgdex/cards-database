@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SLD"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "烏鴉頭頭",
-		ja: "ドンカラス"
+		'ja-jp': "ドンカラス"
 	},
 
 	illustrator: "Shiburingaru",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "與敵人的戰鬥幾乎全由手下來應付。只有在最後給對手致命一擊的時候，才會弄髒自己的手。",
-		ja: "敵と 戦うのは ほぼ 子分。 自分の 手を 汚すのは 相手に 最後の 止めを 刺すときだけ。"
+		'ja-jp': "敵と 戦うのは ほぼ 子分。 自分の 手を 汚すのは 相手に 最後の 止めを 刺すときだけ。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "啄",
-			ja: "つつく"
+			'ja-jp': "つつく"
 		},
 
 		damage: 20,
@@ -32,12 +32,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "暗黑旋風",
-			ja: "ナイトサイクロン"
+			'ja-jp': "ナイトサイクロン"
 		},
 
 		effect: {
 			'zh-tw': "將這隻寶可夢身上附加的所有能量，以任意方式改附於備戰寶可夢身上。",
-			ja: "このポケモンについているエネルギーをすべて、ベンチポケモンに好きなようにつけ替える。"
+			'ja-jp': "このポケモンについているエネルギーをすべて、ベンチポケモンに好きなようにつけ替える。"
 		},
 
 		damage: 160,

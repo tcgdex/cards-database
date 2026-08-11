@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "คามุคาเมะ",
-		id: "Chewtle"
+		'th-th': "คามุคาเมะ",
+		'id-id': "Chewtle"
 	},
 
 	illustrator: "Yuka Morii",
@@ -15,16 +15,16 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		th: "เด็ก ๆ ชอบเล่นแข่งกัน โดยจะยกกิ่งไม้ที่คามุคาเมะกัดอยู่ขึ้น แล้วดูว่าตัวไหนจะกัดกิ่งไม้อยู่ได้นานกว่ากัน",
-		id: "Permainan mengangkat ranting pohon yang digigit oleh Chewtle dan mengadu lamanya waktu Pokémon ini bergantung populer di kalangan anak-anak."
+		'th-th': "เด็ก ๆ ชอบเล่นแข่งกัน โดยจะยกกิ่งไม้ที่คามุคาเมะกัดอยู่ขึ้น แล้วดูว่าตัวไหนจะกัดกิ่งไม้อยู่ได้นานกว่ากัน",
+		'id-id': "Permainan mengangkat ranting pohon yang digigit oleh Chewtle dan mengadu lamanya waktu Pokémon ini bergantung populer di kalangan anak-anak."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "พุ่งหัวชน",
-			id: "Tandukan Kepala"
+			'th-th': "พุ่งหัวชน",
+			'id-id': "Tandukan Kepala"
 		},
 
 		damage: 60,

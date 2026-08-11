@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブルバサウルス",
+		'ja-jp': "ブルバサウルス",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "成長",
+				'ja-jp': "成長",
 			},
 			effect: {
-				ja: "手からブルバサウルスに草のエネルギーカードを取り付けます。",
+				'ja-jp': "手からブルバサウルスに草のエネルギーカードを取り付けます。",
 			},
 		},
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "つる鞭",
+				'ja-jp': "つる鞭",
 			},
 			damage: 20,
 		},

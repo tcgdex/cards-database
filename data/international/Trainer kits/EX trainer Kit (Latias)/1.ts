@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit (Latias)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bagon",
-		fr: "Draby"
+		'en-us': "Bagon",
+		'fr-fr': "Draby"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -26,8 +26,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule"
 			},
 			damage: 10
 		}, {
@@ -36,8 +36,8 @@ const card: Card = {
 				"Colorless"
 			],
 			name: {
-				en: "Flare",
-				fr: "Enflammer"
+				'en-us': "Flare",
+				'fr-fr': "Enflammer"
 			},
 			damage: 20
 		}],

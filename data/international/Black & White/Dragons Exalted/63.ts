@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Baltoy",
-		fr: "Balbuto",
-		es: "Baltoy",
-		it: "Baltoy",
-		pt: "Baltoy",
-		de: "Puppance"
+		'en-us': "Baltoy",
+		'fr-fr': "Balbuto",
+		'es-es': "Baltoy",
+		'it-it': "Baltoy",
+		'pt-br': "Baltoy",
+		'de-de': "Puppance"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spinning Attack",
-				fr: "Attaque Tournante",
+				'en-us': "Spinning Attack",
+				'fr-fr': "Attaque Tournante",
 			},
 
 			damage: 10,
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reverse Spin",
-				fr: "Vrille Renversante",
+				'en-us': "Reverse Spin",
+				'fr-fr': "Vrille Renversante",
 			},
 			effect: {
-				en: "Your opponent shuffles his or her hand into his or her deck and draws 4 cards.",
-				fr: "Votre adversaire mélange sa main avec son deck et pioche 4 cartes.",
+				'en-us': "Your opponent shuffles his or her hand into his or her deck and draws 4 cards.",
+				'fr-fr': "Votre adversaire mélange sa main avec son deck et pioche 4 cartes.",
 			},
 
 		},
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It move by spinning on its foot. It is a rare Pokémon that was discovered in ancient ruins.",
+		'en-us': "It move by spinning on its foot. It is a rare Pokémon that was discovered in ancient ruins.",
 	},
 
 	thirdParty: {

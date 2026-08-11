@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Beldum",
-		fr: "Terhal",
-		de: "Tanhel"
+		'en-us': "Beldum",
+		'fr-fr': "Terhal",
+		'de-de': "Tanhel"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Levitate",
-				fr: "Lévitation",
-				de: "Levitate"
+				'en-us': "Levitate",
+				'fr-fr': "Lévitation",
+				'de-de': "Levitate"
 			},
 			effect: {
-				en: "If Beldum has any Energy attached to it, Beldum's Retreat Cost is 0.",
-				fr: "Si Terhal possède des Énergies, son Coût de Retraite est de 0.",
-				de: "If Beldum has any Energy attached to it, Beldum's Retreat Cost is 0."
+				'en-us': "If Beldum has any Energy attached to it, Beldum's Retreat Cost is 0.",
+				'fr-fr': "Si Terhal possède des Énergies, son Coût de Retraite est de 0.",
+				'de-de': "If Beldum has any Energy attached to it, Beldum's Retreat Cost is 0."
 			}
 		},
 	],
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,

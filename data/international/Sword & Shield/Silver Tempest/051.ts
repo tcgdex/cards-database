@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chinchou",
-		fr: "Loupio",
-		es: "Chinchou",
-		it: "Chinchou",
-		pt: "Chinchou",
-		de: "Lampi"
+		'en-us': "Chinchou",
+		'fr-fr': "Loupio",
+		'es-es': "Chinchou",
+		'it-it': "Chinchou",
+		'pt-br': "Chinchou",
+		'de-de': "Lampi"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Lightning Ball",
-			fr: "Boule Éclair",
-			es: "Bola Relámpago",
-			it: "Fulminpalla",
-			pt: "Bola de Raios",
-			de: "Kugelblitz"
+			'en-us': "Lightning Ball",
+			'fr-fr': "Boule Éclair",
+			'es-es': "Bola Relámpago",
+			'it-it': "Fulminpalla",
+			'pt-br': "Bola de Raios",
+			'de-de': "Kugelblitz"
 		},
 
 		damage: 10
@@ -38,12 +38,12 @@ const card: Card = {
 		cost: ["Lightning", "Lightning"],
 
 		name: {
-			en: "Gentle Slap",
-			fr: "Gifle Douce",
-			es: "Bofetada Gentil",
-			it: "Schiaffetto",
-			pt: "Tapinha",
-			de: "Sanfter Hieb"
+			'en-us': "Gentle Slap",
+			'fr-fr': "Gifle Douce",
+			'es-es': "Bofetada Gentil",
+			'it-it': "Schiaffetto",
+			'pt-br': "Tapinha",
+			'de-de': "Sanfter Hieb"
 		},
 
 		damage: 20
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its antennae, which evolved from a fin, have both positive and negative charges flowing through them.",
+		'en-us': "Its antennae, which evolved from a fin, have both positive and negative charges flowing through them.",
 	},
 
 	variants: [

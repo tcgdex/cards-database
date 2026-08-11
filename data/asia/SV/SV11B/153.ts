@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マメパト",
+		'ja-jp': "マメパト",
 	},
 
 	illustrator: "Mori Yuu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "トレーナーの 命令を よく 聞く 性格だが 難しい 指示は 理解 できない こともある。",
+		'ja-jp': "トレーナーの 命令を よく 聞く 性格だが 難しい 指示は 理解 できない こともある。",
 	},
 
 	stage: "Basic",

@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "グレンアルマ",
+		'ja-jp': "グレンアルマ",
 		'zh-tw': "紅蓮鎧騎",
-		id: "Armarouge"
+		'id-id': "Armarouge"
 	},
 
 	illustrator: "Atsushi Furusawa",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "多くの 武勲を 立てた 戦士の 鎧によって 進化した 姿。 忠誠心の 厚い ポケモン。",
+		'ja-jp': "多くの 武勲を 立てた 戦士の 鎧によって 進化した 姿。 忠誠心の 厚い ポケモン。",
 		'zh-tw': "藉由立下眾多勛績的戰士所穿的鎧甲進化成的樣子。 是忠心耿耿的寶可夢。",
-		id: "Wujud evolusi dari Charcadet menjadi Armarouge berkat zirah milik pendekar yang memenangkan banyak pertarungan. Pokémon yang sangat setia."
+		'id-id': "Wujud evolusi dari Charcadet menjadi Armarouge berkat zirah milik pendekar yang memenangkan banyak pertarungan. Pokémon yang sangat setia."
 	},
 
 	stage: "Stage1",
@@ -28,15 +28,15 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ひおくり",
+			'ja-jp': "ひおくり",
 			'zh-tw': "送火",
-			id: "Mengantarkan Api"
+			'id-id': "Mengantarkan Api"
 		},
 
 		effect: {
-			ja: "自分の番に何回でも使える。自分のベンチポケモンについているエネルギーを1個選び、バトルポケモンにつけ替える。",
+			'ja-jp': "自分の番に何回でも使える。自分のベンチポケモンについているエネルギーを1個選び、バトルポケモンにつけ替える。",
 			'zh-tw': "在自己的回合時，可不限次數使用。選擇1個自己的備戰寶可夢身上附加的【火】能量，改附於戰鬥寶可夢身上。",
-			id: "Dapat digunakan berkali-kali pada giliran sendiri. Pilih 1 Energi {Api} yang dikenakan pada Pokémon Cadangan sendiri, lalu pindahkan ke Pokémon Bertarung."
+			'id-id': "Dapat digunakan berkali-kali pada giliran sendiri. Pilih 1 Energi {Api} yang dikenakan pada Pokémon Cadangan sendiri, lalu pindahkan ke Pokémon Bertarung."
 		}
 	}],
 
@@ -44,17 +44,17 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			ja: "フレイムキャノン",
+			'ja-jp': "フレイムキャノン",
 			'zh-tw': "火焰加農炮",
-			id: "Flame Cannon"
+			'id-id': "Flame Cannon"
 		},
 
 		damage: 90,
 
 		effect: {
-			ja: "相手のバトルポケモンをやけどにする。",
+			'ja-jp': "相手のバトルポケモンをやけどにする。",
 			'zh-tw': "將對手的戰鬥寶可夢【灼傷】。",
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
 		}
 	}],
 

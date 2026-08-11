@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Fulgulairo",
-		en: "Kilowattrel",
-		es: "Kilowattrel",
-		it: "Kilowattrel",
-		pt: "Kilowattrel",
-		de: "Voltrean"
+		'fr-fr': "Fulgulairo",
+		'en-us': "Kilowattrel",
+		'es-es': "Kilowattrel",
+		'it-it': "Kilowattrel",
+		'pt-br': "Kilowattrel",
+		'de-de': "Voltrean"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Lightning"],
 	evolveFrom: {
-		fr: "Zapétrel",
-		en: "Wattrel",
-		es: "Wattrel",
-		it: "Wattrel",
-		pt: "Wattrel",
-		de: "Voltrel"
+		'fr-fr': "Zapétrel",
+		'en-us': "Wattrel",
+		'es-es': "Wattrel",
+		'it-it': "Wattrel",
+		'pt-br': "Wattrel",
+		'de-de': "Voltrel"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Picpic",
-			en: "Peck",
-			es: "Picotazo",
-			it: "Beccata",
-			pt: "Bicada",
-			de: "Pikser"
+			'fr-fr': "Picpic",
+			'en-us': "Peck",
+			'es-es': "Picotazo",
+			'it-it': "Beccata",
+			'pt-br': "Bicada",
+			'de-de': "Pikser"
 		},
 
 		damage: 20
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Aile Jet",
-			en: "Jet Wing",
-			es: "Ala Propulsión",
-			it: "Ala Jet",
-			pt: "Asa a Jato",
-			de: "Jet-Flügel"
+			'fr-fr': "Aile Jet",
+			'en-us': "Jet Wing",
+			'es-es': "Ala Propulsión",
+			'it-it': "Ala Jet",
+			'pt-br': "Asa a Jato",
+			'de-de': "Jet-Flügel"
 		},
 
 		effect: {
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			en: "During your next turn, this Pokémon can't attack.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 150
@@ -102,7 +102,7 @@ const card: Card = {
 	illustrator: "Pani Kobayashi",
 
 	description: {
-		en: "Kilowattrel inflates its throat sac to amplify its electricity. By riding the wind, this Pokémon can fly over 430 miles in a day.",
+		'en-us': "Kilowattrel inflates its throat sac to amplify its electricity. By riding the wind, this Pokémon can fly over 430 miles in a day.",
 	},
 }
 

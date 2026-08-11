@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Cyclizar ex",
-		th: "โมโตโทคาเงะex"
+		'id-id': "Cyclizar ex",
+		'th-th': "โมโตโทคาเงะex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -18,26 +18,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Break Through",
-			th: "เบรกทรู"
+			'id-id': "Break Through",
+			'th-th': "เบรกทรู"
 		},
 
 		effect: {
-			id: "Serangan ini juga memberikan kerusakan sejumlah 30 kepada 1 Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]",
-			th: "โปเกมอนบนเบนช์ฝ่ายตรงข้าม 1 ตัว ก็จะได้รับแดเมจ 30 ด้วย {โปเกมอน บนเบนช์จะไม่นำจุดอ่อนและความต้านทานมาคิด}"
+			'id-id': "Serangan ini juga memberikan kerusakan sejumlah 30 kepada 1 Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]",
+			'th-th': "โปเกมอนบนเบนช์ฝ่ายตรงข้าม 1 ตัว ก็จะได้รับแดเมจ 30 ด้วย {โปเกมอน บนเบนช์จะไม่นำจุดอ่อนและความต้านทานมาคิด}"
 		},
 
 		damage: 130,
 		cost: ["Colorless", "Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Zircon Road",
-			th: "เซอร์คอนโรด"
+			'id-id': "Zircon Road",
+			'th-th': "เซอร์คอนโรด"
 		},
 
 		effect: {
-			id: "Pemain dapat mengambil 5 kartu dari atas Deck sendiri.",
-			th: "หากต้องการ จั่วการ์ด 5 ใบจากสำรับการ์ดฝ่ายเรา"
+			'id-id': "Pemain dapat mengambil 5 kartu dari atas Deck sendiri.",
+			'th-th': "หากต้องการ จั่วการ์ด 5 ใบจากสำรับการ์ดฝ่ายเรา"
 		},
 
 		damage: 180,

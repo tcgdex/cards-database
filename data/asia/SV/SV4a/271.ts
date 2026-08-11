@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カヌチャン",
+		'ja-jp': "カヌチャン",
 		'zh-tw': "小鍛匠",
-		id: "Tinkatink"
+		'id-id': "Tinkatink"
 	},
 
 	illustrator: "yuu",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "手作りの ハンマーを 振りまわして 身を 守るが 金属を 食べる ポケモンには よく 奪われる。",
+		'ja-jp': "手作りの ハンマーを 振りまわして 身を 守るが 金属を 食べる ポケモンには よく 奪われる。",
 		'zh-tw': "雖然會揮舞著手工打造的錘子來保護自己，但卻常被 以金屬為食的寶可夢搶走。",
-		id: "Tinkatink mengayunkan palu buatannya untuk melindungi dirinya, tetapi palu tersebut sering direbut oleh Pokémon pemakan logam."
+		'id-id': "Tinkatink mengayunkan palu buatannya untuk melindungi dirinya, tetapi palu tersebut sering direbut oleh Pokémon pemakan logam."
 	},
 
 	stage: "Basic",
@@ -28,23 +28,23 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "てつクズひろい",
+			'ja-jp': "てつクズひろい",
 			'zh-tw': "撿鐵屑",
-			id: "Memungut Rongsok Besi"
+			'id-id': "Memungut Rongsok Besi"
 		},
 
 		effect: {
-			ja: "自分のトラッシュからグッズを1枚選び、相手に見せて、手札に加える。",
+			'ja-jp': "自分のトラッシュからグッズを1枚選び、相手に見せて、手札に加える。",
 			'zh-tw': "從自己的棄牌區選擇1張物品卡，在給對手看過後加入手牌。",
-			id: "Pilih 1 lembar Item dari Trash sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan."
+			'id-id': "Pilih 1 lembar Item dari Trash sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan."
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			ja: "ようせいのかぜ",
+			'ja-jp': "ようせいのかぜ",
 			'zh-tw': "妖精之風",
-			id: "Angin Peri"
+			'id-id': "Angin Peri"
 		},
 
 		damage: 30

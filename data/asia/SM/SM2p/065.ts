@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マルチつけかえ",
+		'ja-jp': "マルチつけかえ",
 	},
 
 	illustrator: "",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のベンチポケモンについているエネルギーを1個、自分のバトルポケモンにつけ替える。",
+		'ja-jp': "自分のベンチポケモンについているエネルギーを1個、自分のバトルポケモンにつけ替える。",
 	},
 
 	variants: [

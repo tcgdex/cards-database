@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Gardevoir",
-		fr: "Gardevoir",
-		de: "Guardevoir"
+		'en-us': "Gardevoir",
+		'fr-fr': "Gardevoir",
+		'de-de': "Guardevoir"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kirlia",
-		fr: "Kirlia"
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Heal Dance",
-				fr: "Danse guérisseuse",
-				de: "Heal Dance"
+				'en-us': "Heal Dance",
+				'fr-fr': "Danse guérisseuse",
+				'de-de': "Heal Dance"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may remove 2 damage counters from 1 of your Pokémon. You can't use more than 1 Heal Dance Poké-Power each turn. This power can't be used if Gardevoir is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez retirer 2 marqueurs de dégât à 1 de vos Pokémon. Vous ne pouvez pas utiliser plus d'1 Poké-Power Danse Guérisseuse par tour. Ce pouvoir ne peut pas être utilisé si Gardevoir est affecté par un État Spécial.",
-				de: "Once during your turn (before your attack), you may remove 2 damage counters from 1 of your Pokémon. You can't use more than 1 Heal Dance Poke-Power each turn. This power can't be used if Guardevoir if affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), you may remove 2 damage counters from 1 of your Pokémon. You can't use more than 1 Heal Dance Poké-Power each turn. This power can't be used if Gardevoir is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez retirer 2 marqueurs de dégât à 1 de vos Pokémon. Vous ne pouvez pas utiliser plus d'1 Poké-Power Danse Guérisseuse par tour. Ce pouvoir ne peut pas être utilisé si Gardevoir est affecté par un État Spécial.",
+				'de-de': "Once during your turn (before your attack), you may remove 2 damage counters from 1 of your Pokémon. You can't use more than 1 Heal Dance Poke-Power each turn. This power can't be used if Guardevoir if affected by a Special Condition."
 			},
 		},
 	],
@@ -53,9 +53,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psypunch",
-				fr: "Coup de poing psy",
-				de: "Psypunch"
+				'en-us': "Psypunch",
+				'fr-fr': "Coup de poing psy",
+				'de-de': "Psypunch"
 			},
 
 			damage: 30,
@@ -69,14 +69,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mind Shock",
-				fr: "Choc cérébral",
-				de: "Mind Shock"
+				'en-us': "Mind Shock",
+				'fr-fr': "Choc cérébral",
+				'de-de': "Mind Shock"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
-				de: "This attack's damage isn't affected by Weakness or Resistance."
+				'en-us': "This attack's damage isn't affected by Weakness or Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				'de-de': "This attack's damage isn't affected by Weakness or Resistance."
 			},
 			damage: 60,
 

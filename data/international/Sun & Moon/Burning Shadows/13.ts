@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Burning Shadows'
 
 const card: Card = {
 	name: {
-		en: "Simisage",
-		fr: "Feuiloutan",
-		es: "Simisage",
-		it: "Simisage",
-		pt: "Simisage",
-		de: "Vegichita"
+		'en-us': "Simisage",
+		'fr-fr': "Feuiloutan",
+		'es-es': "Simisage",
+		'it-it': "Simisage",
+		'pt-br': "Simisage",
+		'de-de': "Vegichita"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pansage",
-		fr: "Feuillajou",
+		'en-us': "Pansage",
+		'fr-fr': "Feuillajou",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				es: "Arañazo",
-				it: "Graffio",
-				pt: "Arranhão",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'es-es': "Arañazo",
+				'it-it': "Graffio",
+				'pt-br': "Arranhão",
+				'de-de': "Kratzer"
 			},
 
 			damage: 30,
@@ -56,20 +56,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leaf Supply",
-				fr: "Provision de Feuillage",
-				es: "Aprovisionamiento Hoja",
-				it: "Fogliascorta",
-				pt: "Estoque de Folha",
-				de: "Blättervorrat"
+				'en-us': "Leaf Supply",
+				'fr-fr': "Provision de Feuillage",
+				'es-es': "Aprovisionamiento Hoja",
+				'it-it': "Fogliascorta",
+				'pt-br': "Estoque de Folha",
+				'de-de': "Blättervorrat"
 			},
 			effect: {
-				en: "You may attach a Grass Energy card from your hand to 1 of your Pokémon.",
-				fr: "Vous pouvez attacher une carte Énergie Grass de votre main à l’un de vos Pokémon.",
-				es: "Puedes unir 1 carta de Energía Grass de tu mano a 1 de tus Pokémon.",
-				it: "Puoi assegnare una carta Energia Grass dalla tua mano a uno dei tuoi Pokémon.",
-				pt: "Você pode ligar 1 carta de Energia Grass da sua mão a 1 dos seus Pokémon.",
-				de: "Du kannst 1 Grass-Energiekarte aus deiner Hand an 1 deiner Pokémon anlegen."
+				'en-us': "You may attach a Grass Energy card from your hand to 1 of your Pokémon.",
+				'fr-fr': "Vous pouvez attacher une carte Énergie Grass de votre main à l’un de vos Pokémon.",
+				'es-es': "Puedes unir 1 carta de Energía Grass de tu mano a 1 de tus Pokémon.",
+				'it-it': "Puoi assegnare una carta Energia Grass dalla tua mano a uno dei tuoi Pokémon.",
+				'pt-br': "Você pode ligar 1 carta de Energia Grass da sua mão a 1 dos seus Pokémon.",
+				'de-de': "Du kannst 1 Grass-Energiekarte aus deiner Hand an 1 deiner Pokémon anlegen."
 			},
 			damage: 50,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It attacks enemies with strikes of its thorn-covered tail. This Pokémon is wild tempered.",
+		'en-us': "It attacks enemies with strikes of its thorn-covered tail. This Pokémon is wild tempered.",
 	},
 
 	thirdParty: {

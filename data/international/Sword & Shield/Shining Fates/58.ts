@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Ordres du Boss (Lysandre)",
-		en: "Boss's Orders (Lysandre)",
-		es: "Órdenes de Jefes",
-		it: "Ordini del Capo",
-		pt: "Ordem da Chefia",
-		de: "Befehl vom Boss"
+		'fr-fr': "Ordres du Boss (Lysandre)",
+		'en-us': "Boss's Orders (Lysandre)",
+		'es-es': "Órdenes de Jefes",
+		'it-it': "Ordini del Capo",
+		'pt-br': "Ordem da Chefia",
+		'de-de': "Befehl vom Boss"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -18,12 +18,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Échangez l'un des Pokémon de Banc de votre adversaire contre son Pokémon Actif.",
-		en: "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
-		es: "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
-		it: "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
-		pt: "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
-		de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
+		'fr-fr': "Échangez l'un des Pokémon de Banc de votre adversaire contre son Pokémon Actif.",
+		'en-us': "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
+		'es-es': "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
+		'it-it': "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
+		'pt-br': "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
+		'de-de': "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
 	},
 
 	trainerType: "Supporter",

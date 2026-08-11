@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダークマロワック",
+		'ja-jp': "ダークマロワック",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ブリックスマッシュ",
+				'ja-jp': "ブリックスマッシュ",
 			},
 			effect: {
-				ja: "この攻撃の損傷は、抵抗、ポケの提唱、ポケボディ、または防御ポケモンに対するその他の影響の影響を受けません。",
+				'ja-jp': "この攻撃の損傷は、抵抗、ポケの提唱、ポケボディ、または防御ポケモンに対するその他の影響の影響を受けません。",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
-				ja: "硬い骨",
+				'ja-jp': "硬い骨",
 			},
 			effect: {
-				ja: "あなたの手から基本的なポケモンまたは進化カードを捨てるか、この攻撃は何もしません。",
+				'ja-jp': "あなたの手から基本的なポケモンまたは進化カードを捨てるか、この攻撃は何もしません。",
 			},
 			damage: 70,
 		},

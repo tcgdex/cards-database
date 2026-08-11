@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Buneary",
-		fr: "Laporeille",
-		es: "Buneary",
-		pt: "Buneary",
-		it: "Buneary",
-		de: "Haspiror"
+		'en-us': "Buneary",
+		'fr-fr': "Laporeille",
+		'es-es': "Buneary",
+		'pt-br': "Buneary",
+		'it-it': "Buneary",
+		'de-de': "Haspiror"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Smash Kick",
-			fr: "Coud'Pattes",
-			es: "Patada Destrucción",
-			pt: "Chute Poderoso",
-			it: "Calcio Esplosivo",
-			de: "Schmetterkick"
+			'en-us': "Smash Kick",
+			'fr-fr': "Coud'Pattes",
+			'es-es': "Patada Destrucción",
+			'pt-br': "Chute Poderoso",
+			'it-it': "Calcio Esplosivo",
+			'de-de': "Schmetterkick"
 		},
 
 		damage: 20

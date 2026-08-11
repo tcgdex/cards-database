@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Kangaskhan",
-		fr: "Kangourex",
-		de: "Kangama"
+		'en-us': "Kangaskhan",
+		'fr-fr': "Kangourex",
+		'de-de': "Kangama"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Split Spiral Punch",
-				fr: "Coup d’poing en demi spirale",
-				de: "Spiralhieb"
+				'en-us': "Split Spiral Punch",
+				'fr-fr': "Coup d’poing en demi spirale",
+				'de-de': "Spiralhieb"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
-				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dizzy Punch",
-				fr: "Uppercut",
-				de: "Irrschlag"
+				'en-us': "Dizzy Punch",
+				'fr-fr': "Uppercut",
+				'de-de': "Irrschlag"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 2 coins. This attack does 50 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "50×",
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "If it is safe, the young gets out of the belly pouch to play. The adult keeps a close eye on the youngster."
+		'en-us': "If it is safe, the young gets out of the belly pouch to play. The adult keeps a close eye on the youngster."
 	},
 
 	variants: [

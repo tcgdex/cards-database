@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アクア団のベトベトン",
+		'ja-jp': "アクア団のベトベトン",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "毒を まとった 巨体で 敵を 包み込んで 動けなくするの。 あなたも 押しつぶして あげる！",
+		'ja-jp': "毒を まとった 巨体で 敵を 包み込んで 動けなくするの。 あなたも 押しつぶして あげる！",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ヘドロまつり" },
 			effect: {
-				ja: "このポケモンがいるかぎり、おたがいのポケモン全員（「アクア団」をのぞく）のにげるために必要なエネルギーは、それぞれ1個ぶん多くなる。",
+				'ja-jp': "このポケモンがいるかぎり、おたがいのポケモン全員（「アクア団」をのぞく）のにげるために必要なエネルギーは、それぞれ1個ぶん多くなる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが特殊状態なら、60ダメージを追加。",
+				'ja-jp': "相手のバトルポケモンが特殊状態なら、60ダメージを追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アクア団のベトベター",
+		'ja-jp': "アクア団のベトベター",
 	},
 
 	retreat: 3,

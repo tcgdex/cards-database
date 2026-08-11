@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Duosion",
-		fr: "Méios",
-		es: "Duosion",
-		it: "Duosion",
-		pt: "Duosion",
-		de: "Mitodos"
+		'en-us': "Duosion",
+		'fr-fr': "Méios",
+		'es-es': "Duosion",
+		'it-it': "Duosion",
+		'pt-br': "Duosion",
+		'de-de': "Mitodos"
 	},
 
 	illustrator: "match",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Solosis",
-		fr: "Nucléos",
+		'en-us': "Solosis",
+		'fr-fr': "Nucléos",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Focused Wish",
-				fr: "Vœu Fervent",
+				'en-us': "Focused Wish",
+				'fr-fr': "Vœu Fervent",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When their two divided brains think the same thoughts, their psychic power is maximized.",
+		'en-us': "When their two divided brains think the same thoughts, their psychic power is maximized.",
 	},
 
 	thirdParty: {

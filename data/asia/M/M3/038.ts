@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒポポタス",
+		'ja-jp': "ヒポポタス",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "全身に 砂を まとうことで ばい菌から 体を 守る。 水に 濡れることが 苦手。",
+		'ja-jp': "全身に 砂を まとうことで ばい菌から 体を 守る。 水に 濡れることが 苦手。",
 	},
 
 	stage: "Basic",

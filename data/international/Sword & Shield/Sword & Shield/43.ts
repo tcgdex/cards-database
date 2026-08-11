@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Krabby",
-		fr: "Krabby",
-		es: "Krabby",
-		it: "Krabby",
-		pt: "Krabby",
-		de: "Krabby"
+		'en-us': "Krabby",
+		'fr-fr': "Krabby",
+		'es-es': "Krabby",
+		'it-it': "Krabby",
+		'pt-br': "Krabby",
+		'de-de': "Krabby"
 	},
 
 	illustrator: "miki kudo",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Slice",
-				fr: "Super Tranche",
-				es: "Supertajo",
-				it: "Super Trancia",
-				pt: "Superfatiador",
-				de: "Superschnippler"
+				'en-us': "Super Slice",
+				'fr-fr': "Super Tranche",
+				'es-es': "Supertajo",
+				'it-it': "Super Trancia",
+				'pt-br': "Superfatiador",
+				'de-de': "Superschnippler"
 			},
 			effect: {
-				en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
-				fr: "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien.",
-				es: "Lanza 2 monedas. Si sale cruz en alguna de ellas, este ataque no hace nada.",
-				it: "Lancia due volte una moneta. Se esce almeno una volta croce, questo attacco non ha effetto.",
-				pt: "Jogue 2 moedas. Se qualquer uma delas sair coroa, este ataque não fará nada.",
-				de: "Wirf 2 Münzen. Wenn eine oder beide Münzen Zahl zeigen, hat diese Attacke keine Auswirkungen."
+				'en-us': "Flip 2 coins. If either of them is tails, this attack does nothing.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien.",
+				'es-es': "Lanza 2 monedas. Si sale cruz en alguna de ellas, este ataque no hace nada.",
+				'it-it': "Lancia due volte una moneta. Se esce almeno una volta croce, questo attacco non ha effetto.",
+				'pt-br': "Jogue 2 moedas. Se qualquer uma delas sair coroa, este ataque não fará nada.",
+				'de-de': "Wirf 2 Münzen. Wenn eine oder beide Münzen Zahl zeigen, hat diese Attacke keine Auswirkungen."
 			},
 			damage: 120,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It can be found near the sea. The large pincers grow back if they are torn out of their sockets."
+		'en-us': "It can be found near the sea. The large pincers grow back if they are torn out of their sockets."
 	},
 
 	thirdParty: {

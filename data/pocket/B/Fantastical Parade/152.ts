@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Piers"
+		'en-us': "Piers"
 	},
 
 	illustrator: "hncl",
@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "You can use this card only if you have Galarian Obstagoon in play.\n\nDiscard 2 random Energy from your opponent's Active Pokémon."
+		'en-us': "You can use this card only if you have Galarian Obstagoon in play.\n\nDiscard 2 random Energy from your opponent's Active Pokémon."
 	},
 
 	trainerType: "Supporter"

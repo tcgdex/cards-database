@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゾロア",
+		'ja-jp': "ゾロア",
 		'zh-tw': "索羅亞",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "人や ほかの ポケモンに 化ける。 自分の 正体を 隠すことで 危険から 身を 守っているのだ。",
+		'ja-jp': "人や ほかの ポケモンに 化ける。 自分の 正体を 隠すことで 危険から 身を 守っているのだ。",
 		'zh-tw': "會化為人類或其他的寶可夢。 透過隱藏自己原本的面貌， 保護自己不遇危險。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ふむ",
+				'ja-jp': "ふむ",
 				'zh-tw': "踩",
 			},
 			damage: 10,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ダブルひっかき",
+				'ja-jp': "ダブルひっかき",
 				'zh-tw': "雙重抓",
 			},
 			damage: "20×",
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数×20ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数×20ダメージ。",
 				'zh-tw': "擲2次硬幣，造成正面出現的次數×20點傷害。",
 			},
 		},

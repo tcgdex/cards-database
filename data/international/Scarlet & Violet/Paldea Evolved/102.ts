@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Forgerette",
-		en: "Tinkatink",
-		es: "Tinkatink",
-		it: "Tinkatink",
-		pt: "Tinkatink",
-		de: "Forgita"
+		'fr-fr': "Forgerette",
+		'en-us': "Tinkatink",
+		'es-es': "Tinkatink",
+		'it-it': "Tinkatink",
+		'pt-br': "Tinkatink",
+		'de-de': "Forgita"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			fr: "Centrifugifle",
-			en: "Brutal Swing",
-			es: "Giro Vil",
-			it: "Vorticolpo",
-			pt: "Balanço Violento",
-			de: "Wirbler"
+			'fr-fr': "Centrifugifle",
+			'en-us': "Brutal Swing",
+			'es-es': "Giro Vil",
+			'it-it': "Vorticolpo",
+			'pt-br': "Balanço Violento",
+			'de-de': "Wirbler"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-			en: "Flip a coin. If heads, this attack does 20 more damage.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+			'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -75,7 +75,7 @@ const card: Card = {
 	illustrator: "Pani Kobayashi",
 
 	description: {
-		en: "It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal.",
+		'en-us': "It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal.",
 	},
 }
 

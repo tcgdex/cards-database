@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビリジオンGX",
+		'ja-jp': "ビリジオンGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "ダブルドロー" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を2枚引く。",
+				'ja-jp': "自分の山札を2枚引く。",
 			},
 		},
 		{
@@ -27,14 +27,14 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Grass", "Grass"],
 			effect: {
-				ja: "この番、手札からサポートを出して使っていたなら、80ダメージ追加。",
+				'ja-jp': "この番、手札からサポートを出して使っていたなら、80ダメージ追加。",
 			},
 		},
 		{
 			name: { ja: "ブリーズアウェイGX" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の場のポケモンを好きなだけ選び、選んだポケモンと、ついているすべてのカードを、手札にもどす。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分の場のポケモンを好きなだけ選び、選んだポケモンと、ついているすべてのカードを、手札にもどす。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

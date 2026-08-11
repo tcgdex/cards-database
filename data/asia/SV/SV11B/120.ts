@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ボルトロス",
+		'ja-jp': "ボルトロス",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "ボルトロスが 通り過ぎた 土地には 雷の 落ちた 無数の 跡が 焼け焦げとなって 残っている。",
+		'ja-jp': "ボルトロスが 通り過ぎた 土地には 雷の 落ちた 無数の 跡が 焼け焦げとなって 残っている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "じゅうでん" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から「基本エネルギー」を1枚選び、このポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から「基本エネルギー」を1枚選び、このポケモンにつける。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 110,
 			cost: ["Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],

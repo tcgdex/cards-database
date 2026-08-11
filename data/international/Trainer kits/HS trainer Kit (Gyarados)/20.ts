@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HS trainer Kit (Gyarados)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gyarados",
-		fr: "Léviator"
+		'en-us': "Gyarados",
+		'fr-fr': "Léviator"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -15,7 +15,7 @@ const card: Card = {
 	category: "Pokemon",
 
 	description: {
-		en: "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it."
+		'en-us': "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it."
 	},
 	
 	hp: 130,
@@ -25,22 +25,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Hydro Splash",
-			fr: "Hydro-éclaboussure"
+			'en-us': "Hydro Splash",
+			'fr-fr': "Hydro-éclaboussure"
 		},
 
 		damage: 50
 	}, {
 		name: {
-			en: "Hyper Beam",
-			fr: "Ultralaser"
+			'en-us': "Hyper Beam",
+			'fr-fr': "Ultralaser"
 		},
 
 		damage: 80,
 
 		effect: {
-			en: "Discard an Energy card attached to the Defending Pokémon.",
-			fr: "Défaussez une carte Énergie attachée au Pokémon Défenseur."
+			'en-us': "Discard an Energy card attached to the Defending Pokémon.",
+			'fr-fr': "Défaussez une carte Énergie attachée au Pokémon Défenseur."
 		}
 	}],
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Omastar",
+		'ja-jp': "Omastar",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "原始凝視",
+				'ja-jp': "原始凝視",
 			},
 			effect: {
-				ja: "Omastarがアクティブなポケモンである限り、あなたの対戦相手は、アクティブなポクモンを進化させるために、手から進化カードのために基本的なポケモンをプレイすることができません。",
+				'ja-jp': "Omastarがアクティブなポケモンである限り、あなたの対戦相手は、アクティブなポクモンを進化させるために、手から進化カードのために基本的なポケモンをプレイすることができません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Water", "Water", "Colorless"],
 			name: {
-				ja: "恐怖",
+				'ja-jp': "恐怖",
 			},
 			effect: {
-				ja: "防御するポケモンは、相手の次のターン中に退却することはできません。",
+				'ja-jp': "防御するポケモンは、相手の次のターン中に退却することはできません。",
 			},
 			damage: 50,
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハスブレロ",
+		'ja-jp': "ハスブレロ",
 		'zh-tw': "蓮帽小童",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "日当たりの 良い 水辺に 棲む。 昼間は 水草の ベッドで 眠り 日が 暮れると 動き出す。",
+		'ja-jp': "日当たりの 良い 水辺に 棲む。 昼間は 水草の ベッドで 眠り 日が 暮れると 動き出す。",
 		'zh-tw': "住在日照充足的水邊。白天在水草做的床上睡覺，太陽下山後就會出來活動。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "スプラッシュ",
+				'ja-jp': "スプラッシュ",
 				'zh-tw': "飛濺",
 			},
 			damage: 50,
@@ -45,7 +45,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ハスボー",
+		'ja-jp': "ハスボー",
 	},
 
 	retreat: 1,

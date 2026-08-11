@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Leafeon",
-		fr: "Phyllali",
-		de: "Folipurba"
+		'en-us': "Leafeon",
+		'fr-fr': "Phyllali",
+		'de-de': "Folipurba"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Evoli",
+		'en-us': "Eevee",
+		'fr-fr': "Evoli",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spiral Drain",
-				fr: "Spirale épuisante",
-				de: "Spiralsauger"
+				'en-us': "Spiral Drain",
+				'fr-fr': "Spirale épuisante",
+				'de-de': "Spiralsauger"
 			},
 			effect: {
-				en: "Remove 1 damage counter from Leafeon.",
-				fr: "Retirez à Phyllali 1 marqueur de dégât.",
-				de: "Entferne 1 Schadenmarke von Folipurba."
+				'en-us': "Remove 1 damage counter from Leafeon.",
+				'fr-fr': "Retirez à Phyllali 1 marqueur de dégât.",
+				'de-de': "Entferne 1 Schadenmarke von Folipurba."
 			},
 			damage: 40,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leaf Blade",
-				fr: "Lame-feuille",
-				de: "Laubklinge"
+				'en-us': "Leaf Blade",
+				'fr-fr': "Lame-feuille",
+				'de-de': "Laubklinge"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 50 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 50 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Just like a plant, it uses photosynthesis. As a result, it is always enveloped in clear air.",
+		'en-us': "Just like a plant, it uses photosynthesis. As a result, it is always enveloped in clear air.",
 	},
 
 	thirdParty: {

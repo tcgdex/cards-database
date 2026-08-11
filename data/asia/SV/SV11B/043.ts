@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リグレー",
+		'ja-jp': "リグレー",
 	},
 
 	illustrator: "Apios",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "強力な サイコパワーを 操る。 サイコパワーで 相手の 脳みそを 絞めつけて 頭痛を 起こさせる。",
+		'ja-jp': "強力な サイコパワーを 操る。 サイコパワーで 相手の 脳みそを 絞めつけて 頭痛を 起こさせる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ちょっとずらす" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手の場のポケモンについているエネルギーを1個選び、相手の別のポケモンにつけ替える。",
+				'ja-jp': "相手の場のポケモンについているエネルギーを1個選び、相手の別のポケモンにつけ替える。",
 			},
 		},
 		{

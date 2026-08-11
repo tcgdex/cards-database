@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "まどろみの森",
+		'ja-jp': "まどろみの森",
 	},
 
 	illustrator: "Ryo Ueda",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのプレイヤーがねむりで投げるコインは2回になり、すべてオモテが出ないと回復しない。",
+		'ja-jp': "おたがいのプレイヤーがねむりで投げるコインは2回になり、すべてオモテが出ないと回復しない。",
 	},
 
 	variants: [

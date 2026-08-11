@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Celebi",
-		fr: "Celebi",
-		de: "Celebi"
+		'en-us': "Celebi",
+		'fr-fr': "Celebi",
+		'de-de': "Celebi"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Sprouting",
-				fr: "Grandir",
-				de: "Keimen"
+				'en-us': "Sprouting",
+				'fr-fr': "Grandir",
+				'de-de': "Keimen"
 			},
 			effect: {
-				en: "Search your deck for a Grass Energy card and attach it to Celebi. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck une carte Énergie Grass et attachez-la à Celebi. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach einer -Energiekarte und lege sie an Celebi an. Mische dein Deck danach."
+				'en-us': "Search your deck for a Grass Energy card and attach it to Celebi. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez dans votre deck une carte Énergie Grass et attachez-la à Celebi. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach einer -Energiekarte und lege sie an Celebi an. Mische dein Deck danach."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Leaf Tornado",
-				fr: "Tornade de feuilles",
-				de: "Blättertornado"
+				'en-us': "Leaf Tornado",
+				'fr-fr': "Tornade de feuilles",
+				'de-de': "Blättertornado"
 			},
 			effect: {
-				en: "You may move any number of basic Grass Energy cards attached to your Pokémon to your other Pokémon in any way you like.",
-				fr: "Vous pouvez déplacer autant de cartes Énergie de base Grass attachées à vos Pokémon que vous voulez sur vos autres Pokémon de la façon que vous voulez.",
-				de: "Du kannst beliebig viele -Basis-Energiekarten, die an deinen Pokémon angelegt sind, in beliebiger Verteilung an deine anderen Pokémon anlegen."
+				'en-us': "You may move any number of basic Grass Energy cards attached to your Pokémon to your other Pokémon in any way you like.",
+				'fr-fr': "Vous pouvez déplacer autant de cartes Énergie de base Grass attachées à vos Pokémon que vous voulez sur vos autres Pokémon de la façon que vous voulez.",
+				'de-de': "Du kannst beliebig viele -Basis-Energiekarten, die an deinen Pokémon angelegt sind, in beliebiger Verteilung an deine anderen Pokémon anlegen."
 			},
 			damage: 30,
 
@@ -70,8 +70,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It has the power to travel across time, but is is said to appear only in peaceful times.",
-		fr: "Il a le pouvoir de voyager dans le temps. Cependant, on dit qu'il n'apparaît qu'en temps de paix."
+		'en-us': "It has the power to travel across time, but is is said to appear only in peaceful times.",
+		'fr-fr': "Il a le pouvoir de voyager dans le temps. Cependant, on dit qu'il n'apparaît qu'en temps de paix."
 	},
 
 	thirdParty: {

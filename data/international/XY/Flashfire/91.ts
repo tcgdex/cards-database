@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Magnetic Storm",
-		fr: "Tempête Magnétique",
-		es: "Tormenta Magnética",
-		it: "Tempesta Magnetica",
-		pt: "Tempestade Magnética",
-		de: "Magnetsturm"
+		'en-us': "Magnetic Storm",
+		'fr-fr': "Tempête Magnétique",
+		'es-es': "Tormenta Magnética",
+		'it-it': "Tempesta Magnetica",
+		'pt-br': "Tempestade Magnética",
+		'de-de': "Magnetsturm"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -17,12 +17,12 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Chaque Pokémon en jeu n'a pas de Résistance.",
-		en: "Each Pokémon in play has no Resistance.",
-		es: "Los Pokémon en juego no tienen ninguna Resistencia.",
-		it: "Nessun Pokémon in gioco ha resistenza.",
-		pt: "Cada um dos Pokémon em jogo não possui Resistência.",
-		de: "Jedes Pokémon im Spiel hat keine Resistenz."
+		'fr-fr': "Chaque Pokémon en jeu n'a pas de Résistance.",
+		'en-us': "Each Pokémon in play has no Resistance.",
+		'es-es': "Los Pokémon en juego no tienen ninguna Resistencia.",
+		'it-it': "Nessun Pokémon in gioco ha resistenza.",
+		'pt-br': "Cada um dos Pokémon em jogo não possui Resistência.",
+		'de-de': "Jedes Pokémon im Spiel hat keine Resistenz."
 	},
 
 	trainerType: "Stadium",

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Wailord ex",
-		fr: "Wailord ex",
-		de: "Wailord ex"
+		'en-us': "Wailord ex",
+		'fr-fr': "Wailord ex",
+		'de-de': "Wailord ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wailmer",
-		fr: "Wailmer"
+		'en-us': "Wailmer",
+		'fr-fr': "Wailmer"
 	},
 
 	suffix: "ex",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Deep Dive",
-				fr: "Super gros plongeon",
-				de: "Super Deep Dive"
+				'en-us': "Super Deep Dive",
+				'fr-fr': "Super gros plongeon",
+				'de-de': "Super Deep Dive"
 			},
 			effect: {
-				en: "If you don't have any Benched Pokémon, this attack does nothing. Remove 3 damage counters from Wailord ex. Switch Wailord ex with 1 of your Benched Pokémon.",
-				fr: "Si vous n'avez pas de Pokémon sur votre Banc, cette attaque est sans effet. Retirez à Wailord ex trois marqueurs de dégât. Échangez Wailord ex contre un des Pokémon de votre Banc.",
-				de: "If you don't have any Benched Pokémon, this attack does nothing. Remove 3 damage counters from Wailord ex, Switch Wailord ex with 1 of your Benched Pokémon."
+				'en-us': "If you don't have any Benched Pokémon, this attack does nothing. Remove 3 damage counters from Wailord ex. Switch Wailord ex with 1 of your Benched Pokémon.",
+				'fr-fr': "Si vous n'avez pas de Pokémon sur votre Banc, cette attaque est sans effet. Retirez à Wailord ex trois marqueurs de dégât. Échangez Wailord ex contre un des Pokémon de votre Banc.",
+				'de-de': "If you don't have any Benched Pokémon, this attack does nothing. Remove 3 damage counters from Wailord ex, Switch Wailord ex with 1 of your Benched Pokémon."
 			},
 
 		},
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dwindling Wave",
-				fr: "Vague diminutrice",
-				de: "Dwindling Wave"
+				'en-us': "Dwindling Wave",
+				'fr-fr': "Vague diminutrice",
+				'de-de': "Dwindling Wave"
 			},
 			effect: {
-				en: "Does 100 damage minus 10 damage for each damage counter on Wailord ex.",
-				fr: "Inflige 100 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Wailord ex.",
-				de: "Does 100 damage minus 10 damage for each damage counter on Wailord ex."
+				'en-us': "Does 100 damage minus 10 damage for each damage counter on Wailord ex.",
+				'fr-fr': "Inflige 100 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Wailord ex.",
+				'de-de': "Does 100 damage minus 10 damage for each damage counter on Wailord ex."
 			},
 			damage: "100-",
 

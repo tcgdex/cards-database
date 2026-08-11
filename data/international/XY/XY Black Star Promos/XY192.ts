@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Mew",
-		fr: "Mew"
+		'en-us': "Mew",
+		'fr-fr': "Mew"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Clairvoyance",
-				fr: "Voyance"
+				'en-us': "Clairvoyance",
+				'fr-fr': "Voyance"
 			},
 			effect: {
-				en: "Your opponent reveals his or her hand.",
-				fr: "Votre adversaire montre sa main."
+				'en-us': "Your opponent reveals his or her hand.",
+				'fr-fr': "Votre adversaire montre sa main."
 			},
 
 		},
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic",
-				fr: "Psyko"
+				'en-us': "Psychic",
+				'fr-fr': "Psyko"
 			},
 			effect: {
-				en: "This attack does 10 more damage for each Energy attached to your opponent's Active Pokémon.",
-				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire."
+				'en-us': "This attack does 10 more damage for each Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire."
 			},
 			damage: 40,
 
@@ -68,7 +68,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its DNA is said to contain the genetic codes of all Pokémon, so it can use all kinds of techniques.",
+		'en-us': "Its DNA is said to contain the genetic codes of all Pokémon, so it can use all kinds of techniques.",
 	},
 
 	thirdParty: {

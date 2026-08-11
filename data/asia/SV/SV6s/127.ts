@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Dipplin"
+		'id-id': "Dipplin"
 	},
 
 	illustrator: "OKACHEKE",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		id: "Boah luar yang mengeluarkan kepala dan Boah dalam yang mengeluarkan ekor saling membantu dan tinggal bersama di dalam apel."
+		'id-id': "Boah luar yang mengeluarkan kepala dan Boah dalam yang mengeluarkan ekor saling membantu dan tinggal bersama di dalam apel."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Sirop Nektar Penangkap"
+			'id-id': "Sirop Nektar Penangkap"
 		},
 
 		effect: {
-			id: "Pilih 1 Pokémon Cadangan lawan, lalu tukar dengan Pokémon Bertarung. Setelah itu, berikan kerusakan sejumlah 70 kepada Pokémon Bertarung yang baru."
+			'id-id': "Pilih 1 Pokémon Cadangan lawan, lalu tukar dengan Pokémon Bertarung. Setelah itu, berikan kerusakan sejumlah 70 kepada Pokémon Bertarung yang baru."
 		},
 
 		cost: ["Grass", "Fire"]

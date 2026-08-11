@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Buizel",
-		fr: "Mustébouée",
-		de: "Bamelin"
+		'en-us': "Buizel",
+		'fr-fr': "Mustébouée",
+		'de-de': "Bamelin"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Splash About",
-				fr: "Grosse trempette",
-				de: "Herumspritzen"
+				'en-us': "Splash About",
+				'fr-fr': "Grosse trempette",
+				'de-de': "Herumspritzen"
 			},
 			effect: {
-				en: "If Buizel has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage.",
-				fr: "Si Mustébouée possède moins d'Énergies que le Pokémon Défenseur, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wenn an das Verteidigende Pokémon mehr Energie angelegt ist als an Bamelin, fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				'en-us': "If Buizel has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage.",
+				'fr-fr': "Si Mustébouée possède moins d'Énergies que le Pokémon Défenseur, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Wenn an das Verteidigende Pokémon mehr Energie angelegt ist als an Bamelin, fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -55,8 +55,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has a flotation sac that is like an inflatable collar. It floats on water with its head out.",
-		fr: "Sa bouée est pareille à un collier gonflable. Quand il flotte, il garde la tête à l'air libre."
+		'en-us': "It has a flotation sac that is like an inflatable collar. It floats on water with its head out.",
+		'fr-fr': "Sa bouée est pareille à un collier gonflable. Quand il flotte, il garde la tête à l'air libre."
 	},
 
 	thirdParty: {

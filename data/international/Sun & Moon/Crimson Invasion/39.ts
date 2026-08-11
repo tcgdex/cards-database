@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Misdreavus",
-		fr: "Feuforêve",
-		es: "Misdreavus",
-		it: "Misdreavus",
-		pt: "Misdreavus",
-		de: "Traunfugil"
+		'en-us': "Misdreavus",
+		'fr-fr': "Feuforêve",
+		'es-es': "Misdreavus",
+		'it-it': "Misdreavus",
+		'pt-br': "Misdreavus",
+		'de-de': "Traunfugil"
 	},
 
 	illustrator: "so-taro",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde Folie",
-				es: "Rayo Confuso",
-				it: "Stordiraggio",
-				pt: "Raio da Confusão",
-				de: "Konfustrahl"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde Folie",
+				'es-es': "Rayo Confuso",
+				'it-it': "Stordiraggio",
+				'pt-br': "Raio da Confusão",
+				'de-de': "Konfustrahl"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent’s Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It will use any means necessary to frighten people and absorb their life energy. It practices constantly to hone its skill in causing fear.",
+		'en-us': "It will use any means necessary to frighten people and absorb their life energy. It practices constantly to hone its skill in causing fear.",
 	},
 
 	thirdParty: {

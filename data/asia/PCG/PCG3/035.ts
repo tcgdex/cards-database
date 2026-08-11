@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Voltorb",
+		'ja-jp': "Voltorb",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "サイコウェーブ",
+				'ja-jp': "サイコウェーブ",
 			},
 			effect: {
-				ja: "Voltorbに取り付けられたエネルギーカードを廃棄します。防御ポケモンは今混乱しています。",
+				'ja-jp': "Voltorbに取り付けられたエネルギーカードを廃棄します。防御ポケモンは今混乱しています。",
 			},
 		},
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "サンダーウェーブ",
+				'ja-jp': "サンダーウェーブ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 10,
 		},

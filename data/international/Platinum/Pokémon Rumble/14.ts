@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Pokémon Rumble'
 
 const card: Card = {
 	name: {
-		en: "Bastiodon"
+		'en-us': "Bastiodon"
 	},
 
 	illustrator: undefined,
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shieldon"
+		'en-us': "Shieldon"
 	},
 
 	stage: "Stage2",
@@ -33,7 +33,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strength"
+				'en-us': "Strength"
 			},
 
 			damage: 40,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドクロッグ",
+		'ja-jp': "ドクロッグ",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "こぶしの トゲからは かすり傷でも 命を 落とすほどの 猛毒を 分泌する。",
+		'ja-jp': "こぶしの トゲからは かすり傷でも 命を 落とすほどの 猛毒を 分泌する。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Fighting"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "前の相手の番に、ワザのダメージで、自分の[超]ポケモンがきぜつしていたなら、70ダメージ追加。",
+				'ja-jp': "前の相手の番に、ワザのダメージで、自分の[超]ポケモンがきぜつしていたなら、70ダメージ追加。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "グレッグル",
+		'ja-jp': "グレッグル",
 	},
 
 	retreat: 2,

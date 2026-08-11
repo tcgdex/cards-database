@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Centiskorch",
-		fr: "Scolocendre",
-		es: "Centiskorch",
-		it: "Centiskorch",
-		pt: "Centiskorch",
-		de: "Infernopod"
+		'en-us': "Centiskorch",
+		'fr-fr': "Scolocendre",
+		'es-es': "Centiskorch",
+		'it-it': "Centiskorch",
+		'pt-br': "Centiskorch",
+		'de-de': "Infernopod"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -21,53 +21,53 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Sizzlipede",
-		fr: "Grillepattes",
-		es: "Sizzlipede",
-		it: "Sizzlipede",
-		pt: "Sizzlipede",
-		de: "Thermopod"
+		'en-us': "Sizzlipede",
+		'fr-fr': "Grillepattes",
+		'es-es': "Sizzlipede",
+		'it-it': "Sizzlipede",
+		'pt-br': "Sizzlipede",
+		'de-de': "Thermopod"
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			en: "Overheater",
-			fr: "Surchauffeur",
-			es: "Sobrecalentamiento",
-			it: "Surriscaldatore",
-			pt: "Superaquecedor",
-			de: "Überhitzer"
+			'en-us': "Overheater",
+			'fr-fr': "Surchauffeur",
+			'es-es': "Sobrecalentamiento",
+			'it-it': "Surriscaldatore",
+			'pt-br': "Superaquecedor",
+			'de-de': "Überhitzer"
 		},
 
 		effect: {
-			en: "Whenever your opponent flips a coin for their Burned Pokémon during Pokémon Checkup, it doesn't recover from that Special Condition even if the result is heads.",
-			fr: "Chaque fois que votre adversaire lance une pièce pour son Pokémon Brûlé pendant le Contrôle Pokémon, celui-ci ne guérit pas de cet État Spécial même si le résultat est face.",
-			es: "Cada vez que tu rival lance 1 moneda para su Pokémon Quemado durante el Chequeo Pokémon, no se recupera de esa Condición Especial incluso si sale cara.",
-			it: "Ogni volta che il tuo avversario lancia una moneta per il suo Pokémon bruciato durante il controllo Pokémon, questo non guarisce da quella condizione speciale anche se esce testa.",
-			pt: "Sempre que seu oponente jogar 1 moeda para o Pokémon Queimado dele(a) durante o Checape Pokémon, ele não se recuperará daquela Condição Especial, mesmo que o resultado seja cara.",
-			de: "Jedes Mal, wenn dein Gegner beim Pokémon-Check 1 Münze für sein verbranntes Pokémon wirft, erholt es sich nicht von jenem Speziellen Zustand, auch wenn das Ergebnis Kopf ist."
+			'en-us': "Whenever your opponent flips a coin for their Burned Pokémon during Pokémon Checkup, it doesn't recover from that Special Condition even if the result is heads.",
+			'fr-fr': "Chaque fois que votre adversaire lance une pièce pour son Pokémon Brûlé pendant le Contrôle Pokémon, celui-ci ne guérit pas de cet État Spécial même si le résultat est face.",
+			'es-es': "Cada vez que tu rival lance 1 moneda para su Pokémon Quemado durante el Chequeo Pokémon, no se recupera de esa Condición Especial incluso si sale cara.",
+			'it-it': "Ogni volta che il tuo avversario lancia una moneta per il suo Pokémon bruciato durante il controllo Pokémon, questo non guarisce da quella condizione speciale anche se esce testa.",
+			'pt-br': "Sempre que seu oponente jogar 1 moeda para o Pokémon Queimado dele(a) durante o Checape Pokémon, ele não se recuperará daquela Condição Especial, mesmo que o resultado seja cara.",
+			'de-de': "Jedes Mal, wenn dein Gegner beim Pokémon-Check 1 Münze für sein verbranntes Pokémon wirft, erholt es sich nicht von jenem Speziellen Zustand, auch wenn das Ergebnis Kopf ist."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Bursting Inferno",
-			fr: "Enfer Explosif",
-			es: "Infierno Explosivo",
-			it: "Inferno in Fiamme",
-			pt: "Inferno em Chamas",
-			de: "Flammendes Inferno"
+			'en-us': "Bursting Inferno",
+			'fr-fr': "Enfer Explosif",
+			'es-es': "Infierno Explosivo",
+			'it-it': "Inferno in Fiamme",
+			'pt-br': "Inferno em Chamas",
+			'de-de': "Flammendes Inferno"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+			'en-us': "Your opponent's Active Pokémon is now Burned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 		},
 
 		damage: 130,
@@ -86,7 +86,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "While its burning body is already dangerous on its own, this excessively hostile Pokémon also has large and very sharp fangs."
+		'en-us': "While its burning body is already dangerous on its own, this excessively hostile Pokémon also has large and very sharp fangs."
 	},
 
 	variants: [

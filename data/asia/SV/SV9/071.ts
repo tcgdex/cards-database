@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "コモルー",
+		'ja-jp': "コモルー",
 		'zh-tw': "甲殼龍",
 		'zh-cn': "甲殼龍"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "殻の 中では 爆発的な スピードで 細胞が 変化し 進化の 準備を しているぞ。",
+		'ja-jp': "殻の 中では 爆発的な スピードで 細胞が 変化し 進化の 準備を しているぞ。",
 		'zh-tw': "細胞在殼中 以爆發般的速度變化， 正在為進化做準備。",
 		'zh-cn': "細胞在殼中 以爆發般的速度變化， 正在為進化做準備。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ガードプレス",
+			'ja-jp': "ガードプレス",
 			'zh-tw': "防守壓制",
 			'zh-cn': "防守壓制"
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 		damage: 30,
 
 		effect: {
-			ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+			'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
 			'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-30」點。",
 			'zh-cn': "在下個對手的回合，這隻寶可夢受到招式的傷害「-30」點。"
 		}
@@ -45,7 +45,7 @@ const card: Card = {
 		cost: ["Fire", "Water", "Colorless"],
 
 		name: {
-			ja: "ヘビーインパクト",
+			'ja-jp': "ヘビーインパクト",
 			'zh-tw': "重磅衝擊",
 			'zh-cn': "重磅衝擊"
 		},

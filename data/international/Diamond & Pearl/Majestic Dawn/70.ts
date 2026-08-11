@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-attaque",
-				de: "Ruckzuckhieb"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-attaque",
+				'de-de': "Ruckzuckhieb"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Volt Tackle",
-				fr: "Électacle",
-				de: "Volttackle"
+				'en-us': "Volt Tackle",
+				'fr-fr': "Électacle",
+				'de-de': "Volttackle"
 			},
 			effect: {
-				en: "Pikachu does 10 damage to itself.",
-				fr: "Pikachu s'inflige 10 dégâts.",
-				de: "Pikachu fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Pikachu does 10 damage to itself.",
+				'fr-fr': "Pikachu s'inflige 10 dégâts.",
+				'de-de': "Pikachu fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 50,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If it looses crackling power from the electric pouches on its cheeks, it is being wary.",
+		'en-us': "If it looses crackling power from the electric pouches on its cheeks, it is being wary.",
 	},
 
 	thirdParty: {

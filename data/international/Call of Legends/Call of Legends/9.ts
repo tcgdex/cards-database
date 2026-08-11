@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Ho-Oh",
-		fr: "Ho-Oh",
-		de: "Ho-Oh"
+		'en-us': "Ho-Oh",
+		'fr-fr': "Ho-Oh",
+		'de-de': "Ho-Oh"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Combustion",
-				fr: "Fournaise",
-				de: "Glühen"
+				'en-us': "Combustion",
+				'fr-fr': "Fournaise",
+				'de-de': "Glühen"
 			},
 
 			damage: 50,
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scorching Wing",
-				fr: "Aile brûlante",
-				de: "Versengende Schwingen"
+				'en-us': "Scorching Wing",
+				'fr-fr': "Aile brûlante",
+				'de-de': "Versengende Schwingen"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard all Fire Energy attached to Ho-Oh.",
-				fr: "Lancez une pièce. Si c’est pile, défaussez toutes les Énergies Fire attachées à Ho-Oh.",
-				de: "Wirf eine Münze. Bei \"Zahl\" lege alle an Ho-Oh angelegten -Energien auf deinen Ablagestapel."
+				'en-us': "Flip a coin. If tails, discard all Fire Energy attached to Ho-Oh.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, défaussez toutes les Énergies Fire attachées à Ho-Oh.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" lege alle an Ho-Oh angelegten -Energien auf deinen Ablagestapel."
 			},
 			damage: 100,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Legends claim this Pokémon flies the world's skies continuously on its magnificent seven-colored wings.",
+		'en-us': "Legends claim this Pokémon flies the world's skies continuously on its magnificent seven-colored wings.",
 	},
 
 	variants: [

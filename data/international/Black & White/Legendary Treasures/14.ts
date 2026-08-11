@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Crustle",
+		'en-us': "Crustle",
 	},
 
 	illustrator: "Naoki Saito",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dwebble",
+		'en-us': "Dwebble",
 	},
 
 	stage: "Stage1",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hard Press",
+				'en-us': "Hard Press",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 30,
 
@@ -49,7 +49,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer In",
+				'en-us': "Hammer In",
 			},
 
 			damage: 70,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When its boulder is broken in battles for territory, it feels unsure and begins to weaken.",
+		'en-us': "When its boulder is broken in battles for territory, it feels unsure and begins to weaken.",
 	},
 
 	thirdParty: {

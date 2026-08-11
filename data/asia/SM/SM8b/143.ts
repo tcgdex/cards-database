@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウルトラスペース",
+		'ja-jp': "ウルトラスペース",
 	},
 
 	illustrator: "5ban Graphics",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのプレイヤーは、自分の番ごとに1回、自分の山札にある「ウルトラビースト」を1枚、相手に見せてから、手札に加えてよい。その場合、山札を切る。",
+		'ja-jp': "おたがいのプレイヤーは、自分の番ごとに1回、自分の山札にある「ウルトラビースト」を1枚、相手に見せてから、手札に加えてよい。その場合、山札を切る。",
 	},
 
 	variants: [

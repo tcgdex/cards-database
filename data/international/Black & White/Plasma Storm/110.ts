@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Patrat",
-		fr: "Ratentif",
-		es: "Patrat",
-		it: "Patrat",
-		pt: "Patrat",
-		de: "Nagelotz"
+		'en-us': "Patrat",
+		'fr-fr': "Ratentif",
+		'es-es': "Patrat",
+		'it-it': "Patrat",
+		'pt-br': "Patrat",
+		'de-de': "Nagelotz"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reckless Charge",
-				fr: "Attaque Imprudente",
+				'en-us': "Reckless Charge",
+				'fr-fr': "Attaque Imprudente",
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				'en-us': "This Pokémon does 10 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 10 dégâts.",
 			},
 			damage: 20,
 
@@ -56,7 +56,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Extremely cautious, one of them will always be on the lookout, but it won't notice a foe coming from behind.",
+		'en-us': "Extremely cautious, one of them will always be on the lookout, but it won't notice a foe coming from behind.",
 	},
 
 	thirdParty: {

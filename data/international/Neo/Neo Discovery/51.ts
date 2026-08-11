@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Unown [U]",
-		fr: "Zarbi U",
-		de: "Icognito U"
+		'en-us': "Unown [U]",
+		'fr-fr': "Zarbi U",
+		'de-de': "Icognito U"
 	},
 
 	illustrator: "CR CG gangs",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Undo",
-				fr: "[Undo]",
-				de: "Undo"
+				'en-us': "Undo",
+				'fr-fr': "[Undo]",
+				'de-de': "Undo"
 			},
 			effect: {
-				en: "Once during your turn (before you attack), if you have Unown U, Unown N, Unown D, and Unown O on your Bench, you may return your Active Pokémon and all cards attached to it to your hand.",
-				fr: "Une fois pendant votre tour (avant votre attaque), si vous avez Zarbi [U], Zarbi [N], Zarbi [D], et Zarbi [O] sur votre Banc, vous pouvez remettre votre Pokémon Actif et toutes les cartes attachées à lui dans votre main.",
-				de: "Du kannst einmel während deines Zuges (vor deinem Angriff) dein aktives Pokémon und alle daran angelegten Karten auf deine Hand zurücknehmen, wenn Icognito U, Icognito N, Icognito D und Icognito O auf deiner Bank sind."
+				'en-us': "Once during your turn (before you attack), if you have Unown U, Unown N, Unown D, and Unown O on your Bench, you may return your Active Pokémon and all cards attached to it to your hand.",
+				'fr-fr': "Une fois pendant votre tour (avant votre attaque), si vous avez Zarbi [U], Zarbi [N], Zarbi [D], et Zarbi [O] sur votre Banc, vous pouvez remettre votre Pokémon Actif et toutes les cartes attachées à lui dans votre main.",
+				'de-de': "Du kannst einmel während deines Zuges (vor deinem Angriff) dein aktives Pokémon und alle daran angelegten Karten auf deine Hand zurücknehmen, wenn Icognito U, Icognito N, Icognito D und Icognito O auf deiner Bank sind."
 			},
 		},
 	],
@@ -47,9 +47,9 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hidden Power",
-				fr: "Puissance cachée",
-				de: "Kraftreserve"
+				'en-us': "Hidden Power",
+				'fr-fr': "Puissance cachée",
+				'de-de': "Kraftreserve"
 			},
 
 			damage: 10,
@@ -67,8 +67,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
-		fr: "Ils ressemblent à des hiéroglyphes inscrits sur d'antiques tablettes. On prétend qu'ils sont de la même origine."
+		'en-us': "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
+		'fr-fr': "Ils ressemblent à des hiéroglyphes inscrits sur d'antiques tablettes. On prétend qu'ils sont de la même origine."
 	},
 
 

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Aron"
+		'id-id': "Aron"
 	},
 
 	illustrator: "Gapao",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Zirah baja yang melindungi tubuh Aron terbentuk berkat memakan bijih besi dan kadang rel kereta."
+		'id-id': "Zirah baja yang melindungi tubuh Aron terbentuk berkat memakan bijih besi dan kadang rel kereta."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Serudukan Nekat"
+			'id-id': "Serudukan Nekat"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 10."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10."
 		},
 
 		damage: 20,

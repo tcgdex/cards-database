@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Pikachu ex"
+		'id-id': "Pikachu ex"
 	},
 
 	illustrator: "aky CG Works",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Hati Pejuang"
+			'id-id': "Hati Pejuang"
 		},
 
 		effect: {
-			id: "Saat Pokémon ini KO karena menerima kerusakan akibat serangan ketika HP Pokémon ini masih penuh, Pokémon ini tidak KO dan tetap berada di Arena dengan kondisi sisa HP sejumlah 10."
+			'id-id': "Saat Pokémon ini KO karena menerima kerusakan akibat serangan ketika HP Pokémon ini masih penuh, Pokémon ini tidak KO dan tetap berada di Arena dengan kondisi sisa HP sejumlah 10."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Topaz Bolt"
+			'id-id': "Topaz Bolt"
 		},
 
 		effect: {
-			id: "Pilih 3 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
+			'id-id': "Pilih 3 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
 		},
 
 		damage: 300,

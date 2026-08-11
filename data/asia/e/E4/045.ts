@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スターミー",
+		'ja-jp': "スターミー",
 	},
 
 	rarity: "Holo Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "エネルギーバースト",
+				'ja-jp': "エネルギーバースト",
 			},
 			effect: {
-				ja: "コインをひっくり返します。ヘッドの場合、この攻撃は、スターミーと防御ポケモンに取り付けられたエネルギーの数を10回ダメージします。",
+				'ja-jp': "コインをひっくり返します。ヘッドの場合、この攻撃は、スターミーと防御ポケモンに取り付けられたエネルギーの数を10回ダメージします。",
 			},
 		},
 		{
 			cost: ["Psychic", "Colorless", "Colorless"],
 			name: {
-				ja: "スターバック",
+				'ja-jp': "スターバック",
 			},
 			effect: {
-				ja: "廃棄パイルからポケモン1に基本的なエネルギーカードを取り付けます。",
+				'ja-jp': "廃棄パイルからポケモン1に基本的なエネルギーカードを取り付けます。",
 			},
 			damage: 40,
 		},

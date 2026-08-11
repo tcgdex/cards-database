@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Mareep",
-		fr: "Wattouat",
-		de: "Voltilamm"
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat",
+		'de-de': "Voltilamm"
 	},
 
 	illustrator: "Hizuki Misono",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Charge",
-				fr: "Recharge",
-				de: "Laden"
+				'en-us': "Charge",
+				'fr-fr': "Recharge",
+				'de-de': "Laden"
 			},
 			effect: {
-				en: "Attach 1 Lightning Energy card from your discard pile to Mareep.",
-				fr: "Attachez une carte Énergie  de votre pile de défausse à Wattouat.",
-				de: "Lege eine -Energiekarte aus deinem Ablagestapel an Voltilamm an."
+				'en-us': "Attach 1 Lightning Energy card from your discard pile to Mareep.",
+				'fr-fr': "Attachez une carte Énergie  de votre pile de défausse à Wattouat.",
+				'de-de': "Lege eine -Energiekarte aus deinem Ablagestapel an Voltilamm an."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Slap",
-				fr: "Attaque caudale",
-				de: "Schweifschlag"
+				'en-us': "Tail Slap",
+				'fr-fr': "Attaque caudale",
+				'de-de': "Schweifschlag"
 			},
 
 			damage: 20,

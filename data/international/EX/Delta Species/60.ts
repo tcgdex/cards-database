@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Cubone",
-		fr: "Osselait",
-		de: "Tragosso"
+		'en-us': "Cubone",
+		'fr-fr': "Osselait",
+		'de-de': "Tragosso"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beat",
-				fr: "Bataille",
-				de: "Beat"
+				'en-us': "Beat",
+				'fr-fr': "Bataille",
+				'de-de': "Beat"
 			},
 
 			damage: 10,
@@ -41,15 +41,15 @@ const card: Card = {
 		},
 		{
 			name: {
-				en: "Rage",
-				fr: "Frénésie",
-				de: "Rage"
+				'en-us': "Rage",
+				'fr-fr': "Frénésie",
+				'de-de': "Rage"
 			},
 
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each damage counter on Cubone.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Osselait.",
-				de: "Does 10 damage plus 10 more damage for each damage counter on Cubone."
+				'en-us': "Does 10 damage plus 10 more damage for each damage counter on Cubone.",
+				'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Osselait.",
+				'de-de': "Does 10 damage plus 10 more damage for each damage counter on Cubone."
 			},
 
 			damage: "10+",

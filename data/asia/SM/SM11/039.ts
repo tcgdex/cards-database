@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒトツキ",
+		'ja-jp': "ヒトツキ",
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "死者の 魂が 古代の 剣に 宿って 生まれたらしい。 人に とりつき 命を 吸う。",
+		'ja-jp': "死者の 魂が 古代の 剣に 宿って 生まれたらしい。 人に とりつき 命を 吸う。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Colorless"],
 			effect: {
-				ja: "このワザのダメージは弱点・抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは弱点・抵抗力を計算しない。",
 			},
 		},
 	],

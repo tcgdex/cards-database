@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Gastly"
+		'en-us': "Gastly"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Lick"
+				'en-us': "Lick"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 
@@ -41,10 +41,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Energy Conversion"
+				'en-us': "Energy Conversion"
 			},
 			effect: {
-				en: "Put up to 2 Energy cards from your discard pile into your hand. Gastly does 10 damage to itself."
+				'en-us': "Put up to 2 Energy cards from your discard pile into your hand. Gastly does 10 damage to itself."
 			},
 
 		},
@@ -58,7 +58,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "A mysterious Pokémon. Some say it is a lifeform from another dimension, while others believe it is formed from smog."
+		'en-us': "A mysterious Pokémon. Some say it is a lifeform from another dimension, while others believe it is formed from smog."
 	},
 
 	variants: [

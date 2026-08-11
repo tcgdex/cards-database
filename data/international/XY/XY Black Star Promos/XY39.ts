@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Kingdra",
-		fr: "Hyporoi",
+		'en-us': "Kingdra",
+		'fr-fr': "Hyporoi",
 	},
 
 	illustrator: "hatachu",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Seadra",
-		fr: "Hypocéan",
+		'en-us': "Seadra",
+		'fr-fr': "Hypocéan",
 	},
 
 	stage: "Stage2",
@@ -33,10 +33,10 @@ const card: Card = {
 		{
 			type: "Ancient Trait",
 			name: {
-				fr: "Croissance α",
+				'fr-fr': "Croissance α",
 			},
 			effect: {
-				fr: "Lorsque vous attachez une carte Énergie de votre main à ce Pokémon (excepté à la suite d'une attaque, d'un talent ou d'une carte Dresseur), vous pouvez attacher 2 cartes Énergie au lieu d'une.",
+				'fr-fr': "Lorsque vous attachez une carte Énergie de votre main à ce Pokémon (excepté à la suite d'une attaque, d'un talent ou d'une carte Dresseur), vous pouvez attacher 2 cartes Énergie au lieu d'une.",
 			},
 		},
 	],
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gather Strength",
-				fr: "Pouvoir Collecté",
+				'en-us': "Gather Strength",
+				'fr-fr': "Pouvoir Collecté",
 			},
 			effect: {
-				en: "Search your deck for up to 4 basic Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez jusqu'à 4 cartes Énergie de base dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for up to 4 basic Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez jusqu'à 4 cartes Énergie de base dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -63,12 +63,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Dragon Blast",
-				fr: "Explo-Draco",
+				'en-us': "Dragon Blast",
+				'fr-fr': "Explo-Draco",
 			},
 			effect: {
-				en: "Discard a Water Energy and a Lightning Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie Water et une Énergie Lightning attachées à ce Pokémon.",
+				'en-us': "Discard a Water Energy and a Lightning Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie Water et une Énergie Lightning attachées à ce Pokémon.",
 			},
 			damage: 150,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It stores energy by sleeping at underwater depths at which no other life-forms can survive.",
+		'en-us': "It stores energy by sleeping at underwater depths at which no other life-forms can survive.",
 	},
 
 	thirdParty: {

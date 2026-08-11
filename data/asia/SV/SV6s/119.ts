@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Skarmory"
+		'id-id': "Skarmory"
 	},
 
 	illustrator: "toi8",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Bulu rontok Skarmory dapat dibuat menjadi pedang sehingga Pokémon ini populer sebagai desain lambang kebesaran."
+		'id-id': "Bulu rontok Skarmory dapat dibuat menjadi pedang sehingga Pokémon ini populer sebagai desain lambang kebesaran."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Cutter Wind"
+			'id-id': "Cutter Wind"
 		},
 
 		damage: 30,
 		cost: ["Metal"]
 	}, {
 		name: {
-			id: "Badai Besar"
+			'id-id': "Badai Besar"
 		},
 
 		effect: {
-			id: "Buang Stadium yang ada di Arena ke Trash."
+			'id-id': "Buang Stadium yang ada di Arena ke Trash."
 		},
 
 		damage: 90,

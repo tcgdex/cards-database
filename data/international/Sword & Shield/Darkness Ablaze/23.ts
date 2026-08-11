@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [256],
 
 	name: {
-		en: "Combusken",
-		fr: "Galifeu",
-		es: "Combusken",
-		it: "Combusken",
-		pt: "Combusken",
-		de: "Jungglut"
+		'en-us': "Combusken",
+		'fr-fr': "Galifeu",
+		'es-es': "Combusken",
+		'it-it': "Combusken",
+		'pt-br': "Combusken",
+		'de-de': "Jungglut"
 	},
 
 	illustrator: "kodama",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Torchic",
-		fr: "Poussifeu",
-		es: "Torchic",
-		it: "Torchic",
-		pt: "Torchic",
-		de: "Flemmli"
+		'en-us': "Torchic",
+		'fr-fr': "Poussifeu",
+		'es-es': "Torchic",
+		'it-it': "Torchic",
+		'pt-br': "Torchic",
+		'de-de': "Flemmli"
 	},
 
 	attacks: [
@@ -38,12 +38,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Smash Kick",
-				fr: "Coud'Pattes",
-				es: "Patada Destrucción",
-				it: "Calcio Esplosivo",
-				pt: "Chute Poderoso",
-				de: "Schmetterkick"
+				'en-us': "Smash Kick",
+				'fr-fr': "Coud'Pattes",
+				'es-es': "Patada Destrucción",
+				'it-it': "Calcio Esplosivo",
+				'pt-br': "Chute Poderoso",
+				'de-de': "Schmetterkick"
 			},
 
 			damage: 20,
@@ -56,20 +56,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Beak",
-				fr: "Bec Thermique",
-				es: "Pico Ígneo",
-				it: "Becco Infuocato",
-				pt: "Bico de Calor",
-				de: "Hitzeschnabel"
+				'en-us': "Heat Beak",
+				'fr-fr': "Bec Thermique",
+				'es-es': "Pico Ígneo",
+				'it-it': "Becco Infuocato",
+				'pt-br': "Bico de Calor",
+				'de-de': "Hitzeschnabel"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Burned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-				es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-				it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+				'en-us': "Your opponent's Active Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 			},
 			damage: 40,
 
@@ -90,7 +90,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "During a battle, the hot flame in its body increases. Its kicks have outstanding destructive power."
+		'en-us': "During a battle, the hot flame in its body increases. Its kicks have outstanding destructive power."
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S12"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "未知圖騰V",
-		ja: "アンノーンV"
+		'ja-jp': "アンノーンV"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -19,12 +19,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "奇異刻印",
-			ja: "あやしいこくいん"
+			'ja-jp': "あやしいこくいん"
 		},
 
 		effect: {
 			'zh-tw': "將對手的戰鬥寶可夢【混亂】。",
-			ja: "相手のバトルポケモンをこんらんにする。"
+			'ja-jp': "相手のバトルポケモンをこんらんにする。"
 		},
 
 		damage: 30,
@@ -32,12 +32,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "勝利象徵",
-			ja: "ビクトリーシンボル"
+			'ja-jp': "ビクトリーシンボル"
 		},
 
 		effect: {
 			'zh-tw': "使用這個招式時，若自己剩餘獎賞卡的張數為1張，則這場對戰己方獲勝。",
-			ja: "このワザを使ったとき、自分のサイドの残り枚数が1枚なら、この対戦は自分の勝ちになる。"
+			'ja-jp': "このワザを使ったとき、自分のサイドの残り枚数が1枚なら、この対戦は自分の勝ちになる。"
 		},
 
 		cost: ["Colorless", "Colorless", "Colorless"]

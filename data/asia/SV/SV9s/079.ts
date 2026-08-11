@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "มาตาโดกัซ",
-		id: "Weezing"
+		'th-th': "มาตาโดกัซ",
+		'id-id': "Weezing"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -15,34 +15,34 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		th: "เมื่อเจือจางแก๊สพิษที่บรรจุอยู่ในร่างกายของมันได้มากที่สุด จะได้ น้ำหอมชั้นเยี่ยม",
-		id: "Parfum berkualitas terbaik dapat dihasilkan jika gas beracun yang terkandung dalam tubuhnya dikurangi hingga mendekati batas kadarnya."
+		'th-th': "เมื่อเจือจางแก๊สพิษที่บรรจุอยู่ในร่างกายของมันได้มากที่สุด จะได้ น้ำหอมชั้นเยี่ยม",
+		'id-id': "Parfum berkualitas terbaik dapat dihasilkan jika gas beracun yang terkandung dalam tubuhnya dikurangi hingga mendekati batas kadarnya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "แก๊สฟุ้งตลบ",
-			id: "Dipenuhi Gas"
+			'th-th': "แก๊สฟุ้งตลบ",
+			'id-id': "Dipenuhi Gas"
 		},
 
 		effect: {
-			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[สับสน]",
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
+			'th-th': "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[สับสน]",
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
 		},
 
 		damage: 30,
 		cost: ["Darkness"]
 	}, {
 		name: {
-			th: "เครซีบอมบ์",
-			id: "Crazy Bomb"
+			'th-th': "เครซีบอมบ์",
+			'id-id': "Crazy Bomb"
 		},
 
 		effect: {
-			th: "ในเทิร์นก่อนของฝ่ายเรา ถ้าโปเกมอนนี้ใช้ [แก๊สฟุ้งตลบ] ไปแล้ว การโจมตีนี้ จะเพิ่มแดเมจอีก 120",
-			id: "Jika pada giliran sendiri sebelumnya, Pokémon ini telah menggunakan Dipenuhi Gas, kerusakan yang diberikan bertambah sejumlah 120."
+			'th-th': "ในเทิร์นก่อนของฝ่ายเรา ถ้าโปเกมอนนี้ใช้ [แก๊สฟุ้งตลบ] ไปแล้ว การโจมตีนี้ จะเพิ่มแดเมจอีก 120",
+			'id-id': "Jika pada giliran sendiri sebelumnya, Pokémon ini telah menggunakan Dipenuhi Gas, kerusakan yang diberikan bertambah sejumlah 120."
 		},
 
 		damage: "50+",

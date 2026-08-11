@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Manectric",
-		fr: "Élecsprint",
-		es: "Manectric",
-		it: "Manectric",
-		pt: "Manectric",
-		de: "Voltenso"
+		'en-us': "Manectric",
+		'fr-fr': "Élecsprint",
+		'es-es': "Manectric",
+		'it-it': "Manectric",
+		'pt-br': "Manectric",
+		'de-de': "Voltenso"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Electrike",
-		fr: "Dynavolt",
-		es: "Electrike",
-		it: "Electrike",
-		pt: "Electrike",
-		de: "Frizelbliz"
+		'en-us': "Electrike",
+		'fr-fr': "Dynavolt",
+		'es-es': "Electrike",
+		'it-it': "Electrike",
+		'pt-br': "Electrike",
+		'de-de': "Frizelbliz"
 	},
 
 	stage: "Stage1",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lightning Turn",
-				fr: "Tour Éclair",
-				es: "Giro Relámpago",
-				it: "Girata Fulminante",
-				pt: "Giro de Raios",
-				de: "Blitzartige Drehung"
+				'en-us': "Lightning Turn",
+				'fr-fr': "Tour Éclair",
+				'es-es': "Giro Relámpago",
+				'it-it': "Girata Fulminante",
+				'pt-br': "Giro de Raios",
+				'de-de': "Blitzartige Drehung"
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
-				es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-				it: "Scambia questo Pokémon con uno della tua panchina.",
-				pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
+				'es-es': "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+				'it-it': "Scambia questo Pokémon con uno della tua panchina.",
+				'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+				'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 30,
 
@@ -69,20 +69,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electric Shock",
-				fr: "Choc Électrique",
-				es: "Sacudida Eléctrica",
-				it: "Elettroshock",
-				pt: "Choque Elétrico",
-				de: "Elektroschock"
+				'en-us': "Electric Shock",
+				'fr-fr': "Choc Électrique",
+				'es-es': "Sacudida Eléctrica",
+				'it-it': "Elettroshock",
+				'pt-br': "Choque Elétrico",
+				'de-de': "Elektroschock"
 			},
 			effect: {
-				en: "Discard all Lightning Energy attached to this Pokémon. Your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Défaussez toutes les Énergies Lightning attachées à ce Pokémon. Le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Descarta todas las Energías Lightning unidas a este Pokémon. El Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Scarta tutte le Energie Lightning assegnate a questo Pokémon. Il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Descarte toda a Energia Lightning ligada a este Pokémon. O Pokémon Ativo do seu oponente agora está Paralisado.",
-				de: "Lege alle an dieses Pokémon angelegten Lightning-Energien auf deinen Ablagestapel. Das Aktive Pokémon deines Gegners ist jetzt paralysiert."
+				'en-us': "Discard all Lightning Energy attached to this Pokémon. Your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Défaussez toutes les Énergies Lightning attachées à ce Pokémon. Le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Descarta todas las Energías Lightning unidas a este Pokémon. El Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Scarta tutte le Energie Lightning assegnate a questo Pokémon. Il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Descarte toda a Energia Lightning ligada a este Pokémon. O Pokémon Ativo do seu oponente agora está Paralisado.",
+				'de-de': "Lege alle an dieses Pokémon angelegten Lightning-Energien auf deinen Ablagestapel. Das Aktive Pokémon deines Gegners ist jetzt paralysiert."
 			},
 			damage: 70,
 
@@ -106,7 +106,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+		'en-us': "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
 	},
 
 	thirdParty: {

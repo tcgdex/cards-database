@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クイタラン",
+		'ja-jp': "クイタラン",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "高温で 燃える 炎の 舌で アイアントの 鋼の 体を 溶かして 中身を いただくのだ。",
+		'ja-jp': "高温で 燃える 炎の 舌で アイアントの 鋼の 体を 溶かして 中身を いただくのだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "かぎわける" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数ぶん、自分のトラッシュにある好きなカードを、相手に見せてから、手札に加える。",
+				'ja-jp': "コインを2回投げ、オモテの数ぶん、自分のトラッシュにある好きなカードを、相手に見せてから、手札に加える。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 	],

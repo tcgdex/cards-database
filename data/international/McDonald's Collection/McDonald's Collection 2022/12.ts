@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2022'
 
 const card: Card = {
 	name: {
-		en: "Bewear",
-		fr: "Chelours",
-		es: "Bewear",
-		it: "Bewear",
-		pt: "Bewear",
-		de: "Kosturso"
+		'en-us': "Bewear",
+		'fr-fr': "Chelours",
+		'es-es': "Bewear",
+		'it-it': "Bewear",
+		'pt-br': "Bewear",
+		'de-de': "Kosturso"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -25,29 +25,29 @@ const card: Card = {
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Stufful",
-		fr: "Nounourson",
-		es: "Stufful",
-		it: "Stufful",
-		pt: "Stufful",
-		de: "Velursi"
+		'en-us': "Stufful",
+		'fr-fr': "Nounourson",
+		'es-es': "Stufful",
+		'it-it': "Stufful",
+		'pt-br': "Stufful",
+		'de-de': "Velursi"
 	},
 
 	attacks: [
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				en: "Split Spiral Punch",
+				'en-us': "Split Spiral Punch",
 			},
 			damage: 40,
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
+				'en-us': "Your opponent's Active Pokémon is now Confused.",
 			},
 		},
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
-				en: "Strength",
+				'en-us': "Strength",
 			},
 			damage: 130,
 		},

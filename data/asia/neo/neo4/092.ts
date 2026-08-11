@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チャンジー",
+		'ja-jp': "チャンジー",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "doubleslap",
+				'ja-jp': "doubleslap",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "卵のトス",
+				'ja-jp': "卵のトス",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。どちらかが尾の場合、この攻撃は何もしません。",
+				'ja-jp': "2つのコインをフリップします。どちらかが尾の場合、この攻撃は何もしません。",
 			},
 			damage: 80,
 		},

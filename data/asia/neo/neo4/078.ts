@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダークドンファン",
+		'ja-jp': "ダークドンファン",
 	},
 
 	rarity: "Holo Rare",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Fighting"],
 			name: {
-				ja: "Tusk Toss",
+				'ja-jp': "Tusk Toss",
 			},
 			effect: {
-				ja: "相手がベンチ付きポケモンを持っている場合は、コインをひっくり返します。頭の場合は、防御するポケモンとそれに取り付けられたすべてのカードを相手の手に返します。尾の場合、対戦相手はベンチ付きポケモンの1つを選択し、防御ポケモンで切り替えます。",
+				'ja-jp': "相手がベンチ付きポケモンを持っている場合は、コインをひっくり返します。頭の場合は、防御するポケモンとそれに取り付けられたすべてのカードを相手の手に返します。尾の場合、対戦相手はベンチ付きポケモンの1つを選択し、防御ポケモンで切り替えます。",
 			},
 		},
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
-				ja: "巨大な牙",
+				'ja-jp': "巨大な牙",
 			},
 			damage: 50,
 		},

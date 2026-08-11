@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Finizen",
-		fr: "Dofin",
-		es: "Finizen",
-		it: "Finizen",
-		pt: "Finizen",
-		de: "Normifin"
+		'en-us': "Finizen",
+		'fr-fr': "Dofin",
+		'es-es': "Finizen",
+		'it-it': "Finizen",
+		'pt-br': "Finizen",
+		'de-de': "Normifin"
 	},
 
 	rarity: "Shiny rare",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Valiant Evolution",
-			fr: "Évolution Vaillante",
-			es: "Evolución Valiente",
-			it: "Evoluzione Coraggiosa",
-			pt: "Evolução Destemida",
-			de: "Heldenhafte Entwicklung"
+			'en-us': "Valiant Evolution",
+			'fr-fr': "Évolution Vaillante",
+			'es-es': "Evolución Valiente",
+			'it-it': "Evoluzione Coraggiosa",
+			'pt-br': "Evolução Destemida",
+			'de-de': "Heldenhafte Entwicklung"
 		},
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon. If you do, search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck.",
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc. Dans ce cas, cherchez dans votre deck une carte Évolution de ce Pokémon, puis placez-la sur ce Pokémon pour le faire évoluer. Mélangez ensuite votre deck.",
-			es: "Cambia este Pokémon por uno de tus Pokémon en Banca. Si lo haces, busca en tu baraja 1 carta que evolucione de este Pokémon y ponla sobre este Pokémon para hacerlo evolucionar. Después, baraja las cartas de tu baraja.",
-			it: "Scambia questo Pokémon con uno della tua panchina. Se lo fai, cerca nel tuo mazzo una carta che si evolve da questo Pokémon e metticela sopra per farlo evolvere. Poi rimischia le carte del tuo mazzo.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco. Se fizer isto, procure por uma carta no seu baralho que evolua deste Pokémon e coloque-a sobre este Pokémon para evoluí-lo. Em seguida, embaralhe o seu baralho.",
-			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus. Wenn du das machst, durchsuche dein Deck nach 1 Karte, die sich aus diesem Pokémon entwickelt, und lege sie auf dieses Pokémon, um es zu entwickeln. Mische anschließend dein Deck."
+			'en-us': "Switch this Pokémon with 1 of your Benched Pokémon. If you do, search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck.",
+			'fr-fr': "Échangez ce Pokémon contre l'un de vos Pokémon de Banc. Dans ce cas, cherchez dans votre deck une carte Évolution de ce Pokémon, puis placez-la sur ce Pokémon pour le faire évoluer. Mélangez ensuite votre deck.",
+			'es-es': "Cambia este Pokémon por uno de tus Pokémon en Banca. Si lo haces, busca en tu baraja 1 carta que evolucione de este Pokémon y ponla sobre este Pokémon para hacerlo evolucionar. Después, baraja las cartas de tu baraja.",
+			'it-it': "Scambia questo Pokémon con uno della tua panchina. Se lo fai, cerca nel tuo mazzo una carta che si evolve da questo Pokémon e metticela sopra per farlo evolvere. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco. Se fizer isto, procure por uma carta no seu baralho que evolua deste Pokémon e coloque-a sobre este Pokémon para evoluí-lo. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus. Wenn du das machst, durchsuche dein Deck nach 1 Karte, die sich aus diesem Pokémon entwickelt, und lege sie auf dieses Pokémon, um es zu entwickeln. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Water"],
 
 		name: {
-			en: "Razor Fin",
-			fr: "Aileron-Rasoir",
-			es: "Aleta Afilada",
-			it: "Pinnalama",
-			pt: "Barbatana Cortante",
-			de: "Rasierflosse"
+			'en-us': "Razor Fin",
+			'fr-fr': "Aileron-Rasoir",
+			'es-es': "Aleta Afilada",
+			'it-it': "Pinnalama",
+			'pt-br': "Barbatana Cortante",
+			'de-de': "Rasierflosse"
 		},
 
 		damage: 10
@@ -78,7 +78,7 @@ const card: Card = {
 	illustrator: "kurumitsu",
 
 	description: {
-		en: "It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures.",
+		'en-us': "It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures.",
 	},
 
 }

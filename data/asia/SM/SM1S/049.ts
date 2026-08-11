@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤングース",
+		'ja-jp': "ヤングース",
 	},
 
 	illustrator: "match",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "鋭いキバで なんにでも かみつく。 元々 アローラには 棲んでおらず 他の地方から 連れてこられた。",
+		'ja-jp': "鋭いキバで なんにでも かみつく。 元々 アローラには 棲んでおらず 他の地方から 連れてこられた。",
 	},
 
 	stage: "Basic",

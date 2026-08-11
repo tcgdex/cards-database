@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [107],
 
 	name: {
-		en: "Hitmonchan"
+		'en-us': "Hitmonchan"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "Its punches slice the air. They are launched at\nsuch high speed, even a slight graze could cause\na burn."
+		'en-us': "Its punches slice the air. They are launched at\nsuch high speed, even a slight graze could cause\na burn."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Jab"
+			'en-us': "Jab"
 		},
 
 		damage: 30,

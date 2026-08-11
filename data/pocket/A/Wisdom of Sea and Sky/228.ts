@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Nidoking",
-		fr: "Nidoking"
+		'en-us': "Nidoking",
+		'fr-fr': "Nidoking"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -18,28 +18,28 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Nidorino"
+		'en-us': "Nidorino"
 	},
 
 	description: {
-		en: "When it goes on a rampage, it's impossible to\ncontrol. But in the presence of a Nidoqueen it's\nlived with for a long time, Nidoking calms down.",
-		fr: "Lorsqu'il s'énerve, il devient incontrôlable, mais il retrouve son calme face à Nidoqueen, sa compagne de longue date."
+		'en-us': "When it goes on a rampage, it's impossible to\ncontrol. But in the presence of a Nidoqueen it's\nlived with for a long time, Nidoking calms down.",
+		'fr-fr': "Lorsqu'il s'énerve, il devient incontrôlable, mais il retrouve son calme face à Nidoqueen, sa compagne de longue date."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Poison Horn",
-			fr: "Corne Empoisonnée"
+			'en-us': "Poison Horn",
+			'fr-fr': "Corne Empoisonnée"
 		},
 
 		damage: 90,
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
 		}
 	}],
 

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Xatu",
-		de: "Xatu"
+		'en-us': "Xatu",
+		'de-de': "Xatu"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Natu",
+		'en-us': "Natu",
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Synchronicity",
-				de: "Synchronizität"
+				'en-us': "Synchronicity",
+				'de-de': "Synchronizität"
 			},
 			effect: {
-				en: "You may attach any Technical Machine to Xatu.",
-				de: "Du kannst beliebige technische Maschinen an Xatu anlegen."
+				'en-us': "You may attach any Technical Machine to Xatu.",
+				'de-de': "Du kannst beliebige technische Maschinen an Xatu anlegen."
 			},
 		},
 	],
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Warp Hole",
-				de: "Verkrümmungsloch"
+				'en-us': "Warp Hole",
+				'de-de': "Verkrümmungsloch"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose a card from your discard pile and put it on top of your deck.",
-				de: "Wirf eine Münze. Wähle bei \"Kopf\" eine Karte aus deinem Ablagestapel und lege sie oben auf dein Deck."
+				'en-us': "Flip a coin. If heads, choose a card from your discard pile and put it on top of your deck.",
+				'de-de': "Wirf eine Münze. Wähle bei \"Kopf\" eine Karte aus deinem Ablagestapel und lege sie oben auf dein Deck."
 			},
 			damage: 30,
 

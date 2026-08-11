@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../My First Battle"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magikarp",
+		'en-us': "Magikarp",
 	},
 
 	rarity: "None",
@@ -14,7 +14,7 @@ const card: Card = {
 	hp: 30,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Magikarp",
+		'en-us': "Magikarp",
 	},
 	stage: "Basic",
 
@@ -22,7 +22,7 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Splash",
+			'en-us': "Splash",
 		},
 
 		damage: 10

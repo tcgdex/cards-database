@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Starmie",
-		fr: "Staross",
-		es: "Starmie",
-		it: "Starmie",
-		pt: "Starmie",
-		de: "Starmie"
+		'en-us': "Starmie",
+		'fr-fr': "Staross",
+		'es-es': "Starmie",
+		'it-it': "Starmie",
+		'pt-br': "Starmie",
+		'de-de': "Starmie"
 	},
 
 	illustrator: "Yuka Morii",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Staryu",
-		fr: "Stari",
+		'en-us': "Staryu",
+		'fr-fr': "Stari",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Escape",
-				fr: "Évasion",
-				es: "Escapada",
-				it: "Fuga",
-				pt: "Escapar",
-				de: "Entkommen"
+				'en-us': "Escape",
+				'fr-fr': "Évasion",
+				'es-es': "Escapada",
+				'it-it': "Fuga",
+				'pt-br': "Escapar",
+				'de-de': "Entkommen"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may shuffle this Pokémon and all cards attached to it into your deck.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez mélanger ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck.",
-				es: "Una vez durante tu turno (antes de tu ataque), puedes poner este Pokémon y todas las cartas unidas a él en tu baraja y barajarlas todas.",
-				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi rimischiare questo Pokémon e tutte le carte a esso assegnate nel tuo mazzo.",
-				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode embaralhar este Pokémon e todas as cartas ligadas a ele no seu baralho.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du dieses Pokémon und alle an es angelegten Karten in dein Deck mischen."
+				'en-us': "Once during your turn (before your attack), you may shuffle this Pokémon and all cards attached to it into your deck.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez mélanger ce Pokémon et toutes les cartes qui lui sont attachées avec votre deck.",
+				'es-es': "Una vez durante tu turno (antes de tu ataque), puedes poner este Pokémon y todas las cartas unidas a él en tu baraja y barajarlas todas.",
+				'it-it': "Una sola volta durante il tuo turno, prima di attaccare, puoi rimischiare questo Pokémon e tutte le carte a esso assegnate nel tuo mazzo.",
+				'pt-br': "Uma vez durante a sua vez de jogar (antes de atacar), você pode embaralhar este Pokémon e todas as cartas ligadas a ele no seu baralho.",
+				'de-de': "Einmal während deines Zuges (bevor du angreifst) kannst du dieses Pokémon und alle an es angelegten Karten in dein Deck mischen."
 			},
 		},
 	],
@@ -61,12 +61,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spinning Attack",
-				fr: "Attaque Tournante",
-				es: "Ataque Giratorio",
-				it: "Attacco Rotante",
-				pt: "Ataque Giratório",
-				de: "Rundumangriff"
+				'en-us': "Spinning Attack",
+				'fr-fr': "Attaque Tournante",
+				'es-es': "Ataque Giratorio",
+				'it-it': "Attacco Rotante",
+				'pt-br': "Ataque Giratório",
+				'de-de': "Rundumangriff"
 			},
 
 			damage: 40,
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its shining core is thought to receive and transmit enigmatic signals. It has been known to cause headaches in those who approach it.",
+		'en-us': "Its shining core is thought to receive and transmit enigmatic signals. It has been known to cause headaches in those who approach it.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit 2 (Minun).ts'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Growlithe",
-		fr: "Caninos"
+		'en-us': "Growlithe",
+		'fr-fr': "Caninos"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -26,8 +26,8 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Bite",
-			fr: "Morsure"
+			'en-us': "Bite",
+			'fr-fr': "Morsure"
 		},
 		damage: 10
 	}, {
@@ -37,8 +37,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Flame Tail",
-			fr: "Queue de flammes"
+			'en-us': "Flame Tail",
+			'fr-fr': "Queue de flammes"
 		},
 		damage: 40
 	}],

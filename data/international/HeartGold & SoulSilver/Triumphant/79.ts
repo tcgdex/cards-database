@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Swinub",
-		fr: "Marcacrin",
-		de: "Quiekel"
+		'en-us': "Swinub",
+		'fr-fr': "Marcacrin",
+		'de-de': "Quiekel"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d’boule",
-				de: "Kopfnuss"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d’boule",
+				'de-de': "Kopfnuss"
 			},
 
 			damage: 10,
@@ -43,9 +43,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Ball",
-				fr: "Ball’glace",
-				de: "Eisball"
+				'en-us': "Ice Ball",
+				'fr-fr': "Ball’glace",
+				'de-de': "Eisball"
 			},
 
 			damage: 20,
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs."
+		'en-us': "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs."
 	},
 
 	variants: [

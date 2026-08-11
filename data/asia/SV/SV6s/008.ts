@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Heracross"
+		'id-id': "Heracross"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Pokémon yang memiliki tenaga super. Heracross dapat membanting benda yang lebih berat 100 kali lipat dari berat badannya dengan mudah."
+		'id-id': "Pokémon yang memiliki tenaga super. Heracross dapat membanting benda yang lebih berat 100 kali lipat dari berat badannya dengan mudah."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menindih"
+			'id-id': "Menindih"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
 		},
 
 		damage: 60,
 		cost: ["Grass", "Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Bantingan Keras"
+			'id-id': "Bantingan Keras"
 		},
 
 		damage: 130,

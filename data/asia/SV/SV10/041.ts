@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団のリーシャン",
+		'ja-jp': "ロケット団のリーシャン",
 		'zh-tw': "<火箭隊的>鈴鐺響",
 		'zh-cn': "<火箭隊的>鈴鐺響",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "飛び跳ねると 口の中にある 玉が あちこちに 反射して 鈴のような 音色と なる。",
+		'ja-jp': "飛び跳ねると 口の中にある 玉が あちこちに 反射して 鈴のような 音色と なる。",
 		'zh-tw': "如果跳起來， 嘴裡的珠子就會到處反彈， 發出鈴鐺一般的音色。",
 		'zh-cn': "如果跳起來， 嘴裡的珠子就會到處反彈， 發出鈴鐺一般的音色。",
 	},
@@ -27,7 +27,7 @@ const card: Card = {
 			name: { ja: "リンリンさわぐ" },
 			cost: [],
 			effect: {
-				ja: "相手の手札からオモテを見ないで1枚選び、トラッシュする。",
+				'ja-jp': "相手の手札からオモテを見ないで1枚選び、トラッシュする。",
 			},
 		},
 	],

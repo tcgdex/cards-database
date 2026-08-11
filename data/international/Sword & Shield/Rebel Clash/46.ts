@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [537],
 
 	name: {
-		en: "Seismitoad",
-		fr: "Crapustule",
-		es: "Seismitoad",
-		it: "Seismitoad",
-		pt: "Seismitoad",
-		de: "Branawarz"
+		'en-us': "Seismitoad",
+		'fr-fr': "Crapustule",
+		'es-es': "Seismitoad",
+		'it-it': "Seismitoad",
+		'pt-br': "Seismitoad",
+		'de-de': "Branawarz"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -19,12 +19,12 @@ const card: Card = {
 	set: Set,
 
 	evolveFrom: {
-		en: "Palpitoad",
-		fr: "Batracné",
-		es: "Palpitoad",
-		it: "Palpitoad",
-		pt: "Palpitoad",
-		de: "Mebrana"
+		'en-us': "Palpitoad",
+		'fr-fr': "Batracné",
+		'es-es': "Palpitoad",
+		'it-it': "Palpitoad",
+		'pt-br': "Palpitoad",
+		'de-de': "Mebrana"
 	},
 
 	attacks: [
@@ -33,20 +33,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Split Spiral Punch",
-				fr: "Coup d'Poing en Demi Spirale",
-				es: "Puño en Espiral Cortante",
-				it: "Spiralpugno Squarciante",
-				pt: "Soco Espiral Dividido",
-				de: "Spiralhieb"
+				'en-us': "Split Spiral Punch",
+				'fr-fr': "Coup d'Poing en Demi Spirale",
+				'es-es': "Puño en Espiral Cortante",
+				'it-it': "Spiralpugno Squarciante",
+				'pt-br': "Soco Espiral Dividido",
+				'de-de': "Spiralhieb"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent's Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -59,20 +59,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Resonance",
-				fr: "Résonance",
-				es: "Resonancia",
-				it: "Risonanza",
-				pt: "Ressonância",
-				de: "Resonanz"
+				'en-us': "Resonance",
+				'fr-fr': "Résonance",
+				'es-es': "Resonancia",
+				'it-it': "Risonanza",
+				'pt-br': "Ressonância",
+				'de-de': "Resonanz"
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is Confused, this attack does 120 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire est Confus, cette attaque inflige 120 dégâts supplémentaires.",
-				es: "Si el Pokémon Activo de tu rival está Confundido, este ataque hace 120 puntos de daño más.",
-				it: "Se il Pokémon attivo del tuo avversario è confuso, questo attacco infligge 120 danni in più.",
-				pt: "Se o Pokémon Ativo do seu oponente estiver Confuso, este ataque causará 120 pontos de dano a mais.",
-				de: "Wenn das Aktive Pokémon deines Gegners verwirrt ist, fügt diese Attacke 120 Schadenspunkte mehr zu."
+				'en-us': "If your opponent's Active Pokémon is Confused, this attack does 120 more damage.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est Confus, cette attaque inflige 120 dégâts supplémentaires.",
+				'es-es': "Si el Pokémon Activo de tu rival está Confundido, este ataque hace 120 puntos de daño más.",
+				'it-it': "Se il Pokémon attivo del tuo avversario è confuso, questo attacco infligge 120 danni in più.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente estiver Confuso, este ataque causará 120 pontos de dano a mais.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners verwirrt ist, fügt diese Attacke 120 Schadenspunkte mehr zu."
 			},
 			damage: "120+",
 
@@ -95,7 +95,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "The vibrating of the bumps all over its body causes earthquake-like tremors. Seismitoad and Croagunk are similar species."
+		'en-us': "The vibrating of the bumps all over its body causes earthquake-like tremors. Seismitoad and Croagunk are similar species."
 	},
 
 	variants: [

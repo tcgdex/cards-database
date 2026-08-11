@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Arcanine G",
-		fr: "Arcanin ",
-		de: "Arkani G"
+		'en-us': "Arcanine G",
+		'fr-fr': "Arcanin ",
+		'de-de': "Arkani G"
 	},
 	illustrator: "Yusuke Ishikawa",
 	rarity: "Rare",
@@ -24,14 +24,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Extreme Speed",
-				fr: "Vitesse extrême",
-				de: "Turbotempo"
+				'en-us': "Extreme Speed",
+				'fr-fr': "Vitesse extrême",
+				'de-de': "Turbotempo"
 			},
 			effect: {
-				en: "Arcanine G's Retreat Cost is Colorless less for each Fire Energy attached to Arcanine G.",
-				fr: "Le Coût de retraite d'Arcanin  est Colorless de moins pour chaque Énergie Fire attachée à Arcanin .",
-				de: "Die Rückzugskosten von Arkani G verringern sich für jede -Energie, die an Arkani G angelegt ist, um ."
+				'en-us': "Arcanine G's Retreat Cost is Colorless less for each Fire Energy attached to Arcanine G.",
+				'fr-fr': "Le Coût de retraite d'Arcanin  est Colorless de moins pour chaque Énergie Fire attachée à Arcanin .",
+				'de-de': "Die Rückzugskosten von Arkani G verringern sich für jede -Energie, die an Arkani G angelegt ist, um ."
 			}
 		},
 	],
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Overrun",
-				fr: "Dépassement",
-				de: "Überrennen"
+				'en-us': "Overrun",
+				'fr-fr': "Dépassement",
+				'de-de': "Überrennen"
 			},
 			effect: {
-				en: "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 40,
 

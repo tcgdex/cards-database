@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "M Charizard EX",
-		fr: "M-Dracaufeu EX",
-		es: "M-Charizard EX",
-		it: "M Charizard EX",
-		pt: "M-Charizard EX",
-		de: "M-Glurak EX"
+		'en-us': "M Charizard EX",
+		'fr-fr': "M-Dracaufeu EX",
+		'es-es': "M-Charizard EX",
+		'it-it': "M Charizard EX",
+		'pt-br': "M-Charizard EX",
+		'de-de': "M-Glurak EX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charizard-EX",
-		fr: "Dracaufeu-EX",
-		es: "Charizard-EX",
-		it: "Charizard-EX",
-		pt: "Charizard-EX",
-		de: "Glurak-EX"
+		'en-us': "Charizard-EX",
+		'fr-fr': "Dracaufeu-EX",
+		'es-es': "Charizard-EX",
+		'it-it': "Charizard-EX",
+		'pt-br': "Charizard-EX",
+		'de-de': "Glurak-EX"
 	},
 
 	stage: "MEGA",
@@ -47,20 +47,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crimson Dive",
-				fr: "Plongeon Écarlate",
-				es: "Picado Carmesí",
-				it: "Tufforosso",
-				pt: "Mergulho Carmim",
-				de: "Feuerroter Sturzflug"
+				'en-us': "Crimson Dive",
+				'fr-fr': "Plongeon Écarlate",
+				'es-es': "Picado Carmesí",
+				'it-it': "Tufforosso",
+				'pt-br': "Mergulho Carmim",
+				'de-de': "Feuerroter Sturzflug"
 			},
 			effect: {
-				en: "This Pokémon does 50 damage to itself.",
-				fr: "Ce Pokémon s'inflige 50 dégâts.",
-				es: "Este Pokémon se hace 50 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 50 danni a se stesso.",
-				pt: "Este Pokémon causa 50 de danos a ele mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 50 Schadenspunkte zu."
+				'en-us': "This Pokémon does 50 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 50 dégâts.",
+				'es-es': "Este Pokémon se hace 50 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 50 danni a se stesso.",
+				'pt-br': "Este Pokémon causa 50 de danos a ele mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 50 Schadenspunkte zu."
 			},
 			damage: 300,
 

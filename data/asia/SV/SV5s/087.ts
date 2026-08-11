@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Haunter"
+		'id-id': "Haunter"
 	},
 
 	illustrator: "MAHOU",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Haunter suka bersembunyi di dalam gelap, lalu menepuk pundak manusia dengan tangan gasnya. Sentuhannya membuat tubuh tidak berhenti gemetar."
+		'id-id': "Haunter suka bersembunyi di dalam gelap, lalu menepuk pundak manusia dengan tangan gasnya. Sentuhannya membuat tubuh tidak berhenti gemetar."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Napas Beracun"
+			'id-id': "Napas Beracun"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Racun."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Racun."
 		},
 
 		damage: 30,

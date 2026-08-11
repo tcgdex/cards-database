@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Vanilluxe",
-		fr: "Sorbouboul",
-		es: "Vanilluxe",
-		it: "Vanilluxe",
-		pt: "Vanilluxe",
-		de: "Gelatwino"
+		'en-us': "Vanilluxe",
+		'fr-fr': "Sorbouboul",
+		'es-es': "Vanilluxe",
+		'it-it': "Vanilluxe",
+		'pt-br': "Vanilluxe",
+		'de-de': "Gelatwino"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vanillish",
-		fr: "Sorboul",
+		'en-us': "Vanillish",
+		'fr-fr': "Sorboul",
 	},
 
 	stage: "Stage2",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Freeze",
-				fr: "Double Gelure",
+				'en-us': "Double Freeze",
+				'fr-fr': "Double Gelure",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 40 damage times the number of heads. If either of them is heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face. Si vous obtenez au moins un côté face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip 2 coins. This attack does 40 damage times the number of heads. If either of them is heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face. Si vous obtenez au moins un côté face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 40,
 
@@ -56,8 +56,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Frost Breath",
-				fr: "Souffle Glacé",
+				'en-us': "Frost Breath",
+				'fr-fr': "Souffle Glacé",
 			},
 
 			damage: 60,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "If both heads get angry simultaneously, this Pokémon expels a blizzard, burying everything in snow.",
+		'en-us': "If both heads get angry simultaneously, this Pokémon expels a blizzard, burying everything in snow.",
 	},
 
 	thirdParty: {

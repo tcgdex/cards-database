@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユキカブリ",
+		'ja-jp': "ユキカブリ",
 		'zh-tw': "雪笠怪",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "雪中にて 遭遇する 可能性 高し。 人里に 現れるも 害は なさず 童の 良き友となると 伝わる。",
+		'ja-jp': "雪中にて 遭遇する 可能性 高し。 人里に 現れるも 害は なさず 童の 良き友となると 伝わる。",
 	},
 
 	stage: "Basic",
@@ -22,7 +22,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "どつく",
+				'ja-jp': "どつく",
 				'zh-tw': "推擊",
 			},
 			damage: 10,
@@ -30,7 +30,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "つららミサイル",
+				'ja-jp': "つららミサイル",
 				'zh-tw': "冰柱飛彈",
 			},
 			damage: 60,

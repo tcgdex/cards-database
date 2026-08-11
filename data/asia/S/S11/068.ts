@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メグロコ",
+		'ja-jp': "メグロコ",
 		'zh-tw': "黑眼鱷",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "砂漠の 夜は 冷えるので 砂の 奥深くに 潜り 陽が 出るまで 眠って 過ごす。",
+		'ja-jp': "砂漠の 夜は 冷えるので 砂の 奥深くに 潜り 陽が 出るまで 眠って 過ごす。",
 		'zh-tw': "沙漠的夜晚比較寒冷，因此牠會潛到沙子深處， 一直睡到太陽出來。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かみつく",
+				'ja-jp': "かみつく",
 				'zh-tw': "咬住",
 			},
 			damage: 30,

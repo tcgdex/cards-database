@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "บัฟฟรอน",
-		id: "Bouffalant"
+		'th-th': "บัฟฟรอน",
+		'id-id': "Bouffalant"
 	},
 
 	illustrator: "Yuya Oka",
@@ -15,8 +15,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "อยู่กันเป็นฝูงประมาณ 20 ตัว ขนบนหัวของบัฟฟรอนที่หักหลังฝูงจะร่วงโดยไม่รู้สาเหตุ",
-		id: "Pokémon ini hidup berkelompok dengan jumlah sekitar 20 ekor. Bouffalant yang mengkhianati kelompoknya entah kenapa rambut kepalanya rontok."
+		'th-th': "อยู่กันเป็นฝูงประมาณ 20 ตัว ขนบนหัวของบัฟฟรอนที่หักหลังฝูงจะร่วงโดยไม่รู้สาเหตุ",
+		'id-id': "Pokémon ini hidup berkelompok dengan jumlah sekitar 20 ekor. Bouffalant yang mengkhianati kelompoknya entah kenapa rambut kepalanya rontok."
 	},
 
 	stage: "Basic",
@@ -25,25 +25,25 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			th: "แอโฟรการ์ด",
-			id: "Afro Guard"
+			'th-th': "แอโฟรการ์ด",
+			'id-id': "Afro Guard"
 		},
 
 		effect: {
-			th: "แดเมจของท่าต่อสู้ที่โปเกมอนนี้จะได้รับจะถูก [-20]",
-			id: "Kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 20."
+			'th-th': "แดเมจของท่าต่อสู้ที่โปเกมอนนี้จะได้รับจะถูก [-20]",
+			'id-id': "Kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 20."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			th: "แดเมจรัช",
-			id: "Damage Rush"
+			'th-th': "แดเมจรัช",
+			'id-id': "Damage Rush"
 		},
 
 		effect: {
-			th: "ทอยเหรียญจนกว่าจะออกก้อย แดเมจจะเพิ่มตามจำนวนครั้งที่ออกหัว x30",
-			id: "Lempar koin hingga hasilnya sisi belakang. Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap lemparan dengan hasil sisi depan."
+			'th-th': "ทอยเหรียญจนกว่าจะออกก้อย แดเมจจะเพิ่มตามจำนวนครั้งที่ออกหัว x30",
+			'id-id': "Lempar koin hingga hasilnya sisi belakang. Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap lemparan dengan hasil sisi depan."
 		},
 
 		damage: "50+",

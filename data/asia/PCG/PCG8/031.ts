@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マネクリック",
+		'ja-jp': "マネクリック",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "蹴ってください",
+				'ja-jp': "蹴ってください",
 			},
 			effect: {
-				ja: "対戦相手は、ベンチ付きポケモンの1つで防御ポケモンを切り替えます。",
+				'ja-jp': "対戦相手は、ベンチ付きポケモンの1つで防御ポケモンを切り替えます。",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Lightning", "Lightning", "Colorless"],
 			name: {
-				ja: "強い電流",
+				'ja-jp': "強い電流",
 			},
 			effect: {
-				ja: "Manectricにポケモンツールカードが付属している場合、この攻撃は、対戦相手のベンチで20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "Manectricにポケモンツールカードが付属している場合、この攻撃は、対戦相手のベンチで20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 50,
 		},

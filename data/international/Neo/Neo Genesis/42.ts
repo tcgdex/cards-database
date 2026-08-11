@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Noctowl",
-		fr: "Noarfang",
-		de: "Noctuh"
+		'en-us': "Noctowl",
+		'fr-fr': "Noarfang",
+		'de-de': "Noctuh"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Hoothoot",
-		fr: "Hoothoot"
+		'en-us': "Hoothoot",
+		'fr-fr': "Hoothoot"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Glaring Gaze",
-				fr: "Regard perçant",
-				de: "Glaring Gaze"
+				'en-us': "Glaring Gaze",
+				'fr-fr': "Regard perçant",
+				'de-de': "Glaring Gaze"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may flip a coin. If heads, look at your opponent's hand. If your opponent has any Trainer cards there, choose 1 of them. Your opponent shuffles that card into his or her deck. This power can't be used if Noctowl is Asleep, Confused, or Paralyzed.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, regardez la main de votre adversaire. Si votre adversaire possède une ou plusieurs cartes Dresseur, choisissez l'une d'elles. Votre adversaire mélange cette carte dans son deck. Ce pouvoir ne peut être utilisé si Noarfang est Endormi, Confus ou Paralysé.",
-				de: "Once during your turn (before your attack), you may flip a coin. If heads, look at your opponent's hand. If your opponent has any Trainer cards there, choose 1 of them. Your opponent shuffles that card into his or her deck. This power can't be used if Noctowl is Asleep, Confused, or Paralyzed."
+				'en-us': "Once during your turn (before your attack), you may flip a coin. If heads, look at your opponent's hand. If your opponent has any Trainer cards there, choose 1 of them. Your opponent shuffles that card into his or her deck. This power can't be used if Noctowl is Asleep, Confused, or Paralyzed.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, regardez la main de votre adversaire. Si votre adversaire possède une ou plusieurs cartes Dresseur, choisissez l'une d'elles. Votre adversaire mélange cette carte dans son deck. Ce pouvoir ne peut être utilisé si Noarfang est Endormi, Confus ou Paralysé.",
+				'de-de': "Once during your turn (before your attack), you may flip a coin. If heads, look at your opponent's hand. If your opponent has any Trainer cards there, choose 1 of them. Your opponent shuffles that card into his or her deck. This power can't be used if Noctowl is Asleep, Confused, or Paralyzed."
 			},
 		},
 	],
@@ -54,9 +54,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-aile",
-				de: "Wing Attack"
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-aile",
+				'de-de': "Wing Attack"
 			},
 
 			damage: 30,
@@ -79,8 +79,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark.",
-		fr: "Ses yeux sont spécialement adaptés. Ils concentrent la plus petite parcelle de lumière pour lui permettre de voir dans l'obscurité."
+		'en-us': "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark.",
+		'fr-fr': "Ses yeux sont spécialement adaptés. Ils concentrent la plus petite parcelle de lumière pour lui permettre de voir dans l'obscurité."
 	},
 
 

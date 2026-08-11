@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Petilil",
-		fr: "Chlorobule",
-		es: "Petilil",
-		it: "Petilil",
-		pt: "Petilil",
-		de: "Lilminip"
+		'en-us': "Petilil",
+		'fr-fr': "Chlorobule",
+		'es-es': "Petilil",
+		'it-it': "Petilil",
+		'pt-br': "Petilil",
+		'de-de': "Lilminip"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Magical Leaf",
-				fr: "Feuillemagik",
+				'en-us': "Magical Leaf",
+				'fr-fr': "Feuillemagik",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 more damage and heal 10 damage from this Pokémon.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts supplémentaires et vous soignez 10 dégâts à ce Pokémon.",
+				'en-us': "Flip a coin. If heads, this attack does 10 more damage and heal 10 damage from this Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts supplémentaires et vous soignez 10 dégâts à ce Pokémon.",
 			},
 			damage: 10,
 
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Since they prefer moist, nutrient-rich soil, the areas where Petilil live are known to be good for growing plants.",
+		'en-us': "Since they prefer moist, nutrient-rich soil, the areas where Petilil live are known to be good for growing plants.",
 	},
 
 	thirdParty: {

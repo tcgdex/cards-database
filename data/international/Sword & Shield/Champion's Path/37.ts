@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Champion\'s Path'
 
 const card: Card = {
 	dexId: [862],
 
 	name: {
-		en: "Galarian Obstagoon",
-		fr: "Ixon de Galar",
-		es: "Obstagoon de Galar",
-		it: "Obstagoon di Galar",
-		pt: "Obstagoon de Galar",
-		de: "Galar-Barrikadax"
+		'en-us': "Galarian Obstagoon",
+		'fr-fr': "Ixon de Galar",
+		'es-es': "Obstagoon de Galar",
+		'it-it': "Obstagoon di Galar",
+		'pt-br': "Obstagoon de Galar",
+		'de-de': "Galar-Barrikadax"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -24,28 +24,28 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Galarian Linoone",
-		fr: "Linéon de Galar"
+		'en-us': "Galarian Linoone",
+		'fr-fr': "Linéon de Galar"
 	},
 
 	abilities: [
 		{
 			type: "Ability",
 			name: {
-				en: "Wicked Ruler",
-				fr: "Leader Dément",
-				es: "Jefe Malvado",
-				it: "Leader Scellerato",
-				pt: "Chefão Perverso",
-				de: "Fetziger Herrscher"
+				'en-us': "Wicked Ruler",
+				'fr-fr': "Leader Dément",
+				'es-es': "Jefe Malvado",
+				'it-it': "Leader Scellerato",
+				'pt-br': "Chefão Perverso",
+				'de-de': "Fetziger Herrscher"
 			},
 			effect: {
-				en: "Once during your turn, you may have your opponent discard cards from their hand until they have 4 cards in their hand.",
-				fr: "Une fois pendant votre tour, vous pouvez demander à votre adversaire de défausser des cartes de sa main jusqu'à en avoir 4 en main.",
-				es: "Una vez durante tu turno, puedes hacer que tu rival descarte cartas de su mano hasta que tenga 4 cartas en su mano.",
-				it: "Una sola volta durante il tuo turno, puoi far scartare al tuo avversario delle carte che ha in mano fino a lasciarlo con quattro carte in mano.",
-				pt: "Uma vez durante o seu turno, você poderá fazer com que o seu oponente descarte cartas da própria mão até que ele(a) tenha 4 cartas na própria mão.",
-				de: "Einmal während deines Zuges kannst du deinen Gegner dazu veranlassen, so lange Karten von seiner Hand auf seinen Ablagestapel zu legen, bis er 4 Karten auf seiner Hand hat."
+				'en-us': "Once during your turn, you may have your opponent discard cards from their hand until they have 4 cards in their hand.",
+				'fr-fr': "Une fois pendant votre tour, vous pouvez demander à votre adversaire de défausser des cartes de sa main jusqu'à en avoir 4 en main.",
+				'es-es': "Una vez durante tu turno, puedes hacer que tu rival descarte cartas de su mano hasta que tenga 4 cartas en su mano.",
+				'it-it': "Una sola volta durante il tuo turno, puoi far scartare al tuo avversario delle carte che ha in mano fino a lasciarlo con quattro carte in mano.",
+				'pt-br': "Uma vez durante o seu turno, você poderá fazer com que o seu oponente descarte cartas da própria mão até que ele(a) tenha 4 cartas na própria mão.",
+				'de-de': "Einmal während deines Zuges kannst du deinen Gegner dazu veranlassen, so lange Karten von seiner Hand auf seinen Ablagestapel zu legen, bis er 4 Karten auf seiner Hand hat."
 			},
 		},
 	],
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knuckle Impact",
-				fr: "Coup d'Articulations",
-				es: "Impacto Nudillo",
-				it: "Impatto Nocche",
-				pt: "Impacto Ossudo",
-				de: "Knöchelprall"
+				'en-us': "Knuckle Impact",
+				'fr-fr': "Coup d'Articulations",
+				'es-es': "Impacto Nudillo",
+				'it-it': "Impatto Nocche",
+				'pt-br': "Impacto Ossudo",
+				'de-de': "Knöchelprall"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon can't attack.",
-				fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-				es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-				it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-				pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-				de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+				'en-us': "During your next turn, this Pokémon can't attack.",
+				'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+				'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+				'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+				'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+				'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 			},
 			damage: 180,
 
@@ -98,7 +98,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "Its voice is staggering in volume. Obstagoon has a tendency to take on a threatening posture and shout—this move is known as Obstruct."
+		'en-us': "Its voice is staggering in volume. Obstagoon has a tendency to take on a threatening posture and shout—this move is known as Obstruct."
 	},
 
 	thirdParty: {

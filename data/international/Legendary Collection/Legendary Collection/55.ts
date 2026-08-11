@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Nidorina"
+		'en-us': "Nidorina"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidoran♀"
+		'en-us': "Nidoran♀"
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Supersonic"
+				'en-us': "Supersonic"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 
 		},
@@ -45,10 +45,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Kick"
+				'en-us': "Double Kick"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads."
 			},
 			damage: "30×",
 
@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The female's horn develops slowly. Prefers physical attacks such as clawing and biting."
+		'en-us': "The female's horn develops slowly. Prefers physical attacks such as clawing and biting."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 9'
 
 const card: Card = {
 	name: {
-		en: "Pachirisu",
-		fr: "Pachirisu"
+		'en-us': "Pachirisu",
+		'fr-fr': "Pachirisu"
 	},
 
 	illustrator: "Midori Harada",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunder Wave",
-				fr: "Cage-éclair"
+				'en-us': "Thunder Wave",
+				'fr-fr': "Cage-éclair"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 10,
 
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Berry",
-				fr: "Gorgée de poison"
+				'en-us': "Poison Berry",
+				'fr-fr': "Gorgée de poison"
 			},
 			effect: {
-				en: "If you have Croagunk in play, this attack does 20 damage plus 20 more damage and the Defending Pokémon is now Poisoned.",
-				fr: "Si vous avez un Cradopaud en jeu, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Empoisonné."
+				'en-us': "If you have Croagunk in play, this attack does 20 damage plus 20 more damage and the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Si vous avez un Cradopaud en jeu, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Empoisonné."
 			},
 			damage: "20+",
 
@@ -71,8 +71,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It makes electricity with pouches in its cheeks and shoots charges from its tail. It live atop trees.",
-		fr: "Les poches de ses joues produisent de l'électricité et sa queue envoie des éclairs. Il vit dans les arbres."
+		'en-us': "It makes electricity with pouches in its cheeks and shoots charges from its tail. It live atop trees.",
+		'fr-fr': "Les poches de ses joues produisent de l'électricité et sa queue envoie des éclairs. Il vit dans les arbres."
 	},
 
 	variants: [

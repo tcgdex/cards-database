@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コオリッポ",
+		'ja-jp': "コオリッポ",
 		'zh-tw': "雷吉奇卡斯",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "暑さに 弱い 顔を いつも 氷で 冷やしている。 頭の 毛を 海に たらして 餌を釣る。",
+		'ja-jp': "暑さに 弱い 顔を いつも 氷で 冷やしている。 頭の 毛を 海に たらして 餌を釣る。",
 		'zh-tw': "在世上流傳著的傳說中，牠拉動了被繩子所綑綁的大地。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "アイスボーナス",
+				'ja-jp': "アイスボーナス",
 				'zh-tw': "暖身",
 			},
 			cost: ["Water"],
 			effect: {
-				ja: "自分の手札から[水]エネルギーを1枚選び、トラッシュする。その後、自分の山札を3枚引く。",
+				'ja-jp': "自分の手札から[水]エネルギーを1枚選び、トラッシュする。その後、自分の山札を3枚引く。",
 				'zh-tw': "從自己的棄牌區選擇1張基本能量卡，附於這隻寶可夢身上。",
 			},
 		},
 		{
 			name: {
-				ja: "とびだしヘッド",
+				'ja-jp': "とびだしヘッド",
 				'zh-tw': "雙重衝擊",
 			},
 			damage: 100,

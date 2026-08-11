@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Beedrill",
+		'en-us': "Beedrill",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kakuna",
+		'en-us': "Kakuna",
 	},
 
 	stage: "Stage2",
@@ -35,10 +35,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Twineedle",
+				'en-us': "Twineedle",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
 			},
 			damage: 30,
 
@@ -50,10 +50,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Sting",
+				'en-us': "Poison Sting",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 			},
 
 		},
@@ -74,7 +74,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Flies at high speed and attacks using the large, venomous stingers on its forelegs and tail.",
+		'en-us': "Flies at high speed and attacks using the large, venomous stingers on its forelegs and tail.",
 	},
 
 

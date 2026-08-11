@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ethan's Slugma",
-		fr: "Limagma de Luth",
-		de: "Klarins Schneckmag",
-		it: "Slugma di Armonio",
-		es: "Slugma de Eco",
-		pt: "Slugma do Ethan",
+		'en-us': "Ethan's Slugma",
+		'fr-fr': "Limagma de Luth",
+		'de-de': "Klarins Schneckmag",
+		'it-it': "Slugma di Armonio",
+		'es-es': "Slugma de Eco",
+		'pt-br': "Slugma do Ethan",
 		'es-mx': "Slugma de Ethan"
 	},
 
@@ -26,12 +26,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Steady Firebreathing",
-			fr: "Crachage de Feu Régulier",
-			de: "Stetiger Feuerhauch",
-			it: "Soffiofuoco Mirato",
-			es: "Lanzallamas Continuo",
-			pt: "Hálito de Fogo Constante",
+			'en-us': "Steady Firebreathing",
+			'fr-fr': "Crachage de Feu Régulier",
+			'de-de': "Stetiger Feuerhauch",
+			'it-it': "Soffiofuoco Mirato",
+			'es-es': "Lanzallamas Continuo",
+			'pt-br': "Hálito de Fogo Constante",
 			'es-mx': "Escupefuego"
 		},
 

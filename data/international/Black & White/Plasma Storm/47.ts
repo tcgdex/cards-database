@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Magnezone",
-		fr: "Magnézone",
-		es: "Magnezone",
-		it: "Magnezone",
-		pt: "Magnezone",
-		de: "Magnezone"
+		'en-us': "Magnezone",
+		'fr-fr': "Magnézone",
+		'es-es': "Magnezone",
+		'it-it': "Magnezone",
+		'pt-br': "Magnezone",
+		'de-de': "Magnezone"
 	},
 
 	illustrator: "match",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magneton",
-		fr: "Magnéton",
+		'en-us': "Magneton",
+		'fr-fr': "Magnéton",
 	},
 
 	stage: "Stage2",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Double Assist",
-				fr: "Double Assistance",
+				'en-us': "Double Assist",
+				'fr-fr': "Double Assistance",
 			},
 			effect: {
-				en: "Attach 2 basic Energy cards from your discard pile to 1 of your Pokémon.",
-				fr: "Attachez 2 cartes Énergie de base de votre pile de défausse à 1 de vos Pokémon.",
+				'en-us': "Attach 2 basic Energy cards from your discard pile to 1 of your Pokémon.",
+				'fr-fr': "Attachez 2 cartes Énergie de base de votre pile de défausse à 1 de vos Pokémon.",
 			},
 			damage: 30,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tumbling Attack",
-				fr: "Attaque Trébuchante",
+				'en-us': "Tumbling Attack",
+				'fr-fr': "Attaque Trébuchante",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 70,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Sometimes the magnetism emitted by Magnezone is too strong, making them attract each other so they cannot move.",
+		'en-us': "Sometimes the magnetism emitted by Magnezone is too strong, making them attract each other so they cannot move.",
 	},
 
 	thirdParty: {

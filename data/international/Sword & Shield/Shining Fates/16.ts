@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Zarude",
-		en: "Zarude",
-		es: "Zarude",
-		it: "Zarude",
-		pt: "Zarude",
-		de: "Zarude"
+		'fr-fr': "Zarude",
+		'en-us': "Zarude",
+		'es-es': "Zarude",
+		'it-it': "Zarude",
+		'pt-br': "Zarude",
+		'de-de': "Zarude"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,33 +22,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Lianes Sangsues",
-			en: "Suctioning Vines",
-			es: "Lianas Succionadoras",
-			it: "Liane Aspiranti",
-			pt: "Vinhas de Sucção",
-			de: "Saugranken"
+			'fr-fr': "Lianes Sangsues",
+			'en-us': "Suctioning Vines",
+			'es-es': "Lianas Succionadoras",
+			'it-it': "Liane Aspiranti",
+			'pt-br': "Vinhas de Sucção",
+			'de-de': "Saugranken"
 		},
 
 		effect: {
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			en: "Heal 30 damage from this Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 30,
 		cost: ["Grass", "Colorless"]
 	}, {
 		name: {
-			fr: "Courroux de la Jungle",
-			en: "Jungle Blast",
-			es: "Explosión Selvática",
-			it: "Giunglascoppio",
-			pt: "Explosão da Selva",
-			de: "Dschungelexplosion"
+			'fr-fr': "Courroux de la Jungle",
+			'en-us': "Jungle Blast",
+			'es-es': "Explosión Selvática",
+			'it-it': "Giunglascoppio",
+			'pt-br': "Explosão da Selva",
+			'de-de': "Dschungelexplosion"
 		},
 
 		damage: 110,
@@ -67,7 +67,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Once the vines on Zarude's body tear off, they become nutrients in the soil. This helps the plants of the forest grow."
+		'en-us': "Once the vines on Zarude's body tear off, they become nutrients in the soil. This helps the plants of the forest grow."
 	},
 
 	variants: [

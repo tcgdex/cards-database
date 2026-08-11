@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../web1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "暗いwartortle",
+		'ja-jp': "暗いwartortle",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "doubleslap",
+				'ja-jp': "doubleslap",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "ミラーシェル",
+				'ja-jp': "ミラーシェル",
 			},
 			effect: {
-				ja: "攻撃が相手の次のターン中にダークワルトルートにダメージを与えた場合（ダークワルトルがノックアウトされたとしても）、ダークワルトルートルはディフェンディングポケモンに同量のダメージを与えます。",
+				'ja-jp': "攻撃が相手の次のターン中にダークワルトルートにダメージを与えた場合（ダークワルトルがノックアウトされたとしても）、ダークワルトルートルはディフェンディングポケモンに同量のダメージを与えます。",
 			},
 		},
 	],

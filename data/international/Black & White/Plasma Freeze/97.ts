@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Staraptor",
-		fr: "Étouraptor",
-		es: "Staraptor",
-		it: "Staraptor",
-		pt: "Staraptor",
-		de: "Staraptor"
+		'en-us': "Staraptor",
+		'fr-fr': "Étouraptor",
+		'es-es': "Staraptor",
+		'it-it': "Staraptor",
+		'pt-br': "Staraptor",
+		'de-de': "Staraptor"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Staravia",
-		fr: "Étourvol",
+		'en-us': "Staravia",
+		'fr-fr': "Étourvol",
 	},
 
 	stage: "Stage2",
@@ -41,8 +41,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-Aile",
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-Aile",
 			},
 
 			damage: 60,
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strong Breeze",
-				fr: "Forte Brise",
+				'en-us': "Strong Breeze",
+				'fr-fr': "Forte Brise",
 			},
 			effect: {
-				en: "Your opponent shuffles the Defending Pokémon and all cards attached to it into his or her deck.",
-				fr: "Votre adversaire mélange le Pokémon Défenseur et toutes les cartes qui lui sont attachées avec son deck.",
+				'en-us': "Your opponent shuffles the Defending Pokémon and all cards attached to it into his or her deck.",
+				'fr-fr': "Votre adversaire mélange le Pokémon Défenseur et toutes les cartes qui lui sont attachées avec son deck.",
 			},
 
 		},
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It never stops attacking even if it is injured. It fusses over the shape of its comb.",
+		'en-us': "It never stops attacking even if it is injured. It fusses over the shape of its comb.",
 	},
 
 	thirdParty: {

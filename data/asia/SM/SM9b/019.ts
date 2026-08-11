@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スリープ",
+		'ja-jp': "スリープ",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "レジャー施設の 近くで 姿を 見かける。 その晩 子どもが 見る 楽しいユメを 狙って いるのだ。",
+		'ja-jp': "レジャー施設の 近くで 姿を 見かける。 その晩 子どもが 見る 楽しいユメを 狙って いるのだ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "さいみんじゅつ" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。",
+				'ja-jp': "相手のバトルポケモンをねむりにする。",
 			},
 		},
 		{

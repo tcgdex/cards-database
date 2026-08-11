@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Sizzlipede",
-		fr: "Grillepattes",
-		es: "Sizzlipede",
-		it: "Sizzlipede",
-		pt: "Sizzlipede",
-		de: "Thermopod"
+		'en-us': "Sizzlipede",
+		'fr-fr': "Grillepattes",
+		'es-es': "Sizzlipede",
+		'it-it': "Sizzlipede",
+		'pt-br': "Sizzlipede",
+		'de-de': "Thermopod"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -30,20 +30,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Relentless Flames",
-				fr: "Flammes Incessantes",
-				es: "Llamas Implacables",
-				it: "Fiammeperenni",
-				pt: "Chamas Incansáveis",
-				de: "Unermüdliche Flammen"
+				'en-us': "Relentless Flames",
+				'fr-fr': "Flammes Incessantes",
+				'es-es': "Llamas Implacables",
+				'it-it': "Fiammeperenni",
+				'pt-br': "Chamas Incansáveis",
+				'de-de': "Unermüdliche Flammen"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 40 damage for each heads.",
-				fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 40 dégâts pour chaque côté face.",
-				es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 40 puntos de daño por cada cara.",
-				it: "Lancia una moneta finché non esce croce. Questo attacco infligge 40 danni ogni volta che esce testa.",
-				pt: "Jogue 1 moeda até sair coroa. Este ataque causa 40 pontos de dano para cada cara.",
-				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu."
+				'en-us': "Flip a coin until you get tails. This attack does 40 damage for each heads.",
+				'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 40 dégâts pour chaque côté face.",
+				'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 40 puntos de daño por cada cara.",
+				'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 40 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 1 moeda até sair coroa. Este ataque causa 40 pontos de dano para cada cara.",
+				'de-de': "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu."
 			},
 			damage: "40×",
 
@@ -68,7 +68,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot."
+		'en-us': "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot."
 	},
 
 	dexId: [850],

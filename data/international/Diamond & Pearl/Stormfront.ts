@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Diamond & Pearl'
 
 const dp7: Set = {
 	id: "dp7",
 
 	name: {
-		en: "Stormfront",
-		fr: "Tempête",
-		es: "Frente Tormentoso",
-		it: "Fronte di Tempesta",
-		de: "Sturmtief"
+		'en-us': "Stormfront",
+		'fr-fr': "Tempête",
+		'es-es': "Frente Tormentoso",
+		'it-it': "Fronte di Tempesta",
+		'de-de': "Sturmtief"
 	},
 
 	serie: serie,
@@ -23,7 +23,7 @@ const dp7: Set = {
 
 	abbreviations: {
 		official: "SF",
-		fr: "TEM"
+		'fr-fr': "TEM"
 	},
 
 	thirdParty: {

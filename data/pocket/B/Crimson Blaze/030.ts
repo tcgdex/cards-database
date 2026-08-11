@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [200],
 
 	name: {
-		en: "Misdreavus"
+		'en-us': "Misdreavus"
 	},
 
 	illustrator: "sui",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "It loves to bite and yank people's hair from\nbehind without warning, just to see their\nshocked reactions."
+		'en-us': "It loves to bite and yank people's hair from\nbehind without warning, just to see their\nshocked reactions."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Lead"
+			'en-us': "Lead"
 		},
 
 		cost: ["Psychic"],
 
 		effect: {
-			en: "Put a random Supporter card from your deck into your hand."
+			'en-us': "Put a random Supporter card from your deck into your hand."
 		}
 	}],
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Cheerleader's Cheer",
-		fr: "Encouragements hystériques",
-		de: "Cheerleader-Jubel"
+		'en-us': "Cheerleader's Cheer",
+		'fr-fr': "Encouragements hystériques",
+		'de-de': "Cheerleader-Jubel"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -15,9 +15,9 @@ const card: Card = {
 	trainerType: "Supporter",
 
 	effect: {
-		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Draw 3 cards. Your opponent may draw a card.",
-		de: "Ziehe 3 Karten. Dein Gegner kann 1 Karte ziehen.",
-		fr: "Piochez 3 cartes. Votre adversaire peut piocher une carte.",
+		'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Draw 3 cards. Your opponent may draw a card.",
+		'de-de': "Ziehe 3 Karten. Dein Gegner kann 1 Karte ziehen.",
+		'fr-fr': "Piochez 3 cartes. Votre adversaire peut piocher une carte.",
 	},
 
 	retreat: 0,

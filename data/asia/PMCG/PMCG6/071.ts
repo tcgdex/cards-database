@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サカキのペルシアン",
+		'ja-jp': "サカキのペルシアン",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "上司に電話してください",
+				'ja-jp': "上司に電話してください",
 			},
 			effect: {
-				ja: "Giovanniのペルシャ語を手からプレイしたら、18という名前のトレーナーカードを検索し、相手に見せて、手に渡すことができます。その後、デッキをシャッフルします。",
+				'ja-jp': "Giovanniのペルシャ語を手からプレイしたら、18という名前のトレーナーカードを検索し、相手に見せて、手に渡すことができます。その後、デッキをシャッフルします。",
 			},
 		}],
 
@@ -30,10 +30,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "待ち伏せ",
+				'ja-jp': "待ち伏せ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて20ダメージを与えます。尾の場合、この攻撃は20ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて20ダメージを与えます。尾の場合、この攻撃は20ダメージを与えます。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダンゴロ",
+		'ja-jp': "ダンゴロ",
 	},
 
 	illustrator: "Kanako Eo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "六角形の 空洞は 耳。 音が 鳴るほうへ 歩いていくが 音が 止むと 困って 転ぶ。",
+		'ja-jp': "六角形の 空洞は 耳。 音が 鳴るほうへ 歩いていくが 音が 止むと 困って 転ぶ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンの抵抗力が[闘]なら、50ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンの抵抗力が[闘]なら、50ダメージ追加。",
 			},
 		},
 	],

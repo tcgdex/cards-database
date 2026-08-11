@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Skitty",
-		fr: "Skitty",
-		de: "Eneco"
+		'en-us': "Skitty",
+		'fr-fr': "Skitty",
+		'de-de': "Eneco"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Plus Energy",
-				fr: "Énergie plus",
-				de: "Bonusenergie"
+				'en-us': "Plus Energy",
+				'fr-fr': "Énergie plus",
+				'de-de': "Bonusenergie"
 			},
 			effect: {
-				en: "Attach a basic Energy card from your hand to 1 of your Pokémon.",
-				fr: "Attachez une carte Énergie de base de votre main à un de vos Pokémon.",
-				de: "Lege 1 Basis Energiekarte an 1 deiner Pokémon an."
+				'en-us': "Attach a basic Energy card from your hand to 1 of your Pokémon.",
+				'fr-fr': "Attachez une carte Énergie de base de votre main à un de vos Pokémon.",
+				'de-de': "Lege 1 Basis Energiekarte an 1 deiner Pokémon an."
 			},
 
 		},
@@ -45,9 +45,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,

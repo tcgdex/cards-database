@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヨクバリスVMAX",
+		'ja-jp': "ヨクバリスVMAX",
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージで、相手のたねポケモンがきぜつしたなら、サイドを2枚多くとる。",
+				'ja-jp': "このワザのダメージで、相手のたねポケモンがきぜつしたなら、サイドを2枚多くとる。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分の山札を3枚引く。",
+				'ja-jp': "自分の山札を3枚引く。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヨクバリスV",
+		'ja-jp': "ヨクバリスV",
 	},
 
 	retreat: 3,

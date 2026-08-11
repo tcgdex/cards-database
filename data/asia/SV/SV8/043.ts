@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タイカイデン",
+		'ja-jp': "タイカイデン",
 		'zh-tw': "大電海燕",
 		'zh-cn': "大電海燕",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "のど袋に 翼で 作った 電気を 溜める。 羽の 油分が とても 少なく 泳ぎは 苦手。",
+		'ja-jp': "のど袋に 翼で 作った 電気を 溜める。 羽の 油分が とても 少なく 泳ぎは 苦手。",
 		'zh-tw': "會把翅膀製造的電儲存到喉囊裡。 由於羽毛含的油脂少之又少， 導致牠不是很擅長游泳。",
 		'zh-cn': "會把翅膀製造的電儲存到喉囊裡。 由於羽毛含的油脂少之又少， 導致牠不是很擅長游泳。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かっくう",
+				'ja-jp': "かっくう",
 				'zh-tw': "滑翔",
 				'zh-cn': "滑翔",
 			},
@@ -34,14 +34,14 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ストームボルト",
+				'ja-jp': "ストームボルト",
 				'zh-tw': "風暴伏特",
 				'zh-cn': "風暴伏特",
 			},
 			damage: 160,
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーをすべて、ベンチポケモンに好きなようにつけ替える。",
+				'ja-jp': "このポケモンについているエネルギーをすべて、ベンチポケモンに好きなようにつけ替える。",
 				'zh-tw': "將這隻寶可夢身上附加的所有能量卡，以任意方式改附於備戰寶可夢身上。",
 				'zh-cn': "將這隻寶可夢身上附加的所有能量卡，以任意方式改附於備戰寶可夢身上。",
 			},
@@ -62,7 +62,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カイデン",
+		'ja-jp': "カイデン",
 	},
 
 	retreat: 1,

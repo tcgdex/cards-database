@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Clefairy",
-		fr: "Melofée",
-		de: "Piepi"
+		'en-us': "Clefairy",
+		'fr-fr': "Melofée",
+		'de-de': "Piepi"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sing",
-				fr: "Berceuse",
-				de: "Gesang"
+				'en-us': "Sing",
+				'fr-fr': "Berceuse",
+				'de-de': "Gesang"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Moon Impact",
-				fr: "Impact lunaire",
-				de: "Mondeinschlag"
+				'en-us': "Moon Impact",
+				'fr-fr': "Impact lunaire",
+				'de-de': "Mondeinschlag"
 			},
 			effect: {
-				en: "If Clefairy is evolved from Cleffa, this attack does 20 damage plus 20 more damage.",
-				fr: "Si Melofée évolue de Melo, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wenn Piepi sich aus Pii entwickelt hat, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "If Clefairy is evolved from Cleffa, this attack does 20 damage plus 20 more damage.",
+				'fr-fr': "Si Melofée évolue de Melo, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wenn Piepi sich aus Pii entwickelt hat, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -72,8 +72,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Thought to live with others on quiet mountains, it is popular for its adorable nature.",
-		fr: "Tout le monde craque pour cet adorable Pokémon. Il vit en groupe dans le calme des montagnes."
+		'en-us': "Thought to live with others on quiet mountains, it is popular for its adorable nature.",
+		'fr-fr': "Tout le monde craque pour cet adorable Pokémon. Il vit en groupe dans le calme des montagnes."
 	},
 
 	thirdParty: {

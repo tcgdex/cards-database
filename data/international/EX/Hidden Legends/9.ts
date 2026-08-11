@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Machamp",
-		fr: "Mackogneur",
-		de: "Machomei"
+		'en-us': "Machamp",
+		'fr-fr': "Mackogneur",
+		'de-de': "Machomei"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Machoke",
-		fr: "Machopeur"
+		'en-us': "Machoke",
+		'fr-fr': "Machopeur"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Overzealous",
-				fr: "Excès de zèle",
-				de: "Overzealous"
+				'en-us': "Overzealous",
+				'fr-fr': "Excès de zèle",
+				'de-de': "Overzealous"
 			},
 			effect: {
-				en: "If your opponent has any Pokémon-ex in play, each of Machamp's attacks do 30 more damage to the Defending Pokémon.",
-				fr: "Si votre adversaire a des Pokémon-ex en jeu, les attaques de Mackogneur infligent 30 dégâts supplémentaires au Pokémon Défenseur.",
-				de: "If your opponent has any Pokémon-ex in play, each of Machamp's attacks do 30 more damage to the Defending Pokémon."
+				'en-us': "If your opponent has any Pokémon-ex in play, each of Machamp's attacks do 30 more damage to the Defending Pokémon.",
+				'fr-fr': "Si votre adversaire a des Pokémon-ex en jeu, les attaques de Mackogneur infligent 30 dégâts supplémentaires au Pokémon Défenseur.",
+				'de-de': "If your opponent has any Pokémon-ex in play, each of Machamp's attacks do 30 more damage to the Defending Pokémon."
 			}
 		},
 	],
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Brick Smash",
-				fr: "Casse-Brique",
-				de: "Brick Smash"
+				'en-us': "Brick Smash",
+				'fr-fr': "Casse-Brique",
+				'de-de': "Brick Smash"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies, ou tout autre effet sur le Pokémon Défenseur.",
-				de: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies, ou tout autre effet sur le Pokémon Défenseur.",
+				'de-de': "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
 			},
 			damage: 40,
 
@@ -71,14 +71,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cross Chop",
-				fr: "Coup-croix",
-				de: "Cross Chop"
+				'en-us': "Cross Chop",
+				'fr-fr': "Coup-croix",
+				'de-de': "Cross Chop"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 60 damage plus 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts plus 30 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, this attack does 60 damage plus 30 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 60 damage plus 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "Flip a coin. If heads, this attack does 60 damage plus 30 more damage."
 			},
 			damage: "60+",
 

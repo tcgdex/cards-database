@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ハスブレロ",
+		'ja-jp': "ハスブレロ",
 		'zh-tw': "蓮帽小童",
 		'zh-cn': "蓮帽小童"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "キタカミの 古い 伝承には いたずら好きの 子供が ポケモンに 生まれ変わったと 記されている。",
+		'ja-jp': "キタカミの 古い 伝承には いたずら好きの 子供が ポケモンに 生まれ変わったと 記されている。",
 		'zh-tw': "北上的古老傳說記載著 牠是喜歡惡作劇的小孩 轉生而來的寶可夢。",
 		'zh-cn': "北上的古老傳說記載著 牠是喜歡惡作劇的小孩 轉生而來的寶可夢。"
 	},
@@ -29,7 +29,7 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			ja: "アクアスラッシュ",
+			'ja-jp': "アクアスラッシュ",
 			'zh-tw': "水流斬",
 			'zh-cn': "水流斬"
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 		damage: 70,
 
 		effect: {
-			ja: "次の自分の番、このポケモンはワザが使えない。",
+			'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
 			'zh-cn': "在下個自己的回合，這隻寶可夢無法使用招式。"
 		}

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Umbreon",
-		fr: "Noctali"
+		'en-us': "Umbreon",
+		'fr-fr': "Noctali"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -18,28 +18,28 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Eevee"
+		'en-us': "Eevee"
 	},
 
 	description: {
-		en: "When exposed to the moon's aura, the rings on its\nbody glow faintly and it gains a mysterious power.",
-		fr: "Quand il s'expose aux ondes lunaires, ses anneaux brillent légèrement et il acquiert un mystérieux pouvoir."
+		'en-us': "When exposed to the moon's aura, the rings on its\nbody glow faintly and it gains a mysterious power.",
+		'fr-fr': "Quand il s'expose aux ondes lunaires, ses anneaux brillent légèrement et il acquiert un mystérieux pouvoir."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Dark Binding",
-			fr: "Entrave Sombre"
+			'en-us': "Dark Binding",
+			'fr-fr': "Entrave Sombre"
 		},
 
 		damage: 40,
 		cost: ["Darkness"],
 
 		effect: {
-			en: "If the Defending Pokémon is a Basic Pokémon, it can't attack during your opponent's next turn.",
-			fr: "Si le Pokémon Défenseur est un Pokémon de base, il ne peut pas attaquer pendant le prochain tour de votre adversaire."
+			'en-us': "If the Defending Pokémon is a Basic Pokémon, it can't attack during your opponent's next turn.",
+			'fr-fr': "Si le Pokémon Défenseur est un Pokémon de base, il ne peut pas attaquer pendant le prochain tour de votre adversaire."
 		}
 	}],
 

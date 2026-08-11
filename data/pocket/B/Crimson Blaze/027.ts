@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [587],
 
 	name: {
-		en: "Emolga"
+		'en-us': "Emolga"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "This Pokémon absolutely loves sweet berries.\nSometimes it stuffs its cheeks full of so much\nfood that it can't fly properly."
+		'en-us': "This Pokémon absolutely loves sweet berries.\nSometimes it stuffs its cheeks full of so much\nfood that it can't fly properly."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Mach Bolt"
+			'en-us': "Mach Bolt"
 		},
 
 		damage: 50,

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Moltres"
+		'en-us': "Blaine's Moltres"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Phoenix Flame"
+				'en-us': "Phoenix Flame"
 			},
 			effect: {
-				en: "Flip a coin. If tails, shuffle Blaine's Moltres and all cards attached to it into your deck (after doing damage)."
+				'en-us': "Flip a coin. If tails, shuffle Blaine's Moltres and all cards attached to it into your deck (after doing damage)."
 			},
 			damage: 90,
 

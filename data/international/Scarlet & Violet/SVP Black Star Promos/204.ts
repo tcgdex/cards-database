@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cynthia's Garchomp ex",
-		fr: "Carchacrock-ex de Cynthia",
-		de: "Cynthias Knakrack-ex",
-		it: "Garchomp-ex di Camilla",
-		es: "Garchomp ex de Cintia",
-		pt: "Garchomp ex da Cíntia"
+		'en-us': "Cynthia's Garchomp ex",
+		'fr-fr': "Carchacrock-ex de Cynthia",
+		'de-de': "Cynthias Knakrack-ex",
+		'it-it': "Garchomp-ex di Camilla",
+		'es-es': "Garchomp ex de Cintia",
+		'pt-br': "Garchomp ex da Cíntia"
 	},
 
 	suffix: "ex",
@@ -23,12 +23,12 @@ const card: Card = {
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Cynthia's Gabite",
-		fr: "Carmache de Cynthia",
-		de: "Cynthias Knarksel",
-		it: "Gabite di Camilla",
-		es: "Gabite de Cintia",
-		pt: "Gabite da Cíntia",
+		'en-us': "Cynthia's Gabite",
+		'fr-fr': "Carmache de Cynthia",
+		'de-de': "Cynthias Knarksel",
+		'it-it': "Gabite di Camilla",
+		'es-es': "Gabite de Cintia",
+		'pt-br': "Gabite da Cíntia",
 		'es-mx': "Gabite de Cynthia"
 	},
 
@@ -36,21 +36,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Corkscrew Dive",
-			fr: "Plongée Tire-Bouchon",
-			de: "Spiralsturzflug",
-			it: "Picchiata Rotante",
-			es: "Picado Tirabuzón",
-			pt: "Mergulho Parafuso"
+			'en-us': "Corkscrew Dive",
+			'fr-fr': "Plongée Tire-Bouchon",
+			'de-de': "Spiralsturzflug",
+			'it-it': "Picchiata Rotante",
+			'es-es': "Picado Tirabuzón",
+			'pt-br': "Mergulho Parafuso"
 	},
 
 		effect: {
-			en: "You may draw cards until you have 6 cards in your hand.",
-			fr: "Vous pouvez piocher des cartes jusqu'à en avoir 6 en main.",
-			de: "Du kannst so lange Karten ziehen, bis du 6 Karten auf deiner Hand hast.",
-			it: "Puoi pescare fino ad avere sei carte in mano.",
-			es: "Puedes robar cartas hasta que tengas 6 cartas en tu mano.",
-			pt: "Você pode comprar cartas até ter 6 cartas na sua mão."
+			'en-us': "You may draw cards until you have 6 cards in your hand.",
+			'fr-fr': "Vous pouvez piocher des cartes jusqu'à en avoir 6 en main.",
+			'de-de': "Du kannst so lange Karten ziehen, bis du 6 Karten auf deiner Hand hast.",
+			'it-it': "Puoi pescare fino ad avere sei carte in mano.",
+			'es-es': "Puedes robar cartas hasta que tengas 6 cartas en tu mano.",
+			'pt-br': "Você pode comprar cartas até ter 6 cartas na sua mão."
 	},
 
 		damage: 100
@@ -58,21 +58,21 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			en: "Draconic Buster",
-			fr: "Buster Draconien",
-			de: "Drachensprenger",
-			it: "Distruzione del Drago",
-			es: "Destrucción Dracónica",
-			pt: "Aniquilação Dracônica"
+			'en-us': "Draconic Buster",
+			'fr-fr': "Buster Draconien",
+			'de-de': "Drachensprenger",
+			'it-it': "Distruzione del Drago",
+			'es-es': "Destrucción Dracónica",
+			'pt-br': "Aniquilação Dracônica"
 	},
 
 		effect: {
-			en: "Discard all Energy from this Pokémon.",
-			fr: "Défaussez toutes les Énergies de ce Pokémon.",
-			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel.",
-			it: "Scarta tutte le Energie da questo Pokémon.",
-			es: "Descarta todas las Energías de este Pokémon.",
-			pt: "Descarte todas as Energias deste Pokémon."
+			'en-us': "Discard all Energy from this Pokémon.",
+			'fr-fr': "Défaussez toutes les Énergies de ce Pokémon.",
+			'de-de': "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel.",
+			'it-it': "Scarta tutte le Energie da questo Pokémon.",
+			'es-es': "Descarta todas las Energías de este Pokémon.",
+			'pt-br': "Descarte todas as Energias deste Pokémon."
 	},
 
 		damage: 260

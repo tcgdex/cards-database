@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Solrock"
+		'id-id': "Solrock"
 	},
 
 	illustrator: "Tetsu Kayama",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Energi matahari merupakan sumber energi Solrock, sehingga Pokémon ini kuat pada siang hari. Saat berputar, tubuhnya akan bercahaya."
+		'id-id': "Energi matahari merupakan sumber energi Solrock, sehingga Pokémon ini kuat pada siang hari. Saat berputar, tubuhnya akan bercahaya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Memanggil Teman"
+			'id-id': "Memanggil Teman"
 		},
 
 		effect: {
-			id: "Pilih paling banyak 2 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
+			'id-id': "Pilih paling banyak 2 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Solar Beam"
+			'id-id': "Solar Beam"
 		},
 
 		damage: 50,

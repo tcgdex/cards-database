@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Beheeyem",
-		fr: "Neitram",
-		es: "Beheeyem",
-		it: "Beheeyem",
-		pt: "Beheeyem",
-		de: "Megalon"
+		'en-us': "Beheeyem",
+		'fr-fr': "Neitram",
+		'es-es': "Beheeyem",
+		'it-it': "Beheeyem",
+		'pt-br': "Beheeyem",
+		'de-de': "Megalon"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Elgyem",
-		fr: "Lewsor",
+		'en-us': "Elgyem",
+		'fr-fr': "Lewsor",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Lock Up",
-				fr: "Cage",
+				'en-us': "Lock Up",
+				'fr-fr': "Cage",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 			damage: 20,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Damakinesis",
-				fr: "Dégâkinésie",
+				'en-us': "Damakinesis",
+				'fr-fr': "Dégâkinésie",
 			},
 			effect: {
-				en: "Move 6 damage counters from any of your Pokémon to the Defending Pokémon.",
-				fr: "Déplacez 6 marqueurs de dégâts de vos Pokémon vers le Pokémon Défenseur.",
+				'en-us': "Move 6 damage counters from any of your Pokémon to the Defending Pokémon.",
+				'fr-fr': "Déplacez 6 marqueurs de dégâts de vos Pokémon vers le Pokémon Défenseur.",
 			},
 
 		},
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Apparently, it communicates by flashing its three fingers, but those patterns haven't been decoded.",
+		'en-us': "Apparently, it communicates by flashing its three fingers, but those patterns haven't been decoded.",
 	},
 
 	thirdParty: {

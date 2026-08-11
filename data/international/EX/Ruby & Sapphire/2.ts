@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Beautifly",
-		fr: "Charmillon",
-		de: "Papinella"
+		'en-us': "Beautifly",
+		'fr-fr': "Charmillon",
+		'de-de': "Papinella"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Silcoon",
-		fr: "Armulys"
+		'en-us': "Silcoon",
+		'fr-fr': "Armulys"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Withering Dust",
-				fr: "Poussière desséchante",
-				de: "Withering Dust"
+				'en-us': "Withering Dust",
+				'fr-fr': "Poussière desséchante",
+				'de-de': "Withering Dust"
 			},
 			effect: {
-				en: "As long as Beautifly is in play, do not apply Resistance for all Active Pokémon.",
-				fr: "Tant que Charmillon est en jeu, vous ne pouvez pas appliquer la Résistance aux Pokémon Actifs.",
-				de: "As long as Beautifly is in play, do not apply Resistance for all Active Pokémon."
+				'en-us': "As long as Beautifly is in play, do not apply Resistance for all Active Pokémon.",
+				'fr-fr': "Tant que Charmillon est en jeu, vous ne pouvez pas appliquer la Résistance aux Pokémon Actifs.",
+				'de-de': "As long as Beautifly is in play, do not apply Resistance for all Active Pokémon."
 			}
 		},
 	],
@@ -50,14 +50,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Stun Spore",
-				fr: "Poussière paralysante",
-				de: "Stun Spore"
+				'en-us': "Stun Spore",
+				'fr-fr': "Poussière paralysante",
+				'de-de': "Stun Spore"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 
@@ -69,14 +69,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Parallel Gain",
-				fr: "Gain parallèle",
-				de: "Parallel Gain"
+				'en-us': "Parallel Gain",
+				'fr-fr': "Gain parallèle",
+				'de-de': "Parallel Gain"
 			},
 			effect: {
-				en: "Remove 1 damage counter from each of your Pokémon, including Beautifly.",
-				fr: "Retirez un marqueur de dégât à tous vos Pokémon, Charmillon inclus.",
-				de: "Remove 1 damage counter from each of your Pokémon, including Beautifly"
+				'en-us': "Remove 1 damage counter from each of your Pokémon, including Beautifly.",
+				'fr-fr': "Retirez un marqueur de dégât à tous vos Pokémon, Charmillon inclus.",
+				'de-de': "Remove 1 damage counter from each of your Pokémon, including Beautifly"
 			},
 			damage: 50,
 

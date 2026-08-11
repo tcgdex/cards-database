@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Tyrogue",
-		fr: "Debugant",
-		de: "Rabauz"
+		'en-us': "Tyrogue",
+		'fr-fr': "Debugant",
+		'de-de': "Rabauz"
 	},
 
 	illustrator: "Yuka Morii",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Baby Evolution",
-				fr: "Évolution bébé",
-				de: "Baby Evolution"
+				'en-us': "Baby Evolution",
+				'fr-fr': "Évolution bébé",
+				'de-de': "Baby Evolution"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may put Hitmonlee, Hitmonchan, or Hitmontop from your hand onto Tyrogue (this counts as evolving Tyrogue) and remove all damage counters from Tyrogue.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Kicklee, Tygnon ou Kapoera de votre main sur Debugant (vous faites ainsi évoluer Debugant) et retirer à Debugant tous ses marqueurs de dégât.",
-				de: "Once during your turn (before your attack), you may put Hitmonlee, Hitmonchan, or Hitmontop from your hand onto Tyrogue (this counts as evolving Tyrogue) and remove all damage counters from Tyrogue."
+				'en-us': "Once during your turn (before your attack), you may put Hitmonlee, Hitmonchan, or Hitmontop from your hand onto Tyrogue (this counts as evolving Tyrogue) and remove all damage counters from Tyrogue.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Kicklee, Tygnon ou Kapoera de votre main sur Debugant (vous faites ainsi évoluer Debugant) et retirer à Debugant tous ses marqueurs de dégât.",
+				'de-de': "Once during your turn (before your attack), you may put Hitmonlee, Hitmonchan, or Hitmontop from your hand onto Tyrogue (this counts as evolving Tyrogue) and remove all damage counters from Tyrogue."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Desperate Punch",
-				fr: "Poing désespéré",
-				de: "Desperate Punch"
+				'en-us': "Desperate Punch",
+				'fr-fr': "Poing désespéré",
+				'de-de': "Desperate Punch"
 			},
 			effect: {
-				en: "Does 10 damage times the number of Pokémon in play your opponent has more than you.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de Pokémon en jeu que votre adversaire a en plus par rapport à vous.",
-				de: "Does 10 damage times the number of Pokémon in play your opponent has more than you."
+				'en-us': "Does 10 damage times the number of Pokémon in play your opponent has more than you.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de Pokémon en jeu que votre adversaire a en plus par rapport à vous.",
+				'de-de': "Does 10 damage times the number of Pokémon in play your opponent has more than you."
 			},
 			damage: "10x",
 

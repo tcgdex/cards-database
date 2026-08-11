@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Nigosier VMAX",
-		en: "Cramorant VMAX",
-		es: "Cramorant VMAX",
-		it: "Cramorant VMAX",
-		pt: "Cramorant VMAX",
-		de: "Urgl VMAX"
+		'fr-fr': "Nigosier VMAX",
+		'en-us': "Cramorant VMAX",
+		'es-es': "Cramorant VMAX",
+		'it-it': "Cramorant VMAX",
+		'pt-br': "Cramorant VMAX",
+		'de-de': "Urgl VMAX"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -21,27 +21,27 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		fr: "Nigosier-V",
-		en: "Cramorant V"
+		'fr-fr': "Nigosier-V",
+		'en-us': "Cramorant V"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Jetomax",
-			en: "Max Jet",
-			es: "Maxipropulsión",
-			it: "Dynagetto",
-			pt: "Jato Max",
-			de: "Dyna-Schwall"
+			'fr-fr': "Jetomax",
+			'en-us': "Max Jet",
+			'es-es': "Maxipropulsión",
+			'it-it': "Dynagetto",
+			'pt-br': "Jato Max",
+			'de-de': "Dyna-Schwall"
 		},
 
 		effect: {
-			fr: "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 80 dégâts pour chaque côté face.",
-			en: "Flip a coin for each Energy attached to this Pokémon. This attack does 80 damage for each heads.",
-			es: "Lanza 1 moneda por cada Energía unida a este Pokémon. Este ataque hace 80 puntos de daño por cada cara.",
-			it: "Lancia una moneta per ogni Energia assegnata a questo Pokémon. Questo attacco infligge 80 danni ogni volta che esce testa.",
-			pt: "Jogue 1 moeda para cada Energia ligada a este Pokémon. Este ataque causa 80 pontos de dano para cada cara.",
-			de: "Wirf 1 Münze für jede an dieses Pokémon angelegte Energie. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu."
+			'fr-fr': "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 80 dégâts pour chaque côté face.",
+			'en-us': "Flip a coin for each Energy attached to this Pokémon. This attack does 80 damage for each heads.",
+			'es-es': "Lanza 1 moneda por cada Energía unida a este Pokémon. Este ataque hace 80 puntos de daño por cada cara.",
+			'it-it': "Lancia una moneta per ogni Energia assegnata a questo Pokémon. Questo attacco infligge 80 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 1 moeda para cada Energia ligada a este Pokémon. Este ataque causa 80 pontos de dano para cada cara.",
+			'de-de': "Wirf 1 Münze für jede an dieses Pokémon angelegte Energie. Diese Attacke fügt 80 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "80×",

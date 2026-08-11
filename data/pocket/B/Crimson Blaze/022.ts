@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [692],
 
 	name: {
-		en: "Clauncher"
+		'en-us': "Clauncher"
 	},
 
 	illustrator: "Krgc",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "Clauncher's claws will regrow if they fall off.\nThe meat inside the claws is edible, but it has a\ndistinct flavor that doesn't appeal to all tastes."
+		'en-us': "Clauncher's claws will regrow if they fall off.\nThe meat inside the claws is edible, but it has a\ndistinct flavor that doesn't appeal to all tastes."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Water Gun"
+			'en-us': "Water Gun"
 		},
 
 		damage: 20,

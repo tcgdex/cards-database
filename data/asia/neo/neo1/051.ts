@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "sudowoodo",
+		'ja-jp': "sudowoodo",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "フレイル",
+				'ja-jp': "フレイル",
 			},
 			effect: {
-				ja: "ダメージ数のダメージ数は、sudowoodoのダメージ数をカウンターします。",
+				'ja-jp': "ダメージ数のダメージ数は、sudowoodoのダメージ数をカウンターします。",
 			},
 		},
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "ロックスロー",
+				'ja-jp': "ロックスロー",
 			},
 			damage: 30,
 		},

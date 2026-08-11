@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Traveling Merchant",
-		fr: "Marchande Ambulante"
+		'en-us': "Traveling Merchant",
+		'fr-fr': "Marchande Ambulante"
 	},
 
 	illustrator: "GOSSAN",
@@ -14,8 +14,8 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Look at the top 4 cards of your deck. Put all Pokémon Tool cards you find there into your hand. Shuffle the other cards back into your deck.",
-		fr: "Regardez les 4 cartes du dessus de votre deck. Ajoutez toutes les cartes Outil Pokémon que vous y trouvez à votre main. Mélangez les autres cartes avec votre deck."
+		'en-us': "Look at the top 4 cards of your deck. Put all Pokémon Tool cards you find there into your hand. Shuffle the other cards back into your deck.",
+		'fr-fr': "Regardez les 4 cartes du dessus de votre deck. Ajoutez toutes les cartes Outil Pokémon que vous y trouvez à votre main. Mélangez les autres cartes avec votre deck."
 	},
 
 	trainerType: "Supporter"

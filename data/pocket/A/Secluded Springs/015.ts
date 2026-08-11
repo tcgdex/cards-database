@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tentacool",
-		fr: "Tentacool"
+		'en-us': "Tentacool",
+		'fr-fr': "Tentacool"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -18,24 +18,24 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "Tentacool is not a particularly strong swimmer.\nIt drifts across the surface of shallow seas as it\nsearches for prey.",
-		fr: "Peu doué pour la natation, ce Pokémon se contente de flotter à la surface des eaux peu profondes pour chasser ses proies."
+		'en-us': "Tentacool is not a particularly strong swimmer.\nIt drifts across the surface of shallow seas as it\nsearches for prey.",
+		'fr-fr': "Peu doué pour la natation, ce Pokémon se contente de flotter à la surface des eaux peu profondes pour chasser ses proies."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Poison Sting",
-			fr: "Dard-Venin"
+			'en-us': "Poison Sting",
+			'fr-fr': "Dard-Venin"
 		},
 
 		damage: 20,
 		cost: ["Water", "Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
 		}
 	}],
 

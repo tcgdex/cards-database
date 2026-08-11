@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Clefable"
+		'en-us': "Erika's Clefable"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Clefairy"
+		'en-us': "Clefairy"
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fairy Power"
+				'en-us': "Fairy Power"
 			},
 			effect: {
-				en: "Flip a coin. If heads, you may return any number of your Pokémon in play and all cards attached to them to your hand."
+				'en-us': "Flip a coin. If heads, you may return any number of your Pokémon in play and all cards attached to them to your hand."
 			},
 
 		},
@@ -45,7 +45,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Moon Impact"
+				'en-us': "Moon Impact"
 			},
 
 			damage: 30,

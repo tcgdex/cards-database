@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Chikorita",
-		fr: "Germignon",
-		de: "Endivie"
+		'en-us': "Chikorita",
+		'fr-fr': "Germignon",
+		'de-de': "Endivie"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nap",
-				fr: "Tit'sieste",
-				de: "Nickerchen"
+				'en-us': "Nap",
+				'fr-fr': "Tit'sieste",
+				'de-de': "Nickerchen"
 			},
 			effect: {
-				en: "Remove 1 damage counter from Chikorita.",
-				fr: "Retirez 1 marqueur de dégât à Germignon.",
-				de: "Entferne 1 Schadensmarke von Endivie."
+				'en-us': "Remove 1 damage counter from Chikorita.",
+				'fr-fr': "Retirez 1 marqueur de dégât à Germignon.",
+				'de-de': "Entferne 1 Schadensmarke von Endivie."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reckless Charge",
-				fr: "Attaque imprudente",
-				de: "Waghalsiger Sturmangriff"
+				'en-us': "Reckless Charge",
+				'fr-fr': "Attaque imprudente",
+				'de-de': "Waghalsiger Sturmangriff"
 			},
 			effect: {
-				en: "Chikorita does 10 damage to itself.",
-				fr: "Germignon s’inflige 10 dégâts.",
-				de: "Endivie fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Chikorita does 10 damage to itself.",
+				'fr-fr': "Germignon s’inflige 10 dégâts.",
+				'de-de': "Endivie fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up sunrays.",
+		'en-us': "A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up sunrays.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コラッタ",
+		'ja-jp': "コラッタ",
 	},
 
 	illustrator: "Shinya Komatsu",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "一生 前歯が 伸び続ける。  あまりに 伸びすぎると エサが  食べられなくなって 餓死 する。",
+		'ja-jp': "一生 前歯が 伸び続ける。  あまりに 伸びすぎると エサが  食べられなくなって 餓死 する。",
 	},
 
 	stage: "Basic",

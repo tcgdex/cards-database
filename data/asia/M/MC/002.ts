@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリカのクサイハナ",
+		'ja-jp': "エリカのクサイハナ",
 	},
 
 	illustrator: "MARINA Chikazawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "ねばねばした よだれのような 蜜。 とても 甘いのだが においが 異常に 臭くて 近寄れない。",
+		'ja-jp': "ねばねばした よだれのような 蜜。 とても 甘いのだが においが 異常に 臭くて 近寄れない。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "エリカのナゾノクサ",
+		'ja-jp': "エリカのナゾノクサ",
 	},
 
 	retreat: 1,

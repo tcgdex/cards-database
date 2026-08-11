@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Passimian",
-		fr: "Quartermac",
-		es: "Passimian",
-		it: "Passimian",
-		pt: "Passimian",
-		de: "Quartermak"
+		'en-us': "Passimian",
+		'fr-fr': "Quartermac",
+		'es-es': "Passimian",
+		'it-it': "Passimian",
+		'pt-br': "Passimian",
+		'de-de': "Quartermak"
 	},
 
 	illustrator: "kawayoo",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Power Huddle",
-				fr: "Rassemblement Puissant",
-				es: "Poder del Banquillo",
-				it: "Time Out Tecnico",
-				pt: "Grupo de Poder",
-				de: "Power-Huddle"
+				'en-us': "Power Huddle",
+				'fr-fr': "Rassemblement Puissant",
+				'es-es': "Poder del Banquillo",
+				'it-it': "Time Out Tecnico",
+				'pt-br': "Grupo de Poder",
+				'de-de': "Power-Huddle"
 			},
 			effect: {
-				en: "As long as this Pokémon is on your Bench, your Passimian’s attacks do 30 more damage to your opponent’s Active Evolution Pokémon (before applying Weakness and Resistance).",
-				fr: "Tant que ce Pokémon est sur votre Banc, les attaques de vos Quartermac infligent 30 dégâts supplémentaires au Pokémon Actif évolué de votre adversaire (avant application de la Faiblesse et de la Résistance).",
-				es: "Mientras este Pokémon esté en tu Banca, los ataques de tus Passimian hacen 30 puntos de daño más al Pokémon Evolución Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
-				it: "Fintanto che questo Pokémon è nella tua panchina, gli attacchi dei tuoi Passimian infliggono 30 danni in più al Pokémon Evoluzione attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
-				pt: "Enquanto este Pokémon estiver no seu Banco, os ataques de seus Passimian causam 30 pontos de dano a mais ao Pokémon de Evolução Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
-				de: "Solang sich dieses Pokémon auf deiner Bank befindet, fügen die Attacken deiner Quartermak dem Aktiven Entwicklungs-Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "As long as this Pokémon is on your Bench, your Passimian’s attacks do 30 more damage to your opponent’s Active Evolution Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Tant que ce Pokémon est sur votre Banc, les attaques de vos Quartermac infligent 30 dégâts supplémentaires au Pokémon Actif évolué de votre adversaire (avant application de la Faiblesse et de la Résistance).",
+				'es-es': "Mientras este Pokémon esté en tu Banca, los ataques de tus Passimian hacen 30 puntos de daño más al Pokémon Evolución Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
+				'it-it': "Fintanto che questo Pokémon è nella tua panchina, gli attacchi dei tuoi Passimian infliggono 30 danni in più al Pokémon Evoluzione attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
+				'pt-br': "Enquanto este Pokémon estiver no seu Banco, os ataques de seus Passimian causam 30 pontos de dano a mais ao Pokémon de Evolução Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
+				'de-de': "Solang sich dieses Pokémon auf deiner Bank befindet, fügen die Attacken deiner Quartermak dem Aktiven Entwicklungs-Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Hurl",
-				fr: "Lance-Pierre",
-				es: "Lanzamiento de Rocas",
-				it: "Scaglia Pietre",
-				pt: "Lançamento de Pedras",
-				de: "Steinschleuderer"
+				'en-us': "Rock Hurl",
+				'fr-fr': "Lance-Pierre",
+				'es-es': "Lanzamiento de Rocas",
+				'it-it': "Scaglia Pietre",
+				'pt-br': "Lançamento de Pedras",
+				'de-de': "Steinschleuderer"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				es: "El daño de este ataque no se ve afectado por Resistencia.",
-				it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-				pt: "O dano deste ataque não é afetado por Resistência.",
-				de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+				'en-us': "This attack’s damage isn’t affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+				'it-it': "I danni di questo attacco non sono influenzati dalla resistenza.",
+				'pt-br': "O dano deste ataque não é afetado por Resistência.",
+				'de-de': "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
 			},
 			damage: 40,
 
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They battle with hard berries for weapons. Their techniques are passed from the boss to the group, generation upon generation.",
+		'en-us': "They battle with hard berries for weapons. Their techniques are passed from the boss to the group, generation upon generation.",
 	},
 
 	thirdParty: {

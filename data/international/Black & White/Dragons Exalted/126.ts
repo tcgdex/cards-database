@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Reuniclus",
-		fr: "Symbios",
-		es: "Reuniclus",
-		it: "Reuniclus",
-		pt: "Reuniclus",
-		de: "Zytomega"
+		'en-us': "Reuniclus",
+		'fr-fr': "Symbios",
+		'es-es': "Reuniclus",
+		'it-it': "Reuniclus",
+		'pt-br': "Reuniclus",
+		'de-de': "Zytomega"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Duosion",
-		fr: "Méios",
+		'en-us': "Duosion",
+		'fr-fr': "Méios",
 	},
 
 	stage: "Stage2",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Damage Swap",
-				fr: "Échange de Dégâts",
-				es: "Intercambio de Daño",
-				it: "Dannoscambio",
-				pt: "Troca de Danos",
-				de: "Schadenstausch"
+				'en-us': "Damage Swap",
+				'fr-fr': "Échange de Dégâts",
+				'es-es': "Intercambio de Daño",
+				'it-it': "Dannoscambio",
+				'pt-br': "Troca de Danos",
+				'de-de': "Schadenstausch"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokémon to another of your Pokémon.",
-				fr: "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez déplacer 1 marqueur de dégâts de l’un de vos Pokémon vers un autre de vos Pokémon.",
-				es: "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes mover 1 contador de daño de 1 de tus Pokémon a otro de tus Pokémon.",
-				it: "Durante il tuo turno, prima di attaccare, puoi distribuire a piacimento i segnalini danno presenti sui tuoi Pokémon.",
-				pt: "Tantas vezes quanto desejar em sua vez de jogar (antes de atacar), você pode mover 1 marcador de danos de 1 dos seus Pokémon para outro dos seus Pokémon.",
-				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 Schadensmarke von 1 deiner Pokémon auf ein anderes deiner Pokémon verschieben."
+				'en-us': "As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokémon to another of your Pokémon.",
+				'fr-fr': "Autant de fois que vous le voulez pendant votre tour (avant votre attaque), vous pouvez déplacer 1 marqueur de dégâts de l’un de vos Pokémon vers un autre de vos Pokémon.",
+				'es-es': "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes mover 1 contador de daño de 1 de tus Pokémon a otro de tus Pokémon.",
+				'it-it': "Durante il tuo turno, prima di attaccare, puoi distribuire a piacimento i segnalini danno presenti sui tuoi Pokémon.",
+				'pt-br': "Tantas vezes quanto desejar em sua vez de jogar (antes de atacar), você pode mover 1 marcador de danos de 1 dos seus Pokémon para outro dos seus Pokémon.",
+				'de-de': "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 Schadensmarke von 1 deiner Pokémon auf ein anderes deiner Pokémon verschieben."
 			},
 		},
 	],
@@ -63,12 +63,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psywave",
-				fr: "Vague Psy",
+				'en-us': "Psywave",
+				'fr-fr': "Vague Psy",
 			},
 			effect: {
-				en: "Does 10 more damage for each Energy attached to the Defending Pokémon.",
-				fr: "Inflige 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Does 10 more damage for each Energy attached to the Defending Pokémon.",
+				'fr-fr': "Inflige 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 30,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
+		'en-us': "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
 	},
 
 	thirdParty: {

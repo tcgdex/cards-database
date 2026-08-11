@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Infernape ex",
-		fr: "Simiabraz-ex"
+		'en-us': "Infernape ex",
+		'fr-fr': "Simiabraz-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Monferno"
+		'en-us': "Monferno"
 	},
 
 	stage: "Stage2",
@@ -26,16 +26,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Flare Blitz",
-			fr: "Boutefeu"
+			'en-us': "Flare Blitz",
+			'fr-fr': "Boutefeu"
 		},
 
 		damage: 140,
 		cost: ["Fire", "Fire"],
 
 		effect: {
-			en: "Discard all {R} Energy from this Pokémon.",
-			fr: "Défaussez toutes les Énergies {R} de ce Pokémon."
+			'en-us': "Discard all {R} Energy from this Pokémon.",
+			'fr-fr': "Défaussez toutes les Énergies {R} de ce Pokémon."
 		}
 	}],
 

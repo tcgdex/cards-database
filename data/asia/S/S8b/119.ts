@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レックウザV",
+		'ja-jp': "レックウザV",
 		'zh-tw': "烈空坐V",
 	},
 
@@ -18,25 +18,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "りゅうのはどう",
+				'ja-jp': "りゅうのはどう",
 				'zh-tw': "龍之波動",
 			},
 			damage: 40,
 			cost: ["Lightning"],
 			effect: {
-				ja: "自分の山札を上から2枚トラッシュする。",
+				'ja-jp': "自分の山札を上から2枚トラッシュする。",
 				'zh-tw': "將自己的牌庫上方2張卡丟棄。",
 			},
 		},
 		{
 			name: {
-				ja: "スパイラルバースト",
+				'ja-jp': "スパイラルバースト",
 				'zh-tw': "螺旋爆破",
 			},
 			damage: "20+",
 			cost: ["Fire", "Lightning"],
 			effect: {
-				ja: "のぞむなら、このポケモンについている[炎]または[雷]タイプのどちらかの基本エネルギーを2枚までトラッシュし、その枚数×80ダメージ追加。",
+				'ja-jp': "のぞむなら、このポケモンについている[炎]または[雷]タイプのどちらかの基本エネルギーを2枚までトラッシュし、その枚数×80ダメージ追加。",
 				'zh-tw': "若希望，將這隻寶可夢身上附加的【火】或者【雷】任一屬性的最多2張基本能量卡丟棄，增加其張數×80點傷害。",
 			},
 		},

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vibrava",
-		fr: "Vibraninf",
-		es: "Vibrava",
-		it: "Vibrava",
-		pt: "Vibrava",
-		de: "Vibrava"
+		'en-us': "Vibrava",
+		'fr-fr': "Vibraninf",
+		'es-es': "Vibrava",
+		'it-it': "Vibrava",
+		'pt-br': "Vibrava",
+		'de-de': "Vibrava"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Trapinch",
-		fr: "Kraknoix",
-		es: "Trapinch",
-		it: "Trapinch",
-		pt: "Trapinch",
-		de: "Knacklion"
+		'en-us': "Trapinch",
+		'fr-fr': "Kraknoix",
+		'es-es': "Trapinch",
+		'it-it': "Trapinch",
+		'pt-br': "Trapinch",
+		'de-de': "Knacklion"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Razor Wing",
-			fr: "Aile Tranchante",
-			es: "Ala Cortante",
-			it: "Ala Tagliente",
-			pt: "Asa Cortante",
-			de: "Rasierflügel"
+			'en-us': "Razor Wing",
+			'fr-fr': "Aile Tranchante",
+			'es-es': "Ala Cortante",
+			'it-it': "Ala Tagliente",
+			'pt-br': "Asa Cortante",
+			'de-de': "Rasierflügel"
 		},
 
 		damage: 30
@@ -57,7 +57,7 @@ const card: Card = {
 
 
 	description: {
-		en: "The ultrasonic waves it generates by rubbing its two wings together cause severe headaches.",
+		'en-us': "The ultrasonic waves it generates by rubbing its two wings together cause severe headaches.",
 	},
 
 	variants: [

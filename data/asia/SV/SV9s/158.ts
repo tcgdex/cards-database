@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ออนแบท",
-		id: "Noibat"
+		'th-th': "ออนแบท",
+		'id-id': "Noibat"
 	},
 
 	illustrator: "sowsow",
@@ -15,20 +15,20 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "ปล่อยคลื่นเสียงความถี่สูงจากใบหูขนาดใหญ่เพื่อค้นหาผลไม้ที่เป็น อาหารของมัน ชอบหลงคิดว่าคาจิชชูเป็นอาหาร"
+		'th-th': "ปล่อยคลื่นเสียงความถี่สูงจากใบหูขนาดใหญ่เพื่อค้นหาผลไม้ที่เป็น อาหารของมัน ชอบหลงคิดว่าคาจิชชูเป็นอาหาร"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ควิกดรอว์",
-			id: "Quick Draw"
+			'th-th': "ควิกดรอว์",
+			'id-id': "Quick Draw"
 		},
 
 		effect: {
-			th: "จั่วการ์ด 1 ใบจากสำรับการ์ดฝ่ายเรา",
-			id: "Ambil 1 kartu dari atas Deck sendiri."
+			'th-th': "จั่วการ์ด 1 ใบจากสำรับการ์ดฝ่ายเรา",
+			'id-id': "Ambil 1 kartu dari atas Deck sendiri."
 		},
 
 		damage: 10,

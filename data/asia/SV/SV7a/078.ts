@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ラティアスex"
+		'ja-jp': "ラティアスex"
 	},
 
 	illustrator: "takuyoa",
@@ -19,11 +19,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "スカイライン"
+			'ja-jp': "スカイライン"
 		},
 
 		effect: {
-			ja: "このポケモンがいるかぎり、自分のたねポケモン全員のにげるためのエネルギーは、すべてなくなる。"
+			'ja-jp': "このポケモンがいるかぎり、自分のたねポケモン全員のにげるためのエネルギーは、すべてなくなる。"
 		}
 	}],
 
@@ -31,13 +31,13 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			ja: "むげんのやいば"
+			'ja-jp': "むげんのやいば"
 		},
 
 		damage: 200,
 
 		effect: {
-			ja: "次の自分の番、このポケモンはワザが使えない。"
+			'ja-jp': "次の自分の番、このポケモンはワザが使えない。"
 		}
 	}],
 

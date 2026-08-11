@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Rocket's Persian ex",
-		fr: "Persian ex de Rocket",
-		de: "Rockets Snobilikat ex"
+		'en-us': "Rocket's Persian ex",
+		'fr-fr': "Persian ex de Rocket",
+		'de-de': "Rockets Snobilikat ex"
 	},
 
 	suffix: "ex",
@@ -25,8 +25,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rocket's Meowth",
-		fr: "Miaouss de Rocket"
+		'en-us': "Rocket's Meowth",
+		'fr-fr': "Miaouss de Rocket"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Night Cry",
-				fr: "Cri nocturne",
-				de: "Night Cry"
+				'en-us': "Night Cry",
+				'fr-fr': "Cri nocturne",
+				'de-de': "Night Cry"
 			},
 			effect: {
-				en: "Once during your turn, if Rocket's Persian ex is on your Bench, you may search your deck for a Pokémon with Dark or Rocket's in its name. Show it to your opponent and put it into your hand. Shuffle your deck afterward.",
-				fr: "Une seule fois lors de votre tour, si Persian ex de Rocket est sur votre Banc, vous pouvez chercher dans votre deck un Pokémon dont le nom comporte Obscur ou Rocket. Montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck.",
-				de: "Once during your turn, if Rocket's Persian ex is on your Bench, you may search your deck for a Pokémon with Dark or Rocket's in its name. Show it to your opponent and put it into your hand. Shuffle your deck afterward."
+				'en-us': "Once during your turn, if Rocket's Persian ex is on your Bench, you may search your deck for a Pokémon with Dark or Rocket's in its name. Show it to your opponent and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Une seule fois lors de votre tour, si Persian ex de Rocket est sur votre Banc, vous pouvez chercher dans votre deck un Pokémon dont le nom comporte Obscur ou Rocket. Montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck.",
+				'de-de': "Once during your turn, if Rocket's Persian ex is on your Bench, you may search your deck for a Pokémon with Dark or Rocket's in its name. Show it to your opponent and put it into your hand. Shuffle your deck afterward."
 			},
 		},
 	],
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Toxic Claws",
-				fr: "Griffes toxiques",
-				de: "Toxic Claws"
+				'en-us': "Toxic Claws",
+				'fr-fr': "Griffes toxiques",
+				'de-de': "Toxic Claws"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours.",
-				de: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns."
+				'en-us': "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours.",
+				'de-de': "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns."
 			},
 			damage: 20,
 

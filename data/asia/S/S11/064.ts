@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シロデスナ",
+		'ja-jp': "シロデスナ",
 		'zh-tw': "噬沙堡爺",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ビーチの 悪夢とも 呼ばれる。 砂を 操って 獲物を 沈め 魂を 吸い取る。",
+		'ja-jp': "ビーチの 悪夢とも 呼ばれる。 砂を 操って 獲物を 沈め 魂を 吸い取る。",
 		'zh-tw': "也被稱為「海灘惡夢」。會操控沙子淹沒獵物， 然後吸取對方的靈魂。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "すなつぼじごく",
+				'ja-jp': "すなつぼじごく",
 				'zh-tw': "沙壺地獄",
 			},
 			cost: ["Fighting"],
 			effect: {
-				ja: "相手のポケモン全員に、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン全員に、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 				'zh-tw': "對手的所有寶可夢各受到30點傷害。[在備戰區不計算弱點・抵抗力。]",
 			},
 		},
 		{
 			name: {
-				ja: "ランドクラッシュ",
+				'ja-jp': "ランドクラッシュ",
 				'zh-tw': "大地粉碎",
 			},
 			damage: 120,
@@ -56,7 +56,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "スナバァ",
+		'ja-jp': "スナバァ",
 	},
 
 	retreat: 3,

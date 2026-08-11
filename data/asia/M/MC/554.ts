@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タケルライコex",
+		'ja-jp': "タケルライコex",
 	},
 
 	illustrator: "aky CG Works",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "はじけるほうこう" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の手札をすべてトラッシュし、山札を6枚引く。",
+				'ja-jp': "自分の手札をすべてトラッシュし、山札を6枚引く。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "70×",
 			cost: ["Lightning", "Fighting"],
 			effect: {
-				ja: "自分の場のポケモンについている基本エネルギーを好きなだけトラッシュし、その枚数×70ダメージ。",
+				'ja-jp': "自分の場のポケモンについている基本エネルギーを好きなだけトラッシュし、その枚数×70ダメージ。",
 			},
 		},
 	],

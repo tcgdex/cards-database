@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Purrloin",
-		fr: "Chacripan",
-		es: "Purrloin",
-		it: "Purrloin",
-		pt: "Purrloin",
-		de: "Felilou"
+		'en-us': "Purrloin",
+		'fr-fr': "Chacripan",
+		'es-es': "Purrloin",
+		'it-it': "Purrloin",
+		'pt-br': "Purrloin",
+		'de-de': "Felilou"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cleaning Up",
-				fr: "Nettoyage",
-				es: "Purgar",
-				it: "Pulizie",
-				pt: "Limpar",
-				de: "Putzen"
+				'en-us': "Cleaning Up",
+				'fr-fr': "Nettoyage",
+				'es-es': "Purgar",
+				'it-it': "Pulizie",
+				'pt-br': "Limpar",
+				'de-de': "Putzen"
 			},
 			effect: {
-				en: "Discard a Pokémon Tool card from 1 of your opponent’s Pokémon.",
-				fr: "Défaussez une carte Outil Pokémon de l’un des Pokémon de votre adversaire.",
-				es: "Descarta 1 carta de Herramienta Pokémon de 1 de los Pokémon de tu rival.",
-				it: "Scarta una carta Oggetto Pokémon assegnata a uno dei Pokémon del tuo avversario.",
-				pt: "Descarte 1 carta de Ferramenta Pokémon de 1 dos Pokémon do seu oponente.",
-				de: "Lege 1 Pokémon-Ausrüstung von 1 Pokémon deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard a Pokémon Tool card from 1 of your opponent’s Pokémon.",
+				'fr-fr': "Défaussez une carte Outil Pokémon de l’un des Pokémon de votre adversaire.",
+				'es-es': "Descarta 1 carta de Herramienta Pokémon de 1 de los Pokémon de tu rival.",
+				'it-it': "Scarta una carta Oggetto Pokémon assegnata a uno dei Pokémon del tuo avversario.",
+				'pt-br': "Descarte 1 carta de Ferramenta Pokémon de 1 dos Pokémon do seu oponente.",
+				'de-de': "Lege 1 Pokémon-Ausrüstung von 1 Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its cute act is a ruse. When victims let down their guard, they find their items taken. It attacks with sharp claws.",
+		'en-us': "Its cute act is a ruse. When victims let down their guard, they find their items taken. It attacks with sharp claws.",
 	},
 
 	thirdParty: {

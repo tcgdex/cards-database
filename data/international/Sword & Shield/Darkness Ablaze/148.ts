@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [580],
 
 	name: {
-		en: "Ducklett",
-		fr: "Couaneton",
-		es: "Ducklett",
-		it: "Ducklett",
-		pt: "Ducklett",
-		de: "Piccolente"
+		'en-us': "Ducklett",
+		'fr-fr': "Couaneton",
+		'es-es': "Ducklett",
+		'it-it': "Ducklett",
+		'pt-br': "Ducklett",
+		'de-de': "Piccolente"
 	},
 
 	illustrator: "Midori Harada",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flap",
-				fr: "Battement",
-				es: "Aleteo",
-				it: "Alabattito",
-				pt: "Asa",
-				de: "Flattern"
+				'en-us': "Flap",
+				'fr-fr': "Battement",
+				'es-es': "Aleteo",
+				'it-it': "Alabattito",
+				'pt-br': "Asa",
+				'de-de': "Flattern"
 			},
 
 			damage: 20,
@@ -63,7 +63,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "They are better at swimming than flying, and they happily eat their favorite food, peat moss, as they dive underwater."
+		'en-us': "They are better at swimming than flying, and they happily eat their favorite food, peat moss, as they dive underwater."
 	},
 
 	variants: [

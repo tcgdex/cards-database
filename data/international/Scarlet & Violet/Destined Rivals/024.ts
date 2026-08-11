@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rellor",
-		fr: "Léboulérou",
-		de: "Relluk",
-		it: "Rellor",
-		es: "Rellor",
-		pt: "Rellor",
+		'en-us': "Rellor",
+		'fr-fr': "Léboulérou",
+		'de-de': "Relluk",
+		'it-it': "Rellor",
+		'es-es': "Rellor",
+		'pt-br': "Rellor",
 		'es-mx': "Rellor"
 	},
 
@@ -26,34 +26,34 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			de: "Sammeln",
-			it: "Tassa",
-			es: "Coleccionar",
-			pt: "Coleta",
+			'en-us': "Collect",
+			'fr-fr': "Collecte",
+			'de-de': "Sammeln",
+			'it-it': "Tassa",
+			'es-es': "Coleccionar",
+			'pt-br': "Coleta",
 			'es-mx': "Recolectar"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			de: "Ziehe 1 Karte.",
-			it: "Pesca una carta.",
-			es: "Roba 1 carta.",
-			pt: "Compre uma carta.",
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'de-de': "Ziehe 1 Karte.",
+			'it-it': "Pesca una carta.",
+			'es-es': "Roba 1 carta.",
+			'pt-br': "Compre uma carta.",
 			'es-mx': "Roba 1 carta."
 		}
 	}, {
 		cost: ["Grass"],
 
 		name: {
-			en: "Rollout",
-			fr: "Roulade",
-			de: "Walzer",
-			it: "Rotolamento",
-			es: "Rodar",
-			pt: "Rolagem",
+			'en-us': "Rollout",
+			'fr-fr': "Roulade",
+			'de-de': "Walzer",
+			'it-it': "Rotolamento",
+			'es-es': "Rodar",
+			'pt-br': "Rolagem",
 			'es-mx': "Rodada"
 		},
 

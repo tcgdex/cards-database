@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Wingull",
-		de: "Wingull"
+		'en-us': "Wingull",
+		'de-de': "Wingull"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Rain Splash",
-				de: "Regenplatscher"
+				'en-us': "Rain Splash",
+				'de-de': "Regenplatscher"
 			},
 
 			damage: 20,
@@ -54,7 +54,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill."
+		'en-us': "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill."
 	},
 
 	variants: [

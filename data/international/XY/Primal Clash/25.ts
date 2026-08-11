@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Torchic",
-		fr: "Poussifeu",
-		es: "Torchic",
-		it: "Torchic",
-		pt: "Torchic",
-		de: "Flemmli"
+		'en-us': "Torchic",
+		'fr-fr': "Poussifeu",
+		'es-es': "Torchic",
+		'it-it': "Torchic",
+		'pt-br': "Torchic",
+		'de-de': "Flemmli"
 	},
 
 	illustrator: "sui",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Ember",
-				fr: "Flammèche",
-				es: "Ascuas",
-				it: "Braciere",
-				pt: "Ember",
-				de: "Glut"
+				'en-us': "Ember",
+				'fr-fr': "Flammèche",
+				'es-es': "Ascuas",
+				'it-it': "Braciere",
+				'pt-br': "Ember",
+				'de-de': "Glut"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Fire Energy attached to this Pokémon.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à ce Pokémon.",
-				es: "Lanza 1 moneda. Si sale cruz, descarta 1 Energía Fire unida a este Pokémon.",
-				it: "Lancia una moneta. Se esce croce, scarta un'Energia Fire assegnata a questo Pokémon.",
-				pt: "Jogue uma moeda. Se sair coroa, descarte uma Energia Fire ligada a este Pokémon.",
-				de: "Wirf 1 Münze. Lege bei \"Zahl\" 1 an dieses Pokémon angelegte Fire-Energie auf deinen Ablagestapel."
+				'en-us': "Flip a coin. If tails, discard a Fire Energy attached to this Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à ce Pokémon.",
+				'es-es': "Lanza 1 moneda. Si sale cruz, descarta 1 Energía Fire unida a este Pokémon.",
+				'it-it': "Lancia una moneta. Se esce croce, scarta un'Energia Fire assegnata a questo Pokémon.",
+				'pt-br': "Jogue uma moeda. Se sair coroa, descarte uma Energia Fire ligada a este Pokémon.",
+				'de-de': "Wirf 1 Münze. Lege bei \"Zahl\" 1 an dieses Pokémon angelegte Fire-Energie auf deinen Ablagestapel."
 			},
 			damage: 20,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees Fahrenheit.",
+		'en-us': "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees Fahrenheit.",
 	},
 
 	thirdParty: {

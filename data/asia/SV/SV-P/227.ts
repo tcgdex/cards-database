@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "かるいし",
+		'ja-jp': "かるいし",
 	},
 
 	illustrator: "Toyste Beach",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけているポケモンのにげるために必要なエネルギーは、すべてなくなる。",
+		'ja-jp': "このカードをつけているポケモンのにげるために必要なエネルギーは、すべてなくなる。",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エルフーンGX",
+		'ja-jp': "エルフーンGX",
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ふわふわコットン" },
 			effect: {
-				ja: "このポケモンがワザのダメージを受けるとき、自分はコインを1回投げる。オモテなら、このポケモンはそのダメージを受けない。",
+				'ja-jp': "このポケモンがワザのダメージを受けるとき、自分はコインを1回投げる。オモテなら、このポケモンはそのダメージを受けない。",
 			},
 		},
 	],
@@ -30,14 +30,14 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Fairy"],
 			effect: {
-				ja: "このポケモンについているエネルギーの数x30ダメージ追加。",
+				'ja-jp': "このポケモンについているエネルギーの数x30ダメージ追加。",
 			},
 		},
 		{
 			name: { ja: "トイボックスGX" },
 			cost: ["Fairy"],
 			effect: {
-				ja: "自分の山札にある好きなカードを5枚まで、手札に加える。そして山札を切る。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分の山札にある好きなカードを5枚まで、手札に加える。そして山札を切る。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モンメン",
+		'ja-jp': "モンメン",
 	},
 
 	retreat: 1,

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Gloom"
+		'en-us': "Erika's Gloom"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Oddish"
+		'en-us': "Oddish"
 	},
 
 	stage: "Stage1",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dream Dance"
+				'en-us': "Dream Dance"
 			},
 			effect: {
-				en: "Both the Defending Pokémon and Erika's Gloom are now Asleep (after doing damage)."
+				'en-us': "Both the Defending Pokémon and Erika's Gloom are now Asleep (after doing damage)."
 			},
 			damage: 10,
 
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vile Smell"
+				'en-us': "Vile Smell"
 			},
 			effect: {
-				en: "Both the Defending Pokémon and Erika's Gloom are now Confused (after doing damage)."
+				'en-us': "Both the Defending Pokémon and Erika's Gloom are now Confused (after doing damage)."
 			},
 			damage: 30,
 

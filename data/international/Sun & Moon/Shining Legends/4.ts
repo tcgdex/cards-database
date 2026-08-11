@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Shroomish",
-		fr: "Balignon",
-		es: "Shroomish",
-		it: "Shroomish",
-		pt: "Shroomish",
-		de: "Knilz"
+		'en-us': "Shroomish",
+		'fr-fr': "Balignon",
+		'es-es': "Shroomish",
+		'it-it': "Shroomish",
+		'pt-br': "Shroomish",
+		'de-de': "Knilz"
 	},
 
 	illustrator: "kawayoo",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Absorb",
-				fr: "Vol-Vie",
-				es: "Absorber",
-				it: "Assorbimento",
-				pt: "Absorção",
-				de: "Absorber"
+				'en-us': "Absorb",
+				'fr-fr': "Vol-Vie",
+				'es-es': "Absorber",
+				'it-it': "Assorbimento",
+				'pt-br': "Absorção",
+				'de-de': "Absorber"
 			},
 			effect: {
-				en: "Heal 20 damage from this Pokémon.",
-				fr: "Soignez 20 dégâts à ce Pokémon.",
-				es: "Cura 20 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 20 danni.",
-				pt: "Cure 20 pontos de dano deste Pokémon.",
-				de: "Heile 20 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 20 damage from this Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à ce Pokémon.",
+				'es-es': "Cura 20 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 20 danni.",
+				'pt-br': "Cure 20 pontos de dano deste Pokémon.",
+				'de-de': "Heile 20 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 20,
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It prefers damp places. By day it remains still in the forest shade. It releases toxic powder from its head.",
+		'en-us': "It prefers damp places. By day it remains still in the forest shade. It releases toxic powder from its head.",
 	},
 
 	thirdParty: {

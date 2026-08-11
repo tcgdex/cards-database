@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Snivy",
-		fr: "Vipélierre",
-		es: "Snivy",
-		it: "Snivy",
-		pt: "Snivy",
-		de: "Serpifeu"
+		'en-us': "Snivy",
+		'fr-fr': "Vipélierre",
+		'es-es': "Snivy",
+		'it-it': "Snivy",
+		'pt-br': "Snivy",
+		'de-de': "Serpifeu"
 	},
 
 	illustrator: "Mizue",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Vine Whip",
-				fr: "Fouet Lianes",
+				'en-us': "Vine Whip",
+				'fr-fr': "Fouet Lianes",
 			},
 
 			damage: 10,
@@ -47,8 +47,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cut",
-				fr: "Coupe",
+				'en-us': "Cut",
+				'fr-fr': "Coupe",
 			},
 
 			damage: 20,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter.",
+		'en-us': "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter.",
 	},
 
 	thirdParty: {

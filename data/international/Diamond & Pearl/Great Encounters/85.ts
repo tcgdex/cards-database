@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Solrock",
-		fr: "Solaroc",
-		de: "Sonnfel"
+		'en-us': "Solrock",
+		'fr-fr': "Solaroc",
+		'de-de': "Sonnfel"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Sunlight",
-				fr: "Rayon solaire",
-				de: "Sonnenlicht"
+				'en-us': "Sunlight",
+				'fr-fr': "Rayon solaire",
+				'de-de': "Sonnenlicht"
 			},
 			effect: {
-				en: "If you have Lunatone in play, damage done to your opponent's Pokémon by your Psychic or Fighting Pokémon isn't affected by Resistance.",
-				fr: "Si vous avez Seleroc en jeu, les dégâts infligés aux Pokémon de votre adversaire par vos Pokémon Psychic ou Fighting ne sont pas affectés par la Résistance.",
-				de: "Wenn du Lunastein im Spiel hast, wird Schaden, der gegnerischen Pokémon durch deine - oder -Pokémon zugefügt wird, durch Resistenz nicht verändert."
+				'en-us': "If you have Lunatone in play, damage done to your opponent's Pokémon by your Psychic or Fighting Pokémon isn't affected by Resistance.",
+				'fr-fr': "Si vous avez Seleroc en jeu, les dégâts infligés aux Pokémon de votre adversaire par vos Pokémon Psychic ou Fighting ne sont pas affectés par la Résistance.",
+				'de-de': "Wenn du Lunastein im Spiel hast, wird Schaden, der gegnerischen Pokémon durch deine - oder -Pokémon zugefügt wird, durch Resistenz nicht verändert."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Sol Charge",
-				fr: "Recharge solaire",
-				de: "Solaraufladung"
+				'en-us': "Sol Charge",
+				'fr-fr': "Recharge solaire",
+				'de-de': "Solaraufladung"
 			},
 			effect: {
-				en: "Search your discard pile for a basic Energy card and attach it to 1 of your Benched Pokémon.",
-				fr: "Choisissez dans votre pile de défausse une carte Énergie de base et attachez-la à 1 de vos Pokémon de Banc.",
-				de: "Durchsuche deinen Ablagestapel nach einer Basis-Energiekarte und lege sie an 1 Pokémon auf deiner Bank an."
+				'en-us': "Search your discard pile for a basic Energy card and attach it to 1 of your Benched Pokémon.",
+				'fr-fr': "Choisissez dans votre pile de défausse une carte Énergie de base et attachez-la à 1 de vos Pokémon de Banc.",
+				'de-de': "Durchsuche deinen Ablagestapel nach einer Basis-Energiekarte und lege sie an 1 Pokémon auf deiner Bank an."
 			},
 			damage: 20,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A new Pokémon species, rumored to be from the sun. It gives off light while spinning.",
+		'en-us': "A new Pokémon species, rumored to be from the sun. It gives off light while spinning.",
 	},
 
 	thirdParty: {

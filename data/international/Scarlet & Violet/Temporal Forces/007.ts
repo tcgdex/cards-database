@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Breloom",
-		fr: "Chapignon",
-		es: "Breloom",
-		it: "Breloom",
-		pt: "Breloom",
-		de: "Kapilz"
+		'en-us': "Breloom",
+		'fr-fr': "Chapignon",
+		'es-es': "Breloom",
+		'it-it': "Breloom",
+		'pt-br': "Breloom",
+		'de-de': "Kapilz"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Shroomish",
-		fr: "Balignon",
-		es: "Shroomish",
-		it: "Shroomish",
-		pt: "Shroomish",
-		de: "Knilz"
+		'en-us': "Shroomish",
+		'fr-fr': "Balignon",
+		'es-es': "Shroomish",
+		'it-it': "Shroomish",
+		'pt-br': "Shroomish",
+		'de-de': "Knilz"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Punch",
-			fr: "Koud'Poing",
-			es: "Puño",
-			it: "Pugno",
-			pt: "Soco",
-			de: "Boxhieb"
+			'en-us': "Punch",
+			'fr-fr': "Koud'Poing",
+			'es-es': "Puño",
+			'it-it': "Pugno",
+			'pt-br': "Soco",
+			'de-de': "Boxhieb"
 		},
 
 		damage: 30
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Knuckle Impact",
-			fr: "Coup d'Articulations",
-			es: "Impacto Nudillo",
-			it: "Impatto Nocche",
-			pt: "Impacto Ossudo",
-			de: "Knöchelprall"
+			'en-us': "Knuckle Impact",
+			'fr-fr': "Coup d'Articulations",
+			'es-es': "Impacto Nudillo",
+			'it-it': "Impatto Nocche",
+			'pt-br': "Impacto Ossudo",
+			'de-de': "Knöchelprall"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 120
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "The seeds on its tail are made of toxic spores. It knocks out foes with quick, virtually invisible punches.",
+		'en-us': "The seeds on its tail are made of toxic spores. It knocks out foes with quick, virtually invisible punches.",
 	},
 
 	variants: [

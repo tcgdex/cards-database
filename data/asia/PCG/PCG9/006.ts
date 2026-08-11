@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "quagsire（デルタ種）",
+		'ja-jp': "quagsire（デルタ種）",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "掘り下げます",
+				'ja-jp': "掘り下げます",
 			},
 			effect: {
-				ja: "ターン中に、手からquagsireをプレイしてポカンの1つを進化させると、最大2つのポカンツールカードを廃棄パイルを検索し、相手に見せて、手に渡すことができます。",
+				'ja-jp': "ターン中に、手からquagsireをプレイしてポカンの1つを進化させると、最大2つのポカンツールカードを廃棄パイルを検索し、相手に見せて、手に渡すことができます。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless", "Colorless"],
 			name: {
-				ja: "ポンプアウト",
+				'ja-jp': "ポンプアウト",
 			},
 			effect: {
-				ja: "Quagsireにポケモンツールカードが接続されている場合、この攻撃は50のダメージと20ダメージを与えます。",
+				'ja-jp': "Quagsireにポケモンツールカードが接続されている場合、この攻撃は50のダメージと20ダメージを与えます。",
 			},
 		},
 	],

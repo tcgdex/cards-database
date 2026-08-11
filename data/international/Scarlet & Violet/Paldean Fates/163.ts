@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rabsca",
-		fr: "Bérasca",
-		es: "Rabsca",
-		it: "Rabsca",
-		pt: "Rabsca",
-		de: "Skarabaks"
+		'en-us': "Rabsca",
+		'fr-fr': "Bérasca",
+		'es-es': "Rabsca",
+		'it-it': "Rabsca",
+		'pt-br': "Rabsca",
+		'de-de': "Skarabaks"
 	},
 
 	rarity: "Shiny rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 70,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Rellor",
-		fr: "Léboulérou",
-		es: "Rellor",
-		it: "Rellor",
-		pt: "Rellor",
-		de: "Relluk"
+		'en-us': "Rellor",
+		'fr-fr': "Léboulérou",
+		'es-es': "Rellor",
+		'it-it': "Rellor",
+		'pt-br': "Rellor",
+		'de-de': "Relluk"
 	},
 	stage: "Stage1",
 
@@ -32,41 +32,41 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Revival Blessing",
-			fr: "Second Souffle",
-			es: "Plegaria Vital",
-			it: "Preghiera Vitale",
-			pt: "Bênção do Reviver",
-			de: "Vitalsegen"
+			'en-us': "Revival Blessing",
+			'fr-fr': "Second Souffle",
+			'es-es': "Plegaria Vital",
+			'it-it': "Preghiera Vitale",
+			'pt-br': "Bênção do Reviver",
+			'de-de': "Vitalsegen"
 		},
 
 		effect: {
-			en: "Put a Pokémon from your discard pile onto your Bench.",
-			fr: "Placez un Pokémon de votre pile de défausse sur votre Banc.",
-			es: "Pon 1 Pokémon de tu pila de descartes en tu Banca.",
-			it: "Prendi un Pokémon dalla tua pila degli scarti e mettilo in panchina.",
-			pt: "Coloque um Pokémon da sua pilha de descarte no seu Banco.",
-			de: "Lege 1 Pokémon aus deinem Ablagestapel auf deine Bank."
+			'en-us': "Put a Pokémon from your discard pile onto your Bench.",
+			'fr-fr': "Placez un Pokémon de votre pile de défausse sur votre Banc.",
+			'es-es': "Pon 1 Pokémon de tu pila de descartes en tu Banca.",
+			'it-it': "Prendi un Pokémon dalla tua pila degli scarti e mettilo in panchina.",
+			'pt-br': "Coloque um Pokémon da sua pilha de descarte no seu Banco.",
+			'de-de': "Lege 1 Pokémon aus deinem Ablagestapel auf deine Bank."
 		}
 	}, {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			en: "Psybeam",
-			fr: "Rafale Psy",
-			es: "Psicorrayo",
-			it: "Psicoraggio",
-			pt: "Feixe Psíquico",
-			de: "Psystrahl"
+			'en-us': "Psybeam",
+			'fr-fr': "Rafale Psy",
+			'es-es': "Psicorrayo",
+			'it-it': "Psicoraggio",
+			'pt-br': "Feixe Psíquico",
+			'de-de': "Psystrahl"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
 		damage: 50
@@ -101,7 +101,7 @@ const card: Card = {
 	illustrator: "Nelnal",
 
 	description: {
-		en: "The body that supports the ball barely moves. Therefore, it is thought that the true body of this Pokémon is actually inside the ball.",
+		'en-us': "The body that supports the ball barely moves. Therefore, it is thought that the true body of this Pokémon is actually inside the ball.",
 	},
 
 }

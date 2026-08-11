@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 		'zh-tw': "噴火龍V",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "まわりの 環境に 合わせて 体の つくりを 変えていく 能力の 持ち主。",
+		'ja-jp': "まわりの 環境に 合わせて 体の つくりを 変えていく 能力の 持ち主。",
 	},
 
 	stage: "Basic",
@@ -22,23 +22,23 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "しんかのきざし",
+				'ja-jp': "しんかのきざし",
 				'zh-tw': "利爪劈擊",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "「イーブイ」から進化するカードを、自分の山札から1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "「イーブイ」から進化するカードを、自分の山札から1枚選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 		{
 			name: {
-				ja: "けりつける",
+				'ja-jp': "けりつける",
 				'zh-tw': "火焰旋渦",
 			},
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
 				'zh-tw': "選擇2個這隻寶可夢身上附加的能量，將其丟棄。",
 			},
 		},

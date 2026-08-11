@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG7"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "exeggutor（デルタ種）",
+		'ja-jp': "exeggutor（デルタ種）",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "デルタサークル",
+				'ja-jp': "デルタサークル",
 			},
 			effect: {
-				ja: "10ダメージに加えて、プレイ中のポケモンごとに10ダメージがあり、そのカードにデルタが付いています。",
+				'ja-jp': "10ダメージに加えて、プレイ中のポケモンごとに10ダメージがあり、そのカードにデルタが付いています。",
 			},
 		},
 		{
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "分割爆弾",
+				'ja-jp': "分割爆弾",
 			},
 			effect: {
-				ja: "対戦相手のポケモンの2つを選択してください。この攻撃は、それぞれに30のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "対戦相手のポケモンの2つを選択してください。この攻撃は、それぞれに30のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 		},
 	],

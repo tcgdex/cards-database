@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "テラパゴスex",
+		'ja-jp': "テラパゴスex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このワザは、後攻プレイヤーの最初の番には使えない。自分のベンチポケモンの数×30ダメージ。",
+				'ja-jp': "このワザは、後攻プレイヤーの最初の番には使えない。自分のベンチポケモンの数×30ダメージ。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Grass", "Water", "Lightning"],
 			effect: {
-				ja: "次の相手の番、このポケモンはたねポケモン（[C]ポケモンをのぞく）からワザのダメージを受けない。",
+				'ja-jp': "次の相手の番、このポケモンはたねポケモン（[C]ポケモンをのぞく）からワザのダメージを受けない。",
 			},
 		},
 	],

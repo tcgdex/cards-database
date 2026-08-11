@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Dewgong",
+		'en-us': "Dewgong",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Seel",
+		'en-us': "Seel",
 	},
 
 	stage: "Stage1",
@@ -35,7 +35,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aurora Beam",
+				'en-us': "Aurora Beam",
 			},
 
 			damage: 50,
@@ -49,10 +49,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Beam",
+				'en-us': "Ice Beam",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 30,
 
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters.",
+		'en-us': "Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters.",
 	},
 
 

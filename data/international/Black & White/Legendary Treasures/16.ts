@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Genesect",
+		'en-us': "Genesect",
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Slash",
+				'en-us': "Slash",
 			},
 
 			damage: 20,
@@ -43,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gaia Blaster",
+				'en-us': "Gaia Blaster",
 			},
 			effect: {
-				en: "Does 20 more damage for each Grass Energy attached to this Pokémon.",
+				'en-us': "Does 20 more damage for each Grass Energy attached to this Pokémon.",
 			},
 			damage: 50,
 
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.",
+		'en-us': "This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウーパー",
+		'ja-jp': "ウーパー",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "飽和",
+				'ja-jp': "飽和",
 			},
 			effect: {
-				ja: "手からWooperに水エネルギーカードを取り付けたら、Wooperからすべての特別な条件と1ダメージカウンターを削除します。",
+				'ja-jp': "手からWooperに水エネルギーカードを取り付けたら、Wooperからすべての特別な条件と1ダメージカウンターを削除します。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "波のスプラッシュ",
+				'ja-jp': "波のスプラッシュ",
 			},
 			damage: 10,
 		},

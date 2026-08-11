@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガオガエンGX",
+		'ja-jp': "ガオガエンGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Fire"],
 			effect: {
-				ja: "自分のベンチの[炎]ポケモンの数x20ダメージ追加。",
+				'ja-jp': "自分のベンチの[炎]ポケモンの数x20ダメージ追加。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x50ダメージ追加。",
+				'ja-jp': "コインを2回投げ、オモテの数x50ダメージ追加。",
 			},
 		},
 		{
@@ -36,7 +36,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のバトルポケモンをやけどにする。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -54,7 +54,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニャヒート",
+		'ja-jp': "ニャヒート",
 	},
 
 	retreat: 3,

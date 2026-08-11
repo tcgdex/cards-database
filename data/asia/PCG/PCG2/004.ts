@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "おしっこ",
+		'ja-jp': "おしっこ",
 	},
 
 	rarity: "Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "責任",
+				'ja-jp': "責任",
 			},
 			effect: {
-				ja: "ダメージカウンターは、ノックアウトされることから10馬力になるまで防御ポケモンに置きます。 Weezingはそれ自体に70のダメージを与えます。",
+				'ja-jp': "ダメージカウンターは、ノックアウトされることから10馬力になるまで防御ポケモンに置きます。 Weezingはそれ自体に70のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "スモッグスクリーン",
+				'ja-jp': "スモッグスクリーン",
 			},
 			effect: {
-				ja: "防御ポケモンは現在中毒になっています。防衛ポケモンが相手の次のターン中に攻撃を試みた場合、対戦相手はコインをひっくり返します。尾の場合、その攻撃は何もしません。",
+				'ja-jp': "防御ポケモンは現在中毒になっています。防衛ポケモンが相手の次のターン中に攻撃を試みた場合、対戦相手はコインをひっくり返します。尾の場合、その攻撃は何もしません。",
 			},
 			damage: 20,
 		},

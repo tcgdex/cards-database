@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [778],
 
 	name: {
-		en: "Mimikyu ex"
+		'en-us': "Mimikyu ex"
 	},
 
 	illustrator: "Mori Yuu",
@@ -22,17 +22,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Disguise"
+			'en-us': "Disguise"
 		},
 
 		effect: {
-			en: "When this Pokémon is first damaged by an attack after coming into play, prevent that damage."
+			'en-us': "When this Pokémon is first damaged by an attack after coming into play, prevent that damage."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Claw Slash"
+			'en-us': "Claw Slash"
 		},
 
 		damage: 70,

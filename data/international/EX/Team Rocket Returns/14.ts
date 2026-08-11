@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Togetic",
-		de: "Togetic"
+		'en-us': "Togetic",
+		'de-de': "Togetic"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -23,7 +23,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Togepi",
+		'en-us': "Togepi",
 	},
 
 	stage: "Stage1",
@@ -32,12 +32,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Holy Shield",
-				de: "Holy Shield"
+				'en-us': "Holy Shield",
+				'de-de': "Holy Shield"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, including damage, done to Togetic by your opponent's Pokémon that has Dark in its name.",
-				de: "Prevent all effects of attacks, including damage, done to Togetic by your opponent's Pokémon that has Dark in its name."
+				'en-us': "Prevent all effects of attacks, including damage, done to Togetic by your opponent's Pokémon that has Dark in its name.",
+				'de-de': "Prevent all effects of attacks, including damage, done to Togetic by your opponent's Pokémon that has Dark in its name."
 			},
 		},
 	],
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dive",
-				de: "Dive"
+				'en-us': "Dive",
+				'de-de': "Dive"
 			},
 
 			damage: 30,
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rainbow Moves",
-				de: "Rainbow Moves"
+				'en-us': "Rainbow Moves",
+				'de-de': "Rainbow Moves"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Benched Pokémon's attacks. Rainbow Moves copies that attack except for its Energy cost. (You must still do anything else required for that attack.) (No matter what type that Pokémon is, Togetic's type is still Colorless. Togetic performs that attack.",
-				de: "Choose 1 of your opponent's Benched Pokémon's attacks. Rainbow Moves copies that attack except for its Energy cost. (You must still do anything else required for that attack.) (No matter what type that Pokémon is, Togepi's type is still .) Togepi performs that attack."
+				'en-us': "Choose 1 of your opponent's Benched Pokémon's attacks. Rainbow Moves copies that attack except for its Energy cost. (You must still do anything else required for that attack.) (No matter what type that Pokémon is, Togetic's type is still Colorless. Togetic performs that attack.",
+				'de-de': "Choose 1 of your opponent's Benched Pokémon's attacks. Rainbow Moves copies that attack except for its Energy cost. (You must still do anything else required for that attack.) (No matter what type that Pokémon is, Togepi's type is still .) Togepi performs that attack."
 			},
 
 		},

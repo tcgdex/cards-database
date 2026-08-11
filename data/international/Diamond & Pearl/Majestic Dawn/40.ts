@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Manectric",
-		fr: "Élecsprint",
-		de: "Voltenso"
+		'en-us': "Manectric",
+		'fr-fr': "Élecsprint",
+		'de-de': "Voltenso"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Electrike",
-		fr: "Dynavolt",
+		'en-us': "Electrike",
+		'fr-fr': "Dynavolt",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunder Wave",
-				fr: "Cage-éclair",
-				de: "Donnerwelle"
+				'en-us': "Thunder Wave",
+				'fr-fr': "Cage-éclair",
+				'de-de': "Donnerwelle"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Volt Crush",
-				fr: "Écras'volt",
-				de: "Volt-Zermalmer"
+				'en-us': "Volt Crush",
+				'fr-fr': "Écras'volt",
+				'de-de': "Volt-Zermalmer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to Manectric and this attack does 40 damage plus 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée à Elecsprint et cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei 'Kopf' lege 1 Energie, die an Voltenso angelegt ist, auf deinen Ablagestapel und dieser Angriff fügt 40 Schadenpunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, discard an Energy attached to Manectric and this attack does 40 damage plus 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée à Elecsprint et cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' lege 1 Energie, die an Voltenso angelegt ist, auf deinen Ablagestapel und dieser Angriff fügt 40 Schadenpunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -83,7 +83,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+		'en-us': "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
 	},
 
 	thirdParty: {

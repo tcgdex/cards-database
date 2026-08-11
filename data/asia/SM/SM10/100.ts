@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マーシャドー&カイリキーGX",
+		'ja-jp': "マーシャドー&カイリキーGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、90ダメージ追加。",
+				'ja-jp': "前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、90ダメージ追加。",
 			},
 		},
 		{
@@ -33,7 +33,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "追加でエネルギーが1個ついているなら、次の相手の番、このポケモンがワザのダメージを受けてきぜつするとき、このポケモンはきぜつせず、残りHPが「10」の状態で場に残る。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "追加でエネルギーが1個ついているなら、次の相手の番、このポケモンがワザのダメージを受けてきぜつするとき、このポケモンはきぜつせず、残りHPが「10」の状態で場に残る。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

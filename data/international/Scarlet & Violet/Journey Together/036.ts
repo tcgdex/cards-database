@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lombre",
-		fr: "Lombre",
-		es: "Lombre",
-		de: "Lombrero",
-		it: "Lombre",
-		pt: "Lombre",
+		'en-us': "Lombre",
+		'fr-fr': "Lombre",
+		'es-es': "Lombre",
+		'de-de': "Lombrero",
+		'it-it': "Lombre",
+		'pt-br': "Lombre",
 		'es-mx': "Lombre"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Lotad",
-		fr: "Nénupiot",
-		es: "Lotad",
-		de: "Loturzel",
-		it: "Lotad",
-		pt: "Lotad",
+		'en-us': "Lotad",
+		'fr-fr': "Nénupiot",
+		'es-es': "Lotad",
+		'de-de': "Loturzel",
+		'it-it': "Lotad",
+		'pt-br': "Lotad",
 		'es-mx': "Lotad"
 	},
 	stage: "Stage1",
@@ -34,22 +34,22 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			en: "Aqua Slash",
-			fr: "Aqua Slash",
-			es: "Cuchillada Acuática",
-			de: "Aquaschlag",
-			it: "Idrosquarcio",
-			pt: "Aqua Corte",
+			'en-us': "Aqua Slash",
+			'fr-fr': "Aqua Slash",
+			'es-es': "Cuchillada Acuática",
+			'de-de': "Aquaschlag",
+			'it-it': "Idrosquarcio",
+			'pt-br': "Aqua Corte",
 			'es-mx': "Cuchillada Acuática"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
 			'es-mx': "Durante tu próximo turno, este Pokémon no puede atacar."
 		},
 

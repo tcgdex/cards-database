@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウオチルドンV",
+		'ja-jp': "ウオチルドンV",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このワザを受けた「ポケモンV・GX」は、ワザが使えない。",
+				'ja-jp': "次の相手の番、このワザを受けた「ポケモンV・GX」は、ワザが使えない。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 220,
 			cost: ["Water", "Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],

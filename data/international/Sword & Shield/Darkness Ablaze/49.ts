@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [614],
 
 	name: {
-		en: "Beartic",
-		fr: "Polagriffe",
-		es: "Beartic",
-		it: "Beartic",
-		pt: "Beartic",
-		de: "Siberio"
+		'en-us': "Beartic",
+		'fr-fr': "Polagriffe",
+		'es-es': "Beartic",
+		'it-it': "Beartic",
+		'pt-br': "Beartic",
+		'de-de': "Siberio"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cubchoo",
-		fr: "Polarhume",
-		es: "Cubchoo",
-		it: "Cubchoo",
-		pt: "Cubchoo",
-		de: "Petznief"
+		'en-us': "Cubchoo",
+		'fr-fr': "Polarhume",
+		'es-es': "Cubchoo",
+		'it-it': "Cubchoo",
+		'pt-br': "Cubchoo",
+		'de-de': "Petznief"
 	},
 
 	attacks: [
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				es: "Cuchillada",
-				it: "Lacerazione",
-				pt: "Talho",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'es-es': "Cuchillada",
+				'it-it': "Lacerazione",
+				'pt-br': "Talho",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 40,
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Frozen Slice",
-				fr: "Tranche Gelée",
-				es: "Tajo Congelado",
-				it: "Tagliaghiaccio",
-				pt: "Corte Congelado",
-				de: "Frostschneide"
+				'en-us': "Frozen Slice",
+				'fr-fr': "Tranche Gelée",
+				'es-es': "Tajo Congelado",
+				'it-it': "Tagliaghiaccio",
+				'pt-br': "Corte Congelado",
+				'de-de': "Frostschneide"
 			},
 			effect: {
-				en: "This Pokémon also does 50 damage to itself.",
-				fr: "Ce Pokémon s'inflige aussi 50 dégâts.",
-				es: "Este Pokémon también se hace 50 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge anche 50 danni a se stesso.",
-				pt: "Este Pokémon também causa 50 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt auch sich selbst 50 Schadenspunkte zu."
+				'en-us': "This Pokémon also does 50 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige aussi 50 dégâts.",
+				'es-es': "Este Pokémon también se hace 50 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge anche 50 danni a se stesso.",
+				'pt-br': "Este Pokémon também causa 50 pontos de dano a si mesmo.",
+				'de-de': "Dieses Pokémon fügt auch sich selbst 50 Schadenspunkte zu."
 			},
 			damage: 150,
 
@@ -91,7 +91,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It swims through frigid seas, searching for prey. From its frozen breath, it forms icy fangs that are harder than steel."
+		'en-us': "It swims through frigid seas, searching for prey. From its frozen breath, it forms icy fangs that are harder than steel."
 	},
 
 	variants: [

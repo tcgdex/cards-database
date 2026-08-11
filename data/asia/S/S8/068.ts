@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アイアント",
+		'ja-jp': "アイアント",
 		'zh-tw': "鐵蟻",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "大きな顎は 岩石をも かみ砕く。 サダイジャから タマゴを 守るため 群れで 戦う。",
+		'ja-jp': "大きな顎は 岩石をも かみ砕く。 サダイジャから タマゴを 守るため 群れで 戦う。",
 		'zh-tw': "巨大的顎部能咬碎岩石。為了不讓沙螺蟒把蛋搶走，會和其他同類一起並肩戰鬥。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぎゃっきょうのアゴ",
+				'ja-jp': "ぎゃっきょうのアゴ",
 				'zh-tw': "逆境顎",
 			},
 			damage: 70,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが[炎]ポケモンなら、そのポケモンをマヒにする。",
+				'ja-jp': "相手のバトルポケモンが[炎]ポケモンなら、そのポケモンをマヒにする。",
 				'zh-tw': "若對手的戰鬥寶可夢為【火】寶可夢，則將那隻寶可夢【麻痺】。",
 			},
 		},

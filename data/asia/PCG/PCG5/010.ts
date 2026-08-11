@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Dustox Ex",
+		'ja-jp': "Dustox Ex",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "保護",
+				'ja-jp': "保護",
 			},
 			effect: {
-				ja: "対戦相手のPokã©Mon-ExによってDustox Exに行われたダメージを含む攻撃のすべての影響を防ぎます。",
+				'ja-jp': "対戦相手のPokã©Mon-ExによってDustox Exに行われたダメージを含む攻撃のすべての影響を防ぎます。",
 			},
 		}],
 
@@ -29,17 +29,17 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "銀風",
+				'ja-jp': "銀風",
 			},
 			effect: {
-				ja: "次のターン中に、攻撃が防御ポケモンにダメージを与えた場合（脱力感と抵抗を適用した後）、その攻撃はさらに30のダメージを与えます。",
+				'ja-jp': "次のターン中に、攻撃が防御ポケモンにダメージを与えた場合（脱力感と抵抗を適用した後）、その攻撃はさらに30のダメージを与えます。",
 			},
 			damage: 40,
 		},
 		{
 			cost: ["Grass", "Colorless", "Colorless"],
 			name: {
-				ja: "風を切る",
+				'ja-jp': "風を切る",
 			},
 			damage: 70,
 		},

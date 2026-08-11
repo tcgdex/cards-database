@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Tyranitar",
-		fr: "Tyranocif",
-		de: "Despotar"
+		'en-us': "Tyranitar",
+		'fr-fr': "Tyranocif",
+		'de-de': "Despotar"
 	},
 
 	illustrator: "Kimiya Masago",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pupitar",
-		fr: "Ymphect"
+		'en-us': "Pupitar",
+		'fr-fr': "Ymphect"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Dark Aura",
-				fr: "Sombre aura",
-				de: "Finstere Aura"
+				'en-us': "Dark Aura",
+				'fr-fr': "Sombre aura",
+				'de-de': "Finstere Aura"
 			},
 			effect: {
-				en: "All Energy attached to Tyranitar is Darkness Energy instead of its usual type.",
-				fr: "Toutes les cartes Énergie attachées à Tyranocif sont d'Énergie  au lieu de leur type habituel.",
-				de: "Alle Energie, die an Despotar angelegt ist, ist anstatt ihrem normalen Typ -Energie."
+				'en-us': "All Energy attached to Tyranitar is Darkness Energy instead of its usual type.",
+				'fr-fr': "Toutes les cartes Énergie attachées à Tyranocif sont d'Énergie  au lieu de leur type habituel.",
+				'de-de': "Alle Energie, die an Despotar angelegt ist, ist anstatt ihrem normalen Typ -Energie."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Stamp",
-				fr: "Piaffement",
-				de: "Trampeln"
+				'en-us': "Stamp",
+				'fr-fr': "Piaffement",
+				'de-de': "Trampeln"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 50 damage plus 10 more damage and does 10 damage to each of your opponent's Benched Pokémon, if any. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts plus 10 dégâts supplémentaires et inflige 10 dégâts à chaque Pokémon du Banc de votre adversaire, s'il en possède. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
-				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 50 Schadenspunkte plus 10 weitere Schadenspunkte zu und außerdem jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte, falls vorhanden. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Flip a coin. If heads, this attack does 50 damage plus 10 more damage and does 10 damage to each of your opponent's Benched Pokémon, if any. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts plus 10 dégâts supplémentaires et inflige 10 dégâts à chaque Pokémon du Banc de votre adversaire, s'il en possède. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 50 Schadenspunkte plus 10 weitere Schadenspunkte zu und außerdem jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte, falls vorhanden. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: "50+",
 

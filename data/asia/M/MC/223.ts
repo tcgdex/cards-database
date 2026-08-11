@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オーガポン いどのめん",
+		'ja-jp': "オーガポン いどのめん",
 	},
 
 	illustrator: "rika",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "こんこんと 湧き出る 水のように 絶え間なく 技を 繰りだし続ける 攻守に 優れた 姿。",
+		'ja-jp': "こんこんと 湧き出る 水のように 絶え間なく 技を 繰りだし続ける 攻守に 優れた 姿。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "みずかぐら" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から「基本[W]エネルギー」を1枚選び、自分のポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から「基本[W]エネルギー」を1枚選び、自分のポケモンにつける。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "このポケモンのHPを「30」回復する。",
+				'ja-jp': "このポケモンのHPを「30」回復する。",
 			},
 		},
 	],

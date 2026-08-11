@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Cranidos",
-		fr: "Kranidos",
-		es: "Cranidos",
-		it: "Cranidos",
-		pt: "Cranidos",
-		de: "Koknodon"
+		'en-us': "Cranidos",
+		'fr-fr': "Kranidos",
+		'es-es': "Cranidos",
+		'it-it': "Cranidos",
+		'pt-br': "Cranidos",
+		'de-de': "Koknodon"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Unidentified Fossil",
-		fr: "Fossile Inconnu",
+		'en-us': "Unidentified Fossil",
+		'fr-fr': "Fossile Inconnu",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Corkscrew Punch",
-				fr: "Poing Tire-Bouchon",
-				es: "Puño Tirabuzón",
-				it: "Pugno Rotante",
-				pt: "Soco Saca-rolha",
-				de: "Korkenzieherhieb"
+				'en-us': "Corkscrew Punch",
+				'fr-fr': "Poing Tire-Bouchon",
+				'es-es': "Puño Tirabuzón",
+				'it-it': "Pugno Rotante",
+				'pt-br': "Soco Saca-rolha",
+				'de-de': "Korkenzieherhieb"
 			},
 
 			damage: 30,
@@ -56,12 +56,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Headstrike",
-				fr: "Coup de Tête",
-				es: "Testarada",
-				it: "Testata",
-				pt: "Golpe de Cabeça",
-				de: "Kopftreffer"
+				'en-us': "Headstrike",
+				'fr-fr': "Coup de Tête",
+				'es-es': "Testarada",
+				'it-it': "Testata",
+				'pt-br': "Golpe de Cabeça",
+				'de-de': "Kopftreffer"
 			},
 
 			damage: 50,
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "In rock layers where Cranidos fossils are found, the fossilized trunks of trees snapped in two are also often found.",
+		'en-us': "In rock layers where Cranidos fossils are found, the fossilized trunks of trees snapped in two are also often found.",
 	},
 
 	thirdParty: {

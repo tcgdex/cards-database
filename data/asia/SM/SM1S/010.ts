@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウインディ",
+		'ja-jp': "ウインディ",
 	},
 
 	illustrator: "kodama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "東洋の 古い 言い伝え にも 登場する。 威厳に あふれ たくましくも 美しい ポケモン。",
+		'ja-jp': "東洋の 古い 言い伝え にも 登場する。 威厳に あふれ たくましくも 美しい ポケモン。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 190,
 			cost: ["Fire", "Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[炎]エネルギーを、3個トラッシュする。",
+				'ja-jp': "このポケモンについている[炎]エネルギーを、3個トラッシュする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ガーディ",
+		'ja-jp': "ガーディ",
 	},
 
 	retreat: 2,

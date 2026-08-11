@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤドキング",
+		'ja-jp': "ヤドキング",
 	},
 
 	illustrator: "Eri Yamaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "噛まれた 毒素の 影響で 天才的 頭脳の 持ち主に。 サイコパワーを 自在に 操る。",
+		'ja-jp': "噛まれた 毒素の 影響で 天才的 頭脳の 持ち主に。 サイコパワーを 自在に 操る。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ながれつく" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分の山札にある好きなカードを1枚、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札にある好きなカードを1枚、手札に加える。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 110,
 			cost: ["Psychic", "Psychic", "Psychic"],
 			effect: {
-				ja: "このワザは、自分の手札が1枚もないなら、このワザに必要なエネルギーがこのポケモンについていなくても、使える。",
+				'ja-jp': "このワザは、自分の手札が1枚もないなら、このワザに必要なエネルギーがこのポケモンについていなくても、使える。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤドン",
+		'ja-jp': "ヤドン",
 	},
 
 	retreat: 2,

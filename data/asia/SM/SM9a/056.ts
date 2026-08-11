@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モルフォンGX",
+		'ja-jp': "モルフォンGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "110+",
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "この番、手札から「キョウの罠」を出して使っていたなら、90ダメージ追加。「アンズ」を出して使っていたなら、次の相手の番、このポケモンはたねポケモンからワザのダメージを受けない。",
+				'ja-jp': "この番、手札から「キョウの罠」を出して使っていたなら、90ダメージ追加。「アンズ」を出して使っていたなら、次の相手の番、このポケモンはたねポケモンからワザのダメージを受けない。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の手札をすべて山札にもどして切る。その後、山札を10枚引く。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "自分の手札をすべて山札にもどして切る。その後、山札を10枚引く。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コンパン",
+		'ja-jp': "コンパン",
 	},
 
 	retreat: 1,

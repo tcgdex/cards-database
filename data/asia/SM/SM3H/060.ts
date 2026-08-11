@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラベトベトンGX",
+		'ja-jp': "アローラベトベトンGX",
 	},
 
 	illustrator: "",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが受けている特殊状態の数x70ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが受けている特殊状態の数x70ダメージ追加。",
 			},
 		},
 		{
@@ -28,14 +28,14 @@ const card: Card = {
 			damage: 120,
 			cost: ["Darkness", "Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 		{
 			name: { ja: "トライハザードGX" },
 			cost: [],
 			effect: {
-				ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをどくとやけどとマヒにする。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをどくとやけどとマヒにする。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アローラベトベター",
+		'ja-jp': "アローラベトベター",
 	},
 
 	retreat: 4,

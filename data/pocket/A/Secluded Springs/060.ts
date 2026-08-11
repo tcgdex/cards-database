@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Teddiursa",
-		fr: "Teddiursa"
+		'en-us': "Teddiursa",
+		'fr-fr': "Teddiursa"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -18,24 +18,24 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Its paws are soaked in oodles of honey. When\nnervous, Teddiursa will lick its paws and soon\nhave a smile back on its face.",
-		fr: "Quand il est anxieux, il lèche ses pattes qui sont constamment couvertes de miel, et retrouve le sourire."
+		'en-us': "Its paws are soaked in oodles of honey. When\nnervous, Teddiursa will lick its paws and soon\nhave a smile back on its face.",
+		'fr-fr': "Quand il est anxieux, il lèche ses pattes qui sont constamment couvertes de miel, et retrouve le sourire."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Surprise Attack",
-			fr: "Attaque Surprise"
+			'en-us': "Surprise Attack",
+			'fr-fr': "Attaque Surprise"
 		},
 
 		damage: 40,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
 		}
 	}],
 

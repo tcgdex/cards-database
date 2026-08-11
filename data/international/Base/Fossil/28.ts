@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fossil'
 
 const card: Card = {
 	name: {
-		en: "Muk",
-		fr: "Grotadmorv",
-		de: "Sleimok"
+		'en-us': "Muk",
+		'fr-fr': "Grotadmorv",
+		'de-de': "Sleimok"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Grimer",
-		fr: "Tadmorv"
+		'en-us': "Grimer",
+		'fr-fr': "Tadmorv"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Toxic Gas",
-				fr: "Puanteur",
-				de: "Giftgas"
+				'en-us': "Toxic Gas",
+				'fr-fr': "Puanteur",
+				'de-de': "Giftgas"
 			},
 			effect: {
-				en: "Ignore all Pokémon Powers other than Toxic Gases. This power stops working while Muk is Asleep, Confused, or Paralyzed.",
-				fr: "Ignorez tout pouvoir Pokémon autre que Puanteur. L'effet de ce pouvoir cesse lorsque Grotadmorv est Endormi, Confus ou Paralysé.",
-				de: "Ignoriere alle Pokémon-Power außer den Giftgasen. DieseFähigket verliert ihre Wirkung, solange Sleimok schläft, verwirrt oder gelähmt ist."
+				'en-us': "Ignore all Pokémon Powers other than Toxic Gases. This power stops working while Muk is Asleep, Confused, or Paralyzed.",
+				'fr-fr': "Ignorez tout pouvoir Pokémon autre que Puanteur. L'effet de ce pouvoir cesse lorsque Grotadmorv est Endormi, Confus ou Paralysé.",
+				'de-de': "Ignoriere alle Pokémon-Power außer den Giftgasen. DieseFähigket verliert ihre Wirkung, solange Sleimok schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -55,15 +55,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Sludge",
-				fr: "Détritus",
-				de: "Schlammbad"
+				'en-us': "Sludge",
+				'fr-fr': "Détritus",
+				'de-de': "Schlammbad"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 30
@@ -80,8 +80,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
-		fr: "Il est recouvert d'une épaisse couche toxique. Il laisse une trace empoisonnée."
+		'en-us': "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
+		'fr-fr': "Il est recouvert d'une épaisse couche toxique. Il laisse une trace empoisonnée."
 	},
 
 

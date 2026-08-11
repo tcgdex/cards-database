@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Gallame V",
-		de: "Galagladi V",
-		es: "Gallade V",
-		pt: "Gallade V",
-		it: "Gallade V",
-		en: "Gallade V"
+		'fr-fr': "Gallame V",
+		'de-de': "Galagladi V",
+		'es-es': "Gallade V",
+		'pt-br': "Gallade V",
+		'it-it': "Gallade V",
+		'en-us': "Gallade V"
 	},
 
 	rarity: "Promo",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			fr: "Épée Levée",
-			de: "Erhobenes Schwert",
-			es: "Espada Ascendente",
-			pt: "Espada Ascendente",
-			it: "Innalzaspada",
-			en: "Rising Sword"
+			'fr-fr': "Épée Levée",
+			'de-de': "Erhobenes Schwert",
+			'es-es': "Espada Ascendente",
+			'pt-br': "Espada Ascendente",
+			'it-it': "Innalzaspada",
+			'en-us': "Rising Sword"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 50 dégâts supplémentaires pour chaque carte Récompense que vous avez récupérée.",
-			de: "Diese Attacke fügt für jede von dir genommene Preiskarte 50 Schadenspunkte mehr zu.",
-			es: "Este ataque hace 50 puntos de daño más por cada carta de Premio que hayas cogido.",
-			pt: "Este ataque causa 50 pontos de dano a mais para cada carta de Prêmio que você pegou.",
-			it: "Questo attacco infligge 50 danni in più per ogni carta Premio che hai preso.",
-			en: "This attack does 50 more damage for each Prize card you have taken."
+			'fr-fr': "Cette attaque inflige 50 dégâts supplémentaires pour chaque carte Récompense que vous avez récupérée.",
+			'de-de': "Diese Attacke fügt für jede von dir genommene Preiskarte 50 Schadenspunkte mehr zu.",
+			'es-es': "Este ataque hace 50 puntos de daño más por cada carta de Premio que hayas cogido.",
+			'pt-br': "Este ataque causa 50 pontos de dano a mais para cada carta de Prêmio que você pegou.",
+			'it-it': "Questo attacco infligge 50 danni in più per ogni carta Premio che hai preso.",
+			'en-us': "This attack does 50 more damage for each Prize card you have taken."
 		},
 
 		damage: "20+"
@@ -47,21 +47,21 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			fr: "Repoussoir",
-			de: "Widerstandsbrecher",
-			es: "Golpe Destructor",
-			pt: "Gingado",
-			it: "Colpaccio",
-			en: "Buster Swing"
+			'fr-fr': "Repoussoir",
+			'de-de': "Widerstandsbrecher",
+			'es-es': "Golpe Destructor",
+			'pt-br': "Gingado",
+			'it-it': "Colpaccio",
+			'en-us': "Buster Swing"
 		},
 
 		effect: {
-			fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-			de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert.",
-			es: "El daño de este ataque no se ve afectado por Resistencia.",
-			pt: "O dano deste ataque não é afetado por Resistência.",
-			it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-			en: "This attack's damage isn't affected by Resistance."
+			'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+			'de-de': "Der Schaden dieser Attacke wird durch Resistenz nicht verändert.",
+			'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+			'pt-br': "O dano deste ataque não é afetado por Resistência.",
+			'it-it': "I danni di questo attacco non sono influenzati dalla resistenza.",
+			'en-us': "This attack's damage isn't affected by Resistance."
 		},
 
 		damage: 130

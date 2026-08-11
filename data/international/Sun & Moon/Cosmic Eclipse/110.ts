@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Flygon GX",
-		fr: "Libégon GX",
-		es: "Flygon GX",
-		it: "Flygon GX",
-		pt: "Flygon GX",
-		de: "Libelldra GX"
+		'en-us': "Flygon GX",
+		'fr-fr': "Libégon GX",
+		'es-es': "Flygon GX",
+		'it-it': "Flygon GX",
+		'pt-br': "Flygon GX",
+		'de-de': "Libelldra GX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vibrava",
-		fr: "Vibraninf",
+		'en-us': "Vibrava",
+		'fr-fr': "Vibraninf",
 	},
 
 	suffix: "GX",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Dusty Defense",
-				fr: "Défense Poussiéreuse",
-				es: "Defensa Polvorienta",
-				it: "Difesa Silicea",
-				pt: "Defesa Arenosa",
-				de: "Staubige Verteidigung"
+				'en-us': "Dusty Defense",
+				'fr-fr': "Défense Poussiéreuse",
+				'es-es': "Defensa Polvorienta",
+				'it-it': "Difesa Silicea",
+				'pt-br': "Defesa Arenosa",
+				'de-de': "Staubige Verteidigung"
 			},
 			effect: {
-				en: "As long as this Pokémon is your Active Pokémon, all of your Pokémon take 30 less damage from your opponent’s attacks (after applying Weakness and Resistance).",
-				fr: "Tant que ce Pokémon est votre Pokémon Actif, tous vos Pokémon subissent 30 dégâts de moins provenant des attaques de votre adversaire (après application de la Faiblesse et de la Résistance).",
-				es: "Mientras este Pokémon sea tu Pokémon Activo, los ataques de tu rival hacen 30 puntos de daño menos a todos tus Pokémon (después de aplicar Debilidad y Resistencia).",
-				it: "Fintanto che questo Pokémon è il tuo Pokémon attivo, i tuoi Pokémon subiscono 30 danni in meno dagli attacchi del tuo avversario, dopo aver applicato debolezza e resistenza.",
-				pt: "Enquanto este Pokémon for o seu Pokémon Ativo, todos os seus Pokémon receberão 30 pontos de dano a menos dos ataques do seu oponente (após a aplicação de Fraqueza e Resistência).",
-				de: "Solang dieses Pokémon dein Aktives Pokémon ist, werden jedem deiner Pokémon durch Attacken deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "As long as this Pokémon is your Active Pokémon, all of your Pokémon take 30 less damage from your opponent’s attacks (after applying Weakness and Resistance).",
+				'fr-fr': "Tant que ce Pokémon est votre Pokémon Actif, tous vos Pokémon subissent 30 dégâts de moins provenant des attaques de votre adversaire (après application de la Faiblesse et de la Résistance).",
+				'es-es': "Mientras este Pokémon sea tu Pokémon Activo, los ataques de tu rival hacen 30 puntos de daño menos a todos tus Pokémon (después de aplicar Debilidad y Resistencia).",
+				'it-it': "Fintanto che questo Pokémon è il tuo Pokémon attivo, i tuoi Pokémon subiscono 30 danni in meno dagli attacchi del tuo avversario, dopo aver applicato debolezza e resistenza.",
+				'pt-br': "Enquanto este Pokémon for o seu Pokémon Ativo, todos os seus Pokémon receberão 30 pontos de dano a menos dos ataques do seu oponente (após a aplicação de Fraqueza e Resistência).",
+				'de-de': "Solang dieses Pokémon dein Aktives Pokémon ist, werden jedem deiner Pokémon durch Attacken deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -63,20 +63,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Desert Hurricane",
-				fr: "Ouragan du Désert",
-				es: "Huracán del Desierto",
-				it: "Tifone nel Deserto",
-				pt: "Furacão do Deserto",
-				de: "Wüstenhurrikan"
+				'en-us': "Desert Hurricane",
+				'fr-fr': "Ouragan du Désert",
+				'es-es': "Huracán del Desierto",
+				'it-it': "Tifone nel Deserto",
+				'pt-br': "Furacão do Deserto",
+				'de-de': "Wüstenhurrikan"
 			},
 			effect: {
-				en: "If there is any Stadium card in play, this attack does 120 more damage. Then, discard that Stadium card.",
-				fr: "S’il y a une carte Stade en jeu, cette attaque inflige 120 dégâts supplémentaires. Ensuite, défaussez la carte Stade.",
-				es: "Si hay alguna carta de Estadio en juego, este ataque hace 120 puntos de daño más. Después, descarta esa carta de Estadio.",
-				it: "Se c’è in gioco una carta Stadio, questo attacco infligge 120 danni in più. Poi scarta quella carta Stadio.",
-				pt: "Se houver alguma carta de Estádio em jogo, este ataque causará 120 pontos de dano a mais. Em seguida, descarte aquela carta de Estádio.",
-				de: "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 120 Schadenspunkte mehr zu. Lege anschließend jene Stadionkarte auf den Ablagestapel."
+				'en-us': "If there is any Stadium card in play, this attack does 120 more damage. Then, discard that Stadium card.",
+				'fr-fr': "S’il y a une carte Stade en jeu, cette attaque inflige 120 dégâts supplémentaires. Ensuite, défaussez la carte Stade.",
+				'es-es': "Si hay alguna carta de Estadio en juego, este ataque hace 120 puntos de daño más. Después, descarta esa carta de Estadio.",
+				'it-it': "Se c’è in gioco una carta Stadio, questo attacco infligge 120 danni in più. Poi scarta quella carta Stadio.",
+				'pt-br': "Se houver alguma carta de Estádio em jogo, este ataque causará 120 pontos de dano a mais. Em seguida, descarte aquela carta de Estádio.",
+				'de-de': "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke 120 Schadenspunkte mehr zu. Lege anschließend jene Stadionkarte auf den Ablagestapel."
 			},
 			damage: "120+",
 
@@ -88,20 +88,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Sonic Edge GX",
-				fr: "Tranchant Sonique GX",
-				es: "Tajo Sónico GX",
-				it: "Muro del Suono GX",
-				pt: "Gume Sônico GX",
-				de: "Schallkante GX"
+				'en-us': "Sonic Edge GX",
+				'fr-fr': "Tranchant Sonique GX",
+				'es-es': "Tajo Sónico GX",
+				'it-it': "Muro del Suono GX",
+				'pt-br': "Gume Sônico GX",
+				'de-de': "Schallkante GX"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon. (You can’t use more than 1 GX attack in a game.)",
-				fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-				es: "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival. (No puedes usar más de 1 ataque GX en una partida).",
-				it: "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario. Non puoi usare più di un attacco GX a partita.",
-				pt: "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				'en-us': "This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon. (You can’t use more than 1 GX attack in a game.)",
+				'fr-fr': "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'es-es': "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival. (No puedes usar más de 1 ataque GX en una partida).",
+				'it-it': "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario. Non puoi usare più di un attacco GX a partita.",
+				'pt-br': "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente (você não pode usar mais de 1 ataque GX por partida).",
+				'de-de': "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: 220,
 

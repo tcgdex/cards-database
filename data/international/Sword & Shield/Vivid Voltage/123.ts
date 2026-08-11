@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [597],
 
 	name: {
-		en: "Ferroseed",
-		fr: "Grindur",
-		es: "Ferroseed",
-		it: "Ferroseed",
-		pt: "Ferroseed",
-		de: "Kastadur"
+		'en-us': "Ferroseed",
+		'fr-fr': "Grindur",
+		'es-es': "Ferroseed",
+		'it-it': "Ferroseed",
+		'pt-br': "Ferroseed",
+		'de-de': "Kastadur"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Reaction",
-				fr: "Réagir",
-				es: "Reacción",
-				it: "Reazione",
-				pt: "Reação",
-				de: "Reaktion"
+				'en-us': "Reaction",
+				'fr-fr': "Réagir",
+				'es-es': "Reacción",
+				'it-it': "Reazione",
+				'pt-br': "Reação",
+				'de-de': "Reaktion"
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-				es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-				it: "Scambia questo Pokémon con uno della tua panchina.",
-				pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+				'es-es': "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+				'it-it': "Scambia questo Pokémon con uno della tua panchina.",
+				'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+				'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 10,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It defends itself by launching spikes, but its aim isn't very good at first. Only after a lot of practice will it improve."
+		'en-us': "It defends itself by launching spikes, but its aim isn't very good at first. Only after a lot of practice will it improve."
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tyranitar V",
-		fr: "Tyranocif V",
-		es: "Tyranitar V",
-		it: "Tyranitar V",
-		pt: "Tyranitar V",
-		de: "Despotar V"
+		'en-us': "Tyranitar V",
+		'fr-fr': "Tyranocif V",
+		'es-es': "Tyranitar V",
+		'it-it': "Tyranitar V",
+		'pt-br': "Tyranitar V",
+		'de-de': "Despotar V"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -22,42 +22,42 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Cragalanche",
-			fr: "Lapidalanche",
-			es: "Rocalud",
-			it: "Valanghiaia",
-			pt: "Rochavalanche",
-			de: "Grolllawine"
+			'en-us': "Cragalanche",
+			'fr-fr': "Lapidalanche",
+			'es-es': "Rocalud",
+			'it-it': "Valanghiaia",
+			'pt-br': "Rochavalanche",
+			'de-de': "Grolllawine"
 		},
 
 		effect: {
-			en: "Discard the top 2 cards of your opponent's deck.",
-			fr: "Défaussez les 2 cartes du dessus du deck de votre adversaire.",
-			es: "Descarta las 2 primeras cartas de la baraja de tu rival.",
-			it: "Scarta le prime due carte del mazzo del tuo avversario.",
-			pt: "Descarte as 2 cartas de cima do baralho do seu oponente.",
-			de: "Lege die obersten 2 Karten des Decks deines Gegners auf seinen Ablagestapel."
+			'en-us': "Discard the top 2 cards of your opponent's deck.",
+			'fr-fr': "Défaussez les 2 cartes du dessus du deck de votre adversaire.",
+			'es-es': "Descarta las 2 primeras cartas de la baraja de tu rival.",
+			'it-it': "Scarta le prime due carte del mazzo del tuo avversario.",
+			'pt-br': "Descarte as 2 cartas de cima do baralho do seu oponente.",
+			'de-de': "Lege die obersten 2 Karten des Decks deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 60,
 		cost: ["Darkness", "Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Single Strike Crush",
-			fr: "Écrasement Poing Final",
-			es: "Aplastamiento Golpe Brusco",
-			it: "Schianto Colpo Singolo",
-			pt: "Esmagamento Golpe Decisivo",
-			de: "Fokussierter-Angriff-Zermalmer"
+			'en-us': "Single Strike Crush",
+			'fr-fr': "Écrasement Poing Final",
+			'es-es': "Aplastamiento Golpe Brusco",
+			'it-it': "Schianto Colpo Singolo",
+			'pt-br': "Esmagamento Golpe Decisivo",
+			'de-de': "Fokussierter-Angriff-Zermalmer"
 		},
 
 		effect: {
-			en: "Discard the top 4 cards of your deck.",
-			fr: "Défaussez les 4 cartes du dessus de votre deck.",
-			es: "Descarta las 4 primeras cartas de tu baraja.",
-			it: "Scarta le prime quattro carte del tuo mazzo.",
-			pt: "Descarte as 4 cartas de cima do seu baralho.",
-			de: "Lege die obersten 4 Karten deines Decks auf deinen Ablagestapel."
+			'en-us': "Discard the top 4 cards of your deck.",
+			'fr-fr': "Défaussez les 4 cartes du dessus de votre deck.",
+			'es-es': "Descarta las 4 primeras cartas de tu baraja.",
+			'it-it': "Scarta le prime quattro carte del tuo mazzo.",
+			'pt-br': "Descarte as 4 cartas de cima do seu baralho.",
+			'de-de': "Lege die obersten 4 Karten deines Decks auf deinen Ablagestapel."
 		},
 
 		damage: 240,

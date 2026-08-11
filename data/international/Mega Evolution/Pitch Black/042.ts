@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pitch Black"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mankey",
-		fr: "Férosinge",
-		es: "Mankey",
+		'en-us': "Mankey",
+		'fr-fr': "Férosinge",
+		'es-es': "Mankey",
 		'es-mx': "Mankey",
-		de: "Menki",
-		it: "Mankey",
-		pt: "Mankey"
+		'de-de': "Menki",
+		'it-it': "Mankey",
+		'pt-br': "Mankey"
 	},
 
 	illustrator: "Yuka Morii",
@@ -24,13 +24,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Low Kick",
-			fr: "Balayage",
-			es: "Patada Baja",
+			'en-us': "Low Kick",
+			'fr-fr': "Balayage",
+			'es-es': "Patada Baja",
 			'es-mx': "Patada Baja",
-			de: "Fußkick",
-			it: "Colpo Basso",
-			pt: "Rasteira"
+			'de-de': "Fußkick",
+			'it-it': "Colpo Basso",
+			'pt-br': "Rasteira"
 		},
 
 		cost: ["Colorless"],

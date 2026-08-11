@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Jigglypuff",
-		fr: "Rondoudou",
-		es: "Jigglypuff",
-		it: "Jigglypuff",
-		pt: "Jigglypuff",
-		de: "Pummeluff"
+		'en-us': "Jigglypuff",
+		'fr-fr': "Rondoudou",
+		'es-es': "Jigglypuff",
+		'it-it': "Jigglypuff",
+		'pt-br': "Jigglypuff",
+		'de-de': "Pummeluff"
 	},
 
 	illustrator: "You Iribi",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				es: "Desenrollar",
-				it: "Rotolamento",
-				pt: "Rolagem",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'es-es': "Desenrollar",
+				'it-it': "Rotolamento",
+				'pt-br': "Rolagem",
+				'de-de': "Walzer"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Slap",
-				fr: "Torgnoles",
-				es: "Doble Bofetón",
-				it: "Doppiasberla",
-				pt: "Tapa Duplo",
-				de: "Duplexhieb"
+				'en-us': "Double Slap",
+				'fr-fr': "Torgnoles",
+				'es-es': "Doble Bofetón",
+				'it-it': "Doppiasberla",
+				'pt-br': "Tapa Duplo",
+				'de-de': "Duplexhieb"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
-				es: "Lanza 2 monedas. Este ataque hace 20 puntos de daño por cada cara.",
-				it: "Lancia due volte una moneta. Questo attacco infligge 20 danni ogni volta che esce testa.",
-				pt: "Jogue 2 moedas. Este ataque causa 20 pontos de dano para cada cara.",
-				de: "Wirf 2 Münzen. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu."
+				'en-us': "Flip 2 coins. This attack does 20 damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 20 puntos de daño por cada cara.",
+				'it-it': "Lancia due volte una moneta. Questo attacco infligge 20 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 2 moedas. Este ataque causa 20 pontos de dano para cada cara.",
+				'de-de': "Wirf 2 Münzen. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu."
 			},
 			damage: "20×",
 
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It hugely inflates its stomach and sings a mysterious melody. If you hear this melody, you'll become sleepy right away.",
+		'en-us': "It hugely inflates its stomach and sings a mysterious melody. If you hear this melody, you'll become sleepy right away.",
 	},
 
 	thirdParty: {

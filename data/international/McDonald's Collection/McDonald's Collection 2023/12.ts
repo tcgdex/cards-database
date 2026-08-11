@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2023'
 
 const card: Card = {
 	name: {
-		en: "Blissey",
-		fr: "Leuphorie",
-		es: "Blissey",
-		it: "Blissey",
-		pt: "Blissey",
-		de: "Heiteira"
+		'en-us': "Blissey",
+		'fr-fr': "Leuphorie",
+		'es-es': "Blissey",
+		'it-it': "Blissey",
+		'pt-br': "Blissey",
+		'de-de': "Heiteira"
 	},
 
 	illustrator: "chibi",
@@ -25,22 +25,22 @@ const card: Card = {
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Chansey",
-		fr: "Leveinard",
-		es: "Chansey",
-		it: "Chansey",
-		pt: "Chansey",
-		de: "Chaneira"
+		'en-us': "Chansey",
+		'fr-fr': "Leveinard",
+		'es-es': "Chansey",
+		'it-it': "Chansey",
+		'pt-br': "Chansey",
+		'de-de': "Chaneira"
 	},
 
 	abilities: [
 		{
 			type: "Ability",
 			name: {
-				en: "Busybody Nurse"
+				'en-us': "Busybody Nurse"
 			},
 			effect: {
-				en: "Once during your turn, you may use this Ability. Your Active Pokémon recovers from all Special Conditions."
+				'en-us': "Once during your turn, you may use this Ability. Your Active Pokémon recovers from all Special Conditions."
 			}
 		}
 	],
@@ -49,10 +49,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				en: "Happy Cyclone",
+				'en-us': "Happy Cyclone",
 			},
 			effect: {
-				en: "Move all Energy from this Pokémon to 1 of your Benched Pokémon."
+				'en-us': "Move all Energy from this Pokémon to 1 of your Benched Pokémon."
 			},
 			damage: 150,
 		},

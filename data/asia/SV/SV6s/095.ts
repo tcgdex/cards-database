@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Munkidori"
+		'id-id': "Munkidori"
 	},
 
 	illustrator: "kodama",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Ia memancarkan kekuatan psikokinesisnya yang menyebabkan pusing akut dan mempermainkan musuhnya sesuka hati dari tempat yang aman."
+		'id-id': "Ia memancarkan kekuatan psikokinesisnya yang menyebabkan pusing akut dan mempermainkan musuhnya sesuka hati dari tempat yang aman."
 	},
 
 	stage: "Basic",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Adrenaline Brain"
+			'id-id': "Adrenaline Brain"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri jika Pokémon ini mengenakan Energi {Kegelapan}. Pilih paling banyak 3 Token Kerusakan yang dimiliki 1 Pokémon di Arena sendiri, lalu pindahkan ke 1 Pokémon di Arena lawan."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri jika Pokémon ini mengenakan Energi {Kegelapan}. Pilih paling banyak 3 Token Kerusakan yang dimiliki 1 Pokémon di Arena sendiri, lalu pindahkan ke 1 Pokémon di Arena lawan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Psychotrip"
+			'id-id': "Psychotrip"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
 		},
 
 		damage: 60,

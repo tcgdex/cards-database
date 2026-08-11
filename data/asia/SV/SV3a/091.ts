@@ -1,18 +1,18 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ビーチコート"
+		'ja-jp': "ビーチコート"
 	},
 
 	illustrator: "Oswaldo KATO",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのたねポケモン全員のにげるためのエネルギーは、それぞれ1個ぶん少なくなる。"
+		'ja-jp': "おたがいのたねポケモン全員のにげるためのエネルギーは、それぞれ1個ぶん少なくなる。"
 	},
 
 	variants: [

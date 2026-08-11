@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Voltorb",
-		fr: "Voltorbe",
-		de: "Voltobal",
-		it: "Voltorb"
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe",
+		'de-de': "Voltobal",
+		'it-it': "Voltorb"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle",
-				it: "Azione"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle",
+				'it-it': "Azione"
 			},
 
 			damage: 10,
@@ -53,9 +53,9 @@ const card: Card = {
 
 
 	description: {
-		en: "Usually found in power plants. Easily mistaken for a Monster Ball, it has zapped many people.",
-		fr: "Vivant dans les centrales, ce Pokémon survolté est souvent confondu avec une Poké Ball.",
-		it: "Si trova generalmente nelle centrali elettriche. Facilmente confondibile per una Poké Ball, ha fulminato molte persone. LIV 10 N.100"
+		'en-us': "Usually found in power plants. Easily mistaken for a Monster Ball, it has zapped many people.",
+		'fr-fr': "Vivant dans les centrales, ce Pokémon survolté est souvent confondu avec une Poké Ball.",
+		'it-it': "Si trova generalmente nelle centrali elettriche. Facilmente confondibile per una Poké Ball, ha fulminato molte persone. LIV 10 N.100"
 	},
 
 	variants: [

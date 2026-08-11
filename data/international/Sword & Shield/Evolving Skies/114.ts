@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Zweilous",
-		fr: "Diamat",
-		es: "Zweilous",
-		it: "Zweilous",
-		pt: "Zweilous",
-		de: "Duodino"
+		'en-us': "Zweilous",
+		'fr-fr': "Diamat",
+		'es-es': "Zweilous",
+		'it-it': "Zweilous",
+		'pt-br': "Zweilous",
+		'de-de': "Duodino"
 	},
 
 	rarity: "Uncommon",
@@ -23,24 +23,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			es: "Mordisco",
-			it: "Morso",
-			pt: "Bite",
-			de: "Biss"
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'es-es': "Mordisco",
+			'it-it': "Morso",
+			'pt-br': "Bite",
+			'de-de': "Biss"
 		},
 
 		damage: 40,
 		cost: ["Psychic", "Darkness"]
 	}, {
 		name: {
-			en: "Dragon Headbutt",
-			fr: "Dracoud'Boule",
-			es: "Cabezazo Dragón",
-			it: "Dragozuccata",
-			pt: "Dragon Headbutt",
-			de: "Drachen-Kopfnuss"
+			'en-us': "Dragon Headbutt",
+			'fr-fr': "Dracoud'Boule",
+			'es-es': "Cabezazo Dragón",
+			'it-it': "Dragozuccata",
+			'pt-br': "Dragon Headbutt",
+			'de-de': "Drachen-Kopfnuss"
 		},
 
 		damage: 100,
@@ -51,16 +51,16 @@ const card: Card = {
 	dexId: [634],
 
 	evolveFrom: {
-		en: "Deino",
-		fr: "Solochi",
-		es: "Deino",
-		it: "Deino",
-		pt: "Deino",
-		de: "Kapuno"
+		'en-us': "Deino",
+		'fr-fr': "Solochi",
+		'es-es': "Deino",
+		'it-it': "Deino",
+		'pt-br': "Deino",
+		'de-de': "Kapuno"
 	},
 
 	description: {
-		en: "Their two heads will fight each other over a single piece of food. Zweilous are covered in scars even without battling others."
+		'en-us': "Their two heads will fight each other over a single piece of food. Zweilous are covered in scars even without battling others."
 	},
 
 	regulationMark: "E",

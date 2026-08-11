@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パルデア ケンタロス",
+		'ja-jp': "パルデア ケンタロス",
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "筋骨隆々の 体で 格闘戦が 得意。 短い ツノで 急所を 狙う。",
+		'ja-jp': "筋骨隆々の 体で 格闘戦が 得意。 短い ツノで 急所を 狙う。",
 	},
 
 	stage: "Basic",

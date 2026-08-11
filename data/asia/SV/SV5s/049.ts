@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Electabuzz"
+		'id-id': "Electabuzz"
 	},
 
 	illustrator: "Uta",
@@ -14,21 +14,21 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Banyak pembangkit listrik yang meletakkan Pokémon tanah untuk menanggulangi Electabuzz yang mengincar listrik."
+		'id-id': "Banyak pembangkit listrik yang meletakkan Pokémon tanah untuk menanggulangi Electabuzz yang mengincar listrik."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Chop"
+			'id-id': "Chop"
 		},
 
 		damage: 20,
 		cost: ["Lightning"]
 	}, {
 		name: {
-			id: "Pukulan Listrik"
+			'id-id': "Pukulan Listrik"
 		},
 
 		damage: 50,

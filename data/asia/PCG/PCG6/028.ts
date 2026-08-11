@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Kyogre Star",
+		'ja-jp': "Kyogre Star",
 	},
 
 	rarity: "Shiny rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "重要なコレクション",
+				'ja-jp': "重要なコレクション",
 			},
 			effect: {
-				ja: "対戦相手が取った賞金の数を数えます。その多くの水エネルギーカードまで廃棄の山を検索し、それらをkyogre {{star | this pokemon}}に取り付けます。",
+				'ja-jp': "対戦相手が取った賞金の数を数えます。その多くの水エネルギーカードまで廃棄の山を検索し、それらをkyogre {{star | this pokemon}}に取り付けます。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Water", "Water", "Water", "Colorless", "Colorless"],
 			name: {
-				ja: "寒い",
+				'ja-jp': "寒い",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御する各ポケモンは、相手の次のターン中に攻撃することはできません。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御する各ポケモンは、相手の次のターン中に攻撃することはできません。",
 			},
 			damage: 60,
 		},

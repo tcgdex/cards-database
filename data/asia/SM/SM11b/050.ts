@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コータス",
+		'ja-jp': "コータス",
 	},
 
 	illustrator: "Ryota Murayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "甲羅から 噴きだす 煙で 体調が わかる。 勢いが 激しいときは 元気な 証拠。",
+		'ja-jp': "甲羅から 噴きだす 煙で 体調が わかる。 勢いが 激しいときは 元気な 証拠。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ファイヤートス" },
 			cost: ["Fire"],
 			effect: {
-				ja: "自分のトラッシュにある[炎]エネルギーを4枚、相手に見せてから、手札に加える。",
+				'ja-jp': "自分のトラッシュにある[炎]エネルギーを4枚、相手に見せてから、手札に加える。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Fire", "Fire", "Fire"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、1個トラッシュする。その後、相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、1個トラッシュする。その後、相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Scyther",
-		fr: "Insécateur",
+		'en-us': "Scyther",
+		'fr-fr': "Insécateur",
 	},
 	illustrator: "Shigenori Negishi",
 	rarity: "Shiny rare",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Twin Play",
-				fr: "Duo",
+				'en-us': "Twin Play",
+				'fr-fr': "Duo",
 			},
 			effect: {
-				en: "Search your deck for up to 2 Scyther and put them onto your Bench. Then, shuffle your deck.",
-				fr: "Cherchez jusqu’à 2 Insécateur dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for up to 2 Scyther and put them onto your Bench. Then, shuffle your deck.",
+				'fr-fr': "Cherchez jusqu’à 2 Insécateur dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Agility",
-				fr: "Hâte",
+				'en-us': "Agility",
+				'fr-fr': "Hâte",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c’est face, évitez tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
+				'en-us': "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c’est face, évitez tous les effets d’attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
 			},
 			damage: 20,
 
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "While young, they live together deep in the mountains, training themselves in how to fight with their scythes and move at high speeds.",
+		'en-us': "While young, they live together deep in the mountains, training themselves in how to fight with their scythes and move at high speeds.",
 	},
 }
 

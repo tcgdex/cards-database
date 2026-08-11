@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Clefairy",
-		fr: "Mélofée",
-		es: "Clefairy",
+		'en-us': "Clefairy",
+		'fr-fr': "Mélofée",
+		'es-es': "Clefairy",
 		'es-mx': "Clefairy",
-		de: "Piepi",
-		it: "Clefairy",
-		pt: "Clefairy"
+		'de-de': "Piepi",
+		'it-it': "Clefairy",
+		'pt-br': "Clefairy"
 	},
 
 	illustrator: "satoma",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Moon Kick",
-			fr: "Coup d'Pied Lunaire",
-			es: "Patada Lunar",
+			'en-us': "Moon Kick",
+			'fr-fr': "Coup d'Pied Lunaire",
+			'es-es': "Patada Lunar",
 			'es-mx': "Patada Lunar",
-			de: "Mondkick",
-			it: "Calcioluna",
-			pt: "Chute Lunar"
+			'de-de': "Mondkick",
+			'it-it': "Calcioluna",
+			'pt-br': "Chute Lunar"
 		},
 
 		damage: 40
@@ -48,7 +48,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "On nights with a full moon, they gather together and dance. The surrounding area is enveloped in an abnormal magnetic field.",
+		'en-us': "On nights with a full moon, they gather together and dance. The surrounding area is enveloped in an abnormal magnetic field.",
 	},
 
 	variants: [

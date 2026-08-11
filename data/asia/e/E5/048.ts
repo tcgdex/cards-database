@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ディグレット",
+		'ja-jp': "ディグレット",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "バロウ",
+				'ja-jp': "バロウ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、相手の次のターン中に攻撃によってDiglettへのすべての損害を防ぎます。 （攻撃の他の影響はまだ発生しています。）",
+				'ja-jp': "コインをひっくり返します。頭の場合は、相手の次のターン中に攻撃によってDiglettへのすべての損害を防ぎます。 （攻撃の他の影響はまだ発生しています。）",
 			},
 			damage: 10,
 		},

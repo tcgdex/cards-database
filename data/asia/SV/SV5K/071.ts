@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ネオアッパーエネルギー",
+		'ja-jp': "ネオアッパーエネルギー",
 	},
 
 	illustrator: "",
@@ -12,7 +12,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		ja: "このカードは、ポケモンについているかぎり、[C]エネルギー1個ぶんとしてはたらく。2進化ポケモンについているなら、すべてのタイプのエネルギー2個ぶんとしてはたらく。",
+		'ja-jp': "このカードは、ポケモンについているかぎり、[C]エネルギー1個ぶんとしてはたらく。2進化ポケモンについているなら、すべてのタイプのエネルギー2個ぶんとしてはたらく。",
 	},
 
 	variants: [

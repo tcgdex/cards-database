@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エネルギーリサイクル",
+		'ja-jp': "エネルギーリサイクル",
 	},
 
 	illustrator: "Toyste Beach",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のトラッシュから基本エネルギーを5枚まで選び、相手に見せて、山札にもどして切る。",
+		'ja-jp': "自分のトラッシュから基本エネルギーを5枚まで選び、相手に見せて、山札にもどして切る。",
 	},
 
 	variants: [{"type": "holo"}],

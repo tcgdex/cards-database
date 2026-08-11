@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コリンク",
+		'ja-jp': "コリンク",
 	},
 
 	illustrator: "Shibuzoh.",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "危険を 感じると 全身の 体毛が 光る。 相手が 目を くらませている あいだに 逃げる。",
+		'ja-jp': "危険を 感じると 全身の 体毛が 光る。 相手が 目を くらませている あいだに 逃げる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ぬけがけしんか" },
 			effect: {
-				ja: "このポケモンは、後攻プレイヤーの最初の番なら、出したばかりでも進化できる。",
+				'ja-jp': "このポケモンは、後攻プレイヤーの最初の番なら、出したばかりでも進化できる。",
 			},
 		},
 	],

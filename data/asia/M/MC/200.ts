@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バニリッチ",
+		'ja-jp': "バニリッチ",
 	},
 
 	illustrator: "cochi8i",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "雪山に 生息する ポケモン。 大昔 氷河期の ときに 南の 土地に 移動してきた。",
+		'ja-jp': "雪山に 生息する ポケモン。 大昔 氷河期の ときに 南の 土地に 移動してきた。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "バニプッチ",
+		'ja-jp': "バニプッチ",
 	},
 
 	retreat: 2,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Manaphy",
-		fr: "Manaphy",
-		de: "Manaphy"
+		'en-us': "Manaphy",
+		'fr-fr': "Manaphy",
+		'de-de': "Manaphy"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Deep Sea Swirl",
-				fr: "Remous abyssal",
-				de: "Tiefseewirbel"
+				'en-us': "Deep Sea Swirl",
+				'fr-fr': "Remous abyssal",
+				'de-de': "Tiefseewirbel"
 			},
 			effect: {
-				en: "Shuffle your hand into your deck. Then, draw 5 cards.",
-				fr: "Mélangez votre main avec votre deck. Ensuite, piochez 5 cartes.",
-				de: "Mische deine Handkarten in dein Deck. Ziehe danach 5 Karten."
+				'en-us': "Shuffle your hand into your deck. Then, draw 5 cards.",
+				'fr-fr': "Mélangez votre main avec votre deck. Ensuite, piochez 5 cartes.",
+				'de-de': "Mische deine Handkarten in dein Deck. Ziehe danach 5 Karten."
 			},
 
 		},
@@ -45,9 +45,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse vague",
-				de: "Wellenplatscher"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse vague",
+				'de-de': "Wellenplatscher"
 			},
 
 			damage: 20,
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon."
+		'en-us': "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon."
 	},
 
 	variants: [

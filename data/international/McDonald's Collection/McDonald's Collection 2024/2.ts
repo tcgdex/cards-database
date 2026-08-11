@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2024'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		es: "Pikachu",
-		it: "Pikachu",
-		pt: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'es-es': "Pikachu",
+		'it-it': "Pikachu",
+		'pt-br': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -28,16 +28,16 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				en: "Charge",
+				'en-us': "Charge",
 			},
 			effect: {
-				en: "Search your deck for a Basic Lightning Energy card and attach it to this Pokémon. Then, shuffle your deck."
+				'en-us': "Search your deck for a Basic Lightning Energy card and attach it to this Pokémon. Then, shuffle your deck."
 			}
 		},
 		{
 			cost: ["Lightning", "Lightning", "Colorless"],
 			name: {
-				en: "Pika Punch",
+				'en-us': "Pika Punch",
 			},
 			damage: 50,
 		},

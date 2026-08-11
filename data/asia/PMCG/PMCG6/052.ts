@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナツメのルージュラ",
+		'ja-jp': "ナツメのルージュラ",
 	},
 	illustrator: "Atsuko Nishida",
 
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "手伝います",
+				'ja-jp': "手伝います",
 			},
 			effect: {
-				ja: "対戦相手のポケモンを1つ選択します。そのポケモンから数のダメージカウンターを削除し、その多くのカードを描きます。",
+				'ja-jp': "対戦相手のポケモンを1つ選択します。そのポケモンから数のダメージカウンターを削除し、その多くのカードを描きます。",
 			},
 		},
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "ハグ",
+				'ja-jp': "ハグ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防衛ポケモンは相手の次のターン中に退却することはできません。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防衛ポケモンは相手の次のターン中に退却することはできません。",
 			},
 			damage: 20,
 		},

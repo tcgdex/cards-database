@@ -1,11 +1,11 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../SV'
 
 const set: Set = {
 	id: 'SV7a',
 
 	name: {
-		ja: '楽園ドラゴーナ',
+		'ja-jp': '楽園ドラゴーナ',
 		'zh-tw': '樂園騰龍',
 		'zh-cn': '樂園騰龍'
 
@@ -18,7 +18,7 @@ const set: Set = {
 	},
 
 	releaseDate: {
-		ja: '2024-09-13',
+		'ja-jp': '2024-09-13',
 		'zh-tw': '2024-09-27',
 		'zh-cn': '2024-09-27',
 	},

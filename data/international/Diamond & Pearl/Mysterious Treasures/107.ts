@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Vulpix",
-		fr: "Goupix",
-		de: "Vulpix"
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix",
+		'de-de': "Vulpix"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fire Soul",
-				fr: "Âme de feu",
-				de: "Feurige Seele"
+				'en-us': "Fire Soul",
+				'fr-fr': "Âme de feu",
+				'de-de': "Feurige Seele"
 			},
 			effect: {
-				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 20,
 
@@ -56,8 +56,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It controls balls of fire. As it grows, its six tails split from their tips to make more tails.",
-		fr: "Il envoie des boules de feu. Avec l'âge, ses six queues en forment de nouvelles."
+		'en-us': "It controls balls of fire. As it grows, its six tails split from their tips to make more tails.",
+		'fr-fr': "Il envoie des boules de feu. Avec l'âge, ses six queues en forment de nouvelles."
 	},
 
 	thirdParty: {

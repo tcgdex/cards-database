@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Wormadam",
-		fr: "Cheniselle",
-		es: "Wormadam",
-		it: "Wormadam",
-		pt: "Wormadam",
-		de: "Burmadame"
+		'en-us': "Wormadam",
+		'fr-fr': "Cheniselle",
+		'es-es': "Wormadam",
+		'it-it': "Wormadam",
+		'pt-br': "Wormadam",
+		'de-de': "Burmadame"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Burmy",
-		fr: "Cheniti",
-		es: "Burmy",
-		it: "Burmy",
-		pt: "Burmy",
-		de: "Burmy"
+		'en-us': "Burmy",
+		'fr-fr': "Cheniti",
+		'es-es': "Burmy",
+		'it-it': "Burmy",
+		'pt-br': "Burmy",
+		'de-de': "Burmy"
 	},
 
 	stage: "Stage1",
@@ -43,12 +43,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Sand Spray",
-				fr: "Jet Sableux",
-				es: "Rociado de Arena",
-				it: "Silicospruzzo",
-				pt: "Spray de Areia",
-				de: "Sandspray"
+				'en-us': "Sand Spray",
+				'fr-fr': "Jet Sableux",
+				'es-es': "Rociado de Arena",
+				'it-it': "Silicospruzzo",
+				'pt-br': "Spray de Areia",
+				'de-de': "Sandspray"
 			},
 
 			damage: 30,
@@ -61,20 +61,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Twin Bursts",
-				fr: "Explosions en Duo",
-				es: "Estallidos Gemelos",
-				it: "Scoppiogemello",
-				pt: "Erupções Gêmeas",
-				de: "Doppelsalve"
+				'en-us': "Twin Bursts",
+				'fr-fr': "Explosions en Duo",
+				'es-es': "Estallidos Gemelos",
+				'it-it': "Scoppiogemello",
+				'pt-br': "Erupções Gêmeas",
+				'de-de': "Doppelsalve"
 			},
 			effect: {
-				en: "If Mothim is on your Bench, this attack does 60 more damage.",
-				fr: "Si Papilord est sur votre Banc, cette attaque inflige 60 dégâts supplémentaires.",
-				es: "Si Mothim está en tu Banca, este ataque hace 60 puntos de daño más.",
-				it: "Se Mothim è nella tua panchina, questo attacco infligge 60 danni in più.",
-				pt: "Se Mothim estiver no seu Banco, este ataque causará 60 de danos adicionais.",
-				de: "Wenn sich Moterpel auf deiner Bank befindet, fügt dieser Angriff 60 weitere Schadenspunkte zu."
+				'en-us': "If Mothim is on your Bench, this attack does 60 more damage.",
+				'fr-fr': "Si Papilord est sur votre Banc, cette attaque inflige 60 dégâts supplémentaires.",
+				'es-es': "Si Mothim está en tu Banca, este ataque hace 60 puntos de daño más.",
+				'it-it': "Se Mothim è nella tua panchina, questo attacco infligge 60 danni in più.",
+				'pt-br': "Se Mothim estiver no seu Banco, este ataque causará 60 de danos adicionais.",
+				'de-de': "Wenn sich Moterpel auf deiner Bank befindet, fügt dieser Angriff 60 weitere Schadenspunkte zu."
 			},
 			damage: "60+",
 
@@ -91,7 +91,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
+		'en-us': "When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
 	},
 
 	thirdParty: {

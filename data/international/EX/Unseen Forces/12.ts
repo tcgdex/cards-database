@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Porygon2",
-		fr: "Porygon2",
-		de: "Porygon2"
+		'en-us': "Porygon2",
+		'fr-fr': "Porygon2",
+		'de-de': "Porygon2"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Porygon",
-		fr: "Porygon"
+		'en-us': "Porygon",
+		'fr-fr': "Porygon"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "3-D Reset",
-				fr: "Redémarrage en 3-D",
-				de: "3-D Reset"
+				'en-us': "3-D Reset",
+				'fr-fr': "Redémarrage en 3-D",
+				'de-de': "3-D Reset"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), return a Pokémon Tool card attached to 1 of your Pokémon to your hand. This power can't be used if Porygon2 is affected by a Special Condition.",
-				fr: "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), reprenez dans votre main une carte Outil Pokémon attachée à 1 de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Porygon2 est affecté par un État Spécial.",
-				de: "As often as you like during your turn (before your attack), return a Pokémon Tool card attached to 1 of your Pokémon to your hand. This power can't be used if Porygon2 is affected by a Special Condition."
+				'en-us': "As often as you like during your turn (before your attack), return a Pokémon Tool card attached to 1 of your Pokémon to your hand. This power can't be used if Porygon2 is affected by a Special Condition.",
+				'fr-fr': "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), reprenez dans votre main une carte Outil Pokémon attachée à 1 de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Porygon2 est affecté par un État Spécial.",
+				'de-de': "As often as you like during your turn (before your attack), return a Pokémon Tool card attached to 1 of your Pokémon to your hand. This power can't be used if Porygon2 is affected by a Special Condition."
 			},
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Data Retrieval",
-				fr: "Récupération d'informations",
-				de: "Data Retrieval"
+				'en-us': "Data Retrieval",
+				'fr-fr': "Récupération d'informations",
+				'de-de': "Data Retrieval"
 			},
 			effect: {
-				en: "If you have less than 8 cards in your hand, draw cards until you have 8 cards in your hand.",
-				fr: "Si vous avez moins de 8 cartes en main, piochez des cartes jusqu'à ce que vous ayez 8 cartes en main.",
-				de: "If you have less than 8 cards in your hand, draw cards until you have 8 cards in your hand."
+				'en-us': "If you have less than 8 cards in your hand, draw cards until you have 8 cards in your hand.",
+				'fr-fr': "Si vous avez moins de 8 cartes en main, piochez des cartes jusqu'à ce que vous ayez 8 cartes en main.",
+				'de-de': "If you have less than 8 cards in your hand, draw cards until you have 8 cards in your hand."
 			},
 
 		},
@@ -70,14 +70,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scramble Trip",
-				fr: "Croche-pied codé",
-				de: "Scramble Trip"
+				'en-us': "Scramble Trip",
+				'fr-fr': "Croche-pied codé",
+				'de-de': "Scramble Trip"
 			},
 			effect: {
-				en: "If Porygon2 has a Scramble Energy card attached to it, this attack does 40 damage plus 20 more damage and the Defending Pokémon is now Confused.",
-				fr: "Si une carte Énergie codée est attachée à Porygon2, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus.",
-				de: "If Porygon2 has a Scramble Energy attached to it, this attack does 40 damage plus 20 more damage and the Defending Pokémon is now Confused."
+				'en-us': "If Porygon2 has a Scramble Energy card attached to it, this attack does 40 damage plus 20 more damage and the Defending Pokémon is now Confused.",
+				'fr-fr': "Si une carte Énergie codée est attachée à Porygon2, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "If Porygon2 has a Scramble Energy attached to it, this attack does 40 damage plus 20 more damage and the Defending Pokémon is now Confused."
 			},
 			damage: "40+",
 

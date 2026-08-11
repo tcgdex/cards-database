@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シママ",
+		'ja-jp': "シママ",
 		'zh-tw': "章魚桶",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "放電すると たてがみが 光る。 たてがみが 輝く 回数や リズムで 仲間と 会話している。",
+		'ja-jp': "放電すると たてがみが 光る。 たてがみが 輝く 回数や リズムで 仲間と 会話している。",
 		'zh-tw': "有著堅硬結實的腦袋。會用帶有吸盤的腳纏住對手， 然後不停地用頭猛撞。",
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "サンダーアロー",
+				'ja-jp': "サンダーアロー",
 				'zh-tw': "攀瀑",
 			},
 			cost: ["Lightning"],
 			effect: {
-				ja: "相手のポケモン1匹に、10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],

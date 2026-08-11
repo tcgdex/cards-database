@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2024'
 
 const card: Card = {
 	name: {
-		en: "Miraidon",
-		fr: "Miraidon",
-		es: "Miraidon",
-		it: "Miraidon",
-		pt: "Miraidon",
-		de: "Miraidon"
+		'en-us': "Miraidon",
+		'fr-fr': "Miraidon",
+		'es-es': "Miraidon",
+		'it-it': "Miraidon",
+		'pt-br': "Miraidon",
+		'de-de': "Miraidon"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -28,17 +28,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				en: "Sharp Fang",
+				'en-us': "Sharp Fang",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Lightning", "Lightning", "Colorless"],
 			name: {
-				en: "Lightning Laser",
+				'en-us': "Lightning Laser",
 			},
 			effect: {
-				en: "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'en-us': "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 90,
 		},

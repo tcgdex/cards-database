@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Lickilicky",
-		fr: "Coudlangue",
-		es: "Lickilicky",
-		it: "Lickilicky",
-		pt: "Lickilicky",
-		de: "Schlurplek"
+		'en-us': "Lickilicky",
+		'fr-fr': "Coudlangue",
+		'es-es': "Lickilicky",
+		'it-it': "Lickilicky",
+		'pt-br': "Lickilicky",
+		'de-de': "Schlurplek"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lickitung",
-		fr: "Excelangue",
+		'en-us': "Lickitung",
+		'fr-fr': "Excelangue",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				es: "Desenrollar",
-				it: "Rotolamento",
-				pt: "Rolagem",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'es-es': "Desenrollar",
+				'it-it': "Rotolamento",
+				'pt-br': "Rolagem",
+				'de-de': "Walzer"
 			},
 
 			damage: 40,
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Licks Go Crazy",
-				fr: "Langue Acérée",
-				es: "A lo Loco",
-				it: "Leccate Pazze",
-				pt: "Lambidas Malucas",
-				de: "Schleckwahnsinn"
+				'en-us': "Licks Go Crazy",
+				'fr-fr': "Langue Acérée",
+				'es-es': "A lo Loco",
+				'it-it': "Leccate Pazze",
+				'pt-br': "Lambidas Malucas",
+				'de-de': "Schleckwahnsinn"
 			},
 			effect: {
-				en: "Discard a random card from your opponent’s hand, discard the top card of your opponent’s deck, and discard an Energy from your opponent’s Active Pokémon.",
-				fr: "Défaussez au hasard une carte de la main de votre adversaire, défaussez la carte du dessus du deck de votre adversaire, et défaussez une Énergie du Pokémon Actif de votre adversaire.",
-				es: "Descarta 1 carta aleatoria de la mano de tu rival, descarta la primera carta de la baraja de tu rival y descarta 1 Energía del Pokémon Activo de tu rival.",
-				it: "Scarta una carta a caso dalla mano del tuo avversario, scarta la prima carta del suo mazzo e scarta un’Energia assegnata al suo Pokémon attivo.",
-				pt: "Descarte 1 carta aleatória da mão do seu oponente, descarte a primeira carta do baralho do seu oponente e descarte 1 Energia do Pokémon Ativo do seu oponente.",
-				de: "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel, lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel und lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard a random card from your opponent’s hand, discard the top card of your opponent’s deck, and discard an Energy from your opponent’s Active Pokémon.",
+				'fr-fr': "Défaussez au hasard une carte de la main de votre adversaire, défaussez la carte du dessus du deck de votre adversaire, et défaussez une Énergie du Pokémon Actif de votre adversaire.",
+				'es-es': "Descarta 1 carta aleatoria de la mano de tu rival, descarta la primera carta de la baraja de tu rival y descarta 1 Energía del Pokémon Activo de tu rival.",
+				'it-it': "Scarta una carta a caso dalla mano del tuo avversario, scarta la prima carta del suo mazzo e scarta un’Energia assegnata al suo Pokémon attivo.",
+				'pt-br': "Descarte 1 carta aleatória da mão do seu oponente, descarte a primeira carta do baralho do seu oponente e descarte 1 Energia do Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel, lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel und lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 90,
 
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "A contest is under way to determine which one can stick its tongue out the farthest. The current record is…more than 82 feet.",
+		'en-us': "A contest is under way to determine which one can stick its tongue out the farthest. The current record is…more than 82 feet.",
 	},
 
 	thirdParty: {

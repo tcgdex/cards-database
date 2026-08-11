@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Reptincel",
-		en: "Charmeleon",
-		es: "Charmeleon",
-		it: "Charmeleon",
-		pt: "Charmeleon",
-		de: "Glutexo"
+		'fr-fr': "Reptincel",
+		'en-us': "Charmeleon",
+		'es-es': "Charmeleon",
+		'it-it': "Charmeleon",
+		'pt-br': "Charmeleon",
+		'de-de': "Glutexo"
 	},
 
 	rarity: "Illustration rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Fire"],
 	evolveFrom: {
-		fr: "Salamèche",
-		en: "Charmander",
-		es: "Charmander",
-		it: "Charmander",
-		pt: "Charmander",
-		de: "Glumanda"
+		'fr-fr': "Salamèche",
+		'en-us': "Charmander",
+		'es-es': "Charmander",
+		'it-it': "Charmander",
+		'pt-br': "Charmander",
+		'de-de': "Glumanda"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			fr: "Fournaise",
-			en: "Combustion",
-			es: "Combustión",
-			it: "Fuoco Continuo",
-			pt: "Combustão",
-			de: "Glühen"
+			'fr-fr': "Fournaise",
+			'en-us': "Combustion",
+			'es-es': "Combustión",
+			'it-it': "Fuoco Continuo",
+			'pt-br': "Combustão",
+			'de-de': "Glühen"
 		},
 
 		damage: 20
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Fire"],
 
 		name: {
-			fr: "Déflagration",
-			en: "Fire Blast",
-			es: "Llamarada",
-			it: "Fuocobomba",
-			pt: "Rajada de Fogo",
-			de: "Feuersturm"
+			'fr-fr': "Déflagration",
+			'en-us': "Fire Blast",
+			'es-es': "Llamarada",
+			'it-it': "Fuocobomba",
+			'pt-br': "Rajada de Fogo",
+			'de-de': "Feuersturm"
 		},
 
 		effect: {
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			en: "Discard an Energy from this Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'en-us': "Discard an Energy from this Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte uma Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 90
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.",
+		'en-us': "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.",
 	},
 
 	variants: [

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Seaking",
+		'en-us': "Seaking",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Goldeen",
+		'en-us': "Goldeen",
 	},
 
 	stage: "Stage1",
@@ -33,7 +33,7 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Horn Attack",
+				'en-us': "Horn Attack",
 			},
 
 			damage: 10,
@@ -45,7 +45,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Waterfall",
+				'en-us': "Waterfall",
 			},
 
 			damage: 30,
@@ -63,7 +63,7 @@ const card: Card = {
 
 
 	description: {
-		en: "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks.",
+		'en-us': "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks.",
 	},
 
 

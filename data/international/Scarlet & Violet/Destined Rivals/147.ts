@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Team Rocket's Rattata",
-		fr: "Rattata de la Team Rocket",
-		de: "Team Rockets Rattfratz",
-		it: "Rattata del Team Rocket",
-		es: "Rattata del Team Rocket",
-		pt: "Rattata da Equipe Rocket",
+		'en-us': "Team Rocket's Rattata",
+		'fr-fr': "Rattata de la Team Rocket",
+		'de-de': "Team Rockets Rattfratz",
+		'it-it': "Rattata del Team Rocket",
+		'es-es': "Rattata del Team Rocket",
+		'pt-br': "Rattata da Equipe Rocket",
 		'es-mx': "Rattata del Equipo Rocket"
 	},
 
@@ -28,22 +28,22 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Dangerous Incisors",
-			fr: "Incisives Dangereuses",
-			de: "Gefährliche Nagerei",
-			it: "Incisivi Pericolosi",
-			es: "Incisivos Peligrosos",
-			pt: "Incisivos Perigosos",
+			'en-us': "Dangerous Incisors",
+			'fr-fr': "Incisives Dangereuses",
+			'de-de': "Gefährliche Nagerei",
+			'it-it': "Incisivi Pericolosi",
+			'es-es': "Incisivos Peligrosos",
+			'pt-br': "Incisivos Perigosos",
 			'es-mx': "Incisivos Peligrosos"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
 			'es-mx': "El Pokémon Activo de tu rival ahora está Envenenado."
 		},
 

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2016'
 
 const card: Card = {
@@ -9,7 +9,7 @@ const card: Card = {
 	dexId: [653],
 
 	description: {
-		en: "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit."
+		'en-us': "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit."
 	},
 
 	hp: 50,
@@ -19,16 +19,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Will-O-Wisp",
-			fr: "Feu Follet"
+			'en-us': "Will-O-Wisp",
+			'fr-fr': "Feu Follet"
 		},
 
 		damage: 20
 	}],
 
 	name: {
-		en: "Fennekin",
-		fr: "Feunnec"
+		'en-us': "Fennekin",
+		'fr-fr': "Feunnec"
 	},
 
 	rarity: "None",

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Space-Time Smackdown"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mismagius ex",
-		fr: "Magirêve-ex",
-		es: "Mismagius ex",
-		it: "Mismagius-ex",
-		de: "Traunmagil-ex",
+		'en-us': "Mismagius ex",
+		'fr-fr': "Magirêve-ex",
+		'es-es': "Mismagius ex",
+		'it-it': "Mismagius-ex",
+		'de-de': "Traunmagil-ex",
 		'pt-br': "Mismagius ex",
-		ko: "무우마직 ex"
+		'ko-kr': "무우마직 ex"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -23,7 +23,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Misdreavus"
+		'en-us': "Misdreavus"
 	},
 
 	stage: "Stage1",
@@ -31,26 +31,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Magical Delusion",
-			fr: "Voyage Magique",
-			es: "Ilusión Mágica",
-			it: "Magillusione",
-			de: "Magischer Wahn",
+			'en-us': "Magical Delusion",
+			'fr-fr': "Voyage Magique",
+			'es-es': "Ilusión Mágica",
+			'it-it': "Magillusione",
+			'de-de': "Magischer Wahn",
 			'pt-br': "Delusão Mágica",
-			ko: "매지컬트립"
+			'ko-kr': "매지컬트립"
 		},
 
 		damage: 70,
 		cost: ["Psychic", "Psychic"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
 			
-			ko: "상대의 배틀 포켓몬을 혼란으로 만든다.",
+			'ko-kr': "상대의 배틀 포켓몬을 혼란으로 만든다.",
 			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso."
 		}
 	}],

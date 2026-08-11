@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウインディ",
+		'ja-jp': "ウインディ",
 		'zh-tw': "風速狗",
 		'zh-cn': "風速狗",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "草原を 駆け抜ける 様子は 人々の 心を 虜にしたと 昔の 絵巻に 記されていた。",
+		'ja-jp': "草原を 駆け抜ける 様子は 人々の 心を 虜にしたと 昔の 絵巻に 記されていた。",
 		'zh-tw': "根據過去的畫軸記載， 牠在草原上奔馳的姿態 擄獲了眾多人心。",
 		'zh-cn': "根據過去的畫軸記載， 牠在草原上奔馳的姿態 擄獲了眾多人心。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ほのお",
+				'ja-jp': "ほのお",
 				'zh-tw': "火焰",
 				'zh-cn': "火焰",
 			},
@@ -34,14 +34,14 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "こらしめファング",
+				'ja-jp': "こらしめファング",
 				'zh-tw': "懲治獠牙",
 				'zh-cn': "懲治獠牙",
 			},
 			damage: "100+",
 			cost: ["Fire", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが[D]ポケモンなら、100ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが[D]ポケモンなら、100ダメージ追加。",
 				'zh-tw': "若對手的戰鬥寶可夢為【惡】寶可夢，則增加100點傷害。",
 				'zh-cn': "若對手的戰鬥寶可夢為【惡】寶可夢，則增加100點傷害。",
 			},
@@ -62,7 +62,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ガーディ",
+		'ja-jp': "ガーディ",
 	},
 
 	retreat: 3,

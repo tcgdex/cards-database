@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワンリキー",
+		'ja-jp': "ワンリキー",
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "きたえるのが 大好き。 日に日に 膨れていく 筋肉を ながめて ますます トレーニングに 励むぞ。",
+		'ja-jp': "きたえるのが 大好き。 日に日に 膨れていく 筋肉を ながめて ますます トレーニングに 励むぞ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Fighting", "Fighting"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x30ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数x30ダメージ。",
 			},
 		},
 	],

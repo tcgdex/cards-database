@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SLD"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "黑暗鴉",
-		ja: "ヤミカラス"
+		'ja-jp': "ヤミカラス"
 	},
 
 	illustrator: "Yuka Morii",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "會為了老大尋找閃閃發亮的東西。被人們視為不吉利的象徵，厭惡牠的人也很多。",
-		ja: "ボスのために キラキラ 光るものを 探している。 不吉な 存在と いわれ 忌み嫌う 人も 多い。"
+		'ja-jp': "ボスのために キラキラ 光るものを 探している。 不吉な 存在と いわれ 忌み嫌う 人も 多い。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "啄",
-			ja: "つつく"
+			'ja-jp': "つつく"
 		},
 
 		damage: 10,
@@ -32,7 +32,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "翅膀攻擊",
-			ja: "つばさでうつ"
+			'ja-jp': "つばさでうつ"
 		},
 
 		damage: 30,

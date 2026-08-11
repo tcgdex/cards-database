@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HGSS Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Noctowl",
-		fr: "Noarfang"
+		'en-us': "Noctowl",
+		'fr-fr': "Noarfang"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Promo",
@@ -17,8 +17,8 @@ const card: Card = {
 		"Colorless"
 	],
 	evolveFrom: {
-		en: "Hoothoot",
-		fr: "Hoothoot"
+		'en-us': "Hoothoot",
+		'fr-fr': "Hoothoot"
 	},
 	stage: "Stage1",
 
@@ -26,12 +26,12 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Night Scope",
-				fr: "Regard Nocturne"
+				'en-us': "Night Scope",
+				'fr-fr': "Regard Nocturne"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may look at your opponent's hand. This power can't be used if Noctowl is affected by a Special Condition.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez regarder la main de votre adversaire. Ce pouvoir ne peut pas être utilisé si Noarfang est affecté par un État spécial."
+				'en-us': "Once during your turn (before your attack), you may look at your opponent's hand. This power can't be used if Noctowl is affected by a Special Condition.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez regarder la main de votre adversaire. Ce pouvoir ne peut pas être utilisé si Noarfang est affecté par un État spécial."
 			}
 		},
 	],
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnoblast",
-				fr: "Hypnoblast"
+				'en-us': "Hypnoblast",
+				'fr-fr': "Hypnoblast"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi."
 			},
 			damage: 30,
 
@@ -70,7 +70,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When it needs to think, it rotates its head 180 degrees to sharpen its intellectual power."
+		'en-us': "When it needs to think, it rotates its head 180 degrees to sharpen its intellectual power."
 	},
 
 	variants: [

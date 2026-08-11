@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユクシー",
+		'ja-jp': "ユクシー",
 	},
 
 	illustrator: "kodama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "知識の神と 呼ばれている。 目を 合わせた 者の 記憶を 消してしまう 力を 持つという。",
+		'ja-jp': "知識の神と 呼ばれている。 目を 合わせた 者の 記憶を 消してしまう 力を 持つという。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ひみつのテリトリー" },
 			effect: {
-				ja: "自分の場に「エムリット」「アグノム」がいるなら、おたがいのポケモン全員の弱点は、すべて「×4」としてダメージ計算をする。",
+				'ja-jp': "自分の場に「エムリット」「アグノム」がいるなら、おたがいのポケモン全員の弱点は、すべて「×4」としてダメージ計算をする。",
 			},
 		},
 	],

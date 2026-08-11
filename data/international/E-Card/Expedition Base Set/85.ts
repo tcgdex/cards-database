@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Machoke",
-		fr: "Machopeur",
-		de: "Maschock"
+		'en-us': "Machoke",
+		'fr-fr': "Machopeur",
+		'de-de': "Maschock"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Machop",
-		fr: "Machoc"
+		'en-us': "Machop",
+		'fr-fr': "Machoc"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Punch",
-				fr: "Koud'poing",
-				de: "Hieb"
+				'en-us': "Punch",
+				'fr-fr': "Koud'poing",
+				'de-de': "Hieb"
 			},
 
 			damage: 20,
@@ -50,9 +50,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Kick",
-				fr: "Ultimawashi",
-				de: "Megakick"
+				'en-us': "Mega Kick",
+				'fr-fr': "Ultimawashi",
+				'de-de': "Megakick"
 			},
 
 			damage: 50,

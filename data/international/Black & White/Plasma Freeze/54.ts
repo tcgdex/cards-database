@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Yamask",
-		fr: "Tutafeh",
-		es: "Yamask",
-		it: "Yamask",
-		pt: "Yamask",
-		de: "Makabaja"
+		'en-us': "Yamask",
+		'fr-fr': "Tutafeh",
+		'es-es': "Yamask",
+		'it-it': "Yamask",
+		'pt-br': "Yamask",
+		'de-de': "Makabaja"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Transfer Pain",
-				fr: "Transfert de Douleur",
+				'en-us': "Transfer Pain",
+				'fr-fr': "Transfert de Douleur",
 			},
 			effect: {
-				en: "Move 1 damage counter from any of your Pokémon to any of your opponent's Pokémon.",
-				fr: "Déplacez 1 marqueur de dégâts de l'un de vos Pokémon vers l'un des Pokémon de votre adversaire.",
+				'en-us': "Move 1 damage counter from any of your Pokémon to any of your opponent's Pokémon.",
+				'fr-fr': "Déplacez 1 marqueur de dégâts de l'un de vos Pokémon vers l'un des Pokémon de votre adversaire.",
 			},
 
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "These Pokémon arose from the spirits of people interred in graves. Each retains memories of its former life.",
+		'en-us': "These Pokémon arose from the spirits of people interred in graves. Each retains memories of its former life.",
 	},
 
 	thirdParty: {

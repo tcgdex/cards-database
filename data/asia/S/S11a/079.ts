@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マギアナV",
+		'ja-jp': "マギアナV",
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "ギアスロー" },
 			cost: ["Metal"],
 			effect: {
-				ja: "相手のポケモン1匹に、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン1匹に、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "このポケモンに特殊エネルギーがついているなら、120ダメージ追加。",
+				'ja-jp': "このポケモンに特殊エネルギーがついているなら、120ダメージ追加。",
 			},
 		},
 	],

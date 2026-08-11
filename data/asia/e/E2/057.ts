@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チャンジー",
+		'ja-jp': "チャンジー",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ロールアウトする",
+				'ja-jp': "ロールアウトする",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "ダブルエッジ",
+				'ja-jp': "ダブルエッジ",
 			},
 			effect: {
-				ja: "Chanseyはそれ自体に40のダメージを与えます。",
+				'ja-jp': "Chanseyはそれ自体に40のダメージを与えます。",
 			},
 			damage: 40,
 		},

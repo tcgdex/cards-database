@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Forretress",
-		fr: "Foretress",
-		de: "Forstellka"
+		'en-us': "Forretress",
+		'fr-fr': "Foretress",
+		'de-de': "Forstellka"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pineco",
-		fr: "Pomdepik"
+		'en-us': "Pineco",
+		'fr-fr': "Pomdepik"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Metal Ball",
-				fr: "Double boule métallique",
-				de: "Double Metal Ball"
+				'en-us': "Double Metal Ball",
+				'fr-fr': "Double boule métallique",
+				'de-de': "Double Metal Ball"
 			},
 			effect: {
-				en: "Put 2 damage counters on each Defending Pokémon.",
-				fr: "Placez deux marqueurs de dégât sur chaque Pokémon Défenseur.",
-				de: "Put 2 damage counters on each Defending Pokémon."
+				'en-us': "Put 2 damage counters on each Defending Pokémon.",
+				'fr-fr': "Placez deux marqueurs de dégât sur chaque Pokémon Défenseur.",
+				'de-de': "Put 2 damage counters on each Defending Pokémon."
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Backspin",
-				fr: "Retour arrière",
-				de: "Backspin"
+				'en-us': "Backspin",
+				'fr-fr': "Retour arrière",
+				'de-de': "Backspin"
 			},
 			effect: {
-				en: "After your attack, you may discard 1 Energy card attached to Forretress. If you do, switch Forretress with 1 of your Benched Pokémon.",
-				fr: "Après votre attaque, vous pouvez défausser une carte Énergie attachée à Foretress. Vous pouvez alors échanger Foretress avec un des Pokémon de votre Banc.",
-				de: "After your attack, you may discard 1 Energy card attached to Forretress. If you do, swich Forretress with 1 of your benched Pokémon."
+				'en-us': "After your attack, you may discard 1 Energy card attached to Forretress. If you do, switch Forretress with 1 of your Benched Pokémon.",
+				'fr-fr': "Après votre attaque, vous pouvez défausser une carte Énergie attachée à Foretress. Vous pouvez alors échanger Foretress avec un des Pokémon de votre Banc.",
+				'de-de': "After your attack, you may discard 1 Energy card attached to Forretress. If you do, swich Forretress with 1 of your benched Pokémon."
 			},
 			damage: 40,
 

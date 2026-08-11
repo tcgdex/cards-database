@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Vigoroth",
-		fr: "Vigoroth",
-		de: "Muntier"
+		'en-us': "Vigoroth",
+		'fr-fr': "Vigoroth",
+		'de-de': "Muntier"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Slakoth",
-		fr: "Parecool"
+		'en-us': "Slakoth",
+		'fr-fr': "Parecool"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wake-up Punch",
-				fr: "Coup d'poing qui réveille",
-				de: "Aufwachhieb"
+				'en-us': "Wake-up Punch",
+				'fr-fr': "Coup d'poing qui réveille",
+				'de-de': "Aufwachhieb"
 			},
 			effect: {
-				en: "If Vigoroth evolved from Slakoth during this turn and Slakoth was Asleep, this attack's base damage is 60 instead of 10.",
-				fr: "Si Vigoroth a évolué de Parecool lors de ce tour et que Parecool est Endormi, les dégâts de base de cette attaque sont de 60 au lieu de 10.",
-				de: "Wenn Muntier sich in diesem Zug aus Bummelz entwickelt hat, während Bummelz den Speziellen Zustand \"schlafend\" hatte, beträgt der Grundschaden dieses Angriffs 60 Schadenspunkte anstelle von 10 Schadenspunkten."
+				'en-us': "If Vigoroth evolved from Slakoth during this turn and Slakoth was Asleep, this attack's base damage is 60 instead of 10.",
+				'fr-fr': "Si Vigoroth a évolué de Parecool lors de ce tour et que Parecool est Endormi, les dégâts de base de cette attaque sont de 60 au lieu de 10.",
+				'de-de': "Wenn Muntier sich in diesem Zug aus Bummelz entwickelt hat, während Bummelz den Speziellen Zustand \"schlafend\" hatte, beträgt der Grundschaden dieses Angriffs 60 Schadenspunkte anstelle von 10 Schadenspunkten."
 			},
 			damage: 10,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Swipes",
-				fr: "Combo-griffe",
-				de: "Kratzfurie"
+				'en-us': "Fury Swipes",
+				'fr-fr': "Combo-griffe",
+				'de-de': "Kratzfurie"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip 3 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "30x",
 
@@ -79,8 +79,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its heart beats at a tenfold tempo, so it cannot sit still even for a moment.",
-		fr: "Son cœur bat dix fois plus vite que la normale, c'est pourquoi il ne tient pas en place."
+		'en-us': "Its heart beats at a tenfold tempo, so it cannot sit still even for a moment.",
+		'fr-fr': "Son cœur bat dix fois plus vite que la normale, c'est pourquoi il ne tient pas en place."
 	},
 
 	thirdParty: {

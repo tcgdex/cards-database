@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オーベム",
+		'ja-jp': "オーベム",
 	},
 
 	illustrator: "Aya Kusube",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "相手の 記憶を 操作する。 ３色の 指を 点滅させて 仲間と 会話している らしい。",
+		'ja-jp': "相手の 記憶を 操作する。 ３色の 指を 点滅させて 仲間と 会話している らしい。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数×30ダメージ追加。",
 			},
 		},
 	],
@@ -40,7 +40,7 @@ const card: Card = {
 	variants: [{ type: "holo" }],
 
 	evolveFrom: {
-		ja: "リグレー",
+		'ja-jp': "リグレー",
 	},
 
 	retreat: 1,

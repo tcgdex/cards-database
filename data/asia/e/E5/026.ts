@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Magikarp",
+		'ja-jp': "Magikarp",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "進化の兆候",
+				'ja-jp': "進化の兆候",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、マジカルプから進化するカードをデッキに検索し、相手に見せて、手に入れてください。その後、デッキをシャッフルします。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、マジカルプから進化するカードをデッキに検索し、相手に見せて、手に入れてください。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Water"],
 			name: {
-				ja: "スプラッシュ",
+				'ja-jp': "スプラッシュ",
 			},
 			damage: 10,
 		},

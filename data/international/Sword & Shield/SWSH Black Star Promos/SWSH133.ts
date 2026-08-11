@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lance's Charizard V",
-		fr: "Dracaufeu V de Peter",
-		de: "Siegfrieds Glurak V",
-		es: "Charizard V de Lance",
-		pt: "Charizard V do Lance",
-		it: "Charizard V di Lance"
+		'en-us': "Lance's Charizard V",
+		'fr-fr': "Dracaufeu V de Peter",
+		'de-de': "Siegfrieds Glurak V",
+		'es-es': "Charizard V de Lance",
+		'pt-br': "Charizard V do Lance",
+		'it-it': "Charizard V di Lance"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -23,23 +23,23 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Flamethrower",
-			fr: "Lance-Flammes",
-			de: "Flammenwurf",
-			es: "Lanzallamas",
-			pt: "Lança-chamas",
-			it: "Lanciafiamme"
+			'en-us': "Flamethrower",
+			'fr-fr': "Lance-Flammes",
+			'de-de': "Flammenwurf",
+			'es-es': "Lanzallamas",
+			'pt-br': "Lança-chamas",
+			'it-it': "Lanciafiamme"
 		},
 
 		damage: 200,
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			pt: "Descarte 1 Energia deste Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon."
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'pt-br': "Descarte 1 Energia deste Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon."
 		}
 	}],
 

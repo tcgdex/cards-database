@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Luxio",
-		de: "Luxio"
+		'en-us': "Luxio",
+		'de-de': "Luxio"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shinx"
+		'en-us': "Shinx"
 	},
 
 	stage: "Stage1",
@@ -32,8 +32,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Kick",
-				de: "Tritt"
+				'en-us': "Kick",
+				'de-de': "Tritt"
 			},
 
 			damage: 20,
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Discharge",
-				de: "Ladungsstoß"
+				'en-us': "Discharge",
+				'de-de': "Ladungsstoß"
 			},
 			effect: {
-				en: "Discard all Lightning Energy attached to Luxio. Flip a coin for each Energy card you discarded. This attack does 40 damage times the number of heads.",
-				de: "Entferne alle -Energien von Luxio und lege sie auf deinen Ablagestapel. Wirf für jede auf diese Weise auf deinen Ablagestapel gelegte Energiekarte 1 Münze. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Discard all Lightning Energy attached to Luxio. Flip a coin for each Energy card you discarded. This attack does 40 damage times the number of heads.",
+				'de-de': "Entferne alle -Energien von Luxio und lege sie auf deinen Ablagestapel. Wirf für jede auf diese Weise auf deinen Ablagestapel gelegte Energiekarte 1 Münze. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "40×",
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes."
+		'en-us': "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジュラルドン",
+		'ja-jp': "ジュラルドン",
 	},
 
 	illustrator: "Shinji Kanda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "特殊な 金属の 体は 鏡面加工のように 滑らか。 キズに 強く しかも 軽量。",
+		'ja-jp': "特殊な 金属の 体は 鏡面加工のように 滑らか。 キズに 強く しかも 軽量。",
 	},
 
 	stage: "Basic",

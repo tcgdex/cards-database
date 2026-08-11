@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラコラッタ",
+		'ja-jp': "アローラコラッタ",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "日が 暮れると 活動。 群れの ボスである ラッタのため いい餌を 求めて 街中を 駆け廻る。",
+		'ja-jp': "日が 暮れると 活動。 群れの ボスである ラッタのため いい餌を 求めて 街中を 駆け廻る。",
 	},
 
 	stage: "Basic",

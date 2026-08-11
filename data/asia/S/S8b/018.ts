@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブースター",
+		'ja-jp': "ブースター",
 		'zh-tw': "火伊布",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "体内に 炎が 溜まると ブースターの 体温も 最高 ９００度 まで 上がっていく。",
+		'ja-jp': "体内に 炎が 溜まると ブースターの 体温も 最高 ９００度 まで 上がっていく。",
 		'zh-tw': "當火焰在體內積蓄時，火伊布的體溫也會隨之上升到最高９００度。",
 	},
 
@@ -24,11 +24,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "しゃくねつのめざめ",
+				'ja-jp': "しゃくねつのめざめ",
 				'zh-tw': "灼熱覺醒",
 			},
 			effect: {
-				ja: "このポケモンに「メモリーカプセル」がついているなら、おたがいの場の[草]ポケモンの特性は、すべてなくなる。",
+				'ja-jp': "このポケモンに「メモリーカプセル」がついているなら、おたがいの場の[草]ポケモンの特性は、すべてなくなる。",
 				'zh-tw': "若這隻寶可夢身上附有「回憶膠囊」，則雙方的場上【草】寶可夢的特性全部消除。",
 			},
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ほのおのたてがみ",
+				'ja-jp': "ほのおのたてがみ",
 				'zh-tw': "火之鬃",
 			},
 			damage: 100,
@@ -65,7 +65,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 2,

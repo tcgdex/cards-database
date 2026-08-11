@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "大狼犬",
-		ja: "グラエナ"
+		'ja-jp': "グラエナ"
 	},
 
 	illustrator: "otumami",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "會組成約１０隻規模的群體， 靠著有條不紊的團隊合作 追擊並解決獵物。",
-		ja: "１０匹 程度の 群れを 作って 一糸乱れぬ チームワークで 獲物を 追いつめて しとめるのだ。"
+		'ja-jp': "１０匹 程度の 群れを 作って 一糸乱れぬ チームワークで 獲物を 追いつめて しとめるのだ。"
 	},
 
 	stage: "Stage1",
@@ -26,24 +26,24 @@ const card: Card = {
 
 		name: {
 			'zh-tw': "喧鬧咆哮",
-			ja: "ハッスルバーク"
+			'ja-jp': "ハッスルバーク"
 		},
 
 		effect: {
 			'zh-tw': "若對手的場上有「寶可夢【VMAX】」，則這隻寶可夢使用招式所需的能量，減少3個【無】能量。",
-			ja: "相手の場に「ポケモンVMAX」がいるなら、このポケモンがワザを使うためのエネルギーは、エネルギー3個ぶん少なくなる。"
+			'ja-jp': "相手の場に「ポケモンVMAX」がいるなら、このポケモンがワザを使うためのエネルギーは、エネルギー3個ぶん少なくなる。"
 		}
 	}],
 
 	attacks: [{
 		name: {
 			'zh-tw': "狂野衝撞",
-			ja: "ワイルドタックル"
+			'ja-jp': "ワイルドタックル"
 		},
 
 		effect: {
 			'zh-tw': "這隻寶可夢也受到50點傷害。",
-			ja: "このポケモンにも50ダメージ。"
+			'ja-jp': "このポケモンにも50ダメージ。"
 		},
 
 		damage: 160,

@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヒトツキ",
+		'ja-jp': "ヒトツキ",
 		'zh-tw': "獨劍鞘",
-		th: "ฮิโตทซึกิ"
+		'th-th': "ฮิโตทซึกิ"
 	},
 
 	illustrator: "aoki",
@@ -18,9 +18,9 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "剣の 鍔の 青い 目玉が ヒトツキの 本体。 古びた 布で 人の 生気を 吸い取る。",
+		'ja-jp': "剣の 鍔の 青い 目玉が ヒトツキの 本体。 古びた 布で 人の 生気を 吸い取る。",
 		'zh-tw': "獨劍鞘護手上的藍色眼珠是牠的本體。 會用陳舊的布吸取人類的精氣。",
-		th: "ตาสีฟ้าบนกระบังดาบคือตัวจริงของฮิโตทซึกิ ดูดเอาพลังชีวิตของคนไปด้วยผ้าเก่า ๆ"
+		'th-th': "ตาสีฟ้าบนกระบังดาบคือตัวจริงของฮิโตทซึกิ ดูดเอาพลังชีวิตของคนไปด้วยผ้าเก่า ๆ"
 	},
 
 	stage: "Basic",
@@ -29,9 +29,9 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			ja: "きる",
+			'ja-jp': "きる",
 			'zh-tw': "切",
-			th: "ตัดฉับ"
+			'th-th': "ตัดฉับ"
 		},
 
 		damage: 20

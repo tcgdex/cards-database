@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "エンニュート",
+		'ja-jp': "エンニュート",
 		'zh-tw': "焰后蜥",
-		th: "เอ็นนิวท์",
-		id: "Salazzle"
+		'th-th': "เอ็นนิวท์",
+		'id-id': "Salazzle"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "毒ガスで クラクラにした 相手を 妖艶な 身のこなしで 誘惑し 忠実な しもべに してしまう。",
+		'ja-jp': "毒ガスで クラクラにした 相手を 妖艶な 身のこなしで 誘惑し 忠実な しもべに してしまう。",
 		'zh-tw': "會用妖豔的身姿誘惑被牠的毒瓦斯弄得頭昏眼花的對手， 使其變成自己忠實的僕人。",
-		th: "ยั่วยวนคู่ต่อสู้ที่มึนงงเพราะแก๊สพิษด้วยท่าทีเย้ายวน ทำให้อีกฝ่ายกลายเป็นผู้รับใช้ที่ซื่อสัตย์",
-		id: "Salazzle menggunakan sosoknya yang memesona untuk memikat lawan yang terhuyung-huyung akibat gas beracun dan menjadikan mereka bawahan yang setia."
+		'th-th': "ยั่วยวนคู่ต่อสู้ที่มึนงงเพราะแก๊สพิษด้วยท่าทีเย้ายวน ทำให้อีกฝ่ายกลายเป็นผู้รับใช้ที่ซื่อสัตย์",
+		'id-id': "Salazzle menggunakan sosoknya yang memesona untuk memikat lawan yang terhuyung-huyung akibat gas beracun dan menjadikan mereka bawahan yang setia."
 	},
 
 	stage: "Stage1",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			ja: "ガスでつつむ",
+			'ja-jp': "ガスでつつむ",
 			'zh-tw': "瓦斯包圍",
-			th: "ห่อหุ้มด้วยแก๊ส",
-			id: "Gas yang Menyelimuti"
+			'th-th': "ห่อหุ้มด้วยแก๊ส",
+			'id-id': "Gas yang Menyelimuti"
 		},
 
 		damage: 40
@@ -42,10 +42,10 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			ja: "ひっぱたく",
+			'ja-jp': "ひっぱたく",
 			'zh-tw': "重摑",
-			th: "ตบแรง",
-			id: "Menepuk"
+			'th-th': "ตบแรง",
+			'id-id': "Menepuk"
 		},
 
 		damage: 70

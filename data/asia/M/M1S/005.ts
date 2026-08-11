@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガニウム"
+		'ja-jp': "メガニウム"
 	},
 	illustrator: "Yoriyuki Ikegami",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Grass"],
 	description: {
-		ja: "メガニウムのそばにいると森林浴をしたようなすがすがしい気分になれる。"
+		'ja-jp': "メガニウムのそばにいると森林浴をしたようなすがすがしい気分になれる。"
 	},
 	stage: "Stage2",
 	variants: [
@@ -25,20 +25,20 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ベイリーフ"
+		'ja-jp': "ベイリーフ"
 	},
 	abilities: [{
 		type: "Ability",
 		name: {
-			ja: "おいしげる"
+			'ja-jp': "おいしげる"
 		},
 		effect: {
-			ja: "このポケモンがいるかぎり、自分のポケモン全員についている「基本草エネルギー」は、それぞれ草エネルギー2個ぶんとしてはたらく。この特製の効果は重ならない。"
+			'ja-jp': "このポケモンがいるかぎり、自分のポケモン全員についている「基本草エネルギー」は、それぞれ草エネルギー2個ぶんとしてはたらく。この特製の効果は重ならない。"
 		}
 	}],
 	attacks: [{
 		name: {
-			ja: "ソーラービーム"
+			'ja-jp': "ソーラービーム"
 		},
 		damage: 140,
 		cost: ["Grass", "Grass", "Colorless", "Colorless"]

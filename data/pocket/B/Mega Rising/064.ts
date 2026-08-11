@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Palpitoad"
+		'en-us': "Palpitoad"
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Tympole"
+		'en-us': "Tympole"
 	},
 
 	description: {
-		en: "On occasion, their cries are sublimely pleasing to\nthe ear. Palpitoad with larger lumps on their\nbodies can sing with a wider range of sounds."
+		'en-us': "On occasion, their cries are sublimely pleasing to\nthe ear. Palpitoad with larger lumps on their\nbodies can sing with a wider range of sounds."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Hyper Voice"
+			'en-us': "Hyper Voice"
 		},
 
 		damage: 60,

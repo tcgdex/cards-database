@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Victini",
-		fr: "Victini",
-		de: "Victini",
-		it: "Victini",
-		pt: "Victini",
-		es: "Victini",
+		'en-us': "Victini",
+		'fr-fr': "Victini",
+		'de-de': "Victini",
+		'it-it': "Victini",
+		'pt-br': "Victini",
+		'es-es': "Victini",
 		'es-mx': "Victini"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			en: "V-Force",
-			fr: "Force-V",
-			de: "V-Stärke",
-			it: "Forza V",
-			pt: "Força V",
-			es: "Fuerza V",
+			'en-us': "V-Force",
+			'fr-fr': "Force-V",
+			'de-de': "V-Stärke",
+			'it-it': "Forza V",
+			'pt-br': "Força V",
+			'es-es': "Fuerza V",
 			'es-mx': "Fuerza V"
 		},
 
 		effect: {
-			en: "If you have 4 or fewer Benched Pokémon, this attack does nothing.",
-			fr: "Si vous avez 4 Pokémon de Banc ou moins, cette attaque ne fait rien.",
-			de: "Wenn du 4 oder weniger Pokémon auf deiner Bank hast, hat diese Attacke keine Auswirkungen.",
-			it: "Se hai quattro o meno Pokémon in panchina, questo attacco non ha effetto.",
-			pt: "Se você tiver 4 ou menos Pokémon no Banco, este ataque não fará nada.",
-			es: "Si tienes 4 Pokémon en Banca o menos, este ataque no hace nada.",
+			'en-us': "If you have 4 or fewer Benched Pokémon, this attack does nothing.",
+			'fr-fr': "Si vous avez 4 Pokémon de Banc ou moins, cette attaque ne fait rien.",
+			'de-de': "Wenn du 4 oder weniger Pokémon auf deiner Bank hast, hat diese Attacke keine Auswirkungen.",
+			'it-it': "Se hai quattro o meno Pokémon in panchina, questo attacco non ha effetto.",
+			'pt-br': "Se você tiver 4 ou menos Pokémon no Banco, este ataque não fará nada.",
+			'es-es': "Si tienes 4 Pokémon en Banca o menos, este ataque no hace nada.",
 			'es-mx': "Si tienes 4 Pokémon en Banca o menos, este ataque no hace nada."
 		},
 

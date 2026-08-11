@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates'
 
 const card: Card = {
 	name: {
-		en: "Jessie & James",
-		fr: "Jessie et James",
+		'en-us': "Jessie & James",
+		'fr-fr': "Jessie et James",
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -13,8 +13,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Chaque joueur défausse 2 cartes de sa main. Votre adversaire défausse en premier.",
-		en: "Each player discards 2 cards from their hand. Your opponent discards first."
+		'fr-fr': "Chaque joueur défausse 2 cartes de sa main. Votre adversaire défausse en premier.",
+		'en-us': "Each player discards 2 cards from their hand. Your opponent discards first."
 	},
 
 	trainerType: "Supporter",

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チコリータ",
+		'ja-jp': "チコリータ",
 	},
 
 	illustrator: "Makura Tami",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "日差しを 浴びるのが 大好き。 頭の 葉っぱを 使って 暖かい 場所を 探す。",
+		'ja-jp': "日差しを 浴びるのが 大好き。 頭の 葉っぱを 使って 暖かい 場所を 探す。",
 	},
 
 	stage: "Basic",

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "おむかえちょうちん",
+		'ja-jp': "おむかえちょうちん",
 	},
 
 	illustrator: "Studio Bora Inc.",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のトラッシュから「いちげき」のサポートを1枚選び、相手に見せて、手札に加える。",
+		'ja-jp': "自分のトラッシュから「いちげき」のサポートを1枚選び、相手に見せて、手札に加える。",
 	},
 
 	variants: [

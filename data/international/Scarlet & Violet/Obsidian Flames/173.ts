@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Nanméouïe",
-		en: "Audino",
-		es: "Audino",
-		it: "Audino",
-		pt: "Audino",
-		de: "Ohrdoch"
+		'fr-fr': "Nanméouïe",
+		'en-us': "Audino",
+		'es-es': "Audino",
+		'it-it': "Audino",
+		'pt-br': "Audino",
+		'de-de': "Ohrdoch"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Trouver un Ami",
-			en: "Find a Friend",
-			es: "Encontrar un Amigo",
-			it: "Trovamico",
-			pt: "Encontre um Amigo",
-			de: "Freunde finden"
+			'fr-fr': "Trouver un Ami",
+			'en-us': "Find a Friend",
+			'es-es': "Encontrar un Amigo",
+			'it-it': "Trovamico",
+			'pt-br': "Encontre um Amigo",
+			'de-de': "Freunde finden"
 		},
 
 		effect: {
-			fr: "Cherchez dans votre deck un Pokémon, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
-			en: "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
-			es: "Busca en tu baraja 1 Pokémon, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo un Pokémon, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por um Pokémon no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+			'fr-fr': "Cherchez dans votre deck un Pokémon, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+			'en-us': "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+			'es-es': "Busca en tu baraja 1 Pokémon, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo un Pokémon, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por um Pokémon no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Gifle",
-			en: "Slap",
-			es: "Bofetón",
-			it: "Sberla",
-			pt: "Tapa",
-			de: "Hieb"
+			'fr-fr': "Gifle",
+			'en-us': "Slap",
+			'es-es': "Bofetón",
+			'it-it': "Sberla",
+			'pt-br': "Tapa",
+			'de-de': "Hieb"
 		},
 
 		damage: 80
@@ -65,7 +65,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "This Pokémon has a kind heart. By touching with its feelers, Audino can gauge other creatures' feelings and physical conditions.",
+		'en-us': "This Pokémon has a kind heart. By touching with its feelers, Audino can gauge other creatures' feelings and physical conditions.",
 	},
 
 	variants: [

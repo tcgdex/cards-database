@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スリーパー",
+		'ja-jp': "スリーパー",
 		'zh-tw': "引夢貘人",
-		th: "สลีปเปอร์",
-		id: "Hypno",
+		'th-th': "สลีปเปอร์",
+		'id-id': "Hypno",
 	},
 
 	illustrator: "Mousho",
@@ -16,10 +16,10 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "相手と 目が 合ったときに 催眠術など 数々の 超能力を 使うという。",
+		'ja-jp': "相手と 目が 合ったときに 催眠術など 数々の 超能力を 使うという。",
 		'zh-tw': "據說牠和對手對到眼時，就會使出催眠術等 各式各樣的超能力。",
-		th: "จะใช้พลังเหนือธรรมชาติต่าง ๆ อย่างสะกดจิตให้หลับเมื่อสบตากับอีกฝ่าย",
-		id: "Dikabarkan Hypno menggunakan hipnotis dan berbagai macam kekuatan psikokinesis lainnya saat bertatapan dengan musuhnya.",
+		'th-th': "จะใช้พลังเหนือธรรมชาติต่าง ๆ อย่างสะกดจิตให้หลับเมื่อสบตากับอีกฝ่าย",
+		'id-id': "Dikabarkan Hypno menggunakan hipnotis dan berbagai macam kekuatan psikokinesis lainnya saat bertatapan dengan musuhnya.",
 	},
 
 	stage: "Stage1",
@@ -28,16 +28,16 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "でたとこさいみん",
+				'ja-jp': "でたとこさいみん",
 				'zh-tw': "臨場催眠",
-				th: "สะกดจิตฉับพลัน",
-				id: "Hipnosis Masuk Spontan",
+				'th-th': "สะกดจิตฉับพลัน",
+				'id-id': "Hipnosis Masuk Spontan",
 			},
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のバトルポケモンをねむりにする。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。相手のバトルポケモンをねむりにする。",
 				'zh-tw': "在自己的回合，從手牌使出這張卡並完成進化時，可使用1次。將對手的戰鬥寶可夢【睡眠】。",
-				th: "ในเทิร์นฝ่ายเรา เมื่อนำการ์ดนี้จากบนมือออกมาวิวัฒนาการแล้ว ใช้ได้ 1 ครั้ง ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[หลับ]",
-				id: "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan untuk melakukan evolusi. Ubah kondisi Pokémon Bertarung lawan menjadi Tidur.",
+				'th-th': "ในเทิร์นฝ่ายเรา เมื่อนำการ์ดนี้จากบนมือออกมาวิวัฒนาการแล้ว ใช้ได้ 1 ครั้ง ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[หลับ]",
+				'id-id': "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan untuk melakukan evolusi. Ubah kondisi Pokémon Bertarung lawan menjadi Tidur.",
 			},
 		},
 	],
@@ -45,10 +45,10 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ちょうねんりき",
+				'ja-jp': "ちょうねんりき",
 				'zh-tw': "超念力",
-				th: "ซูเปอร์โทรจิต",
-				id: "Psikokinesis Super",
+				'th-th': "ซูเปอร์โทรจิต",
+				'id-id': "Psikokinesis Super",
 			},
 			damage: 110,
 			cost: ["Psychic", "Psychic", "Colorless"],
@@ -82,7 +82,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "スリープ",
+		'ja-jp': "スリープ",
 	},
 
 	retreat: 2,

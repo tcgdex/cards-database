@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Switch",
-		fr: "Transfert",
-		de: "Tausch"
+		'en-us': "Switch",
+		'fr-fr': "Transfert",
+		'de-de': "Tausch"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Switch your Active Pokémon with 1 of your Benched Pokémon.",
-		fr: "Échangez votre Pokémon Actif contre l'un des Pokémon de votre Banc.",
-		de: "Tausche dein Aktives Pokémon mit 1 der Pokémon auf der Bank aus."
+		'en-us': "Switch your Active Pokémon with 1 of your Benched Pokémon.",
+		'fr-fr': "Échangez votre Pokémon Actif contre l'un des Pokémon de votre Banc.",
+		'de-de': "Tausche dein Aktives Pokémon mit 1 der Pokémon auf der Bank aus."
 	},
 
 	variants: [

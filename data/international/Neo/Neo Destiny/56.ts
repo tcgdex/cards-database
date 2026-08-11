@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Togepi",
-		fr: "Togepi",
-		de: "Togepi"
+		'en-us': "Togepi",
+		'fr-fr': "Togepi",
+		'de-de': "Togepi"
 	},
 
 	illustrator: "Yuka Morii",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Charm",
-				fr: "Charme",
-				de: "Charm"
+				'en-us': "Charm",
+				'fr-fr': "Charme",
+				'de-de': "Charm"
 			},
 			effect: {
-				en: "If the Defending Pokémon attacks during your opponent's next turn, any damage it does is reduced by 10 (before applying Weakness and Resistance).",
-				fr: "Si le Pokémon Défenseur attaque pendant le prochain tour de votre adversaire, tous les dégâts qu'il inflige sont réduits de 10 (avant application de la Faiblesse et de la Résistance).",
-				de: "If the Defending Pokémon attacks during your opponent's next turn, any damage it does is reduced by 10 (before applying Weakness and Resistance)."
+				'en-us': "If the Defending Pokémon attacks during your opponent's next turn, any damage it does is reduced by 10 (before applying Weakness and Resistance).",
+				'fr-fr': "Si le Pokémon Défenseur attaque pendant le prochain tour de votre adversaire, tous les dégâts qu'il inflige sont réduits de 10 (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "If the Defending Pokémon attacks during your opponent's next turn, any damage it does is reduced by 10 (before applying Weakness and Resistance)."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spike Ball Tackle",
-				fr: "Charge balle pic",
-				de: "Spike Ball Tackle"
+				'en-us': "Spike Ball Tackle",
+				'fr-fr': "Charge balle pic",
+				'de-de': "Spike Ball Tackle"
 			},
 			effect: {
-				en: "Togepi does 10 damage to itself.",
-				fr: "Togepi s'inflige 10 dégâts.",
-				de: "Togepi does 10 damage to itself."
+				'en-us': "Togepi does 10 damage to itself.",
+				'fr-fr': "Togepi s'inflige 10 dégâts.",
+				'de-de': "Togepi does 10 damage to itself."
 			},
 			damage: 20,
 
@@ -72,8 +72,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its shell is said to contain happiness itself, which it will share with those who are kind to it.",
-		fr: "On raconte que sa coquille est pleine de bonheur, qu'il partage avec tous ceux qui sont gentils avec lui."
+		'en-us': "Its shell is said to contain happiness itself, which it will share with those who are kind to it.",
+		'fr-fr': "On raconte que sa coquille est pleine de bonheur, qu'il partage avec tous ceux qui sont gentils avec lui."
 	},
 
 

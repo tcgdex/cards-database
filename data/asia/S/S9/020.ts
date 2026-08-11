@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "猛火猴",
-		ja: "モウカザル"
+		'ja-jp': "モウカザル"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "利用天花板和牆壁使出空中攻擊。尾巴上的火焰也是武器之一。",
-		ja: "天井や 壁を 利用して 空中殺法を 繰り出す。 尻尾の 炎も 武器の ひとつ。"
+		'ja-jp': "天井や 壁を 利用して 空中殺法を 繰り出す。 尻尾の 炎も 武器の ひとつ。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "火焰",
-			ja: "ほのお"
+			'ja-jp': "ほのお"
 		},
 
 		damage: 30,
@@ -32,12 +32,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "噴射火焰",
-			ja: "かえんほうしゃ"
+			'ja-jp': "かえんほうしゃ"
 		},
 
 		effect: {
 			'zh-tw': "選擇1個這隻寶可夢身上附加的能量，將其丟棄。",
-			ja: "このポケモンについているエネルギーを1個選び、トラッシュする。"
+			'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。"
 		},
 
 		damage: 50,

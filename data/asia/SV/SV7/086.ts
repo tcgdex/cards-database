@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "毛辮羊",
 		'zh-cn': "毛辮羊",
-		ja: "ウールー"
+		'ja-jp': "ウールー"
 	},
 
 	illustrator: "Wintr Wandr",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "捲捲的體毛彈性十足。 就算從懸崖上掉下去， 也不會受傷。",
 		'zh-cn': "捲捲的體毛彈性十足。 就算從懸崖上掉下去， 也不會受傷。",
-		ja: "パーマの かかった 体毛は 高い クッション性が ある。 崖から 落ちても へっちゃら。"
+		'ja-jp': "パーマの かかった 体毛は 高い クッション性が ある。 崖から 落ちても へっちゃら。"
 	},
 
 	stage: "Basic",
@@ -27,13 +27,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "搗碎",
 			'zh-cn': "搗碎",
-			ja: "つきくずす"
+			'ja-jp': "つきくずす"
 		},
 
 		effect: {
 			'zh-tw': "若希望，將場上的競技場卡丟棄。",
 			'zh-cn': "若希望，將場上的競技場卡丟棄。",
-			ja: "のぞむなら、場に出ているスタジアムをトラッシュする。"
+			'ja-jp': "のぞむなら、場に出ているスタジアムをトラッシュする。"
 		},
 
 		damage: 30,

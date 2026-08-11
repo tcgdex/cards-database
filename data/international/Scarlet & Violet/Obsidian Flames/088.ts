@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Granbull",
-		en: "Granbull",
-		es: "Granbull",
-		it: "Granbull",
-		pt: "Granbull",
-		de: "Granbull"
+		'fr-fr': "Granbull",
+		'en-us': "Granbull",
+		'es-es': "Granbull",
+		'it-it': "Granbull",
+		'pt-br': "Granbull",
+		'de-de': "Granbull"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Psychic"],
 	evolveFrom: {
-		fr: "Snubbull",
-		en: "Snubbull",
-		es: "Snubbull",
-		it: "Snubbull",
-		pt: "Snubbull",
-		de: "Snubbull"
+		'fr-fr': "Snubbull",
+		'en-us': "Snubbull",
+		'es-es': "Snubbull",
+		'it-it': "Snubbull",
+		'pt-br': "Snubbull",
+		'de-de': "Snubbull"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			fr: "Confrontation",
-			en: "Confront",
-			es: "Confrontar",
-			it: "Confronto",
-			pt: "Confrontar",
-			de: "Konfrontieren"
+			'fr-fr': "Confrontation",
+			'en-us': "Confront",
+			'es-es': "Confrontar",
+			'it-it': "Confronto",
+			'pt-br': "Confrontar",
+			'de-de': "Konfrontieren"
 		},
 
 		damage: 50
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			fr: "Tacle Brutal",
-			en: "Wild Tackle",
-			es: "Placaje Salvaje",
-			it: "Azionferoce",
-			pt: "Investida Feroz",
-			de: "Wilder Tackle"
+			'fr-fr': "Tacle Brutal",
+			'en-us': "Wild Tackle",
+			'es-es': "Placaje Salvaje",
+			'it-it': "Azionferoce",
+			'pt-br': "Investida Feroz",
+			'de-de': "Wilder Tackle"
 		},
 
 		effect: {
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			en: "This Pokémon also does 30 damage to itself.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 160
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Although it's popular with young people, Granbull is timid and sensitive, so it's totally incompetent as a watchdog.",
+		'en-us': "Although it's popular with young people, Granbull is timid and sensitive, so it's totally incompetent as a watchdog.",
 	},
 
 	variants: [

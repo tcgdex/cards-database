@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Duosion",
-		fr: "Méios",
-		es: "Duosion",
-		it: "Duosion",
-		pt: "Duosion",
-		de: "Mitodos"
+		'en-us': "Duosion",
+		'fr-fr': "Méios",
+		'es-es': "Duosion",
+		'it-it': "Duosion",
+		'pt-br': "Duosion",
+		'de-de': "Mitodos"
 	},
 
 	illustrator: "sui",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Solosis",
-		fr: "Nucléos",
+		'en-us': "Solosis",
+		'fr-fr': "Nucléos",
 	},
 
 	stage: "Stage1",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
 			},
 
 			damage: 20,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Since they have two divided brains, at times they suddenly try to take two different actions at once.",
+		'en-us': "Since they have two divided brains, at times they suddenly try to take two different actions at once.",
 	},
 
 	thirdParty: {

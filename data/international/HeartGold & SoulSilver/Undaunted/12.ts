@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Drifblim",
-		fr: "Grodrive",
-		de: "Drifzepeli"
+		'en-us': "Drifblim",
+		'fr-fr': "Grodrive",
+		'de-de': "Drifzepeli"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Drifloon",
-		fr: "Baudrive"
+		'en-us': "Drifloon",
+		'fr-fr': "Baudrive"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Balloon Tackle",
-				fr: "Charge Ballon",
-				de: "Ballon-Tackle"
+				'en-us': "Balloon Tackle",
+				'fr-fr': "Charge Ballon",
+				'de-de': "Ballon-Tackle"
 			},
 			effect: {
-				en: "Drifblim does 20 damage to itself.",
-				fr: "Grodrive s’inflige 20 dégâts.",
-				de: "Drifzepeli fügt sich selbst 20 Schadenspunkte zu."
+				'en-us': "Drifblim does 20 damage to itself.",
+				'fr-fr': "Grodrive s’inflige 20 dégâts.",
+				'de-de': "Drifzepeli fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Away",
-				fr: "Envolée",
-				de: "Wegschnappen"
+				'en-us': "Take Away",
+				'fr-fr': "Envolée",
+				'de-de': "Wegschnappen"
 			},
 			effect: {
-				en: "Shuffle Drifblim and all cards attached to it back into your deck. Then, your opponent shuffles the Defending Pokémon and all cards attached to it into his or her deck. (You choose your new Active Pokémon first.)",
-				fr: "Mélangez Grodrive et toutes les cartes qui lui sont attachées avec votre deck. Ensuite, votre adversaire mélange le Pokémon Défenseur et toutes les cartes qui lui sont attachées avec son deck. (Vous choisissez votre nouveau Pokémon Actif en premier.)",
-				de: "Mische Drifzepeli und alle daran angelegten Karten zurück in dein Deck. Anschließend mischt dein Gegner das Verteidigende Pokémon und alle daran angelegten Karten zurück in sein Deck. (Du wählst dein neues Aktives Pokémon zuerst.)"
+				'en-us': "Shuffle Drifblim and all cards attached to it back into your deck. Then, your opponent shuffles the Defending Pokémon and all cards attached to it into his or her deck. (You choose your new Active Pokémon first.)",
+				'fr-fr': "Mélangez Grodrive et toutes les cartes qui lui sont attachées avec votre deck. Ensuite, votre adversaire mélange le Pokémon Défenseur et toutes les cartes qui lui sont attachées avec son deck. (Vous choisissez votre nouveau Pokémon Actif en premier.)",
+				'de-de': "Mische Drifzepeli und alle daran angelegten Karten zurück in dein Deck. Anschließend mischt dein Gegner das Verteidigende Pokémon und alle daran angelegten Karten zurück in sein Deck. (Du wählst dein neues Aktives Pokémon zuerst.)"
 			},
 
 		},
@@ -84,7 +84,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It can generate and release gas within its body. That’s how it can control the altitude of its drift."
+		'en-us': "It can generate and release gas within its body. That’s how it can control the altitude of its drift."
 	},
 
 	variants: [

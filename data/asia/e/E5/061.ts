@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Farfetch'd",
+		'ja-jp': "Farfetch'd",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "旋風",
+				'ja-jp': "旋風",
 			},
 			effect: {
-				ja: "対戦相手は、ディフェンディングポケモンを1匹のベンチポケモンで切り替えます。",
+				'ja-jp': "対戦相手は、ディフェンディングポケモンを1匹のベンチポケモンで切り替えます。",
 			},
 		},
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ネギのラッシュ",
+				'ja-jp': "ネギのラッシュ",
 			},
 			effect: {
-				ja: "尾がなくなるまでコインをひっくり返します。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "尾がなくなるまでコインをひっくり返します。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 		},
 	],

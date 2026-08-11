@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サカキのニャース",
+		'ja-jp': "サカキのニャース",
 	},
 	illustrator: "Atsuko Nishida",
 
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "偽の慈善",
+				'ja-jp': "偽の慈善",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、相手のデッキの一番上のカードを見てください。トレーナーカードの場合は、相手の捨てられた山に入れてください。そうでなければ、それを彼または彼女の手に入れてください。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、相手のデッキの一番上のカードを見てください。トレーナーカードの場合は、相手の捨てられた山に入れてください。そうでなければ、それを彼または彼女の手に入れてください。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "二重スクラッチ",
+				'ja-jp': "二重スクラッチ",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の20倍のダメージを与えます。",
 			},
 		},
 	],

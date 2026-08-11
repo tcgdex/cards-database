@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Secluded Springs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Jellicent",
-		fr: "Moyade"
+		'en-us': "Jellicent",
+		'fr-fr': "Moyade"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Frillish"
+		'en-us': "Frillish"
 	},
 
 	description: {
-		en: "Most of this Pokémon's body composition is\nidentical to sea water. It makes sunken ships\nits lair.",
-		fr: "Son corps est composé presque entièrement d'une substance identique à l'eau de mer. Les épaves de navires sont ses bastions."
+		'en-us': "Most of this Pokémon's body composition is\nidentical to sea water. It makes sunken ships\nits lair.",
+		'fr-fr': "Son corps est composé presque entièrement d'une substance identique à l'eau de mer. Les épaves de navires sont ses bastions."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Devour Soul",
-			fr: "Dévoreur d'Âmes"
+			'en-us': "Devour Soul",
+			'fr-fr': "Dévoreur d'Âmes"
 		},
 
 		damage: 80,

@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "わるいシャワーズ",
+		'ja-jp': "わるいシャワーズ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "噛む",
+				'ja-jp': "噛む",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Water", "Water", "Colorless"],
 			name: {
-				ja: "渦",
+				'ja-jp': "渦",
 			},
 			effect: {
-				ja: "防御するポケモンにエネルギーカードが接続されている場合は、それらの1つを選択して破棄します。",
+				'ja-jp': "防御するポケモンにエネルギーカードが接続されている場合は、それらの1つを選択して破棄します。",
 			},
 			damage: 20,
 		},

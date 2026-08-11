@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โยมาวารุ"
+		'th-th': "โยมาวารุ"
 	},
 
 	illustrator: "James Turner",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		th: "จะรู้สึกหนาวสั่นอย่างรุนแรงตอนที่ถูกมันจ้องเขม็งด้วยนัยน์ตาเดียวสีแดงฉานและสูบพลังงานชีวิตไป"
+		'th-th': "จะรู้สึกหนาวสั่นอย่างรุนแรงตอนที่ถูกมันจ้องเขม็งด้วยนัยน์ตาเดียวสีแดงฉานและสูบพลังงานชีวิตไป"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "รับวิญญาณ"
+			'th-th': "รับวิญญาณ"
 		},
 
 		effect: {
-			th: "เลือกการ์ด [โยมาวารุ] ได้สูงสุด 3 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา วางบนเบนช์"
+			'th-th': "เลือกการ์ด [โยมาวารุ] ได้สูงสุด 3 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา วางบนเบนช์"
 		},
 
 		cost: ["Psychic"]
 	}, {
 		name: {
-			th: "งึมงำ"
+			'th-th': "งึมงำ"
 		},
 
 		damage: 30,

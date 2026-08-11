@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Sableye",
+		'en-us': "Sableye",
 	},
 
 	illustrator: "Hiroki Asanuma",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tight Jaw",
+				'en-us': "Tight Jaw",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 30,
 
@@ -43,7 +43,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It hides in the darkness of caves. Its diet of gems has transformed its eyes into gemstones.",
+		'en-us': "It hides in the darkness of caves. Its diet of gems has transformed its eyes into gemstones.",
 	},
 
 	thirdParty: {

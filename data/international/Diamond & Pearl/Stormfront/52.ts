@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Staravia",
-		fr: "Etourvol",
-		de: "Staravia"
+		'en-us': "Staravia",
+		'fr-fr': "Etourvol",
+		'de-de': "Staravia"
 	},
 
 	illustrator: "Midori Harada",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Starly",
-		fr: "Etourmi",
+		'en-us': "Starly",
+		'fr-fr': "Etourmi",
 	},
 
 	stage: "Stage1",
@@ -37,9 +37,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
-				fr: "Cru-aile",
-				de: "Flügelschlag"
+				'en-us': "Wing Attack",
+				'fr-fr': "Cru-aile",
+				'de-de': "Flügelschlag"
 			},
 
 			damage: 30,
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shot Air",
-				fr: "Bouffée d'air",
-				de: "Luftstoß"
+				'en-us': "Shot Air",
+				'fr-fr': "Bouffée d'air",
+				'de-de': "Luftstoß"
 			},
 			effect: {
-				en: "Does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 20,
 
@@ -81,8 +81,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It flies around forests and fields in search of bug Pokémon. It stays within a huge flock.",
-		fr: "Il survole les forêts et les champs en quête de Pokémon insectes. Ils forment de grandes volées."
+		'en-us': "It flies around forests and fields in search of bug Pokémon. It stays within a huge flock.",
+		'fr-fr': "Il survole les forêts et les champs en quête de Pokémon insectes. Ils forment de grandes volées."
 	},
 
 	thirdParty: {

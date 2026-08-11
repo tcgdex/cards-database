@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニョロモ",
+		'ja-jp': "ニョロモ",
 	},
 
 	illustrator: "Asako Ito",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "まだまだ 歩くのが 下手。 トレーナーに なったら 毎日 歩く 訓練を してあげよう。",
+		'ja-jp': "まだまだ 歩くのが 下手。 トレーナーに なったら 毎日 歩く 訓練を してあげよう。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている[水]エネルギーの数x10ダメージ追加。",
+				'ja-jp': "このポケモンについている[水]エネルギーの数x10ダメージ追加。",
 			},
 		},
 	],

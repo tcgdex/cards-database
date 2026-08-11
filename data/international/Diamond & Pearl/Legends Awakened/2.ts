@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Dragonite",
-		fr: "Dracolosse",
-		de: "Dragoran"
+		'en-us': "Dragonite",
+		'fr-fr': "Dracolosse",
+		'de-de': "Dragoran"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dragonair",
-		fr: "Dragonir",
+		'en-us': "Dragonair",
+		'fr-fr': "Dragonir",
 	},
 
 	stage: "Stage2",
@@ -38,14 +38,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Beam",
-				fr: "Ultralaser",
-				de: "Hyperstrahl"
+				'en-us': "Hyper Beam",
+				'fr-fr': "Ultralaser",
+				'de-de': "Hyperstrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf 1 Münze. Bei 'Kopf' lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 40,
 
@@ -58,14 +58,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Draco Meteor",
-				fr: "Draco Météor",
-				de: "Draco Meteor"
+				'en-us': "Draco Meteor",
+				'fr-fr': "Draco Météor",
+				'de-de': "Draco Meteor"
 			},
 			effect: {
-				en: "Flip a coin for each of your opponent's Pokémon. If that coin flip is heads, this attack does 50 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Lancez une pièce pour chaque Pokémon que possède votre adversaire. Si c'est une face, cette attaque inflige 50 dégâts au Pokémon correspondant. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
-				de: "Wirf für jedes Pokémon deines Gegners jeweils 1 Münze. Dieser Angriff fügt jedem Pokémon, für das auf diese Weise 'Kopf' geworfen wurde, 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Flip a coin for each of your opponent's Pokémon. If that coin flip is heads, this attack does 50 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Lancez une pièce pour chaque Pokémon que possède votre adversaire. Si c'est une face, cette attaque inflige 50 dégâts au Pokémon correspondant. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
+				'de-de': "Wirf für jedes Pokémon deines Gegners jeweils 1 Münze. Dieser Angriff fügt jedem Pokémon, für das auf diese Weise 'Kopf' geworfen wurde, 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -88,8 +88,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It is said to make its home somewhere in the sea. It guides crews of shipwrecks to shore.",
-		fr: "On raconte qu'il vit quelque part en mer. Il guide les équipages naufragés jusqu'à la terre ferme."
+		'en-us': "It is said to make its home somewhere in the sea. It guides crews of shipwrecks to shore.",
+		'fr-fr': "On raconte qu'il vit quelque part en mer. Il guide les équipages naufragés jusqu'à la terre ferme."
 	},
 
 	thirdParty: {

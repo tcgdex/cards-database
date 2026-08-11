@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu with Grey Felt Hat",
-		pt: "Pikachu com Chapéu de feltro Cinza"
+		'en-us': "Pikachu with Grey Felt Hat",
+		'pt-br': "Pikachu com Chapéu de feltro Cinza"
 	},
 
 
@@ -25,13 +25,13 @@ const card: Card = {
 			cost: ["Lightning"],
 
 			name: {
-				en: "Pika-Portrait",
-				pt: "Pika-Retrato"
+				'en-us': "Pika-Portrait",
+				'pt-br': "Pika-Retrato"
 			},
 
 			effect: {
-				en: "Search your deck for a Pikachu and put it onto your Bench. Then, shuffle your deck.",
-				pt: "Procure por um Pikachu em seu baralho e coloque-o no seu Banco. Em seguida, embaralhe seu baralho."
+				'en-us': "Search your deck for a Pikachu and put it onto your Bench. Then, shuffle your deck.",
+				'pt-br': "Procure por um Pikachu em seu baralho e coloque-o no seu Banco. Em seguida, embaralhe seu baralho."
 			},
 
 		}
@@ -46,7 +46,7 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 	description: {
-		en: "When it is angered, it immediately discharges the energy stored in the pouches of its cheeks.",
+		'en-us': "When it is angered, it immediately discharges the energy stored in the pouches of its cheeks.",
 	},
 	variants: [
 		{

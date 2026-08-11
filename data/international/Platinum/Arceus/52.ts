@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Bagon",
-		de: "Kindwurm"
+		'en-us': "Bagon",
+		'de-de': "Kindwurm"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Kick",
-				de: "Schmetterkick"
+				'en-us': "Smash Kick",
+				'de-de': "Schmetterkick"
 			},
 
 			damage: 10,
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Singe",
-				de: "Super-Versengung"
+				'en-us': "Super Singe",
+				'de-de': "Super-Versengung"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: 20,
 
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Dreaming of one day flying, it practices by leaping off cliffs every day."
+		'en-us': "Dreaming of one day flying, it practices by leaping off cliffs every day."
 	},
 
 	variants: [

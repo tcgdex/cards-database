@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "基本闘エネルギー"
+		'ja-jp': "基本闘エネルギー"
 	},
 
 	category: "Energy",

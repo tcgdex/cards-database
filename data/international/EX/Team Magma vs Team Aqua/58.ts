@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Aron",
-		fr: "Galekid de Team Magma",
-		de: "Team Magmas Stollunior"
+		'en-us': "Team Magma's Aron",
+		'fr-fr': "Galekid de Team Magma",
+		'de-de': "Team Magmas Stollunior"
 	},
 
 	illustrator: "Katsura Tabata",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mud Slap",
-				fr: "Coud'boue",
-				de: "Mud Slap"
+				'en-us': "Mud Slap",
+				'fr-fr': "Coud'boue",
+				'de-de': "Mud Slap"
 			},
 
 			damage: 10,
@@ -43,9 +43,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,

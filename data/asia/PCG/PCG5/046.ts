@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "wynaut",
+		'ja-jp': "wynaut",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "赤ちゃんの進化",
+				'ja-jp': "赤ちゃんの進化",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前に）、Wobbuffetを手からWynaut（これは進化するWynautとしてカウント）に置き、Wynautからすべてのダメージカウンターを削除することができます。",
+				'ja-jp': "ターン中に（攻撃の前に）、Wobbuffetを手からWynaut（これは進化するWynautとしてカウント）に置き、Wynautからすべてのダメージカウンターを削除することができます。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "混乱波",
+				'ja-jp': "混乱波",
 			},
 			effect: {
-				ja: "Wynautと防御ポケモンの両方が混乱しています。",
+				'ja-jp': "Wynautと防御ポケモンの両方が混乱しています。",
 			},
 		},
 	],

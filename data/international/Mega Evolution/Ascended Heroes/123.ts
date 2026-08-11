@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gastly",
-		fr: "Fantominus",
-		es: "Gastly",
+		'en-us': "Gastly",
+		'fr-fr': "Fantominus",
+		'es-es': "Gastly",
 		'es-mx': "Gastly",
-		de: "Nebulak",
-		it: "Gastly",
-		pt: "Gastly"
+		'de-de': "Nebulak",
+		'it-it': "Gastly",
+		'pt-br': "Gastly"
 	},
 
 	illustrator: "Saboteri",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Petty Grudge",
-			fr: "Rancune Mesquine",
-			es: "Rencor Ruin",
+			'en-us': "Petty Grudge",
+			'fr-fr': "Rancune Mesquine",
+			'es-es': "Rencor Ruin",
 			'es-mx': "Rencor Ruin",
-			de: "Mini-Groll",
-			it: "Rancormeschino",
-			pt: "Rancinho"
+			'de-de': "Mini-Groll",
+			'it-it': "Rancormeschino",
+			'pt-br': "Rancinho"
 		},
 
 		damage: 10
@@ -48,7 +48,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
+		'en-us': "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
 	},
 
 	variants: [

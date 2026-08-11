@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fossil'
 
 const card: Card = {
 	name: {
-		en: "Sandslash",
-		fr: "Sablaireau",
-		de: "Sandamer"
+		'en-us': "Sandslash",
+		'fr-fr': "Sablaireau",
+		'de-de': "Sandamer"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sandshrew",
-		fr: "Sabelette"
+		'en-us': "Sandshrew",
+		'fr-fr': "Sabelette"
 	},
 
 	stage: "Stage1",
@@ -37,9 +37,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 20,
@@ -51,14 +51,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Fury Swipes",
-				fr: "Combo-griffe",
-				de: "Kratzfurie"
+				'en-us': "Fury Swipes",
+				'fr-fr': "Combo-griffe",
+				'de-de': "Kratzfurie"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt 20 Schadenspunkte zu."
+				'en-us': "Flip 3 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt 20 Schadenspunkte zu."
 			},
 			damage: "20x",
 
@@ -82,8 +82,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
-		fr: "Il se roule en boule hérissée de piques s'il est menacé. Il peut ainsi s'enfuir ou attaquer."
+		'en-us': "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
+		'fr-fr': "Il se roule en boule hérissée de piques s'il est menacé. Il peut ainsi s'enfuir ou attaquer."
 	},
 
 

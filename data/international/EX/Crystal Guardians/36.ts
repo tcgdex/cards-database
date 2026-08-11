@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Lairon",
-		fr: "Galegon",
-		de: "Stollrak"
+		'en-us': "Lairon",
+		'fr-fr': "Galegon",
+		'de-de': "Stollrak"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Aron",
-		fr: "Galekid"
+		'en-us': "Aron",
+		'fr-fr': "Galekid"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Roar",
-				fr: "Hurlement",
-				de: "Brüller"
+				'en-us': "Roar",
+				'fr-fr': "Hurlement",
+				'de-de': "Brüller"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc, s'il en a.",
-				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc, s'il en a.",
+				'de-de': "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 
 		},
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Charge",
-				fr: "Attaque métallique",
-				de: "Metallischer Sturmangriff"
+				'en-us': "Metal Charge",
+				'fr-fr': "Attaque métallique",
+				'de-de': "Metallischer Sturmangriff"
 			},
 			effect: {
-				en: "Put 1 damage counter on Lairon.",
-				fr: "Placez 1 marqueur de dégât sur Galegon.",
-				de: "Lege 1 Schadensmarke auf Stollrak."
+				'en-us': "Put 1 damage counter on Lairon.",
+				'fr-fr': "Placez 1 marqueur de dégât sur Galegon.",
+				'de-de': "Lege 1 Schadensmarke auf Stollrak."
 			},
 			damage: 50,
 

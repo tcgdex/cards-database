@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ムゲンダイナVMAX",
+		'ja-jp': "ムゲンダイナVMAX",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ムゲンゾーン" },
 			effect: {
-				ja: "自分の場のポケモン全員が[悪]タイプならはたらく。自分のベンチに出せる[悪]ポケモンの数は8匹になり、別のタイプは場に出せない。（この特性がはたらかなくなったとき、ベンチが5匹になるまでトラッシュする。）",
+				'ja-jp': "自分の場のポケモン全員が[悪]タイプならはたらく。自分のベンチに出せる[悪]ポケモンの数は8匹になり、別のタイプは場に出せない。（この特性がはたらかなくなったとき、ベンチが5匹になるまでトラッシュする。）",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "自分の場の[悪]ポケモンの数×30ダメージ。",
+				'ja-jp': "自分の場の[悪]ポケモンの数×30ダメージ。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ムゲンダイナV",
+		'ja-jp': "ムゲンダイナV",
 	},
 
 	retreat: 3,

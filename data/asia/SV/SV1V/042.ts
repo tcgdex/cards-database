@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1V"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "フラベベ",
+		'ja-jp': "フラベベ",
 		'zh-tw': "花蓓蓓",
-		th: "ฟลาเบเบ",
-		id: "Flabébé"
+		'th-th': "ฟลาเบเบ",
+		'id-id': "Flabébé"
 	},
 
 	illustrator: "Mizue",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "赤い花に 乗った フラベベ。 生まれると すぐに お気に入りの 花を 探すために 飛びまわる。",
+		'ja-jp': "赤い花に 乗った フラベベ。 生まれると すぐに お気に入りの 花を 探すために 飛びまわる。",
 		'zh-tw': "乘著紅花的花蓓蓓。從出生那刻開始就會為了 尋找喜歡的花而四處飛行。",
-		th: "ฟลาเบเบที่ขี่ดอกไม้สีแดง พอเกิดก็จะรีบบินไปมาเพื่อหาดอกไม้ที่ถูกใจทันที",
-		id: "Flabébé yang menunggangi bunga merah. Begitu lahir, ia langsung terbang berkeliling untuk mencari bunga favoritnya."
+		'th-th': "ฟลาเบเบที่ขี่ดอกไม้สีแดง พอเกิดก็จะรีบบินไปมาเพื่อหาดอกไม้ที่ถูกใจทันที",
+		'id-id': "Flabébé yang menunggangi bunga merah. Begitu lahir, ia langsung terbang berkeliling untuk mencari bunga favoritnya."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "かふんだま",
+			'ja-jp': "かふんだま",
 			'zh-tw': "花粉彈",
-			th: "ลูกปืนเรณู",
-			id: "Tembakan Serbuk Sari"
+			'th-th': "ลูกปืนเรณู",
+			'id-id': "Tembakan Serbuk Sari"
 		},
 
 		damage: 20

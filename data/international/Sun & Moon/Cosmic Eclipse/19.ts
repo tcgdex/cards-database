@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Dartrix",
-		fr: "Efflèche",
-		es: "Dartrix",
-		it: "Dartrix",
-		pt: "Dartrix",
-		de: "Arboretoss"
+		'en-us': "Dartrix",
+		'fr-fr': "Efflèche",
+		'es-es': "Dartrix",
+		'it-it': "Dartrix",
+		'pt-br': "Dartrix",
+		'de-de': "Arboretoss"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rowlet",
-		fr: "Brindibou",
+		'en-us': "Rowlet",
+		'fr-fr': "Brindibou",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Leafage",
-				fr: "Feuillage",
-				es: "Follaje",
-				it: "Fogliame",
-				pt: "Folhagem",
-				de: "Blattwerk"
+				'en-us': "Leafage",
+				'fr-fr': "Feuillage",
+				'es-es': "Follaje",
+				'it-it': "Fogliame",
+				'pt-br': "Folhagem",
+				'de-de': "Blattwerk"
 			},
 
 			damage: 20,
@@ -56,20 +56,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Flick",
-				fr: "Battement d’Aile",
-				es: "Sacudida de Alas",
-				it: "Colpetto d’Ala",
-				pt: "Chicote de Asa",
-				de: "Schwingenschlag"
+				'en-us': "Wing Flick",
+				'fr-fr': "Battement d’Aile",
+				'es-es': "Sacudida de Alas",
+				'it-it': "Colpetto d’Ala",
+				'pt-br': "Chicote de Asa",
+				'de-de': "Schwingenschlag"
 			},
 			effect: {
-				en: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif avec l’un de ses Pokémon de Banc.",
-				es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
-				it: "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
-				pt: "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
-				de: "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange son Pokémon Actif avec l’un de ses Pokémon de Banc.",
+				'es-es': "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
+				'it-it': "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
+				'pt-br': "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
+				'de-de': "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 30,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This narcissistic Pokémon is a clean freak. If you don't groom it diligently, it will stop listening to you.",
+		'en-us': "This narcissistic Pokémon is a clean freak. If you don't groom it diligently, it will stop listening to you.",
 	},
 
 	thirdParty: {

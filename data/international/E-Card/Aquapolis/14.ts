@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Houndoom",
-		fr: "Démolosse",
-		de: "Hundemon"
+		'en-us': "Houndoom",
+		'fr-fr': "Démolosse",
+		'de-de': "Hundemon"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Houndour",
-		fr: "Malosse"
+		'en-us': "Houndour",
+		'fr-fr': "Malosse"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smokescreen",
-				fr: "Brouillard",
-				de: "Rauchwolke"
+				'en-us': "Smokescreen",
+				'fr-fr': "Brouillard",
+				'de-de': "Rauchwolke"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wenn das Verteidigende Pokémon versucht, während des nächsten Zuges deines Gegners anzugreifen, wirft dein Gegner eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'de-de': "Wenn das Verteidigende Pokémon versucht, während des nächsten Zuges deines Gegners anzugreifen, wirft dein Gegner eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 10,
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Burn Up",
-				fr: "Brûlure",
-				de: "Wegbrennen"
+				'en-us': "Burn Up",
+				'fr-fr': "Brûlure",
+				'de-de': "Wegbrennen"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard all Fire Energy cards attached to Houndoom.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez-vous de toutes les cartes Énergie  attachée à Démolosse.",
-				de: "Wirf eine Münze. Bei \"Zahl\" lege alle an Hundemon angelegten -Energiekarten auf deinen Ablagestapel."
+				'en-us': "Flip a coin. If tails, discard all Fire Energy cards attached to Houndoom.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez-vous de toutes les cartes Énergie  attachée à Démolosse.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" lege alle an Hundemon angelegten -Energiekarten auf deinen Ablagestapel."
 			},
 			damage: 60,
 

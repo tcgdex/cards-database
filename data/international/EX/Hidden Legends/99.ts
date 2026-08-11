@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Registeel ex",
-		fr: "Registeel ex",
-		de: "Registeel ex"
+		'en-us': "Registeel ex",
+		'fr-fr': "Registeel ex",
+		'de-de': "Registeel ex"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -28,14 +28,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Exoskeleton",
-				fr: "Exosquelette",
-				de: "Exoskeleton"
+				'en-us': "Exoskeleton",
+				'fr-fr': "Exosquelette",
+				'de-de': "Exoskeleton"
 			},
 			effect: {
-				en: "Any damage done to Registeel ex by attacks is reduced by 10 (after applying Weakness and Resistance).",
-				fr: "Tous dégâts infligés à Registeel ex par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
-				de: "Any damage done to Registeel ex by attacks is reduced by 10 (after applying Weakness and Resistance)."
+				'en-us': "Any damage done to Registeel ex by attacks is reduced by 10 (after applying Weakness and Resistance).",
+				'fr-fr': "Tous dégâts infligés à Registeel ex par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Any damage done to Registeel ex by attacks is reduced by 10 (after applying Weakness and Resistance)."
 			}
 		},
 	],
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steel Wave",
-				fr: "Vague d'acier",
-				de: "Steel Wave"
+				'en-us': "Steel Wave",
+				'fr-fr': "Vague d'acier",
+				'de-de': "Steel Wave"
 			},
 			effect: {
-				en: "Does 20 damage to each of your opponent's Benched Pokémon of the same type as the Defending Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire du même type que le Pokémon Défenseur. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Does 20 damage to each of your opponent's Benched Pokémon of the same type as the Defending Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Does 20 damage to each of your opponent's Benched Pokémon of the same type as the Defending Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire du même type que le Pokémon Défenseur. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Does 20 damage to each of your opponent's Benched Pokémon of the same type as the Defending Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 50,
 

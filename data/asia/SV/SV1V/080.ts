@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1V"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ノノクラゲ"
+		'ja-jp': "ノノクラゲ"
 	},
 
 	illustrator: "Akira Komayama",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "メノクラゲに 似ているが まったく 別の 種類。 脚は 細いが 走りだせば 時速５０キロになる。"
+		'ja-jp': "メノクラゲに 似ているが まったく 別の 種類。 脚は 細いが 走りだせば 時速５０キロになる。"
 	},
 
 	stage: "Basic",
@@ -24,13 +24,13 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			ja: "みだれげり"
+			'ja-jp': "みだれげり"
 		},
 
 		damage: "10×",
 
 		effect: {
-			ja: "コインを3回投げ、オモテの数×10ダメージ。"
+			'ja-jp': "コインを3回投げ、オモテの数×10ダメージ。"
 		}
 	}],
 

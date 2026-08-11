@@ -1,17 +1,17 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Mega Evolution'
 
 const set: Set = {
 	id: "me03",
 
 	name: {
-		de: "Optimale Ordnung",
-		en: "Perfect Order",
-		es: "Equilibrio Perfecto",
+		'de-de': "Optimale Ordnung",
+		'en-us': "Perfect Order",
+		'es-es': "Equilibrio Perfecto",
 		'es-mx': 'Equilibrio Perfecto',
-		fr: "Équilibre Parfait",
-		it: "Equilibrio Perfetto",
-		pt: "Equilíbrio Perfeito"
+		'fr-fr': "Équilibre Parfait",
+		'it-it': "Equilibrio Perfetto",
+		'pt-br': "Equilíbrio Perfeito"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "POR",
-		fr: "ORP"
+		'fr-fr': "ORP"
 	},
 
 	thirdParty: {

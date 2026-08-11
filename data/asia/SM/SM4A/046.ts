@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダッシュポーチ",
+		'ja-jp': "ダッシュポーチ",
 	},
 
 	illustrator: "Eske Yoshinob",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけているポケモンがにげるとき、にげるためのエネルギーはトラッシュせず、自分の手札にもどす。",
+		'ja-jp': "このカードをつけているポケモンがにげるとき、にげるためのエネルギーはトラッシュせず、自分の手札にもどす。",
 	},
 
 	variants: [

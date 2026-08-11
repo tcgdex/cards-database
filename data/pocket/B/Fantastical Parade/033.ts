@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [258],
 
 	name: {
-		en: "Mudkip"
+		'en-us': "Mudkip"
 	},
 
 	illustrator: "Aya Kusube",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "When it uses its large tail fin, it picks up speed\nrapidly in the water. It is strong in spite of its\nsmall size."
+		'en-us': "When it uses its large tail fin, it picks up speed\nrapidly in the water. It is strong in spite of its\nsmall size."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Tackle"
+			'en-us': "Tackle"
 		},
 
 		damage: 20,

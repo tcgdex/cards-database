@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Piloswine",
-		fr: "Cochignon",
-		es: "Piloswine",
-		de: "Keifel",
-		it: "Piloswine",
-		pt: "Piloswine",
+		'en-us': "Piloswine",
+		'fr-fr': "Cochignon",
+		'es-es': "Piloswine",
+		'de-de': "Keifel",
+		'it-it': "Piloswine",
+		'pt-br': "Piloswine",
 		'es-mx': "Piloswine"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Swinub",
-		fr: "Marcacrin",
-		es: "Swinub",
-		de: "Quiekel",
-		it: "Swinub",
-		pt: "Swinub",
+		'en-us': "Swinub",
+		'fr-fr': "Marcacrin",
+		'es-es': "Swinub",
+		'de-de': "Quiekel",
+		'it-it': "Swinub",
+		'pt-br': "Swinub",
 		'es-mx': "Swinub"
 	},
 	stage: "Stage1",
@@ -34,12 +34,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Strength",
-			fr: "Force",
-			es: "Fuerza",
-			de: "Stärke",
-			it: "Forza",
-			pt: "Força",
+			'en-us': "Strength",
+			'fr-fr': "Force",
+			'es-es': "Fuerza",
+			'de-de': "Stärke",
+			'it-it': "Forza",
+			'pt-br': "Força",
 			'es-mx': "Fuerza"
 		},
 
@@ -48,12 +48,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			en: "Impaling Tusk",
-			fr: "Défense Empaleuse",
-			es: "Colmillo Empalador",
-			de: "Durchbohrender Stoßzahn",
-			it: "Zanne Acuminate",
-			pt: "Presa Perfurante",
+			'en-us': "Impaling Tusk",
+			'fr-fr': "Défense Empaleuse",
+			'es-es': "Colmillo Empalador",
+			'de-de': "Durchbohrender Stoßzahn",
+			'it-it': "Zanne Acuminate",
+			'pt-br': "Presa Perfurante",
 			'es-mx': "Colmillo Perforante"
 		},
 

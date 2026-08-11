@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Glaceon",
-		fr: "Givrali",
-		de: "Glaziola"
+		'en-us': "Glaceon",
+		'fr-fr': "Givrali",
+		'de-de': "Glaziola"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Evoli",
+		'en-us': "Eevee",
+		'fr-fr': "Evoli",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Snow Cloak",
-				fr: "Rideau Neige",
-				de: "Schneemantel"
+				'en-us': "Snow Cloak",
+				'fr-fr': "Rideau Neige",
+				'de-de': "Schneemantel"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Glaceon during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Givrali lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei 'Kopf' verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Glaziola zugefügt würden."
+				'en-us': "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Glaceon during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Givrali lors du prochain tour de votre adversaire.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Glaziola zugefügt würden."
 			},
 			damage: 30,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Speed Slide",
-				fr: "Glissade rapide",
-				de: "Temporutscher"
+				'en-us': "Speed Slide",
+				'fr-fr': "Glissade rapide",
+				'de-de': "Temporutscher"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
-				de: "Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigendem Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
+				'en-us': "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
+				'de-de': "Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigendem Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
 			},
 			damage: 60,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "As a protective technique, it can completely freeze its fur to make its hairs stand like needles.",
+		'en-us': "As a protective technique, it can completely freeze its fur to make its hairs stand like needles.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Maractus",
-		fr: "Maracachi",
-		es: "Maractus",
-		it: "Maractus",
-		pt: "Maractus",
-		de: "Maracamba"
+		'en-us': "Maractus",
+		'fr-fr': "Maracachi",
+		'es-es': "Maractus",
+		'it-it': "Maractus",
+		'pt-br': "Maractus",
+		'de-de': "Maracamba"
 	},
 
 	illustrator: "sui",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stun Needle",
-				fr: "Para-Dard",
+				'en-us': "Stun Needle",
+				'fr-fr': "Para-Dard",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 			damage: 20,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reinforced Needle",
-				fr: "Épine Renforcée",
+				'en-us': "Reinforced Needle",
+				'fr-fr': "Épine Renforcée",
 			},
 			effect: {
-				en: "If this Pokémon has a Pokémon Tool card attached to it, this attack does 40 more damage.",
-				fr: "Si une carte Outil Pokémon est attachée à ce Pokémon, cette attaque inflige 40 dégâts supplémentaires.",
+				'en-us': "If this Pokémon has a Pokémon Tool card attached to it, this attack does 40 more damage.",
+				'fr-fr': "Si une carte Outil Pokémon est attachée à ce Pokémon, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: 40,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Arid regions are their habitat. They move rhythmically, making a sound similar to maracas.",
+		'en-us': "Arid regions are their habitat. They move rhythmically, making a sound similar to maracas.",
 	},
 
 	thirdParty: {

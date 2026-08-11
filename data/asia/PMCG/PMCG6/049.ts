@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナツメのゴース",
+		'ja-jp': "ナツメのゴース",
 	},
 	illustrator: "Atsuko Nishida",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "気体形",
+				'ja-jp': "気体形",
 			},
 			effect: {
-				ja: "Sabrina's Gastlyは、それに取り付けられた各サイキックエネルギーカードに対して+10 HPを取得します。サブリナのガスティリーが眠っていて、混乱し、麻痺している場合でも、このパワーは機能します。",
+				'ja-jp': "Sabrina's Gastlyは、それに取り付けられた各サイキックエネルギーカードに対して+10 HPを取得します。サブリナのガスティリーが眠っていて、混乱し、麻痺している場合でも、このパワーは機能します。",
 			},
 		}],
 
@@ -30,7 +30,7 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Psychic"],
 			name: {
-				ja: "窒息するガス",
+				'ja-jp': "窒息するガス",
 			},
 			damage: 30,
 		},

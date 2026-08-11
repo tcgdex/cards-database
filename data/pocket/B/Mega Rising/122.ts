@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sandshrew"
+		'en-us': "Sandshrew"
 	},
 
 	illustrator: "Sekio",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It burrows into the ground to create its nest. If\nhard stones impede its tunneling, it uses its sharp\nclaws to shatter them and then carries on digging."
+		'en-us': "It burrows into the ground to create its nest. If\nhard stones impede its tunneling, it uses its sharp\nclaws to shatter them and then carries on digging."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Sand Spray"
+			'en-us': "Sand Spray"
 		},
 
 		damage: 20,

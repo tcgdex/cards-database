@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Swinub",
-		fr: "Marcacrin",
-		de: "Quiekel"
+		'en-us': "Swinub",
+		'fr-fr': "Marcacrin",
+		'de-de': "Quiekel"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Generate Cold",
-				fr: "Émanations glaciales",
-				de: "Generate Cold"
+				'en-us': "Generate Cold",
+				'fr-fr': "Émanations glaciales",
+				'de-de': "Generate Cold"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 
@@ -63,8 +63,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It moves with its sensitive nose pressed to the ground, always searching for food.",
-		fr: "Il avance, son nez ultra-sensible contre le sol, toujours à la recherche de nourriture."
+		'en-us': "It moves with its sensitive nose pressed to the ground, always searching for food.",
+		'fr-fr': "Il avance, son nez ultra-sensible contre le sol, toujours à la recherche de nourriture."
 	},
 
 

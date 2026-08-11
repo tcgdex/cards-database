@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Machamp",
+		'en-us': "Machamp",
 	},
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
@@ -18,7 +18,7 @@ const card: Card = {
 		"Fighting",
 	],
 	evolveFrom: {
-		en: "Machoke",
+		'en-us': "Machoke",
 	},
 	stage: "Stage2",
 
@@ -30,10 +30,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Seething Anger",
+				'en-us': "Seething Anger",
 			},
 			effect: {
-				en: "Flip a number of coins equal to the number of damage counters on Machamp. This attack does 20 damage plus 10 more damage for each heads.",
+				'en-us': "Flip a number of coins equal to the number of damage counters on Machamp. This attack does 20 damage plus 10 more damage for each heads.",
 			},
 			damage: 20,
 
@@ -46,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fling",
+				'en-us': "Fling",
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
+				'en-us': "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
 			},
 			damage: 50,
 
@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Using its amazing muscles, it throws powerful punches that can knock its victim clear over the horizon.",
+		'en-us': "Using its amazing muscles, it throws powerful punches that can knock its victim clear over the horizon.",
 	},
 
 	variants: [

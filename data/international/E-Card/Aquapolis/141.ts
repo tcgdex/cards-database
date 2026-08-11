@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Aquapolis'
 
 const card: Card = {
 	name: {
-		en: "Weakness Guard",
-		fr: "Garde faiblesse",
-		de: "Weakness Guard*"
+		'en-us': "Weakness Guard",
+		'fr-fr': "Garde faiblesse",
+		'de-de': "Weakness Guard*"
 	},
 
 	illustrator: "Jungo Suzuki",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Attach this card to 1 of your Pokémon. Discard it at the end of your opponent's next turn. As long as this card is attached, this Pokémon has no Weakness.",
-		fr: "Attachez cette carte à l'un de vos Pokémon. Défaussez-vous en à la fin du prochain tour de votre adversaire.",
-		de: "As long as this card is attached, this Pokémon has no Weakness."
+		'en-us': "Attach this card to 1 of your Pokémon. Discard it at the end of your opponent's next turn. As long as this card is attached, this Pokémon has no Weakness.",
+		'fr-fr': "Attachez cette carte à l'un de vos Pokémon. Défaussez-vous en à la fin du prochain tour de votre adversaire.",
+		'de-de': "As long as this card is attached, this Pokémon has no Weakness."
 	},
 
 	variants: [

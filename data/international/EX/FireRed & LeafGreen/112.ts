@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Venusaur ex",
-		fr: "Florizarre ex",
-		de: "Bisaflor ex"
+		'en-us': "Venusaur ex",
+		'fr-fr': "Florizarre ex",
+		'de-de': "Bisaflor ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ivysaur",
-		fr: "Herbizarre"
+		'en-us': "Ivysaur",
+		'fr-fr': "Herbizarre"
 	},
 
 	suffix: "ex",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Energy Trans",
-				fr: "Transfert d'Énergie",
-				de: "Energy Trans"
+				'en-us': "Energy Trans",
+				'fr-fr': "Transfert d'Énergie",
+				'de-de': "Energy Trans"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), move a Grass Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Venusaur ex is affected by a Special Condition.",
-				fr: "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), vous pouvez déplacer une carte Énergie  d'1 de vos Pokémon à 1 autre de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Florizarre ex est affecté par un État Spécial.",
-				de: "As often as you like during your turn (before yxour attack), mova a  Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Venusaur ex is affected by a Special Condition."
+				'en-us': "As often as you like during your turn (before your attack), move a Grass Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Venusaur ex is affected by a Special Condition.",
+				'fr-fr': "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), vous pouvez déplacer une carte Énergie  d'1 de vos Pokémon à 1 autre de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Florizarre ex est affecté par un État Spécial.",
+				'de-de': "As often as you like during your turn (before yxour attack), mova a  Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Venusaur ex is affected by a Special Condition."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pollen Hazard",
-				fr: "Pollen dangereux",
-				de: "Pollen Hazard"
+				'en-us': "Pollen Hazard",
+				'fr-fr': "Pollen dangereux",
+				'de-de': "Pollen Hazard"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned, Burned, and Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné, Brûlé et Confus.",
-				de: "The Defending Pokémon is now Poisoned, Burned, and Confused."
+				'en-us': "The Defending Pokémon is now Poisoned, Burned, and Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné, Brûlé et Confus.",
+				'de-de': "The Defending Pokémon is now Poisoned, Burned, and Confused."
 			},
 			damage: 20,
 
@@ -75,9 +75,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Solarbeam",
-				fr: "Lance-soleil",
-				de: "Solarbeam"
+				'en-us': "Solarbeam",
+				'fr-fr': "Lance-soleil",
+				'de-de': "Solarbeam"
 			},
 
 			damage: 90,

@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Chi-Yu",
-		fr: "Yuyu",
-		de: "Yuyu",
-		it: "Chi-Yu",
-		es: "Chi-Yu",
-		pt: "Chi-Yu",
+		'en-us': "Chi-Yu",
+		'fr-fr': "Yuyu",
+		'de-de': "Yuyu",
+		'it-it': "Chi-Yu",
+		'es-es': "Chi-Yu",
+		'pt-br': "Chi-Yu",
 		'es-mx': "Chi-Yu"
   },
   illustrator: "Dsuke",

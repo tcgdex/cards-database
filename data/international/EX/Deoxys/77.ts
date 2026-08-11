@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Staryu",
-		fr: "Stari",
-		de: "Sterndu"
+		'en-us': "Staryu",
+		'fr-fr': "Stari",
+		'de-de': "Sterndu"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rapid Spin",
-				fr: "Tour rapide",
-				de: "Rapid Spin"
+				'en-us': "Rapid Spin",
+				'fr-fr': "Tour rapide",
+				'de-de': "Rapid Spin"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. You switch Staryu with 1 of your Benched Pokémon, if any.",
-				fr: "Votre adversaire échange le Pokémon Défenseur contre 1 des Pokémon de son Banc, s'il en a. Vous échangez Stari contre 1 des Pokémon de votre Banc, si vous en avez.",
-				de: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. You switch Staryu with 1 of your Benched Pokémon, if any."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. You switch Staryu with 1 of your Benched Pokémon, if any.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur contre 1 des Pokémon de son Banc, s'il en a. Vous échangez Stari contre 1 des Pokémon de votre Banc, si vous en avez.",
+				'de-de': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. You switch Staryu with 1 of your Benched Pokémon, if any."
 			},
 			damage: 10,
 

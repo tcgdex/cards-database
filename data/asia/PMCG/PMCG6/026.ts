@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カツラのロコン",
+		'ja-jp': "カツラのロコン",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -18,11 +18,11 @@ const card: Card = {
 	abilities: [
 		{
 			name: {
-				ja: "自然の癒し",
+				'ja-jp': "自然の癒し",
 			},
 			type: "Pokemon Power",
 			effect: {
-				ja: "ターン中に（攻撃の前）</em> </em>、BlaineのVulpixから1つのダメージカウンターを削除できます。 BlaineのVulpixが眠っている、混乱し、麻痺している場合、このパワーは使用できません。",
+				'ja-jp': "ターン中に（攻撃の前）</em> </em>、BlaineのVulpixから1つのダメージカウンターを削除できます。 BlaineのVulpixが眠っている、混乱し、麻痺している場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -30,10 +30,10 @@ const card: Card = {
 		{
 			cost: ["Fire", "Colorless", "Colorless"],
 			name: {
-				ja: "テールファン",
+				'ja-jp': "テールファン",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
 			},
 			damage: 20,
 		},

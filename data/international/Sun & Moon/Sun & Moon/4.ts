@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Paras",
-		fr: "Paras",
-		es: "Paras",
-		it: "Paras",
-		pt: "Paras",
-		de: "Paras"
+		'en-us': "Paras",
+		'fr-fr': "Paras",
+		'es-es': "Paras",
+		'it-it': "Paras",
+		'pt-br': "Paras",
+		'de-de': "Paras"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				es: "Arañazo",
-				it: "Graffio",
-				pt: "Arranhão",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'es-es': "Arañazo",
+				'it-it': "Graffio",
+				'pt-br': "Arranhão",
+				'de-de': "Kratzer"
 			},
 
 			damage: 30,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "No matter how much it eats, the mushrooms growing on its back steal away most of the nutrients it consumes.",
+		'en-us': "No matter how much it eats, the mushrooms growing on its back steal away most of the nutrients it consumes.",
 	},
 
 	thirdParty: {

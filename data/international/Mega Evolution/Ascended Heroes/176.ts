@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drampa",
-		fr: "Draïeul",
-		es: "Drampa",
+		'en-us': "Drampa",
+		'fr-fr': "Draïeul",
+		'es-es': "Drampa",
 		'es-mx': "Drampa",
-		de: "Sen-Long",
-		it: "Drampa",
-		pt: "Drampa"
+		'de-de': "Sen-Long",
+		'it-it': "Drampa",
+		'pt-br': "Drampa"
 	},
 
 	illustrator: "Scav",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Gentle Slap",
-			fr: "Gifle Douce",
-			es: "Bofetada Gentil",
+			'en-us': "Gentle Slap",
+			'fr-fr': "Gifle Douce",
+			'es-es': "Bofetada Gentil",
 			'es-mx': "Cachetadita",
-			de: "Sanfter Hieb",
-			it: "Schiaffetto",
-			pt: "Tapinha"
+			'de-de': "Sanfter Hieb",
+			'it-it': "Schiaffetto",
+			'pt-br': "Tapinha"
 		},
 
 		damage: 50
@@ -40,23 +40,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Dragon Strike",
-			fr: "Frappe du Dragon",
-			es: "Golpe Dragón",
+			'en-us': "Dragon Strike",
+			'fr-fr': "Frappe du Dragon",
+			'es-es': "Golpe Dragón",
 			'es-mx': "Golpe Dracónico",
-			de: "Drachenhieb",
-			it: "Dragocolpo",
-			pt: "Ataque de Dragão"
+			'de-de': "Drachenhieb",
+			'it-it': "Dragocolpo",
+			'pt-br': "Ataque de Dragão"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use Dragon Strike.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Frappe du Dragon.",
-			es: "Durante tu próximo turno, este Pokémon no puede usar Golpe Dragón.",
+			'en-us': "During your next turn, this Pokémon can't use Dragon Strike.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Frappe du Dragon.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede usar Golpe Dragón.",
 			'es-mx': "Durante tu próximo turno, este Pokémon no puede usar Golpe Dracónico.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon Drachenhieb nicht einsetzen.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Dragocolpo.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Ataque de Dragão."
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon Drachenhieb nicht einsetzen.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Dragocolpo.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar Ataque de Dragão."
 		},
 
 		damage: 120
@@ -72,7 +72,7 @@ const card: Card = {
 	regulationMark: "J",
 
 	description: {
-		en: "It has a compassionate personality, but if it is angered, it completely destroys its surroundings with its intense breath.",
+		'en-us': "It has a compassionate personality, but if it is angered, it completely destroys its surroundings with its intense breath.",
 	},
 
 	variants: [

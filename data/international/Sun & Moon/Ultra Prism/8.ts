@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Grotle",
-		fr: "Boskara",
-		es: "Grotle",
-		it: "Grotle",
-		pt: "Grotle",
-		de: "Chelcarain"
+		'en-us': "Grotle",
+		'fr-fr': "Boskara",
+		'es-es': "Grotle",
+		'it-it': "Grotle",
+		'pt-br': "Grotle",
+		'de-de': "Chelcarain"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Turtwig",
-		fr: "Tortipouss",
+		'en-us': "Turtwig",
+		'fr-fr': "Tortipouss",
 	},
 
 	stage: "Stage1",
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Drain",
-				fr: "Méga-Sangsue",
-				es: "Megaagotar",
-				it: "Megassorbimento",
-				pt: "Megadreno",
-				de: "Megasauger"
+				'en-us': "Mega Drain",
+				'fr-fr': "Méga-Sangsue",
+				'es-es': "Megaagotar",
+				'it-it': "Megassorbimento",
+				'pt-br': "Megadreno",
+				'de-de': "Megasauger"
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts à ce Pokémon.",
-				es: "Cura 30 puntos de daño a este Pokémon.",
-				it: "Cura questo Pokémon da 30 danni.",
-				pt: "Cure 30 pontos de dano deste Pokémon.",
-				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon.",
+				'es-es': "Cura 30 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 30 danni.",
+				'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+				'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 30,
 
@@ -66,12 +66,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch’Herbe",
-				es: "Hoja Afilada",
-				it: "Foglielama",
-				pt: "Folha Navalha",
-				de: "Rasierblatt"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch’Herbe",
+				'es-es': "Hoja Afilada",
+				'it-it': "Foglielama",
+				'pt-br': "Folha Navalha",
+				'de-de': "Rasierblatt"
 			},
 
 			damage: 80,
@@ -89,7 +89,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It knows where pure water wells up. It carries fellow Pokémon there on its back.",
+		'en-us': "It knows where pure water wells up. It carries fellow Pokémon there on its back.",
 	},
 
 	thirdParty: {

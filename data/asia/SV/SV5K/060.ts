@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チラチーノ",
+		'ja-jp': "チラチーノ",
 	},
 
 	illustrator: "Yuu Nishida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "塵ひとつ 許せない 潔癖。 体から 染み出る 油を 巣に 塗りつけ コーティングする。",
+		'ja-jp': "塵ひとつ 許せない 潔癖。 体から 染み出る 油を 巣に 塗りつけ コーティングする。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "70×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについている特殊エネルギーの枚数×70ダメージ。",
+				'ja-jp': "このポケモンについている特殊エネルギーの枚数×70ダメージ。",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チラーミィ",
+		'ja-jp': "チラーミィ",
 	},
 
 	retreat: 1,

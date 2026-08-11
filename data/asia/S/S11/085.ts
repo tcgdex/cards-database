@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポリゴンZ",
+		'ja-jp': "ポリゴンZ",
 		'zh-tw': "多邊獸Ｚ",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "異次元 空間に 出入りできる プログラムを 追加したところ 挙動が 不安定になった。",
+		'ja-jp': "異次元 空間に 出入りできる プログラムを 追加したところ 挙動が 不安定になった。",
 		'zh-tw': "#N/A",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "デグレードビーム",
+				'ja-jp': "デグレードビーム",
 				'zh-tw': "降級光束",
 			},
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手の進化しているポケモンを1匹選び、「進化カード」を好きなだけはがして退化させる。はがしたカードは、相手の山札にもどして切る。",
+				'ja-jp': "相手の進化しているポケモンを1匹選び、「進化カード」を好きなだけはがして退化させる。はがしたカードは、相手の山札にもどして切る。",
 				'zh-tw': "選擇對手的1隻進化寶可夢，移除任意數量的「進化卡」使其退化。將移除的卡放回對手的牌庫並重洗。",
 			},
 		},
 		{
 			name: {
-				ja: "パワービーム",
+				'ja-jp': "パワービーム",
 				'zh-tw': "强力光束",
 			},
 			damage: 130,
@@ -56,7 +56,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ポリゴン２",
+		'ja-jp': "ポリゴン２",
 	},
 
 	retreat: 2,

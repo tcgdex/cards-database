@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "魅力喵",
 		'zh-cn': "魅力喵",
-		ja: "ニャルマー"
+		'ja-jp': "ニャルマー"
 	},
 
 	illustrator: "Yuriko Akase",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "一不高興就會豎起爪子。 但有時也會從喉嚨發出聲響來撒嬌。 這樣的性格很受部分人的喜愛。",
 		'zh-cn': "一不高興就會豎起爪子。 但有時也會從喉嚨發出聲響來撒嬌。 這樣的性格很受部分人的喜愛。",
-		ja: "気に入らないと ツメを 立てるが たまに のどを 鳴らして 甘える 性格が 一部に 大人気だ。"
+		'ja-jp': "気に入らないと ツメを 立てるが たまに のどを 鳴らして 甘える 性格が 一部に 大人気だ。"
 	},
 
 	stage: "Basic",
@@ -27,7 +27,7 @@ const card: Card = {
 		name: {
 			'zh-tw': "鉤住",
 			'zh-cn': "鉤住",
-			ja: "ひっかける"
+			'ja-jp': "ひっかける"
 		},
 
 		damage: 20,

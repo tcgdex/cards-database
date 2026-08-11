@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Abomasnow",
-		fr: "Blizzaroi",
-		es: "Abomasnow",
-		it: "Abomasnow",
-		pt: "Abomasnow",
-		de: "Rexblisar"
+		'en-us': "Abomasnow",
+		'fr-fr': "Blizzaroi",
+		'es-es': "Abomasnow",
+		'it-it': "Abomasnow",
+		'pt-br': "Abomasnow",
+		'de-de': "Rexblisar"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Snover",
-		fr: "Blizzi",
-		es: "Snover",
-		it: "Snover",
-		pt: "Snover",
-		de: "Shnebedeck"
+		'en-us': "Snover",
+		'fr-fr': "Blizzi",
+		'es-es': "Snover",
+		'it-it': "Snover",
+		'pt-br': "Snover",
+		'de-de': "Shnebedeck"
 	},
 
 	stage: "Stage1",
@@ -45,20 +45,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Age",
-				fr: "Période Glaciaire",
-				es: "Era de Hielo",
-				it: "Era Glaciale",
-				pt: "Era do Gelo",
-				de: "Eiszeitalter"
+				'en-us': "Ice Age",
+				'fr-fr': "Période Glaciaire",
+				'es-es': "Era de Hielo",
+				'it-it': "Era Glaciale",
+				'pt-br': "Era do Gelo",
+				'de-de': "Eiszeitalter"
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is a Dragon Pokémon, it is now Paralyzed.",
-				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Dragon, il est maintenant Paralysé.",
-				es: "Si el Pokémon Activo de tu rival es un Pokémon Dragon, este pasa a estar Paralizado.",
-				it: "Se il Pokémon attivo del tuo avversario è di tipo Dragon, viene paralizzato.",
-				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Dragon, ele será Paralisado.",
-				de: "Wenn das Aktive Pokémon deines Gegners ein Dragon-Pokémon ist, ist es jetzt paralysiert."
+				'en-us': "If your opponent's Active Pokémon is a Dragon Pokémon, it is now Paralyzed.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon Dragon, il est maintenant Paralysé.",
+				'es-es': "Si el Pokémon Activo de tu rival es un Pokémon Dragon, este pasa a estar Paralizado.",
+				'it-it': "Se il Pokémon attivo del tuo avversario è di tipo Dragon, viene paralizzato.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon Dragon, ele será Paralisado.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners ein Dragon-Pokémon ist, ist es jetzt paralysiert."
 			},
 			damage: 80,
 
@@ -71,12 +71,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Frost Breath",
-				fr: "Souffle Glacé",
-				es: "Vaho Gélido",
-				it: "Alitogelido",
-				pt: "Respiração de Gelo",
-				de: "Eisesodem"
+				'en-us': "Frost Breath",
+				'fr-fr': "Souffle Glacé",
+				'es-es': "Vaho Gélido",
+				'it-it': "Alitogelido",
+				'pt-br': "Respiração de Gelo",
+				'de-de': "Eisesodem"
 			},
 
 			damage: 110,
@@ -94,7 +94,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards.",
+		'en-us': "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards.",
 	},
 
 	thirdParty: {

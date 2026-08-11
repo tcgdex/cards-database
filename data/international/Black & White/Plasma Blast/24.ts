@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Relicanth",
-		fr: "Relicanth",
-		es: "Relicanth",
-		it: "Relicanth",
-		pt: "Relicanth",
-		de: "Relicanth"
+		'en-us': "Relicanth",
+		'fr-fr': "Relicanth",
+		'es-es': "Relicanth",
+		'it-it': "Relicanth",
+		'pt-br': "Relicanth",
+		'de-de': "Relicanth"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fossil Hunt",
-				fr: "Chasse au Fossile",
+				'en-us': "Fossil Hunt",
+				'fr-fr': "Chasse au Fossile",
 			},
 			effect: {
-				en: "Put 2 Item cards that have Fossil in their names from your discard pile into your hand.",
-				fr: "Ajoutez 2 cartes Objet qui ont Fossile dans leur nom de votre pile de défausse à votre main.",
+				'en-us': "Put 2 Item cards that have Fossil in their names from your discard pile into your hand.",
+				'fr-fr': "Ajoutez 2 cartes Objet qui ont Fossile dans leur nom de votre pile de défausse à votre main.",
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
 			},
 
 			damage: 30,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A rare Pokémon discovered during a deep-sea exploration. It has not changed in over 100 million years.",
+		'en-us': "A rare Pokémon discovered during a deep-sea exploration. It has not changed in over 100 million years.",
 	},
 
 	thirdParty: {

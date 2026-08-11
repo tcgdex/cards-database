@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リザード",
+		'ja-jp': "リザード",
 		'zh-tw': "火恐龍",
-		th: "ลิซาร์โดะ",
-		id: "Charmeleon",
+		'th-th': "ลิซาร์โดะ",
+		'id-id': "Charmeleon",
 	},
 
 	illustrator: "GIDORA",
@@ -16,10 +16,10 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "戦いで 気持ちが たかぶると 灼熱の 炎を 吹きながら あたりを 燃やしてまわる。",
+		'ja-jp': "戦いで 気持ちが たかぶると 灼熱の 炎を 吹きながら あたりを 燃やしてまわる。",
 		'zh-tw': "如果牠在戰鬥中亢奮起來，就會噴出灼熱的火焰， 把周圍的東西燒得一乾二淨。",
-		th: "เมื่อตื่นเต้นจากการต่อสู้จะพ่นเปลวเพลิงร้อนแรงแผดเผารอบข้าง",
-		id: "Ketika pertarungan membuat semangat Charmeleon bergejolak, Pokémon ini meniupkan api berpijar dan membakar daerah sekelilingnya.",
+		'th-th': "เมื่อตื่นเต้นจากการต่อสู้จะพ่นเปลวเพลิงร้อนแรงแผดเผารอบข้าง",
+		'id-id': "Ketika pertarungan membuat semangat Charmeleon bergejolak, Pokémon ini meniupkan api berpijar dan membakar daerah sekelilingnya.",
 	},
 
 	stage: "Stage1",
@@ -27,28 +27,28 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かえん",
+				'ja-jp': "かえん",
 				'zh-tw': "烈焰",
-				th: "เผาไหม้",
-				id: "Lidah Api",
+				'th-th': "เผาไหม้",
+				'id-id': "Lidah Api",
 			},
 			damage: 20,
 			cost: ["Fire"],
 		},
 		{
 			name: {
-				ja: "だいもんじ",
+				'ja-jp': "だいもんじ",
 				'zh-tw': "大字爆炎",
-				th: "เพลิงอัคคี",
-				id: "Ledakan Api Besar",
+				'th-th': "เพลิงอัคคี",
+				'id-id': "Ledakan Api Besar",
 			},
 			damage: 90,
 			cost: ["Fire", "Fire", "Fire"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。",
 				'zh-tw': "選擇1個這隻寶可夢身上附加的能量，將其丟棄。",
-				th: "เลือกพลังงานที่ติดอยู่กับโปเกมอนนี้ 1 ลูก ทิ้งที่ตำแหน่งทิ้งการ์ด",
-				id: "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash.",
+				'th-th': "เลือกพลังงานที่ติดอยู่กับโปเกมอนนี้ 1 ลูก ทิ้งที่ตำแหน่งทิ้งการ์ด",
+				'id-id': "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash.",
 			},
 		},
 	],
@@ -80,7 +80,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒトカゲ",
+		'ja-jp': "ヒトカゲ",
 	},
 
 	retreat: 2,

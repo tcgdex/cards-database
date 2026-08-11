@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アクア団のタマザラシ",
+		'ja-jp': "アクア団のタマザラシ",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "タマザラシの 水鉄砲は どんな 火だろうと 消せるの。 敵の 使う 炎なんて 効かないわ！",
+		'ja-jp': "タマザラシの 水鉄砲は どんな 火だろうと 消せるの。 敵の 使う 炎なんて 効かないわ！",
 	},
 
 	stage: "Basic",

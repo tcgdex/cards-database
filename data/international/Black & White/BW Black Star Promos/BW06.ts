@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Snivy",
-		fr: "Vipélierre",
+		'en-us': "Snivy",
+		'fr-fr': "Vipélierre",
 	},
 	illustrator: "Shizurow",
 	rarity: "Common",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Paralyzing Gaze",
-				fr: "Regard Paralysant",
+				'en-us': "Paralyzing Gaze",
+				'fr-fr': "Regard Paralysant",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 			},
 
 		},
@@ -43,8 +43,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Smack",
-				fr: "Coup de Queue",
+				'en-us': "Tail Smack",
+				'fr-fr': "Coup de Queue",
 			},
 
 			damage: 20,
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.",
+		'en-us': "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.",
 	},
 }
 

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Dispareptil",
-		en: "Drakloak",
-		es: "Drakloak",
-		it: "Drakloak",
-		pt: "Drakloak",
-		de: "Phandra"
+		'fr-fr': "Dispareptil",
+		'en-us': "Drakloak",
+		'es-es': "Drakloak",
+		'it-it': "Drakloak",
+		'pt-br': "Drakloak",
+		'de-de': "Phandra"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -21,38 +21,38 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		fr: "Fantyrm",
-		en: "Dreepy"
+		'fr-fr': "Fantyrm",
+		'en-us': "Dreepy"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Citation",
-			en: "Summon",
-			es: "Llamamiento",
-			it: "Invocazione",
-			pt: "Convidar",
-			de: "Herbeirufen"
+			'fr-fr': "Citation",
+			'en-us': "Summon",
+			'es-es': "Llamamiento",
+			'it-it': "Invocazione",
+			'pt-br': "Convidar",
+			'de-de': "Herbeirufen"
 		},
 
 		effect: {
-			fr: "Cherchez un Fantyrm dans votre deck, puis placez-le sur votre Banc. Mélangez ensuite votre deck.",
-			en: "Search your deck for a Dreepy and put it onto your Bench. Then, shuffle your deck.",
-			es: "Busca en tu baraja 1 Dreepy y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo un Dreepy e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por 1 Dreepy no seu baralho e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach 1 Grolldra und lege es auf deine Bank. Mische anschließend dein Deck."
+			'fr-fr': "Cherchez un Fantyrm dans votre deck, puis placez-le sur votre Banc. Mélangez ensuite votre deck.",
+			'en-us': "Search your deck for a Dreepy and put it onto your Bench. Then, shuffle your deck.",
+			'es-es': "Busca en tu baraja 1 Dreepy y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo un Dreepy e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por 1 Dreepy no seu baralho e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach 1 Grolldra und lege es auf deine Bank. Mische anschließend dein Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Morsure",
-			en: "Bite",
-			es: "Mordisco",
-			it: "Morso",
-			pt: "Mordida",
-			de: "Biss"
+			'fr-fr': "Morsure",
+			'en-us': "Bite",
+			'es-es': "Mordisco",
+			'it-it': "Morso",
+			'pt-br': "Mordida",
+			'de-de': "Biss"
 		},
 
 		damage: 40,
@@ -74,7 +74,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It's capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve."
+		'en-us': "It's capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve."
 	},
 
 	variants: [

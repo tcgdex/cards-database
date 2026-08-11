@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オオスバメ",
+		'ja-jp': "オオスバメ",
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "森に 住む 獲物を 見つけると 上空から 急降下。 鋭い ツメで 捕まえる。",
+		'ja-jp': "森に 住む 獲物を 見つけると 上空から 急降下。 鋭い ツメで 捕まえる。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "くわえる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を3枚引く。",
+				'ja-jp': "自分の山札を3枚引く。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "スバメ",
+		'ja-jp': "スバメ",
 	},
 
 	retreat: 0,

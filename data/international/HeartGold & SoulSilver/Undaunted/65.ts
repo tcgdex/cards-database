@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Scyther",
-		fr: "Insecateur",
-		de: "Sichlor"
+		'en-us': "Scyther",
+		'fr-fr': "Insecateur",
+		'de-de': "Sichlor"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -30,9 +30,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cut",
-				fr: "Coupe",
-				de: "Zerschneider"
+				'en-us': "Cut",
+				'fr-fr': "Coupe",
+				'de-de': "Zerschneider"
 			},
 
 			damage: 20,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slashing Strike",
-				fr: "Coup déchirant",
-				de: "Schlitzender Schlag"
+				'en-us': "Slashing Strike",
+				'fr-fr': "Coup déchirant",
+				'de-de': "Schlitzender Schlag"
 			},
 			effect: {
-				en: "During your next turn, Scyther can't use Slashing Strike.",
-				fr: "Insécateur ne peut pas utiliser son Coup déchirant pendant votre prochain tour.",
-				de: "Sichlor kann Schlitzender Schlag in deinem nächsten Zug nicht einsetzen."
+				'en-us': "During your next turn, Scyther can't use Slashing Strike.",
+				'fr-fr': "Insécateur ne peut pas utiliser son Coup déchirant pendant votre prochain tour.",
+				'de-de': "Sichlor kann Schlitzender Schlag in deinem nächsten Zug nicht einsetzen."
 			},
 			damage: 50,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It slashes through grass with its sharp scythes, moving too fast for the human eye to track."
+		'en-us': "It slashes through grass with its sharp scythes, moving too fast for the human eye to track."
 	},
 
 	variants: [

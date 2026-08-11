@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Bleuseille",
-		en: "Corvisquire",
-		es: "Corvisquire",
-		it: "Corvisquire",
-		pt: "Corvisquire",
-		de: "Kranoviz"
+		'fr-fr': "Bleuseille",
+		'en-us': "Corvisquire",
+		'es-es': "Corvisquire",
+		'it-it': "Corvisquire",
+		'pt-br': "Corvisquire",
+		'de-de': "Kranoviz"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -21,39 +21,39 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		fr: "Minisange",
-		en: "Rookidee"
+		'fr-fr': "Minisange",
+		'en-us': "Rookidee"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Picore",
-			en: "Pluck",
-			es: "Picoteo",
-			it: "Spennata",
-			pt: "Colher",
-			de: "Pflücker"
+			'fr-fr': "Picore",
+			'en-us': "Pluck",
+			'es-es': "Picoteo",
+			'it-it': "Spennata",
+			'pt-br': "Colher",
+			'de-de': "Pflücker"
 		},
 
 		effect: {
-			fr: "Avant d'infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire.",
-			en: "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
-			es: "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival.",
-			it: "Prima di infliggere danni, scarta tutte le carte Oggetto Pokémon dal Pokémon attivo del tuo avversario.",
-			pt: "Antes de causar dano, descarte todas as Ferramentas Pokémon do Pokémon Ativo do seu oponente.",
-			de: "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+			'fr-fr': "Avant d'infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire.",
+			'en-us': "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
+			'es-es': "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival.",
+			'it-it': "Prima di infliggere danni, scarta tutte le carte Oggetto Pokémon dal Pokémon attivo del tuo avversario.",
+			'pt-br': "Antes de causar dano, descarte todas as Ferramentas Pokémon do Pokémon Ativo do seu oponente.",
+			'de-de': "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 20,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Bec Vrille",
-			en: "Drill Peck",
-			es: "Pico Taladro",
-			it: "Perforbecco",
-			pt: "Bico Broca",
-			de: "Bohrschnabel"
+			'fr-fr': "Bec Vrille",
+			'en-us': "Drill Peck",
+			'es-es': "Pico Taladro",
+			'it-it': "Perforbecco",
+			'pt-br': "Bico Broca",
+			'de-de': "Bohrschnabel"
 		},
 
 		damage: 50,
@@ -75,7 +75,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Smart enough to use tools in battle, these Pokémon have been seen picking up rocks and flinging them or using ropes to wrap up enemies."
+		'en-us': "Smart enough to use tools in battle, these Pokémon have been seen picking up rocks and flinging them or using ropes to wrap up enemies."
 	},
 
 	variants: [

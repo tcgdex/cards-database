@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "イーユイex"
+		'ja-jp': "イーユイex"
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -19,23 +19,23 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "ねたみこがす"
+			'ja-jp': "ねたみこがす"
 		},
 
 		effect: {
-			ja: "相手の山札を上から2枚トラッシュする。"
+			'ja-jp': "相手の山札を上から2枚トラッシュする。"
 		}
 	}, {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			ja: "フレイムサージ"
+			'ja-jp': "フレイムサージ"
 		},
 
 		damage: 100,
 
 		effect: {
-			ja: "自分のベンチポケモンを3匹まで選び、山札から「基本エネルギー」を1枚ずつつける。そして山札を切る。"
+			'ja-jp': "自分のベンチポケモンを3匹まで選び、山札から「基本エネルギー」を1枚ずつつける。そして山札を切る。"
 		}
 	}],
 

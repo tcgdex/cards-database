@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Bulbasaur",
-		fr: "Bulbizarre",
-		es: "Bulbasaur",
-		it: "Bulbasaur",
-		pt: "Bulbasaur",
-		de: "Bisasam"
+		'en-us': "Bulbasaur",
+		'fr-fr': "Bulbizarre",
+		'es-es': "Bulbasaur",
+		'it-it': "Bulbasaur",
+		'pt-br': "Bulbasaur",
+		'de-de': "Bisasam"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge"
+				'en-us': "Tackle",
+				'fr-fr': "Charge"
 			},
 
 			damage: 10,
@@ -48,8 +48,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'Herbe"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'Herbe"
 			},
 
 			damage: 30,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "For some time after its birth, it grows by gaining nourishment from the seed on its back.",
+		'en-us': "For some time after its birth, it grows by gaining nourishment from the seed on its back.",
 	},
 
 	thirdParty: {

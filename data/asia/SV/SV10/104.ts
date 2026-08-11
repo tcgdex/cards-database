@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団のイオルブ",
+		'ja-jp': "ロケット団のイオルブ",
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "サイコパワーを 放ち 周囲を 調べている。 観測範囲は 周囲 １０キロにも 達するぞ。",
+		'ja-jp': "サイコパワーを 放ち 周囲を 調べている。 観測範囲は 周囲 １０キロにも 達するぞ。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ロケットブレイン" },
 			effect: {
-				ja: "自分の番に何回でも使える。自分の場の「ロケット団のポケモン」にのっているダメカンを1個選び、自分の別のポケモンにのせ替える。",
+				'ja-jp': "自分の番に何回でも使える。自分の場の「ロケット団のポケモン」にのっているダメカンを1個選び、自分の別のポケモンにのせ替える。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "40+",
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数×40ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数×40ダメージ追加。",
 			},
 		},
 	],
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ロケット団のレドームシ",
+		'ja-jp': "ロケット団のレドームシ",
 	},
 
 	retreat: 2,

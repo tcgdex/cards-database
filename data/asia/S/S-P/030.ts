@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジュラルドン",
+		'ja-jp': "ジュラルドン",
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "磨きあげた 金属の ような 体は 軽いうえに 硬いが 錆びやすいのが 欠点なのだ。",
+		'ja-jp': "磨きあげた 金属の ような 体は 軽いうえに 硬いが 錆びやすいのが 欠点なのだ。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Metal", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも40ダメージ。",
+				'ja-jp': "このポケモンにも40ダメージ。",
 			},
 		},
 	],

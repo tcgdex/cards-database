@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "テツノカシラ",
+		'ja-jp': "テツノカシラ",
 	},
 
 	illustrator: "akagi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "光る 刃を 撃ちだし あたりの すべてを 切り裂いたらしいが ほかに 情報はなく 正体不明。",
+		'ja-jp': "光る 刃を 撃ちだし あたりの すべてを 切り裂いたらしいが ほかに 情報はなく 正体不明。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "40+",
 			cost: ["Metal", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモンの数が3匹以上なら、80ダメージ追加。",
+				'ja-jp': "相手のベンチポケモンの数が3匹以上なら、80ダメージ追加。",
 			},
 		},
 		{

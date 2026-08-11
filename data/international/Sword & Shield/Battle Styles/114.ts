@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lickilicky",
-		fr: "Coudlangue",
-		es: "Lickilicky",
-		it: "Lickilicky",
-		pt: "Lickilicky",
-		de: "Schlurplek"
+		'en-us': "Lickilicky",
+		'fr-fr': "Coudlangue",
+		'es-es': "Lickilicky",
+		'it-it': "Lickilicky",
+		'pt-br': "Lickilicky",
+		'de-de': "Schlurplek"
 	},
 
 	illustrator: "Mina Nakai",
@@ -21,51 +21,51 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Lickitung",
-		fr: "Excelangue",
-		es: "Lickitung",
-		it: "Lickitung",
-		pt: "Lickitung",
-		de: "Schlurp"
+		'en-us': "Lickitung",
+		'fr-fr': "Excelangue",
+		'es-es': "Lickitung",
+		'it-it': "Lickitung",
+		'pt-br': "Lickitung",
+		'de-de': "Schlurp"
 	},
 
 	attacks: [{
 		name: {
-			en: "Selickt",
-			fr: "Séleclangue",
-			es: "Elección Lametazo",
-			it: "Sceglilingua",
-			pt: "Escolhambida",
-			de: "Bitteres Angebot"
+			'en-us': "Selickt",
+			'fr-fr': "Séleclangue",
+			'es-es': "Elección Lametazo",
+			'it-it': "Sceglilingua",
+			'pt-br': "Escolhambida",
+			'de-de': "Bitteres Angebot"
 		},
 
 		effect: {
-			en: "Your opponent chooses to discard the top 3 cards of their deck or to discard 3 cards from their hand.",
-			fr: "Votre adversaire choisit de défausser les 3 cartes du dessus de son deck ou 3 cartes de sa main.",
-			es: "Tu rival elige entre descartar las 3 primeras cartas de su baraja o descartar 3 cartas de su mano.",
-			it: "Il tuo avversario sceglie se scartare le prime tre carte del suo mazzo o tre carte che ha in mano.",
-			pt: "Seu oponente escolhe entre descartar as 3 cartas de cima do baralho dele(a) ou descartar 3 cartas da mão dele(a).",
-			de: "Dein Gegner wählt, ob er die obersten 3 Karten seines Decks oder 3 Karten aus seiner Hand auf seinen Ablagestapel legt."
+			'en-us': "Your opponent chooses to discard the top 3 cards of their deck or to discard 3 cards from their hand.",
+			'fr-fr': "Votre adversaire choisit de défausser les 3 cartes du dessus de son deck ou 3 cartes de sa main.",
+			'es-es': "Tu rival elige entre descartar las 3 primeras cartas de su baraja o descartar 3 cartas de su mano.",
+			'it-it': "Il tuo avversario sceglie se scartare le prime tre carte del suo mazzo o tre carte che ha in mano.",
+			'pt-br': "Seu oponente escolhe entre descartar as 3 cartas de cima do baralho dele(a) ou descartar 3 cartas da mão dele(a).",
+			'de-de': "Dein Gegner wählt, ob er die obersten 3 Karten seines Decks oder 3 Karten aus seiner Hand auf seinen Ablagestapel legt."
 		},
 
 		cost: ["Colorless", "Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Pitch",
-			fr: "Lancer",
-			es: "Arrojar",
-			it: "Spingivia",
-			pt: "Lançamento",
-			de: "Einwerfen"
+			'en-us': "Pitch",
+			'fr-fr': "Lancer",
+			'es-es': "Arrojar",
+			'it-it': "Spingivia",
+			'pt-br': "Lançamento",
+			'de-de': "Einwerfen"
 		},
 
 		effect: {
-			en: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
-			fr: "Votre adversaire échange son Pokémon Actif contre l'un de ses Pokémon de Banc.",
-			es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
-			it: "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
-			pt: "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
-			de: "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+			'en-us': "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
+			'fr-fr': "Votre adversaire échange son Pokémon Actif contre l'un de ses Pokémon de Banc.",
+			'es-es': "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
+			'it-it': "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
+			'pt-br': "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
+			'de-de': "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
 		},
 
 		damage: 100,
@@ -84,7 +84,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It uses its tongue much more skillfully than its hands or its feet. It can deftly pick up a single small bean with its tongue."
+		'en-us': "It uses its tongue much more skillfully than its hands or its feet. It can deftly pick up a single small bean with its tongue."
 	},
 
 	variants: [

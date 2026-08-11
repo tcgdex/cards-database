@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Liepard"
+		'id-id': "Liepard"
 	},
 
 	illustrator: "Yoshioka",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Liepard bertarung dengan Thievul untuk memperebutkan wilayah kekuasaan. Pokémon ini menyelinap ke belakang musuhnya tanpa menimbulkan suara sedikit pun."
+		'id-id': "Liepard bertarung dengan Thievul untuk memperebutkan wilayah kekuasaan. Pokémon ini menyelinap ke belakang musuhnya tanpa menimbulkan suara sedikit pun."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Dirty Swap"
+			'id-id': "Dirty Swap"
 		},
 
 		effect: {
-			id: "Pilih 1 Pokémon Cadangan sendiri, lalu pindahkan semua Token Kerusakan yang dimiliki Pokémon yang telah dipilih ke Pokémon Bertarung lawan."
+			'id-id': "Pilih 1 Pokémon Cadangan sendiri, lalu pindahkan semua Token Kerusakan yang dimiliki Pokémon yang telah dipilih ke Pokémon Bertarung lawan."
 		},
 
 		cost: ["Darkness"]
 	}, {
 		name: {
-			id: "Menyayat"
+			'id-id': "Menyayat"
 		},
 
 		damage: 60,

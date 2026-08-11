@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "M Gardevoir EX",
-		fr: "M-Gardevoir-EX",
+		'en-us': "M Gardevoir EX",
+		'fr-fr': "M-Gardevoir-EX",
 	},
 	illustrator: "Megumi Mizutani",
 	rarity: "Ultra Rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Fairy",
 	],
 	evolveFrom: {
-		en: "Gardevoir-EX",
-		fr: "Gardevoir-EX",
+		'en-us': "Gardevoir-EX",
+		'fr-fr': "Gardevoir-EX",
 	},
 	stage: "MEGA",
 
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Brilliant Arrow",
-				fr: "Flèche Éclatante",
+				'en-us': "Brilliant Arrow",
+				'fr-fr': "Flèche Éclatante",
 			},
 			effect: {
-				en: "This attack does 30 damage times the amount of Fairy Energy attached to all of your Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts multipliés par le nombre d'Énergies Fairy attachées à tous vos Pokémon.",
+				'en-us': "This attack does 30 damage times the amount of Fairy Energy attached to all of your Pokémon.",
+				'fr-fr': "Cette attaque inflige 30 dégâts multipliés par le nombre d'Énergies Fairy attachées à tous vos Pokémon.",
 			},
 			damage: "30×",
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Bidoof",
-		fr: "Keunotor",
-		de: "Bidiza"
+		'en-us': "Bidoof",
+		'fr-fr': "Keunotor",
+		'de-de': "Bidiza"
 	},
 
 	illustrator: "Yuka Morii",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		fr: "Keunotor",
+		'fr-fr': "Keunotor",
 	},
 
 	stage: "Basic",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Yawn",
-				fr: "Baillement",
-				de: "Gähnen"
+				'en-us': "Yawn",
+				'fr-fr': "Baillement",
+				'de-de': "Gähnen"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Self-abandonment",
-				fr: "S'abandonner",
-				de: "Selbstlosigkeit"
+				'en-us': "Self-abandonment",
+				'fr-fr': "S'abandonner",
+				'de-de': "Selbstlosigkeit"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage to the Defending Pokémon. If tails, Bidoof does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts au Pokémon Défenseur. Si c'est pile, Keunotor s'inflige 10 dégâts.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff dem Verteidigenden Pokémon 30 Schadenspunkte zu. Bei \"Zahl\" fügt Bidiza sich selbst 10 Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 damage to the Defending Pokémon. If tails, Bidoof does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts au Pokémon Défenseur. Si c'est pile, Keunotor s'inflige 10 dégâts.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff dem Verteidigenden Pokémon 30 Schadenspunkte zu. Bei \"Zahl\" fügt Bidiza sich selbst 10 Schadenspunkte zu."
 			},
 
 		},
@@ -74,8 +74,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
-		fr: "Rien ne peut perturber ses nerfs d'acier. Il est plus agile et énergique qu'il y paraît."
+		'en-us': "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+		'fr-fr': "Rien ne peut perturber ses nerfs d'acier. Il est plus agile et énergique qu'il y paraît."
 	},
 
 	thirdParty: {

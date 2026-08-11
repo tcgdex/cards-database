@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Pheromosa GX",
-		fr: "Cancrelove GX",
-		es: "Pheromosa GX",
-		it: "Pheromosa GX",
-		pt: "Pheromosa GX",
-		de: "Schabelle GX"
+		'en-us': "Pheromosa GX",
+		'fr-fr': "Cancrelove GX",
+		'es-es': "Pheromosa GX",
+		'it-it': "Pheromosa GX",
+		'pt-br': "Pheromosa GX",
+		'de-de': "Schabelle GX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Fast Raid",
-				fr: "Raid Éclair",
-				es: "Raid Rápido",
-				it: "Raid Veloce",
-				pt: "Incursão Rápida",
-				de: "Rasanter Raubzug"
+				'en-us': "Fast Raid",
+				'fr-fr': "Raid Éclair",
+				'es-es': "Raid Rápido",
+				'it-it': "Raid Veloce",
+				'pt-br': "Incursão Rápida",
+				'de-de': "Rasanter Raubzug"
 			},
 			effect: {
-				en: "If you go first, you can use this attack on your first turn.",
-				fr: "Si vous jouez en premier, vous pouvez utiliser cette attaque lors de votre premier tour.",
-				es: "Si sales primero, puedes usar este ataque durante tu primer turno.",
-				it: "Se inizi per primo, puoi usare questo attacco durante il tuo primo turno.",
-				pt: "Se você for primeiro, poderá usar este ataque na sua primeira vez de jogar.",
-				de: "Wenn du als Erster am Zug bist, kannst du diese Attacke während deines ersten Zuges einsetzen."
+				'en-us': "If you go first, you can use this attack on your first turn.",
+				'fr-fr': "Si vous jouez en premier, vous pouvez utiliser cette attaque lors de votre premier tour.",
+				'es-es': "Si sales primero, puedes usar este ataque durante tu primer turno.",
+				'it-it': "Se inizi per primo, puoi usare questo attacco durante il tuo primo turno.",
+				'pt-br': "Se você for primeiro, poderá usar este ataque na sua primeira vez de jogar.",
+				'de-de': "Wenn du als Erster am Zug bist, kannst du diese Attacke während deines ersten Zuges einsetzen."
 			},
 			damage: 30,
 
@@ -58,20 +58,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Cruel Spike",
-				fr: "Piquant Cruel",
-				es: "Aguja Cruel",
-				it: "Punte Crudeli",
-				pt: "Pungente Cruel",
-				de: "Grausamer Stachel"
+				'en-us': "Cruel Spike",
+				'fr-fr': "Piquant Cruel",
+				'es-es': "Aguja Cruel",
+				'it-it': "Punte Crudeli",
+				'pt-br': "Pungente Cruel",
+				'de-de': "Grausamer Stachel"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent’s Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: 60,
 
@@ -82,20 +82,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Beauty GX",
-				fr: "Beauté-GX",
-				es: "Elegancia GX",
-				it: "Elegantia-GX",
-				pt: "Beleza GX",
-				de: "Anmut GX"
+				'en-us': "Beauty GX",
+				'fr-fr': "Beauté-GX",
+				'es-es': "Elegancia GX",
+				'it-it': "Elegantia-GX",
+				'pt-br': "Beleza GX",
+				'de-de': "Anmut GX"
 			},
 			effect: {
-				en: "This attack does 50 damage for each Prize card your opponent has taken. (You can’t use more than 1 GX attack in a game.)",
-				fr: "Cette attaque inflige 50 dégâts pour chaque carte Récompense que votre adversaire a récupérée. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-				es: "Este ataque hace 50 puntos de daño por cada carta de Premio que haya cogido tu rival. (No puedes usar más de 1 ataque GX en una partida).",
-				it: "Questo attacco infligge 50 danni per ogni carta Premio presa dal tuo avversario. Non puoi usare più di un attacco GX a partita.",
-				pt: "Este ataque causa 50 pontos de dano para cada carta de Prêmio que seu oponente pegou (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der von deinem Gegner genommenen Preiskarten zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				'en-us': "This attack does 50 damage for each Prize card your opponent has taken. (You can’t use more than 1 GX attack in a game.)",
+				'fr-fr': "Cette attaque inflige 50 dégâts pour chaque carte Récompense que votre adversaire a récupérée. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'es-es': "Este ataque hace 50 puntos de daño por cada carta de Premio que haya cogido tu rival. (No puedes usar más de 1 ataque GX en una partida).",
+				'it-it': "Questo attacco infligge 50 danni per ogni carta Premio presa dal tuo avversario. Non puoi usare più di un attacco GX a partita.",
+				'pt-br': "Este ataque causa 50 pontos de dano para cada carta de Prêmio que seu oponente pegou (você não pode usar mais de 1 ataque GX por partida).",
+				'de-de': "Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der von deinem Gegner genommenen Preiskarten zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: "50×",
 

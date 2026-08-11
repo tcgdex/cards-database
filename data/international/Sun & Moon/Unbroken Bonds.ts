@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sun & Moon'
 
 const sm10: Set = {
 	id: "sm10",
 
 	name: {
-		en: "Unbroken Bonds",
-		fr: "Alliance Infaillible",
-		es: "Vínculos Indestructibles",
-		it: "Legami Inossidabili",
-		de: "Kräfte im Einklang",
-		pt: "Elos Inquebráveis"
+		'en-us': "Unbroken Bonds",
+		'fr-fr': "Alliance Infaillible",
+		'es-es': "Vínculos Indestructibles",
+		'it-it': "Legami Inossidabili",
+		'de-de': "Kräfte im Einklang",
+		'pt-br': "Elos Inquebráveis"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const sm10: Set = {
 
 	abbreviations: {
 		official: "UNB",
-		fr: "AIF"
+		'fr-fr': "AIF"
 	},
 
 	thirdParty: {

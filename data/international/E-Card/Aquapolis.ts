@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../E-Card'
 
 const ecard2: Set = {
 	id: "ecard2",
 
 	name: {
-		en: "Aquapolis",
-		fr: "Aquapolis",
-		de: "Aquapolis",
-		it: "Aquapolis"
+		'en-us': "Aquapolis",
+		'fr-fr': "Aquapolis",
+		'de-de': "Aquapolis",
+		'it-it': "Aquapolis"
 	},
 
 	serie: serie,
@@ -22,7 +22,7 @@ const ecard2: Set = {
 
 	abbreviations: {
 		official: "AQ",
-		fr: "AQU"
+		'fr-fr': "AQU"
 	},
 
 	thirdParty: {

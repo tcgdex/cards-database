@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トドロクツキ",
+		'ja-jp': "トドロクツキ",
 	},
 
 	illustrator: "hncl",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "謎の 多い 探検記の中で トドロクツキという 名で 記された 生物の 可能性が ある。",
+		'ja-jp': "謎の 多い 探検記の中で トドロクツキという 名で 記された 生物の 可能性が ある。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "70+",
 			cost: ["Darkness", "Darkness"],
 			effect: {
-				ja: "自分のトラッシュにある「古代」のカードの枚数×10ダメージ追加。",
+				'ja-jp': "自分のトラッシュにある「古代」のカードの枚数×10ダメージ追加。",
 			},
 		},
 		{

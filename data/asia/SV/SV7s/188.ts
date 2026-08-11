@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เปอร์เซียน"
+		'th-th': "เปอร์เซียน"
 	},
 
 	illustrator: "Whisker",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "ระวังตอนอารมณ์รุนแรงจนตั้งหางตรงให้ดี เป็นสัญญาณบอกว่ามันกำลังจะกระโจนเข้ากัด"
+		'th-th': "ระวังตอนอารมณ์รุนแรงจนตั้งหางตรงให้ดี เป็นสัญญาณบอกว่ามันกำลังจะกระโจนเข้ากัด"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "ข่วนแหลก"
+			'th-th': "ข่วนแหลก"
 		},
 
 		effect: {
-			th: "ทอยเหรียญ 3 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x50"
+			'th-th': "ทอยเหรียญ 3 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x50"
 		},
 
 		damage: "50×",
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			th: "สแลชคลอว์"
+			'th-th': "สแลชคลอว์"
 		},
 
 		damage: 100,

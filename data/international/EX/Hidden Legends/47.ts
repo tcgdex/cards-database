@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Sealeo",
-		fr: "Phogleur",
-		de: "Seejong"
+		'en-us': "Sealeo",
+		'fr-fr': "Phogleur",
+		'de-de': "Seejong"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Spheal",
-		fr: "Obalie"
+		'en-us': "Spheal",
+		'fr-fr': "Obalie"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Super Icy Wind",
-				fr: "Vent super glacial",
-				de: "Super Icy Wind"
+				'en-us': "Super Icy Wind",
+				'fr-fr': "Vent super glacial",
+				'de-de': "Super Icy Wind"
 			},
 			effect: {
-				en: "Does 10 damage to each of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Inflige 10 dégâts à chacun des Pokémon de votre adversaire. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
-				de: "Does 10 damage to each of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Reistance"
+				'en-us': "Does 10 damage to each of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
+				'fr-fr': "Inflige 10 dégâts à chacun des Pokémon de votre adversaire. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				'de-de': "Does 10 damage to each of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Reistance"
 			},
 
 		},
@@ -52,9 +52,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Skull Bash",
-				fr: "Coud'krane",
-				de: "Skull Bash"
+				'en-us': "Skull Bash",
+				'fr-fr': "Coud'krane",
+				'de-de': "Skull Bash"
 			},
 
 			damage: 50,

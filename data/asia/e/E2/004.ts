@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "MUK -004/092",
+		'ja-jp': "MUK -004/092",
 	},
 
 	rarity: "Rare",
@@ -17,10 +17,10 @@ const card: Card = {
 	abilities: [
 		{
 			name: {
-				ja: "ヘビー級",
+				'ja-jp': "ヘビー級",
 			},
 			effect: {
-				ja: "MUKに草のエネルギーが取り付けられている限り、追加の{{e}} {{e}} {{e}}を支払う必要があります。",
+				'ja-jp': "MUKに草のエネルギーが取り付けられている限り、追加の{{e}} {{e}} {{e}}を支払う必要があります。",
 			},
 		}],
 
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "燃えるスラッジ",
+				'ja-jp': "燃えるスラッジ",
 			},
 			effect: {
-				ja: "MUKに取り付けられた草のエネルギーの量に等しい多数のコインをひっくり返します。それらのいずれかが頭である場合、防御するポケモンは現在毒され、燃やされています。",
+				'ja-jp': "MUKに取り付けられた草のエネルギーの量に等しい多数のコインをひっくり返します。それらのいずれかが頭である場合、防御するポケモンは現在毒され、燃やされています。",
 			},
 			damage: 10,
 		},

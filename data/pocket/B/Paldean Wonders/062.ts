@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Ting-Lu",
-		fr: "Dinglu",
-		es: "Ting-Lu",
-		it: "Ting-Lu",
-		pt: "Ting-Lu",
-		de: "Dinglu"
+		'en-us': "Ting-Lu",
+		'fr-fr': "Dinglu",
+		'es-es': "Ting-Lu",
+		'it-it': "Ting-Lu",
+		'pt-br': "Ting-Lu",
+		'de-de': "Dinglu"
   },
   illustrator: "AKIRA EGAWA",
   rarity: "Three Diamond",

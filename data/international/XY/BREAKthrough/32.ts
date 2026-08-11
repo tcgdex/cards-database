@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Remoraid",
-		fr: "Rémoraid",
-		es: "Remoraid",
-		it: "Remoraid",
-		pt: "Remoraid",
-		de: "Remoraid"
+		'en-us': "Remoraid",
+		'fr-fr': "Rémoraid",
+		'es-es': "Remoraid",
+		'it-it': "Remoraid",
+		'pt-br': "Remoraid",
+		'de-de': "Remoraid"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ion Pool",
-				fr: "Bassin Ionique",
-				es: "Piscina Iónica",
-				it: "Vasca Ionizzata",
-				pt: "Piscina de Íons",
-				de: "Ionenbecken"
+				'en-us': "Ion Pool",
+				'fr-fr': "Bassin Ionique",
+				'es-es': "Piscina Iónica",
+				'it-it': "Vasca Ionizzata",
+				'pt-br': "Piscina de Íons",
+				'de-de': "Ionenbecken"
 			},
 			effect: {
-				en: "Discard any Stadium card in play.",
-				fr: "Défaussez toute carte Stade en jeu.",
-				es: "Descarta cualquier carta de Estadio en juego.",
-				it: "Scarta una carta Stadio in gioco.",
-				pt: "Descarte qualquer card de Estádio em jogo.",
-				de: "Lege eine beliebige Stadionkarte im Spiel auf den Ablagestapel."
+				'en-us': "Discard any Stadium card in play.",
+				'fr-fr': "Défaussez toute carte Stade en jeu.",
+				'es-es': "Descarta cualquier carta de Estadio en juego.",
+				'it-it': "Scarta una carta Stadio in gioco.",
+				'pt-br': "Descarte qualquer card de Estádio em jogo.",
+				'de-de': "Lege eine beliebige Stadionkarte im Spiel auf den Ablagestapel."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
-				fr: "Pistolet à O",
-				es: "Pistola Agua",
-				it: "Pistolacqua",
-				pt: "Revólver d'Água",
-				de: "Aquaknarre"
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
+				'es-es': "Pistola Agua",
+				'it-it': "Pistolacqua",
+				'pt-br': "Revólver d'Água",
+				'de-de': "Aquaknarre"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers.",
+		'en-us': "Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers.",
 	},
 
 	thirdParty: {

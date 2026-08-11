@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラペルシアン",
+		'ja-jp': "アローラペルシアン",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "自分以外の すべてを 見下す。 不意打ちや 闇討ちなど ひれつで ひきょうな 戦法を 好む。",
+		'ja-jp': "自分以外の すべてを 見下す。 不意打ちや 闇討ちなど ひれつで ひきょうな 戦法を 好む。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "コケおどし 90-" },
 			cost: [],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数x30ダメージぶん、このワザのダメージは小さくなる。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数x30ダメージぶん、このワザのダメージは小さくなる。",
 			},
 		},
 	],
@@ -41,7 +41,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アローラニャース",
+		'ja-jp': "アローラニャース",
 	},
 
 	retreat: 1,

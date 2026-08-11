@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "サーナイトex"
+		'ja-jp': "サーナイトex"
 	},
 
 	illustrator: "Jiro Sasumo",
@@ -19,11 +19,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "サイコエンブレイス"
+			'ja-jp': "サイコエンブレイス"
 		},
 
 		effect: {
-			ja: "自分の番に何回でも使える。自分のトラッシュから「基本エネルギー」を1枚選び、自分のポケモンにつける。その後、つけたポケモンにダメカンを2個のせる。（きぜつするポケモンに、この特性は使えない。）"
+			'ja-jp': "自分の番に何回でも使える。自分のトラッシュから「基本エネルギー」を1枚選び、自分のポケモンにつける。その後、つけたポケモンにダメカンを2個のせる。（きぜつするポケモンに、この特性は使えない。）"
 		}
 	}],
 
@@ -31,13 +31,13 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			ja: "ミラクルフォース"
+			'ja-jp': "ミラクルフォース"
 		},
 
 		damage: 190,
 
 		effect: {
-			ja: "このポケモンの特殊状態を、すべて回復する。"
+			'ja-jp': "このポケモンの特殊状態を、すべて回復する。"
 		}
 	}],
 

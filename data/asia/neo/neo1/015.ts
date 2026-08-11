@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Bellossom",
+		'ja-jp': "Bellossom",
 	},
 
 	rarity: "Holo Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "甘い蜜",
+				'ja-jp': "甘い蜜",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、ポケモンの1つからすべてのダメージカウンターを削除します。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、ポケモンの1つからすべてのダメージカウンターを削除します。",
 			},
 		},
 		{
 			cost: ["Grass", "Grass", "Colorless"],
 			name: {
-				ja: "フラワーダンス",
+				'ja-jp': "フラワーダンス",
 			},
 			effect: {
-				ja: "30回のダメージを与えますBellossomを含むカードの数は、あなたがプレイしている名前（これを含む）を持っている名前にあります。",
+				'ja-jp': "30回のダメージを与えますBellossomを含むカードの数は、あなたがプレイしている名前（これを含む）を持っている名前にあります。",
 			},
 		},
 	],

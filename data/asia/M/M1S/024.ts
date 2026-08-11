@@ -1,25 +1,25 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ユキハミ"
+		'ja-jp': "ユキハミ"
 	},
 	illustrator: "Kagemaru Himeno",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Water"],
 	description: {
-		ja: "エサは地面に積もった雪。柔らかな新雪を好み山頂目指して食べ進む。"
+		'ja-jp': "エサは地面に積もった雪。柔らかな新雪を好み山頂目指して食べ進む。"
 	},
 	stage: "Basic",
 	attacks: [{
 		name: {
-			ja: "かくれる"
+			'ja-jp': "かくれる"
 		},
 		effect: {
-			ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。"
+			'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。"
 		},
 		cost: ["Water"]
 	}],

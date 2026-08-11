@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Rhyhorn",
-		fr: "Rhinocorne",
-		es: "Rhyhorn",
-		it: "Rhyhorn",
-		pt: "Rhyhorn",
-		de: "Rihorn"
+		'en-us': "Rhyhorn",
+		'fr-fr': "Rhinocorne",
+		'es-es': "Rhyhorn",
+		'it-it': "Rhyhorn",
+		'pt-br': "Rhyhorn",
+		'de-de': "Rihorn"
 	},
 
 	illustrator: "Midori Harada",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				es: "Derribo",
-				it: "Riduttore",
-				pt: "Desmantelar",
-				de: "Bodycheck"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'es-es': "Derribo",
+				'it-it': "Riduttore",
+				'pt-br': "Desmantelar",
+				'de-de': "Bodycheck"
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s'inflige 10 dégâts.",
-				es: "Este Pokémon se hace 10 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 10 danni a se stesso.",
-				pt: "Esse Pokémon causa 10 de danos a ele mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "This Pokémon does 10 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 10 dégâts.",
+				'es-es': "Este Pokémon se hace 10 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 10 danni a se stesso.",
+				'pt-br': "Esse Pokémon causa 10 de danos a ele mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 40,
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It is inept at turning because of its four short legs. It can only charge and run in one direction.",
+		'en-us': "It is inept at turning because of its four short legs. It can only charge and run in one direction.",
 	},
 
 	thirdParty: {

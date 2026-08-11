@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Yungoos",
-		fr: "Manglouton",
-		es: "Yungoos",
-		it: "Yungoos",
-		pt: "Yungoos",
-		de: "Mangunior"
+		'en-us': "Yungoos",
+		'fr-fr': "Manglouton",
+		'es-es': "Yungoos",
+		'it-it': "Yungoos",
+		'pt-br': "Yungoos",
+		'de-de': "Mangunior"
 	},
 
 	illustrator: "match",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "With its sharp fangs, it will bite anything. It did not originally live in Alola but was imported from another region.",
+		'en-us': "With its sharp fangs, it will bite anything. It did not originally live in Alola but was imported from another region.",
 	},
 
 	thirdParty: {

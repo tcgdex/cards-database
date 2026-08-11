@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Magby",
-		fr: "Magby",
-		de: "Magby"
+		'en-us': "Magby",
+		'fr-fr': "Magby",
+		'de-de': "Magby"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Sweet Sleeping Face",
-				fr: "Joli visage endormi",
-				de: "Niedliches Schlafgesicht"
+				'en-us': "Sweet Sleeping Face",
+				'fr-fr': "Joli visage endormi",
+				'de-de': "Niedliches Schlafgesicht"
 			},
 			effect: {
-				en: "As long as Magby is Asleep, prevent all damage done to Magby by attacks.",
-				fr: "Tant que Magby est Endormi, empêchez tous les dégâts qui lui sont infligés par des attaques.",
-				de: "Solange Magby schläft, verhindere allen Schaden, der Magby durch Angriffe zugefügt wird."
+				'en-us': "As long as Magby is Asleep, prevent all damage done to Magby by attacks.",
+				'fr-fr': "Tant que Magby est Endormi, empêchez tous les dégâts qui lui sont infligés par des attaques.",
+				'de-de': "Solange Magby schläft, verhindere allen Schaden, der Magby durch Angriffe zugefügt wird."
 			},
 		},
 	],
@@ -43,21 +43,21 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Play with Fire",
-				fr: "Jouer avec le feu",
-				de: "Spiel mit dem Feuer"
+				'en-us': "Play with Fire",
+				'fr-fr': "Jouer avec le feu",
+				'de-de': "Spiel mit dem Feuer"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned. Magby is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé. Magby est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon ist jetzt verbrannt. Magby schläft jetzt."
+				'en-us': "The Defending Pokémon is now Burned. Magby is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé. Magby est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verbrannt. Magby schläft jetzt."
 			},
 
 		},
 	],
 
 	description: {
-		en: "It is found in volcanic craters. Its body temperature is over 1,100 degrees Fahrenheit, so don't underestimate it.",
+		'en-us': "It is found in volcanic craters. Its body temperature is over 1,100 degrees Fahrenheit, so don't underestimate it.",
 	},
 
 	retreat: 0,

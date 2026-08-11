@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Pyroar BREAK",
-		fr: "Némélios TURBO",
-		es: "Pyroar TURBO",
-		it: "Pyroar TURBO",
-		pt: "Pyroar TURBO",
-		de: "Pyroleo-TURBO"
+		'en-us': "Pyroar BREAK",
+		'fr-fr': "Némélios TURBO",
+		'es-es': "Pyroar TURBO",
+		'it-it': "Pyroar TURBO",
+		'pt-br': "Pyroar TURBO",
+		'de-de': "Pyroleo-TURBO"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pyroar",
-		fr: "Némélios",
-		es: "Pyroar",
-		it: "Pyroar",
-		pt: "Pyroar",
-		de: "Pyroleo"
+		'en-us': "Pyroar",
+		'fr-fr': "Némélios",
+		'es-es': "Pyroar",
+		'it-it': "Pyroar",
+		'pt-br': "Pyroar",
+		'de-de': "Pyroleo"
 	},
 
 	stage: "BREAK",
@@ -45,20 +45,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Kaiser Tackle",
-				fr: "Charge Impériale",
-				es: "Placaje Káiser",
-				it: "Azione Imperiale",
-				pt: "Colisão do Imperador",
-				de: "Kaiser-Tackle"
+				'en-us': "Kaiser Tackle",
+				'fr-fr': "Charge Impériale",
+				'es-es': "Placaje Káiser",
+				'it-it': "Azione Imperiale",
+				'pt-br': "Colisão do Imperador",
+				'de-de': "Kaiser-Tackle"
 			},
 			effect: {
-				en: "This Pokémon does 50 damage to itself.",
-				fr: "Ce Pokémon s'inflige 50 dégâts.",
-				es: "Este Pokémon se hace 50 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 50 danni a se stesso.",
-				pt: "Este Pokémon causa 50 de danos a ele mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 50 Schadenspunkte zu."
+				'en-us': "This Pokémon does 50 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 50 dégâts.",
+				'es-es': "Este Pokémon se hace 50 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 50 danni a se stesso.",
+				'pt-br': "Este Pokémon causa 50 de danos a ele mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 50 Schadenspunkte zu."
 			},
 			damage: 180,
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Sudowoodo",
-		fr: "Simularbre",
-		es: "Sudowoodo",
-		it: "Sudowoodo",
-		pt: "Sudowoodo",
-		de: "Mogelbaum"
+		'en-us': "Sudowoodo",
+		'fr-fr': "Simularbre",
+		'es-es': "Sudowoodo",
+		'it-it': "Sudowoodo",
+		'pt-br': "Sudowoodo",
+		'de-de': "Mogelbaum"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Watch and Learn",
-				fr: "Apprentissage",
-				es: "Mira y Aprende",
-				it: "Guarda e Impara",
-				pt: "Observe e Aprenda",
-				de: "Leben und lernen"
+				'en-us': "Watch and Learn",
+				'fr-fr': "Apprentissage",
+				'es-es': "Mira y Aprende",
+				'it-it': "Guarda e Impara",
+				'pt-br': "Observe e Aprenda",
+				'de-de': "Leben und lernen"
 			},
 			effect: {
-				en: "If your opponent's Pokémon used an attack during his or her last turn, use it as this attack.",
-				fr: "Si l'un des Pokémon de votre adversaire a utilisé une attaque pendant son dernier tour, utilisez-la en tant que cette attaque.",
-				es: "Si alguno de los Pokémon de tu rival usó un ataque durante su último turno, úsalo para este ataque.",
-				it: "Se il Pokémon del tuo avversario ha usato un attacco durante il suo ultimo turno, usalo al posto di questo attacco.",
-				pt: "Se o Pokémon do seu oponente tiver usado um ataque durante sua última vez de jogar, use-o como este ataque.",
-				de: "Wenn das Pokémon deines Gegners während seines letzten Zuges mit einer Attacke angegriffen hat, benutze sie für diesen Angriff."
+				'en-us': "If your opponent's Pokémon used an attack during his or her last turn, use it as this attack.",
+				'fr-fr': "Si l'un des Pokémon de votre adversaire a utilisé une attaque pendant son dernier tour, utilisez-la en tant que cette attaque.",
+				'es-es': "Si alguno de los Pokémon de tu rival usó un ataque durante su último turno, úsalo para este ataque.",
+				'it-it': "Se il Pokémon del tuo avversario ha usato un attacco durante il suo ultimo turno, usalo al posto di questo attacco.",
+				'pt-br': "Se o Pokémon do seu oponente tiver usado um ataque durante sua última vez de jogar, use-o como este ataque.",
+				'de-de': "Wenn das Pokémon deines Gegners während seines letzten Zuges mit einer Attacke angegriffen hat, benutze sie für diesen Angriff."
 			},
 
 		},
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It disguises itself as a tree to avoid attack. It hates water, so it will disappear if it starts raining.",
+		'en-us': "It disguises itself as a tree to avoid attack. It hates water, so it will disappear if it starts raining.",
 	},
 
 	thirdParty: {

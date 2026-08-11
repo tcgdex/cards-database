@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Doduo"
+		'en-us': "Blaine's Doduo"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wild Kick"
+				'en-us': "Wild Kick"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing."
+				'en-us': "Flip a coin. If tails, this attack does nothing."
 			},
 
 		},
@@ -40,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Retaliate"
+				'en-us': "Retaliate"
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on Blaine's Doduo."
+				'en-us': "Does 10 damage times the number of damage counters on Blaine's Doduo."
 			},
 			damage: "10x",
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シャワーズVMAX",
+		'ja-jp': "シャワーズVMAX",
 		'zh-tw': "向日種子",
 	},
 
@@ -18,12 +18,12 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "バブルポッド",
+				'ja-jp': "バブルポッド",
 				'zh-tw': "種子炸彈",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュから[水]ポケモンを1枚選び、ベンチに出す。その後、自分のトラッシュから[水]エネルギーを3枚まで選び、出したポケモンにつける。",
+				'ja-jp': "自分のトラッシュから[水]ポケモンを1枚選び、ベンチに出す。その後、自分のトラッシュから[水]エネルギーを3枚まで選び、出したポケモンにつける。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンにダメカンがのっているなら、100ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンにダメカンがのっているなら、100ダメージ追加。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シャワーズV",
+		'ja-jp': "シャワーズV",
 	},
 
 	retreat: 2,

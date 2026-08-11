@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Xatu",
-		fr: "Xatu",
-		de: "Xatu"
+		'en-us': "Xatu",
+		'fr-fr': "Xatu",
+		'de-de': "Xatu"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Natu",
-		fr: "Natu"
+		'en-us': "Natu",
+		'fr-fr': "Natu"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Prophecy",
-				fr: "Prophétie",
-				de: "Prophecy"
+				'en-us': "Prophecy",
+				'fr-fr': "Prophétie",
+				'de-de': "Prophecy"
 			},
 			effect: {
-				en: "Look at the top 3 cards of either player's deck and rearrange them as you like.",
-				fr: "Regardez les 3 cartes du dessus du deck de n'importe quel joueur et ordonnez-les comme bon vous semble.",
-				de: "Look at the top 3 cards of either player's deck and rearrange them as you like."
+				'en-us': "Look at the top 3 cards of either player's deck and rearrange them as you like.",
+				'fr-fr': "Regardez les 3 cartes du dessus du deck de n'importe quel joueur et ordonnez-les comme bon vous semble.",
+				'de-de': "Look at the top 3 cards of either player's deck and rearrange them as you like."
 			},
 
 		},
@@ -54,14 +54,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Confuse Ray",
-				fr: "Onde folie",
-				de: "Confuse Ray"
+				'en-us': "Confuse Ray",
+				'fr-fr': "Onde folie",
+				'de-de': "Confuse Ray"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 30,
 
@@ -85,8 +85,8 @@ const card: Card = {
 
 
 	description: {
-		en: "They say that it stays still and quiet because it is seeing both the past and future at the same time.",
-		fr: "On dit qu'il reste silencieux et immobile car il observe le passé et le futur en même temps."
+		'en-us': "They say that it stays still and quiet because it is seeing both the past and future at the same time.",
+		'fr-fr': "On dit qu'il reste silencieux et immobile car il observe le passé et le futur en même temps."
 	},
 
 

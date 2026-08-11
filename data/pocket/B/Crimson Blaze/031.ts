@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [429],
 
 	name: {
-		en: "Mismagius"
+		'en-us': "Mismagius"
 	},
 
 	illustrator: "Ligton",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Misdreavus"
+		'en-us': "Misdreavus"
 	},
 
 	description: {
-		en: "Its cries sound like incantations to torment the\nfoe. It appears where you least expect it."
+		'en-us': "Its cries sound like incantations to torment the\nfoe. It appears where you least expect it."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Stored Power"
+			'en-us': "Stored Power"
 		},
 
 		damage: 60,
 		cost: ["Psychic", "Psychic"],
 
 		effect: {
-			en: "Move all {P} Energy from this Pokémon to 1 of your Benched Pokémon."
+			'en-us': "Move all {P} Energy from this Pokémon to 1 of your Benched Pokémon."
 		}
 	}],
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Mantine",
-		fr: "Demanta",
-		de: "Mantax"
+		'en-us': "Mantine",
+		'fr-fr': "Demanta",
+		'de-de': "Mantax"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Giant Wave",
-				fr: "Vague géante",
-				de: "Giant Wave"
+				'en-us': "Giant Wave",
+				'fr-fr': "Vague géante",
+				'de-de': "Giant Wave"
 			},
 			effect: {
-				en: "Mantine can't attack during your next turn.",
-				fr: "Demanta ne peut pas attaquer pendant votre prochain tour.",
-				de: "Mantine can't attack during your next turn."
+				'en-us': "Mantine can't attack during your next turn.",
+				'fr-fr': "Demanta ne peut pas attaquer pendant votre prochain tour.",
+				'de-de': "Mantine can't attack during your next turn."
 			},
 			damage: 40,
 
@@ -63,8 +63,8 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon is perfectly adapted to its ocean home. It can gather up enough speed to burst above the water like a whale.",
-		fr: "Ce Pokémon est parfaitement adapté au milieu océanique. Il peut accumuler suffisamment de vitesse pour bondir hors de l'eau comme une baleine."
+		'en-us': "This Pokémon is perfectly adapted to its ocean home. It can gather up enough speed to burst above the water like a whale.",
+		'fr-fr': "Ce Pokémon est parfaitement adapté au milieu océanique. Il peut accumuler suffisamment de vitesse pour bondir hors de l'eau comme une baleine."
 	},
 
 

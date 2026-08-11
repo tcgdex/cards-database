@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Greavard",
-		fr: "Toutombe",
-		es: "Greavard",
-		it: "Greavard",
-		pt: "Greavard",
-		de: "Gruff"
+		'en-us': "Greavard",
+		'fr-fr': "Toutombe",
+		'es-es': "Greavard",
+		'it-it': "Greavard",
+		'pt-br': "Greavard",
+		'de-de': "Gruff"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Paw Shake Punch",
-			fr: "Coup de Patte",
-			es: "Sacudir y Dar la Patita",
-			it: "Pugno Qua la Zampa",
-			pt: "Dá Soquinho",
-			de: "Pfötchenhieb"
+			'en-us': "Paw Shake Punch",
+			'fr-fr': "Coup de Patte",
+			'es-es': "Sacudir y Dar la Patita",
+			'it-it': "Pugno Qua la Zampa",
+			'pt-br': "Dá Soquinho",
+			'de-de': "Pfötchenhieb"
 		},
 
 		damage: 20
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			es: "Mordisco",
-			it: "Morso",
-			pt: "Mordida",
-			de: "Biss"
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'es-es': "Mordisco",
+			'it-it': "Morso",
+			'pt-br': "Mordida",
+			'de-de': "Biss"
 		},
 
 		damage: 50

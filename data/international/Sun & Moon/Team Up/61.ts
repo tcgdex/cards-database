@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Tentacruel",
-		fr: "Tentacruel",
-		es: "Tentacruel",
-		it: "Tentacruel",
-		pt: "Tentacruel",
-		de: "Tentoxa"
+		'en-us': "Tentacruel",
+		'fr-fr': "Tentacruel",
+		'es-es': "Tentacruel",
+		'it-it': "Tentacruel",
+		'pt-br': "Tentacruel",
+		'de-de': "Tentoxa"
 	},
 
 	illustrator: "kodama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tentacool",
-		fr: "Tentacool",
+		'en-us': "Tentacool",
+		'fr-fr': "Tentacool",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Void Tentacles",
-				fr: "Tentacules du Néant",
-				es: "Tentáculos Nihilistas",
-				it: "Tentacoli Annichilenti",
-				pt: "Tentáculos do Vácuo",
-				de: "Tentakel der Leere"
+				'en-us': "Void Tentacles",
+				'fr-fr': "Tentacules du Néant",
+				'es-es': "Tentáculos Nihilistas",
+				'it-it': "Tentacoli Annichilenti",
+				'pt-br': "Tentáculos do Vácuo",
+				'de-de': "Tentakel der Leere"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused and Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido y Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso e avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso e Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt und vergiftet."
+				'en-us': "Your opponent’s Active Pokémon is now Confused and Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido y Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso e avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso e Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt und vergiftet."
 			},
 
 		},
@@ -63,20 +63,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Paranormal",
-				fr: "Paranormal",
-				es: "Sobrenatural",
-				it: "Paranormale",
-				pt: "Paranormal",
-				de: "Paranormal"
+				'en-us': "Paranormal",
+				'fr-fr': "Paranormal",
+				'es-es': "Sobrenatural",
+				'it-it': "Paranormale",
+				'pt-br': "Paranormal",
+				'de-de': "Paranormal"
 			},
 			effect: {
-				en: "During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Ultra Beasts.",
-				fr: "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques d’Ultra-Chimères.",
-				es: "Durante el próximo turno de tu rival, evita todo el daño infligido a este Pokémon por ataques de Ultraentes.",
-				it: "Durante il prossimo turno del tuo avversario, previeni tutti i danni inflitti a questo Pokémon dagli attacchi delle Ultracreature.",
-				pt: "Durante a próxima vez de jogar do seu oponente, prevenirá todo o dano causado a este Pokémon por ataques de Ultracriaturas.",
-				de: "Verhindere während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken von Ultrabestien zugefügt wird."
+				'en-us': "During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Ultra Beasts.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques d’Ultra-Chimères.",
+				'es-es': "Durante el próximo turno de tu rival, evita todo el daño infligido a este Pokémon por ataques de Ultraentes.",
+				'it-it': "Durante il prossimo turno del tuo avversario, previeni tutti i danni inflitti a questo Pokémon dagli attacchi delle Ultracreature.",
+				'pt-br': "Durante a próxima vez de jogar do seu oponente, prevenirá todo o dano causado a este Pokémon por ataques de Ultracriaturas.",
+				'de-de': "Verhindere während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken von Ultrabestien zugefügt wird."
 			},
 			damage: 70,
 
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It fires off ultrasonic waves from its red orbs to weaken its prey, and then it wraps them up in its 80 tentacles.",
+		'en-us': "It fires off ultrasonic waves from its red orbs to weaken its prey, and then it wraps them up in its 80 tentacles.",
 	},
 
 	thirdParty: {

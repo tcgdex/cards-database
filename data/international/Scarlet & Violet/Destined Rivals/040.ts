@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Torchic",
-		fr: "Poussifeu",
-		de: "Flemmli",
-		it: "Torchic",
-		es: "Torchic",
-		pt: "Torchic",
+		'en-us': "Torchic",
+		'fr-fr': "Poussifeu",
+		'de-de': "Flemmli",
+		'it-it': "Torchic",
+		'es-es': "Torchic",
+		'pt-br': "Torchic",
 		'es-mx': "Torchic"
 	},
 
@@ -26,34 +26,34 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Collect",
-			fr: "Collecte",
-			de: "Sammeln",
-			it: "Tassa",
-			es: "Coleccionar",
-			pt: "Coleta",
+			'en-us': "Collect",
+			'fr-fr': "Collecte",
+			'de-de': "Sammeln",
+			'it-it': "Tassa",
+			'es-es': "Coleccionar",
+			'pt-br': "Coleta",
 			'es-mx': "Recolectar"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			de: "Ziehe 1 Karte.",
-			it: "Pesca una carta.",
-			es: "Roba 1 carta.",
-			pt: "Compre uma carta.",
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'de-de': "Ziehe 1 Karte.",
+			'it-it': "Pesca una carta.",
+			'es-es': "Roba 1 carta.",
+			'pt-br': "Compre uma carta.",
 			'es-mx': "Roba 1 carta."
 		}
 	}, {
 		cost: ["Fire"],
 
 		name: {
-			en: "Combustion",
-			fr: "Fournaise",
-			de: "Glühen",
-			it: "Fuoco Continuo",
-			es: "Combustión",
-			pt: "Combustão",
+			'en-us': "Combustion",
+			'fr-fr': "Fournaise",
+			'de-de': "Glühen",
+			'it-it': "Fuoco Continuo",
+			'es-es': "Combustión",
+			'pt-br': "Combustão",
 			'es-mx': "Combustión"
 		},
 

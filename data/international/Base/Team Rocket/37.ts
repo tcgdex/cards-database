@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Dark Golduck",
-		fr: "Akwakwak obscur",
-		de: "Dunkles Entoron"
+		'en-us': "Dark Golduck",
+		'fr-fr': "Akwakwak obscur",
+		'de-de': "Dunkles Entoron"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Psyduck",
-		fr: "Psykokwak"
+		'en-us': "Psyduck",
+		'fr-fr': "Psykokwak"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Third Eye",
-				fr: "Troisième œil",
-				de: "Drittes Auge"
+				'en-us': "Third Eye",
+				'fr-fr': "Troisième œil",
+				'de-de': "Drittes Auge"
 			},
 			effect: {
-				en: "Discard 1 Energy card attached to Dark Golduck in order to draw up to 3 cards.",
-				fr: "Défaussez 1 carte Énergie attachée à Akwakwak obscur pour pouvoir piocher jusqu'à 3 cartes.",
-				de: "Entferne eine auf Dunkles Entoron abgelegte Energiekarte, um bis zu drei Karten zu ziehen."
+				'en-us': "Discard 1 Energy card attached to Dark Golduck in order to draw up to 3 cards.",
+				'fr-fr': "Défaussez 1 carte Énergie attachée à Akwakwak obscur pour pouvoir piocher jusqu'à 3 cartes.",
+				'de-de': "Entferne eine auf Dunkles Entoron abgelegte Energiekarte, um bis zu drei Karten zu ziehen."
 			},
 
 		},
@@ -54,9 +54,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Psy",
-				fr: "Super Psy",
-				de: "Super-Psychoschlag"
+				'en-us': "Super Psy",
+				'fr-fr': "Super Psy",
+				'de-de': "Super-Psychoschlag"
 			},
 
 			damage: 50,
@@ -74,8 +74,8 @@ const card: Card = {
 
 
 	description: {
-		en: "When Psyducks evolve, their headaches disappear and they find themselves in possession of formidable mental powers.",
-		fr: "Quand les Psykokwak évoluent, leurs maux de tête disparaissent et ils se retrouvent en possession d'un formidable pouvoir mental."
+		'en-us': "When Psyducks evolve, their headaches disappear and they find themselves in possession of formidable mental powers.",
+		'fr-fr': "Quand les Psykokwak évoluent, leurs maux de tête disparaissent et ils se retrouvent en possession d'un formidable pouvoir mental."
 	},
 
 

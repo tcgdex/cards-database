@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM trainer Kit (Alolan Raichu)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bewear",
-		fr: "Chelours",
-		es: "Bewear",
-		it: "Bewear",
-		pt: "Bewear",
-		de: "Kosturso"
+		'en-us': "Bewear",
+		'fr-fr': "Chelours",
+		'es-es': "Bewear",
+		'it-it': "Bewear",
+		'pt-br': "Bewear",
+		'de-de': "Kosturso"
 	},
 
 	illustrator: "kirisAki",
@@ -23,12 +23,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Stufful",
-		fr: "Nounourson",
-		es: "Stufful",
-		it: "Stufful",
-		pt: "Stufful",
-		de: "Velursi"
+		'en-us': "Stufful",
+		'fr-fr': "Nounourson",
+		'es-es': "Stufful",
+		'it-it': "Stufful",
+		'pt-br': "Stufful",
+		'de-de': "Velursi"
 	},
 
 	attacks: [
@@ -38,10 +38,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bear Hug"
+				'en-us': "Bear Hug"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn."
 			},
 			damage: 40
 		},
@@ -52,10 +52,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Superpower"
+				'en-us': "Superpower"
 			},
 			effect: {
-				en: "You may do 40 more damage. If you do, this Pokémon does 20 damage to itself."
+				'en-us': "You may do 40 more damage. If you do, this Pokémon does 20 damage to itself."
 			},
 			damage: "80+"
 		},

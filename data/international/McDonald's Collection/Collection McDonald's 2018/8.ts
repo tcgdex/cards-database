@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Sabelette d'Alola",
+		'fr-fr': "Sabelette d'Alola",
 	},
 
 	rarity: "None",
@@ -28,16 +28,16 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				fr: "Boul'Armure"
+				'fr-fr': "Boul'Armure"
 			},
 			effect: {
-				fr: "Lancez une pièce. Si c'est face, évitez tous les dégâts infligés à ce Pokémon par des attaques pendant le prochain tour de votre adversaire."
+				'fr-fr': "Lancez une pièce. Si c'est face, évitez tous les dégâts infligés à ce Pokémon par des attaques pendant le prochain tour de votre adversaire."
 			}
 		},
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				fr: "Ball'Glace"
+				'fr-fr': "Ball'Glace"
 			},
 			damage: 30,
 		},

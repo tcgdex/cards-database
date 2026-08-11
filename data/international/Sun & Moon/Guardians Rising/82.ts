@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Pangoro",
-		fr: "Pandarbare",
-		es: "Pangoro",
-		it: "Pangoro",
-		pt: "Pangoro",
-		de: "Pandagro"
+		'en-us': "Pangoro",
+		'fr-fr': "Pandarbare",
+		'es-es': "Pangoro",
+		'it-it': "Pangoro",
+		'pt-br': "Pangoro",
+		'de-de': "Pandagro"
 	},
 
 	illustrator: "kodama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pancham",
-		fr: "Pandespiègle",
+		'en-us': "Pancham",
+		'fr-fr': "Pandespiègle",
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sky Uppercut",
-				fr: "Stratopercut",
-				es: "Gancho Alto",
-				it: "Stramontante",
-				pt: "Direto Celeste",
-				de: "Himmelhieb"
+				'en-us': "Sky Uppercut",
+				'fr-fr': "Stratopercut",
+				'es-es': "Gancho Alto",
+				'it-it': "Stramontante",
+				'pt-br': "Direto Celeste",
+				'de-de': "Himmelhieb"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				es: "El daño de este ataque no se ve afectado por Resistencia.",
-				it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-				pt: "O dano deste ataque não é afetado por Resistência.",
-				de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+				'en-us': "This attack’s damage isn’t affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+				'it-it': "I danni di questo attacco non sono influenzati dalla resistenza.",
+				'pt-br': "O dano deste ataque não é afetado por Resistência.",
+				'de-de': "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
 			},
 			damage: 70,
 
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnum Punch",
-				fr: "Poing magnum",
-				es: "Puño magnum",
-				it: "Superpugno",
-				pt: "Soco Magnum",
-				de: "Magnum-Schlag"
+				'en-us': "Magnum Punch",
+				'fr-fr': "Poing magnum",
+				'es-es': "Puño magnum",
+				'it-it': "Superpugno",
+				'pt-br': "Soco Magnum",
+				'de-de': "Magnum-Schlag"
 			},
 
 			damage: 130,
@@ -97,7 +97,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It boasts superb physical strength. Those who wish to become Pangoro's Trainer have no choice but to converse with their fists.",
+		'en-us': "It boasts superb physical strength. Those who wish to become Pangoro's Trainer have no choice but to converse with their fists.",
 	},
 
 	thirdParty: {

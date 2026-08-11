@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spewpa",
-		fr: "Pérégrain",
-		es: "Spewpa",
-		it: "Spewpa",
-		pt: "Spewpa",
-		de: "Puponcho"
+		'en-us': "Spewpa",
+		'fr-fr': "Pérégrain",
+		'es-es': "Spewpa",
+		'it-it': "Spewpa",
+		'pt-br': "Spewpa",
+		'de-de': "Puponcho"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -21,42 +21,42 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Scatterbug",
-		fr: "Lépidonille",
-		es: "Scatterbug",
-		it: "Scatterbug",
-		pt: "Scatterbug",
-		de: "Purmel"
+		'en-us': "Scatterbug",
+		'fr-fr': "Lépidonille",
+		'es-es': "Scatterbug",
+		'it-it': "Scatterbug",
+		'pt-br': "Scatterbug",
+		'de-de': "Purmel"
 	},
 
 	attacks: [{
 		name: {
-			en: "Grass Cocooning",
-			fr: "Cocon Vert",
-			es: "Abrigo Planta",
-			it: "Erbocorazza",
-			pt: "Casulo de Grama",
-			de: "Pflanzenhülle"
+			'en-us': "Grass Cocooning",
+			'fr-fr': "Cocon Vert",
+			'es-es': "Abrigo Planta",
+			'it-it': "Erbocorazza",
+			'pt-br': "Casulo de Grama",
+			'de-de': "Pflanzenhülle"
 		},
 
 		effect: {
-			en: "Heal 40 damage from this Pokémon.",
-			fr: "Soignez 40 dégâts de ce Pokémon.",
-			es: "Cura 40 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 40 danni.",
-			pt: "Cure 40 pontos de dano deste Pokémon.",
-			de: "Heile 40 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 40 damage from this Pokémon.",
+			'fr-fr': "Soignez 40 dégâts de ce Pokémon.",
+			'es-es': "Cura 40 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 40 danni.",
+			'pt-br': "Cure 40 pontos de dano deste Pokémon.",
+			'de-de': "Heile 40 Schadenspunkte bei diesem Pokémon."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Bug Bite",
-			fr: "Piqûre",
-			es: "Picadura",
-			it: "Coleomorso",
-			pt: "Picada",
-			de: "Käferbiss"
+			'en-us': "Bug Bite",
+			'fr-fr': "Piqûre",
+			'es-es': "Picadura",
+			'it-it': "Coleomorso",
+			'pt-br': "Picada",
+			'de-de': "Käferbiss"
 		},
 
 		damage: 40,
@@ -75,7 +75,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "The beaks of birds can't begin to scratch its stalwart body. To defend itself, it spews powder."
+		'en-us': "The beaks of birds can't begin to scratch its stalwart body. To defend itself, it spews powder."
 	},
 
 	variants: [

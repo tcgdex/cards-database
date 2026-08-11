@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴルーグV",
+		'ja-jp': "ゴルーグV",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Psychic", "Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手の進化しているバトルポケモンから、「進化カード」を1枚はがして退化させる。はがしたカードは、相手の手札にもどす。",
+				'ja-jp': "相手の進化しているバトルポケモンから、「進化カード」を1枚はがして退化させる。はがしたカードは、相手の手札にもどす。",
 			},
 		},
 	],

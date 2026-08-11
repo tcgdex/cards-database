@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カプ・コケコ",
+		'ja-jp': "カプ・コケコ",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "好奇心旺盛な メレメレの 守り神。 雷雲を 呼び 雷を 身体に 溜め込む。",
+		'ja-jp': "好奇心旺盛な メレメレの 守り神。 雷雲を 呼び 雷を 身体に 溜め込む。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "かいてんひこう" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のポケモン全員に、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン全員に、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{

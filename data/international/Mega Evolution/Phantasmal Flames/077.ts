@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wigglytuff",
-		fr: "Grodoudou",
-		es: "Wigglytuff",
+		'en-us': "Wigglytuff",
+		'fr-fr': "Grodoudou",
+		'es-es': "Wigglytuff",
 		'es-mx': "Wigglytuff",
-		de: "Knuddeluff",
-		it: "Wigglytuff",
-		pt: "Wigglytuff"
+		'de-de': "Knuddeluff",
+		'it-it': "Wigglytuff",
+		'pt-br': "Wigglytuff"
 	},
 
 	evolveFrom: {
-		en: "Jigglypuff",
-		fr: "Rondoudou",
-		es: "Jigglypuff",
+		'en-us': "Jigglypuff",
+		'fr-fr': "Rondoudou",
+		'es-es': "Jigglypuff",
 		'es-mx': "Jigglypuff",
-		de: "Pummeluff",
-		it: "Jigglypuff",
-		pt: "Jigglypuff",
+		'de-de': "Pummeluff",
+		'it-it': "Jigglypuff",
+		'pt-br': "Jigglypuff",
 	},
 
 	rarity: "Uncommon",
@@ -36,23 +36,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Round",
-			fr: "Chant Canon",
-			es: "Canon",
+			'en-us': "Round",
+			'fr-fr': "Chant Canon",
+			'es-es': "Canon",
 			'es-mx': "Canon",
-			de: "Kanon",
-			it: "Coro",
-			pt: "Circular"
+			'de-de': "Kanon",
+			'it-it': "Coro",
+			'pt-br': "Circular"
 		},
 
 		effect: {
-			en: "This attack does 40 damage for each of your Pokémon in play that has the Round attack.",
-			fr: "Cette attaque inflige 40 dégâts pour chacun de vos Pokémon en jeu ayant l'attaque Chant Canon.",
-			es: "Este ataque hace 40 puntos de daño por cada uno de tus Pokémon en juego que tengan el ataque Canon.",
+			'en-us': "This attack does 40 damage for each of your Pokémon in play that has the Round attack.",
+			'fr-fr': "Cette attaque inflige 40 dégâts pour chacun de vos Pokémon en jeu ayant l'attaque Chant Canon.",
+			'es-es': "Este ataque hace 40 puntos de daño por cada uno de tus Pokémon en juego que tengan el ataque Canon.",
 			'es-mx': "Este ataque hace 40 puntos de daño por cada uno de tus Pokémon en juego que tengan el ataque Canon.",
-			de: "Diese Attacke fügt für jedes deiner Pokémon im Spiel, das die Attacke Kanon hat, 40 Schadenspunkte zu.",
-			it: "Questo attacco infligge 40 danni per ciascuno dei tuoi Pokémon in gioco che ha l'attacco Coro.",
-			pt: "Este ataque causa 40 pontos de dano para cada um dos seus Pokémon em jogo que tiver o ataque Circular."
+			'de-de': "Diese Attacke fügt für jedes deiner Pokémon im Spiel, das die Attacke Kanon hat, 40 Schadenspunkte zu.",
+			'it-it': "Questo attacco infligge 40 danni per ciascuno dei tuoi Pokémon in gioco che ha l'attacco Coro.",
+			'pt-br': "Este ataque causa 40 pontos de dano para cada um dos seus Pokémon em jogo que tiver o ataque Circular."
 		},
 
 		damage: "40×"
@@ -60,13 +60,13 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Seismic Toss",
-			fr: "Frappe Atlas",
-			es: "Sísmico",
+			'en-us': "Seismic Toss",
+			'fr-fr': "Frappe Atlas",
+			'es-es': "Sísmico",
 			'es-mx': "Sísmico",
-			de: "Geowurf",
-			it: "Movimento Sismico",
-			pt: "Arremesso Sísmico"
+			'de-de': "Geowurf",
+			'it-it': "Movimento Sismico",
+			'pt-br': "Arremesso Sísmico"
 		},
 
 		damage: 100
@@ -82,7 +82,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam.",
+		'en-us': "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam.",
 	},
 
 	illustrator: "Naoyo Kimura",

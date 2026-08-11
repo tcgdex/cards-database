@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Voltorb"
+		'en-us': "Lt. Surge's Voltorb"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Spin Ball"
+				'en-us': "Spin Ball"
 			},
 			effect: {
-				en: "Flip 1 coin. This attack does 20 damage times the number of heads."
+				'en-us': "Flip 1 coin. This attack does 20 damage times the number of heads."
 			},
 			damage: "20x",
 
@@ -41,10 +41,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Spin"
+				'en-us': "Double Spin"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads."
 			},
 			damage: "20x",
 

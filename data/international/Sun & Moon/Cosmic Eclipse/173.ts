@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Zangoose",
-		fr: "Mangriff",
-		es: "Zangoose",
-		it: "Zangoose",
-		pt: "Zangoose",
-		de: "Sengo"
+		'en-us': "Zangoose",
+		'fr-fr': "Mangriff",
+		'es-es': "Zangoose",
+		'it-it': "Zangoose",
+		'pt-br': "Zangoose",
+		'de-de': "Sengo"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Corkscrew Punch",
-				fr: "Poing Tire-Bouchon",
-				es: "Puño Tirabuzón",
-				it: "Pugno Rotante",
-				pt: "Soco Saca-rolha",
-				de: "Korkenzieherhieb"
+				'en-us': "Corkscrew Punch",
+				'fr-fr': "Poing Tire-Bouchon",
+				'es-es': "Puño Tirabuzón",
+				'it-it': "Pugno Rotante",
+				'pt-br': "Soco Saca-rolha",
+				'de-de': "Korkenzieherhieb"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Brutal Edge",
-				fr: "Tranche Brutale",
-				es: "Filo Brutal",
-				it: "Fendente Spietato",
-				pt: "Gume Brutal",
-				de: "Brutalklinge"
+				'en-us': "Brutal Edge",
+				'fr-fr': "Tranche Brutale",
+				'es-es': "Filo Brutal",
+				'it-it': "Fendente Spietato",
+				'pt-br': "Gume Brutal",
+				'de-de': "Brutalklinge"
 			},
 			effect: {
-				en: "This attack does 10 more damage for each damage counter on your opponent’s Active Pokémon.",
-				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur le Pokémon Actif de votre adversaire.",
-				es: "Este ataque hace 10 puntos de daño más por cada contador de daño en el Pokémon Activo de tu rival.",
-				it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente sul Pokémon attivo del tuo avversario.",
-				pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano no Pokémon Ativo do seu oponente.",
-				de: "Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der Schadensmarken auf dem Aktiven Pokémon deines Gegners zu."
+				'en-us': "This attack does 10 more damage for each damage counter on your opponent’s Active Pokémon.",
+				'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur le Pokémon Actif de votre adversaire.",
+				'es-es': "Este ataque hace 10 puntos de daño más por cada contador de daño en el Pokémon Activo de tu rival.",
+				'it-it': "Questo attacco infligge 10 danni in più per ogni segnalino danno presente sul Pokémon attivo del tuo avversario.",
+				'pt-br': "Este ataque causa 10 pontos de dano a mais para cada contador de dano no Pokémon Ativo do seu oponente.",
+				'de-de': "Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der Schadensmarken auf dem Aktiven Pokémon deines Gegners zu."
 			},
 			damage: "20+",
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has feuded with Seviper for many generations. Its sharp claws are its biggest weapons.",
+		'en-us': "It has feuded with Seviper for many generations. Its sharp claws are its biggest weapons.",
 	},
 
 	thirdParty: {

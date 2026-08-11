@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit 2 (Plusle)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Plusle",
-		fr: "Posipi"
+		'en-us': "Plusle",
+		'fr-fr': "Posipi"
 	},
 
 	illustrator: "Katsura Tabata",
@@ -25,12 +25,12 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Pickup Power",
-			fr: "Pouvoir ramassage"
+			'en-us': "Pickup Power",
+			'fr-fr': "Pouvoir ramassage"
 		},
 		effect: {
-			en: "Search your discard pile for an Energy card, show it to your opponent, and put it into your hand.",
-			fr: "Choisissez une carte Énergie dans votre pile de défausse, montrez-la à votre adversaire et placez-la dans votre main."
+			'en-us': "Search your discard pile for an Energy card, show it to your opponent, and put it into your hand.",
+			'fr-fr': "Choisissez une carte Énergie dans votre pile de défausse, montrez-la à votre adversaire et placez-la dans votre main."
 		}
 	}, {
 		cost: [
@@ -38,12 +38,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Rear Spark",
-			fr: "Étincelle arrière"
+			'en-us': "Rear Spark",
+			'fr-fr': "Étincelle arrière"
 		},
 		effect: {
-			en: "Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+			'en-us': "Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
 		},
 		damage: 10
 	}],

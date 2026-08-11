@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [510],
 
 	name: {
-		en: "Liepard",
-		fr: "Léopardus",
-		es: "Liepard",
-		it: "Liepard",
-		pt: "Liepard",
-		de: "Kleoparda"
+		'en-us': "Liepard",
+		'fr-fr': "Léopardus",
+		'es-es': "Liepard",
+		'it-it': "Liepard",
+		'pt-br': "Liepard",
+		'de-de': "Kleoparda"
 	},
 
 	illustrator: "Hasuno",
@@ -24,32 +24,32 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Purrloin",
-		fr: "Chacripan",
-		es: "Purrloin",
-		it: "Purrloin",
-		pt: "Purrloin",
-		de: "Felilou"
+		'en-us': "Purrloin",
+		'fr-fr': "Chacripan",
+		'es-es': "Purrloin",
+		'it-it': "Purrloin",
+		'pt-br': "Purrloin",
+		'de-de': "Felilou"
 	},
 
 	abilities: [
 		{
 			type: "Ability",
 			name: {
-				en: "Limber",
-				fr: "Échauffement",
-				es: "Flexibilidad",
-				it: "Scioltezza",
-				pt: "Elasticidade",
-				de: "Flexibilität"
+				'en-us': "Limber",
+				'fr-fr': "Échauffement",
+				'es-es': "Flexibilidad",
+				'it-it': "Scioltezza",
+				'pt-br': "Elasticidade",
+				'de-de': "Flexibilität"
 			},
 			effect: {
-				en: "This Pokémon can't be Paralyzed.",
-				fr: "Ce Pokémon ne peut pas être Paralysé.",
-				es: "Este Pokémon no puede pasar a estar Paralizado.",
-				it: "Questo Pokémon non può venire paralizzato.",
-				pt: "Este Pokémon não pode ser Paralisado.",
-				de: "Dieses Pokémon kann nicht paralysiert werden."
+				'en-us': "This Pokémon can't be Paralyzed.",
+				'fr-fr': "Ce Pokémon ne peut pas être Paralysé.",
+				'es-es': "Este Pokémon no puede pasar a estar Paralizado.",
+				'it-it': "Questo Pokémon non può venire paralizzato.",
+				'pt-br': "Este Pokémon não pode ser Paralisado.",
+				'de-de': "Dieses Pokémon kann nicht paralysiert werden."
 			},
 		},
 	],
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slashing Claw",
-				fr: "Griffe Taillante",
-				es: "Garra Cuchillazo",
-				it: "Artigli Laceranti",
-				pt: "Garra Cortadora",
-				de: "Schlitzende Klaue"
+				'en-us': "Slashing Claw",
+				'fr-fr': "Griffe Taillante",
+				'es-es': "Garra Cuchillazo",
+				'it-it': "Artigli Laceranti",
+				'pt-br': "Garra Cortadora",
+				'de-de': "Schlitzende Klaue"
 			},
 
 			damage: 90,
@@ -89,7 +89,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Don't be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon."
+		'en-us': "Don't be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon."
 	},
 
 	variants: [

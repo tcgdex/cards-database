@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コイキング&ホエルオーGX",
+		'ja-jp': "コイキング&ホエルオーGX",
 	},
 
 	illustrator: "",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Water"],
 			effect: {
-				ja: "追加で[水]エネルギーが7個ついているなら、相手のベンチポケモン全員にも、それぞれ100ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "追加で[水]エネルギーが7個ついているなら、相手のベンチポケモン全員にも、それぞれ100ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

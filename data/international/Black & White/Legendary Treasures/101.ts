@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "White Kyurem-EX",
+		'en-us': "White Kyurem-EX",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Stream",
+				'en-us': "Dragon Stream",
 			},
 			effect: {
-				en: "Flip a coin. If heads, attach a basic Energy card from your discard pile to this Pokémon.",
+				'en-us': "Flip a coin. If heads, attach a basic Energy card from your discard pile to this Pokémon.",
 			},
 			damage: 60,
 
@@ -47,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Burn",
+				'en-us': "Ice Burn",
 			},
 			effect: {
-				en: "Discard 2 Fire Energy attached to this Pokémon. The Defending Pokémon is now Burned.",
+				'en-us': "Discard 2 Fire Energy attached to this Pokémon. The Defending Pokémon is now Burned.",
 			},
 			damage: 150,
 

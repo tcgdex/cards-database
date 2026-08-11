@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Double Full Heal",
-		fr: "Double guérison totale",
-		de: "Doppel Hyperheiler"
+		'en-us': "Double Full Heal",
+		'fr-fr': "Double guérison totale",
+		'de-de': "Doppel Hyperheiler"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -15,9 +15,9 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		en: "Remove all Special Conditions from each of your Active Pokémon.",
-		fr: "Retirez à chacun de vos Pokémon Actifs tous leurs États Spéciaux.",
-		de: "Remove all Special Conditions from each of your Pokémon."
+		'en-us': "Remove all Special Conditions from each of your Active Pokémon.",
+		'fr-fr': "Retirez à chacun de vos Pokémon Actifs tous leurs États Spéciaux.",
+		'de-de': "Remove all Special Conditions from each of your Pokémon."
 	},
 
 	thirdParty: {

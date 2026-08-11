@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダメージポンプ",
+		'ja-jp': "ダメージポンプ",
 		'zh-tw': "傷害水泵",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の場のポケモン1匹にのっているダメカンを2個まで選び、自分の別のポケモンに好きなようにのせ替える。",
+		'ja-jp': "自分の場のポケモン1匹にのっているダメカンを2個まで選び、自分の別のポケモンに好きなようにのせ替える。",
 		'zh-tw': "選擇最多2個自己的1隻場上寶可夢身上放置的傷害指示物，以任意方式改放於自己的其他寶可夢身上。",
 	},
 

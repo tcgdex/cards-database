@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Marshtomp",
-		fr: "Flobio",
-		de: "Moorabbel"
+		'en-us': "Marshtomp",
+		'fr-fr': "Flobio",
+		'de-de': "Moorabbel"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Mudkip",
-		fr: "Gobou"
+		'en-us': "Mudkip",
+		'fr-fr': "Gobou"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Natural Cure",
-				fr: "Remède naturel",
-				de: "Innere Kraft"
+				'en-us': "Natural Cure",
+				'fr-fr': "Remède naturel",
+				'de-de': "Innere Kraft"
 			},
 			effect: {
-				en: "When you attach a Water Energy card from your hand to Marshtomp, remove all Special Conditions from Marshtomp.",
-				fr: "Lorsque vous attachez une carte Énergie  de votre main à Flobio, retirez-lui tous ses États Spéciaux.",
-				de: "Wenn du eine -Energiekarte an Moorabbel anlegst, verlieren alle Speziellen Zustände auf Moorabbel ihre Wirkung."
+				'en-us': "When you attach a Water Energy card from your hand to Marshtomp, remove all Special Conditions from Marshtomp.",
+				'fr-fr': "Lorsque vous attachez une carte Énergie  de votre main à Flobio, retirez-lui tous ses États Spéciaux.",
+				'de-de': "Wenn du eine -Energiekarte an Moorabbel anlegst, verlieren alle Speziellen Zustände auf Moorabbel ihre Wirkung."
 			}
 		},
 	],
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aqua Sonic",
-				fr: "Aquasonique",
-				de: "Aquaschall"
+				'en-us': "Aqua Sonic",
+				'fr-fr': "Aquasonique",
+				'de-de': "Aquaschall"
 			},
 			effect: {
-				en: "This attack's damage is not affected by Resistance.",
-				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance.",
-				de: "Der Schaden dieses Angriffs wird durch die Resistenz des Verteidigenden Pokémon nicht verringert."
+				'en-us': "This attack's damage is not affected by Resistance.",
+				'fr-fr': "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance.",
+				'de-de': "Der Schaden dieses Angriffs wird durch die Resistenz des Verteidigenden Pokémon nicht verringert."
 			},
 			damage: 20,
 

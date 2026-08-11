@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Scizor",
+		'ja-jp': "Scizor",
 	},
 
 	rarity: "Holo Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Metal"],
 			name: {
-				ja: "誤ったスワイプ",
+				'ja-jp': "誤ったスワイプ",
 			},
 			effect: {
-				ja: "ダメージは、防御ポケモンの残りのHPの半分に等しい（最も近い10に丸められています）。",
+				'ja-jp': "ダメージは、防御ポケモンの残りのHPの半分に等しい（最も近い10に丸められています）。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "二重爪",
+				'ja-jp': "二重爪",
 			},
 			effect: {
-				ja: "2つのコインをフリップします。この攻撃は20のダメージに加えて、各ヘッドに対して20のダメージをさらに発生させます。",
+				'ja-jp': "2つのコインをフリップします。この攻撃は20のダメージに加えて、各ヘッドに対して20のダメージをさらに発生させます。",
 			},
 		},
 	],

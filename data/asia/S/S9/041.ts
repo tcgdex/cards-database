@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "皮皮",
-		ja: "ピッピ"
+		'ja-jp': "ピッピ"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "據說如果在滿月的夜晚看見皮皮們聚在一起跳舞， 就能得到幸福。",
-		ja: "満月の夜 ピッピが 集まって ダンスを 踊るようすを 見ると しあわせに なれると 言われている。"
+		'ja-jp': "満月の夜 ピッピが 集まって ダンスを 踊るようすを 見ると しあわせに なれると 言われている。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "拍擊",
-			ja: "はたく"
+			'ja-jp': "はたく"
 		},
 
 		damage: 10,
@@ -32,7 +32,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "魔法射擊",
-			ja: "マジカルショット"
+			'ja-jp': "マジカルショット"
 		},
 
 		damage: 30,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [772],
 
 	name: {
-		en: "Type: Null"
+		'en-us': "Type: Null"
 	},
 
 	illustrator: "Taiga Kasai",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "A Pokémon weapon developed for a specific\nmission, it went berserk during an experiment,\nso it was cryogenically frozen."
+		'en-us': "A Pokémon weapon developed for a specific\nmission, it went berserk during an experiment,\nso it was cryogenically frozen."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Quick Blow"
+			'en-us': "Quick Blow"
 		},
 
 		damage: 20,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 20 more damage."
+			'en-us': "Flip a coin. If heads, this attack does 20 more damage."
 		}
 	}],
 

@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "シビシラス",
+		'ja-jp': "シビシラス",
 		'zh-tw': "麻麻小魚",
-		th: "ชิบิชิราซึ"
+		'th-th': "ชิบิชิราซึ"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -18,9 +18,9 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "１匹の 電力は 小さいが たくさんの シビシラスが つながると 雷と 同じ 威力になる。",
+		'ja-jp': "１匹の 電力は 小さいが たくさんの シビシラスが つながると 雷と 同じ 威力になる。",
 		'zh-tw': "１隻的電力雖小，但只要多隻麻麻小魚聚集在一起，威力便可媲美雷電。",
-		th: "พลังไฟฟ้าต่อ 1 ตัวมีไม่มากนัก แต่ถ้าชิบิชิราซึหลาย ๆ ตัวรวมพลังกัน พลังไฟฟ้าจะรุนแรงเทียบเท่าฟ้าผ่าเลย"
+		'th-th': "พลังไฟฟ้าต่อ 1 ตัวมีไม่มากนัก แต่ถ้าชิบิชิราซึหลาย ๆ ตัวรวมพลังกัน พลังไฟฟ้าจะรุนแรงเทียบเท่าฟ้าผ่าเลย"
 	},
 
 	stage: "Basic",
@@ -29,9 +29,9 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			ja: "バチバチ",
+			'ja-jp': "バチバチ",
 			'zh-tw': "劈哩啪啦",
-			th: "ประกายไฟ"
+			'th-th': "ประกายไฟ"
 		},
 
 		damage: 10
@@ -39,9 +39,9 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			ja: "プチボルト",
+			'ja-jp': "プチボルト",
 			'zh-tw': "小伏特",
-			th: "โวลต์ต่ำ"
+			'th-th': "โวลต์ต่ำ"
 		},
 
 		damage: 30

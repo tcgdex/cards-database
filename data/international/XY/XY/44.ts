@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Voltorb",
-		fr: "Voltorbe",
-		es: "Voltorb",
-		it: "Voltorb",
-		pt: "Voltorb",
-		de: "Voltobal"
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe",
+		'es-es': "Voltorb",
+		'it-it': "Voltorb",
+		'pt-br': "Voltorb",
+		'de-de': "Voltobal"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Destiny Burst",
-				fr: "Explo-Destin",
-				es: "Explosión Destino",
-				it: "Destinappagato",
-				pt: "Rajada do Destino",
-				de: "Schicksalssalve"
+				'en-us': "Destiny Burst",
+				'fr-fr': "Explo-Destin",
+				'es-es': "Explosión Destino",
+				'it-it': "Destinappagato",
+				'pt-br': "Rajada do Destino",
+				'de-de': "Schicksalssalve"
 			},
 			effect: {
-				en: "If this Pokémon is your Active Pokémon and is Knocked Out by damage from an opponent's attack, flip a coin. If heads, put 5 damage counters on the Attacking Pokémon.",
-				fr: "Si ce Pokémon est votre Pokémon Actif et qu'il est mis K.O. par les dégâts d'une attaque de votre adversaire, lancez une pièce. Si c'est face, placez 5 marqueurs de dégâts sur le Pokémon Attaquant.",
-				es: "Si este Pokémon es tu Pokémon Activo y queda Fuera de Combate por un ataque de tu rival, lanza 1 moneda. Si sala cara, pon 5 contadores de daño en el Pokémon Atacante.",
-				it: "Se questo Pokémon è il tuo Pokémon attivo e viene messo KO dai danni inflitti da un attacco del tuo avversario, lancia una moneta. Se esce testa, metti cinque segnalini danno sul Pokémon attaccante.",
-				pt: "Se este Pokémon for seu Pokémon Ativo e ele for Nocauteado por danos de um ataque do oponente, jogue uma moeda. Se sair cara, coloque 5 contadores de danos no Pokémon Atacante.",
-				de: "Wenn dieses Pokémon dein Aktives Pokémon ist und durch Schaden eines gegnerischen Angriffs kampfunfähig wird, wirf 1 Münze. Lege bei \"Kopf\" 5 Schadensmarken auf das Angreifende Pokémon."
+				'en-us': "If this Pokémon is your Active Pokémon and is Knocked Out by damage from an opponent's attack, flip a coin. If heads, put 5 damage counters on the Attacking Pokémon.",
+				'fr-fr': "Si ce Pokémon est votre Pokémon Actif et qu'il est mis K.O. par les dégâts d'une attaque de votre adversaire, lancez une pièce. Si c'est face, placez 5 marqueurs de dégâts sur le Pokémon Attaquant.",
+				'es-es': "Si este Pokémon es tu Pokémon Activo y queda Fuera de Combate por un ataque de tu rival, lanza 1 moneda. Si sala cara, pon 5 contadores de daño en el Pokémon Atacante.",
+				'it-it': "Se questo Pokémon è il tuo Pokémon attivo e viene messo KO dai danni inflitti da un attacco del tuo avversario, lancia una moneta. Se esce testa, metti cinque segnalini danno sul Pokémon attaccante.",
+				'pt-br': "Se este Pokémon for seu Pokémon Ativo e ele for Nocauteado por danos de um ataque do oponente, jogue uma moeda. Se sair cara, coloque 5 contadores de danos no Pokémon Atacante.",
+				'de-de': "Wenn dieses Pokémon dein Aktives Pokémon ist und durch Schaden eines gegnerischen Angriffs kampfunfähig wird, wirf 1 Münze. Lege bei \"Kopf\" 5 Schadensmarken auf das Angreifende Pokémon."
 			},
 		},
 	],
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				es: "Desenrollar",
-				it: "Rotolamento",
-				pt: "Rolagem",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'es-es': "Desenrollar",
+				'it-it': "Rotolamento",
+				'pt-br': "Rolagem",
+				'de-de': "Walzer"
 			},
 
 			damage: 10,
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It was discovered when Poké Balls were introduced. It is said that there is some connection.",
+		'en-us': "It was discovered when Poké Balls were introduced. It is said that there is some connection.",
 	},
 
 	thirdParty: {

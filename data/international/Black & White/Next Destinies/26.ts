@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Lapras",
-		fr: "Lokhlass",
-		es: "Lapras",
-		it: "Lapras",
-		pt: "Lapras",
-		de: "Lapras"
+		'en-us': "Lapras",
+		'fr-fr': "Lokhlass",
+		'es-es': "Lapras",
+		'it-it': "Lapras",
+		'pt-br': "Lapras",
+		'de-de': "Lapras"
 	},
 
 	illustrator: "Mizue",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Arrow",
-				fr: "Flèche d'Eau",
+				'en-us': "Water Arrow",
+				'fr-fr': "Flèche d'Eau",
 			},
 			effect: {
-				en: "This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 20 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "This attack does 20 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 20 dégâts à 1 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},
@@ -51,8 +51,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
+				'en-us': "Surf",
+				'fr-fr': "Surf",
 			},
 
 			damage: 60,
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It loves crossing the sea with people and Pokémon on its back. It understands human speech.",
+		'en-us': "It loves crossing the sea with people and Pokémon on its back. It understands human speech.",
 	},
 
 	thirdParty: {

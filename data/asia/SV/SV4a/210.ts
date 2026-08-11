@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヒトカゲ",
+		'ja-jp': "ヒトカゲ",
 		'zh-tw': "小火龍",
-		id: "Charmander"
+		'id-id': "Charmander"
 	},
 
 	illustrator: "sowsow",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "生まれたときから しっぽに 炎が ともっている。 炎が 消えたとき その 命は 終わって しまう。",
+		'ja-jp': "生まれたときから しっぽに 炎が ともっている。 炎が 消えたとき その 命は 終わって しまう。",
 		'zh-tw': "從出生時開始尾巴上就有火焰在燃燒。 火焰熄滅時，生命也會結束。",
-		id: "Sejak lahir, api menyala di ekor Charmander. Hidupnya akan berakhir saat api tersebut padam."
+		'id-id': "Sejak lahir, api menyala di ekor Charmander. Hidupnya akan berakhir saat api tersebut padam."
 	},
 
 	stage: "Basic",
@@ -28,23 +28,23 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			ja: "まるやけ",
+			'ja-jp': "まるやけ",
 			'zh-tw': "全部燒光",
-			id: "Bakar Bulat-bulat"
+			'id-id': "Bakar Bulat-bulat"
 		},
 
 		effect: {
-			ja: "場に出ているスタジアムをトラッシュする。",
+			'ja-jp': "場に出ているスタジアムをトラッシュする。",
 			'zh-tw': "將場上的競技場卡丟棄。",
-			id: "Buang Stadium yang ada di Arena ke Trash."
+			'id-id': "Buang Stadium yang ada di Arena ke Trash."
 		}
 	}, {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			ja: "ひをはく",
+			'ja-jp': "ひをはく",
 			'zh-tw': "吐火",
-			id: "Memuntahkan Api"
+			'id-id': "Memuntahkan Api"
 		},
 
 		damage: 30

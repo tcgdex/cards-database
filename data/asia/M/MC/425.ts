@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コライドンex",
+		'ja-jp': "コライドンex",
 	},
 
 	illustrator: "aky CG Works",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、120ダメージ追加。",
+				'ja-jp': "前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、120ダメージ追加。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「インパクトブロー」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「インパクトブロー」が使えない。",
 			},
 		},
 	],

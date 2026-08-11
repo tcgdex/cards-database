@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [608],
 
 	name: {
-		en: "Lampent"
+		'en-us': "Lampent"
 	},
 
 	illustrator: "MAHOU",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Litwick"
+		'en-us': "Litwick"
 	},
 
 	description: {
-		en: "The spirits it absorbs fuel its baleful fire. It hangs\naround hospitals waiting for people to pass on."
+		'en-us': "The spirits it absorbs fuel its baleful fire. It hangs\naround hospitals waiting for people to pass on."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Petty Grudge"
+			'en-us': "Petty Grudge"
 		},
 
 		damage: 30,

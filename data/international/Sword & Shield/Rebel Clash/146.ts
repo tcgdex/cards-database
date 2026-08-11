@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [659],
 
 	name: {
-		en: "Bunnelby",
-		fr: "Sapereau",
-		es: "Bunnelby",
-		it: "Bunnelby",
-		pt: "Bunnelby",
-		de: "Scoppel"
+		'en-us': "Bunnelby",
+		'fr-fr': "Sapereau",
+		'es-es': "Bunnelby",
+		'it-it': "Bunnelby",
+		'pt-br': "Bunnelby",
+		'de-de': "Scoppel"
 	},
 
 	illustrator: "Yuka Morii",
@@ -24,20 +24,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Burrow",
-				fr: "Terrier",
-				es: "Escarbar",
-				it: "Buca",
-				pt: "Toca",
-				de: "Verbuddeln"
+				'en-us': "Burrow",
+				'fr-fr': "Terrier",
+				'es-es': "Escarbar",
+				'it-it': "Buca",
+				'pt-br': "Toca",
+				'de-de': "Verbuddeln"
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-				es: "Descarta la primera carta de la baraja de tu rival.",
-				it: "Scarta la prima carta del mazzo del tuo avversario.",
-				pt: "Descarte a carta de cima do baralho do seu oponente.",
-				de: "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard the top card of your opponent's deck.",
+				'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+				'es-es': "Descarta la primera carta de la baraja de tu rival.",
+				'it-it': "Scarta la prima carta del mazzo del tuo avversario.",
+				'pt-br': "Descarte a carta de cima do baralho do seu oponente.",
+				'de-de': "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt Bounce",
-				fr: "Culbute Surprise",
-				es: "Bote Cabezazo",
-				it: "Rimbalzo Bottintesta",
-				pt: "Cabeçada Ricochete",
-				de: "Abrupter Kopfstoß"
+				'en-us': "Headbutt Bounce",
+				'fr-fr': "Culbute Surprise",
+				'es-es': "Bote Cabezazo",
+				'it-it': "Rimbalzo Bottintesta",
+				'pt-br': "Cabeçada Ricochete",
+				'de-de': "Abrupter Kopfstoß"
 			},
 
 			damage: 50,
@@ -77,7 +77,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It excels at digging holes. Using its ears, it can dig a nest 33 feet deep in one night."
+		'en-us': "It excels at digging holes. Using its ears, it can dig a nest 33 feet deep in one night."
 	},
 
 	variants: [

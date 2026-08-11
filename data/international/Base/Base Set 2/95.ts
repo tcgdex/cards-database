@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Staryu",
+		'en-us': "Staryu",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Slap",
+				'en-us': "Slap",
 			},
 
 			damage: 20,
@@ -47,7 +47,7 @@ const card: Card = {
 
 
 	description: {
-		en: "An enigmatic Pokémon that can effortlessly regenerate any appendage it loses in battle.",
+		'en-us': "An enigmatic Pokémon that can effortlessly regenerate any appendage it loses in battle.",
 	},
 
 

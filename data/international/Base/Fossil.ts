@@ -1,17 +1,17 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Base'
 
 const base3: Set = {
 	id: "base3",
 
 	name: {
-		en: "Fossil",
-		fr: "Fossile",
-		es: "Fósil",
-		it: "Fossil",
-		de: "Fossil",
-		pt: "Fóssil",
-		nl: "Fossiel"
+		'en-us': "Fossil",
+		'fr-fr': "Fossile",
+		'es-es': "Fósil",
+		'it-it': "Fossil",
+		'de-de': "Fossil",
+		'pt-br': "Fóssil",
+		'nl-nl': "Fossiel"
 	},
 
 	serie: serie,
@@ -25,7 +25,7 @@ const base3: Set = {
 
 	abbreviations: {
 		official: "FO",
-		fr: "FOS"
+		'fr-fr': "FOS"
 	},
 
 	thirdParty: {

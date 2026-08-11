@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クロバット",
+		'ja-jp': "クロバット",
 	},
 
 	illustrator: "DemizuPosuka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "両足も 羽になった 結果 地上での 動きは 苦手。 はいずりまわることしか できない。",
+		'ja-jp': "両足も 羽になった 結果 地上での 動きは 苦手。 はいずりまわることしか できない。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "さんばいどく" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は3個になる。",
+				'ja-jp': "相手のバトルポケモンをどくにする。このどくでのせるダメカンの数は3個になる。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "この番、このポケモンがベンチからバトル場に出ていたなら、60ダメージ追加。",
+				'ja-jp': "この番、このポケモンがベンチからバトル場に出ていたなら、60ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴルバット",
+		'ja-jp': "ゴルバット",
 	},
 
 	retreat: 0,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シャンデラ",
+		'ja-jp': "シャンデラ",
 	},
 
 	illustrator: "kirisAki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "シャンデラの 炎に 包まれると 魂が 吸い取られ 燃やされる。 抜け殻の 体 だけが 残る。",
+		'ja-jp': "シャンデラの 炎に 包まれると 魂が 吸い取られ 燃やされる。 抜け殻の 体 だけが 残る。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Fire"],
 			effect: {
-				ja: "自分の山札を上から5枚トラッシュし、その中のポケモンの枚数×60ダメージ追加。その後、トラッシュされた[炎]ポケモンを、好きなだけベンチに出す。",
+				'ja-jp': "自分の山札を上から5枚トラッシュし、その中のポケモンの枚数×60ダメージ追加。その後、トラッシュされた[炎]ポケモンを、好きなだけベンチに出す。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ランプラー",
+		'ja-jp': "ランプラー",
 	},
 
 	retreat: 2,

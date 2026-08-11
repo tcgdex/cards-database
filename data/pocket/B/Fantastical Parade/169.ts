@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [876],
 
 	name: {
-		en: "Indeedee"
+		'en-us': "Indeedee"
 	},
 
 	illustrator: "saino misaki",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "This Pokémon never leaves its Trainer's side.\nIt predicts their actions with its psychic power\nand takes care of their day-to-day needs."
+		'en-us': "This Pokémon never leaves its Trainer's side.\nIt predicts their actions with its psychic power\nand takes care of their day-to-day needs."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Zen Shard"
+			'en-us': "Zen Shard"
 		},
 
 		cost: ["Psychic", "Psychic", "Psychic"],
 
 		effect: {
-			en: "This attack does 70 damage to 1 of your opponent's Benched Pokémon."
+			'en-us': "This attack does 70 damage to 1 of your opponent's Benched Pokémon."
 		}
 	}],
 

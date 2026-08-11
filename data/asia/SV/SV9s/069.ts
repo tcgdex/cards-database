@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ยันชัม",
-		id: "Pancham"
+		'th-th': "ยันชัม",
+		'id-id': "Pancham"
 	},
 
 	illustrator: "Yuriko Akase",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		th: "จ้องมองคู่ต่อสู้อยู่ตลอดเพื่อไม่ให้คู่ต่อสู้ดูหมิ่น แต่พอรู้สึกผ่อนคลายลง ก็จะยิ้มออกมา",
-		id: "Pancham selalu memelototi lawan agar tidak diremehkan, tetapi saat tidak fokus, tanpa sadar ekspresi wajahnya berubah menjadi tersenyum."
+		'th-th': "จ้องมองคู่ต่อสู้อยู่ตลอดเพื่อไม่ให้คู่ต่อสู้ดูหมิ่น แต่พอรู้สึกผ่อนคลายลง ก็จะยิ้มออกมา",
+		'id-id': "Pancham selalu memelototi lawan agar tidak diremehkan, tetapi saat tidak fokus, tanpa sadar ekspresi wajahnya berubah menjadi tersenyum."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ต่อยตี",
-			id: "Menohok"
+			'th-th': "ต่อยตี",
+			'id-id': "Menohok"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "ฮึดสู้",
-			id: "Tusukan Tenaga Dalam"
+			'th-th': "ฮึดสู้",
+			'id-id': "Tusukan Tenaga Dalam"
 		},
 
 		effect: {
-			th: "ทอยเหรียญ 1 ครั้งถ้าออกก้อย ท่าต่อสู้นี้จะล้มเหลว",
-			id: "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal."
+			'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกก้อย ท่าต่อสู้นี้จะล้มเหลว",
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal."
 		},
 
 		damage: 50,

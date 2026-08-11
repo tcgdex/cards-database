@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シキジカ",
+		'ja-jp': "シキジカ",
 	},
 
 	illustrator: "Shibuzoh.",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "季節が 変わったとき だけでなく 気温や 湿度に よっても 体の色は 少し 変化する。",
+		'ja-jp': "季節が 変わったとき だけでなく 気温や 湿度に よっても 体の色は 少し 変化する。",
 	},
 
 	stage: "Basic",

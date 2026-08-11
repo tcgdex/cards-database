@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "シキジカ",
+		'ja-jp': "シキジカ",
 	},
 
 	illustrator: "Narano",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "体毛が 野山の 草と 同じ 色と 香りに 変わる。 敵意を 感じると 草むらに 隠れる。",
+		'ja-jp': "体毛が 野山の 草と 同じ 色と 香りに 変わる。 敵意を 感じると 草むらに 隠れる。",
 	},
 
 	stage: "Basic",

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Nidoking",
-		en: "Nidoking",
-		es: "Nidoking",
-		it: "Nidoking",
-		pt: "Nidoking",
-		de: "Nidoking"
+		'fr-fr': "Nidoking",
+		'en-us': "Nidoking",
+		'es-es': "Nidoking",
+		'it-it': "Nidoking",
+		'pt-br': "Nidoking",
+		'de-de': "Nidoking"
 	},
 
 	rarity: "Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 170,
 	types: ["Darkness"],
 	evolveFrom: {
-		fr: "Nidorino",
-		en: "Nidorino",
-		es: "Nidorino",
-		it: "Nidorino",
-		pt: "Nidorino",
-		de: "Nidorino"
+		'fr-fr': "Nidorino",
+		'en-us': "Nidorino",
+		'es-es': "Nidorino",
+		'it-it': "Nidorino",
+		'pt-br': "Nidorino",
+		'de-de': "Nidorino"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			fr: "Roi Enthousiaste",
-			en: "Enthusiastic King",
-			es: "Rey Entusiasta",
-			it: "Entusiasmo del Re",
-			pt: "Rei Empolgado",
-			de: "Enthusiastischer König"
+			'fr-fr': "Roi Enthousiaste",
+			'en-us': "Enthusiastic King",
+			'es-es': "Rey Entusiasta",
+			'it-it': "Entusiasmo del Re",
+			'pt-br': "Rei Empolgado",
+			'de-de': "Enthusiastischer König"
 		},
 
 		effect: {
-			fr: "Si vous avez Nidoqueen en jeu, ignorez toutes les Énergies dans le coût des attaques utilisées par ce Pokémon.",
-			en: "If you have Nidoqueen in play, ignore all Energy in the costs of attacks used by this Pokémon.",
-			es: "Si tienes a Nidoqueen en juego, ignora todas las Energías en el coste de los ataques usados por este Pokémon.",
-			it: "Se hai Nidoqueen in gioco, ignora tutte le Energie necessarie per gli attacchi usati da questo Pokémon.",
-			pt: "Se você tiver Nidoqueen em jogo, ignore todas as Energias nos custos dos ataques usados por este Pokémon.",
-			de: "Wenn du Nidoqueen im Spiel hast, ignoriere alle Energien in den Kosten der von diesem Pokémon eingesetzten Attacken."
+			'fr-fr': "Si vous avez Nidoqueen en jeu, ignorez toutes les Énergies dans le coût des attaques utilisées par ce Pokémon.",
+			'en-us': "If you have Nidoqueen in play, ignore all Energy in the costs of attacks used by this Pokémon.",
+			'es-es': "Si tienes a Nidoqueen en juego, ignora todas las Energías en el coste de los ataques usados por este Pokémon.",
+			'it-it': "Se hai Nidoqueen in gioco, ignora tutte le Energie necessarie per gli attacchi usati da questo Pokémon.",
+			'pt-br': "Se você tiver Nidoqueen em jogo, ignore todas as Energias nos custos dos ataques usados por este Pokémon.",
+			'de-de': "Wenn du Nidoqueen im Spiel hast, ignoriere alle Energien in den Kosten der von diesem Pokémon eingesetzten Attacken."
 		}
 	}],
 
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Impact Venimeux",
-			en: "Venomous Impact",
-			es: "Impacto Envenenado",
-			it: "Velenoimpatto",
-			pt: "Impacto Peçonhento",
-			de: "Giftiger Einschlag"
+			'fr-fr': "Impact Venimeux",
+			'en-us': "Venomous Impact",
+			'es-es': "Impacto Envenenado",
+			'it-it': "Velenoimpatto",
+			'pt-br': "Impacto Peçonhento",
+			'de-de': "Giftiger Einschlag"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		},
 
 		damage: 190
@@ -84,7 +84,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Nidoking prides itself on its strength. It's forceful and spirited in battle, making use of its thick tail and diamond-crushing horn.",
+		'en-us': "Nidoking prides itself on its strength. It's forceful and spirited in battle, making use of its thick tail and diamond-crushing horn.",
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Haunter",
-		fr: "Spectrum",
-		es: "Haunter",
-		it: "Haunter",
-		pt: "Haunter",
-		de: "Alpollo"
+		'en-us': "Haunter",
+		'fr-fr': "Spectrum",
+		'es-es': "Haunter",
+		'it-it': "Haunter",
+		'pt-br': "Haunter",
+		'de-de': "Alpollo"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -21,22 +21,22 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Gastly",
-		fr: "Fantominus",
-		es: "Gastly",
-		it: "Gastly",
-		pt: "Gastly",
-		de: "Nebulak"
+		'en-us': "Gastly",
+		'fr-fr': "Fantominus",
+		'es-es': "Gastly",
+		'it-it': "Gastly",
+		'pt-br': "Gastly",
+		'de-de': "Nebulak"
 	},
 
 	attacks: [{
 		name: {
-			en: "Will-O-Wisp",
-			fr: "Feu Follet",
-			es: "Fuego Fatuo",
-			it: "Fuocofatuo",
-			pt: "Fogo Fátuo",
-			de: "Irrlicht"
+			'en-us': "Will-O-Wisp",
+			'fr-fr': "Feu Follet",
+			'es-es': "Fuego Fatuo",
+			'it-it': "Fuocofatuo",
+			'pt-br': "Fogo Fátuo",
+			'de-de': "Irrlicht"
 		},
 
 		damage: 30,
@@ -60,7 +60,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "If you get the feeling of being watched in darkness when nobody is around, Haunter is there."
+		'en-us': "If you get the feeling of being watched in darkness when nobody is around, Haunter is there."
 	},
 
 	variants: [

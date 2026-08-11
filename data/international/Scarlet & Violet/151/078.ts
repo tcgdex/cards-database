@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Galopa",
-		en: "Rapidash",
-		es: "Rapidash",
-		it: "Rapidash",
-		pt: "Rapidash",
-		de: "Gallopa"
+		'fr-fr': "Galopa",
+		'en-us': "Rapidash",
+		'es-es': "Rapidash",
+		'it-it': "Rapidash",
+		'pt-br': "Rapidash",
+		'de-de': "Gallopa"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Fire"],
 	evolveFrom: {
-		fr: "Ponyta",
-		en: "Ponyta",
-		es: "Ponyta",
-		it: "Ponyta",
-		pt: "Ponyta",
-		de: "Ponita"
+		'fr-fr': "Ponyta",
+		'en-us': "Ponyta",
+		'es-es': "Ponyta",
+		'it-it': "Ponyta",
+		'pt-br': "Ponyta",
+		'de-de': "Ponita"
 	},
 	stage: "Stage1",
 
@@ -32,41 +32,41 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			fr: "Roussi",
-			en: "Singe",
-			es: "Quemadura",
-			it: "Scottata",
-			pt: "Chamuscada",
-			de: "Versengung"
+			'fr-fr': "Roussi",
+			'en-us': "Singe",
+			'es-es': "Quemadura",
+			'it-it': "Scottata",
+			'pt-br': "Chamuscada",
+			'de-de': "Versengung"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			en: "Your opponent's Active Pokémon is now Burned.",
-			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			'en-us': "Your opponent's Active Pokémon is now Burned.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 		}
 	}, {
 		cost: ["Fire", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Tour Supersonique",
-			en: "Mach Turn",
-			es: "Giro Mach",
-			it: "Girata Mach",
-			pt: "Retorno Supersônico",
-			de: "Tempowende"
+			'fr-fr': "Tour Supersonique",
+			'en-us': "Mach Turn",
+			'es-es': "Giro Mach",
+			'it-it': "Girata Mach",
+			'pt-br': "Retorno Supersônico",
+			'de-de': "Tempowende"
 		},
 
 		effect: {
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			es: "Cambia este Pokémon por uno de tus Pokémon en Banca.",
-			it: "Scambia questo Pokémon con uno della tua panchina.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+			'fr-fr': "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+			'es-es': "Cambia este Pokémon por uno de tus Pokémon en Banca.",
+			'it-it': "Scambia questo Pokémon con uno della tua panchina.",
+			'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+			'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 		},
 
 		damage: 90
@@ -82,7 +82,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "The fastest runner becomes the leader, and it decides the herd's pace and direction of travel.",
+		'en-us': "The fastest runner becomes the leader, and it decides the herd's pace and direction of travel.",
 	},
 
 	variants: [

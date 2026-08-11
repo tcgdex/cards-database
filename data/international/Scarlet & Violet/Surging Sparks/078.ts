@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Uxie",
-		fr: "Créhelf",
-		es: "Uxie",
-		it: "Uxie",
-		pt: "Uxie",
-		de: "Selfe"
+		'en-us': "Uxie",
+		'fr-fr': "Créhelf",
+		'es-es': "Uxie",
+		'it-it': "Uxie",
+		'pt-br': "Uxie",
+		'de-de': "Selfe"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Painful Memories",
-			fr: "Souvenirs Douloureux",
-			es: "Recuerdos Dolorosos",
-			it: "Brutti Ricordi",
-			pt: "Lembranças Dolorosas",
-			de: "Schmerzhafte Erinnerungen"
+			'en-us': "Painful Memories",
+			'fr-fr': "Souvenirs Douloureux",
+			'es-es': "Recuerdos Dolorosos",
+			'it-it': "Brutti Ricordi",
+			'pt-br': "Lembranças Dolorosas",
+			'de-de': "Schmerzhafte Erinnerungen"
 		},
 
 		effect: {
-			en: "Put 2 damage counters on each of your opponent's Pokémon.",
-			fr: "Placez 2 marqueurs de dégâts sur chacun des Pokémon de votre adversaire.",
-			es: "Pon 2 contadores de daño en cada uno de los Pokémon de tu rival.",
-			it: "Metti due segnalini danno su ciascuno dei Pokémon del tuo avversario.",
-			pt: "Coloque 2 contadores de dano em cada um dos Pokémon do seu oponente.",
-			de: "Lege 2 Schadensmarken auf jedes Pokémon deines Gegners."
+			'en-us': "Put 2 damage counters on each of your opponent's Pokémon.",
+			'fr-fr': "Placez 2 marqueurs de dégâts sur chacun des Pokémon de votre adversaire.",
+			'es-es': "Pon 2 contadores de daño en cada uno de los Pokémon de tu rival.",
+			'it-it': "Metti due segnalini danno su ciascuno dei Pokémon del tuo avversario.",
+			'pt-br': "Coloque 2 contadores de dano em cada um dos Pokémon do seu oponente.",
+			'de-de': "Lege 2 Schadensmarken auf jedes Pokémon deines Gegners."
 		}
 	}],
 

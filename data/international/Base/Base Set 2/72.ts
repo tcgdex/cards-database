@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Doduo",
+		'en-us': "Doduo",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Attack",
+				'en-us': "Fury Attack",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
 			},
 			damage: 10,
 
@@ -54,7 +54,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.",
+		'en-us': "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.",
 	},
 
 

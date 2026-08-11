@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Muk",
-		fr: "Grotadmorv",
-		es: "Muk",
-		it: "Muk",
-		pt: "Muk",
-		de: "Sleimok"
+		'en-us': "Muk",
+		'fr-fr': "Grotadmorv",
+		'es-es': "Muk",
+		'it-it': "Muk",
+		'pt-br': "Muk",
+		'de-de': "Sleimok"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Grimer",
-		fr: "Tadmorv",
+		'en-us': "Grimer",
+		'fr-fr': "Tadmorv",
 	},
 
 	stage: "Stage1",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Suction",
-				fr: "Succion Empoisonnée",
+				'en-us': "Poison Suction",
+				'fr-fr': "Succion Empoisonnée",
 			},
 			effect: {
-				en: "If the Defending Pokémon is Poisoned, heal 60 damage from this Pokémon.",
-				fr: "Si le Pokémon Défenseur est Empoisonné, soignez 60 dégâts à ce Pokémon.",
+				'en-us': "If the Defending Pokémon is Poisoned, heal 60 damage from this Pokémon.",
+				'fr-fr': "Si le Pokémon Défenseur est Empoisonné, soignez 60 dégâts à ce Pokémon.",
 			},
 			damage: 60,
 
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sludge Crash",
-				fr: "Flot de Vase",
+				'en-us': "Sludge Crash",
+				'fr-fr': "Flot de Vase",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. For each heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Pour chaque côté face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Flip a coin until you get tails. For each heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Pour chaque côté face, défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 80,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It's so stinky! Muk's body contains toxic elements, and any plant will wilt when it passes by.",
+		'en-us': "It's so stinky! Muk's body contains toxic elements, and any plant will wilt when it passes by.",
 	},
 
 	thirdParty: {

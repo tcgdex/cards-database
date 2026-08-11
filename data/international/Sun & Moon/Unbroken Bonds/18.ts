@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Grubbin",
-		fr: "Larvibule",
-		es: "Grubbin",
-		it: "Grubbin",
-		pt: "Grubbin",
-		de: "Mabula"
+		'en-us': "Grubbin",
+		'fr-fr': "Larvibule",
+		'es-es': "Grubbin",
+		'it-it': "Grubbin",
+		'pt-br': "Grubbin",
+		'de-de': "Mabula"
 	},
 
 	illustrator: "Yuka Morii",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electrical Signal",
-				fr: "Signal Électrique",
-				es: "Señal Eléctrica",
-				it: "Segnale Elettrico",
-				pt: "Sinal Elétrico",
-				de: "Elektrisches Signal"
+				'en-us': "Electrical Signal",
+				'fr-fr': "Signal Électrique",
+				'es-es': "Señal Eléctrica",
+				'it-it': "Segnale Elettrico",
+				'pt-br': "Sinal Elétrico",
+				'de-de': "Elektrisches Signal"
 			},
 			effect: {
-				en: "Search your deck for up to 2 Lightning Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
-				fr: "Cherchez jusqu’à 2 Pokémon Lightning dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja hasta 2 Pokémon Lightning, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
-				it: "Cerca nel tuo mazzo fino a due Pokémon Lightning, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure por até 2 Pokémon Lightning no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 2 Lightning-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				'en-us': "Search your deck for up to 2 Lightning Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+				'fr-fr': "Cherchez jusqu’à 2 Pokémon Lightning dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja hasta 2 Pokémon Lightning, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo fino a due Pokémon Lightning, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por até 2 Pokémon Lightning no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach bis zu 2 Lightning-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Corkscrew Punch",
-				fr: "Poing Tire-Bouchon",
-				es: "Puño Tirabuzón",
-				it: "Pugno Rotante",
-				pt: "Soco Saca-rolha",
-				de: "Korkenzieherhieb"
+				'en-us': "Corkscrew Punch",
+				'fr-fr': "Poing Tire-Bouchon",
+				'es-es': "Puño Tirabuzón",
+				'it-it': "Pugno Rotante",
+				'pt-br': "Soco Saca-rolha",
+				'de-de': "Korkenzieherhieb"
 			},
 
 			damage: 30,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "If you find its nest, you shouldn't stick your hand inside. You'll get bitten by an irritated Grubbin.",
+		'en-us': "If you find its nest, you shouldn't stick your hand inside. You'll get bitten by an irritated Grubbin.",
 	},
 
 	thirdParty: {

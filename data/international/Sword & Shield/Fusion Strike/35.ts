@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magcargo",
-		fr: "Volcaropod",
-		es: "Magcargo",
-		it: "Magcargo",
-		pt: "Magcargo",
-		de: "Magcargo"
+		'en-us': "Magcargo",
+		'fr-fr': "Volcaropod",
+		'es-es': "Magcargo",
+		'it-it': "Magcargo",
+		'pt-br': "Magcargo",
+		'de-de': "Magcargo"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Slugma",
-		fr: "Limagma",
-		es: "Slugma",
-		it: "Slugma",
-		pt: "Slugma",
-		de: "Schneckmag"
+		'en-us': "Slugma",
+		'fr-fr': "Limagma",
+		'es-es': "Slugma",
+		'it-it': "Slugma",
+		'pt-br': "Slugma",
+		'de-de': "Schneckmag"
 	},
 
 	stage: "Stage1",
@@ -40,19 +40,19 @@ const card: Card = {
 	illustrator: "Eri Yamaki",
 
 	description: {
-		en: "Its body is as hot as lava and is always billowing. Flames will occasionally burst from its shell."
+		'en-us': "Its body is as hot as lava and is always billowing. Flames will occasionally burst from its shell."
 	},
 
 	attacks: [{
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Rock Throw",
-			fr: "Jet-Pierres",
-			de: "Steinwurf",
-			es: "Lanzarrocas",
-			pt: "Lançamento de Rocha",
-			it: "Sassata"
+			'en-us': "Rock Throw",
+			'fr-fr': "Jet-Pierres",
+			'de-de': "Steinwurf",
+			'es-es': "Lanzarrocas",
+			'pt-br': "Lançamento de Rocha",
+			'it-it': "Sassata"
 		},
 
 		damage: 40
@@ -60,23 +60,23 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Body Splash",
-			fr: "Jet Corporel",
-			de: "Bauchklatscher",
-			es: "Salpicadura Corporal",
-			pt: "Borrifada Corporal",
-			it: "Corposplash"
+			'en-us': "Body Splash",
+			'fr-fr': "Jet Corporel",
+			'de-de': "Bauchklatscher",
+			'es-es': "Salpicadura Corporal",
+			'pt-br': "Borrifada Corporal",
+			'it-it': "Corposplash"
 		},
 
 		damage: 150,
 
 		effect: {
-			en: "Flip 3 coins. For each tails, discard an Energy from this Pokémon.",
-			fr: "Lancez 3 pièces. Pour chaque côté pile, défaussez une Énergie de ce Pokémon.",
-			de: "Wirf 3 Münzen. Lege pro Zahl 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
-			es: "Lanza 3 monedas. Por cada cruz, descarta 1 Energía de este Pokémon.",
-			pt: "Jogue 3 moedas. Para cada coroa, descarte 1 Energia deste Pokémon.",
-			it: "Lancia tre volte una moneta. Ogni volta che esce croce, scarta un'Energia da questo Pokémon."
+			'en-us': "Flip 3 coins. For each tails, discard an Energy from this Pokémon.",
+			'fr-fr': "Lancez 3 pièces. Pour chaque côté pile, défaussez une Énergie de ce Pokémon.",
+			'de-de': "Wirf 3 Münzen. Lege pro Zahl 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+			'es-es': "Lanza 3 monedas. Por cada cruz, descarta 1 Energía de este Pokémon.",
+			'pt-br': "Jogue 3 moedas. Para cada coroa, descarte 1 Energia deste Pokémon.",
+			'it-it': "Lancia tre volte una moneta. Ogni volta che esce croce, scarta un'Energia da questo Pokémon."
 		}
 	}],
 

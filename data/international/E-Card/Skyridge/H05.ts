@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Crobat",
-		de: "Iksbat"
+		'en-us': "Crobat",
+		'de-de': "Iksbat"
 	},
 
 	illustrator: "Kimiya Masago",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Golbat",
+		'en-us': "Golbat",
 	},
 
 	stage: "Stage2",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Carry Off",
-				de: "Wegtragen"
+				'en-us': "Carry Off",
+				'de-de': "Wegtragen"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may flip a coin. If heads, look at your opponent's hand. If your opponent has any Baby Pokémon, Basic Pokémon, or Evolution cards there, choose 1 of them. Your opponent shuffles that card into his or her deck. This power can't be used if Crobat is affected by a Special Condition.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Münze werfen. Schau dir bei 'Kopf' die Karten auf der Hand deines Gegners an. Falls dein Gegner ein Baby-Pokémon, ein Basis-Pokémon oder eine Entwicklungskarte auf der Hand hat, wähle eine davon. Dein Gegner mischt die Karte in sein Deck. Diese Fähigkeit kann nicht verwendet werden, falls Iksbat von einem speziellen ustand betroffen ist."
+				'en-us': "Once during your turn (before your attack), you may flip a coin. If heads, look at your opponent's hand. If your opponent has any Baby Pokémon, Basic Pokémon, or Evolution cards there, choose 1 of them. Your opponent shuffles that card into his or her deck. This power can't be used if Crobat is affected by a Special Condition.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Münze werfen. Schau dir bei 'Kopf' die Karten auf der Hand deines Gegners an. Falls dein Gegner ein Baby-Pokémon, ein Basis-Pokémon oder eine Entwicklungskarte auf der Hand hat, wähle eine davon. Dein Gegner mischt die Karte in sein Deck. Diese Fähigkeit kann nicht verwendet werden, falls Iksbat von einem speziellen ustand betroffen ist."
 			},
 		},
 	],
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Cross",
-				de: "Doppelspiel"
+				'en-us': "Double Cross",
+				'de-de': "Doppelspiel"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 40 damage times the number of heads. If both of them are tails, the Defending Pokémon is now Confused and Poisoned.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl 'Kopf' zu. Wenn beide 'Zahl' zeigen, ist das verteidigende Pokémon jetzt verwirrt und vergiftet."
+				'en-us': "Flip 2 coins. This attack does 40 damage times the number of heads. If both of them are tails, the Defending Pokémon is now Confused and Poisoned.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl 'Kopf' zu. Wenn beide 'Zahl' zeigen, ist das verteidigende Pokémon jetzt verwirrt und vergiftet."
 			},
 			damage: "40×",
 

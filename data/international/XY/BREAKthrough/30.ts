@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Starmie",
-		fr: "Staross",
-		es: "Starmie",
-		it: "Starmie",
-		pt: "Starmie",
-		de: "Starmie"
+		'en-us': "Starmie",
+		'fr-fr': "Staross",
+		'es-es': "Starmie",
+		'it-it': "Starmie",
+		'pt-br': "Starmie",
+		'de-de': "Starmie"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Staryu",
-		fr: "Stari",
-		es: "Staryu",
-		it: "Staryu",
-		pt: "Staryu",
-		de: "Sterndu"
+		'en-us': "Staryu",
+		'fr-fr': "Stari",
+		'es-es': "Staryu",
+		'it-it': "Staryu",
+		'pt-br': "Staryu",
+		'de-de': "Sterndu"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Deep Sea Swirl",
-				fr: "Remous Abyssal",
-				es: "Remolino de Alta Mar",
-				it: "Vortice Abissale",
-				pt: "Giro em Mar Profundo",
-				de: "Tiefseewirbel"
+				'en-us': "Deep Sea Swirl",
+				'fr-fr': "Remous Abyssal",
+				'es-es': "Remolino de Alta Mar",
+				'it-it': "Vortice Abissale",
+				'pt-br': "Giro em Mar Profundo",
+				'de-de': "Tiefseewirbel"
 			},
 			effect: {
-				en: "Shuffle your hand into your deck. Then, draw 7 cards.",
-				fr: "Mélangez votre main avec votre deck. Ensuite, piochez 7 cartes.",
-				es: "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 7 cartas.",
-				it: "Metti le carte che hai in mano nel tuo mazzo e rimischialo. Poi pesca sette carte.",
-				pt: "Embaralhe a mão no seu baralho. Em seguida, compre 7 cards.",
-				de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 7 Karten."
+				'en-us': "Shuffle your hand into your deck. Then, draw 7 cards.",
+				'fr-fr': "Mélangez votre main avec votre deck. Ensuite, piochez 7 cartes.",
+				'es-es': "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 7 cartas.",
+				'it-it': "Metti le carte che hai in mano nel tuo mazzo e rimischialo. Poi pesca sette carte.",
+				'pt-br': "Embaralhe a mão no seu baralho. Em seguida, compre 7 cards.",
+				'de-de': "Mische deine Handkarten in dein Deck. Ziehe anschließend 7 Karten."
 			},
 
 		},
@@ -66,20 +66,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Balance Bind",
-				fr: "Étreinte Équilibre",
-				es: "Sujeción Equilibrada",
-				it: "Equidestino",
-				pt: "Ligação de Equilíbrio",
-				de: "Gleichgewichtsfessel"
+				'en-us': "Balance Bind",
+				'fr-fr': "Étreinte Équilibre",
+				'es-es': "Sujeción Equilibrada",
+				'it-it': "Equidestino",
+				'pt-br': "Ligação de Equilíbrio",
+				'de-de': "Gleichgewichtsfessel"
 			},
 			effect: {
-				en: "If you and your opponent have the same number of Benched Pokémon, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Si votre adversaire et vous avez le même nombre de Pokémon de Banc, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Si tu rival y tú tenéis el mismo número de Pokémon en Banca, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Se hai lo stesso numero di Pokémon in panchina del tuo avversario, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Se você e o seu oponente tiverem o mesmo número de Pokémon no Banco, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wenn du und dein Gegner dieselbe Anzahl Pokémon auf der Bank haben, ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "If you and your opponent have the same number of Benched Pokémon, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Si votre adversaire et vous avez le même nombre de Pokémon de Banc, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Si tu rival y tú tenéis el mismo número de Pokémon en Banca, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Se hai lo stesso numero di Pokémon in panchina del tuo avversario, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Se você e o seu oponente tiverem o mesmo número de Pokémon no Banco, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wenn du und dein Gegner dieselbe Anzahl Pokémon auf der Bank haben, ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 30,
 
@@ -96,7 +96,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "At the center of its body is a red core, which sends mysterious radio signals into the night sky.",
+		'en-us': "At the center of its body is a red core, which sends mysterious radio signals into the night sky.",
 	},
 
 	thirdParty: {

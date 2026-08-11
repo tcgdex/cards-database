@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scolipede",
-		fr: "Brutapode",
-		es: "Scolipede",
-		it: "Scolipede",
-		pt: "Scolipede",
-		de: "Cerapendra"
+		'en-us': "Scolipede",
+		'fr-fr': "Brutapode",
+		'es-es': "Scolipede",
+		'it-it': "Scolipede",
+		'pt-br': "Scolipede",
+		'de-de': "Cerapendra"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 170,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Whirlipede",
-		fr: "Scobolide",
-		es: "Whirlipede",
-		it: "Whirlipede",
-		pt: "Whirlipede",
-		de: "Rollum"
+		'en-us': "Whirlipede",
+		'fr-fr': "Scobolide",
+		'es-es': "Whirlipede",
+		'it-it': "Whirlipede",
+		'pt-br': "Whirlipede",
+		'de-de': "Rollum"
 	},
 	stage: "Stage2",
 
@@ -32,32 +32,32 @@ const card: Card = {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
-			en: "Dastardly Jab",
-			fr: "Coup Ignoble",
-			es: "Puya Vil",
-			it: "Stoccata Ignobile",
-			pt: "Punhalada Indecorosa",
-			de: "Schurkischer Stich"
+			'en-us': "Dastardly Jab",
+			'fr-fr': "Coup Ignoble",
+			'es-es': "Puya Vil",
+			'it-it': "Stoccata Ignobile",
+			'pt-br': "Punhalada Indecorosa",
+			'de-de': "Schurkischer Stich"
 		},
 
 		effect: {
-			en: "Put damage counters on your opponent's Active Pokémon until its remaining HP is 10.",
-			fr: "Placez des marqueurs de dégâts sur le Pokémon Actif de votre adversaire jusqu'à ce qu'il ne lui reste que 10 PV.",
-			es: "Pon contadores de daño en el Pokémon Activo de tu rival hasta que le queden 10 PS.",
-			it: "Metti dei segnalini danno sul Pokémon attivo del tuo avversario finché i suoi PS rimanenti diventano 10.",
-			pt: "Coloque contadores de dano no Pokémon Ativo do seu oponente até o PS restante dele ser 10.",
-			de: "Lege so lange Schadensmarken auf das Aktive Pokémon deines Gegners, bis seine verbleibenden KP gleich 10 sind."
+			'en-us': "Put damage counters on your opponent's Active Pokémon until its remaining HP is 10.",
+			'fr-fr': "Placez des marqueurs de dégâts sur le Pokémon Actif de votre adversaire jusqu'à ce qu'il ne lui reste que 10 PV.",
+			'es-es': "Pon contadores de daño en el Pokémon Activo de tu rival hasta que le queden 10 PS.",
+			'it-it': "Metti dei segnalini danno sul Pokémon attivo del tuo avversario finché i suoi PS rimanenti diventano 10.",
+			'pt-br': "Coloque contadores de dano no Pokémon Ativo do seu oponente até o PS restante dele ser 10.",
+			'de-de': "Lege so lange Schadensmarken auf das Aktive Pokémon deines Gegners, bis seine verbleibenden KP gleich 10 sind."
 		}
 	}, {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
-			en: "Sludge Bomb",
-			fr: "Bombe Beurk",
-			es: "Bomba Lodo",
-			it: "Fangobomba",
-			pt: "Bomba de Lodo",
-			de: "Matschbombe"
+			'en-us': "Sludge Bomb",
+			'fr-fr': "Bombe Beurk",
+			'es-es': "Bomba Lodo",
+			'it-it': "Fangobomba",
+			'pt-br': "Bomba de Lodo",
+			'de-de': "Matschbombe"
 		},
 
 		damage: 160
@@ -73,7 +73,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Scolipede latches on to its prey with the claws on its neck before slamming them into the ground and jabbing them with its claws' toxic spikes.",
+		'en-us': "Scolipede latches on to its prey with the claws on its neck before slamming them into the ground and jabbing them with its claws' toxic spikes.",
 	},
 
 	variants: [

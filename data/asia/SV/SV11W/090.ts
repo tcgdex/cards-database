@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モンメン",
+		'ja-jp': "モンメン",
 	},
 
 	illustrator: "Keisin",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "襲われると 体から 綿を 飛ばす。 敵が 綿を モンメンと 間違えている すきに 逃げるのだ。",
+		'ja-jp': "襲われると 体から 綿を 飛ばす。 敵が 綿を モンメンと 間違えている すきに 逃げるのだ。",
 	},
 
 	stage: "Basic",

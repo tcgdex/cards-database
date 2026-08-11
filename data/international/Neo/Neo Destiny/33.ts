@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Dark Exeggutor",
-		fr: "Noadkoko obscur",
-		de: "Dunkles Kokowei"
+		'en-us': "Dark Exeggutor",
+		'fr-fr': "Noadkoko obscur",
+		'de-de': "Dunkles Kokowei"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Exeggcute",
-		fr: "Noeunoeuf"
+		'en-us': "Exeggcute",
+		'fr-fr': "Noeunoeuf"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Triple Headbutt",
-				fr: "Triple coup d'boule",
-				de: "Triple Headbutt"
+				'en-us': "Triple Headbutt",
+				'fr-fr': "Triple coup d'boule",
+				'de-de': "Triple Headbutt"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 3 coins. This attack does 10 damage times the number of heads."
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 3 coins. This attack does 10 damage times the number of heads."
 			},
 			damage: "10x",
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "MAX Burst",
-				fr: "Explosion maximale",
-				de: "MAX Burst"
+				'en-us': "MAX Burst",
+				'fr-fr': "Explosion maximale",
+				'de-de': "MAX Burst"
 			},
 			effect: {
-				en: "Flip a number of coins equal to the number of Energy cards attached to your opponent's Pokémon. This attack does 20 damage times the number of heads.",
-				fr: "Lancez un nombre de pièces égal au nombre de cartes Énergie attachées au Pokémon de votre adversaire. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Flip a number of coins equal to the number of Energy cards attached to your opponent's Pokémon. This attack does 20 damage times the number of heads."
+				'en-us': "Flip a number of coins equal to the number of Energy cards attached to your opponent's Pokémon. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez un nombre de pièces égal au nombre de cartes Énergie attachées au Pokémon de votre adversaire. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip a number of coins equal to the number of Energy cards attached to your opponent's Pokémon. This attack does 20 damage times the number of heads."
 			},
 			damage: "20x",
 
@@ -78,8 +78,8 @@ const card: Card = {
 
 
 	description: {
-		en: "If one of its heads falls off, it turns into an Exeggcute, which begins to look for other Exeggcutes using a special form of telepathy.",
-		fr: "S'il perd une de ses deux têtes, il se transforme en Nœunœuf, qui part aussitôt à la recherche d'un autre Nœunœuf grâce à une forme spéciale de télépathie."
+		'en-us': "If one of its heads falls off, it turns into an Exeggcute, which begins to look for other Exeggcutes using a special form of telepathy.",
+		'fr-fr': "S'il perd une de ses deux têtes, il se transforme en Nœunœuf, qui part aussitôt à la recherche d'un autre Nœunœuf grâce à une forme spéciale de télépathie."
 	},
 
 

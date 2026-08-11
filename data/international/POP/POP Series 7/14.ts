@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 7'
 
 const card: Card = {
 	name: {
-		en: "Mareep",
-		fr: "Mareep"
+		'en-us': "Mareep",
+		'fr-fr': "Mareep"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thundershock",
-				fr: "Éclair"
+				'en-us': "Thundershock",
+				'fr-fr': "Éclair"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 10,
 
@@ -44,8 +44,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Static Shock",
-				fr: "Choc statique"
+				'en-us': "Static Shock",
+				'fr-fr': "Choc statique"
 			},
 
 			damage: 20,
@@ -66,7 +66,7 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking."
+		'en-us': "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking."
 	},
 
 	retreat: 1,

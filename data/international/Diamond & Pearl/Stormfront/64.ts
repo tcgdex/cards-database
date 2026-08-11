@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Machop",
-		fr: "Machoc",
-		de: "Machollo"
+		'en-us': "Machop",
+		'fr-fr': "Machoc",
+		'de-de': "Machollo"
 	},
 
 	illustrator: "Midori Harada",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		fr: "Machoc",
+		'fr-fr': "Machoc",
 	},
 
 	stage: "Basic",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Kick",
-				fr: "Koud'pied",
-				de: "Tritt"
+				'en-us': "Kick",
+				'fr-fr': "Koud'pied",
+				'de-de': "Tritt"
 			},
 
 			damage: 10,
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Back",
-				fr: "Engloutir",
-				de: "Schlag versetzen"
+				'en-us': "Knock Back",
+				'fr-fr': "Engloutir",
+				'de-de': "Schlag versetzen"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
-				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				'de-de': "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 20,
 
@@ -73,8 +73,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It hefts a Graveler repeatedly to strengthen its entire body. It uses every type of martial arts.",
-		fr: "Il muscle son corps en soulevant régulièrement un Gravalanch. Il est rompu à tous les arts martiaux."
+		'en-us': "It hefts a Graveler repeatedly to strengthen its entire body. It uses every type of martial arts.",
+		'fr-fr': "Il muscle son corps en soulevant régulièrement un Gravalanch. Il est rompu à tous les arts martiaux."
 	},
 
 	thirdParty: {

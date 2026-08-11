@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [442],
 
 	name: {
-		en: "Spiritomb",
-		fr: "Spiritomb",
-		es: "Spiritomb",
-		it: "Spiritomb",
-		pt: "Spiritomb",
-		de: "Kryppuk"
+		'en-us': "Spiritomb",
+		'fr-fr': "Spiritomb",
+		'es-es': "Spiritomb",
+		'it-it': "Spiritomb",
+		'pt-br': "Spiritomb",
+		'de-de': "Kryppuk"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -24,20 +24,20 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Splitting Spite",
-				fr: "Mépris Partagé",
-				es: "Dividir Rencor",
-				it: "Dispetto Comune",
-				pt: "Rancor Dividido",
-				de: "Geteiltes Leid"
+				'en-us': "Splitting Spite",
+				'fr-fr': "Mépris Partagé",
+				'es-es': "Dividir Rencor",
+				'it-it': "Dispetto Comune",
+				'pt-br': "Rancor Dividido",
+				'de-de': "Geteiltes Leid"
 			},
 			effect: {
-				en: "Discard the top card of each player's deck.",
-				fr: "Défaussez la carte du dessus du deck de chaque joueur.",
-				es: "Descarta la primera carta de la baraja de cada jugador.",
-				it: "Scarta la prima carta del mazzo di ciascun giocatore.",
-				pt: "Descarte a carta de cima do baralho de cada jogador.",
-				de: "Lege die oberste Karte vom Deck jedes Spielers auf seinen Ablagestapel."
+				'en-us': "Discard the top card of each player's deck.",
+				'fr-fr': "Défaussez la carte du dessus du deck de chaque joueur.",
+				'es-es': "Descarta la primera carta de la baraja de cada jugador.",
+				'it-it': "Scarta la prima carta del mazzo di ciascun giocatore.",
+				'pt-br': "Descarte a carta de cima do baralho de cada jogador.",
+				'de-de': "Lege die oberste Karte vom Deck jedes Spielers auf seinen Ablagestapel."
 			},
 
 		},
@@ -47,20 +47,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dripping Grudge",
-				fr: "Rancune Dégoulinante",
-				es: "Goteo Rabioso",
-				it: "Gocce di Rancore",
-				pt: "Rancor Gotejante",
-				de: "Tropfender Groll"
+				'en-us': "Dripping Grudge",
+				'fr-fr': "Rancune Dégoulinante",
+				'es-es': "Goteo Rabioso",
+				'it-it': "Gocce di Rancore",
+				'pt-br': "Rancor Gotejante",
+				'de-de': "Tropfender Groll"
 			},
 			effect: {
-				en: "Put 1 damage counter on your opponent's Active Pokémon for each Pokémon in your discard pile.",
-				fr: "Placez un marqueur de dégâts sur le Pokémon Actif de votre adversaire pour chaque Pokémon dans votre pile de défausse.",
-				es: "Pon 1 contador de daño en el Pokémon Activo de tu rival por cada Pokémon en tu pila de descartes.",
-				it: "Metti un segnalino danno sul Pokémon attivo del tuo avversario per ogni Pokémon nella tua pila degli scarti.",
-				pt: "Coloque 1 contador de dano no Pokémon Ativo do seu oponente para cada Pokémon na sua pilha de descarte.",
-				de: "Lege für jedes Pokémon in deinem Ablagestapel 1 Schadensmarke auf das Aktive Pokémon deines Gegners."
+				'en-us': "Put 1 damage counter on your opponent's Active Pokémon for each Pokémon in your discard pile.",
+				'fr-fr': "Placez un marqueur de dégâts sur le Pokémon Actif de votre adversaire pour chaque Pokémon dans votre pile de défausse.",
+				'es-es': "Pon 1 contador de daño en el Pokémon Activo de tu rival por cada Pokémon en tu pila de descartes.",
+				'it-it': "Metti un segnalino danno sul Pokémon attivo del tuo avversario per ogni Pokémon nella tua pila degli scarti.",
+				'pt-br': "Coloque 1 contador de dano no Pokémon Ativo do seu oponente para cada Pokémon na sua pilha de descarte.",
+				'de-de': "Lege für jedes Pokémon in deinem Ablagestapel 1 Schadensmarke auf das Aktive Pokémon deines Gegners."
 			},
 
 		},
@@ -82,7 +82,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It was bound to a fissure in an Odd Keystone as punishment for misdeeds 500 years ago."
+		'en-us': "It was bound to a fissure in an Odd Keystone as punishment for misdeeds 500 years ago."
 	},
 
 	variants: [

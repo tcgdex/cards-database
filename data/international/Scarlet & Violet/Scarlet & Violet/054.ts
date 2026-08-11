@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Quaquaval",
-		fr: "Palmaval",
-		es: "Quaquaval",
-		it: "Quaquaval",
-		pt: "Quaquaval",
-		de: "Bailonda"
+		'en-us': "Quaquaval",
+		'fr-fr': "Palmaval",
+		'es-es': "Quaquaval",
+		'it-it': "Quaquaval",
+		'pt-br': "Quaquaval",
+		'de-de': "Bailonda"
 	},
 
 	rarity: "Rare",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Quaxwell",
-		fr: "Canarbello"
+		'en-us': "Quaxwell",
+		'fr-fr': "Canarbello"
 	},
 
 	stage: "Stage2",
@@ -30,21 +30,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Energy Carnival",
-			fr: "Carnaval Énergétique",
-			es: "Carnaval de Energía",
-			it: "Carnevale Energetico",
-			pt: "Carnaval de Energia",
-			de: "Karneval der Energie"
+			'en-us': "Energy Carnival",
+			'fr-fr': "Carnaval Énergétique",
+			'es-es': "Carnaval de Energía",
+			'it-it': "Carnevale Energetico",
+			'pt-br': "Carnaval de Energia",
+			'de-de': "Karneval der Energie"
 		},
 
 		effect: {
-			en: "Once during your turn, you may attach a Basic Energy card from your hand to 1 of your Pokémon.",
-			fr: "Une fois pendant votre tour, vous pouvez attacher une carte Énergie de base de votre main à l'un de vos Pokémon.",
-			es: "Una vez durante tu turno, puedes unir 1 carta de Energía Básica de tu mano a uno de tus Pokémon.",
-			it: "Una sola volta durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon una carta Energia base dalla tua mano.",
-			pt: "Uma vez durante o seu turno, você poderá ligar uma carta de Energia Básica da sua mão a 1 dos seus Pokémon.",
-			de: "Einmal während deines Zuges kannst du 1 Basis-Energiekarte aus deiner Hand an 1 deiner Pokémon anlegen."
+			'en-us': "Once during your turn, you may attach a Basic Energy card from your hand to 1 of your Pokémon.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez attacher une carte Énergie de base de votre main à l'un de vos Pokémon.",
+			'es-es': "Una vez durante tu turno, puedes unir 1 carta de Energía Básica de tu mano a uno de tus Pokémon.",
+			'it-it': "Una sola volta durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon una carta Energia base dalla tua mano.",
+			'pt-br': "Uma vez durante o seu turno, você poderá ligar uma carta de Energia Básica da sua mão a 1 dos seus Pokémon.",
+			'de-de': "Einmal während deines Zuges kannst du 1 Basis-Energiekarte aus deiner Hand an 1 deiner Pokémon anlegen."
 		}
 	}],
 
@@ -52,12 +52,12 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Hydro Kick",
-			fr: "Pied Hydro",
-			es: "Hidropatada",
-			it: "Idrocalcio",
-			pt: "Chute d'Água",
-			de: "Hydrokick"
+			'en-us': "Hydro Kick",
+			'fr-fr': "Pied Hydro",
+			'es-es': "Hidropatada",
+			'it-it': "Idrocalcio",
+			'pt-br': "Chute d'Água",
+			'de-de': "Hydrokick"
 		},
 
 		damage: 140
@@ -84,7 +84,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "A single kick from a Quaquaval can send a truck rolling. This Pokémon uses its powerful legs to perform striking dances from far-off lands.",
+		'en-us': "A single kick from a Quaquaval can send a truck rolling. This Pokémon uses its powerful legs to perform striking dances from far-off lands.",
 	},
 
 	thirdParty: {

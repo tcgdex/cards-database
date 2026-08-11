@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ストライク",
+		'ja-jp': "ストライク",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "若いうちは 山奥で 群れて 暮らし 鎌での 戦いかたや 高速移動を 修行する。",
+		'ja-jp': "若いうちは 山奥で 群れて 暮らし 鎌での 戦いかたや 高速移動を 修行する。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ぶんしん" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある「ストライク」を2枚まで、ベンチに出す。そして山札を切る。",
+				'ja-jp': "自分の山札にある「ストライク」を2枚まで、ベンチに出す。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
 			},
 		},
 	],

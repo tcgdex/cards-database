@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pidove",
-		fr: "Poichigeon",
-		de: "Dusselgurr",
-		it: "Pidove",
-		pt: "Pidove",
-		es: "Pidove",
+		'en-us': "Pidove",
+		'fr-fr': "Poichigeon",
+		'de-de': "Dusselgurr",
+		'it-it': "Pidove",
+		'pt-br': "Pidove",
+		'es-es': "Pidove",
 		'es-mx': "Pidove"
 	},
 
@@ -26,34 +26,34 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Scout",
-			fr: "Espionnage",
-			de: "Späher",
-			it: "Esplorazione",
-			pt: "Explorador",
-			es: "Explorar",
+			'en-us': "Scout",
+			'fr-fr': "Espionnage",
+			'de-de': "Späher",
+			'it-it': "Esplorazione",
+			'pt-br': "Explorador",
+			'es-es': "Explorar",
 			'es-mx': "Expedición"
 		},
 
 		effect: {
-			en: "Your opponent reveals their hand.",
-			fr: "Votre adversaire montre sa main.",
-			de: "Dein Gegner zeigt dir seine Handkarten.",
-			it: "Il tuo avversario mostra le carte che ha in mano.",
-			pt: "Seu oponente revela a mão dele.",
-			es: "Tu rival enseña las cartas de su mano.",
+			'en-us': "Your opponent reveals their hand.",
+			'fr-fr': "Votre adversaire montre sa main.",
+			'de-de': "Dein Gegner zeigt dir seine Handkarten.",
+			'it-it': "Il tuo avversario mostra le carte che ha in mano.",
+			'pt-br': "Seu oponente revela a mão dele.",
+			'es-es': "Tu rival enseña las cartas de su mano.",
 			'es-mx': "Tu rival muestra las cartas de su mano."
 		}
 	}, {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Stampede",
-			fr: "Ruée",
-			de: "Zertrampeln",
-			it: "Fuggi Fuggi",
-			pt: "Estouro",
-			es: "Estampida",
+			'en-us': "Stampede",
+			'fr-fr': "Ruée",
+			'de-de': "Zertrampeln",
+			'it-it': "Fuggi Fuggi",
+			'pt-br': "Estouro",
+			'es-es': "Estampida",
 			'es-mx': "Estampida"
 		},
 

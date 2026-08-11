@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Flabébé",
-		fr: "Flabébé",
-		es: "Flabébé",
-		it: "Flabébé",
-		pt: "Flabébé",
-		de: "Flabébé"
+		'en-us': "Flabébé",
+		'fr-fr': "Flabébé",
+		'es-es': "Flabébé",
+		'it-it': "Flabébé",
+		'pt-br': "Flabébé",
+		'de-de': "Flabébé"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Bind Wound",
-			fr: "Blessure Pansée",
-			es: "Vendar Herida",
-			it: "Cura Ferite",
-			pt: "Ligar Ferida",
-			de: "Wunden verbinden"
+			'en-us': "Bind Wound",
+			'fr-fr': "Blessure Pansée",
+			'es-es': "Vendar Herida",
+			'it-it': "Cura Ferite",
+			'pt-br': "Ligar Ferida",
+			'de-de': "Wunden verbinden"
 		},
 
 		effect: {
-			en: "Heal 30 damage from 1 of your Pokémon.",
-			fr: "Soignez 30 dégâts de l'un de vos Pokémon.",
-			es: "Cura 30 puntos de daño a uno de tus Pokémon.",
-			it: "Cura uno dei tuoi Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano de 1 dos seus Pokémon.",
-			de: "Heile 30 Schadenspunkte bei 1 deiner Pokémon."
+			'en-us': "Heal 30 damage from 1 of your Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de l'un de vos Pokémon.",
+			'es-es': "Cura 30 puntos de daño a uno de tus Pokémon.",
+			'it-it': "Cura uno dei tuoi Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano de 1 dos seus Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei 1 deiner Pokémon."
 		}
 	}, {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Fairy Wind",
-			fr: "Vent Féérique",
-			es: "Viento Feérico",
-			it: "Vento di Fata",
-			pt: "Vento de Fada",
-			de: "Feenbrise"
+			'en-us': "Fairy Wind",
+			'fr-fr': "Vent Féérique",
+			'es-es': "Viento Feérico",
+			'it-it': "Vento di Fata",
+			'pt-br': "Vento de Fada",
+			'de-de': "Feenbrise"
 		},
 
 		damage: 10
@@ -65,7 +65,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "This Flabébé rides a red flower. Immediately after birth, this Pokémon begins flying around in search of a flower it likes.",
+		'en-us': "This Flabébé rides a red flower. Immediately after birth, this Pokémon begins flying around in search of a flower it likes.",
 	},
 
 	variants: [

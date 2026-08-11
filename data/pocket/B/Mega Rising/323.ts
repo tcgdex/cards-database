@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lycanroc ex"
+		'en-us': "Lycanroc ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Rockruff"
+		'en-us': "Rockruff"
 	},
 
 	stage: "Stage1",
@@ -25,14 +25,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Lycanfang"
+			'en-us': "Lycanfang"
 		},
 
 		damage: 130,
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		effect: {
-			en: "Discard a {F} Energy from this Pokémon."
+			'en-us': "Discard a {F} Energy from this Pokémon."
 		}
 	}],
 

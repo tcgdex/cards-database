@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "quagsire",
+		'ja-jp': "quagsire",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Fighting"],
 			name: {
-				ja: "泥の平手打ち",
+				'ja-jp': "泥の平手打ち",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Water", "Water", "Colorless", "Colorless"],
 			name: {
-				ja: "渦",
+				'ja-jp': "渦",
 			},
 			effect: {
-				ja: "防御するポケモンにエネルギーカードが接続されている場合は、それらの1つを選択して破棄します。",
+				'ja-jp': "防御するポケモンにエネルギーカードが接続されている場合は、それらの1つを選択して破棄します。",
 			},
 			damage: 40,
 		},

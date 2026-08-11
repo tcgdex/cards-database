@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Vanilluxe"
+		'id-id': "Vanilluxe"
 	},
 
 	illustrator: "Nelnal",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Suhu tubuh Vanilluxe kurang lebih sekitar -6 °C. Kabarnya Pokémon ini terlahir dari dua ekor Vanillish yang menempel menjadi satu."
+		'id-id': "Suhu tubuh Vanilluxe kurang lebih sekitar -6 °C. Kabarnya Pokémon ini terlahir dari dua ekor Vanillish yang menempel menjadi satu."
 	},
 
 	stage: "Stage2",
@@ -23,17 +23,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Ruangan Dingin Ekstrem"
+			'id-id': "Ruangan Dingin Ekstrem"
 		},
 
 		effect: {
-			id: "Selama Pokémon ini ada di Arena, Pokémon lawan dengan sisa HP 40 atau kurang tidak dapat menggunakan serangan."
+			'id-id': "Selama Pokémon ini ada di Arena, Pokémon lawan dengan sisa HP 40 atau kurang tidak dapat menggunakan serangan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Misil Pilar Es"
+			'id-id': "Misil Pilar Es"
 		},
 
 		damage: 110,

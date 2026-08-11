@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "デスカーン",
+		'ja-jp': "デスカーン",
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "本物の かんおけと 間違え 近寄ってきた 墓ドロボウを 体の 中に 閉じこめてしまう。",
+		'ja-jp': "本物の かんおけと 間違え 近寄ってきた 墓ドロボウを 体の 中に 閉じこめてしまう。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Psychic", "Colorless"],
 			effect: {
-				ja: "自分のベンチポケモンを好きなだけトラッシュし、トラッシュしたベンチポケモンの数x30ダメージ追加。",
+				'ja-jp': "自分のベンチポケモンを好きなだけトラッシュし、トラッシュしたベンチポケモンの数x30ダメージ追加。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "デスマス",
+		'ja-jp': "デスマス",
 	},
 
 	retreat: 3,

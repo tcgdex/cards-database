@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Lucario",
-		fr: "Lucario",
-		es: "Lucario",
-		it: "Lucario",
-		pt: "Lucario",
-		de: "Lucario"
+		'en-us': "Lucario",
+		'fr-fr': "Lucario",
+		'es-es': "Lucario",
+		'it-it': "Lucario",
+		'pt-br': "Lucario",
+		'de-de': "Lucario"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Riolu",
-		fr: "Riolu",
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
 	},
 
 	stage: "Stage1",
@@ -40,8 +40,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Kick",
-				fr: "Koud'Pied",
+				'en-us': "Kick",
+				'fr-fr': "Koud'Pied",
 			},
 
 			damage: 30,
@@ -54,8 +54,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mach Cross",
-				fr: "Passage Éclair",
+				'en-us': "Mach Cross",
+				'fr-fr': "Passage Éclair",
 			},
 
 			damage: 70,
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away.",
+		'en-us': "A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away.",
 	},
 
 	thirdParty: {

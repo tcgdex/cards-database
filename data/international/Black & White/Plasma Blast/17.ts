@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Lapras",
-		fr: "Lokhlass",
-		es: "Lapras",
-		it: "Lapras",
-		pt: "Lapras",
-		de: "Lapras"
+		'en-us': "Lapras",
+		'fr-fr': "Lokhlass",
+		'es-es': "Lapras",
+		'it-it': "Lapras",
+		'pt-br': "Lapras",
+		'de-de': "Lapras"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cleanse Away",
-				fr: "Soin Groupé",
+				'en-us': "Cleanse Away",
+				'fr-fr': "Soin Groupé",
 			},
 			effect: {
-				en: "Heal 30 damage from each of your Benched Pokémon.",
-				fr: "Soignez 30 dégâts à chacun de vos Pokémon de Banc.",
+				'en-us': "Heal 30 damage from each of your Benched Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à chacun de vos Pokémon de Banc.",
 			},
 
 		},
@@ -52,8 +52,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
+				'en-us': "Surf",
+				'fr-fr': "Surf",
 			},
 
 			damage: 70,
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Able to understand human speech and very intelligent, it loves to swim in the sea with people on its back.",
+		'en-us': "Able to understand human speech and very intelligent, it loves to swim in the sea with people on its back.",
 	},
 
 	thirdParty: {

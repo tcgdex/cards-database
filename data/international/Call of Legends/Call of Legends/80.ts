@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Lost Remover",
-		fr: "Nettoyeur perdu",
-		de: "Nirgendwo-Entferner"
+		'en-us': "Lost Remover",
+		'fr-fr': "Nettoyeur perdu",
+		'de-de': "Nirgendwo-Entferner"
 	},
 
 	illustrator: "Wataru Kawahara",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Put 1 Special Energy card attached to 1 of your opponent's Pokémon in the Lost Zone.",
-		fr: "Placez 1 carte Énergie spéciale attachée à l’un des Pokémon de votre adversaire dans la Zone Perdue.",
-		de: "Lege 1 Spezialenergiekarte, die an 1 Pokémon deines Gegners angelegt ist, ins Nirgendwo."
+		'en-us': "Put 1 Special Energy card attached to 1 of your opponent's Pokémon in the Lost Zone.",
+		'fr-fr': "Placez 1 carte Énergie spéciale attachée à l’un des Pokémon de votre adversaire dans la Zone Perdue.",
+		'de-de': "Lege 1 Spezialenergiekarte, die an 1 Pokémon deines Gegners angelegt ist, ins Nirgendwo."
 	},
 
 	trainerType: "Item",

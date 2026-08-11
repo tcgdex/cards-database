@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガルーラex",
+		'ja-jp': "ガルーラex",
 		'zh-tw': "袋獸ex",
-		th: "การูราex",
-		id: "Kangaskhan ex",
+		'th-th': "การูราex",
+		'id-id': "Kangaskhan ex",
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -20,33 +20,33 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "トリプルドロー",
+				'ja-jp': "トリプルドロー",
 				'zh-tw': "三重抽出",
-				th: "ทริปเปิ้ลดรอว์",
-				id: "Triple Draw",
+				'th-th': "ทริปเปิ้ลดรอว์",
+				'id-id': "Triple Draw",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を3枚引く。",
+				'ja-jp': "自分の山札を3枚引く。",
 				'zh-tw': "從自己的牌庫抽出3張卡。",
-				th: "จั่วการ์ด 3 ใบจากสำรับการ์ดฝ่ายเรา",
-				id: "Ambil 3 kartu dari atas Deck sendiri.",
+				'th-th': "จั่วการ์ด 3 ใบจากสำรับการ์ดฝ่ายเรา",
+				'id-id': "Ambil 3 kartu dari atas Deck sendiri.",
 			},
 		},
 		{
 			name: {
-				ja: "マシンガンパンチ",
+				'ja-jp': "マシンガンパンチ",
 				'zh-tw': "機關槍拳",
-				th: "แมชชีนกันพันช์",
-				id: "Machinegun Punch",
+				'th-th': "แมชชีนกันพันช์",
+				'id-id': "Machinegun Punch",
 			},
 			damage: "100×",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを4回投げ、オモテの数×100ダメージ。",
+				'ja-jp': "コインを4回投げ、オモテの数×100ダメージ。",
 				'zh-tw': "擲4次硬幣，造成正面出現的次數×100點傷害。",
-				th: "ทอยเหรียญ 4 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x100",
-				id: "Lempar koin 4 kali. Serangan ini memberikan kerusakan sejumlah 100 untuk tiap lemparan dengan hasil sisi depan.",
+				'th-th': "ทอยเหรียญ 4 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x100",
+				'id-id': "Lempar koin 4 kali. Serangan ini memberikan kerusakan sejumlah 100 untuk tiap lemparan dengan hasil sisi depan.",
 			},
 		},
 	],

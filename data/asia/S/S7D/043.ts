@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジヘッド",
+		'ja-jp': "ジヘッド",
 		'zh-tw': "雙首暴龍",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "１つの エサを ２つの 頭で 奪い合う。 誰とも 戦って いないのに いつも 傷だらけ。",
+		'ja-jp': "１つの エサを ２つの 頭で 奪い合う。 誰とも 戦って いないのに いつも 傷だらけ。",
 		'zh-tw': "２個頭會爭搶同一個食物。明明沒有去和別人戰鬥，卻總是遍體鱗傷。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かみつく",
+				'ja-jp': "かみつく",
 				'zh-tw': "咬住",
 			},
 			damage: 40,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "リューズヘッド",
+				'ja-jp': "リューズヘッド",
 				'zh-tw': "龍之頭擊",
 			},
 			damage: 100,
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モノズ",
+		'ja-jp': "モノズ",
 	},
 
 	retreat: 2,

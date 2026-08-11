@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワシボン",
+		'ja-jp': "ワシボン",
 	},
 
 	illustrator: "Kedamahadaitai Yawarakai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "脚力で 木の実を 砕く。 どんなに 強い 相手でも 勇敢に 立ち向かう 習性。",
+		'ja-jp': "脚力で 木の実を 砕く。 どんなに 強い 相手でも 勇敢に 立ち向かう 習性。",
 	},
 
 	stage: "Basic",

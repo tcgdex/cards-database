@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モンジャラ",
+		'ja-jp': "モンジャラ",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "たくさんの うごめく ツルに 覆われて 正体不明。 青いツルは 一生 伸びる。",
+		'ja-jp': "たくさんの うごめく ツルに 覆われて 正体不明。 青いツルは 一生 伸びる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "からめてひっぱる" },
 			cost: ["Grass"],
 			effect: {
-				ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+				'ja-jp': "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
 			},
 		},
 		{

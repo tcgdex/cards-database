@@ -1,22 +1,22 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Chaos Rising"
 
 const card: Card = {
 	set: Set,
 
 	description: {
-		en: "They set off on their own from their pride and live by themselves to become stronger. These hot-blooded Pokémon are quick to fight.",
+		'en-us': "They set off on their own from their pride and live by themselves to become stronger. These hot-blooded Pokémon are quick to fight.",
 	},
 
 
 	name: {
-		en: "Litleo",
-		fr: "Hélionceau",
-		es: "Litleo",
+		'en-us': "Litleo",
+		'fr-fr': "Hélionceau",
+		'es-es': "Litleo",
 		'es-mx': "Litleo",
-		de: "Leufeo",
-		it: "Litleo",
-		pt: "Litleo"
+		'de-de': "Leufeo",
+		'it-it': "Litleo",
+		'pt-br': "Litleo"
 	},
 
 	illustrator: "Mina Nakai",
@@ -29,13 +29,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
 			'es-mx': "Tacleada",
-			de: "Tackle",
-			it: "Azione",
-			pt: "Investida"
+			'de-de': "Tackle",
+			'it-it': "Azione",
+			'pt-br': "Investida"
 		},
 
 		cost: ["Colorless"],

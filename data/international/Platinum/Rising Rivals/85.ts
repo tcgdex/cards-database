@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Turtwig GL",
-		fr: "Tortipouss  Niv. 20",
-		de: "Chelast GL"
+		'en-us': "Turtwig GL",
+		'fr-fr': "Tortipouss  Niv. 20",
+		'de-de': "Chelast GL"
 	},
 
 	illustrator: "Kanako Eo",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Overgrow",
-				fr: "Engrais",
-				de: "Notdünger"
+				'en-us': "Overgrow",
+				'fr-fr': "Engrais",
+				'de-de': "Notdünger"
 			},
 			effect: {
-				en: "As long as Turtwig GL's remaining HP is 60 or less, each of Turtwig GL's attacks does 30 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
-				fr: "Tant qu'il ne reste à Tortipouss  qu'un maximum de 60 PV, chacune de ses attaques inflige 30 dégâts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance).",
-				de: "Solange Chelast GL 60 oder weniger verbliebene KP hat, fügen alle Angriffe von Chelast GL den Aktiven Pokémon 30 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "As long as Turtwig GL's remaining HP is 60 or less, each of Turtwig GL's attacks does 30 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Tant qu'il ne reste à Tortipouss  qu'un maximum de 60 PV, chacune de ses attaques inflige 30 dégâts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "Solange Chelast GL 60 oder weniger verbliebene KP hat, fügen alle Angriffe von Chelast GL den Aktiven Pokémon 30 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			}
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giga Drain",
-				fr: "Giga-sangsue",
-				de: "Gigasauger"
+				'en-us': "Giga Drain",
+				'fr-fr': "Giga-sangsue",
+				'de-de': "Gigasauger"
 			},
 			effect: {
-				en: "After your attack, remove from Turtwig GL the number of damage counters equal to the damage you did to the Defending Pokémon.",
-				fr: "Après votre attaque, retirez à Tortipouss  autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur.",
-				de: "Entferne nach deinem Angriff Schadensmarken von Chelast GL entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon durch diesen Angriff zugefügt wurden."
+				'en-us': "After your attack, remove from Turtwig GL the number of damage counters equal to the damage you did to the Defending Pokémon.",
+				'fr-fr': "Après votre attaque, retirez à Tortipouss  autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur.",
+				'de-de': "Entferne nach deinem Angriff Schadensmarken von Chelast GL entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon durch diesen Angriff zugefügt wurden."
 			},
 			damage: 30,
 

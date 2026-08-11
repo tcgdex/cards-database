@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2021'
 
 const card: Card = {
 	name: {
-		en: "Bulbasaur",
-		fr: "Bulbizarre"
+		'en-us': "Bulbasaur",
+		'fr-fr': "Bulbizarre"
 	},
 
 	illustrator: "Mizue",
@@ -31,8 +31,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'Herbe"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'Herbe"
 			},
 
 			damage: 30,
@@ -50,7 +50,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon."
+		'en-us': "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon."
 	},
 
 	variants: [

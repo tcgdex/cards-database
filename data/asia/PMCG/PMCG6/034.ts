@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カツラのウインディ",
+		'ja-jp': "カツラのウインディ",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Fire", "Colorless", "Colorless"],
 			name: {
-				ja: "ヒートタックル",
+				'ja-jp': "ヒートタックル",
 			},
 			effect: {
-				ja: "ブレインのアルカニンは、それ自体に10ダメージを与えます。",
+				'ja-jp': "ブレインのアルカニンは、それ自体に10ダメージを与えます。",
 			},
 			damage: 40,
 		},
 		{
 			cost: ["Fire", "Fire", "Fire", "Fire"],
 			name: {
-				ja: "ファイアストーム",
+				'ja-jp': "ファイアストーム",
 			},
 			effect: {
-				ja: "この攻撃を使用するために、ブレインのアルカニンに取り付けられた3つのファイアエネルギーカードを捨てます。",
+				'ja-jp': "この攻撃を使用するために、ブレインのアルカニンに取り付けられた3つのファイアエネルギーカードを捨てます。",
 			},
 			damage: 120,
 		},

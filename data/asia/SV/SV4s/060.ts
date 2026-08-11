@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Pumpkaboo"
+		'id-id': "Pumpkaboo"
 	},
 
 	illustrator: "saino misaki",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Cahaya yang terpancar dari lubang di labu Pumpkaboo menghipnosis dan mengendalikan manusia dan Pokémon yang melihatnya."
+		'id-id': "Cahaya yang terpancar dari lubang di labu Pumpkaboo menghipnosis dan mengendalikan manusia dan Pokémon yang melihatnya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Bom Benih"
+			'id-id': "Bom Benih"
 		},
 
 		damage: 10,
 		cost: ["Psychic"]
 	}, {
 		name: {
-			id: "Menyerang"
+			'id-id': "Menyerang"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 20."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 20."
 		},
 
 		damage: 40,

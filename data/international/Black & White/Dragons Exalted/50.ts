@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Drifloon",
-		fr: "Baudrive",
-		es: "Drifloon",
-		it: "Drifloon",
-		pt: "Drifloon",
-		de: "Driftlon"
+		'en-us': "Drifloon",
+		'fr-fr': "Baudrive",
+		'es-es': "Drifloon",
+		'it-it': "Drifloon",
+		'pt-br': "Drifloon",
+		'de-de': "Driftlon"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beat",
-				fr: "Bataille",
+				'en-us': "Beat",
+				'fr-fr': "Bataille",
 			},
 
 			damage: 10,
@@ -47,8 +47,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gust",
-				fr: "Tornade",
+				'en-us': "Gust",
+				'fr-fr': "Tornade",
 			},
 
 			damage: 20,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Because of the way it floats aimlessly, an old folktale calls it a \"Signpost for Wandering Spirits.\"",
+		'en-us': "Because of the way it floats aimlessly, an old folktale calls it a \"Signpost for Wandering Spirits.\"",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "vileplume",
+		'ja-jp': "vileplume",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "毒花粉",
+				'ja-jp': "毒花粉",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前に）、コインをひっくり返すことができます。頭の場合、防御ポケモンは現在毒されています。 vileplumeが特別な状態の影響を受けている場合、このパワーは使用できません。",
+				'ja-jp': "ターン中に（攻撃の前に）、コインをひっくり返すことができます。頭の場合、防御ポケモンは現在毒されています。 vileplumeが特別な状態の影響を受けている場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "花びらのダンス",
+				'ja-jp': "花びらのダンス",
 			},
 			effect: {
-				ja: "3コインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。 vileplumeは混乱しています。",
+				'ja-jp': "3コインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。 vileplumeは混乱しています。",
 			},
 		},
 	],

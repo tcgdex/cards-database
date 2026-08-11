@@ -1,28 +1,28 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Nemona",
-		fr: "Menzi",
-		es: "Mencía",
-		it: "Nemi",
-		de: "Nemila",
-		pt: "Noêmia"
+		'en-us': "Nemona",
+		'fr-fr': "Menzi",
+		'es-es': "Mencía",
+		'it-it': "Nemi",
+		'de-de': "Nemila",
+		'pt-br': "Noêmia"
 	},
 
 	rarity: "Special illustration rare",
 	category: "Trainer",
 
 	effect: {
-		en: "Draw 3 cards.",
-		fr: "Piochez 3 cartes.",
-		es: "Roba 3 cartas.",
-		it: "Pesca tre carte.",
-		de: "Ziehe 3 Karten.",
-		pt: "Compre 3 cartas."
+		'en-us': "Draw 3 cards.",
+		'fr-fr': "Piochez 3 cartes.",
+		'es-es': "Roba 3 cartas.",
+		'it-it': "Pesca tre carte.",
+		'de-de': "Ziehe 3 Karten.",
+		'pt-br': "Compre 3 cartas."
 	},
 
 	trainerType: "Supporter",

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モクロー",
+		'ja-jp': "モクロー",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "警戒心が 強い。 昼は 光合成で 力を 溜めて 夜になったら 活動開始。",
+		'ja-jp': "警戒心が 強い。 昼は 光合成で 力を 溜めて 夜になったら 活動開始。",
 	},
 
 	stage: "Basic",

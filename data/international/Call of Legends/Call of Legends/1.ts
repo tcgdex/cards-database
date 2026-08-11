@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Clefable",
-		fr: "Mélodelfe",
-		de: "Pixi"
+		'en-us': "Clefable",
+		'fr-fr': "Mélodelfe",
+		'de-de': "Pixi"
 	},
 
 	illustrator: "sui",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Clefairy",
-		fr: "Mélofée"
+		'en-us': "Clefairy",
+		'fr-fr': "Mélofée"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fairy Power",
-				fr: "Pouvoir de fée",
-				de: "Feenmacht"
+				'en-us': "Fairy Power",
+				'fr-fr': "Pouvoir de fée",
+				'de-de': "Feenmacht"
 			},
 			effect: {
-				en: "Return 1 of your Pokémon and all cards attached to it in your hand.",
-				fr: "Reprenez un de vos Pokémon et toutes les cartes qui lui sont attachées dans votre main.",
-				de: "Nimm 1 deiner Pokémon und alle an es angelegten Karten auf deine Hand zurück."
+				'en-us': "Return 1 of your Pokémon and all cards attached to it in your hand.",
+				'fr-fr': "Reprenez un de vos Pokémon et toutes les cartes qui lui sont attachées dans votre main.",
+				'de-de': "Nimm 1 deiner Pokémon und alle an es angelegten Karten auf deine Hand zurück."
 			},
 
 		},
@@ -52,9 +52,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Moon Impact",
-				fr: "Impact lunaire",
-				de: "Mondeinschlag"
+				'en-us': "Moon Impact",
+				'fr-fr': "Impact lunaire",
+				'de-de': "Mondeinschlag"
 			},
 
 			damage: 40,
@@ -72,7 +72,7 @@ const card: Card = {
 
 
 	description: {
-		en: "With its acute hearing, it can pick up sounds from far away. It usually hides in quiet places.",
+		'en-us': "With its acute hearing, it can pick up sounds from far away. It usually hides in quiet places.",
 	},
 
 	variants: [

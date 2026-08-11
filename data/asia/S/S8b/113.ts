@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドータクン",
+		'ja-jp': "ドータクン",
 		'zh-tw': "青銅鐘",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "体の模様 から 本来 ガラルには いない ポケモンと 考える 学者も 多い。",
+		'ja-jp': "体の模様 から 本来 ガラルには いない ポケモンと 考える 学者も 多い。",
 		'zh-tw': "牠身上的紋路讓許多學者認為牠原本並不存在於伽勒爾。",
 	},
 
@@ -24,11 +24,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "メタルトランス",
+				'ja-jp': "メタルトランス",
 				'zh-tw': "金屬轉移",
 			},
 			effect: {
-				ja: "自分の番に何回でも使える。自分の場のポケモンについている[鋼]エネルギーを1個選び、自分の別のポケモンにつけ替える。",
+				'ja-jp': "自分の番に何回でも使える。自分の場のポケモンについている[鋼]エネルギーを1個選び、自分の別のポケモンにつけ替える。",
 				'zh-tw': "在自己的回合時，可不限次數使用。選擇1個自己的場上寶可夢身上附加的【鋼】能量，改附於自己的其他寶可夢身上。",
 			},
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "しねんのずつき",
+				'ja-jp': "しねんのずつき",
 				'zh-tw': "意念頭錘",
 			},
 			damage: 70,
@@ -59,7 +59,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ドーミラー",
+		'ja-jp': "ドーミラー",
 	},
 
 	retreat: 3,

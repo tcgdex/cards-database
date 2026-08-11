@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "volbeat",
+		'ja-jp': "volbeat",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "余分な保護",
+				'ja-jp': "余分な保護",
 			},
 			effect: {
-				ja: "プレイ中に照らされている限り、対戦相手のPokã©Mon-Exからの攻撃によってVolbeatに行われる損傷を含むすべての効果を防​​ぎます。",
+				'ja-jp': "プレイ中に照らされている限り、対戦相手のPokã©Mon-Exからの攻撃によってVolbeatに行われる損傷を含むすべての効果を防​​ぎます。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "迅速",
+				'ja-jp': "迅速",
 			},
 			effect: {
-				ja: "この攻撃の損傷は、脱力感、抵抗、ポケの提唱、ポケボディ、または防御ポケモンに対するその他の影響の影響を受けません。",
+				'ja-jp': "この攻撃の損傷は、脱力感、抵抗、ポケの提唱、ポケボディ、または防御ポケモンに対するその他の影響の影響を受けません。",
 			},
 			damage: 30,
 		},

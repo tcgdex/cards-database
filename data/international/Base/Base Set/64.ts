@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Starmie",
-		fr: "Staross",
-		de: "Starmie",
-		it: "Starmie"
+		'en-us': "Starmie",
+		'fr-fr': "Staross",
+		'de-de': "Starmie",
+		'it-it': "Starmie"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -25,9 +25,9 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Staryu",
-		fr: "Stari",
-		it: "Staryu"
+		'en-us': "Staryu",
+		'fr-fr': "Stari",
+		'it-it': "Staryu"
 	},
 
 	stage: "Stage1",
@@ -39,16 +39,16 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Recover",
-				fr: "Soin",
-				de: "Erholung",
-				it: "Ripresa"
+				'en-us': "Recover",
+				'fr-fr': "Soin",
+				'de-de': "Erholung",
+				'it-it': "Ripresa"
 			},
 			effect: {
-				en: "Discard 1 Energy card to Starmie in order to use this attack. Remove all damage counters from Starmie.",
-				fr: "Défaussez 1 carte Énergie  attachée à Staross pour pouvoir utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Staross.",
-				de: "Entferne eine auf Starmie abgelegte  Energiekarte, um diesen Angriff auszuführen. Entferne alle Schadensmarken von Starmie.",
-				it: "Scarta una carta Energia Acqua assegnata a Starmie per poter usare questo attacco. Togli tutti i segnalini danno da Starmie.",
+				'en-us': "Discard 1 Energy card to Starmie in order to use this attack. Remove all damage counters from Starmie.",
+				'fr-fr': "Défaussez 1 carte Énergie  attachée à Staross pour pouvoir utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Staross.",
+				'de-de': "Entferne eine auf Starmie abgelegte  Energiekarte, um diesen Angriff auszuführen. Entferne alle Schadensmarken von Starmie.",
+				'it-it': "Scarta una carta Energia Acqua assegnata a Starmie per poter usare questo attacco. Togli tutti i segnalini danno da Starmie.",
 			},
 
 		},
@@ -59,16 +59,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Star Freeze",
-				fr: "Étoile gelante",
-				de: "Sternenfrost",
-				it: "Assideramento stellare"
+				'en-us': "Star Freeze",
+				'fr-fr': "Étoile gelante",
+				'de-de': "Sternenfrost",
+				'it-it': "Assideramento stellare"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato.",
 			},
 			damage: 20,
 
@@ -85,9 +85,9 @@ const card: Card = {
 
 
 	description: {
-		en: "Its central core glows with the seven colors of the rainbow. Some people value this core as a gem.",
-		fr: "Son cœur brille des couleurs de l'arc-en-ciel. On raconte que c'est une pierre précieuse.",
-		it: "Il suo nucleo centrale brilla  dei sette colori dell'arcobaleno. Valutato da alcuni come una gemma preziosa. LIV 28 N.121"
+		'en-us': "Its central core glows with the seven colors of the rainbow. Some people value this core as a gem.",
+		'fr-fr': "Son cœur brille des couleurs de l'arc-en-ciel. On raconte que c'est une pierre précieuse.",
+		'it-it': "Il suo nucleo centrale brilla  dei sette colori dell'arcobaleno. Valutato da alcuni come una gemma preziosa. LIV 28 N.121"
 	},
 
 	variants: [

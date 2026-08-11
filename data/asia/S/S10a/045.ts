@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドンカラス",
+		'ja-jp': "ドンカラス",
 		'zh-tw': "烏鴉頭頭",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "敵と 戦うのは ほぼ 子分。 自分の 手を 汚すのは 相手に 最後の 止めを 刺すときだけ。",
+		'ja-jp': "敵と 戦うのは ほぼ 子分。 自分の 手を 汚すのは 相手に 最後の 止めを 刺すときだけ。",
 		'zh-tw': "與敵人的戰鬥幾乎全由手下來應付。只有在最後給對手致命一擊的時候， 才會弄髒自己的手。",
 	},
 
@@ -23,24 +23,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "トリプルドロー",
+				'ja-jp': "トリプルドロー",
 				'zh-tw': "三重抽出",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を3枚引く。",
+				'ja-jp': "自分の山札を3枚引く。",
 				'zh-tw': "從自己的牌庫抽出3張卡。",
 			},
 		},
 		{
 			name: {
-				ja: "ひじょうのつばさ",
+				'ja-jp': "ひじょうのつばさ",
 				'zh-tw': "無情之翼",
 			},
 			damage: 120,
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "のぞむなら、このポケモンをベンチの「ヤミカラス」と入れ替える。",
+				'ja-jp': "のぞむなら、このポケモンをベンチの「ヤミカラス」と入れ替える。",
 				'zh-tw': "若希望，將這隻寶可夢與備戰區的「黑暗鴉」互換。",
 			},
 		},
@@ -66,7 +66,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤミカラス",
+		'ja-jp': "ヤミカラス",
 	},
 
 	retreat: 2,

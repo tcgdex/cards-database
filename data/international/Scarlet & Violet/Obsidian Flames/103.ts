@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Taupiqueur",
-		en: "Diglett",
-		es: "Diglett",
-		it: "Diglett",
-		pt: "Diglett",
-		de: "Digda"
+		'fr-fr': "Taupiqueur",
+		'en-us': "Diglett",
+		'es-es': "Diglett",
+		'it-it': "Diglett",
+		'pt-br': "Diglett",
+		'de-de': "Digda"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			fr: "Tête Excavatrice",
-			en: "Hole-Diggin' Noggin",
-			es: "Cabeza Cava-Hoyos",
-			it: "Zuccone Scavatore",
-			pt: "Cabeça Cavucadora",
-			de: "Buddelkopf"
+			'fr-fr': "Tête Excavatrice",
+			'en-us': "Hole-Diggin' Noggin",
+			'es-es': "Cabeza Cava-Hoyos",
+			'it-it': "Zuccone Scavatore",
+			'pt-br': "Cabeça Cavucadora",
+			'de-de': "Buddelkopf"
 		},
 
 		effect: {
-			fr: "Défaussez la carte du dessus de votre deck.",
-			en: "Discard the top card of your deck.",
-			es: "Descarta la primera carta de tu baraja.",
-			it: "Scarta la prima carta del tuo mazzo.",
-			pt: "Descarte a carta de cima do seu baralho.",
-			de: "Lege die oberste Karte deines Decks auf deinen Ablagestapel."
+			'fr-fr': "Défaussez la carte du dessus de votre deck.",
+			'en-us': "Discard the top card of your deck.",
+			'es-es': "Descarta la primera carta de tu baraja.",
+			'it-it': "Scarta la prima carta del tuo mazzo.",
+			'pt-br': "Descarte a carta de cima do seu baralho.",
+			'de-de': "Lege die oberste Karte deines Decks auf deinen Ablagestapel."
 		},
 
 		damage: 30
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It lives about one yard underground, where it feeds on plant roots. It sometimes appears aboveground.",
+		'en-us': "It lives about one yard underground, where it feeds on plant roots. It sometimes appears aboveground.",
 	},
 
 	variants: [

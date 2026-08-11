@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Quilava",
-		fr: "Fleurisson",
-		de: "Igelavar"
+		'en-us': "Quilava",
+		'fr-fr': "Fleurisson",
+		'de-de': "Igelavar"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cyndaquil",
-		fr: "Héricendre"
+		'en-us': "Cyndaquil",
+		'fr-fr': "Héricendre"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare",
-				fr: "Intimidation",
-				de: "Flackern"
+				'en-us': "Flare",
+				'fr-fr': "Intimidation",
+				'de-de': "Flackern"
 			},
 
 			damage: 30,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-flamme",
-				de: "Flammenwurf"
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-flamme",
+				'de-de': "Flammenwurf"
 			},
 			effect: {
-				en: "Discard an Energy attached to Quilava.",
-				fr: "Défaussez-vous d’une carte Énergie attachée à Fleurisson.",
-				de: "Lege 1 an Igelavar angelegte Energie auf deinen Ablagestapel."
+				'en-us': "Discard an Energy attached to Quilava.",
+				'fr-fr': "Défaussez-vous d’une carte Énergie attachée à Fleurisson.",
+				'de-de': "Lege 1 an Igelavar angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 60,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon is fully covered by nonflammable fur. It can withstand any kind of fire attack."
+		'en-us': "This Pokémon is fully covered by nonflammable fur. It can withstand any kind of fire attack."
 	},
 
 	variants: [

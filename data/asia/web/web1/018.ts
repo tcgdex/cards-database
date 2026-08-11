@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../web1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニドリーノ",
+		'ja-jp': "ニドリーノ",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "迅速な突進",
+				'ja-jp': "迅速な突進",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合、この攻撃には何もできず、このポケモンはそれ自体に20のダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃には何もできず、このポケモンはそれ自体に20のダメージを与えます。",
 			},
 			damage: 60,
 		},

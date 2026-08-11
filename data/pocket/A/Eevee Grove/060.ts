@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chatot",
-		fr: "Pijako"
+		'en-us': "Chatot",
+		'fr-fr': "Pijako"
 	},
 
 	illustrator: "Akira Komayama",
@@ -18,24 +18,24 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It mimics the cries of other Pokémon to trick them\ninto thinking it's one of them. This way they won't\nattack it.",
-		fr: "Il reproduit le cri de ses ennemis pour faire croire qu'il est des leurs et éviter d'être attaqué."
+		'en-us': "It mimics the cries of other Pokémon to trick them\ninto thinking it's one of them. This way they won't\nattack it.",
+		'fr-fr': "Il reproduit le cri de ses ennemis pour faire croire qu'il est des leurs et éviter d'être attaqué."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Tone-Deaf",
-			fr: "Dur d'Oreille"
+			'en-us': "Tone-Deaf",
+			'fr-fr': "Dur d'Oreille"
 		},
 
 		damage: 10,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus."
 		}
 	}],
 

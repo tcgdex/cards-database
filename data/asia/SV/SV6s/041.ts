@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Poliwag"
+		'id-id': "Poliwag"
 	},
 
 	illustrator: "Kedamahadaitai Yawarakai",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Kakinya baru saja tumbuh sehingga ia tidak pandai berjalan. Tampaknya ia lebih suka berenang di dalam air."
+		'id-id': "Kakinya baru saja tumbuh sehingga ia tidak pandai berjalan. Tampaknya ia lebih suka berenang di dalam air."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menginjak"
+			'id-id': "Menginjak"
 		},
 
 		damage: 10,
 		cost: ["Water"]
 	}, {
 		name: {
-			id: "Tamparan Ekor"
+			'id-id': "Tamparan Ekor"
 		},
 
 		effect: {
-			id: "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 20 untuk tiap lemparan dengan hasil sisi depan."
+			'id-id': "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 20 untuk tiap lemparan dengan hasil sisi depan."
 		},
 
 		damage: "20×",

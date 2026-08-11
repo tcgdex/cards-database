@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポリゴン",
+		'ja-jp': "ポリゴン",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "データソート",
+				'ja-jp': "データソート",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、廃棄パイルからトレーナーカードを選択し、対戦相手に見せてから、デッキにシャッフルします。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、廃棄パイルからトレーナーカードを選択し、対戦相手に見せてから、デッキにシャッフルします。",
 			},
 		},
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ペック",
+				'ja-jp': "ペック",
 			},
 			damage: 10,
 		},

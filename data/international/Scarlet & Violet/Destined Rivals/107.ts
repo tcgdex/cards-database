@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mudbray",
-		fr: "Tiboudet",
-		de: "Pampuli",
-		it: "Mudbray",
-		es: "Mudbray",
-		pt: "Mudbray",
+		'en-us': "Mudbray",
+		'fr-fr': "Tiboudet",
+		'de-de': "Pampuli",
+		'it-it': "Mudbray",
+		'es-es': "Mudbray",
+		'pt-br': "Mudbray",
 		'es-mx': "Mudbray"
 	},
 
@@ -28,22 +28,22 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Running Charge",
-			fr: "Assaut Élancé",
-			de: "Sturmangriff",
-			it: "Carica Scattante",
-			es: "Carga Impulso",
-			pt: "Carga em Disparada",
+			'en-us': "Running Charge",
+			'fr-fr': "Assaut Élancé",
+			'de-de': "Sturmangriff",
+			'it-it': "Carica Scattante",
+			'es-es': "Carga Impulso",
+			'pt-br': "Carga em Disparada",
 			'es-mx': "Carga Encarrerada"
 		},
 
 		effect: {
-			en: "Flip a coin until you get tails. This attack does 40 damage for each heads.",
-			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 40 dégâts pour chaque côté face.",
-			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu.",
-			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 40 danni ogni volta che esce testa.",
-			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 40 puntos de daño por cada cara.",
-			pt: "Jogue uma moeda até sair coroa. Este ataque causa 40 pontos de dano para cada cara.",
+			'en-us': "Flip a coin until you get tails. This attack does 40 damage for each heads.",
+			'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 40 dégâts pour chaque côté face.",
+			'de-de': "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 40 Schadenspunkte pro Kopf zu.",
+			'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 40 danni ogni volta che esce testa.",
+			'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 40 puntos de daño por cada cara.",
+			'pt-br': "Jogue uma moeda até sair coroa. Este ataque causa 40 pontos de dano para cada cara.",
 			'es-mx': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 40 puntos de daño por cada cara."
 		},
 

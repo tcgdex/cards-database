@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sun & Moon'
 
 const sma: Set = {
 	id: "sma",
 
 	name: {
-		en: "Hidden Fates Shiny Vault",
-		fr: "Destinées Occultes Coffre Étincelant",
-		es: "Destinos Ocultos Tesoro Brillante",
-		it: "Destino Sfuggente Tesoro Lucente",
-		de: "Verborgenes Schicksal Glitzer-Tresor",
-		pt: "Destinos Ocultos Cofre Brilhante"
+		'en-us': "Hidden Fates Shiny Vault",
+		'fr-fr': "Destinées Occultes Coffre Étincelant",
+		'es-es': "Destinos Ocultos Tesoro Brillante",
+		'it-it': "Destino Sfuggente Tesoro Lucente",
+		'de-de': "Verborgenes Schicksal Glitzer-Tresor",
+		'pt-br': "Destinos Ocultos Cofre Brilhante"
 	},
 
 	serie: serie,

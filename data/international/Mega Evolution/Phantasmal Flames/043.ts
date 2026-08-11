@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Milcery",
-		fr: "Crèmy",
-		es: "Milcery",
+		'en-us': "Milcery",
+		'fr-fr': "Crèmy",
+		'es-es': "Milcery",
 		'es-mx': "Milcery",
-		de: "Hokumil",
-		it: "Milcery",
-		pt: "Milcery"
+		'de-de': "Hokumil",
+		'it-it': "Milcery",
+		'pt-br': "Milcery"
 	},
 
 	rarity: "Common",
@@ -26,23 +26,23 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Draining Kiss",
-			fr: "Vampibaiser",
-			es: "Beso Drenaje",
+			'en-us': "Draining Kiss",
+			'fr-fr': "Vampibaiser",
+			'es-es': "Beso Drenaje",
 			'es-mx': "Beso Drenador",
-			de: "Diebeskuss",
-			it: "Assorbibacio",
-			pt: "Beijo Drenante"
+			'de-de': "Diebeskuss",
+			'it-it': "Assorbibacio",
+			'pt-br': "Beijo Drenante"
 		},
 
 		effect: {
-			en: "Heal 10 damage from this Pokémon.",
-			fr: "Soignez 10 dégâts de ce Pokémon.",
-			es: "Cura 10 puntos de daño a este Pokémon.",
+			'en-us': "Heal 10 damage from this Pokémon.",
+			'fr-fr': "Soignez 10 dégâts de ce Pokémon.",
+			'es-es': "Cura 10 puntos de daño a este Pokémon.",
 			'es-mx': "Cura 10 puntos de daño a este Pokémon.",
-			de: "Heile 10 Schadenspunkte bei diesem Pokémon.",
-			it: "Cura questo Pokémon da 10 danni.",
-			pt: "Cure 10 pontos de dano deste Pokémon."
+			'de-de': "Heile 10 Schadenspunkte bei diesem Pokémon.",
+			'it-it': "Cura questo Pokémon da 10 danni.",
+			'pt-br': "Cure 10 pontos de dano deste Pokémon."
 		},
 
 		damage: 10
@@ -58,7 +58,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "The more sweet aromas it absorbs, the more its body swells. Milcery will deflate when its energy level drops.",
+		'en-us': "The more sweet aromas it absorbs, the more its body swells. Milcery will deflate when its energy level drops.",
 	},
 
 	illustrator: "Taiga Kayama",

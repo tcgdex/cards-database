@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Rongourmand",
-		en: "Skwovet",
-		es: "Skwovet",
-		it: "Skwovet",
-		pt: "Skwovet",
-		de: "Raffel"
+		'fr-fr': "Rongourmand",
+		'en-us': "Skwovet",
+		'es-es': "Skwovet",
+		'it-it': "Skwovet",
+		'pt-br': "Skwovet",
+		'de-de': "Raffel"
 	},
 
 	illustrator: "Naoki Saito",
@@ -22,24 +22,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Charge",
-			en: "Tackle",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'fr-fr': "Charge",
+			'en-us': "Tackle",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Morsure",
-			en: "Bite",
-			es: "Mordisco",
-			it: "Morso",
-			pt: "Mordida",
-			de: "Biss"
+			'fr-fr': "Morsure",
+			'en-us': "Bite",
+			'es-es': "Mordisco",
+			'it-it': "Morso",
+			'pt-br': "Mordida",
+			'de-de': "Biss"
 		},
 
 		damage: 20,
@@ -56,7 +56,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Found throughout the Galar region, this Pokémon becomes uneasy if its cheeks are ever completely empty of berries."
+		'en-us': "Found throughout the Galar region, this Pokémon becomes uneasy if its cheeks are ever completely empty of berries."
 	},
 
 	variants: [

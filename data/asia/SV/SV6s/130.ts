@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Dragapult ex"
+		'id-id': "Dragapult ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,18 +17,18 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Jet Head"
+			'id-id': "Jet Head"
 		},
 
 		damage: 70,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Phantom Dive"
+			'id-id': "Phantom Dive"
 		},
 
 		effect: {
-			id: "Letakkan sejumlah 6 Token Kerusakan pada Pokémon Cadangan lawan sesukanya."
+			'id-id': "Letakkan sejumlah 6 Token Kerusakan pada Pokémon Cadangan lawan sesukanya."
 		},
 
 		damage: 200,

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Feraligatr",
-		fr: "Aligatueur"
+		'en-us': "Feraligatr",
+		'fr-fr': "Aligatueur"
 	},
 
 	illustrator: "nagimiso",
@@ -18,28 +18,28 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Croconaw"
+		'en-us': "Croconaw"
 	},
 
 	description: {
-		en: "It usually moves slowly, but it goes at blinding\nspeed when it attacks and bites prey.",
-		fr: "Ce Pokémon à l'air pataud est capable d'attaquer à la vitesse de l'éclair pour mordre sa proie."
+		'en-us': "It usually moves slowly, but it goes at blinding\nspeed when it attacks and bites prey.",
+		'fr-fr': "Ce Pokémon à l'air pataud est capable d'attaquer à la vitesse de l'éclair pour mordre sa proie."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Destructive Whirlpool",
-			fr: "Siphon Destructeur"
+			'en-us': "Destructive Whirlpool",
+			'fr-fr': "Siphon Destructeur"
 		},
 
 		damage: 90,
 		cost: ["Water", "Water", "Colorless"],
 
 		effect: {
-			en: "Discard a random Energy from your opponent's Active Pokémon.",
-			fr: "Défaussez au hasard une Énergie du Pokémon Actif de votre adversaire."
+			'en-us': "Discard a random Energy from your opponent's Active Pokémon.",
+			'fr-fr': "Défaussez au hasard une Énergie du Pokémon Actif de votre adversaire."
 		}
 	}],
 

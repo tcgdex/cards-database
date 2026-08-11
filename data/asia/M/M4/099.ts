@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メガフラエッテex",
+		'ja-jp': "メガフラエッテex",
 	},
 
 	illustrator: "aky CG Works",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "やさしいひかり" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "おたがいのポケモン全員のHPを、それぞれ「30」回復する。",
+				'ja-jp': "おたがいのポケモン全員のHPを、それぞれ「30」回復する。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Psychic", "Psychic", "Psychic"],
 			effect: {
-				ja: "自分の山札から「基本[P]エネルギー」を4枚まで選び、ベンチポケモンに好きなようにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から「基本[P]エネルギー」を4枚まで選び、ベンチポケモンに好きなようにつける。そして山札を切る。",
 			},
 		},
 	],

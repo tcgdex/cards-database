@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Roselia",
-		fr: "Roselia",
-		de: "Roselia"
+		'en-us': "Roselia",
+		'fr-fr': "Roselia",
+		'de-de': "Roselia"
 	},
 
 	illustrator: "Takashi Yamaguchi",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Petal Dance",
-				fr: "Danse-fleur",
-				de: "Blättertanz"
+				'en-us': "Petal Dance",
+				'fr-fr': "Danse-fleur",
+				'de-de': "Blättertanz"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 20 damage times the number of heads. Roselia is now Confused.",
-				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face. Roselia est maintenant Confus.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu. Roselia ist jetzt verwirrt."
+				'en-us': "Flip 3 coins. This attack does 20 damage times the number of heads. Roselia is now Confused.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face. Roselia est maintenant Confus.",
+				'de-de': "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu. Roselia ist jetzt verwirrt."
 			},
 			damage: "20×",
 
@@ -53,7 +53,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Roselia that drink nutritionally rich springwater are said to reveal rare coloration when they bloom."
+		'en-us': "Roselia that drink nutritionally rich springwater are said to reveal rare coloration when they bloom."
 	},
 
 	variants: [

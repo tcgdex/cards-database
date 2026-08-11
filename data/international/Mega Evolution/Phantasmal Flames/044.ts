@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Alcremie",
-		fr: "Charmilly",
-		es: "Alcremie",
+		'en-us': "Alcremie",
+		'fr-fr': "Charmilly",
+		'es-es': "Alcremie",
 		'es-mx': "Alcremie",
-		de: "Pokusan",
-		it: "Alcremie",
-		pt: "Alcremie"
+		'de-de': "Pokusan",
+		'it-it': "Alcremie",
+		'pt-br': "Alcremie"
 	},
 
 	evolveFrom: {
-		en: "Milcery",
-		fr: "Crèmy",
-		es: "Milcery",
+		'en-us': "Milcery",
+		'fr-fr': "Crèmy",
+		'es-es': "Milcery",
 		'es-mx': "Milcery",
-		de: "Hokumil",
-		it: "Milcery",
-		pt: "Milcery",
+		'de-de': "Hokumil",
+		'it-it': "Milcery",
+		'pt-br': "Milcery",
 	},
 
 	rarity: "Uncommon",
@@ -36,23 +36,23 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Sweet Circle",
-			fr: "Cercle Sucré",
-			es: "Círculo Dulce",
+			'en-us': "Sweet Circle",
+			'fr-fr': "Cercle Sucré",
+			'es-es': "Círculo Dulce",
 			'es-mx': "Dulce Círculo",
-			de: "Süße Runde",
-			it: "Dolce Cerchio",
-			pt: "Ciranda Açucarada"
+			'de-de': "Süße Runde",
+			'it-it': "Dolce Cerchio",
+			'pt-br': "Ciranda Açucarada"
 		},
 
 		effect: {
-			en: "This attack does 20 damage for each of your Pokémon in play.",
-			fr: "Cette attaque inflige 20 dégâts pour chacun de vos Pokémon en jeu.",
-			es: "Este ataque hace 20 puntos de daño por cada uno de tus Pokémon en juego.",
+			'en-us': "This attack does 20 damage for each of your Pokémon in play.",
+			'fr-fr': "Cette attaque inflige 20 dégâts pour chacun de vos Pokémon en jeu.",
+			'es-es': "Este ataque hace 20 puntos de daño por cada uno de tus Pokémon en juego.",
 			'es-mx': "Este ataque hace 20 puntos de daño por cada uno de tus Pokémon en juego.",
-			de: "Diese Attacke fügt für jedes deiner Pokémon im Spiel 20 Schadenspunkte zu.",
-			it: "Questo attacco infligge 20 danni per ciascuno dei tuoi Pokémon in gioco.",
-			pt: "Este ataque causa 20 pontos de dano para cada um dos seus Pokémon em jogo."
+			'de-de': "Diese Attacke fügt für jedes deiner Pokémon im Spiel 20 Schadenspunkte zu.",
+			'it-it': "Questo attacco infligge 20 danni per ciascuno dei tuoi Pokémon in gioco.",
+			'pt-br': "Este ataque causa 20 pontos de dano para cada um dos seus Pokémon em jogo."
 		},
 
 		damage: "20×"
@@ -68,7 +68,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Desserts that Alcremie have decorated with their cream have a rich, sweet flavor and bring happiness to all who eat them.",
+		'en-us': "Desserts that Alcremie have decorated with their cream have a rich, sweet flavor and bring happiness to all who eat them.",
 	},
 
 	illustrator: "Narumi Sato",

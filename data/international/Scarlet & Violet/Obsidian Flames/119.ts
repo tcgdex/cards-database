@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Terracruel",
-		en: "Toedscruel",
-		es: "Toedscruel",
-		it: "Toedscruel",
-		pt: "Toedscruel",
-		de: "Tenterra"
+		'fr-fr': "Terracruel",
+		'en-us': "Toedscruel",
+		'es-es': "Toedscruel",
+		'it-it': "Toedscruel",
+		'pt-br': "Toedscruel",
+		'de-de': "Tenterra"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Fighting"],
 	evolveFrom: {
-		fr: "Terracool",
-		en: "Toedscool",
-		es: "Toedscool",
-		it: "Toedscool",
-		pt: "Toedscool",
-		de: "Tentagra"
+		'fr-fr': "Terracool",
+		'en-us': "Toedscool",
+		'es-es': "Toedscool",
+		'it-it': "Toedscool",
+		'pt-br': "Toedscool",
+		'de-de': "Tentagra"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Bataille",
-			en: "Beat",
-			es: "Toque",
-			it: "Battuta",
-			pt: "Pulso",
-			de: "Verprügler"
+			'fr-fr': "Bataille",
+			'en-us': "Beat",
+			'es-es': "Toque",
+			'it-it': "Battuta",
+			'pt-br': "Pulso",
+			'de-de': "Verprügler"
 		},
 
 		damage: 40
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Double Fouet",
-			en: "Double Whip",
-			es: "Doble Latigazo",
-			it: "Doppiafrustata",
-			pt: "Chicote Duplo",
-			de: "Doppelpeitsche"
+			'fr-fr': "Double Fouet",
+			'en-us': "Double Whip",
+			'es-es': "Doble Latigazo",
+			'it-it': "Doppiafrustata",
+			'pt-br': "Chicote Duplo",
+			'de-de': "Doppelpeitsche"
 		},
 
 		effect: {
-			fr: "Lancez 2 pièces. Cette attaque inflige 100 dégâts pour chaque côté face.",
-			en: "Flip 2 coins. This attack does 100 damage for each heads.",
-			es: "Lanza 2 monedas. Este ataque hace 100 puntos de daño por cada cara.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 100 danni ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 100 pontos de dano para cada cara.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 100 Schadenspunkte pro Kopf zu."
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 100 dégâts pour chaque côté face.",
+			'en-us': "Flip 2 coins. This attack does 100 damage for each heads.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 100 puntos de daño por cada cara.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 100 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 100 pontos de dano para cada cara.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 100 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "100×"
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "These Pokémon gather into groups and form colonies deep within forests. They absolutely hate it when strangers approach.",
+		'en-us': "These Pokémon gather into groups and form colonies deep within forests. They absolutely hate it when strangers approach.",
 	},
 
 	variants: [

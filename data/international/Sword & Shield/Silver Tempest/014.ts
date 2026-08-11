@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Virizion",
-		fr: "Viridium",
-		es: "Virizion",
-		it: "Virizion",
-		pt: "Virizion",
-		de: "Viridium"
+		'en-us': "Virizion",
+		'fr-fr': "Viridium",
+		'es-es': "Virizion",
+		'it-it': "Virizion",
+		'pt-br': "Virizion",
+		'de-de': "Viridium"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Four as One",
-			fr: "Quatre pour Un",
-			es: "Cuatro para Uno",
-			it: "Tetrasintonia",
-			pt: "Quatro em Um",
-			de: "Viererpakt"
+			'en-us': "Four as One",
+			'fr-fr': "Quatre pour Un",
+			'es-es': "Cuatro para Uno",
+			'it-it': "Tetrasintonia",
+			'pt-br': "Quatro em Um",
+			'de-de': "Viererpakt"
 		},
 
 		effect: {
-			en: "If Cobalion, Terrakion, and Keldeo are on your Bench, this attack does 70 more damage.",
-			fr: "Si Cobaltium, Terrakium et Keldeo sont sur votre Banc, cette attaque inflige 70 dégâts supplémentaires.",
-			es: "Si Cobalion, Terrakion y Keldeo están en tu Banca, este ataque hace 70 puntos de daño más.",
-			it: "Se Cobalion, Terrakion e Keldeo sono nella tua panchina, questo attacco infligge 70 danni in più.",
-			pt: "Se Cobalion, Terrakion e Keldeo estiverem no seu Banco, este ataque causará 70 pontos de dano a mais.",
-			de: "Wenn sich Kobalium, Terrakium und Keldeo auf deiner Bank befinden, fügt diese Attacke 70 Schadenspunkte mehr zu."
+			'en-us': "If Cobalion, Terrakion, and Keldeo are on your Bench, this attack does 70 more damage.",
+			'fr-fr': "Si Cobaltium, Terrakium et Keldeo sont sur votre Banc, cette attaque inflige 70 dégâts supplémentaires.",
+			'es-es': "Si Cobalion, Terrakion y Keldeo están en tu Banca, este ataque hace 70 puntos de daño más.",
+			'it-it': "Se Cobalion, Terrakion e Keldeo sono nella tua panchina, questo attacco infligge 70 danni in più.",
+			'pt-br': "Se Cobalion, Terrakion e Keldeo estiverem no seu Banco, este ataque causará 70 pontos de dano a mais.",
+			'de-de': "Wenn sich Kobalium, Terrakium und Keldeo auf deiner Bank befinden, fügt diese Attacke 70 Schadenspunkte mehr zu."
 		},
 
 		damage: "20+"
@@ -47,21 +47,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Leaf Drain",
-			fr: "Feuille Sangsue",
-			es: "Hoja Drenante",
-			it: "Assorbifoglia",
-			pt: "Dreno Folha",
-			de: "Blattsauger"
+			'en-us': "Leaf Drain",
+			'fr-fr': "Feuille Sangsue",
+			'es-es': "Hoja Drenante",
+			'it-it': "Assorbifoglia",
+			'pt-br': "Dreno Folha",
+			'de-de': "Blattsauger"
 		},
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon.",
-			fr: "Soignez 20 dégâts de ce Pokémon.",
-			es: "Cura 20 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 20 danni.",
-			pt: "Cure 20 pontos de dano deste Pokémon.",
-			de: "Heile 20 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 20 damage from this Pokémon.",
+			'fr-fr': "Soignez 20 dégâts de ce Pokémon.",
+			'es-es': "Cura 20 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 20 danni.",
+			'pt-br': "Cure 20 pontos de dano deste Pokémon.",
+			'de-de': "Heile 20 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 50
@@ -78,7 +78,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A legend tells of this Pokémon working together with Cobalion and Terrakion to protect the Pokémon of the Unova region.",
+		'en-us': "A legend tells of this Pokémon working together with Cobalion and Terrakion to protect the Pokémon of the Unova region.",
 	},
 
 	variants: [

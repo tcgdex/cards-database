@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Shrouded Fable"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Toxicroak",
-		fr: "Coatox",
-		es: "Toxicroak",
-		it: "Toxicroak",
-		pt: "Toxicroak",
-		de: "Toxiquak"
+		'en-us': "Toxicroak",
+		'fr-fr': "Coatox",
+		'es-es': "Toxicroak",
+		'it-it': "Toxicroak",
+		'pt-br': "Toxicroak",
+		'de-de': "Toxiquak"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 130,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Croagunk",
-		fr: "Cradopaud",
-		es: "Croagunk",
-		it: "Croagunk",
-		pt: "Croagunk",
-		de: "Glibunkel"
+		'en-us': "Croagunk",
+		'fr-fr': "Cradopaud",
+		'es-es': "Croagunk",
+		'it-it': "Croagunk",
+		'pt-br': "Croagunk",
+		'de-de': "Glibunkel"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Corkscrew Punch",
-			fr: "Poing Tire-Bouchon",
-			es: "Puño Tirabuzón",
-			it: "Pugno Rotante",
-			pt: "Soco Saca-rolha",
-			de: "Korkenzieherhieb"
+			'en-us': "Corkscrew Punch",
+			'fr-fr': "Poing Tire-Bouchon",
+			'es-es': "Puño Tirabuzón",
+			'it-it': "Pugno Rotante",
+			'pt-br': "Soco Saca-rolha",
+			'de-de': "Korkenzieherhieb"
 		},
 
 		damage: 50
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			en: "Clean Hit",
-			fr: "Coup Net",
-			es: "Impacto Limpio",
-			it: "Colpo Pulito",
-			pt: "Golpe Certeiro",
-			de: "Sauberer Treffer"
+			'en-us': "Clean Hit",
+			'fr-fr': "Coup Net",
+			'es-es': "Impacto Limpio",
+			'it-it': "Colpo Pulito",
+			'pt-br': "Golpe Certeiro",
+			'de-de': "Sauberer Treffer"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 90 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 90 dégâts supplémentaires.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 90 puntos de daño más.",
-			it: "Se il Pokémon attivo del tuo avversario è un Pokémon Evoluzione, questo attacco infligge 90 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon de Evolução, este ataque causará 90 pontos de dano a mais.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
+			'en-us': "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 90 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon Évolutif, cette attaque inflige 90 dégâts supplémentaires.",
+			'es-es': "Si el Pokémon Activo de tu rival es un Pokémon Evolución, este ataque hace 90 puntos de daño más.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon Evoluzione, questo attacco infligge 90 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon de Evolução, este ataque causará 90 pontos de dano a mais.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners ein Entwicklungs-Pokémon ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
 		},
 
 		damage: "90+"

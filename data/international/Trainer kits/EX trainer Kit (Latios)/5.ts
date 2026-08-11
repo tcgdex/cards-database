@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../EX trainer Kit (Latios)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magneton",
-		fr: "Magneton"
+		'en-us': "Magneton",
+		'fr-fr': "Magneton"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magnemite",
-		fr: "Magnéti"
+		'en-us': "Magnemite",
+		'fr-fr': "Magnéti"
 	},
 
 	attacks: [{
@@ -31,8 +31,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Ram",
-			fr: "Collision"
+			'en-us': "Ram",
+			'fr-fr': "Collision"
 		},
 		damage: 20
 	}, {
@@ -42,12 +42,12 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Triple Smash",
-			fr: "Triple éclate"
+			'en-us': "Triple Smash",
+			'fr-fr': "Triple éclate"
 		},
 		effect: {
-			en: "Flip 3 coins. This attack does 20 damage plus 20 more damage for each heads.",
-			fr: "Lancez trois pièces. Cette attaque inflige 20 dégâts plus 20 dégâts multipliés par le nombre de faces."
+			'en-us': "Flip 3 coins. This attack does 20 damage plus 20 more damage for each heads.",
+			'fr-fr': "Lancez trois pièces. Cette attaque inflige 20 dégâts plus 20 dégâts multipliés par le nombre de faces."
 		},
 		damage: "20+"
 	}],

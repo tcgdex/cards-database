@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [248],
 
 	name: {
-		en: "Tyranitar",
-		fr: "Tyranocif",
-		es: "Tyranitar",
-		it: "Tyranitar",
-		pt: "Tyranitar",
-		de: "Despotar"
+		'en-us': "Tyranitar",
+		'fr-fr': "Tyranocif",
+		'es-es': "Tyranitar",
+		'it-it': "Tyranitar",
+		'pt-br': "Tyranitar",
+		'de-de': "Despotar"
 	},
 
 	illustrator: "nagimiso",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pupitar",
-		fr: "Ymphect",
-		es: "Pupitar",
-		it: "Pupitar",
-		pt: "Pupitar",
-		de: "Pupitar"
+		'en-us': "Pupitar",
+		'fr-fr': "Ymphect",
+		'es-es': "Pupitar",
+		'it-it': "Pupitar",
+		'pt-br': "Pupitar",
+		'de-de': "Pupitar"
 	},
 
 	attacks: [
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bedrock Breaker",
-				fr: "Brise Fondation",
-				es: "Rompecimientos",
-				it: "Infrangiroccia",
-				pt: "Quebrador de Alicerce",
-				de: "Felsgrundbrecher"
+				'en-us': "Bedrock Breaker",
+				'fr-fr': "Brise Fondation",
+				'es-es': "Rompecimientos",
+				'it-it': "Infrangiroccia",
+				'pt-br': "Quebrador de Alicerce",
+				'de-de': "Felsgrundbrecher"
 			},
 			effect: {
-				en: "Discard a Stadium in play.",
-				fr: "Défaussez un Stade en jeu.",
-				es: "Descarta un Estadio en juego.",
-				it: "Scarta una carta Stadio in gioco.",
-				pt: "Descarte 1 Estádio em jogo.",
-				de: "Lege 1 Stadionkarte im Spiel auf den Ablagestapel."
+				'en-us': "Discard a Stadium in play.",
+				'fr-fr': "Défaussez un Stade en jeu.",
+				'es-es': "Descarta un Estadio en juego.",
+				'it-it': "Scarta una carta Stadio in gioco.",
+				'pt-br': "Descarte 1 Estádio em jogo.",
+				'de-de': "Lege 1 Stadionkarte im Spiel auf den Ablagestapel."
 			},
 			damage: 120,
 
@@ -66,20 +66,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mountain Swing",
-				fr: "Frappe Montagneuse",
-				es: "Embestida Montaña",
-				it: "Oscillamonte",
-				pt: "Tacada Montanhosa",
-				de: "Bergschwinger"
+				'en-us': "Mountain Swing",
+				'fr-fr': "Frappe Montagneuse",
+				'es-es': "Embestida Montaña",
+				'it-it': "Oscillamonte",
+				'pt-br': "Tacada Montanhosa",
+				'de-de': "Bergschwinger"
 			},
 			effect: {
-				en: "Discard the top 5 cards of your deck.",
-				fr: "Défaussez les 5 cartes du dessus de votre deck.",
-				es: "Descarta las 5 primeras cartas de tu baraja.",
-				it: "Scarta le prime cinque carte del tuo mazzo.",
-				pt: "Descarte as 5 cartas de cima do seu baralho.",
-				de: "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel."
+				'en-us': "Discard the top 5 cards of your deck.",
+				'fr-fr': "Défaussez les 5 cartes du dessus de votre deck.",
+				'es-es': "Descarta las 5 primeras cartas de tu baraja.",
+				'it-it': "Scarta le prime cinque carte del tuo mazzo.",
+				'pt-br': "Descarte as 5 cartas de cima do seu baralho.",
+				'de-de': "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel."
 			},
 			damage: 250,
 
@@ -100,7 +100,7 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "Its body can't be harmed by any sort of attack, so it is very eager to make challenges against enemies."
+		'en-us': "Its body can't be harmed by any sort of attack, so it is very eager to make challenges against enemies."
 	},
 
 	variants: [

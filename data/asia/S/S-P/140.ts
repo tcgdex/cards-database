@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マリィ",
+		'ja-jp': "マリィ",
 		'zh-tw': "莫魯貝可",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのプレイヤーは、それぞれ自分の手札をすべてウラにして切り、山札の下にもどす。その後、自分は5枚、相手は4枚、山札を引く。",
+		'ja-jp': "おたがいのプレイヤーは、それぞれ自分の手札をすべてウラにして切り、山札の下にもどす。その後、自分は5枚、相手は4枚、山札を引く。",
 	},
 
 	variants: [

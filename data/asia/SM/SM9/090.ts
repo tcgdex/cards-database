@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シオンタウン",
+		'ja-jp': "シオンタウン",
 	},
 
 	illustrator: "5ban Graphics",
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのプレイヤーは、自分の番ごとに1回、相手の手札を見てよい。",
+		'ja-jp': "おたがいのプレイヤーは、自分の番ごとに1回、相手の手札を見てよい。",
 	},
 
 	variants: [

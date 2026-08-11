@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Nosepass",
-		fr: "Tarinor",
-		de: "Nasgnet",
-		it: "Nosepass",
-		es: "Nosepass",
-		pt: "Nosepass",
+		'en-us': "Nosepass",
+		'fr-fr': "Tarinor",
+		'de-de': "Nasgnet",
+		'it-it': "Nosepass",
+		'es-es': "Nosepass",
+		'pt-br': "Nosepass",
 		'es-mx': "Nosepass"
 	},
 
@@ -28,12 +28,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			de: "Kopfnuss",
-			it: "Bottintesta",
-			es: "Golpe Cabeza",
-			pt: "Cabeçada",
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'de-de': "Kopfnuss",
+			'it-it': "Bottintesta",
+			'es-es': "Golpe Cabeza",
+			'pt-br': "Cabeçada",
 			'es-mx': "Golpe Cabeza"
 		},
 
@@ -42,12 +42,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Rock Throw",
-			fr: "Jet-Pierres",
-			de: "Steinwurf",
-			it: "Sassata",
-			es: "Lanzarrocas",
-			pt: "Lançamento de Rocha",
+			'en-us': "Rock Throw",
+			'fr-fr': "Jet-Pierres",
+			'de-de': "Steinwurf",
+			'it-it': "Sassata",
+			'es-es': "Lanzarrocas",
+			'pt-br': "Lançamento de Rocha",
 			'es-mx': "Lanzarrocas"
 		},
 

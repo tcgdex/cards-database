@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Meowth",
-		fr: "Miaouss",
-		es: "Meowth",
-		it: "Meowth",
-		pt: "Meowth",
-		de: "Mauzi"
+		'en-us': "Meowth",
+		'fr-fr': "Miaouss",
+		'es-es': "Meowth",
+		'it-it': "Meowth",
+		'pt-br': "Meowth",
+		'de-de': "Mauzi"
 	},
 
 	illustrator: "kirisAki",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Exhausted Tackle",
-				fr: "Tacle Épuisé",
-				es: "Placaje Fatigado",
-				it: "Placcaggio Moscio",
-				pt: "Investida Exaurida",
-				de: "Erschöpfter Tackle"
+				'en-us': "Exhausted Tackle",
+				'fr-fr': "Tacle Épuisé",
+				'es-es': "Placaje Fatigado",
+				'it-it': "Placcaggio Moscio",
+				'pt-br': "Investida Exaurida",
+				'de-de': "Erschöpfter Tackle"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage to your opponent's Active Pokémon. If tails, this Pokémon does 30 damage to itself.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts au Pokémon Actif de votre adversaire. Si c'est pile, ce Pokémon s'inflige 30 dégâts.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño al Pokémon Activo de tu rival. Si sale cruz, este Pokémon se hace 30 puntos de daño a sí mismo.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni al Pokémon attivo del tuo avversario. Se esce croce, questo Pokémon infligge 30 danni a se stesso.",
-				pt: "Jogue uma moeda. Se sair cara, este ataque causará 30 de danos ao Pokémon Ativo do seu oponente. Se sair coroa, este Pokémon causará 30 de danos a ele mesmo.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff dem Aktiven Pokémon deines Gegners 30 weitere Schadenspunkte zu. Bei \"Zahl\" fügt sich dieses Pokémon selbst 30 Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 damage to your opponent's Active Pokémon. If tails, this Pokémon does 30 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts au Pokémon Actif de votre adversaire. Si c'est pile, ce Pokémon s'inflige 30 dégâts.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño al Pokémon Activo de tu rival. Si sale cruz, este Pokémon se hace 30 puntos de daño a sí mismo.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni al Pokémon attivo del tuo avversario. Se esce croce, questo Pokémon infligge 30 danni a se stesso.",
+				'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 30 de danos ao Pokémon Ativo do seu oponente. Se sair coroa, este Pokémon causará 30 de danos a ele mesmo.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff dem Aktiven Pokémon deines Gegners 30 weitere Schadenspunkte zu. Bei \"Zahl\" fügt sich dieses Pokémon selbst 30 Schadenspunkte zu."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change.",
+		'en-us': "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change.",
 	},
 
 	thirdParty: {

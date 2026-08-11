@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホロンの電極",
+		'ja-jp': "ホロンの電極",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "眩しい爆発",
+				'ja-jp': "眩しい爆発",
 			},
 			effect: {
-				ja: "防御ポケモンは今混乱しています。",
+				'ja-jp': "防御ポケモンは今混乱しています。",
 			},
 			damage: 30,
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Lotad",
-		fr: "Nenupiot",
-		de: "Loturzel"
+		'en-us': "Lotad",
+		'fr-fr': "Nenupiot",
+		'de-de': "Loturzel"
 	},
 
 	illustrator: "Aya Kusube",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Aqua Lift",
-				fr: "Aqua-élévation",
-				de: "Aquatransporter"
+				'en-us': "Aqua Lift",
+				'fr-fr': "Aqua-élévation",
+				'de-de': "Aquatransporter"
 			},
 			effect: {
-				en: "If Lotad has any Water Energy attached to it, the Retreat Cost for Lotad is 0.",
-				fr: "Si Nenupiot possède une Énergie , son Coût de retraite est de 0.",
-				de: "Wenn mindestens 1 -Energie an Loturzel angelegt ist, hat Loturzel Rückzugskosten 0."
+				'en-us': "If Lotad has any Water Energy attached to it, the Retreat Cost for Lotad is 0.",
+				'fr-fr': "Si Nenupiot possède une Énergie , son Coût de retraite est de 0.",
+				'de-de': "Wenn mindestens 1 -Energie an Loturzel angelegt ist, hat Loturzel Rückzugskosten 0."
 			},
 		},
 	],
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rolling Tackle",
-				fr: "Roulé-boulé",
-				de: "Rolltackle"
+				'en-us': "Rolling Tackle",
+				'fr-fr': "Roulé-boulé",
+				'de-de': "Rolltackle"
 			},
 
 			damage: 20,

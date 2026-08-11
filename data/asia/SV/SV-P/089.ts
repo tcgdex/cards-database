@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スコヴィランex",
+		'ja-jp': "スコヴィランex",
 		'zh-tw': "鑰圈兒",
 	},
 
@@ -18,12 +18,12 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "からくちバインド",
+				'ja-jp': "からくちバインド",
 				'zh-tw': "狙落",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。次の相手の番、このワザを受けたポケモンは、にげられない。",
 				'zh-tw': "在造成傷害前，將對手的戰鬥寶可夢身上附加的「寶可夢道具」卡丟棄。",
 			},
 		},
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 140,
 			cost: ["Grass", "Grass"],
 			effect: {
-				ja: "相手の手札からオモテを見ないで1枚選び、トラッシュする。相手の山札を上から1枚トラッシュする。",
+				'ja-jp': "相手の手札からオモテを見ないで1枚選び、トラッシュする。相手の山札を上から1枚トラッシュする。",
 			},
 		},
 	],
@@ -51,7 +51,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カプサイジ",
+		'ja-jp': "カプサイジ",
 	},
 
 	retreat: 2,

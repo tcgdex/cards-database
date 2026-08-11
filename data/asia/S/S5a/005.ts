@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S5a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "百合根娃娃",
-		th: "จูริเน"
+		'th-th': "จูริเน"
 	},
 
 	illustrator: "Mika Pikazo",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "喜歡乾淨的水和土壤。如果棲息地的環境變差，就會成群遷移到新的地方。",
-		th: "ชื่นชอบน้ำและดินที่สะอาด เมื่อสภาพแวดล้อมของบริเวณที่อยู่อาศัยสกปรกขึ้น จะย้ายหาที่อยู่ใหม่กันเป็นฝูง"
+		'th-th': "ชื่นชอบน้ำและดินที่สะอาด เมื่อสภาพแวดล้อมของบริเวณที่อยู่อาศัยสกปรกขึ้น จะย้ายหาที่อยู่ใหม่กันเป็นฝูง"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "種子炸彈",
-			th: "ระเบิดเมล็ดพืช"
+			'th-th': "ระเบิดเมล็ดพืช"
 		},
 
 		damage: 20,

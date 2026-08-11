@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Glimmora ex"
+		'id-id': "Glimmora ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Medan Debu"
+			'id-id': "Medan Debu"
 		},
 
 		effect: {
-			id: "Selama Pokémon ini ada di Arena Bertarung, jumlah Pokémon yang dapat dimasukkan lawan ke Cadangan menjadi 3. Jika ada 4 atau lebih Pokémon di Cadangan lawan, lawan membuang Pokémon Cadangan ke Trash hingga jumlah Pokémon di Cadangan menjadi 3. [Efek yang mengubah jumlah Cadangan mengutamakan efek yang jumlahnya lebih sedikit.]"
+			'id-id': "Selama Pokémon ini ada di Arena Bertarung, jumlah Pokémon yang dapat dimasukkan lawan ke Cadangan menjadi 3. Jika ada 4 atau lebih Pokémon di Cadangan lawan, lawan membuang Pokémon Cadangan ke Trash hingga jumlah Pokémon di Cadangan menjadi 3. [Efek yang mengubah jumlah Cadangan mengutamakan efek yang jumlahnya lebih sedikit.]"
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Poison Gem"
+			'id-id': "Poison Gem"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Racun."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Racun."
 		},
 
 		damage: 140,

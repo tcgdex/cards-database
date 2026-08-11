@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラティアススター",
+		'ja-jp': "ラティアススター",
 	},
 
 	rarity: "Shiny rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "癒しの光",
+				'ja-jp': "癒しの光",
 			},
 			effect: {
-				ja: "各ポケモンから1つのダメージカウンターを削除します（{{star | this pokemon}}を含む）。",
+				'ja-jp': "各ポケモンから1つのダメージカウンターを削除します（{{star | this pokemon}}を含む）。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fire", "Water", "Psychic"],
 			name: {
-				ja: "シューティングスター",
+				'ja-jp': "シューティングスター",
 			},
 			effect: {
-				ja: "防御ポケモンがポケモン-Exの場合、ラティアスに取り付けられたすべてのエネルギーカードを破棄します{{star | this pokemon}}。この攻撃は50のダメージと100ダメージを与えます。",
+				'ja-jp': "防御ポケモンがポケモン-Exの場合、ラティアスに取り付けられたすべてのエネルギーカードを破棄します{{star | this pokemon}}。この攻撃は50のダメージと100ダメージを与えます。",
 			},
 		},
 	],

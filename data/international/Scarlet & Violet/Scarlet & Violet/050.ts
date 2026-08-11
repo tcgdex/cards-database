@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Clawitzer",
-		fr: "Gamblast",
-		es: "Clawitzer",
-		it: "Clawitzer",
-		pt: "Clawitzer",
-		de: "Wummer"
+		'en-us': "Clawitzer",
+		'fr-fr': "Gamblast",
+		'es-es': "Clawitzer",
+		'it-it': "Clawitzer",
+		'pt-br': "Clawitzer",
+		'de-de': "Wummer"
 	},
 
 	rarity: "Common",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Clauncher",
-		fr: "Flingouste"
+		'en-us': "Clauncher",
+		'fr-fr': "Flingouste"
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Water Gun",
-			fr: "Pistolet à O",
-			es: "Pistola Agua",
-			it: "Pistolacqua",
-			pt: "Revólver d'Água",
-			de: "Aquaknarre"
+			'en-us': "Water Gun",
+			'fr-fr': "Pistolet à O",
+			'es-es': "Pistola Agua",
+			'it-it': "Pistolacqua",
+			'pt-br': "Revólver d'Água",
+			'de-de': "Aquaknarre"
 		},
 
 		damage: 50
@@ -43,21 +43,21 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			en: "Aqua Cannon",
-			fr: "Aqua-Canon",
-			es: "Cañón Aqua",
-			it: "Cannone Acquatico",
-			pt: "Aqua Canhão",
-			de: "Wasserkanone"
+			'en-us': "Aqua Cannon",
+			'fr-fr': "Aqua-Canon",
+			'es-es': "Cañón Aqua",
+			'it-it': "Cannone Acquatico",
+			'pt-br': "Aqua Canhão",
+			'de-de': "Wasserkanone"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 160
@@ -84,7 +84,7 @@ const card: Card = {
 	illustrator: "Souichirou Gunjima",
 
 	description: {
-		en: "The cannonballs of seawater that Clawitzer launches from its claw are powerful enough to punch through tanker hulls.",
+		'en-us': "The cannonballs of seawater that Clawitzer launches from its claw are powerful enough to punch through tanker hulls.",
 	},
 
 	thirdParty: {

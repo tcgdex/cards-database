@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Kingler",
-		fr: "Krabboss",
-		es: "Kingler",
-		it: "Kingler",
-		pt: "Kingler",
-		de: "Kingler"
+		'en-us': "Kingler",
+		'fr-fr': "Krabboss",
+		'es-es': "Kingler",
+		'it-it': "Kingler",
+		'pt-br': "Kingler",
+		'de-de': "Kingler"
 	},
 
 	illustrator: "match",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Krabby",
-		fr: "Krabby",
-		es: "Krabby",
-		it: "Krabby",
-		pt: "Krabby",
-		de: "Krabby"
+		'en-us': "Krabby",
+		'fr-fr': "Krabby",
+		'es-es': "Krabby",
+		'it-it': "Krabby",
+		'pt-br': "Krabby",
+		'de-de': "Krabby"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Guard Claw",
-				fr: "Griffe de Garde",
-				es: "Garra Guardia",
-				it: "Difesartiglio",
-				pt: "Garra Protetora",
-				de: "Abwehrklaue"
+				'en-us': "Guard Claw",
+				'fr-fr': "Griffe de Garde",
+				'es-es': "Garra Guardia",
+				'it-it': "Difesartiglio",
+				'pt-br': "Garra Protetora",
+				'de-de': "Abwehrklaue"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
-				es: "Durante el próximo turno de tu rival, cualquier daño infligido a este Pokémon por ataques se reduce en 20 (después de aplicar Debilidad y Resistencia).",
-				it: "Durante il prossimo turno del tuo avversario, i danni inflitti a questo Pokémon dagli attacchi sono ridotti di 20, dopo aver applicato debolezza e resistenza.",
-				pt: "Durante a próxima vez de jogar do seu oponente, qualquer dano causado a este Pokémon por ataques será reduzido em 20 (após a aplicação de Fraqueza e Resistência).",
-				de: "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'es-es': "Durante el próximo turno de tu rival, cualquier daño infligido a este Pokémon por ataques se reduce en 20 (después de aplicar Debilidad y Resistencia).",
+				'it-it': "Durante il prossimo turno del tuo avversario, i danni inflitti a questo Pokémon dagli attacchi sono ridotti di 20, dopo aver applicato debolezza e resistenza.",
+				'pt-br': "Durante a próxima vez de jogar do seu oponente, qualquer dano causado a este Pokémon por ataques será reduzido em 20 (após a aplicação de Fraqueza e Resistência).",
+				'de-de': "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 20,
 
@@ -69,12 +69,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Crabhammer",
-				fr: "Pince-Masse",
-				es: "Martillazo",
-				it: "Martellata",
-				pt: "Martelo Caranguejo",
-				de: "Krabbhammer"
+				'en-us': "Crabhammer",
+				'fr-fr': "Pince-Masse",
+				'es-es': "Martillazo",
+				'it-it': "Martellata",
+				'pt-br': "Martelo Caranguejo",
+				'de-de': "Krabbhammer"
 			},
 
 			damage: 100,
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "The large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move.",
+		'en-us': "The large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move.",
 	},
 
 	thirdParty: {

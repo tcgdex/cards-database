@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トリミアン",
+		'ja-jp': "トリミアン",
 	},
 
 	illustrator: "Teeziro",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "大昔の カロス地方では 王様を 護衛する 役目を 与えられた ポケモン。",
+		'ja-jp': "大昔の カロス地方では 王様を 護衛する 役目を 与えられた ポケモン。",
 	},
 
 	stage: "Basic",

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Machoke",
-		fr: "Machopeur",
-		es: "Machoke",
-		it: "Machoke",
-		pt: "Machoke",
-		de: "Maschock"
+		'en-us': "Machoke",
+		'fr-fr': "Machopeur",
+		'es-es': "Machoke",
+		'it-it': "Machoke",
+		'pt-br': "Machoke",
+		'de-de': "Maschock"
 	},
 
 	illustrator: "match",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Machop",
-		fr: "Machoc",
+		'en-us': "Machop",
+		'fr-fr': "Machoc",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Last-Chance Chop",
-				fr: "Dernière Chance",
+				'en-us': "Last-Chance Chop",
+				'fr-fr': "Dernière Chance",
 			},
 			effect: {
-				en: "If this Pokémon's remaining HP is 10, this attack does 70 more damage.",
-				fr: "S'il reste 10 PV à ce Pokémon, cette attaque inflige 70 dégâts supplémentaires.",
+				'en-us': "If this Pokémon's remaining HP is 10, this attack does 70 more damage.",
+				'fr-fr': "S'il reste 10 PV à ce Pokémon, cette attaque inflige 70 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -56,8 +56,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Seismic Toss",
-				fr: "Frappe Atlas",
+				'en-us': "Seismic Toss",
+				'fr-fr': "Frappe Atlas",
 			},
 
 			damage: 60,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It happily carries heavy cargo to toughen up. It willingly does hard work for people.",
+		'en-us': "It happily carries heavy cargo to toughen up. It willingly does hard work for people.",
 	},
 
 	thirdParty: {

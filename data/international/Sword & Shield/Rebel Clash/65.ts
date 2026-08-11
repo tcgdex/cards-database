@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [737],
 
 	name: {
-		en: "Charjabug",
-		fr: "Chrysapile",
-		es: "Charjabug",
-		it: "Charjabug",
-		pt: "Charjabug",
-		de: "Akkup"
+		'en-us': "Charjabug",
+		'fr-fr': "Chrysapile",
+		'es-es': "Charjabug",
+		'it-it': "Charjabug",
+		'pt-br': "Charjabug",
+		'de-de': "Akkup"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -19,12 +19,12 @@ const card: Card = {
 	set: Set,
 
 	evolveFrom: {
-		en: "Grubbin",
-		fr: "Larvibule",
-		es: "Grubbin",
-		it: "Grubbin",
-		pt: "Grubbin",
-		de: "Mabula"
+		'en-us': "Grubbin",
+		'fr-fr': "Larvibule",
+		'es-es': "Grubbin",
+		'it-it': "Grubbin",
+		'pt-br': "Grubbin",
+		'de-de': "Mabula"
 	},
 
 	attacks: [
@@ -33,20 +33,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Charge",
-				fr: "Chargeur",
-				es: "Carga",
-				it: "Sottocarica",
-				pt: "Carga",
-				de: "Ladevorgang"
+				'en-us': "Charge",
+				'fr-fr': "Chargeur",
+				'es-es': "Carga",
+				'it-it': "Sottocarica",
+				'pt-br': "Carga",
+				'de-de': "Ladevorgang"
 			},
 			effect: {
-				en: "Search your deck for up to 2 Lightning Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
-				fr: "Cherchez jusqu'à 2 cartes Énergie Lightning dans votre deck, puis attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja hasta 2 cartas de Energía Lightning y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
-				it: "Cerca nel tuo mazzo fino a due carte Energia Lightning e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure por até 2 cartas de Energia Lightning no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 2 Lightning-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+				'en-us': "Search your deck for up to 2 Lightning Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
+				'fr-fr': "Cherchez jusqu'à 2 cartes Énergie Lightning dans votre deck, puis attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja hasta 2 cartas de Energía Lightning y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo fino a due carte Energia Lightning e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por até 2 cartas de Energia Lightning no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach bis zu 2 Lightning-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lightning Ball",
-				fr: "Boule Éclair",
-				es: "Bola Relámpago",
-				it: "Fulminpalla",
-				pt: "Bola de Raios",
-				de: "Kugelblitz"
+				'en-us': "Lightning Ball",
+				'fr-fr': "Boule Éclair",
+				'es-es': "Bola Relámpago",
+				'it-it': "Fulminpalla",
+				'pt-br': "Bola de Raios",
+				'de-de': "Kugelblitz"
 			},
 
 			damage: 70,
@@ -86,7 +86,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "While its durable shell protects it from attacks, Charjabug strikes at enemies with jolts of electricity discharged from the tips of its jaws."
+		'en-us': "While its durable shell protects it from attacks, Charjabug strikes at enemies with jolts of electricity discharged from the tips of its jaws."
 	},
 
 	variants: [

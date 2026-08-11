@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Whimsicott",
-		fr: "Farfaduvet",
-		es: "Whimsicott",
-		it: "Whimsicott",
-		pt: "Whimsicott",
-		de: "Elfun"
+		'en-us': "Whimsicott",
+		'fr-fr': "Farfaduvet",
+		'es-es': "Whimsicott",
+		'it-it': "Whimsicott",
+		'pt-br': "Whimsicott",
+		'de-de': "Elfun"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Cottonee",
-		fr: "Doudouvet",
-		es: "Cottonee",
-		it: "Cottonee",
-		pt: "Cottonee",
-		de: "Waumboll"
+		'en-us': "Cottonee",
+		'fr-fr': "Doudouvet",
+		'es-es': "Cottonee",
+		'it-it': "Cottonee",
+		'pt-br': "Cottonee",
+		'de-de': "Waumboll"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Fairy Wind",
-			fr: "Vent Féérique",
-			es: "Viento Feérico",
-			it: "Vento di Fata",
-			pt: "Vento de Fada",
-			de: "Feenbrise"
+			'en-us': "Fairy Wind",
+			'fr-fr': "Vent Féérique",
+			'es-es': "Viento Feérico",
+			'it-it': "Vento di Fata",
+			'pt-br': "Vento de Fada",
+			'de-de': "Feenbrise"
 		},
 
 		damage: 50
@@ -74,7 +74,7 @@ const card: Card = {
 	illustrator: "KYUPIYAMA",
 
 	description: {
-		en: "As long as this Pokémon bathes in sunlight, its cotton keeps growing. If too much cotton fluff builds up, Whimsicott tears it off and scatters it.",
+		'en-us': "As long as this Pokémon bathes in sunlight, its cotton keeps growing. If too much cotton fluff builds up, Whimsicott tears it off and scatters it.",
 	},
 
 }

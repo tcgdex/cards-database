@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Magmar",
-		fr: "Magmar",
-		de: "Magmar",
-		it: "Magmar"
+		'en-us': "Magmar",
+		'fr-fr': "Magmar",
+		'de-de': "Magmar",
+		'it-it': "Magmar"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fire Punch",
-				fr: "Poing de Feu",
-				de: "Feuerschlag",
-				it: "Fuocopugno"
+				'en-us': "Fire Punch",
+				'fr-fr': "Poing de Feu",
+				'de-de': "Feuerschlag",
+				'it-it': "Fuocopugno"
 			},
 
 			damage: 30,
@@ -49,16 +49,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-flamme",
-				de: "Flammenwurf",
-				it: "Lanciafiamme"
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-flamme",
+				'de-de': "Flammenwurf",
+				'it-it': "Lanciafiamme"
 			},
 			effect: {
-				en: "Discard 1 Energy card attached to Magmar in order to use this attack.",
-				fr: "Défaussez 1 carte Énergie  attachée à Magmar pour pouvoir utiliser cette attaque.",
-				de: "Entferne eine auf Magmar abgelegte  Energiekarte, um diesen Angriff auszuführen.",
-				it: "Scarta una carta Energia Fuoco assegnata a Magmar per poter usare questo attacco."
+				'en-us': "Discard 1 Energy card attached to Magmar in order to use this attack.",
+				'fr-fr': "Défaussez 1 carte Énergie  attachée à Magmar pour pouvoir utiliser cette attaque.",
+				'de-de': "Entferne eine auf Magmar abgelegte  Energiekarte, um diesen Angriff auszuführen.",
+				'it-it': "Scarta una carta Energia Fuoco assegnata a Magmar per poter usare questo attacco."
 			},
 			damage: 50,
 
@@ -75,9 +75,9 @@ const card: Card = {
 
 
 	description: {
-		en: "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
-		fr: "Son corps en fusion brûle d'une flamme orangée, le rendant invisible dans le feu.",
-		it: "La luce arancione che emana dal suo corpo gli permette di mimetizzarsi perfettamente tra le fiamme. LIV 24 N.126"
+		'en-us': "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
+		'fr-fr': "Son corps en fusion brûle d'une flamme orangée, le rendant invisible dans le feu.",
+		'it-it': "La luce arancione che emana dal suo corpo gli permette di mimetizzarsi perfettamente tra le fiamme. LIV 24 N.126"
 	},
 
 	variants: [

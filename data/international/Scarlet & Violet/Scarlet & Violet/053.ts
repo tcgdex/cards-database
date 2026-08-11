@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Quaxwell",
-		fr: "Canarbello",
-		es: "Quaxwell",
-		it: "Quaxwell",
-		pt: "Quaxwell",
-		de: "Fuentente"
+		'en-us': "Quaxwell",
+		'fr-fr': "Canarbello",
+		'es-es': "Quaxwell",
+		'it-it': "Quaxwell",
+		'pt-br': "Quaxwell",
+		'de-de': "Fuentente"
 	},
 
 	rarity: "Uncommon",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Quaxly",
-		fr: "Coiffeton"
+		'en-us': "Quaxly",
+		'fr-fr': "Coiffeton"
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Rain Splash",
-			fr: "Pluie Éclaboussante",
-			es: "Golpe de Lluvia",
-			it: "Spruzzapioggia",
-			pt: "Chuva Borrifante",
-			de: "Regenplatscher"
+			'en-us': "Rain Splash",
+			'fr-fr': "Pluie Éclaboussante",
+			'es-es': "Golpe de Lluvia",
+			'it-it': "Spruzzapioggia",
+			'pt-br': "Chuva Borrifante",
+			'de-de': "Regenplatscher"
 		},
 
 		damage: 20
@@ -43,12 +43,12 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless"],
 
 		name: {
-			en: "Spiral Kick",
-			fr: "Coup'd Pied en Spirale",
-			es: "Patada Espiral",
-			it: "Spiralcalcio",
-			pt: "Chute Espiral",
-			de: "Drehtritt"
+			'en-us': "Spiral Kick",
+			'fr-fr': "Coup'd Pied en Spirale",
+			'es-es': "Patada Espiral",
+			'it-it': "Spiralcalcio",
+			'pt-br': "Chute Espiral",
+			'de-de': "Drehtritt"
 		},
 
 		damage: 70
@@ -75,7 +75,7 @@ const card: Card = {
 	illustrator: "kirisAki",
 
 	description: {
-		en: "These Pokémon constantly run through shallow waters to train their legs, then compete with each other to see which of them kicks most gracefully.",
+		'en-us': "These Pokémon constantly run through shallow waters to train their legs, then compete with each other to see which of them kicks most gracefully.",
 	},
 
 	thirdParty: {

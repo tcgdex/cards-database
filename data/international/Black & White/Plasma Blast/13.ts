@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Volcarona",
-		fr: "Pyrax",
-		es: "Volcarona",
-		it: "Volcarona",
-		pt: "Volcarona",
-		de: "Ramoth"
+		'en-us': "Volcarona",
+		'fr-fr': "Pyrax",
+		'es-es': "Volcarona",
+		'it-it': "Volcarona",
+		'pt-br': "Volcarona",
+		'de-de': "Ramoth"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Larvesta",
-		fr: "Pyronille",
+		'en-us': "Larvesta",
+		'fr-fr': "Pyronille",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Solar Transporter",
-				fr: "Transporteur Solaire",
+				'en-us': "Solar Transporter",
+				'fr-fr': "Transporteur Solaire",
 			},
 			effect: {
-				en: "Reveal the top 5 cards of your deck and put all Team Plasma cards you find there into your hand. Discard the other cards.",
-				fr: "Montrez les 5 cartes du dessus de votre deck et ajoutez toutes les cartes de la Team Plasma que vous y trouvez à votre main. Défaussez les autres cartes.",
+				'en-us': "Reveal the top 5 cards of your deck and put all Team Plasma cards you find there into your hand. Discard the other cards.",
+				'fr-fr': "Montrez les 5 cartes du dessus de votre deck et ajoutez toutes les cartes de la Team Plasma que vous y trouvez à votre main. Défaussez les autres cartes.",
 			},
 
 		},
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leech Life",
-				fr: "Vampirisme",
+				'en-us': "Leech Life",
+				'fr-fr': "Vampirisme",
 			},
 			effect: {
-				en: "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
-				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur.",
+				'en-us': "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
+				'fr-fr': "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur.",
 			},
 			damage: 50,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Thought to be an embodiment of the sun, it appeared during a bitterly cold winter and saved Pokémon from freezing.",
+		'en-us': "Thought to be an embodiment of the sun, it appeared during a bitterly cold winter and saved Pokémon from freezing.",
 	},
 
 	thirdParty: {

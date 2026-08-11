@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Pidgey",
-		fr: "Roucool",
-		de: "Taubsi"
+		'en-us': "Pidgey",
+		'fr-fr': "Roucool",
+		'de-de': "Taubsi"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Corner",
-				fr: "Angle",
-				de: "Corner"
+				'en-us': "Corner",
+				'fr-fr': "Angle",
+				'de-de': "Corner"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite avant la fin du prochain tour de votre adversaire.",
-				de: "The Defending Pokémon can't retreat until the end of your opponent's next turn."
+				'en-us': "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite avant la fin du prochain tour de votre adversaire.",
+				'de-de': "The Defending Pokémon can't retreat until the end of your opponent's next turn."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gust",
-				fr: "Tornade",
-				de: "Gust"
+				'en-us': "Gust",
+				'fr-fr': "Tornade",
+				'de-de': "Gust"
 			},
 
 			damage: 20,

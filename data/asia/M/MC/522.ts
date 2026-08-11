@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダイオウドウ",
+		'ja-jp': "ダイオウドウ",
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "プライドが 高く 気難しい。 鮮やかな 緑の 皮膚の ものが 仲間の 尊敬を 集める。",
+		'ja-jp': "プライドが 高く 気難しい。 鮮やかな 緑の 皮膚の ものが 仲間の 尊敬を 集める。",
 	},
 
 	stage: "Stage1",
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゾウドウ",
+		'ja-jp': "ゾウドウ",
 	},
 
 	retreat: 4,

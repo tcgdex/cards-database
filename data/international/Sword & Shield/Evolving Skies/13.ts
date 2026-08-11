@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Trevenant V",
-		fr: "Desséliande V",
-		es: "Trevenant V",
-		it: "Trevenant V",
-		pt: "Trevenant V",
-		de: "Trombork V"
+		'en-us': "Trevenant V",
+		'fr-fr': "Desséliande V",
+		'es-es': "Trevenant V",
+		'it-it': "Trevenant V",
+		'pt-br': "Trevenant V",
+		'de-de': "Trombork V"
 	},
 
 	rarity: "Holo Rare V",
@@ -23,42 +23,42 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Absorb Life",
-			fr: "Absorption",
-			es: "Absorber Vida",
-			it: "Spolpavita",
-			pt: "Absorb Life",
-			de: "Lebensverkoster"
+			'en-us': "Absorb Life",
+			'fr-fr': "Absorption",
+			'es-es': "Absorber Vida",
+			'it-it': "Spolpavita",
+			'pt-br': "Absorb Life",
+			'de-de': "Lebensverkoster"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Heal 30 damage from this Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Heal 30 damage from this Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 30,
 		cost: ["Grass", "Colorless"]
 	}, {
 		name: {
-			en: "Shadow Claw",
-			fr: "Griffe Ombre",
-			es: "Garra Umbría",
-			it: "Ombrartigli",
-			pt: "Shadow Claw",
-			de: "Dunkelklaue"
+			'en-us': "Shadow Claw",
+			'fr-fr': "Griffe Ombre",
+			'es-es': "Garra Umbría",
+			'it-it': "Ombrartigli",
+			'pt-br': "Shadow Claw",
+			'de-de': "Dunkelklaue"
 		},
 
 		effect: {
-			en: "Discard a random card from your opponent's hand.",
-			fr: "Défaussez au hasard une carte de la main de votre adversaire.",
-			es: "Descarta 1 carta aleatoria de la mano de tu rival.",
-			it: "Scarta una carta a caso dalla mano del tuo avversario.",
-			pt: "Discard a random card from your opponent's hand.",
-			de: "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
+			'en-us': "Discard a random card from your opponent's hand.",
+			'fr-fr': "Défaussez au hasard une carte de la main de votre adversaire.",
+			'es-es': "Descarta 1 carta aleatoria de la mano de tu rival.",
+			'it-it': "Scarta una carta a caso dalla mano del tuo avversario.",
+			'pt-br': "Discard a random card from your opponent's hand.",
+			'de-de': "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 120,

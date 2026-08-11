@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Cyclizar ex"
+		'id-id': "Cyclizar ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,22 +17,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Break Through"
+			'id-id': "Break Through"
 		},
 
 		effect: {
-			id: "Serangan ini juga memberikan kerusakan sejumlah 30 kepada 1 Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
+			'id-id': "Serangan ini juga memberikan kerusakan sejumlah 30 kepada 1 Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
 		},
 
 		damage: 130,
 		cost: ["Colorless", "Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Zircon Road"
+			'id-id': "Zircon Road"
 		},
 
 		effect: {
-			id: "Pemain dapat mengambil 5 kartu dari atas Deck sendiri."
+			'id-id': "Pemain dapat mengambil 5 kartu dari atas Deck sendiri."
 		},
 
 		damage: 180,

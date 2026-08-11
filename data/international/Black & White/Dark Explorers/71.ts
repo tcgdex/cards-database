@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Zoroark",
-		fr: "Zoroark",
-		es: "Zoroark",
-		it: "Zoroark",
-		pt: "Zoroark",
-		de: "Zoroark"
+		'en-us': "Zoroark",
+		'fr-fr': "Zoroark",
+		'es-es': "Zoroark",
+		'it-it': "Zoroark",
+		'pt-br': "Zoroark",
+		'de-de': "Zoroark"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Zorua",
-		fr: "Zorua"
+		'en-us': "Zorua",
+		'fr-fr': "Zorua"
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Brutal Bash",
-				fr: "Ruée Brutale"
+				'en-us': "Brutal Bash",
+				'fr-fr': "Ruée Brutale"
 			},
 			effect: {
-				en: "Does 20 damage times the number of Darkness Pokémon you have in play.",
-				fr: "Inflige 20 dégâts multipliés par le nombre de Pokémon  que vous avez en jeu."
+				'en-us': "Does 20 damage times the number of Darkness Pokémon you have in play.",
+				'fr-fr': "Inflige 20 dégâts multipliés par le nombre de Pokémon  que vous avez en jeu."
 			},
 			damage: 20,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Dark Rush",
-				fr: "Assaut Obscur"
+				'en-us': "Dark Rush",
+				'fr-fr': "Assaut Obscur"
 			},
 			effect: {
-				en: "Does 20 damage times the number of damage counters on this Pokémon.",
-				fr: "Inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon."
+				'en-us': "Does 20 damage times the number of damage counters on this Pokémon.",
+				'fr-fr': "Inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon."
 			},
 			damage: 20,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
+		'en-us': "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
 	},
 
 	thirdParty: {

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビーストナイト",
+		'ja-jp': "ビーストナイト",
 	},
 
 	illustrator: "inose yukie",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけている「ウルトラビースト」が使うワザの、相手のバトルポケモンへのダメージは、自分がすでにとったサイド1枚につき「+10」される。",
+		'ja-jp': "このカードをつけている「ウルトラビースト」が使うワザの、相手のバトルポケモンへのダメージは、自分がすでにとったサイド1枚につき「+10」される。",
 	},
 
 	variants: [

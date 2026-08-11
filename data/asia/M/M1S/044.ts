@@ -1,26 +1,26 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../M1S"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バネブー"
+		'ja-jp': "バネブー"
 	},
 	illustrator: "toi8",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],
 	description: {
-		ja: "跳ねていないと死んでしまう。頭に乗せている真珠がサイコパワーを増幅させるのだ。"
+		'ja-jp': "跳ねていないと死んでしまう。頭に乗せている真珠がサイコパワーを増幅させるのだ。"
 	},
 	stage: "Basic",
 	attacks: [{
 		name: {
-			ja: "トリプルスピン"
+			'ja-jp': "トリプルスピン"
 		},
 		damage: "10×",
 		effect: {
-			ja: "コインを3回投げ、オモテの数×10ダメージ。"
+			'ja-jp': "コインを3回投げ、オモテの数×10ダメージ。"
 		},
 		cost: ["Psychic"]
 	}],

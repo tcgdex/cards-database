@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Burmy Sandy Cloak",
-		fr: "Cheniti Cape Sable",
-		de: "Burmy Sandumhang"
+		'en-us': "Burmy Sandy Cloak",
+		'fr-fr': "Cheniti Cape Sable",
+		'de-de': "Burmy Sandumhang"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Iron Defense",
-				fr: "Mur de fer",
-				de: "Eisenabwehr"
+				'en-us': "Iron Defense",
+				'fr-fr': "Mur de fer",
+				'de-de': "Eisenabwehr"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Burmy Sandy Cloak during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Cheniti Cape Sable lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei 'Kopf' verhindere während des nächsten Zuges deines Gegners alle effekte eines Angriffs, einschließlich Schaden, die Burmy Sandumhang zugefügt würden."
+				'en-us': "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Burmy Sandy Cloak during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Cheniti Cape Sable lors du prochain tour de votre adversaire.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' verhindere während des nächsten Zuges deines Gegners alle effekte eines Angriffs, einschließlich Schaden, die Burmy Sandumhang zugefügt würden."
 			},
 
 		},
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 30,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If its cloak is broken in battle, it quickly remakes the cloak with materials nearby.",
+		'en-us': "If its cloak is broken in battle, it quickly remakes the cloak with materials nearby.",
 	},
 
 	thirdParty: {

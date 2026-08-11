@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マチスのコラッタ",
+		'ja-jp': "マチスのコラッタ",
 	},
 	illustrator: "Atsuko Nishida",
 
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "フォーカスエネルギー",
+				'ja-jp': "フォーカスエネルギー",
 			},
 			effect: {
-				ja: "次のターン中、サージ中佐のラッタタクイック攻撃ベースの損傷は2倍になります。",
+				'ja-jp': "次のターン中、サージ中佐のラッタタクイック攻撃ベースの損傷は2倍になります。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "クイック攻撃",
+				'ja-jp': "クイック攻撃",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて20ダメージを与えます。尾の場合、この攻撃は10ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて20ダメージを与えます。尾の場合、この攻撃は10ダメージを与えます。",
 			},
 		},
 	],

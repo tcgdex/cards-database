@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Rampardos",
-		fr: "Charkos",
-		de: "Rameidon"
+		'en-us': "Rampardos",
+		'fr-fr': "Charkos",
+		'de-de': "Rameidon"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Cranidos",
-		fr: "Kranidos"
+		'en-us': "Cranidos",
+		'fr-fr': "Kranidos"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Iron Skull",
-				fr: "Crâne de fer",
-				de: "Iron Skull"
+				'en-us': "Iron Skull",
+				'fr-fr': "Crâne de fer",
+				'de-de': "Iron Skull"
 			},
 			effect: {
-				en: "Rampardos's attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				fr: "Les dégâts de l'attaque de Charkos ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
-				de: "Rampardos's attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+				'en-us': "Rampardos's attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de l'attaque de Charkos ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
+				'de-de': "Rampardos's attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
 			}
 		},
 	],
@@ -50,14 +50,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Head Smash",
-				fr: "Fracass'Tête",
-				de: "Head Smash"
+				'en-us': "Head Smash",
+				'fr-fr': "Fracass'Tête",
+				'de-de': "Head Smash"
 			},
 			effect: {
-				en: "If the Defending Pokémon would be Knocked Out by this attack, Rampardos does 40 damage to itself.",
-				fr: "Si le Pokémon Défenseur est mis K.O par cette attaque, Charkos s'inflige 40 dégâts.",
-				de: "If the Defending Pokémon would be Knocked Out by this attack, Rampardos does 40 damage to itself."
+				'en-us': "If the Defending Pokémon would be Knocked Out by this attack, Rampardos does 40 damage to itself.",
+				'fr-fr': "Si le Pokémon Défenseur est mis K.O par cette attaque, Charkos s'inflige 40 dégâts.",
+				'de-de': "If the Defending Pokémon would be Knocked Out by this attack, Rampardos does 40 damage to itself."
 			},
 			damage: 80,
 
@@ -68,14 +68,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mold Breaker",
-				fr: "Brise Moule",
-				de: "Mold Breaker"
+				'en-us': "Mold Breaker",
+				'fr-fr': "Brise Moule",
+				'de-de': "Mold Breaker"
 			},
 			effect: {
-				en: "Any damage done to Rampardos by attacks is reduced by 20 (after applying Weakness and Resistance) until the end of your next turn.",
-				fr: "Tous dégâts infligés à Charkos par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance) jusqu'à la fin de votre prochain tour.",
-				de: "Any damage done to Rampardos by attacks is reduced by 20 (after applying Weakness and Resistance) until the end of your next turn."
+				'en-us': "Any damage done to Rampardos by attacks is reduced by 20 (after applying Weakness and Resistance) until the end of your next turn.",
+				'fr-fr': "Tous dégâts infligés à Charkos par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance) jusqu'à la fin de votre prochain tour.",
+				'de-de': "Any damage done to Rampardos by attacks is reduced by 20 (after applying Weakness and Resistance) until the end of your next turn."
 			},
 			damage: 40,
 

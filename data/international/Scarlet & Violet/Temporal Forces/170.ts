@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bronzor",
-		fr: "Archéomire",
-		es: "Bronzor",
-		it: "Bronzor",
-		pt: "Bronzor",
-		de: "Bronzel"
+		'en-us': "Bronzor",
+		'fr-fr': "Archéomire",
+		'es-es': "Bronzor",
+		'it-it': "Bronzor",
+		'pt-br': "Bronzor",
+		'de-de': "Bronzel"
 	},
 
 	rarity: "Illustration rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Mirror Attack",
-			fr: "Attaque Miroir",
-			es: "Ataque Espejo",
-			it: "Attacco Specchio",
-			pt: "Golpe Espelhado",
-			de: "Spiegelangriff"
+			'en-us': "Mirror Attack",
+			'fr-fr': "Attaque Miroir",
+			'es-es': "Ataque Espejo",
+			'it-it': "Attacco Specchio",
+			'pt-br': "Golpe Espelhado",
+			'de-de': "Spiegelangriff"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a {P} Pokémon, this attack does 30 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon {P}, cette attaque inflige 30 dégâts supplémentaires.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon {P}, este ataque hace 30 puntos de daño más.",
-			it: "Se il Pokémon attivo del tuo avversario è un Pokémon {P}, questo attacco infligge 30 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon {P}, este ataque causará 30 pontos de dano a mais.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein {P}-Pokémon ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
+			'en-us': "If your opponent's Active Pokémon is a {P} Pokémon, this attack does 30 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon {P}, cette attaque inflige 30 dégâts supplémentaires.",
+			'es-es': "Si el Pokémon Activo de tu rival es un Pokémon {P}, este ataque hace 30 puntos de daño más.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon {P}, questo attacco infligge 30 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon {P}, este ataque causará 30 pontos de dano a mais.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners ein {P}-Pokémon ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -60,7 +60,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "Ancient people believed that the pattern on Bronzor's back contained a mysterious power.",
+		'en-us': "Ancient people believed that the pattern on Bronzor's back contained a mysterious power.",
 	},
 
 	variants: [

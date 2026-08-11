@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "夢妖",
-		ja: "ムウマ"
+		'ja-jp': "ムウマ"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "潛藏於暗處，發出幼兒般的啜泣聲令旅人聽之膽寒。當牠以人們恐懼的模樣 取樂時，胸口的紅珠會發出妖異的光輝。",
-		ja: "闇に潜み 稚児のごときに すすり泣き 旅人の肝を 冷やす。 怯える様 見て 喜びしとき 胸の赤き珠 妖しく光る。"
+		'ja-jp': "闇に潜み 稚児のごときに すすり泣き 旅人の肝を 冷やす。 怯える様 見て 喜びしとき 胸の赤き珠 妖しく光る。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "囈語",
-			ja: "つぶやく"
+			'ja-jp': "つぶやく"
 		},
 
 		damage: 10,

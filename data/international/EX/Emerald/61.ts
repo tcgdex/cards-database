@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Ralts",
-		fr: "Tarsal",
-		de: "Trasla"
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal",
+		'de-de': "Trasla"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,13 +31,13 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hypnotic Ray",
-				fr: "Onde hypnotique",
-				de: "Hypnotic Ray"
+				'en-us': "Hypnotic Ray",
+				'fr-fr': "Onde hypnotique",
+				'de-de': "Hypnotic Ray"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi."
 			},
 			damage: 10,
 

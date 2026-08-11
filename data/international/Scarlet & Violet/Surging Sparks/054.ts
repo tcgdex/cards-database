@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cetitan",
-		fr: "Balbalèze",
-		es: "Cetitan",
-		it: "Cetitan",
-		pt: "Cetitan",
-		de: "Kolowal"
+		'en-us': "Cetitan",
+		'fr-fr': "Balbalèze",
+		'es-es': "Cetitan",
+		'it-it': "Cetitan",
+		'pt-br': "Cetitan",
+		'de-de': "Kolowal"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 180,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Cetoddle",
-		fr: "Piétacé",
-		es: "Cetoddle",
-		it: "Cetoddle",
-		pt: "Cetoddle",
-		de: "Flaniwal"
+		'en-us': "Cetoddle",
+		'fr-fr': "Piétacé",
+		'es-es': "Cetoddle",
+		'it-it': "Cetoddle",
+		'pt-br': "Cetoddle",
+		'de-de': "Flaniwal"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Solid Body",
-			fr: "Corps Résistant",
-			es: "Cuerpo Sólido",
-			it: "Corpo Solido",
-			pt: "Corpo Robusto",
-			de: "Solider Körper"
+			'en-us': "Solid Body",
+			'fr-fr': "Corps Résistant",
+			'es-es': "Cuerpo Sólido",
+			'it-it': "Corpo Solido",
+			'pt-br': "Corpo Robusto",
+			'de-de': "Solider Körper"
 		},
 
 		effect: {
-			en: "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
-			fr: "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-			es: "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-			it: "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-			pt: "Este Pokémon recebe 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
-			de: "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+			'en-us': "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+			'fr-fr': "Ce Pokémon subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+			'es-es': "Los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+			'it-it': "Questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+			'pt-br': "Este Pokémon recebe 30 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
+			'de-de': "Diesem Pokémon werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 		}
 	}],
 
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Water", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Dangerous Mouth",
-			fr: "Bouche Dangereuse",
-			es: "Boca Peligrosa",
-			it: "Fauci Pericolose",
-			pt: "Boca Perigosa",
-			de: "Gefährliches Maul"
+			'en-us': "Dangerous Mouth",
+			'fr-fr': "Bouche Dangereuse",
+			'es-es': "Boca Peligrosa",
+			'it-it': "Fauci Pericolose",
+			'pt-br': "Boca Perigosa",
+			'de-de': "Gefährliches Maul"
 		},
 
 		damage: 150

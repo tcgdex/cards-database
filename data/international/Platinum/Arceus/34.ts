@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Bronzor",
-		de: "Bronzel"
+		'en-us': "Bronzor",
+		'de-de': "Bronzel"
 	},
 
 	illustrator: "kawayoo",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Speed Dive",
-				de: "Tempohechtsprung"
+				'en-us': "Speed Dive",
+				'de-de': "Tempohechtsprung"
 			},
 
 			damage: 10,
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Extrasensory",
-				de: "Sondersensor"
+				'en-us': "Extrasensory",
+				'de-de': "Sondersensor"
 			},
 			effect: {
-				en: "If you have the same number of cards in your hand as your opponent, this attack does 30 damage plus 30 more damage.",
-				de: "Wenn du die gleiche Anzahl Karten auf der Hand hast wie dein Gegner, fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "If you have the same number of cards in your hand as your opponent, this attack does 30 damage plus 30 more damage.",
+				'de-de': "Wenn du die gleiche Anzahl Karten auf der Hand hast wie dein Gegner, fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "There are researchers who believe this Pokémon reflected like a mirror in the distant past."
+		'en-us': "There are researchers who believe this Pokémon reflected like a mirror in the distant past."
 	},
 
 	variants: [

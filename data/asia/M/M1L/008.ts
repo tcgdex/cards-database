@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コノハナ",
+		'ja-jp': "コノハナ",
 	},
 
 	illustrator: "takashi shiraishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "森の奥で ひっそりと 暮らす。 縄張りに 入り込んだ 相手に 草笛の 音色で 警告する。",
+		'ja-jp': "森の奥で ひっそりと 暮らす。 縄張りに 入り込んだ 相手に 草笛の 音色で 警告する。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "タネボー",
+		'ja-jp': "タネボー",
 	},
 
 	retreat: 2,

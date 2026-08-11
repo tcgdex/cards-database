@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤジロン",
+		'ja-jp': "ヤジロン",
 		'zh-tw': "未知圖騰V",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "古代 遺跡で 発見された。 回転 しながら 移動。 夜 眠る ときも 一本足だ。",
+		'ja-jp': "古代 遺跡で 発見された。 回転 しながら 移動。 夜 眠る ときも 一本足だ。",
 	},
 
 	stage: "Basic",
@@ -22,7 +22,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ひらてうち",
+				'ja-jp': "ひらてうち",
 				'zh-tw': "奇異刻印",
 			},
 			damage: 20,

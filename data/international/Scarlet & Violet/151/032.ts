@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Nidoran♂",
-		en: "Nidoran♂",
-		es: "Nidoran♂",
-		it: "Nidoran♂",
-		pt: "Nidoran♂",
-		de: "Nidoran♂"
+		'fr-fr': "Nidoran♂",
+		'en-us': "Nidoran♂",
+		'es-es': "Nidoran♂",
+		'it-it': "Nidoran♂",
+		'pt-br': "Nidoran♂",
+		'de-de': "Nidoran♂"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			fr: "Koud'Korne",
-			en: "Horn Attack",
-			es: "Cornada",
-			it: "Incornata",
-			pt: "Ataque de Chifre",
-			de: "Hornattacke"
+			'fr-fr': "Koud'Korne",
+			'en-us': "Horn Attack",
+			'es-es': "Cornada",
+			'it-it': "Incornata",
+			'pt-br': "Ataque de Chifre",
+			'de-de': "Hornattacke"
 		},
 
 		damage: 20
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Small but brave, this Pokémon will hold its ground and even risk its life in battle to protect the female it's friendly with.",
+		'en-us': "Small but brave, this Pokémon will hold its ground and even risk its life in battle to protect the female it's friendly with.",
 	},
 
 	variants: [

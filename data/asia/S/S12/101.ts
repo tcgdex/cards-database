@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S12"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "雷吉艾勒奇V",
-		ja: "レジエレキV"
+		'ja-jp': "レジエレキV"
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -19,12 +19,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "切換伏特",
-			ja: "スイッチボルト"
+			'ja-jp': "スイッチボルト"
 		},
 
 		effect: {
 			'zh-tw': "將這隻寶可夢與備戰寶可夢互換。",
-			ja: "このポケモンをベンチポケモンと入れ替える。"
+			'ja-jp': "このポケモンをベンチポケモンと入れ替える。"
 		},
 
 		damage: 30,
@@ -32,12 +32,12 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "雷電堡壘",
-			ja: "ライトニングウォール"
+			'ja-jp': "ライトニングウォール"
 		},
 
 		effect: {
 			'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-100」點。",
-			ja: "次の相手の番、このポケモンが受けるワザのダメージは「-100」される。"
+			'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-100」される。"
 		},
 
 		damage: 100,

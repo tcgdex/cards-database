@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Medicham"
+		'id-id': "Medicham"
 	},
 
 	illustrator: "Masako Tomii",
@@ -14,21 +14,21 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Medicham menghindari serangan lawannya dengan gerakan elegan yang seperti tarian, lalu ia memberikan serangan tunggal yang dahsyat ke lawannya."
+		'id-id': "Medicham menghindari serangan lawannya dengan gerakan elegan yang seperti tarian, lalu ia memberikan serangan tunggal yang dahsyat ke lawannya."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Low Kick"
+			'id-id': "Low Kick"
 		},
 
 		damage: 40,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			id: "Tendangan Lutut Melompat"
+			'id-id': "Tendangan Lutut Melompat"
 		},
 
 		damage: 110,

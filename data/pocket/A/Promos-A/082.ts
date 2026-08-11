@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Promos-A"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Poipole",
-		es: "Poipole"
+		'en-us': "Poipole",
+		'es-es': "Poipole"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -18,24 +18,24 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "This Ultra Beast is well enough liked to be\nchosen as a first partner in its own world.",
-		es: "En su mundo, este Ultraente se considera tan entrañable\ncomo para ser elegido compañero de viaje."
+		'en-us': "This Ultra Beast is well enough liked to be\nchosen as a first partner in its own world.",
+		'es-es': "En su mundo, este Ultraente se considera tan entrañable\ncomo para ser elegido compañero de viaje."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "2-Step",
-			es: "2-Step"
+			'en-us': "2-Step",
+			'es-es': "2-Step"
 		},
 
 		damage: 20,
 		cost: ["Darkness"],
 
 		effect: {
-			en: "Flip 2 coins. This attack does 20 damage for each heads.",
-			es: "Lanza 2 monedas. Este ataque hace 20 puntos de daño por cada cara."
+			'en-us': "Flip 2 coins. This attack does 20 damage for each heads.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 20 puntos de daño por cada cara."
 		}
 	}],
 

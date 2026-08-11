@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dartrix",
-		fr: "Efflèche",
-		es: "Dartrix",
-		it: "Dartrix",
-		pt: "Dartrix",
-		de: "Arboretoss"
+		'en-us': "Dartrix",
+		'fr-fr': "Efflèche",
+		'es-es': "Dartrix",
+		'it-it': "Dartrix",
+		'pt-br': "Dartrix",
+		'de-de': "Arboretoss"
 	},
 
 	illustrator: "0313",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Rowlet",
-		fr: "Brindibou",
-		es: "Rowlet",
-		it: "Rowlet",
-		pt: "Rowlet",
-		de: "Bauz"
+		'en-us': "Rowlet",
+		'fr-fr': "Brindibou",
+		'es-es': "Rowlet",
+		'it-it': "Rowlet",
+		'pt-br': "Rowlet",
+		'de-de': "Bauz"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Flap",
-			fr: "Battement",
-			es: "Aleteo",
-			it: "Alabattito",
-			pt: "Asa",
-			de: "Flattern"
+			'en-us': "Flap",
+			'fr-fr': "Battement",
+			'es-es': "Aleteo",
+			'it-it': "Alabattito",
+			'pt-br': "Asa",
+			'de-de': "Flattern"
 		},
 
 		damage: 30
@@ -48,12 +48,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Razor Wing",
-			fr: "Aile Tranchante",
-			es: "Ala Cortante",
-			it: "Ala Tagliente",
-			pt: "Asa Cortante",
-			de: "Rasierflügel"
+			'en-us': "Razor Wing",
+			'fr-fr': "Aile Tranchante",
+			'es-es': "Ala Cortante",
+			'it-it': "Ala Tagliente",
+			'pt-br': "Asa Cortante",
+			'de-de': "Rasierflügel"
 		},
 
 		damage: 60
@@ -70,7 +70,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Regularly basks in sunlight to gather power—presumably due to the frigid climate. Nonetheless, the edges of the blade quills set into its wings are keen as ever.",
+		'en-us': "Regularly basks in sunlight to gather power—presumably due to the frigid climate. Nonetheless, the edges of the blade quills set into its wings are keen as ever.",
 	},
 
 	variants: [

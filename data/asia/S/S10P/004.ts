@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コロボーシ",
+		'ja-jp': "コロボーシ",
 		'zh-tw': "圓法師",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "触角 同士が ぶつかると コロン コロンと 木琴に 似た 音色を 奏でる。",
+		'ja-jp': "触角 同士が ぶつかると コロン コロンと 木琴に 似た 音色を 奏でる。",
 		'zh-tw': "觸角之間互相碰撞時， 會叮叮咚咚地奏出 如同木琴一般的音色。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ころばす",
+				'ja-jp': "ころばす",
 				'zh-tw': "打滾",
 			},
 			damage: "10+",
 			cost: ["Grass"],
 			effect: {
-				ja: "コインを1回投げオモテなら、20ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、20ダメージ追加。",
 				'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。",
 			},
 		},

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Jungle'
 
 const card: Card = {
 	name: {
-		en: "Scyther",
-		fr: "Insécateur",
-		de: "Sichlor"
+		'en-us': "Scyther",
+		'fr-fr': "Insécateur",
+		'de-de': "Sichlor"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Swords Dance",
-				fr: "Danse-lames",
-				de: "Schwerttanz"
+				'en-us': "Swords Dance",
+				'fr-fr': "Danse-lames",
+				'de-de': "Schwerttanz"
 			},
 			effect: {
-				en: "During your next turn, Scyther's Slash attack's base damage is 60 instead of 30.",
-				fr: "Pendant votre prochain tour, l'attaque Tranche d'Insécateur inflige 60 dégâts de base au lieu de 30.",
-				de: "Während deines nächsten Zuges betragen die Basis Schadenspunkte von Sichlors Schlitzer-Angriff 60 anstatt 30."
+				'en-us': "During your next turn, Scyther's Slash attack's base damage is 60 instead of 30.",
+				'fr-fr': "Pendant votre prochain tour, l'attaque Tranche d'Insécateur inflige 60 dégâts de base au lieu de 30.",
+				'de-de': "Während deines nächsten Zuges betragen die Basis Schadenspunkte von Sichlors Schlitzer-Angriff 60 anstatt 30."
 			},
 
 		},
@@ -49,9 +49,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Schlitzer"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Schlitzer"
 			},
 
 			damage: 30,
@@ -74,8 +74,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "With ninja-like agility and speed, it can create the illusion that there is more than one of it.",
-		fr: "Rapide et agile comme un ninja, il se déplace si vite qu'il crée l'illusion d'être en groupe."
+		'en-us': "With ninja-like agility and speed, it can create the illusion that there is more than one of it.",
+		'fr-fr': "Rapide et agile comme un ninja, il se déplace si vite qu'il crée l'illusion d'être en groupe."
 	},
 
 

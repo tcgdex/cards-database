@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Psyduck",
-		fr: "Psykokwak",
-		de: "Enton"
+		'en-us': "Psyduck",
+		'fr-fr': "Psykokwak",
+		'de-de': "Enton"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Delusion",
-				fr: "Hallucination",
-				de: "Wahnvorstellung"
+				'en-us': "Delusion",
+				'fr-fr': "Hallucination",
+				'de-de': "Wahnvorstellung"
 			},
 			effect: {
-				en: "If Psyduck is Confused, draw 2 cards.",
-				fr: "Si Psykokwak est Confus, piochez 2 cartes.",
-				de: "Wenn Enton verwirrt ist, ziehe 2 Karten."
+				'en-us': "If Psyduck is Confused, draw 2 cards.",
+				'fr-fr': "Si Psykokwak est Confus, piochez 2 cartes.",
+				'de-de': "Wenn Enton verwirrt ist, ziehe 2 Karten."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Migraine",
-				fr: "Maud'krâne",
-				de: "Migräne"
+				'en-us': "Migraine",
+				'fr-fr': "Maud'krâne",
+				'de-de': "Migräne"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, Psyduck is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus. Si c'est pile, Psykokwak est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt. Bei \"Zahl\" ist Enton jetzt verwirrt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, Psyduck is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus. Si c'est pile, Psykokwak est maintenant Confus.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt. Bei \"Zahl\" ist Enton jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If its usual headache worsens, its starts exhibiting odd powers. It can't remember doing so, however.",
+		'en-us': "If its usual headache worsens, its starts exhibiting odd powers. It can't remember doing so, however.",
 	},
 
 	thirdParty: {

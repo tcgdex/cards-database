@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Azumarill",
-		fr: "Azumarill"
+		'en-us': "Azumarill",
+		'fr-fr': "Azumarill"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -18,12 +18,12 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Marill"
+		'en-us': "Marill"
 	},
 
 	description: {
-		en: "Its long ears are superb sensors. It can distinguish\nthe movements of things in water and tell what\nthey are.",
-		fr: "Ses longues oreilles lui permettent d'entendre tout ce qui se passe sous l'eau de manière très distincte."
+		'en-us': "Its long ears are superb sensors. It can distinguish\nthe movements of things in water and tell what\nthey are.",
+		'fr-fr': "Ses longues oreilles lui permettent d'entendre tout ce qui se passe sous l'eau de manière très distincte."
 	},
 
 	stage: "Stage1",
@@ -32,20 +32,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Thick Fat",
-			fr: "Isograisse"
+			'en-us': "Thick Fat",
+			'fr-fr': "Isograisse"
 		},
 
 		effect: {
-			en: "This Pokémon takes −30 damage from attacks from {R} or {W} Pokémon.",
-			fr: "Ce Pokémon subit − 30 dégâts provenant des attaques des Pokémon {R} ou {W}."
+			'en-us': "This Pokémon takes −30 damage from attacks from {R} or {W} Pokémon.",
+			'fr-fr': "Ce Pokémon subit − 30 dégâts provenant des attaques des Pokémon {R} ou {W}."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Tail Smack",
-			fr: "Coup de Queue"
+			'en-us': "Tail Smack",
+			'fr-fr': "Coup de Queue"
 		},
 
 		damage: 60,

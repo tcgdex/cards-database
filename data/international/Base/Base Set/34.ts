@@ -1,12 +1,12 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set'
 
 const card: Card = {
 	name: {
-		en: "Machoke",
-		fr: "Machopeur",
-		de: "Maschock",
-		it: "Machoke"
+		'en-us': "Machoke",
+		'fr-fr': "Machopeur",
+		'de-de': "Maschock",
+		'it-it': "Machoke"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -25,9 +25,9 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Machop",
-		fr: "Machoc",
-		it: "Machop"
+		'en-us': "Machop",
+		'fr-fr': "Machoc",
+		'it-it': "Machop"
 	},
 
 	stage: "Stage1",
@@ -40,16 +40,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Karate Chop",
-				fr: "Poing-Karaté",
-				de: "Karateschlag",
-				it: "Colpo-karate"
+				'en-us': "Karate Chop",
+				'fr-fr': "Poing-Karaté",
+				'de-de': "Karateschlag",
+				'it-it': "Colpo-karate"
 			},
 			effect: {
-				en: "Does 50 damage minus 10 for each damage counter on Machoke.",
-				fr: "Inflige 50 dégâts moins 10 dégâts pour chaque marqueur de dégâts sur Machopeur.",
-				de: "Fügt 50 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke auf Maschock zu.",
-				it: "Infligge 50 danni meno 10 danni per ogni segnalino danno su Machoke."
+				'en-us': "Does 50 damage minus 10 for each damage counter on Machoke.",
+				'fr-fr': "Inflige 50 dégâts moins 10 dégâts pour chaque marqueur de dégâts sur Machopeur.",
+				'de-de': "Fügt 50 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke auf Maschock zu.",
+				'it-it': "Infligge 50 danni meno 10 danni per ogni segnalino danno su Machoke."
 			},
 			damage: "50-",
 
@@ -62,16 +62,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Submission",
-				fr: "Sacrifice",
-				de: "Überroller",
-				it: "Sottomissione"
+				'en-us': "Submission",
+				'fr-fr': "Sacrifice",
+				'de-de': "Überroller",
+				'it-it': "Sottomissione"
 			},
 			effect: {
-				en: "Machoke does 20 damage to itself.",
-				fr: "Machopeur s'inflige 20 dégâts.",
-				de: "Maschock fügt sich selbst 20 Schadenspunkte zu.",
-				it: "Machoke si infligge 20 danni."
+				'en-us': "Machoke does 20 damage to itself.",
+				'fr-fr': "Machopeur s'inflige 20 dégâts.",
+				'de-de': "Maschock fügt sich selbst 20 Schadenspunkte zu.",
+				'it-it': "Machoke si infligge 20 danni."
 			},
 			damage: 60,
 
@@ -88,9 +88,9 @@ const card: Card = {
 
 
 	description: {
-		en: "Its muscular body is so powerful that it must wear a power-save belt to help regulate its motions.",
-		fr: "Son corps est si puissant qu'il lui faut une ceinture de force pour équilibrer ses mouvements.",
-		it: "Il suo corpo è talmente muscoloso che è costretto ad indossare una cintura salva-energia per regolare i suoi movimenti. LIV 40 N.67"
+		'en-us': "Its muscular body is so powerful that it must wear a power-save belt to help regulate its motions.",
+		'fr-fr': "Son corps est si puissant qu'il lui faut une ceinture de force pour équilibrer ses mouvements.",
+		'it-it': "Il suo corpo è talmente muscoloso che è costretto ad indossare una cintura salva-energia per regolare i suoi movimenti. LIV 40 N.67"
 	},
 
 	variants: [

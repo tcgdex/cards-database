@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アンファロス",
+		'ja-jp': "アンファロス",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "エネルギー接続",
+				'ja-jp': "エネルギー接続",
 			},
 			effect: {
-				ja: "ターン中（攻撃前）に好きなように、ベンチのポカモンの1つに取り付けられた基本的なエネルギーカードをアクティブなポカモンに移動することができます。 Ampharosが特別な状態の影響を受ける場合、この電力は使用できません。",
+				'ja-jp': "ターン中（攻撃前）に好きなように、ベンチのポカモンの1つに取り付けられた基本的なエネルギーカードをアクティブなポカモンに移動することができます。 Ampharosが特別な状態の影響を受ける場合、この電力は使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless", "Colorless"],
 			name: {
-				ja: "奇跡的な雷",
+				'ja-jp': "奇跡的な雷",
 			},
 			effect: {
-				ja: "Ampharosに取り付けられたすべての稲妻エネルギーを捨てることができます。もしそうなら、防御するポケモンは今や燃やされ、混乱しています。",
+				'ja-jp': "Ampharosに取り付けられたすべての稲妻エネルギーを捨てることができます。もしそうなら、防御するポケモンは今や燃やされ、混乱しています。",
 			},
 			damage: 50,
 		},

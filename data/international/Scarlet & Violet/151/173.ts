@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Pikachu",
-		en: "Pikachu",
-		es: "Pikachu",
-		it: "Pikachu",
-		pt: "Pikachu",
-		de: "Pikachu"
+		'fr-fr': "Pikachu",
+		'en-us': "Pikachu",
+		'es-es': "Pikachu",
+		'it-it': "Pikachu",
+		'pt-br': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	rarity: "Illustration rare",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			fr: "Chargeur",
-			en: "Charge",
-			es: "Carga",
-			it: "Sottocarica",
-			pt: "Carga",
-			de: "Ladevorgang"
+			'fr-fr': "Chargeur",
+			'en-us': "Charge",
+			'es-es': "Carga",
+			'it-it': "Sottocarica",
+			'pt-br': "Carga",
+			'de-de': "Ladevorgang"
 		},
 
 		effect: {
-			fr: "Cherchez dans votre deck une carte Énergie {L} de base, puis attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
-			en: "Search your deck for a Basic {L} Energy card and attach it to this Pokémon. Then, shuffle your deck.",
-			es: "Busca en tu baraja 1 carta de Energía {L} Básica y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo una carta Energia base {L} e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por uma carta de Energia {L} Básica no seu baralho e ligue-a a este Pokémon. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach 1 Basis-{L}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+			'fr-fr': "Cherchez dans votre deck une carte Énergie {L} de base, puis attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
+			'en-us': "Search your deck for a Basic {L} Energy card and attach it to this Pokémon. Then, shuffle your deck.",
+			'es-es': "Busca en tu baraja 1 carta de Energía {L} Básica y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo una carta Energia base {L} e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por uma carta de Energia {L} Básica no seu baralho e ligue-a a este Pokémon. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach 1 Basis-{L}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			fr: "Pika-Poing",
-			en: "Pika Punch",
-			es: "Pika Puño",
-			it: "Pika Pugno",
-			pt: "Soco Pikachu",
-			de: "Pikahieb"
+			'fr-fr': "Pika-Poing",
+			'en-us': "Pika Punch",
+			'es-es': "Pika Puño",
+			'it-it': "Pika Pugno",
+			'pt-br': "Soco Pikachu",
+			'de-de': "Pikahieb"
 		},
 
 		damage: 50
@@ -65,7 +65,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
+		'en-us': "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グリマー",
+		'ja-jp': "グリマー",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "上昇",
+				'ja-jp': "上昇",
 			},
 			effect: {
-				ja: "グリマーから進化するカードをデッキで検索し、グリマーに置きます。 （これは進化するグリマーとしてカウントされます。）その後、デッキをシャッフルします。",
+				'ja-jp': "グリマーから進化するカードをデッキで検索し、グリマーに置きます。 （これは進化するグリマーとしてカウントされます。）その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "スラッジトス",
+				'ja-jp': "スラッジトス",
 			},
 			damage: 20,
 		},

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dhelmise",
-		fr: "Sinistrail",
-		es: "Dhelmise",
-		it: "Dhelmise",
-		pt: "Dhelmise",
-		de: "Moruda"
+		'en-us': "Dhelmise",
+		'fr-fr': "Sinistrail",
+		'es-es': "Dhelmise",
+		'it-it': "Dhelmise",
+		'pt-br': "Dhelmise",
+		'de-de': "Moruda"
 	},
 
 	rarity: "Uncommon",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Spinning Attack",
-			fr: "Attaque Tournante",
-			es: "Ataque Giratorio",
-			it: "Attacco Rotante",
-			pt: "Ataque Giratório",
-			de: "Rundumangriff"
+			'en-us': "Spinning Attack",
+			'fr-fr': "Attaque Tournante",
+			'es-es': "Ataque Giratorio",
+			'it-it': "Attacco Rotante",
+			'pt-br': "Ataque Giratório",
+			'de-de': "Rundumangriff"
 		},
 
 		damage: 30
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Colorless"],
 
 		name: {
-			en: "Steel Anchor",
-			fr: "Ancre d'Acier",
-			es: "Ancla de Acero",
-			it: "Ancora d'Acciaio",
-			pt: "Âncora de Aço",
-			de: "Stahlanker"
+			'en-us': "Steel Anchor",
+			'fr-fr': "Ancre d'Acier",
+			'es-es': "Ancla de Acero",
+			'it-it': "Ancora d'Acciaio",
+			'pt-br': "Âncora de Aço",
+			'de-de': "Stahlanker"
 		},
 
 		effect: {
-			en: "If you have any {M} Pokémon on your Bench, this attack does 80 more damage.",
-			fr: "Si vous avez au moins un Pokémon {M} sur votre Banc, cette attaque inflige 80 dégâts supplémentaires.",
-			es: "Si tienes algún Pokémon {M} en tu Banca, este ataque hace 80 puntos de daño más.",
-			it: "Se hai dei Pokémon {M} in panchina, questo attacco infligge 80 danni in più.",
-			pt: "Se você tiver algum Pokémon {M} no seu Banco, este ataque causará 80 pontos de dano a mais.",
-			de: "Wenn du mindestens 1 {M}-Pokémon auf deiner Bank hast, fügt diese Attacke 80 Schadenspunkte mehr zu."
+			'en-us': "If you have any {M} Pokémon on your Bench, this attack does 80 more damage.",
+			'fr-fr': "Si vous avez au moins un Pokémon {M} sur votre Banc, cette attaque inflige 80 dégâts supplémentaires.",
+			'es-es': "Si tienes algún Pokémon {M} en tu Banca, este ataque hace 80 puntos de daño más.",
+			'it-it': "Se hai dei Pokémon {M} in panchina, questo attacco infligge 80 danni in più.",
+			'pt-br': "Se você tiver algum Pokémon {M} no seu Banco, este ataque causará 80 pontos de dano a mais.",
+			'de-de': "Wenn du mindestens 1 {M}-Pokémon auf deiner Bank hast, fügt diese Attacke 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+"
@@ -67,7 +67,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "After a piece of seaweed merged with debris from a sunken ship, it was reborn as this ghost Pokémon.",
+		'en-us': "After a piece of seaweed merged with debris from a sunken ship, it was reborn as this ghost Pokémon.",
 	},
 
 	variants: [

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミアレガレット",
+		'ja-jp': "ミアレガレット",
 	},
 
 	illustrator: "5ban Graphics",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のバトルポケモンのHPを「20」回復し、特殊状態も1つ回復する。",
+		'ja-jp': "自分のバトルポケモンのHPを「20」回復し、特殊状態も1つ回復する。",
 	},
 
 	variants: [{"type": "normal"}],

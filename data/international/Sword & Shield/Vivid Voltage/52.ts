@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [310],
 
 	name: {
-		en: "Manectric",
-		fr: "Élecsprint",
-		es: "Manectric",
-		it: "Manectric",
-		pt: "Manectric",
-		de: "Voltenso"
+		'en-us': "Manectric",
+		'fr-fr': "Élecsprint",
+		'es-es': "Manectric",
+		'it-it': "Manectric",
+		'pt-br': "Manectric",
+		'de-de': "Voltenso"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -24,32 +24,32 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Electrike",
-		fr: "Dynavolt",
-		es: "Electrike",
-		it: "Electrike",
-		pt: "Electrike",
-		de: "Frizelbliz"
+		'en-us': "Electrike",
+		'fr-fr': "Dynavolt",
+		'es-es': "Electrike",
+		'it-it': "Electrike",
+		'pt-br': "Electrike",
+		'de-de': "Frizelbliz"
 	},
 
 	abilities: [
 		{
 			type: "Ability",
 			name: {
-				en: "High Speed",
-				fr: "Vitesse Éclair",
-				es: "Alta Velocidad",
-				it: "Alta Velocità",
-				pt: "Alta Velocidade",
-				de: "Hochgeschwindigkeit"
+				'en-us': "High Speed",
+				'fr-fr': "Vitesse Éclair",
+				'es-es': "Alta Velocidad",
+				'it-it': "Alta Velocità",
+				'pt-br': "Alta Velocidade",
+				'de-de': "Hochgeschwindigkeit"
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may draw 3 cards.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez piocher 3 cartes.",
-				es: "Cuando juegas este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes robar 3 cartas.",
-				it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi pescare tre carte.",
-				pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá comprar 3 cartas.",
-				de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 3 Karten ziehen."
+				'en-us': "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may draw 3 cards.",
+				'fr-fr': "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez piocher 3 cartes.",
+				'es-es': "Cuando juegas este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes robar 3 cartas.",
+				'it-it': "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi pescare tre carte.",
+				'pt-br': "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá comprar 3 cartas.",
+				'de-de': "Wenn du dieses Pokémon während deines Zuges aus deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 3 Karten ziehen."
 			},
 		},
 	],
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electric Ball",
-				fr: "Boule de Foudre",
-				es: "Bola Eléctrica",
-				it: "Lamposfera",
-				pt: "Bola de Eletricidade",
-				de: "Stromball"
+				'en-us': "Electric Ball",
+				'fr-fr': "Boule de Foudre",
+				'es-es': "Bola Eléctrica",
+				'it-it': "Lamposfera",
+				'pt-br': "Bola de Eletricidade",
+				'de-de': "Stromball"
 			},
 
 			damage: 100,
@@ -89,7 +89,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It stimulates its own muscles with electricity, so it can move quickly. It eases its soreness with electricity, too, so it can recover quickly as well."
+		'en-us': "It stimulates its own muscles with electricity, so it can move quickly. It eases its soreness with electricity, too, so it can recover quickly as well."
 	},
 
 	variants: [

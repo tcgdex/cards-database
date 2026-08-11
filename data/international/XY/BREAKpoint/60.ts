@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Honedge",
-		fr: "Monorpale",
-		es: "Honedge",
-		it: "Honedge",
-		pt: "Honedge",
-		de: "Gramokles"
+		'en-us': "Honedge",
+		'fr-fr': "Monorpale",
+		'es-es': "Honedge",
+		'it-it': "Honedge",
+		'pt-br': "Honedge",
+		'de-de': "Gramokles"
 	},
 
 	illustrator: "kawayoo",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Stab",
-				fr: "Blessure",
-				es: "Puñalada",
-				it: "Pugnalata",
-				pt: "Facada",
-				de: "Stich"
+				'en-us': "Stab",
+				'fr-fr': "Blessure",
+				'es-es': "Puñalada",
+				'it-it': "Pugnalata",
+				'pt-br': "Facada",
+				'de-de': "Stich"
 			},
 			effect: {
-				en: "Put 1 damage counter on your opponent's Active Pokémon.",
-				fr: "Placez 1 marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
-				es: "Pon 1 contador de daño en el Pokémon Activo de tu rival.",
-				it: "Metti un segnalino danno sul Pokémon attivo del tuo avversario.",
-				pt: "Coloque 1 contador de danos no Pokémon Ativo do seu oponente.",
-				de: "Lege 1 Schadensmarke auf das Aktive Pokémon deines Gegners."
+				'en-us': "Put 1 damage counter on your opponent's Active Pokémon.",
+				'fr-fr': "Placez 1 marqueur de dégâts sur le Pokémon Actif de votre adversaire.",
+				'es-es': "Pon 1 contador de daño en el Pokémon Activo de tu rival.",
+				'it-it': "Metti un segnalino danno sul Pokémon attivo del tuo avversario.",
+				'pt-br': "Coloque 1 contador de danos no Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 1 Schadensmarke auf das Aktive Pokémon deines Gegners."
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "If anyone dares to grab its hilt, it wraps a blue cloth around that person's arm and drains that person's life energy completely.",
+		'en-us': "If anyone dares to grab its hilt, it wraps a blue cloth around that person's arm and drains that person's life energy completely.",
 	},
 
 	thirdParty: {

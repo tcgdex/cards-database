@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Gothita",
-		fr: "Scrutella",
-		es: "Gothita",
-		it: "Gothita",
-		pt: "Gothita",
-		de: "Mollimorba"
+		'en-us': "Gothita",
+		'fr-fr': "Scrutella",
+		'es-es': "Gothita",
+		'it-it': "Gothita",
+		'pt-br': "Gothita",
+		'de-de': "Mollimorba"
 	},
 
 	illustrator: "MAHOU",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnotic Gaze",
-				fr: "Regard Hypnotique",
+				'en-us': "Hypnotic Gaze",
+				'fr-fr': "Regard Hypnotique",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Slap",
-				fr: "Torgnoles",
+				'en-us': "Double Slap",
+				'fr-fr': "Torgnoles",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 20,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Their ribbonlike feelers increase their psychic power. They are always staring at something.",
+		'en-us': "Their ribbonlike feelers increase their psychic power. They are always staring at something.",
 	},
 
 	thirdParty: {

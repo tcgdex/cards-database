@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HGSS Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Minun",
-		fr: "Negapi"
+		'en-us': "Minun",
+		'fr-fr': "Negapi"
 	},
 	illustrator: "Kouki Saitou",
 	rarity: "Promo",
@@ -26,12 +26,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la famille"
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la famille"
 			},
 			effect: {
-				en: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez jusqu'à 2 cartes Pokémon de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck."
+				'en-us': "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez jusqu'à 2 cartes Pokémon de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck."
 			},
 
 		},
@@ -40,12 +40,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Tag Team Boost",
-				fr: "Boost de groupe"
+				'en-us': "Tag Team Boost",
+				'fr-fr': "Boost de groupe"
 			},
 			effect: {
-				en: "If Plusle is on your Bench, this attack does 10 damage plus 20 more damage.",
-				fr: "Si Posipi se trouve sur votre Banc, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
+				'en-us': "If Plusle is on your Bench, this attack does 10 damage plus 20 more damage.",
+				'fr-fr': "Si Posipi se trouve sur votre Banc, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
 			},
 			damage: "10+",
 
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Exposure to electricity from Minun and Plusle promotes blood circulation and relaxes muscles."
+		'en-us': "Exposure to electricity from Minun and Plusle promotes blood circulation and relaxes muscles."
 	},
 
 	variants: [

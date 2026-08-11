@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "M Aerodactyl EX",
-		fr: "M Ptéra EX",
+		'en-us': "M Aerodactyl EX",
+		'fr-fr': "M Ptéra EX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Promo",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Fighting",
 	],
 	evolveFrom: {
-		en: "Aerodactyl-EX",
-		fr: "Ptéra-eEX",
+		'en-us': "Aerodactyl-EX",
+		'fr-fr': "Ptéra-eEX",
 	},
 	stage: "MEGA",
 
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Drill Dive",
-				fr: "Plongée Perce-Roc",
+				'en-us': "Rock Drill Dive",
+				'fr-fr': "Plongée Perce-Roc",
 			},
 			effect: {
-				en: "This attack does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 10 dégâts à chacun des Pokémon de Banc (les vôtres et ceux de votre adversaire). (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "This attack does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 10 dégâts à chacun des Pokémon de Banc (les vôtres et ceux de votre adversaire). (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 110,
 

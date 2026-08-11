@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルチャブル",
+		'ja-jp': "ルチャブル",
 		'zh-tw': "泥泥鰍",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "翼を 使い 軽やかに 跳び 相手を 華麗に 仕留める 技は 生まれ育った 森で 磨かれる。",
+		'ja-jp': "翼を 使い 軽やかに 跳び 相手を 華麗に 仕留める 技は 生まれ育った 森で 磨かれる。",
 		'zh-tw': "２根鬍子是靈敏的雷達。即使在因為泥濘而渾濁的水中，也能偵查到獵物的位置。",
 	},
 
@@ -25,7 +25,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "フライングエントリー" },
 			effect: {
-				ja: "自分の番に、このカードを手札からベンチに出したとき、1回使える。相手のベンチポケモン2匹に、それぞれダメカンを1個のせる。",
+				'ja-jp': "自分の番に、このカードを手札からベンチに出したとき、1回使える。相手のベンチポケモン2匹に、それぞれダメカンを1個のせる。",
 			},
 		},
 	],
@@ -33,7 +33,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "つばさでうつ",
+				'ja-jp': "つばさでうつ",
 				'zh-tw': "躲藏",
 			},
 			damage: 70,

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Promos-A"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ultra Necrozma ex",
-		es: "Ultra-Necrozma ex"
+		'en-us': "Ultra Necrozma ex",
+		'es-es': "Ultra-Necrozma ex"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -21,8 +21,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Photon Claw",
-			es: "Garra Fotónica"
+			'en-us': "Photon Claw",
+			'es-es': "Garra Fotónica"
 		},
 
 		damage: 60,
@@ -30,16 +30,16 @@ const card: Card = {
 	},
 	{
 		name: {
-			en: "Shoegaze",
-			es: "Shoegaze"
+			'en-us': "Shoegaze",
+			'es-es': "Shoegaze"
 		},
 
 		damage: 120,
 		cost: ["Psychic", "Psychic", "Metal", "Metal"],
 
 		effect: {
-			en: "Discard the top 5 cards of each player's deck.",
-			es: "Descarta las 5 primeras cartas de la baraja de cada jugador."
+			'en-us': "Discard the top 5 cards of each player's deck.",
+			'es-es': "Descarta las 5 primeras cartas de la baraja de cada jugador."
 		}
 	}],
 

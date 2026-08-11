@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Houndour",
-		fr: "Malosse",
-		de: "Hunduster"
+		'en-us': "Houndour",
+		'fr-fr': "Malosse",
+		'de-de': "Hunduster"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Corner",
-				fr: "Coincé",
-				de: "Corner"
+				'en-us': "Corner",
+				'fr-fr': "Coincé",
+				'de-de': "Corner"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
-				de: "The Defending Pokémon can't retreat during your opponent's next turn."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'de-de': "The Defending Pokémon can't retreat during your opponent's next turn."
 			},
 
 		},
@@ -49,15 +49,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Lunge",
-				fr: "Coup rapide",
-				de: "Lunge"
+				'en-us': "Lunge",
+				'fr-fr': "Coup rapide",
+				'de-de': "Lunge"
 			},
 
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'de-de': "Flip a coin. If tails, this attack does nothing."
 			},
 
 			damage: 30
@@ -74,8 +74,8 @@ const card: Card = {
 
 
 	description: {
-		en: "When night falls, the air fills with the eerie cries of this Pokémon as it stakes out its territory.",
-		fr: "Quand la nuit tombe, les hurlements sinistres de ce Pokémon retentissent dans le silence tandis qu'il chasse sur son territoire."
+		'en-us': "When night falls, the air fills with the eerie cries of this Pokémon as it stakes out its territory.",
+		'fr-fr': "Quand la nuit tombe, les hurlements sinistres de ce Pokémon retentissent dans le silence tandis qu'il chasse sur son territoire."
 	},
 
 

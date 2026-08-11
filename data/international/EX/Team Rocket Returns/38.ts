@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Dark Magcargo",
-		de: "Dunkles Magcargo"
+		'en-us': "Dark Magcargo",
+		'de-de': "Dunkles Magcargo"
 	},
 
 	illustrator: "Nakaoka",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Slugma",
+		'en-us': "Slugma",
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Press",
-				de: "Energy Press"
+				'en-us': "Energy Press",
+				'de-de': "Energy Press"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each basic Energy card attached to all of your Active Pokémon.",
-				de: "Does 10 damage plus 10 more damage for each basic Energy Card attached to all of your Active Pokémon."
+				'en-us': "Does 10 damage plus 10 more damage for each basic Energy card attached to all of your Active Pokémon.",
+				'de-de': "Does 10 damage plus 10 more damage for each basic Energy Card attached to all of your Active Pokémon."
 			},
 			damage: "10+",
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Linear Attack",
-				de: "Linear Attack"
+				'en-us': "Linear Attack",
+				'de-de': "Linear Attack"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				de: "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness an Resistance for Benched Pokémon.)"
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'de-de': "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness an Resistance for Benched Pokémon.)"
 			},
 
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カブトップス",
+		'ja-jp': "カブトップス",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "古代の殻",
+				'ja-jp': "古代の殻",
 			},
 			effect: {
-				ja: "OmanyteまたはOmastarがプレイされている限り、攻撃によってKabutopsに与えられた損害は20増加します（脱力感と抵抗を適用した後）。",
+				'ja-jp': "OmanyteまたはOmastarがプレイされている限り、攻撃によってKabutopsに与えられた損害は20増加します（脱力感と抵抗を適用した後）。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "エネルギーストリーム",
+				'ja-jp': "エネルギーストリーム",
 			},
 			effect: {
-				ja: "廃棄の山を検索して、基本的なエネルギーカードを調べ、カブトップに添付してください。",
+				'ja-jp': "廃棄の山を検索して、基本的なエネルギーカードを調べ、カブトップに添付してください。",
 			},
 			damage: 30,
 		},
 		{
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "余分な爪",
+				'ja-jp': "余分な爪",
 			},
 			effect: {
-				ja: "防御ポケモンがポケモン-Exの場合、この攻撃は50のダメージと30ダメージを与えます。",
+				'ja-jp': "防御ポケモンがポケモン-Exの場合、この攻撃は50のダメージと30ダメージを与えます。",
 			},
 		},
 	],

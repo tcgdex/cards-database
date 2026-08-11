@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Forbidden Light'
 
 const card: Card = {
 	name: {
-		en: "Tyrantrum",
-		fr: "Rexillius",
-		es: "Tyrantrum",
-		it: "Tyrantrum",
-		pt: "Tyrantrum",
-		de: "Monargoras"
+		'en-us': "Tyrantrum",
+		'fr-fr': "Rexillius",
+		'es-es': "Tyrantrum",
+		'it-it': "Tyrantrum",
+		'pt-br': "Tyrantrum",
+		'de-de': "Monargoras"
 	},
 
 	illustrator: "hatachu",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tyrunt",
-		fr: "Ptyranidur",
+		'en-us': "Tyrunt",
+		'fr-fr': "Ptyranidur",
 	},
 
 	stage: "Stage2",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Tyrannical Heart",
-				fr: "Cœur Tyrannique",
-				es: "Corazón Tiránico",
-				it: "Cuortiranno",
-				pt: "Coração Tirânico",
-				de: "Tyrannisches Herz"
+				'en-us': "Tyrannical Heart",
+				'fr-fr': "Cœur Tyrannique",
+				'es-es': "Corazón Tiránico",
+				'it-it': "Cuortiranno",
+				'pt-br': "Coração Tirânico",
+				'de-de': "Tyrannisches Herz"
 			},
 			effect: {
-				en: "As long as you don’t have more Pokémon in play than your opponent, this Pokémon’s attacks do 60 more damage (before applying Weakness and Resistance), and it takes 30 less damage from attacks (after applying Weakness and Resistance).",
-				fr: "Tant que vous n’avez pas plus de Pokémon en jeu que votre adversaire, les attaques de ce Pokémon infligent 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance), et il subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
-				es: "Mientras no tengas más Pokémon en juego que tu rival, los ataques de este Pokémon hacen 60 puntos de daño más (antes de aplicar Debilidad y Resistencia), y los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
-				it: "Fintanto che non hai più Pokémon in gioco del tuo avversario, gli attacchi di questo Pokémon infliggono 60 danni in più, prima di aver applicato debolezza e resistenza, e questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
-				pt: "Enquanto você não tiver mais Pokémon em jogo do que seu oponente, os ataques deste Pokémon causarão 60 pontos de dano a mais (antes de aplicar Fraqueza e Resistência), e este Pokémon receberá 30 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
-				de: "Solang du nicht mehr Pokémon im Spiel hast als dein Gegner, fügen die Attacken dieses Pokémon 60 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden) und ihm werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "As long as you don’t have more Pokémon in play than your opponent, this Pokémon’s attacks do 60 more damage (before applying Weakness and Resistance), and it takes 30 less damage from attacks (after applying Weakness and Resistance).",
+				'fr-fr': "Tant que vous n’avez pas plus de Pokémon en jeu que votre adversaire, les attaques de ce Pokémon infligent 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance), et il subit 30 dégâts de moins provenant des attaques (après application de la Faiblesse et de la Résistance).",
+				'es-es': "Mientras no tengas más Pokémon en juego que tu rival, los ataques de este Pokémon hacen 60 puntos de daño más (antes de aplicar Debilidad y Resistencia), y los ataques hacen 30 puntos de daño menos a este Pokémon (después de aplicar Debilidad y Resistencia).",
+				'it-it': "Fintanto che non hai più Pokémon in gioco del tuo avversario, gli attacchi di questo Pokémon infliggono 60 danni in più, prima di aver applicato debolezza e resistenza, e questo Pokémon subisce 30 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
+				'pt-br': "Enquanto você não tiver mais Pokémon em jogo do que seu oponente, os ataques deste Pokémon causarão 60 pontos de dano a mais (antes de aplicar Fraqueza e Resistência), e este Pokémon receberá 30 pontos de dano a menos de ataques (após a aplicação de Fraqueza e Resistência).",
+				'de-de': "Solang du nicht mehr Pokémon im Spiel hast als dein Gegner, fügen die Attacken dieses Pokémon 60 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden) und ihm werden durch Attacken 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -63,20 +63,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crunch",
-				fr: "Mâchouille",
-				es: "Triturar",
-				it: "Sgranocchio",
-				pt: "Mastigada",
-				de: "Knirscher"
+				'en-us': "Crunch",
+				'fr-fr': "Mâchouille",
+				'es-es': "Triturar",
+				'it-it': "Sgranocchio",
+				'pt-br': "Mastigada",
+				'de-de': "Knirscher"
 			},
 			effect: {
-				en: "Discard an Energy from your opponent’s Active Pokémon.",
-				fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
-				es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-				it: "Scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
-				de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard an Energy from your opponent’s Active Pokémon.",
+				'fr-fr': "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+				'es-es': "Descarta 1 Energía del Pokémon Activo de tu rival.",
+				'it-it': "Scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Descarte 1 Energia do Pokémon Ativo do seu oponente.",
+				'de-de': "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 100,
 
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Nothing could stop this Pokémon 100 million years ago, so it behaved like a king.",
+		'en-us': "Nothing could stop this Pokémon 100 million years ago, so it behaved like a king.",
 	},
 
 	thirdParty: {

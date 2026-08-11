@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タイプ：ヌル",
+		'ja-jp': "タイプ：ヌル",
 	},
 
 	illustrator: "Ligton",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "神話の ポケモンを モデルに つくられたが 力の 暴走を 抑える マスクを 着けられている。",
+		'ja-jp': "神話の ポケモンを モデルに つくられたが 力の 暴走を 抑える マスクを 着けられている。",
 	},
 
 	stage: "Basic",

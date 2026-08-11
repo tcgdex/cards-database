@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マサキのメンテナンス",
+		'ja-jp': "マサキのメンテナンス",
 	},
 
 	illustrator: "Sanosuke Sakuma",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の手札を1枚、山札にもどして切る。その後、自分の山札を3枚引く。（自分の手札をもどせないなら、このカードは使えない。）",
+		'ja-jp': "自分の手札を1枚、山札にもどして切る。その後、自分の山札を3枚引く。（自分の手札をもどせないなら、このカードは使えない。）",
 	},
 
 	variants: [

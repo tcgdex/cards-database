@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Electabuzz",
+		'ja-jp': "Electabuzz",
 	},
 
 	rarity: "Uncommon",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "エネルギーの引き分け",
+				'ja-jp': "エネルギーの引き分け",
 			},
 			effect: {
-				ja: "デッキを検索して基本的なエネルギーカードを検索し、electabuzzに添付してください。その後、デッキをシャッフルします。",
+				'ja-jp': "デッキを検索して基本的なエネルギーカードを検索し、electabuzzに添付してください。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "エネルギーを反映します",
+				'ja-jp': "エネルギーを反映します",
 			},
 			effect: {
-				ja: "ベンチ付きポケモンがあり、ElectAbuzzに基本的なエネルギーカードが付いている場合は、それらのエネルギーカードの1枚を取り、それらのポケモンの1つに取り付けます。",
+				'ja-jp': "ベンチ付きポケモンがあり、ElectAbuzzに基本的なエネルギーカードが付いている場合は、それらのエネルギーカードの1枚を取り、それらのポケモンの1つに取り付けます。",
 			},
 			damage: 20,
 		},

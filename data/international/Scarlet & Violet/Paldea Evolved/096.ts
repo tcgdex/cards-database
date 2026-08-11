@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Trépassable",
-		en: "Palossand",
-		es: "Palossand",
-		it: "Palossand",
-		pt: "Palossand",
-		de: "Colossand"
+		'fr-fr': "Trépassable",
+		'en-us': "Palossand",
+		'es-es': "Palossand",
+		'it-it': "Palossand",
+		'pt-br': "Palossand",
+		'de-de': "Colossand"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 150,
 	types: ["Psychic"],
 	evolveFrom: {
-		fr: "Bacabouh",
-		en: "Sandygast",
-		es: "Sandygast",
-		it: "Sandygast",
-		pt: "Sandygast",
-		de: "Sankabuh"
+		'fr-fr': "Bacabouh",
+		'en-us': "Sandygast",
+		'es-es': "Sandygast",
+		'it-it': "Sandygast",
+		'pt-br': "Sandygast",
+		'de-de': "Sankabuh"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			fr: "Tir Effrayant",
-			en: "Spooky Shot",
-			es: "Disparo Embrujado",
-			it: "Colpomistero",
-			pt: "Tiro Assustador",
-			de: "Spukschuss"
+			'fr-fr': "Tir Effrayant",
+			'en-us': "Spooky Shot",
+			'es-es': "Disparo Embrujado",
+			'it-it': "Colpomistero",
+			'pt-br': "Tiro Assustador",
+			'de-de': "Spukschuss"
 		},
 
 		damage: 40
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Puissance Tellurique",
-			en: "Earthen Power",
-			es: "Poder Terrestre",
-			it: "Terrapotenza",
-			pt: "Poder Terrestre",
-			de: "Erdenkraft"
+			'fr-fr': "Puissance Tellurique",
+			'en-us': "Earthen Power",
+			'es-es': "Poder Terrestre",
+			'it-it': "Terrapotenza",
+			'pt-br': "Poder Terrestre",
+			'de-de': "Erdenkraft"
 		},
 
 		effect: {
-			fr: "Si vous avez un Stade en jeu, cette attaque inflige 80 dégâts supplémentaires.",
-			en: "If you have a Stadium in play, this attack does 80 more damage.",
-			es: "Si tienes un Estadio en juego, este ataque hace 80 puntos de daño más.",
-			it: "Se hai in gioco una carta Stadio, questo attacco infligge 80 danni in più.",
-			pt: "Se você tiver um Estádio em jogo, este ataque causará 80 pontos de dano a mais.",
-			de: "Wenn du eine Stadionkarte im Spiel hast, fügt diese Attacke 80 Schadenspunkte mehr zu."
+			'fr-fr': "Si vous avez un Stade en jeu, cette attaque inflige 80 dégâts supplémentaires.",
+			'en-us': "If you have a Stadium in play, this attack does 80 more damage.",
+			'es-es': "Si tienes un Estadio en juego, este ataque hace 80 puntos de daño más.",
+			'it-it': "Se hai in gioco una carta Stadio, questo attacco infligge 80 danni in più.",
+			'pt-br': "Se você tiver um Estádio em jogo, este ataque causará 80 pontos de dano a mais.",
+			'de-de': "Wenn du eine Stadionkarte im Spiel hast, fügt diese Attacke 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+"
@@ -102,7 +102,7 @@ const card: Card = {
 	illustrator: "HYOGONOSUKE",
 
 	description: {
-		en: "The terrifying Palossand drags smaller Pokémon into its sandy body. Once its victims are trapped, it drains them of their vitality whenever it pleases.",
+		'en-us': "The terrifying Palossand drags smaller Pokémon into its sandy body. Once its victims are trapped, it drains them of their vitality whenever it pleases.",
 	},
 }
 

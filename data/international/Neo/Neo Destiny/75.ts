@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Mareep",
-		fr: "Wattouat",
-		de: "Voltilamm"
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat",
+		'de-de': "Voltilamm"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Headbutt"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Headbutt"
 			},
 
 			damage: 10,
@@ -51,8 +51,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its soft wool coat captures air, allowing it to remain cool during the summer and warm in the winter.",
-		fr: "Sa douce laine capture l'air ambiant, ce qui lui permet de rester frais en été et chaud en hiver."
+		'en-us': "Its soft wool coat captures air, allowing it to remain cool during the summer and warm in the winter.",
+		'fr-fr': "Sa douce laine capture l'air ambiant, ce qui lui permet de rester frais en été et chaud en hiver."
 	},
 
 

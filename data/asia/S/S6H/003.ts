@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イシズマイ",
+		'ja-jp': "イシズマイ",
 		'zh-tw': "石居蟹",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "家に ちょうどいい 小石が 見つからないと カバルドンの 穴に 棲んでしまうことも。",
+		'ja-jp': "家に ちょうどいい 小石が 見つからないと カバルドンの 穴に 棲んでしまうことも。",
 		'zh-tw': "如果找不到大小合適的石頭來當成自己的家，牠也會住到河馬獸的洞裡。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶつかる",
+				'ja-jp': "ぶつかる",
 				'zh-tw': "拍擊",
 			},
 			damage: 10,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "するどいツメ",
+				'ja-jp': "するどいツメ",
 				'zh-tw': "出拳",
 			},
 			damage: "10+",
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、30ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、30ダメージ追加。",
 			},
 		},
 	],

@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Tangela",
+		'en-us': "Tangela",
 	},
 
 	illustrator: "kirisAki",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Beat",
+				'en-us': "Beat",
 			},
 
 			damage: 10,
@@ -42,10 +42,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flog",
+				'en-us': "Flog",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
 			},
 			damage: 20,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Many writhing vines cover it, so its true identity remains unknown. The blue vines grow its whole life long.",
+		'en-us': "Many writhing vines cover it, so its true identity remains unknown. The blue vines grow its whole life long.",
 	},
 
 	thirdParty: {

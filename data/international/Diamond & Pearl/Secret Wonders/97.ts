@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Nidoran♂",
-		fr: "Nidoran♂",
-		de: "Nidoran m"
+		'en-us': "Nidoran♂",
+		'fr-fr': "Nidoran♂",
+		'de-de': "Nidoran m"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collectionner",
-				de: "Sammeln"
+				'en-us': "Collect",
+				'fr-fr': "Collectionner",
+				'de-de': "Sammeln"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Poison Skin",
-				fr: "Peau poison",
-				de: "Gifthaut"
+				'en-us': "Poison Skin",
+				'fr-fr': "Peau poison",
+				'de-de': "Gifthaut"
 			},
 			effect: {
-				en: "Flip 2 coins. If either of them is heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez 2 pièces. Si vous obtenez une face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf 2 Münzen. Wenn eine oder beide Münzen \"Kopf\" gezeigt haben, ist das Verteidigende Pokémon jetzt vergiftet."
+				'en-us': "Flip 2 coins. If either of them is heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez une face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Wirf 2 Münzen. Wenn eine oder beide Münzen \"Kopf\" gezeigt haben, ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 
 		},
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It scans its surroundings by raising its ears out of the grass. Its toxic horn is for protection.",
+		'en-us': "It scans its surroundings by raising its ears out of the grass. Its toxic horn is for protection.",
 	},
 
 	variants: [

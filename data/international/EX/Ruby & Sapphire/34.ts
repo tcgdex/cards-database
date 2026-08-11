@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Kirlia",
-		fr: "Kirlia",
-		de: "Kirlia"
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia",
+		'de-de': "Kirlia"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Ralts",
-		fr: "Tarsal"
+		'en-us': "Ralts",
+		'fr-fr': "Tarsal"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Removal Beam",
-				fr: "Rayon désintégrateur",
-				de: "Removal Beam"
+				'en-us': "Removal Beam",
+				'fr-fr': "Rayon désintégrateur",
+				'de-de': "Removal Beam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard 1 Energy card attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Flip a coin. If heads, discard 1 Energy card attached to the Defending Pokémon."
+				'en-us': "Flip a coin. If heads, discard 1 Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Flip a coin. If heads, discard 1 Energy card attached to the Defending Pokémon."
 			},
 			damage: 10,
 
@@ -53,9 +53,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Psy",
-				fr: "Super psy",
-				de: "Super Psy"
+				'en-us': "Super Psy",
+				'fr-fr': "Super psy",
+				'de-de': "Super Psy"
 			},
 
 			damage: 50,

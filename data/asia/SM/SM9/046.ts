@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドククラゲ",
+		'ja-jp': "ドククラゲ",
 	},
 
 	illustrator: "kodama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "赤い 玉から 超音波を 発生させ 獲物を 弱らせると ８０本の 触手を 巻きつける。",
+		'ja-jp': "赤い 玉から 超音波を 発生させ 獲物を 弱らせると ８０本の 触手を 巻きつける。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "うつろなしょくしゅ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくとこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをどくとこんらんにする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンは「ウルトラビースト」からワザのダメージを受けない。",
+				'ja-jp': "次の相手の番、このポケモンは「ウルトラビースト」からワザのダメージを受けない。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "メノクラゲ",
+		'ja-jp': "メノクラゲ",
 	},
 
 	retreat: 1,

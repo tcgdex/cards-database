@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [848],
 
 	name: {
-		en: "Toxel"
+		'en-us': "Toxel"
 	},
 
 	illustrator: "Taiga Kayama",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "This selfish, attention-seeking Pokémon stores\npoison and electricity in two different sacs inside\nits body."
+		'en-us': "This selfish, attention-seeking Pokémon stores\npoison and electricity in two different sacs inside\nits body."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Static Shock"
+			'en-us': "Static Shock"
 		},
 
 		damage: 30,

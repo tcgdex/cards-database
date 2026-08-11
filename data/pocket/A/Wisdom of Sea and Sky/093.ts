@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sudowoodo",
-		fr: "Simularbre"
+		'en-us': "Sudowoodo",
+		'fr-fr': "Simularbre"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "Although it always pretends to be a tree,\nits composition appears more similar to\nrock than to vegetation.",
-		fr: "Bien qu'il fasse semblant d'être un arbre, par sa composition, il semble plus proche d'un minéral que d'un végétal."
+		'en-us': "Although it always pretends to be a tree,\nits composition appears more similar to\nrock than to vegetation.",
+		'fr-fr': "Bien qu'il fasse semblant d'être un arbre, par sa composition, il semble plus proche d'un minéral que d'un végétal."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Rock Throw",
-			fr: "Jet-Pierres"
+			'en-us': "Rock Throw",
+			'fr-fr': "Jet-Pierres"
 		},
 
 		damage: 50,

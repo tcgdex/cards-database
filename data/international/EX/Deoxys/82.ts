@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Wurmple",
-		fr: "Chenipotte",
-		de: "Waumpel"
+		'en-us': "Wurmple",
+		'fr-fr': "Chenipotte",
+		'de-de': "Waumpel"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ascension",
-				fr: "Ascension",
-				de: "Ascension"
+				'en-us': "Ascension",
+				'fr-fr': "Ascension",
+				'de-de': "Ascension"
 			},
 			effect: {
-				en: "Search your deck for a card that evolves from Wurmple and put it on Wurmple. (This counts as evolving Wurmple.) Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck une carte qui évolue de Chenipotte et placez-la sur Chenipotte. (Vous faites ainsi évoluer Chenipotte.) Ensuite, mélangez votre deck.",
-				de: "Search your deck for a card that evolves from Wurmple and out it on Wurmple. (This count as evolving Wurmple.) Shuffle your deck afterward."
+				'en-us': "Search your deck for a card that evolves from Wurmple and put it on Wurmple. (This counts as evolving Wurmple.) Shuffle your deck afterward.",
+				'fr-fr': "Cherchez dans votre deck une carte qui évolue de Chenipotte et placez-la sur Chenipotte. (Vous faites ainsi évoluer Chenipotte.) Ensuite, mélangez votre deck.",
+				'de-de': "Search your deck for a card that evolves from Wurmple and out it on Wurmple. (This count as evolving Wurmple.) Shuffle your deck afterward."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Miracle Essence",
-				fr: "Solution miracle",
-				de: "Miracle Essence"
+				'en-us': "Miracle Essence",
+				'fr-fr': "Solution miracle",
+				'de-de': "Miracle Essence"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 Special Condition. Each Defending Pokémon is now affected by that Special Condition.",
-				fr: "Lancez une pièce. Si c'est face, choisissez 1 État Spécial. Chaque Pokémon Défenseur est maintenant affecté par cet État Spécial.",
-				de: "Flip a coin. If heads, choose 1 Special Condition. Each Defending Pokémon is now affected by that Special Condition."
+				'en-us': "Flip a coin. If heads, choose 1 Special Condition. Each Defending Pokémon is now affected by that Special Condition.",
+				'fr-fr': "Lancez une pièce. Si c'est face, choisissez 1 État Spécial. Chaque Pokémon Défenseur est maintenant affecté par cet État Spécial.",
+				'de-de': "Flip a coin. If heads, choose 1 Special Condition. Each Defending Pokémon is now affected by that Special Condition."
 			},
 
 		},

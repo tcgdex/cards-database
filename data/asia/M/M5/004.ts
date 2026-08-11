@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラランテスex",
+		'ja-jp': "ラランテスex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Grass"],
 			effect: {
-				ja: "この番に、このポケモンのHPを回復していたなら、200ダメージ追加。",
+				'ja-jp': "この番に、このポケモンのHPを回復していたなら、200ダメージ追加。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 140,
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-50」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-50」される。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カリキリ",
+		'ja-jp': "カリキリ",
 	},
 
 	retreat: 1,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Piplup",
-		fr: "Tiplouf",
-		de: "Plinfa"
+		'en-us': "Piplup",
+		'fr-fr': "Tiplouf",
+		'de-de': "Plinfa"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -27,13 +27,13 @@ const card: Card = {
 
 	item: {
 		name: {
-			fr: "Baie Pecha",
-			de: 'Pirsifbeere'
+			'fr-fr': "Baie Pecha",
+			'de-de': 'Pirsifbeere'
 
 		},
 		effect: {
-			fr: "Si Tiplouf est Empoisonné, retirez-lui l'État Spécial Empoisonné à la fin du tour de chaque joueur.",
-			de: 'Wenn Plinfa vergiftet ist, entferne am Ende jedes Zuges den Speziellen Zustand \'vergiftet\' von Plinfa.'
+			'fr-fr': "Si Tiplouf est Empoisonné, retirez-lui l'État Spécial Empoisonné à la fin du tour de chaque joueur.",
+			'de-de': 'Wenn Plinfa vergiftet ist, entferne am Ende jedes Zuges den Speziellen Zustand \'vergiftet\' von Plinfa.'
 		}
 	},
 
@@ -43,14 +43,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Splatter",
-				fr: "Crépitement",
-				de: 'Verspritzer'
+				'en-us': "Splatter",
+				'fr-fr': "Crépitement",
+				'de-de': 'Verspritzer'
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
-				de: 'Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte zu. Der Schaden dieses angriffs wird durch Schwäche und Resistenz des gewählten Pokémon nicht verändert. '
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				'de-de': 'Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte zu. Der Schaden dieses angriffs wird durch Schwäche und Resistenz des gewählten Pokémon nicht verändert. '
 			},
 
 		}

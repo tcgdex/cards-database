@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Sealeo",
-		th: "โทดอกเกลอร์"
+		'id-id': "Sealeo",
+		'th-th': "โทดอกเกลอร์"
 	},
 
 	illustrator: "Mina Nakai",
@@ -15,24 +15,24 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Sealeo hidup di atas es hanyut. Sambil berenang, Pokémon ini mencium bau mangsa, menemukan, dan menangkapnya.",
-		th: "ใช้ชีวิตอยู่บนธารน้ำแข็ง ดมกลิ่นคัดแยกเหยื่อระหว่างว่ายน้ำ ตามหา จนเจอและจับมัน"
+		'id-id': "Sealeo hidup di atas es hanyut. Sambil berenang, Pokémon ini mencium bau mangsa, menemukan, dan menangkapnya.",
+		'th-th': "ใช้ชีวิตอยู่บนธารน้ำแข็ง ดมกลิ่นคัดแยกเหยื่อระหว่างว่ายน้ำ ตามหา จนเจอและจับมัน"
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Mendorong Jatuh",
-			th: "พุ่งชน"
+			'id-id': "Mendorong Jatuh",
+			'th-th': "พุ่งชน"
 		},
 
 		damage: 30,
 		cost: ["Water"]
 	}, {
 		name: {
-			id: "Ice Ball",
-			th: "บอลน้ำแข็ง"
+			'id-id': "Ice Ball",
+			'th-th': "บอลน้ำแข็ง"
 		},
 
 		damage: 60,

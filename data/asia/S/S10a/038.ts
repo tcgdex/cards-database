@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グライガー",
+		'ja-jp': "グライガー",
 		'zh-tw': "天蠍",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "顔面 めがけて 飛んでくる。 張りつかれた 獲物が 驚く あいだに 毒針を 刺しこむ。",
+		'ja-jp': "顔面 めがけて 飛んでくる。 張りつかれた 獲物が 驚く あいだに 毒針を 刺しこむ。",
 		'zh-tw': "會朝著獵物迎面飛來，然後趁著被纏上的獵物 驚慌失措時刺入毒針。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "せんぷうバサミ",
+				'ja-jp': "せんぷうバサミ",
 				'zh-tw': "旋風鉗",
 			},
 			damage: "10×",
 			cost: ["Fighting"],
 			effect: {
-				ja: "コインを4回投げ、オモテの数×10ダメージ。",
+				'ja-jp': "コインを4回投げ、オモテの数×10ダメージ。",
 				'zh-tw': "擲4次硬幣，造成正面出現的次數×10點傷害。",
 			},
 		},

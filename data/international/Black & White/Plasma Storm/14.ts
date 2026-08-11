@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Moltres-EX",
-		fr: "Sulfura-EX",
-		es: "Moltres-EX",
-		it: "Moltres-EX",
-		pt: "Moltres-EX",
-		de: "Lavados-EX"
+		'en-us': "Moltres-EX",
+		'fr-fr': "Sulfura-EX",
+		'es-es': "Moltres-EX",
+		'it-it': "Moltres-EX",
+		'pt-br': "Moltres-EX",
+		'de-de': "Lavados-EX"
 	},
 	illustrator: "Eske Yoshinob",
 	rarity: "Rare",
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Destructive Flame",
-				fr: "Flamme Destructrice",
+				'en-us': "Destructive Flame",
+				'fr-fr': "Flamme Destructrice",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 30,
 
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Power Flame",
-				fr: "Flamme Vigoureuse",
+				'en-us': "Power Flame",
+				'fr-fr': "Flamme Vigoureuse",
 			},
 			effect: {
-				en: "If this Pokémon has any Plasma Energy attached to it, this attack does 40 more damage.",
-				fr: "Si de l'Énergie Plasma est attachée à ce Pokémon, cette attaque inflige 40 dégâts supplémentaires.",
+				'en-us': "If this Pokémon has any Plasma Energy attached to it, this attack does 40 more damage.",
+				'fr-fr': "Si de l'Énergie Plasma est attachée à ce Pokémon, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: 80,
 

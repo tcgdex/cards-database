@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Pikachu-ex",
-		en: "Pikachu ex",
-		es: "Pikachu ex",
-		it: "Pikachu-ex",
-		pt: "Pikachu ex",
-		de: "Pikachu-ex"
+		'fr-fr': "Pikachu-ex",
+		'en-us': "Pikachu ex",
+		'es-es': "Pikachu ex",
+		'it-it': "Pikachu-ex",
+		'pt-br': "Pikachu ex",
+		'de-de': "Pikachu-ex"
 	},
 
 	rarity: "Double rare",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Pika-Poing",
-			en: "Pika Punch",
-			es: "Pika Puño",
-			it: "Pika Pugno",
-			pt: "Soco Pikachu",
-			de: "Pikahieb"
+			'fr-fr': "Pika-Poing",
+			'en-us': "Pika Punch",
+			'es-es': "Pika Puño",
+			'it-it': "Pika Pugno",
+			'pt-br': "Soco Pikachu",
+			'de-de': "Pikahieb"
 		},
 
 		damage: 30
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			fr: "Éclair Dynamique",
-			en: "Dynamic Bolt",
-			es: "Rayo Dinámico",
-			it: "Fulmine Dinamico",
-			pt: "Raio Dinâmico",
-			de: "Dynamischer Blitz"
+			'fr-fr': "Éclair Dynamique",
+			'en-us': "Dynamic Bolt",
+			'es-es': "Rayo Dinámico",
+			'it-it': "Fulmine Dinamico",
+			'pt-br': "Raio Dinâmico",
+			'de-de': "Dynamischer Blitz"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c'est pile, défaussez toutes les Énergies de ce Pokémon.",
-			en: "Flip a coin. If tails, discard all Energy from this Pokémon.",
-			es: "Lanza 1 moneda. Si sale cruz, descarta todas las Energías de este Pokémon.",
-			it: "Lancia una moneta. Se esce croce, scarta tutte le Energie da questo Pokémon.",
-			pt: "Jogue uma moeda. Se sair coroa, descarte todas as Energias deste Pokémon.",
-			de: "Wirf 1 Münze. Lege bei Zahl alle Energien von diesem Pokémon auf deinen Ablagestapel."
+			'fr-fr': "Lancez une pièce. Si c'est pile, défaussez toutes les Énergies de ce Pokémon.",
+			'en-us': "Flip a coin. If tails, discard all Energy from this Pokémon.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, descarta todas las Energías de este Pokémon.",
+			'it-it': "Lancia una moneta. Se esce croce, scarta tutte le Energie da questo Pokémon.",
+			'pt-br': "Jogue uma moeda. Se sair coroa, descarte todas as Energias deste Pokémon.",
+			'de-de': "Wirf 1 Münze. Lege bei Zahl alle Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 220

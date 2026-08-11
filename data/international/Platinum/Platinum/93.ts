@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Skitty",
-		fr: "Skitty",
-		de: "Eneco"
+		'en-us': "Skitty",
+		'fr-fr': "Skitty",
+		'de-de': "Eneco"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Heal Bell",
-				fr: "Glas de soin",
-				de: "Heal Bell"
+				'en-us': "Heal Bell",
+				'fr-fr': "Glas de soin",
+				'de-de': "Heal Bell"
 			},
 			effect: {
-				en: "Remove 1 damage counter from each of your Pokémon.",
-				fr: "Retirez à chacun de vos Pokémon 1 marqueur de dégât.",
-				de: "Remove 1 damage counter from each of your Pokémon."
+				'en-us': "Remove 1 damage counter from each of your Pokémon.",
+				'fr-fr': "Retirez à chacun de vos Pokémon 1 marqueur de dégât.",
+				'de-de': "Remove 1 damage counter from each of your Pokémon."
 			},
 
 		},
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				de: "Take Down"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'de-de': "Take Down"
 			},
 			effect: {
-				en: "Skitty does 10 damage to itself.",
-				fr: "Skitty s'inflige 10 dégâts.",
-				de: "Skitty does 10 damage to itself."
+				'en-us': "Skitty does 10 damage to itself.",
+				'fr-fr': "Skitty s'inflige 10 dégâts.",
+				'de-de': "Skitty does 10 damage to itself."
 			},
 			damage: 20,
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It can't stop itself from chasing moving things, and it runs in a circle, chasing its own tail."
+		'en-us': "It can't stop itself from chasing moving things, and it runs in a circle, chasing its own tail."
 	},
 
 	variants: [

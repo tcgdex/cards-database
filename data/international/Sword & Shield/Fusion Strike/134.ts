@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Primeape",
-		fr: "Colossinge",
-		es: "Primeape",
-		it: "Primeape",
-		pt: "Primeape",
-		de: "Rasaff"
+		'en-us': "Primeape",
+		'fr-fr': "Colossinge",
+		'es-es': "Primeape",
+		'it-it': "Primeape",
+		'pt-br': "Primeape",
+		'de-de': "Rasaff"
 	},
 
 	rarity: "Uncommon",
@@ -20,12 +20,12 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Mankey",
-		fr: "Férosinge",
-		es: "Mankey",
-		it: "Mankey",
-		pt: "Mankey",
-		de: "Menki"
+		'en-us': "Mankey",
+		'fr-fr': "Férosinge",
+		'es-es': "Mankey",
+		'it-it': "Mankey",
+		'pt-br': "Mankey",
+		'de-de': "Menki"
 	},
 
 	stage: "Stage1",
@@ -40,30 +40,30 @@ const card: Card = {
 	illustrator: "Yuya Oka",
 
 	description: {
-		en: "The blood vessels in its brain are sturdier than those of other Pokémon, so it can stay healthy despite its constant raging."
+		'en-us': "The blood vessels in its brain are sturdier than those of other Pokémon, so it can stay healthy despite its constant raging."
 	},
 
 	attacks: [{
 		cost: ["Fighting"],
 
 		name: {
-			en: "Gut Punch",
-			fr: "Poing Estomaquant",
-			de: "Magenhieb",
-			es: "Puño Tripa",
-			pt: "Soco Tenaz",
-			it: "Spavaldopugno"
+			'en-us': "Gut Punch",
+			'fr-fr': "Poing Estomaquant",
+			'de-de': "Magenhieb",
+			'es-es': "Puño Tripa",
+			'pt-br': "Soco Tenaz",
+			'it-it': "Spavaldopugno"
 		},
 
 		damage: "30+",
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a Pokémon V, this attack does 60 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-V, cette attaque inflige 60 dégâts supplémentaires.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Pokémon-V ist, fügt diese Attacke 60 Schadenspunkte mehr zu.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon V, este ataque hace 60 puntos de daño más.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon V, este ataque causará 60 pontos de dano a mais.",
-			it: "Se il Pokémon attivo del tuo avversario è un Pokémon-V, questo attacco infligge 60 danni in più."
+			'en-us': "If your opponent's Active Pokémon is a Pokémon V, this attack does 60 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon-V, cette attaque inflige 60 dégâts supplémentaires.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners ein Pokémon-V ist, fügt diese Attacke 60 Schadenspunkte mehr zu.",
+			'es-es': "Si el Pokémon Activo de tu rival es un Pokémon V, este ataque hace 60 puntos de daño más.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon V, este ataque causará 60 pontos de dano a mais.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon-V, questo attacco infligge 60 danni in più."
 		}
 	}],
 

@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Forgelina",
-		en: "Tinkaton",
-		es: "Tinkaton",
-		it: "Tinkaton",
-		pt: "Tinkaton",
-		de: "Granforgita"
+		'fr-fr': "Forgelina",
+		'en-us': "Tinkaton",
+		'es-es': "Tinkaton",
+		'it-it': "Tinkaton",
+		'pt-br': "Tinkaton",
+		'de-de': "Granforgita"
   },
   illustrator: "KEIICHIRO ITO",
   rarity: "Three Diamond",
@@ -18,13 +18,13 @@ const card: Card = {
   types: ["Metal"],
   dexId: [959],
   evolveFrom: {
-		en: "Tinkatuff",
-		fr: "Forgella",
-		es: "Tinkatuff",
-		it: "Tinkatuff",
-		de: "Tafforgita",
+		'en-us': "Tinkatuff",
+		'fr-fr': "Forgella",
+		'es-es': "Tinkatuff",
+		'it-it': "Tinkatuff",
+		'de-de': "Tafforgita",
 		'pt-br': "Tinkatuff",
-		ko: "벼리짱"
+		'ko-kr': "벼리짱"
   },
   description: {
     en: "The hammer tops 220 pounds, yet it gets swung around easily by Tinkaton as it steals whatever it pleases and carries its plunder back home.",

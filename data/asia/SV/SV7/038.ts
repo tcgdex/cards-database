@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "呆呆獸",
 		'zh-cn': "呆呆獸",
-		ja: "ヤドン"
+		'ja-jp': "ヤドン"
 	},
 
 	illustrator: "Teeziro",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "總是一副在發呆的樣子， 不知道在想些什麼。 擅長用尾巴來釣食物。",
 		'zh-cn': "總是一副在發呆的樣子， 不知道在想些什麼。 擅長用尾巴來釣食物。",
-		ja: "いつも ボーッとしていて なにを 考えているか わからない。 尻尾で エサを 釣るのが 得意。"
+		'ja-jp': "いつも ボーッとしていて なにを 考えているか わからない。 尻尾で エサを 釣るのが 得意。"
 	},
 
 	stage: "Basic",
@@ -27,13 +27,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "垂尾巴",
 			'zh-cn': "垂尾巴",
-			ja: "しっぽをたらす"
+			'ja-jp': "しっぽをたらす"
 		},
 
 		effect: {
 			'zh-tw': "從自己的棄牌區選擇1張寶可夢卡，在給對手看過後加入手牌。",
 			'zh-cn': "從自己的棄牌區選擇1張寶可夢卡，在給對手看過後加入手牌。",
-			ja: "自分のトラッシュからポケモンを1枚選び、相手に見せて、手札に加える。"
+			'ja-jp': "自分のトラッシュからポケモンを1枚選び、相手に見せて、手札に加える。"
 		},
 
 		cost: ["Colorless"]
@@ -41,7 +41,7 @@ const card: Card = {
 		name: {
 			'zh-tw': "撞擊",
 			'zh-cn': "撞擊",
-			ja: "たいあたり"
+			'ja-jp': "たいあたり"
 		},
 
 		damage: 30,

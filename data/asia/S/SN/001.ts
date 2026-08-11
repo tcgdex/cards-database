@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SN"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "皮卡丘V",
-		ja: "ピカチュウV"
+		'ja-jp': "ピカチュウV"
 	},
 
 	illustrator: "You Iribi",
@@ -19,12 +19,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "皮卡衝鋒",
-			ja: "ピカドライブ"
+			'ja-jp': "ピカドライブ"
 		},
 
 		effect: {
 			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
-			ja: "次の自分の番、このポケモンはワザが使えない。"
+			'ja-jp': "次の自分の番、このポケモンはワザが使えない。"
 		},
 
 		damage: 200,

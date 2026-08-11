@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Pinsir",
-		fr: "Scarabrute",
-		de: "Pinsir"
+		'en-us': "Pinsir",
+		'fr-fr': "Scarabrute",
+		'de-de': "Pinsir"
 	},
 
 	illustrator: "match",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Charging Horn",
-				fr: "Corne d’attaque",
-				de: "Rempelhorn"
+				'en-us': "Charging Horn",
+				'fr-fr': "Corne d’attaque",
+				'de-de': "Rempelhorn"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -48,9 +48,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Guillotine",
-				fr: "Guillotine",
-				de: "Guillotine"
+				'en-us': "Guillotine",
+				'fr-fr': "Guillotine",
+				'de-de': "Guillotine"
 			},
 
 			damage: 60,
@@ -68,7 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "With its pincer horns, it digs burrows to sleep in at night. In the morning, damp soil clings to its body."
+		'en-us': "With its pincer horns, it digs burrows to sleep in at night. In the morning, damp soil clings to its body."
 	},
 
 	variants: [

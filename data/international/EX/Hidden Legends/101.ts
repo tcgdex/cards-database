@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Wigglytuff ex",
-		fr: "Grodoudou ex",
-		de: "Knuddeluff ex"
+		'en-us': "Wigglytuff ex",
+		'fr-fr': "Grodoudou ex",
+		'de-de': "Knuddeluff ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Jigglypuff",
-		fr: "Rondoudou"
+		'en-us': "Jigglypuff",
+		'fr-fr': "Rondoudou"
 	},
 
 	suffix: "ex",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleepy Song",
-				fr: "Chanson berçante",
-				de: "Sleepy Song"
+				'en-us': "Sleepy Song",
+				'fr-fr': "Chanson berçante",
+				'de-de': "Sleepy Song"
 			},
 			effect: {
-				en: "Each Defending Pokémon is now Asleep.",
-				fr: "Chaque Pokémon Défenseur est maintenant Endormi.",
-				de: "Each Defending Pokémon is now Asleep."
+				'en-us': "Each Defending Pokémon is now Asleep.",
+				'fr-fr': "Chaque Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Each Defending Pokémon is now Asleep."
 			},
 			damage: 30,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Do the Wave",
-				fr: "Faites la vague",
-				de: "Do the Wave"
+				'en-us': "Do the Wave",
+				'fr-fr': "Faites la vague",
+				'de-de': "Do the Wave"
 			},
 			effect: {
-				en: "Does 30 damage plus 10 more damage for each of your Benched Pokémon.",
-				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Pokémon qui se trouve sur votre Banc.",
-				de: "Does 30 damage plus 10 more damage for each of your Benched Pokémon."
+				'en-us': "Does 30 damage plus 10 more damage for each of your Benched Pokémon.",
+				'fr-fr': "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Pokémon qui se trouve sur votre Banc.",
+				'de-de': "Does 30 damage plus 10 more damage for each of your Benched Pokémon."
 			},
 			damage: "30+",
 

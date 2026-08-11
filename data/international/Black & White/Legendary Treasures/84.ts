@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Terrakion",
+		'en-us': "Terrakion",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Retaliate",
+				'en-us': "Retaliate",
 			},
 			effect: {
-				en: "If any of your Pokémon were Knocked Out by damage from an opponent's attack during his or her last turn, this attack does 60 more damage.",
+				'en-us': "If any of your Pokémon were Knocked Out by damage from an opponent's attack during his or her last turn, this attack does 60 more damage.",
 			},
 			damage: 30,
 
@@ -45,7 +45,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Land Crush",
+				'en-us': "Land Crush",
 			},
 
 			damage: 90,
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Its charge is strong enough to break through a giant castle wall in one blow. This Pokémon is spoken of in legends.",
+		'en-us': "Its charge is strong enough to break through a giant castle wall in one blow. This Pokémon is spoken of in legends.",
 	},
 
 	thirdParty: {

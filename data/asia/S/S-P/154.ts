@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハイド悪エネルギー",
+		'ja-jp': "ハイド悪エネルギー",
 		'zh-tw': "瑪狃拉",
 	},
 
@@ -13,7 +13,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		ja: "このカードは、ポケモンについているかぎり、[悪]エネルギー1個ぶんとしてはたらく。このカードをつけている[悪]ポケモンのにげるためのエネルギーは、すべてなくなる。",
+		'ja-jp': "このカードは、ポケモンについているかぎり、[悪]エネルギー1個ぶんとしてはたらく。このカードをつけている[悪]ポケモンのにげるためのエネルギーは、すべてなくなる。",
 	},
 
 	variants: [

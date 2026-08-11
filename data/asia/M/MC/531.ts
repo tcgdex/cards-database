@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブロロン",
+		'ja-jp': "ブロロン",
 	},
 
 	illustrator: "Shiburingaru",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "鋼の 体が 本体。 岩に 張りつき その成分を エネルギーに 変えて 活動する。",
+		'ja-jp': "鋼の 体が 本体。 岩に 張りつき その成分を エネルギーに 変えて 活動する。",
 	},
 
 	stage: "Basic",

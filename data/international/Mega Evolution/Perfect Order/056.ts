@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
@@ -7,13 +7,13 @@ const card: Card = {
 	dexId: [679],
 
 	name: {
-		en: "Honedge",
-		fr: "Monorpale",
-		es: "Honedge",
+		'en-us': "Honedge",
+		'fr-fr': "Monorpale",
+		'es-es': "Honedge",
 		'es-mx': "Honedge",
-		de: "Gramokles",
-		it: "Honedge",
-		pt: "Honedge"
+		'de-de': "Gramokles",
+		'it-it': "Honedge",
+		'pt-br': "Honedge"
 	},
 
 	illustrator: "Apios",
@@ -27,13 +27,13 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Cut",
-			fr: "Coupe",
-			es: "Corte",
+			'en-us': "Cut",
+			'fr-fr': "Coupe",
+			'es-es': "Corte",
 			'es-mx': "Corte",
-			de: "Zerschneider",
-			it: "Taglio",
-			pt: "Cortar"
+			'de-de': "Zerschneider",
+			'it-it': "Taglio",
+			'pt-br': "Cortar"
 		},
 
 		damage: 10

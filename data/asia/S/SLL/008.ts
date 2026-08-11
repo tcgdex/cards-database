@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SLL"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "列陣兵",
-		ja: "タイレーツ"
+		'ja-jp': "タイレーツ"
 	},
 
 	illustrator: "sowsow",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "列陣兵由１個頭頭和５個跟班組成。頭頭的命令不可違抗。",
-		ja: "ヘイチョーと 呼ばれる １匹と ヘイと 呼ばれる ５匹で ひとつ。 ヘイチョーの 命令は 絶対。"
+		'ja-jp': "ヘイチョーと 呼ばれる １匹と ヘイと 呼ばれる ５匹で ひとつ。 ヘイチョーの 命令は 絶対。"
 	},
 
 	stage: "Basic",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "鬥志頭錘",
-			ja: "とうしのずつき"
+			'ja-jp': "とうしのずつき"
 		},
 
 		effect: {
 			'zh-tw': "若對手的戰鬥寶可夢為「寶可夢【V】」，則增加50點傷害。這個招式的傷害不計算弱點。",
-			ja: "相手のバトルポケモンが「ポケモンV」なら、50ダメージ追加。このワザのダメージは弱点を計算しない。"
+			'ja-jp': "相手のバトルポケモンが「ポケモンV」なら、50ダメージ追加。このワザのダメージは弱点を計算しない。"
 		},
 
 		damage: "10＋",
@@ -37,7 +37,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "噴射頭擊",
-			ja: "ジェットヘッド"
+			'ja-jp': "ジェットヘッド"
 		},
 
 		damage: 80,

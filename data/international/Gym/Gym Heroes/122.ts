@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Energy Flow"
+		'en-us': "Energy Flow"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -12,7 +12,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "For each of your Pokémon, you may return any number of Energy cards attached to it to your hand."
+		'en-us': "For each of your Pokémon, you may return any number of Energy cards attached to it to your hand."
 	},
 	variants: [
 		{

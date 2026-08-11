@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Monferno",
-		fr: "Chimpenfeu",
-		es: "Monferno",
-		it: "Monferno",
-		pt: "Monferno",
-		de: "Panpyro"
+		'en-us': "Monferno",
+		'fr-fr': "Chimpenfeu",
+		'es-es': "Monferno",
+		'it-it': "Monferno",
+		'pt-br': "Monferno",
+		'de-de': "Panpyro"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -21,12 +21,12 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Chimchar",
-		fr: "Ouisticram",
-		es: "Chimchar",
-		it: "Chimchar",
-		pt: "Chimchar",
-		de: "Panflam"
+		'en-us': "Chimchar",
+		'fr-fr': "Ouisticram",
+		'es-es': "Chimchar",
+		'it-it': "Chimchar",
+		'pt-br': "Chimchar",
+		'de-de': "Panflam"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Flare",
-			fr: "Flamboiement",
-			es: "Llama",
-			it: "Fiammata",
-			pt: "Chama",
-			de: "Flackern"
+			'en-us': "Flare",
+			'fr-fr': "Flamboiement",
+			'es-es': "Llama",
+			'it-it': "Fiammata",
+			'pt-br': "Chama",
+			'de-de': "Flackern"
 		},
 
 		damage: 30
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Flamethrower",
-			fr: "Lance-Flammes",
-			es: "Lanzallamas",
-			it: "Lanciafiamme",
-			pt: "Lança-chamas",
-			de: "Flammenwurf"
+			'en-us': "Flamethrower",
+			'fr-fr': "Lance-Flammes",
+			'es-es': "Lanzallamas",
+			'it-it': "Lanciafiamme",
+			'pt-br': "Lança-chamas",
+			'de-de': "Flammenwurf"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte 1 Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte 1 Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 50
@@ -79,7 +79,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It uses ceilings and walls to launch aerial attacks. Its fiery tail is but one weapon.",
+		'en-us': "It uses ceilings and walls to launch aerial attacks. Its fiery tail is but one weapon.",
 	},
 
 	variants: [

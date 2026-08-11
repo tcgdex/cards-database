@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gurdurr",
-		fr: "Ouvrifier",
-		es: "Gurdurr",
-		it: "Gurdurr",
-		pt: "Gurdurr",
-		de: "Strepoli"
+		'en-us': "Gurdurr",
+		'fr-fr': "Ouvrifier",
+		'es-es': "Gurdurr",
+		'it-it': "Gurdurr",
+		'pt-br': "Gurdurr",
+		'de-de': "Strepoli"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Timburr",
-		fr: "Charpenti",
-		es: "Timburr",
-		it: "Timburr",
-		pt: "Timburr",
-		de: "Praktibalk"
+		'en-us': "Timburr",
+		'fr-fr': "Charpenti",
+		'es-es': "Timburr",
+		'it-it': "Timburr",
+		'pt-br': "Timburr",
+		'de-de': "Praktibalk"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Knuckle Punch",
-			fr: "Coud'Phalange",
-			es: "Puño con Nudillos",
-			it: "Noccapugno",
-			pt: "Soco com Punho",
-			de: "Knöchelhieb"
+			'en-us': "Knuckle Punch",
+			'fr-fr': "Coud'Phalange",
+			'es-es': "Puño con Nudillos",
+			'it-it': "Noccapugno",
+			'pt-br': "Soco com Punho",
+			'de-de': "Knöchelhieb"
 		},
 
 		damage: 20
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			en: "Superpower",
-			fr: "Surpuissance",
-			es: "Fuerza Bruta",
-			it: "Troppoforte",
-			pt: "Superpoder",
-			de: "Kraftkoloss"
+			'en-us': "Superpower",
+			'fr-fr': "Surpuissance",
+			'es-es': "Fuerza Bruta",
+			'it-it': "Troppoforte",
+			'pt-br': "Superpoder",
+			'de-de': "Kraftkoloss"
 		},
 
 		effect: {
-			en: "You may do 30 more damage. If you do, this Pokémon also does 30 damage to itself.",
-			fr: "Vous pouvez infliger 30 dégâts supplémentaires. Dans ce cas, ce Pokémon s'inflige aussi 30 dégâts.",
-			es: "Puedes hacer 30 puntos de daño más. Si lo haces, este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			it: "Puoi infliggere 30 danni in più. Se lo fai, questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Você pode causar 30 pontos de dano a mais. Se fizer isto, este Pokémon também causará 30 pontos de dano a si mesmo.",
-			de: "Du kannst 30 Schadenspunkte mehr zufügen. Wenn du das machst, fügt dieses Pokémon auch sich selbst 30 Schadenspunkte zu."
+			'en-us': "You may do 30 more damage. If you do, this Pokémon also does 30 damage to itself.",
+			'fr-fr': "Vous pouvez infliger 30 dégâts supplémentaires. Dans ce cas, ce Pokémon s'inflige aussi 30 dégâts.",
+			'es-es': "Puedes hacer 30 puntos de daño más. Si lo haces, este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'it-it': "Puoi infliggere 30 danni in più. Se lo fai, questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Você pode causar 30 pontos de dano a mais. Se fizer isto, este Pokémon também causará 30 pontos de dano a si mesmo.",
+			'de-de': "Du kannst 30 Schadenspunkte mehr zufügen. Wenn du das machst, fügt dieses Pokémon auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: "50+"
@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "This Pokémon is so muscular and strongly built that even a group of wrestlers could not make it budge an inch.",
+		'en-us': "This Pokémon is so muscular and strongly built that even a group of wrestlers could not make it budge an inch.",
 	},
 
 	variants: [

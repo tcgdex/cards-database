@@ -1,14 +1,14 @@
-import { Serie } from 'models/serie'
+import { Serie } from 'models/database/serie'
 
 const set: Serie = {
 	id: "xy",
 	name: {
-		en: "XY",
-		fr: "XY",
-		es: "XY",
-		it: "XY",
-		de: "XY",
-		pt: "XY",
+		'en-us': "XY",
+		'fr-fr': "XY",
+		'es-es': "XY",
+		'it-it': "XY",
+		'de-de': "XY",
+		'pt-br': "XY",
 		ru: "XY"
 	},
 

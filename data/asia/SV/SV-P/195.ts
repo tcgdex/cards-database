@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジュラルドン",
+		'ja-jp': "ジュラルドン",
 	},
 
 	illustrator: "Takeshi Nakamura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "金属の ボディは 頑丈だが 熱が こもってしまうので 尻尾の スリットから 放熱している。",
+		'ja-jp': "金属の ボディは 頑丈だが 熱が こもってしまうので 尻尾の スリットから 放熱している。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数×10ダメージ追加。",
+				'ja-jp': "このポケモンにのっているダメカンの数×10ダメージ追加。",
 			},
 		},
 	],

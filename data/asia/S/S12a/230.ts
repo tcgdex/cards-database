@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒスイ ダイケンキVSTAR",
+		'ja-jp': "ヒスイ ダイケンキVSTAR",
 		'zh-tw': "洗翠 大劍鬼VSTAR",
 	},
 
@@ -19,11 +19,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ザンゲツスター",
+				'ja-jp': "ザンゲツスター",
 				'zh-tw': "殘月星星",
 			},
 			effect: {
-				ja: "自分の番に使える。相手のポケモン1匹に、ダメカンを4個のせる。［対戦中、自分はVSTARパワーを1回しか使えない。］",
+				'ja-jp': "自分の番に使える。相手のポケモン1匹に、ダメカンを4個のせる。［対戦中、自分はVSTARパワーを1回しか使えない。］",
 				'zh-tw': "在自己的回合時可使用。在對手的1隻寶可夢身上放置4個傷害指示物。[對戰中，己方只可使用1次【VSTAR】力量。]",
 			},
 		},
@@ -32,13 +32,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "むじひなやいば",
+				'ja-jp': "むじひなやいば",
 				'zh-tw': "狠心利刃",
 			},
 			damage: "110+",
 			cost: ["Darkness", "Darkness"],
 			effect: {
-				ja: "相手のバトルポケモンにダメカンがのっているなら、110ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンにダメカンがのっているなら、110ダメージ追加。",
 				'zh-tw': "若對手的戰鬥寶可夢身上放置有傷害指示物，則增加110點傷害。",
 			},
 		},
@@ -58,7 +58,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒスイ ダイケンキV",
+		'ja-jp': "ヒスイ ダイケンキV",
 	},
 
 	retreat: 2,

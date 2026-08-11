@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スニーエル",
+		'ja-jp': "スニーエル",
 	},
 
 	rarity: "Rare",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "フューリースワイプ",
+				'ja-jp': "フューリースワイプ",
 			},
 			effect: {
-				ja: "3コインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "3コインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Darkness", "Darkness"],
 			name: {
-				ja: "beatります",
+				'ja-jp': "beatります",
 			},
 			effect: {
-				ja: "プレイ中のポケモンごとにコインをひっくり返します（これを含む）。この攻撃は、ヘッド数の20倍のダメージを与えます。",
+				'ja-jp': "プレイ中のポケモンごとにコインをひっくり返します（これを含む）。この攻撃は、ヘッド数の20倍のダメージを与えます。",
 			},
 		},
 	],

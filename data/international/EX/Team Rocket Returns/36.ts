@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Dark Gyarados",
-		de: "Dunkles Garados"
+		'en-us': "Dark Gyarados",
+		'de-de': "Dunkles Garados"
 	},
 
 	illustrator: "Nakaoka",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magikarp",
+		'en-us': "Magikarp",
 	},
 
 	stage: "Stage1",
@@ -36,8 +36,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharp Fang",
-				de: "Sharp Fang"
+				'en-us': "Sharp Fang",
+				'de-de': "Sharp Fang"
 			},
 
 			damage: 30,
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Streak",
-				de: "Dark Streak"
+				'en-us': "Dark Streak",
+				'de-de': "Dark Streak"
 			},
 			effect: {
-				en: "Flip a coin. If heads, each Defending Pokémon is now Paralyzed.",
-				de: "Flip a coin. If heads, each Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, each Defending Pokémon is now Paralyzed.",
+				'de-de': "Flip a coin. If heads, each Defending Pokémon is now Paralyzed."
 			},
 			damage: 40,
 
@@ -79,11 +79,11 @@ const card: Card = {
 	abilities: [{
 		type: 'Poke-BODY',
 		name: {
-			de: "Dark Scale"
+			'de-de': "Dark Scale"
 		},
 
 		effect: {
-			de: "If Dark Gyarados is your Active Pokémon and is Knocked Out by an opponent's attack, put 3 damage counters on the Attacking Pokémon."
+			'de-de': "If Dark Gyarados is your Active Pokémon and is Knocked Out by an opponent's attack, put 3 damage counters on the Attacking Pokémon."
 		}
 	}],
 

@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "フワライド",
+		'ja-jp': "フワライド",
 		'zh-tw': "隨風球",
-		th: "ฟูวาไรด์",
-		id: "Drifblim"
+		'th-th': "ฟูวาไรด์",
+		'id-id': "Drifblim"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -18,10 +18,10 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "体の 中で ガスを 作ったり 吐き出したり することで 空を 飛ぶ 高さを 調節する。",
+		'ja-jp': "体の 中で ガスを 作ったり 吐き出したり することで 空を 飛ぶ 高さを 調節する。",
 		'zh-tw': "會在體內製造氣體或是吐出氣體 來調節飛在空中的高度。",
-		th: "สร้างแก๊สในร่างกายและปล่อยออกมาเพื่อปรับเปลี่ยนความสูงตอนบินบนท้องฟ้า",
-		id: "Drifblim mengatur ketinggian terbangnya dengan menciptakan dan memuntahkan gas dari dalam tubuhnya."
+		'th-th': "สร้างแก๊สในร่างกายและปล่อยออกมาเพื่อปรับเปลี่ยนความสูงตอนบินบนท้องฟ้า",
+		'id-id': "Drifblim mengatur ketinggian terbangnya dengan menciptakan dan memuntahkan gas dari dalam tubuhnya."
 	},
 
 	stage: "Stage1",
@@ -30,10 +30,10 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "かぜおこし",
+			'ja-jp': "かぜおこし",
 			'zh-tw': "起風",
-			th: "เรียกลม",
-			id: "Hembusan Angin"
+			'th-th': "เรียกลม",
+			'id-id': "Hembusan Angin"
 		},
 
 		damage: 30
@@ -41,17 +41,17 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Psychic"],
 
 		name: {
-			ja: "のろいをばらまく",
+			'ja-jp': "のろいをばらまく",
 			'zh-tw': "散佈詛咒",
-			th: "กระจายคำสาป",
-			id: "Menebar Kutukan"
+			'th-th': "กระจายคำสาป",
+			'id-id': "Menebar Kutukan"
 		},
 
 		effect: {
-			ja: "ダメカン8個を、相手のポケモンに好きなようにのせる。",
+			'ja-jp': "ダメカン8個を、相手のポケモンに好きなようにのせる。",
 			'zh-tw': "將8個傷害指示物以任意方式放置於對手的寶可夢身上。",
-			th: "วางตัวนับแดเมจ 8 ตัว บนโปเกมอนฝ่ายตรงข้ามตามชอบ",
-			id: "Letakkan sejumlah 8 Token Kerusakan pada Pokémon lawan sesukanya."
+			'th-th': "วางตัวนับแดเมจ 8 ตัว บนโปเกมอนฝ่ายตรงข้ามตามชอบ",
+			'id-id': "Letakkan sejumlah 8 Token Kerusakan pada Pokémon lawan sesukanya."
 		}
 	}],
 

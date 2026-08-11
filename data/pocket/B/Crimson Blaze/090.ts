@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [45],
 
 	name: {
-		en: "Vileplume"
+		'en-us': "Vileplume"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Gloom"
+		'en-us': "Gloom"
 	},
 
 	description: {
-		en: "It has the world's largest petals. With every step,\nthe petals shake out heavy clouds of toxic pollen."
+		'en-us': "It has the world's largest petals. With every step,\nthe petals shake out heavy clouds of toxic pollen."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Soothing Scent"
+			'en-us': "Soothing Scent"
 		},
 
 		damage: 80,
 		cost: ["Grass", "Grass", "Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep."
+			'en-us': "Your opponent's Active Pokémon is now Asleep."
 		}
 	}],
 

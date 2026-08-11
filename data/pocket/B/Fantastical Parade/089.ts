@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [696],
 
 	name: {
-		en: "Tyrunt"
+		'en-us': "Tyrunt"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Jaw Fossil"
+		'en-us': "Jaw Fossil"
 	},
 
 	description: {
-		en: "This Pokémon is selfish and likes to be pampered.\nIt can also inflict grievous wounds on its Trainer\njust by playing around."
+		'en-us': "This Pokémon is selfish and likes to be pampered.\nIt can also inflict grievous wounds on its Trainer\njust by playing around."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Hammer In"
+			'en-us': "Hammer In"
 		},
 
 		damage: 60,

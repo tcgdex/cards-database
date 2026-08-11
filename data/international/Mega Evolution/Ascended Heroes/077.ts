@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Team Rocket's Exeggcute",
-		fr: "Noeunoeuf de la Team Rocket",
-		es: "Exeggcute del Team Rocket",
+		'en-us': "Team Rocket's Exeggcute",
+		'fr-fr': "Noeunoeuf de la Team Rocket",
+		'es-es': "Exeggcute del Team Rocket",
 		'es-mx': "Exeggcute del Equipo Rocket",
-		de: "Team Rockets Owei",
-		it: "Exeggcute del Team Rocket",
-		pt: "Exeggcute da Equipe Rocket"
+		'de-de': "Team Rockets Owei",
+		'it-it': "Exeggcute del Team Rocket",
+		'pt-br': "Exeggcute da Equipe Rocket"
 	},
 
 	illustrator: "Gapao",
@@ -25,23 +25,23 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Focused Wish",
-			fr: "Vœu Fervent",
-			es: "Intenso Deseo",
+			'en-us': "Focused Wish",
+			'fr-fr': "Vœu Fervent",
+			'es-es': "Intenso Deseo",
 			'es-mx': "Deseo Enfocado",
-			de: "Gezielter Wunsch",
-			it: "Intensiderio",
-			pt: "Desejo Direcionado"
+			'de-de': "Gezielter Wunsch",
+			'it-it': "Intensiderio",
+			'pt-br': "Desejo Direcionado"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 20 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+			'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
 			'es-mx': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 pontos de dano a mais."
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 20 pontos de dano a mais."
 		},
 
 		damage: "10+"
@@ -63,7 +63,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Using telepathy only fellow Exeggcute can pick up on, they always form a cluster of six.",
+		'en-us': "Using telepathy only fellow Exeggcute can pick up on, they always form a cluster of six.",
 	},
 
 	variants: [

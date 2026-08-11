@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "トリミアン",
+		'ja-jp': "トリミアン",
 		'zh-tw': "多麗米亞",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ボサボサの 体毛を 刈りこむと 姿が 美しくなる だけでなく 身体の キレが 良くなるのだ。",
+		'ja-jp': "ボサボサの 体毛を 刈りこむと 姿が 美しくなる だけでなく 身体の キレが 良くなるのだ。",
 		'zh-tw': "修整好蓬亂的體毛後， 不只是模樣變得美麗， 就連身體也會變得更敏捷。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "エネアシスト",
+				'ja-jp': "エネアシスト",
 				'zh-tw': "能量支援",
 			},
 			damage: 30,
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュから基本エネルギーを1枚選び、ベンチポケモンにつける。",
+				'ja-jp': "自分のトラッシュから基本エネルギーを1枚選び、ベンチポケモンにつける。",
 				'zh-tw': "從自己的棄牌區選擇1張基本能量卡，附於備戰寶可夢身上。",
 			},
 		},

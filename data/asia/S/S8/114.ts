@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダンサー",
+		'ja-jp': "ダンサー",
 	},
 
 	illustrator: "Yuu Nishida",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札を2枚引く。後攻プレイヤーの最初の番に使ったなら、さらに3枚引く。",
+		'ja-jp': "自分の山札を2枚引く。後攻プレイヤーの最初の番に使ったなら、さらに3枚引く。",
 	},
 
 	variants: [

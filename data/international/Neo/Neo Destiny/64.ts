@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Exeggcute",
-		fr: "Nœufnœuf",
-		de: "Owei"
+		'en-us': "Exeggcute",
+		'fr-fr': "Nœufnœuf",
+		'de-de': "Owei"
 	},
 
 	illustrator: "Toshinao Aoki",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sleep Power",
-				fr: "Poudre dodo",
-				de: "Schlafpuder"
+				'en-us': "Sleep Power",
+				'fr-fr': "Poudre dodo",
+				'de-de': "Schlafpuder"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 10,
 
@@ -48,14 +48,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psyshock",
-				fr: "Choc psy",
-				de: "Psyschock"
+				'en-us': "Psyshock",
+				'fr-fr': "Choc psy",
+				'de-de': "Psyschock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -72,8 +72,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its shell is very durable, allowing it to survive even if the shell becomes cracked.",
-		fr: "Sa coquille est très solide. Elle lui permet de survivre même si elle est fissurée."
+		'en-us': "Its shell is very durable, allowing it to survive even if the shell becomes cracked.",
+		'fr-fr': "Sa coquille est très solide. Elle lui permet de survivre même si elle est fissurée."
 	},
 
 

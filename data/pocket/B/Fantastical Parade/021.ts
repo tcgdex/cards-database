@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [668],
 
 	name: {
-		en: "Pyroar"
+		'en-us': "Pyroar"
 	},
 
 	illustrator: "Hasuno",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Litleo"
+		'en-us': "Litleo"
 	},
 
 	description: {
-		en: "The females of a pride work together to bring\ndown prey. It's thanks to them that their pride\ndoesn't starve."
+		'en-us': "The females of a pride work together to bring\ndown prey. It's thanks to them that their pride\ndoesn't starve."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Heat Blast"
+			'en-us': "Heat Blast"
 		},
 
 		damage: 70,

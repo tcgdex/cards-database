@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HS trainer Kit (Gyarados)'
 
 const card: Card = {
 	name: {
-		en: "Professor Elm's Training Method",
+		'en-us': "Professor Elm's Training Method",
 	},
 
 	illustrator: "Ken Sugimori",

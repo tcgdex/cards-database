@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サマヨール",
+		'ja-jp': "サマヨール",
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "体の 中で 燃えている 人魂を のぞきこむと 魂を 吸い取られてしまう。",
+		'ja-jp': "体の 中で 燃えている 人魂を のぞきこむと 魂を 吸い取られてしまう。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "よるにさまよう" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "おたがいのポケモン全員に、それぞれダメカンを1個のせる。",
+				'ja-jp': "おたがいのポケモン全員に、それぞれダメカンを1個のせる。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、30ダメージ追加。",
+				'ja-jp': "コインを1回投げオモテなら、30ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヨマワル",
+		'ja-jp': "ヨマワル",
 	},
 
 	retreat: 3,

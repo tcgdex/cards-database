@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イルカマン",
+		'ja-jp': "イルカマン",
 	},
 
 	illustrator: "satoma",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "５０ノットの 速さで 泳ぎ 溺れている 人や ポケモンを 助ける 海の ヒーロー。",
+		'ja-jp': "５０ノットの 速さで 泳ぎ 溺れている 人や ポケモンを 助ける 海の ヒーロー。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Water", "Water"],
 			effect: {
-				ja: "相手のサイドの残り枚数が1枚なら、200ダメージ追加。",
+				'ja-jp': "相手のサイドの残り枚数が1枚なら、200ダメージ追加。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ナミイルカ",
+		'ja-jp': "ナミイルカ",
 	},
 
 	retreat: 2,

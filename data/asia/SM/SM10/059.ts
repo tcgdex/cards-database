@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メグロコ",
+		'ja-jp': "メグロコ",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "年中 暖かい アローラは 過ごしやすい 環境。 砂漠 以外でも 時々 見かける。",
+		'ja-jp': "年中 暖かい アローラは 過ごしやすい 環境。 砂漠 以外でも 時々 見かける。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージで、相手のポケモンがきぜつしたなら、次の自分の番、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+120」される。",
+				'ja-jp': "このワザのダメージで、相手のポケモンがきぜつしたなら、次の自分の番、このポケモンが使うワザの、相手のバトルポケモンへのダメージは「+120」される。",
 			},
 		},
 	],

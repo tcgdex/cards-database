@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Hitmontop",
-		fr: "Kapoera",
-		es: "Hitmontop",
-		it: "Hitmontop",
-		pt: "Hitmontop",
-		de: "Kapoera"
+		'en-us': "Hitmontop",
+		'fr-fr': "Kapoera",
+		'es-es': "Hitmontop",
+		'it-it': "Hitmontop",
+		'pt-br': "Hitmontop",
+		'de-de': "Kapoera"
 	},
 
 	illustrator: "kawayoo",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Draw",
-				fr: "Pioche Rapide",
-				es: "Robo Rápido",
-				it: "Pescalesto",
-				pt: "Retirada Rápida",
-				de: "Schnellzieher"
+				'en-us': "Quick Draw",
+				'fr-fr': "Pioche Rapide",
+				'es-es': "Robo Rápido",
+				'it-it': "Pescalesto",
+				'pt-br': "Retirada Rápida",
+				'de-de': "Schnellzieher"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				es: "Roba 1 carta.",
-				it: "Pesca una carta.",
-				pt: "Compre um card.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'es-es': "Roba 1 carta.",
+				'it-it': "Pesca una carta.",
+				'pt-br': "Compre um card.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Helicoptero",
-				fr: "Helicoptero",
-				es: "Helicóptero",
-				it: "Helicoptero",
-				pt: "Helicóptero",
-				de: "Helicoptero"
+				'en-us': "Helicoptero",
+				'fr-fr': "Helicoptero",
+				'es-es': "Helicóptero",
+				'it-it': "Helicoptero",
+				'pt-br': "Helicóptero",
+				'de-de': "Helicoptero"
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
-				es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-				it: "Scambia questo Pokémon con uno della tua panchina.",
-				pt: "Troque este Pokémon por 1 dos seus Pokémon do Banco.",
-				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
+				'es-es': "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+				'it-it': "Scambia questo Pokémon con uno della tua panchina.",
+				'pt-br': "Troque este Pokémon por 1 dos seus Pokémon do Banco.",
+				'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 40,
 
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It fights while spinning like a top. The centrifugal force boosts its destructive power by 10.",
+		'en-us': "It fights while spinning like a top. The centrifugal force boosts its destructive power by 10.",
 	},
 
 	thirdParty: {

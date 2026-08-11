@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Granbull",
-		fr: "Granbull",
-		es: "Granbull",
+		'en-us': "Granbull",
+		'fr-fr': "Granbull",
+		'es-es': "Granbull",
 		'es-mx': "Granbull",
-		de: "Granbull",
-		it: "Granbull",
-		pt: "Granbull"
+		'de-de': "Granbull",
+		'it-it': "Granbull",
+		'pt-br': "Granbull"
 	},
 
 	evolveFrom: {
-		en: "Snubbull",
-		fr: "Snubbull",
-		es: "Snubbull",
+		'en-us': "Snubbull",
+		'fr-fr': "Snubbull",
+		'es-es': "Snubbull",
 		'es-mx': "Snubbull",
-		de: "Snubbull",
-		it: "Snubbull",
-		pt: "Snubbull",
+		'de-de': "Snubbull",
+		'it-it': "Snubbull",
+		'pt-br': "Snubbull",
 	},
 
 	rarity: "Uncommon",
@@ -36,13 +36,13 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			es: "Mordisco",
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'es-es': "Mordisco",
 			'es-mx': "Mordida",
-			de: "Biss",
-			it: "Morso",
-			pt: "Mordida"
+			'de-de': "Biss",
+			'it-it': "Morso",
+			'pt-br': "Mordida"
 		},
 
 		damage: 50
@@ -50,23 +50,23 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			en: "Finishing Blow",
-			fr: "Coup de Grâce",
-			es: "Golpe de Gracia",
+			'en-us': "Finishing Blow",
+			'fr-fr': "Coup de Grâce",
+			'es-es': "Golpe de Gracia",
 			'es-mx': "Golpe Definitivo",
-			de: "Finalhieb",
-			it: "Ultimocolpo",
-			pt: "Golpe Final"
+			'de-de': "Finalhieb",
+			'it-it': "Ultimocolpo",
+			'pt-br': "Golpe Final"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 90 more damage.",
-			fr: "Si le Pokémon Actif de votre adversaire a déjà au moins un marqueur de dégâts, cette attaque inflige 90 dégâts supplémentaires.",
-			es: "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 90 puntos de daño más.",
+			'en-us': "If your opponent's Active Pokémon already has any damage counters on it, this attack does 90 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire a déjà au moins un marqueur de dégâts, cette attaque inflige 90 dégâts supplémentaires.",
+			'es-es': "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 90 puntos de daño más.",
 			'es-mx': "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 90 puntos de daño más.",
-			de: "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 90 Schadenspunkte mehr zu.",
-			it: "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 90 danni in più.",
-			pt: "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 90 pontos de dano a mais."
+			'de-de': "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 90 Schadenspunkte mehr zu.",
+			'it-it': "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 90 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 90 pontos de dano a mais."
 		},
 
 		damage: "90+"
@@ -82,7 +82,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "It is actually timid and easily spooked. If attacked, it desperately flails its limbs about in an attempt to repel its opponent.",
+		'en-us': "It is actually timid and easily spooked. If attacked, it desperately flails its limbs about in an attempt to repel its opponent.",
 	},
 
 	illustrator: "Ryuta Fuse",

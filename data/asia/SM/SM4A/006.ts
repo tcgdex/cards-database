@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アギルダー",
+		'ja-jp': "アギルダー",
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "重い 殻を 脱いだために 身軽になった。 まるで 忍者のような 身のこなしで 戦う。",
+		'ja-jp': "重い 殻を 脱いだために 身軽になった。 まるで 忍者のような 身のこなしで 戦う。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "じこさいせい" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、1個トラッシュする。このポケモンのHPをすべて回復する。",
+				'ja-jp': "このポケモンについているエネルギーを、1個トラッシュする。このポケモンのHPをすべて回復する。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チョボマキ",
+		'ja-jp': "チョボマキ",
 	},
 
 	retreat: 1,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Astral Radiance"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hisuian Typhlosion V",
-		fr: "Typhlosion de Hisui V",
-		es: "Typhlosion de Hisui V",
-		it: "Typhlosion di Hisui V",
-		pt: "Typhlosion de Hisui V",
-		de: "Hisui-Tornupto V"
+		'en-us': "Hisuian Typhlosion V",
+		'fr-fr': "Typhlosion de Hisui V",
+		'es-es': "Typhlosion de Hisui V",
+		'it-it': "Typhlosion di Hisui V",
+		'pt-br': "Typhlosion de Hisui V",
+		'de-de': "Hisui-Tornupto V"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -24,41 +24,41 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Singe",
-			fr: "Roussi",
-			es: "Quemadura",
-			it: "Scottata",
-			pt: "Chamuscada",
-			de: "Versengung"
+			'en-us': "Singe",
+			'fr-fr': "Roussi",
+			'es-es': "Quemadura",
+			'it-it': "Scottata",
+			'pt-br': "Chamuscada",
+			'de-de': "Versengung"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
-			es: "El Pokémon Activo de tu rival pasa a estar Quemado.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Queimado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
+			'en-us': "Your opponent's Active Pokémon is now Burned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Quemado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene bruciato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Queimado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 		}
 	}, {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			en: "Petrifying Flame",
-			fr: "Flamme Pétrifiante",
-			es: "Llama Petrificante",
-			it: "Fiamma Pietrificante",
-			pt: "Chama Petrificante",
-			de: "Angsteinflößende Flamme"
+			'en-us': "Petrifying Flame",
+			'fr-fr': "Flamme Pétrifiante",
+			'es-es': "Llama Petrificante",
+			'it-it': "Fiamma Pietrificante",
+			'pt-br': "Chama Petrificante",
+			'de-de': "Angsteinflößende Flamme"
 		},
 
 		effect: {
-			en: "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into their deck.",
-			fr: "Choisissez une carte au hasard dans la main de votre adversaire. Votre adversaire montre cette carte, puis la mélange avec son deck.",
-			es: "Elige 1 carta aleatoria de la mano de tu rival. Tu rival enseña esa carta, la pone en su baraja y las baraja todas.",
-			it: "Scegli una carta a caso dalla mano del tuo avversario. Il tuo avversario mostra quella carta e la rimischia nel suo mazzo.",
-			pt: "Escolha 1 carta aleatória da mão do seu oponente. Seu oponente revela aquela carta e a embaralha no próprio baralho.",
-			de: "Wähle 1 zufällige Karte aus der Hand deines Gegners. Dein Gegner zeigt dir jene Karte und mischt sie in sein Deck."
+			'en-us': "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into their deck.",
+			'fr-fr': "Choisissez une carte au hasard dans la main de votre adversaire. Votre adversaire montre cette carte, puis la mélange avec son deck.",
+			'es-es': "Elige 1 carta aleatoria de la mano de tu rival. Tu rival enseña esa carta, la pone en su baraja y las baraja todas.",
+			'it-it': "Scegli una carta a caso dalla mano del tuo avversario. Il tuo avversario mostra quella carta e la rimischia nel suo mazzo.",
+			'pt-br': "Escolha 1 carta aleatória da mão do seu oponente. Seu oponente revela aquela carta e a embaralha no próprio baralho.",
+			'de-de': "Wähle 1 zufällige Karte aus der Hand deines Gegners. Dein Gegner zeigt dir jene Karte und mischt sie in sein Deck."
 		},
 
 		damage: 120

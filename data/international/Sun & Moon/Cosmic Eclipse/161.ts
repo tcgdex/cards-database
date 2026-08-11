@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Cosmic Eclipse'
 
 const card: Card = {
 	name: {
-		en: "Jangmo-o",
-		fr: "Bébécaille",
-		es: "Jangmo-o",
-		it: "Jangmo-o",
-		pt: "Jangmo-o",
-		de: "Miniras"
+		'en-us': "Jangmo-o",
+		'fr-fr': "Bébécaille",
+		'es-es': "Jangmo-o",
+		'it-it': "Jangmo-o",
+		'pt-br': "Jangmo-o",
+		'de-de': "Miniras"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Ronge",
-				es: "Roer",
-				it: "Rosicchiamento",
-				pt: "Roída",
-				de: "Nagen"
+				'en-us': "Gnaw",
+				'fr-fr': "Ronge",
+				'es-es': "Roer",
+				'it-it': "Rosicchiamento",
+				'pt-br': "Roída",
+				'de-de': "Nagen"
 			},
 
 			damage: 10,
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Headbutt",
-				fr: "Dracoud’Boule",
-				es: "Cabezazo Dragón",
-				it: "Dragozuccata",
-				pt: "Cabeçada do Dragão",
-				de: "Drachen-Kopfnuss"
+				'en-us': "Dragon Headbutt",
+				'fr-fr': "Dracoud’Boule",
+				'es-es': "Cabezazo Dragón",
+				'it-it': "Dragozuccata",
+				'pt-br': "Cabeçada do Dragão",
+				'de-de': "Drachen-Kopfnuss"
 			},
 
 			damage: 50,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It smacks the scales on its head against rocks or against the ground to frighten its opponents. It can also contact its friends with these noises.",
+		'en-us': "It smacks the scales on its head against rocks or against the ground to frighten its opponents. It can also contact its friends with these noises.",
 	},
 
 	thirdParty: {

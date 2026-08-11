@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Pineco",
-		de: "Tannza"
+		'en-us': "Pineco",
+		'de-de': "Tannza"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,13 +29,13 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Surprise Attack",
-				de: "Überraschungsangriff"
+				'en-us': "Surprise Attack",
+				'de-de': "Überraschungsangriff"
 			},
 
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 20,

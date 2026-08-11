@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アブリー",
+		'ja-jp': "アブリー",
 		'zh-tw': "萌虻",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "敵が 発する オーラから つぎの 行動を 予測する。 攻撃を ひらりと かわして 反撃する。",
+		'ja-jp': "敵が 発する オーラから つぎの 行動を 予測する。 攻撃を ひらりと かわして 反撃する。",
 		'zh-tw': "從敵人散發出的氣場來判斷對方下一步的行動。能輕盈地躲開攻擊並進行反擊。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "はばたく",
+				'ja-jp': "はばたく",
 				'zh-tw': "羽擊",
 			},
 			damage: 10,

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Greavard"
+		'id-id': "Greavard"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -14,21 +14,21 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Dikatakan bahwa Greavard adalah reinkarnasi Pokémon anjing liar yang meninggal tanpa pernah berinteraksi dengan manusia."
+		'id-id': "Dikatakan bahwa Greavard adalah reinkarnasi Pokémon anjing liar yang meninggal tanpa pernah berinteraksi dengan manusia."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menggerogot"
+			'id-id': "Menggerogot"
 		},
 
 		damage: 10,
 		cost: ["Psychic"]
 	}, {
 		name: {
-			id: "Hollow Shot"
+			'id-id': "Hollow Shot"
 		},
 
 		damage: 20,

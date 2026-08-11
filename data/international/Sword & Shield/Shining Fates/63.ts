@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Bannière de la Team Yell",
-		en: "Team Yell Towel",
-		es: "Toalla del Team Yell",
-		it: "Asciugamano del Team Yell",
-		pt: "Toalha da Equipe Yell",
-		de: "Tuch von Team Yell"
+		'fr-fr': "Bannière de la Team Yell",
+		'en-us': "Team Yell Towel",
+		'es-es': "Toalla del Team Yell",
+		'it-it': "Asciugamano del Team Yell",
+		'pt-br': "Toalha da Equipe Yell",
+		'de-de': "Tuch von Team Yell"
 	},
 
 	illustrator: "Studio Bora Inc.",
@@ -18,12 +18,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		fr: "Soignez 50 dégâts des deux Pokémon Actifs.",
-		en: "Heal 50 damage from both Active Pokémon.",
-		es: "Cura 50 puntos de daño a ambos Pokémon Activos.",
-		it: "Cura entrambi i Pokémon attivi da 50 danni.",
-		pt: "Cure 50 pontos de dano de ambos os Pokémon Ativos.",
-		de: "Heile 50 Schadenspunkte bei beiden Aktiven Pokémon."
+		'fr-fr': "Soignez 50 dégâts des deux Pokémon Actifs.",
+		'en-us': "Heal 50 damage from both Active Pokémon.",
+		'es-es': "Cura 50 puntos de daño a ambos Pokémon Activos.",
+		'it-it': "Cura entrambi i Pokémon attivi da 50 danni.",
+		'pt-br': "Cure 50 pontos de dano de ambos os Pokémon Ativos.",
+		'de-de': "Heile 50 Schadenspunkte bei beiden Aktiven Pokémon."
 	},
 
 	trainerType: "Item",

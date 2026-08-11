@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wash Rotom",
-		fr: "Motisma Lavage",
-		de: "Wasch-Rotom",
-		it: "Rotom Lavaggio",
-		es: "Rotom Lavado",
-		pt: "Rotom Lavagem",
+		'en-us': "Wash Rotom",
+		'fr-fr': "Motisma Lavage",
+		'de-de': "Wasch-Rotom",
+		'it-it': "Rotom Lavaggio",
+		'es-es': "Rotom Lavado",
+		'pt-br': "Rotom Lavagem",
 		'es-mx': "Rotom Lavado"
 	},
 
@@ -28,22 +28,22 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Manual Wash",
-			fr: "Lavage à la Main",
-			de: "Handwäsche",
-			it: "Lavaggio a Mano",
-			es: "Lavado a Mano",
-			pt: "Lavagem Manual",
+			'en-us': "Manual Wash",
+			'fr-fr': "Lavage à la Main",
+			'de-de': "Handwäsche",
+			'it-it': "Lavaggio a Mano",
+			'es-es': "Lavado a Mano",
+			'pt-br': "Lavagem Manual",
 			'es-mx': "Lavado a Mano"
 		},
 
 		effect: {
-			en: "Heal 10 damage from each of your Pokémon.",
-			fr: "Soignez 10 dégâts de chacun de vos Pokémon.",
-			de: "Heile 10 Schadenspunkte bei jedem deiner Pokémon.",
-			it: "Cura ciascuno dei tuoi Pokémon da 10 danni.",
-			es: "Cura 10 puntos de daño a cada uno de tus Pokémon.",
-			pt: "Cure 10 pontos de dano de cada um dos seus Pokémon.",
+			'en-us': "Heal 10 damage from each of your Pokémon.",
+			'fr-fr': "Soignez 10 dégâts de chacun de vos Pokémon.",
+			'de-de': "Heile 10 Schadenspunkte bei jedem deiner Pokémon.",
+			'it-it': "Cura ciascuno dei tuoi Pokémon da 10 danni.",
+			'es-es': "Cura 10 puntos de daño a cada uno de tus Pokémon.",
+			'pt-br': "Cure 10 pontos de dano de cada um dos seus Pokémon.",
 			'es-mx': "Cura 10 puntos de daño a cada uno de tus Pokémon."
 		},
 
@@ -52,22 +52,22 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Gadget Show",
-			fr: "Démonstration de Gadgets",
-			de: "Gadget-Show",
-			it: "Mostra di Gadget",
-			es: "Espectáculo de Utensilios",
-			pt: "Show de Bugigangas",
+			'en-us': "Gadget Show",
+			'fr-fr': "Démonstration de Gadgets",
+			'de-de': "Gadget-Show",
+			'it-it': "Mostra di Gadget",
+			'es-es': "Espectáculo de Utensilios",
+			'pt-br': "Show de Bugigangas",
 			'es-mx': "Show de Artefactos"
 		},
 
 		effect: {
-			en: "This attack does 30 damage for each Pokémon Tool attached to all of your Pokémon.",
-			fr: "Cette attaque inflige 30 dégâts pour chaque Outil Pokémon attaché à tous vos Pokémon.",
-			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte Pokémon-Ausrüstung 30 Schadenspunkte zu.",
-			it: "Questo attacco infligge 30 danni per ogni carta Oggetto Pokémon assegnata ai tuoi Pokémon.",
-			es: "Este ataque hace 30 puntos de daño por cada Herramienta Pokémon unida a cada uno de tus Pokémon.",
-			pt: "Este ataque causa 30 pontos de dano para cada Ferramenta Pokémon ligada a todos os seus Pokémon.",
+			'en-us': "This attack does 30 damage for each Pokémon Tool attached to all of your Pokémon.",
+			'fr-fr': "Cette attaque inflige 30 dégâts pour chaque Outil Pokémon attaché à tous vos Pokémon.",
+			'de-de': "Diese Attacke fügt für jede an alle deine Pokémon angelegte Pokémon-Ausrüstung 30 Schadenspunkte zu.",
+			'it-it': "Questo attacco infligge 30 danni per ogni carta Oggetto Pokémon assegnata ai tuoi Pokémon.",
+			'es-es': "Este ataque hace 30 puntos de daño por cada Herramienta Pokémon unida a cada uno de tus Pokémon.",
+			'pt-br': "Este ataque causa 30 pontos de dano para cada Ferramenta Pokémon ligada a todos os seus Pokémon.",
 			'es-mx': "Este ataque hace 30 puntos de daño por cada Herramienta Pokémon unida a cada uno de tus Pokémon."
 		},
 

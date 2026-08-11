@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Toxtricity ex",
+		'en-us': "Toxtricity ex",
 	},
 
 	suffix: "ex",
@@ -14,12 +14,12 @@ const card: Card = {
 	hp: 260,
 	types: ["Lightning"],
 	evolveFrom: {
-		en: "Toxel",
-		fr: "Toxizap",
-		es: "Toxel",
-		it: "Toxel",
-		pt: "Toxel",
-		de: "Toxel"
+		'en-us': "Toxel",
+		'fr-fr': "Toxizap",
+		'es-es': "Toxel",
+		'it-it': "Toxel",
+		'pt-br': "Toxel",
+		'de-de': "Toxel"
 	},
 	stage: "Stage1",
 	illustrator: "Anderson",
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Lightning","Lightning","Colorless"],
 			name: {
-				en: "Stumming Thunder",
+				'en-us': "Stumming Thunder",
 			},
 			effect: {
-				en:	"Discard 2 Energy from this Pokémon."
+				'en-us': 	"Discard 2 Energy from this Pokémon."
 			},
 			damage: "240",
 		},

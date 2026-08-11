@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Black & White'
 
 const bw1: Set = {
 	id: "bw1",
 
 	name: {
-		en: "Black & White",
-		fr: "Noir & Blanc",
-		es: "Negro y Blanco",
-		it: "Nero e Bianco",
-		de: "Schwarz & Weiß",
-		pt: "Black & White"
+		'en-us': "Black & White",
+		'fr-fr': "Noir & Blanc",
+		'es-es': "Negro y Blanco",
+		'it-it': "Nero e Bianco",
+		'de-de': "Schwarz & Weiß",
+		'pt-br': "Black & White"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const bw1: Set = {
 
 	abbreviations: {
 		official: "BLW",
-		fr: "N&B"
+		'fr-fr': "N&B"
 	},
 
 	thirdParty: {

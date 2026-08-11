@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW trainer Kit (Excadrill).ts'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gurdurr",
-		fr: "Ouvrifier",
-		es: "Gurdurr",
-		it: "Gurdurr",
-		pt: "Gurdurr",
-		de: "Strepoli"
+		'en-us': "Gurdurr",
+		'fr-fr': "Ouvrifier",
+		'es-es': "Gurdurr",
+		'it-it': "Gurdurr",
+		'pt-br': "Gurdurr",
+		'de-de': "Strepoli"
 	},
 
 	illustrator: "Naoki Saito",
@@ -23,12 +23,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Timburr",
-		fr: "Charpenti",
-		es: "Timburr",
-		it: "Timburr",
-		pt: "Timburr",
-		de: "Praktibalk"
+		'en-us': "Timburr",
+		'fr-fr': "Charpenti",
+		'es-es': "Timburr",
+		'it-it': "Timburr",
+		'pt-br': "Timburr",
+		'de-de': "Praktibalk"
 	},
 
 	stage: "Stage1",
@@ -38,12 +38,12 @@ const card: Card = {
 			"Colorless",
 		],
 		name: {
-			en: "Bulk Up",
-			fr: "Gonflette"
+			'en-us': "Bulk Up",
+			'fr-fr': "Gonflette"
 		},
 		effect: {
-			en: "During your next turn, each of this Pokémon's attacks does 20 more damage (before applying Weakness and Resistance).",
-			fr: "Lors de votre prochain tour, chaque attaque de ce Pokémon inflige 20 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
+			'en-us': "During your next turn, each of this Pokémon's attacks does 20 more damage (before applying Weakness and Resistance).",
+			'fr-fr': "Lors de votre prochain tour, chaque attaque de ce Pokémon inflige 20 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
 		}
 	}, {
 		cost: [
@@ -52,8 +52,8 @@ const card: Card = {
 			"Colorless"
 		],
 		name: {
-			en: "Pound",
-			fr: "Écras'Face"
+			'en-us': "Pound",
+			'fr-fr': "Écras'Face"
 		},
 		damage: 60
 	}],
@@ -64,7 +64,7 @@ const card: Card = {
 	}],
 
 	description: {
-		en: "They strengthen their bodies by carrying steel beams. They show off their big muscles to their friends."
+		'en-us': "They strengthen their bodies by carrying steel beams. They show off their big muscles to their friends."
 	},
 
 	retreat: 2,

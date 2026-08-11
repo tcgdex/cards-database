@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [866],
 
 	name: {
-		en: "Galarian Mr. Rime"
+		'en-us': "Galarian Mr. Rime"
 	},
 
 	illustrator: "Naoki Saito",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Galarian Mr. Mime"
+		'en-us': "Galarian Mr. Mime"
 	},
 
 	description: {
-		en: "Its amusing movements make it very popular.\nIt releases its psychic power from the pattern\non its belly."
+		'en-us': "Its amusing movements make it very popular.\nIt releases its psychic power from the pattern\non its belly."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Triple Spin"
+			'en-us': "Triple Spin"
 		},
 
 		damage: 60,
 		cost: ["Water", "Water", "Water"],
 
 		effect: {
-			en: "Flip 3 coins. This attack does 60 damage for each heads."
+			'en-us': "Flip 3 coins. This attack does 60 damage for each heads."
 		}
 	}],
 

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Okidogi",
-		fr: "Félicanis",
-		es: "Okidogi",
+		'en-us': "Okidogi",
+		'fr-fr': "Félicanis",
+		'es-es': "Okidogi",
 		'es-mx': "Okidogi",
-		de: "Boninu",
-		it: "Okidogi",
-		pt: "Okidogi"
+		'de-de': "Boninu",
+		'it-it': "Okidogi",
+		'pt-br': "Okidogi"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Light Punch",
-			fr: "Poing Léger",
-			es: "Puño Ligero",
+			'en-us': "Light Punch",
+			'fr-fr': "Poing Léger",
+			'es-es': "Puño Ligero",
 			'es-mx': "Puño Ligero",
-			de: "Leichter Hieb",
-			it: "Pugnetto",
-			pt: "Soco de Luz"
+			'de-de': "Leichter Hieb",
+			'it-it': "Pugnetto",
+			'pt-br': "Soco de Luz"
 		},
 
 		damage: 20
@@ -40,23 +40,23 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Settle the Score",
-			fr: "Règlement de Comptes",
-			es: "Ajustar Cuentas",
+			'en-us': "Settle the Score",
+			'fr-fr': "Règlement de Comptes",
+			'es-es': "Ajustar Cuentas",
 			'es-mx': "Ajuste de Cuentas",
-			de: "Rechnung begleichen",
-			it: "Saldaconto",
-			pt: "Acerto de Contas"
+			'de-de': "Rechnung begleichen",
+			'it-it': "Saldaconto",
+			'pt-br': "Acerto de Contas"
 		},
 
 		effect: {
-			en: "This attack does 60 more damage for each Prize card your opponent took during their last turn.",
-			fr: "Cette attaque inflige 60 dégâts supplémentaires pour chaque carte Récompense que votre adversaire a récupérée pendant son dernier tour.",
-			es: "Este ataque hace 60 puntos de daño más por cada carta de Premio que haya cogido tu rival durante su último turno.",
+			'en-us': "This attack does 60 more damage for each Prize card your opponent took during their last turn.",
+			'fr-fr': "Cette attaque inflige 60 dégâts supplémentaires pour chaque carte Récompense que votre adversaire a récupérée pendant son dernier tour.",
+			'es-es': "Este ataque hace 60 puntos de daño más por cada carta de Premio que haya cogido tu rival durante su último turno.",
 			'es-mx': "Este ataque hace 60 puntos de daño más por cada carta de Premio que tomó tu rival durante su último turno.",
-			de: "Diese Attacke fügt für jede von deinem Gegner während seines letzten Zuges genommene Preiskarte 60 Schadenspunkte mehr zu.",
-			it: "Questo attacco infligge 60 danni in più per ogni carta Premio presa dal tuo avversario durante il suo ultimo turno.",
-			pt: "Este ataque causa 60 pontos de dano a mais para cada carta de Prêmio que seu oponente pegou durante o último turno dele."
+			'de-de': "Diese Attacke fügt für jede von deinem Gegner während seines letzten Zuges genommene Preiskarte 60 Schadenspunkte mehr zu.",
+			'it-it': "Questo attacco infligge 60 danni in più per ogni carta Premio presa dal tuo avversario durante il suo ultimo turno.",
+			'pt-br': "Este ataque causa 60 pontos de dano a mais para cada carta de Prêmio que seu oponente pegou durante o último turno dele."
 		},
 
 		damage: "80+"
@@ -72,7 +72,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Okidogi is a ruffian with a short temper. It can pulverize anything by swinging around the chain on its neck.",
+		'en-us': "Okidogi is a ruffian with a short temper. It can pulverize anything by swinging around the chain on its neck.",
 	},
 
 	variants: [

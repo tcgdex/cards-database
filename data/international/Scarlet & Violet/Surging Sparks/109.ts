@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Excadrill",
-		fr: "Minotaupe",
-		es: "Excadrill",
-		it: "Excadrill",
-		pt: "Excadrill",
-		de: "Stalobor"
+		'en-us': "Excadrill",
+		'fr-fr': "Minotaupe",
+		'es-es': "Excadrill",
+		'it-it': "Excadrill",
+		'pt-br': "Excadrill",
+		'de-de': "Stalobor"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Drilbur",
-		fr: "Rototaupe",
-		es: "Drilbur",
-		it: "Drilbur",
-		pt: "Drilbur",
-		de: "Rotomurf"
+		'en-us': "Drilbur",
+		'fr-fr': "Rototaupe",
+		'es-es': "Drilbur",
+		'it-it': "Drilbur",
+		'pt-br': "Drilbur",
+		'de-de': "Rotomurf"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Digging Claw",
-			fr: "Griffe Excavatrice",
-			es: "Garra Excavadora",
-			it: "Scavartiglio",
-			pt: "Garras de Escavação",
-			de: "Buddelklaue"
+			'en-us': "Digging Claw",
+			'fr-fr': "Griffe Excavatrice",
+			'es-es': "Garra Excavadora",
+			'it-it': "Scavartiglio",
+			'pt-br': "Garras de Escavação",
+			'de-de': "Buddelklaue"
 		},
 
 		effect: {
-			en: "Discard the top card of your opponent's deck.",
-			fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-			es: "Descarta la primera carta de la baraja de tu rival.",
-			it: "Scarta la prima carta del mazzo del tuo avversario.",
-			pt: "Descarte a carta de cima do baralho do seu oponente.",
-			de: "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
+			'en-us': "Discard the top card of your opponent's deck.",
+			'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+			'es-es': "Descarta la primera carta de la baraja de tu rival.",
+			'it-it': "Scarta la prima carta del mazzo del tuo avversario.",
+			'pt-br': "Descarte a carta de cima do baralho do seu oponente.",
+			'de-de': "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 20
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless"],
 
 		name: {
-			en: "Drill Smash",
-			fr: "Broiement Perceuse",
-			es: "Golpe Taladro",
-			it: "Avvitacolpo",
-			pt: "Pancada Perfurante",
-			de: "Schmetterbohrer"
+			'en-us': "Drill Smash",
+			'fr-fr': "Broiement Perceuse",
+			'es-es': "Golpe Taladro",
+			'it-it': "Avvitacolpo",
+			'pt-br': "Pancada Perfurante",
+			'de-de': "Schmetterbohrer"
 		},
 
 		effect: {
-			en: "If you have any {M} Pokémon on your Bench, this attack does 80 more damage.",
-			fr: "Si vous avez au moins un Pokémon {M} sur votre Banc, cette attaque inflige 80 dégâts supplémentaires.",
-			es: "Si tienes algún Pokémon {M} en tu Banca, este ataque hace 80 puntos de daño más.",
-			it: "Se hai dei Pokémon {M} in panchina, questo attacco infligge 80 danni in più.",
-			pt: "Se você tiver algum Pokémon {M} no seu Banco, este ataque causará 80 pontos de dano a mais.",
-			de: "Wenn du mindestens 1 {M}-Pokémon auf deiner Bank hast, fügt diese Attacke 80 Schadenspunkte mehr zu."
+			'en-us': "If you have any {M} Pokémon on your Bench, this attack does 80 more damage.",
+			'fr-fr': "Si vous avez au moins un Pokémon {M} sur votre Banc, cette attaque inflige 80 dégâts supplémentaires.",
+			'es-es': "Si tienes algún Pokémon {M} en tu Banca, este ataque hace 80 puntos de daño más.",
+			'it-it': "Se hai dei Pokémon {M} in panchina, questo attacco infligge 80 danni in più.",
+			'pt-br': "Se você tiver algum Pokémon {M} no seu Banco, este ataque causará 80 pontos de dano a mais.",
+			'de-de': "Wenn du mindestens 1 {M}-Pokémon auf deiner Bank hast, fügt diese Attacke 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "60+"

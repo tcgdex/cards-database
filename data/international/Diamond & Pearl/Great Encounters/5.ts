@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Pachirisu",
-		fr: "Pachirisu",
-		de: "Pachirisu"
+		'en-us': "Pachirisu",
+		'fr-fr': "Pachirisu",
+		'de-de': "Pachirisu"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la famille",
-				de: "Familienruf"
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la famille",
+				'de-de': "Familienruf"
 			},
 			effect: {
-				en: "Search your deck for up to 3 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck jusqu'à 3 Pokémon de Base et placez-les sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach bis zu 3 Basis-Pokémon-Karten und lege sie auf deine Bank. Mische dein Deck danach."
+				'en-us': "Search your deck for up to 3 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck jusqu'à 3 Pokémon de Base et placez-les sur votre Banc. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach bis zu 3 Basis-Pokémon-Karten und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Short",
-				fr: "Smash court",
-				de: "Zerschmettern"
+				'en-us': "Smash Short",
+				'fr-fr': "Smash court",
+				'de-de': "Zerschmettern"
 			},
 			effect: {
-				en: "If the Defending Pokémon has a Pokémon Tool card attached to it, this attack does 10 damage plus 30 more damage. Discard that Pokémon Tool card, look at your opponent's hand, and discard any Pokémon Tool cards of the same name you find there.",
-				fr: "Si le Pokémon Défenseur possède une carte Outil Pokémon, cette attaque inflige 10 dégâts plus 30 dégâts supplémentaires. Défaussez cette carte Outil Pokémon, regardez la main de votre adversaire et défaussez les cartes Outil Pokémon du même nom se trouvant dans sa main.",
-				de: "Wenn am Verteidigenden Pokémon 1 Pokémon-Ausrüstung angelegt ist, fügt dieser Angriff 10 Schadenspunkte plus 30 weitere Schadenspunkte zu. Entferne diese Pokémon-Ausrüstung vom Verteidigenden Pokémon und lege sie auf den Ablagestapel, danach schau dir die Handkarten deines Gegners an und lege jede Pokémon-Ausrüstungs-Karte desselben Namens auf den Ablagestapel."
+				'en-us': "If the Defending Pokémon has a Pokémon Tool card attached to it, this attack does 10 damage plus 30 more damage. Discard that Pokémon Tool card, look at your opponent's hand, and discard any Pokémon Tool cards of the same name you find there.",
+				'fr-fr': "Si le Pokémon Défenseur possède une carte Outil Pokémon, cette attaque inflige 10 dégâts plus 30 dégâts supplémentaires. Défaussez cette carte Outil Pokémon, regardez la main de votre adversaire et défaussez les cartes Outil Pokémon du même nom se trouvant dans sa main.",
+				'de-de': "Wenn am Verteidigenden Pokémon 1 Pokémon-Ausrüstung angelegt ist, fügt dieser Angriff 10 Schadenspunkte plus 30 weitere Schadenspunkte zu. Entferne diese Pokémon-Ausrüstung vom Verteidigenden Pokémon und lege sie auf den Ablagestapel, danach schau dir die Handkarten deines Gegners an und lege jede Pokémon-Ausrüstungs-Karte desselben Namens auf den Ablagestapel."
 			},
 			damage: "10+",
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
+		'en-us': "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
 	},
 
 	thirdParty: {

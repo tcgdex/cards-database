@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クワガノン",
+		'ja-jp': "クワガノン",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "お腹に ある 発電器官で 電気を 起こす。 電撃ビームで とりポケモンも 圧倒する。",
+		'ja-jp': "お腹に ある 発電器官で 電気を 起こす。 電撃ビームで とりポケモンも 圧倒する。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ストロングチャージ" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札にある[草]エネルギーと[雷]エネルギーを1枚ずつ、自分のポケモンに好きなようにつける。そして山札を切る。",
+				'ja-jp': "自分の番に1回使える。自分の山札にある[草]エネルギーと[雷]エネルギーを1枚ずつ、自分のポケモンに好きなようにつける。そして山札を切る。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Lightning", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、3個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、3個トラッシュする。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "デンヂムシ",
+		'ja-jp': "デンヂムシ",
 	},
 
 	retreat: 3,

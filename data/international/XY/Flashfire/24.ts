@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Spheal",
-		fr: "Obalie",
-		es: "Spheal",
-		it: "Spheal",
-		pt: "Spheal",
-		de: "Seemops"
+		'en-us': "Spheal",
+		'fr-fr': "Obalie",
+		'es-es': "Spheal",
+		'it-it': "Spheal",
+		'pt-br': "Spheal",
+		'de-de': "Seemops"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Ice Ball",
-				fr: "Ball'Glace",
-				es: "Bola Hielo",
-				it: "Palla Gelo",
-				pt: "Bola de Gelo",
-				de: "Frostbeule"
+				'en-us': "Ice Ball",
+				'fr-fr': "Ball'Glace",
+				'es-es': "Bola Hielo",
+				'it-it': "Palla Gelo",
+				'pt-br': "Bola de Gelo",
+				'de-de': "Frostbeule"
 			},
 
 			damage: 20,
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They can't swim well yet, and they move much faster by rolling. When they're happy they clap fins.",
+		'en-us': "They can't swim well yet, and they move much faster by rolling. When they're happy they clap fins.",
 	},
 
 	thirdParty: {

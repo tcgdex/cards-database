@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Meowth",
-		fr: "Miaouss",
-		es: "Meowth",
-		it: "Meowth",
-		pt: "Meowth",
-		de: "Mauzi"
+		'en-us': "Meowth",
+		'fr-fr': "Miaouss",
+		'es-es': "Meowth",
+		'it-it': "Meowth",
+		'pt-br': "Meowth",
+		'de-de': "Mauzi"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Caturday",
-				fr: "Chamedi",
-				es: "Sábado Gatuno",
-				it: "Giornogatto",
-				pt: "Dia de Gato",
-				de: "Schnurrtag"
+				'en-us': "Caturday",
+				'fr-fr': "Chamedi",
+				'es-es': "Sábado Gatuno",
+				'it-it': "Giornogatto",
+				'pt-br': "Dia de Gato",
+				'de-de': "Schnurrtag"
 			},
 			effect: {
-				en: "Draw 2 cards. If you do, this Pokémon is now Asleep.",
-				fr: "Piochez 2 cartes. Dans ce cas, ce Pokémon est maintenant Endormi.",
-				es: "Roba 2 cartas. Si lo haces, este Pokémon pasa a estar Dormido.",
-				it: "Pesca due carte. Se lo fai, questo Pokémon viene addormentato.",
-				pt: "Compre 2 cartas. Se fizer isto, este Pokémon será Adormecido.",
-				de: "Ziehe 2 Karten. Wenn du das machst, schläft dieses Pokémon jetzt."
+				'en-us': "Draw 2 cards. If you do, this Pokémon is now Asleep.",
+				'fr-fr': "Piochez 2 cartes. Dans ce cas, ce Pokémon est maintenant Endormi.",
+				'es-es': "Roba 2 cartas. Si lo haces, este Pokémon pasa a estar Dormido.",
+				'it-it': "Pesca due carte. Se lo fai, questo Pokémon viene addormentato.",
+				'pt-br': "Compre 2 cartas. Se fizer isto, este Pokémon será Adormecido.",
+				'de-de': "Ziehe 2 Karten. Wenn du das machst, schläft dieses Pokémon jetzt."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Whap",
-				fr: "Queue Battoir",
-				es: "Coletón",
-				it: "Codabotta",
-				pt: "Surra de Cauda",
-				de: "Schweifvertrimmer"
+				'en-us': "Tail Whap",
+				'fr-fr': "Queue Battoir",
+				'es-es': "Coletón",
+				'it-it': "Codabotta",
+				'pt-br': "Surra de Cauda",
+				'de-de': "Schweifvertrimmer"
 			},
 
 			damage: 30,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When visiting a junkyard, you may catch sight of it having an intense fight with Murkrow over shiny objects.",
+		'en-us': "When visiting a junkyard, you may catch sight of it having an intense fight with Murkrow over shiny objects.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2P"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "マリル",
+		'ja-jp': "マリル",
 		'zh-tw': "瑪力露",
-		th: "มาริล",
-		id: "Marill"
+		'th-th': "มาริล",
+		'id-id': "Marill"
 	},
 
 	illustrator: "saino misaki",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "全身の 体毛は 水を 弾く 性質を 持ち 水浴び しても 乾いている。",
+		'ja-jp': "全身の 体毛は 水を 弾く 性質を 持ち 水浴び しても 乾いている。",
 		'zh-tw': "全身的體毛有著能將水彈開的特性， 所以就算碰到水也不會弄濕。",
-		th: "ขนทั่วตัวมีคุณสมบัติที่ไม่ดูดซึมน้ำ ถึงอาบน้ำตัวก็ยังแห้ง",
-		id: "Bulu Marill bersifat menangkal air. Bulu tersebut tetap kering meskipun Pokémon ini terguyur air."
+		'th-th': "ขนทั่วตัวมีคุณสมบัติที่ไม่ดูดซึมน้ำ ถึงอาบน้ำตัวก็ยังแห้ง",
+		'id-id': "Bulu Marill bersifat menangkal air. Bulu tersebut tetap kering meskipun Pokémon ini terguyur air."
 	},
 
 	stage: "Basic",
@@ -31,19 +31,19 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			ja: "バブルドレイン",
+			'ja-jp': "バブルドレイン",
 			'zh-tw': "泡沫吸取",
-			th: "บับเบิลเดรน",
-			id: "Bubble Drain"
+			'th-th': "บับเบิลเดรน",
+			'id-id': "Bubble Drain"
 		},
 
 		damage: 20,
 
 		effect: {
-			ja: "このポケモンのHPを「20」回復する。",
+			'ja-jp': "このポケモンのHPを「20」回復する。",
 			'zh-tw': "將這隻寶可夢恢復「20」HP。",
-			th: "ฟื้นฟู HP ของโปเกมอนนี้ [20]",
-			id: "Pulihkan HP Pokémon ini sejumlah 20."
+			'th-th': "ฟื้นฟู HP ของโปเกมอนนี้ [20]",
+			'id-id': "Pulihkan HP Pokémon ini sejumlah 20."
 		}
 	}],
 

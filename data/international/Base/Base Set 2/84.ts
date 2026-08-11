@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Onix",
+		'en-us': "Onix",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Rock Throw",
+				'en-us': "Rock Throw",
 			},
 
 			damage: 10,
@@ -41,10 +41,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Harden",
+				'en-us': "Harden",
 			},
 			effect: {
-				en: "During opponent's next turn, whenever 30 or less damage is done to Onix (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)",
+				'en-us': "During opponent's next turn, whenever 30 or less damage is done to Onix (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)",
 			},
 
 		},
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "As it grows, the stone portions of its body harden to become similar to a diamond, though colored black.",
+		'en-us': "As it grows, the stone portions of its body harden to become similar to a diamond, though colored black.",
 	},
 
 

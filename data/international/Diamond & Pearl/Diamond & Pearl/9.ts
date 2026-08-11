@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Manaphy",
-		fr: "Manaphy",
-		de: "Manaphy"
+		'en-us': "Manaphy",
+		'fr-fr': "Manaphy",
+		'de-de': "Manaphy"
 	},
 
 	illustrator: "Nakaoka",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Family",
-				fr: "Appel à la famille",
-				de: "Familienruf"
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la famille",
+				'de-de': "Familienruf"
 			},
 			effect: {
-				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck un Pokémon de Base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach 1 Basis-Pokémon-Karte und lege sie auf deine Bank. Mische dein Deck danach."
+				'en-us': "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck un Pokémon de Base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach 1 Basis-Pokémon-Karte und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Aqua Ring",
-				fr: "Anneau Hydro",
-				de: "Wasserring"
+				'en-us': "Aqua Ring",
+				'fr-fr': "Anneau Hydro",
+				'de-de': "Wasserring"
 			},
 			effect: {
-				en: "Switch Manaphy with 1 of your Benched Pokémon.",
-				fr: "Échangez Manaphy avec 1 des Pokémon de votre Banc.",
-				de: "Tausche Manaphy gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Switch Manaphy with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez Manaphy avec 1 des Pokémon de votre Banc.",
+				'de-de': "Tausche Manaphy gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 30,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Born on a cold seafloor, it will swim great distances to return to its birthplace.",
+		'en-us': "Born on a cold seafloor, it will swim great distances to return to its birthplace.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Weakness Policy",
-		fr: "VulnéAssurance",
-		es: "Seguro Debilidad",
-		it: "Vulneropolizza",
-		pt: "Política de Fraqueza",
-		de: "Schwächenschutz"
+		'en-us': "Weakness Policy",
+		'fr-fr': "VulnéAssurance",
+		'es-es': "Seguro Debilidad",
+		'it-it': "Vulneropolizza",
+		'pt-br': "Política de Fraqueza",
+		'de-de': "Schwächenschutz"
 	},
 
 	illustrator: "Ayaka Yoshida",
@@ -18,12 +18,12 @@ const card: Card = {
 	trainerType: "Tool",
 
 	effect: {
-		en: "The Pokémon this card is attached to has no Weakness.",
-		fr: "Le Pokémon auquel cette carte est attachée n'a pas de Faiblesse.",
-		es: "El Pokémon al que esté unida esta carta no tiene ninguna Debilidad.",
-		it: "Il Pokémon a cui è assegnata questa carta non ha debolezza.",
-		pt: "O Pokémon ao qual este card está ligado não tem Fraqueza.",
-		de: "Das Pokémon, an das diese Karte angelegt ist, hat keine Schwäche."
+		'en-us': "The Pokémon this card is attached to has no Weakness.",
+		'fr-fr': "Le Pokémon auquel cette carte est attachée n'a pas de Faiblesse.",
+		'es-es': "El Pokémon al que esté unida esta carta no tiene ninguna Debilidad.",
+		'it-it': "Il Pokémon a cui è assegnata questa carta non ha debolezza.",
+		'pt-br': "O Pokémon ao qual este card está ligado não tem Fraqueza.",
+		'de-de': "Das Pokémon, an das diese Karte angelegt ist, hat keine Schwäche."
 	},
 
 	thirdParty: {

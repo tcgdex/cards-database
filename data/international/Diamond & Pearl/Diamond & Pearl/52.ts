@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Luxio",
-		fr: "Luxio",
-		de: "Luxio"
+		'en-us': "Luxio",
+		'fr-fr': "Luxio",
+		'de-de': "Luxio"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shinx",
-		fr: "Lixy",
+		'en-us': "Shinx",
+		'fr-fr': "Lixy",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fasten Claws",
-				fr: "Griffes accrochantes",
-				de: "Klauen anlegen"
+				'en-us': "Fasten Claws",
+				'fr-fr': "Griffes accrochantes",
+				'de-de': "Klauen anlegen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 10 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 10 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunder Fang",
-				fr: "Crocs Éclair",
-				de: "Donnerzahn"
+				'en-us': "Thunder Fang",
+				'fr-fr': "Crocs Éclair",
+				'de-de': "Donnerzahn"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -83,8 +83,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Its claws loose electricity with enough amperage to cause fainting. They live in small groups.",
-		fr: "L'électricité libérée par ses griffes peut assommer l'ennemi. Il vit en petits groupes."
+		'en-us': "Its claws loose electricity with enough amperage to cause fainting. They live in small groups.",
+		'fr-fr': "L'électricité libérée par ses griffes peut assommer l'ennemi. Il vit en petits groupes."
 	},
 
 	thirdParty: {

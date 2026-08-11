@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Mareep δ",
-		fr: "Wattouat δ",
-		de: "Voltilamm"
+		'en-us': "Mareep δ",
+		'fr-fr': "Wattouat δ",
+		'de-de': "Voltilamm"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Whap",
-				fr: "Queue battoir",
-				de: "Schweifvertrimmer"
+				'en-us': "Tail Whap",
+				'fr-fr': "Queue battoir",
+				'de-de': "Schweifvertrimmer"
 			},
 
 			damage: 10,

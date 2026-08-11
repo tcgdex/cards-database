@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Minccino"
+		'id-id': "Minccino"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Minccino membersihkan kotoran dengan ekornya. Sangat membantu saat sedang bersih-bersih, tetapi karena ia gila kebersihan, bersih-bersih malah jadi lebih merepotkan."
+		'id-id': "Minccino membersihkan kotoran dengan ekornya. Sangat membantu saat sedang bersih-bersih, tetapi karena ia gila kebersihan, bersih-bersih malah jadi lebih merepotkan."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menghantam"
+			'id-id': "Menghantam"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Bebersih"
+			'id-id': "Bebersih"
 		},
 
 		effect: {
-			id: "Pilih paling banyak 2 lembar Pokémon Tool yang dikenakan pada Pokémon di Arena lawan, lalu buang ke Trash."
+			'id-id': "Pilih paling banyak 2 lembar Pokémon Tool yang dikenakan pada Pokémon di Arena lawan, lalu buang ke Trash."
 		},
 
 		cost: ["Colorless", "Colorless"]

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Heatmor",
-		fr: "Aflamanoir",
-		es: "Heatmor",
-		it: "Heatmor",
-		pt: "Heatmor",
-		de: "Furnifraß"
+		'en-us': "Heatmor",
+		'fr-fr': "Aflamanoir",
+		'es-es': "Heatmor",
+		'it-it': "Heatmor",
+		'pt-br': "Heatmor",
+		'de-de': "Furnifraß"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Luring Flame",
-				fr: "Flamme Attrayante",
+				'en-us': "Luring Flame",
+				'fr-fr': "Flamme Attrayante",
 			},
 			effect: {
-				en: "Switch 1 of your opponent's Benched Pokémon with the Defending Pokémon. The new Defending Pokémon is now Burned.",
-				fr: "Échangez 1 des Pokémon de Banc de votre adversaire avec le Pokémon Défenseur. Le nouveau Pokémon Défenseur est maintenant Brûlé.",
+				'en-us': "Switch 1 of your opponent's Benched Pokémon with the Defending Pokémon. The new Defending Pokémon is now Burned.",
+				'fr-fr': "Échangez 1 des Pokémon de Banc de votre adversaire avec le Pokémon Défenseur. Le nouveau Pokémon Défenseur est maintenant Brûlé.",
 			},
 
 		},
@@ -50,12 +50,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fiery Licks",
-				fr: "Léchouilles Incendiaires",
+				'en-us': "Fiery Licks",
+				'fr-fr': "Léchouilles Incendiaires",
 			},
 			effect: {
-				en: "Discard the top 4 cards of your deck. This attack does 50 damage times the number of Fire Energy cards you discarded.",
-				fr: "Défaussez les 4 cartes du dessus de votre deck. Cette attaque inflige 50 dégâts multipliés par le nombre de cartes Énergie Fire que vous avez défaussées.",
+				'en-us': "Discard the top 4 cards of your deck. This attack does 50 damage times the number of Fire Energy cards you discarded.",
+				'fr-fr': "Défaussez les 4 cartes du dessus de votre deck. Cette attaque inflige 50 dégâts multipliés par le nombre de cartes Énergie Fire que vous avez défaussées.",
 			},
 			damage: 50,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It draws in air through its tail, transforms it into fire, and uses it like a tongue. It melts Durant and eats them.",
+		'en-us': "It draws in air through its tail, transforms it into fire, and uses it like a tongue. It melts Durant and eats them.",
 	},
 
 	thirdParty: {

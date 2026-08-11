@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Charizard EX",
-		fr: "Dracaufeu EX",
-		es: "Charizard EX",
-		it: "Charizard EX",
-		pt: "Charizard EX",
-		de: "Glurak EX"
+		'en-us': "Charizard EX",
+		'fr-fr': "Dracaufeu EX",
+		'es-es': "Charizard EX",
+		'it-it': "Charizard EX",
+		'pt-br': "Charizard EX",
+		'de-de': "Glurak EX"
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stoke",
-				fr: "Attisement",
-				es: "Atizador",
-				it: "Attizzatoio",
-				pt: "Carregar",
-				de: "Anheizen"
+				'en-us': "Stoke",
+				'fr-fr': "Attisement",
+				'es-es': "Atizador",
+				'it-it': "Attizzatoio",
+				'pt-br': "Carregar",
+				'de-de': "Anheizen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your deck for up to 3 basic Energy cards and attach them to this Pokémon. Shuffle your deck afterward.",
-				fr: "Lancez une pièce. Si c'est face, cherchez jusqu'à 3 cartes Énergie de base dans votre deck et attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
-				es: "Lanza 1 moneda. Si sale cara, busca en tu baraja hasta 3 cartas de Energía Básica y únelas a este Pokémon. Baraja las cartas de tu baraja después.",
-				it: "Lancia una moneta. Se esce testa, cerca nel tuo mazzo fino a tre carte Energia base e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
-				pt: "Jogue uma moeda. Se sair cara, procure em seu baralho até 3 cards de Energia básica e ligue-os a esse Pokémon. Em seguida, embaralhe seus cards.",
-				de: "Wirf 1 Münze. Durchsuche bei \"Kopf\" dein Deck nach bis zu 3 Basis-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+				'en-us': "Flip a coin. If heads, search your deck for up to 3 basic Energy cards and attach them to this Pokémon. Shuffle your deck afterward.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cherchez jusqu'à 3 cartes Énergie de base dans votre deck et attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
+				'es-es': "Lanza 1 moneda. Si sale cara, busca en tu baraja hasta 3 cartas de Energía Básica y únelas a este Pokémon. Baraja las cartas de tu baraja después.",
+				'it-it': "Lancia una moneta. Se esce testa, cerca nel tuo mazzo fino a tre carte Energia base e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Jogue uma moeda. Se sair cara, procure em seu baralho até 3 cards de Energia básica e ligue-os a esse Pokémon. Em seguida, embaralhe seus cards.",
+				'de-de': "Wirf 1 Münze. Durchsuche bei \"Kopf\" dein Deck nach bis zu 3 Basis-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -59,20 +59,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Blast",
-				fr: "Déflagration",
-				es: "Llamarada",
-				it: "Fuocobomba",
-				pt: "Rajada de Fogo",
-				de: "Feuersturm"
+				'en-us': "Fire Blast",
+				'fr-fr': "Déflagration",
+				'es-es': "Llamarada",
+				'it-it': "Fuocobomba",
+				'pt-br': "Rajada de Fogo",
+				'de-de': "Feuersturm"
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon.",
-				es: "Descarta 1 Energía unida a este Pokémon.",
-				it: "Scarta un'Energia assegnata a questo Pokémon.",
-				pt: "Descarte uma Energia ligada a este Pokémon.",
-				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon.",
+				'es-es': "Descarta 1 Energía unida a este Pokémon.",
+				'it-it': "Scarta un'Energia assegnata a questo Pokémon.",
+				'pt-br': "Descarte uma Energia ligada a este Pokémon.",
+				'de-de': "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 120,
 

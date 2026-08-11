@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cynthia's Gible",
-		fr: "Griknot de Cynthia",
-		es: "Gible de Cintia",
+		'en-us': "Cynthia's Gible",
+		'fr-fr': "Griknot de Cynthia",
+		'es-es': "Gible de Cintia",
 		'es-mx': "Gible de Cynthia",
-		de: "Cynthias Kaumalat",
-		it: "Gible di Camilla",
-		pt: "Gible da Cíntia"
+		'de-de': "Cynthias Kaumalat",
+		'it-it': "Gible di Camilla",
+		'pt-br': "Gible da Cíntia"
 	},
 
 	illustrator: "Tomomi Ozaki",
@@ -25,23 +25,23 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Rock Hurl",
-			fr: "Lance-Pierre",
-			es: "Lanzamiento de Rocas",
+			'en-us': "Rock Hurl",
+			'fr-fr': "Lance-Pierre",
+			'es-es': "Lanzamiento de Rocas",
 			'es-mx': "Lanzamiento de Rocas",
-			de: "Steinschleuderer",
-			it: "Scaglia Pietre",
-			pt: "Lançamento de Pedras"
+			'de-de': "Steinschleuderer",
+			'it-it': "Scaglia Pietre",
+			'pt-br': "Lançamento de Pedras"
 		},
 
 		effect: {
-			en: "This attack's damage isn't affected by Resistance.",
-			fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-			es: "El daño de este ataque no se ve afectado por Resistencia.",
+			'en-us': "This attack's damage isn't affected by Resistance.",
+			'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+			'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
 			'es-mx': "El daño de este ataque no se ve afectado por Resistencia.",
-			de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert.",
-			it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-			pt: "O dano deste ataque não é afetado por Resistência."
+			'de-de': "Der Schaden dieser Attacke wird durch Resistenz nicht verändert.",
+			'it-it': "I danni di questo attacco non sono influenzati dalla resistenza.",
+			'pt-br': "O dano deste ataque não é afetado por Resistência."
 		},
 
 		damage: 20
@@ -57,7 +57,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "It skulks in caves, and when prey or an enemy passes by, it leaps out and chomps them. The force of its attack sometimes chips its teeth.",
+		'en-us': "It skulks in caves, and when prey or an enemy passes by, it leaps out and chomps them. The force of its attack sometimes chips its teeth.",
 	},
 
 	variants: [

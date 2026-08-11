@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [373],
 
 	name: {
-		en: "Salamence"
+		'en-us': "Salamence"
 	},
 
 	illustrator: "kodama",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Dragon"],
 
 	evolveFrom: {
-		en: "Shelgon"
+		'en-us': "Shelgon"
 	},
 
 	description: {
-		en: "It becomes uncontrollable if it is enraged.\nIt destroys everything with shredding claws\nand fire."
+		'en-us': "It becomes uncontrollable if it is enraged.\nIt destroys everything with shredding claws\nand fire."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Dragon Dive"
+			'en-us': "Dragon Dive"
 		},
 
 		damage: 150,
 		cost: ["Fire", "Water", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If tails, this Pokémon also does 50 damage to itself."
+			'en-us': "Flip a coin. If tails, this Pokémon also does 50 damage to itself."
 		}
 	}],
 

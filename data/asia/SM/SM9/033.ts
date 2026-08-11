@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローライシツブテ",
+		'ja-jp': "アローライシツブテ",
 	},
 
 	illustrator: "Yuka Morii",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "石ころと 間違え 踏んでしまうと 怒って 頭突きを かましてくる。 痛いだけでなく ビリッと くるぞ。",
+		'ja-jp': "石ころと 間違え 踏んでしまうと 怒って 頭突きを かましてくる。 痛いだけでなく ビリッと くるぞ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "じゅうでん" },
 			cost: [],
 			effect: {
-				ja: "自分の山札にある[雷]エネルギーを2枚まで、このポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札にある[雷]エネルギーを2枚まで、このポケモンにつける。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げウラなら、このワザは失敗。",
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マメパト",
+		'ja-jp': "マメパト",
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "とても 忘れっぽい ポケモンで トレーナーに 命令 されたのに 新しい 命令を 待っている。",
+		'ja-jp': "とても 忘れっぽい ポケモンで トレーナーに 命令 されたのに 新しい 命令を 待っている。",
 	},
 
 	stage: "Basic",

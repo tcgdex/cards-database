@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Buneary",
-		fr: "Laporeille",
-		es: "Buneary",
+		'en-us': "Buneary",
+		'fr-fr': "Laporeille",
+		'es-es': "Buneary",
 		'es-mx': "Buneary",
-		de: "Haspiror",
-		it: "Buneary",
-		pt: "Buneary"
+		'de-de': "Haspiror",
+		'it-it': "Buneary",
+		'pt-br': "Buneary"
 	},
 
 	rarity: "Common",
@@ -26,35 +26,35 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Run Around",
-			fr: "Course Effrénée",
-			es: "Correr Alrededor",
+			'en-us': "Run Around",
+			'fr-fr': "Course Effrénée",
+			'es-es': "Correr Alrededor",
 			'es-mx': "Correteo",
-			de: "Herumrennen",
-			it: "Correre Intorno",
-			pt: "Zoar"
+			'de-de': "Herumrennen",
+			'it-it': "Correre Intorno",
+			'pt-br': "Zoar"
 		},
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-			es: "Cambia este Pokémon por uno de tus Pokémon en Banca.",
+			'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+			'fr-fr': "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'es-es': "Cambia este Pokémon por uno de tus Pokémon en Banca.",
 			'es-mx': "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus.",
-			it: "Scambia questo Pokémon con uno nella tua panchina.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco."
+			'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus.",
+			'it-it': "Scambia questo Pokémon con uno nella tua panchina.",
+			'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco."
 		}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Kick",
-			fr: "Koud'Pied",
-			es: "Patada",
+			'en-us': "Kick",
+			'fr-fr': "Koud'Pied",
+			'es-es': "Patada",
 			'es-mx': "Patada",
-			de: "Tritt",
-			it: "Calcio",
-			pt: "Chute"
+			'de-de': "Tritt",
+			'it-it': "Calcio",
+			'pt-br': "Chute"
 		},
 
 		damage: 20
@@ -70,7 +70,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "Buneary can attack by rolling up their ears and then striking with the force created by unrolling them. This attack becomes stronger with training.",
+		'en-us': "Buneary can attack by rolling up their ears and then striking with the force created by unrolling them. This attack becomes stronger with training.",
 	},
 
 	illustrator: "tono",

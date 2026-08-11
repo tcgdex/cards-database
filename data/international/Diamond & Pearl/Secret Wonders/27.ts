@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Furret",
-		fr: "Fouinar",
-		de: "Wiesenior"
+		'en-us': "Furret",
+		'fr-fr': "Fouinar",
+		'de-de': "Wiesenior"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Sentret",
-		fr: "Fouinette",
+		'en-us': "Sentret",
+		'fr-fr': "Fouinette",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Keen Eye",
-				fr: "Regard vif",
-				de: "Adlerauge"
+				'en-us': "Keen Eye",
+				'fr-fr': "Regard vif",
+				'de-de': "Adlerauge"
 			},
 			effect: {
-				en: "Search your deck for up to 2 cards and put them into your hand. Shuffle your deck afterward.",
-				fr: "Choisissez jusqu'à 2 cartes dans votre deck et placez-les dans votre main. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach bis zu 2 Karten und nimm sie auf die Hand. Mische dein Deck danach."
+				'en-us': "Search your deck for up to 2 cards and put them into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez jusqu'à 2 cartes dans votre deck et placez-les dans votre main. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach bis zu 2 Karten und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Baton Pass",
-				fr: "Relais",
-				de: "Stafette"
+				'en-us': "Baton Pass",
+				'fr-fr': "Relais",
+				'de-de': "Stafette"
 			},
 			effect: {
-				en: "You may switch Furret with 1 of your Benched Pokémon. If you do, move as many Energy cards attached to Furret as you like to the new Active Pokémon.",
-				fr: "Vous pouvez échanger Fouinar avec 1 des Pokémon de votre Banc. Déplacez alors autant de cartes Énergie attachées à Fouinar que vous voulez sur le nouveau Pokémon Actif.",
-				de: "Du kannst Wiesenior gegen 1 Pokémon auf deiner Bank austauschen. Wenn du das machst, kannst du eine beliebige Anzahl an Wiesenior angelegter Energiekarten entfernen und an das neue Aktive Pokémon anlegen."
+				'en-us': "You may switch Furret with 1 of your Benched Pokémon. If you do, move as many Energy cards attached to Furret as you like to the new Active Pokémon.",
+				'fr-fr': "Vous pouvez échanger Fouinar avec 1 des Pokémon de votre Banc. Déplacez alors autant de cartes Énergie attachées à Fouinar que vous voulez sur le nouveau Pokémon Actif.",
+				'de-de': "Du kannst Wiesenior gegen 1 Pokémon auf deiner Bank austauschen. Wenn du das machst, kannst du eine beliebige Anzahl an Wiesenior angelegter Energiekarten entfernen und an das neue Aktive Pokémon anlegen."
 			},
 			damage: 40,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The mother puts its offspring to sleep by curling up around them. It corners foes with speed.",
+		'en-us': "The mother puts its offspring to sleep by curling up around them. It corners foes with speed.",
 	},
 
 	thirdParty: {

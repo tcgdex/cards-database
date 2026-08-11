@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Camerupt",
-		fr: "Camérupt",
-		es: "Camerupt",
+		'en-us': "Camerupt",
+		'fr-fr': "Camérupt",
+		'es-es': "Camerupt",
 		'es-mx': "Camerupt",
-		de: "Camerupt",
-		it: "Camerupt",
-		pt: "Camerupt"
+		'de-de': "Camerupt",
+		'it-it': "Camerupt",
+		'pt-br': "Camerupt"
 	},
 
 	evolveFrom: {
-		en: "Numel",
-		fr: "Chamallot",
-		es: "Numel",
+		'en-us': "Numel",
+		'fr-fr': "Chamallot",
+		'es-es': "Numel",
 		'es-mx': "Numel",
-		de: "Camaub",
-		it: "Numel",
-		pt: "Numel",
+		'de-de': "Camaub",
+		'it-it': "Numel",
+		'pt-br': "Numel",
 	},
 
 	illustrator: "Minahamu",
@@ -36,23 +36,23 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Roasting Burn",
-			fr: "Brûlure Roussie",
-			es: "Quemadura Abrasadora",
+			'en-us': "Roasting Burn",
+			'fr-fr': "Brûlure Roussie",
+			'es-es': "Quemadura Abrasadora",
 			'es-mx': "Quemadura Abrasadora",
-			de: "Bratendes Brennen",
-			it: "Ustione Rovente",
-			pt: "Torrefação Ardente"
+			'de-de': "Bratendes Brennen",
+			'it-it': "Ustione Rovente",
+			'pt-br': "Torrefação Ardente"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon isn't Burned, this attack does nothing.",
-			fr: "Si le Pokémon Actif de votre adversaire n'est pas Brûlé, cette attaque ne fait rien.",
-			es: "Si el Pokémon Activo de tu rival no está Quemado, este ataque no hace nada.",
+			'en-us': "If your opponent's Active Pokémon isn't Burned, this attack does nothing.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire n'est pas Brûlé, cette attaque ne fait rien.",
+			'es-es': "Si el Pokémon Activo de tu rival no está Quemado, este ataque no hace nada.",
 			'es-mx': "Si el Pokémon Activo de tu rival no está Quemado, este ataque no hace nada.",
-			de: "Wenn das Aktive Pokémon deines Gegners nicht verbrannt ist, hat diese Attacke keine Auswirkungen.",
-			it: "Se il Pokémon attivo del tuo avversario non è bruciato, questo attacco non ha effetto.",
-			pt: "Se o Pokémon Ativo do seu oponente não estiver Queimado, este ataque não fará nada."
+			'de-de': "Wenn das Aktive Pokémon deines Gegners nicht verbrannt ist, hat diese Attacke keine Auswirkungen.",
+			'it-it': "Se il Pokémon attivo del tuo avversario non è bruciato, questo attacco non ha effetto.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente não estiver Queimado, este ataque não fará nada."
 		},
 
 		damage: 110
@@ -60,23 +60,23 @@ const card: Card = {
 		cost: ["Fire", "Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Power Stomp",
-			fr: "Piétinement Puissant",
-			es: "Pisotón Vigoroso",
+			'en-us': "Power Stomp",
+			'fr-fr': "Piétinement Puissant",
+			'es-es': "Pisotón Vigoroso",
 			'es-mx': "Pisotón Poderoso",
-			de: "Kraftstampfer",
-			it: "Forzapestone",
-			pt: "Pisoteada Poderosa"
+			'de-de': "Kraftstampfer",
+			'it-it': "Forzapestone",
+			'pt-br': "Pisoteada Poderosa"
 		},
 
 		effect: {
-			en: "Discard 2 Energy from this Pokémon.",
-			fr: "Défaussez 2 Énergies de ce Pokémon.",
-			es: "Descarta 2 Energías de este Pokémon.",
+			'en-us': "Discard 2 Energy from this Pokémon.",
+			'fr-fr': "Défaussez 2 Énergies de ce Pokémon.",
+			'es-es': "Descarta 2 Energías de este Pokémon.",
 			'es-mx': "Descarta 2 Energías de este Pokémon.",
-			de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel.",
-			it: "Scarta due Energie da questo Pokémon.",
-			pt: "Descarte 2 Energias deste Pokémon."
+			'de-de': "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel.",
+			'it-it': "Scarta due Energie da questo Pokémon.",
+			'pt-br': "Descarte 2 Energias deste Pokémon."
 		},
 
 		damage: 170
@@ -92,7 +92,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "The volcanoes on its back have a major eruption every 10 years--or whenever it becomes really angry.",
+		'en-us': "The volcanoes on its back have a major eruption every 10 years--or whenever it becomes really angry.",
 	},
 
 	variants: [

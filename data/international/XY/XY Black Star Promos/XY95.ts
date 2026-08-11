@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
 	},
 
 	illustrator: "Kanako Eo",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Let's Eat Together",
-				fr: "Bon Appétit",
+				'en-us': "Let's Eat Together",
+				'fr-fr': "Bon Appétit",
 			},
 			effect: {
-				en: "Heal 30 damage from both Active Pokémon.",
-				fr: "Soignez 30 dégâts aux deux Pokémon Actifs.",
+				'en-us': "Heal 30 damage from both Active Pokémon.",
+				'fr-fr': "Soignez 30 dégâts aux deux Pokémon Actifs.",
 			},
 
 		},
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-Attaque"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-Attaque"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
 			},
 			damage: 10,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs.",
+		'en-us': "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs.",
 	},
 
 	thirdParty: {

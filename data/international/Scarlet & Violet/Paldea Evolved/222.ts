@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Tyranocif",
-		en: "Tyranitar",
-		es: "Tyranitar",
-		it: "Tyranitar",
-		pt: "Tyranitar",
-		de: "Despotar"
+		'fr-fr': "Tyranocif",
+		'en-us': "Tyranitar",
+		'es-es': "Tyranitar",
+		'it-it': "Tyranitar",
+		'pt-br': "Tyranitar",
+		'de-de': "Despotar"
 	},
 
 	rarity: "Illustration rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 180,
 	types: ["Darkness"],
 	evolveFrom: {
-		fr: "Ymphect",
-		en: "Pupitar",
-		es: "Pupitar",
-		it: "Pupitar",
-		pt: "Pupitar",
-		de: "Pupitar"
+		'fr-fr': "Ymphect",
+		'en-us': "Pupitar",
+		'es-es': "Pupitar",
+		'it-it': "Pupitar",
+		'pt-br': "Pupitar",
+		'de-de': "Pupitar"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			fr: "Débâcle",
-			en: "Rout",
-			es: "Esparcir",
-			it: "Stanamento",
-			pt: "Efeito Cascata",
-			de: "Verheerung"
+			'fr-fr': "Débâcle",
+			'en-us': "Rout",
+			'es-es': "Esparcir",
+			'it-it': "Stanamento",
+			'pt-br': "Efeito Cascata",
+			'de-de': "Verheerung"
 		},
 
 		effect: {
-			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chacun des Pokémon de Banc de votre adversaire.",
-			en: "This attack does 30 more damage for each of your opponent's Benched Pokémon.",
-			es: "Este ataque hace 30 puntos de daño más por cada uno de los Pokémon en Banca de tu rival.",
-			it: "Questo attacco infligge 30 danni in più per ogni Pokémon nella panchina del tuo avversario.",
-			pt: "Este ataque causa 30 pontos de dano a mais para cada Pokémon no Banco do seu oponente.",
-			de: "Diese Attacke fügt für jedes Pokémon auf der Bank deines Gegners 30 Schadenspunkte mehr zu."
+			'fr-fr': "Cette attaque inflige 30 dégâts supplémentaires pour chacun des Pokémon de Banc de votre adversaire.",
+			'en-us': "This attack does 30 more damage for each of your opponent's Benched Pokémon.",
+			'es-es': "Este ataque hace 30 puntos de daño más por cada uno de los Pokémon en Banca de tu rival.",
+			'it-it': "Questo attacco infligge 30 danni in più per ogni Pokémon nella panchina del tuo avversario.",
+			'pt-br': "Este ataque causa 30 pontos de dano a mais para cada Pokémon no Banco do seu oponente.",
+			'de-de': "Diese Attacke fügt für jedes Pokémon auf der Bank deines Gegners 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Darkness", "Darkness"],
 
 		name: {
-			fr: "Montagne Effroyable",
-			en: "Dread Mountain",
-			es: "Montaña Pavorosa",
-			it: "Monte della Paura",
-			pt: "Montanha do Pavor",
-			de: "Berg des Grauens"
+			'fr-fr': "Montagne Effroyable",
+			'en-us': "Dread Mountain",
+			'es-es': "Montaña Pavorosa",
+			'it-it': "Monte della Paura",
+			'pt-br': "Montanha do Pavor",
+			'de-de': "Berg des Grauens"
 		},
 
 		effect: {
-			fr: "Défaussez les 4 cartes du dessus de votre deck.",
-			en: "Discard the top 4 cards of your deck.",
-			es: "Descarta las 4 primeras cartas de tu baraja.",
-			it: "Scarta le prime quattro carte del tuo mazzo.",
-			pt: "Descarte as 4 cartas de cima do seu baralho.",
-			de: "Lege die obersten 4 Karten deines Decks auf deinen Ablagestapel."
+			'fr-fr': "Défaussez les 4 cartes du dessus de votre deck.",
+			'en-us': "Discard the top 4 cards of your deck.",
+			'es-es': "Descarta las 4 primeras cartas de tu baraja.",
+			'it-it': "Scarta le prime quattro carte del tuo mazzo.",
+			'pt-br': "Descarte as 4 cartas de cima do seu baralho.",
+			'de-de': "Lege die obersten 4 Karten deines Decks auf deinen Ablagestapel."
 		},
 
 		damage: 230
@@ -97,7 +97,7 @@ const card: Card = {
 	illustrator: "Nurikabe",
 
 	description: {
-		en: "Extremely strong, it can change the landscape. It is so insolent that it doesn't care about others.",
+		'en-us': "Extremely strong, it can change the landscape. It is so insolent that it doesn't care about others.",
 	},
 }
 

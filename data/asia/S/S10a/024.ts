@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バリヤード",
+		'ja-jp': "バリヤード",
 		'zh-tw': "魔牆人偶",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "振る舞い パントマイムが如く。 道化師 思い起こす 姿にて 指先より 発す 気力 用いて 透明な壁を作る。",
+		'ja-jp': "振る舞い パントマイムが如く。 道化師 思い起こす 姿にて 指先より 発す 気力 用いて 透明な壁を作る。",
 		'zh-tw': "行為舉止如同默劇表演，外貌則與小丑無異。能從指尖發出 氣場，造出透明的牆壁。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "はたく",
+				'ja-jp': "はたく",
 				'zh-tw': "拍擊",
 			},
 			damage: 20,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "トリックビンタ",
+				'ja-jp': "トリックビンタ",
 				'zh-tw': "戲法巴掌",
 			},
 			damage: 90,
 			cost: ["Psychic", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手プレイヤーとジャンケンをし、自分が勝ったなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				'ja-jp': "相手プレイヤーとジャンケンをし、自分が勝ったなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
 				'zh-tw': "與對手玩家猜拳，若己方獲勝，則在下個對手的回合，這隻寶可夢不會受到招式的傷害與效果的影響。",
 			},
 		},

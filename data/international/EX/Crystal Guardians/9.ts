@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Mawile",
-		fr: "Mysdibule",
-		de: "Flunkifer"
+		'en-us': "Mawile",
+		'fr-fr': "Mysdibule",
+		'de-de': "Flunkifer"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mining",
-				fr: "Minage",
-				de: "Bergbau"
+				'en-us': "Mining",
+				'fr-fr': "Minage",
+				'de-de': "Bergbau"
 			},
 			effect: {
-				en: "Search your deck for a Trainer card, show it to your opponent, and put it into your hand. If that card is a Pokémon Tool card, you may attach it to 1 of your Pokémon instead. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une carte Dresseur, montrez-la à votre adversaire et placez-la dans votre main. Si cette carte est une carte Outil Pokémon, vous pouvez l'attacher à 1 de vos Pokémon. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach einer Trainerkarte, zeige sie deinem Gegner und nimm sie auf die Hand. Wenn diese Karte eine Pokémon-Ausrüstungs-Karte ist, kannst du sie direkt an 1 deiner Pokémon anlegen. Mische dein Deck danach."
+				'en-us': "Search your deck for a Trainer card, show it to your opponent, and put it into your hand. If that card is a Pokémon Tool card, you may attach it to 1 of your Pokémon instead. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck une carte Dresseur, montrez-la à votre adversaire et placez-la dans votre main. Si cette carte est une carte Outil Pokémon, vous pouvez l'attacher à 1 de vos Pokémon. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach einer Trainerkarte, zeige sie deinem Gegner und nimm sie auf die Hand. Wenn diese Karte eine Pokémon-Ausrüstungs-Karte ist, kannst du sie direkt an 1 deiner Pokémon anlegen. Mische dein Deck danach."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite Off",
-				fr: "Arracher d'un coup de dent",
-				de: "Abbeißen"
+				'en-us': "Bite Off",
+				'fr-fr': "Arracher d'un coup de dent",
+				'de-de': "Abbeißen"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Pokémon-ex, this attack does 20 damage plus 30 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 20 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wenn das Verteidigende Pokémon ein Pokémon-ex ist, fügt dieser Angriff 20 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "If the Defending Pokémon is Pokémon-ex, this attack does 20 damage plus 30 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 20 dégâts plus 30 dégâts supplémentaires.",
+				'de-de': "Wenn das Verteidigende Pokémon ein Pokémon-ex ist, fügt dieser Angriff 20 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 

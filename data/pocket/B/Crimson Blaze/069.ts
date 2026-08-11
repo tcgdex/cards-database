@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Serena"
+		'en-us': "Serena"
 	},
 
 	illustrator: "En Morikura",
@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Put a random Mega Evolution Pokémon ex from your deck into your hand."
+		'en-us': "Put a random Mega Evolution Pokémon ex from your deck into your hand."
 	},
 
 	trainerType: "Supporter"

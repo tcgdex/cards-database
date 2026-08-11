@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SM Black Star Promos'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		es: "Pikachu",
-		it: "Pikachu",
-		pt: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'es-es': "Pikachu",
+		'it-it': "Pikachu",
+		'pt-br': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	illustrator: "2019 Pikachu Project",
@@ -22,45 +22,45 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Quick Attack",
-			fr: "Vive-Attaque",
-			es: "Ataque Rápido",
-			it: "Attacco Rapido",
-			pt: "Ataque Rápido",
-			de: "Ruckzuckhieb"
+			'en-us': "Quick Attack",
+			'fr-fr': "Vive-Attaque",
+			'es-es': "Ataque Rápido",
+			'it-it': "Attacco Rapido",
+			'pt-br': "Ataque Rápido",
+			'de-de': "Ruckzuckhieb"
 		},
 
 		damage: "10+",
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 10 more damage.",
-			fr: "Si c’est face, cette attaque inflige 10 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
-			pt: "Jogue 1 moeda. Se sair cara, este ataque causará 10 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 10 Schadenspunkte mehr zu."
+			'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
+			'fr-fr': "Si c’est face, cette attaque inflige 10 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 10 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 10 Schadenspunkte mehr zu."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Thunderbolt",
-			fr: "Tonnerre",
-			es: "Rayo",
-			it: "Fulmine",
-			pt: "Relâmpago",
-			de: "Donnerblitz"
+			'en-us': "Thunderbolt",
+			'fr-fr': "Tonnerre",
+			'es-es': "Rayo",
+			'it-it': "Fulmine",
+			'pt-br': "Relâmpago",
+			'de-de': "Donnerblitz"
 		},
 
 		damage: 80,
 
 		effect: {
-			en: "Discard all Energy from this Pokémon.",
-			fr: "Défaussez toute l’Énergie de ce Pokémon.",
-			es: "Descarta todas las Energías de este Pokémon.",
-			it: "Scarta tutte le Energie assegnate a questo Pokémon.",
-			pt: "Descarte todas as Energias deste Pokémon.",
-			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard all Energy from this Pokémon.",
+			'fr-fr': "Défaussez toute l’Énergie de ce Pokémon.",
+			'es-es': "Descarta todas las Energías de este Pokémon.",
+			'it-it': "Scarta tutte le Energie assegnate a questo Pokémon.",
+			'pt-br': "Descarte todas as Energias deste Pokémon.",
+			'de-de': "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		cost: ["Lightning", "Lightning", "Colorless"]
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its nature is to store up electricity. Forests where nests of Pikachu live are dangerous, since the trees are so often struck by lightning.",
+		'en-us': "Its nature is to store up electricity. Forests where nests of Pikachu live are dangerous, since the trees are so often struck by lightning.",
 	},
 }
 

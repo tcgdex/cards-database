@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Aipom",
-		fr: "Capumain",
-		es: "Aipom",
-		it: "Aipom",
-		pt: "Aipom",
-		de: "Griffel"
+		'en-us': "Aipom",
+		'fr-fr': "Capumain",
+		'es-es': "Aipom",
+		'it-it': "Aipom",
+		'pt-br': "Aipom",
+		'de-de': "Griffel"
 	},
 
 	illustrator: "Naoki Saito",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fiddle Around",
-				fr: "Bidouillage",
-				es: "Juguetear",
-				it: "Perditempo",
-				pt: "Desordenar",
-				de: "Herumtüfteln"
+				'en-us': "Fiddle Around",
+				'fr-fr': "Bidouillage",
+				'es-es': "Juguetear",
+				'it-it': "Perditempo",
+				'pt-br': "Desordenar",
+				'de-de': "Herumtüfteln"
 			},
 			effect: {
-				en: "Look at the top 3 cards of your opponent's deck and put them back in any order.",
-				fr: "Regardez les 3 cartes du dessus du deck de votre adversaire et replacez-les dans l'ordre de votre choix.",
-				es: "Mira las 3 primeras cartas de la baraja de tu rival y vuelve a ponerlas en la parte superior de su baraja en el orden que quieras.",
-				it: "Guarda le prime tre carte del mazzo del tuo avversario e rimettile a posto nell'ordine che preferisci.",
-				pt: "Olhe os 3 cards de cima do baralho do seu oponente e coloque-os de volta em qualquer ordem.",
-				de: "Schau dir die obersten 3 Karten des gegnerischen Decks an und lege sie in beliebiger Reihenfolge zurück in sein Deck."
+				'en-us': "Look at the top 3 cards of your opponent's deck and put them back in any order.",
+				'fr-fr': "Regardez les 3 cartes du dessus du deck de votre adversaire et replacez-les dans l'ordre de votre choix.",
+				'es-es': "Mira las 3 primeras cartas de la baraja de tu rival y vuelve a ponerlas en la parte superior de su baraja en el orden que quieras.",
+				'it-it': "Guarda le prime tre carte del mazzo del tuo avversario e rimettile a posto nell'ordine che preferisci.",
+				'pt-br': "Olhe os 3 cards de cima do baralho do seu oponente e coloque-os de volta em qualquer ordem.",
+				'de-de': "Schau dir die obersten 3 Karten des gegnerischen Decks an und lege sie in beliebiger Reihenfolge zurück in sein Deck."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Jab",
-				fr: "Coup d'Queue",
-				es: "Puya Cola",
-				it: "Stoccacoda",
-				pt: "Sova de Cauda",
-				de: "Schweifstoß"
+				'en-us': "Tail Jab",
+				'fr-fr': "Coup d'Queue",
+				'es-es': "Puya Cola",
+				'it-it': "Stoccacoda",
+				'pt-br': "Sova de Cauda",
+				'de-de': "Schweifstoß"
 			},
 
 			damage: 20,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air.",
+		'en-us': "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air.",
 	},
 
 	thirdParty: {

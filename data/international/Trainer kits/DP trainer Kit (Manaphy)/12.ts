@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../DP trainer Kit (Manaphy)'
 
 const card: Card = {
 	name: {
-		en: "Water Energy",
-		fr: "Énergie Eau"
+		'en-us': "Water Energy",
+		'fr-fr': "Énergie Eau"
 	},
 	illustrator: "",
 	rarity: "None",

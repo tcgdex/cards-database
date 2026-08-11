@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Growlithe",
+		'en-us': "Growlithe",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rest",
+				'en-us': "Rest",
 			},
 			effect: {
-				en: "Heal all damage from this Pokémon. This Pokémon is now Asleep.",
+				'en-us': "Heal all damage from this Pokémon. This Pokémon is now Asleep.",
 			},
 
 		},
@@ -44,10 +44,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lunge",
+				'en-us': "Lunge",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
 			},
 			damage: 40,
 
@@ -64,7 +64,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Extremely loyal to its Trainer, it will bark at those who approach the Trainer unexpectedly and run them out of town.",
+		'en-us': "Extremely loyal to its Trainer, it will bark at those who approach the Trainer unexpectedly and run them out of town.",
 	},
 
 	thirdParty: {

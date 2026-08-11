@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pansear",
-		fr: "Flamajou",
-		es: "Pansear",
-		it: "Pansear",
-		pt: "Pansear",
-		de: "Grillmak"
+		'en-us': "Pansear",
+		'fr-fr': "Flamajou",
+		'es-es': "Pansear",
+		'it-it': "Pansear",
+		'pt-br': "Pansear",
+		'de-de': "Grillmak"
 	},
 
 	rarity: "Common",
@@ -30,30 +30,30 @@ const card: Card = {
 	illustrator: "Misa Tsutsui",
 
 	description: {
-		en: "This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600 degrees Fahrenheit."
+		'en-us': "This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600 degrees Fahrenheit."
 	},
 
 	attacks: [{
 		cost: ["Fire"],
 
 		name: {
-			en: "Surprise Attack",
-			fr: "Attaque Surprise",
-			de: "Überraschungsangriff",
-			es: "Ataque Sorpresa",
-			pt: "Ataque Surpresa",
-			it: "Attacco a Sorpresa"
+			'en-us': "Surprise Attack",
+			'fr-fr': "Attaque Surprise",
+			'de-de': "Überraschungsangriff",
+			'es-es': "Ataque Sorpresa",
+			'pt-br': "Ataque Surpresa",
+			'it-it': "Attacco a Sorpresa"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
-			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-			pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
-			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto."
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			'pt-br': "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+			'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto."
 		}
 	}],
 

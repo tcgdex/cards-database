@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sun & Moon'
 
 const smp: Set = {
 	id: "smp",
 
 	name: {
-		en: "SM Black Star Promos",
-		pt: "Sol e Lua Promos",
-		fr: "Promo SM",
-		es: "SL Cartas de promoción",
-		it: "SL Promo",
-		de: "SM Promokarten"
+		'en-us': "SM Black Star Promos",
+		'pt-br': "Sol e Lua Promos",
+		'fr-fr': "Promo SM",
+		'es-es': "SL Cartas de promoción",
+		'it-it': "SL Promo",
+		'de-de': "SM Promokarten"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const smp: Set = {
 
 	abbreviations: {
 		official: "SMP",
-		fr: "PSM"
+		'fr-fr': "PSM"
 	},
 
 	thirdParty: {

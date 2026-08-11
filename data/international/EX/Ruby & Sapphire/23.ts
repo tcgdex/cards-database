@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Swampert",
-		fr: "Laggron",
-		de: "Sumpex"
+		'en-us': "Swampert",
+		'fr-fr': "Laggron",
+		'de-de': "Sumpex"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Marshtomp",
-		fr: "Flobio"
+		'en-us': "Marshtomp",
+		'fr-fr': "Flobio"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Natural Remedy",
-				fr: "Remède naturel",
-				de: "Natürliche Heilung"
+				'en-us': "Natural Remedy",
+				'fr-fr': "Remède naturel",
+				'de-de': "Natürliche Heilung"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), when you attach a Water Energy card from your hand to Swampert, remove 1 damage counter from Swampert.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), si vous attachez une carte Énergie  de votre main à Laggron, retirez-lui un marqueur de dégât.",
-				de: "Einmal in deinem Zug (vor deinem Angriff), wenn du eine -Energiekarte von der Hand an Sumpex anlegst, entferne 1 Schadensmarke von Sumpex."
+				'en-us': "Once during your turn (before your attack), when you attach a Water Energy card from your hand to Swampert, remove 1 damage counter from Swampert.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), si vous attachez une carte Énergie  de votre main à Laggron, retirez-lui un marqueur de dégât.",
+				'de-de': "Einmal in deinem Zug (vor deinem Angriff), wenn du eine -Energiekarte von der Hand an Sumpex anlegst, entferne 1 Schadensmarke von Sumpex."
 			}
 		},
 	],
@@ -50,14 +50,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Arrow",
-				fr: "Flèche d'eau",
-				de: "Wasserpfeil"
+				'en-us': "Water Arrow",
+				'fr-fr': "Flèche d'eau",
+				'de-de': "Wasserpfeil"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez un des Pokémon de votre adversaire : cette attaque inflige 20 dégâts à ce Pokémon. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
-				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz für Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez un des Pokémon de votre adversaire : cette attaque inflige 20 dégâts à ce Pokémon. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
+				'de-de': "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz für Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -68,9 +68,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Waterfall",
-				fr: "Cascade",
-				de: "Kaskade"
+				'en-us': "Waterfall",
+				'fr-fr': "Cascade",
+				'de-de': "Kaskade"
 			},
 
 			damage: 50,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SWSH Black Star Promos";
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dragapult",
-		fr: "Lanssorien",
-		de: "Katapuldra",
-		es: "Dragapult",
-		pt: "Dragapult",
-		it: "Dragapult"
+		'en-us': "Dragapult",
+		'fr-fr': "Lanssorien",
+		'de-de': "Katapuldra",
+		'es-es': "Dragapult",
+		'pt-br': "Dragapult",
+		'it-it': "Dragapult"
 	},
 
 	illustrator: "5ban Graphics",
@@ -24,46 +24,46 @@ const card: Card = {
 			cost: ["Psychic"],
 
 			name: {
-				en: "Mach Turn",
-				fr: "Tour Supersonique",
-				de: "Tempowende",
-				es: "Giro Mach",
-				pt: "Retorno Supersônico",
-				it: "Girata Mach"
+				'en-us': "Mach Turn",
+				'fr-fr': "Tour Supersonique",
+				'de-de': "Tempowende",
+				'es-es': "Giro Mach",
+				'pt-br': "Retorno Supersônico",
+				'it-it': "Girata Mach"
 			},
 
 			damage: 60,
 
 			effect: {
-				en: "You may switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Vous pouvez échanger ce Pokémon contre l'un de vos Pokémon de Banc.",
-				de: "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen.",
-				es: "Puedes cambiar este Pokémon por 1 de tus Pokémon en Banca.",
-				pt: "Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
-				it: "Puoi scambiare questo Pokémon con uno della tua panchina."
+				'en-us': "You may switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Vous pouvez échanger ce Pokémon contre l'un de vos Pokémon de Banc.",
+				'de-de': "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen.",
+				'es-es': "Puedes cambiar este Pokémon por 1 de tus Pokémon en Banca.",
+				'pt-br': "Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
+				'it-it': "Puoi scambiare questo Pokémon con uno della tua panchina."
 			},
 		},
 		{
 			cost: ["Psychic", "Psychic", "Colorless"],
 
 			name: {
-				en: "Diving Swipe",
-				fr: "Rafle Plongeante",
-				de: "Sturzklau",
-				es: "Robo en Picado",
-				pt: "Mergulho Furtivo",
-				it: "Tuffata"
+				'en-us': "Diving Swipe",
+				'fr-fr': "Rafle Plongeante",
+				'de-de': "Sturzklau",
+				'es-es': "Robo en Picado",
+				'pt-br': "Mergulho Furtivo",
+				'it-it': "Tuffata"
 			},
 
 			damage: 150,
 
 			effect: {
-				en: "Discard a random card from your opponent's hand.",
-				fr: "Défaussez au hasard une carte de la main de votre adversaire.",
-				de: "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel.",
-				es: "Descarta 1 carta aleatoria de la mano de tu rival.",
-				pt: "Descarte 1 carta aleatória da mão do seu oponente.",
-				it: "Scarta una carta a caso dalla mano del tuo avversario."
+				'en-us': "Discard a random card from your opponent's hand.",
+				'fr-fr': "Défaussez au hasard une carte de la main de votre adversaire.",
+				'de-de': "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel.",
+				'es-es': "Descarta 1 carta aleatoria de la mano de tu rival.",
+				'pt-br': "Descarte 1 carta aleatória da mão do seu oponente.",
+				'it-it': "Scarta una carta a caso dalla mano del tuo avversario."
 			},
 		},
 	],
@@ -91,12 +91,12 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		fr: "Dispareptil",
-		de: "Phandra",
-		es: "Drakloak",
-		pt: "Drakloak",
-		it: "Drakloak",
-		en: "Drakloak"
+		'fr-fr': "Dispareptil",
+		'de-de': "Phandra",
+		'es-es': "Drakloak",
+		'pt-br': "Drakloak",
+		'it-it': "Drakloak",
+		'en-us': "Drakloak"
 	},
 
 	retreat: 0,

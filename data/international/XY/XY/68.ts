@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Sableye",
-		fr: "Ténéfix",
-		es: "Sableye",
-		it: "Sableye",
-		pt: "Sableye",
-		de: "Zobiris"
+		'en-us': "Sableye",
+		'fr-fr': "Ténéfix",
+		'es-es': "Sableye",
+		'it-it': "Sableye",
+		'pt-br': "Sableye",
+		'de-de': "Zobiris"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Filch",
-				fr: "Maraudage",
-				es: "Birlar",
-				it: "Furtarello",
-				pt: "Furtar",
-				de: "Mopsen"
+				'en-us': "Filch",
+				'fr-fr': "Maraudage",
+				'es-es': "Birlar",
+				'it-it': "Furtarello",
+				'pt-br': "Furtar",
+				'de-de': "Mopsen"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez une carte.",
-				es: "Roba 1 carta.",
-				it: "Pesca una carta.",
-				pt: "Compre um card.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+				'es-es': "Roba 1 carta.",
+				'it-it': "Pesca una carta.",
+				'pt-br': "Compre um card.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rip Claw",
-				fr: "Griffe Déchirante",
-				es: "Garra Arrebatadora",
-				it: "Strappartiglio",
-				pt: "Garra Dilacerante",
-				de: "Reißklaue"
+				'en-us': "Rip Claw",
+				'fr-fr': "Griffe Déchirante",
+				'es-es': "Garra Arrebatadora",
+				'it-it': "Strappartiglio",
+				'pt-br': "Garra Dilacerante",
+				'de-de': "Reißklaue"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
-				es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía unida al Pokémon Activo de tu rival.",
-				it: "Lancia una moneta. Se esce testa, scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Jogue uma moeda. Se sair cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
-				de: "Wirf 1 Münze. Lege bei \"Kopf\" 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
+				'en-us': "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				'es-es': "Lanza 1 moneda. Si sale cara, descarta 1 Energía unida al Pokémon Activo de tu rival.",
+				'it-it': "Lancia una moneta. Se esce testa, scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Jogue uma moeda. Se sair cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
+				'de-de': "Wirf 1 Münze. Lege bei \"Kopf\" 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It hides in the darkness of caves. Its diet of gems has transformed its eyes into gemstones.",
+		'en-us': "It hides in the darkness of caves. Its diet of gems has transformed its eyes into gemstones.",
 	},
 
 	thirdParty: {

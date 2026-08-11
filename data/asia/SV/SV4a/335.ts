@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ピジョットex",
+		'ja-jp': "ピジョットex",
 		'zh-tw': "大比鳥ex",
-		id: "Pidgeot ex"
+		'id-id': "Pidgeot ex"
 	},
 
 	illustrator: "takuyoa",
@@ -21,15 +21,15 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "マッハサーチ",
+			'ja-jp': "マッハサーチ",
 			'zh-tw': "音速搜索",
-			id: "Mach Search"
+			'id-id': "Mach Search"
 		},
 
 		effect: {
-			ja: "自分の番に1回使える。自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。この番、すでに別の「マッハサーチ」を使っていたなら、この特性は使えない。",
+			'ja-jp': "自分の番に1回使える。自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。この番、すでに別の「マッハサーチ」を使っていたなら、この特性は使えない。",
 			'zh-tw': "在自己的回合時可使用1次。從自己的牌庫任意選擇1張卡加入手牌。並且重洗牌庫。在這個回合，若已經使出了其他的「音速搜索」，則這個特性無法使用。",
-			id: "Dapat digunakan 1 kali pada giliran sendiri. Pilih 1 kartu sesukanya dari Deck sendiri, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck. Jika pada giliran ini, Mach Search lainnya telah digunakan, Ability ini tidak dapat digunakan."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri. Pilih 1 kartu sesukanya dari Deck sendiri, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck. Jika pada giliran ini, Mach Search lainnya telah digunakan, Ability ini tidak dapat digunakan."
 		}
 	}],
 
@@ -37,17 +37,17 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ふきすさぶ",
+			'ja-jp': "ふきすさぶ",
 			'zh-tw': "狂風呼嘯",
-			id: "Angin Menderu"
+			'id-id': "Angin Menderu"
 		},
 
 		damage: 120,
 
 		effect: {
-			ja: "のぞむなら、場に出ているスタジアムをトラッシュする。",
+			'ja-jp': "のぞむなら、場に出ているスタジアムをトラッシュする。",
 			'zh-tw': "若希望，將場上的競技場卡丟棄。",
-			id: "Pemain dapat membuang Stadium yang ada di Arena ke Trash."
+			'id-id': "Pemain dapat membuang Stadium yang ada di Arena ke Trash."
 		}
 	}],
 

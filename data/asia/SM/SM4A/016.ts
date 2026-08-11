@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4A";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラライチュウ",
+		'ja-jp': "アローラライチュウ",
 	},
 
 	illustrator: "Akira Komayama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "アローラ地方 でのみ この姿に 進化する。 その要因の ひとつが 餌であると 研究家は 語る。",
+		'ja-jp': "アローラ地方 でのみ この姿に 進化する。 その要因の ひとつが 餌であると 研究家は 語る。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "サーフテール" },
 			effect: {
-				ja: "場にスタジアムが出ているなら、このポケモンのにげるためのエネルギーは、すべてなくなる。",
+				'ja-jp': "場にスタジアムが出ているなら、このポケモンのにげるためのエネルギーは、すべてなくなる。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "70+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数x20ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数x20ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ピカチュウ",
+		'ja-jp': "ピカチュウ",
 	},
 
 	retreat: 2,

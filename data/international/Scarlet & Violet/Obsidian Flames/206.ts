@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Vrombi",
-		en: "Varoom",
-		es: "Varoom",
-		it: "Varoom",
-		pt: "Varoom",
-		de: "Knattox"
+		'fr-fr': "Vrombi",
+		'en-us': "Varoom",
+		'es-es': "Varoom",
+		'it-it': "Varoom",
+		'pt-br': "Varoom",
+		'de-de': "Knattox"
 	},
 
 	rarity: "Illustration rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			fr: "Pioche Tournante",
-			en: "Spinning Draw",
-			es: "Robo Giratorio",
-			it: "Pesca Rotante",
-			pt: "Compra Giratória",
-			de: "Drehender Zug"
+			'fr-fr': "Pioche Tournante",
+			'en-us': "Spinning Draw",
+			'es-es': "Robo Giratorio",
+			'it-it': "Pesca Rotante",
+			'pt-br': "Compra Giratória",
+			'de-de': "Drehender Zug"
 		},
 
 		effect: {
-			fr: "Piochez une carte.",
-			en: "Draw a card.",
-			es: "Roba 1 carta.",
-			it: "Pesca una carta.",
-			pt: "Compre uma carta.",
-			de: "Ziehe 1 Karte."
+			'fr-fr': "Piochez une carte.",
+			'en-us': "Draw a card.",
+			'es-es': "Roba 1 carta.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre uma carta.",
+			'de-de': "Ziehe 1 Karte."
 		},
 
 		damage: 10
@@ -60,7 +60,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
+		'en-us': "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
 	},
 
 	variants: [

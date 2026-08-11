@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Zebstrika",
-		fr: "Zéblitz"
+		'en-us': "Zebstrika",
+		'fr-fr': "Zéblitz"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Blitzle"
+		'en-us': "Blitzle"
 	},
 
 	description: {
-		en: "When this ill-tempered Pokémon runs wild, it\nshoots lightning from its mane in all directions.",
-		fr: "De caractère violent, il envoie avec sa crinière des arcs électriques de tous les côtés lorsqu'il se sent provoqué."
+		'en-us': "When this ill-tempered Pokémon runs wild, it\nshoots lightning from its mane in all directions.",
+		'fr-fr': "De caractère violent, il envoie avec sa crinière des arcs électriques de tous les côtés lorsqu'il se sent provoqué."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Head Bolt",
-			fr: "Éclair Frontal"
+			'en-us': "Head Bolt",
+			'fr-fr': "Éclair Frontal"
 		},
 
 		damage: 70,

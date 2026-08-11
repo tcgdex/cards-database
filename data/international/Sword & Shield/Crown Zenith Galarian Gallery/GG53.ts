@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith Galarian Gallery"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hoopa V",
-		fr: "Hoopa V",
-		es: "Hoopa V",
-		it: "Hoopa V",
-		pt: "Hoopa V",
-		de: "Hoopa V"
+		'en-us': "Hoopa V",
+		'fr-fr': "Hoopa V",
+		'es-es': "Hoopa V",
+		'it-it': "Hoopa V",
+		'pt-br': "Hoopa V",
+		'de-de': "Hoopa V"
 	},
 
 	illustrator: "OKACHEKE",
@@ -26,21 +26,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Two-Faced",
-			fr: "Deux Visages",
-			es: "Dos Rostros",
-			it: "Doppio Viso",
-			pt: "Duas Caras",
-			de: "Doppelgesichtig"
+			'en-us': "Two-Faced",
+			'fr-fr': "Deux Visages",
+			'es-es': "Dos Rostros",
+			'it-it': "Doppio Viso",
+			'pt-br': "Duas Caras",
+			'de-de': "Doppelgesichtig"
 		},
 
 		effect: {
-			en: "As long as this Pokémon is in play, it is Psychic and Darkness type.",
-			fr: "Tant que ce Pokémon est en jeu, il est de type Psychic et Darkness.",
-			es: "Mientras este Pokémon esté en juego, es de tipo Psychic y Darkness.",
-			it: "Fintanto che questo Pokémon è in gioco, è di tipo Psychic e Darkness.",
-			pt: "Enquanto este Pokémon estiver em jogo, será um Pokémon de tipo Psychic e Darkness.",
-			de: "Solange dieses Pokémon im Spiel ist, ist es vom Typ Psychic und Darkness."
+			'en-us': "As long as this Pokémon is in play, it is Psychic and Darkness type.",
+			'fr-fr': "Tant que ce Pokémon est en jeu, il est de type Psychic et Darkness.",
+			'es-es': "Mientras este Pokémon esté en juego, es de tipo Psychic y Darkness.",
+			'it-it': "Fintanto che questo Pokémon è in gioco, è di tipo Psychic e Darkness.",
+			'pt-br': "Enquanto este Pokémon estiver em jogo, será um Pokémon de tipo Psychic e Darkness.",
+			'de-de': "Solange dieses Pokémon im Spiel ist, ist es vom Typ Psychic und Darkness."
 		}
 	}],
 
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		name: {
-			en: "Shadow Impact",
-			fr: "Impact Lugubre",
-			es: "Impacto Sombra",
-			it: "Impatto Ombra",
-			pt: "Impacto Sombrio",
-			de: "Schatteneinschlag"
+			'en-us': "Shadow Impact",
+			'fr-fr': "Impact Lugubre",
+			'es-es': "Impacto Sombra",
+			'it-it': "Impatto Ombra",
+			'pt-br': "Impacto Sombrio",
+			'de-de': "Schatteneinschlag"
 		},
 
 		effect: {
-			en: "Put 3 damage counters on 1 of your Pokémon.",
-			fr: "Placez 3 marqueurs de dégâts sur l'un de vos Pokémon.",
-			es: "Pon 3 contadores de daño en 1 de tus Pokémon.",
-			it: "Metti tre segnalini danno su uno dei tuoi Pokémon.",
-			pt: "Coloque 3 contadores de dano em 1 dos seus Pokémon.",
-			de: "Lege 3 Schadensmarken auf 1 deiner Pokémon."
+			'en-us': "Put 3 damage counters on 1 of your Pokémon.",
+			'fr-fr': "Placez 3 marqueurs de dégâts sur l'un de vos Pokémon.",
+			'es-es': "Pon 3 contadores de daño en 1 de tus Pokémon.",
+			'it-it': "Metti tre segnalini danno su uno dei tuoi Pokémon.",
+			'pt-br': "Coloque 3 contadores de dano em 1 dos seus Pokémon.",
+			'de-de': "Lege 3 Schadensmarken auf 1 deiner Pokémon."
 		},
 
 		damage: 170

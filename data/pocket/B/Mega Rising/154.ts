@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Darkrai"
+		'en-us': "Darkrai"
 	},
 
 	illustrator: "Uta",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "It can lull people to sleep and make them dream.\nIt is active during nights of the new moon."
+		'en-us': "It can lull people to sleep and make them dream.\nIt is active during nights of the new moon."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Shadow Cage"
+			'en-us': "Shadow Cage"
 		},
 
 		damage: 70,
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		effect: {
-			en: "During your opponent's next turn, the Defending Pokémon can't retreat."
+			'en-us': "During your opponent's next turn, the Defending Pokémon can't retreat."
 		}
 	}],
 

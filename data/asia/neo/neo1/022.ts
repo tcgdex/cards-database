@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグビー",
+		'ja-jp': "マグビー",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "スパッタ",
+				'ja-jp': "スパッタ",
 			},
 			effect: {
-				ja: "すべてのポケモンパワーは、次のターンの終わりまで機能しなくなります。",
+				'ja-jp': "すべてのポケモンパワーは、次のターンの終わりまで機能しなくなります。",
 			},
 			damage: 10,
 		},

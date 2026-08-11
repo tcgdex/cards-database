@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "M Houndoom EX",
-		fr: "M-Démolosse EX",
-		es: "M-Houndoom EX",
-		it: "M Houndoom EX",
-		pt: "M-Houndoom EX",
-		de: "M-Hundemon EX"
+		'en-us': "M Houndoom EX",
+		'fr-fr': "M-Démolosse EX",
+		'es-es': "M-Houndoom EX",
+		'it-it': "M Houndoom EX",
+		'pt-br': "M-Houndoom EX",
+		'de-de': "M-Hundemon EX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Houndoom-EX",
-		fr: "Démolosse-EX",
-		es: "Houndoom-EX",
-		it: "Houndoom-EX",
-		pt: "Houndoom-EX",
-		de: "Hundemon-EX"
+		'en-us': "Houndoom-EX",
+		'fr-fr': "Démolosse-EX",
+		'es-es': "Houndoom-EX",
+		'it-it': "Houndoom-EX",
+		'pt-br': "Houndoom-EX",
+		'de-de': "Hundemon-EX"
 	},
 
 	stage: "MEGA",
@@ -44,20 +44,20 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Inferno Fang",
-				fr: "Croc Infernal",
-				es: "Colmillo Infernal",
-				it: "Zanne Infernali",
-				pt: "Presa do Inferno",
-				de: "Inferno-Reißzahn"
+				'en-us': "Inferno Fang",
+				'fr-fr': "Croc Infernal",
+				'es-es': "Colmillo Infernal",
+				'it-it': "Zanne Infernali",
+				'pt-br': "Presa do Inferno",
+				'de-de': "Inferno-Reißzahn"
 			},
 			effect: {
-				en: "You may discard all Fire Energy attached to this Pokémon. If you do, this attack does 80 more damage.",
-				fr: "Vous pouvez défausser toutes les Énergies Fire attachées à ce Pokémon. Dans ce cas, cette attaque inflige 80 dégâts supplémentaires.",
-				es: "Puedes descartar todas las Energías Fire unidas a este Pokémon. Si lo haces, este ataque hace 80 puntos de daño más.",
-				it: "Puoi scartare tutte le Energie Fire assegnate a questo Pokémon. Se lo fai, questo attacco infligge 80 danni in più.",
-				pt: "Você pode descartar toda a Energia Fire ligada a este Pokémon. Se fizer isso, este ataque causará 80 de danos adicionais.",
-				de: "Du kannst alle an dieses Pokémon angelegten Fire-Energien auf deinen Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 80 weitere Schadenspunkte zu."
+				'en-us': "You may discard all Fire Energy attached to this Pokémon. If you do, this attack does 80 more damage.",
+				'fr-fr': "Vous pouvez défausser toutes les Énergies Fire attachées à ce Pokémon. Dans ce cas, cette attaque inflige 80 dégâts supplémentaires.",
+				'es-es': "Puedes descartar todas las Energías Fire unidas a este Pokémon. Si lo haces, este ataque hace 80 puntos de daño más.",
+				'it-it': "Puoi scartare tutte le Energie Fire assegnate a questo Pokémon. Se lo fai, questo attacco infligge 80 danni in più.",
+				'pt-br': "Você pode descartar toda a Energia Fire ligada a este Pokémon. Se fizer isso, este ataque causará 80 de danos adicionais.",
+				'de-de': "Du kannst alle an dieses Pokémon angelegten Fire-Energien auf deinen Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 80 weitere Schadenspunkte zu."
 			},
 			damage: "80+",
 

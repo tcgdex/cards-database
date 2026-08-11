@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Ho-Oh-GX",
-		fr: "Ho-Oh-GX",
+		'en-us': "Ho-Oh-GX",
+		'fr-fr': "Ho-Oh-GX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Shiny rare",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sacred Fire",
-				fr: "Feu Sacré",
+				'en-us': "Sacred Fire",
+				'fr-fr': "Feu Sacré",
 			},
 			effect: {
-				en: "This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 50 dégâts à l’un des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'en-us': "This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 50 dégâts à l’un des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 
 		},
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Phoenix Burn",
-				fr: "Éclat du Phénix",
+				'en-us': "Phoenix Burn",
+				'fr-fr': "Éclat du Phénix",
 			},
 			effect: {
-				en: "This Pokémon can't use Phoenix Burn during your next turn.",
-				fr: "Ce Pokémon ne peut pas utiliser Éclat du Phénix pendant votre prochain tour.",
+				'en-us': "This Pokémon can't use Phoenix Burn during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Éclat du Phénix pendant votre prochain tour.",
 			},
 			damage: 180,
 
@@ -64,12 +64,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Eternal Flame-GX",
-				fr: "Flamme Éternelle-GX",
+				'en-us': "Eternal Flame-GX",
+				'fr-fr': "Flamme Éternelle-GX",
 			},
 			effect: {
-				en: "Put 3 in any combination of Fire Pokémon-GX or Fire Pokémon-EX from your discard pile onto your Bench. (You can't use more than 1 GX attack in a game.)",
-				fr: "Ajoutez de votre pile de défausse à votre Banc une combinaison de 3 cartes choisies parmi des Pokémon-GX Fire et des Pokémon-EX Fire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'en-us': "Put 3 in any combination of Fire Pokémon-GX or Fire Pokémon-EX from your discard pile onto your Bench. (You can't use more than 1 GX attack in a game.)",
+				'fr-fr': "Ajoutez de votre pile de défausse à votre Banc une combinaison de 3 cartes choisies parmi des Pokémon-GX Fire et des Pokémon-EX Fire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 
 		},

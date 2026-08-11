@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラティアス",
+		'ja-jp': "ラティアス",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "むげんのおもい" },
 			cost: ["Fire"],
 			effect: {
-				ja: "自分の山札を1枚引く。自分のベンチに「ラティオス」がいるなら、さらに1枚引く。",
+				'ja-jp': "自分の山札を1枚引く。自分のベンチに「ラティオス」がいるなら、さらに1枚引く。",
 			},
 		},
 		{

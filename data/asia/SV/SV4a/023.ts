@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "クエスパトラex",
+		'ja-jp': "クエスパトラex",
 		'zh-tw': "超能豔鴕ex",
-		th: "เควสพัตราex",
-		id: "Espathra ex"
+		'th-th': "เควสพัตราex",
+		'id-id': "Espathra ex"
 	},
 
 	illustrator: "takuyoa",
@@ -23,17 +23,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "まばゆいしせん",
+			'ja-jp': "まばゆいしせん",
 			'zh-tw': "奪目視線",
-			th: "สายตาพร่างพราว",
-			id: "Pandangan Menyilaukan"
+			'th-th': "สายตาพร่างพราว",
+			'id-id': "Pandangan Menyilaukan"
 		},
 
 		effect: {
-			ja: "このポケモンがバトル場にいるかぎり、相手のバトルポケモンは、ワザを使うためのエネルギーが、エネルギー1個ぶん多くなる。",
+			'ja-jp': "このポケモンがバトル場にいるかぎり、相手のバトルポケモンは、ワザを使うためのエネルギーが、エネルギー1個ぶん多くなる。",
 			'zh-tw': "只要這隻寶可夢在戰鬥場上，對手的戰鬥寶可夢使用招式所需的能量增加1個【無】能量。",
-			th: "ตราบใดที่โปเกมอนนี้ยังอยู่บนตำแหน่งต่อสู้ โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม พลังงานสำหรับใช้ท่าต่อสู้ จะใช้พลังงาน[ไร้สี]เพิ่มขึ้น 1 ลูก",
-			id: "Selama Pokémon ini ada di Arena Bertarung, Energi yang dibutuhkan oleh Pokémon Bertarung lawan untuk menggunakan serangan bertambah 1 Energi {Bening}."
+			'th-th': "ตราบใดที่โปเกมอนนี้ยังอยู่บนตำแหน่งต่อสู้ โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม พลังงานสำหรับใช้ท่าต่อสู้ จะใช้พลังงาน[ไร้สี]เพิ่มขึ้น 1 ลูก",
+			'id-id': "Selama Pokémon ini ada di Arena Bertarung, Energi yang dibutuhkan oleh Pokémon Bertarung lawan untuk menggunakan serangan bertambah 1 Energi {Bening}."
 		}
 	}],
 
@@ -41,19 +41,19 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "サイコボール",
+			'ja-jp': "サイコボール",
 			'zh-tw': "精神球",
-			th: "ไซโคบอล",
-			id: "Psychoball"
+			'th-th': "ไซโคบอล",
+			'id-id': "Psychoball"
 		},
 
 		damage: "30+",
 
 		effect: {
-			ja: "おたがいのバトルポケモンについているエネルギーの数×30ダメージ追加。",
+			'ja-jp': "おたがいのバトルポケモンについているエネルギーの数×30ダメージ追加。",
 			'zh-tw': "增加雙方的戰鬥寶可夢身上附加的能量的數量×30點傷害。",
-			th: "แดเมจจะเพิ่มตามจำนวนพลังงานที่ติดอยู่กับโปเกมอนบนตำแหน่งต่อสู้ของทั้งสองฝ่าย x30",
-			id: "Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap Energi yang dikenakan pada Pokémon Bertarung kedua pemain."
+			'th-th': "แดเมจจะเพิ่มตามจำนวนพลังงานที่ติดอยู่กับโปเกมอนบนตำแหน่งต่อสู้ของทั้งสองฝ่าย x30",
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap Energi yang dikenakan pada Pokémon Bertarung kedua pemain."
 		}
 	}],
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Victini",
-		fr: "Victini",
-		es: "Victini",
-		it: "Victini",
-		pt: "Victini",
-		de: "Victini"
+		'en-us': "Victini",
+		'fr-fr': "Victini",
+		'es-es': "Victini",
+		'it-it': "Victini",
+		'pt-br': "Victini",
+		'de-de': "Victini"
 	},
 
 	illustrator: "Naoki Saito",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "V-create",
-				fr: "Coup Victoire",
+				'en-us': "V-create",
+				'fr-fr': "Coup Victoire",
 			},
 			effect: {
-				en: "If you have 4 or fewer Benched Pokémon, this attack does nothing.",
-				fr: "Si vous avez 4 Pokémon de Banc ou moins, cette attaque ne fait rien.",
+				'en-us': "If you have 4 or fewer Benched Pokémon, this attack does nothing.",
+				'fr-fr': "Si vous avez 4 Pokémon de Banc ou moins, cette attaque ne fait rien.",
 			},
 			damage: 100,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
+		'en-us': "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
 	},
 
 	thirdParty: {

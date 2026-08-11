@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Hitmonchan",
-		fr: "Tygnon",
-		de: "Nockchan"
+		'en-us': "Hitmonchan",
+		'fr-fr': "Tygnon",
+		'de-de': "Nockchan"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Dodge",
-				fr: "Esquive",
-				de: "Dodge"
+				'en-us': "Dodge",
+				'fr-fr': "Esquive",
+				'de-de': "Dodge"
 			},
 			effect: {
-				en: "If Hitmonchan would be damaged by an attack during your opponent's next turn, flip a coin. If heads, prevent that attack's damage done to Hitmonchan. (Any other effects of attacks still happen.)",
-				fr: "Si une attaque doit infliger des dégâts à Tygnon pendant le prochain tour de votre adversaire, lancez une pièce. Si c'est face, prévenez les dégâts infligés à Tygnon par cette attaque. (Tous les autres effets dus à des attaques subsistent.)",
-				de: "If Hitmonchan would be damaged by an attack during your opponent's next turn, flip a coin. If heads, prevent that attack's damage done to Hitmonchan. (Any other effects of attacks still happen.)"
+				'en-us': "If Hitmonchan would be damaged by an attack during your opponent's next turn, flip a coin. If heads, prevent that attack's damage done to Hitmonchan. (Any other effects of attacks still happen.)",
+				'fr-fr': "Si une attaque doit infliger des dégâts à Tygnon pendant le prochain tour de votre adversaire, lancez une pièce. Si c'est face, prévenez les dégâts infligés à Tygnon par cette attaque. (Tous les autres effets dus à des attaques subsistent.)",
+				'de-de': "If Hitmonchan would be damaged by an attack during your opponent's next turn, flip a coin. If heads, prevent that attack's damage done to Hitmonchan. (Any other effects of attacks still happen.)"
 			},
 
 		},
@@ -49,9 +49,9 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Supersonic Jab",
-				fr: "Punch ultrason",
-				de: "Supersonic Jab"
+				'en-us': "Supersonic Jab",
+				'fr-fr': "Punch ultrason",
+				'de-de': "Supersonic Jab"
 			},
 
 			damage: 40,
@@ -69,8 +69,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its punches are blindingly fast, but it can only fight for three minutes before tiring and needing to rest.",
-		fr: "Ses coups sont super rapides, mais il ne peut se battre que pendant trois minutes avant qu'il ne soit fatigué et qu'il ne soit obligé de se reposer."
+		'en-us': "Its punches are blindingly fast, but it can only fight for three minutes before tiring and needing to rest.",
+		'fr-fr': "Ses coups sont super rapides, mais il ne peut se battre que pendant trois minutes avant qu'il ne soit fatigué et qu'il ne soit obligé de se reposer."
 	},
 
 

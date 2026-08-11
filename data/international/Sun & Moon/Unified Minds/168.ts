@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Slakoth",
-		fr: "Parecool",
-		es: "Slakoth",
-		it: "Slakoth",
-		pt: "Slakoth",
-		de: "Bummelz"
+		'en-us': "Slakoth",
+		'fr-fr': "Parecool",
+		'es-es': "Slakoth",
+		'it-it': "Slakoth",
+		'pt-br': "Slakoth",
+		'de-de': "Bummelz"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				es: "Arañazo",
-				it: "Graffio",
-				pt: "Arranhão",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'es-es': "Arañazo",
+				'it-it': "Graffio",
+				'pt-br': "Arranhão",
+				'de-de': "Kratzer"
 			},
 
 			damage: 30,
@@ -53,20 +53,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Boundless Power",
-				fr: "Puissance Illimitée",
-				es: "Poder Ilimitado",
-				it: "Potere Incontenibile",
-				pt: "Poder Ilimitado",
-				de: "Unbegrenzte Kraft"
+				'en-us': "Boundless Power",
+				'fr-fr': "Puissance Illimitée",
+				'es-es': "Poder Ilimitado",
+				'it-it': "Potere Incontenibile",
+				'pt-br': "Poder Ilimitado",
+				'de-de': "Unbegrenzte Kraft"
 			},
 			effect: {
-				en: "This Pokémon can’t attack during your next turn.",
-				fr: "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
-				es: "Este Pokémon no puede atacar durante tu próximo turno.",
-				it: "Questo Pokémon non può attaccare durante il tuo prossimo turno.",
-				pt: "Este Pokémon não poderá atacar durante a sua próxima vez de jogar.",
-				de: "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
+				'en-us': "This Pokémon can’t attack during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				'es-es': "Este Pokémon no puede atacar durante tu próximo turno.",
+				'it-it': "Questo Pokémon non può attaccare durante il tuo prossimo turno.",
+				'pt-br': "Este Pokémon não poderá atacar durante a sua próxima vez de jogar.",
+				'de-de': "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
 			},
 			damage: 60,
 
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "The way Slakoth lolls around makes anyone who watches it feel like doing the same.",
+		'en-us': "The way Slakoth lolls around makes anyone who watches it feel like doing the same.",
 	},
 
 	thirdParty: {

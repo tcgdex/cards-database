@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナツメのケーシィ",
+		'ja-jp': "ナツメのケーシィ",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "エネルギーループ",
+				'ja-jp': "エネルギーループ",
 			},
 			effect: {
-				ja: "この攻撃を使用するために、サブリナのアブラに取り付けられたサイキックエネルギーカードを手に返してください。",
+				'ja-jp': "この攻撃を使用するために、サブリナのアブラに取り付けられたサイキックエネルギーカードを手に返してください。",
 			},
 			damage: 20,
 		},

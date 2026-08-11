@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Majesty'
 
 const card: Card = {
 	name: {
-		en: "Croconaw",
-		fr: "Crocrodil",
-		es: "Croconaw",
-		it: "Croconaw",
-		pt: "Croconaw",
-		de: "Tyracroc"
+		'en-us': "Croconaw",
+		'fr-fr': "Crocrodil",
+		'es-es': "Croconaw",
+		'it-it': "Croconaw",
+		'pt-br': "Croconaw",
+		'de-de': "Tyracroc"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Totodile",
-		fr: "Kaiminus",
+		'en-us': "Totodile",
+		'fr-fr': "Kaiminus",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 30,
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sweep Away",
-				fr: "Nettoyage",
-				es: "Barrido",
-				it: "Spazzare Via",
-				pt: "Eliminação",
-				de: "Wegfegen"
+				'en-us': "Sweep Away",
+				'fr-fr': "Nettoyage",
+				'es-es': "Barrido",
+				'it-it': "Spazzare Via",
+				'pt-br': "Eliminação",
+				'de-de': "Wegfegen"
 			},
 			effect: {
-				en: "Discard the top 3 cards of your deck.",
-				fr: "Défaussez les 3 cartes du dessus de votre deck.",
-				es: "Descarta las 3 primeras cartas de tu baraja.",
-				it: "Scarta le prime tre carte del tuo mazzo.",
-				pt: "Descarte as 3 primeiras cartas do seu baralho.",
-				de: "Lege die obersten 3 Karten deines Decks auf deinen Ablagestapel."
+				'en-us': "Discard the top 3 cards of your deck.",
+				'fr-fr': "Défaussez les 3 cartes du dessus de votre deck.",
+				'es-es': "Descarta las 3 primeras cartas de tu baraja.",
+				'it-it': "Scarta le prime tre carte del tuo mazzo.",
+				'pt-br': "Descarte as 3 primeiras cartas do seu baralho.",
+				'de-de': "Lege die obersten 3 Karten deines Decks auf deinen Ablagestapel."
 			},
 			damage: 90,
 
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Once it bites down, it won't let go until it loses its fangs. New fangs quickly grow into place.",
+		'en-us': "Once it bites down, it won't let go until it loses its fangs. New fangs quickly grow into place.",
 	},
 
 	thirdParty: {

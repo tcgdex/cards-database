@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "小箭雀",
 		'zh-cn': "小箭雀",
-		ja: "ヤヤコマ"
+		'ja-jp': "ヤヤコマ"
 	},
 
 	illustrator: "Teeziro",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "在山野中和街上生活。 曾為了與怒鸚哥爭地盤， 而在街上展開了大混戰。",
 		'zh-cn': "在山野中和街上生活。 曾為了與怒鸚哥爭地盤， 而在街上展開了大混戰。",
-		ja: "野山や 街中で 生活する。 イキリンコと 縄張りを 争い 街中で 大乱闘になった。"
+		'ja-jp': "野山や 街中で 生活する。 イキリンコと 縄張りを 争い 街中で 大乱闘になった。"
 	},
 
 	stage: "Basic",
@@ -27,13 +27,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "送回",
 			'zh-cn': "送回",
-			ja: "つきかえす"
+			'ja-jp': "つきかえす"
 		},
 
 		effect: {
 			'zh-tw': "將對手的戰鬥寶可夢與備戰寶可夢互換。[由對手選擇放置於戰鬥場的寶可夢。]",
 			'zh-cn': "將對手的戰鬥寶可夢與備戰寶可夢互換。[由對手選擇放置於戰鬥場的寶可夢。]",
-			ja: "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］"
+			'ja-jp': "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］"
 		},
 
 		damage: 10,

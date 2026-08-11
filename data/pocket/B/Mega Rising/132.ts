@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Krookodile"
+		'en-us': "Krookodile"
 	},
 
 	illustrator: "Shiburingaru",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Krokorok"
+		'en-us': "Krokorok"
 	},
 
 	description: {
-		en: "Its unique faculty of sight can detect small prey\nmore than 30 miles away, even in the midst of\na sandstorm."
+		'en-us': "Its unique faculty of sight can detect small prey\nmore than 30 miles away, even in the midst of\na sandstorm."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Chomp Chomp Bite"
+			'en-us': "Chomp Chomp Bite"
 		},
 
 		damage: 90,
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		effect: {
-			en: "Flip a coin until you get tails. For each heads, discard a random Energy from your opponent's Active Pokémon."
+			'en-us': "Flip a coin until you get tails. For each heads, discard a random Energy from your opponent's Active Pokémon."
 		}
 	}],
 

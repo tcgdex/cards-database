@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Durant"
+		'id-id': "Durant"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Rahang besar Durant mampu melumatkan batu besar sekalipun. Bertarung secara berkelompok untuk melindungi telurnya dari Sandaconda."
+		'id-id': "Rahang besar Durant mampu melumatkan batu besar sekalipun. Bertarung secara berkelompok untuk melindungi telurnya dari Sandaconda."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Kemarahan Menggerombol"
+			'id-id': "Kemarahan Menggerombol"
 		},
 
 		effect: {
-			id: "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap Token Kerusakan yang dimiliki semua Durant di Arena sendiri."
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap Token Kerusakan yang dimiliki semua Durant di Arena sendiri."
 		},
 
 		damage: "20×",
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Hard Scissor"
+			'id-id': "Hard Scissor"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 20."
+			'id-id': "Pada giliran lawan berikutnya, kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 20."
 		},
 
 		damage: 80,

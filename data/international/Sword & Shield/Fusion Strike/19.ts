@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dewpider",
-		fr: "Araqua",
-		es: "Dewpider",
-		it: "Dewpider",
-		pt: "Dewpider",
-		de: "Araqua"
+		'en-us': "Dewpider",
+		'fr-fr': "Araqua",
+		'es-es': "Dewpider",
+		'it-it': "Dewpider",
+		'pt-br': "Dewpider",
+		'de-de': "Araqua"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Miki Tanaka",
 
 	description: {
-		en: "Dewpider normally lives underwater. When it comes onto land in search of food, it takes water with it in the form of a bubble on its head."
+		'en-us': "Dewpider normally lives underwater. When it comes onto land in search of food, it takes water with it in the form of a bubble on its head."
 	},
 
 	attacks: [{
 		cost: ["Grass"],
 
 		name: {
-			en: "Bug Bite",
-			fr: "Piqûre",
-			de: "Käferbiss",
-			es: "Picadura",
-			pt: "Picada",
-			it: "Coleomorso"
+			'en-us': "Bug Bite",
+			'fr-fr': "Piqûre",
+			'de-de': "Käferbiss",
+			'es-es': "Picadura",
+			'pt-br': "Picada",
+			'it-it': "Coleomorso"
 		},
 
 		damage: 20

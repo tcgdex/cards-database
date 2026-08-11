@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Rockruff"
+		'id-id': "Rockruff"
 	},
 
 	illustrator: "Jerky",
@@ -14,14 +14,14 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Rockruff sangat jinak saat masih kecil. Meskipun tumbuh menjadi kasar, Pokémon ini tidak pernah melupakan kebaikan pemiliknya."
+		'id-id': "Rockruff sangat jinak saat masih kecil. Meskipun tumbuh menjadi kasar, Pokémon ini tidak pernah melupakan kebaikan pemiliknya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menggigit"
+			'id-id': "Menggigit"
 		},
 
 		damage: 20,

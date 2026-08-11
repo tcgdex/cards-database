@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Aggron",
-		fr: "Galeking",
-		es: "Aggron",
-		it: "Aggron",
-		pt: "Aggron",
-		de: "Stolloss"
+		'en-us': "Aggron",
+		'fr-fr': "Galeking",
+		'es-es': "Aggron",
+		'it-it': "Aggron",
+		'pt-br': "Aggron",
+		'de-de': "Stolloss"
 	},
 
 	illustrator: "Yoshinobu Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Lairon",
-		fr: "Galegon",
+		'en-us': "Lairon",
+		'fr-fr': "Galegon",
 	},
 
 	stage: "Stage2",
@@ -41,20 +41,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Revenge Cannon",
-				fr: "Canon Talion",
-				es: "Cañón Venganza",
-				it: "Cannonvendetta",
-				pt: "Canhão da Vingança",
-				de: "Konterkanone"
+				'en-us': "Revenge Cannon",
+				'fr-fr': "Canon Talion",
+				'es-es': "Cañón Venganza",
+				'it-it': "Cannonvendetta",
+				'pt-br': "Canhão da Vingança",
+				'de-de': "Konterkanone"
 			},
 			effect: {
-				en: "This attack does 10 more damage for each damage counter on all of your Benched Pokémon.",
-				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur vos Pokémon de Banc.",
-				es: "Este ataque hace 10 puntos de daño más por cada contador de daño en todos tus Pokémon en Banca.",
-				it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente sui tuoi Pokémon in panchina.",
-				pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano em todos os seus Pokémon no Banco.",
-				de: "Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der Schadensmarken auf allen Pokémon auf deiner Bank zu."
+				'en-us': "This attack does 10 more damage for each damage counter on all of your Benched Pokémon.",
+				'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur vos Pokémon de Banc.",
+				'es-es': "Este ataque hace 10 puntos de daño más por cada contador de daño en todos tus Pokémon en Banca.",
+				'it-it': "Questo attacco infligge 10 danni in più per ogni segnalino danno presente sui tuoi Pokémon in panchina.",
+				'pt-br': "Este ataque causa 10 pontos de dano a mais para cada contador de dano em todos os seus Pokémon no Banco.",
+				'de-de': "Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der Schadensmarken auf allen Pokémon auf deiner Bank zu."
 			},
 			damage: "10+",
 
@@ -67,20 +67,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Buster Swing",
-				fr: "Repoussoir",
-				es: "Golpe Destructor",
-				it: "Colpaccio",
-				pt: "Gingado",
-				de: "Widerstandsbrecher"
+				'en-us': "Buster Swing",
+				'fr-fr': "Repoussoir",
+				'es-es': "Golpe Destructor",
+				'it-it': "Colpaccio",
+				'pt-br': "Gingado",
+				'de-de': "Widerstandsbrecher"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
-				es: "El daño de este ataque no se ve afectado por Resistencia.",
-				it: "I danni di questo attacco non sono influenzati dalla resistenza.",
-				pt: "O dano deste ataque não é afetado por Resistência.",
-				de: "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
+				'en-us': "This attack’s damage isn’t affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'es-es': "El daño de este ataque no se ve afectado por Resistencia.",
+				'it-it': "I danni di questo attacco non sono influenzati dalla resistenza.",
+				'pt-br': "O dano deste ataque não é afetado por Resistência.",
+				'de-de': "Der Schaden dieser Attacke wird durch Resistenz nicht verändert."
 			},
 			damage: 120,
 
@@ -104,7 +104,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It claims an entire mountain as its own. The more wounds it has, the more it has battled, so don't take it lightly.",
+		'en-us': "It claims an entire mountain as its own. The more wounds it has, the more it has battled, so don't take it lightly.",
 	},
 
 	thirdParty: {

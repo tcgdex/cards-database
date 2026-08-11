@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Miltank"
+		'id-id': "Miltank"
 	},
 
 	illustrator: "sowsow",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		id: "Kondisi Miltank memburuk jika susunya tidak diperah setiap hari. Rasa susu berubah berdasarkan musim."
+		'id-id': "Kondisi Miltank memburuk jika susunya tidak diperah setiap hari. Rasa susu berubah berdasarkan musim."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Serudukan Penuh Semangat"
+			'id-id': "Serudukan Penuh Semangat"
 		},
 
 		effect: {
-			id: "Jika pada giliran ini, HP Pokémon ini dipulihkan, kerusakan yang diberikan bertambah sejumlah 90."
+			'id-id': "Jika pada giliran ini, HP Pokémon ini dipulihkan, kerusakan yang diberikan bertambah sejumlah 90."
 		},
 
 		damage: "60+",

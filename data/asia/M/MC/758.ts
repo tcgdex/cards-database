@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マッギョex",
+		'ja-jp': "マッギョex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Fighting"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにダメカンがのっているなら、100ダメージ追加。",
+				'ja-jp': "このポケモンにダメカンがのっているなら、100ダメージ追加。",
 			},
 		},
 	],

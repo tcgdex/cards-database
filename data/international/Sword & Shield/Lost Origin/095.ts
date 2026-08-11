@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gligar",
-		fr: "Scorplane",
-		es: "Gligar",
-		it: "Gligar",
-		pt: "Gligar",
-		de: "Skorgla"
+		'en-us': "Gligar",
+		'fr-fr': "Scorplane",
+		'es-es': "Gligar",
+		'it-it': "Gligar",
+		'pt-br': "Gligar",
+		'de-de': "Skorgla"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Cyclone Pincers",
-			fr: "Pinces Cyclone",
-			es: "Pinzas Ciclón",
-			it: "Chele Cicloniche",
-			pt: "Pinças de Ciclone",
-			de: "Kneiferwirbel"
+			'en-us': "Cyclone Pincers",
+			'fr-fr': "Pinces Cyclone",
+			'es-es': "Pinzas Ciclón",
+			'it-it': "Chele Cicloniche",
+			'pt-br': "Pinças de Ciclone",
+			'de-de': "Kneiferwirbel"
 		},
 
 		effect: {
-			en: "Flip 4 coins. This attack does 10 damage for each heads.",
-			fr: "Lancez 4 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
-			es: "Lanza 4 monedas. Este ataque hace 10 puntos de daño por cada cara.",
-			it: "Lancia quattro volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
-			pt: "Jogue 4 moedas. Este ataque causa 10 pontos de dano para cada cara.",
-			de: "Wirf 4 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip 4 coins. This attack does 10 damage for each heads.",
+			'fr-fr': "Lancez 4 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
+			'es-es': "Lanza 4 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+			'it-it': "Lancia quattro volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 4 moedas. Este ataque causa 10 pontos de dano para cada cara.",
+			'de-de': "Wirf 4 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "10×"

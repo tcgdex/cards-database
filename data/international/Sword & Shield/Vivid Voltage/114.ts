@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [205],
 
 	name: {
-		en: "Forretress",
-		fr: "Foretress",
-		es: "Forretress",
-		it: "Forretress",
-		pt: "Forretress",
-		de: "Forstellka"
+		'en-us': "Forretress",
+		'fr-fr': "Foretress",
+		'es-es': "Forretress",
+		'it-it': "Forretress",
+		'pt-br': "Forretress",
+		'de-de': "Forstellka"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pineco",
-		fr: "Pomdepik",
-		es: "Pineco",
-		it: "Pineco",
-		pt: "Pineco",
-		de: "Tannza"
+		'en-us': "Pineco",
+		'fr-fr': "Pomdepik",
+		'es-es': "Pineco",
+		'it-it': "Pineco",
+		'pt-br': "Pineco",
+		'de-de': "Tannza"
 	},
 
 	attacks: [
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				es: "Derribo",
-				it: "Riduttore",
-				pt: "Desmantelar",
-				de: "Bodycheck"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'es-es': "Derribo",
+				'it-it': "Riduttore",
+				'pt-br': "Desmantelar",
+				'de-de': "Bodycheck"
 			},
 			effect: {
-				en: "This Pokémon also does 30 damage to itself.",
-				fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-				es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-				pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-				de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+				'en-us': "This Pokémon also does 30 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+				'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+				'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+				'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 			},
 			damage: 120,
 
@@ -66,20 +66,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double KO",
-				fr: "Double K.O.",
-				es: "Doble Noqueo",
-				it: "Doppio KO",
-				pt: "Abate Duplo",
-				de: "Doppel-K.-o."
+				'en-us': "Double KO",
+				'fr-fr': "Double K.O.",
+				'es-es': "Doble Noqueo",
+				'it-it': "Doppio KO",
+				'pt-br': "Abate Duplo",
+				'de-de': "Doppel-K.-o."
 			},
 			effect: {
-				en: "Both Active Pokémon are Knocked Out.",
-				fr: "Les deux Pokémon Actifs sont mis K.O.",
-				es: "Ambos Pokémon Activos quedan Fuera de Combate.",
-				it: "Entrambi i Pokémon attivi vengono messi KO.",
-				pt: "Ambos os Pokémon Ativos são Nocauteados.",
-				de: "Beide Aktiven Pokémon werden kampfunfähig."
+				'en-us': "Both Active Pokémon are Knocked Out.",
+				'fr-fr': "Les deux Pokémon Actifs sont mis K.O.",
+				'es-es': "Ambos Pokémon Activos quedan Fuera de Combate.",
+				'it-it': "Entrambi i Pokémon attivi vengono messi KO.",
+				'pt-br': "Ambos os Pokémon Ativos são Nocauteados.",
+				'de-de': "Beide Aktiven Pokémon werden kampfunfähig."
 			},
 
 		},
@@ -106,7 +106,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "In the moment that it gulps down its prey, the inside of its shell is exposed, but to this day, no one has ever seen that sight."
+		'en-us': "In the moment that it gulps down its prey, the inside of its shell is exposed, but to this day, no one has ever seen that sight."
 	},
 
 	variants: [

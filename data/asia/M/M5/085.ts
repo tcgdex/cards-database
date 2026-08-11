@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アシレーヌ",
+		'ja-jp': "アシレーヌ",
 	},
 
 	illustrator: "satoma",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "まんたんメロディ" },
 			effect: {
-				ja: "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のポケモン1匹のHPを、すべて回復する。",
+				'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のポケモン1匹のHPを、すべて回復する。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "このポケモンと、ついているすべてのカードを、山札にもどして切る。",
+				'ja-jp': "このポケモンと、ついているすべてのカードを、山札にもどして切る。",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "オシャマリ",
+		'ja-jp': "オシャマリ",
 	},
 
 	retreat: 2,

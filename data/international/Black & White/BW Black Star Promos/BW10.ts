@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Axew",
-		fr: "Coupenotte",
+		'en-us': "Axew",
+		'fr-fr': "Coupenotte",
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Rage",
-				fr: "Draco-Rage",
+				'en-us': "Dragon Rage",
+				'fr-fr': "Draco-Rage",
 			},
 			effect: {
-				en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
-				fr: "Lancez 2 pièces. Si vous obtenez un côté pile, cette attaque ne fait rien.",
+				'en-us': "Flip 2 coins. If either of them is tails, this attack does nothing.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez un côté pile, cette attaque ne fait rien.",
 			},
 			damage: 50,
 
@@ -48,7 +48,7 @@ const card: Card = {
 
 
 	description: {
-		en: "They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp.",
+		'en-us': "They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp.",
 	},
 }
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Vespiquen",
-		fr: "Apireine",
-		es: "Vespiquen",
-		it: "Vespiquen",
-		pt: "Vespiquen",
-		de: "Honweisel"
+		'en-us': "Vespiquen",
+		'fr-fr': "Apireine",
+		'es-es': "Vespiquen",
+		'it-it': "Vespiquen",
+		'pt-br': "Vespiquen",
+		'de-de': "Honweisel"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Combee",
-		fr: "Apitrini",
+		'en-us': "Combee",
+		'fr-fr': "Apitrini",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Gather Order",
-				fr: "Ralliement",
+				'en-us': "Gather Order",
+				'fr-fr': "Ralliement",
 			},
 			effect: {
-				en: "Search your deck for as many Combee as you like and put them onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck autant d'Apitrini que vous voulez et placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for as many Combee as you like and put them onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez dans votre deck autant d'Apitrini que vous voulez et placez-les sur votre Banc. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Damage Beat",
-				fr: "Rouste Ravageuse",
+				'en-us': "Damage Beat",
+				'fr-fr': "Rouste Ravageuse",
 			},
 			effect: {
-				en: "Does 20 damage times the number of damage counters on the Defending Pokémon.",
-				fr: "Inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts placés sur le Pokémon Défenseur.",
+				'en-us': "Does 20 damage times the number of damage counters on the Defending Pokémon.",
+				'fr-fr': "Inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts placés sur le Pokémon Défenseur.",
 			},
 			damage: 20,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It houses its colony in cells in its body and releases various pheromones to make those grubs do its bidding.",
+		'en-us': "It houses its colony in cells in its body and releases various pheromones to make those grubs do its bidding.",
 	},
 
 	thirdParty: {

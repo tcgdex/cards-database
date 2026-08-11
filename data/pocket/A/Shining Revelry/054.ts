@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Shining Revelry"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tinkaton ex",
-		fr: "Forgelina-ex",
-		es: "Tinkaton ex",
-		it: "Tinkaton-ex",
-		de: "Granforgita-ex",
+		'en-us': "Tinkaton ex",
+		'fr-fr': "Forgelina-ex",
+		'es-es': "Tinkaton ex",
+		'it-it': "Tinkaton-ex",
+		'de-de': "Granforgita-ex",
 		'pt-br': "Tinkaton ex",
-		ko: "두드리짱 ex"
+		'ko-kr': "두드리짱 ex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -23,7 +23,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Tinkatuff"
+		'en-us': "Tinkatuff"
 	},
 
 	stage: "Stage2",
@@ -31,26 +31,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Terrific Thumping",
-			fr: "Écrasement Formidable",
-			es: "Martillazo Descomunal",
-			it: "Martellata Possente",
-			de: "Heftiges Hämmern",
+			'en-us': "Terrific Thumping",
+			'fr-fr': "Écrasement Formidable",
+			'es-es': "Martillazo Descomunal",
+			'it-it': "Martellata Possente",
+			'de-de': "Heftiges Hämmern",
 			'pt-br': "Batida Extraordinária",
-			ko: "호쾌스탬프"
+			'ko-kr': "호쾌스탬프"
 		},
 
 		damage: "80+",
 		cost: ["Metal", "Metal", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 80 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 80 dégâts de plus.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 80 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 80 danni in più.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 80 Schadenspunkte mehr zu.",
+			'en-us': "Flip a coin. If heads, this attack does 80 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 80 dégâts de plus.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 80 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 80 danni in più.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 80 Schadenspunkte mehr zu.",
 			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 80 pontos de dano a mais.",
-			ko: "동전을 1번 던져서 앞면이 나오면 80데미지를 추가한다."
+			'ko-kr': "동전을 1번 던져서 앞면이 나오면 80데미지를 추가한다."
 		}
 	}],
 

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ludicolo"
+		'en-us': "Ludicolo"
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Lombre"
+		'en-us': "Lombre"
 	},
 
 	description: {
-		en: "If it hears festive music, it begins moving in\nrhythm in order to amplify its power."
+		'en-us': "If it hears festive music, it begins moving in\nrhythm in order to amplify its power."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Rhythmic Steps"
+			'en-us': "Rhythmic Steps"
 		},
 
 		damage: 60,
 		cost: ["Water", "Water"],
 
 		effect: {
-			en: "If you have exactly 1, 3, or 5 cards in your hand, this attack does 60 more damage."
+			'en-us': "If you have exactly 1, 3, or 5 cards in your hand, this attack does 60 more damage."
 		}
 	}],
 

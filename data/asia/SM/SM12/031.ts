@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴビット",
+		'ja-jp': "ゴビット",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "謎の エネルギーに よって 活動。 古代から 動き続けているので そろそろ パワーが 尽きるとも。",
+		'ja-jp': "謎の エネルギーに よって 活動。 古代から 動き続けているので そろそろ パワーが 尽きるとも。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Psychic"],
 			effect: {
-				ja: "のぞむなら、自分の手札が5枚になるように、山札を引く。",
+				'ja-jp': "のぞむなら、自分の手札が5枚になるように、山札を引く。",
 			},
 		},
 	],

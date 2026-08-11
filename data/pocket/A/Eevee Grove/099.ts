@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gardevoir",
-		fr: "Gardevoir"
+		'en-us': "Gardevoir",
+		'fr-fr': "Gardevoir"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -18,12 +18,12 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Kirlia"
+		'en-us': "Kirlia"
 	},
 
 	description: {
-		en: "To protect its Trainer, it will expend all its psychic\npower to create a small black hole.",
-		fr: "Prêt à tout pour protéger son Dresseur, il peut aller jusqu'à épuiser sa force mentale pour créer un mini trou noir."
+		'en-us': "To protect its Trainer, it will expend all its psychic\npower to create a small black hole.",
+		'fr-fr': "Prêt à tout pour protéger son Dresseur, il peut aller jusqu'à épuiser sa force mentale pour créer un mini trou noir."
 	},
 
 	stage: "Stage2",
@@ -32,20 +32,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Psy Shadow",
-			fr: "Ombre Psy"
+			'en-us': "Psy Shadow",
+			'fr-fr': "Ombre Psy"
 		},
 
 		effect: {
-			en: "Once during your turn, you may take a {P} Energy from your Energy Zone and attach it to the {P} Pokémon in the Active Spot.",
-			fr: "Une fois pendant votre tour, vous pouvez prendre une Énergie {P} de votre zone Énergie et l'attacher au Pokémon  sur le Poste Actif."
+			'en-us': "Once during your turn, you may take a {P} Energy from your Energy Zone and attach it to the {P} Pokémon in the Active Spot.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez prendre une Énergie {P} de votre zone Énergie et l'attacher au Pokémon  sur le Poste Actif."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Psyshot",
-			fr: "Piqûre Psy"
+			'en-us': "Psyshot",
+			'fr-fr': "Piqûre Psy"
 		},
 
 		damage: 60,

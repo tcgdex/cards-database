@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Donphan",
-		fr: "Donphan",
-		es: "Donphan",
-		it: "Donphan",
-		pt: "Donphan",
-		de: "Donphan"
+		'en-us': "Donphan",
+		'fr-fr': "Donphan",
+		'es-es': "Donphan",
+		'it-it': "Donphan",
+		'pt-br': "Donphan",
+		'de-de': "Donphan"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Phanpy",
-		fr: "Phanpy",
+		'en-us': "Phanpy",
+		'fr-fr': "Phanpy",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Sturdy",
-				fr: "Fermeté",
-				es: "Robustez",
-				it: "Vigore",
-				pt: "Robustez",
-				de: "Robustheit"
+				'en-us': "Sturdy",
+				'fr-fr': "Fermeté",
+				'es-es': "Robustez",
+				'it-it': "Vigore",
+				'pt-br': "Robustez",
+				'de-de': "Robustheit"
 			},
 			effect: {
-				en: "If this Pokémon has full HP and would be Knocked Out by damage from an attack, this Pokémon is not Knocked Out, and its remaining HP becomes 10.",
-				fr: "Si ce Pokémon a tous ses PV et doit être mis K.O. par les dégâts d’une attaque, ce Pokémon n’est pas mis K.O. mais il ne lui reste que 10 PV.",
-				es: "Si este Pokémon tiene todos sus PV y fuese a quedar Fuera de Combate por el daño de un ataque, no queda Fuera de Combate y sus PV restantes pasan a ser 10.",
-				it: "Se questo Pokémon ha tutti i PV e sta per essere messo K.O. dal danno di un attacco, non viene messo K.O. e i suoi PV rimanenti diventano 10.",
-				pt: "Se este Pokémon possuir PS cheio e estiver prestes a ser Nocauteado por danos causados por um ataque, jogue uma moeda. Se sair cara, ele não será Nocauteado e seu PS restante se tornará 10.",
-				de: "Wenn dieses Pokémon volle KP hat und durch Schaden eines Angriffs kampfunfähig würde, wird dieses Pokémon nicht kampfunfähig, sondern behält 10 KP."
+				'en-us': "If this Pokémon has full HP and would be Knocked Out by damage from an attack, this Pokémon is not Knocked Out, and its remaining HP becomes 10.",
+				'fr-fr': "Si ce Pokémon a tous ses PV et doit être mis K.O. par les dégâts d’une attaque, ce Pokémon n’est pas mis K.O. mais il ne lui reste que 10 PV.",
+				'es-es': "Si este Pokémon tiene todos sus PV y fuese a quedar Fuera de Combate por el daño de un ataque, no queda Fuera de Combate y sus PV restantes pasan a ser 10.",
+				'it-it': "Se questo Pokémon ha tutti i PV e sta per essere messo K.O. dal danno di un attacco, non viene messo K.O. e i suoi PV rimanenti diventano 10.",
+				'pt-br': "Se este Pokémon possuir PS cheio e estiver prestes a ser Nocauteado por danos causados por um ataque, jogue uma moeda. Se sair cara, ele não será Nocauteado e seu PS restante se tornará 10.",
+				'de-de': "Wenn dieses Pokémon volle KP hat und durch Schaden eines Angriffs kampfunfähig würde, wird dieses Pokémon nicht kampfunfähig, sondern behält 10 KP."
 			},
 		},
 	],
@@ -63,20 +63,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rolling Spin",
-				fr: "Tournis Roulis",
-				es: "Giro Ondulante",
-				it: "Ruzzolata",
-				pt: "Giro Rolante",
-				de: "Drehwalze"
+				'en-us': "Rolling Spin",
+				'fr-fr': "Tournis Roulis",
+				'es-es': "Giro Ondulante",
+				'it-it': "Ruzzolata",
+				'pt-br': "Giro Rolante",
+				'de-de': "Drehwalze"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon’s Rolling Spin attack does 70 more damage (before applying Weakness and Resistance).",
-				fr: "Pendant votre prochain tour, l’attaque Tournis Roulis de ce Pokémon inflige 70 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
-				es: "Durante tu próximo turno, el ataque Giro Ondulante de este Pokémon hace 70 puntos de daño más (antes de aplicar Debilidad y Resistencia).",
-				it: "Durante il tuo prossimo turno, l’attacco Ruzzolata di questo Pokémon infligge 70 danni in più, prima di aver applicato debolezza e resistenza.",
-				pt: "Durante a sua próxima vez de jogar, o ataque Giro Rolante deste Pokémon causará 70 pontos de dano a mais (antes de aplicar Fraqueza e Resistência).",
-				de: "Während deines nächsten Zuges fügt die Attacke Drehwalze dieses Pokémon 70 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "During your next turn, this Pokémon’s Rolling Spin attack does 70 more damage (before applying Weakness and Resistance).",
+				'fr-fr': "Pendant votre prochain tour, l’attaque Tournis Roulis de ce Pokémon inflige 70 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				'es-es': "Durante tu próximo turno, el ataque Giro Ondulante de este Pokémon hace 70 puntos de daño más (antes de aplicar Debilidad y Resistencia).",
+				'it-it': "Durante il tuo prossimo turno, l’attacco Ruzzolata di questo Pokémon infligge 70 danni in più, prima di aver applicato debolezza e resistenza.",
+				'pt-br': "Durante a sua próxima vez de jogar, o ataque Giro Rolante deste Pokémon causará 70 pontos de dano a mais (antes de aplicar Fraqueza e Resistência).",
+				'de-de': "Während deines nächsten Zuges fügt die Attacke Drehwalze dieses Pokémon 70 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 			damage: 70,
 
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "The longer and bigger its tusks, the higher its rank in its herd. The tusks take long to grow.",
+		'en-us': "The longer and bigger its tusks, the higher its rank in its herd. The tusks take long to grow.",
 	},
 
 	thirdParty: {

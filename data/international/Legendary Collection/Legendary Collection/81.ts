@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Mankey"
+		'en-us': "Mankey"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mischief"
+				'en-us': "Mischief"
 			},
 			effect: {
-				en: "Shuffle your opponent's deck."
+				'en-us': "Shuffle your opponent's deck."
 			},
 
 		},
@@ -40,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Anger"
+				'en-us': "Anger"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage."
 			},
 			damage: "20+",
 
@@ -58,7 +58,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Normally friendly, it quickly becomes angry if it doesn't get what it wants."
+		'en-us': "Normally friendly, it quickly becomes angry if it doesn't get what it wants."
 	},
 
 	variants: [

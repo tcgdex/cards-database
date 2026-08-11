@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Dofin",
-		en: "Finizen",
-		es: "Finizen",
-		it: "Finizen",
-		pt: "Finizen",
-		de: "Normifin"
+		'fr-fr': "Dofin",
+		'en-us': "Finizen",
+		'es-es': "Finizen",
+		'it-it': "Finizen",
+		'pt-br': "Finizen",
+		'de-de': "Normifin"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			fr: "Coup de Queue",
-			en: "Tail Smack",
-			es: "Bofetón Cola",
-			it: "Codasberla",
-			pt: "Ataque de Cauda",
-			de: "Schweifschlag"
+			'fr-fr': "Coup de Queue",
+			'en-us': "Tail Smack",
+			'es-es': "Bofetón Cola",
+			'it-it': "Codasberla",
+			'pt-br': "Ataque de Cauda",
+			'de-de': "Schweifschlag"
 		},
 
 		damage: 30
@@ -45,7 +45,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures.",
+		'en-us': "It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures.",
 	},
 
 	variants: [

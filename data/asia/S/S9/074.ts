@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "尖牙陸鯊",
-		ja: "ガバイト"
+		'ja-jp': "ガバイト"
 	},
 
 	illustrator: "hatachu",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "會從頭部左右兩側的突起處發出超音波，藉此調查漆黑 洞窟裡的狀況。",
-		ja: "頭の 左右の 突起から 超音波を 出して 真っ暗な 洞穴の 様子を 調べるのだ。"
+		'ja-jp': "頭の 左右の 突起から 超音波を 出して 真っ暗な 洞穴の 様子を 調べるのだ。"
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "龍爪",
-			ja: "ドラゴンクロー"
+			'ja-jp': "ドラゴンクロー"
 		},
 
 		damage: 70,

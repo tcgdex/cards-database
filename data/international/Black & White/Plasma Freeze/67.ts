@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Absol",
-		fr: "Absol",
-		es: "Absol",
-		it: "Absol",
-		pt: "Absol",
-		de: "Absol"
+		'en-us': "Absol",
+		'fr-fr': "Absol",
+		'es-es': "Absol",
+		'it-it': "Absol",
+		'pt-br': "Absol",
+		'de-de': "Absol"
 	},
 
 	illustrator: "5ban Graphics",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mind Jack",
-				fr: "Emprise Mentale",
+				'en-us': "Mind Jack",
+				'fr-fr': "Emprise Mentale",
 			},
 			effect: {
-				en: "Does 20 more damage for each of your opponent's Benched Pokémon.",
-				fr: "Inflige 20 dégâts supplémentaires pour chaque Pokémon de Banc de votre adversaire.",
+				'en-us': "Does 20 more damage for each of your opponent's Benched Pokémon.",
+				'fr-fr': "Inflige 20 dégâts supplémentaires pour chaque Pokémon de Banc de votre adversaire.",
 			},
 			damage: 20,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fearsome Shadow",
-				fr: "Ombre Redoutable",
+				'en-us': "Fearsome Shadow",
+				'fr-fr': "Ombre Redoutable",
 			},
 			effect: {
-				en: "Your opponent reveals his or her hand.",
-				fr: "Votre adversaire montre sa main.",
+				'en-us': "Your opponent reveals his or her hand.",
+				'fr-fr': "Votre adversaire montre sa main.",
 			},
 			damage: 60,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It appears from deep in the mountains to warn people about upcoming disasters it has sensed with its horn.",
+		'en-us': "It appears from deep in the mountains to warn people about upcoming disasters it has sensed with its horn.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アーゴヨン",
+		'ja-jp': "アーゴヨン",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "体内に 数百リットルの 毒液を ためている。 ＵＢと 呼ばれる 生物の 一種。",
+		'ja-jp': "体内に 数百リットルの 毒液を ためている。 ＵＢと 呼ばれる 生物の 一種。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "チャージアップ" },
 			effect: {
-				ja: "自分の番に1回使える。自分のトラッシュにある基本エネルギーを1枚、このポケモンにつける。",
+				'ja-jp': "自分の番に1回使える。自分のトラッシュにある基本エネルギーを1枚、このポケモンにつける。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のサイドの残り枚数が3枚なら、80ダメージ追加。",
+				'ja-jp': "自分のサイドの残り枚数が3枚なら、80ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ベベノム",
+		'ja-jp': "ベベノム",
 	},
 
 	retreat: 1,

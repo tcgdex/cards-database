@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Iron Boulder ex"
+		'id-id': "Iron Boulder ex"
 	},
 
 	illustrator: "nagimiso",
@@ -17,22 +17,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Repulsor Axe"
+			'id-id': "Repulsor Axe"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, saat Pokémon ini menerima kerusakan akibat serangan, letakkan 8 Token Kerusakan pada Pokémon yang telah menggunakan serangan."
+			'id-id': "Pada giliran lawan berikutnya, saat Pokémon ini menerima kerusakan akibat serangan, letakkan 8 Token Kerusakan pada Pokémon yang telah menggunakan serangan."
 		},
 
 		damage: 60,
 		cost: ["Fighting", "Colorless"]
 	}, {
 		name: {
-			id: "Power Stomp"
+			'id-id': "Power Stomp"
 		},
 
 		effect: {
-			id: "Pilih 2 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
+			'id-id': "Pilih 2 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
 		},
 
 		damage: 200,

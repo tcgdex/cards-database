@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2021'
 
 const card: Card = {
 	name: {
-		en: "Cyndaquil",
-		fr: "Héricendre",
+		'en-us': "Cyndaquil",
+		'fr-fr': "Héricendre",
 	},
 
 	illustrator: "kirisAki",
@@ -31,8 +31,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer In",
-				fr: "Enfoncement",
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncement",
 			},
 
 			damage: 30,
@@ -50,7 +50,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has a timid nature. If it is startled, the flames on its back burn more vigorously."
+		'en-us': "It has a timid nature. If it is startled, the flames on its back burn more vigorously."
 	},
 
 	variants: [

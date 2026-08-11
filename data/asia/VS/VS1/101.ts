@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ランスのアンファロス",
+		'ja-jp': "ランスのアンファロス",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "取り組む",
+				'ja-jp': "取り組む",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Lightning", "Colorless", "Colorless"],
 			name: {
-				ja: "除去ビーム",
+				'ja-jp': "除去ビーム",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、防御ポケモンに取り付けられた1つのエネルギーカードを捨てます。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、防御ポケモンに取り付けられた1つのエネルギーカードを捨てます。",
 			},
 			damage: 20,
 		},

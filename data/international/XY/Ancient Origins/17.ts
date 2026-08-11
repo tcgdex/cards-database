@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Volcarona",
-		fr: "Pyrax",
-		es: "Volcarona",
-		it: "Volcarona",
-		pt: "Volcarona",
-		de: "Ramoth"
+		'en-us': "Volcarona",
+		'fr-fr': "Pyrax",
+		'es-es': "Volcarona",
+		'it-it': "Volcarona",
+		'pt-br': "Volcarona",
+		'de-de': "Ramoth"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Larvesta",
-		fr: "Pyronille",
-		es: "Larvesta",
-		it: "Larvesta",
-		pt: "Larvesta",
-		de: "Ignivor"
+		'en-us': "Larvesta",
+		'fr-fr': "Pyronille",
+		'es-es': "Larvesta",
+		'it-it': "Larvesta",
+		'pt-br': "Larvesta",
+		'de-de': "Ignivor"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Solar Birth",
-				fr: "Naissance Solaire",
-				es: "Nacimiento Solar",
-				it: "Solarnascita",
-				pt: "Nascimento Solar",
-				de: "Solargenese"
+				'en-us': "Solar Birth",
+				'fr-fr': "Naissance Solaire",
+				'es-es': "Nacimiento Solar",
+				'it-it': "Solarnascita",
+				'pt-br': "Nascimento Solar",
+				'de-de': "Solargenese"
 			},
 			effect: {
-				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Then, search your deck for up to 2 basic Energy cards and attach them to that Pokémon. Shuffle your deck afterward.",
-				fr: "Cherchez un Pokémon de base dans votre deck et placez-le sur votre Banc. Ensuite, cherchez jusqu'à 2 cartes Énergie de base dans votre deck et attachez-les au Pokémon choisi. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja 1 Pokémon Básico y ponlo en tu Banca. Después, busca en tu baraja hasta 2 cartas de Energía Básica y únelas a ese Pokémon. Baraja las cartas de tu baraja después.",
-				it: "Cerca nel tuo mazzo un Pokémon Base e mettilo nella tua panchina. Quindi cerca nel tuo mazzo fino a due carte Energia base e assegnale a quel Pokémon. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure em seu baralho 1 Pokémon Básico e coloque-o no seu Banco. Em seguida, procure em seu baralho até 2 cards de Energia básica e ligue-os a aquele Pokémon. Em seguida, embaralhe seus cards.",
-				de: "Durchsuche dein Deck nach 1 Basis-Pokémon und lege es auf deine Bank. Durchsuche dein Deck anschließend nach bis zu 2 Basis-Energiekarten und lege sie an das Pokémon an. Mische anschließend dein Deck."
+				'en-us': "Search your deck for a Basic Pokémon and put it onto your Bench. Then, search your deck for up to 2 basic Energy cards and attach them to that Pokémon. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez un Pokémon de base dans votre deck et placez-le sur votre Banc. Ensuite, cherchez jusqu'à 2 cartes Énergie de base dans votre deck et attachez-les au Pokémon choisi. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja 1 Pokémon Básico y ponlo en tu Banca. Después, busca en tu baraja hasta 2 cartas de Energía Básica y únelas a ese Pokémon. Baraja las cartas de tu baraja después.",
+				'it-it': "Cerca nel tuo mazzo un Pokémon Base e mettilo nella tua panchina. Quindi cerca nel tuo mazzo fino a due carte Energia base e assegnale a quel Pokémon. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure em seu baralho 1 Pokémon Básico e coloque-o no seu Banco. Em seguida, procure em seu baralho até 2 cards de Energia básica e ligue-os a aquele Pokémon. Em seguida, embaralhe seus cards.",
+				'de-de': "Durchsuche dein Deck nach 1 Basis-Pokémon und lege es auf deine Bank. Durchsuche dein Deck anschließend nach bis zu 2 Basis-Energiekarten und lege sie an das Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -66,20 +66,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
-				fr: "Lance-Flammes",
-				es: "Lanzallamas",
-				it: "Lanciafiamme",
-				pt: "Lança-Chamas",
-				de: "Flammenwurf"
+				'en-us': "Flamethrower",
+				'fr-fr': "Lance-Flammes",
+				'es-es': "Lanzallamas",
+				'it-it': "Lanciafiamme",
+				'pt-br': "Lança-Chamas",
+				'de-de': "Flammenwurf"
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon.",
-				es: "Descarta 1 Energía unida a este Pokémon.",
-				it: "Scarta un'Energia assegnata a questo Pokémon.",
-				pt: "Descarte uma Energia ligada a este Pokémon.",
-				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon.",
+				'es-es': "Descarta 1 Energía unida a este Pokémon.",
+				'it-it': "Scarta un'Energia assegnata a questo Pokémon.",
+				'pt-br': "Descarte uma Energia ligada a este Pokémon.",
+				'de-de': "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 60,
 
@@ -96,7 +96,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When volcanic ash darkened the atmosphere, it is said that Volcarona's fire provided a replacement for the sun.",
+		'en-us': "When volcanic ash darkened the atmosphere, it is said that Volcarona's fire provided a replacement for the sun.",
 	},
 
 	thirdParty: {

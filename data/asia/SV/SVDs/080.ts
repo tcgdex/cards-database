@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เดเด็นเนะ",
-		id: "Dedenne"
+		'th-th': "เดเด็นเนะ",
+		'id-id': "Dedenne"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -15,33 +15,33 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		th: "อวัยวะผลิตกระแสไฟฟ้ามีขนาดเล็กและยังไม่พัฒนาเต็มที่เลยชอบเอาหางไปดูดไฟฟ้าจากบ้านคนเพื่อชาร์จไฟฟ้า",
-		id: "Dedenne mengecas dan menyerap listrik dari rumah manusia menggunakan ekornya karena tubuhnya kecil dan organ pembangkit listriknya masih belum sempurna."
+		'th-th': "อวัยวะผลิตกระแสไฟฟ้ามีขนาดเล็กและยังไม่พัฒนาเต็มที่เลยชอบเอาหางไปดูดไฟฟ้าจากบ้านคนเพื่อชาร์จไฟฟ้า",
+		'id-id': "Dedenne mengecas dan menyerap listrik dari rumah manusia menggunakan ekornya karena tubuhnya kecil dan organ pembangkit listriknya masih belum sempurna."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "งานเล็กน้อย",
-			id: "Tugas Kecil"
+			'th-th': "งานเล็กน้อย",
+			'id-id': "Tugas Kecil"
 		},
 
 		effect: {
-			th: "เลือกการ์ดพลังงานพื้นฐานได้สูงสุด 2 ใบจากสำรับการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ แล้วสับสำรับการ์ด",
-			id: "Pilih paling banyak 2 lembar Energi Dasar dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
+			'th-th': "เลือกการ์ดพลังงานพื้นฐานได้สูงสุด 2 ใบจากสำรับการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ แล้วสับสำรับการ์ด",
+			'id-id': "Pilih paling banyak 2 lembar Energi Dasar dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
 		},
 
 		cost: ["Psychic"]
 	}, {
 		name: {
-			th: "สปินเทิร์น",
-			id: "Spin Turn"
+			'th-th': "สปินเทิร์น",
+			'id-id': "Spin Turn"
 		},
 
 		effect: {
-			th: "สลับโปเกมอนนี้กับโปเกมอนบนเบนช์",
-			id: "Tukar Pokémon ini dengan Pokémon Cadangan."
+			'th-th': "สลับโปเกมอนนี้กับโปเกมอนบนเบนช์",
+			'id-id': "Tukar Pokémon ini dengan Pokémon Cadangan."
 		},
 
 		damage: 50,

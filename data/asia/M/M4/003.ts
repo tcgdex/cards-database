@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スピアーex",
+		'ja-jp': "スピアーex",
 	},
 
 	illustrator: "toriyufu",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "110×",
 			cost: ["Grass"],
 			effect: {
-				ja: "自分の場の「スピアー（『ポケモンex』をふくむ）」の数×110ダメージ。",
+				'ja-jp': "自分の場の「スピアー（『ポケモンex』をふくむ）」の数×110ダメージ。",
 			},
 		},
 	],
@@ -38,7 +38,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コクーン",
+		'ja-jp': "コクーン",
 	},
 
 	retreat: 1,

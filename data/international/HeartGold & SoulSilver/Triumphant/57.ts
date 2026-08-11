@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Bellsprout",
-		fr: "Chétiflor",
-		de: "Knofensa"
+		'en-us': "Bellsprout",
+		'fr-fr': "Chétiflor",
+		'de-de': "Knofensa"
 	},
 
 	illustrator: "Midori Harada",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Inviting Scent",
-				fr: "Senteur ensorcelante",
-				de: "Einladender Duft"
+				'en-us': "Inviting Scent",
+				'fr-fr': "Senteur ensorcelante",
+				'de-de': "Einladender Duft"
 			},
 			effect: {
-				en: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
-				fr: "Échangez le Pokémon Défenseur avec l’un des Pokémon de Banc de votre adversaire.",
-				de: "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegeners aus."
+				'en-us': "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
+				'fr-fr': "Échangez le Pokémon Défenseur avec l’un des Pokémon de Banc de votre adversaire.",
+				'de-de': "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegeners aus."
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Careless Tackle",
-				fr: "Plaquage imprudent",
-				de: "Unvorsichtiger Tackle"
+				'en-us': "Careless Tackle",
+				'fr-fr': "Plaquage imprudent",
+				'de-de': "Unvorsichtiger Tackle"
 			},
 			effect: {
-				en: "Bellsprout does 10 damage to itself.",
-				fr: "Chetiflor s’inflige 10 dégâts.",
-				de: "Knofensa fügt sich selbst 10 Schadenspunkte zu."
+				'en-us': "Bellsprout does 10 damage to itself.",
+				'fr-fr': "Chetiflor s’inflige 10 dégâts.",
+				'de-de': "Knofensa fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Even though its body is extremely skinny, it is blindingly fast when catching its prey."
+		'en-us': "Even though its body is extremely skinny, it is blindingly fast when catching its prey."
 	},
 
 	variants: [

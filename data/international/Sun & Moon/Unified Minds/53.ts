@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	dexId: [788],
 
 	name: {
-		en: "Tapu Fini",
-		fr: "Tokopisco",
-		es: "Tapu Fini",
-		it: "Tapu Fini",
-		pt: "Tapu Fini",
-		de: "Kapu-Kime"
+		'en-us': "Tapu Fini",
+		'fr-fr': "Tokopisco",
+		'es-es': "Tapu Fini",
+		'it-it': "Tapu Fini",
+		'pt-br': "Tapu Fini",
+		'de-de': "Kapu-Kime"
 	},
 
 	illustrator: "Hasuno",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Razor Fin",
-				fr: "Aileron-Rasoir",
-				es: "Aleta Afilada",
-				it: "Pinnalama",
-				pt: "Barbatana Cortante",
-				de: "Rasierflosse"
+				'en-us': "Razor Fin",
+				'fr-fr': "Aileron-Rasoir",
+				'es-es': "Aleta Afilada",
+				'it-it': "Pinnalama",
+				'pt-br': "Barbatana Cortante",
+				'de-de': "Rasierflosse"
 			},
 
 			damage: 20,
@@ -49,20 +49,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nature Wave",
-				fr: "Onde Naturelle",
-				es: "Ola de la Naturaleza",
-				it: "Onda della Natura",
-				pt: "Onda da Natureza",
-				de: "Welle der Natur"
+				'en-us': "Nature Wave",
+				'fr-fr': "Onde Naturelle",
+				'es-es': "Ola de la Naturaleza",
+				'it-it': "Onda della Natura",
+				'pt-br': "Onda da Natureza",
+				'de-de': "Welle der Natur"
 			},
 			effect: {
-				en: "If your opponent has any Ultra Beasts in play, this attack can be used for Colorless.",
-				fr: "Si votre adversaire a une Ultra-Chimère en jeu, cette attaque peut être utilisée pour Colorless.",
-				es: "Si tu rival tiene algún Ultraente en juego, este ataque se puede usar por 1 Energía Colorless.",
-				it: "Se il tuo avversario ha delle Ultracreature in gioco, il costo di questo attacco è Colorless.",
-				pt: "Se o seu oponente tiver alguma Ultracriatura em jogo, este ataque poderá ser usado com Colorless.",
-				de: "Wenn dein Gegner mindestens 1 Ultrabestie im Spiel hat, kann diese Attacke für Colorless eingesetzt werden."
+				'en-us': "If your opponent has any Ultra Beasts in play, this attack can be used for Colorless.",
+				'fr-fr': "Si votre adversaire a une Ultra-Chimère en jeu, cette attaque peut être utilisée pour Colorless.",
+				'es-es': "Si tu rival tiene algún Ultraente en juego, este ataque se puede usar por 1 Energía Colorless.",
+				'it-it': "Se il tuo avversario ha delle Ultracreature in gioco, il costo di questo attacco è Colorless.",
+				'pt-br': "Se o seu oponente tiver alguma Ultracriatura em jogo, este ataque poderá ser usado com Colorless.",
+				'de-de': "Wenn dein Gegner mindestens 1 Ultrabestie im Spiel hat, kann diese Attacke für Colorless eingesetzt werden."
 			},
 			damage: 100,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This guardian deity of Poni Island manipulates water. Because it lives deep within a thick fog, it came to be both feared and revered.",
+		'en-us': "This guardian deity of Poni Island manipulates water. Because it lives deep within a thick fog, it came to be both feared and revered.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Kabutops",
-		de: "Kabutops"
+		'en-us': "Kabutops",
+		'de-de': "Kabutops"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kabuto"
+		'en-us': "Kabuto"
 	},
 
 	stage: "Stage2",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Primal Scythe",
-				de: "Urzeitsense"
+				'en-us': "Primal Scythe",
+				'de-de': "Urzeitsense"
 			},
 			effect: {
-				en: "You may discard Helix Fossil, Dome Fossil, or Old Amber from your hand. If you do, this attack does 20 damage plus 50 more damage.",
-				de: "Du kannst 1 Helixfossil-, Domfossil- oder Altbernstein-Karte von deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 20 Schadenspunkte plus 50 weitere Schadenspunkte zu."
+				'en-us': "You may discard Helix Fossil, Dome Fossil, or Old Amber from your hand. If you do, this attack does 20 damage plus 50 more damage.",
+				'de-de': "Du kannst 1 Helixfossil-, Domfossil- oder Altbernstein-Karte von deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 20 Schadenspunkte plus 50 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Slide",
-				de: "Steinhagel"
+				'en-us': "Rock Slide",
+				'de-de': "Steinhagel"
 			},
 			effect: {
-				en: "Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				de: "Dieser Angriff fügt 2 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'de-de': "Dieser Angriff fügt 2 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is thought that this Pokémon came onto land because its prey adapted to life on land."
+		'en-us': "It is thought that this Pokémon came onto land because its prey adapted to life on land."
 	},
 
 	variants: [

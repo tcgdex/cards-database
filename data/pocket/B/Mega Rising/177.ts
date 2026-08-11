@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Goomy"
+		'en-us': "Goomy"
 	},
 
 	illustrator: "Midori Harada",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		en: "Goomy's horns are excellent sensory organs that\ncover all five of Goomy's senses. Goomy picks\nup on danger from the movement of the air."
+		'en-us': "Goomy's horns are excellent sensory organs that\ncover all five of Goomy's senses. Goomy picks\nup on danger from the movement of the air."
 	},
 
 	stage: "Basic",
@@ -26,17 +26,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Sticky Membrane"
+			'en-us': "Sticky Membrane"
 		},
 
 		effect: {
-			en: "As long as this Pokémon is in the Active Spot, attacks used by your opponent's Active Pokémon cost 1 {C} more."
+			'en-us': "As long as this Pokémon is in the Active Spot, attacks used by your opponent's Active Pokémon cost 1 {C} more."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Ram"
+			'en-us': "Ram"
 		},
 
 		damage: 30,

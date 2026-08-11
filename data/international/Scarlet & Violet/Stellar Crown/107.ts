@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Archaludon",
-		fr: "Pondralugon",
-		es: "Archaludon",
-		it: "Archaludon",
-		pt: "Archaludon",
-		de: "Briduradon"
+		'en-us': "Archaludon",
+		'fr-fr': "Pondralugon",
+		'es-es': "Archaludon",
+		'it-it': "Archaludon",
+		'pt-br': "Archaludon",
+		'de-de': "Briduradon"
 	},
 
 	rarity: "Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 180,
 	types: ["Metal"],
 	evolveFrom: {
-		en: "Duraludon",
-		fr: "Duralugon",
-		es: "Duraludon",
-		it: "Duraludon",
-		pt: "Duraludon",
-		de: "Duraludon"
+		'en-us': "Duraludon",
+		'fr-fr': "Duralugon",
+		'es-es': "Duraludon",
+		'it-it': "Duraludon",
+		'pt-br': "Duraludon",
+		'de-de': "Duraludon"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Metal Bridge",
-			fr: "Pont Métal",
-			es: "Puente Metálico",
-			it: "Metalponte",
-			pt: "Ponte Metálica",
-			de: "Metallbrücke"
+			'en-us': "Metal Bridge",
+			'fr-fr': "Pont Métal",
+			'es-es': "Puente Metálico",
+			'it-it': "Metalponte",
+			'pt-br': "Ponte Metálica",
+			'de-de': "Metallbrücke"
 		},
 
 		effect: {
-			en: "All of your Pokémon that have {M} Energy attached have no Retreat Cost.",
-			fr: "Vos Pokémon auxquels de l'Énergie {M} est attachée n'ont pas de Coût de Retraite.",
-			es: "Ninguno de tus Pokémon que tenga alguna Energía {M} unida tiene Coste de Retirada.",
-			it: "Tutti i tuoi Pokémon che hanno delle Energie {M} assegnate non hanno costo di ritirata.",
-			pt: "Todos os seus Pokémon que têm Energia {M} ligada a eles não têm custo de Recuo.",
-			de: "Alle deine Pokémon, an die {M}-Energie angelegt ist, haben keine Rückzugskosten."
+			'en-us': "All of your Pokémon that have {M} Energy attached have no Retreat Cost.",
+			'fr-fr': "Vos Pokémon auxquels de l'Énergie {M} est attachée n'ont pas de Coût de Retraite.",
+			'es-es': "Ninguno de tus Pokémon que tenga alguna Energía {M} unida tiene Coste de Retirada.",
+			'it-it': "Tutti i tuoi Pokémon che hanno delle Energie {M} assegnate non hanno costo di ritirata.",
+			'pt-br': "Todos os seus Pokémon que têm Energia {M} ligada a eles não têm custo de Recuo.",
+			'de-de': "Alle deine Pokémon, an die {M}-Energie angelegt ist, haben keine Rückzugskosten."
 		}
 	}],
 
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Metal", "Metal", "Colorless"],
 
 		name: {
-			en: "Iron Blaster",
-			fr: "Explose-Fer",
-			es: "Explosión Férrea",
-			it: "Esplodiferro",
-			pt: "Detonador de Ferro",
-			de: "Eisenblaster"
+			'en-us': "Iron Blaster",
+			'fr-fr': "Explose-Fer",
+			'es-es': "Explosión Férrea",
+			'it-it': "Esplodiferro",
+			'pt-br': "Detonador de Ferro",
+			'de-de': "Eisenblaster"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 160

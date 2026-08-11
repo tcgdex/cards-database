@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "タギングル"
+		'ja-jp': "タギングル"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "エサによって 色が 変化する 毒の 唾液を 指に 塗して 森の 木々に 模様を 描く。"
+		'ja-jp': "エサによって 色が 変化する 毒の 唾液を 指に 塗して 森の 木々に 模様を 描く。"
 	},
 
 	stage: "Stage1",
@@ -24,23 +24,23 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			ja: "どくえき"
+			'ja-jp': "どくえき"
 		},
 
 		effect: {
-			ja: "相手のバトルポケモンをどくにする。"
+			'ja-jp': "相手のバトルポケモンをどくにする。"
 		}
 	}, {
 		cost: ["Darkness"],
 
 		name: {
-			ja: "カラフルグラフィティ"
+			'ja-jp': "カラフルグラフィティ"
 		},
 
 		damage: "40×",
 
 		effect: {
-			ja: "自分の手札から基本エネルギーを好きなだけトラッシュし、トラッシュした基本エネルギーのタイプの数×40ダメージ。"
+			'ja-jp': "自分の手札から基本エネルギーを好きなだけトラッシュし、トラッシュした基本エネルギーのタイプの数×40ダメージ。"
 		}
 	}],
 

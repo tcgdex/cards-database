@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フシギダネ",
+		'ja-jp': "フシギダネ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "リーチシード",
+				'ja-jp': "リーチシード",
 			},
 			effect: {
-				ja: "このポケモンから10ダメージを癒します。",
+				'ja-jp': "このポケモンから10ダメージを癒します。",
 			},
 			damage: 20,
 		},

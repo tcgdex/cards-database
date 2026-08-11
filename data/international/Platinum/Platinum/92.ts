@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Shuppet",
-		fr: "Polychombr",
-		de: "Shuppet"
+		'en-us': "Shuppet",
+		'fr-fr': "Polychombr",
+		'de-de': "Shuppet"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Hypnotic Gaze",
-				fr: "Regard hypnotique",
-				de: "Hypnotic Gaze"
+				'en-us': "Hypnotic Gaze",
+				'fr-fr': "Regard hypnotique",
+				'de-de': "Hypnotic Gaze"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -43,14 +43,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Fade Out",
-				fr: "Faiblir",
-				de: "Fade Out"
+				'en-us': "Fade Out",
+				'fr-fr': "Faiblir",
+				'de-de': "Fade Out"
 			},
 			effect: {
-				en: "Return Shuppet and all cards attached to it to your hand. (If you don't have any Benched Pokémon, this attack does nothing.)",
-				fr: "Reprenez dans votre main Polychombr ainsi que toutes les cartes qui lui sont attachées. (Si vous ne possédez pas de Pokémon de Banc, cette attaque est sans effet.)",
-				de: "Return Shuppet and all cards attached to it to your hand. (If you don't have any Benched Pokémon, this attack does nothing.)"
+				'en-us': "Return Shuppet and all cards attached to it to your hand. (If you don't have any Benched Pokémon, this attack does nothing.)",
+				'fr-fr': "Reprenez dans votre main Polychombr ainsi que toutes les cartes qui lui sont attachées. (Si vous ne possédez pas de Pokémon de Banc, cette attaque est sans effet.)",
+				'de-de': "Return Shuppet and all cards attached to it to your hand. (If you don't have any Benched Pokémon, this attack does nothing.)"
 			},
 			damage: 30,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live."
+		'en-us': "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live."
 	},
 
 	variants: [

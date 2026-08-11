@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cinccino",
-		fr: "Pashmilla"
+		'en-us': "Cinccino",
+		'fr-fr': "Pashmilla"
 	},
 
 	illustrator: "Mizue",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Minccino"
+		'en-us': "Minccino"
 	},
 
 	description: {
-		en: "Its body secretes oil that this Pokémon spreads\nover its nest as a coating to protect it from dust.\nCinccino won't tolerate even a speck of the stuff.",
-		fr: "Il ne supporte pas de voir le moindre grain de poussière. Il utilise l'huile qu'il sécrète pour recouvrir son nid d'un revêtement protecteur."
+		'en-us': "Its body secretes oil that this Pokémon spreads\nover its nest as a coating to protect it from dust.\nCinccino won't tolerate even a speck of the stuff.",
+		'fr-fr': "Il ne supporte pas de voir le moindre grain de poussière. Il utilise l'huile qu'il sécrète pour recouvrir son nid d'un revêtement protecteur."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Slap",
-			fr: "Gifle"
+			'en-us': "Slap",
+			'fr-fr': "Gifle"
 		},
 
 		damage: 40,

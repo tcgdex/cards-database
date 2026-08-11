@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Balbalèze",
-		en: "Cetitan",
-		es: "Cetitan",
-		it: "Cetitan",
-		pt: "Cetitan",
-		de: "Kolowal"
+		'fr-fr': "Balbalèze",
+		'en-us': "Cetitan",
+		'es-es': "Cetitan",
+		'it-it': "Cetitan",
+		'pt-br': "Cetitan",
+		'de-de': "Kolowal"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 180,
 	types: ["Water"],
 	evolveFrom: {
-		fr: "Piétacé",
-		en: "Cetoddle",
-		es: "Cetoddle",
-		it: "Cetoddle",
-		pt: "Cetoddle",
-		de: "Flaniwal"
+		'fr-fr': "Piétacé",
+		'en-us': "Cetoddle",
+		'es-es': "Cetoddle",
+		'it-it': "Cetoddle",
+		'pt-br': "Cetoddle",
+		'de-de': "Flaniwal"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			fr: "Missile Stalactite",
-			en: "Icicle Missile",
-			es: "Misil Carámbano",
-			it: "Missilghiaccio",
-			pt: "Míssil Gélido",
-			de: "Eiszapfenrakete"
+			'fr-fr': "Missile Stalactite",
+			'en-us': "Icicle Missile",
+			'es-es': "Misil Carámbano",
+			'it-it': "Missilghiaccio",
+			'pt-br': "Míssil Gélido",
+			'de-de': "Eiszapfenrakete"
 		},
 
 		damage: 50
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Water", "Water", "Colorless"],
 
 		name: {
-			fr: "Corne Spéciale",
-			en: "Special Horn",
-			es: "Cornamenta Especial",
-			it: "Corno Speciale",
-			pt: "Chifre Especial",
-			de: "Spezielles Horn"
+			'fr-fr': "Corne Spéciale",
+			'en-us': "Special Horn",
+			'es-es': "Cornamenta Especial",
+			'it-it': "Corno Speciale",
+			'pt-br': "Chifre Especial",
+			'de-de': "Spezielles Horn"
 		},
 
 		effect: {
-			fr: "Si au moins une Énergie spéciale est attachée à ce Pokémon, cette attaque inflige 140 dégâts supplémentaires.",
-			en: "If this Pokémon has any Special Energy attached, this attack does 140 more damage.",
-			es: "Si este Pokémon tiene alguna Energía Especial unida, este ataque hace 140 puntos de daño más.",
-			it: "Se questo Pokémon ha delle Energie speciali assegnate, questo attacco infligge 140 danni in più.",
-			pt: "Se este Pokémon tiver alguma Energia Especial ligada a ele, este ataque causará 140 pontos de dano a mais.",
-			de: "Wenn an dieses Pokémon mindestens 1 Spezial-Energie angelegt ist, fügt diese Attacke 140 Schadenspunkte mehr zu."
+			'fr-fr': "Si au moins une Énergie spéciale est attachée à ce Pokémon, cette attaque inflige 140 dégâts supplémentaires.",
+			'en-us': "If this Pokémon has any Special Energy attached, this attack does 140 more damage.",
+			'es-es': "Si este Pokémon tiene alguna Energía Especial unida, este ataque hace 140 puntos de daño más.",
+			'it-it': "Se questo Pokémon ha delle Energie speciali assegnate, questo attacco infligge 140 danni in più.",
+			'pt-br': "Se este Pokémon tiver alguma Energia Especial ligada a ele, este ataque causará 140 pontos de dano a mais.",
+			'de-de': "Wenn an dieses Pokémon mindestens 1 Spezial-Energie angelegt ist, fügt diese Attacke 140 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+"
@@ -96,7 +96,7 @@ const card: Card = {
 	illustrator: "Pani Kobayashi",
 
 	description: {
-		en: "This Pokémon wanders around snowy, icy areas. It protects its body with powerful muscles and a thick layer of fat under its skin.",
+		'en-us': "This Pokémon wanders around snowy, icy areas. It protects its body with powerful muscles and a thick layer of fat under its skin.",
 	},
 }
 

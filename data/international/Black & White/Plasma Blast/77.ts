@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Chatot",
-		fr: "Pijako",
-		es: "Chatot",
-		it: "Chatot",
-		pt: "Chatot",
-		de: "Plaudagei"
+		'en-us': "Chatot",
+		'fr-fr': "Pijako",
+		'es-es': "Chatot",
+		'it-it': "Chatot",
+		'pt-br': "Chatot",
+		'de-de': "Plaudagei"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Misinformation",
-				fr: "Intox",
+				'en-us': "Misinformation",
+				'fr-fr': "Intox",
 			},
 			effect: {
-				en: "Discard all Pokémon Tool cards attached to each of your opponent's Pokémon.",
-				fr: "Défaussez toutes les cartes Outil Pokémon attachées à chacun des Pokémon de votre adversaire.",
+				'en-us': "Discard all Pokémon Tool cards attached to each of your opponent's Pokémon.",
+				'fr-fr': "Défaussez toutes les cartes Outil Pokémon attachées à chacun des Pokémon de votre adversaire.",
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tone-Deaf",
-				fr: "Dur d'Oreille",
+				'en-us': "Tone-Deaf",
+				'fr-fr': "Dur d'Oreille",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: 20,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its tongue is just like a human's. As a result, it can cleverly mimic human speech.",
+		'en-us': "Its tongue is just like a human's. As a result, it can cleverly mimic human speech.",
 	},
 
 	thirdParty: {

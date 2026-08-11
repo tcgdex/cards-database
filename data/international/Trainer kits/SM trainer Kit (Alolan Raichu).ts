@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Trainer kits'
 
 const set: Set = {
 	id: "tk-sm-r",
 
 	name: {
-		en: "SM trainer Kit (Alolan Raichu)",
-		it: "Sole e Luna trainer Kit (Alolan Raichu)",
-		fr: "SM Kit du dresseur (Raichu d'Alola)",
-		es: "Kit de Entrenador Sol y Luna (Raichu de Alola)"
+		'en-us': "SM trainer Kit (Alolan Raichu)",
+		'it-it': "Sole e Luna trainer Kit (Alolan Raichu)",
+		'fr-fr': "SM Kit du dresseur (Raichu d'Alola)",
+		'es-es': "Kit de Entrenador Sol y Luna (Raichu de Alola)"
 	},
 
 	serie: serie,
@@ -21,7 +21,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "TK10A",
-		fr: "RAL"
+		'fr-fr': "RAL"
 	},
 
 	thirdParty: {

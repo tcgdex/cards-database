@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビリリダマex",
+		'ja-jp': "ビリリダマex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数×100ダメージ追加。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数×100ダメージ追加。",
 			},
 		},
 	],

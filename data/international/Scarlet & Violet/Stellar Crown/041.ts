@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Greninja ex",
-		fr: "Amphinobi-ex",
-		es: "Greninja ex",
-		it: "Greninja-ex",
-		pt: "Greninja ex",
-		de: "Quajutsu-ex"
+		'en-us': "Greninja ex",
+		'fr-fr': "Amphinobi-ex",
+		'es-es': "Greninja ex",
+		'it-it': "Greninja-ex",
+		'pt-br': "Greninja ex",
+		'de-de': "Quajutsu-ex"
 	},
 
 	rarity: "Double rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 300,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Frogadier",
-		fr: "Croâporal",
-		es: "Frogadier",
-		it: "Frogadier",
-		pt: "Frogadier",
-		de: "Amphizel"
+		'en-us': "Frogadier",
+		'fr-fr': "Croâporal",
+		'es-es': "Frogadier",
+		'it-it': "Frogadier",
+		'pt-br': "Frogadier",
+		'de-de': "Amphizel"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Shifting Shuriken",
-			fr: "Shuriken Changeant",
-			es: "Shuriken Cambiante",
-			it: "Lame Mutevoli",
-			pt: "Estrela Ninja Mutável",
-			de: "Wandel-Shuriken"
+			'en-us': "Shifting Shuriken",
+			'fr-fr': "Shuriken Changeant",
+			'es-es': "Shuriken Cambiante",
+			'it-it': "Lame Mutevoli",
+			'pt-br': "Estrela Ninja Mutável",
+			'de-de': "Wandel-Shuriken"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 100 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 100 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 100 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 100 danni in più.",
-			pt: "Jogue uma moeda. Se sair cara, este ataque causará 100 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 100 Schadenspunkte mehr zu."
+			'en-us': "Flip a coin. If heads, this attack does 100 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 100 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 100 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 100 danni in più.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 100 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 100 Schadenspunkte mehr zu."
 		},
 
 		damage: "100+"

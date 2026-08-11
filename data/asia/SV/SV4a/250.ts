@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "カイデン",
+		'ja-jp': "カイデン",
 		'zh-tw': "電海燕",
-		id: "Wattrel"
+		'id-id': "Wattrel"
 	},
 
 	illustrator: "Scav",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "翼の 骨は 風を 受けると 電気を 作る。 海に 飛び込み 獲物を 感電させて 捕らえる。",
+		'ja-jp': "翼の 骨は 風を 受けると 電気を 作る。 海に 飛び込み 獲物を 感電させて 捕らえる。",
 		'zh-tw': "當翅膀的骨頭受到風吹時，就能製造出電力。會衝進 海裡讓獵物觸電後將其捕獲。",
-		id: "Kerangka sayap Wattrel menciptakan listrik jika menerima angin. Pokémon ini terjun ke laut, menyetrum mangsa, dan menangkapnya."
+		'id-id': "Kerangka sayap Wattrel menciptakan listrik jika menerima angin. Pokémon ini terjun ke laut, menyetrum mangsa, dan menangkapnya."
 	},
 
 	stage: "Basic",
@@ -28,9 +28,9 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "つつく",
+			'ja-jp': "つつく",
 			'zh-tw': "啄",
-			id: "Mematuk"
+			'id-id': "Mematuk"
 		},
 
 		damage: 10
@@ -38,17 +38,17 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "だんけつのつばさ",
+			'ja-jp': "だんけつのつばさ",
 			'zh-tw': "團結之翼",
-			id: "Sayap Bersatu Padu"
+			'id-id': "Sayap Bersatu Padu"
 		},
 
 		damage: "20×",
 
 		effect: {
-			ja: "自分のトラッシュにある、ワザ「だんけつのつばさ」を持つポケモンの枚数×20ダメージ。",
+			'ja-jp': "自分のトラッシュにある、ワザ「だんけつのつばさ」を持つポケモンの枚数×20ダメージ。",
 			'zh-tw': "造成自己的棄牌區的，持有「團結之翼」招式的寶可夢卡的張數×20點傷害。",
-			id: "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap lembar Pokémon yang memiliki serangan Sayap Bersatu Padu yang ada di Trash sendiri."
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap lembar Pokémon yang memiliki serangan Sayap Bersatu Padu yang ada di Trash sendiri."
 		}
 	}],
 

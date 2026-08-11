@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロストスイーパー",
+		'ja-jp': "ロストスイーパー",
 	},
 
 	illustrator: "Toyste Beach",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードは、自分の手札を1枚、ロストゾーンに置かなければ使えない。おたがいの場のポケモンについている「ポケモンのどうぐ」と場に出ている「スタジアム」の中から1枚選び、ロストゾーンに置く。",
+		'ja-jp': "このカードは、自分の手札を1枚、ロストゾーンに置かなければ使えない。おたがいの場のポケモンについている「ポケモンのどうぐ」と場に出ている「スタジアム」の中から1枚選び、ロストゾーンに置く。",
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../DP trainer Kit (Lucario)'
 
 const card: Card = {
@@ -6,8 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Riolu",
-		fr: "Riolu"
+		'en-us': "Riolu",
+		'fr-fr': "Riolu"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,12 +27,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Wild Kick",
-				fr: "Coup déchaîné"
+				'en-us': "Wild Kick",
+				'fr-fr': "Coup déchaîné"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
 			},
 			damage: "30"
 		}
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "The aura that emanates from its body intensifies to alert others if it is afraid or sad."
+		'en-us': "The aura that emanates from its body intensifies to alert others if it is afraid or sad."
 	},
 
 	retreat: 1,

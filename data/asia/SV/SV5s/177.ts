@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Scizor ex"
+		'id-id': "Scizor ex"
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -17,22 +17,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			id: "Sayap Baja"
+			'id-id': "Sayap Baja"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 50."
+			'id-id': "Pada giliran lawan berikutnya, kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 50."
 		},
 
 		damage: 70,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Cross Breaker"
+			'id-id': "Cross Breaker"
 		},
 
 		effect: {
-			id: "Buang paling banyak 2 lembar Energi {Logam} yang dikenakan pada Pokémon ini ke Trash, serangan ini memberikan kerusakan sejumlah 120 untuk tiap lembarnya."
+			'id-id': "Buang paling banyak 2 lembar Energi {Logam} yang dikenakan pada Pokémon ini ke Trash, serangan ini memberikan kerusakan sejumlah 120 untuk tiap lembarnya."
 		},
 
 		damage: "120×",

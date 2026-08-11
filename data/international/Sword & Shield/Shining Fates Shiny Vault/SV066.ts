@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Tutétékri de Galar",
-		en: "Galarian Runerigus",
-		es: "Runerigus de Galar",
-		it: "Runerigus di Galar",
-		pt: "Runerigus de Galar",
-		de: "Galar-Oghnatoll"
+		'fr-fr': "Tutétékri de Galar",
+		'en-us': "Galarian Runerigus",
+		'es-es': "Runerigus de Galar",
+		'it-it': "Runerigus di Galar",
+		'pt-br': "Runerigus de Galar",
+		'de-de': "Galar-Oghnatoll"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -21,47 +21,47 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		fr: "Tutafeh de Galar",
-		en: "Galarian Yamask"
+		'fr-fr': "Tutafeh de Galar",
+		'en-us': "Galarian Yamask"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Mépris Réparti",
-			en: "Spreading Spite",
-			es: "Esparcir Rencor",
-			it: "Spargidispetti",
-			pt: "Disseminar Rancor",
-			de: "Boshafte Ausbreitung"
+			'fr-fr': "Mépris Réparti",
+			'en-us': "Spreading Spite",
+			'es-es': "Esparcir Rencor",
+			'it-it': "Spargidispetti",
+			'pt-br': "Disseminar Rancor",
+			'de-de': "Boshafte Ausbreitung"
 		},
 
 		effect: {
-			fr: "Pour chaque marqueur de dégâts sur ce Tutétékri de Galar, placez 2 marqueurs de dégâts sur les Pokémon de votre adversaire comme il vous plaît.",
-			en: "For each damage counter on this Galarian Runerigus, put 2 damage counters on your opponent's Pokémon in any way you like.",
-			es: "Por cada contador de daño en este Runerigus de Galar, pon 2 contadores de daño en los Pokémon de tu rival de la manera que desees.",
-			it: "Per ogni segnalino danno presente su questo Runerigus di Galar, metti due segnalini danno sui Pokémon del tuo avversario nel modo che preferisci.",
-			pt: "Para cada contador de dano neste Runerigus de Galar, coloque 2 contadores de dano nos Pokémon do seu oponente como desejar.",
-			de: "Lege für jede Schadensmarke auf diesem Galar-Oghnatoll 2 Schadensmarken beliebig auf die Pokémon deines Gegners."
+			'fr-fr': "Pour chaque marqueur de dégâts sur ce Tutétékri de Galar, placez 2 marqueurs de dégâts sur les Pokémon de votre adversaire comme il vous plaît.",
+			'en-us': "For each damage counter on this Galarian Runerigus, put 2 damage counters on your opponent's Pokémon in any way you like.",
+			'es-es': "Por cada contador de daño en este Runerigus de Galar, pon 2 contadores de daño en los Pokémon de tu rival de la manera que desees.",
+			'it-it': "Per ogni segnalino danno presente su questo Runerigus di Galar, metti due segnalini danno sui Pokémon del tuo avversario nel modo che preferisci.",
+			'pt-br': "Para cada contador de dano neste Runerigus de Galar, coloque 2 contadores de dano nos Pokémon do seu oponente como desejar.",
+			'de-de': "Lege für jede Schadensmarke auf diesem Galar-Oghnatoll 2 Schadensmarken beliebig auf die Pokémon deines Gegners."
 		},
 
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			fr: "Marteau en Folie",
-			en: "Mad Hammer",
-			es: "Martillo Enloquecido",
-			it: "Martello Pazzo",
-			pt: "Martelo Insano",
-			de: "Verrückter Hammer"
+			'fr-fr': "Marteau en Folie",
+			'en-us': "Mad Hammer",
+			'es-es': "Martillo Enloquecido",
+			'it-it': "Martello Pazzo",
+			'pt-br': "Martelo Insano",
+			'de-de': "Verrückter Hammer"
 		},
 
 		effect: {
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			en: "This Pokémon also does 30 damage to itself.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 120,
@@ -78,7 +78,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "A powerful curse was woven into an ancient painting. After absorbing the spirit of a Yamask, the painting began to move."
+		'en-us': "A powerful curse was woven into an ancient painting. After absorbing the spirit of a Yamask, the painting began to move."
 	},
 
 	variants: [

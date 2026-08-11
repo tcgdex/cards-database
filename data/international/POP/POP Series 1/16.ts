@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 1'
 
 const card: Card = {
 	name: {
-		en: "Armaldo ex",
-		fr: "Armaldo ex"
+		'en-us': "Armaldo ex",
+		'fr-fr': "Armaldo ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Anorith",
-		fr: "Anorith"
+		'en-us': "Anorith",
+		'fr-fr': "Anorith"
 	},
 
 	stage: "Stage2",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Twin-blade",
-				fr: "Double épée"
+				'en-us': "Twin-blade",
+				'fr-fr': "Double épée"
 			},
 			effect: {
-				en: "Does 30 damage to each Defending Pokémon.",
-				fr: "Inflige 30 dégâts à chacun des Pokémon Défenseurs."
+				'en-us': "Does 30 damage to each Defending Pokémon.",
+				'fr-fr': "Inflige 30 dégâts à chacun des Pokémon Défenseurs."
 			},
 
 		},
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Supersonic Claws",
-				fr: "Griffes supersoniques"
+				'en-us': "Supersonic Claws",
+				'fr-fr': "Griffes supersoniques"
 			},
 			effect: {
-				en: "This attack's damage is not affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+				'en-us': "This attack's damage is not affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
 			},
 			damage: 80,
 

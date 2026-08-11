@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../My First Battle"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ivysaur",
+		'en-us': "Ivysaur",
 	},
 
 	rarity: "None",
@@ -19,7 +19,7 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Vine Whip",
+			'en-us': "Vine Whip",
 		},
 
 		damage: 30
@@ -27,7 +27,7 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Grass"],
 
 		name: {
-			en: "Razor Leaf",
+			'en-us': "Razor Leaf",
 		},
 
 		damage: 60

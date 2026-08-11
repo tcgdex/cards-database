@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "スレーキング",
+		'ja-jp': "スレーキング",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "怠zyなオーラ",
+				'ja-jp': "怠zyなオーラ",
 			},
 			effect: {
-				ja: "スレーキングがあなたのアクティブなポカモンである限り、相手のpokã©mon-exからの攻撃によって与えられた損害は30減少します（脱力感と抵抗を適用する前に）。",
+				'ja-jp': "スレーキングがあなたのアクティブなポカモンである限り、相手のpokã©mon-exからの攻撃によって与えられた損害は30減少します（脱力感と抵抗を適用する前に）。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "健忘症",
+				'ja-jp': "健忘症",
 			},
 			effect: {
-				ja: "防御ポケモンの攻撃の1つを選択します。そのポケモンは、相手の次のターン中にその攻撃を使用できません。",
+				'ja-jp': "防御ポケモンの攻撃の1つを選択します。そのポケモンは、相手の次のターン中にその攻撃を使用できません。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "怠惰なヘッドバット",
+				'ja-jp': "怠惰なヘッドバット",
 			},
 			effect: {
-				ja: "スレーキングは今眠っています。",
+				'ja-jp': "スレーキングは今眠っています。",
 			},
 			damage: 70,
 		},

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ลูคาริโอ",
-		id: "Lucario"
+		'th-th': "ลูคาริโอ",
+		'id-id': "Lucario"
 	},
 
 	illustrator: "Nurikabe",
@@ -15,34 +15,34 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		th: "ว่ากันว่าสามารถมองเห็นอีกฝ่ายที่ซ่อนตัวอยู่ได้จากการจับคลื่นพลัง",
-		id: "Dikatakan bahwa Lucario dapat melihat sosok lawan yang tak kasat mata dengan mendeteksi gelombang aura."
+		'th-th': "ว่ากันว่าสามารถมองเห็นอีกฝ่ายที่ซ่อนตัวอยู่ได้จากการจับคลื่นพลัง",
+		'id-id': "Dikatakan bahwa Lucario dapat melihat sosok lawan yang tak kasat mata dengan mendeteksi gelombang aura."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			th: "อเวนจ์นักเคิล",
-			id: "Avenge Knuckle"
+			'th-th': "อเวนจ์นักเคิล",
+			'id-id': "Avenge Knuckle"
 		},
 
 		effect: {
-			th: "ในเทิร์นก่อนของฝ่ายตรงข้าม ถ้าโปเกมอน[ต่อสู้]ฝ่ายเรา[หมดสภาพ] ด้วยแดเมจของท่าต่อสู้ การโจมตีนี้จะเพิ่มแดเมจอีก 120",
-			id: "Jika pada giliran lawan sebelumnya, ada Pokémon {Petarung} sendiri yang KO karena kerusakan akibat serangan, kerusakan yang diberikan bertambah sejumlah 120."
+			'th-th': "ในเทิร์นก่อนของฝ่ายตรงข้าม ถ้าโปเกมอน[ต่อสู้]ฝ่ายเรา[หมดสภาพ] ด้วยแดเมจของท่าต่อสู้ การโจมตีนี้จะเพิ่มแดเมจอีก 120",
+			'id-id': "Jika pada giliran lawan sebelumnya, ada Pokémon {Petarung} sendiri yang KO karena kerusakan akibat serangan, kerusakan yang diberikan bertambah sejumlah 120."
 		},
 
 		damage: "30+",
 		cost: ["Fighting"]
 	}, {
 		name: {
-			th: "เร่งความเร็วพุ่งชน",
-			id: "Tusukan Akselerasi"
+			'th-th': "เร่งความเร็วพุ่งชน",
+			'id-id': "Tusukan Akselerasi"
 		},
 
 		effect: {
-			th: "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ [เร่งความเร็วพุ่งชน] ไม่ได้",
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan Tusukan Akselerasi."
+			'th-th': "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ [เร่งความเร็วพุ่งชน] ไม่ได้",
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan Tusukan Akselerasi."
 		},
 
 		damage: 120,

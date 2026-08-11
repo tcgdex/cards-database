@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホップのこだわりハチマキ",
+		'ja-jp': "ホップのこだわりハチマキ",
 	},
 
 	illustrator: "Toyste Beach",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけている「ホップのポケモン」は、ワザを使うためのエネルギーが[C]エネルギー1個ぶん少なくなり、そのポケモンが使うワザの、相手のバトルポケモンへのダメージは「+30」される。",
+		'ja-jp': "このカードをつけている「ホップのポケモン」は、ワザを使うためのエネルギーが[C]エネルギー1個ぶん少なくなり、そのポケモンが使うワザの、相手のバトルポケモンへのダメージは「+30」される。",
 	},
 
 	variants: [

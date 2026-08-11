@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Sandygast"
+		'id-id': "Sandygast"
 	},
 
 	illustrator: "Asako Ito",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Sandygast membutakan mangsanya dengan pasir dan hendak mendekatinya pada kesempatan itu, tetapi mangsa tersebut melarikan diri karena pergerakan Pokémon ini lambat."
+		'id-id': "Sandygast membutakan mangsanya dengan pasir dan hendak mendekatinya pada kesempatan itu, tetapi mangsa tersebut melarikan diri karena pergerakan Pokémon ini lambat."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Semprotan Pasir"
+			'id-id': "Semprotan Pasir"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, saat Pokémon yang menerima serangan ini menggunakan serangan, lawan melempar koin 1 kali. Jika hasilnya sisi belakang, serangan tersebut gagal."
+			'id-id': "Pada giliran lawan berikutnya, saat Pokémon yang menerima serangan ini menggunakan serangan, lawan melempar koin 1 kali. Jika hasilnya sisi belakang, serangan tersebut gagal."
 		},
 
 		damage: 10,
 		cost: ["Psychic"]
 	}, {
 		name: {
-			id: "Hollow Shot"
+			'id-id': "Hollow Shot"
 		},
 
 		damage: 30,

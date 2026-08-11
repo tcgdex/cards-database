@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Shiftry"
+		'id-id': "Shiftry"
 	},
 
 	illustrator: "SIE NANAHARA",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Pokémon yang ditakuti sebagai Dewa Hutan. Shiftry memiliki kemampuan untuk membaca pikiran lawan dan mengantisipasinya."
+		'id-id': "Pokémon yang ditakuti sebagai Dewa Hutan. Shiftry memiliki kemampuan untuk membaca pikiran lawan dan mengantisipasinya."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			id: "Tornado Pengusir"
+			'id-id': "Tornado Pengusir"
 		},
 
 		effect: {
-			id: "Pilih 3 Pokémon Cadangan lawan. Setelah itu, kocok kembali semua Pokémon Cadangan lawan yang tidak dipilih dan semua kartu yang dikenakannya ke Deck lawan."
+			'id-id': "Pilih 3 Pokémon Cadangan lawan. Setelah itu, kocok kembali semua Pokémon Cadangan lawan yang tidak dipilih dan semua kartu yang dikenakannya ke Deck lawan."
 		},
 
 		cost: ["Grass"]
 	}, {
 		name: {
-			id: "Energy Loop"
+			'id-id': "Energy Loop"
 		},
 
 		effect: {
-			id: "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu kembalikan ke Kartu Pegangan."
+			'id-id': "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu kembalikan ke Kartu Pegangan."
 		},
 
 		damage: 140,

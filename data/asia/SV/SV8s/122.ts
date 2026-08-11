@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Skarmory",
-		th: "แอร์มุโด"
+		'id-id': "Skarmory",
+		'th-th': "แอร์มุโด"
 	},
 
 	illustrator: "kawayoo",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		id: "Kabarnya bulu Skarmory yang rontok itu tipis dan tajam sehingga adakalanya digunakan sebagai pedang.",
-		th: "ขนที่หลุดร่วงนั้นทั้งบางและแหลมคม เหมือนว่าจะถูกเก็บไปใช้ต่างดาบ ด้วยล่ะ"
+		'id-id': "Kabarnya bulu Skarmory yang rontok itu tipis dan tajam sehingga adakalanya digunakan sebagai pedang.",
+		'th-th': "ขนที่หลุดร่วงนั้นทั้งบางและแหลมคม เหมือนว่าจะถูกเก็บไปใช้ต่างดาบ ด้วยล่ะ"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Sayap Baja",
-			th: "ปีกเหล็ก"
+			'id-id': "Sayap Baja",
+			'th-th': "ปีกเหล็ก"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 30.",
-			th: "เทิร์นถัดไปของฝ่ายตรงข้าม แดเมจของท่าต่อสู้ที่โปเกมอนนี้จะได้รับจะถูก [-30]"
+			'id-id': "Pada giliran lawan berikutnya, kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 30.",
+			'th-th': "เทิร์นถัดไปของฝ่ายตรงข้าม แดเมจของท่าต่อสู้ที่โปเกมอนนี้จะได้รับจะถูก [-30]"
 		},
 
 		damage: 50,

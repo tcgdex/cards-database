@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Igglybuff",
-		de: "Fluffeluff"
+		'en-us': "Igglybuff",
+		'de-de': "Fluffeluff"
 	},
 
 	illustrator: "Keiko Fukuyama",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Heal",
-				de: "Energieauffrischung"
+				'en-us': "Energy Heal",
+				'de-de': "Energieauffrischung"
 			},
 			effect: {
-				en: "Choose 1 of your Pokémon with an Energy card attached to it. Remove 1 damage counter from that Pokémon.",
-				de: "Wähle 1 deiner Pokémon, an das mindestens eine Energiekarte angelegt ist. Entferne 1 Schadensmarke von deinem Pokémon."
+				'en-us': "Choose 1 of your Pokémon with an Energy card attached to it. Remove 1 damage counter from that Pokémon.",
+				'de-de': "Wähle 1 deiner Pokémon, an das mindestens eine Energiekarte angelegt ist. Entferne 1 Schadensmarke von deinem Pokémon."
 			},
 
 		},

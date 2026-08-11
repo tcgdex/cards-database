@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HGSS Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Wobbuffet",
-		fr: "Qulbutoke"
+		'en-us': "Wobbuffet",
+		'fr-fr': "Qulbutoke"
 	},
 	illustrator: "match",
 	rarity: "Promo",
@@ -23,12 +23,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Tenacious Bind",
-				fr: "Liaison tenace"
+				'en-us': "Tenacious Bind",
+				'fr-fr': "Liaison tenace"
 			},
 			effect: {
-				en: "As long as Wobbuffet is your Active Pokémon, your opponent's Active Pokémon's Retreat Cost is ColorlessColorless more.",
-				fr: "Tant que Qulbutoke est votre Pokémon Actif, le Coût de retraite du Pokémon Actif de votre adversaire est augmenté de ."
+				'en-us': "As long as Wobbuffet is your Active Pokémon, your opponent's Active Pokémon's Retreat Cost is ColorlessColorless more.",
+				'fr-fr': "Tant que Qulbutoke est votre Pokémon Actif, le Coût de retraite du Pokémon Actif de votre adversaire est augmenté de ."
 			}
 		},
 	],
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Trip Over",
-				fr: "Croche-pied"
+				'en-us': "Trip Over",
+				'fr-fr': "Croche-pied"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 30 dégâts supplémentaires."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 30 dégâts supplémentaires."
 			},
 			damage: "20+",
 
@@ -60,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack."
+		'en-us': "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack."
 	},
 
 	variants: [

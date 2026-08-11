@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プテラ",
+		'ja-jp': "プテラ",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "先史時代の力",
+				'ja-jp': "先史時代の力",
 			},
 			effect: {
-				ja: "これ以上進化カードを再生できません。このパワーは、アエロダクチルが眠っている、混乱し、麻痺している間に機能しなくなります。",
+				'ja-jp': "これ以上進化カードを再生できません。このパワーは、アエロダクチルが眠っている、混乱し、麻痺している間に機能しなくなります。",
 			},
 		}],
 
@@ -30,7 +30,7 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "翼攻撃",
+				'ja-jp': "翼攻撃",
 			},
 			damage: 30,
 		},

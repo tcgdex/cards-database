@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ピロスワイン",
+		'ja-jp': "ピロスワイン",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				ja: "凍る息",
+				'ja-jp': "凍る息",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。尾の場合、防御ポケモンは今眠っています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。尾の場合、防御ポケモンは今眠っています。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "トランプ",
+				'ja-jp': "トランプ",
 			},
 			effect: {
-				ja: "ベンチ付きポケモン（あなたと相手）ごとに、コインをひっくり返します。頭の場合、この攻撃はそのポケモンに20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "ベンチ付きポケモン（あなたと相手）ごとに、コインをひっくり返します。頭の場合、この攻撃はそのポケモンに20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 			damage: 40,
 		},

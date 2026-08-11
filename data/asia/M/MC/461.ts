@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホイーガ",
+		'ja-jp': "ホイーガ",
 	},
 
 	illustrator: "Krgc",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "高速で 回転し 相手に 突撃。 最高時速は およそ １００キロに 達する。",
+		'ja-jp': "高速で 回転し 相手に 突撃。 最高時速は およそ １００キロに 達する。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ポイズンサークル" },
 			cost: ["Darkness"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "相手のバトルポケモンをどくにする。次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "フシデ",
+		'ja-jp': "フシデ",
 	},
 
 	retreat: 3,

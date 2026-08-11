@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Team Star Grunt",
-		fr: "Sbire de la Team Star",
-		es: "Recluta del Team Star",
-		it: "Recluta del Team Star",
-		pt: "Recruta da Equipe Star",
-		de: "Rüpel von Team Star"
+		'en-us': "Team Star Grunt",
+		'fr-fr': "Sbire de la Team Star",
+		'es-es': "Recluta del Team Star",
+		'it-it': "Recluta del Team Star",
+		'pt-br': "Recruta da Equipe Star",
+		'de-de': "Rüpel von Team Star"
   },
   illustrator: "nagimiso",
   rarity: "Two Diamond",

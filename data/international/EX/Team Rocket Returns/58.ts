@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Horsea",
-		de: "Seeper"
+		'en-us': "Horsea",
+		'de-de': "Seeper"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Plant",
-				de: "Water Plant"
+				'en-us': "Water Plant",
+				'de-de': "Water Plant"
 			},
 			effect: {
-				en: "Search your discard pile for up to 2 Water Energy cards show them to your opponent and put them into your hand.\"",
-				de: "Search your discard pile for up to 2  Energy cards, show them to your opponent, and put them into your hand."
+				'en-us': "Search your discard pile for up to 2 Water Energy cards show them to your opponent and put them into your hand.\"",
+				'de-de': "Search your discard pile for up to 2  Energy cards, show them to your opponent, and put them into your hand."
 			},
 
 		},
@@ -45,12 +45,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Swift",
-				de: "Swift"
+				'en-us': "Swift",
+				'de-de': "Swift"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
-				de: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'de-de': "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
 			},
 			damage: 30,
 

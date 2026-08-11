@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Bacabouh",
-		en: "Sandygast",
-		es: "Sandygast",
-		it: "Sandygast",
-		pt: "Sandygast",
-		de: "Sankabuh"
+		'fr-fr': "Bacabouh",
+		'en-us': "Sandygast",
+		'es-es': "Sandygast",
+		'it-it': "Sandygast",
+		'pt-br': "Sandygast",
+		'de-de': "Sankabuh"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Murmure",
-			en: "Mumble",
-			es: "Farfullar",
-			it: "Borbottio",
-			pt: "Resmungo",
-			de: "Grummeln"
+			'fr-fr': "Murmure",
+			'en-us': "Mumble",
+			'es-es': "Farfullar",
+			'it-it': "Borbottio",
+			'pt-br': "Resmungo",
+			'de-de': "Grummeln"
 		},
 
 		damage: 20
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Tir de Boue",
-			en: "Mud Shot",
-			es: "Disparo Lodo",
-			it: "Colpodifango",
-			pt: "Tiro de Lama",
-			de: "Lehmschuss"
+			'fr-fr': "Tir de Boue",
+			'en-us': "Mud Shot",
+			'es-es': "Disparo Lodo",
+			'it-it': "Colpodifango",
+			'pt-br': "Tiro de Lama",
+			'de-de': "Lehmschuss"
 		},
 
 		damage: 40
@@ -85,7 +85,7 @@ const card: Card = {
 	illustrator: "Shin Nagasawa",
 
 	description: {
-		en: "If it loses its shovel, it will stick something else— like a branch—in its head to make do until it finds another shovel.",
+		'en-us': "If it loses its shovel, it will stick something else— like a branch—in its head to make do until it finds another shovel.",
 	},
 }
 

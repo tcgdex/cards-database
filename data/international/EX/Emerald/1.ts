@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerald'
 
 const card: Card = {
 	name: {
-		en: "Blaziken",
-		fr: "Brasegali",
-		de: "Lohgock"
+		'en-us': "Blaziken",
+		'fr-fr': "Brasegali",
+		'de-de': "Lohgock"
 	},
 
 	illustrator: "Midori Harada",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Combusken",
-		fr: "Galifeu"
+		'en-us': "Combusken",
+		'fr-fr': "Galifeu"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Blaze",
-				fr: "Brasier",
-				de: "Blaze"
+				'en-us': "Blaze",
+				'fr-fr': "Brasier",
+				'de-de': "Blaze"
 			},
 			effect: {
-				en: "As long as Blaziken's remaining HP is 40 or less, Blaziken does 40 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
-				fr: "Tant que Brasegali possède 40 Points de vie ou moins, il inflige 40 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance).",
-				de: "As long as Blaziken's remainingHP is 40 or less,Blaziken does 40 damage to the Defending Pokémon ( before applying Weakness and Resistance"
+				'en-us': "As long as Blaziken's remaining HP is 40 or less, Blaziken does 40 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Tant que Brasegali possède 40 Points de vie ou moins, il inflige 40 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "As long as Blaziken's remainingHP is 40 or less,Blaziken does 40 damage to the Defending Pokémon ( before applying Weakness and Resistance"
 			},
 		},
 	],
@@ -52,29 +52,29 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Searing Flame",
-				fr: "Flammes calcinantes",
-				de: "Searing Flame"
+				'en-us': "Searing Flame",
+				'fr-fr': "Flammes calcinantes",
+				'de-de': "Searing Flame"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
-				de: "The Defending Pokémon is now Burned."
+				'en-us': "The Defending Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "The Defending Pokémon is now Burned."
 			},
 			damage: 10,
 
 		},
 		{
 			name: {
-				en: "Damage Burn",
-				fr: "Dégâts brûlants",
-				de: "Damage Burn"
+				'en-us': "Damage Burn",
+				'fr-fr': "Dégâts brûlants",
+				'de-de': "Damage Burn"
 			},
 
 			effect: {
-				en: "If the Defending Pokémon already has any damage counters on it, this attack does 50 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires.",
-				de: "If the Defending Pokémon already has any Damage counters on it, this attack does 50 damage plus 20 more damage."
+				'en-us': "If the Defending Pokémon already has any damage counters on it, this attack does 50 damage plus 20 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon already has any Damage counters on it, this attack does 50 damage plus 20 more damage."
 			},
 
 			damage: "50+",

@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Vikavolt",
-		fr: "Lucanon",
-		es: "Vikavolt",
+		'en-us': "Vikavolt",
+		'fr-fr': "Lucanon",
+		'es-es': "Vikavolt",
 		'es-mx': "Vikavolt",
-		de: "Donarion",
-		it: "Vikavolt",
-		pt: "Vikavolt"
+		'de-de': "Donarion",
+		'it-it': "Vikavolt",
+		'pt-br': "Vikavolt"
 	},
 
 	evolveFrom: {
-		en: "Charjabug",
-		fr: "Chrysapile",
-		es: "Charjabug",
+		'en-us': "Charjabug",
+		'fr-fr': "Chrysapile",
+		'es-es': "Charjabug",
 		'es-mx': "Charjabug",
-		de: "Akkup",
-		it: "Charjabug",
-		pt: "Charjabug",
+		'de-de': "Akkup",
+		'it-it': "Charjabug",
+		'pt-br': "Charjabug",
 	},
 
 	illustrator: "Shiburingaru",
@@ -36,23 +36,23 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Volt Switch",
-			fr: "Change-Éclair",
-			es: "Voltiocambio",
+			'en-us': "Volt Switch",
+			'fr-fr': "Change-Éclair",
+			'es-es': "Voltiocambio",
 			'es-mx': "Cambiavoltaje",
-			de: "Voltwechsel",
-			it: "Invertivolt",
-			pt: "Troca Elétrica"
+			'de-de': "Voltwechsel",
+			'it-it': "Invertivolt",
+			'pt-br': "Troca Elétrica"
 		},
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched {L} Pokémon.",
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon {L} de Banc.",
-			es: "Cambia este Pokémon por uno de tus Pokémon {L} en Banca.",
+			'en-us': "Switch this Pokémon with 1 of your Benched {L} Pokémon.",
+			'fr-fr': "Échangez ce Pokémon contre l'un de vos Pokémon {L} de Banc.",
+			'es-es': "Cambia este Pokémon por uno de tus Pokémon {L} en Banca.",
 			'es-mx': "Cambia este Pokémon por 1 de tus Pokémon {L} en Banca.",
-			de: "Tausche dieses Pokémon gegen 1 {L}-Pokémon auf deiner Bank aus.",
-			it: "Scambia questo Pokémon con un Pokémon {L} della tua panchina.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon {L} no Banco."
+			'de-de': "Tausche dieses Pokémon gegen 1 {L}-Pokémon auf deiner Bank aus.",
+			'it-it': "Scambia questo Pokémon con un Pokémon {L} della tua panchina.",
+			'pt-br': "Troque este Pokémon por 1 dos seus Pokémon {L} no Banco."
 		},
 
 		damage: 90
@@ -60,13 +60,13 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Colorless", "Colorless"],
 
 		name: {
-			en: "Sparking Strike",
-			fr: "Frappe Étincelante",
-			es: "Golpe Chispeante",
+			'en-us': "Sparking Strike",
+			'fr-fr': "Frappe Étincelante",
+			'es-es': "Golpe Chispeante",
 			'es-mx': "Golpe Chispeante",
-			de: "Funkenschlag",
-			it: "Colpo Scintilla",
-			pt: "Golpe Cintilante"
+			'de-de': "Funkenschlag",
+			'it-it': "Colpo Scintilla",
+			'pt-br': "Golpe Cintilante"
 		},
 
 		damage: 240
@@ -82,7 +82,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "When carrying a Charjabug, Vikavolt can receive electricity from it and then rapidly fire powerful electromagnetic beams from its large jaws.",
+		'en-us': "When carrying a Charjabug, Vikavolt can receive electricity from it and then rapidly fire powerful electromagnetic beams from its large jaws.",
 	},
 
 	variants: [

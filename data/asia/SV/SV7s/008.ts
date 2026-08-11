@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เดนทูลา",
-		id: "Galvantula"
+		'th-th': "เดนทูลา",
+		'id-id': "Galvantula"
 	},
 
 	illustrator: "mashu",
@@ -15,8 +15,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		th: "โจมตีด้วยการปล่อยขนท้องที่ชาร์จไฟฟ้า ถ้าถูกขนทิ่มทั่วร่างจะชาไปสามวันสามคืน",
-		id: "Galvantula melakukan serangan dengan menerbangkan bulu perutnya yang bermuatan listrik. Siapa yang tertusuk bulu tersebut akan kejang-kejang selama tiga hari tiga malam."
+		'th-th': "โจมตีด้วยการปล่อยขนท้องที่ชาร์จไฟฟ้า ถ้าถูกขนทิ่มทั่วร่างจะชาไปสามวันสามคืน",
+		'id-id': "Galvantula melakukan serangan dengan menerbangkan bulu perutnya yang bermuatan listrik. Siapa yang tertusuk bulu tersebut akan kejang-kejang selama tiga hari tiga malam."
 	},
 
 	stage: "Stage1",
@@ -25,25 +25,25 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			th: "ตารวม",
-			id: "Mata Majemuk"
+			'th-th': "ตารวม",
+			'id-id': "Mata Majemuk"
 		},
 
 		effect: {
-			th: "แดเมจของท่าต่อสู้ที่โปเกมอนนี้ ใช้ทำกับโปเกมอนที่มีความสามารถบนตำแหน่งต่อสู้ฝ่ายตรงข้ามจะถูก [+50]",
-			id: "Kerusakan akibat serangan yang digunakan oleh Pokémon ini kepada Pokémon yang memiliki Ability di Arena Bertarung lawan bertambah sejumlah 50."
+			'th-th': "แดเมจของท่าต่อสู้ที่โปเกมอนนี้ ใช้ทำกับโปเกมอนที่มีความสามารถบนตำแหน่งต่อสู้ฝ่ายตรงข้ามจะถูก [+50]",
+			'id-id': "Kerusakan akibat serangan yang digunakan oleh Pokémon ini kepada Pokémon yang memiliki Ability di Arena Bertarung lawan bertambah sejumlah 50."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			th: "ใยแปล๊บปล๊าบ",
-			id: "Jaring Berkejut-kejut"
+			'th-th': "ใยแปล๊บปล๊าบ",
+			'id-id': "Jaring Berkejut-kejut"
 		},
 
 		effect: {
-			th: "ถ้าโปเกมอนนี้มีพลังงาน[สายฟ้า]ติดอยู่ การโจมตีนี้จะเพิ่มแดเมจอีก 80",
-			id: "Jika Pokémon ini mengenakan Energi {Listrik}, kerusakan yang diberikan bertambah sejumlah 80."
+			'th-th': "ถ้าโปเกมอนนี้มีพลังงาน[สายฟ้า]ติดอยู่ การโจมตีนี้จะเพิ่มแดเมจอีก 80",
+			'id-id': "Jika Pokémon ini mengenakan Energi {Listrik}, kerusakan yang diberikan bertambah sejumlah 80."
 		},
 
 		damage: "50+",

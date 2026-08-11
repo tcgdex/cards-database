@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シャックル",
+		'ja-jp': "シャックル",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "撤回する",
+				'ja-jp': "撤回する",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、対戦相手の次のターン中に、すべてのダメージがシャックルするのを防ぎます。 （攻撃の他の影響はまだ発生しています。）",
+				'ja-jp': "コインをひっくり返します。頭の場合は、対戦相手の次のターン中に、すべてのダメージがシャックルするのを防ぎます。 （攻撃の他の影響はまだ発生しています。）",
 			},
 		},
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "包む",
+				'ja-jp': "包む",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 20,
 		},

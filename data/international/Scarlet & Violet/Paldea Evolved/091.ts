@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Mesmérella",
-		en: "Gothorita",
-		es: "Gothorita",
-		it: "Gothorita",
-		pt: "Gothorita",
-		de: "Hypnomorba"
+		'fr-fr': "Mesmérella",
+		'en-us': "Gothorita",
+		'es-es': "Gothorita",
+		'it-it': "Gothorita",
+		'pt-br': "Gothorita",
+		'de-de': "Hypnomorba"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Psychic"],
 	evolveFrom: {
-		fr: "Scrutella",
-		en: "Gothita",
-		es: "Gothita",
-		it: "Gothita",
-		pt: "Gothita",
-		de: "Mollimorba"
+		'fr-fr': "Scrutella",
+		'en-us': "Gothita",
+		'es-es': "Gothita",
+		'it-it': "Gothita",
+		'pt-br': "Gothita",
+		'de-de': "Mollimorba"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Contrôleur d'Esprit",
-			en: "Mind Bend",
-			es: "Fusión Mental",
-			it: "Fusione Mentale",
-			pt: "Dobra Mentes",
-			de: "Gedankenverbiegung"
+			'fr-fr': "Contrôleur d'Esprit",
+			'en-us': "Mind Bend",
+			'es-es': "Fusión Mental",
+			'it-it': "Fusione Mentale",
+			'pt-br': "Dobra Mentes",
+			'de-de': "Gedankenverbiegung"
 		},
 
 		effect: {
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			en: "Your opponent's Active Pokémon is now Confused.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 		},
 
 		damage: 20
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			fr: "Super Psy",
-			en: "Super Psy Bolt",
-			es: "Superrayo Psi",
-			it: "Superpsico",
-			pt: "Super-raio Psíquico",
-			de: "Super-Psischlag"
+			'fr-fr': "Super Psy",
+			'en-us': "Super Psy Bolt",
+			'es-es': "Superrayo Psi",
+			'it-it': "Superpsico",
+			'pt-br': "Super-raio Psíquico",
+			'de-de': "Super-Psischlag"
 		},
 
 		damage: 40
@@ -102,7 +102,7 @@ const card: Card = {
 	illustrator: "Aya Kusube",
 
 	description: {
-		en: "This Pokémon will hypnotize children to put them to sleep before carrying them away. Be wary of nights when the starlight is bright.",
+		'en-us': "This Pokémon will hypnotize children to put them to sleep before carrying them away. Be wary of nights when the starlight is bright.",
 	},
 }
 

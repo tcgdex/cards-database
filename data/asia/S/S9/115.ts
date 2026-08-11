@@ -1,18 +1,18 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "チェレンの気くばり"
+		'ja-jp': "チェレンの気くばり"
 	},
 
 	illustrator: "Ryuta Fuse",
 	category: "Trainer",
 
 	effect: {
-		ja: "ダメカンがのっている自分のポケモンを1匹選び、そのポケモンと、ついているすべてのカードを、手札にもどす。"
+		'ja-jp': "ダメカンがのっている自分のポケモンを1匹選び、そのポケモンと、ついているすべてのカードを、手札にもどす。"
 	},
 
 	variants: [

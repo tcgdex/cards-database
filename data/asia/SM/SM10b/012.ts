@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒノヤコマ",
+		'ja-jp': "ヒノヤコマ",
 	},
 
 	illustrator: "Mina Nakai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "草むらに ひのこを まき散らす。 炎に 驚いて 飛び出してきた むしポケモンを ぱくりと いただく。",
+		'ja-jp': "草むらに ひのこを まき散らす。 炎に 驚いて 飛び出してきた むしポケモンを ぱくりと いただく。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Fire"],
 			effect: {
-				ja: "自分の山札にある[炎]エネルギーを1枚、このポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札にある[炎]エネルギーを1枚、このポケモンにつける。そして山札を切る。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤヤコマ",
+		'ja-jp': "ヤヤコマ",
 	},
 
 	retreat: 1,

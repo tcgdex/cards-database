@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "グルトン",
+		'ja-jp': "グルトン",
 		'zh-tw': "愛吃豚",
-		th: "กูร์ตง"
+		'th-th': "กูร์ตง"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -18,9 +18,9 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "一日中 エサを 探す。 優れた 嗅覚を 持つが エサ探し 以外に 使わない。",
+		'ja-jp': "一日中 エサを 探す。 優れた 嗅覚を 持つが エサ探し 以外に 使わない。",
 		'zh-tw': "一整天都在覓食。雖然擁有優秀的嗅覺， 但卻只被用在覓食上。",
-		th: "หาอาหารตลอดวัน มีประสาทการรับกลิ่นที่ยอดเยี่ยมแต่จะไม่ใช้ไปกับเรื่องที่ไม่เกี่ยวข้องกับการหาอาหาร"
+		'th-th': "หาอาหารตลอดวัน มีประสาทการรับกลิ่นที่ยอดเยี่ยมแต่จะไม่ใช้ไปกับเรื่องที่ไม่เกี่ยวข้องกับการหาอาหาร"
 	},
 
 	stage: "Basic",
@@ -29,9 +29,9 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "たいあたり",
+			'ja-jp': "たいあたり",
 			'zh-tw': "撞擊",
-			th: "พุ่งเข้าชน"
+			'th-th': "พุ่งเข้าชน"
 		},
 
 		damage: 20

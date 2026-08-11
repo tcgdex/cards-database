@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒスイ ヌメルゴンVSTAR",
+		'ja-jp': "ヒスイ ヌメルゴンVSTAR",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "モイストスター" },
 			effect: {
-				ja: "自分の番に使える。このポケモンのHPを、すべて回復する。［対戦中、自分はVSTARパワーを1回しか使えない。］",
+				'ja-jp': "自分の番に使える。このポケモンのHPを、すべて回復する。［対戦中、自分はVSTARパワーを1回しか使えない。］",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Water", "Metal", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-80」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-80」される。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒスイ ヌメルゴンV",
+		'ja-jp': "ヒスイ ヌメルゴンV",
 	},
 
 	retreat: 3,

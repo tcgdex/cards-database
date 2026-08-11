@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Detective Pikachu'
 
 const card: Card = {
 	name: {
-		en: "Psyduck",
-		fr: "Psykokwak",
-		es: "Psyduck",
-		it: "Psyduck",
-		pt: "Psyduck",
-		de: "Enton"
+		'en-us': "Psyduck",
+		'fr-fr': "Psykokwak",
+		'es-es': "Psyduck",
+		'it-it': "Psyduck",
+		'pt-br': "Psyduck",
+		'de-de': "Enton"
 	},
 
 	illustrator: "Framestore",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Panic",
-				fr: "Panique",
-				es: "Pánico",
-				it: "Ansia",
-				pt: "Pânico",
-				de: "Panik"
+				'en-us': "Panic",
+				'fr-fr': "Panique",
+				'es-es': "Pánico",
+				'it-it': "Ansia",
+				'pt-br': "Pânico",
+				'de-de': "Panik"
 			},
 			effect: {
-				en: "This Pokémon is now Confused.",
-				fr: "Ce Pokémon est maintenant Confus.",
-				es: "Este Pokémon pasa a estar Confundido.",
-				it: "Questo Pokémon viene confuso.",
-				pt: "Este Pokémon agora está Confuso.",
-				de: "Dieses Pokémon ist jetzt verwirrt."
+				'en-us': "This Pokémon is now Confused.",
+				'fr-fr': "Ce Pokémon est maintenant Confus.",
+				'es-es': "Este Pokémon pasa a estar Confundido.",
+				'it-it': "Questo Pokémon viene confuso.",
+				'pt-br': "Este Pokémon agora está Confuso.",
+				'de-de': "Dieses Pokémon ist jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Using psychokinesis gives it a headache, so it normally passes the time spacing out and doing as little as possible.",
+		'en-us': "Using psychokinesis gives it a headache, so it normally passes the time spacing out and doing as little as possible.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
@@ -7,23 +7,23 @@ const card: Card = {
 	dexId: [496],
 
 	name: {
-		en: "Servine",
-		fr: "Lianaja",
-		es: "Servine",
+		'en-us': "Servine",
+		'fr-fr': "Lianaja",
+		'es-es': "Servine",
 		'es-mx': "Servine",
-		de: "Efoserp",
-		it: "Servine",
-		pt: "Servine"
+		'de-de': "Efoserp",
+		'it-it': "Servine",
+		'pt-br': "Servine"
 	},
 
 	evolveFrom: {
-		en: "Snivy",
-		fr: "Vipélierre",
-		es: "Snivy",
+		'en-us': "Snivy",
+		'fr-fr': "Vipélierre",
+		'es-es': "Snivy",
 		'es-mx': "Snivy",
-		de: "Serpifeu",
-		it: "Snivy",
-		pt: "Snivy",
+		'de-de': "Serpifeu",
+		'it-it': "Snivy",
+		'pt-br': "Snivy",
 	},
 
 	illustrator: "Kurata So",
@@ -37,13 +37,13 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Solar Cutter",
-			fr: "Coupe Solaire",
-			es: "Corte Solar",
+			'en-us': "Solar Cutter",
+			'fr-fr': "Coupe Solaire",
+			'es-es': "Corte Solar",
 			'es-mx': "Corte Solar",
-			de: "Solarschneider",
-			it: "Taglio Solare",
-			pt: "Cortador Solar"
+			'de-de': "Solarschneider",
+			'it-it': "Taglio Solare",
+			'pt-br': "Cortador Solar"
 		},
 
 		damage: 40

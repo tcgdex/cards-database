@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Jigglypuff",
-		fr: "Rondoudou",
-		de: "Pummeluff"
+		'en-us': "Jigglypuff",
+		'fr-fr': "Rondoudou",
+		'de-de': "Pummeluff"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				de: "Rollout"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'de-de': "Rollout"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleepy Song",
-				fr: "Chanson berçante",
-				de: "Sleepy Song"
+				'en-us': "Sleepy Song",
+				'fr-fr': "Chanson berçante",
+				'de-de': "Sleepy Song"
 			},
 			effect: {
-				en: "Each Defending Pokémon is now Asleep.",
-				fr: "Chaque Pokémon Défenseur est maintenant Endormi.",
-				de: "Each Defending Pokémon is now Asleep."
+				'en-us': "Each Defending Pokémon is now Asleep.",
+				'fr-fr': "Chaque Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Each Defending Pokémon is now Asleep."
 			},
 
 		},

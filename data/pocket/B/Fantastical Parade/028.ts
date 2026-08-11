@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [37],
 
 	name: {
-		en: "Alolan Vulpix"
+		'en-us': "Alolan Vulpix"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "In hot weather, this Pokémon makes ice shards\nwith its six tails and sprays them around to cool\nitself off."
+		'en-us': "In hot weather, this Pokémon makes ice shards\nwith its six tails and sprays them around to cool\nitself off."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Gnaw"
+			'en-us': "Gnaw"
 		},
 
 		damage: 20,

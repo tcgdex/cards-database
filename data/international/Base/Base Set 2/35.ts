@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Charmeleon",
+		'en-us': "Charmeleon",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmander",
+		'en-us': "Charmander",
 	},
 
 	stage: "Stage1",
@@ -35,7 +35,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
+				'en-us': "Slash",
 			},
 
 			damage: 30,
@@ -48,10 +48,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
+				'en-us': "Flamethrower",
 			},
 			effect: {
-				en: "Discard 1 Energy card attached to Charmeleon in order to use this attack.",
+				'en-us': "Discard 1 Energy card attached to Charmeleon in order to use this attack.",
 			},
 			damage: 50,
 
@@ -68,7 +68,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When it swings its burning tail, it raises the temperature to unbearably high levels.",
+		'en-us': "When it swings its burning tail, it raises the temperature to unbearably high levels.",
 	},
 
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "R団のミュウツー",
+		'ja-jp': "R団のミュウツー",
 	},
 	illustrator: "Shin-ichi Yoshida",
 
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "並置",
+				'ja-jp': "並置",
 			},
 			effect: {
-				ja: "コインをひっくり返します。ヘッドの場合、RocketのMewtwoのダメージカウンターの数を、防御ポケモンのダメージカウンターの数を切り替えます（たとえそれがどちらのポケモンをノックアウトしますか）。 （ポケモンの1つにダメージカウンターがない場合は大丈夫です。）",
+				'ja-jp': "コインをひっくり返します。ヘッドの場合、RocketのMewtwoのダメージカウンターの数を、防御ポケモンのダメージカウンターの数を切り替えます（たとえそれがどちらのポケモンをノックアウトしますか）。 （ポケモンの1つにダメージカウンターがない場合は大丈夫です。）",
 			},
 		},
 		{
 			cost: ["Psychic", "Psychic"],
 			name: {
-				ja: "催眠芽球",
+				'ja-jp': "催眠芽球",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御するポケモンは今眠っています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御するポケモンは今眠っています。",
 			},
 			damage: 20,
 		},

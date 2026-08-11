@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Latias ex"
+		'id-id': "Latias ex"
 	},
 
 	illustrator: "takuyoa",
@@ -19,21 +19,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Skyline"
+			'id-id': "Skyline"
 		},
 
 		effect: {
-			id: "Selama Pokémon ini ada di Arena, semua Pokémon Basic sendiri menjadi tidak membutuhkan Energi untuk Mundur."
+			'id-id': "Selama Pokémon ini ada di Arena, semua Pokémon Basic sendiri menjadi tidak membutuhkan Energi untuk Mundur."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Pisau Eon"
+			'id-id': "Pisau Eon"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 200,

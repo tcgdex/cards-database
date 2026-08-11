@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [105],
 
 	name: {
-		en: "Alolan Marowak"
+		'en-us': "Alolan Marowak"
 	},
 
 	illustrator: "Dsuke",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Cubone"
+		'en-us': "Cubone"
 	},
 
 	description: {
-		en: "The cursed flames that light up the bone carried\nby this Pokémon are said to cause both mental\nand physical pain that will never fade."
+		'en-us': "The cursed flames that light up the bone carried\nby this Pokémon are said to cause both mental\nand physical pain that will never fade."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Fiery Bone"
+			'en-us': "Fiery Bone"
 		},
 
 		damage: 40,
 		cost: ["Fire", "Fire"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned."
+			'en-us': "Your opponent's Active Pokémon is now Burned."
 		}
 	}],
 

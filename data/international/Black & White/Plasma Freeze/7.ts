@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Grovyle",
-		fr: "Massko",
-		es: "Grovyle",
-		it: "Grovyle",
-		pt: "Grovyle",
-		de: "Reptain"
+		'en-us': "Grovyle",
+		'fr-fr': "Massko",
+		'es-es': "Grovyle",
+		'it-it': "Grovyle",
+		'pt-br': "Grovyle",
+		'de-de': "Reptain"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Treecko",
-		fr: "Arcko",
+		'en-us': "Treecko",
+		'fr-fr': "Arcko",
 	},
 
 	stage: "Stage1",
@@ -39,8 +39,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'Face",
+				'en-us': "Pound",
+				'fr-fr': "Écras'Face",
 			},
 
 			damage: 20,
@@ -52,8 +52,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cut",
-				fr: "Coupe",
+				'en-us': "Cut",
+				'fr-fr': "Coupe",
 			},
 
 			damage: 30,
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
+		'en-us': "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
 	},
 
 	thirdParty: {

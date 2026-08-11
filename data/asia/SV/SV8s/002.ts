@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Exeggcute",
-		th: "ทามะทามะ"
+		'id-id': "Exeggcute",
+		'th-th': "ทามะทามะ"
 	},
 
 	illustrator: "OKUBO",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Karena saling mengirimkan telepati yang hanya diterima oleh Exeggcute, Pokémon ini selalu terkumpul 6 ekor pada saat apa pun.",
-		th: "เพราะมันส่งโทรจิตที่สื่อถึงกันได้เฉพาะในพวกทามะทามะด้วยกันเอง มันจึงสามารถรวมตัวกัน 6 ตัวได้ตลอดเวลา"
+		'id-id': "Karena saling mengirimkan telepati yang hanya diterima oleh Exeggcute, Pokémon ini selalu terkumpul 6 ekor pada saat apa pun.",
+		'th-th': "เพราะมันส่งโทรจิตที่สื่อถึงกันได้เฉพาะในพวกทามะทามะด้วยกันเอง มันจึงสามารถรวมตัวกัน 6 ตัวได้ตลอดเวลา"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menyerap",
-			th: "ดูดซับ"
+			'id-id': "Menyerap",
+			'th-th': "ดูดซับ"
 		},
 
 		effect: {
-			id: "Pulihkan HP Pokémon ini sejumlah 10.",
-			th: "ฟื้นฟู HP ของโปเกมอนนี้ [10]"
+			'id-id': "Pulihkan HP Pokémon ini sejumlah 10.",
+			'th-th': "ฟื้นฟู HP ของโปเกมอนนี้ [10]"
 		},
 
 		damage: 10,

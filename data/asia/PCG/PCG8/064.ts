@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アロン",
+		'ja-jp': "アロン",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "フレイル",
+				'ja-jp': "フレイル",
 			},
 			effect: {
-				ja: "ダメージ数のダメージ数は、アロンのダメージ数をカウンターします。",
+				'ja-jp': "ダメージ数のダメージ数は、アロンのダメージ数をカウンターします。",
 			},
 		},
 	],

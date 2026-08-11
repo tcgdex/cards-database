@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Haunter",
-		fr: "Spectrum",
-		es: "Haunter",
-		it: "Haunter",
-		pt: "Haunter",
-		de: "Alpollo"
+		'en-us': "Haunter",
+		'fr-fr': "Spectrum",
+		'es-es': "Haunter",
+		'it-it': "Haunter",
+		'pt-br': "Haunter",
+		'de-de': "Alpollo"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gastly",
-		fr: "Fantominus",
-		es: "Gastly",
-		it: "Gastly",
-		pt: "Gastly",
-		de: "Nebulak"
+		'en-us': "Gastly",
+		'fr-fr': "Fantominus",
+		'es-es': "Gastly",
+		'it-it': "Gastly",
+		'pt-br': "Gastly",
+		'de-de': "Nebulak"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hypnosis",
-				fr: "Hypnose",
-				es: "Hipnosis",
-				it: "Ipnosi",
-				pt: "Hipnose",
-				de: "Hypnose"
+				'en-us': "Hypnosis",
+				'fr-fr': "Hypnose",
+				'es-es': "Hipnosis",
+				'it-it': "Ipnosi",
+				'pt-br': "Hipnose",
+				'de-de': "Hypnose"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent's Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 
 		},
@@ -66,20 +66,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dream Eater",
-				fr: "Dévorêve",
-				es: "Come Sueños",
-				it: "Mangiasogni",
-				pt: "Devorador de Sonhos",
-				de: "Traumfresser"
+				'en-us': "Dream Eater",
+				'fr-fr': "Dévorêve",
+				'es-es': "Come Sueños",
+				'it-it': "Mangiasogni",
+				'pt-br': "Devorador de Sonhos",
+				'de-de': "Traumfresser"
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is not Asleep, this attack does nothing.",
-				fr: "Si le Pokémon Actif de votre adversaire n'est pas Endormi, cette attaque ne fait rien.",
-				es: "Si el Pokémon Activo de tu rival no está Dormido, este ataque no hace nada.",
-				it: "Se il Pokémon attivo del tuo avversario non è addormentato, questo attacco non ha effetto.",
-				pt: "Se o Pokémon Ativo do seu oponente não estiver Adormecido, este ataque não fará nada.",
-				de: "Wenn das Aktive Pokémon deines Gegners nicht schläft, hat dieser Angriff keine Auswirkungen."
+				'en-us': "If your opponent's Active Pokémon is not Asleep, this attack does nothing.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire n'est pas Endormi, cette attaque ne fait rien.",
+				'es-es': "Si el Pokémon Activo de tu rival no está Dormido, este ataque no hace nada.",
+				'it-it': "Se il Pokémon attivo del tuo avversario non è addormentato, questo attacco non ha effetto.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente não estiver Adormecido, este ataque não fará nada.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners nicht schläft, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 80,
 
@@ -103,7 +103,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If you get the feeling of being watched in darkness when nobody is around, Haunter is there.",
+		'en-us': "If you get the feeling of being watched in darkness when nobody is around, Haunter is there.",
 	},
 
 	thirdParty: {

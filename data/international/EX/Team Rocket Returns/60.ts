@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Houndour",
-		de: "Hunduster"
+		'en-us': "Houndour",
+		'de-de': "Hunduster"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Dark Lift",
-				de: "Dark Lift"
+				'en-us': "Dark Lift",
+				'de-de': "Dark Lift"
 			},
 			effect: {
-				en: "If Houndour has any Fighting Energy attached to it, the Retreat Cost for Houndour is 0.\"",
-				de: "If Houndour has any  Energy attached to it, the Retreat Cost for Houdour is 0."
+				'en-us': "If Houndour has any Fighting Energy attached to it, the Retreat Cost for Houndour is 0.\"",
+				'de-de': "If Houndour has any  Energy attached to it, the Retreat Cost for Houdour is 0."
 			},
 		},
 	],
@@ -44,12 +44,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Firebreathing",
-				de: "Firebreathing"
+				'en-us': "Firebreathing",
+				'de-de': "Firebreathing"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
-				de: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				'de-de': "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
 			},
 			damage: "10+",
 

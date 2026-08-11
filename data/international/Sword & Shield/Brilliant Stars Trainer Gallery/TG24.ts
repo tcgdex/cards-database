@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars Trainer Gallery"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Acerola's Premonition",
-		fr: "Prémonition de Margie",
-		es: "Presentimiento de Zarala",
-		it: "Premonizione di Malpi",
-		pt: "Premonição da Acerola",
-		de: "Lolas Vorahnung"
+		'en-us': "Acerola's Premonition",
+		'fr-fr': "Prémonition de Margie",
+		'es-es': "Presentimiento de Zarala",
+		'it-it': "Premonizione di Malpi",
+		'pt-br': "Premonição da Acerola",
+		'de-de': "Lolas Vorahnung"
 	},
 
 	illustrator: "yuu",
@@ -18,12 +18,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Your opponent reveals their hand, and you draw a card for each Trainer card you find there.",
-		fr: "Votre adversaire dévoile sa main. Piochez une carte pour chaque carte Dresseur que vous y trouvez.",
-		es: "Tu rival enseña las cartas de su mano, y tú robas 1 carta por cada carta de Entrenador que encuentres entre ellas.",
-		it: "Il tuo avversario mostra le carte che ha in mano e tu peschi una carta per ogni carta Allenatore presente tra quelle carte.",
-		pt: "Seu oponente revela a própria mão e você compra 1 carta para cada carta de Treinador que encontrar lá.",
-		de: "Dein Gegner zeigt dir seine Handkarten und du ziehst 1 Karte für jede Trainerkarte, die du dort findest."
+		'en-us': "Your opponent reveals their hand, and you draw a card for each Trainer card you find there.",
+		'fr-fr': "Votre adversaire dévoile sa main. Piochez une carte pour chaque carte Dresseur que vous y trouvez.",
+		'es-es': "Tu rival enseña las cartas de su mano, y tú robas 1 carta por cada carta de Entrenador que encuentres entre ellas.",
+		'it-it': "Il tuo avversario mostra le carte che ha in mano e tu peschi una carta per ogni carta Allenatore presente tra quelle carte.",
+		'pt-br': "Seu oponente revela a própria mão e você compra 1 carta para cada carta de Treinador que encontrar lá.",
+		'de-de': "Dein Gegner zeigt dir seine Handkarten und du ziehst 1 Karte für jede Trainerkarte, die du dort findest."
 	},
 
 	trainerType: "Supporter",

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナツメのヤドン",
+		'ja-jp': "ナツメのヤドン",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "怠zyな攻撃",
+				'ja-jp': "怠zyな攻撃",
 			},
 			effect: {
-				ja: "SabrinaのSlowPokeは今眠っています（ダメージを与えた後）。",
+				'ja-jp': "SabrinaのSlowPokeは今眠っています（ダメージを与えた後）。",
 			},
 			damage: 30,
 		},

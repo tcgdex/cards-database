@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Clawitzer",
-		fr: "Gamblast",
-		es: "Clawitzer",
-		it: "Clawitzer",
-		pt: "Clawitzer",
-		de: "Wummer"
+		'en-us': "Clawitzer",
+		'fr-fr': "Gamblast",
+		'es-es': "Clawitzer",
+		'it-it': "Clawitzer",
+		'pt-br': "Clawitzer",
+		'de-de': "Wummer"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Clauncher",
-		fr: "Flingouste",
-		es: "Clauncher",
-		it: "Clauncher",
-		pt: "Clauncher",
-		de: "Scampisto"
+		'en-us': "Clauncher",
+		'fr-fr': "Flingouste",
+		'es-es': "Clauncher",
+		'it-it': "Clauncher",
+		'pt-br': "Clauncher",
+		'de-de': "Scampisto"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Reverse Thrust",
-				fr: "Poussée Inverse",
-				es: "Invertir Impulso",
-				it: "Tornaindietro",
-				pt: "Impulso Reverso",
-				de: "Umkehrschub"
+				'en-us': "Reverse Thrust",
+				'fr-fr': "Poussée Inverse",
+				'es-es': "Invertir Impulso",
+				'it-it': "Tornaindietro",
+				'pt-br': "Impulso Reverso",
+				'de-de': "Umkehrschub"
 			},
 			effect: {
-				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
-				es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
-				it: "Scambia questo Pokémon con uno della tua panchina.",
-				pt: "Troque este Pokémon por 1 dos seus Pokémon do Banco.",
-				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+				'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez ce Pokémon avec l'un de vos Pokémon de Banc.",
+				'es-es': "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+				'it-it': "Scambia questo Pokémon con uno della tua panchina.",
+				'pt-br': "Troque este Pokémon por 1 dos seus Pokémon do Banco.",
+				'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 30,
 
@@ -68,20 +68,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Splash Cannon",
-				fr: "Canon Éclaboussant",
-				es: "Cañón Chapoteo",
-				it: "Cannonsplash",
-				pt: "Canhão de Respingos",
-				de: "Spritzkanone"
+				'en-us': "Splash Cannon",
+				'fr-fr': "Canon Éclaboussant",
+				'es-es': "Cañón Chapoteo",
+				'it-it': "Cannonsplash",
+				'pt-br': "Canhão de Respingos",
+				'de-de': "Spritzkanone"
 			},
 			effect: {
-				en: "This attack does 20 more damage for each Water Energy attached to this Pokémon.",
-				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
-				es: "Este ataque hace 20 puntos de daño más por cada Energía Water unida a este Pokémon.",
-				it: "Questo attacco infligge 20 danni in più per ogni Energia Water assegnata a questo Pokémon.",
-				pt: "Esse ataque causa 20 de danos adicionais para cada Energia Water ligada a este Pokémon.",
-				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jede an dieses Pokémon angelegte Water-Energie zu."
+				'en-us': "This attack does 20 more damage for each Water Energy attached to this Pokémon.",
+				'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+				'es-es': "Este ataque hace 20 puntos de daño más por cada Energía Water unida a este Pokémon.",
+				'it-it': "Questo attacco infligge 20 danni in più per ogni Energia Water assegnata a questo Pokémon.",
+				'pt-br': "Esse ataque causa 20 de danos adicionais para cada Energia Water ligada a este Pokémon.",
+				'de-de': "Dieser Angriff fügt 20 weitere Schadenspunkte für jede an dieses Pokémon angelegte Water-Energie zu."
 			},
 			damage: "50+",
 
@@ -98,7 +98,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Their enormous claws launch cannonballs of water powerful enough to pierce tanker hulls.",
+		'en-us': "Their enormous claws launch cannonballs of water powerful enough to pierce tanker hulls.",
 	},
 
 	thirdParty: {

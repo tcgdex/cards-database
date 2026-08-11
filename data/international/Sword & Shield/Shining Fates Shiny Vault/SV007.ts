@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Larvadar",
-		en: "Blipbug",
-		es: "Blipbug",
-		it: "Blipbug",
-		pt: "Blipbug",
-		de: "Sensect"
+		'fr-fr': "Larvadar",
+		'en-us': "Blipbug",
+		'es-es': "Blipbug",
+		'it-it': "Blipbug",
+		'pt-br': "Blipbug",
+		'de-de': "Sensect"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -22,12 +22,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Ronge",
-			en: "Gnaw",
-			es: "Roer",
-			it: "Rosicchiamento",
-			pt: "Roída",
-			de: "Nagen"
+			'fr-fr': "Ronge",
+			'en-us': "Gnaw",
+			'es-es': "Roer",
+			'it-it': "Rosicchiamento",
+			'pt-br': "Roída",
+			'de-de': "Nagen"
 		},
 
 		damage: 20,
@@ -44,7 +44,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings."
+		'en-us': "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings."
 	},
 
 	variants: [

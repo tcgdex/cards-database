@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ペルシアン",
+		'ja-jp': "ペルシアン",
 	},
 
 	illustrator: "Sekio",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "気性が 荒く 目が 合うだけで 飛び掛ってくる。 鋭いツメに やられると 深い 傷を 負う。",
+		'ja-jp': "気性が 荒く 目が 合うだけで 飛び掛ってくる。 鋭いツメに やられると 深い 傷を 負う。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "いやなおと" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "次の自分の番、このワザを受けたポケモンが受けるワザのダメージは「+60」される。",
+				'ja-jp': "次の自分の番、このワザを受けたポケモンが受けるワザのダメージは「+60」される。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニャース",
+		'ja-jp': "ニャース",
 	},
 
 	retreat: 1,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [89],
 
 	name: {
-		en: "Muk"
+		'en-us': "Muk"
 	},
 
 	illustrator: "Scav",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Grimer"
+		'en-us': "Grimer"
 	},
 
 	description: {
-		en: "They love to gather in smelly areas where sludge\naccumulates, making the stench around\nthem worse."
+		'en-us': "They love to gather in smelly areas where sludge\naccumulates, making the stench around\nthem worse."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Gunk Shot"
+			'en-us': "Gunk Shot"
 		},
 
 		damage: 70,
 		cost: ["Darkness", "Darkness", "Darkness"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned."
 		}
 	}],
 

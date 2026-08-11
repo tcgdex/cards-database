@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Ho-oh",
-		fr: "Ho-oh",
-		de: "Ho-oh"
+		'en-us': "Ho-oh",
+		'fr-fr': "Ho-oh",
+		'de-de': "Ho-oh"
 	},
 
 	illustrator: "Kimiya Masago",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Stoke",
-				fr: "Crémation",
-				de: "Anheizen"
+				'en-us': "Stoke",
+				'fr-fr': "Crémation",
+				'de-de': "Anheizen"
 			},
 			effect: {
-				en: "You may search your deck for a Energy card and attach it to Ho-oh",
-				fr: "Vous pouvez chercher une carte Énergie  et l'attacher à Ho-oh. Mélangez ensuite votre deck.",
-				de: "Du kannst dein Deck nach einer -Energiekarte durchsuchen und sie an Ho-oh anlegen. Mische danach dein Deck."
+				'en-us': "You may search your deck for a Energy card and attach it to Ho-oh",
+				'fr-fr': "Vous pouvez chercher une carte Énergie  et l'attacher à Ho-oh. Mélangez ensuite votre deck.",
+				'de-de': "Du kannst dein Deck nach einer -Energiekarte durchsuchen und sie an Ho-oh anlegen. Mische danach dein Deck."
 			},
 
 		},
@@ -49,14 +49,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Sacred Fire",
-				fr: "Feu sacré",
-				de: "Läuterfeuer"
+				'en-us': "Sacred Fire",
+				'fr-fr': "Feu sacré",
+				'de-de': "Läuterfeuer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. Don't apply Weakness and Resistance.",
-				fr: "Lancez une pièce. Si c'est face, choisissez un des Pokémon de votre adversaire. Cette attaque inflige 40 dégâts à ce Pokémon. N'appliquez pas la Faiblesse et la Résistance.",
-				de: "Wirf eine Münze. Wähle bei 'Kopf' ein Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 40 Schadenspunkte zu. Wende Schwäche und Resistenz nicht an."
+				'en-us': "Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. Don't apply Weakness and Resistance.",
+				'fr-fr': "Lancez une pièce. Si c'est face, choisissez un des Pokémon de votre adversaire. Cette attaque inflige 40 dégâts à ce Pokémon. N'appliquez pas la Faiblesse et la Résistance.",
+				'de-de': "Wirf eine Münze. Wähle bei 'Kopf' ein Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 40 Schadenspunkte zu. Wende Schwäche und Resistenz nicht an."
 			},
 
 		},
@@ -70,15 +70,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Dive Bomb",
-				fr: "Bombardement",
-				de: "Sturzflugbombe"
+				'en-us': "Dive Bomb",
+				'fr-fr': "Bombardement",
+				'de-de': "Sturzflugbombe"
 			},
 
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'de-de': "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 90
@@ -102,8 +102,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Legends claim this Pokémon flies the world's skies continuously on its magnificent seven colored wings.",
-		fr: "Selon la légende, ce Pokémon traverse constamment le ciel, porté par ses magnifiques ailes aux couleurs de l'arc-en-ciel."
+		'en-us': "Legends claim this Pokémon flies the world's skies continuously on its magnificent seven colored wings.",
+		'fr-fr': "Selon la légende, ce Pokémon traverse constamment le ciel, porté par ses magnifiques ailes aux couleurs de l'arc-en-ciel."
 	},
 
 

@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [217],
 
 	name: {
-		en: "Ursaring",
-		fr: "Ursaring",
-		es: "Ursaring",
-		it: "Ursaring",
-		pt: "Ursaring",
-		de: "Ursaring"
+		'en-us': "Ursaring",
+		'fr-fr': "Ursaring",
+		'es-es': "Ursaring",
+		'it-it': "Ursaring",
+		'pt-br': "Ursaring",
+		'de-de': "Ursaring"
 	},
 
 	illustrator: "Uta",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Teddiursa",
-		fr: "Teddiursa",
-		es: "Teddiursa",
-		it: "Teddiursa",
-		pt: "Teddiursa",
-		de: "Teddiursa"
+		'en-us': "Teddiursa",
+		'fr-fr': "Teddiursa",
+		'es-es': "Teddiursa",
+		'it-it': "Teddiursa",
+		'pt-br': "Teddiursa",
+		'de-de': "Teddiursa"
 	},
 
 	attacks: [
@@ -40,20 +40,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer Arm",
-				fr: "Marto-Poing",
-				es: "Machada",
-				it: "Martelpugno",
-				pt: "Braço de Martelo",
-				de: "Hammerarm"
+				'en-us': "Hammer Arm",
+				'fr-fr': "Marto-Poing",
+				'es-es': "Machada",
+				'it-it': "Martelpugno",
+				'pt-br': "Braço de Martelo",
+				'de-de': "Hammerarm"
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-				es: "Descarta la primera carta de la baraja de tu rival.",
-				it: "Scarta la prima carta del mazzo del tuo avversario.",
-				pt: "Descarte a carta de cima do baralho do seu oponente.",
-				de: "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard the top card of your opponent's deck.",
+				'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+				'es-es': "Descarta la primera carta de la baraja de tu rival.",
+				'it-it': "Scarta la prima carta del mazzo del tuo avversario.",
+				'pt-br': "Descarte a carta de cima do baralho do seu oponente.",
+				'de-de': "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 70,
 
@@ -66,12 +66,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Claw Slash",
-				fr: "Tranch'Griffe",
-				es: "Cuchillada Garra",
-				it: "Lacerartiglio",
-				pt: "Golpe de Garra",
-				de: "Klauenschlitzer"
+				'en-us': "Claw Slash",
+				'fr-fr': "Tranch'Griffe",
+				'es-es': "Cuchillada Garra",
+				'it-it': "Lacerartiglio",
+				'pt-br': "Golpe de Garra",
+				'de-de': "Klauenschlitzer"
 			},
 
 			damage: 120,
@@ -93,7 +93,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Although it has a large body, it is quite skilled at climbing trees. It eats and sleeps in the treetops."
+		'en-us': "Although it has a large body, it is quite skilled at climbing trees. It eats and sleeps in the treetops."
 	},
 
 	variants: [

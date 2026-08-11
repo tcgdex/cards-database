@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../web1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アルカニン",
+		'ja-jp': "アルカニン",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Fire", "Fire", "Colorless"],
 			name: {
-				ja: "降ろす",
+				'ja-jp': "降ろす",
 			},
 			effect: {
-				ja: "アルカニンはそれ自体に20の損傷を与えます。",
+				'ja-jp': "アルカニンはそれ自体に20の損傷を与えます。",
 			},
 			damage: 50,
 		},

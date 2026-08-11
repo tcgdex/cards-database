@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11B";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シャンデラ",
+		'ja-jp': "シャンデラ",
 	},
 
 	illustrator: "Kuroimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "魂を 吸い取って 燃やす。 腕の 炎を 揺らして 相手を 催眠状態に する。",
+		'ja-jp': "魂を 吸い取って 燃やす。 腕の 炎を 揺らして 相手を 催眠状態に する。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Fire"],
 			effect: {
-				ja: "自分のトラッシュに「基本エネルギー」が10枚以上あるなら、100ダメージ追加。",
+				'ja-jp': "自分のトラッシュに「基本エネルギー」が10枚以上あるなら、100ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 180,
 			cost: ["Fire", "Fire"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、すべてトラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、すべてトラッシュする。",
 			},
 		},
 	],
@@ -43,7 +43,7 @@ const card: Card = {
 	variants: [{ type: "holo" }],
 
 	evolveFrom: {
-		ja: "ランプラー",
+		'ja-jp': "ランプラー",
 	},
 
 	retreat: 2,

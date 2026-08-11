@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エンニュート",
+		'ja-jp': "エンニュート",
 		'zh-tw': "焰后蜥",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "エンニュートは メスしか いない。 フェロモンガスを 発生させて オスの ヤトウモリを 魅了する。",
+		'ja-jp': "エンニュートは メスしか いない。 フェロモンガスを 発生させて オスの ヤトウモリを 魅了する。",
 		'zh-tw': "焰后蜥只有雌性。會釋放出費洛蒙氣體，讓雄性的夜盜火蜥為之著迷。",
 	},
 
@@ -23,25 +23,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "しっぽでまどわす",
+				'ja-jp': "しっぽでまどわす",
 				'zh-tw': "擺尾蠱惑",
 			},
 			damage: 20,
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【混亂】。",
 			},
 		},
 		{
 			name: {
-				ja: "ほのおでこがす",
+				'ja-jp': "ほのおでこがす",
 				'zh-tw': "火焰灼燒",
 			},
 			damage: 60,
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【灼傷】。",
 			},
 		},
@@ -68,7 +68,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヤトウモリ",
+		'ja-jp': "ヤトウモリ",
 	},
 
 	retreat: 1,

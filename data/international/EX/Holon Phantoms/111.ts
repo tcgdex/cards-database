@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Mew",
-		fr: "Mew",
-		de: "Mew"
+		'en-us': "Mew",
+		'fr-fr': "Mew",
+		'de-de': "Mew"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -32,14 +32,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Psywave",
-				fr: "Super vague psy",
-				de: "Super-Psywelle"
+				'en-us': "Super Psywave",
+				'fr-fr': "Super vague psy",
+				'de-de': "Super-Psywelle"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. Count the amount of Energy attached to that Pokémon. Put that many damage counters on the Pokémon.",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Comptabilisez le nombre d'Énergies attachées à ce Pokémon. Placez autant de marqueurs de dégât sur ce Pokémon.",
-				de: "Wähle 1 Pokémon deines Gegners. Zähle die Anzahl der Energie, die an dieses Pokémon angelegt sind. Lege dann die gleiche Anzahl Schadensmarken auf dieses Pokémon."
+				'en-us': "Choose 1 of your opponent's Pokémon. Count the amount of Energy attached to that Pokémon. Put that many damage counters on the Pokémon.",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Comptabilisez le nombre d'Énergies attachées à ce Pokémon. Placez autant de marqueurs de dégât sur ce Pokémon.",
+				'de-de': "Wähle 1 Pokémon deines Gegners. Zähle die Anzahl der Energie, die an dieses Pokémon angelegt sind. Lege dann die gleiche Anzahl Schadensmarken auf dieses Pokémon."
 			},
 
 		},

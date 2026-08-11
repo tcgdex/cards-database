@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paradox Rift"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Crocalor",
-		fr: "Crocogril",
-		es: "Crocalor",
-		it: "Crocalor",
-		pt: "Crocalor",
-		de: "Lokroko"
+		'en-us': "Crocalor",
+		'fr-fr': "Crocogril",
+		'es-es': "Crocalor",
+		'it-it': "Crocalor",
+		'pt-br': "Crocalor",
+		'de-de': "Lokroko"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Fuecoco",
-		fr: "Chochodile",
-		es: "Fuecoco",
-		it: "Fuecoco",
-		pt: "Fuecoco",
-		de: "Krokel"
+		'en-us': "Fuecoco",
+		'fr-fr': "Chochodile",
+		'es-es': "Fuecoco",
+		'it-it': "Fuecoco",
+		'pt-br': "Fuecoco",
+		'de-de': "Krokel"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			en: "Rolling Fireball",
-			fr: "Boule de Feu Roulante",
-			es: "Bola de Fuego Rodante",
-			it: "Palladifuoco Rotolante",
-			pt: "Bola de Fogo Rolante",
-			de: "Rollender Feuerball"
+			'en-us': "Rolling Fireball",
+			'fr-fr': "Boule de Feu Roulante",
+			'es-es': "Bola de Fuego Rodante",
+			'it-it': "Palladifuoco Rotolante",
+			'pt-br': "Bola de Fogo Rolante",
+			'de-de': "Rollender Feuerball"
 		},
 
 		effect: {
-			en: "Put an Energy attached to this Pokémon into your hand.",
-			fr: "Ajoutez à votre main une Énergie attachée à ce Pokémon.",
-			es: "Pon 1 Energía unida a este Pokémon en tu mano.",
-			it: "Prendi un'Energia assegnata a questo Pokémon e aggiungila alle carte che hai in mano.",
-			pt: "Coloque uma Energia ligada a este Pokémon na sua mão.",
-			de: "Nimm 1 an dieses Pokémon angelegte Energie auf deine Hand."
+			'en-us': "Put an Energy attached to this Pokémon into your hand.",
+			'fr-fr': "Ajoutez à votre main une Énergie attachée à ce Pokémon.",
+			'es-es': "Pon 1 Energía unida a este Pokémon en tu mano.",
+			'it-it': "Prendi un'Energia assegnata a questo Pokémon e aggiungila alle carte che hai in mano.",
+			'pt-br': "Coloque uma Energia ligada a este Pokémon na sua mão.",
+			'de-de': "Nimm 1 an dieses Pokémon angelegte Energie auf deine Hand."
 		},
 
 		damage: 90
@@ -62,7 +62,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "The combination of Crocalor's fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pokémon's head.",
+		'en-us': "The combination of Crocalor's fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pokémon's head.",
 	},
 
 	variants: [

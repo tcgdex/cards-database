@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Tornadus-EX",
-		fr: "Boréas-EX",
-		es: "Tornadus-EX",
-		it: "Tornadus-EX",
-		pt: "Tornadus-EX",
-		de: "Boreos-EX"
+		'en-us': "Tornadus-EX",
+		'fr-fr': "Boréas-EX",
+		'es-es': "Tornadus-EX",
+		'it-it': "Tornadus-EX",
+		'pt-br': "Tornadus-EX",
+		'de-de': "Boreos-EX"
 	},
 	illustrator: "Eske Yoshinob",
 	rarity: "Rare",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Windfall",
-				fr: "Rafale de Vent",
+				'en-us': "Windfall",
+				'fr-fr': "Rafale de Vent",
 			},
 			effect: {
-				en: "Shuffle your hand into your deck. Then, draw 6 cards.",
-				fr: "Mélangez votre main avec votre deck. Ensuite, piochez 6 cartes.",
+				'en-us': "Shuffle your hand into your deck. Then, draw 6 cards.",
+				'fr-fr': "Mélangez votre main avec votre deck. Ensuite, piochez 6 cartes.",
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jet Blast",
-				fr: "Rafale d'Explosions",
+				'en-us': "Jet Blast",
+				'fr-fr': "Rafale d'Explosions",
 			},
 			effect: {
-				en: "Does 30 more damage for each Plasma Energy attached to this Pokémon.",
-				fr: "Inflige 30 dégâts supplémentaires pour chaque Énergie Plasma attachée à ce Pokémon.",
+				'en-us': "Does 30 more damage for each Plasma Energy attached to this Pokémon.",
+				'fr-fr': "Inflige 30 dégâts supplémentaires pour chaque Énergie Plasma attachée à ce Pokémon.",
 			},
 			damage: 60,
 

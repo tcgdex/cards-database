@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Revelation'
 
 const card: Card = {
 	name: {
-		en: "Swinub",
-		fr: "Marcacrin",
-		de: "Quiekel"
+		'en-us': "Swinub",
+		'fr-fr': "Marcacrin",
+		'de-de': "Quiekel"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -45,14 +45,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				de: "Take Down"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'de-de': "Take Down"
 			},
 			effect: {
-				en: "Swinub does 10 damage to itself.",
-				fr: "Marcacrin s'inflige 30 dégâts.",
-				de: "Swinub does 10 damage to itself."
+				'en-us': "Swinub does 10 damage to itself.",
+				'fr-fr': "Marcacrin s'inflige 30 dégâts.",
+				'de-de': "Swinub does 10 damage to itself."
 			},
 			damage: 30,
 
@@ -76,8 +76,8 @@ const card: Card = {
 
 
 	description: {
-		en: "If it smells something enticing, it dashes headlong off to find the source of the aroma.",
-		fr: "S'il sent quelque chose d'alléchant, il se précipite vers la source de l'arôme."
+		'en-us': "If it smells something enticing, it dashes headlong off to find the source of the aroma.",
+		'fr-fr': "S'il sent quelque chose d'alléchant, il se précipite vers la source de l'arôme."
 	},
 
 

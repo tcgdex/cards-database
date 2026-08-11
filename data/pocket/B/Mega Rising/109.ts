@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chingling"
+		'en-us': "Chingling"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "There is an orb inside its mouth. When it hops,\nthe orb bounces all over and makes a\nringing sound."
+		'en-us': "There is an orb inside its mouth. When it hops,\nthe orb bounces all over and makes a\nringing sound."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Jingly Noise"
+			'en-us': "Jingly Noise"
 		},
 
 		damage: 10,
 
 		effect: {
-			en: "During your opponent's next turn, they can't play any Item cards from their hand."
+			'en-us': "During your opponent's next turn, they can't play any Item cards from their hand."
 		}
 	}],
 

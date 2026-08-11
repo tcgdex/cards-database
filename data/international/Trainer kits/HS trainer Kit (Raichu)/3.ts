@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HS trainer Kit (Raichu)'
 
 const card: Card = {
 	name: {
-		en: "Flaaffy",
+		'en-us': "Flaaffy",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -16,7 +16,7 @@ const card: Card = {
 		"Lightning",
 	],
 	evolveFrom: {
-		en: "Mareep",
+		'en-us': "Mareep",
 	},
 	stage: "Stage1",
 	attacks: [
@@ -25,10 +25,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunder Spear",
+				'en-us': "Thunder Spear",
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			},
 		},
 		{
@@ -38,10 +38,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thundershock",
+				'en-us': "Thundershock",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 40,
 		},

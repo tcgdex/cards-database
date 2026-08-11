@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Makuhita",
-		fr: "Makuhita",
-		de: "Makuhita"
+		'en-us': "Makuhita",
+		'fr-fr': "Makuhita",
+		'de-de': "Makuhita"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fling",
-				fr: "Lancer",
-				de: "Fling"
+				'en-us': "Fling",
+				'fr-fr': "Lancer",
+				'de-de': "Fling"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur contre un des Pokémon de son Banc.",
-				de: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur contre un des Pokémon de son Banc.",
+				'de-de': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Low Kick",
-				fr: "Balayage",
-				de: "Low Kick"
+				'en-us': "Low Kick",
+				'fr-fr': "Balayage",
+				'de-de': "Low Kick"
 			},
 
 			damage: 30,

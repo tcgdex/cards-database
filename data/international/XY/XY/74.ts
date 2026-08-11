@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Inkay",
-		fr: "Sepiatop",
-		es: "Inkay",
-		it: "Inkay",
-		pt: "Inkay",
-		de: "Iscalar"
+		'en-us': "Inkay",
+		'fr-fr': "Sepiatop",
+		'es-es': "Inkay",
+		'it-it': "Inkay",
+		'pt-br': "Inkay",
+		'de-de': "Iscalar"
 	},
 
 	illustrator: "5ban Graphics",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Upside-Down Evolution",
-				fr: "Évolution Tête en Bas",
-				es: "Evolución Bocabajo",
-				it: "Evoluzione Sottosopra",
-				pt: "Evolução de Cabeça para Baixo",
-				de: "Umgedrehte Entwicklung"
+				'en-us': "Upside-Down Evolution",
+				'fr-fr': "Évolution Tête en Bas",
+				'es-es': "Evolución Bocabajo",
+				'it-it': "Evoluzione Sottosopra",
+				'pt-br': "Evolução de Cabeça para Baixo",
+				'de-de': "Umgedrehte Entwicklung"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if this Pokémon is Confused, you may search your deck for a card that evolves from this Pokémon and put it onto this Pokémon. (This counts as evolving this Pokémon.) Shuffle your deck afterward.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon est Confus, vous pouvez chercher dans votre deck une carte Évolution de ce Pokémon et la placer sur ce Pokémon. (Cela équivaut à faire évoluer ce Pokémon.) Mélangez ensuite votre deck.",
-				es: "Una vez durante tu turno (antes de tu ataque), si este Pokémon está Confundido, puedes buscar en tu baraja 1 carta que evolucione de este Pokémon y ponerla sobre este Pokémon. (Esto equivale a hacer evolucionar a este Pokémon). Baraja las cartas de tu baraja después.",
-				it: "Una sola volta durante il tuo turno, prima di attaccare, se questo Pokémon è confuso, puoi cercare nel tuo mazzo una carta che si evolve da questo Pokémon e mettergliela sopra (quest'azione vale come evoluzione del Pokémon). Poi rimischia le carte del tuo mazzo.",
-				pt: "Uma vez durante sua vez de jogar (antes de atacar), se este Pokémon estiver Confuso, procure em seu baralho um card que evolua deste Pokémon e coloque-o nesse Pokémon. (Isso conta como evoluir esse Pokémon.) Em seguida, embaralhe seus cards.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn dieses Pokémon verwirrt ist, dein Deck nach 1 Karte durchsuchen, zu der sich dieses Pokémon entwickelt, und sie auf dieses Pokémon legen (dies zählt als Entwicklung dieses Pokémon). Mische anschließend dein Deck."
+				'en-us': "Once during your turn (before your attack), if this Pokémon is Confused, you may search your deck for a card that evolves from this Pokémon and put it onto this Pokémon. (This counts as evolving this Pokémon.) Shuffle your deck afterward.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon est Confus, vous pouvez chercher dans votre deck une carte Évolution de ce Pokémon et la placer sur ce Pokémon. (Cela équivaut à faire évoluer ce Pokémon.) Mélangez ensuite votre deck.",
+				'es-es': "Una vez durante tu turno (antes de tu ataque), si este Pokémon está Confundido, puedes buscar en tu baraja 1 carta que evolucione de este Pokémon y ponerla sobre este Pokémon. (Esto equivale a hacer evolucionar a este Pokémon). Baraja las cartas de tu baraja después.",
+				'it-it': "Una sola volta durante il tuo turno, prima di attaccare, se questo Pokémon è confuso, puoi cercare nel tuo mazzo una carta che si evolve da questo Pokémon e mettergliela sopra (quest'azione vale come evoluzione del Pokémon). Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Uma vez durante sua vez de jogar (antes de atacar), se este Pokémon estiver Confuso, procure em seu baralho um card que evolua deste Pokémon e coloque-o nesse Pokémon. (Isso conta como evoluir esse Pokémon.) Em seguida, embaralhe seus cards.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn dieses Pokémon verwirrt ist, dein Deck nach 1 Karte durchsuchen, zu der sich dieses Pokémon entwickelt, und sie auf dieses Pokémon legen (dies zählt als Entwicklung dieses Pokémon). Mische anschließend dein Deck."
 			},
 		},
 	],
@@ -56,20 +56,20 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Confusion Wave",
-				fr: "Vague de Confusion",
-				es: "Ola de Confusión",
-				it: "Confusionda",
-				pt: "Onda de Confusão",
-				de: "Verwirrende Welle"
+				'en-us': "Confusion Wave",
+				'fr-fr': "Vague de Confusion",
+				'es-es': "Ola de Confusión",
+				'it-it': "Confusionda",
+				'pt-br': "Onda de Confusão",
+				'de-de': "Verwirrende Welle"
 			},
 			effect: {
-				en: "Both Active Pokémon are now Confused.",
-				fr: "Les deux Pokémon Actifs sont maintenant Confus.",
-				es: "Ambos Pokémon Activos pasan a estar Confundidos.",
-				it: "Entrambi i Pokémon attivi vengono confusi.",
-				pt: "Ambos os Pokémon Ativos agora estão Confusos.",
-				de: "Beide Aktiven Pokémon sind jetzt verwirrt."
+				'en-us': "Both Active Pokémon are now Confused.",
+				'fr-fr': "Les deux Pokémon Actifs sont maintenant Confus.",
+				'es-es': "Ambos Pokémon Activos pasan a estar Confundidos.",
+				'it-it': "Entrambi i Pokémon attivi vengono confusi.",
+				'pt-br': "Ambos os Pokémon Ativos agora estão Confusos.",
+				'de-de': "Beide Aktiven Pokémon sind jetzt verwirrt."
 			},
 
 		},
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight.",
+		'en-us': "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight.",
 	},
 
 	thirdParty: {

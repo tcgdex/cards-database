@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シルヴァディ",
+		'ja-jp': "シルヴァディ",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "覚醒し 進化した 姿。 重い マスクから 解き放たれ スピードが 大幅に アップ。",
+		'ja-jp': "覚醒し 進化した 姿。 重い マスクから 解き放たれ スピードが 大幅に アップ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "前の相手の番に、相手がとったサイドの枚数×50ダメージ追加。",
+				'ja-jp': "前の相手の番に、相手がとったサイドの枚数×50ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、1個トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、1個トラッシュする。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "タイプ：ヌル",
+		'ja-jp': "タイプ：ヌル",
 	},
 
 	retreat: 2,

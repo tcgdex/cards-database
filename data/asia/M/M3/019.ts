@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジュゴン",
+		'ja-jp': "ジュゴン",
 	},
 
 	illustrator: "Yoshioka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "寒さに 勝つため 体の中に 熱エネルギーを 蓄える。 寒い 海も ８ノットで 進む。",
+		'ja-jp': "寒さに 勝つため 体の中に 熱エネルギーを 蓄える。 寒い 海も ８ノットで 進む。",
 	},
 
 	stage: "Stage1",
@@ -28,7 +28,7 @@ const card: Card = {
 	variants: [{"type": "holo"}],
 
 	evolveFrom: {
-		ja: "パウワウ",
+		'ja-jp': "パウワウ",
 	},
 
 	retreat: 2,

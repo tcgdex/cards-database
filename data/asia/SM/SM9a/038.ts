@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フレフワン",
+		'ja-jp': "フレフワン",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "さまざまな においを 作り出す。 相手の 嫌がる においを 出して 戦いを 有利に 進めるのだ。",
+		'ja-jp': "さまざまな においを 作り出す。 相手の 嫌がる においを 出して 戦いを 有利に 進めるのだ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "きょうれつなかおり" },
 			cost: ["Fairy"],
 			effect: {
-				ja: "コインを2回投げる。1回でもオモテなら、相手の手札を見て、オモテの数ぶんのカードを、相手の山札にもどして切る。",
+				'ja-jp': "コインを2回投げる。1回でもオモテなら、相手の手札を見て、オモテの数ぶんのカードを、相手の山札にもどして切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、特殊状態の中から1つを選び、相手のバトルポケモンをその状態にする。",
+				'ja-jp': "コインを1回投げオモテなら、特殊状態の中から1つを選び、相手のバトルポケモンをその状態にする。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シュシュプ",
+		'ja-jp': "シュシュプ",
 	},
 
 	retreat: 1,

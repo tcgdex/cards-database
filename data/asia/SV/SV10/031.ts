@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アルクジラ",
+		'ja-jp': "アルクジラ",
 		'zh-tw': "走鯨",
 		'zh-cn': "走鯨",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "遥か 昔に 海から 上がって 陸地で 暮らすようになった。 ホエルコに 近い 種類らしい。",
+		'ja-jp': "遥か 昔に 海から 上がって 陸地で 暮らすようになった。 ホエルコに 近い 種類らしい。",
 		'zh-tw': "遠古時代自大海上岸後， 就開始在陸地上生活。 似乎與吼吼鯨是相近的物種。",
 		'zh-cn': "遠古時代自大海上岸後， 就開始在陸地上生活。 似乎與吼吼鯨是相近的物種。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ひっぱたく",
+				'ja-jp': "ひっぱたく",
 				'zh-tw': "重摑",
 				'zh-cn': "重摑",
 			},
@@ -34,7 +34,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "フロストスマッシュ",
+				'ja-jp': "フロストスマッシュ",
 				'zh-tw': "冰霜粉碎",
 				'zh-cn': "冰霜粉碎",
 			},

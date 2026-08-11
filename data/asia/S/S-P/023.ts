@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マンタイン",
+		'ja-jp': "マンタイン",
 	},
 
 	illustrator: "0313",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "泳いで スピードが のってくると 波の上に 飛びだし そのまま １００メートルも 滑空 する。",
+		'ja-jp': "泳いで スピードが のってくると 波の上に 飛びだし そのまま １００メートルも 滑空 する。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "みずため" },
 			cost: ["Water"],
 			effect: {
-				ja: "自分の山札から[水]エネルギーを3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札から[水]エネルギーを3枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 		{

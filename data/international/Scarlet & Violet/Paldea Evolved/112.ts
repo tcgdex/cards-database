@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Makuhita",
-		en: "Makuhita",
-		es: "Makuhita",
-		it: "Makuhita",
-		pt: "Makuhita",
-		de: "Makuhita"
+		'fr-fr': "Makuhita",
+		'en-us': "Makuhita",
+		'es-es': "Makuhita",
+		'it-it': "Makuhita",
+		'pt-br': "Makuhita",
+		'de-de': "Makuhita"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Grande Claque",
-			en: "Slap Push",
-			es: "Empujón con Bofetón",
-			it: "Spintonata",
-			pt: "Tapa Empurrão",
-			de: "Stoß"
+			'fr-fr': "Grande Claque",
+			'en-us': "Slap Push",
+			'es-es': "Empujón con Bofetón",
+			'it-it': "Spintonata",
+			'pt-br': "Tapa Empurrão",
+			'de-de': "Stoß"
 		},
 
 		damage: 40
@@ -66,7 +66,7 @@ const card: Card = {
 	illustrator: "Kurata So",
 
 	description: {
-		en: "It grows stronger by enduring harsh training. It is a gutsy Pokémon that can withstand any attack.",
+		'en-us': "It grows stronger by enduring harsh training. It is a gutsy Pokémon that can withstand any attack.",
 	},
 }
 

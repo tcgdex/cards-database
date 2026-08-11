@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Jungle'
 
 const card: Card = {
 	name: {
-		en: "Nidoqueen",
-		fr: "Nidoqueen",
-		de: "Nidoqueen"
+		'en-us': "Nidoqueen",
+		'fr-fr': "Nidoqueen",
+		'de-de': "Nidoqueen"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidorina",
-		fr: "Nidorina"
+		'en-us': "Nidorina",
+		'fr-fr': "Nidorina"
 	},
 
 	stage: "Stage2",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Boyfriends",
-				fr: "Fiancés",
-				de: "Minnesänger"
+				'en-us': "Boyfriends",
+				'fr-fr': "Fiancés",
+				'de-de': "Minnesänger"
 			},
 			effect: {
-				en: "Does 20 damage plus 20 more damage for each Nidoking you have in play.",
-				fr: "Inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque Nidoking que vous avez en jeu.",
-				de: "Fügt 20 Schadenspunkte plus 20 weitere für jeden Nidoking zu, den du im Spiel hast."
+				'en-us': "Does 20 damage plus 20 more damage for each Nidoking you have in play.",
+				'fr-fr': "Inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque Nidoking que vous avez en jeu.",
+				'de-de': "Fügt 20 Schadenspunkte plus 20 weitere für jeden Nidoking zu, den du im Spiel hast."
 			},
 			damage: "20+",
 
@@ -57,9 +57,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Punch",
-				fr: "Ultimapoing",
-				de: "Megahieb"
+				'en-us': "Mega Punch",
+				'fr-fr': "Ultimapoing",
+				'de-de': "Megahieb"
 			},
 
 			damage: 50,
@@ -77,8 +77,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
-		fr: "Ses écailles très résistantes et son corps massif sont des armes dévastatrices."
+		'en-us': "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
+		'fr-fr': "Ses écailles très résistantes et son corps massif sont des armes dévastatrices."
 	},
 
 

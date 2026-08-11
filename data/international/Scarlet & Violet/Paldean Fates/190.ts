@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Grafaiai",
-		fr: "Tag-Tag",
-		es: "Grafaiai",
-		it: "Grafaiai",
-		pt: "Grafaiai",
-		de: "Affiti"
+		'en-us': "Grafaiai",
+		'fr-fr': "Tag-Tag",
+		'es-es': "Grafaiai",
+		'it-it': "Grafaiai",
+		'pt-br': "Grafaiai",
+		'de-de': "Affiti"
 	},
 
 	rarity: "Shiny rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Darkness"],
 	evolveFrom: {
-		en: "Shroodle",
-		fr: "Gribouraigne",
-		es: "Shroodle",
-		it: "Shroodle",
-		pt: "Shroodle",
-		de: "Sproxi"
+		'en-us': "Shroodle",
+		'fr-fr': "Gribouraigne",
+		'es-es': "Shroodle",
+		'it-it': "Shroodle",
+		'pt-br': "Shroodle",
+		'de-de': "Sproxi"
 	},
 	stage: "Stage1",
 
@@ -32,41 +32,41 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Spit Poison",
-			fr: "Crache-Venin",
-			es: "Escupir Veneno",
-			it: "Sputaveleno",
-			pt: "Cuspe Venenoso",
-			de: "Giftspucke"
+			'en-us': "Spit Poison",
+			'fr-fr': "Crache-Venin",
+			'es-es': "Escupir Veneno",
+			'it-it': "Sputaveleno",
+			'pt-br': "Cuspe Venenoso",
+			'de-de': "Giftspucke"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			pt: "O Pokémon Ativo do seu oponente agora está Envenenado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
 		}
 	}, {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Colorful Graffiti",
-			fr: "Graffiti Coloré",
-			es: "Grafiti Colorido",
-			it: "Graffiti Colorati",
-			pt: "Grafite Colorido",
-			de: "Buntes Graffiti"
+			'en-us': "Colorful Graffiti",
+			'fr-fr': "Graffiti Coloré",
+			'es-es': "Grafiti Colorido",
+			'it-it': "Graffiti Colorati",
+			'pt-br': "Grafite Colorido",
+			'de-de': "Buntes Graffiti"
 		},
 
 		effect: {
-			en: "You may discard as many Basic Energy cards as you like from your hand. This attack does 40 damage for each type of Basic Energy you discarded in this way.",
-			fr: "Vous pouvez défausser le nombre voulu de cartes Énergie de base de votre main. Cette attaque inflige 40 dégâts pour chaque type d'Énergie de base défaussée de cette façon.",
-			es: "Puedes descartar tantas cartas de Energía Básica de tu mano como quieras. Este ataque hace 40 puntos de daño por cada tipo de Energía Básica que hayas descartado de esta manera.",
-			it: "Puoi scartare tutte le carte Energia base che vuoi dalla tua mano. Questo attacco infligge 40 danni per ogni tipo di Energia base che hai scartato in questo modo.",
-			pt: "Você pode descartar quantas cartas de Energia Básica desejar da sua mão. Este ataque causa 40 pontos de dano para cada tipo de Energia Básica descartado desta forma.",
-			de: "Du kannst beliebig viele Basis-Energiekarten aus deiner Hand auf deinen Ablagestapel legen. Diese Attacke fügt für jeden auf diese Weise auf den Ablagestapel gelegten Basis-Energietyp 40 Schadenspunkte zu."
+			'en-us': "You may discard as many Basic Energy cards as you like from your hand. This attack does 40 damage for each type of Basic Energy you discarded in this way.",
+			'fr-fr': "Vous pouvez défausser le nombre voulu de cartes Énergie de base de votre main. Cette attaque inflige 40 dégâts pour chaque type d'Énergie de base défaussée de cette façon.",
+			'es-es': "Puedes descartar tantas cartas de Energía Básica de tu mano como quieras. Este ataque hace 40 puntos de daño por cada tipo de Energía Básica que hayas descartado de esta manera.",
+			'it-it': "Puoi scartare tutte le carte Energia base che vuoi dalla tua mano. Questo attacco infligge 40 danni per ogni tipo di Energia base che hai scartato in questo modo.",
+			'pt-br': "Você pode descartar quantas cartas de Energia Básica desejar da sua mão. Este ataque causa 40 pontos de dano para cada tipo de Energia Básica descartado desta forma.",
+			'de-de': "Du kannst beliebig viele Basis-Energiekarten aus deiner Hand auf deinen Ablagestapel legen. Diese Attacke fügt für jeden auf diese Weise auf den Ablagestapel gelegten Basis-Energietyp 40 Schadenspunkte zu."
 		},
 
 		damage: "40×"
@@ -95,7 +95,7 @@ const card: Card = {
 	illustrator: "Scav",
 
 	description: {
-		en: "The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests.",
+		'en-us': "The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests.",
 	},
 
 }

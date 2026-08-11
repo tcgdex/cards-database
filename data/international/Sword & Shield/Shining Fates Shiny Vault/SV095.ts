@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Couaneton",
-		en: "Ducklett",
-		es: "Ducklett",
-		it: "Ducklett",
-		pt: "Ducklett",
-		de: "Piccolente"
+		'fr-fr': "Couaneton",
+		'en-us': "Ducklett",
+		'es-es': "Ducklett",
+		'it-it': "Ducklett",
+		'pt-br': "Ducklett",
+		'de-de': "Piccolente"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -22,12 +22,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Battement",
-			en: "Flap",
-			es: "Aleteo",
-			it: "Alabattito",
-			pt: "Asa",
-			de: "Flattern"
+			'fr-fr': "Battement",
+			'en-us': "Flap",
+			'es-es': "Aleteo",
+			'it-it': "Alabattito",
+			'pt-br': "Asa",
+			'de-de': "Flattern"
 		},
 
 		damage: 20,
@@ -49,7 +49,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "They are better at swimming than flying, and they happily eat their favorite food, peat moss, as they dive underwater."
+		'en-us': "They are better at swimming than flying, and they happily eat their favorite food, peat moss, as they dive underwater."
 	},
 
 	variants: [

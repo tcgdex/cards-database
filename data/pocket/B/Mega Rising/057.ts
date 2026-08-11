@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wailord"
+		'en-us': "Wailord"
 	},
 
 	illustrator: "KIYOTAKA OSHIYAMA",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Wailmer"
+		'en-us': "Wailmer"
 	},
 
 	description: {
-		en: "The biggest of all Pokémon. It can dive to a depth\nof almost 10,000 feet on only one breath."
+		'en-us': "The biggest of all Pokémon. It can dive to a depth\nof almost 10,000 feet on only one breath."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Whale Pump"
+			'en-us': "Whale Pump"
 		},
 
 		damage: 60,
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "This attack does 10 more damage for each {W} Energy attached to this Pokémon."
+			'en-us': "This attack does 10 more damage for each {W} Energy attached to this Pokémon."
 		}
 	}],
 

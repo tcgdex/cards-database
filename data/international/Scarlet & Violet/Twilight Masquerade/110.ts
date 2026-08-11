@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ting-Lu",
-		fr: "Dinglu",
-		es: "Ting-Lu",
-		it: "Ting-Lu",
-		pt: "Ting-Lu",
-		de: "Dinglu"
+		'en-us': "Ting-Lu",
+		'fr-fr': "Dinglu",
+		'es-es': "Ting-Lu",
+		'it-it': "Ting-Lu",
+		'pt-br': "Ting-Lu",
+		'de-de': "Dinglu"
 	},
 
 	rarity: "Rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Ground Crasher",
-			fr: "Percuteur de Sol",
-			es: "Demolición de Tierra",
-			it: "Fracassaterra",
-			pt: "Racha Chão",
-			de: "Bodencrasher"
+			'en-us': "Ground Crasher",
+			'fr-fr': "Percuteur de Sol",
+			'es-es': "Demolición de Tierra",
+			'it-it': "Fracassaterra",
+			'pt-br': "Racha Chão",
+			'de-de': "Bodencrasher"
 		},
 
 		effect: {
-			en: "If a Stadium is in play, this attack also does 30 damage to each of your opponent's Benched Pokémon, and discard that Stadium. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Si un Stade est en jeu, cette attaque inflige aussi 30 dégâts à chacun des Pokémon de Banc de votre adversaire, et vous défaussez ce Stade. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-			es: "Si hay un Estadio en juego, este ataque también hace 30 puntos de daño a cada uno de los Pokémon en Banca de tu rival, y descartas ese Estadio. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-			it: "Se c'è in gioco una carta Stadio, questo attacco infligge anche 30 danni a ciascuno dei Pokémon nella panchina del tuo avversario e tu scarti quella carta Stadio. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-			pt: "Se um Estádio estiver em jogo, este ataque também causará 30 pontos de dano a cada um dos Pokémon no Banco do seu oponente, e descarte aquele Estádio. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
-			de: "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke auch jedem Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu, und du legst jene Stadionkarte auf den Ablagestapel. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+			'en-us': "If a Stadium is in play, this attack also does 30 damage to each of your opponent's Benched Pokémon, and discard that Stadium. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Si un Stade est en jeu, cette attaque inflige aussi 30 dégâts à chacun des Pokémon de Banc de votre adversaire, et vous défaussez ce Stade. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			'es-es': "Si hay un Estadio en juego, este ataque también hace 30 puntos de daño a cada uno de los Pokémon en Banca de tu rival, y descartas ese Estadio. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			'it-it': "Se c'è in gioco una carta Stadio, questo attacco infligge anche 30 danni a ciascuno dei Pokémon nella panchina del tuo avversario e tu scarti quella carta Stadio. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			'pt-br': "Se um Estádio estiver em jogo, este ataque também causará 30 pontos de dano a cada um dos Pokémon no Banco do seu oponente, e descarte aquele Estádio. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
+			'de-de': "Wenn eine Stadionkarte im Spiel ist, fügt diese Attacke auch jedem Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu, und du legst jene Stadionkarte auf den Ablagestapel. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		},
 
 		damage: 30
@@ -46,12 +46,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			es: "Martillear",
-			it: "Martello",
-			pt: "Martelada",
-			de: "Einhämmern"
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'es-es': "Martillear",
+			'it-it': "Martello",
+			'pt-br': "Martelada",
+			'de-de': "Einhämmern"
 		},
 
 		damage: 110
@@ -67,7 +67,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It slowly brings its exceedingly heavy head down upon the ground, splitting the earth open with huge fissures that run over 160 feet deep.",
+		'en-us': "It slowly brings its exceedingly heavy head down upon the ground, splitting the earth open with huge fissures that run over 160 feet deep.",
 	},
 
 	variants: [

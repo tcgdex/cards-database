@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1V"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ウインディex"
+		'ja-jp': "ウインディex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,25 +19,25 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			ja: "いかりのツメ"
+			'ja-jp': "いかりのツメ"
 		},
 
 		damage: "30＋",
 
 		effect: {
-			ja: "このポケモンにのっているダメカンの数×10ダメージ追加。"
+			'ja-jp': "このポケモンにのっているダメカンの数×10ダメージ追加。"
 		}
 	}, {
 		cost: ["Fire", "Fire", "Fire"],
 
 		name: {
-			ja: "ぐれんのほのお"
+			'ja-jp': "ぐれんのほのお"
 		},
 
 		damage: 250,
 
 		effect: {
-			ja: "このポケモンについているエネルギーを2個選び、トラッシュする。"
+			'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。"
 		}
 	}],
 

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	name: {
-		fr: "Miaouss V",
-		en: "Meowth V",
-		es: "Meowth V",
-		it: "Meowth V",
-		pt: "Meowth V",
-		de: "Mauzi V"
+		'fr-fr': "Miaouss V",
+		'en-us': "Meowth V",
+		'es-es': "Meowth V",
+		'it-it': "Meowth V",
+		'pt-br': "Meowth V",
+		'de-de': "Mauzi V"
 	},
 
 	illustrator: "aky CG Works",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				fr: "Jackpot",
-				en: "Pay Day",
-				es: "Día de Pago",
-				it: "Giornopaga",
-				pt: "Dia de Pagamento",
-				de: "Zahltag"
+				'fr-fr': "Jackpot",
+				'en-us': "Pay Day",
+				'es-es': "Día de Pago",
+				'it-it': "Giornopaga",
+				'pt-br': "Dia de Pagamento",
+				'de-de': "Zahltag"
 			},
 			effect: {
-				fr: "Piochez une carte.",
-				en: "Draw a card.",
-				es: "Roba una carta.",
-				it: "Pesca una carta.",
-				pt: "Compre um card.",
-				de: "Ziehe 1 Karte."
+				'fr-fr': "Piochez une carte.",
+				'en-us': "Draw a card.",
+				'es-es': "Roba una carta.",
+				'it-it': "Pesca una carta.",
+				'pt-br': "Compre um card.",
+				'de-de': "Ziehe 1 Karte."
 			},
 			damage: 30,
 
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				fr: "Griffe Taillante",
-				en: "Slashing Claw",
-				es: "Garra Cuchillazo",
-				it: "Artigli Laceranti",
-				pt: "Garra Cortadora",
-				de: "Schlitzende Klaue"
+				'fr-fr': "Griffe Taillante",
+				'en-us': "Slashing Claw",
+				'es-es': "Garra Cuchillazo",
+				'it-it': "Artigli Laceranti",
+				'pt-br': "Garra Cortadora",
+				'de-de': "Schlitzende Klaue"
 			},
 
 			damage: 130,

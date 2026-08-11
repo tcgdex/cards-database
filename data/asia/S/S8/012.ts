@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガーディ",
+		'ja-jp': "ガーディ",
 		'zh-tw': "卡蒂狗",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "忠実な 性格で 親の トレーナーを 守るため 必死に 相手に 吠えかかる。",
+		'ja-jp': "忠実な 性格で 親の トレーナーを 守るため 必死に 相手に 吠えかかる。",
 		'zh-tw': "性格忠誠。為了保護自己的訓練家，會拼命地朝對手狂吠。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "あたためる",
+				'ja-jp': "あたためる",
 				'zh-tw': "升溫",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から[炎]エネルギーを1枚選び、自分のポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から[炎]エネルギーを1枚選び、自分のポケモンにつける。そして山札を切る。",
 				'zh-tw': "從自己的牌庫選擇1張【火】能量卡，附於自己的寶可夢身上。並且重洗牌庫。",
 			},
 		},
 		{
 			name: {
-				ja: "かえん",
+				'ja-jp': "かえん",
 				'zh-tw': "烈焰",
 			},
 			damage: 30,

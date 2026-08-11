@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Magikarp",
+		'ja-jp': "Magikarp",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "飛び出します",
+				'ja-jp': "飛び出します",
 			},
 			effect: {
-				ja: "ベンチ付きポケモンの1つでMagikarpを切り替えます。",
+				'ja-jp': "ベンチ付きポケモンの1つでMagikarpを切り替えます。",
 			},
 		},
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "怒り",
+				'ja-jp': "怒り",
 			},
 			effect: {
-				ja: "Magikarpのダメージカウンターごとに10のダメージと10ダメージがさらに10件のダメージを与えます。",
+				'ja-jp': "Magikarpのダメージカウンターごとに10のダメージと10ダメージがさらに10件のダメージを与えます。",
 			},
 		},
 	],

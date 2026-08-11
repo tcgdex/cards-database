@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モルペコex",
+		'ja-jp': "モルペコex",
 	},
 
 	illustrator: "aky CG Works",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "ホイールドロー" },
 			cost: ["Darkness"],
 			effect: {
-				ja: "自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。",
+				'ja-jp': "自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "40+",
 			cost: ["Darkness", "Darkness"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数×40ダメージ追加。",
+				'ja-jp': "このポケモンにのっているダメカンの数×40ダメージ追加。",
 			},
 		},
 	],

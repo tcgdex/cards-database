@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マフィティフ",
+		'ja-jp': "マフィティフ",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "子どもと 遊ぶことが 大好き。 普段は 温厚だが 家族を 守るとき 形相が 変わる。",
+		'ja-jp': "子どもと 遊ぶことが 大好き。 普段は 温厚だが 家族を 守るとき 形相が 変わる。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 210,
 			cost: ["Darkness", "Darkness", "Darkness"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「+100」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「+100」される。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "オラチフ",
+		'ja-jp': "オラチフ",
 	},
 
 	retreat: 3,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP1";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグマ団のコドラ",
+		'ja-jp': "マグマ団のコドラ",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "コドラの 堅い体で 与える 突進の 衝撃は コンクリートも 破壊するぜ！",
+		'ja-jp': "コドラの 堅い体で 与える 突進の 衝撃は コンクリートも 破壊するぜ！",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにも10ダメージ。",
+				'ja-jp': "このポケモンにも10ダメージ。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "マグマ団のココドラ",
+		'ja-jp': "マグマ団のココドラ",
 	},
 
 	retreat: 3,

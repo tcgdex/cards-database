@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Seismitoad",
+		'en-us': "Seismitoad",
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Palpitoad",
+		'en-us': "Palpitoad",
 	},
 
 	stage: "Stage2",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Round",
+				'en-us': "Round",
 			},
 			effect: {
-				en: "Does 30 damage times the number of your Pokémon that have the Round attack.",
+				'en-us': "Does 30 damage times the number of your Pokémon that have the Round attack.",
 			},
 			damage: 30,
 
@@ -49,7 +49,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Voice",
+				'en-us': "Hyper Voice",
 			},
 
 			damage: 70,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It increases the power of its punches by vibrating the bumps on its fists. It can turn a boulder to rubble with one punch.",
+		'en-us': "It increases the power of its punches by vibrating the bumps on its fists. It can turn a boulder to rubble with one punch.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Larméléon",
-		en: "Sobble",
-		es: "Sobble",
-		it: "Sobble",
-		pt: "Sobble",
-		de: "Memmeon"
+		'fr-fr': "Larméléon",
+		'en-us': "Sobble",
+		'es-es': "Sobble",
+		'it-it': "Sobble",
+		'pt-br': "Sobble",
+		'de-de': "Memmeon"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -22,12 +22,12 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			fr: "Pistolet à O",
-			en: "Water Gun",
-			es: "Pistola Agua",
-			it: "Pistolacqua",
-			pt: "Revólver d'Água",
-			de: "Aquaknarre"
+			'fr-fr': "Pistolet à O",
+			'en-us': "Water Gun",
+			'es-es': "Pistola Agua",
+			'it-it': "Pistolacqua",
+			'pt-br': "Revólver d'Água",
+			'de-de': "Aquaknarre"
 		},
 
 		damage: 20,
@@ -44,7 +44,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won't be able to resist weeping."
+		'en-us': "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won't be able to resist weeping."
 	},
 
 	variants: [

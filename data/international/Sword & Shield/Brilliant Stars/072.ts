@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hitmontop",
-		fr: "Kapoera",
-		es: "Hitmontop",
-		it: "Hitmontop",
-		pt: "Hitmontop",
-		de: "Kapoera"
+		'en-us': "Hitmontop",
+		'fr-fr': "Kapoera",
+		'es-es': "Hitmontop",
+		'it-it': "Hitmontop",
+		'pt-br': "Hitmontop",
+		'de-de': "Kapoera"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Spinning Draw",
-			fr: "Pioche Tournante",
-			es: "Robo Giratorio",
-			it: "Pesca Rotante",
-			pt: "Compra Giratória",
-			de: "Drehender Zug"
+			'en-us': "Spinning Draw",
+			'fr-fr': "Pioche Tournante",
+			'es-es': "Robo Giratorio",
+			'it-it': "Pesca Rotante",
+			'pt-br': "Compra Giratória",
+			'de-de': "Drehender Zug"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			es: "Roba 1 carta.",
-			it: "Pesca una carta.",
-			pt: "Compre 1 carta.",
-			de: "Ziehe 1 Karte."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'es-es': "Roba 1 carta.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre 1 carta.",
+			'de-de': "Ziehe 1 Karte."
 		},
 
 		damage: 20
@@ -47,12 +47,12 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			en: "Cyclone Kick",
-			fr: "Pied Cyclone",
-			es: "Patada Ciclón",
-			it: "Calciovento",
-			pt: "Chute Ciclone",
-			de: "Wirbeltritt"
+			'en-us': "Cyclone Kick",
+			'fr-fr': "Pied Cyclone",
+			'es-es': "Patada Ciclón",
+			'it-it': "Calciovento",
+			'pt-br': "Chute Ciclone",
+			'de-de': "Wirbeltritt"
 		},
 
 		damage: 100
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground.",
+		'en-us': "It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground.",
 	},
 
 	variants: [

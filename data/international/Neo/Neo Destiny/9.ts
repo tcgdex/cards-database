@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Dark Scizor",
-		fr: "Cizayox obscur",
-		de: "Dunkles Scherox"
+		'en-us': "Dark Scizor",
+		'fr-fr': "Cizayox obscur",
+		'de-de': "Dunkles Scherox"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Scyther",
-		fr: "Insécateur"
+		'en-us': "Scyther",
+		'fr-fr': "Insécateur"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Threaten",
-				fr: "Menace",
-				de: "Threaten"
+				'en-us': "Threaten",
+				'fr-fr': "Menace",
+				'de-de': "Threaten"
 			},
 			effect: {
-				en: "Flip a coin. If heads, look at your opponent's hand. If he or she has any Trainer cards there, choose 1 of them. Your opponent shuffles that card into his or her deck.",
-				fr: "Lancez une pièce. Si c'est face, regardez la main de votre adversaire. S'il a des cartes Dresseur, choisissez-en une. Votre adversaire mélange cette carte à son deck.",
-				de: "Flip a coin. If heads, look at your opponent's hand. If he or she has any Trainer cards there, choose 1 of them. Your opponent shuffles that card into his or her deck."
+				'en-us': "Flip a coin. If heads, look at your opponent's hand. If he or she has any Trainer cards there, choose 1 of them. Your opponent shuffles that card into his or her deck.",
+				'fr-fr': "Lancez une pièce. Si c'est face, regardez la main de votre adversaire. S'il a des cartes Dresseur, choisissez-en une. Votre adversaire mélange cette carte à son deck.",
+				'de-de': "Flip a coin. If heads, look at your opponent's hand. If he or she has any Trainer cards there, choose 1 of them. Your opponent shuffles that card into his or her deck."
 			},
 
 		},
@@ -55,9 +55,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Slash"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Slash"
 			},
 
 			damage: 30,
@@ -82,8 +82,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Nothing can withstand the pressure of the vise-like grip of this Pokémon's steel claws.",
-		fr: "Rien ne peut résister à la pression des griffes d'acier de ce Pokémon, aussi puissantes qu'un étau."
+		'en-us': "Nothing can withstand the pressure of the vise-like grip of this Pokémon's steel claws.",
+		'fr-fr': "Rien ne peut résister à la pression des griffes d'acier de ce Pokémon, aussi puissantes qu'un étau."
 	},
 
 

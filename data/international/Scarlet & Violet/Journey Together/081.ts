@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pupitar",
-		fr: "Ymphect",
-		es: "Pupitar",
-		de: "Pupitar",
-		it: "Pupitar",
-		pt: "Pupitar",
+		'en-us': "Pupitar",
+		'fr-fr': "Ymphect",
+		'es-es': "Pupitar",
+		'de-de': "Pupitar",
+		'it-it': "Pupitar",
+		'pt-br': "Pupitar",
 		'es-mx': "Pupitar"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Larvitar",
-		fr: "Embrylex",
-		es: "Larvitar",
-		de: "Larvitar",
-		it: "Larvitar",
-		pt: "Larvitar",
+		'en-us': "Larvitar",
+		'fr-fr': "Embrylex",
+		'es-es': "Larvitar",
+		'de-de': "Larvitar",
+		'it-it': "Larvitar",
+		'pt-br': "Larvitar",
 		'es-mx': "Larvitar"
 	},
 	stage: "Stage1",
@@ -34,22 +34,22 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Take Down",
-			fr: "Bélier",
-			es: "Derribo",
-			de: "Bodycheck",
-			it: "Riduttore",
-			pt: "Desmantelar",
+			'en-us': "Take Down",
+			'fr-fr': "Bélier",
+			'es-es': "Derribo",
+			'de-de': "Bodycheck",
+			'it-it': "Riduttore",
+			'pt-br': "Desmantelar",
 			'es-mx': "Derribo"
 		},
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 20 dégâts.",
-			es: "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
-			de: "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu.",
-			it: "Questo Pokémon infligge anche 20 danni a se stesso.",
-			pt: "Este Pokémon também causa 20 pontos de dano a si mesmo.",
+			'en-us': "This Pokémon also does 20 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 20 dégâts.",
+			'es-es': "Este Pokémon también se hace 20 puntos de daño a sí mismo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 20 Schadenspunkte zu.",
+			'it-it': "Questo Pokémon infligge anche 20 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 20 pontos de dano a si mesmo.",
 			'es-mx': "Este Pokémon también se hace 20 puntos de daño a sí mismo."
 		},
 

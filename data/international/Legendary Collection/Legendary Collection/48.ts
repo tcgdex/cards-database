@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Kabuto"
+		'en-us': "Kabuto"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -25,10 +25,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Kabuto Armor"
+				'en-us': "Kabuto Armor"
 			},
 			effect: {
-				en: "Whenever an attack (even your own) does damage to Kabuto (after applying Weakness and Resistance), that attack does only half the damage to Kabuto (rounded down to the nearest 10). (Any other effects of attacks still happen.) This power stops working while Kabuto is affected by a Special Condition."
+				'en-us': "Whenever an attack (even your own) does damage to Kabuto (after applying Weakness and Resistance), that attack does only half the damage to Kabuto (rounded down to the nearest 10). (Any other effects of attacks still happen.) This power stops working while Kabuto is affected by a Special Condition."
 			}
 		},
 	],
@@ -39,7 +39,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch"
+				'en-us': "Scratch"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A Pokémon that was resurrected from a fossil found in what was once the ocean floor eons ago."
+		'en-us': "A Pokémon that was resurrected from a fossil found in what was once the ocean floor eons ago."
 	},
 
 	variants: [

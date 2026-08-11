@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Florges",
-		fr: "Florges",
-		es: "Florges",
-		it: "Florges",
-		pt: "Florges",
-		de: "Florges"
+		'en-us': "Florges",
+		'fr-fr': "Florges",
+		'es-es': "Florges",
+		'it-it': "Florges",
+		'pt-br': "Florges",
+		'de-de': "Florges"
 	},
 
 	rarity: "Uncommon",
@@ -20,8 +20,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Floette",
-		fr: "Floette"
+		'en-us': "Floette",
+		'fr-fr': "Floette"
 	},
 
 	stage: "Stage2",
@@ -30,21 +30,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Blooming Garden",
-			fr: "Jardin Florissant",
-			es: "Jardín Floreciente",
-			it: "Giardino in Fiore",
-			pt: "Florescer do Jardim",
-			de: "Florierender Garten"
+			'en-us': "Blooming Garden",
+			'fr-fr': "Jardin Florissant",
+			'es-es': "Jardín Floreciente",
+			'it-it': "Giardino in Fiore",
+			'pt-br': "Florescer do Jardim",
+			'de-de': "Florierender Garten"
 		},
 
 		effect: {
-			en: "Your Pokémon in play have no Weakness.",
-			fr: "Vos Pokémon en jeu n'ont pas de Faiblesse.",
-			es: "Tus Pokémon en juego no tienen Debilidad.",
-			it: "I tuoi Pokémon in gioco non hanno debolezza.",
-			pt: "Seus Pokémon em jogo não têm Fraqueza.",
-			de: "Deine Pokémon im Spiel haben keine Schwächen."
+			'en-us': "Your Pokémon in play have no Weakness.",
+			'fr-fr': "Vos Pokémon en jeu n'ont pas de Faiblesse.",
+			'es-es': "Tus Pokémon en juego no tienen Debilidad.",
+			'it-it': "I tuoi Pokémon in gioco non hanno debolezza.",
+			'pt-br': "Seus Pokémon em jogo não têm Fraqueza.",
+			'de-de': "Deine Pokémon im Spiel haben keine Schwächen."
 		}
 	}],
 
@@ -52,21 +52,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			en: "Moonblast",
-			fr: "Pouvoir Lunaire",
-			es: "Fuerza Lunar",
-			it: "Forza Lunare",
-			pt: "Explosão Lunar",
-			de: "Mondgewalt"
+			'en-us': "Moonblast",
+			'fr-fr': "Pouvoir Lunaire",
+			'es-es': "Fuerza Lunar",
+			'it-it': "Forza Lunare",
+			'pt-br': "Explosão Lunar",
+			'de-de': "Mondgewalt"
 		},
 
 		effect: {
-			en: "During your opponent's next turn, the Defending Pokémon's attacks do 30 less damage (before applying Weakness and Resistance).",
-			fr: "Pendant le prochain tour de votre adversaire, les attaques du Pokémon Défenseur infligent 30 dégâts de moins (avant application de la Faiblesse et de la Résistance).",
-			es: "Durante el próximo turno de tu rival, los ataques del Pokémon Defensor hacen 30 puntos de daño menos (antes de aplicar Debilidad y Resistencia).",
-			it: "Durante il prossimo turno del tuo avversario, gli attacchi del Pokémon difensore infliggono 30 danni in meno, prima di aver applicato debolezza e resistenza.",
-			pt: "Durante o próximo turno do seu oponente, os ataques do Pokémon Defensor causarão 30 pontos de dano a menos (antes de aplicar Fraqueza e Resistência).",
-			de: "Während des nächsten Zuges deines Gegners fügen die Attacken des Verteidigenden Pokémon 30 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden)."
+			'en-us': "During your opponent's next turn, the Defending Pokémon's attacks do 30 less damage (before applying Weakness and Resistance).",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, les attaques du Pokémon Défenseur infligent 30 dégâts de moins (avant application de la Faiblesse et de la Résistance).",
+			'es-es': "Durante el próximo turno de tu rival, los ataques del Pokémon Defensor hacen 30 puntos de daño menos (antes de aplicar Debilidad y Resistencia).",
+			'it-it': "Durante il prossimo turno del tuo avversario, gli attacchi del Pokémon difensore infliggono 30 danni in meno, prima di aver applicato debolezza e resistenza.",
+			'pt-br': "Durante o próximo turno do seu oponente, os ataques do Pokémon Defensor causarão 30 pontos de dano a menos (antes de aplicar Fraqueza e Resistência).",
+			'de-de': "Während des nächsten Zuges deines Gegners fügen die Attacken des Verteidigenden Pokémon 30 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden)."
 		},
 
 		damage: 120
@@ -93,7 +93,7 @@ const card: Card = {
 	illustrator: "Haru Akasaka",
 
 	description: {
-		en: "They say that flower gardens created by Florges are constantly showered with a power that can heal both body and spirit.",
+		'en-us': "They say that flower gardens created by Florges are constantly showered with a power that can heal both body and spirit.",
 	},
 
 	thirdParty: {

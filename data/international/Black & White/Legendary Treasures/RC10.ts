@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Gardevoir",
+		'en-us': "Gardevoir",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kirlia",
+		'en-us': "Kirlia",
 	},
 
 	stage: "Stage2",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psybeam",
+				'en-us': "Psybeam",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
+				'en-us': "The Defending Pokémon is now Confused.",
 			},
 			damage: 40,
 
@@ -48,10 +48,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Eternal Radiance",
+				'en-us': "Eternal Radiance",
 			},
 			effect: {
-				en: "Move all damage counters from this Pokémon to the Defending Pokémon. This Pokémon can't use Eternal Radiance during your next turn.",
+				'en-us': "Move all damage counters from this Pokémon to the Defending Pokémon. This Pokémon can't use Eternal Radiance during your next turn.",
 			},
 
 		},
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "To protect its Trainer, it will expend all its psychic power to create a small black hole.",
+		'en-us': "To protect its Trainer, it will expend all its psychic power to create a small black hole.",
 	},
 
 	thirdParty: {

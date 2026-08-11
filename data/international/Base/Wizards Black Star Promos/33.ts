@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Scizor",
-		fr: "Cizayox"
+		'en-us': "Scizor",
+		'fr-fr': "Cizayox"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Scyther",
-		fr: "Insécateur"
+		'en-us': "Scyther",
+		'fr-fr': "Insécateur"
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leer",
-				fr: "Groz'yeux"
+				'en-us': "Leer",
+				'fr-fr': "Groz'yeux"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can't attack Scizor during your opponent's next turn. (Benching either Pokémon ends this effect.)",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer Cizayox pendant le prochain tour de votre adversaire. (Mettre l'un des deux Pokémon sur le Banc met fin à cet effet.)"
+				'en-us': "Flip a coin. If heads, the Defending Pokémon can't attack Scizor during your opponent's next turn. (Benching either Pokémon ends this effect.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer Cizayox pendant le prochain tour de votre adversaire. (Mettre l'un des deux Pokémon sur le Banc met fin à cet effet.)"
 			},
 
 		},
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Pincer",
-				fr: "Pinces de Métal"
+				'en-us': "Metal Pincer",
+				'fr-fr': "Pinces de Métal"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 30 damage plus 10 more damage for each heads.",
-				fr: "Lancez une pièce jusqu'à ce que ce soit pile. Cette attaque inflige 30 dégâts plus 10 fois le nombre de faces."
+				'en-us': "Flip a coin until you get tails. This attack does 30 damage plus 10 more damage for each heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que ce soit pile. Cette attaque inflige 30 dégâts plus 10 fois le nombre de faces."
 			},
 			damage: "30+",
 
@@ -80,8 +80,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Its wings are not used for flying. They are flapped at high speed to adjust its body temperature.",
-		fr: "Il n'utilise pas ses ailes pour voler. Elles lui servent à ajuster la température de son corps en les faisant battre rapidement."
+		'en-us': "Its wings are not used for flying. They are flapped at high speed to adjust its body temperature.",
+		'fr-fr': "Il n'utilise pas ses ailes pour voler. Elles lui servent à ajuster la température de son corps en les faisant battre rapidement."
 	},
 
 	variants: [

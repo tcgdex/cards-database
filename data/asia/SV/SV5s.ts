@@ -1,10 +1,10 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../SV'
 
 const set: Set = {
 	id: 'SV5s',
 	name: {
-		id: 'Paradoks Andalan'
+		'id-id': 'Paradoks Andalan'
 	},
 
 	serie: serie,

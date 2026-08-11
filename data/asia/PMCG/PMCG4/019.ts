@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コダック",
+		'ja-jp': "コダック",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "めまい",
+				'ja-jp': "めまい",
 			},
 			effect: {
-				ja: "カードを描きます。",
+				'ja-jp': "カードを描きます。",
 			},
 		},
 		{
 			cost: ["Water", "Colorless"],
 			name: {
-				ja: "ウォーターガン",
+				'ja-jp': "ウォーターガン",
 			},
 			effect: {
-				ja: "Psyduckに取り付けられた各水エネルギーに対して20のダメージに加えて10のダメージをさらに10回かけますが、この攻撃のエネルギーコストの支払いには使用されません。この方法で20以上のダメージを追加することはできません。",
+				'ja-jp': "Psyduckに取り付けられた各水エネルギーに対して20のダメージに加えて10のダメージをさらに10回かけますが、この攻撃のエネルギーコストの支払いには使用されません。この方法で20以上のダメージを追加することはできません。",
 			},
 		},
 	],

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Klefki"
+		'en-us': "Klefki"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "In the past, noble families entrusted their vault\nkeys to a Klefki. They passed the Klefki down\nthrough the generations, taking good care of it."
+		'en-us': "In the past, noble families entrusted their vault\nkeys to a Klefki. They passed the Klefki down\nthrough the generations, taking good care of it."
 	},
 
 	stage: "Basic",
@@ -26,17 +26,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Dismantling Keys"
+			'en-us': "Dismantling Keys"
 		},
 
 		effect: {
-			en: "Once during your turn, if this Pokémon is on your Bench, you may discard all Pokémon Tools from your opponent's Active Pokémon. If you do, discard this Pokémon."
+			'en-us': "Once during your turn, if this Pokémon is on your Bench, you may discard all Pokémon Tools from your opponent's Active Pokémon. If you do, discard this Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Hook"
+			'en-us': "Hook"
 		},
 
 		damage: 20,

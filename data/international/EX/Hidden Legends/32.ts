@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Corsola",
-		fr: "Corayon",
-		de: "Corasonn"
+		'en-us': "Corsola",
+		'fr-fr': "Corayon",
+		'de-de': "Corasonn"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Coral Glow",
-				fr: "Rayon de corail",
-				de: "Coral Glow"
+				'en-us': "Coral Glow",
+				'fr-fr': "Rayon de corail",
+				'de-de': "Coral Glow"
 			},
 			effect: {
-				en: "Draw a number of cards up to the number of your opponent's Basic Pokémon in play. (You can't have more than 10 cards in your hand in this way.)",
-				fr: "Vous pouvez piocher autant de cartes que votre adversaire possède de Pokémon de base en jeu. (Vous ne pouvez pas avoir plus de 10 cartes en main de cette façon.)",
-				de: "Draw a number of cards up to the number of your opponent's Basic Pokémon in play. (You can't have more than 10 cards in your hand in this way.)"
+				'en-us': "Draw a number of cards up to the number of your opponent's Basic Pokémon in play. (You can't have more than 10 cards in your hand in this way.)",
+				'fr-fr': "Vous pouvez piocher autant de cartes que votre adversaire possède de Pokémon de base en jeu. (Vous ne pouvez pas avoir plus de 10 cartes en main de cette façon.)",
+				'de-de': "Draw a number of cards up to the number of your opponent's Basic Pokémon in play. (You can't have more than 10 cards in your hand in this way.)"
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
-				de: "Surf"
+				'en-us': "Surf",
+				'fr-fr': "Surf",
+				'de-de': "Surf"
 			},
 
 			damage: 40,

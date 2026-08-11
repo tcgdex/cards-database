@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レジロックスター",
+		'ja-jp': "レジロックスター",
 	},
 
 	rarity: "Shiny rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "排水を掘ります",
+				'ja-jp': "排水を掘ります",
 			},
 			effect: {
-				ja: "Regirock {{star | this Pokemon}}から1つのダメージカウンターを取り外します。",
+				'ja-jp': "Regirock {{star | this Pokemon}}から1つのダメージカウンターを取り外します。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fighting", "Fighting", "Colorless"],
 			name: {
-				ja: "最終的な爆発",
+				'ja-jp': "最終的な爆発",
 			},
 			effect: {
-				ja: "対戦相手が1枚の賞カードのみを残し、Regirock {{star | this pokemon}}が唯一のポケモンである場合、この攻撃のベースダメージは30ではなく100です。",
+				'ja-jp': "対戦相手が1枚の賞カードのみを残し、Regirock {{star | this pokemon}}が唯一のポケモンである場合、この攻撃のベースダメージは30ではなく100です。",
 			},
 			damage: 30,
 		},

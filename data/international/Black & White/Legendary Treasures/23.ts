@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Victini",
+		'en-us': "Victini",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -27,10 +27,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Victory Star",
+				'en-us': "Victory Star",
 			},
 			effect: {
-				en: "Once during your turn, after you flip any coins for an attack, you may ignore all effects of those coin flips and begin flipping those coins again. You can’t use more than 1 Victory Star Ability each turn.",
+				'en-us': "Once during your turn, after you flip any coins for an attack, you may ignore all effects of those coin flips and begin flipping those coins again. You can’t use more than 1 Victory Star Ability each turn.",
 			},
 		},
 	],
@@ -42,10 +42,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stored Power",
+				'en-us': "Stored Power",
 			},
 			effect: {
-				en: "Move all Energy attached to this Pokémon to 1 of your Benched Pokémon.",
+				'en-us': "Move all Energy attached to this Pokémon to 1 of your Benched Pokémon.",
 			},
 			damage: 30,
 
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
+		'en-us': "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
 	},
 
 	thirdParty: {

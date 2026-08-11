@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Genetic Apex"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Starmie ex",
-		fr: "Staross-ex",
-		es: "Starmie ex",
-		it: "Starmie-ex",
-		de: "Starmie-ex",
+		'en-us': "Starmie ex",
+		'fr-fr': "Staross-ex",
+		'es-es': "Starmie ex",
+		'it-it': "Starmie-ex",
+		'de-de': "Starmie-ex",
 		'pt-br': "Starmie ex",
-		ko: "아쿠스타 ex"
+		'ko-kr': "아쿠스타 ex"
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -23,7 +23,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Staryu"
+		'en-us': "Staryu"
 	},
 
 	suffix: "EX",
@@ -32,13 +32,13 @@ const card: Card = {
 		cost: ["Water", "Water"],
 
 		name: {
-			en: "Hydro Splash",
-			fr: "Hydro-Éclaboussure",
-			es: "Hidroestallido",
-			it: "Idrosplash",
-			de: "Hydroplatscher",
+			'en-us': "Hydro Splash",
+			'fr-fr': "Hydro-Éclaboussure",
+			'es-es': "Hidroestallido",
+			'it-it': "Idrosplash",
+			'de-de': "Hydroplatscher",
 			'pt-br': "Hidroborrifada",
-			ko: "하이드로 스플래시"
+			'ko-kr': "하이드로 스플래시"
 		},
 
 		damage: "90"

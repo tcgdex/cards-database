@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レジギガス",
+		'ja-jp': "レジギガス",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "だいちのめざめ" },
 			effect: {
-				ja: "自分の手札からこのポケモンにエネルギーをつけるたび、このポケモンのHPを「20」回復する。",
+				'ja-jp': "自分の手札からこのポケモンにエネルギーをつけるたび、このポケモンのHPを「20」回復する。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、すべてウラなら、このワザは失敗。",
+				'ja-jp': "コインを2回投げ、すべてウラなら、このワザは失敗。",
 			},
 		},
 	],

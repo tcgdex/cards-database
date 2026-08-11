@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビブラバ（デルタ種）",
+		'ja-jp': "ビブラバ（デルタ種）",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "サイキックウィング",
+				'ja-jp': "サイキックウィング",
 			},
 			effect: {
-				ja: "Vibravaに精神エネルギーが付着している場合、Vibravaのリトリートコストは0です。",
+				'ja-jp': "Vibravaに精神エネルギーが付着している場合、Vibravaのリトリートコストは0です。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "素早い打撃",
+				'ja-jp': "素早い打撃",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて20ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて20ダメージを与えます。",
 			},
 		},
 	],

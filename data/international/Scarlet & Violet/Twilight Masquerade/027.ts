@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Twilight Masquerade"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ninetales",
-		fr: "Feunard",
-		es: "Ninetales",
-		it: "Ninetales",
-		pt: "Ninetales",
-		de: "Vulnona"
+		'en-us': "Ninetales",
+		'fr-fr': "Feunard",
+		'es-es': "Ninetales",
+		'it-it': "Ninetales",
+		'pt-br': "Ninetales",
+		'de-de': "Vulnona"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Vulpix",
-		fr: "Goupix",
-		es: "Vulpix",
-		it: "Vulpix",
-		pt: "Vulpix",
-		de: "Vulpix"
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix",
+		'es-es': "Vulpix",
+		'it-it': "Vulpix",
+		'pt-br': "Vulpix",
+		'de-de': "Vulpix"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			en: "Eerie Glow",
-			fr: "Lueur Sinistre",
-			es: "Resplandor Sobrecogedor",
-			it: "Lucemistero",
-			pt: "Brilho Misterioso",
-			de: "Gruselglühen"
+			'en-us': "Eerie Glow",
+			'fr-fr': "Lueur Sinistre",
+			'es-es': "Resplandor Sobrecogedor",
+			'it-it': "Lucemistero",
+			'pt-br': "Brilho Misterioso",
+			'de-de': "Gruselglühen"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned and Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé et Confus.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido y Quemado.",
-			it: "Il Pokémon attivo del tuo avversario viene bruciato e confuso.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso e Queimado.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt und verwirrt."
+			'en-us': "Your opponent's Active Pokémon is now Burned and Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé et Confus.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido y Quemado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene bruciato e confuso.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso e Queimado.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt und verwirrt."
 		},
 
 		damage: 90
@@ -62,7 +62,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years.",
+		'en-us': "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years.",
 	},
 
 	variants: [

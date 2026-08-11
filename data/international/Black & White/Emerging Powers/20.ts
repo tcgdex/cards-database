@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Darumaka",
-		fr: "Darumarond",
-		es: "Darumaka",
-		it: "Darumaka",
-		pt: "Darumaka",
-		de: "Flampion"
+		'en-us': "Darumaka",
+		'fr-fr': "Darumarond",
+		'es-es': "Darumaka",
+		'it-it': "Darumaka",
+		'pt-br': "Darumaka",
+		'de-de': "Flampion"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -34,8 +34,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
 			},
 
 			damage: 10,
@@ -48,8 +48,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Combustion",
-				fr: "Fournaise",
+				'en-us': "Combustion",
+				'fr-fr': "Fournaise",
 			},
 
 			damage: 30,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When its internal fire is burning, it cannot calm down and it runs around. When the fire diminishes, it falls asleep.",
+		'en-us': "When its internal fire is burning, it cannot calm down and it runs around. When the fire diminishes, it falls asleep.",
 	},
 
 	thirdParty: {

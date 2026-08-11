@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キルリア",
+		'ja-jp': "キルリア",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "トレーナーの 明るい 気持ちが サイコパワーの 源。 楽しい 気分に なると クルクル 踊る。",
+		'ja-jp': "トレーナーの 明るい 気持ちが サイコパワーの 源。 楽しい 気分に なると クルクル 踊る。",
 	},
 
 	stage: "Stage1",
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ラルトス",
+		'ja-jp': "ラルトス",
 	},
 
 	retreat: 1,

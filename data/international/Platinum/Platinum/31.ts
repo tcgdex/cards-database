@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Infernape",
-		fr: "Simiabraz",
-		de: "Panferno"
+		'en-us': "Infernape",
+		'fr-fr': "Simiabraz",
+		'de-de': "Panferno"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Monferno",
-		fr: "Chimpenfeu"
+		'en-us': "Monferno",
+		'fr-fr': "Chimpenfeu"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Rushing Flames",
-				fr: "Flammes dévorantes",
-				de: "Rushing Flames"
+				'en-us': "Rushing Flames",
+				'fr-fr': "Flammes dévorantes",
+				'de-de': "Rushing Flames"
 			},
 			effect: {
-				en: "Discard as many Fire Energy cards as you like attached to your Pokémon in play. Flip a coin for each Energy card you discarded. This attack does 80 damage times the number of heads.",
-				fr: "Défaussez autant d'Énergies Fire attachées à vos Pokémon en jeu que vous voulez. Lancez une pièce pour chaque carte Énergie défaussée. Cette attaque inflige 80 dégâts multipliés par le nombre de faces.",
-				de: "Discard as many  Energy as you like attached to your Pokémon in play. Flip a coin for each Energy card you discarded. This attack does 80 damage times the number of heads."
+				'en-us': "Discard as many Fire Energy cards as you like attached to your Pokémon in play. Flip a coin for each Energy card you discarded. This attack does 80 damage times the number of heads.",
+				'fr-fr': "Défaussez autant d'Énergies Fire attachées à vos Pokémon en jeu que vous voulez. Lancez une pièce pour chaque carte Énergie défaussée. Cette attaque inflige 80 dégâts multipliés par le nombre de faces.",
+				'de-de': "Discard as many  Energy as you like attached to your Pokémon in play. Flip a coin for each Energy card you discarded. This attack does 80 damage times the number of heads."
 			},
 			damage: "80×",
 
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rage",
-				fr: "Frénésie",
-				de: "Rage"
+				'en-us': "Rage",
+				'fr-fr': "Frénésie",
+				'de-de': "Rage"
 			},
 			effect: {
-				en: "Does 30 damage plus 10 more damage for each damage counter on Infernape.",
-				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Simiabraz.",
-				de: "Does 30 damage plus 10 more damage for each damage counter on Infernape."
+				'en-us': "Does 30 damage plus 10 more damage for each damage counter on Infernape.",
+				'fr-fr': "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Simiabraz.",
+				'de-de': "Does 30 damage plus 10 more damage for each damage counter on Infernape."
 			},
 			damage: "30+",
 
@@ -74,7 +74,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It uses unique fighting moves with fires on its hands and feet. It will take on any opponent."
+		'en-us': "It uses unique fighting moves with fires on its hands and feet. It will take on any opponent."
 	},
 
 	variants: [

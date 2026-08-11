@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Deino"
+		'en-us': "Deino"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "It nests deep inside a cave. Food there is scarce,\nso Deino will sink its teeth into anything that\nmoves and attempt to eat it."
+		'en-us': "It nests deep inside a cave. Food there is scarce,\nso Deino will sink its teeth into anything that\nmoves and attempt to eat it."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Headbutt"
+			'en-us': "Headbutt"
 		},
 
 		damage: 20,

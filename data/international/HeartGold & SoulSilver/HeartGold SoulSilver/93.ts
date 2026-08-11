@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Full Heal",
-		fr: "Énergie guérisseuse",
-		de: "Hyperheiler"
+		'en-us': "Full Heal",
+		'fr-fr': "Énergie guérisseuse",
+		'de-de': "Hyperheiler"
 	},
 
 	illustrator: "Takashi Yamaguchi",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Retirez tous les États spéciaux de votre Pokémon actif.",
-		en: "Remove all Special Conditions from your Active Pokémon.",
-		de: "Alle Speziellen Zustände auf deinen Aktiven Pokémon verlieren ihre Wirkung."
+		'fr-fr': "Retirez tous les États spéciaux de votre Pokémon actif.",
+		'en-us': "Remove all Special Conditions from your Active Pokémon.",
+		'de-de': "Alle Speziellen Zustände auf deinen Aktiven Pokémon verlieren ihre Wirkung."
 	},
 
 	trainerType: "Item",

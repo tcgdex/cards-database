@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S5I";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チャオブー",
+		'ja-jp': "チャオブー",
 		'zh-tw': "炒炒豬",
-		th: "จาโอบู",
+		'th-th': "จาโอบู",
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -15,9 +15,9 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "体内の 炎が 燃え上がると 動きの キレと スピードが 増す。 ピンチになると 煙を 噴き出す。",
+		'ja-jp': "体内の 炎が 燃え上がると 動きの キレと スピードが 増す。 ピンチになると 煙を 噴き出す。",
 		'zh-tw': "當體內的火焰熊熊燃燒時，行動就會變得更加敏捷俐落。遇到危機時會噴出煙霧。",
-		th: "พอเปลวไฟในตัวลุกไหม้ จะขยับตัวได้ฉับไวและเร็วขึ้น เมื่อเข้าตาจน จะพ่นควันออกมา",
+		'th-th': "พอเปลวไฟในตัวลุกไหม้ จะขยับตัวได้ฉับไวและเร็วขึ้น เมื่อเข้าตาจน จะพ่นควันออกมา",
 	},
 
 	stage: "Stage1",
@@ -25,18 +25,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ぶつかる",
+				'ja-jp': "ぶつかる",
 				'zh-tw': "衝撞",
-				th: "กระแทก",
+				'th-th': "กระแทก",
 			},
 			damage: 30,
 			cost: ["Colorless", "Colorless"],
 		},
 		{
 			name: {
-				ja: "かえん",
+				'ja-jp': "かえん",
 				'zh-tw': "烈焰",
-				th: "เผาไหม้",
+				'th-th': "เผาไหม้",
 			},
 			damage: 90,
 			cost: ["Fire", "Fire", "Colorless"],
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ポカブ",
+		'ja-jp': "ポカブ",
 	},
 
 	retreat: 3,

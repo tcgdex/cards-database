@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crystal Guardians'
 
 const card: Card = {
 	name: {
-		en: "Duskull",
-		fr: "Skelenox",
-		de: "Zwirrlicht"
+		'en-us': "Duskull",
+		'fr-fr': "Skelenox",
+		'de-de': "Zwirrlicht"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collectionner",
-				de: "Sammeln"
+				'en-us': "Collect",
+				'fr-fr': "Collectionner",
+				'de-de': "Sammeln"
 			},
 			effect: {
-				en: "Draw a card.",
-				fr: "Piochez 1 carte.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez 1 carte.",
+				'de-de': "Ziehe 1 Karte."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Super Psy Bolt",
-				fr: "Super psy",
-				de: "Super-Psischlag"
+				'en-us': "Super Psy Bolt",
+				'fr-fr': "Super psy",
+				'de-de': "Super-Psischlag"
 			},
 
 			damage: 10,

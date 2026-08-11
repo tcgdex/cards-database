@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "イトマル",
+		'ja-jp': "イトマル",
 	},
 
 	illustrator: "Katsunori Sato",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "細くて 丈夫な 糸を 張り巡らして 罠を 仕掛けると 獲物が かかるのを ひたすら待つ。",
+		'ja-jp': "細くて 丈夫な 糸を 張り巡らして 罠を 仕掛けると 獲物が かかるのを ひたすら待つ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 10,
 			cost: ["Grass"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 	],

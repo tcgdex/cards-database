@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Woobat",
-		fr: "Chovsourir",
-		es: "Woobat",
-		it: "Woobat",
-		pt: "Woobat",
-		de: "Fleknoil"
+		'en-us': "Woobat",
+		'fr-fr': "Chovsourir",
+		'es-es': "Woobat",
+		'it-it': "Woobat",
+		'pt-br': "Woobat",
+		'de-de': "Fleknoil"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Scout",
-				fr: "Espionnage",
+				'en-us': "Scout",
+				'fr-fr': "Espionnage",
 			},
 			effect: {
-				en: "Your opponent reveals his or her hand.",
-				fr: "Votre adversaire montre sa main.",
+				'en-us': "Your opponent reveals his or her hand.",
+				'fr-fr': "Votre adversaire montre sa main.",
 			},
 
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heart Stamp",
-				fr: "Crèvecœur",
+				'en-us': "Heart Stamp",
+				'fr-fr': "Crèvecœur",
 			},
 
 			damage: 20,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The heart-shaped mark left on a body after a Woobat has been attached to it is said to bring good fortune.",
+		'en-us': "The heart-shaped mark left on a body after a Woobat has been attached to it is said to bring good fortune.",
 	},
 
 	thirdParty: {

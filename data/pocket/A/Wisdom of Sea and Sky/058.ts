@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mantine",
-		fr: "Démanta"
+		'en-us': "Mantine",
+		'fr-fr': "Démanta"
 	},
 
 	illustrator: "0313",
@@ -18,24 +18,24 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "While elegantly swimming in the sea, it ignores\nRemoraid that cling to its fins seeking food scraps.",
-		fr: "Il ignore royalement les Rémoraid qui s'accrochent à ses nageoires pour manger les restes qu'il sème."
+		'en-us': "While elegantly swimming in the sea, it ignores\nRemoraid that cling to its fins seeking food scraps.",
+		'fr-fr': "Il ignore royalement les Rémoraid qui s'accrochent à ses nageoires pour manger les restes qu'il sème."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Dive",
-			fr: "Plongée"
+			'en-us': "Dive",
+			'fr-fr': "Plongée"
 		},
 
 		damage: 80,
 		cost: ["Water", "Water", "Water", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon.",
-			fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, évitez tous les dégâts et les effets d'attaques infligés à ce Pokémon."
+			'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon.",
+			'fr-fr': "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, évitez tous les dégâts et les effets d'attaques infligés à ce Pokémon."
 		}
 	}],
 

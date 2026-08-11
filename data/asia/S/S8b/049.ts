@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サンダース",
+		'ja-jp': "サンダース",
 		'zh-tw': "雷伊布",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "怒ったり 驚いたりすると 全身の 毛が 針の ように 逆立って 相手を つらぬく。",
+		'ja-jp': "怒ったり 驚いたりすると 全身の 毛が 針の ように 逆立って 相手を つらぬく。",
 		'zh-tw': "當雷伊布生氣或是吃驚時，牠全身的體毛會像針一樣豎起來刺穿對手。",
 	},
 
@@ -24,11 +24,11 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "じんらいのめざめ",
+				'ja-jp': "じんらいのめざめ",
 				'zh-tw': "迅雷覺醒",
 			},
 			effect: {
-				ja: "このポケモンに「メモリーカプセル」がついているなら、おたがいの場の[水]ポケモンの特性は、すべてなくなる。",
+				'ja-jp': "このポケモンに「メモリーカプセル」がついているなら、おたがいの場の[水]ポケモンの特性は、すべてなくなる。",
 				'zh-tw': "若這隻寶可夢身上附有「回憶膠囊」，則雙方的場上【水】寶可夢的特性全部消除。",
 			},
 		},
@@ -37,7 +37,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ライトニングボール",
+				'ja-jp': "ライトニングボール",
 				'zh-tw': "雷電球",
 			},
 			damage: 90,
@@ -65,7 +65,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 1,

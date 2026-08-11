@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミミッキュVMAX",
+		'ja-jp': "ミミッキュVMAX",
 	},
 
 	illustrator: "Naoki Saito",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "オカルトナンバー" },
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "ダメカン4個を、相手のポケモンに好きなようにのせる。この番、自分の手札から「アセロラの予感」を出して使っていたなら、のせるダメカンの数は13個になる。",
+				'ja-jp': "ダメカン4個を、相手のポケモンに好きなようにのせる。この番、自分の手札から「アセロラの予感」を出して使っていたなら、のせるダメカンの数は13個になる。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Psychic", "Psychic"],
 			effect: {
-				ja: "相手の手札からオモテを見ないで1枚選び、トラッシュする。",
+				'ja-jp': "相手の手札からオモテを見ないで1枚選び、トラッシュする。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ミミッキュV",
+		'ja-jp': "ミミッキュV",
 	},
 
 	retreat: 1,

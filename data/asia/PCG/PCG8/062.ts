@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "sableye",
+		'ja-jp': "sableye",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "掘削",
+				'ja-jp': "掘削",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前に）一度、デッキの上のカードを見ることができます。そのカードをデッキの上に置くか、そのカードを破棄します。 Sableyeが特別な状態の影響を受ける場合、このパワーは使用できません。",
+				'ja-jp': "ターン中（攻撃の前に）一度、デッキの上のカードを見ることができます。そのカードをデッキの上に置くか、そのカードを破棄します。 Sableyeが特別な状態の影響を受ける場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "無効にします",
+				'ja-jp': "無効にします",
 			},
 			effect: {
-				ja: "防御ポケモンの攻撃の1つを選択します。そのポケモンは、相手の次のターン中にその攻撃を使用できません。",
+				'ja-jp': "防御ポケモンの攻撃の1つを選択します。そのポケモンは、相手の次のターン中にその攻撃を使用できません。",
 			},
 			damage: 10,
 		},

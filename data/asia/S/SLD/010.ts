@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SLD"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "胡帕",
-		ja: "フーパ"
+		'ja-jp': "フーパ"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "用圓環將喜歡的東西傳送到秘密的住處。會鑽進圓環瞬間移動。",
-		ja: "気に入った ものを リングを 使い 秘密の 住処へ 集めている。 リングを 潜って テレポートする。"
+		'ja-jp': "気に入った ものを リングを 使い 秘密の 住処へ 集めている。 リングを 潜って テレポートする。"
 	},
 
 	stage: "Basic",
@@ -24,19 +24,19 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "魔神手",
-			ja: "まじんのて"
+			'ja-jp': "まじんのて"
 		},
 
 		effect: {
 			'zh-tw': "從自己的牌庫選擇1張【惡】能量卡，附於自己的寶可夢身上。並且重洗牌庫。",
-			ja: "自分の山札からエネルギーを1枚選び、自分のポケモンにつける。そして山札を切る。"
+			'ja-jp': "自分の山札からエネルギーを1枚選び、自分のポケモンにつける。そして山札を切る。"
 		},
 
 		cost: ["Darkness"]
 	}, {
 		name: {
 			'zh-tw': "暴君黑洞",
-			ja: "タイラントホール"
+			'ja-jp': "タイラントホール"
 		},
 
 		damage: 100,

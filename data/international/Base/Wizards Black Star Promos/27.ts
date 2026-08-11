@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
+		'en-us': "Pikachu",
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thundershock",
+				'en-us': "Thundershock",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 10,
 
@@ -41,10 +41,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Agility",
+				'en-us': "Agility",
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Pikachu.",
+				'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Pikachu.",
 			},
 			damage: 20,
 
@@ -58,7 +58,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "When several of these Pokémon gather, their electricity can cause lightning storms.",
+		'en-us': "When several of these Pokémon gather, their electricity can cause lightning storms.",
 	},
 
 	variants: [

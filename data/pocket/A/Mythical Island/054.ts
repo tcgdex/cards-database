@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mythical Island"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Whirlipede",
-		fr: "Scobolide",
-		es: "Whirlipede",
-		it: "Whirlipede",
-		de: "Rollum",
+		'en-us': "Whirlipede",
+		'fr-fr': "Scobolide",
+		'es-es': "Whirlipede",
+		'it-it': "Whirlipede",
+		'de-de': "Rollum",
 		'pt-br': "Whirlipede",
-		ko: "휠구"
+		'ko-kr': "휠구"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -22,43 +22,43 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Venipede"
+		'en-us': "Venipede"
 	},
 
 	description: {
-		en: "This Pokémon spins itself rapidly and charges into its opponents. Its top speed is just over 60 mph.",
-		fr: "Il se propulse sur ses ennemis en tournant\ntrès vite sur lui-même. Il peut ainsi atteindre\nune vitesse d'environ 100 km/h.",
-		es: "Gira a gran velocidad y carga contra sus\nrivales. Puede alcanzar los 100 km/h.",
-		it: "Attacca l'avversario turbinando rapidamente su se\nstesso. Può raggiungere una velocità di circa 100 km/h.",
-		de: "Rollum dreht sich mit hoher Geschwindigkeit\nund rammt seine Gegner. Dabei erreicht es\nGeschwindigkeiten von bis zu 100 km/h.",
+		'en-us': "This Pokémon spins itself rapidly and charges into its opponents. Its top speed is just over 60 mph.",
+		'fr-fr': "Il se propulse sur ses ennemis en tournant\ntrès vite sur lui-même. Il peut ainsi atteindre\nune vitesse d'environ 100 km/h.",
+		'es-es': "Gira a gran velocidad y carga contra sus\nrivales. Puede alcanzar los 100 km/h.",
+		'it-it': "Attacca l'avversario turbinando rapidamente su se\nstesso. Può raggiungere una velocità di circa 100 km/h.",
+		'de-de': "Rollum dreht sich mit hoher Geschwindigkeit\nund rammt seine Gegner. Dabei erreicht es\nGeschwindigkeiten von bis zu 100 km/h.",
 		'pt-br': "Este Pokémon gira o corpo rapidamente e ataca seus oponentes.\nSua velocidade máxima é de pouco mais de 100 km/h.",
-		ko: "고속으로 회전해 상대에게\n돌격한다. 최고 시속은\n약 100km에 달한다."
+		'ko-kr': "고속으로 회전해 상대에게\n돌격한다. 최고 시속은\n약 100km에 달한다."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Poison Sting",
-			fr: "Dard-Venin",
-			es: "Picotazo Veneno",
-			it: "Velenospina",
-			de: "Giftstachel",
+			'en-us': "Poison Sting",
+			'fr-fr': "Dard-Venin",
+			'es-es': "Picotazo Veneno",
+			'it-it': "Velenospina",
+			'de-de': "Giftstachel",
 			'pt-br': "Ferrão Venenoso",
-			ko: "독침"
+			'ko-kr': "독침"
 		},
 
 		damage: 20,
 		cost: ["Darkness"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
-			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
-			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
+			'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
 			
-			ko: "상대의 배틀 포켓몬을 독으로 만든다.",
+			'ko-kr': "상대의 배틀 포켓몬을 독으로 만든다.",
 			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado."
 		}
 	}],

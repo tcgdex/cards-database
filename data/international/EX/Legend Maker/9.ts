@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legend Maker'
 
 const card: Card = {
 	name: {
-		en: "Machamp",
-		fr: "Mackogneur",
-		de: "Machomei"
+		'en-us': "Machamp",
+		'fr-fr': "Mackogneur",
+		'de-de': "Machomei"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Machoke",
-		fr: "Machopeur"
+		'en-us': "Machoke",
+		'fr-fr': "Machopeur"
 	},
 
 	stage: "Stage2",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Derail",
-				fr: "Dérailler",
-				de: "Entgleisen"
+				'en-us': "Derail",
+				'fr-fr': "Dérailler",
+				'de-de': "Entgleisen"
 			},
 			effect: {
-				en: "Discard a Special Energy card, if any, attached to the Defending Pokémon.",
-				fr: "Défaussez une carte Énergie spéciale attachée au Pokémon Défenseur, s'il en a.",
-				de: "Lege eine Spezialenergiekarte, die an das Verteidigende Pokémon angelegt ist, auf den Ablagestapel des Gegners."
+				'en-us': "Discard a Special Energy card, if any, attached to the Defending Pokémon.",
+				'fr-fr': "Défaussez une carte Énergie spéciale attachée au Pokémon Défenseur, s'il en a.",
+				'de-de': "Lege eine Spezialenergiekarte, die an das Verteidigende Pokémon angelegt ist, auf den Ablagestapel des Gegners."
 			},
 			damage: 40,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swift Blow",
-				fr: "Coup surprise",
-				de: "Schneller Schlag"
+				'en-us': "Swift Blow",
+				'fr-fr': "Coup surprise",
+				'de-de': "Schneller Schlag"
 			},
 			effect: {
-				en: "Does 60 damage plus 20 damage for each React Energy card attached to Machamp.",
-				fr: "Inflige 60 dégâts plus 20 dégâts supplémentaires pour chaque Énergie réaction attachée à Mackogneur.",
-				de: "Dieser Angriff fügt 60 Schadenspunkte plus 20 weitere Schadenspunkte für jede an Machomei angelegte Reaktions-Energiekarte zu."
+				'en-us': "Does 60 damage plus 20 damage for each React Energy card attached to Machamp.",
+				'fr-fr': "Inflige 60 dégâts plus 20 dégâts supplémentaires pour chaque Énergie réaction attachée à Mackogneur.",
+				'de-de': "Dieser Angriff fügt 60 Schadenspunkte plus 20 weitere Schadenspunkte für jede an Machomei angelegte Reaktions-Energiekarte zu."
 			},
 			damage: "60+",
 

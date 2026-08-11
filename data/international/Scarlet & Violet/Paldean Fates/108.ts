@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rellor",
-		fr: "Léboulérou",
-		es: "Rellor",
-		it: "Rellor",
-		pt: "Rellor",
-		de: "Relluk"
+		'en-us': "Rellor",
+		'fr-fr': "Léboulérou",
+		'es-es': "Rellor",
+		'it-it': "Rellor",
+		'pt-br': "Rellor",
+		'de-de': "Relluk"
 	},
 
 	rarity: "Shiny rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Ball Roll",
-			fr: "Boulé-Roulade",
-			es: "Rodabola",
-			it: "Rotopalla",
-			pt: "Rolo Bola",
-			de: "Ballrolle"
+			'en-us': "Ball Roll",
+			'fr-fr': "Boulé-Roulade",
+			'es-es': "Rodabola",
+			'it-it': "Rotopalla",
+			'pt-br': "Rolo Bola",
+			'de-de': "Ballrolle"
 		},
 
 		effect: {
-			en: "Flip a coin until you get tails. This attack does 30 damage for each heads.",
-			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 30 dégâts pour chaque côté face.",
-			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 30 puntos de daño por cada cara.",
-			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 30 danni ogni volta che esce testa.",
-			pt: "Jogue uma moeda até sair coroa. Este ataque causa 30 pontos de dano para cada cara.",
-			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip a coin until you get tails. This attack does 30 damage for each heads.",
+			'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 30 dégâts pour chaque côté face.",
+			'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 30 puntos de daño por cada cara.",
+			'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 30 danni ogni volta che esce testa.",
+			'pt-br': "Jogue uma moeda até sair coroa. Este ataque causa 30 pontos de dano para cada cara.",
+			'de-de': "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "30×"
@@ -67,7 +67,7 @@ const card: Card = {
 	illustrator: "Misa Tsutsui",
 
 	description: {
-		en: "This Pokémon creates a mud ball by mixing sand and dirt with psychic energy. It treasures its mud ball more than its own life.",
+		'en-us': "This Pokémon creates a mud ball by mixing sand and dirt with psychic energy. It treasures its mud ball more than its own life.",
 	},
 
 }

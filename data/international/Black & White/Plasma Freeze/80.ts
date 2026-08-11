@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Mawile",
-		fr: "Mysdibule",
-		es: "Mawile",
-		it: "Mawile",
-		pt: "Mawile",
-		de: "Flunkifer"
+		'en-us': "Mawile",
+		'fr-fr': "Mysdibule",
+		'es-es': "Mawile",
+		'it-it': "Mawile",
+		'pt-br': "Mawile",
+		'de-de': "Flunkifer"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Astonish",
-				fr: "Étonnement",
+				'en-us': "Astonish",
+				'fr-fr': "Étonnement",
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck.",
-				fr: "Lancez une pièce. Si c'est face, choisissez une carte au hasard de la main de votre adversaire. Votre adversaire montre la carte choisie et la mélange avec son deck.",
+				'en-us': "Flip a coin. If heads, choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck.",
+				'fr-fr': "Lancez une pièce. Si c'est face, choisissez une carte au hasard de la main de votre adversaire. Votre adversaire montre la carte choisie et la mélange avec son deck.",
 			},
 
 		},
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Big Ol' Bite",
-				fr: "Morsure Sans Merci",
+				'en-us': "Big Ol' Bite",
+				'fr-fr': "Morsure Sans Merci",
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon. The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Soignez 30 dégâts à ce Pokémon. Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'en-us': "Heal 30 damage from this Pokémon. The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon. Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 			damage: 30,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Attached to its head is a huge set of jaws formed by horns. It can chew through iron beams.",
+		'en-us': "Attached to its head is a huge set of jaws formed by horns. It can chew through iron beams.",
 	},
 
 	thirdParty: {

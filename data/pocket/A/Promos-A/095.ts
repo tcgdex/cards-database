@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Promos-A"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chinchou"
+		'en-us': "Chinchou"
 	},
 
 	illustrator: "Aya Kusube",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "Its antennae, which evolved from a fin, have both\npositive and negative charges flowing through them."
+		'en-us': "Its antennae, which evolved from a fin, have both\npositive and negative charges flowing through them."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Luring Glow"
+			'en-us': "Luring Glow"
 		},
 
 		cost: ["Lightning"],
 
 		effect: {
-			en: "Flip a coin. If heads, switch in 1 of your opponent's Benched Pokémon to the Active Spot."
+			'en-us': "Flip a coin. If heads, switch in 1 of your opponent's Benched Pokémon to the Active Spot."
 		}
 	}],
 

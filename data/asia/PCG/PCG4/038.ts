@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Elekid",
+		'ja-jp': "Elekid",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "赤ちゃんの進化",
+				'ja-jp': "赤ちゃんの進化",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前に）ターン中に、ElectabuzzをElekid（これは進化するElekidとしてカウント）にElectabuzzを置き、Elekidからすべてのダメージカウンターを削除できます。",
+				'ja-jp': "ターン中（攻撃の前に）ターン中に、ElectabuzzをElekid（これは進化するElekidとしてカウント）にElectabuzzを置き、Elekidからすべてのダメージカウンターを削除できます。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "磁気旅行",
+				'ja-jp': "磁気旅行",
 			},
 			effect: {
-				ja: "低圧システムが機能している場合、防御ポケモンは混乱しています。",
+				'ja-jp': "低圧システムが機能している場合、防御ポケモンは混乱しています。",
 			},
 			damage: 10,
 		},

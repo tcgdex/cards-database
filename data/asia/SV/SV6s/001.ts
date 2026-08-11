@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Tangela"
+		'id-id': "Tangela"
 	},
 	rarity: 'Common',
 
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Hingga saat ini, wujud asli Tangela di balik jalar yang terus tumbuh tanpa batas walau dicabut ini masih belum terungkap."
+		'id-id': "Hingga saat ini, wujud asli Tangela di balik jalar yang terus tumbuh tanpa batas walau dicabut ini masih belum terungkap."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menepuk"
+			'id-id': "Menepuk"
 		},
 
 		damage: 10,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Pukulan Sulur"
+			'id-id': "Pukulan Sulur"
 		},
 
 		damage: 30,

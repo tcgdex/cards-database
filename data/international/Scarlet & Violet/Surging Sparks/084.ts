@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Espurr",
-		fr: "Psystigri",
-		es: "Espurr",
-		it: "Espurr",
-		pt: "Espurr",
-		de: "Psiau"
+		'en-us': "Espurr",
+		'fr-fr': "Psystigri",
+		'es-es': "Espurr",
+		'it-it': "Espurr",
+		'pt-br': "Espurr",
+		'de-de': "Psiau"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "See Through",
-			fr: "Main Transparente",
-			es: "Transparencia",
-			it: "Sbirciatina",
-			pt: "Transparência",
-			de: "Durchblick"
+			'en-us': "See Through",
+			'fr-fr': "Main Transparente",
+			'es-es': "Transparencia",
+			'it-it': "Sbirciatina",
+			'pt-br': "Transparência",
+			'de-de': "Durchblick"
 		},
 
 		effect: {
-			en: "Your opponent reveals their hand.",
-			fr: "Votre adversaire montre sa main.",
-			es: "Tu rival enseña las cartas de su mano.",
-			it: "Il tuo avversario mostra le carte che ha in mano.",
-			pt: "Seu oponente revela a mão dele.",
-			de: "Dein Gegner zeigt dir seine Handkarten."
+			'en-us': "Your opponent reveals their hand.",
+			'fr-fr': "Votre adversaire montre sa main.",
+			'es-es': "Tu rival enseña las cartas de su mano.",
+			'it-it': "Il tuo avversario mostra le carte che ha in mano.",
+			'pt-br': "Seu oponente revela a mão dele.",
+			'de-de': "Dein Gegner zeigt dir seine Handkarten."
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Psyshot",
-			fr: "Piqûre Psy",
-			es: "Disparo Psi",
-			it: "Psicosparo",
-			pt: "Tiro Psíquico",
-			de: "Psychoschuss"
+			'en-us': "Psyshot",
+			'fr-fr': "Piqûre Psy",
+			'es-es': "Disparo Psi",
+			'it-it': "Psicosparo",
+			'pt-br': "Tiro Psíquico",
+			'de-de': "Psychoschuss"
 		},
 
 		damage: 20

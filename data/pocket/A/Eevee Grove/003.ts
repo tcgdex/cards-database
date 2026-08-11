@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bounsweet",
-		fr: "Croquine"
+		'en-us': "Bounsweet",
+		'fr-fr': "Croquine"
 	},
 
 	illustrator: "Yuka Morii",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "Its sweat is sweet, like syrup made from boiled-down\nfruit. Because of this, Bounsweet was highly valued in\nthe past, when sweeteners were scarce.",
-		fr: "Sa sueur est aussi sucrée qu'un jus de fruits. Elle était donc très appréciée autrefois, quand les édulcorants étaient rares."
+		'en-us': "Its sweat is sweet, like syrup made from boiled-down\nfruit. Because of this, Bounsweet was highly valued in\nthe past, when sweeteners were scarce.",
+		'fr-fr': "Sa sueur est aussi sucrée qu'un jus de fruits. Elle était donc très appréciée autrefois, quand les édulcorants étaient rares."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Flop",
-			fr: "Flop"
+			'en-us': "Flop",
+			'fr-fr': "Flop"
 		},
 
 		damage: 10,

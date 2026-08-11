@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Giratina",
-		fr: "Giratina",
-		de: "Giratina"
+		'en-us': "Giratina",
+		'fr-fr': "Giratina",
+		'de-de': "Giratina"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strafe",
-				fr: "Bombarder",
-				de: "Strafe"
+				'en-us': "Strafe",
+				'fr-fr': "Bombarder",
+				'de-de': "Strafe"
 			},
 			effect: {
-				en: "You may switch Giratina with 1 of your Benched Pokémon.",
-				fr: "Vous pouvez échanger Giratina avec 1 de vos Pokémon de Banc.",
-				de: "You may switch Giratina with 1 of your Benched Pokémon."
+				'en-us': "You may switch Giratina with 1 of your Benched Pokémon.",
+				'fr-fr': "Vous pouvez échanger Giratina avec 1 de vos Pokémon de Banc.",
+				'de-de': "You may switch Giratina with 1 of your Benched Pokémon."
 			},
 			damage: 20,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Broken-space Blow",
-				fr: "Coup espace-brisé",
-				de: "Broken-space Blow"
+				'en-us': "Broken-space Blow",
+				'fr-fr': "Coup espace-brisé",
+				'de-de': "Broken-space Blow"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Knocked Out by this attack, put the Defending Pokémon and all cards attached to in the Lost Zone instead of the discard pile.",
-				fr: "Si le Pokémon Défenseur est mis K.O par cette attaque, placez le Pokémon Défenseur ainsi que toutes les cartes qui lui sont attachées dans la Zone Perdue au lieu de les défausser.",
-				de: "If the Defending Pokémon is Knocked Out by this attack, put the Defending Pokémon and all cards attached to it in the Lost Zone instead of discarding them."
+				'en-us': "If the Defending Pokémon is Knocked Out by this attack, put the Defending Pokémon and all cards attached to in the Lost Zone instead of the discard pile.",
+				'fr-fr': "Si le Pokémon Défenseur est mis K.O par cette attaque, placez le Pokémon Défenseur ainsi que toutes les cartes qui lui sont attachées dans la Zone Perdue au lieu de les défausser.",
+				'de-de': "If the Defending Pokémon is Knocked Out by this attack, put the Defending Pokémon and all cards attached to it in the Lost Zone instead of discarding them."
 			},
 			damage: 50,
 
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "A Pokémon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery."
+		'en-us': "A Pokémon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery."
 	},
 
 	variants: [

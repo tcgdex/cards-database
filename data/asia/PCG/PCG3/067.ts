@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Rocket's Sneasel Ex",
+		'ja-jp': "Rocket's Sneasel Ex",
 	},
 
 	rarity: "Holo Rare",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Darkness"],
 			name: {
-				ja: "ドラッグします",
+				'ja-jp': "ドラッグします",
 			},
 			effect: {
-				ja: "ダメージを与える前に、対戦相手のベンチ付きポケモンを防御するポケモンと交換することができます。もしそうなら、この攻撃は新しい防御ポケモンに10ダメージを与えます。対戦相手は、防御するポケモンを選択して切り替えます。",
+				'ja-jp': "ダメージを与える前に、対戦相手のベンチ付きポケモンを防御するポケモンと交換することができます。もしそうなら、この攻撃は新しい防御ポケモンに10ダメージを与えます。対戦相手は、防御するポケモンを選択して切り替えます。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Darkness", "Darkness", "Colorless"],
 			name: {
-				ja: "暗いリング",
+				'ja-jp': "暗いリング",
 			},
 			effect: {
-				ja: "プレイ中の暗闇のポケモンごとに30ダメージに加えて10ダメージを与えます。",
+				'ja-jp': "プレイ中の暗闇のポケモンごとに30ダメージに加えて10ダメージを与えます。",
 			},
 		},
 	],

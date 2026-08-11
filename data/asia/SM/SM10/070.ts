@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドードー",
+		'ja-jp': "ドードー",
 	},
 
 	illustrator: "kodama",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "突然変異で 見つかった ２つの 頭を 持つ ポケモン。 時速１００キロで 走る。",
+		'ja-jp': "突然変異で 見つかった ２つの 頭を 持つ ポケモン。 時速１００キロで 走る。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数x20ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数x20ダメージ。",
 			},
 		},
 	],

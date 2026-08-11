@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "はくばバドレックスVMAX",
+		'ja-jp': "はくばバドレックスVMAX",
 		'zh-tw': "白馬蕾冠王VMAX",
 	},
 
@@ -18,25 +18,25 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "エンペラーライド",
+				'ja-jp': "エンペラーライド",
 				'zh-tw': "君王騎行",
 			},
 			damage: "10+",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモンの数×30ダメージ追加。",
+				'ja-jp': "相手のベンチポケモンの数×30ダメージ追加。",
 				'zh-tw': "增加對手的備戰寶可夢的數量×30點傷害。",
 			},
 		},
 		{
 			name: {
-				ja: "ダイランス",
+				'ja-jp': "ダイランス",
 				'zh-tw': "極巨之矛",
 			},
 			damage: "10+",
 			cost: ["Water", "Water"],
 			effect: {
-				ja: "のぞむなら、このポケモンについているエネルギーを2枚まで選び、トラッシュする。その場合、トラッシュした枚数×120ダメージ追加。",
+				'ja-jp': "のぞむなら、このポケモンについているエネルギーを2枚まで選び、トラッシュする。その場合、トラッシュした枚数×120ダメージ追加。",
 				'zh-tw': "若希望，選擇最多2張這隻寶可夢身上附加的能量卡，將其丟棄。這個情況下，增加丟棄的張數×120點傷害。",
 			},
 		},
@@ -56,7 +56,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "はくばバドレックスV",
+		'ja-jp': "はくばバドレックスV",
 	},
 
 	retreat: 2,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Servine",
-		fr: "Lianaja",
-		de: "Efoserp",
-		it: "Servine",
-		pt: "Servine",
-		es: "Servine",
+		'en-us': "Servine",
+		'fr-fr': "Lianaja",
+		'de-de': "Efoserp",
+		'it-it': "Servine",
+		'pt-br': "Servine",
+		'es-es': "Servine",
 		'es-mx': "Servine"
 	},
 
@@ -21,12 +21,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Snivy",
-		fr: "Vipélierre",
-		de: "Serpifeu",
-		it: "Snivy",
-		pt: "Snivy",
-		es: "Snivy",
+		'en-us': "Snivy",
+		'fr-fr': "Vipélierre",
+		'de-de': "Serpifeu",
+		'it-it': "Snivy",
+		'pt-br': "Snivy",
+		'es-es': "Snivy",
 		'es-mx': "Snivy"
 	},
 	stage: "Stage1",
@@ -35,22 +35,22 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Wrap",
-			fr: "Ligotage",
-			de: "Wickel",
-			it: "Avvolgibotta",
-			pt: "Embrulho",
-			es: "Constricción",
+			'en-us': "Wrap",
+			'fr-fr': "Ligotage",
+			'de-de': "Wickel",
+			'it-it': "Avvolgibotta",
+			'pt-br': "Embrulho",
+			'es-es': "Constricción",
 			'es-mx': "Constricción"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 			'es-mx': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival ahora está Paralizado."
 		},
 
@@ -59,12 +59,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Vine Whip",
-			fr: "Fouet Lianes",
-			de: "Rankenhieb",
-			it: "Frustata",
-			pt: "Chicote de Vinha",
-			es: "Látigo Cepa",
+			'en-us': "Vine Whip",
+			'fr-fr': "Fouet Lianes",
+			'de-de': "Rankenhieb",
+			'it-it': "Frustata",
+			'pt-br': "Chicote de Vinha",
+			'es-es': "Látigo Cepa",
 			'es-mx': "Látigo Cepa"
 		},
 

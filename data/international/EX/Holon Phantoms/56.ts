@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Wobbuffet",
-		fr: "Qulbutoké",
-		de: "Woingenau"
+		'en-us': "Wobbuffet",
+		'fr-fr': "Qulbutoké",
+		'de-de': "Woingenau"
 	},
 
 	illustrator: "Katsura Tabata",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Call for Friends",
-				fr: "À la rescousse!",
-				de: "Freundesruf"
+				'en-us': "Call for Friends",
+				'fr-fr': "À la rescousse!",
+				'de-de': "Freundesruf"
 			},
 			effect: {
-				en: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck jusqu'à 2 Pokémon de base et placez-les sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon und lege sie auf deine Bank. Mische dein Deck danach."
+				'en-us': "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck jusqu'à 2 Pokémon de base et placez-les sur votre Banc. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Retaliate",
-				fr: "Représailles",
-				de: "Vergeltung"
+				'en-us': "Retaliate",
+				'fr-fr': "Représailles",
+				'de-de': "Vergeltung"
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on Wobbuffet.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Qulbutoké.",
-				de: "Dieser Angriff fügt für jede Schadensmarke auf Woingenau 10 Schadenspunkte zu."
+				'en-us': "Does 10 damage times the number of damage counters on Wobbuffet.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Qulbutoké.",
+				'de-de': "Dieser Angriff fügt für jede Schadensmarke auf Woingenau 10 Schadenspunkte zu."
 			},
 			damage: "10x",
 

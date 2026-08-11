@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Miltank",
-		fr: "Écrémeuh",
-		es: "Miltank",
-		pt: "Miltank",
-		it: "Miltank",
-		de: "Miltank"
+		'en-us': "Miltank",
+		'fr-fr': "Écrémeuh",
+		'es-es': "Miltank",
+		'pt-br': "Miltank",
+		'it-it': "Miltank",
+		'de-de': "Miltank"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Rollout",
-			fr: "Roulade",
-			es: "Rodar",
-			pt: "Rolagem",
-			it: "Rotolamento",
-			de: "Walzer"
+			'en-us': "Rollout",
+			'fr-fr': "Roulade",
+			'es-es': "Rodar",
+			'pt-br': "Rolagem",
+			'it-it': "Rotolamento",
+			'de-de': "Walzer"
 		},
 
 		damage: 20
@@ -37,21 +37,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Moomoo Rolling",
-			fr: "Roulade Meumeu",
-			es: "Giro Mu-mu",
-			pt: "Moomoo Rolante",
-			it: "Rotola Mumu",
-			de: "Kuhmuh-Walze"
+			'en-us': "Moomoo Rolling",
+			'fr-fr': "Roulade Meumeu",
+			'es-es': "Giro Mu-mu",
+			'pt-br': "Moomoo Rolante",
+			'it-it': "Rotola Mumu",
+			'de-de': "Kuhmuh-Walze"
 		},
 
 		effect: {
-			en: "You can use this attack only if this Pokémon used Rollout during your last turn.",
-			fr: "Vous ne pouvez utiliser cette attaque que si ce Pokémon a utilisé Roulade pendant votre dernier tour.",
-			es: "Puedes usar este ataque solo si este Pokémon usó Rodar durante tu último turno.",
-			pt: "Você só pode usar este ataque se este Pokémon usou Rolagem durante o seu último turno.",
-			it: "Puoi usare questo attacco solo se questo Pokémon ha usato Rotolamento durante il tuo ultimo turno.",
-			de: "Du kannst diese Attacke nur einsetzen, wenn dieses Pokémon während deines letzten Zuges Walzer eingesetzt hat."
+			'en-us': "You can use this attack only if this Pokémon used Rollout during your last turn.",
+			'fr-fr': "Vous ne pouvez utiliser cette attaque que si ce Pokémon a utilisé Roulade pendant votre dernier tour.",
+			'es-es': "Puedes usar este ataque solo si este Pokémon usó Rodar durante tu último turno.",
+			'pt-br': "Você só pode usar este ataque se este Pokémon usou Rolagem durante o seu último turno.",
+			'it-it': "Puoi usare questo attacco solo se questo Pokémon ha usato Rotolamento durante il tuo ultimo turno.",
+			'de-de': "Du kannst diese Attacke nur einsetzen, wenn dieses Pokémon während deines letzten Zuges Walzer eingesetzt hat."
 		},
 
 		damage: 100

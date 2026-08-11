@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Voltorb",
-		de: "Voltobal"
+		'en-us': "Voltorb",
+		'de-de': "Voltobal"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Magnetic Pull",
-				de: "Magnetische Anziehung"
+				'en-us': "Magnetic Pull",
+				'de-de': "Magnetische Anziehung"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon.",
-				de: "Wenn auf der Bank deines Gegners Pokémon vorhanden sind, wähle eines von diesen und tausche es mit dem verteidigenden Pokémon aus."
+				'en-us': "If your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon.",
+				'de-de': "Wenn auf der Bank deines Gegners Pokémon vorhanden sind, wähle eines von diesen und tausche es mit dem verteidigenden Pokémon aus."
 			},
 
 		},
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spin Tackle",
-				de: "Drehtackle"
+				'en-us': "Spin Tackle",
+				'de-de': "Drehtackle"
 			},
 			effect: {
-				en: "Voltorb does 10 damage to itself.",
-				de: "Voltobal fügt sich selber 10 Schadenspunkte zu."
+				'en-us': "Voltorb does 10 damage to itself.",
+				'de-de': "Voltobal fügt sich selber 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

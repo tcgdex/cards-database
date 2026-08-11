@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Grimer",
-		fr: "Tadmorv",
-		de: "Sleima"
+		'en-us': "Grimer",
+		'fr-fr': "Tadmorv",
+		'de-de': "Sleima"
 	},
 
 	illustrator: "Midori Harada",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Sticky Liquid",
-				fr: "Liquide gluant",
-				de: "Klebrige Flüssigkeit"
+				'en-us': "Sticky Liquid",
+				'fr-fr': "Liquide gluant",
+				'de-de': "Klebrige Flüssigkeit"
 			},
 			effect: {
-				en: "During your opponent's next turn, the Defending Pokémon's Retreat Cost is Colorless more.",
-				fr: "Pendant le prochain tour de votre adversaire, le Coût de retraite du Pokémon Défenseur est augmenté de Colorless.",
-				de: "Die Rückzugskosten für das Verteidigende Pokémon betragen im nächsten Zug deines Gegners  mehr."
+				'en-us': "During your opponent's next turn, the Defending Pokémon's Retreat Cost is Colorless more.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, le Coût de retraite du Pokémon Défenseur est augmenté de Colorless.",
+				'de-de': "Die Rückzugskosten für das Verteidigende Pokémon betragen im nächsten Zug deines Gegners  mehr."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sludge Toss",
-				fr: "Décision vaseuse",
-				de: "Schleimwurf"
+				'en-us': "Sludge Toss",
+				'fr-fr': "Décision vaseuse",
+				'de-de': "Schleimwurf"
 			},
 
 			damage: 20,
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Wherever Grimer has passed, so many germs are left behind that no plants will ever grow again."
+		'en-us': "Wherever Grimer has passed, so many germs are left behind that no plants will ever grow again."
 	},
 
 	variants: [

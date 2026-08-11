@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Meditite"
+		'id-id': "Meditite"
 	},
 
 	illustrator: "Natsumi Miyanose",
@@ -14,21 +14,21 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Meditite meningkatkan energi jiwanya dengan bermeditasi, lalu melayang di udara. Pokémon ini memakan 1 buah beri per harinya."
+		'id-id': "Meditite meningkatkan energi jiwanya dengan bermeditasi, lalu melayang di udara. Pokémon ini memakan 1 buah beri per harinya."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menampar"
+			'id-id': "Menampar"
 		},
 
 		damage: 10,
 		cost: ["Fighting"]
 	}, {
 		name: {
-			id: "Kick"
+			'id-id': "Kick"
 		},
 
 		damage: 30,

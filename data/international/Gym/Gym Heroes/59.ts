@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Jynx"
+		'en-us': "Sabrina's Jynx"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Smoochum"
+		'en-us': "Smoochum"
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Good Night"
+				'en-us': "Good Night"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -45,10 +45,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Good Morning"
+				'en-us': "Good Morning"
 			},
 			effect: {
-				en: "If the Defending Pokémon was Asleep, it is no longer Asleep."
+				'en-us': "If the Defending Pokémon was Asleep, it is no longer Asleep."
 			},
 			damage: 20,
 

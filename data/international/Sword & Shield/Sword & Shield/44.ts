@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Kingler",
-		fr: "Krabboss",
-		es: "Kingler",
-		it: "Kingler",
-		pt: "Kingler",
-		de: "Kingler"
+		'en-us': "Kingler",
+		'fr-fr': "Krabboss",
+		'es-es': "Kingler",
+		'it-it': "Kingler",
+		'pt-br': "Kingler",
+		'de-de': "Kingler"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Krabby",
-		fr: "Krabby",
-		es: "Krabby",
-		it: "Krabby",
-		pt: "Krabby",
-		de: "Krabby"
+		'en-us': "Krabby",
+		'fr-fr': "Krabby",
+		'es-es': "Krabby",
+		'it-it': "Krabby",
+		'pt-br': "Krabby",
+		'de-de': "Krabby"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Heavy Pincers",
-				fr: "Pinces Lourdes",
-				es: "Tenazas Pesadas",
-				it: "Chele Pesanti",
-				pt: "Pinças Pesadas",
-				de: "Kräftige Scheren"
+				'en-us': "Heavy Pincers",
+				'fr-fr': "Pinces Lourdes",
+				'es-es': "Tenazas Pesadas",
+				'it-it': "Chele Pesanti",
+				'pt-br': "Pinças Pesadas",
+				'de-de': "Kräftige Scheren"
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-				es: "Descarta la primera carta de la baraja de tu rival.",
-				it: "Scarta la prima carta del mazzo del tuo avversario.",
-				pt: "Descarte a carta de cima do baralho do seu oponente.",
-				de: "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
+				'en-us': "Discard the top card of your opponent's deck.",
+				'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+				'es-es': "Descarta la primera carta de la baraja de tu rival.",
+				'it-it': "Scarta la prima carta del mazzo del tuo avversario.",
+				'pt-br': "Descarte a carta de cima do baralho do seu oponente.",
+				'de-de': "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 40,
 
@@ -68,20 +68,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Claw Rend",
-				fr: "Déchirure",
-				es: "Quebrantar",
-				it: "Artiglilaceranti",
-				pt: "Lacerar",
-				de: "Klauenreißer"
+				'en-us': "Claw Rend",
+				'fr-fr': "Déchirure",
+				'es-es': "Quebrantar",
+				'it-it': "Artiglilaceranti",
+				'pt-br': "Lacerar",
+				'de-de': "Klauenreißer"
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 60 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire a déjà des marqueurs de dégâts, cette attaque inflige 60 dégâts supplémentaires.",
-				es: "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 60 puntos de daño más.",
-				it: "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 60 danni in più.",
-				pt: "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 60 pontos de dano a mais.",
-				de: "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 60 Schadenspunkte mehr zu."
+				'en-us': "If your opponent's Active Pokémon already has any damage counters on it, this attack does 60 more damage.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire a déjà des marqueurs de dégâts, cette attaque inflige 60 dégâts supplémentaires.",
+				'es-es': "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 60 puntos de daño más.",
+				'it-it': "Se il Pokémon attivo del tuo avversario ha già dei segnalini danno, questo attacco infligge 60 danni in più.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente já tiver algum contador de dano nele, este ataque causará 60 pontos de dano a mais.",
+				'de-de': "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 1 Schadensmarke liegt, fügt diese Attacke 60 Schadenspunkte mehr zu."
 			},
 			damage: "90+",
 
@@ -106,7 +106,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move."
+		'en-us': "The large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move."
 	},
 
 	thirdParty: {

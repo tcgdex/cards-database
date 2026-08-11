@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Energy Removal",
+		'en-us': "Energy Removal",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -12,7 +12,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it.",
+		'en-us': "Choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it.",
 	},
 
 

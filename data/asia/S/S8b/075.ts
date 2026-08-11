@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニンフィアVMAX",
+		'ja-jp': "ニンフィアVMAX",
 		'zh-tw': "仙子伊布VMAX",
 	},
 
@@ -18,24 +18,24 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "プレシャスタッチ",
+				'ja-jp': "プレシャスタッチ",
 				'zh-tw': "貴重之觸",
 			},
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分の手札からエネルギーを1枚選び、自分のベンチポケモンにつける。その後、そのポケモンのHPを「120」回復する。",
+				'ja-jp': "自分の手札からエネルギーを1枚選び、自分のベンチポケモンにつける。その後、そのポケモンのHPを「120」回復する。",
 				'zh-tw': "從自己的手牌選擇1張能量卡，附於自己的備戰寶可夢身上。然後，將那隻寶可夢恢復「120」HP。",
 			},
 		},
 		{
 			name: {
-				ja: "ダイハーモニー",
+				'ja-jp': "ダイハーモニー",
 				'zh-tw': "極巨和諧",
 			},
 			damage: "70+",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチポケモンのタイプの数×30ダメージ追加。",
+				'ja-jp': "自分のベンチポケモンのタイプの数×30ダメージ追加。",
 				'zh-tw': "增加自己的備戰寶可夢的屬性種類的數量×30點傷害。",
 			},
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニンフィアV",
+		'ja-jp': "ニンフィアV",
 	},
 
 	retreat: 2,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Wormadam Trash Cloak",
-		fr: "Cheniselle Cape Déchet",
-		de: "Burmadame Lumpenumhang"
+		'en-us': "Wormadam Trash Cloak",
+		'fr-fr': "Cheniselle Cape Déchet",
+		'de-de': "Burmadame Lumpenumhang"
 	},
 
 	illustrator: "Kazuyuki Kano",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Burmy Trash Cloak",
-		fr: "Cheniti Cape Déchet",
+		'en-us': "Burmy Trash Cloak",
+		'fr-fr': "Cheniti Cape Déchet",
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Trash Cloak",
-				fr: "Cape déchet",
-				de: "Lumpenumhang"
+				'en-us': "Trash Cloak",
+				'fr-fr': "Cape déchet",
+				'de-de': "Lumpenumhang"
 			},
 			effect: {
-				en: "If Wormadam Trash Cloak has a Pokémon Tool card attached to it, any damage done to Wormadam Trash Cloak by attacks is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Si Cheniselle Cape Déchet  possède une carte Outil Pokémon, tous dégâts qui lui sont infligés par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
-				de: "Wenn an Burmadame Lumpenumhang eine Pokémon-Ausrüstungs angelegt ist, wird Schaden, der Burmadame Lumpenumhang durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				'en-us': "If Wormadam Trash Cloak has a Pokémon Tool card attached to it, any damage done to Wormadam Trash Cloak by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Si Cheniselle Cape Déchet  possède une carte Outil Pokémon, tous dégâts qui lui sont infligés par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Wenn an Burmadame Lumpenumhang eine Pokémon-Ausrüstungs angelegt ist, wird Schaden, der Burmadame Lumpenumhang durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Iron Tackle",
-				fr: "Charge de fer",
-				de: "Eisentackle"
+				'en-us': "Iron Tackle",
+				'fr-fr': "Charge de fer",
+				'de-de': "Eisentackle"
 			},
 			effect: {
-				en: "Wormadam Trash Cloak does 20 damage to itself.",
-				fr: "Cheniselle Cape Déchet s'inflige 20 dégâts.",
-				de: "Burmadame Lumpenumhang fügt sich selbst 20 Schadenspunkte zu."
+				'en-us': "Wormadam Trash Cloak does 20 damage to itself.",
+				'fr-fr': "Cheniselle Cape Déchet s'inflige 20 dégâts.",
+				'de-de': "Burmadame Lumpenumhang fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 70,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When BURMY evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
+		'en-us': "When BURMY evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オーガポン みどりのめん",
+		'ja-jp': "オーガポン みどりのめん",
 	},
 
 	illustrator: "Tomomi Ozaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "身に着ける 仮面によって タイプが 変わる。 俊敏な 身のこなしと 蹴り技で 敵を 翻弄する。",
+		'ja-jp': "身に着ける 仮面によって タイプが 変わる。 俊敏な 身のこなしと 蹴り技で 敵を 翻弄する。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "くさかぐら" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から「基本[G]エネルギー」を1枚選び、自分のポケモンにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から「基本[G]エネルギー」を1枚選び、自分のポケモンにつける。そして山札を切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Grass", "Grass", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンは「おにハンマー」が使えない。",
+				'ja-jp': "次の自分の番、このポケモンは「おにハンマー」が使えない。",
 			},
 		},
 	],

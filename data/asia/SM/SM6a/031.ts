@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チルタリス",
+		'ja-jp': "チルタリス",
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "晴れた日 綿雲に まぎれながら 大空を 自由に 飛び回り 美しい ソプラノで 歌う。",
+		'ja-jp': "晴れた日 綿雲に まぎれながら 大空を 自由に 飛び回り 美しい ソプラノで 歌う。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "たたかいのうた" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分の[竜]ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+20」される。",
+				'ja-jp': "このポケモンがいるかぎり、自分の[竜]ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+20」される。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "チルット",
+		'ja-jp': "チルット",
 	},
 
 	retreat: 1,

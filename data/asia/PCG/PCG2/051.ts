@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルナトン",
+		'ja-jp': "ルナトン",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ムーンロー",
+				'ja-jp': "ムーンロー",
 			},
 			effect: {
-				ja: "プレイ中の各ソロロックのリトリートコストは0です。",
+				'ja-jp': "プレイ中の各ソロロックのリトリートコストは0です。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "先見性",
+				'ja-jp': "先見性",
 			},
 			effect: {
-				ja: "いずれかのプレーヤーのデッキのトップ5カードを見て、そのプレイヤーのデッキの上に戻します。",
+				'ja-jp': "いずれかのプレーヤーのデッキのトップ5カードを見て、そのプレイヤーのデッキの上に戻します。",
 			},
 		},
 		{
 			cost: ["Fighting", "Colorless"],
 			name: {
-				ja: "ターゲットビーム",
+				'ja-jp': "ターゲットビーム",
 			},
 			effect: {
-				ja: "20のダメージに加えて、プレイ中のソロロックごとにさらに10ダメージを与えます。",
+				'ja-jp': "20のダメージに加えて、プレイ中のソロロックごとにさらに10ダメージを与えます。",
 			},
 		},
 	],

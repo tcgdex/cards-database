@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パルスワン",
+		'ja-jp': "パルスワン",
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "電気を つくって 脚に 送り 走りを アシスト。 三日三晩 休まず 走れるのだ。",
+		'ja-jp': "電気を つくって 脚に 送り 走りを アシスト。 三日三晩 休まず 走れるのだ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札から「基本[L]エネルギー」を2枚まで選び、ベンチポケモンに好きなようにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から「基本[L]エネルギー」を2枚まで選び、ベンチポケモンに好きなようにつける。そして山札を切る。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ワンパチ",
+		'ja-jp': "ワンパチ",
 	},
 
 	retreat: 1,

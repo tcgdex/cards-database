@@ -1,27 +1,27 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ethan's Magcargo",
-		fr: "Volcaropod de Luth",
-		es: "Magcargo de Eco",
+		'en-us': "Ethan's Magcargo",
+		'fr-fr': "Volcaropod de Luth",
+		'es-es': "Magcargo de Eco",
 		'es-mx': "Magcargo de Ethan",
-		de: "Klarins Magcargo",
-		it: "Magcargo di Armonio",
-		pt: "Magcargo do Ethan"
+		'de-de': "Klarins Magcargo",
+		'it-it': "Magcargo di Armonio",
+		'pt-br': "Magcargo do Ethan"
 	},
 
 	evolveFrom: {
-		en: "Ethan's Slugma",
-		fr: "Limagma de Luth",
-		es: "Slugma de Eco",
+		'en-us': "Ethan's Slugma",
+		'fr-fr': "Limagma de Luth",
+		'es-es': "Slugma de Eco",
 		'es-mx': "Slugma de Ethan",
-		de: "Klarins Schneckmag",
-		it: "Slugma di Armonio",
-		pt: "Slugma do Ethan",
+		'de-de': "Klarins Schneckmag",
+		'it-it': "Slugma di Armonio",
+		'pt-br': "Slugma do Ethan",
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -35,23 +35,23 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Melt Away",
-			fr: "Fonte Progressive",
-			es: "Fundir",
+			'en-us': "Melt Away",
+			'fr-fr': "Fonte Progressive",
+			'es-es': "Fundir",
 			'es-mx': "Escape Fundido",
-			de: "Wegschmelzen",
-			it: "Squagliarsela",
-			pt: "Chega Derrete"
+			'de-de': "Wegschmelzen",
+			'it-it': "Squagliarsela",
+			'pt-br': "Chega Derrete"
 		},
 
 		effect: {
-			en: "If this Pokémon has no Energy attached, it has no Retreat Cost.",
-			fr: "Si aucune Énergie n'est attachée à ce Pokémon, il n'a pas de Coût de Retraite.",
-			es: "Si este Pokémon no tiene ninguna Energía unida, no tiene ningún Coste de Retirada.",
+			'en-us': "If this Pokémon has no Energy attached, it has no Retreat Cost.",
+			'fr-fr': "Si aucune Énergie n'est attachée à ce Pokémon, il n'a pas de Coût de Retraite.",
+			'es-es': "Si este Pokémon no tiene ninguna Energía unida, no tiene ningún Coste de Retirada.",
 			'es-mx': "Si este Pokémon no tiene ninguna Energía unida, no tiene ningún Costo de Retirada.",
-			de: "Wenn an dieses Pokémon keine Energie angelegt ist, hat es keine Rückzugskosten.",
-			it: "Se questo Pokémon non ha Energie assegnate, non ha costo di ritirata.",
-			pt: "Se este Pokémon não tiver nenhuma Energia ligada a ele, não terá custo de Recuo."
+			'de-de': "Wenn an dieses Pokémon keine Energie angelegt ist, hat es keine Rückzugskosten.",
+			'it-it': "Se questo Pokémon non ha Energie assegnate, non ha costo di ritirata.",
+			'pt-br': "Se este Pokémon não tiver nenhuma Energia ligada a ele, não terá custo de Recuo."
 		}
 	}],
 
@@ -59,23 +59,23 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Fire"],
 
 		name: {
-			en: "Lava Burst",
-			fr: "Explosion de Lave",
-			es: "Explosión de Lava",
+			'en-us': "Lava Burst",
+			'fr-fr': "Explosion de Lave",
+			'es-es': "Explosión de Lava",
 			'es-mx': "Estallido de Lava",
-			de: "Lava-Ausbruch",
-			it: "Lavascoppio",
-			pt: "Erupção de Lava"
+			'de-de': "Lava-Ausbruch",
+			'it-it': "Lavascoppio",
+			'pt-br': "Erupção de Lava"
 		},
 
 		effect: {
-			en: "Discard up to 5 {R} Energy from this Pokémon. This attack does 70 damage for each card you discarded in this way.",
-			fr: "Défaussez jusqu'à 5 Énergies {R} de ce Pokémon. Cette attaque inflige 70 dégâts pour chaque carte défaussée de cette façon.",
-			es: "Descarta hasta 5 Energías {R} de este Pokémon. Este ataque hace 70 puntos de daño por cada carta que hayas descartado de esta manera.",
+			'en-us': "Discard up to 5 {R} Energy from this Pokémon. This attack does 70 damage for each card you discarded in this way.",
+			'fr-fr': "Défaussez jusqu'à 5 Énergies {R} de ce Pokémon. Cette attaque inflige 70 dégâts pour chaque carte défaussée de cette façon.",
+			'es-es': "Descarta hasta 5 Energías {R} de este Pokémon. Este ataque hace 70 puntos de daño por cada carta que hayas descartado de esta manera.",
 			'es-mx': "Descarta hasta 5 Energías {R} de este Pokémon. Este ataque hace 70 puntos de daño por cada carta que descartaste de esta manera.",
-			de: "Lege bis zu 5 {R}-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 70 Schadenspunkte zu.",
-			it: "Scarta fino a cinque Energie {R} da questo Pokémon. Questo attacco infligge 70 danni per ogni carta che hai scartato in questo modo.",
-			pt: "Descarte até 5 Energias {R} deste Pokémon. Este ataque causa 70 pontos de dano para cada carta descartada desta forma."
+			'de-de': "Lege bis zu 5 {R}-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 70 Schadenspunkte zu.",
+			'it-it': "Scarta fino a cinque Energie {R} da questo Pokémon. Questo attacco infligge 70 danni per ogni carta che hai scartato in questo modo.",
+			'pt-br': "Descarte até 5 Energias {R} deste Pokémon. Este ataque causa 70 pontos de dano para cada carta descartada desta forma."
 		},
 
 		damage: "70×"
@@ -91,7 +91,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "This Pokémon lives near the craters of volcanoes. It stores fire energy in its shell of cooled and hardened magma.",
+		'en-us': "This Pokémon lives near the craters of volcanoes. It stores fire energy in its shell of cooled and hardened magma.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゼルネアス",
+		'ja-jp': "ゼルネアス",
 	},
 
 	illustrator: "YASHIRO Nanaco",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "頭の ツノが 七色に 輝くとき 永遠の 命を 分け与えると いわれている。",
+		'ja-jp': "頭の ツノが 七色に 輝くとき 永遠の 命を 分け与えると いわれている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Psychic", "Psychic", "Psychic"],
 			effect: {
-				ja: "自分のポケモン全員についている[P]エネルギーの数×30ダメージ。",
+				'ja-jp': "自分のポケモン全員についている[P]エネルギーの数×30ダメージ。",
 			},
 		},
 	],

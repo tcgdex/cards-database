@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2024'
 
 const card: Card = {
 	name: {
-		en: "Dragapult",
-		fr: "Lanssorien",
-		es: "Dragapult",
-		it: "Dragapult",
-		pt: "Dragapult",
-		de: "Katapuldra"
+		'en-us': "Dragapult",
+		'fr-fr': "Lanssorien",
+		'es-es': "Dragapult",
+		'it-it': "Dragapult",
+		'pt-br': "Dragapult",
+		'de-de': "Katapuldra"
 	},
 
 	illustrator: "Teeziro",
@@ -25,28 +25,28 @@ const card: Card = {
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Drakloak",
-		fr: "Dispareptil",
-		es: "Drakloak",
-		it: "Drakloak",
-		pt: "Drakloak",
-		de: "Phandra"
+		'en-us': "Drakloak",
+		'fr-fr': "Dispareptil",
+		'es-es': "Drakloak",
+		'it-it': "Drakloak",
+		'pt-br': "Drakloak",
+		'de-de': "Phandra"
 	},
 
 	attacks: [
 		{
 			cost: ["Psychic"],
 			name: {
-				en: "Dragon Launcher",
+				'en-us': "Dragon Launcher",
 			},
 			effect: {
-				en: "Discard a number of your Benched Dreepy up to the number of your opponent's Pokémon in play. Then, for each Dreepy you discarded in this way, choose 1 of your opponent's Pokémon and do 100 damage to it. You can't choose the same Pokémon more than once. This damage isn't affected by Weakness or Resistance"
+				'en-us': "Discard a number of your Benched Dreepy up to the number of your opponent's Pokémon in play. Then, for each Dreepy you discarded in this way, choose 1 of your opponent's Pokémon and do 100 damage to it. You can't choose the same Pokémon more than once. This damage isn't affected by Weakness or Resistance"
 			}
 		},
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				en: "Spooky Shot",
+				'en-us': "Spooky Shot",
 			},
 			damage: 120,
 		},

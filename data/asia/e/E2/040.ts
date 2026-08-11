@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドロージー",
+		'ja-jp': "ドロージー",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "スリープインデューサー",
+				'ja-jp': "スリープインデューサー",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、対戦相手のベンチポケモンの1つを選択し、防御ポケモンをそれで切り替えます。新しい防御ポケモンは今眠っています。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、対戦相手のベンチポケモンの1つを選択し、防御ポケモンをそれで切り替えます。新しい防御ポケモンは今眠っています。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "取り組む",
+				'ja-jp': "取り組む",
 			},
 			damage: 20,
 		},

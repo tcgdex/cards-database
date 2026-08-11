@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Voltorb",
-		de: "Voltobal"
+		'en-us': "Voltorb",
+		'de-de': "Voltobal"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psycho Waves",
-				de: "Psycho Waves"
+				'en-us': "Psycho Waves",
+				'de-de': "Psycho Waves"
 			},
 			effect: {
-				en: "Discard an Energy card attached to Voltorb. The Defending Pokémon is now Confused.",
-				de: "Discard an Energy card attached to Voltorb. The Defending Pokémon is now Confused."
+				'en-us': "Discard an Energy card attached to Voltorb. The Defending Pokémon is now Confused.",
+				'de-de': "Discard an Energy card attached to Voltorb. The Defending Pokémon is now Confused."
 			},
 
 		},
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Wave",
-				de: "Thunder Wave"
+				'en-us': "Thunder Wave",
+				'de-de': "Thunder Wave"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 

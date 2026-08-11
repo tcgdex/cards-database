@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "キルリア",
+		'ja-jp': "キルリア",
 		'zh-tw': "奇魯莉安",
-		id: "Kirlia"
+		'id-id': "Kirlia"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "サイコパワーを 操り まわりの 空間を ねじ曲げることで 未来を 見通すことができる。",
+		'ja-jp': "サイコパワーを 操り まわりの 空間を ねじ曲げることで 未来を 見通すことができる。",
 		'zh-tw': "能夠操縱精神力量來扭曲周圍的空間， 讓自己看見未來。",
-		id: "Dengan membengkokkan dimensi ruang di sekitarnya menggunakan kekuatan psikokinesis, Kirlia dapat melihat masa depan."
+		'id-id': "Dengan membengkokkan dimensi ruang di sekitarnya menggunakan kekuatan psikokinesis, Kirlia dapat melihat masa depan."
 	},
 
 	stage: "Stage1",
@@ -28,9 +28,9 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "マジカルショット",
+			'ja-jp': "マジカルショット",
 			'zh-tw': "魔法射擊",
-			id: "Magical Shot"
+			'id-id': "Magical Shot"
 		},
 
 		damage: 30
@@ -38,17 +38,17 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			ja: "サイコキネシス",
+			'ja-jp': "サイコキネシス",
 			'zh-tw': "精神強念",
-			id: "Psikis"
+			'id-id': "Psikis"
 		},
 
 		damage: "60+",
 
 		effect: {
-			ja: "相手のバトルポケモンについているエネルギーの数×20ダメージ追加。",
+			'ja-jp': "相手のバトルポケモンについているエネルギーの数×20ダメージ追加。",
 			'zh-tw': "增加對手的戰鬥寶可夢身上附加的能量的數量×20點傷害。",
-			id: "Kerusakan yang diberikan bertambah sejumlah 20 untuk tiap Energi yang dikenakan pada Pokémon Bertarung lawan."
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 20 untuk tiap Energi yang dikenakan pada Pokémon Bertarung lawan."
 		}
 	}],
 

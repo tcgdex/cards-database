@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 1'
 
 const card: Card = {
 	name: {
-		en: "Masquerain",
-		fr: "Maskadra"
+		'en-us': "Masquerain",
+		'fr-fr': "Maskadra"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Surskit",
-		fr: "Arakdo"
+		'en-us': "Surskit",
+		'fr-fr': "Arakdo"
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-attaque"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-attaque"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
 			},
 			damage: "10+",
 
@@ -50,8 +50,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gust",
-				fr: "Tornade"
+				'en-us': "Gust",
+				'fr-fr': "Tornade"
 			},
 
 			damage: 50,

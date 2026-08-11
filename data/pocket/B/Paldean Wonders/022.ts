@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Coiffeton",
-		en: "Quaxly",
-		es: "Quaxly",
-		it: "Quaxly",
-		pt: "Quaxly",
-		de: "Kwaks"
+		'fr-fr': "Coiffeton",
+		'en-us': "Quaxly",
+		'es-es': "Quaxly",
+		'it-it': "Quaxly",
+		'pt-br': "Quaxly",
+		'de-de': "Kwaks"
   },
   illustrator: "Naoki Saito",
   rarity: "One Diamond",

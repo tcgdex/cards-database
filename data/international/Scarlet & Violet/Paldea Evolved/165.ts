@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Bleuseille",
-		en: "Corvisquire",
-		es: "Corvisquire",
-		it: "Corvisquire",
-		pt: "Corvisquire",
-		de: "Kranoviz"
+		'fr-fr': "Bleuseille",
+		'en-us': "Corvisquire",
+		'es-es': "Corvisquire",
+		'it-it': "Corvisquire",
+		'pt-br': "Corvisquire",
+		'de-de': "Kranoviz"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Colorless"],
 	evolveFrom: {
-		fr: "Minisange",
-		en: "Rookidee",
-		es: "Rookidee",
-		it: "Rookidee",
-		pt: "Rookidee",
-		de: "Meikro"
+		'fr-fr': "Minisange",
+		'en-us': "Rookidee",
+		'es-es': "Rookidee",
+		'it-it': "Rookidee",
+		'pt-br': "Rookidee",
+		'de-de': "Meikro"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Glissement",
-			en: "Glide",
-			es: "Planeo",
-			it: "Aliante",
-			pt: "Planeio",
-			de: "Gleiten"
+			'fr-fr': "Glissement",
+			'en-us': "Glide",
+			'es-es': "Planeo",
+			'it-it': "Aliante",
+			'pt-br': "Planeio",
+			'de-de': "Gleiten"
 		},
 
 		damage: 20
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Serre",
-			en: "Clutch",
-			es: "Embrague",
-			it: "Grinfie",
-			pt: "Agarramento",
-			de: "Greifer"
+			'fr-fr': "Serre",
+			'en-us': "Clutch",
+			'es-es': "Embrague",
+			'it-it': "Grinfie",
+			'pt-br': "Agarramento",
+			'de-de': "Greifer"
 		},
 
 		effect: {
-			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
-			en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
-			es: "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
-			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
-			pt: "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar.",
-			de: "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
+			'fr-fr': "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
+			'en-us': "During your opponent's next turn, the Defending Pokémon can't retreat.",
+			'es-es': "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
+			'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+			'pt-br': "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar.",
+			'de-de': "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
 		},
 
 		damage: 70
@@ -102,7 +102,7 @@ const card: Card = {
 	illustrator: "sui",
 
 	description: {
-		en: "It's said that the reason behind Corvisquire's high level of intelligence is the large size of its brain relative to those of other bird Pokémon.",
+		'en-us': "It's said that the reason behind Corvisquire's high level of intelligence is the large size of its brain relative to those of other bird Pokémon.",
 	},
 }
 

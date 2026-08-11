@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Matourgeon",
-		en: "Floragato",
-		es: "Floragato",
-		it: "Floragato",
-		pt: "Floragato",
-		de: "Feliospa"
+		'fr-fr': "Matourgeon",
+		'en-us': "Floragato",
+		'es-es': "Floragato",
+		'it-it': "Floragato",
+		'pt-br': "Floragato",
+		'de-de': "Feliospa"
 	},
 
 	rarity: "Illustration rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Grass"],
 	evolveFrom: {
-		fr: "Poussacha",
-		en: "Sprigatito",
-		es: "Sprigatito",
-		it: "Sprigatito",
-		pt: "Sprigatito",
-		de: "Felori"
+		'fr-fr': "Poussacha",
+		'en-us': "Sprigatito",
+		'es-es': "Sprigatito",
+		'it-it': "Sprigatito",
+		'pt-br': "Sprigatito",
+		'de-de': "Felori"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			fr: "Canon Graine",
-			en: "Seed Bomb",
-			es: "Bomba Germen",
-			it: "Semebomba",
-			pt: "Bomba de Sementes",
-			de: "Samenbomben"
+			'fr-fr': "Canon Graine",
+			'en-us': "Seed Bomb",
+			'es-es': "Bomba Germen",
+			'it-it': "Semebomba",
+			'pt-br': "Bomba de Sementes",
+			'de-de': "Samenbomben"
 		},
 
 		damage: 30
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			fr: "Fouet Magique",
-			en: "Magic Whip",
-			es: "Latigazo Mágico",
-			it: "Magifrusta",
-			pt: "Chicote Mágico",
-			de: "Magische Peitsche"
+			'fr-fr': "Fouet Magique",
+			'en-us': "Magic Whip",
+			'es-es': "Latigazo Mágico",
+			'it-it': "Magifrusta",
+			'pt-br': "Chicote Mágico",
+			'de-de': "Magische Peitsche"
 		},
 
 		effect: {
-			fr: "Envoyez le Pokémon Actif de l'adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
-			en: "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
-			es: "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
-			it: "Sposta il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
-			pt: "Mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)",
-			de: "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)"
+			'fr-fr': "Envoyez le Pokémon Actif de l'adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
+			'en-us': "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+			'es-es': "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
+			'it-it': "Sposta il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
+			'pt-br': "Mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)",
+			'de-de': "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)"
 		},
 
 		damage: 50
@@ -88,7 +88,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "Floragato deftly wields the vine hidden beneath its long fur, slamming the hard flower bud against its opponents.",
+		'en-us': "Floragato deftly wields the vine hidden beneath its long fur, slamming the hard flower bud against its opponents.",
 	},
 }
 

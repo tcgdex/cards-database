@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブラッキーV",
+		'ja-jp': "ブラッキーV",
 	},
 
 	illustrator: "Ligton",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 30,
 			cost: ["Darkness"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、にげられない。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンにダメカンがのっているなら、80ダメージ追加。",
+				'ja-jp': "このポケモンにダメカンがのっているなら、80ダメージ追加。",
 			},
 		},
 	],

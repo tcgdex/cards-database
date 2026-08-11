@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legend Maker'
 
 const card: Card = {
 	name: {
-		en: "Fieldworker",
-		fr: "Travailleur de terrain",
-		de: "Feldarbeiter"
+		'en-us': "Fieldworker",
+		'fr-fr': "Travailleur de terrain",
+		'de-de': "Feldarbeiter"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -15,9 +15,9 @@ const card: Card = {
 	trainerType: "Supporter",
 
 	effect: {
-		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Draw 3 cards. Your opponent may also draw a card.",
-		fr: "Piochez 3 cartes. Votre adversaire peut également piocher une carte.",
-		de: "Ziehe 3 Karten. Dein Gegner kann dann ebenfalls 1 Karte ziehen.",
+		'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Draw 3 cards. Your opponent may also draw a card.",
+		'fr-fr': "Piochez 3 cartes. Votre adversaire peut également piocher une carte.",
+		'de-de': "Ziehe 3 Karten. Dein Gegner kann dann ebenfalls 1 Karte ziehen.",
 	},
 
 	thirdParty: {

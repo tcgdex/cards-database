@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2021'
 
 const card: Card = {
 	name: {
-		en: "Rowlet",
-		fr: "Brindibou",
+		'en-us': "Rowlet",
+		'fr-fr': "Brindibou",
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
 			},
 
 			damage: 10,
@@ -43,8 +43,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leafage",
-				fr: "Feuillage",
+				'en-us': "Leafage",
+				'fr-fr': "Feuillage",
 			},
 
 			damage: 20,
@@ -62,7 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This wary Pokémon uses photosynthesis to store up energy during the day, while becoming active at night."
+		'en-us': "This wary Pokémon uses photosynthesis to store up energy during the day, while becoming active at night."
 	},
 
 	variants: [

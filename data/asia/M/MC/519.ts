@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メルメタルex",
+		'ja-jp': "メルメタルex",
 	},
 
 	illustrator: "takuyoa",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "100×",
 			cost: ["Metal", "Metal", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを2回投げ、オモテの数×100ダメージ。",
+				'ja-jp': "コインを2回投げ、オモテの数×100ダメージ。",
 			},
 		},
 	],
@@ -38,7 +38,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "メルタン",
+		'ja-jp': "メルタン",
 	},
 
 	retreat: 3,

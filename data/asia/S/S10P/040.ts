@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バサギリV",
+		'ja-jp': "バサギリV",
 		'zh-tw': "劈斧螳螂V",
 	},
 
@@ -18,7 +18,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "いあいぎり",
+				'ja-jp': "いあいぎり",
 				'zh-tw': "居合斬",
 			},
 			damage: 40,
@@ -26,13 +26,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "まさかりスラッシュ",
+				'ja-jp': "まさかりスラッシュ",
 				'zh-tw': "鉞斬",
 			},
 			damage: 150,
 			cost: ["Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、トラッシュする。その後、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。その後、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
 				'zh-tw': "選擇1個這隻寶可夢身上附加的能量，將其丟棄。然後，選擇1個對手的戰鬥寶可夢身上附加的能量，將其丟棄。",
 			},
 		},

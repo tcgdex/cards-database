@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ライチュウ",
+		'ja-jp': "ライチュウ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Lightning", "Lightning", "Lightning"],
 			name: {
-				ja: "ギガショック",
+				'ja-jp': "ギガショック",
 			},
 			effect: {
-				ja: "対戦相手のベンチポケモンの3つを選択すると、この攻撃はそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）相手が3つ未満のベンチポケモンを持っている場合、それぞれにダメージを与えます。",
+				'ja-jp': "対戦相手のベンチポケモンの3つを選択すると、この攻撃はそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）相手が3つ未満のベンチポケモンを持っている場合、それぞれにダメージを与えます。",
 			},
 			damage: 30,
 		},

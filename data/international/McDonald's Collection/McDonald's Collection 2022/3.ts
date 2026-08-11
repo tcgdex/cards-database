@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2022'
 
 const card: Card = {
 	name: {
-		en: "Gossifleur",
-		fr: "Tournicoton",
-		es: "Gossifleur",
-		it: "Gossifleur",
-		pt: "Gossifleur",
-		de: "Cottini"
+		'en-us': "Gossifleur",
+		'fr-fr': "Tournicoton",
+		'es-es': "Gossifleur",
+		'it-it': "Gossifleur",
+		'pt-br': "Gossifleur",
+		'de-de': "Cottini"
 	},
 
 	illustrator: "Mizue",
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				en: "Blot",
+				'en-us': "Blot",
 			},
 			effect: {
-				en: "Heal 10 damage from this Pokémon.",
+				'en-us': "Heal 10 damage from this Pokémon.",
 			},
 			damage: 10
 		},

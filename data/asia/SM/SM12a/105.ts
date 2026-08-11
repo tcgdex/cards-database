@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニャース",
+		'ja-jp': "ニャース",
 	},
 
 	illustrator: "Shibuzoh.",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ゴミ捨て場に いくと ひかりものを 巡って ヤミカラスと 激しく ケンカする 光景が 見られる。",
+		'ja-jp': "ゴミ捨て場に いくと ひかりものを 巡って ヤミカラスと 激しく ケンカする 光景が 見られる。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ねこびより" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を2枚引く。その後、このポケモンをねむりにする。",
+				'ja-jp': "自分の山札を2枚引く。その後、このポケモンをねむりにする。",
 			},
 		},
 		{

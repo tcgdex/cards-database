@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Octillery"
+		'id-id': "Octillery"
 	},
 
 	illustrator: "Yuka Morii",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Kepala batunya kukuh. Octillery mengikat lawan menggunakan kakinya yang dilengkapi dengan pengisap, lalu terus menghantam lawan tersebut dengan kepalanya."
+		'id-id': "Kepala batunya kukuh. Octillery mengikat lawan menggunakan kakinya yang dilengkapi dengan pengisap, lalu terus menghantam lawan tersebut dengan kepalanya."
 	},
 
 	stage: "Stage1",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Pengisap Pengambil"
+			'id-id': "Pengisap Pengambil"
 		},
 
 		effect: {
-			id: "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan untuk melakukan evolusi. Ambil 3 kartu dari atas Deck sendiri."
+			'id-id': "Dapat digunakan 1 kali pada giliran sendiri saat memasukkan kartu ini dari Kartu Pegangan untuk melakukan evolusi. Ambil 3 kartu dari atas Deck sendiri."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Peluru Tirai Asap"
+			'id-id': "Peluru Tirai Asap"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, saat Pokémon yang menerima serangan ini menggunakan serangan, lawan melempar koin 1 kali. Jika hasilnya sisi belakang, serangan tersebut gagal."
+			'id-id': "Pada giliran lawan berikutnya, saat Pokémon yang menerima serangan ini menggunakan serangan, lawan melempar koin 1 kali. Jika hasilnya sisi belakang, serangan tersebut gagal."
 		},
 
 		damage: 60,

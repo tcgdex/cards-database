@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Brilliant Stars"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drampa V",
-		fr: "Draïeul V",
-		es: "Drampa V",
-		it: "Drampa V",
-		pt: "Drampa V",
-		de: "Sen-Long V"
+		'en-us': "Drampa V",
+		'fr-fr': "Draïeul V",
+		'es-es': "Drampa V",
+		'it-it': "Drampa V",
+		'pt-br': "Drampa V",
+		'de-de': "Sen-Long V"
 	},
 
 	illustrator: "aky CG Works",
@@ -26,21 +26,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Spike Draw",
-			fr: "Pique-Pioche",
-			es: "Robo Pico",
-			it: "Battipesca",
-			pt: "Comprada Espinhosa",
-			de: "Stachelzug"
+			'en-us': "Spike Draw",
+			'fr-fr': "Pique-Pioche",
+			'es-es': "Robo Pico",
+			'it-it': "Battipesca",
+			'pt-br': "Comprada Espinhosa",
+			'de-de': "Stachelzug"
 		},
 
 		effect: {
-			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
-			es: "Roba 2 cartas.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas.",
-			de: "Ziehe 2 Karten."
+			'en-us': "Draw 2 cards.",
+			'fr-fr': "Piochez 2 cartes.",
+			'es-es': "Roba 2 cartas.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas.",
+			'de-de': "Ziehe 2 Karten."
 		},
 
 		damage: 20
@@ -48,21 +48,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Dragon Pulse",
-			fr: "Draco-Choc",
-			es: "Pulso Dragón",
-			it: "Dragopulsar",
-			pt: "Pulso do Dragão",
-			de: "Drachenpuls"
+			'en-us': "Dragon Pulse",
+			'fr-fr': "Draco-Choc",
+			'es-es': "Pulso Dragón",
+			'it-it': "Dragopulsar",
+			'pt-br': "Pulso do Dragão",
+			'de-de': "Drachenpuls"
 		},
 
 		effect: {
-			en: "Discard the top 2 cards of your deck.",
-			fr: "Défaussez les 2 cartes du dessus de votre deck.",
-			es: "Descarta las 2 primeras cartas de tu baraja.",
-			it: "Scarta le prime due carte del tuo mazzo.",
-			pt: "Descarte as 2 cartas de cima do seu baralho.",
-			de: "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel."
+			'en-us': "Discard the top 2 cards of your deck.",
+			'fr-fr': "Défaussez les 2 cartes du dessus de votre deck.",
+			'es-es': "Descarta las 2 primeras cartas de tu baraja.",
+			'it-it': "Scarta le prime due carte del tuo mazzo.",
+			'pt-br': "Descarte as 2 cartas de cima do seu baralho.",
+			'de-de': "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel."
 		},
 
 		damage: 160

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルリナ",
+		'ja-jp': "ルリナ",
 	},
 
 	illustrator: "saino misaki",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のトラッシュから[水]ポケモンと[水]エネルギーを合計4枚まで選び、相手に見せて、手札に加える。",
+		'ja-jp': "自分のトラッシュから[水]ポケモンと[水]エネルギーを合計4枚まで選び、相手に見せて、手札に加える。",
 	},
 
 	variants: [

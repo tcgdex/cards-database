@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カエンジシ",
+		'ja-jp': "カエンジシ",
 	},
 
 	illustrator: "Takeshi Nakamura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "オスの たてがみは 戦いになると 摂氏２０００度の 高温になる。 近寄るだけで 大火傷だ。",
+		'ja-jp': "オスの たてがみは 戦いになると 摂氏２０００度の 高温になる。 近寄るだけで 大火傷だ。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シシコ",
+		'ja-jp': "シシコ",
 	},
 
 	retreat: 2,

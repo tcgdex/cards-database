@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Lucario",
-		fr: "Lucario",
+		'en-us': "Lucario",
+		'fr-fr': "Lucario",
 	},
 
 	illustrator: "Naoki Saito",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Riolu",
-		fr: "Riolu",
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
 	},
 
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Bone Rush",
-				fr: "Charge-Os",
+				'en-us': "Bone Rush",
+				'fr-fr': "Charge-Os",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
-				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: "30×",
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mach Claw",
-				fr: "Instagriffe",
+				'en-us': "Mach Claw",
+				'fr-fr': "Instagriffe",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 90,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "By reading the auras of all things, it can tell how others are feeling from over half a mile away.",
+		'en-us': "By reading the auras of all things, it can tell how others are feeling from over half a mile away.",
 	},
 
 	thirdParty: {

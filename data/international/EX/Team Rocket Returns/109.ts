@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Treecko ☆",
-		de: "Geckarbor ☆"
+		'en-us': "Treecko ☆",
+		'de-de': "Geckarbor ☆"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -30,8 +30,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -43,12 +43,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Spring Back",
-				de: "Spring Back"
+				'en-us': "Spring Back",
+				'de-de': "Spring Back"
 			},
 			effect: {
-				en: "If your opponent has only 1 Prize card left, this attack does 20 damage plus 50 more damage and the Defending Pokémon is now Poisoned.",
-				de: "If your opponent has only 1 Prize card left, this attack does 20 damage plus 50 more damage and the Defending Pokémon is now Poisoned."
+				'en-us': "If your opponent has only 1 Prize card left, this attack does 20 damage plus 50 more damage and the Defending Pokémon is now Poisoned.",
+				'de-de': "If your opponent has only 1 Prize card left, this attack does 20 damage plus 50 more damage and the Defending Pokémon is now Poisoned."
 			},
 			damage: "50+",
 

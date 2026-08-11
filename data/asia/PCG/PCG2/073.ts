@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クローダント",
+		'ja-jp': "クローダント",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "暗い保護",
+				'ja-jp': "暗い保護",
 			},
 			effect: {
-				ja: "相手の攻撃によってクローダントに与えられた損害は、クローダントに付着した各暗闇に対して（衰弱と抵抗を適用した後）10削減されます。この方法で20以上のダメージを減らすことはできません。",
+				'ja-jp': "相手の攻撃によってクローダントに与えられた損害は、クローダントに付着した各暗闇に対して（衰弱と抵抗を適用した後）10削減されます。この方法で20以上のダメージを減らすことはできません。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "バブルビーム",
+				'ja-jp': "バブルビーム",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Darkness", "Colorless", "Colorless"],
 			name: {
-				ja: "クロスカット",
+				'ja-jp': "クロスカット",
 			},
 			effect: {
-				ja: "防御するポケモンが進化したポケモンである場合、この攻撃は40ダメージに加えて20ダメージを与えます。",
+				'ja-jp': "防御するポケモンが進化したポケモンである場合、この攻撃は40ダメージに加えて20ダメージを与えます。",
 			},
 		},
 	],

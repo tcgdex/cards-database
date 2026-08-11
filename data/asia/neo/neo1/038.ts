@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Mareep",
+		'ja-jp': "Mareep",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Lightning"],
 			name: {
-				ja: "静電気",
+				'ja-jp': "静電気",
 			},
 			effect: {
-				ja: "プレイ中の各Mareepについては、デッキを検索してLightning Energyカードを検索し、Mareepに取り付けることができます。その後、デッキをシャッフルします。",
+				'ja-jp': "プレイ中の各Mareepについては、デッキを検索してLightning Energyカードを検索し、Mareepに取り付けることができます。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Lightning", "Lightning"],
 			name: {
-				ja: "サンダーショック",
+				'ja-jp': "サンダーショック",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 20,
 		},

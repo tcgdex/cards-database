@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Latios ex",
-		fr: "Latios ex",
-		de: "Latios ex"
+		'en-us': "Latios ex",
+		'fr-fr': "Latios ex",
+		'de-de': "Latios ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Stream",
-				fr: "Courant d'énergie",
-				de: "Energy Stream"
+				'en-us': "Energy Stream",
+				'fr-fr': "Courant d'énergie",
+				'de-de': "Energy Stream"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your discard pile for a basic Energy card and attach it to Latios ex.",
-				fr: "Lancez une pièce. Si c'est face, cherchez dans votre deck une carte Énergie de base et attachez-la à Latios ex.",
-				de: "Flip a coin. If heads, search your discard pile for a basic Energy card and attach it to Latios ex."
+				'en-us': "Flip a coin. If heads, search your discard pile for a basic Energy card and attach it to Latios ex.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cherchez dans votre deck une carte Énergie de base et attachez-la à Latios ex.",
+				'de-de': "Flip a coin. If heads, search your discard pile for a basic Energy card and attach it to Latios ex."
 			},
 			damage: 10,
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Luster Purge",
-				fr: "Purge",
-				de: "Luster Purge"
+				'en-us': "Luster Purge",
+				'fr-fr': "Purge",
+				'de-de': "Luster Purge"
 			},
 			effect: {
-				en: "Discard 3 Energy attached to Latios ex.",
-				fr: "Défaussez trois Énergies attachées à Latios ex.",
-				de: "Discard 3 Energy attach to Latios EX"
+				'en-us': "Discard 3 Energy attached to Latios ex.",
+				'fr-fr': "Défaussez trois Énergies attachées à Latios ex.",
+				'de-de': "Discard 3 Energy attach to Latios EX"
 			},
 			damage: 100,
 

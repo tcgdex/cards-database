@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メルタン",
+		'ja-jp': "メルタン",
 		'zh-tw': "鐵頭殼ex",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "群れになって 生活するが 時が くると １匹の 強い メルタンが 仲間たちを 取りこみ 進化する。",
+		'ja-jp': "群れになって 生活するが 時が くると １匹の 強い メルタンが 仲間たちを 取りこみ 進化する。",
 	},
 
 	stage: "Basic",

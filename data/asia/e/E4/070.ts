@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "埋もれた化石",
+		'ja-jp': "埋もれた化石",
 	},
 
 	rarity: "Common",
@@ -17,10 +17,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "再建",
+				'ja-jp': "再建",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前に）手に基本的なエネルギーカードを持っている場合は、デッキを検索してOmanyteまたはKabutoカードを検索し、対戦相手に見せて、手に入れてください。次に、基本的なエネルギーカードを手からデッキに入れます。その後、デッキをシャッフルします。",
+				'ja-jp': "ターン中（攻撃の前に）手に基本的なエネルギーカードを持っている場合は、デッキを検索してOmanyteまたはKabutoカードを検索し、対戦相手に見せて、手に入れてください。次に、基本的なエネルギーカードを手からデッキに入れます。その後、デッキをシャッフルします。",
 			},
 		}],
 

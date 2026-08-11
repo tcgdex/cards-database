@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "パピモッチ"
+		'ja-jp': "パピモッチ"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "しっとり すべすべの 触り心地。 吐息に 含まれている 酵母で まわりのものを 発酵させる。"
+		'ja-jp': "しっとり すべすべの 触り心地。 吐息に 含まれている 酵母で まわりのものを 発酵させる。"
 	},
 
 	stage: "Basic",
@@ -24,17 +24,17 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "もちもち"
+			'ja-jp': "もちもち"
 		},
 
 		effect: {
-			ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。"
+			'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。"
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			ja: "はねまわる"
+			'ja-jp': "はねまわる"
 		},
 
 		damage: 30

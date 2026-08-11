@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミブリム",
+		'ja-jp': "ミブリム",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "頭の 突起で 生物の 気持ちを 感じとる。 穏やかな ものにしか 心を 開かない。",
+		'ja-jp': "頭の 突起で 生物の 気持ちを 感じとる。 穏やかな ものにしか 心を 開かない。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ともだちをさがす" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
 			},
 		},
 		{

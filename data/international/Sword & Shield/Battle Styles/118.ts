@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Battle Styles'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bouffalant",
-		fr: "Frison",
-		es: "Bouffalant",
-		it: "Bouffalant",
-		pt: "Bouffalant",
-		de: "Bisofank"
+		'en-us': "Bouffalant",
+		'fr-fr': "Frison",
+		'es-es': "Bouffalant",
+		'it-it': "Bouffalant",
+		'pt-br': "Bouffalant",
+		'de-de': "Bisofank"
 	},
 
 	illustrator: "nagimiso",
@@ -24,41 +24,41 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Sap Sipper",
-			fr: "Herbivore",
-			es: "Herbívoro",
-			it: "Mangiaerba",
-			pt: "Engolidor de Seiva",
-			de: "Vegetarier"
+			'en-us': "Sap Sipper",
+			'fr-fr': "Herbivore",
+			'es-es': "Herbívoro",
+			'it-it': "Mangiaerba",
+			'pt-br': "Engolidor de Seiva",
+			'de-de': "Vegetarier"
 		},
 
 		effect: {
-			en: "This Pokémon's attacks do 60 more damage to your opponent's Grass Pokémon (before applying Weakness and Resistance).",
-			fr: "Les attaques de ce Pokémon infligent 60 dégâts supplémentaires aux Pokémon Grass de votre adversaire (avant application de la Faiblesse et de la Résistance).",
-			es: "Los ataques de este Pokémon hacen 60 puntos de daño más a los Pokémon Grass de tu rival (antes de aplicar Debilidad y Resistencia).",
-			it: "Gli attacchi di questo Pokémon infliggono 60 danni in più ai Pokémon Grass del tuo avversario, prima di aver applicato debolezza e resistenza.",
-			pt: "Os ataques deste Pokémon causam 60 pontos de dano a mais aos Pokémon Grass do seu oponente (antes de aplicar Fraqueza e Resistência).",
-			de: "Die Attacken dieses Pokémon fügen den Grass-Pokémon deines Gegners 60 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+			'en-us': "This Pokémon's attacks do 60 more damage to your opponent's Grass Pokémon (before applying Weakness and Resistance).",
+			'fr-fr': "Les attaques de ce Pokémon infligent 60 dégâts supplémentaires aux Pokémon Grass de votre adversaire (avant application de la Faiblesse et de la Résistance).",
+			'es-es': "Los ataques de este Pokémon hacen 60 puntos de daño más a los Pokémon Grass de tu rival (antes de aplicar Debilidad y Resistencia).",
+			'it-it': "Gli attacchi di questo Pokémon infliggono 60 danni in più ai Pokémon Grass del tuo avversario, prima di aver applicato debolezza e resistenza.",
+			'pt-br': "Os ataques deste Pokémon causam 60 pontos de dano a mais aos Pokémon Grass do seu oponente (antes de aplicar Fraqueza e Resistência).",
+			'de-de': "Die Attacken dieses Pokémon fügen den Grass-Pokémon deines Gegners 60 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Head Charge",
-			fr: "Peignée",
-			es: "Ariete",
-			it: "Ricciolata",
-			pt: "Ataque de Cabeça",
-			de: "Steinschädel"
+			'en-us': "Head Charge",
+			'fr-fr': "Peignée",
+			'es-es': "Ariete",
+			'it-it': "Ricciolata",
+			'pt-br': "Ataque de Cabeça",
+			'de-de': "Steinschädel"
 		},
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
-			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
-			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
 		},
 
 		damage: 120,
@@ -77,7 +77,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Their fluffy fur absorbs damage, even if they strike foes with a fierce headbutt."
+		'en-us': "Their fluffy fur absorbs damage, even if they strike foes with a fierce headbutt."
 	},
 
 	variants: [

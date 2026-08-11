@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "สไตรค์",
-		id: "Scyther"
+		'th-th': "สไตรค์",
+		'id-id': "Scyther"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -15,29 +15,29 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		th: "ใช้เคียวคมกริบถางหญ้าที่ขวางทาง เคลื่อนไหวได้เร็วจนมองตามไม่ทัน",
-		id: "Scyther melaju sambil memotong rerumputan menggunakan sabit tajamnya. Pergerakannya tidak bisa diikuti karena terlalu cepat."
+		'th-th': "ใช้เคียวคมกริบถางหญ้าที่ขวางทาง เคลื่อนไหวได้เร็วจนมองตามไม่ทัน",
+		'id-id': "Scyther melaju sambil memotong rerumputan menggunakan sabit tajamnya. Pergerakannya tidak bisa diikuti karena terlalu cepat."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "แอสซิสต์สแลช",
-			id: "Assist Slash"
+			'th-th': "แอสซิสต์สแลช",
+			'id-id': "Assist Slash"
 		},
 
 		effect: {
-			th: "เลือกการ์ด [พลังงานพื้นฐาน[หญ้า]] 1 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา ติดที่โปเกมอนบนเบนช์",
-			id: "Pilih 1 lembar Energi Dasar {Daun} dari Trash sendiri, lalu kenakan pada Pokémon Cadangan."
+			'th-th': "เลือกการ์ด [พลังงานพื้นฐาน[หญ้า]] 1 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา ติดที่โปเกมอนบนเบนช์",
+			'id-id': "Pilih 1 lembar Energi Dasar {Daun} dari Trash sendiri, lalu kenakan pada Pokémon Cadangan."
 		},
 
 		damage: 20,
 		cost: ["Grass"]
 	}, {
 		name: {
-			th: "สไลซ์เบลด",
-			id: "Slicing Blade"
+			'th-th': "สไลซ์เบลด",
+			'id-id': "Slicing Blade"
 		},
 
 		damage: 70,

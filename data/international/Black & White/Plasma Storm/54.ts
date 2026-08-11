@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Golbat",
-		fr: "Nosferalto",
-		es: "Golbat",
-		it: "Golbat",
-		pt: "Golbat",
-		de: "Golbat"
+		'en-us': "Golbat",
+		'fr-fr': "Nosferalto",
+		'es-es': "Golbat",
+		'it-it': "Golbat",
+		'pt-br': "Golbat",
+		'de-de': "Golbat"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Zubat",
-		fr: "Nosferapti",
+		'en-us': "Zubat",
+		'fr-fr': "Nosferapti",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spiral Drain",
-				fr: "Spirale Épuisante",
+				'en-us': "Spiral Drain",
+				'fr-fr': "Spirale Épuisante",
 			},
 			effect: {
-				en: "Heal 20 damage from this Pokémon.",
-				fr: "Soignez 20 dégâts à ce Pokémon.",
+				'en-us': "Heal 20 damage from this Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à ce Pokémon.",
 			},
 			damage: 20,
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Flitting around in the dead of night, it sinks its fangs into its prey and drains a nearly fatal amount of blood.",
+		'en-us': "Flitting around in the dead of night, it sinks its fangs into its prey and drains a nearly fatal amount of blood.",
 	},
 
 	thirdParty: {

@@ -1,17 +1,17 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Diamond & Pearl'
 
 const dp2: Set = {
 	id: "dp2",
 
 	name: {
-		en: "Mysterious Treasures",
-		fr: "Trésors Mystérieux",
-		es: "Tesoros Misteriosos",
-		it: "Tesori Misteriosi",
-		de: "Geheimnisvolle Schätze",
-		pt: "Tesouros Misteriosos",
-		pl: 'Tajemne Skarby'
+		'en-us': "Mysterious Treasures",
+		'fr-fr': "Trésors Mystérieux",
+		'es-es': "Tesoros Misteriosos",
+		'it-it': "Tesori Misteriosi",
+		'de-de': "Geheimnisvolle Schätze",
+		'pt-br': "Tesouros Misteriosos",
+		'pl-pl': 'Tajemne Skarby'
 	},
 
 	serie: serie,
@@ -25,7 +25,7 @@ const dp2: Set = {
 
 	abbreviations: {
 		official: "MT",
-		fr: "TMY"
+		'fr-fr': "TMY"
 	},
 
 	thirdParty: {

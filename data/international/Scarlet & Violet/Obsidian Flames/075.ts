@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Têtampoule",
-		en: "Tadbulb",
-		es: "Tadbulb",
-		it: "Tadbulb",
-		pt: "Tadbulb",
-		de: "Blipp"
+		'fr-fr': "Têtampoule",
+		'en-us': "Tadbulb",
+		'es-es': "Tadbulb",
+		'it-it': "Tadbulb",
+		'pt-br': "Tadbulb",
+		'de-de': "Blipp"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			fr: "Secousse Tonnerre",
-			en: "Thunder Jolt",
-			es: "Sacudida Atronadora",
-			it: "Scoppiotuono",
-			pt: "Choque do Trovão",
-			de: "Donnerrüttler"
+			'fr-fr': "Secousse Tonnerre",
+			'en-us': "Thunder Jolt",
+			'es-es': "Sacudida Atronadora",
+			'it-it': "Scoppiotuono",
+			'pt-br': "Choque do Trovão",
+			'de-de': "Donnerrüttler"
 		},
 
 		effect: {
-			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
-			en: "This Pokémon also does 10 damage to itself.",
-			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
+			'fr-fr': "Ce Pokémon s'inflige aussi 10 dégâts.",
+			'en-us': "This Pokémon also does 10 damage to itself.",
+			'es-es': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 10 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
 		},
 
 		damage: 40
@@ -54,7 +54,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.",
+		'en-us': "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.",
 	},
 
 	variants: [

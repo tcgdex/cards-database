@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Nintendo Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Marshtomp",
-		fr: "Flobio"
+		'en-us': "Marshtomp",
+		'fr-fr': "Flobio"
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Water",
 	],
 	evolveFrom: {
-		en: "Mudkip",
-		fr: "Gobou"
+		'en-us': "Mudkip",
+		'fr-fr': "Gobou"
 	},
 	stage: "Stage1",
 
@@ -31,12 +31,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Bubble",
-				fr: "Écume"
+				'en-us': "Bubble",
+				'fr-fr': "Écume"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, Le Pokémon Défenseur est maintenant Paralysé."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, Le Pokémon Défenseur est maintenant Paralysé."
 			},
 			damage: 10,
 
@@ -48,8 +48,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche"
+				'en-us': "Slash",
+				'fr-fr': "Tranche"
 			},
 
 			damage: 40,

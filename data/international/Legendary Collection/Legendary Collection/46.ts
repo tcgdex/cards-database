@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Haunter"
+		'en-us': "Haunter"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gastly"
+		'en-us': "Gastly"
 	},
 
 	stage: "Stage1",
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Transparency"
+				'en-us': "Transparency"
 			},
 			effect: {
-				en: "Whenever an attack does anything to Haunter, flip a coin. If heads, prevent all effects of that attack, including damage, done to Haunter. This power stops working while Haunter is affected by a Special Condition."
+				'en-us': "Whenever an attack does anything to Haunter, flip a coin. If heads, prevent all effects of that attack, including damage, done to Haunter. This power stops working while Haunter is affected by a Special Condition."
 			}
 		},
 	],
@@ -44,10 +44,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nightmare"
+				'en-us': "Nightmare"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -62,7 +62,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Because of its ability to slip through block walls, it is said to be from another dimension."
+		'en-us': "Because of its ability to slip through block walls, it is said to be from another dimension."
 	},
 
 	variants: [

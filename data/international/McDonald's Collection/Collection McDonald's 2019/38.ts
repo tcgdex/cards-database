@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
@@ -9,7 +9,7 @@ const card: Card = {
 	category: "Pokemon",
 
 	name: {
-		fr: "Leveinard",
+		'fr-fr': "Leveinard",
 	},
 
 	hp: 100,
@@ -29,21 +29,21 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				fr: "Pirouette Apaisante",
+				'fr-fr': "Pirouette Apaisante",
 			},
 			damage: "",
 			effect: {
-				fr: "Soignez 20 dégâts à chacun de vos Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à chacun de vos Pokémon.",
 			}
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				fr: "Gifle Cordiale",
+				'fr-fr': "Gifle Cordiale",
 			},
 			damage: 100,
 			effect: {
-				fr: "Si le Pokémon Actif de votre adversaire a déjà des marqueurs de dégâts avant que cette attaque n'inflige des dégâts, cette attaque ne fait rien.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire a déjà des marqueurs de dégâts avant que cette attaque n'inflige des dégâts, cette attaque ne fait rien.",
 			}
 		},
 	],

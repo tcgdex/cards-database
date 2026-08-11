@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lechonk",
-		fr: "Gourmelet",
-		es: "Lechonk",
-		it: "Lechonk",
-		pt: "Lechonk",
-		de: "Ferkuli"
+		'en-us': "Lechonk",
+		'fr-fr': "Gourmelet",
+		'es-es': "Lechonk",
+		'it-it': "Lechonk",
+		'pt-br': "Lechonk",
+		'de-de': "Ferkuli"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Whimsy Tackle",
-			fr: "Charge Bizarre",
-			es: "Placaje Caprichoso",
-			it: "Capriccioazione",
-			pt: "Investida Fantástica",
-			de: "Launischer Tackle"
+			'en-us': "Whimsy Tackle",
+			'fr-fr': "Charge Bizarre",
+			'es-es': "Placaje Caprichoso",
+			'it-it': "Capriccioazione",
+			'pt-br': "Investida Fantástica",
+			'de-de': "Launischer Tackle"
 		},
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-			pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
-			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+			'pt-br': "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
+			'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 		},
 
 		damage: 70
@@ -65,7 +65,7 @@ const card: Card = {
 	illustrator: "Mina Nakai",
 
 	description: {
-		en: "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
+		'en-us': "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
 	},
 
 	thirdParty: {

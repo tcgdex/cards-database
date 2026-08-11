@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Gabite",
-		fr: "Carmache",
-		de: "Knarksel"
+		'en-us': "Gabite",
+		'fr-fr': "Carmache",
+		'de-de': "Knarksel"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gible",
-		fr: "Griknot"
+		'en-us': "Gible",
+		'fr-fr': "Griknot"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gather Up",
-				fr: "Rassemblement",
-				de: "Auflesen"
+				'en-us': "Gather Up",
+				'fr-fr': "Rassemblement",
+				'de-de': "Auflesen"
 			},
 			effect: {
-				en: "Search your discard pile for up to 2 Energy cards, show them to your opponent, and put them into your hand.",
-				fr: "Choisissez jusqu'à 2 cartes Énergie dans votre pile de défausse, montrez-les à votre adversaire et placez-les dans votre main.",
-				de: "Durchsuche deinen Ablagestapel nach bis zu 2 Energiekarten, zeige sie deinem Gegner und nimm sie auf die Hand."
+				'en-us': "Search your discard pile for up to 2 Energy cards, show them to your opponent, and put them into your hand.",
+				'fr-fr': "Choisissez jusqu'à 2 cartes Énergie dans votre pile de défausse, montrez-les à votre adversaire et placez-les dans votre main.",
+				'de-de': "Durchsuche deinen Ablagestapel nach bis zu 2 Energiekarten, zeige sie deinem Gegner und nimm sie auf die Hand."
 			},
 
 		},
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Marvelous Shine",
-				fr: "Brillance merveilleuse",
-				de: "Wunderbarer Glanz"
+				'en-us': "Marvelous Shine",
+				'fr-fr': "Brillance merveilleuse",
+				'de-de': "Wunderbarer Glanz"
 			},
 			effect: {
-				en: "Flip a coin. If heads, put 4 damage counters on 1 of your opponent's Pokémon. If tails, remove 4 damage counters from 1 of your Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, placez 4 marqueurs de dégât sur 1 des Pokémon de votre adversaire. Si c'est pile, retirez 4 marqueurs de dégât à 1 de vos Pokémon.",
-				de: "Wirf 1 Münze. Bei 'Kopf' lege 4 Schadensmarken auf 1 Pokémon deines Gegners. Bei 'Zahl' entferne 4 Schadensmarken von 1 deiner Pokémon."
+				'en-us': "Flip a coin. If heads, put 4 damage counters on 1 of your opponent's Pokémon. If tails, remove 4 damage counters from 1 of your Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, placez 4 marqueurs de dégât sur 1 des Pokémon de votre adversaire. Si c'est pile, retirez 4 marqueurs de dégât à 1 de vos Pokémon.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' lege 4 Schadensmarken auf 1 Pokémon deines Gegners. Bei 'Zahl' entferne 4 Schadensmarken von 1 deiner Pokémon."
 			},
 
 		},
@@ -76,8 +76,8 @@ const card: Card = {
 
 
 	description: {
-		en: "There is a long-held belief that medicine made from its scale will heal even incurable illnesses.",
-		fr: "Selon une croyance ancienne, on peut utiliser ses écailles pour guérir les maladies incurables."
+		'en-us': "There is a long-held belief that medicine made from its scale will heal even incurable illnesses.",
+		'fr-fr': "Selon une croyance ancienne, on peut utiliser ses écailles pour guérir les maladies incurables."
 	},
 
 	thirdParty: {

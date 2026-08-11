@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [938],
 
 	name: {
-		en: "Tadbulb"
+		'en-us': "Tadbulb"
 	},
 
 	illustrator: "okayamatakatoshi",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "It floats using the electricity stored in its body.\nWhen thunderclouds are around, Tadbulb will\nfloat higher off the ground."
+		'en-us': "It floats using the electricity stored in its body.\nWhen thunderclouds are around, Tadbulb will\nfloat higher off the ground."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Charge"
+			'en-us': "Charge"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Take a {L} Energy from your Energy Zone and attach it to this Pokémon."
+			'en-us': "Take a {L} Energy from your Energy Zone and attach it to this Pokémon."
 		}
 	}],
 

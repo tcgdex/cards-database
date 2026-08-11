@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
@@ -7,12 +7,12 @@ const card: Card = {
 	illustrator: "Yuu Nishida",
 
 	name: {
-		fr: "Morpeko V-UNION",
-		de: "Morpeko V-UNION",
-		es: "Morpeko V-UNIÓN",
-		pt: "Morpeko V-UNIÃO",
-		it: "Morpeko V UNIONE",
-		en: "Morpeko V-UNION"
+		'fr-fr': "Morpeko V-UNION",
+		'de-de': "Morpeko V-UNION",
+		'es-es': "Morpeko V-UNIÓN",
+		'pt-br': "Morpeko V-UNIÃO",
+		'it-it': "Morpeko V UNIONE",
+		'en-us': "Morpeko V-UNION"
 	},
 
 	rarity: "Promo",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Lightning", "Colorless", "Colorless"],
 
 		name: {
-			en: "Burst Wheel",
-			pt: "Roda Explosiva"
+			'en-us': "Burst Wheel",
+			'pt-br': "Roda Explosiva"
 		},
 
 		effect: {
-			en: "Discard all Energy from this Pokémon. This attack does 100 damage for each card you discarded in this way.",
-			pt: "Descarte todas as Energias deste Pokémon. Este ataque causa 100 pontos de dano para cada carta descartada desta forma."
+			'en-us': "Discard all Energy from this Pokémon. This attack does 100 damage for each card you discarded in this way.",
+			'pt-br': "Descarte todas as Energias deste Pokémon. Este ataque causa 100 pontos de dano para cada carta descartada desta forma."
 		},
 
 		damage: "100×"

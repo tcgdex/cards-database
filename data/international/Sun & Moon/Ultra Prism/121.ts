@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ultra Prism'
 
 const card: Card = {
 	name: {
-		en: "Electric Memory",
-		fr: "ROM Électrik",
-		es: "Disco Eléctrico",
-		it: "ROM Elettro",
-		pt: "Memória Elétrica",
-		de: "Elektro-Disc"
+		'en-us': "Electric Memory",
+		'fr-fr': "ROM Électrik",
+		'es-es': "Disco Eléctrico",
+		'it-it': "ROM Elettro",
+		'pt-br': "Memória Elétrica",
+		'de-de': "Elektro-Disc"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,12 +17,12 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Le Silvallié-GX auquel cette carte est attachée est un Pokémon Lightning.",
-		en: "The Silvally-GX this card is attached to is a Lightning Pokémon.",
-		es: "El Silvally-GX al que esté unida esta carta es un Pokémon Lightning.",
-		it: "Il Silvally-GX a cui è assegnata questa carta è di tipo Lightning.",
-		pt: "O Pokémon Silvally-GX ao qual esta carta está ligada é um Pokémon Lightning.",
-		de: "Das Amigento-GX, an das diese Karte angelegt ist, ist ein Lightning-Pokémon."
+		'fr-fr': "Le Silvallié-GX auquel cette carte est attachée est un Pokémon Lightning.",
+		'en-us': "The Silvally-GX this card is attached to is a Lightning Pokémon.",
+		'es-es': "El Silvally-GX al que esté unida esta carta es un Pokémon Lightning.",
+		'it-it': "Il Silvally-GX a cui è assegnata questa carta è di tipo Lightning.",
+		'pt-br': "O Pokémon Silvally-GX ao qual esta carta está ligada é um Pokémon Lightning.",
+		'de-de': "Das Amigento-GX, an das diese Karte angelegt ist, ist ein Lightning-Pokémon."
 	},
 
 	trainerType: "Tool",

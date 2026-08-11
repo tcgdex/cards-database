@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "タマンチュラ",
+		'ja-jp': "タマンチュラ",
 		'zh-tw': "團珠蛛",
-		th: "ทามันทูล่า",
-		id: "Tarountula"
+		'th-th': "ทามันทูล่า",
+		'id-id': "Tarountula"
 	},
 
 	illustrator: "Mina Nakai",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "体を 包みこむ 糸玉は 天敵の ストライクの カマを はね返す 弾力性を 持つ。",
+		'ja-jp': "体を 包みこむ 糸玉は 天敵の ストライクの カマを はね返す 弾力性を 持つ。",
 		'zh-tw': "包裹著身體的線球擁有足以把天敵飛天螳螂 的鐮刀反彈回去的彈力。",
-		th: "ก้อนเส้นใยที่พันหุ้มลำตัวมีความยืดหยุ่นที่สามารถดีดเคียวของสไตรค์ซึ่งเป็นศัตรูตามธรรมชาติกลับไปได้",
-		id: "Bola benang yang melilit di tubuh Tarountula memiliki elastisitas yang dapat menangkis sabit tajam Scyther, musuh alaminya."
+		'th-th': "ก้อนเส้นใยที่พันหุ้มลำตัวมีความยืดหยุ่นที่สามารถดีดเคียวของสไตรค์ซึ่งเป็นศัตรูตามธรรมชาติกลับไปได้",
+		'id-id': "Bola benang yang melilit di tubuh Tarountula memiliki elastisitas yang dapat menangkis sabit tajam Scyther, musuh alaminya."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			ja: "ひっかける",
+			'ja-jp': "ひっかける",
 			'zh-tw': "鉤住",
-			th: "จับแขวน",
-			id: "Mengait"
+			'th-th': "จับแขวน",
+			'id-id': "Mengait"
 		},
 
 		damage: 40

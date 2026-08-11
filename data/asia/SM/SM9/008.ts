@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タマタマ",
+		'ja-jp': "タマタマ",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "６匹で １匹。 なにかあって １匹 減っても 翌朝に なると 必ず ６匹に 戻っている。",
+		'ja-jp': "６匹で １匹。 なにかあって １匹 減っても 翌朝に なると 必ず ６匹に 戻っている。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10×",
 			cost: ["Grass"],
 			effect: {
-				ja: "コインを4回投げ、オモテの数x10ダメージ。",
+				'ja-jp': "コインを4回投げ、オモテの数x10ダメージ。",
 			},
 		},
 	],

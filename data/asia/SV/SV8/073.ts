@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シルシュルー",
+		'ja-jp': "シルシュルー",
 		'zh-tw': "滋汁鼴",
 		'zh-cn': "滋汁鼴",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "縄張りに 敵が 近づかないよう 刺激臭がする 毒液で 巣の まわりに 図形を 描く。",
+		'ja-jp': "縄張りに 敵が 近づかないよう 刺激臭がする 毒液で 巣の まわりに 図形を 描く。",
 		'zh-tw': "為了不讓敵人靠近地盤， 會用有刺鼻臭味的毒液， 在巢的周圍描繪圖形。",
 		'zh-cn': "為了不讓敵人靠近地盤， 會用有刺鼻臭味的毒液， 在巢的周圍描繪圖形。",
 	},
@@ -25,7 +25,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "しるをとばす",
+				'ja-jp': "しるをとばす",
 				'zh-tw': "噴汁",
 				'zh-cn': "噴汁",
 			},

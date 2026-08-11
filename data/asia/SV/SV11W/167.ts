@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV11W";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エルフーンex",
+		'ja-jp': "エルフーンex",
 	},
 
 	illustrator: "mele",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "エナジーギフト" },
 			cost: ["Grass"],
 			effect: {
-				ja: "自分の山札から基本エネルギーを3枚まで選び、自分のポケモンに好きなようにつける。そして山札を切る。",
+				'ja-jp': "自分の山札から基本エネルギーを3枚まで選び、自分のポケモンに好きなようにつける。そして山札を切る。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "50x",
 			cost: ["Grass"],
 			effect: {
-				ja: "相手の手札を見て、その中にあるトレーナーズの枚数×50ダメージ。",
+				'ja-jp': "相手の手札を見て、その中にあるトレーナーズの枚数×50ダメージ。",
 			},
 		},
 	],
@@ -41,7 +41,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モンメン",
+		'ja-jp': "モンメン",
 	},
 
 	retreat: 0,

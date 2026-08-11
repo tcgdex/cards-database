@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Miltank",
-		fr: "Ecremeuh",
-		de: "Miltank"
+		'en-us': "Miltank",
+		'fr-fr': "Ecremeuh",
+		'de-de': "Miltank"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Thick Fat",
-				fr: "Isograisse",
-				de: "Thick Fat"
+				'en-us': "Thick Fat",
+				'fr-fr': "Isograisse",
+				'de-de': "Thick Fat"
 			},
 			effect: {
-				en: "Any damage done to Miltank by attacks from Fire Pokémon and Water Pokémon is reduced by 30 (after applying Weakness and Resistance).",
-				fr: "Les dégâts infligés à Ecremeuh par des attaques de Pokémon  et  sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
-				de: "Any damage done to Miltank by attacks from  Pokémon and  Pokémon is reduced by 30 (after applying Weakness and Resistance)."
+				'en-us': "Any damage done to Miltank by attacks from Fire Pokémon and Water Pokémon is reduced by 30 (after applying Weakness and Resistance).",
+				'fr-fr': "Les dégâts infligés à Ecremeuh par des attaques de Pokémon  et  sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Any damage done to Miltank by attacks from  Pokémon and  Pokémon is reduced by 30 (after applying Weakness and Resistance)."
 			},
 		},
 	],
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Healing Milk",
-				fr: "Lait guérisseur",
-				de: "Healing Milk"
+				'en-us': "Healing Milk",
+				'fr-fr': "Lait guérisseur",
+				'de-de': "Healing Milk"
 			},
 			effect: {
-				en: "Flip 2 coins. For each heads, remove 2 damage counters from 1 of your Pokémon.",
-				fr: "Lancez 2 pièces. Pour chaque face, retirez à 1 de vos Pokémon 2 marqueurs de dégât.",
-				de: "Flip 2 coins. For each heads, remove 2 damage counters from 1 of your Pokémon."
+				'en-us': "Flip 2 coins. For each heads, remove 2 damage counters from 1 of your Pokémon.",
+				'fr-fr': "Lancez 2 pièces. Pour chaque face, retirez à 1 de vos Pokémon 2 marqueurs de dégât.",
+				'de-de': "Flip 2 coins. For each heads, remove 2 damage counters from 1 of your Pokémon."
 			},
 
 		},
@@ -64,14 +64,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam",
-				fr: "Plaquage",
-				de: "Body Slam"
+				'en-us': "Body Slam",
+				'fr-fr': "Plaquage",
+				'de-de': "Body Slam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 

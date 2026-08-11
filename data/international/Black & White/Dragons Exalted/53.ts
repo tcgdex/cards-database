@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Trubbish",
-		fr: "Miamiasme",
-		es: "Trubbish",
-		it: "Trubbish",
-		pt: "Trubbish",
-		de: "Unratütox"
+		'en-us': "Trubbish",
+		'fr-fr': "Miamiasme",
+		'es-es': "Trubbish",
+		'it-it': "Trubbish",
+		'pt-br': "Trubbish",
+		'de-de': "Unratütox"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
-				fr: "Écras'Face",
+				'en-us': "Pound",
+				'fr-fr': "Écras'Face",
 			},
 
 			damage: 20,
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Gas",
-				fr: "Gaz Toxik",
+				'en-us': "Poison Gas",
+				'fr-fr': "Gaz Toxik",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
 			},
 			damage: 30,
 
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Inhaling the gas they belch will make you sleep for a week. They prefer unsanitary places.",
+		'en-us': "Inhaling the gas they belch will make you sleep for a week. They prefer unsanitary places.",
 	},
 
 	thirdParty: {

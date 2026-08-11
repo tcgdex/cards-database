@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Dark Raichu"
+		'en-us': "Dark Raichu"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pikachu"
+		'en-us': "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Surprise Thunder"
+				'en-us': "Surprise Thunder"
 			},
 			effect: {
-				en: "Flip a coin. If heads, flip another coin. If the second coins is heads, this attack does 20 damage to each of your opponent's Benched Pokémon. If the second coin is tails, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				'en-us': "Flip a coin. If heads, flip another coin. If the second coins is heads, this attack does 20 damage to each of your opponent's Benched Pokémon. If the second coin is tails, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 30,
 
@@ -53,7 +53,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Stores up electricity in its body, then suddenly releases it to surprise and shock everyone."
+		'en-us': "Stores up electricity in its body, then suddenly releases it to surprise and shock everyone."
 	},
 
 	variants: [{

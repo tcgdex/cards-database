@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヘイガニ",
+		'ja-jp': "ヘイガニ",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "どんなに 水が 汚れた 川でも 適応して 増えていく タフな 生命力の 持ち主。",
+		'ja-jp': "どんなに 水が 汚れた 川でも 適応して 増えていく タフな 生命力の 持ち主。",
 	},
 
 	stage: "Basic",

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Teddiursa",
+		'ja-jp': "Teddiursa",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "傷",
+				'ja-jp': "傷",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "昼寝時間",
+				'ja-jp': "昼寝時間",
 			},
 			effect: {
-				ja: "Teddiursaからすべてのダメージカウンターを削除します。 Teddiursaは今眠っています。",
+				'ja-jp': "Teddiursaからすべてのダメージカウンターを削除します。 Teddiursaは今眠っています。",
 			},
 		},
 	],

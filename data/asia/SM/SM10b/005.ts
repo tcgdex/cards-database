@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラランテス",
+		'ja-jp': "ラランテス",
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "むしポケモンの ふりを するのは 身を 守るため。 両腕の 花びらは 鋭い 切れ味。",
+		'ja-jp': "むしポケモンの ふりを するのは 身を 守るため。 両腕の 花びらは 鋭い 切れ味。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "はなふぶき" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のポケモン全員に、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のポケモン全員に、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "50+",
 			cost: ["Grass"],
 			effect: {
-				ja: "このポケモンに[炎]エネルギーがついているなら、50ダメージ追加。",
+				'ja-jp': "このポケモンに[炎]エネルギーがついているなら、50ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カリキリ",
+		'ja-jp': "カリキリ",
 	},
 
 	retreat: 1,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フクスロー",
+		'ja-jp': "フクスロー",
 		'zh-tw': "投羽梟",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "陽の光 浴び 力 溜めしこと 多し。 寒冷な気候 原因と 察するも 両翼に 仕込みし 刃羽根の切れ味 変化なし。",
+		'ja-jp': "陽の光 浴び 力 溜めしこと 多し。 寒冷な気候 原因と 察するも 両翼に 仕込みし 刃羽根の切れ味 変化なし。",
 		'zh-tw': "經常為了積蓄力量而沐浴陽光。吾人推測 這是因為當地氣候較為寒冷，然而藏於 雙翅中的刃羽鋒利程度並無不同。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "はばたく",
+				'ja-jp': "はばたく",
 				'zh-tw': "羽擊",
 			},
 			damage: 30,
@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "するどいはね",
+				'ja-jp': "するどいはね",
 				'zh-tw': "銳利羽",
 			},
 			damage: 60,
@@ -53,7 +53,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "モクロー",
+		'ja-jp': "モクロー",
 	},
 
 	retreat: 1,

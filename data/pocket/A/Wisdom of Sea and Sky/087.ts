@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Girafarig",
-		fr: "Girafarig"
+		'en-us': "Girafarig",
+		'fr-fr': "Girafarig"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -18,24 +18,24 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Girafarig's tail has a small head. It instinctively\nbites at any foe that approaches the Pokémon\nfrom behind.",
-		fr: "Girafarig a une autre petite tête sur sa queue qui mord instinctivement les ennemis qui s'approchent par l'arrière."
+		'en-us': "Girafarig's tail has a small head. It instinctively\nbites at any foe that approaches the Pokémon\nfrom behind.",
+		'fr-fr': "Girafarig a une autre petite tête sur sa queue qui mord instinctivement les ennemis qui s'approchent par l'arrière."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Psybeam",
-			fr: "Rafale Psy"
+			'en-us': "Psybeam",
+			'fr-fr': "Rafale Psy"
 		},
 
 		damage: 50,
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
+			'en-us': "Your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus."
 		}
 	}],
 

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo-GX",
-		fr: "Mewtwo-GX",
+		'en-us': "Mewtwo-GX",
+		'fr-fr': "Mewtwo-GX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Shiny rare",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Full Burst",
-				fr: "Pleine Puissance",
+				'en-us': "Full Burst",
+				'fr-fr': "Pleine Puissance",
 			},
 			effect: {
-				en: "This attack does 30 damage times the amount of Energy attached to this Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts multipliés par le nombre d’Énergies attachées à ce Pokémon.",
+				'en-us': "This attack does 30 damage times the amount of Energy attached to this Pokémon.",
+				'fr-fr': "Cette attaque inflige 30 dégâts multipliés par le nombre d’Énergies attachées à ce Pokémon.",
 			},
 			damage: 30,
 
@@ -44,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Absorption",
-				fr: "Super Absorption",
+				'en-us': "Super Absorption",
+				'fr-fr': "Super Absorption",
 			},
 			effect: {
-				en: "Heal 30 damage from this Pokémon.",
-				fr: "Soignez 30 dégâts à ce Pokémon.",
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon.",
 			},
 			damage: 60,
 
@@ -61,12 +61,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psystrike-GX",
-				fr: "Frappe Psy-GX",
+				'en-us': "Psystrike-GX",
+				'fr-fr': "Frappe Psy-GX",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon. (You can't use more than 1 GX attack in a game.)",
-				fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'en-us': "This attack's damage isn't affected by any effects on your opponent's Active Pokémon. (You can't use more than 1 GX attack in a game.)",
+				'fr-fr': "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 			damage: 200,
 

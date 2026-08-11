@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オシャマリ",
+		'ja-jp': "オシャマリ",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ダンスが 得意で 踊りながら 次々に 水の バルーンを 作りだし 敵に ぶつけるぞ。",
+		'ja-jp': "ダンスが 得意で 踊りながら 次々に 水の バルーンを 作りだし 敵に ぶつけるぞ。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 50,
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アシマリ",
+		'ja-jp': "アシマリ",
 	},
 
 	retreat: 2,

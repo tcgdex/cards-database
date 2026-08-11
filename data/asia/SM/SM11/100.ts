@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プテラGX",
+		'ja-jp': "プテラGX",
 	},
 
 	illustrator: "ConceptLab",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "げんしのかぜ" },
 			effect: {
-				ja: "このポケモンがバトル場にいるかぎり、相手のたねポケモンが使うワザに必要なエネルギーは、【無】エネルギー1個ぶん多くなる。",
+				'ja-jp': "このポケモンがバトル場にいるかぎり、相手のたねポケモンが使うワザに必要なエネルギーは、【無】エネルギー1個ぶん多くなる。",
 			},
 		},
 	],
@@ -35,7 +35,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Fighting"],
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーの数×50ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のバトルポケモンについているエネルギーの数×50ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

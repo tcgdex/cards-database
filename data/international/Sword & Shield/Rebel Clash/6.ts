@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [214],
 
 	name: {
-		en: "Heracross",
-		fr: "Scarhino",
-		es: "Heracross",
-		it: "Heracross",
-		pt: "Heracross",
-		de: "Skaraborn"
+		'en-us': "Heracross",
+		'fr-fr': "Scarhino",
+		'es-es': "Heracross",
+		'it-it': "Heracross",
+		'pt-br': "Heracross",
+		'de-de': "Skaraborn"
 	},
 
 	illustrator: "otumami",
@@ -25,20 +25,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Push Down",
-				fr: "Recul",
-				es: "Oprimir",
-				it: "Spintonare",
-				pt: "Rebaixar",
-				de: "Runterdrücken"
+				'en-us': "Push Down",
+				'fr-fr': "Recul",
+				'es-es': "Oprimir",
+				'it-it': "Spintonare",
+				'pt-br': "Rebaixar",
+				'de-de': "Runterdrücken"
 			},
 			effect: {
-				en: "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
-				fr: "Votre adversaire échange son Pokémon Actif contre l'un de ses Pokémon de Banc.",
-				es: "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
-				it: "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
-				pt: "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
-				de: "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches their Active Pokémon with 1 of their Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange son Pokémon Actif contre l'un de ses Pokémon de Banc.",
+				'es-es': "Tu rival cambia su Pokémon Activo por 1 de sus Pokémon en Banca.",
+				'it-it': "Il tuo avversario scambia il suo Pokémon attivo con uno della sua panchina.",
+				'pt-br': "Seu oponente troca o próprio Pokémon Ativo por 1 dos Pokémon no Banco dele(a).",
+				'de-de': "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 30,
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Superpowered Horns",
-				fr: "Cornes Surpuissantes",
-				es: "Cuernos Superpoderosos",
-				it: "Corna Superpotenziate",
-				pt: "Chifres Superpoderosos",
-				de: "Superstarke Hörner"
+				'en-us': "Superpowered Horns",
+				'fr-fr': "Cornes Surpuissantes",
+				'es-es': "Cuernos Superpoderosos",
+				'it-it': "Corna Superpotenziate",
+				'pt-br': "Chifres Superpoderosos",
+				'de-de': "Superstarke Hörner"
 			},
 
 			damage: 110,
@@ -79,7 +79,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It roams through forests searching for sweet nectar. Although it boasts fantastic physical strength, it's not that good at flying."
+		'en-us': "It roams through forests searching for sweet nectar. Although it boasts fantastic physical strength, it's not that good at flying."
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Gourgeist"
+		'id-id': "Gourgeist"
 	},
 
 	illustrator: "nisimono",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Gourgeist mengetuk pintu rumah pada malam bulan baru. Orang yang membukakan pintu akan dibawa ke alam baka."
+		'id-id': "Gourgeist mengetuk pintu rumah pada malam bulan baru. Orang yang membukakan pintu akan dibawa ke alam baka."
 	},
 
 	stage: "Stage1",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Labu Lelucon Mengejutkan"
+			'id-id': "Labu Lelucon Mengejutkan"
 		},
 
 		effect: {
-			id: "Saat Pokémon ini KO karena menerima kerusakan akibat serangan dari Pokémon lawan, pilih 2 kartu dari Kartu Pegangan lawan tanpa melihat sisi depan, lalu buang ke Trash."
+			'id-id': "Saat Pokémon ini KO karena menerima kerusakan akibat serangan dari Pokémon lawan, pilih 2 kartu dari Kartu Pegangan lawan tanpa melihat sisi depan, lalu buang ke Trash."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Pengikat Bayangan"
+			'id-id': "Pengikat Bayangan"
 		},
 
 		effect: {
-			id: "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
+			'id-id': "Pada giliran lawan berikutnya, Pokémon yang menerima serangan ini tidak dapat Mundur."
 		},
 
 		damage: 100,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アオキのムクホーク",
+		'ja-jp': "アオキのムクホーク",
 	},
 
 	illustrator: "kantaro",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "自分の 体が 傷つこうとも 攻撃を やめなくなった。 トサカの 形を 気にしている。",
+		'ja-jp': "自分の 体が 傷つこうとも 攻撃を やめなくなった。 トサカの 形を 気にしている。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンがどくまたはやけどなら、100ダメージ追加。",
+				'ja-jp': "このポケモンがどくまたはやけどなら、100ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを2個トラッシュし、相手のベンチポケモン1匹にも、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "このポケモンについているエネルギーを2個トラッシュし、相手のベンチポケモン1匹にも、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アオキのムクバード",
+		'ja-jp': "アオキのムクバード",
 	},
 
 	retreat: 1,

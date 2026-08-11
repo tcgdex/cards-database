@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マーシャドー",
+		'ja-jp': "マーシャドー",
 	},
 
 	illustrator: "Tomomi Ozaki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "あらゆる 影の 中に 潜りこむ 能力を もっているため 長い あいだ 誰にも 見つからなかった。",
+		'ja-jp': "あらゆる 影の 中に 潜りこむ 能力を もっているため 長い あいだ 誰にも 見つからなかった。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Fighting", "Fighting"],
 			effect: {
-				ja: "このワザのダメージで、相手のポケモンがきぜつしたなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				'ja-jp': "このワザのダメージで、相手のポケモンがきぜつしたなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
 			},
 		},
 	],

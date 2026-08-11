@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Rockruff",
-		fr: "Rocabot",
+		'en-us': "Rockruff",
+		'fr-fr': "Rocabot",
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Shiny rare",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surprise Attack",
-				fr: "Attaque Surprise",
+				'en-us': "Surprise Attack",
+				'fr-fr': "Attaque Surprise",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
 			},
 			damage: 50,
 
@@ -53,7 +53,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon has lived with people since times long ago. It can sense when its Trainer is in the dumps and will stick close by its Trainer's side.",
+		'en-us': "This Pokémon has lived with people since times long ago. It can sense when its Trainer is in the dumps and will stick close by its Trainer's side.",
 	},
 }
 

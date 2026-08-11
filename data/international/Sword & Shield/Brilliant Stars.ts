@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sword & Shield'
 
 const swsh9: Set = {
 	id: "swsh9",
 
 	name: {
-		en: "Brilliant Stars",
-		fr: "Stars Étincelantes",
-		es: "Astros Brillantes",
-		it: "Astri Lucenti",
-		de: "Strahlende Sterne",
-		pt: "Astros Cintilantes"
+		'en-us': "Brilliant Stars",
+		'fr-fr': "Stars Étincelantes",
+		'es-es': "Astros Brillantes",
+		'it-it': "Astri Lucenti",
+		'de-de': "Strahlende Sterne",
+		'pt-br': "Astros Cintilantes"
 	},
 
 	tcgOnline: 'BRS',
@@ -24,7 +24,7 @@ const swsh9: Set = {
 
 	abbreviations: {
 		official: "BRS",
-		fr: "STA"
+		'fr-fr': "STA"
 	},
 
 	thirdParty: {

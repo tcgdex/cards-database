@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニャスパー",
+		'ja-jp': "ニャスパー",
 	},
 
 	illustrator: "sowsow",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "強力な サイコパワーが 漏れ出さないように 放出する 器官を 耳で ふさいでいるのだ。",
+		'ja-jp': "強力な サイコパワーが 漏れ出さないように 放出する 器官を 耳で ふさいでいるのだ。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Psychic"],
 			effect: {
-				ja: "この番に、手札から「マチエール」を出して使っていたなら、60ダメージ追加。",
+				'ja-jp': "この番に、手札から「マチエール」を出して使っていたなら、60ダメージ追加。",
 			},
 		},
 	],

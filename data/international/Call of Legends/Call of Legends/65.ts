@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Call of Legends'
 
 const card: Card = {
 	name: {
-		en: "Misdreavus",
-		fr: "Feuforêve",
-		de: "Traunfugil"
+		'en-us': "Misdreavus",
+		'fr-fr': "Feuforêve",
+		'de-de': "Traunfugil"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mumble",
-				fr: "Marmonner",
-				de: "Grummeln"
+				'en-us': "Mumble",
+				'fr-fr': "Marmonner",
+				'de-de': "Grummeln"
 			},
 
 			damage: 10,
@@ -42,14 +42,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Dual Draw",
-				fr: "Pioche mutuelle",
-				de: "Doppelzug"
+				'en-us': "Dual Draw",
+				'fr-fr': "Pioche mutuelle",
+				'de-de': "Doppelzug"
 			},
 			effect: {
-				en: "Each player draws 3 cards.",
-				fr: "Chaque joueur pioche 3 cartes.",
-				de: "Jeder Spieler zieht 3 Karten."
+				'en-us': "Each player draws 3 cards.",
+				'fr-fr': "Chaque joueur pioche 3 cartes.",
+				'de-de': "Jeder Spieler zieht 3 Karten."
 			},
 
 		},
@@ -71,7 +71,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It loves to bite and yank people's hair from behind without warning, just to see their shocked reactions.",
+		'en-us': "It loves to bite and yank people's hair from behind without warning, just to see their shocked reactions.",
 	},
 
 	variants: [

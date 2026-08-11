@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Landorus",
+		'en-us': "Landorus",
 	},
 
 	illustrator: "Midori Harada",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Abundant Harvest",
+				'en-us': "Abundant Harvest",
 			},
 			effect: {
-				en: "Attach a basic Energy card from your discard pile to this Pokémon.",
+				'en-us': "Attach a basic Energy card from your discard pile to this Pokémon.",
 			},
 
 		},
@@ -43,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gaia Hammer",
+				'en-us': "Gaia Hammer",
 			},
 			effect: {
-				en: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'en-us': "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			},
 			damage: 80,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Lands visited by Landorus grant such bountiful crops that it has been hailed as \"The Guardian of the Fields.\"",
+		'en-us': "Lands visited by Landorus grant such bountiful crops that it has been hailed as \"The Guardian of the Fields.\"",
 	},
 
 	thirdParty: {

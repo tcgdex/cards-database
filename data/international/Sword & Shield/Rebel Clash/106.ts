@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	name: {
-		en: "Carkol",
-		fr: "Wagomine",
-		es: "Carkol",
-		it: "Carkol",
-		pt: "Carkol",
-		de: "Wagong"
+		'en-us': "Carkol",
+		'fr-fr': "Wagomine",
+		'es-es': "Carkol",
+		'it-it': "Carkol",
+		'pt-br': "Carkol",
+		'de-de': "Wagong"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -18,12 +18,12 @@ const card: Card = {
 	set: Set,
 
 	evolveFrom: {
-		en: "Rolycoly",
-		fr: "Charbi",
-		es: "Rolycoly",
-		it: "Rolycoly",
-		pt: "Rolycoly",
-		de: "Klonkett"
+		'en-us': "Rolycoly",
+		'fr-fr': "Charbi",
+		'es-es': "Rolycoly",
+		'it-it': "Rolycoly",
+		'pt-br': "Rolycoly",
+		'de-de': "Klonkett"
 	},
 
 	attacks: [
@@ -33,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
-				es: "Apisonar",
-				it: "Carica",
-				pt: "Aríete",
-				de: "Ramme"
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
 			},
 
 			damage: 30,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Crash",
-				fr: "Tacle Feu",
-				es: "Golpe Calor",
-				it: "Marchiafuoco",
-				pt: "Choque de Calor",
-				de: "Brandstempel"
+				'en-us': "Heat Crash",
+				'fr-fr': "Tacle Feu",
+				'es-es': "Golpe Calor",
+				'it-it': "Marchiafuoco",
+				'pt-br': "Choque de Calor",
+				'de-de': "Brandstempel"
 			},
 
 			damage: 60,
@@ -80,7 +80,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It forms coal inside its body. Coal dropped by this Pokémon once helped fuel the lives of people in the Galar region."
+		'en-us': "It forms coal inside its body. Coal dropped by this Pokémon once helped fuel the lives of people in the Galar region."
 	},
 
 	variants: [

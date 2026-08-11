@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [569],
 
 	name: {
-		en: "Garbodor"
+		'en-us': "Garbodor"
 	},
 
 	illustrator: "Aya Kusube",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Trubbish"
+		'en-us': "Trubbish"
 	},
 
 	description: {
-		en: "This Pokémon eats trash, which turns into poison\ninside its body. The main component of the\npoison depends on what sort of trash was eaten."
+		'en-us': "This Pokémon eats trash, which turns into poison\ninside its body. The main component of the\npoison depends on what sort of trash was eaten."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Acid Spray"
+			'en-us': "Acid Spray"
 		},
 
 		damage: 70,
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, discard a random Energy from your opponent's Active Pokémon."
+			'en-us': "Flip a coin. If heads, discard a random Energy from your opponent's Active Pokémon."
 		}
 	}],
 

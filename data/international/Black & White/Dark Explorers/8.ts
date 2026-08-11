@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Crustle",
-		fr: "Crabaraque",
-		es: "Crustle",
-		it: "Crustle",
-		pt: "Crustle",
-		de: "Castellith"
+		'en-us': "Crustle",
+		'fr-fr': "Crabaraque",
+		'es-es': "Crustle",
+		'it-it': "Crustle",
+		'pt-br': "Crustle",
+		'de-de': "Castellith"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dwebble",
-		fr: "Crabicoque"
+		'en-us': "Dwebble",
+		'fr-fr': "Crabicoque"
 	},
 
 	stage: "Stage1",
@@ -40,8 +40,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cut",
-				fr: "Coupe"
+				'en-us': "Cut",
+				'fr-fr': "Coupe"
 			},
 
 			damage: 30,
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heavy Bullet",
-				fr: "Projectile Lourd"
+				'en-us': "Heavy Bullet",
+				'fr-fr': "Projectile Lourd"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâs à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+				'en-us': "Flip a coin. If heads, this attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâs à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 70,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It possesses legs of enormous strength, enabling it to carry heavy slabs for many days, even when crossing arid land.",
+		'en-us': "It possesses legs of enormous strength, enabling it to carry heavy slabs for many days, even when crossing arid land.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポニータ",
+		'ja-jp': "ポニータ",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Fire", "Colorless"],
 			name: {
-				ja: "ember",
+				'ja-jp': "ember",
 			},
 			effect: {
-				ja: "この攻撃を使用するために、ポニータに取り付けられた1つのファイアエネルギーカードを廃棄します。",
+				'ja-jp': "この攻撃を使用するために、ポニータに取り付けられた1つのファイアエネルギーカードを廃棄します。",
 			},
 			damage: 30,
 		},

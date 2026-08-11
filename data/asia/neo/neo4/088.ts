@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "togepi",
+		'ja-jp': "togepi",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "魅力",
+				'ja-jp': "魅力",
 			},
 			effect: {
-				ja: "防御するポケモンが相手の次のターン中に攻撃した場合、それが与える損害は10倍に減少します（脱力感と抵抗を適用する前に）。",
+				'ja-jp': "防御するポケモンが相手の次のターン中に攻撃した場合、それが与える損害は10倍に減少します（脱力感と抵抗を適用する前に）。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "スパイクボールタックル",
+				'ja-jp': "スパイクボールタックル",
 			},
 			effect: {
-				ja: "Togepiはそれ自体に10ダメージを与えます。",
+				'ja-jp': "Togepiはそれ自体に10ダメージを与えます。",
 			},
 			damage: 20,
 		},

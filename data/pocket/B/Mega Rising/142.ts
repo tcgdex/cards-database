@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bewear"
+		'en-us': "Bewear"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Stufful"
+		'en-us': "Stufful"
 	},
 
 	description: {
-		en: "The moves it uses to take down its prey would\nmake a martial artist jealous. It tucks subdued\nprey under its arms to carry them to its nest."
+		'en-us': "The moves it uses to take down its prey would\nmake a martial artist jealous. It tucks subdued\nprey under its arms to carry them to its nest."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Heavy Impact"
+			'en-us': "Heavy Impact"
 		},
 
 		damage: 90,

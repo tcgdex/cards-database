@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Chilling Reign'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ledian",
-		fr: "Coxyclaque",
-		es: "Ledian",
-		it: "Ledian",
-		pt: "Ledian",
-		de: "Ledian"
+		'en-us': "Ledian",
+		'fr-fr': "Coxyclaque",
+		'es-es': "Ledian",
+		'it-it': "Ledian",
+		'pt-br': "Ledian",
+		'de-de': "Ledian"
 	},
 
 	illustrator: "Sekio",
@@ -21,52 +21,52 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Ledyba",
-		fr: "Coxy",
-		es: "Ledyba",
-		it: "Ledyba",
-		pt: "Ledyba",
-		de: "Ledyba"
+		'en-us': "Ledyba",
+		'fr-fr': "Coxy",
+		'es-es': "Ledyba",
+		'it-it': "Ledyba",
+		'pt-br': "Ledyba",
+		'de-de': "Ledyba"
 	},
 
 	attacks: [{
 		name: {
-			en: "Rapid Draw",
-			fr: "Pioche Rapide",
-			es: "Robo Rápido",
-			it: "Pescalesto",
-			pt: "Retirada Rápida",
-			de: "Schnellzieher"
+			'en-us': "Rapid Draw",
+			'fr-fr': "Pioche Rapide",
+			'es-es': "Robo Rápido",
+			'it-it': "Pescalesto",
+			'pt-br': "Retirada Rápida",
+			'de-de': "Schnellzieher"
 		},
 
 		effect: {
-			en: "Draw 2 cards.",
-			fr: "Piochez 2 cartes.",
-			es: "Roba 2 cartas.",
-			it: "Pesca due carte.",
-			pt: "Compre 2 cartas.",
-			de: "Ziehe 2 Karten."
+			'en-us': "Draw 2 cards.",
+			'fr-fr': "Piochez 2 cartes.",
+			'es-es': "Roba 2 cartas.",
+			'it-it': "Pesca due carte.",
+			'pt-br': "Compre 2 cartas.",
+			'de-de': "Ziehe 2 Karten."
 		},
 
 		damage: 20,
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Air Slash",
-			fr: "Lame d'Air",
-			es: "Tajo Aéreo",
-			it: "Eterelama",
-			pt: "Golpe de Ar",
-			de: "Luftschnitt"
+			'en-us': "Air Slash",
+			'fr-fr': "Lame d'Air",
+			'es-es': "Tajo Aéreo",
+			'it-it': "Eterelama",
+			'pt-br': "Golpe de Ar",
+			'de-de': "Luftschnitt"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte 1 Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'pt-br': "Descarte 1 Energia deste Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 100,
@@ -85,7 +85,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It flies through the night sky, sprinkling sparkly dust. According to some, if that dust sticks to you, good things will happen to you."
+		'en-us': "It flies through the night sky, sprinkling sparkly dust. According to some, if that dust sticks to you, good things will happen to you."
 	},
 
 	variants: [

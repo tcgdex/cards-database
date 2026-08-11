@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Combee",
-		fr: "Apitrini",
-		de: "Wadribie"
+		'en-us': "Combee",
+		'fr-fr': "Apitrini",
+		'de-de': "Wadribie"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		fr: "Apitrini",
+		'fr-fr': "Apitrini",
 	},
 
 	stage: "Basic",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Alert",
-				fr: "Alerte",
-				de: "Alarmruf"
+				'en-us': "Alert",
+				'fr-fr': "Alerte",
+				'de-de': "Alarmruf"
 			},
 			effect: {
-				en: "Draw a card. Then, you may switch Combee with 1 of your Benched Pokémon.",
-				fr: "Piochez une carte. Ensuite, vous pouvez échanger Apitrini avec 1 des Pokémon de votre Banc.",
-				de: "Ziehe 1 Karte. Danach kannst du Wadribie gegen 1 Pokémon auf deiner Bank austauschen."
+				'en-us': "Draw a card. Then, you may switch Combee with 1 of your Benched Pokémon.",
+				'fr-fr': "Piochez une carte. Ensuite, vous pouvez échanger Apitrini avec 1 des Pokémon de votre Banc.",
+				'de-de': "Ziehe 1 Karte. Danach kannst du Wadribie gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 
 		},

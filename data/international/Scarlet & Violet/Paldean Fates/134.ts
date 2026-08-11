@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Electrode",
-		fr: "Électrode",
-		es: "Electrode",
-		it: "Electrode",
-		pt: "Electrode",
-		de: "Lektrobal"
+		'en-us': "Electrode",
+		'fr-fr': "Électrode",
+		'es-es': "Electrode",
+		'it-it': "Electrode",
+		'pt-br': "Electrode",
+		'de-de': "Lektrobal"
 	},
 
 	rarity: "Shiny rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Lightning"],
 	evolveFrom: {
-		en: "Voltorb",
-		fr: "Voltorbe",
-		es: "Voltorb",
-		it: "Voltorb",
-		pt: "Voltorb",
-		de: "Voltobal"
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe",
+		'es-es': "Voltorb",
+		'it-it': "Voltorb",
+		'pt-br': "Voltorb",
+		'de-de': "Voltobal"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Bang Boom Chain",
-			fr: "Bim Boum en Chaîne",
-			es: "Cadena Bum Bum",
-			it: "Bum Bang a Catena",
-			pt: "Corrente Estrondosa",
-			de: "Bumm-Bumm-Kette"
+			'en-us': "Bang Boom Chain",
+			'fr-fr': "Bim Boum en Chaîne",
+			'es-es': "Cadena Bum Bum",
+			'it-it': "Bum Bang a Catena",
+			'pt-br': "Corrente Estrondosa",
+			'de-de': "Bumm-Bumm-Kette"
 		},
 
 		effect: {
-			en: "Before doing damage, you may discard any number of Pokémon Tools from your Pokémon. This attack does 40 more damage for each card you discarded in this way.",
-			fr: "Avant d'infliger des dégâts, vous pouvez défausser le nombre voulu de cartes Outil Pokémon de vos Pokémon. Cette attaque inflige 40 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
-			es: "Antes de infligir daño, puedes descartar cualquier cantidad de Herramientas Pokémon de tus Pokémon. Este ataque hace 40 puntos de daño más por cada carta que hayas descartado de esta manera.",
-			it: "Prima di infliggere danni, puoi scartare un numero qualsiasi di carte Oggetto Pokémon dai tuoi Pokémon. Questo attacco infligge 40 danni in più per ogni carta che hai scartato in questo modo.",
-			pt: "Antes de causar dano, você poderá descartar qualquer número de Ferramentas Pokémon dos seus Pokémon. Este ataque causa 40 pontos de dano a mais para cada carta descartada desta forma.",
-			de: "Bevor du Schaden zufügst, kannst du beliebig viele Pokémon-Ausrüstungen von deinen Pokémon auf deinen Ablagestapel legen. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 40 Schadenspunkte mehr zu."
+			'en-us': "Before doing damage, you may discard any number of Pokémon Tools from your Pokémon. This attack does 40 more damage for each card you discarded in this way.",
+			'fr-fr': "Avant d'infliger des dégâts, vous pouvez défausser le nombre voulu de cartes Outil Pokémon de vos Pokémon. Cette attaque inflige 40 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
+			'es-es': "Antes de infligir daño, puedes descartar cualquier cantidad de Herramientas Pokémon de tus Pokémon. Este ataque hace 40 puntos de daño más por cada carta que hayas descartado de esta manera.",
+			'it-it': "Prima di infliggere danni, puoi scartare un numero qualsiasi di carte Oggetto Pokémon dai tuoi Pokémon. Questo attacco infligge 40 danni in più per ogni carta che hai scartato in questo modo.",
+			'pt-br': "Antes de causar dano, você poderá descartar qualquer número de Ferramentas Pokémon dos seus Pokémon. Este ataque causa 40 pontos de dano a mais para cada carta descartada desta forma.",
+			'de-de': "Bevor du Schaden zufügst, kannst du beliebig viele Pokémon-Ausrüstungen von deinen Pokémon auf deinen Ablagestapel legen. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 40 Schadenspunkte mehr zu."
 		},
 
 		damage: "20+"
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Electro Ball",
-			fr: "Boule Élek",
-			es: "Bola Voltio",
-			it: "Energisfera",
-			pt: "Bola Elétrica",
-			de: "Elektroball"
+			'en-us': "Electro Ball",
+			'fr-fr': "Boule Élek",
+			'es-es': "Bola Voltio",
+			'it-it': "Energisfera",
+			'pt-br': "Bola Elétrica",
+			'de-de': "Elektroball"
 		},
 
 		damage: 70
@@ -88,7 +88,7 @@ const card: Card = {
 	illustrator: "Masakazu Fukuda",
 
 	description: {
-		en: "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
+		'en-us': "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
 	},
 
 }

@@ -1,14 +1,14 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1V"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "デルビル",
+		'ja-jp': "デルビル",
 		'zh-tw': "戴魯比",
-		th: "เดลวิล",
-		id: "Houndour"
+		'th-th': "เดลวิล",
+		'id-id': "Houndour"
 	},
 
 	illustrator: "nagimiso",
@@ -19,10 +19,10 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "仲間に 連絡するときと 獲物を 追いつめるときでは 鳴き声の 種類が 違うのだ。",
+		'ja-jp': "仲間に 連絡するときと 獲物を 追いつめるときでは 鳴き声の 種類が 違うのだ。",
 		'zh-tw': "聯絡夥伴和追趕獵物的時候，會分別發出 不同種類的叫聲。",
-		th: "ชนิดของเสียงร้องที่ใช้ตอนสื่อสารกับฝูงกับตอนไล่ต้อนเหยื่อจะแตกต่างกัน",
-		id: "Jenis raungan Houndour ketika berkomunikasi dengan sesamanya atau ketika memburu mangsanya berbeda-beda."
+		'th-th': "ชนิดของเสียงร้องที่ใช้ตอนสื่อสารกับฝูงกับตอนไล่ต้อนเหยื่อจะแตกต่างกัน",
+		'id-id': "Jenis raungan Houndour ketika berkomunikasi dengan sesamanya atau ketika memburu mangsanya berbeda-beda."
 	},
 
 	stage: "Basic",
@@ -31,10 +31,10 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "かみつく",
+			'ja-jp': "かみつく",
 			'zh-tw': "咬住",
-			th: "กัดติด",
-			id: "Menggigit"
+			'th-th': "กัดติด",
+			'id-id': "Menggigit"
 		},
 
 		damage: 10
@@ -42,10 +42,10 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			ja: "ほのお",
+			'ja-jp': "ほのお",
 			'zh-tw': "火焰",
-			th: "ไฟ",
-			id: "Api"
+			'th-th': "ไฟ",
+			'id-id': "Api"
 		},
 
 		damage: 30

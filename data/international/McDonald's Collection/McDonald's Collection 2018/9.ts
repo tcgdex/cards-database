@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2018'
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dratini"
+		'en-us': "Dratini"
 	},
 
 	rarity: "None",
@@ -20,10 +20,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Signs of Evolution",
+				'en-us': "Signs of Evolution",
 			},
 			effect: {
-				en: "Search your deck for a Dratini, a Dragonair, and a Dragonite. reveal them, and put them into your hand. Then, shuffle your deck."
+				'en-us': "Search your deck for a Dratini, a Dragonair, and a Dragonite. reveal them, and put them into your hand. Then, shuffle your deck."
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Tail Smack",
+				'en-us': "Tail Smack",
 			},
 			damage: 10,
 		}

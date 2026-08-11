@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "M Steelix EX",
-		fr: "M-Steelix EX",
-		es: "M-Steelix EX",
-		it: "M Steelix EX",
-		pt: "M-Steelix EX",
-		de: "M-Stahlos EX"
+		'en-us': "M Steelix EX",
+		'fr-fr': "M-Steelix EX",
+		'es-es': "M-Steelix EX",
+		'it-it': "M Steelix EX",
+		'pt-br': "M-Steelix EX",
+		'de-de': "M-Stahlos EX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -28,12 +28,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Steelix-EX",
-		fr: "Steelix-EX",
-		es: "Steelix-EX",
-		it: "Steelix-EX",
-		pt: "Steelix-EX",
-		de: "Stahlos-EX"
+		'en-us': "Steelix-EX",
+		'fr-fr': "Steelix-EX",
+		'es-es': "Steelix-EX",
+		'it-it': "Steelix-EX",
+		'pt-br': "Steelix-EX",
+		'de-de': "Stahlos-EX"
 	},
 
 	stage: "MEGA",
@@ -48,20 +48,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Canyon Axe",
-				fr: "Tranche Canyon",
-				es: "Hachazo Cañón",
-				it: "Falciata Abissale",
-				pt: "Machado Desfiladeiro",
-				de: "Schluchtaxt"
+				'en-us': "Canyon Axe",
+				'fr-fr': "Tranche Canyon",
+				'es-es': "Hachazo Cañón",
+				'it-it': "Falciata Abissale",
+				'pt-br': "Machado Desfiladeiro",
+				'de-de': "Schluchtaxt"
 			},
 			effect: {
-				en: "This attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				es: "Este ataque hace 10 puntos de daño a cada uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-				it: "Questo attacco infligge 10 danni a ciascun Pokémon nella panchina del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
-				pt: "Este ataque causa 10 de danos a cada um dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência a Pokémon no Banco.)",
-				de: "Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "This attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'es-es': "Este ataque hace 10 puntos de daño a cada uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+				'it-it': "Questo attacco infligge 10 danni a ciascun Pokémon nella panchina del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
+				'pt-br': "Este ataque causa 10 de danos a cada um dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência a Pokémon no Banco.)",
+				'de-de': "Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 160,
 

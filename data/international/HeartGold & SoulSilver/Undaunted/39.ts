@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Togetic",
-		fr: "Togetic",
-		de: "Togetic"
+		'en-us': "Togetic",
+		'fr-fr': "Togetic",
+		'de-de': "Togetic"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Togepi",
-		fr: "Togepi"
+		'en-us': "Togepi",
+		'fr-fr': "Togepi"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Chase Up",
-				fr: "Relancer",
-				de: "Dampf machen"
+				'en-us': "Chase Up",
+				'fr-fr': "Relancer",
+				'de-de': "Dampf machen"
 			},
 			effect: {
-				en: "Search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez une carte dans votre deck et placez-la dans votre main. Mélangez ensuite votre deck.",
-				de: "Durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				'en-us': "Search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez une carte dans votre deck et placez-la dans votre main. Mélangez ensuite votre deck.",
+				'de-de': "Durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fly",
-				fr: "Vol",
-				de: "Fliegen"
+				'en-us': "Fly",
+				'fr-fr': "Vol",
+				'de-de': "Fliegen"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of attacks, including damage done to Togetic during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien. Si c’est face, évitez tous les effets d’attaques (y compris les dégâts) infligés à Togetic pendant le prochain tour de votre adversaire.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Togetic zugefügt werden."
+				'en-us': "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of attacks, including damage done to Togetic during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, cette attaque ne fait rien. Si c’est face, évitez tous les effets d’attaques (y compris les dégâts) infligés à Togetic pendant le prochain tour de votre adversaire.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Togetic zugefügt werden."
 			},
 			damage: 30,
 
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It grows dispirited if it is not with kind people. It can float in midair without moving its wings."
+		'en-us': "It grows dispirited if it is not with kind people. It can float in midair without moving its wings."
 	},
 
 	variants: [

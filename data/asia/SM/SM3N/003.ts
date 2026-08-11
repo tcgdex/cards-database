@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3N";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バタフリー",
+		'ja-jp': "バタフリー",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "大きな 眼を よく 観察すると 実は 小さな 眼が 無数に 集まって できているのが わかる。",
+		'ja-jp': "大きな 眼を よく 観察すると 実は 小さな 眼が 無数に 集まって できているのが わかる。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "バイバイヒーリング" },
 			cost: ["Grass"],
 			effect: {
-				ja: "自分のポケモン全員のHPを、すべて回復する。このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
+				'ja-jp': "自分のポケモン全員のHPを、すべて回復する。このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 60,
 			cost: ["Grass", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "トランセル",
+		'ja-jp': "トランセル",
 	},
 
 	retreat: 1,

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Sigilyph",
-		th: "ซิมโบลา"
+		'id-id': "Sigilyph",
+		'th-th': "ซิมโบลา"
 	},
 
 	illustrator: "svlt",
@@ -15,33 +15,33 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Sigilyph terbang di udara menggunakan kekuatan psikokinesis. Dikenal sebagai dewa pelindung kota zaman purba atau juga utusan dewa.",
-		th: "บินบนท้องฟ้าด้วยพลังจิต ได้รับการเล่าขานว่าเป็นเทพหรือบริวารของ เทพที่ปกปักรักษาเมืองสมัยโบราณ"
+		'id-id': "Sigilyph terbang di udara menggunakan kekuatan psikokinesis. Dikenal sebagai dewa pelindung kota zaman purba atau juga utusan dewa.",
+		'th-th': "บินบนท้องฟ้าด้วยพลังจิต ได้รับการเล่าขานว่าเป็นเทพหรือบริวารของ เทพที่ปกปักรักษาเมืองสมัยโบราณ"
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Double Draw",
-			th: "ดับเบิลดรอว์"
+			'id-id': "Double Draw",
+			'th-th': "ดับเบิลดรอว์"
 		},
 
 		effect: {
-			id: "Ambil 2 kartu dari atas Deck sendiri.",
-			th: "จั่วการ์ด 2 ใบจากสำรับการ์ดฝ่ายเรา"
+			'id-id': "Ambil 2 kartu dari atas Deck sendiri.",
+			'th-th': "จั่วการ์ด 2 ใบจากสำรับการ์ดฝ่ายเรา"
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Psikokinesis",
-			th: "จิตตานุภาพ"
+			'id-id': "Psikokinesis",
+			'th-th': "จิตตานุภาพ"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh.",
-			th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว จะทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม เป็นสภาวะ[ชา]"
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh.",
+			'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกหัว จะทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม เป็นสภาวะ[ชา]"
 		},
 
 		damage: 60,

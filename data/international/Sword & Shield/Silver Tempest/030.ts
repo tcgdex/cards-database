@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Litten",
-		fr: "Flamiaou",
-		es: "Litten",
-		it: "Litten",
-		pt: "Litten",
-		de: "Flamiau"
+		'en-us': "Litten",
+		'fr-fr': "Flamiaou",
+		'es-es': "Litten",
+		'it-it': "Litten",
+		'pt-br': "Litten",
+		'de-de': "Flamiau"
 	},
 
 	illustrator: "Narumi Sato",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Gnaw",
-			fr: "Ronge",
-			es: "Roer",
-			it: "Rosicchiamento",
-			pt: "Roída",
-			de: "Nagen"
+			'en-us': "Gnaw",
+			'fr-fr': "Ronge",
+			'es-es': "Roer",
+			'it-it': "Rosicchiamento",
+			'pt-br': "Roída",
+			'de-de': "Nagen"
 		},
 
 		damage: 10
@@ -38,21 +38,21 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			en: "Reprisal",
-			fr: "Revanche",
-			es: "Tomar Represalias",
-			it: "Rappresaglia",
-			pt: "Retaliar",
-			de: "Repressalie"
+			'en-us': "Reprisal",
+			'fr-fr': "Revanche",
+			'es-es': "Tomar Represalias",
+			'it-it': "Rappresaglia",
+			'pt-br': "Retaliar",
+			'de-de': "Repressalie"
 		},
 
 		effect: {
-			en: "This attack does 20 damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 20 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
-			es: "Este ataque hace 20 puntos de daño por cada contador de daño en este Pokémon.",
-			it: "Questo attacco infligge 20 danni per ogni segnalino danno presente su questo Pokémon.",
-			pt: "Este ataque causa 20 pontos de dano para cada contador de dano neste Pokémon.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 20 Schadenspunkte zu."
+			'en-us': "This attack does 20 damage for each damage counter on this Pokémon.",
+			'fr-fr': "Cette attaque inflige 20 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
+			'es-es': "Este ataque hace 20 puntos de daño por cada contador de daño en este Pokémon.",
+			'it-it': "Questo attacco infligge 20 danni per ogni segnalino danno presente su questo Pokémon.",
+			'pt-br': "Este ataque causa 20 pontos de dano para cada contador de dano neste Pokémon.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 20 Schadenspunkte zu."
 		},
 
 		damage: "20×"
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Its coat regrows twice a year. When the time comes, Litten sets its own body on fire and burns away the old fur.",
+		'en-us': "Its coat regrows twice a year. When the time comes, Litten sets its own body on fire and burns away the old fur.",
 	},
 
 	variants: [

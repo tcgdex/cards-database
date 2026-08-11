@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メタン（デルタ種）",
+		'ja-jp': "メタン（デルタ種）",
 	},
 
 	rarity: "Uncommon",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "鋭い爪",
+				'ja-jp': "鋭い爪",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて10ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は20ダメージに加えて10ダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Lightning", "Colorless", "Colorless"],
 			name: {
-				ja: "磁気爆発",
+				'ja-jp': "磁気爆発",
 			},
 			damage: 50,
 		},

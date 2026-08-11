@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Masquerain"
+		'id-id': "Masquerain"
 	},
 
 	illustrator: "kantaro",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Masquerain menjadi tidak dapat terbang jika antena pola bola mata uniknya menjadi berat akibat dibasahi oleh hujan."
+		'id-id': "Masquerain menjadi tidak dapat terbang jika antena pola bola mata uniknya menjadi berat akibat dibasahi oleh hujan."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Mata Represi"
+			'id-id': "Mata Represi"
 		},
 
 		effect: {
-			id: "Lempar koin hingga hasilnya sisi belakang. Pilih Energi yang dikenakan pada Pokémon Bertarung lawan untuk tiap lemparan dengan hasil sisi depan, lalu kocok kembali ke Deck lawan."
+			'id-id': "Lempar koin hingga hasilnya sisi belakang. Pilih Energi yang dikenakan pada Pokémon Bertarung lawan untuk tiap lemparan dengan hasil sisi depan, lalu kocok kembali ke Deck lawan."
 		},
 
 		cost: ["Grass"]
 	}, {
 		name: {
-			id: "Cutter Wind"
+			'id-id': "Cutter Wind"
 		},
 
 		damage: 70,

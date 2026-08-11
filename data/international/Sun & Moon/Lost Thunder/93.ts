@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Wobbuffet",
-		fr: "Qulbutoké",
-		es: "Wobbuffet",
-		it: "Wobbuffet",
-		pt: "Wobbuffet",
-		de: "Woingenau"
+		'en-us': "Wobbuffet",
+		'fr-fr': "Qulbutoké",
+		'es-es': "Wobbuffet",
+		'it-it': "Wobbuffet",
+		'pt-br': "Wobbuffet",
+		'de-de': "Woingenau"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Shady Tail",
-				fr: "Ombre Caudale",
-				es: "Cola Sombría",
-				it: "Coda Nera",
-				pt: "Cauda Umbrosa",
-				de: "Zwielichtiger Schweif"
+				'en-us': "Shady Tail",
+				'fr-fr': "Ombre Caudale",
+				'es-es': "Cola Sombría",
+				'it-it': "Coda Nera",
+				'pt-br': "Cauda Umbrosa",
+				'de-de': "Zwielichtiger Schweif"
 			},
 			effect: {
-				en: "As long as this Pokémon is on your Bench, {*} (Prism Star) Pokémon in play (both yours and your opponent’s) can’t attack and have no Abilities.",
-				fr: "Tant que ce Pokémon est sur votre Banc, les Pokémon {*} (Prisme Étoile) en jeu (les vôtres et ceux de votre adversaire) ne peuvent pas attaquer et n’ont pas de talent.",
-				es: "Mientras este Pokémon esté en tu Banca, los Pokémon de {*} (Estrella Prisma) en juego (tanto tuyos como de tu rival) no pueden atacar y no tienen ninguna habilidad.",
-				it: "Fintanto che questo Pokémon è nella tua panchina, i Pokémon {*} (stella prisma) in gioco, sia tuoi che del tuo avversario, non possono attaccare e le loro abilità non hanno effetto.",
-				pt: "Enquanto este Pokémon estiver no seu Banco, os Pokémon {*} (Estrela Prisma) em jogo (seus e do seu oponente) não poderão atacar e não terão Habilidades.",
-				de: "Solang sich dieses Pokémon auf deiner Bank befindet, können {*}-Pokémon (Prisma-Stern-Pokémon) im Spiel (deine und die deines Gegners) nicht angreifen und haben keine Fähigkeiten."
+				'en-us': "As long as this Pokémon is on your Bench, {*} (Prism Star) Pokémon in play (both yours and your opponent’s) can’t attack and have no Abilities.",
+				'fr-fr': "Tant que ce Pokémon est sur votre Banc, les Pokémon {*} (Prisme Étoile) en jeu (les vôtres et ceux de votre adversaire) ne peuvent pas attaquer et n’ont pas de talent.",
+				'es-es': "Mientras este Pokémon esté en tu Banca, los Pokémon de {*} (Estrella Prisma) en juego (tanto tuyos como de tu rival) no pueden atacar y no tienen ninguna habilidad.",
+				'it-it': "Fintanto che questo Pokémon è nella tua panchina, i Pokémon {*} (stella prisma) in gioco, sia tuoi che del tuo avversario, non possono attaccare e le loro abilità non hanno effetto.",
+				'pt-br': "Enquanto este Pokémon estiver no seu Banco, os Pokémon {*} (Estrela Prisma) em jogo (seus e do seu oponente) não poderão atacar e não terão Habilidades.",
+				'de-de': "Solang sich dieses Pokémon auf deiner Bank befindet, können {*}-Pokémon (Prisma-Stern-Pokémon) im Spiel (deine und die deines Gegners) nicht angreifen und haben keine Fähigkeiten."
 			},
 		},
 	],
@@ -57,20 +57,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Away",
-				fr: "Asticotage",
-				es: "Derribar",
-				it: "Scaraventa",
-				pt: "Jogar Longe",
-				de: "Zurückschlagen"
+				'en-us': "Knock Away",
+				'fr-fr': "Asticotage",
+				'es-es': "Derribar",
+				'it-it': "Scaraventa",
+				'pt-br': "Jogar Longe",
+				'de-de': "Zurückschlagen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
-				es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
-				it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
-				pt: "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
-				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
+				'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
 			},
 			damage: "30+",
 
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "To keep its pitch-black tail hidden, it live quietly in the darkness. It is never first to attack.",
+		'en-us': "To keep its pitch-black tail hidden, it live quietly in the darkness. It is never first to attack.",
 	},
 
 	thirdParty: {

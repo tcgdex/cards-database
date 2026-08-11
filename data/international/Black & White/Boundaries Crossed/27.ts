@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Darumaka",
-		fr: "Darumarond",
-		es: "Darumaka",
-		it: "Darumaka",
-		pt: "Darumaka",
-		de: "Flampion"
+		'en-us': "Darumaka",
+		'fr-fr': "Darumarond",
+		'es-es': "Darumaka",
+		'it-it': "Darumaka",
+		'pt-br': "Darumaka",
+		'de-de': "Flampion"
 	},
 
 	illustrator: "Aya Kusube",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reckless Charge",
-				fr: "Attaque Imprudente",
+				'en-us': "Reckless Charge",
+				'fr-fr': "Attaque Imprudente",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 10 dégâts.",
+				'en-us': "Flip a coin. If tails, this Pokémon does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 10 dégâts.",
 			},
 			damage: 30,
 
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When it sleeps, it pulls its limbs into its body and its internal fire goes down to 1,100 F.",
+		'en-us': "When it sleeps, it pulls its limbs into its body and its internal fire goes down to 1,100 F.",
 	},
 
 	thirdParty: {

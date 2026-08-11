@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハピナス",
+		'ja-jp': "ハピナス",
 	},
 
 	illustrator: "MAHOU",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ふわふわの 体毛は センサー。 ポケモンや 人の 気持ちを キャッチすることが できるのだ。",
+		'ja-jp': "ふわふわの 体毛は センサー。 ポケモンや 人の 気持ちを キャッチすることが できるのだ。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ハッピーサプリ" },
 			effect: {
-				ja: "自分の番に1回使える。自分のバトルポケモンの特殊状態を1つ回復する。",
+				'ja-jp': "自分の番に1回使える。自分のバトルポケモンの特殊状態を1つ回復する。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "80×",
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーの数ぶんコインを投げ、オモテの数x80ダメージ。",
+				'ja-jp': "このポケモンについているエネルギーの数ぶんコインを投げ、オモテの数x80ダメージ。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ラッキー",
+		'ja-jp': "ラッキー",
 	},
 
 	retreat: 3,

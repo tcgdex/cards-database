@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒーローマント",
+		'ja-jp': "ヒーローマント",
 	},
 
 	illustrator: "Toyste Beach",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけているポケモンの最大HPは「＋100」される。",
+		'ja-jp': "このカードをつけているポケモンの最大HPは「＋100」される。",
 	},
 
 	variants: [

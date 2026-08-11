@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Dondozo"
+		'id-id': "Dondozo"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Meskipun rakus, Dondozo tidak pandai menangkap makanannya. Pokémon ini membentuk tim dengan Tatsugiri untuk berburu dan menangkap mangsa."
+		'id-id': "Meskipun rakus, Dondozo tidak pandai menangkap makanannya. Pokémon ini membentuk tim dengan Tatsugiri untuk berburu dan menangkap mangsa."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Suplementasi Lahap Sekaligus"
+			'id-id': "Suplementasi Lahap Sekaligus"
 		},
 
 		effect: {
-			id: "Lihat 5 kartu dari atas Deck sendiri, pilih sesukanya Energi Dasar di antaranya, lalu kenakan pada Pokémon ini. Kocok kembali sisa kartu ke Deck."
+			'id-id': "Lihat 5 kartu dari atas Deck sendiri, pilih sesukanya Energi Dasar di antaranya, lalu kenakan pada Pokémon ini. Kocok kembali sisa kartu ke Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Hydro Splash"
+			'id-id': "Hydro Splash"
 		},
 
 		damage: 180,

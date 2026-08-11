@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "キョジオーン",
+		'ja-jp': "キョジオーン",
 		'zh-tw': "鹽石巨靈",
-		id: "Garganacl"
+		'id-id': "Garganacl"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -17,9 +17,9 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "指先を 擦りあわせて 塩を ケガした ポケモンに 振りかけると ひどい 傷も たちまち 治る。",
+		'ja-jp': "指先を 擦りあわせて 塩を ケガした ポケモンに 振りかけると ひどい 傷も たちまち 治る。",
 		'zh-tw': "只要合起指尖，搓出鹽來灑在受傷的寶可夢身上， 就算再重的傷都會瞬間痊癒。",
-		id: "Garganacl menaburkan garam kepada Pokémon yang terluka dengan menggosok-gosokkan ujung jarinya. Luka parah pun akan segera sembuh."
+		'id-id': "Garganacl menaburkan garam kepada Pokémon yang terluka dengan menggosok-gosokkan ujung jarinya. Luka parah pun akan segera sembuh."
 	},
 
 	stage: "Stage2",
@@ -28,15 +28,15 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "めぐみのしお",
+			'ja-jp': "めぐみのしお",
 			'zh-tw': "恩澤之鹽",
-			id: "Garam Berkah"
+			'id-id': "Garam Berkah"
 		},
 
 		effect: {
-			ja: "このポケモンがいるかぎり、ポケモンチェックのたび、自分のポケモン全員のHPを、それぞれ「20」回復する。",
+			'ja-jp': "このポケモンがいるかぎり、ポケモンチェックのたび、自分のポケモン全員のHPを、それぞれ「20」回復する。",
 			'zh-tw': "只要這隻寶可夢在場上，每次寶可夢檢查時，將自己的所有寶可夢各恢復「20」HP。",
-			id: "Selama Pokémon ini ada di Arena, tiap kali Pokémon Check, pulihkan HP semua Pokémon sendiri masing-masing sejumlah 20."
+			'id-id': "Selama Pokémon ini ada di Arena, tiap kali Pokémon Check, pulihkan HP semua Pokémon sendiri masing-masing sejumlah 20."
 		}
 	}],
 
@@ -44,17 +44,17 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			ja: "ノックハンマー",
+			'ja-jp': "ノックハンマー",
 			'zh-tw': "敲擊之錘",
-			id: "Knock Hammer"
+			'id-id': "Knock Hammer"
 		},
 
 		damage: 130,
 
 		effect: {
-			ja: "相手の山札を上から1枚トラッシュする。",
+			'ja-jp': "相手の山札を上から1枚トラッシュする。",
 			'zh-tw': "將對手的牌庫上方1張卡丟棄。",
-			id: "Buang 1 kartu dari atas Deck lawan ke Trash."
+			'id-id': "Buang 1 kartu dari atas Deck lawan ke Trash."
 		}
 	}],
 

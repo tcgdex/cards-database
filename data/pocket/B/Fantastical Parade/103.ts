@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [442],
 
 	name: {
-		en: "Spiritomb"
+		'en-us': "Spiritomb"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "It was formed by uniting 108 spirits. It has been\nbound to the Odd Keystone to keep it from\ndoing any mischief."
+		'en-us': "It was formed by uniting 108 spirits. It has been\nbound to the Odd Keystone to keep it from\ndoing any mischief."
 	},
 
 	stage: "Basic",
@@ -26,17 +26,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Final Scream"
+			'en-us': "Final Scream"
 		},
 
 		effect: {
-			en: "If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, do 10 damage to each of your opponent's Pokémon."
+			'en-us': "If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, do 10 damage to each of your opponent's Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Spooky Shot"
+			'en-us': "Spooky Shot"
 		},
 
 		damage: 30,

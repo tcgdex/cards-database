@@ -1,14 +1,14 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Trainer kits'
 
 const set: Set = {
 	id: "tk-hs-r",
 
 	name: {
-		en: "HS trainer Kit (Raichu)",
-		it: "HS trainer Kit (Raichu)",
-		fr: "HS Kit du dresseur (Raichu)",
-		es: "Kit de Entrenador HeatGold & SoulSilver (Raichu)",
+		'en-us': "HS trainer Kit (Raichu)",
+		'it-it': "HS trainer Kit (Raichu)",
+		'fr-fr': "HS Kit du dresseur (Raichu)",
+		'es-es': "Kit de Entrenador HeatGold & SoulSilver (Raichu)",
 	},
 
 	serie: serie,
@@ -21,7 +21,7 @@ const set: Set = {
 
 	abbreviations: {
 		official: "TK4R",
-		fr: "RAI"
+		'fr-fr': "RAI"
 	},
 
 	thirdParty: {

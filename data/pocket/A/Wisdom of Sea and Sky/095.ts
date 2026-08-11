@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gliscor",
-		fr: "Scorvol"
+		'en-us': "Gliscor",
+		'fr-fr': "Scorvol"
 	},
 
 	illustrator: "Shiburingaru",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Gligar"
+		'en-us': "Gligar"
 	},
 
 	description: {
-		en: "It observes prey while hanging inverted from\nbranches. When the chance presents itself,\nit swoops!",
-		fr: "Il guette sa proie, pendu à une branche la tête en bas, et s'en saisit à la première occasion."
+		'en-us': "It observes prey while hanging inverted from\nbranches. When the chance presents itself,\nit swoops!",
+		'fr-fr': "Il guette sa proie, pendu à une branche la tête en bas, et s'en saisit à la première occasion."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Sharp Fang",
-			fr: "Croc Aiguisé"
+			'en-us': "Sharp Fang",
+			'fr-fr': "Croc Aiguisé"
 		},
 
 		damage: 60,

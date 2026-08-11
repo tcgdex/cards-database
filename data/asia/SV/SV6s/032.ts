@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Monferno"
+		'id-id': "Monferno"
 	},
 
 	illustrator: "Scav",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Monferno bertarung dengan mengontrol intensitas api di ekornya secara terampil untuk menjaga musuhnya tetap berada di jarak yang ideal."
+		'id-id': "Monferno bertarung dengan mengontrol intensitas api di ekornya secara terampil untuk menjaga musuhnya tetap berada di jarak yang ideal."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Chop"
+			'id-id': "Chop"
 		},
 
 		damage: 40,
 		cost: ["Fire", "Colorless"]
 	}, {
 		name: {
-			id: "Heat Blow"
+			'id-id': "Heat Blow"
 		},
 
 		effect: {
-			id: "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
+			'id-id': "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
 		},
 
 		damage: 80,

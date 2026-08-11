@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ทาบุนเนะ",
-		id: "Audino"
+		'th-th': "ทาบุนเนะ",
+		'id-id': "Audino"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -15,28 +15,28 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "เป็นโปเกมอนที่มีจิตใจเมตตา จะเอาหนวดไปแตะเพื่อรับรู้ถึงความรู้สึกและสภาพร่างกายของฝ่ายตรงข้าม",
-		id: "Pokémon berhati lembut. Audino menekankan sungutnya untuk memahami perasaan dan kondisi tubuh makhluk tersebut."
+		'th-th': "เป็นโปเกมอนที่มีจิตใจเมตตา จะเอาหนวดไปแตะเพื่อรับรู้ถึงความรู้สึกและสภาพร่างกายของฝ่ายตรงข้าม",
+		'id-id': "Pokémon berhati lembut. Audino menekankan sungutnya untuk memahami perasaan dan kondisi tubuh makhluk tersebut."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "หาพรรคพวก",
-			id: "Mencari Teman"
+			'th-th': "หาพรรคพวก",
+			'id-id': "Mencari Teman"
 		},
 
 		effect: {
-			th: "เลือกการ์ดโปเกมอน 1 ใบจากสำรับการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ แล้วสับสำรับการ์ด",
-			id: "Pilih 1 lembar Pokémon dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
+			'th-th': "เลือกการ์ดโปเกมอน 1 ใบจากสำรับการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ แล้วสับสำรับการ์ด",
+			'id-id': "Pilih 1 lembar Pokémon dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			th: "ตบ",
-			id: "Menampar"
+			'th-th': "ตบ",
+			'id-id': "Menampar"
 		},
 
 		damage: 80,

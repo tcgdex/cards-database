@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Pitch Black"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Banette",
-		fr: "Branette",
-		es: "Banette",
+		'en-us': "Banette",
+		'fr-fr': "Branette",
+		'es-es': "Banette",
 		'es-mx': "Banette",
-		de: "Banette",
-		it: "Banette",
-		pt: "Banette"
+		'de-de': "Banette",
+		'it-it': "Banette",
+		'pt-br': "Banette"
 	},
 
 	illustrator: "Mugi Hamada",
@@ -22,7 +22,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Shuppet"
+		'en-us': "Shuppet"
 	},
 
 	stage: "Stage1",
@@ -31,35 +31,35 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Hide 'n' Sneak",
-			fr: "Cachette en Douce",
-			es: "Escondite a Hurtadillas",
+			'en-us': "Hide 'n' Sneak",
+			'fr-fr': "Cachette en Douce",
+			'es-es': "Escondite a Hurtadillas",
 			'es-mx': "Escondidas Furtivas",
-			de: "Listiges Versteckspiel",
-			it: "Nascondino Furbino",
-			pt: "Esconde-some"
+			'de-de': "Listiges Versteckspiel",
+			'it-it': "Nascondino Furbino",
+			'pt-br': "Esconde-some"
 		},
 
 		effect: {
-			en: "Prevent all effects of your opponent's Pokémon's attacks and Abilities done to this Pokémon. (Damage is not an effect.)",
-			fr: "Évitez tous les effets des attaques et des talents des Pokémon de votre adversaire infligés à ce Pokémon. (Les dégâts ne sont pas un effet.)",
-			es: "Se evitan todos los efectos de los ataques y las habilidades de los Pokémon de tu rival infligidos a este Pokémon. (El daño no es un efecto).",
+			'en-us': "Prevent all effects of your opponent's Pokémon's attacks and Abilities done to this Pokémon. (Damage is not an effect.)",
+			'fr-fr': "Évitez tous les effets des attaques et des talents des Pokémon de votre adversaire infligés à ce Pokémon. (Les dégâts ne sont pas un effet.)",
+			'es-es': "Se evitan todos los efectos de los ataques y las habilidades de los Pokémon de tu rival infligidos a este Pokémon. (El daño no es un efecto).",
 			'es-mx': "Se evitan todos los efectos de los ataques y las Habilidades de los Pokémon de tu rival infligidos a este Pokémon. (El daño no es un efecto).",
-			de: "Verhindere alle Effekte von Attacken und Fähigkeiten der Pokémon deines Gegners, die diesem Pokémon zugefügt werden. (Schaden ist kein Effekt.)",
-			it: "Previeni tutti gli effetti degli attacchi e delle abilità dei Pokémon del tuo avversario inflitti a questo Pokémon. I danni non sono un effetto.",
-			pt: "Previna todos os efeitos de ataques e Habilidades dos Pokémon do seu oponente causados a este Pokémon. (Dano não é um efeito.)"
+			'de-de': "Verhindere alle Effekte von Attacken und Fähigkeiten der Pokémon deines Gegners, die diesem Pokémon zugefügt werden. (Schaden ist kein Effekt.)",
+			'it-it': "Previeni tutti gli effetti degli attacchi e delle abilità dei Pokémon del tuo avversario inflitti a questo Pokémon. I danni non sono un effetto.",
+			'pt-br': "Previna todos os efeitos de ataques e Habilidades dos Pokémon do seu oponente causados a este Pokémon. (Dano não é um efeito.)"
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Puppet Pull",
-			fr: "Poupée Piocheuse",
-			es: "Tirón del Títere",
+			'en-us': "Puppet Pull",
+			'fr-fr': "Poupée Piocheuse",
+			'es-es': "Tirón del Títere",
 			'es-mx': "Hallazgo del Títere",
-			de: "Marionettenzieher",
-			it: "Richiamo del Pupazzo",
-			pt: "Puxão Fantoche"
+			'de-de': "Marionettenzieher",
+			'it-it': "Richiamo del Pupazzo",
+			'pt-br': "Puxão Fantoche"
 		},
 
 		cost: ["Psychic"],
@@ -67,13 +67,13 @@ const card: Card = {
 		damage: 80,
 
 		effect: {
-			en: "You may search your deck for a card and put it into your hand. Then, shuffle your deck.",
-			fr: "Vous pouvez chercher dans votre deck une carte, puis l'ajouter à votre main. Mélangez ensuite votre deck.",
-			es: "Puedes buscar en tu baraja 1 carta y ponerla en tu mano. Después, baraja las cartas de tu baraja.",
+			'en-us': "You may search your deck for a card and put it into your hand. Then, shuffle your deck.",
+			'fr-fr': "Vous pouvez chercher dans votre deck une carte, puis l'ajouter à votre main. Mélangez ensuite votre deck.",
+			'es-es': "Puedes buscar en tu baraja 1 carta y ponerla en tu mano. Después, baraja las cartas de tu baraja.",
 			'es-mx': "Puedes buscar en tu mazo 1 carta y ponerla en tu mano. Después, baraja tu mazo.",
-			de: "Du kannst dein Deck nach 1 Karte durchsuchen und sie auf deine Hand nehmen. Mische anschließend dein Deck.",
-			it: "Puoi cercare nel tuo mazzo una carta e aggiungerla a quelle che hai in mano. Poi rimischia il tuo mazzo.",
-			pt: "Você pode procurar por uma carta no seu baralho e colocá-la na sua mão. Em seguida, embaralhe o seu baralho."
+			'de-de': "Du kannst dein Deck nach 1 Karte durchsuchen und sie auf deine Hand nehmen. Mische anschließend dein Deck.",
+			'it-it': "Puoi cercare nel tuo mazzo una carta e aggiungerla a quelle che hai in mano. Poi rimischia il tuo mazzo.",
+			'pt-br': "Você pode procurar por uma carta no seu baralho e colocá-la na sua mão. Em seguida, embaralhe o seu baralho."
 		}
 	}],
 

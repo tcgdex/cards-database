@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Scolipede"
+		'id-id': "Scolipede"
 	},
 
 	illustrator: "Shiburingaru",
@@ -14,24 +14,24 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Scolipede menangkap mangsa menggunakan cakar di lehernya, lalu menghantamkan mereka ke permukaan tanah begitu saja, dan menusukkan duri beracunnya."
+		'id-id': "Scolipede menangkap mangsa menggunakan cakar di lehernya, lalu menghantamkan mereka ke permukaan tanah begitu saja, dan menusukkan duri beracunnya."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			id: "Satu Tikaman Kejam"
+			'id-id': "Satu Tikaman Kejam"
 		},
 
 		effect: {
-			id: "Letakkan Token Kerusakan hingga sisa HP Pokémon Bertarung lawan menjadi sejumlah 10."
+			'id-id': "Letakkan Token Kerusakan hingga sisa HP Pokémon Bertarung lawan menjadi sejumlah 10."
 		},
 
 		cost: ["Darkness", "Colorless"]
 	}, {
 		name: {
-			id: "Bom Limbah"
+			'id-id': "Bom Limbah"
 		},
 
 		damage: 160,

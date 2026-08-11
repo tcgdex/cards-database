@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spritzee",
-		fr: "Fluvetin",
-		es: "Spritzee",
-		pt: "Spritzee",
-		it: "Spritzee",
-		de: "Parfi"
+		'en-us': "Spritzee",
+		'fr-fr': "Fluvetin",
+		'es-es': "Spritzee",
+		'pt-br': "Spritzee",
+		'it-it': "Spritzee",
+		'de-de': "Parfi"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Fairy Wind",
-			fr: "Vent Féérique",
-			es: "Viento Feérico",
-			pt: "Vento de Fada",
-			it: "Vento di Fata",
-			de: "Feenbrise"
+			'en-us': "Fairy Wind",
+			'fr-fr': "Vent Féérique",
+			'es-es': "Viento Feérico",
+			'pt-br': "Vento de Fada",
+			'it-it': "Vento di Fata",
+			'de-de': "Feenbrise"
 		},
 
 		damage: 20

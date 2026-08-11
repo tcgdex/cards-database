@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Oinkologne",
-		fr: "Fragroin",
-		es: "Oinkologne",
-		de: "Fragrunz",
-		it: "Oinkologne",
-		pt: "Oinkologne",
+		'en-us': "Oinkologne",
+		'fr-fr': "Fragroin",
+		'es-es': "Oinkologne",
+		'de-de': "Fragrunz",
+		'it-it': "Oinkologne",
+		'pt-br': "Oinkologne",
 		'es-mx': "Oinkologne"
   },
   illustrator: "Pani Kobayashi",
@@ -19,12 +19,12 @@ const card: Card = {
   types: ["Colorless"],
   dexId: [916],
   evolveFrom: {
-		en: "Lechonk",
-		fr: "Gourmelet",
-		es: "Lechonk",
-		de: "Ferkuli",
-		it: "Lechonk",
-		pt: "Lechonk",
+		'en-us': "Lechonk",
+		'fr-fr': "Gourmelet",
+		'es-es': "Lechonk",
+		'de-de': "Ferkuli",
+		'it-it': "Lechonk",
+		'pt-br': "Lechonk",
 		'es-mx': "Lechonk"
   },
   description: {

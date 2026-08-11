@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シャンデラVMAX",
+		'ja-jp': "シャンデラVMAX",
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "じゅばくのかげろう" },
 			effect: {
-				ja: "このポケモンがバトル場にいるかぎり、相手は手札から「ポケモンのどうぐ」を出してつけられない。",
+				'ja-jp': "このポケモンがバトル場にいるかぎり、相手は手札から「ポケモンのどうぐ」を出してつけられない。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "70×",
 			cost: ["Fire", "Colorless"],
 			effect: {
-				ja: "相手の手札を見て、その中にあるトレーナーズの枚数×70ダメージ。",
+				'ja-jp': "相手の手札を見て、その中にあるトレーナーズの枚数×70ダメージ。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シャンデラV",
+		'ja-jp': "シャンデラV",
 	},
 
 	retreat: 2,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Annihilape",
-		fr: "Courrousinge",
-		es: "Annihilape",
-		it: "Annihilape",
-		pt: "Annihilape",
-		de: "Epitaff"
+		'en-us': "Annihilape",
+		'fr-fr': "Courrousinge",
+		'es-es': "Annihilape",
+		'it-it': "Annihilape",
+		'pt-br': "Annihilape",
+		'de-de': "Epitaff"
 	},
 
 	rarity: "Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Primeape",
-		fr: "Colossinge",
-		es: "Primeape",
-		it: "Primeape",
-		pt: "Primeape",
-		de: "Rasaff"
+		'en-us': "Primeape",
+		'fr-fr': "Colossinge",
+		'es-es': "Primeape",
+		'it-it': "Primeape",
+		'pt-br': "Primeape",
+		'de-de': "Rasaff"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Rage Fist",
-			fr: "Poing de Colère",
-			es: "Puño Furia",
-			it: "Pugno Furibondo",
-			pt: "Punho Feroz",
-			de: "Zornesfaust"
+			'en-us': "Rage Fist",
+			'fr-fr': "Poing de Colère",
+			'es-es': "Puño Furia",
+			'it-it': "Pugno Furibondo",
+			'pt-br': "Punho Feroz",
+			'de-de': "Zornesfaust"
 		},
 
 		effect: {
-			en: "This attack does 70 damage for each Prize card your opponent has taken.",
-			fr: "Cette attaque inflige 70 dégâts pour chaque carte Récompense que votre adversaire a récupérée.",
-			es: "Este ataque hace 70 puntos de daño por cada carta de Premio que haya cogido tu rival.",
-			it: "Questo attacco infligge 70 danni per ogni carta Premio presa dal tuo avversario.",
-			pt: "Este ataque causa 70 pontos de dano para cada carta de Prêmio que seu oponente pegou.",
-			de: "Diese Attacke fügt für jede von deinem Gegner genommene Preiskarte 70 Schadenspunkte zu."
+			'en-us': "This attack does 70 damage for each Prize card your opponent has taken.",
+			'fr-fr': "Cette attaque inflige 70 dégâts pour chaque carte Récompense que votre adversaire a récupérée.",
+			'es-es': "Este ataque hace 70 puntos de daño por cada carta de Premio que haya cogido tu rival.",
+			'it-it': "Questo attacco infligge 70 danni per ogni carta Premio presa dal tuo avversario.",
+			'pt-br': "Este ataque causa 70 pontos de dano para cada carta de Prêmio que seu oponente pegou.",
+			'de-de': "Diese Attacke fügt für jede von deinem Gegner genommene Preiskarte 70 Schadenspunkte zu."
 		},
 
 		damage: "70×"
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			en: "Dynamite Punch",
-			fr: "Poing Dynamite",
-			es: "Puño Dinamita",
-			it: "Pugno Dinamite",
-			pt: "Soco Dinamite",
-			de: "Dynamitstoß"
+			'en-us': "Dynamite Punch",
+			'fr-fr': "Poing Dynamite",
+			'es-es': "Puño Dinamita",
+			'it-it': "Pugno Dinamite",
+			'pt-br': "Soco Dinamite",
+			'de-de': "Dynamitstoß"
 		},
 
 		effect: {
-			en: "This Pokémon also does 50 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 50 dégâts.",
-			es: "Este Pokémon también se hace 50 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 50 danni a se stesso.",
-			pt: "Este Pokémon também causa 50 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 50 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 50 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 50 dégâts.",
+			'es-es': "Este Pokémon también se hace 50 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 50 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 50 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 50 Schadenspunkte zu."
 		},
 
 		damage: 170
@@ -105,7 +105,7 @@ const card: Card = {
 	illustrator: "Anesaki Dynamic",
 
 	description: {
-		en: "It imbues its fists with the power of the rage that it kept hidden in its heart. Opponents struck by these imbued fists will be shattered to their core.",
+		'en-us': "It imbues its fists with the power of the rage that it kept hidden in its heart. Opponents struck by these imbued fists will be shattered to their core.",
 	},
 
 }

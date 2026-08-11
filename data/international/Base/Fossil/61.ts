@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Fossil'
 
 const card: Card = {
 	name: {
-		en: "Recycle",
-		fr: "Recyclage",
-		de: "Wiederverwertung"
+		'en-us': "Recycle",
+		'fr-fr': "Recyclage",
+		'de-de': "Wiederverwertung"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Flip a coin. If heads, put a card in your discard pile on top of your deck.",
-		fr: "Lancez une pièce. Si c'est face, déplacez une carte de votre pile de défausse vers le sommet de votre deck.",
-		de: "Wirf eine Münze. Bei 'Kopf' suche eine Karte aus deinem Ablagestapel und lege sie oben auf dein Deck."
+		'en-us': "Flip a coin. If heads, put a card in your discard pile on top of your deck.",
+		'fr-fr': "Lancez une pièce. Si c'est face, déplacez une carte de votre pile de défausse vers le sommet de votre deck.",
+		'de-de': "Wirf eine Münze. Bei 'Kopf' suche eine Karte aus deinem Ablagestapel und lege sie oben auf dein Deck."
 	},
 
 

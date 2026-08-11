@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Lairon",
-		fr: "Galegon",
-		de: "Stollrak"
+		'en-us': "Lairon",
+		'fr-fr': "Galegon",
+		'de-de': "Stollrak"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Aron",
-		fr: "Galekid"
+		'en-us': "Aron",
+		'fr-fr': "Galekid"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Iron Defense",
-				fr: "Mûr de fer",
-				de: "Iron Defense"
+				'en-us': "Iron Defense",
+				'fr-fr': "Mûr de fer",
+				'de-de': "Iron Defense"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Lairon during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Galegon lors du prochain tour de votre adversaire.",
-				de: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Lairon during your opponent's next turn."
+				'en-us': "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Lairon during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Galegon lors du prochain tour de votre adversaire.",
+				'de-de': "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Lairon during your opponent's next turn."
 			},
 
 		},
@@ -52,9 +52,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
-				fr: "Coup d'boule",
-				de: "Headbutt"
+				'en-us': "Headbutt",
+				'fr-fr': "Coup d'boule",
+				'de-de': "Headbutt"
 			},
 
 			damage: 50,

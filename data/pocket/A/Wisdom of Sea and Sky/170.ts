@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Delibird",
-		fr: "Cadoizo"
+		'en-us': "Delibird",
+		'fr-fr': "Cadoizo"
 	},
 
 	illustrator: "Mékayu",
@@ -18,24 +18,24 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "It carries food all day long. There are tales about\nlost people who were saved by the food it had.",
-		fr: "Il transporte de la nourriture toute la journée. Ses réserves de vivres auraient sauvé la vie de nombreuses personnes en péril."
+		'en-us': "It carries food all day long. There are tales about\nlost people who were saved by the food it had.",
+		'fr-fr': "Il transporte de la nourriture toute la journée. Ses réserves de vivres auraient sauvé la vie de nombreuses personnes en péril."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Stumbling Draw",
-			fr: "Glissé-Pioché"
+			'en-us': "Stumbling Draw",
+			'fr-fr': "Glissé-Pioché"
 		},
 
 		damage: 10,
 		cost: ["Water"],
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte."
 		}
 	}],
 

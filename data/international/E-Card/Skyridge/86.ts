@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Pineco",
-		de: "Tannza"
+		'en-us': "Pineco",
+		'de-de': "Tannza"
 	},
 
 	illustrator: "Midori Harada",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-edge",
-				de: "Risikotackle"
+				'en-us': "Double-edge",
+				'de-de': "Risikotackle"
 			},
 			effect: {
-				en: "Pineco does 10 damage to itself.",
-				de: "Tannza fügt sich selber 10 Schadenspunkte zu."
+				'en-us': "Pineco does 10 damage to itself.",
+				'de-de': "Tannza fügt sich selber 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

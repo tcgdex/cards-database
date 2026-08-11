@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spewpa",
-		fr: "Pérégrain",
-		es: "Spewpa",
-		it: "Spewpa",
-		pt: "Spewpa",
-		de: "Puponcho"
+		'en-us': "Spewpa",
+		'fr-fr': "Pérégrain",
+		'es-es': "Spewpa",
+		'it-it': "Spewpa",
+		'pt-br': "Spewpa",
+		'de-de': "Puponcho"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 80,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Scatterbug",
-		fr: "Lépidonille",
-		es: "Scatterbug",
-		it: "Scatterbug",
-		pt: "Scatterbug",
-		de: "Purmel"
+		'en-us': "Scatterbug",
+		'fr-fr': "Lépidonille",
+		'es-es': "Scatterbug",
+		'it-it': "Scatterbug",
+		'pt-br': "Scatterbug",
+		'de-de': "Purmel"
 	},
 	stage: "Stage1",
 
@@ -32,32 +32,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Wander About",
-			fr: "Vagabondage",
-			es: "Deambular",
-			it: "Gironzolare",
-			pt: "Zanzar",
-			de: "Umherwandern"
+			'en-us': "Wander About",
+			'fr-fr': "Vagabondage",
+			'es-es': "Deambular",
+			'it-it': "Gironzolare",
+			'pt-br': "Zanzar",
+			'de-de': "Umherwandern"
 		},
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
-			es: "Cambia este Pokémon por uno de tus Pokémon en Banca.",
-			it: "Scambia questo Pokémon con uno della tua panchina.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
-			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+			'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+			'fr-fr': "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'es-es': "Cambia este Pokémon por uno de tus Pokémon en Banca.",
+			'it-it': "Scambia questo Pokémon con uno della tua panchina.",
+			'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+			'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 		}
 	}, {
 		cost: ["Grass"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 30

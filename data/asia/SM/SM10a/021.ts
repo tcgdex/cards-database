@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チャーレム",
+		'ja-jp': "チャーレム",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "ダンスの ような 優雅な 動きで 攻撃を かわして 強烈な 一撃を 相手に お見舞いする。",
+		'ja-jp': "ダンスの ような 優雅な 動きで 攻撃を かわして 強烈な 一撃を 相手に お見舞いする。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ヨガパワー" },
 			cost: ["Fighting"],
 			effect: {
-				ja: "ダメカン4個を、相手のポケモンに好きなようにのせる。",
+				'ja-jp': "ダメカン4個を、相手のポケモンに好きなようにのせる。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Fighting", "Fighting"],
 			effect: {
-				ja: "このポケモンに「くろおび」がついているなら、60ダメージ追加。",
+				'ja-jp': "このポケモンに「くろおび」がついているなら、60ダメージ追加。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アサナン",
+		'ja-jp': "アサナン",
 	},
 
 	retreat: 1,

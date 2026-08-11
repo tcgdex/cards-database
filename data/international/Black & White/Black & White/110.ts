@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Black & White'
 
 const card: Card = {
 	name: {
-		en: "Fighting Energy",
-		fr: "Énergie Combat",
-		es: "Energía Lucha",
-		it: "Energia Combattimento",
-		pt: "Energia de Luta",
-		de: "Kampf-Energie"
+		'en-us': "Fighting Energy",
+		'fr-fr': "Énergie Combat",
+		'es-es': "Energía Lucha",
+		'it-it': "Energia Combattimento",
+		'pt-br': "Energia de Luta",
+		'de-de': "Kampf-Energie"
 	},
 
 	illustrator: undefined,
@@ -19,12 +19,12 @@ const card: Card = {
 	energyType: "Normal",
 
 	effect: {
-		en: "",
-		fr: "",
-		es: "",
-		it: "",
-		pt: "",
-		de: ""
+		'en-us': "",
+		'fr-fr': "",
+		'es-es': "",
+		'it-it': "",
+		'pt-br': "",
+		'de-de': ""
 	},
 
 	thirdParty: {

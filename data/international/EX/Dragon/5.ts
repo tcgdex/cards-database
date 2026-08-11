@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Golem",
-		fr: "Grolem",
-		de: "Geowaz"
+		'en-us': "Golem",
+		'fr-fr': "Grolem",
+		'de-de': "Geowaz"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Graveler",
-		fr: "Gravalanch"
+		'en-us': "Graveler",
+		'fr-fr': "Gravalanch"
 	},
 
 	stage: "Stage2",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Vengeance",
-				fr: "Grosse vengeance",
-				de: "Rock Vengeance"
+				'en-us': "Rock Vengeance",
+				'fr-fr': "Grosse vengeance",
+				'de-de': "Rock Vengeance"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each damage counter on all of your Active Pokémon.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur vos Pokémon Actifs.",
-				de: "Does 20 damage plus 10 more damage for each each damage counter on all of your Active Pokémon."
+				'en-us': "Does 20 damage plus 10 more damage for each damage counter on all of your Active Pokémon.",
+				'fr-fr': "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur vos Pokémon Actifs.",
+				'de-de': "Does 20 damage plus 10 more damage for each each damage counter on all of your Active Pokémon."
 			},
 			damage: "20+",
 
@@ -57,14 +57,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Slide",
-				fr: "Éboulement",
-				de: "Rock Slide"
+				'en-us': "Rock Slide",
+				'fr-fr': "Éboulement",
+				'de-de': "Rock Slide"
 			},
 			effect: {
-				en: "Does 20 damage to 2 of your opponent's Benched Pokémon (1 if there is only 1). (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 20 dégâts à deux des Pokémon du banc de votre adversaire (ou un s'il n'y en a qu'un). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
-				de: "Does 20 damage to 2 of your opponent's Benched Pokémon (1 if there is only 1). (Don't apply Weakness and resistance for Benched Pokémon.)"
+				'en-us': "Does 20 damage to 2 of your opponent's Benched Pokémon (1 if there is only 1). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 20 dégâts à deux des Pokémon du banc de votre adversaire (ou un s'il n'y en a qu'un). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
+				'de-de': "Does 20 damage to 2 of your opponent's Benched Pokémon (1 if there is only 1). (Don't apply Weakness and resistance for Benched Pokémon.)"
 			},
 			damage: 60,
 

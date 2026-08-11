@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Chinchou",
-		fr: "Loupio",
-		es: "Chinchou",
-		it: "Chinchou",
-		pt: "Chinchou",
-		de: "Lampi"
+		'en-us': "Chinchou",
+		'fr-fr': "Loupio",
+		'es-es': "Chinchou",
+		'it-it': "Chinchou",
+		'pt-br': "Chinchou",
+		'de-de': "Lampi"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gentle Slap",
-				fr: "Gifle Douce",
-				es: "Bofetada Gentil",
-				it: "Schiaffetto",
-				pt: "Tapinha",
-				de: "Sanfter Hieb"
+				'en-us': "Gentle Slap",
+				'fr-fr': "Gifle Douce",
+				'es-es': "Bofetada Gentil",
+				'it-it': "Schiaffetto",
+				'pt-br': "Tapinha",
+				'de-de': "Sanfter Hieb"
 			},
 
 			damage: 30,
@@ -61,7 +61,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "On the dark ocean floor, its only means of communication is its constantly flashing lights."
+		'en-us': "On the dark ocean floor, its only means of communication is its constantly flashing lights."
 	},
 
 	dexId: [170],

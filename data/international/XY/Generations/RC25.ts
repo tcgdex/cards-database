@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Fletchling",
-		fr: "Passerouge",
+		'en-us': "Fletchling",
+		'fr-fr': "Passerouge",
 	},
 
 	illustrator: "Aya Kusube",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Warble",
-				fr: "Gazouillement",
+				'en-us': "Warble",
+				'fr-fr': "Gazouillement",
 			},
 			effect: {
-				en: "Search your deck for up to 2 Fletchling, reveal them, and put them into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez jusqu'à 2 Passerouge dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for up to 2 Fletchling, reveal them, and put them into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez jusqu'à 2 Passerouge dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -58,7 +58,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Little friends, thanks for always helping me look so cute!",
+		'en-us': "Little friends, thanks for always helping me look so cute!",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "猟犬",
+		'ja-jp': "猟犬",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "報復",
+				'ja-jp': "報復",
 			},
 			effect: {
-				ja: "この攻撃は、houndourのダメージカウンターの数の10倍のダメージを与えます。",
+				'ja-jp': "この攻撃は、houndourのダメージカウンターの数の10倍のダメージを与えます。",
 			},
 		},
 		{
 			cost: ["Fire"],
 			name: {
-				ja: "花火",
+				'ja-jp': "花火",
 			},
 			effect: {
-				ja: "コインをひっくり返します。尾の場合は、ハウンドに取り付けられた消防剤カードを捨ててください。",
+				'ja-jp': "コインをひっくり返します。尾の場合は、ハウンドに取り付けられた消防剤カードを捨ててください。",
 			},
 			damage: 20,
 		},

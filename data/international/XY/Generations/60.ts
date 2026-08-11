@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Crushing Hammer",
-		fr: "Maillet Écrasant",
+		'en-us': "Crushing Hammer",
+		'fr-fr': "Maillet Écrasant",
 	},
 
 	illustrator: "5ban Graphics",
@@ -13,8 +13,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée à l'un des Pokémon de votre adversaire.",
-		en: "Flip a coin. If heads, discard an Energy attached to 1 of your opponent's Pokémon."
+		'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée à l'un des Pokémon de votre adversaire.",
+		'en-us': "Flip a coin. If heads, discard an Energy attached to 1 of your opponent's Pokémon."
 	},
 
 	trainerType: "Item",

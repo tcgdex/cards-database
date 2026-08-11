@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "いちげきウーラオスVMAX",
+		'ja-jp': "いちげきウーラオスVMAX",
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -25,7 +25,7 @@ const card: Card = {
 			damage: 270,
 			cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、すべてトラッシュする。このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このポケモンについているエネルギーを、すべてトラッシュする。このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 	],
@@ -44,7 +44,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "いちげきウーラオスV",
+		'ja-jp': "いちげきウーラオスV",
 	},
 
 	retreat: 3,

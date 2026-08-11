@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タウロス",
+		'ja-jp': "タウロス",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "チャンスをつぶします",
+				'ja-jp': "チャンスをつぶします",
 			},
 			effect: {
-				ja: "ターン中に、手からタウロスをベンチに置いたら、スタジアムカードを捨てることができます。",
+				'ja-jp': "ターン中に、手からタウロスをベンチに置いたら、スタジアムカードを捨てることができます。",
 			},
 		}],
 
@@ -29,16 +29,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "家族を呼びます",
+				'ja-jp': "家族を呼びます",
 			},
 			effect: {
-				ja: "デッキを最大2つの基本的なポケモンを検索し、ベンチに置きます。その後、デッキをシャッフルします。",
+				'ja-jp': "デッキを最大2つの基本的なポケモンを検索し、ベンチに置きます。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ホーン攻撃",
+				'ja-jp': "ホーン攻撃",
 			},
 			damage: 20,
 		},

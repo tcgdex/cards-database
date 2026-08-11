@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Boldore",
-		fr: "Géolithe",
-		es: "Boldore",
-		it: "Boldore",
-		pt: "Boldore",
-		de: "Sedimantur"
+		'en-us': "Boldore",
+		'fr-fr': "Géolithe",
+		'es-es': "Boldore",
+		'it-it': "Boldore",
+		'pt-br': "Boldore",
+		'de-de': "Sedimantur"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Roggenrola",
-		fr: "Nodulithe",
+		'en-us': "Roggenrola",
+		'fr-fr': "Nodulithe",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smack Down",
-				fr: "Anti-Air",
+				'en-us': "Smack Down",
+				'fr-fr': "Anti-Air",
 			},
 			effect: {
-				en: "If the Defending Pokémon has Fighting Resistance, this attack does 60 more damage.",
-				fr: "Si le Pokémon Défenseur a une Résistance à Fighting, cette attaque inflige 60 dégâts supplémentaires.",
+				'en-us': "If the Defending Pokémon has Fighting Resistance, this attack does 60 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur a une Résistance à Fighting, cette attaque inflige 60 dégâts supplémentaires.",
 			},
 			damage: 20,
 
@@ -58,8 +58,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Power Gem",
-				fr: "Rayon Gemme",
+				'en-us': "Power Gem",
+				'fr-fr': "Rayon Gemme",
 			},
 
 			damage: 80,
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "When it overflows with power, the orange crystal on its body glows. It looks for underground water in caves.",
+		'en-us': "When it overflows with power, the orange crystal on its body glows. It looks for underground water in caves.",
 	},
 
 	thirdParty: {

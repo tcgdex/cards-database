@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Holon Transceiver",
-		fr: "Émetteur-récepteur Holon",
-		de: "Holon-Funkgerät"
+		'en-us': "Holon Transceiver",
+		'fr-fr': "Émetteur-récepteur Holon",
+		'de-de': "Holon-Funkgerät"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -15,9 +15,9 @@ const card: Card = {
 	trainerType: "Tool",
 
 	effect: {
-		en: "Search your deck for a Supporter card that has Holon in its name, show it to your opponent, and put it into your hand. Shuffle your deck afterward. Or, search your discard pile for a Supporter card that has Holon in its name, show it to your opponent, and put it into your hand.",
-		fr: "Cherchez dans votre deck une carte Supporter dont le nom comporte Holon, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck. Ou, cherchez dans votre pile de défausse une carte Supporter dont le nom comporte Holon, montrez-la à votre adversaire et placez-la dans votre main.",
-		de: "Search your deck for a Supporter card that has Holon in its name, show it to your opponent, and put it into your hand. Shuffle your deck afterward. Or, search your discard pile for a Supporter card that has Holon in its name, show it to your opponent, and put it into your hand."
+		'en-us': "Search your deck for a Supporter card that has Holon in its name, show it to your opponent, and put it into your hand. Shuffle your deck afterward. Or, search your discard pile for a Supporter card that has Holon in its name, show it to your opponent, and put it into your hand.",
+		'fr-fr': "Cherchez dans votre deck une carte Supporter dont le nom comporte Holon, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck. Ou, cherchez dans votre pile de défausse une carte Supporter dont le nom comporte Holon, montrez-la à votre adversaire et placez-la dans votre main.",
+		'de-de': "Search your deck for a Supporter card that has Holon in its name, show it to your opponent, and put it into your hand. Shuffle your deck afterward. Or, search your discard pile for a Supporter card that has Holon in its name, show it to your opponent, and put it into your hand."
 	},
 
 	thirdParty: {

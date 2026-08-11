@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Torchic",
-		fr: "Poussifeu",
-		de: "Flemmli"
+		'en-us': "Torchic",
+		'fr-fr': "Poussifeu",
+		'de-de': "Flemmli"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
-				fr: "Picpic",
-				de: "Schnabel"
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'de-de': "Schnabel"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fireworks",
-				fr: "Feu d'artifice",
-				de: "Feuerwerk"
+				'en-us': "Fireworks",
+				'fr-fr': "Feu d'artifice",
+				'de-de': "Feuerwerk"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Fire Energy card attached to Torchic.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie  attachée à Poussifeu.",
-				de: "Wirf eine Münze. Entferne bei \"Zahl\" eine -Energiekarte von Flemmli."
+				'en-us': "Flip a coin. If tails, discard a Fire Energy card attached to Torchic.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez une carte Énergie  attachée à Poussifeu.",
+				'de-de': "Wirf eine Münze. Entferne bei \"Zahl\" eine -Energiekarte von Flemmli."
 			},
 			damage: 30,
 

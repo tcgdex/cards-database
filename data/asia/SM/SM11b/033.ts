@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガマゲロゲ",
+		'ja-jp': "ガマゲロゲ",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "こぶしの コブを 振動させると パンチの 威力が 倍増する。 一撃で 大岩を 粉砕。",
+		'ja-jp': "こぶしの コブを 振動させると パンチの 威力が 倍増する。 一撃で 大岩を 粉砕。",
 	},
 
 	stage: "Stage2",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "じならし" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札から好きなカードを1枚選ぶ。残りの山札を切り、選んだカードを山札の上にもどす。",
+				'ja-jp': "自分の番に1回使える。自分の山札から好きなカードを1枚選ぶ。残りの山札を切り、選んだカードを山札の上にもどす。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "自分のベンチのダメカンがのっているポケモンの数×30ダメージ追加。",
+				'ja-jp': "自分のベンチのダメカンがのっているポケモンの数×30ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ガマガル",
+		'ja-jp': "ガマガル",
 	},
 
 	retreat: 3,

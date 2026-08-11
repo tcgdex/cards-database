@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケーシィ",
+		'ja-jp': "ケーシィ",
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "消えます",
+				'ja-jp': "消えます",
 			},
 			effect: {
-				ja: "アブラをデッキにシャッフルします。 （Abraに添付されたすべてのカードを廃棄します。）",
+				'ja-jp': "アブラをデッキにシャッフルします。 （Abraに添付されたすべてのカードを廃棄します。）",
 			},
 		},
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "PsyShock",
+				'ja-jp': "PsyShock",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 10,
 		},

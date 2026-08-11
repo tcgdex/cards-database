@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Scyther",
-		fr: "Insécateur",
-		de: "Sichlor"
+		'en-us': "Scyther",
+		'fr-fr': "Insécateur",
+		'de-de': "Sichlor"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Swords Dance",
-				fr: "Danse-lames",
-				de: "Swords Dance"
+				'en-us': "Swords Dance",
+				'fr-fr': "Danse-lames",
+				'de-de': "Swords Dance"
 			},
 			effect: {
-				en: "During your next turn, Scyther's Slash attack's base damage is 60.",
-				fr: "Lors de votre prochain tour, les dégâts de base de l'attaque Tranche d'Insécateur sont de 60.",
-				de: "During your next turn, Scyther's Slash attack's base damage is 60."
+				'en-us': "During your next turn, Scyther's Slash attack's base damage is 60.",
+				'fr-fr': "Lors de votre prochain tour, les dégâts de base de l'attaque Tranche d'Insécateur sont de 60.",
+				'de-de': "During your next turn, Scyther's Slash attack's base damage is 60."
 			},
 
 		},
@@ -47,9 +47,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
-				fr: "Tranche",
-				de: "Slash"
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+				'de-de': "Slash"
 			},
 
 			damage: 30,
@@ -72,7 +72,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It tears and shreds prey with its wickedly sharp scythes. It very rarely spreads its wings to fly."
+		'en-us': "It tears and shreds prey with its wickedly sharp scythes. It very rarely spreads its wings to fly."
 	},
 
 	variants: [

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Hitmonchan",
-		fr: "Tygnon",
-		es: "Hitmonchan",
-		it: "Hitmonchan",
-		pt: "Hitmonchan",
-		de: "Nockchan"
+		'en-us': "Hitmonchan",
+		'fr-fr': "Tygnon",
+		'es-es': "Hitmonchan",
+		'it-it': "Hitmonchan",
+		'pt-br': "Hitmonchan",
+		'de-de': "Nockchan"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Jab",
-				fr: "Taquet",
-				es: "Puya",
-				it: "Stoccata",
-				pt: "Golpe",
-				de: "Boxschlag"
+				'en-us': "Jab",
+				'fr-fr': "Taquet",
+				'es-es': "Puya",
+				'it-it': "Stoccata",
+				'pt-br': "Golpe",
+				'de-de': "Boxschlag"
 			},
 
 			damage: 30,
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Special Punch",
-				fr: "Punch spécial",
-				es: "Puñetazo Especial",
-				it: "Pugno Speciale",
-				pt: "Soco Especial",
-				de: "Spezialhieb"
+				'en-us': "Special Punch",
+				'fr-fr': "Punch spécial",
+				'es-es': "Puñetazo Especial",
+				'it-it': "Pugno Speciale",
+				'pt-br': "Soco Especial",
+				'de-de': "Spezialhieb"
 			},
 
 			damage: 90,
@@ -75,7 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The spirit of a pro boxer has infused this Pokémon. It throws punches that are faster than a bullet train.",
+		'en-us': "The spirit of a pro boxer has infused this Pokémon. It throws punches that are faster than a bullet train.",
 	},
 
 	thirdParty: {

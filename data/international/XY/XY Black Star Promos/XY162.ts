@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Greninja",
-		fr: "Amphinobi"
+		'en-us': "Greninja",
+		'fr-fr': "Amphinobi"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Frogadier",
-		fr: "Croâporal"
+		'en-us': "Frogadier",
+		'fr-fr': "Croâporal"
 	},
 
 	stage: "Stage2",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Aqua Shower",
-				fr: "Aqua-douche"
+				'en-us': "Aqua Shower",
+				'fr-fr': "Aqua-douche"
 			},
 			effect: {
-				en: "This attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 20 dégâts à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+				'en-us': "This attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 20 dégâts à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 
 		},
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dual Cut",
-				fr: "Coupe Double"
+				'en-us': "Dual Cut",
+				'fr-fr': "Coupe Double"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 60 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face."
+				'en-us': "Flip 2 coins. This attack does 60 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face."
 			},
 			damage: 60,
 
@@ -72,7 +72,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
+		'en-us': "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
 	},
 
 	thirdParty: {

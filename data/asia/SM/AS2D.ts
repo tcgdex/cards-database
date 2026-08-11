@@ -1,10 +1,10 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../SM'
 
 const set: Set = {
 	id: 'AS2D',
 	name: {
-		id: 'Starter Deck GX Kebangkitan Legenda'
+		'id-id': 'Starter Deck GX Kebangkitan Legenda'
 	},
 
 	serie: serie,

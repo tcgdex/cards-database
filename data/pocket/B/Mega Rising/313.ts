@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Persian"
+		'en-us': "Persian"
 	},
 
 	illustrator: "Taiga Kasai",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Meowth"
+		'en-us': "Meowth"
 	},
 
 	description: {
-		en: "Although its fur has many admirers, it is tough to\nraise as a pet because of its fickle meanness."
+		'en-us': "Although its fur has many admirers, it is tough to\nraise as a pet because of its fickle meanness."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Shadow Claw"
+			'en-us': "Shadow Claw"
 		},
 
 		damage: 40,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, discard a random card from your opponent's hand."
+			'en-us': "Flip a coin. If heads, discard a random card from your opponent's hand."
 		}
 	}],
 

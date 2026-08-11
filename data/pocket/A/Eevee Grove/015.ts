@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Salazzle",
-		fr: "Malamandre"
+		'en-us': "Salazzle",
+		'fr-fr': "Malamandre"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Salandit"
+		'en-us': "Salandit"
 	},
 
 	description: {
-		en: "Salazzle makes its opponents light-headed with\npoisonous gas, then captivates them with alluring\nmovements to turn them into loyal servants.",
-		fr: "Il étourdit ses adversaires avec son gaz toxique, puis il les asservit en exécutant une danse envoûtante."
+		'en-us': "Salazzle makes its opponents light-headed with\npoisonous gas, then captivates them with alluring\nmovements to turn them into loyal servants.",
+		'fr-fr': "Il étourdit ses adversaires avec son gaz toxique, puis il les asservit en exécutant une danse envoûtante."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Combustion",
-			fr: "Fournaise"
+			'en-us': "Combustion",
+			'fr-fr': "Fournaise"
 		},
 
 		damage: 40,

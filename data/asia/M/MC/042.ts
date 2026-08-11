@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャローダex",
+		'ja-jp': "ジャローダex",
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ロイヤルエール" },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分のポケモンが使うワザの、相手のバトルポケモンへのダメージは「+20」される。",
+				'ja-jp': "このポケモンがいるかぎり、自分のポケモンが使うワザの、相手のバトルポケモンへのダメージは「+20」される。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Grass", "Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "のぞむなら、自分の山札から好きなカードを3枚まで選び、手札に加える。そして山札を切る。",
+				'ja-jp': "のぞむなら、自分の山札から好きなカードを3枚まで選び、手札に加える。そして山札を切る。",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ジャノビー",
+		'ja-jp': "ジャノビー",
 	},
 
 	retreat: 2,

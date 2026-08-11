@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2013"
 
 const card: Card = {
 	name: {
-		fr: "Voltali",
+		'fr-fr': "Voltali",
 	},
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "None",
@@ -20,20 +20,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				fr: "Pistolectrique",
+				'fr-fr': "Pistolectrique",
 			},
 			effect: {
-				fr: "Vous pouvez défausser une Énergie foudre attachée à ce Pokémon. Dans ce cas, cette attaque inflige 40 dégâts supplémentaires.",
+				'fr-fr': "Vous pouvez défausser une Énergie foudre attachée à ce Pokémon. Dans ce cas, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: "20+",
 		},
 		{
 			cost: ["Lightning", "Colorless", "Colorless"],
 			name: {
-				fr: "Crocs Éclair",
+				'fr-fr': "Crocs Éclair",
 			},
 			effect: {
-				fr: "Lancez 4 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: "40x",
 		},

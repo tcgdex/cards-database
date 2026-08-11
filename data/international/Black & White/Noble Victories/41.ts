@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Eelektross",
-		fr: "Ohmassacre",
-		es: "Eelektross",
-		it: "Eelektross",
-		pt: "Eelektross",
-		de: "Zapplarang"
+		'en-us': "Eelektross",
+		'fr-fr': "Ohmassacre",
+		'es-es': "Eelektross",
+		'it-it': "Eelektross",
+		'pt-br': "Eelektross",
+		'de-de': "Zapplarang"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eelektrik",
-		fr: "Lampéroie",
+		'en-us': "Eelektrik",
+		'fr-fr': "Lampéroie",
 	},
 
 	stage: "Stage2",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Acid",
-				fr: "Acide",
+				'en-us': "Acid",
+				'fr-fr': "Acide",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 			damage: 30,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wild Charge",
-				fr: "Éclair Fou",
+				'en-us': "Wild Charge",
+				'fr-fr': "Éclair Fou",
 			},
 			effect: {
-				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				'en-us': "This Pokémon does 10 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 10 dégâts.",
 			},
 			damage: 90,
 
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
+		'en-us': "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
 	},
 
 	thirdParty: {

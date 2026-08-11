@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Marill",
-		de: "Marill"
+		'en-us': "Marill",
+		'de-de': "Marill"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Minor Errand-Running",
-				de: "Minor Errand-Running"
+				'en-us': "Minor Errand-Running",
+				'de-de': "Minor Errand-Running"
 			},
 			effect: {
-				en: "Search your deck for up to 2 basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
-				de: "Search your deck for up to 2 basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward."
+				'en-us': "Search your deck for up to 2 basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+				'de-de': "Search your deck for up to 2 basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward."
 			},
 
 		},

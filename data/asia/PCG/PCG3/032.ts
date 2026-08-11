@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キングドラ",
+		'ja-jp': "キングドラ",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "ドラゴンベール",
+				'ja-jp': "ドラゴンベール",
 			},
 			effect: {
-				ja: "Kingdraが遊んでいる限り、それぞれのアクティブなPokã©Monには弱点はありません。",
+				'ja-jp': "Kingdraが遊んでいる限り、それぞれのアクティブなPokã©Monには弱点はありません。",
 			},
 		}],
 
@@ -29,20 +29,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "ハイパーワールプール",
+				'ja-jp': "ハイパーワールプール",
 			},
 			effect: {
-				ja: "尾がなくなるまでコインをひっくり返します。各ヘッドについて、防御ポケモンに取り付けられたエネルギーカードを捨てます。",
+				'ja-jp': "尾がなくなるまでコインをひっくり返します。各ヘッドについて、防御ポケモンに取り付けられたエネルギーカードを捨てます。",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				ja: "アクアソニック",
+				'ja-jp': "アクアソニック",
 			},
 			effect: {
-				ja: "この攻撃の損傷は、抵抗の影響を受けません。",
+				'ja-jp': "この攻撃の損傷は、抵抗の影響を受けません。",
 			},
 			damage: 50,
 		},

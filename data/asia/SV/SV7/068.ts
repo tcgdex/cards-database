@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "齒輪組",
 		'zh-cn': "齒輪組",
-		ja: "ギギアル"
+		'ja-jp': "ギギアル"
 	},
 
 	illustrator: "Mina Nakai",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "如果認真起來，大齒輪外圈的 齒輪會和小齒輪完全接合。 此時轉速將會大幅提升。",
 		'zh-cn': "如果認真起來，大齒輪外圈的 齒輪會和小齒輪完全接合。 此時轉速將會大幅提升。",
-		ja: "本気の ときは でかギアの 外の 歯車と ちびギアが 合致。 回転速度が 飛躍 するのだ。"
+		'ja-jp': "本気の ときは でかギアの 外の 歯車と ちびギアが 合致。 回転速度が 飛躍 するのだ。"
 	},
 
 	stage: "Stage1",
@@ -27,13 +27,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "鐵之衝撞",
 			'zh-cn': "鐵之衝撞",
-			ja: "アイアンタックル"
+			'ja-jp': "アイアンタックル"
 		},
 
 		effect: {
 			'zh-tw': "這隻寶可夢也受到20點傷害。",
 			'zh-cn': "這隻寶可夢也受到20點傷害。",
-			ja: "このポケモンにも20ダメージ。"
+			'ja-jp': "このポケモンにも20ダメージ。"
 		},
 
 		damage: 60,

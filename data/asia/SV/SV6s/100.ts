@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Hisuian Arcanine"
+		'id-id': "Hisuian Arcanine"
 	},
 
 	illustrator: "SIE NANAHARA",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		id: "Arcanine mengenakan api membara di taringnya dan menerkam. Walau tubuhnya besar, Pokémon ini melakukan gerak tipu dengan cemerlang. Wujudnya saat mempermainkan musuh bagaikan peragaan tari."
+		'id-id': "Arcanine mengenakan api membara di taringnya dan menerkam. Walau tubuhnya besar, Pokémon ini melakukan gerak tipu dengan cemerlang. Wujudnya saat mempermainkan musuh bagaikan peragaan tari."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Pride Fang"
+			'id-id': "Pride Fang"
 		},
 
 		effect: {
-			id: "Jika Pokémon Cadangan sendiri memiliki Token Kerusakan, kerusakan yang diberikan bertambah sejumlah 90."
+			'id-id': "Jika Pokémon Cadangan sendiri memiliki Token Kerusakan, kerusakan yang diberikan bertambah sejumlah 90."
 		},
 
 		damage: "30+"
 	}, {
 		name: {
-			id: "Kobaran Api Penghangus"
+			'id-id': "Kobaran Api Penghangus"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
 		},
 
 		damage: 90,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アンノーンV",
+		'ja-jp': "アンノーンV",
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -20,14 +20,14 @@ const card: Card = {
 			damage: 30,
 			cost: ["Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 		{
 			name: { ja: "ビクトリーシンボル" },
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザを使ったとき、自分のサイドの残り枚数が1枚なら、この対戦は自分の勝ちになる。",
+				'ja-jp': "このワザを使ったとき、自分のサイドの残り枚数が1枚なら、この対戦は自分の勝ちになる。",
 			},
 		},
 	],

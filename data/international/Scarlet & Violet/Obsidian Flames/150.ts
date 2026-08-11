@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Scalpereur",
-		en: "Kingambit",
-		es: "Kingambit",
-		it: "Kingambit",
-		pt: "Kingambit",
-		de: "Gladimperio"
+		'fr-fr': "Scalpereur",
+		'en-us': "Kingambit",
+		'es-es': "Kingambit",
+		'it-it': "Kingambit",
+		'pt-br': "Kingambit",
+		'de-de': "Gladimperio"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 180,
 	types: ["Metal"],
 	evolveFrom: {
-		fr: "Scalproie",
-		en: "Bisharp",
-		es: "Bisharp",
-		it: "Bisharp",
-		pt: "Bisharp",
-		de: "Caesurio"
+		'fr-fr': "Scalproie",
+		'en-us': "Bisharp",
+		'es-es': "Bisharp",
+		'it-it': "Bisharp",
+		'pt-br': "Bisharp",
+		'de-de': "Caesurio"
 	},
 	stage: "Stage2",
 
@@ -32,32 +32,32 @@ const card: Card = {
 		cost: ["Metal"],
 
 		name: {
-			fr: "Au Tapis",
-			en: "Strike Down",
-			es: "Derrotar",
-			it: "Atterramento",
-			pt: "Derrocada",
-			de: "Niederstrecken"
+			'fr-fr': "Au Tapis",
+			'en-us': "Strike Down",
+			'es-es': "Derrotar",
+			'it-it': "Atterramento",
+			'pt-br': "Derrocada",
+			'de-de': "Niederstrecken"
 		},
 
 		effect: {
-			fr: "Si le Pokémon Actif de votre adversaire a au moins 4 marqueurs de dégâts, il est mis K.O.",
-			en: "If your opponent's Active Pokémon has 4 or more damage counters on it, that Pokémon is Knocked Out.",
-			es: "Si el Pokémon Activo de tu rival tiene 4 contadores de daño o más sobre él, ese Pokémon queda Fuera de Combate.",
-			it: "Se il Pokémon attivo del tuo avversario ha quattro o più segnalini danno, quel Pokémon viene messo KO.",
-			pt: "Se o Pokémon Ativo do seu oponente tiver 4 ou mais contadores de dano nele, aquele Pokémon será Nocauteado.",
-			de: "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 4 Schadensmarken liegen, ist jenes Pokémon kampfunfähig."
+			'fr-fr': "Si le Pokémon Actif de votre adversaire a au moins 4 marqueurs de dégâts, il est mis K.O.",
+			'en-us': "If your opponent's Active Pokémon has 4 or more damage counters on it, that Pokémon is Knocked Out.",
+			'es-es': "Si el Pokémon Activo de tu rival tiene 4 contadores de daño o más sobre él, ese Pokémon queda Fuera de Combate.",
+			'it-it': "Se il Pokémon attivo del tuo avversario ha quattro o più segnalini danno, quel Pokémon viene messo KO.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente tiver 4 ou mais contadores de dano nele, aquele Pokémon será Nocauteado.",
+			'de-de': "Wenn auf dem Aktiven Pokémon deines Gegners mindestens 4 Schadensmarken liegen, ist jenes Pokémon kampfunfähig."
 		}
 	}, {
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Déchirure Massive",
-			en: "Massive Rend",
-			es: "Corte Masivo",
-			it: "Supersquarcio",
-			pt: "Laceração Massiva",
-			de: "Riesiger Riss"
+			'fr-fr': "Déchirure Massive",
+			'en-us': "Massive Rend",
+			'es-es': "Corte Masivo",
+			'it-it': "Supersquarcio",
+			'pt-br': "Laceração Massiva",
+			'de-de': "Riesiger Riss"
 		},
 
 		damage: 140
@@ -79,7 +79,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "Only a Bisharp that stands above all others in its vast army can evolve into Kingambit.",
+		'en-us': "Only a Bisharp that stands above all others in its vast army can evolve into Kingambit.",
 	},
 
 	variants: [

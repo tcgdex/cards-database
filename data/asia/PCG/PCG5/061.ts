@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダンズパース",
+		'ja-jp': "ダンズパース",
 	},
 
 	rarity: "Uncommon",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "デッドロック",
+				'ja-jp': "デッドロック",
 			},
 			effect: {
-				ja: "DunsparceがあなたのアクティブなPokã©Monである限り、あなたの相手のDunspheceは攻撃できません。",
+				'ja-jp': "DunsparceがあなたのアクティブなPokã©Monである限り、あなたの相手のDunspheceは攻撃できません。",
 			},
 		}],
 
@@ -29,19 +29,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ダウンドロー",
+				'ja-jp': "ダウンドロー",
 			},
 			effect: {
-				ja: "デッキの底から2枚のカードを描きます。",
+				'ja-jp': "デッキの底から2枚のカードを描きます。",
 			},
 		},
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "トリッピングターン",
+				'ja-jp': "トリッピングターン",
 			},
 			effect: {
-				ja: "防御ポケモンは今混乱しています。 Dunspemonをベンチしたポケモンと一緒に切り替えることができます。",
+				'ja-jp': "防御ポケモンは今混乱しています。 Dunspemonをベンチしたポケモンと一緒に切り替えることができます。",
 			},
 		},
 	],

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カルバンハ",
+		'ja-jp': "カルバンハ",
 	},
 
 	rarity: "Uncommon",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "シャープフィン",
+				'ja-jp': "シャープフィン",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Darkness", "Colorless"],
 			name: {
-				ja: "怒り",
+				'ja-jp': "怒り",
 			},
 			effect: {
-				ja: "Carvanhaの各ダメージカウンターの10ダメージと10ダメージをさらに10回します。",
+				'ja-jp': "Carvanhaの各ダメージカウンターの10ダメージと10ダメージをさらに10回します。",
 			},
 		},
 	],

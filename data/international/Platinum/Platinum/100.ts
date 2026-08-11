@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Torkoal",
-		fr: "Chartor",
-		de: "Qurtel"
+		'en-us': "Torkoal",
+		'fr-fr': "Chartor",
+		'de-de': "Qurtel"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Super Singe",
-				fr: "Ça sent le roussi!",
-				de: "Super Singe"
+				'en-us': "Super Singe",
+				'fr-fr': "Ça sent le roussi!",
+				'de-de': "Super Singe"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Burned."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Burned."
 			},
 			damage: 10,
 
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flame Ball",
-				fr: "Boule de feu",
-				de: "Flame Ball"
+				'en-us': "Flame Ball",
+				'fr-fr': "Boule de feu",
+				'de-de': "Flame Ball"
 			},
 			effect: {
-				en: "Move an Energy card attached to Torkoal to 1 of your Benched Pokémon.",
-				fr: "Déplacez une carte Énergie attachée à Charcor sur 1 des Pokémon de votre Banc.",
-				de: "Move an Energy card attached to Torkoal to 1 of your Benched Pokémon."
+				'en-us': "Move an Energy card attached to Torkoal to 1 of your Benched Pokémon.",
+				'fr-fr': "Déplacez une carte Énergie attachée à Charcor sur 1 des Pokémon de votre Banc.",
+				'de-de': "Move an Energy card attached to Torkoal to 1 of your Benched Pokémon."
 			},
 			damage: 40,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It burns coal inside its shell for energy. It blows out black soot if it is endangered."
+		'en-us': "It burns coal inside its shell for energy. It blows out black soot if it is endangered."
 	},
 
 	variants: [

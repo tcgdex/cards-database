@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Raichu",
-		fr: "Raichu",
-		de: "Raichu"
+		'en-us': "Raichu",
+		'fr-fr': "Raichu",
+		'de-de': "Raichu"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pikachu",
-		fr: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Plasma",
-				fr: "Plasma",
-				de: "Plasma"
+				'en-us': "Plasma",
+				'fr-fr': "Plasma",
+				'de-de': "Plasma"
 			},
 			effect: {
-				en: "Search your discard pile for a Lightning Energy card and attach it to Raichu.",
-				fr: "Cherchez dans votre pile de défausse une carte Énergie  et attachez-la à Raichu.",
-				de: "Durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an Raichu an."
+				'en-us': "Search your discard pile for a Lightning Energy card and attach it to Raichu.",
+				'fr-fr': "Cherchez dans votre pile de défausse une carte Énergie  et attachez-la à Raichu.",
+				'de-de': "Durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an Raichu an."
 			},
 			damage: 10,
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunderbolt",
-				fr: "Tonnerre",
-				de: "Donnerblitz"
+				'en-us': "Thunderbolt",
+				'fr-fr': "Tonnerre",
+				'de-de': "Donnerblitz"
 			},
 			effect: {
-				en: "Discard all Energy cards attached to Raichu.",
-				fr: "Défaussez toutes les cartes Énergie attachées à Raichu.",
-				de: "Entferne alle an Raichu angelegten Energiekarten und lege sie auf deinen Ablagestapel."
+				'en-us': "Discard all Energy cards attached to Raichu.",
+				'fr-fr': "Défaussez toutes les cartes Énergie attachées à Raichu.",
+				'de-de': "Entferne alle an Raichu angelegten Energiekarten und lege sie auf deinen Ablagestapel."
 			},
 			damage: 100,
 

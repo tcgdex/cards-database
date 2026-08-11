@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マッスグマ",
+		'ja-jp': "マッスグマ",
 	},
 
 	illustrator: "nagimiso",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "抜群の 瞬発力と  するどいツメで 獲物を しとめる。  曲がった 道を 走るのは 下手。",
+		'ja-jp': "抜群の 瞬発力と  するどいツメで 獲物を しとめる。  曲がった 道を 走るのは 下手。",
 	},
 
 	stage: "Stage1",
@@ -28,7 +28,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "ジグザグマ",
+		'ja-jp': "ジグザグマ",
 	},
 
 	retreat: 1,

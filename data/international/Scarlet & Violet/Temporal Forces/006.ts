@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shroomish",
-		fr: "Balignon",
-		es: "Shroomish",
-		it: "Shroomish",
-		pt: "Shroomish",
-		de: "Knilz"
+		'en-us': "Shroomish",
+		'fr-fr': "Balignon",
+		'es-es': "Shroomish",
+		'it-it': "Shroomish",
+		'pt-br': "Shroomish",
+		'de-de': "Knilz"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Double Headbutt",
-			fr: "Double Coup d'Boule",
-			es: "Doble Cabezazo",
-			it: "Doppia Bottintesta",
-			pt: "Cabeçada Dupla",
-			de: "Doppelte Kopfnuss"
+			'en-us': "Double Headbutt",
+			'fr-fr': "Double Coup d'Boule",
+			'es-es': "Doble Cabezazo",
+			'it-it': "Doppia Bottintesta",
+			'pt-br': "Cabeçada Dupla",
+			'de-de': "Doppelte Kopfnuss"
 		},
 
 		effect: {
-			en: "Flip 2 coins. This attack does 10 damage for each heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
-			es: "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 10 pontos de dano para cada cara.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
+			'en-us': "Flip 2 coins. This attack does 10 damage for each heads.",
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts pour chaque côté face.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 10 puntos de daño por cada cara.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 10 pontos de dano para cada cara.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 10 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "10×"
@@ -46,12 +46,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Seed Bomb",
-			fr: "Canon Graine",
-			es: "Bomba Germen",
-			it: "Semebomba",
-			pt: "Bomba de Sementes",
-			de: "Samenbomben"
+			'en-us': "Seed Bomb",
+			'fr-fr': "Canon Graine",
+			'es-es': "Bomba Germen",
+			'it-it': "Semebomba",
+			'pt-br': "Bomba de Sementes",
+			'de-de': "Samenbomben"
 		},
 
 		damage: 20
@@ -67,7 +67,7 @@ const card: Card = {
 	regulationMark: "H",
 
 	description: {
-		en: "If it senses danger, it scatters spores from the top of its head to protect itself.",
+		'en-us': "If it senses danger, it scatters spores from the top of its head to protect itself.",
 	},
 
 	variants: [

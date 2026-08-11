@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM2K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カイリキー",
+		'ja-jp': "カイリキー",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "メガトン級の パンチを 放ち 立ちふさがる 敵を 地平線の 彼方まで ぶっ飛ばすのだ。",
+		'ja-jp': "メガトン級の パンチを 放ち 立ちふさがる 敵を 地平線の 彼方まで ぶっ飛ばすのだ。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20+",
 			cost: ["Fighting", "Fighting"],
 			effect: {
-				ja: "前の相手の番に、相手がとったサイドの枚数x80ダメージ追加。",
+				'ja-jp': "前の相手の番に、相手がとったサイドの枚数x80ダメージ追加。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 150,
 			cost: ["Fighting", "Fighting", "Fighting"],
 			effect: {
-				ja: "このポケモンにも30ダメージ。",
+				'ja-jp': "このポケモンにも30ダメージ。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴーリキー",
+		'ja-jp': "ゴーリキー",
 	},
 
 	retreat: 3,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Octillery",
-		fr: "Octillery",
-		de: "Octillery"
+		'en-us': "Octillery",
+		'fr-fr': "Octillery",
+		'de-de': "Octillery"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Remoraid",
-		fr: "Rémoraid"
+		'en-us': "Remoraid",
+		'fr-fr': "Rémoraid"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crash Bomber",
-				fr: "Bombardier écrasant",
-				de: "Trümmerbombe"
+				'en-us': "Crash Bomber",
+				'fr-fr': "Bombardier écrasant",
+				'de-de': "Trümmerbombe"
 			},
 			effect: {
-				en: "If the Defending Pokémon has any Special Energy cards attached to it, this attack does 30 damage plus 30 more damage. Then, discard a Special Energy card attached to the Defending Pokémon.",
-				fr: "Si le Pokémon Défenseur possède des cartes Énergie Spéciale, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires. Ensuite, défaussez une carte Énergie Spéciale attachée au Pokémon Défenseur.",
-				de: "Wenn am Verteidigenden Pokémon mindestens 1 Spezialenergiekarte angelegt ist, fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu. Danach wähle 1 am Verteidigenden Pokémon angelegte Spezialenergiekarte und lege sie auf den Ablagestapel deines Gegners."
+				'en-us': "If the Defending Pokémon has any Special Energy cards attached to it, this attack does 30 damage plus 30 more damage. Then, discard a Special Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Si le Pokémon Défenseur possède des cartes Énergie Spéciale, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires. Ensuite, défaussez une carte Énergie Spéciale attachée au Pokémon Défenseur.",
+				'de-de': "Wenn am Verteidigenden Pokémon mindestens 1 Spezialenergiekarte angelegt ist, fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu. Danach wähle 1 am Verteidigenden Pokémon angelegte Spezialenergiekarte und lege sie auf den Ablagestapel deines Gegners."
 			},
 			damage: "30+",
 
@@ -55,14 +55,14 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Aqua Liner",
-				fr: "Aqua-paquebot",
-				de: "Wasserrohr"
+				'en-us': "Aqua Liner",
+				'fr-fr': "Aqua-paquebot",
+				'de-de': "Wasserrohr"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Benched Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon de Banc de votre adversaire. Cette attaque lui inflige 40 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Wähle 1 Pokémon auf der Bank deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 1 of your opponent's Benched Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 1 des Pokémon de Banc de votre adversaire. Cette attaque lui inflige 40 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Wähle 1 Pokémon auf der Bank deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -78,8 +78,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It lives in the gaps of boulders and in holes on the seafloor. Its suction cups grip prey tightly.",
-		fr: "Il hante les fissures dans la roche et les trous au fond de la mer. Ses ventouses ne lâchent jamais prise."
+		'en-us': "It lives in the gaps of boulders and in holes on the seafloor. Its suction cups grip prey tightly.",
+		'fr-fr': "Il hante les fissures dans la roche et les trous au fond de la mer. Ses ventouses ne lâchent jamais prise."
 	},
 
 	thirdParty: {

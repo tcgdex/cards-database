@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドラメシヤ",
+		'ja-jp': "ドラメシヤ",
 		'zh-tw': "多龍梅西亞",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "古代の 海で 暮らしていた。 ゴーストポケモンとして よみがえり かつての すみかを さまよっている。",
+		'ja-jp': "古代の 海で 暮らしていた。 ゴーストポケモンとして よみがえり かつての すみかを さまよっている。",
 		'zh-tw': "曾經棲息在古代的大海。在重生為幽靈寶可夢後， 會在昔日的住處徘徊。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "とつげき",
+				'ja-jp': "とつげき",
 				'zh-tw': "突擊",
 			},
 			damage: 30,
 			cost: ["Psychic"],
 			effect: {
-				ja: "このポケモンにも10ダメージ。",
+				'ja-jp': "このポケモンにも10ダメージ。",
 				'zh-tw': "這隻寶可夢也受到10點傷害。",
 			},
 		},

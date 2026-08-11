@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Starly",
-		fr: "Étourmi",
-		es: "Starly",
-		it: "Starly",
-		pt: "Starly",
-		de: "Staralili"
+		'en-us': "Starly",
+		'fr-fr': "Étourmi",
+		'es-es': "Starly",
+		'it-it': "Starly",
+		'pt-br': "Starly",
+		'de-de': "Staralili"
 	},
 
 	illustrator: "miki kudo",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bug Search",
-				fr: "Recherche Insecte",
-				es: "Búsqueda de Bichos",
-				it: "Coleoricerca",
-				pt: "Busca de Inseto",
-				de: "Käfersuche"
+				'en-us': "Bug Search",
+				'fr-fr': "Recherche Insecte",
+				'es-es': "Búsqueda de Bichos",
+				'it-it': "Coleoricerca",
+				'pt-br': "Busca de Inseto",
+				'de-de': "Käfersuche"
 			},
 			effect: {
-				en: "Your opponent reveals their hand.",
-				fr: "Votre adversaire dévoile sa main.",
-				es: "Tu rival enseña las cartas de su mano.",
-				it: "Il tuo avversario mostra le carte che ha in mano.",
-				pt: "Seu oponente revela a própria mão.",
-				de: "Dein Gegner zeigt dir seine Handkarten."
+				'en-us': "Your opponent reveals their hand.",
+				'fr-fr': "Votre adversaire dévoile sa main.",
+				'es-es': "Tu rival enseña las cartas de su mano.",
+				'it-it': "Il tuo avversario mostra le carte che ha in mano.",
+				'pt-br': "Seu oponente revela a própria mão.",
+				'de-de': "Dein Gegner zeigt dir seine Handkarten."
 			},
 
 		},
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flap",
-				fr: "Battement",
-				es: "Aleteo",
-				it: "Alabattito",
-				pt: "Asa",
-				de: "Flattern"
+				'en-us': "Flap",
+				'fr-fr': "Battement",
+				'es-es': "Aleteo",
+				'it-it': "Alabattito",
+				'pt-br': "Asa",
+				'de-de': "Flattern"
 			},
 
 			damage: 20,
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They flock in great numbers. Though small, they flap their wings with great power.",
+		'en-us': "They flock in great numbers. Though small, they flap their wings with great power.",
 	},
 
 	thirdParty: {

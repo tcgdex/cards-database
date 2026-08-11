@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "บูเบอร์",
-		id: "Magmar"
+		'th-th': "บูเบอร์",
+		'id-id': "Magmar"
 	},
 
 	illustrator: "miki kudo",
@@ -15,28 +15,28 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		th: "ทั่วตัวนั้นเผาไหม้อยู่ตลอดเวลา เป็นที่หวาดกลัวเพราะเป็นหนึ่งในสาเหตุของไฟไหม้",
-		id: "Seluruh tubuh Magmar selalu terbakar. Pokémon ini ditakuti sebagai salah satu penyebab terjadinya kebakaran."
+		'th-th': "ทั่วตัวนั้นเผาไหม้อยู่ตลอดเวลา เป็นที่หวาดกลัวเพราะเป็นหนึ่งในสาเหตุของไฟไหม้",
+		'id-id': "Seluruh tubuh Magmar selalu terbakar. Pokémon ini ditakuti sebagai salah satu penyebab terjadinya kebakaran."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "รวบรวม",
-			id: "Mengumpulkan"
+			'th-th': "รวบรวม",
+			'id-id': "Mengumpulkan"
 		},
 
 		effect: {
-			th: "จั่วการ์ด 1 ใบจากสำรับการ์ดฝ่ายเรา",
-			id: "Ambil 1 kartu dari atas Deck sendiri."
+			'th-th': "จั่วการ์ด 1 ใบจากสำรับการ์ดฝ่ายเรา",
+			'id-id': "Ambil 1 kartu dari atas Deck sendiri."
 		},
 
 		cost: ["Fire"]
 	}, {
 		name: {
-			th: "พ่นอัคคี",
-			id: "Memuntahkan Api"
+			'th-th': "พ่นอัคคี",
+			'id-id': "Memuntahkan Api"
 		},
 
 		damage: 40,

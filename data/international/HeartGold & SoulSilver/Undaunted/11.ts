@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Dodrio",
-		fr: "Dodrio",
-		de: "Dodri"
+		'en-us': "Dodrio",
+		'fr-fr': "Dodrio",
+		'de-de': "Dodri"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Doduo",
-		fr: "Doduo"
+		'en-us': "Doduo",
+		'fr-fr': "Doduo"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Retreat Aid",
-				fr: "Soutien de retraite",
-				de: "Rückzugshilfe"
+				'en-us': "Retreat Aid",
+				'fr-fr': "Soutien de retraite",
+				'de-de': "Rückzugshilfe"
 			},
 			effect: {
-				en: "As long as Dodrio is on your Bench, your Active Pokémon's Retreat Cost is ColorlessColorless less.",
-				fr: "Tant que Dodrio est sur votre Banc, le Coût de retraite de votre Pokémon Actif est réduit de ColorlessColorless.",
-				de: "Solange Dodri auf deiner Bank sitzt, betragen die Rückzugskosten deines Aktiven Pokémon  weniger."
+				'en-us': "As long as Dodrio is on your Bench, your Active Pokémon's Retreat Cost is ColorlessColorless less.",
+				'fr-fr': "Tant que Dodrio est sur votre Banc, le Coût de retraite de votre Pokémon Actif est réduit de ColorlessColorless.",
+				'de-de': "Solange Dodri auf deiner Bank sitzt, betragen die Rückzugskosten deines Aktiven Pokémon  weniger."
 			}
 		},
 	],
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Incessant Peck",
-				fr: "Rafal’Bec",
-				de: "Dauerpicker"
+				'en-us': "Incessant Peck",
+				'fr-fr': "Rafal’Bec",
+				'de-de': "Dauerpicker"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 20 damage plus 20 more damage for each heads.",
-				fr: "Lancez une pièce jusqu’à ce qu’elle tombe sur pile.  Cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque côté face.",
-				de: "Wirf solange 1 Münze, bis das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 20 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				'en-us': "Flip a coin until you get tails. This attack does 20 damage plus 20 more damage for each heads.",
+				'fr-fr': "Lancez une pièce jusqu’à ce qu’elle tombe sur pile.  Cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque côté face.",
+				'de-de': "Wirf solange 1 Münze, bis das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 20 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
 			damage: "20+",
 
@@ -82,7 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It collects data and plans three times as wisely, but it may think too much and fall into a state of immobility."
+		'en-us': "It collects data and plans three times as wisely, but it may think too much and fall into a state of immobility."
 	},
 
 	variants: [

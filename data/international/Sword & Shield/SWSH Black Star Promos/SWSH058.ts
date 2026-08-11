@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Alcremie",
-		fr: "Charmilly",
-		es: "Alcremie",
-		it: "Alcremie",
-		pt: "Alcremie",
-		de: "Pokusan"
+		'en-us': "Alcremie",
+		'fr-fr': "Charmilly",
+		'es-es': "Alcremie",
+		'it-it': "Alcremie",
+		'pt-br': "Alcremie",
+		'de-de': "Pokusan"
 	},
 
 	illustrator: "sui",
@@ -20,51 +20,51 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Milcery",
-		fr: "Crèmy",
-		de: "Hokumil",
-		es: "Milcery",
-		pt: "Milcery",
-		it: "Milcery"
+		'en-us': "Milcery",
+		'fr-fr': "Crèmy",
+		'de-de': "Hokumil",
+		'es-es': "Milcery",
+		'pt-br': "Milcery",
+		'it-it': "Milcery"
 	},
 
 	attacks: [{
 		name: {
-			en: "Decorate",
-			fr: "Nappage",
-			es: "Decoración",
-			it: "Decorazione",
-			pt: "Decorar",
-			de: "Verzierung"
+			'en-us': "Decorate",
+			'fr-fr': "Nappage",
+			'es-es': "Decoración",
+			'it-it': "Decorazione",
+			'pt-br': "Decorar",
+			'de-de': "Verzierung"
 		},
 
 		effect: {
-			en: "Attach any number of basic Energy cards from your hand to your Pokémon in any way you like.",
-			fr: "Attachez le nombre de cartes Énergie de base voulues de votre main à vos Pokémon comme il vous plaît.",
-			es: "Une cualquier cantidad de cartas de Energía Básica de tu mano a tus Pokémon de la manera que desees.",
-			it: "Assegna ai tuoi Pokémon un numero qualsiasi di carte Energia base dalla tua mano nel modo che preferisci.",
-			pt: "Ligue qualquer número de cartas de Energia básica da sua mão aos seus Pokémon como desejar.",
-			de: "Lege beliebig viele Basis-Energiekarten aus deiner Hand beliebig an deine Pokémon an."
+			'en-us': "Attach any number of basic Energy cards from your hand to your Pokémon in any way you like.",
+			'fr-fr': "Attachez le nombre de cartes Énergie de base voulues de votre main à vos Pokémon comme il vous plaît.",
+			'es-es': "Une cualquier cantidad de cartas de Energía Básica de tu mano a tus Pokémon de la manera que desees.",
+			'it-it': "Assegna ai tuoi Pokémon un numero qualsiasi di carte Energia base dalla tua mano nel modo che preferisci.",
+			'pt-br': "Ligue qualquer número de cartas de Energia básica da sua mão aos seus Pokémon como desejar.",
+			'de-de': "Lege beliebig viele Basis-Energiekarten aus deiner Hand beliebig an deine Pokémon an."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Draining Kiss",
-			fr: "Vampibaiser",
-			es: "Beso Drenaje",
-			it: "Assorbibacio",
-			pt: "Beijo Drenante",
-			de: "Diebeskuss"
+			'en-us': "Draining Kiss",
+			'fr-fr': "Vampibaiser",
+			'es-es': "Beso Drenaje",
+			'it-it': "Assorbibacio",
+			'pt-br': "Beijo Drenante",
+			'de-de': "Diebeskuss"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 50,
@@ -79,7 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it trusts a Trainer, it will treat them to berries it's decorated with cream."
+		'en-us': "When it trusts a Trainer, it will treat them to berries it's decorated with cream."
 	},
 
 	stage: "Stage1",

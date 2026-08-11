@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2023'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		es: "Pikachu",
-		it: "Pikachu",
-		pt: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'es-es': "Pikachu",
+		'it-it': "Pikachu",
+		'pt-br': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	illustrator: "OKACHEKE",
@@ -28,16 +28,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				en: "Growl",
+				'en-us': "Growl",
 			},
 			effect: {
-				en: "During your opponent's next turn, the Defending Pokémon's attacks do 20 less damage (before applying Weakness and Resistance)."
+				'en-us': "During your opponent's next turn, the Defending Pokémon's attacks do 20 less damage (before applying Weakness and Resistance)."
 			}
 		},
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				en: "Pika Bolt",
+				'en-us': "Pika Bolt",
 			},
 			damage: 30,
 		},

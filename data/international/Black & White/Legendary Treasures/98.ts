@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Zweilous",
+		'en-us': "Zweilous",
 	},
 
 	illustrator: "Yukiko Baba",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Deino",
+		'en-us': "Deino",
 	},
 
 	stage: "Stage1",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crunch",
+				'en-us': "Crunch",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				'en-us': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
 			},
 			damage: 30,
 
@@ -49,7 +49,7 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Dragon Claw",
+				'en-us': "Dragon Claw",
 			},
 
 			damage: 80,
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "After it has eaten up all the food in its territory, it moves to another area. Its two heads do not get along.",
+		'en-us': "After it has eaten up all the food in its territory, it moves to another area. Its two heads do not get along.",
 	},
 
 	thirdParty: {

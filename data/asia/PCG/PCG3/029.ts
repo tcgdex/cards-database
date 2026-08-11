@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "REMORAID",
+		'ja-jp': "REMORAID",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "エネルギーの引き分け",
+				'ja-jp': "エネルギーの引き分け",
 			},
 			effect: {
-				ja: "コインをひっくり返します。ヘッドの場合は、デッキを検索して基本的なエネルギーカードを探して、それを添付してリムレードします。その後、デッキをシャッフルします。",
+				'ja-jp': "コインをひっくり返します。ヘッドの場合は、デッキを検索して基本的なエネルギーカードを探して、それを添付してリムレードします。その後、デッキをシャッフルします。",
 			},
 		},
 		{
 			cost: ["Water"],
 			name: {
-				ja: "かみそりフィン",
+				'ja-jp': "かみそりフィン",
 			},
 			damage: 10,
 		},

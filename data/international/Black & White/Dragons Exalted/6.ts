@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Wurmple",
-		fr: "Chenipotte",
-		es: "Wurmple",
-		it: "Wurmple",
-		pt: "Wurmple",
-		de: "Waumpel"
+		'en-us': "Wurmple",
+		'fr-fr': "Chenipotte",
+		'es-es': "Wurmple",
+		'it-it': "Wurmple",
+		'pt-br': "Wurmple",
+		'de-de': "Waumpel"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleep Poison",
-				fr: "Poison Dodo",
+				'en-us': "Sleep Poison",
+				'fr-fr': "Poison Dodo",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep and Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi et Empoisonné.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep and Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi et Empoisonné.",
 			},
 
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Often targeted by bird Pokémon, it desperately resists by releasing poison from its tail spikes.",
+		'en-us': "Often targeted by bird Pokémon, it desperately resists by releasing poison from its tail spikes.",
 	},
 
 	thirdParty: {

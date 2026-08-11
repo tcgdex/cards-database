@@ -1,21 +1,21 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シンオウの仲間たち",
+		'ja-jp': "シンオウの仲間たち",
 		'zh-tw': "神奧的夥伴",
-		th: "พวกพ้องในชินโอ",
+		'th-th': "พวกพ้องในชินโอ",
 	},
 
 	illustrator: "Ryuta Fuse",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札を3枚引く。",
+		'ja-jp': "自分の山札を3枚引く。",
 		'zh-tw': "從自己的牌庫抽出3張卡。",
-		th: "จั่วการ์ด 3 ใบจากสำรับการ์ดฝ่ายเรา",
+		'th-th': "จั่วการ์ด 3 ใบจากสำรับการ์ดฝ่ายเรา",
 	},
 
 	variants: [

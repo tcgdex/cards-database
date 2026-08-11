@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Solosis",
-		fr: "Nucléos",
-		es: "Solosis",
-		it: "Solosis",
-		pt: "Solosis",
-		de: "Monozyto"
+		'en-us': "Solosis",
+		'fr-fr': "Nucléos",
+		'es-es': "Solosis",
+		'it-it': "Solosis",
+		'pt-br': "Solosis",
+		'de-de': "Monozyto"
 	},
 
 	illustrator: "Ligton",
@@ -25,12 +25,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Ram",
-			fr: "Collision",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 20
@@ -53,7 +53,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It communicates with others telepathically. Its body is encapsulated in liquid, but if it takes a heavy blow, the liquid will leak out.",
+		'en-us': "It communicates with others telepathically. Its body is encapsulated in liquid, but if it takes a heavy blow, the liquid will leak out.",
 	},
 
 	variants: [

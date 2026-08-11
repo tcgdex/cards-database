@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フライゴンGX",
+		'ja-jp': "フライゴンGX",
 	},
 
 	illustrator: "",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "さじんのまもり" },
 			effect: {
-				ja: "このポケモンがバトル場にいるかぎり、自分のポケモン全員が、相手のポケモンから受けるワザのダメージは「-30」される。",
+				'ja-jp': "このポケモンがバトル場にいるかぎり、自分のポケモン全員が、相手のポケモンから受けるワザのダメージは「-30」される。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "120+",
 			cost: ["Fighting", "Fighting", "Fighting"],
 			effect: {
-				ja: "場にスタジアムが出ているなら、120ダメージ追加。その後、そのスタジアムをトラッシュする。",
+				'ja-jp': "場にスタジアムが出ているなら、120ダメージ追加。その後、そのスタジアムをトラッシュする。",
 			},
 		},
 		{
@@ -38,7 +38,7 @@ const card: Card = {
 			damage: 220,
 			cost: ["Fighting", "Fighting", "Fighting"],
 			effect: {
-				ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -56,7 +56,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ビブラーバ",
+		'ja-jp': "ビブラーバ",
 	},
 
 	retreat: 2,

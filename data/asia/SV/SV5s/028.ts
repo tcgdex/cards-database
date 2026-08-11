@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Heatmor"
+		'id-id': "Heatmor"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Heatmor mengisap udara melalui lubang di ekornya untuk mengobarkan api. Kondisinya memburuk jika lubang tersebut ditutup."
+		'id-id': "Heatmor mengisap udara melalui lubang di ekornya untuk mengobarkan api. Kondisinya memburuk jika lubang tersebut ditutup."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Nyala Api"
+			'id-id': "Nyala Api"
 		},
 
 		damage: 20,
 		cost: ["Fire"]
 	}, {
 		name: {
-			id: "Api Jilat Bakar"
+			'id-id': "Api Jilat Bakar"
 		},
 
 		effect: {
-			id: "Lempar koin 3 kali. Pilih Energi yang dikenakan pada Pokémon ini untuk tiap lemparan dengan hasil sisi belakang, lalu buang ke Trash."
+			'id-id': "Lempar koin 3 kali. Pilih Energi yang dikenakan pada Pokémon ini untuk tiap lemparan dengan hasil sisi belakang, lalu buang ke Trash."
 		},
 
 		damage: 130,

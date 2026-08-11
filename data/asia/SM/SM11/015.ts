@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "バスラオ",
+		'ja-jp': "バスラオ",
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "乱暴かつ 獰猛な ポケモン。 赤と 青の バスラオは 縄張りを 巡って いつも ケンカしている。",
+		'ja-jp': "乱暴かつ 獰猛な ポケモン。 赤と 青の バスラオは 縄張りを 巡って いつも ケンカしている。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "むれでむさぼる" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン1匹に、自分の場の「バスラオ」の数×20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹に、自分の場の「バスラオ」の数×20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{

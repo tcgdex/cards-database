@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "เนียส",
-		id: "Meowth"
+		'th-th': "เนียส",
+		'id-id': "Meowth"
 	},
 
 	illustrator: "sui",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		th: "ชอบของที่ส่องแสงเป็นประกายมาก พอเจอของเปล่งประกายแล้วไม่รู้ทำไมเหรียญบนหน้าผากถึงส่องแสงแวววาว",
-		id: "Meowth sangat menyukai benda-benda berkilau. Entah kenapa koin di keningnya ikut bercahaya ketika ia menemukan benda berkilau."
+		'th-th': "ชอบของที่ส่องแสงเป็นประกายมาก พอเจอของเปล่งประกายแล้วไม่รู้ทำไมเหรียญบนหน้าผากถึงส่องแสงแวววาว",
+		'id-id': "Meowth sangat menyukai benda-benda berkilau. Entah kenapa koin di keningnya ikut bercahaya ketika ia menemukan benda berkilau."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ข่วนแหลก",
-			id: "Cakaran Kacau"
+			'th-th': "ข่วนแหลก",
+			'id-id': "Cakaran Kacau"
 		},
 
 		effect: {
-			th: "ทอยเหรียญ 3 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x20",
-			id: "Lempar koin 3 kali. Serangan ini memberikan kerusakan sejumlah 20 untuk tiap lemparan dengan hasil sisi depan."
+			'th-th': "ทอยเหรียญ 3 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x20",
+			'id-id': "Lempar koin 3 kali. Serangan ini memberikan kerusakan sejumlah 20 untuk tiap lemparan dengan hasil sisi depan."
 		},
 
 		damage: "20×",

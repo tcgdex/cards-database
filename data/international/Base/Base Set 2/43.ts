@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Haunter",
+		'en-us': "Haunter",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gastly",
+		'en-us': "Gastly",
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hypnosis",
+				'en-us': "Hypnosis",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
+				'en-us': "The Defending Pokémon is now Asleep.",
 			},
 
 		},
@@ -46,10 +46,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Dream Eater",
+				'en-us': "Dream Eater",
 			},
 			effect: {
-				en: "You can't this attack unless the Defending Pokémon is Asleep.",
+				'en-us': "You can't this attack unless the Defending Pokémon is Asleep.",
 			},
 
 		},
@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Because of its ability to slip through block walls, it is said to be from another dimension.",
+		'en-us': "Because of its ability to slip through block walls, it is said to be from another dimension.",
 	},
 
 

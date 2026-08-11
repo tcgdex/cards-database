@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "M Gengar EX",
-		fr: "M-Ectoplasma EX",
-		es: "M-Gengar EX",
-		it: "M Gengar EX",
-		pt: "M-Gengar EX",
-		de: "M-Gengar EX"
+		'en-us': "M Gengar EX",
+		'fr-fr': "M-Ectoplasma EX",
+		'es-es': "M-Gengar EX",
+		'it-it': "M Gengar EX",
+		'pt-br': "M-Gengar EX",
+		'de-de': "M-Gengar EX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gengar-EX",
-		fr: "Ectoplasma-EX",
-		es: "Gengar-EX",
-		it: "Gengar-EX",
-		pt: "Gengar-EX",
-		de: "Gengar-EX"
+		'en-us': "Gengar-EX",
+		'fr-fr': "Ectoplasma-EX",
+		'es-es': "Gengar-EX",
+		'it-it': "Gengar-EX",
+		'pt-br': "Gengar-EX",
+		'de-de': "Gengar-EX"
 	},
 
 	stage: "MEGA",
@@ -45,20 +45,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Phantom Gate",
-				fr: "Miroir Miroir",
-				es: "Puerta Espectral",
-				it: "Portale Fantasma",
-				pt: "Portão Fantasma",
-				de: "Phantomtor"
+				'en-us': "Phantom Gate",
+				'fr-fr': "Miroir Miroir",
+				'es-es': "Puerta Espectral",
+				'it-it': "Portale Fantasma",
+				'pt-br': "Portão Fantasma",
+				'de-de': "Phantomtor"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon's attacks and use it as this attack.",
-				fr: "Choisissez l'une des attaques des Pokémon de votre adversaire et utilisez-la en tant que cette attaque.",
-				es: "Elige 1 de los ataques de los Pokémon de tu rival y úsalo para este ataque.",
-				it: "Scegli uno degli attacchi dei Pokémon del tuo avversario e usalo al posto di questo attacco.",
-				pt: "Escolha 1 dos ataques dos Pokémon do seu oponente e use-o como este ataque.",
-				de: "Wähle 1 Angriff eines gegnerischen Pokémon und verwende ihn als diesen Angriff."
+				'en-us': "Choose 1 of your opponent's Pokémon's attacks and use it as this attack.",
+				'fr-fr': "Choisissez l'une des attaques des Pokémon de votre adversaire et utilisez-la en tant que cette attaque.",
+				'es-es': "Elige 1 de los ataques de los Pokémon de tu rival y úsalo para este ataque.",
+				'it-it': "Scegli uno degli attacchi dei Pokémon del tuo avversario e usalo al posto di questo attacco.",
+				'pt-br': "Escolha 1 dos ataques dos Pokémon do seu oponente e use-o como este ataque.",
+				'de-de': "Wähle 1 Angriff eines gegnerischen Pokémon und verwende ihn als diesen Angriff."
 			},
 
 		},

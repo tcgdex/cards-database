@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Erika's Bulbasaur"
+		'en-us': "Erika's Bulbasaur"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sleep Seed"
+				'en-us': "Sleep Seed"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -41,10 +41,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Errand-Running"
+				'en-us': "Errand-Running"
 			},
 			effect: {
-				en: "Flip a coin. If heads, you may search your deck for a Trainer card. Show it to your opponent and put it into your hand. Shuffle your deck afterward."
+				'en-us': "Flip a coin. If heads, you may search your deck for a Trainer card. Show it to your opponent and put it into your hand. Shuffle your deck afterward."
 			},
 
 		},

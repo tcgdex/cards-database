@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "セレビィ",
+		'ja-jp': "セレビィ",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "ときのひずみ" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のベンチの進化しているポケモンを好きなだけ選ぶ。その後、選んだポケモン全員の上から、それぞれ「進化カード」を好きなだけはがして退化させる。はがしたカードは、手札にもどす。",
+				'ja-jp': "自分のベンチの進化しているポケモンを好きなだけ選ぶ。その後、選んだポケモン全員の上から、それぞれ「進化カード」を好きなだけはがして退化させる。はがしたカードは、手札にもどす。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Grass"],
 			effect: {
-				ja: "このポケモンのHPを「20」回復する。",
+				'ja-jp': "このポケモンのHPを「20」回復する。",
 			},
 		},
 	],

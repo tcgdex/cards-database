@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "onix",
+		'ja-jp': "onix",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "深く掘ります",
+				'ja-jp': "深く掘ります",
 			},
 			effect: {
-				ja: "廃棄パイルを検索して、エネルギーカードを紹介し、相手に見せて、手に入れてください。",
+				'ja-jp': "廃棄パイルを検索して、エネルギーカードを紹介し、相手に見せて、手に入れてください。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "泥の平手打ち",
+				'ja-jp': "泥の平手打ち",
 			},
 			damage: 20,
 		},

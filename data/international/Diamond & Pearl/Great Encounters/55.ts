@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Togetic",
-		fr: "Togetic",
-		de: "Togetic"
+		'en-us': "Togetic",
+		'fr-fr': "Togetic",
+		'de-de': "Togetic"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Togepi",
-		fr: "Togepi",
+		'en-us': "Togepi",
+		'fr-fr': "Togepi",
 	},
 
 	stage: "Stage1",
@@ -37,9 +37,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Speed Dive",
-				fr: "Équilibre Plongée",
-				de: "Tempohechtsprung"
+				'en-us': "Speed Dive",
+				'fr-fr': "Équilibre Plongée",
+				'de-de': "Tempohechtsprung"
 			},
 
 			damage: 20,
@@ -52,14 +52,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sweet Kiss",
-				fr: "Doux baiser",
-				de: "Bitterkuss"
+				'en-us': "Sweet Kiss",
+				'fr-fr': "Doux baiser",
+				'de-de': "Bitterkuss"
 			},
 			effect: {
-				en: "Your opponent may draw a card.",
-				fr: "Votre adversaire peut piocher une carte.",
-				de: "Dein Gegner kann 1 Karte ziehen."
+				'en-us': "Your opponent may draw a card.",
+				'fr-fr': "Votre adversaire peut piocher une carte.",
+				'de-de': "Dein Gegner kann 1 Karte ziehen."
 			},
 			damage: 50,
 
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is said to appear in front of kindly people to scatter a glowing down called \"joy dust.\"",
+		'en-us': "It is said to appear in front of kindly people to scatter a glowing down called \"joy dust.\"",
 	},
 
 	thirdParty: {

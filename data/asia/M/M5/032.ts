@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジュペッタ",
+		'ja-jp': "ジュペッタ",
 	},
 
 	illustrator: "Mugi Hamada",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "捨てられた ぬいぐるみに おんねんが 宿り ポケモンになった。 自分を 捨てた 子供を 捜している。",
+		'ja-jp': "捨てられた ぬいぐるみに おんねんが 宿り ポケモンになった。 自分を 捨てた 子供を 捜している。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ばけがくれ" },
 			effect: {
-				ja: "このポケモンは、相手のワザや特性の効果を受けない。",
+				'ja-jp': "このポケモンは、相手のワザや特性の効果を受けない。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Psychic"],
 			effect: {
-				ja: "のぞむなら、自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。",
+				'ja-jp': "のぞむなら、自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カゲボウズ",
+		'ja-jp': "カゲボウズ",
 	},
 
 	retreat: 1,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミライドン",
+		'ja-jp': "ミライドン",
 		'zh-tw': "普隆隆姆",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "詳細は よく わかっていない。 モトトカゲに 似た 印象だが はるかに 強く 冷酷なのだ。",
+		'ja-jp': "詳細は よく わかっていない。 モトトカゲに 似た 印象だが はるかに 強く 冷酷なのだ。",
 		'zh-tw': "在增加到了８個的汽缸裡 引爆混有毒素和岩石成分的 氣體來製造能量。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "するどいキバ",
+				'ja-jp': "するどいキバ",
 				'zh-tw': "虛張聲勢",
 			},
 			damage: 30,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "ライトニングレーザー",
+				'ja-jp': "ライトニングレーザー",
 				'zh-tw': "宏大衝撞",
 			},
 			damage: 90,
 			cost: ["Lightning", "Lightning", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 				'zh-tw': "若自己手牌的張數比對手手牌的張數多，則增加80點傷害。",
 			},
 		},

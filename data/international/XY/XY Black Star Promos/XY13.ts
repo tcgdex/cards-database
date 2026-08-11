@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Machamp",
-		fr: "Mackogneur",
+		'en-us': "Machamp",
+		'fr-fr': "Mackogneur",
 	},
 
 	illustrator: "PLANETA",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Machoke",
-		fr: "Machopeur",
+		'en-us': "Machoke",
+		'fr-fr': "Machopeur",
 	},
 
 	stage: "Stage2",
@@ -33,12 +33,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Fighting Fury",
-				fr: "Furie Combative",
+				'en-us': "Fighting Fury",
+				'fr-fr': "Furie Combative",
 			},
 			effect: {
-				en: "Each of your Fighting Pokémon's attacks do 20 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
-				fr: "Les attaques de vos Pokémon Fighting infligent 20 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
+				'en-us': "Each of your Fighting Pokémon's attacks do 20 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Les attaques de vos Pokémon Fighting infligent 20 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
 			},
 		},
 	],
@@ -51,12 +51,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Machamp Crush",
-				fr: "Mackogneur Broyeur",
+				'en-us': "Machamp Crush",
+				'fr-fr': "Mackogneur Broyeur",
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 40 (before applying Weakness and Resistance).",
-				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 40 (avant application de la Faiblesse et de la Résistance).",
+				'en-us': "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 40 (before applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par des attaques du Pokémon Défenseur sont réduits de 40 (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: 80,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its four ruggedly developed arms can launch a flurry of 1,000 punches in just two seconds.",
+		'en-us': "Its four ruggedly developed arms can launch a flurry of 1,000 punches in just two seconds.",
 	},
 
 	thirdParty: {

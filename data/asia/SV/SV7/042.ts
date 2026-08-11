@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "花療環環",
 		'zh-cn': "花療環環",
-		ja: "キュワワー"
+		'ja-jp': "キュワワー"
 	},
 
 	illustrator: "saino misaki",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "如果身上黏著花就會很開心， 並且發揮出治癒的效果。 喜歡有很多花的地方。",
 		'zh-cn': "如果身上黏著花就會很開心， 並且發揮出治癒的效果。 喜歡有很多花的地方。",
-		ja: "花を つけていると 嬉しくなって 癒しの 効果を 発揮する。 花が 多い 土地を 好む。"
+		'ja-jp': "花を つけていると 嬉しくなって 癒しの 効果を 発揮する。 花が 多い 土地を 好む。"
 	},
 
 	stage: "Basic",
@@ -27,13 +27,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "花流浴",
 			'zh-cn': "花流浴",
-			ja: "フラワーシャワー"
+			'ja-jp': "フラワーシャワー"
 		},
 
 		effect: {
 			'zh-tw': "雙方玩家各從牌庫抽出3張卡。",
 			'zh-cn': "雙方玩家各從牌庫抽出3張卡。",
-			ja: "おたがいのプレイヤーは、それぞれ山札を3枚引く。"
+			'ja-jp': "おたがいのプレイヤーは、それぞれ山札を3枚引く。"
 		},
 
 		cost: ["Psychic"]
@@ -41,13 +41,13 @@ const card: Card = {
 		name: {
 			'zh-tw': "嬉鬧",
 			'zh-cn': "嬉鬧",
-			ja: "じゃれつく"
+			'ja-jp': "じゃれつく"
 		},
 
 		effect: {
 			'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。",
 			'zh-cn': "擲1次硬幣若為正面，則增加20點傷害。",
-			ja: "コインを1回投げオモテなら、20ダメージ追加。"
+			'ja-jp': "コインを1回投げオモテなら、20ダメージ追加。"
 		},
 
 		damage: "20＋",

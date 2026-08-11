@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Gyarados",
+		'en-us': "Gyarados",
 	},
 
 	illustrator: "hatachu",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magikarp",
+		'en-us': "Magikarp",
 	},
 
 	stage: "Stage1",
@@ -34,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Howling Rampage",
+				'en-us': "Howling Rampage",
 			},
 			effect: {
-				en: "Does 20 damage times the number of Prize cards both players have taken.",
+				'en-us': "Does 20 damage times the number of Prize cards both players have taken.",
 			},
 			damage: 20,
 
@@ -51,7 +51,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Splash",
+				'en-us': "Hydro Splash",
 			},
 
 			damage: 120,
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Once it begins to rampage, a Gyarados will burn everything down, even in a harsh storm.",
+		'en-us': "Once it begins to rampage, a Gyarados will burn everything down, even in a harsh storm.",
 	},
 
 	thirdParty: {

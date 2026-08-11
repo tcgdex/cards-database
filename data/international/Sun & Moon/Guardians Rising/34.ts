@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Guardians Rising'
 
 const card: Card = {
 	name: {
-		en: "Vanillish",
-		fr: "Sorboul",
-		es: "Vanillish",
-		it: "Vanillish",
-		pt: "Vanillish",
-		de: "Gelatroppo"
+		'en-us': "Vanillish",
+		'fr-fr': "Sorboul",
+		'es-es': "Vanillish",
+		'it-it': "Vanillish",
+		'pt-br': "Vanillish",
+		'de-de': "Gelatroppo"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vanillite",
-		fr: "Sorbébé",
+		'en-us': "Vanillite",
+		'fr-fr': "Sorbébé",
 	},
 
 	stage: "Stage1",
@@ -39,20 +39,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Ice Shard",
-				fr: "Éclats Glace",
-				es: "Canto Helado",
-				it: "Geloscheggia",
-				pt: "Caco de Gelo",
-				de: "Eissplitter"
+				'en-us': "Ice Shard",
+				'fr-fr': "Éclats Glace",
+				'es-es': "Canto Helado",
+				'it-it': "Geloscheggia",
+				'pt-br': "Caco de Gelo",
+				'de-de': "Eissplitter"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is a Fighting Pokémon, this attack does 30 more damage.",
-				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon Fighting, cette attaque inflige 30 dégâts supplémentaires.",
-				es: "Si el Pokémon Activo de tu rival es un Pokémon Fighting, este ataque hace 30 puntos de daño más.",
-				it: "Se il Pokémon attivo del tuo avversario è di tipo Fighting, questo attacco infligge 30 danni in più.",
-				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Fighting, este ataque causará 30 pontos de dano a mais.",
-				de: "Wenn das Aktive Pokémon deines Gegners ein Fighting-Pokémon ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
+				'en-us': "If your opponent’s Active Pokémon is a Fighting Pokémon, this attack does 30 more damage.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon Fighting, cette attaque inflige 30 dégâts supplémentaires.",
+				'es-es': "Si el Pokémon Activo de tu rival es un Pokémon Fighting, este ataque hace 30 puntos de daño más.",
+				'it-it': "Se il Pokémon attivo del tuo avversario è di tipo Fighting, questo attacco infligge 30 danni in più.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon Fighting, este ataque causará 30 pontos de dano a mais.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners ein Fighting-Pokémon ist, fügt diese Attacke 30 Schadenspunkte mehr zu."
 			},
 			damage: "30+",
 
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Hot days cause its body to melt. It can be restored by refreezing it, but the process leaves its body slightly warped.",
+		'en-us': "Hot days cause its body to melt. It can be restored by refreezing it, but the process leaves its body slightly warped.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウガツホムラ",
+		'ja-jp': "ウガツホムラ",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "目撃報告は ごくわずか。 火柱を 噴き 暴れる 姿の 短い 映像が 存在する。",
+		'ja-jp': "目撃報告は ごくわずか。 火柱を 噴き 暴れる 姿の 短い 映像が 存在する。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Fire", "Fire", "Colorless"],
 			effect: {
-				ja: "相手のサイドの残り枚数が4枚以下なら、70ダメージ追加。",
+				'ja-jp': "相手のサイドの残り枚数が4枚以下なら、70ダメージ追加。",
 			},
 		},
 	],

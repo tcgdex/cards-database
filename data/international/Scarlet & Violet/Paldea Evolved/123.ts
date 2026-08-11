@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Gigansel",
-		en: "Garganacl",
-		es: "Garganacl",
-		it: "Garganacl",
-		pt: "Garganacl",
-		de: "Saltigant"
+		'fr-fr': "Gigansel",
+		'en-us': "Garganacl",
+		'es-es': "Garganacl",
+		'it-it': "Garganacl",
+		'pt-br': "Garganacl",
+		'de-de': "Saltigant"
 	},
 
 	rarity: "Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 180,
 	types: ["Fighting"],
 	evolveFrom: {
-		fr: "Amassel",
-		en: "Naclstack",
-		es: "Naclstack",
-		it: "Naclstack",
-		pt: "Naclstack",
-		de: "Sedisal"
+		'fr-fr': "Amassel",
+		'en-us': "Naclstack",
+		'es-es': "Naclstack",
+		'it-it': "Naclstack",
+		'pt-br': "Naclstack",
+		'de-de': "Sedisal"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			fr: "Sel Bienfaisant",
-			en: "Blessed Salt",
-			es: "Sal Bendita",
-			it: "Sale Gradito",
-			pt: "Sal Abençoado",
-			de: "Gesegnetes Salz"
+			'fr-fr': "Sel Bienfaisant",
+			'en-us': "Blessed Salt",
+			'es-es': "Sal Bendita",
+			'it-it': "Sale Gradito",
+			'pt-br': "Sal Abençoado",
+			'de-de': "Gesegnetes Salz"
 		},
 
 		effect: {
-			fr: "Pendant le Contrôle Pokémon, soignez 20 dégâts de chacun de vos Pokémon.",
-			en: "During Pokémon Checkup, heal 20 damage from each of your Pokémon.",
-			es: "Durante el Chequeo Pokémon, cura 20 puntos de daño a cada uno de tus Pokémon.",
-			it: "Durante il controllo Pokémon, cura ciascuno dei tuoi Pokémon da 20 danni.",
-			pt: "Durante o Checape Pokémon, cure 20 pontos de dano de cada um dos seus Pokémon.",
-			de: "Heile beim Pokémon-Check 20 Schadenspunkte bei jedem deiner Pokémon."
+			'fr-fr': "Pendant le Contrôle Pokémon, soignez 20 dégâts de chacun de vos Pokémon.",
+			'en-us': "During Pokémon Checkup, heal 20 damage from each of your Pokémon.",
+			'es-es': "Durante el Chequeo Pokémon, cura 20 puntos de daño a cada uno de tus Pokémon.",
+			'it-it': "Durante il controllo Pokémon, cura ciascuno dei tuoi Pokémon da 20 danni.",
+			'pt-br': "Durante o Checape Pokémon, cure 20 pontos de dano de cada um dos seus Pokémon.",
+			'de-de': "Heile beim Pokémon-Check 20 Schadenspunkte bei jedem deiner Pokémon."
 		}
 	}],
 
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Fighting", "Fighting"],
 
 		name: {
-			fr: "Marteau Frappeur",
-			en: "Knocking Hammer",
-			es: "Martillo Impacto",
-			it: "Martello Battente",
-			pt: "Martelo Detonador",
-			de: "Klopfender Hammer"
+			'fr-fr': "Marteau Frappeur",
+			'en-us': "Knocking Hammer",
+			'es-es': "Martillo Impacto",
+			'it-it': "Martello Battente",
+			'pt-br': "Martelo Detonador",
+			'de-de': "Klopfender Hammer"
 		},
 
 		effect: {
-			fr: "Défaussez la carte du dessus du deck de votre adversaire.",
-			en: "Discard the top card of your opponent's deck.",
-			es: "Descarta la primera carta de la baraja de tu rival.",
-			it: "Scarta la prima carta del mazzo del tuo avversario.",
-			pt: "Descarte a carta de cima do baralho do seu oponente.",
-			de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+			'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
+			'en-us': "Discard the top card of your opponent's deck.",
+			'es-es': "Descarta la primera carta de la baraja de tu rival.",
+			'it-it': "Scarta la prima carta del mazzo del tuo avversario.",
+			'pt-br': "Descarte a carta de cima do baralho do seu oponente.",
+			'de-de': "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 130
@@ -112,7 +112,7 @@ const card: Card = {
 	illustrator: "Anesaki Dynamic",
 
 	description: {
-		en: "Garganacl will rub its fingertips together and sprinkle injured Pokémon with salt. Even severe wounds will promptly heal afterward.",
+		'en-us': "Garganacl will rub its fingertips together and sprinkle injured Pokémon with salt. Even severe wounds will promptly heal afterward.",
 	},
 }
 

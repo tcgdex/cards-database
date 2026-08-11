@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Crimson Invasion'
 
 const card: Card = {
 	name: {
-		en: "Mamoswine",
-		fr: "Mammochon",
-		es: "Mamoswine",
-		it: "Mamoswine",
-		pt: "Mamoswine",
-		de: "Mamutel"
+		'en-us': "Mamoswine",
+		'fr-fr': "Mammochon",
+		'es-es': "Mamoswine",
+		'it-it': "Mamoswine",
+		'pt-br': "Mamoswine",
+		'de-de': "Mamutel"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Piloswine",
-		fr: "Cochignon",
+		'en-us': "Piloswine",
+		'fr-fr': "Cochignon",
 	},
 
 	stage: "Stage2",
@@ -41,20 +41,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Stomp",
-				fr: "Double Écrasement",
-				es: "Pisotón Doble",
-				it: "Doppio Pestone",
-				pt: "Pisoteada Dupla",
-				de: "Doppelstampfer"
+				'en-us': "Double Stomp",
+				'fr-fr': "Double Écrasement",
+				'es-es': "Pisotón Doble",
+				'it-it': "Doppio Pestone",
+				'pt-br': "Pisoteada Dupla",
+				'de-de': "Doppelstampfer"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 more damage for each heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
-				es: "Lanza 2 monedas. Este ataque hace 30 puntos de daño más por cada cara.",
-				it: "Lancia due volte una moneta. Questo attacco infligge 30 danni in più ogni volta che esce testa.",
-				pt: "Jogue 2 moedas. Este ataque causa 30 pontos de dano a mais para cada cara.",
-				de: "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte mehr pro Kopf zu."
+				'en-us': "Flip 2 coins. This attack does 30 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 30 puntos de daño más por cada cara.",
+				'it-it': "Lancia due volte una moneta. Questo attacco infligge 30 danni in più ogni volta che esce testa.",
+				'pt-br': "Jogue 2 moedas. Este ataque causa 30 pontos de dano a mais para cada cara.",
+				'de-de': "Wirf 2 Münzen. Diese Attacke fügt 30 Schadenspunkte mehr pro Kopf zu."
 			},
 			damage: "60+",
 
@@ -67,20 +67,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Forceful Tackle",
-				fr: "Charge Énergique",
-				es: "Placaje Contundente",
-				it: "Maniere Forti",
-				pt: "Ofensiva Forçada",
-				de: "Resoluter Rempler"
+				'en-us': "Forceful Tackle",
+				'fr-fr': "Charge Énergique",
+				'es-es': "Placaje Contundente",
+				'it-it': "Maniere Forti",
+				'pt-br': "Ofensiva Forçada",
+				'de-de': "Resoluter Rempler"
 			},
 			effect: {
-				en: "You may put up to 9 damage counters on this Pokémon. This attack does 10 more damage for each damage counter you placed in this way.",
-				fr: "Vous pouvez placer jusqu’à 9 marqueurs de dégâts sur ce Pokémon. Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé de cette façon.",
-				es: "Puedes poner hasta 9 contadores de daño en este Pokémon. Este ataque hace 10 puntos de daño más por cada contador de daño que hayas colocado de esta manera.",
-				it: "Puoi mettere fino a nove segnalini danno su questo Pokémon. Questo attacco infligge 10 danni in più per ogni segnalino danno che hai messo in questo modo.",
-				pt: "Você pode colocar até 9 contadores de dano neste Pokémon. Este ataque causa 10 pontos de dano a mais para cada contador de dano colocado desta forma.",
-				de: "Du kannst bis zu 9 Schadensmarken auf dieses Pokémon legen. Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der auf diese Weise platzierten Schadensmarken zu."
+				'en-us': "You may put up to 9 damage counters on this Pokémon. This attack does 10 more damage for each damage counter you placed in this way.",
+				'fr-fr': "Vous pouvez placer jusqu’à 9 marqueurs de dégâts sur ce Pokémon. Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé de cette façon.",
+				'es-es': "Puedes poner hasta 9 contadores de daño en este Pokémon. Este ataque hace 10 puntos de daño más por cada contador de daño que hayas colocado de esta manera.",
+				'it-it': "Puoi mettere fino a nove segnalini danno su questo Pokémon. Questo attacco infligge 10 danni in più per ogni segnalino danno che hai messo in questo modo.",
+				'pt-br': "Você pode colocar até 9 contadores de dano neste Pokémon. Este ataque causa 10 pontos de dano a mais para cada contador de dano colocado desta forma.",
+				'de-de': "Du kannst bis zu 9 Schadensmarken auf dieses Pokémon legen. Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der auf diese Weise platzierten Schadensmarken zu."
 			},
 			damage: "90+",
 
@@ -97,7 +97,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "A frozen Mamoswine was dug from ice dating back 10,000 years. This Pokémon has been around a long, long, long time.",
+		'en-us': "A frozen Mamoswine was dug from ice dating back 10,000 years. This Pokémon has been around a long, long, long time.",
 	},
 
 	thirdParty: {

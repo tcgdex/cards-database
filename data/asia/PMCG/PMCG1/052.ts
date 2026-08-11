@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ディグダ",
+		'ja-jp': "ディグダ",
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -19,14 +19,14 @@ const card: Card = {
 		{
 			cost: ["Fighting"],
 			name: {
-				ja: "掘る",
+				'ja-jp': "掘る",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fighting", "Fighting"],
 			name: {
-				ja: "泥の平手打ち",
+				'ja-jp': "泥の平手打ち",
 			},
 			damage: 30,
 		},

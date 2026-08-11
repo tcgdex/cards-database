@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミネズミ",
+		'ja-jp': "ミネズミ",
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "頬の 袋に エサを 溜めこみ 何日も 見張りを 続ける。 尻尾で 仲間に 合図する。",
+		'ja-jp': "頬の 袋に エサを 溜めこみ 何日も 見張りを 続ける。 尻尾で 仲間に 合図する。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かんしのめ" },
 			effect: {
-				ja: "このポケモンがいるかぎり、おたがいのポケモン全員にのっているダメカンは、別のポケモンにのせ替えられない。",
+				'ja-jp': "このポケモンがいるかぎり、おたがいのポケモン全員にのっているダメカンは、別のポケモンにのせ替えられない。",
 			},
 		},
 	],

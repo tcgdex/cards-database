@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Surskit",
-		fr: "Arakdo",
-		es: "Surskit",
-		it: "Surskit",
-		pt: "Surskit",
-		de: "Gehweiher"
+		'en-us': "Surskit",
+		'fr-fr': "Arakdo",
+		'es-es': "Surskit",
+		'it-it': "Surskit",
+		'pt-br': "Surskit",
+		'de-de': "Gehweiher"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stampede",
-				fr: "Ruée",
-				es: "Estampida",
-				it: "Fuggi Fuggi",
-				pt: "Estouro",
-				de: "Zertrampeln"
+				'en-us': "Stampede",
+				'fr-fr': "Ruée",
+				'es-es': "Estampida",
+				'it-it': "Fuggi Fuggi",
+				'pt-br': "Estouro",
+				'de-de': "Zertrampeln"
 			},
 
 			damage: 10,
@@ -57,7 +57,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.",
+		'en-us': "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.",
 	},
 
 	thirdParty: {

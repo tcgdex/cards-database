@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Genetic Apex"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wigglytuff ex",
-		fr: "Grodoudou-ex",
-		es: "Wigglytuff ex",
-		it: "Wigglytuff-ex",
-		de: "Knuddeluff-ex",
+		'en-us': "Wigglytuff ex",
+		'fr-fr': "Grodoudou-ex",
+		'es-es': "Wigglytuff ex",
+		'it-it': "Wigglytuff-ex",
+		'de-de': "Knuddeluff-ex",
 		'pt-br': "Wigglytuff ex",
-		ko: "푸크린 ex"
+		'ko-kr': "푸크린 ex"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -23,7 +23,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Jigglypuff"
+		'en-us': "Jigglypuff"
 	},
 
 	suffix: "EX",
@@ -32,23 +32,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Sleepy Song",
-			fr: "Chanson Berçante",
-			es: "Canción Adormecedora",
-			it: "Cantilena",
-			de: "Schlummerlied",
+			'en-us': "Sleepy Song",
+			'fr-fr': "Chanson Berçante",
+			'es-es': "Canción Adormecedora",
+			'it-it': "Cantilena",
+			'de-de': "Schlummerlied",
 			'pt-br': "Canção Sonolenta",
-			ko: "슬리피송"
+			'ko-kr': "슬리피송"
 		},
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep.",
-			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt schläft.",
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt schläft.",
 			
-			ko: "상대의 배틀 포켓몬을 잠듦으로 만든다.",
+			'ko-kr': "상대의 배틀 포켓몬을 잠듦으로 만든다.",
 			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido."
 		},
 

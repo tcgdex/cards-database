@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ゴマゾウ",
+		'ja-jp': "ゴマゾウ",
 		'zh-tw': "小小象",
-		th: "โกมาโซ"
+		'th-th': "โกมาโซ"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -18,9 +18,9 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "川辺に 巣穴を 作り 暮らす。 泥遊びをしたあとは 体を 洗わないと 落ち着かないのだ。",
+		'ja-jp': "川辺に 巣穴を 作り 暮らす。 泥遊びをしたあとは 体を 洗わないと 落ち着かないのだ。",
 		'zh-tw': "會在河邊做出巢穴棲息。玩完泥巴後如果不把身體 洗乾淨，就會渾身不自在。",
-		th: "ขุดหลุมเป็นรังอยู่ใกล้แม่น้ำ จะรู้สึกกระสับกระส่ายถ้าไม่ได้ล้างตัวหลังเล่นโคลน"
+		'th-th': "ขุดหลุมเป็นรังอยู่ใกล้แม่น้ำ จะรู้สึกกระสับกระส่ายถ้าไม่ได้ล้างตัวหลังเล่นโคลน"
 	},
 
 	stage: "Basic",
@@ -29,9 +29,9 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "かいりき",
+			'ja-jp': "かいりき",
 			'zh-tw': "怪力",
-			th: "พลังมหากาฬ"
+			'th-th': "พลังมหากาฬ"
 		},
 
 		damage: 30
@@ -39,9 +39,9 @@ const card: Card = {
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		name: {
-			ja: "ころがりタックル",
+			'ja-jp': "ころがりタックル",
 			'zh-tw': "滾動衝撞",
-			th: "กลิ้งโจมตี"
+			'th-th': "กลิ้งโจมตี"
 		},
 
 		damage: 60

@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Pawmot",
-		fr: "Pohmarmotte",
-		es: "Pawmot",
-		it: "Pawmot",
-		de: "Pamomamo",
+		'en-us': "Pawmot",
+		'fr-fr': "Pohmarmotte",
+		'es-es': "Pawmot",
+		'it-it': "Pawmot",
+		'de-de': "Pamomamo",
 		'pt-br': "Pawmot",
-		ko: "빠르모트"
+		'ko-kr': "빠르모트"
   },
   illustrator: "Mizue",
   rarity: "Two Diamond",
@@ -19,13 +19,13 @@ const card: Card = {
   types: ["Lightning"],
   dexId: [923],
   evolveFrom: {
-		en: "Pawmo",
-		fr: "Pohmotte",
-		es: "Pawmo",
+		'en-us': "Pawmo",
+		'fr-fr': "Pohmotte",
+		'es-es': "Pawmo",
 		'es-mx': "Pawmo",
-		de: "Pamamo",
-		it: "Pawmo",
-		pt: "Pawmo"
+		'de-de': "Pamamo",
+		'it-it': "Pawmo",
+		'pt-br': "Pawmo"
   },
   description: {
     en: "Pawmot's fluffy fur acts as a battery. It can store the same amount of electricity as an electric car.",

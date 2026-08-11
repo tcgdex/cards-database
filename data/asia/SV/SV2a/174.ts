@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニドキング",
+		'ja-jp': "ニドキング",
 		'zh-tw': "尼多王",
-		th: "นิโดคิง",
-		id: "Nidoking",
+		'th-th': "นิโดคิง",
+		'id-id': "Nidoking",
 	},
 
 	illustrator: "Misaki Hashimoto",
@@ -16,10 +16,10 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "力自慢の ポケモン。 太い 尻尾と ダイヤをも 砕く ツノを 駆使して 豪快に 戦う。",
+		'ja-jp': "力自慢の ポケモン。 太い 尻尾と ダイヤをも 砕く ツノを 駆使して 豪快に 戦う。",
 		'zh-tw': "以力氣為傲的寶可夢。會善用粗壯的尾巴和連鑽石也能擊碎的角，豪邁地戰鬥。",
-		th: "เป็นโปเกมอนที่ภาคภูมิใจในพละกำลัง ใช้หางอ้วน ๆ กับเขาที่ทุบบดแม้กระทั่งเพชรได้อย่างชำนาญ และต่อสู้อย่างฮึกเหิม",
-		id: "Pokémon yang bangga pada kekuatannya. Nidoking menggunakan ekornya yang tebal dan tanduknya yang mampu menghancurkan intan sekalipun secara maksimal untuk bertarung dengan penuh antusias.",
+		'th-th': "เป็นโปเกมอนที่ภาคภูมิใจในพละกำลัง ใช้หางอ้วน ๆ กับเขาที่ทุบบดแม้กระทั่งเพชรได้อย่างชำนาญ และต่อสู้อย่างฮึกเหิม",
+		'id-id': "Pokémon yang bangga pada kekuatannya. Nidoking menggunakan ekornya yang tebal dan tanduknya yang mampu menghancurkan intan sekalipun secara maksimal untuk bertarung dengan penuh antusias.",
 	},
 
 	stage: "Stage2",
@@ -28,16 +28,16 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "はりきりキング",
+				'ja-jp': "はりきりキング",
 				'zh-tw': "活力王者",
-				th: "ราชาฮึกเหิม",
-				id: "Raja Antusias",
+				'th-th': "ราชาฮึกเหิม",
+				'id-id': "Raja Antusias",
 			},
 			effect: {
-				ja: "自分の場に「ニドクイン」がいるなら、このポケモンがワザを使うためのエネルギーは、すべてなくなる。",
+				'ja-jp': "自分の場に「ニドクイン」がいるなら、このポケモンがワザを使うためのエネルギーは、すべてなくなる。",
 				'zh-tw': "若自己的場上有「尼多后」，則這隻寶可夢使用招式所需的能量全部消除。",
-				th: "ถ้าบนกระดานฝ่ายเรามี [นิโดควีน] อยู่ พลังงานสำหรับใช้ท่าต่อสู้ของโปเกมอนนี้ ทั้งหมดจะหายไป",
-				id: "Jika ada Nidoqueen di Arena sendiri, Pokémon ini menjadi tidak membutuhkan Energi untuk menggunakan serangan.",
+				'th-th': "ถ้าบนกระดานฝ่ายเรามี [นิโดควีน] อยู่ พลังงานสำหรับใช้ท่าต่อสู้ของโปเกมอนนี้ ทั้งหมดจะหายไป",
+				'id-id': "Jika ada Nidoqueen di Arena sendiri, Pokémon ini menjadi tidak membutuhkan Energi untuk menggunakan serangan.",
 			},
 		},
 	],
@@ -45,18 +45,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ベノムインパクト",
+				'ja-jp': "ベノムインパクト",
 				'zh-tw': "毒液衝撞",
-				th: "เวนอมอิมแพกต์",
-				id: "Venom Impact",
+				'th-th': "เวนอมอิมแพกต์",
+				'id-id': "Venom Impact",
 			},
 			damage: 190,
 			cost: ["Darkness", "Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくにする。",
+				'ja-jp': "相手のバトルポケモンをどくにする。",
 				'zh-tw': "將對手的戰鬥寶可夢【中毒】。",
-				th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[พิษ]",
-				id: "Ubah kondisi Pokémon Bertarung lawan menjadi Racun.",
+				'th-th': "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[พิษ]",
+				'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Racun.",
 			},
 		},
 	],
@@ -74,7 +74,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ニドリーノ",
+		'ja-jp': "ニドリーノ",
 	},
 
 	retreat: 3,

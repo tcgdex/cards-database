@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [369],
 
 	name: {
-		en: "Relicanth",
-		fr: "Relicanth",
-		es: "Relicanth",
-		it: "Relicanth",
-		pt: "Relicanth",
-		de: "Relicanth"
+		'en-us': "Relicanth",
+		'fr-fr': "Relicanth",
+		'es-es': "Relicanth",
+		'it-it': "Relicanth",
+		'pt-br': "Relicanth",
+		'de-de': "Relicanth"
 	},
 
 	illustrator: "MAHOU",
@@ -29,20 +29,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fossil Search",
-				fr: "Fouille Fossile",
-				es: "Búsqueda de Fósiles",
-				it: "Raccolta Fossili",
-				pt: "Busca por Fóssil",
-				de: "Fossilsuche"
+				'en-us': "Fossil Search",
+				'fr-fr': "Fouille Fossile",
+				'es-es': "Búsqueda de Fósiles",
+				'it-it': "Raccolta Fossili",
+				'pt-br': "Busca por Fóssil",
+				'de-de': "Fossilsuche"
 			},
 			effect: {
-				en: "Search your deck for up to 2 Rare Fossil cards and put them onto your Bench. Then, shuffle your deck.",
-				fr: "Cherchez dans votre deck jusqu'à 2 cartes Fossile Rare, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja hasta 2 cartas de Fósil Raro y ponlas en tu Banca. Después, baraja las cartas de tu baraja.",
-				it: "Cerca nel tuo mazzo fino a due carte Fossile Raro e mettile nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure por até 2 cartas Fóssil Raro no seu baralho e coloque-as no seu Banco. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 2 Seltenes Fossil-Karten und lege sie auf deine Bank. Mische anschließend dein Deck."
+				'en-us': "Search your deck for up to 2 Rare Fossil cards and put them onto your Bench. Then, shuffle your deck.",
+				'fr-fr': "Cherchez dans votre deck jusqu'à 2 cartes Fossile Rare, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja hasta 2 cartas de Fósil Raro y ponlas en tu Banca. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo fino a due carte Fossile Raro e mettile nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por até 2 cartas Fóssil Raro no seu baralho e coloque-as no seu Banco. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach bis zu 2 Seltenes Fossil-Karten und lege sie auf deine Bank. Mische anschließend dein Deck."
 			},
 
 		},
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
-				es: "Surf",
-				it: "Surf",
-				pt: "Surfar",
-				de: "Surfer"
+				'en-us': "Surf",
+				'fr-fr': "Surf",
+				'es-es': "Surf",
+				'it-it': "Surf",
+				'pt-br': "Surfar",
+				'de-de': "Surfer"
 			},
 
 			damage: 40,
@@ -79,7 +79,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The reason it hasn't changed at all in a hundred million years is that it's apparently already a perfect life-form."
+		'en-us': "The reason it hasn't changed at all in a hundred million years is that it's apparently already a perfect life-form."
 	},
 
 	variants: [

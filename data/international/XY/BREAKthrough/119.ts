@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Hoothoot",
-		fr: "Hoothoot",
-		es: "Hoothoot",
-		it: "Hoothoot",
-		pt: "Hoothoot",
-		de: "Hoothoot"
+		'en-us': "Hoothoot",
+		'fr-fr': "Hoothoot",
+		'es-es': "Hoothoot",
+		'it-it': "Hoothoot",
+		'pt-br': "Hoothoot",
+		'de-de': "Hoothoot"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Proclaim the Night",
-				fr: "Proclamation Nocturne",
-				es: "Proclamar la Noche",
-				it: "Nottequi",
-				pt: "Proclamar a Noite",
-				de: "Verkünder der Nacht"
+				'en-us': "Proclaim the Night",
+				'fr-fr': "Proclamation Nocturne",
+				'es-es': "Proclamar la Noche",
+				'it-it': "Nottequi",
+				'pt-br': "Proclamar a Noite",
+				'de-de': "Verkünder der Nacht"
 			},
 			effect: {
-				en: "Your opponent can't play any Item cards from his or her hand during his or her next turn.",
-				fr: "Votre adversaire ne peut pas jouer de cartes Objet de sa main pendant son prochain tour.",
-				es: "Tu rival no puede jugar ninguna carta de Objeto de su mano durante su próximo turno.",
-				it: "Il tuo avversario non può giocare carte Strumento dalla sua mano durante il suo prossimo turno.",
-				pt: "Seu oponente não poderá jogar nenhum card de Item da mão dele ou dela durante a próxima vez de jogar desse oponente.",
-				de: "Dein Gegner kann während seines nächsten Zuges keine Itemkarten von seiner Hand spielen."
+				'en-us': "Your opponent can't play any Item cards from his or her hand during his or her next turn.",
+				'fr-fr': "Votre adversaire ne peut pas jouer de cartes Objet de sa main pendant son prochain tour.",
+				'es-es': "Tu rival no puede jugar ninguna carta de Objeto de su mano durante su próximo turno.",
+				'it-it': "Il tuo avversario non può giocare carte Strumento dalla sua mano durante il suo prossimo turno.",
+				'pt-br': "Seu oponente não poderá jogar nenhum card de Item da mão dele ou dela durante a próxima vez de jogar desse oponente.",
+				'de-de': "Dein Gegner kann während seines nächsten Zuges keine Itemkarten von seiner Hand spielen."
 			},
 
 		},
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It always stand on one foot. It changes feet so fast, the movement can rarely be seen.",
+		'en-us': "It always stand on one foot. It changes feet so fast, the movement can rarely be seen.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Scarlet & Violet"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Clauncher",
-		fr: "Flingouste",
-		es: "Clauncher",
-		it: "Clauncher",
-		pt: "Clauncher",
-		de: "Scampisto"
+		'en-us': "Clauncher",
+		'fr-fr': "Flingouste",
+		'es-es': "Clauncher",
+		'it-it': "Clauncher",
+		'pt-br': "Clauncher",
+		'de-de': "Scampisto"
 	},
 
 	rarity: "Illustration rare",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Vise Grip",
-			fr: "Force Poigne",
-			es: "Agarre",
-			it: "Presa",
-			pt: "Agarramento Compressor",
-			de: "Klammer"
+			'en-us': "Vise Grip",
+			'fr-fr': "Force Poigne",
+			'es-es': "Agarre",
+			'it-it': "Presa",
+			'pt-br': "Agarramento Compressor",
+			'de-de': "Klammer"
 		},
 
 		damage: 10
@@ -53,7 +53,7 @@ const card: Card = {
 	illustrator: "Shinya Komatsu",
 
 	description: {
-		en: "Clauncher's claws will regrow if they fall off. The meat inside the claws is edible, but it has a distinct flavor that doesn't appeal to all tastes.",
+		'en-us': "Clauncher's claws will regrow if they fall off. The meat inside the claws is edible, but it has a distinct flavor that doesn't appeal to all tastes.",
 	},
 
 	thirdParty: {

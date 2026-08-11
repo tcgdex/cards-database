@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Talonflame",
-		fr: "Flambusard",
-		es: "Talonflame",
-		it: "Talonflame",
-		pt: "Talonflame",
-		de: "Fiaro"
+		'en-us': "Talonflame",
+		'fr-fr': "Flambusard",
+		'es-es': "Talonflame",
+		'it-it': "Talonflame",
+		'pt-br': "Talonflame",
+		'de-de': "Fiaro"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Fletchinder",
-		fr: "Braisillon",
-		es: "Fletchinder",
-		it: "Fletchinder",
-		pt: "Fletchinder",
-		de: "Dartignis"
+		'en-us': "Fletchinder",
+		'fr-fr': "Braisillon",
+		'es-es': "Fletchinder",
+		'it-it': "Fletchinder",
+		'pt-br': "Fletchinder",
+		'de-de': "Dartignis"
 	},
 
 	stage: "Stage2",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Grand Loop",
-				fr: "Grande Boucle",
-				es: "Gran Bucle",
-				it: "Granvirata",
-				pt: "Grande Volta",
-				de: "Großartiger Looping"
+				'en-us': "Grand Loop",
+				'fr-fr': "Grande Boucle",
+				'es-es': "Gran Bucle",
+				'it-it': "Granvirata",
+				'pt-br': "Grande Volta",
+				'de-de': "Großartiger Looping"
 			},
 			effect: {
-				en: "Draw 3 cards. You may switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Piochez 3 cartes. Vous pouvez échanger ce Pokémon avec l'un de vos Pokémon de Banc.",
-				es: "Roba 3 cartas. Puedes cambiar este Pokémon por 1 de tus Pokémon en Banca.",
-				it: "Pesca tre carte. Puoi scambiare questo Pokémon con uno della tua panchina.",
-				pt: "Compre 3 cards. Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
-				de: "Ziehe 3 Karten. Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen."
+				'en-us': "Draw 3 cards. You may switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Piochez 3 cartes. Vous pouvez échanger ce Pokémon avec l'un de vos Pokémon de Banc.",
+				'es-es': "Roba 3 cartas. Puedes cambiar este Pokémon por 1 de tus Pokémon en Banca.",
+				'it-it': "Pesca tre carte. Puoi scambiare questo Pokémon con uno della tua panchina.",
+				'pt-br': "Compre 3 cards. Você pode trocar este Pokémon por 1 dos seus Pokémon no Banco.",
+				'de-de': "Ziehe 3 Karten. Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 
 		},
@@ -66,20 +66,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Brave Bird",
-				fr: "Rapace",
-				es: "Pájaro Osado",
-				it: "Baldeali",
-				pt: "Pássaro Bravo",
-				de: "Sturzflug"
+				'en-us': "Brave Bird",
+				'fr-fr': "Rapace",
+				'es-es': "Pájaro Osado",
+				'it-it': "Baldeali",
+				'pt-br': "Pássaro Bravo",
+				'de-de': "Sturzflug"
 			},
 			effect: {
-				en: "This Pokémon does 20 damage to itself.",
-				fr: "Ce Pokémon s'inflige 20 dégâts.",
-				es: "Este Pokémon se hace 20 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 20 danni a se stesso.",
-				pt: "Este Pokémon causa 20 de danos a ele mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 20 Schadenspunkte zu."
+				'en-us': "This Pokémon does 20 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 20 dégâts.",
+				'es-es': "Este Pokémon se hace 20 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 20 danni a se stesso.",
+				'pt-br': "Este Pokémon causa 20 de danos a ele mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 90,
 
@@ -96,7 +96,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "When attacking prey, it can reach speeds of up to 310 mph. It finishes its prey off with a colossal kick.",
+		'en-us': "When attacking prey, it can reach speeds of up to 310 mph. It finishes its prey off with a colossal kick.",
 	},
 
 	thirdParty: {

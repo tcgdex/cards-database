@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Ambipom G",
-		fr: "Capidextre  Niv. 40",
-		de: "Ambidiffel G"
+		'en-us': "Ambipom G",
+		'fr-fr': "Capidextre  Niv. 40",
+		'de-de': "Ambidiffel G"
 	},
 
 	illustrator: "Makoto Imai",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Code",
-				fr: "Queue codée",
-				de: "Schweifcode"
+				'en-us': "Tail Code",
+				'fr-fr': "Queue codée",
+				'de-de': "Schweifcode"
 			},
 			effect: {
-				en: "Move an Energy card attached to the Defending Pokémon to another of your opponent's Pokémon.",
-				fr: "Déplacez une carte Énergie attachée au Pokémon Défenseur sur un autre des Pokémon de votre adversaire.",
-				de: "Entferne 1 an das Verteidigende Pokémon angelegte Energiekarte und lege sie an 1 anderes Pokémon deines Gegners an."
+				'en-us': "Move an Energy card attached to the Defending Pokémon to another of your opponent's Pokémon.",
+				'fr-fr': "Déplacez une carte Énergie attachée au Pokémon Défenseur sur un autre des Pokémon de votre adversaire.",
+				'de-de': "Entferne 1 an das Verteidigende Pokémon angelegte Energiekarte und lege sie an 1 anderes Pokémon deines Gegners an."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Snap Attack",
-				fr: "Attaque soudaine",
-				de: "Schnappangriff"
+				'en-us': "Snap Attack",
+				'fr-fr': "Attaque soudaine",
+				'de-de': "Schnappangriff"
 			},
 			effect: {
-				en: "If the Defending Pokémon has any Energy cards attached to it, this attack's base damage is 20 instead of 60.",
-				fr: "Si le Pokémon Défenseur possède des cartes Énergie, les dégâts de base de cette attaque sont de 20 au lieu de 60.",
-				de: "Wenn am Verteidigenden Pokémon mindestens 1 Energiekarte angelegt ist, beträgt der Grundschaden dieses Angriffs 20 Schadenspunkte anstelle von 60 Schadenspunkten."
+				'en-us': "If the Defending Pokémon has any Energy cards attached to it, this attack's base damage is 20 instead of 60.",
+				'fr-fr': "Si le Pokémon Défenseur possède des cartes Énergie, les dégâts de base de cette attaque sont de 20 au lieu de 60.",
+				'de-de': "Wenn am Verteidigenden Pokémon mindestens 1 Energiekarte angelegt ist, beträgt der Grundschaden dieses Angriffs 20 Schadenspunkte anstelle von 60 Schadenspunkten."
 			},
 			damage: 60,
 

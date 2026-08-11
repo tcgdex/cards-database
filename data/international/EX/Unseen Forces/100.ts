@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Warp Energy",
-		fr: "Énergie de distorsion",
-		de: "Warp Energy*"
+		'en-us': "Warp Energy",
+		'fr-fr': "Énergie de distorsion",
+		'de-de': "Warp Energy*"
 	},
 
 	illustrator: "Shin-ichi Yoshikawa",
@@ -15,9 +15,9 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		en: "Warp Energy provides Colorless Energy. When you attach this card from your hand to your Active Pokémon, switch that Pokémon with 1 of your Benched Pokémon.",
-		de: "Warp Energy provides  Energy. When you attach this card from your hand to your Active Pokémon, switch that Pokémon with 1 of your Benched Pokémon.",
-		fr: "Énergie de distorsion fournit de l'Énergie Incolore. Lorsque vous attachez cette carte de votre main à votre Pokémon Actif, échangez ce Pokémon avec 1 des Pokémon de votre Banc.",
+		'en-us': "Warp Energy provides Colorless Energy. When you attach this card from your hand to your Active Pokémon, switch that Pokémon with 1 of your Benched Pokémon.",
+		'de-de': "Warp Energy provides  Energy. When you attach this card from your hand to your Active Pokémon, switch that Pokémon with 1 of your Benched Pokémon.",
+		'fr-fr': "Énergie de distorsion fournit de l'Énergie Incolore. Lorsque vous attachez cette carte de votre main à votre Pokémon Actif, échangez ce Pokémon avec 1 des Pokémon de votre Banc.",
 	},
 
 

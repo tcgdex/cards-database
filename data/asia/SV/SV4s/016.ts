@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Toedscool"
+		'id-id': "Toedscool"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Meskipun mirip dengan Tentacool, Pokémon ini merupakan spesies yang berbeda. Kakinya ramping, tetapi kecepatan lari Toedscool mencapai 50 km/jam ketika berlari."
+		'id-id': "Meskipun mirip dengan Tentacool, Pokémon ini merupakan spesies yang berbeda. Kakinya ramping, tetapi kecepatan lari Toedscool mencapai 50 km/jam ketika berlari."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Kick"
+			'id-id': "Kick"
 		},
 
 		damage: 20,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Menyerap"
+			'id-id': "Menyerap"
 		},
 
 		effect: {
-			id: "Pulihkan HP Pokémon ini sejumlah 20."
+			'id-id': "Pulihkan HP Pokémon ini sejumlah 20."
 		},
 
 		damage: 40,

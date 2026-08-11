@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM3H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リオル",
+		'ja-jp': "リオル",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "人や ポケモンの 感情や 自然の 様子を 波動 という 波の 形で みているのだ。",
+		'ja-jp': "人や ポケモンの 感情や 自然の 様子を 波動 という 波の 形で みているのだ。",
 	},
 
 	stage: "Basic",

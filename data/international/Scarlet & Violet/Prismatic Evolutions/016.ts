@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pyroar",
-		fr: "Némélios",
-		es: "Pyroar",
-		pt: "Pyroar",
-		it: "Pyroar",
-		de: "Pyroleo"
+		'en-us': "Pyroar",
+		'fr-fr': "Némélios",
+		'es-es': "Pyroar",
+		'pt-br': "Pyroar",
+		'it-it': "Pyroar",
+		'de-de': "Pyroleo"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Litleo",
-		fr: "Hélionceau",
-		es: "Litleo",
-		pt: "Litleo",
-		it: "Litleo",
-		de: "Leufeo"
+		'en-us': "Litleo",
+		'fr-fr': "Hélionceau",
+		'es-es': "Litleo",
+		'pt-br': "Litleo",
+		'it-it': "Litleo",
+		'de-de': "Leufeo"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			en: "Fire Mane",
-			fr: "Crinière de Feu",
-			es: "Crin de Fuego",
-			pt: "Crina de Fogo",
-			it: "Criniera di Fuoco",
-			de: "Flammenmähne"
+			'en-us': "Fire Mane",
+			'fr-fr': "Crinière de Feu",
+			'es-es': "Crin de Fuego",
+			'pt-br': "Crina de Fogo",
+			'it-it': "Criniera di Fuoco",
+			'de-de': "Flammenmähne"
 		},
 
 		damage: 50
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Flame Tackle",
-			fr: "Charge Calcinante",
-			es: "Placaje Ígneo",
-			pt: "Investida Flamejante",
-			it: "Fiammazione",
-			de: "Flammentackle"
+			'en-us': "Flame Tackle",
+			'fr-fr': "Charge Calcinante",
+			'es-es': "Placaje Ígneo",
+			'pt-br': "Investida Flamejante",
+			'it-it': "Fiammazione",
+			'de-de': "Flammentackle"
 		},
 
 		effect: {
-			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
-			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá atacar.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen."
 		},
 
 		damage: 160

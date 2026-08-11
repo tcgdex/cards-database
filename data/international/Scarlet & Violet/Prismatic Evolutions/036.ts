@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dusclops",
-		fr: "Téraclope",
-		es: "Dusclops",
-		pt: "Dusclops",
-		it: "Dusclops",
-		de: "Zwirrklop"
+		'en-us': "Dusclops",
+		'fr-fr': "Téraclope",
+		'es-es': "Dusclops",
+		'pt-br': "Dusclops",
+		'it-it': "Dusclops",
+		'de-de': "Zwirrklop"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Duskull",
-		fr: "Skelénox",
-		es: "Duskull",
-		pt: "Duskull",
-		it: "Duskull",
-		de: "Zwirrlicht"
+		'en-us': "Duskull",
+		'fr-fr': "Skelénox",
+		'es-es': "Duskull",
+		'pt-br': "Duskull",
+		'it-it': "Duskull",
+		'de-de': "Zwirrlicht"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Cursed Blast",
-			fr: "Explosion Maudite",
-			es: "Estallido Maldito",
-			pt: "Explosão Maldita",
-			it: "Esplosione Maledetta",
-			de: "Verfluchte Explosion"
+			'en-us': "Cursed Blast",
+			'fr-fr': "Explosion Maudite",
+			'es-es': "Estallido Maldito",
+			'pt-br': "Explosão Maldita",
+			'it-it': "Esplosione Maledetta",
+			'de-de': "Verfluchte Explosion"
 		},
 
 		effect: {
-			en: "Once during your turn, you may put 5 damage counters on 1 of your opponent's Pokémon. If you use this Ability, this Pokémon is Knocked Out.",
-			fr: "Une fois pendant votre tour, vous pouvez placer 5 marqueurs de dégâts sur l'un des Pokémon de votre adversaire. Si vous utilisez ce talent, ce Pokémon est mis K.O.",
-			es: "Una vez durante tu turno, puedes poner 5 contadores de daño en uno de los Pokémon de tu rival. Si usas esta habilidad, este Pokémon queda Fuera de Combate.",
-			pt: "Uma vez durante o seu turno, você poderá colocar 5 contadores de dano em 1 dos Pokémon do seu oponente. Se você usar esta Habilidade, este Pokémon será Nocauteado.",
-			it: "Una sola volta durante il tuo turno, puoi mettere cinque segnalini danno su uno dei Pokémon del tuo avversario. Se usi questa abilità, questo Pokémon viene messo KO.",
-			de: "Einmal während deines Zuges kannst du 5 Schadensmarken auf 1 Pokémon deines Gegners legen. Wenn du diese Fähigkeit einsetzt, ist dieses Pokémon kampfunfähig."
+			'en-us': "Once during your turn, you may put 5 damage counters on 1 of your opponent's Pokémon. If you use this Ability, this Pokémon is Knocked Out.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez placer 5 marqueurs de dégâts sur l'un des Pokémon de votre adversaire. Si vous utilisez ce talent, ce Pokémon est mis K.O.",
+			'es-es': "Una vez durante tu turno, puedes poner 5 contadores de daño en uno de los Pokémon de tu rival. Si usas esta habilidad, este Pokémon queda Fuera de Combate.",
+			'pt-br': "Uma vez durante o seu turno, você poderá colocar 5 contadores de dano em 1 dos Pokémon do seu oponente. Se você usar esta Habilidade, este Pokémon será Nocauteado.",
+			'it-it': "Una sola volta durante il tuo turno, puoi mettere cinque segnalini danno su uno dei Pokémon del tuo avversario. Se usi questa abilità, questo Pokémon viene messo KO.",
+			'de-de': "Einmal während deines Zuges kannst du 5 Schadensmarken auf 1 Pokémon deines Gegners legen. Wenn du diese Fähigkeit einsetzt, ist dieses Pokémon kampfunfähig."
 		}
 	}],
 
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			en: "Will-O-Wisp",
-			fr: "Feu Follet",
-			es: "Fuego Fatuo",
-			pt: "Fogo Fátuo",
-			it: "Fuocofatuo",
-			de: "Irrlicht"
+			'en-us': "Will-O-Wisp",
+			'fr-fr': "Feu Follet",
+			'es-es': "Fuego Fatuo",
+			'pt-br': "Fogo Fátuo",
+			'it-it': "Fuocofatuo",
+			'de-de': "Irrlicht"
 		},
 
 		damage: 50

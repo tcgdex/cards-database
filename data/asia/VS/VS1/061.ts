@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャニーンのビードリル",
+		'ja-jp': "ジャニーンのビードリル",
 	},
 
 	rarity: "Common",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "敏ility性",
+				'ja-jp': "敏ility性",
 			},
 			effect: {
-				ja: "コインをひっくり返します。ヘッドの場合、対戦相手の次のターン中に、ジャニーンのビードリルに行われた損害を含む攻撃のすべての影響を防ぎます。",
+				'ja-jp': "コインをひっくり返します。ヘッドの場合、対戦相手の次のターン中に、ジャニーンのビードリルに行われた損害を含む攻撃のすべての影響を防ぎます。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "毒物",
+				'ja-jp': "毒物",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。",
 			},
 			damage: 20,
 		},

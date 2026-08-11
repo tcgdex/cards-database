@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Miltank",
-		fr: "Écrémeuh",
-		es: "Miltank",
-		it: "Miltank",
-		pt: "Miltank",
-		de: "Miltank"
+		'en-us': "Miltank",
+		'fr-fr': "Écrémeuh",
+		'es-es': "Miltank",
+		'it-it': "Miltank",
+		'pt-br': "Miltank",
+		'de-de': "Miltank"
 	},
 
 	illustrator: "MAHOU",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Max Milk",
-				fr: "Lait Max",
+				'en-us': "Max Milk",
+				'fr-fr': "Lait Max",
 			},
 			effect: {
-				en: "Heal all damage from 1 of your Pokémon. Then, discard all Energy attached to this Pokémon.",
-				fr: "Soignez tous les dégâts de l'un de vos Pokémon. Ensuite, défaussez toutes les Énergies attachées à ce Pokémon.",
+				'en-us': "Heal all damage from 1 of your Pokémon. Then, discard all Energy attached to this Pokémon.",
+				'fr-fr': "Soignez tous les dégâts de l'un de vos Pokémon. Ensuite, défaussez toutes les Énergies attachées à ce Pokémon.",
 			},
 
 		},
@@ -50,8 +50,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
 			},
 
 			damage: 30,
@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It is said that kids who drink Miltank's milk grow up to become hearty, healthy adults.",
+		'en-us': "It is said that kids who drink Miltank's milk grow up to become hearty, healthy adults.",
 	},
 
 	thirdParty: {

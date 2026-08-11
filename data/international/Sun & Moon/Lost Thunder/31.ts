@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Combee",
-		fr: "Apitrini",
-		es: "Combee",
-		it: "Combee",
-		pt: "Combee",
-		de: "Wadribie"
+		'en-us': "Combee",
+		'fr-fr': "Apitrini",
+		'es-es': "Combee",
+		'it-it': "Combee",
+		'pt-br': "Combee",
+		'de-de': "Wadribie"
 	},
 
 	illustrator: "Akira Komayama",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Bee March",
-				fr: "Marche Apicole",
-				es: "Marcha de las Abejas",
-				it: "Sfilata delle Api",
-				pt: "Marcha das Abelhas",
-				de: "Bienenwanderung"
+				'en-us': "Bee March",
+				'fr-fr': "Marche Apicole",
+				'es-es': "Marcha de las Abejas",
+				'it-it': "Sfilata delle Api",
+				'pt-br': "Marcha das Abelhas",
+				'de-de': "Bienenwanderung"
 			},
 			effect: {
-				en: "Search your deck for up to 3 Combee and put them onto your Bench. Then, shuffle your deck.",
-				fr: "Cherchez jusqu’à 3 Apitrini dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja hasta 3 Combee y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
-				it: "Cerca nel tuo mazzo fino a tre Combee e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure por até 3 Combee no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 3 Wadribie und lege sie auf deine Bank. Mische anschließend dein Deck."
+				'en-us': "Search your deck for up to 3 Combee and put them onto your Bench. Then, shuffle your deck.",
+				'fr-fr': "Cherchez jusqu’à 3 Apitrini dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja hasta 3 Combee y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo fino a tre Combee e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por até 3 Combee no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach bis zu 3 Wadribie und lege sie auf deine Bank. Mische anschließend dein Deck."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It collects and delivers honey to its colony. At night, they cluster to form a beehive and sleep.",
+		'en-us': "It collects and delivers honey to its colony. At night, they cluster to form a beehive and sleep.",
 	},
 
 	thirdParty: {

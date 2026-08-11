@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Base Set 2'
 
 const card: Card = {
 	name: {
-		en: "Pinsir",
+		'en-us': "Pinsir",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Irongrip",
+				'en-us': "Irongrip",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 20,
 
@@ -46,7 +46,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Guillotine",
+				'en-us': "Guillotine",
 			},
 
 			damage: 50,
@@ -64,7 +64,7 @@ const card: Card = {
 
 
 	description: {
-		en: "If it fails to crush the victim in its pincers, it will swing its victim around and toss it hard.",
+		'en-us': "If it fails to crush the victim in its pincers, it will swing its victim around and toss it hard.",
 	},
 
 

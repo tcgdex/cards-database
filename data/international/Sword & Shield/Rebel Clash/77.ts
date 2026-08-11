@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	dexId: [178],
 
 	name: {
-		en: "Xatu",
-		fr: "Xatu",
-		es: "Xatu",
-		it: "Xatu",
-		pt: "Xatu",
-		de: "Xatu"
+		'en-us': "Xatu",
+		'fr-fr': "Xatu",
+		'es-es': "Xatu",
+		'it-it': "Xatu",
+		'pt-br': "Xatu",
+		'de-de': "Xatu"
 	},
 
 	illustrator: "so-taro",
@@ -19,12 +19,12 @@ const card: Card = {
 	set: Set,
 
 	evolveFrom: {
-		en: "Natu",
-		fr: "Natu",
-		es: "Natu",
-		it: "Natu",
-		pt: "Natu",
-		de: "Natu"
+		'en-us': "Natu",
+		'fr-fr': "Natu",
+		'es-es': "Natu",
+		'it-it': "Natu",
+		'pt-br': "Natu",
+		'de-de': "Natu"
 	},
 
 	attacks: [
@@ -33,20 +33,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Warp",
-				fr: "Téléportation d'Énergie",
-				es: "Teletransporte Energía",
-				it: "Distorsione Energetica",
-				pt: "Portal de Energia",
-				de: "Energiewarp"
+				'en-us': "Energy Warp",
+				'fr-fr': "Téléportation d'Énergie",
+				'es-es': "Teletransporte Energía",
+				'it-it': "Distorsione Energetica",
+				'pt-br': "Portal de Energia",
+				'de-de': "Energiewarp"
 			},
 			effect: {
-				en: "Move an Energy from 1 of your opponent's Benched Pokémon to their Active Pokémon.",
-				fr: "Déplacez une Énergie de l'un des Pokémon de Banc de votre adversaire vers son Pokémon Actif.",
-				es: "Mueve 1 Energía de 1 de los Pokémon en Banca de tu rival a su Pokémon Activo.",
-				it: "Sposta un'Energia da uno dei Pokémon nella panchina del tuo avversario al suo Pokémon attivo.",
-				pt: "Mova 1 Energia de 1 dos Pokémon no Banco do seu oponente para o Pokémon Ativo dele(a).",
-				de: "Verschiebe 1 Energie von 1 Pokémon auf der Bank deines Gegners auf sein Aktives Pokémon."
+				'en-us': "Move an Energy from 1 of your opponent's Benched Pokémon to their Active Pokémon.",
+				'fr-fr': "Déplacez une Énergie de l'un des Pokémon de Banc de votre adversaire vers son Pokémon Actif.",
+				'es-es': "Mueve 1 Energía de 1 de los Pokémon en Banca de tu rival a su Pokémon Activo.",
+				'it-it': "Sposta un'Energia da uno dei Pokémon nella panchina del tuo avversario al suo Pokémon attivo.",
+				'pt-br': "Mova 1 Energia de 1 dos Pokémon no Banco do seu oponente para o Pokémon Ativo dele(a).",
+				'de-de': "Verschiebe 1 Energie von 1 Pokémon auf der Bank deines Gegners auf sein Aktives Pokémon."
 			},
 
 		},
@@ -55,20 +55,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psychic",
-				fr: "Psyko",
-				es: "Psíquico",
-				it: "Psichico",
-				pt: "Psíquico",
-				de: "Psychokinese"
+				'en-us': "Psychic",
+				'fr-fr': "Psyko",
+				'es-es': "Psíquico",
+				'it-it': "Psichico",
+				'pt-br': "Psíquico",
+				'de-de': "Psychokinese"
 			},
 			effect: {
-				en: "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
-				es: "Este ataque hace 30 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
-				it: "Questo attacco infligge 30 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Este ataque causa 30 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",
-				de: "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 30 Schadenspunkte mehr zu."
+				'en-us': "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
+				'es-es': "Este ataque hace 30 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
+				'it-it': "Questo attacco infligge 30 danni in più per ogni Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Este ataque causa 30 pontos de dano a mais para cada Energia ligada ao Pokémon Ativo do seu oponente.",
+				'de-de': "Diese Attacke fügt für jede an das Aktive Pokémon deines Gegners angelegte Energie 30 Schadenspunkte mehr zu."
 			},
 			damage: "10+",
 
@@ -98,7 +98,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "They say that it stays still and quiet because it is seeing both the past and future at the same time."
+		'en-us': "They say that it stays still and quiet because it is seeing both the past and future at the same time."
 	},
 
 	variants: [

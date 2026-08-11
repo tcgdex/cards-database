@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 8'
 
 const card: Card = {
 	name: {
-		en: "Yanmega",
+		'en-us': "Yanmega",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Yanma",
+		'en-us': "Yanma",
 	},
 
 	stage: "Stage1",
@@ -33,10 +33,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Supersonic",
+				'en-us': "Supersonic",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 			},
 
 		},
@@ -48,10 +48,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Air Slash",
+				'en-us': "Air Slash",
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard an Energy attached to Yanmega.",
+				'en-us': "Flip a coin. If tails, discard an Energy attached to Yanmega.",
 			},
 			damage: 70,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "By churning its wings, it creates shock waves that inflict critical internal injuries to foes."
+		'en-us': "By churning its wings, it creates shock waves that inflict critical internal injuries to foes."
 	},
 
 	retreat: 0,

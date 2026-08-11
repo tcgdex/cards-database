@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワルビル",
+		'ja-jp': "ワルビル",
 		'zh-tw': "混混鱷",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "暗闇でも 見える 特殊な 両目の おかげで 真夜中でも 迷わず 狩りが できるのだ。",
+		'ja-jp': "暗闇でも 見える 特殊な 両目の おかげで 真夜中でも 迷わず 狩りが できるのだ。",
 		'zh-tw': "有一雙在漆黑環境也能看見四周的特殊眼睛，讓牠即使 在半夜也能不受影響地去打獵。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かみくだく",
+				'ja-jp': "かみくだく",
 				'zh-tw': "咬碎",
 			},
 			damage: 60,
 			cost: ["Darkness", "Colorless", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
 				'zh-tw': "擲1次硬幣若為正面，則選擇1個對手的戰鬥寶可夢身上附加的能量，將其丟棄。",
 			},
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "メグロコ",
+		'ja-jp': "メグロコ",
 	},
 
 	retreat: 3,

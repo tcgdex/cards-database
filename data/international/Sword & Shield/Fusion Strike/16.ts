@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Phantump",
-		fr: "Brocélôme",
-		es: "Phantump",
-		it: "Phantump",
-		pt: "Phantump",
-		de: "Paragoni"
+		'en-us': "Phantump",
+		'fr-fr': "Brocélôme",
+		'es-es': "Phantump",
+		'it-it': "Phantump",
+		'pt-br': "Phantump",
+		'de-de': "Paragoni"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "OKACHEKE",
 
 	description: {
-		en: "With a voice like a human child's, it cries out to lure adults deep into the forest, getting them lost among the trees."
+		'en-us': "With a voice like a human child's, it cries out to lure adults deep into the forest, getting them lost among the trees."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			de: "Tackle",
-			es: "Placaje",
-			pt: "Investida",
-			it: "Azione"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'de-de': "Tackle",
+			'es-es': "Placaje",
+			'pt-br': "Investida",
+			'it-it': "Azione"
 		},
 
 		damage: 10
@@ -50,12 +50,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Seed Bomb",
-			fr: "Canon Graine",
-			de: "Samenbomben",
-			es: "Bomba Germen",
-			pt: "Bomba de Sementes",
-			it: "Semebomba"
+			'en-us': "Seed Bomb",
+			'fr-fr': "Canon Graine",
+			'de-de': "Samenbomben",
+			'es-es': "Bomba Germen",
+			'pt-br': "Bomba de Sementes",
+			'it-it': "Semebomba"
 		},
 
 		damage: 20

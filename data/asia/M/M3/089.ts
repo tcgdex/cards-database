@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チゴラス",
+		'ja-jp': "チゴラス",
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "化石から 復活した ポケモン。 気に入らないことが あると かんしゃくを 起こして 大暴れ。",
+		'ja-jp': "化石から 復活した ポケモン。 気に入らないことが あると かんしゃくを 起こして 大暴れ。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "holo"}],
 
 	evolveFrom: {
-		ja: "古びたアゴの化石",
+		'ja-jp': "古びたアゴの化石",
 	},
 
 	retreat: 3,

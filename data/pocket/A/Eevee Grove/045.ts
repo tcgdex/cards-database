@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Purrloin",
-		fr: "Chacripan"
+		'en-us': "Purrloin",
+		'fr-fr': "Chacripan"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -18,23 +18,23 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "Opponents that get drawn in by its adorable\nbehavior come away with stinging scratches from\nits claws and stinging pride from its laughter.",
-		fr: "Malheur à qui se laisse berner par ses gestes adorables : une fois les gens à sa portée, il les griffe sans crier gare, en ricanant."
+		'en-us': "Opponents that get drawn in by its adorable\nbehavior come away with stinging scratches from\nits claws and stinging pride from its laughter.",
+		'fr-fr': "Malheur à qui se laisse berner par ses gestes adorables : une fois les gens à sa portée, il les griffe sans crier gare, en ricanant."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Playful Knockdown",
-			fr: "Fausse Maladresse"
+			'en-us': "Playful Knockdown",
+			'fr-fr': "Fausse Maladresse"
 		},
 
 		cost: ["Darkness"],
 
 		effect: {
-			en: "Discard all Pokémon Tools from your opponent's Active Pokémon.",
-			fr: "Défaussez toutes les cartes Outil Pokémon du Pokémon Actif de votre adversaire."
+			'en-us': "Discard all Pokémon Tools from your opponent's Active Pokémon.",
+			'fr-fr': "Défaussez toutes les cartes Outil Pokémon du Pokémon Actif de votre adversaire."
 		}
 	}],
 

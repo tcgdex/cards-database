@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "詭角鹿",
-		ja: "アヤシシ"
+		'ja-jp': "アヤシシ"
 	},
 
 	illustrator: "Mizue",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "製造肉眼不可見的障壁時，黑珠會發出妖異的光輝。從牠身上脫落的鬍鬚 是用來製作溫暖冬衣的實用原料。",
-		ja: "目に見えぬ 壁を 作りしとき 黒き珠 妖しく 輝きたり。 抜け落ちし 髭は 暖かく 冬衣の 原料に 重宝す。"
+		'ja-jp': "目に見えぬ 壁を 作りしとき 黒き珠 妖しく 輝きたり。 抜け落ちし 髭は 暖かく 冬衣の 原料に 重宝す。"
 	},
 
 	stage: "Stage1",
@@ -26,24 +26,24 @@ const card: Card = {
 
 		name: {
 			'zh-tw': "快走",
-			ja: "いそぎあし"
+			'ja-jp': "いそぎあし"
 		},
 
 		effect: {
 			'zh-tw': "在自己的回合時，可使用1次。從自己的牌庫抽出1張卡。",
-			ja: "自分の番に1回使える。自分の山札を1枚引く。"
+			'ja-jp': "自分の番に1回使える。自分の山札を1枚引く。"
 		}
 	}],
 
 	attacks: [{
 		name: {
 			'zh-tw': "神通力",
-			ja: "じんつうりき"
+			'ja-jp': "じんつうりき"
 		},
 
 		effect: {
 			'zh-tw': "若自己的手牌的張數與對手的手牌的張數相同，則增加80點傷害。",
-			ja: "自分の手札と相手の手札が同じ枚数なら、80ダメージ追加。"
+			'ja-jp': "自分の手札と相手の手札が同じ枚数なら、80ダメージ追加。"
 		},
 
 		damage: "40＋",

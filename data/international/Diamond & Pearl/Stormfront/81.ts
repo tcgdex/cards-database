@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Stormfront'
 
 const card: Card = {
 	name: {
-		en: "Voltorb",
-		fr: "Voltorbe",
-		de: "Voltobal"
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe",
+		'de-de': "Voltobal"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		fr: "Voltorbe",
+		'fr-fr': "Voltorbe",
 	},
 
 	stage: "Basic",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Outlet",
-				fr: "Exutoire",
-				de: "Stromquelle"
+				'en-us': "Outlet",
+				'fr-fr': "Exutoire",
+				'de-de': "Stromquelle"
 			},
 			effect: {
-				en: "Search your deck for a Lightning Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une carte Énergie Lightning, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach einer -Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+				'en-us': "Search your deck for a Lightning Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck une carte Énergie Lightning, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
+				'de-de': "Durchsuche dein Deck nach einer -Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -51,14 +51,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Bouncing Ball",
-				fr: "Balle rebondissante",
-				de: "Hüpfender Ball"
+				'en-us': "Bouncing Ball",
+				'fr-fr': "Balle rebondissante",
+				'de-de': "Hüpfender Ball"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Voltorb does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Voltorbe s'inflige 10 dégâts.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" fügt sich Voltobal selbst 10 Schadenspunkte zu."
+				'en-us': "Flip a coin. If tails, Voltorb does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Voltorbe s'inflige 10 dégâts.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" fügt sich Voltobal selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -82,8 +82,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on touch.",
-		fr: "Il ressemble à une Poké Ball. Ce Pokémon dangereux peut exploser ou s'électrifier au toucher."
+		'en-us': "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on touch.",
+		'fr-fr': "Il ressemble à une Poké Ball. Ce Pokémon dangereux peut exploser ou s'électrifier au toucher."
 	},
 
 	thirdParty: {

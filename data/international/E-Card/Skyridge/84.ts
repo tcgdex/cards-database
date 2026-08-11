@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	illustrator: "Yuka Morii",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Max Voltage",
-				de: "Höchstspannung"
+				'en-us': "Max Voltage",
+				'de-de': "Höchstspannung"
 			},
 			effect: {
-				en: "Discard all Lightning Energy cards attached to Pikachu. This attack does 20 damage plus 10 more damage for each Energy card discarded in this way.",
-				de: "Lege alle an Pikachu angelegten -Energiekarten auf deinen Ablagestapel. Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf diese Weise abgelegte Energiekarte zu."
+				'en-us': "Discard all Lightning Energy cards attached to Pikachu. This attack does 20 damage plus 10 more damage for each Energy card discarded in this way.",
+				'de-de': "Lege alle an Pikachu angelegten -Energiekarten auf deinen Ablagestapel. Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf diese Weise abgelegte Energiekarte zu."
 			},
 			damage: "20+",
 

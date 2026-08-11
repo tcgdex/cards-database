@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヤンチャム",
+		'ja-jp': "ヤンチャム",
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "親分と 慕う ゴロンダの 真似を する ことで 戦い方や 獲物の 捕まえ方を 学ぶ。",
+		'ja-jp': "親分と 慕う ゴロンダの 真似を する ことで 戦い方や 獲物の 捕まえ方を 学ぶ。",
 	},
 
 	stage: "Basic",

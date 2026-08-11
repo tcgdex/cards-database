@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Munna",
-		fr: "Munna",
-		es: "Munna",
-		it: "Munna",
-		pt: "Munna",
-		de: "Somniam"
+		'en-us': "Munna",
+		'fr-fr': "Munna",
+		'es-es': "Munna",
+		'it-it': "Munna",
+		'pt-br': "Munna",
+		'de-de': "Somniam"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -35,8 +35,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
+				'en-us': "Ram",
+				'fr-fr': "Collision",
 			},
 
 			damage: 20,
@@ -54,7 +54,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It eats the dreams of people and Pokémon. When it eats a pleasant dream, it expels pink-colored mist.",
+		'en-us': "It eats the dreams of people and Pokémon. When it eats a pleasant dream, it expels pink-colored mist.",
 	},
 
 	thirdParty: {

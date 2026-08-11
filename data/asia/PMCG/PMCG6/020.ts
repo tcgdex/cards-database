@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サカキのニドクイン",
+		'ja-jp': "サカキのニドクイン",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,17 +19,17 @@ const card: Card = {
 		{
 			cost: ["Grass", "Grass", "Colorless"],
 			name: {
-				ja: "メガキック",
+				'ja-jp': "メガキック",
 			},
 			damage: 40,
 		},
 		{
 			cost: ["Grass", "Grass", "Colorless", "Colorless"],
 			name: {
-				ja: "ラリアットが大好きです",
+				'ja-jp': "ラリアットが大好きです",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は50のダメージと、少なくとも1つのジョバンニがベンチにいっぱいになっている場合、さらに50のダメージを与えます。尾の場合、この攻撃は何もしません。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は50のダメージと、少なくとも1つのジョバンニがベンチにいっぱいになっている場合、さらに50のダメージを与えます。尾の場合、この攻撃は何もしません。",
 			},
 		},
 	],

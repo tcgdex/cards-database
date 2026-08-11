@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Carvanha",
-		fr: "Carvanha",
-		es: "Carvanha",
-		it: "Carvanha",
-		pt: "Carvanha",
-		de: "Kanivanha"
+		'en-us': "Carvanha",
+		'fr-fr': "Carvanha",
+		'es-es': "Carvanha",
+		'it-it': "Carvanha",
+		'pt-br': "Carvanha",
+		'de-de': "Kanivanha"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "NC Empire",
 
 	description: {
-		en: "With its sturdy jaws and fangs, it can easily chomp wooden boats to splinters. It fights with Basculin over food."
+		'en-us': "With its sturdy jaws and fangs, it can easily chomp wooden boats to splinters. It fights with Basculin over food."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			de: "Biss",
-			es: "Mordisco",
-			pt: "Mordida",
-			it: "Morso"
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'de-de': "Biss",
+			'es-es': "Mordisco",
+			'pt-br': "Mordida",
+			'it-it': "Morso"
 		},
 
 		damage: 10

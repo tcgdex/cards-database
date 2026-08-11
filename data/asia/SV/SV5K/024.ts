@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV5K";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウネルミナモex",
+		'ja-jp': "ウネルミナモex",
 	},
 
 	illustrator: "takuyoa",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "こんぺきはとう" },
 			effect: {
-				ja: "このポケモンが使うワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このポケモンが使うワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: "120+",
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが特殊状態なら、120ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが特殊状態なら、120ダメージ追加。",
 			},
 		},
 	],

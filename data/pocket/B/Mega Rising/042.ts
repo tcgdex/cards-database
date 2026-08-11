@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lampent"
+		'en-us': "Lampent"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -17,18 +17,18 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Litwick"
+		'en-us': "Litwick"
 	},
 
 	description: {
-		en: "It lurks in cities, pretending to be a lamp.\nOnce it finds someone whose death is near,\nit will trail quietly after them."
+		'en-us': "It lurks in cities, pretending to be a lamp.\nOnce it finds someone whose death is near,\nit will trail quietly after them."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Will-O-Wisp"
+			'en-us': "Will-O-Wisp"
 		},
 
 		damage: 40,

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Thundurus"
+		'id-id': "Thundurus"
 	},
 
 	illustrator: "GOSSAN",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Thundurus terbang sambil menjatuhkan petir ke sana kemari dan menyebabkan kebakaran gunung, sehingga Pokémon ini tidak disukai."
+		'id-id': "Thundurus terbang sambil menjatuhkan petir ke sana kemari dan menyebabkan kebakaran gunung, sehingga Pokémon ini tidak disukai."
 	},
 
 	stage: "Basic",
@@ -23,21 +23,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Cuaca Buruk"
+			'id-id': "Cuaca Buruk"
 		},
 
 		effect: {
-			id: "Selama Pokémon ini ada di Arena Bertarung, semua Pokémon Cadangan sendiri tidak menerima kerusakan akibat serangan lawan."
+			'id-id': "Selama Pokémon ini ada di Arena Bertarung, semua Pokémon Cadangan sendiri tidak menerima kerusakan akibat serangan lawan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Gigant Bolt"
+			'id-id': "Gigant Bolt"
 		},
 
 		effect: {
-			id: "Pokémon ini juga menerima kerusakan sejumlah 90."
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 90."
 		},
 
 		damage: 140,

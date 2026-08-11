@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slowpoke",
-		fr: "Ramoloss",
-		es: "Slowpoke",
-		it: "Slowpoke",
-		pt: "Slowpoke",
-		de: "Flegmon"
+		'en-us': "Slowpoke",
+		'fr-fr': "Ramoloss",
+		'es-es': "Slowpoke",
+		'it-it': "Slowpoke",
+		'pt-br': "Slowpoke",
+		'de-de': "Flegmon"
 	},
 
 	rarity: "Common",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Dangle Tail",
-			fr: "Queue Ballante",
-			es: "Cola Reclamo",
-			it: "Coda Ciondolante",
-			pt: "Cauda Atrapalhada",
-			de: "Baumelschweif"
+			'en-us': "Dangle Tail",
+			'fr-fr': "Queue Ballante",
+			'es-es': "Cola Reclamo",
+			'it-it': "Coda Ciondolante",
+			'pt-br': "Cauda Atrapalhada",
+			'de-de': "Baumelschweif"
 		},
 
 		effect: {
-			en: "Put a Pokémon from your discard pile into your hand.",
-			fr: "Ajoutez un Pokémon de votre pile de défausse à votre main.",
-			es: "Pon 1 Pokémon de tu pila de descartes en tu mano.",
-			it: "Prendi un Pokémon dalla tua pila degli scarti e aggiungilo alle carte che hai in mano.",
-			pt: "Coloque um Pokémon da sua pilha de descarte na sua mão.",
-			de: "Nimm 1 Pokémon aus deinem Ablagestapel auf deine Hand."
+			'en-us': "Put a Pokémon from your discard pile into your hand.",
+			'fr-fr': "Ajoutez un Pokémon de votre pile de défausse à votre main.",
+			'es-es': "Pon 1 Pokémon de tu pila de descartes en tu mano.",
+			'it-it': "Prendi un Pokémon dalla tua pila degli scarti e aggiungilo alle carte che hai in mano.",
+			'pt-br': "Coloque um Pokémon da sua pilha de descarte na sua mão.",
+			'de-de': "Nimm 1 Pokémon aus deinem Ablagestapel auf deine Hand."
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Tackle",
-			fr: "Charge",
-			es: "Placaje",
-			it: "Azione",
-			pt: "Investida",
-			de: "Tackle"
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'it-it': "Azione",
+			'pt-br': "Investida",
+			'de-de': "Tackle"
 		},
 
 		damage: 30

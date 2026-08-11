@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 4'
 
 const card: Card = {
 	name: {
-		en: "Pidgey",
-		fr: "Roucool"
+		'en-us': "Pidgey",
+		'fr-fr': "Roucool"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-attaque"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-attaque"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				fr: "Lancez 1 pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				'fr-fr': "Lancez 1 pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
 			},
 			damage: "20+",
 

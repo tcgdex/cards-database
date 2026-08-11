@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Gothita",
-		fr: "Scrutella",
-		es: "Gothita",
-		it: "Gothita",
-		pt: "Gothita",
-		de: "Mollimorba"
+		'en-us': "Gothita",
+		'fr-fr': "Scrutella",
+		'es-es': "Gothita",
+		'it-it': "Gothita",
+		'pt-br': "Gothita",
+		'de-de': "Mollimorba"
 	},
 
 	illustrator: "Aya Kusube",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Future Sight",
-				fr: "Prescience",
+				'en-us': "Future Sight",
+				'fr-fr': "Prescience",
 			},
 			effect: {
-				en: "Look at the top 5 cards of your deck and put them back on top of your deck in any order.",
-				fr: "Regardez les 5 cartes du dessus de votre deck et replacez-les sur le dessus de votre deck dans l'ordre de votre choix.",
+				'en-us': "Look at the top 5 cards of your deck and put them back on top of your deck in any order.",
+				'fr-fr': "Regardez les 5 cartes du dessus de votre deck et replacez-les sur le dessus de votre deck dans l'ordre de votre choix.",
 			},
 
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They intently observe both Trainers and Pokémon. Apparently, they are looking at something that only Gothita can see.",
+		'en-us': "They intently observe both Trainers and Pokémon. Apparently, they are looking at something that only Gothita can see.",
 	},
 
 	thirdParty: {

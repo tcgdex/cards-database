@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴルダック",
+		'ja-jp': "ゴルダック",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "泳ぎが 速い さかなポケモンでも 金縛りで 動きを 止めて 簡単に 捕まえることが できる。",
+		'ja-jp': "泳ぎが 速い さかなポケモンでも 金縛りで 動きを 止めて 簡単に 捕まえることが できる。",
 	},
 
 	stage: "Stage1",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 80,
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、1個手札にもどす。",
+				'ja-jp': "このポケモンについているエネルギーを、1個手札にもどす。",
 			},
 		},
 	],
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コダック",
+		'ja-jp': "コダック",
 	},
 
 	retreat: 1,

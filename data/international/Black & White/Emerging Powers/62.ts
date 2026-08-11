@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Krookodile",
-		fr: "Crocorible",
-		es: "Krookodile",
-		it: "Krookodile",
-		pt: "Krookodile",
-		de: "Rabigator"
+		'en-us': "Krookodile",
+		'fr-fr': "Crocorible",
+		'es-es': "Krookodile",
+		'it-it': "Krookodile",
+		'pt-br': "Krookodile",
+		'de-de': "Rabigator"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Krokorok",
-		fr: "Escroco",
+		'en-us': "Krokorok",
+		'fr-fr': "Escroco",
 	},
 
 	stage: "Stage2",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Black Eyes",
-				fr: "Œil Noir",
-				es: "Ojos Negros",
-				it: "Nerosguardo",
-				pt: "Olhos Negros",
-				de: "Blaues Auge"
+				'en-us': "Black Eyes",
+				'fr-fr': "Œil Noir",
+				'es-es': "Ojos Negros",
+				'it-it': "Nerosguardo",
+				'pt-br': "Olhos Negros",
+				'de-de': "Blaues Auge"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if this Pokémon is your Active Pokémon, you may flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon est votre Pokémon Actif, vous pouvez lancer une pièce. Si c’est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
-				es: "Una vez durante tu turno (antes de tu ataque), si este Pokémon es tu Pokémon Activo, puedes lanzar una moneda. Si sale cara, descarta una Energía unida al Pokémon Activo de tu rival.",
-				it: "Una sola volta durante il tuo turno, prima di attaccare, se questo Pokémon è il tuo Pokémon attivo, puoi lanciare una moneta. Se esce testa, scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
-				pt: "Uma vez na sua vez de jogar (antes de atacar), se este Pokémon for seu Pokémon Ativo, você poderá jogar uma moeda. Se sair cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn dieses Pokémon dein Aktives Pokémon ist, 1 Münze werfen. Lege bei „Kopf“ 1 Energie, die an das Aktive Pokémon deines Gegners angelegt ist, auf dessen Ablagestapel."
+				'en-us': "Once during your turn (before your attack), if this Pokémon is your Active Pokémon, you may flip a coin. If heads, discard an Energy attached to your opponent’s Active Pokémon.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon est votre Pokémon Actif, vous pouvez lancer une pièce. Si c’est face, défaussez une Énergie attachée au Pokémon Actif de votre adversaire.",
+				'es-es': "Una vez durante tu turno (antes de tu ataque), si este Pokémon es tu Pokémon Activo, puedes lanzar una moneda. Si sale cara, descarta una Energía unida al Pokémon Activo de tu rival.",
+				'it-it': "Una sola volta durante il tuo turno, prima di attaccare, se questo Pokémon è il tuo Pokémon attivo, puoi lanciare una moneta. Se esce testa, scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Uma vez na sua vez de jogar (antes de atacar), se este Pokémon for seu Pokémon Ativo, você poderá jogar uma moeda. Se sair cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn dieses Pokémon dein Aktives Pokémon ist, 1 Münze werfen. Lege bei „Kopf“ 1 Energie, die an das Aktive Pokémon deines Gegners angelegt ist, auf dessen Ablagestapel."
 			},
 		},
 	],
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thrash",
-				fr: "Mania",
+				'en-us': "Thrash",
+				'fr-fr': "Mania",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage. If tails, this Pokémon does 20 damage to itself.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires. Si c'est pile, ce Pokémon s'inflige 20 dégâts.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage. If tails, this Pokémon does 20 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires. Si c'est pile, ce Pokémon s'inflige 20 dégâts.",
 			},
 			damage: 70,
 
@@ -92,7 +92,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "They never allow prey to escape. Their jaws are so powerful, they can crush the body of an automobile.",
+		'en-us': "They never allow prey to escape. Their jaws are so powerful, they can crush the body of an automobile.",
 	},
 
 	thirdParty: {

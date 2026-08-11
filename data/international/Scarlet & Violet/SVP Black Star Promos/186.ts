@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scraggy",
-		fr: "Baggiguane",
-		de: "Zurrokex",
-		es: "Scraggy",
-		it: "Scraggy",
-		pt: "Scraggy"
+		'en-us': "Scraggy",
+		'fr-fr': "Baggiguane",
+		'de-de': "Zurrokex",
+		'es-es': "Scraggy",
+		'it-it': "Scraggy",
+		'pt-br': "Scraggy"
 	},
 
 	illustrator: "OKUBO",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Kick Shot",
-			fr: "Coup d'Ergots",
-			de: "Kickschuss",
-			es: "Disparo Patada",
-			it: "Colpocalcio",
-			pt: "Chute Tiro"
+			'en-us': "Kick Shot",
+			'fr-fr': "Coup d'Ergots",
+			'de-de': "Kickschuss",
+			'es-es': "Disparo Patada",
+			'it-it': "Colpocalcio",
+			'pt-br': "Chute Tiro"
 		},
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
-			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-			pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada."
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+			'pt-br': "Jogue uma moeda. Se sair coroa, este ataque não fará nada."
 		},
 
 		damage: 30

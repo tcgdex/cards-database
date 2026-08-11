@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV4a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "サーナイトex",
+		'ja-jp': "サーナイトex",
 		'zh-tw': "沙奈朵ex",
-		id: "Gardevoir ex"
+		'id-id': "Gardevoir ex"
 	},
 
 	illustrator: "Kuroimori",
@@ -21,15 +21,15 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "サイコエンブレイス",
+			'ja-jp': "サイコエンブレイス",
 			'zh-tw': "精神擁抱",
-			id: "Psychoembrace"
+			'id-id': "Psychoembrace"
 		},
 
 		effect: {
-			ja: "自分の番に何回でも使える。自分のトラッシュから「基本エネルギー」を1枚選び、自分のポケモンにつける。その後、つけたポケモンにダメカンを2個のせる。（きぜつするポケモンに、この特性は使えない。）",
+			'ja-jp': "自分の番に何回でも使える。自分のトラッシュから「基本エネルギー」を1枚選び、自分のポケモンにつける。その後、つけたポケモンにダメカンを2個のせる。（きぜつするポケモンに、この特性は使えない。）",
 			'zh-tw': "在自己的回合時，可不限次數使用。從自己的棄牌區選擇1張「基本【超】能量」卡，附於自己的【超】寶可夢身上。然後，在附上那張卡的寶可夢身上放置2個傷害指示物。（這個特性無法對會【昏厥】的寶可夢使用。）",
-			id: "Dapat digunakan berkali-kali pada giliran sendiri. Pilih 1 lembar Energi Dasar {Psychic} dari Trash sendiri, lalu kenakan pada Pokémon {Psychic} sendiri. Setelah itu, letakkan 2 Token Kerusakan pada Pokémon yang telah dikenakan Energi tersebut. (Ability ini tidak dapat digunakan pada Pokémon yang akan KO akibat Ability ini.)"
+			'id-id': "Dapat digunakan berkali-kali pada giliran sendiri. Pilih 1 lembar Energi Dasar {Psychic} dari Trash sendiri, lalu kenakan pada Pokémon {Psychic} sendiri. Setelah itu, letakkan 2 Token Kerusakan pada Pokémon yang telah dikenakan Energi tersebut. (Ability ini tidak dapat digunakan pada Pokémon yang akan KO akibat Ability ini.)"
 		}
 	}],
 
@@ -37,17 +37,17 @@ const card: Card = {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			ja: "ミラクルフォース",
+			'ja-jp': "ミラクルフォース",
 			'zh-tw': "奇跡之力",
-			id: "Miracle Force"
+			'id-id': "Miracle Force"
 		},
 
 		damage: 190,
 
 		effect: {
-			ja: "このポケモンの特殊状態を、すべて回復する。",
+			'ja-jp': "このポケモンの特殊状態を、すべて回復する。",
 			'zh-tw': "將這隻寶可夢的特殊狀態全部恢復。",
-			id: "Pulihkan semua Kondisi Khusus yang dialami Pokémon ini."
+			'id-id': "Pulihkan semua Kondisi Khusus yang dialami Pokémon ini."
 		}
 	}],
 

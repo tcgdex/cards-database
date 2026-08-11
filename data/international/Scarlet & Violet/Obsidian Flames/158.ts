@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Draco",
-		en: "Dragonair",
-		es: "Dragonair",
-		it: "Dragonair",
-		pt: "Dragonair",
-		de: "Dragonir"
+		'fr-fr': "Draco",
+		'en-us': "Dragonair",
+		'es-es': "Dragonair",
+		'it-it': "Dragonair",
+		'pt-br': "Dragonair",
+		'de-de': "Dragonir"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Dragon"],
 	evolveFrom: {
-		fr: "Minidraco",
-		en: "Dratini",
-		es: "Dratini",
-		it: "Dratini",
-		pt: "Dratini",
-		de: "Dratini"
+		'fr-fr': "Minidraco",
+		'en-us': "Dratini",
+		'es-es': "Dratini",
+		'it-it': "Dratini",
+		'pt-br': "Dratini",
+		'de-de': "Dratini"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Collision",
-			en: "Ram",
-			es: "Apisonar",
-			it: "Carica",
-			pt: "Aríete",
-			de: "Ramme"
+			'fr-fr': "Collision",
+			'en-us': "Ram",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
 		},
 
 		damage: 30
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Water", "Lightning"],
 
 		name: {
-			fr: "Draco-Queue",
-			en: "Dragon Tail",
-			es: "Cola Dragón",
-			it: "Codadrago",
-			pt: "Cauda do Dragão",
-			de: "Drachenrute"
+			'fr-fr': "Draco-Queue",
+			'en-us': "Dragon Tail",
+			'es-es': "Cola Dragón",
+			'it-it': "Codadrago",
+			'pt-br': "Cauda do Dragão",
+			'de-de': "Drachenrute"
 		},
 
 		effect: {
-			fr: "Lancez 2 pièces. Cette attaque inflige 70 dégâts pour chaque côté face.",
-			en: "Flip 2 coins. This attack does 70 damage for each heads.",
-			es: "Lanza 2 monedas. Este ataque hace 70 puntos de daño por cada cara.",
-			it: "Lancia due volte una moneta. Questo attacco infligge 70 danni ogni volta che esce testa.",
-			pt: "Jogue 2 moedas. Este ataque causa 70 pontos de dano para cada cara.",
-			de: "Wirf 2 Münzen. Diese Attacke fügt 70 Schadenspunkte pro Kopf zu."
+			'fr-fr': "Lancez 2 pièces. Cette attaque inflige 70 dégâts pour chaque côté face.",
+			'en-us': "Flip 2 coins. This attack does 70 damage for each heads.",
+			'es-es': "Lanza 2 monedas. Este ataque hace 70 puntos de daño por cada cara.",
+			'it-it': "Lancia due volte una moneta. Questo attacco infligge 70 danni ogni volta che esce testa.",
+			'pt-br': "Jogue 2 moedas. Este ataque causa 70 pontos de dano para cada cara.",
+			'de-de': "Wirf 2 Münzen. Diese Attacke fügt 70 Schadenspunkte pro Kopf zu."
 		},
 
 		damage: "70×"
@@ -69,7 +69,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "They say that if it emits an aura from its whole body, the weather will begin to change instantly.",
+		'en-us': "They say that if it emits an aura from its whole body, the weather will begin to change instantly.",
 	},
 
 	variants: [

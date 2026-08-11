@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HGSS Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Feraligatr",
-		fr: "Aligatueur"
+		'en-us': "Feraligatr",
+		'fr-fr': "Aligatueur"
 	},
 	illustrator: "Kent Kanetsuna",
 	rarity: "Promo",
@@ -17,8 +17,8 @@ const card: Card = {
 		"Water"
 	],
 	evolveFrom: {
-		en: "Croconaw",
-		fr: "Crocrodil"
+		'en-us': "Croconaw",
+		'fr-fr': "Crocrodil"
 	},
 	stage: "Stage2",
 
@@ -26,12 +26,12 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Rain Dance",
-				fr: "Danse pluie"
+				'en-us': "Rain Dance",
+				'fr-fr': "Danse pluie"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may attach a Water Energy from your hand to 1 of your Water Pokémon. This power can't be used if Feraligatr is affected by a Special Condition.",
-				fr: "Autant de fois que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie  de votre main à l'un de vos Pokémon . Ce pouvoir ne peut pas être utilisé si Aligatueur est affecté par un État Spécial."
+				'en-us': "As often as you like during your turn (before your attack), you may attach a Water Energy from your hand to 1 of your Water Pokémon. This power can't be used if Feraligatr is affected by a Special Condition.",
+				'fr-fr': "Autant de fois que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie  de votre main à l'un de vos Pokémon . Ce pouvoir ne peut pas être utilisé si Aligatueur est affecté par un État Spécial."
 			}
 		},
 	],
@@ -44,12 +44,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Hydro Crunch",
-				fr: "Hydro-machouille"
+				'en-us': "Hydro Crunch",
+				'fr-fr': "Hydro-machouille"
 			},
 			effect: {
-				en: "Does 60 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
-				fr: "Inflige 60 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur le Pokémon Défenseur."
+				'en-us': "Does 60 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
+				'fr-fr': "Inflige 60 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur le Pokémon Défenseur."
 			},
 			damage: "60+",
 

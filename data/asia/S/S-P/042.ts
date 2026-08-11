@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タンドン",
+		'ja-jp': "タンドン",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "およそ４００年前に 炭鉱で 見つかった。 体の ほとんどが 石炭と 同じ 成分。",
+		'ja-jp': "およそ４００年前に 炭鉱で 見つかった。 体の ほとんどが 石炭と 同じ 成分。",
 	},
 
 	stage: "Basic",

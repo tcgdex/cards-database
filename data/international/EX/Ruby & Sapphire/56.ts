@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Makuhita",
-		fr: "Makuhita",
-		de: "Makuhita"
+		'en-us': "Makuhita",
+		'fr-fr': "Makuhita",
+		'de-de': "Makuhita"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slap Push",
-				fr: "Gifle",
-				de: "Stoß"
+				'en-us': "Slap Push",
+				'fr-fr': "Gifle",
+				'de-de': "Stoß"
 			},
 
 			damage: 10,
@@ -43,9 +43,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lunge Out",
-				fr: "Allonger",
-				de: "Sprungangriff"
+				'en-us': "Lunge Out",
+				'fr-fr': "Allonger",
+				'de-de': "Sprungangriff"
 			},
 
 			damage: 20,

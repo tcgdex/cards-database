@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Surging Sparks"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Yamask",
-		fr: "Tutafeh",
-		es: "Yamask",
-		it: "Yamask",
-		pt: "Yamask",
-		de: "Makabaja"
+		'en-us': "Yamask",
+		'fr-fr': "Tutafeh",
+		'es-es': "Yamask",
+		'it-it': "Yamask",
+		'pt-br': "Yamask",
+		'de-de': "Makabaja"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Mumble",
-			fr: "Murmure",
-			es: "Farfullar",
-			it: "Borbottio",
-			pt: "Resmungo",
-			de: "Grummeln"
+			'en-us': "Mumble",
+			'fr-fr': "Murmure",
+			'es-es': "Farfullar",
+			'it-it': "Borbottio",
+			'pt-br': "Resmungo",
+			'de-de': "Grummeln"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Petty Grudge",
-			fr: "Rancune Mesquine",
-			es: "Rencor Ruin",
-			it: "Rancormeschino",
-			pt: "Rancinho",
-			de: "Mini-Groll"
+			'en-us': "Petty Grudge",
+			'fr-fr': "Rancune Mesquine",
+			'es-es': "Rencor Ruin",
+			'it-it': "Rancormeschino",
+			'pt-br': "Rancinho",
+			'de-de': "Mini-Groll"
 		},
 
 		damage: 20

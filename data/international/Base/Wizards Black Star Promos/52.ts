@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Ho-oh",
+		'en-us': "Ho-oh",
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sacred Fire",
+				'en-us': "Sacred Fire",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack's base damage is 20 instead of 60.",
+				'en-us': "Flip a coin. If tails, this attack's base damage is 20 instead of 60.",
 			},
 
 		},

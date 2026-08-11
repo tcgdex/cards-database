@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [855],
 
 	name: {
-		en: "Polteageist"
+		'en-us': "Polteageist"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Sinistea"
+		'en-us': "Sinistea"
 	},
 
 	description: {
-		en: "These Pokémon multiply by creeping into teapots\nand pouring themselves into leftover tea."
+		'en-us': "These Pokémon multiply by creeping into teapots\nand pouring themselves into leftover tea."
 	},
 
 	stage: "Stage1",
@@ -30,17 +30,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Refreshing Tea"
+			'en-us': "Refreshing Tea"
 		},
 
 		effect: {
-			en: "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may have your opponent shuffle their hand into their deck. For each remaining point that your opponent needs to win, they draw a card."
+			'en-us': "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may have your opponent shuffle their hand into their deck. For each remaining point that your opponent needs to win, they draw a card."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Spooky Shot"
+			'en-us': "Spooky Shot"
 		},
 
 		damage: 40,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Remoraid",
-		fr: "Rémoraid",
-		es: "Remoraid",
-		de: "Remoraid",
-		it: "Remoraid",
-		pt: "Remoraid",
+		'en-us': "Remoraid",
+		'fr-fr': "Rémoraid",
+		'es-es': "Remoraid",
+		'de-de': "Remoraid",
+		'it-it': "Remoraid",
+		'pt-br': "Remoraid",
 		'es-mx': "Remoraid"
 	},
 
@@ -25,22 +25,22 @@ const card: Card = {
 		cost: ["Water"],
 
 		name: {
-			en: "Flail",
-			fr: "Gigotage",
-			es: "Azote",
-			de: "Dreschflegel",
-			it: "Flagello",
-			pt: "Mangual",
+			'en-us': "Flail",
+			'fr-fr': "Gigotage",
+			'es-es': "Azote",
+			'de-de': "Dreschflegel",
+			'it-it': "Flagello",
+			'pt-br': "Mangual",
 			'es-mx': "Azote"
 		},
 
 		effect: {
-			en: "This attack does 10 damage for each damage counter on this Pokémon.",
-			fr: "Cette attaque inflige 10 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
-			es: "Este ataque hace 10 puntos de daño por cada contador de daño en este Pokémon.",
-			de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte zu.",
-			it: "Questo attacco infligge 10 danni per ogni segnalino danno presente su questo Pokémon.",
-			pt: "Este ataque causa 10 pontos de dano para cada contador de dano neste Pokémon.",
+			'en-us': "This attack does 10 damage for each damage counter on this Pokémon.",
+			'fr-fr': "Cette attaque inflige 10 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
+			'es-es': "Este ataque hace 10 puntos de daño por cada contador de daño en este Pokémon.",
+			'de-de': "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 10 Schadenspunkte zu.",
+			'it-it': "Questo attacco infligge 10 danni per ogni segnalino danno presente su questo Pokémon.",
+			'pt-br': "Este ataque causa 10 pontos de dano para cada contador de dano neste Pokémon.",
 			'es-mx': "Este ataque hace 10 puntos de daño por cada contador de daño en este Pokémon."
 		},
 
@@ -49,12 +49,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Rain Splash",
-			fr: "Pluie Éclaboussante",
-			es: "Golpe de Lluvia",
-			de: "Regenplatscher",
-			it: "Spruzzapioggia",
-			pt: "Chuva Borrifante",
+			'en-us': "Rain Splash",
+			'fr-fr': "Pluie Éclaboussante",
+			'es-es': "Golpe de Lluvia",
+			'de-de': "Regenplatscher",
+			'it-it': "Spruzzapioggia",
+			'pt-br': "Chuva Borrifante",
 			'es-mx': "Salpicalluvia"
 		},
 

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Skeledirge",
-		th: "ลาวด์โบน"
+		'id-id': "Skeledirge",
+		'th-th': "ลาวด์โบน"
 	},
 
 	illustrator: "akagi",
@@ -15,8 +15,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Suara nyanyian lembut Skeledirge menenangkan jiwa orang-orang yang mendengarnya. Pokémon ini membakar hangus musuhnya dengan api bersuhu 3000 ℃.",
-		th: "เสียงร้องเพลงที่อ่อนโยนจะช่วยเยียวยาจิตวิญญาณของผู้ฟัง เผาคู่ต่อสู้ ให้เป็นจุณด้วยเปลวไฟที่ร้อน 3000 องศาเซลเซียส"
+		'id-id': "Suara nyanyian lembut Skeledirge menenangkan jiwa orang-orang yang mendengarnya. Pokémon ini membakar hangus musuhnya dengan api bersuhu 3000 ℃.",
+		'th-th': "เสียงร้องเพลงที่อ่อนโยนจะช่วยเยียวยาจิตวิญญาณของผู้ฟัง เผาคู่ต่อสู้ ให้เป็นจุณด้วยเปลวไฟที่ร้อน 3000 องศาเซลเซียส"
 	},
 
 	stage: "Stage2",
@@ -25,25 +25,25 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Bebal",
-			th: "ไม่รู้ตัว"
+			'id-id': "Bebal",
+			'th-th': "ไม่รู้ตัว"
 		},
 
 		effect: {
-			id: "Pokémon ini tidak menerima efek akibat serangan yang digunakan oleh Pokémon lawan.",
-			th: "โปเกมอนนี้ จะไม่ได้รับเอฟเฟกต์ของท่าต่อสู้ที่โปเกมอนฝ่ายตรงข้ามใช้"
+			'id-id': "Pokémon ini tidak menerima efek akibat serangan yang digunakan oleh Pokémon lawan.",
+			'th-th': "โปเกมอนนี้ จะไม่ได้รับเอฟเฟกต์ของท่าต่อสู้ที่โปเกมอนฝ่ายตรงข้ามใช้"
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Flare Recital",
-			th: "แฟลร์รีไซทัล"
+			'id-id': "Flare Recital",
+			'th-th': "แฟลร์รีไซทัล"
 		},
 
 		effect: {
-			id: "Kerusakan yang diberikan bertambah sejumlah 20 untuk tiap Pokémon Cadangan kedua pemain.",
-			th: "แดเมจจะเพิ่มตามจำนวนโปเกมอนบนเบนช์ของทั้งสองฝ่าย x20"
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 20 untuk tiap Pokémon Cadangan kedua pemain.",
+			'th-th': "แดเมจจะเพิ่มตามจำนวนโปเกมอนบนเบนช์ของทั้งสองฝ่าย x20"
 		},
 
 		damage: "60+",

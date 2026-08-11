@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オクリリー",
+		'ja-jp': "オクリリー",
 	},
 
 	rarity: "Uncommon",
@@ -18,20 +18,20 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				ja: "収縮します",
+				'ja-jp': "収縮します",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Water", "Water", "Water"],
 			name: {
-				ja: "オタスーカ",
+				'ja-jp': "オタスーカ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御するポケモンが攻撃するたびに、相手はコインをひっくり返します。尾の場合、その攻撃は何もしません。 （ポケモンがこの効果を終了するというベンチまたは進化。）",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御するポケモンが攻撃するたびに、相手はコインをひっくり返します。尾の場合、その攻撃は何もしません。 （ポケモンがこの効果を終了するというベンチまたは進化。）",
 			},
 			damage: 40,
 		},

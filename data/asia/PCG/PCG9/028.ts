@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG9"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Rayquaza Ex（デルタ種）",
+		'ja-jp': "Rayquaza Ex（デルタ種）",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "怒りのオーラ",
+				'ja-jp': "怒りのオーラ",
 			},
 			effect: {
-				ja: "対戦相手よりも多くの賞品が残っている場合は、Rayquaza Exの特別なサーキットとSky-High Claws攻撃を使用するために必要なすべての無色のエネルギーを無視してください。",
+				'ja-jp': "対戦相手よりも多くの賞品が残っている場合は、Rayquaza Exの特別なサーキットとSky-High Claws攻撃を使用するために必要なすべての無色のエネルギーを無視してください。",
 			},
 		}],
 
@@ -29,16 +29,16 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "特別なサーキット",
+				'ja-jp': "特別なサーキット",
 			},
 			effect: {
-				ja: "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに30のダメージを与えます。ポケパワーやポケボディがあるポケモンを選択した場合、この攻撃は代わりに50のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+				'ja-jp': "対戦相手のポケモンを1つ選択します。この攻撃は、そのポケモンに30のダメージを与えます。ポケパワーやポケボディがあるポケモンを選択した場合、この攻撃は代わりに50のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
 			},
 		},
 		{
 			cost: ["Lightning", "Lightning", "Colorless", "Colorless"],
 			name: {
-				ja: "空の爪",
+				'ja-jp': "空の爪",
 			},
 			damage: 70,
 		},

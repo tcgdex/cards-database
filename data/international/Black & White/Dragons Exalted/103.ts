@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Slaking",
-		fr: "Monaflèmit",
-		es: "Slaking",
-		it: "Slaking",
-		pt: "Slaking",
-		de: "Letarking"
+		'en-us': "Slaking",
+		'fr-fr': "Monaflèmit",
+		'es-es': "Slaking",
+		'it-it': "Slaking",
+		'pt-br': "Slaking",
+		'de-de': "Letarking"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vigoroth",
-		fr: "Vigoroth",
+		'en-us': "Vigoroth",
+		'fr-fr': "Vigoroth",
 	},
 
 	stage: "Stage2",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Unobservant",
-				fr: "Distrait",
-				es: "Descuido",
-				it: "Sbadataggine",
-				pt: "Desatenção",
-				de: "Unachtsam"
+				'en-us': "Unobservant",
+				'fr-fr': "Distrait",
+				'es-es': "Descuido",
+				'it-it': "Sbadataggine",
+				'pt-br': "Desatenção",
+				'de-de': "Unachtsam"
 			},
 			effect: {
-				en: "If your opponent’s Active Pokémon is a Basic Pokémon, this Pokémon can’t attack.",
-				fr: "Si le Pokémon Actif de votre adversaire est un Pokémon de base, ce Pokémon ne peut pas attaquer.",
-				es: "Si el Pokémon Activo de tu rival es un Pokémon Básico, este Pokémon no puede atacar.",
-				it: "Se il Pokémon attivo del tuo avversario è un Pokémon Base, questo Pokémon non può attaccare.",
-				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Básico, este Pokémon não poderá atacar.",
-				de: "Wenn das Aktive Pokémon deines Gegners ein Basis-Pokémon ist, kann dieses Pokémon nicht angreifen."
+				'en-us': "If your opponent’s Active Pokémon is a Basic Pokémon, this Pokémon can’t attack.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon de base, ce Pokémon ne peut pas attaquer.",
+				'es-es': "Si el Pokémon Activo de tu rival es un Pokémon Básico, este Pokémon no puede atacar.",
+				'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon Base, questo Pokémon non può attaccare.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon Básico, este Pokémon não poderá atacar.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners ein Basis-Pokémon ist, kann dieses Pokémon nicht angreifen."
 			},
 		},
 	],
@@ -64,12 +64,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crushing Blow",
-				fr: "Coup Écrasant",
+				'en-us': "Crushing Blow",
+				'fr-fr': "Coup Écrasant",
 			},
 			effect: {
-				en: "Discard an Energy attached to the Defending Pokémon.",
-				fr: "Défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 100,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "The world's laziest Pokémon. When it is lounging, it is actually saving energy for striking back.",
+		'en-us': "The world's laziest Pokémon. When it is lounging, it is actually saving energy for striking back.",
 	},
 
 	thirdParty: {

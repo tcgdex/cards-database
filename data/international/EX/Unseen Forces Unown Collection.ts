@@ -1,15 +1,15 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../EX'
 
 const exu: Set = {
 	id: "exu",
 
 	name: {
-		en: "Unseen Forces Unown Collection",
-		fr: "EX Forces Cachées Collection Zarbi",
-		es: "EX Fuerzas Ocultas Unown",
-		it: "EX Forze Segrete Unown",
-		de: "EX Verborgene Mächte Icognito"
+		'en-us': "Unseen Forces Unown Collection",
+		'fr-fr': "EX Forces Cachées Collection Zarbi",
+		'es-es': "EX Fuerzas Ocultas Unown",
+		'it-it': "EX Forze Segrete Unown",
+		'de-de': "EX Verborgene Mächte Icognito"
 	},
 
 	serie: serie,

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "Amoonguss",
-		fr: "Gaulet",
-		es: "Amoonguss",
-		it: "Amoonguss",
-		pt: "Amoonguss",
-		de: "Hutsassa"
+		'en-us': "Amoonguss",
+		'fr-fr': "Gaulet",
+		'es-es': "Amoonguss",
+		'it-it': "Amoonguss",
+		'pt-br': "Amoonguss",
+		'de-de': "Hutsassa"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Foongus",
-		fr: "Trompignon",
-		es: "Foongus",
-		it: "Foongus",
-		pt: "Foongus",
-		de: "Tarnpignon"
+		'en-us': "Foongus",
+		'fr-fr': "Trompignon",
+		'es-es': "Foongus",
+		'it-it': "Foongus",
+		'pt-br': "Foongus",
+		'de-de': "Tarnpignon"
 	},
 
 	stage: "Stage1",
@@ -43,20 +43,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crazy Spore",
-				fr: "Spore Folle",
-				es: "Espora Loca",
-				it: "Sporafolle",
-				pt: "Esporo Louco",
-				de: "Verrückte Pilzspore"
+				'en-us': "Crazy Spore",
+				'fr-fr': "Spore Folle",
+				'es-es': "Espora Loca",
+				'it-it': "Sporafolle",
+				'pt-br': "Esporo Louco",
+				'de-de': "Verrückte Pilzspore"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused and Poisoned.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido y Envenenado.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso e avvelenato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso e Envenenado.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt und vergiftet."
+				'en-us': "Your opponent's Active Pokémon is now Confused and Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido y Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso e avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso e Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt und vergiftet."
 			},
 
 		},
@@ -66,20 +66,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strange Reaction",
-				fr: "Étrange Réaction",
-				es: "Reacción Rara",
-				it: "Strana Reazione",
-				pt: "Reação Estranha",
-				de: "Seltsame Reaktion"
+				'en-us': "Strange Reaction",
+				'fr-fr': "Étrange Réaction",
+				'es-es': "Reacción Rara",
+				'it-it': "Strana Reazione",
+				'pt-br': "Reação Estranha",
+				'de-de': "Seltsame Reaktion"
 			},
 			effect: {
-				en: "If your opponent's Active Pokémon is Confused, it is now Paralyzed.",
-				fr: "Si le Pokémon Actif de votre adversaire est Confus, il est maintenant Paralysé.",
-				es: "Si el Pokémon Activo de tu rival está Confundido, este pasa a estar Paralizado.",
-				it: "Se il Pokémon attivo del tuo avversario è confuso, viene paralizzato.",
-				pt: "Se o Pokémon Ativo do seu oponente estiver Confuso, ele será Paralisado.",
-				de: "Wenn das Aktive Pokémon deines Gegners verwirrt ist, ist es jetzt paralysiert."
+				'en-us': "If your opponent's Active Pokémon is Confused, it is now Paralyzed.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est Confus, il est maintenant Paralysé.",
+				'es-es': "Si el Pokémon Activo de tu rival está Confundido, este pasa a estar Paralizado.",
+				'it-it': "Se il Pokémon attivo del tuo avversario è confuso, viene paralizzato.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente estiver Confuso, ele será Paralisado.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners verwirrt ist, ist es jetzt paralysiert."
 			},
 			damage: 30,
 
@@ -96,7 +96,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It lures prey close by dancing and waving its arm caps, which resemble Poké Balls, in a swaying motion.",
+		'en-us': "It lures prey close by dancing and waving its arm caps, which resemble Poké Balls, in a swaying motion.",
 	},
 
 	thirdParty: {

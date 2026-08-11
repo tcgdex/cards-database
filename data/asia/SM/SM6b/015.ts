@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ワニノコ",
+		'ja-jp': "ワニノコ",
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "発達した アゴは パワフルで なんでも かみくだいて しまうので 親のトレーナーでも 要注意。",
+		'ja-jp': "発達した アゴは パワフルで なんでも かみくだいて しまうので 親のトレーナーでも 要注意。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "にらみつける" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "10×",
 			cost: ["Water"],
 			effect: {
-				ja: "コインを3回投げ、オモテの数x10ダメージ。",
+				'ja-jp': "コインを3回投げ、オモテの数x10ダメージ。",
 			},
 		},
 	],

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skitty",
-		fr: "Skitty",
-		es: "Skitty",
-		it: "Skitty",
-		pt: "Skitty",
-		de: "Eneco"
+		'en-us': "Skitty",
+		'fr-fr': "Skitty",
+		'es-es': "Skitty",
+		'it-it': "Skitty",
+		'pt-br': "Skitty",
+		'de-de': "Eneco"
 	},
 
 	rarity: "Common",
@@ -30,30 +30,30 @@ const card: Card = {
 	illustrator: "Yukiko Baba",
 
 	description: {
-		en: "It shows its cute side by chasing its own tail until it gets dizzy."
+		'en-us': "It shows its cute side by chasing its own tail until it gets dizzy."
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			en: "Whimsy Tackle",
-			fr: "Charge Bizarre",
-			de: "Launischer Tackle",
-			es: "Placaje Caprichoso",
-			pt: "Investida Fantástica",
-			it: "Capriccioazione"
+			'en-us': "Whimsy Tackle",
+			'fr-fr': "Charge Bizarre",
+			'de-de': "Launischer Tackle",
+			'es-es': "Placaje Caprichoso",
+			'pt-br': "Investida Fantástica",
+			'it-it': "Capriccioazione"
 		},
 
 		damage: 30,
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
-			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-			pt: "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
-			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto."
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			'pt-br': "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+			'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto."
 		}
 	}],
 

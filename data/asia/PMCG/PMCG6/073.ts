@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "R団のカビゴン",
+		'ja-jp': "R団のカビゴン",
 	},
 	illustrator: "Shin-ichi Yoshida",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "落ち着きのない睡眠",
+				'ja-jp': "落ち着きのない睡眠",
 			},
 			effect: {
-				ja: "相手の攻撃がロケットのスノーラックスにダメージを与え、ロケットのスノーラックスがすでに眠っている場合（たとえノックアウトされていても）</em>、このパワーは攻撃ポクモンに20のダメージを与えます。",
+				'ja-jp': "相手の攻撃がロケットのスノーラックスにダメージを与え、ロケットのスノーラックスがすでに眠っている場合（たとえノックアウトされていても）</em>、このパワーは攻撃ポクモンに20のダメージを与えます。",
 			},
 		}],
 
@@ -30,10 +30,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "崩壊",
+				'ja-jp': "崩壊",
 			},
 			effect: {
-				ja: "RocketのSnorlaxは現在眠っています（ダメージを受けた後）。",
+				'ja-jp': "RocketのSnorlaxは現在眠っています（ダメージを受けた後）。",
 			},
 			damage: 20,
 		},

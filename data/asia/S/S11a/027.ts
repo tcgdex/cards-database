@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒンバス",
+		'ja-jp': "ヒンバス",
 		'zh-tw': "醜醜魚",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "見た目が 悪いので 人気はないが 脅威の 生命力が あり 研究対象には なっている。",
+		'ja-jp': "見た目が 悪いので 人気はないが 脅威の 生命力が あり 研究対象には なっている。",
 		'zh-tw': "外表醜陋，所以不受歡迎。擁有驚人的生命力，因而成為了研究對象。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かくせい",
+				'ja-jp': "かくせい",
 				'zh-tw': "覺醒",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。",
+				'ja-jp': "このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。",
 				'zh-tw': "從自己的牌庫選擇1張從這隻寶可夢進化而來的卡，放置於這隻寶可夢身上完成進化。並且重洗牌庫。",
 			},
 		},
 		{
 			name: {
-				ja: "はねる",
+				'ja-jp': "はねる",
 				'zh-tw': "躍起",
 			},
 			damage: 10,

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "N's Zorua",
-		fr: "Zorua de N",
-		es: "Zorua de N",
+		'en-us': "N's Zorua",
+		'fr-fr': "Zorua de N",
+		'es-es': "Zorua de N",
 		'es-mx': "Zorua de N",
-		de: "Ns Zorua",
-		it: "Zorua di N",
-		pt: "Zorua do N"
+		'de-de': "Ns Zorua",
+		'it-it': "Zorua di N",
+		'pt-br': "Zorua do N"
 	},
 
 	illustrator: "Jiro Sasumo",
@@ -25,13 +25,13 @@ const card: Card = {
 		cost: ["Darkness"],
 
 		name: {
-			en: "Scratch",
-			fr: "Griffe",
-			es: "Arañazo",
+			'en-us': "Scratch",
+			'fr-fr': "Griffe",
+			'es-es': "Arañazo",
 			'es-mx': "Arañazo",
-			de: "Kratzer",
-			it: "Graffio",
-			pt: "Arranhão"
+			'de-de': "Kratzer",
+			'it-it': "Graffio",
+			'pt-br': "Arranhão"
 		},
 
 		damage: 20
@@ -47,7 +47,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
+		'en-us': "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
 	},
 
 	variants: [

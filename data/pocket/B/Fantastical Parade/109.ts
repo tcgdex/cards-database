@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [799],
 
 	name: {
-		en: "Guzzlord"
+		'en-us': "Guzzlord"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "An unknown life-form called a UB. It may be\nconstantly hungry—it is certainly always\ndevouring something."
+		'en-us': "An unknown life-form called a UB. It may be\nconstantly hungry—it is certainly always\ndevouring something."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Breakcore"
+			'en-us': "Breakcore"
 		},
 
 		cost: ["Darkness", "Darkness", "Darkness", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, discard your opponent's Active Pokémon."
+			'en-us': "Flip a coin. If heads, discard your opponent's Active Pokémon."
 		}
 	}],
 

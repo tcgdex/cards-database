@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Melmetal",
-		fr: "Melmetal",
-		es: "Melmetal",
-		it: "Melmetal",
-		pt: "Melmetal",
-		de: "Melmetal"
+		'en-us': "Melmetal",
+		'fr-fr': "Melmetal",
+		'es-es': "Melmetal",
+		'it-it': "Melmetal",
+		'pt-br': "Melmetal",
+		'de-de': "Melmetal"
 	},
 
 	rarity: "Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 160,
 	types: ["Metal"],
 	evolveFrom: {
-		en: "Meltan",
-		fr: "Meltan",
-		es: "Meltan",
-		it: "Meltan",
-		pt: "Meltan",
-		de: "Meltan"
+		'en-us': "Meltan",
+		'fr-fr': "Meltan",
+		'es-es': "Meltan",
+		'it-it': "Meltan",
+		'pt-br': "Meltan",
+		'de-de': "Meltan"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Wrack Down",
-			fr: "Réduire en Poussière",
-			es: "Desmoronar",
-			it: "Abbattere",
-			pt: "Desmoronar",
-			de: "Niederschleudern"
+			'en-us': "Wrack Down",
+			'fr-fr': "Réduire en Poussière",
+			'es-es': "Desmoronar",
+			'it-it': "Abbattere",
+			'pt-br': "Desmoronar",
+			'de-de': "Niederschleudern"
 		},
 
 		damage: 50
@@ -45,21 +45,21 @@ const card: Card = {
 		cost: ["Metal", "Colorless", "Colorless"],
 
 		name: {
-			en: "Reforged Axe",
-			fr: "Hache Reforgée",
-			es: "Hacha Reforjada",
-			it: "Scure Riforgiata",
-			pt: "Machado Reforjado",
-			de: "Umgeschmiedete Axt"
+			'en-us': "Reforged Axe",
+			'fr-fr': "Hache Reforgée",
+			'es-es': "Hacha Reforjada",
+			'it-it': "Scure Riforgiata",
+			'pt-br': "Machado Reforjado",
+			'de-de': "Umgeschmiedete Axt"
 		},
 
 		effect: {
-			en: "Before doing damage, discard all Pokémon Tools from this Pokémon. If you can't discard any, this attack does nothing.",
-			fr: "Avant d'infliger des dégâts, défaussez toutes les cartes Outil Pokémon de ce Pokémon. Si vous ne pouvez pas en défausser, cette attaque ne fait rien.",
-			es: "Antes de infligir daño, descarta todas las Herramientas Pokémon de este Pokémon. Si no puedes descartar ninguna, este ataque no hace nada.",
-			it: "Prima di infliggere danni, scarta tutte le carte Oggetto Pokémon da questo Pokémon. Se non puoi scartarne, questo attacco non ha effetto.",
-			pt: "Antes de causar dano, descarte todas as Ferramentas Pokémon deste Pokémon. Se não puder descartar nenhuma, este ataque não fará nada.",
-			de: "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen von diesem Pokémon auf deinen Ablagestapel. Wenn du keine auf deinen Ablagestapel legen kannst, hat diese Attacke keine Auswirkungen."
+			'en-us': "Before doing damage, discard all Pokémon Tools from this Pokémon. If you can't discard any, this attack does nothing.",
+			'fr-fr': "Avant d'infliger des dégâts, défaussez toutes les cartes Outil Pokémon de ce Pokémon. Si vous ne pouvez pas en défausser, cette attaque ne fait rien.",
+			'es-es': "Antes de infligir daño, descarta todas las Herramientas Pokémon de este Pokémon. Si no puedes descartar ninguna, este ataque no hace nada.",
+			'it-it': "Prima di infliggere danni, scarta tutte le carte Oggetto Pokémon da questo Pokémon. Se non puoi scartarne, questo attacco non ha effetto.",
+			'pt-br': "Antes de causar dano, descarte todas as Ferramentas Pokémon deste Pokémon. Se não puder descartar nenhuma, este ataque não fará nada.",
+			'de-de': "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen von diesem Pokémon auf deinen Ablagestapel. Wenn du keine auf deinen Ablagestapel legen kannst, hat diese Attacke keine Auswirkungen."
 		},
 
 		damage: 250

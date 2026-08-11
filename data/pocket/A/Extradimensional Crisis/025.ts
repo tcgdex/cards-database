@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Extradimensional Crisis"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Trevenant",
-		fr: "Desséliande"
+		'en-us': "Trevenant",
+		'fr-fr': "Desséliande"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Phantump"
+		'en-us': "Phantump"
 	},
 
 	description: {
-		en: "People fear it due to a belief that it devours any\nwho try to cut down trees in its forest, but to the\nPokémon it shares its woods with, it's kind.",
-		fr: "Les bûcherons qui viennent couper des arbres en forêt ont peur d'être dévorés par Desséliande. Il est gentil avec les Pokémon habitant les bois."
+		'en-us': "People fear it due to a belief that it devours any\nwho try to cut down trees in its forest, but to the\nPokémon it shares its woods with, it's kind.",
+		'fr-fr': "Les bûcherons qui viennent couper des arbres en forêt ont peur d'être dévorés par Desséliande. Il est gentil avec les Pokémon habitant les bois."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Wrack Down",
-			fr: "Réduire en Poussière"
+			'en-us': "Wrack Down",
+			'fr-fr': "Réduire en Poussière"
 		},
 
 		damage: 70,

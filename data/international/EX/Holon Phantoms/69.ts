@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Holon Phantoms'
 
 const card: Card = {
 	name: {
-		en: "Magikarp δ",
-		fr: "Magicarpe δ",
-		de: "Karpador"
+		'en-us': "Magikarp δ",
+		'fr-fr': "Magicarpe δ",
+		'de-de': "Karpador"
 	},
 
 	illustrator: "Midori Harada",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Splash",
-				fr: "Trempette",
-				de: "Platscher"
+				'en-us': "Splash",
+				'fr-fr': "Trempette",
+				'de-de': "Platscher"
 			},
 
 			damage: 10,

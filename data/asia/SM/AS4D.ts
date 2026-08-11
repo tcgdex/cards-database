@@ -1,10 +1,10 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../SM'
 
 const set: Set = {
 	id: 'AS4D',
 	name: {
-		id: 'Starter Deck GX Penguasa Langit'
+		'id-id': 'Starter Deck GX Penguasa Langit'
 	},
 
 	serie: serie,

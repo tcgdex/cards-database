@@ -4,7 +4,7 @@ import serie from "../SM";
 const set: Set = {
 	id: "SM5p",
 	name: {
-		ja: "ウルトラフォース",
+		'ja-jp': "ウルトラフォース",
 	},
 
 	serie: serie,
@@ -13,7 +13,7 @@ const set: Set = {
 		official: 50,
 	},
 	releaseDate: {
-		ja: "2018-01-19",
+		'ja-jp': "2018-01-19",
 	},
 };
 

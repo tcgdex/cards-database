@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラッタ",
+		'ja-jp': "ラッタ",
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "後ろ足の 小さい 水かきで 海を 泳いで 島を 渡り 敵から 逃げていた という。",
+		'ja-jp': "後ろ足の 小さい 水かきで 海を 泳いで 島を 渡り 敵から 逃げていた という。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが進化ポケモンなら、このポケモンをベンチポケモンと入れ替える。",
+				'ja-jp': "相手のバトルポケモンが進化ポケモンなら、このポケモンをベンチポケモンと入れ替える。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "コラッタ",
+		'ja-jp': "コラッタ",
 	},
 
 	retreat: 1,

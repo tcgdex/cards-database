@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケララッパ",
+		'ja-jp': "ケララッパ",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "クチバシを 反り返らせ 色んな 音で 鳴く。 かなり うるさいので 周りの 御宅には 嫌われるぞ。",
+		'ja-jp': "クチバシを 反り返らせ 色んな 音で 鳴く。 かなり うるさいので 周りの 御宅には 嫌われるぞ。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを4回投げ、オモテの数x20ダメージ。",
+				'ja-jp': "コインを4回投げ、オモテの数x20ダメージ。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ツツケラ",
+		'ja-jp': "ツツケラ",
 	},
 
 	retreat: 1,

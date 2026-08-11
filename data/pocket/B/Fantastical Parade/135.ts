@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [288],
 
 	name: {
-		en: "Vigoroth"
+		'en-us': "Vigoroth"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Slakoth"
+		'en-us': "Slakoth"
 	},
 
 	description: {
-		en: "It is always hungry because it won't stop\nrampaging. Even while it is eating, it can't\nkeep still."
+		'en-us': "It is always hungry because it won't stop\nrampaging. Even while it is eating, it can't\nkeep still."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Best Punch"
+			'en-us': "Best Punch"
 		},
 
 		damage: 90,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing."
+			'en-us': "Flip a coin. If tails, this attack does nothing."
 		}
 	}],
 

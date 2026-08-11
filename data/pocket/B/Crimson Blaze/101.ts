@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [791],
 
 	name: {
-		en: "Solgaleo ex"
+		'en-us': "Solgaleo ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Cosmoem"
+		'en-us': "Cosmoem"
 	},
 
 	stage: "Stage2",
@@ -27,24 +27,24 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Rising Road"
+			'en-us': "Rising Road"
 		},
 
 		effect: {
-			en: "Once during your turn, if this Pokémon is on your Bench, you may switch it with your Active Pokémon."
+			'en-us': "Once during your turn, if this Pokémon is on your Bench, you may switch it with your Active Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Sol Breaker"
+			'en-us': "Sol Breaker"
 		},
 
 		damage: 120,
 		cost: ["Metal", "Metal"],
 
 		effect: {
-			en: "This Pokémon also does 10 damage to itself."
+			'en-us': "This Pokémon also does 10 damage to itself."
 		}
 	}],
 

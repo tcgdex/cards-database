@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Remoraid",
-		fr: "Rémoraid"
+		'en-us': "Remoraid",
+		'fr-fr': "Rémoraid"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -18,16 +18,16 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "The water they shoot from their mouths can hit\nmoving prey from more than 300 feet away.",
-		fr: "Son puissant jet d'eau ne manque jamais sa cible, même à 100 m de distance."
+		'en-us': "The water they shoot from their mouths can hit\nmoving prey from more than 300 feet away.",
+		'fr-fr': "Son puissant jet d'eau ne manque jamais sa cible, même à 100 m de distance."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Water Gun",
-			fr: "Pistolet à O"
+			'en-us': "Water Gun",
+			'fr-fr': "Pistolet à O"
 		},
 
 		damage: 20,

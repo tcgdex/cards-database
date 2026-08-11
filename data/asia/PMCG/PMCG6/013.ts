@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サカキのニドリーノ",
+		'ja-jp': "サカキのニドリーノ",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless", "Colorless"],
 			name: {
-				ja: "レンド",
+				'ja-jp': "レンド",
 			},
 			effect: {
-				ja: "ディフェンディングポケモンがすでにダメージカウンターを持っている場合、この攻撃は20ダメージに加えて20ダメージを与えます。そうでない場合、この攻撃は20ダメージを与えます。",
+				'ja-jp': "ディフェンディングポケモンがすでにダメージカウンターを持っている場合、この攻撃は20ダメージに加えて20ダメージを与えます。そうでない場合、この攻撃は20ダメージを与えます。",
 			},
 		},
 	],

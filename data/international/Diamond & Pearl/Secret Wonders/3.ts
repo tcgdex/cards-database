@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Charizard",
-		fr: "Dracaufeu",
-		de: "Glurak"
+		'en-us': "Charizard",
+		'fr-fr': "Dracaufeu",
+		'de-de': "Glurak"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmeleon",
-		fr: "Reptincel",
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel",
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Fury Blaze",
-				fr: "Flammes frénétiques",
-				de: "Loderfurie"
+				'en-us': "Fury Blaze",
+				'fr-fr': "Flammes frénétiques",
+				'de-de': "Loderfurie"
 			},
 			effect: {
-				en: "If your opponent has 3 or less Prize cards left, each of Charizard's attacks does 50 more damage to the Active Pokémon (before applying Weakness and Resistance).",
-				fr: "Si votre adversaire possède moins de 3 cartes Récompense, chacune des attaques de Dracaufeu inflige 50 dégâts supplémentaires aux Pokémon Actifs (avant application de la Faiblesse et de la Résistance.)",
-				de: "Wenn dein Gegner 3 oder weniger Preise übrig hat, fügt jeder Angriff von Glurak dem Aktiven Pokémon 50 zusätzliche Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "If your opponent has 3 or less Prize cards left, each of Charizard's attacks does 50 more damage to the Active Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Si votre adversaire possède moins de 3 cartes Récompense, chacune des attaques de Dracaufeu inflige 50 dégâts supplémentaires aux Pokémon Actifs (avant application de la Faiblesse et de la Résistance.)",
+				'de-de': "Wenn dein Gegner 3 oder weniger Preise übrig hat, fügt jeder Angriff von Glurak dem Aktiven Pokémon 50 zusätzliche Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],
@@ -55,14 +55,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blast Burn",
-				fr: "Rafale feu",
-				de: "Lohekanonade"
+				'en-us': "Blast Burn",
+				'fr-fr': "Rafale feu",
+				'de-de': "Lohekanonade"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard 2 Energy cards attached to Charizard. If tails, discard 4 Energy cards attached to Charizard. (If you can't, this attack does nothing.)",
-				fr: "Lancez une pièce. Si c'est face, défaussez 2 cartes Énergie attachées à Dracaufeu. Si c'est pile, défaussez 4 cartes Énergie attachées à Dracaufeu. (Si vous ne pouvez pas, cette attaque est sans effet).",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege 2 an Glurak angelegte Energiekarten auf deinen Ablagestapel. Bei \"Zahl\" lege 4 an Glurak angelegte Energiekarten auf deinen Ablagestapel. (Wenn du dies nicht tun kannst, hat dieser Angriff keine Auswirkungen.)"
+				'en-us': "Flip a coin. If heads, discard 2 Energy cards attached to Charizard. If tails, discard 4 Energy cards attached to Charizard. (If you can't, this attack does nothing.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez 2 cartes Énergie attachées à Dracaufeu. Si c'est pile, défaussez 4 cartes Énergie attachées à Dracaufeu. (Si vous ne pouvez pas, cette attaque est sans effet).",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" lege 2 an Glurak angelegte Energiekarten auf deinen Ablagestapel. Bei \"Zahl\" lege 4 an Glurak angelegte Energiekarten auf deinen Ablagestapel. (Wenn du dies nicht tun kannst, hat dieser Angriff keine Auswirkungen.)"
 			},
 			damage: 120,
 
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It is said that CHARIZARD's fire burns hotter if it has experienced harsh battles.",
+		'en-us': "It is said that CHARIZARD's fire burns hotter if it has experienced harsh battles.",
 	},
 
 	thirdParty: {

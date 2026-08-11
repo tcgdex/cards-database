@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 9'
 
 const card: Card = {
 	name: {
-		en: "Raichu",
-		fr: "Raichu"
+		'en-us': "Raichu",
+		'fr-fr': "Raichu"
 	},
 
 	illustrator: "Midori Harada",
@@ -21,8 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pikachu",
-		fr: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slam",
-				fr: "Souplesse"
+				'en-us': "Slam",
+				'fr-fr': "Souplesse"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
 			},
 			damage: "30×",
 
@@ -52,13 +52,13 @@ const card: Card = {
 			],
 
 			name: {
-				en: "High Volt",
-				fr: "Voltage puissant"
+				'en-us': "High Volt",
+				'fr-fr': "Voltage puissant"
 			},
 
 			effect: {
-				en: "If Raichu evolved from Pikachu during this turn, this attack's base damage is 100 instead of 60.",
-				fr: "Si Raichu évolue d'un Pokémon lors de ce tour, les dégâts de base de cette attaque sont de 100 au lieu de 60."
+				'en-us': "If Raichu evolved from Pikachu during this turn, this attack's base damage is 100 instead of 60.",
+				'fr-fr': "Si Raichu évolue d'un Pokémon lors de ce tour, les dégâts de base de cette attaque sont de 100 au lieu de 60."
 			},
 
 			damage: 60,
@@ -80,7 +80,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It can loose 100,000-volt bursts of electricity, instantly downing foes several times its size."
+		'en-us': "It can loose 100,000-volt bursts of electricity, instantly downing foes several times its size."
 	},
 
 	variants: [

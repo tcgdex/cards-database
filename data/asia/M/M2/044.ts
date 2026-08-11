@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グライオン",
+		'ja-jp': "グライオン",
 	},
 
 	illustrator: "Dsuke",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "わずかな 風の流れに うまく 乗ると １度も 羽ばたくことなく この星を １周 できる。",
+		'ja-jp': "わずかな 風の流れに うまく 乗ると １度も 羽ばたくことなく この星を １周 できる。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "グライガー",
+		'ja-jp': "グライガー",
 	},
 
 	retreat: 1,

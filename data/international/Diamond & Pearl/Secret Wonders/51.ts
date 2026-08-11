@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Ivysaur",
-		fr: "Herbizarre",
-		de: "Bisaknosp"
+		'en-us': "Ivysaur",
+		'fr-fr': "Herbizarre",
+		'de-de': "Bisaknosp"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bulbasaur",
-		fr: "Bulbizarre",
+		'en-us': "Bulbasaur",
+		'fr-fr': "Bulbizarre",
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leech Seed",
-				fr: "Vampigraine",
-				de: "Egelsamen"
+				'en-us': "Leech Seed",
+				'fr-fr': "Vampigraine",
+				'de-de': "Egelsamen"
 			},
 			effect: {
-				en: "Remove 1 damage counter from Ivysaur.",
-				fr: "Retirez à Herbizarre 1 marqueur de dégât.",
-				de: "Entferne 1 Schadensmarke von Bisaknosp."
+				'en-us': "Remove 1 damage counter from Ivysaur.",
+				'fr-fr': "Retirez à Herbizarre 1 marqueur de dégât.",
+				'de-de': "Entferne 1 Schadensmarke von Bisaknosp."
 			},
 			damage: 20,
 
@@ -56,9 +56,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch'herbe",
-				de: "Rasierblatt"
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch'herbe",
+				'de-de': "Rasierblatt"
 			},
 
 			damage: 60,
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When the bud on its back starts swelling, a sweet aroma wafts to indicate the flower's coming bloom.",
+		'en-us': "When the bud on its back starts swelling, a sweet aroma wafts to indicate the flower's coming bloom.",
 	},
 
 	thirdParty: {

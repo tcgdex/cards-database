@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [232],
 
 	name: {
-		en: "Donphan ex"
+		'en-us': "Donphan ex"
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -17,7 +17,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Phanpy"
+		'en-us': "Phanpy"
 	},
 
 	stage: "Stage1",
@@ -25,14 +25,14 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Gigantic Press"
+			'en-us': "Gigantic Press"
 		},
 
 		damage: 50,
 		cost: ["Fighting"],
 
 		effect: {
-			en: "If this Pokémon has at least 2 extra {F} Energy attached, this attack does 60 more damage."
+			'en-us': "If this Pokémon has at least 2 extra {F} Energy attached, this attack does 60 more damage."
 		}
 	}],
 

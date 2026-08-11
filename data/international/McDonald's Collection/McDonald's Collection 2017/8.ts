@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2017'
 
 const card: Card = {
@@ -7,8 +7,8 @@ const card: Card = {
 	],
 	set: Set,
 	name: {
-		en: "Alolan Meowth",
-		fr: "Miaouss d'Alola",
+		'en-us': "Alolan Meowth",
+		'fr-fr': "Miaouss d'Alola",
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -21,13 +21,13 @@ const card: Card = {
 		{
 			cost: [],
 			name: {
-				en: "Fury Swipes",
-				fr: "Combo-Griffe",
+				'en-us': "Fury Swipes",
+				'fr-fr': "Combo-Griffe",
 			},
 			damage: "10×",
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage for each heads",
-				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 3 coins. This attack does 10 damage for each heads",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
 			},
 		},
 	],

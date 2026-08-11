@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "れんげきウーラオス",
+		'ja-jp': "れんげきウーラオス",
 		'zh-tw': "連擊武道熊師",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "多撃必倒を 信条とする。 水の 流れのように 途切れなく 打撃技を 相手に 叩きこむ。",
+		'ja-jp': "多撃必倒を 信条とする。 水の 流れのように 途切れなく 打撃技を 相手に 叩きこむ。",
 		'zh-tw': "以多擊必勝作為信念。會如流水般連續不斷地 用打擊招式轟打對手。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "スラッシュクロー",
+				'ja-jp': "スラッシュクロー",
 				'zh-tw': "利爪揮砍",
 			},
 			damage: 40,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "れんだんラッシュ",
+				'ja-jp': "れんだんラッシュ",
 				'zh-tw': "連彈衝刺",
 			},
 			damage: "30×",
 			cost: ["Water", "Colorless"],
 			effect: {
-				ja: "自分の場の「れんげき」のポケモンの数×30ダメージ。",
+				'ja-jp': "自分の場の「れんげき」のポケモンの数×30ダメージ。",
 				'zh-tw': "造成自己的場上「連擊」寶可夢的數量×30點傷害。",
 			},
 		},
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ダクマ",
+		'ja-jp': "ダクマ",
 	},
 
 	retreat: 2,

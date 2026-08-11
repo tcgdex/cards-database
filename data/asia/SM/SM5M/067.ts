@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グレイシアGX",
+		'ja-jp': "グレイシアGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "いてつくひとみ" },
 			effect: {
-				ja: "このポケモンがバトル場にいるかぎり、相手の場・手札・トラッシュにある「ポケモンGX・EX」の特性（「いてつくひとみ」をのぞく）は、すべてなくなる。",
+				'ja-jp': "このポケモンがバトル場にいるかぎり、相手の場・手札・トラッシュにある「ポケモンGX・EX」の特性（「いてつくひとみ」をのぞく）は、すべてなくなる。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 90,
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'ja-jp': "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 		{
@@ -38,7 +38,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Water", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンにのっているダメカンの数x50ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のバトルポケモンにのっているダメカンの数x50ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],
@@ -56,7 +56,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 2,

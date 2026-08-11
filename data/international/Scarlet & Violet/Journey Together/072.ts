@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Morgrem",
-		fr: "Fourbelin",
-		es: "Morgrem",
-		de: "Pelzebub",
-		it: "Morgrem",
-		pt: "Morgrem",
+		'en-us': "Morgrem",
+		'fr-fr': "Fourbelin",
+		'es-es': "Morgrem",
+		'de-de': "Pelzebub",
+		'it-it': "Morgrem",
+		'pt-br': "Morgrem",
 		'es-mx': "Morgrem"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Impidimp",
-		fr: "Grimalin",
-		es: "Impidimp",
-		de: "Bähmon",
-		it: "Impidimp",
-		pt: "Impidimp",
+		'en-us': "Impidimp",
+		'fr-fr': "Grimalin",
+		'es-es': "Impidimp",
+		'de-de': "Bähmon",
+		'it-it': "Impidimp",
+		'pt-br': "Impidimp",
 		'es-mx': "Impidimp"
 	},
 	stage: "Stage1",
@@ -34,12 +34,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Light Punch",
-			fr: "Poing Léger",
-			es: "Puño Ligero",
-			de: "Leichter Hieb",
-			it: "Pugnetto",
-			pt: "Soco de Luz",
+			'en-us': "Light Punch",
+			'fr-fr': "Poing Léger",
+			'es-es': "Puño Ligero",
+			'de-de': "Leichter Hieb",
+			'it-it': "Pugnetto",
+			'pt-br': "Soco de Luz",
 			'es-mx': "Puño Ligero"
 		},
 
@@ -48,12 +48,12 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Smash Kick",
-			fr: "Coud'Pattes",
-			es: "Patada Destrucción",
-			de: "Schmetterkick",
-			it: "Calcio Esplosivo",
-			pt: "Chute Poderoso",
+			'en-us': "Smash Kick",
+			'fr-fr': "Coud'Pattes",
+			'es-es': "Patada Destrucción",
+			'de-de': "Schmetterkick",
+			'it-it': "Calcio Esplosivo",
+			'pt-br': "Chute Poderoso",
 			'es-mx': "Patada Devastadora"
 		},
 

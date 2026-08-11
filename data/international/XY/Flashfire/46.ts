@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Graveler",
-		fr: "Gravalanch",
-		es: "Graveler",
-		it: "Graveler",
-		pt: "Graveler",
-		de: "Georok"
+		'en-us': "Graveler",
+		'fr-fr': "Gravalanch",
+		'es-es': "Graveler",
+		'it-it': "Graveler",
+		'pt-br': "Graveler",
+		'de-de': "Georok"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Geodude",
-		fr: "Racaillou",
-		es: "Geodude",
-		it: "Geodude",
-		pt: "Geodude",
-		de: "Kleinstein"
+		'en-us': "Geodude",
+		'fr-fr': "Racaillou",
+		'es-es': "Geodude",
+		'it-it': "Geodude",
+		'pt-br': "Geodude",
+		'de-de': "Kleinstein"
 	},
 
 	stage: "Stage1",
@@ -45,20 +45,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-Edge",
-				fr: "Damoclès",
-				es: "Doble Filo",
-				it: "Sdoppiatore",
-				pt: "Faca de Dois Gumes",
-				de: "Risikotackle"
+				'en-us': "Double-Edge",
+				'fr-fr': "Damoclès",
+				'es-es': "Doble Filo",
+				'it-it': "Sdoppiatore",
+				'pt-br': "Faca de Dois Gumes",
+				'de-de': "Risikotackle"
 			},
 			effect: {
-				en: "This Pokémon does 20 damage to itself.",
-				fr: "Ce Pokémon s'inflige 20 dégâts.",
-				es: "Este Pokémon se hace 20 puntos de daño a sí mismo.",
-				it: "Questo Pokémon infligge 20 danni a se stesso.",
-				pt: "Este Pokémon causa 20 de danos a ele mesmo.",
-				de: "Dieses Pokémon fügt sich selbst 20 Schadenspunkte zu."
+				'en-us': "This Pokémon does 20 damage to itself.",
+				'fr-fr': "Ce Pokémon s'inflige 20 dégâts.",
+				'es-es': "Este Pokémon se hace 20 puntos de daño a sí mismo.",
+				'it-it': "Questo Pokémon infligge 20 danni a se stesso.",
+				'pt-br': "Este Pokémon causa 20 de danos a ele mesmo.",
+				'de-de': "Dieses Pokémon fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -71,12 +71,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
-				fr: "Roulade",
-				es: "Desenrollar",
-				it: "Rotolamento",
-				pt: "Rolagem",
-				de: "Walzer"
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'es-es': "Desenrollar",
+				'it-it': "Rotolamento",
+				'pt-br': "Rolagem",
+				'de-de': "Walzer"
 			},
 
 			damage: 80,
@@ -94,7 +94,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "With a free and uncaring nature, it doesn't mind if pieces break off while it rolls down mountains.",
+		'en-us': "With a free and uncaring nature, it doesn't mind if pieces break off while it rolls down mountains.",
 	},
 
 	thirdParty: {

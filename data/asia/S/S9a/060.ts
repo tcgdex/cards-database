@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "東施喵",
-		ja: "ブニャット"
+		'ja-jp': "ブニャット"
 	},
 
 	illustrator: "Mina Nakai",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "為了讓自己的身體看起來 大一點來威嚇對手， 會把分叉的尾巴緊緊纏在腰上。",
-		ja: "体を 大きく 見せて 相手を 威圧するため ふたまたの 尻尾で ウエストを ぎゅっと 絞っている。"
+		'ja-jp': "体を 大きく 見せて 相手を 威圧するため ふたまたの 尻尾で ウエストを ぎゅっと 絞っている。"
 	},
 
 	stage: "Stage1",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "泰山壓頂",
-			ja: "のしかかり"
+			'ja-jp': "のしかかり"
 		},
 
 		effect: {
 			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。",
-			ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。"
+			'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。"
 		},
 
 		damage: 30,
@@ -37,7 +37,7 @@ const card: Card = {
 	}, {
 		name: {
 			'zh-tw': "利爪揮砍",
-			ja: "スラッシュクロー"
+			'ja-jp': "スラッシュクロー"
 		},
 
 		damage: 100,

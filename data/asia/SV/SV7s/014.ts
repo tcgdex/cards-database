@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "ฮิเมงกะ",
-		id: "Gossifleur"
+		'th-th': "ฮิเมงกะ",
+		'id-id': "Gossifleur"
 	},
 
 	illustrator: "Heisuke Kitazawa",
@@ -15,21 +15,21 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		th: "ปักก้านบนผิวดิน เมื่ออาบแสงอาทิตย์เต็มที่กลีบดอกไม้จะมีสีสันสดใส",
-		id: "Ketika Gossifleur menancapkan satu kakinya ke tanah dan bermandikan banyak cahaya matahari, kelopak bunganya akan berwarna cerah."
+		'th-th': "ปักก้านบนผิวดิน เมื่ออาบแสงอาทิตย์เต็มที่กลีบดอกไม้จะมีสีสันสดใส",
+		'id-id': "Ketika Gossifleur menancapkan satu kakinya ke tanah dan bermandikan banyak cahaya matahari, kelopak bunganya akan berwarna cerah."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ดับเบิลสปิน",
-			id: "Double Spin"
+			'th-th': "ดับเบิลสปิน",
+			'id-id': "Double Spin"
 		},
 
 		effect: {
-			th: "ทอยเหรียญ 2 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x10",
-			id: "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lemparan dengan hasil sisi depan."
+			'th-th': "ทอยเหรียญ 2 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x10",
+			'id-id': "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lemparan dengan hasil sisi depan."
 		},
 
 		damage: "10×",

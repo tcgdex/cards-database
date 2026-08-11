@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Full Heal",
-		fr: "Guérison totale",
-		de: "Hyperheiler"
+		'en-us': "Full Heal",
+		'fr-fr': "Guérison totale",
+		'de-de': "Hyperheiler"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Remove all Special Conditions from your Active Pokémon.",
-		fr: "Retirez tous les États spéciaux de votre Pokémon Actif.",
-		de: "Entferne alle Speziellen Zustände von deinem Aktiven Pokémon."
+		'en-us': "Remove all Special Conditions from your Active Pokémon.",
+		'fr-fr': "Retirez tous les États spéciaux de votre Pokémon Actif.",
+		'de-de': "Entferne alle Speziellen Zustände von deinem Aktiven Pokémon."
 	},
 
 	variants: [

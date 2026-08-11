@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Brionne",
-		fr: "Otarlette",
-		es: "Brionne",
-		it: "Brionne",
-		pt: "Brionne",
-		de: "Marikeck"
+		'en-us': "Brionne",
+		'fr-fr': "Otarlette",
+		'es-es': "Brionne",
+		'it-it': "Brionne",
+		'pt-br': "Brionne",
+		'de-de': "Marikeck"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Popplio",
-		fr: "Otaquin",
+		'en-us': "Popplio",
+		'fr-fr': "Otaquin",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse Vague",
-				es: "Chapoteo Ondulante",
-				it: "Schizzi d’Onda",
-				pt: "Onda Borrifante",
-				de: "Wellenplatscher"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse Vague",
+				'es-es': "Chapoteo Ondulante",
+				'it-it': "Schizzi d’Onda",
+				'pt-br': "Onda Borrifante",
+				'de-de': "Wellenplatscher"
 			},
 
 			damage: 30,
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Disarming Voice",
-				fr: "Voix Enjôleuse",
-				es: "Voz Cautivadora",
-				it: "Incantavoce",
-				pt: "Voz Desarmante",
-				de: "Säuselstimme"
+				'en-us': "Disarming Voice",
+				'fr-fr': "Voix Enjôleuse",
+				'es-es': "Voz Cautivadora",
+				'it-it': "Incantavoce",
+				'pt-br': "Voz Desarmante",
+				'de-de': "Säuselstimme"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent’s Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: 50,
 
@@ -88,7 +88,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A skillful dancer, it creates a sequence of water balloons as it dances, and briskly bombards it enemies.",
+		'en-us': "A skillful dancer, it creates a sequence of water balloons as it dances, and briskly bombards it enemies.",
 	},
 
 	thirdParty: {

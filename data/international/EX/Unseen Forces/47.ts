@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Shuckle",
-		fr: "Caratroc",
-		de: "Pottrott"
+		'en-us': "Shuckle",
+		'fr-fr': "Caratroc",
+		'de-de': "Pottrott"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Extra Tight",
-				fr: "Super serré",
-				de: "Extra-tight"
+				'en-us': "Extra Tight",
+				'fr-fr': "Super serré",
+				'de-de': "Extra-tight"
 			},
 			effect: {
-				en: "Prevent all damage done to Shuckle by attacks from your opponent's Pokémon-ex.",
-				fr: "Prévenez tous les dégâts infligés à Caratroc par des attaques du Pokémon-ex de votre adversaire.",
-				de: "Prevent all damage done to Shuckle by attacks from your opponent's Pokémon-ex."
+				'en-us': "Prevent all damage done to Shuckle by attacks from your opponent's Pokémon-ex.",
+				'fr-fr': "Prévenez tous les dégâts infligés à Caratroc par des attaques du Pokémon-ex de votre adversaire.",
+				'de-de': "Prevent all damage done to Shuckle by attacks from your opponent's Pokémon-ex."
 			},
 		},
 	],
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Toxic",
-				fr: "Toxik",
-				de: "Toxic"
+				'en-us': "Toxic",
+				'fr-fr': "Toxik",
+				'de-de': "Toxic"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours.",
-				de: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns."
+				'en-us': "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours.",
+				'de-de': "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns."
 			},
 
 		},

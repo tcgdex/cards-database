@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カイリキー",
+		'ja-jp': "カイリキー",
 	},
 
 	illustrator: "Ken Sugimori",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				ja: "ストライクバック",
+				'ja-jp': "ストライクバック",
 			},
 			effect: {
-				ja: "対戦相手の攻撃がMachamp <em>に損害を与えるたびに（Machampがノックアウトされたとしても）</em> </em>、このパワーは攻撃ポクモンに10ダメージを与えます。 <em>（衰弱と抵抗を適用しないでください。）</em>相手が攻撃するときにMachampが特別な状態の影響を受けている場合、このパワーは使用できません。",
+				'ja-jp': "対戦相手の攻撃がMachamp <em>に損害を与えるたびに（Machampがノックアウトされたとしても）</em> </em>、このパワーは攻撃ポクモンに10ダメージを与えます。 <em>（衰弱と抵抗を適用しないでください。）</em>相手が攻撃するときにMachampが特別な状態の影響を受けている場合、このパワーは使用できません。",
 			},
 		}],
 
@@ -30,7 +30,7 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
 			name: {
-				ja: "地震のトス",
+				'ja-jp': "地震のトス",
 			},
 			damage: 60,
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パラセクト",
+		'ja-jp': "パラセクト",
 	},
 
 	rarity: "Uncommon",
@@ -17,10 +17,10 @@ const card: Card = {
 	abilities: [
 		{
 			name: {
-				ja: "アレルギー性花粉",
+				'ja-jp': "アレルギー性花粉",
 			},
 			effect: {
-				ja: "ParaSectがプレイしている限り、プレイヤーの破棄パイルのカードは、攻撃やポケモンパワーの影響を受けません。 ParaSectが眠り、混乱し、麻痺した場合、このパワーは機能しなくなります。",
+				'ja-jp': "ParaSectがプレイしている限り、プレイヤーの破棄パイルのカードは、攻撃やポケモンパワーの影響を受けません。 ParaSectが眠り、混乱し、麻痺した場合、このパワーは機能しなくなります。",
 			},
 		}],
 
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "睡眠ピンチャー",
+				'ja-jp': "睡眠ピンチャー",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、防御するポケモンは今眠っています。",
+				'ja-jp': "コインをひっくり返します。頭の場合、防御するポケモンは今眠っています。",
 			},
 			damage: 30,
 		},

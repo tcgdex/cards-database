@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Genetic Apex"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Electrode",
-		fr: "Électrode",
-		es: "Electrode",
-		it: "Electrode",
-		de: "Lektrobal",
+		'en-us': "Electrode",
+		'fr-fr': "Électrode",
+		'es-es': "Electrode",
+		'it-it': "Electrode",
+		'de-de': "Lektrobal",
 		'pt-br': "Electrode",
-		ko: "붐볼"
+		'ko-kr': "붐볼"
 	},
 
 	illustrator: "DOM",
@@ -23,20 +23,20 @@ const card: Card = {
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Voltorb"
+		'en-us': "Voltorb"
 	},
 
 	attacks: [{
 		cost: ["Lightning", "Lightning"],
 
 		name: {
-			en: "Electro Ball",
-			fr: "Boule Élek",
-			es: "Bola Voltio",
-			it: "Energisfera",
-			de: "Elektroball",
+			'en-us': "Electro Ball",
+			'fr-fr': "Boule Élek",
+			'es-es': "Bola Voltio",
+			'it-it': "Energisfera",
+			'de-de': "Elektroball",
 			'pt-br': "Bola Elétrica",
-			ko: "일렉트릭볼"
+			'ko-kr': "일렉트릭볼"
 		},
 
 		damage: "70"
@@ -51,13 +51,13 @@ const card: Card = {
 	rarity: "One Star",
 
 	description: {
-		en: "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
-		fr: "Plus il accumule de l'énergie de type Électrik, plus il est rapide.\nMais il a aussi davantage de chances d'exploser.",
-		es: "Cuanta más energía almacena, mayor\nvelocidad alcanza, aunque aumenta\ntambién el riesgo de que explote.",
-		it: "L'energia Elettro che immagazzina\nlo fa andare sempre più veloce, ma\nlo fa anche esplodere più facilmente.",
-		de: "Je mehr elektrische Energie es speichert, desto\nschneller ist es. Allerdings steigt dabei auch das\nRisiko, dass es explodiert.",
+		'en-us': "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
+		'fr-fr': "Plus il accumule de l'énergie de type Électrik, plus il est rapide.\nMais il a aussi davantage de chances d'exploser.",
+		'es-es': "Cuanta más energía almacena, mayor\nvelocidad alcanza, aunque aumenta\ntambién el riesgo de que explote.",
+		'it-it': "L'energia Elettro che immagazzina\nlo fa andare sempre più veloce, ma\nlo fa anche esplodere più facilmente.",
+		'de-de': "Je mehr elektrische Energie es speichert, desto\nschneller ist es. Allerdings steigt dabei auch das\nRisiko, dass es explodiert.",
 		'pt-br': "Quanto mais energia carrega, mais\nvelocidade ganha. Mas também aumenta\na sua probabilidade de explodir.",
-		ko: "전기 에너지를 모을수록\n고속으로 이동할 수 있게 되나\n그만큼 폭발하기도 쉬워진다."
+		'ko-kr': "전기 에너지를 모을수록\n고속으로 이동할 수 있게 되나\n그만큼 폭발하기도 쉬워진다."
 	},
 
 	boosters: ["pikachu"]

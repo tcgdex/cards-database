@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マイナン",
+		'ja-jp': "マイナン",
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "仲間を 応援する 習性。 負けそうになると 体から 出す 火花の 数が どんどん 増える。",
+		'ja-jp': "仲間を 応援する 習性。 負けそうになると 体から 出す 火花の 数が どんどん 増える。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ぽいぽいドロー" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の手札が5枚になるように、山札を引く。のぞむなら、山札を引く前に、自分の手札を好きなだけトラッシュする。",
+				'ja-jp': "自分の手札が5枚になるように、山札を引く。のぞむなら、山札を引く前に、自分の手札を好きなだけトラッシュする。",
 			},
 		},
 		{

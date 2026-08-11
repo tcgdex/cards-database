@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Radio Tower",
-		fr: "Tour radio",
-		de: "Radio Turm"
+		'en-us': "Radio Tower",
+		'fr-fr': "Tour radio",
+		'de-de': "Radio Turm"
 	},
 
 	illustrator: undefined,
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Once during each player's turn (before attacking), that player may look at the top 2 cards of his or her deck and put them back in the same order.",
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-vous de cette carte si une autre carte Stade arrive en jeu.\n\nUne fois pendant le tour de chaque joueur (avant son attaque), ce joueur peut regarder les 2 premières cartes du dessus de son deck et les replacer dans le même ordre.",
-		de: "Once during each player's turn (before attacking), that player may look at the top 2 cards of his or her deck and put them back in the same order."
+		'en-us': "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Once during each player's turn (before attacking), that player may look at the top 2 cards of his or her deck and put them back in the same order.",
+		'fr-fr': "Cette carte reste en jeu lorsque vous la jouez. Défaussez-vous de cette carte si une autre carte Stade arrive en jeu.\n\nUne fois pendant le tour de chaque joueur (avant son attaque), ce joueur peut regarder les 2 premières cartes du dessus de son deck et les replacer dans le même ordre.",
+		'de-de': "Once during each player's turn (before attacking), that player may look at the top 2 cards of his or her deck and put them back in the same order."
 	},
 
 

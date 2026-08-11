@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
     set: Set,
 
 	name: {
-		en: "Pawmot",
-		fr: "Pohmarmotte",
-		es: "Pawmot",
-		it: "Pawmot",
-		de: "Pamomamo",
+		'en-us': "Pawmot",
+		'fr-fr': "Pohmarmotte",
+		'es-es': "Pawmot",
+		'it-it': "Pawmot",
+		'de-de': "Pamomamo",
 		'pt-br': "Pawmot",
-		ko: "빠르모트"
+		'ko-kr': "빠르모트"
 	},
 
     illustrator: "whomor Inc.",
@@ -23,13 +23,13 @@ const card: Card = {
     dexId: [923],
     
     evolveFrom: {
-		en: "Pawmo",
-		fr: "Pohmotte",
-		es: "Pawmo",
+		'en-us': "Pawmo",
+		'fr-fr': "Pohmotte",
+		'es-es': "Pawmo",
 		'es-mx': "Pawmo",
-		de: "Pamamo",
-		it: "Pawmo",
-		pt: "Pawmo"
+		'de-de': "Pamamo",
+		'it-it': "Pawmo",
+		'pt-br': "Pawmo"
     },
     stage: "Stage2",
 
@@ -40,13 +40,13 @@ const card: Card = {
     attacks: [
         {
 		name: {
-			en: "Thunder Blast",
-			fr: "Grondement de Tonnerre",
-			es: "Estallido Trueno",
+			'en-us': "Thunder Blast",
+			'fr-fr': "Grondement de Tonnerre",
+			'es-es': "Estallido Trueno",
 			'es-mx': "Explosión Atronadora",
-			de: "Donnerkeil",
-			it: "Tuonobomba",
-			pt: "Explosão de Trovões"
+			'de-de': "Donnerkeil",
+			'it-it': "Tuonobomba",
+			'pt-br': "Explosão de Trovões"
 		},
         damage: "100",
         cost: ["Lightning", "Lightning"],

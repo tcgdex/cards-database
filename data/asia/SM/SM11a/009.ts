@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポニータ",
+		'ja-jp': "ポニータ",
 	},
 
 	illustrator: "Uta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "生まれたばかりでは 立つのがやっと。 だが 走るほどに 足腰は 鍛えられて 速度が 増していく。",
+		'ja-jp': "生まれたばかりでは 立つのがやっと。 だが 走るほどに 足腰は 鍛えられて 速度が 増していく。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ちいさなおつかい" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札にある基本エネルギーを2枚まで、相手に見せてから、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札にある基本エネルギーを2枚まで、相手に見せてから、手札に加える。そして山札を切る。",
 			},
 		},
 		{

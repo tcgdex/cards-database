@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Majesty'
 
 const card: Card = {
 	name: {
-		en: "Phione",
-		fr: "Phione",
-		es: "Phione",
-		it: "Phione",
-		pt: "Phione",
-		de: "Phione"
+		'en-us': "Phione",
+		'fr-fr': "Phione",
+		'es-es': "Phione",
+		'it-it': "Phione",
+		'pt-br': "Phione",
+		'de-de': "Phione"
 	},
 
 	illustrator: "kawayoo",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Murmurs of the Sea",
-				fr: "Murmures Marins",
-				es: "Murmullo del Mar",
-				it: "Richiamo del Mare",
-				pt: "Murmúrios Marinhos",
-				de: "Murmeln des Meeres"
+				'en-us': "Murmurs of the Sea",
+				'fr-fr': "Murmures Marins",
+				'es-es': "Murmullo del Mar",
+				'it-it': "Richiamo del Mare",
+				'pt-br': "Murmúrios Marinhos",
+				'de-de': "Murmeln des Meeres"
 			},
 			effect: {
-				en: "Your Water Pokémon can’t be Confused. If those Pokémon are already Confused, remove that Special Condition.",
-				fr: "Vos Pokémon Water ne peuvent pas être Confus. Si ces Pokémon sont déjà Confus, retirez cet État Spécial.",
-				es: "Tus Pokémon Water no pueden pasar a estar Confundidos. Si esos Pokémon ya están Confundidos, elimina esa Condición Especial.",
-				it: "I tuoi Pokémon Water non possono venire confusi. Se tali Pokémon sono già confusi, rimuovine la condizione speciale.",
-				pt: "Seus Pokémon Water não podem ser Confundidos. Se aqueles Pokémon já estiverem Confusos, remova aquela Condição Especial.",
-				de: "Deine Water-Pokémon können nicht verwirrt werden. Wenn jene Pokémon bereits verwirrt sind, verliert jener Spezielle Zustand seine Wirkung."
+				'en-us': "Your Water Pokémon can’t be Confused. If those Pokémon are already Confused, remove that Special Condition.",
+				'fr-fr': "Vos Pokémon Water ne peuvent pas être Confus. Si ces Pokémon sont déjà Confus, retirez cet État Spécial.",
+				'es-es': "Tus Pokémon Water no pueden pasar a estar Confundidos. Si esos Pokémon ya están Confundidos, elimina esa Condición Especial.",
+				'it-it': "I tuoi Pokémon Water non possono venire confusi. Se tali Pokémon sono già confusi, rimuovine la condizione speciale.",
+				'pt-br': "Seus Pokémon Water não podem ser Confundidos. Se aqueles Pokémon já estiverem Confusos, remova aquela Condição Especial.",
+				'de-de': "Deine Water-Pokémon können nicht verwirrt werden. Wenn jene Pokémon bereits verwirrt sind, verliert jener Spezielle Zustand seine Wirkung."
 			},
 		},
 	],
@@ -57,20 +57,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Pulse",
-				fr: "Vibraqua",
-				es: "Hidropulso",
-				it: "Idropulsar",
-				pt: "Pulso d’Água",
-				de: "Aquawelle"
+				'en-us': "Water Pulse",
+				'fr-fr': "Vibraqua",
+				'es-es': "Hidropulso",
+				'it-it': "Idropulsar",
+				'pt-br': "Pulso d’Água",
+				'de-de': "Aquawelle"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent’s Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 30,
 
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It drifts in warm seas. It always returns to where it was born, no matter how far it may have drifted.",
+		'en-us': "It drifts in warm seas. It always returns to where it was born, no matter how far it may have drifted.",
 	},
 
 	thirdParty: {

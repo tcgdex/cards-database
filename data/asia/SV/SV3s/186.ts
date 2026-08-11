@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Yveltal"
+		'id-id': "Yveltal"
 	},
 
 	illustrator: "Masako Tomii",
@@ -14,29 +14,29 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Kabarnya ketika hidupnya berakhir, Yveltal menyerap habis nyawa berbagai makhluk hidup dan kembali ke wujud kepompong."
+		'id-id': "Kabarnya ketika hidupnya berakhir, Yveltal menyerap habis nyawa berbagai makhluk hidup dan kembali ke wujud kepompong."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Menebas Turun"
+			'id-id': "Menebas Turun"
 		},
 
 		effect: {
-			id: "Jika Pokémon Bertarung lawan adalah Pokémon Evolusi, kerusakan yang diberikan bertambah sejumlah 60."
+			'id-id': "Jika Pokémon Bertarung lawan adalah Pokémon Evolusi, kerusakan yang diberikan bertambah sejumlah 60."
 		},
 
 		damage: "30+",
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			id: "Dark Edge"
+			'id-id': "Dark Edge"
 		},
 
 		effect: {
-			id: "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
+			'id-id': "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
 		},
 
 		damage: 120,

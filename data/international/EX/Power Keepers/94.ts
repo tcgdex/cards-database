@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Flygon ex",
-		fr: "Libegon ex",
-		de: "Libelldra ex"
+		'en-us': "Flygon ex",
+		'fr-fr': "Libegon ex",
+		'de-de': "Libelldra ex"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vibrava",
-		fr: "Vibraninf"
+		'en-us': "Vibrava",
+		'fr-fr': "Vibraninf"
 	},
 
 	suffix: "ex",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Psychic Protector",
-				fr: "Protecteur psy",
-				de: "Psychoschuss"
+				'en-us': "Psychic Protector",
+				'fr-fr': "Protecteur psy",
+				'de-de': "Psychoschuss"
 			},
 			effect: {
-				en: "If Flygon ex is damaged by an opponent's attack, you may discard up to 4 cards from your hand. If you do, any damage done to Flygon ex is reduced by 10 for each card you discarded.",
-				fr: "Si une attaque de votre adversaire inflige des dégâts à Libegon ex, vous pouvez défausser jusqu'à 4 cartes de votre main. Tous dégâts infligés alors à Libegon ex sont réduits de 10 pour chaque carte défaussée.",
-				de: "Wenn Libelldra ex durch einen gegnerischen Angriff Schadenspunkte erhält, kannst du bis zu 4 karten von deiner Hand auf deinen Ablagestapel legen. Für jede Karte, die du so abgelegt hast, reduziere die Schadenspunkte, die Libelldra ex erhält, um jeweils 10 Schadenspunkte."
+				'en-us': "If Flygon ex is damaged by an opponent's attack, you may discard up to 4 cards from your hand. If you do, any damage done to Flygon ex is reduced by 10 for each card you discarded.",
+				'fr-fr': "Si une attaque de votre adversaire inflige des dégâts à Libegon ex, vous pouvez défausser jusqu'à 4 cartes de votre main. Tous dégâts infligés alors à Libegon ex sont réduits de 10 pour chaque carte défaussée.",
+				'de-de': "Wenn Libelldra ex durch einen gegnerischen Angriff Schadenspunkte erhält, kannst du bis zu 4 karten von deiner Hand auf deinen Ablagestapel legen. Für jede Karte, die du so abgelegt hast, reduziere die Schadenspunkte, die Libelldra ex erhält, um jeweils 10 Schadenspunkte."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slashing Strike",
-				fr: "Coup déchirant",
-				de: "Schlitzender Schlag"
+				'en-us': "Slashing Strike",
+				'fr-fr': "Coup déchirant",
+				'de-de': "Schlitzender Schlag"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Flygon ex can't use Slashing Strike during your next turn.",
-				fr: "Lancez une pièce. Si c'est pile, Libegon ex ne peut pas utiliser Coup déchirant lors de votre prochain tour.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" kann Libelldra ex diesen Angriff in deinem nächsten Zug nicht benutzen."
+				'en-us': "Flip a coin. If tails, Flygon ex can't use Slashing Strike during your next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Libegon ex ne peut pas utiliser Coup déchirant lors de votre prochain tour.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" kann Libelldra ex diesen Angriff in deinem nächsten Zug nicht benutzen."
 			},
 			damage: 70,
 

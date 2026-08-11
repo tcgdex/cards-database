@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アチャモ",
+		'ja-jp': "アチャモ",
 		'zh-tw': "火稚雞",
 		'zh-cn': "火稚雞",
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "お腹に 炎袋を 持つ。 抱きしめると ぽかぽか 温かい。 命ある 限り 燃え続ける。",
+		'ja-jp': "お腹に 炎袋を 持つ。 抱きしめると ぽかぽか 温かい。 命ある 限り 燃え続ける。",
 		'zh-tw': "肚子裡有火袋。 抱在懷裡暖烘烘的很溫暖。 只要生命尚存火焰就會持續燃燒。",
 		'zh-cn': "肚子裡有火袋。 抱在懷裡暖烘烘的很溫暖。 只要生命尚存火焰就會持續燃燒。",
 	},
@@ -25,20 +25,20 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "もってくる",
+				'ja-jp': "もってくる",
 				'zh-tw': "呼喚",
 				'zh-cn': "呼喚",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分の山札を1枚引く。",
+				'ja-jp': "自分の山札を1枚引く。",
 				'zh-tw': "從自己的牌庫抽出1張卡。",
 				'zh-cn': "從自己的牌庫抽出1張卡。",
 			},
 		},
 		{
 			name: {
-				ja: "かえん",
+				'ja-jp': "かえん",
 				'zh-tw': "烈焰",
 				'zh-cn': "烈焰",
 			},

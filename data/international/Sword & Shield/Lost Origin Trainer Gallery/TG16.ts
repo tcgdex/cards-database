@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Lost Origin Trainer Gallery"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pikachu V",
-		fr: "Pikachu V",
-		es: "Pikachu V",
-		it: "Pikachu V",
-		pt: "Pikachu V",
-		de: "Pikachu V"
+		'en-us': "Pikachu V",
+		'fr-fr': "Pikachu V",
+		'es-es': "Pikachu V",
+		'it-it': "Pikachu V",
+		'pt-br': "Pikachu V",
+		'de-de': "Pikachu V"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -26,41 +26,41 @@ const card: Card = {
 		cost: ["Lightning"],
 
 		name: {
-			en: "Charge",
-			fr: "Chargeur",
-			es: "Carga",
-			it: "Sottocarica",
-			pt: "Carga",
-			de: "Ladevorgang"
+			'en-us': "Charge",
+			'fr-fr': "Chargeur",
+			'es-es': "Carga",
+			'it-it': "Sottocarica",
+			'pt-br': "Carga",
+			'de-de': "Ladevorgang"
 		},
 
 		effect: {
-			en: "Search your deck for up to 2 Lightning Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu'à 2 cartes Énergie Lightning, puis attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
-			es: "Busca en tu baraja hasta 2 cartas de Energía Lightning y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
-			it: "Cerca nel tuo mazzo fino a due carte Energia Lightning e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
-			pt: "Procure por até 2 cartas de Energia Lightning no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach bis zu 2 Lightning-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+			'en-us': "Search your deck for up to 2 Lightning Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck jusqu'à 2 cartes Énergie Lightning, puis attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja hasta 2 cartas de Energía Lightning y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo fino a due carte Energia Lightning e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por até 2 cartas de Energia Lightning no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach bis zu 2 Lightning-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			en: "Thunderbolt",
-			fr: "Tonnerre",
-			es: "Rayo",
-			it: "Fulmine",
-			pt: "Relâmpago",
-			de: "Donnerblitz"
+			'en-us': "Thunderbolt",
+			'fr-fr': "Tonnerre",
+			'es-es': "Rayo",
+			'it-it': "Fulmine",
+			'pt-br': "Relâmpago",
+			'de-de': "Donnerblitz"
 		},
 
 		effect: {
-			en: "Discard all Energy from this Pokémon.",
-			fr: "Défaussez toute l'Énergie de ce Pokémon.",
-			es: "Descarta todas las Energías de este Pokémon.",
-			it: "Scarta tutte le Energie da questo Pokémon.",
-			pt: "Descarte todas as Energias deste Pokémon.",
-			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
+			'en-us': "Discard all Energy from this Pokémon.",
+			'fr-fr': "Défaussez toute l'Énergie de ce Pokémon.",
+			'es-es': "Descarta todas las Energías de este Pokémon.",
+			'it-it': "Scarta tutte le Energie da questo Pokémon.",
+			'pt-br': "Descarte todas as Energias deste Pokémon.",
+			'de-de': "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 200

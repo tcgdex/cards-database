@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Carmadura",
-		en: "Armarouge",
-		es: "Armarouge",
-		it: "Armarouge",
-		pt: "Armarouge",
-		de: "Crimanzo"
+		'fr-fr': "Carmadura",
+		'en-us': "Armarouge",
+		'es-es': "Armarouge",
+		'it-it': "Armarouge",
+		'pt-br': "Armarouge",
+		'de-de': "Crimanzo"
   },
   suffix: "EX",
   illustrator: "takuyoa",
@@ -20,12 +20,12 @@ const card: Card = {
   hp: 140,
   types: ["Fire"],
   evolveFrom: {
-		fr: "Charbambin",
-		en: "Charcadet",
-		es: "Charcadet",
-		it: "Charcadet",
-		pt: "Charcadet",
-		de: "Knarbon"
+		'fr-fr': "Charbambin",
+		'en-us': "Charcadet",
+		'es-es': "Charcadet",
+		'it-it': "Charcadet",
+		'pt-br': "Charcadet",
+		'de-de': "Knarbon"
   },
   stage: "Stage1",
   abilities: [
@@ -33,12 +33,12 @@ const card: Card = {
       type: "Ability",
      
 			name: {
-				en: "Armor",
-				fr: "Cuirasse",
-				es: "Armadura",
-				it: "Corazza",
-				pt: "Armadura",
-				de: "Rüstung"
+				'en-us': "Armor",
+				'fr-fr': "Cuirasse",
+				'es-es': "Armadura",
+				'it-it': "Corazza",
+				'pt-br': "Armadura",
+				'de-de': "Rüstung"
 			},
       
       effect: {

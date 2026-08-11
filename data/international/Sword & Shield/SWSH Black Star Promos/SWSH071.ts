@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Scorbunny",
-		fr: "Flambino",
-		es: "Scorbunny",
-		pt: "Scorbunny",
-		de: "Hopplo",
-		it: "Scorbunny"
+		'en-us': "Scorbunny",
+		'fr-fr': "Flambino",
+		'es-es': "Scorbunny",
+		'pt-br': "Scorbunny",
+		'de-de': "Hopplo",
+		'it-it': "Scorbunny"
 	},
 
 	illustrator: "Akira Komayama",
@@ -21,32 +21,32 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Me First",
-			fr: "Moi d'Abord",
-			es: "Yo Primero",
-			pt: "Primeiro Eu",
-			de: "Egotrip",
-			it: "Precedenza"
+			'en-us': "Me First",
+			'fr-fr': "Moi d'Abord",
+			'es-es': "Yo Primero",
+			'pt-br': "Primeiro Eu",
+			'de-de': "Egotrip",
+			'it-it': "Precedenza"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			es: "Roba 1 carta.",
-			pt: "Compre 1 carta.",
-			de: "Ziehe 1 Karte.",
-			it: "Pesca una carta."
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'es-es': "Roba 1 carta.",
+			'pt-br': "Compre 1 carta.",
+			'de-de': "Ziehe 1 Karte.",
+			'it-it': "Pesca una carta."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			en: "Live Coal",
-			fr: "Charbon Mutant",
-			es: "Carbón Activado",
-			pt: "Carvão Vivo",
-			de: "Glühende Kohlen",
-			it: "Carboni Ardenti"
+			'en-us': "Live Coal",
+			'fr-fr': "Charbon Mutant",
+			'es-es': "Carbón Activado",
+			'pt-br': "Carvão Vivo",
+			'de-de': "Glühende Kohlen",
+			'it-it': "Carboni Ardenti"
 		},
 
 		damage: 20,
@@ -61,7 +61,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power."
+		'en-us': "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power."
 	},
 
 	stage: "Basic",

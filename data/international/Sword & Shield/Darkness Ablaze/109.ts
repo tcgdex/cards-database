@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Darkness Ablaze'
 
 const card: Card = {
 	dexId: [634],
 
 	name: {
-		en: "Zweilous",
-		fr: "Diamat",
-		es: "Zweilous",
-		it: "Zweilous",
-		pt: "Zweilous",
-		de: "Duodino"
+		'en-us': "Zweilous",
+		'fr-fr': "Diamat",
+		'es-es': "Zweilous",
+		'it-it': "Zweilous",
+		'pt-br': "Zweilous",
+		'de-de': "Duodino"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -24,12 +24,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Deino",
-		fr: "Solochi",
-		es: "Deino",
-		it: "Deino",
-		pt: "Deino",
-		de: "Kapuno"
+		'en-us': "Deino",
+		'fr-fr': "Solochi",
+		'es-es': "Deino",
+		'it-it': "Deino",
+		'pt-br': "Deino",
+		'de-de': "Kapuno"
 	},
 
 	attacks: [
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Corkscrew Punch",
-				fr: "Poing Tire-Bouchon",
-				es: "Puño Tirabuzón",
-				it: "Pugno Rotante",
-				pt: "Soco Saca-rolha",
-				de: "Korkenzieherhieb"
+				'en-us': "Corkscrew Punch",
+				'fr-fr': "Poing Tire-Bouchon",
+				'es-es': "Puño Tirabuzón",
+				'it-it': "Pugno Rotante",
+				'pt-br': "Soco Saca-rolha",
+				'de-de': "Korkenzieherhieb"
 			},
 
 			damage: 30,
@@ -57,12 +57,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Darkness Fang",
-				fr: "Croc Obscur",
-				es: "Colmillo de Oscuridad",
-				it: "Oscurizanna",
-				pt: "Presa Sombria",
-				de: "Fänge der Dunkelheit"
+				'en-us': "Darkness Fang",
+				'fr-fr': "Croc Obscur",
+				'es-es': "Colmillo de Oscuridad",
+				'it-it': "Oscurizanna",
+				'pt-br': "Presa Sombria",
+				'de-de': "Fänge der Dunkelheit"
 			},
 
 			damage: 70,
@@ -84,7 +84,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "While hunting for prey, Zweilous wanders its territory, its two heads often bickering over which way to go."
+		'en-us': "While hunting for prey, Zweilous wanders its territory, its two heads often bickering over which way to go."
 	},
 
 	variants: [

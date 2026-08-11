@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Journey Together"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Noibat",
-		fr: "Sonistrelle",
-		es: "Noibat",
-		de: "eF-eM",
-		it: "Noibat",
-		pt: "Noibat",
+		'en-us': "Noibat",
+		'fr-fr': "Sonistrelle",
+		'es-es': "Noibat",
+		'de-de': "eF-eM",
+		'it-it': "Noibat",
+		'pt-br': "Noibat",
 		'es-mx': "Noibat"
 	},
 
@@ -25,22 +25,22 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Rapid Draw",
-			fr: "Pioche Rapide",
-			es: "Robo Rápido",
-			de: "Schnellzieher",
-			it: "Pescalesto",
-			pt: "Retirada Rápida",
+			'en-us': "Rapid Draw",
+			'fr-fr': "Pioche Rapide",
+			'es-es': "Robo Rápido",
+			'de-de': "Schnellzieher",
+			'it-it': "Pescalesto",
+			'pt-br': "Retirada Rápida",
 			'es-mx': "Robo Rápido"
 		},
 
 		effect: {
-			en: "Draw a card.",
-			fr: "Piochez une carte.",
-			es: "Roba 1 carta.",
-			de: "Ziehe 1 Karte.",
-			it: "Pesca una carta.",
-			pt: "Compre uma carta.",
+			'en-us': "Draw a card.",
+			'fr-fr': "Piochez une carte.",
+			'es-es': "Roba 1 carta.",
+			'de-de': "Ziehe 1 Karte.",
+			'it-it': "Pesca una carta.",
+			'pt-br': "Compre uma carta.",
 			'es-mx': "Roba 1 carta."
 		},
 

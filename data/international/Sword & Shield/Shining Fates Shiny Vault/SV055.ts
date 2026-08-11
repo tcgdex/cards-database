@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Fates Shiny Vault'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Chapotus",
-		en: "Hattrem",
-		es: "Hattrem",
-		it: "Hattrem",
-		pt: "Hattrem",
-		de: "Brimano"
+		'fr-fr': "Chapotus",
+		'en-us': "Hattrem",
+		'es-es': "Hattrem",
+		'it-it': "Hattrem",
+		'pt-br': "Hattrem",
+		'de-de': "Brimano"
 	},
 
 	illustrator: "Lee HyunJung",
@@ -21,47 +21,47 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		fr: "Bibichut",
-		en: "Hatenna"
+		'fr-fr': "Bibichut",
+		'en-us': "Hatenna"
 	},
 
 	attacks: [{
 		name: {
-			fr: "Plénitude",
-			en: "Calm Mind",
-			es: "Paz Mental",
-			it: "Calmamente",
-			pt: "Mente Calma",
-			de: "Gedankengut"
+			'fr-fr': "Plénitude",
+			'en-us': "Calm Mind",
+			'es-es': "Paz Mental",
+			'it-it': "Calmamente",
+			'pt-br': "Mente Calma",
+			'de-de': "Gedankengut"
 		},
 
 		effect: {
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			en: "Heal 30 damage from this Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			fr: "Centrifugifle",
-			en: "Brutal Swing",
-			es: "Giro Vil",
-			it: "Vorticolpo",
-			pt: "Balanço Violento",
-			de: "Wirbler"
+			'fr-fr': "Centrifugifle",
+			'en-us': "Brutal Swing",
+			'es-es': "Giro Vil",
+			'it-it': "Vorticolpo",
+			'pt-br': "Balanço Violento",
+			'de-de': "Wirbler"
 		},
 
 		effect: {
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
-			en: "Flip a coin. If heads, this attack does 30 more damage.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
-			pt: "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+			'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 30 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 30 danni in più.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 30 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+",
@@ -83,7 +83,7 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "No matter who you are, if you bring strong emotions near this Pokémon, it will silence you violently."
+		'en-us': "No matter who you are, if you bring strong emotions near this Pokémon, it will silence you violently."
 	},
 
 	variants: [

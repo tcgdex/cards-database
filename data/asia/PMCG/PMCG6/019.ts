@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キョウのアーボック",
+		'ja-jp': "キョウのアーボック",
 	},
 	illustrator: "Ken Sugimori",
 
@@ -19,19 +19,19 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "毒物の蓄積",
+				'ja-jp': "毒物の蓄積",
 			},
 			effect: {
-				ja: "コガのアーボックは現在毒されています。",
+				'ja-jp': "コガのアーボックは現在毒されています。",
 			},
 		},
 		{
 			cost: ["Grass", "Grass"],
 			name: {
-				ja: "毒力",
+				'ja-jp': "毒力",
 			},
 			effect: {
-				ja: "KogaのArbokが毒されている場合、この攻撃のベースダメージは20ではなく40であり、防御ポケモンが毒されています。",
+				'ja-jp': "KogaのArbokが毒されている場合、この攻撃のベースダメージは20ではなく40であり、防御ポケモンが毒されています。",
 			},
 			damage: 20,
 		},

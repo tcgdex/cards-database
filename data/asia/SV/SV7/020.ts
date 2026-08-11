@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		'zh-tw': "螢光魚",
 		'zh-cn': "螢光魚",
-		ja: "ケイコウオ"
+		'ja-jp': "ケイコウオ"
 	},
 
 	illustrator: "Yukiko Baba",
@@ -18,7 +18,7 @@ const card: Card = {
 	description: {
 		'zh-tw': "粉紅色的皮膚部分 會儲存太陽光發光。 聽說是用來做保護色的。",
 		'zh-cn': "粉紅色的皮膚部分 會儲存太陽光發光。 聽說是用來做保護色的。",
-		ja: "ピンク色の 皮の 部分は 太陽光を 溜めて 光る。 カモフラージュのためと いわれる。"
+		'ja-jp': "ピンク色の 皮の 部分は 太陽光を 溜めて 光る。 カモフラージュのためと いわれる。"
 	},
 
 	stage: "Basic",
@@ -27,7 +27,7 @@ const card: Card = {
 		name: {
 			'zh-tw': "潑灑清水",
 			'zh-cn': "潑灑清水",
-			ja: "うちみず"
+			'ja-jp': "うちみず"
 		},
 
 		damage: 20,

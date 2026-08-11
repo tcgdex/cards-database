@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コイキング",
+		'ja-jp': "コイキング",
 	},
 
 	illustrator: "sui",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "遥か 大昔は それなりに 強かったが 時が 経つに つれて どんどんどんどん 弱くなっていった。",
+		'ja-jp': "遥か 大昔は それなりに 強かったが 時が 経つに つれて どんどんどんどん 弱くなっていった。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "とうりゅうもん" },
 			cost: ["Water"],
 			effect: {
-				ja: "コインを1回投げオモテなら、このポケモンから進化するカードを、自分のトラッシュから1枚選び、このポケモンにのせて進化させる。",
+				'ja-jp': "コインを1回投げオモテなら、このポケモンから進化するカードを、自分のトラッシュから1枚選び、このポケモンにのせて進化させる。",
 			},
 		},
 	],

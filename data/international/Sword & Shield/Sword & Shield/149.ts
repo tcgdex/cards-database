@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Drampa",
-		fr: "Draïeul",
-		es: "Drampa",
-		it: "Drampa",
-		pt: "Drampa",
-		de: "Sen-Long"
+		'en-us': "Drampa",
+		'fr-fr': "Draïeul",
+		'es-es': "Drampa",
+		'it-it': "Drampa",
+		'pt-br': "Drampa",
+		'de-de': "Sen-Long"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -30,20 +30,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Pulse",
-				fr: "Draco-Choc",
-				es: "Pulso Dragón",
-				it: "Dragopulsar",
-				pt: "Pulso do Dragão",
-				de: "Drachenpuls"
+				'en-us': "Dragon Pulse",
+				'fr-fr': "Draco-Choc",
+				'es-es': "Pulso Dragón",
+				'it-it': "Dragopulsar",
+				'pt-br': "Pulso do Dragão",
+				'de-de': "Drachenpuls"
 			},
 			effect: {
-				en: "Discard the top 2 cards of your deck.",
-				fr: "Défaussez les 2 cartes du dessus de votre deck.",
-				es: "Descarta las 2 primeras cartas de tu baraja.",
-				it: "Scarta le prime due carte del tuo mazzo.",
-				pt: "Descarte as 2 cartas de cima do seu baralho.",
-				de: "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel."
+				'en-us': "Discard the top 2 cards of your deck.",
+				'fr-fr': "Défaussez les 2 cartes du dessus de votre deck.",
+				'es-es': "Descarta las 2 primeras cartas de tu baraja.",
+				'it-it': "Scarta le prime due carte del tuo mazzo.",
+				'pt-br': "Descarte as 2 cartas de cima do seu baralho.",
+				'de-de': "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel."
 			},
 			damage: 80,
 
@@ -68,7 +68,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The mountains it calls home are nearly two miles in height. On rare occasions, it descends to play with the children living in the towns below."
+		'en-us': "The mountains it calls home are nearly two miles in height. On rare occasions, it descends to play with the children living in the towns below."
 	},
 
 	dexId: [780],

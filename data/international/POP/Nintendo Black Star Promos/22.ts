@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Nintendo Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Beldum",
+		'en-us': "Beldum",
 	},
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
@@ -24,10 +24,10 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Magnetic Call",
+				'en-us': "Magnetic Call",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a Metal Basic Pokémon and put it onto your Bench. Shuffle your deck afterward. This power can't be used if Beldum is affected by a Special Condition.",
+				'en-us': "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a Metal Basic Pokémon and put it onto your Bench. Shuffle your deck afterward. This power can't be used if Beldum is affected by a Special Condition.",
 			},
 		},
 	],
@@ -38,10 +38,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Charge",
+				'en-us': "Metal Charge",
 			},
 			effect: {
-				en: "Put 1 damage counter on Beldum.",
+				'en-us': "Put 1 damage counter on Beldum.",
 			},
 			damage: 30,
 

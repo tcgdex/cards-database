@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [82],
 
 	name: {
-		en: "Magneton"
+		'en-us': "Magneton"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -17,25 +17,25 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Magnemite"
+		'en-us': "Magnemite"
 	},
 
 	description: {
-		en: "Three Magnemite are linked by a strong magnetic\nforce. Earaches will occur if you get too close."
+		'en-us': "Three Magnemite are linked by a strong magnetic\nforce. Earaches will occur if you get too close."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Spark"
+			'en-us': "Spark"
 		},
 
 		damage: 20,
 		cost: ["Lightning"],
 
 		effect: {
-			en: "This attack also does 20 damage to 1 of your opponent's Benched Pokémon."
+			'en-us': "This attack also does 20 damage to 1 of your opponent's Benched Pokémon."
 		}
 	}],
 

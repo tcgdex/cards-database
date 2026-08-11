@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM10b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カプ・レヒレ",
+		'ja-jp': "カプ・レヒレ",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "深い 霧の 奥に 棲んでいると 恐れ 敬われてきた。 水を 操る ポニの 守り神だ。",
+		'ja-jp': "深い 霧の 奥に 棲んでいると 恐れ 敬われてきた。 水を 操る ポニの 守り神だ。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "このワザは、相手の場に「ウルトラビースト」がいるなら、【無】エネルギー1個で使える。",
+				'ja-jp': "このワザは、相手の場に「ウルトラビースト」がいるなら、【無】エネルギー1個で使える。",
 			},
 		},
 	],

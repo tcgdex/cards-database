@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Heat Rotom",
-		fr: "Motisma Chaleur",
-		es: "Rotom Calor",
-		it: "Rotom Calore",
-		pt: "Rotom Calor",
-		de: "Hitze-Rotom"
+		'en-us': "Heat Rotom",
+		'fr-fr': "Motisma Chaleur",
+		'es-es': "Rotom Calor",
+		'it-it': "Rotom Calore",
+		'pt-br': "Rotom Calor",
+		'de-de': "Hitze-Rotom"
 	},
 
 	rarity: "Rare",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Fire", "Fire"],
 
 		name: {
-			en: "Heat Tackle",
-			fr: "Charge Énergétique",
-			es: "Placaje Ardiente",
-			it: "Calorazione",
-			pt: "Golpe de Colisão Aquecido",
-			de: "Hitze-Tackle"
+			'en-us': "Heat Tackle",
+			'fr-fr': "Charge Énergétique",
+			'es-es': "Placaje Ardiente",
+			'it-it': "Calorazione",
+			'pt-br': "Golpe de Colisão Aquecido",
+			'de-de': "Hitze-Tackle"
 		},
 
 		effect: {
-			en: "This Pokémon also does 40 damage to itself.",
-			fr: "Ce Pokémon s'inflige aussi 40 dégâts.",
-			es: "Este Pokémon también se hace 40 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 40 danni a se stesso.",
-			pt: "Este Pokémon também causa 40 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 40 Schadenspunkte zu."
+			'en-us': "This Pokémon also does 40 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 40 dégâts.",
+			'es-es': "Este Pokémon también se hace 40 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 40 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 40 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 40 Schadenspunkte zu."
 		},
 
 		damage: 100
@@ -75,7 +75,7 @@ const card: Card = {
 	illustrator: "Scav",
 
 	description: {
-		en: "If the convection microwave oven is not working properly, then the Rotom inhabiting it will become lethargic.",
+		'en-us': "If the convection microwave oven is not working properly, then the Rotom inhabiting it will become lethargic.",
 	},
 
 }

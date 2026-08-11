@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "レジスチル",
+		'ja-jp': "レジスチル",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "どんな 金属よりも 硬いと 言われる 体。 調査の 結果 体の 中は 空洞だった。",
+		'ja-jp': "どんな 金属よりも 硬いと 言われる 体。 調査の 結果 体の 中は 空洞だった。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "かたいからだ" },
 			effect: {
-				ja: "このポケモンが受けるワザのダメージは「-20」される。",
+				'ja-jp': "このポケモンが受けるワザのダメージは「-20」される。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Metal", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンが特性を持っているなら、60ダメージ追加。",
+				'ja-jp': "相手のバトルポケモンが特性を持っているなら、60ダメージ追加。",
 			},
 		},
 	],

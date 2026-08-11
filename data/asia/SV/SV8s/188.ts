@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Ceruledge"
+		'id-id': "Ceruledge"
 	},
 
 	illustrator: "Rond",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		id: "Wujud evolusi Charcadet menjadi Ceruledge oleh zirah kuno yang diselimuti dendam. Pokémon ini menebas musuhnya tanpa ampun."
+		'id-id': "Wujud evolusi Charcadet menjadi Ceruledge oleh zirah kuno yang diselimuti dendam. Pokémon ini menebas musuhnya tanpa ampun."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Blaze Curse"
+			'id-id': "Blaze Curse"
 		},
 
 		effect: {
-			id: "Buang semua Energi Spesial yang dikenakan pada semua Pokémon lawan ke Trash."
+			'id-id': "Buang semua Energi Spesial yang dikenakan pada semua Pokémon lawan ke Trash."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "Sabetan Api Hitam"
+			'id-id': "Sabetan Api Hitam"
 		},
 
 		effect: {
-			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
 		},
 
 		damage: 160,

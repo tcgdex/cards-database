@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
     set: Set,
 
 	name: {
-		en: "Paldean Wooper",
-		fr: "Axoloto de Paldea",
-		es: "Wooper de Paldea",
+		'en-us': "Paldean Wooper",
+		'fr-fr': "Axoloto de Paldea",
+		'es-es': "Wooper de Paldea",
 		'es-mx': "Wooper de Paldea",
-		de: "Paldea-Felino",
-		it: "Wooper di Paldea",
-		pt: "Wooper de Paldea"
+		'de-de': "Paldea-Felino",
+		'it-it': "Wooper di Paldea",
+		'pt-br': "Wooper de Paldea"
 	},
 
     illustrator: "Miki Tanaka",
@@ -31,9 +31,9 @@ const card: Card = {
     attacks: [
         {
 			name: {
-				en: "Flop",
-				fr: "Flop",
-				de: "Flop"
+				'en-us': "Flop",
+				'fr-fr': "Flop",
+				'de-de': "Flop"
 			},
             damage: "40",
             cost: ["Darkness", "Colorless"],

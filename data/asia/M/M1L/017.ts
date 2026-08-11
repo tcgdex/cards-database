@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M1L";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エースバーン",
+		'ja-jp': "エースバーン",
 	},
 
 	illustrator: "REND",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "熱くなりやすい 性格だが 信頼する トレーナーが いると 隙のない 戦い方を みせる。",
+		'ja-jp': "熱くなりやすい 性格だが 信頼する トレーナーが いると 隙のない 戦い方を みせる。",
 	},
 
 	stage: "Stage2",
@@ -28,7 +28,7 @@ const card: Card = {
 	variants: [{"type": "holo"}],
 
 	evolveFrom: {
-		ja: "ラビフット",
+		'ja-jp': "ラビフット",
 	},
 
 	retreat: 0,

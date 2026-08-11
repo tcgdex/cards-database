@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [231],
 
 	name: {
-		en: "Phanpy",
-		fr: "Phanpy",
-		es: "Phanpy",
-		it: "Phanpy",
-		pt: "Phanpy",
-		de: "Phanpy"
+		'en-us': "Phanpy",
+		'fr-fr': "Phanpy",
+		'es-es': "Phanpy",
+		'it-it': "Phanpy",
+		'pt-br': "Phanpy",
+		'de-de': "Phanpy"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Stampede",
-				fr: "Ruée",
-				es: "Estampida",
-				it: "Fuggi Fuggi",
-				pt: "Estouro",
-				de: "Zertrampeln"
+				'en-us': "Stampede",
+				'fr-fr': "Ruée",
+				'es-es': "Estampida",
+				'it-it': "Fuggi Fuggi",
+				'pt-br': "Estouro",
+				'de-de': "Zertrampeln"
 			},
 
 			damage: 10,
@@ -46,20 +46,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strike Back",
-				fr: "Vengeur",
-				es: "Contraimpacto",
-				it: "Risposta",
-				pt: "Revidar",
-				de: "Kontern"
+				'en-us': "Strike Back",
+				'fr-fr': "Vengeur",
+				'es-es': "Contraimpacto",
+				'it-it': "Risposta",
+				'pt-br': "Revidar",
+				'de-de': "Kontern"
 			},
 			effect: {
-				en: "This attack does 30 damage for each damage counter on this Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
-				es: "Este ataque hace 30 puntos de daño por cada contador de daño en este Pokémon.",
-				it: "Questo attacco infligge 30 danni per ogni segnalino danno presente su questo Pokémon.",
-				pt: "Este ataque causa 30 pontos de dano para cada contador de dano neste Pokémon.",
-				de: "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 30 Schadenspunkte zu."
+				'en-us': "This attack does 30 damage for each damage counter on this Pokémon.",
+				'fr-fr': "Cette attaque inflige 30 dégâts pour chaque marqueur de dégâts sur ce Pokémon.",
+				'es-es': "Este ataque hace 30 puntos de daño por cada contador de daño en este Pokémon.",
+				'it-it': "Questo attacco infligge 30 danni per ogni segnalino danno presente su questo Pokémon.",
+				'pt-br': "Este ataque causa 30 pontos de dano para cada contador de dano neste Pokémon.",
+				'de-de': "Diese Attacke fügt für jede Schadensmarke auf diesem Pokémon 30 Schadenspunkte zu."
 			},
 			damage: "30×",
 
@@ -80,7 +80,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It is strong despite its compact size. It can easily pick up and carry an adult human on its back."
+		'en-us': "It is strong despite its compact size. It can easily pick up and carry an adult human on its back."
 	},
 
 	variants: [

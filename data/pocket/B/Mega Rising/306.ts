@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hypno"
+		'en-us': "Hypno"
 	},
 
 	illustrator: "Taiga Kasai",
@@ -17,11 +17,11 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Drowzee"
+		'en-us': "Drowzee"
 	},
 
 	description: {
-		en: "When it locks eyes with an enemy, it will use\na mix of psi moves, such as Hypnosis and\nConfusion."
+		'en-us': "When it locks eyes with an enemy, it will use\na mix of psi moves, such as Hypnosis and\nConfusion."
 	},
 
 	stage: "Stage1",
@@ -30,17 +30,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Sleep Pendulum"
+			'en-us': "Sleep Pendulum"
 		},
 
 		effect: {
-			en: "Once during your turn, you may flip a coin. If heads, your opponent's Active Pokémon is now Asleep."
+			'en-us': "Once during your turn, you may flip a coin. If heads, your opponent's Active Pokémon is now Asleep."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Psypunch"
+			'en-us': "Psypunch"
 		},
 
 		damage: 50,

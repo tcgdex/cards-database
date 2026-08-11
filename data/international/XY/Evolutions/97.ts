@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "Darkness Energy",
-		fr: "Énergie Obscurité",
-		es: "Energía Oscura",
-		it: "Energia Oscurità",
-		pt: "Energia de Escuridão",
-		de: "Finsternis-Energie"
+		'en-us': "Darkness Energy",
+		'fr-fr': "Énergie Obscurité",
+		'es-es': "Energía Oscura",
+		'it-it': "Energia Oscurità",
+		'pt-br': "Energia de Escuridão",
+		'de-de': "Finsternis-Energie"
 	},
 
 	rarity: "Common",

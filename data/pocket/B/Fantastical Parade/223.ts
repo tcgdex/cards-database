@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [236],
 
 	name: {
-		en: "Tyrogue"
+		'en-us': "Tyrogue"
 	},
 
 	illustrator: "Nisota Niso",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "It is always bursting with energy. To make itself\nstronger, it keeps on fighting even if it loses."
+		'en-us': "It is always bursting with energy. To make itself\nstronger, it keeps on fighting even if it loses."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Slappy Knuckle"
+			'en-us': "Slappy Knuckle"
 		},
 
 		damage: 20

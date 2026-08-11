@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Dunsparce",
-		fr: "Insolourdo",
-		es: "Dunsparce",
-		it: "Dunsparce",
-		pt: "Dunsparce",
-		de: "Dummisel"
+		'en-us': "Dunsparce",
+		'fr-fr': "Insolourdo",
+		'es-es': "Dunsparce",
+		'it-it': "Dunsparce",
+		'pt-br': "Dunsparce",
+		'de-de': "Dummisel"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Draw",
-				fr: "Double Pioche",
+				'en-us': "Double Draw",
+				'fr-fr': "Double Pioche",
 			},
 			effect: {
-				en: "Draw 2 cards.",
-				fr: "Piochez 2 cartes.",
+				'en-us': "Draw 2 cards.",
+				'fr-fr': "Piochez 2 cartes.",
 			},
 
 		},
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dig",
-				fr: "Tunnel",
+				'en-us': "Dig",
+				'fr-fr': "Tunnel",
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
+				'en-us': "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
 			},
 			damage: 10,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It creates mazes in dark locations. When spotted, it flees into the ground by digging with its tail.",
+		'en-us': "It creates mazes in dark locations. When spotted, it flees into the ground by digging with its tail.",
 	},
 
 	thirdParty: {

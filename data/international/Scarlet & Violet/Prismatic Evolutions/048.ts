@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pupitar",
-		fr: "Ymphect",
-		es: "Pupitar",
-		pt: "Pupitar",
-		it: "Pupitar",
-		de: "Pupitar"
+		'en-us': "Pupitar",
+		'fr-fr': "Ymphect",
+		'es-es': "Pupitar",
+		'pt-br': "Pupitar",
+		'it-it': "Pupitar",
+		'de-de': "Pupitar"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Fighting"],
 	evolveFrom: {
-		en: "Larvitar",
-		fr: "Embrylex",
-		es: "Larvitar",
-		pt: "Larvitar",
-		it: "Larvitar",
-		de: "Larvitar"
+		'en-us': "Larvitar",
+		'fr-fr': "Embrylex",
+		'es-es': "Larvitar",
+		'pt-br': "Larvitar",
+		'it-it': "Larvitar",
+		'de-de': "Larvitar"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Sand Spray",
-			fr: "Jet Sableux",
-			es: "Rociado de Arena",
-			pt: "Spray de Areia",
-			it: "Silicospruzzo",
-			de: "Sandspray"
+			'en-us': "Sand Spray",
+			'fr-fr': "Jet Sableux",
+			'es-es': "Rociado de Arena",
+			'pt-br': "Spray de Areia",
+			'it-it': "Silicospruzzo",
+			'de-de': "Sandspray"
 		},
 
 		damage: 20
@@ -45,12 +45,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		name: {
-			en: "Hammer In",
-			fr: "Enfoncement",
-			es: "Martillear",
-			pt: "Martelada",
-			it: "Martello",
-			de: "Einhämmern"
+			'en-us': "Hammer In",
+			'fr-fr': "Enfoncement",
+			'es-es': "Martillear",
+			'pt-br': "Martelada",
+			'it-it': "Martello",
+			'de-de': "Einhämmern"
 		},
 
 		damage: 60

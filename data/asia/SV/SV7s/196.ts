@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV7s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "โบรโรโรมex"
+		'th-th': "โบรโรโรมex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -17,22 +17,22 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			th: "แอกเซลแฟลช"
+			'th-th': "แอกเซลแฟลช"
 		},
 
 		effect: {
-			th: "เทิร์นนี้ ถ้าโปเกมอนนี้ออกจากเบนช์มาที่ตำแหน่งต่อสู้ การโจมตีนี้จะเพิ่มแดเมจอีก 120"
+			'th-th': "เทิร์นนี้ ถ้าโปเกมอนนี้ออกจากเบนช์มาที่ตำแหน่งต่อสู้ การโจมตีนี้จะเพิ่มแดเมจอีก 120"
 		},
 
 		damage: "20+",
 		cost: ["Metal"]
 	}, {
 		name: {
-			th: "สปีดเบรก"
+			'th-th': "สปีดเบรก"
 		},
 
 		effect: {
-			th: "ทิ้งโปเกมอนนี้ และการ์ดทั้งหมดที่ติดอยู่ ที่ตำแหน่งทิ้งการ์ด"
+			'th-th': "ทิ้งโปเกมอนนี้ และการ์ดทั้งหมดที่ติดอยู่ ที่ตำแหน่งทิ้งการ์ด"
 		},
 
 		damage: 250,

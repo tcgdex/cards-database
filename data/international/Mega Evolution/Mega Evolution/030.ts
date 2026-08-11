@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Centiskorch",
-		fr: "Scolocendre",
-		de: "Infernopod",
-		it: "Centiskorch",
-		es: "Centiskorch",
-		pt: "Centiskorch",
+		'en-us': "Centiskorch",
+		'fr-fr': "Scolocendre",
+		'de-de': "Infernopod",
+		'it-it': "Centiskorch",
+		'es-es': "Centiskorch",
+		'pt-br': "Centiskorch",
 		'es-mx': "Centiskorch"
 	},
 
@@ -20,12 +20,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Fire"],
 	evolveFrom: {
-		en: "Sizzlipede",
-		fr: "Grillepattes",
-		de: "Thermopod",
-		it: "Sizzlipede",
-		es: "Sizzlipede",
-		pt: "Sizzlipede",
+		'en-us': "Sizzlipede",
+		'fr-fr': "Grillepattes",
+		'de-de': "Thermopod",
+		'it-it': "Sizzlipede",
+		'es-es': "Sizzlipede",
+		'pt-br': "Sizzlipede",
 		'es-mx': "Sizzlipede"
 	},
 	stage: "Stage1",
@@ -35,22 +35,22 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Coiling Crush",
-			fr: "Enroulement Écrasant",
-			de: "Quetscherschlinge",
-			it: "Distruzione Avvolgente",
-			es: "Aplastamiento en Espiral",
-			pt: "Torção Triturante",
+			'en-us': "Coiling Crush",
+			'fr-fr': "Enroulement Écrasant",
+			'de-de': "Quetscherschlinge",
+			'it-it': "Distruzione Avvolgente",
+			'es-es': "Aplastamiento en Espiral",
+			'pt-br': "Torção Triturante",
 			'es-mx': "Enrosque Aniquilador"
 		},
 
 		effect: {
-			en: "Flip 2 coins. For each heads, discard an Energy from your opponent's Active Pokémon.",
-			fr: "Lancez 2 pièces. Pour chaque côté face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
-			de: "Wirf 2 Münzen. Lege pro Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
-			it: "Lancia due volte una moneta. Ogni volta che esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
-			es: "Lanza 2 monedas. Por cada cara, descarta 1 Energía del Pokémon Activo de tu rival.",
-			pt: "Jogue 2 moedas. Para cada cara, descarte uma Energia do Pokémon Ativo do seu oponente.",
+			'en-us': "Flip 2 coins. For each heads, discard an Energy from your opponent's Active Pokémon.",
+			'fr-fr': "Lancez 2 pièces. Pour chaque côté face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			'de-de': "Wirf 2 Münzen. Lege pro Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+			'it-it': "Lancia due volte una moneta. Ogni volta che esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			'es-es': "Lanza 2 monedas. Por cada cara, descarta 1 Energía del Pokémon Activo de tu rival.",
+			'pt-br': "Jogue 2 moedas. Para cada cara, descarte uma Energia do Pokémon Ativo do seu oponente.",
 			'es-mx': "Lanza 2 monedas. Por cada cara, descarta 1 Energía del Pokémon Activo de tu rival."
 		},
 
@@ -59,12 +59,12 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless", "Colorless"],
 
 		name: {
-			en: "Heat Crawler",
-			fr: "Mille-Pattes Brûlant",
-			de: "Hitzekrabbler",
-			it: "Arrampicalore",
-			es: "Serpenteo Candente",
-			pt: "Calor Rastejante",
+			'en-us': "Heat Crawler",
+			'fr-fr': "Mille-Pattes Brûlant",
+			'de-de': "Hitzekrabbler",
+			'it-it': "Arrampicalore",
+			'es-es': "Serpenteo Candente",
+			'pt-br': "Calor Rastejante",
 			'es-mx': "Arrastre Ígneo"
 		},
 

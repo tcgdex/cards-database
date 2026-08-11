@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Temporal Forces"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Torterra ex",
-		fr: "Torterra-ex",
-		es: "Torterra ex",
-		it: "Torterra-ex",
-		pt: "Torterra ex",
-		de: "Chelterrar-ex"
+		'en-us': "Torterra ex",
+		'fr-fr': "Torterra-ex",
+		'es-es': "Torterra ex",
+		'it-it': "Torterra-ex",
+		'pt-br': "Torterra ex",
+		'de-de': "Chelterrar-ex"
 	},
 
 	rarity: "Ultra Rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 340,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Grotle",
-		fr: "Boskara",
-		es: "Grotle",
-		it: "Grotle",
-		pt: "Grotle",
-		de: "Chelcarain"
+		'en-us': "Grotle",
+		'fr-fr': "Boskara",
+		'es-es': "Grotle",
+		'it-it': "Grotle",
+		'pt-br': "Grotle",
+		'de-de': "Chelcarain"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Grass"],
 
 		name: {
-			en: "Forest March",
-			fr: "Marche Sylvestre",
-			es: "Marcha Forestal",
-			it: "Marcia Forestale",
-			pt: "Marcha Florestal",
-			de: "Waldwanderung"
+			'en-us': "Forest March",
+			'fr-fr': "Marche Sylvestre",
+			'es-es': "Marcha Forestal",
+			'it-it': "Marcia Forestale",
+			'pt-br': "Marcha Florestal",
+			'de-de': "Waldwanderung"
 		},
 
 		effect: {
-			en: "This attack does 30 damage for each of your {G} Pokémon in play.",
-			fr: "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon {G} en jeu.",
-			es: "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon {G} en juego.",
-			it: "Questo attacco infligge 30 danni per ogni tuo Pokémon {G} in gioco.",
-			pt: "Este ataque causa 30 pontos de dano para cada um dos seus Pokémon {G} em jogo.",
-			de: "Diese Attacke fügt für jedes deiner {G}-Pokémon im Spiel 30 Schadenspunkte zu."
+			'en-us': "This attack does 30 damage for each of your {G} Pokémon in play.",
+			'fr-fr': "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon {G} en jeu.",
+			'es-es': "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon {G} en juego.",
+			'it-it': "Questo attacco infligge 30 danni per ogni tuo Pokémon {G} in gioco.",
+			'pt-br': "Este ataque causa 30 pontos de dano para cada um dos seus Pokémon {G} em jogo.",
+			'de-de': "Diese Attacke fügt für jedes deiner {G}-Pokémon im Spiel 30 Schadenspunkte zu."
 		},
 
 		damage: "30×"
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Jungle Hammer",
-			fr: "Marteau Végétal",
-			es: "Martillo Selva",
-			it: "Martelgiungla",
-			pt: "Martelo da Selva",
-			de: "Dschungel-Hammer"
+			'en-us': "Jungle Hammer",
+			'fr-fr': "Marteau Végétal",
+			'es-es': "Martillo Selva",
+			'it-it': "Martelgiungla",
+			'pt-br': "Martelo da Selva",
+			'de-de': "Dschungel-Hammer"
 		},
 
 		effect: {
-			en: "Heal 50 damage from this Pokémon.",
-			fr: "Soignez 50 dégâts de ce Pokémon.",
-			es: "Cura 50 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 50 danni.",
-			pt: "Cure 50 pontos de dano deste Pokémon.",
-			de: "Heile 50 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 50 damage from this Pokémon.",
+			'fr-fr': "Soignez 50 dégâts de ce Pokémon.",
+			'es-es': "Cura 50 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 50 danni.",
+			'pt-br': "Cure 50 pontos de dano deste Pokémon.",
+			'de-de': "Heile 50 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 150

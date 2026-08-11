@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
 
 name: {
-		en: "Snivy",
-		fr: "Vipélierre",
-		es: "Snivy",
+		'en-us': "Snivy",
+		'fr-fr': "Vipélierre",
+		'es-es': "Snivy",
 		'es-mx': "Snivy",
-		de: "Serpifeu",
-		it: "Snivy",
-		pt: "Snivy"
+		'de-de': "Serpifeu",
+		'it-it': "Snivy",
+		'pt-br': "Snivy"
 	},
 
 	illustrator: "Saboteri",
@@ -26,13 +26,13 @@ name: {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Vine Whip",
-			fr: "Fouet Lianes",
-			es: "Látigo Cepa",
+			'en-us': "Vine Whip",
+			'fr-fr': "Fouet Lianes",
+			'es-es': "Látigo Cepa",
 			'es-mx': "Látigo Cepa",
-			de: "Rankenhieb",
-			it: "Frustata",
-			pt: "Chicote de Vinha"
+			'de-de': "Rankenhieb",
+			'it-it': "Frustata",
+			'pt-br': "Chicote de Vinha"
 		},
 
 		damage: 20

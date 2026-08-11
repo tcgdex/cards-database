@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブーバー",
+		'ja-jp': "ブーバー",
 		'zh-tw': "鴨嘴火獸",
-		th: "บูเบอร์",
+		'th-th': "บูเบอร์",
 	},
 
 	illustrator: "Shinji Kanda",
@@ -15,9 +15,9 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "炎で 獲物を しとめる。 ついつい 焼きすぎて 黒コゲに してしまい 後悔する。",
+		'ja-jp': "炎で 獲物を しとめる。 ついつい 焼きすぎて 黒コゲに してしまい 後悔する。",
 		'zh-tw': "會用火焰解決獵物。但是一不留神就會把獵物 燒得太焦，然後才後悔。",
-		th: "จัดการเหยื่อด้วยเปลวเพลิง เผลอทีไรก็จะเผาเสียจนไหม้เกรียมและรู้สึกเสียใจภายหลัง",
+		'th-th': "จัดการเหยื่อด้วยเปลวเพลิง เผลอทีไรก็จะเผาเสียจนไหม้เกรียมและรู้สึกเสียใจภายหลัง",
 	},
 
 	stage: "Basic",
@@ -25,18 +25,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "けたぐり",
+				'ja-jp': "けたぐり",
 				'zh-tw': "踢倒",
-				th: "เตะเลียด",
+				'th-th': "เตะเลียด",
 			},
 			damage: 20,
 			cost: ["Colorless", "Colorless"],
 		},
 		{
 			name: {
-				ja: "ほのおパンチ",
+				'ja-jp': "ほのおパンチ",
 				'zh-tw': "火拳",
-				th: "หมัดอัคคี",
+				'th-th': "หมัดอัคคี",
 			},
 			damage: 70,
 			cost: ["Fire", "Fire", "Colorless"],

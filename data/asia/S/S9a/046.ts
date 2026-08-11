@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "劈斧螳螂",
-		ja: "バサギリ"
+		'ja-jp': "バサギリ"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "用堅硬的岩石守護己身，以粗獷的斧頭砍倒大樹。性情暴躁易怒。要是 在荒野遇見牠，逃跑將是唯一選擇。",
-		ja: "硬き岩で 身を守り 無骨な 斧は 大木を 切り倒す。 気性 荒々しく 荒地にて 遭遇しときは 逃げの一手。"
+		'ja-jp': "硬き岩で 身を守り 無骨な 斧は 大木を 切り倒す。 気性 荒々しく 荒地にて 遭遇しときは 逃げの一手。"
 	},
 
 	stage: "Stage1",
@@ -24,24 +24,24 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "大樹斬",
-			ja: "たいぼくぎり"
+			'ja-jp': "たいぼくぎり"
 		},
 
 		effect: {
 			'zh-tw': "擲2次硬幣，若全部為正面，則將對手的戰鬥寶可夢【氣絕】。",
-			ja: "コインを2回投げ、すべてオモテなら、相手のバトルポケモンをきぜつさせる。"
+			'ja-jp': "コインを2回投げ、すべてオモテなら、相手のバトルポケモンをきぜつさせる。"
 		},
 
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
 			'zh-tw': "暴亂衝撞",
-			ja: "あばれタックル"
+			'ja-jp': "あばれタックル"
 		},
 
 		effect: {
 			'zh-tw': "這隻寶可夢也受到30點傷害。",
-			ja: "このポケモンにも30ダメージ。"
+			'ja-jp': "このポケモンにも30ダメージ。"
 		},
 
 		damage: 120,

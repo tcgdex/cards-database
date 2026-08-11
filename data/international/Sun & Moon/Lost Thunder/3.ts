@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Lost Thunder'
 
 const card: Card = {
 	name: {
-		en: "Scyther",
-		fr: "Insécateur",
-		es: "Scyther",
-		it: "Scyther",
-		pt: "Scyther",
-		de: "Sichlor"
+		'en-us': "Scyther",
+		'fr-fr': "Insécateur",
+		'es-es': "Scyther",
+		'it-it': "Scyther",
+		'pt-br': "Scyther",
+		'de-de': "Sichlor"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Cutter",
-				fr: "Taillade",
-				es: "Corte Furia",
-				it: "Tagliofuria",
-				pt: "Cortador de Fúria",
-				de: "Zornklinge"
+				'en-us': "Fury Cutter",
+				'fr-fr': "Taillade",
+				'es-es': "Corte Furia",
+				'it-it': "Tagliofuria",
+				'pt-br': "Cortador de Fúria",
+				'de-de': "Zornklinge"
 			},
 			effect: {
-				en: "Flip 3 coins. If 1 of them is heads, this attack does 20 more damage. If 2 of them are heads, this attack does 50 more damage. If all of them are heads, this attack does 70 more damage.",
-				fr: "Lancez 3 pièces. S’il n’y a qu’un côté face, cette attaque inflige 20 dégâts supplémentaires. S’il y a 2 côtés face, cette attaque inflige 50 dégâts supplémentaires. S’il y a 3 côtés face, cette attaque inflige 70 dégâts supplémentaires.",
-				es: "Lanza 3 monedas. Si sale cara en 1 de ellas, este ataque hace 20 puntos de daño más. Si sale cara en 2, hace 50 puntos de daño más. Si sale cara en las 3, hace 70 puntos de daño más.",
-				it: "Lancia tre volte una moneta. Se esce testa una sola volta, questo attacco infligge 20 danni in più. Se esce testa due volte, ne infligge 50 in più, e se esce testa tutte e tre le volte, ben 70 in più.",
-				pt: "Jogue 3 moedas. Se 1 delas sair cara, este ataque causará 20 pontos de dano a mais. Se 2 delas saírem cara, este ataque causará 50 pontos de dano a mais. Se todas saírem cara, este ataque causará 70 pontos de dano a mais.",
-				de: "Wirf 3 Münzen. Zeigt 1 davon Kopf, fügt diese Attacke 20 Schadenspunkte mehr zu. Zeigen 2 davon Kopf, fügt diese Attacke 50 Schadenspunkte mehr zu. Zeigen alle Münzen Kopf, fügt diese Attacke 70 Schadenspunkte mehr zu."
+				'en-us': "Flip 3 coins. If 1 of them is heads, this attack does 20 more damage. If 2 of them are heads, this attack does 50 more damage. If all of them are heads, this attack does 70 more damage.",
+				'fr-fr': "Lancez 3 pièces. S’il n’y a qu’un côté face, cette attaque inflige 20 dégâts supplémentaires. S’il y a 2 côtés face, cette attaque inflige 50 dégâts supplémentaires. S’il y a 3 côtés face, cette attaque inflige 70 dégâts supplémentaires.",
+				'es-es': "Lanza 3 monedas. Si sale cara en 1 de ellas, este ataque hace 20 puntos de daño más. Si sale cara en 2, hace 50 puntos de daño más. Si sale cara en las 3, hace 70 puntos de daño más.",
+				'it-it': "Lancia tre volte una moneta. Se esce testa una sola volta, questo attacco infligge 20 danni in più. Se esce testa due volte, ne infligge 50 in più, e se esce testa tutte e tre le volte, ben 70 in più.",
+				'pt-br': "Jogue 3 moedas. Se 1 delas sair cara, este ataque causará 20 pontos de dano a mais. Se 2 delas saírem cara, este ataque causará 50 pontos de dano a mais. Se todas saírem cara, este ataque causará 70 pontos de dano a mais.",
+				'de-de': "Wirf 3 Münzen. Zeigt 1 davon Kopf, fügt diese Attacke 20 Schadenspunkte mehr zu. Zeigen 2 davon Kopf, fügt diese Attacke 50 Schadenspunkte mehr zu. Zeigen alle Münzen Kopf, fügt diese Attacke 70 Schadenspunkte mehr zu."
 			},
 			damage: "10+",
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "While young, they live together deep in the mountains, training themselves in how to fight with their scythes and move at high speeds.",
+		'en-us': "While young, they live together deep in the mountains, training themselves in how to fight with their scythes and move at high speeds.",
 	},
 
 	thirdParty: {

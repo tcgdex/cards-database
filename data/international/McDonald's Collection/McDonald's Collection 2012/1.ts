@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2012'
 
 const card: Card = {
@@ -9,35 +9,35 @@ const card: Card = {
 	dexId: [496],
 
 	description: {
-		en: "They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques."
+		'en-us': "They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Wrap",
-			fr: "Ligotage"
+			'en-us': "Wrap",
+			'fr-fr': "Ligotage"
 		},
 
 		damage: 20,
 
 		effect: {
-			en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+			'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 		}
 	}, {
 		name: {
-			en: "Tackle",
-			fr: "Charge"
+			'en-us': "Tackle",
+			'fr-fr': "Charge"
 		},
 
 		damage: 30
 	}],
 
 	name: {
-		en: "Servine",
-		fr: "Lianaja"
+		'en-us': "Servine",
+		'fr-fr': "Lianaja"
 	},
 
 	rarity: "None",

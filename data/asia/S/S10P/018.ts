@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラブカス",
+		'ja-jp': "ラブカス",
 		'zh-tw': "愛心魚",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "暖かい 海の サンゴ礁が 棲み処。 サニーゴの枝の 間で 眠るのが 特に お気に入り。",
+		'ja-jp': "暖かい 海の サンゴ礁が 棲み処。 サニーゴの枝の 間で 眠るのが 特に お気に入り。",
 		'zh-tw': "溫暖海域的珊瑚礁是 牠的棲息地。最喜歡在 太陽珊瑚的枝條間睡覺。",
 	},
 
@@ -23,18 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ペアルック",
+				'ja-jp': "ペアルック",
 				'zh-tw': "情侶裝",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "おたがいのプレイヤーは、それぞれの山札からカードを2枚、オモテを見せ合いながら引く。",
+				'ja-jp': "おたがいのプレイヤーは、それぞれの山札からカードを2枚、オモテを見せ合いながら引く。",
 				'zh-tw': "雙方玩家一邊從各自的牌庫抽出2張卡，一邊互看正面。",
 			},
 		},
 		{
 			name: {
-				ja: "たいあたり",
+				'ja-jp': "たいあたり",
 				'zh-tw': "撞擊",
 			},
 			damage: 30,

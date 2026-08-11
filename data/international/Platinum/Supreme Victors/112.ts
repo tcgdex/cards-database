@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Mankey",
-		fr: "Férosinge",
-		de: "Menki"
+		'en-us': "Mankey",
+		'fr-fr': "Férosinge",
+		'de-de': "Menki"
 	},
 
 	illustrator: "Kanako Eo",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Extra Punch",
-				fr: "Extra punch",
-				de: "Extrahieb"
+				'en-us': "Extra Punch",
+				'fr-fr': "Extra punch",
+				'de-de': "Extrahieb"
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Pokémon LV.X, this attack does 10 damage plus 50 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon NIV.X, cette attaque inflige 10 dégâts plus 50 dégâts supplémentaires.",
-				de: "Falls das Verteidigende Pokémon ein Pokémon LV.X ist, fügt dieser Angriff 10 Schadenspunkte plus 50 weitere Schadenspunkte zu."
+				'en-us': "If the Defending Pokémon is a Pokémon LV.X, this attack does 10 damage plus 50 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon NIV.X, cette attaque inflige 10 dégâts plus 50 dégâts supplémentaires.",
+				'de-de': "Falls das Verteidigende Pokémon ein Pokémon LV.X ist, fügt dieser Angriff 10 Schadenspunkte plus 50 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -52,7 +52,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives in treetop colonies. If one becomes enraged, the whole colony rampages for no reason."
+		'en-us': "It lives in treetop colonies. If one becomes enraged, the whole colony rampages for no reason."
 	},
 
 	variants: [

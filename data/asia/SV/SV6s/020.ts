@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Poltchageist"
+		'id-id': "Poltchageist"
 	},
 
 	illustrator: "MINAMINAMI Take",
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		id: "Poltchageist terlihat seperti varian daerah dari Sinistea, tetapi belakangan ini ditemukan bahwa mereka merupakan Pokémon yang tidak ada keterkaitannya sama sekali."
+		'id-id': "Poltchageist terlihat seperti varian daerah dari Sinistea, tetapi belakangan ini ditemukan bahwa mereka merupakan Pokémon yang tidak ada keterkaitannya sama sekali."
 	},
 
 	stage: "Basic",
@@ -23,17 +23,17 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			id: "Gudang Persembunyian"
+			'id-id': "Gudang Persembunyian"
 		},
 
 		effect: {
-			id: "Selama Pokémon ini ada di Cadangan, Pokémon ini tidak menerima kerusakan dan efek akibat serangan dari Pokémon lawan."
+			'id-id': "Selama Pokémon ini ada di Cadangan, Pokémon ini tidak menerima kerusakan dan efek akibat serangan dari Pokémon lawan."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			id: "Mengait"
+			'id-id': "Mengait"
 		},
 
 		damage: 10,

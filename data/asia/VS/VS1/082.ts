@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブルーノのヒットモンリー",
+		'ja-jp': "ブルーノのヒットモンリー",
 	},
 
 	rarity: "Common",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "キック",
+				'ja-jp': "キック",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
-				ja: "速いキック",
+				'ja-jp': "速いキック",
 			},
 			effect: {
-				ja: "衰弱や抵抗を適用しないでください。",
+				'ja-jp': "衰弱や抵抗を適用しないでください。",
 			},
 			damage: 30,
 		},

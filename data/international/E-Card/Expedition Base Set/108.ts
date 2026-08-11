@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Ekans",
-		fr: "Abo",
-		de: "Rettan"
+		'en-us': "Ekans",
+		'fr-fr': "Abo",
+		'de-de': "Rettan"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -30,15 +30,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Poison Sting",
-				fr: "Dard-venin",
-				de: "Poison Sting"
+				'en-us': "Poison Sting",
+				'fr-fr': "Dard-venin",
+				'de-de': "Poison Sting"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
 
 			damage: 10,

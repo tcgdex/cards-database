@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Desert Shaman",
-		de: "Wüsten -Schamane"
+		'en-us': "Desert Shaman",
+		'de-de': "Wüsten -Schamane"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -14,8 +14,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "You can play only 1 Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Shuffle your hand into your deck and draw up to 4 cards. Your opponent does the same.",
-		de: "Mische die Karte auf deiner Hand in dein Deck und ziehe bis zu 4 Karten. Dein Gegner geht genau so vor."
+		'en-us': "You can play only 1 Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Shuffle your hand into your deck and draw up to 4 cards. Your opponent does the same.",
+		'de-de': "Mische die Karte auf deiner Hand in dein Deck und ziehe bis zu 4 Karten. Dein Gegner geht genau so vor."
 	},
 
 	variants: [

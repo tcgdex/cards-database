@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Sneasel",
-		fr: "Farfuret",
-		es: "Sneasel",
-		it: "Sneasel",
-		pt: "Sneasel",
-		de: "Sniebel"
+		'en-us': "Sneasel",
+		'fr-fr': "Farfuret",
+		'es-es': "Sneasel",
+		'it-it': "Sneasel",
+		'pt-br': "Sneasel",
+		'de-de': "Sniebel"
 	},
 
 	illustrator: "Mizue",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				es: "Arañazo",
-				it: "Graffio",
-				pt: "Arranhão",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'es-es': "Arañazo",
+				'it-it': "Graffio",
+				'pt-br': "Arranhão",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,
@@ -51,20 +51,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flash Claw",
-				fr: "Flash-Griffe",
-				es: "Garra Fugaz",
-				it: "Artiglioflash",
-				pt: "Garra Lampejante",
-				de: "Flotte Pfote"
+				'en-us': "Flash Claw",
+				'fr-fr': "Flash-Griffe",
+				'es-es': "Garra Fugaz",
+				'it-it': "Artiglioflash",
+				'pt-br': "Garra Lampejante",
+				'de-de': "Flotte Pfote"
 			},
 			effect: {
-				en: "Your opponent discards a card from his or her hand.",
-				fr: "Votre adversaire défausse une carte de sa main.",
-				es: "Tu rival descarta 1 carta de su mano.",
-				it: "Il tuo avversario scarta una carta che ha in mano.",
-				pt: "Seu oponente descarta um card da própria mão.",
-				de: "Dein Gegner legt 1 Karte von seiner Hand auf seinen Ablagespapel."
+				'en-us': "Your opponent discards a card from his or her hand.",
+				'fr-fr': "Votre adversaire défausse une carte de sa main.",
+				'es-es': "Tu rival descarta 1 carta de su mano.",
+				'it-it': "Il tuo avversario scarta una carta che ha in mano.",
+				'pt-br': "Seu oponente descarta um card da própria mão.",
+				'de-de': "Dein Gegner legt 1 Karte von seiner Hand auf seinen Ablagespapel."
 			},
 
 		},
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It feeds on eggs stolen from nests. Its sharply hooked claws rip vulnerable spots on prey.",
+		'en-us': "It feeds on eggs stolen from nests. Its sharply hooked claws rip vulnerable spots on prey.",
 	},
 
 	thirdParty: {

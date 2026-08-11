@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Snorlax"
+		'en-us': "Snorlax"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -25,10 +25,10 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Thick Skinned"
+				'en-us': "Thick Skinned"
 			},
 			effect: {
-				en: "Snorlax can't become Asleep, Confused, Paralyzed, Poisoned, or Burned. This power stops working while Snorlax is affected by a Special Condition."
+				'en-us': "Snorlax can't become Asleep, Confused, Paralyzed, Poisoned, or Burned. This power stops working while Snorlax is affected by a Special Condition."
 			}
 		},
 	],
@@ -42,10 +42,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam"
+				'en-us': "Body Slam"
 			},
 			effect: {
-				en: "Flip a coin. If heads the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads the Defending Pokémon is now Paralyzed."
 			},
 			damage: 30,
 
@@ -69,7 +69,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful."
+		'en-us': "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful."
 	},
 
 	variants: [

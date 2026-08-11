@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Yveltal",
-		fr: "Xerneas",
+		'en-us': "Yveltal",
+		'fr-fr': "Xerneas",
 	},
 
 	illustrator: "5ban Graphics",
@@ -31,13 +31,13 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Oblivion Wing",
-				fr: "Mort-Ailes",
+				'en-us': "Oblivion Wing",
+				'fr-fr': "Mort-Ailes",
 			},
 
 			effect: {
-				en: "Attach a Darkness Energy card from your discard pile to 1 of your Benched Pokémon.",
-				fr: "Attachez une carte Énergie Darkness de votre pile de défausse à l'un de vos Pokémon de Banc.",
+				'en-us': "Attach a Darkness Energy card from your discard pile to 1 of your Benched Pokémon.",
+				'fr-fr': "Attachez une carte Énergie Darkness de votre pile de défausse à l'un de vos Pokémon de Banc.",
 			},
 
 			damage: 30
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Darkness Blade",
-				fr: "Lame Obscure",
+				'en-us': "Darkness Blade",
+				'fr-fr': "Lame Obscure",
 			},
 			effect: {
-				en: "Flip a coin. If tails, this Pokémon can't attack during your next turn.",
-				fr: "Lancez une pièce. Si c'est pile, ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				'en-us': "Flip a coin. If tails, this Pokémon can't attack during your next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
 			},
 			damage: 100,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When this legendary Pokémon's wings and tail feathers spread wide and glow red, it absorbs the life force of all living creatures.",
+		'en-us': "When this legendary Pokémon's wings and tail feathers spread wide and glow red, it absorbs the life force of all living creatures.",
 	},
 
 	thirdParty: {

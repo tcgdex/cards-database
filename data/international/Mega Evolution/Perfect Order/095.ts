@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
@@ -7,13 +7,13 @@ const card: Card = {
 	dexId: [677],
 
 	name: {
-		en: "Espurr",
-		fr: "Psystigri",
-		es: "Espurr",
+		'en-us': "Espurr",
+		'fr-fr': "Psystigri",
+		'es-es': "Espurr",
 		'es-mx': "Espurr",
-		de: "Psiau",
-		it: "Espurr",
-		pt: "Espurr"
+		'de-de': "Psiau",
+		'it-it': "Espurr",
+		'pt-br': "Espurr"
 	},
 
 	illustrator: "MINAMINAMI Take",
@@ -27,35 +27,35 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Nap",
-			fr: "Tit'Sieste",
-			es: "Siesta",
+			'en-us': "Nap",
+			'fr-fr': "Tit'Sieste",
+			'es-es': "Siesta",
 			'es-mx': "Siesta",
-			de: "Nickerchen",
-			it: "Pausa",
-			pt: "Soneca"
+			'de-de': "Nickerchen",
+			'it-it': "Pausa",
+			'pt-br': "Soneca"
 		},
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon.",
-			fr: "Soignez 20 dégâts de ce Pokémon.",
-			es: "Cura 20 puntos de daño a este Pokémon.",
+			'en-us': "Heal 20 damage from this Pokémon.",
+			'fr-fr': "Soignez 20 dégâts de ce Pokémon.",
+			'es-es': "Cura 20 puntos de daño a este Pokémon.",
 			'es-mx': "Cura 20 puntos de daño a este Pokémon.",
-			de: "Heile 20 Schadenspunkte bei diesem Pokémon.",
-			it: "Cura questo Pokémon da 20 danni.",
-			pt: "Cure 20 pontos de dano deste Pokémon."
+			'de-de': "Heile 20 Schadenspunkte bei diesem Pokémon.",
+			'it-it': "Cura questo Pokémon da 20 danni.",
+			'pt-br': "Cure 20 pontos de dano deste Pokémon."
 		}
 	}, {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Stampede",
-			fr: "Ruée",
-			es: "Estampida",
+			'en-us': "Stampede",
+			'fr-fr': "Ruée",
+			'es-es': "Estampida",
 			'es-mx': "Estampida",
-			de: "Zertrampeln",
-			it: "Fuggi Fuggi",
-			pt: "Estouro"
+			'de-de': "Zertrampeln",
+			'it-it': "Fuggi Fuggi",
+			'pt-br': "Estouro"
 		},
 
 		damage: 10

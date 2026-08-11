@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG4"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ニャース",
+		'ja-jp': "ニャース",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -19,10 +19,10 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "コインハール",
+				'ja-jp': "コインハール",
 			},
 			effect: {
-				ja: "対戦相手のポケモンを1つ選択し、コインをひっくり返します。頭の場合、この攻撃はそのポケモンに20のダメージを与えます。この攻撃に衰弱と抵抗を適用しないでください。 （衰弱と抵抗を適用した後に発生する他の効果はまだ起こります。）",
+				'ja-jp': "対戦相手のポケモンを1つ選択し、コインをひっくり返します。頭の場合、この攻撃はそのポケモンに20のダメージを与えます。この攻撃に衰弱と抵抗を適用しないでください。 （衰弱と抵抗を適用した後に発生する他の効果はまだ起こります。）",
 			},
 		},
 	],

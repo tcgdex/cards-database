@@ -1,16 +1,16 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Worker",
-		fr: "Ouvrière",
-		es: "Operaria",
-		it: "Lavoratrice",
-		pt: "Trabalhadora",
-		de: "Arbeiterin"
+		'en-us': "Worker",
+		'fr-fr': "Ouvrière",
+		'es-es': "Operaria",
+		'it-it': "Lavoratrice",
+		'pt-br': "Trabalhadora",
+		'de-de': "Arbeiterin"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -18,12 +18,12 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Draw 3 cards. Discard a Stadium in play.",
-		fr: "Piochez 3 cartes. Défaussez un Stade en jeu.",
-		es: "Roba 3 cartas. Descarta un Estadio en juego.",
-		it: "Pesca tre carte. Scarta una carta Stadio in gioco.",
-		pt: "Compre 3 cartas. Descarte 1 Estádio em jogo.",
-		de: "Ziehe 3 Karten. Lege 1 Stadionkarte im Spiel auf den Ablagestapel."
+		'en-us': "Draw 3 cards. Discard a Stadium in play.",
+		'fr-fr': "Piochez 3 cartes. Défaussez un Stade en jeu.",
+		'es-es': "Roba 3 cartas. Descarta un Estadio en juego.",
+		'it-it': "Pesca tre carte. Scarta una carta Stadio in gioco.",
+		'pt-br': "Compre 3 cartas. Descarte 1 Estádio em jogo.",
+		'de-de': "Ziehe 3 Karten. Lege 1 Stadionkarte im Spiel auf den Ablagestapel."
 	},
 
 	trainerType: "Supporter",

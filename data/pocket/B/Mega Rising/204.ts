@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rufflet"
+		'en-us': "Rufflet"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -17,14 +17,14 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "With its sharp claws, this Pokémon pierces its\nprey, and then it pecks at them. Although it also\nconsumes berries, it's a carnivore at heart."
+		'en-us': "With its sharp claws, this Pokémon pierces its\nprey, and then it pecks at them. Although it also\nconsumes berries, it's a carnivore at heart."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Wing Attack"
+			'en-us': "Wing Attack"
 		},
 
 		damage: 40,

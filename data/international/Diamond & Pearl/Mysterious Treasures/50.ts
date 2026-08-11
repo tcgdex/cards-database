@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Golbat",
-		fr: "Nosferalto",
-		de: "Golbat"
+		'en-us': "Golbat",
+		'fr-fr': "Nosferalto",
+		'de-de': "Golbat"
 	},
 
 	illustrator: "Kazuyuki Kano",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Zubat",
-		fr: "Nosferapti"
+		'en-us': "Zubat",
+		'fr-fr': "Nosferapti"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Pulse Search",
-				fr: "Recherche de pouls",
-				de: "Suchimpuls"
+				'en-us': "Pulse Search",
+				'fr-fr': "Recherche de pouls",
+				'de-de': "Suchimpuls"
 			},
 			effect: {
-				en: "Look at your opponent's hand.",
-				fr: "Regardez la main de votre adversaire.",
-				de: "Schau dir die Handkarten deines Gegners an."
+				'en-us': "Look at your opponent's hand.",
+				'fr-fr': "Regardez la main de votre adversaire.",
+				'de-de': "Schau dir die Handkarten deines Gegners an."
 			},
 			damage: 30,
 
@@ -65,8 +65,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It loves the blood of humans and Pokémon. It flies around at night in search of neck veins.",
-		fr: "Il aime le sang des humains et des Pokémon. Il erre la nuit en quête d'un cou où planter ses crocs."
+		'en-us': "It loves the blood of humans and Pokémon. It flies around at night in search of neck veins.",
+		'fr-fr': "Il aime le sang des humains et des Pokémon. Il erre la nuit en quête d'un cou où planter ses crocs."
 	},
 
 	thirdParty: {

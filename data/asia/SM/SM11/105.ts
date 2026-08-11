@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "きとうし",
+		'ja-jp': "きとうし",
 	},
 
 	illustrator: "TOKIYA",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードの持ち主と、自分のポケモン全員にかかっているワザの効果は、すべてなくなる。",
+		'ja-jp': "このカードの持ち主と、自分のポケモン全員にかかっているワザの効果は、すべてなくなる。",
 	},
 
 	variants: [

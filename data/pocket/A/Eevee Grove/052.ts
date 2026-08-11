@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dragonair",
-		fr: "Draco"
+		'en-us': "Dragonair",
+		'fr-fr': "Draco"
 	},
 
 	illustrator: "sui",
@@ -18,20 +18,20 @@ const card: Card = {
 	types: ["Dragon"],
 
 	evolveFrom: {
-		en: "Dratini"
+		'en-us': "Dratini"
 	},
 
 	description: {
-		en: "They say that if it emits an aura from its whole\nbody, the weather will begin to change instantly.",
-		fr: "On dit que lorsque tout son corps émet une aura, les conditions climatiques se mettent à changer à vue d'œil."
+		'en-us': "They say that if it emits an aura from its whole\nbody, the weather will begin to change instantly.",
+		'fr-fr': "On dit que lorsque tout son corps émet une aura, les conditions climatiques se mettent à changer à vue d'œil."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Waterfall",
-			fr: "Cascade"
+			'en-us': "Waterfall",
+			'fr-fr': "Cascade"
 		},
 
 		damage: 60,

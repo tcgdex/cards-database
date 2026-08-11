@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Pangoro",
-		fr: "Pandarbare",
+		'en-us': "Pangoro",
+		'fr-fr': "Pandarbare",
 	},
 
 	illustrator: "5ban Graphics",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pancham",
-		fr: "Pandespiègle",
+		'en-us': "Pancham",
+		'fr-fr': "Pandespiègle",
 	},
 
 	stage: "Stage1",
@@ -33,12 +33,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Benevolent Boss",
-				fr: "Boss Bienveillant",
+				'en-us': "Benevolent Boss",
+				'fr-fr': "Boss Bienveillant",
 			},
 			effect: {
-				en: "If this Pokémon is your Active Pokémon, it gets +20 HP for each of your Benched Pokémon.",
-				fr: "Si ce Pokémon est votre Pokémon Actif, il reçoit 20 PV pour chacun de vos Pokémon de Banc.",
+				'en-us': "If this Pokémon is your Active Pokémon, it gets +20 HP for each of your Benched Pokémon.",
+				'fr-fr': "Si ce Pokémon est votre Pokémon Actif, il reçoit 20 PV pour chacun de vos Pokémon de Banc.",
 			},
 		},
 	],
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crazy Knuckle",
-				fr: "Poing Fou",
+				'en-us': "Crazy Knuckle",
+				'fr-fr': "Poing Fou",
 			},
 			effect: {
-				en: "If this Pokémon is affected by a Special Condition, this attack does 40 more damage.",
-				fr: "Si ce Pokémon est affecté par un État Spécial, cette attaque inflige 40 dégâts supplémentaires.",
+				'en-us': "If this Pokémon is affected by a Special Condition, this attack does 40 more damage.",
+				'fr-fr': "Si ce Pokémon est affecté par un État Spécial, cette attaque inflige 40 dégâts supplémentaires.",
 			},
 			damage: "80＋",
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Although it possesses a violent temperament, it won't put up with bullying. It uses the leaf in its mouth to sense the movements of its enemies.",
+		'en-us': "Although it possesses a violent temperament, it won't put up with bullying. It uses the leaf in its mouth to sense the movements of its enemies.",
 	},
 
 	thirdParty: {

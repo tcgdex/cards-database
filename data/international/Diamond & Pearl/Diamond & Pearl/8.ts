@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Diamond & Pearl'
 
 const card: Card = {
 	name: {
-		en: "Magnezone",
-		fr: "Magnézone",
-		de: "Magnezone"
+		'en-us': "Magnezone",
+		'fr-fr': "Magnézone",
+		'de-de': "Magnezone"
 	},
 
 	illustrator: "Nakaoka",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Magneton",
-		fr: "Magneton",
+		'en-us': "Magneton",
+		'fr-fr': "Magneton",
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Magnetize",
-				fr: "Magnétiser",
-				de: "Magnetisieren"
+				'en-us': "Magnetize",
+				'fr-fr': "Magnétiser",
+				'de-de': "Magnetisieren"
 			},
 			effect: {
-				en: "If you have any Metal Energy attached to your Active Pokémon, the Retreat Cost for that Pokémon is 0.",
-				fr: "Si votre Pokémon Actif possède des Énergies Metal, son Coût de retraite est de 0.",
-				de: "Wenn an dein Aktives Pokémon mindestens 1  Energie angelegt ist, hat dieses Pokémon Rückzugskosten 0."
+				'en-us': "If you have any Metal Energy attached to your Active Pokémon, the Retreat Cost for that Pokémon is 0.",
+				'fr-fr': "Si votre Pokémon Actif possède des Énergies Metal, son Coût de retraite est de 0.",
+				'de-de': "Wenn an dein Aktives Pokémon mindestens 1  Energie angelegt ist, hat dieses Pokémon Rückzugskosten 0."
 			},
 		},
 	],
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Blast",
-				fr: "Explosion métallique",
-				de: "Metallexplosion"
+				'en-us': "Metal Blast",
+				'fr-fr': "Explosion métallique",
+				'de-de': "Metallexplosion"
 			},
 			effect: {
-				en: "Does 50 damage plus 10 more damage for each Metal Energy attached to Magnezone.",
-				fr: "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque Énergie Metal attachée à Magnézone.",
-				de: "Dieser Angrif fügt 50 Schadenspunkte plus 10 weitere Schadenspunkte für jede  Energie, die an Magnezone angelegt ist, zu."
+				'en-us': "Does 50 damage plus 10 more damage for each Metal Energy attached to Magnezone.",
+				'fr-fr': "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque Énergie Metal attachée à Magnézone.",
+				'de-de': "Dieser Angrif fügt 50 Schadenspunkte plus 10 weitere Schadenspunkte für jede  Energie, die an Magnezone angelegt ist, zu."
 			},
 			damage: "50+",
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
+		'en-us': "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
 	},
 
 	thirdParty: {

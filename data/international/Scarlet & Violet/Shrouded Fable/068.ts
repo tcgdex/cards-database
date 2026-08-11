@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Shrouded Fable"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Duskull",
-		fr: "Skelénox",
-		es: "Duskull",
-		it: "Duskull",
-		pt: "Duskull",
-		de: "Zwirrlicht"
+		'en-us': "Duskull",
+		'fr-fr': "Skelénox",
+		'es-es': "Duskull",
+		'it-it': "Duskull",
+		'pt-br': "Duskull",
+		'de-de': "Zwirrlicht"
 	},
 
 	rarity: "Illustration rare",
@@ -24,32 +24,32 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Come and Get You",
-			fr: "Viens me Chercher",
-			es: "Voy a por Ti",
-			it: "Passo a Prenderti",
-			pt: "Vim te Buscar",
-			de: "Ich krieg dich"
+			'en-us': "Come and Get You",
+			'fr-fr': "Viens me Chercher",
+			'es-es': "Voy a por Ti",
+			'it-it': "Passo a Prenderti",
+			'pt-br': "Vim te Buscar",
+			'de-de': "Ich krieg dich"
 		},
 
 		effect: {
-			en: "Put up to 3 Duskull from your discard pile onto your Bench.",
-			fr: "Placez jusqu'à 3 Skelénox de votre pile de défausse sur votre Banc.",
-			es: "Pon hasta 3 Duskull de tu pila de descartes en tu Banca.",
-			it: "Prendi fino a tre Duskull dalla tua pila degli scarti e mettili nella tua panchina.",
-			pt: "Coloque até 3 Duskull da sua pilha de descarte no seu Banco.",
-			de: "Lege bis zu 3 Zwirrlicht aus deinem Ablagestapel auf deine Bank."
+			'en-us': "Put up to 3 Duskull from your discard pile onto your Bench.",
+			'fr-fr': "Placez jusqu'à 3 Skelénox de votre pile de défausse sur votre Banc.",
+			'es-es': "Pon hasta 3 Duskull de tu pila de descartes en tu Banca.",
+			'it-it': "Prendi fino a tre Duskull dalla tua pila degli scarti e mettili nella tua panchina.",
+			'pt-br': "Coloque até 3 Duskull da sua pilha de descarte no seu Banco.",
+			'de-de': "Lege bis zu 3 Zwirrlicht aus deinem Ablagestapel auf deine Bank."
 		}
 	}, {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
-			en: "Mumble",
-			fr: "Murmure",
-			es: "Farfullar",
-			it: "Borbottio",
-			pt: "Resmungo",
-			de: "Grummeln"
+			'en-us': "Mumble",
+			'fr-fr': "Murmure",
+			'es-es': "Farfullar",
+			'it-it': "Borbottio",
+			'pt-br': "Resmungo",
+			'de-de': "Grummeln"
 		},
 
 		damage: 30

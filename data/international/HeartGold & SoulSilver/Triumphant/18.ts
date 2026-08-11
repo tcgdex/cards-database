@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Dragonite",
-		fr: "Dracolosse",
-		de: "Dragoran"
+		'en-us': "Dragonite",
+		'fr-fr': "Dracolosse",
+		'de-de': "Dragoran"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Dragonair",
-		fr: "Draco"
+		'en-us': "Dragonair",
+		'fr-fr': "Draco"
 	},
 
 	stage: "Stage2",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Calming Wind",
-				fr: "Vent apaisant",
-				de: "Beruhigender Wind"
+				'en-us': "Calming Wind",
+				'fr-fr': "Vent apaisant",
+				'de-de': "Beruhigender Wind"
 			},
 			effect: {
-				en: "Remove all Special Conditions from Dragonite.",
-				fr: "Retirez tous les États Spéciaux à Dracolosse.",
-				de: "Entferne alle Speziellen Zustände von Dragoran."
+				'en-us': "Remove all Special Conditions from Dragonite.",
+				'fr-fr': "Retirez tous les États Spéciaux à Dracolosse.",
+				'de-de': "Entferne alle Speziellen Zustände von Dragoran."
 			},
 			damage: 50,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dragon Stamp",
-				fr: "Dragofrappe",
-				de: "Drachenstampfer"
+				'en-us': "Dragon Stamp",
+				'fr-fr': "Dragofrappe",
+				'de-de': "Drachenstampfer"
 			},
 			effect: {
-				en: "Flip 2 coins. If both of them are tails, this attack does nothing. If both of them are heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez 2 pièces. Si vous obtenez deux fois un côté pile, cette attaque ne fait rien. Si vous obtenez deux fois face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 2 Münzen. Wenn beide Münzen \"Zahl\" zeigen, hat dieser Angriff keine Auswirkungen. Wenn beide Münzen \"Kopf\" zeigen, ist das Verteidigende Pokémon jezt gelähmt."
+				'en-us': "Flip 2 coins. If both of them are tails, this attack does nothing. If both of them are heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez deux fois un côté pile, cette attaque ne fait rien. Si vous obtenez deux fois face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 2 Münzen. Wenn beide Münzen \"Zahl\" zeigen, hat dieser Angriff keine Auswirkungen. Wenn beide Münzen \"Kopf\" zeigen, ist das Verteidigende Pokémon jezt gelähmt."
 			},
 			damage: 80,
 
@@ -87,7 +87,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "This marine Pokémon has an impressive build that lets it freely fly over raging seas without trouble."
+		'en-us': "This marine Pokémon has an impressive build that lets it freely fly over raging seas without trouble."
 	},
 
 	variants: [

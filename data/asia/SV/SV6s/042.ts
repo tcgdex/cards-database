@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV6s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Poliwhirl"
+		'id-id': "Poliwhirl"
 	},
 
 	illustrator: "OKACHEKE",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Kulit seluruh tubuhnya lembap, tetapi bagian pusaran pada perutnya terasa licin."
+		'id-id': "Kulit seluruh tubuhnya lembap, tetapi bagian pusaran pada perutnya terasa licin."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Hipnotis"
+			'id-id': "Hipnotis"
 		},
 
 		effect: {
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
+			'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
 		},
 
 		cost: ["Water"]
 	}, {
 		name: {
-			id: "Tamparan Ganda"
+			'id-id': "Tamparan Ganda"
 		},
 
 		effect: {
-			id: "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 30 untuk tiap lemparan dengan hasil sisi depan."
+			'id-id': "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 30 untuk tiap lemparan dengan hasil sisi depan."
 		},
 
 		damage: "30×",

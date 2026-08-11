@@ -1,16 +1,16 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Vivid Voltage'
 
 const card: Card = {
 	dexId: [602],
 
 	name: {
-		en: "Tynamo",
-		fr: "Anchwatt",
-		es: "Tynamo",
-		it: "Tynamo",
-		pt: "Tynamo",
-		de: "Zapplardin"
+		'en-us': "Tynamo",
+		'fr-fr': "Anchwatt",
+		'es-es': "Tynamo",
+		'it-it': "Tynamo",
+		'pt-br': "Tynamo",
+		'de-de': "Zapplardin"
 	},
 
 	illustrator: "sowsow",
@@ -27,20 +27,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Levitate",
-				fr: "Lévitation",
-				es: "",
-				it: "",
-				pt: "",
-				de: ""
+				'en-us': "Levitate",
+				'fr-fr': "Lévitation",
+				'es-es': "",
+				'it-it': "",
+				'pt-br': "",
+				'de-de': ""
 			},
 			effect: {
-				en: "If this Pokémon has any Energy attached, it has no Retreat Cost.",
-				fr: "Si de l'Énergie est attachée à ce Pokémon, il n'a pas de Coût de Retraite.",
-				es: "",
-				it: "",
-				pt: "",
-				de: ""
+				'en-us': "If this Pokémon has any Energy attached, it has no Retreat Cost.",
+				'fr-fr': "Si de l'Énergie est attachée à ce Pokémon, il n'a pas de Coût de Retraite.",
+				'es-es': "",
+				'it-it': "",
+				'pt-br': "",
+				'de-de': ""
 			},
 		},
 	],
@@ -51,12 +51,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Tiny Charge",
-				fr: "Décharge Mineure",
-				es: "Carga Diminuta",
-				it: "Sottocarica Minuscola",
-				pt: "Carga Pequenina",
-				de: "Mini-Stromstoß"
+				'en-us': "Tiny Charge",
+				'fr-fr': "Décharge Mineure",
+				'es-es': "Carga Diminuta",
+				'it-it': "Sottocarica Minuscola",
+				'pt-br': "Carga Pequenina",
+				'de-de': "Mini-Stromstoß"
 			},
 
 			damage: 10,
@@ -78,7 +78,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "One alone can emit only trickle of electricity, so a group of them gathers to unleash a powerful electric shock."
+		'en-us': "One alone can emit only trickle of electricity, so a group of them gathers to unleash a powerful electric shock."
 	},
 
 	variants: [

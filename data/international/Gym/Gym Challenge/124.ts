@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Fervor"
+		'en-us': "Fervor"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -12,7 +12,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Show the top 3 cards of your deck to all players. Put any Fire Energy cards there into your hand and discard the rest."
+		'en-us': "Show the top 3 cards of your deck to all players. Put any Fire Energy cards there into your hand and discard the rest."
 	},
 	variants: [
 		{

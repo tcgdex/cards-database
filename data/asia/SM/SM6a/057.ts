@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホワイトキュレムGX",
+		'ja-jp': "ホワイトキュレムGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Fire"],
 			effect: {
-				ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Fire", "Water", "Colorless"],
 			effect: {
-				ja: "このポケモンにダメカンがのっているなら、80ダメージ追加。",
+				'ja-jp': "このポケモンにダメカンがのっているなら、80ダメージ追加。",
 			},
 		},
 		{
@@ -36,7 +36,7 @@ const card: Card = {
 			damage: 200,
 			cost: ["Fire", "Fire", "Water", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをやけどとマヒにする。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のバトルポケモンをやけどとマヒにする。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

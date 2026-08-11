@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../E5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "jigglypuff",
+		'ja-jp': "jigglypuff",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "昼寝",
+				'ja-jp': "昼寝",
 			},
 			effect: {
-				ja: "Jigglypuffから1つのダメージカウンターを取り外します。",
+				'ja-jp': "Jigglypuffから1つのダメージカウンターを取り外します。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "子守lulaby",
+				'ja-jp': "子守lulaby",
 			},
 			effect: {
-				ja: "防御ポケモンは今眠っています。",
+				'ja-jp': "防御ポケモンは今眠っています。",
 			},
 			damage: 10,
 		},

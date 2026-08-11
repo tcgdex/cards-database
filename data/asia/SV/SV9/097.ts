@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "Nの城",
+		'ja-jp': "Nの城",
 		'zh-tw': "N的城堡",
 		'zh-cn': "N的城堡"
 	},
@@ -15,7 +15,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいの場の「Nのポケモン」全員のにげるためのエネルギーは、すべてなくなる。",
+		'ja-jp': "おたがいの場の「Nのポケモン」全員のにげるためのエネルギーは、すべてなくなる。",
 		'zh-tw': "雙方場上所有「N的寶可夢」【撤退】所需的能量全部消除。",
 		'zh-cn': "雙方場上所有「N的寶可夢」【撤退】所需的能量全部消除。"
 	},

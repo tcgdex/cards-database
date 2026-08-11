@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon Vault'
 
 const card: Card = {
 	name: {
-		en: "Super Rod",
-		fr: "Méga Canne",
+		'en-us': "Super Rod",
+		'fr-fr': "Méga Canne",
 	},
 
 	illustrator: "5ban Graphics",
@@ -13,8 +13,8 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Shuffle 3 in any combination of Pokémon and basic Energy cards from your discard pile back into your deck. You may play as many Item cards as you like during your turn (before your attack).",
-		fr: "Choisissez une combinaison de 3 cartes de Pokémon et d'Énergies de base dans votre pile de défausse et mélangez-les avec votre deck.",
+		'en-us': "Shuffle 3 in any combination of Pokémon and basic Energy cards from your discard pile back into your deck. You may play as many Item cards as you like during your turn (before your attack).",
+		'fr-fr': "Choisissez une combinaison de 3 cartes de Pokémon et d'Énergies de base dans votre pile de défausse et mélangez-les avec votre deck.",
 	},
 
 	trainerType: "Item",

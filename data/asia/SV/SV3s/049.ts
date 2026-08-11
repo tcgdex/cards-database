@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Galvantula"
+		'id-id': "Galvantula"
 	},
 
 	illustrator: "Taira Akitsu",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		id: "Galvantula mengincar anak burung yang belum dapat terbang dengan baik dan memasang jebakan menggunakan benang listrik di dekat sarang Pokémon burung."
+		'id-id': "Galvantula mengincar anak burung yang belum dapat terbang dengan baik dan memasang jebakan menggunakan benang listrik di dekat sarang Pokémon burung."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			id: "Electric Bullet"
+			'id-id': "Electric Bullet"
 		},
 
 		effect: {
-			id: "Serangan ini juga memberikan kerusakan sejumlah 30 kepada 1 Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
+			'id-id': "Serangan ini juga memberikan kerusakan sejumlah 30 kepada 1 Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
 		},
 
 		damage: 50,

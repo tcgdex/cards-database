@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Ninetales"
+		'en-us': "Ninetales"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -20,7 +20,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Vulpix"
+		'en-us': "Vulpix"
 	},
 
 	stage: "Stage1",
@@ -32,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lure"
+				'en-us': "Lure"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon."
+				'en-us': "If your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon."
 			},
 
 		},
@@ -47,10 +47,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fire Blast"
+				'en-us': "Fire Blast"
 			},
 			effect: {
-				en: "Discard 1 Fire Energy card attached to Ninetales or this attack does nothing."
+				'en-us': "Discard 1 Fire Energy card attached to Ninetales or this attack does nothing."
 			},
 			damage: 80,
 
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse."
+		'en-us': "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse."
 	},
 
 	variants: [

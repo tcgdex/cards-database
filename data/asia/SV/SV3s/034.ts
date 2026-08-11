@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Cubchoo"
+		'id-id': "Cubchoo"
 	},
 
 	illustrator: "Mizue",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		id: "Cubchoo banyak dijumpai di tepi laut daratan dingin. Terdapat kemungkinan Pokémon ini sedang sakit jika ingusnya tidak mengalir."
+		'id-id': "Cubchoo banyak dijumpai di tepi laut daratan dingin. Terdapat kemungkinan Pokémon ini sedang sakit jika ingusnya tidak mengalir."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Tendangan Penghempas"
+			'id-id': "Tendangan Penghempas"
 		},
 
 		damage: 10,
 		cost: ["Water"]
 	}, {
 		name: {
-			id: "Menggulingkan"
+			'id-id': "Menggulingkan"
 		},
 
 		effect: {
-			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 20."
+			'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 20."
 		},
 
 		damage: "20+",

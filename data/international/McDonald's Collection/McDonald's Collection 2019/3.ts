@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2019'
 
 const card: Card = {
@@ -9,33 +9,33 @@ const card: Card = {
 	dexId: [126],
 
 	description: {
-		en: "When angered, it spouts brilliant fire from all over its body. It doesn’t calm down until its opponent has burned to ash."
+		'en-us': "When angered, it spouts brilliant fire from all over its body. It doesn’t calm down until its opponent has burned to ash."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Controlled Burn"
+			'en-us': "Controlled Burn"
 		},
 
 		effect: {
-			en: "Discard the top card of your opponent’s deck."
+			'en-us': "Discard the top card of your opponent’s deck."
 		}
 	}, {
 		name: {
-			en: "Flamethrower"
+			'en-us': "Flamethrower"
 		},
 
 		damage: 80,
 
 		effect: {
-			en: "Discard an Energy from this Pokémon."
+			'en-us': "Discard an Energy from this Pokémon."
 		}
 	}],
 
 	name: {
-		en: "Magmar"
+		'en-us': "Magmar"
 	},
 
 	rarity: "None",

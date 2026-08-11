@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Lapras",
-		fr: "Lokhlass",
-		es: "Lapras",
-		it: "Lapras",
-		pt: "Lapras",
-		de: "Lapras"
+		'en-us': "Lapras",
+		'fr-fr': "Lokhlass",
+		'es-es': "Lapras",
+		'it-it': "Lapras",
+		'pt-br': "Lapras",
+		'de-de': "Lapras"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Mermaid’s Call",
-				fr: "Appel de la Sirène",
-				es: "Llamada de la Sirena",
-				it: "Richiamo della Sirena",
-				pt: "Chamado da Sereia",
-				de: "Ruf der Meerjungfrau"
+				'en-us': "Mermaid’s Call",
+				'fr-fr': "Appel de la Sirène",
+				'es-es': "Llamada de la Sirena",
+				'it-it': "Richiamo della Sirena",
+				'pt-br': "Chamado da Sereia",
+				'de-de': "Ruf der Meerjungfrau"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may put a Misty’s Favor card from your discard pile into your hand.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez placer une carte Faveur d’Ondine de votre pile de défausse dans votre main.",
-				es: "Una vez durante tu turno (antes de tu ataque), puedes poner 1 carta de Favor de Misty de tu pila de descartes en tu mano.",
-				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi prendere una carta Cortesia di Misty dalla tua pila degli scarti e aggiungerla alle carte che hai in mano.",
-				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode colocar 1 carta Favor da Misty da sua pilha de descarte na sua mão.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 1 Mistys Gunst-Karte aus deinem Ablagestapel auf deine Hand nehmen."
+				'en-us': "Once during your turn (before your attack), you may put a Misty’s Favor card from your discard pile into your hand.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez placer une carte Faveur d’Ondine de votre pile de défausse dans votre main.",
+				'es-es': "Una vez durante tu turno (antes de tu ataque), puedes poner 1 carta de Favor de Misty de tu pila de descartes en tu mano.",
+				'it-it': "Una sola volta durante il tuo turno, prima di attaccare, puoi prendere una carta Cortesia di Misty dalla tua pila degli scarti e aggiungerla alle carte che hai in mano.",
+				'pt-br': "Uma vez durante a sua vez de jogar (antes de atacar), você pode colocar 1 carta Favor da Misty da sua pilha de descarte na sua mão.",
+				'de-de': "Einmal während deines Zuges (bevor du angreifst) kannst du 1 Mistys Gunst-Karte aus deinem Ablagestapel auf deine Hand nehmen."
 			},
 		},
 	],
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surf",
-				fr: "Surf",
-				es: "Surf",
-				it: "Surf",
-				pt: "Surfar",
-				de: "Surfer"
+				'en-us': "Surf",
+				'fr-fr': "Surf",
+				'es-es': "Surf",
+				'it-it': "Surf",
+				'pt-br': "Surfar",
+				'de-de': "Surfer"
 			},
 
 			damage: 90,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It likes swimming around with people on its back. In the Alola region, it's an important means of transportation over water.",
+		'en-us': "It likes swimming around with people on its back. In the Alola region, it's an important means of transportation over water.",
 	},
 
 	thirdParty: {

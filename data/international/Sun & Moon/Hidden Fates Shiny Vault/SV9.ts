@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Wooper",
-		fr: "Axoloto",
+		'en-us': "Wooper",
+		'fr-fr': "Axoloto",
 	},
 	illustrator: "Misa Tsutsui",
 	rarity: "Shiny rare",
@@ -28,8 +28,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ram",
-				fr: "Collision",
+				'en-us': "Ram",
+				'fr-fr': "Collision",
 			},
 
 			damage: 10,
@@ -41,8 +41,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rain Splash",
-				fr: "Pluie Éclaboussante",
+				'en-us': "Rain Splash",
+				'fr-fr': "Pluie Éclaboussante",
 			},
 
 			damage: 20,
@@ -62,7 +62,7 @@ const card: Card = {
 
 
 	description: {
-		en: "When the temperature cools in the evening, they emerge from water to seek food along the shore.",
+		'en-us': "When the temperature cools in the evening, they emerge from water to seek food along the shore.",
 	},
 }
 

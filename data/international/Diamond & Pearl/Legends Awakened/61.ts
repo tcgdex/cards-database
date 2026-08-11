@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legends Awakened'
 
 const card: Card = {
 	name: {
-		en: "Lucario",
-		fr: "Lucario",
-		de: "Lucario"
+		'en-us': "Lucario",
+		'fr-fr': "Lucario",
+		'de-de': "Lucario"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Riolu",
-		fr: "Riolu",
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Focus Blast",
-				fr: "Exploforce",
-				de: "Fokusstoß"
+				'en-us': "Focus Blast",
+				'fr-fr': "Exploforce",
+				'de-de': "Fokusstoß"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spike Lariat",
-				fr: "Lasso à piques",
-				de: "Stachellasso"
+				'en-us': "Spike Lariat",
+				'fr-fr': "Lasso à piques",
+				'de-de': "Stachellasso"
 			},
 			effect: {
-				en: "If the Defending Pokémon already has any damage counters on it, this attack does 60 damage plus 20 more damage.",
-				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 60 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wenn auf dem Verteidigenden Pokémon bereits mindestens 1 Schadensmarke liegt, fügt dieser Angriff 60 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				'en-us': "If the Defending Pokémon already has any damage counters on it, this attack does 60 damage plus 20 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 60 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wenn auf dem Verteidigenden Pokémon bereits mindestens 1 Schadensmarke liegt, fügt dieser Angriff 60 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "60+",
 
@@ -78,8 +78,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has the ability to sense the auras of all things. It understands human speech.",
-		fr: "Il ressent toutes les auras. Il comprend le langage humain."
+		'en-us': "It has the ability to sense the auras of all things. It understands human speech.",
+		'fr-fr': "Il ressent toutes les auras. Il comprend le langage humain."
 	},
 
 	thirdParty: {

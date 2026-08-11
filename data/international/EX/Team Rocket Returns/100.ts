@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Rocket's Moltres ex",
-		de: "Rockets Lavados ex"
+		'en-us': "Rocket's Moltres ex",
+		'de-de': "Rockets Lavados ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Dark Lift",
-				de: "Dark Lift"
+				'en-us': "Dark Lift",
+				'de-de': "Dark Lift"
 			},
 			effect: {
-				en: "If Rocket's Moltres ex has any Darkness Energy attached to it, the Retreat Cost for Rocket's Moltres ex is 0.\"",
-				de: "If Rocket's Moltres ex has any  Energy attache to it, the Retread Cost for Rocket's Moltres ex is 0."
+				'en-us': "If Rocket's Moltres ex has any Darkness Energy attached to it, the Retreat Cost for Rocket's Moltres ex is 0.\"",
+				'de-de': "If Rocket's Moltres ex has any  Energy attache to it, the Retread Cost for Rocket's Moltres ex is 0."
 			},
 		},
 	],
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Dance",
-				de: "Fire Dance"
+				'en-us': "Fire Dance",
+				'de-de': "Fire Dance"
 			},
 			effect: {
-				en: "Search your discard pile for a Fire Energy card and attach it to 1 of your Pokémon.\"",
-				de: "Search your discard pile for a  Energy card and attached it to 1 of your Pokémon."
+				'en-us': "Search your discard pile for a Fire Energy card and attach it to 1 of your Pokémon.\"",
+				'de-de': "Search your discard pile for a  Energy card and attached it to 1 of your Pokémon."
 			},
 			damage: 30,
 
@@ -62,8 +62,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Combustion",
-				de: "Combustion"
+				'en-us': "Combustion",
+				'de-de': "Combustion"
 			},
 
 			damage: 50,

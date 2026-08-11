@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dunsparce",
-		fr: "Insolourdo",
-		es: "Dunsparce",
-		it: "Dunsparce",
-		pt: "Dunsparce",
-		de: "Dummisel"
+		'en-us': "Dunsparce",
+		'fr-fr': "Insolourdo",
+		'es-es': "Dunsparce",
+		'it-it': "Dunsparce",
+		'pt-br': "Dunsparce",
+		'de-de': "Dummisel"
 	},
 
 	rarity: "Uncommon",
@@ -30,28 +30,28 @@ const card: Card = {
 	illustrator: "ryoma uratsuka",
 
 	description: {
-		en: "When it sees a person, it digs a hole with its tail to make its escape. If you happen to find one, consider yourself lucky."
+		'en-us': "When it sees a person, it digs a hole with its tail to make its escape. If you happen to find one, consider yourself lucky."
 	},
 
 	abilities: [{
 		type: "Ability",
 
 		name: {
-			en: "Mysterious Nest",
-			fr: "Nid Mystérieux",
-			de: "Geheimnisvolles Nest",
-			es: "Nido Misterioso",
-			pt: "Ninho Misterioso",
-			it: "Nido Enigmatico"
+			'en-us': "Mysterious Nest",
+			'fr-fr': "Nid Mystérieux",
+			'de-de': "Geheimnisvolles Nest",
+			'es-es': "Nido Misterioso",
+			'pt-br': "Ninho Misterioso",
+			'it-it': "Nido Enigmatico"
 		},
 
 		effect: {
-			en: "{C} Pokémon in play (both yours and your opponent's) have no Weakness.",
-			fr: "Les Pokémon {C} en jeu (les vôtres et ceux de votre adversaire) n'ont pas de Faiblesse.",
-			de: "{C}-Pokémon im Spiel (deine und die deines Gegners) haben keine Schwäche.",
-			es: "Los Pokémon {C} en juego (tanto tuyos como de tu rival) no tienen Debilidad.",
-			pt: "Pokémon {C} em jogo (seus e do seu oponente) não têm Fraqueza.",
-			it: "I Pokémon {C} in gioco, sia tuoi che del tuo avversario, non hanno debolezza."
+			'en-us': "{C} Pokémon in play (both yours and your opponent's) have no Weakness.",
+			'fr-fr': "Les Pokémon {C} en jeu (les vôtres et ceux de votre adversaire) n'ont pas de Faiblesse.",
+			'de-de': "{C}-Pokémon im Spiel (deine und die deines Gegners) haben keine Schwäche.",
+			'es-es': "Los Pokémon {C} en juego (tanto tuyos como de tu rival) no tienen Debilidad.",
+			'pt-br': "Pokémon {C} em jogo (seus e do seu oponente) não têm Fraqueza.",
+			'it-it': "I Pokémon {C} in gioco, sia tuoi che del tuo avversario, non hanno debolezza."
 		}
 	}],
 
@@ -59,12 +59,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Rollout",
-			fr: "Roulade",
-			de: "Walzer",
-			es: "Rodar",
-			pt: "Rolagem",
-			it: "Rotolamento"
+			'en-us': "Rollout",
+			'fr-fr': "Roulade",
+			'de-de': "Walzer",
+			'es-es': "Rodar",
+			'pt-br': "Rolagem",
+			'it-it': "Rotolamento"
 		},
 
 		damage: 30

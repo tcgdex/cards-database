@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S5I";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アップリューV",
+		'ja-jp': "アップリューV",
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 20,
 			cost: ["Grass"],
 			effect: {
-				ja: "次の相手の番、このワザを受けたポケモンは、ワザを使うためのエネルギーが、【無】エネルギー2個ぶん多くなる。",
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、ワザを使うためのエネルギーが、【無】エネルギー2個ぶん多くなる。",
 			},
 		},
 		{

@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sun & Moon'
 
 const sm115: Set = {
 	id: "sm115",
 
 	name: {
-		en: "Hidden Fates",
-		fr: "Destinées Occultes",
-		es: "Destinos Ocultos",
-		it: "Destino Sfuggente",
-		de: "Verborgenes Schicksal",
-		pt: "Destinos Ocultos"
+		'en-us': "Hidden Fates",
+		'fr-fr': "Destinées Occultes",
+		'es-es': "Destinos Ocultos",
+		'it-it': "Destino Sfuggente",
+		'de-de': "Verborgenes Schicksal",
+		'pt-br': "Destinos Ocultos"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const sm115: Set = {
 
 	abbreviations: {
 		official: "HIF",
-		fr: "DOC"
+		'fr-fr': "DOC"
 	},
 
 	thirdParty: {

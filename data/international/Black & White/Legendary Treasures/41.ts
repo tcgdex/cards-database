@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Palpitoad",
+		'en-us': "Palpitoad",
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Tympole",
+		'en-us': "Tympole",
 	},
 
 	stage: "Stage1",
@@ -33,7 +33,7 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Mud Shot",
+				'en-us': "Mud Shot",
 			},
 
 			damage: 20,
@@ -46,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Round",
+				'en-us': "Round",
 			},
 			effect: {
-				en: "Does 20 damage times the number of your Pokémon that have the Round attack.",
+				'en-us': "Does 20 damage times the number of your Pokémon that have the Round attack.",
 			},
 			damage: 20,
 
@@ -66,7 +66,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It lives in the water and on land. It uses its long, sticky tongue to capture prey.",
+		'en-us': "It lives in the water and on land. It uses its long, sticky tongue to capture prey.",
 	},
 
 	thirdParty: {

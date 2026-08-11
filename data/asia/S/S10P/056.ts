@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リングマ",
+		'ja-jp': "リングマ",
 		'zh-tw': "圈圈熊",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "ヒスイの地を 寒気 覆いたる 季節 好物の木の実 集めに 野山を徘徊す。 空腹ゆえ 気が立ち 極めて凶暴。",
+		'ja-jp': "ヒスイの地を 寒気 覆いたる 季節 好物の木の実 集めに 野山を徘徊す。 空腹ゆえ 気が立ち 極めて凶暴。",
 		'zh-tw': "在洗翠大地被嚴寒籠罩的季節裡，徘徊於山野之中尋找愛吃的樹果。 空腹帶來的焦躁使牠變得極為凶暴。",
 	},
 
@@ -23,19 +23,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "れんぞくはりて",
+				'ja-jp': "れんぞくはりて",
 				'zh-tw': "連續巴掌",
 			},
 			damage: "40×",
 			cost: ["Colorless"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数×40ダメージ。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数×40ダメージ。",
 				'zh-tw': "擲硬幣直到出現反面，造成正面出現的次數×40點傷害。",
 			},
 		},
 		{
 			name: {
-				ja: "かいりき",
+				'ja-jp': "かいりき",
 				'zh-tw': "怪力",
 			},
 			damage: 100,
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ヒメグマ",
+		'ja-jp': "ヒメグマ",
 	},
 
 	retreat: 3,

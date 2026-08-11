@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fantastical Parade"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [249],
 
 	name: {
-		en: "Lugia"
+		'en-us': "Lugia"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "It is said to be the guardian of the seas. It is\nrumored to have been seen on the night of a storm."
+		'en-us': "It is said to be the guardian of the seas. It is\nrumored to have been seen on the night of a storm."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Aeroblast"
+			'en-us': "Aeroblast"
 		},
 
 		damage: 80,
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip 2 coins. This attack does 40 more damage for each heads."
+			'en-us': "Flip 2 coins. This attack does 40 more damage for each heads."
 		}
 	}],
 

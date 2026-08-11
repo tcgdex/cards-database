@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from "../Collection McDonald's 2013"
 
 const card: Card = {
 	name: {
-		fr: "Aquali",
+		'fr-fr': "Aquali",
 	},
 	illustrator: "Akira Komayama",
 	rarity: "None",
@@ -20,20 +20,20 @@ const card: Card = {
 		{
 			cost: ["Water"],
 			name: {
-				fr: "Ocroupi",
+				'fr-fr': "Ocroupi",
 			},
 			effect: {
-				fr: "Inflige 20 dégats à I des Pokémon de Banc_de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'fr-fr': "Inflige 20 dégats à I des Pokémon de Banc_de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Water", "Colorless", "Colorless"],
 			name: {
-				fr: "Spirale Epuisante",
+				'fr-fr': "Spirale Epuisante",
 			},
 			effect: {
-				fr: "Soignez 20 dégâts à ce Pokémon",
+				'fr-fr': "Soignez 20 dégâts à ce Pokémon",
 			},
 			damage: 60,
 		},

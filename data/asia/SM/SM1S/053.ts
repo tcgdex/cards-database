@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "クラッシュハンマー",
+		'ja-jp': "クラッシュハンマー",
 	},
 
 	illustrator: "Yoshinobu Saito",
 	category: "Trainer",
 
 	effect: {
-		ja: "コインを1回投げオモテなら、相手のポケモンについているエネルギーを1個選び、トラッシュする。",
+		'ja-jp': "コインを1回投げオモテなら、相手のポケモンについているエネルギーを1個選び、トラッシュする。",
 	},
 
 	variants: [

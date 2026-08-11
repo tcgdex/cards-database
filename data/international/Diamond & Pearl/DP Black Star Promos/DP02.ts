@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../DP Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Chimchar",
-		fr: "Ouisticram",
-		de: "Panflam"
+		'en-us': "Chimchar",
+		'fr-fr': "Ouisticram",
+		'de-de': "Panflam"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,9 +29,9 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ember",
-				fr: "Flammèche",
-				de: "Glut"
+				'en-us': "Ember",
+				'fr-fr': "Flammèche",
+				'de-de': "Glut"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Fire Energy attached to Chimchar.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Ouisticram.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" lege eine -Energie, die an Panflam angelegt ist, auf deinen Ablagestapel."
+				'en-us': "Flip a coin. If tails, discard a Fire Energy attached to Chimchar.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Ouisticram.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" lege eine -Energie, die an Panflam angelegt ist, auf deinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -67,8 +67,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It agilely scales sheer cliffs to live atop craggy mountains. Its fire is put out when it sleeps.",
-		fr: "Il escalade prestement les falaises escarpées et vit sur les sommets. Sa flamme s'éteint quand il dort."
+		'en-us': "It agilely scales sheer cliffs to live atop craggy mountains. Its fire is put out when it sleeps.",
+		'fr-fr': "Il escalade prestement les falaises escarpées et vit sur les sommets. Sa flamme s'éteint quand il dort."
 	},
 
 	variants: [

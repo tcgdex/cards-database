@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
-		en: "Tornadus",
+		'en-us': "Tornadus",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Wheel",
+				'en-us': "Energy Wheel",
 			},
 			effect: {
-				en: "Move an Energy from 1 of your Benched Pokémon to this Pokémon.",
+				'en-us': "Move an Energy from 1 of your Benched Pokémon to this Pokémon.",
 			},
 
 		},
@@ -43,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hurricane",
+				'en-us': "Hurricane",
 			},
 			effect: {
-				en: "Move a basic Energy from this Pokémon to 1 of your Benched Pokémon.",
+				'en-us': "Move a basic Energy from this Pokémon to 1 of your Benched Pokémon.",
 			},
 			damage: 80,
 
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The lower half of its body is wrapped in a cloud of energy. It zooms through the sky at 200 mph.",
+		'en-us': "The lower half of its body is wrapped in a cloud of energy. It zooms through the sky at 200 mph.",
 	},
 
 	thirdParty: {

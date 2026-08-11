@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Carvanha",
-		fr: "Carvanha de Team Aqua",
-		de: "Team Aquas Kanivanha"
+		'en-us': "Team Aqua's Carvanha",
+		'fr-fr': "Carvanha de Team Aqua",
+		'de-de': "Team Aquas Kanivanha"
 	},
 
 	illustrator: "Hiromichi Sugiyama",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Wave Splash",
-				fr: "Grosse vague",
-				de: "Wave Splash"
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse vague",
+				'de-de': "Wave Splash"
 			},
 
 			damage: 10,
@@ -43,9 +43,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Fin",
-				fr: "Aileron-rasoir",
-				de: "Razor Fin"
+				'en-us': "Razor Fin",
+				'fr-fr': "Aileron-rasoir",
+				'de-de': "Razor Fin"
 			},
 
 			damage: 20,

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Terrakion",
-		fr: "Terrakium",
+		'en-us': "Terrakion",
+		'fr-fr': "Terrakium",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Common",
@@ -25,12 +25,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Justified",
-				fr: "Cœur Noble",
+				'en-us': "Justified",
+				'fr-fr': "Cœur Noble",
 			},
 			effect: {
-				en: "Each of this Pokémon's attacks does 50 more damage to Darkness Pokémon (before applying Weakness and Resistance).",
-				fr: "Chaque attaque de ce Pokémon inflige 50 dégâts supplémentaires aux Pokémon Darkness (avant application de la Faiblesse et de la Résistance).",
+				'en-us': "Each of this Pokémon's attacks does 50 more damage to Darkness Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Chaque attaque de ce Pokémon inflige 50 dégâts supplémentaires aux Pokémon Darkness (avant application de la Faiblesse et de la Résistance).",
 			},
 		},
 	],
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crushing Blow",
-				fr: "Coup Écrasant",
+				'en-us': "Crushing Blow",
+				'fr-fr': "Coup Écrasant",
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 80,
 
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon came to the defense of Pokémon that had lost their homes in a war among humans.",
+		'en-us': "This Pokémon came to the defense of Pokémon that had lost their homes in a war among humans.",
 	},
 }
 

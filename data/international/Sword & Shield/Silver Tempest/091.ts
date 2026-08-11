@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Silver Tempest"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Phanpy",
-		fr: "Phanpy",
-		es: "Phanpy",
-		it: "Phanpy",
-		pt: "Phanpy",
-		de: "Phanpy"
+		'en-us': "Phanpy",
+		'fr-fr': "Phanpy",
+		'es-es': "Phanpy",
+		'it-it': "Phanpy",
+		'pt-br': "Phanpy",
+		'de-de': "Phanpy"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -25,21 +25,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			en: "Knock Away",
-			fr: "Asticotage",
-			es: "Derribar",
-			it: "Scaraventa",
-			pt: "Jogar Longe",
-			de: "Zurückschlagen"
+			'en-us': "Knock Away",
+			'fr-fr': "Asticotage",
+			'es-es': "Derribar",
+			'it-it': "Scaraventa",
+			'pt-br': "Jogar Longe",
+			'de-de': "Zurückschlagen"
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 20 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
-			es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
-			it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-			pt: "Jogue 1 moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
-			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
+			'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -56,7 +56,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
+		'en-us': "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM5S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロズレイド",
+		'ja-jp': "ロズレイド",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "ダンサーのような 身のこなしで 毒の トゲが びっしりと 並んだ ムチを 操り 攻撃する。",
+		'ja-jp': "ダンサーのような 身のこなしで 毒の トゲが びっしりと 並んだ ムチを 操り 攻撃する。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "ごしめいどく" },
 			cost: ["Grass"],
 			effect: {
-				ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをどくにする。",
+				'ja-jp': "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをどくにする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Grass", "Grass", "Colorless"],
 			effect: {
-				ja: "自分の場のポケモンについている[草]エネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。",
+				'ja-jp': "自分の場のポケモンについている[草]エネルギーを好きなだけ選び、自分のポケモンに好きなようにつけ替える。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ロゼリア",
+		'ja-jp': "ロゼリア",
 	},
 
 	retreat: 1,

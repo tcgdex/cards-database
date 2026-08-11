@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Jolteon ex",
-		fr: "Voltali ex",
-		de: "Blitza ex"
+		'en-us': "Jolteon ex",
+		'fr-fr': "Voltali ex",
+		'de-de': "Blitza ex"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Evoli"
+		'en-us': "Eevee",
+		'fr-fr': "Evoli"
 	},
 
 	suffix: "ex",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Evolutionary Thunder",
-				fr: "Tonnerre évolutif",
-				de: "Evolutionary Thunder"
+				'en-us': "Evolutionary Thunder",
+				'fr-fr': "Tonnerre évolutif",
+				'de-de': "Evolutionary Thunder"
 			},
 			effect: {
-				en: "Once during your turn, when you play Jolteon ex from your hand to evolve 1 of your Pokémon, you may put 1 damage counter on each of your opponent's Pokémon.",
-				fr: "Une seule fois lors de votre tour, lorsque vous jouez Voltali ex de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez placer 1 marqueur de dégât sur chacun des Pokémon de votre adversaire.",
-				de: "Einmal während deines Zuges, wenn du Blitza ex von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du auf jedes Pokémon deines Gegeners 1 Schadensmarke legen."
+				'en-us': "Once during your turn, when you play Jolteon ex from your hand to evolve 1 of your Pokémon, you may put 1 damage counter on each of your opponent's Pokémon.",
+				'fr-fr': "Une seule fois lors de votre tour, lorsque vous jouez Voltali ex de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez placer 1 marqueur de dégât sur chacun des Pokémon de votre adversaire.",
+				'de-de': "Einmal während deines Zuges, wenn du Blitza ex von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du auf jedes Pokémon deines Gegeners 1 Schadensmarke legen."
 			},
 		},
 	],
@@ -53,14 +53,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Second Bite",
-				fr: "Point douloureux",
-				de: "Wunde Stelle"
+				'en-us': "Second Bite",
+				'fr-fr': "Point douloureux",
+				'de-de': "Wunde Stelle"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur le Pokémon Défenseur.",
-				de: "Fügt 20 Schadenspunkte plus 10 Schadenspunkte für jede Schadensmarke auf dem Verteidigen Pokémon zu."
+				'en-us': "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
+				'fr-fr': "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur le Pokémon Défenseur.",
+				'de-de': "Fügt 20 Schadenspunkte plus 10 Schadenspunkte für jede Schadensmarke auf dem Verteidigen Pokémon zu."
 			},
 			damage: "20+",
 
@@ -72,14 +72,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunder Blast",
-				fr: "Grondement de tonnerre",
-				de: "Donnerkeil"
+				'en-us': "Thunder Blast",
+				'fr-fr': "Grondement de tonnerre",
+				'de-de': "Donnerkeil"
 			},
 			effect: {
-				en: "Discard a Lightning Energy card attached to Jolteon ex.",
-				fr: "Défaussez une carte Énergie  attachée à Voltali ex.",
-				de: "Lege eine an Blitza angelegte -Energiekarte auf den Ablegestapel."
+				'en-us': "Discard a Lightning Energy card attached to Jolteon ex.",
+				'fr-fr': "Défaussez une carte Énergie  attachée à Voltali ex.",
+				'de-de': "Lege eine an Blitza angelegte -Energiekarte auf den Ablegestapel."
 			},
 			damage: 70,
 

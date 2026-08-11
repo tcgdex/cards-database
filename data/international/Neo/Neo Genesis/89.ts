@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Genesis'
 
 const card: Card = {
 	name: {
-		en: "Super Energy Retrieval",
-		fr: "Super sauvegarde d'Énergie",
-		de: "Super-Energiezurückgewinnung"
+		'en-us': "Super Energy Retrieval",
+		'fr-fr': "Super sauvegarde d'Énergie",
+		'de-de': "Super-Energiezurückgewinnung"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -14,9 +14,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Trade 2 of the other cards in your hand for 4 basic Energy cards from your discard pile. If you have fewer than 4 basic Energy cards there, take all of them.",
-		fr: "Échangez 2 des autres cartes de votre main contre 4 Énergie de base de votre pile de défausse. Si vous avez moins de 4 cartes Énergie de base dans votre pile de défausse, prenez-les toutes.",
-		de: "Trade 2 of the other cards in your hand for 4 basic Energy cards from your discard pile. If you have fewer than 4 basic Energy cards there, take all of them."
+		'en-us': "Trade 2 of the other cards in your hand for 4 basic Energy cards from your discard pile. If you have fewer than 4 basic Energy cards there, take all of them.",
+		'fr-fr': "Échangez 2 des autres cartes de votre main contre 4 Énergie de base de votre pile de défausse. Si vous avez moins de 4 cartes Énergie de base dans votre pile de défausse, prenez-les toutes.",
+		'de-de': "Trade 2 of the other cards in your hand for 4 basic Energy cards from your discard pile. If you have fewer than 4 basic Energy cards there, take all of them."
 	},
 
 

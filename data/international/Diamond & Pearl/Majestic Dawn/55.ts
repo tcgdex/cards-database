@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Chatot",
-		fr: "Pijako",
-		de: "Plaudagei"
+		'en-us': "Chatot",
+		'fr-fr': "Pijako",
+		'de-de': "Plaudagei"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Mimic",
-				fr: "Copie",
-				de: "Mimikry"
+				'en-us': "Mimic",
+				'fr-fr': "Copie",
+				'de-de': "Mimikry"
 			},
 			effect: {
-				en: "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent's hand.",
-				fr: "Mélangez votre main à votre deck. Ensuite, piochez autant de cartes qu'il y a de cartes dans la main de votre adversaire.",
-				de: "Mische deine Handkarten in dein Deck. Zähle danach die Anzahl der Karten auf der Hand deines Gegners. Ziehe ebenso viele Karten."
+				'en-us': "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent's hand.",
+				'fr-fr': "Mélangez votre main à votre deck. Ensuite, piochez autant de cartes qu'il y a de cartes dans la main de votre adversaire.",
+				'de-de': "Mische deine Handkarten in dein Deck. Zähle danach die Anzahl der Karten auf der Hand deines Gegners. Ziehe ebenso viele Karten."
 			},
 
 		},
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Chatter",
-				fr: "Babil",
-				de: "Geschwätz"
+				'en-us': "Chatter",
+				'fr-fr': "Babil",
+				'de-de': "Geschwätz"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
-				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				'de-de': "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 20,
 
@@ -75,7 +75,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It can learn and speak human words. If they gather, they all learn the same saying.",
+		'en-us': "It can learn and speak human words. If they gather, they all learn the same saying.",
 	},
 
 	thirdParty: {

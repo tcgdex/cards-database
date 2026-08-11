@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "サケブシッポex"
+		'ja-jp': "サケブシッポex"
 	},
 
 	illustrator: "PLANETA Hiiragi",
@@ -19,23 +19,23 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			ja: "ぜっきょう"
+			'ja-jp': "ぜっきょう"
 		},
 
 		effect: {
-			ja: "このワザは、後攻プレイヤーの最初の番にだけ使える。次の相手の番、相手は手札からサポートを出して使えない。"
+			'ja-jp': "このワザは、後攻プレイヤーの最初の番にだけ使える。次の相手の番、相手は手札からサポートを出して使えない。"
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
 
 		name: {
-			ja: "かみくだく"
+			'ja-jp': "かみくだく"
 		},
 
 		damage: 120,
 
 		effect: {
-			ja: "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。"
+			'ja-jp': "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。"
 		}
 	}],
 

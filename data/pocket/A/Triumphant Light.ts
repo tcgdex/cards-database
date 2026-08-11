@@ -1,17 +1,17 @@
-import { Set } from '../../interfaces'
-import serie from '../Pokémon TCG Pocket'
+import { Set } from 'models/database/set'
+import serie from '../A'
 
 const set: Set = {
 	id: "A2a",
 
 	name: {
-		de: "Licht des Triumphs",
-		en: "Triumphant Light",
-		es: "Luz Triunfal",
-		fr: "Lumière Triomphale",
-		it: "Luce Trionfale",
+		'de-de': "Licht des Triumphs",
+		'en-us': "Triumphant Light",
+		'es-es': "Luz Triunfal",
+		'fr-fr': "Lumière Triomphale",
+		'it-it': "Luce Trionfale",
 		'pt-br': "Luz Triunfante",
-		ko: '초극의 빛'
+		'ko-kr': '초극의 빛'
 	},
 
 	serie: serie,
@@ -23,7 +23,7 @@ const set: Set = {
 	boosters: {
 		arceus: {
 			name: {
-				en: "Arceus"
+				'en-us': "Arceus"
 			}
 		}
 	},

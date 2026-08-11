@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドクロッグ",
+		'ja-jp': "ドクロッグ",
 		'zh-tw': "毒骷蛙",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "跳ねるように 敵に 近づくと 毒のツメで えぐるように 打つ！ かすり傷でも 相手は ＫＯだ。",
+		'ja-jp': "跳ねるように 敵に 近づくと 毒のツメで えぐるように 打つ！ かすり傷でも 相手は ＫＯだ。",
 		'zh-tw': "一躍而起接近敵人，用有毒的爪子狠抓對方！ 光是擦傷就能將對手ＫＯ。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "つきさす",
+				'ja-jp': "つきさす",
 				'zh-tw': "突刺",
 			},
 			damage: 30,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "とびこみアッパー",
+				'ja-jp': "とびこみアッパー",
 				'zh-tw': "衝天跳水",
 			},
 			damage: 120,
 			cost: ["Darkness", "Colorless"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「+50」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「+50」される。",
 				'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「+50」點。",
 			},
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "グレッグル",
+		'ja-jp': "グレッグル",
 	},
 
 	retreat: 2,

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Blaziken",
-		fr: "Brasegali",
-		de: "Lohgock"
+		'en-us': "Blaziken",
+		'fr-fr': "Brasegali",
+		'de-de': "Lohgock"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Combusken",
-		fr: "Galifeu"
+		'en-us': "Combusken",
+		'fr-fr': "Galifeu"
 	},
 
 	stage: "Stage2",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Fire Breath",
-				fr: "Haleine de feu",
-				de: "Fire Breath"
+				'en-us': "Fire Breath",
+				'fr-fr': "Haleine de feu",
+				'de-de': "Fire Breath"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may choose 1 of the Defending Pokémon. That Pokémon is now Burned. This power can't be used if Blaziken is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez choisir 1 des Pokémon Défenseurs. Ce Pokémon est maintenant Brûlé. Ce pouvoir ne peut pas être utilisé si Brasegali est affecté par un État Spécial.",
-				de: "Once during your turn (before your attack), you may choose 1 of the Defending Pokémon. That Pokémon is now Burned. This power can't be used if Blaziken is affected by a Special Condition."
+				'en-us': "Once during your turn (before your attack), you may choose 1 of the Defending Pokémon. That Pokémon is now Burned. This power can't be used if Blaziken is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez choisir 1 des Pokémon Défenseurs. Ce Pokémon est maintenant Brûlé. Ce pouvoir ne peut pas être utilisé si Brasegali est affecté par un État Spécial.",
+				'de-de': "Once during your turn (before your attack), you may choose 1 of the Defending Pokémon. That Pokémon is now Burned. This power can't be used if Blaziken is affected by a Special Condition."
 			}
 		},
 	],
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Clutch",
-				fr: "Serre",
-				de: "Clutch"
+				'en-us': "Clutch",
+				'fr-fr': "Serre",
+				'de-de': "Clutch"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
-				de: "The Defending Pokémon can't retreat during your opponent's next turn."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				'de-de': "The Defending Pokémon can't retreat during your opponent's next turn."
 			},
 			damage: 40,
 
@@ -70,14 +70,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Spin",
-				fr: "Danseflamme",
-				de: "Fire Spin"
+				'en-us': "Fire Spin",
+				'fr-fr': "Danseflamme",
+				'de-de': "Fire Spin"
 			},
 			effect: {
-				en: "Discard 2 Energy attached to Blaziken.",
-				fr: "Défaussez 2 Énergies attachées à Brasegali.",
-				de: "Discard 2 Energy attached to Blaziken."
+				'en-us': "Discard 2 Energy attached to Blaziken.",
+				'fr-fr': "Défaussez 2 Énergies attachées à Brasegali.",
+				'de-de': "Discard 2 Energy attached to Blaziken."
 			},
 			damage: 100,
 

@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Swinub",
-		fr: "Marcacrin",
-		es: "Swinub",
+		'en-us': "Swinub",
+		'fr-fr': "Marcacrin",
+		'es-es': "Swinub",
 		'es-mx': "Swinub",
-		de: "Quiekel",
-		it: "Swinub",
-		pt: "Swinub"
+		'de-de': "Quiekel",
+		'it-it': "Swinub",
+		'pt-br': "Swinub"
 	},
 
 	rarity: "Common",
@@ -26,13 +26,13 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
-			en: "Stampede",
-			fr: "Ruée",
-			es: "Estampida",
+			'en-us': "Stampede",
+			'fr-fr': "Ruée",
+			'es-es': "Estampida",
 			'es-mx': "Estampida",
-			de: "Zertrampeln",
-			it: "Fuggi Fuggi",
-			pt: "Estouro"
+			'de-de': "Zertrampeln",
+			'it-it': "Fuggi Fuggi",
+			'pt-br': "Estouro"
 		},
 
 		damage: 10
@@ -40,13 +40,13 @@ const card: Card = {
 		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Icy Snow",
-			fr: "Verglas",
-			es: "Nieve Helada",
+			'en-us': "Icy Snow",
+			'fr-fr': "Verglas",
+			'es-es': "Nieve Helada",
 			'es-mx': "Nieve Helada",
-			de: "Eisiger Schnee",
-			it: "Geloneve",
-			pt: "Neve Congelada"
+			'de-de': "Eisiger Schnee",
+			'it-it': "Geloneve",
+			'pt-br': "Neve Congelada"
 		},
 
 		damage: 20
@@ -62,7 +62,7 @@ const card: Card = {
 	regulationMark: "I",
 
 	description: {
-		en: "It searches for food by digging into the ground with its snout. Even frozen ground doesn't give it any trouble.",
+		'en-us': "It searches for food by digging into the ground with its snout. Even frozen ground doesn't give it any trouble.",
 	},
 
 	illustrator: "imoniii",

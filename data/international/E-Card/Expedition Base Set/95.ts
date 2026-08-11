@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Bulbasaur",
-		fr: "Bulbizarre",
-		de: "Bisasam"
+		'en-us': "Bulbasaur",
+		'fr-fr': "Bulbizarre",
+		'de-de': "Bisasam"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -25,10 +25,10 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Energy Barrier",
+				'en-us': "Energy Barrier",
 			},
 			effect: {
-				en: "If Mr. Mime would be damaged by an attack, reduce that damage by 10 for each basic Energy card attached to Mr. Mime. The maximum amount of damage that can be reduced by Energy Barrier is 20.",
+				'en-us': "If Mr. Mime would be damaged by an attack, reduce that damage by 10 for each basic Energy card attached to Mr. Mime. The maximum amount of damage that can be reduced by Energy Barrier is 20.",
 			},
 		},
 	],
@@ -40,14 +40,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleep Seed",
-				fr: "Graine dodo",
-				de: "Schlafsamen"
+				'en-us': "Sleep Seed",
+				'fr-fr': "Graine dodo",
+				'de-de': "Schlafsamen"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -57,9 +57,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vine Whip",
-				fr: "Fouet lianes",
-				de: "Rankenhieb"
+				'en-us': "Vine Whip",
+				'fr-fr': "Fouet lianes",
+				'de-de': "Rankenhieb"
 			},
 
 			damage: 20,

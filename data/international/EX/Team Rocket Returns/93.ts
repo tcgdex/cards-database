@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Venture Bomb",
-		de: "Venture Bomb*"
+		'en-us': "Venture Bomb",
+		'de-de': "Venture Bomb*"
 	},
 
 	illustrator: "Katsura Tabata",
@@ -14,8 +14,8 @@ const card: Card = {
 	trainerType: "Rocket's Secret Machine",
 
 	effect: {
-		en: "Flip a coin. If heads, put 1 damage counter on 1 of your opponent's Pokémon. If tails, put 1 damage counter on 1 of your Pokémon.",
-		de: "Flip a coin. If heads, put 1 damage counter on 1 of your opponent's Pokémon. If tails, put 1 damage counter on 1 of your Pokémon."
+		'en-us': "Flip a coin. If heads, put 1 damage counter on 1 of your opponent's Pokémon. If tails, put 1 damage counter on 1 of your Pokémon.",
+		'de-de': "Flip a coin. If heads, put 1 damage counter on 1 of your opponent's Pokémon. If tails, put 1 damage counter on 1 of your Pokémon."
 	},
 
 

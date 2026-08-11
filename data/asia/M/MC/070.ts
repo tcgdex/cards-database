@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オリーニョ",
+		'ja-jp': "オリーニョ",
 	},
 
 	illustrator: "Felicia Chen",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "フレッシュな 香りの 美味しい オイルを 分けてくれる。 古くから 人間と 共存してきた。",
+		'ja-jp': "フレッシュな 香りの 美味しい オイルを 分けてくれる。 古くから 人間と 共存してきた。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "えいようそ" },
 			cost: ["Grass"],
 			effect: {
-				ja: "自分のポケモン1匹のHPを「40」回復する。",
+				'ja-jp': "自分のポケモン1匹のHPを「40」回復する。",
 			},
 		},
 		{
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ミニーブ",
+		'ja-jp': "ミニーブ",
 	},
 
 	retreat: 1,

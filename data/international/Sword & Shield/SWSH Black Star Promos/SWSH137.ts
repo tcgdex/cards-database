@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
@@ -19,12 +19,12 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Light Toxtricity",
-		fr: "Salarsen lumineux",
-		de: "Helles Riffex",
-		es: "Toxtricity Claro",
-		pt: "Toxtricity Luminoso",
-		it: "Light Toxtricity"
+		'en-us': "Light Toxtricity",
+		'fr-fr': "Salarsen lumineux",
+		'de-de': "Helles Riffex",
+		'es-es': "Toxtricity Claro",
+		'pt-br': "Toxtricity Luminoso",
+		'it-it': "Light Toxtricity"
 	},
 
 	rarity: "Promo",
@@ -34,53 +34,53 @@ const card: Card = {
 	stage: "Stage1",
 
 	evolveFrom: {
-		fr: "Toxizap",
-		de: "Toxel",
-		es: "Toxel",
-		pt: "Toxel",
-		it: "Toxel",
-		en: "Toxel"
+		'fr-fr': "Toxizap",
+		'de-de': "Toxel",
+		'es-es': "Toxel",
+		'pt-br': "Toxel",
+		'it-it': "Toxel",
+		'en-us': "Toxel"
 	},
 
 	attacks: [{
 		cost: ["Colorless"],
 
 		name: {
-			fr: "Ballade Douce",
-			de: "Langsame Ballade",
-			es: "Balada Lenta",
-			pt: "Balada Lenta",
-			it: "Ballata Lenta",
-			en: "Slow Ballad"
+			'fr-fr': "Ballade Douce",
+			'de-de': "Langsame Ballade",
+			'es-es': "Balada Lenta",
+			'pt-br': "Balada Lenta",
+			'it-it': "Ballata Lenta",
+			'en-us': "Slow Ballad"
 		},
 
 		effect: {
-			fr: "Soignez 30 dégâts des deux Pokémon Actifs.",
-			de: "Heile 30 Schadenspunkte bei beiden Aktiven Pokémon.",
-			es: "Cura 30 puntos de daño a ambos Pokémon Activos.",
-			pt: "Cure 30 pontos de dano de ambos os Pokémon Ativos.",
-			it: "Cura entrambi i Pokémon attivi da 30 danni.",
-			en: "Heal 30 damage from both Active Pokémon."
+			'fr-fr': "Soignez 30 dégâts des deux Pokémon Actifs.",
+			'de-de': "Heile 30 Schadenspunkte bei beiden Aktiven Pokémon.",
+			'es-es': "Cura 30 puntos de daño a ambos Pokémon Activos.",
+			'pt-br': "Cure 30 pontos de dano de ambos os Pokémon Ativos.",
+			'it-it': "Cura entrambi i Pokémon attivi da 30 danni.",
+			'en-us': "Heal 30 damage from both Active Pokémon."
 		}
 	}, {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			fr: "Dérouillée Fracassante",
-			de: "Niederprügelnder Schlag",
-			es: "Golpe Aplastante",
-			pt: "Surra Esmagadora",
-			it: "Batosta Devastante",
-			en: "Beatdown Smash"
+			'fr-fr': "Dérouillée Fracassante",
+			'de-de': "Niederprügelnder Schlag",
+			'es-es': "Golpe Aplastante",
+			'pt-br': "Surra Esmagadora",
+			'it-it': "Batosta Devastante",
+			'en-us': "Beatdown Smash"
 		},
 
 		effect: {
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Dérouillée Fracassante.",
-			de: "Während deines nächsten Zuges kann dieses Pokémon Niederprügelnder Schlag nicht einsetzen.",
-			es: "Durante tu próximo turno, este Pokémon no puede usar Golpe Aplastante.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Surra Esmagadora.",
-			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Batosta Devastante.",
-			en: "During your next turn, this Pokémon can't use Beatdown Smash."
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Dérouillée Fracassante.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon Niederprügelnder Schlag nicht einsetzen.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede usar Golpe Aplastante.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar Surra Esmagadora.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Batosta Devastante.",
+			'en-us': "During your next turn, this Pokémon can't use Beatdown Smash."
 		},
 
 		damage: 160
@@ -89,7 +89,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When this Pokémon sounds as if it's strumming a guitar, it's actually clawing at the protrusions on its chest to generate electricity.",
+		'en-us': "When this Pokémon sounds as if it's strumming a guitar, it's actually clawing at the protrusions on its chest to generate electricity.",
 	},
 
 	thirdParty: {

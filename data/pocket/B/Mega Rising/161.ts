@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Mega Rising"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mareanie"
+		'en-us': "Mareanie"
 	},
 
 	illustrator: "Aya Kusube",
@@ -17,20 +17,20 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		en: "It has excellent regenerative capabilities. Legs\nthat a Mareanie has lost have a very bitter,\nastringent flavor—they're not suitable as food."
+		'en-us': "It has excellent regenerative capabilities. Legs\nthat a Mareanie has lost have a very bitter,\nastringent flavor—they're not suitable as food."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Poison Sting"
+			'en-us': "Poison Sting"
 		},
 
 		cost: ["Darkness"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned."
+			'en-us': "Your opponent's Active Pokémon is now Poisoned."
 		}
 	}],
 

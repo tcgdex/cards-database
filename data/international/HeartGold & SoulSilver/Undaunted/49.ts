@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Undaunted'
 
 const card: Card = {
 	name: {
-		en: "Gligar",
-		fr: "Scorplane",
-		de: "Skorgla"
+		'en-us': "Gligar",
+		'fr-fr': "Scorplane",
+		'de-de': "Skorgla"
 	},
 
 	illustrator: "Naoki Saito",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stun Poison",
-				fr: "Poison neural",
-				de: "Nervengift"
+				'en-us': "Stun Poison",
+				'fr-fr': "Poison neural",
+				'de-de': "Nervengift"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt und vergiftet."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt und vergiftet."
 			},
 			damage: 20,
 
@@ -61,7 +61,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It flies straight at its target’s face then clamps down on the startled victim to inject poison."
+		'en-us': "It flies straight at its target’s face then clamps down on the startled victim to inject poison."
 	},
 
 	variants: [

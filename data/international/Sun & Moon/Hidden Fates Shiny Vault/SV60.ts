@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Espeon-GX",
-		fr: "Mentali-GX",
+		'en-us': "Espeon-GX",
+		'fr-fr': "Mentali-GX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Shiny rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Psychic",
 	],
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
 	},
 
 	suffix: "GX",
@@ -31,12 +31,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psybeam",
-				fr: "Rafale Psy",
+				'en-us': "Psybeam",
+				'fr-fr': "Rafale Psy",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'en-us': "Your opponent's Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 			},
 			damage: 30,
 
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic",
-				fr: "Psyko",
+				'en-us': "Psychic",
+				'fr-fr': "Psyko",
 			},
 			effect: {
-				en: "This attack does 30 more damage times the amount of Energy attached to your opponent's Active Pokémon.",
-				fr: "Cette attaque inflige 30 dégâts supplémentaires multipliés par le nombre d’Énergies attachées au Pokémon Actif de votre adversaire.",
+				'en-us': "This attack does 30 more damage times the amount of Energy attached to your opponent's Active Pokémon.",
+				'fr-fr': "Cette attaque inflige 30 dégâts supplémentaires multipliés par le nombre d’Énergies attachées au Pokémon Actif de votre adversaire.",
 			},
 			damage: 60,
 
@@ -65,12 +65,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Divide-GX",
-				fr: "Scission-GX",
+				'en-us': "Divide-GX",
+				'fr-fr': "Scission-GX",
 			},
 			effect: {
-				en: "Put 10 damage counters on your opponent's Pokémon in any way you like. (You can't use more than 1 GX attack in a game.)",
-				fr: "Placez 10 marqueurs de dégâts sur les Pokémon de votre adversaire, de la manière que vous voulez. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'en-us': "Put 10 damage counters on your opponent's Pokémon in any way you like. (You can't use more than 1 GX attack in a game.)",
+				'fr-fr': "Placez 10 marqueurs de dégâts sur les Pokémon de votre adversaire, de la manière que vous voulez. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 
 		},

@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Eevee Grove"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Snorlax ex",
-		fr: "Ronflex-ex"
+		'en-us': "Snorlax ex",
+		'fr-fr': "Ronflex-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -23,28 +23,28 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Full-Mouth Manner",
-			fr: "Bouche Pleine"
+			'en-us': "Full-Mouth Manner",
+			'fr-fr': "Bouche Pleine"
 		},
 
 		effect: {
-			en: "At the end of your turn, if this Pokémon is in the Active Spot, heal 20 damage from it.",
-			fr: "À la fin de votre tour, si ce Pokémon est sur le Poste Actif, soignez 20 dégâts à ce Pokémon."
+			'en-us': "At the end of your turn, if this Pokémon is in the Active Spot, heal 20 damage from it.",
+			'fr-fr': "À la fin de votre tour, si ce Pokémon est sur le Poste Actif, soignez 20 dégâts à ce Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Flop-Down Punch",
-			fr: "Poing Torpide"
+			'en-us': "Flop-Down Punch",
+			'fr-fr': "Poing Torpide"
 		},
 
 		damage: 130,
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "This Pokémon is now Asleep.",
-			fr: "Ce Pokémon est maintenant Endormi."
+			'en-us': "This Pokémon is now Asleep.",
+			'fr-fr': "Ce Pokémon est maintenant Endormi."
 		}
 	}],
 

@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 6'
 
 const card: Card = {
 	name: {
-		en: "Chimchar",
-		fr: "Chimchar"
+		'en-us': "Chimchar",
+		'fr-fr': "Chimchar"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -26,8 +26,8 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Scratch",
-				fr: "Griffe"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe"
 			},
 
 			damage: 10,
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ember",
-				fr: "Flammèche"
+				'en-us': "Ember",
+				'fr-fr': "Flammèche"
 			},
 			effect: {
-				en: "Flip a coin. If heads discard a Fire Energy attached to Chimchar.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie  attachée à Ouisticram."
+				'en-us': "Flip a coin. If heads discard a Fire Energy attached to Chimchar.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, défaussez une Énergie  attachée à Ouisticram."
 			},
 			damage: 30,
 
@@ -58,7 +58,7 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "It agilely scales cliffs to live atop craggy mountains. Its fire is put out when it sleeps."
+		'en-us': "It agilely scales cliffs to live atop craggy mountains. Its fire is put out when it sleeps."
 	},
 
 	retreat: 1,

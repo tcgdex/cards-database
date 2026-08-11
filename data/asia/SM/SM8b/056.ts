@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルカリオ",
+		'ja-jp': "ルカリオ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "１キロ先の 生き物の 種類や 気持ちを キャッチする。 波動を 操り 群れで 獲物を 狩る。",
+		'ja-jp': "１キロ先の 生き物の 種類や 気持ちを キャッチする。 波動を 操り 群れで 獲物を 狩る。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "はどうよち" },
 			effect: {
-				ja: "自分の場に「ガブリアス」がいるなら、自分の番に1回使える。自分の山札にある好きなカードを1枚、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の場に「ガブリアス」がいるなら、自分の番に1回使える。自分の山札にある好きなカードを1枚、手札に加える。そして山札を切る。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "リオル",
+		'ja-jp': "リオル",
 	},
 
 	retreat: 1,

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dreepy",
-		fr: "Fantyrm",
-		es: "Dreepy",
-		pt: "Dreepy",
-		it: "Dreepy",
-		de: "Grolldra"
+		'en-us': "Dreepy",
+		'fr-fr': "Fantyrm",
+		'es-es': "Dreepy",
+		'pt-br': "Dreepy",
+		'it-it': "Dreepy",
+		'de-de': "Grolldra"
 	},
 
 	rarity: "Common",
@@ -24,12 +24,12 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Petty Grudge",
-			fr: "Rancune Mesquine",
-			es: "Rencor Ruin",
-			pt: "Rancinho",
-			it: "Rancormeschino",
-			de: "Mini-Groll"
+			'en-us': "Petty Grudge",
+			'fr-fr': "Rancune Mesquine",
+			'es-es': "Rencor Ruin",
+			'pt-br': "Rancinho",
+			'it-it': "Rancormeschino",
+			'de-de': "Mini-Groll"
 		},
 
 		damage: 10
@@ -37,12 +37,12 @@ const card: Card = {
 		cost: ["Fire", "Psychic"],
 
 		name: {
-			en: "Bite",
-			fr: "Morsure",
-			es: "Mordisco",
-			pt: "Mordida",
-			it: "Morso",
-			de: "Biss"
+			'en-us': "Bite",
+			'fr-fr': "Morsure",
+			'es-es': "Mordisco",
+			'pt-br': "Mordida",
+			'it-it': "Morso",
+			'de-de': "Biss"
 		},
 
 		damage: 40

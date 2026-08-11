@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV9"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ジュペッタ",
+		'ja-jp': "ジュペッタ",
 		'zh-tw': "詛咒娃娃",
 		'zh-cn': "詛咒娃娃"
 	},
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		ja: "捨てられた ぬいぐるみに 怨念が 溜まって ポケモンになった。 薄暗い 路地裏で 見かける。",
+		'ja-jp': "捨てられた ぬいぐるみに 怨念が 溜まって ポケモンになった。 薄暗い 路地裏で 見かける。",
 		'zh-tw': "怨念積存在被丟棄的 布偶裡而變成了寶可夢。 可以在昏暗的巷子裡發現牠。",
 		'zh-cn': "怨念積存在被丟棄的 布偶裡而變成了寶可夢。 可以在昏暗的巷子裡發現牠。"
 	},
@@ -29,13 +29,13 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "のろいのことば",
+			'ja-jp': "のろいのことば",
 			'zh-tw': "詛咒言語",
 			'zh-cn': "詛咒言語"
 		},
 
 		effect: {
-			ja: "相手は相手自身の手札を3枚選び、山札にもどして切る。",
+			'ja-jp': "相手は相手自身の手札を3枚選び、山札にもどして切る。",
 			'zh-tw': "對手選擇3張對手自己的手牌，放回牌庫並重洗。",
 			'zh-cn': "對手選擇3張對手自己的手牌，放回牌庫並重洗。"
 		}
@@ -43,7 +43,7 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			ja: "ホロウショット",
+			'ja-jp': "ホロウショット",
 			'zh-tw': "陰森射擊",
 			'zh-cn': "陰森射擊"
 		},

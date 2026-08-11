@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Destined Rivals"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ethan's Cyndaquil",
-		fr: "Héricendre de Luth",
-		de: "Klarins Feurigel",
-		it: "Cyndaquil di Armonio",
-		es: "Cyndaquil de Eco",
-		pt: "Cyndaquil do Ethan",
+		'en-us': "Ethan's Cyndaquil",
+		'fr-fr': "Héricendre de Luth",
+		'de-de': "Klarins Feurigel",
+		'it-it': "Cyndaquil di Armonio",
+		'es-es': "Cyndaquil de Eco",
+		'pt-br': "Cyndaquil do Ethan",
 		'es-mx': "Cyndaquil de Ethan"
 	},
 
@@ -26,22 +26,22 @@ const card: Card = {
 		cost: ["Fire"],
 
 		name: {
-			en: "Ember",
-			fr: "Flammèche",
-			de: "Glut",
-			it: "Braciere",
-			es: "Ascuas",
-			pt: "Brasa",
+			'en-us': "Ember",
+			'fr-fr': "Flammèche",
+			'de-de': "Glut",
+			'it-it': "Braciere",
+			'es-es': "Ascuas",
+			'pt-br': "Brasa",
 			'es-mx': "Brasas"
 		},
 
 		effect: {
-			en: "Discard an Energy from this Pokémon.",
-			fr: "Défaussez une Énergie de ce Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon.",
+			'en-us': "Discard an Energy from this Pokémon.",
+			'fr-fr': "Défaussez une Énergie de ce Pokémon.",
+			'de-de': "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+			'it-it': "Scarta un'Energia da questo Pokémon.",
+			'es-es': "Descarta 1 Energía de este Pokémon.",
+			'pt-br': "Descarte uma Energia deste Pokémon.",
 			'es-mx': "Descarta 1 Energía de este Pokémon."
 		},
 

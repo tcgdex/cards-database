@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Delcatty",
-		fr: "Delcatty",
-		de: "Enekoro"
+		'en-us': "Delcatty",
+		'fr-fr': "Delcatty",
+		'de-de': "Enekoro"
 	},
 
 	illustrator: "Midori Harada",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Skitty",
-		fr: "Skitty"
+		'en-us': "Skitty",
+		'fr-fr': "Skitty"
 	},
 
 	stage: "Stage1",
@@ -35,9 +35,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Kratzer"
 			},
 
 			damage: 30,
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ultra Energy Source",
-				fr: "Source d'énergie ultra",
-				de: "Ultra Energiequelle"
+				'en-us': "Ultra Energy Source",
+				'fr-fr': "Source d'énergie ultra",
+				'de-de': "Ultra Energiequelle"
 			},
 			effect: {
-				en: "Does 10 damage times the number of basic Energy cards attached to all of the Active Pokémon (both yours and your opponent's).",
-				fr: "Inflige 10 dégâts multipliés par le nombre de cartes Énergie attachées aux Pokémon Actifs (les vôtres et ceux de votre adversaire).",
-				de: "Fügt für jede Basis-Energie, die an allen Aktiven Pokémon (deine und die des Gegners) angelegt ist, 10 Schadenspunkte zu."
+				'en-us': "Does 10 damage times the number of basic Energy cards attached to all of the Active Pokémon (both yours and your opponent's).",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de cartes Énergie attachées aux Pokémon Actifs (les vôtres et ceux de votre adversaire).",
+				'de-de': "Fügt für jede Basis-Energie, die an allen Aktiven Pokémon (deine und die des Gegners) angelegt ist, 10 Schadenspunkte zu."
 			},
 			damage: "10×",
 

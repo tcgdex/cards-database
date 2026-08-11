@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragon'
 
 const card: Card = {
 	name: {
-		en: "Ninjask",
-		fr: "Ninjask",
-		de: "Ninjask"
+		'en-us': "Ninjask",
+		'fr-fr': "Ninjask",
+		'de-de': "Ninjask"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nincada",
-		fr: "Ningale"
+		'en-us': "Nincada",
+		'fr-fr': "Ningale"
 	},
 
 	stage: "Stage1",
@@ -32,14 +32,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Loose Shell",
-				fr: "Carapace branlante",
-				de: "Loose Shell"
+				'en-us': "Loose Shell",
+				'fr-fr': "Carapace branlante",
+				'de-de': "Loose Shell"
 			},
 			effect: {
-				en: "Once during your turn, when you play Ninjask from your hand to evolve 1 of your Pokémon, you may search your deck for Shedinja and put it onto your Bench. Treat the new Benched Pokémon as a Basic Pokémon. Shuffle your deck afterward.",
-				fr: "Une seule fois pendant votre tour, lorsque vous placez Ninjask de votre main sur un de vos Pokémon pour le faire évoluer, vous pouvez chercher Munja dans votre deck et le placer sur votre Banc. Traitez le nouveau Pokémon du Banc comme un Pokémon de base. Ensuite, mélangez votre deck.",
-				de: "Once during your turn, when you play Ninjask from your hand to evolve 1 of your Pokémon, you may search your deck for Shedinja and put it onto your Bench. Treat the new Benched Pokémon as a Basic Pokémon. Shuffle your deck afterward."
+				'en-us': "Once during your turn, when you play Ninjask from your hand to evolve 1 of your Pokémon, you may search your deck for Shedinja and put it onto your Bench. Treat the new Benched Pokémon as a Basic Pokémon. Shuffle your deck afterward.",
+				'fr-fr': "Une seule fois pendant votre tour, lorsque vous placez Ninjask de votre main sur un de vos Pokémon pour le faire évoluer, vous pouvez chercher Munja dans votre deck et le placer sur votre Banc. Traitez le nouveau Pokémon du Banc comme un Pokémon de base. Ensuite, mélangez votre deck.",
+				'de-de': "Once during your turn, when you play Ninjask from your hand to evolve 1 of your Pokémon, you may search your deck for Shedinja and put it onto your Bench. Treat the new Benched Pokémon as a Basic Pokémon. Shuffle your deck afterward."
 			},
 		},
 	],
@@ -51,14 +51,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Touch",
-				fr: "Touche rapide",
-				de: "Quick Touch"
+				'en-us': "Quick Touch",
+				'fr-fr': "Touche rapide",
+				'de-de': "Quick Touch"
 			},
 			effect: {
-				en: "You may switch Ninjask with 1 of your Benched Pokémon. If you do, you may move any number of Grass Energy cards attached to Ninjask to the new Active Pokémon.",
-				fr: "Vous pouvez échanger Ninjask contre un des Pokémon de votre Banc. Vous pouvez alors attacher au nouveau Pokémon Actif autant de cartes Énergie  attachées à Ninjask que vous le voulez.",
-				de: "You may switch Ninjask with 1 of your Benched Pokémon. If you do, you may move any number of  Enegry cards attached to Ninjask to the new Active Pokémon."
+				'en-us': "You may switch Ninjask with 1 of your Benched Pokémon. If you do, you may move any number of Grass Energy cards attached to Ninjask to the new Active Pokémon.",
+				'fr-fr': "Vous pouvez échanger Ninjask contre un des Pokémon de votre Banc. Vous pouvez alors attacher au nouveau Pokémon Actif autant de cartes Énergie  attachées à Ninjask que vous le voulez.",
+				'de-de': "You may switch Ninjask with 1 of your Benched Pokémon. If you do, you may move any number of  Enegry cards attached to Ninjask to the new Active Pokémon."
 			},
 			damage: 30,
 

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "まるのみされたピカチュウ",
+		'ja-jp': "まるのみされたピカチュウ",
 		'zh-tw': "不良蛙",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "オコヤの森で 出会った ピカチュウと ウッウ。 すっかり ウッウに 気に入られてしまい 困っている。",
+		'ja-jp': "オコヤの森で 出会った ピカチュウと ウッウ。 すっかり ウッウに 気に入られてしまい 困っている。",
 		'zh-tw': "毒素在稀釋後能製成藥品。牠是製藥公司的吉祥物，廣受眾人的歡迎。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "もがく",
+				'ja-jp': "もがく",
 				'zh-tw': "推擊",
 			},
 			damage: 10,
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: 70,
 			cost: ["Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、すべてトラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、すべてトラッシュする。",
 			},
 		},
 	],

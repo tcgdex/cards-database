@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Blast'
 
 const card: Card = {
 	name: {
-		en: "Drifblim",
-		fr: "Grodrive",
-		es: "Drifblim",
-		it: "Drifblim",
-		pt: "Drifblim",
-		de: "Drifzepeli"
+		'en-us': "Drifblim",
+		'fr-fr': "Grodrive",
+		'es-es': "Drifblim",
+		'it-it': "Drifblim",
+		'pt-br': "Drifblim",
+		'de-de': "Drifzepeli"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Drifloon",
-		fr: "Baudrive",
+		'en-us': "Drifloon",
+		'fr-fr': "Baudrive",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Drifting Balloon",
-				fr: "Ballon Flottant",
-				es: "Globo a la Deriva",
-				it: "Pallonderiva",
-				pt: "Balão à Deriva",
-				de: "Gleitballon"
+				'en-us': "Drifting Balloon",
+				'fr-fr': "Ballon Flottant",
+				'es-es': "Globo a la Deriva",
+				'it-it': "Pallonderiva",
+				'pt-br': "Balão à Deriva",
+				'de-de': "Gleitballon"
 			},
 			effect: {
-				en: "This Pokémon’s attacks cost Colorless less for each of your opponent’s Team Plasma Pokémon in play.",
-				fr: "Les attaques de ce Pokémon coûtent Colorless de moins pour chaque Pokémon de la Team Plasma de votre adversaire en jeu.",
-				es: "Los ataques de este Pokémon cuestan Colorless menos por cada uno de los Pokémon del Equipo Plasma de tu rival en juego.",
-				it: "Gli attacchi di questo Pokémon costano Colorless in meno per ogni Pokémon del Team Plasma del tuo avversario in gioco.",
-				pt: "O ataque deste Pokémon custa Colorless a menos para cada Pokémon da Equipe Plasma do oponente em jogo.",
-				de: "Die Angriffskosten dieses Pokémon verringern sich um Colorless für jedes Team Plasma-Pokémon, das dein Gegner im Spiel hat."
+				'en-us': "This Pokémon’s attacks cost Colorless less for each of your opponent’s Team Plasma Pokémon in play.",
+				'fr-fr': "Les attaques de ce Pokémon coûtent Colorless de moins pour chaque Pokémon de la Team Plasma de votre adversaire en jeu.",
+				'es-es': "Los ataques de este Pokémon cuestan Colorless menos por cada uno de los Pokémon del Equipo Plasma de tu rival en juego.",
+				'it-it': "Gli attacchi di questo Pokémon costano Colorless in meno per ogni Pokémon del Team Plasma del tuo avversario in gioco.",
+				'pt-br': "O ataque deste Pokémon custa Colorless a menos para cada Pokémon da Equipe Plasma do oponente em jogo.",
+				'de-de': "Die Angriffskosten dieses Pokémon verringern sich um Colorless für jedes Team Plasma-Pokémon, das dein Gegner im Spiel hat."
 			},
 		},
 	],
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Derail",
-				fr: "Déraillement",
+				'en-us': "Derail",
+				'fr-fr': "Déraillement",
 			},
 			effect: {
-				en: "Discard a Special Energy attached to the Defending Pokémon.",
-				fr: "Défaussez une Énergie spéciale attachée au Pokémon Défenseur.",
+				'en-us': "Discard a Special Energy attached to the Defending Pokémon.",
+				'fr-fr': "Défaussez une Énergie spéciale attachée au Pokémon Défenseur.",
 			},
 			damage: 70,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "They carry people and Pokémon, but the wind can catch them, so there can't be a fixed destination.",
+		'en-us': "They carry people and Pokémon, but the wind can catch them, so there can't be a fixed destination.",
 	},
 
 	thirdParty: {

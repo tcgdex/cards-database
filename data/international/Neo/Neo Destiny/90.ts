@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Destiny'
 
 const card: Card = {
 	name: {
-		en: "Venonat",
-		fr: "Mimitoss",
-		de: "Bluzuk"
+		'en-us': "Venonat",
+		'fr-fr': "Mimitoss",
+		'de-de': "Bluzuk"
 	},
 
 	illustrator: "Masako Yamashita",
@@ -31,9 +31,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
-				fr: "Rogne",
-				de: "Gnaw"
+				'en-us': "Gnaw",
+				'fr-fr': "Rogne",
+				'de-de': "Gnaw"
 			},
 
 			damage: 10,
@@ -42,14 +42,14 @@ const card: Card = {
 		{
 			cost: ["Grass", "Colorless", "Colorless"],
 			name: {
-				en: "Poisonpowder",
-				fr: "Poudre toxik",
-				de: "Poison Barb"
+				'en-us': "Poisonpowder",
+				'fr-fr': "Poudre toxik",
+				'de-de': "Poison Barb"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné.",
+				'de-de': "The Defending Pokémon is now Poisoned."
 			},
 			damage: 40,
 
@@ -66,8 +66,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It possesses a type of radar, which it can use to find the insects it eats for food, even in pitch darkness.",
-		fr: "Il possède une sorte de radar qu'il utilise pour trouver les insectes qu'il mange, même dans l'obscurité la plus totale."
+		'en-us': "It possesses a type of radar, which it can use to find the insects it eats for food, even in pitch darkness.",
+		'fr-fr': "Il possède une sorte de radar qu'il utilise pour trouver les insectes qu'il mange, même dans l'obscurité la plus totale."
 	},
 
 

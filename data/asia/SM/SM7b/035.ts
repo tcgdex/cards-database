@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アブリボン",
+		'ja-jp': "アブリボン",
 	},
 
 	illustrator: "Hasuno",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fairy"],
 
 	description: {
-		ja: "アブリボンの 花粉団子は 栄養満点の ものも ある。 サプリメントとして 売られることも。",
+		'ja-jp': "アブリボンの 花粉団子は 栄養満点の ものも ある。 サプリメントとして 売られることも。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ふしぎなはおと" },
 			effect: {
-				ja: "このポケモンがベンチにいるかぎり、自分の場の[妖]ポケモン全員は、相手が手札からサポートを出して使ったとき、その効果を受けない。",
+				'ja-jp': "このポケモンがベンチにいるかぎり、自分の場の[妖]ポケモン全員は、相手が手札からサポートを出して使ったとき、その効果を受けない。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "アブリー",
+		'ja-jp': "アブリー",
 	},
 
 	retreat: 0,

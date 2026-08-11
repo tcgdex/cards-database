@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ホルード",
+		'ja-jp': "ホルード",
 	},
 
 	illustrator: "Mousho",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		ja: "大きな 耳は １トンを 超える 岩を 楽に 持ち上げる パワー。 工事現場で 大活躍する。",
+		'ja-jp': "大きな 耳は １トンを 超える 岩を 楽に 持ち上げる パワー。 工事現場で 大活躍する。",
 	},
 
 	stage: "Stage1",
@@ -26,7 +26,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "ホルビー",
+		'ja-jp': "ホルビー",
 	},
 
 	retreat: 4,

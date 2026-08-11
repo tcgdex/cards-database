@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../web1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Vulpix",
+		'ja-jp': "Vulpix",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			cost: ["Fire", "Fire"],
 			name: {
-				ja: "foxfire",
+				'ja-jp': "foxfire",
 			},
 			effect: {
-				ja: "ダメージを与える前に、対戦相手のベンチ付きポケモンの1つで防御ポケモンを切り替えることができます。",
+				'ja-jp': "ダメージを与える前に、対戦相手のベンチ付きポケモンの1つで防御ポケモンを切り替えることができます。",
 			},
 			damage: 10,
 		},

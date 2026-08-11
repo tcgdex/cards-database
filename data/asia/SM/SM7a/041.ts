@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM7a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゲノセクトGX",
+		'ja-jp': "ゲノセクトGX",
 	},
 
 	illustrator: "Yoshinobu Saito",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ダブルカセット" },
 			effect: {
-				ja: "このポケモンは、「ポケモンのどうぐ」を2枚までつけられる。（この特性がなくなったとき、自分は「ポケモンのどうぐ」を1枚になるようにトラッシュする。）",
+				'ja-jp': "このポケモンは、「ポケモンのどうぐ」を2枚までつけられる。（この特性がなくなったとき、自分は「ポケモンのどうぐ」を1枚になるようにトラッシュする。）",
 			},
 		},
 	],
@@ -35,7 +35,7 @@ const card: Card = {
 			damage: 190,
 			cost: ["Metal", "Metal", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

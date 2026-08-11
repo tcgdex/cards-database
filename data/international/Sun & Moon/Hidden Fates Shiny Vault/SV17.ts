@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Inkay",
-		fr: "Sepiatop",
+		'en-us': "Inkay",
+		'fr-fr': "Sepiatop",
 	},
 	illustrator: "Shigenori Negishi",
 	rarity: "Shiny rare",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hypnosis",
-				fr: "Hypnose",
+				'en-us': "Hypnosis",
+				'fr-fr': "Hypnose",
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'en-us': "Your opponent's Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			},
 
 		},
@@ -51,7 +51,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It flashes the light-emitting spots on its body, which drains its opponent's will to fight. It takes the opportunity to scuttle away and hide.",
+		'en-us': "It flashes the light-emitting spots on its body, which drains its opponent's will to fight. It takes the opportunity to scuttle away and hide.",
 	},
 }
 

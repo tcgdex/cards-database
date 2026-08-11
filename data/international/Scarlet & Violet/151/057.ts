@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../151"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Colossinge",
-		en: "Primeape",
-		es: "Primeape",
-		it: "Primeape",
-		pt: "Primeape",
-		de: "Rasaff"
+		'fr-fr': "Colossinge",
+		'en-us': "Primeape",
+		'es-es': "Primeape",
+		'it-it': "Primeape",
+		'pt-br': "Primeape",
+		'de-de': "Rasaff"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 120,
 	types: ["Fighting"],
 	evolveFrom: {
-		fr: "Férosinge",
-		en: "Mankey",
-		es: "Mankey",
-		it: "Mankey",
-		pt: "Mankey",
-		de: "Menki"
+		'fr-fr': "Férosinge",
+		'en-us': "Mankey",
+		'es-es': "Mankey",
+		'it-it': "Mankey",
+		'pt-br': "Mankey",
+		'de-de': "Menki"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			fr: "Fulmination",
-			en: "Rant and Rave",
-			es: "Despotricar",
-			it: "Sbraita e Strepita",
-			pt: "Armar um Barraco",
-			de: "Toben und rasen"
+			'fr-fr': "Fulmination",
+			'en-us': "Rant and Rave",
+			'es-es': "Despotricar",
+			'it-it': "Sbraita e Strepita",
+			'pt-br': "Armar um Barraco",
+			'de-de': "Toben und rasen"
 		},
 
 		effect: {
-			fr: "Ce Pokémon est maintenant Confus.",
-			en: "This Pokémon is now Confused.",
-			es: "Este Pokémon pasa a estar Confundido.",
-			it: "Questo Pokémon viene confuso.",
-			pt: "Este Pokémon agora está Confuso.",
-			de: "Dieses Pokémon ist jetzt verwirrt."
+			'fr-fr': "Ce Pokémon est maintenant Confus.",
+			'en-us': "This Pokémon is now Confused.",
+			'es-es': "Este Pokémon pasa a estar Confundido.",
+			'it-it': "Questo Pokémon viene confuso.",
+			'pt-br': "Este Pokémon agora está Confuso.",
+			'de-de': "Dieses Pokémon ist jetzt verwirrt."
 		},
 
 		damage: 40
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Fighting", "Colorless", "Colorless"],
 
 		name: {
-			fr: "Destruction Furieuse",
-			en: "Raging Smash",
-			es: "Golpe Rabioso",
-			it: "Colpo Infuriato",
-			pt: "Pancada Furiosa",
-			de: "Wütender Schlag"
+			'fr-fr': "Destruction Furieuse",
+			'en-us': "Raging Smash",
+			'es-es': "Golpe Rabioso",
+			'it-it': "Colpo Infuriato",
+			'pt-br': "Pancada Furiosa",
+			'de-de': "Wütender Schlag"
 		},
 
 		effect: {
-			fr: "Si ce Pokémon n'est pas Confus, cette attaque ne fait rien.",
-			en: "If this Pokémon isn't Confused, this attack does nothing.",
-			es: "Si este Pokémon no está Confundido, este ataque no hace nada.",
-			it: "Se questo Pokémon non è confuso, questo attacco non ha effetto.",
-			pt: "Se este Pokémon não estiver Confuso, este ataque não fará nada.",
-			de: "Wenn dieses Pokémon nicht verwirrt ist, hat diese Attacke keine Auswirkungen."
+			'fr-fr': "Si ce Pokémon n'est pas Confus, cette attaque ne fait rien.",
+			'en-us': "If this Pokémon isn't Confused, this attack does nothing.",
+			'es-es': "Si este Pokémon no está Confundido, este ataque no hace nada.",
+			'it-it': "Se questo Pokémon non è confuso, questo attacco non ha effetto.",
+			'pt-br': "Se este Pokémon não estiver Confuso, este ataque não fará nada.",
+			'de-de': "Wenn dieses Pokémon nicht verwirrt ist, hat diese Attacke keine Auswirkungen."
 		},
 
 		damage: 150
@@ -84,7 +84,7 @@ const card: Card = {
 	regulationMark: "G",
 
 	description: {
-		en: "It becomes wildly furious if it even senses someone looking at it. It chases anyone that meets its glare.",
+		'en-us': "It becomes wildly furious if it even senses someone looking at it. It chases anyone that meets its glare.",
 	},
 
 	variants: [

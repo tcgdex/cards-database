@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Decidueye-GX",
-		fr: "Archéduc-GX",
+		'en-us': "Decidueye-GX",
+		'fr-fr': "Archéduc-GX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Shiny rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Grass",
 	],
 	evolveFrom: {
-		en: "Dartrix",
-		fr: "Efflèche",
+		'en-us': "Dartrix",
+		'fr-fr': "Efflèche",
 	},
 
 	suffix: "GX",
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Feather Arrow",
-				fr: "Flèche Empennée",
+				'en-us': "Feather Arrow",
+				'fr-fr': "Flèche Empennée",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may put 2 damage counters on 1 of your opponent's Pokémon.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez placer 2 marqueurs de dégâts sur l’un des Pokémon de votre adversaire.",
+				'en-us': "Once during your turn (before your attack), you may put 2 damage counters on 1 of your opponent's Pokémon.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez placer 2 marqueurs de dégâts sur l’un des Pokémon de votre adversaire.",
 			},
 		},
 	],
@@ -45,8 +45,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Leaf",
-				fr: "Tranch’Herbe",
+				'en-us': "Razor Leaf",
+				'fr-fr': "Tranch’Herbe",
 			},
 
 			damage: 90,
@@ -57,12 +57,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Hollow Hunt-GX",
-				fr: "Chasse Éthérée-GX",
+				'en-us': "Hollow Hunt-GX",
+				'fr-fr': "Chasse Éthérée-GX",
 			},
 			effect: {
-				en: "Put 3 cards from your discard pile into your hand. (You can't use more than 1 GX attack in a game.)",
-				fr: "Prenez 3 cartes dans votre pile de défausse et ajoutez-les à votre main. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'en-us': "Put 3 cards from your discard pile into your hand. (You can't use more than 1 GX attack in a game.)",
+				'fr-fr': "Prenez 3 cartes dans votre pile de défausse et ajoutez-les à votre main. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 
 		},

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M5";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グレンアルマ",
+		'ja-jp': "グレンアルマ",
 	},
 
 	illustrator: "Iwamoto05",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "40+",
 			cost: ["Fire"],
 			effect: {
-				ja: "[R]エネルギーがついている自分のベンチポケモンの数×40ダメージ追加。",
+				'ja-jp': "[R]エネルギーがついている自分のベンチポケモンの数×40ダメージ追加。",
 			},
 		},
 	],
@@ -38,7 +38,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "カルボウ",
+		'ja-jp': "カルボウ",
 	},
 
 	retreat: 2,

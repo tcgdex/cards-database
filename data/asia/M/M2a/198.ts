@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M2a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドンメル",
+		'ja-jp': "ドンメル",
 	},
 
 	illustrator: "Yoshimi Miyoshi",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "１２００度の マグマを 体内に 溜めこんでいる。 炎の 技を 使うと コブは 小さく しぼむ。",
+		'ja-jp': "１２００度の マグマを 体内に 溜めこんでいる。 炎の 技を 使うと コブは 小さく しぼむ。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "しゃくねつボディ" },
 			effect: {
-				ja: "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンをやけどにする。",
+				'ja-jp': "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンをやけどにする。",
 			},
 		},
 	],

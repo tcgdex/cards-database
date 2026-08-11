@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Mareep",
-		fr: "Wattouat",
-		de: "Voltilamm"
+		'en-us': "Mareep",
+		'fr-fr': "Wattouat",
+		'de-de': "Voltilamm"
 	},
 
 	illustrator: "Yuka Morii",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Minor Errand-Running",
-				fr: "Rendez-vous mineur",
-				de: "Minor Errand-Running"
+				'en-us': "Minor Errand-Running",
+				'fr-fr': "Rendez-vous mineur",
+				'de-de': "Minor Errand-Running"
 			},
 			effect: {
-				en: "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une carte Énergie de base. Montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
-				de: "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+				'en-us': "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck une carte Énergie de base. Montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
+				'de-de': "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
 			},
 
 		},
@@ -43,14 +43,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Expand",
-				fr: "Pousstoidla",
-				de: "Expand"
+				'en-us': "Expand",
+				'fr-fr': "Pousstoidla",
+				'de-de': "Expand"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Mareep by attacks is reduced by 10 (after applying Weakness and Resistance).",
-				fr: "Lors du prochain tour de votre adversaire, tous dégâts infligés à Wattouat par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
-				de: "During your opponent's next turn, any damage done to Mareep by attacks is reduced by 10 (after applying Weakness and Resistance)."
+				'en-us': "During your opponent's next turn, any damage done to Mareep by attacks is reduced by 10 (after applying Weakness and Resistance).",
+				'fr-fr': "Lors du prochain tour de votre adversaire, tous dégâts infligés à Wattouat par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "During your opponent's next turn, any damage done to Mareep by attacks is reduced by 10 (after applying Weakness and Resistance)."
 			},
 			damage: 10,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking."
+		'en-us': "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking."
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Evolving Skies'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 
 
 	name: {
-		en: "Scrafty",
-		fr: "Baggaïd",
-		es: "Scrafty",
-		it: "Scrafty",
-		pt: "Scrafty",
-		de: "Irokex"
+		'en-us': "Scrafty",
+		'fr-fr': "Baggaïd",
+		'es-es': "Scrafty",
+		'it-it': "Scrafty",
+		'pt-br': "Scrafty",
+		'de-de': "Irokex"
 	},
 
 	rarity: "Uncommon",
@@ -23,33 +23,33 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Headbutt",
-			fr: "Coup d'Boule",
-			es: "Golpe Cabeza",
-			it: "Bottintesta",
-			pt: "Headbutt",
-			de: "Kopfnuss"
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'es-es': "Golpe Cabeza",
+			'it-it': "Bottintesta",
+			'pt-br': "Headbutt",
+			'de-de': "Kopfnuss"
 		},
 
 		damage: 40,
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
-			en: "Shakedown",
-			fr: "Dépouiller",
-			es: "Conmocionar",
-			it: "Scossone",
-			pt: "Shakedown",
-			de: "Abschütteln"
+			'en-us': "Shakedown",
+			'fr-fr': "Dépouiller",
+			'es-es': "Conmocionar",
+			'it-it': "Scossone",
+			'pt-br': "Shakedown",
+			'de-de': "Abschütteln"
 		},
 
 		effect: {
-			en: "Discard a random card from your opponent's hand.",
-			fr: "Défaussez au hasard une carte de la main de votre adversaire.",
-			es: "Descarta 1 carta aleatoria de la mano de tu rival.",
-			it: "Scarta una carta a caso dalla mano del tuo avversario.",
-			pt: "Discard a random card from your opponent's hand.",
-			de: "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
+			'en-us': "Discard a random card from your opponent's hand.",
+			'fr-fr': "Défaussez au hasard une carte de la main de votre adversaire.",
+			'es-es': "Descarta 1 carta aleatoria de la mano de tu rival.",
+			'it-it': "Scarta una carta a caso dalla mano del tuo avversario.",
+			'pt-br': "Discard a random card from your opponent's hand.",
+			'de-de': "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 90,
@@ -64,16 +64,16 @@ const card: Card = {
 	retreat: 2,
 
 	evolveFrom: {
-		en: "Scraggy",
-		fr: "Baggiguane",
-		es: "Scraggy",
-		it: "Scraggy",
-		pt: "Scraggy",
-		de: "Zurrokex"
+		'en-us': "Scraggy",
+		'fr-fr': "Baggiguane",
+		'es-es': "Scraggy",
+		'it-it': "Scraggy",
+		'pt-br': "Scraggy",
+		'de-de': "Zurrokex"
 	},
 
 	description: {
-		en: "While mostly known for having the temperament of an aggressive ruffian, this Pokémon takes very good care of its family, friends, and territory."
+		'en-us': "While mostly known for having the temperament of an aggressive ruffian, this Pokémon takes very good care of its family, friends, and territory."
 	},
 
 	dexId: [560],

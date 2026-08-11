@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Grimer",
-		de: "Sleima"
+		'en-us': "Grimer",
+		'de-de': "Sleima"
 	},
 
 	illustrator: "Aya Kusube",
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Taunt",
-				de: "Taunt"
+				'en-us': "Taunt",
+				'de-de': "Taunt"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Benched Pokémon and switch it with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.",
-				de: "Choose 1 of your opponent's Benched Pokémon and switch it with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch."
+				'en-us': "Choose 1 of your opponent's Benched Pokémon and switch it with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch.",
+				'de-de': "Choose 1 of your opponent's Benched Pokémon and switch it with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch."
 			},
 
 		},
@@ -45,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spit Poison",
-				de: "Spit Poison"
+				'en-us': "Spit Poison",
+				'de-de': "Spit Poison"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				de: "The Defending Pokémo is now Poisoned."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'de-de': "The Defending Pokémo is now Poisoned."
 			},
 			damage: 10,
 

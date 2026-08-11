@@ -1,12 +1,12 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../S'
 
 const set: Set = {
 	id: 'SCA',
 	name: {
 		'zh-tw': '搭檔',
-		id: 'V Starter Deck Teman',
-		th: 'V Starter Deck บัดดี้'
+		'id-id': 'V Starter Deck Teman',
+		'th-th': 'V Starter Deck บัดดี้'
 	},
 
 	serie: serie,
@@ -17,8 +17,8 @@ const set: Set = {
 
 	releaseDate: {
 		'zh-tw': '2020-11-27',
-		id: '2021-03-21',
-		th: '2021-01-29'
+		'id-id': '2021-03-21',
+		'th-th': '2021-01-29'
 	}
 }
 

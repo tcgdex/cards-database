@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モココ",
+		'ja-jp': "モココ",
 		'zh-tw': "呆火鱷",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "電気を 蓄えすぎた 結果 体の 表面に 産毛すら 生えない 部分が できてしまった。",
+		'ja-jp': "電気を 蓄えすぎた 結果 体の 表面に 産毛すら 生えない 部分が できてしまった。",
 		'zh-tw': "火囊很小，因此能量會溢出來，在牠頭上的凹槽那裡搖曳晃動。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "バチバチ",
+				'ja-jp': "バチバチ",
 				'zh-tw': "咬",
 			},
 			damage: 30,
@@ -31,13 +31,13 @@ const card: Card = {
 		},
 		{
 			name: {
-				ja: "げきでんりゅう",
+				'ja-jp': "げきでんりゅう",
 				'zh-tw': "烈焰",
 			},
 			damage: 80,
 			cost: ["Lightning", "Colorless", "Colorless"],
 			effect: {
-				ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。",
 			},
 		},
 	],
@@ -56,7 +56,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "メリープ",
+		'ja-jp': "メリープ",
 	},
 
 	retreat: 2,

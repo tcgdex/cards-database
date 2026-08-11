@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Altaria",
-		fr: "Altaria",
-		de: "Altaria"
+		'en-us': "Altaria",
+		'fr-fr': "Altaria",
+		'de-de': "Altaria"
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Swablu",
-		fr: "Tylton"
+		'en-us': "Swablu",
+		'fr-fr': "Tylton"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Safeguard",
-				fr: "Rune protectrice",
-				de: "Safeguard"
+				'en-us': "Safeguard",
+				'fr-fr': "Rune protectrice",
+				'de-de': "Safeguard"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, including damage, done to Altaria by your opponent's Pokémon-ex.",
-				fr: "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Altaria par le Pokémon-ex de votre adversaire.",
-				de: "Prevent all effects of attacks, including damage done to Altaria by your opponent's Pokémon-ex."
+				'en-us': "Prevent all effects of attacks, including damage, done to Altaria by your opponent's Pokémon-ex.",
+				'fr-fr': "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Altaria par le Pokémon-ex de votre adversaire.",
+				'de-de': "Prevent all effects of attacks, including damage done to Altaria by your opponent's Pokémon-ex."
 			},
 		},
 	],
@@ -52,14 +52,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Double Wing Attack",
-				fr: "Double cru-aile",
-				de: "Double Wing Attack"
+				'en-us': "Double Wing Attack",
+				'fr-fr': "Double cru-aile",
+				'de-de': "Double Wing Attack"
 			},
 			effect: {
-				en: "Does 20 damage to each Defending Pokémon.",
-				fr: "Inflige 20 dégâts à chaque Pokémon Défenseur.",
-				de: "Does 20 damage to each Defending Pokémon."
+				'en-us': "Does 20 damage to each Defending Pokémon.",
+				'fr-fr': "Inflige 20 dégâts à chaque Pokémon Défenseur.",
+				'de-de': "Does 20 damage to each Defending Pokémon."
 			},
 
 		},
@@ -70,9 +70,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dive",
-				fr: "Plongée",
-				de: "Dive"
+				'en-us': "Dive",
+				'fr-fr': "Plongée",
+				'de-de': "Dive"
 			},
 
 			damage: 50,

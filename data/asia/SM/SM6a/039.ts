@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジャラコ",
+		'ja-jp': "ジャラコ",
 	},
 
 	illustrator: "Yusuke Ohmura",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "人気の ない 山に 暮らす。 ジャラコ同士 戦いながら 少しずつ 成長 していく。",
+		'ja-jp': "人気の ない 山に 暮らす。 ジャラコ同士 戦いながら 少しずつ 成長 していく。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "こうちょく" },
 			cost: ["Lightning"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-20」される。",
 			},
 		},
 		{

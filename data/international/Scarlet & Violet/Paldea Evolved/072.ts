@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldea Evolved"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Wattapik",
-		en: "Pincurchin",
-		es: "Pincurchin",
-		it: "Pincurchin",
-		pt: "Pincurchin",
-		de: "Britzigel"
+		'fr-fr': "Wattapik",
+		'en-us': "Pincurchin",
+		'es-es': "Pincurchin",
+		'it-it': "Pincurchin",
+		'pt-br': "Pincurchin",
+		'de-de': "Britzigel"
 	},
 
 	rarity: "Common",
@@ -24,21 +24,21 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Lightning"],
 
 		name: {
-			fr: "Écrasement Piquant",
-			en: "Needle Crush",
-			es: "Aplastamiento de Agujas",
-			it: "Agodistruzione",
-			pt: "Espinho Esmagador",
-			de: "Schmetternadel"
+			'fr-fr': "Écrasement Piquant",
+			'en-us': "Needle Crush",
+			'es-es': "Aplastamiento de Agujas",
+			'it-it': "Agodistruzione",
+			'pt-br': "Espinho Esmagador",
+			'de-de': "Schmetternadel"
 		},
 
 		effect: {
-			fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
-			en: "Discard an Energy from your opponent's Active Pokémon.",
-			es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
-			it: "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
-			pt: "Descarte uma Energia do Pokémon Ativo do seu oponente.",
-			de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+			'fr-fr': "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			'en-us': "Discard an Energy from your opponent's Active Pokémon.",
+			'es-es': "Descarta 1 Energía del Pokémon Activo de tu rival.",
+			'it-it': "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			'pt-br': "Descarte uma Energia do Pokémon Ativo do seu oponente.",
+			'de-de': "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 70
@@ -75,7 +75,7 @@ const card: Card = {
 	illustrator: "Yuka Morii",
 
 	description: {
-		en: "This Pokémon generates electricity when it digests food. It uses its five hard teeth to scrape seaweed off surfaces and eat it.",
+		'en-us': "This Pokémon generates electricity when it digests food. It uses its five hard teeth to scrape seaweed off surfaces and eat it.",
 	},
 }
 

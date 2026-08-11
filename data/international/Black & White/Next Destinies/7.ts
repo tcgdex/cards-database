@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Simisage",
-		fr: "Feuiloutan",
-		es: "Simisage",
-		it: "Simisage",
-		pt: "Simisage",
-		de: "Vegichita"
+		'en-us': "Simisage",
+		'fr-fr': "Feuiloutan",
+		'es-es': "Simisage",
+		'it-it': "Simisage",
+		'pt-br': "Simisage",
+		'de-de': "Vegichita"
 	},
 
 	illustrator: "kawayoo",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pansage",
-		fr: "Feuillajou",
+		'en-us': "Pansage",
+		'fr-fr': "Feuillajou",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Collect",
-				fr: "Collecte",
+				'en-us': "Collect",
+				'fr-fr': "Collecte",
 			},
 			effect: {
-				en: "Draw 3 cards.",
-				fr: "Piochez 3 cartes.",
+				'en-us': "Draw 3 cards.",
+				'fr-fr': "Piochez 3 cartes.",
 			},
 
 		},
@@ -54,12 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stadium Drain",
-				fr: "Vampire de Stade",
+				'en-us': "Stadium Drain",
+				'fr-fr': "Vampire de Stade",
 			},
 			effect: {
-				en: "If there is any Stadium card in play, this attack does 30 more damage and heal 30 damage from this Pokémon.",
-				fr: "S'il y a une carte Stade en jeu, cette attaque inflige 30 dégâts supplémentaires et vous soignez 30 dégâts à ce Pokémon.",
+				'en-us': "If there is any Stadium card in play, this attack does 30 more damage and heal 30 damage from this Pokémon.",
+				'fr-fr': "S'il y a une carte Stade en jeu, cette attaque inflige 30 dégâts supplémentaires et vous soignez 30 dégâts à ce Pokémon.",
 			},
 			damage: 30,
 
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
+		'en-us': "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
 	},
 
 	thirdParty: {

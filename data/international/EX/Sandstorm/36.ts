@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sandstorm'
 
 const card: Card = {
 	name: {
-		en: "Elekid",
-		fr: "Elekid",
-		de: "Elekid"
+		'en-us': "Elekid",
+		'fr-fr': "Elekid",
+		'de-de': "Elekid"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,14 +27,14 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Baby Evolution",
-				fr: "Évolution bébé",
-				de: "Baby Evolution"
+				'en-us': "Baby Evolution",
+				'fr-fr': "Évolution bébé",
+				'de-de': "Baby Evolution"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may put Electabuzz from your hand onto Elekid (this counts as evolving Elekid) and remove all damage counters from Elekid.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez placer Elektek de votre main sur Elekid (vous faites ainsi évoluer Elekid). Retirez à Elekid tous ses marqueurs de dégât.",
-				de: "Once during your turn (before your attack), you may put Electabuzz from your hand onto Elekid (this counts as evolving Elekid), and remove all damage counters from Elekid."
+				'en-us': "Once during your turn (before your attack), you may put Electabuzz from your hand onto Elekid (this counts as evolving Elekid) and remove all damage counters from Elekid.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez placer Elektek de votre main sur Elekid (vous faites ainsi évoluer Elekid). Retirez à Elekid tous ses marqueurs de dégât.",
+				'de-de': "Once during your turn (before your attack), you may put Electabuzz from your hand onto Elekid (this counts as evolving Elekid), and remove all damage counters from Elekid."
 			}
 		},
 	],
@@ -45,14 +45,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Gather Energy",
-				fr: "Rassemblement d'énergie",
-				de: "Gather Energy"
+				'en-us': "Gather Energy",
+				'fr-fr': "Rassemblement d'énergie",
+				'de-de': "Gather Energy"
 			},
 			effect: {
-				en: "Search your deck for a basic Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une carte Énergie de base et attachez-la à un de vos Pokémon. Ensuite, mélangez votre deck.",
-				de: "Search your deck for a basic Energy card and attach it to 1 your Pokémon. Shuffle your deck afterward."
+				'en-us': "Search your deck for a basic Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck une carte Énergie de base et attachez-la à un de vos Pokémon. Ensuite, mélangez votre deck.",
+				'de-de': "Search your deck for a basic Energy card and attach it to 1 your Pokémon. Shuffle your deck afterward."
 			},
 
 		},

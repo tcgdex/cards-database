@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4S";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "テッポウオ",
+		'ja-jp': "テッポウオ",
 	},
 
 	illustrator: "Aya Kusube",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "ねらいは 正確。 噴き出す 水は １００メートル先で 動く 獲物に かならず 命中する。",
+		'ja-jp': "ねらいは 正確。 噴き出す 水は １００メートル先で 動く 獲物に かならず 命中する。",
 	},
 
 	stage: "Basic",

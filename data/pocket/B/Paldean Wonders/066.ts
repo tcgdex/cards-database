@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Lokix",
-		fr: "Gambex",
-		es: "Lokix",
-		de: "Lextremo",
-		it: "Lokix",
-		pt: "Lokix",
+		'en-us': "Lokix",
+		'fr-fr': "Gambex",
+		'es-es': "Lokix",
+		'de-de': "Lextremo",
+		'it-it': "Lokix",
+		'pt-br': "Lokix",
 		'es-mx': "Lokix"
   },
   illustrator: "Souichirou Gunjima",
@@ -19,12 +19,12 @@ const card: Card = {
   types: ["Darkness"],
   dexId: [920],
   evolveFrom: {
-		en: "Nymble",
-		fr: "Lilliterelle",
-		es: "Nymble",
-		de: "Micrick",
-		it: "Nymble",
-		pt: "Nymble",
+		'en-us': "Nymble",
+		'fr-fr': "Lilliterelle",
+		'es-es': "Nymble",
+		'de-de': "Micrick",
+		'it-it': "Nymble",
+		'pt-br': "Nymble",
 		'es-mx': "Nymble"
   },
   description: {
@@ -34,22 +34,22 @@ const card: Card = {
   attacks: [
     {
       name: {
-				en: "Rocket Jump",
-				fr: "Saut Propulsé",
-				es: "Salto Cohete",
-				it: "Saltorazzo",
-				pt: "Pulo de Foguete",
-				de: "Raketensprung"
+				'en-us': "Rocket Jump",
+				'fr-fr': "Saut Propulsé",
+				'es-es': "Salto Cohete",
+				'it-it': "Saltorazzo",
+				'pt-br': "Pulo de Foguete",
+				'de-de': "Raketensprung"
       },
       damage: "80",
       cost: ["Darkness"],
       effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-				pt: "Jogue uma moeda. Se sair coroa, esse ataque não fará nada.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+				'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+				'pt-br': "Jogue uma moeda. Se sair coroa, esse ataque não fará nada.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
       },
     },
   ],

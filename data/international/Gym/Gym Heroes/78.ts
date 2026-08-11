@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Oddish"
+		'en-us': "Erika's Oddish"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -27,10 +27,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Blot"
+				'en-us': "Blot"
 			},
 			effect: {
-				en: "If there are any damage counters on Erika's Oddish, remove 1 of them."
+				'en-us': "If there are any damage counters on Erika's Oddish, remove 1 of them."
 			},
 
 		},
@@ -40,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sporadic Sponging"
+				'en-us': "Sporadic Sponging"
 			},
 			effect: {
-				en: "If Erika's Oddish has any damage counters on it, flip a coin. If heads, remove 1 of those damage counters."
+				'en-us': "If Erika's Oddish has any damage counters on it, flip a coin. If heads, remove 1 of those damage counters."
 			},
 			damage: 20,
 

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ハラバリーex"
+		'ja-jp': "ハラバリーex"
 	},
 
 	illustrator: "PLANETA Yamashita",
@@ -19,23 +19,23 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			ja: "ジャンププレス"
+			'ja-jp': "ジャンププレス"
 		},
 
 		effect: {
-			ja: "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+			'ja-jp': "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
 		}
 	}, {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			ja: "パラライズボール"
+			'ja-jp': "パラライズボール"
 		},
 
 		damage: 160,
 
 		effect: {
-			ja: "のぞむなら、このポケモンについているエネルギーを2個トラッシュし、相手のバトルポケモンをマヒにする。"
+			'ja-jp': "のぞむなら、このポケモンについているエネルギーを2個トラッシュし、相手のバトルポケモンをマヒにする。"
 		}
 	}],
 

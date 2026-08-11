@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Freeze'
 
 const card: Card = {
 	name: {
-		en: "Lanturn",
-		fr: "Lanturn",
-		es: "Lanturn",
-		it: "Lanturn",
-		pt: "Lanturn",
-		de: "Lanturn"
+		'en-us': "Lanturn",
+		'fr-fr': "Lanturn",
+		'es-es': "Lanturn",
+		'it-it': "Lanturn",
+		'pt-br': "Lanturn",
+		'de-de': "Lanturn"
 	},
 
 	illustrator: "Mizue",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Chinchou",
-		fr: "Loupio",
+		'en-us': "Chinchou",
+		'fr-fr': "Loupio",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Special Tackle",
-				fr: "Charge Spéciale",
+				'en-us': "Special Tackle",
+				'fr-fr': "Charge Spéciale",
 			},
 			effect: {
-				en: "If this Pokémon has any Special Energy attached to it, this attack does 30 more damage.",
-				fr: "Si de l'Énergie spéciale est attachée à ce Pokémon, cette attaque inflige 30 dégâts supplémentaires.",
+				'en-us': "If this Pokémon has any Special Energy attached to it, this attack does 30 more damage.",
+				'fr-fr': "Si de l'Énergie spéciale est attachée à ce Pokémon, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: 30,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Extreme Current",
-				fr: "Courant Extrême",
+				'en-us': "Extreme Current",
+				'fr-fr': "Courant Extrême",
 			},
 			effect: {
-				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				'en-us': "Discard an Energy attached to this Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée à ce Pokémon.",
 			},
 			damage: 90,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Lanturn's light can shine up from great depths. It is nicknamed \"The Deep-Sea Star.\"",
+		'en-us': "Lanturn's light can shine up from great depths. It is nicknamed \"The Deep-Sea Star.\"",
 	},
 
 	thirdParty: {

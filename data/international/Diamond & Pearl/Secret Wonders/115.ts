@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Secret Wonders'
 
 const card: Card = {
 	name: {
-		en: "Trapinch",
-		fr: "Kraknoix",
-		de: "Knacklion"
+		'en-us': "Trapinch",
+		'fr-fr': "Kraknoix",
+		'de-de': "Knacklion"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Inviting Trap",
-				fr: "Piège tentant",
-				de: "Einladende Falle"
+				'en-us': "Inviting Trap",
+				'fr-fr': "Piège tentant",
+				'de-de': "Einladende Falle"
 			},
 			effect: {
-				en: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
-				fr: "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire.",
-				de: "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus."
+				'en-us': "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
+				'fr-fr': "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire.",
+				'de-de': "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus."
 			},
 
 		},
@@ -47,14 +47,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Sand Tomb",
-				fr: "Tombe de sable",
-				de: "Sandgrab"
+				'en-us': "Sand Tomb",
+				'fr-fr': "Tombe de sable",
+				'de-de': "Sandgrab"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
-				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				'de-de': "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 10,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It makes a conical pit in desert sand and lies in wait at the bottom for prey to come tumbling down.",
+		'en-us': "It makes a conical pit in desert sand and lies in wait at the bottom for prey to come tumbling down.",
 	},
 
 	thirdParty: {

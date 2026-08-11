@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Paldean Fates"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tinkaton",
-		fr: "Forgelina",
-		es: "Tinkaton",
-		it: "Tinkaton",
-		pt: "Tinkaton",
-		de: "Granforgita"
+		'en-us': "Tinkaton",
+		'fr-fr': "Forgelina",
+		'es-es': "Tinkaton",
+		'it-it': "Tinkaton",
+		'pt-br': "Tinkaton",
+		'de-de': "Granforgita"
 	},
 
 	rarity: "Shiny rare",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Psychic"],
 	evolveFrom: {
-		en: "Tinkatuff",
-		fr: "Forgella",
-		es: "Tinkatuff",
-		it: "Tinkatuff",
-		pt: "Tinkatuff",
-		de: "Tafforgita"
+		'en-us': "Tinkatuff",
+		'fr-fr': "Forgella",
+		'es-es': "Tinkatuff",
+		'it-it': "Tinkatuff",
+		'pt-br': "Tinkatuff",
+		'de-de': "Tafforgita"
 	},
 	stage: "Stage2",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Gather Materials",
-			fr: "Collecte de Matériaux",
-			es: "Acopio de Materiales",
-			it: "Raccolta di Materiali",
-			pt: "Juntar Materiais",
-			de: "Material sammeln"
+			'en-us': "Gather Materials",
+			'fr-fr': "Collecte de Matériaux",
+			'es-es': "Acopio de Materiales",
+			'it-it': "Raccolta di Materiali",
+			'pt-br': "Juntar Materiais",
+			'de-de': "Material sammeln"
 		},
 
 		effect: {
-			en: "You must discard a card from your hand in order to use this Ability. Once during your turn, you may draw 3 cards.",
-			fr: "Vous devez défausser une carte de votre main pour pouvoir utiliser ce talent. Une fois pendant votre tour, vous pouvez piocher 3 cartes.",
-			es: "Debes descartar 1 carta de tu mano para poder usar esta habilidad. Una vez durante tu turno, puedes robar 3 cartas.",
-			it: "Devi scartare una carta che hai in mano per usare questa abilità. Una sola volta durante il tuo turno, puoi pescare tre carte.",
-			pt: "Você deve descartar uma carta da sua mão para usar esta Habilidade. Uma vez durante o seu turno, você poderá comprar 3 cartas.",
-			de: "Du musst 1 Karte aus deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Einmal während deines Zuges kannst du 3 Karten ziehen."
+			'en-us': "You must discard a card from your hand in order to use this Ability. Once during your turn, you may draw 3 cards.",
+			'fr-fr': "Vous devez défausser une carte de votre main pour pouvoir utiliser ce talent. Une fois pendant votre tour, vous pouvez piocher 3 cartes.",
+			'es-es': "Debes descartar 1 carta de tu mano para poder usar esta habilidad. Una vez durante tu turno, puedes robar 3 cartas.",
+			'it-it': "Devi scartare una carta che hai in mano per usare questa abilità. Una sola volta durante il tuo turno, puoi pescare tre carte.",
+			'pt-br': "Você deve descartar uma carta da sua mão para usar esta Habilidade. Uma vez durante o seu turno, você poderá comprar 3 cartas.",
+			'de-de': "Du musst 1 Karte aus deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Einmal während deines Zuges kannst du 3 Karten ziehen."
 		}
 	}],
 
@@ -54,21 +54,21 @@ const card: Card = {
 		cost: ["Psychic", "Colorless"],
 
 		name: {
-			en: "Special Hammer",
-			fr: "Marteau Spécial",
-			es: "Martillo Especial",
-			it: "Martello Speciale",
-			pt: "Martelo Especial",
-			de: "Spezieller Hammer"
+			'en-us': "Special Hammer",
+			'fr-fr': "Marteau Spécial",
+			'es-es': "Martillo Especial",
+			'it-it': "Martello Speciale",
+			'pt-br': "Martelo Especial",
+			'de-de': "Spezieller Hammer"
 		},
 
 		effect: {
-			en: "If this Pokémon has any Special Energy attached, this attack does 90 more damage.",
-			fr: "Si au moins une Énergie spéciale est attachée à ce Pokémon, cette attaque inflige 90 dégâts supplémentaires.",
-			es: "Si este Pokémon tiene alguna Energía Especial unida, este ataque hace 90 puntos de daño más.",
-			it: "Se questo Pokémon ha delle Energie speciali assegnate, questo attacco infligge 90 danni in più.",
-			pt: "Se este Pokémon tiver alguma Energia Especial ligada a ele, este ataque causará 90 pontos de dano a mais.",
-			de: "Wenn an dieses Pokémon mindestens 1 Spezial-Energie angelegt ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
+			'en-us': "If this Pokémon has any Special Energy attached, this attack does 90 more damage.",
+			'fr-fr': "Si au moins une Énergie spéciale est attachée à ce Pokémon, cette attaque inflige 90 dégâts supplémentaires.",
+			'es-es': "Si este Pokémon tiene alguna Energía Especial unida, este ataque hace 90 puntos de daño más.",
+			'it-it': "Se questo Pokémon ha delle Energie speciali assegnate, questo attacco infligge 90 danni in più.",
+			'pt-br': "Se este Pokémon tiver alguma Energia Especial ligada a ele, este ataque causará 90 pontos de dano a mais.",
+			'de-de': "Wenn an dieses Pokémon mindestens 1 Spezial-Energie angelegt ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
 		},
 
 		damage: "90+"
@@ -97,7 +97,7 @@ const card: Card = {
 	illustrator: "Kagemaru Himeno",
 
 	description: {
-		en: "This intelligent Pokémon has a very daring disposition. It knocks rocks into the sky with its hammer, aiming for flying Corviknight.",
+		'en-us': "This intelligent Pokémon has a very daring disposition. It knocks rocks into the sky with its hammer, aiming for flying Corviknight.",
 	},
 
 }

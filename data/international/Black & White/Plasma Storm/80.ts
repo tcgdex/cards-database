@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Gurdurr",
-		fr: "Ouvrifier",
-		es: "Gurdurr",
-		it: "Gurdurr",
-		pt: "Gurdurr",
-		de: "Strepoli"
+		'en-us': "Gurdurr",
+		'fr-fr': "Ouvrifier",
+		'es-es': "Gurdurr",
+		'it-it': "Gurdurr",
+		'pt-br': "Gurdurr",
+		'de-de': "Strepoli"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Timburr",
-		fr: "Charpenti",
+		'en-us': "Timburr",
+		'fr-fr': "Charpenti",
 	},
 
 	stage: "Stage1",
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dynamic Punch",
-				fr: "Dynamopoing",
+				'en-us': "Dynamic Punch",
+				'fr-fr': "Dynamopoing",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage and the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage and the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: 40,
 
@@ -59,8 +59,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hammer In",
-				fr: "Enfoncer",
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncer",
 			},
 
 			damage: 80,
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "With strengthened bodies, they skillfully wield steel beams to take down buildings.",
+		'en-us': "With strengthened bodies, they skillfully wield steel beams to take down buildings.",
 	},
 
 	thirdParty: {

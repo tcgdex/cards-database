@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY trainer Kit (Latias)'
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Surskit",
-		fr: "Arakdo",
-		es: "Surskit",
-		it: "Surskit",
-		pt: "Surskit",
-		de: "Gehweiher"
+		'en-us': "Surskit",
+		'fr-fr': "Arakdo",
+		'es-es': "Surskit",
+		'it-it': "Surskit",
+		'pt-br': "Surskit",
+		'de-de': "Gehweiher"
 	},
 
 	rarity: "Common",

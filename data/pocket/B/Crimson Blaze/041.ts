@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crimson Blaze"
 
 const card: Card = {
@@ -7,7 +7,7 @@ const card: Card = {
 	dexId: [299],
 
 	name: {
-		en: "Nosepass"
+		'en-us': "Nosepass"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -17,21 +17,21 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "The magnet in Nosepass's nose provides an\nunerring compass, making it an excellent\npartner for Trainers going on a journey."
+		'en-us': "The magnet in Nosepass's nose provides an\nunerring compass, making it an excellent\npartner for Trainers going on a journey."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Rising Lunge"
+			'en-us': "Rising Lunge"
 		},
 
 		damage: 10,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 20 more damage."
+			'en-us': "Flip a coin. If heads, this attack does 20 more damage."
 		}
 	}],
 

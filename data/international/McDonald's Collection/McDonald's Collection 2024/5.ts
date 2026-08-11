@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2024'
 
 const card: Card = {
 	name: {
-		en: "Hatenna",
-		fr: "Bibichut",
-		es: "Hatenna",
-		it: "Hatenna",
-		pt: "Hatenna",
-		de: "Brimova"
+		'en-us': "Hatenna",
+		'fr-fr': "Bibichut",
+		'es-es': "Hatenna",
+		'it-it': "Hatenna",
+		'pt-br': "Hatenna",
+		'de-de': "Brimova"
 	},
 
 	illustrator: "Akira Komayama",
@@ -28,14 +28,14 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				en: "Stampede",
+				'en-us': "Stampede",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				en: "Magical Shot",
+				'en-us': "Magical Shot",
 			},
 			damage: 30,
 		},

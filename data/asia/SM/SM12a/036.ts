@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ケルディオGX",
+		'ja-jp': "ケルディオGX",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ホーリーハート" },
 			effect: {
-				ja: "このポケモンは、相手の「ポケモンGX・EX」からワザのダメージや効果を受けない。",
+				'ja-jp': "このポケモンは、相手の「ポケモンGX・EX」からワザのダメージや効果を受けない。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 110,
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+				'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 			},
 		},
 		{
@@ -38,7 +38,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Water", "Water", "Colorless"],
 			effect: {
-				ja: "相手のベンチポケモンの数×50ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
+				'ja-jp': "相手のベンチポケモンの数×50ダメージ。［対戦中、自分はGXワザを1回しか使えない。］",
 			},
 		},
 	],

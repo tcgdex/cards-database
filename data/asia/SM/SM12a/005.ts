@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポポッコ",
+		'ja-jp': "ポポッコ",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "太陽の 光を 浴びるため 花びらを 広げるだけでなく 近づこうと 空に 浮かんでしまう。",
+		'ja-jp': "太陽の 光を 浴びるため 花びらを 広げるだけでなく 近づこうと 空に 浮かんでしまう。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "そらのはなみち" },
 			effect: {
-				ja: "自分の番に1回使える。自分の山札から「ワタッコ」を1枚選ぶ。その後、このポケモンと、ついているすべてのカードを、ロストゾーンに置き、このポケモンがいた場所に、選んだ「ワタッコ」を出す。そして山札を切る。",
+				'ja-jp': "自分の番に1回使える。自分の山札から「ワタッコ」を1枚選ぶ。その後、このポケモンと、ついているすべてのカードを、ロストゾーンに置き、このポケモンがいた場所に、選んだ「ワタッコ」を出す。そして山札を切る。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ハネッコ",
+		'ja-jp': "ハネッコ",
 	},
 
 	retreat: 0,

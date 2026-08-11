@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Majestic Dawn'
 
 const card: Card = {
 	name: {
-		en: "Drifloon",
-		fr: "Baudrive",
-		de: "Driftlon"
+		'en-us': "Drifloon",
+		'fr-fr': "Baudrive",
+		'de-de': "Driftlon"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -29,14 +29,14 @@ const card: Card = {
 		{
 
 			name: {
-				en: "Delivery",
-				fr: "Livraison",
-				de: "Anlieferung"
+				'en-us': "Delivery",
+				'fr-fr': "Livraison",
+				'de-de': "Anlieferung"
 			},
 			effect: {
-				en: "Flip a coin. If heads, put any 1 card from your discard pile into your hand.",
-				fr: "Lancez une pièce. Si c'est face, placez dans votre main n'importe quelle carte de votre pile de défausse.",
-				de: "Wirf 1 Münze. Bei 'Kopf' wähle 1 Karte aus deinem Ablagestapel und nimm sie auf die Hand."
+				'en-us': "Flip a coin. If heads, put any 1 card from your discard pile into your hand.",
+				'fr-fr': "Lancez une pièce. Si c'est face, placez dans votre main n'importe quelle carte de votre pile de défausse.",
+				'de-de': "Wirf 1 Münze. Bei 'Kopf' wähle 1 Karte aus deinem Ablagestapel und nimm sie auf die Hand."
 			},
 
 		},
@@ -45,14 +45,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Reaction",
-				fr: "Réagir",
-				de: "Reaction"
+				'en-us': "Reaction",
+				'fr-fr': "Réagir",
+				'de-de': "Reaction"
 			},
 			effect: {
-				en: "Switch Drifloon with 1 of your Benched Pokémon.",
-				fr: "Échangez Baudrive avec 1 des Pokémon de votre Banc.",
-				de: "Tausche Driftlon gegen 1 Pokémon auf diener Bank aus."
+				'en-us': "Switch Drifloon with 1 of your Benched Pokémon.",
+				'fr-fr': "Échangez Baudrive avec 1 des Pokémon de votre Banc.",
+				'de-de': "Tausche Driftlon gegen 1 Pokémon auf diener Bank aus."
 			},
 			damage: 20,
 
@@ -76,7 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It tugs on the hands of children to steal them away. However, it gets pulled around instead.",
+		'en-us': "It tugs on the hands of children to steal them away. However, it gets pulled around instead.",
 	},
 
 	thirdParty: {

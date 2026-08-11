@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Geodude"
+		'en-us': "Geodude"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -28,10 +28,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stone Barrage"
+				'en-us': "Stone Barrage"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 10 damage times the number of heads."
+				'en-us': "Flip a coin until you get tails. This attack does 10 damage times the number of heads."
 			},
 			damage: "10×",
 
@@ -48,7 +48,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them."
+		'en-us': "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM12";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラロコン",
+		'ja-jp': "アローラロコン",
 	},
 
 	illustrator: "nagimiso",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		ja: "かわいいからと 無闇に 近付くと 群れの ボスで ある キュウコンが 現れて 氷漬けに される。",
+		'ja-jp': "かわいいからと 無闇に 近付くと 群れの ボスで ある キュウコンが 現れて 氷漬けに される。",
 	},
 
 	stage: "Basic",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ゆきごもり" },
 			effect: {
-				ja: "このポケモンは、ベンチにいるかぎり、ワザのダメージを受けない。",
+				'ja-jp': "このポケモンは、ベンチにいるかぎり、ワザのダメージを受けない。",
 			},
 		},
 	],

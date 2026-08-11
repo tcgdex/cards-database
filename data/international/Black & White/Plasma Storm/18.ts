@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Victini-EX",
-		fr: "Victini-EX",
-		es: "Victini-EX",
-		it: "Victini-EX",
-		pt: "Victini-EX",
-		de: "Victini-EX"
+		'en-us': "Victini-EX",
+		'fr-fr': "Victini-EX",
+		'es-es': "Victini-EX",
+		'it-it': "Victini-EX",
+		'pt-br': "Victini-EX",
+		'de-de': "Victini-EX"
 	},
 	illustrator: "Eske Yoshinob",
 	rarity: "Rare",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Turbo Energize",
-				fr: "Énergisant Spontané",
+				'en-us': "Turbo Energize",
+				'fr-fr': "Énergisant Spontané",
 			},
 			effect: {
-				en: "Search your deck for 2 basic Energy cards and attach them to your Benched Pokémon in any way you like. Shuffle your deck afterward.",
-				fr: "Cherchez 2 cartes Énergie de base dans votre deck et attachez-les à vos Pokémon de Banc, de la manière que vous voulez. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for 2 basic Energy cards and attach them to your Benched Pokémon in any way you like. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez 2 cartes Énergie de base dans votre deck et attachez-les à vos Pokémon de Banc, de la manière que vous voulez. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -48,12 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Intensifying Burn",
-				fr: "Rage Brûlante",
+				'en-us': "Intensifying Burn",
+				'fr-fr': "Rage Brûlante",
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Pokémon-EX, this attack does 50 more damage.",
-				fr: "Si le Pokémon Défenseur est un Pokémon-EX, cette attaque inflige 50 dégâts supplémentaires.",
+				'en-us': "If the Defending Pokémon is a Pokémon-EX, this attack does 50 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon-EX, cette attaque inflige 50 dégâts supplémentaires.",
 			},
 			damage: 50,
 

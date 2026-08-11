@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../VS1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サブリナのXatu",
+		'ja-jp': "サブリナのXatu",
 	},
 
 	rarity: "Common",
@@ -18,19 +18,19 @@ const card: Card = {
 		{
 			cost: ["Psychic"],
 			name: {
-				ja: "テレポート",
+				'ja-jp': "テレポート",
 			},
 			effect: {
-				ja: "SabrinaのXatuを、1つのベンチポケモンを使用して切り替えます。",
+				'ja-jp': "SabrinaのXatuを、1つのベンチポケモンを使用して切り替えます。",
 			},
 		},
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "シャープなくちばし",
+				'ja-jp': "シャープなくちばし",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて30ダメージを与えます。",
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて30ダメージを与えます。",
 			},
 		},
 	],

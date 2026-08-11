@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Probopass",
-		de: "Voluminas"
+		'en-us': "Probopass",
+		'de-de': "Voluminas"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nosepass"
+		'en-us': "Nosepass"
 	},
 
 	stage: "Stage1",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Competitiveness",
-				de: "Konkurrenzdenken"
+				'en-us': "Competitiveness",
+				'de-de': "Konkurrenzdenken"
 			},
 			effect: {
-				en: "If you don't have a Supporter card in play, each of Probopass's attacks does 30 more damage to the Active Pokémon (before applying Weakness and Resistance).",
-				de: "Wenn du keine Unterstützerkarte im Spiel hast, fügen alle Angriffe von Voluminas den Aktiven Pokémon 30 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				'en-us': "If you don't have a Supporter card in play, each of Probopass's attacks does 30 more damage to the Active Pokémon (before applying Weakness and Resistance).",
+				'de-de': "Wenn du keine Unterstützerkarte im Spiel hast, fügen alle Angriffe von Voluminas den Aktiven Pokémon 30 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			}
 		},
 	],
@@ -47,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Top Chop",
-				de: "Ziehschlag"
+				'en-us': "Top Chop",
+				'de-de': "Ziehschlag"
 			},
 			effect: {
-				en: "Draw a card.",
-				de: "Ziehe 1 Karte."
+				'en-us': "Draw a card.",
+				'de-de': "Ziehe 1 Karte."
 			},
 			damage: 30,
 
@@ -64,12 +64,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tumbling Attack",
-				de: "Sturzangriff"
+				'en-us': "Tumbling Attack",
+				'de-de': "Sturzangriff"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 50 damage plus 30 more damage.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				'en-us': "Flip a coin. If heads, this attack does 50 damage plus 30 more damage.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 

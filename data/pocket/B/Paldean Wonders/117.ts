@@ -1,17 +1,17 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
     set: Set,
 
     name: {
-		en: "Floragato",
-		fr: "Matourgeon",
-		es: "Floragato",
-		it: "Floragato",
-		de: "Feliospa",
+		'en-us': "Floragato",
+		'fr-fr': "Matourgeon",
+		'es-es': "Floragato",
+		'it-it': "Floragato",
+		'de-de': "Feliospa",
 		'pt-br': "Floragato",
-		ko: "나로테"
+		'ko-kr': "나로테"
     },
 
     illustrator: "Souichirou Gunjima",
@@ -23,13 +23,13 @@ const card: Card = {
     dexId: [907],
 
     evolveFrom: {
-		en: "Sprigatito",
-		fr: "Poussacha",
-		es: "Sprigatito",
-		it: "Sprigatito",
-		de: "Felori",
+		'en-us': "Sprigatito",
+		'fr-fr': "Poussacha",
+		'es-es': "Sprigatito",
+		'it-it': "Sprigatito",
+		'de-de': "Felori",
 		'pt-br': "Sprigatito",
-		ko: "나오하"
+		'ko-kr': "나오하"
     },
     stage: "Stage1",
 
@@ -40,13 +40,13 @@ const card: Card = {
     attacks: [
         {
 		name: {
-			en: "Leaf Step",
-			fr: "Enjambée de Feuillage",
-			es: "Paso Hoja",
+			'en-us': "Leaf Step",
+			'fr-fr': "Enjambée de Feuillage",
+			'es-es': "Paso Hoja",
 			'es-mx': "Paso de Hoja",
-			de: "Blattschritt",
-			it: "Passofoglia",
-			pt: "Passo de Folha"
+			'de-de': "Blattschritt",
+			'it-it': "Passofoglia",
+			'pt-br': "Passo de Folha"
 		},
         damage: 30,
         cost: ["Grass"],

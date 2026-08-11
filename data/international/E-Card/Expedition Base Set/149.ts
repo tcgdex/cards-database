@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Professor Oak's Research",
-		fr: "Recherches du professeur Chen",
-		de: "Professor Eichs Nachforschunge"
+		'en-us': "Professor Oak's Research",
+		'fr-fr': "Recherches du professeur Chen",
+		'de-de': "Professor Eichs Nachforschunge"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -15,10 +15,10 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Crystal Type",
+				'en-us': "Crystal Type",
 			},
 			effect: {
-				en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Shuffle your hand into your deck, then draw 5 cards.",
+				'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Shuffle your hand into your deck, then draw 5 cards.",
 			},
 		},
 	],
@@ -35,10 +35,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Psychic",
+				'en-us': "Psychic",
 			},
 			effect: {
-				en: "This attack does 10 damage times the number of Energy cards attached to the Defending Pokémon.",
+				'en-us': "This attack does 10 damage times the number of Energy cards attached to the Defending Pokémon.",
 			},
 			damage: "10×",
 		},
@@ -50,10 +50,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steam Blast",
+				'en-us': "Steam Blast",
 			},
 			effect: {
-				en: "Discard an Energy card attached to Lugia.",
+				'en-us': "Discard an Energy card attached to Lugia.",
 			},
 			damage: 50,
 		},
@@ -68,9 +68,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Shuffle your hand into your deck, then draw 5 cards.",
-		fr: "Mélangez votre main à votre deck. Piochez ensuite 5 cartes.",
-		de: "Mische deine Hand in dein Deck, und ziehe dann 5 Karten.",
+		'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Shuffle your hand into your deck, then draw 5 cards.",
+		'fr-fr': "Mélangez votre main à votre deck. Piochez ensuite 5 cartes.",
+		'de-de': "Mische deine Hand in dein Deck, und ziehe dann 5 Karten.",
 	},
 
 	variants: [

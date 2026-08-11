@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM4p";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "タマタマ",
+		'ja-jp': "タマタマ",
 	},
 
 	illustrator: "kawayoo",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "テレパシーで 仲間と 交信する。 植物と ある種の タイプの 遺伝子を 併せ持つと いう。",
+		'ja-jp': "テレパシーで 仲間と 交信する。 植物と ある種の タイプの 遺伝子を 併せ持つと いう。",
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "20×",
 			cost: ["Grass"],
 			effect: {
-				ja: "ウラが出るまでコインを投げ、オモテの数x20ダメージ。",
+				'ja-jp': "ウラが出るまでコインを投げ、オモテの数x20ダメージ。",
 			},
 		},
 	],

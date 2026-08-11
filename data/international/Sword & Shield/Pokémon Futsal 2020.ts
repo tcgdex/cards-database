@@ -1,11 +1,11 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../Sword & Shield'
 
 const fut2020: Set = {
 	id: "fut2020",
 
 	name: {
-		en: "Pokémon Futsal 2020"
+		'en-us': "Pokémon Futsal 2020"
 	},
 
 	serie: serie,

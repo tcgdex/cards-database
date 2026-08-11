@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Charjabug",
-		fr: "Chrysapile",
-		es: "Charjabug",
-		it: "Charjabug",
-		pt: "Charjabug",
-		de: "Akkup"
+		'en-us': "Charjabug",
+		'fr-fr': "Chrysapile",
+		'es-es': "Charjabug",
+		'it-it': "Charjabug",
+		'pt-br': "Charjabug",
+		'de-de': "Akkup"
 	},
 
 	illustrator: "Sekio",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Grubbin",
-		fr: "Larvibule",
+		'en-us': "Grubbin",
+		'fr-fr': "Larvibule",
 	},
 
 	stage: "Stage1",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Battery",
-				fr: "Batterie",
-				es: "Batería",
-				it: "Batteria",
-				pt: "Bateria",
-				de: "Batterie"
+				'en-us': "Battery",
+				'fr-fr': "Batterie",
+				'es-es': "Batería",
+				'it-it': "Batteria",
+				'pt-br': "Bateria",
+				'de-de': "Batterie"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may attach this card from your hand to 1 of your Vikavolt or Vikavolt-GX as a Special Energy card. This card provides 2 Lightning Energy only while it’s attached to a Pokémon.",
-				fr: "L’attacher à Lucanon ou Lucanon-GX comme carte Énergie spéciale.",
-				es: "Une a Vikavolt o Vikavolt-GX como una carta de Energía Especial.",
-				it: "Assegna a Vikavolt o Vikavolt-GX come carta Energia speciale.",
-				pt: "Ligar a Vikavolt ou Vikavolt-GX como uma carta de Energia Especial.",
-				de: "Lege sie als Spezial-Energiekarte an Donarion oder Donarion-GX an."
+				'en-us': "Once during your turn (before your attack), you may attach this card from your hand to 1 of your Vikavolt or Vikavolt-GX as a Special Energy card. This card provides 2 Lightning Energy only while it’s attached to a Pokémon.",
+				'fr-fr': "L’attacher à Lucanon ou Lucanon-GX comme carte Énergie spéciale.",
+				'es-es': "Une a Vikavolt o Vikavolt-GX como una carta de Energía Especial.",
+				'it-it': "Assegna a Vikavolt o Vikavolt-GX come carta Energia speciale.",
+				'pt-br': "Ligar a Vikavolt ou Vikavolt-GX como uma carta de Energia Especial.",
+				'de-de': "Lege sie als Spezial-Energiekarte an Donarion oder Donarion-GX an."
 			},
 		},
 	],
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pierce",
-				fr: "Transpercement",
-				es: "Perforar",
-				it: "Perforare",
-				pt: "Perfurar",
-				de: "Durchbohren"
+				'en-us': "Pierce",
+				'fr-fr': "Transpercement",
+				'es-es': "Perforar",
+				'it-it': "Perforare",
+				'pt-br': "Perfurar",
+				'de-de': "Durchbohren"
 			},
 
 			damage: 60,
@@ -93,7 +93,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It buries itself in fallen leaves and barely moves, munching away on humus. If you accidentally step on one, you'll get a shock!",
+		'en-us': "It buries itself in fallen leaves and barely moves, munching away on humus. If you accidentally step on one, you'll get a shock!",
 	},
 
 	thirdParty: {

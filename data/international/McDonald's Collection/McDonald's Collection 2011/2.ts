@@ -1,4 +1,4 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2011'
 
 const card: Card = {
@@ -9,40 +9,40 @@ const card: Card = {
 	dexId: [556],
 
 	description: {
-		en: "It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds."
+		'en-us': "It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Mega Drain",
-			fr: "Méga-Sangsue"
+			'en-us': "Mega Drain",
+			'fr-fr': "Méga-Sangsue"
 		},
 
 		damage: 20,
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon.",
-			fr: "Soigne 20 dégâts infligés à ce Pokémon."
+			'en-us': "Heal 20 damage from this Pokémon.",
+			'fr-fr': "Soigne 20 dégâts infligés à ce Pokémon."
 		}
 	}, {
 		name: {
-			en: "Pin Missile",
-			fr: "Dard-Nuée"
+			'en-us': "Pin Missile",
+			'fr-fr': "Dard-Nuée"
 		},
 
 		damage: "20×",
 
 		effect: {
-			en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
-			fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
+			'en-us': "Flip 4 coins. This attack does 20 damage times the number of heads.",
+			'fr-fr': "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
 		}
 	}],
 
 	name: {
-		en: "Maractus",
-		fr: "Maracachi"
+		'en-us': "Maractus",
+		'fr-fr': "Maracachi"
 	},
 
 	rarity: "None",

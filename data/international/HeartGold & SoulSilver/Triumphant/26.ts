@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Machamp",
-		fr: "Mackogneur",
-		de: "Machomei"
+		'en-us': "Machamp",
+		'fr-fr': "Mackogneur",
+		'de-de': "Machomei"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Machoke",
-		fr: "Machopeur"
+		'en-us': "Machoke",
+		'fr-fr': "Machopeur"
 	},
 
 	stage: "Stage2",
@@ -34,14 +34,14 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Vital Throw",
-				fr: "Corps perdu",
-				de: "Überwurf"
+				'en-us': "Vital Throw",
+				'fr-fr': "Corps perdu",
+				'de-de': "Überwurf"
 			},
 			effect: {
-				en: "You may do 40 damage plus 20 more damage. If you do, Machamp does 20 damage to itself.",
-				fr: "Vous pouvez infliger 40 dégâts plus 20 dégâts supplémentaires. Dans ce cas, Mackogneur s’inflige 20 dégâts.",
-				de: "Du kannst mit diesem Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zufügen. Wenn du das machst, fügt Machomei sich selbst 20 Schadenspunkte zu."
+				'en-us': "You may do 40 damage plus 20 more damage. If you do, Machamp does 20 damage to itself.",
+				'fr-fr': "Vous pouvez infliger 40 dégâts plus 20 dégâts supplémentaires. Dans ce cas, Mackogneur s’inflige 20 dégâts.",
+				'de-de': "Du kannst mit diesem Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zufügen. Wenn du das machst, fügt Machomei sich selbst 20 Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -53,14 +53,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hundred Furious Punches",
-				fr: "Multipoings furieux",
-				de: "Hundert wütende Hiebe"
+				'en-us': "Hundred Furious Punches",
+				'fr-fr': "Multipoings furieux",
+				'de-de': "Hundert wütende Hiebe"
 			},
 			effect: {
-				en: "Does 60 damage plus 10 more damage for each Fighting Energy attached to Machamp.",
-				fr: "Inflige 60 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie Fighting attachée à Mackogneur.",
-				de: "Dieser Angriff fügt 60 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Machomei angelegte -Energie zu."
+				'en-us': "Does 60 damage plus 10 more damage for each Fighting Energy attached to Machamp.",
+				'fr-fr': "Inflige 60 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie Fighting attachée à Mackogneur.",
+				'de-de': "Dieser Angriff fügt 60 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Machomei angelegte -Energie zu."
 			},
 			damage: "60+",
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles."
+		'en-us': "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles."
 	},
 
 	variants: [

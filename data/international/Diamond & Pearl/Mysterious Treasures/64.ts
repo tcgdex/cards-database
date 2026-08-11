@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Mysterious Treasures'
 
 const card: Card = {
 	name: {
-		en: "Tropius",
-		fr: "Tropius",
-		de: "Tropius"
+		'en-us': "Tropius",
+		'fr-fr': "Tropius",
+		'de-de': "Tropius"
 	},
 
 	illustrator: "Kazuyuki Kano",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Bonus Leaf",
-				fr: "Feuille bonus",
-				de: "Extrablatt"
+				'en-us': "Bonus Leaf",
+				'fr-fr': "Feuille bonus",
+				'de-de': "Extrablatt"
 			},
 			effect: {
-				en: "Remove 3 damage counters from each of your Benched Pokémon that has any Grass Energy attached to it.",
-				fr: "Retirez 3 marqueurs de dégât à chacun de vos Pokémon de Banc possédant une Énergie Grass.",
-				de: "Entferne 3 Schadensmarken von jedem Pokémon auf deiner Bank, an dem mindestens 1 -Energie angelegt ist."
+				'en-us': "Remove 3 damage counters from each of your Benched Pokémon that has any Grass Energy attached to it.",
+				'fr-fr': "Retirez 3 marqueurs de dégât à chacun de vos Pokémon de Banc possédant une Énergie Grass.",
+				'de-de': "Entferne 3 Schadensmarken von jedem Pokémon auf deiner Bank, an dem mindestens 1 -Energie angelegt ist."
 			},
 
 		},
@@ -48,14 +48,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlwind",
-				fr: "Cyclone",
-				de: "Wirbelwind"
+				'en-us': "Whirlwind",
+				'fr-fr': "Cyclone",
+				'de-de': "Wirbelwind"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
-				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				'de-de': "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 30,
 
@@ -79,8 +79,8 @@ const card: Card = {
 
 
 	description: {
-		en: "Because it continually ate only its favorite fruit, the fruit started growing around its neck.",
-		fr: "À force de manger son fruit préféré, il a fini par pousser autour de son cou."
+		'en-us': "Because it continually ate only its favorite fruit, the fruit started growing around its neck.",
+		'fr-fr': "À force de manger son fruit préféré, il a fini par pousser autour de son cou."
 	},
 
 	thirdParty: {

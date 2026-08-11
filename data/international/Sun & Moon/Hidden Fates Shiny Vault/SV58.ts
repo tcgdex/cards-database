@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Xurkitree-GX",
-		fr: "Câblifère-GX",
+		'en-us': "Xurkitree-GX",
+		'fr-fr': "Câblifère-GX",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Shiny rare",
@@ -25,12 +25,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Flashing Head",
-				fr: "Tête Clignotante",
+				'en-us': "Flashing Head",
+				'fr-fr': "Tête Clignotante",
 			},
 			effect: {
-				en: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon that have any Special Energy attached to them.",
-				fr: "Évitez tous les dégâts d’attaque infligés à ce Pokémon par les Pokémon de votre adversaire auxquels est attachée de l’Énergie spéciale.",
+				'en-us': "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon that have any Special Energy attached to them.",
+				'fr-fr': "Évitez tous les dégâts d’attaque infligés à ce Pokémon par les Pokémon de votre adversaire auxquels est attachée de l’Énergie spéciale.",
 			},
 		},
 	],
@@ -42,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rumbling Wires",
-				fr: "Câbles Grondants",
+				'en-us': "Rumbling Wires",
+				'fr-fr': "Câbles Grondants",
 			},
 			effect: {
-				en: "Discard the top card of your opponent's deck.",
-				fr: "Défaussez la carte du dessus du deck de votre adversaire.",
+				'en-us': "Discard the top card of your opponent's deck.",
+				'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire.",
 			},
 			damage: 100,
 
@@ -57,12 +57,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Lighting-GX",
-				fr: "Éclair-GX",
+				'en-us': "Lighting-GX",
+				'fr-fr': "Éclair-GX",
 			},
 			effect: {
-				en: "Your opponent reveals their hand. Add a card you find there to their Prize cards face down. (You can't use more than 1 GX attack in a game.)",
-				fr: "Votre adversaire dévoile sa main. Ajoutez une des cartes que vous y trouvez à ses cartes Récompense, face cachée. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'en-us': "Your opponent reveals their hand. Add a card you find there to their Prize cards face down. (You can't use more than 1 GX attack in a game.)",
+				'fr-fr': "Votre adversaire dévoile sa main. Ajoutez une des cartes que vous y trouvez à ses cartes Récompense, face cachée. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 
 		},

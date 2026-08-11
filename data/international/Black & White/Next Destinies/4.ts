@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Kricketune",
-		fr: "Mélokrik",
-		es: "Kricketune",
-		it: "Kricketune",
-		pt: "Kricketune",
-		de: "Zirpeise"
+		'en-us': "Kricketune",
+		'fr-fr': "Mélokrik",
+		'es-es': "Kricketune",
+		'it-it': "Kricketune",
+		'pt-br': "Kricketune",
+		'de-de': "Zirpeise"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Kricketot",
-		fr: "Crikzik",
+		'en-us': "Kricketot",
+		'fr-fr': "Crikzik",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "White Noise",
-				fr: "Sommeil Profond",
+				'en-us': "White Noise",
+				'fr-fr': "Sommeil Profond",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
 			},
 			damage: 20,
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Draining Cut",
-				fr: "Vampitranche",
+				'en-us': "Draining Cut",
+				'fr-fr': "Vampitranche",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 40 damage times the number of heads. Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face. Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur.",
+				'en-us': "Flip 2 coins. This attack does 40 damage times the number of heads. Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face. Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur.",
 			},
 			damage: 40,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "There is a village that hosts a contest based on the amazingly variable cries of this Pokémon.",
+		'en-us': "There is a village that hosts a contest based on the amazingly variable cries of this Pokémon.",
 	},
 
 	thirdParty: {

@@ -1,10 +1,10 @@
-import {Card} from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カラカラ",
+		'ja-jp': "カラカラ",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "スニベル",
+				'ja-jp': "スニベル",
 			},
 			effect: {
-				ja: "防御するポケモンが相手の次のターン中にキューボンを攻撃する場合、攻撃によって与えられた損害は20（脱力感と抵抗を適用した後）に20増加します。 （いずれかのポケモンがこの効果を終了するかのいずれかのベンチを作成します。）",
+				'ja-jp': "防御するポケモンが相手の次のターン中にキューボンを攻撃する場合、攻撃によって与えられた損害は20（脱力感と抵抗を適用した後）に20増加します。 （いずれかのポケモンがこの効果を終了するかのいずれかのベンチを作成します。）",
 			},
 
 		},
 		{
 			cost: ["Fighting", "Fighting"],
 			name: {
-				ja: "怒り",
+				'ja-jp': "怒り",
 			},
 			effect: {
-				ja: "キューボンの各ダメージカウンターで10ダメージに加えて10ダメージを与えます。",
+				'ja-jp': "キューボンの各ダメージカウンターで10ダメージに加えて10ダメージを与えます。",
 			},
 
 		},

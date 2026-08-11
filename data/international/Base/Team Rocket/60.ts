@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Rocket'
 
 const card: Card = {
 	name: {
-		en: "Magnemite",
-		fr: "Magneti",
-		de: "Magnetilo"
+		'en-us': "Magnemite",
+		'fr-fr': "Magneti",
+		'de-de': "Magnetilo"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -32,9 +32,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,
@@ -46,14 +46,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnetism",
-				fr: "Magnétisme",
-				de: "Magnetism"
+				'en-us': "Magnetism",
+				'fr-fr': "Magnétisme",
+				'de-de': "Magnetism"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each Magnemite, Magneton, and Dark Magneton on your Bench.",
-				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Magneti, Magneton et Magneton obscur de votre Banc.",
-				de: "Does 10 damage plus 10 more damage for each Magnemite, Megneton and Dark Magneton on your Bench."
+				'en-us': "Does 10 damage plus 10 more damage for each Magnemite, Magneton, and Dark Magneton on your Bench.",
+				'fr-fr': "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Magneti, Magneton et Magneton obscur de votre Banc.",
+				'de-de': "Does 10 damage plus 10 more damage for each Magnemite, Megneton and Dark Magneton on your Bench."
 			},
 			damage: "10+",
 
@@ -70,8 +70,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It is said that enough Magnemites and Magnetons gather in one place, they can create a powerful magnetic barrier.",
-		fr: "La rumeur prétend que si un nombre suffisant de Magneti et de Magneton se rassemblent, ils peuvent créer une puissante barrière magnétique."
+		'en-us': "It is said that enough Magnemites and Magnetons gather in one place, they can create a powerful magnetic barrier.",
+		'fr-fr': "La rumeur prétend que si un nombre suffisant de Magneti et de Magneton se rassemblent, ils peuvent créer une puissante barrière magnétique."
 	},
 
 

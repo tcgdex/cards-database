@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Espeon ex",
-		fr: "Mentali-ex"
+		'en-us': "Espeon ex",
+		'fr-fr': "Mentali-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -18,7 +18,7 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Eevee"
+		'en-us': "Eevee"
 	},
 
 	stage: "Stage1",
@@ -28,20 +28,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Psychic Healing",
-			fr: "Soin Psy"
+			'en-us': "Psychic Healing",
+			'fr-fr': "Soin Psy"
 		},
 
 		effect: {
-			en: "Once during your turn, if this Pokémon is in the Active Spot, you may heal 30 damage from 1 of your Pokémon.",
-			fr: "Une fois pendant votre tour, si ce Pokémon est sur le Poste Actif, vous pouvez soigner 30 dégâts d'un de vos Pokémon."
+			'en-us': "Once during your turn, if this Pokémon is in the Active Spot, you may heal 30 damage from 1 of your Pokémon.",
+			'fr-fr': "Une fois pendant votre tour, si ce Pokémon est sur le Poste Actif, vous pouvez soigner 30 dégâts d'un de vos Pokémon."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Super Psy Bolt",
-			fr: "Super Psy"
+			'en-us': "Super Psy Bolt",
+			'fr-fr': "Super Psy"
 		},
 
 		damage: 80,

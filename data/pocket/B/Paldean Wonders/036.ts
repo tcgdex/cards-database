@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Glaivodo",
-		en: "Baxcalibur",
-		es: "Baxcalibur",
-		it: "Baxcalibur",
-		pt: "Baxcalibur",
-		de: "Espinodon"
+		'fr-fr': "Glaivodo",
+		'en-us': "Baxcalibur",
+		'es-es': "Baxcalibur",
+		'it-it': "Baxcalibur",
+		'pt-br': "Baxcalibur",
+		'de-de': "Espinodon"
   },
   illustrator: "Oswaldo KATO",
   rarity: "Three Diamond",
@@ -18,12 +18,12 @@ const card: Card = {
   types: ["Water"],
   dexId: [998],
   evolveFrom: {
-		fr: "Cryodo",
-		en: "Arctibax",
-		es: "Arctibax",
-		it: "Arctibax",
-		pt: "Arctibax",
-		de: "Cryospino"
+		'fr-fr': "Cryodo",
+		'en-us': "Arctibax",
+		'es-es': "Arctibax",
+		'it-it': "Arctibax",
+		'pt-br': "Arctibax",
+		'de-de': "Cryospino"
   },
   description: {
     en: "It launches itself into battle by flipping upside down and spewing frigid air from its mouth. It finishes opponents off with its dorsal blade.",

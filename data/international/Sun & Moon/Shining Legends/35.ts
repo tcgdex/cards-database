@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Shining Legends'
 
 const card: Card = {
 	name: {
-		en: "Zekrom",
-		fr: "Zekrom",
-		es: "Zekrom",
-		it: "Zekrom",
-		pt: "Zekrom",
-		de: "Zekrom"
+		'en-us': "Zekrom",
+		'fr-fr': "Zekrom",
+		'es-es': "Zekrom",
+		'it-it': "Zekrom",
+		'pt-br': "Zekrom",
+		'de-de': "Zekrom"
 	},
 
 	illustrator: "nagimiso",
@@ -35,20 +35,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Outrage",
-				fr: "Colère",
-				es: "Enfado",
-				it: "Oltraggio",
-				pt: "Ultraje",
-				de: "Wutanfall"
+				'en-us': "Outrage",
+				'fr-fr': "Colère",
+				'es-es': "Enfado",
+				'it-it': "Oltraggio",
+				'pt-br': "Ultraje",
+				'de-de': "Wutanfall"
 			},
 			effect: {
-				en: "This attack does 10 more damage for each damage counter on this Pokémon.",
-				fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
-				es: "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
-				it: "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
-				pt: "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon.",
-				de: "Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der Schadensmarken auf diesem Pokémon zu."
+				'en-us': "This attack does 10 more damage for each damage counter on this Pokémon.",
+				'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
+				'es-es': "Este ataque hace 10 puntos de daño más por cada contador de daño en este Pokémon.",
+				'it-it': "Questo attacco infligge 10 danni in più per ogni segnalino danno presente su questo Pokémon.",
+				'pt-br': "Este ataque causa 10 pontos de dano a mais para cada contador de dano neste Pokémon.",
+				'de-de': "Diese Attacke fügt 10 Schadenspunkte mehr mal der Anzahl der Schadensmarken auf diesem Pokémon zu."
 			},
 			damage: "20+",
 
@@ -60,20 +60,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Storm Blade",
-				fr: "Lame Orageuse",
-				es: "Tormenta Cuchilla",
-				it: "Tempesta Tagliente",
-				pt: "Lâmina Tempestuosa",
-				de: "Sturmklinge"
+				'en-us': "Storm Blade",
+				'fr-fr': "Lame Orageuse",
+				'es-es': "Tormenta Cuchilla",
+				'it-it': "Tempesta Tagliente",
+				'pt-br': "Lâmina Tempestuosa",
+				'de-de': "Sturmklinge"
 			},
 			effect: {
-				en: "Discard 2 Energy from this Pokémon.",
-				fr: "Défaussez 2 Énergies de ce Pokémon.",
-				es: "Descarta 2 Energías de este Pokémon.",
-				it: "Scarta due Energie assegnate a questo Pokémon.",
-				pt: "Descarte 2 Energias deste Pokémon.",
-				de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard 2 Energy from this Pokémon.",
+				'fr-fr': "Défaussez 2 Énergies de ce Pokémon.",
+				'es-es': "Descarta 2 Energías de este Pokémon.",
+				'it-it': "Scarta due Energie assegnate a questo Pokémon.",
+				'pt-br': "Descarte 2 Energias deste Pokémon.",
+				'de-de': "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 130,
 
@@ -97,7 +97,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "This legendary Pokémon can scorch the world with lightning. It assists those who want to build an ideal world.",
+		'en-us': "This legendary Pokémon can scorch the world with lightning. It assists those who want to build an ideal world.",
 	},
 
 	thirdParty: {

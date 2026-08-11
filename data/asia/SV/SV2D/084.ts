@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV2D"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "フォレトスex"
+		'ja-jp': "フォレトスex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,11 +19,11 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			ja: "ばくれつエナジー"
+			'ja-jp': "ばくれつエナジー"
 		},
 
 		effect: {
-			ja: "自分の番に1回使えて、使ったなら、このポケモンをきぜつさせる。自分の山札から「基本エネルギー」を5枚まで選び、自分のポケモンに好きなようにつける。そして山札を切る。"
+			'ja-jp': "自分の番に1回使えて、使ったなら、このポケモンをきぜつさせる。自分の山札から「基本エネルギー」を5枚まで選び、自分のポケモンに好きなようにつける。そして山札を切る。"
 		}
 	}],
 
@@ -31,13 +31,13 @@ const card: Card = {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			ja: "ガードプレス"
+			'ja-jp': "ガードプレス"
 		},
 
 		damage: 120,
 
 		effect: {
-			ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。"
+			'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。"
 		}
 	}],
 

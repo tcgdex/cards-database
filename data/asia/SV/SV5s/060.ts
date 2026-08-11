@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Bronzor"
+		'id-id': "Bronzor"
 	},
 
 	illustrator: "Kedamahadaitai Yawarakai",
@@ -14,18 +14,18 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Orang-orang dahulu percaya bahwa pola di punggung Bronzor mengandung kekuatan misterius."
+		'id-id': "Orang-orang dahulu percaya bahwa pola di punggung Bronzor mengandung kekuatan misterius."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Mirror Attack"
+			'id-id': "Mirror Attack"
 		},
 
 		effect: {
-			id: "Jika Pokémon Bertarung lawan adalah Pokémon {Psychic}, kerusakan yang diberikan bertambah sejumlah 30."
+			'id-id': "Jika Pokémon Bertarung lawan adalah Pokémon {Psychic}, kerusakan yang diberikan bertambah sejumlah 30."
 		},
 
 		damage: "10+",

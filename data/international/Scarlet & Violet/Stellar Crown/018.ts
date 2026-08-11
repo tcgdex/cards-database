@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Stellar Crown"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Toedscruel",
-		fr: "Terracruel",
-		es: "Toedscruel",
-		it: "Toedscruel",
-		pt: "Toedscruel",
-		de: "Tenterra"
+		'en-us': "Toedscruel",
+		'fr-fr': "Terracruel",
+		'es-es': "Toedscruel",
+		'it-it': "Toedscruel",
+		'pt-br': "Toedscruel",
+		'de-de': "Tenterra"
 	},
 
 	rarity: "Uncommon",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 140,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Toedscool",
-		fr: "Terracool",
-		es: "Toedscool",
-		it: "Toedscool",
-		pt: "Toedscool",
-		de: "Tentagra"
+		'en-us': "Toedscool",
+		'fr-fr': "Terracool",
+		'es-es': "Toedscool",
+		'it-it': "Toedscool",
+		'pt-br': "Toedscool",
+		'de-de': "Tentagra"
 	},
 	stage: "Stage1",
 
@@ -32,21 +32,21 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
-			en: "Mega Drain",
-			fr: "Méga-Sangsue",
-			es: "Megaagotar",
-			it: "Megassorbimento",
-			pt: "Megadreno",
-			de: "Megasauger"
+			'en-us': "Mega Drain",
+			'fr-fr': "Méga-Sangsue",
+			'es-es': "Megaagotar",
+			'it-it': "Megassorbimento",
+			'pt-br': "Megadreno",
+			'de-de': "Megasauger"
 		},
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon.",
-			es: "Cura 30 puntos de daño a este Pokémon.",
-			it: "Cura questo Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano deste Pokémon.",
-			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 30
@@ -54,12 +54,12 @@ const card: Card = {
 		cost: ["Grass", "Colorless", "Colorless"],
 
 		name: {
-			en: "Whip Smash",
-			fr: "Frappe Fouet",
-			es: "Golpe Látigo",
-			it: "Frustata Devastante",
-			pt: "Chicote Esmagador",
-			de: "Peitschenschlag"
+			'en-us': "Whip Smash",
+			'fr-fr': "Frappe Fouet",
+			'es-es': "Golpe Látigo",
+			'it-it': "Frustata Devastante",
+			'pt-br': "Chicote Esmagador",
+			'de-de': "Peitschenschlag"
 		},
 
 		damage: 90

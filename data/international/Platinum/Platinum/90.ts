@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Remoraid",
-		fr: "Remoraid",
-		de: "Remoraid"
+		'en-us': "Remoraid",
+		'fr-fr': "Remoraid",
+		'de-de': "Remoraid"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -29,9 +29,9 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Splash",
-				fr: "Trempette",
-				de: "Splash"
+				'en-us': "Splash",
+				'fr-fr': "Trempette",
+				'de-de': "Splash"
 			},
 
 			damage: 10,
@@ -43,14 +43,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Trickle",
-				fr: "Goutte à goutte",
-				de: "Trickle"
+				'en-us': "Trickle",
+				'fr-fr': "Goutte à goutte",
+				'de-de': "Trickle"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 20 damage times the number of heads."
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 20 damage times the number of heads."
 			},
 			damage: "20×",
 
@@ -67,7 +67,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It forcefully squirts water. The water jet never misses prey even if the REMORAID is deep in the sea."
+		'en-us': "It forcefully squirts water. The water jet never misses prey even if the REMORAID is deep in the sea."
 	},
 
 	variants: [

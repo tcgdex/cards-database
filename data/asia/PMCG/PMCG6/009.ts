@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PMCG6"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キョウのモンジャラ",
+		'ja-jp': "キョウのモンジャラ",
 	},
 	illustrator: "Atsuko Nishida",
 
@@ -19,20 +19,20 @@ const card: Card = {
 		{
 			cost: ["Grass"],
 			name: {
-				ja: "スリープパウダー",
+				'ja-jp': "スリープパウダー",
 			},
 			effect: {
-				ja: "防御ポケモンは今眠っています。",
+				'ja-jp': "防御ポケモンは今眠っています。",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Grass", "Colorless"],
 			name: {
-				ja: "つるのをつかむ",
+				'ja-jp': "つるのをつかむ",
 			},
 			effect: {
-				ja: "コインをひっくり返します。頭の場合は、2枚のカードを描きます。",
+				'ja-jp': "コインをひっくり返します。頭の場合は、2枚のカードを描きます。",
 			},
 		},
 	],

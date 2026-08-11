@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Gothitelle",
-		fr: "Sidérella",
-		es: "Gothitelle",
-		it: "Gothitelle",
-		pt: "Gothitelle",
-		de: "Morbitesse"
+		'en-us': "Gothitelle",
+		'fr-fr': "Sidérella",
+		'es-es': "Gothitelle",
+		'it-it': "Gothitelle",
+		'pt-br': "Gothitelle",
+		'de-de': "Morbitesse"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gothorita",
-		fr: "Mesmérella",
+		'en-us': "Gothorita",
+		'fr-fr': "Mesmérella",
 	},
 
 	stage: "Stage2",
@@ -37,20 +37,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Magic Room",
-				fr: "Zone Magique",
-				es: "Zona Mágica",
-				it: "Magicozona",
-				pt: "Sala Mágica",
-				de: "Magieraum"
+				'en-us': "Magic Room",
+				'fr-fr': "Zone Magique",
+				'es-es': "Zona Mágica",
+				'it-it': "Magicozona",
+				'pt-br': "Sala Mágica",
+				'de-de': "Magieraum"
 			},
 			effect: {
-				en: "As long as this Pokémon is your Active Pokémon, your opponent can’t play any Item cards from his or her hand.",
-				fr: "Tant que ce Pokémon est votre Pokémon Actif, votre adversaire ne peut pas jouer de cartes Objet de sa main.",
-				es: "Mientras este Pokémon sea tu Pokémon Activo, tu rival no puede jugar ninguna carta de Objeto de su mano.",
-				it: "Fintanto che questo Pokémon è il tuo Pokémon attivo, il tuo avversario non può giocare carte Strumento dalla sua mano.",
-				pt: "Desde que este Pokémon seja seu Pokémon Ativo, seu oponente não poderá jogar cards de Item da mão dele ou dela.",
-				de: "Solang dieses Pokémon dein Aktives Pokémon ist, kann dein Gegner keine Itemkarten von seiner Hand spielen."
+				'en-us': "As long as this Pokémon is your Active Pokémon, your opponent can’t play any Item cards from his or her hand.",
+				'fr-fr': "Tant que ce Pokémon est votre Pokémon Actif, votre adversaire ne peut pas jouer de cartes Objet de sa main.",
+				'es-es': "Mientras este Pokémon sea tu Pokémon Activo, tu rival no puede jugar ninguna carta de Objeto de su mano.",
+				'it-it': "Fintanto che questo Pokémon è il tuo Pokémon attivo, il tuo avversario non può giocare carte Strumento dalla sua mano.",
+				'pt-br': "Desde que este Pokémon seja seu Pokémon Ativo, seu oponente não poderá jogar cards de Item da mão dele ou dela.",
+				'de-de': "Solang dieses Pokémon dein Aktives Pokémon ist, kann dein Gegner keine Itemkarten von seiner Hand spielen."
 			},
 		},
 	],
@@ -63,12 +63,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Madkinesis",
-				fr: "Mentalisme",
+				'en-us': "Madkinesis",
+				'fr-fr': "Mentalisme",
 			},
 			effect: {
-				en: "Does 20 more damage for each Psychic Energy attached to this Pokémon.",
-				fr: "Inflige 20 dégâts supplémentaires pour chaque Énergie Psychic attachée à ce Pokémon.",
+				'en-us': "Does 20 more damage for each Psychic Energy attached to this Pokémon.",
+				'fr-fr': "Inflige 20 dégâts supplémentaires pour chaque Énergie Psychic attachée à ce Pokémon.",
 			},
 			damage: 30,
 
@@ -85,7 +85,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.",
+		'en-us': "Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.",
 	},
 
 	thirdParty: {

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../My First Battle"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Exeggutor",
+		'en-us': "Exeggutor",
 	},
 
 	rarity: "None",
@@ -14,7 +14,7 @@ const card: Card = {
 	hp: 120,
 	types: ["Grass"],
 	evolveFrom: {
-		en: "Exeggcute",
+		'en-us': "Exeggcute",
 	},
 	stage: "Stage1",
 
@@ -22,7 +22,7 @@ const card: Card = {
 		cost: ["Grass", "Grass"],
 
 		name: {
-			en: "Seed Bomb",
+			'en-us': "Seed Bomb",
 		},
 
 		damage: 40
@@ -30,7 +30,7 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Grass"],
 
 		name: {
-			en: "Barrage Impact",
+			'en-us': "Barrage Impact",
 		},
 
 		damage: 80

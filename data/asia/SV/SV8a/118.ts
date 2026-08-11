@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ドラメシヤ",
-		id: "Dreepy",
-		th: "โดราเมชิยะ",
+		'ja-jp': "ドラメシヤ",
+		'id-id': "Dreepy",
+		'th-th': "โดราเมชิยะ",
 		'zh-tw': "多龍梅西亞",
 		'zh-cn': "多龍梅西亞"
 	},
@@ -20,9 +20,9 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "食べもしないのに ウデッポウに 食らいつくのは 生きていたころの 行動の 名残りと 言われている。",
-		id: "Dikatakan bahwa alasan Dreepy menggigit erat Clauncher meskipun ia tidak memakannya adalah perilaku bawaan ketika ia masih hidup.",
-		th: "ว่ากันว่าที่มันชอบกัดอุเด็ปโปไว้ไม่ปล่อยแม้จะไม่กินเป็นอาหารนั้นเป็นการกระทำที่มันเคยทำตอนที่มันยังมีชีวิต",
+		'ja-jp': "食べもしないのに ウデッポウに 食らいつくのは 生きていたころの 行動の 名残りと 言われている。",
+		'id-id': "Dikatakan bahwa alasan Dreepy menggigit erat Clauncher meskipun ia tidak memakannya adalah perilaku bawaan ketika ia masih hidup.",
+		'th-th': "ว่ากันว่าที่มันชอบกัดอุเด็ปโปไว้ไม่ปล่อยแม้จะไม่กินเป็นอาหารนั้นเป็นการกระทำที่มันเคยทำตอนที่มันยังมีชีวิต",
 		'zh-tw': "明明不吃卻又愛死咬著 鐵臂槍蝦不放，聽說是牠 生前殘留下來的活動習性。",
 		'zh-cn': "明明不吃卻又愛死咬著 鐵臂槍蝦不放，聽說是牠 生前殘留下來的活動習性。"
 	},
@@ -33,9 +33,9 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			ja: "ちょっとうらむ",
-			id: "Mendendam Sedikit",
-			th: "เจ็บแค้นหน่อย",
+			'ja-jp': "ちょっとうらむ",
+			'id-id': "Mendendam Sedikit",
+			'th-th': "เจ็บแค้นหน่อย",
 			'zh-tw': "咒怨一下",
 			'zh-cn': "咒怨一下"
 		},
@@ -45,9 +45,9 @@ const card: Card = {
 		cost: ["Fire", "Psychic"],
 
 		name: {
-			ja: "かみつく",
-			id: "Menggigit",
-			th: "กัดติด",
+			'ja-jp': "かみつく",
+			'id-id': "Menggigit",
+			'th-th': "กัดติด",
 			'zh-tw': "咬住",
 			'zh-cn': "咬住"
 		},

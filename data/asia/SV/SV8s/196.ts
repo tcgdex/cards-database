@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV8s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Mesprit"
+		'id-id': "Mesprit"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -14,28 +14,28 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		id: "Mesprit mengajarkan perihnya rasa sedih dan pentingnya rasa senang kepada manusia. Dikenal sebagai Dewa Emosi."
+		'id-id': "Mesprit mengajarkan perihnya rasa sedih dan pentingnya rasa senang kepada manusia. Dikenal sebagai Dewa Emosi."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Memuaskan Hati"
+			'id-id': "Memuaskan Hati"
 		},
 
 		effect: {
-			id: "Pilih paling banyak 2 lembar Energi Dasar {Psychic} dari Kartu Pegangan sendiri, lalu kenakan sesukanya pada Pokémon sendiri."
+			'id-id': "Pilih paling banyak 2 lembar Energi Dasar {Psychic} dari Kartu Pegangan sendiri, lalu kenakan sesukanya pada Pokémon sendiri."
 		},
 
 		cost: ["Colorless"]
 	}, {
 		name: {
-			id: "God Burst"
+			'id-id': "God Burst"
 		},
 
 		effect: {
-			id: "Jika tidak ada Uxie dan Azelf di Cadangan sendiri, serangan ini gagal."
+			'id-id': "Jika tidak ada Uxie dan Azelf di Cadangan sendiri, serangan ini gagal."
 		},
 
 		damage: 160,

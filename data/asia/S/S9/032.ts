@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "噴嚏熊",
-		ja: "クマシュン"
+		'ja-jp': "クマシュン"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "健康時鼻涕的黏度會變強。只要遇到自己討厭的對手， 就會把鼻涕擦到對方身上。",
-		ja: "体調が いいと 鼻水の 粘り気が 増す。 嫌な 相手に 鼻水を ぺとりと なすりつける。"
+		'ja-jp': "体調が いいと 鼻水の 粘り気が 増す。 嫌な 相手に 鼻水を ぺとりと なすりつける。"
 	},
 
 	stage: "Basic",
@@ -24,7 +24,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "寒意",
-			ja: "ひんやり"
+			'ja-jp': "ひんやり"
 		},
 
 		damage: 20,

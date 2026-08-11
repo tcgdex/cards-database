@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Quagsire",
-		fr: "Maraiste",
-		de: "Morlord"
+		'en-us': "Quagsire",
+		'fr-fr': "Maraiste",
+		'de-de': "Morlord"
 	},
 
 	illustrator: "match",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Wooper",
-		fr: "Axoloto"
+		'en-us': "Wooper",
+		'fr-fr': "Axoloto"
 	},
 
 	stage: "Stage1",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Muddy Water",
-				fr: "Ocroupi",
-				de: "Lehmbrühe"
+				'en-us': "Muddy Water",
+				'fr-fr': "Ocroupi",
+				'de-de': "Lehmbrühe"
 			},
 			effect: {
-				en: "Does 20 damage to 1 of your opponetn's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 20 dégâts à l’un des Pokémon du Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
-				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Does 20 damage to 1 of your opponetn's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 20 dégâts à l’un des Pokémon du Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
+				'de-de': "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 40,
 
@@ -56,9 +56,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mud Shot",
-				fr: "Tir de boue",
-				de: "Lehmschuss"
+				'en-us': "Mud Shot",
+				'fr-fr': "Tir de boue",
+				'de-de': "Lehmschuss"
 			},
 
 			damage: 60,
@@ -83,7 +83,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Due to its relaxed and carefree attitude, it often bumps its head on boulders and boat hulls as it swims."
+		'en-us': "Due to its relaxed and carefree attitude, it often bumps its head on boulders and boat hulls as it swims."
 	},
 
 	variants: [

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../FireRed & LeafGreen'
 
 const card: Card = {
 	name: {
-		en: "Metapod",
-		fr: "Chrysacier",
-		de: "Safcon"
+		'en-us': "Metapod",
+		'fr-fr': "Chrysacier",
+		'de-de': "Safcon"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Caterpie",
-		fr: "Chenipan"
+		'en-us': "Caterpie",
+		'fr-fr': "Chenipan"
 	},
 
 	stage: "Stage1",
@@ -34,14 +34,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Energy Protection",
-				fr: "Protection d'Énergie",
-				de: "Energy Protection"
+				'en-us': "Energy Protection",
+				'fr-fr': "Protection d'Énergie",
+				'de-de': "Energy Protection"
 			},
 			effect: {
-				en: "Any damage done to Metapod by attacks is reduced by 10 for each Energy card attached to Metapod. You can't reduce more than 30 damage in this way.",
-				fr: "Les dégâts infligés à Chrysacier par des attaques sont réduits de 10 pour chaque carte Énergie qui lui est attachée. Vous ne pouvez pas réduire de plus de 30 dégâts de cette façon.",
-				de: "Any damage done to Metapod by attacks is reduced by 10 for each Energy attached to Metapod. You can't reduce more than 30 damage in this way."
+				'en-us': "Any damage done to Metapod by attacks is reduced by 10 for each Energy card attached to Metapod. You can't reduce more than 30 damage in this way.",
+				'fr-fr': "Les dégâts infligés à Chrysacier par des attaques sont réduits de 10 pour chaque carte Énergie qui lui est attachée. Vous ne pouvez pas réduire de plus de 30 dégâts de cette façon.",
+				'de-de': "Any damage done to Metapod by attacks is reduced by 10 for each Energy attached to Metapod. You can't reduce more than 30 damage in this way."
 			},
 		},
 	],
@@ -53,9 +53,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharpen",
-				fr: "Affûtage",
-				de: "Sharpen"
+				'en-us': "Sharpen",
+				'fr-fr': "Affûtage",
+				'de-de': "Sharpen"
 			},
 
 			damage: 20,

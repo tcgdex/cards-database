@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Zoroark",
-		fr: "Zoroark",
+		'en-us': "Zoroark",
+		'fr-fr': "Zoroark",
 	},
 	illustrator: "Naoki Saito",
 	rarity: "Rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Darkness",
 	],
 	evolveFrom: {
-		en: "Zorua",
-		fr: "Zorua",
+		'en-us': "Zorua",
+		'fr-fr': "Zorua",
 	},
 	stage: "Stage1",
 
@@ -31,12 +31,12 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Nasty Plot",
-				fr: "Machination",
+				'en-us': "Nasty Plot",
+				'fr-fr': "Machination",
 			},
 			effect: {
-				en: "Search your deck for a card and put it into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez une carte dans votre deck et ajoutez-la à votre main. Mélangez ensuite votre deck.",
+				'en-us': "Search your deck for a card and put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez une carte dans votre deck et ajoutez-la à votre main. Mélangez ensuite votre deck.",
 			},
 
 		},
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Foul Play",
-				fr: "Tricherie",
+				'en-us': "Foul Play",
+				'fr-fr': "Tricherie",
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon's attacks and use it as this attack.",
-				fr: "Choisissez 1 des attaques du Pokémon Défenseur et utilisez-la à la place de cette attaque.",
+				'en-us': "Choose 1 of the Defending Pokémon's attacks and use it as this attack.",
+				'fr-fr': "Choisissez 1 des attaques du Pokémon Défenseur et utilisez-la à la place de cette attaque.",
 			},
 
 		},
@@ -74,7 +74,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Each has the ability to fool a large group of people simultaneously. They protect their lair with illusory scenery.",
+		'en-us': "Each has the ability to fool a large group of people simultaneously. They protect their lair with illusory scenery.",
 	},
 }
 

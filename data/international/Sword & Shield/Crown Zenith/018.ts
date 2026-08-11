@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Crown Zenith"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Charizard V",
-		fr: "Dracaufeu V",
-		es: "Charizard V",
-		it: "Charizard V",
-		pt: "Charizard V",
-		de: "Glurak V"
+		'en-us': "Charizard V",
+		'fr-fr': "Dracaufeu V",
+		'es-es': "Charizard V",
+		'it-it': "Charizard V",
+		'pt-br': "Charizard V",
+		'de-de': "Glurak V"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -26,21 +26,21 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Incinerate",
-			fr: "Calcination",
-			es: "Calcinación",
-			it: "Bruciatutto",
-			pt: "Incinerar",
-			de: "Einäschern"
+			'en-us': "Incinerate",
+			'fr-fr': "Calcination",
+			'es-es': "Calcinación",
+			'it-it': "Bruciatutto",
+			'pt-br': "Incinerar",
+			'de-de': "Einäschern"
 		},
 
 		effect: {
-			en: "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
-			fr: "Avant d'infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire.",
-			es: "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival.",
-			it: "Prima di infliggere danni, scarta tutte le carte Oggetto Pokémon dal Pokémon attivo del tuo avversario.",
-			pt: "Antes de causar dano, descarte todas as Ferramentas Pokémon do Pokémon Ativo do seu oponente.",
-			de: "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+			'en-us': "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
+			'fr-fr': "Avant d'infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire.",
+			'es-es': "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival.",
+			'it-it': "Prima di infliggere danni, scarta tutte le carte Oggetto Pokémon dal Pokémon attivo del tuo avversario.",
+			'pt-br': "Antes de causar dano, descarte todas as Ferramentas Pokémon do Pokémon Ativo do seu oponente.",
+			'de-de': "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 90
@@ -48,12 +48,12 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Fire", "Colorless"],
 
 		name: {
-			en: "Heat Blast",
-			fr: "Explosion de Chaleur",
-			es: "Explosión de Calor",
-			it: "Caldobomba",
-			pt: "Raio de Calor",
-			de: "Hitzestoß"
+			'en-us': "Heat Blast",
+			'fr-fr': "Explosion de Chaleur",
+			'es-es': "Explosión de Calor",
+			'it-it': "Caldobomba",
+			'pt-br': "Raio de Calor",
+			'de-de': "Hitzestoß"
 		},
 
 		damage: 180

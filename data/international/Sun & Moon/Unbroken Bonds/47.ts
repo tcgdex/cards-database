@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Kingler",
-		fr: "Krabboss",
-		es: "Kingler",
-		it: "Kingler",
-		pt: "Kingler",
-		de: "Kingler"
+		'en-us': "Kingler",
+		'fr-fr': "Krabboss",
+		'es-es': "Kingler",
+		'it-it': "Kingler",
+		'pt-br': "Kingler",
+		'de-de': "Kingler"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Krabby",
-		fr: "Krabby",
+		'en-us': "Krabby",
+		'fr-fr': "Krabby",
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bubble Beam",
-				fr: "Bulles d’O",
-				es: "Rayo Burbuja",
-				it: "Bollaraggio",
-				pt: "Jato de Bolhas",
-				de: "Blubbstrahl"
+				'en-us': "Bubble Beam",
+				'fr-fr': "Bulles d’O",
+				'es-es': "Rayo Burbuja",
+				'it-it': "Bollaraggio",
+				'pt-br': "Jato de Bolhas",
+				'de-de': "Blubbstrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-				pt: "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				'en-us': "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 80,
 
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Massive Rend",
-				fr: "Déchirure Massive",
-				es: "Corte Masivo",
-				it: "Supersquarcio",
-				pt: "Laceração Massiva",
-				de: "Riesiger Riss"
+				'en-us': "Massive Rend",
+				'fr-fr': "Déchirure Massive",
+				'es-es': "Corte Masivo",
+				'it-it': "Supersquarcio",
+				'pt-br': "Laceração Massiva",
+				'de-de': "Riesiger Riss"
 			},
 
 			damage: 130,
@@ -90,7 +90,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Its large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move.",
+		'en-us': "Its large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move.",
 	},
 
 	thirdParty: {

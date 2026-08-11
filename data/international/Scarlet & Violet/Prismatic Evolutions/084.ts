@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Prismatic Evolutions"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lopunny",
-		fr: "Lockpin",
-		es: "Lopunny",
-		pt: "Lopunny",
-		it: "Lopunny",
-		de: "Schlapor"
+		'en-us': "Lopunny",
+		'fr-fr': "Lockpin",
+		'es-es': "Lopunny",
+		'pt-br': "Lopunny",
+		'it-it': "Lopunny",
+		'de-de': "Schlapor"
 	},
 
 	rarity: "Common",
@@ -19,12 +19,12 @@ const card: Card = {
 	hp: 90,
 	types: ["Colorless"],
 	evolveFrom: {
-		en: "Buneary",
-		fr: "Laporeille",
-		es: "Buneary",
-		pt: "Buneary",
-		it: "Buneary",
-		de: "Haspiror"
+		'en-us': "Buneary",
+		'fr-fr': "Laporeille",
+		'es-es': "Buneary",
+		'pt-br': "Buneary",
+		'it-it': "Buneary",
+		'de-de': "Haspiror"
 	},
 	stage: "Stage1",
 
@@ -32,12 +32,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Rear Kick",
-			fr: "Ruade",
-			es: "Patada Trasera",
-			pt: "Chute Traseiro",
-			it: "Retrocalcio",
-			de: "Rückwärtskick"
+			'en-us': "Rear Kick",
+			'fr-fr': "Ruade",
+			'es-es': "Patada Trasera",
+			'pt-br': "Chute Traseiro",
+			'it-it': "Retrocalcio",
+			'de-de': "Rückwärtskick"
 		},
 
 		damage: 90

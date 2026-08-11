@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Primal Clash'
 
 const card: Card = {
 	name: {
-		en: "Nidoran♀",
-		fr: "Nidoran♀",
-		es: "Nidoran♀",
-		it: "Nidoran♀",
-		pt: "Nidoran♀",
-		de: "Nidoran♀"
+		'en-us': "Nidoran♀",
+		'fr-fr': "Nidoran♀",
+		'es-es': "Nidoran♀",
+		'it-it': "Nidoran♀",
+		'pt-br': "Nidoran♀",
+		'de-de': "Nidoran♀"
 	},
 	illustrator: "Mizue",
 	rarity: "Common",
@@ -32,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
-				fr: "Griffe",
-				es: "Arañazo",
-				it: "Graffio",
-				pt: "Arranhão",
-				de: "Kratzer"
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'es-es': "Arañazo",
+				'it-it': "Graffio",
+				'pt-br': "Arranhão",
+				'de-de': "Kratzer"
 			},
 
 			damage: 10,
@@ -49,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
-				fr: "Morsure",
-				es: "Mordisco",
-				it: "Morso",
-				pt: "Mordida",
-				de: "Biss"
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'es-es': "Mordisco",
+				'it-it': "Morso",
+				'pt-br': "Mordida",
+				'de-de': "Biss"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Small and very docile, it protects itself with its small, poisonous horn when attacked.",
+		'en-us': "Small and very docile, it protects itself with its small, poisonous horn when attacked.",
 	},
 }
 

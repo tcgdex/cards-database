@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../POP Series 4'
 
 const card: Card = {
 	name: {
-		en: "Wobbuffet",
-		fr: "Qulbutoké"
+		'en-us': "Wobbuffet",
+		'fr-fr': "Qulbutoké"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nap",
-				fr: "Tit'sieste"
+				'en-us': "Nap",
+				'fr-fr': "Tit'sieste"
 			},
 			effect: {
-				en: "Remove 2 damage counters from Wobbuffet.",
-				fr: "Retirez à Qulbutoké 2 marqueurs de dégât."
+				'en-us': "Remove 2 damage counters from Wobbuffet.",
+				'fr-fr': "Retirez à Qulbutoké 2 marqueurs de dégât."
 			},
 
 		},
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Expand",
-				fr: "Pousstoidla"
+				'en-us': "Expand",
+				'fr-fr': "Pousstoidla"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Wobbuffet is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Lors du prochain tour de votre adversaire, les dégâts infligés à Qulbutoké sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
+				'en-us': "During your opponent's next turn, any damage done to Wobbuffet is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Lors du prochain tour de votre adversaire, les dégâts infligés à Qulbutoké sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
 			},
 			damage: 20,
 

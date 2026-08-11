@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG5"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Mew Ex",
+		'ja-jp': "Mew Ex",
 	},
 
 	rarity: "Holo Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "汎用性",
+				'ja-jp': "汎用性",
 			},
 			effect: {
-				ja: "Mew Exは、すべてのPokã©Monの攻撃を独自のものとして使用できます。 （各攻撃を使用するために必要なエネルギーが必要です。）",
+				'ja-jp': "Mew Exは、すべてのPokã©Monの攻撃を独自のものとして使用できます。 （各攻撃を使用するために必要なエネルギーが必要です。）",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Psychic", "Colorless"],
 			name: {
-				ja: "電力移動",
+				'ja-jp': "電力移動",
 			},
 			effect: {
-				ja: "デッキを検索してエネルギーカードを検索し、Mew Exに添付してください。その後、デッキをシャッフルします。次に、ベンチ付きポケモンの1つでMew Exを切り替えることができます。",
+				'ja-jp': "デッキを検索してエネルギーカードを検索し、Mew Exに添付してください。その後、デッキをシャッフルします。次に、ベンチ付きポケモンの1つでMew Exを切り替えることができます。",
 			},
 		},
 	],

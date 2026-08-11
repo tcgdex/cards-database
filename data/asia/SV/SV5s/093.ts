@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Roaring Moon"
+		'id-id': "Roaring Moon"
 	},
 
 	illustrator: "hncl",
@@ -14,25 +14,25 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		id: "Terdapat kemungkinan Pokémon ini adalah makhluk hidup bernama Roaring Moon yang tertulis dalam jurnal ekspedisi yang penuh misteri."
+		'id-id': "Terdapat kemungkinan Pokémon ini adalah makhluk hidup bernama Roaring Moon yang tertulis dalam jurnal ekspedisi yang penuh misteri."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			id: "Bulu Panah Pembalasan"
+			'id-id': "Bulu Panah Pembalasan"
 		},
 
 		effect: {
-			id: "Kerusakan yang diberikan bertambah sejumlah 10 untuk tiap lembar kartu Purba yang ada di Trash sendiri."
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 10 untuk tiap lembar kartu Purba yang ada di Trash sendiri."
 		},
 
 		damage: "70+",
 		cost: ["Darkness", "Darkness"]
 	}, {
 		name: {
-			id: "Speed Wing"
+			'id-id': "Speed Wing"
 		},
 
 		damage: 120,

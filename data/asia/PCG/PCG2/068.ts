@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG2"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "プーチエナ",
+		'ja-jp': "プーチエナ",
 	},
 
 	rarity: "Common",
@@ -18,16 +18,16 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "驚き",
+				'ja-jp': "驚き",
 			},
 			effect: {
-				ja: "見ずに相手の手から1枚のカードを1枚選択します。あなたが選んだカードを見てから、相手にそのカードを彼または彼女のデッキにシャッフルさせます。",
+				'ja-jp': "見ずに相手の手から1枚のカードを1枚選択します。あなたが選んだカードを見てから、相手にそのカードを彼または彼女のデッキにシャッフルさせます。",
 			},
 		},
 		{
 			cost: ["Darkness", "Colorless"],
 			name: {
-				ja: "鋭い牙",
+				'ja-jp': "鋭い牙",
 			},
 			damage: 20,
 		},

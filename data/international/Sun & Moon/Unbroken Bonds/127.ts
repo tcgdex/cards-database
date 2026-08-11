@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unbroken Bonds'
 
 const card: Card = {
 	name: {
-		en: "Genesect",
-		fr: "Genesect",
-		es: "Genesect",
-		it: "Genesect",
-		pt: "Genesect",
-		de: "Genesect"
+		'en-us': "Genesect",
+		'fr-fr': "Genesect",
+		'es-es': "Genesect",
+		'it-it': "Genesect",
+		'pt-br': "Genesect",
+		'de-de': "Genesect"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -32,20 +32,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Fast-Flight Configuration",
-				fr: "Configuration Vol Rapide",
-				es: "Configuración Vuelo Rápido",
-				it: "Assetto di Volo Rapido",
-				pt: "Postura de Voo Veloz",
-				de: "Schnellflugkonfiguration"
+				'en-us': "Fast-Flight Configuration",
+				'fr-fr': "Configuration Vol Rapide",
+				'es-es': "Configuración Vuelo Rápido",
+				'it-it': "Assetto di Volo Rapido",
+				'pt-br': "Postura de Voo Veloz",
+				'de-de': "Schnellflugkonfiguration"
 			},
 			effect: {
-				en: "If your opponent has any Pokémon-GX or Pokémon-EX in play, this Pokémon has no Retreat Cost.",
-				fr: "Si votre adversaire a au moins un Pokémon-GX ou Pokémon-EX en jeu, ce Pokémon n’a pas de Coût de Retraite.",
-				es: "Si tu rival tiene algún Pokémon-GX o Pokémon-EX en juego, este Pokémon no tiene ningún Coste de Retirada.",
-				it: "Se il tuo avversario ha dei Pokémon-GX o dei Pokémon-EX in gioco, questo Pokémon non ha costo di ritirata.",
-				pt: "Se o seu oponente tiver algum Pokémon-GX ou Pokémon-EX em jogo, este Pokémon não terá custo de Recuo.",
-				de: "Wenn dein Gegner mindestens 1 Pokémon-GX oder Pokémon-EX im Spiel hat, hat dieses Pokémon keine Rückzugskosten."
+				'en-us': "If your opponent has any Pokémon-GX or Pokémon-EX in play, this Pokémon has no Retreat Cost.",
+				'fr-fr': "Si votre adversaire a au moins un Pokémon-GX ou Pokémon-EX en jeu, ce Pokémon n’a pas de Coût de Retraite.",
+				'es-es': "Si tu rival tiene algún Pokémon-GX o Pokémon-EX en juego, este Pokémon no tiene ningún Coste de Retirada.",
+				'it-it': "Se il tuo avversario ha dei Pokémon-GX o dei Pokémon-EX in gioco, questo Pokémon non ha costo di ritirata.",
+				'pt-br': "Se o seu oponente tiver algum Pokémon-GX ou Pokémon-EX em jogo, este Pokémon não terá custo de Recuo.",
+				'de-de': "Wenn dein Gegner mindestens 1 Pokémon-GX oder Pokémon-EX im Spiel hat, hat dieses Pokémon keine Rückzugskosten."
 			},
 		},
 	],
@@ -58,20 +58,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Splitting Beam",
-				fr: "Rayon Divergent",
-				es: "Rayo Dividido",
-				it: "Raggio Scisso",
-				pt: "Feixe Dividido",
-				de: "Spaltstrahl"
+				'en-us': "Splitting Beam",
+				'fr-fr': "Rayon Divergent",
+				'es-es': "Rayo Dividido",
+				'it-it': "Raggio Scisso",
+				'pt-br': "Feixe Dividido",
+				'de-de': "Spaltstrahl"
 			},
 			effect: {
-				en: "This attack does 30 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 30 dégâts à 2 des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				es: "Este ataque hace 30 puntos de daño a 2 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-				it: "Questo attacco infligge 30 danni a due dei Pokémon nella panchina del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
-				pt: "Este ataque causa 30 pontos de dano a 2 dos Pokémon no Banco do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
-				de: "Diese Attacke fügt 2 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "This attack does 30 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 30 dégâts à 2 des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'es-es': "Este ataque hace 30 puntos de daño a 2 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+				'it-it': "Questo attacco infligge 30 danni a due dei Pokémon nella panchina del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
+				'pt-br': "Este ataque causa 30 pontos de dano a 2 dos Pokémon no Banco do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
+				'de-de': "Diese Attacke fügt 2 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 30,
 
@@ -95,7 +95,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This ancient bug Pokémon was altered by Team Plasma. They upgraded the cannon on its back.",
+		'en-us': "This ancient bug Pokémon was altered by Team Plasma. They upgraded the cannon on its back.",
 	},
 
 	thirdParty: {

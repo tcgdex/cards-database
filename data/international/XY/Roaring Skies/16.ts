@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Articuno",
-		fr: "Artikodin",
-		es: "Articuno",
-		it: "Articuno",
-		pt: "Articuno",
-		de: "Arktos"
+		'en-us': "Articuno",
+		'fr-fr': "Artikodin",
+		'es-es': "Articuno",
+		'it-it': "Articuno",
+		'pt-br': "Articuno",
+		'de-de': "Arktos"
 	},
 
 	illustrator: "Naoki Saito",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Find Ice",
-				fr: "Chercheur de Glace",
-				es: "Encontrar Hielo",
-				it: "Trovaghiaccio",
-				pt: "Encontrar Gelo",
-				de: "Eis finden"
+				'en-us': "Find Ice",
+				'fr-fr': "Chercheur de Glace",
+				'es-es': "Encontrar Hielo",
+				'it-it': "Trovaghiaccio",
+				'pt-br': "Encontrar Gelo",
+				'de-de': "Eis finden"
 			},
 			effect: {
-				en: "Search your deck for up to 3 Water Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez jusqu'à 3 cartes Énergie Water dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
-				es: "Busca en tu baraja hasta 3 cartas de Energía Water, enséñalas y ponlas en tu mano. Baraja las cartas de tu baraja después.",
-				it: "Cerca nel tuo mazzo fino a tre carte Energia Water, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
-				pt: "Procure no seu baralho até 3 cards de Energia Water, revele-os e coloque-os na mão. Em seguida, embaralhe seus cards.",
-				de: "Durchsuche dein Deck nach bis zu 3 Water-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				'en-us': "Search your deck for up to 3 Water Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez jusqu'à 3 cartes Énergie Water dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja hasta 3 cartas de Energía Water, enséñalas y ponlas en tu mano. Baraja las cartas de tu baraja después.",
+				'it-it': "Cerca nel tuo mazzo fino a tre carte Energia Water, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure no seu baralho até 3 cards de Energia Water, revele-os e coloque-os na mão. Em seguida, embaralhe seus cards.",
+				'de-de': "Durchsuche dein Deck nach bis zu 3 Water-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -59,12 +59,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Freezing Wind",
-				fr: "Vent Glaçant",
-				es: "Viento Gélido",
-				it: "Ventogelido",
-				pt: "Vento Gelado",
-				de: "Polarwind"
+				'en-us': "Freezing Wind",
+				'fr-fr': "Vent Glaçant",
+				'es-es': "Viento Gélido",
+				'it-it': "Ventogelido",
+				'pt-br': "Vento Gelado",
+				'de-de': "Polarwind"
 			},
 
 			damage: 100,
@@ -89,7 +89,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
+		'en-us': "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
 	},
 
 	thirdParty: {

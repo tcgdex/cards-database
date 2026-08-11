@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Boundaries Crossed'
 
 const card: Card = {
 	name: {
-		en: "Watchog",
-		fr: "Miradar",
-		es: "Watchog",
-		it: "Watchog",
-		pt: "Watchog",
-		de: "Kukmarda"
+		'en-us': "Watchog",
+		'fr-fr': "Miradar",
+		'es-es': "Watchog",
+		'it-it': "Watchog",
+		'pt-br': "Watchog",
+		'de-de': "Kukmarda"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Patrat",
-		fr: "Ratentif",
+		'en-us': "Patrat",
+		'fr-fr': "Ratentif",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hypnoblast",
-				fr: "Hypnoblast",
+				'en-us': "Hypnoblast",
+				'fr-fr': "Hypnoblast",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
 			},
 			damage: 20,
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psych Up",
-				fr: "Boost",
+				'en-us': "Psych Up",
+				'fr-fr': "Boost",
 			},
 			effect: {
-				en: "During your next turn, this Pokémon's Psych Up attack does 30 more damage (before applying Weakness and Resistance).",
-				fr: "Pendant votre prochain tour, l'attaque Boost de ce Pokémon inflige 30 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				'en-us': "During your next turn, this Pokémon's Psych Up attack does 30 more damage (before applying Weakness and Resistance).",
+				'fr-fr': "Pendant votre prochain tour, l'attaque Boost de ce Pokémon inflige 30 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 			},
 			damage: 30,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Using luminescent matter, it makes its eyes and body glow and stuns attacking opponents.",
+		'en-us': "Using luminescent matter, it makes its eyes and body glow and stuns attacking opponents.",
 	},
 
 	thirdParty: {

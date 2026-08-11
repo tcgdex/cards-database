@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリカのラフレシアex",
+		'ja-jp': "エリカのラフレシアex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "うるわしのかおり" },
 			effect: {
-				ja: "自分の番に1回使える。自分のポケモン全員のHPを、それぞれ「30」回復する。",
+				'ja-jp': "自分の番に1回使える。自分のポケモン全員のHPを、それぞれ「30」回復する。",
 			},
 		},
 	],
@@ -30,7 +30,7 @@ const card: Card = {
 			damage: 160,
 			cost: ["Grass", "Grass", "Colorless"],
 			effect: {
-				ja: "相手のバトルポケモンをどくとねむりにする。",
+				'ja-jp': "相手のバトルポケモンをどくとねむりにする。",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "エリカのクサイハナ",
+		'ja-jp': "エリカのクサイハナ",
 	},
 
 	retreat: 2,

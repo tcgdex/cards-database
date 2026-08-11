@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Hidden Fates Shiny Vault'
 
 const card: Card = {
 	name: {
-		en: "Malamar",
-		fr: "Sepiatroce",
+		'en-us': "Malamar",
+		'fr-fr': "Sepiatroce",
 	},
 	illustrator: "Hideki Ishikawa",
 	rarity: "Shiny rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Psychic",
 	],
 	evolveFrom: {
-		en: "Inkay",
-		fr: "Sepiatop",
+		'en-us': "Inkay",
+		'fr-fr': "Sepiatop",
 	},
 	stage: "Stage1",
 
@@ -28,12 +28,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Psychic Recharge",
-				fr: "Recharge Psy",
+				'en-us': "Psychic Recharge",
+				'fr-fr': "Recharge Psy",
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may attach a Psychic Energy card from your discard pile to 1 of your Benched Pokémon.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie Psychic de votre pile de défausse à l’un de vos Pokémon de Banc.",
+				'en-us': "Once during your turn (before your attack), you may attach a Psychic Energy card from your discard pile to 1 of your Benched Pokémon.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie Psychic de votre pile de défausse à l’un de vos Pokémon de Banc.",
 			},
 		},
 	],
@@ -45,8 +45,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic Sphere",
-				fr: "Sphère Psy",
+				'en-us': "Psychic Sphere",
+				'fr-fr': "Sphère Psy",
 			},
 
 			damage: 60,
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It lures prey close with hypnotic motions, then wraps its tentacles around it before finishing it off with digestive fluids.",
+		'en-us': "It lures prey close with hypnotic motions, then wraps its tentacles around it before finishing it off with digestive fluids.",
 	},
 }
 

@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		fr: "Cryodo",
-		en: "Arctibax",
-		es: "Arctibax",
-		it: "Arctibax",
-		pt: "Arctibax",
-		de: "Cryospino"
+		'fr-fr': "Cryodo",
+		'en-us': "Arctibax",
+		'es-es': "Arctibax",
+		'it-it': "Arctibax",
+		'pt-br': "Arctibax",
+		'de-de': "Cryospino"
   },
   illustrator: "Kouki Saitou",
   rarity: "One Diamond",
@@ -18,12 +18,12 @@ const card: Card = {
   types: ["Water"],
   dexId: [997],
   evolveFrom: {
-		fr: "Frigodo",
-		en: "Frigibax",
-		es: "Frigibax",
-		it: "Frigibax",
-		pt: "Frigibax",
-		de: "Frospino"
+		'fr-fr': "Frigodo",
+		'en-us': "Frigibax",
+		'es-es': "Frigibax",
+		'it-it': "Frigibax",
+		'pt-br': "Frigibax",
+		'de-de': "Frospino"
   },
   description: {
     en: "It attacks with the blade of its frozen dorsal fin by doing a front flip in the air. Arctibax’s strong back and legs allow it to pull off this technique.",

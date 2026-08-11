@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Rebel Clash'
 
 const card: Card = {
 	name: {
-		en: "Galarian Corsola",
-		fr: "Corayon de Galar",
-		es: "Corsola de Galar",
-		it: "Corsola di Galar",
-		pt: "Corsola de Galar",
-		de: "Galar-Corasonn"
+		'en-us': "Galarian Corsola",
+		'fr-fr': "Corayon de Galar",
+		'es-es': "Corsola de Galar",
+		'it-it': "Corsola di Galar",
+		'pt-br': "Corsola de Galar",
+		'de-de': "Galar-Corasonn"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -23,20 +23,20 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Cursed Drop",
-				fr: "Chute Maudite",
-				es: "Caída Maldita",
-				it: "Caduta Maledetta",
-				pt: "Queda Amaldiçoada",
-				de: "Verfluchter Fall"
+				'en-us': "Cursed Drop",
+				'fr-fr': "Chute Maudite",
+				'es-es': "Caída Maldita",
+				'it-it': "Caduta Maledetta",
+				'pt-br': "Queda Amaldiçoada",
+				'de-de': "Verfluchter Fall"
 			},
 			effect: {
-				en: "Put 3 damage counters on your opponent's Pokémon in any way you like.",
-				fr: "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire comme il vous plaît.",
-				es: "Pon 3 contadores de daño en los Pokémon de tu rival de la manera que desees.",
-				it: "Metti tre segnalini danno sui Pokémon del tuo avversario nel modo che preferisci.",
-				pt: "Coloque 3 contadores de dano nos Pokémon do seu oponente como desejar.",
-				de: "Lege 3 Schadensmarken beliebig auf die Pokémon deines Gegners."
+				'en-us': "Put 3 damage counters on your opponent's Pokémon in any way you like.",
+				'fr-fr': "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire comme il vous plaît.",
+				'es-es': "Pon 3 contadores de daño en los Pokémon de tu rival de la manera que desees.",
+				'it-it': "Metti tre segnalini danno sui Pokémon del tuo avversario nel modo che preferisci.",
+				'pt-br': "Coloque 3 contadores de dano nos Pokémon do seu oponente como desejar.",
+				'de-de': "Lege 3 Schadensmarken beliebig auf die Pokémon deines Gegners."
 			},
 
 		},
@@ -65,7 +65,7 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Watch your step when wandering areas oceans once covered. What looks like a stone could be this Pokémon, and it will curse you if you kick it."
+		'en-us': "Watch your step when wandering areas oceans once covered. What looks like a stone could be this Pokémon, and it will curse you if you kick it."
 	},
 
 	variants: [

@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Perfect Order"
 
 const card: Card = {
@@ -7,23 +7,23 @@ const card: Card = {
 	dexId: [404],
 
 	name: {
-		en: "Luxio",
-		fr: "Luxio",
-		es: "Luxio",
+		'en-us': "Luxio",
+		'fr-fr': "Luxio",
+		'es-es': "Luxio",
 		'es-mx': "Luxio",
-		de: "Luxio",
-		it: "Luxio",
-		pt: "Luxio"
+		'de-de': "Luxio",
+		'it-it': "Luxio",
+		'pt-br': "Luxio"
 	},
 
 	evolveFrom: {
-		en: "Shinx",
-		fr: "Lixy",
-		es: "Shinx",
+		'en-us': "Shinx",
+		'fr-fr': "Lixy",
+		'es-es': "Shinx",
 		'es-mx': "Shinx",
-		de: "Sheinux",
-		it: "Shinx",
-		pt: "Shinx",
+		'de-de': "Sheinux",
+		'it-it': "Shinx",
+		'pt-br': "Shinx",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -37,23 +37,23 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Fighting Roar",
-			fr: "Rugissement Combatif",
-			es: "Rugido de Lucha",
+			'en-us': "Fighting Roar",
+			'fr-fr': "Rugissement Combatif",
+			'es-es': "Rugido de Lucha",
 			'es-mx': "Rugido Tenaz",
-			de: "Kampflustiges Gebrüll",
-			it: "Ruggito Combattente",
-			pt: "Rugido de Luta"
+			'de-de': "Kampflustiges Gebrüll",
+			'it-it': "Ruggito Combattente",
+			'pt-br': "Rugido de Luta"
 		},
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a Pokémon ex, this Pokémon can evolve during your first turn or the turn you play it.",
-			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon-ex, ce Pokémon peut évoluer pendant votre premier tour ou pendant le tour où vous le jouez.",
-			es: "Si el Pokémon Activo de tu rival es un Pokémon ex, este Pokémon puede evolucionar durante tu primer turno o durante el turno en que lo pongas en juego.",
+			'en-us': "If your opponent's Active Pokémon is a Pokémon ex, this Pokémon can evolve during your first turn or the turn you play it.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon-ex, ce Pokémon peut évoluer pendant votre premier tour ou pendant le tour où vous le jouez.",
+			'es-es': "Si el Pokémon Activo de tu rival es un Pokémon ex, este Pokémon puede evolucionar durante tu primer turno o durante el turno en que lo pongas en juego.",
 			'es-mx': "Si el Pokémon Activo de tu rival es un Pokémon ex, este Pokémon puede evolucionar durante tu primer turno o durante el turno en que lo pongas en juego.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Pokémon-ex ist, kann sich dieses Pokémon während deines ersten Zuges oder während des Zuges, in dem du es spielst, entwickeln.",
-			it: "Se il Pokémon attivo del tuo avversario è un Pokémon-ex, questo Pokémon può evolversi durante il tuo primo turno o il turno in cui lo giochi.",
-			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon ex, este Pokémon poderá evoluir durante o seu primeiro turno ou durante o turno em que for colocado em jogo."
+			'de-de': "Wenn das Aktive Pokémon deines Gegners ein Pokémon-ex ist, kann sich dieses Pokémon während deines ersten Zuges oder während des Zuges, in dem du es spielst, entwickeln.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon-ex, questo Pokémon può evolversi durante il tuo primo turno o il turno in cui lo giochi.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon ex, este Pokémon poderá evoluir durante o seu primeiro turno ou durante o turno em que for colocado em jogo."
 		}
 	}],
 
@@ -61,13 +61,13 @@ const card: Card = {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
-			en: "Static Shock",
-			fr: "Choc Statique",
-			es: "Impacto Estático",
+			'en-us': "Static Shock",
+			'fr-fr': "Choc Statique",
+			'es-es': "Impacto Estático",
 			'es-mx': "Impacto Estático",
-			de: "Statischer Schock",
-			it: "Shock Statico",
-			pt: "Choque de Estática"
+			'de-de': "Statischer Schock",
+			'it-it': "Shock Statico",
+			'pt-br': "Choque de Estática"
 		},
 
 		damage: 40

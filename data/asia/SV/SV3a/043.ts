@@ -1,13 +1,13 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV3a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "テッシード",
+		'ja-jp': "テッシード",
 		'zh-tw': "種子鐵球",
-		th: "เทสซีด"
+		'th-th': "เทสซีด"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -18,9 +18,9 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "苔むした 洞窟を 好む。 苔が 含む 酵素が 棘を 大きく 丈夫に 育むのだ。",
+		'ja-jp': "苔むした 洞窟を 好む。 苔が 含む 酵素が 棘を 大きく 丈夫に 育むのだ。",
 		'zh-tw': "偏愛長著青苔的洞窟。青苔中所含的酵素能使牠的 尖刺成長得又大又結實。",
-		th: "ชอบถ้ำที่ปกคลุมไปด้วยมอส เอนไซม์ที่มีมอสปนอยู่นั้นช่วยเลี้ยงหนามให้ใหญ่และแข็งแรง"
+		'th-th': "ชอบถ้ำที่ปกคลุมไปด้วยมอส เอนไซม์ที่มีมอสปนอยู่นั้นช่วยเลี้ยงหนามให้ใหญ่และแข็งแรง"
 	},
 
 	stage: "Basic",
@@ -29,9 +29,9 @@ const card: Card = {
 		cost: ["Metal", "Colorless"],
 
 		name: {
-			ja: "トゲでさす",
+			'ja-jp': "トゲでさす",
 			'zh-tw': "針刺",
-			th: "แทงด้วยหนาม"
+			'th-th': "แทงด้วยหนาม"
 		},
 
 		damage: 30

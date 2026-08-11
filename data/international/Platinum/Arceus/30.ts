@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Sceptile",
-		de: "Gewaldro"
+		'en-us': "Sceptile",
+		'de-de': "Gewaldro"
 	},
 
 	illustrator: "Reiko Tanoue",
@@ -21,7 +21,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Grovyle"
+		'en-us': "Grovyle"
 	},
 
 	stage: "Stage2",
@@ -30,12 +30,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Green Breath",
-				de: "Grüner Atem"
+				'en-us': "Green Breath",
+				'de-de': "Grüner Atem"
 			},
 			effect: {
-				en: "When you attach a Grass Energy card from your hand to Sceptile, remove 2 damage counters from Sceptile.",
-				de: "Wenn du 1 -Energiekarte von deiner Hand an Gewaldro anlegst, entferne 2 Schadensmarken von Gewaldro."
+				'en-us': "When you attach a Grass Energy card from your hand to Sceptile, remove 2 damage counters from Sceptile.",
+				'de-de': "Wenn du 1 -Energiekarte von deiner Hand an Gewaldro anlegst, entferne 2 Schadensmarken von Gewaldro."
 			}
 		},
 	],
@@ -46,12 +46,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Leaf Blast",
-				de: "Blätterkanonade"
+				'en-us': "Leaf Blast",
+				'de-de': "Blätterkanonade"
 			},
 			effect: {
-				en: "Does 20 damage times the amount of Grass Energy attached to Sceptile.",
-				de: "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an Gewaldro angelegten -Energien zu."
+				'en-us': "Does 20 damage times the amount of Grass Energy attached to Sceptile.",
+				'de-de': "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an Gewaldro angelegten -Energien zu."
 			},
 			damage: "20×",
 
@@ -64,12 +64,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Claws",
-				de: "Giftkrallen"
+				'en-us': "Poison Claws",
+				'de-de': "Giftkrallen"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
+				'en-us': "The Defending Pokémon is now Poisoned.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 60,
 

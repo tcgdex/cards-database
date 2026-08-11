@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Rayquaza δ",
-		fr: "Rayquaza δ",
-		de: "Rayquaza"
+		'en-us': "Rayquaza δ",
+		'fr-fr': "Rayquaza δ",
+		'de-de': "Rayquaza"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -30,14 +30,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Delta Guard",
-				fr: "Garde Delta",
-				de: "Delta-Wache"
+				'en-us': "Delta Guard",
+				'fr-fr': "Garde Delta",
+				'de-de': "Delta-Wache"
 			},
 			effect: {
-				en: "As long as Rayquaza has any Holon Energy cards attached to it, ignore the effect of Rayquaza's Lightning Storm attack.",
-				fr: "Tant que Rayquaza possède des cartes Énergie Holon, ignorez l'effet de son attaque Orage d'éclairs.",
-				de: "Solange an Rayquaza eine Holon-Energiekarte angelegt ist, ignoriere den Effekt von Rayquazas Blitzsturm Angriff."
+				'en-us': "As long as Rayquaza has any Holon Energy cards attached to it, ignore the effect of Rayquaza's Lightning Storm attack.",
+				'fr-fr': "Tant que Rayquaza possède des cartes Énergie Holon, ignorez l'effet de son attaque Orage d'éclairs.",
+				'de-de': "Solange an Rayquaza eine Holon-Energiekarte angelegt ist, ignoriere den Effekt von Rayquazas Blitzsturm Angriff."
 			},
 		},
 	],
@@ -48,14 +48,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Power Blow",
-				fr: "Coup puissant",
-				de: "Mächtiger Schlag"
+				'en-us': "Power Blow",
+				'fr-fr': "Coup puissant",
+				'de-de': "Mächtiger Schlag"
 			},
 			effect: {
-				en: "Does 10 damage times the amount of Energy attached to Rayquaza.",
-				fr: "Inflige 10 dégâts multipliés par le nombre total d'Énergie attachée à Rayquaza.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Rayquaza angelegte Energie zu."
+				'en-us': "Does 10 damage times the amount of Energy attached to Rayquaza.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre total d'Énergie attachée à Rayquaza.",
+				'de-de': "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Rayquaza angelegte Energie zu."
 			},
 			damage: "10x",
 
@@ -69,15 +69,15 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Lightning Storm",
-				fr: "Orage d'éclairs",
-				de: "Blitzsturm"
+				'en-us': "Lightning Storm",
+				'fr-fr': "Orage d'éclairs",
+				'de-de': "Blitzsturm"
 			},
 
 			effect: {
-				en: "Put 7 damage counters on Rayquaza.",
-				fr: "Placez 7 marqueurs de dégât sur Rayquaza.",
-				de: "Lege 7 Schadensmarken auf Rayquaza."
+				'en-us': "Put 7 damage counters on Rayquaza.",
+				'fr-fr': "Placez 7 marqueurs de dégât sur Rayquaza.",
+				'de-de': "Lege 7 Schadensmarken auf Rayquaza."
 			},
 
 			damage: 70

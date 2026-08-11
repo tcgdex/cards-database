@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ヒバニー",
+		'ja-jp': "ヒバニー",
 		'zh-tw': "炎兔兒",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		ja: "戦う 準備が 整うと 鼻の 頭と 足の 裏の 肉球が 高熱を 発する。",
+		'ja-jp': "戦う 準備が 整うと 鼻の 頭と 足の 裏の 肉球が 高熱を 発する。",
 		'zh-tw': "一旦做好了戰鬥的準備，牠鼻頭上和腳底的肉球就會散發出極度的高溫。",
 	},
 
@@ -23,7 +23,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "ずつき",
+				'ja-jp': "ずつき",
 				'zh-tw': "敲擊",
 			},
 			damage: 20,

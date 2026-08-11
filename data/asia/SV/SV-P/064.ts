@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サンダース",
+		'ja-jp': "サンダース",
 		'zh-tw': "多邊獸Ⅱ",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "細胞が 出している 弱い 電気を ひとまとめにして 強力な 電撃を 放つ。",
+		'ja-jp': "細胞が 出している 弱い 電気を ひとまとめにして 強力な 電撃を 放つ。",
 		'zh-tw': "搭載了ＡＩ功能後，開始 說起了只有多邊獸Ⅱ彼此 之間才能了解的神秘語言。",
 	},
 
@@ -23,13 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かみなりのキバ",
+				'ja-jp': "かみなりのキバ",
 				'zh-tw': "力量球",
 			},
 			damage: 60,
 			cost: ["Lightning", "Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 				'zh-tw': "選擇1個這隻寶可夢身上附加的能量，將其丟棄。",
 			},
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "イーブイ",
+		'ja-jp': "イーブイ",
 	},
 
 	retreat: 1,

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シロナのガブリアスex",
+		'ja-jp': "シロナのガブリアスex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -20,7 +20,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Fighting"],
 			effect: {
-				ja: "のぞむなら、自分の手札が6枚になるように、山札を引く。",
+				'ja-jp': "のぞむなら、自分の手札が6枚になるように、山札を引く。",
 			},
 		},
 		{
@@ -28,7 +28,7 @@ const card: Card = {
 			damage: 260,
 			cost: ["Fighting", "Fighting"],
 			effect: {
-				ja: "このポケモンについているエネルギーを、すべてトラッシュする。",
+				'ja-jp': "このポケモンについているエネルギーを、すべてトラッシュする。",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "シロナのガバイト",
+		'ja-jp': "シロナのガバイト",
 	},
 
 	retreat: 0,

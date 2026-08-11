@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Umbreon",
-		fr: "Noctali",
+		'en-us': "Umbreon",
+		'fr-fr': "Noctali",
 	},
 
 	illustrator: "kawayoo",
@@ -23,8 +23,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli",
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
 	},
 
 	stage: "Stage1",
@@ -36,12 +36,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mach Claw",
-				fr: "Instagriffe",
+				'en-us': "Mach Claw",
+				'fr-fr': "Instagriffe",
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 			},
 			damage: 30,
 
@@ -65,7 +65,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When exposed to the moon's aura, the rings on its body glow faintly and it's filled with a mysterious power.",
+		'en-us': "When exposed to the moon's aura, the rings on its body glow faintly and it's filled with a mysterious power.",
 	},
 
 	thirdParty: {

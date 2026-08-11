@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV1S"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "イダイナキバex"
+		'ja-jp': "イダイナキバex"
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -19,25 +19,25 @@ const card: Card = {
 		cost: ["Fighting"],
 
 		name: {
-			ja: "がんばんくずし"
+			'ja-jp': "がんばんくずし"
 		},
 
 		damage: 40,
 
 		effect: {
-			ja: "場に出ているスタジアムをトラッシュする。"
+			'ja-jp': "場に出ているスタジアムをトラッシュする。"
 		}
 	}, {
 		cost: ["Fighting", "Fighting", "Fighting"],
 
 		name: {
-			ja: "ギガントタスク"
+			'ja-jp': "ギガントタスク"
 		},
 
 		damage: 250,
 
 		effect: {
-			ja: "このポケモンにも50ダメージ。"
+			'ja-jp': "このポケモンにも50ダメージ。"
 		}
 	}],
 

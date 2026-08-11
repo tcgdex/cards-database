@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Delta Species'
 
 const card: Card = {
 	name: {
-		en: "Holon's Electrode",
-		fr: "Electrode d'Holon",
-		de: "Holon-Lektrobal"
+		'en-us': "Holon's Electrode",
+		'fr-fr': "Electrode d'Holon",
+		'de-de': "Holon-Lektrobal"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Holon's Voltorb",
-		fr: "Voltorbe d'Holon"
+		'en-us': "Holon's Voltorb",
+		'fr-fr': "Voltorbe d'Holon"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dazzle Blast",
-				fr: "Explosion de lumière",
-				de: "Blendende Explosion"
+				'en-us': "Dazzle Blast",
+				'fr-fr': "Explosion de lumière",
+				'de-de': "Blendende Explosion"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
-				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
+				'en-us': "The Defending Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 30,
 

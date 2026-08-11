@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Samurott",
-		fr: "Clamiral",
+		'en-us': "Samurott",
+		'fr-fr': "Clamiral",
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Rare",
@@ -19,8 +19,8 @@ const card: Card = {
 		"Water",
 	],
 	evolveFrom: {
-		en: "Dewott",
-		fr: "Mateloutre",
+		'en-us': "Dewott",
+		'fr-fr': "Mateloutre",
 	},
 	stage: "Stage2",
 
@@ -28,10 +28,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Shell Armor",
+				'en-us': "Shell Armor",
 			},
 			effect: {
-				en: "Any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'en-us': "Any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance).",
 			},
 		},
 	],
@@ -43,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Pump",
-				fr: "Hydrocanon",
+				'en-us': "Hydro Pump",
+				'fr-fr': "Hydrocanon",
 			},
 			effect: {
-				en: "Does 10 more damage for each Water Energy attached to this Pokémon.",
-				fr: "Inflige 10 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+				'en-us': "Does 10 more damage for each Water Energy attached to this Pokémon.",
+				'fr-fr': "Inflige 10 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
 			},
 			damage: 70,
 
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Part of the armor on its anterior legs becomes a giant sword. Its cry alone is enough to intimidate most enemies.",
+		'en-us': "Part of the armor on its anterior legs becomes a giant sword. Its cry alone is enough to intimidate most enemies.",
 	},
 }
 

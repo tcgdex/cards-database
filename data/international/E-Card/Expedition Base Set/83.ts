@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Jynx",
-		fr: "Lippoutou",
-		de: "Rossana"
+		'en-us': "Jynx",
+		'fr-fr': "Lippoutou",
+		'de-de': "Rossana"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -25,10 +25,10 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Lightweight",
+				'en-us': "Lightweight",
 			},
 			effect: {
-				en: "You pay Colorless less to retreat Hoppip for each Grass Energy attached to it.",
+				'en-us': "You pay Colorless less to retreat Hoppip for each Grass Energy attached to it.",
 			},
 		},
 	],
@@ -41,14 +41,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Punch",
-				fr: "Poinglace",
-				de: "Ice Punch"
+				'en-us': "Ice Punch",
+				'fr-fr': "Poinglace",
+				'de-de': "Ice Punch"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 
@@ -60,14 +60,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Powder Snow",
-				fr: "Poudreuse",
-				de: "Powder Snow"
+				'en-us': "Powder Snow",
+				'fr-fr': "Poudreuse",
+				'de-de': "Powder Snow"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
 			},
 			damage: 20,
 

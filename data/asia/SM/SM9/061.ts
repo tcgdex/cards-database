@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM9";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アローラナッシー",
+		'ja-jp': "アローラナッシー",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		ja: "ナッシーは アローラ人の 誇り。 歴史的な 絵画や 建物に その 姿が 刻まれている。",
+		'ja-jp': "ナッシーは アローラ人の 誇り。 歴史的な 絵画や 建物に その 姿が 刻まれている。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			name: { ja: "パラダイスドロー" },
 			cost: [],
 			effect: {
-				ja: "自分の手札が6枚になるように、山札を引く。のぞむなら、山札を引く前に、自分の手札を好きなだけトラッシュする。",
+				'ja-jp': "自分の手札が6枚になるように、山札を引く。のぞむなら、山札を引く前に、自分の手札を好きなだけトラッシュする。",
 			},
 		},
 		{
@@ -31,7 +31,7 @@ const card: Card = {
 			damage: "60×",
 			cost: ["Grass", "Colorless"],
 			effect: {
-				ja: "自分の手札にある「タマタマ」を好きなだけトラッシュし、その枚数x60ダメージ。",
+				'ja-jp': "自分の手札にある「タマタマ」を好きなだけトラッシュし、その枚数x60ダメージ。",
 			},
 		},
 	],
@@ -49,7 +49,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "タマタマ",
+		'ja-jp': "タマタマ",
 	},
 
 	retreat: 4,

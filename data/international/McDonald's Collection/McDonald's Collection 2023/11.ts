@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../McDonald\'s Collection 2023'
 
 const card: Card = {
 	name: {
-		en: "Klawf",
-		fr: "Craparoi",
-		es: "Klawf",
-		it: "Klawf",
-		pt: "Klawf",
-		de: "Klibbe"
+		'en-us': "Klawf",
+		'fr-fr': "Craparoi",
+		'es-es': "Klawf",
+		'it-it': "Klawf",
+		'pt-br': "Klawf",
+		'de-de': "Klibbe"
 	},
 
 	illustrator: "nagimiso",
@@ -28,23 +28,23 @@ const card: Card = {
 		{
 			cost: ["Fighting", "Fighting"],
 			name: {
-				en: "Vise Grip",
-				fr: "Force Poigne",
-				es: "Agarre",
-				it: "Presa",
-				pt: "Agarramento Compressor",
-				de: "Klammer"
+				'en-us': "Vise Grip",
+				'fr-fr': "Force Poigne",
+				'es-es': "Agarre",
+				'it-it': "Presa",
+				'pt-br': "Agarramento Compressor",
+				'de-de': "Klammer"
 			},
 			damage: 50,
 		},
 		{
 			cost: ["Fighting", "Colorless", "Colorless"],
 			name: {
-				en: "Adrenaline Hammer",
+				'en-us': "Adrenaline Hammer",
 			},
 			damage: 130,
 			effect: {
-				en: "This Pokémon is now Confused.",
+				'en-us': "This Pokémon is now Confused.",
 			},
 		},
 	],

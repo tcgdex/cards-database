@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Electrike",
-		fr: "Dynavolt",
-		de: "Frizelbliz"
+		'en-us': "Electrike",
+		'fr-fr': "Dynavolt",
+		'de-de': "Frizelbliz"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Thunder Wave",
-				fr: "Super cage éclair",
-				de: "Super Donnerwelle"
+				'en-us': "Super Thunder Wave",
+				'fr-fr': "Super cage éclair",
+				'de-de': "Super Donnerwelle"
 			},
 			effect: {
-				en: "Flip a coin. If heads, each Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le ou les deux Pokémon Défenseurs sont maintenant Paralysés.",
-				de: "Wirf eine Münze. Bei 'Kopf' sind alle Verteidigenden Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, each Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le ou les deux Pokémon Défenseurs sont maintenant Paralysés.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' sind alle Verteidigenden Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -46,9 +46,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
 			},
 
 			damage: 20,

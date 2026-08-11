@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゾウドウ",
+		'ja-jp': "ゾウドウ",
 	},
 
 	illustrator: "Mina Nakai",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "５トンの 荷物を 持ち上げられる。 朝になると 群れで 洞窟へと 向かい エサの 鉱石を 探す。",
+		'ja-jp': "５トンの 荷物を 持ち上げられる。 朝になると 群れで 洞窟へと 向かい エサの 鉱石を 探す。",
 	},
 
 	stage: "Basic",

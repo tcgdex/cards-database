@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビクティニV",
+		'ja-jp': "ビクティニV",
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "ひろがるほのお" },
 			cost: ["Colorless"],
 			effect: {
-				ja: "自分のトラッシュから[炎]エネルギーを3枚まで選び、自分のポケモンに好きなようにつける。",
+				'ja-jp': "自分のトラッシュから[炎]エネルギーを3枚まで選び、自分のポケモンに好きなようにつける。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Fire", "Fire"],
 			effect: {
-				ja: "おたがいのバトルポケモンについているエネルギーの数×30ダメージ。",
+				'ja-jp': "おたがいのバトルポケモンについているエネルギーの数×30ダメージ。",
 			},
 		},
 	],

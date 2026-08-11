@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Southern Islands'
 
 const card: Card = {
 	name: {
-		en: "Onix",
+		'en-us': "Onix",
 	},
 
 	illustrator: "Keiko Fukuyama",
@@ -30,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slam",
+				'en-us': "Slam",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
 			},
 			damage: 20,
 
@@ -46,10 +46,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Body Slam",
+				'en-us': "Body Slam",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
 			damage: 40,
 
@@ -66,7 +66,7 @@ const card: Card = {
 
 
 	description: {
-		en: "This Pokémon burrows through the earth at high speed, looking for food. The tunnels it digs are used by Diglett as nests.",
+		'en-us': "This Pokémon burrows through the earth at high speed, looking for food. The tunnels it digs are used by Diglett as nests.",
 	},
 
 	variants: [

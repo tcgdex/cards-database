@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SVDs"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		th: "บิริริดามา",
-		id: "Voltorb"
+		'th-th': "บิริริดามา",
+		'id-id': "Voltorb"
 	},
 
 	illustrator: "sui",
@@ -15,24 +15,24 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		th: "เคลื่อนที่โดยการกลิ้ง ถ้าพื้นไม่สม่ำเสมอจะตกใจจนระเบิด",
-		id: "Karena Voltorb berpindah-pindah dengan bergelinding, Pokémon ini akan meledak karena guncangan ketika melewati tanah yang tidak rata."
+		'th-th': "เคลื่อนที่โดยการกลิ้ง ถ้าพื้นไม่สม่ำเสมอจะตกใจจนระเบิด",
+		'id-id': "Karena Voltorb berpindah-pindah dengan bergelinding, Pokémon ini akan meledak karena guncangan ketika melewati tanah yang tidak rata."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			th: "ลูกกลมเจิดจ้า",
-			id: "Bola Petir"
+			'th-th': "ลูกกลมเจิดจ้า",
+			'id-id': "Bola Petir"
 		},
 
 		damage: 10,
 		cost: ["Lightning"]
 	}, {
 		name: {
-			th: "กลิ้ง",
-			id: "Menggelinding"
+			'th-th': "กลิ้ง",
+			'id-id': "Menggelinding"
 		},
 
 		damage: 20,

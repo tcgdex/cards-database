@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../CP2";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フーパEX",
+		'ja-jp': "フーパEX",
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -19,7 +19,7 @@ const card: Card = {
 			name: { ja: "いじげんリング" },
 			cost: ["Psychic"],
 			effect: {
-				ja: "自分の山札からグッズを2枚まで選び、相手に見せてから、手札に加える。そして山札を切る。",
+				'ja-jp': "自分の山札からグッズを2枚まで選び、相手に見せてから、手札に加える。そして山札を切る。",
 			},
 		},
 		{
@@ -27,7 +27,7 @@ const card: Card = {
 			damage: 100,
 			cost: ["Psychic", "Psychic", "Psychic"],
 			effect: {
-				ja: "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
+				'ja-jp': "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
 			},
 		},
 	],

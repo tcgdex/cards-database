@@ -1,11 +1,11 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../S'
 
 const set: Set = {
 	id: 'SCF',
 	name: {
-		th: 'เปลี่ยนผ่าน',
-		id: 'Transformasi'
+		'th-th': 'เปลี่ยนผ่าน',
+		'id-id': 'Transformasi'
 	},
 
 	serie: serie,
@@ -14,8 +14,8 @@ const set: Set = {
 		official: 176
 	},
 	releaseDate: {
-		th: '2022-11-11',
-		id: '2022-11-25'
+		'th-th': '2022-11-11',
+		'id-id': '2022-11-25'
 	}
 }
 

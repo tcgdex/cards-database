@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コクーン",
+		'ja-jp': "コクーン",
 		'zh-tw': "鐵殼蛹",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "天敵に 見つからないように 葉っぱの 裏や 枝の すきまに 隠れて 進化の ときを 待つ。",
+		'ja-jp': "天敵に 見つからないように 葉っぱの 裏や 枝の すきまに 隠れて 進化の ときを 待つ。",
 		'zh-tw': "為了不被天敵發現，會躲在葉子背面或樹枝的間隙中， 等待進化的時刻到來。",
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "かたまる",
+				'ja-jp': "かたまる",
 				'zh-tw': "凝固",
 			},
 			cost: ["Grass"],
 			effect: {
-				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-40」される。",
+				'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-40」される。",
 				'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-40」點。",
 			},
 		},
@@ -54,7 +54,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ビードル",
+		'ja-jp': "ビードル",
 	},
 
 	retreat: 3,

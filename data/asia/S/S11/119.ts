@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドラピオンVSTAR",
+		'ja-jp': "ドラピオンVSTAR",
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "ハザードスター" },
 			effect: {
-				ja: "自分の番に使える。相手のバトルポケモンをどくとマヒにする。このどくでのせるダメカンの数は3個になる。［対戦中、自分はVSTARパワーを1回しか使えない。］",
+				'ja-jp': "自分の番に使える。相手のバトルポケモンをどくとマヒにする。このどくでのせるダメカンの数は3個になる。［対戦中、自分はVSTARパワーを1回しか使えない。］",
 			},
 		},
 	],
@@ -29,7 +29,7 @@ const card: Card = {
 			name: { ja: "ビッグバンアーム 250-" },
 			cost: ["Darkness", "Darkness", "Colorless"],
 			effect: {
-				ja: "このポケモンにのっているダメカンの数×10ダメージぶん、このワザのダメージは小さくなる。",
+				'ja-jp': "このポケモンにのっているダメカンの数×10ダメージぶん、このワザのダメージは小さくなる。",
 			},
 		},
 	],
@@ -48,7 +48,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ドラピオンV",
+		'ja-jp': "ドラピオンV",
 	},
 
 	retreat: 3,

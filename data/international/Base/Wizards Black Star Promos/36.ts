@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Igglybuff",
-		fr: "Toudoudou"
+		'en-us': "Igglybuff",
+		'fr-fr': "Toudoudou"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -30,20 +30,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Good Night Song",
-				fr: "Chanson du Marchand de sable"
+				'en-us': "Good Night Song",
+				'fr-fr': "Chanson du Marchand de sable"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi."
 			},
 
 		},
 	],
 
 	description: {
-		en: "Its extremely flexible and elastic body makes it bounce continuously—anytime, anywhere.",
-		fr: "Son corps extrêmement flexible et élastique le fait rebondir continuellement ─ tout le temps, et dans toutes les directions."
+		'en-us': "Its extremely flexible and elastic body makes it bounce continuously—anytime, anywhere.",
+		'fr-fr': "Son corps extrêmement flexible et élastique le fait rebondir continuellement ─ tout le temps, et dans toutes les directions."
 	},
 
 	variants: [

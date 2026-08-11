@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Houndoom G",
-		fr: "Demolosse ",
-		de: "Hundemon G"
+		'en-us': "Houndoom G",
+		'fr-fr': "Demolosse ",
+		'de-de': "Hundemon G"
 	},
 
 	illustrator: "Kent Kanetsuna",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Black Cry",
-				fr: "Cri noir",
-				de: "Black Cry"
+				'en-us': "Black Cry",
+				'fr-fr': "Cri noir",
+				'de-de': "Black Cry"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat or use any Poké-Powers during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite ou utiliser de Poké-Powers lors du prochain tour de votre adversaire.",
-				de: "The Defending Pokémon can't retreat or use any Poke-Powers during your opponent's next turn."
+				'en-us': "The Defending Pokémon can't retreat or use any Poké-Powers during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite ou utiliser de Poké-Powers lors du prochain tour de votre adversaire.",
+				'de-de': "The Defending Pokémon can't retreat or use any Poke-Powers during your opponent's next turn."
 			},
 			damage: 20,
 
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Slash",
-				fr: "Entaille",
-				de: "Dark Slash"
+				'en-us': "Dark Slash",
+				'fr-fr': "Entaille",
+				'de-de': "Dark Slash"
 			},
 			effect: {
-				en: "You may discard a Darkness Energy attached to Houndoom G. If you do, this attack does 40 damage plus 20 more damage.",
-				fr: "Vous pouvez défausser une Énergie Darkness attachée à Demolosse . Cette attaque inflige alors 40 dégâts plus 20 dégâts supplémentaires.",
-				de: "You may discard a  Energy attached to Houndoom G. If you do, this attack does 40 damage plus 20 more damage."
+				'en-us': "You may discard a Darkness Energy attached to Houndoom G. If you do, this attack does 40 damage plus 20 more damage.",
+				'fr-fr': "Vous pouvez défausser une Énergie Darkness attachée à Demolosse . Cette attaque inflige alors 40 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "You may discard a  Energy attached to Houndoom G. If you do, this attack does 40 damage plus 20 more damage."
 			},
 			damage: "40+",
 

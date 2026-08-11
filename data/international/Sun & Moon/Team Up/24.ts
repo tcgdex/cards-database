@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Team Up'
 
 const card: Card = {
 	name: {
-		en: "Wartortle",
-		fr: "Carabaffe",
-		es: "Wartortle",
-		it: "Wartortle",
-		pt: "Wartortle",
-		de: "Schillok"
+		'en-us': "Wartortle",
+		'fr-fr': "Carabaffe",
+		'es-es': "Wartortle",
+		'it-it': "Wartortle",
+		'pt-br': "Wartortle",
+		'de-de': "Schillok"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Squirtle",
-		fr: "Carapuce",
+		'en-us': "Squirtle",
+		'fr-fr': "Carapuce",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 30,
@@ -58,12 +58,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Waterfall",
-				fr: "Cascade",
-				es: "Cascada",
-				it: "Cascata",
-				pt: "Cachoeira",
-				de: "Kaskade"
+				'en-us': "Waterfall",
+				'fr-fr': "Cascade",
+				'es-es': "Cascada",
+				'it-it': "Cascata",
+				'pt-br': "Cachoeira",
+				'de-de': "Kaskade"
 			},
 
 			damage: 70,
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When tapped, this Pokémon will pull in its head, but its tail will still stick out a little bit.",
+		'en-us': "When tapped, this Pokémon will pull in its head, but its tail will still stick out a little bit.",
 	},
 
 	thirdParty: {

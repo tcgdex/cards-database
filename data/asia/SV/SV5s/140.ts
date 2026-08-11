@@ -1,18 +1,18 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../SV5s"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		id: "Laboratorium Logam"
+		'id-id': "Laboratorium Logam"
 	},
 
 	illustrator: "AYUMI ODASHIMA",
 	category: "Trainer",
 
 	effect: {
-		id: "Kerusakan akibat serangan dari Pokémon lawan yang diterima Pokémon {Logam} kedua pemain berkurang sejumlah 30."
+		'id-id': "Kerusakan akibat serangan dari Pokémon lawan yang diterima Pokémon {Logam} kedua pemain berkurang sejumlah 30."
 	},
 
 	trainerType: "Stadium",

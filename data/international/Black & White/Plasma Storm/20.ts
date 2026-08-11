@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Plasma Storm'
 
 const card: Card = {
 	name: {
-		en: "Simisear",
-		fr: "Flamoutan",
-		es: "Simisear",
-		it: "Simisear",
-		pt: "Simisear",
-		de: "Grillchita"
+		'en-us': "Simisear",
+		'fr-fr': "Flamoutan",
+		'es-es': "Simisear",
+		'it-it': "Simisear",
+		'pt-br': "Simisear",
+		'de-de': "Grillchita"
 	},
 
 	illustrator: "Naoki Saito",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pansear",
-		fr: "Flamajou",
+		'en-us': "Pansear",
+		'fr-fr': "Flamajou",
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Searing Flame",
-				fr: "Flammes Calcinantes",
+				'en-us': "Searing Flame",
+				'fr-fr': "Flammes Calcinantes",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				'en-us': "The Defending Pokémon is now Burned.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé.",
 			},
 			damage: 20,
 
@@ -56,12 +56,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flame Blast",
-				fr: "Explosion de Flammes",
+				'en-us': "Flame Blast",
+				'fr-fr': "Explosion de Flammes",
 			},
 			effect: {
-				en: "Does 20 more damage for each Fire Energy attached to this Pokémon.",
-				fr: "Inflige 20 dégâts supplémentaires pour chaque Énergie Fire attachée à ce Pokémon.",
+				'en-us': "Does 20 more damage for each Fire Energy attached to this Pokémon.",
+				'fr-fr': "Inflige 20 dégâts supplémentaires pour chaque Énergie Fire attachée à ce Pokémon.",
 			},
 			damage: 40,
 
@@ -78,7 +78,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets.",
+		'en-us': "When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets.",
 	},
 
 	thirdParty: {

@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Camerupt",
-		fr: "Camérupt",
-		es: "Camerupt",
-		it: "Camerupt",
-		pt: "Camerupt",
-		de: "Camerupt"
+		'en-us': "Camerupt",
+		'fr-fr': "Camérupt",
+		'es-es': "Camerupt",
+		'it-it': "Camerupt",
+		'pt-br': "Camerupt",
+		'de-de': "Camerupt"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Numel",
-		fr: "Chamallot",
+		'en-us': "Numel",
+		'fr-fr': "Chamallot",
 	},
 
 	stage: "Stage1",
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 50,
@@ -59,20 +59,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strong Flare",
-				fr: "Flamboiement Intense",
-				es: "Fuerte Llama",
-				it: "Vampata Potente",
-				pt: "Labareda Forte",
-				de: "Großes Auflodern"
+				'en-us': "Strong Flare",
+				'fr-fr': "Flamboiement Intense",
+				'es-es': "Fuerte Llama",
+				'it-it': "Vampata Potente",
+				'pt-br': "Labareda Forte",
+				'de-de': "Großes Auflodern"
 			},
 			effect: {
-				en: "Discard 2 Energy from this Pokémon.",
-				fr: "Défaussez 2 Énergies de ce Pokémon.",
-				es: "Descarta 2 Energías de este Pokémon.",
-				it: "Scarta due Energie assegnate a questo Pokémon.",
-				pt: "Descarte 2 Energias deste Pokémon.",
-				de: "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+				'en-us': "Discard 2 Energy from this Pokémon.",
+				'fr-fr': "Défaussez 2 Énergies de ce Pokémon.",
+				'es-es': "Descarta 2 Energías de este Pokémon.",
+				'it-it': "Scarta due Energie assegnate a questo Pokémon.",
+				'pt-br': "Descarte 2 Energias deste Pokémon.",
+				'de-de': "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 150,
 
@@ -89,7 +89,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "The volcanoes on its back have a major eruption every 10 years—or whenever it becomes really angry.",
+		'en-us': "The volcanoes on its back have a major eruption every 10 years—or whenever it becomes really angry.",
 	},
 
 	thirdParty: {

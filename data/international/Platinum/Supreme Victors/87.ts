@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Wailmer",
-		fr: "Wailmer",
-		de: "Wailmer"
+		'en-us': "Wailmer",
+		'fr-fr': "Wailmer",
+		'de-de': "Wailmer"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -30,14 +30,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hydro Pump",
-				fr: "Hydrocanon",
-				de: "Hydropumpe"
+				'en-us': "Hydro Pump",
+				'fr-fr': "Hydrocanon",
+				'de-de': "Hydropumpe"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each Water Energy attached to Wailmer but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie Water attachée à Wailmer qui n'a pas été utilisée pour payer le Coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
-				de: "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Wailmer angelegte -Energie zu, die nicht zum Bezahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 20 Schadenspunkte hinzufügen."
+				'en-us': "Does 20 damage plus 10 more damage for each Water Energy attached to Wailmer but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+				'fr-fr': "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie Water attachée à Wailmer qui n'a pas été utilisée pour payer le Coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
+				'de-de': "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Wailmer angelegte -Energie zu, die nicht zum Bezahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 20 Schadenspunkte hinzufügen."
 			},
 			damage: "20+",
 
@@ -49,14 +49,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
-				fr: "Bélier",
-				de: "Bodycheck"
+				'en-us': "Take Down",
+				'fr-fr': "Bélier",
+				'de-de': "Bodycheck"
 			},
 			effect: {
-				en: "Wailmer does 20 damage to itself.",
-				fr: "Wailmer s'inflige 20 dégâts.",
-				de: "Wailmer fügt sich selbst 20 Schadenspunkte zu."
+				'en-us': "Wailmer does 20 damage to itself.",
+				'fr-fr': "Wailmer s'inflige 20 dégâts.",
+				'de-de': "Wailmer fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 50,
 
@@ -72,7 +72,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "On sunny days, it lands on beaches to bounce like a ball and play. It spouts water from its nose."
+		'en-us': "On sunny days, it lands on beaches to bounce like a ball and play. It spouts water from its nose."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケット団のニドクイン",
+		'ja-jp': "ロケット団のニドクイン",
 	},
 
 	illustrator: "hncl",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		ja: "背中の 棘の 隙間に 子どもを 乗せて あやす。 そのときに 毒が 出ることは けっして ないのだ。",
+		'ja-jp': "背中の 棘の 隙間に 子どもを 乗せて あやす。 そのときに 毒が 出ることは けっして ないのだ。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "60+",
 			cost: ["Darkness"],
 			effect: {
-				ja: "自分のベンチに、名前に「ニドキング」とつくポケモンがいるなら、120ダメージ追加。",
+				'ja-jp': "自分のベンチに、名前に「ニドキング」とつくポケモンがいるなら、120ダメージ追加。",
 			},
 		},
 		{
@@ -47,7 +47,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ロケット団のニドリーナ",
+		'ja-jp': "ロケット団のニドリーナ",
 	},
 
 	retreat: 3,

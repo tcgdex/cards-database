@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
@@ -6,7 +6,7 @@ const card: Card = {
 
 	name: {
 		'zh-tw': "燭光靈",
-		ja: "ヒトモシ"
+		'ja-jp': "ヒトモシ"
 	},
 
 	illustrator: "Yuka Morii",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	description: {
 		'zh-tw': "頭上燃燒著的燭光讓牠的身體保持微熱。會拉著迷路孩子的手， 將他們帶向靈界。",
-		ja: "炎で 熱せられた 体は ほんのり 温かい。 迷子の 手を 引き 霊界へと 誘う。"
+		'ja-jp': "炎で 熱せられた 体は ほんのり 温かい。 迷子の 手を 引き 霊界へと 誘う。"
 	},
 
 	stage: "Basic",
@@ -24,12 +24,12 @@ const card: Card = {
 	attacks: [{
 		name: {
 			'zh-tw': "小火災",
-			ja: "ぼやさわぎ"
+			'ja-jp': "ぼやさわぎ"
 		},
 
 		effect: {
 			'zh-tw': "將對手的牌庫上方1張卡丟棄。",
-			ja: "相手の山札を上から1枚トラッシュする。"
+			'ja-jp': "相手の山札を上から1枚トラッシュする。"
 		},
 
 		cost: ["Fire"]

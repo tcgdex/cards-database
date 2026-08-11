@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Next Destinies'
 
 const card: Card = {
 	name: {
-		en: "Pinsir",
-		fr: "Scarabrute",
-		es: "Pinsir",
-		it: "Pinsir",
-		pt: "Pinsir",
-		de: "Pinsir"
+		'en-us': "Pinsir",
+		'fr-fr': "Scarabrute",
+		'es-es': "Pinsir",
+		'it-it': "Pinsir",
+		'pt-br': "Pinsir",
+		'de-de': "Pinsir"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Power Pinch",
-				fr: "Pinces Vigoureuses",
+				'en-us': "Power Pinch",
+				'fr-fr': "Pinces Vigoureuses",
 			},
 			effect: {
-				en: "Flip 2 coins. For each heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez 2 pièces. Pour chaque côté face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Flip 2 coins. For each heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez 2 pièces. Pour chaque côté face, défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 
 		},
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Grip and Squeeze",
-				fr: "Empoigne Puissante",
+				'en-us': "Grip and Squeeze",
+				'fr-fr': "Empoigne Puissante",
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 			},
 			damage: 70,
 
@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It grips prey with its pincers until the prey is torn in half. What it can't tear, it tosses far.",
+		'en-us': "It grips prey with its pincers until the prey is torn in half. What it can't tear, it tosses far.",
 	},
 
 	thirdParty: {

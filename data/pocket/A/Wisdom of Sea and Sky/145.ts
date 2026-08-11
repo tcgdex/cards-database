@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Wisdom of Sea and Sky"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Teddiursa",
-		fr: "Teddiursa"
+		'en-us': "Teddiursa",
+		'fr-fr': "Teddiursa"
 	},
 
 	illustrator: "Mizue",
@@ -18,23 +18,23 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "Its paws are soaked in oodles of honey. When\nnervous, Teddiursa will lick its paws and soon\nhave a smile back on its face.",
-		fr: "Quand il est anxieux, il lèche ses pattes qui sont constamment couvertes de miel, et retrouve le sourire."
+		'en-us': "Its paws are soaked in oodles of honey. When\nnervous, Teddiursa will lick its paws and soon\nhave a smile back on its face.",
+		'fr-fr': "Quand il est anxieux, il lèche ses pattes qui sont constamment couvertes de miel, et retrouve le sourire."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Honey Snack",
-			fr: "Tartine au Miel"
+			'en-us': "Honey Snack",
+			'fr-fr': "Tartine au Miel"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon.",
-			fr: "Soignez 20 dégâts de ce Pokémon."
+			'en-us': "Heal 20 damage from this Pokémon.",
+			'fr-fr': "Soignez 20 dégâts de ce Pokémon."
 		}
 	}],
 

@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Mary's Impulse",
-		fr: "Impulsion de Lula",
-		de: "Mary's Impulse*"
+		'en-us': "Mary's Impulse",
+		'fr-fr': "Impulsion de Lula",
+		'de-de': "Mary's Impulse*"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -15,9 +15,9 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Flip a coin until you get tails. For each heads, draw 2 cards.",
-		fr: "Lancez une pièce jusqu'à obtenir pile. Pour chaque face, piochez 2 cartes.",
-		de: "Flip a coin until you get tails. For each heads, draw 2 cards.",
+		'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Flip a coin until you get tails. For each heads, draw 2 cards.",
+		'fr-fr': "Lancez une pièce jusqu'à obtenir pile. Pour chaque face, piochez 2 cartes.",
+		'de-de': "Flip a coin until you get tails. For each heads, draw 2 cards.",
 	},
 
 	variants: [

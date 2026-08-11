@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M4";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ナットレイ",
+		'ja-jp': "ナットレイ",
 	},
 
 	illustrator: "Haru Akasaka",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		ja: "トゲで 岩盤に キズを つけると 触手の 先端を あてて 栄養を 吸収する。",
+		'ja-jp': "トゲで 岩盤に キズを つけると 触手の 先端を あてて 栄養を 吸収する。",
 	},
 
 	stage: "Stage1",
@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "どっきりおとし" },
 			effect: {
-				ja: "相手の番に、このカードが相手のワザ・特性・グッズ・サポートの効果で山札からトラッシュされたとき、相手の山札を上から8枚トラッシュする。",
+				'ja-jp': "相手の番に、このカードが相手のワザ・特性・グッズ・サポートの効果で山札からトラッシュされたとき、相手の山札を上から8枚トラッシュする。",
 			},
 		},
 	],
@@ -34,7 +34,7 @@ const card: Card = {
 			damage: "70+",
 			cost: ["Metal", "Metal"],
 			effect: {
-				ja: "このポケモンに特殊エネルギーがついているなら、70ダメージ追加。",
+				'ja-jp': "このポケモンに特殊エネルギーがついているなら、70ダメージ追加。",
 			},
 		},
 	],
@@ -52,7 +52,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "テッシード",
+		'ja-jp': "テッシード",
 	},
 
 	retreat: 3,

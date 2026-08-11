@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sun & Moon'
 
 const card: Card = {
 	name: {
-		en: "Spinda",
-		fr: "Spinda",
-		es: "Spinda",
-		it: "Spinda",
-		pt: "Spinda",
-		de: "Pandir"
+		'en-us': "Spinda",
+		'fr-fr': "Spinda",
+		'es-es': "Spinda",
+		'it-it': "Spinda",
+		'pt-br': "Spinda",
+		'de-de': "Pandir"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Teeter Punch",
-				fr: "Coup de Poing Fou",
-				es: "Puño Vacilante",
-				it: "Strampapugno",
-				pt: "Soco Cambaleante",
-				de: "Taumelnder Schlag"
+				'en-us': "Teeter Punch",
+				'fr-fr': "Coup de Poing Fou",
+				'es-es': "Puño Vacilante",
+				'it-it': "Strampapugno",
+				'pt-br': "Soco Cambaleante",
+				'de-de': "Taumelnder Schlag"
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Confused.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-				es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-				it: "Il Pokémon attivo del tuo avversario viene confuso.",
-				pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
-				de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+				'en-us': "Your opponent’s Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -64,7 +64,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its steps are staggering and unsteady, but Spinda thinks it's walking in a straight line.",
+		'en-us': "Its steps are staggering and unsteady, but Spinda thinks it's walking in a straight line.",
 	},
 
 	thirdParty: {

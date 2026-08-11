@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カジッチュ",
+		'ja-jp': "カジッチュ",
 		'zh-tw': "啃果蟲",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "一生 りんごの 中で 暮らし 天敵の 鳥ポケモンに 出会うと りんごの 振りをして 身を守る。",
+		'ja-jp': "一生 りんごの 中で 暮らし 天敵の 鳥ポケモンに 出会うと りんごの 振りをして 身を守る。",
 		'zh-tw': "終其一生都在蘋果裡度過。遇到天敵鳥寶可夢時，會裝成蘋果保護自己。",
 	},
 
@@ -23,12 +23,12 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "からにこもる",
+				'ja-jp': "からにこもる",
 				'zh-tw': "縮入殼中",
 			},
 			cost: ["Colorless"],
 			effect: {
-				ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。",
+				'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。",
 				'zh-tw': "擲1次硬幣若為正面，則在下個對手的回合，這隻寶可夢不會受到招式的傷害。",
 			},
 		},

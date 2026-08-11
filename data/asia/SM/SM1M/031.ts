@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM1M";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ギガイアス",
+		'ja-jp': "ギガイアス",
 	},
 
 	illustrator: "Eske Yoshinob",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "かなりの 馬力を 持っているので 建設関係者が 好んで パートナーに 選ぶ ポケモンだ。",
+		'ja-jp': "かなりの 馬力を 持っているので 建設関係者が 好んで パートナーに 選ぶ ポケモンだ。",
 	},
 
 	stage: "Stage2",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Fighting", "Colorless"],
 			effect: {
-				ja: "自分の場のポケモンについている[闘]エネルギーを好きなだけトラッシュし、その枚数x50ダメージ。",
+				'ja-jp': "自分の場のポケモンについている[闘]エネルギーを好きなだけトラッシュし、その枚数x50ダメージ。",
 			},
 		},
 		{
@@ -32,7 +32,7 @@ const card: Card = {
 			damage: 120,
 			cost: ["Fighting", "Fighting", "Colorless", "Colorless"],
 			effect: {
-				ja: "このワザのダメージは抵抗力を計算しない。",
+				'ja-jp': "このワザのダメージは抵抗力を計算しない。",
 			},
 		},
 	],
@@ -50,7 +50,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ガントル",
+		'ja-jp': "ガントル",
 	},
 
 	retreat: 4,

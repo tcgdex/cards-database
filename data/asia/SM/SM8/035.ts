@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SM8";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "モココ",
+		'ja-jp': "モココ",
 	},
 
 	illustrator: "Mizue",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "体毛に ためた 電気が 満タンになると 尻尾が 光る。 触れると しびれる 毛を 飛ばす。",
+		'ja-jp': "体毛に ためた 電気が 満タンになると 尻尾が 光る。 触れると しびれる 毛を 飛ばす。",
 	},
 
 	stage: "Stage1",
@@ -24,7 +24,7 @@ const card: Card = {
 			damage: 40,
 			cost: ["Lightning", "Lightning"],
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				'ja-jp': "相手のバトルポケモンをこんらんにする。",
 			},
 		},
 	],
@@ -42,7 +42,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "メリープ",
+		'ja-jp': "メリープ",
 	},
 
 	retreat: 1,

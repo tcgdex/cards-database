@@ -1,16 +1,16 @@
-import { Set } from '../../interfaces'
+import { Set } from 'models/database/set'
 import serie from '../XY'
 
 const xy11: Set = {
 	id: "xy11",
 
 	name: {
-		en: "Steam Siege",
-		fr: "Offensive Vapeur",
-		es: "Asedio de Vapor",
-		it: "Vapori Accesi",
-		de: "Dampfkessel",
-		pt: "Cerco de Vapor"
+		'en-us': "Steam Siege",
+		'fr-fr': "Offensive Vapeur",
+		'es-es': "Asedio de Vapor",
+		'it-it': "Vapori Accesi",
+		'de-de': "Dampfkessel",
+		'pt-br': "Cerco de Vapor"
 	},
 
 	serie: serie,
@@ -24,7 +24,7 @@ const xy11: Set = {
 
 	abbreviations: {
 		official: "STS",
-		fr: "OFV"
+		'fr-fr': "OFV"
 	},
 
 	thirdParty: {

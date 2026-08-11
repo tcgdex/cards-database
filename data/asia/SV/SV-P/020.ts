@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジニア",
+		'ja-jp': "ジニア",
 		'zh-tw': "墓揚犬",
 	},
 
@@ -12,7 +12,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札から進化ポケモンを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+		'ja-jp': "自分の山札から進化ポケモンを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
 	},
 
 	variants: [

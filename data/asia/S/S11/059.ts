@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../S11";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドンファン",
+		'ja-jp': "ドンファン",
 		'zh-tw': "頓甲",
 	},
 
@@ -14,7 +14,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		ja: "キバが 長くて 大きいほど 群れの中での ランクが 高い。 キバが 伸びるには 時間が かかる。",
+		'ja-jp': "キバが 長くて 大きいほど 群れの中での ランクが 高い。 キバが 伸びるには 時間が かかる。",
 		'zh-tw': "牙齒越大越長，在族群裡的地位就越高。 牙齒的生長需要很長的時間。",
 	},
 
@@ -23,19 +23,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
-				ja: "オーバースピン",
+				'ja-jp': "オーバースピン",
 				'zh-tw': "超頻旋轉",
 			},
 			damage: 110,
 			cost: ["Fighting"],
 			effect: {
-				ja: "この番、このポケモンに進化していたなら、このワザは失敗。",
+				'ja-jp': "この番、このポケモンに進化していたなら、このワザは失敗。",
 				'zh-tw': "在這個回合，若進化成這隻寶可夢，則這個招式失敗。",
 			},
 		},
 		{
 			name: {
-				ja: "きょだいなキバ",
+				'ja-jp': "きょだいなキバ",
 				'zh-tw': "巨大之牙",
 			},
 			damage: 170,
@@ -57,7 +57,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		ja: "ゴマゾウ",
+		'ja-jp': "ゴマゾウ",
 	},
 
 	retreat: 3,

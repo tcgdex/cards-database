@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Black Bolt"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Simipour",
-		fr: "Flotoutan",
-		de: "Sodachita",
-		it: "Simipour",
-		pt: "Simipour",
-		es: "Simipour",
+		'en-us': "Simipour",
+		'fr-fr': "Flotoutan",
+		'de-de': "Sodachita",
+		'it-it': "Simipour",
+		'pt-br': "Simipour",
+		'es-es': "Simipour",
 		'es-mx': "Simipour"
 	},
 
@@ -21,12 +21,12 @@ const card: Card = {
 	hp: 100,
 	types: ["Water"],
 	evolveFrom: {
-		en: "Panpour",
-		fr: "Flotajou",
-		de: "Sodamak",
-		it: "Panpour",
-		pt: "Panpour",
-		es: "Panpour",
+		'en-us': "Panpour",
+		'fr-fr': "Flotajou",
+		'de-de': "Sodamak",
+		'it-it': "Panpour",
+		'pt-br': "Panpour",
+		'es-es': "Panpour",
 		'es-mx': "Panpour"
 	},
 	stage: "Stage1",
@@ -35,12 +35,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Gentle Slap",
-			fr: "Gifle Douce",
-			de: "Sanfter Hieb",
-			it: "Schiaffetto",
-			pt: "Tapinha",
-			es: "Bofetada Gentil",
+			'en-us': "Gentle Slap",
+			'fr-fr': "Gifle Douce",
+			'de-de': "Sanfter Hieb",
+			'it-it': "Schiaffetto",
+			'pt-br': "Tapinha",
+			'es-es': "Bofetada Gentil",
 			'es-mx': "Cachetadita"
 		},
 

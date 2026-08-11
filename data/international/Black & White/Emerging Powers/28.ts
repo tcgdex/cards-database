@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Emerging Powers'
 
 const card: Card = {
 	name: {
-		en: "Cubchoo",
-		fr: "Polarhume",
-		es: "Cubchoo",
-		it: "Cubchoo",
-		pt: "Cubchoo",
-		de: "Petznief"
+		'en-us': "Cubchoo",
+		'fr-fr': "Polarhume",
+		'es-es': "Cubchoo",
+		'it-it': "Cubchoo",
+		'pt-br': "Cubchoo",
+		'de-de': "Petznief"
 	},
 
 	illustrator: "sui",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Powder Snow",
-				fr: "Poudreuse",
+				'en-us': "Powder Snow",
+				'fr-fr': "Poudreuse",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
 			},
 			damage: 10,
 
@@ -50,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rest",
-				fr: "Repos",
+				'en-us': "Rest",
+				'fr-fr': "Repos",
 			},
 			effect: {
-				en: "Heal 60 damage from this Pokémon. This Pokémon is now Asleep.",
-				fr: "Soignez 60 dégâts à ce Pokémon. Ce Pokémon est maintenant Endormi.",
+				'en-us': "Heal 60 damage from this Pokémon. This Pokémon is now Asleep.",
+				'fr-fr': "Soignez 60 dégâts à ce Pokémon. Ce Pokémon est maintenant Endormi.",
 			},
 
 		},
@@ -71,7 +71,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When it is not feeling well, its mucus gets watery and the power of its Ice-type moves decreases.",
+		'en-us': "When it is not feeling well, its mucus gets watery and the power of its Ice-type moves decreases.",
 	},
 
 	thirdParty: {

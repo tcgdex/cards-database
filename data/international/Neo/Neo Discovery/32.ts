@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Neo Discovery'
 
 const card: Card = {
 	name: {
-		en: "Umbreon",
-		fr: "Noctali",
-		de: "Nachtara"
+		'en-us': "Umbreon",
+		'fr-fr': "Noctali",
+		'de-de': "Nachtara"
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Eevee",
-		fr: "Évoli"
+		'en-us': "Eevee",
+		'fr-fr': "Évoli"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
-				fr: "Vive-attaque",
-				de: "Quick Attack"
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-attaque",
+				'de-de': "Quick Attack"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 10 dégâts.",
-				de: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 10 dégâts.",
+				'de-de': "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
 			},
 			damage: "10+",
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pursuit",
-				fr: "Poursuite",
-				de: "Pursuit"
+				'en-us': "Pursuit",
+				'fr-fr': "Poursuite",
+				'de-de': "Pursuit"
 			},
 			effect: {
-				en: "During your opponent's next turn, if the Defending Pokémon tries to retreat, do 10 damage to it. (Don't apply Weakness and Resistance.)",
-				fr: "Pendant le prochain tour de votre adversaire, si le Pokémon Défenseur essaie de battre en retraite, infligez-lui 10 dégâts. (N'appliquez pas la Faiblesse et la Résistance.)",
-				de: "During your opponent's next turn, if the Defending Pokémon tries to retreat, do 10 damage to it. (Don't apply Weakness and Resistance.)"
+				'en-us': "During your opponent's next turn, if the Defending Pokémon tries to retreat, do 10 damage to it. (Don't apply Weakness and Resistance.)",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, si le Pokémon Défenseur essaie de battre en retraite, infligez-lui 10 dégâts. (N'appliquez pas la Faiblesse et la Résistance.)",
+				'de-de': "During your opponent's next turn, if the Defending Pokémon tries to retreat, do 10 damage to it. (Don't apply Weakness and Resistance.)"
 			},
 			damage: 30,
 
@@ -80,8 +80,8 @@ const card: Card = {
 
 
 	description: {
-		en: "When agitated, this Pokémon protects itself by spraying poisonous sweat from its pores.",
-		fr: "Quand il est énervé, ce Pokémon se protège avec une sueur empoisonnée émise par ses pores."
+		'en-us': "When agitated, this Pokémon protects itself by spraying poisonous sweat from its pores.",
+		'fr-fr': "Quand il est énervé, ce Pokémon se protège avec une sueur empoisonnée émise par ses pores."
 	},
 
 

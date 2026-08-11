@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../neo1"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "グランブル",
+		'ja-jp': "グランブル",
 	},
 
 	rarity: "Uncommon",
@@ -18,17 +18,17 @@ const card: Card = {
 		{
 			cost: ["Colorless", "Colorless"],
 			name: {
-				ja: "取り組む",
+				'ja-jp': "取り組む",
 			},
 			damage: 20,
 		},
 		{
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
-				ja: "荒れ狂う料金",
+				'ja-jp': "荒れ狂う料金",
 			},
 			effect: {
-				ja: "この攻撃は、Granbullの各ダメージカウンターに対して10ダメージと10ダメージを与えます。その後、Granbullはそれ自体に20のダメージを与えます。",
+				'ja-jp': "この攻撃は、Granbullの各ダメージカウンターに対して10ダメージと10ダメージを与えます。その後、Granbullはそれ自体に20のダメージを与えます。",
 			},
 		},
 	],

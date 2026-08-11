@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../BW Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Elgyem",
-		fr: "Lewsor",
+		'en-us': "Elgyem",
+		'fr-fr': "Lewsor",
 	},
 	illustrator: "Mizue",
 	rarity: "Common",
@@ -25,12 +25,12 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Weak Barrier",
-				fr: "Bouclier Faiblesse",
+				'en-us': "Weak Barrier",
+				'fr-fr': "Bouclier Faiblesse",
 			},
 			effect: {
-				en: "If this Pokémon has any Psychic Energy attached to it, this Pokémon has no Weakness.",
-				fr: "Si de l'Énergie Psychic est attachée à ce Pokémon, ce Pokémon n'a pas de Faiblesse.",
+				'en-us': "If this Pokémon has any Psychic Energy attached to it, this Pokémon has no Weakness.",
+				'fr-fr': "Si de l'Énergie Psychic est attachée à ce Pokémon, ce Pokémon n'a pas de Faiblesse.",
 			},
 		},
 	],
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Blow",
-				fr: "Coup d'Poing Éclair",
+				'en-us': "Quick Blow",
+				'fr-fr': "Coup d'Poing Éclair",
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
 			},
 			damage: 10,
 
@@ -65,7 +65,7 @@ const card: Card = {
 
 
 	description: {
-		en: "It uses its strong psychic power to squeeze its opponent's brain, causing unendurable headaches.",
+		'en-us': "It uses its strong psychic power to squeeze its opponent's brain, causing unendurable headaches.",
 	},
 }
 

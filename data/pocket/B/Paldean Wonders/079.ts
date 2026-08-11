@@ -1,15 +1,15 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../Paldean Wonders";
 
 const card: Card = {
   set: Set,
   name: {
-		en: "Lechonk",
-		fr: "Gourmelet",
-		es: "Lechonk",
-		de: "Ferkuli",
-		it: "Lechonk",
-		pt: "Lechonk",
+		'en-us': "Lechonk",
+		'fr-fr': "Gourmelet",
+		'es-es': "Lechonk",
+		'de-de': "Ferkuli",
+		'it-it': "Lechonk",
+		'pt-br': "Lechonk",
 		'es-mx': "Lechonk"
   },
   illustrator: "kodama",
@@ -25,10 +25,10 @@ const card: Card = {
   attacks: [
     {
       name: {
-				en: "Tackle",
-				fr: "Charge",
-				de: "Tackle",
-				it: "Azione"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle",
+				'it-it': "Azione"
       },
       damage: 20,
       cost: ["Colorless"],

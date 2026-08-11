@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Noble Victories'
 
 const card: Card = {
 	name: {
-		en: "Cobalion",
-		fr: "Cobaltium",
-		es: "Cobalion",
-		it: "Cobalion",
-		pt: "Cobalion",
-		de: "Kobalium"
+		'en-us': "Cobalion",
+		'fr-fr': "Cobaltium",
+		'es-es': "Cobalion",
+		'it-it': "Cobalion",
+		'pt-br': "Cobalion",
+		'de-de': "Kobalium"
 	},
 
 	illustrator: "5ban Graphics",
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Press",
-				fr: "Pression Énergétique",
+				'en-us': "Energy Press",
+				'fr-fr': "Pression Énergétique",
 			},
 			effect: {
-				en: "Does 20 more damage for each Energy attached to the Defending Pokémon.",
-				fr: "Inflige 20 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+				'en-us': "Does 20 more damage for each Energy attached to the Defending Pokémon.",
+				'fr-fr': "Inflige 20 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
 			},
 			damage: 20,
 
@@ -52,12 +52,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Iron Breaker",
-				fr: "Brise-Fer",
+				'en-us': "Iron Breaker",
+				'fr-fr': "Brise-Fer",
 			},
 			effect: {
-				en: "The Defending Pokémon can't attack during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire.",
+				'en-us': "The Defending Pokémon can't attack during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas attaquer pendant le prochain tour de votre adversaire.",
 			},
 			damage: 80,
 
@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has a body and heart of steel. Its glare is sufficient to make even an unruly Pokémon obey it.",
+		'en-us': "It has a body and heart of steel. Its glare is sufficient to make even an unruly Pokémon obey it.",
 	},
 
 	thirdParty: {

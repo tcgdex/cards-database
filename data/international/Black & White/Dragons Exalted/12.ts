@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dragons Exalted'
 
 const card: Card = {
 	name: {
-		en: "Roselia",
-		fr: "Rosélia",
-		es: "Roselia",
-		it: "Roselia",
-		pt: "Roselia",
-		de: "Roselia"
+		'en-us': "Roselia",
+		'fr-fr': "Rosélia",
+		'es-es': "Roselia",
+		'it-it': "Roselia",
+		'pt-br': "Roselia",
+		'de-de': "Roselia"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Whip",
-				fr: "Double Fouet",
+				'en-us': "Double Whip",
+				'fr-fr': "Double Fouet",
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
 			},
 			damage: 10,
 
@@ -49,12 +49,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Relaxing Fragrance",
-				fr: "Parfum Relaxant",
+				'en-us': "Relaxing Fragrance",
+				'fr-fr': "Parfum Relaxant",
 			},
 			effect: {
-				en: "Heal 30 damage and remove all Special Conditions from this Pokémon.",
-				fr: "Soignez 30 dégâts et retirez tous les États Spéciaux de ce Pokémon.",
+				'en-us': "Heal 30 damage and remove all Special Conditions from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts et retirez tous les États Spéciaux de ce Pokémon.",
 			},
 
 		},
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The more healthy the Roselia, the more pleasant its flowers' aroma. Its scent deeply relaxes people.",
+		'en-us': "The more healthy the Roselia, the more pleasant its flowers' aroma. Its scent deeply relaxes people.",
 	},
 
 	thirdParty: {

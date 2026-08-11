@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Great Encounters'
 
 const card: Card = {
 	name: {
-		en: "Cresselia",
-		fr: "Cresselia",
-		de: "Cresselia"
+		'en-us': "Cresselia",
+		'fr-fr': "Cresselia",
+		'de-de': "Cresselia"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -31,14 +31,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Moon Twinkle",
-				fr: "Étincelle de lune",
-				de: "Mondgefunkel"
+				'en-us': "Moon Twinkle",
+				'fr-fr': "Étincelle de lune",
+				'de-de': "Mondgefunkel"
 			},
 			effect: {
-				en: "If there is any Stadium card in play, remove 2 damage counters from Cresselia.",
-				fr: "Si une carte Stade est en jeu, retirez à Cresselia 2 marqueurs de dégât.",
-				de: "Wenn sich eine Stadion-Karte im Spiel befindet, entferne 2 Schadensmarken von Cresselia."
+				'en-us': "If there is any Stadium card in play, remove 2 damage counters from Cresselia.",
+				'fr-fr': "Si une carte Stade est en jeu, retirez à Cresselia 2 marqueurs de dégât.",
+				'de-de': "Wenn sich eine Stadion-Karte im Spiel befindet, entferne 2 Schadensmarken von Cresselia."
 			},
 			damage: 10,
 
@@ -50,14 +50,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lunar Dance",
-				fr: "Danse-lune",
-				de: "Lunartanz"
+				'en-us': "Lunar Dance",
+				'fr-fr': "Danse-lune",
+				'de-de': "Lunartanz"
 			},
 			effect: {
-				en: "You may discard 2 Energy attached to Cresselia. If you do, remove all damage counters from 1 of your Benched Pokémon.",
-				fr: "Vous pouvez défausser 2 Énergies attachées à Cresselia. Retirez alors tous ses marqueurs de dégât à 1 des Pokémon de votre Banc.",
-				de: "Du kannst 2 Energien, die an Cresselia angelegt sind, auf deinen Ablagestapel legen. Wenn du das machst, entferne alle Schadensmarken von 1 Pokémon auf deiner Bank."
+				'en-us': "You may discard 2 Energy attached to Cresselia. If you do, remove all damage counters from 1 of your Benched Pokémon.",
+				'fr-fr': "Vous pouvez défausser 2 Énergies attachées à Cresselia. Retirez alors tous ses marqueurs de dégât à 1 des Pokémon de votre Banc.",
+				'de-de': "Du kannst 2 Energien, die an Cresselia angelegt sind, auf deinen Ablagestapel legen. Wenn du das machst, entferne alle Schadensmarken von 1 Pokémon auf deiner Bank."
 			},
 			damage: 50,
 
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon.",
+		'en-us': "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon.",
 	},
 
 	thirdParty: {

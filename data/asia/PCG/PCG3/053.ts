@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG3"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラッタタ",
+		'ja-jp': "ラッタタ",
 	},
 
 	rarity: "Common",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "スクランブル",
+				'ja-jp': "スクランブル",
 			},
 			effect: {
-				ja: "対戦相手が彼または彼女のアクティブなPokã©MonとしてPokã©Mon-Exを持っている限り、Rattataのリトリートコストは0です。",
+				'ja-jp': "対戦相手が彼または彼女のアクティブなPokã©MonとしてPokã©Mon-Exを持っている限り、Rattataのリトリートコストは0です。",
 			},
 		}],
 
@@ -29,10 +29,10 @@ const card: Card = {
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "フューリースワイプ",
+				'ja-jp': "フューリースワイプ",
 			},
 			effect: {
-				ja: "3コインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+				'ja-jp': "3コインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
 			},
 		},
 	],

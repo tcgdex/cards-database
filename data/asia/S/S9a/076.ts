@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../S9a"
 
 const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ヒスイ バクフーンV"
+		'ja-jp': "ヒスイ バクフーンV"
 	},
 
 	illustrator: "5ban Graphics",
@@ -17,23 +17,23 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			ja: "こがす"
+			'ja-jp': "こがす"
 		},
 
 		effect: {
-			ja: "相手のバトルポケモンをやけどにする。"
+			'ja-jp': "相手のバトルポケモンをやけどにする。"
 		}
 	}, {
 		cost: ["Psychic", "Psychic", "Colorless"],
 
 		name: {
-			ja: "せんりつのほのお"
+			'ja-jp': "せんりつのほのお"
 		},
 
 		damage: 120,
 
 		effect: {
-			ja: "相手の手札からオモテを見ないで1枚選び、そのカードのオモテを見てから、相手の山札にもどして切る。"
+			'ja-jp': "相手の手札からオモテを見ないで1枚選び、そのカードのオモテを見てから、相手の山札にもどして切る。"
 		}
 	}],
 

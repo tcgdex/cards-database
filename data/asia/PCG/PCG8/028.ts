@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../PCG8"
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "恐ろしい（デルタ種）",
+		'ja-jp': "恐ろしい（デルタ種）",
 	},
 
 	rarity: "Rare",
@@ -18,10 +18,10 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				ja: "デルタサイン",
+				'ja-jp': "デルタサイン",
 			},
 			effect: {
-				ja: "ターン中（攻撃の前に）一度（攻撃の前）、そのカードにあるPokã©Monを検索し、それを相手に見せて、手に渡すことができます。その後、デッキをシャッフルします。ターンごとに1つ以上のデルタサインPokã©-Powerを使用することはできません。 Fearowが特別な状態の影響を受けている場合、この力は使用できません。",
+				'ja-jp': "ターン中（攻撃の前に）一度（攻撃の前）、そのカードにあるPokã©Monを検索し、それを相手に見せて、手に渡すことができます。その後、デッキをシャッフルします。ターンごとに1つ以上のデルタサインPokã©-Powerを使用することはできません。 Fearowが特別な状態の影響を受けている場合、この力は使用できません。",
 			},
 		}],
 
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Lightning", "Colorless"],
 			name: {
-				ja: "ピアス",
+				'ja-jp': "ピアス",
 			},
 			damage: 30,
 		},

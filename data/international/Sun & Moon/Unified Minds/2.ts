@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Unified Minds'
 
 const card: Card = {
 	name: {
-		en: "Yanma",
-		fr: "Yanma",
-		es: "Yanma",
-		it: "Yanma",
-		pt: "Yanma",
-		de: "Yanma"
+		'en-us': "Yanma",
+		'fr-fr': "Yanma",
+		'es-es': "Yanma",
+		'it-it': "Yanma",
+		'pt-br': "Yanma",
+		'de-de': "Yanma"
 	},
 
 	illustrator: "Eri Yamaki",
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
-				fr: "Charge",
-				es: "Placaje",
-				it: "Azione",
-				pt: "Investida",
-				de: "Tackle"
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
 			},
 
 			damage: 10,
@@ -51,12 +51,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cutting Wind",
-				fr: "Vent Glacial",
-				es: "Viento Helado",
-				it: "Vento Tagliente",
-				pt: "Vento Dilacerante",
-				de: "Schneidender Wind"
+				'en-us': "Cutting Wind",
+				'fr-fr': "Vent Glacial",
+				'es-es': "Viento Helado",
+				'it-it': "Vento Tagliente",
+				'pt-br': "Vento Dilacerante",
+				'de-de': "Schneidender Wind"
 			},
 
 			damage: 20,
@@ -74,7 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its eyes can see 360 degrees without moving its head. It won't miss prey—even those behind it.",
+		'en-us': "Its eyes can see 360 degrees without moving its head. It won't miss prey—even those behind it.",
 	},
 
 	thirdParty: {

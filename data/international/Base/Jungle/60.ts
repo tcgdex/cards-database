@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Jungle'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
-		fr: "Pikachu",
-		de: "Pikachu"
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'de-de': "Pikachu"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Pichu",
+		'en-us': "Pichu",
 	},
 
 	stage: "Basic",
@@ -36,14 +36,14 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Spark",
-				fr: "Étincelle",
-				de: "Funkensprung"
+				'en-us': "Spark",
+				'fr-fr': "Étincelle",
+				'de-de': "Funkensprung"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Si votre adversaire a au moins 1 Pokémon sur son Banc, choisissez l'un d'eux ; cette attaque lui inflige 10 dégâts. (Ne pas appliquer la Faiblesse et la Résistance au Pokémon du Banc.)",
-				de: "Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wählt er eines von ihnen und dieser Angriff fügt ihm 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
+				'en-us': "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Si votre adversaire a au moins 1 Pokémon sur son Banc, choisissez l'un d'eux ; cette attaque lui inflige 10 dégâts. (Ne pas appliquer la Faiblesse et la Résistance au Pokémon du Banc.)",
+				'de-de': "Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wählt er eines von ihnen und dieser Angriff fügt ihm 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
 			},
 			damage: 20,
 
@@ -60,8 +60,8 @@ const card: Card = {
 
 
 	description: {
-		en: "When several of these Pokémon gather, their electricity can build and cause lightning storms.",
-		fr: "Quand plusieurs de ces Pokémon se réunissent, ils provoquent de gigantesques orages."
+		'en-us': "When several of these Pokémon gather, their electricity can build and cause lightning storms.",
+		'fr-fr': "Quand plusieurs de ces Pokémon se réunissent, ils provoquent de gigantesques orages."
 	},
 
 

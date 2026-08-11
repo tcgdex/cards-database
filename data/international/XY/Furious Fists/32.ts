@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Minun",
-		fr: "Négapi",
-		es: "Minun",
-		it: "Minun",
-		pt: "Minun",
-		de: "Minun"
+		'en-us': "Minun",
+		'fr-fr': "Négapi",
+		'es-es': "Minun",
+		'it-it': "Minun",
+		'pt-br': "Minun",
+		'de-de': "Minun"
 	},
 
 	illustrator: "Akira Komayama",
@@ -34,20 +34,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Negative Discard",
-				fr: "Défausse Négative",
-				es: "Descarte Negativo",
-				it: "Scarto Negativo",
-				pt: "Descarte Negativo",
-				de: "Negative Ablage"
+				'en-us': "Negative Discard",
+				'fr-fr': "Défausse Négative",
+				'es-es': "Descarte Negativo",
+				'it-it': "Scarto Negativo",
+				'pt-br': "Descarte Negativo",
+				'de-de': "Negative Ablage"
 			},
 			effect: {
-				en: "Put 2 basic Energy cards from your discard pile into your hand.",
-				fr: "Prenez 2 cartes Énergie de base dans votre pile de défausse et ajoutez-les à votre main.",
-				es: "Pon 2 cartas de Energía Básica de tu pila de descartes en tu mano.",
-				it: "Prendi due carte Energia base dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
-				pt: "Coloque 2 cards de Energias básicas da pilha de descarte em sua mão.",
-				de: "Nimm 2 Basis-Energiekarten von deinem Ablagestapel auf deine Hand."
+				'en-us': "Put 2 basic Energy cards from your discard pile into your hand.",
+				'fr-fr': "Prenez 2 cartes Énergie de base dans votre pile de défausse et ajoutez-les à votre main.",
+				'es-es': "Pon 2 cartas de Energía Básica de tu pila de descartes en tu mano.",
+				'it-it': "Prendi due carte Energia base dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
+				'pt-br': "Coloque 2 cards de Energias básicas da pilha de descarte em sua mão.",
+				'de-de': "Nimm 2 Basis-Energiekarten von deinem Ablagestapel auf deine Hand."
 			},
 
 		},
@@ -56,12 +56,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Static Shock",
-				fr: "Choc Statique",
-				es: "Impacto Estático",
-				it: "Shock Statico",
-				pt: "Choque de Estática",
-				de: "Statischer Schock"
+				'en-us': "Static Shock",
+				'fr-fr': "Choc Statique",
+				'es-es': "Impacto Estático",
+				'it-it': "Shock Statico",
+				'pt-br': "Choque de Estática",
+				'de-de': "Statischer Schock"
 			},
 
 			damage: 20,
@@ -86,7 +86,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Exposure to electricity from Minun and Plusle promotes blood circulation and relaxes muscles.",
+		'en-us': "Exposure to electricity from Minun and Plusle promotes blood circulation and relaxes muscles.",
 	},
 
 	thirdParty: {

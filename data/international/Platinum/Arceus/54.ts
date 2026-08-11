@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Bronzor",
-		de: "Bronzel"
+		'en-us': "Bronzor",
+		'de-de': "Bronzel"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -28,12 +28,12 @@ const card: Card = {
 				"Metal",
 			],
 			name: {
-				en: "Hypnosis",
-				de: "Hypnose"
+				'en-us': "Hypnosis",
+				'de-de': "Hypnose"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt."
 			},
 			damage: 10,
 
@@ -44,8 +44,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spinning Attack",
-				de: "Rundumangriff"
+				'en-us': "Spinning Attack",
+				'de-de': "Rundumangriff"
 			},
 
 			damage: 20,
@@ -70,7 +70,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "There are researchers who believe this Pokémon reflected like a mirror in the distant past."
+		'en-us': "There are researchers who believe this Pokémon reflected like a mirror in the distant past."
 	},
 
 	variants: [

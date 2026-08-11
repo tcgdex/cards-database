@@ -1,4 +1,4 @@
-import { Card } from "../../../interfaces"
+import { Card } from "models/database/card"
 import Set from "../Fusion Strike"
 
 const card: Card = {
@@ -6,12 +6,12 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pansage",
-		fr: "Feuillajou",
-		es: "Pansage",
-		it: "Pansage",
-		pt: "Pansage",
-		de: "Vegimak"
+		'en-us': "Pansage",
+		'fr-fr': "Feuillajou",
+		'es-es': "Pansage",
+		'it-it': "Pansage",
+		'pt-br': "Pansage",
+		'de-de': "Vegimak"
 	},
 
 	rarity: "Common",
@@ -30,19 +30,19 @@ const card: Card = {
 	illustrator: "Nagomi Nijo",
 
 	description: {
-		en: "It's good at finding berries and gathers them from all over. It's kind enough to share them with friends."
+		'en-us': "It's good at finding berries and gathers them from all over. It's kind enough to share them with friends."
 	},
 
 	attacks: [{
 		cost: ["Grass"],
 
 		name: {
-			en: "Scratch",
-			fr: "Griffe",
-			de: "Kratzer",
-			es: "Arañazo",
-			pt: "Arranhão",
-			it: "Graffio"
+			'en-us': "Scratch",
+			'fr-fr': "Griffe",
+			'de-de': "Kratzer",
+			'es-es': "Arañazo",
+			'pt-br': "Arranhão",
+			'it-it': "Graffio"
 		},
 
 		damage: 20

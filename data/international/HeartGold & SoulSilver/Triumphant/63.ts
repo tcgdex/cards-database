@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Gastly",
-		fr: "Fantominus",
-		de: "Nebulak"
+		'en-us': "Gastly",
+		'fr-fr': "Fantominus",
+		'de-de': "Nebulak"
 	},
 
 	illustrator: "Takashi Yamaguchi",
@@ -29,14 +29,14 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Sneaky Placement",
-				fr: "Placement vicieux",
-				de: "Heimlichtuerei"
+				'en-us': "Sneaky Placement",
+				'fr-fr': "Placement vicieux",
+				'de-de': "Heimlichtuerei"
 			},
 			effect: {
-				en: "Put 1 damage counter on 1 of your opponent's Pokémon.",
-				fr: "Placez un marqueur de dégât sur l’un des Pokémon de votre adversaire.",
-				de: "Lege 1 Schadensmarken auf 1 Pokémon deines Gegners."
+				'en-us': "Put 1 damage counter on 1 of your opponent's Pokémon.",
+				'fr-fr': "Placez un marqueur de dégât sur l’un des Pokémon de votre adversaire.",
+				'de-de': "Lege 1 Schadensmarken auf 1 Pokémon deines Gegners."
 			},
 
 		},
@@ -59,7 +59,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its body is made of gas. Despite lacking substance, it can envelop an opponent of any size and cause suffocation."
+		'en-us': "Its body is made of gas. Despite lacking substance, it can envelop an opponent of any size and cause suffocation."
 	},
 
 	variants: [

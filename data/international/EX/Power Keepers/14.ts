@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Dusclops",
-		fr: "Teraclope",
-		de: "Zwirrklop"
+		'en-us': "Dusclops",
+		'fr-fr': "Teraclope",
+		'de-de': "Zwirrklop"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -24,8 +24,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Duskull",
-		fr: "Skelénox"
+		'en-us': "Duskull",
+		'fr-fr': "Skelénox"
 	},
 
 	stage: "Stage1",
@@ -37,14 +37,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dark Mind",
-				fr: "Sombre-esprit",
-				de: "Finsteres Gemüt"
+				'en-us': "Dark Mind",
+				'fr-fr': "Sombre-esprit",
+				'de-de': "Finsteres Gemüt"
 			},
 			effect: {
-				en: "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				'en-us': "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 20,
 
@@ -56,14 +56,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mysterious Light",
-				fr: "Lumière mystérieuse",
-				de: "Geheimnisvolles Licht"
+				'en-us': "Mysterious Light",
+				'fr-fr': "Lumière mystérieuse",
+				'de-de': "Geheimnisvolles Licht"
 			},
 			effect: {
-				en: "If Phoebe's Stadium is in play, the Defending Pokémon is now Confused.",
-				fr: "Si Stade de Spectra est en jeu, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wenn Antonias Stadion im Spiel ist, ist das Verteidigende Pokémon jetzt verwirrt."
+				'en-us': "If Phoebe's Stadium is in play, the Defending Pokémon is now Confused.",
+				'fr-fr': "Si Stade de Spectra est en jeu, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Wenn Antonias Stadion im Spiel ist, ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 50,
 

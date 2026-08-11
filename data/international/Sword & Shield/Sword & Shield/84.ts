@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Sword & Shield'
 
 const card: Card = {
 	name: {
-		en: "Haunter",
-		fr: "Spectrum",
-		es: "Haunter",
-		it: "Haunter",
-		pt: "Haunter",
-		de: "Alpollo"
+		'en-us': "Haunter",
+		'fr-fr': "Spectrum",
+		'es-es': "Haunter",
+		'it-it': "Haunter",
+		'pt-br': "Haunter",
+		'de-de': "Alpollo"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -22,12 +22,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gastly",
-		fr: "Fantominus",
-		es: "Gastly",
-		it: "Gastly",
-		pt: "Gastly",
-		de: "Nebulak"
+		'en-us': "Gastly",
+		'fr-fr': "Fantominus",
+		'es-es': "Gastly",
+		'it-it': "Gastly",
+		'pt-br': "Gastly",
+		'de-de': "Nebulak"
 	},
 
 	stage: "Stage1",
@@ -38,20 +38,20 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nightmare",
-				fr: "Cauchemar",
-				es: "Pesadilla",
-				it: "Incubo",
-				pt: "Pesadelo",
-				de: "Nachtmahr"
+				'en-us': "Nightmare",
+				'fr-fr': "Cauchemar",
+				'es-es': "Pesadilla",
+				'it-it': "Incubo",
+				'pt-br': "Pesadelo",
+				'de-de': "Nachtmahr"
 			},
 			effect: {
-				en: "Your opponent's Active Pokémon is now Asleep.",
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
-				es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
-				it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-				pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
-				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
+				'en-us': "Your opponent's Active Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+				'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 20,
 
@@ -62,12 +62,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spooky Shot",
-				fr: "Tir Effrayant",
-				es: "Disparo Embrujado",
-				it: "Colpomistero",
-				pt: "Tiro Assustador",
-				de: "Spukschuss"
+				'en-us': "Spooky Shot",
+				'fr-fr': "Tir Effrayant",
+				'es-es': "Disparo Embrujado",
+				'it-it': "Colpomistero",
+				'pt-br': "Tiro Assustador",
+				'de-de': "Spukschuss"
 			},
 
 			damage: 40,
@@ -100,7 +100,7 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes."
+		'en-us': "Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes."
 	},
 
 	dexId: [93],

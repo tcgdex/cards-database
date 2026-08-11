@@ -1,10 +1,10 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../HGSS Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Ho-Oh",
-		fr: "Ho-Oh"
+		'en-us': "Ho-Oh",
+		'fr-fr': "Ho-Oh"
 	},
 	illustrator: "Takashi Yamaguchi",
 	rarity: "Promo",
@@ -26,8 +26,8 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Combustion",
-				fr: "Fournaise"
+				'en-us': "Combustion",
+				'fr-fr': "Fournaise"
 			},
 
 			damage: 20,
@@ -41,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sacred Fire",
-				fr: "Feu sacré"
+				'en-us': "Sacred Fire",
+				'fr-fr': "Feu sacré"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 80 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Lancez une pièce. Si c'est face, choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 80 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance."
+				'en-us': "Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 80 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
+				'fr-fr': "Lancez une pièce. Si c'est face, choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 80 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance."
 			},
 
 		},
@@ -67,7 +67,7 @@ const card: Card = {
 
 
 	description: {
-		en: "A legend says that its body glows in seven colors. A rainbow is said to form behind when it flies."
+		'en-us': "A legend says that its body glows in seven colors. A rainbow is said to form behind when it flies."
 	},
 
 	variants: [

@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../MC";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダダリン",
+		'ja-jp': "ダダリン",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		ja: "海底を 漂う 藻屑が 沈没船の 部品を 取りこんで ゴーストポケモンに 生まれ変わった。",
+		'ja-jp': "海底を 漂う 藻屑が 沈没船の 部品を 取りこんで ゴーストポケモンに 生まれ変わった。",
 	},
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 			damage: "80+",
 			cost: ["Grass", "Grass", "Colorless"],
 			effect: {
-				ja: "自分のベンチに[M]ポケモンがいるなら、80ダメージ追加。",
+				'ja-jp': "自分のベンチに[M]ポケモンがいるなら、80ダメージ追加。",
 			},
 		},
 	],

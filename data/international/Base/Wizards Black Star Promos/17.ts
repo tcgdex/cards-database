@@ -1,9 +1,9 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Wizards Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Dark Persian",
+		'en-us': "Dark Persian",
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
@@ -18,7 +18,7 @@ const card: Card = {
 		"Colorless",
 	],
 	evolveFrom: {
-		en: "Meowth",
+		'en-us': "Meowth",
 	},
 	stage: "Stage1",
 
@@ -29,10 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tempt",
+				'en-us': "Tempt",
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, flip a coin. If heads, choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon.",
+				'en-us': "If your opponent has any Benched Pokémon, flip a coin. If heads, choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon.",
 			},
 
 		},
@@ -42,10 +42,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Claws",
+				'en-us': "Poison Claws",
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 			},
 
 		},
@@ -64,7 +64,7 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Popular with women because of its beautiful fur. The leader of the Rockets keeps one as a pet.",
+		'en-us': "Popular with women because of its beautiful fur. The leader of the Rockets keeps one as a pet.",
 	},
 
 	variants: [

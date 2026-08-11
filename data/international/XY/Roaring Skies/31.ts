@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Banette",
-		fr: "Branette",
-		es: "Banette",
-		it: "Banette",
-		pt: "Banette",
-		de: "Banette"
+		'en-us': "Banette",
+		'fr-fr': "Branette",
+		'es-es': "Banette",
+		'it-it': "Banette",
+		'pt-br': "Banette",
+		'de-de': "Banette"
 	},
 
 	illustrator: "Aya Kusube",
@@ -27,12 +27,12 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shuppet",
-		fr: "Polichombr",
-		es: "Shuppet",
-		it: "Shuppet",
-		pt: "Shuppet",
-		de: "Shuppet"
+		'en-us': "Shuppet",
+		'fr-fr': "Polichombr",
+		'es-es': "Shuppet",
+		'it-it': "Shuppet",
+		'pt-br': "Shuppet",
+		'de-de': "Shuppet"
 	},
 
 	stage: "Stage1",
@@ -41,20 +41,20 @@ const card: Card = {
 		{
 			type: "Ability",
 			name: {
-				en: "Tool Concealment",
-				fr: "Outil Masqué",
-				es: "Ocultación de Herramientas",
-				it: "Nascondioggetto",
-				pt: "Esconderijo de Ferramentas",
-				de: "Ausrüstungsversteck"
+				'en-us': "Tool Concealment",
+				'fr-fr': "Outil Masqué",
+				'es-es': "Ocultación de Herramientas",
+				'it-it': "Nascondioggetto",
+				'pt-br': "Esconderijo de Ferramentas",
+				'de-de': "Ausrüstungsversteck"
 			},
 			effect: {
-				en: "Each Pokémon Tool card in play has no effect.",
-				fr: "Chaque carte Outil Pokémon en jeu n'a aucun effet.",
-				es: "Las cartas de Herramienta en juego no tienen efecto.",
-				it: "Nessuna carta Oggetto Pokémon in gioco ha effetto.",
-				pt: "Cada um dos cards de Ferramenta Pokémon em jogo não tem efeito.",
-				de: "Alle Pokémon-Ausrüstungen im Spiel haben keine Wirkung."
+				'en-us': "Each Pokémon Tool card in play has no effect.",
+				'fr-fr': "Chaque carte Outil Pokémon en jeu n'a aucun effet.",
+				'es-es': "Las cartas de Herramienta en juego no tienen efecto.",
+				'it-it': "Nessuna carta Oggetto Pokémon in gioco ha effetto.",
+				'pt-br': "Cada um dos cards de Ferramenta Pokémon em jogo não tem efeito.",
+				'de-de': "Alle Pokémon-Ausrüstungen im Spiel haben keine Wirkung."
 			},
 		},
 	],
@@ -67,12 +67,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psyshot",
-				fr: "Piqûre Psy",
-				es: "Disparo Psi",
-				it: "Psicosparo",
-				pt: "Tiro Psíquico",
-				de: "Psychoschuss"
+				'en-us': "Psyshot",
+				'fr-fr': "Piqûre Psy",
+				'es-es': "Disparo Psi",
+				'it-it': "Psicosparo",
+				'pt-br': "Tiro Psíquico",
+				'de-de': "Psychoschuss"
 			},
 
 			damage: 60,
@@ -97,7 +97,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Strong feelings of hatred turned a puppet into a Pokémon. If it opens its mouth, its cursed energy escapes.",
+		'en-us': "Strong feelings of hatred turned a puppet into a Pokémon. If it opens its mouth, its cursed energy escapes.",
 	},
 
 	thirdParty: {

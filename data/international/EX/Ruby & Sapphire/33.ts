@@ -1,11 +1,11 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Ruby & Sapphire'
 
 const card: Card = {
 	name: {
-		en: "Hariyama",
-		fr: "Hariyama",
-		de: "Hariyama"
+		'en-us': "Hariyama",
+		'fr-fr': "Hariyama",
+		'de-de': "Hariyama"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,8 +22,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Makuhita",
-		fr: "Makuhita"
+		'en-us': "Makuhita",
+		'fr-fr': "Makuhita"
 	},
 
 	stage: "Stage1",
@@ -35,14 +35,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shove",
-				fr: "Bousculer",
-				de: "Schubser"
+				'en-us': "Shove",
+				'fr-fr': "Bousculer",
+				'de-de': "Schubser"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -54,14 +54,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slap Down",
-				fr: "Écraser",
-				de: "Niederschlag"
+				'en-us': "Slap Down",
+				'fr-fr': "Écraser",
+				'de-de': "Niederschlag"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 40 damage plus 10 more damage for each heads.",
-				fr: "Lancez deux pièces. Cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte plus 10 Schadenspunkte für jede Münze, die das Ergebnis \"Kopf\" zeigt, zu."
+				'en-us': "Flip 2 coins. This attack does 40 damage plus 10 more damage for each heads.",
+				'fr-fr': "Lancez deux pièces. Cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque face.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte plus 10 Schadenspunkte für jede Münze, die das Ergebnis \"Kopf\" zeigt, zu."
 			},
 			damage: "40+",
 

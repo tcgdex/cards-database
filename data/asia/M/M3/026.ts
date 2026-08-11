@@ -1,10 +1,10 @@
-import { Card } from "../../../interfaces";
+import { Card } from "models/database/card";
 import Set from "../M3";
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルクシオ",
+		'ja-jp': "ルクシオ",
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -13,7 +13,7 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		ja: "仲間と 尻尾を つなげると より 強力な 電撃を ツメから 出すことが できる。",
+		'ja-jp': "仲間と 尻尾を つなげると より 強力な 電撃を ツメから 出すことが できる。",
 	},
 
 	stage: "Stage1",
@@ -28,7 +28,7 @@ const card: Card = {
 	variants: [{"type": "normal"}],
 
 	evolveFrom: {
-		ja: "コリンク",
+		'ja-jp': "コリンク",
 	},
 
 	retreat: 1,

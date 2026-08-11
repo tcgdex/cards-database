@@ -1,14 +1,14 @@
-import { Card } from '../../../interfaces'
+import { Card } from 'models/database/card'
 import Set from '../Dark Explorers'
 
 const card: Card = {
 	name: {
-		en: "Galvantula",
-		fr: "Mygavolt",
-		es: "Galvantula",
-		it: "Galvantula",
-		pt: "Galvantula",
-		de: "Voltula"
+		'en-us': "Galvantula",
+		'fr-fr': "Mygavolt",
+		'es-es': "Galvantula",
+		'it-it': "Galvantula",
+		'pt-br': "Galvantula",
+		'de-de': "Voltula"
 	},
 
 	illustrator: "Akira Komayama",
@@ -27,8 +27,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Joltik",
-		fr: "Statitik"
+		'en-us': "Joltik",
+		'fr-fr': "Statitik"
 	},
 
 	stage: "Stage1",
@@ -39,12 +39,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Quick Turn",
-				fr: "Vif Retournement"
+				'en-us': "Quick Turn",
+				'fr-fr': "Vif Retournement"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
 			},
 			damage: 20,
 
@@ -55,12 +55,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electrisilk",
-				fr: "Électrisoie"
+				'en-us': "Electrisilk",
+				'fr-fr': "Électrisoie"
 			},
 			effect: {
-				en: "If the Defending Pokémon has no Retreat Cost, this attack does 40 more damage.",
-				fr: "Si le Pokémon Défenseur n'a pas de coût de Retraite, cette attaque inflige 40 dégâts supplémentaires."
+				'en-us': "If the Defending Pokémon has no Retreat Cost, this attack does 40 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur n'a pas de coût de Retraite, cette attaque inflige 40 dégâts supplémentaires."
 			},
 			damage: 30,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it.",
+		'en-us': "They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it.",
 	},
 
 	thirdParty: {
